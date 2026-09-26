@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hans-christian-andersen",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hans Christian Andersen",
+    "aliases": [
+      "H. C. Andersen",
+      "H.C. Andersen",
+      "Hans Andersen"
+    ],
+    "wikidataId": "Q5673",
+    "birthYear": 1805,
+    "deathYear": 1875,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DK"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_andersen_wikipedia",
+      "kind": "wikipedia",
+      "title": "Hans Christian Andersen (English Wikipedia) -- orientation only; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Hans_Christian_Andersen"
+    },
+    {
+      "id": "src_andersen_wikidata",
+      "kind": "wikidata",
+      "title": "Hans Christian Andersen (Q5673) -- verified live via wbgetentities (2026-09-26): en label 'Hans Christian Andersen', description 'Danish writer and poet (1805–1875)', da label 'H.C. Andersen', ko label '한스 크리스티안 안데르센', born 1805-04-02, died 1875-08-04, citizenship Q756617 (Kingdom of Denmark), P18 'Hans Christian Andersen by Thora Hallager 1869.jpg', kowiki '한스 크리스티안 안데르센'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q5673"
+    },
+    {
+      "id": "src_andersen_self_truestory",
+      "kind": "archive",
+      "title": "Hans Christian Andersen, The True Story of My Life: A Sketch, translated by Mary Howitt (London: Longman, 1847), archive.org OCR full text (truestoryofmylif00ande) -- SELF, one perspective, notoriously self-mythologising (Bain and Edvard Collin both warn against its account of critics); never sole support for a row. Read: the 1819-22 Copenhagen chapter (Siboni, Guldberg, Thiele, the anonymous first play) and the 1844 passage on the rejection of Lykkens Blomst and his letter to and conversation with J. L. Heiberg (pp. 229-232). Also opened for cross-checking but not cited: The Story of My Life (Hurd & Houghton 'Author's Edition', 1871; storyofmylife00ande_0).",
+      "url": "https://archive.org/details/truestoryofmylif00ande"
+    },
+    {
+      "id": "src_andersen_bain",
+      "kind": "biography",
+      "title": "R. Nisbet Bain, Hans Christian Andersen: A Biography (London: Lawrence & Bullen, 1895), archive.org OCR full text (hanschristianand00bainiala) -- SCHOLAR perspective (British Museum librarian, 20 years after Andersen's death), built mainly on the Danish letter editions (Bille & Bøgh, Breve fra / Breve til H. C. Andersen, 1877-78) and Edvard Collin, H. C. Andersen og det Collinske Hus (1882), which prints the Royal Theatre directors' reports, censors' reports (Molbech, Holstein, Heiberg) and Meisling's reports; Bain states the autobiography must be used 'with the utmost caution' and repeatedly corrects it. Read in full: Introduction; ch. II (Copenhagen 1819-22, incl. J. M. Thiele's own account of their first meeting from his memoirs and Admiral Wulff's account); ch. III (Slagelse/Elsinore 1822-27); ch. VI (first tales 1835, Danish reviews, 1838 pension, Marmier); ch. VII (vaudevilles 1835-39, The Mulatto and Molbech/Holstein reports 1839-40, The Moorish Girl and Heiberg's report 1840, H. P. Holst's letter on the unsent epistle 1841, W. F. Ainsworth's 1841 account from the Literary Gazette); ch. VIII (anonymous submissions of 1843 and 1845, Heiberg's rejection of Lykkens Blomst 1844, Edvard Collin's letter on Herr Rasmussen 1846, Grimm 1844). Skimmed for specific passages: ch. IX (England, Dickens), ch. XII (Dr Bloch's recollection of his readings), ch. XIV (finances). Bain's own motive readings (vanity, 'morbid' sensitivity) are NOT used as evidence; only the dated acts and documents he reports.",
+      "url": "https://archive.org/details/hanschristianand00bainiala"
+    },
+    {
+      "id": "src_andersen_demylius",
+      "kind": "institution",
+      "title": "Johan de Mylius, The Hans Christian Andersen Centre, University of Southern Denmark (andersen.sdu.dk) -- SCHOLAR perspective, independent of Bain (modern Danish Andersen scholar). Read: 'Hans Christian Andersen - a short biography' (full page); the short biography sub-pages 'Theatre' and 'Fairy Tales'; and entries of de Mylius's day-by-day biography 'The Life of Hans Christian Andersen. Day By Day' (the online Timetable) for 1838, Feb. 1844 (The King Dreams, submitted anonymously), Jan.-Mar. 1845 (Lykkens Blomst performed; Den nye Barselstue first performed 26 Mar.), 1851 and July 1863 (paper-cuttings), Jan. 1860 (Workers' Association reading), 1856 (Liden Kirsten in Weimar), 13 Mar. and 12 June 1868 (Scudder). Timetable entries on his private life and health were seen and deliberately NOT used.",
+      "url": "https://andersen.sdu.dk/liv/biografi/index_e.html"
+    },
+    {
+      "id": "src_andersen_brandes",
+      "kind": "archive",
+      "title": "Georg Brandes, 'Hans Christian Andersen' (1869), in Eminent Authors of the Nineteenth Century: Literary Portraits, trans. Rasmus B. Anderson (New York: Crowell, 1886), pp. 61-73, archive.org OCR full text (cu31924027150519) -- NON-SELF CONTEMPORARY CRITIC perspective (Danish critic writing in Andersen's lifetime). Read: the opening analysis of the tales' spoken, child-directed prose and the worked comparison of Juan Manuel's Count Lucanor ch. VII with 'The Emperor's New Clothes'.",
+      "url": "https://archive.org/details/cu31924027150519"
+    },
+    {
+      "id": "src_andersen_gosse",
+      "kind": "archive",
+      "title": "Edmund Gosse, Two Visits to Denmark, 1872, 1874 (London: Smith, Elder, 1911), archive.org OCR full text (twovisitstodenma00gossuoft) -- NON-SELF EYEWITNESS (English critic who met Andersen at Rolighed in July 1872 and at Nyhavn in June 1874). Read: ch. on the 1872 visit to Rolighed (pp. 95-103), the two Andersen letters to Gosse of 30 Dec. 1872 and 20 Jan. 1874 quoted on pp. 137-140 (SELF, quoted), and the June 1874 visit (pp. 237-241). Most of the 1874 material concerns illness and is NOT used.",
+      "url": "https://archive.org/details/twovisitstodenma00gossuoft"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_andersen_bain, src_andersen_demylius, src_andersen_self_truestory | Sept. 1819 - 1822; 1835-1846 | scholar + scholar + self] After the Royal Theatre director turned him away in Sept. 1819 (the directors' official report, printed by Collin, says he lacked the talent and figure for the stage) he tried in turn singing lessons with Siboni, the theatre's dancing school (1820), its chorus school (May 1821), repeated requests to the directors for small parts (their written reply held out no hope), and, after his dismissal in June 1822, playwriting: 'The Robbers at Vissenberg' was returned with a letter citing his lack of elementary education, and he sent in 'Alfsol' at once, which led Rahbek and Jonas Collin to have him schooled at public expense. De Mylius independently summarises these years as a desperate fight to gain a foothold as dancer, actor or singer and then playwright. As an established author he kept submitting plays through Molbech's rejections of six vaudevilles (1835-39) and the failures of 'The Moorish Girl' (1840) and 'Herr Rasmussen' (1846); de Mylius counts about thirty plays. Dual-edged: Bain and Edvard Collin's 1846 letter show much of this effort went into work that failed on stage."
+    },
+    "social_assertiveness": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_andersen_bain, src_andersen_demylius, src_andersen_gosse | c.1821; 1838; 1844; 1858-1860s; July 1872 | scholar + scholar + eyewitness] Non-self accounts relayed by Bain: the poet J. M. Thiele's own memoir describes the unknown youth entering his study unannounced (c. 1821), bowing and reciting his own poem and scenes from several plays before leaving; Admiral Wulff describes him reading an entire tragedy at their first meeting and promising another in a fortnight; Dr Bloch recalls him at later readings insisting that knitting and cigars be put down. Bain reports from his letters that he called on the French critic Marmier (1838) and on Jacob Grimm in Berlin (1844) without introductions. De Mylius records that he accepted the Workers' Association's invitation to read, reading about 20 times to audiences of 500-1,000. Gosse records him proposing, at their first meeting in July 1872, to read aloud a tale he had just written. Bain and Marmier also note awkward, timid manners, and Bain notes the ridicule this forwardness drew; hence dual-edged and not higher."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_andersen_bain, src_andersen_demylius | 1838; 1856; 1868-69 | scholar + scholar] When Count Rantzau-Breitenberg asked what he could do for him, Andersen named a journey to Italy or an annual pension, later jogged the count's memory in what Bain, reading the letter, calls 'a very skilful letter', and petitioned the King; a royal resolution of 26 May 1838 granted the pension (Bain, from Bille & Bøgh). De Mylius records that he persuaded Franz Liszt to stage his and Hartmann's opera 'Liden Kirsten' at Weimar (1856), and that when Horace Scudder proposed an authorised American edition (12 June 1868) Andersen made the inclusion of an updated autobiography a condition, began the update at once and posted the final section on 4 June 1869. Three separate, dated instances of creating an opening rather than waiting for one."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_andersen_bain, src_andersen_demylius | Sept. 1839; Nov. 1843 - Mar. 1845 | scholar + scholar] Believing the censor judged his name rather than his plays, he submitted 'The King Dreams' (Nov. 1843) and 'Den nye Barselstue' (Jan. 1845) anonymously and both were accepted (Bain); de Mylius independently confirms the anonymous submission of the first and dates the premiere of the second (26 Mar. 1845). Bain also records that a vaudeville Molbech had dismissed as witless was recast and resubmitted in Sept. 1839 as 'The Invisible at Sprogø' and accepted. Two distinct workarounds for a blocked route to the stage; performance counts are context only, not the basis of the score."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_andersen_brandes, src_andersen_bain, src_andersen_demylius | 1835-1837; 1869 | critic + scholar + scholar] Brandes (1869), writing in Andersen's lifetime, shows that the tales deliberately break written syntax to reproduce speech addressed to a child ('This is not the way people write. That is true; but it is the way they speak') and traces point by point how Andersen reworked a medieval Spanish exemplum (Count Lucanor ch. VII) into 'The Emperor's New Clothes', dropping its moral and recasting its king. Danish reviewers of the 1835 booklets, quoted by Bain, objected that the tales were too colloquial and pointed no moral, which dates the departure from convention. De Mylius records that in 1835 he completely rewrote his 1830 folk-tale 'Dødningen' in style and narrative technique as 'The Travelling Companion'. Counter-evidence keeps the score below 80: Bain and the censors' reports document borrowing in his drama (Suhm's language in 'Alfsol', a French novel behind 'The Mulatto', Heiberg's play behind 'Lykkens Blomst')."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_andersen_demylius, src_andersen_bain, src_andersen_brandes | 1835; 1835-1839; 1840; 1849-; 1852 | scholar + scholar + critic] Distinct, dated changes of form: the 1835 tales 'told to children' in a spoken register (Brandes; Bain); seven adapted operettas and vaudevilles in 1835-39 (Bain lists them with dates); 'Picture Book without Pictures' (1840), a sequence of short moonlit sketches (Bain); revues for the Students' Association, an opera libretto and, from 1849, plays for the new Casino theatre (de Mylius); and in 1852 the new series title 'Historier', which de Mylius reads as signalling a new realism. A pattern across forms rather than a stated wish to experiment, hence strong_inference; the frequent stage failures are not held against the score."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_andersen_demylius, src_andersen_bain | 1838; Oct. 1840 - July 1841; 1868 | scholar + scholar] De Mylius counts 29 journeys abroad and over nine years spent outside Denmark, and notes that he enthusiastically embraced the railway, the telegraph and industry in his travel writing. Bain, from the letters and 'A Poet's Bazaar', documents the 1840-41 journey via Germany and Italy to Athens, Constantinople and down the Danube: riding lessons in Athens, the dervish ceremony at Scutari, the Sultan's procession, and his immediate liking for the new railway. For 'The Mulatto' (1838) Bain reports from his letters that he read 'a whole library' of books on Africa and America. De Mylius's day-book notes him seeing projected slides for the first time and remarking on the food hoist at Carlsberg (1868). Several independent, dated instances."
+    },
+    "aesthetic_sensitivity": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_andersen_bain, src_andersen_demylius | 1839; 1841; 1842; 1851; 1863 | scholar + scholar] Bain reports from the letters that he was overjoyed by the illustrated German edition of 1839, described every plate to his friends, and afterwards made it 'a great point' that the tales be illustrated well; he also quotes the severe critic P. L. Møller praising the landscape and genre pictures of 'A Poet's Bazaar' (1842). His paper-cutting is independently attested: W. F. Ainsworth (1841, via Bain) had Andersen's cuttings of turning dervishes engraved for his own travel book, and de Mylius records a cutting of the corvette Galathea at Constantinople made for Steen Bille (1851) and cuttings made at Friisenborg (1863). Scored from documented attention to visual form, not from his occupation."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_andersen_demylius, src_andersen_bain | 1829-1872; 1841-1863 | scholar + scholar] Sustained output in several literary forms -- poems, novels, travel books, about thirty plays and an opera libretto, and tales (de Mylius; Bain) -- plus a documented second, visual practice, paper-cutting, which others used as source material (Ainsworth 1841) and which he made as gifts (1851, 1863; de Mylius). The forms lie mostly within one field (literature), so the lean is only moderate."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_andersen_bain, src_andersen_demylius | 1836; Nov. 1838; 1838-44 | letters via scholar + scholar] Letters quoted by Bain: after 'O.T.' (1836) he wrote that he had 'scrambled several hundreds of feet higher up the mountain of Fame'; in Nov. 1838, seated in the pit while Thorvaldsen and Oehlenschläger sat in the stalls, 'I am not big enough to get there yet, but 'tis sure to come'; and Bain documents across 1838-44 his stated aim to prove himself a greater poet than Oehlenschläger and a greater dramatist than Heiberg, and his resolve to 'compel' recognition with 'The Mulatto'. De Mylius describes the urge to realise his potential through art as the thread of his childhood and rise. Largely his own statements, read through two scholars; dual-edged because Bain and Edvard Collin's 1846 letter document how this aim kept him on stage work that failed."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q5673 verified live (wbgetentities, 2026-09-26): en label 'Hans Christian Andersen', description 'Danish writer and poet (1805–1875)', da label 'H.C. Andersen', ko label '한스 크리스티안 안데르센', ko description '덴마크의 동화작가, 소설가 (1805–1875)', born 1805-04-02, died 1875-08-04, citizenship Q756617 (Kingdom of Denmark), P18 'Hans Christian Andersen by Thora Hallager 1869.jpg', kowiki sitelink '한스 크리스티안 안데르센' (used for displayNames ko-KR). Slug collision check: no hans-christian-andersen file in data-pipeline/candidates, no Andersen person in src/data/people, no Andersen portrait in public/portraits. CLASSIFICATION PRECEDENT: era 19th_century follows charles-dickens (b. 1812) and fridtjof-nansen (b. 1861); regionCode western_europe follows the Nordic precedents fridtjof-nansen, roald-amundsen and ingmar-bergman (all western_europe); nationalityCodes DK follows niels-bohr (the existing DK precedent). Occupation writer only (existing id): the poems are real but minor next to the tales, novels, plays and travel books, so poet was not added. Field literature as assigned. Impact domains literary, cultural (charles-dickens precedent); tag overcame_adversity (charles-dickens precedent; a biographical fact about origins, not used for any score); archetype creative_creator. No new tags or occupations proposed. EVIDENCE READ (7 source records incl. 2 orientation; 5 substantive records, all opened and read locally from downloaded texts in scratch_r40/work/hans-christian-andersen): Bain's 1895 biography (Introduction and chs. II, III, VI, VII, VIII read in full; IX, XII, XIV skimmed for specific passages); de Mylius's pages at the H. C. Andersen Centre (short biography, two sub-pages, and specific day-book entries); Brandes's 1869 essay (opening analysis and the Count Lucanor comparison); Gosse's Two Visits to Denmark (1872 and 1874 visits and the two quoted letters); Andersen's True Story of My Life (1847, Howitt translation; the 1819-22 chapter and the 1844 Heiberg passage). Also opened but NOT used as source records: The Letters of Charles Dickens vol. 2 (Gutenberg #25853; Andersen appears only in a passing mention of the planned 1857 visit, with no behavioural content); The Story of My Life (1871 Author's Edition, downloaded, used only to cross-check). Not accessible: Elias Bredsdorff, Hans Andersen and Charles Dickens (1956; Internet Archive lending only), Edvard Collin's H. C. Andersen og det Collinske Hus (1882) directly (its documents are used only as printed or summarised by Bain), Jens Andersen's biography. INDEPENDENT PERSPECTIVES: (1) Andersen himself (autobiography and letters; one self perspective, never sole support); (2) R. Nisbet Bain, 1895 scholar working from the letter editions and Collin's documents, which carry non-self contemporary voices: the Royal Theatre directors' and censors' reports (Molbech, Holstein, Heiberg), Meisling's reports, Edvard Collin's 1846 letter, and first-hand recollections by J. M. Thiele, Admiral Wulff, H. P. Holst, W. F. Ainsworth (Literary Gazette 1841) and Dr Bloch -- these reach this file only through Bain, so they are not counted as separate records; (3) Johan de Mylius, modern Danish scholar (H. C. Andersen Centre), independent of Bain; (4) Georg Brandes, contemporary critic (1869); (5) Edmund Gosse, eyewitness 1872/1874. NON-SELF behavioural sources: Bain (and the documents/recollections he prints), de Mylius, Brandes, Gosse. EPISODE USE (no episode supports more than two rows): Copenhagen 1819-22 (Schall, Holstein, Siboni, dancing and chorus schools, first plays) -> persistence, social_assertiveness (Thiele and Wulff recollections); continued stage career 1835-46 (vaudevilles, The Mulatto after Molbech, The Moorish Girl, Herr Rasmussen) -> persistence, achievement_drive; The Mulatto research 1838 -> curiosity (the Molbech appeal is part of the stage-career episode); Marmier 1838 and Grimm 1844 calls, readings (Bloch; Workers' Association; Gosse 1872) -> social_assertiveness; 1838 pension via Rantzau -> proactive_agency; Liszt 1856, Scudder 1868-69 -> proactive_agency; anonymous submissions 1843/1845 and the Sprogø recast 1839 -> resourcefulness; the 1835 tales in spoken register and the Dødningen rewrite -> creative_originality, experimentation; Count Lucanor/Emperor's New Clothes (Brandes) -> creative_originality; forms 1835-52 (vaudevilles, Picture Book, Casino plays, Historier) -> experimentation, cross_domain_range; travels (29 journeys; 1840-41 East journey; railway) -> curiosity; illustration of the tales 1839 and Bazaar word-painting 1842 -> aesthetic_sensitivity; paper-cutting 1841-63 -> aesthetic_sensitivity, cross_domain_range. ROWS CONSIDERED AND LEFT UNSCORED: conflict_tolerance (genuinely mixed: he pressed the Mulatto appeal past Molbech in 1839 and wrote to and confronted Heiberg in 1844, but a venomous 1841 epistle was stopped by Holst, he 'durst not question' Heiberg's 1840 verdict, and each quarrel ended in quick reconciliation); belief_updating (early dismissal of the tales as trifles in 1839 letters versus their later centrality, against his persistent attribution of stage failures to cliques that Edvard Collin's 1846 letter contradicts -- mixed); discipline (Meisling's reports of exemplary diligence at school 1822-26 versus Meisling's later complaint of 'thoughtlessness and laziness' and de Mylius's remark that he depended on inspiration); execution_speed ('The Moorish Girl' written in seven months and judged hasty by Heiberg; single-source); competitiveness (rivalry with Oehlenschläger/Heiberg rests on his own letters -- folded into achievement_drive); opportunity_sensing (the simultaneous American manuscript dispatch of 1872 is known only from his own letter quoted by Gosse; the Scudder arrangement was Scudder's initiative); risk_tolerance, autonomy_need, collaboration, leadership_drive, persuasiveness, impact_motivation, perfectionism, analytical and planning traits -- insufficient on-point evidence. EXCLUDED ON PURPOSE: all romantic, sexual and private-life material (including de Mylius day-book entries on his private almanac and the 1840s attachments Bain mentions); health, illness, anxieties, fears (the ocean, cholera) and the circumstances of his last years (most of Gosse's 1874 visit); personality readings from poverty, his mother or schooling; Bain's and Andersen's own characterisations of his 'vanity' and 'sensitiveness' as psychological labels; the Dickens 1857 visit anecdotes (including the widely repeated card about the length of his stay, which I could not trace to a primary text I read); patriotism and the Schleswig wars (no politics); honours, sales, translation counts and fame. KNOWN LIMITS: Bain is a single 1895 scholar and much of the contemporary non-self testimony (Thiele, Wulff, Holst, Ainsworth, Bloch, the censors) reaches this file only through him; de Mylius is independent but his short pages summarise rather than document; Brandes speaks to the work, not to conduct. Andersen's autobiography is used only as a parallel self account. Modern full biographies (Jens Andersen, Wullschlager) and Bredsdorff were not freely available. No row exceeds 0.70 confidence. PORTRAIT: File:Hans_Christian_Andersen_by_Thora_Hallager_1869.jpg (Wikidata P18). Commons API and raw wikitext read: {{Photograph}} by {{creator:Thora Hallager}} (Danish photographer, 1821-1884), date 10 or 16 October 1869, source museum.odense.dk; licence {{PD-old-auto-1923|deathyear=1884}}; extmetadata Copyrighted False; no third-party copyright-claim or museum 'In copyright' notice. The upstream museum.odense.dk page no longer resolves (connection failed), so it could not be re-checked; the basis does not depend on it (photographer died 1884, photo taken 1869 and published long before 1931). Original downloaded 1409 x 2149 px, opened with PIL, downscaled to 1049 x 1600 px, JPEG q85, no crop; visually checked (profile half-length photograph of Andersen, left-facing, seated). Kind 'likeness' (photograph from life). Rejected alternatives: the other Commons version of the same photograph (HCA 1869 by Thora Hallager.jpg; no advantage) and painted portraits (the photograph is the Wikidata image and the rights basis is clean). No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "한스 크리스티안 안데르센"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hans-christian-andersen-hallager-1869.jpg",
+    "width": 1049,
+    "height": 1600,
+    "source": "Thora Hallager, photograph of Hans Christian Andersen, Copenhagen, October 1869, via Wikimedia Commons (source given there as museum.odense.dk, Odense City Museums)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-auto-1923",
+    "attribution": "Thora Hallager, Hans Christian Andersen, 1869; public domain (photographer d. 1884); downscaled",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Hans_Christian_Andersen_by_Thora_Hallager_1869.jpg",
+    "creator": "Thora Hallager",
+    "date": "1869",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hans_Christian_Andersen_by_Thora_Hallager_1869.jpg"
+  }
+}

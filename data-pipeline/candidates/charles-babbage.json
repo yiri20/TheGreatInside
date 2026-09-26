@@ -1,0 +1,226 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "charles-babbage",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Charles Babbage",
+    "aliases": [],
+    "wikidataId": "Q46633",
+    "birthYear": 1791,
+    "deathYear": 1871,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "inventor",
+      "engineer"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "computing",
+      "engineering"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "early_computing",
+      "innovator",
+      "polymath"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_babbage_wikipedia",
+      "kind": "wikipedia",
+      "title": "Charles Babbage (English Wikipedia) -- orientation only (identity, dates, occupations); not used as support for any scored row. The Korean Wikipedia page 'ko:찰스 배비지' was confirmed to exist via the Wikidata sitelink (title only).",
+      "url": "https://en.wikipedia.org/wiki/Charles_Babbage"
+    },
+    {
+      "id": "src_babbage_wikidata",
+      "kind": "wikidata",
+      "title": "Charles Babbage (Q46633) -- identity verified live through the Wikidata API (wbgetentities: labels, descriptions, claims, sitelinks): en label 'Charles Babbage', description 'English mathematician, philosopher, and engineer (1791–1871)', ko label '찰스 배비지', born 1791-12-26, died 1871-10-18, citizenship United Kingdom of Great Britain and Ireland (Q174193), P18 'CharlesBabbage.jpg' and 'Charles Babbage - 1860.jpg', kowiki title '찰스 배비지'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q46633"
+    },
+    {
+      "id": "src_babbage_passages",
+      "kind": "biography",
+      "title": "Charles Babbage, Passages from the Life of a Philosopher (London, 1864), Project Gutenberg #57532 full text downloaded and read locally -- SELF (autobiography; one self perspective, written in old age and openly aggrieved). Read: ch. II (Childhood), ch. IV (Cambridge: Lacroix purchase 1811, Analytical Society), ch. V (Difference Engine No. 1: origin 1812-13 anecdote, 1819-22 models, the wheel-cutter episode), ch. VIII (Analytical Engine: workshops, forge and foundry, drawing office, carrying the tens by anticipation, retaining the chief draftsman), ch. XXV (Railways: the 1838-39 Great Western experimental carriage). Never the sole support for a row.",
+      "url": "https://www.gutenberg.org/ebooks/57532"
+    },
+    {
+      "id": "src_babbage_statement_1843",
+      "kind": "biography",
+      "title": "'Statement relative to the Difference Engine, drawn up by the late Sir H. Nicolas from the Author's Papers' (dated August 1843), reprinted as ch. VI of Passages from the Life of a Philosopher (1864), Gutenberg #57532, read in full (pp. 68-96 of the original) -- SELF/ADVOCATE perspective (compiled by the antiquary Sir Harris Nicolas from Babbage's own papers and letters to the Treasury 1823-42; it quotes Babbage's letters of 1830, 1836, 1838, 1841-42 and records the 1833 stoppage by the engineer Joseph Clement, the 1834-38 requests for a decision, the Government's 4 Nov. 1842 withdrawal and the 11 Nov. 1842 interview with Peel). Treated as part of the same self perspective as the autobiography; never sole support.",
+      "url": "https://www.gutenberg.org/ebooks/57532"
+    },
+    {
+      "id": "src_babbage_decline_1830",
+      "kind": "biography",
+      "title": "Charles Babbage, Reflections on the Decline of Science in England, and on Some of Its Causes (London, 1830), Project Gutenberg #1216 full text -- SELF. Structure and the sections ch. IV 'State of the Royal Society in particular' (sections on the presidency, secretaryships, funds, medals, causes, plan for reforming the Society) and ch. V 'Of Observations' (hoaxing, forging, trimming, cooking) read. Used only as the dated public act itself (an 1830 book-length public criticism of the Royal Society's officers and management), with non-self corroboration from Airy and the Computer History Museum.",
+      "url": "https://www.gutenberg.org/ebooks/1216"
+    },
+    {
+      "id": "src_babbage_edinburgh_1834",
+      "kind": "press",
+      "title": "'Babbage's Calculating Engine', Edinburgh Review no. CXX (July 1834), Art. I, anonymous review-essay conventionally attributed to Dionysius Lardner (Gutenberg #71292 lists it under Babbage's name; the text speaks of 'Mr Babbage' in the third person and Smiles 1863 cites it as 'Dr. Lardner's account'). Full text read, especially the passages on the drawings and mechanical notation and the closing section on the 1829 Royal Society committee report and the 1833-34 suspension. CONTEMPORARY JOURNALIST/SCIENCE-WRITER perspective: sympathetic and evidently briefed ('upon authority on which the most perfect reliance may be placed'), but it openly criticises Babbage's withdrawal from dealing with Government; it also summarises the 1829 Royal Society committee report (Herschel, Baily, Brunel, Donkin, Rennie et al.), which was not opened directly.",
+      "url": "https://www.gutenberg.org/ebooks/71292"
+    },
+    {
+      "id": "src_babbage_smiles_1863",
+      "kind": "biography",
+      "title": "Samuel Smiles, Industrial Biography: Iron Workers and Tool Makers (London, 1863), ch. XIII on Joseph Clement, Project Gutenberg #404 full text; the Clement/Difference Engine passage and its footnote read -- INDEPENDENT VICTORIAN BIOGRAPHER writing Clement's life (the engineer's side of the 1833 dispute; admiring of Clement, not of Babbage). Gives the 1823 engagement of Clement, the 400 sq ft of drawings, the cost figures, the dispute over Clement's charges for moving the works and his withdrawal with the tools.",
+      "url": "https://www.gutenberg.org/ebooks/404"
+    },
+    {
+      "id": "src_babbage_airy",
+      "kind": "biography",
+      "title": "Autobiography of Sir George Biddell Airy, ed. Wilfrid Airy (Cambridge, 1896), Project Gutenberg #10655 full text; every Babbage passage read (1819-20 Lacroix translation and Examples by Herschel, Peacock and Babbage; the 1826 Lucasian election; the c.1830 'reforming party' on the Greenwich Board of Visitors; Airy's 15 Sept. 1842 opinion to Goulburn that the engine was 'worthless'). CONTEMPORARY, ADVERSARIAL perspective (Airy, Astronomer Royal, was a rival and a critic; journal-based entries edited by his son). Used only for dated facts, not for his judgements of the engine.",
+      "url": "https://www.gutenberg.org/ebooks/10655"
+    },
+    {
+      "id": "src_babbage_menabrea_lovelace",
+      "kind": "archive",
+      "title": "L. F. Menabrea, 'Sketch of the Analytical Engine invented by Charles Babbage' (Bibliothèque Universelle de Genève, Oct. 1842), trans. with Notes A-G by Ada Augusta, Countess of Lovelace (Taylor's Scientific Memoirs vol. III, 1843), Fourmilab transcription downloaded; Menabrea's memoir read in full, Lovelace's Note A read (including her passage on the two engines and the suspension), the remaining Notes only skimmed -- Menabrea: CONTEMPORARY SCHOLAR, non-self, writing from Babbage's explanations during his 1840 visit to Turin; Lovelace's Notes: CLOSE COLLABORATOR/SUPPORTER (insider, sympathetic). Used for the conception and generality of the Analytical Engine and for the fact that Babbage presented his designs in Turin; the Notes' defence of him on the suspension is treated as partisan.",
+      "url": "https://www.fourmilab.ch/babbage/sketch.html"
+    },
+    {
+      "id": "src_babbage_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, 'The Babbage Engine' web exhibit (curatorial text associated with the Difference Engine No. 2 replica project, Doron Swade), pages 'Charles Babbage (1791-1871)', 'The Engines' and 'A Brief History' read in full (downloaded) -- INSTITUTIONAL/SCHOLARLY perspective, independent of Babbage, openly critical of his conduct ('prickly', 'rotten publicist', 'virulent public criticism'); its 'first computer pioneer' framing is NOT adopted. Used for dated design facts (1821 start, 1832 demonstration piece, 1833 stoppage, 1834 Analytical Engine, 1847-49 Difference Engine No. 2, experimental Analytical Engine piece at his death) and for documented range of his inventions and interests. Personal bereavements described there are NOT used.",
+      "url": "https://www.computerhistory.org/babbage/"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 84,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_babbage_edinburgh_1834, src_babbage_menabrea_lovelace, src_babbage_chm, src_babbage_passages | 1821-34; 1834-40; 1847-49 | contemporary journalist + contemporary scholar/collaborator + museum + self] The 1834 Edinburgh Review describes how, finding it impossible to keep in memory all the motions propagated through the Difference Engine, Babbage devised a 'mechanical notation' (paper of 1826) that traces every motion to its source and maps what every part is doing at each instant, so that conflicts could be found on paper before anything was built. Menabrea (1842), from Babbage's own explanations in Turin in 1840, reports that he set aside the single-purpose Difference Engine for a machine whose operations would have 'all the generality of algebraical notation'; the Computer History Museum dates that conception to 1834 and describes its separation of a 'Store' from a 'Mill', punched-card control and conditional operations. His own account (ch. VIII) says the notation let him control trains of investigation otherwise unmanageable. Several independent descriptions of the same design behaviour; the priority framing is not scored. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 86/0.78 documented -> 84/0.72 documented; sources are sympathetic contemporaries plus unsigned museum text; confidence trimmed for weak independence"
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_babbage_menabrea_lovelace, src_babbage_chm, src_babbage_passages, src_babbage_statement_1843 | 1834-40 | contemporary scholar + collaborator + museum + self] Menabrea (1842) and Lovelace's Notes (1843) describe the Analytical Engine as a new system rather than an extension of the earlier machine; Lovelace states that its ideas arose independently of the Difference Engine. The Computer History Museum records the 1834 conception and, among its devices, error-detecting jamming and a printer that stereotyped its own results. His own account describes abandoning 'successive carriage' after twenty or thirty drawn plans and working out in a few hours a mechanism to anticipate all carries at once (ch. VIII), and the 1843 Statement says upwards of twenty modes of mechanical addition were designed before one was simple enough. The originality of the designs, not their fame or later influence, is scored; no 'first computer' claim is relied on. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 82/0.7 documented -> 78/0.62 strong_inference; originality is partly a judgment of the invention's importance; the behavioural evidence (redesign after many drawn plans) comes largely via his own account and a sympathetic collaborator"
+    },
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_babbage_chm, src_babbage_passages, src_babbage_airy | childhood; 1811-20; 1830s-60s | museum + self + adversarial contemporary] The Computer History Museum documents an unusually wide range of self-directed inquiries -- lighthouse signalling, an ophthalmoscope, railway recording apparatus, lock picking, ciphers, chess, diving bells, a seismic detector, tidal power -- alongside mathematics and the engines. His own account says his invariable question about a new toy was what was inside it (ch. II), and that in 1811 he paid seven guineas for Lacroix's calculus and spent the night reading it, then turned to Euler's papers when tutors would not answer his questions (ch. IV). Airy independently records that Babbage, Herschel and Peacock went to Paris in 1819 and brought back French works on pure mathematics and mechanics. The childhood recollection is self-reported and used only as corroboration. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 82/0.7 documented -> 78/0.62 strong_inference; the breadth rests largely on an unsigned museum list of projects (output breadth) plus his own recollections; few dated independent behavioural episodes"
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_babbage_chm, src_babbage_passages, src_babbage_menabrea_lovelace | 1821-71; 1828-39; 1832; 1838-39 | museum + self + contemporary scholar] Documented work with real output in several unrelated areas: mathematics (Lucasian professor at Cambridge 1828-39, CHM), mechanical design of calculating engines (1821-71, CHM), the political economy of manufactures (CHM calls him a political economist; Menabrea cites his Treatise on the Economy of Machinery), and railway engineering, where in 1838-39 he fitted a Great Western carriage with his own recording apparatus and ran five months of experiments on traction and oscillation (his own account, ch. XXV; CHM independently records his proposal of railway recording devices). Range is scored from dated strands, not from his publication count."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_babbage_edinburgh_1834, src_babbage_chm | 1821; 1823-29; 1830s | contemporary journalist summarising the 1829 Royal Society committee + museum] The 1834 Edinburgh Review reports the 1829 Royal Society committee's finding, after examining the drawings and work and holding 'repeated conferences' with Babbage, that precautions had been taken in every part against every circumstance that could produce error, and notes the machine's provision for rounding the last figure. The Computer History Museum describes his engines as designed to jam when a wheel stood between values, so that a compromised result could not pass unnoticed, and records the 1821 episode in which he and Herschel, checking hand-computed tables, found error after error. Two independent documentary strands (the committee report as summarised in 1834; the surviving designs) on the same trait. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 80/0.7 documented -> 76/0.62 documented; the 1829 Royal Society committee finding is known only through one 1834 summary, plus unsigned museum text"
+    },
+    "perfectionism": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_babbage_edinburgh_1834, src_babbage_chm, src_babbage_statement_1843 | 1823-29; 1834-36 | contemporary journalist + museum + self] The 1829 Royal Society committee (as summarised in 1834) commended his 'determination to admit into the mechanism nothing but the very best and most finished workmanship'; the Computer History Museum reports that contemporaries questioned whether the twenty, thirty and fifty figures of accuracy he insisted on were justified, and lists runaway costs and high precision among the reasons no engine was completed. The 1843 Statement (self) records that by 1836 he judged it would cost more to finish the old Difference Engine on its original plan than to build a new one from the simplified Analytical Engine elements. Dual-edged: the standard produced a demonstration piece that still works, but contributed to cost and delay."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_babbage_chm, src_babbage_statement_1843, src_babbage_passages, src_babbage_smiles_1863 | 1821-42; 1842-71 | museum + self + independent biographer] From 1821 he directed construction of Difference Engine No. 1 for over a decade (Smiles; CHM); after the 1833 stoppage he repeatedly pressed successive ministers for a decision in 1834, 1836, 1838 and 1841-42 (1843 Statement, quoting his letters). After the Government withdrew in November 1842 he kept a drawing office and workmen at his own expense (Statement; ch. VIII), designed Difference Engine No. 2 in 1847-49, and an experimental piece of the Analytical Engine was still under construction when he died in 1871 (CHM). Dual-edged: some fifty years of sustained work, but no engine was completed and, by his own account, the engagement consumed much of his time and money."
+    },
+    "conflict_tolerance": {
+      "score": 84,
+      "confidence": 0.78,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_babbage_airy, src_babbage_decline_1830, src_babbage_smiles_1863, src_babbage_statement_1843, src_babbage_chm | 1826; 1830; 1833 | adversarial contemporary + self + independent biographer + museum] Airy records that in the 1826 Lucasian election Babbage threatened legal proceedings, after which another candidate withdrew. In 1830 he published Reflections on the Decline of Science, a book-length public criticism of the Royal Society's management that names and appraises its secretaries; Airy places him c.1830 among a 'reforming party' pressing changes on the Greenwich Board of Visitors. In 1833, after he told the engineer Clement he would no longer advance payments, Clement stopped work, and Babbage let the stoppage stand rather than meet his terms (1843 Statement; Smiles, from Clement's side, says Clement's claims were thought exorbitant). The Computer History Museum characterises him as given to 'virulent public criticism' of those he took to be enemies. Dual-edged: principled, but costly to the support he needed."
+    },
+    "persuasiveness": {
+      "score": 36,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_babbage_edinburgh_1834, src_babbage_statement_1843, src_babbage_chm | 1833-34; 1836; Nov. 1842 | contemporary journalist + self + museum] The sympathetic 1834 Edinburgh Review publicly faulted him for having 'almost withdrawn' from dealing with Government during the stoppage instead of stating the grounds of his discontent. His own 1843 Statement concedes that in 1836 he 'had failed in making his own views distinctly understood' by the Chancellor of the Exchequer, and describes the 11 November 1842 interview with Peel as 'entirely unsatisfactory', the plans he had prepared never being raised. The Computer History Museum judges him a poor publicist who disdained to lecture on his work and says experts of the day were not persuaded that new tables were needed. Three independent strands agree; he did explain his designs to individual savants, so the lean is moderate rather than extreme."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_babbage_passages, src_babbage_airy, src_babbage_decline_1830 | c.1812; 1819-20; 1830 | self + adversarial contemporary] At Cambridge (c.1812), dissatisfied with tutors who dismissed his questions, he joined in founding the Analytical Society to promote Leibnizian notation against the university's Newtonian fluxions, despite ridicule from the dons (his account, ch. IV); Airy independently records that Babbage, Herschel and Peacock translated Lacroix (1820) and prepared Examples just as the differential calculus was displacing fluxions at Cambridge. In 1830 he publicly argued, against the Royal Society's governing officers, that British science was in decline (Reflections). Two independent dated positions taken against established opinion."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_babbage_edinburgh_1834, src_babbage_chm, src_babbage_statement_1843, src_babbage_passages | 1834; 1842; 1840s | contemporary journalist + museum + self] The 1834 Edinburgh Review described him as known for 'unwearied activity, and aspiring ambition'; the Computer History Museum reports that he 'ached for recognition' and complained that the Lucasian chair was his country's only honour. At the November 1842 interview with Peel he pressed claims for public acknowledgement of his sacrifices (1843 Statement), and by his own account he kept his chief draftsman at a raised salary rather than slow the Analytical Engine (ch. VIII). Ambition and recognition-seeking are characterised rather than measured, hence strong_inference; dual-edged because the grievance coloured his public dealings."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_babbage_chm, src_babbage_passages, src_babbage_edinburgh_1834 | 1819-22; 1838-39; 1840s-71 | museum + self + contemporary journalist] The Computer History Museum records that many small experimental assemblies and test models of his mechanisms survive, with an Analytical Engine piece still under construction in 1871. By his own account he built models of portions of the first machine c.1819-22 and tested the wheel-teeth before proceeding (ch. V), turned his coach-house into a forge and foundry for experimental machinery in the 1840s (ch. VIII), and in 1838-39 instrumented a railway carriage to record traction and shake on two miles of paper before giving an opinion on the gauge question (ch. XXV). The 1834 Edinburgh Review notes, as a counterweight, that his invention was worked out chiefly on drawings before anything was built, so the lean is clear but not extreme."
+    },
+    "collaboration": {
+      "score": 48,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_babbage_airy, src_babbage_passages, src_babbage_menabrea_lovelace, src_babbage_smiles_1863, src_babbage_chm | c.1812-20; 1823-33; 1840-43 | adversarial contemporary + self + scholar/collaborator + independent biographer + museum] Positive instances: the Analytical Society and the joint 1820 Lacroix translation and Examples with Herschel and Peacock (Airy; his account), a decade's work with the engineer Joseph Clement (Smiles), and his explanations to Menabrea in Turin in 1840, which Lovelace translated and annotated (Sketch). Against: the work with Clement ended in the 1833 stoppage and Clement's withdrawal with the tools (Smiles; CHM), and the Computer History Museum reports that he offended many whose support he needed. Genuinely mixed, so near the middle with low confidence."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/charles-babbage-iln-1871.jpg",
+    "width": 1252,
+    "height": 1378,
+    "source": "Library of Congress, Prints and Photographs Division (LC-USZ62-66023; wood engraving from The Illustrated London News, 4 Nov. 1871, v. 59, p. 424), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://www.loc.gov/item/2003680395/",
+    "attribution": "'The late Mr. Babbage', wood engraving (attributed on Commons to Thomas Dewell Scott) after an 1860 photograph, The Illustrated London News, 4 November 1871, p. 424; Library of Congress Prints and Photographs Division, no known restrictions on publication; masthead and caption cropped",
+    "attributionUrl": "https://www.loc.gov/item/2003680395/",
+    "creator": "The Illustrated London News (engraver attributed as Thomas Dewell Scott), after a photograph of 1860",
+    "date": "1871 (after a photograph of July 1860)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Charles_Babbage,_1792-1871_LCCN2003680395.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q46633 verified live (wbgetentities, 2026-09-26): en label 'Charles Babbage', description 'English mathematician, philosopher, and engineer (1791–1871)', ko label '찰스 배비지' (ko description '영국의 수학자이자 철학자, 발명가, 기계공학자 (1791–1871)'), born 1791-12-26, died 1871-10-18, citizenship United Kingdom of Great Britain and Ireland (Q174193), P18 'CharlesBabbage.jpg' and 'Charles Babbage - 1860.jpg', kowiki sitelink '찰스 배비지' (used for displayNames ko-KR). Slug collision check: no charles-babbage file in data-pipeline/candidates, no Babbage person entry in src/data/people (he is only mentioned inside Ada Lovelace's seed/editorial comments), no babbage portrait in public/portraits. CLASSIFICATION PRECEDENT: era 19th_century, regionCode western_europe, nationalityCodes GB follow the British 19th-century precedents (charles-darwin, michael-faraday, isambard-kingdom-brunel, james-clerk-maxwell). Occupations mathematician, inventor, engineer (all existing ids; computer_scientist, used for konrad-zuse, was deliberately NOT used as anachronistic). Fields mathematics, computing, engineering as assigned: the evidence supports all three (Lucasian professor and analytical notation; calculating-engine design; mechanical engineering of the engines and railway experiments). Impact domains scientific, technological, innovation; tags early_computing (konrad-zuse precedent), innovator, polymath; archetype technical_innovator. No new ids proposed. EVIDENCE READ (10 source records incl. 2 orientation; 8 substantive records, all downloaded and read locally in scratch_r40/work/charles-babbage/): Passages from the Life of a Philosopher (1864, Gutenberg #57532) ch. II, IV, V, VIII, XXV and the 1843 Nicolas Statement reprinted as ch. VI (read in full); Reflections on the Decline of Science (1830, Gutenberg #1216) ch. IV and V sections; Edinburgh Review July 1834 (Lardner; Gutenberg #71292) full; Smiles, Industrial Biography (1863, Gutenberg #404) Clement chapter; Airy's Autobiography (1896, Gutenberg #10655), all Babbage passages; Menabrea/Lovelace Sketch (1842-43, Fourmilab) Menabrea's memoir in full and Lovelace's Note A (including her passage on the two engines and the suspension); Computer History Museum 'Babbage Engine' pages (three pages, full). INDEPENDENT PERSPECTIVES: (1) Babbage himself (autobiography, Decline of Science; one self perspective, never sole support); (2) the 1843 Statement by Sir Harris Nicolas from Babbage's papers (self/advocate, grouped with 1); (3) the 1834 Edinburgh Review (contemporary science journalist, sympathetic but critical of his conduct; also the only access to the 1829 Royal Society committee report); (4) Samuel Smiles (independent Victorian biographer, writing Clement's life); (5) G. B. Airy (contemporary rival/critic, adversarial); (6) Menabrea (contemporary scholar) with Lovelace's Notes (collaborator, sympathetic); (7) Computer History Museum curatorial text (modern scholarly/institutional, critical). NON-SELF behavioural sources: Edinburgh Review 1834, Smiles, Airy, Menabrea/Lovelace, CHM. EPISODE USE (no episode supports more than two rows): mechanical notation (1826; ER 1834) -> systems_abstraction; conception of the Analytical Engine 1834-40 (Menabrea, Lovelace, CHM) -> systems_abstraction, creative_originality; carrying-the-tens and twenty addition mechanisms (self ch. VIII, Statement) -> creative_originality, perfectionism (the 1836 judgement that simplified elements superseded the old design); CHM interests list -> curiosity, cross_domain_range; 1811 Lacroix purchase and 1819 Paris trip -> curiosity; Analytical Society and 1820 Lacroix translation (self; Airy) -> independent_thinking, collaboration; 1829 Royal Society committee report (via ER 1834) -> detail_orientation, perfectionism; error-detecting jamming and 1821 table-checking (CHM) -> detail_orientation; 1821-42 construction and 1834-42 requests for a decision, and 1842-71 private establishment and Difference Engine No. 2 -> persistence; 1826 Lucasian legal threat (Airy) -> conflict_tolerance; 1830 Decline of Science -> conflict_tolerance, independent_thinking; c.1830 Greenwich 'reforming party' (Airy) -> conflict_tolerance; 1833 Clement stoppage (Statement, Smiles, CHM) -> conflict_tolerance, collaboration; ER 1834 criticism of his withdrawal and the 1836 misunderstanding -> persuasiveness; 11 Nov. 1842 Peel interview -> persuasiveness, achievement_drive; draftsman's salary (self ch. VIII) -> achievement_drive (the private drawing office is also context in persistence); 1838-39 Great Western experimental carriage (self; CHM on railway recorders) -> experimentation, cross_domain_range; 1840 Turin explanations to Menabrea -> systems_abstraction, collaboration. ROWS CONSIDERED AND LEFT UNSCORED: analytical_rigor (plausible but only from occupation/reputation, no specific non-self behavioural instance read); deep_focus and discipline (self-reported work regimen only); planning_orientation (the 1823 two-to-three-year estimate against ~20 years and the drawings-first method point in different directions); risk_tolerance (advancing his own money to Clement and the railway trials are self-reported or ambiguous as to motive); belief_updating and adaptability (the wheel-cutter episode is a single self-reported anecdote); resourcefulness, mastery_orientation, autonomy_need, social_assertiveness, leadership_drive, impact_motivation, opportunity_sensing (no adequate independent instance). EXCLUDED ON PURPOSE: all 'father of the computer' / 'first computer pioneer' framing (CHM's phrase not adopted; only design behaviour is scored); fame, honours, inheritance and wealth; his parliamentary candidacies (ch. XXI 'Electioneering experience', not read; incidental politics, zero-politics rule); the street-music campaign (ch. XXVI 'Street nuisances', not read; incidental, used for no row or editorial); the 1827 deaths of his wife, father and children, his daughter's death and his grief as described by CHM (no inference from bereavement or private life); his brain's preservation and death circumstances; Airy's 1842 'worthless' verdict and Babbage's grievances are recorded as facts of the dispute, not as trait evidence about either man's correctness; Babbage's own 1839 claim to have swayed the Great Western proprietors (uncorroborated). KNOWN LIMITS: the modern scholarly biographies (Hyman 1982, Swade 2000, Moseley 1964) and Buxton's memoir were not available and not read; the 1829 Royal Society committee report, Weld's History of the Royal Society (1848) and the Babbage-Lovelace correspondence were not opened directly (the committee report is known only as summarised in the 1834 Edinburgh Review); the CHM pages are unsigned web text; the Clement dispute is seen from Babbage's side (Statement), Clement's side (Smiles, second-hand) and the museum's summary, with no primary Clement document read. Confidences are kept at or below 0.78 accordingly. PORTRAIT: Commons File 'Charles Babbage, 1792-1871 LCCN2003680395.jpg' (wood engraving, The Illustrated London News, 4 Nov. 1871, v. 59, p. 424, caption 'The late Mr. Babbage'). Raw File-page wikitext read: {{PD-old-100-1923}}, {{LOC-image|id=cph.3b13540}}, permission 'No known restrictions on publication', no third-party-claim or NPG notice. Upstream LOC record read via the loc.gov JSON API (item 2003680395, LC-USZ62-66023, 1 print: wood engraving, 1871, rights advisory 'No known restrictions on publication'). The companion Commons files of the same ILN engraving ('CharlesBabbage.jpg', 'Charles Babbage 1860.jpg') attribute it to the engraver Thomas Dewell Scott (1828-1911, Wikidata) and state that it was derived from a photograph taken at the International Statistical Congress in London, July 1860. Basis: published in London in 1871; engraver died 1911, over 70 years ago; public domain in the UK and US. Original downloaded (1252x1536, grayscale), confirmed with PIL; the ILN masthead (top 100 px) and the caption (bottom 58 px) were cropped, giving 1252x1378; no resizing (long edge under 1600, not upscaled), saved JPEG q85; viewed: Babbage in later life, head and shoulders, facing left, in an oval. kind 'likeness': an engraving reproducing a photograph taken from life in 1860, although the engraving itself was published posthumously (the lead may prefer 'historical_depiction'). Rejected alternatives: 'Charles Babbage - 1860.jpg' (Wikidata P18; source is a Google/LIFE image-hosting URL with unknown author, weak basis); 'CharlesBabbage.jpg' (same ILN engraving but only 363x430); 'Charles Babbage by Antoine Claudet c1847-51.jpg' (NPG London-sourced daguerreotype, PD-scan with NPG as source; avoided per the NPG third-party trap); the Wellcome 1833 Roffe stipple engraving (CC BY 4.0 on Commons, but Wellcome catalogue rights not re-verified and the basis is less clean than LOC's); 'Charles Babbage by Samuel Laurence.jpg' (NPG painting). No eligibility, coverage or match output was used in scoring. LEAD REVIEW RUBRIC_CORRECTION: curiosity 82/0.7 documented -> 78/0.62 strong_inference (the breadth rests largely on an unsigned museum list of projects (output breadth) plus his own recollections; few dated independent behavioural episodes). LEAD REVIEW RUBRIC_CORRECTION: creative_originality 82/0.7 documented -> 78/0.62 strong_inference (originality is partly a judgment of the invention's importance; the behavioural evidence (redesign after many drawn plans) comes largely via his own account and a sympathetic collaborator). LEAD REVIEW RUBRIC_CORRECTION: detail_orientation 80/0.7 documented -> 76/0.62 documented (the 1829 Royal Society committee finding is known only through one 1834 summary, plus unsigned museum text). LEAD REVIEW RUBRIC_CORRECTION: systems_abstraction 86/0.78 documented -> 84/0.72 documented (sources are sympathetic contemporaries plus unsigned museum text; confidence trimmed for weak independence). LEAD REVIEW: portrait kind set to historical_depiction (a posthumous 1871 wood engraving made after an 1860 photograph, following the Christopher Wren precedent for an engraving after another image), not presented as a from-life likeness. PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "찰스 배비지"
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "david-livingstone",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "David Livingstone",
+    "aliases": [
+      "Dr. Livingstone"
+    ],
+    "wikidataId": "Q48373",
+    "birthYear": 1813,
+    "deathYear": 1873,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_livingstone_wikidata",
+      "kind": "wikidata",
+      "title": "David Livingstone (Q48373) -- identity verified live through the Wikidata API (wbgetentities: labels, descriptions, claims, sitelinks) on 2026-09-26: en label 'David Livingstone', description 'Scottish missionary and explorer (1813-1873)', ko label '데이비드 리빙스턴' (ko description '스코틀랜드의 조합교회(Congregationalist) 선교사이자 탐험가이다.'), born 1813-03-19, died 1873-05-01, citizenship Q22 (Scotland) and Q145 (United Kingdom), P18 'David Livingstone by Thomas Annan.jpg', kowiki title '데이비드 리빙스턴'. Orientation only; not used as support for any scored row.",
+      "url": "https://www.wikidata.org/wiki/Q48373"
+    },
+    {
+      "id": "src_livingstone_lo_life",
+      "kind": "institution",
+      "title": "Justin D. Livingstone, 'Livingstone's Life & Expeditions', Livingstone Online (eds. A. S. Wisnicki and M. Ward; University of Maryland Libraries, 2nd ed. 2015; peer-reviewed scholarly edition) -- read in full (all sections, Early Years through Death and Burial, with works cited). SCHOLAR perspective, independent of the family; explicitly corrects heroic framing (reliance on African intermediaries and Arab-Swahili traders, earlier crossings of the continent by Arab and African traders, the Zambezi team's strained relations 'in part due to Livingstone's shortcomings as a leader', the incorrect Lualaba theory). Built on ODNB (Roberts 2004), Jeal (2013), Ross (2002), Dritsas (2010) and the manuscripts.",
+      "url": "https://livingstoneonline.org/uuid/node/76ab1aa0-2bf4-4c42-adf7-c8c4ee960236"
+    },
+    {
+      "id": "src_livingstone_lo_publishing",
+      "kind": "institution",
+      "title": "Louise Henderson, 'Publishing Livingstone's Missionary Travels', Livingstone Online (University of Maryland Libraries, 2015) -- read in full. SCHOLAR perspective resting on the 1857 John Murray Archive correspondence (National Library of Scotland): Livingstone's dispute with Murray's reviser, his own description of his observation book as 'quite a mass of confusion', Maclear's computation of the position tables, and his consultation of Maclear, Murchison, Arrowsmith and Toynbee before accepting Murray's decision on the appendix. The quoted letters are Livingstone's own; the reading and context are the author's.",
+      "url": "https://livingstoneonline.org/uuid/node/2dc0d511-087c-40dc-ab6b-4fe769dd03f7"
+    },
+    {
+      "id": "src_livingstone_lo_medicine",
+      "kind": "institution",
+      "title": "Christopher Lawrence, 'Livingstone's Medical Education' and 'Fever in the Tropics', Livingstone Online (University of Maryland Libraries, 2015) -- both essays read in full. SCHOLAR perspective (historian of medicine) built on the surviving Anderson's University certificates, Risdon Bennett's testimony, the 1841 and 1865 letters to Richard Owen, the 1860 Livingstone-Kirk fever paper, the 1863 Medical Times letter and the 1865 Narrative. Used for the 1836-40 study routine, the breadth of his observational record and the compounded fever pills ('rousers'); his pre-germ-theory fever model is NOT scored.",
+      "url": "https://livingstoneonline.org/uuid/node/ce8c001e-9bd3-4995-8b37-37477601e8f8"
+    },
+    {
+      "id": "src_livingstone_lo_1871diary",
+      "kind": "institution",
+      "title": "Adrian S. Wisnicki, 'Introduction to the Edition', Livingstone's 1871 Field Diary: A Multispectral Critical Edition (Livingstone Online, 2011/2017) -- read in full. SCHOLAR/EDITORIAL perspective on the physical manuscript: the diary was written at Nyangwe over pages of The Standard newspaper with improvised ink when paper and ink ran out, and the published Last Journals version (ed. Waller) was substantially revised. The diary's contents were not used for trait inference.",
+      "url": "https://livingstoneonline.org/uuid/node/75c25c6c-c491-4059-b446-3562d7518c95"
+    },
+    {
+      "id": "src_livingstone_lo_reputation",
+      "kind": "institution",
+      "title": "Justin D. Livingstone, 'Livingstone's Posthumous Reputation', Livingstone Online (2015) -- read in full. HISTORIOGRAPHICAL perspective: surveys hagiographic, imperial, critical and postcolonial treatments, quoting George Martelli (1970: 'imaginative enterprise, grit' yet 'authoritarian and secretive') and Tim Jeal (2001: 'courageous and resilient'; 'intolerant, narrow and self-opinionated'). Second-hand quotations of other biographers' characterisations, used only as corroboration at inference level, never as sole support.",
+      "url": "https://livingstoneonline.org/uuid/node/0bda8609-f62b-4428-9446-3a3307b7ea15"
+    },
+    {
+      "id": "src_livingstone_blaikie",
+      "kind": "biography",
+      "title": "William Garden Blaikie, The Personal Life of David Livingstone (London: John Murray, 1880), Project Gutenberg #13262 full text downloaded -- read: chapter synopses I-XXIII; ch. II (1838-40, London and Ongar); ch. IV (the 1845 Mabotsa dispute); ch. VIII (Loanda 1854 decision; Maclear correspondence); ch. IX (loss of the Forerunner, Pungo Andongo); ch. X (RGS meeting of 15 Dec. 1856); ch. XI (1858 expedition planning); ch. XII (Kongone, resignation of the naval officer, Kebrabasa, the 1859 dismissals and Blaikie's defence); ch. XVI (Lady Nyassa storm and voyage to Bombay, 1864). INSIDER-LEANING perspective: a sympathetic Free Church biographer writing from family-held journals and letters; openly apologetic on the Zambezi quarrels (tone discounted, facts used).",
+      "url": "https://www.gutenberg.org/ebooks/13262"
+    },
+    {
+      "id": "src_livingstone_moore_taylor",
+      "kind": "biography",
+      "title": "Recollections of Livingstone as a London Missionary Society probationer, 1838-39, by his fellow candidate Rev. Joseph Moore and by Rev. Isaac Taylor (then a boy at Stanford Rivers), furnished to Blaikie and printed in The Personal Life (1880), ch. II -- read in full as reproduced. FIRSTHAND, non-family (friendly, written some forty years later): the failed sermon, Cecil's unfavourable report and the extended probation.",
+      "url": "https://www.gutenberg.org/ebooks/13262"
+    },
+    {
+      "id": "src_livingstone_maclear",
+      "kind": "biography",
+      "title": "Thomas Maclear (Astronomer Royal at the Cape) on Livingstone's astronomical observations: letters to Livingstone of 27 March 1854 and 11 August 1855 and his remark to Sir John Herschel, as quoted in Blaikie, The Personal Life (1880), ch. VIII -- read as reproduced. FIRSTHAND EXPERT ASSESSOR (the person who checked and reduced the observations; a friend, so admiring, but he also records the early errors).",
+      "url": "https://www.gutenberg.org/ebooks/13262"
+    },
+    {
+      "id": "src_livingstone_stanley",
+      "kind": "press",
+      "title": "Henry M. Stanley, How I Found Livingstone (1872), Project Gutenberg #5157 full text downloaded -- read: the character sketch of Livingstone written at Ujiji (Nov. 1871: appearance, rumours rebutted, note-taking and observations, humour, reserve, treatment of servants, the Lualaba/Nile theory, his refusal to go home). FIRSTHAND JOURNALIST, non-self and non-family, about four months' acquaintance; self-promoting and openly admiring, so only concrete observations are used, not his praise.",
+      "url": "https://www.gutenberg.org/ebooks/5157"
+    },
+    {
+      "id": "src_livingstone_mt_self",
+      "kind": "biography",
+      "title": "David Livingstone, Missionary Travels and Researches in South Africa (London: John Murray, 1857), Project Gutenberg #1039 full text downloaded -- read: ch. XX (Loanda; the Makololo companions aboard HMS Philomel and Pluto; departure of 20 Sept. 1854 on the return journey). SELF perspective (one perspective; a book written to promote African mission and commerce and revised by Murray's reviser); never the sole support for a row.",
+      "url": "https://www.gutenberg.org/ebooks/1039"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 82,
+      "confidence": 0.74,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_livingstone_lo_life, src_livingstone_blaikie, src_livingstone_stanley, src_livingstone_mt_self | 1854-56; 1858; 1871-72 | scholar + insider biographer + firsthand journalist + self] Reaching Loanda in May 1854 ill and having lost his trade goods, he did not return to Britain but, dissatisfied with the western route, set out again on 20 September 1854 with his Kololo companions, reached Linyanti in September 1855 and went on east to Quelimane by May 1856 (LO essay; Blaikie gives the dates; his own account of leaving Loanda). At the Kebrabasa rapids in 1858, after two visits, he learned of a further rapid and went back with Kirk and four Makololo, pushing on alone with Kirk when the men balked (Blaikie). At Ujiji in late 1871, after years of setbacks, he told Stanley he would not go home until the work was finished, and after Stanley left in 1872 he resumed the search toward Lake Bangweulu (Stanley; LO). Independent documented instances from three perspectives; kept below 85 because the scholar also records that the last journey pursued an incorrect theory. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 84/0.8 documented -> 82/0.74 documented; the dated episodes reach the profile largely through the partisan family-access biographer and his own account; the Zambezi team's critical view is unread"
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_livingstone_blaikie, src_livingstone_lo_life, src_livingstone_mt_self | 1854; Feb.-June 1864 | insider biographer quoting his letters + scholar + self] At Loanda (1854) he chose the overland return journey over a passage home in one of the naval cruisers (Blaikie; LO; his own account of leaving Loanda). In February 1864, while the Lady Nyassa was under tow in a cyclone, he declined the Ariel captain's offer to take him aboard until the weather eased (his letter of 24 Feb. 1864, printed by Blaikie). On 30 April 1864, after his engineer left, he sailed the small river steamer some 2,500 miles from Zanzibar to Bombay himself, with three other Europeans, seven Zambezians who had never been to sea and two boys, close to the break of the monsoon; the voyage took 45 days (Blaikie; the LO essay calls it 'a daring journey'). Dual-edged: the same choices exposed his crews and companions to the danger."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_livingstone_maclear, src_livingstone_stanley, src_livingstone_lo_publishing, src_livingstone_lo_life | 1852-55; 1857; 1867; 1871-72 | firsthand expert + firsthand journalist + scholar] Maclear, who reduced his readings, wrote on 27 March 1854 that some early observations were 'rough' and misplaced in transcription but that no explorer on record had 'determined his path with the precision you have accomplished', and told Herschel he had fixed his points 'with very great accuracy'. Stanley, rebutting a rumour that he took no observations, saw him every evening for four months making careful notes and describes a diary with sheets of figures and a tin box of field notebooks (1871-72). Counterweights: in 1857 Livingstone called his own observation book 'quite a mass of confusion' and Maclear computed the published position tables (Henderson), and after his chronometers were damaged in 1867 his longitudes erred (LO). Careful, sustained recording rather than flawless precision, hence the 70s."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_livingstone_lo_medicine, src_livingstone_blaikie | 1836-39; 1855 | scholar + insider biographer] Lawrence, from the surviving certificates, records that in 1836-38 he walked the eight miles to Glasgow every Monday in term to attend Anderson's University, worked in the mill in the vacations, and took the anatomy lectures a second time in 1838-39 although there were no examinations. After the dispatches, journals and maps he had sent from Loanda were lost with the mail ship Forerunner off Madeira, he stayed at Pungo Andongo on the return journey (1855) to write them out again (Blaikie). Two independent, dated episodes; religious observance is not used."
+    },
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_livingstone_lo_medicine, src_livingstone_blaikie, src_livingstone_lo_life | 1841; 1856-58; 1858-64 | scholar + insider biographer quoting Owen] Lawrence reports that most of his letters record medical, geological, meteorological and natural-history observations of the regions he passed through, and that his 1841 letter to Richard Owen concerns collecting specimens on his travels; Owen told the 1858 farewell dinner that Livingstone, having promised him any curiosity he found, carried an elephant tusk with a spiral curve out of the interior for him (Blaikie). The Zambezi Expedition returned botanical and zoological specimens to Kew and the Natural History Museum (LO essay, citing Dritsas). Observation and collecting documented from several sources; not scored from the fame of his discoveries."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_livingstone_lo_life, src_livingstone_lo_medicine, src_livingstone_maclear | 1840-73 | scholar + firsthand expert] He qualified as a Licentiate of the Glasgow Faculty of Physicians and Surgeons (1840) and practised medicine ranging across obstetrics, ophthalmology, the removal of tumours and tuberculosis (Lawrence; LO essay citing Harrison); he learned Setswana on journeys among the Bakwena and worked as a missionary for eleven years (LO essay); he fixed geographical positions by astronomical observation that Maclear reduced and published (Maclear); he collected natural-history material (LO); and his 1857 book combined missionary narrative, travelogue and field science (LO essay). Each strand has dated output; the range, not its success, is what is scored."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_livingstone_blaikie, src_livingstone_lo_life | 1858-59; 1859-63 | insider biographer quoting his letters + scholar] When the expedition's naval officer resigned at the Kongone depot in 1858, Livingstone took over navigating the steamer himself and reported having taken it over 1,600 miles, joking in a letter that he still called 'starboard' when he meant 'port' (Blaikie). When the Kebrabasa (Cabora Bassa) rapids showed that the Zambezi route on which the whole plan rested was not a practicable highway, he redirected the expedition to the Shire River, Lake Nyasa and the Rovuma (LO essay; Blaikie). Blaikie's general praise of his ease in new roles is discounted; the two concrete switches carry the row."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_livingstone_lo_1871diary, src_livingstone_blaikie, src_livingstone_lo_medicine | 1864; 1871; 1850s-60s | scholar-editor + insider biographer + scholar] At Nyangwe in 1871, out of paper and nearly out of ink, he kept his diary by writing over pages of The Standard newspaper with improvised ink (Wisnicki's edition). On the 1864 voyage to Bombay, with his engineer gone and most of the crew new to the sea, he trained Zambezian crewmen, one of whom quickly learned to steer and took his place at the wheel when a white crewman fell sick (Blaikie). Lawrence describes the compounded fever pills (jalap, rhubarb, calomel and quinine) that his men called 'rousers'. Several unrelated instances of improvising with what was at hand."
+    },
+    "collaboration": {
+      "score": 40,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_livingstone_lo_life, src_livingstone_blaikie, src_livingstone_lo_reputation, src_livingstone_stanley | 1845; 1858-59; 1871 | scholar + insider biographer + historiography + firsthand journalist] The LO essay states that relations within the Zambezi team were strained 'in part due to Livingstone's shortcomings as a leader' and that several members resigned or were dismissed. Blaikie, though defending him, records the naval officer's resignation (1858), the dismissal of two members in 1859 because he would not pay public money to men he judged were not earning it, and the charge that he was 'imperious'; Martelli (1970) called him 'authoritarian and secretive' (quoted in the reputation essay). Counterweights: at Mabotsa in 1845 he gave up his house to end a dispute with a colleague, one dismissed member was reinstated on his intercession (Blaikie), his long journeys depended on partnerships with Sekeletu and his Kololo companions (LO), and Stanley's servants contrasted his mildness with Stanley's own harshness (1871). Low with European colleagues, better with companions and hosts; hence strong_inference and dual-edged."
+    },
+    "social_assertiveness": {
+      "score": 38,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_livingstone_moore_taylor, src_livingstone_lo_life, src_livingstone_stanley | 1838-39; 1856-58; 1871 | firsthand fellow student + scholar + firsthand journalist] Moore recalls that when sent to preach at Stanford Rivers (c.1838-39) Livingstone read his text, said 'Friends, I have forgotten all I had to say' and left the pulpit, and that Cecil's report on his hesitant manner in prayer and preaching nearly led the Directors to reject him before his probation was extended. The LO essay notes that during his 1856-58 stay in Britain he found public speaking difficult although he gave many addresses, and Stanley found him 'reserved, if anything', not garrulous (1871). A consistent lean toward reserve across three independent sources; his many public lectures are the counterweight, so the lean is moderate."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_livingstone_lo_life, src_livingstone_blaikie, src_livingstone_stanley | 1857-58; 1864-65; 1871-72 | scholar + insider biographer quoting his letter + firsthand journalist] In 1857-58 he campaigned publicly for 'legitimate commerce' as a means against the slave trade (LO essay). Leaving the Zambezi in early 1864, he took thirteen freed women and children and twenty-five boys left by the withdrawn Universities Mission aboard the Pioneer rather than leave them exposed to slavers (his letter of 24 Feb. 1864, printed by Blaikie). The LO essay describes the 1865 Narrative as chiefly a manifesto to strengthen British opposition to the slave trade, and his accounts of the 1871 Nyangwe massacre, circulated in Britain, informed abolitionist lobbying for a treaty with Zanzibar. Stanley records that he refused to go home before finishing the task he had taken on (1871-72). Scored from actions and published advocacy, not stated motives alone; the colonial 'Christianity, commerce and civilisation' frame of that advocacy is recorded, not endorsed."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_livingstone_lo_life, src_livingstone_lo_publishing, src_livingstone_stanley | 1857; 1871 | scholar + scholar on archive letters + firsthand journalist] In 1857 he broke with London Missionary Society convention by publishing with John Murray, a travel publisher, and then left the Society to lead a government expedition while still describing his work, in an extended sense, as missionary (LO essay). In the same year he rejected the changes of Murray's reviser and pressed for his removal, while consulting Maclear, Murchison and others before yielding on the appendix (Henderson). Stanley reports that he insisted on personal observation over armchair theory about African geography (1871). The same insistence kept him attached to an incorrect Lualaba theory, so the impact is dual-edged and the lean moderate."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/david-livingstone-maull-polyblank-1850s.jpg",
+    "width": 1179,
+    "height": 1600,
+    "source": "Wellcome Collection, Iconographic Collections (ICV No 27182; image V0026725; catalogue work pfwka7tv), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Maull & Polyblank, David Livingstone, photograph, undated (studio active 1854-65; probably 1856-58), Wellcome Collection V0026725 (Public Domain Mark in the Wellcome catalogue; the Commons copy carries Wellcome Images' earlier CC BY 4.0 tag); downscaled, uncropped",
+    "attributionUrl": "https://wellcomecollection.org/works/pfwka7tv",
+    "creator": "Maull & Polyblank (Henry Maull, 1829-1914, and George Henry Polyblank)",
+    "date": "undated; probably 1856-58",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:David_Livingstone._Photograph_by_Maull_%26_Polyblank._Wellcome_V0026725.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q48373 verified live (wbgetentities, 2026-09-26): en label 'David Livingstone', description 'Scottish missionary and explorer (1813-1873)', ko label '데이비드 리빙스턴' (ko description names him a Congregationalist missionary and explorer), born 1813-03-19, died 1873-05-01, citizenship Scotland (Q22) and United Kingdom (Q145), P18 'David Livingstone by Thomas Annan.jpg', kowiki sitelink '데이비드 리빙스턴' (used for displayNames ko-KR). Slug collision check: no livingstone file in data-pipeline/candidates, no Livingstone entry in src/data/people, no livingstone portrait in public/portraits. CLASSIFICATION PRECEDENT: era 19th_century, regionCode western_europe and nationalityCodes GB follow the British 19th-century explorer precedents (ernest-shackleton, alfred-russel-wallace, james-watt). Occupation explorer only (existing id). physician was considered (he was a licensed practitioner, and cross_domain_range cites his medical practice) but not added because no row rests primarily on medical work and Wikidata P106 does not list it; 'missionary' has no occupation id and religious_leader/theologian would misdescribe him; no new id is proposed, but the lead may wish to consider physician. fieldIds exploration as assigned (medicine and religion NOT added: no scored row rests on medical or religious work as such; his mission work appears only as context). impactDomains historical, scientific (geography and natural history); tags explorer, field_researcher; archetype scientific_explorer (alfred-russel-wallace precedent). EVIDENCE READ (11 source records incl. 1 orientation; 10 substantive, all opened and read locally from files in scratch_r40/work/david-livingstone): Livingstone Online scholarly essays read in full -- J. D. Livingstone 'Life & Expeditions' and 'Posthumous Reputation', L. Henderson 'Publishing Missionary Travels', C. Lawrence 'Medical Education' and 'Fever in the Tropics', A. S. Wisnicki introduction to the 1871 Field Diary edition (also skimmed, not used: 'Southern Africans and the Advent of Colonialism' for context); Blaikie's Personal Life (1880) chapters listed in the source title, split into Blaikie's narrative (insider-leaning), Moore/Taylor reminiscences (firsthand) and Maclear's letters (firsthand expert); Stanley's How I Found Livingstone (1872) Ujiji character sketch; Missionary Travels (1857) ch. XX (self). Wikipedia was not used. INDEPENDENT PERSPECTIVES: (1) Livingstone himself (Missionary Travels; letters quoted by Blaikie and by Henderson) -- one self perspective, never sole support; (2) W. G. Blaikie, sympathetic biographer with family papers (insider-leaning); (3) Livingstone Online scholars (J. D. Livingstone, Henderson, Lawrence, Wisnicki; peer-reviewed, critical of heroic framing); (4) Henry M. Stanley (firsthand journalist, non-self, self-promoting); (5) Thomas Maclear (firsthand scientific assessor, via Blaikie); (6) Joseph Moore and Isaac Taylor (firsthand fellow student and acquaintance, via Blaikie); (7) Martelli and Jeal as quoted in the reputation essay (critical biographers, second-hand, corroboration only). NON-SELF behavioural sources: the LO essays, Stanley, Maclear, Moore, Blaikie's narrative. EPISODE USE (no episode supports more than two rows): Loanda decision and return 1854-56 -> persistence, risk_tolerance; Kebrabasa extra rapid 1858 -> persistence; Ujiji refusal to go home 1871-72 -> persistence, impact_motivation; Lady Nyassa storm and Bombay voyage 1864 -> risk_tolerance, resourcefulness; Maclear's letters 1854-55 -> detail_orientation, cross_domain_range; Stanley's nightly notes -> detail_orientation; 1857 observation book / reviser dispute (Henderson) -> detail_orientation (counterweight), independent_thinking; Anderson's University 1836-39 -> discipline; Forerunner loss and rewriting 1855 -> discipline; Lawrence on his observational letters and the 1841 Owen letter -> curiosity, cross_domain_range; Owen's tusk -> curiosity; Zambezi specimens -> curiosity; Kongone naval officer's resignation 1858 -> adaptability, collaboration; Kebrabasa impassable and redirection to Shire/Nyasa/Rovuma -> adaptability; 1871 diary over newspaper -> resourcefulness; 'rousers' pills -> resourcefulness; 1859 dismissals and Blaikie's defence -> collaboration; Mabotsa 1845 -> collaboration (counterweight); Ongar sermon 1838-39 -> social_assertiveness; Stanley 'reserved' -> social_assertiveness; Stanley's servants -> collaboration (counterweight); 1864 freed captives aboard the Pioneer -> impact_motivation; 1865 Narrative and Nyangwe accounts -> impact_motivation; 1857 LMS break and Murray publication -> independent_thinking. The Nyangwe stay of 1871 is used for two rows only (resourcefulness via the diary materials, impact_motivation via the circulated accounts); his market questioning there was deliberately not used. ROWS CONSIDERED AND LEFT UNSCORED: belief_updating (the Lualaba/Nile theory: Stanley says he was not dogmatic but demanded observation over theory, Blaikie records 'waverings' between Nile and Congo, the LO essay says he feared it was the Congo yet kept testing it -- genuinely mixed, left unscored rather than guessed); leadership_drive and planning_orientation (Blaikie's account of his lean 1858 plan and written instructions is insider-only, and the scholarly verdict on his leadership concerns relations rather than drive); conflict_tolerance (the 1857 reviser dispute and the Zambezi dismissals versus the Mabotsa withdrawal point different ways); autonomy_need (travelling without other Europeans after 1866 is not documented as his preference); achievement_drive; decisiveness; analytical_rigor (his fever model is period-bound and not a fair measure); experimentation (his 1850 quinine trials involved his own children -- private/family, excluded); persuasiveness (the public-speaking evidence is mixed and the fame of his lectures is not evidence). EXCLUDED ON PURPOSE: no inference from his illnesses (fever, dysentery, rheumatic fever, the final illness), from the lion mauling of 1844, from Mary Livingstone's death at Shupanga (1862) or his son Robert's death, from the Nyangwe massacre as a personal trauma, or from the circumstances of his death at Chitambo; no 'first European' claim without the LO qualification that Arab and African traders had crossed the continent before him; no hagiographic framing -- the colonial 'Christianity, commerce and civilisation' programme, his support for British (as opposed to settler) imperial influence and the posthumous imperial uses of his name are recorded as context only; his dependence on African companions, Sekeletu's backing and Arab-Swahili traders is stated in the rows and editorial; the omitted Cape Frontier Wars critique in the Missionary Travels manuscript and his views on the Boers are not scored (political); Stanley's and Blaikie's admiring summaries, the RGS and Maclear eulogies and Jeal's and Martelli's adjectives are not used as evidence in themselves; the Annan portrait's featured-picture status is irrelevant. KNOWN LIMITS: Tim Jeal's Livingstone, Andrew Ross's Mission and Empire, Dritsas's Zambesi, the Kirk and Stewart Zambezi journals and the Wallis editions were not available and were not read; the Zambezi team's own critical testimony (Kirk, Baines, Bedingfeld, Stewart) reaches this profile only through the LO scholars' summary, Blaikie's partisan account and Martelli's quoted phrase, so collaboration is held at 0.55; the Last Journals and the Zambezi Narrative were not used as trait evidence; Stanley knew him for about four months at the end of his life; Blaikie's reminiscence sources were recorded around forty years after the events. PORTRAIT: the Wikidata P18 image 'David Livingstone by Thomas Annan.jpg' (1864 carbon print, restored by Adam Cuerden, {{PD-Art|PD-old-100-expired|deathyear=1887}}) was checked and REJECTED: its upstream source, the National Galleries of Scotland page for PGP 74.2 (read 2026-09-26), offers the digitisation only under a personal-use, non-commercial licence with attribution to NGS, which conflicts with the Commons PD-Art basis, so the rights basis for this project's use is not clean. CHOSEN: Commons File 'David Livingstone. Photograph by Maull & Polyblank. Wellcome V0026725.jpg' (Commons API imageinfo/extmetadata: LicenseShortName CC BY 4.0, no date or artist field; raw wikitext: {{Artwork}} from Wellcome Images, ICV No 27182, photo number V0026725, license {{cc-by-4.0}}, no third-party-claim, NPG or in-copyright notice). Upstream Wellcome Collection catalogue API (work pfwka7tv, 'David Livingstone. Photograph by Maull & Polyblank.', reference 13091i) now marks the digital image with the Public Domain Mark; licence recorded as 'Public domain' with the CC BY attribution requested by the earlier tag honoured in the attribution line. Basis: a studio photograph by Maull & Polyblank (partnership c.1854-65; Henry Maull died 1914 per Wikidata Q5725608), made in the 1850s-60s and far older than any applicable term; G. H. Polyblank's death date was not verified. The photograph is undated by Wellcome; the sitter's appearance and the studio imprint (55 Gracechurch Street and 187a Piccadilly) are consistent with his 1856-58 stay in Britain, so the date is given as 'undated; probably 1856-58' and the filename descriptor as '1850s'. Original downloaded from upload.wikimedia.org (2392x3246, RGB), opened with PIL, downscaled to 1179x1600 (JPEG q85), not cropped (the mount border and the studio's printed imprint remain); the image was viewed and shows Livingstone seated, three-quarter length, dark-haired with a moustache, holding a rolled paper. kind 'likeness' (photograph from life). Other alternatives seen but not needed: Wellcome photographs by Mayall (V0026724) and H. N. King (V0026729). No eligibility, coverage or match output was used in scoring. LEAD REVIEW RUBRIC_CORRECTION: persistence 84/0.8 documented -> 82/0.74 documented (the dated episodes reach the profile largely through the partisan family-access biographer and his own account; the Zambezi team's critical view is unread). PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "데이비드 리빙스턴"
+    }
+  }
+}

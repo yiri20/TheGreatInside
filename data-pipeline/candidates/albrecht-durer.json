@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "albrecht-durer",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Albrecht Dürer",
+    "aliases": [
+      "Albrecht Durer",
+      "Albrecht Duerer",
+      "Albert Durer"
+    ],
+    "wikidataId": "Q5580",
+    "birthYear": 1471,
+    "deathYear": 1528,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "theorist",
+      "renaissance"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_durer_wikipedia",
+      "kind": "wikipedia",
+      "title": "Albrecht Dürer (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '알브레히트 뒤러' confirmed via the Wikidata sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer"
+    },
+    {
+      "id": "src_durer_wikidata",
+      "kind": "wikidata",
+      "title": "Albrecht Dürer (Q5580) -- verified live via wbgetentities (2026-09-26): en label 'Albrecht Dürer', description 'German painter, printmaker, mathematician, and theorist (1471-1528)', ko label '알브레히트 뒤러', born 1471-05-21, died 1528-04-06, citizenship Q47261, P18 'Dürer Alte Pinakothek.jpg', kowiki '알브레히트 뒤러'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q5580"
+    },
+    {
+      "id": "src_durer_self_conway",
+      "kind": "archive",
+      "title": "Dürer's OWN letters, diary and writings in English translation in W. M. Conway, Literary Remains of Albrecht Dürer (Cambridge, 1889), archive.org OCR full text (literaryremainso00conw) -- SELF, one perspective, never sole support for a row. Read: the Venice letters to Pirckheimer of 7 Feb., 8 Sept., 23 Sept. and c. Oct. 1506 (ch. IV); all nine letters to Jacob Heller, 28 Aug. 1507 - 26 Aug. 1509 (ch. V; Heller's side does not survive, his complaints are known only as Dürer quotes them); the Netherlands diary entries for Bamberg (July 1520), Brussels (Aug.-Sept. 1520) and the Zeeland trip (3-14 Dec. 1520) (ch. VII); the 1524 letter to the Nuremberg Council and the 1526 letter presenting the Four Apostles (ch. VIII); the manuscript draft on Jacopo de' Barbari and Vitruvius (ch. X); the 1525 dedication of the Underweysung der Messung to Pirckheimer (ch. XI); the extract from the Third Book of Human Proportion (ch. XII).",
+      "url": "https://archive.org/details/literaryremainso00conw"
+    },
+    {
+      "id": "src_durer_conway",
+      "kind": "biography",
+      "title": "W. M. Conway, Literary Remains of Albrecht Dürer (1889) -- the editor's own narrative and notes, SCHOLAR perspective (19th-century, admiring; some motive readings, e.g. that the Heller picture was undertaken as advertisement, are NOT used). Read: ch. IV-V (Venice 1505-07; the Heller altarpiece, incl. the note that 21 preparatory studies survive, most dated 1508, and that the wings were executed by apprentices), ch. VI (Dürer as printer-publisher: the 1511 'three great books' with the imprint 'Printed at Nürnberg by Albrecht Dürer, the painter', his own press, the fair stalls; and the note that he did other graphic work in the evenings while painting the altarpieces), ch. VII notes (Zeeland trip; British Museum walrus drawing dated 1521), ch. VIII (1524 annuity; Council's acceptance of the Four Apostles on 6 Oct. 1526; 1525-28 publications), ch. IX-X (curiosity; proportion studies from before 1500, the 1500 measured drawing, the shift to 'words of difference' and temperaments).",
+      "url": "https://archive.org/details/literaryremainso00conw"
+    },
+    {
+      "id": "src_durer_camerarius",
+      "kind": "biography",
+      "title": "Joachim Camerarius, preface to his Latin translation of Dürer's Four Books of Human Proportion (Nuremberg, 1532), English translation of the biographical passages in Conway 1889 ch. VIII pp. 136-141, read in full -- NON-SELF, FRIEND/INSIDER perspective (a Nuremberg gymnasium professor and 'intimate friend', writing four years after Dürer's death, partly from his own acquaintance and partly from 'the conversations of others'; eulogistic). The Bellini brush and Mantegna stories are secondhand (Dürer's own telling or others'); the stolen horse-proportion notes are Camerarius's own report.",
+      "url": "https://archive.org/details/literaryremainso00conw"
+    },
+    {
+      "id": "src_durer_melanchthon",
+      "kind": "biography",
+      "title": "Philipp Melanchthon's recollections of Dürer as quoted in Conway 1889: (a) his account, quoted from the Edinburgh Review (civ, p. 47), with a second wording in Conway's footnote, of Dürer's saying that as a youth he loved bright, florid and unusual designs but as an older man sought nature's simplicity and groaned at his own paintings (ch. X, p. 185); (b) Caspar Peucer's report (Tractatus historicus de Ph. Melanchthone, 1569, via Strobel) of Melanchthon's story of Dürer's table disputes with Pirckheimer c. 1525 (ch. VIII p. 133). NON-SELF friend perspective, but (a) relays Dürer's own self-description and (b) is a second-hand retelling; weighted accordingly.",
+      "url": "https://archive.org/details/literaryremainso00conw"
+    },
+    {
+      "id": "src_durer_met",
+      "kind": "institution",
+      "title": "Jacob Wisse (Stern College for Women, Yeshiva University), 'Albrecht Dürer (1471-1528)', Heilbrunn Timeline of Art History, The Metropolitan Museum of Art, October 2002 -- short SCHOLARLY/MUSEUM essay read in full (via the Internet Archive capture of 4 Jan. 2020; the live Met site returned HTTP 429): apprenticeship, the woodcut series of 1497-1511, the Meisterstiche of 1513-14 'intended more for connoisseurs and collectors', the Italian journeys of 1494-95 and 1505-07, the Underweysung der Messung (1525) and Four Books (1528), and the characterisation of his letters and diaries as showing an 'insistently scientific perspective'. Independent of Conway.",
+      "url": "https://www.metmuseum.org/toah/hd/durr/hd_durr.htm"
+    },
+    {
+      "id": "src_durer_bm_rhino",
+      "kind": "institution",
+      "title": "British Museum, collection record 1895,0122.714, Albrecht Dürer, The Rhinoceros (woodcut, 1515, first edition) -- curator's comments read in full (Internet Archive capture of 30 Sept. 2023; the live page returned HTTP 403): the animal arrived in Lisbon on 20 May 1515, Dürer never saw it, and his design was very likely based on a Portuguese newsletter description with some sort of sketch; his preparatory drawing (BM Sl,5218.161) carries the inscription on which the printed text is based. Independent MUSEUM/CURATORIAL perspective.",
+      "url": "https://www.britishmuseum.org/collection/object/P_1895-0122-714"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_durer_self_conway, src_durer_conway, src_durer_camerarius | Aug. 1508 - Aug. 1509; 1532 | self + scholar + friend] In his letters to Jacob Heller about the Frankfurt altarpiece (self; Heller's side is lost) Dürer proposed in August 1508 to lay the ground 'four, five, or six times over' in the best ultramarine and let no one else paint a stroke, asked 200 florins instead of the agreed 130, wrote in November that he could not finish the middle panel in under thirteen months, and on delivery (26 Aug. 1509) said he had painted it over twice more after finishing and would not take such pains again, since 'very careful nicety does not pay'. Conway records that twenty-one preparatory studies for the picture survive, most dated 1508. Camerarius (1532) writes that none of his works has 'a single line carelessly or wrongly drawn' and names his 'excessive industry' as his one fault. Dual-edged: the same letters record lost income and a strained relationship with the patron."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_durer_camerarius, src_durer_met | 1506 (reported); c.1500-1532 | friend + scholar] Camerarius, writing as a friend who had watched him work, says Dürer drew lines freehand so exactly 'you might swear that rule, square, or compasses had been employed', drew the parts of a composition separately so that they fitted when joined, and painted the smallest things on panel without underdrawing; he says he himself examined the beard in Dürer's self-portrait, its locks drawn at regular distances with the brush. He also retells (secondhand) Giovanni Bellini's request in Venice for the special brush with which Dürer painted hair, and Dürer's demonstration that he used an ordinary one. Wisse's Met essay independently stresses the technical virtuosity of the 1513-14 engravings. One admiring friend supplies most of the specifics, hence strong_inference."
+    },
+    "mastery_orientation": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_durer_conway, src_durer_camerarius, src_durer_met, src_durer_self_conway | 1494-95; 1505-07; 1506 | scholar + friend + museum + self] The Met essay records two journeys to Italy (1494-95, 1505-07) in which he absorbed Italian works, classical models and theory; Conway describes the Feast of the Rose Garlands (Venice, 1506) as showing a new treatment of drapery learned from study of Venetian masterpieces. Camerarius says he was 'ever desirous of observing the works and principles of the famous painters of every land', and that when the dying Mantegna (d. Sept. 1506) summoned him to teach him principles, Dürer left 'all other engagements' to go, arrived too late, and called this the saddest event of his life. His own letter from Venice (7 Feb. 1506) calls the aged Bellini 'still the best painter of them all'. Several independent accounts of deliberate study of other masters. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 82/0.7 documented -> 80/0.66 documented; the Mantegna episode is a friend's admiring retelling and the Venice learning is described by later scholars rather than witnesses"
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_durer_self_conway, src_durer_camerarius, src_durer_met | Sept. 1506; July 1509; 1500-1532 | self + friend + scholar] From Venice (8 Sept. 1506) he wrote that the Rose Garlands altarpiece had 'stopped the mouths of all the painters' who said he could engrave but not handle colour, and that he had declined other work to finish it; to Heller (10 July 1509) he wrote that he had meant 'to gain for myself some fame' by the pains he took. Camerarius says 'his great and lofty mind was ever striving after something yet above him'. Wisse reads the self-portraits (drawn, painted and printed) as those of a master eager to assert his creative genius. The first two items are self-statements and the last two are characterisations, so the lean is moderate."
+    },
+    "systems_abstraction": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_durer_self_conway, src_durer_conway, src_durer_camerarius, src_durer_met | before 1500 - 1513; 1525; 1532 | self + scholar + friend + museum] His own draft says that when Jacopo de' Barbari showed him figures built on a proportional canon but would not explain the principles, he read Vitruvius and set out to construct a canon himself. Conway dates a British Museum female figure 'mapped out with proportioned circles and measured lines' to 1500 and describes the following years of measuring nude figures and comparing the measurements, then a 'quasi-geometrical construction' for deriving different body types from a normal figure. The Met essay calls the 1525 Underweysung der Messung, a geometry manual for students, the first scientific treatment of perspective by a northern European artist. Camerarius says he 'brought painting into the fixed track of rule' and worked the principles out for his own use before explaining them in books."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_durer_conway, src_durer_camerarius, src_durer_self_conway | c.1500-1528; 1532 | scholar + friend + self] Conway traces the proportion studies from before 1500 through decades of drafts (the British Museum manuscripts) to 1528, when two of the Four Books were ready for press and two awaited revision at his death; Pirckheimer then saw them through the press and Camerarius translated them. His own drafts and the 1528 text show him returning to the same problem over many years. Camerarius also records that after his notes for a treatise on the proportions of the horse were stolen he 'never cared to begin the work afresh', a real counter-instance, so the score stays in the low 70s."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_durer_self_conway, src_durer_camerarius, src_durer_conway | 1525; 1528; 1532 | self + friend + scholar] In the 1525 dedication of the Underweysung der Messung he wrote that German painters had been taught 'without any foundation' and that he meant 'to propound the elements for the use of all eager students of Art'; his drafts say he would have printed Jacopo's canon 'in his honour, for the use of all men' had he been given it. Camerarius (1532), who says Dürer asked him a few days before his death to translate the proportion books into Latin, credits his 'burning desire to do something by his discoveries for the public good' and says that 'with his generous and open nature' he explained his principles in books. Conway contrasts this with the secrecy of contemporaries such as Jacopo. Stated purpose plus a friend's testimony, not a measured outcome."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_durer_met, src_durer_conway, src_durer_camerarius | 1497-1528 | museum + scholar + friend] Independently dated strands of sustained work with real output: panel painting (Rose Garlands 1506, Heller altarpiece 1509, Four Apostles 1526), woodcut and engraving series (1497-1514, Met), his own printing and publishing business (four books issued in 1511 from his press, Conway), a geometry and perspective manual (1525), a treatise on the fortification of towns (1527) and the Four Books of Human Proportion (1528) (Met; Conway ch. VIII). Camerarius adds that he had 'almost entirely mastered' physics and mathematics and left writings on gymnastics and music. Breadth is scored, not the quality of each strand."
+    },
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_durer_self_conway, src_durer_conway, src_durer_bm_rhino | 1503; 1515; Aug.-Dec. 1520; 1521 | self + scholar + museum] His diary records that in Brussels (Aug. 1520) he examined the objects sent to Charles V from Mexico and marvelled at the subtle ingenuity of men in foreign lands, and that on 3-14 December 1520 he travelled by horse and boat into Zeeland and tried at Zierikzee to see a stranded whale, which the tide had carried off; Conway notes his British Museum drawing of a walrus 'taken in the Netherlandish sea', dated 1521. The British Museum's curator records that in 1515 he designed the Rhinoceros woodcut from a Portuguese description and sketch of an animal he never saw. A surviving note on the year 1503 (Conway ch. IX) records his observation of 'crosses' said to fall on people and of a comet. Several distinct, dated instances."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_durer_melanchthon, src_durer_conway, src_durer_self_conway | c.1520s; c.1513-1528 | friend relay + scholar + self] Melanchthon, in two separate wordings, recalled Dürer saying that as a young man he loved florid, varied and unusual designs but in later years came to see nature's simplicity as art's highest aim and 'groaned' at his own earlier paintings. Conway describes the proportion research moving from the search for one ideal canon towards many body types and temperaments, and in the Third Book (1528) Dürer wrote that no single man can serve as the model of a perfect figure and 'What Beauty is I know not'. Both rest partly on Dürer's own words (relayed by Melanchthon and in print), so confidence is modest."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_durer_melanchthon, src_durer_self_conway, src_durer_met | Aug. 1520; later 1520s | friend relay + self + scholar] Melanchthon's recollection shows Dürer articulating a considered change of taste from brilliant, varied colouring to simplicity and judging his own earlier paintings harshly. In Brussels in August 1520 he wrote that nothing he had seen in his life 'rejoiced my heart so much' as the Mexican gold and silver work, 'wonderful works of art', responding to craftsmanship from a culture wholly foreign to him. Wisse's Met essay describes the letters and diaries as showing 'demanding artistic judgment'. Scored from documented discrimination and response, not from his occupation; the key items rest on his own words, hence moderate confidence."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_durer_conway, src_durer_met, src_durer_self_conway | 1511; 1513-14; July 1520 | scholar + museum + self] Conway describes him setting up his own press and in 1511 publishing four woodcut books at once with the imprint 'Printed at Nürnberg by Albrecht Dürer, the painter', and selling prints from a stall at the Frankfurt and Nuremberg fairs. Wisse (Met) notes that the 1513-14 master engravings were aimed 'more for connoisseurs and collectors than for popular devotion'. On the 1520 journey his diary records giving a painting, the Life of the Virgin, the Apocalypse and engravings to the Bishop of Bamberg, who gave him a toll pass and letters of introduction, and repeatedly trading prints for goods and services. Conway's reading of the altarpieces as advertising is not used."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q5580 verified live (wbgetentities, 2026-09-26): en label 'Albrecht Dürer', description 'German painter, printmaker, mathematician, and theorist (1471-1528)', ko label '알브레히트 뒤러', de description 'deutscher Maler und Graphiker (1471-1528)', born 1471-05-21, died 1528-04-06 (Julian), citizenship Q47261, P18 'Dürer Alte Pinakothek.jpg', kowiki sitelink '알브레히트 뒤러' (used for displayNames ko-KR). This is the painter, not his father Albrecht Dürer the Elder (Q535910). Slug collision check: no albrecht-durer file in data-pipeline/candidates, no Dürer person in src/data/people (the only hit is a mention inside Rembrandt's source text in roster38.ts), no existing Dürer portrait in public/portraits. CLASSIFICATION PRECEDENT: era early_modern follows michelangelo (b. 1475) and leonardo-da-vinci (b. 1452), both early_modern; regionCode western_europe and nationalityCodes DE follow the German early-modern precedents johannes-kepler and johann-sebastian-bach. Occupation painter only (existing id; no printmaker/engraver id exists in en.ts, and mathematician was not added because his mathematical work served his art -- no new id proposed). Fields: art as assigned; mathematics ADDED because the systems_abstraction row (and part of cross_domain_range) rests on the proportion research and the 1525 geometry/perspective manual Underweysung der Messung, which the Met essay treats as the first scientific treatment of perspective by a northern European artist. Impact domains artistic, cultural, historical (Michelangelo precedent); tags perfectionist, theorist, renaissance; archetypes creative_creator, cross_disciplinary_generalist. No new tags. EVIDENCE READ (8 source records incl. 2 orientation; 6 substantive records, all opened and read locally from downloaded texts in scratch_r40/work/albrecht-durer): Conway, Literary Remains (1889) full OCR text -- Dürer's own letters/diary/writings (listed in src_durer_self_conway) kept separate from Conway's own narrative (src_durer_conway); Camerarius's 1532 preface as translated by Conway; Melanchthon's recollections as quoted by Conway (Edinburgh Review quotation and Peucer 1569); Wisse's Met Heilbrunn essay (2002); British Museum curator's comments on the 1515 Rhinoceros. Also opened and read but NOT used as a source record: Vasari's Life of Marcantonio (1568, Gutenberg #28422) and Heaton's Life of Albrecht Dürer (1881) pp. 152-155, which shows Vasari's account of Dürer's complaint to the Venetian Signoria to be chronologically confused; Thausing vol. II (1882) was downloaded and searched but not used. INDEPENDENT PERSPECTIVES: (1) Dürer himself (letters, diary, dedications, treatise text; one self perspective, never sole support); (2) Joachim Camerarius, friend and Nuremberg professor, 1532 (insider/eulogistic, partly firsthand); (3) Philipp Melanchthon via his own recollection and Peucer's retelling (friend relay; the simplicity remark relays Dürer's own words); (4) W. M. Conway, 1889 scholar-editor; (5) Jacob Wisse / Metropolitan Museum (modern scholar-museum); (6) British Museum curatorial record (museum). NON-SELF behavioural sources: Camerarius, Melanchthon/Peucer, Conway, Met, British Museum. The Heller correspondence is NOT two-sided: only Dürer's nine letters survive; Heller's complaints are known only as Dürer quotes them, so it counts as self (Conway's note on the 21 surviving 1508 studies is the independent corroboration). EPISODE USE (no episode supports more than two rows): Heller altarpiece 1507-09 -> perfectionism; Camerarius on his hand and line (incl. the Bellini brush story) -> detail_orientation; Venice sojourn 1505-07 and Mantegna summons -> mastery_orientation, achievement_drive (Heller 'fame' line is a second, brief citation in achievement_drive, so Heller has two uses); proportion research c.1500-13 (Jacopo, Vitruvius, measured figures) -> systems_abstraction, persistence; later shift to types/temperaments and Book III 1528 -> belief_updating; Melanchthon's simplicity recollection -> belief_updating, aesthetic_sensitivity; 1525 Underweysung and its dedication -> impact_motivation, cross_domain_range; own press/1511 books/fair stalls -> opportunity_sensing, cross_domain_range; Brussels Mexican objects Aug. 1520 -> curiosity, aesthetic_sensitivity; Zeeland whale trip Dec. 1520 and walrus drawing -> curiosity; Rhinoceros 1515 -> curiosity; Bamberg gifts July 1520 -> opportunity_sensing. ROWS CONSIDERED AND LEFT UNSCORED: deep_focus (his letters say he never paints two pictures at once, but Conway states he did graphic work in the evenings during the altarpieces -- contradicted, omitted); conflict_tolerance (Heller dispute and Peucer's Pirckheimer disputes vs. Camerarius's report that he declined to pursue those who stole his notes and Conway's 'quiet, amicable' characterisation -- genuinely mixed, omitted); autonomy_need (refusal of Venetian and Antwerp salaries is known only from his own 1524 letter); persuasiveness/independent_thinking (single second-hand Peucer anecdote); discipline, execution_speed, collaboration, competitiveness (Vasari's rivalry with Lucas van Leyden is late hearsay), risk_tolerance, leadership_drive, social traits -- insufficient on-point evidence. EXCLUDED ON PURPOSE: Pirckheimer's 1530 letter to Tscherte and all claims about Agnes Dürer or the marriage (hostile gossip; private life); Dürer's illness after the Zeeland trip and the circumstances of his death (health; not used); religious/Reformation sympathies, Luther's letter on his death and the Four Apostles inscription (not scored; no politics/religion rows); Vasari's Marcantonio story (chronologically confused per Heaton); Conway's motive readings (altarpieces as advertisement; his characterisation of Heller); the 1524 loan to the Council and the imperial annuity (financial arrangements, not behaviour scored); fame of the self-portraits and prints. KNOWN LIMITS: Much of the non-self testimony is from friends writing eulogistically soon after his death (Camerarius) or retold (Melanchthon via Peucer); Conway is a 19th-century scholar working from the same letters; modern scholarship read is limited to short museum texts (Panofsky and other monographs not freely available). Confidence is capped accordingly; no row exceeds 0.70. PORTRAIT: File:Dürer_Alte_Pinakothek.jpg (Wikidata P18), the 1500 Self-Portrait (Selbstbildnis im Pelzrock), Alte Pinakothek inv. 537; Commons API and raw wikitext read: {{artwork}} with source https://www.sammlung.pinakothek.de/de/artwork/Qlx2QpQ4Xq, licence {{PD-Art|PD-old-100-expired}}, extmetadata Copyrighted False; no third-party copyright-claim template. The upstream museum page was read: it displays the image with a CC BY-SA 4.0 notice. The painting is public domain (artist d. 1528) and under German law (sec. 68 UrhG, since 2021) and Commons PD-Art policy a faithful reproduction attracts no new right, so the museum notice does not block reuse; the attribution nevertheless credits the Bayerische Staatsgemäldesammlungen and mentions the CC BY-SA 4.0 notice (flagged for the lead). Original downloaded 2128 x 3000 px, opened with PIL, downscaled to 1135 x 1600 px, JPEG q85, no crop; visually checked (frontal half-length self-portrait with the 1500 monogram and Latin inscription). Kind 'likeness': a self-portrait painted from life at age 28. Rejected alternatives: other Commons reproductions of the same painting (no advantage) and the 1498 Prado self-portrait (also fine, but the 1500 panel is the Wikidata image and the brief's choice). No eligibility, coverage or match output was used in scoring. LEAD REVIEW RUBRIC_CORRECTION: mastery_orientation 82/0.7 documented -> 80/0.66 documented (the Mantegna episode is a friend's admiring retelling and the Venice learning is described by later scholars rather than witnesses). PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알브레히트 뒤러"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/albrecht-durer-self-portrait-1500.jpg",
+    "width": 1135,
+    "height": 1600,
+    "source": "Albrecht Dürer, Self-Portrait (Selbstbildnis im Pelzrock), 1500, oil on limewood, Bayerische Staatsgemäldesammlungen - Alte Pinakothek, Munich (inv. 537), museum digital image via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Art",
+    "attribution": "Albrecht Dürer, Self-Portrait, 1500, Bayerische Staatsgemäldesammlungen - Alte Pinakothek, München; painting in the public domain (artist d. 1528; PD-Art/PD-old-100-expired on Commons); the museum also publishes this image under CC BY-SA 4.0; downscaled",
+    "attributionUrl": "https://www.sammlung.pinakothek.de/de/artwork/Qlx2QpQ4Xq",
+    "creator": "Albrecht Dürer",
+    "date": "1500",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_Alte_Pinakothek.jpg"
+  }
+}

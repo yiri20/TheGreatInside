@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rudolf-diesel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Rudolf Diesel",
+    "aliases": [
+      "Rudolf Christian Karl Diesel",
+      "Rudolph Diesel"
+    ],
+    "wikidataId": "Q12674",
+    "birthYear": 1858,
+    "deathYear": 1913,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological",
+      "industrial",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_diesel_wikidata",
+      "kind": "wikidata",
+      "title": "Rudolf Diesel (Q12674) -- identity verified live through the Wikidata API (wbgetentities, 2026-09-26): en label 'Rudolf Diesel', en description 'German inventor and mechanical engineer (1858–1913)', ko label '루돌프 디젤', born 1858-03-18 (Paris), died 1913-09-30, citizenship Kingdom of Bavaria (Q154195), occupations incl. inventor, engineer, mechanical engineer, entrepreneur; P18 'Rudolf Diesel2.jpg'; kowiki sitelink '루돌프 디젤'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q12674"
+    },
+    {
+      "id": "src_diesel_lecture_1897",
+      "kind": "archive",
+      "title": "Rudolf Diesel, 'Diesel's Rational Heat Motor: A Lecture' (Progressive Age Publishing Co., New York, 1897), English translation of his lecture to the Verein Deutscher Ingenieure general meeting at Kassel, 16 June 1897 -- archive.org OCR full text downloaded and the lecture read in full (fifteen years of work, the ammonia-vapour engine, the four conditions of the 1893 book, the Augsburg test programme 1893-97 in six periods with the diagram history, the outside test committees of Feb.-May 1897, the acknowledgments). SELF perspective (never sole support for a row).",
+      "url": "https://archive.org/details/dieselsrational00diesgoog"
+    },
+    {
+      "id": "src_diesel_schroeter_1897",
+      "kind": "archive",
+      "title": "Moritz Schröter (professor, Technische Hochschule München), 'Tests made with Diesel's Rational Heat Motor', report of his test of 17 Feb. 1897, printed after the lecture in the same 1897 pamphlet -- read in full (set-up, brake, fuel weighing, heat balance, exhaust analysis; assistants Munkert and Brückner). INDEPENDENT ACADEMIC TESTER perspective (non-self; sympathetic to the theory but reporting his own measurements). Used only for the independent-testing episode, not for personality claims.",
+      "url": "https://archive.org/details/dieselsrational00diesgoog"
+    },
+    {
+      "id": "src_diesel_imeche_paper_1912",
+      "kind": "archive",
+      "title": "Rudolf Diesel, 'The Diesel Oil-Engine, and its Industrial Importance, particularly for Great Britain', Proceedings of the Institution of Mechanical Engineers, March 1912, pp. 179ff., with his oral reply to the discussion (pp. 254-257) and his written replies to communications (pp. 275-278) -- archive.org OCR full text (proceedings191201inst) downloaded; the paper's opening and historical section and all of Diesel's replies read. SELF perspective (counted together with the 1897 lecture as one self perspective).",
+      "url": "https://archive.org/details/proceedings191201inst"
+    },
+    {
+      "id": "src_diesel_imeche_discussion_1912",
+      "kind": "archive",
+      "title": "Discussion of Diesel's March 1912 paper, Proceedings of the Institution of Mechanical Engineers 1912, pp. 230-278 (same archive.org text) -- read: chairman Sir H. F. Donaldson; Dugald Clerk (gas-engine inventor who says he watched Diesel's work 'from 1892'; partly CRITICAL -- disputes the novelty of the compression-then-injection idea and Diesel's 48 per cent indicated-efficiency figure); H. Ade Clark (who publicly attacked Diesel's claims in 1902 and reported his own investigation in 1903); Mark Robinson; H. S. Russell; E. R. Briggs; written communications (Churchill-Shann, Erith, Houston, Wainwright). NON-SELF contemporary PEER perspective, independent of Diesel and his firms, including rivals.",
+      "url": "https://archive.org/details/proceedings191201inst"
+    },
+    {
+      "id": "src_diesel_chalkley",
+      "kind": "biography",
+      "title": "A. P. Chalkley, Diesel Engines for Land and Marine Work, 4th ed. (New York: Van Nostrand, 1916; 1st ed. 1912), archive.org OCR full text -- read the preface, Diesel's introductory chapter (SELF, used only as corroboration of fuel trials) and ch. II 'Action and working of the Diesel engine' (pp. 33-36) on how engines as built departed from the cycle Diesel first proposed. NON-SELF contemporary British engineering author (technical, not biographical).",
+      "url": "https://archive.org/details/dieselenginesfor00chal"
+    },
+    {
+      "id": "src_diesel_dm_findbuch",
+      "kind": "archive",
+      "title": "Archiv des Deutschen Museums, Munich, Findbuch NL 094 Diesel, Rudolf (1858-1913), by Markus Künzel (May 2020; listing state 08.08.2023), PDF downloaded and read: the archivist's biographical introduction (pp. V-XIV) and the itemised listing of section 3 (Diesel's test reports, calculations and journals 1893-98), 6.1 (Augsburg correspondence 1893-94), 6.9 (Capitaine dispute 1898) and 6.11 (Springer correspondence on Paul Meyer's 1913 brochure). INSTITUTIONAL/ARCHIVAL perspective (independent archivist; parts of the introduction rely on and cite Eugen Diesel's 1937 biography and NDB entry, so those passages are not treated as independent of src_diesel_ndb; the item listing is an independent description of the surviving papers).",
+      "url": "https://www.deutsches-museum.de/assets/Forschung/Archiv/Download/Findbuecher_PDF/NL_094_Diesel.pdf"
+    },
+    {
+      "id": "src_diesel_ndb",
+      "kind": "biography",
+      "title": "Eugen Diesel, 'Diesel, Rudolf', Neue Deutsche Biographie 3 (1957), pp. 660-662, deutsche-biographie.de, read in full. INSIDER perspective (written by his son; admiring). Used only for dated career facts (ammonia-engine work 1883-89 abandoned 1890; 1893-97 Augsburg; renewed development after 1908) and never for motive, health, finance or death claims.",
+      "url": "https://www.deutsche-biographie.de/sfz69644.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_diesel_lecture_1897, src_diesel_dm_findbuch, src_diesel_imeche_discussion_1912, src_diesel_ndb | 1883-90; Aug. 1893 - Feb. 1897 | self + archival + critical peer + insider] Diesel worked on a high-pressure ammonia-vapour engine from 1883 until he judged it a failure in 1890 (NDB; archivist's introduction), then took up the air-compression engine. At Augsburg the first test engine (1893) gave violent explosions that destroyed the indicator; a complete rebuild followed, then a ten-month period in which 'in spite of all rebuilding' no usable diagrams were obtained, and about two years passed before a new engine could be built; acceptance tests came only in early 1897 (his 1897 lecture). The archive independently holds the successive test journals and redesign reports for 1893-94, 1894-95, 1895-96 and 1896-97, and the archivist notes the repeated setbacks. Dugald Clerk, a critical contemporary, spoke in 1912 of the 'struggles' he had watched 'from 1892'."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_diesel_lecture_1897, src_diesel_dm_findbuch, src_diesel_imeche_paper_1912, src_diesel_chalkley | 1893-98; 1900-12 | self + archival + contemporary author] The Augsburg programme was laid down as a sequence of trials -- first liquid, then gaseous, then pulverised fuel, with a simple single-cylinder engine before the planned compound engine (1897 lecture); diagrams were taken with benzine, petroleum, lighting gas, fuel vapours and mixtures. The archive lists separate journals of gas trials (1898) and of compound-engine trials (1898), and the archivist records his 1894 move back towards gas before benzine injection succeeded, and later trials with coal dust and other fuels. In 1912 he described repeating, on a large scale, running engines on groundnut oil after the 1900 Paris exhibition engine (1912 paper; his introduction in Chalkley). Detail is partly self-reported, but the trial series are independently attested by the archival record."
+    },
+    "belief_updating": {
+      "score": 70,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_diesel_imeche_discussion_1912, src_diesel_chalkley, src_diesel_imeche_paper_1912, src_diesel_dm_findbuch, src_diesel_lecture_1897 | 1893-97; 1897-98; 1912 | critical peer + contemporary author + self + archival] Clerk (1912) said Diesel set out in 1892 to apply the Carnot cycle but 'soon gave up that idea' when he found it impractically heavy and 'proceeded on less ambitious lines'; Chalkley likewise notes that the engines as built worked differently from what 'the inventor first intended', constant-pressure combustion being covered by his second patent. After more than a year of trials of a 150 h.p. compound engine (1897-98) he concluded the system was 'useless' because of heat and pressure losses (his 1912 written reply; the archivist records the compound trials failing on consumption). In 1894-95 he dropped a kinematic fuel-metering scheme after ten months of poor results and returned to an earlier configuration (1897 lecture). In 1912 he publicly agreed with Clerk's criticism of the German way of stating indicated efficiency."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diesel_lecture_1897, src_diesel_schroeter_1897, src_diesel_dm_findbuch, src_diesel_imeche_discussion_1912 | 1893; Feb.-May 1897; 1912 | self + academic tester + archival + critical peer] Diesel published the thermodynamic case for the engine (Theorie und Konstruktion eines rationellen Wärmemotors, 1893) before a working machine existed, setting out losses stage by stage and four design conditions (1897 lecture; the archive holds the manuscript and his 1895 supplementary calculations). In February-May 1897 the engine was tested by several outside parties -- Deutz and Krupp engineers, Sulzer, Professors Schröter and Gutermuth and a French committee -- and Schröter's report describes weighed fuel, calibrated thermometers, laboratory heating-value checks and exhaust-gas analysis. Counterweight: Clerk (1912) judged his published 48 per cent indicated-efficiency figure 'erroneous' on method, and H. Ade Clark had called his claims extravagant in 1902 (though Clark's own 1903 tests then supported them), so the lean is moderate."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diesel_lecture_1897, src_diesel_ndb, src_diesel_dm_findbuch, src_diesel_imeche_paper_1912 | 1878-93; 1897; 1912 | self + insider + archival] Rather than refining an existing engine type, Diesel reasoned from the ideal (Carnot) cycle and the chain of losses in the steam plant -- boiler, theoretical cycle, indicated and mechanical efficiency -- to general conditions a new combustion process must meet (air heated by compression alone, gradual fuel introduction, large air excess), and only then to designs (1893 book as summarised in his 1897 lecture; the NDB and the archivist trace the aim to Linde's 1878 lecture on steam-engine inefficiency). He reasoned the same way about use, linking engine size, fuel and power distribution (decentralised small units, 1897; a fuel-by-fuel division between gas and Diesel engines, 1912 reply). Mostly his own framing, corroborated in outline by the archive and his son's account, hence moderate confidence."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_diesel_dm_findbuch, src_diesel_lecture_1897, src_diesel_schroeter_1897, src_diesel_ndb | 1892-98 | archival + self + academic tester + insider] The archivist records that Heinrich Buz of the Maschinenfabrik Augsburg at first turned the proposal down in 1892 but that Diesel persuaded the firm that summer to build a test engine (contract 21 Feb. 1893), followed by a Krupp contract financing development and paying him a salary (1893), an exclusive licence with Carels in Ghent (1894), talks with Dyckhoff in France (1893), the sale of US rights to Adolphus Busch (1897) and a Swedish company with Marcus Wallenberg (1898). In 1897 he had engineers of partner and competing firms and several professors test the engine and presented the results to the VDI with Schröter's report attached. Outcomes are not scored; the repeated winning of support for an unproven design is. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 70/0.62 documented -> 68/0.58 documented; the persuasion episodes reach the profile mainly through the archivist's summary, which itself draws partly on Eugen Diesel, so one lineage rather than two"
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diesel_dm_findbuch, src_diesel_ndb, src_diesel_imeche_paper_1912 | 1892-94; 1904-13 | archival + insider + self] Diesel himself opened the negotiations with Augsburg (1892), Krupp (1893), Dyckhoff and Carels (1893-94) while the engine was still experimental (archivist). After his patents expired in 1908 he re-entered development at his own expense (NDB); from 1904-05 he brought Sulzer and the railway engineer Adolph Klose together in the Gesellschaft für Thermolokomotiven Diesel-Klose-Sulzer, whose locomotive ran trials in 1912; he showed a small 5 h.p. engine at Brussels in 1910 and pursued a vehicle engine; from 1911 he lectured in London, Berlin and, in 1912, the United States (archivist; his 1912 paper). RUBRIC_CORRECTION at lead review (downward only, no new evidence): 70/0.6 documented -> 68/0.56 strong_inference; initiative is inferred from archival lists of negotiations and the son's NDB entry, not from independent narrative testimony"
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diesel_ndb, src_diesel_dm_findbuch, src_diesel_imeche_paper_1912 | 1890; 1904-13 | insider + archival + self] When the ammonia-vapour engine failed after some seven years (1890), Diesel changed the working medium to air rather than dropping the goal, and the same year moved from Paris to Berlin to represent Linde's firm in northern and eastern Germany (NDB; archivist). Later, as licensees took up large stationary and marine engines, he turned to small engines, locomotives and vehicles and to tar oils and vegetable oils as fuels (archivist; NDB; his 1912 paper). Two separate episodes, mostly from insider and archival summaries, hence strong_inference."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diesel_lecture_1897, src_diesel_imeche_paper_1912, src_diesel_imeche_discussion_1912, src_diesel_dm_findbuch | 1893-97; 1912 | self + peer + archival] In his 1897 VDI lecture Diesel named the engineers Lucien Vogel and Fritz Reichenbach as having 'most successfully advanced the work' and credited Buz and Krupp with carrying the burden of the experiments; the archive holds Augsburg letters of 1893-94 on Vogel's part in the development. In March 1912, answering Clerk's challenge in person, he said he had profited from Clerk's work and had studied Clerk's specifications when his own engine would not run, said he had arranged five years earlier for Clerk's first engine to go to the Deutsches Museum, and closed by crediting collaborators 'in all the countries'. Counterweight: the disputes under conflict_tolerance, so the lean is moderate."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_diesel_dm_findbuch, src_diesel_imeche_paper_1912, src_diesel_imeche_discussion_1912 | 1898; 1912; 1913 | archival + self + peer] In 1898 Diesel answered Emil Capitaine's VDI criticism with a public circular (25 June 1898) and circulated the Patent Office's April 1898 decision rejecting Capitaine's nullity suit; Deutz's challenge to his patents ended in a settlement with Augsburg (archivist). In the 1912 discussion he rebutted several critics point by point and called the Sabathé engine 'simply a copy of the Diesel with no original feature at all'. In 1913 he corresponded with the publisher Springer about having Paul Meyer change formulations in a brochure on the engine's history (archive listing). He defended his position openly, but the priority disputes also absorbed him and his partners, hence dual_edged."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diesel_dm_findbuch, src_diesel_imeche_paper_1912, src_diesel_lecture_1897 | 1893-98; 1912 | archival + self] The archive's item list of Diesel's own design papers shows him working through component-level calculations himself -- e.g. the May 1896 calculations for the 250/400 test engine covering cylinder dimensions, dead volumes, valve sections, connecting-rod length, crankshaft, springs, keys, screws, lubrication and governor -- alongside handwritten journals of each test series. In 1897 he said nearly every detail had to be adapted by 'tedious study and continuous building and rebuilding', and in 1912 he insisted a Diesel engine 'must always be a finely built engine'. Scored from the kind of work recorded, not from its volume."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/rudolf-diesel-1912.jpg",
+    "width": 1196,
+    "height": 1600,
+    "source": "Frontispiece of Rudolf Diesel, The Present Status of the Diesel Engine in Europe and a Few Reminiscences of the Pioneer Work in America (St. Louis: Busch-Sulzer Bros.-Diesel Engine Co., 1912), HathiTrust scan (chi.087192032), via Wikimedia Commons",
+    "license": "Public domain",
+    "attribution": "Unknown photographer, portrait of Rudolf Diesel, frontispiece of a lecture pamphlet published in St. Louis in 1912 (HathiTrust scan via Wikimedia Commons); public domain; downscaled",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Diesel_-_The_Present_Status_of_The_Diesel_Engine_in_Europe,_1912.djvu",
+    "creator": "Unknown photographer",
+    "date": "published 1912",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Diesel_-_The_Present_Status_of_The_Diesel_Engine_in_Europe,_1912_Front.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q12674 verified live (wbgetentities, 2026-09-26): en label 'Rudolf Diesel', en description 'German inventor and mechanical engineer (1858–1913)', ko label '루돌프 디젤', born 1858-03-18, died 1913-09-30, place of birth Paris (Q90), citizenship Kingdom of Bavaria (Q154195), occupations incl. inventor, engineer, mechanical engineer, entrepreneur, P18 'Rudolf Diesel2.jpg', kowiki sitelink '루돌프 디젤' (used for displayNames ko-KR). Slug collision check: no rudolf-diesel file in data-pipeline/candidates before this cycle, no Diesel entry in src/data/people, no diesel portrait in public/portraits. CLASSIFICATION PRECEDENT: era 19th_century, regionCode western_europe, nationalityCodes DE follow karl-benz and alexander-von-humboldt (born in Paris to Bavarian parents; Bavarian/German citizen). Occupations engineer + inventor and fields engineering + technology as assigned, following james-watt; impact domains engineering, technological, industrial, innovation (karl-benz/james-watt precedent); tags innovator and systematic_thinker (theory-first development, see systems_abstraction); archetype technical_innovator. No new ids proposed. EVIDENCE READ (8 source records incl. 1 orientation; 7 substantive, all downloaded to scratch_r40/work/rudolf-diesel/ and read locally): the 1897 VDI lecture in English translation (archive.org, full lecture) with Schröter's appended test report; Proceedings IMechE 1912 (archive.org OCR): Diesel's paper, the full oral discussion, written communications and all of Diesel's replies; Chalkley, Diesel Engines for Land and Marine Work (1916 ed.), preface, Diesel's introduction and ch. II pp. 33-36; Deutsches Museum Findbuch NL 094 (2020), introduction pp. V-XIV and the item listings of sections 3, 6.1, 6.9, 6.11; NDB entry (1957, by Eugen Diesel). Also opened but NOT used as sources: Grace's Guide page (thin, reprints a 1913 Steamship Journal notice centred on his death and debts), the DieselNet 'Early History' page (subscription preview only; its characterisation of Diesel's relations with other designers was not relied on), the Busch-Sulzer 1913 company brochure (about Busch, not Diesel's conduct). Not accessible: Nitske & Wilson (1965), Moon (1974) and Grosser (1978) are IA lending-only (not read; a community upload of Moon's book was deliberately not used); Lynwood Bryant's 1969/1976 articles are paywalled; Diesel's 'Die Entstehung des Dieselmotors' (1913) and HathiTrust were not reachable (HathiTrust returned 403). INDEPENDENT PERSPECTIVES: (1) Diesel himself (1897 lecture, 1912 paper and replies, his introduction to Chalkley -- one self perspective, never sole support for a row); (2) Moritz Schröter, independent academic tester (1897); (3) the 1912 IMechE discussants, including the critical rival Dugald Clerk and H. Ade Clark, who had attacked Diesel's claims in 1902 (contemporary peers); (4) A. P. Chalkley, contemporary British engineering author; (5) Deutsches Museum archivist Markus Künzel and the itemised archival listing (institutional; the introduction partly depends on Eugen Diesel); (6) Eugen Diesel, son (insider, NDB). NON-SELF behavioural sources: Deutsches Museum Findbuch (dated contracts, negotiations, trial series, disputes), IMechE discussion (Clerk on the 1892 start and the abandonment of the pure Carnot cycle; Ade Clark's investigation), Chalkley (departure from the original cycle), Schröter (conduct of the 1897 tests), NDB (dated career facts). EPISODE USE (no episode supports more than two rows): 1878-93 theory-first design and the 1893 book -> analytical_rigor, systems_abstraction; 1883-90 ammonia engine and switch to air -> persistence, adaptability; Aug. 1893 - Feb. 1897 Augsburg test programme (narrative of failures and rebuilds, fuel sequence) -> persistence, experimentation; 1893-97 departure from the pure Carnot/isothermal cycle -> belief_updating; 1897-98 compound engine -> experimentation, belief_updating; Feb.-May 1897 outside test committees -> analytical_rigor, persuasiveness; 1892-98 negotiations with Buz, Krupp, Carels, Dyckhoff, Busch, Wallenberg -> persuasiveness, proactive_agency; 1904-13 locomotive company, small and vehicle engines, lecture tours -> proactive_agency, adaptability; 1897 acknowledgments of Vogel/Reichenbach/Buz/Krupp -> collaboration; March 1912 exchange with Clerk -> collaboration, belief_updating; 1898 Capitaine/Deutz disputes, 1912 Sabathé remark, 1913 Meyer brochure -> conflict_tolerance; 1896 component calculations and design papers (archival item descriptions) plus 1912 remark on fine workmanship -> detail_orientation (treated as a separate design-documentation episode from the test-programme narrative). ROWS CONSIDERED AND LEFT UNSCORED: curiosity and achievement_drive (only the son's characterisations and Diesel's own statements; no independent behavioural episode); independent_thinking (the 1893 'revolution of prevailing opinion' framing is self-description and the episode already carries two rows); creative_originality (priority is genuinely contested -- Clerk's 1887-88 flame-injection engine, Akroyd Stuart's hot-bulb engine, Capitaine -- and is not adjudicated); risk_tolerance (leaving Linde's firm in 1893 was on a Krupp salary, and he describes decisions on dangerous trials as taken only after weeks of discussion -- genuinely mixed, so omitted rather than guessed); discipline, deep_focus, perfectionism, planning_orientation, decisiveness, social_assertiveness, leadership_drive, competitiveness, autonomy_need, impact_motivation, opportunity_sensing, resourcefulness, mastery_orientation, execution_speed, ambiguity_tolerance, intuitive_synthesis, aesthetic_sensitivity, cross_domain_range (no adequate independent evidence read). EXCLUDED ON PURPOSE: his disappearance from the steamer Dresden on 29-30 September 1913 and any account of its cause (the NDB and the archivist state a suicide view; Grace's Guide repeats newspaper speculation; none of it is used anywhere, including editorial); his 1898-99 nervous illness and sanatorium stay, health generally, family life and his finances, investments and debts; his 1903 book Solidarismus and social-reform views (non-professional, politics-adjacent); fame, honours (Grand Prix 1900 and 1910), wealth, licence income, number of engines built; all 'first'/'inventor of' priority claims (Akroyd Stuart, Clerk, Capitaine, Sabathé); Diesel's own efficiency claims (Clerk's correction is noted instead); the son's motive and character statements (e.g. 'closed and proud'). KNOWN LIMITS: no modern scholarly biography was read (Grosser, Nitske & Wilson, Moon, Bryant, Sass, Köhler unavailable); Diesel's 1913 'Entstehung' and his letters were not read directly, only as listed and summarised by the archive; much of the development narrative still rests on Diesel's own 1897 and 1912 accounts, corroborated in outline by the archive, Clerk and Chalkley; the archivist's introduction depends partly on Eugen Diesel, so it and the NDB are not treated as fully independent; Clerk and the other IMechE discussants are contemporaries with their own interests (Clerk as a rival gas-engine inventor). Confidences are therefore kept at or below 0.72 and no row is above 80. PORTRAIT: Wikidata P18 'Rudolf Diesel2.jpg' rejected (538x717, source given only as a Volvo Trucks press-release web page; no verifiable provenance). Chosen: Commons File 'Diesel - The Present Status of The Diesel Engine in Europe, 1912 Front.jpg', the frontispiece photograph of Diesel's lecture pamphlet 'The Present Status of the Diesel Engine in Europe and a Few Reminiscences of the Pioneer Work in America' (St. Louis: Busch-Sulzer Bros.-Diesel Engine Co., 1912; lectures of April 1912 in St. Louis, Cornell, Annapolis and to ASME in New York), scanned by HathiTrust (chi.087192032). Commons API imageinfo/extmetadata read (LicenseShortName 'Public domain', Copyrighted False) and raw File-page wikitext read: {{PD-scan|PD-old-auto-expired|deathyear=1913}}, author given as 'Rudolf Diesel' (the author of the publication; the photographer is unnamed), no third-party-claim, NPG or 'In copyright' notice; the parent djvu File page gives the publisher, place and date. Basis: a photograph published in the United States in 1912 (public domain in the US as a pre-1931 publication) and, the photographer being unnamed, an anonymous work published more than 70 years ago. Small inconsistency noted: the Commons template keys the expiry to Diesel's death year although the photographer is unknown; the publication-date basis is independent of this. The upstream HathiTrust record could not be opened (403). Original downloaded from upload.wikimedia.org (1420x1900, grayscale), confirmed with PIL, downscaled to 1196x1600 (JPEG q85), no crop; the saved file was viewed and shows Diesel half-length, three-quarter view, with pince-nez and moustache. kind 'likeness' (photograph from life). Other rejected alternatives: 'Rudolf Diesel.jpg' (unknown source), 'Diesel 1883.jpg' (small, sourced from a Britannica web page), 'Collier's Diesel Rudolf.png' (a 1921 encyclopedia drawing, lower quality), the two Spaarnestad Photo portraits SFA007001969/1970 (undated, author unknown, repository-supplied PD tag only), 'Doctor R.Diesel (5774953779).jpg' (Flickr CC BY-SA upload tied to his death, provenance of the underlying image unclear). No eligibility, coverage or match output was used in scoring. LEAD REVIEW RUBRIC_CORRECTION: persuasiveness 70/0.62 documented -> 68/0.58 documented (the persuasion episodes reach the profile mainly through the archivist's summary, which itself draws partly on Eugen Diesel, so one lineage rather than two). LEAD REVIEW RUBRIC_CORRECTION: proactive_agency 70/0.6 documented -> 68/0.56 strong_inference (initiative is inferred from archival lists of negotiations and the son's NDB entry, not from independent narrative testimony). PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루돌프 디젤"
+    }
+  }
+}

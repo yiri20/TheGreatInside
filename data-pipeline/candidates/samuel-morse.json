@@ -1,0 +1,240 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "samuel-morse",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Samuel Morse",
+    "aliases": [
+      "Samuel Finley Breese Morse",
+      "Samuel F. B. Morse"
+    ],
+    "wikidataId": "Q75698",
+    "birthYear": 1791,
+    "deathYear": 1872,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "painter"
+    ],
+    "fieldIds": [
+      "technology",
+      "art"
+    ],
+    "impactDomains": [
+      "technological",
+      "innovation",
+      "artistic"
+    ],
+    "tagIds": [
+      "career_changer",
+      "innovator",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_morse_wikipedia",
+      "kind": "wikipedia",
+      "title": "Samuel Morse (English Wikipedia) -- orientation only (identity, dates, occupations); not used as support for any scored row. The Korean Wikipedia page 'ko:새뮤얼 모스' was confirmed to exist via the Wikidata sitelink (title only).",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Morse"
+    },
+    {
+      "id": "src_morse_wikidata",
+      "kind": "wikidata",
+      "title": "Samuel Finley Breese Morse (Q75698) -- identity verified live through the Wikidata API (wbgetentities: labels, descriptions, claims, sitelinks): en label 'Samuel Finley Breese Morse', description 'American inventor and painter (1791-1872)', ko label '새뮤얼 모스', born 1791-04-27, died 1872-04-02, citizenship United States (Q30), P18 'Samuel Morse portrait.jpg', kowiki title '새뮤얼 모스'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q75698"
+    },
+    {
+      "id": "src_morse_loc",
+      "kind": "institution",
+      "title": "Library of Congress, 'Samuel F. B. Morse Papers at the Library of Congress, 1793 to 1919' -- curatorial essays read in full via the loc.gov JSON API: 'Invention of the Telegraph', the essay on Morse as artist, politician and photographer ('An Artist First', 'Towards Telegraphy', 'Art and Politics', 'Pioneering Photographer'), and the two collection timelines '1791-1839' and '1840-1872'. Independent institutional/curatorial perspective (secondary, built on the Morse Papers); explicitly credits Henry's published work, Gale's help, Vail and Cornell. Used for dated facts and for the essay's characterisation only where corroborated.",
+      "url": "https://www.loc.gov/collections/samuel-morse-papers/articles-and-essays/"
+    },
+    {
+      "id": "src_morse_regents_1857",
+      "kind": "archive",
+      "title": "Annual Report of the Board of Regents of the Smithsonian Institution for 1857 (Washington, 1858), Proceedings of the Regents, pp. 85-96 read (archive.org OCR full text): Joseph Henry's 'Communication ... relative to a publication by Prof. Morse' and the Regents' special committee report on it, which reproduces Leonard D. Gale's letters to Henry of 7 April 1856 and 5 August 1857, an extract of Sears C. Walker's deposition, S. P. Chase's 1856 letter, and passages from Morse's own letters of 1839 and notes of 1846-48. ADVERSARIAL/INTERESTED perspective (Henry and the institution he headed, answering Morse's 1855 'Defense'); Gale's letters are firsthand collaborator testimony written ~20 years after the events. Used for the 1836 Gale episode and the 1846-55 Henry dispute, never for motive claims.",
+      "url": "https://archive.org/details/annual-report-board-of-regents-smithsonian_1857"
+    },
+    {
+      "id": "src_morse_oreilly_1854",
+      "kind": "archive",
+      "title": "O'Reilly v. Morse, 56 U.S. (15 How.) 62 (1854), U.S. Supreme Court, full text read via Cornell LII: the reporter's statement of the case (pleadings and the patentee's own account of 1832-37) and the opinion of the court by Chief Justice Taney (December Term 1853) on priority, the 1832-38 chronology and the eighth claim, held void as too broad. JUDICIAL perspective resting on the trial depositions (Captain Pell, W. C. Rives, the Morse brothers, Gale, Henry); the reporter's summary of Morse's own sworn statement is treated as self. Priority holdings are NOT used as trait evidence.",
+      "url": "https://www.law.cornell.edu/supremecourt/text/56/62"
+    },
+    {
+      "id": "src_morse_lj_self",
+      "kind": "biography",
+      "title": "Samuel F. B. Morse: His Letters and Journals, ed. Edward Lind Morse (Boston, 1914), 2 vols, Project Gutenberg #11017/#11018 full text downloaded -- MORSE'S OWN LETTERS as printed there (SELF, one perspective): vol. I ch. VII (letter of 2 May 1814), vol. II ch. XXII (circular of 7 March 1834; 1849 letter to Cooper; his account of the first instrument), ch. XXVIII (letters to Vail, Dec. 1841), ch. XXIX (letter to Vail of 18 Dec. 1842), ch. XXX (letters to Sidney Morse and the Treasury, Dec. 1843 - Jan. 1844), ch. XXXIV (letters of 1852-54 on the 'Defense'). Never the sole support for a row.",
+      "url": "https://www.gutenberg.org/ebooks/11018"
+    },
+    {
+      "id": "src_morse_lj_editor",
+      "kind": "biography",
+      "title": "Edward Lind Morse's editorial narrative in Samuel F. B. Morse: His Letters and Journals (1914), vol. I ch. XX and vol. II ch. XXII-XXX, XXXIV (same Gutenberg texts) -- INSIDER perspective (the subject's son; admiring and openly partisan on priority questions, e.g. duplex/wireless and alphabet claims, which are NOT used). Includes letters by third parties reproduced there: Washington Allston to Morse's parents (1814) and to Morse (1837), Thomas Cole to Morse (14 March 1837), George Vail (31 Dec. 1842), and Samuel Isham's 1910 critical assessment.",
+      "url": "https://www.gutenberg.org/ebooks/11017"
+    },
+    {
+      "id": "src_morse_huntington",
+      "kind": "biography",
+      "title": "Daniel Huntington's recollection of Morse as teacher and painter (pupil from spring 1835), prepared for S. I. Prime and reproduced in Letters and Journals vol. I ch. XX -- FIRSTHAND, non-family (a pupil and friend; admiring, written decades later). Read in full as reproduced.",
+      "url": "https://www.gutenberg.org/ebooks/11017"
+    },
+    {
+      "id": "src_morse_strother",
+      "kind": "biography",
+      "title": "David Hunter Strother ('Porte Crayon'), recollection of studying painting under Morse at the University of the City of New York c.1841, reproduced in Letters and Journals vol. II ch. XXVIII -- FIRSTHAND, non-family pupil's anecdote told long afterwards (one anecdote; used only for Morse's circumstances and teaching, not for extreme scores).",
+      "url": "https://www.gutenberg.org/ebooks/11018"
+    },
+    {
+      "id": "src_morse_cornell",
+      "kind": "biography",
+      "title": "Ezra Cornell's account of the 1844 switch from underground pipe to poles and the choice of insulator, as quoted in S. I. Prime's Life (1875) and reproduced in Letters and Journals vol. II ch. XXX -- FIRSTHAND, non-family (Morse's hired mechanical assistant; recalled years later and partly self-serving about his own role).",
+      "url": "https://www.gutenberg.org/ebooks/11018"
+    },
+    {
+      "id": "src_morse_prime",
+      "kind": "biography",
+      "title": "Samuel Irenaeus Prime, The Life of Samuel F. B. Morse, LL.D. (New York, 1875), archive.org OCR full text (cu31924022818185) -- FRIEND/ADMIRING biographer working from family-supplied papers (insider-leaning, weakly independent). Read: the marble-carving machine and House of Representatives passages (pp. 89-128), the National Academy of Design chapter pp. 149-153 (which quotes William Dunlap's contemporary History of the Arts of Design and Morse's address of 14 Jan. 1826), the Louvre-picture passage (pp. 227-228) and the 1873 Daily Graphic description quoted pp. 248-249.",
+      "url": "https://archive.org/details/cu31924022818185"
+    },
+    {
+      "id": "src_morse_terra",
+      "kind": "institution",
+      "title": "Terra Foundation for American Art, 'Terra Collection Initiative: Samuel F. B. Morse's Gallery of the Louvre and the Art of Invention' and 'Conservation Notes: A New Look ...' (web pages, read in full) -- independent museum perspective (owner of the painting); reports the 1831-33 creation in Paris and New York, the selection and 'reinstallation' of Louvre masterpieces, and that the 2010 conservation 'confirmed that Morse was as fearless an experimenter with painting media' as in his later work. Short pages; used only as corroboration.",
+      "url": "https://www.terraamericanart.org/2015/03/18/terra-collection-initiative-samuel-f-b-morses-gallery-of-the-louvre-and-the-art-of-invention/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 80,
+      "confidence": 0.74,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_morse_oreilly_1854, src_morse_loc, src_morse_lj_editor, src_morse_lj_self, src_morse_strother | 1832-44 | judicial + institutional + insider + self + firsthand] The Supreme Court (1854), on the trial depositions, found that after the October 1832 voyage Morse 'pursued these investigations with unremitting ardor and industry, interrupted occasionally by pecuniary embarrassments' while earning his living by painting; the LOC essay counts some twelve years of sporadic work before the May 1844 line. The LOC timelines record that the 1838 appropriation bill was not acted on and that in 1838-39 his patent was refused in England and a Russian contract not ratified (LOC; his son's narrative), yet he petitioned Congress again by early 1842 (Henry's letter of 24 Feb. 1842, reproduced by his son). Strother, his pupil c.1841, describes him teaching for small fees while nearly penniless; when the October 1842 harbour-cable demonstration was cut short by a ship's anchor he repeated the test across the Washington canal that December (LOC timeline; his own letter of 18 Dec. 1842)."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_morse_huntington, src_morse_terra, src_morse_loc, src_morse_lj_self | 1835; 1831-33; 1842 | firsthand + museum + institutional + self] Huntington, his pupil from 1835, recalls that Morse 'tried experiments with various vehicles, oils, varnishes, and pigments', painted one picture with colours ground in milk and began another with colours mixed with beer, and tested his theory of colour with boxes and balls, so that 'his studio was a kind of laboratory'. The Terra Foundation reports that the 2010 conservation of Gallery of the Louvre confirmed him as 'a fearless experimenter with painting media'. In October 1842 he insulated about two miles of wire and laid it from the Battery to Governor's Island to test underwater signalling, then in December tried passing signals across the Washington canal (LOC timeline; his letter of 18 Dec. 1842)."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.76,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_morse_loc, src_morse_prime, src_morse_huntington | 1811-44 | institutional + friend-biographer + firsthand] The LOC timelines document sustained work with real output in several unrelated areas: history and portrait painting (Royal Academy training 1811-15; The House of Representatives 1821-22; portrait commissions through the 1820s-30s), a modelled statuette of the Dying Hercules that won the Adelphi gold medal (1812), a flexible-piston fire-engine pump patented with his brother (1817), a marble-carving machine (1821-23; Prime prints his August 1823 caveat and says a New Haven mechanic built a working version), a daguerreotype portrait studio and teaching of the process (1839-40), lectures on the fine arts and a professorship of the arts of design, and the electromagnetic telegraph (1832-44). Each strand is independently dated; the range, not its success, is what is scored."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_morse_loc, src_morse_lj_editor, src_morse_cornell | 1816-20s; 1837; 1844 | institutional + insider + firsthand] Back from England with ambitions for large history pictures that found few buyers, Morse took portrait commissions, travelling to New Hampshire and spending four winters painting portraits in Charleston (LOC essay and timeline). After the congressional committee passed him over for the Capitol Rotunda panels (decided 1837), he finished his last paintings in December 1837 and turned to the telegraph (LOC timeline; his son's narrative). In spring 1844, when the insulation of the wire laid in lead pipe proved defective, he gave the order to abandon the underground plan and string the Washington-Baltimore wires on poles, as Cornell had proposed (LOC essay; Cornell's account)."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_morse_regents_1857, src_morse_cornell, src_morse_loc | winter 1836; 1839; March 1844 | collaborator + adversarial + firsthand + institutional] Gale wrote (1856) that on first seeing Morse's apparatus in the winter of 1836 he proposed a battery of many pairs and coils of many hundred turns, and that the change was tried the same day, extending the working distance from some tens of feet to hundreds; the Regents' report quotes Morse's 1839 letter to Henry saying he would come to Princeton 'as a learner' (LOC also credits Gale's corrections). Cornell recalls that in March 1844 Morse, having chosen Vail's insulator design, reversed the decision and adopted Cornell's after Henry told him Vail's would fail. Two independent episodes of changing course on technical advice; both witnesses wrote years later, and the Regents' report is interested."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_morse_loc, src_morse_lj_self, src_morse_lj_editor | 1838; 1838-39; Dec. 1842 - March 1843 | institutional + self + insider] In January-February 1838 Morse demonstrated the telegraph to the Franklin Institute's committee, the House Committee on Commerce and President Van Buren and his cabinet (LOC timeline), and in 1838 exhibited it in London and before the Institute of France (LOC; Letters and Journals). In December 1842 he strung a working line between two committee rooms of the Capitol and wrote to individual members explaining the principles, before Congress voted the $30,000 on 3 March 1843 (LOC; his letter of 18 Dec. 1842). The approach relied on repeated demonstration; many attempts failed (the 1838 bill, the English patent, the Russian contract), so the lean is moderate and the outcome is not scored."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_morse_prime, src_morse_loc, src_morse_lj_editor, src_morse_lj_self | 1825-26; 1826-45; 1843-44 | friend-biographer quoting Dunlap + institutional + insider + self] Prime, quoting Dunlap's contemporary history, says the artists shut out by the American Academy 'called on' Morse, who invited them to his rooms and proposed a drawing association (November 1825), was chosen to preside, and in January 1826 told members that negotiations were at an end and set out a plan for a new academy run by professional artists; the LOC timeline records him as founder and first president of the National Academy of Design, president on and off for nineteen years, and Thomas Cole wrote in 1837 that he was 'the keystone of the arch'. As superintendent of the government line in December 1843 he stopped the trenching, dismissed an assistant and hired Cornell (his letters to the Treasury and to his brother; LOC)."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_morse_prime, src_morse_lj_self, src_morse_oreilly_1854, src_morse_regents_1857, src_morse_loc | 1826; Dec. 1843; 1848-54; 1852-55 | friend-biographer + self + judicial + adversarial + institutional] In January 1826 he led the break from the American Academy and set up a rival body (Prime). In December 1843 he refused the terms of his partner and contractor F. O. J. Smith and stopped the trenching, although Smith then complained against him to the Treasury (his own letters; LOC notes Smith's defective wire). He pressed infringement suits against rival lines through to the Supreme Court (O'Reilly v. Morse; LOC). After Henry's 1849 deposition he held back for several years, writing in 1852 that he wished to avoid weakening Henry's influence, but in 1855 published a 'Defense' of over ninety pages impeaching Henry's testimony, which Henry and the Regents answered in 1857 (Regents' report; his letters of 1852-54). Dual-edged: it defended his claims but damaged a relationship on which he had relied."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_morse_lj_self, src_morse_lj_editor, src_morse_prime, src_morse_loc | 1814; 1821-22; 1834 | self + third-party letter + friend-biographer + institutional] In May 1814 Morse wrote that he would stay in Europe 'at all risks' rather than 'settle down into a mere portrait-painter' and that his 'great ambition' was to stand among the first painters; his teacher Allston wrote the same year of his unusually great progress. For The House of Representatives (1821-22) he spent months in Washington, took some eighty likenesses of members and planned the canvas as one of a pair (Prime, quoting his letters; LOC). In March 1834 he circulated members of Congress asking to be chosen for a Rotunda panel, citing twenty years of preparation (his circular). The LOC essay independently characterises him as combining hard work with a desire to succeed greatly in some field. Mostly self-stated ambition plus concrete pursuit, hence strong_inference."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_morse_huntington, src_morse_terra, src_morse_lj_editor, src_morse_prime | 1831-33; 1835; 1910 | firsthand + museum + critic + friend-biographer] Huntington recalls Morse formulating and testing a theory of colour and insisting in his teaching on a solid impasto after the Venetian painters, with 'a passion for color'; in 1831-33 he selected Old Master paintings in the Louvre and recomposed them in one imagined room for Gallery of the Louvre (Terra Foundation; Prime quotes his May 1832 letter on painting there daily from nine to four). Samuel Isham's 1910 History of American Painting (quoted by his son) credits the best portraits with 'a real painter's feeling for his material'. Scored from documented practice and discrimination, not from his occupation; the critical assessments are secondary."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_morse_lj_self, src_morse_loc, src_morse_regents_1857 | 1835-37; 1839-41 | self + institutional + collaborator] Morse's own description (reprinted by his son; the instrument itself was preserved) says his first working instrument was built from an old canvas-stretching frame fastened to a table, the wheels of a wooden clock and wooden drums; Gale (1856) describes that apparatus in 1836 as using a single-cup battery and an electromagnet of the older Moll pattern with few turns of wire. In 1839-41 he ran a daguerreotype portrait studio and took pupils to earn money while the telegraph brought none (LOC timeline and essay; his 1841 letter saying he was 'engaged in taking portraits by the Daguerreotype'), and in December 1841 wrote that he was making most of a new set of machinery himself 'without a cent of money'. Largely self-reported, hence moderate confidence."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_morse_loc, src_morse_lj_editor, src_morse_strother | Dec. 1837; 1840-42 | institutional + insider + firsthand] After December 1837 Morse withdrew from painting, his only established income, to concentrate on an unproven invention (LOC timeline; his son's narrative), and in 1840-42 kept at it with no return, supporting himself by teaching a handful of pupils; Strother's recollection of c.1841 describes him as close to destitute at the time. Counterweights: he kept teaching and ran a daguerreotype business rather than staking everything, and he sought government funding and partners' money rather than risking capital of his own, so the lean is moderate and the impact dual-edged."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_morse_loc, src_morse_regents_1857, src_morse_lj_self | 1836-37; Dec. 1842; 1846-55 | institutional + adversarial/collaborator + self] Morse brought in Gale and gave him a share of the telegraph rights for his help (1836; Gale's 1857 letter; LOC), and took Alfred Vail as partner in September 1837 for his mechanical skill and his family's ironworks (LOC). In December 1842, with the partners giving no help, he wrote that their earlier help had been essential and that he would not grudge them their share (his letter to Vail). Against this, the Regents' report (interested) says that after Morse assured Henry (c.1845-46) that a new edition of Vail's history would do justice to his work, it reappeared unchanged, and that in 1855 Morse denied the indebtedness he had earlier acknowledged. Genuinely mixed, hence near the middle with low confidence."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/samuel-morse-brady-1855-65.jpg",
+    "width": 1043,
+    "height": 1600,
+    "source": "Library of Congress, Prints and Photographs Division, Brady-Handy photograph collection (LC-DIG-cwpbh-00853, digital file from original glass negative), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://www.loc.gov/rr/print/res/389_bhan.html",
+    "attribution": "Mathew Brady studio, Samuel F. B. Morse, between 1855 and 1865, wet-collodion glass negative, Brady-Handy photograph collection, Library of Congress (LC-DIG-cwpbh-00853); public domain, no known restrictions on publication; downscaled",
+    "attributionUrl": "https://www.loc.gov/item/2017895923/",
+    "creator": "Mathew Brady (studio)",
+    "date": "between 1855 and 1865",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Samuel_Morse_portrait.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q75698 verified live (wbgetentities, 2026-09-26): en label 'Samuel Finley Breese Morse', description 'American inventor and painter (1791-1872)', ko label '새뮤얼 모스' (ko description '미국의 화가 겸 발명가'), born 1791-04-27, died 1872-04-02, citizenship United States (Q30), P18 'Samuel Morse portrait.jpg', kowiki sitelink '새뮤얼 모스' (used for displayNames ko-KR). English Wikipedia lead read via the MediaWiki API for orientation only. Slug collision check: no samuel-morse file in data-pipeline/candidates, no Morse entry in src/data/people, no existing morse portrait in public/portraits. CLASSIFICATION PRECEDENT: era 19th_century and regionCode north_america follow the US 19th-century precedents (thomas-edison, abraham-lincoln, frederick-douglass); nationalityCodes US. Occupations inventor + painter (both existing ids; painter used by claude-monet/diego-rivera, inventor by thomas-edison/alexander-graham-bell). Fields technology + art as assigned (building_discovery via technology; arts_culture via art): the evidence supports both, since roughly the first half of his working life (to 1837) was professional painting and the second the telegraph. Impact domains technological, innovation, artistic; tags career_changer (painting to telegraphy, LOC), innovator, cross_disciplinary; archetypes technical_innovator, creative_creator. No new ids proposed. EVIDENCE READ (12 source records incl. 2 orientation; 10 substantive records, all actually opened and read locally): LOC Morse Papers essays and both timelines (full, via loc.gov JSON API; the HTML pages were Cloudflare-blocked); Smithsonian Annual Report 1857 pp. 85-96 (Henry's communication, Regents' committee report, Gale's 1856/1857 letters, Walker extract); O'Reilly v. Morse (1854) full LII text; Letters and Journals (1914) chapters listed in the source titles, split into Morse's own letters (self), the son's narrative (insider) and the reproduced firsthand accounts of Huntington, Strother and Cornell; Prime's Life (1875) sections listed; Terra Foundation pages. INDEPENDENT PERSPECTIVES: (1) Morse himself (letters; one self perspective, never sole support); (2) Edward Lind Morse, son and editor (insider); (3) S. I. Prime, friend-biographer (insider-leaning; his NAD account rests on Dunlap's contemporary history); (4) Library of Congress curators (institutional, independent); (5) Joseph Henry and the Smithsonian Regents (adversarial/interested) with Gale's firsthand collaborator letters; (6) the U.S. Supreme Court opinion (judicial, on depositions); (7) pupils Huntington and Strother and assistant Cornell (firsthand, non-family, late recollections reproduced by insiders); (8) Terra Foundation (museum). NON-SELF behavioural sources: LOC, Regents/Gale, the Supreme Court opinion, Huntington, Strother, Cornell, Prime/Dunlap, Terra. EPISODE USE (no episode supports more than two rows): 1832-37 intermittent work (court finding) -> persistence; 1838-39 demonstrations and European failures -> persuasiveness, persistence; Oct./Dec. 1842 harbour and canal tests -> experimentation, persistence; Huntington's studio recollection -> experimentation, aesthetic_sensitivity; Gallery of the Louvre 1831-33 -> aesthetic_sensitivity (Terra conservation note also in experimentation; the 1832 nine-to-four regimen was NOT used for achievement_drive to respect the two-row limit); winter 1836 Gale suggestions -> belief_updating, collaboration; 1837 Rotunda rejection and withdrawal from painting -> adaptability, risk_tolerance (the 1834 circular -> achievement_drive); March 1844 poles/insulator -> adaptability, belief_updating; 1825-26 National Academy founding -> leadership_drive, conflict_tolerance; Dec. 1843 Smith/Fisher crisis -> leadership_drive, conflict_tolerance; 1848-55 litigation and Henry 'Defense' -> conflict_tolerance, collaboration; 1839-41 daguerreotype studio -> cross_domain_range, resourcefulness; c.1841 Strother anecdote -> persistence, risk_tolerance. ROWS CONSIDERED AND LEFT UNSCORED: curiosity (Yale letters on electricity and the 1832 shipboard conversation are single, self-reported or priority-laden episodes); creative_originality and systems_abstraction (the origin of the 1832 idea, the relay and the dot-dash alphabet are contested between Morse, Henry, Gale, Vail and Jackson; not adjudicated); independent_thinking; discipline, deep_focus and detail_orientation (only self-reported work regimens); decisiveness; planning_orientation; social_assertiveness; impact_motivation (patriotic/religious motives are self-stated only). EXCLUDED ON PURPOSE: all priority/'first inventor' claims (telegraph, relay, alphabet, duplex, wireless) -- the son's and Prime's priority arguments and the Court's priority holding are not used as trait evidence; fame, honours, the 1858 European award, royalties and wealth; his nativist and anti-Catholic writings and mayoral/congressional candidacies and his political and pro-slavery writings (incidental political activity; not scored, not used in editorial, neither featured nor denied); his wife's death, bereavements, illness, sleeplessness and moods in the 1843-44 letters (no inference from private life or health); the son's 'death blow' and 'Fate' framing and his account that Cooper, not Morse, wrote the Evening Post reply to J. Q. Adams (family narrative, not needed); Strother's starvation dialogue is used only for circumstances, not for a personality inference. KNOWN LIMITS: Kenneth Silverman's Lightning Man (2003) and other modern scholarly biographies were not available and not read; LOC essay HTML and the NGA/NMAH object pages were blocked or not found (the LOC content was read through the JSON API instead); Henry's own 1849 deposition was not opened (only as summarised and quoted in the 1857 report); Alfred Vail's 1845 book was not read; most firsthand non-family accounts (Huntington, Strother, Cornell) reach us through insider compilers (Prime, the son), and the Regents' report is an interested document, so confidences are kept below 0.8. PORTRAIT: Commons File 'Samuel Morse portrait.jpg' (Wikidata P18), photo-portrait by the Mathew Brady studio, between 1855 and 1865. Commons API imageinfo/extmetadata (LicenseShortName 'Public domain', Copyrighted False, artist Mathew Brady) and the raw File-page wikitext ({{PD-old-100-1923|deathyear=1896}}, {{LOC-image|id=cwpbh.00853}}, no third-party-claim or NPG notice) were read. Upstream LOC record read via the loc.gov JSON API (item 2017895923, LC-DIG-cwpbh-00853, 'digital file from original neg.', 1 negative glass wet collodion, Brady-Handy photograph collection, purchased 1954): rights advisory 'No known restrictions on publication' and the collection rights statement that Brady-Handy contents are in the public domain. Basis: photograph made before 1865 by a studio whose principal died 1896, published long before 1931. Original downloaded from upload.wikimedia.org (4204x6450, grayscale), confirmed with PIL, downscaled to 1043x1600 (JPEG q85), no crop; the saved file was viewed and shows Morse seated, half-length, white-bearded, wearing his foreign decorations. kind 'likeness' (photograph from life). Rejected alternatives: none needed (the LOC-backed P18 image has a clean basis); LOC dates the negative only to a range, so the filename uses '1855-65'. No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "새뮤얼 모스"
+    }
+  }
+}

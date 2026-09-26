@@ -571,6 +571,27 @@ describe("confidence and missing data", () => {
       "rene-descartes",
       "robert-goddard",
       "william-herschel",
+      // Roster40 (2026-09-26, docs/checkpoints/roster40.md): 15 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero
+      // backlog reuse, zero holds this cycle. Each has whatever eligibility
+      // outcome its own evidence produced (computed by build(), never
+      // gated); all 15 came out non-match-eligible -- an evidence outcome,
+      // not a target.
+      "albrecht-durer",
+      "auguste-rodin",
+      "charles-babbage",
+      "clara-schumann",
+      "cornelius-vanderbilt",
+      "david-livingstone",
+      "eddy-merckx",
+      "hans-christian-andersen",
+      "ivan-pavlov",
+      "jim-thorpe",
+      "john-snow",
+      "maria-sibylla-merian",
+      "rudolf-diesel",
+      "samuel-morse",
+      "santiago-ramon-y-cajal",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1082,6 +1103,27 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "rene-descartes",
       "robert-goddard",
       "william-herschel",
+      // Roster40 (2026-09-26, docs/checkpoints/roster40.md): 15 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero
+      // backlog reuse, zero holds this cycle. Each has whatever eligibility
+      // outcome its own evidence produced (computed by build(), never
+      // gated); all 15 came out non-match-eligible -- an evidence outcome,
+      // not a target.
+      "albrecht-durer",
+      "auguste-rodin",
+      "charles-babbage",
+      "clara-schumann",
+      "cornelius-vanderbilt",
+      "david-livingstone",
+      "eddy-merckx",
+      "hans-christian-andersen",
+      "ivan-pavlov",
+      "jim-thorpe",
+      "john-snow",
+      "maria-sibylla-merian",
+      "rudolf-diesel",
+      "samuel-morse",
+      "santiago-ramon-y-cajal",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

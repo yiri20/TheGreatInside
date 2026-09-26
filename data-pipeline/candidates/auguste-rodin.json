@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "auguste-rodin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Auguste Rodin",
+    "aliases": [
+      "François-Auguste-René Rodin",
+      "François Auguste Rodin"
+    ],
+    "wikidataId": "Q30755",
+    "birthYear": 1840,
+    "deathYear": 1917,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "perfectionist",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_rodin_wikipedia",
+      "kind": "wikipedia",
+      "title": "Auguste Rodin (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '오귀스트 로댕' confirmed via the Wikidata sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Auguste_Rodin"
+    },
+    {
+      "id": "src_rodin_wikidata",
+      "kind": "wikidata",
+      "title": "Auguste Rodin (Q30755) -- verified live via wbgetentities (2026-09-26): en label 'Auguste Rodin', description 'French sculptor (1840–1917)', ko label '오귀스트 로댕', born 1840-11-12, died 1917-11-17, citizenship Q142 (France), P18 'Auguste Rodin fotografato da Nadar nel 1891.jpg', kowiki '오귀스트 로댕'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q30755"
+    },
+    {
+      "id": "src_rodin_lawton",
+      "kind": "biography",
+      "title": "Frederick Lawton, The Life and Work of Auguste Rodin (London: T. Fisher Unwin, 1906), archive.org OCR full text (lifeworkofaugust00lawtiala) -- AUTHORIZED-BIOGRAPHER perspective: the preface states that Lawton's information came mainly from Rodin's own conversations and from letters and documents Rodin lent him, so narrative claims are partly self-derived and admiring; weight is placed on the DOCUMENTS he transcribes and on his own firsthand observation. Read: Author's Preface; ch. II pp. 26-27 (the Man with the Broken Nose refused by the Salon); ch. IV pp. 44-51 (Age of Bronze 1875-80: the letter to L'Etoile belge of Jan. 1877, the petitions to Under-Secretary Turquet, the inconclusive inquiry, the casts and photographs of the model, the letter signed by Carrier-Belleuse, Dubois, Falguiere and others, the working shed in the rue des Fourneaux); ch. V pp. 72-74 (Edmond de Goncourt's diary entries of 1886-88, quoted); ch. VI pp. 92-93 (Falguiere bust, 1899 Salon); ch. X pp. 145-154 (Burghers of Calais 1884-95: the offer of six figures for the fee of one, the Calais committee documents, Lawton's own 1904 study of the plasters at Meudon, Rodin's wish for a high pillar or ground-level siting); ch. XII pp. 174-189 (Balzac 1891-98: the 3 July 1891 application letter, Zola's letter of 14 Aug. 1891 recording a 12-8 vote, the secretary's letters of 6 Dec. 1892 and 15 June 1893, the Nov. 1894 agreement removing the time clause and Rodin's letter placing the 10,000 franc advance on deposit, the Aug. 1896 and 1898 press statements, the May 1898 Societe resolution, the Pellerin offer and Rodin's letter to his supporters keeping sole possession); p. 171.",
+      "url": "https://archive.org/details/lifeworkofaugust00lawtiala"
+    },
+    {
+      "id": "src_rodin_cladel",
+      "kind": "biography",
+      "title": "Judith Cladel, Rodin: The Man and His Art, with Leaves from His Note-book, trans. S. K. Star (New York: Century, 1917), Project Gutenberg #43327 via archive.org -- FRIEND/INSIDER perspective (a close friend and later his biographer; strongly eulogistic; many youth details are evidently Rodin's own reminiscences as retold by her). Read: 'The Career of Rodin'; 'Childhood. Youth. First Studies' (the Petite Ecole routine, the Louvre/Bibliotheque/Gobelins schedule, the youthful notebook she examined herself); opening of 'Rodin and the Beaux-Arts'; 'Plaster Casts' (Belgium 1871-76, the Age of Bronze and its eighteen months of modelling, the accusation and the Boucher/Dubois letter, and HER OWN FIRSTHAND account of Rodin refusing to include the Age of Bronze in the 1899 Brussels exhibition she was supervising and later reversing his judgment in front of the Luxembourg bronze); 'Flemish Painting -- Journeys in Italy and France' (the 1875 Italian journey); the Hotel Biron passage of 'An Artist's Day'. The Note-book leaves themselves (Rodin's own text) are SELF and not used for any row. James Huneker's introduction read but not relied on.",
+      "url": "https://archive.org/details/rodinthemanandhi43327gut"
+    },
+    {
+      "id": "src_rodin_self_gsell",
+      "kind": "archive",
+      "title": "Rodin's OWN recorded conversations in Auguste Rodin, Art, 'Conversations with Paul Gsell', trans. Romilly Fedden (Boston: Small, Maynard, 1912), archive.org OCR (artbyaugusterodi00rodi) -- SELF, one perspective, never sole support for a row. Read: ch. I 'Realism in Art' (his account of working from freely moving models, 'I am not at their orders, but at those of Nature'); ch. VIII (his remarks on the Laurens bust, the Burghers fee -- six figures in bronze 'for the price they offered me for one' -- and on Falguiere after the Balzac refusal).",
+      "url": "https://archive.org/details/artbyaugusterodi00rodi"
+    },
+    {
+      "id": "src_rodin_gsell",
+      "kind": "biography",
+      "title": "Paul Gsell's own narrative observations in the same book (1911 French; 1912 English), ch. I -- JOURNALIST WITNESS perspective, admiring: Gsell reports that he repeatedly watched Rodin at work at the Depot des Marbres towards evening, paying several nude models to walk about the studio and quickly modelling small clay figures whenever a movement pleased him, and contrasts this with colleagues who posed models on a stand. Kept separate from Rodin's own words (src_rodin_self_gsell).",
+      "url": "https://archive.org/details/artbyaugusterodi00rodi"
+    },
+    {
+      "id": "src_rodin_rilke",
+      "kind": "biography",
+      "title": "Rainer Maria Rilke, Auguste Rodin, Erster Teil (1903), read in German in the Insel-Verlag edition (Leipzig, 1920), archive.org OCR (augusterodin00rilk) -- POET/ADMIRER perspective, lyrical and interpretive, written after his 1902 visits and before he served as Rodin's secretary (1905-06). Read: the Brussels years (commissions executed conscientiously while his own work was done in the evenings; reading Dante and Baudelaire; repeated visits to cathedrals; 'Man muss sich nicht eilen'), the busts passage (working from memory after sittings), and the Balzac passage (visits to Touraine, reading letters and works, studying daguerreotypes and Lamartine's description, seven fully worked nude studies, then draped versions). Used only for concrete reported actions, never for its characterisations.",
+      "url": "https://archive.org/details/augusterodin00rilk"
+    },
+    {
+      "id": "src_rodin_ludovici",
+      "kind": "biography",
+      "title": "Anthony M. Ludovici, Personal Reminiscences of Auguste Rodin (London: John Murray, 1926), archive.org OCR (in.ernet.dli.2015.167503) -- NON-SELF FIRSTHAND perspective of his private secretary for most of 1906, written from notes made at the time; candid and not uniformly admiring (describes Rodin's temper and their parting). Read: Preface; ch. I pp. 40-41 (studio organisation, technical personnel, assistants carving the marbles); pp. 58-60; pp. 100-104; pp. 122-124; pp. 130-133 (the Cambodian dancers, July 1906: Rodin's reaction after the 10 July performance and his journey to Marseilles to draw them).",
+      "url": "https://archive.org/details/in.ernet.dli.2015.167503"
+    },
+    {
+      "id": "src_rodin_musee",
+      "kind": "institution",
+      "title": "Musee Rodin, Paris (the national museum holding Rodin's bequest), English web pages read in full 2026-09-26 -- MUSEUM/SCHOLARLY perspective, independent of the period biographies: collection entries for The Age of Bronze, Monument to Balzac, Monument to the Burghers of Calais and The Gates of Hell; the chronology 'Rodin's life 1840-2015'; the technique pages on modelling and marble carving; and the essay 'Multiples, fragments, assemblages' (casting and re-use of figures, partial figures, marcottage, enlargements by Henri Lebosse from 1894, the 1889 Monet-Rodin exhibition, the Walking Man, the antiquities collection at Meudon). Note: the Burghers page gives 1894/1895 for the Calais approach and commission, evidently a slip for 1884/1885 (it gives completion of the final version in 1889 and the unveiling on 3 June 1895).",
+      "url": "https://www.musee-rodin.fr/en/resources/creative-process/multiples-fragments-assemblages"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 82,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rodin_musee, src_rodin_gsell | 1870s-1907; c.1910 | museum + journalist witness] The Musee Rodin essay documents a working method built on trial and recombination: from the Carrier-Belleuse years he reworked cast multiples of one model into variants; for The Gates of Hell (from 1880) he made multiple plaster casts of figures and re-used them in different positions, the museum counting over 200 figures and groups that served as a stock of ideas for the rest of his working life; in the 1890s he 'dismantled and reassembled existing sculptures in endless combinations' and joined studies onto other figures (marcottage), leaving the joins visible; in 1905-06 he had a partial figure assembled before 1900 enlarged and cast as The Walking Man (1907). Gsell, who watched him at work at the Depot des Marbres, describes him paying models to move freely and rapidly modelling small clay sketches of movements that caught his eye. Several independent, dated instances."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rodin_lawton, src_rodin_musee, src_rodin_self_gsell | 1885-89; 1889; 1891-98 | biographer + museum + self] For Calais (1885) he was asked for one statue of Eustache de Saint-Pierre and instead proposed all six burghers as a group; Lawton, who studied the plasters himself in 1904, describes the figures placed on one level in two rows with no academic hierarchy, and the Musee Rodin confirms the choice of an indivisible group with each man's character explored separately. The museum's essay records that he exhibited torsos and masks as works in their own right (Galerie Georges Petit, 1889) against the convention that a finished sculpture was a complete figure, and calls the Balzac, stripped of the writer's usual attributes, a 'revolutionary monument'. Scored from these documented design decisions, not from later reputation."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rodin_gsell, src_rodin_lawton, src_rodin_musee, src_rodin_self_gsell | 1865; 1885-95; c.1910 | journalist + biographer + museum + self] When the Salon jury refused the Mask of the Man with the Broken Nose in 1865 (Musee Rodin), Lawton records that he took it back with his conviction unshaken and later had it cast in bronze. For Calais he rejected the heroic convention: his own words, relayed by Lawton, were that critics wanted 'gestures a la Marseillaise' while he meant to show men sacrificing themselves as people then did. Gsell observed him working differently from colleagues, waiting for models' natural movements instead of posing them on a stand, and Rodin explained that posing people 'like puppets' produced lifeless work. Several consistent instances from different sources; the Calais item overlaps with creative_originality."
+    },
+    "perfectionism": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_rodin_lawton, src_rodin_rilke, src_rodin_musee | 1891-98; 1880-1900 | documents via biographer + poet + museum] Contracted in 1891 to deliver the Balzac in eighteen months, he made successive series of nude and draped studies (seven fully worked nudes, per Rilke), missed the deadline, and in November 1894 accepted a new agreement without a time limit, placing the 10,000 franc advance on deposit and writing that his 'sole pre-occupation' was to make the figure 'as perfect as possible' (letter transcribed by Lawton); the museum dates the final model to 1897, 'after six years of labour'. In 1898 he told the press he would have liked to keep the finished statue longer, since a work 'is never perfect'. Separately, the Musee Rodin records that he worked on The Gates of Hell for years, did not finish it for 1889, and at his 1900 exhibition still withheld the projecting figures; it was not cast in his lifetime. Dual-edged: the same documents record strained relations with the commissioning society and repeated missed dates."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_rodin_lawton, src_rodin_musee, src_rodin_rilke | 1894; May 1898; 1871-76 | documents via biographer + museum + poet] In 1894 he gave up his advance in exchange for 'the liberty necessary to the achievement of Balzac's statue as I wish' (his letter, transcribed by Lawton). When the Societe des Gens de Lettres refused the statue in May 1898 (confirmed by the Musee Rodin: 'the commission was cancelled'), he declined a 20,000 franc purchase offer from Auguste Pellerin and a supporters' subscription to erect it, dropped the idea of a lawsuit, and wrote that he wished 'to remain the sole possessor of my production'; the Balzac was not cast in bronze in his lifetime. Rilke describes the Brussels years (1871-76) as commissions executed conscientiously without imposing his own manner, while his own work was done in the evenings. Dual-edged: the stance cost him the commission and the fee."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rodin_musee, src_rodin_lawton, src_rodin_cladel | c.1857-1880 | museum + biographer + friend] The Musee Rodin records that he failed the entrance examination of the Ecole des Beaux-Arts three times and made his living by decorative and ornamental work while pursuing his own projects independently. After the 1877 accusation that The Age of Bronze was a life cast, he petitioned the Under-Secretary for Fine Arts, had casts and photographs of his model made for comparison, and was cleared only in February 1880 (Lawton, from the documents; the museum confirms he 'had to prove' his modelling). Meanwhile, Lawton notes, he kept making new work in a twelve-foot shed. Cladel adds that after two early figures were lost for want of money to cast them he began another at once. Counter-instance kept in view: The Gates of Hell was never completed by him (museum), so the score stays in the low 70s."
+    },
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rodin_cladel, src_rodin_musee, src_rodin_rilke | 1854-57; 1871-77 | friend + museum + poet] Cladel describes the teenage routine at the Petite Ecole from 8 a.m., sketching antiques at the Louvre at noon, copying plates after Michelangelo and Raphael at the Bibliotheque, and drawing from the nude at the Gobelins from five to eight, then copying his sketches at night; she says she examined one of his youthful notebooks herself. The Musee Rodin chronology records a study trip to Italy in which he was 'profoundly influenced' by Michelangelo; Cladel dates it 1875 and says he crossed the Mont Cenis on foot and studied Donatello and the unfinished Michelangelo marbles. Rilke records his repeated visits to cathedrals and his first reading of Dante in Brussels. The daily schedule is Cladel's retelling of his reminiscence, so confidence stays moderate."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rodin_cladel, src_rodin_lawton | 1854-57; 1877-79; Dec. 1887 | friend + biographer quoting a diarist] Three separate periods: Cladel's account of his student timetable (morning class, Louvre at noon, evening class at the Gobelins, copying at night); Lawton's record that during the 1877-79 Age of Bronze dispute he spent every spare hour, evening as well as day, in his small shed on the St John; and Edmond de Goncourt's diary entry of 29 Dec. 1887, quoted by Lawton, in which Rodin described rising at seven, starting work at eight and staying in the studio all day except a brief lunch. The first and last rest partly on Rodin's own telling, hence modest confidence."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rodin_cladel, src_rodin_musee | 1875-77 | friend + museum] Cladel says he worked about eighteen months on The Age of Bronze, climbing a ladder to study the model's profiles from above and measuring the skull, shoulders, chest and hips to compare them with the clay; the Musee Rodin independently states that he proved his modelling came 'from a thorough study of profiles, not from a life cast'. Tempered by his own 1898 remark (Lawton) that polishing 'toes or locks of hair' had no interest for him: the precision concerns form and profile, not surface finish. One main episode from two sources, so the score stays moderate."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rodin_ludovici, src_rodin_musee | July 1906; 1890s-1910s | secretary eyewitness + museum] Ludovici, his secretary, records that after the Cambodian royal dancers' performance of 10 July 1906 Rodin described in detail their slow 'growing' movements and the undulation passing through hands, arms and shoulders, said he had learned movements he had not suspected, and remarked that his first impression of the performers' faces showed 'how false and delusive our standards must be'. The Musee Rodin describes how he arranged the antiquities he collected at Meudon on his own bases, covered parts he thought not graceful, preferred fragmentary pieces to canonical ones and liked to view them by candlelight. Scored from documented discrimination and response, not from his occupation."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rodin_ludovici, src_rodin_musee, src_rodin_rilke | 1871-76; 1895-1905; July 1906 | secretary eyewitness + museum + poet] In July 1906, Ludovici records, Rodin followed the Cambodian dancers from Paris to Marseilles and returned three days later having drawn the king and members of the troupe. The Musee Rodin describes him incorporating antique vases and casts of funerary altars from his collection into new works from 1895, and Rilke notes that in Brussels he was habitually seen reading in the streets and there first read Dante, then Baudelaire. Distinct, dated instances; the Balzac research (Touraine visits, the old tailor's measurements) is deliberately not counted here because that episode already supports two rows."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rodin_cladel, src_rodin_musee | c.1899-1902; 1905-07 | friend eyewitness + museum] Cladel, who supervised the sending of works to his 1899 Brussels exhibition, reports that he refused to include The Age of Bronze because his modelling had changed completely in twenty years; two or three years later, seeing the Luxembourg bronze unexpectedly in her company, he admitted he had been mistaken and afterwards had further casts made. The Musee Rodin shows him returning to fragments made some twenty years earlier and giving them new status through enlargement (The Walking Man, 1907). A single firsthand reversal plus a pattern of re-evaluating his own earlier work; confidence modest."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q30755 verified live (wbgetentities, 2026-09-26): en 'Auguste Rodin', description 'French sculptor (1840–1917)', ko label '오귀스트 로댕', fr 'sculpteur français', born 1840-11-12, died 1917-11-17, citizenship Q142, P18 'Auguste Rodin fotografato da Nadar nel 1891.jpg', kowiki sitelink '오귀스트 로댕' (used for displayNames ko-KR). (Cladel gives 14 Nov. 1840; Wikidata and the Musee Rodin chronology give 12 Nov.; birthYear unaffected.) Slug collision check: no auguste-rodin file in data-pipeline/candidates before this cycle, no Rodin person in src/data/people (only mentions inside Claude Monet's rationale in roster37.ts / claude-monet.json), no Rodin portrait in public/portraits. CLASSIFICATION PRECEDENT: era 19th_century, regionCode western_europe, nationalityCodes FR follow claude-monet (b. 1840). Occupation: no 'sculptor' id exists in src/core/i18n/en.ts (occupation.* offers artist and painter); used the existing 'artist' (used by several indexed people and by salvador-dali); FLAG FOR LEAD: a new occupation id 'sculptor' would be more precise but was NOT invented. Field art as assigned. Impact domains artistic, cultural (Monet precedent). Tags innovator, perfectionist, craft_focused; archetypes creative_creator, independent_creator; no new tags. EVIDENCE READ (9 source records incl. 2 orientation; 7 substantive, all downloaded to scratch_r40/work/auguste-rodin and read locally): Lawton 1906 (authorized biography with transcribed documents); Cladel 1917 English edition; Rodin's own words in Gsell's Art (1912) kept separate from Gsell's own observations; Rilke 1903 Part I (German text); Ludovici 1926 (secretary 1906); Musee Rodin collection entries, chronology, technique pages and creative-process essay. Mauclair's 'Auguste Rodin: the man, his ideas, his works' (1905) was downloaded but NOT read or used. Contemporary press on the 1877 and 1898 affairs was not read directly; those episodes rest on the documents Lawton transcribes plus Cladel and the museum. INDEPENDENT PERSPECTIVES: (1) Rodin himself (his words in Gsell; his letters as transcribed by Lawton) -- one self perspective, never sole support; (2) Frederick Lawton, authorized biographer 1906 (partly self-derived, but documentary and with his own 1904 observation of the Calais plasters); (3) Judith Cladel, friend/insider, incl. her own firsthand 1899-1902 episode; (4) Paul Gsell, journalist witness at the Depot des Marbres; (5) Rilke, poet/admirer 1903; (6) Anthony Ludovici, secretary 1906, candid firsthand; (7) Musee Rodin, modern museum/scholarly. NON-SELF behavioural sources: Lawton (documents and own observation), Cladel, Gsell's narration, Rilke, Ludovici, Musee Rodin. EPISODE USE (no episode supports more than two rows): Beaux-Arts rejections and decorative work c.1857-64 -> persistence; student routine 1854-57 -> mastery_orientation, discipline; Italy 1875 / cathedrals -> mastery_orientation; reading in Brussels (Dante, Baudelaire) -> mastery_orientation, curiosity; Brussels commissions vs evening work -> autonomy_need (secondary); Age of Bronze modelling 1875-77 -> detail_orientation; Age of Bronze accusation and vindication 1877-80 (incl. the shed work) -> persistence, discipline; Goncourt diary 1887 -> discipline; Broken Nose refusal 1865 -> independent_thinking; Burghers of Calais 1885-95 -> creative_originality, independent_thinking; Balzac 1891-98 -> perfectionism, autonomy_need (and the museum's 'revolutionary monument' phrase as a brief citation in creative_originality); Gates of Hell 1880-1900 -> experimentation, perfectionism (and cited only as a counter-instance in persistence); multiples/fragments/marcottage/Walking Man -> experimentation, belief_updating; Gsell's studio observation -> experimentation, independent_thinking; 1889 exhibition of fragments -> creative_originality; Cambodian dancers July 1906 -> aesthetic_sensitivity, curiosity; antiquities at Meudon -> aesthetic_sensitivity, curiosity; Cladel's Age of Bronze reappraisal c.1899-1902 -> belief_updating. ROWS CONSIDERED AND LEFT UNSCORED: conflict_tolerance (firm protest and petitions in 1877 vs. dropping the Balzac lawsuit in 1898 and his later bust of Falguiere, who received the Balzac commission -- mixed); collaboration (the large technical staff, practiciens and Henri Lebosse's enlargements are studio organisation, not evidence of a collaborative disposition; the Falguiere friendship is known mainly from Rodin's own telling in Gsell); risk_tolerance (accepting the Calais fee of one figure for six -- a single financial choice); opportunity_sensing (editions and multiples in several materials, per Ludovici -- not scored from sales or output); deep_focus, execution_speed (quick clay sketches vs. multi-year monuments -- contradictory), planning_orientation, leadership_drive, social traits -- insufficient on-point evidence. EXCLUDED ON PURPOSE: Camille Claudel and all romantic/private-life material (incl. Rose Beuret, the 1917 marriage, and the models' private lives mentioned by Ludovici); Rodin's temper and the letter-mislaying scenes described by Ludovici (interpersonal/private, not scored); political opinions reported by Ludovici (zero-politics); the 1862-63 novitiate after his sister's death (bereavement); Cladel's speculation linking his short sight to his art and her mention of youthful gastric illness (health); Ludovici's remarks on his health and on his 'naivete' in later years; the Hotel Biron campaign (civic lobbying, not scored). ASSISTANTS, stated factually only: the Musee Rodin records that he employed skilled assistants, notably Henri Lebosse from 1894, for enlargements and reductions, and its marble-carving page describes practitioners carving from the plaster model by pointing; Ludovici (1906) says he did not carve marble himself and gave finishing touches to the assistants' work, and Huneker (introduction to Cladel) says he was never proficient with the practicien's chisel. No row credits or discredits him on this basis. No 'greatest sculptor' claim is made. KNOWN LIMITS: The period biographies are admiring and partly derived from Rodin's own conversations (Lawton says so explicitly; Cladel's youth details are evidently his reminiscences); Rilke is lyrical; the only candid firsthand source (Ludovici) covers 1906 only and was published twenty years later. Modern monographs (e.g. Elsen, Butler) were not freely available and were not read; the museum pages are short. Confidence is capped accordingly; no row exceeds 0.66. PORTRAIT: File:M._Rodin_-_btv1b531708194.jpg on Wikimedia Commons, an Atelier Nadar studio demonstration print 'M. Rodin' (commercial number 9115 B), albumen print 14.5 x 10.5 cm from the Atelier Nadar reference album vol. 39, Bibliotheque nationale de France, Estampes et photographie, FT 4-NA-238 (25), Gallica ark:/12148/btv1b531708194. Commons API extmetadata and raw wikitext read: {{Artwork}} with author 'Atelier Nadar. Photographe', date 'between 1875 and 1895', licence templates {{PD-France}} {{PD-US-expired}} {{PD-old-assumed}}; no third-party copyright-claim template. Upstream Gallica OAI record read: dc:rights 'domaine public / public domain', date 1875-1895. The Atelier Nadar was run by Felix Nadar (d. 1910) and Paul Nadar (d. 1939), both dead more than 70 years, and the print predates 1896, so it is public domain in France and the US (the individual studio operator is not named; the PD-old-assumed basis is consistent with that). The same sitting appears to be the one reproduced in the Wikidata P18 postcard scan dated 1891 by its uploader; the file descriptor 'c1891' follows that, with the BnF's own range 1875-1895 recorded in the portrait date field -- lead may prefer a neutral descriptor. Original downloaded 3196 x 4270 px (scan of the whole album leaf), opened with PIL; CROPPED to the photograph only (album mount, red rules and the handwritten numbers and caption 'M. Rodin' removed), crop 2480 x 3395 px, downscaled to 1169 x 1600 px, JPEG q85. Visually checked: frontal head-and-shoulders portrait of Rodin with pince-nez and long beard. Kind 'likeness' (studio photograph from life). Rejected alternatives: the Wikidata P18 'Auguste Rodin fotografato da Nadar nel 1891.jpg' (small postcard scan, 'scansione da cartolina', no institutional source); 'Atelier Nadar - Auguste Rodin (1840-1917), Bildhauer (Zeno Fotografie).jpg' and 'Auguste Rodin 1893 Nadar.jpg' (web-derived copies around 1600 px, weaker provenance); the three-quarter-profile BnF prints btv1b53170818p (9115 A), btv1b53098126n and btv1b530981273 (2236 A/B, dated 1910 by BnF) and btv1b53107958z (all acceptable BnF sources, but the frontal 9115 B is the clearest likeness). No eligibility, coverage or match output was used in scoring. LEAD REVIEW: portrait date and filename set to the BnF catalogue range (1875-1895) rather than the inferred c.1891, which rested only on a postcard copy of what appears to be the same sitting. PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오귀스트 로댕"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/auguste-rodin-atelier-nadar-1875-95.jpg",
+    "width": 1169,
+    "height": 1600,
+    "source": "Atelier Nadar, 'M. Rodin', studio demonstration print no. 9115 B, albumen print, Bibliotheque nationale de France, departement Estampes et photographie, FT 4-NA-238 (25) (Gallica ark:/12148/btv1b531708194), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-France",
+    "attribution": "Atelier Nadar, portrait of Auguste Rodin (c. 1891; BnF dates the print 1875-1895), Bibliotheque nationale de France / Gallica; public domain; cropped to the photograph and downscaled",
+    "attributionUrl": "https://gallica.bnf.fr/ark:/12148/btv1b531708194",
+    "creator": "Atelier Nadar",
+    "date": "between 1875 and 1895 (BnF catalogue range)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:M._Rodin_-_btv1b531708194.jpg"
+  }
+}

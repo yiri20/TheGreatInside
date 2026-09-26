@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-snow",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John Snow",
+    "wikidataId": "Q356407",
+    "birthYear": 1813,
+    "deathYear": 1858,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe",
+    "aliases": [
+      "Dr John Snow"
+    ]
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_snow_wikipedia",
+      "kind": "wikipedia",
+      "title": "John Snow (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '존 스노 (의사)' confirmed via the Wikidata sitelink.",
+      "url": "https://en.wikipedia.org/wiki/John_Snow"
+    },
+    {
+      "id": "src_snow_wikidata",
+      "kind": "wikidata",
+      "title": "John Snow (Q356407) -- verified live via wbgetentities (2026-09-26): en label 'John Snow', description 'English epidemiologist and physician (1813–1858)', ko label '존 스노', born 1813-03-15, died 1858-06-16, citizenship Q174193 (United Kingdom of Great Britain and Ireland), P18 'John Snow.jpg', kowiki '존 스노 (의사)'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q356407"
+    },
+    {
+      "id": "src_snow_richardson_1858",
+      "kind": "biography",
+      "title": "Benjamin Ward Richardson, 'Memoir of the Author', pp. i-xliv prefixed to John Snow, On Chloroform and Other Anaesthetics (London: John Churchill, 1858), archive.org OCR (onchloroformothe00snow) -- INSIDER/FRIEND perspective (Richardson knew Snow for his last eight years and shared experiments with him; admiring, written just after his death), embedding a FIRSTHAND FELLOW-STUDENT letter from Joshua Parsons (co-lodger 1836-37), recorded as a separate perspective. Read the memoir in full (pp. i-xl): early life, Parsons' letter, the 1838 Apothecaries' refusal, Westminster Medical Society, ether 1846-47 and chloroform, the 1851 Lord Campbell/Alfred Taylor dispute, cholera work 1848-55 and the Broad Street representation, the cost of the 1855 book, the 1855 offensive-trades evidence and the 1858 Chadwick exchange, amylene and self-experiment, and the 'personal history' section (order, diary, habits, controversy). Also consulted the book's own amylene chapter (SELF) for his case record of a death under amylene.",
+      "url": "https://archive.org/details/onchloroformothe00snow"
+    },
+    {
+      "id": "src_snow_whitehead_1865",
+      "kind": "archive",
+      "title": "Rev. Henry Whitehead, 'The Broad Street Pump: an Episode in the Cholera Epidemic of 1854', Macmillan's Magazine 13, no. 74 (Dec. 1865): 113-122, archive.org OCR of the Wellcome offprint (b22449231) -- INDEPENDENT, INITIALLY SCEPTICAL LOCAL WITNESS: curate of St Luke's, Berwick Street, who expected his own inquiry to refute Snow and says so. Read in full. Used for: Snow having 'prevailed upon the parish authorities' to remove the handle on 8 Sept. while 'scarcely any one seriously believed in his theory'; Whitehead's own reluctant conversion through house-to-house inquiry; Snow's case findings as Whitehead relays them; Whitehead's follow-up of the earliest Broad Street cases 'in consequence of Dr. Snow's suggestions'.",
+      "url": "https://archive.org/details/b22449231"
+    },
+    {
+      "id": "src_snow_stjames_1855",
+      "kind": "archive",
+      "title": "Cholera Inquiry Committee, Report on the Cholera Outbreak in the Parish of St. James, Westminster, during the Autumn of 1854, presented to the Vestry July 1855 (London: J. Churchill, 1855), archive.org OCR (b22327460) -- LOCAL INSTITUTIONAL perspective (committee of vestrymen, medical men and clergy; general report drafted by J. Marshall), with Snow's own report (SELF) and Whitehead's report bound in. Read: Introduction (membership; methods: the failed printed return, Snow's report of 12 Dec. 1854 laid before it 'at the desire of the Committee', the house-to-house 'Visitors' Inquiry List' prepared by King, Lankester and Snow); the General Report sections on the well water, the attack table, the committee's conclusion that the outbreak was 'in some manner attributable' to the Broad Street well while refraining from endorsing any hypothesis of its mode of action, and its note that sewage entry into the well was unproved until Whitehead's later findings.",
+      "url": "https://archive.org/details/b22327460"
+    },
+    {
+      "id": "src_snow_gbh_1855",
+      "kind": "archive",
+      "title": "General Board of Health, Medical Council, Report of the Committee for Scientific Inquiries in relation to the Cholera-Epidemic of 1854 (London: HMSO, 1855), archive.org OCR (b21687043) -- ADVERSARIAL OFFICIAL perspective. Read the contents, the Golden Square section (pp. 51-53) and the water-supply chemistry/microscopy sections. Used for: the committee's explicit rejection of Snow's Broad Street explanation ('After careful inquiry, we see no reason to adopt this belief') and its preferred atmospheric/organic-impurity account.",
+      "url": "https://archive.org/details/b21687043"
+    },
+    {
+      "id": "src_snow_self_1855",
+      "kind": "archive",
+      "title": "John Snow, On the Mode of Communication of Cholera, 2nd ed. (London: J. Churchill, 1855), read in the reprint Snow on Cholera (New York: Commonwealth Fund, 1936), archive.org OCR (b3134818x_0001) -- SELF, one perspective, never sole support for a row. Read: the Broad Street/Golden Square section (the 73-death inquiry, the 7 Sept. interview with the Board of Guardians, the attack table and his own statement that attacks had fallen so far before the handle was removed that its effect could not be decided); the Deptford nitrate-of-silver passage; the 1854 south-London inquiry (the chloride-of-silver test distinguishing the two companies' water, and his engaging Mr J. J. Whiting for districts he could not cover himself).",
+      "url": "https://archive.org/details/b3134818x_0001"
+    },
+    {
+      "id": "src_snow_testimony_1855",
+      "kind": "archive",
+      "title": "John Snow's evidence to the Select Committee on the Public Health and Nuisances Removal Bills, 5 March 1855 (questions 117-172), transcribed on the UCLA Department of Epidemiology John Snow site (R. R. Frerichs), Wayback copy of ph.ucla.edu/epi/snow/snows_testimony.html -- SELF answers under HOSTILE questioning by committee members (a parliamentary record). Read the whole transcription. Used for: his open statement that he appeared at the manufacturers' request, his flat denial that decomposition effluvia cause disease, and his admission that he had not studied those trades particularly and had first been asked to consider the subject 'two or three days ago'.",
+      "url": "https://web.archive.org/web/2022/http://www.ph.ucla.edu/epi/snow/snows_testimony.html"
+    },
+    {
+      "id": "src_snow_lancet_1855",
+      "kind": "archive",
+      "title": "The Lancet, editorials 'The Public Health and Nuisances Removal Bill: Dr. Snow's Evidence' (23 June 1855) and 30 June 1855, plus the Lancet editorial of 14 May 1853 on chloroform at the royal birth, as transcribed with commentary on the UCLA John Snow site (pages reactionandcommitteeaction.html and lancet1853reaction.html, Wayback copies) -- ADVERSARIAL CONTEMPORARY PRESS perspective. Read both pages in full. Used for: the Lancet's attack on Snow as 'singular in his opinion' with 'hobbyistic dogmas' and its 'main sewer' jibe, i.e. contemporary evidence that he publicly held a minority position; and its logical objection to his evidence. The 1853 editorial is context only (no row).",
+      "url": "https://web.archive.org/web/20250614162554/https://www.ph.ucla.edu/epi/snow/reactionandcommitteeaction.html"
+    },
+    {
+      "id": "src_snow_ucla_frerichs",
+      "kind": "archive",
+      "title": "R. R. Frerichs (UCLA Dept. of Epidemiology), John Snow site pages 'Reverend Henry Whitehead' and 'John Snow and the removal of the Broad Street pump handle' (Wayback copies, read in full) -- SCHOLAR/COMPILER perspective quoting primary texts: Edwin Lankester's 1866 recollection (local physician and member of the St James committee: Snow 'demanded an audience' and 'was not believed'), Whitehead's 1867 table showing fatal attacks already falling before 8 Sept., and Whitehead's farewell speech of 16 Jan. 1874 (via H. D. Rawnsley's 1898 memorial sketch) recalling Snow's conversations and a medical friend's 1855 remark that Snow's views were 'generally regarded in the profession as very unsound'.",
+      "url": "https://web.archive.org/web/2022/http://www.ph.ucla.edu/epi/snow/removal.html"
+    },
+    {
+      "id": "src_snow_ramsay_2006",
+      "kind": "archive",
+      "title": "Michael A. E. Ramsay, 'John Snow, MD: anaesthetist to the Queen of England and pioneer epidemiologist', Proceedings (Baylor University Medical Center) 19(1) (2006): 24-28 (PMC1325279), read in full -- MODERN CLINICIAN-HISTORIAN overview, secondary and not error-free (it misdates the first cholera essay to 1848 and places the Golden Square outbreak in 1853), so used only as light corroboration: his casebooks logging some 5,000 anaesthetics over twelve years, and his continuing to argue the waterborne theory for the rest of his life without convincing most peers. Never sole support.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1325279/"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_snow_gbh_1855, src_snow_lancet_1855, src_snow_whitehead_1865, src_snow_ucla_frerichs, src_snow_richardson_1858, src_snow_self_1855 | 1849-58 | adversarial official body + adversarial press + initially sceptical local witness + friend and fellow student + self] From 1849 (and, much enlarged, in 1855) Snow argued that cholera spread by swallowing matter from earlier cases, chiefly through water, against the prevailing atmospheric/miasma view. The adversarial record confirms that he held this minority position openly: the General Board of Health's scientific committee (1855) reviewed his Broad Street explanation and wrote that it saw 'no reason to adopt this belief', preferring an atmospheric account; The Lancet (23 June 1855) asked why Dr Snow was 'singular in his opinion'. Whitehead writes that in 1854 'scarcely any one seriously believed in his theory' and recalled a medical friend saying in 1855 that his views were 'generally regarded in the profession as very unsound'. Richardson notes his position was 'in opposition to the views of many eminent men'; Joshua Parsons, his fellow student of 1836-37, wrote that no 'consideration of honour or profit' seemed able to bias his opinions. Scored from holding and publishing a contested reading against official and editorial opinion, not from later vindication. Held below 80 because some of this independence shaded into overreach (see analytical_rigor)."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_snow_richardson_1858, src_snow_ucla_frerichs, src_snow_ramsay_2006, src_snow_gbh_1855 | 1848-58 | friend + fellow student (Parsons) via friend + initially sceptical witness (Whitehead 1874) + modern overview + adversarial official body] Richardson says Snow first raised the waterborne idea with colleagues early in 1848, waited several months for more reliable data before the 1849 pamphlet, returned to it in the 1854 epidemic and published the much-enlarged 1855 edition. After the General Board of Health committee rejected his Broad Street explanation (1855) and the press attacked him, he kept making the case: in 1858 he read and published a further statistical paper on the offensive-trades question, and 'the view he had maintained originally, he maintained to the end' (Richardson). Whitehead (1874, via Frerichs) recalls him saying the time would come when great cholera outbreaks would be things of the past even if his name were forgotten. Parsons, recalling 1836-37, credits him with 'indomitable perseverance and determination in following up whatever line of investigation was open to him'. Ramsay adds that he never convinced most peers in his lifetime. Scored from years of continued work on an unaccepted thesis; held at 0.64 because the characterisations come mainly from one admiring memoir."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_snow_whitehead_1865, src_snow_ucla_frerichs, src_snow_richardson_1858, src_snow_stjames_1855, src_snow_self_1855 | Sept. 1854; 1854-55 | initially sceptical local witness + local physician (Lankester 1866, via Frerichs) + friend + local committee + self] When the Broad Street outbreak began (31 Aug. 1854) Snow, who held no official post in the parish, investigated on his own initiative ('the self-imposed task', Richardson), obtained the list of deaths and questioned households, and on the evening of 7 Sept. asked to be heard by the parish Board of Guardians, after which the handle was removed on 8 Sept. (self; Richardson). Two independent local witnesses confirm the initiative: Whitehead (1865) writes that Snow 'prevailed upon the parish authorities to remove the handle' before any committee existed, and Lankester (1866) that he 'demanded an audience' and 'was not believed', yet the pump was closed. The St James committee report adds that 'it was Dr. Snow who first endeavoured to trace out' the link with the well. The handle is described as ordered removed by the Guardians; no claim is made that it ended the outbreak."
+    },
+    "analytical_rigor": {
+      "score": 64,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_snow_self_1855, src_snow_stjames_1855, src_snow_whitehead_1865, src_snow_ucla_frerichs, src_snow_testimony_1855, src_snow_lancet_1855, src_snow_richardson_1858 | 1854-55 | self + local committee + independent local witness + hostile parliamentary questioning + adversarial press + friend] For: in the south-London inquiry he did not rely on residents' memory of their water company but distinguished the two supplies by a chemical test (chloride content, with nitrate of silver) (self; the resulting company-by-company comparison is summarised independently of the method by Richardson). His 1855 book states plainly that attacks had fallen so far before the handle was removed that it was 'impossible to decide' whether the well was still dangerous -- the same point Whitehead made from his own table in 1867 (via Frerichs). His Broad Street case findings were independently rechecked by Whitehead, who set out to refute them, and by the St James committee, which reached the same attribution to the well while declining to endorse his mechanism. Against: in his 5 March 1855 evidence he asserted flatly that decomposition effluvia never cause disease while admitting he had not studied those trades and had first been asked to consider the subject 'two or three days ago' (testimony transcript); The Lancet attacked the logic, and even Richardson concedes his views were 'extreme' and his arguments sometimes 'overstrained'. Genuinely mixed, so moderate."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_snow_self_1855, src_snow_richardson_1858, src_snow_ramsay_2006 | 1846-58; autumn 1854 | self + friend + modern overview] South-London inquiry (autumn 1854): he inquired himself into every cholera death in the districts supplied by the Lambeth company, house by house, to establish which company supplied each house, noting that residents rarely knew and that rates were often paid by distant landlords, and he engaged Mr J. J. Whiting to do the same in districts supplied only by the Southwark and Vauxhall company (self; Richardson confirms the personal labour and that he paid for qualified help). Record-keeping: Richardson describes a diary in which he recorded 'the particulars of every case' in which he gave chloroform or another anaesthetic, with comments on dangers avoided, plus a record of all his experiments; Ramsay puts the casebooks at some 5,000 anaesthetics over twelve years. Two distinct documented practices, but the inquiry detail is largely self-reported and the diary characterisation comes from one friend, hence 0.56."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_snow_richardson_1858, src_snow_ramsay_2006 | 1846-58 | friend (co-experimenter) + modern overview; Snow's On Chloroform (self) consulted] When ether reached London in Dec. 1846 he attributed its uneven results to the way it was given, built an improved inhaler, and experimented on animals before giving it at St George's and University College (Richardson; Ramsay describes the temperature-compensated inhaler). He then made independent trials of chloroform, and through the 1850s tested a long list of other vapours (Richardson lists carbonic oxide, cyanogen, Dutch liquid, chloride of amyl, amylene and others) and local freezing methods including solid carbonic acid on the skin (1854), which he 'soon relinquished'. Richardson, who shared some experiments with him, sets out his usual sequence for a new agent: boiling point, vapour saturation at different temperatures, effects on animals, and only then trial in man. Scored from repeated, varied trial of methods and agents. Largely one close-friend source plus self, hence 0.60."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_snow_richardson_1858, src_snow_ramsay_2006 | 1846-58 | friend + modern overview] Richardson says he took up the new anaesthetics 'for its own sake', applied his earlier work on respiration to them, published a full practical account in 1847, and reached the point where, given the composition and boiling point of a new compound, he could predict whether its vapour would produce narcotism; he objected to hospitals leaving chloroform to untrained porters. Ramsay notes that within two years of the first London ether demonstration he was the most sought-after anaesthetist to London surgeons. Scored from the sustained, self-directed deepening of expertise in one technical field, not from reputation; strong_inference because the evidence is mostly one admiring friend's characterisation."
+    },
+    "belief_updating": {
+      "score": 54,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_snow_richardson_1858 | 1847-58 | friend; Snow's own amylene case record in On Chloroform (self) consulted] For: after his own trials of chloroform he 'forgot sooner almost than others all predilections for ether' (Richardson, 1847-48); he was 'for some time sanguine' about amylene (1856), but after deaths in his own practice, which he recorded in detail (self, On Chloroform), he stopped using it; he dropped his cold-based local anaesthesia work when unsatisfied with the results. Against: on his general theory of specific disease poisons he did not move -- Richardson says that if he erred it was 'in adhering too closely to the abstract fact' and in not allowing enough weight to impure conditions, and that he maintained his original view to the end; in the 1851 dispute with Alfred Taylor each man retained his own opinions. Responsive to evidence on practical agents, firm on his core theory: held near the middle, and at 0.50 because both sides come mainly from one friend's memoir."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_snow_richardson_1858, src_snow_testimony_1855, src_snow_lancet_1855 | 1851; 1855; 1858 | friend + self under hostile questioning + adversarial press] In 1851 he wrote to Lord Campbell opposing a clause of the Prevention of Offences Bill on chloroform crimes, then sustained a 'sharp contest' of two or three weeks with the Medical Gazette's editor Alfred Taylor (Richardson). In March 1855 he agreed to give evidence on behalf of the 'offensive trades' against the prevailing sanitary view, stated openly at whose request he appeared, and held his position under repeated hostile questions (transcript); The Lancet then attacked him in two editorials. In 1858 he read a paper on the same subject at the Epidemiological Society in the face of Edwin Chadwick's objections (Richardson). Richardson says he was 'fond of controversy and courted it' yet 'never stirred into provocation', and that he 'retained friendships' with opponents. Dual-edged: Richardson judges that the arguments he was drawn into were sometimes 'overstrained' and injurious to his own case."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_snow_richardson_1858, src_snow_ramsay_2006 | 1836-58 | friend (last eight years) + fellow student (Parsons) via friend + modern overview] Richardson, drawing on the period he knew him, calls him 'the impersonation of order': a fixed time and place for everything, early rising and bed at eleven, a diary recording every anaesthetic case and a record of every experiment; he 'moderated every enjoyment, and let nothing personal stand in the way of his scientific pursuits'. Parsons recalls that as students in 1836-37 they 'usually overstayed our fellows' at dissection, often far into the evening. The anaesthetic casebooks themselves (Ramsay: about 5,000 cases over twelve years) are consistent with this. Two firsthand witnesses but both reach us through one memoir, hence 0.56."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_snow_richardson_1858, src_snow_ucla_frerichs, src_snow_ramsay_2006 | 1846-58 | friend + initially sceptical witness (Whitehead 1874) + modern overview] During the 1854 epidemic he 'laid aside as much as possible the emoluments of practice' to pursue the cholera inquiry, and the 1855 book cost him more than £200 while returning 'scarcely so many shillings' (Richardson). Whitehead, recalling their conversations in his 1874 farewell speech, quotes him as saying that even if his name were forgotten, knowledge of how cholera spread would one day make great outbreaks 'things of the past'. Richardson also records him going out after a day's work to see a poor patient or attend a post-mortem as readily as for a fee, and Ramsay notes that he published descriptions of his anaesthetic apparatus rather than patenting it. Scored as motivation by public benefit; strong_inference because it rests on a friend's memoir, a later recollection and a secondary overview."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_snow_richardson_1858, src_snow_ramsay_2006 | 1846-58 | friend (co-experimenter) + modern overview] Richardson reports that when a new anaesthetic vapour looked promising in animal trials, 'the first man was invariably his own self', and that friends 'often expostulated with him in regard to the risks he ran' to no effect; Ramsay likewise describes experiments conducted mostly on himself. One pattern reported essentially by one close friend (Ramsay is derivative), so inference-level. Richardson explicitly does not believe these experiments caused his early death, and no inference is drawn from his health or death here. Dual-edged: personal physical risk accepted in the service of safer anaesthesia."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_snow_richardson_1858 | 1835-58 | friend + fellow student (Parsons) via friend] Richardson records that as a young assistant (c. 1835-36) he made long walking explorations, collecting 'geological, social, sanitary, and architectural' information, and walked from Liverpool through Wales to London in 1836; that 'anything and everything of scientific interest arrested his attention'; and that his papers ranged from asphyxia of the newborn and the capillary circulation (1841-43) to local anaesthesia, the local origin of tumours and, at his death, alum in bread. Moderate: breadth within medicine is partly professional, and the characterisation comes from one admiring memoir."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 스노"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q356407 verified live (wbgetentities, 2026-09-26): en 'John Snow', description 'English epidemiologist and physician (1813–1858)', ko label '존 스노', born 1813-03-15, died 1858-06-16, citizenship Q174193 (United Kingdom of Great Britain and Ireland), P18 'John Snow.jpg', kowiki sitelink '존 스노 (의사)' (the disambiguator is dropped; '존 스노' used for displayNames ko-KR). Slug collision check: no john-snow file in data-pipeline/candidates, src/data/people or public/portraits before this work. CLASSIFICATION PRECEDENT: nationalityCodes GB and regionCode western_europe follow edward-jenner and joseph-lister; era 19th_century follows joseph-lister. Occupations physician + medical_researcher follow joseph-lister; no 'epidemiologist' or 'anaesthetist' occupation id exists and none was invented (FLAG: an epidemiologist id would be more precise). Field medicine as assigned; impactDomains medical, scientific; archetype scientific_explorer; no tags. EVIDENCE READ (downloaded to scratch_r40/work/john-snow and read locally): Richardson's 1858 memoir in full (with Parsons' letter) plus the amylene chapter of On Chloroform; Whitehead's 'The Broad Street Pump' (Macmillan's, Dec. 1865) in full; the St James Cholera Inquiry Committee report (1855) introduction and general-report sections on the well, attack table and conclusions; the General Board of Health scientific committee report (1855) Golden Square section and water-analysis sections; Snow's 1855 book (Broad Street section, Deptford passage, south-London inquiry pp. 74-80) in the 1936 reprint; the UCLA (Frerichs) transcriptions of Snow's 5 March 1855 select-committee evidence, of the Lancet editorials of 23/30 June 1855 and 14 May 1853, and the UCLA pages on Whitehead and the pump-handle removal (Lankester 1866, Whitehead 1867 and 1874 quotations); Ramsay 2006 in full. The original UCLA site (ph.ucla.edu/epi/snow) now 404s; Wayback copies were used. NOT READ: Vinten-Johansen et al., Cholera, Chloroform and the Science of Medicine (2003, not free); Snow's casebooks (Ellis ed. 1994, not free); Whitehead's June 1855 report was read only through his own 1865 retelling and the committee's summary; Chave's 1958 Medical History article on Whitehead only via Frerichs' quotation. INDEPENDENT PERSPECTIVES: (1) Snow himself (1855 book, own report in the St James volume, parliamentary answers, On Chloroform) -- one self perspective, never sole support; (2) B. W. Richardson, friend and occasional co-experimenter in Snow's last eight years (admiring insider); (3) Joshua Parsons, fellow student and co-lodger 1836-37 (letter embedded in Richardson); (4) Rev. Henry Whitehead, local curate who set out to refute the pump explanation and was converted by his own inquiry (1865 article; 1867 table and 1874 speech via Frerichs) -- the key independent witness; (5) Edwin Lankester, local physician and committee member (1866 recollection via Frerichs); (6) the St James Cholera Inquiry Committee as a body (1855); (7) the General Board of Health's Committee for Scientific Inquiries (1855) -- adversarial, rejected his Broad Street explanation; (8) The Lancet's editorials (1855) -- adversarial press; (9) the parliamentary select committee's hostile questioning (1855); (10) modern secondary: Frerichs (UCLA compiler) and Ramsay (2006; contains factual errors, used only as light corroboration). NON-SELF behavioural sources: Whitehead, Lankester, Richardson, Parsons, the St James committee, the General Board of Health committee, The Lancet. EPISODE USE (no episode supports more than two rows): waterborne theory held 1849-58 against official rejection and editorial attack -> independent_thinking, persistence; Broad Street investigation and 7 Sept. 1854 representation to the Board of Guardians (handle removed 8 Sept. on the Guardians' order) -> proactive_agency, analytical_rigor (his own statement that the outbreak was already declining; independent recheck by Whitehead and the committee); south-London water-company inquiry 1854 (house-by-house, chloride test, engaging Whiting) -> analytical_rigor, detail_orientation; 5 March 1855 select-committee evidence and the Lancet response -> conflict_tolerance, analytical_rigor (counter-evidence); 1851 Campbell/Taylor dispute -> conflict_tolerance, belief_updating (counter); 1858 offensive-trades paper and Chadwick's objections -> persistence, conflict_tolerance; ether inhaler and anaesthetic research programme 1846-58 -> experimentation, mastery_orientation; ether-to-chloroform switch, amylene abandoned after deaths, cold local anaesthesia relinquished -> belief_updating, experimentation; self-trial of new vapours -> risk_tolerance; anaesthetic diary/experiment records and daily order -> discipline, detail_orientation; 1854 sacrifice of practice income and cost of the 1855 book -> impact_motivation; Whitehead's 1874 recollection of Snow's remark on future cholera -> impact_motivation, persistence; walking explorations and breadth of papers -> curiosity; Parsons' 1836-37 observations -> persistence, independent_thinking, discipline (characterisations and one habit, not a single episode). ROWS CONSIDERED AND LEFT UNSCORED: persuasiveness (the Guardians acted though 'incredulous', but the Board of Health and most peers were not persuaded, Whitehead was persuaded by his own inquiry, and Richardson says he had no eloquence and a husky voice -- too outcome-dependent and mixed to score honestly); collaboration (committee work with Lankester, King and Whitehead, help to found the Epidemiological Society -- thin, mostly membership); social_assertiveness (Richardson describes early timidity at the Westminster Medical Society giving way to frequent speaking -- mixed); systems_abstraction and intuitive_synthesis (his reasoning from symptoms to an oral route of infection and his general theory of specific poisons are documented, but mostly self-told and hard to separate from analytical_rigor); creative_originality (would rest on the originality of the theory itself, i.e. outcome/fame); achievement_drive, competitiveness, autonomy_need, deep_focus, planning_orientation, execution_speed, adaptability, decisiveness, ambiguity_tolerance, opportunity_sensing, resourcefulness, perfectionism, cross_domain_range, aesthetic_sensitivity, leadership_drive (insufficient on-point non-self evidence). EXCLUDED ON PURPOSE: vegetarianism, teetotalism and diet experiments, his illnesses (including the 1845 renal illness), his early death and its cause -- none used for personality; family and never marrying; the 'father of epidemiology' label and any 'first/only' claim; the popular story that removing the pump handle stopped the outbreak (the Guardians ordered removal on 8 Sept. after his representation; both Snow's own table and Whitehead's show attacks already falling); Richardson's 'the plague was stayed' rhetoric; the chloroform given to Queen Victoria in 1853 and 1857 is treated as a factual professional episode only, with no royal framing and no row resting on it; Ramsay's claim that the Queen asked for Snow and his arsenic-vapour story (not corroborated in what was read); The Lancet's 1858 grievance about credit (context only); Richardson's view that his manner kept wealthy patients away (speculative). Animal experiments are stated factually only; Richardson says he avoided unnecessary suffering, which is not scored. KNOWN LIMITS: much of the personal characterisation comes from one admiring memoir (Richardson, 1858), so rows resting mainly on it are held at 0.46-0.58; the strongest independent/adversarial corroboration concerns the cholera work (Whitehead, the St James committee, the Board of Health, The Lancet). Lankester's 1866 and Whitehead's 1867/1874 words were read only as quoted on the UCLA site; the Lancet editorials likewise via UCLA transcription. Per the calibration note, no row exceeds 0.70 confidence or 76 score. PORTRAIT: the Wikidata P18 file, File:John Snow.jpg (1712 x 2516; Commons tags {{PD-US-expired}} and {{PD-old}}, source Wellcome M0009238, 'Autotype 1856, published in 1887'), and its variant File:John Snow, 1856. Wellcome M0009238.jpg ({{cc-by-4.0}}) were NOT used: the Wellcome catalogue record for M0009238 (work dkk5vx46, a September 1945 glass-plate negative) carries both a CC BY 4.0 licence on the image and an 'In copyright' (rightsstatements.org InC) statement on its IIIF presentation, the exact contradiction the brief flags. Instead I went to the publication the negative depicts (Wellcome's own related-material note points to it): B. W. Richardson's article 'John Snow, M.D., a representative of medical science and art of the Victorian era', The Asclepiad vol. IV (London: Longmans, Green, 1887), pp. 274 ff. The University of Toronto (Gerstein) copy on the Internet Archive (asclepiadbookofo04richuoft; copyright-evidence 'no visible notice of copyright; stated date is 1887', status NOT_IN_COPYRIGHT) contains the plate at leaf n294, captioned 'Autotype from a Presentation Portrait, 1856, and Autograph facsimile.—B. W. R.'. Basis: a photograph taken in 1856 and published in 1887 in London and Philadelphia/Boston; public domain in the US (published before 1931) and, as a work of unrecorded authorship published 139 years ago, out of term in the UK/EU; the IA scan is a faithful reproduction of a 2D page. The photographer is not named in the caption (Richardson's 1858 memoir mentions a Maull and Polyblank portrait, but the 1887 plate is not attributed to them, so no photographer is asserted). Downloaded the full-size leaf image (1998 x 3174 px, identical in size to the JP2 original), opened with PIL, cropped to the photograph only (removing page margin, facsimile signature and caption), giving 1806 x 2459 px, downscaled to 1175 x 1600 px (JPEG q85); no retouching. Visually checked: seated three-quarter-length photograph of Snow in his early forties, right arm on a turned table, 'AUTOTYPE' imprint at lower right -- the same image as the Commons/Wellcome file. Kind 'likeness'. sourcePageUrl is the Internet Archive leaf page rather than a Commons File page because the Commons files were rejected. REJECTED: File:John Snow.jpg and the Wellcome M0009238 file (catalogue licence contradiction); File:Portrait of John Snow by Thomas Jones Barker.jpg and File:Barker--John Snow--1847.jpg (1847 painting from life, artist d. 1882, so PD-old, but only 500 x 761 and 466 x 632 px, sourced from the UCLA site and a Lancet web page respectively; a usable fallback if the lead prefers a Commons-hosted file); File:Dr John Snow by Barker BW 1847.jpg (a later copy by C. W. Oliver); File:Dr. John Snow.jpg and File:Johnsnow.jpg (unknown source, low resolution). No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-snow-autotype-1856.jpg",
+    "width": 1175,
+    "height": 1600,
+    "source": "Autotype plate facing p. 274 in B. W. Richardson (ed.), The Asclepiad, vol. IV (London: Longmans, Green, 1887), captioned 'Autotype from a Presentation Portrait, 1856, and Autograph facsimile.—B. W. R.'; University of Toronto (Gerstein) copy digitized by the Internet Archive",
+    "license": "Public domain",
+    "attribution": "John Snow, photograph of 1856 by an unrecorded photographer, reproduced as an autotype in The Asclepiad, vol. IV (1887); scan: Internet Archive / University of Toronto; cropped to the photograph and downscaled",
+    "attributionUrl": "https://archive.org/details/asclepiadbookofo04richuoft",
+    "creator": "Unrecorded photographer (1856 presentation portrait); autotype reproduction published by Benjamin Ward Richardson",
+    "date": "photographed 1856; published 1887",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/asclepiadbookofo04richuoft/page/n294/mode/1up"
+  }
+}
