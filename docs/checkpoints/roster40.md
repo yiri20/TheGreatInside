@@ -231,7 +231,7 @@ non-eligible.
   (`qa_passed` 93, `evidence_approved` 224, `held` 83).
 - `checkScoringLockIntegrity.ts`, pre-work: "Checked 385 previously-committed
   candidate file(s) against HEAD. 0 flagged."; legacy 22 covered, 0 flagged.
-  Post-commit result: see the section below.
+  Post-commit result: see "Post-commit scoring lock" below.
 - `vitest run`: **70 files, 2027 tests, all passed** (incl. 157-test
   `roster40.test.ts`).
 - `next build --webpack`: succeeded, **696 static/SSG paths** (2×336+24);
@@ -255,7 +255,12 @@ non-eligible.
 
 ## Post-commit scoring lock
 
-Recorded after the implementation commit (see follow-up).
+Run against the clean committed HEAD (implementation commit `575b379`):
+"Checked 400 previously-committed candidate file(s) against HEAD. 0
+flagged." with "Legacy scoring lock: 22 pre-pipeline production people
+covered, 0 flagged." Mechanical count of committed
+`data-pipeline/candidates/*.json` at that HEAD (`git ls-tree`): **400** =
+400 on disk = the checked count. Implementation commit: 57 changed files.
 
 ## Operational notes
 
