@@ -4833,6 +4833,289 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Dreyer places the turning point of Herschel's life in the winter of 1772-73, when reading Smith's Optics made him want to see the heavens for himself. His memoranda show a quadrant bought on 19 April 1773, an object glass on 24 May, and mirror-making tools on 22 September, while he still attended 46 private pupils in the week of 15 November 1773.",
   "william-herschel.interpretation.turning_point.1":
     "Building instruments from books and a Bath amateur's cast-off tools while carrying a full teaching load is consistent with resourcefulness. The account rests on his own memoranda and his sister's later recollection.",
+  /* ---------------------------------------------------------- samuel-morse (Roster40) */
+  "samuel-morse.achievement.1":
+    "From 1836 Morse developed an electromagnetic recording telegraph with Leonard Gale and, from 1837, Alfred Vail. After Congress voted $30,000 in March 1843 for an experimental line, the Washington-Baltimore wire carried the message \"What hath God wrought?\" on 24 May 1844. The Library of Congress's account names Joseph Henry's published research, Gale's help and Vail's mechanical work as keys to the system, and in O'Reilly v. Morse (1854) the Supreme Court upheld his patent for the apparatus and process he had described while striking down his broadest claim, to any use of electromagnetism for marking characters at a distance.",
+  "samuel-morse.achievement.2":
+    "Trained in London under Benjamin West and Washington Allston, Morse worked as a portrait and history painter for more than two decades. His large canvases include The House of Representatives (1821-22), with some eighty portraits of members, and Gallery of the Louvre (1831-33), in which he regrouped Old Master paintings from the Louvre in a single room. In 1826 he was a founder and the first president of the National Academy of Design in New York.",
+  "samuel-morse.achievement.3":
+    "After meeting Louis Daguerre in Paris in 1839, Morse published one of the earliest American descriptions of the daguerreotype. With John William Draper he opened a portrait studio in New York and taught the process to several pupils, among them Mathew Brady.",
+  "samuel-morse.moment.1":
+    "On 18 October 1842 Morse laid about two miles of wire, insulated by hand with pitch, tar and rubber, across New York Harbor from the Battery to Governor's Island. According to his son's account, the next day's public demonstration stopped after a few signals when a ship's anchor snagged the cable and the crew cut it. That December he tried sending signals across the canal in Washington, and reported to Alfred Vail that the test succeeded.",
+  "samuel-morse.interpretation.moment.1":
+    "Repeating the trial in a different form within two months, rather than dropping the question of crossing water, is consistent with the profile's high experimentation score.",
+  "samuel-morse.moment.2":
+    "Leonard Gale, a chemistry professor at the University of the City of New York, first examined Morse's apparatus in the winter of 1836 and suggested replacing its single-cell battery with one of many cells and winding the magnet with hundreds of turns of wire. In a letter written in 1856, Gale recalled that the change was tried the same day and carried the current through hundreds of feet of wire instead of a few dozen. Gale wrote this for Joseph Henry during Henry's dispute with Morse, twenty years after the event.",
+  "samuel-morse.interpretation.moment.2":
+    "Taking up an outsider's correction immediately offers one example behind the profile's moderate belief-updating score; the episode also shows how much the working system drew on other people's science.",
+  "samuel-morse.turning_point.1":
+    "In 1834 Morse wrote to members of Congress asking to be chosen to paint one of the four remaining panels in the Capitol Rotunda. When the artists were named in 1837 he was not among them; he finished his last paintings that December and turned to the telegraph. In an 1849 letter he wrote that he had taken scarcely any interest in painting for many years.",
+  "samuel-morse.interpretation.turning_point.1":
+    "Moving his working life from painting to invention after this setback sits alongside the profile's adaptability, though his need for income and the telegraph work already under way were also part of the change.",
+  /* ---------------------------------------------------------- rudolf-diesel (Roster40) */
+  "rudolf-diesel.achievement.1":
+    "In 1893 Diesel published a theory of a heat engine in which air is compressed until it is hot enough to ignite fuel injected into it, and from 1893 to 1897 he developed the engine at the Maschinenfabrik Augsburg with backing from Krupp. In February 1897 Professor Moritz Schröter of the Munich technical college tested the resulting 20 h.p. engine and reported that it used less fuel per horsepower than the other oil engines of the time. Other engineers had worked on related ideas, and the engines built later departed in part from Diesel's original theory.",
+  "rudolf-diesel.achievement.2":
+    "From 1893 Diesel licensed the engine to manufacturers in several countries, including Carels in Ghent (1894), Adolphus Busch for the United States (1897) and Mirrlees in Glasgow, which built a British engine in 1897-98. By 1912 Diesel engines were in use in power stations, factories and ships, and he presented their development to the Institution of Mechanical Engineers in London that March.",
+  "rudolf-diesel.achievement.3":
+    "In 1905 Diesel, the Sulzer firm and the railway engineer Adolph Klose founded a company to build a Diesel-powered locomotive. Developed with Borsig, the locomotive made trial runs in Switzerland in 1912, and after his patents expired in 1908 Diesel also worked on small engines and an engine for road vehicles.",
+  "rudolf-diesel.moment.1":
+    "In his own 1897 account of the Augsburg trials, Diesel wrote that the first test engine gave violent explosions that destroyed the measuring indicator, and that one later stretch of ten months produced no useful results despite repeated rebuilding. About two years passed before a new test engine could be built. The Deutsches Museum holds his handwritten test journals for each stage from 1893 to 1897.",
+  "rudolf-diesel.interpretation.moment.1":
+    "Keeping the programme going through four years of failed and partial results is consistent with the high persistence score in this profile.",
+  "rudolf-diesel.moment.2":
+    "Soon after the single-cylinder engine succeeded in 1897, Diesel built a 150 h.p. compound engine in which air was compressed and gases expanded in two stages. By his own account, written in reply to a question at the Institution of Mechanical Engineers in 1912, more than a year of careful trials showed such large heat and pressure losses that he judged the design useless. The Deutsches Museum's archive records the compound-engine trial journals of 1898.",
+  "rudolf-diesel.interpretation.moment.2":
+    "Dropping a design he had long planned once the measurements went against it offers one example of the belief-updating pattern scored here.",
+  "rudolf-diesel.turning_point.1":
+    "From 1883, while working for Carl von Linde's refrigeration company in Paris, Diesel tried to build a high-efficiency engine driven by highly compressed ammonia vapour. According to the Deutsches Museum archive and his son's biographical entry, he judged the work a failure in 1890 and turned to an engine using air as the working medium. That same year he moved to Berlin to represent Linde's firm there.",
+  "rudolf-diesel.interpretation.turning_point.1":
+    "Changing the working medium while keeping the goal of a more efficient engine sits alongside the adaptability score in this profile; his son's account, one of the two sources here, is an insider's view.",
+  /* ---------------------------------------------------------- charles-babbage (Roster40) */
+  "charles-babbage.achievement.1":
+    "From 1821 Babbage designed a Difference Engine to calculate and print mathematical tables by the method of differences, with Treasury funding and the toolmaker Joseph Clement building the parts. Work stopped in 1833 and the machine was never completed, but a demonstration section assembled in 1832 still works. Between 1847 and 1849 he designed a simpler Difference Engine No. 2.",
+  "charles-babbage.achievement.2":
+    "From 1834 he designed the Analytical Engine, a general-purpose calculating machine controlled by punched cards, with a 'Store' for numbers kept separate from a 'Mill' that did the arithmetic. It was never built. Luigi Menabrea described it in 1842 from Babbage's explanations in Turin, and Ada Lovelace's 1843 English translation added extensive notes of her own.",
+  "charles-babbage.achievement.3":
+    "As a Cambridge student around 1812 he helped found the Analytical Society, which promoted Continental calculus notation. In 1820 he, John Herschel and George Peacock published an English translation of Lacroix's calculus textbook, and he later held the Lucasian professorship of mathematics at Cambridge from 1828 to 1839.",
+  "charles-babbage.moment.1":
+    "The 1834 Edinburgh Review reported that Babbage could not keep track of every simultaneous motion in the Difference Engine by memory alone. He devised a 'mechanical notation', described in an 1826 paper, that traced each motion back to its source and charted what every part was doing at each moment. Clashes between parts could then be found on paper before anything was built.",
+  "charles-babbage.interpretation.moment.1":
+    "Building a symbolic map of the whole mechanism before cutting metal is consistent with this profile's high systems-thinking score.",
+  "charles-babbage.moment.2":
+    "In 1830 Babbage published Reflections on the Decline of Science in England, a book-length public criticism of how the Royal Society was run, including comments on its named officers. George Airy's autobiography, written by a rival, records that around the same time Babbage belonged to a 'reforming party' that pushed changes to the Greenwich Observatory's Board of Visitors.",
+  "charles-babbage.interpretation.moment.2":
+    "Challenging the scientific establishment openly and by name offers one example of the high tolerance for conflict recorded in this profile. The Computer History Museum's account suggests the same habit cost him support he later needed.",
+  "charles-babbage.turning_point.1":
+    "In 1833 Clement stopped work on the Difference Engine and dismissed the workmen after a dispute over payments and his charges for moving the works. A statement drawn up from Babbage's papers in 1843 and Samuel Smiles's life of Clement tell it from opposite sides. After years of requests for a decision, the government withdrew in November 1842, and Babbage went on designing the Analytical Engine with draftsmen he paid himself.",
+  "charles-babbage.interpretation.turning_point.1":
+    "Carrying on at his own expense after public funding ended sits alongside the persistence scored in this profile. The same period shows that persistence did not bring an engine to completion in his lifetime.",
+  /* ---------------------------------------------------------- jim-thorpe (Roster40) */
+  "jim-thorpe.achievement.1":
+    "At the 1912 Stockholm Olympics Thorpe won the pentathlon and the decathlon. In 1913 the Amateur Athletic Union ruled that summer minor-league baseball had made him a professional, and his results were struck out; the IOC named him co-champion in 1982 and, in July 2022, the sole winner of both events.",
+  "jim-thorpe.achievement.2":
+    "Canton Bulldogs manager Jack Cusack signed Thorpe in 1915 for $250 a game, and he went on to play for and coach the team. According to the Pro Football Hall of Fame, the charter members of the league formed in 1920, the forerunner of the NFL, named him its president.",
+  "jim-thorpe.achievement.3":
+    "Thorpe played six seasons of major-league baseball between 1913 and 1919 with the New York Giants, Cincinnati Reds and Boston Braves, appearing in 289 games in all, according to the SABR Biography Project.",
+  "jim-thorpe.moment.1":
+    "In his memoir, Canton manager Jack Cusack describes a 1917 game against Massillon as a personal duel between Thorpe and Stan Cofall, who kicked two field goals for a 6-0 Massillon win. Cusack writes that Thorpe lost his temper at rough play he thought uncalled for, was hurt in the second quarter but played on, and carried the ball more than anyone else.",
+  "jim-thorpe.interpretation.moment.1":
+    "The account is consistent with the profile's competitiveness score, though it comes from one insider who was also Thorpe's friend.",
+  "jim-thorpe.moment.2":
+    "On the voyage to Stockholm in 1912, Sally Jenkins reports, a reporter found Thorpe resting in a deck chair and Thorpe said he was practising the long jump in his head. A photograph published by the National Museum of the American Indian shows him training on the ship's deck, which its historian cites against the story that he refused to train.",
+  "jim-thorpe.interpretation.moment.2":
+    "Read alongside coach Pop Warner's remark that Thorpe was always looking for a new motion that would help him, the episode offers one example of the deliberate technique work behind the profile's mastery-orientation score; other contemporaries described him as averse to training.",
+  "jim-thorpe.turning_point.1":
+    "When the AAU charges became national news in late January 1913, Thorpe signed a letter admitting that he had played summer baseball for pay; a friend later told a congressional investigator that the letter had been drafted by coach Pop Warner and the school superintendent. Within weeks he signed a three-year contract with the New York Giants, and from 1915 he also played professional football with Canton.",
+  "jim-thorpe.interpretation.turning_point.1":
+    "The loss of his amateur status was decided by others, but what he did next, working in two professional sports at once, sits alongside the profile's cross-domain-range score.",
+  /* ---------------------------------------------------------- eddy-merckx (Roster40) */
+  "eddy-merckx.achievement.1":
+    "Merckx won the world amateur road championship in 1964 and turned professional in 1965. In 1969 he won the Tour de France, the first Belgian to do so since 1939, and Sports Illustrated's 1972 profile records that he won it again in 1970 and 1971.",
+  "eddy-merckx.achievement.2":
+    "On 25 October 1972, on the open-air Olympic velodrome in Mexico City, Merckx rode 49.431 km in an hour, 788 metres more than Ole Ritter's record. Cyclist magazine notes that the mark stood for 28 years.",
+  "eddy-merckx.achievement.3":
+    "Merckx retired from racing in spring 1978, and in 1980 he started a bicycle company, Eddy Merckx Cycles, with help from the Italian frame-builder Ugo De Rosa. According to Cycling Weekly, its bikes were later supplied to professional teams including 7-Eleven, Motorola and Quick-Step.",
+  "eddy-merckx.moment.1":
+    "On 8 July 1971, at Orcieres-Merlette, Merckx lost 8 minutes 41 seconds to Luis Ocana after pulling a chasing group for about 100 km with no one taking a turn. Two days later he and three Molteni team-mates attacked from the start of the 251 km stage to Marseille and gained about two minutes, according to Belgian retrospectives by RTBF and La DH.",
+  "eddy-merckx.interpretation.moment.1":
+    "Keeping up the attack after his heaviest Tour loss to that point is consistent with the profile's persistence score; the stage gained back only a small part of the deficit.",
+  "eddy-merckx.moment.2":
+    "Visiting Merckx's home in 1972, a Sports Illustrated writer found a basement workshop with about 100 wheels left to cure for up to three years, and was told that he experimented with saddle positions for climbs, flat roads and rough roads. The frame-builder Ernesto Colnago later recalled that Merckx took more than 20 bikes a year and would stay at the factory until a bike was right.",
+  "eddy-merckx.interpretation.moment.2":
+    "These working habits sit alongside the profile's detail-orientation score. Merckx himself connected some of the later adjustments to comfort after a 1969 track crash, and the profile draws no conclusion from that injury.",
+  "eddy-merckx.turning_point.1":
+    "For his 1972 Hour Record attempt Merckx chose the Mexico City velodrome, although his sponsor Molteni wanted Milan. His masseur Guillaume Michiels and a 2015 Remezcla feature describe six weeks of preparation, with university tests in Milan and Liege and sessions on rollers in his garage breathing from oxygen bottles to simulate altitude. Merckx describes the same altitude training in a 2004 Cycle Sport interview.",
+  "eddy-merckx.interpretation.turning_point.1":
+    "Weeks of set-piece preparation for a single hour offer one example behind the profile's discipline score, and the choice of venue against the sponsor's wish also bears on its need-for-autonomy row.",
+  /* ---------------------------------------------------------- david-livingstone (Roster40) */
+  "david-livingstone.achievement.1":
+    "Between 1853 and 1856 Livingstone travelled from Linyanti, on the upper Zambezi, west to Loanda on the Atlantic and then back and east to Quelimane on the Indian Ocean coast. The journey was backed by the Kololo ruler Sekeletu, who supplied men and goods, and it depended on Kololo companions as interpreters and guides; on the eastward leg they led him to the waterfall known locally as Mosi-oa-Tunya, which he named Victoria Falls. He was hailed in Britain as the first European to cross the continent, though Arab and African traders had long crossed it along established caravan routes.",
+  "david-livingstone.achievement.2":
+    "Missionary Travels and Researches in South Africa, published by John Murray in November 1857, combined missionary narrative, travel writing and field science. Its first printing of 12,000 copies sold out before publication and a second of 30,000 followed. The book argued for mission work and trade in south-central Africa as a means against the slave trade, a programme framed in the colonial language of \"Christianity, commerce and civilisation\".",
+  "david-livingstone.achievement.3":
+    "From 1858 to 1864 Livingstone led a government-funded expedition on the Zambezi and its tributaries. It found the Kebrabasa (Cabora Bassa) rapids impassable, explored the Shire River and much of Lake Nyasa, and sent botanical and zoological specimens to Kew and the Natural History Museum. It fell far short of its commercial aims, and several members resigned or were dismissed amid strained relations.",
+  "david-livingstone.moment.1":
+    "Livingstone reached Loanda in May 1854, ill and having used up his trade goods. According to his biographer Blaikie, he could have sailed home on a British naval cruiser; instead, in September 1854 he set out with his Kololo companions on the return journey inland, reaching Linyanti a year later. He then went on eastward and arrived at Quelimane in May 1856.",
+  "david-livingstone.interpretation.moment.1":
+    "Turning back into the interior rather than taking the ship is consistent with the profile's high persistence score; his undertaking to see his companions home was also part of the decision.",
+  "david-livingstone.moment.2":
+    "Livingstone sent his astronomical readings to Thomas Maclear, Astronomer Royal at the Cape, who reduced them and in March 1854 wrote that, despite rough early readings, no explorer on record had fixed his route so precisely. Livingstone himself called his observation book \"quite a mass of confusion\" in 1857. In 1871-72 Henry Morton Stanley saw him make careful notes every evening and described notebooks filled with columns of figures.",
+  "david-livingstone.interpretation.moment.2":
+    "Accounts from an astronomer and a journalist sit alongside the profile's detail-orientation score, while his own complaint about the notebook is a reminder that the care lay in sustained recording more than in tidiness.",
+  "david-livingstone.turning_point.1":
+    "The Zambezi expedition rested on the hope that the river could serve as a navigable highway into the interior. When the Kebrabasa rapids proved impassable, Livingstone turned the expedition north up the Shire River, reached Lake Nyasa in September 1859, and later explored the Rovuma. Earlier, when the expedition's naval officer resigned in 1858, he had taken over navigating the steamer himself.",
+  "david-livingstone.interpretation.turning_point.1":
+    "Redirecting the expedition once its central assumption failed offers one example behind the profile's adaptability score, although the new routes also fell short of what he had hoped.",
+  /* ---------------------------------------------------------- cornelius-vanderbilt (Roster40) */
+  "cornelius-vanderbilt.achievement.1":
+    "After more than a decade as a steamboat captain on the Gibbons line, Vanderbilt went into business for himself in 1829 and ran competing steamboat lines on the Hudson River and Long Island Sound, where his faster boats and lower fares pushed established companies into compromises. In 1851 he opened a steamship and transit route to California through Nicaragua, in competition with the Panama route of the Pacific Mail Steamship Company.",
+  "cornelius-vanderbilt.achievement.2":
+    "From 1863 Vanderbilt took control of the Harlem and Hudson River railroads and, from 1867, the New York Central, which he merged with the Hudson River road in 1869. He later took over the Lake Shore line as well, giving his group of roads a through route from New York to Chicago. His roads were double-tracked and laid with steel rails, but contemporaries such as Charles Francis Adams Jr. also criticised the heavy increases in their share capital.",
+  "cornelius-vanderbilt.moment.1":
+    "On 15 March 1862, after the Confederate ironclad Merrimack had attacked Union ships at Hampton Roads, the War Department telegraphed Vanderbilt to ask what he would charge to destroy or contain her. He came to Washington instead of naming a price, and within five days the government had accepted his largest steamship, the Vanderbilt, as a gift and put her under his direction, ready to sail. The telegrams and orders survive in the Navy's official records.",
+  "cornelius-vanderbilt.interpretation.moment.1":
+    "Answering a request for a price with an offer of his own ship is consistent with the profile's proactive-agency score; the historian T. J. Stiles notes that the navy had turned down an earlier offer of the same ship.",
+  "cornelius-vanderbilt.moment.2":
+    "To open the Nicaragua route around 1850-51, Vanderbilt took a small steamboat up the San Juan River himself. According to the New-York Tribune's 1877 obituary, the boat was hauled over the Castillo rapids on cables fastened to trees upstream. His biographer T. J. Stiles also describes him piloting the boat through the rapids; more colourful later retellings are less reliable.",
+  "cornelius-vanderbilt.interpretation.moment.2":
+    "Taking the boat through the rapids himself sits alongside the profile's risk-tolerance score, though the risk was part of a well-funded commercial venture rather than a gamble with everything he had.",
+  "cornelius-vanderbilt.turning_point.1":
+    "In 1818 Vanderbilt, then running his own sailing vessels in New York harbour, took command of a small steamboat for Thomas Gibbons on the New York-New Brunswick route for a modest salary. His own later account presents this as a deliberate break with sail, but Stiles found that he was first hired as a stopgap when Gibbons's captain suddenly left and kept his sailing ventures running for years. The Gibbons years gave him his training in steam navigation.",
+  "cornelius-vanderbilt.interpretation.turning_point.1":
+    "Moving early into steam offers one example behind the profile's opportunity-sensing score, but the timing owed something to chance as well as foresight.",
+  /* ---------------------------------------------------------- albrecht-durer (Roster40) */
+  "albrecht-durer.achievement.1":
+    "By about 1500 Dürer had completed or begun three large woodcut series on religious subjects, including The Apocalypse (1498). In 1511 he issued four woodcut books from his own press in Nuremberg, and in 1513-14 he made the engravings Knight, Death, and the Devil, Saint Jerome in His Study and Melencolia I.",
+  "albrecht-durer.achievement.2":
+    "Dürer wrote and illustrated a manual of geometry and perspective for students (Underweysung der Messung, 1525) and a treatise on fortifying towns (1527). His Four Books of Human Proportion appeared in 1528, the year of his death; his friend Willibald Pirckheimer saw the work through the press.",
+  "albrecht-durer.achievement.3":
+    "On his second stay in Venice he painted the Feast of the Rose Garlands (1506) for the German merchants of the city. In 1526 he presented the two panels of the Four Apostles to the Nuremberg town council, which accepted them in October that year; they are now in the Alte Pinakothek in Munich.",
+  "albrecht-durer.moment.1":
+    "Dürer's letters to the Frankfurt merchant Jacob Heller (1507-09) follow the making of an altarpiece commissioned for about 130 florins. Dürer wrote that he would lay the ultramarine ground five or six times over, asked for 200 florins, and exchanged sharp letters with Heller over the delay before sending the picture in August 1509. Only Dürer's side survives; twenty-one of his studies for the painting, most dated 1508, are still preserved.",
+  "albrecht-durer.interpretation.moment.1":
+    "The layered painting and the lengthy preparation are consistent with the profile's high perfectionism score; Dürer's own remark that such care \"does not pay\" is one reason that row is marked dual-edged.",
+  "albrecht-durer.moment.2":
+    "In December 1520, while in the Netherlands, Dürer heard that a huge whale had been stranded at Zierikzee in Zeeland and travelled there by horse and boat, only to find that the tide had carried it away. His diary records the trip. A drawing of a walrus caught in the same sea, dated 1521, is in the British Museum.",
+  "albrecht-durer.interpretation.moment.2":
+    "A detour of more than a week in winter to look at an unusual animal offers one example behind the profile's high curiosity score.",
+  "albrecht-durer.turning_point.1":
+    "In an unpublished draft Dürer recalled that as a young man the Venetian painter Jacopo de' Barbari showed him male and female figures drawn to a system of proportions but would not explain its principles. Dürer then read Vitruvius and began measuring and constructing figures himself; a proportion drawing of a woman dated 1500 survives. The work continued for most of his life and led to the Four Books of Human Proportion.",
+  "albrecht-durer.interpretation.turning_point.1":
+    "Setting out to reconstruct a withheld method from a classical text and his own measurements sits alongside the profile's systems-abstraction score; his friend Joachim Camerarius later described him as bringing painting under rule and principle.",
+  /* ---------------------------------------------------------- hans-christian-andersen (Roster40) */
+  "hans-christian-andersen.achievement.1":
+    "Andersen published his first booklet of tales 'told for children' in 1835 and went on issuing new collections, titled New Fairy Tales from 1843 and Stories from 1852, until 1872. His versions of folk tales and his own inventions include \"The Little Mermaid\", \"The Emperor's New Clothes\" and \"The Ugly Duckling\". In an 1869 essay the Danish critic Georg Brandes analysed how their prose reproduces the spoken language used with children.",
+  "hans-christian-andersen.achievement.2":
+    "Besides the tales he wrote novels, among them The Improvisatore (1835), O.T. (1836) and Only a Fiddler (1837), which were translated into German soon after they appeared. He also wrote travel books, from A Walking Tour from Holmen's Canal to the East Point of Amager (1829) to A Poet's Bazaar (1842) and In Spain (1863).",
+  "hans-christian-andersen.achievement.3":
+    "Andersen wrote or adapted about thirty works for the stage, including revues, vaudevilles, the drama The Mulatto (1840) and plays for Copenhagen's Casino theatre. His libretto for J. P. E. Hartmann's opera Little Kirsten (1846) became, in the words of the Andersen scholar Johan de Mylius, a sort of Danish national opera, and he persuaded Franz Liszt to stage it at Weimar in 1856.",
+  "hans-christian-andersen.moment.1":
+    "In his memoirs, quoted by the biographer R. Nisbet Bain, the poet and folklorist J. M. Thiele recalled how, around 1821, an unknown, shabbily dressed youth knocked, came into his study unannounced, bowed and asked to recite a poem of his own about the stage. Without waiting for an answer he performed it, then scenes from several plays, taking all the parts, and left. Thiele learned only that evening that the visitor was Hans Christian Andersen.",
+  "hans-christian-andersen.interpretation.moment.1":
+    "Walking uninvited into a writer's study and taking the floor there offers one early example of the forwardness reflected in the profile's social assertiveness, a forwardness that also drew ridicule in these years.",
+  "hans-christian-andersen.moment.2":
+    "Andersen believed the Royal Theatre's censor judged his name rather than his plays, so he submitted the one-act drama The King Dreams in November 1843, and the comedy The New Lying-in Room in January 1845, without his name. Both were accepted and staged. According to his biographer R. Nisbet Bain, few people guessed the author of the comedy, and Andersen kept the secret while it ran.",
+  "hans-christian-andersen.interpretation.moment.2":
+    "Finding a way around a route he saw as blocked, rather than simply pressing the same case again, is consistent with the profile's resourcefulness score.",
+  "hans-christian-andersen.turning_point.1":
+    "By mid-1822 the Royal Theatre had dropped Andersen from its singing school and returned one play of his as unfit to perform. He sent in another, Alfsol. The director K. L. Rahbek judged it unsuitable for the stage but proposed that its author be helped to get an education, and Jonas Collin put the case to King Frederick VI. That autumn Andersen was sent to the grammar school at Slagelse at public expense, with Collin as his guardian.",
+  "hans-christian-andersen.interpretation.turning_point.1":
+    "Sending in a fresh play straight after a rejection sits alongside the profile's persistence score; the turn itself came from the directors' and Collin's decision, which moved him from chasing a place on the stage to formal schooling.",
+  /* ---------------------------------------------------------- auguste-rodin (Roster40) */
+  "auguste-rodin.achievement.1":
+    "Asked by the town of Calais in 1885 for a statue of one burgher, Rodin proposed all six hostages of 1347 as a single group for the same fee. The full-size plasters were shown in Paris in 1889, and the bronze monument was unveiled in Calais on 3 June 1895.",
+  "auguste-rodin.achievement.2":
+    "In 1880 the French State commissioned from Rodin a bronze door, The Gates of Hell, for a planned museum of decorative arts. He worked on it for years; the Musée Rodin counts more than 200 figures and groups made for it, many of which he later developed into independent works.",
+  "auguste-rodin.achievement.3":
+    "In 1916 Rodin donated his works, collections and reproduction rights to the French State to found a museum in the Hôtel Biron in Paris. The Musée Rodin opened to the public there in 1919, two years after his death.",
+  "auguste-rodin.moment.1":
+    "Commissioned in 1891 to make a statue of Balzac within eighteen months, Rodin visited Touraine, studied portraits and descriptions of the novelist, and made series of nude and draped studies. In 1894 he accepted a new agreement without a deadline, writing that his only concern was to make the figure as perfect as possible; the plaster was exhibited in 1898, when the commissioning society refused it.",
+  "auguste-rodin.interpretation.moment.1":
+    "The years of studies and the deadline he gave up are consistent with this profile's high perfectionism score, which is marked as cutting both ways: the same documents record a strained relationship with his patrons.",
+  "auguste-rodin.moment.2":
+    "His secretary Anthony Ludovici, writing from notes made in 1906, recalls that after seeing the Cambodian royal dancers perform in Paris that July, Rodin described their movements in detail. When the troupe left for Marseilles he followed them and spent several days there drawing the king and the dancers.",
+  "auguste-rodin.interpretation.moment.2":
+    "Travelling at sixty-five to draw an unfamiliar dance tradition offers one example of the curiosity scored in this profile, alongside his use of antiquities from his own collection in new works.",
+  "auguste-rodin.turning_point.1":
+    "When The Age of Bronze was shown at the 1877 Paris Salon, critics alleged that it had been cast from a living model. Rodin petitioned the fine-arts administration and supplied casts and photographs of his model for comparison; he was cleared only in 1880, after a group of established sculptors wrote on his behalf, and that year the State bought the work.",
+  "auguste-rodin.interpretation.turning_point.1":
+    "Pressing a three-year case while continuing to model new figures in a small shed sits alongside the persistence scored in this profile; the Musée Rodin also notes that the dispute drew attention to him, and the Gates of Hell commission followed in 1880.",
+  /* ---------------------------------------------------------- clara-schumann (Roster40) */
+  "clara-schumann.achievement.1":
+    "In her Berlin concerts of February and March 1837, the seventeen-year-old Clara Wieck played two movements and then the whole of Beethoven's 'Appassionata' Sonata, Op. 57; Florence May, searching the press of the period, found no earlier public performance of the work. A Berlin review of the first concert noted that she played her entire programme from memory. During her stay in Vienna in 1837-38 she was appointed Imperial and Royal Chamber Virtuoso.",
+  "clara-schumann.achievement.2":
+    "From her solo debut at the Leipzig Gewandhaus in 1830 to her last public concert in 1891, she regularly played the piano works of Robert Schumann, and Florence May lists several works by Johannes Brahms, including the Handel Variations, Op. 24, whose first public performances she gave. From 1856 she visited England nineteen times.",
+  "clara-schumann.achievement.3":
+    "In 1878 she became principal piano teacher at the new Hoch Conservatory in Frankfurt, with her daughters Marie and Eugenie as assistants, and taught there until 1892. In the same period she took charge of the Breitkopf & Härtel Collected Edition of Robert Schumann's works (1879-86).",
+  "clara-schumann.moment.1":
+    "Her daughter Eugenie, who was taught by her after leaving school, recalled that Beethoven sonatas formed the core of every lesson and that her mother 'did not let the smallest inexactitude pass'. She asked whether Beethoven would have written every dot and tie if he had meant something else. She also disliked editions with added fingerings and annotations.",
+  "clara-schumann.interpretation.moment.1":
+    "The daughter's account agrees with what the Viennese critic Eduard Hanslick heard in her concerts in 1856 and 1858, and it offers one example of the close attention to the score scored in this profile.",
+  "clara-schumann.moment.2":
+    "Reviewing her Vienna concerts in 1856, Hanslick called it 'unheard of' to perform Beethoven's Sonata Op. 101, Mendelssohn's Variations sérieuses and Schumann's Symphonic Etudes in a concert. He wrote that she played only serious music, while also regretting that her playing was more deeply understood than deeply felt.",
+  "clara-schumann.interpretation.moment.2":
+    "At a time when concert programmes commonly mixed serious works with lighter virtuoso pieces, her choices fit the independent thinking scored here. That score is based on her adult programmes; as a child, her repertoire was chosen by her father.",
+  "clara-schumann.turning_point.1":
+    "In January 1839, aged nineteen, Clara Wieck set out on a concert tour to Paris without her father for the first time. Florence May's account, based on her letters, says that in Paris she refused friends' urging to return home, dismissed the companion she had travelled with and arranged to stay with the family of her friend Emilie List. After her father refused the consent to her marriage that the law required, the dispute was decided in court, and she married Robert Schumann in September 1840.",
+  "clara-schumann.interpretation.turning_point.1":
+    "Organising a foreign season on her own at nineteen fits the autonomy scored in this profile, as do the conditions she later set before accepting her Frankfurt teaching post in 1878. May also links the Paris journey to her hope of earning money for her future household.",
+  /* ---------------------------------------------------------- ivan-pavlov (Roster40) */
+  "ivan-pavlov.achievement.1":
+    "Received the 1904 Nobel Prize in Physiology or Medicine for his work on the physiology of digestion. The presentation speech singled out his surgical technique, which let the same animals be studied over long periods.",
+  "ivan-pavlov.achievement.2":
+    "From 1902 he turned his laboratory to the objective study of so-called psychical secretion in dogs, the work on conditioned reflexes that occupied him until his death in 1936.",
+  "ivan-pavlov.achievement.3":
+    "Directed physiological laboratories at the Institute of Experimental Medicine and the Military-Medical Academy in St Petersburg for more than three decades. His students record dozens of co-workers at a time passing through them.",
+  "ivan-pavlov.moment.1":
+    "According to his student Boris Babkin, when Pavlov first tried to make an isolated stomach pouch with its nerves intact, in about 1893-94, the operation failed nineteen times. It succeeded on the twentieth dog, and the student assigned to the problem was able to finish his thesis.",
+  "ivan-pavlov.interpretation.moment.1":
+    "The episode offers one example of the profile's persistence score: repeated failure on a difficult operation did not end the attempt.",
+  "ivan-pavlov.moment.2":
+    "A collaborator, V. V. Savich, recalled that Pavlov asked him to repeat Bayliss and Starling's secretin experiment, which challenged the laboratory's view that pancreatic secretion was controlled by nerves alone. When it was confirmed in front of him, Pavlov left for half an hour and returned saying, 'Of course, they are right.'",
+  "ivan-pavlov.interpretation.moment.2":
+    "This sits alongside the profile's belief-updating score, which is kept moderate because Babkin also records that Pavlov needed a great deal of proof before changing his mind.",
+  "ivan-pavlov.turning_point.1":
+    "In his Nobel lecture of December 1904, Pavlov spent much of his time on a new line of research rather than only on the digestion work being honoured. He described his decision to treat the dogs' 'psychical' salivation from an entirely objective point of view.",
+  "ivan-pavlov.interpretation.turning_point.1":
+    "The choice is consistent with the profile's independent-thinking score. Gantt records that friends such as Sherrington and Tigerstedt later urged caution about the new programme, and he continued it anyway.",
+  /* ---------------------------------------------------------- santiago-ramon-y-cajal (Roster40) */
+  "santiago-ramon-y-cajal.achievement.1":
+    "Shared the 1906 Nobel Prize in Physiology or Medicine with Camillo Golgi for work on the structure of the nervous system. In his own Nobel lecture, Golgi set out his disagreement with Cajal's view of how nerve cells connect.",
+  "santiago-ramon-y-cajal.achievement.2":
+    "From 1888 he argued that nerve cells are separate units that communicate by contact rather than forming a continuous network. By 1891 he had also proposed that impulses travel in one direction through each cell, from the dendrites and cell body to the axon.",
+  "santiago-ramon-y-cajal.achievement.3":
+    "Between 1889 and 1913 he developed several staining methods and variants, including the reduced silver nitrate method of 1903. About 4,500 slides from his collection and almost 2,000 scientific drawings, nearly all by his own hand, survive at the Cajal Institute in Madrid.",
+  "santiago-ramon-y-cajal.moment.1":
+    "In October 1889 Cajal travelled to the German Anatomical Society's congress in Berlin with his own slides and microscope. Arthur van Gehuchten, who was there, later recalled that he stood almost alone amid sceptical smiles until he took Albert von Kölliker aside to a microscope. Within months Kölliker had published confirmations of his findings.",
+  "santiago-ramon-y-cajal.interpretation.moment.1":
+    "Choosing to show his preparations to the leading sceptics in person, instead of waiting for his papers to be read, is consistent with a strong habit of taking the initiative.",
+  "santiago-ramon-y-cajal.moment.2":
+    "Around 1918-20 his pupil Pío del Río Hortega found that cells Cajal had described as lacking processes did in fact have them. By Río Hortega's own account, Cajal called the conclusions too daring and did not encourage publication. When the findings were later confirmed, Cajal's memoirs credited the discovery to another pupil.",
+  "santiago-ramon-y-cajal.interpretation.moment.2":
+    "This account comes from the pupil concerned and sits alongside other episodes in which Cajal did revise his views, which is one reason his profile places him near the middle on changing his mind.",
+  "santiago-ramon-y-cajal.turning_point.1":
+    "In 1887 the neurologist Luis Simarro showed Cajal brain sections stained with Golgi's silver method, a technique Cajal had dismissed after reading about it. He adopted it at once and applied it to young animals and embryos, whose nerve fibres are easier to stain. His first major findings followed in 1888.",
+  "santiago-ramon-y-cajal.interpretation.turning_point.1":
+    "Taking up a method he had earlier set aside, and adapting it through his choice of material, offers one example of the hands-on trial and variation seen throughout his work.",
+  /* ---------------------------------------------------------- john-snow (Roster40) */
+  "john-snow.achievement.1":
+    "In 1849 he argued in print that cholera spreads when people swallow matter from earlier cases, most often through contaminated water, rather than through bad air. The much-enlarged 1855 edition added a house-by-house comparison of cholera deaths among customers of two south London water companies, one drawing its water from the sewage-laden Thames in London and the other from further upstream.",
+  "john-snow.achievement.2":
+    "His inquiry into the Broad Street outbreak of 1854 in Soho pointed to the local public pump. A parish committee, which included him and the curate Henry Whitehead, concluded in 1855 that the outbreak was 'in some manner attributable' to the well's water, while the General Board of Health's scientific committee rejected his explanation that same year.",
+  "john-snow.achievement.3":
+    "From 1847 he designed inhalers and published practical studies of ether and then chloroform, becoming one of the most sought-after anaesthetists in London. He kept a case record of every anaesthetic he gave, and gave chloroform to Queen Victoria at the births of two of her children, in 1853 and 1857.",
+  "john-snow.moment.1":
+    "On the evening of 7 September 1854, a week into the Broad Street outbreak, Snow asked to be heard by the parish Board of Guardians and set out the evidence he had gathered against the pump. The handle was removed the next day. His own figures, like the curate Henry Whitehead's later ones, show that new cases were already falling before then.",
+  "john-snow.interpretation.moment.1":
+    "Going to the local authorities on his own evidence, with no official role and while few believed his theory, is consistent with the profile's strong reading of taking the initiative.",
+  "john-snow.moment.2":
+    "In March 1855 Snow told a parliamentary committee, on behalf of manufacturers, that foul-smelling fumes from trades such as bone-boiling did not in themselves cause epidemic disease. Under hostile questioning he admitted he had not studied those trades particularly. The Lancet answered with two scathing editorials, one dismissing his evidence as 'hobbyistic dogmas' rather than science.",
+  "john-snow.interpretation.moment.2":
+    "Taking a publicly unpopular side and holding it under pressure offers one example of his readiness for controversy; the episode also sits alongside his friend Richardson's view that he sometimes pushed arguments further than his evidence could carry.",
+  "john-snow.turning_point.1":
+    "In December 1846 news of ether anaesthesia reached London, and early results were uneven. According to his friend B. W. Richardson, Snow traced the problem to the way the vapour was given, built an improved inhaler, and tested it on animals before being allowed to administer it at London hospitals. Within a short time surgeons were calling on him regularly, lifting him out of a struggling general practice.",
+  "john-snow.interpretation.turning_point.1":
+    "Meeting a new technique with his own trials and apparatus, rather than simply adopting it, illustrates the hands-on experimentation that runs through his later work on other anaesthetic agents.",
+  /* ---------------------------------------------------------- maria-sibylla-merian (Roster40) */
+  "maria-sibylla-merian.achievement.1":
+    "In 1679 and 1683 she published two volumes on European caterpillars, researching, writing and illustrating them herself and etching the plates for the first with her own hand. Each plate shows an insect's egg, caterpillar, pupa and adult arranged around the plant its caterpillar fed on.",
+  "maria-sibylla-merian.achievement.2":
+    "Her Metamorphosis insectorum Surinamensium (Amsterdam, 1705) has 60 large plates of insects and other animals of Suriname shown on their food plants. In the preface she says she observed and painted almost everything herself, adding a few items on the testimony of Indigenous informants, and kept the local names of plants alongside Latin names supplied by the botanist Caspar Commelin.",
+  "maria-sibylla-merian.achievement.3":
+    "Her surviving study journal, now in St Petersburg, pairs numbered notes with small life-size paintings on vellum. It opens with rearing trials she dated to 1660, when she was thirteen, and has entries as late as 1710. A visitor in 1711 was also shown a thick volume of plants painted from life on parchment.",
+  "maria-sibylla-merian.moment.1":
+    "Many of the caterpillars she reared died or were killed by parasites before reaching adulthood. According to her own accounts, as analysed by the biologist Kay Etheridge, she began again the next season with fresh caterpillars, and completing the full life cycle took her four years for both the dot moth and the cabbage moth, and three years for the emperor moth.",
+  "maria-sibylla-merian.interpretation.moment.1":
+    "Returning year after year to rearings that had failed is consistent with the high persistence in her profile, though the details come largely from her own records.",
+  "maria-sibylla-merian.moment.2":
+    "When the collector Zacharias Conrad von Uffenbach visited her in Amsterdam in February 1711, he noted that she had engraved all the plates of her caterpillar books herself. She charged him 45 guilders instead of the usual 15 for a copy of the Suriname book she had coloured by hand. Her letters show that she funded that book by subscription and sold specimens from Suriname to collectors.",
+  "maria-sibylla-merian.interpretation.moment.2":
+    "Doing her own engraving, colouring and selling offers one example of the resourcefulness her profile reads in how she kept her research self-supporting.",
+  "maria-sibylla-merian.turning_point.1":
+    "In Amsterdam she saw collections of tropical insects that showed only adult specimens, with nothing about how they developed. In June 1699, aged 52, she sailed to the Dutch colony of Suriname with her younger daughter, and stayed until June 1701, returning earlier than planned because of the heat. Her book mentions enslaved and Indigenous people who dug up plants for her, cut paths through the forest and told her about plant uses.",
+  "maria-sibylla-merian.interpretation.turning_point.1":
+    "Setting out to observe these insects' life cycles for herself, which no one had asked her to do, sits alongside the strong reading of taking the initiative in her profile; the work also depended on the labour and knowledge of people in Suriname.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -9519,6 +9802,289 @@ export const EDITORIAL_KO: Record<string, string> = {
     "드라이어는 허셜의 삶의 전환점을 1772~73년 겨울로 보는데, 스미스의 《광학》을 읽고 하늘을 직접 보고 싶어졌다는 것이다. 그의 비망록에는 1773년 4월 19일 사분의, 5월 24일 대물렌즈, 9월 22일 거울 제작 도구를 샀다는 기록이 있으며, 같은 해 11월 15일이 든 주에도 그는 개인 제자 46명을 가르치고 있었다.",
   "william-herschel.interpretation.turning_point.1":
     "책과 바스의 한 아마추어가 쓰던 도구로 기기를 만들면서 수업 부담도 그대로 진 것은 임기응변적 수완과 부합한다. 이 서술은 그 자신의 비망록과 누이의 훗날 회고에 의존한다.",
+  /* ---------------------------------------------------------- samuel-morse (Roster40) */
+  "samuel-morse.achievement.1":
+    "모스는 1836년부터 레너드 게일과, 1837년부터는 앨프리드 베일과 함께 전자기식 기록 전신기를 개발했다. 1843년 3월 의회가 시험 선로 건설비 3만 달러를 승인한 뒤, 1844년 5월 24일 워싱턴-볼티모어 선로를 통해 \"하느님께서 무엇을 이루셨는가?\"라는 전문이 전송되었다. 미국 의회도서관의 해설은 조지프 헨리가 발표한 연구, 게일의 도움, 베일의 기계 작업을 이 시스템의 핵심 요인으로 꼽으며, 1854년 오라일리 대 모스 사건에서 미국 연방대법원은 그가 기술한 장치와 방법에 대한 특허는 인정했지만, 전자기를 이용해 원거리에서 문자를 기록하는 모든 방식을 포괄하려 한 가장 넓은 청구항은 무효로 판단했다.",
+  "samuel-morse.achievement.2":
+    "런던에서 벤저민 웨스트와 워싱턴 올스턴에게 배운 모스는 20년 넘게 초상화가이자 역사화가로 활동했다. 그의 대형 작품으로는 하원 의원 약 80명의 초상을 담은 「하원」(1821~22)과, 루브르의 옛 거장 그림들을 한 전시실에 다시 모아 그린 「루브르 갤러리」(1831~33)가 있다. 1826년에는 뉴욕 국립디자인아카데미의 창립자 가운데 한 사람이자 초대 회장이 되었다.",
+  "samuel-morse.achievement.3":
+    "1839년 파리에서 루이 다게르를 만난 뒤, 모스는 다게레오타입에 관한 미국 최초기의 설명 가운데 하나를 발표했다. 그는 존 윌리엄 드레이퍼와 함께 뉴욕에 초상 사진관을 열었고, 매슈 브래디를 비롯한 여러 제자에게 이 기법을 가르쳤다.",
+  "samuel-morse.moment.1":
+    "1842년 10월 18일, 모스는 피치와 타르, 고무로 직접 절연한 약 2마일 길이의 전선을 뉴욕항의 배터리에서 거버너스섬까지 깔았다. 아들의 기록에 따르면, 이튿날 공개 시연은 신호 몇 개를 주고받은 뒤 한 배의 닻이 케이블에 걸리고 선원들이 이를 잘라 버리면서 중단되었다. 그해 12월 그는 워싱턴의 운하를 가로질러 신호를 보내는 시험을 했고, 앨프리드 베일에게 시험이 성공했다고 알렸다.",
+  "samuel-morse.interpretation.moment.1":
+    "물을 건너는 문제를 포기하지 않고 두 달 안에 다른 방식으로 시험을 되풀이한 것은 이 프로필의 높은 실험 성향 점수와 부합한다.",
+  "samuel-morse.moment.2":
+    "뉴욕시립대학의 화학 교수 레너드 게일은 1836년 겨울 모스의 장치를 처음 살펴보고, 전지 한 개짜리 배터리를 여러 개의 전지로 바꾸고 자석에 전선을 수백 번 감으라고 제안했다. 게일은 1856년의 편지에서, 그 변경을 바로 그날 시험했더니 전류가 수십 피트가 아니라 수백 피트의 전선을 통과했다고 회고했다. 게일은 이 편지를 사건으로부터 20년 뒤, 조지프 헨리와 모스 사이의 논쟁 중에 헨리를 위해 썼다.",
+  "samuel-morse.interpretation.moment.2":
+    "외부인의 수정 제안을 즉시 받아들인 이 일은 이 프로필의 중간 정도 견해 수정 점수의 한 예가 되며, 동시에 실제로 작동한 시스템이 다른 사람들의 과학에 얼마나 기대고 있었는지도 보여 준다.",
+  "samuel-morse.turning_point.1":
+    "1834년 모스는 의회 의원들에게 편지를 보내, 국회의사당 원형 홀에 남은 네 개의 벽면 그림 가운데 하나를 맡겨 달라고 요청했다. 1837년 화가들이 선정되었을 때 그의 이름은 없었고, 그는 그해 12월 마지막 그림들을 마무리한 뒤 전신 작업으로 돌아섰다. 1849년의 한 편지에서 그는 여러 해 동안 그림에 거의 관심을 두지 않았다고 썼다.",
+  "samuel-morse.interpretation.turning_point.1":
+    "이 좌절 이후 활동의 중심을 그림에서 발명으로 옮긴 것은 이 프로필의 적응력과 나란히 놓이지만, 생계를 위한 수입의 필요와 이미 진행 중이던 전신 작업도 이 변화의 한 부분이었다.",
+  /* ---------------------------------------------------------- rudolf-diesel (Roster40) */
+  "rudolf-diesel.achievement.1":
+    "디젤은 1893년, 공기를 압축해 그 열만으로 분사된 연료가 점화되게 하는 열기관 이론을 발표했고, 1893년부터 1897년까지 크루프의 지원을 받아 아우크스부르크 기계공장에서 이 엔진을 개발했다. 1897년 2월 뮌헨 공과대학의 모리츠 슈뢰터 교수가 완성된 20마력 엔진을 시험하고, 당시의 다른 석유 엔진보다 마력당 연료 소비가 적다고 보고했다. 비슷한 착상을 연구한 기술자들도 있었으며, 이후 제작된 엔진은 디젤의 처음 이론과 일부 달라졌다.",
+  "rudolf-diesel.achievement.2":
+    "디젤은 1893년부터 여러 나라의 제조사에 엔진 제작 권리를 넘겼다. 겐트의 카렐스(1894), 미국 권리를 산 아돌푸스 부시(1897), 1897~98년에 영국 첫 엔진을 만든 글래스고의 미를리스 등이 그 예다. 1912년에는 디젤 엔진이 발전소와 공장, 선박에서 쓰이고 있었고, 그해 3월 그는 런던 기계공학회에서 엔진의 발전 과정을 발표했다.",
+  "rudolf-diesel.achievement.3":
+    "1905년 디젤은 술처 사와 철도 기술자 아돌프 클로제와 함께 디젤 기관차를 만들기 위한 회사를 세웠다. 보르지히와 함께 개발한 이 기관차는 1912년 스위스에서 시운전을 했으며, 1908년 특허가 만료된 뒤 디젤은 소형 엔진과 도로 차량용 엔진 개발에도 나섰다.",
+  "rudolf-diesel.moment.1":
+    "디젤이 1897년에 직접 남긴 아우크스부르크 시험 기록에 따르면, 첫 시험 엔진은 격렬한 폭발을 일으켜 측정용 지압계를 부숴 버렸고, 이후 한 시기에는 거듭 개조했는데도 열 달 동안 쓸 만한 결과를 얻지 못했다. 새 시험 엔진을 만들기까지 약 2년이 걸렸다. 독일 박물관에는 1893년부터 1897년까지 각 단계의 손으로 쓴 시험 일지가 보관되어 있다.",
+  "rudolf-diesel.interpretation.moment.1":
+    "4년에 걸친 실패와 부분적 성과 속에서도 시험을 이어 간 점은 이 프로필의 높은 끈기 점수와 맞닿아 있다.",
+  "rudolf-diesel.moment.2":
+    "1897년 단기통 엔진이 성공한 직후, 디젤은 공기 압축과 가스 팽창을 두 단계로 나눈 150마력 복합 엔진을 만들었다. 1912년 영국 기계공학회에서 받은 질문에 서면으로 답하며 그가 밝힌 바에 따르면, 1년 넘게 신중히 시험한 결과 열과 압력 손실이 너무 커서 이 방식은 쓸모가 없다고 결론지었다. 독일 박물관 기록보관소에는 1898년의 복합 엔진 시험 일지가 남아 있다.",
+  "rudolf-diesel.interpretation.moment.2":
+    "오래 구상해 온 설계라도 측정 결과가 불리하게 나오자 접은 일은, 여기서 점수를 매긴 신념 수정 경향을 보여 주는 한 예다.",
+  "rudolf-diesel.turning_point.1":
+    "디젤은 1883년부터 파리에서 카를 폰 린데의 냉동기 회사에 근무하면서, 고압 암모니아 증기로 움직이는 고효율 엔진을 만들려고 했다. 독일 박물관 기록보관소와 아들이 쓴 전기 항목에 따르면, 그는 1890년 이 연구를 실패로 판단하고 공기를 작동 매체로 쓰는 엔진으로 방향을 바꾸었다. 같은 해 그는 린데 회사의 대리인으로 베를린에 자리를 옮겼다.",
+  "rudolf-diesel.interpretation.turning_point.1":
+    "더 효율적인 엔진이라는 목표는 지키면서 작동 매체를 바꾼 것은 이 프로필의 적응력 점수와 나란히 놓인다. 다만 여기 쓰인 두 출처 중 하나인 아들의 기록은 가족의 시각이다.",
+  /* ---------------------------------------------------------- charles-babbage (Roster40) */
+  "charles-babbage.achievement.1":
+    "배비지는 1821년부터 차분법으로 수학표를 계산하고 인쇄하는 차분기관을 설계했으며, 재무부가 자금을 대고 공구 제작자 조지프 클레멘트가 부품을 만들었다. 작업은 1833년에 멈추어 기계는 끝내 완성되지 못했지만, 1832년에 조립한 시연용 부분은 지금도 작동한다. 1847~1849년에는 더 단순해진 차분기관 2호를 설계했다.",
+  "charles-babbage.achievement.2":
+    "1834년부터 그는 천공 카드로 제어하는 범용 계산 기계인 해석기관을 설계했다. 수를 저장하는 '스토어'와 연산을 맡는 '밀'이 따로 나뉜 구조였다. 이 기계는 제작되지 않았다. 루이지 메나브레아가 토리노에서 들은 배비지의 설명을 바탕으로 1842년에 이 기계를 소개했고, 1843년 에이다 러브레이스는 이 글을 영어로 옮기며 방대한 주석을 직접 덧붙였다.",
+  "charles-babbage.achievement.3":
+    "그는 1812년 무렵 케임브리지 학생 시절 유럽 대륙식 미적분 표기법을 보급하려는 해석학회 창립에 참여했다. 1820년에는 존 허셜, 조지 피콕과 함께 라크루아의 미적분 교과서를 영어로 번역해 출간했고, 이후 1828년부터 1839년까지 케임브리지 대학교 루카스 수학 석좌교수를 지냈다.",
+  "charles-babbage.moment.1":
+    "1834년 『에든버러 리뷰』는 배비지가 차분기관에서 동시에 일어나는 모든 움직임을 기억만으로는 추적할 수 없었다고 전했다. 그는 1826년 논문에서 설명한 '기계 표기법'을 고안해, 각 움직임을 근원까지 거슬러 추적하고 모든 부품이 매 순간 무엇을 하는지를 도표로 나타냈다. 그 덕분에 부품끼리의 충돌을 실제 제작 전에 종이 위에서 찾아낼 수 있었다.",
+  "charles-babbage.interpretation.moment.1":
+    "금속을 깎기 전에 기계 전체를 기호로 된 지도로 먼저 그려 둔 방식은 이 프로필의 높은 시스템 사고 점수와 부합한다.",
+  "charles-babbage.moment.2":
+    "1830년 배비지는 왕립학회의 운영 방식을 공개적으로 비판한 책 『영국 과학의 쇠퇴에 관한 고찰』을 펴냈으며, 이 책에는 학회 임원들을 실명으로 평한 대목도 있다. 경쟁자였던 조지 에어리의 자서전에 따르면 비슷한 시기에 배비지는 그리니치 천문대 감독위원회의 개편을 밀어붙인 '개혁파'의 일원이기도 했다.",
+  "charles-babbage.interpretation.moment.2":
+    "과학계의 기성 권위에 실명을 들어 공개적으로 맞선 일은 이 프로필에 기록된 높은 갈등 감내 성향을 보여 주는 한 사례다. 컴퓨터 역사 박물관의 서술에 따르면 이런 태도 때문에 그는 훗날 필요했던 지지를 잃기도 했다.",
+  "charles-babbage.turning_point.1":
+    "1833년 클레멘트는 대금 지급과 작업장 이전 비용 청구를 둘러싼 분쟁 끝에 차분기관 작업을 중단하고 직공들을 내보냈다. 1843년 배비지의 문서를 바탕으로 작성된 진술서과 새뮤얼 스마일스가 쓴 클레멘트 전기는 이 일을 서로 반대편에서 전한다. 결정을 내려 달라는 요청이 몇 해 동안 이어진 끝에 정부는 1842년 11월 사업에서 손을 뗐고, 배비지는 직접 비용을 대어 고용한 제도사들과 함께 해석기관 설계를 계속했다.",
+  "charles-babbage.interpretation.turning_point.1":
+    "공적 자금이 끊긴 뒤에도 사비를 들여 작업을 이어 간 일은 이 프로필에서 평가한 끈기와 나란히 놓인다. 다만 같은 시기의 기록은 그 끈기가 생전에 기관의 완성으로 이어지지는 못했음도 보여 준다.",
+  /* ---------------------------------------------------------- jim-thorpe (Roster40) */
+  "jim-thorpe.achievement.1":
+    "소프는 1912년 스톡홀름 올림픽에서 5종 경기와 10종 경기에서 우승했다. 1913년 미국 아마추어 체육연맹(AAU)은 그가 여름철 마이너리그 야구로 돈을 받아 프로가 되었다고 판정했고 그의 기록은 삭제되었다. 국제올림픽위원회(IOC)는 1982년 그를 공동 우승자로 인정했고, 2022년 7월에는 두 종목의 단독 우승자로 공식 인정했다.",
+  "jim-thorpe.achievement.2":
+    "캔턴 불도그스 단장 잭 쿠잭은 1915년 경기당 250달러에 소프와 계약했고, 소프는 이후 이 팀의 선수이자 코치로 뛰었다. 프로풋볼 명예의 전당에 따르면 1920년 NFL의 전신인 리그가 창설될 때 창립 구단들은 그를 리그 회장으로 선임했다.",
+  "jim-thorpe.achievement.3":
+    "SABR 전기 프로젝트에 따르면 소프는 1913년부터 1919년까지 뉴욕 자이언츠, 신시내티 레즈, 보스턴 브레이브스에서 여섯 시즌 동안 메이저리그 야구 선수로 뛰며 모두 289경기에 출전했다.",
+  "jim-thorpe.moment.1":
+    "캔턴 단장 잭 쿠잭은 회고록에서 1917년 매실런과의 경기를 소프와 스탠 코펄 사이의 개인 대결로 묘사한다. 코펄은 필드골 두 개를 차 넣어 매실런의 6-0 승리를 이끌었다. 쿠잭은 소프가 부당하다고 여긴 거친 플레이에 화를 냈고, 2쿼터에 다쳤지만 끝까지 뛰며 누구보다 많이 공을 들고 달렸다고 쓴다.",
+  "jim-thorpe.interpretation.moment.1":
+    "이 서술은 이 프로필의 경쟁 성향 점수와 부합한다. 다만 소프의 친구이기도 했던 내부자 한 사람의 기록이다.",
+  "jim-thorpe.moment.2":
+    "샐리 젱킨스에 따르면 1912년 스톡홀름으로 가는 배에서 한 기자가 갑판 의자에 누워 있는 소프를 보았는데, 소프는 머릿속으로 멀리뛰기를 연습하는 중이라고 답했다. 미국 인디언 국립박물관이 공개한 사진에는 그가 배 갑판에서 훈련하는 모습이 담겨 있으며, 박물관의 역사가는 이를 그가 훈련을 거부했다는 이야기에 대한 반증으로 든다.",
+  "jim-thorpe.interpretation.moment.2":
+    "소프가 자신에게 도움이 될 새로운 동작을 늘 찾고 있었다는 코치 팝 워너의 말과 함께 보면, 이 일화는 이 프로필의 숙련 지향 점수 뒤에 있는 의도적인 기술 연마를 보여 주는 한 사례이다. 다만 동시대의 다른 사람들은 그가 훈련을 싫어했다고 묘사했다.",
+  "jim-thorpe.turning_point.1":
+    "1913년 1월 말 AAU의 제소가 전국적인 뉴스가 되자 소프는 여름철에 돈을 받고 야구를 했다고 인정하는 편지에 서명했다. 그의 친구는 훗날 의회 조사관에게 그 편지를 코치 팝 워너와 학교 교장이 작성했다고 진술했다. 몇 주 뒤 그는 뉴욕 자이언츠와 3년 계약을 맺었고, 1915년부터는 캔턴에서 프로 풋볼도 병행했다.",
+  "jim-thorpe.interpretation.turning_point.1":
+    "아마추어 자격 박탈은 다른 사람들이 내린 결정이었지만, 이후 두 프로 종목을 동시에 소화한 그의 행보는 이 프로필의 분야 횡단성 점수와 나란히 놓인다.",
+  /* ---------------------------------------------------------- eddy-merckx (Roster40) */
+  "eddy-merckx.achievement.1":
+    "메르크스는 1964년 세계 아마추어 도로 선수권에서 우승했고 1965년 프로로 전향했다. 1969년에는 1939년 이후 벨기에 선수로는 처음으로 투르 드 프랑스에서 우승했으며, 스포츠 일러스트레이티드의 1972년 기사는 그가 1970년과 1971년에도 다시 우승했다고 기록한다.",
+  "eddy-merckx.achievement.2":
+    "1972년 10월 25일 멕시코시티의 야외 올림픽 벨로드롬에서 메르크스는 한 시간 동안 49.431km를 달려 올레 리테르의 기록을 788m 늘렸다. 사이클리스트 매거진은 이 기록이 28년 동안 유지되었다고 전한다.",
+  "eddy-merckx.achievement.3":
+    "메르크스는 1978년 봄에 선수 생활을 마쳤고, 1980년 이탈리아의 프레임 제작자 우고 데로사의 도움을 받아 자전거 회사 에디 메르크스 사이클스를 세웠다. 사이클링 위클리에 따르면 이 회사의 자전거는 이후 세븐일레븐, 모토로라, 퀵스텝 등 프로 팀에 공급되었다.",
+  "eddy-merckx.moment.1":
+    "1971년 7월 8일 오르시에르메를레트에서 메르크스는 약 100km 동안 아무도 선두 교대를 해 주지 않는 추격 그룹을 끌고 달린 끝에 루이스 오카냐에게 8분 41초를 잃었다. 벨기에 RTBF와 라 데아슈(La DH)의 회고 기사에 따르면, 이틀 뒤 그는 몰테니 팀 동료 세 명과 함께 251km 마르세유 구간의 출발 직후부터 공격해 약 2분을 되찾았다.",
+  "eddy-merckx.interpretation.moment.1":
+    "그때까지 투르에서 겪은 가장 큰 손실 뒤에도 공격을 이어 간 이 모습은 이 프로필의 끈기 점수와 부합한다. 다만 이 구간에서 되찾은 시간은 뒤진 차이의 일부에 그쳤다.",
+  "eddy-merckx.moment.2":
+    "1972년 메르크스의 집을 찾은 스포츠 일러스트레이티드 기자는 지하 작업실에서 최대 3년까지 숙성시키는 바퀴 약 100개를 보았고, 그가 오르막, 평지, 거친 노면에 따라 안장 위치를 바꿔 가며 실험한다는 이야기를 들었다. 프레임 제작자 에르네스토 콜나고는 훗날 메르크스가 한 해에 20대가 넘는 자전거를 가져갔고 자전거가 제대로 맞을 때까지 공장을 떠나지 않았다고 회고했다.",
+  "eddy-merckx.interpretation.moment.2":
+    "이런 작업 습관은 이 프로필의 디테일 지향 점수와 나란히 놓인다. 메르크스 본인은 뒷날의 일부 조정을 1969년 트랙 사고 이후의 편안함 문제와 연결했으며, 이 프로필은 그 부상에서 어떤 결론도 끌어내지 않는다.",
+  "eddy-merckx.turning_point.1":
+    "메르크스는 1972년 아워 레코드 도전 장소로, 후원사 몰테니가 밀라노를 원했음에도 멕시코시티 벨로드롬을 택했다. 그의 마사지사 기욤 미힐스와 2015년 레메스클라(Remezcla) 기사는 밀라노와 리에주 대학의 검사, 그리고 고지대를 흉내 내기 위해 차고에서 산소통의 공기를 마시며 롤러를 탄 6주간의 준비 과정을 전한다. 메르크스도 2004년 사이클 스포트 인터뷰에서 같은 고지대 훈련을 설명한다.",
+  "eddy-merckx.interpretation.turning_point.1":
+    "단 한 시간을 위해 몇 주 동안 정해진 준비를 이어 간 과정은 이 프로필의 자기 규율 점수를 보여 주는 한 사례이며, 후원사의 뜻과 다른 장소 선택은 자율성 욕구 항목과도 관련된다.",
+  /* ---------------------------------------------------------- david-livingstone (Roster40) */
+  "david-livingstone.achievement.1":
+    "1853년부터 1856년까지 리빙스턴은 잠베지강 상류의 리냔티에서 서쪽 대서양 연안의 루안다까지 갔다가, 다시 돌아와 동쪽 인도양 연안의 켈리마네까지 여행했다. 이 여정은 마콜롤로의 지도자 세켈레투가 사람과 물자를 대 주면서 가능했고, 통역과 길잡이를 맡은 마콜롤로 동행자들에게 크게 의존했다. 동쪽으로 가는 길에 그들은 현지에서 '모시오아툰야'라 불리던 폭포로 그를 안내했고, 그는 이 폭포에 빅토리아 폭포라는 이름을 붙였다. 영국에서는 그를 대륙을 횡단한 최초의 유럽인으로 칭송했지만, 아랍과 아프리카 상인들은 이미 오래전부터 기존의 대상로를 따라 대륙을 오가고 있었다.",
+  "david-livingstone.achievement.2":
+    "1857년 11월 존 머리 출판사에서 나온 『남아프리카 선교 여행과 탐구』는 선교 기록, 여행기, 현장 과학을 한데 묶은 책이었다. 초판 1만 2천 부는 출간 전에 매진되었고, 곧이어 3만 부가 더 인쇄되었다. 이 책은 노예무역에 맞서는 수단으로 중남부 아프리카에서의 선교와 교역을 주장했으며, 그 구상은 '기독교, 상업, 문명'이라는 식민주의적 언어로 짜여 있었다.",
+  "david-livingstone.achievement.3":
+    "1858년부터 1864년까지 리빙스턴은 영국 정부의 지원을 받아 잠베지강과 그 지류를 탐사하는 원정대를 이끌었다. 원정대는 케브라바사(카보라 바사) 급류가 배로 지날 수 없음을 확인했고, 샤이어강과 니아사호의 상당 부분을 탐사했으며, 식물과 동물 표본을 큐 왕립식물원과 자연사박물관에 보냈다. 그러나 상업적 목표에는 크게 못 미쳤고, 대원들 사이의 관계가 틀어지면서 여러 명이 사임하거나 해임되었다.",
+  "david-livingstone.moment.1":
+    "리빙스턴은 1854년 5월 병든 몸으로, 교역품도 모두 써 버린 채 루안다에 도착했다. 전기 작가 블레이키에 따르면 그는 영국 해군 순양함을 타고 귀국할 수도 있었다. 그러나 그는 1854년 9월 마콜롤로 동행자들과 함께 내륙으로 돌아가는 길에 올라 1년 뒤 리냔티에 닿았고, 다시 동쪽으로 나아가 1856년 5월 켈리마네에 도착했다.",
+  "david-livingstone.interpretation.moment.1":
+    "배를 타는 대신 다시 내륙으로 향한 선택은 이 프로필의 높은 끈기 점수와 부합하며, 동행자들을 고향까지 데려다주겠다는 약속도 이 결정의 한 부분이었다.",
+  "david-livingstone.moment.2":
+    "리빙스턴은 천문 관측 기록을 케이프의 왕립 천문관 토머스 매클리어에게 보냈고, 매클리어는 이를 계산해 정리한 뒤 1854년 3월, 초기 관측은 거칠었지만 기록상 어떤 탐험가도 그만큼 정밀하게 경로를 확정한 적이 없다고 썼다. 리빙스턴 자신은 1857년 자기 관측 기록장을 '완전히 뒤죽박죽'이라고 했다. 1871~72년 헨리 모턴 스탠리는 그가 매일 저녁 꼼꼼하게 기록하는 모습을 보았고, 숫자가 빽빽이 적힌 수첩들을 묘사했다.",
+  "david-livingstone.interpretation.moment.2":
+    "천문학자와 기자의 증언은 이 프로필의 세부 지향 점수와 나란히 놓이며, 기록장에 대한 그 자신의 불평은 그 꼼꼼함이 깔끔함보다는 꾸준한 기록에 있었음을 일깨워 준다.",
+  "david-livingstone.turning_point.1":
+    "잠베지 원정은 이 강이 내륙으로 들어가는 뱃길이 될 수 있다는 기대 위에 세워져 있었다. 케브라바사 급류를 배로 지날 수 없음이 드러나자, 리빙스턴은 원정대를 북쪽 샤이어강으로 돌려 1859년 9월 니아사호에 이르렀고, 뒤에는 로부마강도 탐사했다. 그보다 앞서 1858년 원정대의 해군 장교가 사임했을 때는 그가 직접 증기선의 항해를 맡았다.",
+  "david-livingstone.interpretation.turning_point.1":
+    "핵심 전제가 무너진 뒤 원정의 방향을 바꾼 일은 이 프로필의 적응력 점수를 보여 주는 한 예가 되지만, 새로 택한 경로들 역시 그가 기대한 성과에는 미치지 못했다.",
+  /* ---------------------------------------------------------- cornelius-vanderbilt (Roster40) */
+  "cornelius-vanderbilt.achievement.1":
+    "밴더빌트는 기번스 노선에서 10년 넘게 증기선 선장으로 일한 뒤 1829년 독립해, 허드슨강과 롱아일랜드 해협에서 기존 노선과 경쟁하는 증기선 노선을 운영했다. 더 빠른 배와 더 낮은 운임으로 기존 회사들을 타협하게 만들었다. 1851년에는 니카라과를 거쳐 캘리포니아로 가는 증기선·육로 노선을 열어, 퍼시픽 메일 증기선 회사의 파나마 노선과 경쟁했다.",
+  "cornelius-vanderbilt.achievement.2":
+    "밴더빌트는 1863년부터 할렘 철도와 허드슨강 철도를, 1867년부터는 뉴욕 센트럴 철도를 장악했고, 1869년 뉴욕 센트럴을 허드슨강 철도와 합병했다. 이후 레이크쇼어 철도까지 맡아, 그의 철도망은 뉴욕에서 시카고까지 이어지는 직통 노선을 갖추게 되었다. 그의 철도는 복선화되고 강철 레일이 깔렸지만, 찰스 프랜시스 애덤스 2세 같은 동시대인들은 주식 자본을 크게 부풀린 점을 비판하기도 했다.",
+  "cornelius-vanderbilt.moment.1":
+    "1862년 3월 15일, 남부 연합의 철갑선 메리맥호가 햄프턴 로즈에서 북군 함선들을 공격한 뒤, 전쟁부는 밴더빌트에게 전보를 보내 이 배를 격침하거나 묶어 두는 데 얼마를 받겠느냐고 물었다. 그는 값을 부르는 대신 워싱턴으로 갔고, 닷새 만에 정부는 그의 가장 큰 증기선 밴더빌트호를 기증품으로 받아 그의 지휘 아래 두었으며, 배는 출항 준비를 마쳤다. 이 전보와 명령서들은 해군 공식 기록에 남아 있다.",
+  "cornelius-vanderbilt.interpretation.moment.1":
+    "값을 묻는 요청에 자기 배를 내놓는 것으로 답한 일은 이 프로필의 선제적 행동력 점수와 부합한다. 역사가 T. J. 스타일스는 해군이 앞서 같은 배의 기증 제안을 거절한 적이 있다고 전한다.",
+  "cornelius-vanderbilt.moment.2":
+    "1850~51년 무렵 니카라과 노선을 열기 위해 밴더빌트는 직접 작은 증기선을 몰고 산후안강을 거슬러 올라갔다. 1877년 『뉴욕 트리뷴』의 부고에 따르면, 배는 상류 쪽 나무에 묶은 밧줄로 끌어당기는 방식으로 카스티요 급류를 넘었다. 전기 작가 T. J. 스타일스도 그가 직접 배를 몰아 급류를 통과했다고 서술하지만, 후대의 더 극적인 이야기들은 신뢰도가 낮다.",
+  "cornelius-vanderbilt.interpretation.moment.2":
+    "급류를 직접 헤쳐 나간 일은 이 프로필의 위험 감수 점수와 나란히 놓이지만, 그 위험은 가진 것을 모두 건 도박이라기보다 자금이 충분한 사업의 일부였다.",
+  "cornelius-vanderbilt.turning_point.1":
+    "1818년, 뉴욕항에서 자기 범선들을 운영하던 밴더빌트는 적은 급여를 받고 토머스 기번스의 뉴욕-뉴브런즈윅 노선 소형 증기선의 선장을 맡았다. 훗날 그 자신은 이를 범선과의 결단적인 결별로 이야기했지만, 스타일스는 기번스의 선장이 갑자기 떠나자 그가 처음에는 임시로 고용되었고 이후에도 여러 해 동안 범선 사업을 계속했다는 사실을 밝혀냈다. 기번스 밑에서 보낸 시절은 그에게 증기 항해의 훈련장이 되었다.",
+  "cornelius-vanderbilt.interpretation.turning_point.1":
+    "일찍 증기선으로 옮겨 간 일은 이 프로필의 기회 감지 점수를 보여 주는 한 예가 되지만, 그 시점에는 선견지명만큼이나 우연도 작용했다.",
+  /* ---------------------------------------------------------- albrecht-durer (Roster40) */
+  "albrecht-durer.achievement.1":
+    "뒤러는 1500년 무렵까지 「요한 묵시록」(1498)을 포함해 종교적 주제를 다룬 대형 목판화 연작 세 가지를 완성하거나 시작했다. 1511년에는 뉘른베르크의 자기 인쇄소에서 목판화집 네 권을 펴냈고, 1513~14년에는 동판화 「기사, 죽음, 악마」, 「서재의 성 히에로니무스」, 「멜랑콜리아 I」을 제작했다.",
+  "albrecht-durer.achievement.2":
+    "뒤러는 학생을 위한 기하학·원근법 교본인 『측정술 교본』(1525)과 도시 요새화에 관한 논고(1527)를 직접 쓰고 삽화를 그렸다. 『인체 비례에 관한 네 권의 책』은 그가 세상을 떠난 1528년에 나왔으며, 친구 빌리발트 피르크하이머가 출판을 마무리했다.",
+  "albrecht-durer.achievement.3":
+    "두 번째 베네치아 체류 중 그는 그곳의 독일 상인들을 위해 「장미 화관의 축제」(1506)를 그렸다. 1526년에는 두 폭으로 된 「네 사도」를 뉘른베르크 시 참사회에 기증했고, 참사회는 그해 10월 이를 받아들였다. 이 그림은 현재 뮌헨 알테 피나코테크에 있다.",
+  "albrecht-durer.moment.1":
+    "프랑크푸르트 상인 야코프 헬러에게 보낸 뒤러의 편지(1507~09)에는 약 130플로린에 주문된 제단화의 제작 과정이 담겨 있다. 뒤러는 울트라마린 바탕을 대여섯 번 겹쳐 칠하겠다고 쓰고 200플로린을 요구했으며, 지연을 두고 헬러와 날카로운 편지를 주고받은 끝에 1509년 8월 그림을 보냈다. 남아 있는 것은 뒤러 쪽 편지뿐이며, 이 그림을 위한 습작 스물한 점이 대부분 1508년 날짜와 함께 지금도 전한다.",
+  "albrecht-durer.interpretation.moment.1":
+    "여러 겹으로 칠한 작업과 긴 준비 과정은 이 프로필의 높은 완벽주의 점수와 부합한다. 그렇게 공을 들이는 일은 \"수지가 맞지 않는다\"는 뒤러 자신의 말은 이 항목을 양면적으로 표시한 이유 가운데 하나다.",
+  "albrecht-durer.moment.2":
+    "1520년 12월 네덜란드에 머물던 뒤러는 제일란트의 지릭제이에 거대한 고래가 떠밀려 왔다는 소식을 듣고 말과 배를 타고 그곳까지 갔지만, 고래는 이미 조수에 휩쓸려 가고 없었다. 그의 일기에 이 여정이 기록되어 있다. 같은 바다에서 잡힌 바다코끼리를 그린 1521년 날짜의 소묘가 대영박물관에 있다.",
+  "albrecht-durer.interpretation.moment.2":
+    "겨울에 일주일이 넘는 길을 돌아 낯선 동물을 보러 간 일은 이 프로필의 높은 호기심 점수를 뒷받침하는 한 가지 사례가 된다.",
+  "albrecht-durer.turning_point.1":
+    "뒤러는 출간되지 않은 원고에서, 젊은 시절 베네치아 화가 야코포 데 바르바리가 비례 체계에 따라 그린 남녀 인물상을 보여 주었지만 그 원리는 설명해 주지 않았다고 회상했다. 이후 그는 비트루비우스를 읽고 스스로 인체를 측정하고 구성하기 시작했으며, 1500년 날짜가 적힌 여성 비례 소묘가 남아 있다. 이 작업은 평생 대부분 이어져 『인체 비례에 관한 네 권의 책』으로 이어졌다.",
+  "albrecht-durer.interpretation.turning_point.1":
+    "공개되지 않은 방법을 고전 문헌과 자신의 측정으로 재구성하려 한 일은 이 프로필의 체계적 추상화 점수와 나란히 놓인다. 친구 요아힘 카메라리우스는 훗날 그가 회화를 규칙과 원리 위에 올려놓았다고 묘사했다.",
+  /* ---------------------------------------------------------- hans-christian-andersen (Roster40) */
+  "hans-christian-andersen.achievement.1":
+    "안데르센은 1835년 '어린이에게 들려주는' 동화 첫 소책자를 펴냈고, 1843년부터는 『새 동화』, 1852년부터는 『이야기』라는 제목으로 1872년까지 새 모음집을 계속 냈다. 민담을 다시 쓴 작품과 그가 직접 지어낸 작품 가운데 「인어 공주」, 「벌거벗은 임금님」, 「미운 오리 새끼」가 있다. 덴마크 비평가 게오르그 브란데스는 1869년 평론에서 이 동화들의 문장이 아이에게 말하는 구어를 어떻게 옮겨 놓았는지 분석했다.",
+  "hans-christian-andersen.achievement.2":
+    "동화 외에도 그는 『즉흥 시인』(1835), 『O.T.』(1836), 『그저 바이올린 연주자』(1837) 등의 장편소설을 썼으며, 이 작품들은 출간 직후 독일어로 번역되었다. 또한 『홀멘 운하에서 아마게르 동쪽 끝까지의 도보 여행』(1829)에서 『시인의 바자』(1842), 『스페인에서』(1863)에 이르는 여행기를 썼다.",
+  "hans-christian-andersen.achievement.3":
+    "안데르센은 레뷰와 보드빌, 희곡 『물라토』(1840), 코펜하겐 카지노 극장을 위한 연극 등 무대 작품 약 30편을 쓰거나 각색했다. 안데르센 연구자 요한 데 뮐리우스는 J. P. E. 하르트만의 오페라 『어린 키르스텐』(1846)에 그가 붙인 대본이 일종의 덴마크 국민 오페라가 되었다고 평가하며, 안데르센은 1856년 프란츠 리스트를 설득해 바이마르에서 이 오페라를 올리게 했다.",
+  "hans-christian-andersen.moment.1":
+    "전기 작가 R. 니스벳 베인이 인용한 회고록에서, 시인이자 민속학자인 J. M. 틸레는 1821년 무렵 초라한 옷차림의 낯선 청년이 문을 두드리고 예고 없이 자신의 서재에 들어와 절을 하고는 무대에 관해 직접 쓴 시를 낭송해도 되겠느냐고 물었던 일을 떠올렸다. 청년은 대답을 기다리지 않고 시를 낭송한 뒤 여러 희곡의 장면을 모든 배역을 혼자 맡아 연기하고 떠났다. 틸레는 그날 저녁에야 그 방문객이 한스 크리스티안 안데르센이라는 것을 알았다.",
+  "hans-christian-andersen.interpretation.moment.1":
+    "초대받지 않은 작가의 서재에 들어가 그 자리에서 무대를 차지한 일은, 이 프로필의 사회적 자기주장 점수에 반영된 적극성을 보여 주는 이른 시기의 한 예다. 다만 이 무렵 그런 적극성은 조롱을 사기도 했다.",
+  "hans-christian-andersen.moment.2":
+    "안데르센은 왕립극장 검열관이 작품이 아니라 자기 이름을 보고 판단한다고 여겨, 1843년 11월 단막극 『왕은 꿈꾼다』를, 1845년 1월에는 희극 『새 산실(産室)』을 이름을 밝히지 않고 제출했다. 두 작품 모두 채택되어 무대에 올랐다. 전기 작가 R. 니스벳 베인에 따르면 그 희극의 작가를 알아챈 사람은 거의 없었고, 안데르센은 공연이 이어지는 동안 비밀을 지켰다.",
+  "hans-christian-andersen.interpretation.moment.2":
+    "막혀 있다고 본 길을 같은 방식으로 다시 밀어붙이기보다 우회로를 찾아낸 이 일은 이 프로필의 자원 활용력 점수와 부합한다.",
+  "hans-christian-andersen.turning_point.1":
+    "1822년 중반 왕립극장은 안데르센을 성악 학교에서 내보냈고, 그의 희곡 한 편을 공연할 수 없다며 돌려보냈다. 그는 곧바로 다른 희곡 『알프솔』을 보냈다. 극장 이사 K. L. 라베크는 이 작품이 무대에 맞지 않는다고 보면서도 작가가 교육을 받도록 도와야 한다고 제안했고, 요나스 콜린이 이 사정을 국왕 프레데리크 6세에게 알렸다. 그해 가을 안데르센은 콜린을 후견인으로 삼아 국비로 슬라겔세의 라틴어 학교에 보내졌다.",
+  "hans-christian-andersen.interpretation.turning_point.1":
+    "거절당한 직후 새 희곡을 다시 보낸 일은 이 프로필의 끈기 점수와 나란히 놓인다. 다만 전환 자체는 극장 이사들과 콜린의 결정에서 나왔으며, 이로써 그는 무대에 설 자리를 좇던 삶에서 정식 교육을 받는 삶으로 옮겨 갔다.",
+  /* ---------------------------------------------------------- auguste-rodin (Roster40) */
+  "auguste-rodin.achievement.1":
+    "1885년 칼레 시가 시민 한 명의 조각상을 의뢰하자, 로댕은 같은 보수로 1347년의 인질 여섯 명 모두를 하나의 군상으로 만들겠다고 제안했다. 실물 크기 석고상은 1889년 파리에서 전시되었고, 청동 기념비는 1895년 6월 3일 칼레에서 제막되었다.",
+  "auguste-rodin.achievement.2":
+    "1880년 프랑스 정부는 건립 예정이던 장식미술관을 위해 로댕에게 청동 문 「지옥의 문」을 의뢰했다. 그는 여러 해 동안 이 작업을 이어 갔으며, 로댕 미술관은 이를 위해 만들어진 인물상과 군상이 200점이 넘는다고 집계한다. 그중 상당수는 이후 독립된 작품으로 발전했다.",
+  "auguste-rodin.achievement.3":
+    "1916년 로댕은 파리 비롱 저택에 미술관을 세우도록 자신의 작품과 소장품, 복제권을 프랑스 정부에 기증했다. 로댕 미술관은 그가 세상을 떠난 지 2년 뒤인 1919년 그곳에서 일반에 공개되었다.",
+  "auguste-rodin.moment.1":
+    "1891년 18개월 안에 발자크 조각상을 완성하는 조건으로 의뢰를 받은 로댕은 투렌 지방을 찾고, 소설가의 초상과 묘사를 연구하며, 나체와 옷을 입힌 습작을 연이어 만들었다. 1894년에는 기한 없는 새 계약을 받아들이며 오직 이 인물상을 최대한 완벽하게 만드는 것만이 관심사라고 썼다. 석고상은 1898년에 전시되었고, 의뢰 단체는 이를 거부했다.",
+  "auguste-rodin.interpretation.moment.1":
+    "여러 해에 걸친 습작과 스스로 포기한 기한은 이 프로필의 높은 완벽주의 점수와 맞닿아 있으며, 이 특성은 양면적인 것으로 표시되어 있다. 같은 기록에 의뢰인들과의 긴장된 관계도 남아 있기 때문이다.",
+  "auguste-rodin.moment.2":
+    "비서였던 앤서니 루도비치는 1906년 당시의 메모를 바탕으로, 그해 7월 파리에서 캄보디아 왕실 무용단의 공연을 본 로댕이 그들의 움직임을 자세히 묘사했다고 회고한다. 무용단이 마르세유로 떠나자 로댕은 뒤따라가 며칠 동안 국왕과 무용수들을 그렸다.",
+  "auguste-rodin.interpretation.moment.2":
+    "예순다섯의 나이에 낯선 춤의 전통을 그리러 먼 길을 간 일은, 자신이 수집한 고대 유물을 새 작품에 활용한 일과 더불어 이 프로필에 매겨진 호기심의 한 예가 된다.",
+  "auguste-rodin.turning_point.1":
+    "1877년 파리 살롱에 「청동 시대」가 전시되자, 비평가들은 이 작품이 살아 있는 모델에서 직접 본을 뜬 것이라고 주장했다. 로댕은 미술 행정 당국에 청원하고 모델의 석고 본과 사진을 비교 자료로 제출했으며, 기성 조각가들이 그를 옹호하는 서한을 보낸 뒤인 1880년에야 혐의를 벗었다. 같은 해 정부는 이 작품을 사들였다.",
+  "auguste-rodin.interpretation.turning_point.1":
+    "작은 헛간 작업실에서 새 인물상을 계속 빚으면서 3년에 걸친 해명을 이어 간 일은 이 프로필에 매겨진 끈기와 나란히 놓인다. 로댕 미술관은 이 논란이 그에게 주목을 모았다고도 적고 있으며, 「지옥의 문」 의뢰는 1880년에 이어졌다.",
+  /* ---------------------------------------------------------- clara-schumann (Roster40) */
+  "clara-schumann.achievement.1":
+    "1837년 2월과 3월 베를린 연주회에서 열일곱 살의 클라라 비크는 베토벤의 「열정」 소나타 Op. 57을 처음에는 두 악장, 다음에는 전곡으로 연주했다. 플로렌스 메이는 당시 신문들을 조사했지만 그 이전의 공개 연주 기록은 찾지 못했다. 첫 연주회에 대한 베를린의 한 평은 그녀가 프로그램 전체를 암보로 연주했다고 적었다. 1837~38년 빈에 머무는 동안 그녀는 황실 및 왕실 궁정 실내악 연주자 칭호를 받았다.",
+  "clara-schumann.achievement.2":
+    "1830년 라이프치히 게반트하우스에서 독주자로 데뷔한 뒤 1891년 마지막 공개 연주회에 이르기까지, 그녀는 로베르트 슈만의 피아노 작품을 꾸준히 연주했고 플로렌스 메이는 「헨델 변주곡」 Op. 24를 비롯해 그녀가 공개 초연한 요하네스 브람스의 여러 작품을 꼽는다. 1856년부터는 영국을 열아홉 차례 방문했다.",
+  "clara-schumann.achievement.3":
+    "1878년 그녀는 프랑크푸르트에 새로 문을 연 호흐 음악원의 수석 피아노 교사가 되었다. 딸 마리와 오이게니가 조교를 맡았고, 그녀는 1892년까지 그곳에서 가르쳤다. 같은 시기에 브라이트코프 운트 헤르텔에서 나온 로베르트 슈만 전집(1879~86)의 편집을 책임졌다.",
+  "clara-schumann.moment.1":
+    "학교를 마친 뒤 어머니에게 배운 딸 오이게니는 베토벤 소나타가 모든 수업의 중심이었으며, 어머니가 '아주 작은 부정확함도 그냥 넘기지 않았다'고 회고했다. 어머니는 베토벤이 다른 뜻이었다면 점 하나, 붙임줄 하나까지 굳이 적어 두었겠느냐고 물었다. 운지법과 해설을 덧붙인 악보도 좋아하지 않았다.",
+  "clara-schumann.interpretation.moment.1":
+    "딸의 이 회고는 빈의 비평가 에두아르트 한슬리크가 1856년과 1858년 그녀의 연주회에서 들은 것과 일치하며, 이 프로필에 매겨진 악보에 대한 세심한 주의를 보여 주는 한 예가 된다.",
+  "clara-schumann.moment.2":
+    "한슬리크는 1856년 그녀의 빈 연주회를 평하며, 베토벤의 소나타 Op. 101, 멘델스존의 「엄격 변주곡」, 슈만의 「교향적 연습곡」을 연주회에서 연주하는 것은 '전례가 없는' 일이라고 썼다. 그는 그녀가 진지한 음악만 연주한다고 적었지만, 그 연주가 깊이 느낀 것이라기보다 깊이 이해한 것으로 들린다는 아쉬움도 함께 밝혔다.",
+  "clara-schumann.interpretation.moment.2":
+    "연주회 프로그램에 진지한 작품과 가벼운 기교적 소품을 섞는 일이 흔하던 시절에, 그녀의 선곡은 이 프로필에 매겨진 독립적 사고와 맞닿아 있다. 이 점수는 성인이 된 뒤의 프로그램만을 근거로 한다. 어린 시절의 레퍼토리는 아버지가 골랐기 때문이다.",
+  "clara-schumann.turning_point.1":
+    "1839년 1월, 열아홉 살의 클라라 비크는 처음으로 아버지 없이 파리 연주 여행을 떠났다. 그녀의 편지를 바탕으로 한 플로렌스 메이의 서술에 따르면, 그녀는 파리에서 귀국하라는 지인들의 권유를 거절하고, 함께 여행한 동행인을 돌려보낸 뒤 친구 에밀리 리스트의 가족과 함께 지내기로 했다. 아버지가 법으로 필요한 결혼 동의를 거부하자 이 분쟁은 법원에서 판가름 났고, 그녀는 1840년 9월 로베르트 슈만과 결혼했다.",
+  "clara-schumann.interpretation.turning_point.1":
+    "열아홉 살에 외국에서의 연주 시즌을 스스로 꾸려 간 일은, 1878년 프랑크푸르트 교직을 받아들이기 전에 내건 조건들과 더불어 이 프로필의 자율성 점수와 맞닿아 있다. 메이는 이 파리 여행을 장래 가정을 위한 돈을 벌려는 바람과도 연결 짓는다.",
+  /* ---------------------------------------------------------- ivan-pavlov (Roster40) */
+  "ivan-pavlov.achievement.1":
+    "소화 생리학 연구로 1904년 노벨 생리학·의학상을 받았다. 시상 연설은 같은 동물을 오랜 기간 연구할 수 있게 한 그의 수술 기법을 특히 언급했다.",
+  "ivan-pavlov.achievement.2":
+    "1902년부터 실험실의 연구를 개의 이른바 '정신적' 분비를 객관적으로 연구하는 쪽으로 돌렸다. 이것이 1936년 세상을 떠날 때까지 이어진 조건반사 연구다.",
+  "ivan-pavlov.achievement.3":
+    "30년 넘게 상트페테르부르크의 실험의학연구소와 군의학아카데미에서 생리학 실험실을 이끌었다. 제자들의 기록에 따르면 한 번에 수십 명의 연구자가 그의 실험실을 거쳐 갔다.",
+  "ivan-pavlov.moment.1":
+    "제자 보리스 밥킨에 따르면, 1893~94년 무렵 파블로프가 신경을 보존한 분리 위낭 수술을 처음 시도했을 때 수술은 열아홉 번 실패했다. 스무 번째 개에서 성공했고, 이 과제를 맡은 학생은 학위논문을 마칠 수 있었다.",
+  "ivan-pavlov.interpretation.moment.1":
+    "이 일화는 어려운 수술에서 실패가 거듭되어도 시도를 멈추지 않았다는 점에서, 이 프로필의 끈기 점수를 보여 주는 한 예다.",
+  "ivan-pavlov.moment.2":
+    "공동 연구자 V. V. 사비치의 회고에 따르면, 파블로프는 췌장 분비가 오로지 신경에 의해 조절된다는 실험실의 견해에 도전한 베일리스와 스탈링의 세크레틴 실험을 재현해 보라고 그에게 부탁했다. 눈앞에서 결과가 확인되자 파블로프는 30분쯤 자리를 비웠다가 돌아와 \"물론 그들이 옳다\"고 말했다.",
+  "ivan-pavlov.interpretation.moment.2":
+    "이 일화는 이 프로필의 신념 수정 점수와 나란히 놓인다. 다만 밥킨이 파블로프가 생각을 바꾸기까지 많은 증거를 요구했다고도 기록하고 있어 점수는 중간 수준으로 두었다.",
+  "ivan-pavlov.turning_point.1":
+    "1904년 12월 노벨 강연에서 파블로프는 수상 대상인 소화 연구만이 아니라 새로운 연구 방향에도 많은 시간을 할애했다. 그는 개의 '정신적' 타액 분비를 전적으로 객관적인 관점에서 다루기로 한 결정을 설명했다.",
+  "ivan-pavlov.interpretation.turning_point.1":
+    "이 선택은 이 프로필의 독립적 사고 점수와 맞닿아 있다. 갠트는 셰링턴과 티거슈테트 같은 동료들이 뒤에 이 새 연구에 신중하라고 권했지만 그가 연구를 계속했다고 기록한다.",
+  /* ---------------------------------------------------------- santiago-ramon-y-cajal (Roster40) */
+  "santiago-ramon-y-cajal.achievement.1":
+    "신경계 구조에 관한 연구로 카밀로 골지와 함께 1906년 노벨 생리학·의학상을 공동 수상했다. 골지는 자신의 노벨 강연에서 신경세포가 연결되는 방식에 대한 카할의 견해에 동의하지 않는다고 밝혔다.",
+  "santiago-ramon-y-cajal.achievement.2":
+    "1888년부터 그는 신경세포가 연속된 그물망을 이루는 것이 아니라, 서로 떨어진 단위로서 접촉을 통해 신호를 주고받는다고 주장했다. 1891년에는 신호가 각 세포 안에서 가지돌기와 세포체에서 축삭 쪽으로 한 방향으로 흐른다는 가설도 내놓았다.",
+  "santiago-ramon-y-cajal.achievement.3":
+    "1889년부터 1913년 사이에 1903년의 환원 질산은법을 비롯한 여러 염색법과 그 변형을 개발했다. 그가 남긴 약 4,500장의 표본과 거의 모두 직접 그린 2,000점 가까운 과학 그림이 마드리드의 카할 연구소에 남아 있다.",
+  "santiago-ramon-y-cajal.moment.1":
+    "1889년 10월 카할은 자신의 표본과 현미경을 들고 베를린에서 열린 독일 해부학회 학술대회에 참석했다. 현장에 있던 아르튀르 반 게후흐텐은 훗날, 그가 회의적인 미소 속에 거의 홀로 서 있다가 알베르트 폰 쾰리커를 현미경 앞으로 데려갔다고 회고했다. 몇 달 만에 쾰리커는 그의 발견을 확인하는 논문을 발표했다.",
+  "santiago-ramon-y-cajal.interpretation.moment.1":
+    "논문이 읽히기를 기다리지 않고 가장 회의적인 학자들에게 직접 표본을 보여 주기로 한 선택은 먼저 나서서 행동하는 강한 습관과 맞닿아 있다.",
+  "santiago-ramon-y-cajal.moment.2":
+    "1918~20년 무렵 제자 피오 델 리오 오르테가는 카할이 돌기가 없다고 기술한 세포들에 실제로는 돌기가 있다는 것을 발견했다. 리오 오르테가 본인의 기록에 따르면, 카할은 그 결론이 지나치게 대담하다며 발표를 권하지 않았다. 이후 그 발견이 확인되자 카할은 회고록에서 이를 다른 제자의 공으로 돌렸다.",
+  "santiago-ramon-y-cajal.interpretation.moment.2":
+    "이 이야기는 당사자인 제자의 기록이며, 카할이 실제로 견해를 수정한 다른 일화들과 나란히 놓인다. 그의 프로필에서 생각을 바꾸는 성향이 중간 부근에 놓인 이유 가운데 하나다.",
+  "santiago-ramon-y-cajal.turning_point.1":
+    "1887년 신경학자 루이스 시마로는 카할에게 골지의 은 염색법으로 물들인 뇌 절편을 보여 주었다. 카할이 글로만 접하고 쓸모없다고 여겼던 기법이었다. 그는 곧바로 이 방법을 받아들여, 신경섬유가 더 잘 염색되는 어린 동물과 배아에 적용했다. 첫 주요 발견은 1888년에 나왔다.",
+  "santiago-ramon-y-cajal.interpretation.turning_point.1":
+    "한때 제쳐 두었던 방법을 다시 받아들이고 재료 선택으로 그것을 다듬어 낸 일은, 그의 연구 전반에서 보이는 직접 해 보고 변형해 보는 방식을 보여 주는 한 예다.",
+  /* ---------------------------------------------------------- john-snow (Roster40) */
+  "john-snow.achievement.1":
+    "1849년 그는 콜레라가 나쁜 공기가 아니라 앞선 환자에게서 나온 물질을 삼키면서, 대개 오염된 물을 통해 퍼진다고 주장하는 글을 발표했다. 1855년에 크게 보강한 개정판에는 런던 시내의 하수로 오염된 템스강 물을 끌어 쓰는 회사와 더 상류의 물을 쓰는 회사, 두 남런던 상수도 회사 고객들의 콜레라 사망을 집집마다 비교한 조사가 더해졌다.",
+  "john-snow.achievement.2":
+    "1854년 소호의 브로드가 콜레라 발생에 대한 그의 조사는 동네 공용 펌프를 지목했다. 그와 부목사 헨리 화이트헤드가 참여한 교구 위원회는 1855년 이 발생이 '어떤 방식으로든' 그 우물물과 관련이 있다고 결론지었지만, 같은 해 중앙보건위원회의 과학조사위원회는 그의 설명을 받아들이지 않았다.",
+  "john-snow.achievement.3":
+    "1847년부터 흡입기를 고안하고 에테르와 이어 클로로포름에 관한 실용적인 연구를 발표해, 런던에서 가장 많이 찾는 마취의 가운데 한 사람이 되었다. 자신이 시행한 모든 마취를 사례 기록으로 남겼으며, 1853년과 1857년 빅토리아 여왕의 두 차례 출산 때 클로로포름을 투여했다.",
+  "john-snow.moment.1":
+    "브로드가 콜레라가 발생한 지 일주일쯤 지난 1854년 9월 7일 저녁, 스노는 교구 구빈위원회에 발언 기회를 청해 펌프를 가리키는 자신의 조사 결과를 설명했다. 이튿날 펌프 손잡이가 제거되었다. 그러나 그 자신의 수치와 뒤에 부목사 헨리 화이트헤드가 낸 수치 모두, 새 환자가 이미 그 전부터 줄고 있었음을 보여 준다.",
+  "john-snow.interpretation.moment.1":
+    "공식 직책도 없이, 그의 이론을 믿는 사람이 거의 없던 때에 자신이 모은 증거를 들고 지역 당국을 찾아간 일은 먼저 나서서 행동하는 성향을 높게 본 이 프로필의 해석과 맞닿아 있다.",
+  "john-snow.moment.2":
+    "1855년 3월 스노는 제조업자들을 대신해 의회 위원회에 나가, 뼈 삶는 일 같은 업종에서 나오는 악취 자체가 유행병을 일으키지는 않는다고 증언했다. 적대적인 질문이 이어지자 그는 그런 업종을 특별히 연구한 적은 없다고 인정했다. 『랜싯』은 두 차례의 신랄한 사설로 응수했고, 그중 하나는 그의 증언을 과학이 아닌 '외골수의 독단'이라며 깎아내렸다.",
+  "john-snow.interpretation.moment.2":
+    "여론이 반기지 않는 편에 서서 압박 속에서도 입장을 지킨 이 일은 논쟁을 피하지 않는 그의 태도를 보여 주는 한 예다. 동시에, 그가 때로 증거가 감당할 수 있는 것보다 논증을 더 밀어붙였다는 친구 리처드슨의 평가와도 나란히 놓인다.",
+  "john-snow.turning_point.1":
+    "1846년 12월 에테르 마취 소식이 런던에 전해졌지만 초기 결과는 들쭉날쭉했다. 친구 B. W. 리처드슨에 따르면, 스노는 문제가 증기를 투여하는 방식에 있다고 보고 개선된 흡입기를 만들어 동물 실험을 거친 뒤 런던의 병원들에서 마취를 맡게 되었다. 얼마 지나지 않아 외과의들이 그를 꾸준히 찾으면서, 그는 어렵던 일반 개업의 생활에서 벗어났다.",
+  "john-snow.interpretation.turning_point.1":
+    "새로운 기법을 그대로 받아들이지 않고 직접 실험하고 기구를 만들어 대응한 일은, 이후 다른 마취제 연구에서도 이어지는 그의 손수 해 보는 실험 방식을 잘 보여 준다.",
+  /* ---------------------------------------------------------- maria-sibylla-merian (Roster40) */
+  "maria-sibylla-merian.achievement.1":
+    "1679년과 1683년에 유럽 애벌레에 관한 두 권의 책을 펴냈다. 조사와 집필, 그림을 모두 직접 했고, 첫 권의 동판도 손수 부식 동판화로 새겼다. 각 도판에는 곤충의 알과 애벌레, 번데기, 성충이 그 애벌레가 먹던 식물을 중심으로 배치되어 있다.",
+  "maria-sibylla-merian.achievement.2":
+    "그의 『수리남 곤충의 변태』(암스테르담, 1705)에는 수리남의 곤충과 여러 동물을 먹이 식물 위에 그린 대형 도판 60점이 실려 있다. 서문에서 그는 거의 모든 것을 직접 관찰하고 그렸으며, 몇 가지만 원주민 정보 제공자의 증언에 따라 덧붙였다고 밝혔다. 식물에는 현지 이름을 그대로 쓰고, 식물학자 카스파르 코멜린이 붙인 라틴어 이름을 함께 실었다.",
+  "maria-sibylla-merian.achievement.3":
+    "현재 상트페테르부르크에 남아 있는 그의 연구 노트는 번호를 매긴 기록과 양피지에 실물 크기로 그린 작은 그림을 짝지어 놓았다. 그가 열세 살이던 1660년으로 날짜를 적은 사육 시도로 시작해 1710년의 기록까지 이어진다. 1711년에 그를 찾은 방문객은 실물을 보고 양피지에 그린 식물 그림을 묶은 두꺼운 책도 보았다.",
+  "maria-sibylla-merian.moment.1":
+    "그가 기른 애벌레 가운데 상당수는 성충이 되기 전에 죽거나 기생충에게 희생되었다. 생물학자 케이 에서리지가 그의 기록을 분석한 바에 따르면, 그는 다음 해에 새 애벌레로 다시 시작했고, 한 생활사를 끝까지 확인하는 데 밤나방류 두 종은 각각 4년, 산누에나방류 한 종은 3년이 걸렸다.",
+  "maria-sibylla-merian.interpretation.moment.1":
+    "실패한 사육에 해마다 다시 도전한 일은 그의 프로필에서 높게 나타난 끈기와 맞닿아 있다. 다만 세부 내용은 주로 그 자신의 기록에서 나온 것이다.",
+  "maria-sibylla-merian.moment.2":
+    "1711년 2월 수집가 차하리아스 콘라트 폰 우펜바흐가 암스테르담의 그를 찾아왔을 때, 그는 메리안이 애벌레 책의 동판을 모두 직접 새겼다고 적었다. 메리안은 자신이 손수 채색한 수리남 책 한 부를 보통 가격인 15휠던이 아니라 45휠던에 그에게 팔았다. 그의 편지들을 보면 그는 이 책을 예약 구독으로 자금을 마련해 펴냈고, 수리남에서 온 표본을 수집가들에게 팔기도 했다.",
+  "maria-sibylla-merian.interpretation.moment.2":
+    "판화 제작과 채색, 판매까지 스스로 해낸 일은 연구를 자립적으로 꾸려 간 방식에서 그의 프로필이 읽어 내는 수완을 보여 주는 한 예다.",
+  "maria-sibylla-merian.turning_point.1":
+    "암스테르담에서 그는 성충 표본만 있을 뿐 그 곤충들이 어떻게 자라는지는 알 수 없는 열대 곤충 수집품들을 보았다. 1699년 6월, 쉰두 살의 그는 작은딸과 함께 네덜란드 식민지 수리남으로 떠나 1701년 6월까지 머물렀고, 더위 때문에 계획보다 일찍 돌아왔다. 그의 책에는 그를 위해 식물을 캐고, 숲에 길을 내고, 식물의 쓰임새를 알려 준 노예와 원주민들이 언급되어 있다.",
+  "maria-sibylla-merian.interpretation.turning_point.1":
+    "누가 시킨 일도 아닌데 이 곤충들의 생활사를 직접 관찰하러 나선 일은, 그의 프로필에서 먼저 나서서 행동하는 성향을 높게 본 해석과 나란히 놓인다. 동시에 그 작업은 수리남 사람들의 노동과 지식에 기대고 있었다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

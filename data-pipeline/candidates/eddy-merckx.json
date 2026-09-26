@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "eddy-merckx",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Eddy Merckx",
+    "aliases": [
+      "Edouard Louis Joseph Merckx"
+    ],
+    "wikidataId": "Q103756",
+    "birthYear": 1945,
+    "isLiving": true,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic"
+    ],
+    "tagIds": [
+      "competitor",
+      "detail_oriented",
+      "leader"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_merckx_wikidata",
+      "kind": "wikidata",
+      "title": "Eddy Merckx (Q103756) -- identity verified live via the wbgetentities API (2026-09-26): label 'Eddy Merckx', description 'Belgian cyclist (born 1945)', P569 17 Jun 1945, no P570, citizenship Belgium (Q31), instance of human, occupation sport cyclist (Q2309784), nl alias 'Edouard Louis Joseph \"Eddy\" Merckx', fr aliases 'Le Cannibale', 'L'Ogre de Tervuren', ko label '에디 메르크스' (ko aliases '에디 먹스'), kowiki sitelink '에디 메르크스', P18 'Eddy Merckx Molteni 1973.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q103756"
+    },
+    {
+      "id": "src_merckx_cw_abraham2016",
+      "kind": "press",
+      "title": "Richard Abraham, 'Eddy Merckx: the man behind the legend', Cycling Weekly (2016 feature from an interview at the Eddy Merckx Cycles factory, Brussels) -- journalist's feature (non-self framing) with Merckx's own quotations (self). Non-self content used: the 1969 Tour of Flanders episode (manager Guillaume Driessens drove alongside in the team car shouting at him to stop his attack with about 45 miles to go; contemporaneous Cycling report quoted), the 1969 Mourenx stage account, the sidebar on his bike tinkering and the 1980 founding of the bicycle company with Ugo De Rosa's help, and current company boss Rob Beset's remark. Fetched with curl and read in full; health passages (2014 heart operation, 1969 Blois injuries as cause) are NOT used as evidence.",
+      "url": "https://www.cyclingweekly.com/news/latest-news/eddy-merckx-the-man-behind-the-legend-205896"
+    },
+    {
+      "id": "src_merckx_cyclist_spender",
+      "kind": "press",
+      "title": "James Spender, 'From the archive: In conversation with Eddy Merckx: \"Psychology is important in racing. He never beat me.\"', Cyclist magazine (interview c.2019, republished online) -- mainly SELF (Merckx's own recollections of the 1972 Giro against Fuente, the 1969 Mourenx attack, Savona 1969, giving criterium money to team-mates, 1975) plus two non-self secondary retellings: Graeme Fife's 'Inside the Peloton' account of Guerrino Tosello's on-bike microphone question to Merckx on stage 6 of the 1972 Giro, and Richard Moore's (Bicycling) account that after the 1975 Puy de Dome stage Merckx went back down with a gendarme to identify the spectator who punched him and pressed charges. Fetched with curl and read in full; the Blois crash and 1975 injury passages are not used.",
+      "url": "https://www.cyclist.co.uk/in-depth/from-the-archive-in-conversation-with-eddy-merckx"
+    },
+    {
+      "id": "src_merckx_cyclesport2004",
+      "kind": "press",
+      "title": "'Eddy Merckx interview', Cycle Sport special issue 2004 (republished by Cycling Weekly 2010; interviewer unnamed on the page) -- long SELF interview (the 1966 move from Solo-Superia to Peugeot after Van Looy's treatment, lessons from Tom Simpson, 1972 Hour Record preparation with sports doctors and a home trainer with an oxygen mask, his view that a racer races to win, reconciliation with Freddy Maertens) containing one NON-SELF firsthand item: team-mate Patrick Sercu told the magazine that Merckx took on all the negotiations to set up his final team so that his team-mates would be paid for another year, and the interviewer notes he employed former team-mates at his bike factory. Fetched with curl and read in full; the Blois back-injury, pain and illness passages are NOT used.",
+      "url": "https://www.cyclingweekly.com/news/latest-news/eddy-merckx-interview-59823"
+    },
+    {
+      "id": "src_merckx_si_underwood1972",
+      "kind": "press",
+      "title": "John Underwood, 'The Majesty of Monsieur Merckx', Sports Illustrated, 24 Jul 1972 (SI Vault; read via the Wayback Machine copy because the live Vault URL returned 404) -- CONTEMPORANEOUS journalist's feature (non-self) reporting from the spring-1972 Tour of Flanders weekend and a visit to Merckx's home. Carries FIRSTHAND statements of his manager Jean Van Buggenhout (subject-affiliated: before a race he goes to his mechanics again and again to check; trains 250-300 days a year; practised two weeks for a televised charity basketball match), of Les Sports editor Theo Van Griethuysen (self-declared 'Merckxist', partisan: 'he is the boss... not Molteni, not the coach'; can be very hard with team-mates 'for the discipline of the team'; did not protest after Eric De Vlaeminck grabbed his jersey in Liege-Bastogne-Liege 1970), quotations from rivals Louison Bobet ('almost too professional... interested only in cycling, and in winning') and Jacques Anquetil ('must win all the time... by five or six minutes'; 'enjoys a fight'), an observer's account of his impassive reply after losing minutes at Orcieres-Merlette in the 1971 Tour and his attack the next day, the Col de Mente crash (he looked to see if Ocana was all right, then rode on), and the writer's own observation of his home workshop (100 wheels curing, drilling holes, experimenting with saddle positions by terrain) with Merckx's own words on seat angle (self). Also states that after the 1969 Giro case he demanded a urine test after each day of that year's Tour. Fetched with curl and read in full; the back-injury, Blois and private-life passages are not used.",
+      "url": "https://web.archive.org/web/20240721171122/https://vault.si.com/vault/1972/07/24/the-majesty-of-monsieur-merckx"
+    },
+    {
+      "id": "src_merckx_inrng_review2012",
+      "kind": "press",
+      "title": "The Inner Ring (blog), 'Book review: Merckx, Half Man Half Bike', 21 Mar 2012 -- secondary REVIEW (non-self) summarising William Fotheringham's 2012 biography: that Merckx attacked to enlarge an already large lead in case of a later puncture or crash, and that he was constantly tinkering with his bike, adjusting saddle height mid-race or demanding a frame be flown to Switzerland to race on the next day. Counted only as a weak retelling of Fotheringham (the book itself is a restricted lending copy on the Internet Archive and was NOT read). Fetched with curl and read in full.",
+      "url": "https://inrng.com/2012/03/merckx-half-man-half-bike-book-review/"
+    },
+    {
+      "id": "src_merckx_dh_marseille2017",
+      "kind": "press",
+      "title": "'Marseille fut le theatre de l'attaque la plus folle du Tour lancee par Eddy Merckx', La DH / Les Sports+ (Belgian daily), 22 Jul 2017 (French, unsigned; translated by the researcher) -- journalist's retrospective (non-self, secondary, drawing on L'Equipe and period quotations) of stage 12 of the 1971 Tour (10 Jul 1971): two days after losing 8:42 at Orcieres-Merlette, Merckx and Molteni team-mates Wagtmans, Huysmans and Stevens attacked from the start with 251 km to go; he was furious with Stevens, who had slacked on the rest day, urged on his team-mates and berated the breakaway companions; Tour director Jacques Goddet's L'Equipe comment and Ocana's remark are quoted; the Col de Mente attacks and crash are summarised. Fetched with curl and read in full.",
+      "url": "https://www.dhnet.be/sports/cyclisme/tour-de-france/2017/07/22/marseille-fut-le-theatre-de-lattaque-la-plus-folle-du-tour-lancee-par-eddy-merckx-MBAQTPPM7REFPHTIONARZIPQ24/"
+    },
+    {
+      "id": "src_merckx_rtbf_1971",
+      "kind": "press",
+      "title": "'Tour de France 1971 : Orcieres-Merlette, le plus grand revers d'Eddy Merckx et le point de depart de sa revolte', RTBF Actus (Belgian public broadcaster), July 2026 (French, unsigned; translated by the researcher) -- broadcaster's retrospective (non-self, secondary) of the 1971 Tour: at Orcieres-Merlette (8 Jul) he pulled a group of about ten riders for some 100 km without anyone taking a turn and on French TV at the finish acknowledged Ocana's superiority (his own words, self); the 10 Jul Marseille attack from the start; after Ocana's crash on the Col de Mente he refused to put on the yellow jersey and told RTBF journalist Theo Mathy that evening he did not know whether he would continue and would rather have finished second than win that way (archive quotation, self), before a French directeur sportif talked him round (Mathy's account). Fetched with curl and read in full.",
+      "url": "https://www.rtbf.be/article/tour-de-france-1971-apres-sa-plus-grande-defaite-eddy-merckx-boucle-une-etape-avec-deux-heures-d-avance-sur-le-programme-11225697"
+    },
+    {
+      "id": "src_merckx_rtbf_bruyere",
+      "kind": "press",
+      "title": "'Joseph Bruyere, le fidele lieutenant d'Eddy Merckx, revient sur ses 3 victoires sur le Nieuwsblad', RTBF Actus (interview with Bruyere at home, c.2023-25; French, translated by the researcher) -- FIRSTHAND recollections (non-self, insider) of Molteni team-mate Joseph Bruyere: the 1974 Het Volk plan that the whole Molteni team rode for Eddy, and that prize money (e.g. his 17,000 Belgian francs) was shared equally among all team-mates, 'the same when Eddy won'. Fetched with curl and read in full; his health remarks are not used.",
+      "url": "https://www.rtbf.be/article/joseph-bruyere-le-fidele-lieutenant-d-eddy-merckx-revient-sur-ses-3-victoires-sur-le-nieuwsblad-11333514"
+    },
+    {
+      "id": "src_merckx_avenir_bruyere2014",
+      "kind": "press",
+      "title": "'Bruyere, le lieutenant devenu heros', L'Avenir (Belgian daily), 25 Apr 2014 (French, unsigned; translated by the researcher) -- journalist's retrospective with Joseph Bruyere's FIRSTHAND recollections (non-self, insider) of Liege-Bastogne-Liege 1976: Merckx asked his team-mates to harden the race, Bruyere went clear with Van Springel, and Merckx, his leader, disrupted the chase behind until Bruyere won solo. Fetched with curl and read in full.",
+      "url": "https://www.lavenir.net/cnt/dmf20140425_00467654"
+    },
+    {
+      "id": "src_merckx_cw_colnago2012",
+      "kind": "press",
+      "title": "'Ernesto Colnago: The Big Interview', Cycling Weekly (c.2012; interview with the 80-year-old frame-builder at his factory) -- FIRSTHAND recollection (non-self; Colnago was Merckx's frame supplier at Molteni, so commercially affiliated): Merckx took more than 20 bikes a year, would come in the morning and not leave until he had the perfect bike, and on the Tuesday before a Liege-Bastogne-Liege asked for more saddle setback, taken from 16 to 19 and finally 21 cm. Fetched with curl and read in full; only the Merckx passage is used.",
+      "url": "https://www.cyclingweekly.com/news/ernesto-colnago-the-big-interview-45596"
+    },
+    {
+      "id": "src_merckx_velo_thevenet2019",
+      "kind": "press",
+      "title": "James Startt, 'The day Bernard Thevenet dropped Eddy Merckx', VeloNews / Velo (outsideonline.com), 1 Oct 2019 -- Q&A interview giving rival Bernard Thevenet's FIRSTHAND recollections (non-self, rival) of the 1975 Tour: at the rest-day press conference Merckx publicly named Thevenet his biggest rival; on the Col d'Allos Merckx sensed he was not at 100 percent and attacked, and gapped him on descents; 'Eddy would exploit the slightest error'; on the final day on the Champs-Elysees 'Eddy attacked from the gun'. Fetched with curl and read in full.",
+      "url": "https://velo.outsideonline.com/road/road-culture/the-day-bernard-thevenet-dropped-eddy-merckx/"
+    },
+    {
+      "id": "src_merckx_cyclist_belbin",
+      "kind": "press",
+      "title": "Giles Belbin, 'How Bernard Thevenet dethroned Eddy Merckx at the 1975 Tour', Cyclist magazine (online feature, undated c.2018-20) -- cycling historian's account (non-self, secondary) of the 1975 Tour: that inside the final kilometre on the Puy de Dome Merckx was slapped by one spectator and punched in the kidneys by another, that he accompanied police back down the road to find the assailant, that charges were filed and the man was ordered to pay one franc in symbolic damages, and that he attacked on the Allos two days later. Fetched with curl and read in full; the injury (fractured jaw) and 'feeling the effects' passages are not used.",
+      "url": "https://www.cyclist.co.uk/in-depth/how-bernard-thevenet-dethroned-eddy-merckx-at-the-1975-tour"
+    },
+    {
+      "id": "src_merckx_remezcla_kunti2015",
+      "kind": "press",
+      "title": "Samindra Kunti, 'Eddy Merckx on the Legendary Cycling Record He Broke in Mexico City: \"It Was Pain, Pain, and Pain\"', Remezcla, 11 Nov 2015 -- journalist's feature from a joint interview in Brussels with Merckx (self) and his 1970s masseur Guillaume Michiels (FIRSTHAND insider, non-self): that Merckx chose the Mexico City velodrome although sponsor Molteni wanted Milan; that the universities of Milan and Liege tested him and for six weeks he rode static rollers in his garage breathing from some 30 oxygen bottles with doctors checking him; Michiels on his nervousness during the postponement and on Giorgio Albani signalling 'easy, easy' during a deliberately fast start (Merckx: 'a deliberate way to be ahead of the projected time table'). Fetched with curl and read in full; the exhaustion-at-finish passage is not used.",
+      "url": "https://remezcla.com/features/sports/eddy-merckx-cycling-record-mexico-city/"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 88,
+      "confidence": 0.74,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_merckx_cw_abraham2016, src_merckx_cyclist_spender, src_merckx_si_underwood1972, src_merckx_velo_thevenet2019, src_merckx_cyclesport2004 | 1969; 1972; 1975 | contemporaneous report + rivals + secondary + self] On stage 17 of the 1969 Tour, already more than eight minutes ahead, he attacked over the Tourmalet and rode alone to Mourenx (Cycling's contemporaneous report via Abraham; his own account in Cyclist). On stage 6 of the 1972 Giro, already in the leader's jersey and still attacking, he answered Guerrino Tosello's on-bike question about leaving stages to others with 'I'm indifferent' (Fife via Spender). In 1972 rivals Anquetil ('must win all the time... by five or six minutes') and Bobet ('interested only in cycling, and in winning') said so to Sports Illustrated, and Thevenet recalls that in 1975 Merckx publicly named him his main rival and, after losing the lead, 'attacked from the gun' on the final Champs-Elysees stage. Merckx's own statements ('I chose to race, so I chose to win') agree but carry no weight alone. Several independent, dated episodes and two rival witnesses over seven years with no contrary account; dual_edged because peers and the French press resented his refusal to cede races (Tosello, Bobet). RUBRIC_CORRECTION at lead review (downward only, no new evidence): 90/0.8 documented -> 88/0.74 documented; the dated episodes reach the profile mainly through later retellings, and the rivals' 1972 remarks partly describe reputation; extreme score and 0.8 confidence not warranted"
+    },
+    "detail_orientation": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_merckx_si_underwood1972, src_merckx_cw_colnago2012, src_merckx_inrng_review2012, src_merckx_cw_abraham2016 | 1972; early-mid 1970s; 1976 | contemporaneous journalist + manager + frame-builder + secondary] In spring 1972 Underwood saw his home workshop (about 100 wheels curing for up to three years, drilling holes, saddle positions varied by terrain) and manager Van Buggenhout said that before a race he goes to his mechanics 'again and again to check'. Frame-builder Ernesto Colnago recalls he took more than 20 bikes a year, would stay at the factory until the bike was right, and before one Liege-Bastogne-Liege had the saddle setback moved from 16 to 19 and then 21 cm. The Fotheringham biography (via the Inner Ring review) and Abraham's sidebar describe mid-race saddle-height changes, including in the film of the 1976 Paris-Roubaix. Scored from these observed work habits only: Merckx himself links his later adjustments to the 1969 Blois crash, and no inference is drawn from that injury. Dual_edged because some adjustments were made mid-race and he says he once changed his saddle tilt and had to change it back."
+    },
+    "experimentation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_merckx_si_underwood1972, src_merckx_cw_colnago2012 | 1972; early-mid 1970s | contemporaneous journalist + frame-builder] Underwood (1972) describes him 'experimenting with his seats' (further forward on climbs, central on the flat, back on rough roads) and quotes him that he once changed the tilt, found it wrong and changed it back; Colnago recalls the saddle setback being moved step by step from 16 to 21 cm in the days before a Liege-Bastogne-Liege. Two independent witnesses to repeated trial-and-adjust on position. Held to a moderate lean because Merckx told SI he did not 'cause a revolution in bicycle design': the trials stayed within conventional equipment, and the same episodes already support detail_orientation."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_merckx_cw_abraham2016, src_merckx_cyclist_spender, src_merckx_dh_marseille2017, src_merckx_rtbf_1971, src_merckx_inrng_review2012 | 1969; 1971 | contemporaneous report + secondary] In the 1969 Tour of Flanders he attacked with almost 45 miles to go in cold rain and kept going while manager Guillaume Driessens drove alongside shouting at him to stop (Abraham, quoting Cycling's report); on the 1969 Mourenx stage he rode more than 100 km alone while already leading. On 10 July 1971, 9:46 down, he and three team-mates attacked from the start of a 251-km stage to Marseille, a move Tour director Goddet called the most astonishing he had seen (La DH, RTBF). Three dated long-range attacks from a contemporaneous report and two unaffiliated retellings. Not higher because the Fotheringham biography (via the Inner Ring review) reads some such attacks as insurance against a later puncture or crash, i.e. partly risk-averse in motive; dual_edged because the Marseille attack cost a day's all-out effort for about two minutes."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_merckx_rtbf_1971, src_merckx_dh_marseille2017, src_merckx_si_underwood1972, src_merckx_velo_thevenet2019 | Jul 1971; Jul 1975 | secondary + contemporaneous observer + rival] After losing 8:41 to Ocana at Orcieres-Merlette on 8 July 1971, he pulled a group for about 100 km with no one taking a turn and acknowledged Ocana's superiority on French TV at the finish (RTBF); an observer quoted by SI recalls his impassive reply that evening, 'There is a lot more of this race to go', and two days later he attacked from the start to Marseille (La DH, RTBF). In 1975, after losing the yellow jersey, he kept attacking to the final stage, where rival Thevenet says he 'attacked from the gun'. Two distinct setbacks after which he kept racing offensively rather than settling, with sources from Belgium, the US and a rival; one Tour-long pattern each, hence strong_inference, not documented. His decision to finish the 1975 Tour after a facial fracture is deliberately NOT used (injury)."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_merckx_si_underwood1972, src_merckx_avenir_bruyere2014, src_merckx_rtbf_bruyere, src_merckx_cyclesport2004 | 1972; 1974; 1976; 1977-78 | contemporaneous journalist + team-mates] In 1972 Les Sports editor Van Griethuysen told SI that on Molteni 'he is the boss. Not Molteni. Not the coach. Eddy', and that he 'can be very hard' with team-mates 'for the discipline of the team' (a partisan witness). Team-mate Joseph Bruyere recalls the 1974 Het Volk plan that the whole team rode for Eddy, and that at Liege-Bastogne-Liege 1976 Merckx asked his team-mates to harden the race, then disrupted the chase behind so Bruyere could win. Team-mate Patrick Sercu told Cycle Sport that Merckx himself took on the negotiations to set up his final team (1977-78). Several episodes from a contemporaneous witness and two team-mates; dual_edged because the SI witness describes his hardness with team-mates."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_merckx_rtbf_bruyere, src_merckx_avenir_bruyere2014, src_merckx_cyclesport2004, src_merckx_si_underwood1972 | 1974; 1976; 1977-78 | team-mates + contemporaneous journalist] Bruyere recalls that race prize money was split equally among all Molteni team-mates, 'the same when Eddy won' (SI 1972 notes such sharing was general custom, so this counts only weakly), and that in Liege-Bastogne-Liege 1976 Merckx worked behind to help him win rather than race for himself. Sercu says Merckx did the negotiations for the 1978 team so that his team-mates would be paid for another year, and Cycle Sport adds that he later employed former team-mates at his bicycle factory. A real lean towards investing in his team, from two team-mates, but held moderate because team road racing is collaborative by structure and the occupation is not treated as evidence."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_merckx_si_underwood1972, src_merckx_remezcla_kunti2015, src_merckx_cw_abraham2016, src_merckx_cyclesport2004 | 1972; Sep-Oct 1972 | manager + masseur + journalist + self] In spring 1972 manager Van Buggenhout (subject-affiliated) told SI he trained 250-300 days a year and had practised for two weeks before a televised charity basketball match. Masseur Guillaume Michiels and Remezcla describe six weeks of preparation for the October 1972 Hour Record on static rollers in his garage breathing from about 30 oxygen bottles, with university tests at Milan and Liege and doctors checking him (Merckx confirms the altitude-simulation work in Cycle Sport). Abraham describes his long winter training runs across Belgium with team-mates. His own remark that 'the biggest pressure to perform came from within me' fits but is not relied on. Converging accounts from two insiders and a journalist; not higher because the affiliated manager supplies the training-volume figure."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_merckx_cw_abraham2016, src_merckx_remezcla_kunti2015, src_merckx_si_underwood1972, src_merckx_cyclesport2004 | 1966; 1969; 1972 | contemporaneous report + insider + self] In the 1969 Tour of Flanders he ignored manager Driessens shouting from the team car to stop his attack (Abraham). For the 1972 Hour Record he chose the Mexico City velodrome although sponsor Molteni wanted Milan (Remezcla, with masseur Michiels). In 1972 a companion of his manager told SI 'He is his own coach' (unnamed, weak). His own account of leaving Rik Van Looy's Solo-Superia team for Peugeot in 1966 over his treatment there is self-testimony and corroborates only. Two dated decisions against the wishes of his manager or sponsor; dual_edged because the Flanders move overrode his team's direction."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/eddy-merckx-anefo-1973.jpg",
+    "width": 1010,
+    "height": 1600,
+    "source": "Nationaal Archief (Fotocollectie Anefo, bestanddeelnummer 926-5866), via Wikimedia Commons (extracted crop published on Commons from the archive's Flickr Commons upload)",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anefo / Nationaal Archief, 2 August 1973 (Olympisch Stadion, Amsterdam), CC0 1.0 (Merckx cut from 'Joop Zoetemelk en Eddy Merckx schudden elkaar de hand'; resized)",
+    "attributionUrl": "https://hdl.handle.net/10648/ac332930-d0b4-102d-bcf8-003048976d84",
+    "creator": "Anefo (photographer recorded as 'Fotograaf Onbekend' by the Nationaal Archief; Commons names Bert Verhoeff)",
+    "date": "1973-08-02",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Eddy_Merckx_Molteni_1973.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에디 메르크스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities API call (2026-09-26) for Q103756 returned label 'Eddy Merckx', description 'Belgian cyclist (born 1945)', P569 17 Jun 1945, no date of death, citizenship Belgium (Q31), instance of human, occupation sport cyclist (Q2309784), nl alias 'Edouard Louis Joseph \"Eddy\" Merckx', ko label '에디 메르크스' (ko aliases '에디 먹스'), kowiki sitelink '에디 메르크스', P18 'Eddy Merckx Molteni 1973.jpg'; the assigned QID is correct. LIVING PERSON: only public professional behaviour is used (racing tactics, equipment and training practice, team conduct); family, home life, health and his later business disputes are not scored. SLUG CHECK: no eddy-merckx file existed in data-pipeline/candidates and grep of data-pipeline/candidates and src/data/people found no other 'Merckx'; no collision. CLASSIFICATION: occupation athlete and field sport only (no row rests on the bicycle-manufacturing business, which appears only as an editorial achievement, so business was NOT added); era 20th_century, regionCode western_europe and nationality BE follow the johan-cruyff.json / niki-lauda.json precedent for late-20th-century European sportsmen; isLiving true with no deathYear follows jocelyn-bell-burnell.json / bob-dylan.json; impactDomains athletic; tags competitor, detail_oriented, leader and archetype competitive_performer are classification labels tied to the competitiveness, detail_orientation and leadership_drive rows, not evidence. EVIDENCE READ: 14 source records (1 orientation, 13 substantive), every one fetched with curl (SI via the Wayback Machine because the live SI Vault URL returned 404) and read from the extracted text; French-language pages translated by the researcher. INDEPENDENT NON-SELF PERSPECTIVES: (1) John Underwood, Sports Illustrated 1972, contemporaneous, carrying manager Jean Van Buggenhout (affiliated), Les Sports editor Theo Van Griethuysen (partisan), and rivals Anquetil and Bobet; (2) Richard Abraham, Cycling Weekly 2016, quoting Cycling's contemporaneous 1969 reports; (3) Cycle Sport 2004, carrying team-mate Patrick Sercu; (4) Bernard Thevenet, rival, firsthand via James Startt (Velo 2019); (5) Joseph Bruyere, team-mate, firsthand via RTBF and L'Avenir 2014 (one witness, two outlets); (6) Ernesto Colnago, frame-builder, firsthand (Cycling Weekly c.2012; commercially affiliated); (7) Guillaume Michiels, masseur, firsthand via Samindra Kunti (Remezcla 2015; insider); (8) La DH 2017 and RTBF 2026 Belgian retrospectives of the 1971 Tour (counted as two press perspectives drawing partly on the same L'Equipe and period material); (9) Giles Belbin (Cyclist) and James Spender (Cyclist; mostly self, with Fife and Moore retold); (10) the Inner Ring review of Fotheringham's biography (weak secondary retelling; the book itself is a restricted Internet Archive loan and was NOT read). SELF perspective (counted once): Merckx's own words in Cyclist, Cycle Sport, Cycling Weekly, Remezcla and SI; no row rests on them alone. BEHAVIOUR-ONLY: rows rest on dated racing decisions, training and equipment practice and team conduct, never on his 525 wins, Grand Tour or Monument counts, records, earnings or fame. EPISODE USE (max two rows each): 1969 Mourenx solo -> competitiveness, risk_tolerance; 1969 Tour of Flanders attack against Driessens' order -> risk_tolerance, autonomy_need; 1972 Giro Tosello exchange -> competitiveness; Anquetil/Bobet 1972 statements -> competitiveness; 1975 Thevenet recollections -> competitiveness, persistence; July 1971 Orcieres-Merlette and Marseille -> risk_tolerance, persistence; equipment and position tinkering (SI 1972, Colnago, Fotheringham via Inner Ring, 1976 Paris-Roubaix film) -> detail_orientation, experimentation; 1972 Hour Record preparation and venue choice -> discipline, autonomy_need; training volume and charity-match practice (SI manager) -> discipline; Van Griethuysen 'he is the boss' -> leadership_drive; Liege-Bastogne-Liege 1976 for Bruyere -> leadership_drive, collaboration; Sercu on the 1977-78 team negotiations -> leadership_drive, collaboration; prize-money sharing (Bruyere) -> collaboration only (weak: SI calls such sharing general custom). The Stevens rest-day anger in La DH was read and NOT used, because the Marseille episode is already used twice. ROWS CONSIDERED AND LEFT UNSCORED: perfectionism (the Colnago 'perfect bike' passage is part of the equipment episode already used twice); mastery_orientation and achievement_drive (would lean on the same competitive episodes or on win counts); social_assertiveness (publicly naming Thevenet his main rival and the 1972 Giro psychology against Fuente are single or self-reported items); conflict_tolerance (the 1970 Liege-Bastogne-Liege non-protest reported by a partisan editor and the 1975 Puy de Dome complaint are too thin, and the latter is a response to an assault); planning_orientation (the Hour Record preparation is one episode, and his own accounts of the 1969 Mourenx attack describe it as unplanned); independent_thinking and decisiveness (no clean distinct episodes left). A first draft used the id 'resilience', which is a facet and not an attribute; it was corrected to persistence (74 / 0.60) before completion (ERROR_CORRECTION, no validator involved). EXCLUDED ON PURPOSE: the doping cases are public record and are recorded factually only: the 1969 Giro positive at Savona (fencamfamine; he was excluded from the race while leading; SI 1972 says he was later exonerated and that at that year's Tour he demanded a urine test after each day), and positives in 1973 and 1977 that were not researched further; none is used for any row, and neither his account of a bribe offer before Savona (self only) nor his camp's sabotage claim is repeated as fact. The 1975 Puy de Dome punch was done TO him by a spectator (Belbin: he went back down with police to identify the man, who was ordered to pay one franc); it is not scored. Also excluded: the 1969 Blois derny crash, his back pain and osteopathy, his 1975 facial fracture and decision to finish that Tour, illnesses, the 2014 cycling accident, heart treatment and hip operations, his family and home life, earnings and endorsements, and the later tax, financial and shareholder disputes at Eddy Merckx Cycles (mentioned in passing by Abraham; not researched). A Roger De Vlaeminck doping-control anecdote seen in a search result was not opened or used. Read but not cited: VRT 2020 item on mechanic Paul Godeau (no behavioural content), Cyclingnews 2025 80th-birthday report (health and celebration content). KNOWN LIMITS: no book-length biography was read (Fotheringham's 'Half Man, Half Bike' and Fife's 'Inside the Peloton' are restricted lending copies); several episodes (Mourenx, Tosello, the insurance-attack reading) come through retellings; the 1971 Orcieres loss is given as 8:41 by RTBF and 8:42 by La DH; Van Buggenhout's 250-300 training days is an affiliated manager's figure; Sercu's and Colnago's recollections are single-witness. PORTRAIT: Wikidata P18 'Eddy Merckx Molteni 1973.jpg' (Commons, 1103x1748) is an extract, published on Commons, from the Nationaal Archief's Flickr Commons upload 'Joop Zoetemelk en Eddy Merckx schudden elkaar de hand' (Flickr 3678494036; Commons templates 'Flickr-no known copyright restrictions' plus an Attribution template citing the archive). The Nationaal Archief's own record (handle 10648/ac332930-d0b4-102d-bcf8-003048976d84, bestanddeelnummer 926-5866, Fotocollectie Anefo, Olympisch Stadion Amsterdam, dated 1973-08-02) was read directly and gives 'Auteursrechthebbende: Nationaal Archief, CC0'; it records the photographer as 'Fotograaf Onbekend / Anefo', whereas Commons names Bert Verhoeff (reported, not adjudicated). The archive original (2437x3688, greyscale) was downloaded and compared: the Commons extract is the Merckx half of that frame at native resolution (no upscaling). The Commons extract was downloaded with curl and a User-Agent, opened with Pillow, downscaled (LANCZOS) to 1010x1600, JPEG q85, with no further cropping, and viewed: a single-subject black-and-white half-length photo of Merckx in a Molteni jersey, face clearly visible. Kind: likeness. REJECTED: 'Eddy Merckx Amstel Gold Race 1975.jpg' (Hans Peters for Anefo) is tagged CC0 on Commons but its own cropped derivative is tagged CC BY-SA 3.0 nl, and no archive record was checked, so the basis is inconsistent; the other Amstel Gold 1970 and 1973 Anefo files are CC BY-SA 3.0 nl; the 1967-69 Mondadori files carry Italian PD templates not checked upstream. KOREAN NAME: '에디 메르크스' is both the Korean Wikipedia title and the Wikidata ko label. No eligibility, coverage or match output was used in scoring. LEAD REVIEW RUBRIC_CORRECTION: competitiveness 90/0.8 documented -> 88/0.74 documented (the dated episodes reach the profile mainly through later retellings, and the rivals' 1972 remarks partly describe reputation; extreme score and 0.8 confidence not warranted). PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait. LEAD REVIEW LINK CHECK: the live Sports Illustrated vault URL returned 404, so the source url now points to the Wayback Machine capture (20240721171122) that was actually read."
+  }
+}

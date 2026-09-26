@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "santiago-ramon-y-cajal",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Santiago Ramón y Cajal",
+    "aliases": [
+      "Santiago Ramon y Cajal"
+    ],
+    "wikidataId": "Q150526",
+    "birthYear": 1852,
+    "deathYear": 1934,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "biologist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cajal_wikipedia",
+      "kind": "wikipedia",
+      "title": "Santiago Ramón y Cajal (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '산티아고 라몬 이 카할' confirmed via the Wikidata sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Santiago_Ram%C3%B3n_y_Cajal"
+    },
+    {
+      "id": "src_cajal_wikidata",
+      "kind": "wikidata",
+      "title": "Santiago Ramón y Cajal (Q150526) -- verified live via wbgetentities (2026-09-26): en label 'Santiago Ramón y Cajal', description 'Spanish scientist (1852-1934)', ko label '산티아고 라몬 이 카할' (ko description '스페인의 신경과학자'), es label 'Santiago Ramón y Cajal', born 1852-05-01, died 1934-10-17, citizenship Q29 (Spain), P18 'Cajal-mi.jpg' and 'Santiago Ramón y Cajal (1852-1934) portrait (restored).jpg', kowiki '산티아고 라몬 이 카할'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q150526"
+    },
+    {
+      "id": "src_cajal_cannon_sherrington",
+      "kind": "biography",
+      "title": "Dorothy F. Cannon, Explorer of the Human Brain: The Life of Santiago Ramón y Cajal (1852-1934) (New York: Henry Schuman, 1949), with 'A Memoir of Dr. Cajal' by Sir Charles Sherrington (pp. ix-xv), archive.org OCR (in.ernet.dli.2015.63985) -- two perspectives in one volume, recorded separately in the notes: (a) SHERRINGTON, FIRSTHAND HOST/PEER: Cajal stayed some two weeks in Sherrington's London house in 1894 (Croonian Lecture); Sherrington writes from his own observation (London Bridge visit, Army and Navy Stores, choosing slides for the Croonian lecture and the chick 'pyramidal tract' exchange, his rough-mounted preparations and anthropomorphic descriptions). (b) CANNON, SCHOLAR/BIOGRAPHER: admiring, relies heavily on Cajal's own Recuerdos (such passages are treated as SELF-derived) but adds unpublished firsthand material from pupils: Fernando de Castro (student from 1914; daily routine, teaching, retirement laboratory), Pío del Río Hortega's unpublished memoir 'El maestro y yo' via Moisés Polak (the microglia dispute, c.1918-20; an ADVERSARIAL insider account), and Wilder Penfield's 1926 published account of meeting Cajal. Read: Author's preface; Sherrington memoir in full (a garbled OCR page [xi]-[xii] partly unreadable); ch. 1 opening; ch. 7 Berlin 1889 section (pp. 142-145); ch. 10 pp. 237-245 (Río Hortega episode, de Castro's account of the master and his school); ch. 11 pp. 248-250 (de Castro on retirement years, Penfield's 1924-25 meeting).",
+      "url": "https://archive.org/details/in.ernet.dli.2015.63985"
+    },
+    {
+      "id": "src_cajal_golgi_nobel",
+      "kind": "archive",
+      "title": "Camillo Golgi, Nobel Lecture 'The neuron doctrine - theory and facts', 11 Dec. 1906 (English translation), nobelprize.org PDF -- ADVERSARIAL PEER perspective: Golgi, co-laureate, opposed the neuron doctrine and argues against Cajal on the cerebellar basket/Purkinje endings and the spinal-ganglion pathway. Read in full 2026-09-26. Used for: Golgi's own statement that Cajal 'successively modified his theory' of dynamic polarization to fit new data and 'to meet some opposition' (the spinal-ganglion T-bifurcation revision), and his judgment that Cajal's reduced-silver neurofibril results were 'the finest and most important' and easy to demonstrate.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1906/golgi/lecture/"
+    },
+    {
+      "id": "src_cajal_nobel_presentation",
+      "kind": "institution",
+      "title": "K. A. H. Mörner (Rector of the Karolinska Institute), Presentation Speech, Nobel Prize in Physiology or Medicine 1906, 10 Dec. 1906, nobelprize.org -- INSTITUTIONAL perspective, read in full 2026-09-26. Evaluative only (describes Cajal's 'extraordinarily active and successful work'); contains no behavioural episode and supports no row; recorded for completeness.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1906/ceremony-speech/"
+    },
+    {
+      "id": "src_cajal_self_nobel",
+      "kind": "archive",
+      "title": "Santiago Ramón y Cajal, Nobel Lecture 'The structure and connexions of neurons', 12 Dec. 1906 (English), nobelprize.org PDF -- SELF, one perspective, never sole support for a row. Read pp. 220-223 closely and skimmed the rest: states the neuron propositions, credits Golgi's method and the confirmations by Kölliker, Lenhossék, Retzius, van Gehuchten and others, says he applied Golgi's method first to embryos and young animals, and claims twenty-five years of work with the Golgi, Cox, Ehrlich and neurofibrillar methods.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1906/cajal/lecture/"
+    },
+    {
+      "id": "src_cajal_defelipe_2025",
+      "kind": "archive",
+      "title": "Javier DeFelipe, 'Cajal and the discovery of the Golgi method: a neuroanatomist's dream', Anatomical Science International 100 (2025): 384-399 (open access, PMC12513909), read in full -- MODERN SCHOLAR perspective (Instituto Cajal/CSIC; admiring, but works from the primary publications and archive). Used for: the 1887 Simarro encounter and Cajal's earlier dismissal of the Golgi method after Ranvier; the 1888 avian cerebellum paper including Cajal's printed note that he first suspected the dendritic spines were silver precipitate and accepted them as real only from their constancy; the 1891-92 redefinition of Golgi's type I/II classification; the 1933 '¿Neuronismo o reticularismo?' rebuttal; and, critically, Arthur van Gehuchten's 1913 EYEWITNESS account (quoted) of Cajal at the Berlin congress of Oct. 1889, alone amid 'smiles of incredulity', taking Kölliker aside to a microscope.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12513909/"
+    },
+    {
+      "id": "src_cajal_garcialopez_2010",
+      "kind": "archive",
+      "title": "P. Garcia-Lopez, V. Garcia-Marin and M. Freire, 'The histological slides and drawings of Cajal', Frontiers in Neuroanatomy 4:9 (2010) (open access, PMC2845060), read in full -- ARCHIVAL/MUSEUM SCHOLAR perspective: a catalogue of 4,529 of Cajal's surviving slides and 1,976 scientific drawings at the Cajal Museum. Used for documentary facts about his working method (not counts as merit): most slides made personally and 1,907 of the drawings by his own hand; a sequence of staining methods and variants he introduced 1889-1920 (fast and double-impregnation Golgi variants 1889, methylene-blue variant 1896, reduced silver nitrate 1903, formalin-uranium nitrate 1912, gold-sublimate 1913); systematic use of correlative stains to confirm a structure; the 'ontogenic' choice of embryonic/young animals; the Cajal-De Castro 1933 technical rules on species and ages.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2845060/"
+    },
+    {
+      "id": "src_cajal_gibson_1936",
+      "kind": "biography",
+      "title": "William Carleton Gibson, 'Santiago Ramón y Cajal (1852-1934)', Annals of Medical History n.s. 8 (Sept. 1936): 385-394 (PMC7939818, scanned, CC BY-NC), read in full -- JOURNALIST/COMPILER perspective: a memorial essay drawing on Recuerdos, Sherrington's 1935 obituary notice, Penfield 1926 and others; little or no firsthand content, so SELF-derived passages are treated as such. Used only for: the refusal of the Ministry of Public Instruction (not scored, political), the switch of his laboratory journal to French so pupils' work would be read, and the (hearsay, 'it has been recounted') London bedroom-laboratory anecdote, which is NOT used for any row.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7939818/"
+    },
+    {
+      "id": "src_cajal_self_recuerdos",
+      "kind": "archive",
+      "title": "Santiago Ramon y Cajal, Recuerdos de mi vida, 2 vols. (Madrid: Nicolas Moya, 1917 edition; vol. II 'Historia de mi labor cientifica'), archive.org OCR (recuerdosdemivid01ramuoft, recuerdosdemivid02ramuoft) -- SELF, one perspective, never sole support for any row (the English 'Recollections of My Life', 1937, is a lending-only copy on archive.org and was not read). Read in Spanish: vol. II preface ('Dos palabras al lector'); ch. V pp. 97-103 (the 1888 'ano cumbre', two years of unrewarded trials, the self-financed Revista trimestral de Histologia of May/Aug. 1888, six articles and six plates by his own hand, 60 copies mostly for foreign scientists); ch. VIII pp. 144-147 (joining the German Anatomical Society; Berlin congress Oct. 1889 paid from savings, own Zeiss microscope, demonstrations to His, Schwalbe, Retzius, Waldeyer and Kolliker, with his footnote quoting van Gehuchten's 1913 speech). Vol. I (childhood) was consulted only via Cannon's and Gibson's retellings and is not used for any row.",
+      "url": "https://archive.org/details/recuerdosdemivid02ramuoft"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cajal_defelipe_2025, src_cajal_golgi_nobel, src_cajal_cannon_sherrington, src_cajal_self_nobel | 1888-91; 1891-92; 1906 | modern scholar (incl. van Gehuchten's 1913 eyewitness) + adversarial peer + host/peer + self] From his first Golgi-method paper (1888, avian cerebellum) Cajal read the same kind of silver-stained images that Golgi and most neuroanatomists took as a continuous network and argued instead that axonal branches end freely, by contact (DeFelipe, working from the 1888 paper; van Gehuchten recalled in 1913 that the facts were met with 'the greatest scepticism'). In 1891-92 he set aside Golgi's motor/sensory classification of type I and II cells as physiologically untenable and replaced it with long-axon and short-axon cells (DeFelipe). Golgi's own 1906 Nobel lecture, the adversarial record, confirms that Cajal held the opposite view on points Golgi called fundamental and that Golgi rejected his reading of the cerebellar basket endings. Sherrington records that his own countrymen asked who 'our Santiago' was to teach foreign savants. Scored from these interpretive decisions against the prevailing view and senior authorities, not from later vindication. Held at 0.70: the adversary corroborates the disagreement, but the favourable framing comes from admirers and Cajal himself."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cajal_garcialopez_2010, src_cajal_cannon_sherrington, src_cajal_defelipe_2025, src_cajal_self_nobel | 1887-1920 | archival scholars + host/peer + modern scholar + self] The Cajal Museum catalogue documents a run of staining methods and variants he developed and tried over three decades: a fast Golgi variant and a double-impregnation variant (1889), a methylene-blue variant (1896), the reduced silver nitrate method (1903), formalin-uranium nitrate (1912) and gold-sublimate (1913), plus systematic trials of which species and ages impregnate best (the Cajal-De Castro rules of 1933). Sherrington, who handled his slides in 1894, singles out his early switch to embryonic material (e.g. the duck) to get round the myelin sheath that defeated metallic stains; Cajal's Nobel lecture states the same choice of embryos and young animals. DeFelipe records that after seeing a Golgi preparation at Simarro's in 1887 he at once turned the method on virtually the whole nervous system. Scored from repeated methodological trial and variation, not from the number of slides or discoveries."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cajal_defelipe_2025, src_cajal_cannon_sherrington, src_cajal_garcialopez_2010, src_cajal_gibson_1936, src_cajal_self_recuerdos | 1886-88; 1889-1934 | modern scholar + pupil (de Castro) via biographer + archival scholars + compiler] Cajal says he spent two years in unrewarded trials before the 1888 results (self, Recuerdos II ch. V; supporting only). He kept adding methods and evidence for the neuron theory for decades (the museum catalogue's staining sequence, 1889-1913) and, with reticularist papers still appearing, wrote the long rebuttal 'Neuronismo o reticularismo?' (1933) near the end of his life (DeFelipe). De Castro, his pupil from 1914, describes him after retirement setting up a small private laboratory in his basement and spending his time in 'restless writing' advancing evidence for the neuron doctrine (via Cannon; Gibson independently notes polemics written in his last year). Held at 76/0.64 (the 1889 Berlin episode is deliberately not used here): sources are admiring and the early hardship is self-told."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cajal_defelipe_2025, src_cajal_cannon_sherrington, src_cajal_gibson_1936, src_cajal_self_recuerdos | 1888; 1889; c.1905-34 | modern scholar (incl. van Gehuchten eyewitness) + pupil (de Castro) via biographer + compiler] Rather than wait for recognition from a provincial Spanish chair, in 1889 he applied to join the German Anatomical Society, travelled to its Berlin meeting with his own preparations and his own Zeiss microscope, and, as van Gehuchten recalled in 1913, took Kolliker aside to a corner of the demonstration room to show him the slides (DeFelipe quoting van Gehuchten; Cajal's own account in Recuerdos II adds that he paid from his savings). In 1888 he had founded and paid for his own journal, the Revista trimestral, writing all six articles and drawing the plates, and sent most of its 60 copies to foreign scientists (self, Recuerdos II ch. V; supporting only). Later, per de Castro (pupil from 1914) via Cannon, and Gibson, he had his laboratory's publications issued in French so that pupils' work would be read abroad. Two independent witnesses for the Berlin action; the journal detail is self-reported."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cajal_defelipe_2025, src_cajal_cannon_sherrington | Oct. 1889; 1894 | modern scholar (incl. van Gehuchten eyewitness) + host/peer] Van Gehuchten's eyewitness account has Cajal, in poor French, pulling Kolliker aside at the 1889 Berlin congress 'to convince him at the same time of the reality of the facts', and Kolliker confirming the findings within months (DeFelipe). Sherrington, his host in 1894, says his rich voice 'compelled attention' and that he drove an imperfect French 'to its utmost limit or beyond'. Scored from the demonstration-based way he won over sceptics, not from the eventual acceptance of the neuron theory; held moderate because the Berlin episode is one incident (also used for proactive_agency) and his long polemic with the reticularists did not by itself convert them (DeFelipe)."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cajal_golgi_nobel, src_cajal_defelipe_2025, src_cajal_cannon_sherrington | 1887; 1888; 1890s; c.1918-20 | adversarial peer + modern scholar + insider (Rio Hortega memoir via Polak/Cannon)] For: Golgi, his opponent, states in his 1906 Nobel lecture that Cajal 'successively modified' the theory of dynamic polarization to fit particular arrangements and new data, and specifically accepted, to meet objections, that in spinal ganglia the impulse passes directly from the peripheral to the central branch. DeFelipe shows him dropping his earlier Ranvier-based dismissal of the Golgi method once he saw Simarro's slides (1887), and his 1888 paper records that he first took the dendritic spines for silver precipitate and accepted them only because of their constancy. Against: Pio del Rio Hortega's unpublished memoir (via Polak and Cannon) says that c.1918-20 Cajal was attached to his own 'third element' ('corpuscles without processes'), called Rio Hortega's contrary findings 'too daring', did not encourage publication, took no part in the dispute that later confirmed them, and afterwards credited the microglia to Achucarro. Genuinely mixed, so held near the middle."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cajal_garcialopez_2010, src_cajal_defelipe_2025, src_cajal_cannon_sherrington | 1888-1933; 1894; c.1918-20 | archival scholars + modern scholar + host/peer + insider] The museum catalogue shows him checking structures with correlative stains (Golgi with Weigert and Nissl; spines with both Golgi and methylene blue; dendritic development with Golgi and reduced silver) and setting explicit rules about species and age for reliable impregnation. DeFelipe cites the 1888 spine note (doubt, then acceptance from constancy) and the 1933 monograph as a reasoned account of why others misread the same images. Held at 68 because firsthand witnesses also describe looseness: Sherrington saw preparations 'roughly made and rudely treated' (no cover glass, several scraps in one blob of balsam) and, when he pointed out that a chick slide could not show a pyramidal tract, was told 'c'est la meme chose'; Rio Hortega (via Cannon) says Cajal assumed his stain showed glial processes with certainty and denied processes he could not see."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cajal_cannon_sherrington, src_cajal_gibson_1936, src_cajal_self_recuerdos | 1894; c.1914-34; mid-1920s | host/peer (Sherrington) + pupil (de Castro) and visitor (Penfield) via biographer + compiler] Sherrington, from two weeks as his host in 1894, judged that concern for Spain's standing in science was 'perhaps the most powerful driving force' of his scientific character and 'lifted him altogether above all personal vanity'. Penfield, meeting him in Madrid in the mid-1920s (published 1926, quoted by Cannon), found him chiefly anxious that the outside world should know the work of his small group of Spanish pupils and afraid the school would vanish after his death. De Castro (pupil from 1914, via Cannon) says he saw to it that his students' papers were published in French so they would not suffer as he had from the language barrier; Gibson notes the same change. Cajal's own Recuerdos preface frames his work as building a Spanish histology (self; supporting only). Scored as motivation by a cause beyond himself -- scientific renewal and his pupils -- with no political activity used."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cajal_garcialopez_2010, src_cajal_cannon_sherrington, src_cajal_defelipe_2025, src_cajal_self_recuerdos | 1888-1934; 1894; 1914- | archival scholars + host/peer + pupil (de Castro) via biographer + modern scholar] 1,907 of the 1,976 scientific drawings in the Cajal Museum are by his own hand (catalogue), and he drew the lithographic plates for his 1888 journal himself (self, Recuerdos II). Sherrington, choosing slides with him in 1894, says even his quick sketches were drawn 'by a master's hand' and that he was an accomplished photographer; de Castro, his student from 1914, recalls lectures illustrated with blackboard drawings showing an 'extraordinary talent as an artist'. DeFelipe quotes his published description of the first Golgi images as 'designs in Chinese ink on transparent Japanese paper'. His boyhood wish to be a painter is self-reported (Recuerdos I, via Cannon and Gibson) and only supporting. Scored for sustained attention to visual form in his working practice, not for the fame of the drawings."
+    },
+    "intuitive_synthesis": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cajal_cannon_sherrington, src_cajal_defelipe_2025, src_cajal_garcialopez_2010 | 1891-93; 1894 | host/peer + modern scholar + archival scholars] Sherrington, hearing him describe his slides in 1894, reports that he spoke of fixed preparations as a living scene in which a nerve cell 'groped to find another', and wondered how far this imaginative personification contributed to his success. DeFelipe shows the law of dynamic polarization (1891) arrived at by generalising from the visual and olfactory pathways, where the direction of the impulse was evident, to the whole nervous system; the museum authors note that he drew his neurotropic hypothesis (1893) from the chemotaxis of leucocytes. Several independent pointers to leaps from particular images to general functional schemes; strong_inference because they are partly characterisation."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cajal_cannon_sherrington, src_cajal_garcialopez_2010, src_cajal_self_recuerdos | 1894; 1877-1920s | host/peer + archival scholars] Sherrington recounts that in London in 1894, doubting that England had much industry, Cajal asked to see the morning crowd on London Bridge, was 'deeply impressed' and hard to get away, and asked to be sent back the next day to watch again; he also spent three hours studying the Army and Navy Stores. The museum catalogue shows his slides ranging beyond the nervous system into tumours, microbiology and the eyes and nervous systems of insects and cephalopods. His boyhood nature studies are self-told (Recuerdos I, via Cannon) and only supporting. Moderate: the breadth is partly a function of his chairs in histology and pathology."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cajal_cannon_sherrington, src_cajal_gibson_1936, src_cajal_self_recuerdos | c.1914-20; later years | pupil (de Castro) via biographer + compiler] De Castro, his student from 1914, describes a fixed daily round: writing in bed from seven to ten, preparing and giving his lecture until noon, a daily visit to the histology laboratory to check the work of assistants and advanced students, then the whole afternoon and evening at the Laboratory of Biological Research, sometimes leaving at midnight. Gibson relays his own phrase for cafe hours as a 'diastole of rest' after a 'systole of work'. Cajal's own account of working in 1888 'not with zeal but with fury' is self (Recuerdos II) and only supporting. One firsthand pupil account plus self, hence 0.58."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q150526 verified live (wbgetentities, 2026-09-26): en 'Santiago Ramón y Cajal', description 'Spanish scientist (1852-1934)', ko label '산티아고 라몬 이 카할' (ko description '스페인의 신경과학자'), born 1852-05-01, died 1934-10-17, citizenship Q29 (Spain), P18 'Cajal-mi.jpg' and 'Santiago Ramón y Cajal (1852-1934) portrait (restored).jpg', kowiki sitelink '산티아고 라몬 이 카할' (used for displayNames ko-KR). Slug collision check: no Cajal file in data-pipeline/candidates, src/data or public/portraits before this work. CLASSIFICATION PRECEDENT: nationalityCodes ES and regionCode southern_europe follow antoni-gaudi and salvador-dali. Occupations biologist + medical_researcher follow ivan-pavlov (this cycle) and alexander-fleming; no 'histologist'/'neuroscientist'/'anatomist' id exists and none was invented (FLAG: such an id would be more precise). Fields medicine, biology as assigned; impactDomains scientific, medical; tag nobel_laureate; archetype scientific_explorer. Era set to 19th_century because the decisive work (1887-1899: Golgi-method studies, neuron theory, dynamic polarization, Textura begun) is 19th-century; ivan-pavlov (1849-1936) was set to 20th_century, so the lead may prefer 20th_century for consistency. EVIDENCE READ (all downloaded to scratch_r40/work/santiago-ramon-y-cajal and read locally): Cannon 1949 biography with Sherrington's memoir (memoir in full; ch. 7 Berlin section; ch. 10 pp. 237-245; ch. 11 pp. 248-250; preface); Golgi's 1906 Nobel lecture in full; Mörner's 1906 presentation speech in full; Cajal's 1906 Nobel lecture (opening pages closely); DeFelipe 2025 in full; Garcia-Lopez et al. 2010 in full; Gibson 1936 in full; Recuerdos de mi vida vol. II (Spanish, 1917) preface, ch. V pp. 97-103 and ch. VIII pp. 144-147. NOT READ: Sherrington's 1935 Obituary Notices FRS memoir (royalsocietypublishing.org returned a Cloudflare challenge; his 1949 memoir in Cannon was used instead); the English 'Recollections of My Life' (1937, lending-only on archive.org); DeFelipe's books (not free). INDEPENDENT PERSPECTIVES: (1) Cajal himself (Recuerdos II, Nobel lecture, the 1888 spine note as quoted by DeFelipe) -- one self perspective, never sole support; (2) Charles Sherrington, firsthand host and peer (1894 visit), writing in 1949; (3) Camillo Golgi, the adversarial peer and co-laureate (1906 lecture); (4) Arthur van Gehuchten, eyewitness at Berlin 1889 (his 1913 speech, quoted by DeFelipe and in a Recuerdos footnote -- the same text, counted once); (5) Fernando de Castro, pupil from 1914 (personal communication to Cannon); (6) Pío del Río Hortega, pupil and the other party in the microglia dispute (unpublished memoir via Polak/Cannon) -- an insider adversarial account; (7) Wilder Penfield, foreign visitor mid-1920s (1926 article quoted by Cannon); (8) modern scholars DeFelipe (2025) and Garcia-Lopez/Garcia-Marin/Freire (2010, museum catalogue); (9) Dorothy Cannon as biographer (her own narrative largely retells Recuerdos and is treated as self-derived where it does); (10) Gibson 1936, a compiler. The Karolinska presentation speech is evaluative only. NON-SELF behavioural sources: Sherrington, van Gehuchten (via DeFelipe), Golgi, de Castro, Río Hortega, Penfield, the museum catalogue. EPISODE USE (no episode supports more than two rows): Berlin congress Oct. 1889 (van Gehuchten eyewitness + self) -> proactive_agency, persuasiveness; 1888 self-financed Revista (self) -> proactive_agency (supporting only); 1887 Simarro encounter and earlier dismissal of the Golgi method -> belief_updating, experimentation; 1888 dendritic-spine note -> belief_updating, analytical_rigor; 1891-92 reclassification of Golgi's cell types and the 1888 free-ending interpretation -> independent_thinking; Golgi's lecture on successive modifications of dynamic polarization -> belief_updating; Golgi's lecture on their disagreement -> independent_thinking; staining-method sequence 1889-1913 -> experimentation, persistence; correlative stains -> analytical_rigor; species/age impregnation rules -> experimentation, analytical_rigor; embryo/young-animal choice (Sherrington, self) -> experimentation; 1933 '¿Neuronismo o reticularismo?' -> persistence, analytical_rigor; Sherrington on rough preparations and 'c'est la même chose' -> analytical_rigor (as counter-evidence); Sherrington on anthropomorphic description -> intuitive_synthesis; dynamic polarization by generalisation from visual/olfactory pathways and neurotropism from chemotaxis -> intuitive_synthesis; Río Hortega microglia dispute c.1918-20 -> belief_updating, analytical_rigor (both as counter-evidence); Sherrington on patriotism as driving force, Penfield's meeting, pupils' papers in French -> impact_motivation, proactive_agency (French-publication fact only); drawings/plates/photography/blackboard drawing -> aesthetic_sensitivity; London Bridge and Army and Navy Stores 1894, breadth of slides -> curiosity; de Castro's daily routine -> discipline; retirement basement laboratory and restless writing -> persistence. ROWS CONSIDERED AND LEFT UNSCORED: detail_orientation (DeFelipe credits his 'relentless pursuit of detail', but Sherrington saw rough-mounted slides and a brush-off of a detail he judged trivial -- genuinely contradictory); deep_focus (sustained concentration on the nervous system is clear but rests mainly on output and self-report); conflict_tolerance (long polemic with reticularists, but no firsthand account of how he conducted disputes beyond the Río Hortega episode); leadership_drive and collaboration (a school formed around him and de Castro describes daily supervision, but Cannon's claim that he never took credit for pupils' work is contradicted by the Río Hortega account -- too mixed to score honestly from what was read); autonomy_need (preferred his small home laboratory to the new Institute: de Castro, Gibson; one pattern only); mastery_orientation (Sherrington: 'above all personal vanity'; Gibson: opposed a stamp in his honour -- thin); achievement_drive (the vow at Valencia to win international recognition within ten years is self-derived via Gibson); risk_tolerance (spending savings on the journal and the Berlin trip is self-told); resourcefulness, adaptability, cross_domain_range, systems_abstraction, creative_originality (not scored separately to avoid re-using the dynamic-polarization and embryo episodes a third time), and the remaining attributes -- insufficient on-point non-self evidence. EXCLUDED ON PURPOSE: his 1874-75 army service in Cuba and the illness he contracted there (incidental; no inference from illness); later illnesses, old age and death; marriage and family life (his wife's household economies in 1888 are mentioned in Recuerdos but not used); the offer of the Ministry of Public Instruction, his Senate seat and any political opinions (zero-politics); Sherrington's and Cannon's remarks on Spanish national character; Cannon's own characterisations ('fair-minded and kindly', 'weaknesses... endearing'); the 'bedroom laboratory in Sherrington's house' anecdote (reported by Gibson only as 'it has been recounted'; not in the readable part of Sherrington's own memoir); the 'father of modern neuroscience' label used by some sources -- no such claim is made here. Animal work is stated factually only (his slides come from many species, including embryos and young animals); no moral judgment is made. KNOWN LIMITS: most non-self sources admire him (Sherrington, de Castro, Penfield, DeFelipe, the museum authors); the adversarial record is Golgi's lecture (scientific disagreement only) and Río Hortega's memoir (reached second-hand via Polak and Cannon). Several classic anecdotes (childhood, Cuba, 1888 working 'with fury', self-financing) are self-told and used only as support. Part of Sherrington's memoir (OCR page [xi]-[xii]) was unreadable. Per the calibration note, no row exceeds 0.72 confidence or 80 score. PORTRAIT: File:Santiago Ramón y Cajal (1852-1934) portrait (restored).jpg (formerly Cajal-Restored.jpg; Wikidata P18; Commons featured picture). Raw wikitext read via the API: {{Information}} with Source [[File:Cajal.PNG]], Author 'Original photo is anonymous although published by Clark University in 1899. Restoration by Garrondo', {{RetouchedPicture|... minor crop. Dust and scratches removed. Levels and color adjustment}}, licence {{PD-1923}}; no third-party copyright claim. Source file File:Cajal.PNG read too: Source 'Clark University, 1889-1899, decennial celebration (1899). Page 310', archive.org clarkuniversi00stor, Author {{Anonymous}}, {{PD-old}}. Upstream checked: the archive.org item (University of California Libraries copy, possible-copyright-status NOT_IN_COPYRIGHT) is the 1899 Worcester volume; the page images show the signed portrait plate ('S. Ramón Cajal' facsimile signature) directly before Cajal's lecture 'Comparative study of the sensory areas of the human cortex' on p. 311. Basis: published in the United States in 1899, so public domain in the US; anonymous work published 127 years ago, so also out of term in Spain/EU. Faithfulness: I compared the restored file with Cajal.PNG side by side -- same photograph, cropped to the image (signature and paper margin removed), paper tint neutralised, dust removed; no alteration of features. Downloaded original restored JPEG 1748 x 2376 px, opened with PIL, downscaled to 1177 x 1600 px (JPEG q85), no further crop; visually checked: head-and-shoulders photograph of Cajal at about 47, bearded, dark suit and bow tie. Kind 'likeness'. REJECTED: File:Cajal-mi.jpg (the other P18; a self-portrait photograph at the microscope, only 234 x 330 px, and sourced from a CSIC page that carries a '© Fotografía Servicio de Patrimonio (CSIC)' notice); using Cajal.PNG directly (same image, with signature and yellowed margin -- the restoration is the cleaner faithful version). No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "산티아고 라몬 이 카할"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/santiago-ramon-y-cajal-clark-1899.jpg",
+    "width": 1177,
+    "height": 1600,
+    "source": "Portrait plate facing p. 311 in Clark University, 1889-1899: Decennial Celebration (Worcester, Mass.: printed for the University, 1899); restored digital copy on Wikimedia Commons",
+    "license": "Public domain",
+    "attribution": "Santiago Ramón y Cajal, photograph by an unknown photographer, published in Clark University, 1889-1899: Decennial Celebration (1899); restoration by Garrondo (Wikimedia Commons: dust removed, levels adjusted, cropped to the photograph); downscaled",
+    "attributionUrl": "https://archive.org/details/clarkuniversi00stor",
+    "creator": "Unknown photographer (published by Clark University); digital restoration by Wikimedia Commons user Garrondo",
+    "date": "published 1899",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Santiago_Ram%C3%B3n_y_Cajal_(1852-1934)_portrait_(restored).jpg"
+  }
+}

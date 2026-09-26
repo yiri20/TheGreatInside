@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jim-thorpe",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jim Thorpe",
+    "aliases": [
+      "James Francis Thorpe",
+      "Wa-Tho-Huk"
+    ],
+    "wikidataId": "Q221482",
+    "birthYear": 1888,
+    "deathYear": 1953,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical"
+    ],
+    "tagIds": [
+      "generalist"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_thorpe_wikidata",
+      "kind": "wikidata",
+      "title": "Jim Thorpe (Q221482) -- identity verified live via the wbgetentities API (2026-09-26): label 'Jim Thorpe', description 'American track and field athlete and baseball player (1888-1953)', P569 28 May 1888 (plus an unknown-value statement), P570 28 Mar 1953, citizenship United States (Q30), instance of human, en aliases 'Bright Path', 'James Francis Thorpe', 'Wa-Tho-Huk', ko label '짐 소프', kowiki sitelink '짐 소프', P18 'Jim Thorpe 1910s2.jpg' and 'Jim Thorpe1912 Olympics.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q221482"
+    },
+    {
+      "id": "src_thorpe_sabr_jensen",
+      "kind": "biography",
+      "title": "Don Jensen, 'Jim Thorpe', SABR Baseball Biography Project (posted 4 Jan 2012) -- baseball historian's biography (non-self, secondary), drawing on the player's file at the National Baseball Hall of Fame Library, Cook (2011), Wheeler (1981) and contemporary papers; carries the FIRSTHAND recollections of room-mate Chief Meyers and team-mate Edd Roush and quotes Thorpe (self). Used: the 1909 withdrawal from Carlisle and 1910-11 summer baseball, the 1911 return, the Jan 1913 letter (self, quoted), the 1913 Giants signing, 1913-19 baseball career incl. the 1919 complaint about playing time and trade, the 1915 football start, film work 1931-50 and merchant marine 1945. Fetched with curl and read in full. NOTE: it says he 'founded' the Canton Bulldogs in 1915, which the Pro Football Hall of Fame and Cusack contradict (Cusack signed him); that claim is not used. Its drinking, marriage and late-life poverty passages are not used.",
+      "url": "https://sabr.org/bioproj/person/jim-thorpe/"
+    },
+    {
+      "id": "src_thorpe_adams_nmai2012",
+      "kind": "press",
+      "title": "James Ring Adams (senior historian, National Museum of the American Indian), 'The Jim Thorpe Backlash: The Olympic Medals Debacle And the Demise of Carlisle', American Indian Magazine (Smithsonian NMAI), 2012 -- historian's account (non-self, scholar) of the Jan 1913 AAU charges, the letter Thorpe signed (quoted; Gus Welch later told a congressional investigator it was drafted by Warner and superintendent Friedman), the AAU's own misgivings, Warner shipping the medals back, the 1914 investigations of Carlisle, Thorpe's later visits to the campus, the 1982 IOC decision and Florence Ridlon's discovery of the 1912 30-day rule; photo captions on his mismatched shoes and on training on the deck of the Finland (photo attributed to Avery Brundage). Fetched with curl and read in full; the passages on his burial dispute are not used.",
+      "url": "https://www.americanindianmagazine.org/story/jim-thorpe-backlash-olympic-medals-debacle-and-demise-carlisle"
+    },
+    {
+      "id": "src_thorpe_cusack_memoir",
+      "kind": "biography",
+      "title": "Jack Cusack, 'Pioneer in Pro Football' (memoir, first published 1963; reprinted with editorial notes in PFRA Annual No. 8, 1987) -- FIRSTHAND insider account (non-self) by the Canton Bulldogs manager who signed Thorpe in 1915 and was his business manager in 1921 (a friend, so an interested party). Used: the 1915 signing at $250 a game via Bill Gardner; the PFRA editor's note that after the first 1915 Massillon game Thorpe criticised his team-mates' lack of team play and replaced Hazlett as coach; Thorpe as captain being hesitant to substitute and the agreement that Cusack could substitute; the 1917 Massillon game (lost his temper at Cofall's rough play, injured in the second quarter but played on); the shoulder pads made at Thorpe's suggestion and the abandoned plan to market them; Cusack holding Thorpe's earnings at his own request; the 1921 request that Cusack look after his financial affairs at Cleveland. Full PDF fetched with curl, converted with pdftotext and the Thorpe passages read in full (the 1906 scandal and team rosters were skimmed).",
+      "url": "https://profootballresearchers.com/archives/Website_Files/Coffin_Corner/09-An-320.pdf"
+    },
+    {
+      "id": "src_thorpe_jenkins_smithsonian2012",
+      "kind": "press",
+      "title": "Sally Jenkins, 'Why Are Jim Thorpe's Olympic Records Still Not Recognized?' (print title 'The All-American'), Smithsonian Magazine, July 2012 -- journalist's feature (non-self; Jenkins is also the author of a Carlisle football history) drawing on Kate Buford's biography and Olympic historian Bill Mallon; carries recollections of Carlisle teachers Marianne Moore and Verna Whistler and of coach Pop Warner ('always watching for a new motion which will benefit him'), reporter Francis Albertanti's shipboard exchange with Thorpe, the 1912 Eastern trials javelin throw, the Stockholm events, and Thorpe's own sayings (self). Fetched with curl and read in full. Its 'greatest athlete' judgements (Mallon) and the passages on his marriage motive, family, finances and illness are NOT used.",
+      "url": "https://www.smithsonianmag.com/history/why-are-jim-thorpes-olympic-records-still-not-recognized-130986336/"
+    },
+    {
+      "id": "src_thorpe_pfhof",
+      "kind": "institution",
+      "title": "Pro Football Hall of Fame, 'Jim Thorpe' player page (profootballhof.com, read 2026-09-26) -- institutional biography (non-self): Cusack signed him for the end of the 1915 season at $250 a game; star and coach of the Bulldogs (unofficial titles 1916, 1917, 1919); named president by the charter members in 1920; halftime kicking demonstrations; notes his exploits 'tend to be exaggerated'. Fetched with curl and read in full. Used for career facts and corroboration of Cusack only.",
+      "url": "https://www.profootballhof.com/players/jim-thorpe/"
+    },
+    {
+      "id": "src_thorpe_gill_coffincorner1990",
+      "kind": "press",
+      "title": "Bob Gill, 'A Legend Comes to Life: Jim Thorpe in the Days Before the NFL', The Coffin Corner vol. 12 no. 2 (PFRA, 1990) -- researcher's game-by-game reconstruction (non-self) of Thorpe's 1915-19 Canton games from Canton Repository play-by-play; a deliberately sceptical check on the legend. PDF fetched and read in full with pdftotext. Statistics and results only; not used to support any row (results are not behaviour), read to check the Cusack chronology.",
+      "url": "https://profootballresearchers.com/archives/Website_Files/Coffin_Corner/12-02-396.pdf"
+    },
+    {
+      "id": "src_thorpe_cis_studentfile",
+      "kind": "archive",
+      "title": "Carlisle Indian School Digital Resource Center (Dickinson College), 'Jim Thorpe Student File' and 'Thorpe, Jim' person page (NARA RG 75, Entry 1327, box 37, folder 1783) -- archival catalogue description (non-self): entered 6 Feb 1904, left 14 Jun 1909, re-enrolled 8 Sep 1911, departed 1 Feb 1913. The catalogue text was read; the 97-page scanned file itself has no text layer and was NOT read (only a thumbnail sheet was viewed). Used for dates only.",
+      "url": "https://carlisleindian.dickinson.edu/student_files/jim-thorpe-student-file"
+    },
+    {
+      "id": "src_thorpe_smithsonian2022",
+      "kind": "press",
+      "title": "'Jim Thorpe's 1912 Olympic Gold Medals Are Finally Reinstated', Smithsonian Magazine (Smart News), July 2022 -- news report (non-self) of the July 2022 IOC decision listing Thorpe as sole winner of the 1912 pentathlon and decathlon after the Bright Path Strong petition, the 1982 co-champion status, and the statement of Hugo Wieslander's family that he had regarded Thorpe as the sole legitimate champion. Fetched with curl and read in full. Event facts for the editorial only; not used for any row. Native News Online's report of the same announcement was also read and is not counted separately.",
+      "url": "https://www.smithsonianmag.com/smart-news/jim-thorpe-olympic-gold-medals-reinstated-180980444/"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_thorpe_jenkins_smithsonian2012, src_thorpe_sabr_jensen, src_thorpe_cusack_memoir, src_thorpe_pfhof | 1907-1950 | journalist + historian + firsthand manager] Jenkins records that at Carlisle he competed in football, baseball, track and lacrosse, and that before 1912 he had never thrown a javelin or pole-vaulted, yet took up both for the 1912 trials (at the Eastern trials he threw from a standing start, not knowing a run-up was allowed). SABR documents six major-league baseball seasons (1913-19) while Cusack and the Hall of Fame document pro football with Canton from 1915, so he worked in two professional sports at once; SABR adds some 70 film roles in 1931-50 and merchant-marine service in 1945. Several separately documented moves into new events and sports, all within sport except the later film and wartime work, so a real lean rather than a high score (compare the multi-event-only precedent for Jesse Owens)."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_thorpe_jenkins_smithsonian2012, src_thorpe_adams_nmai2012, src_thorpe_sabr_jensen | c.1907-1912 | coach via journalist + historian] Jenkins quotes Pop Warner that Thorpe was 'always watching for a new motion which will benefit him' and reports that he studied other athletes' technique; on the June 1912 voyage to Stockholm he told reporter Francis Albertanti he was 'practicing the long jump' in his head (Jenkins), and Adams publishes a team-mate's photograph of him training on the ship's deck, which Adams says refutes the story that he refused to train. Against this, SABR notes contemporaries who called him averse to training and records his own admission that he could not hit curve balls. Two converging reports of deliberate technique work against one contrary reputation, hence a moderate lean."
+    },
+    "competitiveness": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_thorpe_cusack_memoir, src_thorpe_jenkins_smithsonian2012 | 1915; 1917 | firsthand manager + self via journalist] Cusack, his Canton manager, describes the 1917 Massillon game as a personal duel with Stan Cofall in which Thorpe, angered by rough play he thought uncalled for, was hurt in the second quarter but played on, carried the ball more than anyone and was 'hoping for a chance to even up things'; the PFRA editor's note in the same text records that after the first 1915 Massillon defeat he criticised his team-mates' lack of team play. Thorpe's own line, quoted by Jenkins, was that he had 'an aversion for getting beat' (self, corroboration only). Two dated episodes from one insider plus a self statement; results, records and titles are not used."
+    },
+    "social_assertiveness": {
+      "score": 38,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_thorpe_jenkins_smithsonian2012, src_thorpe_adams_nmai2012, src_thorpe_cusack_memoir, src_thorpe_sabr_jensen | 1912-1921 | teacher recollection via journalist + historian + firsthand manager] Jenkins reports that after the July 1912 medal ceremony he passed up grander social invitations ('I didn't wish to be gazed upon as a curiosity', self) and later refused to campaign for his medals; his Carlisle teacher Marianne Moore recalled him as modest, with 'no back talk'. Adams says he 'rarely complained' about their loss. Cusack says that as Canton captain in 1915 he was hesitant to substitute players, especially All-Americans, so they agreed Cusack could do it from the bench. On the other side, he criticised his 1915 team-mates (Cusack's editor), complained about his playing time before the 1919 trade (SABR), and in 1921 brought Cusack in to press his Cleveland club for his full share (Cusack). A mostly reserved public manner with documented exceptions; dual_edged because the same reserve left his case to be argued by others."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_thorpe_cusack_memoir, src_thorpe_adams_nmai2012, src_thorpe_jenkins_smithsonian2012 | 1912; 1915-17 | firsthand manager + conflicting secondary] Cusack says the hard sole-leather shoulder pads Thorpe wore at Canton were made at Thorpe's own suggestion, and that the two planned to market them as 'The Jim Thorpe Shoulder Pad' until a manufacturer feared they would be ruled illegal. At Stockholm in 1912 his shoes went missing during the decathlon; Adams says he scrounged replacements (one lent, one from the trash), but Jenkins says Warner put the pair together, so the shoe episode is weak support at best. One on-point insider episode, hence inference."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jim-thorpe-underwood-1913.jpg",
+    "width": 1320,
+    "height": 1430,
+    "source": "Library of Congress Prints and Photographs Division (ppmsca.31944, LCCN 2011649818) via Wikimedia Commons",
+    "license": "Public domain",
+    "attribution": "Underwood & Underwood, 'Jim Thorpe, the olympic hero', gelatin silver print, 1913 (item notes: 'Copyright 1913, by Underwood & Underwood', U.S. Copyright Office J179594); Library of Congress; cropped to the subject",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2011649818/",
+    "creator": "Underwood & Underwood",
+    "date": "1913",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jim_Thorpe,_the_olympic_hero_LCCN2011649818.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "짐 소프"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-09-26) for Q221482 returned label 'Jim Thorpe', description 'American track and field athlete and baseball player (1888-1953)', P569 28 May 1888 (alongside an unknown-value statement), P570 28 Mar 1953, citizenship United States (Q30), instance of human, en aliases 'Bright Path', 'James Francis Thorpe', 'Wa-Tho-Huk', ko label '짐 소프' and kowiki sitelink '짐 소프' (used for localization), P18 'Jim Thorpe 1910s2.jpg'. This is the athlete, not the snooker referee of the same name. BIRTH YEAR: birthYear 1888 follows Wikidata; SABR and some other sources give 28 May 1887 -- a known conflict, not adjudicated. SLUG CHECK: no data-pipeline/candidates/jim-thorpe.json existed before this run and grep of src/data/people/*.ts for 'Thorpe' found only unrelated hits (Woolsthorpe; Charles Thorpe as a cited author); no collision. CLASSIFICATION: occupation athlete and field sport, following jesse-owens.json, babe-ruth.json and wilma-rudolph.json (all athlete / sport, era 20th_century, US, north_america). impactDomains athletic and historical; tag generalist (existing id) and archetype competitive_performer are classification only, tied to the cross_domain_range and competitiveness rows, not evidence. The APFA presidency (1920) is a title and is not scored; no business or football-administration field was added. EVIDENCE READ: 9 source records (1 orientation, 8 read): SABR biography (Jensen), American Indian Magazine article (Adams, NMAI), Jack Cusack's memoir (PFRA reprint), Smithsonian feature (Jenkins 2012), Pro Football Hall of Fame page, Gill's Coffin Corner reconstruction, the Carlisle Indian School DRC catalogue record, Smithsonian 2022 news report; all fetched with curl and read from the raw text (PDFs via pdftotext). INDEPENDENT PERSPECTIVES: (1) Don Jensen / SABR, baseball historian (carrying Chief Meyers and Edd Roush); (2) James Ring Adams, NMAI historian (carrying Gus Welch's later testimony); (3) Jack Cusack, Canton manager and friend, firsthand insider (with a PFRA editor's notes); (4) Sally Jenkins, journalist, drawing on Kate Buford's biography and carrying Marianne Moore, Verna Whistler, Pop Warner and Francis Albertanti; (5) Pro Football Hall of Fame (institution); (6) Bob Gill / PFRA (sceptical statistical reconstruction, not used for rows); (7) Carlisle DRC archive catalogue (dates only); (8) Smithsonian 2022 news (event facts only). SELF perspective (counted once): Thorpe's own sayings quoted by Jenkins and SABR, and the January 1913 letter to the AAU as quoted by Adams and SABR -- which Adams reports Gus Welch later told a congressional investigator was drafted by Warner and superintendent Friedman, so it is treated as a signed, partly ghost-written statement and supports no row. NON-SELF BEHAVIOURAL sources: Cusack (firsthand), Jenkins (Warner, Moore, Albertanti), Adams, SABR. No row rests on self material alone. EPISODE USE: 1917 Massillon duel with Cofall -> competitiveness only; 1915 criticism of team-mates (PFRA editor's note in Cusack) -> competitiveness and social_assertiveness; 1915 reluctance to substitute -> social_assertiveness; 1912 declined invitations and later refusal to campaign for the medals -> social_assertiveness; 1919 playing-time complaint -> social_assertiveness; 1921 Cleveland finances -> social_assertiveness; shoulder-pad design -> resourcefulness; 1912 Stockholm shoes -> resourcefulness (weak, conflicting accounts); Warner's 'new motion' remark and 1912 shipboard long-jump rehearsal/deck-training photo -> mastery_orientation; 1912 javelin/pole-vault debut, 1913-19 baseball alongside pro football from 1915, films and merchant marine -> cross_domain_range. ROWS CONSIDERED AND LEFT UNSCORED: discipline (evidence is the 1913 late arrival, McGraw's lectures on drinking and cards and the 1915 'disturbing influence' release, which is entangled with alcohol, a health/private matter -- not scored); autonomy_need and independent_thinking (the main evidence is his repeated leaving of the Carlisle boarding school, which the brief treats as residential-school context not to be read as personality); persistence (baseball averages improving each season is an outcome, not behaviour); leadership_drive (player-coach and APFA president are titles; Cusack's account of his captaincy is mixed); conflict_tolerance (the medal non-campaign is already used in social_assertiveness); achievement_drive (Jenkins' motive claim about marrying Iva Miller is a private-life motive claim -- not used); proactive_agency (the 1907 high-jump-in-overalls story is a single, widely retold discovery anecdote). EXCLUDED ON PURPOSE: the boarding-school regime and his truancy; family deaths (twin brother, parents); alcohol, marriages, divorces, finances and late-life poverty; the 1951 lip-cancer operation and his death; the burial dispute; the King Gustav 'greatest athlete' quote (repeated by several sources but not verified from a contemporary record -- not used as a claim); all 'greatest athlete' judgements (Mallon, AP 1950 poll, Sport 1977 poll); points totals, times, titles and records as evidence. The 1913 disqualification is treated only as a documented public event. CONFLICTS REPORTED, NOT ADJUDICATED: (a) birth year 1887 vs 1888; (b) SABR says he 'founded' the Canton Bulldogs in 1915, while the Hall of Fame and Cusack say Cusack signed him -- the SABR phrase is not used; (c) the Stockholm shoes: Adams says he scrounged one lent shoe and one from the trash, Jenkins says Warner assembled the pair, Native News Online says both came from a trash can; (d) the baseball summers: SABR says 1910-11 at Rocky Mount and Fayetteville for $60 a month, Adams says 1909-10 at $5 a game (Clancy's revelation), Jenkins says 1909-10; (e) SABR and Adams date the IOC reversal to 1983 and 13 Oct 1982 respectively (replica medals presented in 1983). KNOWN LIMITS: no contemporary newspaper was read -- Chronicling America and loc.gov returned a Cloudflare bot-check/403 and were not bypassed; Olympics.com (IOC 2022 release and athlete page) timed out from curl and WebFetch; the Washington Post 2022 item timed out; Kate Buford's and Robert Wheeler's biographies were not available and are not counted; the Carlisle DRC scanned student file (97 pages) has no text layer and was not read. Cusack is the only firsthand insider and is a friend; several key recollections (Moore, Warner, Albertanti) reach us through Jenkins, who draws on Buford. The profile is therefore deliberately sparse (5 rows, all at or below 0.55). PORTRAIT: Commons 'File:Jim Thorpe 1910s2.jpg' (Wikidata P18). File-page wikitext read via action=raw: Information template, Source https://www.loc.gov/pictures/item/hec2008009556/, Date between 1910 and 1920, Author Harris & Ewing, Permission {{PD-1923}}; Commons API extmetadata: LicenseShortName 'Public domain', Copyrighted False, Categories 'Jim Thorpe | PD US expired'; no third-party or 'copyright claim' notice. The LOC record page itself (and its JSON) returned a Cloudflare bot check / HTTP 403 to curl, WebFetch and the browser pane, so the LOC rights advisory was NOT read directly; tile.loc.gov served the corresponding hec 09556 image (HTTP 200), confirming the Harris & Ewing collection item exists. The basis is therefore the Commons template plus the Harris & Ewing / LOC provenance, the same basis accepted for the booker-t-washington, charles-lindbergh and t-e-lawrence portraits; a reviewer may wish to confirm LOC's 'No known restrictions on publication' wording from an unblocked connection (PD-1923 assumes publication before 1923, which Commons does not document for this negative). Original 1998x2927 greyscale JPEG downloaded with curl and a User-Agent, opened with Pillow, downscaled (LANCZOS) to 1092x1600, JPEG q85, no crop, no upscaling; viewed: a single-subject, head-and-torso outdoor portrait of Thorpe in a dark football jersey, face clearly visible. Kind: likeness. REJECTED: 'File:Jim Thorpe1912 Olympics.jpg' (second P18) -- only 290x430 px, a bare {{PD-old}} tag with 'Credit: IOC / Olympic Museum Collections' and no photographer, so the rights basis is uncertain. KOREAN NAME: '짐 소프' is the Wikidata ko label and the Korean Wikipedia title (sitelink). No eligibility, coverage or match output was used in scoring. LEAD REVIEW PORTRAIT SWAP: the researcher's Harris & Ewing file (Commons File:Jim_Thorpe_1910s2.jpg) rested on a bare {{PD-1923}} tag with no documented publication, and the LOC record could not be read (bot check), so its basis was materially uncertain for a possibly unpublished studio negative. Replaced by the Underwood & Underwood print 'Jim Thorpe, the olympic hero' (1913), whose LOC/Commons record carries 'Copyright 1913, by Underwood & Underwood' and U.S. Copyright Office registration J179594: published with notice in 1913, so its US copyright expired (pre-1931 publication); Commons wikitext: 'No known restrictions on publication', {{LOC-image|id=ppmsca.31944}}, {{PD-old-70-1923}}, no third-party claim. Original 1944x1576 downloaded and viewed (Thorpe in profile writing at a desk, in suit); cropped to the subject (mount and empty left side removed), not resized. PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  }
+}

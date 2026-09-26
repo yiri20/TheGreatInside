@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "clara-schumann",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Clara Schumann",
+    "aliases": [
+      "Clara Wieck",
+      "Clara Josephine Schumann",
+      "Clara Wieck-Schumann"
+    ],
+    "wikidataId": "Q132232",
+    "birthYear": 1819,
+    "deathYear": 1896,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "musician",
+      "composer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "prodigy",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_clara_wikipedia",
+      "kind": "wikipedia",
+      "title": "Clara Schumann (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '클라라 슈만' confirmed via the Wikidata sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Clara_Schumann"
+    },
+    {
+      "id": "src_clara_wikidata",
+      "kind": "wikidata",
+      "title": "Clara Schumann (Q132232) -- verified live via wbgetentities (2026-09-26): en label 'Clara Schumann', description 'German musician and composer (1819–1896)', ko label '클라라 슈만', born 1819-09-13, died 1896-05-20, citizenship Q153015 (Kingdom of Saxony), P18 'Franz Hanfstaengl - Clara Schumann (1857).jpg', kowiki '클라라 슈만'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q132232"
+    },
+    {
+      "id": "src_clara_may_girlhood",
+      "kind": "biography",
+      "title": "Florence May, The Girlhood of Clara Schumann (Clara Wieck and her time) (London: Edward Arnold, 1912), archive.org OCR (girlhoodofclaras00mayfuoft) -- SCHOLAR/FORMER-PUPIL perspective: May studied with Clara Schumann in 1871 and knew her personally; for the personal events of 1819-40 she relies on Litzmann vol. I (i.e. on the family diaries), but she adds her own research in concert records (Dorffel's Gewandhaus history, contemporary newspapers such as the Leipziger Tageblatt, Preussische Staatszeitung and Allgemeine Musikalische Zeitung, which she quotes). Read: Preface; ch. V end (Paris 1832, first public extemporising and playing from memory); ch. VI pp. 81-82 (Jan.-May 1833 programmes introducing Chopin and Schumann); ch. XII pp. 189-195 (Berlin concerts Feb.-Mar. 1837: programmes, the Preussische Staatszeitung reviews, the probable first concert performance of Beethoven's Op. 57); ch. XVI pp. 266-274 (autumn 1838 - Jan. 1839: her resolve to tour without her father, the Paris journey, choice of instrument, refusal to return, move to the List household); ch. XIX 'Afterwards' pp. 316-330 (May's OWN FIRSTHAND characterisation of her mature playing, repertoire, first performances of Brahms, teaching and Frankfurt appointment 1878, and a candid paragraph on her difficulty in private association).",
+      "url": "https://archive.org/details/girlhoodofclaras00mayfuoft"
+    },
+    {
+      "id": "src_clara_may_brahms",
+      "kind": "biography",
+      "title": "Florence May, The Life of Johannes Brahms, vol. I (London: Edward Arnold, 1905), Project Gutenberg #40643 -- FORMER-PUPIL EYEWITNESS perspective (non-self): May's own account of arriving at Lichtenthal (Baden-Baden) in May 1871 to study with Clara Schumann for a year, specifically to correct deficiencies in her mechanism that Clara had pointed out; Clara's daily household, her arranging lessons with Brahms during her Swiss absence, and her handing May over to Brahms for the rest of the stay. Read: ch. I opening chapter pp. 1-15 (Gutenberg lines c. 330-1110).",
+      "url": "https://www.gutenberg.org/ebooks/40643"
+    },
+    {
+      "id": "src_clara_hanslick",
+      "kind": "archive",
+      "title": "Eduard Hanslick, Aus dem Concert-Saal: Kritiken und Schilderungen aus 20 Jahren des Wiener Musiklebens 1848-1868 (2nd ed., Vienna: Braumueller, 1897), archive.org Google-scan OCR (ausdemconcertsa01hansgoog), read in German from the Fraktur OCR -- CONTEMPORARY CRITIC perspective (non-self, independent of the family, admiring but openly critical). Read: the 1856 review 'Clara Schumann' (pp. 110-114: her subordination of her own subjectivity to the composer's intention as an 'inviolable law', study of each work 'in the finest detail', near-exceptionless strictness of tempo against the prevailing rubato, a metronome-like middle section in Chopin's D-flat Impromptu that he questions, her programmes of Beethoven Op. 101, Mendelssohn's Variations serieuses and Schumann's Etudes symphoniques as 'unheard of' in a modern concert, 'she plays only serious music', her successive presentation of Robert Schumann's piano works, his reservations that her playing is more deeply understood than deeply felt); and the 1858 review (pp. 179-182: 'piety' that gives nothing more or other than the composer prescribed; criticism that her tempi had become markedly faster, e.g. the first Kreisleriana piece and the second Novellette; her choice of Beethoven's Op. 27 No. 1 and of Kreisleriana despite worries about its 'impossibility' in concert; her performance of Schumann's A minor concerto, not played in Vienna by anyone since she played it there eleven years earlier).",
+      "url": "https://archive.org/details/ausdemconcertsa01hansgoog"
+    },
+    {
+      "id": "src_clara_eugenie",
+      "kind": "biography",
+      "title": "Eugenie Schumann, The Schumanns and Johannes Brahms: The Memoirs of Eugenie Schumann (New York: Dial Press, 1927; English translation of 'Erinnerungen', 1925), archive.org OCR (schumannsjohanne00schu) -- DAUGHTER/INSIDER EYEWITNESS perspective (non-self but family, affectionate). Read: 'Childhood' pp. 16-18 (her mother's daily practice routine in the Baden-Baden summers: scales and arpeggios, Czerny's Toccata, Bach, Schumann's Toccata and Chopin studies; practising without the music; learning Brahms's new works); 'Our Mother' pp. 96-101 (Eugenie's own lessons from her mother c. 1869-70: twice weekly kept 'with the greatest regularity', Beethoven as the nucleus of every lesson, 'she did not let the smallest inexactitude pass', her refusal of fingered and annotated editions and the argument with Brahms over Czerny's Bach edition, her lowering of her initial demands); p. 146 (comparison of her mother's and Brahms's teaching); pp. 183-184 (Frankfurt from 1878: Marie and Eugenie as her assistants, attention to pupils' welfare, a subscription fund she administered for talented students).",
+      "url": "https://archive.org/details/schumannsjohanne00schu"
+    },
+    {
+      "id": "src_clara_ndb",
+      "kind": "institution",
+      "title": "Marion Brueck, 'Schumann, Clara Josephine geborene Wieck', Neue Deutsche Biographie 23 (2007), pp. 746-749, online at Deutsche Biographie (Historische Kommission bei der Bayerischen Akademie der Wissenschaften), read in German in full 2026-09-26 -- MODERN SCHOLARLY perspective, independent of the period family sources and drawing on the modern letter editions. Read: the whole biography section (training under Wieck, Weinlig and Dorn; 1837-38 Vienna and Op. 57; the 1839 Paris tour without her father as a fact; the court decision; marriage years and her organisation of household and tours; resumption of full concert activity in autumn 1854; the touring pattern and 19 visits to England; the 1878 Hoch Conservatory appointment with Marie and Eugenie teaching technique while she taught interpretation; carefully planned programme disposition shifting from mixed virtuoso programmes to demanding classical literature; her becoming a tireless advocate of Robert Schumann's works after 1856; her giving up composition in 1856; editing, proofreading for Haertel, responsibility for the Breitkopf & Haertel Collected Edition 1879-86 and the 1886 'instructive edition'; the letters' picture of her as highly self-disciplined and serious) plus the Werke/Quellen/Literatur lists.",
+      "url": "https://www.deutsche-biographie.de/gnd11861164X.html"
+    },
+    {
+      "id": "src_clara_brahms_letters",
+      "kind": "archive",
+      "title": "Letters of Clara Schumann and Johannes Brahms 1853-1896, ed. Berthold Litzmann, English ed. (London: Edward Arnold / New York: Longmans, 1927), vol. II (1872-1896), archive.org OCR (lettersofclarasc0002bert) -- MIXED: Clara's own letters are SELF; Brahms's letters and Litzmann's editorial notes are NON-SELF (friend/insider). Read: 1877 letters on the Novello and Breitkopf & Haertel offers to revise Robert Schumann's works (pp. 8-12); Brahms's letter of early 1878 on the edition (pp. 29-30); Clara's letter of 21 March 1878 listing the conditions she set for the Hoch Conservatory post (1.5 hours' teaching a day, four months' holiday, freedom to travel, lessons at her house, salary, an assistant) and on comparing Haertel's proofs with her husband's manuscripts (pp. 30-31); Brahms's 1878 letter sending her songs and duets for her criticism (p. 34); her detailed criticism of his Op. 76 piano pieces, her statement that she looks through proofs before sending them to him, and her routine of 1-2 hours' daily practice (pp. 38-40); her 1880s letter on not giving 'superficial criticism' of his manuscripts (p. 5178 region, c. 1880s); her 1881 letter asking his frank opinion on the Czerny course translation.",
+      "url": "https://archive.org/details/lettersofclarasc0002bert"
+    },
+    {
+      "id": "src_clara_litzmann",
+      "kind": "biography",
+      "title": "Berthold Litzmann, Clara Schumann: An Artist's Life, Based on Material Found in Diaries and Letters, trans. Grace E. Hadow, vol. II (London: Macmillan / Leipzig: Breitkopf & Haertel, 1913), archive.org OCR (claraschumannart02litz) -- FAMILY-AUTHORISED INSIDER narrative built on Clara Schumann's own diaries and letters: the quoted diary and letter passages are treated as SELF, Litzmann's linking narrative as insider. Read: table of contents; p. 67 (diary, March 1854); pp. 87-88 (the departure on the concert tour of October 1854); p. 310 (diary, 30 May 1876: the Berlin Hochschule offer of six lessons a week for 1000 thaler, which she refused, agreeing instead to a winter engagement); pp. 338-339 (diary, early 1878: Raff's offer of a post at the new Hoch Conservatory, her reservations about working under Raff and his assurances that she could teach at home without central management; Brahms's advice to accept); the letter to Joachim of 26 Jan. 1858 (Stuttgart teaching offer). Vol. I (claraschumannana001384mbp) was downloaded but only used through May's citations, not read directly.",
+      "url": "https://archive.org/details/claraschumannart02litz"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clara_hanslick, src_clara_eugenie, src_clara_ndb, src_clara_brahms_letters | 1856; 1858; late 1860s; 1877-86 | critic + daughter eyewitness + modern scholar + self] Hanslick, reviewing her Vienna concerts in 1856, wrote that she gave each work after studying it 'in the finest detail' and kept an almost exceptionless strictness of tempo against the prevailing rubato (he found a metronome-like middle section in Chopin's D-flat Impromptu surprising); in 1858 he again named as the basis of her playing a fidelity that would give 'nothing more and nothing other' than the composer wrote. Eugenie Schumann, taught by her late 1860s, records that she 'did not let the smallest inexactitude pass', treated the notation as binding, and took 'untold trouble' until every tie, portamento and phrasing mark was played as written. The NDB records that she proof-read for Haertel and was responsible for the Breitkopf & Haertel Collected Edition of Robert Schumann's works (1879-86); her own 1878 letter says she compared every piece Haertel sent with her husband's manuscripts. Independent sources across three decades converge."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_clara_eugenie, src_clara_brahms_letters, src_clara_may_girlhood, src_clara_hanslick | late 1860s; 1878; 1856; 1867-88 | daughter eyewitness + friend's letters + former pupil + critic] Eugenie describes her first lesson: her mother stopped a Czerny study to show how the chords 'sound much nicer' played from the wrist, 'forte, yet exquisitely mellow in tone', and later drilled diminuendos and shadings until she was satisfied. In 1878 Brahms sent her new songs and duets asking for her criticism, and in December 1878 she answered on his Op. 76 pieces bar by bar, e.g. that one passage 'would sound better with another harmony' because it was 'so dry' beside a 'liquid' one, and preferring his earlier version of a return. Florence May, who heard her often, lists beauty and roundness of tone and broad phrasing as the marks of her style; Hanslick (1856) singled out her small accents as careful illumination of rhythmic and harmonic contrasts. Several distinct instances; the playing descriptions are reception, so confidence stays moderate."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_clara_hanslick, src_clara_may_girlhood, src_clara_ndb | 1856; 1840s-1890s | critic + former pupil/scholar + modern scholar] Hanslick in 1856 wrote that performing Beethoven's Op. 101, Mendelssohn's Variations serieuses and Schumann's Etudes symphoniques in a concert was 'unheard of', that her programmes were free of the fashionable mixture of serious and trivial pieces, and that 'she plays only serious music'. May, who heard her in London from 1867, records that from her marriage onward she gradually dropped the 'mere virtuoso pieces' her early programmes had needed; the NDB describes a carefully planned programme disposition that moved from typical mixed virtuoso programmes towards demanding classical literature. Scored only from her adult choices: the NDB notes that repertoire and programmes in her childhood tours were chosen by her father, so the 1830s programmes are not credited to her here."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_clara_hanslick, src_clara_may_girlhood, src_clara_ndb | 1858; 1856-1890s | critic + former pupil/scholar + modern scholar] Hanslick (1858) records her playing Robert Schumann's A minor Concerto in Vienna, which no one had performed there in the eleven years since she herself had played it, and presenting Kreisleriana despite doubts about its suitability for the concert hall. May lists the Brahms works whose first public performances she gave (movements of Op. 5, pieces from Op. 10, the variations Op. 21 No. 2 and Op. 24, the G minor quartet Op. 25) and says she introduced his name to audiences in many German towns, Vienna and London. The NDB calls her a tireless advocate of Robert Schumann's work after 1856. Sustained promotion of other composers' music over decades; confidence moderate because personal loyalty is part of the motive."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_clara_may_girlhood, src_clara_ndb, src_clara_brahms_letters, src_clara_litzmann, src_clara_eugenie | 1839; 1876; 1878 | former pupil/scholar + modern scholar + self + daughter] In January 1839, aged nineteen, she toured to Paris without her father for the first time (NDB, as a fact); May records that in Paris she refused friends' urging to go back ('I shall not go'), dismissed the companion she had travelled with, and arranged to live with the List family for the season. In May 1876 she declined a Berlin Hochschule post at six lessons a week (her diary via Litzmann). In March 1878 she accepted the Hoch Conservatory post only on stated conditions: 1.5 hours' teaching a day, four months' holiday, freedom to travel for short periods without asking permission, lessons in her own house (her letter to Brahms); Raff had assured her there would be no central management over her. The NDB and Eugenie confirm that she moved to Frankfurt with her daughters as assistants. Three separate decisions; the 1876/1878 terms rest partly on her own writings."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_clara_may_girlhood, src_clara_may_brahms, src_clara_brahms_letters, src_clara_ndb | 1856-1890s; 1871; 1877-86 | former pupil eyewitness + friend's letters + modern scholar] May records many concert engagements and tours with Joseph Joachim and her chamber-music performances with Joachim, Piatti and colleagues at the London Popular Concerts from 1867. In 1871 May saw her arrange for Brahms to give May technical lessons during her absence, and then hand May over to him for the rest of her stay. Their letters show Brahms sending her manuscripts for criticism, and in 1878 she said she always looked through the Schumann proofs herself before sending them to Brahms and left the final decision to his judgment. The NDB confirms the lifelong artistic exchange with Brahms and Joachim. Several distinct, long-running partnerships; confidence moderate because the letters are partly her own."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_clara_eugenie, src_clara_brahms_letters, src_clara_ndb | 1860s; 1878; 1854-1891 | daughter eyewitness + self + modern scholar] Eugenie describes the summer routine at Baden-Baden in the 1860s: straight after breakfast she played scales and arpeggios in every form, then Czerny's Toccata, then Bach, Schumann's Toccata and Chopin studies. She adds that her mother kept her twice-weekly lessons 'with the greatest regularity, no matter what demands were made upon her'. In 1878, while teaching in Frankfurt, Clara wrote that she still had to practise one to two hours every day. The NDB describes her yearly pattern of tours from autumn to spring with the summers used to prepare them, and cites her letters as showing her to be 'extremely self-disciplined'. Converging accounts, partly from family and her own letters, so confidence stays below 0.6."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_clara_eugenie, src_clara_may_girlhood | 1860s-1880s | daughter eyewitness + former pupil/scholar] Eugenie says the full daily technical routine continued in the Baden-Baden summers long after her mother's career was established, and that she learned each new Brahms work as it appeared. May records that after her marriage she went on 'adding important works to her repertoire year by year', and names Beethoven's Opp. 101 and 109 among her favourites of her middle and later years. Eugenie also notes that she did not practise slowly bar by bar, so this is continued upkeep and widening of repertoire rather than documented technical rebuilding; hence a moderate score."
+    },
+    "perfectionism": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_clara_may_girlhood, src_clara_ndb | 1860s-1880s; 1856 | former pupil/scholar + modern scholar] May, who heard her often and studied with her, says she sometimes struck wrong notes when carried away in public, but that she 'was herself more sensible' of this than her audiences were. The NDB records repeated self-doubt about her own compositions and that she stopped composing in 1856, 'possibly' because her standards had risen. Two indirect signals, one of them the scholar's hedged conjecture, so this is scored at inference level. Dual-edged: the same self-criticism is linked to her giving up composition."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q132232 verified live (wbgetentities, 2026-09-26): en 'Clara Schumann', description 'German musician and composer (1819–1896)', de 'deutsche Pianistin und Komponistin', ko label '클라라 슈만' (ko description '독일의 피아니스트, 작곡가 (1819-1896)'), born 1819-09-13, died 1896-05-20, citizenship Q153015 (Kingdom of Saxony), GND 11861164X, P18 'Franz Hanfstaengl - Clara Schumann (1857).jpg', kowiki sitelink '클라라 슈만' (used for displayNames ko-KR). Slug collision check: no clara-schumann file in data-pipeline/candidates before this cycle, no Clara Schumann person in src/data/people (grep for 'clara'/'Schumann' found only unrelated text), no Schumann portrait in public/portraits. CLASSIFICATION PRECEDENT: nationalityCodes DE and era 19th_century as for ludwig-van-beethoven; regionCode western_europe follows the majority of DE candidates (carl-friedrich-gauss, alexander-von-humboldt, karl-benz, rudolf-diesel, johann-sebastian-bach, george-frideric-handel); note that ludwig-van-beethoven alone uses central_europe -- lead may want to harmonise. Occupations musician + composer (existing ids; frederic-chopin and george-frideric-handel use the same pair); no 'pianist' occupation id exists and none was invented -- FLAG FOR LEAD if a pianist/performer id is ever wanted. Field music as assigned. Impact domains artistic, cultural (music precedent). Tags prodigy (Gewandhaus solo debut 1830 aged eleven; NDB) and mentor (Hoch Conservatory 1878-92; many pupils); archetype creative_creator (as Chopin/Handel); no new tags. EVIDENCE READ (9 source records incl. 2 orientation; 7 substantive, all downloaded to scratch_r40/work/clara-schumann and read locally): Florence May, The Girlhood of Clara Schumann (1912) -- preface, ch. V end, ch. VI pp. 81-82, ch. XII pp. 189-195, ch. XVI pp. 266-274, ch. XIX pp. 316-330; Florence May, Life of Brahms vol. I (1905) -- her firsthand account of studying with Clara Schumann at Lichtenthal in 1871; Eduard Hanslick, Aus dem Concert-Saal (German, Fraktur OCR) -- his 1856 and 1858 reviews; Eugenie Schumann's memoirs (1927 English) -- childhood, 'Our Mother', Frankfurt passages; Marion Brueck's NDB article (2007) in full; Letters of Clara Schumann and Johannes Brahms vol. II (1927) -- 1877-78 letters and selected later letters; Litzmann vol. II (1913) -- specified diary passages and narrative. Downloaded but NOT read/used: Litzmann vol. I English (used only through May's citations), Letters from and to Joseph Joachim (1914). INDEPENDENT PERSPECTIVES: (1) Clara Schumann herself (diaries via Litzmann; her letters to Brahms; her letters quoted by May) -- one self perspective, never sole support for a row; (2) Berthold Litzmann, family-authorised insider narrative; (3) Florence May, former pupil (1871) and music historian, with contemporary press reviews she quotes (Preussische Staatszeitung 1837, Leipziger Tageblatt 1833); (4) Eduard Hanslick, contemporary Viennese critic, admiring but openly critical; (5) Eugenie Schumann, daughter and pupil, eyewitness; (6) Johannes Brahms, via his own letters in the 1927 edition; (7) Marion Brueck, NDB 2007, modern scholarly synthesis drawing on the modern letter editions. NON-SELF behavioural sources: Hanslick, May (both books), Eugenie Schumann, Brahms's letters, NDB. EPISODE USE (no episode supports more than two rows): Hanslick 1856 review -> detail_orientation, independent_thinking (and a brief phrase-level citation of her accents in aesthetic_sensitivity); Hanslick 1858 review -> detail_orientation, impact_motivation; Eugenie's lessons (late 1860s) -> detail_orientation, aesthetic_sensitivity; Eugenie on the daily practice routine (1860s) -> discipline, mastery_orientation; Collected Edition / proofs 1877-86 -> detail_orientation, collaboration; Brahms sending manuscripts and her Op. 76 critique 1878 -> aesthetic_sensitivity, collaboration; Brahms first performances (May) -> impact_motivation, collaboration (secondary); Joachim chamber partnership (May) -> collaboration; May 1871 hand-over to Brahms -> collaboration; May on dropping virtuoso pieces + NDB programme disposition -> independent_thinking; May on her playing style -> aesthetic_sensitivity; May on wrong notes + NDB on giving up composition -> perfectionism; Paris 1839 -> autonomy_need; Berlin Hochschule 1876 and Hoch Conservatory 1878 terms -> autonomy_need; her 1878 letter on daily practice + NDB touring/preparation pattern -> discipline; May on repertoire growth -> mastery_orientation. ROWS CONSIDERED AND LEFT UNSCORED: belief_updating (May, who knew her, writes that she could not easily be induced to see another side of a question once she had formed a strong opinion and did not readily forgive offence -- a single characterisation about private association, which May herself ties to strain and nerves; against it, Eugenie records her yielding to Brahms over Czerny's Bach edition; omitted as private-life/health-adjacent and mixed); persistence and risk_tolerance (the 1839 Paris season rests on one episode already used; a long career is not scored from its length); decisiveness (declining a Dresden post 'without further ado', 1878 -- her own letter only); conflict_tolerance (the 1839-40 lawsuit is recorded as a public legal fact only, not scored); creative_originality and experimentation as composer (NDB praises the concerto and songs, but no behavioural evidence was read); proactive_agency, planning_orientation, achievement_drive, competitiveness, leadership_drive, social traits -- insufficient on-point evidence. EXCLUDED ON PURPOSE: Robert Schumann's illness, Endenich and death; the children's illnesses, the eldest son's institutionalisation and the children's deaths; her own health, deafness and final illness; the March 1854 diary entry refusing a benefit concert and the October 1854 resumption of touring are recorded only as context and not used for any row because they fall inside Robert's illness; the relationship with Brahms beyond professional exchange (NDB's remark on its nature not used); the romance and conflict with Friedrich Wieck (only the public fact of the court case is mentioned in the editorial draft); May's defence of Wieck's motives; no 'greatest pianist' claim is made (NDB and May use superlatives; not repeated). KNOWN LIMITS: most period sources are admiring or family-connected (Litzmann authorised by the family; Eugenie is her daughter; May her pupil); Hanslick is the main independent contemporary and covers only 1856-58 Vienna concerts; the Hanslick text was read from a poor Fraktur OCR, so quotations are translated paraphrases; the 1837 programmes were substantially chosen by Wieck, so early career behaviour is under-used; modern scholarship (Nancy Reich's biography, the Clara/Robert Briefwechsel edition, Borchard) was not freely available and was represented only by the NDB article. No row exceeds confidence 0.68. PORTRAIT: File:Franz Hanfstaengl - Clara Schumann (1857).jpg on Wikimedia Commons, an autotype (halftone) reproduction of Franz Hanfstaengl's 1857 Munich photograph (his signature visible on the pedestal), 'self-scanned' by the uploader in 2007. Commons API extmetadata and raw wikitext read: {{Information}} with author {{Creator:Franz Hanfstaengl}}, date 1857, licence template {{PD-old-100}}; no third-party copyright-claim template; no upstream institution page exists for this scan. Rights basis: Franz Hanfstaengl died in 1877, so the 1857 photograph is public domain worldwide and a faithful reproduction adds no new right; basis not materially uncertain. Original downloaded 2082 x 2651 px (greyscale), opened with PIL, converted to RGB and downscaled to 1257 x 1600 px, JPEG q85; not cropped (the clipped corners belong to the print). Visually checked: three-quarter-length standing portrait of Clara Schumann in a dark dress, leaning on a pedestal and holding a small book. Kind 'likeness' (photograph from life). Rejected alternatives: 'Franz Hanfstaengl - Clara Schumann (1857, Zeno).jpg' (same image from Zeno.org, smaller web copy); the (cropped) derivative; 'Fritz Luckhardt - Clara Josephine Schumann portrait (ca.1890) (10134627633).jpg' (Bergen Public Library via Flickr, a good institutional alternative for an older likeness, but date uncertain c.1880-90); Elliott & Fry c.1890 and the Herbert Rose Barraud photograph (later likenesses; dates and sources not checked in depth); the lithographs and drawings of 1828-1840 (girlhood depictions). No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "클라라 슈만"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/clara-schumann-hanfstaengl-1857.jpg",
+    "width": 1257,
+    "height": 1600,
+    "source": "Franz Hanfstaengl, photograph of Clara Schumann, Munich 1857, reproduced as an autotype (halftone) print; scan uploaded to Wikimedia Commons ('self-scanned')",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-100",
+    "attribution": "Franz Hanfstaengl, Clara Schumann (1857), public domain, via Wikimedia Commons; downscaled",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Franz_Hanfstaengl_-_Clara_Schumann_(1857).jpg",
+    "creator": "Franz Hanfstaengl",
+    "date": "1857",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Franz_Hanfstaengl_-_Clara_Schumann_(1857).jpg"
+  }
+}

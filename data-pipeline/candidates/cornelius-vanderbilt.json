@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "cornelius-vanderbilt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Cornelius Vanderbilt",
+    "aliases": [
+      "Commodore Vanderbilt"
+    ],
+    "wikidataId": "Q313721",
+    "birthYear": 1794,
+    "deathYear": 1877,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial"
+    ],
+    "tagIds": [
+      "founder",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_vanderbilt_wikipedia",
+      "kind": "wikipedia",
+      "title": "Cornelius Vanderbilt (English Wikipedia) -- orientation only (identity, dates, career outline); not used as support for any scored row. Korean Wikipedia page 'ko:코닐리어스 밴더빌트' confirmed via Wikidata sitelink and MediaWiki API (intro read; '코넬리어스 밴더빌트' is a redirect to it).",
+      "url": "https://en.wikipedia.org/wiki/Cornelius_Vanderbilt"
+    },
+    {
+      "id": "src_vanderbilt_wikidata",
+      "kind": "wikidata",
+      "title": "Cornelius Vanderbilt (Q313721) -- identity verified live via the Wikidata API (wbgetentities, 2026-09-26): en label 'Cornelius Vanderbilt', description 'American businessman and tycoon (1794-1877)', ko label '코넬리어스 밴더빌트', born 1794-05-27, died 1877-01-04, citizenship United States (Q30), P18 'Cornelius Vanderbilt Daguerrotype2.jpg', kowiki title '코닐리어스 밴더빌트'. Distinct from Cornelius Vanderbilt II (Q2708289). Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q313721"
+    },
+    {
+      "id": "src_vanderbilt_parton",
+      "kind": "biography",
+      "title": "James Parton, 'Commodore Vanderbilt', in Famous Americans of Recent Times (Boston: Ticknor and Fields, 1867), pp. 375-398 (archive.org OCR full text famousamericans00partrich) -- read in full. Parton's own footnote says the narrative was written 'immediately after I had heard him tell the story himself' and first published in the New York Ledger of 8 April 1865, with some facts supplied by family members. Treated as a SELF-DERIVED (as-told-to) perspective mediated by a journalist, not as independent corroboration; its quotations of Vanderbilt are his own later recollections.",
+      "url": "https://archive.org/details/famousamericans00partrich"
+    },
+    {
+      "id": "src_vanderbilt_croffut",
+      "kind": "biography",
+      "title": "W. A. Croffut, The Vanderbilts and the Story of Their Fortune (Chicago and New York: Belford, Clarke, 1886), archive.org OCR full text (vanderbiltsstory00crofrich) -- read: preface and chapters II-VI (pp. 10-56: boyhood, boatman, Gibbons years, steamboat opposition lines, Nicaragua, Atlantic line, the 1862 gift of the steamship Vanderbilt), plus the table of contents of the rest. ADMIRING popular journalist's biography written after the Commodore's death with help from W. H. Vanderbilt's circle (acknowledges Depew and others); many early passages repeat Parton verbatim and so are NOT independent of the self-derived account; its colourful anecdotes (the 1853 'I won't sue you ... I'll ruin you' letter, the Lincoln dialogue, the San Juan 'tied-down safety-valve' story) are hedged or unused.",
+      "url": "https://archive.org/details/vanderbiltsstory00crofrich"
+    },
+    {
+      "id": "src_vanderbilt_adams_erie",
+      "kind": "biography",
+      "title": "Charles Francis Adams, Jr., 'A Chapter of Erie' (North American Review, July 1869), as reprinted in C. F. Adams Jr. and Henry Adams, Chapters of Erie and Other Essays (Boston: Osgood, 1871), archive.org OCR full text (chaptersoferie00adamrich) -- read: part I pp. 9-31 (Vanderbilt's Harlem/Hudson River/Central record, the October 1867 Erie election manoeuvre, the February-March 1868 attempt to corner Erie) and pp. 47-61 (the Albany legislative fight, Vanderbilt's withdrawal of opposition in April 1868, the July 1868 settlement). CONTEMPORARY, CRITICAL, NON-SELF analyst/reformer perspective (openly hostile to Vanderbilt's 'Caesarism'); used for dated actions, not for its moral characterisations.",
+      "url": "https://archive.org/details/chaptersoferie00adamrich"
+    },
+    {
+      "id": "src_vanderbilt_medbery",
+      "kind": "biography",
+      "title": "James K. Medbery, Men and Mysteries of Wall Street (Boston: Fields, Osgood, 1870), archive.org OCR full text (cu31924031218336) -- read: 'The Great Operators' chapter pages on Vanderbilt (pp. 154-164) and the passages on the 1865 Harlem squeeze (p. 99), the December 1868 scrip dividend (pp. 107-108), the New Haven directors (p. 183) and the 1868 legislature (p. 215). CONTEMPORARY financial journalist, NON-SELF; Medbery himself warns that Wall Street stories about the great operators 'must be accepted with caution', so his anecdotes are not used and only his dated facts and his remark on Vanderbilt's economies are used as corroboration.",
+      "url": "https://archive.org/details/cu31924031218336"
+    },
+    {
+      "id": "src_vanderbilt_tribune_1877",
+      "kind": "press",
+      "title": "New-York Tribune, 5 January 1877, obituary coverage 'Death of Vanderbilt' (page 1) and the long career notice on the supplement pages (sections 'Vanderbilt's Steamship Career', 'The Steamboat Builder', 'The Commodore's Lines', 'A Gift to the Government', 'Vanderbilt's Railroad Career', 'Railroad Policy', 'The Great Fight over Erie', 'Wall-St. Operations', 'Vanderbilt the Man', 'Vanderbilt and Brassey'), Library of Congress Chronicling America OCR via loc.gov JSON and tile.loc.gov text service -- read locally. CONTEMPORARY NEWSPAPER, NON-SELF; its early-life section clearly reuses Parton and is treated as derivative there; its railroad-era sections (Hudson River and Central management, 1868 scrip dividend and the Chapin consultation, 1870s rate war, Erie settlement quoting Adams) add independent contemporary reporting and criticism. Deathbed, illness, family and will passages were not used.",
+      "url": "https://www.loc.gov/item/sn83030214/1877-01-05/ed-1/"
+    },
+    {
+      "id": "src_vanderbilt_orn",
+      "kind": "archive",
+      "title": "Official Records of the Union and Confederate Navies in the War of the Rebellion, Series I, vol. 7 (Washington: GPO, 1898), archive.org OCR full text (officialrecordso0007unse) -- read the Vanderbilt documents of March 1862 (pp. ~129-175): Assistant Secretary of War Tucker's telegram of 15 March asking for what sum he would contract to destroy or contain the Merrimack and the reply sent for him; Vanderbilt's telegram to Stanton of 20 March; Stanton's reply and his order of 20 March accepting the gift of the steamship Vanderbilt and giving him discretion to arm and command her; Stanton to Wool, 27 March; the Cherrystone report of 28 March. PRIMARY GOVERNMENT RECORDS, NON-SELF (with two short Vanderbilt telegrams = self).",
+      "url": "https://archive.org/details/officialrecordso0007unse"
+    },
+    {
+      "id": "src_vanderbilt_stiles",
+      "kind": "biography",
+      "title": "T. J. Stiles, author's own essays on The First Tycoon: The Epic Life of Cornelius Vanderbilt (Knopf, 2009) at tjstiles.net ('Dynasty Wars: The Vanderbilt Will Trial', 'A Life Ill-Served', 'An Unexamined Life', 'Discoveries: Information first published in The First Tycoon' chapter-by-chapter list, and 'The Debunker' list of myths), read in full; plus the transcript of Stiles's interview on The Learning Curve podcast (Pioneer Institute, 3 January 2024), read for the segments on Gibbons v. Ogden, the steamboat and Nicaragua years, the Erie contest and the rate war with Gould and Fisk. MODERN SCHOLARLY BIOGRAPHER (Pulitzer Prize for Biography), NON-SELF, archive-based; these are the author's own summaries, not the book itself (the book was not available), so they are used mainly to test and hedge the older anecdotal sources and for a few dated facts. One perspective.",
+      "url": "https://www.tjstiles.net/disc.htm"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_vanderbilt_tribune_1877, src_vanderbilt_stiles, src_vanderbilt_parton, src_vanderbilt_adams_erie | 1829-50s; 1849-51; 1855-58; 1863-64; 1870s | contemporary press + modern scholar + self-derived + critical contemporary (counterweight)] After leaving Gibbons (1829) he set up opposition lines on the Hudson and the Sound, building faster boats and cutting fares against established companies until they compromised (Tribune 1877; Parton's as-told-to account). Stiles reports him saying he would go out of business if he could not run a boat for 25 per cent less than a competitor, and describes his cost-cutting on the New York-Boston routes. In 1849-51 he opened a Nicaragua route in competition with the subsidised Pacific Mail's $600 Panama service (Tribune; Stiles), and after the Post Office declined his mail offer he ran his own Havre line against the Collins line (Tribune). As a railroad owner he fought a rate war with the other trunk lines in the 1870s, carrying grain below cost, which the Tribune judged had 'ended in demoralization and defeat'; Stiles describes the Central matching Erie's cattle-rate cuts. Many independent episodes over fifty years; dual-edged because the rate wars also cost him and his roads. Kept just below the extreme band because the modern scholarly support is the biographer's own summaries rather than the book, and Adams (1869) notes that on the railroads he often ended competition by buying the rival line instead of fighting it. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 84/0.78 documented -> 82/0.72 documented; modern scholarship read only through the scholar's own summaries; early episodes descend from the subject's own 1865 telling"
+    },
+    "conflict_tolerance": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_vanderbilt_stiles, src_vanderbilt_tribune_1877, src_vanderbilt_parton | 1818-24; 1853-57; 1850s-60s | modern scholar + contemporary press + self-derived] As Gibbons's captain (1818-24) he ran the Bellona in defiance of the New York steamboat monopoly while writs for his arrest were out (Parton's as-told-to account; Tribune), and Stiles reports that he brought his own case, Vanderbilt v. Livingston, which stood next on the Supreme Court docket after Gibbons v. Ogden. When Accessory Transit stopped paying him in 1853 he published a letter threatening suit and then sued (Stiles; the famous 'I'll ruin you' letter is apocryphal and NOT used), and in 1856-57 he sent an agent to seize the transit steamboats in Nicaragua (Stiles). The Tribune (1877) adds a run of Wall Street fights carried into the courts: the struggle with Jeremiah Hamilton over the Transit company, and the long litigation over Robert Schuyler's over-issue of New York and New Haven stock (Stiles independently records the Schuyler fraud against him). Dual-edged: the same readiness for open conflict drew him into long, costly litigation. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 82/0.74 documented -> 82/0.70 documented; several episodes rest on the self-derived narrative and on the scholar's summaries rather than the book"
+    },
+    "opportunity_sensing": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vanderbilt_tribune_1877, src_vanderbilt_stiles, src_vanderbilt_parton | 1818; 1849-51; 1857-67 | contemporary press + modern scholar + self-derived] In 1818 he took command of one of Gibbons's steamboats for a small salary while steam navigation was still new (Tribune; Parton; Stiles notes he kept his own sailing ventures running, so this was an added line, not an all-in switch). With the gold rush he saw that the Pacific Mail's Panama route could be undercut and in 1849-51 obtained a Nicaraguan charter, sailed to explore the route and opened a shorter transit line (Tribune; Stiles). From about 1857 he began selling steamships and moving capital into railroads, taking the Harlem (1863), the Hudson River (1864) and the New York Central (1867) (Tribune; Parton, writing in 1865, already records the shift). Stiles describes the pattern as repeatedly moving to the new 'strategic center' of trade (New York-Philadelphia, the Hudson after the Erie Canal, the Sound, California, the Central line). Each shift is independently dated; the outcomes are not what is scored. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 80/0.74 documented -> 78/0.68 documented; the pattern is partly read back from outcomes (the move into railroads), with the early episodes descending from his own telling"
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_vanderbilt_tribune_1877, src_vanderbilt_stiles, src_vanderbilt_adams_erie | 1850-51; Feb.-March 1868 | contemporary press + modern scholar + critical contemporary] To open the Nicaragua route he took a small steamboat up the San Juan River and over the Castillo rapids himself, warping it over with cables fastened to trees (Tribune 1877; Stiles: 'piloting his own steamboat' through the rapids; Croffut's more colourful version is not relied on). In the 1868 attempt to corner Erie he kept buying while the Erie board issued new stock, absorbing some 100,000 shares he could not sell while money tightened, a position Adams (1869) called 'a fearful load' and the Tribune said left him 'on the brink of ruin'. Counterweights: Parton's as-told-to account stresses that he always provided in advance for his engagements, and Stiles describes patient accommodation in his railroad diplomacy, so the lean is clear but not extreme."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vanderbilt_tribune_1877, src_vanderbilt_adams_erie, src_vanderbilt_stiles, src_vanderbilt_parton | 1857-67; April-July 1868 | contemporary press + critical contemporary + modern scholar + self-derived] Having built his business on steamboats and steamships, from about 1857 he sold ships and moved into railroads, then took personal charge of their operation, laying steel rails and double-tracking (Tribune; Parton 1865; Stiles notes he had sat on early railroad boards since the 1840s). When the Erie corner failed, he withdrew his opposition to the Erie bill in Albany in April 1868 and negotiated a settlement in which the Erie took back 50,000 of his shares, remarking (as reported) that he could buy the railway but not the printing press (Adams; Tribune; Stiles says he was made whole). Two separate dated changes of course; the recollected quotation is not relied on."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vanderbilt_stiles, src_vanderbilt_tribune_1877, src_vanderbilt_orn | 1824; 1853-58; March 1862 | modern scholar + contemporary press + government records] During Gibbons v. Ogden he went as Gibbons's agent to engage Daniel Webster and stayed through the proceedings (Stiles). Back from Europe in 1853 he wrote to the Postmaster General offering a semi-monthly Atlantic mail line and, when the government did not accept, built ships and started his own Havre line (Tribune). He had tried to give his largest ship to the navy and been turned down (Stiles); when the War Department telegraphed on 15 March 1862 asking his price to stop the Merrimack, he went to Washington, and by 20 March the gift of the steamship Vanderbilt had been accepted and she was ready to sail (ORN; the Tribune quotes his offer letter to Welles)."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vanderbilt_tribune_1877, src_vanderbilt_stiles, src_vanderbilt_parton | 1806; c.1818-24; 1850-51 | contemporary press + modern scholar + self-derived] The Tribune (1877) and Stiles describe him getting a small steamboat over the San Juan rapids by warping it forward on cables fastened to trees. Parton's account, taken down from Vanderbilt himself in 1865 (so self-derived), adds that at twelve he got his father's teams ferried home without money by pawning a horse, and that as Gibbons's captain he evaded arrest by putting a woman at the wheel while he stayed out of sight; the Tribune repeats these, apparently from Parton. Only the San Juan episode is independently attested, so the score stays moderate."
+    },
+    "execution_speed": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vanderbilt_orn, src_vanderbilt_parton, src_vanderbilt_tribune_1877 | March 1862; 1814 | government records + self-derived + contemporary press] The Official Records show the War Department's enquiry of 15 March 1862, the reply that he would come to Washington, his telegram of 20 March asking for his authority by that day's mail because 'the ship leaves to-morrow', Stanton's reply noting the government's gratification at his 'promptitude', and a report of 28 March that the Vanderbilt was ready for action with steam kept constantly up. Parton's as-told-to account (repeated by the Tribune) says that in 1814 he carried provisions to six harbour posts by night for three months without missing a delivery while keeping his daytime ferry. One documented government instance plus a self-derived one, hence strong_inference."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vanderbilt_adams_erie, src_vanderbilt_tribune_1877, src_vanderbilt_stiles | 1863-73 | critical contemporary + contemporary press + modern scholar] He took the presidency of the Harlem (1863) and, after buying control of the Hudson River road, removed its president and ran it himself (Tribune); the Central's managers brought that road to him in 1866-67 and he took over its management (Adams; Tribune), consolidating it with the Hudson River road in 1869 and, after H. F. Clark's death in 1873, taking the presidency of the Lake Shore himself (Tribune; Stiles). In the 1869 decline he went to the Bank of New York to direct his brokers in person (Tribune). Stiles adds that he closely supervised the system until his last illness. Multiple dated instances of taking direct command, not scored from his wealth or titles."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vanderbilt_tribune_1877, src_vanderbilt_medbery, src_vanderbilt_stiles, src_vanderbilt_parton | 1830s-50s; 1860s-70s | contemporary press + contemporary journalist + modern scholar + self-derived] The Tribune (1877) says his vessels were generally built by day's work under his immediate supervision and to his own plans, with foundries making machinery to his ideas (Parton's as-told-to account says the same). On the railroads Medbery (1870) remarks on his 'watchful regard for small things' in management, and the Tribune lists the economies he imposed (ornaments stripped from locomotives, idlers discharged); Stiles describes his knowledge of small details such as route competitiveness and departure timing. The evidence is mostly about cost control and supervision rather than precision work, so moderate."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/cornelius-vanderbilt-brady-1844-60.jpg",
+    "width": 1198,
+    "height": 1600,
+    "source": "Library of Congress, Prints and Photographs Division, Daguerreotype collection (DAG no. 058; LC-USZC4-4160, digital ID cph.3a11569), via Wikimedia Commons (restored scan)",
+    "license": "Public domain",
+    "licenseUrl": "https://www.loc.gov/rr/print/res/622_dags.html",
+    "attribution": "Mathew Brady studio, Cornelius Vanderbilt, head-and-shoulders portrait, half-plate daguerreotype, between 1844 and 1860, Library of Congress Daguerreotype collection (DAG no. 058); public domain, no known restrictions on publication; scratches removed and histogram adjusted by Michel Vuijlsteke on Commons; downscaled",
+    "attributionUrl": "https://www.loc.gov/item/2004664073/",
+    "creator": "Mathew Brady (studio)",
+    "date": "between 1844 and 1860",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Cornelius_Vanderbilt_Daguerrotype2.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q313721 verified live (wbgetentities, 2026-09-26): en label 'Cornelius Vanderbilt', description 'American businessman and tycoon (1794-1877)', ko label '코넬리어스 밴더빌트', born 1794-05-27, died 1877-01-04, citizenship United States (Q30), P18 'Cornelius Vanderbilt Daguerrotype2.jpg', kowiki sitelink '코닐리어스 밴더빌트'. Not Cornelius Vanderbilt II (Q2708289). KOREAN NAME: the Korean Wikipedia title is '코닐리어스 밴더빌트' and '코넬리어스 밴더빌트' (the Wikidata ko label) is a redirect to it; displayNames ko-KR follows the kowiki title per the samuel-morse precedent -- the lead may prefer the more familiar '코넬리어스' spelling. English Wikipedia and the kowiki intro were read for orientation only. Slug collision check: no cornelius-vanderbilt file in data-pipeline/candidates, no Vanderbilt person entry in src/data/people (only mentions inside the J. P. Morgan record), no existing vanderbilt portrait. CLASSIFICATION PRECEDENT: era 19th_century, regionCode north_america, nationalityCodes US as for john-d-rockefeller, andrew-carnegie and j-p-morgan. occupationIds entrepreneur + executive follow john-d-rockefeller (he founded and ran his own steamboat and steamship lines and later served as president of the Harlem, Hudson River, New York Central and Lake Shore railroads); 'industrialist' (used by andrew-carnegie) was NOT used because it has no occupation.* label in src/core/i18n/en.ts. fieldIds business as assigned. impactDomains entrepreneurial + industrial; tagIds founder + self_taught (little schooling, documented by Parton and the Tribune); archetype entrepreneurial_builder. No new ids proposed. EVIDENCE READ (10 source records incl. 2 orientation; 8 substantive, all downloaded and read locally): Parton, 'Commodore Vanderbilt' (1865/1867) in full; Croffut (1886) preface and chapters II-VI; Adams, 'A Chapter of Erie' (1869/1871) pp. 9-31 and 47-61; Medbery (1870) Vanderbilt passages; New-York Tribune 5 January 1877 obituary coverage (page 1 and the career notice on the supplement pages, via loc.gov OCR); Official Records of the Navies ser. I vol. 7, March 1862 Vanderbilt documents; T. J. Stiles's own essays on The First Tycoon (tjstiles.net) and his 2024 Learning Curve interview transcript. INDEPENDENT PERSPECTIVES: (1) Vanderbilt's own recollection as taken down by James Parton in 1865 (self-derived; never sole support); (2) W. A. Croffut, admiring popular biographer close to the family circle (largely derivative of Parton for the early years); (3) Charles Francis Adams Jr., critical contemporary analyst; (4) James K. Medbery, contemporary financial journalist; (5) New-York Tribune obituary writers, contemporary press (derivative of Parton for the early years, independent for the railroad years); (6) U.S. War and Navy Department records (primary government documents); (7) T. J. Stiles, modern archive-based scholarly biographer (author's summaries only). NON-SELF behavioural sources: Adams, the Tribune, the Official Records, Stiles, Medbery. EPISODE USE (no episode supports more than two rows): 1818 move into steamboats -> opportunity_sensing (adaptability NOT used for it because Stiles shows he kept his sailing ventures); 1818-24 Gibbons years, monopoly defiance and Vanderbilt v. Livingston/Webster -> conflict_tolerance, proactive_agency; 1829-50s opposition lines and fare-cutting -> competitiveness; 1849-51 Nicaragua route vs Pacific Mail -> opportunity_sensing, competitiveness; 1850-51 San Juan rapids -> risk_tolerance, resourcefulness; 1853-57 Accessory Transit suit and seizure of the steamboats -> conflict_tolerance; 1853-58 Atlantic mail offer and Havre line -> proactive_agency, competitiveness; 1857-67 shift from ships to railroads -> opportunity_sensing, adaptability; March 1862 gift of the Vanderbilt -> proactive_agency, execution_speed; 1814 night provisioning contract (self-derived) -> execution_speed only; 1863-73 taking charge of Harlem/Hudson/Central/Lake Shore -> leadership_drive; railroad economies and ship construction supervision -> detail_orientation; 1868 Erie contest -> risk_tolerance (share accumulation), adaptability (April withdrawal and July settlement); its injunction suits were deliberately NOT used for conflict_tolerance to keep the two-row limit; Hamilton and Schuyler litigation (Tribune; Stiles on the Schuyler fraud) -> conflict_tolerance only; 1870s trunk-line rate war -> competitiveness; childhood horse-pawn and helmswoman anecdotes (self-derived) -> resourcefulness only. ROWS CONSIDERED AND LEFT UNSCORED: autonomy_need (the 1829 refusal of Gibbons's offer rests on the self-derived account and Stiles gives a different reason for his departure); decisiveness; persistence; discipline and planning_orientation (self-reported habits only: no vices, never missing an engagement); collaboration (mixed: deference to Goldsborough's plan in March 1862 in the Official Records, Stiles's 'consummate corporate diplomat', against repeated fights with partners -- too mixed to score honestly); systems_abstraction (Adams's characterisation of his 'comprehensive views' is editorial); persuasiveness; social_assertiveness (a reticent speaker by all accounts, but only anecdotes); achievement_drive (only his own 'carry my point' remarks); curiosity and the whole cognitive facet. EXCLUDED ON PURPOSE: the 1853 'I won't sue you, for the law is too slow; I'll ruin you' letter (apocryphal per Stiles; he in fact threatened suit and sued); 'Law? What do I care about the law? Hain't I got the power?' (listed by Stiles as a myth; a version appears in the Tribune obituary and was not used); 'insane on the subject of money-making' (a lawyer's claim in the will trial); the Croffut dialogue with Lincoln and the demand to be free of the Navy's 'bossing'; the whist remark at a coroner's inquest (Tribune anecdote); Medbery's Wall Street gossip about misleading friends and relatives; all family and private matters (treatment of his wife and sons, the asylum episodes, the will contest, spiritualism, Woodhull and Claflin, second marriage); his accident, illnesses and death; the 1868 scrip dividend and stock-watering and the 1869 Lake Shore price-crushing (financial conduct whose trait meaning depends on contested motive -- not scored, neither featured nor denied); wealth, fortune estimates, the congressional gold medal and gifts to Vanderbilt University; his rare votes and any political views. KNOWN LIMITS: Stiles's book itself (the only modern archive-based biography) and Wheaton Lane's 1942 biography were not available; Stiles is represented only by his own summaries and an interview. Vanderbilt left no papers, so most of the early-life material reaches us through his own recollection (Parton) and texts that copy it (Croffut, the Tribune); those episodes are marked self-derived and never used alone. The Tribune text is OCR and partly garbled; quoted phrases were checked against the OCR. No Congressional or court records beyond the Official Records were opened. Confidences are therefore held at or below 0.8. PORTRAIT: Commons File 'Cornelius Vanderbilt Daguerrotype2.jpg' (Wikidata P18), a restored scan of a half-plate gold-toned daguerreotype produced by Mathew Brady's studio between 1844 and 1860. Commons API imageinfo/extmetadata read (LicenseShortName 'Public domain', Copyrighted False); raw File-page wikitext read: {{PD-old}}, {{LOC-image|id=cph.3a11569}}, restoration note (scratches removed, cropped, histogram adjusted by User:Mvuijlst), no third-party-claim or NPG notice. Upstream LOC record read via the loc.gov JSON API (item 2004664073, DAG no. 058, LC-USZC4-4160): rights advisory 'No known restrictions on publication', and the collection statement that the contents of the Library of Congress Daguerreotypes Collection are in the public domain; transferred from the U.S. War College in 1920. Basis: daguerreotype made 1844-60 by a studio whose principal died 1896. IDENTITY CHECK: LOC subject heading 'Vanderbilt, Cornelius, 1794-1877' and the plate is scratched on the back '58; Cornelius Vanderbilt'; the 1844-60 date range excludes his grandson Cornelius II (born 1843) and the sitter is a grey-haired man of fifty or more with side whiskers, consistent with the Commodore (then 50-66) and not his son William H. (then 23-39, later full-bearded). Original downloaded (2026x2705 RGB), confirmed with PIL, downscaled to 1198x1600 (JPEG q85), no further crop; the saved file was viewed. kind 'likeness' (photograph from life). Rejected alternatives: none needed; the Commons restoration adds no creative layer that affects the public-domain status, and the unrestored LOC scan remains available if the lead prefers it. No eligibility, coverage or match output was used in scoring. LEAD REVIEW RUBRIC_CORRECTION: competitiveness 84/0.78 documented -> 82/0.72 documented (modern scholarship read only through the scholar's own summaries; early episodes descend from the subject's own 1865 telling). LEAD REVIEW RUBRIC_CORRECTION: opportunity_sensing 80/0.74 documented -> 78/0.68 documented (the pattern is partly read back from outcomes (the move into railroads), with the early episodes descending from his own telling). LEAD REVIEW RUBRIC_CORRECTION: conflict_tolerance 82/0.74 documented -> 82/0.70 documented (several episodes rest on the self-derived narrative and on the scholar's summaries rather than the book). PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "코닐리어스 밴더빌트"
+    }
+  }
+}

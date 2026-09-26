@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ivan-pavlov",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ivan Pavlov",
+    "aliases": [
+      "Ivan Petrovich Pavlov",
+      "I. P. Pavlov"
+    ],
+    "wikidataId": "Q42985",
+    "birthYear": 1849,
+    "deathYear": 1936,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "biologist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "biology",
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pavlov_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ivan Pavlov (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '이반 파블로프' confirmed via the Wikidata sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Ivan_Pavlov"
+    },
+    {
+      "id": "src_pavlov_wikidata",
+      "kind": "wikidata",
+      "title": "Ivan Pavlov (Q42985) -- verified live via wbgetentities (2026-09-26): en label 'Ivan Pavlov', description 'Russian physiologist (1849–1936)', ko label '이반 파블로프', ru 'Иван Петрович Павлов', born 1849-09-14 (Julian; 1849-09-26 Gregorian), died 1936-02-27, citizenship Q34266 (Russian Empire), Q2305208, Q15180 (Soviet Union), P18 'Ivan Pavlov NLM3.jpg', kowiki '이반 파블로프'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q42985"
+    },
+    {
+      "id": "src_pavlov_babkin",
+      "kind": "biography",
+      "title": "B. P. Babkin, Pavlov: A Biography (University of Chicago Press, 1949), archive.org OCR full text (in.ernet.dli.2015.156540) -- STUDENT/INSIDER perspective: Babkin worked in Pavlov's laboratory 1902-12 (assistant at the Institute of Experimental Medicine) and knew him for 35 years; much is his own eyewitness, some is transmitted from V. V. Savich's 1924 article, N. J. Chistovich's 1904/1925 recollections, Mrs Pavlov's 1946 'Reminiscences', or Pavlov's own tellings (flagged as such where used). Admiring but openly critical in places (the Bechterev polemic, temper, the secretin 'chance' remark, lack of practical classes). Read: Introduction; ch. 2 (Botkin laboratory 1878-90, the thesis delay to 1883, the control-experiment episode, Chistovich's account); ch. 5 (pharmacology and physiology chairs 1890-95, teaching by demonstration, the Pashoutin ballot protest and reprimand); ch. 6 (Institute of Experimental Medicine, chronic 'physiological surgery', organisation of graduate work); ch. 7 (Babkin's own entry 1902); ch. 8 (indifference to rank, the Academy-conference operation, the Bechterev/Gorshkov/Spirtov controversy c.1906-09, Babkin present); ch. 9 (integrity, secretin, punctuality, Dr V. and Savich's intervention, the Pavlov pouch after nineteen failures c.1893-94, concentration); ch. 10 (testing of reported results, creative imagination, 'six months' rule for theories, training of newcomers, watching Babkin's test tubes 1902); ch. 11 (school, invitation to contradiction, laboratory-council proposal, temperament, Chistovich's forceps story); ch. 12 (attitude to co-workers, operations, the 1902 Thompson demonstration); ch. 13 (daily routine 1901-12 and later per Frolov/Logansky, Nobel 1904, the Nobel lecture topic, 1913 frictions). Ch. 3-4 (marriage and family life), 16-18 (politics, Bolsheviks, illnesses and death) deliberately NOT used.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.156540"
+    },
+    {
+      "id": "src_pavlov_gantt",
+      "kind": "biography",
+      "title": "W. Horsley Gantt, 'Ivan P. Pavlov: A Biographical Sketch' (pp. 11-31) and translator's preface, in I. P. Pavlov, Lectures on Conditioned Reflexes, vol. 1, trans. W. H. Gantt with G. Volborth (New York: International Publishers, 1928; 1941 printing), archive.org OCR (in.ernet.dli.2015.190960) -- INSIDER/COLLABORATOR perspective: Gantt, an American physician, worked in Pavlov's Leningrad laboratory 1925-29 and writes partly from his own observation (1925-28) and partly from V. V. Savich's 1924 Russian sketch (quoted, and flagged as such where used), plus a 1922 statement by an unnamed assistant and a 1928 note by T. R. Elliott. Admiring. The translator's preface says the sketch was included without Pavlov's knowledge. Read in full: sections I-V (youth per Savich; the 1875 refusal to stay with Tsyon's successor; Pashootin conflict; Institute surgical department 1891; post-Nobel hostility; memory; operating speed; Savich's secretin verification; the 1923 claim and 1925 repudiation of inherited conditioned reflexes in mice; Sherrington's and Tigerstedt's 1912 discouragement of the conditioned-reflex work; punctuality during the Revolution; winter 1919-20 experiments by torchlight; daily routine; temperament). Also read Walter B. Cannon's two-page 'Introduction to the English Translation' (Sept. 1928) -- evaluative only, not used for any row.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.190960"
+    },
+    {
+      "id": "src_pavlov_frolov",
+      "kind": "biography",
+      "title": "Y. P. Frolov, Pavlov and His School: The Theory of Conditioned Reflexes, trans. C. P. Dutt (London: Kegan Paul, 1937), archive.org OCR (in.ernet.dli.2015.158241) -- STUDENT/COLLABORATOR perspective: Frolov heard Pavlov's lectures from Sept. 1911, worked in his laboratory from c.1913-14 and later as his assistant at the Military-Medical Academy; published in the USSR shortly after Pavlov's death, admiring and with Soviet framing (which is ignored here). Independent of Babkin (an emigre) and Gantt. Read: Author's preface and ch. VIII 'Pavlov's Method of Work: His School' pp. 238-264 (his own recollections of the 1911 lectures, the right of students to interrupt, punctuality to the second; his first conditioned-reflex experiment with home-made Indian-ink screens; the 1919 winter -- operating by the light of wood splinters, cycling to the laboratory, the vegetable plot; the 1921 lecture on the qualities of a scientist; the 'Wednesdays'; assignment of problems; the rule that finished work was set aside for a year or two before printing; the 1917 book not published until 1926). Theory chapters I-VII not used for behavioural rows.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.158241"
+    },
+    {
+      "id": "src_pavlov_nobel_presentation",
+      "kind": "institution",
+      "title": "K. A. H. Morner (Rector of the Karolinska Institute), Presentation Speech for the Nobel Prize in Physiology or Medicine 1904, 10 Dec. 1904, nobelprize.org -- INSTITUTIONAL perspective (the awarding body), read in full 2026-09-26: describes Pavlov's chronic-fistula technique (animals kept in good health and studied over long periods), the systematic series of experiments from his laboratory, and the findings on nervous control of gastric secretion. Used only as independent corroboration of the method, not for personality claims.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1904/ceremony-speech/"
+    },
+    {
+      "id": "src_pavlov_self_nobel",
+      "kind": "archive",
+      "title": "I. P. Pavlov, Nobel Lecture 'Physiology of Digestion', 12 Dec. 1904 (English text), nobelprize.org -- SELF, one perspective, never sole support for a row. Read in full 2026-09-26: his own description of the surgical/chronic method (asepsis, post-operative care, 'modus vivendi' for the animals), acknowledgement of his laboratory co-workers, and the second half devoted to 'psychical' salivary secretion treated from an 'entirely objective point of view' (the first public statement of the conditioned-reflex programme).",
+      "url": "https://www.nobelprize.org/prizes/medicine/1904/pavlov/lecture/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_babkin, src_pavlov_gantt, src_pavlov_frolov | c.1893-94; 1904-12; winter 1919-20 | student + collaborator + student] Babkin (from laboratory tradition; he joined in 1902) records that when devising the innervated isolated gastric pouch Pavlov failed nineteen times and succeeded only on the twentieth dog, while the student assigned to the problem despaired of finishing his thesis. Gantt records that in 1912 Sherrington told him the conditioned-reflex work would not be popular in England and his close friend Tigerstedt advised him to 'drop that fad', and Babkin that after 1904 fellow members of the Society of Russian Physicians treated the laboratory's conditioned-reflex papers as a quasi-scientific duty to be endured; he kept the laboratory on the programme for the rest of his life. In the winter of 1919-20, per a 1922 statement by an assistant quoted by Gantt and Frolov's own recollection, he kept experiments and lecture demonstrations going without electric light (wood torches or splinters, one kerosene lamp) and cycled to the laboratory when the trams stopped. Three independent insider accounts of separate episodes. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 85/0.8 documented -> 82/0.72 documented; all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read"
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_babkin, src_pavlov_gantt, src_pavlov_frolov | 1880s; 1902-12; 1911-36 | student eyewitness + collaborator + student] Babkin, as an eyewitness 1902-12, describes Pavlov answering any reported result with repeated 'Is it really so? Are you absolutely sure?' and then going to see the experiment himself, and a training system in which every newcomer first repeated his predecessor's experiments as a check on both the earlier results and the newcomer's technique. Babkin also relays Pavlov's own account of forcing a decisive control experiment in the 1880s over the pleas of an M.D. candidate whose thesis depended on it (Pavlov-told, so treated as supporting only). Gantt's sketch reports the principle that a theory is dropped as soon as it fails to fit new facts, and Frolov (student from 1911) records the rule that a hypothesis was to be 'mercilessly rejected' if a single fact conflicted with it. Multiple independent sources on the same working habit. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 85/0.8 documented -> 82/0.72 documented; all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read"
+    },
+    "discipline": {
+      "score": 84,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_babkin, src_pavlov_gantt, src_pavlov_frolov | 1901-12; 1917-19; 1911-36 | student eyewitness + collaborator + student] Babkin states that over ten years (1902-12) he could not remember Pavlov arriving late at the laboratory without good reason, that he arrived about 9:30 and left at 6:00 sharp, and that he never missed a working day from September to May. Gantt quotes an assistant who arrived ten minutes late during the Revolution to find Pavlov alone and on time ('What difference does a revolution make when you have work in the laboratory to do?') and describes a fixed daily division of work, rest, reading and exercise that Gantt observed in 1925-28. Frolov, from his own student years from 1911, says Pavlov entered the lecture hall 'not on the minute but on the second' and finished as the bell rang. Three independent accounts across three decades. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 87/0.8 documented -> 84/0.72 documented; all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read"
+    },
+    "deep_focus": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_babkin, src_pavlov_gantt, src_pavlov_frolov | c.1890-1936; 1902-03 | student eyewitness + collaborator + student] Babkin documents roughly fifteen years devoted to the digestive glands and then, from 1902, the whole laboratory turned to conditioned reflexes until his last illness; in 1902-03 he flatly refused to be drawn into his young assistants' enthusiasm for Ehrlich's side-chain theory ('I am not interested in that!'), and after a performance of La Boheme told Babkin he could not concentrate on the stage because his thoughts kept switching to conditioned reflexes. Gantt (observing 1925-28) describes him keeping out of his attention newspapers and matters with no bearing on his work, and Frolov records his 1921 statement that a scientist must think unceasingly about one subject. Babkin notes the cost: collaborators with other interests found him hard to engage. Scored for sustained concentration, not for output. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 84/0.75 documented -> 80/0.68 documented; all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read"
+    },
+    "belief_updating": {
+      "score": 70,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_gantt, src_pavlov_babkin | c.1902-03; 1923-25; c.1902-12 | collaborator (quoting Savich) + student] Savich, quoted by Gantt, reports that Pavlov asked him to check Bayliss and Starling's secretin experiment (which undercut the laboratory's view that pancreatic secretion was purely nervous); when it was confirmed in his presence, Pavlov withdrew for half an hour and returned saying 'Of course, they are right'; Babkin confirms he thereafter taught secretin as a normal stimulus. Gantt records that a 1923 claim of inherited conditioned reflexes in mice was repudiated after more refined experiments in 1925 failed to confirm it. Babkin adds that Pavlov had cooled on his earlier stress on 'purposiveness' by 1902, and relays Savich's account of Pavlov admitting 'It is my mistake' and apologising to a collaborator he had treated unfairly. Held at 70 because Babkin also says much proof was needed before he changed position, that he later called the secretin discovery a 'chance experiment', and that he kept the nervous theory alongside it."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pavlov_babkin, src_pavlov_gantt | 1890s; c.1906-09 | student + collaborator] In the 1890s Pavlov lodged a written protest, entered in the official record, against the principal Pashoutin's one-ball ballot for a chair, was reprimanded by the war minister, and then carried the Academy regulations in his pocket to challenge the principal at Conference meetings, though most professors sided with the principal; his confirmation as professor of physiology was delayed to 1897 (Babkin, Gantt independently). In the Bechterev dispute (c.1906-09) he publicly called results from Bechterev's laboratory 'fantastic' at the Society of Russian Physicians and, at a demonstration in Bechterev's clinic that Babkin attended, overrode protests to pour acid into the operated dogs' mouths and show that a conditioned salivary reflex still formed. Academic-governance and scientific disputes only; no state politics used. Dual-edged: Babkin judges that the polemic convinced no one and caused lasting hard feelings. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 80/0.74 documented -> 78/0.68 documented; all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read; the academic disputes are told from his side"
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_gantt, src_pavlov_babkin, src_pavlov_self_nobel | 1875; 1890s; 1902-12 | collaborator (quoting Savich) + student + self] Savich, via Gantt, reports that in 1875 Pavlov refused to stay on as assistant to Tsyon's successor, whose conduct he disapproved of, although he had no other income. He opposed the principal Pashoutin when most of the faculty did not (Babkin, Gantt). Having won recognition for digestion, he used his 1904 Nobel lecture to announce the new, objective approach to 'psychical' secretion (his own text; Babkin independently notes the choice), and he continued the conditioned-reflex programme after Sherrington's and Tigerstedt's 1912 discouragement (Gantt). Several independent instances; the Pashoutin and 1912 episodes are each also used for one other row. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 78/0.7 documented -> 76/0.64 documented; all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read"
+    },
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_babkin | 1880s; 1902-12; 1904-05; 1929 | student eyewitness, incl. Chistovich's account] Chistovich (quoted by Babkin) recounts that when his students in the 1880s collected money for him under the pretext of paying for a lecture course, Pavlov spent all of it on animals for the lectures. Babkin saw him, already due at a meeting of the Academy of Sciences, put on an operating gown again and finish a brain operation rather than leave it (1902-12); he never acquired the Academy's gala uniform and gave a Stanislav decoration to his small sons as a plaything; after the 1904 Nobel award he rejected a friend's suggestion to invest the money in stocks. In 1929 he told Babkin that what drives laboratory work is the satisfaction of the work itself. One main source (with an embedded independent witness) and several concrete episodes; confidence held at 0.70 accordingly. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 82/0.7 documented -> 78/0.64 documented; all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read"
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_babkin, src_pavlov_gantt, src_pavlov_frolov | 1878-86; 1891-1936 | student + collaborator + student] From 1878, as a recent graduate, he directed the experimental work for the M.D. theses in Botkin's clinic laboratory (Babkin, including Manassein's 1890 testimony and Chistovich's account). At the Institute of Experimental Medicine from 1891 he designed the surgical department of the physiological laboratory (Gantt), personally allotted each worker's problem, supervised most experiments and discussed every result (Babkin), and when the laboratory grew to some forty workers directed them 'like a chess player' so that one worker's results advanced another's (Savich via Gantt and Babkin); Frolov describes him formulating and handing out themes and sometimes setting several workers on one problem. Scored from these directing actions, not from the size of the school."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pavlov_babkin, src_pavlov_frolov, src_pavlov_self_nobel | 1878-86; 1891-1912; mid-1920s-36 | student + student + self] Pavlov spent years in Botkin's laboratory helping others' theses and advised his assistants not to count time spent helping colleagues (Babkin); he discussed every experiment jointly with the student, deliberately provoked contradiction in discussion, and presented laboratory conclusions collectively as 'we' (Babkin, quoting the 1897 Lectures); Frolov describes the 'Wednesday' meetings where everyone was invited to 'bombard' a new fact and all were on an equal footing; his Nobel lecture opens by crediting his co-workers. Dual-edged and capped: Babkin also records that he dominated the laboratory, that collaborators' own ideas were absorbed into his, that he refused to discuss topics outside his programme, and that he opposed a laboratory council. A real but hierarchical collaborative pattern."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_gantt, src_pavlov_babkin, src_pavlov_frolov | 1890s-1920s | collaborator (incl. Savich) + student + student] Savich, quoted by Gantt, says Pavlov 'attended to the smallest details' and often counted the millimetres in his collaborators' Mett tubes himself; Gantt and Babkin independently describe him examining protocols and recalling figures from experiments done years earlier better than the workers who had done them; Frolov states that in an experiment nothing in the circumstances of the animal's behaviour was treated as secondary. The memory anecdotes are partly characterisation, hence 0.64."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_babkin, src_pavlov_gantt, src_pavlov_nobel_presentation, src_pavlov_self_nobel | 1890s; 1902-04 | student + collaborator + institution + self] In the 1890s he replaced the acute experiment on an anaesthetised animal with 'physiological surgery': aseptic operations producing chronic fistulas and the innervated isolated stomach pouch, so that the same animal could be studied over months or years (Babkin, Gantt; the 1904 presentation speech singles out this technique). From 1902 he reframed the so-called psychical secretion of saliva as an objectively measurable reflex and excluded psychological terms from the laboratory (Gantt; Frolov records fines for such terms), announcing the approach in his 1904 Nobel lecture (self). Scored from these design decisions, not from later reputation. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 78/0.68 documented -> 74/0.60 strong_inference; originality is partly a judgment of the research programme's importance, and all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read"
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_babkin, src_pavlov_frolov, src_pavlov_gantt | 1878-90; 1890s; 1911-36 | student + student + collaborator] Babkin records that in Botkin's laboratory he tried various experimental methods on a problem (the coated tongue) before abandoning it, and describes his reasoning as 'experimental': every supposition at once took shape as an experiment to affirm or disprove it, and a deviation from the expected course led to a new experimental attack rather than a merely theoretical explanation; Frolov, from his own time in the laboratory, describes Pavlov treating apparently failed experiments as material for new experiments and setting exploratory 'introductory tasks' that sometimes redirected a whole project; Gantt describes him boldly planning new experiments in varying form. Several converging accounts but partly characterisation; strong_inference."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_frolov, src_pavlov_gantt, src_pavlov_babkin | 1880s; c.1891-1912; c.1913; 1919-20 | student + collaborator + student] In his early years without facilities he took operated dogs home to nurse them (Gantt, Frolov). He secured an independent income for his Institute laboratory from the sale of gastric juice collected by sham feeding and defended its use for the laboratory against the administration (Babkin). Frolov, then a new worker, recounts Pavlov having the visual stimulus screens made on the spot from Bristol board and Indian ink while the ordered apparatus was awaited. In 1919-20 he worked by the light of wood splinters, cycled when the trams stopped and grew vegetables on an Institute plot (Frolov firsthand; Gantt's quoted assistant). Independent instances; the 1919-20 episode is also used for persistence."
+    },
+    "perfectionism": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pavlov_babkin, src_pavlov_frolov | 1881-83; 1917-26 | student (partly Pavlov-told) + student] Babkin relays (from Pavlov's own telling and Mrs Pavlov's reminiscences) that in 1881-83, living on about 50 rubles a month with a young family, he refused his wife's pleas to hurry his M.D. thesis until he was completely sure of his results; Babkin also says Pavlov demanded painstaking, flawless work from himself and his collaborators. Frolov records the laboratory rule that completed work was put aside for a year or two before printing and that the book he began in 1917 appeared only in 1926 for that reason. Dual-edged: it cost him years of income and delayed publication. The thesis episode is partly self-derived, so confidence is capped at 0.60."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pavlov_gantt, src_pavlov_babkin | 1875; after 1917; 1924 | collaborator (quoting Savich) + student] Savich (via Gantt) reports the 1875 refusal to stay under Tsyon's successor despite needing the income. Babkin records that after 1917 Pavlov condemned, in the laboratory and in public, an assistant's proposal for a laboratory council that would choose and direct problems, as a violation of his scientific freedom, and quotes a 1924 letter (Pavlov's own words) valuing a former pupil's chance 'to work independently'. Two independent episodes plus a self statement; strong_inference. Dual-edged because the same stance kept direction entirely in his hands."
+    },
+    "curiosity": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pavlov_babkin, src_pavlov_frolov, src_pavlov_gantt | late 1880s; 1918-36 | student + student + collaborator] Babkin recounts that in the late 1880s he was absorbed in watching chrysalides turn into butterflies at home, and that when over seventy-five he began studying hospital psychiatry to understand the experimental neuroses in his dogs; Frolov records his clinical visits from 1919 and his later turn to heredity, ageing and anthropoid apes at Koltushi; Gantt describes his summer collecting of butterflies and plants. Held at the low end of the band because Babkin equally documents his refusal to engage with scientific questions outside his current programme."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q42985 verified live (wbgetentities, 2026-09-26): en 'Ivan Pavlov', description 'Russian physiologist (1849–1936)', ko label '이반 파블로프' (also ko description '러시아의 생리학자 (1849–1936)'), ru 'Иван Петрович Павлов', born 1849-09-14 Julian / 1849-09-26 Gregorian, died 1936-02-27, citizenship Russian Empire / Soviet Union, P18 'Ivan Pavlov NLM3.jpg', kowiki sitelink '이반 파블로프' (used for displayNames ko-KR). Slug collision check: no ivan-pavlov file in data-pipeline/candidates, no Pavlov person in src/data/people (grep hits are only anna-pavlova), no Pavlov portrait in public/portraits. CLASSIFICATION PRECEDENT: nationalityCodes RU and regionCode central_europe follow dmitri-mendeleev, anton-chekhov and sofia-kovalevskaya. Era 20th_century (not 19th_century) because his conditioned-reflex work 1902-36 and Nobel award 1904 fall mainly in the 20th century; precedent sigmund-freud (1856-1939, 20th_century), whereas mendeleev/chekhov, whose work was mainly 19th-century, are 19th_century -- lead may prefer 19th_century. Occupations: no 'physiologist' id exists in src/core/i18n/en.ts; used existing 'biologist' + 'medical_researcher' (precedent alexander-fleming; joseph-lister uses physician + medical_researcher). No new occupation id invented; FLAG: a 'physiologist' id would be more precise. Fields biology, medicine as assigned; impactDomains scientific, medical (Fleming/Lister precedent); tag nobel_laureate; archetype scientific_explorer; no new tags. EVIDENCE READ (7 source records incl. 2 orientation; 5 substantive, all downloaded to scratch_r40/work/ivan-pavlov and read locally): Babkin 1949 biography (Introduction, ch. 2, 5-13); Gantt's 1928 biographical sketch in full plus Cannon's introduction; Frolov 1937 ch. VIII and preface; Morner's 1904 Nobel presentation speech; Pavlov's own 1904 Nobel lecture. Todes's modern scholarship (Pavlov's Physiology Factory, 2002; Ivan Pavlov: A Russian Life in Science, 2014) and the 1936 obituaries in Nature/BMJ/Science were NOT freely readable and were not used; Gray 1979 and Asratyan 1953 are on archive.org as lending copies only and were not read. INDEPENDENT PERSPECTIVES: (1) Pavlov himself (Nobel lecture; his words and letters quoted by Babkin; Pavlov-told anecdotes flagged as such) -- one self perspective, never sole support; (2) B. P. Babkin, student/assistant 1902-12, emigre writing in Canada 1949, admiring but critical in places; (3) W. H. Gantt, American collaborator in the Leningrad laboratory 1925-29; (4) Y. P. Frolov, student from 1911 and later assistant, writing in the USSR 1937; (5) V. V. Savich, pupil and collaborator (his 1924 sketch reaches us only via Gantt and Babkin, so it is not counted as a separate source record); (6) N. J. Chistovich, 1880s pupil (via Babkin); (7) the Nobel committee/Karolinska Institute (Morner 1904). Babkin, Gantt and Frolov wrote independently of each other, though Babkin and Gantt both draw on Savich; where they relay the same Savich episode it is treated as one incident. NON-SELF behavioural sources: Babkin, Gantt, Frolov (all with firsthand observation), plus the Nobel presentation speech for the method. EPISODE USE (no episode supports more than two rows): gastric pouch nineteen failures c.1893-94 -> persistence; 1912 Sherrington/Tigerstedt discouragement and post-1904 ridicule of conditioned reflexes -> persistence, independent_thinking; winter 1919-20 torchlight/bicycle/vegetable plot -> persistence, resourcefulness; control experiment forced in the 1880s (Pavlov-told) -> analytical_rigor; 'Is it really so?' verification and newcomers repeating predecessors' experiments 1902-12 -> analytical_rigor; Frolov's 'mercilessly rejected' rule -> analytical_rigor; punctuality 1902-12, during the Revolution, lectures to the second, fixed routine -> discipline; fifteen/thirty-four-year concentration, Ehrlich refusal 1902-03, La Boheme remark -> deep_focus; secretin verification c.1902-03, mouse heredity 1923-25, purposiveness, apology to Dr V. -> belief_updating; Pashoutin ballot protest 1890s -> conflict_tolerance, independent_thinking; Bechterev/Gorshkov/Spirtov dispute c.1906-09 -> conflict_tolerance; 1875 refusal of Tsyon's successor -> independent_thinking, autonomy_need; 1904 Nobel lecture topic -> independent_thinking, creative_originality; lecture money spent on animals 1880s, Academy meeting skipped to finish an operation, decorations/uniform, Nobel money not invested -> mastery_orientation; Botkin laboratory 1878-86 -> leadership_drive, collaboration; Institute laboratory organisation 1891-1912 and 'chess player' direction -> leadership_drive, collaboration; Wednesdays -> collaboration; laboratory-council proposal after 1917 -> autonomy_need, collaboration (as counter-evidence); Mett tubes / protocol memory -> detail_orientation; chronic 'physiological surgery' 1890s -> creative_originality (experimentation cites only Babkin's 'experimental thinking' and the coated-tongue trials plus Frolov's accounts); objective reframing of psychical secretion and fines for psychological terms -> creative_originality; home-made screens c.1913 and gastric-juice income -> resourcefulness; thesis delay 1881-83 (Pavlov-told) and works set aside before printing -> perfectionism; chrysalides, late psychiatry, apes -> curiosity. ROWS CONSIDERED AND LEFT UNSCORED: execution_speed (very fast operating, per Tigerstedt via Gantt and Babkin's 1902 observation, vs. deliberately delayed thesis and publications -- contradictory as a general work trait); persuasiveness (some thirty oral reports promoting conditioned reflexes per Frolov, but Babkin says the Bechterev polemic convinced no one); competitiveness (Babkin says the Bechterev dispute was not about priority; competitions among workers per Frolov are organisational); impact_motivation (rests mainly on his own statements about science and humanity); social_assertiveness (outspoken in meetings but, per Chistovich, had to be escorted to ask for a post); achievement_drive, planning_orientation, decisiveness, adaptability, ambiguity_tolerance, risk_tolerance, opportunity_sensing, proactive_agency, intuitive_synthesis, systems_abstraction, cross_domain_range, aesthetic_sensitivity (he collected Russian paintings, but no on-point evidence) -- insufficient or only characterisation-level evidence. EXCLUDED ON PURPOSE: all political material (the 1918 lecture's criticism of the Bolsheviks, the 1924 resignation over the exclusion of clergy children, relations with the Soviet government, his reported views on communism, Lenin's 1921 decree) -- zero-politics; marriage, family and private life (Babkin ch. 3-4; the stolen money and lost luggage in the US); illnesses, the 1916 hip fracture (mentioned only as circumstance by Frolov, not scored), his last illness and death, and bereavements; Savich's and others' psychological characterisations of his 'temperament'; his temper and swearing (described by Babkin and Gantt; not scored as a trait); the 'Whitey' towel incident (Babkin). ANIMAL EXPERIMENTS, stated factually only: his work used dogs with surgically made fistulas and pouches; Babkin, Gantt, the Nobel presentation speech and his own Nobel lecture describe aseptic surgery, anaesthesia and long post-operative care intended to keep the animals healthy for chronic experiments, and Gantt quotes his published defence of vivisection; no row credits or discredits him on this basis and no moral judgment is made either way. No 'father of' or 'greatest' claims are made. KNOWN LIMITS: all three biographies are by pupils or collaborators and are admiring (Frolov's also carries Soviet framing); Babkin is the most candid but covers mainly 1898-1918 at first hand; several early episodes (thesis delay, control experiment, youth) are Pavlov-told or come via Savich and are weighted down accordingly. No independent modern scholarly source was read, so no row exceeds 0.80 confidence. PORTRAIT: File:Ivan_Petrovitch_Pavlov._Photogravure_after_Lafayette_Ltd._Wellcome_V0027009.jpg on Wikimedia Commons (Wellcome Collection 13393i / ICV No 27467 / V0027009). Commons raw wikitext read: {{Artwork}}, credit {{Wellcome Images}}, licence {{cc-by-4.0}}, no third-party copyright claim. Upstream Wellcome catalogue API (works/ednkcpr4) read: contributor 'Lafayette Ltd', digital image licence Public Domain Mark. The print itself carries the engraved lines 'Supplement to Nature, Jan. 3rd 1925', 'Lafayette photographer' and 'Emery Walker ph. sc.' (read on the downloaded original), so the image was published in the UK in Nature on 3 Jan. 1925: public domain in the US (published abroad in 1925, term expired 1 Jan. 2021) and in the UK (studio photograph by a corporate/unnamed photographer, 70 years from creation/publication expired; Emery Walker d. 1933). Recorded as Public domain with the Wellcome PDM URL. Original downloaded 2368 x 3228 px, opened with PIL; CROPPED to the photograph only (paper margin, engraved credits, 'Supplement to Nature' line and facsimile signature removed), crop 1926 x 2465 px, downscaled to 1250 x 1600 px, JPEG q85. Visually checked: half-length frontal portrait of Pavlov in old age, white beard, dark suit. Kind 'likeness'. REJECTED: the Wikidata P18 'Ivan Pavlov NLM3.jpg' -- Commons says unknown author/date with 'NLM believes this item to be in the public domain' + {{PD-old}}, but the live NLM Digital Collections record for B021072 (nlmuid-101426180-img) now states 'This item may be under copyright protection. Please ask copyright owner for permission before publishing'; NLM B021078 (ca. 1920, 'believes... public domain', photographer unknown) -- weak basis; 'J.P. Pavlov - Emery Walker - btv1b105015008.jpg' (BnF Societe de Geographie copy of the same photogravure, but Gallica rights read 'restricted use (convention Societe de geographie)'); 'Ivan Pavlov nobel.jpg' (anonymous, only 280 x 396 px); 'Ivan Pavlov LIFE.jpg' (PD-US with unknown author and unverified 1920 date); Wellcome V0027006 photograph by Deschiens (Wellcome PDM, earlier likeness, but it is a Paris publisher's card with a long printed caption, photographer and date unrecorded -- acceptable fallback); the Pavlov-museum scans (uncertain rights). No eligibility, coverage or match output was used in scoring. LEAD REVIEW RUBRIC_CORRECTION: discipline 87/0.8 documented -> 84/0.72 documented (all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read). LEAD REVIEW RUBRIC_CORRECTION: persistence 85/0.8 documented -> 82/0.72 documented (all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read). LEAD REVIEW RUBRIC_CORRECTION: analytical_rigor 85/0.8 documented -> 82/0.72 documented (all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read). LEAD REVIEW RUBRIC_CORRECTION: deep_focus 84/0.75 documented -> 80/0.68 documented (all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read). LEAD REVIEW RUBRIC_CORRECTION: mastery_orientation 82/0.7 documented -> 78/0.64 documented (all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read). LEAD REVIEW RUBRIC_CORRECTION: conflict_tolerance 80/0.74 documented -> 78/0.68 documented (all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read; the academic disputes are told from his side). LEAD REVIEW RUBRIC_CORRECTION: independent_thinking 78/0.7 documented -> 76/0.64 documented (all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read). LEAD REVIEW RUBRIC_CORRECTION: creative_originality 78/0.68 documented -> 74/0.60 strong_inference (originality is partly a judgment of the research programme's importance, and all non-self behavioural sources are admiring pupils/collaborators (Babkin, Gantt, Frolov) sharing the Savich lab tradition; no modern scholarly or adversarial corroboration read). PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이반 파블로프"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ivan-pavlov-lafayette-nature-1925.jpg",
+    "width": 1250,
+    "height": 1600,
+    "source": "Photogravure by Emery Walker after a photograph by Lafayette Ltd, issued as a Supplement to Nature, 3 January 1925; Wellcome Collection 13393i (ICV No 27467), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Ivan Petrovich Pavlov, photograph by Lafayette Ltd, photogravure by Emery Walker, Supplement to Nature, 3 Jan. 1925. Wellcome Collection (Public Domain Mark); cropped to the photograph and downscaled",
+    "attributionUrl": "https://wellcomecollection.org/works/ednkcpr4",
+    "creator": "Lafayette Ltd (photographer); Emery Walker (photogravure)",
+    "date": "published 3 January 1925 (photograph taken before that date)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ivan_Petrovitch_Pavlov._Photogravure_after_Lafayette_Ltd._Wellcome_V0027009.jpg"
+  }
+}

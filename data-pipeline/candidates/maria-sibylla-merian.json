@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "maria-sibylla-merian",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Maria Sibylla Merian",
+    "wikidataId": "Q62530",
+    "birthYear": 1647,
+    "deathYear": 1717,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DE",
+      "NL"
+    ],
+    "regionCode": "western_europe",
+    "aliases": [
+      "Maria Sibylla Graff"
+    ]
+  },
+  "classification": {
+    "occupationIds": [
+      "naturalist",
+      "painter"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "art"
+    ],
+    "impactDomains": [
+      "scientific",
+      "artistic"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_merian_wikipedia",
+      "kind": "wikipedia",
+      "title": "Maria Sibylla Merian (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '마리아 지빌라 메리안' confirmed via the Wikidata kowiki sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Maria_Sibylla_Merian"
+    },
+    {
+      "id": "src_merian_wikidata",
+      "kind": "wikidata",
+      "title": "Maria Sibylla Merian (Q62530) -- verified live via wbgetentities (2026-09-26): en label 'Maria Sibylla Merian', description 'German-Dutch entomologist, botanist, naturalist, scientific illustrator, graphic artist, painter, and lepidopterologist (1647-1717)', ko label '마리아 지빌라 메리안', born 1647-04-02 (Frankfurt, Q1794), died 1717-01-13 (Amsterdam, Q727), citizenship Q170072 (Dutch Republic), Q183, Q29999; P18 'Bildnis der Maria Sibylla Merian, 1679.jpg'; kowiki '마리아 지빌라 메리안'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q62530"
+    },
+    {
+      "id": "src_merian_houbraken_1718",
+      "kind": "biography",
+      "title": "Arnold Houbraken, De groote schouburgh der Nederlantsche konstschilders en schilderessen (Amsterdam, 1718-21), entry 'Maria Sybille Merian' (pp. 220-223 of the combined DBNL text, houb005groo01_01_0385), read in full -- CONTEMPORARY NON-SELF artists' biographer (published within two years of her death; likely informed in part by her family; hagiographic in tone and opens with a prenatal-influence explanation of her interests, which is disregarded). Used for: her taking up painting from age eleven against her mother's wishes with her stepfather Jacob Marrel's support and lessons from Abraham Mignon; her continuing work through marriage and child-rearing; her resolve to trace the transformation and food of caterpillars and publish it (1679, 1683); and the Suriname voyage 'not shrinking from the dangers of the sea', staying about two years 'solely' to draw from life and investigate. Houbraken dates the departure to 1698 (other sources: 1699).",
+      "url": "https://www.dbnl.org/tekst/houb005groo01_01/houb005groo01_01_0385.php"
+    },
+    {
+      "id": "src_merian_etheridge_2021",
+      "kind": "archive",
+      "title": "Kay Etheridge, The Flowering of Ecology: Maria Sibylla Merian's Caterpillar Book (Leiden: Brill, 2021; open access, CC BY-NC-ND 4.0, Gettysburg College Cupola PDF), with M. S. Merian's texts translated by Michael Ritterson -- MODERN SCHOLAR perspective (biologist-historian; admiring but explicitly weighs rival readings of her motives). Read: Preface (incl. her 27 April 1705 letter to James Petiver, BL Sloane 4064); ch. 2 'A Life Investigated' sections Early Fascination, Marriage and the Move to Nuremberg, Beginnings of the Raupen Books (incl. Joachim von Sandrart's 1675 Teutsche Academie entry, p. 339, quoted), Merian's Motivations; ch. 3 sections Fieldwork, Laboratory Work, Merian's Study Journal, Merian's Other Sources of Information (incl. Uffenbach's 1711 visit account quoted from the 1753 edition, p. 553); ch. 4 Recognition and Reception by Near Contemporaries (Doppelmayr 1730, Leibniz 1687). Many behavioural details reach Etheridge from Merian's own 1679 text and study journal (SELF), which is recorded as such in each rationale; Etheridge's independent contribution is her examination of the study-journal manuscript (facsimile), plates and correspondence, and her comparison with Goedaert.",
+      "url": "https://cupola.gettysburg.edu/books/171/"
+    },
+    {
+      "id": "src_merian_sandrart_1675",
+      "kind": "archive",
+      "title": "Joachim von Sandrart, Teutsche Academie der Bau-, Bild- und Mahlerey-Künste, vol. II, book 3 (Nuremberg, 1675), p. 339, entry CCLXXXIII on Johann Andreas Graff with the passage on Maria Sibylla, read directly in the German text of the Sandrart.net critical edition (and the Merian Society transcription), cross-checked against Etheridge's English rendering -- CONTEMPORARY NON-SELF artists' biographer who knew her family (Nuremberg circle), written when she was 28; laudatory. Used for: her depicting insects 'mit samt dern Veränderungen, wie selbige Anfangs seyn, und hernacher zu lebendigen Thieren werden, samt dern Kräutern, wovon sie ihre Nahrung haben' with 'großen Fleiß'; her washable painted textiles; her etching of drawing-lesson plates for pupils; all 'neben dern regulirten guten Haushaltungs-Führung'.",
+      "url": "https://ta.sandrart.net/en/text/567"
+    },
+    {
+      "id": "src_merian_mis_1705",
+      "kind": "archive",
+      "title": "Maria Sibylla Merian, Metamorphosis insectorum Surinamensium. Ofte Verandering der Surinaamsche Insecten (Amsterdam: for the author, 1705), Dutch text, archive.org OCR of the Smithsonian (Schaus) copy (Metamorphosisin00Meri) -- SELF, one perspective, never sole support. Read: the preface 'Aan den Leser' in full (from youth studied insects, starting with silkworms in Frankfurt; 'alle gezelschap der menschen verliet' to devote herself to it; continued observations in Friesland; Amsterdam cabinets of Witsen, Ruysch, Vincent lacked the origin and transformation of the insects, which prompted 'een groote en kostelyke reise' to Suriname, June 1699 - June 1701, landing again 23 Sept. 1701; left earlier than planned because the heat was against her constitution; at first deterred by the cost of publication; text kept to 'myn ondervindingen' because 'de gevoelens der Geleerde verschillig zyn'; all painted and observed by herself 'uitgenoomen eenige weinige, die ik op de getuigenisse der Indianen daar by gevoegt hebbe'; plant names kept as given by inhabitants and Indigenous people, Latin names added by Caspar Commelin); plate texts 1 (ananas), 18 (spiders, ants, hummingbirds; includes the bird-eating claim and a hearsay item marked 'zoo als men my gezegt heeft'), 36 (plant dug up by 'mynen Indiaan'; colonists mocked her for seeking anything but sugar; 'myne Slaven' sent ahead with axes to cut a path through the forest), 45 (Flos pavonis: Indigenous and enslaved African women's use of the seeds as an abortifacient, 'gelyk sy my uit haar eigen mond onderrecht hebben'), and dated rearing records (e.g. 22 Jan. / 16 Feb. 1700; 14 / 26 Apr. 1701).",
+      "url": "https://archive.org/details/Metamorphosisin00Meri"
+    },
+    {
+      "id": "src_merian_letters",
+      "kind": "archive",
+      "title": "Maria Sibylla Merian's letters 1682-1712 (18 known), transcriptions in the original languages with English introductions by Bert van de Roemer, The Maria Sibylla Merian Society (University of Amsterdam), based on Schmidt-Loske, Prüssmann-Zemper and Wirth (eds.), Maria Sibylla Merian. Briefe 1682 bis 1712 (2020) -- SELF (her own letters; several not in her hand) with SCHOLAR-EDITOR summaries. Read the English introductions to the Volkamer letters (nos. 7, 8, 13, 14: 1702-05), the Petiver letters (nos. 9-12, 15, 16, 18: 1703-12), the Schlegel letter (no. 17, 1711) and the Imhoff letters (nos. 1-6), and spot-read the German of no. 7. Used for: financing the Suriname book by subscription, recruiting Volkamer and Petiver to find subscribers, refusing commission sales through intermediaries and insisting on payment in Amsterdam, pricing coloured and counterproof copies, selling naturalia from Suriname, returning Petiver's specimens because she was interested only in generation, metamorphosis and feeding (27 Apr. 1705), and her Oct. 1702 statement that she nearly died of the heat and had to leave.",
+      "url": "https://www.themariasibyllameriansociety.humanities.uva.nl/primary-sources/letters/"
+    },
+    {
+      "id": "src_merian_uffenbach_1711",
+      "kind": "archive",
+      "title": "Zacharias Conrad von Uffenbach, account of his visit to Merian in the Kerkstraat, Amsterdam, on 23 Feb. 1711, from Merkwürdige Reisen durch Niedersachsen, Holland und Engelland, vol. 3 (Ulm, 1753), pp. 552-554, read in full in Bert van de Roemer's transcription (collated with the Göttingen manuscript) on the Maria Sibylla Merian Society 'Biographies' page -- INDEPENDENT EYEWITNESS (Frankfurt patrician collector with no stake in her reputation; he also repeats hearsay, e.g. wrongly that her husband had died). Used for: 'sehr künstlich in Wasserfarben zu mahlen, und gar fleissig' at about 62; her showing him volumes of parchment studies from life (Surinam animals; a very large volume of plants); 'Zu diesen hat diese fleissige Frau die Platten alle selbsten gestochen'; charging him 45 guilders instead of 15 for a copy she had coloured herself 'mit grossem Fleiss'; that she would have stayed longer in Suriname had she been able to bear the heat. Also read on the same page and recorded under this id as further contemporary non-self notices: Hermann Conring (1687) praising her 'maximae industriae' and findings 'propria experientia comperta'; the Leipzig Neue Zeitungen von Gelehrten Sachen notice of 20 March 1717 (informed by her daughter's publication; used only lightly). Dittelbach (1692) and Doppelmayr's account of the Labadist period were read and deliberately EXCLUDED (private life).",
+      "url": "https://www.themariasibyllameriansociety.humanities.uva.nl/primary-sources/biographies/"
+    },
+    {
+      "id": "src_merian_guilding_1834",
+      "kind": "archive",
+      "title": "Rev. Lansdown Guilding (d. 1832), 'Observations on the Work of Maria Sibilla Merian on the Insects, &c. of Surinam', Magazine of Natural History 7 (1834): 355-375, archive.org OCR (magazineofnatura07loud) -- ADVERSARIAL LATER NATURALIST (Caribbean resident; worked from a later, 1726-type coloured edition). Read the introduction, the notes on plates 1 and 18 with the editor's footnote on W. S. MacLeay's objection to the bird-eating spider, and skimmed the remaining plate notes. Used for: his concession of her 'zeal' in spending two years 'under a burning sun' to satisfy her curiosity, set against his charges of inaccurate or 'absurd' figures, host-plant misattributions, and 'idle stories, related to her by strangers', i.e. her reliance on informants' testimony. Several of his colouring complaints are argued by later scholars (src_merian_jee_2023) to concern posthumous editions; his tone is dismissive.",
+      "url": "https://archive.org/details/magazineofnatura07loud"
+    },
+    {
+      "id": "src_merian_jee_2023",
+      "kind": "archive",
+      "title": "'Female naturalists and the patterns of suppression of women scientists in history: the example of Maria Sibylla Merian and her contributions about useful plants', Journal of Ethnobiology and Ethnomedicine 19 (2023), doi:10.1186/s13002-023-00589-1, open access, read in the sections on Merian's trajectory, her Surinam informants and the reception by Guilding and MacLeay -- MODERN SCHOLARLY perspective with an explicit advocacy framing (gender 'suppression'); used only as light corroboration. Used for: her giving Indigenous, Dutch and Latin names and cross-referencing Marcgraf and Piso; her acknowledgement of informants (preface; plate 45); and the argument that several of Guilding's colour complaints concern non-original editions. Its reading of her attitude to slavery is NOT used.",
+      "url": "https://ethnobiomed.biomedcentral.com/articles/10.1186/s13002-023-00589-1"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_merian_etheridge_2021, src_merian_houbraken_1718, src_merian_sandrart_1675, src_merian_letters | 1660-1710 | modern scholar examining the study-journal manuscript + contemporary biographers (1675, 1718-21) + self letters] The study journal (examined in facsimile by Etheridge) begins with her own first rearing trials dated 1660 and runs, with dated additions, to 1710; Etheridge documents that she opened pupae and plant galls to see what was inside (two dissections described in the 1679 book; more galls opened in 1684, study journal entry 212) and returned to the same gall insect in Amsterdam in 1710. Sandrart, in print in 1675, already describes her depicting insects 'as they are at first and afterwards become living creatures, together with the plants from which they take their food'; Houbraken (1718-21) says copying nature was 'not enough' for her and that she gained 'a drive' to discover the transformations and trace the food of caterpillars. In her 27 Apr. 1705 letter she sent back James Petiver's gift of specimens because she was interested only in generation, reproduction, metamorphosis and feeding (self, via the Merian Society edition; also quoted by Etheridge). Scored from repeated, self-directed inquiry over five decades, not from the reputation of her books. Held at 0.66: much of the detail originates in her own writings, although the manuscript and two contemporaries corroborate the pattern."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_merian_etheridge_2021, src_merian_sandrart_1675, src_merian_houbraken_1718, src_merian_uffenbach_1711 | 1660s-1711 | modern scholar + contemporary biographers + independent eyewitness; underlying rearing records are SELF] Etheridge, working from the 1679 text and the study journal, records that the full life cycles of the dot moth and the cabbage moth each took four years of trial and error and the emperor moth three years, that many reared insects died or were parasitised, and that she began again the following year with fresh caterpillars, leaving space on the vellum for the hoped-for adult; the journal also preserves failed rearings (fourteen incomplete metamorphoses in the first 90 entries). Non-self witnesses describe the same sustained application across decades: Sandrart (1675) on her 'großen Fleiß' alongside running the household; Houbraken on her work continuing 'even through childbearing and household cares'; Uffenbach (1711) found her at about 62 still 'gar fleissig'. Scored from multi-year repetition of failed rearings, not from output. 0.62 because the specific multi-year episodes are her own report, relayed and analysed by one scholar."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_merian_etheridge_2021, src_merian_mis_1705, src_merian_guilding_1834, src_merian_jee_2023 | 1670s-1705 | modern scholar + self + adversarial later naturalist + modern scholarly counter-reading] For: Etheridge's examination of the study journal shows life-size painted stages keyed by a numbering system to written notes, with entries recording host plant, timing of stages, behaviour, egg position and pupal attachment, and timing notes such as the four to five hours of pupation and half an hour of wing expansion in the peacock butterfly; in the printed 1679 text she spelled out the colours of every stage (set in larger type) so that buyers of uncoloured copies could identify the insects. The 1705 book records dated rearing steps (e.g. pupation 22 Jan. 1700, emergence 16 Feb.) (self). Against: Etheridge notes the journal dates are often incomplete (month, rarely year); Guilding (1834), who had lived in the Caribbean, charged the Surinam plates with inaccurate figures and host-plant misattributions and objected to items taken on informants' testimony, though he worked from a posthumous coloured edition and some of his colour complaints are disputed (JEE 2023). The external verdict on the Surinam plates is mixed, so this is held moderate and at strong_inference."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_merian_mis_1705, src_merian_houbraken_1718, src_merian_guilding_1834, src_merian_letters | 1699-1705 | self + contemporary biographer + adversarial later naturalist + self letters] In June 1699, aged 52, she sailed from Amsterdam to Suriname with her younger daughter on what she called 'een groote en kostelyke reise', and stayed until June 1701 (self preface). Houbraken writes that she undertook the voyage 'niet schromende de gevaren van de zee'; Guilding, otherwise hostile, credits her with 'quitting the comforts of her home' for two years 'under a burning sun, and in an unwholesome climate'. In Oct. 1702 she wrote to Volkamer that many had wondered whether she would return at all (self). She then committed to the cost of the large 1705 folio, writing that the expense had at first deterred her before she resolved to proceed (self preface), and funded it by subscription (letters). Dual-edged: the stay was cut shorter than she intended (she says the heat drove her home; no inference is drawn from her health), and the publication had to be scaled to subscriber demand."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_merian_mis_1705, src_merian_houbraken_1718, src_merian_etheridge_2021 | 1690s-1701 | self + contemporary biographer + modern scholar] In Amsterdam she saw the collections of Nicolaas Witsen, Frederik Ruysch, Levinus Vincent and others and noted that their tropical insects lacked their 'oorspronk en generatie' (how they changed from caterpillar to pupa and adult); this, she writes, prompted her to go to Suriname to observe them herself (self preface; Etheridge ch. 4 confirms that she cites these cabinets as the stimulus). Houbraken independently frames the voyage as her own resolve ('dat zy besluit nam'), staying 'solely' to draw from life and investigate. In Suriname she had plants dug up and replanted in her own garden to observe them, and had paths cut into the forest to search further (self, plate 36). Scored from initiating an investigation nobody commissioned. Held at 0.60 because the motive comes from her own preface, though the initiative itself is attested by a contemporary."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_merian_uffenbach_1711, src_merian_sandrart_1675, src_merian_etheridge_2021, src_merian_letters | 1675-1712 | independent eyewitness + contemporary biographer + modern scholar + self letters] She ran her work as a self-supporting enterprise. Sandrart (1675) records that she etched drawing-lesson plates for pupils and painted flower designs on textiles. Etheridge shows that she etched the plates for the 1679 book herself, offered coloured and uncoloured copies, and made counterproof prints (a second impression from a wet print) that she and her workshop painted to resemble originals. Uffenbach (1711) confirms that 'this industrious woman engraved all the plates herself' for the quarto books, charged him 45 guilders instead of 15 for a folio she had coloured herself, and sold him original drawings. Her letters (1702-12) show her financing the Surinam book by subscription, asking Volkamer and Petiver to find subscribers, refusing to pay a ten per cent commission to intermediaries, and selling Surinam naturalia (a crocodile, snakes, iguanas, boxes of insects) to collectors. Several independent perspectives agree on the pattern; scored from these practices, not from sales."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_merian_sandrart_1675, src_merian_etheridge_2021, src_merian_mis_1705, src_merian_houbraken_1718 | 1665-1705 | contemporary biographer + modern scholar + self + contemporary biographer] Sandrart (1675) describes her work with 'großen Fleiß, Zier und Geist' in drawing, colouring and modelling, including flowers painted on linen so that they appeared equally finished on both sides and could be washed without harm to the colours. Etheridge documents deliberate composition choices: plates designed around the caterpillars' food plant, a moth-and-larkspur plate composed 'to delight the eye', and painted counterproofs made to look like watercolours. For the 1705 book she writes that she spared no cost, had the plates cut by the best engravers and used the best paper to please 'de Kenders der Kunst' as well as lovers of insects and plants (self). Houbraken's verse praises the same watercolours on parchment. Scored from these working choices, not from the fame or value of her art. 0.60 because the non-self witnesses are admiring contemporaries rather than critics; Guilding's complaint about 'absurd' positioning concerns scientific accuracy, not aesthetic care."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_merian_etheridge_2021, src_merian_houbraken_1718, src_merian_mis_1705 | 1679-1705 | modern scholar + contemporary biographer + self] Etheridge notes that the 1679 preface opens by stating that caterpillars hatch from eggs laid by mated adults, at a time when spontaneous generation of insects was still widely held, that she did not invoke it even for flies found in droppings, and that she contradicted Goedaert where he did, while using far lighter religious framing than Goedaert, Swammerdam or Ray. Houbraken independently says her investigations aimed at the true manner of transformation and 'de verkeerde wysmakeryen daar omtrent te verydelen' (to defeat false notions about it). In the 1705 preface she kept to her own observations and left interpretation to others because 'de gevoelens der Geleerde verschillig zyn' (self). Moderate: others (Redi, Swammerdam) had already argued against spontaneous generation, so this shows an evidence-led rather than a lone-dissent stance; Etheridge also notes she still classed parasitoid emergences as 'false transformations'."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마리아 지빌라 메리안"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q62530 verified live (wbgetentities, 2026-09-26): en 'Maria Sibylla Merian', description 'German-Dutch entomologist, botanist, naturalist, scientific illustrator, graphic artist, painter, and lepidopterologist (1647-1717)', ko label '마리아 지빌라 메리안' (= kowiki title, used for displayNames ko-KR), born 1647-04-02 Frankfurt, died 1717-01-13 Amsterdam, citizenship Q170072 (Dutch Republic), Q183, Q29999, P18 'Bildnis der Maria Sibylla Merian, 1679.jpg'. Slug collision check: no maria-sibylla-merian file in data-pipeline/candidates, public/portraits or src/data/people before this work. CLASSIFICATION PRECEDENT: era early_modern follows isaac-newton (b. 1643) and antonie-van-leeuwenhoek; dual nationalityCodes DE+NL follow the george-frideric-handel / william-herschel handling (born and trained in Frankfurt/Nuremberg, worked in Friesland and Amsterdam from 1685/1691 to her death); regionCode western_europe. Occupations naturalist (alfred-russel-wallace, alexander-von-humboldt) + painter (albrecht-durer); no 'illustrator', 'entomologist' or 'engraver' occupation id exists and none was invented (FLAG: a scientific-illustrator/printmaker id would be more precise). fieldIds natural_science + art as assigned (the evidence supports both); impactDomains scientific, artistic; archetypes scientific_explorer + creative_creator; tags field_researcher, cross_disciplinary (existing ids). EVIDENCE READ (downloaded to scratch_r40/work/maria-sibylla-merian and read locally): Merian's 1705 Metamorphosis (Dutch text: preface in full; plate texts 1, 18, 36, 45 and dated rearing notes); the Merian Society edition of her 18 letters (English editorial introductions for all Volkamer, Petiver, Schlegel and Imhoff letters; German of letter 7 spot-read); Etheridge, The Flowering of Ecology (2021, open access): preface, ch. 2 (early life, marriage/Nuremberg, Raupen-book beginnings, motivations), ch. 3 (fieldwork, laboratory work, study journal, other sources, counterproofs, composing the text), ch. 4 (reception); Sandrart 1675 p. 339 (Sandrart.net German text); Houbraken's Groote Schouburgh entry (DBNL) in full; Uffenbach's 1711 visit account (van de Roemer transcription), Conring 1687, Neue Zeitungen 1717, Dittelbach 1692 and Doppelmayr (all on the Merian Society biographies page); Guilding 1834 (introduction, plates 1 and 18, footnote on MacLeay; rest skimmed); JEE 2023 article (sections on Merian and her reception). NOT READ: Natalie Zemon Davis, Women on the Margins (not free); Kinukawa 2011 on her correspondence as entrepreneurship (not free); the 1679 Raupen text directly in German (read only via Ritterson's translation and Etheridge's analysis inside the OA book); Etheridge 2011 (Endeavour; paywalled); the Leningrad study-journal facsimile itself (only via Etheridge). BHL's direct pages sat behind a Cloudflare challenge, which was not bypassed; the archive.org copy of the Magazine of Natural History was used instead. INDEPENDENT PERSPECTIVES: (1) Merian herself (1705 preface and plate texts; letters 1682-1712; her 1679 text as translated in Etheridge) -- one SELF perspective, never sole support; (2) Joachim von Sandrart (1675), contemporary biographer who knew her family; (3) Arnold Houbraken (1718-21), contemporary artists' biographer; (4) Zacharias Conrad von Uffenbach (1711), independent eyewitness visitor and buyer; (5) Hermann Conring (1687) and the Leipzig Neue Zeitungen (1717), brief contemporary notices (light use); (6) Kay Etheridge (2021), modern biologist-historian who examined the study journal, plates and correspondence; (7) Lansdown Guilding (1834), ADVERSARIAL later naturalist; (8) JEE 2023 authors, modern scholarly advocacy reading (light corroboration only). NON-SELF behavioural sources: Sandrart, Houbraken, Uffenbach, Etheridge (manuscript analysis), Guilding. EPISODE USE (no episode supports more than two rows): 1699-1701 Suriname voyage -> risk_tolerance, proactive_agency; financing/publishing the 1705 folio (cost, subscriptions) -> risk_tolerance, resourcefulness; study-journal method and multi-year rearings (manuscript, via Etheridge) -> persistence, detail_orientation; dissections of pupae and galls, 1705 Petiver letter returning specimens -> curiosity; self-etching, counterproofs, pricing and naturalia sales (Uffenbach 1711, letters 1702-12, Sandrart 1675) -> resourcefulness, aesthetic_sensitivity (composition/materials choices only); Uffenbach's 1711 observation of her industry -> persistence, resourcefulness; 1679 preface on eggs vs spontaneous generation and Houbraken's 'false notions' remark -> independent_thinking; Guilding's critique -> counter-evidence in detail_orientation, concession in risk_tolerance. ROWS CONSIDERED AND LEFT UNSCORED: analytical_rigor (keeping text to her own observations and leaving theory to others vs. Guilding's charges and her reliance on hearsay such as the bird-eating spider and the priests' hummingbird diet 'as I was told' -- too mixed and disputed to score); deep_focus (her 'withdrew from all company' statement is self, and the 1717 notice paraphrases her preface; staying up all night to paint a pupating lappet moth is self only); mastery_orientation (overlaps curiosity/persistence episodes already used twice); discipline (Sandrart's remark on household management is a single laudatory characterisation); collaboration and leadership_drive (her 'Jungfern Companie' of pupils and her network of collectors -- membership rather than behaviour); opportunity_sensing, autonomy_need, achievement_drive (Etheridge reads ambition for recognition from the 1679 preface, but it is one self statement); belief_updating, adaptability, planning_orientation, execution_speed, systems_abstraction, creative_originality (would rest on the novelty of her plate format, i.e. outcome/reputation), cross_domain_range, conflict_tolerance, persuasiveness, social_assertiveness, competitiveness, decisiveness, ambiguity_tolerance, experimentation, intuitive_synthesis, impact_motivation, perfectionism (insufficient on-point non-self evidence). EXCLUDED ON PURPOSE: her marriage to Johann Andreas Graff and its breakdown, the Labadist period at Wieuwerd (1686-91) and her religious life -- Dittelbach's 1692 and Doppelmayr's accounts were read and not used; the Neue Zeitungen's claim about her husband's 'vice' (rumour); Houbraken's prenatal-influence explanation of her interests; her illnesses, the two-year paralysis before her death reported by the 1717 notice, and her death; her daughters' lives beyond bare facts; any 'first scientist/ecologist to...' claim (Etheridge's and JEE's priority claims are not repeated); the JEE authors' reading of her views on slavery. The Suriname journey is described factually: she travelled to a Dutch slave colony, and her own text states that enslaved people cut paths for her, an Indigenous man dug plants for her, and Indigenous and enslaved African women told her about the Flos pavonis; no row is scored from her dealings with them. KNOWN LIMITS: many specific behaviours (multi-year rearings, dissections, night observation) reach us from her own writings, relayed and analysed by one modern scholar (Etheridge), so confidence is capped at 0.66 and no score exceeds 76; the contemporary non-self sources (Sandrart, Houbraken, Uffenbach) are laudatory or brief, and the one adversarial source (Guilding) worked from a posthumous edition. Houbraken misdates the voyage to 1698 and Uffenbach wrongly reports her husband as dead; their dated facts were checked against her preface. PORTRAIT: File:Bildnis der Maria Sibylla Merian, 1679.jpg (Wikidata P18), Commons API: 2106 x 2499 px, {{Artwork}} with {{PD-Art|PD-old-auto-expired|deathyear=1681}} and {{cc-zero}}; no third-party or in-copyright notice on the File page. Upstream: Kunstmuseum Basel, Inv. 436, oil on canvas 59 x 50.5 cm, gift of Louise Bachofen-Burckhardt 1904; the museum record lists the artist as '?: Jacob Marrel (1613-1681)' (an attribution proposed by Kurt Wettengl and John Fuegi; the old attribution to Matthäus Merian the Younger is rejected) and its rights field reads 'Bilddaten gemeinfrei - Kunstmuseum Basel'. The museum notes a former inscription on the back of the canvas, 'MARIA SIBYLA MERIAN AET · SVAE 32. ANNO 1679', traced again in 1935, and sees no reason to doubt it: a portrait painted in her lifetime at age 32, hence kind 'likeness' (whether or not by Marrel; the creator field says 'attributed to'). Downloaded the original (2106 x 2499, opened with PIL), downscaled to 1348 x 1600 (JPEG q85), no crop or retouch; visually checked (bust-length woman in dark dress with white lace collar, pearl necklace and earrings, dark background). REJECTED ALTERNATIVE: the engraving in Houbraken's Groote Schouburgh after Georg Gsell's portrait of her in old age -- not needed, and its from-life status was not established. No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, 2026-09-26, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives, >=1 substantive non-self behavioural source, and a rights-verified portrait."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/maria-sibylla-merian-marrel-1679.jpg",
+    "width": 1348,
+    "height": 1600,
+    "source": "Wikimedia Commons, File:Bildnis der Maria Sibylla Merian, 1679.jpg (2106 x 2499 px original), reproduction of the painting in the Kunstmuseum Basel, Inv. 436 (gift of Louise Bachofen-Burckhardt, 1904)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Portrait of Maria Sibylla Merian, 1679, oil on canvas, attributed to Jacob Marrel; Kunstmuseum Basel, Inv. 436 (image data public domain, Kunstmuseum Basel); downscaled",
+    "attributionUrl": "https://sammlung.kunstmuseumbasel.ch/de/collection/item/2935/",
+    "creator": "Attributed to Jacob Marrel (1613/14-1681)",
+    "date": "1679",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bildnis_der_Maria_Sibylla_Merian,_1679.jpg"
+  }
+}
