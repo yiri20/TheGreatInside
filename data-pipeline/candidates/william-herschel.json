@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "william-herschel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "William Herschel",
+    "aliases": [
+      "Sir William Herschel",
+      "Friedrich Wilhelm Herschel",
+      "Frederick William Herschel"
+    ],
+    "wikidataId": "Q14277",
+    "birthYear": 1738,
+    "deathYear": 1822,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DE",
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "music"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological"
+    ],
+    "tagIds": [
+      "self_taught",
+      "career_changer",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_herschel_wikipedia",
+      "kind": "wikipedia",
+      "title": "William Herschel (English Wikipedia; lead extract fetched via the MediaWiki API) -- orientation only (dates 15 Nov 1738 - 25 Aug 1822, Hanover-born, emigrated to Britain, astronomer and composer); not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/William_Herschel"
+    },
+    {
+      "id": "src_herschel_kowiki",
+      "kind": "wikipedia",
+      "title": "윌리엄 허셜 (Korean Wikipedia; lead extract fetched via the MediaWiki API) -- confirms the conventional Korean rendering of the name and the person's identity (German-born astronomer, mathematician and composer, 1738-1822). Orientation only.",
+      "url": "https://ko.wikipedia.org/wiki/%EC%9C%8C%EB%A6%AC%EC%97%84_%ED%97%88%EC%85%9C"
+    },
+    {
+      "id": "src_herschel_wikidata",
+      "kind": "wikidata",
+      "title": "William Herschel (Q14277) -- identity verified live through the Wikidata API (wbsearchentities, then wbgetentities on labels, descriptions and claims): en label 'William Herschel', en description 'German-born British astronomer and composer (1738-1822)', ko label '윌리엄 허셜', P569 1738-11-15, P27 = Electorate of Hanover / Great Britain / United Kingdom of Great Britain and Ireland, P3373 siblings include Caroline Herschel (Q76948), P18 'William Herschel01.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q14277"
+    },
+    {
+      "id": "src_herschel_dreyer1912",
+      "kind": "biography",
+      "title": "J. L. E. Dreyer, 'A Short Account of Sir William Herschel's Life and Work, chiefly from unpublished sources' (biographical introduction, pp. xiii-xlix and following, to The Scientific Papers of Sir William Herschel, vol. 1, Royal Society and Royal Astronomical Society, London, 1912), Internet Archive OCR text (scientificpapers032804mbp) -- an independent scholar-editor's account built on Herschel's unpublished memoranda, polishing record, journals, sweep-books and letter-book, and quoting letters written TO him (William Watson jun., Maskelyne, Hornsby, Michell, Edwards, Priestley, Aubert, Walsh) and Auwers's later check of his nebula positions. Read in sequence from the opening of the introduction through the 40-foot telescope, machine polishing and the list of telescopes made to order (Sections I-IV, roughly pp. xiii-l); Section V and the unpublished-papers section were not read. Herschel's own memoranda quoted in it are the self perspective; Dreyer's commentary and the incoming letters are non-self. Not family-authored, but Dreyer worked from the family's manuscripts and used Caroline Herschel's Memoir for some particulars.",
+      "url": "https://archive.org/stream/scientificpapers032804mbp/scientificpapers032804mbp_djvu.txt"
+    },
+    {
+      "id": "src_herschel_papers_v1",
+      "kind": "archive",
+      "title": "The Scientific Papers of Sir William Herschel, vol. 1 (1912), same Internet Archive text as above -- Herschel's OWN papers (self perspective). Read at: 'On Nebulous Stars, properly so called' (Phil. Trans. 81, 1791, read 10 Feb 1791; edition pp. 415-425) -- the opening, the section weighing the former grounds against the new object, and the conclusion (the middle pages, about pp. 419-424, were not read). The rest of the volume (the Bath papers, the double-star and nebula catalogues, the sweep observations) was only searched by keyword, not read.",
+      "url": "https://archive.org/stream/scientificpapers032804mbp/scientificpapers032804mbp_djvu.txt"
+    },
+    {
+      "id": "src_herschel_papers_v2",
+      "kind": "archive",
+      "title": "The Scientific Papers of Sir William Herschel, vol. 2 (1912), Internet Archive OCR text (scientificpapers02hersuoft) -- Herschel's OWN papers (self perspective; the same self perspective as the other Herschel-authored records). Read at: the opening and first experiments of 'Investigation of the Powers of the prismatic Colours to heat and illuminate Objects' (Phil. Trans. 1800, read 27 Mar 1800); the wheat-price passage of 'Observations tending to investigate the Nature of the Sun' (1801) and his 1805-06 letter to Bode answering the translator Ideler's footnote. The rest of the volume was not read.",
+      "url": "https://archive.org/stream/scientificpapers02hersuoft/scientificpapers02hersuoft_djvu.txt"
+    },
+    {
+      "id": "src_herschel_caroline1876",
+      "kind": "biography",
+      "title": "Memoir and Correspondence of Caroline Herschel (by Mrs. John Herschel, London/New York, 1876), Internet Archive OCR text (memoircorrespond00hers) -- Caroline Herschel's firsthand recollections, recorded decades later, compiled by her nephew's wife: an INSIDER, family-compiled source (one perspective). Read at the Bath chapter (pp. 35-42: the purchase of a Bath amateur's mirror-making tools, the workshop years, the casting failure, the visitors of 1781-82); the volume as a whole was not read.",
+      "url": "https://archive.org/stream/memoircorrespond00hers/memoircorrespond00hers_djvu.txt"
+    },
+    {
+      "id": "src_herschel_clerke1895",
+      "kind": "biography",
+      "title": "Agnes M. Clerke, The Herschels and Modern Astronomy (Century Science Series, Cassell, 1895), Internet Archive OCR text (herschelsmoderna00clerrich) -- a Victorian historian of astronomy's synthesis (draws heavily on Caroline Herschel's Memoir, so only partly independent of it; also reports the Schroter exchange and Brougham's Edinburgh Review attack). Read at Chapter I (pp. 21-29), the Venus and sun-spot passages (pp. 88-89) and the passage on heat rays (pp. 95-96); the book as a whole was not read.",
+      "url": "https://archive.org/stream/herschelsmoderna00clerrich/herschelsmoderna00clerrich_djvu.txt"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_herschel_dreyer1912, src_herschel_papers_v2, src_herschel_caroline1876 | 1778; Sep 1786-Jun 1788; Mar 1800 | scholar reading his logs + his own paper + insider] In 1778, having read Mudge's published method for polishing mirrors, he divided a 6-inch mirror into rings and made innumerable trials of round strokes before recording that the method would not succeed with Newtonian mirrors; on 22 Sep 1786 he repeated earlier tests of viewing without the small mirror and adopted the 'front view', and from 18 Oct 1787 he tried a two-eyepiece arrangement for some months before dropping it; in 1800 he moved one thermometer into a prism's coloured rays while two stayed in the shade as standards, and repeated the run. Several distinct dated trials, but the first two rest on his own records as reported by one scholar. RUBRIC_CORRECTION at review (downward only, no new evidence): lowered from 78/0.7 to 76/0.66 because the episodes rest mainly on his own records as read by one scholar (Dreyer) with thin third-party corroboration."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_herschel_dreyer1912, src_herschel_caroline1876 | 11 Aug 1781; Oct 1783-Sep 1802; 26 Jan-16 Feb 1788 | scholar + insider recollection] Dreyer reports that after the first large casting on 11 Aug 1781 cracked in cooling he 'immediately' began preparing another (Caroline, writing decades later, also recalls a leak and a mirror cracked in cooling, with different details); after 41 solo sweeps from 28 Oct 1783 he changed the method and the sweeps ran on to Sweep 1112 on 30 Sep 1802; and the 40-foot mirror cast on 26 Jan 1788 was found cracked in four places, whereupon he had another mould made and recast it successfully on 16 Feb 1788. Three separate episodes over two decades, mostly from one scholar reading his records. RUBRIC_CORRECTION at review (downward only, no new evidence): lowered from 78/0.66 to 76/0.62 because the episodes rest mainly on his own records as read by one scholar (Dreyer) with thin third-party corroboration."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_herschel_dreyer1912, src_herschel_caroline1876 | Sep 1773; Jan-Aug 1781; 1787-Jan 1789 | his memoranda via Dreyer + insider recollection] In Sep 1773, after hiring a 2-foot reflector, he bought a Bath amateur's tools and half-finished mirrors on 22 Sep (Caroline adds that a quoted price for a larger mirror was 'much above what my brother thought proper to give'); in 1781, finding no one in Bath or Bristol who would cast a large mirror, he built a furnace in a ground-floor room of his house and tested alloys himself; and when ten, then twenty, men could not polish the 40-foot mirror evenly he moved to polishing by machine (a 20-foot mirror on 12 Jan 1789). Three distinct workarounds, each documented by Dreyer from his records. RUBRIC_CORRECTION at review (downward only, no new evidence): lowered from 76/0.66 to 74/0.62 because the episodes rest mainly on his own records as read by one scholar (Dreyer) with thin third-party corroboration."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_herschel_dreyer1912, src_herschel_papers_v1, src_herschel_papers_v2, src_herschel_clerke1895 | 1781; 22 Sep 1786; Feb 1791; 1805-06 | scholar + his own papers] His first paper on the moving object of March 1781 included a parallax argument (he wrote to Hornsby on 21 May 1781 that it implied 10-20 arcseconds) which was not printed once better observations elsewhere disproved it; on 22 Sep 1786 he noted he had 'too hastily laid aside' the front view; and in Feb 1791, after finding a star with a faint luminous atmosphere, he set his earlier grounds for thinking all nebulae starry against the new object and concluded this nebulosity 'is not of a starry nature' (Dreyer says his opinions on nebulae had greatly altered). Against this, in 1805-06 he answered a translator's objection to his wheat-price argument by restating it, and Clerke reports a sarcastic reply to Schroter on Venus, so the pattern is evidence-responsive but not uniform."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_herschel_dreyer1912, src_herschel_papers_v2 | 1778; Dec 1781-Jan 1782; Mar 1800 | scholar quoting incoming letters + his own paper] In 1778 he tested and set aside Mudge's published polishing method rather than adopting it; when Watson reported in Dec 1781 that Maskelyne and Aubert said they had never seen stars round and well defined at his powers, he replied on 7 Jan 1782 that seeing 'must be learnt' and asked Aubert to check the double stars he had mapped, and in 1782 he did not adopt Edwards's suggested additions to his mirror metal; and his 1800 heat-and-colour paper opens by saying it is useful to doubt what is 'commonly taken for granted'. The stance carried costs (Watson warned that Hornsby held 'strong prepossessions' against him)."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_herschel_dreyer1912 | 1773-Dec 1818; Oct 1783-Sep 1802 | scholar working from his manuscripts + an independent later check] From 1773 he kept a record of his mirror-making that Dreyer counts at 2,160 recorded operations in four folio volumes to 5 Dec 1818; in each sweep he observed three to five standard stars, avoided the brightest ones to spare his eye, and marked stars missing from Flamsteed as unusable, with a separate register sheet for each of 2,508 objects; and his published error estimates were tested by Auwers, whose figures show the 1784 positions were rougher than Herschel supposed. Careful recording is documented, but the check also shows limits."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_herschel_dreyer1912, src_herschel_clerke1895, src_herschel_papers_v2 | 1773-82; 1780-81; 1801 | scholar + Victorian synthesis + his own paper] Through 1773-82 he ran a music practice (40 pupils in the week of 8 Nov 1773; director of the Bath concerts from 1776) while building telescopes; in 1780-81 he read 31 papers to the Bath Philosophical Society, whose titles in Dreyer's edition run from corallines and electrical experiments to 'On Liberty and Necessity'; and in 1801 he compared sun-spot records with Windsor wheat prices from Adam Smith's Inquiry while cautioning the price was not a direct measure, which Clerke says the Edinburgh Review ridiculed. Three separate fields of activity, hence strong_inference; the last drew criticism."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_herschel_dreyer1912, src_herschel_caroline1876 | Jan 1782; 1773-1818; Jan-Aug 1789 | his letters as quoted by Dreyer + his records + insider] On 7 and 9 Jan 1782 he wrote that 'seeing is in some respect an art which must be learnt', that he had 'many a night' practised to see, and advised Aubert to raise his powers gradually; he kept a mirror-making record from 1773 to Dec 1818; and after adopting the polishing machine in Jan 1789 he worked almost daily for a month on 7- and 20-foot mirrors while the machine for the 40-foot mirrors was prepared. The letters are his own words, so the pattern rests on records and letters more than independent testimony."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/william-herschel-godby-rehberg-1814.jpg",
+    "width": 1292,
+    "height": 1600,
+    "source": "Wellcome Collection, London (portrait print V0002727) via Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "James Godby, stipple engraving after Friedrich Rehberg, 'Dr. Herschel', published London 1 Nov 1814 (inscribed 'Fr. Rehberg del. ad viv. Windsor 1814'); Wellcome Collection V0002727 (Wellcome page: Public Domain Mark; Commons tags the scan CC BY 4.0); cropped to the plate and downscaled",
+    "attributionUrl": "https://wellcomecollection.org/works/fmu5qtut",
+    "creator": "James Godby (engraver) after Friedrich Rehberg (draughtsman)",
+    "date": "1814",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sir_William_Herschel._Stipple_engraving_by_J._Godby,_1814,_a_Wellcome_V0002727.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q14277 verified live: wbsearchentities 'William Herschel' returned Q14277 'German-born British astronomer and composer (1738-1822)' (other hits were the telescope, the museum, a poet and others); wbgetentities confirmed en label 'William Herschel', ko label '윌리엄 허셜', born 1738-11-15, P27 Electorate of Hanover / Great Britain / UK of GB and Ireland, sibling Caroline Herschel (Q76948), so this is William, not Caroline or John. English and Korean Wikipedia lead extracts were fetched (Korean title 윌리엄 허셜) and agree. Slug collision check: no william-herschel.json in data-pipeline/candidates and no Herschel in src/data/people. CLASSIFICATION PRECEDENT: nationalityCodes DE+GB follows george-frideric-handel.json (Wikidata P27 with Hanover and GB) for a Hanover-born artist/scientist who worked in Britain; regionCode western_europe follows Handel/Bach/Kant and the UK precedent; era early_modern follows the 1724-1749 births in the corpus (James Watt 1736, Lavoisier 1743, Jenner 1749, Kant 1724, Cook 1728; only Wilberforce, b. 1759, is coded 19th_century). Occupations astronomer + composer + musician and fields natural_science + music are kept because the cross_domain_range row rests on his twenty-year music career (Bath concerts, teaching, composing) alongside telescope work; if the reviewer prefers a pure science_knowledge contribution, composer/musician/music can be dropped without touching any row. Tags self_taught (1773 telescope making from Smith's Optics), career_changer (music to full-time astronomy 1782) and cross_disciplinary rest on the resourcefulness and cross_domain_range rows; archetypes scientific_explorer + technical_innovator. EVIDENCE READ: 5 substantive sources plus 3 orientation entries. Dreyer 1912 (Sections I-IV of the biographical introduction, an independent scholar-editor working from Herschel's unpublished memoranda, polishing record, sweep-books and the letters written to him); Herschel's own papers (1791 nebulous-stars paper read at its opening, its comparison of the old and new grounds and its conclusion, not the middle pages; 1800 prismatic-colours paper opening and first experiments; 1801 sun/wheat passage and 1805-06 Ideler reply, all read from the 1912 edition; the rest of both volumes only keyword-searched); Caroline Herschel's Memoir (insider, Bath chapter only); Clerke 1895 (Victorian synthesis, chapter I and three passages). Downloaded to a scratchpad and read locally with grep and line reads, not by summary. INDEPENDENT PERSPECTIVES: (1) Herschel himself, counted ONCE across his memoranda, papers and letters; (2) Dreyer, a non-family scholar; (3) the contemporary correspondents quoted by Dreyer (William Watson jun., Maskelyne, Hornsby, Michell, Edwards, Priestley, Aubert, Ideler, Auwers), read second-hand and not checked against the manuscripts, counted at the level of the underlying authors as in the Handel precedent; (4) Caroline Herschel, insider (sister; recollections written long afterwards; family-compiled edition); (5) Clerke, a Victorian synthesiser only partly independent of Caroline. NON-SELF behavioural sources: Dreyer, the incoming letters he quotes, Auwers, Clerke's reports of Schroter and the Edinburgh Review. INDEPENDENCE IS WEAK and is stated in the rows: most dated episodes (polishing trials, the 1786 front view, the sweeps, the machine polishing, the 1791 revision) are Herschel's own records or papers as reported by ONE scholar; only the January 1782 scepticism, the 1781-82 parallax and micrometer doubts (Hornsby, Watson), Edwards's alloy advice, Caroline's account of the casting and tool purchase, and Auwers's check are from other hands. Accordingly no row is above 0.70 confidence, none is extreme (highest score 78), and the three rows resting most on his own words (belief_updating, independent_thinking, mastery_orientation) plus cross_domain_range are strong_inference at 0.60-0.62. EPISODE USE (each episode supports at most two rows): 1778 Mudge trials: experimentation, independent_thinking; 22 Sep 1786 front view: experimentation, belief_updating; Mar 1800 heat/colour experiments: experimentation, independent_thinking; Dec 1781-Jan 1782 sceptics: independent_thinking, mastery_orientation; 1781 casting: persistence, resourcefulness; Jan-Feb 1788 recast: persistence; sweeps 1783-1802: persistence, detail_orientation; mirror-making record 1773-1818: detail_orientation, mastery_orientation; 1789 machine polishing: resourcefulness, mastery_orientation; Sep 1773 tool purchase: resourcefulness; 1781 parallax paragraph and 1791 nebulae paper: belief_updating; dual career, Bath Society papers and 1801 wheat-price paper: cross_domain_range. Eight rows only; curiosity, creative_originality, collaboration, planning_orientation, risk_tolerance, adaptability, social_assertiveness and others were considered and left unscored because the evidence was thin, mixed (hand polishing by ten and twenty men was replaced by a machine, which cuts against a collaboration score) or would repeat an episode. EXCLUDED ON PURPOSE: the importance of the science and every discovery, priority or first-claim (Uranus, satellites, infra-red, 'father of sidereal astronomy'); the naming of the new object and the King's appointment and salary (royal favour is not scored as politics); telescope sales, prices and any wealth figure; his 1782 ague, Datchet flooding and all health, family and bereavement matters; the 'legend' that he deserted the army (Dreyer refutes it); Caroline's 'sixteen hours' polishing anecdote and 'a devil of a fellow' remark about Maskelyne (single insider anecdotes, not scored); the Michell 'lessons' myth (Dreyer refutes it); the 1776 'woods in the Moon' notes and the lunar-volcano reports (not used). KNOWN LIMITS: Michael Hoskin's scholarly biography (Internet Archive lending copy) and Schaffer's 1981 paper (ADS PDF did not load) could not be read, so no modern-scholar perspective beyond Dreyer (1912); Herschel Chronicle (family-compiled) not read; Dreyer's text is OCR and Caroline's account of the casting differs from Dreyer's in dates and details (Dreyer notes it); Clerke's date of 7 Nov 1782 for the naming was not used; the dating of the 1781 casting failure follows Dreyer. PORTRAIT: James Godby's stipple engraving after Friedrich Rehberg, 'Dr. Herschel', published 1 Nov 1814, Wellcome Collection V0002727, via Wikimedia Commons. Decisive facts: the print itself bears the inscription 'Fr. Rehberg, del. ad viv. Windsor 1814' (read on the downloaded file: drawn from the life at Windsor, 1814) and 'James Godby sculp.', with the publication line 'London Pub. Nov. 1, 1814 by Mr Rehberg & Colnaghi & Co'; the Wellcome Collection work page (read) states the Public Domain Mark ('for any purpose without restriction under copyright law'); the exact Commons File page and its wikitext carry {{cc-by-4.0}} (Wellcome's 2018 tag for its scan) with API LicenseShortName 'CC BY 4.0' and NO third-party copyright-claim notice, so the recorded licence is CC BY 4.0 with the attribution above (the underlying 1814 print is in any case public domain; the Science Museum Group page for a copy of the print lists the makers as Rehberg (drawing), Godby (engraving) and Colnaghi (publisher)). REJECTED: the Wikidata P18 file William Herschel01.jpg and its hires version (Lemuel Francis Abbott, 1785, NPG-derived) because the Commons Credit field carries the 'third parties have made copyright claims' notice; the Rijksmuseum 1822 lithograph (CC0, public domain, Julien-Leopold Boilly) is a fallback but its source portrait is unattested; the Westermayr 1798 print (758x874) and the Grevedon/Motte lithograph (542x760) are small; the Wellcome Walker 1785 line engraving does not name its source. The file was cropped to the plate (removing the printed caption), then downscaled from 1870x2316 to 1292x1600 (JPEG q85, no upscaling) and looked at: single subject, profile bust with stars and crescent moon behind, clear. Caveat: kind 'likeness' rests on the inscription on the print (drawn from life), not on an institutional attestation; Wellcome and the Science Museum say only 'after F. Rehberg, 1814'. No eligibility, coverage or match output was used in scoring; the structural validator was run only after the rows were final. REVIEW CORRECTION (RUBRIC_CORRECTION, downward, no new evidence): experimentation 78/0.7->76/0.66; persistence 78/0.66->76/0.62; resourcefulness 76/0.66->74/0.62 (weak independence: own records read by one scholar); no other row changed."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "윌리엄 허셜"
+    }
+  }
+}

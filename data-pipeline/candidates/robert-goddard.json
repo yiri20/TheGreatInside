@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "robert-goddard",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Robert H. Goddard",
+    "aliases": [
+      "Robert Hutchings Goddard"
+    ],
+    "wikidataId": "Q182546",
+    "birthYear": 1882,
+    "deathYear": 1945,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "physicist",
+      "inventor"
+    ],
+    "fieldIds": [
+      "engineering",
+      "physics",
+      "technology"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological",
+      "scientific",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "independent"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_goddard_wikipedia",
+      "kind": "wikipedia",
+      "title": "Robert H. Goddard (English Wikipedia; lead section fetched via the MediaWiki API) -- orientation only (identity, dates, occupations); not used as support for any scored row. The Korean Wikipedia article title 'ko:로버트 고더드' was confirmed through the Wikidata sitelink and the ko.wikipedia API (title only).",
+      "url": "https://en.wikipedia.org/wiki/Robert_H._Goddard"
+    },
+    {
+      "id": "src_goddard_wikidata",
+      "kind": "wikidata",
+      "title": "Robert H. Goddard (Q182546) -- identity verified live through the Wikidata API (wbgetentities: labels, descriptions, claims, sitelinks): en label 'Robert H. Goddard', en description 'American physicist', ko label '로버트 고다드' (kowiki sitelink title '로버트 고더드'), born 1882-10-05, died 1945-08-10, citizenship Q30 (United States), P18 'Dr. Robert H. Goddard - GPN-2002-000131.jpg' (not used; see provenance). Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q182546"
+    },
+    {
+      "id": "src_goddard_nasm_benningfield",
+      "kind": "press",
+      "title": "Damond Benningfield, 'Who Was the Original Rocket Man?', National Air and Space Museum, Air & Space Quarterly (Summer 2026 issue; posted 17 June 2026) -- journalist's centenary feature built on interviews with museum and NASA historians (Neufeld, J. Anderson, C. Anderson) and quotations from Clary's biography and Goddard's diary. Non-self, secondary, critical in tone. Fetched with curl and read in full.",
+      "url": "https://airandspace.si.edu/air-and-space-quarterly/issue-19/robert-goddard-anniversary"
+    },
+    {
+      "id": "src_goddard_nasm_neufeld_winter",
+      "kind": "institution",
+      "title": "Michael J. Neufeld and Frank H. Winter, 'Robert Goddard: Secret Space Visionary', National Air and Space Museum (16 March 2026) -- two retired NASM rocketry curators reading Goddard's 1919-1920 Smithsonian papers, his March 1920 confidential report to Abbot and his January 1918 essays. Non-self, scholarly secondary, critical of his secrecy. Fetched and read in full.",
+      "url": "https://airandspace.si.edu/stories/editorial/robert-goddard-secret-space-visionary"
+    },
+    {
+      "id": "src_goddard_winter_misunderstood",
+      "kind": "press",
+      "title": "Frank H. Winter, 'The Misunderstood Professor', Air & Space (Smithsonian), May 2008 -- curator emeritus's account of the January 1920 press flap (Boston Herald exchange of 14 Jan 1920, the New York Times editorial of 13 Jan 1920 and its 17 July 1969 correction), Goddard's press policy and his assistants. Non-self, scholarly secondary (same author as one half of the Neufeld/Winter piece, so ONE Winter perspective). Fetched and read in full; several statements (e.g. assistants' agreements) are given without a cited document.",
+      "url": "https://www.smithsonianmag.com/air-space-magazine/the-misunderstood-professor-26066829/"
+    },
+    {
+      "id": "src_goddard_crouch_reaching",
+      "kind": "press",
+      "title": "Tom D. Crouch, 'Reaching Toward Space', Smithsonian Magazine / Air & Space (February 2001; byline read in the page's markup) -- Smithsonian curator's narrative of Goddard's relations with the Smithsonian, the 17 July 1929 launch and its aftermath, Lindbergh's visit of 23 Nov 1929, the Guggenheim grant and Roswell, the September 1935 visit and the November 1935 donation of an A-series rocket (quotes Goddard's letters, Lindbergh's autobiography and von Karman). Non-self, scholarly secondary. Fetched and read in full.",
+      "url": "https://www.smithsonianmag.com/science-nature/reaching-toward-space-37458291/"
+    },
+    {
+      "id": "src_goddard_crouch_nasm",
+      "kind": "institution",
+      "title": "Tom Crouch, 'Robert Goddard and the Smithsonian', National Air and Space Museum (3 Dec 2010; excerpt from 'Smithsonian National Air and Space Museum: An Autobiography') -- Goddard's September 1916 letter to Abbot, the $5,000 grant and the 1919 treatise. Same author as src_goddard_crouch_reaching (ONE Crouch perspective). Fetched and read in full.",
+      "url": "https://airandspace.si.edu/stories/editorial/robert-goddard-and-smithsonian"
+    },
+    {
+      "id": "src_goddard_stern_gsfc",
+      "kind": "institution",
+      "title": "David P. Stern, 'Robert Goddard and His Rockets', NASA Goddard Space Flight Center (ISTP historical pages 'From Stargazers to Starships', archival page updated 2005, edited 2016) -- a NASA physicist-educator's technical account of the 1913 diary list, the 1915-16 ballistic-pendulum, nozzle and vacuum measurements, the switch to liquid fuel in 1922, the 1926 flight and later gyroscope/vane control. Non-self secondary that draws on Goddard's own papers; reads as sympathetic but factual. Fetched and read in full.",
+      "url": "https://www-istp.gsfc.nasa.gov/stargaze/Sgoddard.htm"
+    },
+    {
+      "id": "src_goddard_malina_1986",
+      "kind": "press",
+      "title": "Frank J. Malina, 'The Rocket Pioneers', Caltech Engineering & Science (November 1986; adapted from Malina's 1968 E&S article) -- FIRSTHAND account by the young Caltech rocket experimenter of his 28 Aug 1936 meeting with Goddard at Caltech and his September 1936 day at Roswell, with an extract from von Karman's memoir 'The Wind and Beyond'. Interested but non-self, recalled about 30 years later (the passages on Goddard's supposed bitterness or self-regard are not used). Downloaded as PDF and read: the opening and the Goddard passages closely; the remainder (GALCIT test narrative) skimmed by keyword only.",
+      "url": "https://calteches.library.caltech.edu/3543/1/Malina.pdf"
+    },
+    {
+      "id": "src_goddard_sia_goddard_papers",
+      "kind": "archive",
+      "title": "Smithsonian Institution Archives, 'Stories from the Smithsonian: Robert H. Goddard' primary-source transcriptions written by GODDARD (self): his 27 Sept 1916 proposal letter, his 9 Jan 1917 reply on receiving the grant, his March 1920 'Report Concerning Further Developments' and his 28 May 1930 letter to Abbot. All read (the March 1920 report: first part and keyword-searched remainder). Pages, all under https://siarchives.si.edu/history/featured-topics/stories/: september-27-1916-goddards-proposal-smithsonian (cited url), january-9-1917-goddard-secretary-walcott-after-receiving-grant, march-1920-report-concerning-further-developments-space-travel, may-28-1930-goddard-secretary-abbot-thanking-smithsonian-its-support. SELF-AUTHORED -- counts as one self perspective.",
+      "url": "https://siarchives.si.edu/history/featured-topics/stories/september-27-1916-goddards-proposal-smithsonian"
+    },
+    {
+      "id": "src_goddard_sia_abbot_walcott",
+      "kind": "archive",
+      "title": "Smithsonian Institution Archives, transcriptions of contemporaneous Smithsonian records written by OTHERS: C. G. Abbot's memoranda to Secretary Walcott of 2 Oct 1916 and 16 Dec 1916 and Walcott's letter to Goddard of 5 Jan 1917 approving the $5,000 Hodgkins Fund grant. Non-self, contemporaneous institutional records (the Smithsonian was the funder). All read in full. Pages, all under https://siarchives.si.edu/history/featured-topics/stories/: december-16-1916-assistant-secretary-abbot-secretary-walcott-goddards-propo (cited url), october-2-1916-assistant-secretary-abbot-secretary-walcott-goddards-proposa, january-5-1917-secretary-walcott-goddard-approving-grant.",
+      "url": "https://siarchives.si.edu/history/featured-topics/stories/december-16-1916-assistant-secretary-abbot-secretary-walcott-goddards-propo"
+    },
+    {
+      "id": "src_goddard_hajramezan_thesis",
+      "kind": "biography",
+      "title": "Solomon Hajramezan, 'Celestial Visions: Imagining and Engineering Spaceflight in the United States, 1899-1969' (MA thesis, University of Alberta, 2021), PDF downloaded and read: the Goddard section of chapter 1 (c. pp. 12-18) and the passage on the Malina/Goddard meeting and the 1938 Guggenheim cooperation attempt (c. p. 34). Scholarly secondary that re-tells Clary (2003), Hunley (1995), Malina and von Karman (derivative, weakly independent).",
+      "url": "https://ualberta.scholaris.ca/server/api/core/bitstreams/fc3e866e-74c4-4cc6-af71-ea4a4f760596/content"
+    },
+    {
+      "id": "src_goddard_jstor_daily_hunley",
+      "kind": "press",
+      "title": "Matthew Wills, 'Robert H. Goddard, the Forgotten Father of Rocketry', JSTOR Daily (16 Oct 2017) -- a two-minute summary of J. D. Hunley, 'The Enigma of Robert H. Goddard', Technology and Culture 36:2 (1995). Read in full; Hunley's article itself is behind a paywall and was NOT read. Used only to report Hunley's assessment of Goddard's departure from step-by-step engineering practice (a secondary summary of a secondary source).",
+      "url": "https://daily.jstor.org/robert-h-goddard-the-forgotten-father-of-rocketry/"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goddard_sia_goddard_papers, src_goddard_nasm_neufeld_winter, src_goddard_stern_gsfc, src_goddard_nasm_benningfield | 1913; Jan 1918; March 1920 | primary text + secondary] Goddard's March 1920 report to the Smithsonian ranges over hydrogen-oxygen propellants, solar-powered propulsion, ionised jets and making propellant on the Moon; Neufeld and Winter add that he had already run preliminary ion-propulsion experiments at Clark and, in January 1918, wrote a sealed essay on migration to another star's planet. Stern quotes an October 1913 diary list that includes 'look up Darwin's theory of the lunar motion; and look up meteors. Also try a jet', and Benningfield reports notebooks on solar power, ion propulsion and hydrogen-oxygen fuel. Most of the underlying documents are Goddard's own papers, read here through curators and a NASA educator, so the score stays at 72."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goddard_sia_abbot_walcott, src_goddard_sia_goddard_papers, src_goddard_crouch_reaching, src_goddard_stern_gsfc | Sept 1916-Jan 1917; 1919 | contemporaneous records + primary + secondary] Abbot wrote on 16 Dec 1916 that he had checked the theoretical equations and parts of the numerical calculations and believed the theory sound, and Walcott's 5 Jan 1917 letter says Abbot and E. Buckingham of the Bureau of Standards had verified the soundness of the theory and the accuracy of the numerical data. In his 1916 letter Goddard describes testing whether the jet's recoil owed anything to reaction against the air (spring-suspended chambers, a welded pipe system, measurements down to 0.5 mm pressure), yet he also called an untested reloading mechanism 'self-evidently operative' and Stern says the solid-charge feed later proved unfeasible, which holds the score to 72; Crouch describes the 1919 treatise as an engineering study of equations and tabular data."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goddard_stern_gsfc, src_goddard_nasm_benningfield, src_goddard_sia_abbot_walcott, src_goddard_crouch_reaching | 1915-16; 1930s | secondary + contemporaneous record] Stern describes the 1915 measurements: commercial rockets on a ballistic pendulum, interchangeable nozzles on a threaded chamber, calorimetry of the burnt charge and a spring-compression device to show the recoil worked in a vacuum; Benningfield adds a pistol fired in a vacuum chamber and small rockets fired in a ring-shaped vacuum tube. Abbot's 16 Dec 1916 memo calls the experimental work 'both sound and ingenious', and for the 1930s Crouch reports work on gyroscopic control (spring 1935) while Stern lists gyroscopes, exhaust vanes and larger vehicles. Anderson (via Benningfield) says he changed many variables at once in each test, so the score is 76, not higher."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_goddard_crouch_reaching, src_goddard_nasm_benningfield, src_goddard_hajramezan_thesis | 1929-1935 | secondary] After the 17 July 1929 launch brought police and an ambulance and effectively barred him from flying rockets in the area, Crouch says the Guggenheim grant let him move the work to Roswell; in spring 1935 he was still working on gyroscopic control with 'progress slow' and, during Lindbergh's and Harry Guggenheim's visit of September 1935, two abortive launches. Neufeld (via Benningfield) says he kept promising a high-altitude rocket from 1917 through the 1920s without delivering it, and the thesis notes that the Roswell work resumed after a brief 1932-34 hiatus. Two distinct dated episodes from non-subject sources, but the stated goal was not reached, hence dual_edged; his tuberculosis and other health history are not used."
+    },
+    "collaboration": {
+      "score": 32,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_goddard_malina_1986, src_goddard_crouch_reaching, src_goddard_winter_misunderstood, src_goddard_hajramezan_thesis | Nov 1935; Sept 1936; 1938 | firsthand + secondary] Malina, at Roswell in Sept 1936, saw the shop (but no components of the sounding rocket), the tower and a test stand and was told nothing beyond Goddard's published 1936 report; in Nov 1935 Goddard consigned a rocket to the Smithsonian on condition that it not be exhibited or even shown without his permission. Winter states, without citing a document, that he had his workers sign agreements not to reveal his research, and the thesis (citing Clary, Malina and von Karman) says he declined to go beyond his own circle when Harry Guggenheim tried to arrange a cooperative effort with NACA and Caltech in 1938. He did work closely with a small team and agreed in 1935 to publish a report at Lindbergh's and Guggenheim's urging, so 24 rather than lower. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.4/10): 24/0.72/documented -> 32/0.62/strong_inference -- the episodes (1935 consignment condition, 1936 Malina visit, 1938 refusal of a cooperative effort) show outward-facing secrecy toward outside parties, not his conduct inside his own team (which the same sources describe as close), and the 1938 episode rests on a derivative thesis; the extreme 16-29 band needs documented episodes from independent sources. Direction of change: toward the midpoint."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_goddard_stern_gsfc, src_goddard_winter_misunderstood, src_goddard_nasm_benningfield | 1921-22; 1926 onward | secondary] Stern says the plan of feeding a rocket a stream of solid charges 'proved unfeasible' and that in 1922 Goddard went back to liquid fuel; Winter dates the switch to liquid propellants to 1921 and Benningfield says he pivoted once solid propellants looked too weak. Stern adds that the 16 March 1926 design did not give the hoped-for stability and that he later moved to gyroscope-controlled steering by vanes in the exhaust. Two distinct changes of technical direction, but the second rests on Stern alone and the motives are the historians' reading, so strong_inference at the bottom of the band."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_goddard_sia_goddard_papers, src_goddard_sia_abbot_walcott, src_goddard_crouch_nasm, src_goddard_crouch_reaching, src_goddard_nasm_neufeld_winter, src_goddard_winter_misunderstood | Sept 1916; 1920 | primary + contemporaneous record + secondary] On 27 Sept 1916, rather than let A. G. Webster put his device before the Naval Consulting Board, Goddard wrote to the Smithsonian asking it to convene a committee and to recommend a fund; Abbot's 2 Oct 1916 memo treats it as an incoming proposal and a $5,000 grant was approved on 5 Jan 1917 (Walcott's letter; Crouch). In 1920 he closed a confidential report to Abbot by saying an appeal for public support was justifiable (Neufeld and Winter) and hoped publicity would bring public contributions of $50,000-$100,000 (Winter). Funders sometimes came to him (Lindbergh telephoned him on 22 Nov 1929, Crouch), so the score is 64."
+    },
+    "planning_orientation": {
+      "score": 42,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "[src_goddard_nasm_benningfield, src_goddard_jstor_daily_hunley, src_goddard_hajramezan_thesis, src_goddard_stern_gsfc, src_goddard_sia_goddard_papers | 1930s; 1913; Jan 1917 | secondary] Anderson (via Benningfield) says he did not proceed step by step and changed guidance, propulsion and structure in the same test so that causes of failure were hard to see; Hunley (as summarised by JSTOR Daily) says he did not follow the step-by-step procedures of standard engineering practice, and the thesis calls his approach unsystematic. Against this, Stern quotes a 1913 diary to-do list and Goddard's 9 Jan 1917 letter says he would plan the work and secure assistants so as to lose little motion, so the trait is placed just below the midpoint; the criticism is one historiographic view repeated across sources rather than independent episodes."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/robert-goddard-bain-ca1920.jpg",
+    "width": 1206,
+    "height": 1600,
+    "source": "Bain News Service, George Grantham Bain Collection, Library of Congress Prints and Photographs Division (LC-DIG-ggbain-30106; call no. LC-B2- 5133-14), via Wikimedia Commons",
+    "license": "Public domain (PD-US-expired)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dr._Rob%27t_H._Goddard_ggbain.30106.jpg",
+    "attribution": "Dr. Rob't H. Goddard, Bain News Service, [between ca. 1915 and ca. 1920], glass negative, George Grantham Bain Collection, Library of Congress (LC-DIG-ggbain-30106); the print carries the studio mark 'Schervee' (Commons credits Herman Schervee, 1867-1923); public domain (published before 1931); cropped to the portrait and downscaled",
+    "attributionUrl": "https://www.loc.gov/item/2014710264/",
+    "creator": "Bain News Service (publisher); print marked 'Schervee' (Commons credits Herman Schervee, 1867-1923, an identification the Library of Congress record does not make)",
+    "date": "between ca. 1915 and ca. 1920 (Library of Congress; Commons: circa 1920)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Dr._Rob%27t_H._Goddard_ggbain.30106.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q182546 verified live: Wikidata API wbgetentities (labels, descriptions, claims, sitelinks) returned en label 'Robert H. Goddard', en description 'American physicist', ko label '로버트 고다드', kowiki sitelink title '로버트 고더드' (the ko.wikipedia API confirmed that page exists), born 1882-10-05, died 1945-08-10, citizenship Q30 (United States), P18 'Dr. Robert H. Goddard - GPN-2002-000131.jpg' (not used, see PORTRAIT). The English Wikipedia lead was read via the MediaWiki API. Slug collision check: no robert-goddard file in data-pipeline/candidates and no Goddard person entry in src/data/people (the only 'Goddard' string, in roster37.ts, is in the Charles Lindbergh entry's source text). CLASSIFICATION PRECEDENT: era 20th_century (1882-1945, main work 1915-1941; shipped albert-einstein (1879) and henry-ford (1863) are 20th_century, nikola-tesla (1856) and thomas-edison (1847) are 19th_century); regionCode north_america; occupations engineer, physicist, inventor; fields engineering, physics, technology (physics is included, beyond the suggested engineering + technology, because the experimentation and analytical_rigor rows rest on his 1915-16 experimental-physics measurements of jet velocity, efficiency and vacuum recoil and he held a Clark University physics doctorate and professorship; category contribution science_knowledge via engineering/physics and building_discovery via technology); tags innovator and independent (the latter rests on the collaboration row); archetype technical_innovator. EVIDENCE READ (13 source records incl. 2 orientation; 11 substantive records, all actually opened and read): Benningfield (NASM Air & Space Quarterly, June 2026), Neufeld and Winter (NASM, March 2026), Winter (Air & Space, 2008), Crouch (Smithsonian Magazine, 2001) and Crouch (NASM excerpt, 2010), Stern (NASA GSFC), Malina (Caltech E&S, 1986, firsthand), Smithsonian Institution Archives transcriptions of Goddard's own letters/reports (self) and of Abbot's and Walcott's contemporaneous memoranda (non-self), Hajramezan's 2021 MA thesis (derivative), and the JSTOR Daily summary of Hunley (1995). INDEPENDENT NON-SELF PERSPECTIVES: about six reasonably distinct ones (Benningfield with the historians he interviews; Neufeld and Winter, where Winter's two pieces are ONE perspective and Crouch's two pages are ONE perspective; Stern; Malina, firsthand and interested; the Smithsonian's own contemporaneous memoranda by Abbot and Walcott) plus two weak derivative ones (the thesis and the JSTOR Daily summary of Hunley) and ONE self perspective (Goddard's letters and reports). Non-self behavioral sources: all of the above except the SIA Goddard letters. INDEPENDENCE IS WEAKER THAN THE COUNT SUGGESTS: the historiography traces back to Goddard's own diaries and letters (published as The Papers of Robert H. Goddard, edited by his widow Esther Goddard and G. Edward Pendray, not opened here) and to Clary's 2003 biography and Hunley's 1995 article, which are quoted by several of my sources but were not themselves read; Goddard's diary quotations reach me only through Stern, Benningfield and the thesis. For that reason no row carries confidence above 0.72, and rows resting on the historians' reading of motive or method are strong_inference (0.50-0.58) or inference (0.38). The only firsthand non-self account of Goddard's behavior is Malina's (Sept 1936), which is interested (a would-be collaborator writing about 30 years later). Episode use: no episode supports more than two rows (the 1915-16 experiments support experimentation and analytical_rigor; the Sept 1916 approach to the Smithsonian supports proactive_agency; the Nov 1935/Sept 1936/1938 non-disclosure episodes support collaboration; the Sept 1935 visit supports persistence and collaboration; the 1921-26 changes of design support belief_updating; the 1913/1918/1920 writings support curiosity; the historians' critique of his test method supports planning_orientation). CONFLICTING ACCOUNT: Benningfield says Goddard 'showed off much of his work' to Malina and that Malina was excited, whereas Malina himself says he was shown no components of the sounding rocket and was refused technical details beyond the published 1936 report; Malina's firsthand account was used and Benningfield's version was not. Winter's statement that Goddard's workers signed non-disclosure agreements carries no cited document, so it is reported as Winter's statement and is not the sole support for the collaboration row. EXCLUDED ON PURPOSE: 'father of modern rocketry', 'first liquid-fuel rocket' and 'first scientific payload' framing; patent counts (214), altitude and speed figures as achievement, Guggenheim dollar totals, later NASA naming, gold medal and the 1960 patent settlement; Goddard's tuberculosis (from 1913), throat cancer and death (no inference from health); the 1899 'Anniversary Day' story and other retrospective self-authored recollections; Hunley's 'personal inclination to mysticism' (as summarised by JSTOR Daily) and von Karman's and Malina's remarks that Goddard became bitter or took himself too seriously (speculation about mental state); wartime and military-adjacent work (the 1918 Aberdeen demonstration and the 1942-45 Navy work) which is incidental to an engineer-physicist identity; the 1920 New York Times editorial and its 1969 correction, which is used as a fact in the editorial draft only and not scored; 'Camp Devens' (single unsigned source) is not used. Opened but not cited because unsigned, derivative or too thin: New England Historical Society, White Sands Missile Range Museum, Roswell Museum (roswell-nm.gov), NASA GSFC and NPS pages, MNHS Lindbergh 'Scientist', AIAA 'Who was Daniel Guggenheim', Clark News, SIA overview page, Project MUSE abstract. LIMITS: Clary's 'Rocket Man' (2003) and Lehman's 'This High Man' (1963) are lending-restricted on archive.org (HTTP 401 for the full text) and were not read or circumvented; Hunley's article is paywalled; nytimes.com pages for the 13 Jan 1920 editorial and the 17 July 1969 correction returned HTTP 403, so the editorial's wording is taken from Winter (2008) and Benningfield and is not counted as an opened New York Times source; the Library of Congress item page returned HTTP 403 to WebFetch and was read through the loc.gov JSON API; the Papers of Robert H. Goddard were not opened; the March 1920 report was read in part (first section plus keyword search of the rest); the thesis and Malina's article were read only in the Goddard passages. PORTRAIT: the Wikidata P18 image (NASA GPN-2002-000131, Commons {{PD-USGov-NASA}}) was NOT used: the Commons File page gives author 'NASA' and date 'unknown', the NASA/Internet Archive record credits only 'NASA' and 'photographer not specified', and Goddard died in 1945, thirteen years before NASA existed, so it is a historical portrait of unknown photographer and date that NASA hosts, not a demonstrated federal work; the decisive copyright fact is unresolved. USED INSTEAD: Commons 'File:Dr. Rob't H. Goddard ggbain.30106.jpg' (the Bain News Service glass negative in the Library of Congress). Read: the Commons File page wikitext ({{PD-US-expired}}, date 'circa 1920', author Creator:Herman Schervee via Bain, uploader JayCubby 2025-03-17, source the LOC Flickr Commons page), the Commons API extmetadata (LicenseShortName 'Public domain', Copyrighted False, 4160x5735), the {{PD-US-expired}} template's own text ('in the public domain in the United States because it was published (or registered with the U.S. Copyright Office) before January 1, 1931') and the Library of Congress JSON record (title 'Dr. Rob't H. Goddard', 'created_published' '[between ca. 1915 and ca. 1920]', contributor 'Bain News Service, publisher', title 'from data provided by the Bain News Service on the negative', rights advisory 'No known restrictions on publication', reproduction number LC-DIG-ggbain-30106). Legal basis: publication (Bain agency, a US publisher) at latest about 1920, well before 1 January 1931, so public domain in the United States; independently, the print itself is marked 'Schervee' and Commons credits Herman Schervee (Wikidata Q110222987, 1867-1923, American photographer), an identification the LOC record does not make and which I could not verify further, but which would put the author's death at 1923. The decisive fact relied on is therefore the Library of Congress's pre-1931 date range for a press-agency photograph, not a 'believed public domain' statement alone; the residual doubts (exact date not documented beyond the range; photographer identification unverified) are disclosed here. Identity: the Bain caption on the negative reads 'Dr. Rob't H. Goddard' and the face matches the NASA portrait of Goddard. Downloaded the Commons original (4160x5735 grayscale), cropped away the glass-negative border and caption strip (the studio mark 'Schervee' on the coat was left in), downscaled to 1206x1600 (JPEG q85; never upscaled) and viewed the saved file: single subject, clean, identifiable. kind 'likeness' (a studio portrait from life). ORCHESTRATOR REVIEW (2026-09-24, before any eligibility computation): collaboration corrected 24/0.72/documented -> 32/0.62/strong_inference (see row); all other rows accepted. Portrait basis (Bain News Service glass negative, LOC record dated between ca. 1915 and ca. 1920 with Bain News Service as publisher, Commons PD-US-expired 'published before 1931') accepted on the same footing as the other Bain/LOC pre-1931 press portraits in this corpus; the LOC date range is an estimate and the publication fact is inferred from Bain's business as a press-photo agency, disclosed here."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로버트 고더드"
+    }
+  }
+}

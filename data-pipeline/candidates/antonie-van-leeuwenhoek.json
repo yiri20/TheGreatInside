@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "antonie-van-leeuwenhoek",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Antonie van Leeuwenhoek",
+    "aliases": [
+      "Antoni van Leeuwenhoek",
+      "Anton van Leeuwenhoek",
+      "Antony van Leeuwenhoek",
+      "Anthonie van Leeuwenhoek"
+    ],
+    "wikidataId": "Q43522",
+    "birthYear": 1632,
+    "deathYear": 1723,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "NL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist"
+    ],
+    "fieldIds": [
+      "biology",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "self_taught",
+      "independent",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_leeuwenhoek_wikipedia",
+      "kind": "wikipedia",
+      "title": "Antonie van Leeuwenhoek (English Wikipedia; lead section fetched via the MediaWiki API) -- orientation only (dates, Delft, draper, self-taught, microscopist); not used as support for any scored row. The Korean Wikipedia article 'ko:안토니 판 레이우엔훅' was confirmed through the ko.wikipedia API (lead read for the name only).",
+      "url": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek"
+    },
+    {
+      "id": "src_leeuwenhoek_wikidata",
+      "kind": "wikidata",
+      "title": "Antonie van Leeuwenhoek (Q43522) -- identity verified live through the Wikidata API (wbgetentities: labels, descriptions, aliases, claims, sitelinks): en label 'Antonie van Leeuwenhoek', nl label 'Antoni van Leeuwenhoek', ko label '안톤 판 레이우엔훅', kowiki sitelink title '안토니 판 레이우엔훅', born 1632-10-24, died 1723-08-26 (a second value 08-30 is also listed), citizenship Q170072 (mapped to NL), born and died in Delft (Q690), P18 = Rijksmuseum print 'Portret van Antonie van Leeuwenhoek, RP-P-1903-A-23563.jpg'. The en description ('Father of Microbiology') is a fame label and is NOT used. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q43522"
+    },
+    {
+      "id": "src_leeuwenhoek_dobell_1932",
+      "kind": "biography",
+      "title": "Clifford Dobell, Antony van Leeuwenhoek and His 'Little Animals' (Harcourt, Brace, New York/London, 1932), archive.org OCR full text (id antonyvanleeuwen00dobe, 1.0 MB) downloaded and read locally: the whole Life chapter (pp. 19-100: Delft drapery, chamberlain 1660, surveyor 1669, wine-gauger 1679, de Graaf's 1673 introduction and Oldenburg's reply, Constantijn Huygens sr's 1673 character note, the 1680 Fellowship, Thomas and William Molyneux 1685/1692, Constantijn Huygens jr's 1685 report of the Landgrave's visit, de la Crose 1693, Uffenbach's 1710 visit in Dobell's translation, the 1710-11 letters on visitors, the 1716 Louvain medal, the last letters, the 1701 cabinet and its 1723 delivery); Part II chapter 2 (pp. 167-190: Letters 19, 21 and the eight Delft attestations, Christiaan Huygens's 1675 doubt and 1677-78 note, Hooke's 1677 letter and Birch's minutes as quoted, Letters 23 and 26); Elucidations (ii) language, (iii) microscopes (Folkes 1724, Baker 1740, the 1747 sale catalogue) and (vi) portraits (pp. 346-355). Dobell is a modern protozoologist-translator who admires L. (friendly modern-scholar perspective, ONE perspective) and translates the Dutch, Latin and German texts himself; his interpretive remarks (e.g. that L. 'strongly opposed' spontaneous generation, that Uffenbach was 'fatuous') are not relied on. Chapters 1, 3, 4 of Part II and the Envoy were not read. Used for dated documents by OTHER people (Molyneux, Huygens jr, Uffenbach, Folkes, attestations) and flagged wherever a row would rest on his translation alone. NOTE ON USE: where a row relies on a document by another person that I reached only in Dobell's translation (Constantijn Huygens Sr 1673, Constantijn Huygens Jr 5 Nov 1685, William Molyneux 1692, de la Crose 1693, Uffenbach 1710, Folkes 1724, the 1747 sale catalogue), the rationale says so. Uffenbach's German original (Merkwuerdige Reisen, vol. 3, 1754, pp. 349-360) was NOT read: the only archive.org scan I could fetch (Fraktur OCR, id bub_gb_4Ec7AAAAcAAJ) did not contain the Delft passage; Cocquyt et al. 2021 independently cite Uffenbach for the denial of globular lenses.",
+      "url": "https://archive.org/details/antonyvanleeuwen00dobe"
+    },
+    {
+      "id": "src_leeuwenhoek_letters_vol1",
+      "kind": "archive",
+      "title": "Alle de brieven van Antoni van Leeuwenhoek / The Collected Letters, Deel 1: 1673-1676 (Swets & Zeitlinger, Amsterdam, 1939), DBNL PDF (6.7 MB) downloaded and text-extracted: read Letter 2 (15 Aug 1673: reluctance to write, lack of schooling, 'own impulse and curiosity alone'), Letter 11 [6] (7 Sept 1674: the mistaken tendon/nerve identification corrected by the Delft anatomist Schravesande; the chalk passage 'out of curiosity' after an English trip about six years earlier, with the editors' note that Dobell over-reads it as proof of microscope work in 1668), Letter 13 [8] (4 Dec 1674: 'at first I intended to stop my observations for a time, but your kind letter has encouraged me to continue') and the opening of Letter 18 [12] (14 Aug 1675: Oldenburg's advice to call in other judges, and L.'s answer), with the edition's English translation and notes. SELF-authored (one perspective, however many letters); the editorial notes are used only to check what a letter says. The rest of the volume was not read.",
+      "url": "https://www.dbnl.org/tekst/leeu027alle01_01/"
+    },
+    {
+      "id": "src_leeuwenhoek_letters_vol2",
+      "kind": "archive",
+      "title": "Alle de brieven van Antoni van Leeuwenhoek / The Collected Letters, Deel 2: 1676-1679 (Swets & Zeitlinger, Amsterdam, 1941), DBNL PDF (6.9 MB) downloaded and text-extracted: read Letter 26 [18] (9 Oct 1676) at the passage where he says he does not impart his method and at the day-by-day entries; Letter 31 [19] (23 Mar 1677: the counting method with its 'I imagine' hedge, the refusal 'as yet' to make his particular microscopes public, the frozen-water test); Letter 33 [21] (5 Oct 1677) read in context from start to end of its English text (Oldenburg's request about the skin of Africans that he had not yet followed up, eel worms and eel blood after buying six eels, the flea eggs carried in his pocket and the disagreement with Swammerdam, re-weighing of the millet-seed measure, the eight attestations and his request that witnesses state half their count); the five signed attestations printed with it (Petrie 20/30 Aug 1677 in English; Haan and Cordes 18 May 1677 in Latin with the edition's Dutch and English translation; Hodenpijl, Boogert-Poitevin-Burch, Gordon) -- independent contemporary witness documents, recruited by L.; Letter 34 (16 Oct 1677, to Brouncker after Oldenburg's death) and Letter 35 [22] (Nov 1677, the Latin letter on animalcules in semen, including his request that it be kept private, published or destroyed at the recipient's discretion). SELF-authored letters (same perspective as vols. 1 and 12) plus the witnesses' own statements.",
+      "url": "https://www.dbnl.org/tekst/leeu027alle02_01/"
+    },
+    {
+      "id": "src_leeuwenhoek_letters_vol12",
+      "kind": "archive",
+      "title": "Alle de brieven van Antoni van Leeuwenhoek / The Collected Letters, Deel 12: 1696-1699 (Huygens Instituut / Royal Netherlands Academy edition), DBNL PDF (3.4 MB) downloaded and text-extracted: read the header, summary and the English passages of Letter 200 [116] (9 June 1699, to the Royal Society), in which he disputes a published claim (Dalenpatius / de Plantade, Nouvelles de la Republique des Lettres, May 1699) that spermatozoa show a complete human form. SELF-authored (same perspective as vols. 1-2); the rest of the volume was not read.",
+      "url": "https://www.dbnl.org/tekst/leeu027alle12_01/"
+    },
+    {
+      "id": "src_leeuwenhoek_birch_1756",
+      "kind": "archive",
+      "title": "Thomas Birch, The History of the Royal Society of London, vols. 3 (1756) and 4 (1757), archive.org OCR (long-s text) downloaded and searched locally. Vol. 3, 1677 entries read in context: 1 Feb and 15 Feb (the Society orders that L. be asked for his method of observing), 5 Apr (his 23 March letter read; Grew to try the observations), a meeting between 15 Oct and 1 Nov (his letter after Oldenburg's death; Hooke told to make a microscope 'after a way' likely to do as much as L.'s), 1 Nov (the eight testimonials read; Hooke's pipes test), 8 Nov (nothing seen) and 15 Nov (Hooke sees the animals in nine-to-ten-day pepper-water; nine named witnesses). Vol. 4: 29 Jan 1679/80 (election on Dr Croone's motion), 23 Nov 1681 (Henshaw moves that L. be asked to communicate or publish his invention; Hooke thinks the glasses are the kind described in his Micrographia), 1682 (L.'s reply to Hooke's request about crab and shrimp muscle fibrils) and the letter of Thomas Molyneux to Aston, Leyden, 13 Feb 1685 N.S., printed in full (civil and complaisant; showed only ordinary microscopes; another sort 'no man living' had looked through kept for his own observations and not shown; his 'only secret' probably clearer, better-polished glasses; ignorant of letters; 'wholly trusting to his own' thoughts, which 'now and then lead him into extravagancies'). Contemporary Royal Society minutes and a visitor's letter as printed 72-79 years later: independent institutional perspective (dates Old Style; OCR partly garbled).",
+      "url": "https://archive.org/details/BirchTTheHistoryOfTheRoyalSocietyOfLondonVol31756"
+    },
+    {
+      "id": "src_leeuwenhoek_cocquyt_2021",
+      "kind": "biography",
+      "title": "Tiemen Cocquyt, Zhou Zhou, Jeroen Plomp and Lambert van Eijck, 'Neutron tomography of Van Leeuwenhoek's microscopes', Science Advances 7(20) eabf2402 (May 2021), open-access full text read through Europe PMC (PMC8121416) -- Rijksmuseum Boerhaave / TU Delft study of two preserved microscopes; it quotes Uffenbach (1710) on globular lenses, Hooke's 1678 complaint that L. would not impart his method, and the Molyneux visit. The authors' reading that L. kept silent to conceal a debt to Hooke is ONE interpretive step and is not used as fact. Limits stated by the authors: only two instruments examined. Independent modern museum-science perspective.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8121416/"
+    },
+    {
+      "id": "src_leeuwenhoek_lens_anderson",
+      "kind": "biography",
+      "title": "Lens on Leeuwenhoek (lensonleeuwenhoek.net; single author Douglas Anderson, guest researcher at the Huygens Institute 2016-2024) -- pages 'About', 'Hooke's Three Tries', '1677: To confirm his observations' and 'Wrote Letter L-040 of 1676-10-09' read through WebFetch summaries (not full page text); used only for orientation and to cross-check the Birch dates (its dates are New Style); NOT used as support for any scored row.",
+      "url": "https://lensonleeuwenhoek.net/content/hookes-three-tries"
+    },
+    {
+      "id": "src_leeuwenhoek_rijks_sk_a_957",
+      "kind": "institution",
+      "title": "Rijksmuseum, Amsterdam, collection page SK-A-957 (WebFetch) plus the Commons File page for the same painting -- object record for Jan Verkolje (I), Portrait of Anthonie van Leeuwenhoek, oil on canvas, 56 x 47.5 cm, dated 1680-1686, purchased 1879, Public Domain Mark; used ONLY for the portrait chain (see provenance.notes and the portrait block), not for any scored row.",
+      "url": "https://www.rijksmuseum.nl/en/collection/SK-A-957"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_leeuwenhoek_letters_vol2, src_leeuwenhoek_birch_1756, src_leeuwenhoek_cocquyt_2021, src_leeuwenhoek_dobell_1932 | 1676-1710 | self + minutes + visitors, partly via Dobell] In letters of 9 Oct 1676 and 23 Mar 1677 he said he kept his method of seeing the smallest animalcules, and his particular microscopes, to himself; Birch records the Royal Society asking for his method in Feb 1677 and again on 23 Nov 1681, and Thomas Molyneux's letter of Feb 1685, printed by Birch, says he showed only his ordinary microscopes and refused a sight of the kind he kept for his own observations. Dobell's translations add Constantijn Huygens Jr's 5 Nov 1685 report that he said he never gave a microscope to anybody and would become 'the slave of everybody' if he did, Uffenbach's 1710 report that he would sell none in his lifetime, and his own 1710 letter that receiving every visitor would make him 'quite a slave'. Held at 82: the Huygens Jr and Uffenbach items reach me only through Dobell, his motive is not documented (Cocquyt et al.'s reading that the silence hid a debt to Hooke is one inferential step), and he did send observations and, by his 1701 arrangement, a labelled cabinet for the Society after his death. RUBRIC_CORRECTION at review (downward only, no new evidence): lowered from 82/0.76 to 78/0.70 because the stated motive is undocumented (secrecy about method is an inference to a need for independent control) and two of the visitor items reach the profile only through Dobell's translations."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leeuwenhoek_letters_vol1, src_leeuwenhoek_letters_vol2, src_leeuwenhoek_birch_1756, src_leeuwenhoek_dobell_1932 | 1673-1677 | self + minutes + a patron's letter via Dobell] In his letter of 7 Sept 1674 he says that after seeing the chalk cliffs on a trip to England about six years earlier he 'often reflected' on them, out of curiosity, and then tried to find the parts of chalk; in Oct 1677 he bought six eels at once after a fishmonger's remark about the pain of eel blood, and followed flea eggs through grubs to pupae. Birch's minutes list the range of two of his 1677 letters (waters, snow and spice infusions; skin colour, eels, insect generation), and Constantijn Huygens Sr's letter to Hooke of 8 Aug 1673, in Dobell's transcription, calls him 'exceedingly curious and industrious'. Several subjects over several years, but the specific instances are his own reports and Huygens was a friend, so strong_inference; the Collected Letters' editors caution against Dobell's reading of the chalk passage as proof of microscope work in 1668, which is not used."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leeuwenhoek_letters_vol2, src_leeuwenhoek_dobell_1932 | Mar-Oct 1677; 1710 | self + witness statement + visitor via Dobell] After a hard frost had killed the animalcules he thawed the water beside a fire in his bedchamber and reported living creatures again after 24 hours and, another time, 17 (letter of 23 Mar 1677); the English pastor Alexander Petrie signed a statement (20/30 Aug 1677) that L. added a little vinegar to the water and the animals stopped moving. In Oct 1677 he carried flea eggs in his pocket for eight or nine days until grubs hatched, and Dobell's translation of Uffenbach (1710) has him saying that young oysters kept in water had spoiled, so he now used spirit of wine. Own letters, one independent witness statement and one second-hand visitor account; 76."
+    },
+    "analytical_rigor": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_leeuwenhoek_letters_vol2, src_leeuwenhoek_dobell_1932, src_leeuwenhoek_birch_1756 | 1677; 1685 | self + witness statements + visitor's letter] Writing to Oldenburg on 23 Mar 1677 he said he never affirmed a fixed number of animalcules but 'imagined' he saw so many, and explained how he diluted and counted; on 5 Oct 1677 he wrote that he had told the witnesses to state only half of what they judged they saw, and he re-weighed his millet-seed volume measure, finding 212 seeds against a computed 216. Witness statements record a capillary tube divided into 50, 70 or 90 parts (Dobell's note). Against this, Thomas Molyneux (1685, printed by Birch) thought his lack of acquaintance with others' work led him 'now and then' into 'extravagancies'. Counting habits are documented, the interpretive record is mixed, so a modest score and strong_inference."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leeuwenhoek_letters_vol1, src_leeuwenhoek_letters_vol2, src_leeuwenhoek_birch_1756, src_leeuwenhoek_dobell_1932 | 1674-1722 | self + minutes + via Dobell] On 4 Dec 1674 he told Oldenburg he had intended to stop his observations for a time but was encouraged to go on; on 16 Oct 1677, after Oldenburg's death, he wrote to the Society's president Brouncker asking whom to address in future and enclosing new observations, and Birch shows the Society dealing with the letter and its testimonials that autumn. Dobell quotes Hooke (1692) that microscopy was reduced to 'almost a single Votary', translates a July 1696 letter protesting eight unacknowledged communications (after which, on Dobell's reading, he sent observations to others), and quotes an April 1722 letter saying he had left doubtful observations before the glass for days or years. Several episodes over five decades; documented at 0.66 because the later items come through Dobell."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leeuwenhoek_cocquyt_2021, src_leeuwenhoek_dobell_1932 | 1723-1740; artefacts | modern examination + contemporaries via Dobell] Cocquyt et al. (2021) report from neutron tomography of two preserved microscopes that the brass plates were recessed to fit each lens closely and that the high-power instrument has different aperture sizes on the object and eye sides (0.55 and 0.70 mm). Dobell's translations of Folkes (1724) and Baker (1740) say the 1723 cabinet held glasses he had chosen from many, each with its object and a register in his own hand, and that he varied the aperture to suit the object. Uffenbach (via Dobell) found the metalwork roughly finished, so the care concerns optics, not finish; only two instruments were scanned and the two contemporaries are read through Dobell, hence strong_inference at 70."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/antonie-van-leeuwenhoek-verkolje-1686.jpg",
+    "width": 1349,
+    "height": 1600,
+    "source": "Jan Verkolje (I), oil on canvas, Rijksmuseum, Amsterdam (SK-A-957; on loan to Rijksmuseum Boerhaave, Leiden, accession P07252), via Wikimedia Commons",
+    "license": "Public domain (painter d. 1693)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Anthonie_van_Leeuwenhoek_(1632-1723)._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg",
+    "attribution": "Jan Verkolje (I) (1650-1693), Portrait of Anthonie van Leeuwenhoek, natural philosopher and zoologist in Delft, oil on canvas, 56 x 47.5 cm, dated 1680-1686 by the Rijksmuseum, Rijksmuseum Amsterdam SK-A-957 (purchased 1879); public domain (painter died 1693); photograph released by the Rijksmuseum under CC0; saved as JPEG q85 at 1349x1600 from the 2148x2547 original",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/SK-A-957",
+    "creator": "Jan Verkolje (I) (1650-1693)",
+    "date": "1680-1686",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Anthonie_van_Leeuwenhoek_(1632-1723)._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID Q43522 verified live via the Wikidata wbgetentities API (en label 'Antonie van Leeuwenhoek', born 1632-10-24, died 1723-08-26 (08-30 also listed), born and died in Delft, ko label '안톤 판 레이우엔훅', kowiki sitelink '안토니 판 레이우엔훅'), and cross-checked with the en.wikipedia API pageprops (wikibase_item Q43522); the QID in the assignment (Q43683) was WRONG (it is 'Zaki Alamdari', a village in Iran). Slug collision check: no antonie-van-leeuwenhoek in data-pipeline/candidates and no Leeuwenhoek in src/data/people. CLASSIFICATION: era early_modern and regionCode western_europe, nationality NL, following every pure-NL candidate in the worktree (rembrandt and baruch-spinoza early_modern; rembrandt, spinoza, vincent-van-gogh, johan-cruyff western_europe); his documented work is 1668-1723. Occupation scientist and fields biology + natural_science because the rows rest on his observation of living things (animalcules, eels, fleas) and materials (chalk, salt); category contribution science_knowledge. Tags self_taught (Letter 2: brought up 'in trade', not languages or arts; Huygens Sr 1673 'unlearned both in sciences and languages'; Molyneux 1685), independent (autonomy_need row) and craft_focused (made his own lenses and mounts: Folkes via Dobell, Cocquyt et al.); archetype scientific_explorer rests on the curiosity and experimentation rows. Aliases limited to forms in the sources ('Antonj van Leeuwenhoek' from the assignment dropped: his signatures read 'Antonj Leeuwenhoeck' without 'van'). EVIDENCE READ (10 records, all actually opened: 6 substantive, 2 orientation (Wikipedia, Wikidata), 2 auxiliary (a Lens on Leeuwenhoek summary; the Rijksmuseum page, portrait only)): Dobell 1932 (OCR full text, Life chapter and Part II chapter 2 plus three elucidations read; not the whole book), the Collected Letters vols. 1, 2 and 12 (specific letters listed in each record; Letter 33 [21] with its five witness statements read in full), Birch's History vols. 3 and 4 (the 1677, 1679/80, 1681, 1682 and Feb 1685 entries), Cocquyt et al. 2021 (full text), the last two auxiliary records are not support for any row. INDEPENDENT PERSPECTIVES: (1) Royal Society minutes and Thomas Molyneux's visitor letter as printed by Birch (contemporary, institutional, non-self); (2) Cocquyt et al. 2021 (modern museum-science, non-self); (3) the eight Delft witnesses' signed statements of 1677 (contemporary, non-self, but recruited by L.); (4) Dobell 1932 (modern scholar-translator who admires L.; ONE perspective even though he relays documents by Huygens Sr and Jr, Uffenbach, Folkes, Baker and William Molyneux, which I did not open in their own texts); (5) L.'s own letters (SELF, one perspective). At least one substantive non-self behavioural source exists (Birch's minutes and Molyneux letter; the witness statements). INDEPENDENCE IS WEAKER THAN THE COUNT SUGGESTS: several of the most quotable behaviours reach me only through his own letters or Dobell's translations, and the witnesses were chosen by L.; for that reason no confidence exceeds 0.76, no score exceeds 82, and the rows resting on his own letters plus one interpretive step (curiosity, analytical_rigor, detail_orientation) are strong_inference at 0.50-0.62. EPISODE USE (no episode supports more than two rows): method secrecy 1676-1681 (autonomy_need only); Molyneux visit Feb 1685 (autonomy_need; also named as counter-evidence in analytical_rigor); Huygens Jr Nov 1685 and 1710 letter (autonomy_need only); Uffenbach 1710 (autonomy_need and experimentation); 23 Mar 1677 counting statement (analytical_rigor) and its frost-and-thaw test (experimentation); Petrie's vinegar statement Aug 1677 (experimentation); 5 Oct 1677 halving and re-weighing (analytical_rigor); Jul-Oct 1677 eels and fleas (curiosity; the flea eggs also experimentation); 1674 chalk (curiosity); Huygens Sr 1673 (curiosity); Dec 1674, Oct 1677 (Brouncker), 1692, 1696 and 1722 (persistence, one row); Cocquyt, Folkes and Baker (detail_orientation only). COUNTER-EVIDENCE WEIGHED: Molyneux's and Uffenbach's remarks that his reasoning strayed and that he stood by a pulse claim (kept analytical_rigor at 60); Cocquyt et al.'s finding that the preserved high-power lens is a flameworked globule although Uffenbach quotes him denying globular lenses (two instruments only; their motive reading is not used); his 1680 letters welcoming Fellowship and his 1701 cabinet arrangement (kept autonomy_need below 85). EXCLUDED ON PURPOSE / left unscored: priority and 'first to see' claims (Ham, Hartsoeker, 'Father of Microbiology'), the Delft civic offices (chamberlain 26 Mar 1660, surveyor 4 Feb 1669, wine-gauger 15 Aug 1679: neutral context only), the 1676 Vermeer trusteeship (incidental duty), the Peter the Great visit and other royal visits, age, eyesight, illness and last-illness passages, the deaths of his wives and children, any Brian Ford-type specimen claim, and the correctness of his conclusions (eel 'fry' were nematodes; not scored either way). Attributes considered and not scored: belief_updating (1674 tendon correction accepted versus insisting on a pulse claim in 1710: mixed), conflict_tolerance ('do not gladly suffer contradiction' in 1673 versus 'I don't bother about contradictions' later, and disputes with Swammerdam and Dalenpatius: mixed), collaboration (recruited witnesses and answered Hooke's 1682 request versus withholding methods and refusing help: mixed, and it would reuse the secrecy episodes), independent_thinking (only Molyneux's characterisation and disputes reported in his own letters), mastery_orientation and impact_motivation (self-reported motives only), cross_domain_range (one instrument applied to many objects, not distinct fields). REAL LIMITS: Uffenbach's German original, Huygens's Oeuvres completes, Hooke's Microscopium and Derham, Folkes 1724 and Baker 1740 were NOT opened (the only Uffenbach scan I could fetch lacked the Delft passage); the Birch OCR is partly garbled and gives no legible date heading for the late-October 1677 meeting; Lens on Leeuwenhoek was read only through WebFetch summaries; the OCR of Dobell gives '22 Feb. 1724' for Jurin's letter, which conflicts with the April 1722 letter that answers it, so no date from that passage is used. STATUS: evidence_approved (identity verified, sources read, at least two independent perspectives, at least one substantive non-self behavioural source, every row supported by named episodes, portrait rights established from the Commons File page). Rows were locked before the validator was run. PORTRAIT (established; step 1 of the resumed run): Wikidata P18 for the person is the Rijksmuseum print RP-P-1903-A-23563 (an engraving by Abraham de Blois AFTER Verkolje, dated 1679-1717, CC0 on Commons) -- NOT chosen because it is a print after a painting, not the from-life original. Selected: the Verkolje painting itself. Commons File page 'File:Anthonie van Leeuwenhoek (1632-1723). Natuurkundige te Delft Rijksmuseum SK-A-957.jpeg' (2148x2547, 5.06 MB, uploaded by Fae from the Rijksmuseum API) read via the Commons API (imageinfo/extmetadata, revisions wikitext, action=parse rendered text and templates) and WebFetch: wikitext 'permission = {{PD-art|PD-old-100-expired}}' plus '{{cc-zero}}' and the Rijksmuseum sentence 'All data and all images made available through the API are either in the public domain or are subject to a CC0 license'; the rendered template says the file is a faithful photographic reproduction of a two-dimensional public-domain work, that the work is public domain in its country of origin where the term is life plus 100 years or fewer and in the United States because published before 1 January 1931; the creator template shows Jan Verkolje (I), born 9 Feb 1650 Amsterdam, buried 8 May 1693 Delft, work location Delft. No third-party reproduction claim, no deletion or dispute tag, and no notice restricting reuse appear on the page. Object: Wikidata Q16712379 (painting by Jan Verkolje (I), oil on canvas, 56 x 47.5 cm, inception 1680, Rijksmuseum SK-A-957 and Museum Boerhaave P07252); the Rijksmuseum page (WebFetch) confirms title, maker, oil on canvas, 56 x 47.5 cm, date 1680-1686, 'purchase 1879' and a Public Domain Mark; the older Commons file 'Jan Verkolje - Antonie van Leeuwenhoek.jpg' (2662x3156, tagged Superseded) documents the same painting with an object history of the 19 June 1879 Van Kaathoven sale, purchase by the Rijksmuseum in 1879 and a loan to Museum Boerhaave from 1950; Dobell (pp. 346-347) independently describes this painting as dated 1686 (fide Moes 1905), bought by the Rijksmuseum on 19 June 1879 from the estate of Dr C. H. W. van Kaathoven. The assignment's 'Museum Boerhaave c.1680' lead is therefore the SAME painting (Boerhaave holds it on loan; there is no separate Boerhaave version in what I read). Kind = likeness: a portrait painted by a resident Delft painter within the sitter's lifetime (1680-1686; it shows the Royal Society diploma of 1680), and the sitter himself refers in a 1694 letter (quoted by Dobell, p. 348) to 'my portrait, in mezzotinto' made by the painter-printer Verkolje, who had died; Dobell also reads Constantijn Huygens Sr's verses on Verkolje's 1686 mezzotint as attesting a good likeness (Dobell's reading, one perspective). I did NOT find a document saying that L. sat for the oil painting, so 'from life' is an inference from those facts; a stricter reviewer could relabel it historical_depiction. The saved file was viewed after saving: a single seated sitter in three-quarter length, face clear and centred-left, with globe, seal-bearing diploma and dividers, clean background; only downscaled (2148x2547 -> 1349x1600, JPEG q85), never upscaled. KOREAN NAME (confirmed): the ko.wikipedia API returns the article '안토니 판 레이우엔훅' (lead: 안토니 필립스 판 레이우엔훅 FRS, Dutch microbiologist and microscopist), matching the Wikidata kowiki sitelink title; the Wikidata ko LABEL is '안톤 판 레이우엔훅' (a variant; 'Anton' is not the form of his own name). Used '안토니 판 레이우엔훅' because it is the ko.wikipedia title and follows the standard Korean transliteration of Antoni/Antonie (안토니). REVIEW CORRECTION (RUBRIC_CORRECTION, downward): autonomy_need lowered from 82/0.76 to 78/0.70 (motive undocumented; Huygens Jr and Uffenbach items via Dobell); no other row changed."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "안토니 판 레이우엔훅"
+    }
+  }
+}

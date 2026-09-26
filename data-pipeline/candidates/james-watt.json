@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "james-watt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "James Watt",
+    "aliases": [],
+    "wikidataId": "Q9041",
+    "birthYear": 1736,
+    "deathYear": 1819,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological",
+      "industrial",
+      "innovation"
+    ],
+    "tagIds": [
+      "self_taught",
+      "craft_focused",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_watt_wikipedia",
+      "kind": "wikipedia",
+      "title": "James Watt (English Wikipedia; lead section fetched via the MediaWiki API) -- orientation only (identity, dates, occupations); not used as support for any scored row. The Korean Wikipedia page 'ko:제임스 와트' was checked to exist (title only).",
+      "url": "https://en.wikipedia.org/wiki/James_Watt"
+    },
+    {
+      "id": "src_watt_wikidata",
+      "kind": "wikidata",
+      "title": "James Watt (Q9041) -- identity verified live through the Wikidata API (wbgetentities: labels, descriptions, claims): en label 'James Watt', description 'British engineer (1736-1819)', ko label '제임스 와트', born 1736-01-19, died 1819 (two day-level values, 19 and 25 Aug; only the year is used), citizenship Scotland (Q22, mapped to GB), P18 'James Watt by Henry Howard.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q9041"
+    },
+    {
+      "id": "src_watt_smiles",
+      "kind": "biography",
+      "title": "Samuel Smiles, Lives of Boulton and Watt (London, 1865), Project Gutenberg #52069, full text downloaded and searched locally -- independent Victorian biographer working 'principally from the original Soho MSS' (family-supplied archive; admiring, self-help tone; one perspective). Read closely: ch. V-VIII (Glasgow years, the Newcomen model, Kinneil, surveying), X-XVII (Boulton partnership, Cornwall, the crank/Pickard episode, rotary motion, Hornblowers, mills, workmen), the water-composition and Lunar Society passages of ch. XVIII, the lawsuit and Murdock passages of ch. XX-XXI and ch. XXIII (last years, Scott/Jeffrey testimony). Quotes many letters by Watt, Boulton, Small, Roebuck and Robison that were not opened directly.",
+      "url": "https://www.gutenberg.org/files/52069/52069-h/52069-h.htm"
+    },
+    {
+      "id": "src_watt_muirhead_robison",
+      "kind": "biography",
+      "title": "John Robison's narrative of his acquaintance with Watt (Glasgow, 1758-67) as reproduced in J. P. Muirhead, The Life of James Watt (American ed., 1859), ch. VI, archive.org OCR full text (noisy; legible passages only) -- FIRSTHAND account by a close friend and fellow student, written c.1796 as testimony for Watt's side in the patent suit Boulton and Watt v. Hornblower and Maberley, recollecting events some thirty years earlier (interested, from memory). Muirhead was a kinsman of Watt and the editor of his papers (compiler only, weakly independent).",
+      "url": "https://archive.org/details/lifejameswattwi00muirgoog"
+    },
+    {
+      "id": "src_watt_muirhead_black",
+      "kind": "biography",
+      "title": "Joseph Black's short narrative of Watt's improvement of the steam engine, as reproduced in Muirhead, Life of James Watt (1859), ch. VI (same archive.org OCR volume) -- FIRSTHAND account by Watt's friend and the Glasgow professor of chemistry, also prepared c.1796 for the patent litigation (interested, from memory). Different author from Robison; both were reproduced by the same editor.",
+      "url": "https://archive.org/details/lifejameswattwi00muirgoog"
+    },
+    {
+      "id": "src_watt_muirhead_self",
+      "kind": "biography",
+      "title": "Watt's own narrative in his 'Notes on Robison' (History of the steam engine, c.1814), as reproduced in Muirhead, Life of James Watt (1859), ch. VII, first part read (c.1759-64: the Papin-digester experiments, the college model, the flask measurements) -- SELF-AUTHORED (one perspective, together with Watt's letters quoted by Smiles); used only where flagged self and never as the sole support for a row.",
+      "url": "https://archive.org/details/lifejameswattwi00muirgoog"
+    },
+    {
+      "id": "src_watt_dnb",
+      "kind": "biography",
+      "title": "Frederick J. Bramwell, 'Watt, James (1736-1819)', Dictionary of National Biography vol. 60 (1899), Wikisource text -- independent secondary biography by a consulting engineer who had read the Boulton-Watt correspondence held by the Tangye family; critical in places (the crank/sun-and-planet passage, the patent specification, the 'inventor' misconception). Fetched via the Wikisource API and read in full.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Watt,_James_(1736-1819)"
+    },
+    {
+      "id": "src_watt_selgin_turner",
+      "kind": "biography",
+      "title": "George Selgin and John L. Turner, 'Strong Steam, Weak Patents, or, the Myth of Watt's Innovation-Blocking Monopoly, Exploded' (working paper, 8 April 2009; published Journal of Law and Economics 54(4), 2011), PDF downloaded and read in full -- independent scholarly (economic-history) article that reviews Watt's patents, the Bull and Hornblower/Maberley suits and his attitude to high-pressure steam; it argues a thesis (that the patent did not block high-pressure steam), so factual statements are used sparingly and its interpretive claims are not relied on.",
+      "url": "https://econfaculty.gmu.edu/pboettke/workshop/Fall2009/Selgin.pdf"
+    },
+    {
+      "id": "src_watt_brougham",
+      "kind": "biography",
+      "title": "Henry Brougham, Lives of Men of Letters and Science who flourished in the time of George III, vol. 1 (London, 1845), chapter 'Watt' (pp. 352-365 and 400-401 read), archive.org OCR text -- independent secondary sketch by a contemporary lawyer and politician who says he knew Watt; largely derived from Robison, Muirhead and Arago, so treated as weakly independent and used only for the organ episode and for Arago's judgment of Watt's drawings. The middle of the chapter (the water-composition controversy) was not read.",
+      "url": "https://archive.org/details/livesofmenoflett01brourich"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_watt_muirhead_robison, src_watt_smiles, src_watt_dnb | 1758-64; c.1769-72; 1787 | firsthand + secondary] Robison (recorded c.1796) says that at Glasgow Watt learned German to read Leupold's Theatrum Machinarum and Italian for like reasons, and that anything put to him became 'the beginning of a new and serious study' he would not drop until he had found it worthless or made something of it. Smiles, from Watt's letters to Small, lists side inquiries c.1769-72 into smoky chimneys, canal sluices, kaolin, the boiling point of water at different mercury heights and a prismatic micrometer, and Smiles and Bramwell record that in 1787 Watt tried Berthollet's chlorine bleaching himself after learning of it in Paris. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.3/10): 82/0.8/documented -> 82/0.72/documented -- confidence lowered because the friendly/insider record (Robison and Black wrote for Watt's side in a patent suit c.1796 from memory; Smiles built on family-held papers; Bramwell and Brougham are largely derivative) limits independence; score unchanged."
+    },
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_watt_muirhead_robison, src_watt_muirhead_black, src_watt_smiles | winter 1763-64; early 1765; 1768-72 | firsthand + secondary] Robison, who visited the workshop, says that when the college's Newcomen model could not be kept supplied with steam Watt tried larger heating surfaces, flues, a wooden boiler and cased cylinders and was able to show that over three-quarters of the steam was condensed and wasted; Black says that once the separate-condenser idea came (early 1765) Watt made a trial of it at once with a borrowed brass syringe. Smiles adds that on the Kinneil model in 1768-69 he made successive trials of pipe, plate and drum condensers, and around 1769-72 ran experiments on the boiling point of water under different pressures. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.3/10): 84/0.82/documented -> 80/0.72/documented -- score and confidence lowered because the friendly/insider record (Robison and Black wrote for Watt's side in a patent suit c.1796 from memory; Smiles built on family-held papers; Bramwell and Brougham are largely derivative) limits independence."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_watt_muirhead_robison, src_watt_muirhead_black, src_watt_dnb | early 1765; 1784 | firsthand + secondary] Robison, who says he knew the whole extent of Watt's reading, testified that the idea of keeping the working cylinder continuously hot and condensing in a separate vessel came from Watt himself and not from any book or report; Black likewise dates the idea to early 1765. Both accounts were prepared for Watt's side in a patent suit. Bramwell describes the parallel motion specified in Watt's 1784 patent, a lever-and-link arrangement giving the piston rod a near-straight path, and says Watt prided himself on it more than on any other device. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.3/10): 82/0.78/documented -> 76/0.58/strong_inference -- the 1765 condenser-origin claim comes only from Robison and Black, whose accounts were prepared for Watt's side in the Hornblower/Maberly suit (an origination claim this profile does not adjudicate); the independently documented episode is the 1784 parallel-motion specification (Bramwell), so two episodes but only one non-interested."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_watt_muirhead_robison, src_watt_smiles, src_watt_dnb | 1767-69; 1770-74; 1792-99 | firsthand + secondary] Robison says that in the winters of 1767-69 Watt 'struggled long' to condense fast enough without injection; Smiles reports that after the 1769-70 Kinneil engine failed and he told Small that nothing was more foolish than inventing, Watt took the Monkland Canal post (1770) but resolved to go on with the engine in spare moments, and in 1772-74 turned back to Small and Boulton to revive it. Bramwell calls him one of the most determined and persistent of men and dates the defence of his patent against Bull and Hornblower/Maberley to 1792-1800. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.3/10): 82/0.78/documented -> 80/0.72/documented -- score and confidence lowered because the friendly/insider record (Robison and Black wrote for Watt's side in a patent suit c.1796 from memory; Smiles built on family-held papers; Bramwell and Brougham are largely derivative) limits independence."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_watt_smiles, src_watt_brougham, src_watt_dnb | 1760s; c.1800-19 | secondary] Smiles says that when Black asked him for a barrel-organ Watt, having no ear for music, first studied the principles of harmony in Robert Smith's Harmonics and then built it, followed by a finger-organ for a Glasgow masons' lodge; Brougham tells the same organ story from Robison's account. Smiles and Bramwell both record that in retirement he kept a garret workshop at Heathfield and went on refining a sculpture-copying machine until near the end of his life. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.3/10): 78/0.72/documented -> 74/0.6/strong_inference -- the barrel-organ story is one anecdote (Smiles and Brougham both trace it to Robison), plus the retirement workshop from Smiles/Bramwell; two episodes, so strong_inference at a moderate score."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_watt_smiles, src_watt_dnb | 1778-79; undated | secondary] For the Cornish mines Watt and Boulton took one-third of the value of fuel saved as royalty, and Watt devised a locked clockwork Counter on the engine beam that registered its strokes so the saving could be calculated (Smiles). Bramwell adds that Watt satisfied himself of what an average horse could sustain and then rated his engines so each horse-power lifted half as much again, and that he kept nine years of thrice-daily weather records at Soho. Three distinct measurement practices from two authors, but no stated reasoning method, hence strong_inference."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_watt_smiles, src_watt_dnb | c.1766-74; 1770s-82; 1780-81 | secondary] When instrument-making could not support the engine work Watt turned to land, canal and harbour surveying (from c.1766-67) and took the Monkland Canal post in 1770 (Smiles; Bramwell). Smiles quotes him saying that expansive working was dropped in the 1770s because customers' enginemen could not manage it, before it returned in his 1782 patent; and after Pickard's 1780 crank patent barred the crank, Watt's 1781 patent set out five alternative ways of obtaining rotary motion, the sun-and-planet gear among them (Smiles; Bramwell)."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_watt_muirhead_robison, src_watt_smiles | 1758-67; 1769; 1781-82 | firsthand + secondary] Robison says Watt took delight in setting others on the same road and told Black, Robison and a few friends of his condenser as he worked, and Smiles adds that Black lent him money. In 1769 Watt told Small he would accept whatever share the three prospective partners agreed for him, and Smiles reports that Watt and Boulton wrote to each other 'with the most perfect unreserve', each improving the other's ideas. Against this, Watt wrote in 1784 that he had disliked being made a 'secondary person' in Murdock's locomotive model, so the pattern is cooperative but protective of his own projects. RUBRIC_CORRECTION (pre-commit, orchestrator, rubric sec.3/10): 70/0.7/documented -> 68/0.6/strong_inference -- mixed evidence (Robison's characterisation, Smiles's quotation of Watt-Boulton letters, and Watt's own 1784 complaint about being made a 'secondary person'); Smiles is the main source, so strong_inference."
+    },
+    "risk_tolerance": {
+      "score": 32,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_watt_muirhead_self, src_watt_smiles, src_watt_dnb, src_watt_selgin_turner | c.1761-62; 1778-82 | self + secondary] Watt himself recorded that he gave up his early digester-and-syringe engine because of the danger of bursting the boiler, leaky joints and lost power, and Selgin and Turner describe a lifelong aversion to 'strong' steam. In Cornwall in 1778 he urged Boulton to cut expenses, in 1779 wrote that common honesty forbade loading the scheme with debts, and from 1782 doubted the profit in mill engines and asked Boulton not to solicit cotton-mill orders (Smiles); Bramwell says his courage was high except in financial matters. Watt had also lived with debt for years while pursuing the engine, so the lean is moderate."
+    },
+    "conflict_tolerance": {
+      "score": 36,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_watt_smiles, src_watt_dnb | 1770-72; 1777-79; 1781 | secondary] Smiles reports Watt saying during the Monkland Canal work that he would rather face a loaded cannon than settle an account or make a bargain, and in Cornwall in 1778-79 he repeatedly asked Boulton to come and settle terms with the mine adventurers; after a contentious 1779 Wheal Union meeting he left before it ended, writing that he could not bear such treatment (Smiles; Bramwell says he was averse to all bargaining). Counterweights: in 1776 he told the Shadwell committee his firm did not solicit their orders and in 1779 refused to draw plans until terms were fixed, though he wrote in 1781 that he abhorred lawsuits."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_watt_smiles, src_watt_brougham | 1760s; 1776; 1781 | secondary] Brougham reports that Arago, who examined Watt's earliest surviving steam-engine drawings, found them remarkable for neatness, strength and accuracy of outline. Smiles documents that for the 1776 Bow engine Watt supplied full written particulars of each assembly step, and that in 1781, finding the Soho copies of his rotary-motion sketches too clumsy to lodge with the patent, he redrew them himself on vellum in about ten days."
+    },
+    "perfectionism": {
+      "score": 70,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_watt_smiles | 1765-69; late 1770s-80s | secondary, quoting Roebuck and Watt] Smiles calls Watt 'extremely fastidious' and says he was always dissatisfied with other people's work and his own; in October 1768 Roebuck wrote urging him not to be diverted by any object 'or even improvement of this', and Smiles adds that Watt kept trying new condensers, jackets and pumps rather than fix a design. Smiles also reports that Watt kept doing all the engine drawings himself despite Wedgwood's urging to work through others, and kept altering the Soho engine 'Beelzebub' rather than have its house rebuilt. One author's characterisation supported by third-party letters, hence inference."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/james-watt-raeburn-1815.jpg",
+    "width": 1318,
+    "height": 1600,
+    "source": "The Huntington Library, Art Museum, and Botanical Gardens, San Marino (Henry Raeburn, oil on canvas, 1815), photographed by Daderot, via Wikimedia Commons",
+    "license": "CC0 (photograph); painting public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:James_Watt_by_Henry_Raeburn,_1815,_oil_on_canvas_-_Huntington_Art_Museum_-_San_Marino,_CA_-_DSC01426.jpg",
+    "attribution": "Henry Raeburn, James Watt, 1815, oil on canvas, Huntington Art Museum, San Marino, California; photograph by Daderot, CC0 (the painting is public domain: artist died 1823); cropped to the canvas and downscaled",
+    "creator": "Henry Raeburn (painter); Daderot (photographer)",
+    "date": "1815",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:James_Watt_by_Henry_Raeburn,_1815,_oil_on_canvas_-_Huntington_Art_Museum_-_San_Marino,_CA_-_DSC01426.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-09-18T00:00:00Z",
+    "updatedAt": "2026-09-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q9041 verified live: Wikidata API wbgetentities (labels, descriptions, claims) returned en label 'James Watt', description 'British engineer (1736-1819)', ko label '제임스 와트', birth 1736-01-19, death 1819 (two day-level values, 19 and 25 Aug; only the year is used), citizenship Scotland (Q22) mapped to GB per the assignment/UK precedent, P18 'James Watt by Henry Howard.jpg'. The English Wikipedia lead was read via the MediaWiki API and the Korean Wikipedia title 'ko:제임스 와트' was confirmed to exist. Slug collision check: no james-watt in data-pipeline/candidates and no matching slug/name in src/data/people. CLASSIFICATION PRECEDENT: era early_modern follows the shipped GB/FR precedents edward-jenner (1749-1823) and antoine-lavoisier (1743-94), both early_modern (Watt's main work 1763-1800); regionCode western_europe (UK precedent). Occupations engineer + inventor, fields engineering + technology (category contribution: science_knowledge via engineering, building_discovery via technology); tags self_taught (Watt's own statement that he never attended a college, quoted by Smiles, and Brougham), craft_focused, innovator. EVIDENCE READ (9 source records incl. 2 orientation; 7 substantive records, actually opened and read): Smiles, Lives of Boulton and Watt (full Gutenberg text downloaded and read closely at the cited chapters); Robison's and Black's narratives and Watt's own 'Notes on Robison' as reproduced in Muirhead's Life of Watt (archive.org OCR, noisy: only legible passages were used); Bramwell's DNB article (full); Selgin and Turner's working paper (full); Brougham's chapter on Watt (pp. 352-365, 400-401). INDEPENDENT NON-SELF PERSPECTIVES: Robison, Black (both friends, firsthand, interested testimony prepared c.1796 for Watt's side in the Hornblower/Maberley patent suit, recalling events c.1758-67 from memory), Smiles (secondary; admiring Victorian tone; drew on the family-supplied Soho MSS and quotes letters by Watt, Boulton, Small, Roebuck and Wedgwood that were not opened directly), Bramwell (secondary engineer's biography), Selgin and Turner (scholarly), Brougham (secondary, largely derivative of Robison/Muirhead/Arago, weakly independent). Muirhead (kinsman and editor of Watt's papers) is only the compiler of the Robison/Black/Watt texts and is counted as weakly independent. Watt's own writings (Notes on Robison; letters quoted by Smiles) count as ONE self perspective. Non-self behavioral sources: Robison, Black, Smiles, Bramwell, Selgin and Turner. About six independent perspectives, but the record is dominated by friendly or insider sources, and several rows rest on Smiles's quotation of letters; those are marked strong_inference or inference accordingly (rubric section 10: strong_inference only where two or more distinct dated episodes support the row). Episode use: no episode supports more than two rows (the 1765 condenser idea supports experimentation and creative_originality; the 1781 crank/sun-and-planet episode supports adaptability and detail_orientation). EXCLUDED ON PURPOSE: fame, patents, wealth, the 'watt' unit and the popular idea that Watt invented the steam engine (he improved an existing engine); Watt's headaches, low spirits, illnesses, bereavements and the 1780s letter of despair in Smiles (no inference from health or private life); the priority disputes (composition of water against Cavendish; the Pickard/Wasbrough crank patent; the merits of Bull and Hornblower) are not adjudicated and only Watt's own conduct is scored; Smiles's attribution of the sun-and-planet gear to Murdock versus Bramwell's account is left undecided and not used for any row; the 1803 Trevithick episode (boiler explosion, attempted Bill, 'wants hanging' remark) was read in Selgin and Turner and, in part, in F. Trevithick's 1872 biography (family-authored, not cited) but is NOT scored because James Watt had retired in 1800 and the sources attribute the acts to 'Boulton and Watt' generally, so personal conduct cannot be established; only Watt's own c.1761-62 statement and Selgin and Turner's 'lifelong aversion to strong steam' are used for the high-pressure point; political items, the Russian and baronetcy offers and the sheriff refusals are not scored. Smiles's text has a typo ('September, 1759' for the 1769 Kinneil trial engine), corrected silently to 1769. LIMITS: the 2025 Taylor and Francis article 'James Watt in context: steam engine building 1776-1800' and the NPG catalogue page were blocked by Cloudflare and are NOT counted or cited; Dickinson and Jenkins (1927), Muirhead's three-volume Origin and Progress, Uglow's Lunar Men, the Boulton and Watt Collection and the Science Museum Group pages were not opened; Smiles's and Bramwell's accounts of the Cornwall years lean on Watt's own letters, whose tone is often pessimistic, so scores on Cornwall behavior use only actions (what he asked, refused or did), not the moods described. PORTRAIT: Henry Howard (1769-1847), James Watt, c.1797, oil on panel 19.1 x 14.6 cm, NPG 663 (Wikidata P18). Commons File page, API imageinfo (extmetadata: LicenseShortName 'Public domain', Copyrighted False, artist Henry Howard, date circa 1797) and the file's own wikitext ({{PD-Art|PD-old-auto-expired|deathyear=1847}}) were read: the painting is public domain in its country of origin and in the US (author died 1847; published before 1931). DISCLOSED CAVEAT: the file page also carries Commons' standard NPG notice that third parties (the National Portrait Gallery) have made copyright claims against the reproduction ('sweat of the brow') and that re-use in other jurisdictions may be restricted; Wikimedia's stated position is that faithful reproductions of 2D public-domain works are public domain. This is the same situation as the already-shipped NPG-London PD-Art portraits (e.g. Elizabeth I, Mary Shelley, Wilberforce in this corpus), but the residual UK reproduction claim is unresolved by me; a claim-free fallback exists in the CC0 photograph of Raeburn's 1815 portrait at the Huntington (Commons File 'James Watt by Henry Raeburn, 1815 ... DSC01426.jpg', photo by Daderot; metadata checked only, not downloaded). The NPG page was blocked, so a sitting from life is not documented on any page I read; kind is 'likeness' because it is a contemporary portrait painted c.1797 while Watt was alive by a portraitist active at the time. Downloaded the original (2400x3056) and downsized to 1257x1600 (JPEG q85); the saved file was viewed and shows a single subject, whole painting, no frame. HUMAN NOTE: status evidence_approved is conditional on the orchestrator accepting the NPG-notice precedent for the portrait; if not, swap to the fallback image or set the portrait held. ORCHESTRATOR REVIEW (2026-09-24, before any eligibility computation): (1) PORTRAIT SWAPPED from the Henry Howard c.1797 NPG image (whose Commons page carries the National Portrait Gallery's standing reproduction-claim notice, an unresolved third-party assertion) to Daderot's own photograph of Raeburn's 1815 portrait at the Huntington: the painting is PD-old-100 (Raeburn d.1823) and the photograph is the photographer's own work released CC0 on the File page, so no reproduction claim is involved; the original 3012x3584 was cropped to the canvas (frame removed) and downscaled to 1318x1600, and the file was viewed. This resolves the researcher's own condition that evidence_approved was 'conditional on accepting the NPG-notice precedent'. (2) Six rows corrected DOWNWARD under rubric sec.3/sec.10 (curiosity, experimentation, creative_originality, persistence, mastery_orientation, collaboration; see each rationale) because the evidence base is dominated by friendly/insider sources and one row rested on interested testimony about the origin of the separate-condenser idea. No row was changed in response to any eligibility result."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "제임스 와트"
+    }
+  }
+}

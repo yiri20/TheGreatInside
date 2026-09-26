@@ -4560,6 +4560,279 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In spring 1994 Bezos told David Shaw, the founder of D. E. Shaw & Co., that he planned to leave and start an online bookstore; in Brad Stone's account the two spent two hours walking in Central Park, where Shaw said he understood the impulse but noted the firm was growing and might end up competing with the new venture. They agreed Bezos would take a few days to think it over, and he then left the firm and set up the company in the Seattle area, where Amazon's first employee, Shel Kaphan, joined him that October. A 1999 TIME profile reports that investors thought the plan was crazy.",
   "jeff-bezos.interpretation.turning_point.1":
     "Leaving a secure senior role for an untested online venture, after talking it through with the firm's founder, is consistent with the risk-tolerance score.",
+  /* ---------------------------------------------------------- johan-cruyff (Roster38) */
+  "johan-cruyff.achievement.1":
+    "Cruyff coached Barcelona from 1988 to 1996. His teams won four consecutive La Liga titles between 1991 and 1994 and the 1992 European Cup, beating Sampdoria at Wembley, and the Guardian obituary counts eleven trophies in all.",
+  "johan-cruyff.achievement.2":
+    "As a player Cruyff won three consecutive European Cups with Ajax between 1971 and 1973 and moved to Barcelona in 1973. He played 48 times for Holland between 1966 and 1977 and was in the Dutch side that lost the 1974 World Cup final to West Germany.",
+  "johan-cruyff.moment.1":
+    "Before the 1974 World Cup, Cruyff persuaded coach Rinus Michels to take Jan Jongbloed as goalkeeper instead of Jan van Beveren, whom David Winner calls the nation's best shot-stopper and with whom he says Cruyff had a long-running feud. Winner writes that Cruyff had noticed Jongbloed was good with his feet and could roam far from goal, and that a goalkeeper acting almost as an extra defender would let Holland press higher up the pitch.",
+  "johan-cruyff.interpretation.moment.1":
+    "Choosing a goalkeeper for his footwork and range rather than his shot-stopping offers one example of the profile's creative-originality score; the reasoning comes from Winner's account alone.",
+  "johan-cruyff.moment.2":
+    "In May 1989, at half-time of a friendly against a third-division side, Cruyff told the 18-year-old Pep Guardiola he was \"slower than my granny\" and did not let him play the second half. Guardiola later recalled that Cruyff pushed players hard and then protected them once they were in his team.",
+  "johan-cruyff.interpretation.moment.2":
+    "Blunt, unsolicited feedback of this kind is consistent with the profile's social-assertiveness score; Guardiola himself frames the bluntness as one half of a push-and-protect method.",
+  "johan-cruyff.turning_point.1":
+    "In 1973 Ajax's players voted for Piet Keizer rather than Cruyff as captain, and within weeks Cruyff had left for Barcelona. Winner and Kuper both tie the move to the vote; in his own book, as quoted by Andy Bollen, Cruyff recalls the ballot and says he was still being accused of being too self-serving.",
+  "johan-cruyff.interpretation.turning_point.1":
+    "Accounts differ on how much the vote alone explains the departure; leaving rather than accepting the outcome is consistent with the profile's conflict-tolerance score.",
+  /* ---------------------------------------------------------- niki-lauda (Roster38) */
+  "niki-lauda.achievement.1":
+    "Lauda won three Formula One drivers' world championships: in 1975 and 1977 with Ferrari and in 1984 with McLaren, the last by half a point from his team-mate Alain Prost.",
+  "niki-lauda.achievement.2":
+    "A 2019 Austrian newspaper chronology says Lauda founded the charter airline Lauda Air on 23 April 1979 with two Fokker 27 aircraft. He later launched the Niki airline in 2003-04 and, in 2016, bought the charter firm Amira Air and renamed it Laudamotion, which WirtschaftsWoche called his third attempt in the airline business.",
+  "niki-lauda.achievement.3":
+    "In September 2012 the Mercedes Formula One team named Lauda non-executive chairman of its board, in the same announcement that confirmed Lewis Hamilton's signing. Autosport's Adam Cooper says his role included liaising with the Daimler board and helping to headhunt Hamilton.",
+  "niki-lauda.moment.1":
+    "During the 2012 Singapore Grand Prix weekend Lauda went to Lewis Hamilton's hotel room to raise a move from McLaren to Mercedes; in his own account, given to Reuters in 2013, the meeting ran between 2 and 4 a.m. and Hamilton objected that Mercedes' car was not winning. Autosport's Adam Cooper says Lauda did not start the talks and that Ross Brawn's push was also important, and Hamilton recalls Lauda phoning him to argue the case; the Mercedes deal was announced on 28 September 2012.",
+  "niki-lauda.interpretation.moment.1":
+    "The episode illustrates the profile's persuasiveness score, though the move involved several people and Lauda's own account of the meeting is the source for its detail.",
+  "niki-lauda.moment.2":
+    "Historian Jon Saltinstall writes that Lauda had decided some weeks before the 1977 Dutch Grand Prix to leave Ferrari, and that he secretly signed for another team, Brabham, that weekend; he announced his departure ten days before the Italian Grand Prix. After the United States Grand Prix he opted out of the Canadian race, which Saltinstall attributes to three grievances: the sacking of his mechanic Ermanno Cuoghi, a third Ferrari for Gilles Villeneuve, and Mauro Forghieri's histrionics at races.",
+  "niki-lauda.interpretation.moment.2":
+    "The sequence is consistent with the profile's autonomy_need score; the grievances come from one author's account, and Ferrari gave a different official reason at the time.",
+  "niki-lauda.turning_point.1":
+    "At the 1979 Canadian Grand Prix, Brabham team manager Herbie Blash recalls, Lauda told him after first practice that he was not getting back in the car and was going to buy an aeroplane, and then told team owner Bernie Ecclestone the same. Motor Sport's race report at the time says he drove ten laps of the new car, left for his hotel and had broken his contract; Lauda Air had been founded in April of that year, and he returned to Formula One with McLaren in 1982.",
+  "niki-lauda.interpretation.turning_point.1":
+    "Acting within a single practice day on a plan he had already set in motion is consistent with the profile's decisiveness score, and the abrupt exit is why that row is marked dual-edged.",
+  /* ---------------------------------------------------------- babe-ruth (Roster38) */
+  "babe-ruth.achievement.1":
+    "In May 1918 manager Ed Barrow, after talking with captain Harry Hooper, began playing Ruth in the field as well as pitching him. From mid-July to early September Ruth pitched every fourth day and played left field, center field or first base on the other days, and Boston won the American League pennant and then the World Series against the Cubs.",
+  "babe-ruth.achievement.2":
+    "Ruth was on seven World Series champions: the Red Sox in 1915, 1916 and 1918, and the Yankees in 1923, 1927, 1928 and 1932. He was also on the losing side of three Series with New York, in 1921, 1922 and 1926.",
+  "babe-ruth.moment.1":
+    "After the 1921 World Series, Ruth, Bob Meusel and Bill Piercy began an exhibition tour in Buffalo on 16 October despite a rule barring World Series players from barnstorming. Ruth had phoned Commissioner Landis beforehand and told reporters afterwards that he knew what the tour might mean for him. He ended the tour on 21-22 October after talking with Yankees co-owner Til Huston, and on 5 December Landis suspended Ruth and Meusel until 20 May 1922 and ordered them to return their World Series shares (SABR's T.S. Flynn, drawing on 1921 newspaper reports).",
+  "babe-ruth.interpretation.moment.1":
+    "Going ahead after speaking to the commissioner, then stopping after talks with an owner, offers one example of the profile's conflict-tolerance score, with a yielding side as well as a defiant one.",
+  "babe-ruth.moment.2":
+    "On 27 August 1925 Ruth ignored a bunt sign from manager Miller Huggins and hit into a double play. Two days later in St. Louis, after missing curfew and arriving late for batting practice, he was fined and suspended by Huggins; Ruth shouted at him and said he would go to owner Jacob Ruppert, who backed the manager, and Steinberg has Ruth apologise and return to the lineup in Boston. Teammate Waite Hoyt, who says he was the only other person in the clubhouse, gives a similar account of the confrontation itself.",
+  "babe-ruth.interpretation.moment.2":
+    "Missing curfew and ignoring a sign sit alongside the profile's below-midpoint self-discipline score, but the record is mixed: Steinberg reads the suspension as a change in Ruth's relationship with Huggins, and Wood records a six-week conditioning regimen before the 1926 season.",
+  "babe-ruth.turning_point.1":
+    "After leaving the Yankees, Ruth joined the Boston Braves in 1935 as a player with the titles of vice-president and assistant manager, hoping to be named manager if Bill McKechnie left (Brown). He played 28 games (Wood), then quit in early June after a dispute with owner Emil Fuchs and told reporters on 4 June that he was finished with the club (Brown). McMurray, following Montville, calls Fuchs's promises of a managing opportunity misleading, and no major-league managing job ever followed.",
+  "babe-ruth.interpretation.turning_point.1":
+    "Years of lobbying for a managing job, and of accepting posts that might lead to one, is consistent with the profile's leadership-drive score; McMurray adds that he refused the minor-league route, and much of the detail descends from Montville's biography, so this is one reading rather than a settled account of his motives.",
+  /* ---------------------------------------------------------- j-p-morgan (Roster38) */
+  "j-p-morgan.achievement.1":
+    "In February 1895 J. P. Morgan & Co. and August Belmont & Co. contracted to sell the U.S. Treasury 3,500,000 ounces of gold for four per cent bonds, with at least half of the gold to be obtained in Europe. In his 1904 account, President Grover Cleveland says the contract also bound the firms to use their financial influence against gold withdrawals, and that no gold left the Treasury for export while it ran.",
+  "j-p-morgan.achievement.2":
+    "On 2 March 1901 J. P. Morgan & Co. issued the circular announcing the United States Steel Corporation, which stated that the entire plan of organization and management would be determined by the firm. Ida Tarbell, drawing on Elbert Gary's recollections, writes that Morgan picked the first board of twenty-four directors and chose Gary to chair its executive committee.",
+  "j-p-morgan.achievement.3":
+    "During the October 1907 panic Morgan formed a $25,000,000 money pool, subscribed by leading banks and financiers, to keep the New York Stock Exchange from collapsing, and a similar pool was formed the next day, according to O. M. W. Sprague's 1910 report for the National Monetary Commission.",
+  "j-p-morgan.moment.1":
+    "Questioned by counsel Samuel Untermyer before the Pujo committee on 19 December 1912, Morgan denied that credit rests primarily on money or property: 'the first thing is character... Before money or anything else. Money can not buy it.' He added that 'a man I do not trust could not get money from me on all the bonds in Christendom,' and said that if a stock-exchange borrower was not satisfactory to him he called the loan 'at once, personally.'",
+  "j-p-morgan.interpretation.moment.1":
+    "Holding to this account of credit across two days of adversarial questioning on voting trusts, control and lending is consistent with the profile's conflict-tolerance score; the transcript records his answers, not how they were received.",
+  "j-p-morgan.moment.2":
+    "On 21 October 1907, asked to help Knickerbocker Trust, Morgan had Benjamin Strong examine its books; Strong could not establish its solvency in the time available and Morgan refused aid (Moen and Tallman). Carl Hovey's 1911 biography has him telling Knickerbocker's new president, 'I've got to stop somewhere.' After Knickerbocker suspended on 22 October and the runs spread to the Trust Company of America, Moen and Tallman say Morgan 'changed his mind' and released aid.",
+  "j-p-morgan.interpretation.moment.2":
+    "Changing course once the runs spread is consistent with the profile's belief-updating score, though the sources do not say what changed his mind, and the Fed essay and Hovey differ slightly on the timing of the refusal.",
+  "j-p-morgan.turning_point.1":
+    "Ida Tarbell, drawing on Elbert Gary's recollections, writes that through 1900 Morgan rejected Gary's urging to buy Andrew Carnegie's steel company ('I would not think of it... I don't believe I could raise the money'). After a December 1900 dinner at which Charles Schwab spoke, Morgan talked with Schwab and, a few days later, asked whether an option on the Carnegie properties could be had; Carnegie refused a written option but sent a penciled price. About three weeks after the dinner Morgan sent his partner Robert Bacon to ask Gary whether buying Carnegie out was practical.",
+  "j-p-morgan.interpretation.turning_point.1":
+    "Moving from repeated refusal to a concrete inquiry within days of Schwab's talk is consistent with the profile's decisiveness score; why Morgan changed his mind is Tarbell's reading rather than a reason he is recorded as stating.",
+  /* ---------------------------------------------------------- james-watt (Roster38) */
+  "james-watt.achievement.1":
+    "According to Joseph Black's later account, Watt saw in early 1765 that a Newcomen engine wasted steam by cooling its cylinder at every stroke, and that condensing the steam in a separate vessel would avoid this. Engines built to his improved design were made by the firm Boulton and Watt from the mid-1770s, first for draining mines and later for driving machinery.",
+  "james-watt.achievement.2":
+    "After James Pickard's 1780 patent covered the crank, Watt's 1781 patent set out five alternative ways of turning an engine's back-and-forth motion into rotation, and the sun-and-planet gear was the one his firm went on to use. His 1784 patent specified the parallel motion, a linkage that guides the piston rod of a beam engine along a near-straight path.",
+  "james-watt.moment.1":
+    "In the winter of 1763-64 Watt was asked to repair the University of Glasgow's working model of a Newcomen engine and found that its boiler could not supply enough steam to keep it running. According to John Robison, who watched and later gave an account for Watt's side in a patent suit, Watt tried larger heating surfaces, a wooden boiler and cased cylinders, and showed that more than three-quarters of the steam was being condensed and wasted.",
+  "james-watt.interpretation.moment.1":
+    "Trying one change after another and measuring the loss, rather than only patching the model, is consistent with the profile's high experimentation score; note that Robison's account was written about thirty years later and for one side of a lawsuit.",
+  "james-watt.moment.2":
+    "While setting up the first Boulton and Watt pumping engines in Cornwall in 1777-79, Watt wrote repeatedly asking Boulton to come and settle payment terms with the mine adventurers. After a contentious 1779 meeting at Wheal Union he left before it ended and wrote that he could not bear such treatment, though he also wrote that he would draw no plans for a new engine until its terms were fixed. Smiles quotes these letters, and Bramwell separately describes Watt as averse to bargaining.",
+  "james-watt.interpretation.moment.2":
+    "The letters sit alongside a preference for leaving face-to-face negotiation to a partner while staying firm about terms in writing, which fits the profile's below-average score for conflict tolerance.",
+  "james-watt.turning_point.1":
+    "John Roebuck, who held two-thirds of Watt's 1769 patent, became insolvent in the early 1770s, and Matthew Boulton took over Roebuck's share in place of a debt of about 1,200 pounds. Watt, who had been working as a surveyor and canal engineer in Scotland, moved to Birmingham in May 1774; in 1775 Parliament extended the patent's term and the Boulton and Watt partnership began.",
+  "james-watt.interpretation.turning_point.1":
+    "Leaving Scotland and a surveying career for a new partnership when the first arrangement collapsed is consistent with the profile's adaptability, although Small's and Boulton's repeated invitations were also part of the move.",
+  /* ---------------------------------------------------------- robert-goddard (Roster38) */
+  "robert-goddard.achievement.1":
+    "In 1915-16 Goddard measured the thrust of commercial powder rockets on a ballistic pendulum and, according to David Stern, found that only about 2% of the fuel's energy went into jet speed; with de Laval-type nozzles he obtained efficiencies of up to 63%. These results, and a test showing that recoil continued in a vacuum, were set out in the Smithsonian's 1919 treatise 'A Method of Reaching Extreme Altitudes', which was released to the public in January 1920.",
+  "robert-goddard.achievement.2":
+    "On 16 March 1926 Goddard launched a gasoline and liquid-oxygen rocket from a farm in Auburn, Massachusetts; it rose about 41 feet in roughly 2.5 seconds and came down 184 feet from the launch frame. Damond Benningfield reports that a later launch there, on 17 July 1929, carried a camera, a thermometer and a barometer and climbed about 90 feet before crashing.",
+  "robert-goddard.achievement.3":
+    "Tom Crouch writes that by spring 1935 Goddard, working near Roswell, New Mexico, was concentrating on a gyroscopic control system; a letter he quotes has Goddard telling Clark's president that the latest flight was the best of the whole research. The A-series rocket Goddard sent to the Smithsonian that November was assembled from parts of several surviving rockets, and Goddard wrote that the greatest height reached by these rockets was somewhat over a mile.",
+  "robert-goddard.moment.1":
+    "After the Smithsonian released his treatise in January 1920, a New York Times editorial of 13 January said Goddard 'seems to lack the knowledge ladled out daily in high schools'. In a Boston Herald article of 14 January, as Frank Winter reports it, Goddard handed the reporter a copy of the treatise, saying 'That tells the whole story', and added 'In self-defense I have to fight shy of the newspaper men'; Benningfield, citing David Clary's biography, says he paid the editorial no more attention than other coverage. The Times printed a correction on 17 July 1969.",
+  "robert-goddard.moment.2":
+    "In a 1968 article, adapted for Caltech's Engineering & Science in 1986, Frank Malina, then a Caltech graduate assistant, recalled speaking with Goddard on 28 August 1936 and visiting him at Roswell the next month. He was shown the shop (though no components of the sounding rocket), the launch tower and a 2,000-pound-thrust test stand, but Goddard would give no technical details beyond his published 1936 Smithsonian report; Malina took the impression that Goddard regarded rockets as his private preserve.",
+  "robert-goddard.interpretation.moment.2":
+    "This is consistent with the profile's below-midpoint collaboration score, which concerns his dealings with outside parties rather than his close work with a small team. Malina was himself a would-be collaborator recalling the visit some thirty years later, and Benningfield's article says Goddard showed off much of his work on the visit.",
+  "robert-goddard.turning_point.1":
+    "After the launch of 17 July 1929 brought a police car and an ambulance to the Auburn field, Tom Crouch says Goddard was in effect barred from flying his rockets in the area. On 22 November Charles Lindbergh telephoned him after reading a Popular Science article and they met the next day; Lindbergh brought the work to Harry Guggenheim, who agreed to an initial grant of $50,000. Goddard's rocket work was then based near Roswell, New Mexico, from 1930, a site he chose on a meteorologist's suggestion.",
+  "robert-goddard.interpretation.turning_point.1":
+    "The sequence illustrates the profile's persistence score in that the work continued after the Massachusetts ban, though the funding and the move depended on Lindbergh's and Guggenheim's initiative as much as on Goddard's.",
+  /* ---------------------------------------------------------- philo-farnsworth (Roster38) */
+  "philo-farnsworth.achievement.1":
+    "In the summer of 1934 Farnsworth's laboratory staged public demonstrations of its electronic television system at the Franklin Institute in Philadelphia, televising performers and views from the roof and around the building for paying visitors. Sources give the length of the run as anywhere from ten days to about three weeks.",
+  "philo-farnsworth.achievement.2":
+    "In 1939 Farnsworth's company and RCA concluded a patent-licence agreement under which RCA agreed to pay continuing royalties, which Gross describes as a break from RCA's usual policy. Everson, a company backer, writes that the talks ran from May to September 1939 and were conducted by the company's president and its patent chief while Farnsworth himself was in Maine.",
+  "philo-farnsworth.achievement.3":
+    "According to Lemelson-MIT, nuclear fusion was Farnsworth's main research interest from the 1950s until his death. The Marriott Library finding aid says that at ITT he and his staff built a series of experimental fusion tubes he called fusors, in which the reaction lasted no more than about thirty seconds, and that in 1967 he moved the work to Brigham Young University.",
+  "philo-farnsworth.moment.1":
+    "In the summer of 1926 Farnsworth, not yet of age, presented his scheme to a group of San Francisco bankers at the Crocker First National Bank. According to Everson, who was present, he described a system with no moving parts, used a halftone newspaper picture to show how many separate picture elements would have to be sent each second, and answered the bankers' questions; an engineer had already reviewed his specifications for the group, and the bankers agreed to back the work.",
+  "philo-farnsworth.interpretation.moment.1":
+    "Everson recalls Farnsworth arguing at this meeting that mechanical scanning could not reach the speed required, which is consistent with a habit of setting his approach explicitly against the prevailing method; the words were written down by a backer 23 years later.",
+  "philo-farnsworth.moment.2":
+    "Gross dates a visit by the engineer Vladimir Zworykin, then associated with Westinghouse and RCA, to Farnsworth's San Francisco laboratory to 1930, after Farnsworth's investors had urged him to find a corporate partner. Everson writes that Zworykin spent several days there, that Farnsworth and his backers knew that showing him everything was a considerable risk and chose to do so, and that Zworykin asked to watch Cliff Gardner make a dissector tube.",
+  "philo-farnsworth.interpretation.moment.2":
+    "The episode is consistent with a willingness to accept calculated exposure to a competitor in return for the chance of a partnership; the reasoning comes from Everson's account, not from Farnsworth's own words.",
+  "philo-farnsworth.turning_point.1":
+    "After about two years at Philco's Philadelphia plant, Farnsworth left in 1933 and set up his own company and laboratory in the Philadelphia area; Everson dates the new laboratory to 1934. Gross says the new company let him work on his dissector without outside interference, and Everson says Philco's production aims had come to differ from Farnsworth's aim of building a broad patent structure through advance research.",
+  "philo-farnsworth.interpretation.turning_point.1":
+    "The break is consistent with a preference for keeping control over the direction of his research, although Philco's own aims and finances also shaped it.",
+  /* ---------------------------------------------------------- frederic-chopin (Roster38) */
+  "frederic-chopin.achievement.1":
+    "Chopin arranged for most of his mature works to be published in France, Germany and England, usually by three different firms, because copyright protection between the countries was weak. The three printings of a piece often differ, which scholars of the first editions attribute to his own revisions and proof corrections.",
+  "frederic-chopin.achievement.2":
+    "Chopin taught piano in Paris from the early 1830s and, according to the University of Chicago Library's exhibit, was the city's favoured piano teacher by the end of 1832. In the early 1840s he sketched the beginnings of a method for playing the instrument, which he never completed.",
+  "frederic-chopin.achievement.3":
+    "Chopin gave his last Paris concert on 16 February 1848 at Pleyel's rooms. The programme included a Mozart trio with Alard and Franchomme and part of his own cello sonata with Franchomme; admission was by a list of applicants, and the Gazette musicale reported that patronage was needed to obtain a ticket.",
+  "frederic-chopin.moment.1":
+    "In letters of December 1831 to a friend and to his former teacher Elsner, Chopin wrote that Friedrich Kalkbrenner, then the leading pianist in Paris, had offered to teach him for three years, and that he had declined because the time was too long and he did not want to become a copy of Kalkbrenner. Ferdinand Hiller, recalling the episode in 1874, wrote that Chopin nevertheless went a few times to Kalkbrenner's class for advanced pupils.",
+  "frederic-chopin.interpretation.moment.1":
+    "The episode is consistent with a preference for shaping his own training and career, though Hiller's account suggests he did not simply refuse the older pianist outright.",
+  "frederic-chopin.moment.2":
+    "On 1 and 2 August 1844 Chopin wrote from Nohant to Franchomme asking him to place two sets of manuscripts with another Paris publisher, Meissonnier or Lemoine, if Schlesinger insisted on delaying publication beyond the 20th of the month. He also worried that Härtel's Paris correspondent might lower his German fee if he learned how little Paris paid, and on 4 August he thanked Franchomme for settling the Schlesinger matter.",
+  "frederic-chopin.interpretation.moment.2":
+    "The letters, which are Chopin's own account, illustrate a practical habit of arranging alternatives when one publisher delayed and of weighing how one market's price might affect another.",
+  "frederic-chopin.turning_point.1":
+    "Chopin left Vienna in 1831 after eight fruitless months and in Paris needed about seven more to organise a concert; the University of Chicago Library's exhibit describes his first Paris concert, on 26 February 1832, as poorly attended. Hiller, writing in 1874, described a Pleyel-rooms soirée of the period at which Chopin played his E minor Concerto, mazurkas and nocturnes and won over the sceptics. The same exhibit says that by the end of 1832 he was the city's favoured piano teacher and that lessons and publishing gave him an alternative to the concert circuit.",
+  "frederic-chopin.interpretation.turning_point.1":
+    "The change is consistent with adjusting his way of working to the circumstances he found, although the sources differ on how the first concert was received.",
+  /* ---------------------------------------------------------- buster-keaton (Roster38) */
+  "buster-keaton.achievement.1":
+    "From 1920 to 1928 Keaton made his silent shorts and features for producer Joseph Schenck; Turner Classic Movies' Susan Doll counts 19 shorts and several features and says he had complete creative control over them. Roger Fristoe lists his standing team as co-director Eddie Cline, technical director Fred Gabourie and head cameraman Elgin Lessley.",
+  "buster-keaton.achievement.2":
+    "The General was shot in the summer of 1926 around Cottage Grove, Oregon, after a plan to use the original locomotive in Chattanooga fell through, according to the Oregon Encyclopedia. The company built a set representing Marietta, Georgia, in 1862 and a 215-foot trestle over the Row River for the train-wreck scene.",
+  "buster-keaton.achievement.3":
+    "James Neibaur writes that television was Keaton's most effective and lucrative outlet for performing from 1949 into the 1960s: a live comedy show in 1949, a filmed series in 1950-51, and later guest appearances and commercials.",
+  "buster-keaton.moment.1":
+    "On 23 July 1926, at Culp Creek on the Row River in Oregon, Keaton filmed a locomotive collapsing through a trestle built for The General. Julian Smith writes in Alta Journal that six cameras were placed, that Keaton oversaw several trial runs, and that dynamite charges were fixed to partly sawn timbers so the bridge would fall on cue; the Oregon Encyclopedia gives the scene's cost as an estimated $42,000.",
+  "buster-keaton.interpretation.moment.1":
+    "Staging the wreck with a real locomotive rather than a miniature, on a scene Smith says could be shot only once, is consistent with this profile's high risk-tolerance score; it is scored as dual-edged because Smith also reports Schenck's anger over the film's rising cost, and the preparation he describes points to a calculated rather than careless risk.",
+  "buster-keaton.moment.2":
+    "For his first MGM film, The Cameraman (1928), the studio had a script. Film historian James Steffen writes that Keaton convinced producer Irving Thalberg to let him depart from it, and James Neibaur that he talked Thalberg into letting him revise the script and film with director Edward Sedgwick undisturbed; Dana Stevens says the Yankee Stadium baseball pantomime and a crowded dressing-room scene were improvised. Steffen's account draws partly on Keaton's own 1960 memoir.",
+  "buster-keaton.interpretation.moment.2":
+    "Seeking room to improvise inside a scripted studio production illustrates this profile's ambiguity-tolerance score, though Steffen and Neibaur both report that his later MGM films allowed him less room, so this is one episode rather than the whole picture.",
+  "buster-keaton.turning_point.1":
+    "Dana Stevens writes that on Labor Day weekend 1927, the day before the housefront scene of Steamboat Bill, Jr. was filmed, Joseph Schenck told Keaton that his production company would be shut down. Keaton then signed with MGM at Schenck's urging; James Steffen says Keaton later called the move the worst mistake of his career in his 1960 memoir.",
+  "buster-keaton.interpretation.turning_point.1":
+    "His later work as a gag contributor, television performer and commercial actor is consistent with this profile's adaptability score, although Neibaur stresses that financial need shaped some of it, so it should not be read as a simple choice of new media.",
+  /* ---------------------------------------------------------- christopher-wren (Roster38) */
+  "christopher-wren.achievement.1":
+    "The Royal Society's minutes show Wren bringing work in several fields in the early 1660s: a letter on his hypothesis about Saturn, dated 1 October 1661, and a description of a weather-clock registered on 9 December 1663. On 1 February 1665 he presented observations of the comet of 1664-65 with a theory, and his surviving diagram works out the comet's path by a geometric construction.",
+  "christopher-wren.achievement.2":
+    "On 29 April 1663 Wren showed the Royal Society his model of the theatre to be built at Oxford and was asked to write out a description of its whole frame for the Society's archives. Evelyn's diary records that the theatre's opening ceremony took place on 9 July 1669.",
+  "christopher-wren.achievement.3":
+    "Wren was appointed surveyor-general of the repairs of St Paul's on 30 July 1669, and in the same year became Surveyor-General of the King's Works, a post from which he was dismissed in 1718. The king approved the Warrant design for a new cathedral on 14 May 1675, and five days later the commissioners ordered work to begin on the foundations of its eastern part; Geraghty concludes that by 18 June, when the first contracts were signed, Wren had already reworked the plan of the choir and crossing.",
+  "christopher-wren.moment.1":
+    "On 27 August 1666, six days before the Great Fire began, Wren joined Evelyn, the Bishop of London and others to survey Old St Paul's. Evelyn's diary says that he and Wren, against Chicheley and Pratt, who thought the nave's outward lean original, plumbed the uprights in several places and insisted that the steeple needed a new foundation; after 'much contest' their offer to bring in a plan and estimate for a domed church was accepted.",
+  "christopher-wren.interpretation.moment.1":
+    "Taking plumb-line measurements at several points while contesting colleagues' reading of the lean is consistent with the profile's analytical-rigor score; the account comes from Evelyn, a friend who took part in the survey, so it is a single, friendly perspective.",
+  "christopher-wren.moment.2":
+    "Within days of the Great Fire, Wren drew a scheme for replanning the City, which was shown to Charles II by 10 or 11 September 1666 (scholars differ by a day); it survives in two versions at All Souls College, and Hebbert says it came with a written description. Evelyn presented his own plan on 13 September, and Henry Oldenburg reported that the King showed much approbation, but Wren's streets did not follow existing alignments and the scheme would have required redefining property titles; it was not adopted, and the City was rebuilt largely on its old lines under the Rebuilding Act signed on 8 February 1667.",
+  "christopher-wren.interpretation.moment.2":
+    "How quickly he responded sits alongside the profile's proactive-agency score, though nothing shows whether the plan was requested and its mismatch with existing property lines keeps this a tentative reading.",
+  "christopher-wren.turning_point.1":
+    "In 1666 Hebbert describes Wren as still Savilian Professor of Astronomy at Oxford, with early success in mathematics and astronomy behind him. On 30 July 1669 he was appointed surveyor-general of the repairs of St Paul's, and Geraghty gives 1669 as the year he became Surveyor-General of the King's Works, whose office he then headed for about fifty years.",
+  "christopher-wren.interpretation.turning_point.1":
+    "A move from astronomy and experiment to a building career is consistent with the profile's cross-domain-range score; Geraghty argues that his experimental training shaped his draughtsmanship, but the sources do not say why he changed course.",
+  /* ---------------------------------------------------------- george-frideric-handel (Roster38) */
+  "george-frideric-handel.achievement.1":
+    "On 13 April 1742 Handel's oratorio Messiah was performed at the New Music Hall in Fishamble Street, Dublin, for the benefit of the relief of prisoners, Mercer's Hospital and the Charitable Infirmary. The Dublin Journal reported that he gave the money from the performance to be shared equally among the three charities.",
+  "george-frideric-handel.achievement.2":
+    "From May 1749 the press advertised performances of Handel's music for the benefit of the Foundling Hospital in London, and reports of 1751 and 1756 describe Messiah given in its chapel under his direction. A press report of April 1751 says he gave the chapel its organ, and a codicil to his will dated 4 August 1757 leaves the Hospital a copy of the Messiah score and parts.",
+  "george-frideric-handel.achievement.3":
+    "In March 1739 the London Daily Post reported that Handel had given the use of the opera house for a performance of Alexander's Feast to benefit a fund for decayed musicians and their families, and that he intended to direct it. Notices in March 1741 advertised a further benefit for the same fund with his music.",
+  "george-frideric-handel.moment.1":
+    "In late January 1729 Handel took leave of the King and Queen before setting out for Italy on a commission from the Royal Academy of Music to engage singers. By early July the London press reported him back with contracts, including a bass engaged at Hamburg, 'there being none worth engaging in Italy'.",
+  "george-frideric-handel.interpretation.moment.1":
+    "Sits alongside two later dated restarts in the record (1734 and 1740); together they are consistent with persistence, though this episode alone does not show how long he was prepared to continue.",
+  "george-frideric-handel.moment.2":
+    "In March 1735 the London Daily Post announced that Handel had prepared several oratorios for Lent, with additions to Esther and two organ concertos in which he would play the solo parts. Mary Pendarves wrote on 15 March that she had heard him in the two concertos, 'the finest things I ever heard in my life'; an anonymous letter in The Old Whig on 20 March claimed that he had sometimes played that winter to an almost empty pit.",
+  "george-frideric-handel.interpretation.moment.2":
+    "Adding new material inside an established genre illustrates a willingness to try out formats; the anonymous letter's report suggests that reception was mixed.",
+  "george-frideric-handel.turning_point.1":
+    "The fourth Earl of Shaftesbury, a friend, wrote in a memoir of 1760 that after little encouragement for his London performances in 1740-41 Handel 'gave over' them and went to Ireland in 1741. The Dublin press reported his arrival in November 1741 with several performers, and Charles Jennens wrote on 5 December that London would be 'a very dull place' until he returned.",
+  "george-frideric-handel.interpretation.turning_point.1":
+    "One of several dated changes of venue or format in the record, the move offers an example of adaptability; the reasons given for it rest on a friend's later recollection.",
+  /* ---------------------------------------------------------- joseph-lister (Roster38) */
+  "joseph-lister.achievement.1":
+    "Lister's first two publications, in 1853, were microscopic studies of the iris and of the muscle of the skin, and between 1857 and 1859 he published eleven physiological papers on subjects including the nervous control of blood vessels, early inflammation and the nervous control of the gut. Howard reports that he was elected a Fellow of the Royal Society for this early experimental work.",
+  "joseph-lister.achievement.2":
+    "The cases in Lister's first antiseptic article began with a patient admitted to Glasgow Royal Infirmary on 12 August 1865; he wrote that he had delayed publication to refine and validate his methods on more cases, and the method appeared in a series of Lancet articles in spring 1867. The reports narrate failures as well as successes, and over the next decade he described a further 36 cases in detail.",
+  "joseph-lister.achievement.3":
+    "In 1870 Lister published a plan for treating wounded soldiers in the Franco-Prussian War, recommending that wounds be washed with a 1 in 20 carbolic acid solution, clots removed, bleeding vessels tied and dressings applied. Schlich reports that it was translated into German immediately but was not widely adopted in that war.",
+  "joseph-lister.moment.1":
+    "On 1 October 1877, opening his new chair at King's College London, Lister gave an inaugural lecture not on his clinical results but on fermentation in wine, blood and milk, using flasks, samples and hand-painted posters brought from his laboratory. Richardson reports that he poured out and drank a glass of milk from a set that had stayed uncurdled, and that part of the audience grew restless.",
+  "joseph-lister.interpretation.moment.1":
+    "Bringing laboratory work into a lecture for a clinical audience is consistent with the profile's curiosity score; Richardson reads the choice as a deliberate strategy to make his new colleagues receptive to germ theory, which is her interpretation of his motive, not an aim Lister is quoted as stating.",
+  "joseph-lister.moment.2":
+    "At the International Medical Congress in London in August 1881, Lister said he did not yet dare to abandon the carbolic spray, but that if further investigation showed atmospheric contamination could be disregarded, no one would say 'Fort mit dem Spray' with more joy than himself. He stopped using it in 1887, and at the Berlin congress in 1890 he said he felt ashamed to have recommended it for destroying microbes in the air.",
+  "joseph-lister.interpretation.moment.2":
+    "Stating in advance what evidence would lead him to drop the spray, and later conceding the error in public, is consistent with the profile's belief-updating score; however, Schlich notes that a German surgeon had already published a paper titled 'Fort mit dem Spray' in 1880, so the change was not early.",
+  "joseph-lister.turning_point.1":
+    "In 1877, at the age of 50, Lister left Edinburgh, after more than two decades in Scotland, to take up a new chair of clinical surgery at King's College London, closer to his own London roots. Richardson notes that some of his younger followers saw the move as a crusade to persuade London's surgical establishment to adopt antisepsis and that some London surgeons were hostile; the sources used here do not record Lister's own reasons.",
+  "joseph-lister.interpretation.turning_point.1":
+    "Taking his method to a capital where some surgeons were hostile is consistent with the profile's persistence score; how he weighed the move is not documented in these sources.",
+  /* ---------------------------------------------------------- rene-descartes (Roster38) */
+  "rene-descartes.achievement.1":
+    "In 1637 the Discourse on the Method appeared, printed at Leiden and published anonymously, together with three essays: the Dioptrics, the Meteorology and the Geometry. Scholarly accounts describe it as a limited sample of his philosophy, issued after he had set aside The World.",
+  "rene-descartes.achievement.2":
+    "The Meditations on First Philosophy was published in 1641 (second edition 1642) together with objections from critics including Caterus, Hobbes, Arnauld, Gassendi and Bourdin, and Descartes's replies. On 13 November 1639 he had told Mersenne that he meant to print only twenty or thirty copies for the most learned theologians first, to learn from them what it would be good to change, correct or add before making it public.",
+  "rene-descartes.moment.1":
+    "In late November 1633 Descartes wrote to Mersenne that he had asked in Leiden and Amsterdam for Galileo's book and had been told that the copies had been burned in Rome and the author fined. He said this so astonished him that he was almost resolved to burn all his papers, or at least to show them to no one, since he wanted nothing to leave his hands that the Church might disapprove and would rather suppress the treatise than publish it 'crippled'; in April 1634 he told Mersenne he was resolved never to show it to anyone.",
+  "rene-descartes.interpretation.moment.1":
+    "His own letters present this as avoiding any clash with Church authority, which is consistent with a cautious stance toward that kind of risk. One scholarly account notes that some historians doubt the danger was real for someone living in the Netherlands, and his later open quarrel with Voetius indicates that he did not avoid every conflict.",
+  "rene-descartes.moment.2":
+    "In a letter dated 6/16 May 1643 Princess Elisabeth of Bohemia asked Descartes how the soul, if it is only a thinking substance, can determine the body's voluntary movements. On 21 May he replied that this was the question that could most fairly be put to him after his published writings, since he had said almost nothing about the soul's union with the body; after her further letter of 10/20 June he wrote on 28 June that she had given him occasion to note things he had omitted.",
+  "rene-descartes.interpretation.moment.2":
+    "This offers one example of Descartes working through a correspondent's objection across several letters rather than only defending his text. It sits alongside other episodes, such as the reproachful end of his exchange with Beeckman in 1630, where working together did not last.",
+  "rene-descartes.turning_point.1":
+    "Isaac Beeckman's journal records Descartes visiting him at Dordrecht on 8 October 1628, and the student register of the University of Franeker, as reported by the editors of his correspondence, enters his name under 16 April 1629. According to a modern scholarly account, he broke off his unfinished Rules around then and settled in the Dutch Republic, returning to France only infrequently before he left for Sweden in 1649, keeping his address secret and changing it often.",
+  "rene-descartes.interpretation.turning_point.1":
+    "This pattern is consistent with a preference for controlling where and how he worked, though the main evidence for that motive is what Descartes himself wrote, and he later accepted an invitation to Stockholm.",
+  /* ---------------------------------------------------------- antonie-van-leeuwenhoek (Roster38) */
+  "antonie-van-leeuwenhoek.achievement.1":
+    "From 1673 until 1723 Leeuwenhoek sent the Royal Society letters written in Dutch, describing observations made with microscopes he made himself; Birch records his election as a Fellow on Dr Croone's motion on 29 January 1679/80 (Old Style). Dobell reports that he never went to London to attend a meeting, and that in 1723 his daughter sent the Society a cabinet of 26 lenses in silver mounts that he had arranged in 1701 to leave to it.",
+  "antonie-van-leeuwenhoek.achievement.2":
+    "On 4 February 1669 the Court of Holland admitted Leeuwenhoek as a sworn surveyor, after the mathematician Genesius Baen had examined him in geometry; Dobell quotes the act from the Dutch State Archives. The editors of the Collected Letters cite this examination as a reason not to think him wholly unacquainted with the 'arts'.",
+  "antonie-van-leeuwenhoek.moment.1":
+    "After the Royal Society asked in February 1677 for his method of observing, Leeuwenhoek wrote on 23 March that he could not yet resolve to make his particular microscope public. On 5 October 1677 he sent statements from Delft witnesses, including ministers and a notary, who had watched him examine pepper-water in a capillary tube, and wrote that he had asked them to state only half of what they thought they saw. Birch records the statements being read on 1 November 1677 (Old Style) and Robert Hooke, after two unsuccessful tries, seeing the animals himself on 15 November.",
+  "antonie-van-leeuwenhoek.interpretation.moment.1":
+    "Asking witnesses to understate their counts is consistent with the profile's moderate analytical-rigor score, which stays modest because the record is mixed: here he offered testimony in place of his method, and in 1685 Thomas Molyneux thought his reasoning sometimes went astray.",
+  "antonie-van-leeuwenhoek.moment.2":
+    "In February 1685 Thomas Molyneux visited Leeuwenhoek in Delft on behalf of the Royal Society's Secretary and reported in a letter, printed by Birch, that he was shown about a dozen microscopes of one ordinary sort. Leeuwenhoek told him he had another sort that no man living had looked through besides himself, and would not let him see them. Molyneux found the glasses shown far clearer than others he had seen and guessed that Leeuwenhoek's 'only secret' was better polishing.",
+  "antonie-van-leeuwenhoek.interpretation.moment.2":
+    "Keeping his best instruments from an official visitor is consistent with the profile's high autonomy-need score; the source does not give his reasons, later writers offer several, and he also arranged in 1701 for a labelled cabinet of lenses to go to the Society after his death.",
+  "antonie-van-leeuwenhoek.turning_point.1":
+    "On 28 April 1673 the Delft physician Regnier de Graaf wrote to the Royal Society's Secretary, Henry Oldenburg, that a man named Leeuwenhoek had made microscopes surpassing those he had seen, and enclosed a letter of observations. In his reply of 15 August 1673 Leeuwenhoek wrote that he had often declined to put his observations on paper, because he had no style, had been brought up in trade rather than languages or arts, and did not gladly suffer blame or refutation, but had yielded at de Graaf's request; he asked the Fellows to remember that his work came from his own impulse and curiosity alone. Letters to the Society continued for fifty years.",
+  "antonie-van-leeuwenhoek.interpretation.turning_point.1":
+    "Describing the work as coming from impulse and curiosity is consistent with the profile's curiosity score, though it is a self-description offered in a first letter to a learned body and is weighed as such.",
+  /* ---------------------------------------------------------- william-herschel (Roster38) */
+  "william-herschel.achievement.1":
+    "From September 1773, while working as a music teacher and concert director in Bath, Herschel began making his own reflecting telescopes. His memoranda, as edited by Dreyer, record that he hired a two-foot reflector, bought a Bath amateur's mirror-making tools on 22 September, and worked from Smith's Optics and Emerson's Mechanics; Dreyer counts 2,160 recorded operations on mirrors in the four folio volumes of his record, which runs to December 1818.",
+  "william-herschel.achievement.2":
+    "On 28 October 1783 Herschel began 'sweeping' the sky with a new 20-foot reflector at Datchet. After 41 sweeps made alone, Dreyer says, he judged the method too tiring and of little value; a workman then raised and lowered the telescope while his sister Caroline wrote down the observations, and from Sweep 46 on 18 December 1783 the series continued to Sweep 1112 on 30 September 1802.",
+  "william-herschel.achievement.3":
+    "In a paper read to the Royal Society on 27 March 1800, Herschel wrote that trials of coloured darkening glasses for viewing the sun had made him doubt that every colour of sunlight heats equally. He set thermometers beside a prism's spectrum, moving one into a chosen colour while two stayed in the shade as standards, and repeated the runs.",
+  "william-herschel.moment.1":
+    "On 13 March 1781, during a systematic review of the sky at Bath, Herschel noted in his journal 'a curious either nebulous star or perhaps a comet'; on 17 March he recorded that it had changed its place. His paper to the Royal Society was titled 'An Account of a Comet', and Dreyer reports that the version first presented contained a paragraph arguing for a measurable parallax, which was not printed after more accurate observations elsewhere disproved it.",
+  "william-herschel.interpretation.moment.1":
+    "The difference between the presented and printed versions is consistent with a willingness to drop an argument that later measurements did not support. It is one episode, and other passages in the record show him restating positions when criticised.",
+  "william-herschel.moment.2":
+    "In December 1781 William Watson wrote to Herschel that people in London doubted the high magnifying powers he had used, and that Maskelyne and Aubert said they had never seen fixed stars round and well defined. On 7 January 1782 Herschel replied that 'seeing is in some respect an art which must be learnt' and that he had 'many a night' practised it, and he later urged Aubert to raise his powers by degrees; in his own memorandum, his telescope was then tried at Greenwich in May and June 1782 and judged by those who used it to exceed other instruments.",
+  "william-herschel.interpretation.moment.2":
+    "His letters treat good observing as a skill built by repeated practice, which is consistent with a mastery orientation. The evidence is largely his own words and his own memorandum, so it is illustrative rather than conclusive.",
+  "william-herschel.turning_point.1":
+    "Dreyer places the turning point of Herschel's life in the winter of 1772-73, when reading Smith's Optics made him want to see the heavens for himself. His memoranda show a quadrant bought on 19 April 1773, an object glass on 24 May, and mirror-making tools on 22 September, while he still attended 46 private pupils in the week of 15 November 1773.",
+  "william-herschel.interpretation.turning_point.1":
+    "Building instruments from books and a Bath amateur's cast-off tools while carrying a full teaching load is consistent with resourcefulness. The account rests on his own memoranda and his sister's later recollection.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -8973,6 +9246,279 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1994년 봄 베이조스는 D. E. 쇼의 창업자 데이비드 쇼(David Shaw)에게 회사를 떠나 온라인 서점을 세우겠다고 말했다. 스톤의 서술에 따르면 두 사람은 센트럴파크에서 두 시간 동안 걸으며 이야기했고, 쇼는 그 충동을 이해한다면서도 회사가 빠르게 성장하고 있으며 새 사업과 경쟁하게 될 수도 있다고 말했다. 두 사람은 베이조스가 며칠 더 생각해 보기로 했고, 그는 이후 회사를 떠나 시애틀 지역에서 창업했으며 그해 10월 아마존의 첫 직원인 셸 카판이 합류했다. 1999년 타임(TIME)의 인물 프로필은 당시 투자자들이 이 계획을 무모하다고 여겼다고 전한다.",
   "jeff-bezos.interpretation.turning_point.1":
     "안정적인 고위직을 떠나 검증되지 않은 온라인 사업에 뛰어든 결정은, 회사 창업자와 충분히 이야기를 나눈 뒤에 내려졌다는 점을 감안하더라도 위험 감수 점수와 부합한다.",
+  /* ---------------------------------------------------------- johan-cruyff (Roster38) */
+  "johan-cruyff.achievement.1":
+    "크라위프는 1988년부터 1996년까지 FC 바르셀로나를 지도했다. 그의 팀은 1991년부터 1994년까지 라리가 4연패를 기록했고 1992년에는 웸블리에서 삼프도리아를 꺾고 유러피언컵에서 우승했으며, 가디언 부고는 그가 거둔 우승이 모두 11개라고 전한다.",
+  "johan-cruyff.achievement.2":
+    "선수 시절 크라위프는 1971년부터 1973년까지 아약스에서 유러피언컵 3연패를 이루었고, 1973년 FC 바르셀로나로 이적했다. 그는 1966년부터 1977년까지 네덜란드 대표팀에서 48경기를 뛰었으며, 1974년 월드컵 결승에서 서독에 패한 네덜란드 팀의 일원이었다.",
+  "johan-cruyff.moment.1":
+    "1974년 월드컵을 앞두고 크라위프는 리누스 미헐스 감독을 설득해 얀 판 베버런(Jan van Beveren) 대신 얀 용블루트(Jan Jongbloed)를 골키퍼로 데려가게 했다. 데이비드 위너는 판 베버런을 국내 최고의 선방 능력을 지닌 골키퍼라고 소개하며, 크라위프가 그와 오랜 불화를 겪고 있었다고 쓴다. 위너에 따르면 크라위프는 용블루트가 발밑 기술이 좋고 골문에서 멀리 나올 수 있다는 점을 알아보았고, 사실상 추가 수비수처럼 움직이는 골키퍼가 있으면 네덜란드가 더 높은 위치에서 압박할 수 있다고 보았다.",
+  "johan-cruyff.interpretation.moment.1":
+    "선방 능력보다 발밑 기술과 활동 범위를 기준으로 골키퍼를 고른 이 결정은 이 프로필의 창의적 독창성 점수를 보여 주는 한 사례이다. 다만 그 판단의 근거는 위너의 서술에만 나온다.",
+  "johan-cruyff.moment.2":
+    "1989년 5월, 3부리그 팀과의 친선경기 하프타임에 크라위프는 열여덟 살의 펩 과르디올라에게 \"우리 할머니보다 느리다\"고 말하고 후반전에는 뛰지 못하게 했다. 과르디올라는 훗날 크라위프가 선수를 강하게 몰아붙인 뒤, 일단 자기 팀 선수가 되면 감싸 주는 방식으로 일했다고 회고했다.",
+  "johan-cruyff.interpretation.moment.2":
+    "이처럼 직설적이고 먼저 나서는 지적은 이 프로필의 사회적 적극성 점수와 부합한다. 과르디올라 자신은 그 직설을 몰아붙이고 감싸 주는 방식의 한 축으로 설명한다.",
+  "johan-cruyff.turning_point.1":
+    "1973년 아약스 선수들이 주장 투표에서 크라위프 대신 피트 케이저(Piet Keizer)를 뽑았고, 크라위프는 몇 주 안에 FC 바르셀로나로 떠났다. 위너와 쿠퍼는 모두 이 이적을 투표와 연결짓고, 앤디 볼런이 인용한 자서전에서 크라위프는 투표가 있었음을 회고하며 자신이 여전히 지나치게 이기적이라는 말을 듣고 있었다고 적는다.",
+  "johan-cruyff.interpretation.turning_point.1":
+    "투표 하나로 이적을 얼마나 설명할 수 있는지는 자료마다 다르다. 결과를 받아들이는 대신 구단을 떠나는 쪽을 택했다는 점은 이 프로필의 갈등 감내 점수와 부합한다.",
+  /* ---------------------------------------------------------- niki-lauda (Roster38) */
+  "niki-lauda.achievement.1":
+    "라우다는 포뮬러 원 드라이버 월드 챔피언십에서 세 차례 우승했다. 1975년과 1977년에는 페라리에서, 1984년에는 맥라렌에서 정상에 올랐으며, 마지막 우승은 팀 동료 알랭 프로스트를 반 점 차로 제친 결과였다.",
+  "niki-lauda.achievement.2":
+    "2019년 오스트리아 신문의 연표에 따르면 라우다는 1979년 4월 23일 포커 27 두 대로 전세기 항공사 라우다 에어를 세웠다. 이후 2003~04년에 니키(Niki) 항공을 출범시켰고, 2016년에는 전세기 회사 아미라 에어를 인수해 라우다모션으로 이름을 바꾸었는데, 독일 경제지 비르트샤프트스보헤는 이를 항공업에서의 세 번째 시도라고 불렀다.",
+  "niki-lauda.achievement.3":
+    "2012년 9월 메르세데스 F1 팀은 루이스 해밀턴의 영입을 확정한 것과 같은 발표에서 라우다를 이사회 비상임 의장으로 선임했다. 오토스포트의 애덤 쿠퍼는 그의 역할에 다임러 이사회와의 조율과 해밀턴 영입 지원이 포함되었다고 전한다.",
+  "niki-lauda.moment.1":
+    "2012년 싱가포르 그랑프리 주간에 라우다는 루이스 해밀턴의 호텔 방을 찾아가 맥라렌에서 메르세데스로 옮기는 문제를 꺼냈다. 2013년 로이터에 밝힌 본인의 설명으로는 그 만남이 새벽 2시에서 4시 사이에 이어졌고, 해밀턴은 메르세데스의 차가 이기고 있지 않다고 반론했다. 오토스포트의 애덤 쿠퍼는 라우다가 협상을 시작한 것은 아니며 로스 브라운의 설득도 중요했다고 전하고, 해밀턴은 라우다가 전화로 자신을 설득하려 했다고 회고한다. 메르세데스와의 계약은 2012년 9월 28일에 발표되었다.",
+  "niki-lauda.interpretation.moment.1":
+    "이 일화는 이 프로필의 설득력 점수를 보여 주는 한 사례이다. 다만 이적에는 여러 사람이 관여했고, 만남의 세부 내용은 라우다 본인의 설명에 의존한다.",
+  "niki-lauda.moment.2":
+    "역사가 존 솔틴스톨은 라우다가 1977년 네덜란드 그랑프리 몇 주 전에 이미 페라리를 떠나기로 마음먹었고, 그 주말에 다른 팀인 브라밤과 비밀리에 계약했으며, 이탈리아 그랑프리 열흘 전에 이적을 발표했다고 쓴다. 미국 그랑프리 뒤에는 캐나다 대회를 건너뛰었는데, 솔틴스톨은 그 이유로 정비사 에르마노 쿠오기의 해고, 질 빌뇌브를 위한 세 번째 페라리 투입, 레이스 현장에서 벌어진 마우로 포르기에리의 소동을 든다.",
+  "niki-lauda.interpretation.moment.2":
+    "이 흐름은 이 프로필의 자율성 욕구 점수와 부합한다. 다만 불만 사항은 한 저자의 서술에 따른 것이고, 당시 페라리는 다른 공식 사유를 내놓았다.",
+  "niki-lauda.turning_point.1":
+    "브라밤 팀 매니저였던 허비 블래시는 1979년 캐나다 그랑프리에서 라우다가 첫 연습 주행 뒤 더는 차에 타지 않겠다며 비행기를 사러 갈 것이라고 말했고, 곧 구단주 버니 에클스턴에게도 같은 말을 전했다고 회고한다. 당시 모터 스포트의 경기 보도는 그가 새 차로 열 바퀴를 돈 뒤 호텔로 떠났고 계약을 깼다고 전한다. 라우다 에어는 그해 4월에 설립되어 있었고, 그는 1982년 맥라렌으로 포뮬러 원에 복귀했다.",
+  "niki-lauda.interpretation.turning_point.1":
+    "이미 진행 중이던 계획에 따라 연습 하루 만에 결단을 내린 이 행동은 이 프로필의 결단력 점수와 부합하며, 갑작스러운 이탈이라는 점이 해당 항목을 양면적으로 표시한 이유이다.",
+  /* ---------------------------------------------------------- babe-ruth (Roster38) */
+  "babe-ruth.achievement.1":
+    "1918년 5월 에드 배로 감독은 주장 해리 후퍼와 상의한 끝에 루스를 투수로 쓰면서 야수로도 내보내기 시작했다. 루스는 그해 7월 중순부터 9월 초까지 나흘에 한 번 등판하고 나머지 날에는 좌익수, 중견수 또는 1루수로 뛰었으며, 보스턴은 아메리칸리그 우승에 이어 월드시리즈에서 시카고 컵스를 꺾었다.",
+  "babe-ruth.achievement.2":
+    "루스는 월드시리즈 우승팀의 일원으로 일곱 번 뛰었다. 레드삭스 시절인 1915년, 1916년, 1918년과 양키스 시절인 1923년, 1927년, 1928년, 1932년이다. 뉴욕에서는 1921년, 1922년, 1926년에 월드시리즈에서 진 팀에도 속해 있었다.",
+  "babe-ruth.moment.1":
+    "1921년 월드시리즈가 끝난 뒤 루스는 밥 뮤절, 빌 피어시와 함께 월드시리즈 출전 선수의 순회 경기를 금지한 규정에도 불구하고 10월 16일 버펄로에서 순회 시범경기를 시작했다. 루스는 사전에 랜디스 커미셔너에게 전화를 걸었고, 경기 뒤 기자들에게 이 일이 자신에게 무엇을 뜻할지 알고 있다고 말했다. 그는 양키스 공동 구단주 틸 휴스턴과 이야기를 나눈 뒤 10월 21~22일에 순회를 접었고, 12월 5일 랜디스는 루스와 뮤절에게 1922년 5월 20일까지 출장 정지를 내리고 월드시리즈 배당금을 반납하도록 했다(SABR의 T.S. 플린이 1921년 당시 신문 보도를 바탕으로 정리).",
+  "babe-ruth.interpretation.moment.1":
+    "커미셔너와 통화한 뒤에도 순회를 강행했다가 구단주와 이야기한 뒤에는 접은 이 일은 이 프로필의 갈등 감내 점수를 보여 주는 한 사례이며, 맞서는 면과 물러서는 면이 함께 나타난다.",
+  "babe-ruth.moment.2":
+    "1925년 8월 27일 루스는 밀러 허긴스 감독의 번트 사인을 무시하고 병살타를 쳤다. 이틀 뒤 세인트루이스에서 통금을 어기고 타격 연습에 늦게 나타나자 허긴스는 그에게 벌금과 출장 정지를 내렸고, 루스는 고함을 지르며 구단주 제이컵 루퍼트를 찾아가겠다고 했지만 루퍼트는 감독의 편을 들었으며, 스타인버그에 따르면 루스는 이후 사과하고 보스턴에서 라인업에 복귀했다. 당시 클럽하우스에 자신 말고는 아무도 없었다고 밝힌 팀 동료 웨이트 호이트도 이 충돌 장면 자체는 비슷하게 서술한다.",
+  "babe-ruth.interpretation.moment.2":
+    "통금을 어기고 사인을 무시한 일은 이 프로필의 중간 이하인 자기 규율 점수와 나란히 놓을 수 있지만 기록은 엇갈린다. 스타인버그는 이 정직 처분을 루스와 허긴스의 관계가 달라진 계기로 보고, 우드는 루스가 1926년 시즌 전에 6주간 체력 관리 프로그램을 따랐다고 기록한다.",
+  "babe-ruth.turning_point.1":
+    "양키스를 떠난 루스는 1935년 선수 겸 부사장, 부감독의 직함으로 보스턴 브레이브스에 입단했으며, 빌 매키친 감독이 물러나면 자신이 감독이 되기를 기대했다(브라운). 그는 28경기에 나선 뒤(우드) 구단주 에밀 푹스와의 다툼 끝에 6월 초 팀을 떠났고, 6월 4일 기자들에게 브레이브스와의 관계를 끝냈다고 밝혔다(브라운). 맥머레이는 몬트빌을 따라 푹스가 내건 감독 기회의 약속이 오해를 부르는 것이었다고 설명하며, 이후 메이저리그 감독 자리는 끝내 주어지지 않았다.",
+  "babe-ruth.interpretation.turning_point.1":
+    "감독 자리를 얻으려고 여러 해 동안 애쓰고 그 길이 될 수 있는 직책을 받아들인 일은 이 프로필의 주도 성향 점수와 부합한다. 다만 맥머레이는 그가 마이너리그를 거치는 길을 거부했다고 덧붙이고 세부 내용의 상당수가 몬트빌의 전기에서 이어진 것이므로, 이는 그의 동기에 대한 확정된 설명이 아니라 하나의 해석이다.",
+  /* ---------------------------------------------------------- j-p-morgan (Roster38) */
+  "j-p-morgan.achievement.1":
+    "1895년 2월 J. P. 모건 상회와 오거스트 벨몬트 상회는 4퍼센트 채권을 대가로 미국 재무부에 금 350만 온스를 넘기기로 계약했으며, 그중 최소 절반은 유럽에서 조달하기로 했다. 그로버 클리블랜드 대통령은 1904년에 쓴 기록에서, 이 계약이 두 회사에 금 인출을 막기 위해 금융상의 영향력을 행사할 의무도 지웠고 계약이 이행되는 동안 수출을 위해 재무부를 떠난 금은 없었다고 말한다.",
+  "j-p-morgan.achievement.2":
+    "1901년 3월 2일 J. P. 모건 상회는 유나이티드 스테이츠 스틸 사의 설립을 알리는 회람문을 냈고, 여기에는 조직과 경영의 전체 계획을 이 회사가 정한다는 내용이 담겨 있었다. 아이다 타벨은 엘버트 게리의 회고를 바탕으로, 모건이 스물네 명으로 이루어진 첫 이사회를 직접 골랐고 게리를 집행위원회 의장으로 뽑았다고 쓴다.",
+  "j-p-morgan.achievement.3":
+    "1907년 10월 공황 때 모건은 뉴욕 증권거래소의 붕괴를 막기 위해 주요 은행과 금융인들이 출자한 2,500만 달러 규모의 자금 풀을 만들었고, 이튿날에도 비슷한 풀이 조성되었다고 O. M. W. 스프라그는 1910년 국가통화위원회 보고서에서 적었다.",
+  "j-p-morgan.moment.1":
+    "1912년 12월 19일 푸조 위원회에서 새뮤얼 언터마이어 위원회 자문위원의 질문을 받은 모건은 신용이 무엇보다 돈이나 재산에 기초한다는 주장을 부인하며 이렇게 답했다. \"가장 먼저 필요한 것은 인격입니다... 돈이나 다른 무엇보다 앞섭니다. 돈으로는 그것을 살 수 없습니다.\" 그는 \"내가 믿지 않는 사람은 세상의 모든 채권을 담보로 내놓아도 내게서 돈을 빌릴 수 없다\"고 덧붙였고, 증권거래소에서 돈을 빌려 간 사람이 마음에 들지 않으면 자신이 \"즉시 직접\" 대출을 회수했다고 말했다.",
+  "j-p-morgan.interpretation.moment.1":
+    "의결권 신탁, 지배, 대출을 둘러싼 이틀간의 적대적 신문에서도 신용에 대한 이 설명을 굽히지 않았다는 점은 이 프로필의 갈등 감내 점수와 부합한다. 다만 속기록은 그의 답변을 기록할 뿐, 그 답변이 어떻게 받아들여졌는지는 알려 주지 않는다.",
+  "j-p-morgan.moment.2":
+    "1907년 10월 21일 니커보커 신탁회사를 도와 달라는 요청을 받은 모건은 벤저민 스트롱에게 회사 장부를 조사하게 했으나, 스트롱은 주어진 시간 안에 지급 능력을 확인하지 못했고 모건은 지원을 거절했다(모엔과 탤먼). 칼 호비의 1911년 전기는 그가 니커보커의 새 사장에게 \"어딘가에서는 멈춰야 합니다\"라고 말했다고 전한다. 니커보커가 10월 22일 영업을 중단하고 예금 인출 사태가 트러스트 컴퍼니 오브 아메리카로 번지자, 모엔과 탤먼에 따르면 모건은 \"마음을 바꿔\" 자금을 풀었다.",
+  "j-p-morgan.interpretation.moment.2":
+    "인출 사태가 번진 뒤 방침을 바꾼 것은 이 프로필의 신념 갱신 점수와 부합하지만, 무엇이 그의 마음을 바꾸었는지는 자료에 나와 있지 않으며 거절 시점은 연준 글과 호비의 전기가 조금 다르게 전한다.",
+  "j-p-morgan.turning_point.1":
+    "아이다 타벨은 엘버트 게리의 회고를 바탕으로, 1900년 내내 모건이 앤드루 카네기의 제철회사를 사자는 게리의 권유를 물리쳤다고 쓴다(\"그건 생각도 하지 않겠소... 그 돈을 마련할 수 있을 것 같지 않소\"). 1900년 12월 찰스 슈워브가 연설한 만찬이 끝난 뒤 모건은 슈워브와 이야기를 나누었고, 며칠 뒤 카네기 소유 자산에 대한 매수 선택권을 얻을 수 있는지 물었다. 카네기는 문서로 된 선택권은 거절했지만 연필로 적은 가격을 보내 왔다. 만찬 약 3주 뒤 모건은 동업자 로버트 베이컨을 보내 카네기를 사들이는 일이 현실적인지 게리에게 물었다.",
+  "j-p-morgan.interpretation.turning_point.1":
+    "슈워브의 연설 뒤 며칠 만에 거듭된 거절에서 구체적인 문의로 옮겨 간 것은 이 프로필의 결단력 점수와 부합한다. 모건이 왜 마음을 바꾸었는지는 그가 밝힌 이유가 아니라 타벨의 해석이다.",
+  /* ---------------------------------------------------------- james-watt (Roster38) */
+  "james-watt.achievement.1":
+    "조지프 블랙의 훗날 증언에 따르면, 와트는 1765년 초에 뉴커먼 기관이 매 행정마다 실린더를 식히느라 증기를 낭비한다는 점을 파악했고, 증기를 별도의 용기에서 응축하면 이 낭비를 피할 수 있다고 보았다. 이렇게 개량한 설계의 기관은 1770년대 중반부터 볼턴 앤드 와트 사가 제작했으며, 처음에는 광산 배수용으로, 나중에는 기계 구동용으로 쓰였다.",
+  "james-watt.achievement.2":
+    "제임스 피커드가 1780년에 크랭크에 대한 특허를 얻은 뒤, 와트는 1781년 특허에서 기관의 왕복 운동을 회전 운동으로 바꾸는 다섯 가지 대안적 방법을 제시했고, 그가 속한 회사는 그중 태양-유성 기어를 실제로 사용했다. 1784년 특허에는 빔 엔진의 피스톤 로드를 거의 직선에 가까운 경로로 안내하는 링크 장치인 평행 운동 기구가 명시되었다.",
+  "james-watt.moment.1":
+    "1763~64년 겨울, 와트는 글래스고 대학이 보유한 뉴커먼 기관 작동 모형의 수리를 맡았는데, 그 보일러가 모형을 계속 돌릴 만큼의 증기를 공급하지 못한다는 것을 알게 되었다. 이를 곁에서 지켜보았고 훗날 와트 측의 특허 소송을 위해 진술한 존 로버슨에 따르면, 와트는 가열 면적을 넓히고 나무 보일러와 덮개를 씌운 실린더를 시험해 보았으며, 증기의 4분의 3 이상이 응축되어 낭비되고 있음을 보였다.",
+  "james-watt.interpretation.moment.1":
+    "모형을 고치는 데 그치지 않고 변경을 하나씩 시험하며 손실을 측정한 이 방식은 이 프로필의 높은 실험 성향 점수와 부합한다. 다만 로버슨의 진술은 약 30년 뒤에, 소송의 한쪽 편을 위해 작성된 것이라는 점을 유의해야 한다.",
+  "james-watt.moment.2":
+    "1777~79년 콘월에서 볼턴 앤드 와트의 첫 양수 기관을 설치하는 동안, 와트는 광산 출자자들과 대금 조건을 정하러 와 달라고 볼턴에게 거듭 편지를 썼다. 1779년 윌 유니언에서 열린 험악한 회합에서는 끝나기 전에 자리를 떴고 그런 대우를 견딜 수 없다고 적었지만, 새 기관의 조건이 확정되기 전에는 설계도를 그리지 않겠다고도 썼다. 스마일스가 이 편지들을 인용하고 있으며, 브램웰도 별도로 와트가 흥정을 꺼렸다고 서술한다.",
+  "james-watt.interpretation.moment.2":
+    "이 편지들은 대면 협상은 동업자에게 맡기고 조건에 대해서는 글로 단호하게 밝히는 성향과 나란히 놓이며, 이는 이 프로필의 평균 이하 갈등 감내 점수와 맞아떨어진다.",
+  "james-watt.turning_point.1":
+    "와트의 1769년 특허 지분 3분의 2를 가지고 있던 존 로벅은 1770년대 초에 파산했고, 매슈 볼턴이 약 1,200파운드의 채무를 대신해 로벅의 지분을 넘겨받았다. 스코틀랜드에서 측량가이자 운하 기술자로 일하던 와트는 1774년 5월 버밍엄으로 옮겼고, 1775년에는 의회가 특허 기간을 연장했으며 볼턴 앤드 와트의 동업이 시작되었다.",
+  "james-watt.interpretation.turning_point.1":
+    "첫 번째 협력 관계가 무너졌을 때 스코틀랜드와 측량 일을 떠나 새로운 동업으로 옮긴 것은 이 프로필의 적응력과 부합하지만, 스몰과 볼턴의 거듭된 초청 역시 이 이동의 한 요인이었다.",
+  /* ---------------------------------------------------------- robert-goddard (Roster38) */
+  "robert-goddard.achievement.1":
+    "고더드는 1915~16년에 시판 화약 로켓의 추력을 탄도 진자로 측정했다. 데이비드 스턴에 따르면 연료 에너지 가운데 분사 속도로 바뀌는 몫은 2% 남짓에 불과했고, 드 라발식 노즐을 쓰자 효율은 최대 63%까지 올랐다. 이 결과와, 진공에서도 반동이 유지된다는 실험은 스미스소니언이 1919년에 펴내 1920년 1월에 일반에 공개한 논문 「극한 고도에 도달하는 방법(A Method of Reaching Extreme Altitudes)」에 실렸다.",
+  "robert-goddard.achievement.2":
+    "1926년 3월 16일 고더드는 매사추세츠주 오번의 한 농장에서 휘발유와 액체 산소를 쓰는 로켓을 발사했다. 로켓은 약 2.5초 동안 41피트가량 올랐다가 발사틀에서 184피트 떨어진 곳에 떨어졌다. 데이먼드 베닝필드에 따르면 같은 곳에서 1929년 7월 17일에 이뤄진 발사에서는 카메라, 온도계, 기압계를 실은 로켓이 약 90피트까지 올랐다가 추락했다.",
+  "robert-goddard.achievement.3":
+    "톰 크라우치에 따르면 고더드는 1935년 봄 뉴멕시코주 로스웰 인근에서 자이로스코프 제어 장치 개발에 몰두하고 있었다. 크라우치가 인용한 편지에서 고더드는 클라크 대학 총장에게 가장 최근의 비행이 연구 전 기간을 통틀어 가장 좋았다고 전했다. 그가 그해 11월 스미스소니언에 보낸 A 시리즈 로켓은 남아 있던 여러 로켓의 부품을 모아 조립한 것이었고, 고더드는 이 로켓들이 도달한 최고 고도가 1마일을 조금 넘는다고 적었다.",
+  "robert-goddard.moment.1":
+    "스미스소니언이 1920년 1월 고더드의 논문을 공개한 뒤, 1월 13일 자 《뉴욕 타임스》 사설은 고더드가 “고등학교에서 날마다 나눠 주는 지식”이 부족해 보인다고 썼다. 프랭크 윈터가 전하는 1월 14일 자 《보스턴 헤럴드》 기사에서 고더드는 기자에게 논문 사본을 건네며 “그것이 전부를 말해 준다”고 했고, “자기 방어를 위해 신문 기자들을 피해야 한다”고 덧붙였다. 베닝필드는 데이비드 클래리의 전기를 인용해, 그가 그 사설에 다른 보도 이상의 관심을 두지 않았다고 전한다. 《타임스》는 1969년 7월 17일 이 사설을 정정했다.",
+  "robert-goddard.moment.2":
+    "당시 캘리포니아 공과대학(칼텍) 대학원 조교였던 프랭크 말리나는 1968년에 쓰고 1986년에 칼텍의 《Engineering & Science》에 개작해 실은 글에서, 1936년 8월 28일 고더드와 이야기를 나눈 뒤 다음 달 로스웰로 찾아갔던 일을 회고했다. 그는 작업장(다만 관측 로켓의 부품은 보지 못했다), 발사탑, 추력 2,000파운드급 시험대를 볼 수 있었지만, 고더드는 이미 발표한 1936년 스미스소니언 보고서 이상의 기술적 세부 사항은 밝히려 하지 않았고, 말리나는 고더드가 로켓을 자신만의 영역으로 여기는 듯한 인상을 받았다.",
+  "robert-goddard.interpretation.moment.2":
+    "이 일화는 이 프로필의 중간 이하 협업 점수와 부합하며, 이 점수는 소규모 팀과의 긴밀한 작업이 아니라 외부와의 관계를 가리킨다. 다만 말리나는 협력을 구하러 간 당사자로서 약 30년 뒤에 이 방문을 회고한 것이며, 베닝필드의 기사는 고더드가 이때 자신의 작업을 상당 부분 보여 주었다고 적는다.",
+  "robert-goddard.turning_point.1":
+    "1929년 7월 17일의 발사로 오번의 발사장에 경찰차와 구급차가 출동한 뒤, 톰 크라우치에 따르면 고더드는 사실상 그 지역에서 로켓을 날릴 수 없게 되었다. 11월 22일 찰스 린드버그가 《포퓰러 사이언스》 기사를 읽고 전화를 걸었고 두 사람은 이튿날 만났다. 린드버그가 이 연구를 해리 구겐하임에게 알렸고, 구겐하임은 초기 지원금 5만 달러를 내기로 했다. 이후 고더드의 로켓 연구는 1930년부터 뉴멕시코주 로스웰 인근을 거점으로 했으며, 이곳은 한 기상학자의 제안에 따라 그가 고른 장소였다.",
+  "robert-goddard.interpretation.turning_point.1":
+    "이 흐름은 매사추세츠에서의 발사 금지 이후에도 연구가 이어졌다는 점에서 이 프로필의 끈기 점수를 보여 주는 사례이다. 다만 자금과 이전은 고더드 자신만큼이나 린드버그와 구겐하임의 주도에 힘입은 것이었다.",
+  /* ---------------------------------------------------------- philo-farnsworth (Roster38) */
+  "philo-farnsworth.achievement.1":
+    "1934년 여름 판즈워스의 연구소는 필라델피아 프랭클린 연구소에서 자사의 전자식 텔레비전 시스템을 일반에 공개하는 시연을 열어, 입장료를 낸 관람객에게 옥상과 건물 곳곳의 공연자와 풍경을 중계했다. 시연 기간은 자료에 따라 열흘에서 약 3주까지 서로 다르게 기록되어 있다.",
+  "philo-farnsworth.achievement.2":
+    "1939년 판즈워스의 회사와 RCA는 특허 사용권 계약을 체결했고, RCA는 지속적인 로열티를 지급하기로 했다. 그로스(Gross)는 이를 RCA의 통상 방침에서 벗어난 이례적 결정이라고 설명한다. 회사 후원자였던 에버슨(Everson)은 협상이 1939년 5월부터 9월까지 이어졌으며 회사 사장과 특허 담당 책임자가 이끌었고 판즈워스 본인은 메인 주에 있었다고 적었다.",
+  "philo-farnsworth.achievement.3":
+    "레멜슨-MIT에 따르면 1950년대부터 세상을 떠날 때까지 핵융합이 판즈워스의 주된 연구 관심사였다. 마리엇 도서관의 자료 안내서(finding aid)는 그가 ITT에서 직원들과 함께 '퓨저(fusor)'라 부른 실험용 핵융합 관 여러 개를 만들었으나 반응은 약 30초를 넘지 못했으며, 1967년에는 이 연구를 브리검영 대학교로 옮겼다고 적고 있다.",
+  "philo-farnsworth.moment.1":
+    "1926년 여름, 아직 성년이 되지 않았던 판즈워스는 샌프랜시스코의 크로커 퍼스트 내셔널 은행에서 은행가들에게 자신의 구상을 설명했다. 그 자리에 있던 에버슨에 따르면 판즈워스는 움직이는 부품이 없는 방식이라고 설명했고, 신문의 망점 사진을 이용해 초당 얼마나 많은 화소를 전송해야 하는지 보여 주었으며 은행가들의 질문에도 답했다. 은행 측 기술자가 이미 그의 명세서를 검토해 둔 상태였고, 은행가들은 이 연구를 후원하기로 했다.",
+  "philo-farnsworth.interpretation.moment.1":
+    "에버슨은 이 자리에서 판즈워스가 기계식 주사 방식으로는 필요한 속도를 낼 수 없다고 주장했다고 회상한다. 이는 자신의 접근법을 당시 주류 방식과 분명히 대비시키는 태도와 부합하지만, 이 말은 후원자가 23년 뒤에 기록한 것이다.",
+  "philo-farnsworth.moment.2":
+    "그로스는 웨스팅하우스와 RCA에 관련된 기술자 블라디미르 즈보리킨이 판즈워스의 샌프랜시스코 연구소를 방문한 시점을 1930년으로 보며, 이는 투자자들이 판즈워스에게 기업 파트너를 찾으라고 촉구한 뒤의 일이었다. 에버슨은 즈보리킨이 며칠간 머물렀고, 판즈워스와 후원자들이 모든 것을 보여 주는 일이 상당한 위험임을 알면서도 그렇게 하기로 했으며, 즈보리킨이 클리프 가드너(Cliff Gardner)가 수상관을 만드는 모습을 보여 달라고 청했다고 기록했다.",
+  "philo-farnsworth.interpretation.moment.2":
+    "이 일화는 협력 관계의 가능성을 얻기 위해 경쟁자에게 계산된 노출을 감수하려는 태도와 부합한다. 다만 그 추론은 판즈워스 본인의 말이 아니라 에버슨의 서술에서 나온 것이다.",
+  "philo-farnsworth.turning_point.1":
+    "필라델피아의 필코 공장에서 약 2년을 보낸 뒤 판즈워스는 1933년에 그곳을 떠나 필라델피아 인근에 자신의 회사와 연구소를 세웠다(에버슨은 새 연구소를 1934년으로 적는다). 그로스는 새 회사 덕분에 그가 외부의 간섭 없이 수상관을 개량할 수 있었다고 말하고, 에버슨은 필코의 생산 목표가 선행 연구로 폭넓은 특허 체계를 구축하려던 판즈워스의 목표와 달라졌다고 설명한다.",
+  "philo-farnsworth.interpretation.turning_point.1":
+    "이 결별은 자신의 연구 방향을 스스로 통제하려는 성향과 부합하지만, 필코 자체의 목표와 재정 사정도 영향을 미쳤다.",
+  /* ---------------------------------------------------------- frederic-chopin (Roster38) */
+  "frederic-chopin.achievement.1":
+    "쇼팽은 국가 간 저작권 보호가 약했기 때문에 성숙기 작품 대부분을 프랑스, 독일, 영국에서 대개 서로 다른 출판사를 통해 발행하도록 했다. 초판 연구자들은 같은 곡의 세 판본이 흔히 서로 다른 이유를 쇼팽 자신의 수정과 교정쇄 작업으로 설명한다.",
+  "frederic-chopin.achievement.2":
+    "쇼팽은 1830년대 초부터 파리에서 피아노를 가르쳤고, 시카고 대학 도서관 전시 설명에 따르면 1832년 말에는 파리에서 가장 선호받는 피아노 교사가 되어 있었다. 1840년대 초에는 피아노 교수법의 초안을 스케치했으나 끝내 완성하지는 못했다.",
+  "frederic-chopin.achievement.3":
+    "쇼팽은 1848년 2월 16일 플레옐 홀에서 파리에서의 마지막 연주회를 열었다. 프로그램에는 알라르, 프랑숌과 함께한 모차르트 트리오와 프랑숌과 함께한 자신의 첼로 소나타 일부가 들어 있었고, 입장은 신청자 명단으로 이루어졌으며 『가제트 뮈지칼』은 표를 얻으려면 후원자의 추천이 필요했다고 보도했다.",
+  "frederic-chopin.moment.1":
+    "1831년 12월 쇼팽은 친구와 옛 스승 엘스너에게 보낸 편지에서, 당시 파리 최고의 피아니스트였던 프리드리히 칼크브레너가 3년간 가르치겠다고 제안했으나 기간이 너무 길고 칼크브레너를 모방하고 싶지 않아 사양했다고 적었다. 페르디난트 힐러는 1874년의 회고에서 쇼팽이 그럼에도 칼크브레너의 상급반 수업에 몇 차례 나갔다고 썼다.",
+  "frederic-chopin.interpretation.moment.1":
+    "이 일화는 자신의 수련과 경력을 스스로 정하려는 성향과 일치하지만, 힐러의 기록은 그가 이 선배 피아니스트의 제안을 단번에 거절하지는 않았음을 시사한다.",
+  "frederic-chopin.moment.2":
+    "1844년 8월 1일과 2일 쇼팽은 노앙에서 프랑숌에게 편지를 보내, 슐레징거가 그달 20일을 넘겨 출판을 미루려 하면 두 묶음의 원고를 다른 파리 출판사인 메소니에나 르무안에게 넘겨 달라고 부탁했다. 그는 또 하르텔의 파리 대리인이 파리에서의 낮은 보수를 알게 되면 독일에서의 보수도 깎으려 할 수 있다고 걱정했으며, 8월 4일에는 프랑숌이 슐레징거와의 일을 처리해 준 데 감사를 표했다.",
+  "frederic-chopin.interpretation.moment.2":
+    "이 편지들은 쇼팽 자신의 기록으로서, 한 출판사가 지연할 때 대안을 마련하고 한 시장의 가격이 다른 시장에 미칠 영향을 따져 보는 실용적인 대처 방식을 보여 준다.",
+  "frederic-chopin.turning_point.1":
+    "쇼팽은 1831년 빈에서 성과 없는 8개월을 보낸 뒤 파리로 갔고, 그곳에서 연주회를 준비하는 데 다시 7개월가량이 걸렸다. 시카고 대학 도서관 전시는 1832년 2월 26일의 첫 파리 연주회가 관객이 적었다고 설명하지만, 힐러는 1874년의 회고에서 쇼팽이 플레옐 홀 야회에서 협주곡 E단조와 마주르카, 녹턴을 연주해 회의적이던 이들을 사로잡았다고 적었다. 같은 전시는 그해 말 그가 파리에서 가장 선호받는 피아노 교사가 되었고 레슨과 악보 출판이 연주회 순회를 대신할 수단이 되었다고 설명한다.",
+  "frederic-chopin.interpretation.turning_point.1":
+    "이 변화는 마주한 상황에 맞춰 활동 방식을 조정하는 모습과 일치하지만, 첫 연주회가 어떻게 받아들여졌는지에 대해서는 자료마다 설명이 다르다.",
+  /* ---------------------------------------------------------- buster-keaton (Roster38) */
+  "buster-keaton.achievement.1":
+    "1920년부터 1928년까지 키턴은 제작자 조지프 솅크를 위해 무성 단편과 장편을 만들었다. 터너 클래식 무비스의 수전 돌은 단편 19편과 여러 편의 장편이라고 세며, 그가 이 작품들에서 완전한 창작 통제권을 가졌다고 쓴다. 로저 프리스토는 그의 고정 팀을 공동 감독 에디 클라인, 기술 감독 프레드 가부리, 촬영 책임자 엘진 레슬리로 소개한다.",
+  "buster-keaton.achievement.2":
+    "오리건 백과사전에 따르면 「제너럴」은 채터누가에 있던 실제 기관차를 쓰려던 계획이 무산된 뒤 1926년 여름 오리건주 코티지그로브 일대에서 촬영되었다. 제작진은 1862년의 조지아주 메리에타를 재현한 세트와, 열차 추락 장면을 위한 로 리버 위의 215피트 목조 가교를 지었다.",
+  "buster-keaton.achievement.3":
+    "제임스 나이바우어는 텔레비전이 1949년부터 1960년대까지 키턴에게 가장 효과적이고 수입도 좋은 공연 무대였다고 쓴다. 1949년의 생방송 코미디 쇼, 1950~51년의 필름 시리즈가 있었고, 이후에는 게스트 출연과 광고가 이어졌다.",
+  "buster-keaton.moment.1":
+    "1926년 7월 23일 키턴은 오리건주 로 리버의 컬프 크릭에서, 「제너럴」을 위해 지은 가교가 무너지며 기관차가 추락하는 장면을 촬영했다. 줄리언 스미스는 앨타 저널에서 카메라 여섯 대가 배치되었고, 키턴이 여러 차례 시험 주행을 지휘했으며, 가교가 제때 무너지도록 일부만 톱질한 목재에 다이너마이트를 설치했다고 쓴다. 오리건 백과사전은 이 장면의 비용을 약 4만 2천 달러로 추정한다.",
+  "buster-keaton.interpretation.moment.1":
+    "미니어처가 아닌 실제 기관차로, 한 번밖에 찍을 수 없었다고 스미스가 말하는 장면을 연출한 일은 이 프로필의 높은 위험 감수 점수와 부합한다. 다만 스미스가 솅크가 늘어나는 제작비에 화를 냈다고도 전하고, 그가 묘사하는 준비 과정은 무모함보다 계산된 위험에 가깝기 때문에 이 항목은 양면적 특성으로 매겨졌다.",
+  "buster-keaton.moment.2":
+    "MGM에서 만든 첫 영화 「카메라맨」(1928)에는 스튜디오가 준비한 대본이 있었다. 영화사학자 제임스 스테펜은 키턴이 제작자 어빙 탈버그를 설득해 대본에서 벗어날 수 있게 했다고 쓰고, 제임스 나이바우어는 탈버그를 설득해 대본을 손보고 에드워드 세지윅 감독과 방해받지 않고 촬영하게 했다고 쓴다. 다나 스티븐스는 양키 스타디움의 야구 팬터마임과 붐비는 탈의실 장면이 즉흥이었다고 말한다. 스테펜의 서술은 일부 키턴 본인의 1960년 회고록에 기대고 있다.",
+  "buster-keaton.interpretation.moment.2":
+    "대본이 있는 스튜디오 작품 안에서 즉흥의 여지를 찾은 이 일은 이 프로필의 모호함 감내 점수를 보여 주는 한 사례이다. 다만 스테펜과 나이바우어 모두 이후 MGM 작품에서는 그 여지가 줄었다고 전하므로, 이것은 전체 모습이 아니라 하나의 일화이다.",
+  "buster-keaton.turning_point.1":
+    "다나 스티븐스에 따르면 1927년 노동절 주말, 「증기선 빌 주니어」의 집 앞면 장면을 찍기 하루 전에 조지프 솅크가 키턴에게 그의 제작사가 문을 닫게 될 것이라고 알렸다. 이후 키턴은 솅크의 권유로 MGM과 계약했고, 제임스 스테펜은 키턴이 1960년 회고록에서 이 결정을 자신의 경력에서 가장 큰 실수라고 불렀다고 쓴다.",
+  "buster-keaton.interpretation.turning_point.1":
+    "이후 개그 작가, 텔레비전 연기자, 광고 출연자로 일한 것은 이 프로필의 적응력 점수와 부합한다. 다만 나이바우어는 그 일부가 경제적 필요에서 나왔다고 강조하므로, 새 매체를 단순히 선택한 것으로만 읽어서는 안 된다.",
+  /* ---------------------------------------------------------- christopher-wren (Roster38) */
+  "christopher-wren.achievement.1":
+    "왕립학회 회의록을 보면 렌은 1660년대 초 여러 분야의 연구를 학회에 내놓았다. 1661년 10월 1일자로 쓴 토성에 관한 가설 편지가 있고, 1663년 12월 9일에는 그가 설계한 기상 시계(weather-clock)의 설명이 학회 기록에 등록되었다. 1665년 2월 1일에는 1664~65년 혜성의 관측 결과를 이론과 함께 발표했으며, 그가 남긴 도표는 기하학적 작도로 혜성의 경로를 계산해 낸다.",
+  "christopher-wren.achievement.2":
+    "1663년 4월 29일 렌은 옥스퍼드에 지을 극장(셸더니언 극장)의 모형을 왕립학회에 보였고, 그 전체 구조에 대한 설명을 써서 학회 기록 보관소에 남기라는 요청을 받았다. 이블린의 일기에는 이 극장의 개관식이 1669년 7월 9일에 열렸다고 적혀 있다.",
+  "christopher-wren.achievement.3":
+    "렌은 1669년 7월 30일 세인트폴 대성당 수리 총감독으로 임명되었고, 같은 해 왕실 건축 총감독(Surveyor-General of the King's Works)이 되어 1718년 해임될 때까지 그 직을 맡았다. 왕은 1675년 5월 14일 새 대성당의 워런트 설계안을 승인했고 위원회는 닷새 뒤 동쪽 부분의 기초 공사를 시작하라고 지시했다. 게러티는 첫 계약이 체결된 6월 18일 무렵에는 렌이 성가대석과 교차부의 평면을 이미 고쳐 놓았다고 결론짓는다.",
+  "christopher-wren.moment.1":
+    "1666년 8월 27일, 런던 대화재가 시작되기 엿새 전에 렌은 이블린, 런던 주교 등과 함께 옛 세인트폴 대성당의 상태를 조사했다. 이블린의 일기에 따르면 그와 렌은 신랑(身廊)이 바깥쪽으로 기운 것이 처음부터 의도였다고 본 치철리와 프랫에 맞서, 여러 곳에서 다림줄로 기둥의 수직을 재어 보았고 첨탑에는 새 기초가 필요하다고 주장했다. 그리고 '상당한 논쟁' 끝에 돔을 얹은 교회의 설계안과 견적을 가져오겠다는 두 사람의 제안이 받아들여졌다.",
+  "christopher-wren.interpretation.moment.1":
+    "동료들의 해석에 맞서면서 여러 지점에서 다림줄 측정을 했다는 점은 이 프로필의 분석적 엄밀성 점수와 부합한다. 다만 이 기록은 조사에 함께 참여한 친구 이블린 한 사람의 시각이라는 점을 유의해야 한다.",
+  "christopher-wren.moment.2":
+    "런던 대화재 직후 며칠 안에 렌은 도시 재계획안을 그려 1666년 9월 10일 또는 11일까지(학자에 따라 하루 차이가 있다) 찰스 2세에게 보였다. 이 계획안은 옥스퍼드 올소울스 칼리지에 두 가지 판본으로 전하며, 헤버트에 따르면 서면 설명도 함께 제출되었다. 이블린은 9월 13일 자신의 안을 올렸고, 헨리 올덴버그는 왕이 큰 호감을 보였다고 전했지만, 렌이 그린 거리들은 기존 도로선과 맞지 않았고 이 계획을 시행하려면 토지 소유권을 모두 다시 정의해야 했다. 계획은 채택되지 않았고, 도시는 1667년 2월 8일 서명된 재건법에 따라 대체로 기존 도로선을 따라 재건되었다.",
+  "christopher-wren.interpretation.moment.2":
+    "대응이 이렇게 빨랐다는 점은 이 프로필의 주도성 점수와 나란히 놓고 볼 수 있다. 다만 이 계획이 요청받은 것인지는 기록에 나타나지 않고 기존 토지 경계와 맞지 않았다는 점도 있어 잠정적인 해석에 그친다.",
+  "christopher-wren.turning_point.1":
+    "헤버트는 1666년의 렌을 수학과 천문학에서 이미 성공을 거둔 옥스퍼드 사빌리안 천문학 교수로 묘사한다. 그는 1669년 7월 30일 세인트폴 대성당 수리 총감독으로 임명되었고, 게러티는 같은 1669년에 그가 왕실 건축 총감독이 되어 이후 약 50년 동안 그 관청을 이끌었다고 서술한다.",
+  "christopher-wren.interpretation.turning_point.1":
+    "천문학과 실험에서 건축 경력으로 옮겨 간 이 전환은 이 프로필의 분야 횡단 점수와 부합한다. 게러티는 그의 실험 철학 훈련이 제도 솜씨를 길러 주었다고 보지만, 그가 왜 방향을 바꾸었는지는 자료에 나와 있지 않다.",
+  /* ---------------------------------------------------------- george-frideric-handel (Roster38) */
+  "george-frideric-handel.achievement.1":
+    "1742년 4월 13일 더블린 피셤블 스트리트의 새 뮤직 홀에서 헨델의 오라토리오 「메시아」가 죄수 구제 협회, 머서 병원, 자선 진료소를 돕는 공연으로 열렸다. 더블린 저널은 그가 이 공연의 수익을 세 자선 기관이 똑같이 나누도록 내놓았다고 보도했다.",
+  "george-frideric-handel.achievement.2":
+    "1749년 5월부터 런던 신문들은 파운들링 병원(기아 보호 시설)의 이익을 위한 헨델 음악 공연을 알렸고, 1751년과 1756년의 보도는 이 병원 예배당에서 그의 지휘로 「메시아」가 연주되었다고 전한다. 1751년 4월의 한 보도는 그가 예배당에 오르간을 기증했다고 적고 있으며, 1757년 8월 4일자 유언 보충서에는 「메시아」 악보 필사본과 파트보를 이 병원에 남긴다는 조항이 있다.",
+  "george-frideric-handel.achievement.3":
+    "1739년 3월 런던 데일리 포스트는 헨델이 생활이 어려워진 음악가와 그 가족을 돕는 기금의 이익을 위해 오페라 극장 사용권을 내놓았으며 「알렉산더의 향연」 공연을 직접 지휘할 계획이라고 보도했다. 1741년 3월에도 같은 기금을 위한 또 한 차례의 공연 광고에 그의 음악이 실렸다.",
+  "george-frideric-handel.moment.1":
+    "1729년 1월 말, 헨델은 왕립 음악 아카데미의 위임을 받아 가수를 모집하기 위해 이탈리아로 떠나기에 앞서 국왕 내외에게 작별 인사를 했다. 7월 초 런던 신문들은 그가 계약을 마치고 돌아왔다고 보도했으며, 그중 베이스 가수 한 명은 '이탈리아에는 고용할 만한 사람이 없어서' 함부르크에서 구했다고 전했다.",
+  "george-frideric-handel.interpretation.moment.1":
+    "이 일화는 기록에 나타난 이후의 두 차례 재기 시도(1734년과 1740년)와 함께 놓고 볼 때 끈기와 부합한다. 다만 이 일화만으로 그가 얼마나 오래 버틸 각오였는지까지 알 수는 없다.",
+  "george-frideric-handel.moment.2":
+    "1735년 3월 런던 데일리 포스트는 헨델이 사순절을 위한 오라토리오 여러 편을 준비했으며 「에스더」에 곡을 보태고 자신이 독주를 맡는 오르간 협주곡 두 곡을 더한다고 알렸다. 메리 펜다브스는 3월 15일 편지에서 그 두 협주곡을 직접 들었다며 '내 평생 들은 것 중 가장 훌륭한 것'이라 썼고, 3월 20일 《올드 휘그》에 실린 익명의 편지는 그가 그해 겨울 거의 빈 일층 객석 앞에서 연주하기도 했다고 주장했다.",
+  "george-frideric-handel.interpretation.moment.2":
+    "이미 자리 잡은 장르 안에서 새 요소를 더한 것은 형식을 시험해 보려는 의지를 보여 주는 한 예이며, 익명의 편지가 전하는 내용은 반응이 엇갈렸음을 시사한다.",
+  "george-frideric-handel.turning_point.1":
+    "친구였던 제4대 샤프츠베리 백작은 1760년의 회고록에서, 1740-41년 런던 공연이 별다른 호응을 얻지 못하자 헨델이 공연을 '접고' 1741년 아일랜드로 갔다고 적었다. 더블린 신문은 1741년 11월 그가 여러 연주자와 함께 도착했다고 보도했고, 찰스 제넨스는 12월 5일 편지에서 그가 돌아올 때까지 런던이 '몹시 따분한 곳'이 되리라고 썼다.",
+  "george-frideric-handel.interpretation.turning_point.1":
+    "기록에 나타난 여러 차례의 장소·형식 변화 가운데 하나인 이 이동은 적응력의 한 예이며, 그 이유에 관한 설명은 친구의 훗날 회고에 의존한다.",
+  /* ---------------------------------------------------------- joseph-lister (Roster38) */
+  "joseph-lister.achievement.1":
+    "리스터의 첫 두 논문(1853)은 홍채와 피부 근육을 현미경으로 살핀 연구였고, 1857~1859년에는 혈관의 신경 조절, 초기 염증, 장운동의 신경 조절 등을 다룬 생리학 논문 11편을 발표했다. 하워드는 그가 이 초기 실험 연구로 왕립학회 회원(FRS)에 선출되었다고 전한다.",
+  "joseph-lister.achievement.2":
+    "리스터가 처음 발표한 방부 처치 논문의 사례들은 1865년 8월 12일 글래스고 왕립병원에 입원한 환자에서 시작한다. 그는 더 많은 사례로 방법을 다듬고 검증하려고 발표를 미뤘다고 썼으며, 이 방법은 1867년 봄 《랜싯》 연재 논문으로 공개되었다. 보고에는 성공뿐 아니라 실패도 서술되어 있고, 이후 10년 동안 그는 36건의 사례를 더 상세히 기술했다.",
+  "joseph-lister.achievement.3":
+    "1870년 리스터는 프랑스-프로이센 전쟁의 부상병을 위한 처치 계획을 발표하여, 상처를 20분의 1 석탄산 용액으로 씻고 혈전을 제거하며 출혈 혈관을 묶은 뒤 드레싱을 적용할 것을 권했다. 슐리히에 따르면 이 글은 곧바로 독일어로 번역되었으나 그 전쟁에서 널리 채택되지는 않았다.",
+  "joseph-lister.moment.1":
+    "1877년 10월 1일 리스터는 런던 킹스칼리지의 새 교수직 취임 강연에서 임상 성과 대신 포도주·혈액·우유의 발효를 주제로 삼았고, 실험실에서 가져온 플라스크와 시료, 손으로 그린 포스터를 사용했다. 리처드슨에 따르면 그는 응고되지 않고 남아 있던 우유 한 잔을 따라 청중 앞에서 마셨고, 청중 일부는 지루해 하며 술렁였다.",
+  "joseph-lister.interpretation.moment.1":
+    "임상 청중 앞에서 실험실 연구를 다룬 이 선택은 이 프로필의 호기심 점수와 부합한다. 리처드슨은 이를 새 동료들이 세균설을 받아들이도록 준비시키려는 의도적 전략으로 해석하지만, 이는 그의 동기에 대한 리처드슨의 해석일 뿐 리스터가 직접 밝힌 목적으로 인용된 것은 아니다.",
+  "joseph-lister.moment.2":
+    "1881년 8월 런던 국제의학회의에서 리스터는 아직은 석탄산 분무를 감히 포기하지 못하겠다고 하면서도, 추가 연구로 공기 중 오염을 무시해도 된다는 것이 밝혀진다면 누구보다 기쁘게 '분무는 치워라(Fort mit dem Spray)'라고 말하겠다고 했다. 그는 1887년 분무 사용을 중단했고, 1890년 베를린 학회에서는 이를 공기 속 미생물을 없애는 용도로 권했던 일이 부끄럽다고 말했다.",
+  "joseph-lister.interpretation.moment.2":
+    "분무를 버릴 근거가 무엇일지 미리 밝히고 나중에 공개적으로 잘못을 인정한 점은 이 프로필의 신념 수정 점수와 부합한다. 다만 슐리히에 따르면 독일 외과의 한 명이 이미 1880년에 '분무는 치워라'라는 제목의 논문을 냈으므로 리스터의 변경이 이른 것은 아니었다.",
+  "joseph-lister.turning_point.1":
+    "1877년 50세의 리스터는 20년 넘게 지낸 스코틀랜드의 에든버러를 떠나 런던 킹스칼리지의 새 임상외과 교수직을 맡았고, 이는 자신의 런던 뿌리에 더 가까이 돌아가는 일이었다. 리처드슨에 따르면 일부 젊은 추종자들은 이 이동을 런던 외과계가 방부법을 받아들이도록 설득하는 십자군으로 보았고 일부 런던 외과의는 적대적이었으나, 리스터 본인의 이유는 여기에 쓴 자료들에 기록되어 있지 않다.",
+  "joseph-lister.interpretation.turning_point.1":
+    "일부 외과의가 적대적이던 수도로 자신의 방법을 가져간 점은 이 프로필의 끈기 점수와 부합한다. 그가 이 이동을 어떻게 저울질했는지는 이 자료들에 기록되어 있지 않다.",
+  /* ---------------------------------------------------------- rene-descartes (Roster38) */
+  "rene-descartes.achievement.1":
+    "1637년 『방법서설』이 레이던에서 인쇄되어 저자 이름 없이 출간되었고, 『굴절광학』『기상학』『기하학』 세 편의 시론이 함께 실렸다. 학계의 설명에 따르면 이 책은 그가 『세계론』을 접어 둔 뒤 자신의 철학을 제한된 범위에서 먼저 선보인 것이다.",
+  "rene-descartes.achievement.2":
+    "『제일철학에 관한 성찰』(『성찰』)은 1641년(재판 1642년)에 카테루스, 홉스, 아르노, 가상디, 부르댕 등 비판자들이 낸 반론과 그에 대한 데카르트의 답변을 함께 실어 출간되었다. 1639년 11월 13일 그는 메르센에게, 공개하기 전에 가장 학식 있는 신학자 스무 명 내지 서른 명에게 보낼 분량만 먼저 인쇄해 무엇을 바꾸고 고치고 덧붙이면 좋을지 그들에게서 배우겠다고 썼다.",
+  "rene-descartes.moment.1":
+    "1633년 11월 말 데카르트는 메르센에게, 레이던과 암스테르담에서 갈릴레오의 책을 수소문했더니 책이 로마에서 모두 불태워지고 저자는 벌금형을 받았다는 답을 들었다고 썼다. 그는 이 소식에 몹시 놀라 자신의 원고를 모두 태우거나 적어도 아무에게도 보여 주지 않기로 거의 마음먹었다고 했으며, 교회가 못마땅하게 여길 만한 말이 한마디도 자기 손을 떠나지 않기를 바라고, 원고를 ‘불구가 된’ 채로 내놓느니 차라리 거두겠다고 했다. 1634년 4월에는 그 원고를 누구에게도 보이지 않기로 결심했다고 메르센에게 알렸다.",
+  "rene-descartes.interpretation.moment.1":
+    "그의 편지는 이 결정을 교회 권위와의 충돌을 피하려는 것으로 설명하며, 이는 그런 종류의 위험에 대한 신중한 태도와 부합한다. 다만 한 학술적 설명은 네덜란드에 살던 그에게 실제로 위험이 있었는지 의심하는 학자들도 있다고 지적하고, 이후 푸티우스와 벌인 공개 논쟁은 그가 모든 갈등을 피한 것은 아니었음을 시사한다.",
+  "rene-descartes.moment.2":
+    "1643년 5월 6일(구력)/16일(신력)자 편지에서 보헤미아의 엘리자베트 공주는 영혼이 사유하는 실체일 뿐이라면 어떻게 신체의 자발적 운동을 결정할 수 있는지 데카르트에게 물었다. 그는 5월 21일 답장에서 이것이 자신이 펴낸 글에 비추어 가장 정당하게 제기될 수 있는 질문이라고 하면서, 영혼과 신체의 결합에 관해서는 거의 아무 말도 하지 않았다고 인정했다. 공주가 6월 10일(구력)/20일(신력)에 다시 편지를 보내자 그는 6월 28일 편지에서, 그녀 덕분에 자신이 빠뜨린 점들을 짚어 볼 기회를 얻었다고 썼다.",
+  "rene-descartes.interpretation.moment.2":
+    "이는 데카르트가 자신의 글을 방어하는 데 그치지 않고 여러 통의 편지에 걸쳐 상대의 반론을 끝까지 따져 본 한 사례로 볼 수 있다. 1630년 베이크만과의 서신 교환이 질책 속에 끝난 것처럼 협력이 이어지지 못한 다른 사례들과 함께 놓고 보아야 한다.",
+  "rene-descartes.turning_point.1":
+    "이삭 베이크만의 일지에는 데카르트가 1628년 10월 8일 도르드레흐트로 자신을 찾아왔다고 적혀 있고, 그의 서간집 편집자들에 따르면 프라네커 대학의 학생 명부에는 1629년 4월 16일자로 그의 이름이 올라 있다. 한 현대 학술적 설명에 따르면 그는 그 무렵 미완성이던 『정신 지도를 위한 규칙』을 중단하고 네덜란드 공화국에 자리를 잡았으며, 1649년 스웨덴으로 떠나기 전까지 프랑스에는 드물게만 돌아갔고 주소를 비밀로 하면서 자주 옮겨 다녔다.",
+  "rene-descartes.interpretation.turning_point.1":
+    "이러한 양상은 어디서 어떻게 연구할지를 스스로 정하려는 성향과 부합한다. 다만 그 동기에 대한 주된 근거는 데카르트 자신이 쓴 글이며, 그는 훗날 스톡홀름으로의 초청을 받아들였다.",
+  /* ---------------------------------------------------------- antonie-van-leeuwenhoek (Roster38) */
+  "antonie-van-leeuwenhoek.achievement.1":
+    "레이우엔훅은 1673년부터 1723년까지 자신이 만든 현미경으로 관찰한 내용을 네덜란드어 편지로 왕립학회에 보냈고, 버치의 기록에 따르면 1679/80년 1월 29일(구력) 크룬 박사의 발의로 회원에 선출되었다. 도벨에 따르면 그는 회의에 참석하러 런던에 간 적이 없으며, 1723년에는 딸이 은제 틀에 끼운 렌즈 26개가 든 함을 학회에 보냈는데, 이는 그가 1701년에 사후 학회에 남기도록 마련해 둔 것이었다.",
+  "antonie-van-leeuwenhoek.achievement.2":
+    "1669년 2월 4일 홀란트 궁정법원은 수학자 게네시위스 바엔이 기하학 시험을 치른 뒤 레이우엔훅을 선서 측량사로 허가했다. 도벨은 네덜란드 국립문서보관소의 이 문서를 인용하며, 《전집》 편집자들은 이 시험을 들어 그가 '기예(arts)'에 전혀 문외한은 아니었다고 지적한다.",
+  "antonie-van-leeuwenhoek.moment.1":
+    "왕립학회가 1677년 2월 그의 관찰 방법을 알려 달라고 요청하자, 레이우엔훅은 3월 23일 자신의 특별한 현미경을 아직은 공개할 결심이 서지 않는다고 썼다. 1677년 10월 5일에는 목사와 공증인을 포함한 델프트 증인들이 모세관 속 후추물을 그가 검사하는 것을 지켜보았다는 진술서를 보냈고, 증인들에게 본 것의 절반만 적어 달라고 부탁했다고 썼다. 버치는 이 진술서가 1677년 11월 1일(구력)에 낭독되었고, 로버트 훅이 두 번 실패한 뒤 11월 15일에 직접 그 생물들을 관찰했다고 기록한다.",
+  "antonie-van-leeuwenhoek.interpretation.moment.1":
+    "증인들에게 수를 낮춰 적어 달라고 부탁한 점은 이 프로필의 중간 수준 분석적 엄밀성 점수와 부합하며, 기록이 엇갈리기 때문에 점수는 높지 않다. 이 경우 그는 방법을 알려 주는 대신 증언을 제출했고, 1685년 토머스 몰리뉴는 그의 추론이 때로 빗나간다고 생각했다.",
+  "antonie-van-leeuwenhoek.moment.2":
+    "1685년 2월 토머스 몰리뉴는 왕립학회 서기의 부탁으로 델프트에서 레이우엔훅을 방문했고, 버치가 실은 편지에서 보통 형태의 현미경 십여 개를 보았다고 보고했다. 레이우엔훅은 자기 말고는 아무도 들여다본 적 없는 다른 종류가 있다고 말하면서도 그것은 보여 주지 않았다. 몰리뉴는 보여 준 렌즈가 다른 어떤 것보다 훨씬 맑다고 보았고, 레이우엔훅의 '유일한 비밀'은 더 나은 연마일 것이라고 짐작했다.",
+  "antonie-van-leeuwenhoek.interpretation.moment.2":
+    "공식 방문객에게 가장 좋은 기구를 보여 주지 않은 점은 이 프로필의 높은 자율성 욕구 점수와 부합한다. 이 자료에는 그의 이유가 나와 있지 않고 후대 저자들은 여러 설명을 내놓으며, 그는 1701년에 사후 학회로 보낼 렌즈함도 마련해 두었다.",
+  "antonie-van-leeuwenhoek.turning_point.1":
+    "1673년 4월 28일 델프트의 의사 레이니르 더 흐라프는 왕립학회 서기 헨리 올든버그에게 레이우엔훅이라는 사람이 자신이 본 어떤 것보다 뛰어난 현미경을 만들었다고 쓰고 관찰을 담은 편지를 동봉했다. 1673년 8월 15일의 답장에서 레이우엔훅은 자신이 문체가 없고 언어나 기예가 아니라 장사를 배우며 자랐으며 비난이나 반박을 달가워하지 않아 관찰을 글로 옮기는 것을 여러 번 사양했으나 더 흐라프의 청을 받아들였다고 쓰고, 자신의 관찰이 오직 자기 안의 충동과 호기심에서 나온 것임을 회원들이 기억해 달라고 청했다. 학회에 보내는 편지는 이후 50년간 이어졌다.",
+  "antonie-van-leeuwenhoek.interpretation.turning_point.1":
+    "자신의 작업이 충동과 호기심에서 나왔다는 설명은 이 프로필의 호기심 점수와 부합하지만, 학술 단체에 보낸 첫 편지 속의 자기 서술이므로 그런 성격으로 감안해야 한다.",
+  /* ---------------------------------------------------------- william-herschel (Roster38) */
+  "william-herschel.achievement.1":
+    "허셜은 1773년 9월부터 바스에서 음악 교사이자 연주회 지휘자로 일하는 한편 직접 반사망원경을 만들기 시작했다. 드라이어가 편집한 그의 비망록에 따르면 그는 2피트 반사경을 빌려 쓰다가 9월 22일 바스의 한 아마추어가 쓰던 거울 제작 도구를 사들였고, 스미스의 《광학》과 에머슨의 《역학》을 바탕으로 작업했다. 드라이어는 1818년 12월까지 이어지는 그의 4권짜리 대형 기록에 거울 관련 작업이 모두 2,160건 적혀 있다고 센다.",
+  "william-herschel.achievement.2":
+    "허셜은 1783년 10월 28일 데이체트에서 새 20피트 반사망원경으로 하늘을 훑는 '스위프' 관측을 시작했다. 드라이어에 따르면 그는 혼자 41번의 스위프를 한 뒤 이 방식이 지나치게 고되고 성과가 적다고 판단했고, 이후 일꾼이 망원경을 올리고 내리는 사이 누이 캐럴라인이 관측 내용을 받아 적는 방식으로 바꾸었으며, 1783년 12월 18일의 46번 스위프부터 1802년 9월 30일의 1112번 스위프까지 관측이 이어졌다.",
+  "william-herschel.achievement.3":
+    "허셜은 1800년 3월 27일 왕립학회에서 낭독된 논문에서, 태양을 관측할 때 색유리를 시험해 보다가 햇빛의 모든 색이 똑같이 열을 내는지 의심하게 되었다고 적었다. 그는 프리즘이 만든 스펙트럼 옆에 온도계를 놓고, 하나는 골라 둔 색 안으로 옮기고 나머지 둘은 그늘에 기준용으로 둔 채 같은 실험을 되풀이했다.",
+  "william-herschel.moment.1":
+    "1781년 3월 13일 허셜은 바스에서 하늘을 체계적으로 훑어보다가 일지에 '이상한, 성운상의 별이거나 어쩌면 혜성'이라고 적었고, 3월 17일에는 그것이 위치를 옮겼다고 기록했다. 왕립학회에 낸 논문의 제목은 〈한 혜성에 대한 보고〉였으며, 드라이어에 따르면 처음 제출한 원고에는 측정 가능한 시차를 주장하는 단락이 있었지만 다른 곳의 더 정확한 관측이 이를 반박하자 인쇄되지 않았다.",
+  "william-herschel.interpretation.moment.1":
+    "제출본과 인쇄본의 차이는 이후 측정이 뒷받침하지 않은 논거를 접을 줄 아는 태도와 부합한다. 다만 이는 한 번의 사례이며, 비판을 받았을 때 자신의 입장을 되풀이한 다른 기록도 있다.",
+  "william-herschel.moment.2":
+    "1781년 12월 윌리엄 왓슨은 허셜에게 런던 사람들이 그가 쓴 높은 배율을 믿지 않으며, 매스켈린과 오베르가 항성이 둥글고 또렷하게 보인 적이 없다고 말했다고 전했다. 허셜은 1782년 1월 7일 답장에서 '본다는 것은 어느 정도 배워야 하는 기술'이며 자신은 '여러 밤' 그 연습을 했다고 썼고, 이후 오베르에게 배율을 서서히 높여 보라고 권했다. 그의 비망록에 따르면 1782년 5~6월 그의 망원경은 그리니치에서 시험을 받았고 사용한 이들은 다른 기기보다 낫다고 평가했다.",
+  "william-herschel.interpretation.moment.2":
+    "그의 편지는 좋은 관측을 반복 연습으로 쌓는 기술로 다루는데, 이는 숙달 지향과 부합한다. 다만 근거가 대부분 그 자신의 말과 비망록이어서 결정적이라기보다 예시에 가깝다.",
+  "william-herschel.turning_point.1":
+    "드라이어는 허셜의 삶의 전환점을 1772~73년 겨울로 보는데, 스미스의 《광학》을 읽고 하늘을 직접 보고 싶어졌다는 것이다. 그의 비망록에는 1773년 4월 19일 사분의, 5월 24일 대물렌즈, 9월 22일 거울 제작 도구를 샀다는 기록이 있으며, 같은 해 11월 15일이 든 주에도 그는 개인 제자 46명을 가르치고 있었다.",
+  "william-herschel.interpretation.turning_point.1":
+    "책과 바스의 한 아마추어가 쓰던 도구로 기기를 만들면서 수업 부담도 그대로 진 것은 임기응변적 수완과 부합한다. 이 서술은 그 자신의 비망록과 누이의 훗날 회고에 의존한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {
