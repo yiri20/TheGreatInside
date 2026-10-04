@@ -5116,6 +5116,272 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In Amsterdam she saw collections of tropical insects that showed only adult specimens, with nothing about how they developed. In June 1699, aged 52, she sailed to the Dutch colony of Suriname with her younger daughter, and stayed until June 1701, returning earlier than planned because of the heat. Her book mentions enslaved and Indigenous people who dug up plants for her, cut paths through the forest and told her about plant uses.",
   "maria-sibylla-merian.interpretation.turning_point.1":
     "Setting out to observe these insects' life cycles for herself, which no one had asked her to do, sits alongside the strong reading of taking the initiative in her profile; the work also depended on the labour and knowledge of people in Suriname.",
+  /* ---------------------------------------------------------- jackie-robinson (Roster41) */
+  "jackie-robinson.achievement.1":
+    "Robinson played his first game for the Brooklyn Dodgers on 15 April 1947, breaking the colour line that had kept Black players out of the modern major leagues. He was named Rookie of the Year that season and in 1949 won the National League batting title (.342) and its Most Valuable Player award.",
+  "jackie-robinson.achievement.2":
+    "In his ten seasons with Brooklyn (1947-56) the Dodgers won six National League pennants and the 1955 World Series, with Robinson playing first base, second base, third base and left field as the team required. He finished with a .311 career batting average and was elected to the Baseball Hall of Fame in 1962.",
+  "jackie-robinson.achievement.3":
+    "After retiring from baseball in January 1957 he became a vice president of the Chock full o'Nuts coffee and lunch-counter company. He later chaired the board of Freedom National Bank in Harlem, which was set up to lend to customers that established banks largely ignored.",
+  "jackie-robinson.moment.1":
+    "In Game One of the 1955 World Series at Yankee Stadium, with Brooklyn two runs behind in the eighth inning, Robinson stole home against pitcher Whitey Ford and catcher Yogi Berra. SABR researcher Bill Nowlin, working from contemporary reports, notes that Robinson and manager Walter Alston both said he ran on his own decision, and that Berra argued the call for the rest of his life. Nowlin counts 19 regular-season steals of home in Robinson's major-league career, and 12 attempts on which he was thrown out.",
+  "jackie-robinson.interpretation.moment.1":
+    "A steal of home with his team behind sits alongside the profile's high risk tolerance score. The dozen failed attempts are part of the same record, which is why that row is marked dual-edged.",
+  "jackie-robinson.moment.2":
+    "At their August 1945 meeting Robinson had agreed with Dodgers president Branch Rickey not to respond to provocation during his first years in organized baseball. In a September 1947 cover story, Time reported that after Enos Slaughter of the Cardinals spiked him that August he 'set his teeth, and said nothing', and quoted him on the Phillies' bench abuse: 'I'd get mad. But I'd never let them know it.' When public criticism of the abuse led Phillies manager Ben Chapman to ask for a photograph together, Robinson agreed to pose with him.",
+  "jackie-robinson.interpretation.moment.2":
+    "Keeping to the agreement through two seasons is consistent with the profile's moderate discipline score. The restraint was a condition he had accepted rather than a plan of his own, so the score stays moderate.",
+  "jackie-robinson.turning_point.1":
+    "In December 1956 Robinson agreed to join Chock full o'Nuts and had already sold the story of his retirement to Look magazine when the Dodgers traded him to the New York Giants. Because of the magazine contract he could not announce his decision until the story ran in January 1957. When Dodgers general manager Buzzie Bavasi suggested publicly that the article was a move for a better contract, Robinson turned down the Giants' offer; by his own later account, after that remark there was no way he would play again.",
+  "jackie-robinson.interpretation.turning_point.1":
+    "Standing by his decision in a public dispute with his old club offers one example behind the profile's conflict tolerance score. Historian Andy McCue's account shows the club had its own grievances, so this is one reading of a two-sided dispute.",
+  /* ---------------------------------------------------------- babe-didrikson-zaharias (Roster41) */
+  "babe-didrikson-zaharias.achievement.1":
+    "At the 1932 national AAU track and field championships in Evanston, Didrikson was the only athlete entered for the Employers Casualty Company team of Dallas. She competed in eight events, won five, tied for first in the high jump and placed fourth in the discus, scoring 30 points; the runner-up team scored 22.",
+  "babe-didrikson-zaharias.achievement.2":
+    "At the 1932 Los Angeles Olympics she won the javelin with a world-record throw on her first attempt and the 80-metre hurdles in a world-record 11.7 seconds. In the high jump she cleared the same height as Jean Shiley, but officials ruled her head-first technique illegal in the jump-off, and she received the silver medal.",
+  "babe-didrikson-zaharias.achievement.3":
+    "Turning to golf, she won the 1947 British Ladies Amateur, the first American to take that title, and then turned professional. In 1948-49 she helped found the Ladies Professional Golf Association, led its money list from 1949 to 1951, served as its president from 1952 to 1955 and won the U.S. Women's Open three times.",
+  "babe-didrikson-zaharias.moment.1":
+    "Fellow professionals interviewed by golf historian Rhonda Glenn described her on the 1950s tour. Barbara Romack recalled that in 1951, after being outdriven on the first holes, Didrikson told her it 'might be better if you didn't outdrive me'; Betsy Rawls said she had never seen anyone take losing less gracefully. Friends told Sports Illustrated in 1975 that she would lend a club in a practice round and take it back once it started working for them.",
+  "babe-didrikson-zaharias.interpretation.moment.1":
+    "These recollections, from rivals and friends alike, are consistent with a strong drive to beat other players specifically, a drive that some of those players resented.",
+  "babe-didrikson-zaharias.moment.2":
+    "Her sister recalled her in Dallas hitting golf balls after dark, with tape over her torn hands, refusing to stop. Gene Sarazen, who toured with her in 1935, told Sports Illustrated that she learned by watching him from a few feet away and then practising for hours, and that he knew of only one golfer, Ben Hogan, who practised more. Her 1956 New York Times obituary also reported practice sessions of up to 1,000 balls a day.",
+  "babe-didrikson-zaharias.interpretation.moment.2":
+    "This practice record offers one example of mastery orientation: for years she kept drilling the skills of a sport that was new to her, well beyond what her exhibition schedule required.",
+  "babe-didrikson-zaharias.turning_point.1":
+    "In 1935, soon after she won the Texas women's championship, the U.S. Golf Association ruled her ineligible to compete as an amateur, which shut her out of almost every women's tournament. She played paid exhibitions, including a 1935 tour with Gene Sarazen, then in 1940 gave up professional golf and waited out the required three years. Her amateur status was restored in January 1943.",
+  "babe-didrikson-zaharias.interpretation.turning_point.1":
+    "The eight years between the ban and her later amateur titles sit alongside other evidence of persistence in her record: she kept pursuing tournament golf through a long institutional setback rather than leaving the sport.",
+  /* ---------------------------------------------------------- orville-wright (Roster41) */
+  "orville-wright.achievement.1":
+    "On 17 December 1903, near Kitty Hawk, North Carolina, Orville Wright piloted the first of four flights made that day in the powered Wright Flyer he and his brother Wilbur had designed and built. The flight lasted about 12 seconds and covered 120 feet; Wilbur flew the longest of the four, 852 feet in 59 seconds.",
+  "orville-wright.achievement.2":
+    "Orville flew the U.S. Army acceptance trials at Fort Myer, Virginia, which began in September 1908 and were completed in July 1909. On 27 July 1909 he stayed aloft for over an hour with a passenger, and on 30 July he flew the cross-country speed test to Alexandria and back; the Army formally accepted the machine on 2 August.",
+  "orville-wright.achievement.3":
+    "Orville developed an automatic stabilizer for the Wright airplane and, on 31 December 1913, demonstrated it in 17 flights before an Aero Club of America committee, making seven turns in the last with his hands off the controls. In 1920 he developed a split wing flap with James Jacobs, patented in 1924.",
+  "orville-wright.moment.1":
+    "In his dispute with the Smithsonian, Orville reduced his case to a side-by-side list of 35 differences between Samuel Langley's 1903 Aerodrome and the rebuilt machine flown in 1914, from camber and guy-post positions to carburettor and floats, each tied to Langley's own published Memoir. When the Smithsonian printed the list in October 1942, its secretary wrote that the Institution accepted it 'as correct in point of facts'.",
+  "orville-wright.interpretation.moment.1":
+    "Answering a public controversy with a checkable, item-by-item list sits alongside the profile's high detail orientation score. The fact that his opponent accepted the list is what gives this episode its weight.",
+  "orville-wright.moment.2":
+    "In autumn 1903 Octave Chanute told the brothers that chain drives usually lost about 20 per cent of their power, far more than the 5 per cent they had allowed. In his own later account Orville describes how they hung a drive chain over a sprocket with bags of sand on each side and measured the extra weight needed to move it, which put the loss at about 5 per cent.",
+  "orville-wright.interpretation.moment.2":
+    "Testing an expert's warning with a simple measurement instead of simply accepting it or ignoring it is consistent with the profile's analytical rigor score. The account is Orville's own and describes joint work, which is why that row carries only moderate confidence.",
+  "orville-wright.turning_point.1":
+    "In 1914 the Smithsonian had Langley's 1903 Aerodrome rebuilt and flown by Glenn Curtiss, the Wrights' opponent in patent litigation, and then described it as the first airplane capable of carrying a man. After his efforts to get the claim corrected failed, Orville shipped the 1903 Wright Flyer to the Science Museum in London in January 1928. It stayed abroad until after his death; in 1942 the Smithsonian published a statement correcting the record, and in 1948 the Flyer went on display in Washington.",
+  "orville-wright.interpretation.turning_point.1":
+    "Sending the country's most famous aircraft overseas to press a factual correction offers one example of the profile's conflict tolerance, marked dual-edged. Historian Tom Crouch places most of the fault with the Smithsonian, while noting that Charles Lindbergh also found Orville 'not an easy man to deal with'.",
+  /* ---------------------------------------------------------- josiah-wedgwood (Roster41) */
+  "josiah-wedgwood.achievement.1":
+    "In the 1760s Wedgwood improved the body and glaze of Staffordshire cream-coloured earthenware, building on earlier local potters' work. After he supplied Queen Charlotte, the ware was sold as 'Queen's Ware' and he was styled the Queen's potter; it became the staple of his business.",
+  "josiah-wedgwood.achievement.2":
+    "After trials with barium minerals from 1773, Wedgwood had by 1775 developed jasper, a fine unglazed stoneware that could be coloured right through with metal oxides. It was used for cameos, portrait medallions, plaques and vases with white reliefs on blue, green, lilac or black grounds. Church gives an approximate formula in which barium sulphate makes up more than half of the body.",
+  "josiah-wedgwood.achievement.3":
+    "In 1773-74 Wedgwood and his partner Thomas Bentley made a cream-ware dinner service for Empress Catherine II of Russia; according to Williamson it ran to more than 800 pieces, each carrying a green frog emblem and a painted view of a British building or landscape. Before it was shipped, the service was displayed in the firm's new show-rooms in Greek Street, London, in 1774.",
+  "josiah-wedgwood.moment.1":
+    "In July 1774 Wedgwood wrote to Bentley that his new white body kept coming out differently, sometimes white, sometimes cinnamon-coloured, sometimes melted to glass. Testing each lump of the mineral separately, he found the samples varied, and he turned to a material whose pieces all behaved alike. The account comes from his own letters, printed by Meteyard; the chemist A. H. Church separately describes his difficulty with these minerals.",
+  "josiah-wedgwood.interpretation.moment.1":
+    "Isolating one variable at a time, and then choosing a material for its consistency, is consistent with the profile's high analytical rigor score.",
+  "josiah-wedgwood.moment.2":
+    "William Burton, who worked as a chemist at the Wedgwood factory, records that Wedgwood had his throwers weigh each ball of clay against a table of standard weights, had the scraps weighed daily to check waste, and had finished plates weighed in batches. Earlier, from 1759, his experiment books recorded each trial's ingredients by code number and the part of the oven where it was fired.",
+  "josiah-wedgwood.interpretation.moment.2":
+    "These routines sit alongside the profile's high detail orientation score; Church, a more critical writer, suggests the same push for exactness made the ornamental wares less lively.",
+  "josiah-wedgwood.turning_point.1":
+    "In 1759, at the end of his partnership with the Fenton potter Thomas Whieldon, Wedgwood leased the small Ivy House works in Burslem for 10 pounds a year and began working on his own account. According to Church, he had kept the right to keep his own improvements secret when the partnership began, and at first he made the models and mixed the clays himself.",
+  "josiah-wedgwood.interpretation.turning_point.1":
+    "Agreeing in advance to keep his discoveries his own offers one example of the forward planning reflected in the profile's planning orientation score, though his savings and the end of the partnership's term also shaped the timing.",
+  /* ---------------------------------------------------------- mary-kingsley (Roster41) */
+  "mary-kingsley.achievement.1":
+    "On her second West African journey (December 1894 to November 1895) Kingsley took a canoe up the Ogowe River in French Congo into the rapids above Njole, then crossed a largely unmapped stretch of Fang country overland from Lambarene to the Rembwe River. Before sailing home she climbed Mount Cameroon (Mungo Mah Lobeh).",
+  "mary-kingsley.achievement.2":
+    "She collected fishes, reptiles and insects for the British Museum on the Ogowe. In 1896 the museum's zoologist Albert Günther reported about 65 fish and 18 reptile species from her collection, named three new fish species kingsleyae after her, and noted that they arrived in excellent condition although her canoe often overturned in the rapids. A modern ichthyologist has called the collection a significant contribution to the study of Gabon's fishes.",
+  "mary-kingsley.achievement.3":
+    "Her Travels in West Africa (1897) combined a narrative of both journeys with chapters on West African religion ('fetish') and appendices on trade, followed by West African Studies (1899). In Science, the Princeton geographer William Libbey criticised the book's loose structure and flippant tone but judged its fetish chapters 'a valuable contribution'.",
+  "mary-kingsley.moment.1":
+    "In her own account of 26 September 1895, Kingsley pressed on towards the summit of Mount Cameroon in worsening weather after her last two companions had stopped, and reached the summit cairn alone in fog and driving rain. She recorded that she had doubted whether she was right to risk her men, and that the fog robbed her of the view she had come for.",
+  "mary-kingsley.interpretation.moment.1":
+    "Her choice to go on alone fits the profile's high score for risk tolerance; her own doubts about exposing her men are part of why that score is marked dual-edged.",
+  "mary-kingsley.moment.2":
+    "While Travels in West Africa was being prepared in 1896, a scientific reviser altered some of her wording, including a depth he gave for the Forcados bar that she said was wrong. In a letter to her publisher, George Macmillan, quoted by her biographer Stephen Gwynn, she refused to publish the changes, writing that she had a good character to lose as 'an honest observer of facts'.",
+  "mary-kingsley.interpretation.moment.2":
+    "The episode sits alongside Günther's praise for how carefully she chose specimens as evidence for her detail orientation, though the letter itself is her own account.",
+  "mary-kingsley.turning_point.1":
+    "After her parents died in 1892, Kingsley chose West Africa to continue her father's study of early religion and law. Before her second journey Albert Günther of the British Museum suggested she collect the fishes of the rivers she visited, and she sailed in December 1894 with a collector's outfit from the museum.",
+  "mary-kingsley.interpretation.turning_point.1":
+    "Pairing 'fish and fetish' offers one example of the curiosity this profile scores: a single journey given over to both natural history and the study of religion.",
+  /* ---------------------------------------------------------- alberto-santos-dumont (Roster41) */
+  "alberto-santos-dumont.achievement.1":
+    "On 19 October 1901 Santos-Dumont flew his airship No. 6 from the Aéro-Club's grounds at Saint-Cloud around the Eiffel Tower and back, the course set for the 100,000-franc Deutsch prize. Whether his time should be counted to his first pass over the judges or to his landing was disputed, and the club's commission voted 15 to 9 to award him the prize on 4 November.",
+  "alberto-santos-dumont.achievement.2":
+    "On 23 October 1906 at Bagatelle in Paris, with Aéro-Club de France representatives present, his 14-bis biplane flew about 60 metres, winning the Archdeacon cup for the first flight of over 25 metres. On 12 November 1906 it flew 220 metres in about 21 seconds, the distance recorded by the club's commission. Whether these were the first powered flights is disputed, because the Wright brothers had flown privately in the United States from 1903.",
+  "alberto-santos-dumont.achievement.3":
+    "In November 1907 he flew his No. 19, a small monoplane that Scientific American's Paris correspondent described as built in two weeks. It was developed into the Demoiselle of 1909. In 1910 Popular Mechanics published working drawings of the Demoiselle that had been obtained from him and his workshops.",
+  "alberto-santos-dumont.moment.1":
+    "On 8 August 1901, during his second attempt at the Deutsch prize, his airship lost gas and fell onto the roof of the Trocadero hotels; Paris firemen hauled him up by rope. In his own account he gave out the specifications for a new airship, No. 6, that same evening, and it was finished and inflated 22 days later. Historian Henrique Lins de Barros, drawing on the press of the time, adds that he tested the surviving motor in front of the crowd.",
+  "alberto-santos-dumont.interpretation.moment.1":
+    "Ordering a replacement on the day of a near-fatal fall sits alongside the profile's high persistence score. It was one of several crashes between 1898 and 1907 that each led to a new or rebuilt machine.",
+  "alberto-santos-dumont.moment.2":
+    "In 1909 Santos-Dumont told the newspaper Le Matin that anyone could build his Demoiselle aeroplane and ask him for the plans. In June 1910 Popular Mechanics published the drawings, stating that the machine was 'unencumbered by patent rights' and that he had made it available to the world. Back in 1901, before the Deutsch prize flight, he had pledged the prize money to the poor of Paris and to his workmen.",
+  "alberto-santos-dumont.interpretation.moment.2":
+    "Giving away a design and prize money that others might have kept is consistent with the profile's impact motivation score. He was wealthy, so these gestures cost him less than they would have cost many inventors, which is one reason that row is kept moderate.",
+  "alberto-santos-dumont.turning_point.1":
+    "In 1898 Santos-Dumont fitted a petroleum engine from a motor tricycle under a balloon filled with hydrogen, a highly flammable gas. Fellow aeronauts urged him to use an electric motor instead; he later told a journalist that 'from the beginning everybody was against the idea'. His first airship flew on 20 September 1898, and the light petroleum engine stayed central to his airships and aeroplanes.",
+  "alberto-santos-dumont.interpretation.turning_point.1":
+    "Choosing the engine that experienced balloonists warned against offers one example of the profile's independent thinking. Most of what we know about those objections comes from his own accounts and an authorized interview, which is why that row carries only moderate confidence.",
+  /* ---------------------------------------------------------- paul-cezanne (Roster41) */
+  "paul-cezanne.achievement.1":
+    "Cézanne showed work at the first Impressionist group exhibition in Paris in 1874, where The House of the Hanged Man was bought by the collector Count Doria. At the 1877 group exhibition he showed sixteen paintings and watercolours, including a portrait head of the collector Victor Chocquet.",
+  "paul-cezanne.achievement.2":
+    "In the 1890s he completed five paintings of labourers playing cards, with farm workers from his father's estate as models. In his last decade he worked on three large canvases of female bathers, the largest paintings he made, which the National Gallery in London calls the culmination of a theme he had pursued since the 1870s.",
+  "paul-cezanne.achievement.3":
+    "In 1904 the Salon d'Automne in Paris gave Cézanne an entire room. His dealer Ambroise Vollard records that press reviews stayed hostile, but that collectors increasingly sought his paintings from then on.",
+  "paul-cezanne.moment.1":
+    "In 1899 the dealer Ambroise Vollard sat for his portrait, with sittings from eight to half past eleven each morning. By Vollard's own account, Cézanne left the portrait unfinished after 115 sittings, with two small spots of bare canvas still on the hand. In 1904 the painter Émile Bernard watched him rework a still life of skulls every morning for a month.",
+  "paul-cezanne.interpretation.moment.1":
+    "Two separate eyewitness accounts of this long reworking are consistent with this profile's high perfectionism score. The same sources show the cost: many canvases were left unfinished or destroyed.",
+  "paul-cezanne.moment.2":
+    "When the 1866 Salon jury rejected both of his paintings, Cézanne wrote twice to the Superintendent of Fine Arts, Count Nieuwerkerke. In the letter of 19 April, preserved in the Louvre archives, he refused to accept the judgment of people he had not appointed and asked for the Salon des Refusés to be restored. The official reply in the margin turned him down.",
+  "paul-cezanne.interpretation.moment.2":
+    "The letter offers one documented example of the independent thinking scored in this profile. It sits alongside his continued submissions to the same Salon in later years, which show that he still wanted official recognition.",
+  "paul-cezanne.turning_point.1":
+    "From about 1872 to 1874 Cézanne lived at Auvers-sur-Oise and worked near Camille Pissarro. The critic Théodore Duret, who knew the Impressionist circle, writes that until then Cézanne had seldom painted landscapes outdoors, and that at Auvers he took up open-air painting with a lighter, brighter range of colour. Vollard records that Pissarro also advised him not to let himself be dominated by the old masters.",
+  "paul-cezanne.interpretation.turning_point.1":
+    "This change of method is consistent with this profile's experimentation score. Its timing also reflects the influence of his working contact with Pissarro, not only Cézanne's own disposition.",
+  /* ---------------------------------------------------------- emily-dickinson (Roster41) */
+  "emily-dickinson.achievement.1":
+    "Between about 1858 and 1864 Dickinson copied more than 800 of her poems into forty small booklets she made herself, folding sheets of paper and tying them with string. The booklets, now called fascicles, were found by her sister after her death in 1886. About 2,500 poem manuscripts in her hand survive in all.",
+  "emily-dickinson.achievement.2":
+    "Only ten of her poems and one letter are known to have been printed in her lifetime, the poems all without her name; scholars doubt that she authorised most or all of these printings. The first collection, Poems (1890), was edited by Thomas Wentworth Higginson and Mabel Loomis Todd, who regularised her punctuation and changed some words. Editions based on the manuscripts came later, from Thomas H. Johnson in 1955 and R. W. Franklin in 1998.",
+  "emily-dickinson.achievement.3":
+    "She shared about 500 poems with more than forty correspondents, usually in or alongside letters. About 1,000 of her letter manuscripts survive. From 1862 until her death she sent about 100 poems to Higginson, who published an account of their correspondence in the Atlantic Monthly in 1891.",
+  "emily-dickinson.moment.1":
+    "In the summer of 1861 Dickinson sent her sister-in-law Susan Dickinson the poem 'Safe in their Alabaster Chambers', then a completely different second stanza. Susan wrote back that she was 'not suited' with the new stanza, and Dickinson sent a third version, asking 'Is this frostier?'. The notes and manuscripts survive at Harvard and are printed in the 1958 scholarly edition of her letters.",
+  "emily-dickinson.interpretation.moment.1":
+    "Answering a reader's criticism with fresh alternatives, not by defending the first version, is consistent with the profile's experimentation score. Her later manuscripts often keep several possible words side by side.",
+  "emily-dickinson.moment.2":
+    "In June 1862 Higginson suggested she delay publishing. She replied that publishing was 'foreign to my thought'. In 1876 the writer Helen Hunt Jackson pressed her to contribute to an anonymous poetry series. Dickinson asked Higginson for a note saying he disapproved, so that Jackson would accept her refusal. In 1884 Jackson was still urging her to 'give them light'.",
+  "emily-dickinson.interpretation.moment.2":
+    "Keeping control over whether her poems went into print, despite repeated requests, sits alongside the profile's high score for need for autonomy. Scholars still disagree about whether she wanted to publish, so this reading describes what she did, not why.",
+  "emily-dickinson.turning_point.1":
+    "In April 1862, after reading Higginson's advice to young writers in the Atlantic Monthly, Dickinson wrote to him, a stranger, asking whether her verse was 'alive', and enclosed four poems. In a private letter to the magazine's editor he described verse received that week as 'fortunately not to be forwarded for publication'. In his 1891 account he says he tried to steer her toward rules and traditions, but she would not change a word order just to gain a rhyme, and he soon gave up trying to guide her.",
+  "emily-dickinson.interpretation.turning_point.1":
+    "Seeking out an established critic and then keeping her own forms offers one example of the profile's independent thinking. Higginson's account was written decades later by an admirer and co-editor, which is one reason that score is kept below the top band.",
+  /* ---------------------------------------------------------- giuseppe-verdi (Roster41) */
+  "giuseppe-verdi.achievement.1":
+    "Between March 1851 and March 1853 Verdi premiered three operas that have stayed in the international repertory ever since: Rigoletto (Venice), Il trovatore (Rome) and La traviata (Venice). His Aida opened at the Cairo opera house on 24 December 1871, followed by its European premiere at La Scala in February 1872.",
+  "giuseppe-verdi.achievement.2":
+    "Late in life Verdi wrote two Shakespeare operas to librettos by Arrigo Boito. Otello opened at La Scala on 5 February 1887 after about seven years of work, and the comedy Falstaff followed there on 9 February 1893, when Verdi was seventy-nine.",
+  "giuseppe-verdi.achievement.3":
+    "In the 1890s Verdi paid for and closely supervised the building of the Casa di Riposo per Musicisti in Milan, a residence for elderly musicians without means, and created its foundation in December 1899. At his request it opened only after his death, receiving its first residents in October 1902, and he left it the royalties from his operas.",
+  "giuseppe-verdi.moment.1":
+    "For the first Macbeth (Florence, 1847), the soprano Marianna Barbieri-Nini later recalled more than a hundred piano and orchestra rehearsals, three months of work on the sleepwalking scene, and a duet rehearsed over 150 times. In her account, printed by the critic Gino Monaldi in 1899, Verdi called the two singers away to rehearse it once more just before the dress rehearsal, with the audience already in the theatre.",
+  "giuseppe-verdi.interpretation.moment.1":
+    "The episode is consistent with this profile's high perfectionism score, though the figures come from one performer's recollection decades later. The same account records the cost: the cast resented what she called his exaggerated demands.",
+  "giuseppe-verdi.moment.2":
+    "In early 1858 the Naples censors withdrew permission for Verdi's new opera about the murder of a king. According to press reports of the time, quoted by his biographer Arthur Pougin, Verdi refused to fit his music to a substitute libretto despite a formal protest and a claim for damages, and the opera was withdrawn. It reached the stage in Rome in February 1859 as Un ballo in maschera, with the action moved to colonial Boston.",
+  "giuseppe-verdi.interpretation.moment.2":
+    "His refusal in Naples offers one example of the conflict tolerance scored in this profile. The Rome version sits alongside it as a reminder that he also accepted compromises when a production was otherwise impossible.",
+  "giuseppe-verdi.turning_point.1":
+    "According to the scholar Fabrizio Della Seta, from Ernani (1844) onward Verdi's contracts reserved him the right to approve the singers. After Nabucco he never set a libretto that someone else had already written: he chose the subjects and planned the scenes himself, and the libretto stage often took longer than the music.",
+  "giuseppe-verdi.interpretation.turning_point.1":
+    "This shift in working terms fits the high need for autonomy recorded in this profile. Della Seta also places it within a wider change in the standing of Italian composers, so it reflects the theatre business of the time as well as Verdi himself.",
+  /* ---------------------------------------------------------- jules-verne (Roster41) */
+  "jules-verne.achievement.1":
+    "The Paris publisher Pierre-Jules Hetzel brought out Verne's Five Weeks in a Balloon in 1863. From 1866 Hetzel presented Verne's novels as a series, the Voyages Extraordinaires, and their partnership lasted until Hetzel's death in 1886.",
+  "jules-verne.achievement.2":
+    "In 1981 the city of Nantes, his birthplace, bought about ninety-five of his autograph manuscripts, and its library now holds most of them. The drafts show his writing from his early poems and plays to the late novels, with Hetzel's notes on several.",
+  "jules-verne.achievement.3":
+    "He also wrote for the theatre. Stage versions of Around the World in Eighty Days and Michel Strogoff, written with the dramatist Adolphe d'Ennery, were major successes in Paris. In 1904 Michel Strogoff was again playing at the Théâtre du Châtelet.",
+  "jules-verne.moment.1":
+    "In an 1893 interview in Amiens, Verne told the journalist Robert Sherard that he was never satisfied with fewer than seven or eight sets of proofs. Sherard saw beside him a pile of proofs Verne called 'the sixth set'. The manuscripts kept at Nantes show the same layers of work: a pencil draft, corrections in ink, chapters rewritten in the margins, then several rounds of proofs.",
+  "jules-verne.interpretation.moment.1":
+    "Revising this many times after the text was already set in type fits the profile's perfectionism score. Verne himself said the practice cost him money as well as time, which is why the trait is marked dual-edged.",
+  "jules-verne.moment.2":
+    "In interviews between 1893 and 1904, Verne said he read the same fifteen newspapers every afternoon, subscribed to more than twenty, followed science and geography journals, and cut out or noted anything useful. In 1894-95 the journalist Marie Belloc saw cardboard pigeon-holes in his library holding more than twenty thousand notes, which he said were sorted by subject.",
+  "jules-verne.interpretation.moment.2":
+    "This lifelong habit of reading and filing sits alongside the profile's curiosity score. Most of the description comes from Verne himself, but the files Belloc saw are one physical trace of it.",
+  "jules-verne.turning_point.1":
+    "In spring 1869 Hetzel rejected the closing chapters of Twenty Thousand Leagues under the Seas. Verne had made Captain Nemo a Pole avenging the crushing of the 1863 uprising, but Hetzel objected for commercial and diplomatic reasons. Verne refused to rewrite the character as asked, saying he could not portray what he did not feel, though he accepted other changes. In the published book Nemo's nationality and motives stay unexplained. Scholars disagree over who prevailed.",
+  "jules-verne.interpretation.turning_point.1":
+    "Defending his main character while working within a publisher's rules offers one example of why the profile places his need for autonomy near the middle rather than high. Later letters show him rejecting Hetzel's suggestions more openly, yet he kept working with Hetzel until the publisher's death in 1886.",
+  /* ---------------------------------------------------------- max-planck (Roster41) */
+  "max-planck.achievement.1":
+    "On 19 October 1900 Planck presented a new formula for the spectrum of heat radiation to the German Physical Society in Berlin. On 14 December 1900 he gave a theoretical derivation of it that introduced the constant now known as Planck's constant, h. Historians still debate how far he saw the break with classical physics at the time.",
+  "max-planck.achievement.2":
+    "He received the Nobel Prize in Physics for 1918, announced in November 1919, for his work on the theory of elementary quanta. He accepted it in Stockholm in June 1920. In 1908 the Swedish Academy had turned down a committee proposal to give him the prize.",
+  "max-planck.achievement.3":
+    "He succeeded Gustav Kirchhoff at the University of Berlin in 1889 and taught theoretical physics there until he retired in 1926. He was a member of the Prussian Academy of Sciences from 1894. Many physics students learned from his published lecture courses, and Max von Laue was among his pupils.",
+  "max-planck.moment.1":
+    "Planck's 1879 doctoral thesis on the second law of thermodynamics drew almost no response. In his own late account, Helmholtz probably never read it, Kirchhoff disapproved of it, and Clausius did not answer his letters. He kept working on entropy through the 1880s, and his pupil Max von Laue said in his 1947 funeral address that 'he continued on his way'.",
+  "max-planck.interpretation.moment.1":
+    "Years of work on a topic his seniors ignored is consistent with the profile's high persistence score. The account rests on Planck's own memoir and an admiring pupil's eulogy, though the two agree on the details.",
+  "max-planck.moment.2":
+    "Lise Meitner worked as Planck's assistant before the First World War. In a 1958 lecture she recalled that when she asked him a physics question he often replied, 'I will answer you tomorrow.' She linked this to his wish to stand fully behind everything he said.",
+  "max-planck.interpretation.moment.2":
+    "A habit of checking an answer before giving it fits the profile's analytical rigor score. It comes from one close colleague's memory, so it is best read alongside the historians' accounts of how strictly he demanded derivations.",
+  "max-planck.turning_point.1":
+    "In late 1900, to derive his new radiation formula, Planck turned to Ludwig Boltzmann's statistical treatment of entropy, which he had long resisted. In a 1931 letter he called the step 'an act of desperation' and the energy elements 'a purely formal assumption'. By his own account and that of historians, he spent several more years trying to fit the quantum into classical physics; the historian Helge Kragh dates his acceptance that it could not be done to around 1908.",
+  "max-planck.interpretation.turning_point.1":
+    "Taking up a method he had opposed when the measurements left no other route, and then holding on to classical physics for years afterwards, sits alongside the profile's mid-range belief updating score. The profile reads this as slow but real change rather than resistance alone.",
+  /* ---------------------------------------------------------- robert-koch (Roster41) */
+  "robert-koch.achievement.1":
+    "On 24 March 1882 Koch told the Physiological Society in Berlin that a bacillus was the cause of tuberculosis. He showed it with a new staining method, grew it on coagulated blood serum and produced the disease in laboratory animals with the cultures. The 1905 Nobel Prize in Physiology or Medicine was awarded to him for his work and discoveries on tuberculosis.",
+  "robert-koch.achievement.2":
+    "While working as a district physician in Wollstein, in the Prussian province of Posen, Koch studied anthrax in a laboratory he set up in part of his consulting room. His 1876 paper traced the anthrax bacillus through its growth and spore formation and passed the disease through long series of mice. His pupil Friedrich Loeffler later described the work in detail in his 1887 history of bacteriology.",
+  "robert-koch.achievement.3":
+    "In 1883-84 Koch led the German Cholera Commission to Egypt and India and, in Calcutta, isolated the comma-shaped bacillus in pure culture and found it in every cholera case examined. Writing on the 1892 Hamburg epidemic, he pointed to the boundary with neighbouring Altona, which filtered its river water, as evidence for careful sand filtration.",
+  "robert-koch.moment.1":
+    "In his first official report from Alexandria, dated 17 September 1883, Koch wrote that the bacilli found in every fresh cholera case did not yet prove they were the cause, since the invasion might follow the disease rather than start it. He reported that feeding and inoculation experiments on mice brought from Berlin, monkeys, dogs and hens had all failed. A year later the British zoologist Ray Lankester, a hostile critic, accused him of declaring the cause without having reproduced the disease in animals.",
+  "robert-koch.interpretation.moment.1":
+    "Spelling out what his own findings did not yet show is consistent with the profile's analytical rigor score. Lankester's charge sits beside it as a reminder that the profile scores this trait only moderately, because Koch's later causal claims went further than his animal evidence.",
+  "robert-koch.moment.2":
+    "At the international hygiene congress in Geneva in September 1882, Louis Pasteur's lecture criticised Koch's work on anthrax. By Koch's own account he made only a short protest in the hall and then published a full written reply. In it he accused Pasteur of keeping his vaccine methods secret and reporting only favourable trial results, while still acknowledging Pasteur's other scientific merits.",
+  "robert-koch.interpretation.moment.2":
+    "Choosing a detailed, sharply argued printed answer over a quick exchange offers one example of the profile's high conflict tolerance. The text is Koch's own side of a long, two-sided dispute, so it shows how he fought rather than who was right.",
+  "robert-koch.turning_point.1":
+    "In August 1890 Koch announced a substance that stopped tuberculosis in guinea pigs. In November he wrote that early cases of pulmonary tuberculosis could be cured with it, while declining to say how it was made. Within months, reports of patients who got worse or died had brought it into discredit, and he disclosed its general composition only under public and official pressure. He presented an improved tuberculin in 1897, and in his 1905 Nobel lecture he still recommended tuberculin treatment in sanatoria.",
+  "robert-koch.interpretation.turning_point.1":
+    "Keeping faith in tuberculin long after the early reverses sits alongside the profile's low belief updating score. The historian Christoph Gradmann reads the affair as self-deception rooted in commitment to his earlier explanation of tuberculosis, reinforced by rivalry with Pasteur's school and institutional and financial pressures; that is one scholarly reading, not a settled verdict on his motives.",
+  /* ---------------------------------------------------------- mary-somerville (Roster41) */
+  "mary-somerville.achievement.1":
+    "Somerville's Mechanism of the Heavens (1831) set out the mathematics of Laplace's celestial mechanics in English. In 1832 George Peacock wrote that he and William Whewell had taken steps to bring it into the course of study at Cambridge. An 1832 Quarterly Review notice, attributed to John Herschel, called its preliminary dissertation the best condensed view of Newton's system yet published, while faulting a habitual looseness of wording.",
+  "mary-somerville.achievement.2":
+    "On the Connexion of the Physical Sciences (1834) grew out of that preliminary dissertation and surveyed astronomy, sound, optics, heat, electricity and magnetism as parts of one picture held together by mathematical analysis. A Quarterly Review notice attributed to Whewell discussed it in 1834, and she kept revising the book through later editions; the 1849 edition, for example, added the recent discovery of Neptune.",
+  "mary-somerville.achievement.3":
+    "In February 1835 Somerville and Caroline Herschel were elected the first women honorary members of the Royal Astronomical Society. She went on to publish Physical Geography (1848) and Molecular and Microscopic Science (1869).",
+  "mary-somerville.moment.1":
+    "Somerville sent the manuscript of the Mechanism to Henry Brougham asking that it be thoroughly examined and criticised. John Herschel read it, and in a letter of February 1830 he told her that in her place he would give the opening exposition of principles at least double the space. She preserved his letters, which were printed in her posthumous Recollections (1873). For her next book, archival work by the historian Brigitte Stenhouse shows proof sheets going to Whewell and to J. D. Forbes before publication.",
+  "mary-somerville.interpretation.moment.1":
+    "Sending drafts to expert readers before publishing them is one practice behind the profile's moderate collaboration score. These were reviews of her own work, not joint authorship.",
+  "mary-somerville.moment.2":
+    "In March 1835 the historian Henry Hallam wrote to point out that the Connexion gave the ancient Egyptian civil year as 365 days 6 hours, when it had only 365 days. The 1835 second edition still carried the old figures, but the 1849 and 1858 editions use Hallam's 365-day year and 1,461-year cycle. In her memoir she records the error and her gratitude for the correction.",
+  "mary-somerville.interpretation.moment.2":
+    "Taking a correction from outside her field into later editions offers one modest example of the belief updating this profile scores. The fix took more than one edition to appear.",
+  "mary-somerville.turning_point.1":
+    "In March 1827 Henry Brougham wrote to her husband asking whether she would write an account of Laplace's Mécanique céleste for the Society for the Diffusion of Useful Knowledge. In her own account, she agreed only if the work stayed secret and the manuscript would be burned if she failed. The book outgrew the Society's series and John Murray published it in 1831; it was her first book, and its reception at Cambridge and in the reviews established her as a scientific author.",
+  "mary-somerville.interpretation.turning_point.1":
+    "Its preliminary dissertation, which drew together the consequences of gravitation from planetary orbits to tides, sits alongside the profile's score for systems abstraction. The Royal Astronomical Society's 1873 notice, critical of the book in other respects, praised that dissertation highly.",
+  /* ---------------------------------------------------------- wilhelm-rontgen (Roster41) */
+  "wilhelm-rontgen.achievement.1":
+    "On 8 November 1895, working with a covered discharge tube at the Würzburg Physical Institute, Röntgen noticed a fluorescent screen glowing some distance away. After weeks of further experiments he submitted 'On a New Kind of Rays' to the Würzburg Physical-Medical Society at the end of December 1895, calling the new radiation 'X-rays'.",
+  "wilhelm-rontgen.achievement.2":
+    "In three short communications between 1895 and 1897 he described how the rays passed through matter roughly according to its density, darkened photographic plates, travelled in straight lines, were not deflected by a magnet and could discharge electrified bodies. He also reported the tests that failed, such as his search for refraction and interference.",
+  "wilhelm-rontgen.achievement.3":
+    "In 1901 he received the first Nobel Prize in Physics for the discovery of the rays. He gave the prize money to the University of Würzburg for the support of science.",
+  "wilhelm-rontgen.moment.1":
+    "Röntgen told almost no one about his observation for about seven weeks. According to his biographer Otto Glasser, when his friend Theodor Boveri pressed him, he said he had found something interesting but did not know whether his observations were correct. In his first paper he wrote that, wherever possible, he had checked every important observation made by eye against a photographic plate.",
+  "wilhelm-rontgen.interpretation.moment.1":
+    "Holding back a striking result until he had checked it from several directions is consistent with the profile's high analytical rigor score. Most of the personal detail comes from an admiring biographer, but Röntgen's own paper describes the same habit of checking.",
+  "wilhelm-rontgen.moment.2":
+    "In 1896 Max Levy, an engineer at the electrical firm AEG, approached Röntgen about the company's interest in developing the rays. As quoted by Glasser, Röntgen replied that university discoveries belonged to humanity and should not be hampered by patents, licences or contracts. The Würzburg Röntgen memorial also records that he declined to patent the process.",
+  "wilhelm-rontgen.interpretation.moment.2":
+    "Turning down control over a valuable discovery offers one example of the moderate impact motivation in this profile. His later gift of the Nobel prize money to Würzburg sits alongside it, although he left medical applications of the rays to others.",
+  "wilhelm-rontgen.turning_point.1":
+    "By 1894-95 Röntgen, then close to fifty, was an established physicist known for precise measurements on gases, crystals and liquids. He obtained a Lenard tube, repeated Lenard's cathode-ray experiments and set aside his studies of liquids under pressure to work on cathode rays. The historian Alexi Assmus notes that this was outside his usual research.",
+  "wilhelm-rontgen.interpretation.turning_point.1":
+    "Moving into an unfamiliar line of work in mid-career is consistent with the profile's curiosity score. The discovery itself also involved chance, and this choice is one reasonable reading of how he came to be in a position to notice it.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -10085,6 +10351,272 @@ export const EDITORIAL_KO: Record<string, string> = {
     "암스테르담에서 그는 성충 표본만 있을 뿐 그 곤충들이 어떻게 자라는지는 알 수 없는 열대 곤충 수집품들을 보았다. 1699년 6월, 쉰두 살의 그는 작은딸과 함께 네덜란드 식민지 수리남으로 떠나 1701년 6월까지 머물렀고, 더위 때문에 계획보다 일찍 돌아왔다. 그의 책에는 그를 위해 식물을 캐고, 숲에 길을 내고, 식물의 쓰임새를 알려 준 노예와 원주민들이 언급되어 있다.",
   "maria-sibylla-merian.interpretation.turning_point.1":
     "누가 시킨 일도 아닌데 이 곤충들의 생활사를 직접 관찰하러 나선 일은, 그의 프로필에서 먼저 나서서 행동하는 성향을 높게 본 해석과 나란히 놓인다. 동시에 그 작업은 수리남 사람들의 노동과 지식에 기대고 있었다.",
+  /* ---------------------------------------------------------- jackie-robinson (Roster41) */
+  "jackie-robinson.achievement.1":
+    "로빈슨은 1947년 4월 15일 브루클린 다저스 소속으로 첫 경기에 출전해, 흑인 선수를 근대 메이저리그에서 배제해 온 인종 장벽을 깼다. 그해 신인왕에 선정되었고, 1949년에는 내셔널리그 타격왕(타율 .342)과 최우수선수(MVP)상을 받았다.",
+  "jackie-robinson.achievement.2":
+    "그가 브루클린에서 뛴 열 시즌(1947~56년) 동안 다저스는 내셔널리그 우승 여섯 번과 1955년 월드시리즈 우승을 차지했으며, 로빈슨은 팀의 필요에 따라 1루수, 2루수, 3루수, 좌익수로 나섰다. 통산 타율 .311로 선수 생활을 마쳤고, 1962년 야구 명예의 전당에 헌액되었다.",
+  "jackie-robinson.achievement.3":
+    "1957년 1월 야구계를 은퇴한 뒤 커피·간이식당 회사 초크 풀 오 너츠의 부사장이 되었다. 이후 기존 은행들이 대체로 외면하던 고객에게 대출하기 위해 할렘에 세워진 프리덤 내셔널 뱅크의 이사회 의장을 맡았다.",
+  "jackie-robinson.moment.1":
+    "1955년 월드시리즈 1차전 양키 스타디움에서, 브루클린이 두 점 뒤진 8회에 로빈슨은 투수 화이티 포드와 포수 요기 베라를 상대로 홈스틸을 했다. 당시 보도를 바탕으로 정리한 SABR 연구자 빌 놀린은 로빈슨과 월터 앨스턴 감독이 모두 그 도루가 로빈슨 자신의 판단이었다고 밝혔고, 베라는 평생 그 판정에 이의를 제기했다고 적는다. 놀린에 따르면 로빈슨은 메이저리그 정규 시즌에서 홈스틸을 19번 성공했고, 12번은 아웃되었다.",
+  "jackie-robinson.interpretation.moment.1":
+    "팀이 뒤진 상황에서의 홈스틸은 이 프로필의 높은 위험 감수성 점수와 나란히 놓인다. 열두 번의 실패도 같은 기록의 일부이기에 해당 항목은 양면적으로 표시되어 있다.",
+  "jackie-robinson.moment.2":
+    "1945년 8월의 만남에서 로빈슨은 다저스 사장 브랜치 리키와, 조직 야구에서의 첫 몇 해 동안 도발에 대응하지 않기로 약속했다. 1947년 9월 타임지 표지 기사는 그해 8월 카디널스의 이노스 슬로터에게 스파이크에 찍힌 뒤 그가 '이를 악물고 아무 말도 하지 않았다'고 보도했고, 필리스 벤치의 폭언에 대해 '화가 났다. 하지만 그들에게 결코 내색하지 않았다'는 그의 말을 인용했다. 폭언에 대한 여론의 비판이 거세지자 필리스 감독 벤 채프먼이 함께 사진을 찍자고 요청했고, 로빈슨은 이에 응했다.",
+  "jackie-robinson.interpretation.moment.2":
+    "두 시즌 동안 약속을 지킨 것은 이 프로필의 중간 수준 규율성 점수와 부합한다. 이 자제는 스스로 세운 계획이라기보다 그가 받아들인 조건이었으므로 점수는 중간에 머문다.",
+  "jackie-robinson.turning_point.1":
+    "1956년 12월 로빈슨은 초크 풀 오 너츠 입사에 동의했고 은퇴 이야기를 이미 룩(Look) 잡지에 판 상태였는데, 그때 다저스가 그를 뉴욕 자이언츠로 트레이드했다. 잡지 계약 때문에 그는 1957년 1월 기사가 실릴 때까지 결정을 발표할 수 없었다. 다저스 단장 버지 바바시가 그 기사를 더 좋은 계약을 위한 수라고 공개적으로 암시하자 로빈슨은 자이언츠의 제안을 거절했고, 훗날 본인 말로는 그 발언 이후 다시 뛸 방법은 없었다.",
+  "jackie-robinson.interpretation.turning_point.1":
+    "옛 구단과의 공개적인 갈등 속에서도 결정을 굽히지 않은 것은 이 프로필의 갈등 감내력 점수를 뒷받침하는 한 사례이다. 역사가 앤디 맥큐의 서술은 구단 측에도 나름의 불만이 있었음을 보여 주므로, 이는 양측이 얽힌 분쟁에 대한 하나의 해석이다.",
+  /* ---------------------------------------------------------- babe-didrikson-zaharias (Roster41) */
+  "babe-didrikson-zaharias.achievement.1":
+    "1932년 에번스턴에서 열린 전미 AAU 육상 선수권 대회에서 디드릭슨은 댈러스의 엠플로이어스 캐주얼티 팀 소속으로 출전한 유일한 선수였다. 그녀는 8개 종목에 출전해 5개 종목에서 우승하고 높이뛰기 공동 1위, 원반던지기 4위를 기록하며 30점을 얻었는데, 2위 팀의 점수는 22점이었다.",
+  "babe-didrikson-zaharias.achievement.2":
+    "1932년 로스앤젤레스 올림픽에서 그녀는 창던지기에서 첫 시기에 세계 기록을 세우며 우승했고, 80미터 허들에서도 세계 기록인 11.7초로 우승했다. 높이뛰기에서는 진 셜리와 같은 높이를 넘었지만, 결정 시기에서 머리부터 넘는 기술이 반칙으로 판정되어 은메달을 받았다.",
+  "babe-didrikson-zaharias.achievement.3":
+    "골프로 전향한 그녀는 1947년 영국 여자 아마추어 선수권에서 미국인으로는 처음 우승한 뒤 프로로 전향했다. 1948~49년 미국여자프로골프협회(LPGA) 창립에 참여했고, 1949년부터 1951년까지 상금 1위를 지켰으며, 1952년부터 1955년까지 협회장을 지냈고 US 여자 오픈에서 세 차례 우승했다.",
+  "babe-didrikson-zaharias.moment.1":
+    "골프 역사가 론다 글렌이 인터뷰한 동료 프로 선수들은 1950년대 투어에서의 그녀를 이렇게 회고했다. 바버라 로맥은 1951년 첫 몇 홀에서 자신이 더 멀리 치자 디드릭슨이 '나보다 멀리 치지 않는 게 좋겠다'고 말했다고 기억했고, 벳시 롤스는 그녀만큼 지는 것을 받아들이지 못하는 사람은 본 적이 없다고 말했다. 친구들은 1975년 스포츠 일러스트레이티드에 그녀가 연습 라운드에서 클럽을 빌려주었다가 상대가 그 클럽으로 잘 치기 시작하면 도로 가져갔다고 전했다.",
+  "babe-didrikson-zaharias.interpretation.moment.1":
+    "경쟁자와 친구 양쪽에서 나온 이 회고들은 다른 선수를 이기는 것 자체에 대한 강한 의욕과 부합하며, 그 의욕은 일부 동료들의 반감을 사기도 했다.",
+  "babe-didrikson-zaharias.moment.2":
+    "언니는 그녀가 댈러스에서 찢어진 손에 테이프를 감은 채 날이 어두워진 뒤에도 골프공을 치며 멈추려 하지 않았다고 회고했다. 1935년 그녀와 함께 투어를 돈 진 사라젠은 스포츠 일러스트레이티드에 그녀가 몇 걸음 떨어진 곳에서 자신을 지켜보며 배운 뒤 몇 시간씩 연습했고, 그녀보다 연습을 더 많이 한 골퍼는 벤 호건 한 명밖에 모른다고 말했다. 1956년 뉴욕 타임스 부고 기사도 그녀가 하루에 최대 1,000개의 공을 쳤다고 전했다.",
+  "babe-didrikson-zaharias.interpretation.moment.2":
+    "이 연습 기록은 숙련 지향성의 한 예를 보여 준다. 그녀는 자신에게 새로운 종목의 기술을 수년 동안, 시범 경기 일정에 필요한 수준을 훨씬 넘어서까지 연마했다.",
+  "babe-didrikson-zaharias.turning_point.1":
+    "1935년 텍사스 여자 선수권에서 우승한 직후, 미국골프협회(USGA)는 그녀가 아마추어로 출전할 자격이 없다고 판정했고, 이로써 그녀는 거의 모든 여자 대회에서 배제되었다. 그녀는 1935년 진 사라젠과의 투어를 포함한 유료 시범 경기를 치르다가 1940년 프로 골프를 그만두고 규정된 3년을 기다렸다. 그녀의 아마추어 자격은 1943년 1월에 회복되었다.",
+  "babe-didrikson-zaharias.interpretation.turning_point.1":
+    "출전 금지부터 이후 아마추어 우승까지의 8년은 그녀의 기록에 나타난 다른 끈기의 증거와 나란히 놓인다. 그녀는 오랜 제도적 좌절 속에서도 종목을 떠나지 않고 대회 골프를 계속 추구했다.",
+  /* ---------------------------------------------------------- orville-wright (Roster41) */
+  "orville-wright.achievement.1":
+    "1903년 12월 17일 노스캐롤라이나주 키티호크 부근에서, 오빌 라이트는 형 윌버와 함께 설계·제작한 동력 비행기 라이트 플라이어로 그날 이루어진 네 차례 비행 가운데 첫 비행을 조종했다. 이 비행은 약 12초 동안 120피트를 날았으며, 네 번 가운데 가장 긴 비행은 윌버가 조종한 852피트, 59초였다.",
+  "orville-wright.achievement.2":
+    "오빌은 1908년 9월 버지니아주 포트 마이어에서 시작되어 1909년 7월에 마무리된 미 육군 인수 시험 비행을 맡았다. 1909년 7월 27일에는 동승자를 태우고 한 시간 넘게 비행했고, 7월 30일에는 알렉산드리아까지 왕복하는 크로스컨트리 속도 시험을 치렀으며, 육군은 8월 2일 이 기체를 정식으로 인수했다.",
+  "orville-wright.achievement.3":
+    "오빌은 라이트 비행기용 자동 안정 장치를 개발해 1913년 12월 31일 미국 에어로 클럽 위원회 앞에서 17차례 비행으로 시연했으며, 마지막 비행에서는 조종 장치에서 손을 뗀 채 일곱 번 선회했다. 1920년에는 제임스 제이콥스와 함께 분할 플랩을 개발해 1924년 특허를 받았다.",
+  "orville-wright.moment.1":
+    "스미스소니언과의 분쟁에서 오빌은 새뮤얼 랭글리의 1903년 에어로드롬과 1914년에 개조되어 비행한 기체의 차이 35가지를 캠버와 지주 위치부터 기화기와 플로트까지 나란히 대조한 목록으로 정리했고, 각 항목을 랭글리 자신이 펴낸 보고서에 근거해 제시했다. 1942년 10월 스미스소니언이 이 목록을 게재하면서, 그 사무국장은 연구소가 이를 '사실 면에서 정확하다'고 인정한다고 적었다.",
+  "orville-wright.interpretation.moment.1":
+    "공개 논쟁에 항목별로 검증할 수 있는 목록으로 대응한 것은 이 프로필의 높은 세부 지향성 점수와 나란히 놓인다. 상대편이 그 목록을 인정했다는 점이 이 일화에 무게를 더한다.",
+  "orville-wright.moment.2":
+    "1903년 가을 옥타브 샤누트는 형제에게 체인 구동 장치가 보통 동력의 약 20퍼센트를 잃는다고 말했는데, 이는 형제가 계산에 넣은 5퍼센트보다 훨씬 큰 수치였다. 오빌이 훗날 직접 쓴 글에 따르면, 형제는 구동 체인을 스프로킷에 걸고 양쪽에 모래주머니를 매단 뒤 체인을 움직이는 데 필요한 추가 무게를 재어, 손실이 약 5퍼센트임을 확인했다.",
+  "orville-wright.interpretation.moment.2":
+    "전문가의 경고를 그대로 받아들이거나 무시하지 않고 간단한 측정으로 확인한 것은 이 프로필의 분석적 엄밀성 점수와 부합한다. 다만 이 서술은 오빌 본인의 기록이고 형제의 공동 작업이므로, 해당 항목의 신뢰도는 중간 수준이다.",
+  "orville-wright.turning_point.1":
+    "1914년 스미스소니언은 라이트 형제와 특허 소송 중이던 글렌 커티스에게 랭글리의 1903년 에어로드롬을 개조해 비행하게 한 뒤, 그것을 사람을 태우고 날 수 있었던 최초의 비행기라고 발표했다. 이 주장을 바로잡으려는 노력이 무위로 돌아가자, 오빌은 1928년 1월 1903년형 라이트 플라이어를 런던 과학박물관으로 보냈다. 기체는 그가 세상을 떠난 뒤까지 해외에 머물렀고, 1942년 스미스소니언이 기록을 바로잡는 성명을 발표한 뒤 1948년 워싱턴에서 전시되었다.",
+  "orville-wright.interpretation.turning_point.1":
+    "사실관계의 정정을 요구하려고 미국에서 가장 유명한 비행기를 해외로 보낸 것은 이 프로필의 갈등 감내력을 보여 주는 한 사례이며, 양면적인 항목으로 표시되어 있다. 역사가 톰 크라우치는 잘못의 대부분을 스미스소니언 쪽에 두면서도, 찰스 린드버그 역시 오빌을 '상대하기 쉬운 사람이 아니다'라고 보았다는 점을 함께 전한다.",
+  /* ---------------------------------------------------------- josiah-wedgwood (Roster41) */
+  "josiah-wedgwood.achievement.1":
+    "1760년대에 웨지우드는 앞선 지역 도공들의 성과를 바탕으로 스태퍼드셔 크림색 도기의 태토와 유약을 개량했다. 샬럿 왕비에게 납품한 뒤 이 도기는 '퀸즈웨어'라는 이름으로 판매되었고 그는 왕비의 도공이라는 칭호를 얻었으며, 이 도기는 그의 사업의 주력 상품이 되었다.",
+  "josiah-wedgwood.achievement.2":
+    "1773년부터 바륨 광물로 시험을 거듭한 끝에 웨지우드는 1775년 무렵 금속 산화물로 속까지 색을 입힐 수 있는 유약 없는 고운 석기, 재스퍼를 개발했다. 재스퍼는 파란색, 초록색, 라일락색, 검은색 바탕에 흰 부조를 얹은 카메오, 초상 메달, 장식판, 꽃병에 쓰였다. 처치는 황산바륨이 태토의 절반 이상을 차지하는 대략적인 배합을 제시한다.",
+  "josiah-wedgwood.achievement.3":
+    "1773~74년 웨지우드와 동업자 토머스 벤틀리는 러시아의 예카테리나 2세를 위해 크림색 도기 정찬 식기 세트를 만들었다. 윌리엄슨에 따르면 이 세트는 800점이 넘었고, 각 그릇에는 초록 개구리 문장과 함께 영국의 건물이나 풍경이 그려졌다. 이 식기는 배에 실리기 전인 1774년 런던 그리크 스트리트에 새로 연 회사 전시실에 진열되었다.",
+  "josiah-wedgwood.moment.1":
+    "1774년 7월 웨지우드는 벤틀리에게 새 흰 태토가 때로는 희게, 때로는 계피색으로, 때로는 유리처럼 녹아서 나오는 등 매번 다르게 나온다고 편지를 썼다. 광물 덩어리를 하나씩 따로 시험해 본 그는 시료마다 성질이 다르다는 것을 알아냈고, 모든 조각이 똑같이 반응하는 재료로 방향을 바꾸었다. 이 내용은 메티어드가 펴낸 그의 편지에 실린 것이며, 화학자 A. H. 처치도 그가 이 광물들로 어려움을 겪었다고 따로 서술한다.",
+  "josiah-wedgwood.interpretation.moment.1":
+    "변수를 하나씩 떼어 시험하고 결국 성질이 일정한 재료를 고른 방식은 이 프로필의 높은 분석적 엄밀성 점수와 부합한다.",
+  "josiah-wedgwood.moment.2":
+    "웨지우드 공장에서 화학자로 일했던 윌리엄 버턴에 따르면, 웨지우드는 물레 성형공에게 점토 덩어리를 하나하나 표준 무게표에 맞춰 달게 했고, 낭비를 점검하려고 자투리를 매일 달게 했으며, 완성된 접시를 묶음으로 달아 보게 했다. 그보다 앞서 1759년부터 그의 실험 노트에는 시험마다 재료를 번호로 기록하고 가마의 어느 부분에서 구웠는지까지 적었다.",
+  "josiah-wedgwood.interpretation.moment.2":
+    "이러한 작업 관행은 이 프로필의 높은 세부 지향성 점수와 나란히 놓인다. 다만 좀 더 비판적인 필자인 처치는 바로 이런 정밀함의 추구가 장식용 도자기를 덜 생동감 있게 만들었다고 본다.",
+  "josiah-wedgwood.turning_point.1":
+    "1759년 펜턴의 도공 토머스 휠던과의 동업이 끝나자 웨지우드는 버슬럼의 작은 아이비 하우스 공방을 연 10파운드에 빌려 독립적으로 사업을 시작했다. 처치에 따르면 그는 동업을 시작할 때 자신이 이룬 개량을 비밀로 유지할 권리를 확보해 두었고, 처음에는 원형을 만들고 점토를 배합하는 일을 직접 했다.",
+  "josiah-wedgwood.interpretation.turning_point.1":
+    "자신의 발견을 자기 것으로 지킬 수 있도록 미리 합의해 둔 일은 이 프로필의 계획 지향성 점수에 반영된 앞을 내다보는 준비의 한 예로 볼 수 있다. 다만 그가 모아 둔 자금과 동업 기간의 만료도 독립 시점에 영향을 주었다.",
+  /* ---------------------------------------------------------- mary-kingsley (Roster41) */
+  "mary-kingsley.achievement.1":
+    "두 번째 서아프리카 여행(1894년 12월~1895년 11월)에서 킹즐리는 프랑스령 콩고의 오고웨강을 카누로 거슬러 올라 은졸레 위쪽의 급류 지대에 들어갔고, 이어 람바레네에서 렘브웨강까지 지도에 거의 없던 팡족 지역을 육로로 가로질렀다. 귀국하기 전에는 카메룬산(뭉고마로베)에도 올랐다.",
+  "mary-kingsley.achievement.2":
+    "그녀는 오고웨강에서 대영박물관을 위해 어류, 파충류, 곤충을 채집했다. 1896년 박물관의 동물학자 앨버트 귄터는 그녀의 수집품에서 어류 약 65종과 파충류 18종을 보고하고 새로운 어류 3종에 그녀의 이름을 딴 kingsleyae라는 학명을 붙였으며, 급류에서 카누가 자주 뒤집혔는데도 표본이 매우 좋은 상태로 도착했다고 적었다. 한 현대 어류학자는 이 수집품을 가봉 어류 연구에 대한 중요한 기여로 평가했다.",
+  "mary-kingsley.achievement.3":
+    "그녀의 『서아프리카 여행기』(1897)는 두 차례 여행의 기록에 서아프리카 종교('페티시')에 관한 장과 교역에 관한 부록을 더한 책이었고, 이어 『서아프리카 연구』(1899)가 나왔다. 프린스턴의 지리학자 윌리엄 리비는 『사이언스』 서평에서 책의 산만한 구성과 가벼운 어조를 비판하면서도 페티시에 관한 장은 '가치 있는 기여'라고 평가했다.",
+  "mary-kingsley.moment.1":
+    "킹즐리 자신의 기록에 따르면 1895년 9월 26일 그녀는 날씨가 나빠지는 가운데 마지막 동행 두 사람이 멈춘 뒤에도 카메룬산 정상을 향해 계속 올라갔고, 안개와 몰아치는 비 속에서 혼자 정상의 돌무더기에 닿았다. 그녀는 일행을 위험에 빠뜨려도 되는지 망설였으며, 안개 때문에 보려고 했던 전망을 놓쳤다고 적었다.",
+  "mary-kingsley.interpretation.moment.1":
+    "혼자서라도 계속 가기로 한 선택은 이 프로필의 높은 위험 감수 성향 점수와 맞아떨어진다. 일행을 위험에 노출하는 데 대해 그녀 스스로 품었던 의문은 이 점수가 양면적인 것으로 표시된 이유 가운데 하나다.",
+  "mary-kingsley.moment.2":
+    "1896년 『서아프리카 여행기』를 준비하던 중 한 과학자 교정자가 그녀의 표현 일부를 고쳤는데, 그중에는 그녀가 틀렸다고 본 포르카도스 사주의 수심도 있었다. 전기 작가 스티븐 귄이 인용한 출판인 조지 맥밀런 앞 편지에서 그녀는 '사실을 정직하게 관찰하는 사람'으로서 잃을 평판이 있다며 고친 내용을 그대로 내는 것을 거부했다.",
+  "mary-kingsley.interpretation.moment.2":
+    "이 일화는 표본을 신중하게 골랐다는 귄터의 평가와 함께 그녀의 세부 지향성을 보여 주는 근거가 된다. 다만 편지 자체는 그녀 자신의 진술이다.",
+  "mary-kingsley.turning_point.1":
+    "1892년 부모가 세상을 떠난 뒤 킹즐리는 아버지가 해 오던 초기 종교와 법에 관한 연구를 이어 가기 위해 서아프리카를 택했다. 두 번째 여행을 앞두고 대영박물관의 앨버트 귄터가 그녀가 가는 강의 어류를 채집해 보라고 권했고, 그녀는 1894년 12월 박물관에서 받은 채집 장비를 갖추고 길을 떠났다.",
+  "mary-kingsley.interpretation.turning_point.1":
+    "'물고기와 페티시'를 함께 다룬 이 여행은 이 프로필이 점수로 매긴 호기심의 한 예다. 한 번의 여행을 자연사 연구와 종교 연구에 모두 바친 것이다.",
+  /* ---------------------------------------------------------- alberto-santos-dumont (Roster41) */
+  "alberto-santos-dumont.achievement.1":
+    "1901년 10월 19일 산토스뒤몽은 비행선 6호를 타고 생클루의 에어로클럽 비행장을 출발해 에펠탑을 돌아 돌아왔다. 이는 상금 10만 프랑이 걸린 도이치 상의 과제 코스였다. 기록을 심판석 위를 처음 지나간 시점으로 볼지, 착륙한 시점으로 볼지를 두고 논란이 일었고, 클럽 위원회는 11월 4일 15 대 9로 그에게 상을 주기로 결정했다.",
+  "alberto-santos-dumont.achievement.2":
+    "1906년 10월 23일 파리 바가텔에서, 프랑스 에어로클럽 관계자들이 지켜보는 가운데 그의 복엽기 14-bis가 약 60미터를 날아 25미터 이상 비행에 걸린 아치디콘 컵을 받았다. 같은 해 11월 12일에는 약 21초 동안 220미터를 날았고, 이 거리는 클럽 위원회가 기록했다. 라이트 형제가 1903년부터 미국에서 비공개로 비행했기 때문에, 이것이 최초의 동력 비행인지는 논쟁거리로 남아 있다.",
+  "alberto-santos-dumont.achievement.3":
+    "1907년 11월 그는 소형 단엽기 19호를 비행했다. 사이언티픽 아메리칸의 파리 통신원은 이 기체가 2주 만에 제작되었다고 전했다. 이 기체는 1909년의 드무아젤로 발전했고, 1910년 파퓰러 메카닉스는 그와 그의 작업장에서 얻은 드무아젤 제작 도면을 게재했다.",
+  "alberto-santos-dumont.moment.1":
+    "1901년 8월 8일 도이치 상에 두 번째로 도전하던 중, 그의 비행선은 가스가 빠지면서 트로카데로 호텔 지붕 위로 추락했고, 파리 소방대원들이 밧줄로 그를 끌어올렸다. 본인의 기록에 따르면 그는 그날 저녁 새 비행선 6호의 사양을 내놓았고, 6호는 22일 뒤 완성되어 가스를 채웠다. 역사가 엔히키 린스 지 바후스는 당시 언론을 근거로, 그가 군중 앞에서 남은 엔진을 시험해 보였다고 덧붙인다.",
+  "alberto-santos-dumont.interpretation.moment.1":
+    "목숨을 잃을 뻔한 추락 당일에 대체 기체를 주문한 일은 이 프로필의 높은 끈기 점수와 나란히 놓인다. 이는 1898년부터 1907년 사이 여러 차례의 추락 가운데 하나였고, 그때마다 새 기체나 다시 만든 기체가 뒤따랐다.",
+  "alberto-santos-dumont.moment.2":
+    "1909년 산토스뒤몽은 신문 르 마탱에 누구든 자신의 비행기 드무아젤을 만들 수 있으며 도면을 요청해도 된다고 밝혔다. 1910년 6월 파퓰러 메카닉스는 그 도면을 게재하면서, 이 기체가 '특허권에 묶여 있지 않으며' 그가 세상에 내놓은 것이라고 적었다. 그보다 앞선 1901년, 도이치 상 비행 전에 그는 상금을 파리의 가난한 이들과 자신의 작업자들에게 나누겠다고 약속했다.",
+  "alberto-santos-dumont.interpretation.moment.2":
+    "다른 사람이라면 지켰을 설계와 상금을 내놓은 것은 이 프로필의 영향 동기 점수와 부합한다. 다만 그는 부유했기에 이런 행동의 부담이 많은 발명가들보다 작았고, 이 점이 해당 항목을 중간 수준으로 둔 이유 가운데 하나다.",
+  "alberto-santos-dumont.turning_point.1":
+    "1898년 산토스뒤몽은 모터 삼륜차에서 가져온 석유 엔진을 인화성이 매우 강한 수소를 채운 기구 아래에 달았다. 동료 기구 비행사들은 대신 전기 모터를 쓰라고 권했고, 그는 훗날 한 기자에게 '처음부터 모두가 그 생각에 반대했다'고 말했다. 그의 첫 비행선은 1898년 9월 20일에 비행했으며, 가벼운 석유 엔진은 이후 그의 비행선과 비행기의 중심 요소로 남았다.",
+  "alberto-santos-dumont.interpretation.turning_point.1":
+    "숙련된 기구 비행사들이 말리던 엔진을 택한 것은 이 프로필의 독립적 사고를 보여 주는 한 사례다. 다만 그런 반대에 관한 내용은 대부분 본인의 기록과 승인된 인터뷰에서 나온 것이어서, 해당 항목의 신뢰도는 중간 수준이다.",
+  /* ---------------------------------------------------------- paul-cezanne (Roster41) */
+  "paul-cezanne.achievement.1":
+    "세잔은 1874년 파리에서 열린 제1회 인상파 그룹전에 작품을 출품했으며, 이때 《목맨 사람의 집》을 수집가 도리아 백작이 구입했다. 1877년 그룹전에는 수집가 빅토르 쇼케의 두상 초상을 포함해 유화와 수채화 16점을 내놓았다.",
+  "paul-cezanne.achievement.2":
+    "1890년대에 그는 아버지 영지의 농장 일꾼들을 모델로 카드놀이 하는 노동자들을 그린 그림 다섯 점을 완성했다. 생애 마지막 10년 동안에는 그의 작품 가운데 가장 큰 여성 목욕하는 사람들 대작 세 점을 그렸는데, 런던 내셔널 갤러리는 이를 1870년대부터 이어 온 주제의 정점이라고 평가한다.",
+  "paul-cezanne.achievement.3":
+    "1904년 파리 살롱 도톤은 세잔에게 전시실 하나를 통째로 내주었다. 그의 화상 앙브루아즈 볼라르에 따르면 언론의 평은 여전히 적대적이었지만, 이때부터 수집가들 사이에서 그의 그림을 찾는 사람이 점점 늘었다.",
+  "paul-cezanne.moment.1":
+    "1899년 화상 앙브루아즈 볼라르는 매일 아침 8시부터 11시 30분까지 세잔의 초상화 모델로 앉았다. 볼라르 자신의 기록에 따르면 세잔은 115회의 작업 끝에 손 부분에 칠하지 않은 작은 빈자리 두 곳을 남긴 채 초상화를 미완성으로 두었다. 1904년에는 화가 에밀 베르나르가 세잔이 해골 정물화 한 점을 한 달 동안 매일 아침 고쳐 그리는 모습을 지켜보았다.",
+  "paul-cezanne.interpretation.moment.1":
+    "이처럼 오랜 수정 작업을 전하는 두 사람의 서로 다른 목격담은 이 프로필의 높은 완벽주의 점수와 부합한다. 같은 자료들은 그 대가도 보여 준다. 많은 캔버스가 미완성으로 남거나 폐기되었다.",
+  "paul-cezanne.moment.2":
+    "1866년 살롱 심사위원단이 출품작 두 점을 모두 낙선시키자, 세잔은 미술감독관 니외베르케르크 백작에게 두 차례 편지를 보냈다. 루브르 문서고에 보존된 4월 19일자 편지에서 그는 자신이 선임하지도 않은 사람들의 판단을 받아들일 수 없다며 낙선전을 다시 열어 달라고 요구했다. 편지 여백에 적힌 공식 회신은 이를 거절했다.",
+  "paul-cezanne.interpretation.moment.2":
+    "이 편지는 이 프로필에서 점수화한 독립적 사고를 보여 주는 문서화된 사례 가운데 하나다. 다만 그는 이후에도 같은 살롱에 계속 출품했는데, 이는 그가 여전히 공식적인 인정을 원했음을 보여 준다.",
+  "paul-cezanne.turning_point.1":
+    "1872년 무렵부터 1874년까지 세잔은 오베르쉬르우아즈에 살며 카미유 피사로 가까이에서 작업했다. 인상파 화가들과 교류한 비평가 테오도르 뒤레는 그때까지 세잔이 야외에서 풍경화를 그리는 일이 드물었으나 오베르에서 더 밝고 환한 색채로 야외 작업을 시작했다고 쓴다. 볼라르는 피사로가 옛 거장들에게 지배당하지 말라고 그에게 조언했다고 기록한다.",
+  "paul-cezanne.interpretation.turning_point.1":
+    "이러한 방법의 변화는 이 프로필의 실험성 점수와 부합한다. 다만 그 시기는 세잔 자신의 기질뿐 아니라 피사로와 함께 작업한 경험의 영향도 반영한다.",
+  /* ---------------------------------------------------------- emily-dickinson (Roster41) */
+  "emily-dickinson.achievement.1":
+    "1858년 무렵부터 1864년 사이에 디킨슨은 800편이 넘는 시를 직접 만든 작은 책자 마흔 권에 옮겨 적었다. 종이를 접어 겹친 뒤 끈으로 묶은 이 책자들은 오늘날 '파시클'이라 불리며, 1886년 그녀가 세상을 떠난 뒤 여동생이 발견했다. 그녀의 손으로 쓴 시 원고는 모두 약 2,500점이 남아 있다.",
+  "emily-dickinson.achievement.2":
+    "생전에 인쇄된 것으로 알려진 작품은 시 열 편과 편지 한 통뿐이며, 시는 모두 이름 없이 실렸으며, 학자들은 이 가운데 대부분 또는 전부가 그녀의 허락 없이 인쇄되었다고 본다. 첫 시집 『시집』(1890)은 토머스 웬트워스 히긴슨과 메이블 루미스 토드가 엮었는데, 두 사람은 구두점을 일반적인 방식으로 고치고 일부 낱말을 바꾸었다. 원고에 바탕을 둔 판본은 이후 1955년 토머스 H. 존슨, 1998년 R. W. 프랭클린에 의해 나왔다.",
+  "emily-dickinson.achievement.3":
+    "그녀는 약 500편의 시를 마흔 명이 넘는 사람들과 주로 편지에 담거나 편지와 함께 보내 나누었다. 편지 원고는 약 1,000점이 남아 있다. 1862년부터 세상을 떠날 때까지 히긴슨에게 약 100편의 시를 보냈고, 히긴슨은 1891년 『애틀랜틱 먼슬리』에 두 사람의 서신 교환에 관한 글을 실었다.",
+  "emily-dickinson.moment.1":
+    "1861년 여름 디킨슨은 올케 수전 디킨슨에게 시 「설화석고 방 안에 안전히」를 보낸 뒤, 둘째 연을 완전히 새로 쓴 판본을 다시 보냈다. 수전이 새 연이 '마음에 들지 않는다'고 답장하자 디킨슨은 '이게 더 서늘한가요?'라고 물으며 세 번째 판본을 보냈다. 이 쪽지와 원고는 하버드 대학에 남아 있으며 1958년 학술판 서간집에 실려 있다.",
+  "emily-dickinson.interpretation.moment.1":
+    "독자의 비판에 첫 판본을 변호하기보다 새로운 대안으로 답한 것은 이 프로필의 실험 성향 점수와 부합한다. 그녀의 후기 원고에는 고를 수 있는 낱말 여러 개가 나란히 적혀 있는 경우가 많다.",
+  "emily-dickinson.moment.2":
+    "1862년 6월 히긴슨이 출판을 미루라고 권하자, 그녀는 출판은 '내 생각과는 거리가 멀다'고 답했다. 1876년 작가 헬렌 헌트 잭슨이 익명 시 총서에 작품을 내라고 거듭 청하자, 디킨슨은 잭슨이 거절을 받아들이도록 반대 의견을 적은 쪽지를 써 달라고 히긴슨에게 부탁했다. 1884년에도 잭슨은 시를 '세상에 내놓으라'고 그녀를 설득하고 있었다.",
+  "emily-dickinson.interpretation.moment.2":
+    "거듭된 요청에도 자신의 시를 인쇄할지 말지를 스스로 정한 것은 이 프로필의 높은 자율성 욕구 점수와 나란히 놓인다. 그녀가 출판을 원했는지에 대해서는 학자들 사이에 여전히 의견이 갈리므로, 이 해석은 그녀가 무엇을 했는지를 말할 뿐 그 이유를 단정하지 않는다.",
+  "emily-dickinson.turning_point.1":
+    "1862년 4월 디킨슨은 『애틀랜틱 먼슬리』에 실린 젊은 작가들을 위한 히긴슨의 조언을 읽고, 일면식도 없던 그에게 자신의 시가 '살아 있는지' 묻는 편지를 시 네 편과 함께 보냈다. 히긴슨은 잡지 편집자에게 보낸 사적인 편지에서 그 주에 받은 시들을 '다행히 출판용으로 넘길 것은 아니다'라고 적었다. 1891년의 회고에서 그는 그녀를 규칙과 전통 쪽으로 이끌어 보려 했지만, 그녀는 각운을 맞추려고 어순을 바꾸지 않았고 자신은 곧 지도하려는 시도를 그만두었다고 썼다.",
+  "emily-dickinson.interpretation.turning_point.1":
+    "이름난 비평가를 스스로 찾아가고도 자신의 형식을 지킨 것은 이 프로필의 독립적 사고를 보여 주는 한 사례다. 히긴슨의 회고는 수십 년 뒤 그녀를 높이 평가한 공동 편집자가 쓴 것이어서, 해당 점수를 최상위 구간 아래로 둔 이유 가운데 하나다.",
+  /* ---------------------------------------------------------- giuseppe-verdi (Roster41) */
+  "giuseppe-verdi.achievement.1":
+    "1851년 3월부터 1853년 3월까지 베르디는 지금까지도 세계 오페라 극장의 단골 레퍼토리로 남아 있는 세 편의 오페라, 《리골레토》(베네치아), 《일 트로바토레》(로마), 《라 트라비아타》(베네치아)를 잇달아 초연했다. 《아이다》는 1871년 12월 24일 카이로 오페라 극장에서 초연되었고, 1872년 2월 라 스칼라 극장에서 유럽 초연을 가졌다.",
+  "giuseppe-verdi.achievement.2":
+    "만년에 베르디는 아리고 보이토의 대본으로 셰익스피어 원작 오페라 두 편을 썼다. 《오텔로》는 약 7년간의 작업 끝에 1887년 2월 5일 라 스칼라 극장에서 초연되었고, 희극 《팔스타프》는 베르디가 일흔아홉 살이던 1893년 2월 9일 같은 극장에서 초연되었다.",
+  "giuseppe-verdi.achievement.3":
+    "1890년대에 베르디는 밀라노에 형편이 어려운 노년의 음악가들을 위한 거처인 '음악가 휴식의 집'(Casa di Riposo per Musicisti)을 자비로 짓고 공사를 직접 꼼꼼히 챙겼으며, 1899년 12월 이를 운영할 재단을 세웠다. 그의 뜻에 따라 이 집은 그가 세상을 떠난 뒤에야 문을 열어 1902년 10월 첫 입주자를 맞았고, 그는 자기 오페라의 저작권 수입을 이곳에 남겼다.",
+  "giuseppe-verdi.moment.1":
+    "1847년 피렌체에서 열린 《맥베스》 초연을 앞두고, 소프라노 마리안나 바르비에리니니는 훗날 피아노 및 오케스트라 리허설이 백 번을 넘었고, 몽유병 장면 하나에만 석 달을 들였으며, 한 이중창은 150번 넘게 연습했다고 회상했다. 1899년 평론가 지노 모날디가 펴낸 책에 실린 그녀의 회고에 따르면, 베르디는 관객이 이미 객석을 채운 총연습 직전에도 두 가수를 불러 그 이중창을 한 번 더 연습시켰다.",
+  "giuseppe-verdi.interpretation.moment.1":
+    "이 일화는 이 프로필의 높은 완벽주의 점수와 부합하지만, 그 숫자들은 한 가수가 수십 년 뒤에 남긴 회고에서 나온 것이다. 같은 회고는 그 대가도 기록하는데, 출연진은 그녀가 '과도한 요구'라고 부른 것에 불만을 품었다.",
+  "giuseppe-verdi.moment.2":
+    "1858년 초 나폴리의 검열 당국은 왕의 암살을 다룬 베르디의 새 오페라에 대한 공연 허가를 철회했다. 전기 작가 아르튀르 푸쟁이 인용한 당시 언론 보도에 따르면, 베르디는 공식 항의와 손해배상 청구에도 불구하고 자기 음악을 다른 대본에 맞추기를 거부했고, 결국 작품은 철회되었다. 이 오페라는 1859년 2월 무대를 식민지 시대의 보스턴으로 옮긴 《가면무도회》라는 제목으로 로마에서 상연되었다.",
+  "giuseppe-verdi.interpretation.moment.2":
+    "나폴리에서의 거부는 이 프로필에 기록된 갈등 감수 성향을 보여 주는 한 가지 사례다. 다만 로마판은 그가 달리 상연할 길이 없을 때에는 타협도 받아들였음을 함께 보여 준다.",
+  "giuseppe-verdi.turning_point.1":
+    "연구자 파브리치오 델라 세타에 따르면, 《에르나니》(1844) 이후 베르디의 계약에는 가수 선정에 대한 승인권이 그에게 있다는 조항이 들어갔다. 《나부코》 이후 그는 다른 사람이 미리 써 둔 대본에 곡을 붙인 적이 없었다. 소재를 직접 고르고 장면 구성을 스스로 짰으며, 대본 단계가 작곡보다 더 오래 걸리는 경우도 많았다.",
+  "giuseppe-verdi.interpretation.turning_point.1":
+    "이러한 작업 조건의 변화는 이 프로필에 기록된 높은 자율성 욕구와 맞아떨어진다. 델라 세타는 이를 당시 이탈리아 작곡가들의 지위가 전반적으로 달라지던 흐름 속에 놓고 보므로, 베르디 개인만이 아니라 그 시대 극장 산업의 사정도 반영한 일이다.",
+  /* ---------------------------------------------------------- jules-verne (Roster41) */
+  "jules-verne.achievement.1":
+    "파리의 출판인 피에르쥘 에첼은 1863년 베른의 『기구를 타고 5주간』을 펴냈다. 1866년부터 에첼은 베른의 소설들을 '경이의 여행' 총서로 내놓았고, 두 사람의 협업은 1886년 에첼이 세상을 떠날 때까지 이어졌다.",
+  "jules-verne.achievement.2":
+    "1981년 그의 고향 낭트시는 베른의 자필 원고 약 95점을 사들였고, 그의 원고 대부분은 현재 낭트 시립도서관에 있다. 이 원고들에는 젊은 시절의 시와 희곡부터 말년의 소설까지 그의 글쓰기가 담겨 있으며, 여러 원고에 에첼의 메모가 남아 있다.",
+  "jules-verne.achievement.3":
+    "그는 연극 대본도 썼다. 극작가 아돌프 데네리와 함께 쓴 『80일간의 세계 일주』와 『미하일 스트로고프』 무대판은 파리에서 큰 성공을 거두었다. 1904년에도 『미하일 스트로고프』는 샤틀레 극장에서 다시 공연되고 있었다.",
+  "jules-verne.moment.1":
+    "1893년 아미앵에서 한 인터뷰에서 베른은 기자 로버트 셰라드에게 교정쇄를 일곱 번이나 여덟 번은 받아 보아야 만족한다고 말했다. 셰라드는 그의 곁에서 베른이 '여섯 번째 교정쇄'라고 부른 뭉치를 보았다. 낭트에 보관된 원고에도 같은 작업 과정이 남아 있다. 연필로 쓴 초고에 잉크로 고친 흔적, 여백에 새로 쓴 장들, 그리고 여러 차례의 교정쇄다.",
+  "jules-verne.interpretation.moment.1":
+    "조판이 끝난 뒤에도 이렇게 여러 번 고쳐 쓴 것은 이 프로필의 완벽주의 점수와 부합한다. 베른 스스로 이 습관에 시간뿐 아니라 돈도 많이 들었다고 말했기 때문에, 이 특성은 양면적인 것으로 표시되어 있다.",
+  "jules-verne.moment.2":
+    "1893년부터 1904년까지의 인터뷰에서 베른은 매일 오후 같은 신문 열다섯 종을 읽고, 스무 종이 넘는 신문을 구독하며, 과학·지리 학술지도 챙겨 보고, 쓸모 있어 보이는 것은 오려 두거나 메모한다고 말했다. 1894~95년 기자 마리 벨록은 그의 서재에서 2만 건이 넘는 메모가 든 판지 서류함을 보았고, 베른은 그 메모들을 주제별로 분류해 두었다고 말했다.",
+  "jules-verne.interpretation.moment.2":
+    "평생 이어진 이 읽고 정리하는 습관은 이 프로필의 호기심 점수와 나란히 놓인다. 설명의 대부분은 베른 자신의 말이지만, 벨록이 직접 본 서류함은 그 습관을 보여 주는 물리적 흔적이다.",
+  "jules-verne.turning_point.1":
+    "1869년 봄 에첼은 『해저 2만 리』의 마지막 장들을 받아들이지 않았다. 베른은 네모 선장을 1863년 봉기의 진압에 복수하는 폴란드인으로 설정했지만, 에첼은 상업적·외교적 이유로 반대했다. 베른은 자신이 느끼지 못하는 것은 그려 낼 수 없다며 요구대로 인물을 고치기를 거부했지만, 다른 수정은 받아들였다. 출간된 책에서 네모의 국적과 동기는 설명되지 않은 채로 남았다. 결국 누구의 뜻이 관철되었는지를 두고는 학자들의 견해가 엇갈린다.",
+  "jules-verne.interpretation.turning_point.1":
+    "출판사의 규칙 안에서 일하면서도 주인공을 지켜 내려 한 것은, 이 프로필이 그의 자율성 욕구를 높은 쪽이 아니라 중간 부근에 두는 이유를 보여 주는 한 사례다. 이후의 편지에서 그는 에첼의 제안을 더 분명하게 거절하기도 했지만, 1886년 에첼이 세상을 떠날 때까지 그와 함께 일했다.",
+  /* ---------------------------------------------------------- max-planck (Roster41) */
+  "max-planck.achievement.1":
+    "1900년 10월 19일 플랑크는 베를린의 독일물리학회에서 열복사 스펙트럼에 대한 새로운 공식을 발표했다. 같은 해 12월 14일에는 이 공식의 이론적 유도를 발표하면서 오늘날 플랑크 상수 h로 불리는 상수를 도입했다. 그가 당시 고전물리학과의 단절을 어디까지 인식했는지는 지금도 역사학자들 사이에서 논쟁거리다.",
+  "max-planck.achievement.2":
+    "그는 기본 양자 이론에 관한 업적으로 1918년도 노벨 물리학상을 받았으며, 수상 발표는 1919년 11월에 있었다. 상은 1920년 6월 스톡홀름에서 받았다. 1908년에는 스웨덴 왕립과학원이 그에게 상을 주자는 위원회의 제안을 받아들이지 않았다.",
+  "max-planck.achievement.3":
+    "그는 1889년 베를린 대학에서 구스타프 키르히호프의 뒤를 이었고, 1926년 은퇴할 때까지 그곳에서 이론물리학을 가르쳤다. 1894년부터는 프로이센 과학아카데미 회원이었다. 많은 물리학도가 그가 펴낸 강의록으로 공부했으며, 막스 폰 라우에도 그의 제자였다.",
+  "max-planck.moment.1":
+    "열역학 제2법칙을 다룬 플랑크의 1879년 박사 논문은 거의 아무런 반응을 얻지 못했다. 그가 말년에 쓴 회고에 따르면 헬름홀츠는 아마 그 논문을 읽지도 않았고, 키르히호프는 내용에 반대했으며, 클라우지우스는 그의 편지에 답하지 않았다. 그는 1880년대 내내 엔트로피 연구를 이어 갔고, 제자 막스 폰 라우에는 1947년 장례식 추도사에서 '그는 자기 길을 계속 갔다'고 말했다.",
+  "max-planck.interpretation.moment.1":
+    "선배들이 외면한 주제를 여러 해 붙들고 연구한 것은 이 프로필의 높은 끈기 점수와 부합한다. 다만 이 이야기는 플랑크 자신의 회고록과 그를 존경한 제자의 추도사에 기대고 있으며, 두 기록의 세부 내용은 서로 일치한다.",
+  "max-planck.moment.2":
+    "리제 마이트너는 제1차 세계대전 이전에 플랑크의 조교로 일했다. 그녀는 1958년 강연에서, 물리학 질문을 하면 그가 자주 '내일 대답해 드리겠습니다'라고 답했다고 회상했다. 마이트너는 이를 자기가 하는 말 하나하나에 온전히 책임지려 한 그의 태도와 연결 지었다.",
+  "max-planck.interpretation.moment.2":
+    "답을 하기 전에 먼저 확인하는 습관은 이 프로필의 분석적 엄밀성 점수와 맞아떨어진다. 가까운 동료 한 사람의 기억에서 나온 이야기이므로, 그가 유도 과정을 얼마나 엄격하게 요구했는지에 대한 역사학자들의 서술과 함께 읽는 것이 좋다.",
+  "max-planck.turning_point.1":
+    "1900년 말 플랑크는 새 복사 공식을 유도하기 위해, 오랫동안 받아들이지 않았던 루트비히 볼츠만의 통계적 엔트로피 해석을 택했다. 그는 1931년의 한 편지에서 이 단계를 '절망에서 나온 행동'이라 부르고, 에너지 요소는 '순전히 형식적인 가정'이었다고 썼다. 그 자신의 회고와 역사학자들의 서술에 따르면 그는 그 뒤로도 몇 년 동안 양자를 고전물리학 안에 끼워 맞추려 애썼다. 역사학자 헬게 크라그는 그가 그것이 불가능하다는 점을 받아들인 시기를 1908년 무렵으로 본다.",
+  "max-planck.interpretation.turning_point.1":
+    "측정 결과가 다른 길을 남겨 두지 않자 반대하던 방법을 받아들이고, 그 뒤로도 여러 해 고전물리학을 붙들고 있었던 모습은 이 프로필의 중간 수준인 신념 수정 점수와 나란히 놓인다. 이 프로필은 이를 단순한 저항이 아니라 느리지만 실제로 일어난 변화로 읽는다.",
+  /* ---------------------------------------------------------- robert-koch (Roster41) */
+  "robert-koch.achievement.1":
+    "1882년 3월 24일 코흐는 베를린 생리학회에서 한 간균이 결핵의 원인이라고 발표했다. 그는 새로운 염색법으로 이 균을 보여 주었고, 응고시킨 혈청에서 배양했으며, 그 배양균으로 실험동물에게 같은 병을 일으켰다. 1905년 노벨 생리학·의학상은 결핵에 관한 그의 연구와 발견에 수여되었다.",
+  "robert-koch.achievement.2":
+    "코흐는 프로이센 포젠주 볼슈타인에서 지역 보건의로 일하면서 진료실 한쪽에 마련한 실험실에서 탄저병을 연구했다. 1876년 논문에서 그는 탄저균이 자라고 포자를 만드는 과정을 추적했고, 생쥐를 길게 이어 가며 병을 옮겼다. 그의 제자 프리드리히 뢰플러는 훗날 1887년에 펴낸 세균학사에서 이 연구를 자세히 기술했다.",
+  "robert-koch.achievement.3":
+    "1883~1884년 코흐는 독일 콜레라 조사단을 이끌고 이집트와 인도에 갔으며, 캘커타에서 쉼표 모양의 간균을 순수배양으로 분리하고 조사한 모든 콜레라 환자에게서 이 균을 확인했다. 1892년 함부르크 유행을 다룬 글에서 그는 강물을 여과해 쓰던 이웃 도시 알토나와의 경계를 신중한 모래 여과의 근거로 제시했다.",
+  "robert-koch.moment.1":
+    "1883년 9월 17일 알렉산드리아에서 보낸 첫 공식 보고서에서 코흐는, 모든 초기 콜레라 환자에게서 발견된 간균이 아직 원인이라는 증거는 되지 못한다고 썼다. 균의 침입이 병을 일으킨 것이 아니라 병의 결과일 수도 있다는 이유였다. 그는 베를린에서 데려간 생쥐와 원숭이, 개, 닭에게 먹이거나 접종한 실험이 모두 실패했다고 보고했다. 1년 뒤 그에게 비판적이던 영국 동물학자 레이 랭커스터는 그가 동물에서 병을 재현하지도 못한 채 원인을 선언했다고 비난했다.",
+  "robert-koch.interpretation.moment.1":
+    "자기 발견이 아직 보여 주지 못하는 것을 분명히 적어 둔 태도는 이 프로필의 분석적 엄밀성 점수와 부합한다. 랭커스터의 비판은 그 옆에 놓아 둘 만하다. 코흐의 이후 인과 주장이 동물 실험 증거보다 앞서 나갔기 때문에 이 프로필은 이 특성을 중간 정도로만 평가한다.",
+  "robert-koch.moment.2":
+    "1882년 9월 제네바 국제위생회의에서 루이 파스퇴르는 강연을 통해 탄저병에 관한 코흐의 연구를 비판했다. 코흐 자신의 기록에 따르면 그는 회의장에서는 짧게 항의하는 데 그친 뒤 상세한 반론을 글로 펴냈다. 그는 이 글에서 파스퇴르가 백신 제조법을 비밀에 부치고 유리한 실험 결과만 보고한다고 비판하면서도, 파스퇴르의 다른 학문적 공로는 인정했다.",
+  "robert-koch.interpretation.moment.2":
+    "즉석 공방 대신 상세하고 날카로운 반론을 글로 내놓은 선택은 이 프로필의 높은 갈등 감내 점수를 보여 주는 한 예다. 다만 이 글은 길고 양쪽이 모두 공세를 편 논쟁에서 코흐 쪽의 주장이므로, 누가 옳았는지보다 그가 어떻게 싸웠는지를 보여 준다.",
+  "robert-koch.turning_point.1":
+    "1890년 8월 코흐는 기니피그의 결핵을 멈추게 하는 물질을 발표했다. 11월에는 이것으로 초기 폐결핵을 치료할 수 있다고 썼지만, 제조 방법은 밝히지 않았다. 몇 달 지나지 않아 상태가 나빠지거나 숨진 환자들에 관한 보고가 이어지며 이 약은 신뢰를 잃었고, 그는 대중과 정부의 압력을 받고서야 대략적인 성분을 공개했다. 그는 1897년 개량 투베르쿨린을 발표했으며, 1905년 노벨상 강연에서도 요양소에서의 투베르쿨린 치료를 권했다.",
+  "robert-koch.interpretation.turning_point.1":
+    "초기의 실패 이후에도 오랫동안 투베르쿨린에 대한 믿음을 유지한 모습은 이 프로필의 낮은 신념 수정 점수와 나란히 놓인다. 역사학자 크리스토프 그라트만은 이 사건을 결핵에 대한 자신의 기존 설명에 대한 집착에서 비롯된 자기기만으로 읽으며, 파스퇴르 학파와의 경쟁과 제도적·재정적 압박이 이를 강화했다고 본다. 이는 하나의 학술적 해석이지, 그의 동기에 대한 확정된 판단은 아니다.",
+  /* ---------------------------------------------------------- mary-somerville (Roster41) */
+  "mary-somerville.achievement.1":
+    "서머빌의 『천체의 역학』(1831)은 라플라스의 천체역학을 그 수학과 함께 영어로 풀어낸 책이다. 1832년 조지 피콕은 자신과 윌리엄 휴얼이 이 책을 케임브리지의 교과 과정에 넣기 위한 조치를 취했다고 썼다. 존 허셜이 쓴 것으로 알려진 1832년 『쿼털리 리뷰』 서평은 이 책의 서론을 지금까지 나온 뉴턴 체계에 대한 가장 훌륭한 요약이라고 평가하면서도, 용어를 습관적으로 느슨하게 쓴다는 점을 지적했다.",
+  "mary-somerville.achievement.2":
+    "『물리 과학들의 연관에 대하여』(1834)는 그 서론에서 출발한 책으로, 천문학·음향·광학·열·전기·자기를 수학적 해석으로 묶인 하나의 그림으로 개관했다. 휴얼이 쓴 것으로 알려진 『쿼털리 리뷰』 서평이 1834년 이 책을 다루었고, 서머빌은 이후 판에서도 계속 내용을 고쳤다. 예컨대 1849년 판에는 얼마 전 이루어진 해왕성 발견이 추가되었다.",
+  "mary-somerville.achievement.3":
+    "1835년 2월 서머빌은 캐럴라인 허셜과 함께 왕립천문학회의 첫 여성 명예회원으로 선출되었다. 이후 『자연지리학』(1848)과 『분자 및 미시 과학』(1869)을 펴냈다.",
+  "mary-somerville.moment.1":
+    "서머빌은 『천체의 역학』 원고를 헨리 브루엄에게 보내 철저히 검토하고 비판해 달라고 했다. 원고를 읽은 존 허셜은 1830년 2월 편지에서 자신이라면 첫머리의 원리 설명에 지금의 두 배 이상 지면을 할애하겠다고 조언했다. 그녀가 간직한 그의 편지들은 사후에 나온 회고록(1873)에 실렸다. 역사학자 브리짓 스텐하우스의 기록 연구에 따르면 다음 책도 출간 전에 교정쇄가 휴얼과 J. D. 포브스에게 보내졌다.",
+  "mary-somerville.interpretation.moment.1":
+    "출간 전에 원고를 전문가 독자에게 보내는 습관은 이 프로필의 중간 수준 협업 점수를 뒷받침하는 관행 중 하나다. 다만 이는 자기 저작에 대한 검토였지 공동 저술은 아니었다.",
+  "mary-somerville.moment.2":
+    "1835년 3월 역사학자 헨리 핼럼은 『물리 과학들의 연관에 대하여』가 고대 이집트의 역년을 365일 6시간으로 적었지만 실제로는 365일뿐이었다고 지적하는 편지를 보냈다. 1835년 제2판에는 옛 수치가 그대로 남아 있지만, 1849년 판과 1858년 판은 핼럼이 제시한 365일의 해와 1,461년 주기를 따른다. 그녀는 회고록에서 이 오류와 바로잡아 준 데 대한 감사를 기록했다.",
+  "mary-somerville.interpretation.moment.2":
+    "자기 분야 밖에서 온 지적을 이후 판에 반영한 일은 이 프로필이 점수로 매긴 신념 수정의 소박한 한 예다. 다만 수정이 반영되기까지는 한 판 이상이 걸렸다.",
+  "mary-somerville.turning_point.1":
+    "1827년 3월 헨리 브루엄은 그녀의 남편에게 편지를 보내, 유용지식보급협회를 위해 라플라스의 『천체역학』을 해설하는 책을 그녀가 써 줄 수 있는지 물었다. 그녀 자신의 기록에 따르면, 그녀는 작업을 비밀로 하고 실패하면 원고를 불태운다는 조건으로만 수락했다. 책은 협회 총서의 분량을 넘어섰고 1831년 존 머리 출판사에서 나왔다. 이것이 그녀의 첫 책이었고, 케임브리지와 서평에서 받은 반응으로 그녀는 과학 저술가로 자리 잡았다.",
+  "mary-somerville.interpretation.turning_point.1":
+    "행성 궤도에서 조석에 이르기까지 중력의 결과를 하나로 엮은 이 책의 서론은 이 프로필의 체계적 추상화 점수와 나란히 놓인다. 다른 면에서는 이 책에 비판적이었던 1873년 왕립천문학회 부고도 그 서론만큼은 높이 평가했다.",
+  /* ---------------------------------------------------------- wilhelm-rontgen (Roster41) */
+  "wilhelm-rontgen.achievement.1":
+    "1895년 11월 8일, 뢴트겐은 뷔르츠부르크 물리학연구소에서 덮개를 씌운 방전관으로 실험하던 중 얼마간 떨어진 형광 스크린이 빛나는 것을 발견했다. 몇 주 동안 추가 실험을 한 뒤, 그는 1895년 12월 말 뷔르츠부르크 물리의학회에 「새로운 종류의 광선에 대하여」를 제출하고 이 새로운 복사를 'X선'이라고 불렀다.",
+  "wilhelm-rontgen.achievement.2":
+    "1895년부터 1897년 사이에 발표한 세 편의 짧은 보고에서 그는 이 광선이 대체로 물질의 밀도에 따라 투과하고, 사진 건판을 감광시키며, 직진하고, 자석에 휘지 않으며, 대전된 물체를 방전시킬 수 있음을 기술했다. 굴절과 간섭을 찾으려 한 시도처럼 실패한 실험도 함께 보고했다.",
+  "wilhelm-rontgen.achievement.3":
+    "1901년 그는 이 광선의 발견으로 첫 번째 노벨 물리학상을 받았다. 그는 상금을 학문 진흥을 위해 뷔르츠부르크 대학교에 기부했다.",
+  "wilhelm-rontgen.moment.1":
+    "뢴트겐은 약 7주 동안 자신의 관찰을 거의 누구에게도 알리지 않았다. 전기 작가 오토 글라서에 따르면, 친구 테오도어 보페리가 캐묻자 그는 흥미로운 것을 발견했지만 자신의 관찰이 옳은지는 모르겠다고 답했다. 첫 논문에서 그는 가능한 한 눈으로 한 중요한 관찰을 모두 사진 건판으로 확인했다고 썼다.",
+  "wilhelm-rontgen.interpretation.moment.1":
+    "놀라운 결과를 여러 방향에서 확인할 때까지 공개를 미룬 것은 이 프로필의 높은 분석적 엄밀성 점수와 부합한다. 개인적인 세부 내용은 대부분 그를 존경한 전기 작가에게서 나오지만, 뢴트겐 자신의 논문도 같은 확인 습관을 기술한다.",
+  "wilhelm-rontgen.moment.2":
+    "1896년 전기 회사 AEG의 기술자 막스 레비가 이 광선을 개발하려는 회사의 관심을 전하며 뢴트겐에게 접근했다. 글라서가 인용한 바에 따르면 뢴트겐은 대학의 발견은 인류에 속하며 특허나 라이선스, 계약으로 가로막혀서는 안 된다고 답했다. 뷔르츠부르크의 뢴트겐 기념관도 그가 이 방법의 특허를 거절했다고 기록한다.",
+  "wilhelm-rontgen.interpretation.moment.2":
+    "가치 있는 발견에 대한 통제권을 거절한 일은 이 프로필의 중간 정도 영향 동기를 보여 주는 한 예다. 노벨상 상금을 뷔르츠부르크에 기부한 일도 이와 나란히 놓이지만, 그는 이 광선의 의학적 응용은 다른 사람들에게 맡겼다.",
+  "wilhelm-rontgen.turning_point.1":
+    "1894~95년, 쉰 살 가까이 된 뢴트겐은 기체·결정·액체에 대한 정밀 측정으로 알려진 자리 잡은 물리학자였다. 그는 레나르트관을 구해 레나르트의 음극선 실험을 재현했고, 압력 아래 액체에 관한 연구를 제쳐 두고 음극선 연구에 나섰다. 과학사학자 알렉시 아스무스는 이것이 그의 평소 연구 분야 밖이었다고 지적한다.",
+  "wilhelm-rontgen.interpretation.turning_point.1":
+    "경력 중반에 낯선 연구 분야로 옮겨 간 것은 이 프로필의 호기심 점수와 부합한다. 발견 자체에는 우연도 작용했으며, 이 선택은 그가 그 현상을 알아챌 위치에 서게 된 과정에 대한 합리적인 해석 가운데 하나다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

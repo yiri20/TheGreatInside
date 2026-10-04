@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "paul-cezanne",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Paul Cézanne",
+    "aliases": [
+      "Paul Cezanne"
+    ],
+    "wikidataId": "Q35548",
+    "birthYear": 1839,
+    "deathYear": 1906,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "late_recognition",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cezanne_wikipedia",
+      "kind": "wikipedia",
+      "title": "Paul Cézanne (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '폴 세잔' confirmed via the Wikidata kowiki sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne"
+    },
+    {
+      "id": "src_cezanne_wikidata",
+      "kind": "wikidata",
+      "title": "Paul Cézanne (Q35548) -- verified live via wbgetentities (2026-10-02): en label 'Paul Cézanne', description 'French painter (1839–1906)', ko label '폴 세잔', born 1839-01-19, died 1906-10-22 (a second P570 value gives 1906-10-23), citizenship Q142 (France), P18 'Paul-Cezanne.jpg' (not used), kowiki '폴 세잔'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q35548"
+    },
+    {
+      "id": "src_cezanne_vollard",
+      "kind": "biography",
+      "title": "Ambroise Vollard, Paul Cezanne: His Life and Art, authorized trans. Harold L. Van Doren (New York: Nicholas L. Brown, 1923; French original 1914), archive.org OCR full text (paulcezannehisli00voll) -- DEALER/FIRSTHAND perspective: Vollard organised Cezanne's first solo exhibition (1895), visited him at Aix (1896) and sat for his portrait (1899); admiring but anecdotal and often comic in tone, and commercially interested in Cezanne's reputation. Read: ch. III pp. 38-53 (the 1866 Salon refusal and Cezanne's letter of 19 April 1866 to Nieuwerkerke transcribed from the Louvre archives with the official marginal reply; 1872-74 at Auvers with Pissarro; a fragment of a letter to his parents on wanting his liberty); ch. IV pp. 54-74 (1874 and 1877 group exhibitions, Choquet, the yearly Salon submissions refused until the 1882 admission as 'pupil of M. Guillemet', the 1890 Brussels Bathers slashed and reworked, Tanguy); ch. VI pp. 96-107 (his own 1896 visit to Aix: the studio, the still life retrieved from the cherry tree to be worked on further, dinner conversation); ch. VIII pp. 120-141 (HIS OWN FIRSTHAND account of sitting for his portrait 1899: sittings 8-11.30 a.m., Louvre/Trocadero copying in the afternoons, conditions for work, the uncovered spots on the hand, 115 sittings and the portrait abandoned unfinished; Cezanne's practice of laying canvases aside and taking landscapes up again in following years; destroyed canvases); ch. XI pp. 175-185 (Cezanne's letters to Vollard of 2 April 1902 and 9 Jan. 1903 withholding canvases because not yet satisfied; the 1904 Saint Louis rejection and the room given him at the 1904 Salon d'Automne; Vollard's last visit, late 1905). The 1906 death circumstances and health remarks in ch. XI were read but deliberately not used.",
+      "url": "https://archive.org/details/paulcezannehisli00voll"
+    },
+    {
+      "id": "src_cezanne_bernard",
+      "kind": "biography",
+      "title": "Emile Bernard, Souvenirs sur Paul Cezanne (Paris: Societe des Trente / A. Messein, 1912; first published in Mercure de France, 1907), archive.org OCR of the Google-digitised copy (souvenirs-sur-paul-cezanne), read in French -- FIRSTHAND VISITOR/PAINTER perspective: Bernard (1868-1941) stayed in Aix for about a month in Feb.-March 1904 and worked in the downstairs room of Cezanne's Lauves studio, and visited again in 1905; admiring but also critical (he judges Cezanne's method self-hampering) and his recollections of Cezanne's spoken words are reconstructions. Read: the arrival and first day (the visit 'sur le motif' below Sainte-Victoire; Bernard leaving him at work until 4 p.m.); 'Notre etablissement a Aix' pp. 18-26 (lunch conversation incl. Cezanne's remarks on Zola and L'Oeuvre as Bernard reports them; the Lauves studio; Bernard's own observation of the daily routine -- studio 6 to 10.30 a.m. in all seasons, then 'sur le motif' until 5 p.m. -- and of the still life of three skulls worked on every morning for a month and changing 'almost every day'; the unfinished nudes worked from youthful Atelier Suisse drawings); pp. 33-34 (abandoned landscape beginnings in the rue Boulegon garret; Bernard's observation, from the room below, of Cezanne pacing, going down to the garden and back up while working); the joint outing to paint Sainte-Victoire; the departure in 1904. Bernard's account of a quarrel over physical contact was read and deliberately not used (private/psychological).",
+      "url": "https://archive.org/details/souvenirs-sur-paul-cezanne"
+    },
+    {
+      "id": "src_cezanne_self_letters",
+      "kind": "archive",
+      "title": "Cezanne's OWN letters as transcribed in period sources -- SELF perspective, one perspective, never sole support for a row: to Emile Bernard, 15 April 1904, 12 May 1904 and 21 Sept. 1906 (printed in Bernard, Souvenirs sur Paul Cezanne, 1912, pp. 69-90: 'je procede tres lentement, la nature s'offrant a moi tres complexe, et les progres a faire etant incessants'; 'J'etudie toujours sur nature'); to Ambroise Vollard, 2 April 1902 and 9 Jan. 1903, and to his son, 15 Oct. 1906 (printed in Vollard 1923, ch. XI: postponing a Salon submission because 'not satisfied as yet with the results'; 'I work obstinately'); to the Surintendant des Beaux-Arts Nieuwerkerke, 19 April 1866 (printed in Vollard ch. III from the Louvre archives).",
+      "url": "https://archive.org/details/souvenirs-sur-paul-cezanne"
+    },
+    {
+      "id": "src_cezanne_zola_letters",
+      "kind": "archive",
+      "title": "Emile Zola, Correspondance: Lettres de jeunesse (Paris: Fasquelle, 1907), archive.org OCR (correspondancele00zolauoft), read in French -- CONTEMPORARY INSIDER perspective (boyhood friend, not Cezanne himself; private letters written at the time to their schoolfriend Baptistin Baille, so not retrospective and not written for publication). Read: Zola to Baille, Paris, 10 June 1861 (pp. 58-61: Cezanne's daily routine in Paris -- mornings at the Academie Suisse, painting Zola's portrait at midday, drawing at Villevieille's the rest of the day; Zola's frank description of his friend's obstinacy, dislike of argument and talk of returning to Aix soon after arriving); the letter that follows it (pp. 174-75, 'je vois Cezanne assez rarement'); Zola to Baille, undated, c. Aug. 1861 (pp. 176-80: Zola retracting his earlier general verdict as unjust; six hours a day together while Cezanne painted his portrait 'avec acharnement'; his repeated discouragement and plans to go back to Aix; the portrait begun twice and then destroyed, with Cezanne packing to leave). Used for 1861 behaviour only; the later Zola-Cezanne relationship and L'Oeuvre (1886) are not scored.",
+      "url": "https://archive.org/details/correspondancele00zolauoft"
+    },
+    {
+      "id": "src_cezanne_duret",
+      "kind": "biography",
+      "title": "Theodore Duret, Manet and the French Impressionists, trans. J. E. Crawford Flitch (London: Grant Richards; Philadelphia: Lippincott, 1910), archive.org OCR (manetfrenchimpre00dure) -- CRITIC/CONTEMPORARY perspective: Duret (1838-1927) was a critic, collector and early historian of the Impressionist group who knew its members personally; sympathetic, not a close intimate of Cezanne. Read: the chapter 'Cezanne', pp. 177-190 (abandoning law for painting; the failed Beaux-Arts admission and the spell in his father's bank; study at the Academie Suisse and the Louvre 'according to his own ideas'; the shift to open-air painting at Auvers with Pissarro, 1873; persistent Salon submissions refused before and after 1870, the single 1882 admission via Guillemet; withdrawal from group exhibitions after 1877 while continuing to paint; Duret's description of his scrupulous method, the 'enormous number of sittings', the bare canvas left uncovered rather than worked over by formula, and the many canvases discarded at the sketch stage; living on his father's allowance, so poverty was not a factor); and the group-history passages pp. 41-44, 140-147 mentioning him. Some dates differ from Vollard (Duret places the first Paris stay in 1862); not relied on for dates.",
+      "url": "https://archive.org/details/manetfrenchimpre00dure"
+    },
+    {
+      "id": "src_cezanne_ng",
+      "kind": "institution",
+      "title": "The National Gallery, London -- MUSEUM/SCHOLARLY perspective, modern and independent of the period memoirs. Web pages read in full 2026-10-02: artist page 'Paul Cezanne (1839-1906)' (his remark to Renoir that it took him twenty years to realise painting was not sculpture; 'worked slowly and methodically, selecting subjects he could study for long periods'; the quoted ambition to make of Impressionism 'something solid and durable like the art of museums'); and the Overview and In-depth texts for Bathers (Les Grandes Baigneuses) (three large bathers canvases worked on in the last decade, all showing reworking; NG picture possibly begun 1898-9 and finished 1905; the top of the canvas folded over the stretcher to reduce the sky), Curtain, Jug and Dish of Fruit (from 1886 he repeatedly painted the same set of objects in his studio, rendering them from different perspectives), Still Life with Water Jug (an unfinished canvas showing his staged method; one of half a dozen with the same jug in the 1890s), and Self Portrait c.1880-1.",
+      "url": "https://www.nationalgallery.org.uk/artists/paul-cezanne"
+    },
+    {
+      "id": "src_cezanne_courtauld",
+      "kind": "institution",
+      "title": "The Courtauld, London -- MUSEUM perspective: collection highlight page 'The Card Players' (Paul Cezanne, around 1892-96), read 2026-10-02: he took up the subject of labourers playing cards in autumn 1890 and completed five paintings of it during the 1890s, refining the composition down to two players; farm workers from his father's estate posed. Short page; used only as corroboration for the serial working method.",
+      "url": "https://courtauld.ac.uk/highlights/the-card-players/"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 84,
+      "confidence": 0.74,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_cezanne_zola_letters, src_cezanne_vollard, src_cezanne_bernard, src_cezanne_duret, src_cezanne_ng, src_cezanne_self_letters | 1861; 1899; 1902; 1904; 1895-1906 | contemporary friend + dealer-sitter + visiting painter + critic + museum + self] Independent dated instances across his whole career. In Aug. 1861 Zola wrote to Baille that Cezanne had begun Zola's portrait twice, 'toujours mecontent de lui', and then destroyed it because it was getting worse. Vollard, who sat for him in 1899, records 115 sittings after which the portrait was left unfinished ('the front of the shirt is not bad'), two spots on the hand left bare because a guessed touch might mean repainting the whole canvas, and landscapes taken up again in following years. In 1904 Bernard watched a still life of three skulls being worked every morning for a month, changing 'almost every day' though it already looked finished; he also saw many abandoned landscape beginnings. Duret (1910) describes many canvases discarded at the sketch stage. The National Gallery records the three large Bathers reworked over his last decade. In his own letter of 2 April 1902 he withheld a Salon submission because he was 'not satisfied as yet'. Dual-edged: many works were destroyed or left unfinished."
+    },
+    "discipline": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cezanne_zola_letters, src_cezanne_vollard, src_cezanne_bernard | June 1861; 1899; Feb.-March 1904 | contemporary friend + dealer-sitter + visiting painter] Three independent eyewitnesses describe a fixed daily working routine decades apart. Zola, 10 June 1861: mornings at the Academie Suisse, painting at midday, drawing at Villevieille's for the rest of the day, early to bed. Vollard, 1899: sittings every morning from 8 to 11.30, then copying at the Louvre or the Trocadero every afternoon. Bernard, 1904: his 'regle de vie' was to be at the Lauves studio in all seasons from 6 to 10.30 a.m., return to Aix to eat, then work 'sur le motif' until 5 p.m., sup and go to bed. Not scored higher because all three are friendly witnesses describing a man of independent means who set his own schedule."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cezanne_vollard, src_cezanne_duret, src_cezanne_zola_letters, src_cezanne_self_letters | 1866-1882; 1877-c.1895; 1902 | dealer + critic + contemporary friend + self] After the 1866 Salon refused both his canvases he protested in writing (letter of 19 April 1866, transcribed by Vollard from the Louvre archives); Vollard and Duret both record that he submitted to the Salon year after year and was refused, until a single 1882 admission through a juror's privilege. Duret, a contemporary critic, notes that after the hostile 1874 and 1877 group shows he stopped exhibiting yet kept painting with 'untiring energy' for some twenty years with no sign that opinion would change; in 1902 he was still preparing a Salon entry (own letter to Vollard). Counter-evidence kept in view: Zola's letters of 1861 describe repeated discouragement and plans to return to Aix ('le moindre obstacle le desespere'), and he did go back to his father's bank for a time; and his father's allowance meant he did not persist through poverty. Scored on the long middle and late career, not on the 1861 wavering."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cezanne_vollard, src_cezanne_duret, src_cezanne_zola_letters, src_cezanne_ng | 1866; 1861; 1877-1906 | dealer (archival letter) + critic + contemporary friend + museum] In his letter of 19 April 1866 to the Surintendant des Beaux-Arts (Louvre archives, transcribed by Vollard) he wrote that he could not accept 'the ill-considered judgment of people whom I myself have not appointed to appraise me' and asked for the Salon des Refuses to be re-established, even if he stood alone; the official reply refused. Zola in June 1861 described him as unwilling to change his ideas except 'sur son propre jugement'. Duret writes that the idea of modifying his style to suit average taste 'never occurred to him', and that after 1877 he painted without regard to what was happening around him. The National Gallery records his stated aim of making of Impressionism something 'solid and durable', distinct from the group's aims. Overlaps with autonomy_need, scored separately on judgement rather than working arrangements."
+    },
+    "mastery_orientation": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cezanne_vollard, src_cezanne_duret, src_cezanne_bernard, src_cezanne_self_letters | 1863-1906; 1899; 1904 | dealer-sitter + critic + visiting painter + self] Duret records that without a master he 'applied himself assiduously to acquire a mastery of his craft' at the Academie Suisse and through visits to the Louvre that gave him a thorough knowledge of the old masters. Vollard saw that in 1899, at sixty, he spent every afternoon copying at the Louvre or the Trocadero and tied the next morning's work to how that copy went. Bernard (1904) saw him still working his nudes from his own youthful Atelier Suisse drawings and pinning reproductions of Poussin, Signorelli, Delacroix and Couture on his studio walls. His own letters to Bernard (1904-06) speak of 'incessant' progress to be made and of continuing to study from nature; self-description used only as corroboration."
+    },
+    "deep_focus": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cezanne_vollard, src_cezanne_bernard, src_cezanne_duret | 1899; 1904 | dealer-sitter + visiting painter + critic] Vollard, who sat for him 115 times, says no word was allowed during sittings, that all his faculties were 'concentrated on the exactness of the form', and that being watched or disturbed ended work: he packed up and left a motif when observed (an incident Vollard relays from Renoir), and told Vollard 'when I am studying, I must have absolute quiet'. Bernard left him alone at the motif from late morning to 4 p.m. 'afin de ne point gener son travail' and saw him at times so tired after a day's work that he could not talk. Duret describes him working with his eyes 'rigidly fastened' on the subject. Dual-edged: the same accounts show work abandoned for the day over noise, a barking dog or a moved carpet."
+    },
+    "execution_speed": {
+      "score": 20,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_cezanne_vollard, src_cezanne_bernard, src_cezanne_duret, src_cezanne_ng, src_cezanne_self_letters | 1899; 1904; 1890s-1906 | dealer-sitter + visiting painter + critic + museum + self] Low score = very slow, deliberate execution. Vollard: 115 sittings for one portrait, still unfinished, and 'slow and painful' progress on some days. Bernard (1904): 'il avait le travail tres lent', so that many paintings stayed unfinished. Duret: canvases that looked simple demanded 'a large, often an enormous, number of sittings'. The National Gallery: he 'worked slowly and methodically'. His own letter to Bernard, 12 May 1904: 'je procede tres lentement'. Multiple independent witnesses; dual-edged because the slowness was part of his method but left much unfinished."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cezanne_ng, src_cezanne_courtauld, src_cezanne_vollard, src_cezanne_duret | 1873; after 1880; 1886-1890s | museums + dealer + critic] Serial, varied treatment of the same motif is documented by museums: from 1886 he repeatedly painted the same set of fruit, dishes, cloth and jug, rendering them from different perspectives (National Gallery, Curtain, Jug and Dish of Fruit; half a dozen still lifes with the same blue jug in the 1890s); he painted five Card Players in the 1890s, refining the composition down to two figures (Courtauld), after preliminary studies of the separate figures (Vollard). Changes of technique are recorded too: open-air landscape painting taken up at Auvers in 1873 (Duret) and the thick impasto given up after 1880 for thin superimposed layers (Vollard). Scored from the working process, not from the later influence of these works."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cezanne_duret, src_cezanne_ng, src_cezanne_self_letters | 1877; 1890s-1906 | critic + museum + self] Duret, writing from the contemporary reception, describes a method 'peculiar to himself' -- touches of colour laid side by side and then over one another, parts of the canvas left bare -- that critics of 1877 treated as barbaric. The National Gallery's analysis of Curtain, Jug and Dish of Fruit describes objects deliberately painted from different viewpoints within one picture, and its Bathers entry describes large compositions in the pastoral tradition but with no narrative or literary source. In his own letter to Bernard of 15 April 1904 he set out an approach of treating nature 'par le cylindre, la sphere, le cone'. Scored from these documented choices; no 'father of modern art' claim is relied on."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cezanne_vollard, src_cezanne_duret, src_cezanne_bernard, src_cezanne_self_letters | 1863-74; 1904 | dealer + critic + visiting painter + self] Duret notes that he never worked under one of the established Paris masters but studied 'according to his own ideas'. Vollard records that his parents tried hard to bring him back to Aix while he stayed two years at Auvers (1872-74), and prints a fragment of his letter to them: 'At Aix I am not free... I sincerely want my liberty unfettered'. Bernard (1904) saw him working alone in a studio he had built outside the town and heard him say that isolation suited him. Rests partly on his own words, hence moderate confidence. Dual-edged: the same accounts describe growing isolation."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_cezanne_duret, src_cezanne_vollard, src_cezanne_ng, src_cezanne_zola_letters | 1861; 1873; after 1880 | critic + dealer + museum + contemporary friend] Mixed evidence. On technique he did change course: at Auvers in 1873, working beside Pissarro, he moved from studio-made landscapes to painting in the open air (Duret), Vollard says he took Pissarro's advice not to be dominated by the masters, and after 1880 he gave up thick impasto, later telling Renoir it took him twenty years to see that painting was not sculpture (Vollard; National Gallery). Against this, Zola in June 1861 described him as avoiding argument and refusing to change his mind even when shown wrong. Moderate score, low confidence."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cezanne_bernard, src_cezanne_vollard | 1870s; 1896; 1899; 1904 | visiting painter + dealer] Bernard (1904) describes Sainte-Victoire as a mountain he painted again and again in watercolour and oil and which 'le remplissait d'admiration', and took him there to paint. Vollard reports that on his first visit to the collector Choquet (1870s, told to Vollard at second hand) he and Choquet went down on their knees to look through Choquet's Delacroix watercolours, and in 1899 saw him time his work to a 'clear gray' sky. At dinner in 1896 Vollard heard him recite Baudelaire and praise Baudelaire's art criticism. Two friendly sources, partly second-hand; moderate score and confidence, not inferred from his being a painter."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-02T00:00:00Z",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-02) for Q35548 returned en label 'Paul Cézanne', description 'French painter (1839–1906)', fr 'peintre français (1839-1906)', ko label '폴 세잔', born 1839-01-19, died 1906-10-22 (a second P570 value gives 1906-10-23), citizenship Q142 (France), P18 'Paul-Cezanne.jpg', enwiki 'Paul Cézanne', kowiki '폴 세잔' (used for displayNames ko-KR). Not confused with his son Paul Cézanne fils (Q17277915). SLUG COLLISION CHECK: no paul-cezanne file in data-pipeline/candidates before this cycle, no Cezanne person in src/data/people, no Cezanne portrait in public/portraits. CLASSIFICATION PRECEDENT: era 19th_century, regionCode western_europe, nationalityCodes FR, occupation painter, field art, impact domains artistic + cultural all follow claude-monet (b. 1840). Tags perfectionist, late_recognition, independent and archetypes creative_creator, independent_creator are existing ids (en.ts); no new tags or occupations. EVIDENCE READ (7 substantive source records plus 2 orientation; all texts downloaded to scratch_r41/work/paul-cezanne and read locally by line ranges): Vollard 1923 English edition, chs III, IV, VI, VIII, XI; Emile Bernard, Souvenirs sur Paul Cezanne (1912, French), the 1904 Aix chapters and the printed letters; Zola, Lettres de jeunesse (1907, French), letters to Baille of 10 June 1861 and c. Aug. 1861; Duret, Manet and the French Impressionists (1910), the Cezanne chapter; National Gallery London artist page and four painting pages; Courtauld Card Players page. Cezanne's own letters (to Nieuwerkerke 1866, his parents (undated fragment, Auvers period), Vollard 1902-03, Bernard 1904-06, his son 1906) are recorded as one SELF source (src_cezanne_self_letters) and never support a row alone. NOT READ / NOT USED: Gasquet's Cezanne (1921/1926; conversations partly reconstructed -- not needed and not used); Rewald's edition of the letters (only lending-library scans available); Coquiot (1914) and Rivière-type later biographies; the Met Heilbrunn essay (Vercel bot check, not bypassed), Musee d'Orsay pages (Cloudflare block), MoMA (bot check). INDEPENDENT PERSPECTIVES: (1) Cezanne himself (letters) -- self, one perspective; (2) Emile Zola, boyhood friend, contemporaneous private letters of 1861 to a third party; (3) Ambroise Vollard, dealer, firsthand 1896 visit and 1899 sittings, with archival documents; (4) Emile Bernard, painter, firsthand month in Aix 1904; (5) Theodore Duret, critic and historian of the Impressionist group; (6) The National Gallery, London (modern museum scholarship); (7) The Courtauld (modern museum, corroboration only). NON-SELF behavioural sources: Zola, Vollard, Bernard, Duret, National Gallery, Courtauld. Vollard and Bernard are admirers (and Vollard commercially interested), but Zola's 1861 letters are frank and partly critical, and Duret and the museums are independent of both. EPISODE USE (no episode supports more than two rows): Zola 1861 daily routine -> discipline; Zola Aug. 1861 portrait begun twice and destroyed, talk of returning to Aix -> perfectionism, persistence (as counter-evidence); Zola June 1861 characterisation -> independent_thinking, belief_updating (counter); 1866 Salon refusal and letter to Nieuwerkerke -> independent_thinking, persistence; yearly Salon refusals to 1882 and the post-1877 withdrawal from group shows (Vollard, Duret) -> persistence, independent_thinking; Duret's study 'according to his own ideas' at the Suisse and Louvre -> mastery_orientation, autonomy_need; Auvers 1872-74 (parents' pressure, letter fragment) -> autonomy_need; Auvers open-air shift with Pissarro 1873 -> belief_updating, experimentation; impasto abandoned after 1880 -> belief_updating, experimentation; Vollard portrait 1899, 115 sittings, unfinished -> perfectionism, execution_speed; Vollard 1899 routine (morning sittings, afternoon Louvre copying) -> discipline, mastery_orientation; Vollard 1899 working conditions (silence, not watched) -> deep_focus; Bernard 1904 daily routine -> discipline, deep_focus; Bernard 1904 skulls still life reworked for a month -> perfectionism, execution_speed; Bernard's abandoned landscapes and Duret's discarded canvases -> perfectionism, execution_speed; Bernard's Atelier Suisse drawings and studio reproductions -> mastery_orientation; Sainte-Victoire painted repeatedly (Bernard) and Choquet's Delacroix watercolours (Vollard) -> aesthetic_sensitivity; NG still lifes from multiple viewpoints 1886-1890s -> experimentation, creative_originality; Courtauld Card Players (five versions) -> experimentation; NG Bathers reworked in last decade -> perfectionism, creative_originality; Duret's account of his technique and its 1877 reception -> creative_originality; own letters 1902-06 -> corroboration only (perfectionism, mastery_orientation, execution_speed, creative_originality, autonomy_need). ROWS CONSIDERED AND LEFT UNSCORED: conflict_tolerance (the 1866 protest letters versus a lifelong avoidance of argument described by Zola and his described timidity -- mixed, and his outbursts are interpersonal temper, not scored); social_assertiveness (self-described timidity versus outbursts -- contradictory); collaboration (painting beside Pissarro at Pontoise/Auvers and with Renoir is real, but too thin to score a disposition); curiosity (reading of Baudelaire, Bacon, Latin poets -- slight); risk_tolerance, planning_orientation, achievement_drive (his long wish for Salon admission and a decoration is recorded by Vollard but rests largely on reported talk), leadership_drive, persuasiveness, opportunity_sensing, competitiveness -- insufficient on-point evidence. EXCLUDED ON PURPOSE: all health material (diabetes, the 1906 collapse and death, his letter of 21 Sept. 1906 on 'troubles cerebraux'); Vollard's and Bernard's accounts of his aversion to being touched and the 1904 quarrel with Bernard over it (private/psychological); remarks about women and models (private); family matters (his father's allowance is used only as context that poverty was not a factor; his marriage and son not scored); anger, slashed and burnt canvases described as outbursts (scored only where they bear on reworking, and not as temperament); religious and political opinions reported by Vollard and Bernard (zero-politics); the Zola friendship's end and L'Oeuvre (1886) -- Bernard reports Cezanne's hostile 1904 remarks, but scholarship debates whether the novel ended the friendship, so it is not scored and not stated as fact; no 'father of modern art' claim is made. KNOWN LIMITS: Vollard and Bernard are admiring and anecdotal, and the spoken words they report are recollections; Vollard relays some incidents (Renoir's, Choquet's) at second hand -- these are marked in the rationales. Duret's early chronology differs from Vollard's (Duret puts the first Paris stay in 1862). No adversarial contemporary source was read directly beyond Zola's frank 1861 letters and the hostile 1905 opinions quoted by Vollard. The National Gallery pages are short collection texts, not a full scholarly biography. Scores kept below 85 throughout. PORTRAIT: Self-portrait (Portrait de l'artiste), c. 1875, oil on canvas, 64 x 53 cm, Musee d'Orsay RF 1947 29 (Wikidata Q17495197: creator Q35548, collection Musee d'Orsay, inception 1875). Commons file 'Portrait de l'artiste, par Paul Cézanne, FWN 434.jpg' (Yorck Project scan); wikitext read 2026-10-02: {{PD-art-two|PD-old-100-1923|PD-Art-YorckProject}}, no third-party claim. Painter died 1906, so the work is public domain worldwide and the faithful 2D reproduction carries no new copyright under the PD-Art rule. Original 2536 x 3249 px downloaded and opened with PIL; downscaled to 1249 x 1600 (JPEG q85), no crop; visually confirmed to be the bearded, balding self-portrait against a landscape. kind likeness (self-portrait from the mirror). REJECTED: Wikidata P18 'Paul-Cezanne.jpg' (small web scrape, per lead's instruction); 'Portrait de l'artiste, par Paul Cézanne, MNR228, Musée d'Orsay.jpg' (the upstream file name carries 'copyright Musee d'Orsay distribution RMN-Grand Palais Patrice Schmidt', and it is an MNR recovered-art item -- avoided); the Phillips Collection 1898 lithograph self-portrait (a print, less clear likeness); the National Gallery c.1880 self-portrait file (scanned from a modern book; acceptable but the Orsay painting is a cleaner museum-identified reproduction); Bernard's 1904 photographs (not checked in detail; a painted self-portrait was preferred). No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Portrait rights-verified."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "폴 세잔"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/paul-cezanne-self-portrait-c1875.jpg",
+    "width": 1249,
+    "height": 1600,
+    "source": "Paul Cezanne, Self-portrait (Portrait de l'artiste), c. 1875, oil on canvas, 64 x 53 cm, Musee d'Orsay, Paris (RF 1947 29; Wikidata Q17495197); photographic reproduction from The Yorck Project (2002), 10.000 Meisterwerke der Malerei, via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Art",
+    "attribution": "Paul Cezanne, Self-portrait, c. 1875, Musee d'Orsay, Paris; faithful reproduction (The Yorck Project) of a public-domain painting; downscaled",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_de_l%27artiste,_par_Paul_C%C3%A9zanne,_FWN_434.jpg",
+    "creator": "Paul Cezanne",
+    "date": "c. 1875",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_de_l%27artiste,_par_Paul_C%C3%A9zanne,_FWN_434.jpg"
+  }
+}

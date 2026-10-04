@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mary-somerville",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mary Somerville",
+    "aliases": [
+      "Mary Fairfax Somerville",
+      "Mary Fairfax",
+      "Mrs. Mary Somerville"
+    ],
+    "wikidataId": "Q268702",
+    "birthYear": 1780,
+    "deathYear": 1872,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "writer"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "self_taught",
+      "cross_disciplinary",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ms_wikidata",
+      "kind": "wikidata",
+      "title": "Mary Somerville (Q268702) -- verified live via wbgetentities (2026-10-03): en label 'Mary Somerville', description 'Scottish scientist, writer and polymath (1780–1872)', P569 1780-12-26, P570 1872-11-28 / 1872-11-29 (two values), P27 United Kingdom of Great Britain and Ireland (Q174193), P31 human; ko label '메리 서머빌' (ko description '영국 저술가', ko alias '메리 페어팩스'), kowiki sitelink '메리 서머빌', enwiki 'Mary Somerville'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q268702"
+    },
+    {
+      "id": "src_ms_wikipedia",
+      "kind": "wikipedia",
+      "title": "Mary Somerville (English Wikipedia) -- orientation only; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Mary_Somerville"
+    },
+    {
+      "id": "src_ms_recollections1873",
+      "kind": "archive",
+      "title": "Personal Recollections, from Early Life to Old Age, of Mary Somerville, with selections from her correspondence, ed. by her daughter Martha Somerville (London: John Murray, 1873/74) -- Project Gutenberg eText 27747, downloaded and read by grep/line ranges: contents; ch. III (Nasmyth's Euclid remark, Mr Craw's Euclid and Bonnycastle, night study and the candle order); ch. V (studies after 1807, Wallace correspondence and prize problem, Wallace's book list, Playfair's advice, reading Laplace with John Wallace); ch. VIII (Young); ch. XI in full (Brougham's letter of 27 Mar 1827, her conditions, writing at Chelsea, Martha's note on her 'power of abstraction', Herschel's letters on the manuscript and of 23 Feb 1830, Whewell's 2 Nov 1831 and Peacock's 14 Feb 1832 letters, RAS honorary membership, Biot, Peel's 1835 pension letter, beginning of the Connexion); ch. XII Paris 1832 (Poisson's advice); ch. XIII (Hallam's letter of 12 Mar 1835 correcting the Egyptian year, the form-of-the-earth and curves-and-surfaces manuscripts, editions); ch. XVI (Herschel's letter of 21 Nov 1845 on her spectrum experiments). Mixed perspective: her own memoir (SELF) interleaved with bracketed editorial notes by her daughter Martha (INSIDER, family) and verbatim letters from correspondents (Brougham, Herschel, Whewell, Peacock, Hallam, Poisson, Biot -- contemporary non-self, but selected and published by the family). Never the sole support of any row.",
+      "url": "https://www.gutenberg.org/ebooks/27747"
+    },
+    {
+      "id": "src_ms_edgeworth1822",
+      "kind": "archive",
+      "title": "Augustus J. C. Hare (ed.), The Life and Letters of Maria Edgeworth, vol. 2 (London: Edward Arnold, 1894) -- Maria Edgeworth's letters from Beechwood Park (16-17 Jan 1822) and London (spring 1822), Project Gutenberg eText 9095, read by grep/line ranges (all passages naming Mrs Somerville). Contemporary eyewitness, acquaintance (non-self, friendly). Used only for her first-hand description of Somerville's manner on meeting her in Jan 1822 (modest and 'timid, not disqualifying timid', with 'self-possession') and the remark that Laplace named her as understanding his works.",
+      "url": "https://www.gutenberg.org/ebooks/9095"
+    },
+    {
+      "id": "src_ms_dnb1898",
+      "kind": "biography",
+      "title": "Ellen Mary Clerke, 'Somerville, Mary', Dictionary of National Biography vol. 53 (1898) -- reference entry by a historian of astronomy (non-self, scholarly; her stated sources are the Recollections, the Quarterly Review of Jan 1874, the MNRAS notice of Feb 1873 and family information). Read in full via Wikisource (MediaWiki parse API). Used: the 1826 Royal Society paper on the magnetic properties of the violet rays and that its theory 'was subsequently negatived by the researches of Moser and Ries'; the 1827 SDUK request and 1831 publication; the Connexion's several editions and the 1842 Uranus sentence cited by J. C. Adams; the Physical Geography being nearly destroyed after Humboldt's Cosmos appeared, then submitted to Herschel and published in 1848; Molecular and Microscopic Science published 1869. Its closing character paragraph is an admiring summary and is not used as evidence; family deaths not used.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Somerville,_Mary"
+    },
+    {
+      "id": "src_ms_mnras1873",
+      "kind": "institution",
+      "title": "Royal Astronomical Society, Report of the Council to the 53rd Annual General Meeting, obituary notice 'Mary Somerville', Monthly Notices of the RAS vol. 33 no. 4 (Feb 1873), pp. 190-197 (unsigned Council notice) -- read in full from the ADS scanned PDF via text extraction. Independent, partly CRITICAL contemporary assessment by the society that had made her an honorary member: quotes John Herschel's 1832 review of the Mechanism of the Heavens on her 1826 magnetism experiments ('feeble though unequivocal indications'; their 'simple and rational manner', 'absence of needless complication') and on the book's 'habitual laxity of language'; states that as a popularisation the Mechanism 'failed entirely' while judging it as advanced literature a work 'of which any geometer might be proud' and showing 'the decision of one perfectly familiar with the subject'; reports (quoting an unnamed obituarist) that under her publisher John Murray's pressure to simplify the Connexion she tried but found every departure from scientific terms a departure from clearness. Its passages on her Italian years and longing for Scotland are not used. Note: it misdates the magnetism experiments to her first marriage (they were 1825-26).",
+      "url": "https://articles.adsabs.harvard.edu/pdf/1873MNRAS..33..190."
+    },
+    {
+      "id": "src_ms_herschel_qr1832",
+      "kind": "press",
+      "title": "[John Herschel], review of 'Mechanism of the Heavens. By Mrs. Somerville' (with Bowditch's Laplace translation), Quarterly Review vol. 47 no. 94 (July 1832), art. VIII, pp. 537-559 -- unsigned contemporary expert review; attributed to John Herschel by the RAS 1873 notice (the record of the Royal Astronomical Society's 1873 obituary notice), which quotes it as his. Read from the Digital Library of India scan on the Internet Archive (in.ernet.dli.2015.21527) djvu text by line ranges: the opening paragraphs on her 1826 magnetism experiments and the book's origin, the assessment of the preliminary dissertation, the planetary-theory passages, and the closing critique. Non-self, expert, partly critical; NOT fully independent (Herschel was a close friend who had read and commented on the manuscript). Used: the experiments' 'simple and rational manner' without 'needless complication' or costly apparatus; the work, undertaken for the SDUK, 'outgrew its first destination' as 'the views of the author' extended; her derivations by direct integration and use of Poisson's later investigations; omissions (Gauss, Lambert, comets 'summarily dismissed'); and 'the most considerable fault' -- 'an habitual laxity of language' that obliges the reader to be 'constantly on his guard'.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.21527"
+    },
+    {
+      "id": "src_ms_whewell_qr1834",
+      "kind": "press",
+      "title": "[William Whewell], review of 'On the Connexion of the Physical Sciences. By Mrs. Somerville', Quarterly Review vol. 51 no. 101 (March 1834), art. III, pp. 54-68 -- unsigned contemporary review (the review in which the word 'scientist' is floated); read from the Google-Books scan on the Internet Archive (quarterlyreview47smitgoog, which contains vol. 51) djvu text by line ranges (pp. 54-58 and 64-68; parts of pp. 58-63 are illegible OCR). Non-self, contemporary expert reviewer, admiring; Whewell was a friendly acquaintance (cf. his 1831 letter in the record of her Personal Recollections (1873)), so not adversarial. Used only for his reading of the book's purpose -- to counter the subdivision of science by 'showing how detached branches have, in the history of science, united by the discovery of general principles' -- and for the fact that the book grew out of the Mechanism's preliminary dissertation. His generalisations about 'the female intellect' are period opinion and are not used.",
+      "url": "https://archive.org/details/quarterlyreview47smitgoog"
+    },
+    {
+      "id": "src_ms_stenhouse2020",
+      "kind": "archive",
+      "title": "Brigitte Stenhouse (The Open University), 'Mister Mary Somerville: Husband and Secretary', The Mathematical Intelligencer 43 (2021, online 2020), pp. 7-16, doi:10.1007/s00283-020-09998-6, CC BY 4.0 -- modern historian of mathematics working from the Mary Somerville Papers (Bodleian, on behalf of Somerville College), Royal Society lending records and election certificates (non-self, scholarly, archival). PDF downloaded from Springer and read in full via text extraction. Used: her 1811 solution to a prize question in the Mathematical Repository (published there, silver medal) and the ensuing Wallace correspondence in which he set questions and critiqued her solutions; Playfair's 16 Jun 1812 introduction calling her mathematical knowledge rare; the 1826 Phil. Trans. paper communicated by William Somerville; Brougham's judgment that her Laplace account was too long and technical for the SDUK library, so that William arranged publication by John Murray (Nov 1831); sheets of the Connexion sent to Whewell for proofreading and to J. D. Forbes (who returned two corrections) before publication (1833); her inquiries through correspondents (Baily on the compression of the earth, Feb 1833; Broderip on Himalayan plants, Mar 1832); that she did not append society honours to her name and in 1844 claimed not to know of her 1835 RAS election; and Stenhouse's caution that dates and details in the Recollections 'are often unreliable'. Its account of William's role as chaperone, representative and literary agent is context only.",
+      "url": "https://doi.org/10.1007/s00283-020-09998-6"
+    },
+    {
+      "id": "src_ms_connexion_editions",
+      "kind": "archive",
+      "title": "Mary Somerville, On the Connexion of the Physical Sciences (London: John Murray), four editions compared directly: 1st ed. 1834 (Wellcome Collection scan, Internet Archive b22029382), 2nd ed. 1835 (Internet Archive india.history.resource.111623), 8th ed. 1849 (onconnexionofphy00somerich) and 9th ed. 1858 (connexionofphysi00somerich); djvu texts downloaded and read by grep/line ranges at the civil-year section (sect. XII), the Uranus perturbation passage (1849), the prefaces to the 2nd and 8th editions, and the closing passages used by the reviewers. SELF (her own published text), used only as a textual record of revision behaviour, checked against Henry Hallam's letter of 12 Mar 1835 (printed in the record of her Personal Recollections (1873)): the 1834 and 1835 editions both still give the Egyptian year as 365 d 6 h with a Sothiac period of 14,601 years and an epoch of 2782 BC; the 1849 and 1858 editions replace this with Hallam's figures (a 365-day year, a 1461-year Sothiac cycle; 1849 also adds his 1322 BC epoch). The 1849 edition also adds an account of the discovery of Neptune after the earlier sentence on unexplained perturbations of Uranus, noting 'that prediction has been fulfilled since the last edition'. Intermediate editions (3rd-7th) were not checked, so the exact edition of the Hallam correction is unknown.",
+      "url": "https://archive.org/details/onconnexionofphy00somerich"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ms_mnras1873, src_ms_dnb1898, src_ms_stenhouse2020, src_ms_recollections1873 | c.1795-1816 | RAS obituary + reference entry + archival historian + self] A self-directed mathematical education carried on for some twenty years without school or university. MNRAS 1873 (independent) stresses that her studies were 'pursued in the calm of a quiet home' under tutors 'unknown to fame'; DNB 1898 records that she perfected her Latin in order to read Newton's Principia; Stenhouse (archival) documents her 1811 published solution of a Mathematical Repository prize question and William Wallace's continuing critique of her solutions. Her own account (self) adds the dated steps: Euclid and Bonnycastle obtained through her brother's tutor in her teens, the first six books of Euclid gone through by candlelight and then rehearsed from memory after her candle was ordered away; the Principia attempted after 1807, found too hard, and later studied with notes; Laplace read on Playfair's advice to read on and return to difficulties; at 33 she bought Wallace's book list after years in which she had 'persevered almost without hope'. Kept at 74/0.60 because the obstacles are described mainly in her own memoir (Stenhouse warns that its dates and details are often unreliable); the non-self sources confirm the self-taught path and the 1811 result, not each hardship."
+    },
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ms_stenhouse2020, src_ms_mnras1873, src_ms_recollections1873 | 1811-1872 | archival historian + RAS obituary + self + daughter's editorial (insider)] Two separate phases of study pursued for understanding rather than output. (1) 1811-1816: after the prize solution she asked Wallace for a full course 'even including the highest branches' and bought his list (Lacroix, Lagrange, Euler, Monge, Laplace); fearing she might only imagine she understood the Mecanique Celeste, she engaged John Wallace to read it with her (self); Stenhouse (archival) confirms Wallace set her questions and critiqued her solutions. (2) 1860s-1872: after Benjamin Peirce sent her his memoir on linear associative algebra she asked William Spottiswoode for Serret, Salmon and Tait on quaternions and worked at them each morning (self), repaired her old manuscript on curves and surfaces of higher orders, and, per her daughter Martha (insider), was revising a treatise on the theory of differences and studying quaternions up to her death; she also wrote that turning to a popular book (Molecular and Microscopic Science) instead of mathematics had been 'a great mistake'. MNRAS 1873 (independent) judges her writings to show 'thorough mastery of the instruments of mathematical research'. Not higher: the late-life detail is self and family testimony only."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ms_stenhouse2020, src_ms_recollections1873, src_ms_dnb1898 | 1832-1872 | archival historian + Herschel's 1845 letter (contemporary, via the family edition) + reference entry + self] Inquiry reaching beyond her mathematical core, documented in letters to her: Stenhouse (archival) records that she sought information on Himalayan plants from W. J. Broderip (Mar 1832) and on the compression of the earth from Francis Baily (Feb 1833), wanted a specimen of green feldspar (Bowditch letter), and pursued mathematics alongside mineralogy, botany and chemistry. At Rome in 1845 she ran her own experiments on the action of the solar spectrum on vegetable juices; John Herschel's reply of 21 Nov 1845 (non-self, printed in the Recollections) calls them 'elegant experiments' and says he communicated them to the Royal Society. In the 1860s she took up Peirce's new algebra and quaternions (self). DNB records that she compiled Molecular and Microscopic Science (1869) as a summary of recent chemistry and physics. Kept at 74: the letters show active asking, but much of the evidence is about absorbing others' results rather than open-ended exploration."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ms_whewell_qr1834, src_ms_stenhouse2020, src_ms_mnras1873, src_ms_dnb1898, src_ms_herschel_qr1832 | 1826-1869 | contemporary reviewers + RAS obituary + reference entry + archival historian] Substantive work in several separate fields, each with real output: celestial mechanics (Mechanism of the Heavens, 1831, reviewed in technical detail by Herschel 1832); experimental optics/magnetism (Phil. Trans. 1826; Herschel, DNB); a cross-science synthesis, On the Connexion of the Physical Sciences (1834), whose aim Whewell (QR 1834) describes as showing how separate branches of science had been brought together by general principles and whose conclusion, per Stenhouse, makes mathematical analysis the connecting thread; Physical Geography (1848) and Molecular and Microscopic Science (1869) (DNB). MNRAS 1873 (independent, critical) notes the Connexion moves from planetary perturbations and molecular physics to geographical and climatic relations without change of register -- range confirmed, though as a weakness of exposition. Not higher: the range was largely synthesis of others' research rather than original work in each field (MNRAS: her writings are remarkable less for their actual value than for what she might have accomplished)."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ms_herschel_qr1832, src_ms_mnras1873, src_ms_whewell_qr1834, src_ms_stenhouse2020 | 1827-1834 | expert reviewer (friend) + RAS obituary (independent) + contemporary reviewer + archival historian] Two works organised around one general framework. (1) The preliminary dissertation of the Mechanism of the Heavens (1831) condenses the consequences of universal gravitation -- planetary and lunar theory, figures of planets, tides, stability of the ocean, geodesy -- into one account: Herschel (QR 1832) calls it 'by far the best condensed view of the Newtonian philosophy' yet published, 'an abstract so vivid and judicious as to have all the merit of originality' produced by one 'accustomed to large and general views'; MNRAS 1873, independent and otherwise critical of the book, says it is such as 'none but a master-mind could have produced'. (2) The Connexion (1834) was developed from that dissertation (Whewell 1834) and, per Stenhouse, closes by presenting mathematical analysis as what will 'ultimately embrace almost every subject in nature in its formulae'. Herschel is a friend who had read the manuscript, so MNRAS is the independent anchor; 74/0.60."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ms_herschel_qr1832, src_ms_mnras1873, src_ms_recollections1873 | 1827-1832 | expert reviewer + RAS obituary + Herschel's 1830 manuscript critique (via the family edition)] Technical command of Laplace's analysis, documented by two expert readings: Herschel (QR 1832) notes she derived the elliptic-motion formulae 'very properly' by direct integration rather than by Laplace's more general process, and drew on Poisson's later work for the invariability of the axes; MNRAS 1873 (independent) finds 'the decision of one perfectly familiar with the subject' in her departures from Laplace and counts some (e.g. the equations of continuity of a fluid) as improvements. Significant counterweight from the same two sources: 'the most considerable fault' was 'an habitual laxity of language' that forces the reader to be 'constantly on his guard' (Herschel; repeated by MNRAS as 'inexactness of the language'); Herschel listed omissions (Gauss's orbit methods, Lambert's theorem, comets 'summarily dismissed'), and his Feb 1830 letter on the manuscript found 'a somewhat hasty passing over' of first principles. Hence a moderate lean, not a high score."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ms_connexion_editions, src_ms_recollections1873, src_ms_dnb1898 | 1835-1858 | her own successive editions compared directly + Hallam's 1835 letter (via the family edition) + reference entry] Documented revision in response to correction and new results. Henry Hallam wrote on 12 Mar 1835 that her Egyptian civil year (365 d 6 h, Sothiac period 14,601 years, epoch 2782 BC) was wrong; comparison of editions shows the error still present in the 1834 and 1835 editions but replaced by Hallam's figures (365-day year, 1461-year cycle) in the 1849 and 1858 editions, and she recorded the error and her gratitude in her memoir (self). The 1849 edition likewise adds the discovery of Neptune after her earlier sentence on unexplained perturbations of Uranus, noting the prediction had since been fulfilled; DNB records that the book went through several editions. The textual changes themselves are first-hand evidence; but the correction took more than one edition to appear (exact edition unknown; 3rd-7th not checked), and keeping a survey current is partly what new editions are for, so this stays at 60/0.50. The later refutation of her 1826 magnetism result (DNB) was NOT used: no source read shows how she responded to it."
+    },
+    "experimentation": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_ms_herschel_qr1832, src_ms_dnb1898, src_ms_stenhouse2020, src_ms_recollections1873 | 1825-1845 | expert reviewer + reference entry + archival historian + Herschel's 1845 letter] Two separate episodes of hands-on experiment. (1) 1825-26: experiments on whether the violet rays of the solar spectrum magnetise steel needles, communicated to the Royal Society in Feb 1826 and printed in Phil. Trans. (Stenhouse; her first publication under her own name). Herschel (QR 1832) praises the 'simple and rational manner' of the experiments, without 'needless complication' or costly apparatus, though he notes many found the 'feeble' effects insufficient; DNB records that the theory was later 'negatived by the researches of Moser and Ries'. (2) 1845 at Rome: experiments on the action of different parts of the solar spectrum on coloured vegetable juices, which Herschel (letter of 21 Nov 1845) urged her to continue and communicated to the Royal Society. Experiment was an occasional strand beside her expository and mathematical work, and the first result was not upheld, so the lean is modest and impact neutral."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ms_recollections1873 | 1820s-1840s | daughter's editorial notes (insider) + self] Her daughter Martha (insider) describes a 'power of abstraction': at a recital in Rome an improvisatrice addressed stanzas of praise to her while she, absorbed in a point for the book she was writing, heard none of it; and she studied in the family room while her children did lessons, answering their questions and returning to her own work. Her own account of writing the Mechanism at Chelsea (1827-31) is that she learned to break off a difficult problem when visitors came and resume it at once 'like putting a mark into a book'. Both strands come from the family edition only (no independent observer), and she herself says that as a girl she set aside hard points and came back fresh rather than poring over them, so this is held at inference level, 0.45."
+    },
+    "social_assertiveness": {
+      "score": 34,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_ms_edgeworth1822, src_ms_stenhouse2020, src_ms_recollections1873 | 1822-1844 | eyewitness acquaintance + archival historian + daughter (insider) + self] A consistent low lean across different kinds of source. Maria Edgeworth, meeting her at Beechwood Park in Jan 1822, described her as 'timid, not disqualifying timid, but naturally modest, yet with a degree of self-possession' (eyewitness, non-self). Stenhouse (archival) finds she never appended her society honours to her name in letters or on title pages, and that visiting the Royal Astronomical Society in 1844 she said she did not know of her 1835 honorary election -- having apparently made no use of its rooms. Her daughter Martha (insider) calls her 'rather timid and retiring in general society' and says she disliked display; she herself wrote that in argument she was 'instantly silenced' even when she could have proved she was right, and that shyness had 'haunted' her through life (self). Not lower: she kept up a large scientific correspondence and London social circle (Stenhouse; Edgeworth), and Edgeworth stresses her self-possession. Neutral impact."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ms_recollections1873, src_ms_stenhouse2020, src_ms_dnb1898 | 1829-1848 | Herschel's letters (contemporary, via the family edition) + archival historian + reference entry] A repeated practice of putting drafts through expert readers before publication. (1) Mechanism (c.1829-30): she sent the manuscript to Brougham asking that it be 'thoroughly examined, criticised' (self), and kept and later printed John Herschel's detailed critiques, including his Feb 1830 letter urging her to double the exposition of principles (non-self letter). (2) Connexion (1833): Stenhouse (archival) documents sheets sent to Whewell for proofreading and to J. D. Forbes, who returned two corrections. (3) Physical Geography (1840s): when Humboldt's Cosmos appeared she meant to burn the manuscript but instead submitted it to Herschel and published on his advice (DNB; self). Martha (insider) adds that Herschel's criticism was what 'she submitted to'. Stenhouse also shows much of this traffic ran through her husband William, and these were consultations and reviews rather than joint authorship, so the lean is moderate."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mary-somerville-holl-1858.jpg",
+    "width": 1212,
+    "height": 1600,
+    "source": "Wellcome Collection, iconographic collections no. 8891i (Burgess, Portraits of doctors & scientists, no. 2779.2), digitised as V0005546EL, via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "William Holl the Younger (1807-1871), stipple engraving of Mary Somerville, 1858, after a drawing by James Rannie Swinton (1816-1888), 1848; Wellcome Collection (Public Domain Mark), via Wikimedia Commons",
+    "attributionUrl": "https://wellcomecollection.org/works/uww3svfm",
+    "creator": "William Holl the Younger, after James Rannie Swinton",
+    "date": "1858 (engraving), after an 1848 drawing",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mary_Somerville_(Fairfax)._Stipple_engraving_by_W._Holl,_185_Wellcome_V0005546EL.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "메리 서머빌"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-03T00:00:00Z",
+    "updatedAt": "2026-10-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-03) for Q268702 returned en label 'Mary Somerville', description 'Scottish scientist, writer and polymath (1780–1872)', P569 1780-12-26, P570 given twice (1872-11-28 and 1872-11-29; DNB 1898 says 29 Nov, the RAS notice says 30 Nov -- only the year is used), P27 United Kingdom of Great Britain and Ireland (Q174193), P31 human; en aliases include 'Mary Fairfax', 'Mary Fairfax Somerville', 'Mary Greig'; ko label '메리 서머빌' (ko alias '메리 페어팩스', ko description '영국 저술가'); kowiki sitelink '메리 서머빌', which is used for localization. Birth year 1780 also matches DNB 1898 and MNRAS 1873. SLUG CHECK: grep for 'somerville' in data-pipeline/candidates, src/data/people and public/portraits found nothing before this run (only this cycle's scratch FROZEN.md entry and unrelated Shannon/Santos-Dumont/Verne working texts); no collision. CLASSIFICATION: era 19th_century, GB, western_europe as for mary-kingsley.json and mary-anning.json; occupations mathematician + writer as for ada-lovelace (peopleIndex: mathematician, writer); fields mathematics + natural_science as briefed (cf. hypatia.json mathematics/philosophy/natural_science) -- kept because the Mechanism (celestial mechanics) and the Connexion/Physical Geography/Molecular science books and the two experimental papers span both; physics was considered but not added (her physics work is expository except for the two experiment episodes). impactDomains scientific + educational (cf. emmy-noether.json; the Mechanism was adopted for Cambridge study per Peacock's 1832 letter). tagIds self_taught (MNRAS, DNB, Stenhouse), cross_disciplinary, communicator (existing ids). archetypes cross_disciplinary_generalist + scholarly_specialist. Classification is not evidence for any row.\nEVIDENCE READ: 10 source records (2 orientation, 8 read locally after curl download): Personal Recollections 1873 (Gutenberg 27747; ch. III, V, VIII, XI in full, XII-XIII, XVI-XVIII by line ranges incl. Martha's editorial notes and the printed letters of Brougham, Herschel, Whewell, Peacock, Hallam, Biot, Peel); Maria Edgeworth's 1822 letters (Hare ed. 1894, Gutenberg 9095; all passages naming her); DNB 1898 entry by E. M. Clerke (Wikisource, in full); RAS Council obituary notice MNRAS 33 (Feb 1873) pp. 190-197 (ADS PDF, in full); [Herschel] Quarterly Review 47 (1832) review of the Mechanism (DLI scan; opening, dissertation assessment, planetary-theory passages, conclusion); [Whewell] Quarterly Review 51 (1834) review of the Connexion (Google scan; pp. 54-58, 64-68; some OCR illegible); Stenhouse 2020/21 Mathematical Intelligencer (CC BY, in full); four editions of the Connexion (1834, 1835, 1849, 1858; specific sections compared). Downloaded but not used as sources: Popular Science Monthly 1884 'Sketch of Mary Somerville' (derivative of the Recollections), Life and Letters of Maria Edgeworth vol. 1 (no relevant passage). Not read: her 1826 Phil. Trans. paper itself, Moser/Riess's 1829 work, the Physical Geography and Molecular and Microscopic Science texts, Patterson's and Neeley's biographies (not openly available), Oxford DNB (paywalled), Stenhouse 2025 AMM article (publisher returned 403), National Galleries of Scotland pages (Cloudflare challenge, not bypassed).\nINDEPENDENT PERSPECTIVES: (1) RAS Council obituary notice, Feb 1873 (institutional, independent and openly CRITICAL -- says the Mechanism 'failed entirely' as popularisation; the adversarial anchor); (2) Brigitte Stenhouse 2020, modern archival historian (Bodleian Somerville Papers, Royal Society records) -- independent; (3) E. M. Clerke, DNB 1898, historian of astronomy (scholarly reference work, partly derived from the Recollections and MNRAS); (4) John Herschel's 1832 Quarterly Review (expert, partly critical, but a close friend who had read the manuscript -- not independent); (5) William Whewell's 1834 Quarterly Review (contemporary expert, friendly); (6) Maria Edgeworth's 1822 letters (eyewitness acquaintance); (7) Martha Somerville's editorial notes in the Recollections (INSIDER, daughter). SELF perspective (counted once): the Recollections narrative, the Connexion's own text and prefaces. Letters by correspondents printed in the Recollections (Herschel 1830 and 1845, Hallam 1835, Brougham 1827, Peacock 1832) are contemporary non-self documents but selected by the family. Per the Roster40 calibration lesson, all rows stay at confidence <= 0.64 and score < 80; the only row resting mainly on self + insider (deep_focus) is held at inference/0.45. NON-SELF BEHAVIOURAL sources: MNRAS, Stenhouse, DNB, Herschel 1832, Whewell 1834, Edgeworth, the printed letters. No row rests on self material alone.\nEPISODE USE: E1 self-education c.1795-1816 incl. 1811 prize solution and Wallace course -> persistence, mastery_orientation; E2 writing of the Mechanism and its technical content/preliminary dissertation 1827-31 (Herschel 1832, MNRAS) -> systems_abstraction, analytical_rigor; E3a conception of the Connexion 1832-34 (Whewell, Stenhouse, MNRAS) -> cross_domain_range, systems_abstraction; E3b revisions of the Connexion incl. Hallam's 1835 correction and the 1849 Neptune addition -> belief_updating only; E4 1825-26 magnetism experiments -> experimentation only; E5 1845 spectrum/vegetable-juice experiments -> experimentation, curiosity; E6 Physical Geography manuscript submitted to Herschel after Cosmos -> collaboration only; E7 late study of Peirce's algebra, quaternions, theory of differences 1860s-1872 -> mastery_orientation, curiosity; E8 Herschel's 1829-30 manuscript critiques and the 1833 Whewell/Forbes proofs -> collaboration (the Feb 1830 letter's 'hasty passing over' remark is also cited as counterweight in analytical_rigor, not as support); E9 correspondents' information requests 1832-33 (Broderip, Baily, Bowditch) -> curiosity only; E10 later books 1848/1869 -> cross_domain_range only; E11 Martha's abstraction anecdotes and the Chelsea interruptions -> deep_focus only; E12 Edgeworth 1822, unappended honours and 1844 RAS visit, self-reported shyness -> social_assertiveness only.\nROWS CONSIDERED AND LEFT UNSCORED: detail_orientation (genuinely mixed: Herschel and MNRAS both name 'habitual laxity of language' as the main fault, against careful proof-checking and accepted corrections -- left unscored rather than averaged); discipline (fixed morning writing hours 8-12 and early rising are self-reported only); independent_thinking and autonomy_need (persisting against family disapproval and 'I did not care for their criticism' are self-reported; Stenhouse notes Greig's lack of support only via the Recollections); impact_motivation (stated aims in prefaces/dedication to make science familiar 'to my countrywomen' are self statements); achievement_drive / persuasiveness / leadership_drive (no behavioural evidence beyond output and honours); intuitive_synthesis (overlaps systems_abstraction; no separate evidence); conflict_tolerance, competitiveness, risk_tolerance, decisiveness, planning_orientation, perfectionism, execution_speed, ambiguity_tolerance, adaptability, opportunity_sensing, resourcefulness, proactive_agency, aesthetic_sensitivity, creative_originality (no adequate non-self episode read; her painting/music are not used).\nEXCLUDED ON PURPOSE: her first husband Samuel Greig's attitude and her widowhood (not used for any trait); deaths of her children, of William Somerville (1860) and of Woronzow Greig (1865), Martha's note on how she bore them, and the MNRAS passage on her 'exile' in Italy and longing for Scotland -- no inference from bereavement, health, age or mood; her deafness and shaking hands in old age (late-life study is used only as documented activity, not as an age-based inference); financial loss of 1835 and pension details; her religious views, Italian-politics passages, vivisection/animal-protection and women's-suffrage material (political/advocacy, not scored); Whewell's and Biot's generalisations about 'the female mind' (period opinion); DNB's closing character paragraph and Martha's eulogistic preface; honours, bust, pension, ship's name and edition counts as evidence of traits; any 'first woman' claim except the precisely sourced 1835 RAS honorary election (Stenhouse); the MNRAS notice's anecdote of prompting her brother's lesson (not in the Recollections; unverified).\nKNOWN LIMITS: the Recollections were written in extreme old age and Stenhouse cautions that their dates and details are often unreliable, so self episodes are corroborated where possible and never sole support. The QR reviews are unsigned; attributions follow MNRAS 1873 (Herschel, which quotes it as his) and standard attribution (Whewell). MNRAS misdates the magnetism experiments to her first marriage. The refutation of the 1826 result is reported only by DNB; her response to it was not found, so it is not used for belief_updating. Intermediate Connexion editions (3rd-7th) were not checked, so the edition that first carried Hallam's correction is unknown.\nPORTRAIT: chosen 'File:Mary Somerville (Fairfax). Stipple engraving by W. Holl, 185 Wellcome V0005546EL.jpg' -- stipple engraving by William Holl the Younger (1807-1871), 1858, after a drawing by James Rannie Swinton (1816-1888), 1848; a likeness made and published in her lifetime. Commons wikitext: Artwork template, credit {{Wellcome Images}}, Wellcome library reference ICV No 5756L, licence tag {{cc-by-4.0}}, no third-party/copyright-claim notice. UPSTREAM CHECK: Wellcome Collection catalogue API (work mydcjexk, now redirected to uww3svfm, 'Wellcome Collection 8891i', Burgess 2779.2) lists the IIIF image V0005546EL with licence 'pdm' (Public Domain Mark) and no 'In copyright' note; IIIF master 1266x1671, the same as Commons. Basis: engraver and draughtsman both died more than 70 years ago; print published 1858. Original downloaded with curl and a User-Agent (SHA1 3dcdd03f089ce5831dd131a7914fbddc27298b71, matching the Commons API), opened with Pillow (JPEG, RGB, 1266x1671); long edge > 1600 so downscaled to 1212x1600 (LANCZOS, JPEG quality 85), no crop (the 'W. Holl, sc.' credit line is kept), no upscaling; saved as /portraits/mary-somerville-holl-1858.jpg. Viewed: bust-length portrait of a middle-aged woman in a lace cap tied under the chin, matching Swinton's known 1848 likeness. Kind: likeness (from-life drawing reproduced in her lifetime). REJECTED: the briefed 'Thomas Phillips - Mary Fairfax, Mrs William Somerville ... Google Art Project.jpg' (3290x4001, {{PD-Art|PD-old-100-1923}}, painting 1834, National Galleries of Scotland PG 1115): the Google Art Project metadata points 'primary_image_rights' to the NGS 'copyright and reproduction' page, and nationalgalleries.org returned a Cloudflare challenge (not bypassed), so NGS reuse terms for the photograph could not be verified -- the Roster40 NGS trap, so not used; 'Mary Somerville 1844 portrait.jpg' (Swinton painting) and 'Mary Somerville young woman.jpg' (John Jackson painting) are web-sourced from Art UK photographs owned by Somerville College with no stated reuse terms; 'Mary Somerville.jpg' is a posthumous 1873 American engraving (Duyckinck), small 774x1100; the Illustrated London News 1872 wood engraving (LOC, 1245x1536) is posthumous; 'Lithograph after T. Phillips, Wellcome V0005545' -- its Wellcome catalogue record (g9jxup8f) shows no digitised-image licence, and it derives from the NGS painting.\nNo eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Portrait rights-verified. LEAD REVIEW: portrait kind set to historical_depiction (a stipple engraving made in 1858 after Swinton's 1848 drawing -- a later reproduction, not itself drawn from life; Babbage/Wren precedent for engravings/prints after another image). LEAD REVIEW (manual QA): internal source ids referenced inside source titles replaced by readable record names, since titles render on the public Sources list."
+  }
+}

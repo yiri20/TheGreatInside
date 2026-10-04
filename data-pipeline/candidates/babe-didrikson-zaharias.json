@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "babe-didrikson-zaharias",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Babe Didrikson Zaharias",
+    "aliases": [
+      "Mildred Ella Didrikson",
+      "Babe Didrikson",
+      "Mildred Didrikson Zaharias"
+    ],
+    "wikidataId": "Q231983",
+    "birthYear": 1911,
+    "deathYear": 1956,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical"
+    ],
+    "tagIds": [
+      "competitor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bdz_wikidata",
+      "kind": "wikidata",
+      "title": "Babe Didrikson Zaharias (Q231983) -- identity verified live via wbgetentities (2026-10-02): label 'Babe Didrikson Zaharias', description 'American golfer and athlete', P569 26 Jun 1911, P570 27 Sep 1956, citizenship United States (Q30), instance of human; ko label and kowiki sitelink '베이브 디드릭슨'; P18 'Babe Didrikson Zaharias 1938.jpg' and 'Mildred \"Babe\" Didrikson Zaharias, 1911-1956 (portrait) (cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q231983"
+    },
+    {
+      "id": "src_bdz_tsha_cayleff",
+      "kind": "biography",
+      "title": "Susan E. Cayleff (historian; author of Babe: The Life and Legend of Babe Didrikson Zaharias, 1995), 'Zaharias, Mildred Ella Didrikson [Babe]', Handbook of Texas Online, Texas State Historical Association -- scholar's encyclopaedia entry (non-self, secondary). Fetched with curl and read in full. Used: 1930 recruitment by Employers Casualty, the 1932 AAU championships as a one-woman team (8 events entered, 30 points), the 1932 Olympic results and the head-first high-jump ruling, the AAU suspension and turn to professional exhibitions 1932-34, golf lessons with Stan Kertes 1933, the 1935 Texas Women's Amateur and USGA ineligibility ruling, reinstatement 1943, LPGA founding and presidency 1952-55, and its summary that her 'self-congratulatory manner' irritated some fellow athletes. Its passages on her private relationships, her illness and her death are NOT used.",
+      "url": "https://www.tshaonline.org/handbook/entries/zaharias-mildred-ella-didrikson-babe"
+    },
+    {
+      "id": "src_bdz_si1975_johnson",
+      "kind": "press",
+      "title": "William O. (Bill) Johnson and Nancy Williamson, 'Babe' (three-part series, Sports Illustrated, 6, 13 and 20 Oct 1975; the vault shows the byline 'SI Staff'; authorship confirmed by the 6 Oct 1975 'Letter from the Publisher', which also records that the authors found her autobiography of little use ('a bomb') and drew on a cache of her letters kept by friends; read via Wayback Machine captures because the live vault URLs redirect) -- journalists' reconstruction (non-self) from interviews with people who knew her (sister Lillie Grimes, PE teacher Beatrice Lytle, Ruth Scurlock, schoolmate Raymond Alford, Olympic team-mates Evelyne Hall and Jean Shiley Newhouse -- both adversarial -- Gene Sarazen, Patty Berg, Peggy Kirk Bell, Bertha Bowen, Braven Dyer, Emory Olive, Fred Corcoran, George Zaharias, Betty Dodd) and her 1930-34 letters to Beaumont sports editor Tiny Scurlock (self). All three parts read in full from the local text. Used: the 1930-31 Scurlock letters (training plan, pay ploy), the 1932 AAU meet and Olympic train trip (Hall, Shiley), the 1932 Olympic hurdles and high jump, golf practice (Lillie Grimes, Sarazen), the 1935 Texas championship and USGA ban, the 1940-43 reinstatement, the LPGA founding, the appearance-money dispute (Hicks), on-course gamesmanship (Dodd, Bell). Its private-life, marriage, Betty Dodd relationship, family-money, illness and death passages are NOT used; its 'greatest' judgements and its own editorial adjectives ('braggart', 'prima donna') are not used as evidence.",
+      "url": "https://web.archive.org/web/2021/https://vault.si.com/vault/1975/10/06/babe"
+    },
+    {
+      "id": "src_bdz_olympic_report1932",
+      "kind": "institution",
+      "title": "Xth Olympiade Committee, The Games of the Xth Olympiad Los Angeles 1932: Official Report (1933), pp. 476-490 (Track and Field Athletics -- Women: narrative summary, records table, 80 m hurdles, high jump and javelin result pages) -- organising committee's official record (non-self, institutional), read as page full-text from the LA84 Foundation Digital Library (CONTENTdm collection p17103coll8, compound object 8040) after the Internet Archive copy (los-angeles-olympics-report) proved to have only partial OCR. Used for event facts only: she entered three events; won the javelin with a world record on her first throw (43.68 m); won the 80 m hurdles final in 11.7 s ahead of Evelyne Hall in what the report calls one of the two closest finishes of the Games; in the high jump she 'jumped as high as the winner, being tied for first place, but she was ruled out in the jump-off for illegal jumping' (the results table lists her 2nd at 1.64 m against Shiley's 1.67 m). Supports no behavioural row on its own.",
+      "url": "https://digital.la84.org/digital/collection/p17103coll8/id/8040"
+    },
+    {
+      "id": "src_bdz_nyt_obit1956",
+      "kind": "press",
+      "title": "'Babe Zaharias Dies; Athlete Had Cancer', The New York Times, 28 Sep 1956 (Special to The New York Times; NYT Learning Network 'On This Day' reprint) -- CONTEMPORARY journalist's obituary (non-self), carrying her own remarks (self) and Eisenhower's statement. Fetched with curl and read in full. Used: that when she turned to golf she drove 'as many as 1,000 golf balls a day' and played until her hands had to be taped; her 'As long as I am improving I will go on' remark (self); that in her younger days she goaded rivals with 'Yep, I'm gonna beat you' and later encouraged younger players; her 1947 professional turn. Its health, treatment and death passages are NOT used; its 'greatest female athlete' heading (an AP poll) is not used; its birth date (1914) is wrong and is not used.",
+      "url": "https://archive.nytimes.com/www.nytimes.com/learning/general/onthisday/bday/0626.html"
+    },
+    {
+      "id": "src_bdz_usga_glenn2011",
+      "kind": "press",
+      "title": "Rhonda Glenn (USGA; women's golf historian), 'The Triumph Of Her Life', USGA.org, 25 Jun 2011 (read via a Wayback Machine capture because usga.org returned 'Access Denied' to curl) -- golf historian's narrative account (non-self) of the 1954 U.S. Women's Open with interview testimony from fellow professionals Betsy Rawls, Louise Suggs (a rival; adversarial), Mickey Wright and Barbara Romack, and from Bertha Bowen and Peggy Kirk Bell. Read in full from the local text. Used ONLY for quoted testimony and documented actions: Rawls ('I don't think I've ever seen anybody that took losing less gracefully'), Suggs ('Babe had to win and she didn't give a damn how'), Wright ('She had no intention of having a youngster do as well as she did'), the 1951 Romack 'better if you didn't outdrive me' remark, the Bowens' 1935 attempt to have the USGA ruling rescinded, and her demanding appearance money. Its reconstructed inner thoughts and its illness, colostomy, marriage and Betty Dodd passages are NOT used.",
+      "url": "https://web.archive.org/web/2020/https://www.usga.org/articles/2011/06/the-triumph-of-her-life-21474837610.html"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 84,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_bdz_si1975_johnson, src_bdz_usga_glenn2011, src_bdz_nyt_obit1956, src_bdz_tsha_cayleff | 1920s-1954 | journalists' interviews incl. two adversarial Olympic team-mates + golf historian's interviews incl. a rival + contemporary obituary + scholar] Many dated instances from several independent testimonies, several of them hostile. Schoolmate Raymond Alford (SI): in the trolley-barn games she 'wanted to excel, to win, to beat us boys'. Her Feb 1930 letter to Tiny Scurlock (self, via SI) about a team that had beaten the Golden Cyclones: 'if I can help it they wont do it anymore'. At the 1932 AAU meet she entered eight events (TSHA, SI), and team-mates Evelyne Hall and Jean Shiley (SI, adversarial) describe her boasting at rivals and, after the 1932 high-jump ruling, that 'she never admitted she was beaten'. In golf, SI (via Betty Dodd and Peggy Kirk Bell) documents her lending a club to a friend in a practice round and taking it back once it helped, and hitting a five-iron while saying it was a seven; Glenn records Barbara Romack's 1951 account ('better if you didn't outdrive me, honey'), Mickey Wright on 1954 ('no intention of having a youngster do as well as she did'), Betsy Rawls ('took losing less gracefully' than anyone she had seen) and her rival Louise Suggs ('Babe had to win and she didn't give a damn how'). The 1956 NYT obituary records her goading rivals with 'Yep, I'm gonna beat you'. A convergent pattern across friendly and hostile sources; dual_edged because the same accounts record team-mates' and rivals' resentment and gamesmanship complaints (Hall, Suggs). RUBRIC_CORRECTION at lead review (downward only, no new evidence): 86/0.76 documented -> 84/0.72 documented; the adversarial team-mates' and rivals' testimony reaches the profile through two later retellings (SI 1975 series, USGA 2011) that share informants"
+    },
+    "social_assertiveness": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_bdz_si1975_johnson, src_bdz_tsha_cayleff, src_bdz_usga_glenn2011 | 1931-1954 | journalists' interviews incl. adversarial team-mates + scholar + golf historian] On the 1932 Olympic train (SI) Evelyne Hall saw her ride a Western Union bicycle round the Albuquerque platform shouting 'Ever heard of Babe Didrikson? You will!', and Jean Shiley says she broke into other athletes' press interviews and once played her harmonica so a reporter could not talk to anyone else (both adversarial). In 1931 she wrote to Scurlock asking him to send a pretend job offer so she could press Employers Casualty for a raise to $150 (self, via SI). In the early 1950s, when Betty Hicks publicly criticised her appearance money, she called a meeting of LPGA members and told them she was 'the star of this show' (SI); Glenn records her demanding appearance money and longer courses; Dodd (SI) recounts her walking into the Rolex office asking to see 'the boss'. TSHA (scholar) summarises a 'self-congratulatory manner' that irritated some fellow athletes. dual_edged: Shiley was elected 1932 team captain over her and team-mates wanted her beaten (SI)."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bdz_si1975_johnson, src_bdz_nyt_obit1956, src_bdz_tsha_cayleff | c.1931-1950 | journalists' interviews (sister, Gene Sarazen) + contemporary obituary + scholar] Several separately reported instances of practice beyond what any event required. Her sister Lillie (SI) recalls her in Dallas hitting balls until her hands were taped and refusing to stop at dark ('No, I got to hit just a few more'); SI states she often hit 1,000 balls a day in Dallas and later practised at driving ranges for up to 10 straight hours between tours; Gene Sarazen, who toured with her in 1935 (SI), said only Ben Hogan practised more and that she learned by standing ten feet away watching everything he did and then practising for hours; TSHA dates golf lessons with Stan Kertes in spring-summer 1933 between exhibition engagements; the 1956 NYT obituary independently reports up to 1,000 balls a day and taped hands, and quotes her 'As long as I am improving I will go on' (self). The NYT and Lillie accounts may share the autobiography's lineage, so this stays below 0.65."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bdz_si1975_johnson, src_bdz_nyt_obit1956, src_bdz_tsha_cayleff | 1930-1935 | journalists' interviews + contemporary obituary + scholar; one self letter] In a 23 Jun 1930 letter to Scurlock (self, via SI) she set herself an Olympic plan -- train the broad jump, high jump ('true Western roll'), baseball and javelin throws 'two times a week into 1932' -- and she qualified in the javelin, hurdles and high jump at the 1932 trials (TSHA, SI). The self-directed golf practice reported by her sister (SI: hitting after dark with taped hands while her sister begged to go in), by Sarazen (practising for hours after watching him) and by the NYT (1,000 balls a day) was done without coach or employer pressure. Kept moderate: the plan is self-reported, the practice evidence is also the main support for mastery_orientation, and SI records that the 1930-32 track and basketball work was organised and paid for by Employers Casualty."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bdz_si1975_johnson, src_bdz_tsha_cayleff, src_bdz_usga_glenn2011 | 1932-1943 | journalists + scholar + golf historian] After the 1932 AAU suspension and her turn to professional exhibitions she kept pursuing competitive golf through repeated setbacks: SI, TSHA and Glenn all document the 1935 USGA ruling, after her Texas Women's Amateur win, that she was ineligible as an amateur (the Bowens' attempt to have it rescinded failed), leaving her almost no tournaments; she toured exhibitions with Sarazen in 1935 (SI), qualified for the 1938 Los Angeles Open (TSHA, SI), then in 1940 publicly renounced professional golf and sat out the prescribed three-year period to regain amateur status, which she did in January 1943 (SI; TSHA dates reinstatement to 1943). A multi-year, multiply documented pursuit; not scored higher because the waiting period was a rule she accepted rather than a series of failures, and because her return to tournament golf after surgery in 1953-54 is deliberately not used (health exclusion)."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bdz_si1975_johnson, src_bdz_tsha_cayleff, src_bdz_usga_glenn2011 | 1931-1952 | journalists + scholar + golf historian] Several distinct episodes of creating openings rather than waiting for them: the 1931 Scurlock letter engineering an outside offer to raise her pay (self, via SI); after turning professional in 1932-33 she called her own New York press conference and took up paid basketball, billiards, vaudeville and baseball dates (SI, TSHA), though Roy Doan and an agent booked several of them; in winter 1948, by SI's account because exhibition income 'was not enough', she and George Zaharias met Fred Corcoran and Patty Berg to found the Ladies Professional Golf Association, which TSHA (scholar) describes as created to give the handful of women professionals a tournament circuit; Dodd (SI) recounts her walking into the Rolex office to see 'the boss', which led to a golf date, a luncheon and gift watches. Several of these were joint ventures (Corcoran; Wilson's L.B. Icely funded the 1949 tour), so this is a moderate lean."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/babe-didrikson-zaharias-warnecke-1947.jpg",
+    "width": 1226,
+    "height": 1600,
+    "source": "National Portrait Gallery, Smithsonian Institution (NPG.97.211), Smithsonian Open Access, via Wikimedia Commons",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Harry Warnecke, with Robert F. Cranston and August 'Gus' Schoenbaechler, '\"Babe\" Didrikson', color carbro print, 13 Aug 1947; National Portrait Gallery, Smithsonian Institution (NPG.97.211), CC0",
+    "attributionUrl": "https://www.si.edu/object/npg_NPG.97.211",
+    "creator": "Harry Warnecke (with Robert F. Cranston, Gus Schoenbaechler)",
+    "date": "1947",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mildred_Didrikson_Zaharias,_NPG_97_211.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "베이브 디드릭슨"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-02T00:00:00Z",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-02) for Q231983 returned label 'Babe Didrikson Zaharias', description 'American golfer and athlete', P569 26 Jun 1911, P570 27 Sep 1956, citizenship United States (Q30), instance of human, en aliases 'Babe Didriksen', 'Mildred Ella \"Babe\" Didrikson Zaharias', 'Mildred Ella Didrikson', 'Babe'; ko label '베이브 디드릭슨' and kowiki sitelink '베이브 디드릭슨' (the Korean Wikipedia title uses the short form, so it is used for localization); P18 'Babe Didrikson Zaharias 1938.jpg' and 'Mildred \"Babe\" Didrikson Zaharias, 1911-1956 (portrait) (cropped).jpg'. BIRTH YEAR: 1911 follows Wikidata, TSHA and SI 1975 (baptismal certificate); she herself gave 1913, 1914, 1915 and 1919 at various times (SI) and the 1956 NYT obituary gives 1914 -- a known self-made discrepancy, not used as evidence of anything. SLUG CHECK: no data-pipeline/candidates/babe-didrikson-zaharias.json and no public/portraits/*didrikson* or *zaharias* existed before this run (ls/grep of data-pipeline/candidates showed only babe-ruth.json, unrelated); no collision. CLASSIFICATION: occupation athlete and field sport, era 20th_century, US, north_america, impactDomains athletic and historical, tag competitor and archetype competitive_performer, following jesse-owens.json, jim-thorpe.json and jackie-robinson.json (athlete / sport, 20th-century US). Tag and archetype are classification only (tied to the competitiveness row), not evidence. No business/organisation field was added for the LPGA co-founding: it is incidental to the selected sport identity.\nEVIDENCE READ: 6 source records (1 orientation, 5 read in full with curl and local text extraction): Cayleff's Handbook of Texas entry (TSHA); the three-part Sports Illustrated series by William O. Johnson and Nancy Williamson (6/13/20 Oct 1975, Wayback captures; authorship confirmed from SI's 6 Oct 1975 'Letter from the Publisher', which was also read); the 1932 Official Report women's athletics pages (LA84 full text); the NYT obituary of 28 Sep 1956; Rhonda Glenn's USGA article (2011, Wayback capture).\nINDEPENDENT PERSPECTIVES: (1) Susan Cayleff / TSHA, scholar and her biographer; (2) Johnson and Williamson / SI 1975, journalists, built on their own interviews -- including two adversarial Olympic team-mates (Evelyne Hall, Jean Shiley Newhouse), friends and family, Gene Sarazen, Patty Berg -- and on her 1930-34 letters to Tiny Scurlock; (3) The New York Times 1956, contemporary journalism; (4) Rhonda Glenn / USGA 2011, golf historian, built on interviews with fellow professionals including her rival Louise Suggs (adversarial), Betsy Rawls, Mickey Wright and Barbara Romack; (5) the 1932 Olympic Official Report (institution; event facts only, no row rests on it). Independence caveats: Glenn and SI share some informants (Bertha Bowen, Betty Dodd, Peggy Kirk Bell) -- shared anecdotes (e.g. the 1953 Tam O'Shanter round) are counted as one; the NYT obituary and the sister's practice recollection may both echo her own autobiography. SELF perspective (counted once): her letters to Scurlock and her quoted remarks as carried by SI and the NYT. Her autobiography 'This Life I've Led' (1955), Gallico's 'Farewell to Sport' (1938) and Cayleff's 'Babe' (1995) are lending-only on the Internet Archive (access-restricted) and were NOT read. NON-SELF BEHAVIOURAL sources: SI 1975, Glenn/USGA, NYT 1956, TSHA. No row rests on self material alone.\nEPISODE USE: childhood trolley-barn games (Alford) -> competitiveness only; Feb-Mar 1930 Scurlock letters -> competitiveness; 23 Jun 1930 training-plan letter -> discipline only; 1931 pay-raise letter -> social_assertiveness and proactive_agency; 1932 AAU meet entries and the Olympic train (Hall, Shiley) -> competitiveness and social_assertiveness; 1932 high-jump ruling aftermath (Shiley) -> competitiveness only; Dallas and 1930s golf practice (Lillie, SI, Sarazen, NYT) and 1933 Kertes lessons -> mastery_orientation and discipline; 1932-34 professional exhibitions and press conference -> proactive_agency only; 1935 USGA ruling, 1935 Sarazen tour, 1940-43 reinstatement -> persistence only; 1948 LPGA founding meeting -> proactive_agency only; club lending/taking back and false club calls (Dodd, Bell), Romack 1951, Wright 1954, Rawls, Suggs, NYT 'Yep, I'm gonna beat you' -> competitiveness only; Hicks appearance-money meeting ('star of this show') -> social_assertiveness only; Rolex walk-in (Dodd) -> social_assertiveness and proactive_agency.\nROWS CONSIDERED AND LEFT UNSCORED: achievement_drive (the medal-counting and money goals are mainly in her own letters; the non-self material is already used for competitiveness); conflict_tolerance (mixed: the Hicks meeting and the Suggs rivalry against Bertha Bowen's testimony that she dismissed the 1935 USGA ruling, held no grudges and 'just pulled out her harmonica' -- unresolved, not scored); cross_domain_range (her range lies within sport and sport-adjacent exhibition; the definition asks for genuinely different fields -- the multi-sport record is classification context, not scored); risk_tolerance (SI's 'wing walker' image of her pre-event boasting is the journalists' interpretation); adaptability (the move from track to golf followed the AAU ruling and is already used in persistence); collaboration and leadership_drive (LPGA co-founding and 1952-55 presidency are titles/joint ventures; team-mates' accounts are hostile) ; resourcefulness (the 1932 javelin 'my hand slipped' remark is a single self quote).\nEXCLUDED ON PURPOSE: her cancer, colostomy, treatment, pain, drug-addiction allegation by a doctor and death, and the 1953-54 return to tournament golf after surgery, including the 'I'm no quitter' scene (not used as personality evidence for any row, per the health rule); her marriage, separations and quarrels with George Zaharias; her relationship with Betty Dodd (TSHA, SI, Glenn -- no speculation, not used); family finances and siblings' complaints; a fatal 1930s road accident mentioned in passing by Ruth Scurlock (single hearsay, 'I think'); gambling anecdotes (gin rummy) as character evidence; childhood fights (SI) as evidence; all 'greatest female athlete' claims, AP polls, Eisenhower's tribute and Grantland Rice's superlatives; medal, record and money totals as evidence; the disputed 13-versus-17 consecutive-win streak (TSHA says she claimed 17 while 13 is correct; SI says 17) is not used.\nCONFLICTS REPORTED, NOT ADJUDICATED: (a) birth year (above); (b) 1932 high jump: TSHA and SI say she cleared the same height as Shiley and was ruled to have 'dived' (head first) in the jump-off; the Official Report narrative says she was tied for first and 'ruled out in the jump-off for illegal jumping', while its result table lists her 2nd at 1.64 m (5 ft 5 in) against Shiley's 1.67 m (5 ft 5 1/4 in); (c) golf beginnings: her autobiography (per SI) says the 1932 round with Grantland Rice was her first, but SI found contemporary clippings calling it her 11th round and her PE teacher Bea Lytle says she played from high school; (d) first tournament: TSHA says Fort Worth Women's Invitational Nov 1932 and Texas Women's Amateur 'the following April'; SI calls the Texas title her first win and dates it 1935 (TSHA's USGA ruling follows it); (e) LPGA founding: TSHA says 1948 with Berg, Danoff and Jameson; SI says winter 1948 meeting with George Zaharias, Corcoran and Berg, tour started 1949; (f) the 1938 meeting with George Zaharias: TSHA and SI 1938; NYT 1937. None affects a score.\nKNOWN LIMITS: Olympics.com (news feature) timed out to WebFetch and was not read; usga.org and vault.si.com were read only through Wayback captures; no 1932 newspaper was read directly (LOC/Chronicling America is Cloudflare-blocked and was not bypassed); Gallico's 1938 essay, her autobiography and Cayleff's book were not read (access-restricted). SI 1975 is the richest source and supplies most interview testimony; Glenn's article supplies the independent golf-tour voices. The profile is deliberately limited to 6 rows; only competitiveness reaches the 85 band, because it is corroborated by independent and adversarial witnesses across 1920s-1954 (Hall, Shiley, Rawls, Suggs, Wright, Romack) and by contemporary journalism.\nPORTRAIT: Commons 'File:Mildred Didrikson Zaharias, NPG 97 211.jpg'. File-page wikitext read via action=raw: Photograph template, photographer Harry Warnecke / Robert F. Cranston / Gus Schoenbaechler, date 1947, medium color carbro print, institution National Portrait Gallery, accession NPG.97.211, source npg.si.edu object npg_NPG.97.211, license {{Cc-zero}} with {{LicenseReview}} passed (Yann, 2025-01-20); no third-party or 'copyright claim' notice. Commons API extmetadata: LicenseShortName CC0, UsageTerms 'Creative Commons Zero, Public Domain Dedication'; original 4469x5832, SHA1 e10ecf379be033c0afad1ca133086a5921bc3f32 (matched by the downloaded file). UPSTREAM CHECK: the si.edu object page (fetched with curl) gives 'Restrictions & Rights: CC0', date 'August 13, 1947', and states 'This media is in the public domain (free of copyright restrictions)'; its markup also contains a 'Usage Conditions Apply' label as the alternate state of the usage badge (usage--cc0, usage--conditions and usage--restricted classes are all present; the media wrapper is media--openaccess), the same pattern accepted for jackie-robinson (NPG.97.135, same Warnecke carbro series). Original downloaded with curl and a User-Agent, opened with Pillow (RGB), downscaled (LANCZOS) to 1226x1600, JPEG q85, no crop, no upscaling; viewed: full-length colour photograph of her at the finish of a golf swing on a fairway, face clearly visible. Kind: likeness. REJECTED: 'Mildred \"Babe\" Didrikson Zaharias, 1911-1956 (portrait) (cropped).jpg' (Wikidata P18; World Wide Photos 1946 via BAnQ/La Presse) -- tagged {{PD-Canada}} {{PD-US-not renewed}}, but no US publication with notice or renewal search is documented, so the US basis is uncertain; 'Babe Didrikson Zaharias 1938.jpg' (Wikidata P18; ACME press photo, 22 Jul 1938) -- bare {{PD-US-no notice}} sourced from another Commons file with no documented publication and a wedding-press-photo context; the LOC 3c132xx files are 150 px thumbnails.\nKOREAN NAME: '베이브 디드릭슨' is the Wikidata ko label and the Korean Wikipedia title (no fuller form is used there). No eligibility, coverage or match output was used in scoring. LEAD REVIEW RUBRIC_CORRECTION: competitiveness 86/0.76 documented -> 84/0.72 documented (the adversarial team-mates' and rivals' testimony reaches the profile through two later retellings (SI 1975 series, USGA 2011) that share informants). PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Portrait rights-verified."
+  }
+}

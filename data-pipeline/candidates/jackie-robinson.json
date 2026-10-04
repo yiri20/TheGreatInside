@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jackie-robinson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jackie Robinson",
+    "aliases": [
+      "Jack Roosevelt Robinson"
+    ],
+    "wikidataId": "Q221048",
+    "birthYear": 1919,
+    "deathYear": 1972,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical"
+    ],
+    "tagIds": [
+      "competitor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jrobinson_wikidata",
+      "kind": "wikidata",
+      "title": "Jackie Robinson (Q221048) -- identity verified live via the wbgetentities API (2026-09-26): label 'Jackie Robinson', description 'American baseball player (1919–1972)', P569 31 Jan 1919, P570 24 Oct 1972, citizenship United States (Q30), instance of human, en alias 'Jack Roosevelt \"Jackie\" Robinson', ko label '재키 로빈슨' (ko aliases '잭키 로빈슨', '재키로빈슨'), kowiki sitelink '재키 로빈슨', P18 'Jackie Robinson, NPG 97 135.jpg' and 'Jackie robinson abc sports announcer 1965.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q221048"
+    },
+    {
+      "id": "src_jrobinson_sabr_swaine",
+      "kind": "biography",
+      "title": "Rick Swaine, 'Jackie Robinson', SABR Baseball Biography Project (posted 4 Jan 2012; adapted from Swaine, The Black Stars Who Made Baseball Whole, McFarland 2006) -- baseball historian's biography (non-self, secondary), citing contemporary papers (Pittsburgh Courier, Amsterdam News, Sporting News, Brooklyn Eagle), Tygiel, Kahn and Golenbock; carries Leo Durocher's and Bobby Bragan's recollections. Fetched with curl and read in full. Used: Fort Riley and Camp Hood 1943-44, the 1945 Monarchs season, the 18 Apr 1946 Montreal debut, 1947 conduct under the agreement with Rickey (Chapman, Slaughter), 1948 reporting out of shape, the 1953 position changes for Gilliam, the 1955 World Series steal of home, the 1956-57 trade and retirement, later business roles. Its 'most significant'/'first' rankings are not used.",
+      "url": "https://sabr.org/bioproj/person/jackie-robinson/"
+    },
+    {
+      "id": "src_jrobinson_vernon_prologue2008",
+      "kind": "archive",
+      "title": "John Vernon (NARA archivist/historian), 'Jim Crow, Meet Lieutenant Robinson: A 1944 Court-Martial', Prologue (National Archives) vol. 40 no. 1, Spring 2008 -- archival study (non-self, scholar) built on Robinson's court-martial case file (RG 153), his personnel file (RG 319) and the Civilian Aide's records (RG 107); quotes Robinson's July 1944 handwritten letter to Truman Gibson (self), the Kimball-Buie telephone transcript and Lt. Col. Paul Bates's trial testimony. Used: Fort Riley PX telephone argument and refusal to play football (1943), the 6 Jul 1944 bus incident and guardhouse confrontation, the 2 Aug 1944 trial and acquittal on all charges, the later request for release. Also corrects later myths (the 758th transfer predated the incident; the 761st had not yet shipped). Fetched with curl and read in full.",
+      "url": "https://www.archives.gov/publications/prologue/2008/spring/robinson.html"
+    },
+    {
+      "id": "src_jrobinson_tygiel_amheritage1984",
+      "kind": "press",
+      "title": "Jules Tygiel (historian, author of Baseball's Great Experiment), 'The Court-Martial of Jackie Robinson', American Heritage vol. 35 no. 5, Aug/Sep 1984 -- scholar's account (non-self) drawn from the trial transcript and interviews with fellow officers (Harry Duplessis, Ivan Harrison) and team-mate Pete Reiser's recollection of the Fort Riley baseball exclusion; quotes Robinson's letters to the NAACP (self). Used: Fort Riley PX call to the provost marshal (1943), refusal to play football, the 6 Jul 1944 bus and guardhouse events, the adversarial testimony of Captains Bear and Wigginton, the acquittal. Same episode as Vernon (one incident, two scholarly reconstructions). Fetched with curl and read in full.",
+      "url": "https://www.americanheritage.com/court-martial-jackie-robinson"
+    },
+    {
+      "id": "src_jrobinson_time1947",
+      "kind": "press",
+      "title": "'Sport: Rookie of the Year', Time magazine cover story, 22 Sep 1947 (time.com archive) -- CONTEMPORARY journalist's account (non-self) of the 1946-47 seasons; carries remarks by Branch Rickey and by Robinson (self), the Brooklyn committee's 'do's and don'ts' (no objecting to umpires, grin and bear insults), the Slaughter spiking and the Garagiola exchange, his move to first base, being 'cut loose' to steal without a signal, and his study of pitchers (Si Johnson's neck, timing Joe Beggs's windup before stealing home). Fetched with curl and read in full. Its descriptions of his home life and family are not used.",
+      "url": "https://time.com/archive/6600534/sport-rookie-of-the-year/"
+    },
+    {
+      "id": "src_jrobinson_nowlin_sabr_steals",
+      "kind": "press",
+      "title": "Bill Nowlin, 'Jackie Robinson's Steals of Home', SABR Baseball Research Journal article (sabr.org/journal) -- researcher's game-by-game reconstruction (non-self) of every major-league attempt to steal home (19 successful regular-season steals, one in the World Series, 12 times caught), each sourced to the next day's New York Times, Brooklyn Daily Eagle, Boston Globe, Chicago Tribune or AP report; also the April 1946 Montreal debut, the Opening Day 1955 play in which he let a batted ball hit him to prevent a double play (New York Post), Rickey's 1946 instruction to run (via Rowan with Robinson, 1960), and the 28 Sep 1955 World Series steal with the Ford/Berra/Robinson reactions (AP). Fetched with curl and read in full.",
+      "url": "https://sabr.org/journal/article/jackie-robinsons-steals-of-home/"
+    },
+    {
+      "id": "src_jrobinson_mccue_sabr_owners",
+      "kind": "press",
+      "title": "Andy McCue (historian; author of the Walter O'Malley biography Mover and Shaker, 2014), 'Jackie Robinson and Baseball Owners', SABR journal article (Dec 2021) -- scholar's account (non-self) of Robinson's relations with Branch Rickey and Walter O'Malley; carries Arthur Mann's firsthand note, Sam Lacy, Roger Kahn and O'Malley's own reported words (adversarial), plus Robinson's statements (self). Used: Rickey freeing him from the promise in 1949; Robinson raising segregated hotels on road trips; the disputed umpire-baiting fine and the press leak; O'Malley's 'prima donna' charge; the Dec 1956 Chock full o'Nuts agreement, Look contract, Giants trade and the Bavasi exchange. Its HUAC-testimony passage (political) is not used. Fetched with curl and read in full.",
+      "url": "https://sabr.org/journal/article/jackie-robinson-and-baseball-owners/"
+    },
+    {
+      "id": "src_jrobinson_nyt_anderson1972",
+      "kind": "press",
+      "title": "Dave Anderson, 'Jackie Robinson, First Black in Major Leagues, Dies', New York Times obituary, 25 Oct 1972 (NYT Learning Network 'On This Day' reprint) -- sports columnist's obituary (non-self, contemporary journalist) carrying Robinson's own recollections (self) and remarks by Monte Irvin, Elston Howard, Bill Russell, Don Newcombe ('loud wrong'), Warren Giles and batboy Charlie DiGiovanna. Used: 1948 onward arguing with umpires and opponents after the rookie restraint; clubhouse debates; the 1954 Maglie/Davey Williams collision and Alvin Dark play (Robinson's own recollection with Reese's prompt); the 1957 Look/Bavasi sequence; later executive posts. Fetched with curl and read in full. Its passages on his health, his son's addiction and death, and his party politics are NOT used. NOTE: it says he stole home 11 times, which conflicts with Nowlin/SABR (19); the SABR count is used.",
+      "url": "https://archive.nytimes.com/www.nytimes.com/learning/general/onthisday/bday/0131.html"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_jrobinson_nowlin_sabr_steals, src_jrobinson_time1947, src_jrobinson_sabr_swaine | 1946-1956 | researcher from contemporary game reports + contemporary journalist + historian] Nowlin reconstructs, game by game from next-day New York Times, Brooklyn Eagle, Boston Globe and Chicago Tribune reports, 19 regular-season steals of home and 12 failed attempts across 1947-56, several tried in close or late situations, plus the 28 Sep 1955 World Series steal with Brooklyn two runs down, which Alston and Robinson agreed was his own decision and which Berra called 'a dumb play' that worked. Time (Sep 1947) reports the Dodgers 'cut him loose' to steal without a signal and quotes him (self): 'Daring . . . that's half my game'. Swaine documents the 18 Apr 1946 Montreal debut in which he twice feinted from third until the pitcher balked him home. Many dated instances from several independent reports; kept below the 85 band because it is on-field tactical risk only. dual_edged: the same approach produced the 12 caught-stealing-home outs and, per Nowlin, the league-high 16 times caught stealing in 1949."
+    },
+    "competitiveness": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_jrobinson_sabr_swaine, src_jrobinson_nyt_anderson1972, src_jrobinson_nowlin_sabr_steals | 1947-1956 | historian + contemporary journalist + researcher; includes a rival's testimony] Swaine quotes Leo Durocher -- his manager and later an archrival -- that Robinson 'didn't just come to play. He came to beat you' (via Kahn). Anderson's 1972 NYT obituary names 'a competitive flame' as his dominant characteristic and gives the 1954 Ebbets Field episode: asked by Reese to answer Sal Maglie's brushback pitching, he bunted toward first to draw Maglie and ran over second baseman Davey Williams, who was injured (Robinson's own recollection: 'He had a Giant uniform on. That's what happens'), then faced Alvin Dark's retaliatory slide. Nowlin records the 1955 World Series steal with his team two runs down and his insistence afterwards that 'there wasn't any question about it'. Several dated episodes from independent sources, one testimony from an opponent; dual_edged because the 1954 collision injured another player."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_jrobinson_vernon_prologue2008, src_jrobinson_tygiel_amheritage1984, src_jrobinson_time1947, src_jrobinson_nyt_anderson1972, src_jrobinson_mccue_sabr_owners | 1943-1957 | two archival scholars (incl. adversarial trial testimony) + contemporary journalist + O'Malley's biographer] In the Army (Vernon and Tygiel, from the court-martial file) he argued by telephone with the Fort Riley provost marshal over PX seating in 1943, declined to play for the post football team after being barred from its baseball team, and on 6 Jul 1944 refused a Camp Hood bus driver's order to move back, then disputed the MPs' and officers' accounts at the guardhouse; he was tried and acquitted on all charges on 2 Aug 1944 (one incident, two reconstructions; the prosecution witnesses supply the adversarial view). In baseball, Time (Sep 1947) records his first on-field exchange of words, with Joe Garagiola after being spiked; Anderson says that from 1948, released from the rookie restraint, he argued with umpires and opponents; McCue documents his dispute with the club over an umpire-baiting fine and a lasting conflict with O'Malley, and the Jan 1957 exchange with Bavasi after which, by his own account (NYT), he would not play again. Independent sources across two careers; dual_edged because it cost him standing with club management (McCue)."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jrobinson_time1947, src_jrobinson_sabr_swaine, src_jrobinson_mccue_sabr_owners | 1946-1948 | contemporary journalist + historian + scholar] Having agreed in the August 1945 meeting with Rickey (one episode, told by both men) not to respond to provocation, he kept to it through 1946-47 by several independent accounts: Time (Sep 1947) reports he 'set his teeth, and said nothing' after Enos Slaughter's spiking and quotes him on the Chapman-led Phillies' abuse, 'I'd get mad. But I'd never let them know it' (self); Swaine records that he did not retaliate against Slaughter and posed for a photograph with Chapman; McCue dates Rickey's release of the promise to 1949. Against this, Swaine notes he reported to 1948 camp out of shape. The restraint served an external agreement rather than a self-set plan, so this is a moderate lean, not a high score."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jrobinson_time1947, src_jrobinson_sabr_swaine, src_jrobinson_nyt_anderson1972 | 1947-1956 | contemporary journalist + historian + journalist] A shortstop/second baseman until then, he was moved to first base for his 1947 debut; Time describes him developing a 'scissors' pivot at a position suited to left-handers. Swaine records his 1948 return to second base, then in 1953 his agreeing to move so that Jim Gilliam could play second, appearing that season in 76 games in the outfield, 44 at third, and at second, first and once at shortstop, and sharing third base and left field in 1954-56; Anderson lists first, second, third and left field. Several separately documented position changes; the moves were club decisions, so only his willingness and performance in them are evidence, hence a moderate score."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jrobinson_time1947, src_jrobinson_nowlin_sabr_steals | 1946-1955 | contemporary journalist + researcher from contemporary reports] Time (Sep 1947) reports that he kept running on a walk when he saw the catcher had lost the ball, that he had noticed that when Boston's Si Johnson crooked his neck he had stopped watching the runner, and that before stealing home off Joe Beggs he timed the windup on one pitch and ran on the next. Nowlin cites a 1946 Sporting News letter that 'he seems to have the knack of sensing what the pitcher is going to do', the Oct 1946 Little World Series run scored when his feints drew a wild throw to second, and Opening Day 1955 when, on second with the bases loaded, he let Campanella's grounder hit him to prevent a likely double play (New York Post). Several dated instances from two independent sources."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jrobinson_time1947, src_jrobinson_nyt_anderson1972, src_jrobinson_mccue_sabr_owners | 1946-1957 | contemporary journalist + journalist + scholar] The record changes over time. In 1946-47 Time reports he spoke to Montreal team-mates 'only when spoken to' and made it a rule to 'let them make the first move'. From 1948-49, Anderson describes clubhouse debates in which his voice rose 'with his emotional involvement' (Don Newcombe: 'not only are you wrong, you're loud wrong') and arguments with umpires, and McCue records him repeatedly raising segregated hotels on road trips with the club and discussing his umpire-baiting fine with the press. The dominant pattern across his Dodger career is outspoken; dual_edged because McCue shows the same outspokenness drawing O'Malley's 'publicity seeker' and 'prima donna' charges."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jackie-robinson-warnecke-1949.jpg",
+    "width": 1242,
+    "height": 1600,
+    "source": "National Portrait Gallery, Smithsonian Institution (NPG.97.135), Smithsonian Open Access, via Wikimedia Commons",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Harry Warnecke, with Robert F. Cranston, Frank Livia and Bill Klein, 'Jackie Robinson', color carbro print, 1949; National Portrait Gallery, Smithsonian Institution (NPG.97.135), CC0",
+    "attributionUrl": "https://www.si.edu/object/jackie-robinson:npg_NPG.97.135",
+    "creator": "Harry Warnecke (with Robert F. Cranston, Frank Livia, Bill Klein)",
+    "date": "1949",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "재키 로빈슨"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-09-26) for Q221048 returned label 'Jackie Robinson', description 'American baseball player (1919–1972)', P569 31 Jan 1919, P570 24 Oct 1972, citizenship United States (Q30), instance of human, en alias 'Jack Roosevelt \"Jackie\" Robinson', ko label '재키 로빈슨' (ko aliases '잭키 로빈슨', '재키로빈슨'), kowiki sitelink '재키 로빈슨' (used for localization), P18 'Jackie Robinson, NPG 97 135.jpg' and 'Jackie robinson abc sports announcer 1965.jpg'. This is the baseball player, not Q731871. SLUG CHECK: no data-pipeline/candidates/jackie-robinson.json and no public/portraits/*robinson* existed before this run; grep of src/data/people/*.ts for 'Robinson' found only unrelated hits (Arthur Robinson in the Pauling entry; David Robinson as Chaplin's biographer); no collision. CLASSIFICATION: occupation athlete and field sport, following babe-ruth.json and jim-thorpe.json (athlete / sport, era 20th_century, US, north_america). impactDomains athletic and historical (as jim-thorpe); tag competitor and archetype competitive_performer are classification only, tied to the competitiveness row, not evidence. No civil_rights, business or politics field was added: his post-baseball business and civil-rights roles are incidental to the selected primary identity (brief). EVIDENCE READ: 8 source records (1 orientation, 7 read in full with curl and local text extraction): SABR biography (Swaine); NARA Prologue article (Vernon 2008); American Heritage article (Tygiel 1984); Time cover story (22 Sep 1947); SABR journal article on steals of home (Nowlin); SABR journal article on Robinson and the owners (McCue); NYT obituary (Anderson, 25 Oct 1972). Also read but NOT recorded as sources because they carry no usable behavioural evidence: SABR biographies of Branch Rickey (McCue) and Clyde Sukeforth (Ray), a SABR article on Ford Frick (Bohmer), the Smithsonian 'Document Deep Dive' page on the 1950 Robinson-Rickey letters (introduction only; the letters are handwritten scans with no text layer), and a Buffalo library teaching essay on the 1945 meeting (unattributed secondary). INDEPENDENT PERSPECTIVES: (1) Rick Swaine / SABR, baseball historian, carrying Durocher and Bragan; (2) John Vernon, NARA archivist, from the court-martial and personnel files; (3) Jules Tygiel, historian, from the trial transcript and fellow officers' interviews (2 and 3 describe the same 1944 episode and are counted as one incident); (4) Time magazine 1947, contemporary journalism carrying Rickey; (5) Bill Nowlin / SABR, reconstruction from contemporary game reports (NYT, Brooklyn Eagle, Boston Globe, Chicago Tribune, AP); (6) Andy McCue, O'Malley's biographer, carrying O'Malley's and Bavasi's adversarial views, Arthur Mann and Sam Lacy; (7) Dave Anderson / NYT 1972, journalist carrying Newcombe, Irvin, Giles, DiGiovanna. SELF perspective (counted once): Robinson's own statements as quoted in these (Time 1947 quotes; his 1944 letters to Gibson and the NAACP; I Never Had It Made and My Own Story as quoted by NYT, SABR and McCue). Adversarial/independent material: the prosecution witnesses at the 1944 trial (Bear, Wigginton, Mucklerath), Durocher as later archrival, Berra and Ford on the 1955 steal, O'Malley's and Bavasi's charges. NON-SELF BEHAVIOURAL sources: Vernon, Tygiel, Time 1947, Nowlin, McCue, Anderson, Swaine. No row rests on self material alone. EPISODE USE: steals of home 1947-56 and the 1955 World Series steal -> risk_tolerance and competitiveness; 1946 Montreal debut feints -> risk_tolerance; Durocher's remark and the 1954 Maglie/Williams/Dark episode -> competitiveness only; Fort Riley PX call and football refusal 1943, Camp Hood bus/guardhouse and court-martial 1944 -> conflict_tolerance only; 1947 Garagiola exchange -> conflict_tolerance; umpire arguments from 1948 -> conflict_tolerance and social_assertiveness; umpire-baiting fine and O'Malley dispute -> conflict_tolerance and social_assertiveness; Dec 1956-Jan 1957 trade/Look/Bavasi -> conflict_tolerance only; 1945 agreement with Rickey (one episode told by both men) and its keeping in 1946-47 (Slaughter, Chapman) -> discipline only; 1948 reporting out of shape -> discipline (counter-evidence); position changes 1947-56 -> adaptability only; pitcher-watching (Si Johnson, Beggs), running on the lost ball, 1946 TSN letter, Little World Series feint, Opening Day 1955 hit-by-batted-ball -> opportunity_sensing only; 1946-47 reticence vs later clubhouse debates and hotel complaints -> social_assertiveness. ROWS CONSIDERED AND LEFT UNSCORED: autonomy_need (1944 request to leave the Army, dislike of Monarchs barnstorming, the 1957 exit -- mixed motives and largely self-reported; the 1957 episode is kept to the conflict_tolerance row); decisiveness (the 1957 decision was made before the trade but its timing was fixed by the Look contract); leadership_drive (the NYT 'leader' description is an editorial summary; Reese was captain); persistence and achievement_drive (statistics and awards are outcomes, not behaviour); mastery_orientation and detail_orientation (only Time's pitcher-study passage, already used for opportunity_sensing); persuasiveness and impact_motivation (evidence is post-baseball civil-rights and political activity -- excluded by the zero-politics rule). EXCLUDED ON PURPOSE: political endorsements (1960, 1968), the 1949 HUAC testimony, NAACP and campaign activity; his diabetes, heart disease and eyesight; his son's addiction and death and any bereavement; his father's desertion and childhood poverty as personality evidence; the uncorroborated Reese-arm-around-shoulder story (SABR calls it undocumented); all 'most significant'/'greatest' rankings and 'first' claims beyond the sourced 1947 colour-line fact; statistics, awards and attendance as evidence. The 1944 court-martial is used only as a documented public legal event (acquitted on all charges). CONFLICTS REPORTED, NOT ADJUDICATED: (a) steals of home: Nowlin/SABR 19 regular-season (plus one World Series), NYT 1972 obituary 11 'post-war' -- the SABR count is used; (b) Look publication date: McCue says the story could not run until 8 Jan 1957, Swaine says retirement was announced in Look on 22 Jan 1957; (c) Look fee: McCue says $50,000; (d) the 1944 transfer from the 761st to the 758th: Tygiel says it followed Bates's refusal to endorse the charges, Vernon (from the file) says Robinson knew of the transfer a week before the incident; (e) defense counsel: Vernon calls Cline a captain, Tygiel a lieutenant. KNOWN LIMITS: loc.gov (By Popular Demand collection, Rickey and Robinson papers) returned a Cloudflare bot check (HTTP 403) and was not bypassed; Rampersad, Tygiel's Baseball's Great Experiment, Rowan's Wait Till Next Year, I Never Had It Made and the Jackie Robinson Reader are access-restricted on the Internet Archive and were not read (their content appears only as cited by the sources above); no Baseball Hall of Fame page was read. Rickey's side of the 1945 meeting was reached only through secondary accounts, so the meeting itself supports no row directly. The profile is deliberately limited to 7 rows, all at or below 0.68 confidence and 78 score. PORTRAIT: Commons 'File:Jackie Robinson, NPG 97 135.jpg' (Wikidata P18). File-page wikitext read via action=raw: Information template, Source National Portrait Gallery, Smithsonian Institution (si.edu object npg_NPG.97.135), Date 1949, Author Harry Warnecke / Frank Livia / Robert F. Cranston / William Klein, license {{Cc-zero}} with a {{licensereview}} flag pending; no third-party or 'copyright claim' notice. Commons API extmetadata: LicenseShortName CC0, UsageTerms 'Creative Commons Zero, Public Domain Dedication'. UPSTREAM CHECK: the si.edu object page lists 'Restrictions & Rights: CC0' and states 'This media is in the public domain (free of copyright restrictions)'; its markup also contains a 'Usage Conditions Apply' label, but that is the alternate state of the usage badge (both usage--cc0 and usage--restricted classes are present, the media wrapper is 'media--openaccess'), and the Smithsonian Open Access API record for edanmdm:npg_NPG.97.135 gives objectRights 'CC0', metadata_usage access 'CC0' and online_media usage access 'CC0' (IDS id NPG-NPG_97_135_inex). Color carbro print, image 25.4 x 20.6 cm, 1949. Original 3386x4361 RGB JPEG downloaded with curl and a User-Agent, opened with Pillow, downscaled (LANCZOS) to 1242x1600, JPEG q85, no crop, no upscaling; viewed: head-and-torso colour portrait of Robinson in a Brooklyn Dodgers uniform and cap holding a bat, face clearly visible. Kind: likeness. REJECTED: 'File:Jackie robinson abc sports announcer 1965.jpg' (second P18) -- sourced from an eBay listing, bare {{PD-Pre1978}} no-notice tag, 475x598 px, and a post-baseball broadcasting publicity shot. KOREAN NAME: '재키 로빈슨' is the Wikidata ko label and the Korean Wikipedia title. No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Portrait rights-verified."
+  }
+}

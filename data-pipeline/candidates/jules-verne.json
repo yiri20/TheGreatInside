@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jules-verne",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jules Verne",
+    "aliases": [
+      "Jules Gabriel Verne"
+    ],
+    "wikidataId": "Q33977",
+    "birthYear": 1828,
+    "deathYear": 1905,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "perfectionist"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_verne_wikipedia",
+      "kind": "wikipedia",
+      "title": "Jules Verne (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '쥘 베른' confirmed via the Wikidata kowiki sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Jules_Verne"
+    },
+    {
+      "id": "src_verne_wikidata",
+      "kind": "wikidata",
+      "title": "Jules Verne (Q33977) -- verified live via wbgetentities (2026-10-03): en label 'Jules Verne', description 'French writer (1828–1905)', ko label '쥘 베른', P569 1828-02-08, P570 1905-03-24, citizenship Q142 (France), P18 'Félix Nadar 1820-1910 portraits Jules Verne.jpg', kowiki '쥘 베른'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q33977"
+    },
+    {
+      "id": "src_verne_sherard_1894",
+      "kind": "press",
+      "title": "Robert H. Sherard, 'Jules Verne at Home: His Own Account of His Life and Work', McClure's Magazine vol. 2 no. 2 (Jan. 1894), pp. 115-124 (copyright 1893), archive.org OCR full text (sim_new-mcclures-magazine_1894-01_2_2), read in full -- JOURNALIST INTERVIEW: mostly Verne's own words as reported (SELF content mediated by a journalist) plus Sherard's own eyewitness observations at the Société Industrielle, Amiens, and of his house and workroom (non-self: the pile of proofs he said was 'the sixth set', a long report he was writing for the Amiens municipal council, the plain workroom with neatly cut manuscript paper). Read: his stated routine (at the desk at five until eleven, writing and rewriting each sentence; 'never satisfied with less than seven or eight proofs'); reading of fifteen papers daily and scientific reviews 'pencil in hand', some 20,000 notes; the Eighty Days meridian idea; carrying ideas for 10-15 years; yachting 'always with an eye to getting information for my books'; Five Weeks written without ballooning experience; complaints about his place in French literature and the Academy; publishing terms before and after 1875 ('I am not and never have been a money-getting man'); 'I am an artist'. Sherard dates Five Weeks to 1861 (it appeared in Jan. 1863) -- an error noted. The 1886 shooting passage was read and NOT used.",
+      "url": "https://archive.org/details/sim_new-mcclures-magazine_1894-01_2_2"
+    },
+    {
+      "id": "src_verne_belloc_1895",
+      "kind": "press",
+      "title": "Marie A. Belloc, 'Jules Verne at Home' (Illustrated Interviews no. XXXIX), The Strand Magazine vol. 9 (Jan.-June 1895; Feb. 1895 issue), pp. 206-213, archive.org OCR full text (sim_strand-magazine_january-june-1895_9), read in full -- JOURNALIST INTERVIEW with an INSIDER voice: Verne's own statements (self) plus remarks by his wife Honorine (insider) and Belloc's own observations of the house, the bare cell-like workroom and the library (non-self). Read: Belloc's note that he was 'singularly modest' and reluctant to talk about his work; his account of method (full draft before writing, chapter plan, pencil first copy with half-page margin, rewriting in ink, 'real labour begins with my first set of proofs', rewriting whole chapters, 'eight or nine revises'); 'two completed novels a year' and manuscripts ready several years ahead (writing the 1897 book in 1894-95); Mme Verne's statement that he rose at five and finished writing and proof-correcting by eleven, was asleep by eight or half-past, and never re-read a finished book; the library table with sorted papers and cardboard pigeon-holes holding 'twenty odd thousand notes' (observed); subscription to over twenty newspapers; his wish to make even the wildest romance 'realistic and true to life'. Belloc's OCR gives his age as seventy-eight and a first meeting with his wife fifty-three years earlier -- both wrong (he was 66-67; they met in 1856-57), so her chronological details are treated cautiously.",
+      "url": "https://archive.org/details/sim_strand-magazine_january-june-1895_9"
+    },
+    {
+      "id": "src_verne_butcher_mss",
+      "kind": "biography",
+      "title": "William Butcher, 'Hidden Treasures: The Manuscripts of Twenty Thousand Leagues', Science Fiction Studies 32.1 (March 2005), pp. 43-60, PDF read via ibiblio.org/julesverne (Butcher's own article archive), pp. 43-50 in full plus skim of the remainder -- MODERN SCHOLAR perspective (Butcher is a Verne translator/editor and biographer working from the Nantes manuscripts and the published Verne-Hetzel correspondence). Used for: Verne began the novel in March 1868 and his letters show mounting excitement; Hetzel rejected the closing chapters for seven months from March 1869; Verne's letters of 8, 15 and 17 May and c. 11 June 1869 arguing for a Polish Nemo and refusing to write the letter Hetzel asked for ('je ne vous écrirai point la lettre en question'), offering instead to stay silent on Nemo's nationality or change the ending; Butcher's judgment that 'in the end... Verne is forced to take on board most of the publisher's ideas' while subverting some; the two surviving manuscripts (MS1, MS2) and Verne's practice of correcting several sets of proofs; Verne visited the British Isles at least fourteen times and from 1865 owned boats. Also read: Butcher, 'Verne - The Manuscripts', Nautilus (Jules Verne Society GB newsletter) no. 2 (Autumn 2001), 1 p. (two or three manuscripts prepared per novel; Hetzel-imposed endings for Hatteras, Servadac, Mysterious Island) and Butcher's 2-page review of the Correspondance inédite vol. 1 (Verne 'invariably respectful', arguing 'patient point by patient point'; quotes Verne 15 Feb. 1871 'I stick to my ideas like a Breton').",
+      "url": "https://ibiblio.org/julesverne/articles/hidden.pdf"
+    },
+    {
+      "id": "src_verne_evans_2001",
+      "kind": "biography",
+      "title": "Arthur B. Evans, 'Hetzel and Verne: Collaboration and Conflict' (review essay on Correspondance inédite de Jules Verne et de Pierre-Jules Hetzel (1863-1886), tome I (1863-1874), ed. O. Dumas, P. Gondolo della Riva, V. Dehs, Slatkine 1999), Science Fiction Studies #83, 28.1 (March 2001) -- read in full via the Wayback Machine copy (the live depauw.edu URL now returns 404) -- MODERN SCHOLAR perspective, independent of Butcher (Evans is a Verne scholar and SFS editor; the two disagree on the outcome of the Nemo dispute). Used for: Hetzel's 'firm rejection' of the Paris au XXe siècle manuscript; Verne's early letters accepting Hetzel's critiques (Hatteras ending rewritten from suicide to madness; Joe's long narrative cut from Five Weeks 'without pain'; 'have you ever found me recalcitrant on deletions or rewrites?'; 'I am impatient to receive your notes'); the May 1869 Nemo dispute and Verne's letter of 17 May 1869 ('I am totally incapable of depicting what I don't feel'... 'Make your observations and I will take into account all that are possible'), with Evans's reading that 'neither Verne nor Hetzel would give in'; Verne's letter of 23 Sept. 1873 on Mysterious Island ('I need a savage'; 'I can see it clearly only on the proofs'); Hetzel's replies of Sept./Oct. 1873 (incl. Verne sending corrected proofs straight to the printer); Verne's 1882 letter on L'École des Robinsons rejecting 'inadmissible' observations (cited from Parménie 1953); the shift in his letter closings; Evans's statement that Verne destroyed his personal letters late in life; Hetzel's house rules on morality and pedagogy and the 'narrow milieu' complaint. Verne's own letter wording quoted by Evans/Butcher is SELF content; the scholars' framing and Hetzel's letters are non-self.",
+      "url": "https://web.archive.org/web/2019/https://www.depauw.edu/sfs/review_essays/evans83.htm"
+    },
+    {
+      "id": "src_verne_jones_1904",
+      "kind": "press",
+      "title": "Gordon Jones, 'Jules Verne at Home', Temple Bar vol. 129 (June 1904), pp. 664-671, archive.org OCR full text (sim_temple-bar_1904-06_129_523), read in full -- JOURNALIST INTERVIEW (self content as reported, plus Madame Verne as insider, plus the journalist's own observation that 'as any Amienois will tell you' he lived in quiet retirement, 'scarcely ever visiting, rarely receiving'). Used for: his account that after Five Weeks his publishers urged more books in the same style and 'although not wholly pleased with the idea, I complied'; his routine (rose at five, three hours' writing before breakfast, two more hours later in the day); cutting out and labelling newspaper paragraphs for later reference; 'two volumes a year for some years past'; his stated practice of basing inventions on 'a groundwork of actual fact' and contemporary engineering (Nautilus vs. Wells); Madame Verne: she took no part in his creations and noise did not disturb his work. His eyesight and refusal of a cataract operation were read and NOT used (health).",
+      "url": "https://archive.org/details/sim_temple-bar_1904-06_129_523"
+    },
+    {
+      "id": "src_verne_claretie_1883",
+      "kind": "biography",
+      "title": "Jules Claretie, Jules Verne (Célébrités contemporaines no. 33; Paris: A. Quantin, 1883), 32 pp., archive.org OCR full text (julesverne00clar, Univ. of Ottawa copy), read in full in French (OCR badly garbled on pp. 9-11 and 29-30; those passages not used) -- CONTEMPORARY JOURNALIST/FRIEND perspective: Claretie was a Paris critic and acquaintance, admiring; the booklet embeds a long first-hand portrait by Charles Raymond (Musée des Familles, c. 1875), a SAILING COMPANION (insider) who describes the first Saint-Michel, its on-board reference library (tide tables, charts, 'three or four big dictionaries and volumes of travels') which let him 'continue, even on board, the research necessary for his work', the sea absorbing 'all the time he can steal from work', and that in critical moments he always handed command to his experienced sailor Sandre. Claretie himself: when writing a novel on a country or a scientific problem 'Verne surrounds himself with all the documents'; the eminent scientists Joseph Bertrand and Jules Janssen expressing interest in his work; d'Ennery guided his stage adaptations but with Kéraban le Têtu (1882-83) 'Verne wants to walk alone'; each summer he sailed round France, sometimes 150-200 leagues without touching land. Hector Malot's characterisation 'franc comme l'or' (hearsay, not scored).",
+      "url": "https://archive.org/details/julesverne00clar"
+    },
+    {
+      "id": "src_verne_nantes_bm",
+      "kind": "institution",
+      "title": "Agnès Marcetteau-Paul (then director of the Bibliothèque municipale de Nantes), 'Le fonds Jules Verne à la Bibliothèque municipale de Nantes', 2-page article (c. 1999; cites 1998 visitor figures), enssib digital library document 46398, read in full in French -- INSTITUTIONAL/ARCHIVAL perspective (the library that holds about 95 autograph manuscripts acquired in 1981), describing what the physical manuscripts show, citing the library's own Catalogue des manuscrits de Jules Verne (1988): a 'travailleur acharné' who even on sea voyages took notes, drafted first in pencil, corrected by going over the text in ink, rewrote whole chapters in the margins (he habitually wrote on the left half of the page, keeping a wide margin), then corrected 'multiple sets of proofs'; from the early notebooks 'corrected in all directions' to the 'methodical and almost unchanging presentation' of the mature novels; Hetzel's annotations appear on the manuscripts; his son Michel's additions and corrections on the last (posthumous) manuscripts. Independent of the magazine interviews (manuscript evidence).",
+      "url": "https://www.enssib.fr/bibliotheque-numerique/documents/46398-le-fonds-jules-verne-a-la-bibliotheque-municipales-de-nantes.pdf"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_verne_sherard_1894, src_verne_belloc_1895, src_verne_jones_1904, src_verne_claretie_1883 | c.1875-1904 | journalist interviews (self content + wife as insider + journalists' observations) + contemporary friend/sailing companion] Three separate interviews a decade apart describe the same fixed working day: in 1893 he told Sherard he was at his desk at five until eleven and read the papers after lunch, and relayed Hetzel's remark that in Paris he would have written 'at least ten novels less'; in 1894-95 his wife told Belloc he rose at five, had finished writing and proof-correcting by eleven and was asleep by eight or half-past, and Belloc saw the bare, cell-like workroom; in 1904 he told Gordon Jones he had 'invariably' risen at five and done three hours' writing before breakfast, with a couple more hours later in the day, and his wife added that household noise never stopped his work. Charles Raymond, who sailed with him c. 1875 (quoted by Claretie 1883), says the sea took only 'the time he can steal from work'. Kept below 85 and 0.72: the routine is described mostly by Verne and his wife, though to three different journalists."
+    },
+    "perfectionism": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_verne_sherard_1894, src_verne_belloc_1895, src_verne_nantes_bm, src_verne_butcher_mss | 1868-1895 | journalist interviews (self + journalist observation) + archival institution + modern scholar] He told Sherard (1893) he was 'never satisfied with less than seven or eight proofs', correcting until the last proof bore 'hardly any traces of the original manuscript', and Sherard saw beside him a pile of proofs he called 'the sixth set'; he told Belloc (1894-95) that his 'real labour begins with my first set of proofs', that he corrected something in every sentence and rewrote whole chapters, with 'eight or nine revises'. Independently of the interviews, the Bibliothèque municipale de Nantes describes the surviving manuscripts as showing a first draft in pencil, inked over and corrected, whole chapters rewritten in the wide margin, and then 'multiple sets of proofs'; Butcher (2005) notes that he generally corrected several sets of proofs for Twenty Thousand Leagues beyond the two manuscripts. Dual-edged: by his own account the practice was 'a great sacrifice of pocket, as well as of time'."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verne_belloc_1895, src_verne_sherard_1894, src_verne_nantes_bm | 1893-1895 | journalist interviews (self) + archival institution] To Belloc (1894-95) he described a fixed sequence: a preliminary draft of the whole story ('I never begin a book without knowing what the beginning, the middle, and the end will be'), then a chapter plan, then a pencil first copy with a half-page margin, then a revision in ink; he said he was then writing the novel for 1897 and had five manuscripts ready. To Sherard (1893) he said he always had 'at least ten novels in my head in advance, subjects and plots thought out', that the novel for 1894 was entirely finished and that he was 'yoked' to the one for 1895. The Nantes library, from the manuscripts themselves, describes the 'methodical and almost unchanging presentation' of the mature novels, in contrast to early notebooks corrected 'in all directions'. Strong inference rather than documented: the advance-planning figures are his own statements, corroborated only in general terms by the manuscripts."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verne_sherard_1894, src_verne_belloc_1895, src_verne_jones_1904, src_verne_butcher_mss, src_verne_claretie_1883 | 1840s-1904 | journalist interviews (self + journalist observation) + modern scholar + contemporary companion] He told Sherard (1893) that he read the same fifteen papers every afternoon 'pencil in hand', plus the Revue des Deux Mondes, La Nature, L'Astronomie and the bulletins of scientific and geographical societies, that as a boy he had stood for hours watching the machines at the Indret works, and that he loved to hear people talk 'on subjects with which they are acquainted'; to Belloc (1894-95) that he subscribed to over twenty newspapers and enjoyed reading of new discoveries 'even apart from my work', and Belloc saw the library table covered with sorted newspapers, reviews and scientific reports. To Jones (1904) he described cutting out and keeping any paragraph that struck him. He said (1893) that he yachted 'always with an eye to getting information for my books'; Butcher (2005) counts at least fourteen visits to the British Isles, and Raymond (c. 1875, via Claretie) describes the dictionaries and travel books he kept on board to continue his research. Mostly self-reported, hence strong_inference."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verne_belloc_1895, src_verne_sherard_1894, src_verne_jones_1904, src_verne_claretie_1883 | 1872-1904 | journalist observation + self + contemporary critic] Belloc (1894-95) saw cardboard pigeon-holes holding the 'twenty odd thousand notes' he had gathered, and he told her the notes were 'all classified according to the subject'; to Jones (1904) he said his cuttings, 'if carefully labelled', could be found again years later, and that he deliberately based his inventions on 'a groundwork of actual fact' and existing engineering, leaving only the Nautilus's power source as a 'technical hiatus'. He told both Sherard (1893) and Belloc that the dénouement of Around the World in Eighty Days came from noticing that a traveller could gain a day through the difference of meridian; Claretie (1883) calls that calculation 'very exact' and writes that before a novel on a country or a scientific problem he 'surrounds himself with all the documents' and works the situation 'like a theorem'. Moderate confidence: the observed notes are the one non-self physical detail; the rest is his stated practice and a friendly critic's summary."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_verne_evans_2001, src_verne_butcher_mss, src_verne_sherard_1894, src_verne_claretie_1883 | 1850-1886 | modern scholars (quoting both sides of the correspondence) + self + contemporary critic] Evans (2001), from the published Verne-Hetzel correspondence, shows a working partnership from 1863 to Hetzel's death in 1886 in which the publisher annotated manuscripts and proofs and Verne asked for this ('I am impatient to receive your notes'; 'it's especially by your notes, by your pencilled-in fits of anger, that I will understand what doesn't work'); Hetzel's own letter of autumn 1873 proposes that they 'support each other in our double roles'. For the stage he co-wrote Les Pailles rompues (1850) with Alexandre Dumas fils and operettas with the composer Aristide Hignard (his own account to Sherard), and the stage versions of Around the World and Michel Strogoff were made with Adolphe d'Ennery (Claretie 1883). Dual-edged: Butcher (2001 review; 2005) judges many of the changes made under Hetzel 'often for the worse', and Verne himself complained of the 'rather narrow milieu' he was 'condemned' to move in (Evans, citing Parménie)."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verne_evans_2001, src_verne_butcher_mss | 1863-1869 | modern scholars quoting the correspondence (self letters, non-self framing)] When Hetzel objected to the original ending of Captain Hatteras (the hero throwing himself into a volcano), Verne rewrote it, replying 'all these observations are correct' and reminding Hetzel that for Five Weeks in a Balloon he had cut Joe's long narrative 'without pain' (letters quoted by Evans). In the Nemo dispute of spring 1869 he conceded Hetzel's point about Aronnax's reaction ('You are right... and I'll change that', 17 May) and promised to remove the horror Nemo inspires and his attitude of hate at the sinking (letter of c. 29 April 1869, quoted by Butcher). Capped at 60: these are revisions in response to an editor's criticism rather than to new evidence, and on core matters (Nemo's motive in 1869, Ayrton in 1873) he held his position."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verne_butcher_mss, src_verne_evans_2001, src_verne_sherard_1894 | 1865-1875; 1893 | modern scholars quoting the correspondence + self] On 18 Sept. 1865 he wrote to Hetzel that he was 'dreaming of a magnificent Robinson... it's stronger than me' and was taking notes; Butcher puts the Mysterious Island's total inception period at 'at least ten years'. After Hetzel's harsh verdict of 1 July 1870 ('the clay is too soft and too grey') and a further list of criticisms in 1873, he wrote on 23 Sept. 1873 that, being in the middle of the third volume, 'I must keep my faith in it until the very end'; the novel appeared in 1874-75. He told Sherard (1893) that he carried ideas 'for years -- ten or fifteen years, sometimes -- before giving them form'. Counter-evidence kept in view: after Hetzel rejected Paris au XXe siècle (1863-64) the manuscript was put away and not published in his lifetime (Evans), so the score stays in the low 60s."
+    },
+    "autonomy_need": {
+      "score": 52,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_verne_evans_2001, src_verne_butcher_mss, src_verne_jones_1904 | 1863-1882; 1904 | modern scholars quoting the correspondence + self] Genuinely mixed. Against Hetzel he defended his conception: in May-June 1869 he refused to write the letter Hetzel wanted about Nemo ('I am totally incapable of depicting what I don't feel'), offering instead to leave Nemo's nationality unexplained or change the ending; in Sept. 1873 he insisted 'I need a savage' for Ayrton; in 1882 he rejected some of Hetzel's observations on L'École des Robinsons as 'inadmissible' (Evans; Butcher). But for over two decades he worked inside Hetzel's house rules on morality and pedagogy; Butcher concludes that in 1869 he was 'forced to take on board most of the publisher's ideas' (Evans reads the outcome as a standoff); and in 1904 he told Jones that after Five Weeks he continued the scientific novel at his publishers' urging, 'although not wholly pleased with the idea'. Scored near the middle with low confidence rather than picking a side."
+    },
+    "aesthetic_sensitivity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verne_sherard_1894, src_verne_nantes_bm, src_verne_belloc_1895 | 1840s-1895 | self (via journalists) + archival institution] He told Sherard (1893) that he wrote 'very slowly and with the greatest care, writing and rewriting until each sentence takes the form that I desire', that he had 'always tried my best for form and style' and aimed at 'a very high ideal of beauty of style' even in the adventure novel, that he had studied harmony among musician friends (Delibes, Hignard) and had visited every important picture-gallery in Europe. The Nantes library describes his 'exigence stylistique' as legible in the manuscripts' successive corrections. To Belloc (1894-95) he added that he only got a 'grip' of his subject once he saw it in print. Moderate: the style claims are largely his own, with archival corroboration in general terms; the proof-correction practice itself is scored under perfectionism."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verne_sherard_1894, src_verne_belloc_1895, src_verne_claretie_1883, src_verne_butcher_mss | 1862-1883 | self (via journalists) + contemporary critic + modern scholar] He told Sherard (1893) and Belloc (1894-95) that Five Weeks in a Balloon was conceived as a story about Africa, with the balloon chosen as the means of carrying travellers across it, though he had never flown; and that the Eighty Days ending came from turning a newspaper remark about circling the globe into a plot hinge on the day gained by crossing meridians. Claretie (1883) wrote that despite the success no rivals had followed him into the form. Counter-evidence: Butcher (2005) argues that he did not introduce the idea of submarine travel and that the 'father of science fiction' label is anachronistic, and Claretie himself names predecessors (Bordelon, Cyrano de Bergerac, Boistard). Kept moderate and not scored from sales or reputation."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-03T00:00:00Z",
+    "updatedAt": "2026-10-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-03) for Q33977 returned en label 'Jules Verne', description 'French writer (1828–1905)', fr 'écrivain français', ko label '쥘 베른' (ko description '프랑스의 작가 (1828–1905)'), P569 1828-02-08, P570 1905-03-24, citizenship Q142 (France), P18 'Félix Nadar 1820-1910 portraits Jules Verne.jpg', enwiki 'Jules Verne', kowiki '쥘 베른' (used for displayNames ko-KR). SLUG COLLISION CHECK: no jules-verne file in data-pipeline/candidates before this cycle, no Verne person in src/data/people (word-boundary grep), no Verne portrait in public/portraits. CLASSIFICATION PRECEDENT: occupation writer and field literature follow hans-christian-andersen and mark-twain; impact domains literary + cultural as both; era 19th_century, nationalityCodes FR and regionCode western_europe as claude-monet and auguste-rodin. Tags prolific and perfectionist and archetype creative_creator are existing ids in en.ts; no new tags or occupations. EVIDENCE READ (7 substantive source records plus 2 orientation; texts downloaded to scratch_r41/work/jules-verne and read locally by grep/line ranges): Sherard, McClure's Jan. 1894 (full interview); Belloc, Strand Feb. 1895 (full interview); Gordon Jones, Temple Bar June 1904 (full interview); Claretie, Jules Verne (1883, full booklet incl. Charles Raymond's portrait; garbled OCR pages not used); Butcher, 'Hidden Treasures' SFS 2005 pp. 43-50 plus his Nautilus 2001 note and his review of the Correspondance inédite vol. 1; Evans, 'Hetzel and Verne: Collaboration and Conflict' SFS 2001 (full, Wayback copy); Marcetteau-Paul, 'Le fonds Jules Verne à la Bibliothèque municipale de Nantes' (full). NOT READ / NOT AVAILABLE: Marguerite Allotte de la Fuÿe's biography (1928; English trans. 1956 is lending-only on archive.org, no text) -- not used, so its insider and partly unreliable family material does not enter any row; the Correspondance inédite volumes themselves (not free; used only as quoted by Evans and Butcher); Butcher's and Lottman's full biographies (not free); Brisson's Portraits intimes 4th series (the archive.org copies found were other series); De Amicis's Nuovi ritratti (downloaded; no Verne chapter found). INDEPENDENT PERSPECTIVES: (1) Verne himself -- his statements in the three interviews and his letters as quoted by Evans/Butcher form ONE self perspective and never support a row alone; (2) Honorine Verne, insider (his wife), via Belloc 1895 and Jones 1904; (3) three different journalists' own observations: R. H. Sherard 1893 (the 'sixth set' of proofs, the workroom), Marie A. Belloc 1894-95 (workroom, library table, pigeon-holes of notes, his reluctance to talk), Gordon Jones 1904 (his retired life as reported by Amiens residents); (4) Jules Claretie, contemporary Paris critic and acquaintance (1883), with the sailing companion Charles Raymond's first-hand portrait (insider friend, c. 1875); (5) William Butcher, modern scholar working from the Nantes manuscripts and the correspondence; (6) Arthur B. Evans, modern scholar, independent of Butcher and disagreeing with him on the 1869 outcome; (7) the Bibliothèque municipale de Nantes (institutional/archival, describing the physical manuscripts). NON-SELF behavioural sources: Nantes BM (manuscript evidence for pencil-ink-margin-proofs method), Butcher and Evans (the correspondence, including Hetzel's own letters), the journalists' observations, Raymond/Claretie. Critical voices read: Butcher's and Evans's accounts of Hetzel's censorship and Verne's concessions; Butcher's rejection of the 'father of science fiction' label; Picot's condemnation of Hetzel (quoted by Evans, not used). EPISODE USE (no episode supports more than two rows): daily writing routine (Sherard 1893, Belloc/Mme Verne 1894-95, Jones/Mme Verne 1904, Raymond c.1875) -> discipline; drafting-and-proof method (Sherard, Belloc, Nantes manuscripts, Butcher) -> perfectionism, planning_orientation; advance pipeline of novels (Sherard, Belloc) -> planning_orientation; stated style aim and arts interests (Sherard; Nantes 'exigence stylistique') -> aesthetic_sensitivity; reading and note-taking system (Sherard, Belloc observed, Jones) -> curiosity, detail_orientation; travel and sailing for documentation (Sherard, Raymond via Claretie, Butcher's count of British visits) -> curiosity; Eighty Days meridian dénouement (Sherard, Belloc, Claretie) -> detail_orientation, creative_originality; Five Weeks conceived as an Africa story (Sherard, Belloc) -> creative_originality; 'groundwork of actual fact' vs. Wells (Jones 1904) -> detail_orientation; Hetzel partnership 1863-86 and early letters asking for notes (Evans) -> collaboration; stage co-authorship with Dumas fils, Hignard, d'Ennery (Sherard, Claretie) -> collaboration; Hatteras ending and Joe's narrative cut (Evans) -> belief_updating, collaboration; Nemo dispute April-June 1869 (Butcher, Evans) -> autonomy_need, belief_updating; Mysterious Island 1865-75 incl. 1870 critique and 23 Sept. 1873 letter (Butcher review, Evans) -> persistence, autonomy_need; L'École des Robinsons 1882 (Evans) -> autonomy_need; continuing the genre at the publishers' urging (Jones 1904) -> autonomy_need (counter-evidence); Paris au XXe siècle rejection 1863-64 (Evans) -> persistence (counter-evidence only). ROWS CONSIDERED AND LEFT UNSCORED: social_assertiveness (Belloc found him 'singularly modest' and reluctant to talk about his work; Jones heard he scarcely visited or received; but he sought Academy recognition and was active in Amiens societies -- an impression rather than behaviour, omitted); deep_focus (cell-like workroom, Mme Verne's remark that noise did not disturb him, 'happier than in a cloister' -- thin, omitted); conflict_tolerance (he sustained the 1869 disagreement for months but argued 'invariably respectful', 'patient point by patient point', and preferred talking in person to 'discussions by letter' -- mixed, folded into autonomy_need); independent_thinking (overlaps the Hetzel disputes already used); execution_speed and achievement_drive (two novels a year and ~100 volumes are output counts, not scored); mastery_orientation ('I don't think I have ever done a piece of slovenly work' -- single self statement); impact_motivation (wish that his books instruct young readers -- self only, and tied to Hetzel's house rules); risk_tolerance (Bourse speculation as a young man, long passages under sail -- self/anecdotal; Raymond notes he handed command to his experienced sailor in critical moments); cross_domain_range, experimentation, adaptability, leadership_drive, persuasiveness, competitiveness, decisiveness, analytical_rigor, systems_abstraction, intuitive_synthesis, ambiguity_tolerance, resourcefulness, opportunity_sensing, proactive_agency -- insufficient on-point evidence. EXCLUDED ON PURPOSE: the 1886 shooting by his nephew, his lameness, diabetes/gastralgia, eyesight and cataract (Sherard and Jones passages read, not used); family conflicts and his son Michel's private life (Michel's later editing of the posthumous works is mentioned only as archival context); his love life in Nantes; his Amiens municipal council service 1888-1904 and the Republican list (zero-politics; Sherard's sighting of a council report is not used); the Academy candidacy and his complaints about recognition (self, motive-laden); fees, sales and the Hetzel contracts (context only); Butcher's reading of anti-Semitism in a draft of Eighty Days and the political content of the manuscripts (ideology, not scored); Claretie's and Malot's character praise ('franc comme l'or') and Sherard's 'aroma of goodness' (admiring characterisation, not behaviour). No 'first/only/father of science fiction' claim is made. KNOWN LIMITS: the working-method evidence rests heavily on three interviews in which Verne describes himself; they agree with each other and with the Nantes manuscript description, but the journalists are admiring and make factual slips (Sherard dates Five Weeks to 1861; Belloc's OCR gives his age as 78 and a first meeting with his wife 53 years earlier). The Hetzel material comes through two scholars' selections of the correspondence, not the edition itself. Allotte de la Fuÿe and the full modern biographies were not read. Confidence is kept at or below 0.68 and scores below 85 throughout. PORTRAIT: Atelier Nadar, 'Portrait de Jules Verne (1828-1905), écrivain', carte-de-visite albumen print (image 9.3 x 5.8 cm, mount 10.4 x 6.3 cm), dated by the museum 'between 1860 and 1890', Musée Carnavalet - Histoire de Paris, inv. PH57401 (upstream Paris Musées collections page checked 2026-10-03: credit 'CC0 Paris Musées / Musée Carnavalet - Histoire de Paris', licence CC0). Commons file 'Portrait de Jules Verne (1828-1905), écrivain. PH57401(2).jpg', wikitext read 2026-10-03: Paris Musées data table, license {{CC-0}}, categories Images from Paris Musées / Portraits in the Musée Carnavalet; no third-party or copyright-claim template; extmetadata licence CC0. The photograph itself is in any case public domain (Atelier Nadar print of 1860-1890; Félix Nadar d. 1910, Paul Nadar d. 1939). Same sitting/pose as the Commons 'Félix Nadar 1820-1910 portraits Jules Verne.jpg' (dated c. 1878 there after Jean Jules-Verne's 1976 biography), but that date is not adopted here; the museum range is used. Original 4678 x 7480 px (4.1 MB) downloaded and opened with PIL; the scan background and the card mount (with an 'N.' mark) were cropped to the photograph's edge, keeping the red 'Jules Verne' inscription on the print; downscaled to 980 x 1600 (JPEG q85). Visually confirmed as Verne (seated, arms folded, white beard). kind likeness. REJECTED: 'Félix Nadar 1820-1910 portraits Jules Verne.jpg' (Wikidata P18) -- source only {{self-scanned}} from an unnamed book, and its wikitext currently contains vandalised junk in the other_versions field; 'Atelier Nadar - Jules Verne.jpg' (BnF Gallica btv1b105353967, {{PD-old}}) -- acceptable basis but only 1024 x 1324 px; 'Jules verne nypl.jpg' (NYPL, 515 x 760, small); the Zeno.org copy (secondary aggregator, 2048 x 1345 landscape scan). No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Portrait rights-verified."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "쥘 베른"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jules-verne-atelier-nadar.jpg",
+    "width": 980,
+    "height": 1600,
+    "source": "Atelier Nadar, Portrait de Jules Verne (1828-1905), écrivain, carte-de-visite albumen print (9.3 x 5.8 cm), between 1860 and 1890, Musée Carnavalet - Histoire de Paris, inv. PH57401; CC0 digitization by Paris Musées via Wikimedia Commons",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Atelier Nadar, Portrait of Jules Verne, albumen carte-de-visite, Musée Carnavalet - Histoire de Paris (PH57401); CC0 Paris Musées; card mount cropped, downscaled",
+    "attributionUrl": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/portrait-de-jules-verne-1828-1905-ecrivain",
+    "creator": "Atelier Nadar",
+    "date": "between 1860 and 1890",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_de_Jules_Verne_(1828-1905),_%C3%A9crivain._PH57401(2).jpg"
+  }
+}

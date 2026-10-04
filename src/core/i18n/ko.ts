@@ -2024,6 +2024,20 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.santiago-ramon-y-cajal": "산티아고 라몬 이 카할",
   "person.name.john-snow": "존 스노",
   "person.name.maria-sibylla-merian": "마리아 지빌라 메리안",
+  "person.name.jackie-robinson": "재키 로빈슨",
+  "person.name.babe-didrikson-zaharias": "베이브 디드릭슨",
+  "person.name.orville-wright": "오빌 라이트",
+  "person.name.josiah-wedgwood": "조사이아 웨지우드",
+  "person.name.mary-kingsley": "메리 킹즐리",
+  "person.name.alberto-santos-dumont": "알베르토 산토스뒤몽",
+  "person.name.paul-cezanne": "폴 세잔",
+  "person.name.emily-dickinson": "에밀리 디킨슨",
+  "person.name.giuseppe-verdi": "주세페 베르디",
+  "person.name.jules-verne": "쥘 베른",
+  "person.name.max-planck": "막스 플랑크",
+  "person.name.robert-koch": "로베르트 코흐",
+  "person.name.mary-somerville": "메리 서머빌",
+  "person.name.wilhelm-rontgen": "빌헬름 콘라트 뢴트겐",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

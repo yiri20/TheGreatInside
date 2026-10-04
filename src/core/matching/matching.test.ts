@@ -592,6 +592,26 @@ describe("confidence and missing data", () => {
       "rudolf-diesel",
       "samuel-morse",
       "santiago-ramon-y-cajal",
+      // Roster41 (2026-10-03, docs/checkpoints/roster41.md): 14 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero
+      // backlog reuse, one hold (Claude Shannon, portrait). Each has whatever
+      // eligibility outcome its own evidence produced (computed by build(),
+      // never gated); all 14 came out non-match-eligible -- an evidence
+      // outcome, not a target.
+      "alberto-santos-dumont",
+      "babe-didrikson-zaharias",
+      "emily-dickinson",
+      "giuseppe-verdi",
+      "jackie-robinson",
+      "josiah-wedgwood",
+      "jules-verne",
+      "mary-kingsley",
+      "mary-somerville",
+      "max-planck",
+      "orville-wright",
+      "paul-cezanne",
+      "robert-koch",
+      "wilhelm-rontgen",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1124,6 +1144,26 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "rudolf-diesel",
       "samuel-morse",
       "santiago-ramon-y-cajal",
+      // Roster41 (2026-10-03, docs/checkpoints/roster41.md): 14 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero
+      // backlog reuse, one hold (Claude Shannon, portrait). Each has whatever
+      // eligibility outcome its own evidence produced (computed by build(),
+      // never gated); all 14 came out non-match-eligible -- an evidence
+      // outcome, not a target.
+      "alberto-santos-dumont",
+      "babe-didrikson-zaharias",
+      "emily-dickinson",
+      "giuseppe-verdi",
+      "jackie-robinson",
+      "josiah-wedgwood",
+      "jules-verne",
+      "mary-kingsley",
+      "mary-somerville",
+      "max-planck",
+      "orville-wright",
+      "paul-cezanne",
+      "robert-koch",
+      "wilhelm-rontgen",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
