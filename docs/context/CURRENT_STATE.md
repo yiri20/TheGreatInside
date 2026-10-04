@@ -15,17 +15,25 @@ follows (see `docs/checkpoints/roster41.md` for the full record):
   then has been non-match-eligible new-candidate publication — ninth
   consecutive new-candidate cycle at 114, the diagnostic-confirmed expected
   pattern, see `docs/checkpoints/recent-cohort-matching-architecture.md`).
-  *(These are the numbers on the unmerged `feat/roster41` branch, PR
-  pending; `main` is at 336/335/114 until it merges.)*
-- Latest merged `main` SHA: `66fb9036c0905b7be3f33642c07082de1d580291`
-  (PR #51, Roster40 merge).
+  *(Roster41 / PR #52 is now merged into `main`; these counts are live.)*
+- Latest merged `main` SHA: `9b4ad1bf74295c7cef25103ea76caf8834461237`
+  (PR #52, Roster41 merge).
+- **Editorial Major-Achievement Significance Audit completed** (branch
+  `fix/editorial-major-achievement-significance`, PR pending; see
+  `docs/checkpoints/editorial-major-achievement-audit.md`): of the 59
+  Roster38-41 profiles, 23 had Achievement selection rewritten (EN+KO) and
+  36 passed; a 24-profile older control sample failed 3/24, so the
+  classification is **RECENT_EDITORIAL_REGRESSION** (no broad historical
+  remediation warranted). `docs/editorial-content.md` now carries a Major
+  Achievement Selection Standard.
 - Latest roster: **Roster41 (sixth fresh cycle after the diagnostic):
   15 frozen, 14 shipped, 1 held** (Claude Shannon — evidence_approved,
   portrait rights unresolved), zero backlog reuse (2026-10-03; shipped
   6 building_discovery / 5 arts_culture / 7 science_knowledge by field
   membership). Combined Roster33-41: 125 new-candidate people shipped,
   0 match-eligible — recorded, not re-investigated.
-- Next recommended task: **Roster42** (same discipline; leadership_society
+- Next recommended task: **Roster42**, under the new Major Achievement
+  Selection Standard (same discipline; leadership_society
   lowest priority; building_discovery 92 still the thinnest published
   category vs. arts_culture 128 / science_knowledge 153). Legacy Integrity
   Batch 6 not started. Next performance checkpoint around 500 production

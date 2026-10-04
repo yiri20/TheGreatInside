@@ -4297,8 +4297,10 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Maintaining this specific, self-explained aesthetic choice throughout his working life is part of the basis for the profile's aesthetic_sensitivity score.",
   /* ---------------------------------------------------------- james-cook (Roster38) */
   "james-cook.achievement.1":
-    "From 1763 to 1767 Cook surveyed the coasts of Newfoundland and the adjoining shore of Labrador, working mostly from the schooner Grenville. A 2018 scholarly review notes that no one denies the quality of these surveys and that they were not superseded, even in part, until the 1830s.",
+    "The Admiralty chose Cook in 1768 to command the Endeavour after his Newfoundland charts and surveys had brought him to its attention. On that first voyage (1768-71) the party observed the transit of Venus at Tahiti on 3 June 1769, circumnavigated and charted New Zealand, and charted the east coast of Australia, which Cook claimed for Britain; the Australian Dictionary of Biography says that without a chronometer he charted 5,000 miles of coast with unusual accuracy.",
   "james-cook.achievement.2":
+    "On his second voyage (1772-75), in the Resolution, Cook circumnavigated the world in high southern latitudes in search of a southern continent; the Australian Dictionary of Biography judges his greatest achievements to have been negative ones, because they proved where land was not. On his third voyage he explored the Pacific coasts of North America and Siberia and reached the Sandwich Islands (Hawaii) in November 1778; he was killed at Kealakekua Bay on 14 February 1779.",
+  "james-cook.achievement.3":
     "Cook's own reports state that no dangerous case of scurvy occurred on the 1768-71 Endeavour voyage, and that on the 1772-75 Resolution voyage he lost only four men, none of them to scurvy. Kodicek and Young call the second result remarkable for its time, while noting that 31 men of the Endeavour later died of dysentery and malaria after Batavia.",
   "james-cook.moment.1":
     "On the night of 10-11 June 1770 (the two journals date it a day apart), the Endeavour struck a coral reef off north-eastern Australia. Banks's journal and Cook's own record both describe the crew throwing guns, ballast and stores overboard, laying out anchors, and later covering the leak with a sail stuffed with oakum and wool, an expedient Banks says one of the midshipmen proposed. The ship was then brought to a river mouth where she could be repaired.",
@@ -4350,11 +4352,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The sequence, from a rejected claim to a personal test of it, illustrates the profile's independent-thinking reading; whether the theory itself holds is a separate, disputed question this profile does not judge.",
   /* ---------------------------------------------------------- stanley-kubrick (Roster38) */
   "stanley-kubrick.achievement.1":
-    "For Barry Lyndon, Kubrick used a Zeiss Planar 50 mm f/0.7 lens, of a type of which only ten were made, six of them for NASA. Cinema Products president Ed DiGiulio adapted it to Kubrick's Mitchell BNC camera so that candlelit interiors could be filmed without added fill light. DiGiulio wrote in American Cinematographer that Kubrick wanted to preserve the natural patina of old castles at night, and that the whole film was push-developed one stop.",
+    "Kubrick wrote to Arthur C. Clarke in late March 1964 proposing a collaboration on a science-fiction film, and the two met at New York's Plaza Hotel on 22 April 1964. The resulting 2001: A Space Odyssey opened on 2 April 1968; a 1999 retrospective says Kubrick personally supervised the effects team, which included Douglas Trumbull, who developed the Slit Scan machine used for the Star Gate sequence. The film earned Kubrick his only Academy Award, for Best Visual Effects, and is regarded as one of the greatest films ever made.",
   "stanley-kubrick.achievement.2":
-    "In 1974 Kubrick received a demonstration film made with the prototype Steadicam and replied to Cinema Products by telex. For The Shining he had many sets designed with the Steadicam's possibilities in mind, and operator Garrett Brown, writing in American Cinematographer in August 1980, states that every frame of the hedge maze was shot with it.",
+    "Kubrick worked across genres: the anti-war film Paths of Glory (1957), his first significant commercial success; the Cold War satire Dr. Strangelove (1964); A Clockwork Orange (1971), which received four Academy Award nominations including Best Picture and Best Director; Barry Lyndon (1975), which won four of its seven Oscar nominations, more than any other Kubrick film; and the horror film The Shining (1980). A perfectionist, he took direct control of most aspects of his filmmaking, including writing, editing, colour grading, promotion and exhibition.",
   "stanley-kubrick.achievement.3":
-    "Kubrick wrote to Arthur C. Clarke in late March 1964 proposing a collaboration on a science-fiction film, and the two met at New York's Plaza Hotel on 22 April 1964. A 1999 retrospective says Kubrick personally supervised the effects team for 2001, which included Douglas Trumbull, who developed the Slit Scan machine used for the Star Gate sequence. The film opened on 2 April 1968.",
+    "For Barry Lyndon, Kubrick used a Zeiss Planar 50 mm f/0.7 lens, of a type of which only ten were made, six of them for NASA; Cinema Products president Ed DiGiulio adapted it to Kubrick's Mitchell BNC camera so that candlelit interiors could be filmed without added fill light. In 1974 Kubrick received a demonstration film made with the prototype Steadicam, and for The Shining operator Garrett Brown, writing in American Cinematographer in August 1980, states that every frame of the hedge maze was shot with it.",
   "stanley-kubrick.moment.1":
     "2001: A Space Odyssey opened on 2 April 1968. Kubrick observed that early audiences disliked it, and between 5 and 9 April he and editor Ray Lovejoy cut about 19 minutes, sending instructions to theatres already showing the film. He explained that it takes a few showings to settle how long scenes should run, and said he did not think the trims made a critical difference.",
   "stanley-kubrick.interpretation.moment.1":
@@ -4369,9 +4371,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "His remark is consistent with a strong preference for holding decision-making authority. It is his own retrospective framing, not an independent account of what he would later have been able to control.",
   /* ---------------------------------------------------------- ayrton-senna (Roster38) */
   "ayrton-senna.achievement.1":
-    "Senna won the 1983 British Formula 3 championship for West Surrey Racing. He won the first nine races of the season, trailed Martin Brundle in the standings going into the finale, and took the title with a win at Thruxton.",
+    "Senna won three Formula One drivers' world championships, all with McLaren, in 1988, 1990 and 1991. In 1988, his first season with the team, he and team-mate Alain Prost won 15 of the 16 races in the Honda-powered MP4/4, and Senna took the title by three points with a then-record eight wins to Prost's seven.",
   "ayrton-senna.achievement.2":
-    "In his first Formula One season, driving for Toleman in 1984, Senna finished second in a rain-hit Monaco Grand Prix that was stopped early while he was closing on leader Alain Prost. He added a podium finish at the British Grand Prix and a third in his final race for the team.",
+    "Between 1984 and 1994 Senna won 41 Grands Prix and took 65 pole positions, the record for poles when he died. He won the Monaco Grand Prix a record six times, the last in 1993.",
+  "ayrton-senna.achievement.3":
+    "Before reaching the top, Senna won the 1983 British Formula 3 championship for West Surrey Racing, winning the first nine races of the season and taking the title with a win at Thruxton. In his first Formula One season, driving for Toleman in 1984, he finished second in a rain-hit Monaco Grand Prix that was stopped early while he was closing on leader Alain Prost.",
   "ayrton-senna.moment.1":
     "In late August 1984 word of Lotus's plan to announce Senna for 1985 reached the press, and Toleman team principal Alex Hawkridge learned from it that Senna had signed without telling him. Toleman suspended him for the Italian Grand Prix at Monza, and engineer Pat Symonds later said that by the following race Senna seemed to have understood he had to follow certain rules, after which relations became more courteous.",
   "ayrton-senna.interpretation.moment.1":
@@ -4386,9 +4390,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The phone call is one of several self-started moves behind the proactive-agency score.",
   /* ---------------------------------------------------------- rembrandt (Roster38) */
   "rembrandt.achievement.1":
-    "Rembrandt reworked several of his largest drypoint plates, including the Three Crosses and Christ Presented to the People, across successive states. According to the National Gallery of Victoria, he erased large sections of the worn plates and added new elements, so that later states carry a different emphasis and mood; from the mid-1640s he also printed 'deluxe' impressions on imported Chinese and Japanese paper.",
+    "Rembrandt, a painter, printmaker and draughtsman of the Dutch Golden Age, is generally considered one of the greatest visual artists in the history of Western art. He moved from Leiden to Amsterdam in 1631/32 to begin a successful career as a portrait painter, and his commissions there included large group portraits such as The Anatomy Lesson of Dr Tulp (1632) and, in 1642, The Night Watch, the most substantial of the group portrait commissions of those years.",
   "rembrandt.achievement.2":
-    "Rembrandt painted self-portraits in varied guises from the late 1620s through the 1630s, and some later ones refer openly to earlier masters. In an essay for The Leiden Collection Catalogue, H. Perry Chapman notes that his 1632 self-portrait in Glasgow was modeled on Rubens's 1623 self-portrait, and that his 1640 self-portrait in London referred to portraits by Raphael and Titian that he had seen in Amsterdam in 1639.",
+    "Rembrandt made about 100 self-portraits, more than 40 of them paintings. He painted them in varied guises from the late 1620s through the 1630s, and some later ones refer openly to earlier masters. In an essay for The Leiden Collection Catalogue, H. Perry Chapman notes that his 1632 self-portrait in Glasgow was modeled on Rubens's 1623 self-portrait, and that his 1640 self-portrait in London referred to portraits by Raphael and Titian that he had seen in Amsterdam in 1639.",
+  "rembrandt.achievement.3":
+    "Rembrandt reworked several of his largest drypoint plates, including the Three Crosses and Christ Presented to the People, across successive states. According to the National Gallery of Victoria, he erased large sections of the worn plates and added new elements, so that later states carry a different emphasis and mood; from the mid-1640s he also printed 'deluxe' impressions on imported Chinese and Japanese paper.",
   "rembrandt.moment.1":
     "In an autobiographical text written around 1629-31, Constantijn Huygens described Rembrandt and Jan Lievens as self-assured young painters who had not yet found a study trip to Italy necessary. He reported their answer that they were in their prime and had no time for long journeys, and that the best Italian pictures of the kind princes collect were to be found outside Italy; Huygens called this a touch of folly in otherwise gifted artists.",
   "rembrandt.interpretation.moment.1":
@@ -4403,7 +4409,9 @@ export const EDITORIAL_EN: Record<string, string> = {
   "george-mallory.achievement.1":
     "In the 1921 reconnaissance Mallory and Guy Bullock explored the Rongbuk, Kama and Kharta valleys around Mount Everest. The expedition's leader, Howard-Bury, writes that in the upper Kharta valley they found an approach they judged practicable to the mountain's north-eastern ridge, and in late September Mallory, Bullock and the surveyor Wheeler went up to the Chang La (the North Col).",
   "george-mallory.achievement.2":
-    "In April 1924, at Tinki, Norton (who had become expedition leader after General Bruce fell ill) and Mallory settled the climbers' plan of campaign after months of disagreement over its details. Norton credits Mallory with evolving a plan that combined the good points of both their schemes, and records that all the climbers approved it that evening.",
+    "On the first summit attempt of the 1922 Everest expedition, Mallory, Howard Somervell and Edward Norton climbed the North Ridge to a high point that was later confirmed by theodolite at about 26,980 feet (8,225 m), a new world altitude record at the time.",
+  "george-mallory.achievement.3":
+    "In April 1924, at Tinki, Norton (who had become expedition leader after General Bruce fell ill) and Mallory settled the climbers' plan of campaign after months of disagreement over its details. Norton credits Mallory with evolving a plan that combined the good points of both their schemes, and records that all the climbers approved it that evening. On 8 June 1924 Mallory and Andrew Irvine set out from Camp VI and disappeared on the Northeast Ridge; Mallory's body was found in 1999 about 688 vertical metres below the summit.",
   "george-mallory.moment.1":
     "On the first 1922 attempt on the mountain, four roped climbers were crossing the head of a steep couloir on their way back to the North Col camp when fresh snow had covered their tracks and they had traversed at too low a level. Somervell, last on the rope, recalls that when one man slipped and dragged the others, Mallory, going first, had just enough time to dig his axe into hard snow, and the rope held. Somervell wrote that Mallory had saved the lives of the whole party.",
   "george-mallory.moment.2":
@@ -4420,7 +4428,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "leonhard-euler.achievement.2":
     "In Mechanica (1736-37) Euler treated the motion of a point mass in a vacuum and in a resisting medium, under central forces and on surfaces, using mathematical analysis. MacTutor quotes Yushkevich contrasting this with earlier mechanics, which had mostly used synthetic and geometrical methods that demanded a separate approach for each problem, and Condorcet's 1783 eulogy also singles the treatise out as a landmark in applying analysis to motion.",
   "leonhard-euler.achievement.3":
-    "Euler's lunar theory was used by the German astronomer Tobias Mayer in constructing his tables of the Moon. In 1765 Britain paid Mayer's widow 3,000 pounds for the tables' contribution to finding longitude at sea and paid Euler 300 pounds for his theoretical contribution.",
+    "MacTutor records that in Introductio in analysin infinitorum (1748) Euler made Johann Bernoulli's ideas more precise in defining a function, and stated that mathematical analysis is the study of functions. MacTutor also credits him with notation still in use, including f(x) for a function (1734), e for the base of natural logarithms (1727), i for the square root of -1 (1777), the sigma for summation (1755) and the letter pi.",
   "leonhard-euler.moment.1":
     "In a letter of 13 March 1736 to the Vienna court astronomer Giovanni Marinoni, Euler called the Königsberg bridge puzzle banal but worthy of attention, since neither geometry, algebra nor the art of counting was enough to solve it. He wondered whether it belonged to the 'geometry of position' that Leibniz had longed for, and reported a simple rule that decides, for any number of bridges in any arrangement, whether a round trip crossing each bridge once is possible.",
   "leonhard-euler.interpretation.moment.1":
@@ -4469,9 +4477,9 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In January 1907 Rutherford told Otto Hahn that he had been appointed to the chair and laboratory directorship at Manchester and would leave McGill that June, adding that he would be glad to be nearer the scientific centre because he felt America and Canada were on its periphery. At Manchester he went on to work with Geiger and Marsden on the scattering of alpha particles.",
   /* ---------------------------------------------------------- enzo-ferrari (Roster38) */
   "enzo-ferrari.achievement.1":
-    "Enzo Ferrari founded Scuderia Ferrari in Modena in 1929, a racing stable that prepared and entered Alfa Romeo cars for wealthy amateur drivers and also engaged professional ones. The company was registered on 29 November 1929.",
+    "Enzo Ferrari founded Scuderia Ferrari in Modena in 1929, a racing stable that prepared and entered Alfa Romeo cars for wealthy amateur drivers and also engaged professional ones; the company was registered on 29 November 1929. Racing cars built under his own name began competing after the Second World War, and one Italian biography dates the Ferrari 125's racing debut to the Piacenza circuit on 11 May 1947, with Nino Farina and Franco Cortese driving the first two cars.",
   "enzo-ferrari.achievement.2":
-    "Racing cars built under his own name began competing after the Second World War. One Italian biography dates the Ferrari 125's racing debut to the Piacenza circuit on 11 May 1947, with Nino Farina and Franco Cortese driving the first two cars.",
+    "Under his leadership in Formula One, Ferrari won nine drivers' world championships and eight constructors' championships during his lifetime, the first drivers' title in 1952 with Alberto Ascari, repeated in 1953. Many of the marque's greatest victories also came at Le Mans, with nine wins including six in a row from 1960 to 1965.",
   "enzo-ferrari.moment.1":
     "In spring 1963 a Ford team led by Donald Frey negotiated in Modena to buy into Ferrari, and the talks ended in May without a contract. Accounts differ on how long they ran and how they ended: a Ford-side retelling says Ferrari backed out at the last moment, while his aide Franco Gozzi later said a clause requiring Ford's approval of racing budgets cut into the freedom he had been promised over the racing team.",
   "enzo-ferrari.interpretation.moment.1":
@@ -4486,11 +4494,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This is consistent with the profile's decisiveness score: the response was immediate and unexplained. It also brought a large loss of senior staff at once, and because the sources disagree on how it unfolded, it illustrates the trait rather than settling it.",
   /* ---------------------------------------------------------- david-bowie (Roster38) */
   "david-bowie.achievement.1":
-    "During the mid-1990s sessions for Outside, Bowie worked with Ty Roberts, who had made interactive CD-ROMs for him and Brian Eno, on the Verbasizer, a Mac program that split typed sentences into columns and randomly recombined their words into lyric fragments. Roberts says it automated the paper cut-up method he had seen Bowie use in the studio, and Bowie demonstrated the program on camera in the 1997 documentary Inspirations.",
+    "Bowie's commercial breakthrough came in 1972, during the glam-rock era, with the character Ziggy Stardust and the album The Rise and Fall of Ziggy Stardust and the Spiders from Mars. Variety describes the album as sparking one of the fastest rises to superstardom in pop history, calls his Top of the Pops performance of 'Starman' on 6 July 1972 culture-shifting, and counts Hunky Dory, Ziggy Stardust and Aladdin Sane as three classic albums made in about eighteen months.",
   "david-bowie.achievement.2":
-    "According to co-creator Ron Roy, Bowie approved the BowieNet project pitched by Robert Goodale and Roy in late 1996 and put money into it. The service was announced on 17 July 1998 and launched on 1 September 1998, combining dial-up internet access at $19.95 a month with a davidbowie.com email address, chat rooms and places for fans to post their own art. Roy says Bowie insisted it not be a promotional site and, having relied on his record label for his earlier website, asked for a web-design firm of his own.",
+    "Between 1977 and 1979 Bowie, working with Brian Eno and the producer Tony Visconti, made the albums grouped as his Berlin Trilogy: Low and 'Heroes' (both 1977) and Lodger (1979). Low drew on krautrock and experimental music, with short song fragments and a second side of near-ambient instrumentals shaped by Eno, and 'Heroes' was recorded entirely at Berlin's Hansa studio with Robert Fripp's guitar. Louder notes that Lodger is more conventionally structured and counts as the trilogy's third instalment chiefly because Bowie said so, and Visconti recalls an RCA executive offering Bowie a mansion in Philadelphia if he would make 'Young Americans II' instead of Low.",
   "david-bowie.achievement.3":
-    "In 1994 Bowie joined the editorial board of the art magazine Modern Painters. According to Sotheby's, he contributed interviews and reviews there, including an interview with the painter Balthus that he proposed to the editors, one with Damien Hirst, a review of the 1995 Johannesburg Biennale and a piece on Jean-Michel Basquiat. On 1 April 1998 he launched the art-book publisher 21 Publishing at Jeff Koons's studio, with William Boyd's book on the invented painter Nat Tate as its first title.",
+    "Let's Dance (1983), co-produced with Nile Rodgers, remains Bowie's best-selling album according to the V&A. Louder reports that its title track went to No. 1 in both the US and the UK, that the album sold 11 million copies and that it turned him into the international star he had wanted to be, after a new multimillion-dollar deal with EMI.",
+  "david-bowie.moment.3":
+    "During the mid-1990s sessions for Outside, Bowie worked with Ty Roberts, who had made interactive CD-ROMs for him and Brian Eno, on the Verbasizer, a Mac program that split typed sentences into columns and randomly recombined their words into lyric fragments. Roberts says it automated the paper cut-up method he had seen Bowie use in the studio, and Bowie demonstrated the program on camera in the 1997 documentary Inspirations.",
   "david-bowie.moment.1":
     "On 3 July 1973, on the last night of the Ziggy Stardust tour at London's Hammersmith Odeon, Bowie told the audience it was 'the last show we'll ever do'. According to Variety, guitarist Mick Ronson had been told beforehand, having been sworn to secrecy in exchange for a solo deal, while drummer Woody Woodmansey did not realize his future plans had been cancelled; Ultimate Classic Rock reports Suzi Ronson saying everyone knew except Woodmansey and bassist Trevor Bolder.",
   "david-bowie.interpretation.moment.1":
@@ -4524,10 +4534,12 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Moving the logic to relays while keeping the mechanical memory is consistent with a mixed, mid-range belief-updating score.",
   /* ---------------------------------------------------------- alfred-russel-wallace (Roster38) */
   "alfred-russel-wallace.achievement.1":
-    "From March 1854 to 1862 Wallace worked in Southeast Asia as a professional specimen collector. He travelled with a changing team of local assistants, among them Ali from Sarawak, and published an account of the journey, The Malay Archipelago, in 1869.",
+    "Wallace is chiefly remembered for conceiving a theory of evolution by natural selection independently of Charles Darwin. In February 1858 he wrote an essay at Ternate and sent it to Darwin, with the wish that it be forwarded to Charles Lyell if Darwin thought it sufficiently novel and interesting. On 1 July 1858 the Linnean Society of London read the essay together with extracts from Darwin's own writings; neither man was present, and Wallace was in the Moluccas.",
   "alfred-russel-wallace.achievement.2":
-    "In February 1858 Wallace wrote an essay at Ternate and sent it to Darwin, with the wish that it be forwarded to Charles Lyell if Darwin thought it sufficiently novel and interesting. On 1 July 1858 the Linnean Society of London read the essay together with extracts from Darwin's own writings; neither man was present, and Wallace was in the Moluccas.",
+    "From March 1854 to 1862 Wallace worked in Southeast Asia as a professional specimen collector. He travelled with a changing team of local assistants, among them Ali from Sarawak, and published an account of the journey, The Malay Archipelago, in 1869, in which, the historian John van Wyhe writes, he popularized his generalization of a dividing line between the very different faunas of Australia and Asia, now known as the Wallace Line.",
   "alfred-russel-wallace.achievement.3":
+    "In 1876 Wallace published The Geographical Distribution of Animals, which van Wyhe counts among his most important books. In 1889 he published Darwinism, which grew out of lectures in which he set out the theory of evolution by natural selection and the evidence for it.",
+  "alfred-russel-wallace.moment.3":
     "In February 1867 Darwin, on Henry Walter Bates's advice, asked Wallace why some caterpillars are brightly coloured. Wallace replied that conspicuous colour might advertise distastefulness to birds and proposed experiments, which John Jenner Weir carried out in the summers of 1867 and 1868.",
   "alfred-russel-wallace.moment.1":
     "In February 1854 the Royal Geographical Society's secretary, Henry Norton Shaw, wrote to the Foreign Office that Wallace would accept the government's offer of a mail-packet passage and hoped it could include his young assistant, and asked that it go to Singapore rather than Australia. The passage was arranged on a P&O steamer that left Southampton on 4 March 1854 with Wallace and the teenage Charles Allen aboard.",
@@ -4562,9 +4574,9 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Leaving a secure senior role for an untested online venture, after talking it through with the firm's founder, is consistent with the risk-tolerance score.",
   /* ---------------------------------------------------------- johan-cruyff (Roster38) */
   "johan-cruyff.achievement.1":
-    "Cruyff coached Barcelona from 1988 to 1996. His teams won four consecutive La Liga titles between 1991 and 1994 and the 1992 European Cup, beating Sampdoria at Wembley, and the Guardian obituary counts eleven trophies in all.",
+    "As a player Cruyff was a leading proponent of Total Football, developed by Rinus Michels, which the Guardian's obituary describes as a fluid system in which no player occupies a fixed outfield role. He won three consecutive European Cups with Ajax between 1971 and 1973, moved to Barcelona in 1973, won the Ballon d'Or three times (1971, 1973 and 1974) and was in the Dutch side that lost the 1974 World Cup final to West Germany. The 'Cruyff turn' he used against Sweden at that tournament became his trademark feint.",
   "johan-cruyff.achievement.2":
-    "As a player Cruyff won three consecutive European Cups with Ajax between 1971 and 1973 and moved to Barcelona in 1973. He played 48 times for Holland between 1966 and 1977 and was in the Dutch side that lost the 1974 World Cup final to West Germany.",
+    "Cruyff coached Barcelona from 1988 to 1996. His teams won four consecutive La Liga titles between 1991 and 1994 and the 1992 European Cup, beating Sampdoria at Wembley, and the Guardian obituary counts eleven trophies in all. The same obituary says he created a revolutionary new style of play at the club that became the envy of the footballing world and has been much copied.",
   "johan-cruyff.moment.1":
     "Before the 1974 World Cup, Cruyff persuaded coach Rinus Michels to take Jan Jongbloed as goalkeeper instead of Jan van Beveren, whom David Winner calls the nation's best shot-stopper and with whom he says Cruyff had a long-running feud. Winner writes that Cruyff had noticed Jongbloed was good with his feet and could roam far from goal, and that a goalkeeper acting almost as an extra defender would let Holland press higher up the pitch.",
   "johan-cruyff.interpretation.moment.1":
@@ -4598,9 +4610,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Acting within a single practice day on a plan he had already set in motion is consistent with the profile's decisiveness score, and the abrupt exit is why that row is marked dual-edged.",
   /* ---------------------------------------------------------- babe-ruth (Roster38) */
   "babe-ruth.achievement.1":
-    "In May 1918 manager Ed Barrow, after talking with captain Harry Hooper, began playing Ruth in the field as well as pitching him. From mid-July to early September Ruth pitched every fourth day and played left field, center field or first base on the other days, and Boston won the American League pennant and then the World Series against the Cubs.",
+    "In May 1918 manager Ed Barrow, after talking with captain Harry Hooper, began playing Ruth in the field as well as pitching him, and in 1919 Ruth played 110 games in left field and hit a record 29 home runs. After he was sold to the Yankees in December 1919 he hit 54 home runs in 1920 and led the major leagues in slugging at .709. SABR's biography says his batting over the next few seasons helped usher in a new era of long-distance hitting and high scoring, effectively bringing down the curtain on the Deadball Era.",
   "babe-ruth.achievement.2":
-    "Ruth was on seven World Series champions: the Red Sox in 1915, 1916 and 1918, and the Yankees in 1923, 1927, 1928 and 1932. He was also on the losing side of three Series with New York, in 1921, 1922 and 1926.",
+    "In 1927, as part of the Yankees' 'Murderers' Row' lineup, Ruth hit 60 home runs, extending his own single-season record by one. SABR notes that in the 12 seasons from 1920 to 1931 he led the American League in slugging 11 times and in home runs 10 times, and he retired in 1935 with 714 career home runs, then the career record.",
+  "babe-ruth.achievement.3":
+    "Ruth was on seven World Series champions: the Red Sox in 1915, 1916 and 1918, and the Yankees in 1923, 1927, 1928 and 1932. He was also on the losing side of three Series with New York, in 1921, 1922 and 1926. In 1936 he was elected to the Baseball Hall of Fame as one of its first five members.",
   "babe-ruth.moment.1":
     "After the 1921 World Series, Ruth, Bob Meusel and Bill Piercy began an exhibition tour in Buffalo on 16 October despite a rule barring World Series players from barnstorming. Ruth had phoned Commissioner Landis beforehand and told reporters afterwards that he knew what the tour might mean for him. He ended the tour on 21-22 October after talking with Yankees co-owner Til Huston, and on 5 December Landis suspended Ruth and Meusel until 20 May 1922 and ordered them to return their World Series shares (SABR's T.S. Flynn, drawing on 1921 newspaper reports).",
   "babe-ruth.interpretation.moment.1":
@@ -4668,11 +4682,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The sequence illustrates the profile's persistence score in that the work continued after the Massachusetts ban, though the funding and the move depended on Lindbergh's and Guggenheim's initiative as much as on Goddard's.",
   /* ---------------------------------------------------------- philo-farnsworth (Roster38) */
   "philo-farnsworth.achievement.1":
-    "In the summer of 1934 Farnsworth's laboratory staged public demonstrations of its electronic television system at the Franklin Institute in Philadelphia, televising performers and views from the roof and around the building for paying visitors. Sources give the length of the run as anywhere from ten days to about three weeks.",
+    "On 7 September 1927 Farnsworth's team in San Francisco used his image dissector camera tube to transmit its first image, a black line on a slide, to a receiver in another room of his laboratory. The two crucial components of the system were the image dissector (camera tube) and the oscillite (picture tube). He filed a patent for the dissector in January 1927 and, according to the Engineering and Technology History Wiki, received it in 1930 and successfully defended it against Vladimir Zworykin and David Sarnoff.",
   "philo-farnsworth.achievement.2":
-    "In 1939 Farnsworth's company and RCA concluded a patent-licence agreement under which RCA agreed to pay continuing royalties, which Gross describes as a break from RCA's usual policy. Everson, a company backer, writes that the talks ran from May to September 1939 and were conducted by the company's president and its patent chief while Farnsworth himself was in Maine.",
+    "In the summer of 1934 Farnsworth's laboratory staged public demonstrations of its electronic television system at the Franklin Institute in Philadelphia, televising performers and views from the roof and around the building for paying visitors. Sources give the length of the run as anywhere from ten days to about three weeks.",
   "philo-farnsworth.achievement.3":
-    "According to Lemelson-MIT, nuclear fusion was Farnsworth's main research interest from the 1950s until his death. The Marriott Library finding aid says that at ITT he and his staff built a series of experimental fusion tubes he called fusors, in which the reaction lasted no more than about thirty seconds, and that in 1967 he moved the work to Brigham Young University.",
+    "In 1939 Farnsworth's company and RCA concluded a patent-licence agreement under which RCA agreed to pay continuing royalties, which Gross describes as a break from RCA's usual policy. Everson, a company backer, writes that the talks ran from May to September 1939 and were conducted by the company's president and its patent chief while Farnsworth himself was in Maine.",
   "philo-farnsworth.moment.1":
     "In the summer of 1926 Farnsworth, not yet of age, presented his scheme to a group of San Francisco bankers at the Crocker First National Bank. According to Everson, who was present, he described a system with no moving parts, used a halftone newspaper picture to show how many separate picture elements would have to be sent each second, and answered the bankers' questions; an engineer had already reviewed his specifications for the group, and the bankers agreed to back the work.",
   "philo-farnsworth.interpretation.moment.1":
@@ -4687,11 +4701,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The break is consistent with a preference for keeping control over the direction of his research, although Philco's own aims and finances also shaped it.",
   /* ---------------------------------------------------------- frederic-chopin (Roster38) */
   "frederic-chopin.achievement.1":
-    "Chopin arranged for most of his mature works to be published in France, Germany and England, usually by three different firms, because copyright protection between the countries was weak. The three printings of a piece often differ, which scholars of the first editions attribute to his own revisions and proof corrections.",
+    "Almost all of Chopin's known works involve the piano, and his major piano works include mazurkas, waltzes, nocturnes, polonaises, études, impromptus, scherzi, preludes and sonatas. He took the salon nocturne, invented by John Field, to a deeper level of sophistication, and was the first to write ballades and scherzi as individual concert pieces. His mazurkas came from a traditional Polish dance but were written for the concert hall rather than the dance hall.",
   "frederic-chopin.achievement.2":
-    "Chopin taught piano in Paris from the early 1830s and, according to the University of Chicago Library's exhibit, was the city's favoured piano teacher by the end of 1832. In the early 1840s he sketched the beginnings of a method for playing the instrument, which he never completed.",
+    "Chopin published two sets of studies, Op. 10 in 1833 and Op. 25 in 1837, and in 1839 his Op. 28 preludes, which essentially established a new genre of free-standing preludes with one in each major and minor key. He arranged for most of his mature works to be published in France, Germany and England, usually by three different firms, because copyright protection between the countries was weak. The three printings of a piece often differ, which scholars of the first editions attribute to his own revisions and proof corrections.",
   "frederic-chopin.achievement.3":
-    "Chopin gave his last Paris concert on 16 February 1848 at Pleyel's rooms. The programme included a Mozart trio with Alard and Franchomme and part of his own cello sonata with Franchomme; admission was by a list of applicants, and the Gazette musicale reported that patronage was needed to obtain a ticket.",
+    "Chopin taught piano in Paris from the early 1830s and, according to the University of Chicago Library's exhibit, was the city's favoured piano teacher by the end of 1832. In the early 1840s he sketched the beginnings of a method for playing the instrument, which he never completed.",
   "frederic-chopin.moment.1":
     "In letters of December 1831 to a friend and to his former teacher Elsner, Chopin wrote that Friedrich Kalkbrenner, then the leading pianist in Paris, had offered to teach him for three years, and that he had declined because the time was too long and he did not want to become a copy of Kalkbrenner. Ferdinand Hiller, recalling the episode in 1874, wrote that Chopin nevertheless went a few times to Kalkbrenner's class for advanced pupils.",
   "frederic-chopin.interpretation.moment.1":
@@ -4708,7 +4722,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "buster-keaton.achievement.1":
     "From 1920 to 1928 Keaton made his silent shorts and features for producer Joseph Schenck; Turner Classic Movies' Susan Doll counts 19 shorts and several features and says he had complete creative control over them. Roger Fristoe lists his standing team as co-director Eddie Cline, technical director Fred Gabourie and head cameraman Elgin Lessley.",
   "buster-keaton.achievement.2":
-    "The General was shot in the summer of 1926 around Cottage Grove, Oregon, after a plan to use the original locomotive in Chattanooga fell through, according to the Oregon Encyclopedia. The company built a set representing Marietta, Georgia, in 1862 and a 215-foot trestle over the Row River for the train-wreck scene.",
+    "The General was shot in the summer of 1926 around Cottage Grove, Oregon, after a plan to use the original locomotive in Chattanooga fell through, according to the Oregon Encyclopedia; the company built a set representing Marietta, Georgia, in 1862 and a 215-foot trestle over the Row River for the train-wreck scene. The film cost about $750,000 and took in under $500,000, and reviews were generally unenthusiastic, but it was rediscovered about three decades later and is now considered one of the greatest American movies; the American Film Institute ranked it eighteenth on its 2007 list of 100 greatest American films.",
   "buster-keaton.achievement.3":
     "James Neibaur writes that television was Keaton's most effective and lucrative outlet for performing from 1949 into the 1960s: a live comedy show in 1949, a filmed series in 1950-51, and later guest appearances and commercials.",
   "buster-keaton.moment.1":
@@ -4725,11 +4739,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "His later work as a gag contributor, television performer and commercial actor is consistent with this profile's adaptability score, although Neibaur stresses that financial need shaped some of it, so it should not be read as a simple choice of new media.",
   /* ---------------------------------------------------------- christopher-wren (Roster38) */
   "christopher-wren.achievement.1":
-    "The Royal Society's minutes show Wren bringing work in several fields in the early 1660s: a letter on his hypothesis about Saturn, dated 1 October 1661, and a description of a weather-clock registered on 9 December 1663. On 1 February 1665 he presented observations of the comet of 1664-65 with a theory, and his surviving diagram works out the comet's path by a geometric construction.",
+    "Wren was appointed surveyor-general of the repairs of St Paul's on 30 July 1669, and in the same year became Surveyor-General of the King's Works, a post from which he was dismissed in 1718. The king approved the Warrant design for a new cathedral on 14 May 1675, and five days later the commissioners ordered work to begin on the foundations of its eastern part. St Paul's, regarded as his masterpiece, was completed in 1710.",
   "christopher-wren.achievement.2":
-    "On 29 April 1663 Wren showed the Royal Society his model of the theatre to be built at Oxford and was asked to write out a description of its whole frame for the Society's archives. Evelyn's diary records that the theatre's opening ceremony took place on 9 July 1669.",
+    "After the Great Fire of 1666 Wren was given responsibility for rebuilding some fifty churches in the City of London (the usual counts are 51 or 52), though not every one represented his own fully developed design. His other notable buildings include the Royal Hospital Chelsea (1682-92), the Old Royal Naval College at Greenwich and the south front of Hampton Court Palace.",
   "christopher-wren.achievement.3":
-    "Wren was appointed surveyor-general of the repairs of St Paul's on 30 July 1669, and in the same year became Surveyor-General of the King's Works, a post from which he was dismissed in 1718. The king approved the Warrant design for a new cathedral on 14 May 1675, and five days later the commissioners ordered work to begin on the foundations of its eastern part; Geraghty concludes that by 18 June, when the first contracts were signed, Wren had already reworked the plan of the choir and crossing.",
+    "Before turning to architecture, Wren was a scientist who helped found the Royal Society and later served as its president (1680-82). The Society's minutes show him bringing work in several fields in the early 1660s, including a hypothesis about Saturn and a weather-clock, and on 29 April 1663 he showed it his model of the theatre to be built at Oxford; Evelyn's diary records that the theatre's opening ceremony took place on 9 July 1669.",
   "christopher-wren.moment.1":
     "On 27 August 1666, six days before the Great Fire began, Wren joined Evelyn, the Bishop of London and others to survey Old St Paul's. Evelyn's diary says that he and Wren, against Chicheley and Pratt, who thought the nave's outward lean original, plumbed the uprights in several places and insisted that the steeple needed a new foundation; after 'much contest' their offer to bring in a plan and estimate for a domed church was accepted.",
   "christopher-wren.interpretation.moment.1":
@@ -4744,11 +4758,13 @@ export const EDITORIAL_EN: Record<string, string> = {
     "A move from astronomy and experiment to a building career is consistent with the profile's cross-domain-range score; Geraghty argues that his experimental training shaped his draughtsmanship, but the sources do not say why he changed course.",
   /* ---------------------------------------------------------- george-frideric-handel (Roster38) */
   "george-frideric-handel.achievement.1":
-    "On 13 April 1742 Handel's oratorio Messiah was performed at the New Music Hall in Fishamble Street, Dublin, for the benefit of the relief of prisoners, Mercer's Hospital and the Charitable Infirmary. The Dublin Journal reported that he gave the money from the performance to be shared equally among the three charities.",
+    "Handel's compositions include 42 operas, 24 oratorios, more than 120 cantatas, 18 concerti grossi and 12 organ concertos. His opera Rinaldo (1711) was a great success, and in twelve months between 1724 and 1725 he wrote three successful operas, Giulio Cesare, Tamerlano and Rodelinda.",
   "george-frideric-handel.achievement.2":
-    "From May 1749 the press advertised performances of Handel's music for the benefit of the Foundling Hospital in London, and reports of 1751 and 1756 describe Messiah given in its chapel under his direction. A press report of April 1751 says he gave the chapel its organ, and a codicil to his will dated 4 August 1757 leaves the Hospital a copy of the Messiah score and parts.",
+    "Composed in London between 22 August and 14 September 1741, Handel's oratorio Messiah was first performed on 13 April 1742 at the New Music Hall in Fishamble Street, Dublin, for the benefit of the relief of prisoners, Mercer's Hospital and the Charitable Infirmary. The Dublin Journal reported that he gave the money from the performance to be shared equally among the three charities. After its success he never composed an Italian opera again.",
   "george-frideric-handel.achievement.3":
-    "In March 1739 the London Daily Post reported that Handel had given the use of the opera house for a performance of Alexander's Feast to benefit a fund for decayed musicians and their families, and that he intended to direct it. Notices in March 1741 advertised a further benefit for the same fund with his music.",
+    "With his English oratorios such as Messiah and Solomon, the coronation anthems, and works including Water Music (performed on the Thames for George I in July 1717) and Music for the Royal Fireworks (1749, whose first performance 12,000 people attended), Handel became a national icon in Britain.",
+  "george-frideric-handel.moment.3":
+    "From May 1749 the press advertised performances of Handel's music for the benefit of the Foundling Hospital in London, and reports of 1751 and 1756 describe Messiah given in its chapel under his direction. A press report of April 1751 says he gave the chapel its organ, and a codicil to his will dated 4 August 1757 leaves the Hospital a copy of the Messiah score and parts.",
   "george-frideric-handel.moment.1":
     "In late January 1729 Handel took leave of the King and Queen before setting out for Italy on a commission from the Royal Academy of Music to engage singers. By early July the London press reported him back with contracts, including a bass engaged at Hamburg, 'there being none worth engaging in Italy'.",
   "george-frideric-handel.interpretation.moment.1":
@@ -4763,11 +4779,9 @@ export const EDITORIAL_EN: Record<string, string> = {
     "One of several dated changes of venue or format in the record, the move offers an example of adaptability; the reasons given for it rest on a friend's later recollection.",
   /* ---------------------------------------------------------- joseph-lister (Roster38) */
   "joseph-lister.achievement.1":
-    "Lister's first two publications, in 1853, were microscopic studies of the iris and of the muscle of the skin, and between 1857 and 1859 he published eleven physiological papers on subjects including the nervous control of blood vessels, early inflammation and the nervous control of the gut. Howard reports that he was elected a Fellow of the Royal Society for this early experimental work.",
+    "At Glasgow Royal Infirmary Lister introduced carbolic acid as an antiseptic for instruments, skin, sutures, hands and wards, and recognised that putrefaction in wounds is caused by germs, in connection with Pasteur's germ theory of fermentation. The cases in his first antiseptic article began with a patient admitted on 12 August 1865; he wrote that he had delayed publication to refine and validate his methods on more cases, and the method appeared in a series of Lancet articles in spring 1867. The reports narrate failures as well as successes, and over the next decade he described a further 36 cases in detail. His work led to fewer post-operative infections and he has been called the 'father of modern surgery', although the reception of his early work was patchy.",
   "joseph-lister.achievement.2":
-    "The cases in Lister's first antiseptic article began with a patient admitted to Glasgow Royal Infirmary on 12 August 1865; he wrote that he had delayed publication to refine and validate his methods on more cases, and the method appeared in a series of Lancet articles in spring 1867. The reports narrate failures as well as successes, and over the next decade he described a further 36 cases in detail.",
-  "joseph-lister.achievement.3":
-    "In 1870 Lister published a plan for treating wounded soldiers in the Franco-Prussian War, recommending that wounds be washed with a 1 in 20 carbolic acid solution, clots removed, bleeding vessels tied and dressings applied. Schlich reports that it was translated into German immediately but was not widely adopted in that war.",
+    "Lister's first two publications, in 1853, were microscopic studies of the iris and of the muscle of the skin, and between 1857 and 1859 he published eleven physiological papers on subjects including the nervous control of blood vessels, early inflammation and the nervous control of the gut. Howard reports that he was elected a Fellow of the Royal Society for this early experimental work.",
   "joseph-lister.moment.1":
     "On 1 October 1877, opening his new chair at King's College London, Lister gave an inaugural lecture not on his clinical results but on fermentation in wine, blood and milk, using flasks, samples and hand-painted posters brought from his laboratory. Richardson reports that he poured out and drank a glass of milk from a set that had stayed uncurdled, and that part of the audience grew restless.",
   "joseph-lister.interpretation.moment.1":
@@ -4799,9 +4813,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This pattern is consistent with a preference for controlling where and how he worked, though the main evidence for that motive is what Descartes himself wrote, and he later accepted an invitation to Stockholm.",
   /* ---------------------------------------------------------- antonie-van-leeuwenhoek (Roster38) */
   "antonie-van-leeuwenhoek.achievement.1":
-    "From 1673 until 1723 Leeuwenhoek sent the Royal Society letters written in Dutch, describing observations made with microscopes he made himself; Birch records his election as a Fellow on Dr Croone's motion on 29 January 1679/80 (Old Style). Dobell reports that he never went to London to attend a meeting, and that in 1723 his daughter sent the Society a cabinet of 26 lenses in silver mounts that he had arranged in 1701 to leave to it.",
+    "Using single-lens microscopes of his own design and make, Leeuwenhoek was the first to observe and experiment with microbes, which he called 'dierkens'; he is commonly known as the Father of Microbiology. His first observations of microscopic single-celled organisms went to the Royal Society in a letter dated 9 October 1676, and his credibility was questioned at first. He is also credited with the first documented microscopic observations of bacteria, spermatozoa (1677) and muscle fibres, and with first recognising red blood cells for what they are.",
   "antonie-van-leeuwenhoek.achievement.2":
-    "On 4 February 1669 the Court of Holland admitted Leeuwenhoek as a sworn surveyor, after the mathematician Genesius Baen had examined him in geometry; Dobell quotes the act from the Dutch State Archives. The editors of the Collected Letters cite this examination as a reason not to think him wholly unacquainted with the 'arts'.",
+    "Leeuwenhoek produced more than 500 microscopes. According to a 2021 Science Advances study that used neutron tomography on surviving instruments, the most powerful preserved one magnifies about 266 times and has a measured resolving power of 1.35 micrometres. The Royal Society's secretary, Robert Hooke, tried without success to obtain details of his observation methods.",
+  "antonie-van-leeuwenhoek.achievement.3":
+    "From 1673 until 1723 Leeuwenhoek sent the Royal Society letters written in Dutch, describing observations made with microscopes he made himself; Birch records his election as a Fellow on Dr Croone's motion on 29 January 1679/80 (Old Style). Dobell reports that he never went to London to attend a meeting, and that in 1723 his daughter sent the Society a cabinet of 26 lenses in silver mounts that he had arranged in 1701 to leave to it.",
   "antonie-van-leeuwenhoek.moment.1":
     "After the Royal Society asked in February 1677 for his method of observing, Leeuwenhoek wrote on 23 March that he could not yet resolve to make his particular microscope public. On 5 October 1677 he sent statements from Delft witnesses, including ministers and a notary, who had watched him examine pepper-water in a capillary tube, and wrote that he had asked them to state only half of what they thought they saw. Birch records the statements being read on 1 November 1677 (Old Style) and Robert Hooke, after two unsuccessful tries, seeing the animals himself on 15 November.",
   "antonie-van-leeuwenhoek.interpretation.moment.1":
@@ -4816,11 +4832,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Describing the work as coming from impulse and curiosity is consistent with the profile's curiosity score, though it is a self-description offered in a first letter to a learned body and is weighed as such.",
   /* ---------------------------------------------------------- william-herschel (Roster38) */
   "william-herschel.achievement.1":
-    "From September 1773, while working as a music teacher and concert director in Bath, Herschel began making his own reflecting telescopes. His memoranda, as edited by Dreyer, record that he hired a two-foot reflector, bought a Bath amateur's mirror-making tools on 22 September, and worked from Smith's Optics and Emerson's Mechanics; Dreyer counts 2,160 recorded operations on mirrors in the four folio volumes of his record, which runs to December 1818.",
+    "On 13 March 1781 Herschel discovered the planet Uranus. Dreyer records that he received the Copley Medal in November 1781 and was elected a Fellow of the Royal Society on 6 December, and as a result of the discovery George III appointed him Court Astronomer.",
   "william-herschel.achievement.2":
-    "On 28 October 1783 Herschel began 'sweeping' the sky with a new 20-foot reflector at Datchet. After 41 sweeps made alone, Dreyer says, he judged the method too tiring and of little value; a workman then raised and lowered the telescope while his sister Caroline wrote down the observations, and from Sweep 46 on 18 December 1783 the series continued to Sweep 1112 on 30 September 1802.",
+    "From September 1773, while working as a music teacher and concert director in Bath, Herschel began making his own reflecting telescopes. On 28 October 1783 he began 'sweeping' the sky with a new 20-foot reflector at Datchet, his sister Caroline writing down the observations, and the series continued to Sweep 1112 on 30 September 1802. His surveys produced catalogues of 1,000 nebulae and clusters (1786), a second 1,000 (1789) and 500 more (1802), and catalogues of 269 double or multiple stars (1782) and 434 (1784); in 1802-03 he argued that some double stars are binary systems orbiting under mutual gravitational attraction.",
   "william-herschel.achievement.3":
-    "In a paper read to the Royal Society on 27 March 1800, Herschel wrote that trials of coloured darkening glasses for viewing the sun had made him doubt that every colour of sunlight heats equally. He set thermometers beside a prism's spectrum, moving one into a chosen colour while two stayed in the shade as standards, and repeated the runs.",
+    "In a paper read to the Royal Society on 27 March 1800, Herschel wrote that trials of coloured darkening glasses for viewing the sun had made him doubt that every colour of sunlight heats equally. He set thermometers beside a prism's spectrum, moving one into a chosen colour while two stayed in the shade as standards, and repeated the runs. Further experiments led him to conclude that there is an invisible form of light beyond the visible spectrum, now called infrared radiation.",
   "william-herschel.moment.1":
     "On 13 March 1781, during a systematic review of the sky at Bath, Herschel noted in his journal 'a curious either nebulous star or perhaps a comet'; on 17 March he recorded that it had changed its place. His paper to the Royal Society was titled 'An Account of a Comet', and Dreyer reports that the version first presented contained a paragraph arguing for a measurable parallax, which was not printed after more accurate observations elsewhere disproved it.",
   "william-herschel.interpretation.moment.1":
@@ -4911,11 +4927,9 @@ export const EDITORIAL_EN: Record<string, string> = {
     "The loss of his amateur status was decided by others, but what he did next, working in two professional sports at once, sits alongside the profile's cross-domain-range score.",
   /* ---------------------------------------------------------- eddy-merckx (Roster40) */
   "eddy-merckx.achievement.1":
-    "Merckx won the world amateur road championship in 1964 and turned professional in 1965. In 1969 he won the Tour de France, the first Belgian to do so since 1939, and Sports Illustrated's 1972 profile records that he won it again in 1970 and 1971.",
+    "Merckx won the world amateur road championship in 1964 and turned professional in 1965. During his career from 1965 to 1978 he won 525 races, according to Cycling Weekly, which also credits him with five Tour de France overall victories (a joint record), the most Tour stages (34) and 11 Grand Tours, and calls him the first rider to win the Tour, the Giro d'Italia and the World Championship in one season. He won the 1969 Tour, the first Belgian to do so since 1939, and Sports Illustrated's 1972 profile records that he won it again in 1970 and 1971.",
   "eddy-merckx.achievement.2":
     "On 25 October 1972, on the open-air Olympic velodrome in Mexico City, Merckx rode 49.431 km in an hour, 788 metres more than Ole Ritter's record. Cyclist magazine notes that the mark stood for 28 years.",
-  "eddy-merckx.achievement.3":
-    "Merckx retired from racing in spring 1978, and in 1980 he started a bicycle company, Eddy Merckx Cycles, with help from the Italian frame-builder Ugo De Rosa. According to Cycling Weekly, its bikes were later supplied to professional teams including 7-Eleven, Motorola and Quick-Step.",
   "eddy-merckx.moment.1":
     "On 8 July 1971, at Orcieres-Merlette, Merckx lost 8 minutes 41 seconds to Luis Ocana after pulling a chasing group for about 100 km with no one taking a turn. Two days later he and three Molteni team-mates attacked from the start of the 251 km stage to Marseille and gained about two minutes, according to Belgian retrospectives by RTBF and La DH.",
   "eddy-merckx.interpretation.moment.1":
@@ -5232,11 +5246,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Choosing the engine that experienced balloonists warned against offers one example of the profile's independent thinking. Most of what we know about those objections comes from his own accounts and an authorized interview, which is why that row carries only moderate confidence.",
   /* ---------------------------------------------------------- paul-cezanne (Roster41) */
   "paul-cezanne.achievement.1":
-    "Cézanne showed work at the first Impressionist group exhibition in Paris in 1874, where The House of the Hanged Man was bought by the collector Count Doria. At the 1877 group exhibition he showed sixteen paintings and watercolours, including a portrait head of the collector Victor Chocquet.",
+    "Cézanne was a Post-Impressionist painter whose work introduced new modes of representation, influenced the avant-garde movements of the early twentieth century and formed a bridge between late nineteenth-century Impressionism and early twentieth-century Cubism. Henri Matisse and Pablo Picasso are said to have remarked that he was 'the father of us all'.",
   "paul-cezanne.achievement.2":
-    "In the 1890s he completed five paintings of labourers playing cards, with farm workers from his father's estate as models. In his last decade he worked on three large canvases of female bathers, the largest paintings he made, which the National Gallery in London calls the culmination of a theme he had pursued since the 1870s.",
+    "From about the age of thirty-nine Cézanne made a series of paintings of Mont Sainte-Victoire, near his native Aix-en-Provence, a subject he had never depicted before, and he returned to it until 1906. In the 1890s he completed five paintings of labourers playing cards, with farm workers from his father's estate as models. In his last decade he worked on three large canvases of female bathers, the largest paintings he made, which the National Gallery in London calls the culmination of a theme he had pursued since the 1870s.",
   "paul-cezanne.achievement.3":
-    "In 1904 the Salon d'Automne in Paris gave Cézanne an entire room. His dealer Ambroise Vollard records that press reviews stayed hostile, but that collectors increasingly sought his paintings from then on.",
+    "Cézanne showed work at the first Impressionist group exhibition in Paris in 1874, where The House of the Hanged Man was bought by the collector Count Doria. In 1904 the Salon d'Automne in Paris gave him an entire room; his dealer Ambroise Vollard records that press reviews stayed hostile, but that collectors increasingly sought his paintings from then on.",
   "paul-cezanne.moment.1":
     "In 1899 the dealer Ambroise Vollard sat for his portrait, with sittings from eight to half past eleven each morning. By Vollard's own account, Cézanne left the portrait unfinished after 115 sittings, with two small spots of bare canvas still on the hand. In 1904 the painter Émile Bernard watched him rework a still life of skulls every morning for a month.",
   "paul-cezanne.interpretation.moment.1":
@@ -5251,11 +5265,11 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This change of method is consistent with this profile's experimentation score. Its timing also reflects the influence of his working contact with Pissarro, not only Cézanne's own disposition.",
   /* ---------------------------------------------------------- emily-dickinson (Roster41) */
   "emily-dickinson.achievement.1":
-    "Between about 1858 and 1864 Dickinson copied more than 800 of her poems into forty small booklets she made herself, folding sheets of paper and tying them with string. The booklets, now called fascicles, were found by her sister after her death in 1886. About 2,500 poem manuscripts in her hand survive in all.",
+    "Dickinson wrote nearly 1,800 poems. Her manuscripts were untitled, numbered only in an approximate chronological sequence, strewn with dashes and irregularly capitalized, and often extremely elliptical in their language; she often used perfect rhyme but also made frequent use of slant rhyme.",
   "emily-dickinson.achievement.2":
-    "Only ten of her poems and one letter are known to have been printed in her lifetime, the poems all without her name; scholars doubt that she authorised most or all of these printings. The first collection, Poems (1890), was edited by Thomas Wentworth Higginson and Mabel Loomis Todd, who regularised her punctuation and changed some words. Editions based on the manuscripts came later, from Thomas H. Johnson in 1955 and R. W. Franklin in 1998.",
+    "Between about 1858 and 1864 Dickinson copied more than 800 of her poems into forty small booklets she made herself, folding sheets of paper and tying them with string. The booklets, now called fascicles, were found by her sister after her death in 1886. About 2,500 poem manuscripts in her hand survive in all.",
   "emily-dickinson.achievement.3":
-    "She shared about 500 poems with more than forty correspondents, usually in or alongside letters. About 1,000 of her letter manuscripts survive. From 1862 until her death she sent about 100 poems to Higginson, who published an account of their correspondence in the Atlantic Monthly in 1891.",
+    "Only ten of her poems and one letter are known to have been printed in her lifetime, the poems all without her name; scholars doubt that she authorised most or all of these printings. The first collection, Poems (1890), was edited by Thomas Wentworth Higginson and Mabel Loomis Todd, who regularised her punctuation and changed some words. Editions based on the manuscripts came later, from Thomas H. Johnson in 1955 and R. W. Franklin in 1998.",
   "emily-dickinson.moment.1":
     "In the summer of 1861 Dickinson sent her sister-in-law Susan Dickinson the poem 'Safe in their Alabaster Chambers', then a completely different second stanza. Susan wrote back that she was 'not suited' with the new stanza, and Dickinson sent a third version, asking 'Is this frostier?'. The notes and manuscripts survive at Harvard and are printed in the 1958 scholarly edition of her letters.",
   "emily-dickinson.interpretation.moment.1":
@@ -5289,9 +5303,9 @@ export const EDITORIAL_EN: Record<string, string> = {
     "This shift in working terms fits the high need for autonomy recorded in this profile. Della Seta also places it within a wider change in the standing of Italian composers, so it reflects the theatre business of the time as well as Verdi himself.",
   /* ---------------------------------------------------------- jules-verne (Roster41) */
   "jules-verne.achievement.1":
-    "The Paris publisher Pierre-Jules Hetzel brought out Verne's Five Weeks in a Balloon in 1863. From 1866 Hetzel presented Verne's novels as a series, the Voyages Extraordinaires, and their partnership lasted until Hetzel's death in 1886.",
+    "The Paris publisher Pierre-Jules Hetzel brought out Verne's Five Weeks in a Balloon in 1863. From 1866 Hetzel presented Verne's novels as a series, the Voyages Extraordinaires, a run of bestselling adventure novels that includes Journey to the Center of the Earth (1864), Twenty Thousand Leagues Under the Seas (1870) and Around the World in Eighty Days (1872). Their partnership lasted until Hetzel's death in 1886.",
   "jules-verne.achievement.2":
-    "In 1981 the city of Nantes, his birthplace, bought about ninety-five of his autograph manuscripts, and its library now holds most of them. The drafts show his writing from his early poems and plays to the late novels, with Hetzel's notes on several.",
+    "Verne has been the second most-translated author in the world since 1979, ranking below Agatha Christie and above Shakespeare. British and American publishers marketed his books almost exclusively to young audiences, a business decision that had a lasting effect on his reputation in English-speaking countries, implying that he could be treated purely as a children's author.",
   "jules-verne.achievement.3":
     "He also wrote for the theatre. Stage versions of Around the World in Eighty Days and Michel Strogoff, written with the dramatist Adolphe d'Ennery, were major successes in Paris. In 1904 Michel Strogoff was again playing at the Théâtre du Châtelet.",
   "jules-verne.moment.1":
@@ -9532,8 +9546,10 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이렇게 구체적이고 스스로 설명한 미적 선택을 평생의 집필 활동 내내 유지한 것은 프로필의 미적 감각(aesthetic_sensitivity) 점수의 근거 중 하나다.",
   /* ---------------------------------------------------------- james-cook (Roster38) */
   "james-cook.achievement.1":
-    "쿡은 1763년부터 1767년까지 뉴펀들랜드 해안과 인접한 래브라도 해안을 측량했으며, 이 기간 대부분 스쿠너선 그렌빌호를 이용했다. 2018년의 한 학술 논문은 이 측량의 수준을 부정하는 사람이 없고, 부분적으로나마 대체된 것은 1830년대에 이르러서였다고 지적한다.",
+    "영국 해군본부는 뉴펀들랜드 해도와 측량으로 눈에 띈 쿡을 1768년 인데버호의 지휘관으로 골랐다. 1768~71년의 첫 항해에서 일행은 1769년 6월 3일 타히티에서 금성의 태양면 통과를 관측했고, 뉴질랜드를 일주하며 해안을 측량했으며, 쿡이 영국령으로 선언한 오스트레일리아 동해안도 측량했다. 오스트레일리아 인명사전은 그가 크로노미터 없이도 5,000마일의 해안을 보기 드문 정확도로 그려 냈다고 쓴다.",
   "james-cook.achievement.2":
+    "1772~75년의 두 번째 항해에서 쿡은 레절루션호를 타고 남방 대륙을 찾아 남위도 높은 해역을 따라 세계를 일주했다. 오스트레일리아 인명사전은 그의 가장 큰 업적이 육지가 없는 곳을 밝혀냈다는 '부정적' 성과였다고 평가한다. 세 번째 항해에서는 북아메리카와 시베리아의 태평양 해안을 탐사하고 1778년 11월 샌드위치 제도(하와이)에 닿았으며, 1779년 2월 14일 카라카쿠아(케알라케쿠아) 만에서 목숨을 잃었다.",
+  "james-cook.achievement.3":
     "쿡 자신의 보고에 따르면 1768~71년 인데버호 항해에서는 위험한 괴혈병 사례가 한 건도 없었고, 1772~75년 레절루션호 항해에서는 네 명만을 잃었으며 그중 괴혈병으로 숨진 사람은 없었다. 코디체크와 영은 후자를 당시로서는 이례적인 결과로 평가하면서도, 인데버호 승무원 31명이 이후 바타비아에서 걸린 이질과 말라리아로 사망했다고 함께 언급한다.",
   "james-cook.moment.1":
     "1770년 6월 10~11일 밤(두 일지의 날짜는 하루 차이가 난다), 인데버호는 오스트레일리아 북동부 앞바다에서 산호초에 좌초했다. 뱅크스의 일지와 쿡 본인의 기록은 모두 승무원들이 대포와 밸러스트, 물자를 바다에 버리고 닻을 내려 배를 끌어냈으며, 이후 삼실과 양모를 채운 돛천으로 누수 부위를 덮었다고 서술한다. 뱅크스에 따르면 이 방법은 사관 후보생 한 명이 제안한 것이다. 이후 배는 수리할 수 있는 강 하구로 옮겨졌다.",
@@ -9585,11 +9601,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "거부당한 주장에서 그 주장을 직접 시험해 보는 데까지 이어진 이 흐름은 이 프로필의 독립적 사고 항목 해석을 보여 주는 한 사례다. 이론 자체가 맞는지는 논쟁 중인 별개의 문제이며, 이 프로필은 그것을 판단하지 않는다.",
   /* ---------------------------------------------------------- stanley-kubrick (Roster38) */
   "stanley-kubrick.achievement.1":
-    "배리 린든에서 큐브릭은 자이스 플라나르 50mm f/0.7 렌즈를 사용했는데, 이 종류의 렌즈는 열 개만 만들어졌고 그중 여섯 개는 NASA용이었다. 시네마 프로덕츠 사장 에드 디줄리오가 이 렌즈를 큐브릭의 미첼 BNC 카메라에 맞게 개조해, 촛불이 밝히는 실내 장면을 보조 조명 없이 촬영할 수 있게 했다. 디줄리오는 아메리칸 시네마토그래퍼에, 큐브릭이 밤의 고성이 지닌 자연스러운 고색을 그대로 살리고 싶어 했고 필름 전체를 1스톱 증감 현상했다고 썼다.",
+    "큐브릭은 1964년 3월 말 아서 C. 클라크에게 SF 영화를 함께 만들자고 제안하는 편지를 썼고, 두 사람은 1964년 4월 22일 뉴욕 플라자 호텔에서 만났다. 그 결과물인 〈2001: 스페이스 오디세이(2001: A Space Odyssey)〉는 1968년 4월 2일 개봉했다. 1999년의 한 회고는 큐브릭이 특수효과 팀을 직접 지휘했다고 전하며, 이 팀에는 스타 게이트 장면에 쓰인 슬릿 스캔 장치를 개발한 더글러스 트럼벌도 있었다. 이 영화는 큐브릭에게 유일한 아카데미상(시각효과상)을 안겼고 역대 가장 위대한 영화 중 하나로 평가된다.",
   "stanley-kubrick.achievement.2":
-    "1974년 큐브릭은 스테디캠 시제품으로 찍은 시연용 영화를 받고 시네마 프로덕츠에 텔렉스로 답신을 보냈다. 샤이닝에서는 스테디캠의 활용 가능성을 염두에 두고 여러 세트를 설계하게 했으며, 촬영을 맡은 개럿 브라운은 1980년 8월 아메리칸 시네마토그래퍼에 쓴 글에서 정원 미로의 모든 프레임을 스테디캠으로 찍었다고 밝혔다.",
+    "큐브릭은 여러 장르를 넘나들었다. 그의 첫 상업적 성공작인 반전 영화 〈영광의 길(Paths of Glory)〉(1957), 냉전을 풍자한 〈닥터 스트레인지러브(Dr. Strangelove)〉(1964), 작품상과 감독상을 포함해 아카데미상 4개 부문에 후보로 오른 〈시계태엽 오렌지(A Clockwork Orange)〉(1971), 후보 7개 부문 중 4개 부문에서 수상해 큐브릭 작품 가운데 가장 많은 상을 받은 〈배리 린든(Barry Lyndon)〉(1975), 공포 영화 〈샤이닝(The Shining)〉(1980)이 그것이다. 완벽주의자였던 그는 각본, 편집, 색보정, 홍보, 상영까지 영화 제작의 대부분을 직접 통제했다.",
   "stanley-kubrick.achievement.3":
-    "큐브릭은 1964년 3월 말 아서 C. 클라크에게 편지를 보내 SF 영화 공동 작업을 제안했고, 두 사람은 1964년 4월 22일 뉴욕 플라자 호텔에서 만났다. 1999년의 한 회고 글에 따르면 큐브릭은 2001: 스페이스 오디세이의 특수효과 팀을 직접 감독했으며, 팀에 속한 더글러스 트럼벌은 스타 게이트 장면에 쓰인 슬릿 스캔 장치를 개발했다. 영화는 1968년 4월 2일에 개봉했다.",
+    "〈배리 린든〉을 위해 큐브릭은 자이스 플라나르(Zeiss Planar) 50mm f/0.7 렌즈를 썼는데, 이 유형은 열 개만 만들어졌고 그중 여섯 개는 NASA용이었다. 시네마 프로덕츠 사장 에드 디줄리오는 이를 큐브릭의 미첼 BNC 카메라에 맞게 개조해, 촛불만 켠 실내를 별도의 보조광 없이 찍을 수 있게 했다. 1974년 큐브릭은 시제품 스테디캠으로 만든 시연 영상을 받았고, 〈샤이닝〉에서 촬영 기사 개럿 브라운은 1980년 8월 〈아메리칸 시네마토그래퍼〉에 헤지 미로의 모든 프레임을 스테디캠으로 찍었다고 밝혔다.",
   "stanley-kubrick.moment.1":
     "2001: 스페이스 오디세이는 1968년 4월 2일에 개봉했다. 큐브릭은 초기 관객들이 영화를 좋아하지 않았다고 보았고, 4월 5일부터 9일 사이에 편집자 레이 러브조이와 함께 약 19분을 잘라냈으며, 이미 상영 중이던 극장들에 수정 지침을 보냈다. 그는 장면의 적정 길이를 정하려면 몇 차례 상영을 거쳐 봐야 한다고 설명하면서도, 이 삭제가 결정적인 차이를 만들었다고는 생각하지 않는다고 말했다.",
   "stanley-kubrick.interpretation.moment.1":
@@ -9604,9 +9620,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "그의 언급은 의사결정 권한을 쥐려는 강한 선호와 부합한다. 다만 이는 그 자신의 사후적 해석이며, 이후 그가 실제로 어디까지 통제할 수 있었는지를 독립적으로 보여 주는 기록은 아니다.",
   /* ---------------------------------------------------------- ayrton-senna (Roster38) */
   "ayrton-senna.achievement.1":
-    "세나는 1983년 웨스트 서리 레이싱 소속으로 영국 포뮬러 3 챔피언십에서 우승했다. 시즌 첫 아홉 경기를 모두 이겼고, 최종전을 앞두고는 마틴 브런들에게 포인트에서 뒤졌으나 스럭스턴 최종전에서 우승하며 타이틀을 차지했다.",
+    "세나는 맥라렌 소속으로 1988년, 1990년, 1991년 세 차례 포뮬러 원 드라이버 월드 챔피언에 올랐다. 팀에서 보낸 첫 시즌인 1988년에는 팀 동료 알랭 프로스트와 함께 혼다 엔진을 얹은 MP4/4로 16개 경기 중 15개를 휩쓸었고, 당시 최다 기록인 8승(프로스트는 7승)으로 3점 차 우승을 차지했다.",
   "ayrton-senna.achievement.2":
-    "1984년 톨먼 소속으로 치른 첫 포뮬러 1 시즌에서 세나는 폭우 속에 열린 모나코 그랑프리에서 2위를 기록했다. 이 경기는 그가 선두 알랭 프로스트를 추격하던 중 일찍 중단되었다. 그는 영국 그랑프리에서, 그리고 팀에서의 마지막 경기에서도 포디엄에 올랐다.",
+    "1984년부터 1994년까지 세나는 그랑프리 41승과 폴 포지션 65회를 기록했으며, 폴 포지션 65회는 그가 사망했을 때의 최다 기록이었다. 그는 모나코 그랑프리에서 역대 최다인 여섯 차례 우승했고, 마지막 우승은 1993년이었다.",
+  "ayrton-senna.achievement.3":
+    "정상에 오르기 전 세나는 웨스트 서리 레이싱 소속으로 1983년 영국 포뮬러 3 챔피언십을 제패했다. 시즌 첫 아홉 경기를 모두 이겼고 스럭스턴 경기 우승으로 타이틀을 확정했다. 포뮬러 원 첫 시즌인 1984년 톨먼 소속으로는 비로 얼룩진 모나코 그랑프리에서 2위를 했는데, 이 경기는 선두 알랭 프로스트를 추격하던 중에 일찍 중단되었다.",
   "ayrton-senna.moment.1":
     "1984년 8월 말, 로터스가 1985년 시즌 세나 영입을 발표할 계획이라는 소식이 언론에 새어 나갔고, 톨먼 팀 대표 알렉스 호크리지는 세나가 자신에게 알리지 않고 계약했다는 사실을 그 보도로 알게 되었다. 톨먼은 세나에게 이탈리아 그랑프리(몬차) 출전 정지 처분을 내렸고, 엔지니어 팻 시먼즈는 이후 세나가 다음 경기 무렵에는 지켜야 할 규칙이 있음을 이해한 것 같았으며 그 뒤로 관계가 한결 정중해졌다고 회고했다.",
   "ayrton-senna.interpretation.moment.1":
@@ -9621,9 +9639,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이 전화는 주도적 행동력 점수의 근거가 되는 여러 자발적 행보 가운데 하나이다.",
   /* ---------------------------------------------------------- rembrandt (Roster38) */
   "rembrandt.achievement.1":
-    "렘브란트는 〈세 개의 십자가〉와 〈군중 앞에 선 그리스도〉를 비롯한 대형 드라이포인트 원판 몇 점을 여러 상태(state)에 걸쳐 거듭 고쳐 작업했다. 빅토리아 국립미술관(NGV)에 따르면 그는 닳은 원판의 넓은 부분을 지우고 새로운 요소를 더해 이후 상태의 강조점과 분위기를 달리했으며, 1640년대 중반부터는 수입된 중국·일본 종이에 '고급' 인쇄본을 찍기도 했다.",
+    "네덜란드 황금시대의 화가이자 판화가, 소묘가였던 렘브란트는 서양 미술사에서 가장 위대한 시각 예술가 중 한 사람으로 널리 평가된다. 그는 1631~32년 라이덴에서 암스테르담으로 옮겨 초상화가로서 성공적인 경력을 시작했고, 이곳에서 맡은 작업에는 〈툴프 박사의 해부학 강의(The Anatomy Lesson of Dr Tulp)〉(1632) 같은 대형 단체 초상화와, 이 시기 단체 초상화 주문 가운데 가장 규모가 컸던 1642년의 〈야경(The Night Watch)〉이 포함된다.",
   "rembrandt.achievement.2":
-    "렘브란트는 1620년대 말부터 1630년대에 걸쳐 여러 모습으로 자화상을 그렸고, 이후의 일부 자화상은 앞선 거장들을 분명하게 참조한다. H. 페리 채프먼은 라이덴 컬렉션 도록(The Leiden Collection Catalogue)에 실은 글에서, 글래스고에 있는 1632년 자화상이 루벤스의 1623년 자화상을 본떴고 런던에 있는 1640년 자화상이 1639년 암스테르담에서 본 라파엘로와 티치아노의 초상화를 참조했다고 설명한다.",
+    "렘브란트는 약 100점의 자화상을 남겼고 그중 40점 넘게가 회화다. 그는 1620년대 말부터 1630년대까지 다양한 모습으로 자화상을 그렸고, 이후의 일부 작품은 앞선 거장들을 공공연히 참조한다. H. 페리 채프먼은 〈라이덴 컬렉션 도록〉에 실은 글에서 글래스고에 있는 1632년 자화상이 루벤스의 1623년 자화상을 본뜬 것이고, 런던에 있는 1640년 자화상이 1639년 암스테르담에서 본 라파엘로와 티치아노의 초상화를 참조했다고 지적한다.",
+  "rembrandt.achievement.3":
+    "렘브란트는 〈세 개의 십자가〉와 〈군중 앞에 선 그리스도〉를 비롯한 대형 드라이포인트 원판 몇 점을 여러 상태(state)에 걸쳐 거듭 고쳐 작업했다. 빅토리아 국립미술관(NGV)에 따르면 그는 닳은 원판의 넓은 부분을 지우고 새로운 요소를 더해 이후 상태의 강조점과 분위기를 달리했으며, 1640년대 중반부터는 수입된 중국·일본 종이에 '고급' 인쇄본을 찍기도 했다.",
   "rembrandt.moment.1":
     "콘스탄테인 하위헌스는 1629~31년경에 쓴 자전적 글에서 렘브란트와 얀 리번스를, 아직 이탈리아 유학 여행이 필요하다고 여기지 않은 자신만만한 젊은 화가들로 묘사했다. 그는 두 사람이 지금이 한창때라 먼 여행에 쓸 시간이 없고, 군주들이 수집하는 종류의 최상급 이탈리아 그림은 이탈리아 밖에서도 볼 수 있다고 답했다고 전하며, 이를 재능 넘치는 화가들의 '한 줌의 어리석음'이라고 평했다.",
   "rembrandt.interpretation.moment.1":
@@ -9638,7 +9658,9 @@ export const EDITORIAL_KO: Record<string, string> = {
   "george-mallory.achievement.1":
     "1921년 정찰 원정에서 맬러리는 가이 불럭과 함께 에베레스트 주변의 룽북, 카마, 카르타 계곡을 탐사했다. 원정대장 하워드베리는 두 사람이 카르타 계곡 상류에서 산의 북동 능선으로 향하는 실현 가능한 접근로를 찾아냈다고 적었고, 9월 하순에는 맬러리와 불럭, 측량가 휠러가 창 라(북쪽 콜)까지 올랐다.",
   "george-mallory.achievement.2":
-    "1924년 4월 팅키에서, 브루스 장군이 병으로 물러나 원정대장이 된 노턴과 맬러리는 계획의 세부 사항을 두고 몇 달간 이어진 의견 차이 끝에 등반 작전 계획을 확정했다. 노턴은 두 사람의 구상이 지닌 장점을 결합한 계획을 만들어 낸 공을 맬러리에게 돌렸으며, 그날 저녁 모든 등반가가 이를 승인했다고 기록한다.",
+    "1922년 에베레스트 원정의 첫 정상 도전에서 맬러리는 하워드 서머벨, 에드워드 노턴과 함께 북릉을 올랐고, 도달 지점은 나중에 측량기로 약 26,980피트(8,225m)로 확인되어 당시 세계 최고도 기록이 되었다.",
+  "george-mallory.achievement.3":
+    "1924년 4월 팅키에서 (브루스 장군이 병이 난 뒤 원정대장이 된) 노턴과 맬러리는 세부 사항을 두고 여러 달 이어진 의견 차이 끝에 등반가들의 작전 계획을 확정했다. 노턴은 맬러리가 두 사람의 계획에서 좋은 점을 합친 안을 만들어 냈다고 평가하며, 그날 저녁 모든 등반가가 이를 승인했다고 기록한다. 1924년 6월 8일 맬러리와 앤드루 어빈은 6캠프를 떠나 북동릉에서 자취를 감췄고, 맬러리의 시신은 1999년 정상에서 수직으로 약 688m 아래에서 발견되었다.",
   "george-mallory.moment.1":
     "1922년 산에 대한 첫 번째 등정 시도 때, 네 명의 등반가가 북쪽 콜 캠프로 돌아오던 길에 신설이 발자국을 덮어 버린 탓에 너무 낮은 높이로 횡단하다가 가파른 쿨르와르 상단을 건너고 있었다. 로프의 맨 뒤에 있던 소머벨은 한 사람이 미끄러져 다른 사람들을 끌고 내려갈 때 선두의 맬러리가 간신히 아이스액스를 단단한 눈에 박을 시간을 얻었고 로프가 버텨 냈다고 회고한다. 소머벨은 맬러리가 일행 모두의 목숨을 구했다고 썼다.",
   "george-mallory.moment.2":
@@ -9655,7 +9677,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "leonhard-euler.achievement.2":
     "오일러는 『역학(Mechanica)』(1736~37)에서 진공과 저항 매질 속 질점의 운동, 중심력 아래의 운동, 곡면 위의 운동을 수학적 해석으로 다루었다. MacTutor는 유시케비치를 인용하며, 이전의 역학이 문제마다 별도의 접근을 요구하는 종합적·기하학적 방법에 주로 의존했다는 점과 대비시킨다. 콩도르세도 1783년 추도문에서 이 저작을 운동 연구에 해석학을 적용한 획기적 저작으로 꼽는다.",
   "leonhard-euler.achievement.3":
-    "오일러의 달 운동 이론은 독일 천문학자 토비아스 마이어가 달 운행표를 만드는 데 쓰였다. 1765년 영국은 해상 경도 결정에 대한 이 운행표의 기여를 인정해 마이어의 미망인에게 3,000파운드를, 오일러에게는 이론적 기여에 대한 대가로 300파운드를 지급했다.",
+    "맥튜터(MacTutor)에 따르면 오일러는 〈무한소 해석 입문(Introductio in analysin infinitorum)〉(1748)에서 요한 베르누이의 생각을 더 정밀하게 다듬어 함수를 정의했고, 수학적 해석학은 함수를 연구하는 학문이라고 밝혔다. 맥튜터는 또 오늘날에도 쓰이는 표기, 곧 함수를 나타내는 f(x)(1734), 자연로그의 밑 e(1727), -1의 제곱근 i(1777), 합을 나타내는 시그마(1755), 원주율 기호 π 등이 그에게서 비롯되었다고 본다.",
   "leonhard-euler.moment.1":
     "1736년 3월 13일 빈의 궁정 천문학자 조반니 마리노니에게 보낸 편지에서 오일러는 쾨니히스베르크 다리 문제를 시시하지만 눈여겨볼 만한 문제라고 불렀다. 기하학도 대수학도 셈하는 기술도 이를 풀기에 충분하지 않았기 때문이다. 그는 이것이 라이프니츠가 갈망했던 '위치의 기하학'에 속하는지 물으며, 다리의 수와 배치가 어떠하든 각 다리를 한 번씩만 건너는 순회가 가능한지를 곧바로 판정하는 간단한 규칙을 얻었다고 알렸다.",
   "leonhard-euler.interpretation.moment.1":
@@ -9704,9 +9726,9 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1907년 1월 러더퍼드는 오토 한에게 맨체스터 대학의 교수직과 실험실 책임자로 임명되어 6월에 맥길을 떠난다고 알리면서, 미국과 캐나다는 학문의 중심에서 벗어난 변두리처럼 느껴져 중심에 더 가까워지는 것이 반갑다고 썼다. 맨체스터에서 그는 가이거, 마스든과 함께 알파 입자의 산란 연구를 이어 갔다.",
   /* ---------------------------------------------------------- enzo-ferrari (Roster38) */
   "enzo-ferrari.achievement.1":
-    "엔초 페라리는 1929년 모데나에서 스쿠데리아 페라리를 세웠다. 부유한 아마추어 드라이버들을 위해 알파 로메오 경주차를 준비하고 출전시킨 이 경주 조직은 프로 드라이버들도 기용했다. 회사는 1929년 11월 29일에 등록되었다.",
+    "엔초 페라리는 1929년 모데나에 스쿠데리아 페라리(Scuderia Ferrari)를 세웠다. 이곳은 부유한 아마추어 드라이버들을 위해 알파 로메오 차량을 정비해 출전시키고 프로 드라이버도 고용하던 레이싱 팀으로, 회사는 1929년 11월 29일에 등록되었다. 그의 이름을 단 레이싱카는 제2차 세계대전 뒤에야 경주에 나서기 시작했는데, 한 이탈리아어 전기는 페라리 125의 첫 경주를 1947년 5월 11일 피아첸차 서킷으로 보며 니노 파리나와 프랑코 코르테세가 첫 두 대를 몰았다고 적는다.",
   "enzo-ferrari.achievement.2":
-    "그의 이름을 단 경주차는 제2차 세계대전 이후 출전하기 시작했다. 한 이탈리아어 평전은 페라리 125의 경주 데뷔를 1947년 5월 11일 피아첸차 서킷으로 기록하며, 첫 두 대를 니노 파리나와 프랑코 코르테세가 몰았다고 전한다.",
+    "그의 지휘 아래 페라리는 생전에 포뮬러 원 드라이버 챔피언십 9회와 컨스트럭터 챔피언십 8회를 따냈고, 첫 드라이버 타이틀은 1952년 알베르토 아스카리와 함께 얻어 이듬해에도 이어졌다. 이 브랜드의 가장 큰 승리 가운데 다수는 르망에서도 나왔는데, 1960년부터 1965년까지 6연승을 포함해 모두 아홉 차례 우승했다.",
   "enzo-ferrari.moment.1":
     "1963년 봄 포드의 협상팀이 돈 프레이의 지휘 아래 모데나에서 페라리 지분 인수를 협상했고, 협상은 그해 5월 계약 없이 끝났다. 협상이 얼마나 이어졌고 어떻게 끝났는지에 대한 설명은 엇갈린다. 포드 쪽 전언은 페라리가 마지막 순간에 발을 뺐다고 하고, 그의 측근 프랑코 고치는 레이싱 팀 예산에 포드의 승인을 받도록 한 조항이 자신이 약속받은 자율성을 훼손했다고 훗날 말했다.",
   "enzo-ferrari.interpretation.moment.1":
@@ -9721,11 +9743,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이는 프로필의 decisiveness 점수와 부합한다. 대응은 즉각적이었고 설명은 없었다. 동시에 고위 인력이 한꺼번에 떠나는 결과를 낳았고, 출처마다 경위가 달라 이 사례는 그 특성을 보여 줄 뿐 확정하지는 않는다.",
   /* ---------------------------------------------------------- david-bowie (Roster38) */
   "david-bowie.achievement.1":
-    "1990년대 중반 아웃사이드(Outside) 작업 당시 보위는 자신과 브라이언 이노를 위해 인터랙티브 CD-ROM을 만들어 온 타이 로버츠와 함께 버베이자이저(Verbasizer)를 개발했다. 이 맥 프로그램은 입력한 문장을 열 단위로 나눈 뒤 단어를 무작위로 재조합해 가사 조각을 만들어 냈다. 로버츠는 이것이 보위가 스튜디오에서 종이로 하던 컷업 기법을 자동화한 것이라고 말하며, 보위는 1997년 다큐멘터리 인스퍼레이션스(Inspirations)에서 이 프로그램을 카메라 앞에서 직접 시연했다.",
+    "보위의 상업적 돌파구는 글램 록 시대였던 1972년, 지기 스타더스트(Ziggy Stardust)라는 캐릭터와 앨범 〈더 라이즈 앤드 폴 오브 지기 스타더스트 앤드 더 스파이더스 프롬 마스(The Rise and Fall of Ziggy Stardust and the Spiders from Mars)〉로 열렸다. 버라이어티는 이 앨범이 대중음악 역사상 손꼽힐 만큼 빠른 스타 등극을 불러왔다고 설명하고, 1972년 7월 6일 〈톱 오브 더 팝스(Top of the Pops)〉에서 한 '스타맨(Starman)' 공연을 문화의 흐름을 바꾼 순간이라 부르며, 〈헌키 도리(Hunky Dory)〉, 〈지기 스타더스트〉, 〈알라딘 세인(Aladdin Sane)〉을 약 18개월 사이에 나온 세 편의 명반으로 꼽는다.",
   "david-bowie.achievement.2":
-    "공동 제작자 론 로이의 설명에 따르면, 보위는 1996년 말 로버트 구달과 로이가 제안한 보위넷(BowieNet) 프로젝트를 승인하고 직접 자금도 투자했다. 이 서비스는 1998년 7월 17일에 발표되어 9월 1일에 시작되었으며, 월 19.95달러의 전화 접속 인터넷, davidbowie.com 이메일 주소, 채팅방, 팬이 직접 작품을 올릴 수 있는 공간을 함께 제공했다. 로이는 보위가 이를 홍보용 사이트로 만들지 말라고 강조했고, 이전 웹사이트를 음반사에 맡겨 온 데서 벗어나 자신의 웹 디자인 회사를 요청했다고 말한다.",
+    "1977년부터 1979년 사이 보위는 브라이언 이노, 프로듀서 토니 비스콘티와 함께 '베를린 3부작(Berlin Trilogy)'으로 묶이는 앨범들, 곧 〈로(Low)〉와 〈히어로스(\"Heroes\")〉(둘 다 1977년), 〈로저(Lodger)〉(1979년)를 만들었다. 〈로〉는 크라우트록과 실험 음악의 영향 아래 짧은 곡 조각들과 이노의 손길이 닿은 거의 앰비언트에 가까운 연주곡들로 두 번째 면을 채웠고, 〈히어로스〉는 베를린의 한자 스튜디오에서 로버트 프립의 기타와 함께 전부 녹음되었다. 라우더는 〈로저〉가 더 전통적인 구조를 지녔고 3부작의 세 번째 작품으로 꼽히는 것은 주로 보위가 그렇게 말했기 때문이라고 짚으며, 비스콘티는 RCA 임원이 〈로〉 대신 '영 아메리칸스 2(Young Americans II)'를 만들면 필라델피아에 저택을 사 주겠다고 했다고 회고한다.",
   "david-bowie.achievement.3":
-    "1994년 보위는 미술 잡지 모던 페인터스(Modern Painters)의 편집위원회에 합류했다. 소더비에 따르면 그는 이 잡지에 인터뷰와 리뷰를 기고했는데, 편집진에게 직접 제안한 화가 발튀스와의 인터뷰, 데이미언 허스트 인터뷰, 1995년 요하네스버그 비엔날레 리뷰, 장미셸 바스키아에 관한 글이 포함된다. 1998년 4월 1일에는 제프 쿤스의 작업실에서 미술 서적 출판사 21 퍼블리싱을 출범시켰고, 첫 책은 가상의 화가 냇 테이트를 다룬 윌리엄 보이드의 책이었다.",
+    "V&A에 따르면 나일 로저스와 공동 프로듀싱한 〈렛츠 댄스(Let's Dance)〉(1983)는 지금도 보위의 가장 많이 팔린 앨범이다. 라우더는 이 앨범의 타이틀곡이 미국과 영국 모두에서 1위에 올랐고, 앨범이 1,100만 장 팔렸으며, EMI와 새로 맺은 수백만 달러 규모의 계약 이후 그가 바라던 국제적 스타가 되었다고 전한다.",
+  "david-bowie.moment.3":
+    "1990년대 중반 아웃사이드(Outside) 작업 당시 보위는 자신과 브라이언 이노를 위해 인터랙티브 CD-ROM을 만들어 온 타이 로버츠와 함께 버베이자이저(Verbasizer)를 개발했다. 이 맥 프로그램은 입력한 문장을 열 단위로 나눈 뒤 단어를 무작위로 재조합해 가사 조각을 만들어 냈다. 로버츠는 이것이 보위가 스튜디오에서 종이로 하던 컷업 기법을 자동화한 것이라고 말하며, 보위는 1997년 다큐멘터리 인스퍼레이션스(Inspirations)에서 이 프로그램을 카메라 앞에서 직접 시연했다.",
   "david-bowie.moment.1":
     "1973년 7월 3일, 런던 해머스미스 오데온에서 열린 지기 스타더스트 투어의 마지막 밤에 보위는 관객에게 이것이 '우리가 하는 마지막 쇼'라고 말했다. 버라이어티에 따르면 기타리스트 믹 론슨은 솔로 계약을 대가로 비밀을 지키기로 하고 미리 이 사실을 들었지만, 드러머 우디 우드맨시는 자신의 앞날 계획이 취소되었다는 것을 알지 못했다. 얼티밋 클래식 록은 수지 론슨이 우드맨시와 베이시스트 트레버 볼더만 빼고 모두 알고 있었다고 말했다고 전한다.",
   "david-bowie.interpretation.moment.1":
@@ -9759,10 +9783,12 @@ export const EDITORIAL_KO: Record<string, string> = {
     "논리 회로는 릴레이로 옮기되 기계식 기억장치는 유지한 점은 중간 수준의 믿음 갱신 점수와 부합한다.",
   /* ---------------------------------------------------------- alfred-russel-wallace (Roster38) */
   "alfred-russel-wallace.achievement.1":
-    "월리스는 1854년부터 1862년까지 동남아시아에서 전문 표본 수집가로 일했다. 그는 사라왁 출신의 알리를 비롯해 시기에 따라 구성이 바뀌는 현지 조수 팀과 함께 다니며 여러 차례 탐사를 했고, 1869년에 이 여행을 기록한 《말레이 제도》를 출간했다.",
+    "월리스는 무엇보다 찰스 다윈과 별개로 자연선택에 의한 진화 이론을 착안한 인물로 기억된다. 1858년 2월 그는 테르나테에서 에세이를 써서 다윈에게 보내며, 다윈이 충분히 새롭고 흥미롭다고 판단하면 찰스 라이엘에게 전해 달라고 청했다. 1858년 7월 1일 런던 린네 학회는 이 에세이를 다윈 본인의 글에서 발췌한 부분과 함께 낭독했으며, 두 사람 모두 그 자리에 없었고 월리스는 몰루카 제도에 있었다.",
   "alfred-russel-wallace.achievement.2":
-    "월리스는 1858년 2월 테르나테에서 쓴 글을 다윈에게 보내면서, 다윈이 충분히 새롭고 흥미롭다고 판단하면 찰스 라이엘에게 전해 달라는 뜻을 밝혔다. 1858년 7월 1일 런던 린네 학회는 이 글을 다윈의 글 발췌문과 함께 낭독했는데, 두 사람 모두 그 자리에 없었고 월리스는 몰루카 제도에 있었다.",
+    "1854년 3월부터 1862년까지 월리스는 동남아시아에서 전문 표본 채집가로 일했다. 사라왁 출신의 알리를 비롯해 계속 바뀐 현지 조수들과 함께 다녔고, 1869년 여행기 〈말레이 제도(The Malay Archipelago)〉를 펴냈다. 역사학자 존 반 와이는 월리스가 이 책에서 오스트레일리아와 아시아의 동물상을 가르는 경계선, 곧 오늘날 월리스선(Wallace Line)으로 알려진 일반화를 널리 알렸다고 쓴다.",
   "alfred-russel-wallace.achievement.3":
+    "1876년 월리스는 반 와이가 그의 가장 중요한 저서 가운데 하나로 꼽는 〈동물의 지리적 분포(The Geographical Distribution of Animals)〉를 출간했다. 1889년에는 자연선택에 의한 진화 이론과 그 증거를 설명한 강연을 토대로 〈다윈주의(Darwinism)〉를 펴냈다.",
+  "alfred-russel-wallace.moment.3":
     "1867년 2월 다윈은 헨리 월터 베이츠의 조언에 따라 일부 애벌레가 왜 화려한 색을 띠는지 월리스에게 물었다. 월리스는 눈에 띄는 색이 새들에게 맛이 없다는 신호가 될 수 있다고 답하며 실험을 제안했고, 존 제너 위어가 1867년과 1868년 여름에 그 실험을 수행했다.",
   "alfred-russel-wallace.moment.1":
     "1854년 2월 왕립지리학회 사무총장 헨리 노턴 쇼는 외무부에 편지를 보내, 월리스가 정부의 우편선 여객 제공 제안을 받아들이겠으며 그의 어린 조수도 포함되기를 바란다고 전하고, 목적지를 오스트레일리아 대신 싱가포르로 해 달라고 요청했다. 결국 P&O 증기선편이 마련되어 월리스와 십대 소년 찰스 앨런을 태운 배가 1854년 3월 4일 사우샘프턴을 출항했다.",
@@ -9797,9 +9823,9 @@ export const EDITORIAL_KO: Record<string, string> = {
     "안정적인 고위직을 떠나 검증되지 않은 온라인 사업에 뛰어든 결정은, 회사 창업자와 충분히 이야기를 나눈 뒤에 내려졌다는 점을 감안하더라도 위험 감수 점수와 부합한다.",
   /* ---------------------------------------------------------- johan-cruyff (Roster38) */
   "johan-cruyff.achievement.1":
-    "크라위프는 1988년부터 1996년까지 FC 바르셀로나를 지도했다. 그의 팀은 1991년부터 1994년까지 라리가 4연패를 기록했고 1992년에는 웸블리에서 삼프도리아를 꺾고 유러피언컵에서 우승했으며, 가디언 부고는 그가 거둔 우승이 모두 11개라고 전한다.",
+    "선수 시절 크라위프는 리뉘스 미헐스가 발전시킨 '토탈 풋볼'의 대표적인 옹호자였다. 가디언의 부고는 이를 어떤 선수도 고정된 필드 위치를 갖지 않는 유동적인 체계라고 설명한다. 그는 1971년부터 1973년까지 아약스에서 유러피언컵 3연패를 이뤘고 1973년 바르셀로나로 옮겼으며, 발롱도르를 세 차례(1971년, 1973년, 1974년) 받았고 1974년 월드컵 결승에서 서독에 패한 네덜란드 대표팀의 일원이었다. 그 대회에서 스웨덴을 상대로 선보인 '크라위프 턴'은 그의 트레이드마크 페인트가 되었다.",
   "johan-cruyff.achievement.2":
-    "선수 시절 크라위프는 1971년부터 1973년까지 아약스에서 유러피언컵 3연패를 이루었고, 1973년 FC 바르셀로나로 이적했다. 그는 1966년부터 1977년까지 네덜란드 대표팀에서 48경기를 뛰었으며, 1974년 월드컵 결승에서 서독에 패한 네덜란드 팀의 일원이었다.",
+    "크라위프는 1988년부터 1996년까지 바르셀로나 감독을 맡았다. 그의 팀은 1991년부터 1994년까지 라리가 4연패를 이뤘고 1992년 웸블리에서 삼프도리아를 꺾고 유러피언컵을 들어 올렸으며, 가디언 부고는 모두 열한 개의 트로피를 세었다. 같은 부고는 그가 이 클럽에서 세계 축구계가 부러워하고 널리 모방한 혁신적인 새 스타일을 만들어 냈다고 전한다.",
   "johan-cruyff.moment.1":
     "1974년 월드컵을 앞두고 크라위프는 리누스 미헐스 감독을 설득해 얀 판 베버런(Jan van Beveren) 대신 얀 용블루트(Jan Jongbloed)를 골키퍼로 데려가게 했다. 데이비드 위너는 판 베버런을 국내 최고의 선방 능력을 지닌 골키퍼라고 소개하며, 크라위프가 그와 오랜 불화를 겪고 있었다고 쓴다. 위너에 따르면 크라위프는 용블루트가 발밑 기술이 좋고 골문에서 멀리 나올 수 있다는 점을 알아보았고, 사실상 추가 수비수처럼 움직이는 골키퍼가 있으면 네덜란드가 더 높은 위치에서 압박할 수 있다고 보았다.",
   "johan-cruyff.interpretation.moment.1":
@@ -9833,9 +9859,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이미 진행 중이던 계획에 따라 연습 하루 만에 결단을 내린 이 행동은 이 프로필의 결단력 점수와 부합하며, 갑작스러운 이탈이라는 점이 해당 항목을 양면적으로 표시한 이유이다.",
   /* ---------------------------------------------------------- babe-ruth (Roster38) */
   "babe-ruth.achievement.1":
-    "1918년 5월 에드 배로 감독은 주장 해리 후퍼와 상의한 끝에 루스를 투수로 쓰면서 야수로도 내보내기 시작했다. 루스는 그해 7월 중순부터 9월 초까지 나흘에 한 번 등판하고 나머지 날에는 좌익수, 중견수 또는 1루수로 뛰었으며, 보스턴은 아메리칸리그 우승에 이어 월드시리즈에서 시카고 컵스를 꺾었다.",
+    "1918년 5월 에드 배로 감독은 주장 해리 후퍼와 상의한 뒤 루스를 투수로 기용하면서 야수로도 내보내기 시작했고, 1919년 루스는 좌익수로 110경기에 나서 당시 최다인 홈런 29개를 쳤다. 1919년 12월 양키스로 팔린 그는 1920년 홈런 54개를 쳤고 장타율 .709로 메이저리그 1위에 올랐다. SABR의 전기는 그 뒤 몇 시즌 동안의 타격이 장거리 타격과 고득점의 새 시대를 여는 데 일조해 사실상 데드볼 시대의 막을 내렸다고 평가한다.",
   "babe-ruth.achievement.2":
-    "루스는 월드시리즈 우승팀의 일원으로 일곱 번 뛰었다. 레드삭스 시절인 1915년, 1916년, 1918년과 양키스 시절인 1923년, 1927년, 1928년, 1932년이다. 뉴욕에서는 1921년, 1922년, 1926년에 월드시리즈에서 진 팀에도 속해 있었다.",
+    "1927년 양키스의 '머더러스 로(Murderers' Row)' 타선의 일원으로 루스는 홈런 60개를 쳐 자신이 세운 한 시즌 최다 기록을 하나 늘렸다. SABR에 따르면 그는 1920년부터 1931년까지 12시즌 동안 아메리칸리그 장타율 1위를 11번, 홈런 1위를 10번 차지했고, 1935년 은퇴할 때 통산 홈런 714개로 당시 통산 최다 기록을 갖고 있었다.",
+  "babe-ruth.achievement.3":
+    "루스는 월드시리즈 우승팀 소속으로 일곱 번 뛰었다. 레드삭스에서 1915년, 1916년, 1918년, 양키스에서 1923년, 1927년, 1928년, 1932년이다. 뉴욕에서는 1921년, 1922년, 1926년 월드시리즈에서 패하기도 했다. 1936년에는 야구 명예의 전당의 첫 회원 다섯 명 가운데 한 명으로 선출되었다.",
   "babe-ruth.moment.1":
     "1921년 월드시리즈가 끝난 뒤 루스는 밥 뮤절, 빌 피어시와 함께 월드시리즈 출전 선수의 순회 경기를 금지한 규정에도 불구하고 10월 16일 버펄로에서 순회 시범경기를 시작했다. 루스는 사전에 랜디스 커미셔너에게 전화를 걸었고, 경기 뒤 기자들에게 이 일이 자신에게 무엇을 뜻할지 알고 있다고 말했다. 그는 양키스 공동 구단주 틸 휴스턴과 이야기를 나눈 뒤 10월 21~22일에 순회를 접었고, 12월 5일 랜디스는 루스와 뮤절에게 1922년 5월 20일까지 출장 정지를 내리고 월드시리즈 배당금을 반납하도록 했다(SABR의 T.S. 플린이 1921년 당시 신문 보도를 바탕으로 정리).",
   "babe-ruth.interpretation.moment.1":
@@ -9903,11 +9931,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이 흐름은 매사추세츠에서의 발사 금지 이후에도 연구가 이어졌다는 점에서 이 프로필의 끈기 점수를 보여 주는 사례이다. 다만 자금과 이전은 고더드 자신만큼이나 린드버그와 구겐하임의 주도에 힘입은 것이었다.",
   /* ---------------------------------------------------------- philo-farnsworth (Roster38) */
   "philo-farnsworth.achievement.1":
-    "1934년 여름 판즈워스의 연구소는 필라델피아 프랭클린 연구소에서 자사의 전자식 텔레비전 시스템을 일반에 공개하는 시연을 열어, 입장료를 낸 관람객에게 옥상과 건물 곳곳의 공연자와 풍경을 중계했다. 시연 기간은 자료에 따라 열흘에서 약 3주까지 서로 다르게 기록되어 있다.",
+    "1927년 9월 7일 샌프란시스코에서 파른스워스의 팀은 그의 이미지 디섹터 카메라관을 이용해 슬라이드에 그린 검은 선, 곧 첫 영상을 같은 연구실의 다른 방에 있는 수신기로 전송했다. 이 시스템의 핵심 부품 두 가지는 이미지 디섹터(카메라관)와 오실라이트(수상관)였다. 그는 1927년 1월 디섹터의 특허를 출원했고, 공학기술사 위키(ETHW)에 따르면 1930년에 특허를 받았으며 블라디미르 즈보리킨과 데이비드 사르노프를 상대로 이를 성공적으로 지켜 냈다.",
   "philo-farnsworth.achievement.2":
-    "1939년 판즈워스의 회사와 RCA는 특허 사용권 계약을 체결했고, RCA는 지속적인 로열티를 지급하기로 했다. 그로스(Gross)는 이를 RCA의 통상 방침에서 벗어난 이례적 결정이라고 설명한다. 회사 후원자였던 에버슨(Everson)은 협상이 1939년 5월부터 9월까지 이어졌으며 회사 사장과 특허 담당 책임자가 이끌었고 판즈워스 본인은 메인 주에 있었다고 적었다.",
+    "1934년 여름 판즈워스의 연구소는 필라델피아 프랭클린 연구소에서 자사의 전자식 텔레비전 시스템을 일반에 공개하는 시연을 열어, 입장료를 낸 관람객에게 옥상과 건물 곳곳의 공연자와 풍경을 중계했다. 시연 기간은 자료에 따라 열흘에서 약 3주까지 서로 다르게 기록되어 있다.",
   "philo-farnsworth.achievement.3":
-    "레멜슨-MIT에 따르면 1950년대부터 세상을 떠날 때까지 핵융합이 판즈워스의 주된 연구 관심사였다. 마리엇 도서관의 자료 안내서(finding aid)는 그가 ITT에서 직원들과 함께 '퓨저(fusor)'라 부른 실험용 핵융합 관 여러 개를 만들었으나 반응은 약 30초를 넘지 못했으며, 1967년에는 이 연구를 브리검영 대학교로 옮겼다고 적고 있다.",
+    "1939년 판즈워스의 회사와 RCA는 특허 사용권 계약을 체결했고, RCA는 지속적인 로열티를 지급하기로 했다. 그로스(Gross)는 이를 RCA의 통상 방침에서 벗어난 이례적 결정이라고 설명한다. 회사 후원자였던 에버슨(Everson)은 협상이 1939년 5월부터 9월까지 이어졌으며 회사 사장과 특허 담당 책임자가 이끌었고 판즈워스 본인은 메인 주에 있었다고 적었다.",
   "philo-farnsworth.moment.1":
     "1926년 여름, 아직 성년이 되지 않았던 판즈워스는 샌프랜시스코의 크로커 퍼스트 내셔널 은행에서 은행가들에게 자신의 구상을 설명했다. 그 자리에 있던 에버슨에 따르면 판즈워스는 움직이는 부품이 없는 방식이라고 설명했고, 신문의 망점 사진을 이용해 초당 얼마나 많은 화소를 전송해야 하는지 보여 주었으며 은행가들의 질문에도 답했다. 은행 측 기술자가 이미 그의 명세서를 검토해 둔 상태였고, 은행가들은 이 연구를 후원하기로 했다.",
   "philo-farnsworth.interpretation.moment.1":
@@ -9922,11 +9950,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이 결별은 자신의 연구 방향을 스스로 통제하려는 성향과 부합하지만, 필코 자체의 목표와 재정 사정도 영향을 미쳤다.",
   /* ---------------------------------------------------------- frederic-chopin (Roster38) */
   "frederic-chopin.achievement.1":
-    "쇼팽은 국가 간 저작권 보호가 약했기 때문에 성숙기 작품 대부분을 프랑스, 독일, 영국에서 대개 서로 다른 출판사를 통해 발행하도록 했다. 초판 연구자들은 같은 곡의 세 판본이 흔히 서로 다른 이유를 쇼팽 자신의 수정과 교정쇄 작업으로 설명한다.",
+    "쇼팽의 알려진 작품은 거의 모두 피아노를 포함하며, 주요 피아노 작품으로는 마주르카, 왈츠, 녹턴, 폴로네즈, 연습곡, 즉흥곡, 스케르초, 전주곡, 소나타가 있다. 그는 존 필드가 만든 살롱 음악 장르인 녹턴을 더 깊은 경지로 끌어올렸고, 발라드와 스케르초를 독립된 연주회용 작품으로 처음 쓴 인물이다. 그의 마주르카는 폴란드 전통 춤에서 나왔지만 무도장이 아닌 연주회장을 위해 쓰였다.",
   "frederic-chopin.achievement.2":
-    "쇼팽은 1830년대 초부터 파리에서 피아노를 가르쳤고, 시카고 대학 도서관 전시 설명에 따르면 1832년 말에는 파리에서 가장 선호받는 피아노 교사가 되어 있었다. 1840년대 초에는 피아노 교수법의 초안을 스케치했으나 끝내 완성하지는 못했다.",
+    "쇼팽은 1833년 작품 10, 1837년 작품 25의 두 연습곡집을 출간했고, 1839년에는 장조와 단조마다 하나씩 모두 담은 작품 28의 전주곡집을 냈는데, 이는 사실상 독립된 전주곡이라는 새로운 장르를 세운 작품이다. 그는 국가 간 저작권 보호가 약했기 때문에 성숙기 작품 대부분을 프랑스, 독일, 영국에서 대개 서로 다른 세 출판사를 통해 출간하도록 했다. 같은 곡의 세 판본은 서로 다른 경우가 많은데, 초판 연구자들은 이를 쇼팽 자신의 수정과 교정 때문으로 본다.",
   "frederic-chopin.achievement.3":
-    "쇼팽은 1848년 2월 16일 플레옐 홀에서 파리에서의 마지막 연주회를 열었다. 프로그램에는 알라르, 프랑숌과 함께한 모차르트 트리오와 프랑숌과 함께한 자신의 첼로 소나타 일부가 들어 있었고, 입장은 신청자 명단으로 이루어졌으며 『가제트 뮈지칼』은 표를 얻으려면 후원자의 추천이 필요했다고 보도했다.",
+    "쇼팽은 1830년대 초부터 파리에서 피아노를 가르쳤고, 시카고 대학 도서관 전시 설명에 따르면 1832년 말에는 파리에서 가장 선호받는 피아노 교사가 되어 있었다. 1840년대 초에는 피아노 교수법의 초안을 스케치했으나 끝내 완성하지는 못했다.",
   "frederic-chopin.moment.1":
     "1831년 12월 쇼팽은 친구와 옛 스승 엘스너에게 보낸 편지에서, 당시 파리 최고의 피아니스트였던 프리드리히 칼크브레너가 3년간 가르치겠다고 제안했으나 기간이 너무 길고 칼크브레너를 모방하고 싶지 않아 사양했다고 적었다. 페르디난트 힐러는 1874년의 회고에서 쇼팽이 그럼에도 칼크브레너의 상급반 수업에 몇 차례 나갔다고 썼다.",
   "frederic-chopin.interpretation.moment.1":
@@ -9943,7 +9971,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "buster-keaton.achievement.1":
     "1920년부터 1928년까지 키턴은 제작자 조지프 솅크를 위해 무성 단편과 장편을 만들었다. 터너 클래식 무비스의 수전 돌은 단편 19편과 여러 편의 장편이라고 세며, 그가 이 작품들에서 완전한 창작 통제권을 가졌다고 쓴다. 로저 프리스토는 그의 고정 팀을 공동 감독 에디 클라인, 기술 감독 프레드 가부리, 촬영 책임자 엘진 레슬리로 소개한다.",
   "buster-keaton.achievement.2":
-    "오리건 백과사전에 따르면 「제너럴」은 채터누가에 있던 실제 기관차를 쓰려던 계획이 무산된 뒤 1926년 여름 오리건주 코티지그로브 일대에서 촬영되었다. 제작진은 1862년의 조지아주 메리에타를 재현한 세트와, 열차 추락 장면을 위한 로 리버 위의 215피트 목조 가교를 지었다.",
+    "오리건 백과사전에 따르면 〈제너럴(The General)〉은 챗터누가에 있는 실제 기관차를 쓰려던 계획이 무산된 뒤 1926년 여름 오리건주 코티지 그로브 일대에서 촬영되었다. 제작진은 1862년의 조지아주 매리에타를 본뜬 세트와, 열차 추락 장면을 위한 로 강 위의 215피트 목교를 지었다. 영화는 약 75만 달러가 들었지만 흥행 수입은 50만 달러에 못 미쳤고 평도 대체로 냉담했다. 그러나 약 30년 뒤 재발견되어 지금은 미국 영화사상 가장 위대한 작품 중 하나로 꼽히며, 미국영화연구소(AFI)는 2007년 '미국 영화 100선'에서 18위에 올렸다.",
   "buster-keaton.achievement.3":
     "제임스 나이바우어는 텔레비전이 1949년부터 1960년대까지 키턴에게 가장 효과적이고 수입도 좋은 공연 무대였다고 쓴다. 1949년의 생방송 코미디 쇼, 1950~51년의 필름 시리즈가 있었고, 이후에는 게스트 출연과 광고가 이어졌다.",
   "buster-keaton.moment.1":
@@ -9960,11 +9988,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이후 개그 작가, 텔레비전 연기자, 광고 출연자로 일한 것은 이 프로필의 적응력 점수와 부합한다. 다만 나이바우어는 그 일부가 경제적 필요에서 나왔다고 강조하므로, 새 매체를 단순히 선택한 것으로만 읽어서는 안 된다.",
   /* ---------------------------------------------------------- christopher-wren (Roster38) */
   "christopher-wren.achievement.1":
-    "왕립학회 회의록을 보면 렌은 1660년대 초 여러 분야의 연구를 학회에 내놓았다. 1661년 10월 1일자로 쓴 토성에 관한 가설 편지가 있고, 1663년 12월 9일에는 그가 설계한 기상 시계(weather-clock)의 설명이 학회 기록에 등록되었다. 1665년 2월 1일에는 1664~65년 혜성의 관측 결과를 이론과 함께 발표했으며, 그가 남긴 도표는 기하학적 작도로 혜성의 경로를 계산해 낸다.",
+    "렌은 1669년 7월 30일 세인트폴 대성당 보수의 총감독관으로 임명되었고 같은 해 왕실 건축 총감독(Surveyor-General of the King's Works)이 되었으며, 이 직위에서는 1718년 해임되었다. 왕은 1675년 5월 14일 새 대성당의 워런트 설계안을 승인했고, 닷새 뒤 위원회는 동쪽 부분의 기초 공사를 시작하라고 명령했다. 그의 걸작으로 평가받는 세인트폴 대성당은 1710년에 완공되었다.",
   "christopher-wren.achievement.2":
-    "1663년 4월 29일 렌은 옥스퍼드에 지을 극장(셸더니언 극장)의 모형을 왕립학회에 보였고, 그 전체 구조에 대한 설명을 써서 학회 기록 보관소에 남기라는 요청을 받았다. 이블린의 일기에는 이 극장의 개관식이 1669년 7월 9일에 열렸다고 적혀 있다.",
+    "1666년 런던 대화재 뒤 렌은 런던 시내 교회 약 쉰 곳의 재건을 맡았다(보통 51곳 또는 52곳으로 센다). 다만 그 모두가 그 자신의 완전히 발전된 설계였던 것은 아니다. 그 밖의 주요 건축으로는 첼시 왕립병원(1682~92), 그리니치의 구 왕립해군대학, 햄프턴 코트 궁전의 남쪽 정면이 있다.",
   "christopher-wren.achievement.3":
-    "렌은 1669년 7월 30일 세인트폴 대성당 수리 총감독으로 임명되었고, 같은 해 왕실 건축 총감독(Surveyor-General of the King's Works)이 되어 1718년 해임될 때까지 그 직을 맡았다. 왕은 1675년 5월 14일 새 대성당의 워런트 설계안을 승인했고 위원회는 닷새 뒤 동쪽 부분의 기초 공사를 시작하라고 지시했다. 게러티는 첫 계약이 체결된 6월 18일 무렵에는 렌이 성가대석과 교차부의 평면을 이미 고쳐 놓았다고 결론짓는다.",
+    "건축가가 되기 전 렌은 왕립학회 설립에 힘을 보태고 나중에 회장(1680~82)을 지낸 과학자였다. 학회 회의록에는 그가 1660년대 초 토성에 관한 가설과 기상 시계 등 여러 분야의 연구를 가져온 것으로 나오며, 1663년 4월 29일에는 옥스퍼드에 지을 극장의 모형을 학회에 선보였다. 에벌린의 일기는 이 극장의 개관식이 1669년 7월 9일에 열렸다고 기록한다.",
   "christopher-wren.moment.1":
     "1666년 8월 27일, 런던 대화재가 시작되기 엿새 전에 렌은 이블린, 런던 주교 등과 함께 옛 세인트폴 대성당의 상태를 조사했다. 이블린의 일기에 따르면 그와 렌은 신랑(身廊)이 바깥쪽으로 기운 것이 처음부터 의도였다고 본 치철리와 프랫에 맞서, 여러 곳에서 다림줄로 기둥의 수직을 재어 보았고 첨탑에는 새 기초가 필요하다고 주장했다. 그리고 '상당한 논쟁' 끝에 돔을 얹은 교회의 설계안과 견적을 가져오겠다는 두 사람의 제안이 받아들여졌다.",
   "christopher-wren.interpretation.moment.1":
@@ -9979,11 +10007,13 @@ export const EDITORIAL_KO: Record<string, string> = {
     "천문학과 실험에서 건축 경력으로 옮겨 간 이 전환은 이 프로필의 분야 횡단 점수와 부합한다. 게러티는 그의 실험 철학 훈련이 제도 솜씨를 길러 주었다고 보지만, 그가 왜 방향을 바꾸었는지는 자료에 나와 있지 않다.",
   /* ---------------------------------------------------------- george-frideric-handel (Roster38) */
   "george-frideric-handel.achievement.1":
-    "1742년 4월 13일 더블린 피셤블 스트리트의 새 뮤직 홀에서 헨델의 오라토리오 「메시아」가 죄수 구제 협회, 머서 병원, 자선 진료소를 돕는 공연으로 열렸다. 더블린 저널은 그가 이 공연의 수익을 세 자선 기관이 똑같이 나누도록 내놓았다고 보도했다.",
+    "헨델의 작품에는 오페라 42편, 오라토리오 24편, 칸타타 120편 이상, 합주 협주곡 18편, 오르간 협주곡 12편이 있다. 오페라 〈리날도(Rinaldo)〉(1711)는 크게 성공했고, 1724년부터 1725년까지 열두 달 동안 〈줄리오 체사레(Giulio Cesare)〉, 〈타메를라노(Tamerlano)〉, 〈로델린다(Rodelinda)〉 세 편의 성공작을 썼다.",
   "george-frideric-handel.achievement.2":
-    "1749년 5월부터 런던 신문들은 파운들링 병원(기아 보호 시설)의 이익을 위한 헨델 음악 공연을 알렸고, 1751년과 1756년의 보도는 이 병원 예배당에서 그의 지휘로 「메시아」가 연주되었다고 전한다. 1751년 4월의 한 보도는 그가 예배당에 오르간을 기증했다고 적고 있으며, 1757년 8월 4일자 유언 보충서에는 「메시아」 악보 필사본과 파트보를 이 병원에 남긴다는 조항이 있다.",
+    "헨델의 오라토리오 〈메시아(Messiah)〉는 1741년 8월 22일부터 9월 14일 사이 런던에서 작곡되어, 1742년 4월 13일 더블린 피시앰블 거리의 뉴 뮤직홀에서 죄수 구호와 머서 병원, 자선 진료소를 돕는 공연으로 처음 연주되었다. 더블린 저널은 헨델이 공연 수익을 세 자선 단체가 똑같이 나누도록 내놓았다고 보도했다. 이 성공 뒤 그는 다시는 이탈리아 오페라를 작곡하지 않았다.",
   "george-frideric-handel.achievement.3":
-    "1739년 3월 런던 데일리 포스트는 헨델이 생활이 어려워진 음악가와 그 가족을 돕는 기금의 이익을 위해 오페라 극장 사용권을 내놓았으며 「알렉산더의 향연」 공연을 직접 지휘할 계획이라고 보도했다. 1741년 3월에도 같은 기금을 위한 또 한 차례의 공연 광고에 그의 음악이 실렸다.",
+    "〈메시아〉와 〈솔로몬(Solomon)〉 같은 영어 오라토리오, 대관식 앤섬, 그리고 〈수상 음악(Water Music)〉(1717년 7월 조지 1세를 위해 템스강에서 연주)과 〈왕궁 불꽃놀이 음악(Music for the Royal Fireworks)〉(1749년, 첫 공연에 1만 2천 명이 모임) 같은 작품으로 헨델은 영국의 국민적 상징이 되었다.",
+  "george-frideric-handel.moment.3":
+    "1749년 5월부터 런던 신문들은 파운들링 병원(기아 보호 시설)의 이익을 위한 헨델 음악 공연을 알렸고, 1751년과 1756년의 보도는 이 병원 예배당에서 그의 지휘로 「메시아」가 연주되었다고 전한다. 1751년 4월의 한 보도는 그가 예배당에 오르간을 기증했다고 적고 있으며, 1757년 8월 4일자 유언 보충서에는 「메시아」 악보 필사본과 파트보를 이 병원에 남긴다는 조항이 있다.",
   "george-frideric-handel.moment.1":
     "1729년 1월 말, 헨델은 왕립 음악 아카데미의 위임을 받아 가수를 모집하기 위해 이탈리아로 떠나기에 앞서 국왕 내외에게 작별 인사를 했다. 7월 초 런던 신문들은 그가 계약을 마치고 돌아왔다고 보도했으며, 그중 베이스 가수 한 명은 '이탈리아에는 고용할 만한 사람이 없어서' 함부르크에서 구했다고 전했다.",
   "george-frideric-handel.interpretation.moment.1":
@@ -9998,11 +10028,9 @@ export const EDITORIAL_KO: Record<string, string> = {
     "기록에 나타난 여러 차례의 장소·형식 변화 가운데 하나인 이 이동은 적응력의 한 예이며, 그 이유에 관한 설명은 친구의 훗날 회고에 의존한다.",
   /* ---------------------------------------------------------- joseph-lister (Roster38) */
   "joseph-lister.achievement.1":
-    "리스터의 첫 두 논문(1853)은 홍채와 피부 근육을 현미경으로 살핀 연구였고, 1857~1859년에는 혈관의 신경 조절, 초기 염증, 장운동의 신경 조절 등을 다룬 생리학 논문 11편을 발표했다. 하워드는 그가 이 초기 실험 연구로 왕립학회 회원(FRS)에 선출되었다고 전한다.",
+    "리스터는 글래스고 왕립병원에서 수술 기구, 피부, 봉합사, 손, 병동을 소독하는 방부제로 석탄산을 도입했고, 상처의 부패가 세균 때문이라는 점을 파스퇴르의 발효 세균설과 연결해 인식했다. 그의 첫 방부 수술 논문에 실린 사례는 1865년 8월 12일 입원한 환자에서 시작되며, 그는 더 많은 사례로 방법을 다듬고 검증하느라 발표를 미뤘다고 썼고 이 방법은 1867년 봄 〈랜싯〉의 연재 논문으로 실렸다. 보고서는 성공뿐 아니라 실패도 서술하며, 그는 이후 10년 동안 36개 사례를 더 자세히 기술했다. 그의 연구는 수술 후 감염을 줄였고 그는 '근대 외과학의 아버지'로 불렸지만, 초기 연구에 대한 반응은 고르지 않았다.",
   "joseph-lister.achievement.2":
-    "리스터가 처음 발표한 방부 처치 논문의 사례들은 1865년 8월 12일 글래스고 왕립병원에 입원한 환자에서 시작한다. 그는 더 많은 사례로 방법을 다듬고 검증하려고 발표를 미뤘다고 썼으며, 이 방법은 1867년 봄 《랜싯》 연재 논문으로 공개되었다. 보고에는 성공뿐 아니라 실패도 서술되어 있고, 이후 10년 동안 그는 36건의 사례를 더 상세히 기술했다.",
-  "joseph-lister.achievement.3":
-    "1870년 리스터는 프랑스-프로이센 전쟁의 부상병을 위한 처치 계획을 발표하여, 상처를 20분의 1 석탄산 용액으로 씻고 혈전을 제거하며 출혈 혈관을 묶은 뒤 드레싱을 적용할 것을 권했다. 슐리히에 따르면 이 글은 곧바로 독일어로 번역되었으나 그 전쟁에서 널리 채택되지는 않았다.",
+    "리스터의 첫 두 논문(1853)은 홍채와 피부 근육을 현미경으로 살핀 연구였고, 1857~1859년에는 혈관의 신경 조절, 초기 염증, 장운동의 신경 조절 등을 다룬 생리학 논문 11편을 발표했다. 하워드는 그가 이 초기 실험 연구로 왕립학회 회원(FRS)에 선출되었다고 전한다.",
   "joseph-lister.moment.1":
     "1877년 10월 1일 리스터는 런던 킹스칼리지의 새 교수직 취임 강연에서 임상 성과 대신 포도주·혈액·우유의 발효를 주제로 삼았고, 실험실에서 가져온 플라스크와 시료, 손으로 그린 포스터를 사용했다. 리처드슨에 따르면 그는 응고되지 않고 남아 있던 우유 한 잔을 따라 청중 앞에서 마셨고, 청중 일부는 지루해 하며 술렁였다.",
   "joseph-lister.interpretation.moment.1":
@@ -10034,9 +10062,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이러한 양상은 어디서 어떻게 연구할지를 스스로 정하려는 성향과 부합한다. 다만 그 동기에 대한 주된 근거는 데카르트 자신이 쓴 글이며, 그는 훗날 스톡홀름으로의 초청을 받아들였다.",
   /* ---------------------------------------------------------- antonie-van-leeuwenhoek (Roster38) */
   "antonie-van-leeuwenhoek.achievement.1":
-    "레이우엔훅은 1673년부터 1723년까지 자신이 만든 현미경으로 관찰한 내용을 네덜란드어 편지로 왕립학회에 보냈고, 버치의 기록에 따르면 1679/80년 1월 29일(구력) 크룬 박사의 발의로 회원에 선출되었다. 도벨에 따르면 그는 회의에 참석하러 런던에 간 적이 없으며, 1723년에는 딸이 은제 틀에 끼운 렌즈 26개가 든 함을 학회에 보냈는데, 이는 그가 1701년에 사후 학회에 남기도록 마련해 둔 것이었다.",
+    "레이우엔훅은 직접 설계하고 만든 단일 렌즈 현미경으로 미생물을 처음 관찰하고 실험한 인물로, 이를 '디르켄스(dierkens)'라 불렀으며 흔히 '미생물학의 아버지'로 불린다. 단세포 미생물에 대한 그의 첫 관찰은 1676년 10월 9일자 편지로 왕립학회에 보내졌고, 처음에는 그의 신뢰성이 의심받았다. 그는 또 세균, 정자(1677년), 근섬유를 현미경으로 처음 기록한 인물로, 그리고 적혈구를 그 정체대로 처음 알아본 인물로 평가된다.",
   "antonie-van-leeuwenhoek.achievement.2":
-    "1669년 2월 4일 홀란트 궁정법원은 수학자 게네시위스 바엔이 기하학 시험을 치른 뒤 레이우엔훅을 선서 측량사로 허가했다. 도벨은 네덜란드 국립문서보관소의 이 문서를 인용하며, 《전집》 편집자들은 이 시험을 들어 그가 '기예(arts)'에 전혀 문외한은 아니었다고 지적한다.",
+    "레이우엔훅은 500대가 넘는 현미경을 만들었다. 현존하는 기기에 중성자 단층촬영을 적용한 2021년 〈사이언스 어드밴시스〉 연구에 따르면, 보존된 것 중 가장 강력한 현미경은 약 266배로 확대하며 측정된 분해능은 1.35마이크로미터다. 왕립학회 서기 로버트 훅은 그의 관찰 방법에 관한 세부 사항을 알아내려 했으나 성공하지 못했다.",
+  "antonie-van-leeuwenhoek.achievement.3":
+    "레이우엔훅은 1673년부터 1723년까지 자신이 만든 현미경으로 관찰한 내용을 네덜란드어 편지로 왕립학회에 보냈고, 버치의 기록에 따르면 1679/80년 1월 29일(구력) 크룬 박사의 발의로 회원에 선출되었다. 도벨에 따르면 그는 회의에 참석하러 런던에 간 적이 없으며, 1723년에는 딸이 은제 틀에 끼운 렌즈 26개가 든 함을 학회에 보냈는데, 이는 그가 1701년에 사후 학회에 남기도록 마련해 둔 것이었다.",
   "antonie-van-leeuwenhoek.moment.1":
     "왕립학회가 1677년 2월 그의 관찰 방법을 알려 달라고 요청하자, 레이우엔훅은 3월 23일 자신의 특별한 현미경을 아직은 공개할 결심이 서지 않는다고 썼다. 1677년 10월 5일에는 목사와 공증인을 포함한 델프트 증인들이 모세관 속 후추물을 그가 검사하는 것을 지켜보았다는 진술서를 보냈고, 증인들에게 본 것의 절반만 적어 달라고 부탁했다고 썼다. 버치는 이 진술서가 1677년 11월 1일(구력)에 낭독되었고, 로버트 훅이 두 번 실패한 뒤 11월 15일에 직접 그 생물들을 관찰했다고 기록한다.",
   "antonie-van-leeuwenhoek.interpretation.moment.1":
@@ -10051,11 +10081,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "자신의 작업이 충동과 호기심에서 나왔다는 설명은 이 프로필의 호기심 점수와 부합하지만, 학술 단체에 보낸 첫 편지 속의 자기 서술이므로 그런 성격으로 감안해야 한다.",
   /* ---------------------------------------------------------- william-herschel (Roster38) */
   "william-herschel.achievement.1":
-    "허셜은 1773년 9월부터 바스에서 음악 교사이자 연주회 지휘자로 일하는 한편 직접 반사망원경을 만들기 시작했다. 드라이어가 편집한 그의 비망록에 따르면 그는 2피트 반사경을 빌려 쓰다가 9월 22일 바스의 한 아마추어가 쓰던 거울 제작 도구를 사들였고, 스미스의 《광학》과 에머슨의 《역학》을 바탕으로 작업했다. 드라이어는 1818년 12월까지 이어지는 그의 4권짜리 대형 기록에 거울 관련 작업이 모두 2,160건 적혀 있다고 센다.",
+    "1781년 3월 13일 허셜은 천왕성(Uranus)을 발견했다. 드레이어는 그가 1781년 11월 코플리 메달을 받고 12월 6일 왕립학회 회원으로 선출되었다고 기록하며, 이 발견의 결과로 조지 3세가 그를 궁정 천문학자로 임명했다.",
   "william-herschel.achievement.2":
-    "허셜은 1783년 10월 28일 데이체트에서 새 20피트 반사망원경으로 하늘을 훑는 '스위프' 관측을 시작했다. 드라이어에 따르면 그는 혼자 41번의 스위프를 한 뒤 이 방식이 지나치게 고되고 성과가 적다고 판단했고, 이후 일꾼이 망원경을 올리고 내리는 사이 누이 캐럴라인이 관측 내용을 받아 적는 방식으로 바꾸었으며, 1783년 12월 18일의 46번 스위프부터 1802년 9월 30일의 1112번 스위프까지 관측이 이어졌다.",
+    "1773년 9월부터 허셜은 바스에서 음악 교사이자 연주회 지휘자로 일하면서 직접 반사 망원경을 만들기 시작했다. 1783년 10월 28일에는 데이챗에서 새로 만든 20피트 반사 망원경으로 하늘을 '훑는' 관측을 시작했고, 누이 캐럴라인이 관측 내용을 받아 적었으며, 이 관측은 1802년 9월 30일 제1112차 훑기까지 이어졌다. 그의 탐사는 성운과 성단 1,000개(1786년), 또 1,000개(1789년), 다시 500개(1802년)의 목록과, 이중성·다중성 269개(1782년), 434개(1784년)의 목록으로 이어졌고, 1802~03년에는 일부 이중성이 서로의 중력에 끌려 공전하는 쌍성계라고 주장했다.",
   "william-herschel.achievement.3":
-    "허셜은 1800년 3월 27일 왕립학회에서 낭독된 논문에서, 태양을 관측할 때 색유리를 시험해 보다가 햇빛의 모든 색이 똑같이 열을 내는지 의심하게 되었다고 적었다. 그는 프리즘이 만든 스펙트럼 옆에 온도계를 놓고, 하나는 골라 둔 색 안으로 옮기고 나머지 둘은 그늘에 기준용으로 둔 채 같은 실험을 되풀이했다.",
+    "1800년 3월 27일 왕립학회에서 낭독한 논문에서 허셜은 태양을 볼 때 쓰는 색유리를 시험해 보니 햇빛의 모든 색이 똑같이 열을 내지는 않는다는 의심이 들었다고 썼다. 그는 프리즘이 만든 스펙트럼 옆에 온도계를 놓고, 하나는 선택한 색 안으로 옮기고 둘은 기준으로 그늘에 둔 채 실험을 되풀이했다. 이후의 실험은 눈에 보이는 스펙트럼 너머에 보이지 않는 형태의 빛이 있다는 결론, 곧 오늘날 적외선이라 부르는 것으로 이어졌다.",
   "william-herschel.moment.1":
     "1781년 3월 13일 허셜은 바스에서 하늘을 체계적으로 훑어보다가 일지에 '이상한, 성운상의 별이거나 어쩌면 혜성'이라고 적었고, 3월 17일에는 그것이 위치를 옮겼다고 기록했다. 왕립학회에 낸 논문의 제목은 〈한 혜성에 대한 보고〉였으며, 드라이어에 따르면 처음 제출한 원고에는 측정 가능한 시차를 주장하는 단락이 있었지만 다른 곳의 더 정확한 관측이 이를 반박하자 인쇄되지 않았다.",
   "william-herschel.interpretation.moment.1":
@@ -10146,11 +10176,9 @@ export const EDITORIAL_KO: Record<string, string> = {
     "아마추어 자격 박탈은 다른 사람들이 내린 결정이었지만, 이후 두 프로 종목을 동시에 소화한 그의 행보는 이 프로필의 분야 횡단성 점수와 나란히 놓인다.",
   /* ---------------------------------------------------------- eddy-merckx (Roster40) */
   "eddy-merckx.achievement.1":
-    "메르크스는 1964년 세계 아마추어 도로 선수권에서 우승했고 1965년 프로로 전향했다. 1969년에는 1939년 이후 벨기에 선수로는 처음으로 투르 드 프랑스에서 우승했으며, 스포츠 일러스트레이티드의 1972년 기사는 그가 1970년과 1971년에도 다시 우승했다고 기록한다.",
+    "메르크스는 1964년 아마추어 도로 세계선수권을 제패하고 1965년 프로로 전향했다. 사이클링 위클리에 따르면 그는 1965년부터 1978년까지의 선수 생활 동안 525개 경기에서 우승했고, 투르 드 프랑스 종합 우승 5회(공동 최다), 최다 구간 우승(34회), 그랜드 투어 11회 우승을 기록했으며 한 시즌에 투르, 지로 디탈리아, 세계선수권을 모두 석권한 최초의 선수다. 그는 1969년 투르에서 1939년 이후 처음으로 우승한 벨기에 선수가 되었고, 스포츠 일러스트레이티드의 1972년 프로필은 그가 1970년과 1971년에도 다시 우승했다고 기록한다.",
   "eddy-merckx.achievement.2":
     "1972년 10월 25일 멕시코시티의 야외 올림픽 벨로드롬에서 메르크스는 한 시간 동안 49.431km를 달려 올레 리테르의 기록을 788m 늘렸다. 사이클리스트 매거진은 이 기록이 28년 동안 유지되었다고 전한다.",
-  "eddy-merckx.achievement.3":
-    "메르크스는 1978년 봄에 선수 생활을 마쳤고, 1980년 이탈리아의 프레임 제작자 우고 데로사의 도움을 받아 자전거 회사 에디 메르크스 사이클스를 세웠다. 사이클링 위클리에 따르면 이 회사의 자전거는 이후 세븐일레븐, 모토로라, 퀵스텝 등 프로 팀에 공급되었다.",
   "eddy-merckx.moment.1":
     "1971년 7월 8일 오르시에르메를레트에서 메르크스는 약 100km 동안 아무도 선두 교대를 해 주지 않는 추격 그룹을 끌고 달린 끝에 루이스 오카냐에게 8분 41초를 잃었다. 벨기에 RTBF와 라 데아슈(La DH)의 회고 기사에 따르면, 이틀 뒤 그는 몰테니 팀 동료 세 명과 함께 251km 마르세유 구간의 출발 직후부터 공격해 약 2분을 되찾았다.",
   "eddy-merckx.interpretation.moment.1":
@@ -10467,11 +10495,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "숙련된 기구 비행사들이 말리던 엔진을 택한 것은 이 프로필의 독립적 사고를 보여 주는 한 사례다. 다만 그런 반대에 관한 내용은 대부분 본인의 기록과 승인된 인터뷰에서 나온 것이어서, 해당 항목의 신뢰도는 중간 수준이다.",
   /* ---------------------------------------------------------- paul-cezanne (Roster41) */
   "paul-cezanne.achievement.1":
-    "세잔은 1874년 파리에서 열린 제1회 인상파 그룹전에 작품을 출품했으며, 이때 《목맨 사람의 집》을 수집가 도리아 백작이 구입했다. 1877년 그룹전에는 수집가 빅토르 쇼케의 두상 초상을 포함해 유화와 수채화 16점을 내놓았다.",
+    "세잔은 새로운 표현 방식을 도입하고 20세기 초 아방가르드 운동에 영향을 주었으며 19세기 말 인상주의와 20세기 초 입체주의를 잇는 다리 역할을 한 후기 인상주의 화가다. 앙리 마티스와 파블로 피카소는 그를 '우리 모두의 아버지'라고 말했다고 전해진다.",
   "paul-cezanne.achievement.2":
-    "1890년대에 그는 아버지 영지의 농장 일꾼들을 모델로 카드놀이 하는 노동자들을 그린 그림 다섯 점을 완성했다. 생애 마지막 10년 동안에는 그의 작품 가운데 가장 큰 여성 목욕하는 사람들 대작 세 점을 그렸는데, 런던 내셔널 갤러리는 이를 1870년대부터 이어 온 주제의 정점이라고 평가한다.",
+    "세잔은 서른아홉 살 무렵부터 고향 엑상프로방스 가까이에 있는 생트빅투아르산을 연작으로 그리기 시작했는데 이는 그가 전에 그려 본 적 없는 소재였고, 이후 1906년까지 이 산으로 돌아가곤 했다. 1890년대에는 아버지 영지의 농장 일꾼들을 모델로 삼아 카드 놀이하는 일꾼들을 다섯 점 완성했다. 마지막 10년 동안에는 자신이 그린 가장 큰 그림인 여성 목욕객 대작 세 점에 매달렸고, 런던 내셔널 갤러리는 이를 그가 1870년대부터 이어 온 주제의 정점이라고 부른다.",
   "paul-cezanne.achievement.3":
-    "1904년 파리 살롱 도톤은 세잔에게 전시실 하나를 통째로 내주었다. 그의 화상 앙브루아즈 볼라르에 따르면 언론의 평은 여전히 적대적이었지만, 이때부터 수집가들 사이에서 그의 그림을 찾는 사람이 점점 늘었다.",
+    "세잔은 1874년 파리에서 열린 첫 인상주의 그룹전에 작품을 냈고, 이 전시에서 〈목매단 사람의 집(The House of the Hanged Man)〉을 수집가 도리아 백작이 사 갔다. 1904년에는 파리 가을 살롱이 그에게 방 하나를 통째로 내주었고, 화상 앙브루아즈 볼라르는 언론 평이 여전히 적대적이었지만 그때부터 수집가들이 그의 그림을 점점 더 찾았다고 기록한다.",
   "paul-cezanne.moment.1":
     "1899년 화상 앙브루아즈 볼라르는 매일 아침 8시부터 11시 30분까지 세잔의 초상화 모델로 앉았다. 볼라르 자신의 기록에 따르면 세잔은 115회의 작업 끝에 손 부분에 칠하지 않은 작은 빈자리 두 곳을 남긴 채 초상화를 미완성으로 두었다. 1904년에는 화가 에밀 베르나르가 세잔이 해골 정물화 한 점을 한 달 동안 매일 아침 고쳐 그리는 모습을 지켜보았다.",
   "paul-cezanne.interpretation.moment.1":
@@ -10486,11 +10514,11 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이러한 방법의 변화는 이 프로필의 실험성 점수와 부합한다. 다만 그 시기는 세잔 자신의 기질뿐 아니라 피사로와 함께 작업한 경험의 영향도 반영한다.",
   /* ---------------------------------------------------------- emily-dickinson (Roster41) */
   "emily-dickinson.achievement.1":
-    "1858년 무렵부터 1864년 사이에 디킨슨은 800편이 넘는 시를 직접 만든 작은 책자 마흔 권에 옮겨 적었다. 종이를 접어 겹친 뒤 끈으로 묶은 이 책자들은 오늘날 '파시클'이라 불리며, 1886년 그녀가 세상을 떠난 뒤 여동생이 발견했다. 그녀의 손으로 쓴 시 원고는 모두 약 2,500점이 남아 있다.",
+    "디킨슨은 1,800편에 가까운 시를 썼다. 그의 원고는 제목이 없고 대략적인 시간 순서로만 번호가 매겨져 있었으며, 대시가 곳곳에 쓰이고 대문자 표기가 불규칙했으며 언어가 몹시 압축된 경우가 많았다. 그는 완전 압운을 자주 썼지만 근접 압운(slant rhyme)도 자주 활용했다.",
   "emily-dickinson.achievement.2":
-    "생전에 인쇄된 것으로 알려진 작품은 시 열 편과 편지 한 통뿐이며, 시는 모두 이름 없이 실렸으며, 학자들은 이 가운데 대부분 또는 전부가 그녀의 허락 없이 인쇄되었다고 본다. 첫 시집 『시집』(1890)은 토머스 웬트워스 히긴슨과 메이블 루미스 토드가 엮었는데, 두 사람은 구두점을 일반적인 방식으로 고치고 일부 낱말을 바꾸었다. 원고에 바탕을 둔 판본은 이후 1955년 토머스 H. 존슨, 1998년 R. W. 프랭클린에 의해 나왔다.",
+    "1858년 무렵부터 1864년 사이에 디킨슨은 800편이 넘는 시를 직접 만든 작은 책자 마흔 권에 옮겨 적었다. 종이를 접어 겹친 뒤 끈으로 묶은 이 책자들은 오늘날 '파시클'이라 불리며, 1886년 그녀가 세상을 떠난 뒤 여동생이 발견했다. 그녀의 손으로 쓴 시 원고는 모두 약 2,500점이 남아 있다.",
   "emily-dickinson.achievement.3":
-    "그녀는 약 500편의 시를 마흔 명이 넘는 사람들과 주로 편지에 담거나 편지와 함께 보내 나누었다. 편지 원고는 약 1,000점이 남아 있다. 1862년부터 세상을 떠날 때까지 히긴슨에게 약 100편의 시를 보냈고, 히긴슨은 1891년 『애틀랜틱 먼슬리』에 두 사람의 서신 교환에 관한 글을 실었다.",
+    "생전에 인쇄된 것으로 알려진 작품은 시 열 편과 편지 한 통뿐이며, 시는 모두 이름 없이 실렸으며, 학자들은 이 가운데 대부분 또는 전부가 그녀의 허락 없이 인쇄되었다고 본다. 첫 시집 『시집』(1890)은 토머스 웬트워스 히긴슨과 메이블 루미스 토드가 엮었는데, 두 사람은 구두점을 일반적인 방식으로 고치고 일부 낱말을 바꾸었다. 원고에 바탕을 둔 판본은 이후 1955년 토머스 H. 존슨, 1998년 R. W. 프랭클린에 의해 나왔다.",
   "emily-dickinson.moment.1":
     "1861년 여름 디킨슨은 올케 수전 디킨슨에게 시 「설화석고 방 안에 안전히」를 보낸 뒤, 둘째 연을 완전히 새로 쓴 판본을 다시 보냈다. 수전이 새 연이 '마음에 들지 않는다'고 답장하자 디킨슨은 '이게 더 서늘한가요?'라고 물으며 세 번째 판본을 보냈다. 이 쪽지와 원고는 하버드 대학에 남아 있으며 1958년 학술판 서간집에 실려 있다.",
   "emily-dickinson.interpretation.moment.1":
@@ -10524,9 +10552,9 @@ export const EDITORIAL_KO: Record<string, string> = {
     "이러한 작업 조건의 변화는 이 프로필에 기록된 높은 자율성 욕구와 맞아떨어진다. 델라 세타는 이를 당시 이탈리아 작곡가들의 지위가 전반적으로 달라지던 흐름 속에 놓고 보므로, 베르디 개인만이 아니라 그 시대 극장 산업의 사정도 반영한 일이다.",
   /* ---------------------------------------------------------- jules-verne (Roster41) */
   "jules-verne.achievement.1":
-    "파리의 출판인 피에르쥘 에첼은 1863년 베른의 『기구를 타고 5주간』을 펴냈다. 1866년부터 에첼은 베른의 소설들을 '경이의 여행' 총서로 내놓았고, 두 사람의 협업은 1886년 에첼이 세상을 떠날 때까지 이어졌다.",
+    "파리의 출판인 피에르쥘 에첼은 1863년 베른의 〈기구를 타고 5주간(Five Weeks in a Balloon)〉을 펴냈다. 1866년부터 에첼은 베른의 소설을 '경이의 여행(Voyages Extraordinaires)' 시리즈로 내놓았고, 이 시리즈에는 베스트셀러 모험 소설인 〈지구 속 여행(Journey to the Center of the Earth)〉(1864), 〈해저 2만 리(Twenty Thousand Leagues Under the Seas)〉(1870), 〈80일간의 세계 일주(Around the World in Eighty Days)〉(1872)가 들어 있다. 두 사람의 협력은 1886년 에첼이 세상을 떠날 때까지 이어졌다.",
   "jules-verne.achievement.2":
-    "1981년 그의 고향 낭트시는 베른의 자필 원고 약 95점을 사들였고, 그의 원고 대부분은 현재 낭트 시립도서관에 있다. 이 원고들에는 젊은 시절의 시와 희곡부터 말년의 소설까지 그의 글쓰기가 담겨 있으며, 여러 원고에 에첼의 메모가 남아 있다.",
+    "베른은 1979년 이후 세계에서 두 번째로 많이 번역된 작가로, 애거사 크리스티보다는 아래, 셰익스피어보다는 위에 있다. 영국과 미국의 출판사들은 그의 책을 거의 청소년 독자에게만 팔았는데, 이 사업상 결정은 영어권에서의 그의 평판에 오래 영향을 미쳐 그를 오로지 아동 작가로만 대해도 된다는 인식을 낳았다.",
   "jules-verne.achievement.3":
     "그는 연극 대본도 썼다. 극작가 아돌프 데네리와 함께 쓴 『80일간의 세계 일주』와 『미하일 스트로고프』 무대판은 파리에서 큰 성공을 거두었다. 1904년에도 『미하일 스트로고프』는 샤틀레 극장에서 다시 공연되고 있었다.",
   "jules-verne.moment.1":

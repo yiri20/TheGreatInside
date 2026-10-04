@@ -73,6 +73,15 @@ eligibility actually depend on.
    mechanical read on how much material already exists for a given person
    before deciding whether writing content for them is cheap or expensive.
 
+   **These pools tell you which facts you can responsibly state. They do
+   not tell you which achievements matter.** A research ledger or
+   candidate `rationale` is organised around the episodes that were best
+   documented for *scoring*, not around what made the person historically
+   important. Choose Achievement cards by the **Major Achievement
+   Selection Standard** below, then look for sources that support them —
+   including the person's orientation sources and any reputable overview
+   already attached to the profile.
+
 2. **Write the English prose** in `EDITORIAL_EN`
    (`src/core/i18n/editorial.ts`), keyed `{slug}.{achievement|moment|
    turning_point}.{n}` (1-indexed per category). Follow **"Editorial
@@ -127,6 +136,10 @@ eligibility actually depend on.
   facts that are uncontested general knowledge consistent with the
   biography already cited in that person's `sources` array. If neither
   applies, leave the person without editorial content rather than guess.
+- Don't pick Achievement cards because they line up with the person's
+  scored traits, or because they are the best-sourced episodes in the
+  research ledger. Achievements are not personality evidence (see "Major
+  Achievement Selection Standard").
 - Don't force a uniform item count across people. Three genuinely strong
   moments beats three achievements + three moments + three turning
   points where half are filler.
@@ -139,6 +152,81 @@ eligibility actually depend on.
   calibration anchors, or eligibility to make a profile "more dramatic."
   Editorial content is presentation-only and must never influence
   similarity — same rule as every other metadata field on `Person`.
+
+## Major Achievement Selection Standard
+
+Added 2026-10 after a roster-wide selection audit
+([`docs/checkpoints/editorial-major-achievement-audit.md`](checkpoints/editorial-major-achievement-audit.md))
+found that David Bowie's Achievements foregrounded the Verbasizer,
+BowieNet and Modern Painters / 21 Publishing while omitting Ziggy
+Stardust and the Berlin albums. Everything the Writing Standard below
+checks is **fact quality** ("is the card defensible?"). This section
+governs **selection quality** ("is this one of the first things a normal
+reader should see?"). Both must pass.
+
+### What each category is for
+
+- **Achievements** answer "*why is this person historically, culturally or
+  scientifically important?*" — the work, discovery, invention, artistic
+  or scientific contribution, performance, institution, design or
+  technical contribution for which they matter.
+- **Moments** answer "what concrete episode reveals how this person worked
+  or behaved?"
+- **Turning points** answer "what pivot, reversal, failure or change
+  altered the trajectory?"
+
+The trait-scoring restriction on fame, awards, output volume and
+reputation exists because those are not personality evidence. It does
+**not** transfer to Achievements, which are not personality evidence at
+all. Achievement cards do not need to correspond to scored traits and are
+not chosen to. Historical facts must still never contradict the profile;
+interpretations and Moments may connect to attributes, Achievements need
+not.
+
+### The checks
+
+1. **Primary-contribution check.** At least one of the first two
+   Achievement cards should normally capture the person's primary
+   historical contribution. If several contributions are comparably
+   defining, represent them proportionally.
+2. **Top-omission check.** Would a knowledgeable reader immediately notice
+   that an obviously defining achievement is absent? If yes, the set fails
+   review unless a reason is documented.
+3. **Identity check.** Hide the name and read only the Achievement cards.
+   Would they still explain why this person belongs here? If they mostly
+   describe side projects, process anecdotes, one-off experiments, minor
+   victories, publishing logistics or technical implementation details
+   while omitting the defining contribution, the set fails.
+4. **Significance over novelty.** Do not promote a surprising, quirky,
+   obscure or unusually well-sourced fact above a historically defining
+   contribution because it is interesting to the researcher.
+5. **Side-project rule.** Secondary activities (internet experiments,
+   publishing side ventures, one-off tools, minor early wins, teaching
+   logistics, business mechanics) make good Moments or secondary
+   Achievement cards. They must not displace canonical central
+   achievements unless the secondary activity is itself central to the
+   person's importance.
+6. **No quota.** Two strong defining achievements beat two defining
+   achievements plus filler. Do not force three.
+
+### Sources
+
+Achievement prose may use the person's existing substantive sources, their
+existing orientation sources (Wikipedia/Wikidata-style) for uncontested
+high-level facts, and reputable institutional overviews already attached
+to the profile. Do not rewrite candidate scoring to support an Achievement.
+If a defining achievement is clearly missing but cannot be responsibly
+supported from the current source set, mark it **NEEDS_SOURCE** in review
+and do not invent it. Where adding a source would require changing
+candidate scoring provenance, stop and document instead.
+
+### Review classification
+
+Audit each profile as exactly one of **PASS** (defining contribution(s)
+foregrounded, no obvious canonical omission, side material not
+dominant), **REWRITE** (existing sources suffice but selection or order
+is materially wrong) or **NEEDS_SOURCE**. Do not rewrite merely to
+create activity.
 
 ## Editorial Writing Standard v1
 

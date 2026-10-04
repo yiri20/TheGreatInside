@@ -7788,8 +7788,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // person's own sources.
   "james-cook": {
     achievements: [
-      { id: "james-cook-achievement-1", textKey: "james-cook.achievement.1", sourceIds: ["src_cook_janzen", "src_cook_david"] },
-      { id: "james-cook-achievement-2", textKey: "james-cook.achievement.2", sourceIds: ["src_cook_kodicek"] },
+      { id: "james-cook-achievement-1", textKey: "james-cook.achievement.1", sourceIds: ["src_cook_adb", "src_cook_tepapa"] },
+      { id: "james-cook-achievement-2", textKey: "james-cook.achievement.2", sourceIds: ["src_cook_adb"] },
+      { id: "james-cook-achievement-3", textKey: "james-cook.achievement.3", sourceIds: ["src_cook_kodicek"] },
     ],
     moments: [
       { id: "james-cook-moment-1", textKey: "james-cook.moment.1", interpretationKey: "james-cook.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_cook_banks_journal", "src_cook_journal_voyage1"] },
@@ -7829,9 +7830,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "stanley-kubrick": {
     achievements: [
-      { id: "stanley-kubrick-achievement-1", textKey: "stanley-kubrick.achievement.1", sourceIds: ["src_kubrick_digiulio", "src_kubrick_zeiss_harlan"] },
-      { id: "stanley-kubrick-achievement-2", textKey: "stanley-kubrick.achievement.2", sourceIds: ["src_kubrick_brown_steadicam"] },
-      { id: "stanley-kubrick-achievement-3", textKey: "stanley-kubrick.achievement.3", sourceIds: ["src_kubrick_bfi_clarke", "src_kubrick_demet", "src_kubrick_2001edits"] },
+      { id: "stanley-kubrick-achievement-1", textKey: "stanley-kubrick.achievement.1", sourceIds: ["src_kubrick_bfi_clarke", "src_kubrick_demet", "src_kubrick_wikipedia"] },
+      { id: "stanley-kubrick-achievement-2", textKey: "stanley-kubrick.achievement.2", sourceIds: ["src_kubrick_wikipedia"] },
+      { id: "stanley-kubrick-achievement-3", textKey: "stanley-kubrick.achievement.3", sourceIds: ["src_kubrick_digiulio", "src_kubrick_zeiss_harlan", "src_kubrick_brown_steadicam"] },
     ],
     moments: [
       { id: "stanley-kubrick-moment-1", textKey: "stanley-kubrick.moment.1", interpretationKey: "stanley-kubrick.interpretation.moment.1", attributeId: "belief_updating", sourceIds: ["src_kubrick_2001edits"] },
@@ -7843,8 +7844,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "ayrton-senna": {
     achievements: [
-      { id: "ayrton-senna-achievement-1", textKey: "ayrton-senna.achievement.1", sourceIds: ["src_senna_f3_motorsportcom"] },
-      { id: "ayrton-senna-achievement-2", textKey: "ayrton-senna.achievement.2", sourceIds: ["src_senna_racefans_toleman", "src_senna_formulanerds"] },
+      { id: "ayrton-senna-achievement-1", textKey: "ayrton-senna.achievement.1", sourceIds: ["src_senna_wikipedia"] },
+      { id: "ayrton-senna-achievement-2", textKey: "ayrton-senna.achievement.2", sourceIds: ["src_senna_wikipedia"] },
+      { id: "ayrton-senna-achievement-3", textKey: "ayrton-senna.achievement.3", sourceIds: ["src_senna_f3_motorsportcom", "src_senna_racefans_toleman", "src_senna_formulanerds"] },
     ],
     moments: [
       { id: "ayrton-senna-moment-1", textKey: "ayrton-senna.moment.1", interpretationKey: "ayrton-senna.interpretation.moment.1", attributeId: "conflict_tolerance", sourceIds: ["src_senna_symonds_motorsportcom", "src_senna_racefans_toleman"] },
@@ -7856,8 +7858,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "rembrandt": {
     achievements: [
-      { id: "rembrandt-achievement-1", textKey: "rembrandt.achievement.1", sourceIds: ["src_rembrandt_ngv", "src_rembrandt_hind"] },
-      { id: "rembrandt-achievement-2", textKey: "rembrandt.achievement.2", sourceIds: ["src_rembrandt_chapman"] },
+      { id: "rembrandt-achievement-1", textKey: "rembrandt.achievement.1", sourceIds: ["src_rembrandt_wikipedia", "src_rembrandt_mam_chronology"] },
+      { id: "rembrandt-achievement-2", textKey: "rembrandt.achievement.2", sourceIds: ["src_rembrandt_chapman", "src_rembrandt_wikipedia"] },
+      { id: "rembrandt-achievement-3", textKey: "rembrandt.achievement.3", sourceIds: ["src_rembrandt_ngv", "src_rembrandt_hind"] },
     ],
     moments: [
       { id: "rembrandt-moment-1", textKey: "rembrandt.moment.1", interpretationKey: "rembrandt.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_rembrandt_huygens"] },
@@ -7870,7 +7873,8 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   "george-mallory": {
     achievements: [
       { id: "george-mallory-achievement-1", textKey: "george-mallory.achievement.1", sourceIds: ["src_mallory_recon1921"] },
-      { id: "george-mallory-achievement-2", textKey: "george-mallory.achievement.2", sourceIds: ["src_mallory_fight1924"] },
+      { id: "george-mallory-achievement-2", textKey: "george-mallory.achievement.2", sourceIds: ["src_mallory_wikipedia"] },
+      { id: "george-mallory-achievement-3", textKey: "george-mallory.achievement.3", sourceIds: ["src_mallory_fight1924", "src_mallory_wikipedia"] },
     ],
     moments: [
       { id: "george-mallory-moment-1", textKey: "george-mallory.moment.1", sourceIds: ["src_mallory_somervell"] },
@@ -7884,7 +7888,7 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
     achievements: [
       { id: "leonhard-euler-achievement-1", textKey: "leonhard-euler.achievement.1", sourceIds: ["src_euler_mactutor"] },
       { id: "leonhard-euler-achievement-2", textKey: "leonhard-euler.achievement.2", sourceIds: ["src_euler_mactutor", "src_euler_condorcet"] },
-      { id: "leonhard-euler-achievement-3", textKey: "leonhard-euler.achievement.3", sourceIds: ["src_euler_mactutor", "src_euler_musielak"] },
+      { id: "leonhard-euler-achievement-3", textKey: "leonhard-euler.achievement.3", sourceIds: ["src_euler_mactutor"] },
     ],
     moments: [
       { id: "leonhard-euler-moment-1", textKey: "leonhard-euler.moment.1", interpretationKey: "leonhard-euler.interpretation.moment.1", attributeId: "systems_abstraction", sourceIds: ["src_euler_marinoni"] },
@@ -7924,7 +7928,7 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   "enzo-ferrari": {
     achievements: [
       { id: "enzo-ferrari-achievement-1", textKey: "enzo-ferrari.achievement.1", sourceIds: ["src_enzo_ludvigsen_scuderia", "src_enzo_p300_biography"] },
-      { id: "enzo-ferrari-achievement-2", textKey: "enzo-ferrari.achievement.2", sourceIds: ["src_enzo_p300_biography"] },
+      { id: "enzo-ferrari-achievement-2", textKey: "enzo-ferrari.achievement.2", sourceIds: ["src_enzo_wikipedia"] },
     ],
     moments: [
       { id: "enzo-ferrari-moment-1", textKey: "enzo-ferrari.moment.1", interpretationKey: "enzo-ferrari.interpretation.moment.1", attributeId: "autonomy_need", sourceIds: ["src_enzo_lerner_hagerty", "src_enzo_phelan_slate", "src_enzo_biography_com"] },
@@ -7936,13 +7940,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "david-bowie": {
     achievements: [
-      { id: "david-bowie-achievement-1", textKey: "david-bowie.achievement.1", sourceIds: ["src_bowie_hypebot_roberts", "src_bowie_vice_verbasizer"] },
-      { id: "david-bowie-achievement-2", textKey: "david-bowie.achievement.2", sourceIds: ["src_bowie_cybercultural"] },
-      { id: "david-bowie-achievement-3", textKey: "david-bowie.achievement.3", sourceIds: ["src_bowie_sothebys", "src_bowie_tcop", "src_bowie_dailybeast_nattate"] },
+      { id: "david-bowie-achievement-1", textKey: "david-bowie.achievement.1", sourceIds: ["src_bowie_variety_ziggy", "src_bowie_wikipedia"] },
+      { id: "david-bowie-achievement-2", textKey: "david-bowie.achievement.2", sourceIds: ["src_bowie_louder_berlin", "src_bowie_wikipedia"] },
+      { id: "david-bowie-achievement-3", textKey: "david-bowie.achievement.3", sourceIds: ["src_bowie_va_rodgers", "src_bowie_louder_letsdance"] },
     ],
     moments: [
       { id: "david-bowie-moment-1", textKey: "david-bowie.moment.1", interpretationKey: "david-bowie.interpretation.moment.1", attributeId: "decisiveness", sourceIds: ["src_bowie_variety_ziggy", "src_bowie_ucr_spiders"] },
       { id: "david-bowie-moment-2", textKey: "david-bowie.moment.2", interpretationKey: "david-bowie.interpretation.moment.2", attributeId: "execution_speed", sourceIds: ["src_bowie_sos_heroes"] },
+      { id: "david-bowie-moment-3", textKey: "david-bowie.moment.3", sourceIds: ["src_bowie_hypebot_roberts", "src_bowie_vice_verbasizer"] },
     ],
     turningPoints: [
       { id: "david-bowie-turning-point-1", textKey: "david-bowie.turning_point.1", interpretationKey: "david-bowie.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_bowie_rs_letsdance", "src_bowie_louder_letsdance", "src_bowie_variety_letsdance"] },
@@ -7964,13 +7969,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "alfred-russel-wallace": {
     achievements: [
-      { id: "alfred-russel-wallace-achievement-1", textKey: "alfred-russel-wallace.achievement.1", sourceIds: ["src_wallace_vanwyhe_sketch", "src_wallace_ali_paper"] },
-      { id: "alfred-russel-wallace-achievement-2", textKey: "alfred-russel-wallace.achievement.2", sourceIds: ["src_wallace_dcp_lyellhooker_1858", "src_wallace_linnean_1858"] },
-      { id: "alfred-russel-wallace-achievement-3", textKey: "alfred-russel-wallace.achievement.3", sourceIds: ["src_wallace_dcp_darwin_1867feb", "src_wallace_dcp_wallace_1867feb"] },
+      { id: "alfred-russel-wallace-achievement-1", textKey: "alfred-russel-wallace.achievement.1", sourceIds: ["src_wallace_vanwyhe_sketch", "src_wallace_dcp_lyellhooker_1858", "src_wallace_linnean_1858"] },
+      { id: "alfred-russel-wallace-achievement-2", textKey: "alfred-russel-wallace.achievement.2", sourceIds: ["src_wallace_vanwyhe_sketch", "src_wallace_ali_paper"] },
+      { id: "alfred-russel-wallace-achievement-3", textKey: "alfred-russel-wallace.achievement.3", sourceIds: ["src_wallace_vanwyhe_sketch"] },
     ],
     moments: [
       { id: "alfred-russel-wallace-moment-1", textKey: "alfred-russel-wallace.moment.1", interpretationKey: "alfred-russel-wallace.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_wallace_allen_paper"] },
       { id: "alfred-russel-wallace-moment-2", textKey: "alfred-russel-wallace.moment.2", interpretationKey: "alfred-russel-wallace.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_wallace_dcp_darwin_1869essay", "src_wallace_dcp_darwin_1869apr"] },
+      { id: "alfred-russel-wallace-moment-3", textKey: "alfred-russel-wallace.moment.3", sourceIds: ["src_wallace_dcp_darwin_1867feb", "src_wallace_dcp_wallace_1867feb"] },
     ],
     turningPoints: [
       { id: "alfred-russel-wallace-turning-point-1", textKey: "alfred-russel-wallace.turning_point.1", interpretationKey: "alfred-russel-wallace.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_wallace_vanwyhe_sketch"] },
@@ -7996,8 +8002,8 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // person's own sources.
   "johan-cruyff": {
     achievements: [
-      { id: "johan-cruyff-achievement-1", textKey: "johan-cruyff.achievement.1", sourceIds: ["src_cruyff_guardian_welch_obit", "src_cruyff_coachesvoice"] },
-      { id: "johan-cruyff-achievement-2", textKey: "johan-cruyff.achievement.2", sourceIds: ["src_cruyff_guardian_welch_obit"] },
+      { id: "johan-cruyff-achievement-1", textKey: "johan-cruyff.achievement.1", sourceIds: ["src_cruyff_wikipedia", "src_cruyff_guardian_welch_obit"] },
+      { id: "johan-cruyff-achievement-2", textKey: "johan-cruyff.achievement.2", sourceIds: ["src_cruyff_guardian_welch_obit", "src_cruyff_coachesvoice"] },
     ],
     moments: [
       { id: "johan-cruyff-moment-1", textKey: "johan-cruyff.moment.1", interpretationKey: "johan-cruyff.interpretation.moment.1", attributeId: "creative_originality", sourceIds: ["src_cruyff_guardian_winner"] },
@@ -8024,7 +8030,8 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   "babe-ruth": {
     achievements: [
       { id: "babe-ruth-achievement-1", textKey: "babe-ruth.achievement.1", sourceIds: ["src_ruth_sabr_wood", "src_ruth_sabr_levitt_barrow"] },
-      { id: "babe-ruth-achievement-2", textKey: "babe-ruth.achievement.2", sourceIds: ["src_ruth_sabr_wood"] },
+      { id: "babe-ruth-achievement-2", textKey: "babe-ruth.achievement.2", sourceIds: ["src_ruth_wikipedia", "src_ruth_sabr_wood"] },
+      { id: "babe-ruth-achievement-3", textKey: "babe-ruth.achievement.3", sourceIds: ["src_ruth_sabr_wood", "src_ruth_wikipedia"] },
     ],
     moments: [
       { id: "babe-ruth-moment-1", textKey: "babe-ruth.moment.1", interpretationKey: "babe-ruth.interpretation.moment.1", attributeId: "conflict_tolerance", sourceIds: ["src_ruth_sabr_flynn_1921", "src_ruth_hof_barnstorming"] },
@@ -8077,9 +8084,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "philo-farnsworth": {
     achievements: [
-      { id: "philo-farnsworth-achievement-1", textKey: "philo-farnsworth.achievement.1", sourceIds: ["src_farnsworth_franklin_institute", "src_farnsworth_explorepa", "src_farnsworth_schwartz_mittr"] },
-      { id: "philo-farnsworth-achievement-2", textKey: "philo-farnsworth.achievement.2", sourceIds: ["src_farnsworth_gross_lindahall", "src_farnsworth_everson_1949"] },
-      { id: "philo-farnsworth-achievement-3", textKey: "philo-farnsworth.achievement.3", sourceIds: ["src_farnsworth_lemelson_mit", "src_farnsworth_marriott_finding_aid"] },
+      { id: "philo-farnsworth-achievement-1", textKey: "philo-farnsworth.achievement.1", sourceIds: ["src_farnsworth_wikipedia", "src_farnsworth_gross_lindahall", "src_farnsworth_ethw_dissector"] },
+      { id: "philo-farnsworth-achievement-2", textKey: "philo-farnsworth.achievement.2", sourceIds: ["src_farnsworth_franklin_institute", "src_farnsworth_explorepa", "src_farnsworth_schwartz_mittr"] },
+      { id: "philo-farnsworth-achievement-3", textKey: "philo-farnsworth.achievement.3", sourceIds: ["src_farnsworth_gross_lindahall", "src_farnsworth_everson_1949"] },
     ],
     moments: [
       { id: "philo-farnsworth-moment-1", textKey: "philo-farnsworth.moment.1", interpretationKey: "philo-farnsworth.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_farnsworth_everson_1949"] },
@@ -8091,9 +8098,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "frederic-chopin": {
     achievements: [
-      { id: "frederic-chopin-achievement-1", textKey: "frederic-chopin.achievement.1", sourceIds: ["src_chopin_aco", "src_chopin_uchicago"] },
-      { id: "frederic-chopin-achievement-2", textKey: "frederic-chopin.achievement.2", sourceIds: ["src_chopin_uchicago"] },
-      { id: "frederic-chopin-achievement-3", textKey: "frederic-chopin.achievement.3", sourceIds: ["src_chopin_niecks_v2"] },
+      { id: "frederic-chopin-achievement-1", textKey: "frederic-chopin.achievement.1", sourceIds: ["src_chopin_wikipedia"] },
+      { id: "frederic-chopin-achievement-2", textKey: "frederic-chopin.achievement.2", sourceIds: ["src_chopin_wikipedia", "src_chopin_aco", "src_chopin_uchicago"] },
+      { id: "frederic-chopin-achievement-3", textKey: "frederic-chopin.achievement.3", sourceIds: ["src_chopin_uchicago"] },
     ],
     moments: [
       { id: "frederic-chopin-moment-1", textKey: "frederic-chopin.moment.1", interpretationKey: "frederic-chopin.interpretation.moment.1", attributeId: "autonomy_need", sourceIds: ["src_chopin_niecks_v1", "src_chopin_hiller"] },
@@ -8119,9 +8126,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "christopher-wren": {
     achievements: [
-      { id: "christopher-wren-achievement-1", textKey: "christopher-wren.achievement.1", sourceIds: ["src_wren_birch", "src_wren_geraghty"] },
-      { id: "christopher-wren-achievement-2", textKey: "christopher-wren.achievement.2", sourceIds: ["src_wren_birch", "src_wren_evelyn"] },
-      { id: "christopher-wren-achievement-3", textKey: "christopher-wren.achievement.3", sourceIds: ["src_wren_geraghty"] },
+      { id: "christopher-wren-achievement-1", textKey: "christopher-wren.achievement.1", sourceIds: ["src_wren_geraghty", "src_wren_wikipedia"] },
+      { id: "christopher-wren-achievement-2", textKey: "christopher-wren.achievement.2", sourceIds: ["src_wren_wikipedia"] },
+      { id: "christopher-wren-achievement-3", textKey: "christopher-wren.achievement.3", sourceIds: ["src_wren_wikipedia", "src_wren_birch", "src_wren_evelyn"] },
     ],
     moments: [
       { id: "christopher-wren-moment-1", textKey: "christopher-wren.moment.1", interpretationKey: "christopher-wren.interpretation.moment.1", attributeId: "analytical_rigor", sourceIds: ["src_wren_evelyn"] },
@@ -8133,13 +8140,14 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "george-frideric-handel": {
     achievements: [
-      { id: "george-frideric-handel-achievement-1", textKey: "george-frideric-handel.achievement.1", sourceIds: ["src_handel_hrd_1742"] },
-      { id: "george-frideric-handel-achievement-2", textKey: "george-frideric-handel.achievement.2", sourceIds: ["src_handel_hrd_1749", "src_handel_hrd_1751", "src_handel_hrd_1756", "src_handel_hrd_1757"] },
-      { id: "george-frideric-handel-achievement-3", textKey: "george-frideric-handel.achievement.3", sourceIds: ["src_handel_hrd_1739", "src_handel_hrd_1741"] },
+      { id: "george-frideric-handel-achievement-1", textKey: "george-frideric-handel.achievement.1", sourceIds: ["src_handel_wikipedia"] },
+      { id: "george-frideric-handel-achievement-2", textKey: "george-frideric-handel.achievement.2", sourceIds: ["src_handel_hrd_1742", "src_handel_wikipedia"] },
+      { id: "george-frideric-handel-achievement-3", textKey: "george-frideric-handel.achievement.3", sourceIds: ["src_handel_wikipedia"] },
     ],
     moments: [
       { id: "george-frideric-handel-moment-1", textKey: "george-frideric-handel.moment.1", interpretationKey: "george-frideric-handel.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_handel_hrd_1729"] },
       { id: "george-frideric-handel-moment-2", textKey: "george-frideric-handel.moment.2", interpretationKey: "george-frideric-handel.interpretation.moment.2", attributeId: "experimentation", sourceIds: ["src_handel_hrd_1735", "src_handel_delany"] },
+      { id: "george-frideric-handel-moment-3", textKey: "george-frideric-handel.moment.3", sourceIds: ["src_handel_hrd_1749", "src_handel_hrd_1751", "src_handel_hrd_1756", "src_handel_hrd_1757"] },
     ],
     turningPoints: [
       { id: "george-frideric-handel-turning-point-1", textKey: "george-frideric-handel.turning_point.1", interpretationKey: "george-frideric-handel.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_handel_shaftesbury", "src_handel_hrd_1741"] },
@@ -8147,9 +8155,8 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "joseph-lister": {
     achievements: [
-      { id: "joseph-lister-achievement-1", textKey: "joseph-lister.achievement.1", sourceIds: ["src_lister_howard_2013"] },
-      { id: "joseph-lister-achievement-2", textKey: "joseph-lister.achievement.2", sourceIds: ["src_lister_worboys_2013"] },
-      { id: "joseph-lister-achievement-3", textKey: "joseph-lister.achievement.3", sourceIds: ["src_lister_worboys_2013", "src_lister_schlich_2013"] },
+      { id: "joseph-lister-achievement-1", textKey: "joseph-lister.achievement.1", sourceIds: ["src_lister_wikipedia", "src_lister_worboys_2013", "src_lister_crowther_2013"] },
+      { id: "joseph-lister-achievement-2", textKey: "joseph-lister.achievement.2", sourceIds: ["src_lister_howard_2013"] },
     ],
     moments: [
       { id: "joseph-lister-moment-1", textKey: "joseph-lister.moment.1", interpretationKey: "joseph-lister.interpretation.moment.1", attributeId: "curiosity", sourceIds: ["src_lister_richardson_2013"] },
@@ -8182,8 +8189,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // person's own sources.
   "antonie-van-leeuwenhoek": {
     achievements: [
-      { id: "antonie-van-leeuwenhoek-achievement-1", textKey: "antonie-van-leeuwenhoek.achievement.1", sourceIds: ["src_leeuwenhoek_dobell_1932", "src_leeuwenhoek_birch_1756"] },
-      { id: "antonie-van-leeuwenhoek-achievement-2", textKey: "antonie-van-leeuwenhoek.achievement.2", sourceIds: ["src_leeuwenhoek_dobell_1932", "src_leeuwenhoek_letters_vol1"] },
+      { id: "antonie-van-leeuwenhoek-achievement-1", textKey: "antonie-van-leeuwenhoek.achievement.1", sourceIds: ["src_leeuwenhoek_wikipedia"] },
+      { id: "antonie-van-leeuwenhoek-achievement-2", textKey: "antonie-van-leeuwenhoek.achievement.2", sourceIds: ["src_leeuwenhoek_cocquyt_2021"] },
+      { id: "antonie-van-leeuwenhoek-achievement-3", textKey: "antonie-van-leeuwenhoek.achievement.3", sourceIds: ["src_leeuwenhoek_dobell_1932", "src_leeuwenhoek_birch_1756"] },
     ],
     moments: [
       { id: "antonie-van-leeuwenhoek-moment-1", textKey: "antonie-van-leeuwenhoek.moment.1", interpretationKey: "antonie-van-leeuwenhoek.interpretation.moment.1", attributeId: "analytical_rigor", sourceIds: ["src_leeuwenhoek_letters_vol2", "src_leeuwenhoek_birch_1756"] },
@@ -8199,9 +8207,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   // person's own sources.
   "william-herschel": {
     achievements: [
-      { id: "william-herschel-achievement-1", textKey: "william-herschel.achievement.1", sourceIds: ["src_herschel_dreyer1912", "src_herschel_caroline1876"] },
-      { id: "william-herschel-achievement-2", textKey: "william-herschel.achievement.2", sourceIds: ["src_herschel_dreyer1912"] },
-      { id: "william-herschel-achievement-3", textKey: "william-herschel.achievement.3", sourceIds: ["src_herschel_papers_v2", "src_herschel_clerke1895"] },
+      { id: "william-herschel-achievement-1", textKey: "william-herschel.achievement.1", sourceIds: ["src_herschel_wikipedia", "src_herschel_dreyer1912"] },
+      { id: "william-herschel-achievement-2", textKey: "william-herschel.achievement.2", sourceIds: ["src_herschel_dreyer1912", "src_herschel_wikipedia"] },
+      { id: "william-herschel-achievement-3", textKey: "william-herschel.achievement.3", sourceIds: ["src_herschel_papers_v2", "src_herschel_clerke1895", "src_herschel_wikipedia"] },
     ],
     moments: [
       { id: "william-herschel-moment-1", textKey: "william-herschel.moment.1", interpretationKey: "william-herschel.interpretation.moment.1", attributeId: "belief_updating", sourceIds: ["src_herschel_dreyer1912", "src_herschel_clerke1895"] },
@@ -8273,9 +8281,8 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "eddy-merckx": {
     achievements: [
-      { id: "eddy-merckx-achievement-1", textKey: "eddy-merckx.achievement.1", sourceIds: ["src_merckx_si_underwood1972", "src_merckx_cyclist_spender"] },
+      { id: "eddy-merckx-achievement-1", textKey: "eddy-merckx.achievement.1", sourceIds: ["src_merckx_cw_abraham2016", "src_merckx_si_underwood1972", "src_merckx_cyclist_spender"] },
       { id: "eddy-merckx-achievement-2", textKey: "eddy-merckx.achievement.2", sourceIds: ["src_merckx_remezcla_kunti2015", "src_merckx_cyclist_spender"] },
-      { id: "eddy-merckx-achievement-3", textKey: "eddy-merckx.achievement.3", sourceIds: ["src_merckx_cw_abraham2016"] },
     ],
     moments: [
       { id: "eddy-merckx-moment-1", textKey: "eddy-merckx.moment.1", interpretationKey: "eddy-merckx.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_merckx_rtbf_1971", "src_merckx_dh_marseille2017", "src_merckx_si_underwood1972"] },
@@ -8514,9 +8521,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "paul-cezanne": {
     achievements: [
-      { id: "paul-cezanne-achievement-1", textKey: "paul-cezanne.achievement.1", sourceIds: ["src_cezanne_duret", "src_cezanne_vollard"] },
-      { id: "paul-cezanne-achievement-2", textKey: "paul-cezanne.achievement.2", sourceIds: ["src_cezanne_courtauld", "src_cezanne_ng"] },
-      { id: "paul-cezanne-achievement-3", textKey: "paul-cezanne.achievement.3", sourceIds: ["src_cezanne_vollard"] },
+      { id: "paul-cezanne-achievement-1", textKey: "paul-cezanne.achievement.1", sourceIds: ["src_cezanne_ng", "src_cezanne_wikipedia"] },
+      { id: "paul-cezanne-achievement-2", textKey: "paul-cezanne.achievement.2", sourceIds: ["src_cezanne_courtauld", "src_cezanne_ng", "src_cezanne_wikipedia"] },
+      { id: "paul-cezanne-achievement-3", textKey: "paul-cezanne.achievement.3", sourceIds: ["src_cezanne_vollard", "src_cezanne_duret"] },
     ],
     moments: [
       { id: "paul-cezanne-moment-1", textKey: "paul-cezanne.moment.1", interpretationKey: "paul-cezanne.interpretation.moment.1", attributeId: "perfectionism", sourceIds: ["src_cezanne_vollard", "src_cezanne_bernard"] },
@@ -8528,9 +8535,9 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "emily-dickinson": {
     achievements: [
-      { id: "emily-dickinson-achievement-1", textKey: "emily-dickinson.achievement.1", sourceIds: ["src_dickinson_edm_poet_at_work", "src_dickinson_todd_prefaces"] },
-      { id: "emily-dickinson-achievement-2", textKey: "emily-dickinson.achievement.2", sourceIds: ["src_dickinson_edm_poet_at_work", "src_dickinson_higginson_1891"] },
-      { id: "emily-dickinson-achievement-3", textKey: "emily-dickinson.achievement.3", sourceIds: ["src_dickinson_edm_poet_at_work", "src_dickinson_edm_biography", "src_dickinson_higginson_1891"] },
+      { id: "emily-dickinson-achievement-1", textKey: "emily-dickinson.achievement.1", sourceIds: ["src_dickinson_wikipedia"] },
+      { id: "emily-dickinson-achievement-2", textKey: "emily-dickinson.achievement.2", sourceIds: ["src_dickinson_edm_poet_at_work", "src_dickinson_todd_prefaces"] },
+      { id: "emily-dickinson-achievement-3", textKey: "emily-dickinson.achievement.3", sourceIds: ["src_dickinson_edm_poet_at_work", "src_dickinson_higginson_1891"] },
     ],
     moments: [
       { id: "emily-dickinson-moment-1", textKey: "emily-dickinson.moment.1", interpretationKey: "emily-dickinson.interpretation.moment.1", attributeId: "experimentation", sourceIds: ["src_dickinson_johnson_letters", "src_dickinson_poetryfoundation"] },
@@ -8556,8 +8563,8 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
   },
   "jules-verne": {
     achievements: [
-      { id: "jules-verne-achievement-1", textKey: "jules-verne.achievement.1", sourceIds: ["src_verne_evans_2001", "src_verne_claretie_1883"] },
-      { id: "jules-verne-achievement-2", textKey: "jules-verne.achievement.2", sourceIds: ["src_verne_nantes_bm", "src_verne_butcher_mss"] },
+      { id: "jules-verne-achievement-1", textKey: "jules-verne.achievement.1", sourceIds: ["src_verne_evans_2001", "src_verne_claretie_1883", "src_verne_wikipedia"] },
+      { id: "jules-verne-achievement-2", textKey: "jules-verne.achievement.2", sourceIds: ["src_verne_wikipedia"] },
       { id: "jules-verne-achievement-3", textKey: "jules-verne.achievement.3", sourceIds: ["src_verne_claretie_1883", "src_verne_jones_1904"] },
     ],
     moments: [
