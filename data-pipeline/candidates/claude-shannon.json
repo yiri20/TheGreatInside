@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "claude-shannon",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Claude Shannon",
+    "aliases": [
+      "Claude Elwood Shannon"
+    ],
+    "wikidataId": "Q92760",
+    "birthYear": 1916,
+    "deathYear": 2001,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "engineer",
+      "computer_scientist"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "computing",
+      "engineering"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "theorist",
+      "early_computing"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_shannon_wikidata",
+      "kind": "wikidata",
+      "title": "Claude Shannon (Q92760) -- verified live via wbgetentities (2026-09-26): en label 'Claude Shannon', description 'American mathematician and information theorist (1916–2001)', P569 30 Apr 1916, P570 24 Feb 2001, citizenship United States (Q30), instance of human, ko label '클로드 섀넌' (kowiki title '클로드 섀넌'), P18 'ClaudeShannon MFO3807.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q92760"
+    },
+    {
+      "id": "src_shannon_ams2002",
+      "kind": "press",
+      "title": "Solomon W. Golomb, Elwyn Berlekamp, Thomas M. Cover, Robert G. Gallager, James L. Massey and Andrew J. Viterbi, 'Claude Elwood Shannon (1916–2001)', Notices of the American Mathematical Society 49(1), January 2002, pp. 8-16 (free PDF, fea-shannon.pdf) -- SCHOLAR/COLLEAGUE memorial (non-self; six Shannon Award winners, of whom Golomb, Berlekamp, Cover and Gallager write partly from firsthand acquaintance; admiring in tone). Downloaded and read in full: Golomb (career summary, genetics thesis done in isolation, reception of the 1948 paper), Berlekamp (unpublished portfolio/stock-market work, suggestion of Kelly's paper to Thorp), Cover (1972 Ashkelon first Shannon Lecture, Doob review), Gallager (MIT years 1956-78: seminars, working style, dictating papers, many problems at once), Massey (1945/1949 cryptography paper), Viterbi (later coding history). Evaluative praise ('greatest', 'father of the information age') is not used as evidence.",
+      "url": "https://www.ams.org/notices/200201/fea-shannon.pdf"
+    },
+    {
+      "id": "src_shannon_sloane_wyner_bio",
+      "kind": "biography",
+      "title": "N. J. A. Sloane and A. D. Wyner, 'Biography of Claude Elwood Shannon', from Claude Elwood Shannon: Collected Papers (IEEE Press, 1993), web version on Sloane's site -- EDITORS'/COLLEAGUE perspective (Bell Labs mathematicians; non-self, but based largely on the 1983 John Fritz Medal booklet and supplemented by Horgan's 1990 Scientific American profile, so partly close to Shannon's own telling). Fetched with curl and read in full: boyhood devices (barbed-wire telegraph), 1936-40 MIT (differential analyzer relay circuit -> Boolean switching thesis; switch to mathematics on Bush's suggestion; Cold Spring Harbor 1939; language exams), 1940 Bell Labs switching paper, 1941-56 Bell Labs, chess paper 1950 and 1965 Botvinnik game, Theseus (1950), THROBAC, Ultimate Machine, unicycle and juggling, Rubik-cube machine, the Horgan excerpt incl. the Hagelbarger penny-matching machine duel. Postscript notes his death in 2001.",
+      "url": "https://neilsloane.com/doc/shannonbio.html"
+    },
+    {
+      "id": "src_shannon_price1982_self",
+      "kind": "archive",
+      "title": "Claude E. Shannon, oral history interview conducted by Robert Price, 28 July 1982, Winchester MA, IEEE History Center Interview #423 (ETHW transcript, raw wikitext fetched with curl and read in full) -- SELF perspective (Shannon's own recollections, with Betty Shannon present). Also contains Price's second-hand reports of what Brockway McMillan, John Pierce, John Tukey and William Bennett told him (used only as corroborating context, never alone). Topics read: 1940 Bell Labs summer and the unassigned second switching paper; the 1940-41 IAS fellowship nominally in genetics but used for information theory with Weyl; resigning the fellowship mid-year for Bell Labs war work; work on information theory at home 1940-45; the 1945 cryptography report as 'legitimizing' that work; the 1939 letter to Bush; wartime lunches with Turing; the c.1949 noise-carrier/multiple-access idea never written up; the 1942 linear-differential-equation-machine report; his statement that he seldom cared for applications. IEEE copyright notice restricts publication of quotations, so no quotation from it is used in editorial text.",
+      "url": "https://ethw.org/Oral-History:Claude_E._Shannon"
+    },
+    {
+      "id": "src_shannon_thorp1998",
+      "kind": "press",
+      "title": "Edward O. Thorp, 'The Invention of the First Wearable Computer', Proceedings of the 2nd IEEE International Symposium on Wearable Computers (1998), author's PDF -- FIRSTHAND COLLABORATOR account (non-self; Thorp was a junior MIT mathematician who worked with Shannon Nov 1960-June 1961; admiring but specific and technical). Downloaded and read in full: the Nov 1960 meeting (Shannon cross-examining the blackjack paper for flaws, then hours on roulette), building and testing the roulette-prediction device in Shannon's basement lab, timing-error training, Shannon's suggestion of Kelly's 1956 paper, the summer 1961 Las Vegas test, juggling/unicycle anecdotes. The gambling context and the IPO/stock anecdotes are not used as trait evidence.",
+      "url": "https://www.cs.virginia.edu/~evans/thorp.pdf"
+    },
+    {
+      "id": "src_shannon_waldrop2001",
+      "kind": "press",
+      "title": "M. Mitchell Waldrop, 'Claude Shannon: Reluctant Father of the Digital Age', MIT Technology Review, July/August 2001 -- JOURNALIST profile (non-self) built on interviews with colleagues Robert Gallager, David Slepian, John Pierce, Robert Fano, Peter Elias, Oliver Selfridge, Robert Lucky and Betty Shannon, plus quotations from Shannon's 1987 Omni interview (self) and his 1939 letter to Bush. Fetched with curl and read in full. Its narration of Shannon's feelings ('horrified', 'hated it') is treated as the journalist's interpretation, not evidence; the section on his final illness is not used.",
+      "url": "https://www.technologyreview.com/2001/07/01/235669/claude-shannon-reluctant-father-of-the-digital-age/"
+    },
+    {
+      "id": "src_shannon_horgan1992",
+      "kind": "press",
+      "title": "John Horgan, 'Claude Shannon: Tinkerer, Prankster, and Father of Information Theory', IEEE Spectrum, April 1992 (republished online 27 Apr 2016) -- JOURNALIST profile (non-self) from a home interview with Shannon (his quoted remarks = self) plus independent colleague testimony: Edgar Gilbert, David Slepian, Aaron Wyner, John Pierce, Elwyn Berlekamp (1973 first Shannon Lecture), Robert McEliece (1985 Brighton), an unnamed former colleague on chess at work. Fetched with curl and read in full: gadget room, Theseus and the 1979 Micromouse contest, the Hagelbarger penny-matching duel, the Hex machine and Gleason, living-room redundancy-of-English experiments, juggling formula, reduced publishing after the late 1950s, the 1973 lecture and 1985 banquet. The von Neumann 'entropy' anecdote is contradicted by Shannon himself in the 1982 Price interview and is not used.",
+      "url": "https://spectrum.ieee.org/claude-shannon-tinkerer-prankster-and-father-of-information-theory"
+    },
+    {
+      "id": "src_shannon_bandwagon1956_self",
+      "kind": "archive",
+      "title": "Claude E. Shannon, 'The Bandwagon', editorial, IRE Transactions on Information Theory 2(1), March 1956, p. 3 -- SELF (his own published statement). Read in full from a scan hosted at monoskop.org (the page is the IRE Transactions printing). Used only as a dated public act for independent_thinking / perfectionism, always alongside non-self sources.",
+      "url": "https://monoskop.org/images/2/2f/Shannon_Claude_E_1956_The_Bandwagon.pdf"
+    },
+    {
+      "id": "src_shannon_mitnews2001",
+      "kind": "institution",
+      "title": "MIT News Office, 'Professor Emeritus Claude Shannon, founder of digital communications, dies at 84' (first published in MIT Tech Talk, 28 Feb 2001) -- INSTITUTIONAL obituary (non-self). Fetched with curl and read in full. Used only for dated career facts (Bell Labs 1941-72, MIT 1956/1958-78, language-exam tutoring and the retaken German exam, the 1965 Botvinnik game) and the Gallager quotation; the account of his illness is not used.",
+      "url": "https://news.mit.edu/2001/shannon"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_shannon_ams2002, src_shannon_waldrop2001, src_shannon_horgan1992, src_shannon_price1982_self | 1945-1952 | scholar-colleague memorial + two independent journalists quoting colleagues + self] Scored from dated work products that contemporaries describe as departing from existing practice, not from fame. (1) The 1948 'A Mathematical Theory of Communication' defined information statistically over the set of possible messages and proved its coding theorems by averaging over randomly chosen codes rather than constructing specific ones (Golomb, Cover and Viterbi in AMS); John Pierce, one of his closest Bell Labs friends, recalled it as having 'very few antecedents', and Fano said he did not know how Shannon came to believe the noisy-channel result (both quoted by Waldrop); Aaron Wyner told Horgan it did not look like an inevitable product of its time. (2) His 1945 classified report, published 1949, set out a mathematical model of secrecy systems in a field where, Massey writes, conjecture and imprecision had reigned (AMS). (3) Around 1949 he proposed sharing a channel among many users with reproducible noise-like carriers; Price reports that Pierce and Brockway McMillan both recalled the idea and that nothing was written down (Price interview, Shannon confirming). Several independent sources and distinct episodes; kept below 85 because the case leans on admiring colleagues and on the famous works themselves, and the rubric warns against letting reputation drive the score."
+    },
+    "systems_abstraction": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_shannon_sloane_wyner_bio, src_shannon_waldrop2001, src_shannon_horgan1992, src_shannon_ams2002 | 1937-1949 | colleague-editors + journalists + scholar memorial] (1) In 1936-37, while servicing the roughly 100-relay control circuit of Bush's differential analyzer, he saw that the Boolean algebra he had studied at Michigan was the right model for two-valued switching circuits and worked it out in his 1937-38 master's thesis, including a binary adder and a combination lock as examples (Sloane & Wyner; Waldrop, reading the thesis directly; Horgan). (2) In the 1948 paper he treated telegraph, speech, television and other sources in one framework of source rate and channel capacity in bits; Gallager told Waldrop that before this 'communication wasn't a unified science'. (3) Massey (AMS) quotes the 1949 secrecy paper's opening step of idealising the situation and defining a secrecy system mathematically; Sloane & Wyner describe it as treating the key's scrambling as channel noise. Several dated, independently described instances; below 85 because the sources are admiring colleagues or journalists relying on them."
+    },
+    "intuitive_synthesis": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_shannon_ams2002, src_shannon_waldrop2001, src_shannon_thorp1998, src_shannon_horgan1992, src_shannon_price1982_self | 1948-1982 | scholar memorial incl. an adversarial 1949 review + journalist-quoted colleagues + collaborator + self] Several independent observers describe the same working pattern. Golomb (AMS) says he gave outlines of proofs that Khinchin and Wolfowitz later made rigorous; Cover (AMS) quotes Doob's 1949 Mathematical Reviews complaint that the paper was 'suggestive throughout, rather than mathematical' (an adversarial contemporary reading) and notes that the general ergodic-case proof took others more than thirty years, while every assertion proved correct; Price recalls that the MIT group was relieved only when Feinstein supplied an independent proof. David Slepian, a 1950s collaborator, told Waldrop he would 'circle around and attack the problem from a direction you never would have thought of'; Berlekamp told Horgan he had an intuition for formulating profound problems that were doable; Thorp, working with him in 1960-61, wrote that he seemed to think with ideas more than with words or formulas. Shannon's own 1982 account (Price) is that he saw such questions geometrically, as random vectors in high-dimensional spheres. Documented and corroborated by an adversarial source; kept at 80 because it is partly a characterisation of style rather than of single decisions."
+    },
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_shannon_sloane_wyner_bio, src_shannon_ams2002, src_shannon_horgan1992, src_shannon_price1982_self | 1936-1970s | colleague-editors + scholar memorial + journalist + self] Sustained work with real output across distinct fields: a joint BS in mathematics and electrical engineering (1936) and the relay-switching thesis combining them (Sloane & Wyner; he told Horgan it happened that no one else knew both fields); a 1939-40 doctoral thesis in theoretical genetics after a summer at Cold Spring Harbor, done in isolation from population geneticists (Sloane & Wyner; Golomb and Gallager in AMS); wartime fire-control analysis including a January 1942 report on linear differential-equation machines (Price interview, the report shown to him by Price); game-playing and learning machines, including the 1950 chess-programming paper and the Theseus maze mouse (Sloane & Wyner; Horgan); and, in the late 1960s-70s, talks and unpublished analysis on portfolio management (Berlekamp in AMS). Many independent dated instances; the investment work is used only as a field of study, not for any trait about money."
+    },
+    "curiosity": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_shannon_thorp1998, src_shannon_sloane_wyner_bio, src_shannon_horgan1992, src_shannon_ams2002, src_shannon_waldrop2001, src_shannon_price1982_self | 1950s-1980s | collaborator + colleague-editors + journalist + scholar memorial + self] In November 1960, after his secretary warned that he would give only a few minutes, he cross-examined Thorp's blackjack paper, then asked whether Thorp was working on anything else in the gambling area and spent several hours on the roulette problem (Thorp, firsthand). In the 1950s he ran living-room guessing experiments on the redundancy of English with Betty Shannon and Bernard Oliver and had Bell Labs staff count letter sequences (Horgan). Sloane & Wyner call him 'an easy mark for any new intellectual challenge' and record a Rubik's-cube-solving machine; Gallager (AMS) says he typically worked on many different problems at once at MIT (information theory, portfolios, chess machines). His own statements -- motivated by curiosity rather than publication (1987 Omni interview, quoted by Waldrop) and a mind that wanders among problems day and night (Price) -- are consistent but not relied on alone. Multiple independent observers; below 85 because the colleague sources are admiring."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_shannon_sloane_wyner_bio, src_shannon_horgan1992, src_shannon_thorp1998, src_shannon_waldrop2001 | 1950-1983 | colleague-editors + journalist + collaborator] He repeatedly built working devices to try ideas out: Theseus (1950), a relay-controlled mouse that searched a reconfigurable 25-square maze and then went directly to the goal (Sloane & Wyner; Horgan, who adds that he brought it to IEEE Spectrum's 1979 Micromouse event); after David Hagelbarger's penny-matching 'mind-reading' prototype he built his own version and pitted the two machines against each other (Horgan; Sloane & Wyner quoting Horgan's 1990 piece); a Hex-playing machine and THROBAC, a Roman-numeral calculator (Horgan; Waldrop); and around 1983 a bounce-juggling machine (AMS caption; Betty Shannon to Waldrop). With Thorp, November 1960-June 1961, he bought a regulation roulette wheel, measured and trained down their timing errors with a strobe and clock, and built and field-tested a cigarette-pack-sized predictor (Thorp, firsthand). Many dated instances from several sources. The gambling purpose itself is not scored."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_shannon_price1982_self, src_shannon_ams2002, src_shannon_waldrop2001, src_shannon_bandwagon1956_self | 1940-1956 | self + interviewer's archival check + scholar memorial + journalist] (1) His 1940-41 National Research Fellowship at the IAS was proposed in genetics (Price states he saw the proposal title at the National Research Council), but on arrival he told Hermann Weyl he wanted to work on the measurement of information instead and did so (Shannon's own account to Price; Sloane & Wyner also date the start of serious information-theory work to that year). (2) Golomb (AMS) says Bell Labs tolerated but did not encourage the work behind the 1948 paper, which then had no evident value to AT&T. (3) In March 1956, when information theory was fashionable, he published 'The Bandwagon' in the field's own journal, warning that it had been oversold and that applications to psychology, economics and other fields needed experimental testing (own editorial; Waldrop and Horgan describe its context). Dated instances, but the first rests partly on his own recollection and the third is self-authored, so moderate confidence."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_shannon_ams2002, src_shannon_waldrop2001, src_shannon_price1982_self, src_shannon_thorp1998 | 1940-1978 | scholar memorial + journalist-quoted colleagues + self + collaborator] He repeatedly arranged his work around self-chosen problems rather than assigned structures: he redirected the 1940-41 fellowship to his own topic and resigned it midway for Bell Labs war work (own account to Price); he worked out much of information theory in 1940-45 largely at home, outside office hours (own account to Price), with close associates unaware (Waldrop). At MIT he did not teach ordinary courses, rarely supervised theses, and increasingly worked at home before retiring in 1978 (Gallager, AMS); Elias told Waldrop that by the mid-1960s he had stopped teaching. In 1960 his secretary warned Thorp that he did not spend time on subjects that did not interest him (Thorp). Several separate facts from independent sources; dual_edged because MIT colleagues were reportedly concerned by his withdrawal (Waldrop). Not higher because much of the motive language is interpretive. Nothing after c.1980 is considered."
+    },
+    "social_assertiveness": {
+      "score": 30,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_shannon_ams2002, src_shannon_horgan1992, src_shannon_waldrop2001, src_shannon_sloane_wyner_bio, src_shannon_thorp1998 | 1956-1985 | scholar-colleague + journalist-quoted colleagues + collaborator] Gallager (AMS), who worked with him at MIT, calls him 'somewhat inner directed and shy', though easy to talk to once contact was made. Berlekamp told Horgan that in 1973 Shannon nearly backed out of the first Shannon Lecture at the last minute (he then gave it); Horgan records that he stopped attending the field's meetings in the 1960s and that at the 1985 Brighton symposium banquet he spoke only a few minutes before juggling instead. Waldrop reports that he turned down most lecture and interview invitations, and Fano said he gave beautiful talks but disliked doing so. Counter-evidence: he asked Botvinnik for a game in Moscow in 1965 (Sloane & Wyner) and was lively one-to-one (Thorp). Several independent observers converge; a lean, not an extreme."
+    },
+    "collaboration": {
+      "score": 45,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_shannon_ams2002, src_shannon_waldrop2001, src_shannon_thorp1998, src_shannon_sloane_wyner_bio | 1941-1978 | scholar memorial + journalist + collaborator + colleague-editors] Mixed. His central theoretical papers of 1948 and 1949 were sole-authored, and Waldrop reports that close Bell Labs associates did not know he was developing the theory; at MIT he rarely supervised theses (Gallager, AMS). Against this, he did real joint work: the 1956 reliable-circuits papers with Edward F. Moore (Golomb, AMS; Sloane & Wyner), the penny-matching machines with Hagelbarger, and a seven-month build-and-test partnership with Thorp in 1960-61 (Thorp); Gallager adds that his occasional talks with students often gave their work a new direction. Scored slightly below the midpoint because his defining work did not depend on sustained partnership."
+    },
+    "achievement_drive": {
+      "score": 40,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_shannon_ams2002, src_shannon_price1982_self, src_shannon_waldrop2001, src_shannon_horgan1992 | 1940-1970s | scholar memorial + interviewer relaying colleagues + journalist + self] Several separate facts show results left unfinished or unpublished: the 1940 genetics thesis stayed unpublished until the 1993 Collected Papers (Golomb and Gallager, AMS); the c.1949 multiple-access noise-carrier idea was never written up, according to Pierce and McMillan as relayed by Price, with Shannon confirming and adding that his attic held many unpublished papers; Waldrop reports he was in no hurry to publish the 1948 theory, outlined by about 1943; Berlekamp (AMS) says his portfolio work was never published; and he told Horgan he did not think most of his later investigations important enough to publish. Consistent with a low drive for completed, recognised outputs, but it could equally reflect high standards or wartime secrecy, hence dual_edged and moderate confidence."
+    },
+    "impact_motivation": {
+      "score": 36,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_shannon_price1982_self, src_shannon_ams2002, src_shannon_horgan1992 | 1940s-1990 | self + interviewer relaying a colleague + scholar memorial] Shannon told Price (1982) that he had very seldom been interested in real applications and cared more whether a problem was elegant, and told Horgan he had pursued his interests without much regard for value to the world (self). Non-self support: Price reports Brockway McMillan's view that the 1949 worst-noise analysis came from a fascination with minimax problems rather than military use, and Golomb (AMS) that the 1948 work then seemed to have no practical benefit for AT&T. Counter-evidence: he took up wartime anti-aircraft director work and later said he had a hand in directors that were actually built (Price). A real lean, but self-reported in large part, so moderate confidence; neutral because the same stance let him pursue foundational problems."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_shannon_sloane_wyner_bio, src_shannon_thorp1998, src_shannon_horgan1992 | c.1950-1980s | colleague-editors + collaborator + journalist] Given a unicycle one Christmas, he rode it within days, juggled three balls on it within weeks, and within months was building unusual unicycles such as one with an eccentric wheel (Sloane & Wyner); Thorp saw him in 1960-61 ride a unicycle along a 40-foot steel cable and says he later reached his goal of juggling on it; in the 1970s he formalised juggling in a theorem and built several juggling machines (Thorp; Horgan). Horgan also reports a former colleague's recollection that he played so much chess at Bell Labs while studying chess machines that a supervisor became worried. Several instances of pushing a skill past need, but in a recreational domain and partly anecdotal, so moderate score and confidence."
+    },
+    "perfectionism": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_shannon_bandwagon1956_self, src_shannon_ams2002, src_shannon_waldrop2001, src_shannon_horgan1992 | 1948-1970s | self + scholar memorial + journalist] In 'The Bandwagon' (1956) he asked authors in his field to submit only their best efforts after careful criticism, preferring a few first-rate papers to many half-finished ones (self). Gallager (AMS) says he disliked writing papers but worked out the details in his head and dictated them in virtually finished form; Fano told Waldrop he 'wrote beautiful papers -- when he wrote'; he told Horgan he did not think most of his later work important enough to publish. The signals agree but overlap with low achievement drive and are partly self-stated, so this is kept at inference level."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "클로드 섀넌"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-09-26) for Q92760 returned en label 'Claude Shannon', description 'American mathematician and information theorist (1916–2001)', P569 30 Apr 1916, P570 24 Feb 2001, citizenship United States (Q30), instance of human, ko label '클로드 섀넌' matching the kowiki sitelink title '클로드 섀넌' (used for localization), P18 'ClaudeShannon MFO3807.jpg'. SLUG CHECK: no data-pipeline/candidates/claude-shannon.json and no public/portraits/*shannon* existed before this run; grep of src/data/people/*.ts and data-pipeline/candidates/*.json for 'shannon' found no existing person entry. CLASSIFICATION: occupations mathematician/engineer/computer_scientist, fields mathematics/computing/engineering, impactDomains scientific/technological/innovation, tags theorist/early_computing and archetypes technical_innovator/scientific_explorer follow the alan-turing (seed.ts), john-von-neumann and charles-babbage precedents; all ids verified in src/core/i18n/en.ts. Era 20th_century, nationality US, region north_america as for other US 20th-century candidates (e.g. orville-wright). Intended fieldIds kept: the evidence covers switching theory (engineering), information/coding theory and a genetics thesis (mathematics) and game-playing/learning machines (computing). EVIDENCE READ: 9 source records (1 orientation, 8 substantive), all fetched with curl to scratch_r41/work/claude-shannon/ and read locally: AMS Notices 2002 memorial by Golomb, Berlekamp, Cover, Gallager, Massey and Viterbi (full PDF); Sloane & Wyner's Collected Papers biography (full); the 1982 Robert Price oral history (full transcript, IEEE History Center #423); Thorp's 1998 wearable-computer paper (full); Waldrop's 2001 Technology Review profile (full); Horgan's 1992 IEEE Spectrum profile (full, 2016 republication); Shannon's 1956 'The Bandwagon' editorial (full, one page); MIT News 2001 obituary (full). Also opened but not recorded: an NYT 2001 obituary URL (returned only a stub/paywall page, not read). Not read: Gallager's 2001 IEEE Trans. IT retrospective (no free copy found at the tried URL; not read), Soni & Goodman's 2017 biography, Hagemeyer's thesis. INDEPENDENT PERSPECTIVES: (1) AMS memorial -- scholar-colleagues, some firsthand (Gallager at MIT, Berlekamp as student/coauthor, Golomb, Cover), admiring in tone but it also reproduces an adversarial contemporary judgement (Doob's 1949 review) and notes what Shannon missed (Massey on public-key cryptography); (2) Sloane & Wyner -- Bell Labs colleague-editors, partly based on the 1983 Fritz Medal booklet, so close to Shannon's own telling; (3) Edward Thorp -- firsthand collaborator 1960-61; (4) M. Mitchell Waldrop -- independent journalist quoting Gallager, Slepian, Pierce, Fano, Elias, Selfridge, Lucky and Betty Shannon; (5) John Horgan -- independent journalist quoting Gilbert, Slepian, Wyner, Pierce, Berlekamp, McEliece; (6) MIT News -- institutional obituary (dated facts only); (7) Robert Price -- interviewer who reports archival checks (the NRC fellowship proposal, the Bush letter, Bell archives) and second-hand statements by McMillan, Pierce, Tukey and Bennett. SELF perspective (counted once): the Price interview answers, the Bandwagon editorial, and Shannon quotations in Horgan/Waldrop (1987 Omni). NON-SELF BEHAVIOURAL sources: AMS, Sloane & Wyner, Thorp, Waldrop, Horgan. No row rests on self material alone. Per the Roster40 calibration lesson every row is at confidence <= 0.72 and score <= 82; the strongest rows (creative_originality, systems_abstraction, intuitive_synthesis) have independent journalists and, for intuitive_synthesis, an adversarial contemporary review. EPISODE USE: 1936-38 differential-analyzer relays -> Boolean switching thesis -> systems_abstraction and cross_domain_range; 1948 paper content (statistical definition, random-coding proofs, unification of media) -> creative_originality and systems_abstraction; 1948 proof style and reception (outlines, Doob 1949, later rigorous proofs, Feinstein) -> intuitive_synthesis only; 1945/1949 secrecy paper -> creative_originality and systems_abstraction; c.1949 noise-carrier multiple-access idea -> creative_originality and achievement_drive; 1939-40 genetics thesis done in isolation and left unpublished -> cross_domain_range and achievement_drive; 1940-41 IAS fellowship redirected to information theory (and resigned midway) -> independent_thinking and autonomy_need; Bell Labs tolerating-not-encouraging the 1948 work -> independent_thinking and impact_motivation; 1940-45 work at home with associates unaware -> autonomy_need and collaboration; 1956 'Bandwagon' -> independent_thinking and perfectionism; MIT teaching/supervision pattern (Gallager, Elias) -> autonomy_need and collaboration; 1960 secretary's warning to Thorp -> autonomy_need; Nov 1960 Thorp meeting -> curiosity; 1960-61 roulette-predictor build and test -> experimentation and collaboration; Theseus, penny-matching duel, Hex machine, THROBAC, c.1983 juggling machine -> experimentation (Theseus and chess paper also listed in cross_domain_range); 1950s redundancy-of-English experiments, Rubik's-cube machine, many-problems-at-once (Gallager) -> curiosity; unicycle/juggling progression, tightrope goal, juggling theorem, chess at work -> mastery_orientation; 1973 first Shannon Lecture, meetings, 1985 banquet, declined invitations (Gallager 'shy') -> social_assertiveness only; portfolio work -> cross_domain_range and achievement_drive (field and non-publication only); statements that he seldom cared for applications, McMillan's minimax remark, wartime directors counterpoint -> impact_motivation; Gallager's 'dictated in finished form', Fano's remark and later non-publication (Horgan) -> perfectionism (the Horgan non-publication remark also in achievement_drive). ROWS CONSIDERED AND LEFT UNSCORED: analytical_rigor (genuinely mixed: Doob and Golomb describe proofs in outline, while Massey praises the rigour of the 1949 secrecy paper's definitions -- left unscored rather than averaged); deep_focus and discipline (only Gallager's remark about working out papers in his head and the MIT language-exam anecdote with tutors and flash cards -- too thin); persistence (language exams; long-run coding work belongs to others); risk_tolerance and opportunity_sensing (would rest on the Las Vegas test and stock-market/IPO anecdotes -- omitted on purpose); competitiveness (McMillan's 'latent competitors' remark is second-hand and Shannon did not recognise it; the penny-matching duel is playful); leadership_drive, persuasiveness, conflict_tolerance (no usable evidence); belief_updating (his 1982 corrections of the von Neumann 'entropy' story concern memory, not belief revision); aesthetic_sensitivity (his talk of 'elegance' is self-stated only); planning_orientation, execution_speed, decisiveness, adaptability, ambiguity_tolerance, detail_orientation, proactive_agency, resourcefulness (boyhood barbed-wire telegraph only). EXCLUDED ON PURPOSE: his Alzheimer's disease, its onset, nursing-home care and death (MIT News, Waldrop, AMS mention it; nothing inferred, and no behaviour after c.1980 is used); the death of his son Robert; family and marriage beyond Betty Shannon's role as a named co-participant or witness; the gambling purpose of the Thorp project, the casino trip and its nervousness, and all investment/IPO/wealth anecdotes (hedged per instructions; only 'worked on portfolio theory' as a field is used); honours, prizes, statues and honorary degrees as evidence; 'father of information theory/the information age' and similar evaluative praise (not asserted anywhere as a claim); the von Neumann 'entropy' anecdote (Horgan repeats it, but Shannon denied it to Price); Horgan's claim that wartime encryption work led to the theory (contradicted by Shannon's own account to Price and by Massey); any NSA or government-advisory work (Shannon declined to discuss it; also zero-politics); his remarks about the draft and being 'frail'; Price's and Good's remarks about Turing's private life. CONFLICTS REPORTED, NOT ADJUDICATED: (a) origin of information theory vs cryptography -- Horgan says the wartime cryptography work led to the theory; Shannon told Price information theory came first and cryptography 'legitimised' it; Massey (AMS) sides with the latter; (b) Waldrop says Betty gave him the unicycle in 1949, Sloane & Wyner give no year; (c) Horgan says he juggled four balls on the unicycle at Bell Labs, MIT News and Waldrop say three; (d) Waldrop says the PhD took 'a mere year and a half' and that he joined Bell Labs 'not long after' 1940, while the other sources place the IAS year 1940-41 in between. KNOWN LIMITS: no full-length biography was read (Soni & Goodman 2017 and Gleick 2011 not available as free full text); Gallager's 2001 IEEE retrospective was not obtained; the Price interview transcript is under an IEEE quotation restriction, so editorial text paraphrases it and quotes nothing from it; much colleague testimony is admiring (memorial/profile genre), which is why no score exceeds 82. PORTRAIT: held -- see portrait.reason. P18 'ClaudeShannon MFO3807.jpg' rejected because the upstream Oberwolfach record now says 'Copyright: unknown' and MFO's terms apply CC BY-SA 2.0 de only to MFO-owned images; the Tekniska museet CC BY 2.0 portrait (unknown photographer, likely a third-party publicity photo) is prepared in the work folder but not placed, pending the lead's decision; the c.1930 snapshot's PD-US-expired tag is unsupported. KOREAN NAME: '클로드 섀넌' is both the Wikidata ko label and the Korean Wikipedia title. No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Not promoted this cycle: portrait held (rights basis materially unresolved; see portrait.reason)."
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No portrait with a clean rights basis was found. (1) Wikidata P18 'ClaudeShannon MFO3807.jpg' (Commons, 284x400, tagged CC BY-SA 2.0 de via VRT ticket 2008042410024381, author 'Jacobs, Konrad', Commons description quoting 'Copyright: MFO') is contradicted upstream: the Oberwolfach Photo Collection record (opc.mfo.de/detail?photo_id=3807, fetched 2026-09-26) now lists 'Copyright: unknown', and the MFO Terms of Use apply CC BY-SA 2.0 de only to images whose copyright the MFO owns and otherwise require permission; the MFO serves only the same 284x400 version (no larger version). Rejected as materially uncertain (upstream-contradicts-Commons trap). (2) 'C.E. Shannon. Tekniska museet 43069.jpg' (1942x2427; also cropped derivatives) is CC BY 2.0 as released by Tekniska museet on its official Flickr account (license confirmed on the Flickr page), but the photographer is unknown and the image appears to be a mid-century American studio or publicity portrait that the Swedish museum is unlikely to have created or to hold rights in (an assessment, not a documented fact); the DigitaltMuseum record could not be checked (Cloudflare challenge, not bypassed). Institution-released, unknown-author third-party photo: not treated as a reliable basis without lead review. A 1280x1600 q85 downscale is prepared at scratch_r41/work/claude-shannon/PREPARED_claude-shannon-tekniska.jpg (not placed in public/portraits) in case the lead accepts the museum's CC BY 2.0 release. (3) 'Claude Shannon c1930.png' (tagged PD-US-expired) is a family snapshot sourced from a 2020 University of Michigan PDF crediting the Bentley Library; no evidence of publication before 1931, so the tag is unsupported. Rejected. Other Commons files in Category:Claude Shannon are statues, museum objects or diagrams. LEAD REVIEW DECISION (2026-09-27): HOLD on portrait rights. The Oberwolfach file's CC BY-SA 2.0 de basis is contradicted by the MFO photo page ('Copyright: unknown') and MFO's own terms. The Tekniska museet print (Commons 'C.E. Shannon. Tekniska museet 43069.jpg', CC BY 2.0 via the museum's Flickr) has an unknown author and date and no documented basis for the museum's rights in what appears to be a US publicity photograph; its catalogue record sits behind a bot check. The 'c1930' family snapshot has no evidence of pre-1931 publication; AT&T statue photos are derivative of a copyrighted sculpture (no US freedom of panorama). Materially unresolved -> held, not promoted. NEXT STEP: obtain the Tekniska museet catalogue record for item 43069 (donor/photographer/rights), or a Bell Labs/AT&T/MIT image with documented pre-1978 no-notice publication or an explicit institutional licence."
+  }
+}

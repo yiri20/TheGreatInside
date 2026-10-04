@@ -1,14 +1,15 @@
 /**
- * Roster38 (2026-09-23, docs/checkpoints/roster38.md): third new-candidate
+ * Roster41 (2026-10-03, docs/checkpoints/roster41.md): sixth new-candidate
  * roster-expansion cycle after the recent-cohort publication-vs-matching
  * architecture diagnostic (CONTINUE_EXPANSION_AS_IS classification),
- * table-driven candidate<->production equality for all 15 promoted people,
- * all freshly researched, zero backlog reuse, zero holds this cycle.
- * Mirrors roster35.test.ts/roster36.test.ts/roster37.test.ts's shape, except
- * that it deliberately does NOT assert that every addition is
- * non-match-eligible: eligibility is whatever each person's own evidence
- * produces (checked against the live `evaluateMatchEligibility`), and the
- * pre-existing eligible set is asserted untouched instead.
+ * table-driven candidate<->production equality for all 14 promoted people,
+ * all freshly researched, zero backlog reuse, one hold this cycle (Claude
+ * Shannon: evidence_approved, portrait rights unresolved -> not promoted).
+ * Mirrors roster40.test.ts's shape and like it deliberately does NOT assert
+ * that every addition is non-match-eligible: eligibility is whatever each
+ * person's own evidence produces (checked against the live
+ * `evaluateMatchEligibility`), and the pre-existing eligible set is asserted
+ * untouched instead.
  */
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
@@ -17,37 +18,40 @@ import { SEED_PEOPLE } from "../../../data/people/seed.js";
 import { PEOPLE_INDEX } from "../../../data/people/peopleIndex.generated.js";
 import { evaluateMatchEligibility } from "../../../core/matching/similarity.js";
 import { personDisplayName } from "../../../core/i18n/index.js";
+import { editorialText } from "../../../core/i18n/editorial.js";
 import type { Candidate } from "../candidateSchema.js";
 import { hasCandidateFile } from "./matchPoolIntegrityAudit.js";
 
 const TARGETS = [
-  "alfred-russel-wallace",
-  "ayrton-senna",
-  "david-bowie",
-  "enzo-ferrari",
-  "ernest-rutherford",
-  "frank-lloyd-wright",
-  "george-mallory",
-  "isambard-kingdom-brunel",
-  "james-cook",
-  "jeff-bezos",
-  "konrad-zuse",
-  "leonhard-euler",
-  "rembrandt",
-  "stanley-kubrick",
-  "thor-heyerdahl",
+  "alberto-santos-dumont",
+  "babe-didrikson-zaharias",
+  "emily-dickinson",
+  "giuseppe-verdi",
+  "jackie-robinson",
+  "josiah-wedgwood",
+  "jules-verne",
+  "mary-kingsley",
+  "mary-somerville",
+  "max-planck",
+  "orville-wright",
+  "paul-cezanne",
+  "robert-koch",
+  "wilhelm-rontgen",
 ] as const;
 
-// Backlog candidates re-inspected this cycle (no fresh information since
-// Roster37; the same portrait / Oceania-region / evidence-quality blockers
+// Backlog candidates NOT retried this cycle (no concrete new signal since
+// Roster41; the same portrait / Oceania-region / evidence-quality blockers
 // stand) -- not promoted, not silently discarded (see
-// docs/checkpoints/roster38.md).
+// docs/checkpoints/roster41.md).
 const HELD_NOT_PROMOTED = [
   "naomi-uemura",
   "edmund-hillary",
   "anita-roddick",
   "simone-de-beauvoir",
   "mimar-sinan",
+  // Roster41 hold: researched and evidence_approved, but no portrait with a
+  // resolved rights basis (see docs/checkpoints/roster41.md).
+  "claude-shannon",
 ] as const;
 
 const TARGET_SET = new Set<string>(TARGETS);
@@ -73,7 +77,7 @@ const production = Object.fromEntries(
   TARGETS.map((slug) => [slug, SEED_PEOPLE.find((p) => p.slug === slug)!]),
 ) as Record<(typeof TARGETS)[number], (typeof SEED_PEOPLE)[number]>;
 
-describe.each(TARGETS)("Roster38: %s", (slug) => {
+describe.each(TARGETS)("Roster41: %s", (slug) => {
   const candidate = candidates[slug];
   const person = production[slug];
 
@@ -135,6 +139,28 @@ describe.each(TARGETS)("Roster38: %s", (slug) => {
     expect(name).toBe(candidate.localization?.displayNames?.["ko-KR"]);
   });
 
+  it("has EN+KO editorial: every text/interpretation key resolves in both locales, every source and trait reference is real", () => {
+    const editorial = person.editorial;
+    expect(editorial, `${slug} has no editorial`).toBeDefined();
+    const items = [...(editorial!.achievements ?? []), ...(editorial!.moments ?? []), ...(editorial!.turningPoints ?? [])];
+    expect(items.length).toBeGreaterThan(0);
+    const sourceIds = new Set(person.sources.map((s) => s.id));
+    const attributeIds = new Set(person.attributes.map((a) => a.attributeId));
+    for (const item of items) {
+      for (const locale of ["en-US", "ko-KR"] as const) {
+        expect(editorialText(locale, item.textKey), `${item.id} ${locale} text`).toBeTruthy();
+        if (item.interpretationKey) {
+          expect(editorialText(locale, item.interpretationKey), `${item.id} ${locale} interpretation`).toBeTruthy();
+        }
+      }
+      for (const id of item.sourceIds ?? []) expect(sourceIds.has(id), `${item.id} source ${id}`).toBe(true);
+      if (item.interpretationKey) {
+        expect(item.attributeId, `${item.id} interpretation without attributeId`).toBeDefined();
+        expect(attributeIds.has(item.attributeId!), `${item.id} attribute ${item.attributeId} is not a scored row`).toBe(true);
+      }
+    }
+  });
+
   it("appears in PEOPLE_INDEX exactly once, in agreement with SEED_PEOPLE", () => {
     const inIndex = PEOPLE_INDEX.filter((p) => p.slug === slug);
     expect(inIndex).toHaveLength(1);
@@ -143,8 +169,8 @@ describe.each(TARGETS)("Roster38: %s", (slug) => {
   });
 });
 
-describe("Roster38: re-inspected backlog candidates remain genuinely absent from production", () => {
-  it("Naomi Uemura, Edmund Hillary, Anita Roddick, Simone de Beauvoir, and Mimar Sinan are all absent from production", () => {
+describe("Roster41: known backlog blockers remain genuinely absent from production", () => {
+  it("Naomi Uemura, Edmund Hillary, Anita Roddick, Simone de Beauvoir, Mimar Sinan, and the Roster41 hold Claude Shannon are all absent from production", () => {
     for (const slug of HELD_NOT_PROMOTED) {
       expect(SEED_PEOPLE.some((p) => p.slug === slug), `${slug} should not be in production this cycle`).toBe(false);
     }
@@ -161,6 +187,12 @@ describe("Roster38: re-inspected backlog candidates remain genuinely absent from
     expect(hillary.portrait?.status).toBe("found");
   });
 
+  it("Claude Shannon stays evidence_approved but portrait-held (not promoted on an unresolved rights basis)", () => {
+    const shannon = loadCandidate("claude-shannon");
+    expect(shannon.status).toBe("evidence_approved");
+    expect(shannon.portrait?.status).toBe("held");
+  });
+
   it("Simone de Beauvoir and Mimar Sinan remain genuinely held (audit-flagged prior batch, not re-promoted on reused research alone)", () => {
     for (const slug of ["simone-de-beauvoir", "mimar-sinan"]) {
       expect(loadCandidate(slug).status, slug).toBe("held");
@@ -168,7 +200,7 @@ describe("Roster38: re-inspected backlog candidates remain genuinely absent from
   });
 });
 
-describe("Roster38: cross-target identity integrity", () => {
+describe("Roster41: cross-target identity integrity", () => {
   it("no duplicate ids, slugs, or Wikidata QIDs across all 350 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
@@ -187,7 +219,7 @@ describe("Roster38: cross-target identity integrity", () => {
     }
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 350 people, all 15 Roster38 targets present in both", () => {
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 350 people, all 14 Roster41 targets present in both", () => {
     expect(SEED_PEOPLE).toHaveLength(350);
     expect(PEOPLE_INDEX).toHaveLength(350);
     for (const slug of TARGETS) {
@@ -196,7 +228,7 @@ describe("Roster38: cross-target identity integrity", () => {
     }
   });
 
-  it("the pre-existing match-eligible set is untouched: exactly 114 eligible people outside the 15 Roster38 targets", () => {
+  it("the pre-existing match-eligible set is untouched: exactly 114 eligible people outside the 14 Roster41 targets", () => {
     const preExistingEligible = SEED_PEOPLE.filter((p) => p.isMatchEligible && !TARGET_SET.has(p.slug));
     expect(preExistingEligible).toHaveLength(114);
     // Whatever the targets' own evidence produces is reflected, not assumed.

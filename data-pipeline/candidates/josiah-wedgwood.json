@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "josiah-wedgwood",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Josiah Wedgwood",
+    "aliases": [],
+    "wikidataId": "Q319331",
+    "birthYear": 1730,
+    "deathYear": 1795,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "inventor"
+    ],
+    "fieldIds": [
+      "business",
+      "design"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "cultural",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jwedgwood_wikidata",
+      "kind": "wikidata",
+      "title": "Josiah Wedgwood (Q319331) -- verified live via wbgetentities (2026-10-02): en label 'Josiah Wedgwood', description 'English potter and founder of the Wedgwood company (1730–1795)', P569 12 Jul 1730, P570 3 Jan 1795, citizenship Kingdom of Great Britain (Q161885), instance of human, ko label '조사이아 웨지우드', kowiki sitelink '조사이아 웨지우드'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q319331"
+    },
+    {
+      "id": "src_jwedgwood_smiles1894",
+      "kind": "biography",
+      "title": "Samuel Smiles, Josiah Wedgwood, F.R.S.: His Personal History (London: John Murray / New York: Harper, 1894; Harper 1895 printing), Internet Archive full text (josiahwedgwoodfr00smiluoft) -- Victorian self-help biographer (non-self, ADMIRING/moralising tone; draws on the Wedgwood manuscripts and quotes many letters to Bentley, Banks's and Playfair's letters to Wedgwood). Read locally: Ch. IV 'Partnerships with Harrison and Whieldon' (pp. 33-41, incl. the 1759 preface to the experiment books quoted verbatim), Ch. V 'Wedgwood Begins Business for Himself' (pp. 42-56), Ch. VI 'Improvement of Ware -- Friendship with Bentley' (pp. 57-67), Ch. XI 'Improvement of Models -- Chemistry' (pp. 111-124), Ch. XVIII 'Wedgwood at Work Again -- Death of Bentley' (pp. 247-263) and Ch. XIX 'Wedgwood's Pyrometer' (pp. 264-270). Smiles's evaluative language ('indomitable', 'infinite patience') is not used as evidence; only dated actions and quoted documents.",
+      "url": "https://archive.org/details/josiahwedgwoodfr00smiluoft"
+    },
+    {
+      "id": "src_jwedgwood_church1903",
+      "kind": "biography",
+      "title": "A. H. Church, F.R.S. (Professor of Chemistry, Royal Academy of Arts), Josiah Wedgwood, Master-Potter (Portfolio Monographs; new revised edition, London: Seeley, 1903), Internet Archive full text (josiahwedgwoodma00chur_0) -- SCHOLAR / connoisseur and chemist (non-self), more measured than Smiles and openly critical in places (e.g. 'Finish versus Vitality': the loss of individuality under Wedgwood's division of labour). Read locally: Ch. I (precursors, pp. 7-10), Ch. II 'His Early Years' (pp. 11-13), Ch. III 'As Master-Potter' (pp. 14-17), Ch. IV opening on cream-ware experiments (pp. 18-19) and Ch. 'His Invention of the Jasper Body' (pp. 26-29, barytes trials from 1773, Derbyshire search 1774).",
+      "url": "https://archive.org/details/josiahwedgwoodma00chur_0"
+    },
+    {
+      "id": "src_jwedgwood_williamson1909",
+      "kind": "biography",
+      "title": "George C. Williamson (art historian, editor of Bryan's Dictionary of Painters), The Imperial Russian Dinner Service: A Story of a Famous Work by Josiah Wedgwood (London: George Bell, 1909), Internet Archive full text (imperialrussiand00will) -- SCHOLAR (non-self) monograph that prints Wedgwood's letters to Bentley and Boulton (1768-1774), the Mayer-collection wage lists and suppliers' bills, and the Etruria cost accounts. Read locally: Preface; Ch. I 'The Preparation of the Service' (letters of 19 Mar 1768, 23, 27 and 29 Mar, 5 and 9 Apr, 30 Jul and Aug 1773, bills of 1774); the Greek Street exhibition section (letters of Feb-31 May 1774); and the chapter 'The Cost of the Service' (Etruria/Mayer cost manuscripts, profit discussion). Williamson's own admiring framing is not used as evidence.",
+      "url": "https://archive.org/details/imperialrussiand00will"
+    },
+    {
+      "id": "src_jwedgwood_burton1922",
+      "kind": "biography",
+      "title": "William Burton, M.A., F.C.S., Josiah Wedgwood and His Pottery (London: Cassell, 1922), Internet Archive full text (josiahwedgwoodhi00burt) -- practising ceramic chemist and potter (non-self; formerly chemist at Josiah Wedgwood & Sons, Etruria, for five years -- a firm-adjacent technical perspective, not family). Read locally: Preface; Ch. III 'The Improvement of Manufacturing Conditions in Staffordshire' (pp. 19-31: lathes, weighing of clay and scraps, kilns) and Ch. VII 'The Invention of the Jasper Body' (pp. 67-76: barytes trials 1773, Derbyshire expedition 1774, Pegasus vase letter of 24 Jun 1786).",
+      "url": "https://archive.org/details/josiahwedgwoodhi00burt"
+    },
+    {
+      "id": "src_jwedgwood_meteyard1866",
+      "kind": "biography",
+      "title": "Eliza Meteyard, The Life of Josiah Wedgwood, from his Private Correspondence and Family Papers, vol. II (London: Hurst and Blackett, 1866), Internet Archive full text (lifeofjosiahwedg00mete, Wellesley College copy of vol. II) -- SYMPATHETIC biographer (non-self) writing from the Mayer and Wedgwood/Darwin family papers; reprints Wedgwood's letters to Bentley with dates. Read locally: Ch. I (canal dispute of Apr 1768; barytes/spar experiments 1766-68 with letters of 13 Feb, 6 Jul and 5 Aug 1767 and 16 Jan 1768); Ch. VI 'The Russian Service' (1772 over-production and stopping overtime, letter of Sept 1772; Bath show-rooms; Greek Street rooms; settling the price of the service, letter of 8 Jul 1774); Ch. VII 'The New Composition and its Results' (pp. 309-321: letters of 2 Jul 1770, 6 Feb 1773, 7 Mar, 21 Jul, 5 Sep and 6 Nov 1774, 1, 5 and 15 Jan 1775 on the white body, the variable 'spaith fusible', testing each lump separately, cawk/No. 74, secrecy in procurement, Flaxman). The 1768 amputation passage was read only to exclude it. Meteyard's hagiographic commentary ('genius', 'moral courage') is not used as evidence.",
+      "url": "https://archive.org/details/lifeofjosiahwedg00mete"
+    },
+    {
+      "id": "src_jwedgwood_pollard1963",
+      "kind": "press",
+      "title": "Sidney Pollard (economic historian), 'Factory Discipline in the Industrial Revolution', Economic History Review, 2nd ser., vol. 16, no. 2 (1963), pp. 254-271 -- SCHOLAR (non-self), comparative and critical of early factory masters; cites Neil McKendrick, 'Josiah Wedgwood and Factory Discipline', Historical Journal IV (1961), and the privately printed Letters of Josiah Wedgwood to Bentley (1903). Fetched as PDF with curl (surplusvalue.org.au copy) and read in full; Wedgwood passages used: his 19 Aug 1772 and 5 Jul 1776 letters on the Burslem Wakes, the McKendrick summary of the order he imposed (punctuality, fixed hours, standards of care and cleanliness, avoidance of waste, ban on drinking), his 1780 code of works rules and fines, and his pamphlet appeal to his workers. McKendrick's own article was not read (JSTOR, not freely available).",
+      "url": "https://surplusvalue.org.au/Misc%20Articles%20and%20Poems/discipline.pdf"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jwedgwood_smiles1894, src_jwedgwood_church1903, src_jwedgwood_burton1922, src_jwedgwood_meteyard1866 | 1758-1786 | Victorian biographer quoting the experiment books + chemist-scholar + ceramic chemist + sympathetic biographer quoting letters] Two separately documented, long-running trial programmes. (1) From early 1759, while Whieldon's partner, he kept numbered experiment books 'for the improvement of our manufacture', recording bodies, glazes and the oven position of each firing, with marginal notes such as 'This merits further trial; try it again' and 'The crucible broke; try it again' (preface and entries of 13 Feb, 15 Feb and 23 Mar 1759 and 28 Mar 1760 quoted by Smiles); Church independently dates his cream-ware glaze and body experiments to 1758-61, with later refinements after 1768. (2) The barytes work that produced jasper: Meteyard prints his letters of 1767-68 on spar trials (Whitehurst came to Burslem to experiment with him) and of 1773-75 on the variable 'spaith fusible', a fresh 'series of experiments upon Materials ... of qualities allways the same' (21 Jul 1774), the Derbyshire search and the switch to cawk; Church and Burton (who served five years as chemist at Etruria) independently describe the 1773-74 trials, Burton putting them at 'some hundreds'. Smiles adds the later mortar trials that removed blistering. Many dated instances across four sources including two technical writers; kept below 85 because several sources draw on the same letter archive. RUBRIC_CORRECTION at lead review (downward only, no new evidence): 84/0.78 documented -> 82/0.72 documented; the jasper trial programme is documented by two chemists, but one worked at the firm and both read the trials largely through the firm's own records; 0.78 exceeds the cycle's independence ceiling"
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jwedgwood_meteyard1866, src_jwedgwood_church1903, src_jwedgwood_smiles1894 | 1768-1786 | sympathetic biographer quoting letters + chemist-scholar + biographer quoting Banks's and Playfair's letters] When batches of the new white body came out alternately white, cinnamon-coloured, glassy or dry, he 'tried each seperate lump by itself' and traced the fault to variable spar (letter of 21 Jul 1774, Meteyard); he then preferred cawk ('No. 74') because every sample behaved alike (15 Jan 1775). Church, a chemist, confirms he was 'much puzzled by the apparently capricious behaviour' of the two barium minerals before settling on the sulphate. Separately, to replace the old practice of recording heat by oven position, he devised a clay-shrinkage thermometer (pyrometer) presented to the Royal Society in May 1782; after William Playfair's letter of 12 Sep 1782 he reduced its scale to Fahrenheit in later papers and standardised the test clay with precipitated alum earth because fresh Cornish clay varied (Smiles, with Banks's letter of 6 Apr 1784 approving the conversion). Banks wrote that he had 'always practised pottery as a science instead of an art'. Documented instances in two separate episodes; the 1774-75 detail is self-reported in letters, so not higher."
+    },
+    "detail_orientation": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jwedgwood_burton1922, src_jwedgwood_church1903, src_jwedgwood_pollard1963, src_jwedgwood_smiles1894 | 1759-1780 | ceramic chemist + chemist-scholar + economic historian relaying McKendrick + biographer quoting the experiment books] Burton records that he had throwers weigh each ball of clay against a table of weights for standard articles, had the scraps weighed daily to check waste, and had finished plates weighed in lots to keep them to an approved weight. Church describes standardised useful ware (plates that stack without uneven pressure, lids that fit, spouts that pour) and his intolerance of 'dirt, disorder, and slovenliness'; Pollard, summarising McKendrick, lists 'scrupulous standards of care and cleanliness, the avoidance of waste' among the rules he imposed. His experiment books (from 1759) coded every ingredient by number and recorded the exact part of the oven used for each trial (own preface, quoted by Smiles). Independent technical and historical sources agree on concrete practices; kept at 80 because the workshop measures are described without exact dates."
+    },
+    "perfectionism": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jwedgwood_williamson1909, src_jwedgwood_smiles1894, src_jwedgwood_church1903 | 1773-1778 | scholar printing letters + biographer quoting letters + critical chemist-scholar] On the Russian commission he rejected a cheaper scheme: the service 'might be completed for 400 or 500, but not fit for an Empress's table or to do us any credit at double that sum' (letter of 5 Apr 1773), and early polychrome trial pieces gave way to the final purple scheme (Williamson). In Aug 1778 he reported having had a figure of Achilles 'demolished more than once' and still unsatisfactory, and took up the modelling tools himself to rework the head of Virgil after two failed finishings (letter quoted by Smiles). Church, writing critically, argues that his methodical regime produced 'a tendency to aim at mechanical perfection and mere finish ... at the expense of higher qualities' in ornamental work. Several instances, partly from his own letters; dual_edged because a critical scholar judged the same exacting finish to cost vitality."
+    },
+    "opportunity_sensing": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jwedgwood_williamson1909, src_jwedgwood_meteyard1866, src_jwedgwood_smiles1894 | 1765-1779 | scholar printing letters and accounts + sympathetic biographer + biographer quoting letters] In Mar 1768 he called on Lord Cathcart, the new ambassador to Russia, 'to bring about the plan we settled of introducing my manufacture at the Court of Russia', arranged a specimen plate with the Russian arms, and asked Boulton which other European courts to target next (letter of 19 Mar 1768, Williamson). He opened London show-rooms in Aug 1768 and rooms at Bath in 1772, insisting there that they should not open 'till you enable us to make a very complete shew' (Meteyard); before shipping the Frog service he set it out in the new Greek Street rooms and advertised the opening (letter of 31 May 1774; Williamson; Meteyard). Williamson's analysis of the cost papers concludes the firm treated the service 'as an advertisement of special dignity' rather than a money-maker. Smiles quotes letters planning portrait medallions 'for sale abroad' (Voltaire, Rousseau, Linnaeus) and his copying of the Duke of Bedford's French china in Oct 1765. Several dated, independently printed instances; not scored from sales or wealth."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jwedgwood_williamson1909, src_jwedgwood_meteyard1866, src_jwedgwood_church1903, src_jwedgwood_burton1922 | 1754-1774 | scholar printing letters + sympathetic biographer + chemist-scholar + ceramic chemist] On receiving the Russian order (letters of 23-29 Mar 1773) he estimated two to three years and 1,000-1,500 pounds, asked what expense the consul would sanction, and sought a binding order because 'the Death of the Empress, a revolution in her Government ... a War' or a change of consul could void a verbal one, while noting one should avoid 'giving offence by over-much caution' (Williamson). In 1770 he weighed three options for the colour of his staple ware after 'elaborate calculations on the cost of manufacture' and kept cream-colour (Meteyard), and in 1772 held to a rule not to move the London rooms until suitable ones were found (Meteyard). Church records that on joining Whieldon he reserved the right to keep his own improvements secret, which later let him set up alone. Burton characterises him as one who 'made the ground secure before he launched on each fresh ... exercise'. Several instances, much of it from his own letters; moderate."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jwedgwood_meteyard1866, src_jwedgwood_smiles1894 | 1762-1780 | sympathetic biographer + biographer, both quoting letters] His work ran through partnerships and shared experiment. Bentley translated Pott's chemistry for him and procured the first non-calcareous spar, Whitehurst of Derby spent a week at Burslem experimenting with him in 1767, and Darwin, Fothergill and Brindley supplied samples (Meteyard). Smiles describes his near-continuous correspondence with Bentley from 1762 until Bentley's death in 1780, consulting him on every important step, and his long use of outside artists and modellers (Flaxman, Stubbs, Bacon, Hackwood, Tassie). Several instances; the sources describing the friendship are admiring, so moderate confidence."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jwedgwood_church1903, src_jwedgwood_smiles1894, src_jwedgwood_pollard1963, src_jwedgwood_meteyard1866, src_jwedgwood_burton1922 | 1759-1780 | chemist-scholar + biographer + economic historian + sympathetic biographer + ceramic chemist] At the Ivy House works from 1759 he made the models and moulds, mixed the clays, superintended the firing and acted as clerk himself (Church; Smiles), then introduced division of labour so that each workman kept to one task (Church), replaced the cow's horn with a bell to summon workers (Smiles; Burton), and trained men individually in new tools (Smiles). Pollard (relaying McKendrick) records his 1780 code of works rules with fines, his letters of 1772 and 1776 about men leaving work for the Burslem Wakes ('I have not spared them in threats'), and a pamphlet he wrote appealing to his workers' common interests. In the 1772 slump he stopped overtime rather than 'set our best hands adrift' to a rival (letter quoted by Meteyard). Several independent instances; dual_edged because the critical historian documents threats and fines and the 1772 men threatened to leave."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jwedgwood_smiles1894, src_jwedgwood_burton1922, src_jwedgwood_church1903 | 1765-1786 | biographer quoting letters and Hamilton's letter + ceramic chemist + chemist-scholar] He spent three days in Oct 1765 'taking patterns from a set of French china at the Duke of Bedford's' (letter quoted by Smiles), judged in 1779 that 'the white Muses seem to me even finer things than those with blue grounds' and began trials for stone-like coloured grounds (Smiles). Sir William Hamilton wrote that his Apotheosis of Homer bas-relief was 'more pure, and in a truer antique taste' than any of the performances of the artists where he was (Smiles). In 1786 he gave the British Museum the 'Pegasus' vase, describing it as 'the finest and most perfect I have ever made' (letter to Hamilton, Burton). Church credits him with 'a keener sense of what was beautiful and appropriate' than his predecessors while criticising the over-finish of his ornamental ware. Several instances of documented judgement and choice; the market reception of the products is not used as evidence."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jwedgwood_smiles1894, src_jwedgwood_meteyard1866 | 1750s-1780 | biographer + sympathetic biographer quoting letters] Before 1760 he borrowed and hand-copied books on chemistry and clays (Smiles). In Mar 1774 he wrote that 'the Fox-hunter does not employ more pleasure from the chase, than I do from the prosecution of my experiments ... the further I go, the wider this field extends before me' (letter quoted by Meteyard; a self-statement, the trial programme itself is used elsewhere). Smiles records him learning French, taking up conchology in 1780 (asking Bentley to collect shells, which he copied on ware). Several mutually consistent signals, mostly from admiring biographers and his own letters, so moderate confidence."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jwedgwood_smiles1894, src_jwedgwood_burton1922 | 1760s-1780s | biographer + ceramic chemist] For fine table ware his early kilns repeatedly failed; one was pulled down and rebuilt and the replacement also proved defective before reliable firing was achieved (Smiles), and Burton, who saw the Etruria ovens still in use a century later, confirms he 'expended much money and labour' on kiln construction until the designs were settled. The first mortars blistered and were improved through repeated trials until accepted at Apothecaries' Hall (Smiles). He kept returning to unsatisfactory models such as the Achilles figure, 'demolished more than once' but to get 'another trial when opportunity occurs' (letter of Aug 1778, Smiles). Several instances, but dates are loose and the main narrator is a moralising Victorian biographer, so moderate; the multi-year barytes programme is not reused here (already used for two rows)."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jwedgwood_smiles1894, src_jwedgwood_burton1922 | 1763-1770s | biographer quoting letters + ceramic chemist] Refused a look at a London engine-lathe without a five-guinea fee, he had Plumier's L'Art du Tourneur translated, worked with the Birmingham turner Taylor until a machine lathe was built for him and brought it home with a trained operator in 1763 (Smiles); Burton independently records that he 'sought, far and wide' for lathe improvements and had Bentley translate foreign works on turnery. Finding that 'I could not get a hand through the whole pottery to make a table-plate without training him up for that purpose', he proposed a drawing and modelling school to train apprentices as artists for the firm (letter quoted by Smiles). Two instances with some independent corroboration; moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조사이아 웨지우드"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-02T00:00:00Z",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-02) for Q319331 returned en label 'Josiah Wedgwood', description 'English potter and founder of the Wedgwood company (1730–1795)', P569 12 Jul 1730 (his baptism date; sources give birth as July 1730), P570 3 Jan 1795, citizenship Kingdom of Great Britain (Q161885), instance of human, ko label '조사이아 웨지우드' and kowiki sitelink '조사이아 웨지우드' (used for localization). Not confused with Q2912529 (20th-century politician Josiah Wedgwood). SLUG CHECK: no data-pipeline/candidates/josiah-wedgwood.json and no public/portraits/*wedgwood* existed before this run; the slug appears only in the Roster41 slug list (src/dev/roster1000/generateRoster41.ts); src/data/people mentions Wedgwood only inside James Watt's and Charles Darwin's entries. No collision. CLASSIFICATION: fieldIds business + design as briefed (coco-chanel design/business precedent; steve-jobs business/design), both resting on scored rows (opportunity_sensing, planning_orientation, leadership_drive for business; aesthetic_sensitivity, perfectionism for design). occupationIds entrepreneur + inventor: there is NO 'potter' or ceramicist occupation id in src/core/i18n/en.ts; 'inventor' rests on documented inventions (jasper body, pyrometer); a lead may prefer 'artist' or 'product_designer' instead -- no new id invented. impactDomains entrepreneurial/industrial/cultural/innovation, tags founder/innovator, archetypes entrepreneurial_builder/technical_innovator -- all existing ids. era early_modern, GB, western_europe follow james-watt.json (1736-1819). EVIDENCE READ: 7 source records (1 orientation, 6 substantive), all fetched with curl to scratch_r41/work/josiah-wedgwood/ and read locally: Smiles 1894 (Chs. IV-VI, XI, XVIII-XIX); Church 1903 (Chs. I-IV opening, jasper chapter); Williamson 1909 (Ch. I, Greek Street exhibition section, cost chapter); Burton 1922 (Preface, Chs. III and VII); Meteyard vol. II 1866 (Ch. I parts, Ch. VI parts, Ch. VII pp. 309-321); Pollard 1963 (full article, PDF). Downloaded but not read substantively and NOT recorded: Jewitt, The Wedgwoods (1865). Not available / not read: Farrer's Letters of Josiah Wedgwood (1903-06) -- no Internet Archive full text found; Finer & Savage's Selected Letters (1965) and McKendrick's articles (lending-restricted / JSTOR); Wedgwood's Philosophical Transactions papers (known here only as quoted by Smiles); the Science History Institute biography URL returned 404; Science Museum Group collection site blocked the request (403). INDEPENDENT PERSPECTIVES: (1) Samuel Smiles, Victorian self-help biographer (admiring, moralising; quotes letters of Wedgwood, Banks, Playfair, Hamilton); (2) Eliza Meteyard, sympathetic biographer from the Mayer and family papers; (3) A. H. Church, chemist and connoisseur, measured and openly critical in places ('Finish versus Vitality'); (4) George C. Williamson, art historian printing letters, wage lists, bills and the Etruria cost papers for the Russian service; (5) William Burton, ceramic chemist and potter (worked five years as chemist at Josiah Wedgwood & Sons, so firm-adjacent but not family); (6) Sidney Pollard, economic historian, comparative and critical of factory masters, relaying McKendrick. Third-party contemporaries quoted inside these: Banks, Playfair, Hamilton, Thomas Bentley's partners. SELF perspective (counted once): Wedgwood's letters to Bentley/Boulton/Hamilton and his experiment-book preface, all as quoted by Smiles, Meteyard, Williamson, Burton and Pollard. NON-SELF BEHAVIOURAL sources: Church, Burton, Pollard, Williamson (accounts), Smiles and Meteyard narrative. No row rests on self material alone. Per the Roster40 calibration lesson, rows supported mainly by admiring biographers plus his letters (collaboration, curiosity, persistence, resourcefulness, planning_orientation, perfectionism, aesthetic_sensitivity, leadership_drive) are kept at confidence <= 0.62 and scores <= 74; only experimentation, detail_orientation, analytical_rigor and opportunity_sensing, which have independent technical/scholarly corroboration (Church, Burton, Pollard, Williamson's documents), go higher, and none reaches 85. EPISODE USE: experiment books from 1759 -> experimentation, detail_orientation; 1767-68 spar trials with Bentley/Whitehurst -> experimentation, collaboration; 1773-75 barytes/jasper trials incl. the Jul 1774 lump-by-lump test and the cawk choice -> experimentation, analytical_rigor; pyrometer 1782-86 and Playfair/Banks correspondence -> analytical_rigor only; workshop regime (weighing clay and scraps, division of labour, bell, 1780 rules and fines, Wakes letters) -> detail_orientation, leadership_drive; 1772 over-production and stopping overtime -> leadership_drive only; Russian commission negotiation letters of Mar-Apr 1773 -> planning_orientation, perfectionism; 1768 Cathcart approach, London/Bath/Greek Street show-rooms and the 1774 exhibition, portrait medallions for export -> opportunity_sensing; Duke of Bedford china Oct 1765 -> opportunity_sensing, aesthetic_sensitivity; Aug 1778 Achilles/Virgil letter -> perfectionism, persistence; Hamilton's praise, 'white Muses' judgement, Pegasus vase -> aesthetic_sensitivity; 1770 colour-choice cost calculations, room-moving rule, Whieldon secrecy clause -> planning_orientation; kilns and mortars -> persistence; engine lathe 1763 and drawing-school proposal -> resourcefulness; book-copying, French, conchology, Mar 1774 'fox-hunter' letter -> curiosity; Bentley correspondence and outside artists -> collaboration. ROWS CONSIDERED AND LEFT UNSCORED: risk_tolerance (genuinely mixed: Burton says he 'could ... take risks with the best' but also 'made the ground secure'; his 1767 letter declines to neglect 'present business ... for uncertainties' and he records Bentley's 'lectures upon the bad policy of hurrying things'; Etruria and canal commitments are outcome-shaped); persuasiveness (Russian court approach and the 1773 appeal to the Empress are documented only indirectly); belief_updating (single Playfair instance); discipline (self-discipline evidence would rest on sleeplessness/overwork passages, which touch health -- excluded); achievement_drive and competitiveness (Smiles's 'ambition to rival the Etruscans' and the Palmer rivalry letter are thin/biographer framing); conflict_tolerance (the 1768 canal-route dispute and the Voyez/Palmer episodes are single or one-sided); systems_abstraction and cross_domain_range (canal/turnpike promotion is partly civic/political and was not read in depth). EXCLUDED ON PURPOSE: his childhood smallpox, knee disease, the 1768 leg amputation and Meteyard's 'moral courage' reading of it; his overwork, sleeplessness and later illnesses; Sarah Wedgwood's illnesses and all family/domestic life, including his sons' education and home chemistry lessons and his wife's remarks about his library; Bentley's death and any bereavement reading; the anti-slavery medallion (1787) and his views on the American war and the Ministry (zero-politics: factual mention only, not scored); the turnpike and Grand Trunk Canal promotion as political/civic activity (not scored); Fellowship of the Royal Society, royal patronage, sales, exports, fortune and museum holdings as evidence; Smiles's and Meteyard's eulogistic language ('indomitable', 'infinite patience', 'genius'); the Voyez criminal episode. CONFLICTS REPORTED, NOT ADJUDICATED: (a) start of the barytes experiments -- Meteyard prints spar-trial letters from 1766-68, Church and Burton date the barium trials to 1773; treated as two phases; (b) opening of the Greek Street rooms -- Williamson says April 1774 and also quotes a 31 May 1774 letter saying they would advertise and open the next day; (c) Queen's Ware date -- Smiles gives 1763 for the ware and the later royal naming; Church places final cream-ware improvements after 1768. KNOWN LIMITS: Farrer's full Letters and McKendrick's factory-discipline and marketing articles were not read; McKendrick is known only through Pollard's summary. Wedgwood's own letters reach the profile only as selected and quoted by sympathetic biographers. 12 rows; none above 84 or confidence 0.78. PORTRAIT: Commons 'File:Josiah Wedgwood by George Stubbs, 1780, enamel on a Wedgwood ceramic tablet - Wedgwood Museum - Barlaston, Stoke-on-Trent, England - DSC09537.jpg' (one of the Wikidata P18 values). Wikitext read via action=raw: Information template, source {{own}}, author User:Daderot, photo date 2016-06-11; tags {{PD-old-100}} (for the painting), {{FoP-UK}}, and licence {{self|cc-zero}} for the photograph; no third-party, copyright-claim, NPG or 'in copyright' notice. UPSTREAM CHECK: V&A collections API record O1677376 (WE.7522-2014): 'Josiah Wedgwood I', George Stubbs, enamel on a ceramic plaque made by Wedgwood, Etruria, 1780, 521 x 400 mm unframed; the V&A text quotes Wedgwood's 1779 letter about the plaques and his 30 May 1779 plan for Stubbs to paint him and Sarah. Basis: a 2D painting by an artist who died in 1806 (public domain) photographed by a Commons user who released the photograph under CC0 -- no institutional reproduction claim involved. Original 3608x4732 RGB JPEG downloaded with curl and a User-Agent, opened with Pillow, downscaled (LANCZOS) to 1220x1600, JPEG q85, no crop (the oval frame is kept), no upscaling; saved as public/portraits/josiah-wedgwood-stubbs-1780.jpg. Viewed: oval half-length of a man in a white wig, white stock and striped buff coat, matching the V&A identification. Kind: likeness (painted from life in 1780). REJECTED ALTERNATIVES: 'Joshua Reynolds (1723-1792) - Josiah Wedgwood I ... V^A Wedgwood Collection.jpg' (PD-Art, but the image is an Art UK-sourced reproduction, only 637x800, and the collection's reproduction terms were not checkable); 'Portrait of Josiah Wedgwood gupjg13 4 ics8nad.tiff' (Science History Institute item, avoided per brief); 'John Taylor Wedgwood after Sir Joshua Reynolds ... 1841, NGA 59243.jpg' (CC0 and clean, but a posthumous 1841 engraving after the painting -- kept as a fallback); 'JosiahWedgwood.jpeg' and the Wellcome 'after Sir J. Reynolds' print (provenance/rights not needed given a clean from-life option). No eligibility, coverage or match output was used in scoring. LEAD REVIEW RUBRIC_CORRECTION: experimentation 84/0.78 documented -> 82/0.72 documented (the jasper trial programme is documented by two chemists, but one worked at the firm and both read the trials largely through the firm's own records; 0.78 exceeds the cycle's independence ceiling). PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Portrait rights-verified."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/josiah-wedgwood-stubbs-1780.jpg",
+    "width": 1220,
+    "height": 1600,
+    "source": "Wikimedia Commons photograph (Daderot, 2016, CC0) of George Stubbs's 1780 enamel portrait of Josiah Wedgwood on a Wedgwood ceramic plaque, V&A Wedgwood Collection (WE.7522-2014), displayed at the Wedgwood Museum, Barlaston",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "George Stubbs, 'Josiah Wedgwood I', enamel on a Wedgwood ceramic plaque, 1780 (V&A Wedgwood Collection, WE.7522-2014); photograph by Daderot, released under CC0",
+    "attributionUrl": "https://collections.vam.ac.uk/item/O1677376/",
+    "creator": "George Stubbs (painting); Daderot (photograph)",
+    "date": "1780",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Josiah_Wedgwood_by_George_Stubbs,_1780,_enamel_on_a_Wedgwood_ceramic_tablet_-_Wedgwood_Museum_-_Barlaston,_Stoke-on-Trent,_England_-_DSC09537.jpg"
+  }
+}

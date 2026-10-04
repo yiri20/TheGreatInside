@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alberto-santos-dumont",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alberto Santos-Dumont",
+    "wikidataId": "Q313211",
+    "birthYear": 1873,
+    "deathYear": 1932,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "aviator"
+    ],
+    "fieldIds": [
+      "technology",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "independent"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_santosdumont_wikidata",
+      "kind": "wikidata",
+      "title": "Alberto Santos-Dumont (Q313211) -- verified live via wbgetentities (2026-10-02): en label 'Alberto Santos-Dumont', description 'Brazilian aviation pioneer (1873-1932)', P569 20 Jul 1873, P570 23 Jul 1932, citizenship Brazil (Q155) and France (Q142), instance of human, ko label '알베르토 산토스뒤몽', kowiki sitelink '알베르토 산토스뒤몽'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q313211"
+    },
+    {
+      "id": "src_santosdumont_myairships_self",
+      "kind": "archive",
+      "title": "Alberto Santos-Dumont, My Airships: The Story of My Life (London: Grant Richards, 1904; English edition of Dans l'air), Project Gutenberg eBook #42344 -- SELF perspective (his own first-person account, written 1902-04). Read locally: Ch. I (plantation machinery), Ch. III-IV (first ascent 1897; the 113 m3 'Brazil' balloon and the builders' objections), Ch. VI-VII (choice of the petroleum tricycle motor, workshop and dynamometer tests, 18 and 20 Sept 1898 flights of No. 1), Ch. X (No. 2 accident 11 May 1899, redesign as No. 3, 13 Nov 1899 flight), Ch. XII-XV in full (Deutsch prize conditions, his own Santos-Dumont prize, 12-13 Jul and 8 Aug 1901 attempts, No. 6, 19 Oct 1901 flight, award dispute and disposal of the money), Ch. XX-XXI (Monaco loss 14 Feb 1902 and lessons; the Neuilly airship station 1902-03). Never the sole support for any row.",
+      "url": "https://www.gutenberg.org/ebooks/42344"
+    },
+    {
+      "id": "src_santosdumont_sciam_1901",
+      "kind": "press",
+      "title": "Scientific American vol. 85 no. 18, 2 Nov 1901 (Internet Archive scientific-american-1901-11-02, djvu text): the news note that the Aero Club committee had not yet decided whether he was entitled to the Deutsch prize, and 'An Interview with M. Santos-Dumont', a digest of Sterling Heilig's authorized article in The Century (Nov 1901) -- JOURNALIST perspective, insider-leaning (authorized interview), which also quotes the critical view of Col. Charles Renard (French army airship engineer) that he was 'an aerostatic sportsman' rather than a man of science. Read in full. Used for the absence of patent applications as of 1901, the near-universal objection to a petroleum motor under hydrogen, and the pending committee decision.",
+      "url": "https://archive.org/details/scientific-american-1901-11-02"
+    },
+    {
+      "id": "src_santosdumont_sciam_1906",
+      "kind": "press",
+      "title": "Scientific American vol. 95 nos. 18, 20 and 21 (3, 17 and 24 Nov 1906; Internet Archive djvu texts): 'Successful Flight of Santos Dumont's Aeroplane', 'Progress of Aeronautics in France' and 'Santos Dumont's Latest Flight' -- JOURNALIST perspective, independent and partly SKEPTICAL (the magazine compares the 14-bis unfavourably with the Wrights' claimed efficiency and reports American experimenters' doubts about its stability). Read the three articles in full. Used for the dated 13 Sep, 23 Oct and 12 Nov 1906 trials under Aero Club observers, the modifications after 13 Sep, the broken-bolt delay, and the decisions to cut power to avoid the crowd and not to fly against a strong wind.",
+      "url": "https://archive.org/details/scientific-american-1906-11-17"
+    },
+    {
+      "id": "src_santosdumont_sciam_1907",
+      "kind": "press",
+      "title": "Scientific American vol. 97 no. 24, 14 Dec 1907 (Internet Archive scientific-american-1907-12-14, djvu text), 'Santos Dumont's Latest Aeroplane', by the magazine's Paris correspondent -- JOURNALIST perspective (independent). Read in full: his rapid switching between aeroplane and hydroplane work, construction of No. 19 in two weeks, its weight and surfaces, his quoted account of the 17 Nov 1907 flight, the 18 and 21 Nov 1907 trials before the Aero Club committee and the propeller failure.",
+      "url": "https://archive.org/details/scientific-american-1907-12-14"
+    },
+    {
+      "id": "src_santosdumont_popmech_1910",
+      "kind": "press",
+      "title": "Popular Mechanics vol. 13 no. 6, June 1910 (Internet Archive sim_popular-mechanics_popular-mechanics_1910-06_13_6, djvu text): Arthur E. Joerin and A. Cross, 'How to Build the Famous Demoiselle: Santos-Dumont's Monoplane', with editor's note, and the magazine's advertisement for the working drawings -- JOURNALIST/PUBLISHER perspective (non-self). Read the article opening, the construction passages on his rod-end fittings and silk, and the advertisement. Used only for his announcement that he would give the Demoiselle plans to the public and the statement that the machine was 'unencumbered by patent rights', the plans having been obtained from him and his workshops.",
+      "url": "https://archive.org/details/sim_popular-mechanics_popular-mechanics_1910-06_13_6"
+    },
+    {
+      "id": "src_santosdumont_linsdebarros2003",
+      "kind": "biography",
+      "title": "Henrique Lins de Barros (physicist and historian of science, Museu de Astronomia e Ciências Afins, Rio de Janeiro), 'Santos Dumont: o vôo que mudou a história da aviação', Parcerias Estratégicas no. 17, Sept 2003, pp. 303-338 (Internet Archive 239-945-1-pb, djvu text) -- SCHOLAR perspective (non-self; admiring in tone, but documented, citing L'Aérophile 1901-1906, La Nature, Aero Club commission minutes, Le Matin 15 Sep 1909 and Voisin's 1952 recollection). Read in full in Portuguese. Used for: 1903 No. 9 demonstrations, 1898-1901 accidents and rebuilds, the motor test after the 8 Aug 1901 Trocadero fall and the 22-day No. 6, his advance public pledge of the prize money, the commission's 15-9 vote on 4 Nov 1901 and his resignation from the Aero Club, the 1906-07 sequence 14-bis/No. 15/No. 16/No. 18 hydroplane/No. 19, the 1909 Demoiselle and his public offer of its plans. The article's sections on his illness, depression and death, and his 1932 political message, are NOT used.",
+      "url": "https://archive.org/details/239-945-1-pb"
+    },
+    {
+      "id": "src_santosdumont_nasm_clement",
+      "kind": "institution",
+      "title": "National Air and Space Museum, 'Clement V-2 Engine' collection-object record (A19080001000), summary and accession-file notes, via Smithsonian Open Access API -- institution/curatorial (non-self). Read in full. Used only to corroborate that his 1903 Airship No. 9 used a converted 12 kg Clement motorcycle engine that also drove the envelope blower.",
+      "url": "http://n2t.net/ark:/65665/nv94c999684-308b-4056-9ad7-ef5f48d63536"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_santosdumont_linsdebarros2003, src_santosdumont_sciam_1907, src_santosdumont_sciam_1906, src_santosdumont_myairships_self | 1898-1907 | scholar citing L'Aérophile + independent journalist + self] Repeated failures were followed by renewed attempts rather than withdrawal. No. 1 was torn on trees at its first start on 18 Sep 1898 and flew two days later; No. 2 folded and fell into trees on 11 May 1899 and was replaced by the redesigned No. 3, flown 13 Nov 1899 (own account; Lins de Barros). For the Deutsch prize he failed on 13 Jul 1901 (motor stop, landed in a chestnut tree) and 8 Aug 1901 (fell onto the Trocadero hotels), then flew No. 6 through further accidents on 6 and 19 Sep before succeeding on 19 Oct 1901 (own account; Lins de Barros). In 1906-07 the 14-bis, No. 15, No. 16 and the No. 18 hydroplane failed or were abandoned before No. 19 flew in Nov 1907 (Lins de Barros); Scientific American's Paris correspondent wrote in Dec 1907 that if the hydroplane failed or the aeroplane got smashed 'he is soon afloat or afield again with a new and improved apparatus'. Multiple dated instances from an independent journalist and a scholar, consistent with his own account; kept below 85 because the scholar is admiring and much detail traces to the self account."
+    },
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_santosdumont_myairships_self, src_santosdumont_linsdebarros2003, src_santosdumont_sciam_1906, src_santosdumont_sciam_1907 | 1897-1909 | self + scholar + independent journalists] He worked by building, measuring and changing designs in short cycles. In 1897-98 he suspended his tricycle motor from tree branches in the Bois de Boulogne to check vibration, and hung the No. 1 machinery from the workshop rafters to measure propeller thrust with a dynamometer (own account; Lins de Barros quotes the tree test from his 1902 McClure's article); he had the Japanese silk for the 'Brazil' tested on a dynamometer before use. The 14-bis was first tested hung beneath the envelope of airship No. 14 and then on a steel cable, and modified after its 13 Sep 1906 hop (rear wheel removed, canvas varnished) before the 23 Oct flight (Lins de Barros; Scientific American 17 Nov 1906). In 1907 he reversed the tail-first layout in No. 15, tried a balloon-assisted No. 16 and built the No. 18 hydroplane with submerged surfaces before the No. 19 monoplane (Lins de Barros; Scientific American 14 Dec 1907). Many dated instances from independent sources; the scholar's reading of No. 18 as a study of control surfaces is not relied on for the score."
+    },
+    "execution_speed": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_santosdumont_myairships_self, src_santosdumont_linsdebarros2003, src_santosdumont_sciam_1907, src_santosdumont_sciam_1906 | 1898-1907 | self + scholar + independent journalists] On the evening of the 8 Aug 1901 Trocadero fall he gave out the specifications of No. 6, which was finished and inflated after 22 days (own account); Lins de Barros, citing contemporary reports, adds that he announced the new airship the same day. After the 18 Sep 1898 accident he flew again on 20 Sep (own account; Lins de Barros). Scientific American's Paris correspondent (14 Dec 1907) attributes No. 19's 'rapid construction in two weeks' to its simplicity and calls the speed of his switching between aeroplane and hydroplane 'truly amazing'; on 23 Oct 1906 a bolt broken in the morning was repaired and the flight made the same afternoon (Scientific American 17 Nov 1906). Several dated instances from independent and self sources; his own remark that a hurried varnish job may have caused the 8 Aug failure ('Such are the rewards of haste') shows the speed had costs, so not scored higher."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_santosdumont_myairships_self, src_santosdumont_sciam_1901, src_santosdumont_linsdebarros2003 | 1897-1907 | self + authorized journalist interview + scholar] Several times he went ahead against the stated judgement of experienced practitioners. His balloon builders Machuron and Lachambre argued that a 113 m3 silk balloon was impossible and unstable; he had it built with longer suspension and it flew (own account; Lins de Barros describes the design). Members of the Paris aeronautical circle urged an electric motor rather than a petroleum engine under hydrogen; he kept the petroleum motor, and Heilig's 1901 interview has him say that 'from the beginning everybody was against the idea' (Scientific American digest; Lins de Barros). He dispensed with the conventional net and outer cover and in 1901 replaced rope suspensions with piano wire (own account; Lins de Barros). In 1907, after adopting the tail-first layout others followed, he reversed it, which Col. Ferber described as putting what was behind in front (Lins de Barros). A counter-instance is recorded by himself: on 18 Sep 1898 he yielded to the professional aeronauts on the starting position. strong_inference: several instances, but the objections are known mainly from his own and an authorized account."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_santosdumont_myairships_self, src_santosdumont_sciam_1901, src_santosdumont_linsdebarros2003, src_santosdumont_sciam_1906 | 1898-1906 | self + journalists + scholar] He flew a petroleum engine beneath a hydrogen envelope in Sep 1898 although fellow aeronauts warned of fire (own account; Heilig interview via Scientific American 1901; Lins de Barros). On 11 May 1899 he chose to go up in rain with a wetted envelope rather than lose the gas, and the airship folded into trees (own account). On 8 Aug 1901 he noticed a leaking valve before the Eiffel Tower and 'risked going on' because a prize was at stake, ending in the Trocadero fall (own account; Lins de Barros). Against this, he wrote that his rule was 'Keep close to earth', on 19 Oct 1901 rose above the Tower's summit to avoid contact, and on 12 Nov 1906 cut power to avoid the crowd; Scientific American (24 Nov 1906) noted he did not attempt a flight against a strong wind. A real lean above average with deliberate limits; dual_edged because the risks taken produced several crashes."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_santosdumont_myairships_self, src_santosdumont_linsdebarros2003, src_santosdumont_nasm_clement | 1897-1903 | self + scholar + curatorial record] When No. 1 began to fall over Bagatelle on 20 Sep 1898 he called to boys flying kites to seize the guide rope and run against the wind, which slowed the descent (own account; Lins de Barros cites it as an example of his presence of mind). On 12 Jul 1901, when a rudder cord broke near the Champ de Mars, he landed in the Trocadero gardens and repaired it from a ladder borrowed from passing workmen before completing the Eiffel Tower circuit (own account). From 1897 he adapted light motor-tricycle engines for airships, joining two tricycle cylinders in tandem on one connecting rod (own account); the NASM record confirms that No. 9 (1903) used a converted Clement motorcycle engine that also drove the envelope blower. Several instances but mostly from his own account, hence moderate confidence."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_santosdumont_linsdebarros2003, src_santosdumont_popmech_1910, src_santosdumont_sciam_1901, src_santosdumont_myairships_self | 1900-1910 | scholar + journalists + self] Several documented actions put the spread of flying ahead of personal gain. Before the 19 Oct 1901 flight he publicly pledged the 100,000-franc Deutsch prize to the poor of Paris and to his workmen (Lins de Barros, citing the press); he afterwards gave 75,000 francs to the Paris Prefect of Police for the poor and the rest to his employees (own account; the two sources differ on the exact split). With the 4,000 francs the Aero Club awarded him for 1900 he founded a prize with easier conditions so that others could compete (own account; Lins de Barros). In 1909 he announced through Le Matin that anyone could build the Demoiselle and ask him for the plans (Lins de Barros), and Popular Mechanics published the drawings in June 1910, saying the machine was 'unencumbered by patent rights' and the plans came from him and his workshops; Heilig had reported in 1901 that he had never applied for a patent. The stated motive is partly his own, so strong_inference rather than documented; he was wealthy, which made giving money away less costly, and that limits the score."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_santosdumont_linsdebarros2003, src_santosdumont_sciam_1901, src_santosdumont_myairships_self | 1900-1901 | scholar + journalist + self] In the dispute over whether his 19 Oct 1901 time should be counted to his first pass over the judges or to his landing, he publicly called on the Aero Club commission to reverse its position, and when it voted 15-9 in his favour on 4 Nov 1901 he resigned from the club the same day (Lins de Barros; Scientific American, 2 Nov 1901, confirms the decision was still pending). He had earlier criticised the commission's 24-hour notice rule in print (own account). One dispute, documented from more than one source, with no comparable later conflicts in what was read: a single episode, hence inference and low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알베르토 산토스뒤몽"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-02T00:00:00Z",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-02) for Q313211 returned en label 'Alberto Santos-Dumont', description 'Brazilian aviation pioneer (1873-1932)', P569 20 Jul 1873, P570 23 Jul 1932, citizenship Brazil (Q155) and France (Q142), instance of human, ko label '알베르토 산토스뒤몽' and kowiki sitelink '알베르토 산토스뒤몽' (used for localization). SLUG CHECK: no data-pipeline/candidates/*santos* file, no src/data/people mention and no public/portraits/*santos* existed before this run; no collision. CLASSIFICATION: fields technology and engineering, impactDomains technological/engineering/innovation and archetypes technical_innovator/independent_creator follow orville-wright.json and wilbur-wright.json; occupations inventor and aviator (occupation.aviator exists in en.ts) rather than the Wrights' engineer, since he had no engineering degree and the record is of a designer-pilot; tags innovator and independent (both existing ids). Nationality BR and region latin_america follow pele.json (Wikidata also lists French citizenship; BR kept as his primary nationality). ERA 20th_century as in orville-wright.json: every scored row rests on 1898-1910 behaviour. EVIDENCE READ: 8 source records (1 orientation, 7 substantive), fetched with curl to scratch_r41/work/alberto-santos-dumont/ and read locally: My Airships (1904, Gutenberg; Chs. I, III-IV, VI-VII, X, XII-XV in full, XX-XXI); Scientific American 2 Nov 1901 (Deutsch prize note and the digest of Sterling Heilig's authorized Century interview); Scientific American 3, 17 and 24 Nov 1906 (14-bis reports); Scientific American 14 Dec 1907 (No. 19); Popular Mechanics June 1910 (Demoiselle plans); Henrique Lins de Barros, Parcerias Estratégicas 17 (2003), in full; NASM Clement V-2 engine record (Smithsonian Open Access API). Also downloaded but NOT used: Scientific American 26 Oct and 9 Nov 1901 and 27 Oct 1906 (no relevant text or only balloon-race listings); 'Notre interview de Santos-Dumont' (1914, IA lecturesdumont) -- OCR unreadable; IA copies of Kelsey's Six Great Men of Brazil (1942), Hoffman's Wings of Madness (2003), Early Flight (1987) are lending-restricted (no full text) and 'Vida de Santos Dumont' (1935) has an empty text layer -- none were read. The NYT 1901 reports, L'Aérophile and the Century article itself were not read directly (L'Aérophile and Le Matin are known only as cited by Lins de Barros). INDEPENDENT PERSPECTIVES: (1) Scientific American Paris/news staff 1906-1907 -- independent journalists, partly SKEPTICAL of the 14-bis (efficiency comparison with the Wrights, American experimenters' doubts on stability); (2) Sterling Heilig's 1901 Century interview as digested by Scientific American -- journalist, INSIDER-LEANING (authorized), which also records Col. Renard's critical view; (3) Popular Mechanics 1910 -- journalist/publisher; (4) Henrique Lins de Barros 2003 -- scholar, admiring in tone but citing L'Aérophile, La Nature, commission minutes and Le Matin; (5) NASM curatorial record. SELF perspective (counted once): My Airships, plus his statements quoted by Heilig and Lins de Barros. NON-SELF BEHAVIOURAL sources: Scientific American 1906 and 1907, Lins de Barros, Popular Mechanics, NASM. No row rests on self material alone. Per the Roster40 calibration lesson all rows are at confidence <= 0.72 and scores <= 80. EPISODE USE: 1898-1901 airship accidents and rebuilds (No. 1, No. 2, 13 Jul and 8 Aug 1901, Sept 1901) -> persistence; 8 Aug 1901 continuing with a leaking valve -> risk_tolerance; 8 Aug 1901 fall followed by No. 6 in 22 days -> execution_speed (and the rebuild sequence in persistence); 1906-07 sequence 14-bis/No. 15/No. 16/No. 18/No. 19 -> persistence and experimentation; tree and rafter motor tests, dynamometer silk test, 14-bis suspended tests and Sept-Oct 1906 modifications -> experimentation; No. 19 built in two weeks and the 23 Oct 1906 same-day bolt repair -> execution_speed; 'Brazil' balloon against the builders' objections -> independent_thinking (its silk test only -> experimentation); petroleum motor under hydrogen against advice -> independent_thinking and risk_tolerance; piano-wire suspension and 1907 tail reversal -> independent_thinking; 11 May 1899 ascent in rain, 19 Oct 1901 altitude choice, 12 Nov 1906 power cut -> risk_tolerance; 20 Sep 1898 kite-boys rescue, 12 Jul 1901 ladder repair, tricycle-engine adaptation (NASM) -> resourcefulness; prize pledge and distribution, Santos-Dumont prize founded with his 1900 award, Demoiselle plans released 1909-10, no patent applications by 1901 -> impact_motivation; Deutsch prize timing dispute and resignation from the Aero Club, criticism of the 24-hour notice rule -> conflict_tolerance. ROWS CONSIDERED AND LEFT UNSCORED: analytical_rigor (evidence genuinely mixed: careful weight calculations and dynamometer measurements in his own account and Heilig's claim that he made his own calculations, against Renard's 1901 view, a schoolmate's recollection of indifference to theory, Scientific American's 1906 efficiency critique and Lins de Barros's remark that in 1907 he seemed not yet to understand the problem -- not resolved, so omitted); detail_orientation (post-accident attention to valves and his surveillance checklist come only from My Airships); creative_originality (design novelty is real but the evidence would largely re-use the episodes already counted twice); autonomy_need (worked as sole pilot, built his own station, founded no company -- inference only); mastery_orientation (his rule of many solo spherical ascents first is self-reported); social_assertiveness and persuasiveness (public demonstrations, e.g. landing on the Champs-Élysées in 1903, could be read many ways); curiosity (childhood material is self-only); collaboration (his four long-serving aides are known from his own account). EXCLUDED ON PURPOSE: his illness (multiple sclerosis is suggested by some biographers), nervous exhaustion, depression, sanatorium stays and his death in 1932, and every reading of personality from them; his mother's death and Augusto Severo's death; his 1925-26 letters on aerial bombing and his July 1932 message supporting the São Paulo constitutionalist movement (zero-politics rule and health context); the 1903 offer of his airships to the French War Ministry (not needed and military-political); private life and dress; honours, the Legion of Honour, monuments, the Brazilian government's 1901 award and prize money amounts as evidence of traits; fame and 'first to fly' claims. PRIORITY: the Wright-versus-Santos-Dumont priority question is not adjudicated; rows describe the 1906 Bagatelle trials only as dated events observed by Aero Club representatives, as reported by Scientific American, which itself noted earlier powered flights claimed by others. CONFLICTS REPORTED, NOT ADJUDICATED: (a) split of the Deutsch prize: My Airships says 75,000 francs to the Prefect of Police for the poor and the balance to his employees; Lins de Barros reports an advance pledge of half to the poor and half to his mechanics/workmen; (b) the timing dispute: My Airships says the controversy came from his men not catching the guide rope; Lins de Barros says his mechanics could not stop the airship and he was under a minute late; (c) whether he ever held patents: Heilig (1901) says he never applied for one and Popular Mechanics (1910) says the Demoiselle was unencumbered by patent rights, but Le Matin (1909, via Lins de Barros) has him put 'the patents of invention' at public disposal -- the rows therefore say only that he released the plans and did not restrict building. KNOWN LIMITS: Hoffman's Wings of Madness, Kelsey and Brazilian-language biographies (Villares, Jorge, Costa) were not available as full text; contemporary French press is known only through Lins de Barros; no adversarial source beyond Renard's remark and Scientific American's technical skepticism was read. The profile is deliberately limited to 8 rows. PORTRAIT: Commons 'File:Alberto Santos Dumont - 1-13675-0000-0000, Acervo do Museu Paulista da USP.jpg' (one of two Wikidata P18 images). Wikitext read via action=raw: {{Art Photo}} with artwork license {{Museu Paulista license|PD|old}}, which expands to {{PD-old-100-1923}}; photographer of the reproduction José Rosael/Hélio Nobre/Museu Paulista da USP; categories 'Santos Dumont Collection' and 'Alberto Santos-Dumont in 1903'; no third-party or copyright-claim notice. Commons API extmetadata: LicenseShortName 'Public domain', Copyrighted False. The linked Wikidata item Q97989182 records: photograph, inception 1903, creator Giovanni Sarracino (Italian photographer working in Brazil), collection Museu Paulista, inventory 1-13675-0000-0000, depicts Q313211. Rights basis: a 1903 studio cabinet photograph (the print carries the embossed studio mark 'Sarracino, S. Paulo'); Brazilian law protects photographs for 70 years from publication, and in the US the work is public domain whether treated as published before 1931 or as an unpublished work by an author of unknown death date (120 years from creation expired end of 2023). LIMIT: the photographer's death date is not recorded and the Museu Paulista online catalogue record itself was not opened (only the catalogue home page responded), so the basis rests on the museum's own PD release through the GLAM partnership and the 1903 date. Original 2916x4134 RGB JPEG downloaded with curl and a User-Agent, opened with Pillow, downscaled (LANCZOS) to 1129x1600, JPEG q85, no crop (part of another person's sleeve is visible at the right edge), no upscaling; saved as public/portraits/alberto-santos-dumont-museupaulista-1903.jpg. Viewed: half-length studio portrait of a slight man with moustache, high collar, striped suit and soft Panama-style hat, consistent with the depicts statement and his well-known appearance. Kind: likeness. REJECTED ALTERNATIVE: the other P18 image, François Flameng's painted portrait in the Museu Nacional d'Art de Catalunya, was not used because a photograph from life with a museum PD release was available and the painting's reproduction rights were not checked. No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Portrait rights-verified."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alberto-santos-dumont-museupaulista-1903.jpg",
+    "width": 1129,
+    "height": 1600,
+    "source": "Museu Paulista da Universidade de São Paulo, Coleção Alberto Santos Dumont (inventory 1-13675-0000-0000), digitized by José Rosael/Hélio Nobre; via Wikimedia Commons (GLAM partnership Museu Paulista / NeuroMat / Wikimedia Brasil)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-100-1923",
+    "attribution": "G. Sarracino (studio), São Paulo, 'Alberto Santos Dumont', photograph, 1903; Domínio público / Acervo Museu Paulista (USP)",
+    "attributionUrl": "https://www.wikidata.org/wiki/Q97989182",
+    "creator": "Giovanni Sarracino (studio photographer, São Paulo)",
+    "date": "1903",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alberto_Santos_Dumont_-_1-13675-0000-0000,_Acervo_do_Museu_Paulista_da_USP.jpg"
+  }
+}

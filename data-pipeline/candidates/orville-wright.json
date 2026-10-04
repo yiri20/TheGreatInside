@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "orville-wright",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Orville Wright",
+    "wikidataId": "Q494455",
+    "birthYear": 1871,
+    "deathYear": 1948,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "engineer"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "systematic_thinker",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_owright_wikidata",
+      "kind": "wikidata",
+      "title": "Orville Wright (Q494455) -- verified live via wbgetentities (2026-09-26): en label 'Orville Wright', description 'American aviation pioneer (1871–1948)', P569 19 Aug 1871, P570 30 Jan 1948, citizenship United States (Q30), instance of human, ko label '오빌 라이트', P18 'Orville Wright 1905-crop.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q494455"
+    },
+    {
+      "id": "src_owright_kelly1943",
+      "kind": "biography",
+      "title": "Fred C. Kelly, The Wright Brothers: A Biography Authorized by Orville Wright (New York: Harcourt, Brace, 1943), Internet Archive full text (wrightbrothersbi00kell_1) -- INSIDER-LEANING authorized biography: the preface states Orville read the manuscript and corrected it, with his secretary Mabel Beck supplying documents; partisan on the Smithsonian dispute. Read locally: Ch. III 'Printing -- and Bicycles' (pp. 29-44) in full; Orville-specific passages of Chs. V-VI (1901 starch-box tunnel test, 1902 rudder explanation, 1903 motor letters, propeller arguments, shaft trip, telegram); Chs. XIII-XVI Orville passages (1908 Kitty Hawk, Fort Myer Sept 1908 and June-July 1909 trials, Berlin/Potsdam 1909); Ch. XVII 'In Aviation Business' (pp. 268-286), Ch. XVIII 'Patent Suits' (pp. 287-299) and Ch. XIX 'Why the Wright Plane Was Exiled' (pp. 300-333, which reprints the Smithsonian's 24 Oct 1942 Abbot statement verbatim) in full. Its evaluative language about the Smithsonian and Curtiss is not used as evidence.",
+      "url": "https://archive.org/details/wrightbrothersbi00kell_1"
+    },
+    {
+      "id": "src_owright_renstrom_chronology",
+      "kind": "archive",
+      "title": "Arthur G. Renstrom (Library of Congress reference librarian and member of the team that edited The Papers of Wilbur and Orville Wright), Wilbur & Orville Wright: A Chronology Commemorating the Hundredth Anniversary of the Birth of Orville Wright (Library of Congress 1975; reissued NASA SP-2003-4532, Monographs in Aerospace History 32, with foreword by NASM curator Peter Jakab), Internet Archive full text (NASA_NTRS_Archive_20040000754) -- documentary chronology (non-self, archival/scholar) compiled from the Wright Papers, diaries, patents and press; neutral dated entries. Read locally the entries for 1881-1903, 1908-1909 (Fort Myer, Berlin), 1910-1918 (Wright Company, school, stabilizer tests Dec 1912-Dec 1913, Curtiss suit and 1915 affidavits, sale of the company, 1916 laboratory, 1917-18 consulting), 1920-1925 (NACA appointment, split flap and Navy Report 184, toy patent), 1925-1948 (Smithsonian dispute, 1928 shipment of the Flyer, Abbot's 1928 publication and Orville's rejection, 1942-43 settlement, death). Its note that his health was a consideration in the 1915 sale is not used as trait evidence.",
+      "url": "https://archive.org/details/NASA_NTRS_Archive_20040000754"
+    },
+    {
+      "id": "src_owright_early_history_self",
+      "kind": "archive",
+      "title": "Orville Wright, 'How We Made the First Flight' (Flying, December 1913) and Orville and Wilbur Wright, 'The Wright Brothers' Aeroplane' (Century Magazine, September 1908), as reprinted in The Early History of the Airplane (Dayton-Wright Airplane Co., 1922), Project Gutenberg eBook #25420 -- SELF perspective (Orville's own first-person account; the 1908 article is joint). Read in full: 1903 motor letters and building their own engine, chain-friction sandbag test after Chanute's objection, propeller-shaft failures and the tire-cement fix, his trip to Dayton for new shafts, the coin toss, the decision to fly in a 24-27 mph wind on 17 Dec 1903 and his account of the flights.",
+      "url": "https://www.gutenberg.org/ebooks/25420"
+    },
+    {
+      "id": "src_owright_crouch_it1987",
+      "kind": "press",
+      "title": "Tom D. Crouch (NASM curator; author of The Bishop's Boys, 1989), 'The Feud Between the Wright Brothers and the Smithsonian', Invention & Technology vol. 2 no. 3, Spring 1987 (inventionandtech.com) -- SCHOLAR's account (non-self; written from inside the Smithsonian, i.e. by a historian of the institution Orville opposed, yet largely critical of Walcott) drawing on Smithsonian archives, Orville's correspondence, Abbot's letters and Lindbergh's 1939 diary (third-party assessment). Fetched with curl and read in full: the 1910 Walcott exchange, the 1914 Hammondsport tests, Orville's silence until 1921 and his stated reason, the 1925 announcement and 1928 loan, the 1933-35 Lindbergh/Abbot mediation, Orville's refusal of Abbot's committee and his 15 Mar 1935 specification of the required correction, Kelly's 1942 brokering, the 1937 will and the unpublicised 8 Dec 1943 letter recalling the Flyer.",
+      "url": "https://www.inventionandtech.com/node/85327"
+    },
+    {
+      "id": "src_owright_nasm_flyer",
+      "kind": "institution",
+      "title": "National Air and Space Museum, '1903 Wright Flyer' collection-object record (A19610048000), long description (curatorial text) -- institution/scholar (non-self). Fetched with curl and read in full. Used only for: Orville's 1916 repair and reassembly of the Flyer for MIT, his supervision of mechanic Jim Jacobs for later displays, and the 1926-27 refurbishment before the London loan.",
+      "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000"
+    },
+    {
+      "id": "src_owright_court_1913_1914",
+      "kind": "institution",
+      "title": "Wright Co. v. Herring-Curtiss Co., 204 F. 597 (W.D.N.Y., 21 Feb 1913, Hazel J.) and 211 F. 654 (2d Cir., 13 Jan 1914, per curiam), Caselaw Access Project (static.case.law) -- court records (non-self, adversarial proceeding). Read both opinions: the patent granted 22 May 1906 to Orville and Wilbur, the finding of pioneer status and infringement, and the sufficiency of the notice given to Curtiss. Used only to corroborate the dated course of the litigation, not for character.",
+      "url": "https://static.case.law/f/211/cases/0654-01.json"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_owright_crouch_it1987, src_owright_renstrom_chronology, src_owright_kelly1943, src_owright_court_1913_1914 | 1908-1942 | scholar (NASM curator) incl. Lindbergh's 1939 diary + archival chronology + authorized biography reprinting the Smithsonian's own 1942 concession + court records] In July 1908 Orville wrote to Glenn Curtiss that the June Bug's movable wing-tip surfaces fell under claim 14 of the Wright patent and offered a licence for exhibition use (letter quoted by Kelly); the courts later held the notice to Curtiss sufficient (204 F. 597; 211 F. 654, Jan 1914), and Renstrom records his 1915 affidavits in the second Curtiss suit on the rebuilt Langley machine. From 1921 he publicly contested the Smithsonian's claim that the Langley Aerodrome had been 'capable' of flight: he announced in 1925 and carried out on 31 Jan 1928 the loan of the 1903 Flyer to the Science Museum, London (Renstrom; Crouch), rejected Secretary Abbot's 1928 publication as not settling the issue (Renstrom, 30 Sep 1928), declined Abbot's 1934 committee of three officials as all connected with the Smithsonian, and held to his 15 Mar 1935 terms until the Smithsonian's 24 Oct 1942 statement (Crouch; Kelly reprints it). Independent and adversarial support: Abbot's statement itself 'sincerely regret[s]' the earlier claims, and Lindbergh wrote in 1939 that 'the fault lies primarily with the Smithsonian people. But Orville Wright is not an easy man to deal with' (Crouch). Many dated instances over three decades from independent sources; dual_edged because the Flyer stayed abroad for twenty years and the dispute absorbed both sides (Crouch)."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_owright_renstrom_chronology, src_owright_crouch_it1987, src_owright_kelly1943, src_owright_early_history_self | 1903-1942 | archival chronology + scholar + authorized biography + self] Several separately dated efforts carried through repeated setbacks. In Nov-Dec 1903, after the propeller shafts failed twice and the sprockets kept working loose, he took the shafts back to Dayton himself and returned on 11 Dec to fly (own 1913 account; Renstrom's 5 Nov entry; Kelly). The Fort Myer Army trials interrupted in Sept 1908 were resumed and completed by him in June-July 1909 (Renstrom, Kelly). His automatic stabilizer, taken to Kitty Hawk in Oct 1911, went through tests on 6-8 Dec 1912 and 13 Jan 1913 before the 17-flight demonstration of 31 Dec 1913 (Renstrom; Kelly). In the Smithsonian dispute he pursued a published correction from 1921 to 1942 through the 1925 letter to Chief Justice Taft, the London loan, the 1934 Lindbergh-Abbot exchanges and the 1935 proposal (Crouch; Renstrom; Kelly). Several independent sources and dated instances; kept below 80 because much of the engineering record is shared with Wilbur or told in insider/self accounts, and the Smithsonian episode is also used for conflict_tolerance."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_owright_kelly1943, src_owright_crouch_it1987, src_owright_early_history_self | 1903-1942 | authorized biography reprinting the Smithsonian's adversarial acceptance + scholar + self] Orville's case against the Hammondsport tests (first set out in his 1915 affidavit, per Kelly) was reduced to a parallel-column comparison of the 1903 Langley Aerodrome and the 1914 machine -- 35 numbered items (wing size, camber, guy-post positions in inches, rib construction, rudder, carburettor, float positions, weight, centre of gravity) with page and plate citations to Langley's own Memoir. He sent it to Lindbergh in 1934 (Crouch), and the Smithsonian's 24 Oct 1942 statement printed it and said 'The Institution accepts Dr. Wright's statement as correct in point of facts' (reprinted in Kelly) -- an adversary's acceptance of its accuracy. Crouch also records Orville's 1935 conditions set out 'in clear and precise terms' and Kelly's worry, while writing the authorized biography, that Orville thought he was not getting the story down 'with the clarity and precision he required'. Earlier instances: the 1903 rig that automatically timed each flight and counted propeller revolutions (own 1913 account, joint 'we'), and his check of a Zeppelin's reported speed with a stopwatch and telephone poles in Sept 1909 (Kelly). One well-corroborated central instance plus supporting ones; kept below 80."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_owright_kelly1943, src_owright_early_history_self, src_owright_renstrom_chronology, src_owright_nasm_flyer | 1901-1908 | authorized biography + self, with archival/curatorial corroboration of the 1902 tail change] Kelly (vetted by Orville) records that in Sept 1901, uneasy that Wilbur's Chicago lecture publicly disputed the accepted air-pressure tables, Orville built a starch-box test rig with a glass top to compare a curved and a flat surface in an air current, found the tables in error at the angles tested but recognised the test was incomplete, and the brothers cut the harshest criticism from the printed lecture until fuller tunnel data existed. In Oct 1902 he worked out why the fixed tail made the glider 'well-dig' and proposed making it movable (Kelly; Renstrom's 3 Oct 1902 entry and the NASM Flyer record corroborate the tail change, not its authorship). In autumn 1903, when Chanute warned that chain transmission usually lost about 20 per cent, the brothers measured the loss with a chain hung over a sprocket and sand-bag weights and confirmed their 5 per cent estimate (Orville's own 1913 account). In Sept 1908 he identified the cracked new propeller blade as the cause of the Fort Myer failure from the broken parts (Kelly). Several instances, but mostly from insider or self accounts and partly joint work, so strong_inference at moderate confidence."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_owright_renstrom_chronology, src_owright_kelly1943 | 1910-1924 | archival chronology + authorized biography] After 1909 he kept building and flight-testing devices himself: Kelly says he personally tested every new device used on a Wright plane until 1915; Renstrom records the wheel trials of July 1910, soaring-glider experiments at Kitty Hawk in Oct 1911 (a 9 min 45 s soaring record on 24 Oct), tests of his automatic stabilizer on 6-8 Dec 1912 and 13 Jan 1913, the 31 Dec 1913 demonstration of 17 flights before an Aero Club of America committee (the last with seven turns hands-off), and a new anti-dive elevator device announced in Apr 1914. In 1916 he built his own laboratory with a three-foot wind tunnel, and in 1920 developed a split flap with James Jacobs, patented in 1924 (No. 1,504,663) although a 1922 Navy Bureau of Aeronautics report had judged it of no value (Renstrom). Many dated instances from an archival chronology, corroborated in part by Kelly; not higher because the post-1916 laboratory work is thinly documented in what was read."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_owright_kelly1943, src_owright_early_history_self, src_owright_renstrom_chronology | 1884-1903 | authorized biography + self + archival chronology] Kelly records that as a boy printer Orville made an engraving tool from a pocket-knife spring, built a press on an old gravestone bed, and when a job ran out of type cast a stereotype plate from an encyclopedia description so the type could be reused; in 1888 he built a larger press from firewood, junk-yard iron and the folding-top bars of the family buggy, which he then used to launch the West Side News (1 Mar 1889; Renstrom corroborates the paper and his printing business, not the construction details). In Nov 1903, when the propeller sprockets would not stay fast, the brothers melted bicycle tire cement into the threads, which held (Orville's own 1913 account). The 1901 starch-box tunnel (Kelly) is a further improvised instrument. Several instances, but the construction details come only from the authorized biography and his own account, so moderate confidence."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_owright_kelly1943, src_owright_renstrom_chronology, src_owright_early_history_self, src_owright_nasm_flyer | 1902-1924 | authorized biography + archival chronology + self + curatorial record] His own work was repeatedly done in partnership. In Oct 1902 he brought his tail explanation to Wilbur at breakfast and Wilbur proposed linking the rudder and wing-warping controls (Kelly); Orville later described their propeller arguments, in which 'each had changed to the other's original position' (quoted by Kelly; self). On 14-17 Dec 1903 they tossed a coin for the first attempt and then alternated as pilot (own account; NASM). In 1908 they divided the demonstrations, Wilbur in France and Orville at Fort Myer (Kelly). He trained the Wright Company's first civilian pilots at Montgomery and Huffman Prairie in 1910 (Kelly; Renstrom), and developed the 1920 split flap jointly with James Jacobs, sharing the 1924 patent (Renstrom). Several independent instances; Wilbur-only episodes are not used here."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_owright_early_history_self, src_owright_kelly1943, src_owright_renstrom_chronology | 1903-1915 | self + authorized biography + archival chronology] On 17 Dec 1903 the brothers decided to fly in a measured 24-27 mph wind, having 'realized the difficulties of flying in so high a wind' but judging that the slower landing speed would partly offset them (Orville's own account; he piloted the first flight). On 30 Jul 1909 he flew the Army speed test with Lt. Foulois cross-country to Shuter's Hill and back over ground Kelly describes as lacking suitable landing places (Renstrom records the flight), and Kelly says he personally flight-tested every new device until 1915. Against this, at Tempelhof in Sept 1909 he deferred to Hildebrandt's wish not to fly in a heavy wind (Kelly). A real but moderate lean, partly inherent in any early test pilot's work; the 1908 Fort Myer accident is NOT used as evidence (the cause was a cracked propeller, and injury is not a trait signal)."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_owright_kelly1943, src_owright_renstrom_chronology | 1909-1948 | authorized biography + archival chronology] Kelly says the brothers' aim was to be free of business to do research, and that in 1914 Orville bought out all other Wright Company shareholders except Robert Collier 'as a step toward getting entirely out of business', selling to a syndicate in Oct 1915. Renstrom records the sale, a consulting agreement ended in Aug 1916, and his building his own office, workshop and laboratory in 1916, where he worked independently for the rest of his life. Renstrom also notes that his health was a primary consideration in the sale, so the motive is mixed; the health factor is not used as evidence. Kept at inference level with a moderate score because the stated motive comes from the authorized biography."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오빌 라이트"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-09-26T00:00:00Z",
+    "updatedAt": "2026-09-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-09-26) for Q494455 returned en label 'Orville Wright', description 'American aviation pioneer (1871–1948)', P569 19 Aug 1871, P570 30 Jan 1948, citizenship United States (Q30), instance of human, ko label '오빌 라이트', P18 'Orville Wright 1905-crop.jpg'; no kowiki sitelink exists (Korean Wikipedia covers him in the joint article '라이트 형제'), so the Wikidata ko label '오빌 라이트' is used for localization. SLUG CHECK: no data-pipeline/candidates/orville-wright.json and no public/portraits/*orville* existed before this run; grep of src/data/people/*.ts for 'Orville' found only mentions inside Wilbur Wright's entry (roster3.ts comments, editorial.ts); no collision. CLASSIFICATION: occupations inventor and engineer, fields engineering and technology, impactDomains technological/engineering/innovation, tags innovator/systematic_thinker/self_taught and archetypes technical_innovator/independent_creator all follow the existing wilbur-wright.json production entry (all ids verified in src/core/i18n/en.ts); self_taught also fits Orville (he left high school without a diploma, Kelly; Renstrom). ERA: set to 20th_century rather than Wilbur's 19th_century because Orville's documented career runs 1903-1948 and every scored row rests on 1901-1942 behaviour (same reasoning as the alexander-graham-bell.json era decision); nationality US, region north_america as Wilbur. EVIDENCE READ: 7 source records (1 orientation, 6 substantive), all fetched with curl to scratch_r41/work/orville-wright/ and read locally: Kelly's authorized biography (1943, IA full text; Chs. III, XVII-XIX in full, Orville passages of Chs. V-VI and XIII-XVI); Renstrom's LOC/NASA chronology (entries 1881-1948); Orville's own 'How We Made the First Flight' (1913) and the joint 1908 Century article (Gutenberg); Crouch's 1987 Invention & Technology article (in full); the NASM 1903 Flyer object record; the 1913 and 1914 Wright v. Herring-Curtiss opinions (Caselaw Access Project). Also opened but NOT recorded because they carry no usable Orville behaviour or were too weak: an FAA history-intern article on the Signal Corps (secondary, thin); archive.org copies of McFarland's Papers (1953/1998 reprint), Crouch's The Bishop's Boys, Orville's How We Invented the Airplane (1953/1988) and Loening's Takeoff into Greatness are lending-restricted (no full text) and were not read. INDEPENDENT PERSPECTIVES: (1) Fred C. Kelly, authorized biographer -- INSIDER-LEANING (Orville vetted the manuscript) and partisan on the Smithsonian question; (2) Arthur G. Renstrom, LOC reference librarian, documentary chronology from the Wright Papers (archival, neutral in tone); (3) Tom D. Crouch, NASM curator/historian writing from the Smithsonian's own archives (scholar; critical of Walcott, and quoting Lindbergh's 1939 diary as a third-party assessment critical of Orville's manner); (4) the Smithsonian itself as ADVERSARY: Secretary Abbot's 24 Oct 1942 statement (reprinted verbatim in Kelly, described in Crouch) conceding the earlier misstatements and accepting Orville's list 'as correct in point of facts'; (5) federal court opinions, 1913-1914 (institutional, adversarial proceeding); (6) NASM curatorial record. SELF perspective (counted once): Orville's 1913 account and the joint 1908 article, plus Orville's letters and remarks as quoted by Kelly and Crouch. NON-SELF BEHAVIOURAL sources: Renstrom, Crouch, Kelly, NASM, court records. No row rests on self material alone; resourcefulness, analytical_rigor and autonomy_need rest mainly on Kelly plus self and are kept at confidence <= 0.58 and scores <= 72 per the Roster40 calibration lesson. EPISODE USE: July 1908 notice letter to Curtiss, 1913-14 decisions and 1915 affidavits -> conflict_tolerance only; Smithsonian dispute conduct 1921-1942 (Taft letter, London loan, rejection of the 1928 publication and the 1934 committee, 1935 terms, 1942 acceptance) -> conflict_tolerance and persistence; the 35-item Langley 1903/1914 comparison (1915 affidavit, 1934 list, accepted 1942) treated as a distinct work product -> detail_orientation only; 1903 automatic flight-recording rig and 1909 Zeppelin speed check -> detail_orientation only; Nov-Dec 1903 shaft/sprocket failures and Dayton trip -> persistence, plus the tire-cement fix -> resourcefulness; 1901 starch-box tunnel -> analytical_rigor and resourcefulness; Oct 1902 tail explanation -> analytical_rigor and collaboration; 1903 chain-friction test -> analytical_rigor only; Sept 1908 failure diagnosis -> analytical_rigor only; 1908-09 Fort Myer trials resumed and completed -> persistence, 1909 cross-country speed test -> risk_tolerance; stabilizer work 1911-1914 -> experimentation and persistence; 1910 wheel trials, 1911 soaring, 1916 laboratory, 1920 split flap -> experimentation (split flap also collaboration); personally testing devices to 1915 -> experimentation and risk_tolerance; youthful press-building and stereotype plate -> resourcefulness only; propeller arguments, coin toss/alternating pilots, 1908 division of work, 1910 pilot training -> collaboration only; 17 Dec 1903 decision to fly in high wind -> risk_tolerance only; 1914 buy-out, 1915 sale, 1916 own laboratory -> autonomy_need only. ROWS CONSIDERED AND LEFT UNSCORED: social_assertiveness (only the remark, via Crouch, that he stayed aloof from the dispute until 1921 so as not to seem to attack a dead man, and Kelly's anecdotes about his plain dress -- too thin); leadership_drive (president of the Wright Company 1912-15 and flying-school instructor, but he withdrew from business soon after; mixed); independent_thinking and belief_updating (the rejection of published air-pressure tables is joint work led publicly by Wilbur; his 1921 change of view about Walcott is self-reported); mastery_orientation and deep_focus (long laboratory career is documented only as dates); achievement_drive and competitiveness (would rest on outcomes and on the patent fight, already used); curiosity (Kelly's childhood anecdotes and his own attribution to home environment -- insider/self only). EXCLUDED ON PURPOSE: his injuries in the 17 Sep 1908 Fort Myer crash, Lt. Selfridge's death, the later-discovered hip fractures and his chronic pain; his health as a factor in the 1915 sale; his 1925-48 illnesses and death; Wilbur's death and any bereavement reading (including Loening's reported view that Orville 'seemed somewhat lost', seen only in search snippets and not read); family and domestic life (Katharine, the Hawthorn Hill household); the 1928 Hoover-for-President committee and any political activity (zero-politics rule); his 1942 remark on Bergdoll; honours, medals, the Collier Trophy and the monuments as evidence; Kelly's evaluative language about Walcott, Zahm and Curtiss ('fraudulent', 'propaganda'); and every Wilbur-only episode (1901 Chicago lecture delivery, 1908 Le Mans and Hudson-Fulton flights, Wilbur's patent-court testimony, Wilbur's negotiations in Europe). CONFLICTS REPORTED, NOT ADJUDICATED: (a) the London loan decision: Kelly says Orville decided in 1923, Crouch says he announced it in spring 1925, Renstrom dates confirming statements to 30 Apr-2 May 1925 and the shipment to 31 Jan 1928; (b) Kelly says Orville sent the list of Langley changes to Abbot via Kelly in Jan 1942 (per Abbot's text), Crouch says Orville first sent a list to Lindbergh in 1934 based on Griffith Brewer's 1921 paper; (c) the 1901 starch-box test is known only from Kelly (Orville-vetted) in what was read. KNOWN LIMITS: loc.gov HTML (Wright Papers essays) was not used; only the loc.gov JSON item record for the portrait was fetched. McFarland's Papers, Crouch's Bishop's Boys, How We Invented the Airplane, Charles Taylor's 1948 Collier's recollection and Loening's memoirs were not available as full text and were not read; the Fort Myer Army accident board report was not read. The profile is deliberately limited to 9 rows, all at or below 0.70 confidence and 78 score. PORTRAIT: Commons 'File:Orville Wright 1905-crop.jpg' (Wikidata P18), a retouched crop (cropped, desaturated, artifacts removed; featured picture) of 'File:Orville Wright 1905.jpg'. Wikitext read via action=raw: Information template, Source Library of Congress {{LOC-image|id=ppprs.00680}}, Date 1905, Author 'Orville Wright and Wilbur Wright (credited as photographers)', license {{PD-US-expired}} (original file page: {{PD-US}}); no third-party or copyright-claim notice. Commons API extmetadata: LicenseShortName 'Public domain'. UPSTREAM CHECK: the loc.gov JSON record for item 2001696610 (fetched directly, not the Cloudflare-checked HTML page) gives title 'Orville Wright, age 34, head and shoulders, with mustache', 1905, call number LC-W86- 89, reproduction number LC-DIG-ppprs-00680, 'Attributed to Wilbur and/or Orville Wright', 'Forms part of: Glass negatives from the Papers of Wilbur and Orville Wright', rights 'No known restrictions', unrestricted true. Basis: a photograph by the Wright brothers themselves, whose authors died in 1912 and 1948 -- public domain in the US whether treated as published before 1931 (Commons tag) or as unpublished (life + 70 years expired 1 Jan 2019), and LOC states no known restrictions. Original 3582x4477 RGB JPEG downloaded with curl and a User-Agent, opened with Pillow, downscaled (LANCZOS) to 1280x1600, JPEG q85, no further crop, no upscaling; saved as public/portraits/orville-wright-loc-1905.jpg. Viewed: head-and-shoulders portrait of a man with a full moustache, wing collar and striped tie, consistent with LOC's title identifying Orville (Wilbur was clean-shaven). Kind: likeness. No alternative was needed; the uncropped 'Orville Wright 1905.jpg' (same negative, with film artifacts) was not preferred. KOREAN NAME: '오빌 라이트' is the Wikidata ko label (no standalone Korean Wikipedia article). No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Portrait rights-verified."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/orville-wright-loc-1905.jpg",
+    "width": 1280,
+    "height": 1600,
+    "source": "Library of Congress Prints and Photographs Division, Glass negatives from the Papers of Wilbur and Orville Wright (LC-W86-89; LC-DIG-ppprs-00680), via Wikimedia Commons (retouched crop)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+    "attribution": "Attributed to Wilbur and/or Orville Wright, 'Orville Wright, age 34, head and shoulders, with mustache', glass negative, 1905; Library of Congress Prints and Photographs Division (LC-DIG-ppprs-00680), no known restrictions",
+    "attributionUrl": "https://www.loc.gov/item/2001696610/",
+    "creator": "Wilbur Wright and/or Orville Wright (attributed)",
+    "date": "1905",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg"
+  }
+}

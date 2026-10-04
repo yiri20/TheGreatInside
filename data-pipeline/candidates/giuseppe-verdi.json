@@ -1,0 +1,219 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "giuseppe-verdi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Giuseppe Verdi",
+    "aliases": [
+      "Giuseppe Fortunino Francesco Verdi"
+    ],
+    "wikidataId": "Q7317",
+    "birthYear": 1813,
+    "deathYear": 1901,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "detail_oriented",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_verdi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Giuseppe Verdi (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '주세페 베르디' confirmed via the Wikidata kowiki sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Giuseppe_Verdi"
+    },
+    {
+      "id": "src_verdi_wikidata",
+      "kind": "wikidata",
+      "title": "Giuseppe Verdi (Q7317) -- verified live via wbgetentities (2026-10-02): en label 'Giuseppe Verdi', description 'Italian opera composer (1813–1901)', ko label '주세페 베르디', P569 values 1813-10-09 / 1813-10-10 (plus an apparently erroneous 1813-04-10), died 1901-01-27, citizenship Q165040 and Q172579 (Kingdom of Italy), P18 three images incl. the Boldini 1886 portrait, kowiki '주세페 베르디'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q7317"
+    },
+    {
+      "id": "src_verdi_dbi",
+      "kind": "biography",
+      "title": "Fabrizio Della Seta, 'VERDI, Giuseppe Fortunino Francesco', Dizionario Biografico degli Italiani, vol. 98 (Rome: Istituto dell'Enciclopedia Italiana / Treccani, 2020; online text updated), read in full in Italian 2026-10-02 (c. 50,000 characters, extracted from the page's embedded data) -- MODERN SCHOLARLY perspective, independent of the period memoirs; Della Seta is a Verdi scholar (author of the MGG Verdi article). Used for: his warning that early-life material depends on later recollections and is 'circonfusa da un'aura di leggenda'; the 1832 Conservatory refusal and private study with Lavigna; from Ernani (1844) reserving by contract the right to approve the performers; the 'composer-dramatist' role -- after Nabucco never setting a pre-existing libretto, planning situations by acts, scenes and numbers, libretto drafting often taking longer than the music; the exceptional effort in the composition and staging of Macbeth (1847); his reading (Shakespeare, Schlegel, de Stael recommended to Piave in 1845, Manzoni) and contacts with painters and sculptors; Re Lear libretto drafts 1849-56 never realised; the Naples 1858 'lungo braccio di ferro' over Una vendetta in domino / Un ballo in maschera; the break with La Scala 1845-69 'perche insoddisfatto della qualita delle esecuzioni'; Aida staged by him in person in several cities 1872-80; the 1871 Florimo letter and its context; the 1879-86 Otello process 'with a slowness and care he had never given any other opera', interrupted for the Boccanegra (1881) and Don Carlo (1884/1886) revisions; Falstaff (1893) and its later retouches; the Villanova hospital (1888), the Casa di riposo per musicisti (built 1889-99, opened 1902) and his will. Political career (1861 deputy, 1874 senator) and Risorgimento reception were read but are not scored.",
+      "url": "https://www.treccani.it/enciclopedia/giuseppe-fortunino-francesco-verdi_(Dizionario-Biografico)/"
+    },
+    {
+      "id": "src_verdi_pougin",
+      "kind": "biography",
+      "title": "Arthur Pougin, Verdi: An Anecdotic History of His Life and Works, trans. with notes by James E. Matthew (London: H. Grevel, 1887; French original 1886), archive.org OCR full text (Cornell copy cu31924022318830) -- CONTEMPORARY JOURNALIST/CRITIC perspective: Pougin was a Paris music critic who did not claim personal intimacy with Verdi; he compiles press reports (Gazette Musicale etc.), printed letters and the recollections of Verdi's librettists, and is admiring and explicitly anecdotal. Read: contents; ch. VIII pp. 132-157 (Rigoletto and the Venice censorship 1850-51 -- 'Le Roi s'amuse or nothing', the score written and orchestrated in forty days; Verdi's practice of choosing subjects and sketching the libretti; the 'La donna e mobile' secrecy anecdote; the Traviata failure of 6 March 1853 with his note to Muzio, the singers' disconcertion at the music's novel character, its revision and 1854 recovery; the Gazette Musicale's 1857 change of view on his 'effort of transformation'); ch. IX pp. 179-186 (Un ballo in maschera: the Naples 1858 standoff as reported by the Gazette Musicale of 4 April 1858 and a fuller press account, the Rome compromise and first night 17 Feb. 1859, his complaint about the female singers); ch. XI pp. 196-215 (Don Carlos rehearsals 1866-67 incl. the Gazette Musicale report that 'Verdi himself went through his part with each of the interpreters'; Aida -- Camille du Locle's letter of 28 March 1880 on the genesis of the libretto, written 'under the eye of the maestro, who took a large share in the work'); ch. XIV pp. 267-277 (Sant'Agata: a long quotation from the Aida librettist Antonio Ghislanzoni's Reminiscenze artistiche describing his 1868 visit -- routine, farm management, reading -- and Pougin's own account of the daily timetable and charities); ch. XV pp. 278-291 (letters printed in full: to Pedrotti 1 Jan. 1875 and to the Padua theatre commission 6 June 1884 declining to appear in public; to Florimo, Jan. 1871, declining the Naples Conservatory; on the diapason, 10 Feb. 1884; to Cencetti, July 1873, on stage direction; to Filippi, 1865; the Times note of Oct. 1886 that the Otello singers were to study their parts at Sant'Agata under his supervision). The ch. V account of the 1840 bereavements and the 'near-abandonment then Nabucco' story was read and deliberately NOT used.",
+      "url": "https://archive.org/details/cu31924022318830"
+    },
+    {
+      "id": "src_verdi_roosevelt",
+      "kind": "biography",
+      "title": "Blanche Roosevelt, Verdi: Milan and 'Othello' (London: Ward and Downey, 1887), archive.org OCR full text (verdimilanothell00roos) -- JOURNALIST EYEWITNESS perspective: Roosevelt (an American singer turned writer) met Verdi in Paris in 1875 and wrote these letters from Milan in Jan.-Feb. 1887 during the Otello rehearsals and premiere; admiring of the music but openly critical of the man in places ('Theatrical directors in Italy and elsewhere have complained a great deal about Verdi's hardness'), and partly gossip-based. Read: pp. 82-93 (her 1875 Paris call on Verdi -- his remark that Paris was too noisy for work while Sant'Agata's solitude helped him; her description, partly from hearsay, of Sant'Agata, his farming, daily routine, punctual fulfilment of contracts, support of the librettist Piave, the 1887 condition that La Scala also give Aida if it wanted Otello, and a planned charitable foundation); pp. 112-115 (Otello rehearsals closed to outside critics; his reported doubts, relayed second-hand from a Ricordi); pp. 177-179 (the costume designer Edel's workroom: 'Verdi's orders are peremptory'); pp. 229-230 (Boito's report of the dress rehearsal); pp. 247-249 (his wish to return to Sant'Agata after the premiere); p. 203 (his music 'required being sung as it was written'). Hearsay passages are marked as such where used.",
+      "url": "https://archive.org/details/verdimilanothell00roos"
+    },
+    {
+      "id": "src_verdi_monaldi",
+      "kind": "biography",
+      "title": "Gino Monaldi, Verdi 1839-1898 (Turin: Fratelli Bocca, 1899), archive.org OCR full text (verdi1839189800mona_0), read in Italian -- CONTEMPORARY CRITIC/IMPRESARIO perspective: Monaldi (1847-1932) was an Italian music critic and theatre manager who corresponded with Verdi and met him at Montecatini; admiring. Read: the index/chapter summaries; ch. VIII pp. 79-82 (the Florence Macbeth of 1847, including the long first-person recollection of the soprano Marianna Barbieri-Nini, the first Lady Macbeth: more than a hundred piano and orchestra rehearsals, three months on the sleepwalking scene, the duet rehearsed 'more than 150 times' and a 151st time just before the dress rehearsal, and the cast's resentment of his 'esagerate esigenze' -- an INSIDER PERFORMER account, retrospective by decades and not independently dated, so its numbers are treated as approximate); ch. XXVIII pp. 262-266 (Verdi's letters to Monaldi of 3 Dec. 1890 and 18 Jan. 1892 on Falstaff, and Monaldi's own conversation with him at Montecatini in July 1891, where he said he was working two hours a day on the orchestration).",
+      "url": "https://archive.org/details/verdi1839189800mona_0"
+    },
+    {
+      "id": "src_verdi_self_letters",
+      "kind": "archive",
+      "title": "Verdi's OWN letters -- SELF perspective, one perspective, never sole support for a row. Main edition read: I copialettere di Giuseppe Verdi, ed. Gaetano Cesari and Alessandro Luzio (Milan, 1913), archive.org OCR (icopialettere00verd), read in Italian by line ranges: to Salvadore Cammarano, Paris, Nov. 1848 (pp. 60-63: requests for added scenes and verses in La battaglia di Legnano; his objections to Eugenia Tadolini as Lady Macbeth for Naples and detailed staging and orchestration instructions); to Colini, Nov. 1848 (p. 63); to the Turin competition committee, 5 Dec. 1880, and to Arrigo Boito, 11 Dec. 1880, on revising Simon Boccanegra (pp. 315-316); to Domenico Morelli, 24 Sept. 1881, on Otello costumes (p. 316); to Giulio Ricordi, 25 Dec. 1882 (footnote p. 328), and to the mayor of Villanova and to Frignani, 16 Feb. 1885 (pp. 328-329), on the Villanova hospital; to Boriani, president of the Villanova hospital, 22 April 1891 (pp. 367-368); to the mayor of Parma, 29 April 1891; to Hans von Bulow, 14 April 1892; to Giulio Ricordi on the Falstaff production terms, 1892 (pp. 377-378; date line illegible in the OCR, placed between April and Sept. 1892) and 18 Sept. 1892 (pp. 379-382); to the architect 'Camillo' [Boito; surname garbled in the OCR] on the Casa di riposo, 3 April 1893 (pp. 398-399); to Giulio Ricordi, 8 and 10 May 1896 (pp. 407-408). Also letters printed in Pougin 1887 ch. XV (Florimo 1871, Pedrotti 1875, Cencetti 1873, Padua 1884, diapason 1884) and in Monaldi 1899 (3 Dec. 1890, 18 Jan. 1892). The Werfel and Stefan English selection (1942) was not available as text and was not read.",
+      "url": "https://archive.org/details/icopialettere00verd"
+    },
+    {
+      "id": "src_verdi_casaverdi",
+      "kind": "institution",
+      "title": "Casa di Riposo per Musicisti - Fondazione Giuseppe Verdi, Milan (casaverdi.it) -- INSTITUTIONAL perspective (the foundation Verdi created; interested in his memory, but documentary in content). Pages read in full 2026-10-02: 'Istituzione' (foundation deed of 16 Dec. 1899; the house opened, at his explicit request, only after his death; first nine guests on 10 Oct. 1902; his will assigning capital and royalties) and 'La costruzione e le origini' (his letter to Giulio Ricordi of Oct. 1889 on buying the land 'senza idea fissa'; that he was reluctant to give small subsidies and loans but wanted to programme help 'con precisione assoluta', being informed of his income 'fino all'ultimo centesimo'; the 1895 meeting with the architect Camillo Boito and the building contract of 16 April 1895; his insistence on 'riposo' and 'Ospiti' rather than 'ricovero'; costs exceeding the estimate).",
+      "url": "https://www.casaverdi.it/storia/storia-di-casa-verdi/la-costruzione-e-le-origini/"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_verdi_dbi, src_verdi_pougin, src_verdi_self_letters | 1844-1893 | modern scholar + contemporary critic (with a collaborator's letter) + self] Della Seta (DBI) records that from Ernani (1844) he reserved by contract the right to approve the performers, and that after Nabucco he never set a libretto written by someone else in advance, treating librettists as executors of dramatic plans he had already fixed. Pougin (1886) says he chose every subject and drew up the sketch of each libretto himself, and prints Camille du Locle's letter of 28 March 1880 saying the Aida libretto was written scene by scene 'under the eye of the maestro, who took a large share in the work'. In Jan. 1871 he declined the direction of the Naples Conservatory, citing his 'love of an independent life' (own letter to Florimo, printed by Pougin). In 1892 he set Ricordi conditions for Falstaff -- no obligation to give it where others wished, the right to replace singers he found insufficient at rehearsals -- asking 'simply to be master of my own property' (own letters; self used as corroboration). Dual-edged: the same control produced the conflicts scored under conflict_tolerance."
+    },
+    "perfectionism": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_verdi_monaldi, src_verdi_dbi, src_verdi_pougin | 1847; 1845-1869; 1853-54; 1859; 1865-1894 | insider performer (via critic) + modern scholar + contemporary critic] The soprano Barbieri-Nini, the first Lady Macbeth (Florence 1847), recalled more than a hundred piano and orchestra rehearsals because he was 'never content with the execution', and the duet rehearsed a 151st time on the night of the dress rehearsal (recollection printed by Monaldi 1899; numbers approximate). Della Seta (DBI) records that he kept away from La Scala from 1845 to 1869 because he was dissatisfied with the quality of its performances, staged Aida himself in several cities (1872-80), and retouched Falstaff after its 1893 premiere for Venice, Rome and Paris; he reworked Traviata after its 1853 failure (Pougin, DBI), Macbeth for Paris (1865) and Don Carlo (1872, 1884, 1886). Pougin reports that after the Rome Ballo premiere (1859) he complained bitterly about the female singers despite the opera's success. Dual-edged: Barbieri-Nini says the cast resented his 'exaggerated demands'."
+    },
+    "detail_orientation": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_verdi_monaldi, src_verdi_self_letters, src_verdi_pougin, src_verdi_dbi | 1847; Nov. 1848; 1866; Sept. 1892 | insider performer (via critic) + self + contemporary press + modern scholar] Barbieri-Nini (Monaldi 1899) recalls three months of morning and evening work on the sleepwalking scene alone, imitating people who talk in their sleep, 'articulating words, as the Maestro told me, almost without moving the lips', and his insistence that the dress rehearsal be done in costume; Della Seta (DBI) notes the exceptional effort he put into Macbeth's staging. In his own letter to Cammarano (Nov. 1848) about the Naples Macbeth he specified the voice wanted for Lady Macbeth, muted strings, a fully dark stage, eight real men rather than puppets for the apparition of the kings, and an under-stage band of bass clarinets, bassoons and contrabassoons only. The Gazette Musicale (26 Aug. 1866, quoted by Pougin) reported that he went through his part with each Don Carlos singer himself. His letter of 18 Sept. 1892 to Ricordi lists libretto misprints and sets out where the screen must stand in Falstaff Act II and how the garden set must allow characters to hide and appear (self, corroboration)."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_verdi_pougin, src_verdi_dbi, src_verdi_roosevelt, src_verdi_self_letters | 1850-51; Jan.-Feb. 1858; 1887; 1892 | contemporary critic + modern scholar + journalist eyewitness + self] When the Venice censors banned the Le Roi s'amuse libretto (1850), Pougin says he held to it 'tooth and nail' -- 'that or nothing'. In Naples in Jan.-Feb. 1858 he refused to adapt his music to a substitute libretto despite a formal protest and a damages claim from the royal theatres (Gazette Musicale, 4 April 1858, and a fuller press account quoted by Pougin); Della Seta (DBI) calls it a 'lungo braccio di ferro' that ended with the opera withdrawn. Roosevelt (1887), not uncritical, writes that theatre directors 'complained a great deal about Verdi's hardness' and that in 1887 he insisted, over the La Scala box-holders' protests, that Aida be given if Otello was to be. In 1892 he rejected the baritone Maurel's demand for exclusive rights in Falstaff (own letter). Counter-evidence kept in view: he accepted censor-driven changes in both cases (the King became a Duke in Rigoletto; Ballo was moved to Boston for Rome in 1859), so the score stays below 80."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verdi_pougin, src_verdi_dbi, src_verdi_self_letters, src_verdi_monaldi | 1853-54; 1857-1881; 1849-1893 | contemporary critic + modern scholar + self + critic] After La Traviata failed at the Fenice on 6 March 1853 (his note to Muzio the next day: 'Time will decide'), it was revised and restaged in Venice in May 1854 with success (Pougin, DBI). Simon Boccanegra, coolly received in 1857, was revised with Boito and given at La Scala in 1881; in his letter to Boito of 11 Dec. 1880 he wrote that reasons 'of profession' prevented him from abandoning the attempt. Della Seta records Re Lear libretto drafts with Cammarano and Somma from 1849 to 1856, never realised, and describes Otello as answering a wish to tackle Shakespeare that he had never given up; to Monaldi (3 Dec. 1890) he wrote that he had wanted to write a comic opera for forty years. Not scored from his early setbacks of 1838-40, which are deliberately excluded (bereavement)."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verdi_pougin, src_verdi_roosevelt, src_verdi_monaldi | 1868; 1880s; July 1891 | collaborator eyewitness (Ghislanzoni, quoted by Pougin) + journalist + critic] The librettist Ghislanzoni, describing his 1868 stay at Sant'Agata, saw him out at five in the morning walking the fields and farms, with 'not a moment of respite'; Pougin gives the same fixed day (rising at five, inspection of the works ordered, bells for meals, post at two, bed at ten). Roosevelt (1887, partly hearsay) describes the same five o'clock start with writing in the library, and says that apart from one serious illness he was never known to fail to fulfil a contract. Monaldi heard him say at Montecatini in July 1891, at 77, that his habit was to work two hours a day on the Falstaff orchestration. Moderate confidence: mostly friendly witnesses describing a man who set his own timetable."
+    },
+    "planning_orientation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verdi_dbi, src_verdi_pougin, src_verdi_casaverdi, src_verdi_self_letters | 1844-1886; 1889-1896 | modern scholar + contemporary critic + institution + self] Della Seta (DBI) describes his libretto correspondence as planning the situations distributed across acts, scenes and musical numbers before composition, the libretto stage often taking much longer than the music; Pougin says he drew out the sketch and the situations of each libretto for the poet to versify. For the Casa di riposo, the foundation's history records that he wanted to programme his help 'con precisione assoluta', being told his income 'to the last cent'; in his own letter of 3 April 1893 to the architect he asked for a firm, minimal estimate first because he would not start building and then suspend it for lack of funds, and in May 1896 he sold shares to deposit the whole construction sum in advance (letters to Ricordi). Counter-evidence: in Oct. 1889 he wrote that he had bought the land 'without a fixed idea' of its use."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verdi_dbi, src_verdi_casaverdi, src_verdi_self_letters, src_verdi_roosevelt | 1871; 1882-1891; 1889-1902 | modern scholar + institution + self + journalist] In Dec. 1882 he explained to Ricordi that he was building a small hospital at Villanova because the poor of his commune who fell ill had to be taken to Piacenza and 'often die on the road' (own letter); Della Seta dates its foundation to 1888, and in April 1891 he was still dealing with frictions among its staff (letter to the hospital president). He then built the Casa di riposo per musicisti in Milan (1889-99) for aged musicians in poverty, founded it by deed on 16 Dec. 1899, asked that it open only after his death so as not to be thanked, and left it his royalties (Casa Verdi foundation; DBI). Roosevelt reported such a plan in 1887 (hearsay). In 1871 he served on the government commission on reforming music schools (DBI). Scored from these sustained, hands-on projects, not from his wealth."
+    },
+    "aesthetic_sensitivity": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verdi_self_letters, src_verdi_dbi | Nov. 1848; 1845; 1881 | self + modern scholar] In Nov. 1848 he objected to Eugenia Tadolini as Lady Macbeth precisely because she sang 'to perfection' with a beautiful voice, asking instead for a harsh, stifled, dark voice and for the two key numbers to be acted and declaimed rather than sung (own letter to Cammarano). Della Seta (DBI) records his contacts with painters and sculptors (Bartolini, Dupre, Gemito, Morelli) and that in 1845 he took the idea for Attila's meeting with Pope Leo from Raphael's Stanze; in Sept. 1881 he discussed Otello's and Iago's costumes with Morelli (own letter). Rests partly on his own letters, hence moderate confidence."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verdi_dbi, src_verdi_pougin | 1829-1870s; 1868 | modern scholar + collaborator eyewitness (via critic)] Della Seta (DBI) argues that, despite his own 'peasant' self-image, he built a wide and up-to-date culture: Latin authors at school, Manzoni from sixteen, Shakespeare read in translation from youth (by his own account 'read and reread continually'), Schlegel's lectures, and de Stael's De l'Allemagne, which he told Piave to read for Attila in 1845; a private library survives at Sant'Agata. Ghislanzoni (1868, quoted by Pougin) saw him turn from music to poetry and to the history of philosophy and wrote that there was 'no side of human knowledge' his mind did not throw itself into; he also applied English and French agricultural methods to the estate. Two sources, one a friendly collaborator; moderate score."
+    },
+    "execution_speed": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_verdi_pougin, src_verdi_dbi, src_verdi_monaldi | 1851; 1852-53; 1866-67; 1879-1893 | contemporary critic + modern scholar + critic] Mid-career he worked fast: Pougin reports that the Rigoletto score was written and orchestrated in forty days once the censors had cleared the libretto (1851), that La Traviata was written almost concurrently with Il trovatore, and that he 'usually took four months to write an opera'; Ghislanzoni (quoted by Pougin) says Don Carlos was completed in six months. Late in life the pattern changed: Della Seta describes Otello (1879-86) as proceeding with a slowness and care he had never given any other opera, and Monaldi notes that by 1891 the time when an opera was 'the feverish occupation of a few months' was long past. Scored on the dominant mid-career pattern; neutral impact."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verdi_pougin, src_verdi_roosevelt, src_verdi_dbi | 1853; 1857; 1887; 1893 | contemporary critic and press + journalist + modern scholar] At the 1853 Traviata premiere, Pougin writes, the singers were disconcerted by the 'novel, deep and melancholic character' of the music, so different from what he had accustomed them to, and the piece was played in contemporary dress. The Gazette Musicale, long hostile, wrote in Jan. 1857 that Rigoletto and Il trovatore showed 'a laudable effort of transformation' in his style (quoted by Pougin). Roosevelt (1887) notes that his music 'required being sung as it was written', unlike the embellished practice of his predecessors. Della Seta describes a 'constant will to update' his language in forms, harmony and orchestration across the whole career, ending in Falstaff (1893), which Verdi himself called a lyric comedy 'resembling no other' (letter to Monaldi, 1890). No 'greatest' claim relied on."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_verdi_pougin, src_verdi_dbi | 1850-53; 1863-1871 | contemporary critic + modern scholar] He chose subjects that censors and audiences found objectionable: Hugo's Le Roi s'amuse, held to in 1850 although it was expected to 'arouse all the censures' (Pougin), and Dumas's La Dame aux camelias, a contemporary courtesan story, taken up after seeing the play in Paris (Pougin; Della Seta notes the 'audacity of the subject'). In the 1860s-70s, against the young Scapigliati and the spreading Wagner vogue, he publicly defended the Italian vocal tradition while, as Della Seta shows, continuing to absorb French and German techniques. Moderate: subject choice was also commercially driven, and the episodes are few."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_verdi_self_letters, src_verdi_dbi | Dec. 1880; 1871-1893 | self + modern scholar] In his letter of 11 Dec. 1880 he told Boito that his criticisms of the Boccanegra libretto were 'giuste' and agreed to rework the Senate scene, while declining Boito's larger new act as too much work. Della Seta notes that, despite largely late conservative and nationalist declarations ('Tornate all'antico', 1871), his music kept taking up current European developments. Against this, the Venice and Naples standoffs show him holding positions under heavy pressure. Thin and partly self-reported; low confidence."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-02T00:00:00Z",
+    "updatedAt": "2026-10-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-02) for Q7317 returned en label 'Giuseppe Verdi', description 'Italian opera composer (1813–1901)', it 'compositore, drammaturgo e politico italiano (1813-1901)', ko label '주세페 베르디', P569 values 1813-10-09 and 1813-10-10 (plus an apparently erroneous 1813-04-10; the DBI gives 10 Oct. 1813, baptism 11 Oct.), died 1901-01-27, citizenship Q165040 and Q172579 (Kingdom of Italy), P18 three images including the Boldini 1886 pastel, enwiki 'Giuseppe Verdi', kowiki '주세페 베르디' (used for displayNames ko-KR). SLUG COLLISION CHECK: no giuseppe-verdi file in data-pipeline/candidates before this cycle (only giuseppe-garibaldi), no Verdi person in src/data/people (grep hits are unrelated uses of the word 'verdict'), no Verdi portrait in public/portraits. CLASSIFICATION PRECEDENT: occupation composer and field music follow johann-sebastian-bach and clara-schumann; era 19th_century as clara-schumann (b. 1819) and paul-cezanne; nationalityCodes IT and regionCode southern_europe as galileo-galilei and michelangelo; impact domains artistic + cultural as bach and clara-schumann. Tags perfectionist, detail_oriented, independent and archetypes creative_creator, independent_creator are existing ids in en.ts; no new tags or occupations. EVIDENCE READ (6 substantive source records plus 2 orientation; texts downloaded to scratch_r41/work/giuseppe-verdi and read locally by grep/line ranges): Fabrizio Della Seta's Dizionario Biografico degli Italiani entry (2020, read in full, Italian); Pougin 1887 English edition, chs VIII, IX, XI, XIV, XV; Blanche Roosevelt 1887, pp. 82-93, 112-115, 177-179, 203, 229-230, 247-249; Monaldi 1899, ch. VIII (Barbieri-Nini's Macbeth recollection) and ch. XXVIII (Falstaff letters and the 1891 conversation); the Copialettere (1913) letters listed in src_verdi_self_letters; Casa Verdi foundation pages 'Istituzione' and 'La costruzione e le origini'. Verdi's own letters (Copialettere, plus those printed by Pougin and Monaldi) are recorded as ONE SELF source and never support a row alone. NOT READ / NOT USED: Werfel and Stefan, Verdi: The Man in His Letters (1942) -- the archive.org item has no text layer (404), so not read; Crowest, Verdi: Man and Musician (1897) -- downloaded but not used (a later English compilation largely dependent on Pougin); Werfel's novel (fiction, excluded by instruction); Budden, Phillips-Matz, Walker (not freely available); Pizzi 1901 and the Muzio-Barezzi letters (not read). INDEPENDENT PERSPECTIVES: (1) Verdi himself (letters) -- self, one perspective; (2) Fabrizio Della Seta, modern scholar (DBI 2020), independent of the period memoirs; (3) Arthur Pougin, contemporary Paris critic and compiler (with embedded insider testimony from the librettists Ghislanzoni (1868 visit) and du Locle (1880 letter), and contemporary press reports); (4) Blanche Roosevelt, journalist eyewitness in Paris 1875 and Milan 1887, partly critical of Verdi's 'hardness'; (5) Gino Monaldi, Italian critic and impresario, with the performer Marianna Barbieri-Nini's insider recollection of the 1847 Macbeth rehearsals (retrospective, numbers approximate) and his own 1891 conversation; (6) the Casa di Riposo per Musicisti foundation (institutional). NON-SELF behavioural sources: DBI, Pougin, Roosevelt, Monaldi/Barbieri-Nini, Casa Verdi. Adversarial or critical voices read: Roosevelt's remarks on his hardness, Barbieri-Nini's description of the cast's resentment ('tiranno', 'esagerate esigenze'), and the Gazette Musicale's earlier hostile reviews quoted by Pougin. EPISODE USE (no episode supports more than two rows): contractual approval of performers from Ernani (DBI) -> autonomy_need; libretto control and planning (DBI, Pougin, du Locle letter) -> autonomy_need, planning_orientation; Naples Conservatory refusal 1871 (self, via Pougin) -> autonomy_need; Falstaff production terms and the Maurel dispute 1892 (self) -> autonomy_need, conflict_tolerance; Florence Macbeth rehearsals 1847 (Barbieri-Nini via Monaldi; DBI) -> perfectionism, detail_orientation; La Scala break 1845-69 and personal stagings of Aida (DBI) -> perfectionism; Rome Ballo 1859 complaint about the singers (Pougin) -> perfectionism; Traviata failure 1853 and 1854 revision (Pougin, DBI) -> perfectionism, persistence; later revisions (Macbeth 1865, Don Carlo, Falstaff retouches) -> perfectionism; Cammarano letter Nov. 1848 on the Naples Macbeth (self) -> detail_orientation, aesthetic_sensitivity; Don Carlos rehearsals 1866 (Gazette Musicale via Pougin) -> detail_orientation; Falstaff staging letter 18 Sept. 1892 (self) -> detail_orientation; Rigoletto censorship 1850-51 (Pougin) -> conflict_tolerance, independent_thinking; Naples Ballo standoff 1858 (Pougin, DBI) -> conflict_tolerance; Aida-with-Otello condition 1887 and directors' complaints (Roosevelt) -> conflict_tolerance; Boccanegra revision and the Boito letter of 11 Dec. 1880 -> persistence, belief_updating; Re Lear drafts 1849-56 and the long Shakespeare ambition (DBI) -> persistence; letter to Monaldi of 3 Dec. 1890 -> persistence (forty-year wish for a comic opera), creative_originality ('resembling no other'); Ghislanzoni's 1868 Sant'Agata visit (via Pougin) -> discipline (routine), curiosity (reading, agricultural methods); his separate statement that Don Carlos was completed in six months -> execution_speed; Roosevelt's routine description -> discipline; Montecatini 1891 two hours a day (Monaldi) -> discipline; Casa di riposo 1889-1902 (Casa Verdi, DBI, self) -> planning_orientation, impact_motivation; Villanova hospital 1882-91 (self, DBI) -> impact_motivation; visual-arts contacts, Raphael idea 1845, Morelli letter 1881 (DBI, self) -> aesthetic_sensitivity; reading (DBI) -> curiosity; Rigoletto in forty days, Traviata/Trovatore, Don Carlos in six months, slow Otello (Pougin, DBI, Monaldi) -> execution_speed; Traviata premiere reception 1853 and the Gazette Musicale 1857 (Pougin) -> creative_originality; choice of the Dumas subject (Pougin, DBI) -> independent_thinking (treated as distinct from the 1853 failure-and-revision episode, which supports perfectionism and persistence). ROWS CONSIDERED AND LEFT UNSCORED: collaboration (long partnerships with Piave, Ricordi, Faccio and above all Boito 1879-93 are real, but he dominated his librettists and the evidence is mixed between partnership and direction -- held back rather than guessed); social_assertiveness (he refused public appearances and honours -- letters to Pedrotti 1875, Padua 1884, the Turin committee 1880 -- yet was forceful in rehearsal; contradictory); leadership_drive (his direction of productions -- 'Verdi's orders are peremptory', the Cencetti letter of 1873 asking for two directors with full authority -- overlaps autonomy_need and detail_orientation; not separately scored); adaptability (accepted censor changes in 1851 and 1859 and wrote for the Paris Opera, but also refused changes in Naples; mixed); deep_focus (preference for Sant'Agata's solitude for work, Roosevelt 1875 -- slight); risk_tolerance, competitiveness, achievement_drive, opportunity_sensing, persuasiveness, resourcefulness, decisiveness, analytical_rigor, systems_abstraction, intuitive_synthesis, ambiguity_tolerance, cross_domain_range (farming is recorded but not scored as cross-domain work), mastery_orientation (the 1873 string quartet written 'to show his command of classical forms' is a single DBI remark), proactive_agency, experimentation (genre ventures noted but folded into creative_originality) -- insufficient on-point evidence. EXCLUDED ON PURPOSE: the deaths of his first wife and two children (1838-40) and the 'near-abandonment of composing, then Nabucco' story, which rests largely on his own later account (Pougin ch. V; DBI notes the legendary aura of the early material) -- not used for any row; all health material (his throat trouble 1866, illness in 1892, his 1901 death); his relationship with Giuseppina Strepponi, the marriage crisis and Teresa Stolz (private); the quarrel with Mariani (interpersonal, not clarified); his political career (1861 deputy, 1874 senator), Mazzinian and Risorgimento views, the 'Viva VERDI' acronym and the Inno popolare (zero-politics); fees and wealth (used only as context, never as evidence); Roosevelt's hearsay about his personality ('inexpansive', 'strict with others') is not scored as such. No 'greatest' claims are made. KNOWN LIMITS: Pougin and Monaldi are admiring compilers; Barbieri-Nini's rehearsal figures are a performer's recollection decades later; Roosevelt mixes eyewitness with gossip (marked in the rationales); several rows lean partly on his own letters (marked as corroboration). The Copialettere OCR is garbled in places (one Falstaff letter's date and the architect's surname), which is recorded in the source title. The main modern scholarship used is a single reference-work entry (DBI); Budden and Phillips-Matz were not read. Confidence is kept at or below 0.72 and scores below 85 throughout. PORTRAIT: Giovanni Boldini (1842-1931), Ritratto di Giuseppe Verdi, pastel on paper, 65 x 54 cm, inscribed 'Parigi 9 April 1886 Boldini', Galleria Nazionale d'Arte Moderna e Contemporanea, Rome (inv. 464; Wikidata Q20091566: creator Boldini, collection GNAM, inception 1886, copyright status public domain). Drawn from life in Paris (dated inscription). Commons file 'Boldini - Ritratto di Giuseppe Verdi (1886) Google Art Project.jpg' (Google Arts & Culture asset FgEQF8uoob7fhg; upstream page checked: La Galleria Nazionale, 1886, type pastel). Wikitext read 2026-10-02: {{Artwork}} via {{From Google Cultural Institute}}, license {{PD-Art|PD-old-auto-expired|deathyear=1931}}; no third-party or copyright-claim template; extmetadata Copyrighted False. Artist died 1931, so the work is public domain (70 years p.m.a. in the EU/Italy; created and inscribed 1886); faithful 2D reproduction under PD-Art. Original 4449 x 5404 px (11.9 MB) downloaded and opened with PIL; downscaled to 1317 x 1600 (JPEG q85), no crop (the artist's inscription at top right is part of the work and kept); visually confirmed as Verdi in top hat and white scarf. kind likeness. REJECTED: 'Giuseppe Verdi xilografia.jpg' (Wikidata P18; an unattributed wood engraving, less reliable provenance and weaker likeness); 'Giuseppi Verdi by Ferdinand Mulnier c1870.jpg' (Wikidata P18; a photograph -- not checked in detail since the museum-identified Boldini pastel with a clear PD-Art basis was available). No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Portrait rights-verified."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "주세페 베르디"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/giuseppe-verdi-boldini-1886.jpg",
+    "width": 1317,
+    "height": 1600,
+    "source": "Giovanni Boldini, Portrait of Giuseppe Verdi (Ritratto di Giuseppe Verdi), pastel on paper, 65 x 54 cm, inscribed 'Parigi 9 April 1886', Galleria Nazionale d'Arte Moderna e Contemporanea, Rome (inv. 464; Wikidata Q20091566); reproduction from Google Arts & Culture via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Art",
+    "attribution": "Giovanni Boldini, Portrait of Giuseppe Verdi, 1886, Galleria Nazionale d'Arte Moderna, Rome; faithful reproduction (Google Arts & Culture) of a public-domain work; downscaled",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Boldini_-_Ritratto_di_Giuseppe_Verdi_(1886)_Google_Art_Project.jpg",
+    "creator": "Giovanni Boldini",
+    "date": "1886",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Boldini_-_Ritratto_di_Giuseppe_Verdi_(1886)_Google_Art_Project.jpg"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "max-planck",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Max Planck",
+    "aliases": [
+      "Max Karl Ernst Ludwig Planck"
+    ],
+    "wikidataId": "Q9021",
+    "birthYear": 1858,
+    "deathYear": 1947,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "theorist",
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_planck_wikipedia",
+      "kind": "wikipedia",
+      "title": "Max Planck (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '막스 플랑크' confirmed via the Wikidata kowiki sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Max_Planck"
+    },
+    {
+      "id": "src_planck_wikidata",
+      "kind": "wikidata",
+      "title": "Max Planck (Q9021) -- verified live via wbgetentities (2026-10-03): en label 'Max Planck', description 'German theoretical physicist (1858–1947)', de 'deutscher Physiker, Nobelpreisträger (1858–1947)', ko label '막스 플랑크' (ko description '독일의 물리학자 (1858~1947)'), P569 1858-04-23, P570 1947-10-04 (a second P570 value 1947-12-04 is also present), P18 'Max Planck.png', enwiki 'Max Planck', kowiki '막스 플랑크', dewiki 'Max Planck'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q9021"
+    },
+    {
+      "id": "src_planck_sci_autobiography",
+      "kind": "archive",
+      "title": "Max Planck, 'A Scientific Autobiography' (Wissenschaftliche Selbstbiographie, written 1946-47, publ. Leipzig 1948), in Scientific Autobiography and Other Papers, tr. Frank Gaynor (New York: Philosophical Library, 1949), pp. 13-51, read in full from an archive.org OCR text (community upload 'complete-work-of-max-planck'; the lending-library copies are access-restricted); cross-checked against the German text in Vorträge, Reden, Erinnerungen (2001), pp. 55-72 -- SELF. Read: dissertation 1879 ignored (Helmholtz probably did not read it, Kirchhoff disapproved, Clausius did not answer letters or receive him) and 'such experiences could not deter me' from continuing entropy work; Gibbs priority; Göttingen prize 1884-85 (second prize, attributed by him to his siding with Helmholtz against Weber); Arrhenius dispute; controversy with Ostwald/Helm/Mach over Energetics ('All my sound arguments fell on deaf ears'); the 'new scientific truth' remark; his own early hostility to atomism and Boltzmann's sarcasm over Zermelo's paper; the radiation work: Wien-law assumption abandoned after Lummer-Pringsheim and Rubens-Kurlbaum measurements, formula of 19 Oct. 1900, Rubens's overnight check, statistical derivation; 'My futile attempts to fit the elementary quantum of action somehow into the classical theory continued for a number of years'; immediate interest in Einstein's 1905 relativity paper; correspondence with Sommerfeld (phase-space quatrains).",
+      "url": "https://archive.org/details/complete-work-of-max-planck"
+    },
+    {
+      "id": "src_planck_laue_1947",
+      "kind": "biography",
+      "title": "Max von Laue, Memorial Address delivered in the Albani Church, Göttingen, 7 Oct. 1947, printed as the Introduction to Planck, Scientific Autobiography and Other Papers (1949), pp. 7-12, read in full (same archive.org text) -- NON-SELF, INSIDER: Planck's pupil and later close colleague (Nobel 1914). Read: that his first papers were not read even by Helmholtz, Kirchhoff and Clausius, 'Yet, he continued on his way'; that deriving the radiation law forced him to 'fall back on methods of the atom theory, which he had been wont to regard with certain doubts' and to venture a hypothesis whose audacity was not clear 'not even to him'; 58 years of membership of the German Physical Society with 'selfless work in the most diverse administrative posts', several terms as chairman; teaching at Berlin for more than forty years. Funeral oratory by an admiring pupil; the bereavement passage was read and is NOT used.",
+      "url": "https://archive.org/details/complete-work-of-max-planck"
+    },
+    {
+      "id": "src_planck_einstein_1918",
+      "kind": "archive",
+      "title": "Albert Einstein, address for Planck's sixtieth birthday at the Berlin Physical Society (1918, 'Motive des Forschens'), as printed in English as the 'Prologue by Albert Einstein' to Planck, Where Is Science Going? (New York: Norton, 1932), pp. 7-12, archive.org OCR full text (whereissciencego00plan_0, York University copy), read in full -- NON-SELF, FIRSTHAND COLLEAGUE (Berlin colleague since 1914). Read: Einstein's account that the longing for a 'preestablished harmony' is 'the inexhaustible source of that patience and persistence with which we have seen Planck devoting himself to the most ordinary questions arising in connection with physical science, when he might have been tempted into other ways which led to more attractive results'; that colleagues traced this to Planck's 'extraordinary personal gifts of energy and discipline' (Einstein disagreed about the motive); the Mach-Planck controversy. An admiring occasional speech; used only for the observed sustained-effort pattern, not for the motive claims.",
+      "url": "https://archive.org/details/whereissciencego00plan_0"
+    },
+    {
+      "id": "src_planck_murphy_1932",
+      "kind": "press",
+      "title": "James Murphy, 'Introduction: Max Planck, a biographical sketch', in Planck, Where Is Science Going? (1932), pp. 13-38, archive.org OCR (whereissciencego00plan_0), read in full -- JOURNALIST/TRANSLATOR who visited Planck and Einstein in 1932 (non-self but admiring and secondary). Read: Planck's public stand against positivism and on causality in lectures and essays, and Murphy's report of a Göttingen dinner (Weyl, Born, Franck) discussing 'his intransigence on the causation principle'; Sommerfeld's quoted tribute ('in polemical questions he has always been chivalrous to his opponent'; trusted arbiter of both sides when the German Physical Society was reorganized) and the Sommerfeld-Planck quatrains; climbing the Jungfrau at seventy-two. Murphy makes factual errors (says Planck 'experimented' with cavity radiation; garbles his son's post) so only the quoted Sommerfeld material and the 1932 dinner report are used, at low weight. Bereavement passages read and NOT used.",
+      "url": "https://archive.org/details/whereissciencego00plan_0"
+    },
+    {
+      "id": "src_planck_nobel_lecture",
+      "kind": "archive",
+      "title": "Max Planck, Nobel Lecture, 2 June 1920, 'The Genesis and Present State of Development of the Quantum Theory' (English text from Nobel Lectures, Physics 1901-1921), nobelprize.org, read in full -- SELF. Read: 'the long and ever tortuous path'; his initial 'naively charming' expectation that classical electrodynamics would suffice and his avoidance of Lorentz's electron theory ('I did not quite trust the electron hypothesis'); Boltzmann's objection to his irreversibility hypothesis; abandoning his belief that the Wien-based relation was the general law once Lummer-Pringsheim and Rubens-Kurlbaum deviations appeared; 'some weeks of the most strenuous work of my life'; 'a fresh attempt at proof is urgently required'; his statement that experiment decided for the quantum and the credit given to Einstein, Bohr, Sommerfeld and the experimenters; the remaining 'monstrous' features of Bohr's theory for a classically trained physicist and 'the old framework must somehow or other be burst asunder'.",
+      "url": "https://www.nobelprize.org/prizes/physics/1918/planck/lecture/"
+    },
+    {
+      "id": "src_planck_nobel_presentation",
+      "kind": "award_body",
+      "title": "A. G. Ekstrand, Presentation Speech for the 1918 Nobel Prize in Physics (delivered 1 June 1920; prize announced 13 Nov. 1919), and the Nobel Foundation's biographical note (from Nobel Lectures, Physics 1901-1921), nobelprize.org, both read in full -- INSTITUTIONAL. Used only for achievement facts (radiation formula of 1900, the constants, the prize 'for his work on the establishment and development of the theory of elementary quanta', career dates); supports no trait row.",
+      "url": "https://www.nobelprize.org/prizes/physics/1918/ceremony-speech/"
+    },
+    {
+      "id": "src_planck_meitner_1958",
+      "kind": "biography",
+      "title": "Lise Meitner, 'Max Planck als Mensch', lecture of 24 April 1958 (Berlin, Planck centenary), Die Naturwissenschaften 45 (1958), pp. 406-408, reprinted in Max Planck, Vorträge, Reden, Erinnerungen, ed. H. Roos and A. Hermann (Berlin: Springer, 2001), pp. 77-83, read in full in German from an archive.org OCR text (MaxPlanckVortraegeRedenErinnerungen) -- NON-SELF, FIRSTHAND INSIDER: his student from 1907, his assistant c.1912-15 and a friend for forty years. Read: his lectures' clarity and outward reserve; his answer 'Ich will es Ihnen morgen beantworten' to her physics questions as assistant, which she ties to his wish to stand fully behind everything he said; the Bad Nauheim relativity session (she dates it '1921, I believe'; it was Sept. 1920), where Planck, who had told her he would do anything not to lose Einstein, chaired and cut off an opponent who raised the newspaper article ('das gehöre nicht zur Sache'); his first reaction to problems 'always toward moderation' and his attachment to tradition, combined with understanding for other lines of thought; few research pupils (Laue, Bothe, Reiche, Lamla) and a reluctance to intervene strongly in pupils' intellectual development; a 'very systematic' daily schedule (half an hour of piano at the same time daily) and systematic walks covering the surroundings of Berlin by a fixed plan over several months. Passages on the 1914 manifesto letter to Lorentz, the 1935 lecture, the Haber memorial and family deaths were read and NOT used for any row (politics / bereavement).",
+      "url": "https://archive.org/details/MaxPlanckVortraegeRedenErinnerungen"
+    },
+    {
+      "id": "src_planck_hermann_2001",
+      "kind": "archive",
+      "title": "Armin Hermann, 'Max Plancks wissenschaftliche Leistung', in Vorträge, Reden, Erinnerungen (Springer, 2001), pp. 213-221, read in full in German (same archive.org text) -- SCHOLAR (historian of physics). Read: Planck's 'Akt der Verzweiflung' and 'friedlich und bedenklichen Abenteuern abgeneigt' (Planck's own later words, quoted); his use of Boltzmann's statistics, which he had opposed, 'um jeden Preis'; 'eine gewisse, ihm sonst fremde Ungeduld' in Dec. 1900 with derivations 'nicht ganz einwandfrei'; letter of 13 Nov. 1900; his rejection of Einstein's light-quantum hypothesis (quoted: 'Da bedarf es denn doch noch schwereren Geschützes') while being 'fasziniert und sogleich überzeugt' by special relativity (letter to Einstein 7 July 1907; letter to Runge 23 Feb. 1908 on the invariance of h as his motive); the 1913 Academy recommendation saying Einstein had overshot the mark with light quanta; the 1908 Nobel decision blocked by Mittag-Leffler; Hermann's characterisation of Planck as cautious and conservative. Hermann's checking of the Erwin/Grunewald anecdote via Robert Pohl was read; that anecdote is NOT used.",
+      "url": "https://archive.org/details/MaxPlanckVortraegeRedenErinnerungen"
+    },
+    {
+      "id": "src_planck_kragh_2000",
+      "kind": "press",
+      "title": "Helge Kragh, 'Max Planck: the reluctant revolutionary', Physics World, 1 Dec. 2000 (feature; Kragh is a historian of physics), physicsworld.com, read in full up to the publisher's registration cut-off near the end (the section on Einstein's role and the Solvay conference was read; the final paragraphs and further-reading list were not) -- SCHOLAR, REVISIONIST/CRITICAL perspective (follows and weighs Kuhn's thesis). Read: Planck's 1882 prediction that atomism would have to be given up; his opposition waning in the 1890s while he kept priority for macroscopic thermodynamics; Boltzmann's 1897 demolition of his electrodynamic irreversibility argument; the Wien-Planck law of 1899 and its failure against the Berlin measurements, 'Planck had to return to his desk'; turning in Nov. 1900 to Boltzmann's probabilistic entropy 'that he had ignored for so long'; the 1931 letter (to R. W. Wood) calling the quanta 'a purely formal assumption ... no matter what the cost, I must bring about a positive result'; his silence on the subject 1901-06 and the continuum treatment in his 1906 lectures; conversion c.1908 under Lorentz's analysis, acceptance of the statistical second law only c.1912, and his 1911 statement that 'the hypothesis of quanta will never vanish'; Kuhn's and Darrigol's arguments that Einstein, not Planck, first grasped quantum discontinuity.",
+      "url": "https://physicsworld.com/a/max-planck-the-reluctant-revolutionary/"
+    },
+    {
+      "id": "src_planck_self_1943_1946",
+      "kind": "archive",
+      "title": "Max Planck, 'Zur Geschichte der Auffindung des physikalischen Wirkungsquantums' (1943) and 'Persönliche Erinnerungen aus alten Zeiten' (1946), German texts in Vorträge, Reden, Erinnerungen (Springer, 2001), pp. 11-24 and 41-54, read in part (the 1943 account of the constants k and h and of his later attempts to fit h into classical physics; the 1946 recollections of Helmholtz, Kundt, Bezold, Paalzow and his 1890 lecture criticised by Du Bois-Reymond) from the archive.org OCR text (MaxPlanckVortraegeRedenErinnerungen) -- SELF (same perspective as the Scientific Autobiography record). Read: his own computation of the elementary charge (4.69 x 10^-10) from the radiation constants, that the computation 'was in places not taken quite seriously' but he did not let such doubts shake his confidence in k, full certainty coming only with Rutherford and Geiger's count; 'Durch mehrere Jahre hindurch machte ich immer wieder Versuche, das Wirkungsquantum irgendwie in das System der klassischen Physik einzubauen. Aber es ist mir das nicht gelungen.'",
+      "url": "https://archive.org/details/MaxPlanckVortraegeRedenErinnerungen"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_planck_sci_autobiography, src_planck_laue_1947, src_planck_einstein_1918, src_planck_kragh_2000, src_planck_hermann_2001, src_planck_nobel_lecture | 1879-1900 | self + pupil (Laue) + colleague (Einstein) + two historians] Two long programmes carried on through setbacks. (1) Entropy, 1879-1890s: by his own account his 1879 dissertation had 'nil' effect -- Helmholtz probably did not read it, Kirchhoff rejected it, Clausius did not answer his letters -- yet 'such experiences could not deter me' and he worked the entropy principle through phase changes, gas mixtures and dilute solutions; Laue's 1947 address independently says his first papers were not read even by Helmholtz, Kirchhoff and Clausius, 'Yet, he continued on his way'. (2) Heat radiation from the mid-1890s to Dec. 1900 (Hermann: six years on the problem; Kragh: a 'major research programme' from 1895): Boltzmann demolished his first irreversibility argument in 1897, his 1899 Wien-based law failed against the Berlin measurements and, in Kragh's words, 'Planck had to return to his desk'. Einstein in 1918 spoke of the 'patience and persistence' with which he had seen Planck devote himself to ordinary questions rather than more attractive ones. Corroborated across self, insider, colleague and independent scholarly accounts; held below 85 because the colleagues' accounts are tributes."
+    },
+    "analytical_rigor": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_planck_kragh_2000, src_planck_sci_autobiography, src_planck_nobel_lecture, src_planck_meitner_1958, src_planck_hermann_2001 | 1879-1920 | historian + self + assistant (Meitner) + historian] Kragh (critical historian) states that Wien's empirically good law was 'not acceptable to Planck' because it lacked a rigorous derivation: 'Planck was not interested in producing an empirically correct law, but in establishing a rigorous derivation of it'. Planck's 1920 Nobel lecture matches: even with the formula confirmed he called it, without a physical derivation, only 'a happily chosen interpolation formula' of 'strictly limited value', and said 'a fresh attempt at proof is urgently required'. Earlier he reworded Clausius's statement of the second law to remove the need for an extra explanation and approved publication of Zermelo's paper pointing to a gap in Boltzmann's H-theorem proof (self). Meitner, his assistant, describes lectures of 'exemplary clarity' and that he often answered her physics questions with 'I will answer you tomorrow' because he wanted to be able to stand fully behind everything he said. Counter-evidence kept in view (the Dec. 1900 derivation episode itself is used for belief_updating and risk_tolerance, not here): Hermann notes that in Dec. 1900 he showed 'a certain impatience, otherwise foreign to him', and some derivations were 'not entirely flawless'."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_planck_nobel_lecture, src_planck_sci_autobiography, src_planck_hermann_2001, src_planck_kragh_2000 | 1887-1908 | self + two historians] Repeated moves to find the general structure under a problem rather than its particulars: he welcomed the finding that the oscillator-field relation was independent of damping because 'a complex system, composed of many degrees of freedom, could be replaced by a simple system of one degree of freedom' (Nobel lecture; autobiography); while others related radiation intensity to temperature he looked for the dependence of entropy on energy (autobiography; Kragh traces the 1900 law to his 'profound insight in thermodynamics' rather than to an anomaly); his entropy work gave a thermodynamic basis for dilute-solution behaviour and Arrhenius's dissociation theory (self). Hermann documents that his immediate interest in relativity was driven by the invariance of his constant h under change of reference frame (letter to Runge, 23 Feb. 1908), and both historians describe his lifelong search for absolute, universal laws. strong_inference: the pattern rests on several documented instances, mostly described by Planck himself and interpreted by two historians."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_planck_sci_autobiography, src_planck_laue_1947, src_planck_kragh_2000, src_planck_hermann_2001, src_planck_einstein_1918, src_planck_murphy_1932 | 1879-1932 | self + pupil + historians + colleague + journalist] He chose a field and question that, per Laue, 'literally nobody at all had any interest' in, and Kragh notes that his fascination with entropy 'was shared by only a handful of other physicists'. In the 1890s he held out against the Energetics of Ostwald, Helm and Mach although 'it was simply impossible to be heard against the authority' of such men (self); Einstein's 1918 address refers to the Mach-Planck controversy, and Murphy reports Göttingen colleagues in 1932 discussing 'his intransigence on the causation principle' while backing his stand against positivism. He backed special relativity when, as his 7 July 1907 letter to Einstein put it, its representatives were still 'a modest little band' (Hermann). Independence also had a cost: Kragh shows him predicting in 1882 that atomism would have to be given up, against Boltzmann. Confidence capped because the strongest statements come from Planck himself and admirers."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_planck_kragh_2000, src_planck_hermann_2001, src_planck_sci_autobiography, src_planck_nobel_lecture, src_planck_laue_1947, src_planck_self_1943_1946, src_planck_meitner_1958 | 1882-1913 | historians + self + pupil + assistant] Genuinely mixed. Updating: when Lummer-Pringsheim and Rubens-Kurlbaum measurements contradicted the Wien-based relation he had believed universal, he dropped it within months and produced the Oct. 1900 formula (self, Kragh, Hermann); to derive it he turned to Boltzmann's probabilistic entropy 'that he had ignored for so long' (Kragh), falling back on atomistic methods he had 'regarded with certain doubts' (Laue); c.1908, influenced by Lorentz, he accepted that the quantum of action lay beyond classical physics, and c.1912 he accepted the statistical nature of the second law (Kragh). Resistance: in 1882 he expected atomism to be abandoned; for 'a number of years' he kept trying to fit h into classical theory (self, 1943 and 1948); his 1906 lectures used a continuum treatment (Kragh); he rejected Einstein's light quanta ('heavier artillery' needed, Hermann) and in the 1913 Academy recommendation still said Einstein had overshot the mark there. Meitner describes his first reaction to problems as 'always toward moderation' with a strong tie to tradition. He changed his mind on data, but slowly on deep commitments; scored at the midpoint with dual_edged impact."
+    },
+    "risk_tolerance": {
+      "score": 32,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_planck_hermann_2001, src_planck_kragh_2000, src_planck_meitner_1958, src_planck_sci_autobiography | 1900-1931 | self (1931 letter quoted by two historians) + historians + assistant] Intellectual risk aversion, described from several sides. In his 1931 letter to R. W. Wood, quoted by both Hermann and Kragh, Planck called the quantum step 'an act of desperation', said he was by nature peaceful and averse to doubtful adventures (Hermann's German), and that the energy elements were 'a purely formal assumption' made because 'no matter what the cost, I must bring about a positive result' (Kragh's English). Kragh: he 'strove hard to keep his theory on the solid ground of the classical physics' and published nothing on the quantum from 1901 to 1906; Hermann calls him 'cautious and conservative'. Meitner, who knew him for forty years, says his first reaction was always toward moderation and that he was sometimes uneasy about the consequences of his own theory. The Dec. 1900 step itself shows he would take a risk when cornered, which keeps the score off the extreme. dual_edged: caution kept his work on firm ground but slowed his acceptance of what his result implied."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_planck_meitner_1958, src_planck_einstein_1918, src_planck_laue_1947 | c.1907-1947 | assistant/friend (Meitner) + colleague (Einstein) + pupil (Laue)] Meitner, who knew his household from 1907, describes a 'very systematic' daily routine, including half an hour of piano at the same time every day, and says that over several months he walked the whole surroundings of Berlin according to a fixed plan. Einstein in 1918 reported that Planck's colleagues explained his sustained work by his 'extraordinary personal gifts of energy and discipline' (Einstein himself preferred another explanation). Laue's address records more than forty years of teaching at Berlin and 58 years of membership in the German Physical Society with 'selfless work in the most diverse administrative posts'. Three insiders, all admiring, so confidence stays moderate and the score below 75."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_planck_meitner_1958, src_planck_self_1943_1946, src_planck_nobel_lecture | 1900-1920 | assistant (Meitner) + self] Meitner describes the very orderly way he wrote formulas on the blackboard, which he expected from his students too, and his habit of deferring an answer to the next day so that he could stand fully behind it. In his own accounts he derived numerical values from the radiation constants -- the elementary charge as 4.69 x 10^-10 against earlier values of 1.29 and 6.5 -- and tracked them against later independent measurements (Rutherford and Geiger's 4.65; Franck and Hertz for h), keeping track of small discrepancies and successive revisions in the Nobel lecture. Only one non-self witness, so the row is kept moderate."
+    },
+    "conflict_tolerance": {
+      "score": 56,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_planck_sci_autobiography, src_planck_meitner_1958, src_planck_murphy_1932 | 1887-1920 | self + assistant + Sommerfeld as quoted by a journalist] He stayed in open scientific disagreement for years -- with Arrhenius over dissociation, with Ostwald in a 'voluminous correspondence' of 'critical debate' that was 'always carried on in the friendliest tone', and with the Energetics school in the 1890s (self). At the Bad Nauheim relativity session (Sept. 1920; Meitner dates it c.1921), which he chaired, he cut off an opponent who began on Einstein's newspaper article, saying it did not belong to the matter, after telling Meitner he wanted a reasonable settlement and would do anything not to lose Einstein. Sommerfeld (quoted by Murphy) called him 'chivalrous to his opponent' in polemics and the trusted arbiter of both sides in the reorganisation of the German Physical Society. He would hold a position in dispute but sought matter-of-fact resolution; scored modestly above the midpoint."
+    },
+    "collaboration": {
+      "score": 40,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_planck_sci_autobiography, src_planck_meitner_1958, src_planck_hermann_2001, src_planck_murphy_1932 | 1889-1920s | self + assistant + historian + journalist] His core work was solitary theory: in Berlin he was 'the only theorist, a physicist sui generis', and because nobody followed his entropy approach to radiation he 'could work out my calculations completely at my leisure ... without fear of interference or competition' (self). He depended on experimental colleagues' data rather than joint work -- Rubens checked the 19 Oct. 1900 formula against his measurements overnight and reported the next morning (self; Hermann) -- and he credited Laue with convincing him on the entropy of coherent beams and exchanged friendly correspondence and verses with Sommerfeld on phase space (self; Sommerfeld via Murphy). Meitner notes that he formed no large school, unlike Sommerfeld or Born, and was reluctant to intervene strongly in his pupils' development. Cordial and cooperative, but his work did not depend on sustained partnership."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-03T00:00:00Z",
+    "updatedAt": "2026-10-03T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-03) for Q9021 returned en label 'Max Planck', description 'German theoretical physicist (1858–1947)', de 'deutscher Physiker, Nobelpreisträger (1858–1947)', ko label '막스 플랑크' (ko description '독일의 물리학자 (1858~1947)'), P569 1858-04-23, P570 1947-10-04 (a second, erroneous-looking P570 value 1947-12-04 also present; 4 Oct. 1947 agrees with the Nobel biography and Hermann), P18 'Max Planck.png', enwiki 'Max Planck', kowiki '막스 플랑크' (used for displayNames ko-KR). SLUG COLLISION CHECK: no max-planck file in data-pipeline/candidates before this cycle; the only 'Planck' hits in src/data/people and candidates are mentions of the Max Planck Institute (ada-yonath, roster36.ts) and Planck's name in other physicists' files; no Planck portrait in public/portraits. CLASSIFICATION PRECEDENT: occupation physicist and field physics follow albert-einstein and lise-meitner; impact domains scientific + historical as lise-meitner; era 20th_century (his defining work dates from 1900 onward; cf. sigmund-freud b.1856 and theodore-roosevelt b.1858 coded 20th_century), nationalityCodes DE and regionCode western_europe as albert-einstein, emmy-noether and werner-heisenberg. Tags theorist and nobel_laureate and archetype scientific_explorer are existing ids in en.ts; no new tags or occupations. EVIDENCE READ (texts downloaded to scratch_r41/work/max-planck and read locally by grep/line ranges): Planck's Scientific Autobiography (1948; Gaynor tr. 1949) in full, with von Laue's 1947 memorial address printed as its introduction; Planck's 1920 Nobel lecture in full; the Nobel presentation speech and biographical note; Einstein's 1918 birthday address in its 1932 English printing as the prologue to Where Is Science Going?, and James Murphy's 1932 introduction to that book; Lise Meitner, 'Max Planck als Mensch' (1958) in full (German); Armin Hermann, 'Max Plancks wissenschaftliche Leistung' (2001) in full (German); Planck's 1943 'Zur Geschichte der Auffindung des physikalischen Wirkungsquantums' and 1946 'Persönliche Erinnerungen aus alten Zeiten' in part (German); Helge Kragh, 'Max Planck: the reluctant revolutionary', Physics World 2000, up to the registration cut-off. The two archive.org items used for the autobiography and for the 2001 Springer volume are community uploads (the library copies are lending-restricted); they were read as text only. NOT READ / NOT AVAILABLE: Max Born's obituary in Obituary Notices of Fellows of the Royal Society 6 (1948) (royalsocietypublishing.org returned a Cloudflare challenge; not bypassed); Born's Physics in My Generation and Hermann's Genesis of Quantum Theory and Heilbron's The Dilemmas of an Upright Man (archive.org lending-only); Einstein's 1948 memorial in Out of My Later Years (Digital Library of India copy returned HTTP 500 twice); the Einstein Papers Project (JavaScript-only site) -- so the 1913 Academy recommendation and the 1907/1908 letters are used only as quoted by Hermann; Planck's 1931 letter to R. W. Wood is used only as quoted by Hermann (German) and Kragh (English). INDEPENDENT PERSPECTIVES: (1) Planck himself -- autobiography, Nobel lecture, 1943/1946 recollections and the 1931 Wood letter as quoted -- ONE self perspective, never the sole support of a row; (2) Max von Laue, pupil and close colleague (insider, funeral address 1947); (3) Albert Einstein, Berlin colleague (1918 address); (4) Lise Meitner, student from 1907, assistant c.1912-15, friend for forty years (insider, 1958); (5) James Murphy, journalist/translator with Sommerfeld's quoted tribute (1932; secondary, error-prone, low weight); (6) Armin Hermann, historian of physics (2001); (7) Helge Kragh, historian of physics (2000), a critical/revisionist reading that follows and weighs Kuhn. The Nobel institutional texts support achievements only. NON-SELF behavioural sources: Meitner (routine, answers deferred, Bad Nauheim chairing, few pupils), Laue (ignored early papers, Society service), Einstein (observed sustained effort), Kragh and Hermann (research programme, derivation standards, resistance to and acceptance of quanta, light-quantum rejection, relativity support), Murphy/Sommerfeld (polemical style, arbiter role, quatrains). EPISODE USE (no episode supports more than two rows): ignored dissertation and 1880s entropy work (self, Laue, Kragh) -> persistence, independent_thinking; radiation programme 1895-1900 with Boltzmann's 1897 objection and the 1899 law's failure (self, Kragh, Hermann, Einstein) -> persistence; the same measurements forcing the Oct. 1900 revision -> belief_updating; Wien law rejected for want of derivation and 'fresh attempt at proof' in 1920 (Kragh, Nobel lecture) -> analytical_rigor; Clausius rewording and Zermelo gap (self) -> analytical_rigor; damping-independence reduction and entropy-energy choice (Nobel lecture, autobiography, Kragh) -> systems_abstraction; Dec. 1900 turn to Boltzmann statistics / 'act of desperation' (Kragh, Hermann, Laue, Wood letter) -> belief_updating, risk_tolerance (in analytical_rigor only as named counter-evidence); 1901-1912 attempts to fit h into classical theory, 1906 continuum lectures, conversion c.1908, statistical second law c.1912 (self, Kragh) -> belief_updating; light-quantum rejection 1907-1913 (Hermann) -> belief_updating; relativity support 1905-1908, 7 July 1907 letter (Hermann, self) -> independent_thinking; Runge letter on invariance of h (Hermann) -> systems_abstraction; Energetics controversy 1890s (self, Einstein, Kragh) -> independent_thinking, conflict_tolerance; positivism/causality stand 1930s (Murphy) -> independent_thinking; Meitner 'answer tomorrow' -> analytical_rigor, detail_orientation; Meitner blackboard orderliness -> detail_orientation; constants k and e computed and tracked against later measurements (self 1943, Nobel lecture) -> detail_orientation; Meitner on moderation -> belief_updating, risk_tolerance; Meitner daily schedule and planned walks, Einstein's report of colleagues' view, Laue on decades of service -> discipline; Bad Nauheim 1920 (Meitner) -> conflict_tolerance; Arrhenius/Ostwald disputes (self) -> conflict_tolerance; Sommerfeld's 'chivalrous' tribute and arbiter role (Murphy) -> conflict_tolerance; Rubens's overnight check, Laue convincing him, Sommerfeld quatrains, solitary theorist, few pupils (self, Hermann, Murphy, Meitner) -> collaboration. ROWS CONSIDERED AND LEFT UNSCORED: deep_focus (Kragh's 'obsessed with' the second law, 'some weeks of the most strenuous work of my life' -- overlaps persistence episodes; omitted); curiosity (narrow, fundamental-only focus per Kragh; music-tuning study was an assigned task -- not scored); creative_originality (the 1900 formula and energy elements are the achievement itself, and Kragh/Kuhn dispute what he meant by them; scoring would rest on fame/outcome); social_assertiveness (Meitner's 'outward reserve' versus his many public lectures -- mixed impression, omitted); leadership_drive (Physical Society chairmanships, Academy secretaryship and Kaiser Wilhelm Society presidency are offices, and Meitner says he built no school; mixed and partly politics-adjacent -- omitted); planning_orientation (planned walks only -- folded into discipline); mastery_orientation, impact_motivation, autonomy_need (motive statements from Einstein's address and Planck's own essays -- not behaviour); decisiveness, execution_speed (Hermann's 'impatience' in Dec. 1900 is a single episode); persuasiveness, competitiveness, achievement_drive, adaptability, ambiguity_tolerance, experimentation, cross_domain_range, aesthetic_sensitivity, intuitive_synthesis, opportunity_sensing, resourcefulness, proactive_agency -- insufficient on-point evidence. EXCLUDED ON PURPOSE: the deaths of his first wife, his son Karl (1916), his twin daughters and the execution of his son Erwin (1945), the loss of his house and library, his age -- read in Laue, Meitner, Murphy and the Nobel note, NOT used for anything; the 1914 'Aufruf an die Kulturwelt' and his letter to Lorentz, his 1935 lecture, his Kaiser Wilhelm Society presidency under the Nazi regime, the 1933 meeting with Hitler about Haber and the 1935 Haber memorial (read in Meitner; zero-politics -- institutional/incidental, not scored, mentioned here only factually); his religious views; Murphy's mystic/Beethoven characterisation and his Jungfrau climb at seventy-two (impression/age); the Erwin/Grunewald 'discovery like Newton' anecdote (Hermann checked it via Robert Pohl; hearsay, not used). 'Planck's principle' on new scientific truths (self, autobiography) was read and is not used as evidence for any row, since it describes other scientists. No 'first' or 'father of quantum theory' claim is made in editorial; the Kuhn/Kragh debate is acknowledged. KNOWN LIMITS: the non-self behavioural material is largely admiring (a pupil's eulogy, a colleague's birthday address, a friend's centenary lecture, a journalist's sketch); the two historians are independent and Kragh is critical, but key letters (1907, 1908, 1913, 1931) are used only as they quote them. Meitner misdates the Bad Nauheim meeting (says 1921, it was Sept. 1920). Born's obituary, Heilbron and Kuhn were not read. Confidence is kept at or below 0.70 and scores below 85 throughout. PORTRAIT: Rudolf Dührkoop (1848-1918), photograph of Planck standing with folded arms in a study, published as a photogravure by the Photographische Gesellschaft in Berlin (plate signed 'R. Dührkoop phot.', plate no. 8175, facsimile signature 'Planck' and publisher's imprint in the margin -- inscriptions checked on the downloaded scan), dated c. 1910 on Commons. Commons file 'Max Planck c1910.jpg' (uploaded 2023-11-28 by Materialscientist), wikitext read 2026-10-03: Information template, author {{creator:Rudolf Dührkoop}}, source a JSTOR Community collection item (community.26294995) and a Getty Images record of the photogravure, licence {{PD-old-100-1923}}; no third-party, copyright-claim or NPG template; extmetadata 'Public domain'. The JSTOR page returned a bot challenge and was not bypassed, so the upstream holding could not be inspected; the rights basis does not depend on it: the photographer died in 1918 (work public domain in Germany since 1989, so not restored in the US by the URAA; a pre-1931 publication is also likely). Original 1073 x 1536 px (368 KB) downloaded and opened with PIL; the paper margin with the photographer line, plate number, signature and imprint was cropped to the plate edge, giving 943 x 1283 (no rescaling; saved JPEG q90). Visually confirmed as Planck. kind likeness. REJECTED: 'Max Planck.png' (Wikidata P18; small, unclear rights -- per brief); 'Dr. Max Planeck (i.e. Planck) LCCN2014686485.jpg' (LOC Bain glass negative LC-B2-1250-11, 'No known restrictions on publication', LOC JSON record says 'no date recorded on caption card'; acceptable fallback but a landscape profile at a desk with the subject at the right edge); 'Bundesarchiv Bild 183-R0116-504, Max Planck.jpg' (official Bundesarchiv CC BY-SA 3.0 de release, but only 553 x 798 and date marked doubtful); 'Portrait of Max Planck - DPLA ... (page 2).jpg' (Science History Institute, NoC-US, a c.1919 German newspaper halftone clipping -- acceptable fallback but halftone quality); 'Max Planck (Nobel 1918).jpg' (280 x 396, too small); 'Max Planck (1858-1947).jpg' (Smithsonian/Transocean c.1930, anonymous, US status depends on an uncertain date); Hugo Erfurth 1938 portraits incl. Städel 'PDM-owner' scan (US term for a 1938 German publication likely still running); 'Max Planck in his study 1919.jpg' (sourced via Getty/Bettmann and a 2019 book, PD-old tag without author). No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Portrait rights-verified. LEAD REVIEW (manual QA): internal source ids referenced inside source titles replaced by readable record names, since titles render on the public Sources list."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "막스 플랑크"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/max-planck-duhrkoop-c1910.jpg",
+    "width": 943,
+    "height": 1283,
+    "source": "Rudolf Dührkoop (1848-1918), photograph of Max Planck, reproduced as a photogravure published by the Photographische Gesellschaft in Berlin (plate no. 8175; plate inscribed 'R. Dührkoop phot.', facsimile signature 'Planck'), c. 1910; scan via Wikimedia Commons (uploaded 2023 from a JSTOR Community collection copy)",
+    "license": "Public domain",
+    "attribution": "Rudolf Dührkoop, Max Planck, photogravure, Photographische Gesellschaft in Berlin, c. 1910; public domain (photographer died 1918); paper margin with imprint and signature cropped",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Max_Planck_c1910.jpg",
+    "creator": "Rudolf Dührkoop",
+    "date": "c. 1910",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Max_Planck_c1910.jpg"
+  }
+}

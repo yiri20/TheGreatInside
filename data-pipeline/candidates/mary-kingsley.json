@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mary-kingsley",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mary Kingsley",
+    "aliases": [
+      "Mary Henrietta Kingsley",
+      "M. H. Kingsley"
+    ],
+    "wikidataId": "Q235525",
+    "birthYear": 1862,
+    "deathYear": 1900,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "writer"
+    ],
+    "fieldIds": [
+      "exploration",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mk_wikidata",
+      "kind": "wikidata",
+      "title": "Mary Kingsley (Q235525) -- identity verified live via wbgetentities (2026-10-02): label 'Mary Kingsley', description 'British ethnographer, scientific writer and explorer (1862–1900)', P569 13 Oct 1862, P570 3 Jun 1900, citizenship United Kingdom of Great Britain and Ireland (Q174193), instance of human; ko label '메리 킹즐리' (ko alias '메리 헨리에타 킹즐리'); no kowiki sitelink. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q235525"
+    },
+    {
+      "id": "src_mk_gwynn1932",
+      "kind": "biography",
+      "title": "Stephen Gwynn, The Life of Mary Kingsley (London: Macmillan, 1932) -- biography by a writer who knew her personally (insider/acquaintance perspective, admiring), built on her letters to George Macmillan, Matthew Nathan, Alfred Lyall, E. D. Morel and Gwynn himself, plus press cuttings; Digital Library of India scan on the Internet Archive (in.ernet.dli.2015.506240), djvu full text downloaded and read by line ranges: Preface and Contents; ch. II 'Why She went to West Africa' (pp. 20-27, incl. Albert Günther's post-mortem letter to Mrs J. R. Green on her collecting); ch. IV 'The Beginning of Her Adventures' (pp. 39-67: 1893 voyage, Captain Murray, the letter to Macmillan refusing a reviser's alterations, Calabar, Fernando Po, mangrove-swamp work); ch. V 'With Cannibals in Gorilla Land' (pp. 68-98: Ogowe rapids, efforts to dissuade her, Fan-country crossing, Lewis Lusk's Spectator letter of 23 Jun 1900, Morel's posthumous notice); ch. VII pp. 116-135 (writing of Travels: trade appendix revised by Liverpool experts, Egbo reader, Günther's verdict on the collection, refusal of a makeshift map, visit to E. B. Tylor); ch. VIII opening pp. 136-137. Much of the book quotes her own Travels and letters (SELF, counted under the self perspective); Gwynn's own observations and the third-party testimony he quotes (Günther, Lusk, Morel, a trader's letter) are non-self. Chapters IX-XI (West African politics, hut-tax controversy) were deliberately not used; ch. XII (South Africa, death) not used for any row.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.506240"
+    },
+    {
+      "id": "src_mk_dnb1901",
+      "kind": "biography",
+      "title": "Lucy Toulmin Smith, 'Kingsley, Mary Henrietta', Dictionary of National Biography, 1901 supplement, vol. 3, pp. 81-83 -- contemporary reference-work entry by a friend (insider perspective; sources stated as 'personal knowledge and private letters', her father's memoir and her own 1899 autobiographical sketch). Read in full via the Wikisource transcription (MediaWiki parse API). Used: 1893 solo departure, 1894 British Museum collector's equipment, the Ogowe rapids 'at the risk of her life', the Lambarene-to-Rembwe crossing of Fan country 'never been explored before', the Mungo Mah Lobeh ascent, her learning to trade in rubber and oil to pay her way, the collection reported on by Günther, her self-education in mechanics, chemistry, electricity and ethnography, and her post-1895 effort to learn exposition. Its closing character paragraph ('daring and masculine courage', etc.) is a friend's summary and is not used as evidence; health/death passages not used.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1901_supplement/Kingsley,_Mary_Henrietta"
+    },
+    {
+      "id": "src_mk_gunther1896",
+      "kind": "institution",
+      "title": "Albert Günther (Keeper of Zoology, British Museum), 'Report on a Collection of Reptiles and Fishes made by Miss M. H. Kingsley during her travels on the Ogowe River and in Old Calabar', Annals and Magazine of Natural History ser. 6, vol. 17 no. 100 (April 1896), pp. 261-285, read as reprinted in Travels in West Africa (1897) Appendix III, pp. 692-712; together with W. F. Kirby (British Museum), Appendix IV, list of Orthoptera, Hymenoptera and Hemiptera she collected on the Ogowe -- contemporary museum scientists' specimen reports (non-self, institutional/scientific record; Günther was also an old family friend who had advised her what to collect). Read from the University of Toronto scan (travelsinwestafr00kinguoft) djvu text: Appendix III introduction and the species accounts naming her, Appendix IV introduction. Used: she brought home 18 reptile and about 65 fish species 'in excellent condition' although she 'travelled alone with a native crew' and 'the upsetting of her canoe was a matter of frequent occurrence' in the rapids; 16 species added to the Gaboon fauna, three new species named kingsleyae (Ctenopoma, Alestes, Mormyrus), and adult specimens of Mormyrus lepturus that let Günther amend his diagnosis; Kirby describes 8 new insect species but regrets mostly single and immature specimens.",
+      "url": "https://archive.org/details/travelsinwestafr00kinguoft"
+    },
+    {
+      "id": "src_mk_libbey1897",
+      "kind": "press",
+      "title": "William Libbey (Princeton University; geographer), review of Travels in West Africa, Science n.s. vol. 6 no. 139 (27 Aug 1897), pp. 325-326 -- contemporary independent scientific review (non-self, partly critical/adversarial: calls the book defective in structure, its manner flippant, her excursions 'rather picnic-like', and says she pokes fun at missionaries); read in full from JSTOR Early Journal Content (Internet Archive jstor-1623306). Used: his judgment that the fetish section shows 'clear insight and common sense' and is 'a valuable contribution', and his remark on her 'stoical cheerfulness' after the sandbank mishap; his description of the Günther and Kirby appendices.",
+      "url": "https://archive.org/details/jstor-1623306"
+    },
+    {
+      "id": "src_mk_clodd1916",
+      "kind": "biography",
+      "title": "Edward Clodd, Memories (London: Chapman and Hall, 1916), ch. VII 'Mary Henrietta Kingsley (1862-1900)', pp. 75-82, with plate facing p. 74 -- memoir by a folklorist acquaintance from the Folk Lore Society (insider/friend perspective, non-self), quoting four of her letters to him (Jan-Aug 1898; self). Read in full from the University of Toronto scan (memoires00cloduoft) djvu text. Used: her 7 Jan 1898 letter asking him to settle questions on deification of ancestors, totemism and the term fetish; her Jan 1898 wish for half an hour over a map with Du Chaillu; Clodd's statement that her criticism of missions 'brought upon her an avalanche of criticism' (context only). Its passages on her health, nursing and death, and her liquor-traffic / Royal Niger Company / Lugard politics, are NOT used.",
+      "url": "https://archive.org/details/memoires00cloduoft"
+    },
+    {
+      "id": "src_mk_hopkins",
+      "kind": "institution",
+      "title": "Carl D. Hopkins (Cornell University, Dept. of Neurobiology & Behavior), 'The Biodiversity of Freshwater Fish in Gabon Rainforests, One Hundred Years After Mary H. Kingsley' -- modern ichthyologist's project page for the Mary Kingsley Centennial Exploration of Gabon's freshwater fishes (non-self, modern scientific perspective); the live URL did not respond, so it was read in full via a Wayback Machine capture (2020). Used only for its assessment that her ~65 fish species (18 new to Gabon, 7 new to science, described by Günther 1896) are 'a significant contribution to the ichthyology of Gabon', and the current names of the three kingsleyae species. Short page; its biographical summary is orientation.",
+      "url": "https://web.archive.org/web/2020/http://pages.nbb.cornell.edu/neurobio/hopkins/mkingsley.html"
+    },
+    {
+      "id": "src_mk_travels1897",
+      "kind": "archive",
+      "title": "Mary H. Kingsley, Travels in West Africa: Congo Français, Corisco and Cameroons (London: Macmillan, 1897) -- SELF (her own narrative). Project Gutenberg eText 5891 downloaded and read by grep/line ranges: ch. XX (final ascent of Mungo Mah Lobeh, 26 Sep 1895) and the Efoua (Fan town) trading passage of the Ogowe-Rembwe crossing; further passages (the Introduction's 'recantation' about traders, mangrove-swamp work, Ogowe rapids descent, arrival among the Fan at Lake Ncovi, the 'rag-bag' notes passage) were read as quoted at length in Gwynn ch. II-V. Self perspective; never the sole support of any row.",
+      "url": "https://www.gutenberg.org/ebooks/5891"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_mk_dnb1901, src_mk_gunther1896, src_mk_gwynn1932, src_mk_travels1897 | Jun-Sep 1895 | friend's contemporary reference entry + museum scientist's report + acquainted biographer (quoting a third-party 1900 letter) + self] Three separately documented 1895 decisions to enter known danger. (1) Ogowe rapids above Njole, Jun-Jul 1895: DNB says she passed them 'at the risk of her life'; Gwynn records that local people tried to dissuade her (Talagouga Fans refused to go above Njole; she was told a European woman who had made the passage had a husband and many men) and that she went up with a small Igalwa crew; Günther (non-self, Apr 1896) independently states she 'travelled alone with a native crew' and that in the rapids 'the upsetting of her canoe was a matter of frequent occurrence'. (2) The overland Lambarene-Lake Ncovi-Rembwe crossing through Fan country 'never been explored before' (DNB), which Gwynn notes was made 'far from a French station and without the French flag'. (3) The final Mungo Mah Lobeh push, 26 Sep 1895 (self, Travels ch. XX): with weather worsening she went on alone after both remaining men stopped, reasoning that the risk to herself was 'my own affair'. Lewis Lusk's Spectator letter (23 Jun 1900, quoted by Gwynn; non-self) reports her saying she had never felt physical fear in danger. dual_edged: on Cameroon she herself records doubting whether she was justified in risking her men, and the rapids trips cost repeated capsizes. Kept below 80 and 0.70 because the vivid detail is her own narrative and the non-self sources (friend, admiring biographer) are not independent of her; Günther's report is the independent anchor."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mk_gunther1896, src_mk_gwynn1932, src_mk_dnb1901, src_mk_travels1897 | 1893-1896 | museum scientist's report + Günther's later letter via biographer + friend's reference entry + self] Günther's 1896 report (non-self) records that despite limited means of preserving specimens and frequent canoe upsets she brought home about 65 fish and 18 reptile species 'in excellent condition'; his post-mortem letter (quoted by Gwynn) adds that collecting fishes in spirit is laborious and expensive, that she succeeded 'considering the slenderness of her means and her outfit', and credits 'indefatigable energy which overcame all obstacles' (an admiring friend's summary, used as corroboration only). DNB documents that after the 1893-94 journey she spent 1894 preparing and returned with a British Museum collector's outfit (Dec 1894) for a longer second journey. On Mungo Mah Lobeh (26 Sep 1895, self) she kept on to the cairn after both companions stopped, and, having reached it in fog, recorded only that 'I took my chance and it failed'. Distinct episodes (collecting under capsizes; second, better-prepared journey; summit push) converge; strong_inference because the collecting outcome is the main non-self anchor and the summit episode is self-reported."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mk_gunther1896, src_mk_gwynn1932, src_mk_libbey1897 | 1895-1897 | museum scientist's report + biographer quoting her letters and Günther + independent reviewer] Günther's report (non-self) shows specimens good enough to describe three new species and to amend his own earlier diagnosis of Mormyrus lepturus from her adult specimens; his later letter (via Gwynn) credits her 'judicious selection of the specimens' and an 'extraordinary gift of observation'. While Travels was in preparation (1896) she refused a scientific reviser's alterations because they misstated facts -- e.g. that he gave Forcados bar 18 ft of water at low water, which she said it did not have -- writing that she had 'a very good character to lose as a practical seaman and an honest observer of facts' (her letter to George Macmillan, via Gwynn; self), and she refused a makeshift map, preferring to publish none (Gwynn). Kirby (in src_mk_gunther1896) is a counterweight: most of her insects were single or immature specimens. Libbey (independent, Science 1897) found the fetish chapters showed 'clear insight' amid a loosely structured book. Moderate lean."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mk_dnb1901, src_mk_gunther1896, src_mk_clodd1916, src_mk_gwynn1932, src_mk_libbey1897 | 1879-1898 | friend's reference entry + museum scientists' reports + acquaintance's memoir with her letters + biographer + independent reviewer] Breadth of self-directed inquiry documented across sources: DNB records home self-education in mechanics, chemistry, electricity (via C. F. Varley) and then ethnography and anthropology; on the 1895 journey she collected fishes and reptiles (Günther) and insects (Kirby, 8 new species) while studying religion and law ('fish and fetish', Gwynn), and Gwynn quotes her own notes mixing kraw-kraw, prices, fish catches, genealogies and native oaths (self). In 1897-98 she sought out specialists to test her material -- an Egbo initiate to vet her fetish chapter and E. B. Tylor at Oxford (Gwynn, her letters) -- and on 7 Jan 1898 asked Edward Clodd (Clodd 1916, her letter) to settle questions on ancestor deification, totemism and the use of the term fetish. Libbey (independent) judged the fetish section 'a valuable contribution'. Not scored higher: the letters are self-written and the interest was concentrated on one region."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mk_dnb1901, src_mk_gwynn1932, src_mk_travels1897 | 1893-1895 | friend's reference entry + Günther's letter via biographer + self] DNB (non-self) states that because her 'slender resources' did not suffice she learnt to trade in rubber and oil to pay her way, knowledge later valued by West African merchants; Günther's letter (via Gwynn) notes she made her collection on slender means and outfit. In the Fan town of Efoua on the Ogowe-Rembwe crossing (1895, self) she bought rubber to promote good feeling when the chiefs took her for a trader, judged that fish-hooks were useless away from big water and traded handkerchiefs and knives instead. At Libreville she left her revolver rather than pay the licence, while getting her collecting cases and spirit passed free as scientific (Gwynn quoting Travels; self). Trading-to-travel is the key non-self fact; the specific improvisations are self-reported, so moderate."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mk_gwynn1932, src_mk_dnb1901, src_mk_libbey1897, src_mk_travels1897 | 1893-1895 | biographer (incl. a trader's letter) + friend's reference entry + independent reviewer + self] Coming from what Gwynn and DNB both describe as a secluded domestic life with only a week abroad before 1892, she worked with West Coast traders, ship captains, missionaries, French and German officials and riverine and Fan crews (DNB: officials, missionaries, traders and sea-captains 'became her friends and admiring helpers'). She learned to handle an Ogowe canoe and later river pilotage (her claims, self, via Gwynn); a trader's letter she forwarded to Macmillan (third-party, via Gwynn) describes her 'play[ing] bob cherry with sharks on Lagos Bar'. Libbey (independent) remarks on the 'stoical cheerfulness' with which she met a sandbank mishap. Kept at 64/0.50: the skill claims are hers, the friendly-relations summary comes from a friend, and Gwynn notes she dressed in Africa as she had in Cambridge."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mk_gwynn1932, src_mk_libbey1897, src_mk_clodd1916 | 1896-1898 | biographer quoting her letters + independent critical reviewer + acquaintance's memoir] In preparing Travels (1896) she rejected her scientific reviser's (Guillemard's) stylistic and factual changes, had the trade appendix checked by Liverpool traders instead, and kept the humorous steamer material although Mrs J. R. Green and Guillemard urged her to cut it (her letters to Macmillan, via Gwynn). Libbey (independent, critical) confirms the book's irreverent treatment of missionary work against prevailing views, and Clodd records that her published criticism of missions 'brought upon her an avalanche of criticism' (cited only as evidence that her ethnographic judgments departed from the consensus, not for their content). dual_edged: Libbey judged the same manner 'flippant' and some treatments 'hardly fair'. Her colonial-administration and hut-tax positions are deliberately not used (political commentary)."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_mk_dnb1901, src_mk_gunther1896, src_mk_gwynn1932 | 1893-1895 | friend's reference entry + museum scientist's report + biographer] DNB: she 'started alone in August 1893' with only a few introductions; Günther (non-self) notes she 'travelled alone with a native crew' on the Ogowe. Gwynn records that at Accra in 1895 she chose a missionary couple's hospitality rather than stay under official auspices at Government House, and that the Fan-country crossing was made 'far from a French station and without the French flag'; she answered objections to her going up the rapids without a husband with the quip that no RGS list of travellers' necessaries mentioned husbands (self). Solo travel also reflects circumstance (no companion or means for a large party), so this stays at inference, neutral impact."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mary-kingsley-dew-smith-1890s.jpg",
+    "width": 818,
+    "height": 1270,
+    "source": "Edward Clodd, Memories (London: Chapman and Hall, 1916), plate facing p. 74, via Internet Archive (memoires00cloduoft) and Wikimedia Commons",
+    "license": "Public domain",
+    "attribution": "A. G. Dew-Smith (1848-1903), photograph of Mary H. Kingsley, published in Edward Clodd, Memories (1916), facing p. 74; public domain, via Wikimedia Commons",
+    "attributionUrl": "https://archive.org/stream/memoires00cloduoft#page/74/mode/2up",
+    "creator": "Albert George Dew-Smith",
+    "date": "1890s (no later than 1900)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Mary_Kingsley.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "메리 킹즐리"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-02T00:00:00Z",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-02) for Q235525 returned label 'Mary Kingsley', description 'British ethnographer, scientific writer and explorer (1862–1900)', P569 13 Oct 1862, P570 3 Jun 1900, citizenship United Kingdom of Great Britain and Ireland (Q174193), instance of human, en aliases 'Mary Henrietta Kingsley', 'Miss Kingsley', 'M. H. Kingsley'; ko label '메리 킹즐리' (ko alias '메리 헨리에타 킹즐리', ko description '영국 간호사, 인류학자, 저술가, 탐험가'); there is no kowiki sitelink, so the Wikidata ko label is used for localization. P18 lists four files (see PORTRAIT). Birth date 13 Oct 1862 also matches DNB 1901. SLUG CHECK: grep of data-pipeline/candidates and src/data/people for 'kingsley' and ls of public/portraits found nothing before this run; no collision. CLASSIFICATION: era 19th_century, GB, western_europe, impactDomains historical and scientific, tag explorer + field_researcher, archetype scientific_explorer, following david-livingstone.json (explorer / exploration, GB, 19th century) and isabella-bird.json (explorer + writer). occupation writer is added because her principal documented output was three books, a memoir and many lectures/articles (DNB lists them; she is described there as 'traveller and writer'); field literature is NOT added. field natural_science IS added because the persistence and detail_orientation rows rest substantially on her 1895 specimen collecting for the British Museum as documented by Günther's 1896 report (and Kirby's insect list) and assessed by a modern ichthyologist (Hopkins). Classification is not evidence for any row.\nEVIDENCE READ: 8 source records (1 orientation, 7 read with curl and local text extraction): Gwynn's 1932 Life (ch. II, IV, V, VII and opening of VIII read by line ranges); DNB 1901 entry by Lucy Toulmin Smith (in full); Günther's 1896 report and Kirby's insect list as reprinted in Travels Appendices III-IV (introductions and species accounts naming her); William Libbey's Science review of 27 Aug 1897 (in full); Edward Clodd's Memories (1916) ch. VII (in full); Carl Hopkins's Cornell centennial project page (Wayback, in full); Travels in West Africa (Gutenberg; ch. XX and the Efoua passage directly, other passages as quoted by Gwynn). West African Studies (Gutenberg 38870) was downloaded but NOT read and is not cited. Lead sources not read: The Times / Spectator / Nature 1900 obituaries (archive.spectator.co.uk returned nothing to curl; Nature 1900 is paywalled) -- only Lusk's Spectator letter and Morel's notice as quoted by Gwynn were seen; Katherine Frank's A Voyager Out (1986) is lending-only.\nINDEPENDENT PERSPECTIVES: (1) Albert Günther / W. F. Kirby, British Museum scientists' specimen reports, 1896-97 (institutional; Günther was also a family friend who advised her what to collect); (2) William Libbey, Princeton geographer, Science 1897 (independent and partly critical -- the adversarial voice); (3) Stephen Gwynn 1932, acquainted biographer with her letters (insider, admiring), carrying third-party testimony (Günther's 1900 letter, Lewis Lusk's 1900 Spectator letter, Morel's notice, a West Coast trader's letter); (4) Lucy Toulmin Smith, DNB 1901 (friend; contemporary reference work); (5) Edward Clodd 1916 (acquaintance memoir with her letters); (6) Carl Hopkins, modern ichthyologist (outcome assessment only). SELF perspective (counted once): Travels in West Africa and her letters as quoted by Gwynn and Clodd. Independence caveats: Gwynn, DNB and Clodd are all friends/admirers and draw partly on her own writings; Günther is the main independent behavioural anchor and Libbey the only critical one. Per the Roster40 calibration lesson, all rows stay at confidence <= 0.66 and score < 80. NON-SELF BEHAVIOURAL sources: Günther/Kirby, DNB, Gwynn's own and third-party material, Libbey, Clodd. No row rests on self material alone.\nEPISODE USE: 1893 solo first voyage -> autonomy_need only; 1894 preparation and Dec 1894 return with BM collector's outfit -> persistence only; 1895 Ogowe rapids (dissuasion, capsizes) -> risk_tolerance and autonomy_need (husband quip); 1895 fish/reptile collecting under capsizes (Günther) -> persistence and detail_orientation; Ogowe-Rembwe Fan-country crossing -> risk_tolerance; Efoua trading and learning to trade rubber/oil to pay her way -> resourcefulness (and the trading-network context in adaptability is the DNB summary, not the Efoua episode); Libreville revolver/collecting cases -> resourcefulness only; Mungo Mah Lobeh 26 Sep 1895 -> risk_tolerance and persistence; canoe/pilotage learning and trader's letter -> adaptability only; 1896 letters to Macmillan refusing reviser's factual changes and the makeshift map -> detail_orientation and independent_thinking; keeping the humorous material against Green/Guillemard -> independent_thinking only; home self-education, multi-taxon collecting, notes, Egbo reader, Tylor visit, Clodd questions -> curiosity only; Lusk 1900 letter -> risk_tolerance only; mission controversy (Libbey, Clodd) -> independent_thinking only (as fact of departure from consensus, not its content).\nROWS CONSIDERED AND LEFT UNSCORED: belief_updating (the 1893 'greatest recantation' about traders and the Tylor 'lesson' are self-reported only); mastery_orientation (canoe and pilotage mastery and 'diligent pupil' are her own claims; the piloting of 2000-ton vessels across Forcados bar is an uncorroborated self-claim); collaboration (DNB's 'friends and admiring helpers' is a friend's summary; she depended on crews and traders, but no specific non-self episode was read); social_assertiveness (the Lake Ncovi stroll ashore is a single self anecdote); discipline / achievement_drive (output of books and lectures 1896-1900 is an output count, not used); persuasiveness and leadership_drive (her influence with Liverpool merchants and the Colonial Office is political and not used); conflict_tolerance (Lugard/Spectator disputes are political).\nEXCLUDED ON PURPOSE: her years caring for her parents, their deaths in 1892, Gwynn's discussion of her 'extreme melancholy' and her 1899 self-descriptions ('no more a human being than a gust of wind') -- no personality inference from caregiving, bereavement or mood; her own illnesses (e.g. Clodd's Jan 1898 letter) and her death from enteric fever at Simon's Town in June 1900 while nursing Boer prisoners (factual mention only); her colonial-administration, hut-tax, liquor-traffic, Royal Niger Company, Lugard and Chamberlain positions (political commentary; Gwynn ch. IX-XI not used); her racial/ethnological generalisations quoted by Gwynn (period views, not behavioural evidence); DNB's character paragraph and Clodd's eulogy; her self-deprecations and comic exaggerations of fear (Gwynn notes 'terrified' was a figure of speech) taken literally; the 'first Englishwoman' style claims.\nKNOWN LIMITS: no contemporary newspaper obituary or review other than Libbey's was read directly; the vivid episode detail comes from her own narrative, so risk_tolerance is held at 78/0.66 despite three distinct episodes. Third-party testimony in Gwynn (Günther letter, Lusk, Morel, trader) is second-hand through an admiring biographer. Dates: DNB has her first journey Aug 1893-Jan 1894 and second Dec 1894-Nov 1895; Clodd mistakenly speaks of a third journey in 1896 -- not used.\nPORTRAIT: Commons 'File:Portrait of Mary Kingsley.jpg'. File-page wikitext (action=raw): Information template, date 'no later than 1900', source Internet Archive memoires00cloduoft page 74, author {{creator:A. G. Dew-Smith}}, license {{PD-US}}; no third-party/copyright-claim notice. Commons API: LicenseShortName 'Public domain', Copyrighted False, original 818x1270, SHA1 1da9f7345d276812151a107ddcbb8824495e9a97 (matched by the downloaded file). UPSTREAM CHECK: the Internet Archive djvu text of Clodd's Memories (Chapman and Hall, London, 1916) lists 'MARY H. KINGSLEY ... 74' among the plates and carries the credit 'Photo, A. G. Dew-Smith, Esq.' and the courtesy line 'Reproduced by kind permission of Mrs. Roy-Batty' (a permission courtesy, not a rights reservation). Basis: photographer Albert George Dew-Smith died 1903 (>70 years p.m.a.) and the image was published in 1916 (before 1931, so PD in the US). The DNB 1901 notes a profile photograph of her taken at Cambridge in 1893; this profile may be that one, but that is not confirmed, so the date is given as '1890s (no later than 1900)'. Original downloaded with curl and a User-Agent, opened with Pillow (JPEG, RGB, 818x1270); long edge under 1600 px, so saved unchanged (no resize, no crop, no upscaling) as /portraits/mary-kingsley-dew-smith-1890s.jpg. Viewed: seated half-length profile photograph of a woman in a dark fur cap and dark jacket, matching other published likenesses. Kind: likeness. REJECTED: 'Mary H Kingsley Wellcome L0046617.jpg' (Commons {{cc-by-4.0}}; but the Wellcome catalogue API for the linked work (yjrp9sm7, West African Studies 2nd ed. 1901) labels the image 'In copyright' (rightsstatements.org InC) -- the known Wellcome contradiction trap); 'Mary Kingsley01.jpg' (bare PD-Art, scraped from a qub.ac.uk teaching page, unknown author); 'Mary Kingsley - Project Gutenberg eText 13103.jpg' (PD-Gutenberg tag only, image from Anne E. Keeling's Great Britain and Her Queen, creator not stated, no publication date documented on the file page).\nKOREAN NAME: '메리 킹즐리' is the Wikidata ko label (no Korean Wikipedia article exists). No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION (lead review, frozen before any eligibility computation): evidence_approved -- an honest, evidence-backed profile with >=2 independent provenance perspectives and >=1 substantive non-self behavioural source. Portrait rights-verified."
+  }
+}
