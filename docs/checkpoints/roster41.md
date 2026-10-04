@@ -210,7 +210,12 @@ eligible exactly 114). It does not assert additions are non-eligible.
 
 ## Post-commit scoring lock
 
-Recorded after the implementation commit (see follow-up).
+Run against the clean committed HEAD (implementation commit `7466076`):
+"Checked 415 previously-committed candidate file(s) against HEAD. 0
+flagged." with "Legacy scoring lock: 22 pre-pipeline production people
+covered, 0 flagged." Mechanical count of committed
+`data-pipeline/candidates/*.json` at that HEAD (`git ls-tree`): **415** =
+415 on disk = the checked count. Implementation commit: 57 changed files.
 
 ## Operational notes
 
