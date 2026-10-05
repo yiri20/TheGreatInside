@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gertrude-ederle",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Gertrude Ederle",
+    "aliases": ["Trudy Ederle", "Gertrude Caroline Ederle"],
+    "wikidataId": "Q263287",
+    "birthYear": 1905,
+    "deathYear": 2003,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["athlete"],
+    "fieldIds": ["sport"],
+    "impactDomains": ["athletic", "historical"],
+    "tagIds": ["competitor"],
+    "archetypeIds": ["competitive_performer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ederle_wikidata",
+      "kind": "wikidata",
+      "title": "Gertrude Ederle (Q263287) -- verified live via wbgetentities (2026-10-05): en label 'Gertrude Ederle', description 'American swimmer (1905-2003)', P569 23 Oct 1905, P570 30 Nov 2003, citizenship United States, instance of human, place of birth New York City, P18 'Gertrude Ederle.jpg'. No Korean label on Wikidata. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q263287"
+    },
+    {
+      "id": "src_ederle_wikipedia",
+      "kind": "wikipedia",
+      "title": "Gertrude Ederle -- Wikipedia article, read as orientation only; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Gertrude_Ederle"
+    },
+    {
+      "id": "src_ederle_olympedia",
+      "kind": "award_body",
+      "title": "Olympedia (olympedia.org), 'Trudy Ederle' athlete biography and results page (read in full) -- the Olympic statistical reference: 1924 Paris results (gold 4x100 m freestyle relay, bronze 100 m and 400 m freestyle), nine world records including seven in one 500 m swim at Brighton Beach in 1922, youngest woman to set a world record (1919), 1925 professional swim from Lower Manhattan to Sandy Hook, the failed 1925 Channel attempt and the 1926 crossing, trainer Tom Burgess. Its text gives 14 h 34 min for the swim while its own records list gives 14:39; contemporary press and Britannica give 14 h 31 min.",
+      "url": "https://www.olympedia.org/athletes/51010"
+    },
+    {
+      "id": "src_ederle_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Gertrude Ederle' biography (read in full) -- encyclopaedia overview: eight-beat crawl, 29 national and world amateur records 1921-1925, 1924 Olympic medals, the 1926 crossing from Cape Gris-Nez in 14 h 31 min (1 h 59 min inside the men's record) in a self-designed two-piece suit, the New York parade, the 1933 back injury, the 1939 Aquacade, instructing deaf children, Hall of Fame inductions.",
+      "url": "https://www.britannica.com/biography/Gertrude-Ederle"
+    },
+    {
+      "id": "src_ederle_indytimes_1926",
+      "kind": "press",
+      "title": "The Indianapolis Times, 7 August 1926, p. 1 and p. 3, 'Ederle to sail home on Aug. 21' / 'World acclaims Gertrude Ederle' (United Press dispatches from Dover and Boulogne), Library of Congress Chronicling America OCR text -- period wire reporting the day after the swim, written by reporters who followed the swim from a tug; OCR partly garbled but read in full for the parts used (her return to the water next day, her refusal to be taken out, her reply to Burgess after ten hours, the British press reaction).",
+      "url": "https://www.loc.gov/resource/sn82015313/1926-08-07/ed-1/?sp=1"
+    },
+    {
+      "id": "src_ederle_kennebec_1926",
+      "kind": "press",
+      "title": "Daily Kennebec Journal (Augusta, Maine), 7 August 1926, p. 1, Associated Press report from Dover, 'Woman makes channel swim', and a congratulatory cable from Henry F. Sullivan, Library of Congress Chronicling America OCR text -- second, independent news service and a rival Channel swimmer's comment; read for the dated facts (start about 7 am from Cape Gris-Nez, landing at Kingsdown in the evening, 14 h 31 min, faster than the five men before her).",
+      "url": "https://www.loc.gov/resource/sn82014248/1926-08-07/ed-1/?sp=1"
+    },
+    {
+      "id": "src_ederle_nbh_1925",
+      "kind": "press",
+      "title": "New Britain Herald (New Britain, Connecticut), 18 August 1925, p. 1, Associated Press and North American Newspaper Alliance reports on Ederle's first Channel attempt, Library of Congress Chronicling America OCR text -- same-day wire account of the 1925 attempt (start, pace, companions swimming alongside, the collapse and recovery by Helmy); read for the first half of the article.",
+      "url": "https://www.loc.gov/resource/sn82014519/1925-08-18/ed-1/?sp=1"
+    },
+    {
+      "id": "src_ederle_southbend_1925",
+      "kind": "press",
+      "title": "South Bend News-Times (Indiana), 19 August 1925, p. 10, United News report 'Miss Ederle sinks unconscious when near British coast', Library of Congress Chronicling America OCR text -- a United News correspondent's account written aboard or from the tug, with her statements after the attempt; read in full. Distances from the English coast and times differ between wire reports of the same day (and from later summaries), so only the broad sequence is used.",
+      "url": "https://www.loc.gov/resource/sn87055779/1925-08-19/ed-1/?sp=10"
+    },
+    {
+      "id": "src_ederle_birmingham_1925",
+      "kind": "press",
+      "title": "The Birmingham Age-Herald (Alabama), 19 August 1925, p. 7, 'Ederle fails to reach goal', Library of Congress Chronicling America OCR text -- a second newspaper's version of the same 1925 dispatches, used only to cross-check the sequence and not counted as a separate perspective.",
+      "url": "https://www.loc.gov/resource/sn85038485/1925-08-19/ed-1/?sp=7"
+    },
+    {
+      "id": "src_ederle_outside_2017",
+      "kind": "press",
+      "title": "Outside Online, 'Gertrude Ederle, the First Woman to Brave the English Channel' (5 December 2017) -- magazine feature that interviews the sports historian Glenn Stout (author of Young Woman and the Sea) and the historian Susan Cahn; secondary retelling of the 1925-26 attempts, the 1924 disappointment, and later life. Anecdotes it repeats from Stout (e.g. the tea-poisoning belief about her first trainer) are not used.",
+      "url": "https://www.outsideonline.com/outdoor-adventure/water-activities/first-woman-brave-english-channel/"
+    },
+    {
+      "id": "src_ederle_ebsco_2021",
+      "kind": "institution",
+      "title": "Elizabeth D. Schafer, 'Ederle Swims the English Channel', EBSCO Research Starters (History), 2021 -- scholarly reference article with a bibliography (Colwin, Smith, Unwin, Wennerberg, Woolum); gives the 1925 attempt, her change of trainer, the media sponsorships, the 1926 storm and her refusal to stop, the London Daily News dissent, and the aftermath including the later faster crossing by Ernst Vierkoetter.",
+      "url": "https://ebsco.com/research-starters/history/ederle-swims-english-channel"
+    },
+    {
+      "id": "src_ederle_loc_bain",
+      "kind": "archive",
+      "title": "Library of Congress Prints and Photographs Division, George Grantham Bain Collection, 'Ederle' (LC-DIG-ggbain-37118) -- catalogue record for the portrait: 'No known restrictions on publication'; dated 1924 in the catalogue (the negative bears a later 1926 publication date).",
+      "url": "https://www.loc.gov/pictures/item/2014717266/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ederle_indytimes_1926, src_ederle_ebsco_2021, src_ederle_southbend_1925, src_ederle_nbh_1925 | 1925-1926 | period wire reporting (United Press, Associated Press, United News) + scholarly reference | independent of each other] After the 1925 attempt ended with a collapse and rescue after roughly nine hours, she did not stop: she found a new trainer and returned in 1926 (EBSCO). In 1926 United Press reports that, after about ten hours in rough water, Burgess advised her to abandon and she answered that there was no reason she should quit now; EBSCO records that she ignored his demands to stop through the evening storm, including a left-leg cramp. Two attempts, two perspectives (wire press and a scholarly summary); capped at 0.62 because the 1926 refusal rests largely on retellings of the same tug-side reporting and her own statements."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ederle_indytimes_1926, src_ederle_ebsco_2021, src_ederle_nbh_1925 | 1925-1926 | wire press + scholarly reference] Wire reports record that before the 1926 swim she had her father promise not to take her out until she was sinking for the second time, and that she had protested when her trainer removed her in 1925; she kept swimming into a rising storm in which the support boat lost sight of her for a time (EBSCO). Choosing to go to the limit of endurance in open water with limited rescue margin is consistent with high risk tolerance. dual_edged because the same 1925 attempt ended in collapse. Kept moderate because the evidence is two attempts in one sport."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ederle_indytimes_1926, src_ederle_ebsco_2021, src_ederle_britannica | 1925-1926 | wire press + scholarly reference + encyclopaedia] She objected publicly to her trainer's removing her from the water in 1925 (United Press, 1926), replaced him with a trainer of her own choosing, and in 1926 refused repeated advice to stop (EBSCO). She also designed her own two-piece swimming suit for the crossing (Britannica; EBSCO). Distinct episodes showing a preference for deciding how her own attempt was run; strong_inference because the sources describe actions, not her stated motive."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ederle_ebsco_2021, src_ederle_britannica, src_ederle_outside_2017 | 1925-1926 | scholarly reference + encyclopaedia + magazine feature citing the biographer Stout] After the failed 1925 Channel attempt she did not wait for her sponsors: EBSCO says she located another trainer, raised money, secured media sponsorships and trained near Cape Gris-Nez; Outside (citing Stout) says she turned to the Channel after being disappointed by her 1924 Olympic results. Self-initiated sequence of steps toward a stated goal; kept at 0.55 because the 1924 motive comes only from a secondary retelling."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ederle_olympedia, src_ederle_britannica, src_ederle_outside_2017, src_ederle_indytimes_1926 | 1919-1926 | statistical reference + encyclopaedia + magazine feature + wire press] Olympedia and Britannica record repeated record-setting from 1919 to 1925; Outside (citing Stout) says she was sorely disappointed by her 1924 Olympic showing and then set her sights on the Channel; the 1926 wire report quotes her 'the great point ... was to show that a girl could do it'. Scored from the sequence of self-set goals after setbacks rather than from the records or medals themselves; kept low in confidence because the 1924 disappointment is a secondary retelling and EBSCO notes she denied a wider agenda."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "거트루드 에덜리"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities for Q263287 (2026-10-05) returned en label 'Gertrude Ederle', description 'American swimmer (1905-2003)', P569 23 Oct 1905, P570 30 Nov 2003, citizenship United States, instance of human. SLUG CHECK: not in scratch/prod_slugs.txt and no existing candidate file. SOURCES READ: Olympedia, Britannica, EBSCO Research Starters, Outside Online feature, and Library of Congress Chronicling America OCR pages (Indianapolis Times 7 Aug 1926 pp. 1 and 3 and p. 9 sports column, Daily Kennebec Journal 7 Aug 1926, Arizona daily editorial 8 Aug 1926 for corroboration, New Britain Herald 18 Aug 1925, South Bend News-Times and Birmingham Age-Herald 19 Aug 1925, plus 1924 Olympic wire pages for cross-checking results). NOT ACCESSIBLE: Glenn Stout, Young Woman and the Sea (Internet Archive lending copy, full text restricted), Stout's Yes She Can, Gallico's Farewell to Sport, the New York Times 1926 coverage and 2003 obituary (paywall/403), and the Telegraph/Guardian obituaries. Stout is therefore known only through quotations in the Outside feature. Perspectives: US wire press (UP, AP, United News), a scholarly reference article, an Olympic statistical reference, encyclopaedia. Disclosed discrepancies: swim time 14:31 (press, Britannica, EBSCO) vs 14:34/14:39 (Olympedia); 1925 distance from England varies between wire reports; the 1925 removal is described by later sources as Wolffe mistakenly thinking she was choking (EBSCO) while contemporary wires say she collapsed. HEALTH RULE: her childhood hearing impairment, later hearing loss, 1933 back injury and the post-fame strain mentioned in secondary sources are not used for any scored row. Zero-politics: no political content. Not scored (insufficient independent behavioural evidence): collaboration, discipline, competitiveness, social attributes. PORTRAIT: Bain News Service photograph, Library of Congress (LC-DIG-ggbain-37118), Commons wikitext PD-Bain; see portrait block."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gertrude-ederle-bain-1924.jpg",
+    "width": 1600,
+    "height": 1196,
+    "source": "Library of Congress Prints and Photographs Division, George Grantham Bain Collection, 'Ederle' (LC-DIG-ggbain-37118; hdl.loc.gov/loc.pnp/ggbain.37118), via Wikimedia Commons 'Gertrude Ederle.jpg' (downsized from 3618x2704)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Bain",
+    "attribution": "Bain News Service, 'Ederle', photograph, 1924 (catalogue date; negative annotated 7/9/26 for later publication); Library of Congress Prints and Photographs Division (LC-DIG-ggbain-37118), 'No known restrictions on publication'",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2014717266/",
+    "creator": "Bain News Service",
+    "date": "1924",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_Ederle.jpg"
+  }
+}

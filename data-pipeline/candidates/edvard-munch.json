@@ -1,0 +1,245 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edvard-munch",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Edvard Munch",
+    "wikidataId": "Q41406",
+    "birthYear": 1863,
+    "deathYear": 1944,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NO"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_munch_wikidata",
+      "kind": "wikidata",
+      "title": "Edvard Munch (Q41406) -- verified live via wbgetentities (2026-10-05): en label 'Edvard Munch', description 'Norwegian painter (1863-1944)', born 12 Dec 1863, died 23 Jan 1944, citizenship Norway, ko label '에드바르 뭉크'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q41406"
+    },
+    {
+      "id": "src_munch_wikipedia",
+      "kind": "wikipedia",
+      "title": "Edvard Munch, English Wikipedia -- orientation only (dates, spelling of titles); not used as support for any row.",
+      "url": "https://en.wikipedia.org/wiki/Edvard_Munch"
+    },
+    {
+      "id": "src_munch_schiefler1907",
+      "kind": "biography",
+      "title": "Gustav Schiefler (Hamburg jurist and Munch's first cataloguer and collector), 'Verzeichnis des graphischen Werks Edvard Munchs bis 1906' (Berlin: Bruno Cassirer, 1907), Getty Research Institute scan on the Internet Archive -- CLOSE-BUT-INDEPENDENT collector-cataloguer account: Schiefler went through the prints sheet by sheet with the artist, so the technical entries rest on Munch's own statements, and the sympathetic introduction is a contemporary collector's reading. Read the preface, the introduction (pp. 5-20: subject, style, reception, and the woodcut, lithograph and etching practice) and the catalogue entries on printing, states and combined techniques; entries for individual sheets were skimmed.",
+      "url": "https://archive.org/details/gri_33125010866610"
+    },
+    {
+      "id": "src_munch_schiefler1916",
+      "kind": "biography",
+      "title": "Gustav Schiefler, 'Edvard Munch: Vortrag in der Gesellschaft Hamburgischer Kunstfreunde' (Berlin: Graphisches Kabinett J. B. Neumann, 1916), Internet Archive scan -- a collector and personal acquaintance's lecture (1916), partly first-hand (conversations with Munch, the 1902-1908 years) and openly admiring. Read in full; its remarks on Munch's health and nervous state were deliberately not used for scoring.",
+      "url": "https://archive.org/details/edvardmunchvortr00schi"
+    },
+    {
+      "id": "src_munch_daswerk1894",
+      "kind": "biography",
+      "title": "Stanislaw Przybyszewski (ed.), 'Das Werk des Edvard Munch: Vier Beitraege von Stanislaw Przybyszewski, Franz Servaes, Willy Pastor, Julius Meier-Graefe' (Berlin: S. Fischer, 1894), Google Books scan via the Internet Archive -- CONTEMPORARY critical symposium written within about a year of the Berlin controversy; the editor says it deliberately mixes unconditional advocacy (Przybyszewski), a qualified view (Servaes), a calm one (Pastor) and an enthusiastic one (Meier-Graefe). Read the preface, the Przybyszewski, Servaes and Pastor essays in the main, and Meier-Graefe's account of the Berlin critics' reaction and Munch's answer to it (pp. 59-72); the OCR is rough in places.",
+      "url": "https://archive.org/details/daswerkdesedvar00meiegoog"
+    },
+    {
+      "id": "src_munch_glaser1922",
+      "kind": "biography",
+      "title": "Curt Glaser (art historian and Berlin museum curator), 'Die Graphik der Neuzeit vom Anfang des XIX. Jahrhunderts bis zur Gegenwart' (Berlin: Bruno Cassirer, 1922), Internet Archive scan, chapter section on Munch and the revival of the woodcut, pp. 517-527 -- INDEPENDENT critical-historical overview written two decades after the prints, with an explicit evaluative thesis (Munch as central figure of recent graphic art), so it is read for what it describes of his working practice (sequence of media, reworking, sawn blocks, return to woodcut) rather than for its verdicts.",
+      "url": "https://archive.org/details/diegraphikderneu03glas"
+    },
+    {
+      "id": "src_munch_mm_timeline",
+      "kind": "institution",
+      "title": "Munchmuseet (Oslo), 'Edvard Munch's life 1863-1944' timeline, munchmuseet.no -- institutional chronology by the museum that holds the artist's bequest; official-legacy perspective, not independent of Munch's reputation. Read in full; used only for dated actions (1889 solo show, Berlin 1892, printmaking, Aula 1909-1916, the 1940 will).",
+      "url": "https://www.munchmuseet.no/en/edvard-munch/edvard-munch-timeline/"
+    },
+    {
+      "id": "src_munch_mm_tax",
+      "kind": "institution",
+      "title": "Munchmuseet, 'Edvard Munch's struggle with the tax authorities', munchmuseet.no -- museum article quoting Munch's own notes and a 300-page tax notebook (primary-source quotations mediated by the museum); read in full.",
+      "url": "https://www.munchmuseet.no/en/edvard-munch/edvard-munchs-struggle-with-the-tax-authorities/"
+    },
+    {
+      "id": "src_munch_mm_10things",
+      "kind": "institution",
+      "title": "Munchmuseet, '10 things you may not know about Edvard Munch', munchmuseet.no -- museum article quoting Munch's letters and notebooks (technology interests, disputes with critics and colleagues, storage of works at Ekely); read in full; incidents of private life and temper deliberately not scored.",
+      "url": "https://www.munchmuseet.no/en/edvard-munch/10-things-you-may-not-know-about-edvard-munch/"
+    },
+    {
+      "id": "src_munch_mm_hecto",
+      "kind": "institution",
+      "title": "Signe Endresen (senior curator) and Emma Turgut (paper conservator), 'Edvard Munch's hectographs', Munchmuseet, 18 Jan 2024 -- curators' account of a 2023 research project that re-created Munch's hectographic inks and gelatins; read in full.",
+      "url": "https://www.munchmuseet.no/en/our-collection/edvard-munchs-hectographs/"
+    },
+    {
+      "id": "src_munch_mm_scream",
+      "kind": "institution",
+      "title": "Ute Kuhlemann Falck (curator), '5 things you should know about The Scream', Munchmuseet, 2020 (rev. 2024) -- curator's account of the versions, the 1892 diary text and the lithograph's reproduction; read in full.",
+      "url": "https://www.munchmuseet.no/en/our-collection/5-things-you-should-know-about-the-scream/"
+    },
+    {
+      "id": "src_munch_mm_who",
+      "kind": "institution",
+      "title": "Munchmuseet, 'Who was Edvard Munch?', munchmuseet.no -- museum video-series page on three self-portraits, including remarks on his 1895 printmaking (Madonna lithograph in several hundred impressions; changing plates while printing); read in full.",
+      "url": "https://www.munchmuseet.no/en/edvard-munch/who-was-edvard-munch/"
+    },
+    {
+      "id": "src_munch_mm_stenersen",
+      "kind": "institution",
+      "title": "Munchmuseet, 'The Art Collector Rolf Stenersen', munchmuseet.no -- museum article on collector Rolf Stenersen (b. 1899), reporting Munch's advice to him and Stenersen's own statements; read in full. Used only for the Stenersen perspective on Munch as an older artist, not for any score.",
+      "url": "https://www.munchmuseet.no/en/our-collection/the-art-collector-rolf-stenersen/"
+    },
+    {
+      "id": "src_munch_mm_inherit",
+      "kind": "institution",
+      "title": "Munchmuseet, 'About the Collection - A fragile inheritance', munchmuseet.no -- museum description of Munch's 1940 bequest to the City of Oslo and what it contains; read in full.",
+      "url": "https://www.munchmuseet.no/en/our-collection/about-the-collection-a-fragile-inheritance"
+    },
+    {
+      "id": "src_munch_emunch_aula",
+      "kind": "institution",
+      "title": "eMunch.no (Munch Museum / University of Oslo scholarly edition of Munch's writings and letters), 'The Aula Decorations', English commentary -- editors' summary of the University of Oslo hall decorations (1909-1916), quoting Munch's own phrase about the 1911 decision; read in full.",
+      "url": "https://emunch.no/commentEnglish.xhtml?id=co-eng2"
+    },
+    {
+      "id": "src_munch_berlinische",
+      "kind": "institution",
+      "title": "Berlinische Galerie, press kit for the exhibition 'Edvard Munch: Magic of the North' (Berlin, press release of 13 Sep 2023), PDF, berlinischegalerie.de -- Berlin museum's account of the 1892 'Munch Affair', Munch's exhibition strategy in Berlin 1893-1902 and the 1913 Secession showing; written by a Berlin institution, so independent of the Oslo museum, but a curatorial overview rather than a scholarly study. Read the full press text and the catalogue and chronology sections.",
+      "url": "https://berlinischegalerie.de/assets/downloads/presse/Pressetexte/Ausstellungen_2023/Edvard_Munch/Press-kit_Edvard-Munch_Berlinische-Galerie.pdf"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Schiefler 1916, Meier-Graefe in the 1894 symposium, Glaser 1922, Munch Museum timeline | 1880s-1894 | collector, contemporary critic, art historian, institution; secondary, partly first-hand] Schiefler says Munch was never a pupil of any master and kept his independence even from his first mentor Christian Krohg; Meier-Graefe (1894) records that Berlin critics told him to change his manner or forgo their favour and that Munch answered with new pictures that continued the same line further; Munch Museum records that around 1889-91 he decided his art should be personal and stripped to essentials. Independent accounts from different decades agree on the pattern; scored in the 70s, not higher because the critics' account is partisan and the 1894 volume is an advocacy project."
+    },
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Schiefler 1907, Glaser 1922, Munch Museum hectograph article 2024 | 1894-1934 | cataloguer, art historian, curators; secondary, one cataloguer who worked with Munch directly] Schiefler lists woodcuts cut from rough crate boards using the grain, and a combination print from two stones and a block sawn into three parts; Glaser notes he sawed blocks to print colour, tried colour lithography in 1896 and moved between etching, lithograph and woodcut; the 2023 curators' project found he combined lithograph with woodcut, zincograph or linocut and used hectography for about thirty years (1905-1934, roughly 100 motifs). Several dated, independent instances across media."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Schiefler 1907, Glaser 1922, Przybyszewski/Pastor 1894, Berlinische Galerie 2023 | 1890s | contemporary critics and cataloguer plus Berlin museum; secondary] Contemporary and later accounts describe the 1890s work as a new pictorial language built from simplified lines and masses and from motifs repeatedly rethought (Schiefler 1907; Glaser; Pastor), and the 1892 Berlin audience found it so unlike Nordic landscape expectations that the show was closed (Berlinische Galerie). Scored from documented departures in subject and handling, not from later fame; kept below 80 confidence because the sources are largely advocates and the judgement of novelty is theirs."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Schiefler 1916, Munch Museum hectograph article, tax article | 1880s-1930s | collector, curators, Munch's own notes via the museum; secondary and mediated primary] Schiefler: no master, even in his student years; curators: Munch printed hectographs himself on what he called his 'secret press', avoiding the professional printers other techniques needed; his tax notebook insists he must be allowed to work in peace with his unsold works around him. Three distinct episodes in different periods; the tax material is his own advocacy, so the score stays in the high 70s."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[eMunch.no Aula commentary, Munch Museum timeline, Glaser 1922, Schiefler 1907 | 1889-1916 | editors, institution, art historian, cataloguer; secondary] After his 1911 Aula drafts were rejected, he called it 'a victorious defeat' and at once began a new final version of The Sun, hanging eleven paintings in 1916 after an intervening 1913 Berlin exhibition; Glaser says he reworked key images over years and decades; Schiefler says he kept at his style through roughly a decade of poor sales. Dated, independent instances; scored in the low 70s."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Schiefler 1907, Munch Museum hectograph article | 1890s-1930s | cataloguer and curators; secondary] Schiefler describes him cutting large woodcuts from cheap crate boards with a rough knife and gouge and carrying a copper plate in his pocket to scratch with a cold needle; curators describe hectographs made from gelatin and dyes bought in shops, printed at home with no printing plate. Two independent, distinct episodes of getting results from cheap or improvised materials; no single documented crisis-solving incident, so strong_inference."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[Berlinische Galerie 2023, Munch Museum timeline and tax and 10-things articles, Meier-Graefe 1894 | 1892-1920s | institutions quoting his letters and notes; contemporary critic] He wrote that the Berlin closure was the best publicity he could have, and (Meier-Graefe) kept to his path after the critics' attacks; later notes show open disputes with critics at Aftenposten, with colleagues such as Krohg and Heiberg, and an extended written dispute with the tax authorities. Documented willingness to stay in disagreement; dual_edged because the same notes show long-running grievances. Private-life disputes and anything about temper were not used."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Munch Museum timeline, Berlinische Galerie 2023, Munch Museum Scream article | 1889-1928 | institutions; secondary] In 1889 he rented a space and filled it with his own paintings for Kristiania's first solo show, which helped secure a scholarship; in winter 1893-94 he hired two rooms on Unter den Linden to show his Love pictures as a series and repeated the strategy in 1895; in 1928 he published his own booklet on the Frieze of Life including the full Scream text. Three self-initiated moves in different years from two independent institutions."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[Munch Museum timeline, Schiefler 1907 and 1916 | 1889-1902 | institution, cataloguer; secondary] Chose a self-funded solo show in 1889, moved to Berlin after the 1892 scandal, tried to win Paris in 1896 and failed, and kept to an unsaleable style through a decade of small income (Schiefler). Repeated career bets with real cost; dual_edged because the Paris attempt failed. Income and living conditions were used only as the cost of the decision, not as a trait in themselves."
+    },
+    "opportunity_sensing": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[Berlinische Galerie 2023, Munch Museum timeline | 1892-1893 | institutions quoting a letter to his aunt; secondary] Reacted to the closure of his Berlin show by writing that he could have no better advertisement and by moving to Berlin; used a Berlin exhibition in 1893-94 to show the Love series. One quoted letter and a consistent sequence, but no second independent source on his own motives, so inference."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Munch Museum 10-things article and timeline, Schiefler 1907, Munch Museum hectograph article | 1890s-1930s | institution and cataloguer; secondary] Records that he took up etching, lithograph and woodcut in turn in the 1890s (Schiefler), acquired a film camera, camera, telephone, radio and a voice-recording parlograph and made his first film experiments in 1927, and spent decades on an obscure printing method; two independent sources for different kinds of exploration. Not scored higher because the evidence concerns tools and media, not wider intellectual range."
+    }
+  },
+  "externalIdentity": {
+    "wikidataId": "Q41406"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/edvard-munch-wilse-1933.jpg",
+    "width": 1118,
+    "height": 1600,
+    "source": "Norsk Folkemuseum (Anders Beer Wilse collection, NF.WA03293), via DigitaltMuseum object 0210114085571 and Wikimedia Commons file 'Edvard Munch 1933-2.jpg'",
+    "license": "Public domain (Public Domain Mark per Norsk Folkemuseum on DigitaltMuseum; Commons tag PD-Norway50; photographer Anders Beer Wilse, 1865-1949; photographed 20 Nov 1933)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photograph of Edvard Munch by Anders Beer Wilse, 20 November 1933, Norsk Folkemuseum (NF.WA03293)",
+    "attributionUrl": "https://digitaltmuseum.no/0210114085571/prot-munch-edvard-20-11",
+    "creator": "Anders Beer Wilse",
+    "date": "1933-11-20",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Edvard_Munch_1933-2.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에드바르 뭉크"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-05) for Q41406 returned en label 'Edvard Munch', description 'Norwegian painter (1863-1944)', born 12 Dec 1863, died 23 Jan 1944, citizenship Norway (Q20), ko label '에드바르 뭉크', P18 'Edvard Munch 1933-2.jpg' and 'Edvard Munch 1921.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupation painter, field art, domains artistic and cultural, archetypes creative_creator and independent_creator (as the gustav-klimt candidate), tags innovator and independent; region western_europe (Nordic precedent: Finland/Norway -> western_europe; Klimt and other Germans/Austrians use central_europe, Monet/Rembrandt/van Gogh western_europe). ERA 20th_century (active 1880s-1944, as Klimt). EVIDENCE READ (14 substantive records plus 2 orientation): Schiefler 1907 catalogue (preface, introduction, printing-practice entries), Schiefler 1916 lecture (full), the 1894 symposium (Przybyszewski, Servaes, Pastor, Meier-Graefe; most essays), Glaser 1922 (Munch section pp. 517-527), Munch Museum timeline, tax article, '10 things', hectograph article, Scream article, 'Who was Edvard Munch?', Stenersen article, 'A fragile inheritance', eMunch.no Aula commentary, Berlinische Galerie 2023 press kit. INDEPENDENT PERSPECTIVES: contemporary critics (Servaes, Pastor, Meier-Graefe, Przybyszewski, 1894), collector-cataloguer Gustav Schiefler (1907, 1916), art historian Curt Glaser (1922), Berlinische Galerie (2023), Munch Museum curators and editors (the bequest holder, so a legacy perspective), the collector Rolf Stenersen (via museum page). Munch's own writing is used only as quoted in museum and Berlinische Galerie texts and is never the sole support. NOT ACCESSED (borrow-only or paywalled; not substituted from memory): Tojner, 'Munch: In His Own Words' (2003); Prideaux, 'Edvard Munch: Behind the Scream' (2005); Eggum, 'Edvard Munch: The Frieze of Life from Painting to Graphic Art' and other Eggum volumes; Ingrid Reed's work; Stenersen's own memoir; Schiefler's published letters. SOURCE CONFLICT NOTED: Schiefler (1916) says the 1892 Berlin show was closed after one day; the Berlinische Galerie and Munch Museum say after a few days / about a week; the editorial uses the later sources and says 'about a week'. SAFETY: Schiefler 1916 and the Munch Museum timeline discuss illness, bereavement, a 1908 clinic stay, alcohol, a pistol incident and a failed relationship; none of this was used to score any attribute or in any rationale, per the safety rule on health and private conditions. Politics and the war-time context are incidental and unscored (the 1940 will is cited only as an act of preserving his works). Scores kept at or below 80 and confidence at or below 0.68 because the sources are largely admiring (collector, advocate critics, legacy museum) with limited adversarial corroboration. Eleven rows; no row was added or tuned toward any count or eligibility figure."
+  }
+}

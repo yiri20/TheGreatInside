@@ -5654,6 +5654,288 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Tchaikovsky had repeatedly said he could not conduct, and in October 1886 he wrote to von Meck that the very thought of the podium made him tremble. In December 1886 he took his first orchestral rehearsal, and on 19/31 January 1887 he conducted the premiere of his revised opera Cherevichki at the Bolshoi Theatre in Moscow. By the end of 1887 he had set out on a first European tour as a conductor, and over the next six years he conducted his own music in Prague, Paris, London and, in 1891, at the opening week of the new Music Hall in New York, later called Carnegie Hall.",
   "pyotr-ilyich-tchaikovsky.interpretation.turning_point.1":
     "The change illustrates the profile's adaptability: a self-described reluctance gave way to a sustained new public role. The difficulty is self-reported, and Walter Damrosch, who hosted him in 1891, wrote that he found the work tiring but that the players followed his intentions eagerly.",
+  /* ---------------------------------------------------------- antonin-dvorak (Roster43) */
+  "antonin-dvorak.achievement.1":
+    "Dvořák wrote his Symphony in E minor, 'From the New World' (Op. 95; now numbered No. 9), in New York in 1893, and the New York Philharmonic Society under Anton Seidl gave its first performance on 16 December 1893. Otakar Šourek notes that the work uses the pentatonic scale and syncopated rhythms Dvořák had met in spirituals and Indian songs, and that Dvořák built some of its themes in the same spirit.",
+  "antonin-dvorak.achievement.2":
+    "In the 1870s Brahms sat on the Austrian state-grant jury that supported Dvořák, and in 1877 he recommended Dvořák's Moravian Duets to his Berlin publisher, Fritz Simrock. Simrock published the duets and the first series of Slavonic Dances in 1878, and Šourek says their success made Dvořák world famous almost overnight. A London performance of the Stabat Mater in 1883 then led to repeated invitations to conduct his works in England.",
+  "antonin-dvorak.achievement.3":
+    "From 1892 to 1895 Dvořák was director of the National Conservatory of Music of America in New York; its founder, Jeannette Thurber, names Rubin Goldmark, Harry T. Burleigh, Will Marion Cook and William Arms Fisher among his pupils. Besides the symphony he wrote there the String Quartet in F, Op. 96, the 'American' (composed at Spillville, Iowa, in June 1893 and first played by the Kneisel Quartet in Boston on 1 January 1894), and the Cello Concerto, Op. 104, finished in New York on 9 February 1895.",
+  "antonin-dvorak.achievement.4":
+    "Dvořák composed the opera Rusalka, to a libretto by Jaroslav Kvapil, between 19 May and 27 November 1900. It was first staged at the National Theatre in Prague on 31 March 1901 under Karel Kovařovic, and Karel Hoffmeister, writing in 1924, called it the most popular of all his operas.",
+  "antonin-dvorak.moment.1":
+    "In autumn 1881 the Viennese quartet leader Josef Hellmesberger announced a performance of a new Dvořák quartet for 15 December, before Dvořák, according to Šourek, had begun it. On 5 November Dvořák wrote to Alois Göbl that he would have to put aside the opera Dimitrij and start the quartet. Šourek, working from the autographs, says Dvořák first finished the score of a first movement in F major in three days (7-9 October), rejected it, and began again in C major, completing the quartet in under four weeks.",
+  "antonin-dvorak.interpretation.moment.1":
+    "Delivering a quartet to a date set by someone else, after discarding a finished first movement, is consistent with fast execution; the account comes from an admiring biographer who read the autographs, and it is a single episode.",
+  "antonin-dvorak.moment.2":
+    "At the first New York Philharmonic performance of the 'New World' Symphony on 16 December 1893, the audience called for Dvořák after the slow movement; the Musical Courier reports that he appeared in an upper box, bowed, and pointed to the conductor, Anton Seidl. A New York Herald report reproduced in The Etude in 1894 says Dvořák praised Seidl's handling of the slow movement and changed his own tempo marking to match; the pupil Harry Rowe Shelley, recalling it in 1919, also says Seidl's tempo prevailed, though the two accounts give different markings.",
+  "antonin-dvorak.interpretation.moment.2":
+    "Changing a marking after hearing another conductor's tempo is consistent with willingness to revise his own choices; Shelley's recollection also says that in class Dvořák held to his views once they were formed, so this is one context rather than a general rule.",
+  "antonin-dvorak.turning_point.1":
+    "After about a year as a butcher's apprentice following his father's refusal to let him continue in music, Dvořák entered the Prague Organ School in autumn 1857. Hoffmeister says his teacher Antonín Liehmann kept urging that he go to Prague, an uncle promised help, and his father consented; father and son travelled to Prague on a neighbour's hay-cart. Hadow adds that before this the young Dvořák had tried to win his father over with a polka for the village band, which failed because he had not written the trumpet parts as transposing instruments.",
+  "antonin-dvorak.interpretation.turning_point.1":
+    "Pressing his case for years against his family's plan is consistent with persistence; Hoffmeister credits Liehmann and the uncle as much as Dvořák, and the polka story rests on Hadow, so the decision was not his alone.",
+  /* ---------------------------------------------------------- dennis-ritchie (Roster43) */
+  "dennis-ritchie.achievement.1":
+    "At Bell Labs between about 1971 and 1973 Ritchie created the C programming language, extending Ken Thompson's B with a type system and writing a compiler for it. By early 1973 the essentials of modern C were complete, and C was used that year to rewrite the Unix kernel for the PDP-11. The New York Times noted at his death that C is still widely used and that successors such as C++ and Java build on its ideas.",
+  "dennis-ritchie.achievement.2":
+    "With Ken Thompson, Ritchie co-developed the Unix operating system at Bell Labs. Thompson began it on a PDP-7 in 1969 and Ritchie joined the work; he says he contributed the idea of representing devices as files, while crediting most of the ideas and work to Thompson. They rewrote most of Unix in C in 1973. Thompson and Ritchie shared the ACM Turing Award in 1983 and the U.S. National Medal of Technology (the 1998 medal, presented in April 1999).",
+  "dennis-ritchie.achievement.3":
+    "In 1978 Ritchie and Brian Kernighan published The C Programming Language, the first widely available description of C, which served as the language reference until a formal standard was adopted more than ten years later. Kernighan wrote almost all the expository material; Ritchie wrote the reference-manual appendix and the chapter on interfacing with Unix. The Times reports that the two editions (1978, 1988) have sold millions of copies and been translated into 25 languages.",
+  "dennis-ritchie.moment.1":
+    "In March 1988 Ritchie sent the ANSI C committee (X3J11) a long official comment on its draft, which he also posted to comp.lang.c. He argued that the draft's const wording made the language inconsistent with its own library, and that the proposed noalias qualifier was 'an abomination' that 'must not survive'. A note on the republished essay records that the bar on assigning to const-qualified objects was later removed and noalias was dropped.",
+  "dennis-ritchie.interpretation.moment.1":
+    "Putting a detailed, uncompromising objection to a standards committee on the record, and stating that it was his own opinion rather than AT&T's, is consistent with independent thinking; the account and the outcome note both come from the essay's own republication, so the committee's reasons are not independently documented here.",
+  "dennis-ritchie.moment.2":
+    "When Ritchie and Steve Johnson first moved the Unix kernel to a new machine, the Interdata 8/32, a code section in the Sixth Edition source carried the comment 'You are not expected to understand this', which Ritchie says was meant as 'this won't be on the exam' because the authors did not fully understand it either. Ritchie writes that it took about a week of agonizing before he and Johnson agreed the context-switch mechanism was fundamentally broken, and that they then redid the coroutine control-passing primitives rather than keep adjusting the compiler.",
+  "dennis-ritchie.interpretation.moment.2":
+    "Taking about a week to establish why the mechanism could not be fixed by tinkering, and then replacing it, is consistent with analytical rigour; the whole account is Ritchie's own recollection.",
+  "dennis-ritchie.turning_point.1":
+    "In 1972 Thompson made a brief attempt to rewrite the Unix kernel in an early version of C and gave up; Ritchie says the language still lacked structures, which made the kernel's tables awkward. Over the following year Ritchie added structures and improved the compiler, and in 1973 he and Thompson rewrote the Unix kernel for the PDP-11 in C. Ritchie later wrote that this gave them the confidence to recode Unix's utilities in C too, which led to moving Unix to other machines.",
+  "dennis-ritchie.interpretation.turning_point.1":
+    "Ritchie describes the 1973 rewrite as joint work ('we') that built on Thompson's earlier failed attempt, with Ritchie supplying the missing language features, which is consistent with collaboration; the detail comes mainly from Ritchie's own accounts.",
+  /* ---------------------------------------------------------- douglas-engelbart (Roster43) */
+  "douglas-engelbart.achievement.1":
+    "From 1963 Engelbart led the Augmentation Research Center at Stanford Research Institute, funded by ARPA, NASA and the Air Force. There his group built the oN-Line System (NLS), a system for working with linked, structured documents on a screen with a keyboard, a chord keyset and a mouse. The mouse was designed in 1964 by Bill English at Engelbart's lab and patented in 1970. The lab also hosted the Network Information Center for the early ARPANET.",
+  "douglas-engelbart.achievement.2":
+    "On 9 December 1968 Engelbart and his team demonstrated NLS to an audience of about 1,000 computing professionals in San Francisco, linked by microwave to the host computer at SRI in Menlo Park. The demonstration showed collaborative on-line editing, hypertext, video conferencing, word processing and the mouse. It became known as the 'Mother of All Demos', and the IEEE has dedicated a Milestone plaque to it.",
+  "douglas-engelbart.achievement.3":
+    "In October 1962 Engelbart published 'Augmenting Human Intellect: A Conceptual Framework' as an SRI report for the Air Force Office of Scientific Research. It argued that computers could extend human intellect, in part by letting people structure information and share it over a network, and it led to his ARPA funding. He later received the ACM Turing Award (1997) and the US National Medal of Technology (December 2000).",
+  "douglas-engelbart.moment.1":
+    "In 1957 Engelbart was a partner in Digital Techniques, a small company of four that earned consulting income and hoped to commercialise his inventions. In his own account, after a year of growing doubt he told his partners he was pulling out, saying he could not give up his dream of augmenting human work with computers; they said they did not want to continue without him. He then asked SRI for a job and waited several months for an answer.",
+  "douglas-engelbart.interpretation.moment.1":
+    "Leaving a company he had helped found for an uncertain research goal, and then waiting months at SRI, is consistent with strong commitment to a mission over income. This account rests on his own recollection; the later decades of advocacy recorded by Marc Weber point the same way.",
+  "douglas-engelbart.moment.2":
+    "Engelbart said he asked the programme committee of the autumn computer conference in March 1968 for time to show NLS live in San Francisco. The organisers were hesitant and twice sent people to inspect the system. The team ran video and data links to SRI and kept a film recording on standby in case the live system crashed. In his account he did not tell his research sponsors how much of their money the demonstration used, so that they would not be exposed if it failed; he put the cost at about $10,000 to $15,000.",
+  "douglas-engelbart.interpretation.moment.2":
+    "Staging an unprecedented live demonstration without telling his sponsors the full cost is consistent with willingness to take a personal professional risk; the detail about sponsors comes only from his own recollection.",
+  "douglas-engelbart.turning_point.1":
+    "After 1969 ARPA tightened its funding and Bob Taylor, who had funded Engelbart, left for Xerox PARC, which later hired some of his closest lieutenants, including Bill English and Jeff Rulifson. In 1977 SRI sold the lab to Tymshare, where NLS became Augment. Engelbart says that in the mid-1970s he asked SRI to let someone else manage the lab so that he could keep the research direction, and that SRI instead replaced him and ended his employment in July 1977.",
+  "douglas-engelbart.interpretation.turning_point.1":
+    "He describes seeking a role that kept the research direction without the daily management, which fits a strong need to keep control of his own research agenda; Marc Weber and others describe him as a visionary rather than a hands-on manager, while his own account of the dismissal reasons is uncorroborated here.",
+  /* ---------------------------------------------------------- edvard-munch (Roster43) */
+  "edvard-munch.achievement.1":
+    "The Scream exists in several versions. The Munch Museum counts four of them, two tempera paintings and two drawings, including a crayon version dated 1893, and estimates there are about 30 impressions of the 1895 lithograph. The motif began as a prose poem in Munch's diary in Nice in the winter of 1892, about an evening walk under flaming clouds, and the lithograph was reproduced in journals such as La Revue blanche in 1895.",
+  "edvard-munch.achievement.2":
+    "In the 1890s Munch painted motifs including Vampire, Puberty and Madonna and grouped his pictures into a cycle on love, anxiety and death that he called The Frieze of Life. In the winter of 1893-94 he hired rooms in Berlin to show a series of love pictures, among them The Kiss, Vampire, Jealousy, Despair and Madonna, and in 1902 he showed 22 works around the four walls of the Berlin Secession's sculpture room. In 1940, after the German invasion, he made a will leaving his works and papers to the City of Oslo, hoping to give the Frieze a home.",
+  "edvard-munch.achievement.3":
+    "Munch took up etching, lithography and woodcut in the 1890s. The art historian Curt Glaser wrote in 1922 that the woodcut became a usable artistic language only in his hands, because the image was cut directly into the block, as a painter works with a brush, and that he sawed blocks into pieces to print them in colour. Gustav Schiefler's 1907 catalogue records woodcuts cut from rough crate boards using the grain of the wood, and the Munch Museum says his Madonna lithograph exists in several hundred impressions.",
+  "edvard-munch.achievement.4":
+    "From 1909 to 1916 Munch worked on the decoration of the festival hall (Aula) of the University of Oslo, eleven paintings including History, The Sun and Alma Mater. After exhibitions of his drafts caused a stir in Germany in 1913, the university board voted to acquire them, and he hung the paintings in late summer 1916.",
+  "edvard-munch.moment.1":
+    "In 1911 the jury for the University of Oslo hall rejected both Munch's drafts and Emanuel Vigeland's, and the hall was hung with yellow silk wallpaper for the university's centenary. Munch called the decision 'a victorious defeat' and began at once to paint a new, final version of The Sun in monumental format, continuing to work on some motifs until he hung the pictures in 1916.",
+  "edvard-munch.interpretation.moment.1":
+    "Starting a new version straight after the rejection, and carrying on until the paintings were hung, is consistent with persistence; the 1913 German showing that helped reverse the decision was also part of the outcome.",
+  "edvard-munch.moment.2":
+    "From 1905 to 1934 Munch made hectographs, prints taken from a gelatin slab inked with a drawing in aniline dye, about 100 motifs in all. On one he wrote 'Printed on my secret press'. The museum's curators note that, unlike etching, lithography or woodcut, the method needed ingredients bought in shops and no printing plate, so he could print the images himself without a professional printer.",
+  "edvard-munch.interpretation.moment.2":
+    "Choosing a method he could run alone with shop-bought materials is consistent with a need to control how his images were made and multiplied; the curators say they do not know what prompted the choice.",
+  "edvard-munch.turning_point.1":
+    "In November 1892 the Association of Berlin Artists, at the suggestion of the Norwegian painter Adelsteen Normann, showed 55 of Munch's works at the House of Architects. Members were outraged and the show was closed within about a week, an affair the press called the 'Munch Affair'. Munch wrote home that he could have no better advertisement, and he moved to Berlin, where he lived and worked on and off until 1908.",
+  "edvard-munch.interpretation.turning_point.1":
+    "Reading the closure as publicity and then moving to the city where it happened is consistent with spotting an opening in a setback; this rests on one quoted letter and the move, so it is a modest inference.",
+  /* ---------------------------------------------------------- gertrude-ederle (Roster43) */
+  "gertrude-ederle.achievement.1":
+    "On 6 August 1926 Ederle swam from Cape Gris-Nez in France to Kingsdown near Dover, becoming the first woman to swim the English Channel. Contemporary wire reports and Britannica give her time as 14 hours 31 minutes, nearly two hours faster than any of the five men who had crossed before her, over a course that rough water made about 35 miles long. A German swimmer, Ernst Vierkoetter, later crossed faster.",
+  "gertrude-ederle.achievement.2":
+    "At the 1924 Paris Olympics Ederle won gold in the 4x100 m freestyle relay and bronze in the 100 m and 400 m freestyle. Olympedia records that in 1919, aged 12, she became the youngest woman to set a world swimming record, and that she set nine world records in all, seven of them in a single 500 m swim at Brighton Beach in 1922. Britannica counts 29 national and world amateur records between 1921 and 1925.",
+  "gertrude-ederle.achievement.3":
+    "After the crossing Ederle was welcomed in New York with a ticker-tape parade that EBSCO's reference article puts at about two million people, and President Coolidge and Mayor Jimmy Walker praised the swim. The same article says her time, which beat the men's record, challenged assumptions about women's physical ability and that thousands of women went on to earn Red Cross swimming certificates; it also notes that the London Daily News and others dismissed the swim as an anomaly or a stunt.",
+  "gertrude-ederle.moment.1":
+    "United Press reported that after about ten hours in the water on 6 August 1926 Ederle's trainer, Bill Burgess, advised her to give up because of the conditions, and that she called back that there was 'no reason why I should quit now.' EBSCO's reference article adds that she ignored his demands to stop as the evening storm worsened, and kept swimming after her left leg cramped.",
+  "gertrude-ederle.interpretation.moment.1":
+    "Declining a trainer's advice to stop, twice in one swim, is consistent with persistence; both accounts come from the same tug-side reporting, so the evidence is one episode.",
+  "gertrude-ederle.moment.2":
+    "United Press reported on 7 August 1926 that before the swim Ederle had made her father promise not to take her out of the water until she was sinking for the second time. The report contrasts this with the previous year, when she had protested her trainer's order to pull her out, and quotes her father saying he had intended to catch her the first time he saw her sinking.",
+  "gertrude-ederle.interpretation.moment.2":
+    "Setting her own limit for rescue, in open water, is consistent with a high tolerance for risk; the previous year's collapse shows the same stance could end an attempt.",
+  "gertrude-ederle.turning_point.1":
+    "On 18 August 1925 Ederle began her first Channel attempt from Cape Gris-Nez with trainer Jabez Wolffe. Wire reports say she collapsed after about nine hours and was brought aboard by the swimmer Ishak Helmy; later accounts say she disagreed with the decision. EBSCO's reference article says she then found another trainer, Bill Burgess, raised money, secured media sponsorships and trained at Cape Gris-Nez. She made the crossing in August 1926.",
+  "gertrude-ederle.interpretation.turning_point.1":
+    "Replacing the trainer and arranging money and sponsors herself after the failure is consistent with proactive agency; the account of her motive comes from secondary sources.",
+  /* ---------------------------------------------------------- glenn-curtiss (Roster43) */
+  "glenn-curtiss.achievement.1":
+    "On 4 July 1908 Curtiss flew the Aerial Experiment Association's June Bug about a mile at Hammondsport, New York, winning the Scientific American Trophy for the first public flight of a kilometre by an American aeroplane. At the Reims meeting in August 1909 he won the Gordon Bennett Cup for speed, covering the 20 kilometres in 15 minutes 50 3/5 seconds, about six seconds ahead of Louis Blériot. On 29 May 1910 he flew from Albany to New York City, roughly 150 miles with two stops, and won the New York World's $10,000 prize.",
+  "glenn-curtiss.achievement.2":
+    "In January 1911 Curtiss opened a flying school and test station on North Island at San Diego, where Army and Navy officers trained under him, and by late January his float-equipped biplane had risen from and alighted on San Diego Bay. The Navy later asked him for a hydroaeroplane able to leave and land on either land or water, and Lieutenant Ellyson records that it was delivered on time. Curtiss aeroplanes flown by Eugene Ely also made the first take-off from a warship (14 November 1910) and the first landing on one (18 January 1911), and Britannica credits Curtiss with pioneering flying boats in the United States.",
+  "glenn-curtiss.achievement.3":
+    "By the First World War Curtiss's firm was a leading American aircraft maker, and Britannica records it as a major supplier of flying boats to the United States and allied governments and a leading builder of aircraft engines, notably the OX-5. Its JN-4 'Jenny' became a standard American military training and general-purpose aircraft, and a multi-engine Curtiss flying boat, the NC-4, made the first flight across the Atlantic in 1919.",
+  "glenn-curtiss.achievement.4":
+    "Curtiss began building his own motorcycle engines around 1900. In January 1907 at Ormond Beach, Florida, he rode a mile at about 136 miles an hour on a motorcycle with an eight-cylinder engine, and Britannica calls him the fastest man on earth that day; by his own account it was not accepted as an official record because the engine was too large for a motorcycle. In 1904 the airship builder Thomas Baldwin bought a Curtiss engine for the California Arrow, which Britannica identifies as Curtiss's entry into aeronautics.",
+  "glenn-curtiss.moment.1":
+    "Before the Albany-New York flight in May 1910, Curtiss travelled the Hudson, chose a refuelling field at Poughkeepsie and a fallback meadow at Inwood in upper Manhattan, and fitted pontoons in case he had to come down on the river. He says he rose at daybreak for three days and was called off by wind; Flight reports that he had been waiting on the weather for some days. On the flight he landed near Poughkeepsie for fuel and again beside the Harlem River, short of Governor's Island, when his oil ran low.",
+  "glenn-curtiss.interpretation.moment.1":
+    "Scouting landing places and refuelling points in advance, and waiting several days for suitable weather, is consistent with planning orientation; the preparations come mainly from Curtiss's own account, while Flight independently confirms the waiting, the stops and the landing near Spuyten Duyvil.",
+  "glenn-curtiss.moment.2":
+    "In August 1909 the Wright Brothers sued the Aeronautic Society of New York over the Curtiss machine, and on 3 January 1910 Judge Hazel granted them a preliminary injunction against Curtiss and the Herring-Curtiss Company. The Second Circuit reversed it on 14 June 1910 because the affidavits conflicted, but after a final hearing the district court ruled for the Wright Company on 21 February 1913, and the Second Circuit affirmed on 13 January 1914. Curtiss testified that his ailerons kept lateral balance 'without the use of any other element'; the courts found that his machine infringed the Wrights' patent.",
+  "glenn-curtiss.turning_point.1":
+    "In the autumn of 1910 Curtiss, by his own account, gave up public contest flying to work on flight from water. On 29 November 1910 he wrote to the Secretaries of War and Navy offering to train officers at his California station without charge; Lieutenant Ellyson says the Navy accepted at once and that this was the start of its practical interest in aviation. The training camp opened on North Island on 17 January 1911, and within weeks a Curtiss biplane on floats was rising from San Diego Bay.",
+  "glenn-curtiss.interpretation.turning_point.1":
+    "Moving from contest flying to a new line of work and offering it to the Army and Navy before they had asked is consistent with opportunity sensing; the Navy's acceptance is confirmed independently of Curtiss by Ellyson, though Ellyson is a sympathetic participant.",
+  /* ---------------------------------------------------------- gottfried-wilhelm-leibniz (Roster43) */
+  "gottfried-wilhelm-leibniz.achievement.1":
+    "In Paris in 1672-76 Leibniz worked out a differential and integral calculus. He first wrote the integral sign on 21 November 1675, had the rule d(x^n) = n x^(n-1) dx by autumn 1676, and published the method in Acta Eruditorum in 1684 and the integral calculus in 1686. His d and integral notation is the one still used. Isaac Newton had developed his own method earlier but did not publish it, and the Stanford Encyclopedia reports that most historians now take the two to have worked independently.",
+  "gottfried-wilhelm-leibniz.achievement.2":
+    "Leibniz built a philosophical system around a few principles: nothing is without a sufficient reason, and the world is made of simple substances he called monads. In the Theodicy (1710) he argued that this world is the best of all possible worlds, and in the Monadology (1714) he summarised the system. Voltaire's Candide later satirised the 'best of all possible worlds' argument, and Bertrand Russell, a critical reader, called the Monadology a coherent but arbitrary fairy tale.",
+  "gottfried-wilhelm-leibniz.achievement.3":
+    "Leibniz designed a calculating machine intended to add, subtract, multiply and divide, and showed an incomplete model to the Royal Society in London in 1673. He had perfected a binary system of arithmetic by 1679 and published it in 1701 as 'Essay d'une nouvelle science des nombres', sent to the Paris Academy on his election.",
+  "gottfried-wilhelm-leibniz.achievement.4":
+    "After a campaign that began in 1695, Leibniz persuaded the Elector of Brandenburg to found the Brandenburg Society of Sciences on 11 July 1700, and he was named its first president for life. MacTutor reports that it was not very successful at first but led some years later to the Berlin Academy. His similar plans for academies in Dresden, Vienna and St Petersburg were not realised in his lifetime.",
+  "gottfried-wilhelm-leibniz.moment.1":
+    "In January 1673, in London, Leibniz explained his results on series to the mathematician John Pell, who said they were in a book by Mouton. Leibniz consulted Mouton's book the next day and found Pell was right. MacTutor adds that he then recognised his mathematical knowledge was less than he wished and redoubled his efforts, and Merz says the meeting led him to procure the books Pell named and to study mathematics more systematically in Paris under Christiaan Huygens.",
+  "gottfried-wilhelm-leibniz.interpretation.moment.1":
+    "Checking the book at once, accepting the correction and changing how he studied is consistent with updating beliefs on evidence; the later priority dispute and his blaming others for the Harz failures show the pattern was not uniform.",
+  "gottfried-wilhelm-leibniz.moment.2":
+    "From November 1715 until his death in November 1716, Leibniz exchanged five papers with Samuel Clarke, a defender of Newton, on space, time, free will and attraction across a void. He rejected absolute space and the void by appealing to the principle of sufficient reason, answered Clarke's replies point by point, and questioned whether Clarke was willing to listen to reason. Clarke replied that Leibniz had asserted his principle without proof and begged the question, and the exchange was cut off by Leibniz's death.",
+  "gottfried-wilhelm-leibniz.interpretation.moment.2":
+    "Taking on the leading Newtonian position directly and answering each objection is consistent with independent thinking; the exchange is also one-sided in tone in places, and the opposing party judged his main premise unproved.",
+  "gottfried-wilhelm-leibniz.turning_point.1":
+    "In 1672 the Elector of Mainz sent Leibniz to Paris on a diplomatic mission, and he stayed four years. There he met Huygens, Arnauld and Malebranche, studied mathematics and physics under Huygens, and read unpublished manuscripts of Descartes and Pascal. The Stanford Encyclopedia calls it the most important opportunity of his life, and the calculus notation and calculating-machine designs date from these years. He left in 1676 for the post of librarian at Hanover, where he spent the rest of his life.",
+  "gottfried-wilhelm-leibniz.interpretation.turning_point.1":
+    "Using a diplomatic posting to seek out the leading mathematicians and manuscripts of the day is consistent with opportunity sensing; the posting itself came through his patron rather than his own search.",
+  /* ---------------------------------------------------------- heinrich-hertz (Roster43) */
+  "heinrich-hertz.achievement.1":
+    "At the Technical High School in Karlsruhe, Hertz produced rapid electric oscillations with a spark gap, detected them with a resonant receiver, and showed that electric action travels through air at a finite speed. He made standing waves by reflection from a wall, measured their wavelength and velocity, and showed that the waves are reflected, refracted and polarised like light. Helmholtz wrote that Faraday and Maxwell had proposed this view as probable but unverified, and that Hertz supplied the demonstration; he reported the first results to the Berlin Academy on 10 November 1887 and gathered the papers in Electric Waves (1892). The unit of frequency, the hertz, is named after him.",
+  "heinrich-hertz.achievement.2":
+    "While preparing these experiments Hertz noticed that the spark of one oscillator influenced the spark of a second one nearby. Glass plates cut off the effect and quartz did not, and he concluded that it came from ultraviolet light from the primary spark. He published it as 'On an Effect of Ultra-Violet Light upon the Electric Discharge' and then put it aside to return to the main line of research. Righi, Hallwachs, Elster and Geitel later made the phenomenon more precise.",
+  "heinrich-hertz.achievement.3":
+    "In January 1881, at the Physical Society of Berlin, Hertz presented a theory of the contact of elastic solids pressed together. It determines the deformation and stress in both bodies; the contact surface is an ellipse whose size grows as the cube root of the force. In 1882 he extended it into a definition of hardness for a technical journal. Lenard reports that the work was received with interest, including from the Berlin geodetic base-line measurements, where elastic contact had introduced an uncertainty.",
+  "heinrich-hertz.achievement.4":
+    "Hertz's last work, The Principles of Mechanics Presented in a New Form, was written over his last three years and published after his death in 1894, with a preface by Helmholtz. It sets out a mechanics without force as a fundamental concept, derived from a single law. Helmholtz admired its logical rigour but said he himself preferred another method. Nordmann describes it as a first geometrization of mechanics; Hertz's approach did not win wide acceptance among physicists but was taken up by philosophers of science, among them Ludwig Wittgenstein.",
+  "heinrich-hertz.moment.1":
+    "In the months after November 1887 Hertz tried to show that waves in air and waves along a wire interfere in the same phase at every distance. The phase differed with distance, which pointed to an infinite speed in air, the opposite of what he expected, and he gave up for some weeks. He then reasoned that finding that Maxwell was wrong would matter as much as confirming him, repeated the experiment with care, and published the result, which he explained by a lower speed along the wire. In 1892 he wrote that this conclusion could 'scarcely be regarded as correct' and that a calculation error in the paper had been pointed out by Poincare.",
+  "heinrich-hertz.interpretation.moment.1":
+    "Repeating an unwelcome result, publishing it, and later marking his own conclusion as probably wrong is consistent with belief updating; the account is Hertz's own, and Planck independently records the same correction.",
+  "heinrich-hertz.moment.2":
+    "On 24 February 1883 Hertz wrote to his parents from Berlin that for a week he had been absorbed in the equilibrium of a floating ice sheet with a man standing on it. The sheet should sink under the man, rise in a ring around him, and sink again, with ever smaller waves. He added that he knew the problem was not very important, that he ought to be writing the paper for his Kiel appointment, and that his thoughts kept returning to it. The solution was published from Kiel a year later.",
+  "heinrich-hertz.interpretation.moment.2":
+    "Staying with a problem he called unimportant, against his own schedule, is consistent with deep focus; the evidence is his own letter, as selected by Lenard.",
+  "heinrich-hertz.turning_point.1":
+    "In October 1877 Hertz went to Munich to continue his engineering studies. On 1 November he wrote to his parents that he wanted to return to natural science: he would rather be a second-rate engineer than a second-rate investigator, though engineering was the surer livelihood, and he asked his father for a decision rather than advice. His father agreed. Hertz spent the winter on mathematics and mechanics, reading Laplace and Lagrange in the original, and went to Berlin in October 1878 to study under Helmholtz and Kirchhoff.",
+  "heinrich-hertz.interpretation.turning_point.1":
+    "Choosing the less secure path after weighing it, and then spending the winter on original treatises, is consistent with a mastery orientation.",
+  /* ---------------------------------------------------------- henri-matisse (Roster43) */
+  "henri-matisse.achievement.1":
+    "At the 1905 Salon d'Automne in Paris, Matisse showed work from a summer at Collioure with André Derain, painted in bold, non-naturalistic colour. Tate says the critic Louis Vauxcelles gave the group its name, les fauves ('the wild beasts'), on seeing the exhibition. Stein's memoir says his Woman with a Hat, a portrait of his wife Amélie, was derided by the public and bought by Leo and Gertrude Stein. In 1906 he completed Joy of Life (Le Bonheur de vivre), which the MoMA catalogue treats as the start of the grand decorative style that matured in 1909-1910; the Barnes Foundation later acquired it from the Steins.",
+  "henri-matisse.achievement.2":
+    "In spring 1909 the Russian collector Sergei Shchukin commissioned decorative panels for the stairway of his Moscow house, and after correspondence they settled on two subjects, Dance and Music; the Art Institute of Chicago says Matisse bought a prefabricated studio at Issy-les-Moulineaux with the funds from the commission, and Music, dated 1910, is now in the Hermitage. In 1930 Albert Barnes commissioned his first major mural, The Dance, for the main gallery of the Barnes Foundation. Perl reports that after more than a year's work a miscalculation of the size of the space forced Matisse to start again, so that there are two versions, and that he worked out the composition with cut and manipulated sheets of painted paper.",
+  "henri-matisse.achievement.3":
+    "Jazz, published in Paris by Tériade in 1947, has twenty plates made from cut and pasted sheets of painted paper, each preceded by Matisse's own handwritten text; the MoMA catalogue dates the designs to 1943-1944 and calls it his first major cut-out project. The same catalogue says that by 1950-1952 cut paper had become his sole medium for major work, after his last sculpture in 1950 and last painting in 1951. Tate's 2014 exhibition showed 120 works made between 1936 and 1954, including The Snail (1953).",
+  "henri-matisse.achievement.4":
+    "From 1948 to 1951 Matisse designed the Chapelle du Rosaire for the Dominican nuns of Vence: the building plans, yellow, green and blue stained-glass windows, three large line drawings on white ceramic tile (Saint Dominic, the Virgin and Child, and the Stations of the Cross), and the furnishings, objects and vestments. Vence records that the first stone was laid on 11 December 1949 and the chapel consecrated on 25 June 1951, with a text from Matisse read at the ceremony calling it, despite its imperfections, his masterpiece. The MoMA catalogue adds that he designed six chasubles in the liturgical colours as the last items for the chapel.",
+  "henri-matisse.moment.1":
+    "When Jazz was published in 1947, Matisse called the book 'absolutely a failure', since in print the cut-paper compositions looked like jigsaw puzzles rather than the finished originals. Two months later he wrote that for anyone who had not seen the originals what the book itself gave was what counted, citing what he had heard of its impact on painters.",
+  "henri-matisse.interpretation.moment.1":
+    "Calling the finished book a failure and then re-weighing it within two months, after hearing how painters were using it, is consistent with belief updating; the account comes from the MoMA catalogue's quotations of his own letters.",
+  "henri-matisse.moment.2":
+    "On 19 July 1916 Matisse wrote to Charles Camoin that after a month on his 'picture of Morocco', later titled The Moroccans, it had totally unsettled his mind: 'I may not be in the trenches, but I am in a front line of my own making.' The Art Institute of Chicago says that in 1916 he also took up Back, Bathers by a River and Jeannette again, building on his earlier scraping and incising while adding new material.",
+  "henri-matisse.interpretation.moment.2":
+    "Returning to long-running pictures and keeping at a demanding canvas while describing it as a struggle is consistent with persistence; the account rests on his letter as quoted by MoMA and on the Art Institute's curatorial summary.",
+  "henri-matisse.turning_point.1":
+    "On returning from his second Moroccan trip in 1913, Matisse abruptly changed direction, pursuing formal structure over the colour that had marked his earlier work. The Art Institute of Chicago says he completed only three paintings between May and December of that year, kept working on earlier projects such as Bathers by a River and Back, and revived printmaking in the autumn. In 1917 he began to shift away from this experimental mode and settled in Nice at the end of that year.",
+  "henri-matisse.interpretation.turning_point.1":
+    "Dropping a method that had made his name to try a different one, at the cost of output, is consistent with experimentation; the account comes from the Art Institute's curatorial pages, which quote his own letters.",
+  /* ---------------------------------------------------------- henri-poincare (Roster43) */
+  "henri-poincare.achievement.1":
+    "In 1888 Poincaré entered the King Oscar II prize competition, organised through Mittag-Leffler's journal Acta Mathematica, with a memoir on the three-body problem and the equations of dynamics. A committee of Hermite, Mittag-Leffler and Weierstrass awarded him the prize in January 1889, and a corrected, much longer version appeared in 1890. It studied the orbits geometrically and described the transverse homoclinic intersections whose complex geometry later work linked to chaotic dynamics. Yoccoz calls him the founder of the theory of dynamical systems; Poincaré developed the ideas in the three volumes of Les Méthodes nouvelles de la mécanique céleste (1892-1899).",
+  "henri-poincare.achievement.2":
+    "In the early 1880s Poincaré introduced the automorphic functions, which he named Fuchsian, tied them to non-Euclidean geometry and used them to integrate linear differential equations with algebraic coefficients. In Analysis situs (1895) and the papers from 1894 he laid the foundations of algebraic topology and introduced the fundamental group. MacTutor says that for about forty years essentially all the ideas and techniques of the subject rested on his work. The Poincaré conjecture, which grew out of it, was settled by Grigori Perelman in 2002.",
+  "henri-poincare.achievement.3":
+    "On 5 June 1905 Poincaré presented a note 'Sur la dynamique de l'électron' to the Académie des sciences, and on 23 July sent a long memoir on the same subject to the Rendiconti del Circolo Matematico di Palermo. Walter says he was arguably the first to state the principle of relativity as the form-invariance of physical laws under a group of transformations, and historians agree that he found and named the modern form of the Lorentz transformation. They disagree about how he interpreted it: he kept an ether-based picture and, according to Damour, apparently never cited Einstein's contribution.",
+  "henri-poincare.achievement.4":
+    "Poincaré set out his philosophy of science in Science and Hypothesis (1901), The Value of Science (1905) and Science and Method (1908), including the view that the choice between Euclidean and non-Euclidean geometry for physical space is a convention. The Royal Astronomical Society's obituary said the books found a multitude of readers and shaped the philosophical ideas of many younger physicists and mathematicians. In 1908 he also gave a lecture on mathematical invention that described how some of his own discoveries had come to him.",
+  "henri-poincare.moment.1":
+    "On 1 September 1879, five months into his post as a mining inspector at Vesoul, Poincaré went down the Magny pit while the rescue was still under way after an explosion that killed sixteen of the twenty-two men on the shift. His report listed the possible causes with the evidence for and against each, used the direction of the burns to narrow the blast to two sites, and traced the numbered lamps; a damaged lamp found beside the wrong body led him to conclude that one miner had picked up another's lamp. Roy and Dugas note that the report does not mention his own part in the rescue.",
+  "henri-poincare.interpretation.moment.1":
+    "Narrowing the possible causes by testing each against physical evidence is consistent with analytical rigor. The account comes through MacTutor's summary of the report and the study by Roy and Dugas, not from the report itself.",
+  "henri-poincare.moment.2":
+    "In 1881 Poincaré named a class of functions after Fuchs, and Klein objected, writing that he would use neither 'Fuchsian' nor 'Kleinian'. On 4 April 1882 Poincaré replied that he would recognise a prior claim only if shown earlier work of the same kind and that he had not named Kleinian functions after Klein 'by way of compensation'. He wrote that he would not prolong the dispute and would 'do as I please', quoting Goethe, 'Name ist Schall und Rauch', and he hoped the quarrel over a name would not harm their good relations.",
+  "henri-poincare.interpretation.moment.2":
+    "Holding his position against an established German mathematician, while keeping the tone courteous, is consistent with independent thinking. The episode is known here only from two letters, one from each side.",
+  "henri-poincare.turning_point.1":
+    "In July 1889 Mittag-Leffler passed on a request from his editor Phragmén for clarification of the prize memoir. Poincaré saw that Phragmén's objections were well founded and found a more serious error elsewhere, and in early December 1889 he told Mittag-Leffler that the correction required substantial changes. Mittag-Leffler recalled the copies already sent out, Poincaré paid the 3,500-crown printing cost of the first version, 1,000 more than the prize, and the revised 270-page memoir appeared in November 1890. Yoccoz says that correcting the error led him to the transverse homoclinic intersections.",
+  "henri-poincare.interpretation.turning_point.1":
+    "Accepting the objection, reporting that the whole argument needed rewriting and paying to withdraw the first version is consistent with belief updating. The circumstances are known through Yoccoz and Brent, who rely on Barrow-Green's study.",
+  /* ---------------------------------------------------------- louis-bleriot (Roster43) */
+  "louis-bleriot.achievement.1":
+    "On 25 July 1909 Blériot flew his Type XI monoplane from near Calais to Dover, about 31 miles, in roughly 40 minutes, becoming the first person to fly an aeroplane across the English Channel. The flight won the Daily Mail's 1,000-pound prize.",
+  "louis-bleriot.achievement.2":
+    "After experiments from 1900, Blériot made the compact Type XI monoplane his main design; twelve days before the Channel flight he flew it about 25 miles across country. Britannica reports that his factory built more than 800 aircraft between July 1909 and August 1914, many of them Type XI monoplanes or variations, and that in 1914 he took over the makers of the SPAD biplane.",
+  "louis-bleriot.achievement.3":
+    "Before turning to aeroplanes, Blériot ran a business making automobile headlamps and accessories; Britannica says the fortune it produced paid for his earliest aeronautical work. Flight described the acetylene lamp bearing his name as world-renowned in 1909, and reported his own estimate that he had spent about 20,000 pounds on aeroplane experiments in nine years.",
+  "louis-bleriot.moment.1":
+    "Flight reports that Blériot got up at about half past two on 25 July 1909, made a short trial flight, and then set out for England at about 4:40 French time with neither compass nor watch. He quickly outpaced the destroyer escorting him and, by his own estimate, spent about ten minutes out of sight of land and ship. Grahame-White and Harper say he chose not to circle and wait for the escort because the wind was rising and he thought his only hope was to fly straight on. Flight's editors judged the flight 'somewhat foolhardy', and noted that Blériot himself admitted as much.",
+  "louis-bleriot.interpretation.moment.1":
+    "Setting out over open water without a compass and not waiting for the escort is consistent with a high tolerance for risk; the same journal notes the precautions he did take and that luck helped, so the stance had real costs as well.",
+  "louis-bleriot.moment.2":
+    "In his history of aeronautics, Charles Turner lists a run of wrecks: the No. IV biplane in a ditch in November 1906, the No. V monoplane days after its first flight in April 1907, the No. VI on 17 September 1907, and the No. VII, which overturned in December 1907 when a wing touched the ground in a turn. Turner writes that Blériot 'at once set to work' designing the No. VIII, and adds that some counted as many as fifty accidents in all. Flight reported in 1909 that he had spent about 20,000 pounds on experiments over nine years.",
+  "louis-bleriot.interpretation.moment.2":
+    "Rebuilding after each wreck for several years is consistent with persistence; Turner and Flight describe the sequence, not Blériot's own reasons, so the pattern is documented while the motive is not.",
+  "louis-bleriot.turning_point.1":
+    "After the Channel flight, orders for the Type XI came quickly. Flight reported in July 1909 that he had sold 15 machines, in August that he had undertaken to deliver thirty-six by November at about 400 pounds each, and in September that he had sold his 101st and, to keep up with deliveries, was giving up a planned flying display in Berlin. Turner writes that he announced he would give up competitions and exhibition flying and devote himself to manufacture, which drew some criticism.",
+  "louis-bleriot.interpretation.turning_point.1":
+    "Moving from pilot and experimenter to full-time manufacturer while orders were arriving is consistent with opportunity sensing; the sources report the decision and the criticism, but not his own reasons.",
+  /* ---------------------------------------------------------- paavo-nurmi (Roster43) */
+  "paavo-nurmi.achievement.1":
+    "Between 1920 and 1928 Nurmi won nine Olympic gold medals, six individual and three team, and three individual silvers, which Olympedia calls a record. They came in the 10,000 m and the individual and team cross-country at Antwerp in 1920; the 1,500 m, 5,000 m, individual and team cross-country and the 3,000 m team race at Paris in 1924; and the 10,000 m at Amsterdam in 1928.",
+  "paavo-nurmi.achievement.2":
+    "Olympedia counts 22 official world records for Nurmi, the first on 22 June 1921 when he ran 10,000 m in 30:40.2 in Stockholm; World Athletics Heritage dates his last world mark, at two miles, to 1931. They included the mile, in which his 4:10.4 stood from 1923 to 1931, according to Britannica. Racing Past lists him as holding the world records for the 1,500 m, mile, 2,000 m, 3,000 m, 5,000 m and 10,000 m at the end of 1924.",
+  "paavo-nurmi.achievement.3":
+    "At the 1924 Paris Games Nurmi won the 1,500 m in 3:53.6 and, 42 minutes after that final, the 5,000 m in 14:31.2, a double Olympedia describes as chosen despite finals only 55 minutes apart. Two days later he won the cross-country in the heat, finishing almost one and a half minutes ahead, and the day after that he led the Finnish 3,000 m team to victory. A United Press report on 11 July 1924 called him a winner 'as he pleased'.",
+  "paavo-nurmi.moment.1":
+    "Racing Past reports that the Paris schedule put the 1,500 m and 5,000 m finals about 55 minutes apart, so on 19 June 1924 at Helsinki Nurmi tried the same double in one meeting, running 3:52.6 and 14:28.2, both world records. Olympedia notes that he had hurt his knee a few weeks before the Games and that his training let him recover quickly, and that he then decided to attempt the double at Paris.",
+  "paavo-nurmi.interpretation.moment.1":
+    "Rehearsing the exact Olympic schedule weeks ahead is consistent with a strong planning orientation; the sources describe the rehearsal and its times but not his own reasoning for it.",
+  "paavo-nurmi.moment.2":
+    "Lope Magazine's account of the 1925 American tour says that on 16 January Nurmi's train reached Chicago at 8:15 in the evening and that less than two hours later he was racing, setting a record for the 1 3/4 miles. He then took a train back to New York, where he ran a third race in three days. The Western Reserve Historical Society bulletin adds that over five months he ran 55 events, and that he left America fearing he had competed too often and burned himself out.",
+  "paavo-nurmi.interpretation.moment.2":
+    "Accepting a schedule of overnight trains and a race almost every few days, in pursuit of records, fits a strong drive to achieve; the same bulletin's note that he feared he had overdone it shows the cost.",
+  "paavo-nurmi.turning_point.1":
+    "In April 1932 the International Amateur Athletic Federation suspended Nurmi pending an investigation of his amateur status, and the Associated Press reported on 29 July 1932 that his Olympic entry had been rejected over money accepted on a 1931 tour of Germany. The Finnish leaders believed he had been unjustly convicted, and the AP said Nurmi himself declined to comment. His marathon ambition ended; Britannica notes he continued to race in Finland until 1934, and Finland100 says he then coached Finnish runners and built a construction and clothing business.",
+  "paavo-nurmi.interpretation.turning_point.1":
+    "Turning from an international competitor to a domestic racer, coach and businessman is consistent with adaptability; the sources report what he did afterwards but not his own reasons, and this note takes no view on the merits of the ban.",
+  /* ---------------------------------------------------------- paul-ehrlich (Roster43) */
+  "paul-ehrlich.achievement.1":
+    "Ehrlich and his co-workers made and tested a long series of arsenic compounds, and the 606th, arsphenamine, was made in 1907. After Sahachiro Hata showed in 1909 that it cured syphilis in infected rabbits, Ehrlich and Hata announced it on 19 April 1910 at the Congress for Internal Medicine in Wiesbaden, and Hoechst sold it as Salvarsan. Valent and colleagues describe it as the first synthetic agent against syphilis; it rested on Ehrlich's idea of a 'magic bullet' that would strike a parasite and spare the patient's own cells.",
+  "paul-ehrlich.achievement.2":
+    "In 1897 Ehrlich proposed the side-chain theory: cells carry specific structures that bind a toxin, and when the cell makes more of them and releases them they act as antitoxin, or antibody. In 1900 he renamed these structures receptors. For his work on immunity he shared the 1908 Nobel Prize in Physiology or Medicine with Ilya Metchnikoff, whose theory of phagocytosis complemented his own.",
+  "paul-ehrlich.achievement.3":
+    "From 1890 Ehrlich worked at Robert Koch's institute on Emil von Behring's diphtheria antitoxin. He showed that the antitoxin content of sera varied widely and defined units of antitoxin against a fixed standard, which the Nobel biography says became the basis of all later serum standardisation. From 1896 he directed the Prussian institute set up to control therapeutic sera, followed in 1899 by the Royal Institute of Experimental Therapy in Frankfurt.",
+  "paul-ehrlich.achievement.4":
+    "As a student and young physician at the Charite in Berlin, Ehrlich sorted dyes into acid, basic and neutral kinds and used them to separate the granules in blood cells, work the Nobel biography says laid the foundations of haematology. In 1882 he published an improved stain for the tubercle bacillus that Koch had just identified, the basis of the later Ziehl-Neelsen method still in use.",
+  "paul-ehrlich.moment.1":
+    "In 1906 at the Georg-Speyer-Haus, Ehrlich told three chemists that atoxyl was not the 'anilide' of the accepted 1863 formula but an amino-phenylarsonic acid with a free amino group, and ordered the work to proceed on that basis. In Marquardt's account two of them, von Braun and Schmitz, refused and left; Bertheim stayed, and the joint paper with Ehrlich appeared on 1 May 1907. The Nobel biography credits Ehrlich with Bertheim for establishing the correct structural formula.",
+  "paul-ehrlich.interpretation.moment.1":
+    "Insisting on his own chemical reading against the accepted formula, and ordering the work on that basis even when it cost him two chemists, is consistent with independent thinking; the same account shows the stance came at a price in staff.",
+  "paul-ehrlich.moment.2":
+    "In 1909 Sahachiro Hata reported that compound 606, set aside in 1907 as ineffective, worked in syphilitic rabbits. Ehrlich asked him to repeat the experiments again and again, and by Marquardt's account Hata grew impatient before Ehrlich accepted the result and prepared the 1910 announcement; the Nobel biography says hundreds of experiments repeatedly proved its efficacy.",
+  "paul-ehrlich.interpretation.moment.2":
+    "Asking for repeated confirmation of a result he badly wanted to be true is consistent with perfectionism; the same demand wore on the person doing the work.",
+  "paul-ehrlich.turning_point.1":
+    "In 1906 Ehrlich became director of the Georg-Speyer-Haus in Frankfurt, a chemotherapy research institute built beside his institute with money donated by Franziska Speyer. Its chemical laboratory let him move from serum work to making and testing compounds of his own design; Valent and colleagues call the donation an essential basis of the screening that led to 606.",
+  "paul-ehrlich.interpretation.turning_point.1":
+    "Turning from serum work to a chemistry laboratory he did not have, and getting it through a private gift, is consistent with resourcefulness.",
+  /* ---------------------------------------------------------- roy-chapman-andrews (Roster43) */
+  "roy-chapman-andrews.achievement.1":
+    "From 1922 to 1930 Andrews led five Central Asiatic Expeditions of the American Museum of Natural History into Mongolia and northern China, using motor cars supplied by camel caravans to work across the Gobi. In 1925 the party included fourteen scientists and technicians, twenty-six assistants, five cars, two trucks and 125 camels, and the programme cost close to $700,000. It set out to test Henry Fairfield Osborn's idea that humans originated in Asia and found no human remains, but it recovered large collections of fossil mammals and dinosaurs and made maps and geological studies of a region little known to Western science.",
+  "roy-chapman-andrews.achievement.2":
+    "In July 1923, at the Flaming Cliffs of the Gobi, members of the expedition including George Olsen found dinosaur eggs, widely described as the first scientifically recognised dinosaur eggs; an 1859 eggshell find in France had been taken for a giant bird's. The same site produced Protoceratops, named in 1923 for Andrews, and the small theropods Velociraptor and Oviraptor, named by Osborn in 1924. The eggs were first assigned to Protoceratops; after a 1993 find of an embryo in a similar nest at Ukhaa Tolgod, they were reassigned to an oviraptorid.",
+  "roy-chapman-andrews.achievement.3":
+    "Before the Asian expeditions Andrews worked on whales for the museum. He studied different whale species and collected their skeletons in Korea, Japan and Alaska, and wrote a master's thesis at Columbia on whales (1913). His monograph on the California gray whale appeared in the museum's Memoirs in 1914, and Whale Hunting with Gun and Camera followed in 1916.",
+  "roy-chapman-andrews.achievement.4":
+    "Andrews published more than twenty books, including On the Trail of Ancient Man (1926), The New Conquest of Central Asia (1932) and the children's All About Dinosaurs (1953), which later inspired the palaeontologists Phil Currie and Mike Novacek. He became director of the American Museum of Natural History in the mid-1930s and left the post around the end of 1941.",
+  "roy-chapman-andrews.moment.1":
+    "After the 1923 eggs made headlines, Andrews, back in New York to raise money, proposed to Osborn that one egg be auctioned and asked reporters to tell readers that small gifts were welcome. In his account Austin Colgate bought it for $5,000 for Colgate University and about $50,000 more arrived in donations. Mongolian and Chinese officials, who heard rumours of a far higher price, began to suspect commercial motives, and the next expedition was delayed by more than a year. Andrews later called the auction a boomerang.",
+  "roy-chapman-andrews.interpretation.moment.1":
+    "Tying a discovery's publicity directly to fundraising is consistent with opportunity sensing; the sources agree the same move cost him goodwill with the governments whose permission he needed.",
+  "roy-chapman-andrews.moment.2":
+    "In his own telling, at a lunch with Osborn in 1920 Andrews proposed a Gobi expedition to test Osborn's Asia theory, and answered the objection that earlier Russian parties had found little by arguing that motor cars could cover in one season what camels covered in ten. Asked how he knew cars could cross the Gobi, he replied that he did not know it but believed it could be done with careful preparation. He described a supply camel caravan sent ahead, like a supply ship to a fleet, and several self-sufficient working units.",
+  "roy-chapman-andrews.interpretation.moment.2":
+    "Designing the logistics in advance, while admitting the central method was untested, is consistent with planning orientation; the account is Andrews's own and has the polish of a retelling.",
+  "roy-chapman-andrews.turning_point.1":
+    "At the end of the 1928 season the expedition's collections, eighty-seven crates of fossils from Inner Mongolia, were confiscated at Kalgan by a Chinese nationalist group, the Committee for the Preservation of Ancient Objects, which accused the Americans of taking China's treasures. After negotiations involving the museum, the U.S. State Department and the Chinese government, the specimens were released. Andrews spent 1929 negotiating, took two Chinese scientists on a restricted 1930 season limited to palaeontology, and gave half the valuable collections to the Chinese society. 1930 was the last season; Chinese scholars saw the fossils as national heritage, while Andrews argued that they belonged to all mankind.",
+  "roy-chapman-andrews.interpretation.turning_point.1":
+    "Spending a year negotiating terms for one more season, rather than ending the programme at once, is consistent with persistence; he himself judged the restricted terms to have crippled the work.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -11161,6 +11443,288 @@ export const EDITORIAL_KO: Record<string, string> = {
     "차이콥스키는 자신이 지휘를 할 수 없다는 말을 여러 차례 했고, 1886년 10월에는 폰 메크에게 지휘대를 떠올리기만 해도 몸이 떨린다고 썼다. 그는 1886년 12월 첫 오케스트라 리허설을 직접 이끌었고, 1887년 1월 31일(구력 19일) 모스크바 볼쇼이 극장에서 개작한 오페라 「체레비츠키」의 초연을 지휘했다. 1887년이 가기 전에 첫 유럽 지휘 순회를 떠났으며, 이후 6년 동안 프라하, 파리, 런던에서 자신의 곡을 지휘했고 1891년에는 뉴욕에 새로 문을 연 뮤직 홀(훗날 카네기 홀)의 개관 주간에도 출연했다.",
   "pyotr-ilyich-tchaikovsky.interpretation.turning_point.1":
     "스스로 밝힌 망설임이 새로운 공적 역할로 이어졌다는 점에서 이 변화는 이 프로필의 적응력을 보여 주는 사례다. 어려움은 본인이 직접 말한 내용이며, 1891년 그를 초청한 월터 담로시는 지휘가 그를 몹시 지치게 했지만 연주자들이 그의 의도를 열심히 따랐다고 적었다.",
+  /* ---------------------------------------------------------- antonin-dvorak (Roster43) */
+  "antonin-dvorak.achievement.1":
+    "드보르자크는 1893년 뉴욕에서 교향곡 마단조 「신세계로부터」(작품 95, 오늘날의 번호로는 9번)를 썼고, 뉴욕 필하모닉 협회가 안톤 자이들(Anton Seidl)의 지휘로 1893년 12월 16일 초연했다. 오타카르 쇼우레크(Otakar Šourek)는 이 작품에 드보르자크가 흑인 영가와 인디언 노래에서 접한 5음 음계와 당김음 리듬이 쓰였고, 일부 주제도 같은 정신으로 직접 만들었다고 설명한다.",
+  "antonin-dvorak.achievement.2":
+    "1870년대에 브람스는 드보르자크를 지원한 오스트리아 국가 장학금 심사위원단에 있었고, 1877년에는 베를린의 출판업자 프리츠 짐로크(Fritz Simrock)에게 드보르자크의 「모라비아 이중창」을 추천했다. 짐로크는 1878년 이 이중창과 「슬라브 무곡」 제1집을 출판했으며, 쇼우레크는 그 성공으로 드보르자크가 거의 하룻밤 사이에 세계적으로 알려졌다고 말한다. 1883년 런던에서 「스타바트 마테르」가 연주된 뒤에는 영국에서 자신의 작품을 지휘해 달라는 초청이 이어졌다.",
+  "antonin-dvorak.achievement.3":
+    "드보르자크는 1892년부터 1895년까지 뉴욕 아메리카 국립음악원(National Conservatory of Music of America)의 원장을 지냈다. 설립자 지넷 서버(Jeannette Thurber)는 루빈 골드마크, 해리 T. 벌리, 윌 매리언 쿡, 윌리엄 암스 피셔를 그의 제자로 꼽는다. 그는 교향곡 외에 이곳에서 현악 사중주 바장조 작품 96 「아메리카」(1893년 6월 아이오와주 스필빌에서 작곡, 1894년 1월 1일 보스턴에서 크나이젤 사중주단이 초연)와 첼로 협주곡 작품 104(1895년 2월 9일 뉴욕에서 완성)를 썼다.",
+  "antonin-dvorak.achievement.4":
+    "드보르자크는 야로슬라프 크바필(Jaroslav Kvapil)의 대본으로 오페라 「루살카」를 1900년 5월 19일부터 11월 27일까지 작곡했다. 이 작품은 1901년 3월 31일 프라하 국민극장에서 카렐 코바르조비츠(Karel Kovařovic)의 지휘로 초연되었고, 카렐 호프마이스터(Karel Hoffmeister)는 1924년에 이를 그의 오페라 가운데 가장 인기 있는 작품이라고 평했다.",
+  "antonin-dvorak.moment.1":
+    "1881년 가을 빈의 사중주단 지휘자 요제프 헬메스베르거(Josef Hellmesberger)는 드보르자크가 아직 쓰기 시작하기도 전에 새 사중주를 12월 15일에 연주하겠다고 발표했다고 쇼우레크는 전한다. 드보르자크는 11월 5일 알로이스 괴블(Alois Göbl)에게 오페라 「디미트리」를 제쳐 두고 사중주를 쓰기 시작해야 하겠다고 편지에 썼다. 쇼우레크는 자필 악보를 근거로, 드보르자크가 처음에 바장조 제1악장의 총보를 사흘(10월 7~9일) 만에 끝냈다가 마음에 들지 않아 버리고 다장조로 새로 시작해 4주가 채 안 되어 완성했다고 설명한다.",
+  "antonin-dvorak.interpretation.moment.1":
+    "이미 끝낸 첫 악장을 버리고도 남이 정한 날짜에 맞춰 사중주를 내놓은 것은 빠른 실행력과 부합한다. 다만 이 서술은 자필 악보를 본 호의적인 전기 작가의 설명이며, 하나의 사례일 뿐이다.",
+  "antonin-dvorak.moment.2":
+    "1893년 12월 16일 뉴욕 필하모닉의 「신세계로부터」 첫 연주에서 느린 악장이 끝나자 청중이 드보르자크를 불렀고, 「뮤지컬 쿠리어」는 그가 위쪽 박스석에 나타나 인사한 뒤 지휘자 안톤 자이들을 가리켰다고 전한다. 1894년 「에튀드」에 실린 뉴욕 헤럴드 기사는 드보르자크가 자이들의 느린 악장 해석을 칭찬하며 자신이 적은 빠르기 표시를 그에 맞춰 바꾸었다고 하고, 제자 해리 로위 셸리(Harry Rowe Shelley)도 1919년의 회고에서 자이들의 빠르기가 받아들여졌다고 말한다. 다만 두 기록이 전하는 빠르기말은 서로 다르다.",
+  "antonin-dvorak.interpretation.moment.2":
+    "다른 지휘자의 빠르기를 듣고 자신의 표시를 바꾼 일은 자기 선택을 고칠 수 있는 태도와 부합한다. 다만 셸리는 수업에서는 한번 정한 견해를 바꾸지 않았다고도 회고하므로, 이는 일반 규칙이 아니라 한 맥락의 사례다.",
+  "antonin-dvorak.turning_point.1":
+    "아버지가 음악을 계속하지 못하게 한 뒤 드보르자크는 약 1년간 푸줏간 견습생으로 일했고, 1857년 가을 프라하 오르간 학교에 들어갔다. 호프마이스터에 따르면 스승 안토닌 리만(Antonín Liehmann)이 계속 프라하행을 권했고 삼촌이 도움을 약속했으며 아버지가 허락했다. 부자는 이웃의 건초 수레를 얻어 타고 프라하로 갔다. 하도우(Hadow)는 그 전에 어린 드보르자크가 아버지를 설득하려고 마을 악단용 폴카를 써 보았으나, 트럼펫이 이조 악기라는 점을 몰라 실패했다고 덧붙인다.",
+  "antonin-dvorak.interpretation.turning_point.1":
+    "가족의 계획에 맞서 오랫동안 자신의 뜻을 밀고 나간 것은 끈기와 부합한다. 다만 호프마이스터는 리만과 삼촌의 역할도 같은 비중으로 전하고 폴카 이야기는 하도우의 서술에 의존하므로, 이 결정이 그 혼자만의 것은 아니었다.",
+  /* ---------------------------------------------------------- dennis-ritchie (Roster43) */
+  "dennis-ritchie.achievement.1":
+    "리치는 1971년경부터 1973년 사이 벨 연구소에서 C 프로그래밍 언어를 만들었다. 켄 톰프슨(Ken Thompson)의 B 언어에 자료형 체계를 더하고 그 컴파일러를 직접 작성한 것이다. 1973년 초에는 현대 C의 핵심이 완성되었고, 그해 C로 PDP-11용 유닉스 커널이 다시 작성되었다. 뉴욕 타임스는 그의 부고에서 C가 지금도 널리 쓰이며 C++와 자바 같은 후속 언어가 그 개념을 토대로 한다고 전했다.",
+  "dennis-ritchie.achievement.2":
+    "리치는 벨 연구소에서 켄 톰프슨과 함께 유닉스 운영체제를 공동 개발했다. 톰프슨이 1969년 PDP-7에서 시작한 작업에 리치가 합류했으며, 그는 장치를 파일로 표현한다는 발상을 자신이 보탰다고 말하면서도 대부분의 아이디어와 작업은 톰프슨의 몫이라고 밝혔다. 두 사람은 1973년 유닉스 대부분을 C로 다시 작성했다. 톰프슨과 리치는 1983년 ACM 튜링상을, 그리고 미국 국가기술훈장(1998년도 훈장, 1999년 4월 수여)을 함께 받았다.",
+  "dennis-ritchie.achievement.3":
+    "1978년 리치와 브라이언 커니핸(Brian Kernighan)은 『The C Programming Language』를 출간했다. C를 널리 구할 수 있는 형태로 처음 설명한 책으로, 10년 넘게 지나 공식 표준이 채택될 때까지 이 언어의 기준 문서 역할을 했다. 설명 부분은 대부분 커니핸이 썼고, 리치는 부록의 언어 참조 설명서와 유닉스 연동 장을 맡았다. 뉴욕 타임스에 따르면 1978년판과 1988년판은 수백만 부가 팔렸고 25개 언어로 번역되었다.",
+  "dennis-ritchie.moment.1":
+    "1988년 3월 리치는 ANSI C 위원회(X3J11)에 초안에 대한 긴 공식 의견서를 보냈고, 이를 comp.lang.c에도 올렸다. 그는 초안의 const 규정이 언어를 자체 라이브러리와 모순되게 만든다고 지적했고, 제안된 noalias 한정자는 '가증스러운 것(abomination)'이므로 '살아남아서는 안 된다'고 주장했다. 이 글을 다시 게재한 곳의 주석에 따르면 const로 한정된 객체에 대한 대입 금지 조항은 나중에 삭제되었고 noalias도 빠졌다.",
+  "dennis-ritchie.interpretation.moment.1":
+    "표준 위원회에 상세하고 타협 없는 반대 의견을 공식 기록으로 남기고, 그것이 AT&T가 아닌 자신의 의견임을 밝힌 일은 독립적 사고와 부합한다. 다만 이 서술과 결과에 대한 주석은 모두 해당 글의 재게재본에서 나온 것이어서, 위원회가 입장을 바꾼 이유는 여기서 독립적으로 확인되지 않는다.",
+  "dennis-ritchie.moment.2":
+    "리치와 스티브 존슨(Steve Johnson)이 유닉스 커널을 인터데이터 8/32라는 새 기종으로 처음 옮길 때, 6판 소스의 한 코드 구간에는 '이것을 이해하리라고 기대하지 않는다(You are not expected to understand this)'라는 주석이 달려 있었다. 리치는 이 말이 '시험에 나오지 않는다'는 뜻이었을 뿐, 작성자들도 그 부분을 완전히 이해하지는 못했기 때문이라고 설명한다. 그는 문맥 전환 방식이 근본적으로 잘못되었다는 데 두 사람이 합의하기까지 약 일주일의 고심이 필요했고, 이후 컴파일러를 계속 손보는 대신 코루틴 제어 전달 기본 동작을 아예 다시 만들었다고 쓴다.",
+  "dennis-ritchie.interpretation.moment.2":
+    "땜질로는 고칠 수 없는 이유를 일주일가량 들여 규명한 뒤 그 방식을 통째로 교체한 일은 분석적 엄밀함과 부합한다. 다만 이 이야기는 전적으로 리치 본인의 회고에 의존한다.",
+  "dennis-ritchie.turning_point.1":
+    "1972년 톰프슨은 초기 버전의 C로 유닉스 커널을 다시 쓰려 잠시 시도했다가 포기했다. 리치에 따르면 당시 C에는 구조체가 없어 커널의 각종 테이블을 다루기 번거로웠다. 그 뒤 1년 동안 리치는 구조체를 추가하고 컴파일러를 개선했으며, 1973년 그와 톰프슨은 PDP-11용 유닉스 커널을 C로 다시 작성했다. 리치는 이 성공이 유닉스의 유틸리티도 C로 옮길 자신감을 주었고, 이어 유닉스를 다른 기종으로 옮기는 작업으로 이어졌다고 썼다.",
+  "dennis-ritchie.interpretation.turning_point.1":
+    "리치가 1973년의 재작성을 톰프슨의 앞선 실패한 시도 위에서 이룬 공동 작업('우리')으로 서술하며, 부족했던 언어 기능을 자신이 채웠다는 점은 협업과 부합한다. 다만 세부 내용은 주로 리치 본인의 서술에 의존한다.",
+  /* ---------------------------------------------------------- douglas-engelbart (Roster43) */
+  "douglas-engelbart.achievement.1":
+    "엥겔바트는 1963년부터 스탠퍼드 연구소(SRI)의 증강연구센터(Augmentation Research Center)를 이끌었으며, 이 연구소는 ARPA, NASA, 공군의 지원을 받았다. 그의 팀은 화면 위에서 서로 연결된 구조화 문서를 키보드, 코드 키세트, 마우스로 다루는 oN-Line System(NLS)을 만들었다. 마우스는 1964년 엥겔바트의 연구소에서 빌 잉글리시(Bill English)가 설계했고 1970년에 특허를 받았다. 이 연구소는 초기 ARPANET의 네트워크 정보센터(Network Information Center)도 운영했다.",
+  "douglas-engelbart.achievement.2":
+    "1968년 12월 9일 엥겔바트와 그의 팀은 샌프란시스코에서 약 1,000명의 컴퓨터 전문가 앞에서 NLS를 시연했다. 시연은 멘로파크 SRI의 호스트 컴퓨터와 마이크로웨이브로 연결되어 진행되었고, 공동 온라인 편집, 하이퍼텍스트, 화상회의, 워드 프로세싱, 마우스를 보여 주었다. 이 시연은 '모든 시연의 어머니(Mother of All Demos)'로 불리게 되었으며, IEEE는 이를 기리는 마일스톤 명판을 헌정했다.",
+  "douglas-engelbart.achievement.3":
+    "엥겔바트는 1962년 10월 공군과학연구국(AFOSR)에 제출한 SRI 보고서 「인간 지성의 증강: 개념적 틀(Augmenting Human Intellect: A Conceptual Framework)」을 발표했다. 이 글은 컴퓨터가 인간의 지성을 확장할 수 있다고 주장했으며, 그 방법으로 사람들이 정보를 구조화하고 네트워크로 공유하는 것을 들었고, 이는 ARPA의 지원으로 이어졌다. 그는 이후 1997년 ACM 튜링상과 2000년 12월 미국 국가기술훈장을 받았다.",
+  "douglas-engelbart.moment.1":
+    "1957년 엥겔바트는 컨설팅 수입을 올리며 자신의 발명을 상품화하려던 네 명의 소규모 회사 디지털 테크닉스(Digital Techniques)의 동업자였다. 그의 설명에 따르면, 그는 1년 가까이 의구심이 커지다가 동업자들에게 손을 떼겠다고 말했는데, 컴퓨터로 인간의 일을 증강한다는 꿈을 포기할 수 없다는 이유였고, 동업자들은 그가 없으면 계속하고 싶지 않다고 했다. 그는 이후 SRI에 일자리를 요청하고 몇 달 동안 답을 기다렸다.",
+  "douglas-engelbart.interpretation.moment.1":
+    "자신이 함께 세운 회사를 떠나 불확실한 연구 목표를 택하고, 이후 SRI에서 몇 달을 기다린 행동은 수입보다 사명에 대한 강한 헌신과 일치한다. 이 이야기는 그 자신의 회고에 근거하며, 마크 웨버(Marc Weber)가 기록한 이후 수십 년의 활동도 같은 방향을 가리킨다.",
+  "douglas-engelbart.moment.2":
+    "엥겔바트는 1968년 3월경 가을 컴퓨터 학술대회 프로그램 위원회에 샌프란시스코 현장에서 NLS를 실시간으로 시연할 시간을 달라고 요청했다고 말한다. 주최측은 주저하며 두 차례 현장 점검 인원을 보냈다. 팀은 SRI와 영상·데이터 회선을 연결했고, 실시간 시스템이 다운될 경우에 대비해 녹화 필름을 대기시켜 두었다. 그의 설명에 따르면, 시연이 실패했을 때 후원 기관이 곤란해지지 않도록 연구 후원금이 얼마나 들어갔는지 알리지 않았고, 비용은 약 1만~1만 5천 달러였다고 한다.",
+  "douglas-engelbart.interpretation.moment.2":
+    "후원 기관에 비용을 모두 알리지 않은 채 전례 없는 실시간 시연을 추진한 것은 개인적인 직업적 위험을 감수하려는 태도와 일치한다. 후원 기관에 관한 내용은 그 자신의 회고에서만 확인된다.",
+  "douglas-engelbart.turning_point.1":
+    "1969년 이후 ARPA는 지원을 줄였고, 엥겔바트를 후원해 온 밥 테일러(Bob Taylor)는 제록스 PARC로 옮겼으며, PARC는 이후 빌 잉글리시와 제프 룰리프슨(Jeff Rulifson) 등 그의 가까운 동료들을 영입했다. 1977년 SRI는 연구소를 타임셰어(Tymshare)에 매각했고, NLS는 이곳에서 Augment가 되었다. 엥겔바트는 1970년대 중반에 연구 방향은 자신이 맡고 운영은 다른 사람이 맡게 해 달라고 SRI에 요청했으나, SRI는 오히려 그를 교체했고 1977년 7월 그의 고용을 끝냈다고 말한다.",
+  "douglas-engelbart.interpretation.turning_point.1":
+    "그는 일상적 운영 없이 연구 방향을 유지할 수 있는 역할을 찾았다고 말하는데, 이는 자신의 연구 의제를 스스로 통제하려는 강한 욕구와 맞는다. 마크 웨버 등은 그를 현장 관리자보다는 비전을 제시하는 사람으로 묘사하지만, 해고 사유에 관한 그 자신의 설명은 여기서 교차 확인되지 않았다.",
+  /* ---------------------------------------------------------- edvard-munch (Roster43) */
+  "edvard-munch.achievement.1":
+    "「절규」는 여러 버전으로 존재한다. 뭉크미술관은 템페라화 두 점과 소묘 두 점, 곧 1893년으로 표기된 크레용 버전을 포함해 네 점을 꼽으며, 1895년 석판화는 약 30점이 남아 있는 것으로 추정한다. 이 모티프는 1892년 겨울 니스에서 쓴 일기 속 산문시, 곧 불타는 구름 아래를 걸은 저녁 산책의 기록에서 시작되었고, 석판화는 1895년 『라 르뷔 블랑슈』 같은 잡지에 복제되었다.",
+  "edvard-munch.achievement.2":
+    "뭉크는 1890년대에 「뱀파이어」, 「사춘기」, 「마돈나」 같은 모티프를 그렸고, 사랑과 불안과 죽음을 다룬 연작으로 작품을 묶어 '생의 프리즈'라고 불렀다. 1893~94년 겨울에는 베를린에 전시 공간을 빌려 「키스」, 「뱀파이어」, 「질투」, 「절망」, 「마돈나」를 포함한 사랑 연작을 선보였고, 1902년에는 베를린 분리파 조각 전시실의 네 벽에 작품 22점을 둘러 전시했다. 1940년 독일의 침공 뒤에는 자신의 작품과 문서를 오슬로 시에 남기는 유언장을 작성했으며, 이는 '생의 프리즈'가 머물 곳을 마련하려는 바람에서였다.",
+  "edvard-munch.achievement.3":
+    "뭉크는 1890년대에 에칭, 석판화, 목판화를 시작했다. 미술사가 쿠르트 글라저는 1922년에 목판화가 뭉크의 손에서 비로소 쓸 만한 예술 언어가 되었다고 썼는데, 화가가 붓을 쓰듯 이미지를 판목에 직접 새겼기 때문이며, 색을 입혀 찍으려고 판목을 톱으로 잘랐다고도 했다. 구스타프 쉬플러의 1907년 목록에는 거친 전나무 상자 널빤지의 나뭇결을 이용해 새긴 목판화가 기록되어 있고, 뭉크미술관은 그의 「마돈나」 석판화가 수백 점 찍혔다고 밝힌다.",
+  "edvard-munch.achievement.4":
+    "뭉크는 1909년부터 1916년까지 오슬로 대학교 대강당(아울라) 장식 작업을 했으며, 「역사」, 「태양」, 「알마 마테르」를 비롯한 열한 점의 그림을 그렸다. 1913년 독일에서 열린 초안 전시가 화제를 모은 뒤 대학 이사회는 이 그림들을 사들이기로 표결했고, 그는 1916년 늦여름에 그림들을 걸었다.",
+  "edvard-munch.moment.1":
+    "1911년 오슬로 대학교 대강당 심사위원회는 뭉크의 초안과 에마누엘 비겔란의 초안을 모두 채택하지 않았고, 대학 창립 100주년 행사 때 강당에는 노란 비단 벽지가 발렸다. 뭉크는 이 결정을 '승리한 패배'라고 부르며 곧바로 기념비적 규모의 「태양」 최종본을 새로 그리기 시작했고, 1916년에 그림을 걸 때까지 일부 모티프를 계속 손보았다.",
+  "edvard-munch.interpretation.moment.1":
+    "거절 직후 곧바로 새 버전을 그리기 시작하고 그림을 걸 때까지 작업을 이어간 일은 끈기와 부합한다. 결정을 뒤집는 데 도움이 된 1913년 독일 전시 역시 결과의 일부였다.",
+  "edvard-munch.moment.2":
+    "뭉크는 1905년부터 1934년까지 헥토그래프, 곧 아닐린 염료로 그린 그림을 젤라틴 판에 옮겨 찍는 판화를 만들었고, 모티프는 모두 약 100개에 이른다. 그중 한 작품에는 '나의 비밀 인쇄기로 찍음'이라고 적었다. 뭉크미술관 학예사들은 이 방식이 에칭, 석판화, 목판화와 달리 가게에서 살 수 있는 재료만 필요하고 인쇄판이 없어서, 전문 인쇄공 없이 혼자 찍을 수 있었다고 설명한다.",
+  "edvard-munch.interpretation.moment.2":
+    "가게에서 산 재료로 혼자 운용할 수 있는 방식을 택한 점은 자신의 이미지를 어떻게 만들고 복제할지 스스로 통제하려는 욕구와 부합한다. 다만 학예사들은 무엇이 이 선택을 이끌었는지는 알 수 없다고 밝힌다.",
+  "edvard-munch.turning_point.1":
+    "1892년 11월 베를린 화가협회는 노르웨이 화가 아델스틴 노르만의 제안에 따라 건축가회관에서 뭉크의 작품 55점을 전시했다. 회원들은 격분했고 전시는 약 일주일 만에 철거되었는데, 언론은 이 사건을 '뭉크 사건'이라 불렀다. 뭉크는 이보다 나은 광고는 없을 것이라고 고향에 편지를 썼고, 베를린으로 옮겨 1908년까지 간간이 그곳에서 살며 작업했다.",
+  "edvard-munch.interpretation.turning_point.1":
+    "전시 철거를 홍보로 받아들이고 사건이 일어난 도시로 옮겨 간 일은 좌절 속에서 기회를 알아보는 면과 부합한다. 다만 인용된 편지 한 통과 이주에 근거하므로 조심스러운 추론이다.",
+  /* ---------------------------------------------------------- gertrude-ederle (Roster43) */
+  "gertrude-ederle.achievement.1":
+    "에덜리는 1926년 8월 6일 프랑스 그리네 곶(Cape Gris-Nez)에서 도버 부근 킹스다운까지 헤엄쳐, 영국 해협을 건넌 최초의 여성이 되었다. 당시 통신 보도와 브리태니커 백과사전은 기록을 14시간 31분으로 전하는데, 이는 앞서 건넌 남성 5명 누구보다 두 시간 가까이 빠른 기록이며, 거친 바다 때문에 실제 거리는 약 35마일에 달했다. 이후 독일의 에른스트 피어쾨터(Ernst Vierkoetter)가 더 빠른 기록을 세웠다.",
+  "gertrude-ederle.achievement.2":
+    "에덜리는 1924년 파리 올림픽에서 자유형 4x100m 계주 금메달과 자유형 100m, 400m 동메달을 땄다. 올림피디아(Olympedia)에 따르면 그녀는 1919년 12세에 세계 수영 기록을 세운 최연소 여성이 되었고, 세계 기록을 모두 아홉 차례 세웠으며 그중 일곱 번은 1922년 브라이턴 비치의 500m 한 번의 레이스에서 나왔다. 브리태니커는 1921~1925년 사이 국내·세계 아마추어 기록이 29개라고 센다.",
+  "gertrude-ederle.achievement.3":
+    "횡단 후 에덜리는 뉴욕에서 티커테이프 퍼레이드로 환영받았다. EBSCO 참고 문헌은 군중을 약 2백만 명으로 추산하며, 쿨리지 대통령과 지미 워커 뉴욕 시장이 이 기록을 칭찬했다. 같은 글은 남성 기록을 넘어선 이 기록이 여성의 신체 능력에 대한 통념에 도전했고 이후 수많은 여성이 적십자 수영 자격증을 땄다고 설명하는 한편, 런던 『데일리 뉴스』 등은 이를 예외적 사례나 이벤트로 깎아내렸다고도 적는다.",
+  "gertrude-ederle.moment.1":
+    "유나이티드 프레스는 1926년 8월 6일 약 열 시간째 물속에 있던 에덜리에게 트레이너 빌 버지스(Bill Burgess)가 상황이 나쁘니 포기하라고 권했고, 그녀가 '지금 그만둘 이유가 없다'고 받아쳤다고 보도했다. EBSCO 참고 문헌은 저녁 폭풍이 거세지는 가운데에도 그녀가 중단하라는 요구를 무시했고 왼쪽 다리에 쥐가 난 뒤에도 계속 헤엄쳤다고 덧붙인다.",
+  "gertrude-ederle.interpretation.moment.1":
+    "한 번의 수영에서 두 차례 트레이너의 중단 권고를 거절한 것은 끈기와 부합한다. 두 기록 모두 같은 현장 취재에서 나온 것이라 근거는 하나의 사건에 해당한다.",
+  "gertrude-ederle.moment.2":
+    "유나이티드 프레스는 1926년 8월 7일, 에덜리가 출발 전 아버지에게 자신이 두 번째로 가라앉기 전에는 물에서 꺼내지 않겠다고 약속하게 했다고 전했다. 이 보도는 전년도에 트레이너가 물에서 끌어내라고 명령하자 그녀가 항의했던 일과 대비하며, 아버지가 처음 가라앉는 모습을 보면 붙잡을 생각이었다고 말한 것도 인용한다.",
+  "gertrude-ederle.interpretation.moment.2":
+    "열린 바다에서 구조 시점을 스스로 정한 것은 높은 위험 감수 성향과 부합한다. 전년도의 탈진은 같은 태도가 시도의 중단으로 이어질 수 있음을 보여 준다.",
+  "gertrude-ederle.turning_point.1":
+    "1925년 8월 18일 에덜리는 트레이너 제이브즈 울프(Jabez Wolffe)와 함께 그리네 곶에서 첫 해협 횡단을 시도했다. 통신 보도에 따르면 그녀는 약 아홉 시간 뒤 쓰러졌고 수영 선수 이샤크 헬미(Ishak Helmy)가 그녀를 배 위로 끌어올렸으며, 이후의 기록들은 그녀가 이 결정에 동의하지 않았다고 전한다. EBSCO 참고 문헌은 그녀가 이후 다른 트레이너 빌 버지스를 찾고 자금을 마련하고 언론사 후원을 확보한 뒤 그리네 곶에서 훈련했다고 설명한다. 그녀는 1926년 8월 해협을 건넜다.",
+  "gertrude-ederle.interpretation.turning_point.1":
+    "실패 뒤 트레이너를 바꾸고 자금과 후원을 직접 마련한 것은 주도적 행동 성향과 부합한다. 그녀의 동기에 관한 설명은 2차 자료에서 나온 것이다.",
+  /* ---------------------------------------------------------- glenn-curtiss (Roster43) */
+  "glenn-curtiss.achievement.1":
+    "1908년 7월 4일 커티스는 뉴욕주 햄먼즈포트에서 에어리얼 익스페리먼트 어소시에이션(Aerial Experiment Association)의 '준 버그(June Bug)'를 몰고 약 1마일을 날아, 미국 항공기로는 처음으로 1킬로미터 공개 비행을 해내며 사이언티픽 아메리칸 트로피를 받았다. 1909년 8월 랭스 대회에서는 20킬로미터를 15분 50.6초에 주파해 고든 베넷 컵(속도 부문)을 차지했는데, 루이 블레리오보다 약 6초 빨랐다. 1910년 5월 29일에는 올버니에서 뉴욕시까지 두 번 착륙하며 약 150마일을 날아 뉴욕 월드(New York World)가 내건 상금 1만 달러를 받았다.",
+  "glenn-curtiss.achievement.2":
+    "커티스는 1911년 1월 샌디에이고 노스 아일랜드에 비행학교 겸 시험장을 열어 육군과 해군 장교들을 가르쳤고, 1월 하순에는 부력 장치(float)를 단 그의 복엽기가 샌디에이고 만의 수면에서 이륙해 다시 수면에 내려앉았다. 이후 해군은 육지와 물 어디서든 뜨고 내릴 수 있는 수상 비행기를 요청했고, 엘리슨(Ellyson) 중위는 그것이 기한에 맞게 인도되었다고 기록한다. 또 유진 일리(Eugene Ely)가 몬 커티스 비행기는 군함에서의 첫 이륙(1910년 11월 14일)과 군함 위 첫 착륙(1911년 1월 18일)을 해냈으며, 브리태니커는 커티스를 미국 비행정 개척자로 꼽는다.",
+  "glenn-curtiss.achievement.3":
+    "제1차 세계대전 무렵 커티스의 회사는 미국을 대표하는 항공기 제작사였다. 브리태니커는 이 회사를 미국과 연합국 정부에 비행정을 공급한 주요 업체이자 OX-5를 비롯한 항공기 엔진의 대표적 제작사로 기록한다. 이 회사의 JN-4 '제니(Jenny)'는 미군의 표준 훈련·다목적 항공기가 되었고, 다발 엔진 커티스 비행정 NC-4는 1919년 최초로 대서양을 횡단 비행했다.",
+  "glenn-curtiss.achievement.4":
+    "커티스는 1900년경부터 오토바이 엔진을 직접 만들었다. 1907년 1월 플로리다주 오먼드 비치에서 8기통 엔진을 단 오토바이로 1마일을 시속 약 136마일로 달렸고, 브리태니커는 그날 그를 지상에서 가장 빠른 사람이라 부른다. 다만 그 자신의 설명에 따르면 오토바이용으로는 엔진이 너무 커서 공식 기록으로는 인정받지 못했다. 1904년 비행선 제작자 토머스 볼드윈(Thomas Baldwin)이 비행선 '캘리포니아 애로(California Arrow)'에 쓸 커티스 엔진을 구입했는데, 브리태니커는 이것이 커티스가 항공 분야에 들어선 계기였다고 설명한다.",
+  "glenn-curtiss.moment.1":
+    "1910년 5월 올버니-뉴욕 비행에 앞서 커티스는 허드슨 강을 직접 답사해 급유할 포킵시의 들판과 만일을 대비한 맨해튼 북단 인우드의 풀밭을 정했고, 강에 내려앉을 경우에 대비해 부력통(pontoon)을 달았다. 그는 사흘간 새벽에 일어났다가 바람 때문에 중단했다고 말하며, 플라이트(Flight)지는 그가 며칠째 날씨를 기다리고 있었다고 보도한다. 비행 중 그는 연료를 넣으려고 포킵시 부근에 내렸고, 기름이 모자라자 총독섬(Governor's Island)에 닿기 전 할렘 강변에 다시 내렸다.",
+  "glenn-curtiss.interpretation.moment.1":
+    "착륙 지점과 급유 지점을 미리 살피고 알맞은 날씨를 며칠 기다린 일은 계획 지향성과 부합한다. 준비 과정은 주로 커티스 본인의 서술에 의존하지만, 기다림과 중간 착륙, 스파이텐 다이빌 부근 착륙은 플라이트지가 따로 확인해 준다.",
+  "glenn-curtiss.moment.2":
+    "1909년 8월 라이트 형제는 뉴욕 항공협회(Aeronautic Society of New York)를 상대로 커티스 기체를 문제 삼는 소송을 냈고, 1910년 1월 3일 헤이즐(Hazel) 판사는 커티스와 헤링-커티스 회사에 대해 가처분을 인용했다. 항소법원(제2순회)은 증거 진술이 엇갈린다는 이유로 1910년 6월 14일 이를 뒤집었지만, 최종 심리 뒤 지방법원이 1913년 2월 21일 라이트 사의 손을 들어주었고 항소법원도 1914년 1월 13일 이를 확정했다. 커티스는 자신의 보조익(aileron)이 '다른 어떤 요소도 쓰지 않고' 가로 균형을 잡는다고 증언했으나, 법원은 그의 기체가 라이트 특허를 침해한다고 판단했다.",
+  "glenn-curtiss.turning_point.1":
+    "1910년 가을 커티스는 본인의 설명에 따르면 공개 경기 비행을 접고 수면 비행 연구에 매달렸다. 1910년 11월 29일 그는 육군장관과 해군장관에게 캘리포니아의 자기 시험장에서 장교들을 무료로 가르치겠다는 편지를 보냈고, 엘리슨 중위는 해군이 즉시 수락했으며 이것이 해군이 항공에 실질적 관심을 갖게 된 시작이었다고 말한다. 훈련 캠프는 1911년 1월 17일 노스 아일랜드에서 문을 열었고, 몇 주 안에 부력 장치를 단 커티스 복엽기가 샌디에이고 만에서 수면을 박차고 올랐다.",
+  "glenn-curtiss.interpretation.turning_point.1":
+    "경기 비행에서 새로운 분야로 옮겨 가고, 육군과 해군이 요청하기도 전에 이를 제안한 일은 기회 포착과 부합한다. 해군의 수락은 엘리슨이 커티스와 별개로 확인해 주지만, 엘리슨은 호의적인 당사자라는 점을 감안해야 한다.",
+  /* ---------------------------------------------------------- gottfried-wilhelm-leibniz (Roster43) */
+  "gottfried-wilhelm-leibniz.achievement.1":
+    "라이프니츠는 1672~76년 파리에서 미분과 적분의 계산법을 만들어 냈다. 그는 1675년 11월 21일 처음으로 적분 기호를 썼고, 1676년 가을에는 d(x^n) = n x^(n-1) dx 규칙을 얻었으며, 1684년 《악타 에루디토룸》에 이 방법을, 1686년에 적분법을 발표했다. 그가 만든 d와 적분 기호 표기는 지금도 쓰인다. 아이작 뉴턴은 이보다 앞서 자신의 방법을 만들었으나 발표하지 않았고, 스탠퍼드 철학 백과사전은 대부분의 역사가가 두 사람이 서로 독립적으로 작업했다고 본다고 전한다.",
+  "gottfried-wilhelm-leibniz.achievement.2":
+    "라이프니츠는 몇 가지 원리를 중심으로 철학 체계를 세웠다. 어떤 것도 충분한 이유 없이는 존재하지 않는다는 원리와, 세계가 그가 단자(모나드)라 부른 단순한 실체로 이루어져 있다는 생각이다. 그는 1710년 《변신론》에서 이 세계가 가능한 모든 세계 가운데 최선이라고 논증했고, 1714년 《단자론》에서 체계를 요약했다. 볼테르의 《캉디드》는 이 '최선의 세계' 논증을 훗날 풍자했고, 비판적 독자였던 버트런드 러셀은 《단자론》을 일관되기는 하나 자의적인 동화라고 평했다.",
+  "gottfried-wilhelm-leibniz.achievement.3":
+    "라이프니츠는 덧셈, 뺄셈, 곱셈, 나눗셈을 하도록 계산기를 설계했고, 1673년 런던 왕립학회에 미완성 모형을 선보였다. 그는 1679년까지 이진법 산술 체계를 다듬었으며, 1701년 파리 과학아카데미 회원으로 선출된 것을 기념해 보낸 논문 〈새로운 수의 과학에 관한 시론〉으로 이를 발표했다.",
+  "gottfried-wilhelm-leibniz.achievement.4":
+    "라이프니츠는 1695년 시작한 운동 끝에 브란덴부르크 선제후를 설득하여 1700년 7월 11일 브란덴부르크 과학협회를 세우게 했고, 종신 초대 회장으로 임명되었다. 맥튜터(MacTutor)에 따르면 이 협회는 처음에는 별로 성공하지 못했으나 몇 년 뒤 베를린 아카데미 설립으로 이어졌다. 드레스덴, 빈, 상트페테르부르크에 아카데미를 세우려던 그의 비슷한 계획은 생전에 실현되지 못했다.",
+  "gottfried-wilhelm-leibniz.moment.1":
+    "1673년 1월 런던에서 라이프니츠는 수학자 존 펠에게 급수에 관한 자신의 결과를 설명했는데, 펠은 그것이 무통(Mouton)의 책에 이미 있다고 말했다. 라이프니츠는 다음 날 무통의 책을 찾아보고 펠의 말이 옳음을 확인했다. 맥튜터는 그가 자신의 수학 지식이 바라던 것보다 부족함을 깨닫고 노력을 배가했다고 덧붙이며, 머츠(Merz)는 이 만남을 계기로 그가 펠이 일러 준 책들을 구해 파리에서 크리스티안 하위헌스에게 수학을 더 체계적으로 배우기 시작했다고 서술한다.",
+  "gottfried-wilhelm-leibniz.interpretation.moment.1":
+    "곧바로 책을 확인하고 지적을 받아들여 공부 방식을 바꾼 일은 증거에 따라 생각을 고치는 태도와 부합한다. 다만 나중의 우선권 논쟁과 하르츠 광산 사업 실패를 남의 탓으로 돌린 일을 보면 이런 태도가 일관되지는 않았다.",
+  "gottfried-wilhelm-leibniz.moment.2":
+    "라이프니츠는 1715년 11월부터 1716년 11월 사망할 때까지 뉴턴을 옹호하는 새뮤얼 클라크와 공간, 시간, 자유의지, 빈 공간을 가로지르는 인력에 관해 논문 다섯 편을 주고받았다. 그는 충분이유율에 호소하여 절대 공간과 진공을 부정했고, 클라크의 답변에 하나하나 응수했으며, 클라크가 이성에 귀 기울일 생각이 있는지 의문을 제기했다. 클라크는 라이프니츠가 증명 없이 자신의 원리를 주장했고 논점을 회피했다고 반박했으며, 이 논쟁은 라이프니츠의 죽음으로 중단되었다.",
+  "gottfried-wilhelm-leibniz.interpretation.moment.2":
+    "뉴턴 학파의 대표적 입장에 정면으로 맞서 반론마다 응수한 일은 독립적 사고와 부합한다. 다만 어조가 한쪽으로 기운 대목도 있고, 상대편은 그의 핵심 전제가 증명되지 않았다고 판단했다.",
+  "gottfried-wilhelm-leibniz.turning_point.1":
+    "1672년 마인츠 선제후는 라이프니츠를 외교 임무로 파리에 보냈고, 그는 그곳에서 4년을 머물렀다. 그는 하위헌스, 아르노, 말브랑슈를 만났고, 하위헌스에게 수학과 물리학을 배웠으며, 데카르트와 파스칼의 미발표 원고를 읽었다. 스탠퍼드 철학 백과사전은 이를 그의 생애에서 가장 중요한 기회라고 부르며, 미적분 표기와 계산기 설계도 이 시기의 것이다. 그는 1676년 하노버의 도서관장 자리를 맡아 떠났고, 남은 생을 그곳에서 보냈다.",
+  "gottfried-wilhelm-leibniz.interpretation.turning_point.1":
+    "외교 임무로 얻은 체류를 당대 최고 수학자들과 원고를 찾아가는 기회로 활용한 일은 기회 포착과 부합한다. 다만 그 파견 자체는 스스로 찾은 것이 아니라 후원자를 통해 주어졌다.",
+  /* ---------------------------------------------------------- heinrich-hertz (Roster43) */
+  "heinrich-hertz.achievement.1":
+    "헤르츠는 카를스루에 공과대학에서 불꽃 간극으로 빠른 전기 진동을 만들고, 공진 수신기로 이를 검출하여 전기 작용이 공기 중을 유한한 속도로 전파한다는 것을 보였다. 벽에서의 반사로 정상파를 만들어 파장과 속도를 측정했고, 이 파동이 빛처럼 반사·굴절·편광된다는 것도 보였다. 헬름홀츠는 패러데이와 맥스웰이 이런 견해를 개연성 있는 것으로 제시했으나 아직 검증되지 않았으며, 헤르츠가 그 증명을 해냈다고 썼다. 헤르츠는 1887년 11월 10일 베를린 학술원에 첫 성과를 보고했고, 논문들을 『전기파(Electric Waves)』(1892)로 묶었다. 주파수의 단위 헤르츠(hertz)는 그의 이름에서 따왔다.",
+  "heinrich-hertz.achievement.2":
+    "헤르츠는 이 실험을 준비하는 동안 한 진동자의 불꽃이 가까이 있는 다른 진동자의 불꽃에 영향을 준다는 점을 발견했다. 유리판은 이 효과를 차단했지만 수정판은 그렇지 않았으며, 그는 이것이 1차 불꽃에서 나온 자외선 때문이라고 결론지었다. 그는 이를 「전기 방전에 미치는 자외선의 효과에 대하여」로 발표한 뒤 본래의 연구 주제로 돌아가기 위해 이 문제를 접어 두었다. 이후 리기, 할바흐스, 엘스터와 가이텔 등이 이 현상을 더 정밀하게 규명했다.",
+  "heinrich-hertz.achievement.3":
+    "1881년 1월 헤르츠는 베를린 물리학회에서 서로 눌린 탄성체의 접촉에 관한 이론을 발표했다. 이 이론은 두 물체의 변형과 응력을 결정하며, 접촉면은 타원이고 그 크기는 힘의 세제곱근에 비례하여 커진다. 1882년에는 이를 기술 학술지용으로 확장하여 경도에 대한 정의를 제시했다. 레나르트는 이 연구가 큰 관심을 받았으며, 당시 베를린에서 계산 중이던 측지 기선 측정에서도 탄성 접촉이 불확실성을 만들고 있었다고 전한다.",
+  "heinrich-hertz.achievement.4":
+    "헤르츠의 마지막 저작 『새로운 형식으로 제시한 역학의 원리』는 마지막 3년에 걸쳐 쓰였고, 1894년 그의 사후에 헬름홀츠의 서문과 함께 출간되었다. 이 책은 힘을 기본 개념으로 삼지 않고 단 하나의 법칙에서 출발하는 역학을 제시한다. 헬름홀츠는 그 논리적 엄밀함을 높이 평가하면서도 자신은 다른 방식을 택했다고 밝혔다. 노르트만은 이 책을 역학의 최초의 기하학화로 설명한다. 헤르츠의 접근은 물리학자들 사이에서는 널리 받아들여지지 않았으나, 루트비히 비트겐슈타인을 비롯한 과학철학자들이 이를 받아들였다.",
+  "heinrich-hertz.moment.1":
+    "1887년 11월 이후 몇 달 동안 헤르츠는 공기 중의 파동과 도선을 따라 가는 파동이 모든 거리에서 같은 위상으로 간섭하는지를 확인하려 했다. 위상은 거리에 따라 달랐고, 이는 공기 중 속도가 무한하다는 뜻으로 보여 그가 기대한 것과 정반대였다. 그는 몇 주 동안 실험을 중단했다. 그런 뒤 맥스웰이 틀렸다는 것을 확인하는 일도 맥스웰을 입증하는 일만큼 중요하다고 판단하고 실험을 조심스럽게 되풀이하여 결과를 발표했으며, 이를 도선 속의 느린 속도로 설명했다. 1892년에 그는 이 결론이 '옳다고 보기 어렵다'고 쓰고, 논문의 계산 오류를 푸앵카레가 지적했음을 밝혔다.",
+  "heinrich-hertz.interpretation.moment.1":
+    "달갑지 않은 결과를 되풀이해 확인하고 발표한 뒤, 훗날 자신의 결론이 아마도 틀렸다고 직접 밝힌 일은 믿음 갱신과 부합한다. 이 서술은 헤르츠 자신의 것이며, 플랑크도 같은 정정을 별도로 기록한다.",
+  "heinrich-hertz.moment.2":
+    "1883년 2월 24일 헤르츠는 베를린에서 부모에게 보낸 편지에서, 한 주 동안 사람이 올라선 떠 있는 얼음판의 평형 문제에 몰두해 왔다고 썼다. 얼음판은 사람 아래에서 가라앉고 그 둘레에서 고리 모양으로 솟은 뒤 다시 가라앉으며, 이 기복은 점점 작아진다는 것이다. 그는 이 문제가 그다지 중요하지 않다는 것도, 킬 대학 취임을 위한 논문을 써야 한다는 것도 알지만 생각이 자꾸 그 문제로 돌아간다고 덧붙였다. 그 해법은 1년 뒤 킬에서 발표되었다.",
+  "heinrich-hertz.interpretation.moment.2":
+    "스스로 중요하지 않다고 부른 문제에 자신의 일정과 어긋나는데도 계속 매달린 일은 깊은 몰입과 부합한다. 근거는 레나르트가 고른 그 자신의 편지이다.",
+  "heinrich-hertz.turning_point.1":
+    "1877년 10월 헤르츠는 공학 공부를 이어 가려고 뮌헨으로 갔다. 11월 1일 그는 부모에게 편지를 써서 자연과학으로 돌아가고 싶다고 말했다. 이류 연구자가 되느니 이류 기술자가 되겠다고 했으며, 공학이 더 확실한 생계 수단이라는 점도 인정했고, 조언이 아니라 결정을 내려 달라고 아버지에게 청했다. 아버지는 이를 받아들였다. 헤르츠는 그해 겨울을 수학과 역학 공부에 바쳐 라플라스와 라그랑주의 원전을 읽었고, 1878년 10월 헬름홀츠와 키르히호프에게 배우러 베를린으로 갔다.",
+  "heinrich-hertz.interpretation.turning_point.1":
+    "더 불안정한 길을 따져 본 뒤 택하고 그 겨울을 원전 읽기에 쓴 일은 숙달 지향과 부합한다.",
+  /* ---------------------------------------------------------- henri-matisse (Roster43) */
+  "henri-matisse.achievement.1":
+    "1905년 파리 살롱 도톤(가을 살롱)에서 마티스는 앙드레 드랭과 함께 콜리우르에서 보낸 여름의 결과물을 선보였는데, 대담하고 비사실적인 색채로 그린 작품들이었다. 테이트는 비평가 루이 복셀이 이 전시를 보고 그들에게 '야수'를 뜻하는 '레 포브'라는 이름을 붙였다고 설명한다. 스타인의 회고록에 따르면 아내 아멜리를 그린 「모자를 쓴 여인」은 관람객의 조롱을 받았으나 레오와 거트루드 스타인 남매가 사들였다. 1906년에 마티스는 「삶의 기쁨(Le Bonheur de vivre)」을 완성했는데, 뉴욕현대미술관(MoMA) 도록은 이 작품을 1909~1910년에 무르익은 장식적 양식의 출발점으로 본다. 이 그림은 훗날 반스 재단이 스타인 가에서 사들였다.",
+  "henri-matisse.achievement.2":
+    "1909년 봄 러시아의 수집가 세르게이 시추킨은 모스크바 저택의 계단실을 장식할 패널을 주문했고, 오간 서신 끝에 두 사람은 '춤'과 '음악'이라는 두 주제로 합의했다. 시카고미술관은 마티스가 이 주문으로 받은 대금으로 이시레물리노에 조립식 작업실을 구입했다고 전하며, 1910년으로 표기된 「음악」은 지금 에르미타주 미술관에 있다. 1930년에는 앨버트 반스가 반스 재단 중앙 전시실에 들어갈 마티스의 첫 본격적 벽화 「춤」을 주문했다. 비평가 제드 펄은 1년 넘게 작업한 뒤 공간 크기를 잘못 계산한 것이 드러나 마티스가 처음부터 다시 시작해야 했다고 전한다. 그래서 이 작품에는 두 가지 버전이 있으며, 그는 채색한 종이를 잘라 배치하는 방식으로 구도를 잡았다.",
+  "henri-matisse.achievement.3":
+    "1947년 파리의 출판인 테리아드가 펴낸 『재즈』는 채색한 종이를 오려 붙여 만든 도판 스무 점으로 이루어져 있고, 각 도판 앞에는 마티스가 직접 손으로 쓴 글이 실려 있다. 뉴욕현대미술관(MoMA) 도록은 이 작업의 도안이 1943~1944년에 만들어졌다고 하며 그의 첫 본격적인 종이 오리기 프로젝트로 소개한다. 같은 도록에 따르면 1950년 마지막 조각, 1951년 마지막 회화를 만든 뒤 1950~1952년에는 종이 오리기가 큰 작업의 유일한 매체가 되었다. 테이트 모던이 2014년에 연 전시는 1936년부터 1954년 사이에 만든 작품 120점을 선보였고, 「달팽이」(1953)도 포함되었다.",
+  "henri-matisse.achievement.4":
+    "마티스는 1948년부터 1951년까지 방스의 도미니크회 수녀들을 위해 로사리오 예배당을 설계했다. 건물 도면은 물론 노랑, 초록, 파랑의 스테인드글라스, 흰 도자 타일에 그린 대형 선화 세 점(성 도미니크, 성모자, 십자가의 길), 그리고 가구와 제구, 사제복까지 그의 손을 거쳤다. 방스시에 따르면 초석은 1949년 12월 11일에 놓였고 예배당은 1951년 6월 25일에 봉헌되었으며, 이 봉헌식에서는 결점이 있더라도 이 작품을 자신의 걸작으로 여긴다는 마티스의 글이 낭독되었다. 뉴욕현대미술관(MoMA) 도록은 그가 예배당의 마지막 작업으로 전례 색깔에 맞춘 사제복 여섯 벌을 디자인했다고 덧붙인다.",
+  "henri-matisse.moment.1":
+    "1947년 『재즈』가 출간되었을 때 마티스는 이 책을 '완전한 실패'라고 불렀다. 인쇄된 종이 오리기 구성이 완성된 원작이 아니라 조각 퍼즐처럼 보였기 때문이다. 두 달 뒤 그는 원작을 보지 못한 사람에게는 책 자체가 전하는 것이 중요하다고 쓰면서, 책이 화가들에게 끼친 영향에 대해 전해 들은 이야기를 근거로 들었다.",
+  "henri-matisse.interpretation.moment.1":
+    "완성된 책을 실패라 평가했다가 화가들이 그것을 어떻게 받아들이는지 듣고 두 달 만에 다시 따져 본 일은 믿음 갱신과 부합한다. 이 서술은 뉴욕현대미술관(MoMA) 도록에 인용된 그 자신의 글에 바탕을 둔다.",
+  "henri-matisse.moment.2":
+    "1916년 7월 마티스는 샤를 카무앵에게 '모로코 그림'(훗날 「모로코 사람들」)에 한 달을 매달렸더니 마음이 완전히 흔들렸다고 쓰면서 '나는 참호에 있지는 않지만, 내가 만든 최전선에 있다'고 적었다. 시카고미술관은 1916년에 그가 「등」, 「강가의 목욕하는 여인들」, 「자네트」 작업도 다시 잡아, 이전의 긁어내고 새기는 방식 위에 새 물감을 더해 나갔다고 전한다.",
+  "henri-matisse.interpretation.moment.2":
+    "오래 끌어온 작품들로 되돌아가고, 힘겨운 싸움이라 묘사하면서도 까다로운 캔버스를 놓지 않은 모습은 끈기와 부합한다. 이 서술은 뉴욕현대미술관(MoMA)이 인용한 그의 편지와 시카고미술관의 큐레이터 설명에 의지한다.",
+  "henri-matisse.turning_point.1":
+    "1913년 두 번째 모로코 여행에서 돌아온 마티스는 갑자기 방향을 바꾸어, 이전 작업의 특징이던 색채보다 형태의 구조를 우선했다. 시카고미술관은 그해 5월부터 12월까지 완성한 회화가 세 점뿐이었고, 「강가의 목욕하는 여인들」과 「등」 같은 이전 작업을 계속 붙들었으며, 가을에 판화를 다시 시작했다고 전한다. 1917년부터는 이런 실험적 방식에서 벗어나기 시작했고, 그해 말 니스에 정착했다.",
+  "henri-matisse.interpretation.turning_point.1":
+    "이름을 알린 방식을 접고 생산량을 줄여 가며 다른 방식을 시험한 일은 실험 정신과 부합한다. 이 서술은 그 자신의 편지를 인용한 시카고미술관 큐레이터 페이지에 바탕을 둔다.",
+  /* ---------------------------------------------------------- henri-poincare (Roster43) */
+  "henri-poincare.achievement.1":
+    "1888년 푸앵카레는 미타그레플레르가 펴낸 학술지 『악타 마테마티카』를 통해 열린 스웨덴·노르웨이 왕 오스카 2세 상금 공모전에 삼체 문제와 동역학 방정식에 관한 논문을 제출했다. 에르미트, 미타그레플레르, 바이어슈트라스로 구성된 심사위원회는 1889년 1월 그에게 상을 수여했고, 이후 분량이 훨씬 늘어난 수정본이 1890년에 발표되었다. 이 논문은 궤도를 기하학적으로 연구하며 횡단 호모클리닉 교차를 기술했는데, 그 복잡한 기하는 훗날 카오스 동역학과 연결되었다. 요코즈는 그를 동역학계 이론의 창시자라 부른다. 푸앵카레는 이 착상을 『천체역학의 새로운 방법』(1892~1899) 세 권으로 발전시켰다.",
+  "henri-poincare.achievement.2":
+    "푸앵카레는 1880년대 초에 자기형 함수를 도입하고 푸크스 함수라 이름 붙였으며, 이를 비유클리드 기하학과 연결하고 대수 계수를 가진 선형 미분방정식을 푸는 데 활용했다. 『위상해석(Analysis situs)』(1895)과 1894년부터 발표한 논문들에서는 대수적 위상수학의 기초를 놓고 기본군을 도입했다. 맥튜터(MacTutor)는 약 40년 동안 이 분야의 거의 모든 착상과 기법이 그의 연구에 기초했다고 설명한다. 여기서 비롯된 푸앵카레 추측은 2002년 그리고리 페렐만이 해결했다.",
+  "henri-poincare.achievement.3":
+    "푸앵카레는 1905년 6월 5일 프랑스 과학아카데미에 「전자의 동역학에 대하여(Sur la dynamique de l'électron)」라는 짧은 논문을 발표했고, 7월 23일에는 같은 주제의 긴 논문을 팔레르모 수학회 회보에 보냈다. 월터(Walter)는 그가 상대성 원리를 변환군에 대한 물리 법칙의 형식 불변성으로 서술한 최초의 인물로 볼 수 있다고 하며, 역사학자들은 그가 현대적 형태의 로런츠 변환을 찾아내고 이름을 붙였다는 데 동의한다. 다만 그가 이를 어떻게 해석했는지에 대해서는 의견이 갈리는데, 그는 에테르에 기반한 그림을 유지했고 다무르(Damour)에 따르면 아인슈타인의 기여를 인용한 적이 없는 것으로 보인다.",
+  "henri-poincare.achievement.4":
+    "푸앵카레는 『과학과 가설』(1901), 『과학의 가치』(1905), 『과학과 방법』(1908)에서 자신의 과학철학을 펼쳤으며, 여기에는 물리적 공간에 유클리드 기하학과 비유클리드 기하학 중 무엇을 택할지는 약속(관례)의 문제라는 견해가 포함된다. 영국 왕립천문학회의 추도문은 이 책들이 많은 독자를 얻었고 젊은 물리학자와 수학자 상당수의 철학적 생각을 형성했다고 평했다. 그는 1908년 수학적 발견에 관한 강연도 했는데, 여기서 자신의 발견 일부가 어떻게 떠올랐는지를 설명했다.",
+  "henri-poincare.moment.1":
+    "1879년 9월 1일, 푸앵카레는 베수르에서 광산 감독관으로 일한 지 5개월째에, 교대 근무자 22명 중 16명이 숨진 마니(Magny) 갱 폭발 사고의 구조 작업이 아직 진행되는 가운데 갱도로 내려갔다. 그의 보고서는 가능한 원인을 하나씩 들고 각각에 대한 찬반 증거를 제시했으며, 화상의 방향으로 폭발 지점을 두 곳으로 좁히고 번호가 붙은 안전등을 추적했다. 엉뚱한 시신 옆에서 발견된 손상된 램프를 통해 한 광부가 다른 광부의 램프를 집어 들었다고 결론지었다. 루아(Roy)와 뒤가(Dugas)는 보고서가 구조 과정에서 그 자신이 맡은 역할을 언급하지 않는다고 지적한다.",
+  "henri-poincare.interpretation.moment.1":
+    "가능한 원인을 하나씩 물리적 증거에 비추어 따져 좁혀 나간 방식은 분석적 엄밀성과 부합한다. 이 서술은 보고서 원문이 아니라 맥튜터의 요약과 루아·뒤가의 연구를 통해 전해진다.",
+  "henri-poincare.moment.2":
+    "1881년 푸앵카레는 한 부류의 함수에 푸크스의 이름을 붙였고, 클라인은 '푸크스 함수'도 '클라인 함수'도 쓰지 않겠다고 쓰며 이의를 제기했다. 1882년 4월 4일 푸앵카레는 같은 종류의 앞선 연구를 보여 주어야만 선행 권리를 인정하겠다고 답하고, 클라인 함수라는 이름을 '보상으로' 붙인 것이 아니라고 했다. 그는 논쟁을 더 끌지 않고 '나는 내 뜻대로 하겠다'고 쓰며 괴테의 '이름은 소리와 연기(Name ist Schall und Rauch)'를 인용했고, 이름을 두고 벌인 다툼이 두 사람의 좋은 관계를 해치지 않기를 바란다고 덧붙였다.",
+  "henri-poincare.interpretation.moment.2":
+    "독일의 저명한 수학자에 맞서 자신의 입장을 지키면서도 어조는 정중하게 유지한 점은 독립적 사고와 부합한다. 이 일화는 양측이 각각 쓴 편지 두 통으로만 알려져 있다.",
+  "henri-poincare.turning_point.1":
+    "1889년 7월 미타그레플레르는 편집자 프라그멘(Phragmén)이 공모 논문에 대해 해명을 요청했다는 말을 푸앵카레에게 전했다. 푸앵카레는 프라그멘의 지적이 타당함을 알아차렸고 다른 부분에서 더 심각한 오류까지 발견했으며, 1889년 12월 초 미타그레플레르에게 이를 바로잡으려면 논문을 크게 고쳐야 한다고 알렸다. 미타그레플레르는 이미 보낸 인쇄본을 회수했고, 푸앵카레는 초판 인쇄비 3,500크로나(상금보다 1,000크로나 많은 금액)를 부담했으며, 270쪽으로 늘어난 수정본은 1890년 11월에 발표되었다. 요코즈는 오류를 바로잡는 과정이 푸앵카레를 횡단 호모클리닉 교차로 이끌었다고 설명한다.",
+  "henri-poincare.interpretation.turning_point.1":
+    "지적을 받아들이고, 논증 전체를 고쳐 써야 한다고 알리고, 초판 회수 비용을 직접 부담한 행동은 믿음 갱신과 부합한다. 이 경위는 바로그린(Barrow-Green)의 연구에 의존하는 요코즈와 브렌트의 글을 통해 전해진다.",
+  /* ---------------------------------------------------------- louis-bleriot (Roster43) */
+  "louis-bleriot.achievement.1":
+    "블레리오는 1909년 7월 25일 자신의 11호 단엽기를 몰고 칼레 근처에서 도버까지 약 31마일을 대략 40분에 날아, 비행기로 영국 해협을 처음 건넌 사람이 되었다. 이 비행으로 그는 데일리 메일이 내건 상금 1,000파운드를 받았다.",
+  "louis-bleriot.achievement.2":
+    "블레리오는 1900년부터 실험을 거듭한 끝에 소형 단엽기 11호를 주력 기종으로 삼았고, 영국 해협 비행 12일 전에는 이 기체로 약 25마일을 들판과 마을 위로 날았다. 브리태니커 백과사전에 따르면 그의 공장은 1909년 7월부터 1914년 8월 사이에 항공기를 800대 넘게 만들었고 그 가운데 상당수가 11호 단엽기이거나 그 변형이었으며, 1914년에는 스패드(SPAD) 복엽기를 만든 회사를 인수했다.",
+  "louis-bleriot.achievement.3":
+    "블레리오는 항공기에 뛰어들기 전에 자동차 전조등과 부품을 만드는 사업을 했고, 브리태니커 백과사전은 이 사업으로 모은 재산이 그의 초기 항공 연구 비용을 댔다고 설명한다. 『플라이트』지는 1909년에 그의 이름이 붙은 아세틸렌 램프를 세계적으로 유명하다고 소개했고, 그가 9년 동안 비행기 실험에 약 2만 파운드를 썼다고 스스로 추산했다고 전했다.",
+  "louis-bleriot.moment.1":
+    "『플라이트』지에 따르면 블레리오는 1909년 7월 25일 새벽 2시 반쯤 일어나 짧게 시험 비행을 한 뒤, 나침반도 시계도 없이 프랑스 시간 4시 40분께 영국을 향해 출발했다. 그는 곧 호위 구축함을 앞질렀고, 본인의 추산으로 약 10분 동안 육지도 배도 보이지 않는 곳을 날았다. 그라함화이트와 해리 하퍼는 바람이 거세지고 있어 곧장 가는 것만이 유일한 희망이라고 판단해, 호위함을 기다리며 선회하지 않았다고 전한다. 『플라이트』 편집진은 이 비행을 '다소 무모했다'고 평했고, 블레리오 자신도 그 점을 인정했다고 덧붙였다.",
+  "louis-bleriot.interpretation.moment.1":
+    "나침반 없이 바다 위로 나서고 호위함을 기다리지 않은 일은 높은 위험 감수 성향과 부합한다. 같은 잡지는 그가 취한 안전 조치와 행운이 따랐다는 점도 함께 적고 있어, 이런 태도에는 실제 대가도 따랐다.",
+  "louis-bleriot.moment.2":
+    "찰스 터너는 항공 역사서에서 블레리오의 연이은 사고를 열거한다. 1906년 11월 4호 복엽기가 도랑에 처박혔고, 1907년 4월 5호 단엽기는 첫 비행 며칠 뒤 부서졌으며, 1907년 9월 17일에는 6호가 파손되었고, 같은 해 12월에는 7호가 선회 중 날개 끝이 땅에 닿아 뒤집혔다. 터너는 블레리오가 곧바로 8호 설계에 착수했다고 쓰고, 사고 횟수를 50번까지 세는 사람도 있다고 덧붙인다. 『플라이트』는 1909년에 그가 9년간 실험에 약 2만 파운드를 썼다고 전했다.",
+  "louis-bleriot.interpretation.moment.2":
+    "몇 해에 걸쳐 사고가 날 때마다 다시 기체를 만든 일은 끈기와 부합한다. 터너와 『플라이트』는 사고의 연속을 서술할 뿐 블레리오 본인의 동기를 밝히지는 않으므로, 행동의 패턴은 기록으로 확인되지만 동기는 확인되지 않는다.",
+  "louis-bleriot.turning_point.1":
+    "영국 해협 비행 뒤 11호 주문이 빠르게 밀려들었다. 『플라이트』는 1909년 7월에 그가 이미 15대를 팔았고, 8월에는 11월까지 36대를 대당 약 400파운드에 인도하기로 했으며, 9월에는 101번째 기체를 팔아 납품을 맞추기 위해 예정했던 베를린 비행 시연을 포기했다고 전했다. 터너는 그가 경기와 곡예비행을 그만두고 제작에 전념하겠다고 밝혔고 이에 비판하는 사람도 있었다고 쓴다.",
+  "louis-bleriot.interpretation.turning_point.1":
+    "주문이 밀려드는 때에 조종사이자 실험가에서 전업 제작자로 옮겨 간 일은 기회 포착과 부합한다. 자료는 그 결정과 비판을 전할 뿐 그의 이유를 밝히지는 않는다.",
+  /* ---------------------------------------------------------- paavo-nurmi (Roster43) */
+  "paavo-nurmi.achievement.1":
+    "누르미는 1920년부터 1928년까지 올림픽에서 금메달 9개(개인 6개, 단체 3개)와 개인 은메달 3개를 땄다. 올림피디아는 이를 기록적인 성과라고 설명한다. 금메달은 1920년 안트베르펜의 1만 m와 개인·단체 크로스컨트리, 1924년 파리의 1,500 m, 5,000 m, 개인·단체 크로스컨트리와 3,000 m 단체 경주, 1928년 암스테르담의 1만 m에서 나왔다.",
+  "paavo-nurmi.achievement.2":
+    "올림피디아는 누르미의 공인 세계기록을 22개로 집계한다. 첫 기록은 1921년 6월 22일 스톡홀름에서 1만 m를 30분 40초 2에 달린 것이었고, 세계육상연맹 헤리티지는 그의 마지막 세계 기록을 1931년의 2마일로 꼽는다. 브리태니커 백과사전에 따르면 그의 마일 기록 4분 10초 4는 1923년부터 1931년까지 깨지지 않았다. 레이싱 패스는 그가 1924년 말 1,500 m, 마일, 2,000 m, 3,000 m, 5,000 m, 1만 m의 세계기록을 모두 보유했다고 정리한다.",
+  "paavo-nurmi.achievement.3":
+    "누르미는 1924년 파리 올림픽에서 1,500 m를 3분 53초 6에 우승했고, 그 결승이 끝난 지 42분 뒤 열린 5,000 m도 14분 31초 2에 우승했다. 올림피디아는 두 결승이 55분 간격이었는데도 그가 두 종목에 모두 나서기로 했다고 설명한다. 그는 이틀 뒤 폭염 속 크로스컨트리에서 1분 30초 가까운 차로 우승했고, 다음 날에는 핀란드의 3,000 m 단체 경주 우승을 이끌었다. 1924년 7월 11일자 유나이티드 프레스 기사는 1,500 m에서 그가 '마음 내키는 대로' 이겼다고 전했다.",
+  "paavo-nurmi.moment.1":
+    "레이싱 패스에 따르면 파리 올림픽 일정에서는 1,500 m와 5,000 m 결승이 약 55분 간격이었고, 누르미는 1924년 6월 19일 헬싱키 대회에서 같은 일정을 미리 시험해 3분 52초 6과 14분 28초 2, 두 종목 모두 세계기록을 세웠다. 올림피디아는 그가 대회 몇 주 전 무릎을 다쳤지만 훈련 덕에 빨리 회복했고, 이후 파리에서 이 두 종목에 모두 나서기로 했다고 적는다.",
+  "paavo-nurmi.interpretation.moment.1":
+    "올림픽과 똑같은 일정을 몇 주 앞서 미리 시험해 본 일은 강한 계획 지향성과 부합한다. 자료는 그 예행 경기와 기록을 전할 뿐, 그가 왜 그렇게 했는지는 밝히지 않는다.",
+  "paavo-nurmi.moment.2":
+    "『로프 매거진』의 1925년 미국 순회 경기 기록에 따르면, 1월 16일 누르미가 탄 열차는 저녁 8시 15분에 시카고에 도착했고 두 시간도 지나지 않아 그는 경기에 나서 1¾마일 기록을 세웠다. 그는 곧바로 뉴욕행 열차를 타고 돌아가 사흘 동안 세 번째 경기를 치렀다. 웨스턴리저브 역사학회 회보는 그가 다섯 달 동안 55개 경기를 뛰었고, 너무 자주 뛰어 힘을 소진했을까 걱정하며 미국을 떠났다고 덧붙인다.",
+  "paavo-nurmi.interpretation.moment.2":
+    "기록을 쫓아 밤 기차를 타며 며칠마다 경기를 소화하는 일정을 받아들인 것은 강한 성취 욕구와 부합한다. 같은 회보가 그가 무리했을까 걱정했다고 적은 점은 그 대가를 보여 준다.",
+  "paavo-nurmi.turning_point.1":
+    "1932년 4월 국제아마추어육상연맹은 아마추어 자격 조사를 이유로 누르미의 출전을 정지시켰고, AP통신은 1932년 7월 29일 1931년 독일 순회 경기에서 받은 돈을 이유로 그의 올림픽 출전 신청이 거부되었다고 보도했다. 핀란드 지도부는 그가 부당하게 유죄 판정을 받았다고 믿었으며, AP는 누르미 본인이 언급을 거부했다고 전했다. 그의 마라톤 도전은 끝났다. 브리태니커 백과사전에 따르면 그는 1934년까지 핀란드에서 계속 경주했고, 핀란드 100은 그가 이후 핀란드 선수들을 지도하고 건설업과 의류 사업을 일으켰다고 전한다.",
+  "paavo-nurmi.interpretation.turning_point.1":
+    "국제 대회 선수에서 국내 경주자, 지도자, 사업가로 길을 바꾼 것은 적응력과 부합한다. 자료는 그 뒤의 행보를 전할 뿐 그의 이유를 밝히지 않으며, 이 설명은 출전 금지 결정의 옳고 그름에 대해서는 입장을 취하지 않는다.",
+  /* ---------------------------------------------------------- paul-ehrlich (Roster43) */
+  "paul-ehrlich.achievement.1":
+    "에를리히와 공동 연구자들은 비소 화합물을 오랫동안 연달아 만들어 시험했고, 그 606번째인 아르스페나민은 1907년에 만들어졌다. 하타 사하치로(Sahachiro Hata)가 1909년에 이 약이 감염된 토끼의 매독을 치료함을 보이자, 에를리히와 하타는 1910년 4월 19일 비스바덴 내과학회에서 이를 발표했고 획스트(Hoechst)사가 '살바르산'이라는 이름으로 판매했다. 발렌트 등은 이것을 매독에 대한 최초의 합성 약제로 설명한다. 이 약은 기생체만 공격하고 환자 자신의 세포는 비켜 가는 '마법의 탄환'이라는 에를리히의 구상에 기반했다.",
+  "paul-ehrlich.achievement.2":
+    "에를리히는 1897년에 곁사슬 이론을 제안했다. 세포에는 독소와 특이적으로 결합하는 구조가 있고, 세포가 이를 더 많이 만들어 내보내면 항독소, 곧 항체로 작용한다는 것이다. 1900년에는 이 구조를 '수용체'라고 불렀다. 면역에 관한 이 연구로 그는 1908년 노벨 생리의학상을 일리야 메치니코프(Ilya Metchnikoff)와 함께 받았으며, 메치니코프의 식세포 이론은 그의 이론과 서로 보완되는 관계였다.",
+  "paul-ehrlich.achievement.3":
+    "에를리히는 1890년부터 로베르트 코흐(Robert Koch)의 연구소에서 에밀 폰 베링(Emil von Behring)의 디프테리아 항독소 연구에 참여했다. 그는 혈청마다 항독소 함량이 크게 다름을 보이고, 고정된 표준에 대비한 항독소 단위를 정의했으며, 노벨상 공식 약력은 이 방법이 이후 모든 혈청 표준화의 토대가 되었다고 적는다. 1896년부터는 치료용 혈청을 관리하기 위해 세워진 프로이센 연구소를 이끌었고, 1899년에는 프랑크푸르트의 왕립 실험요법연구소 소장이 되었다.",
+  "paul-ehrlich.achievement.4":
+    "에를리히는 학생 시절과 베를린 샤리테 병원의 젊은 의사 시절에 염료를 산성, 염기성, 중성으로 분류하고 이를 이용해 혈액 세포 속 과립을 구별했으며, 노벨상 공식 약력은 이 연구가 혈액학의 토대를 놓았다고 적는다. 1882년에는 코흐가 막 발견한 결핵균을 염색하는 개선된 방법을 발표했는데, 이는 오늘날에도 쓰이는 지엘-닐센 염색법의 바탕이 되었다.",
+  "paul-ehrlich.moment.1":
+    "1906년 게오르크 슈파이어 하우스에서 에를리히는 화학자 세 사람에게, 아톡실이 1863년 이래 통용되던 공식의 '아닐리드'가 아니라 자유 아미노기를 가진 아미노페닐비소산이라고 말하고 그 전제로 작업을 진행하라고 지시했다. 마르콰르트(Marquardt)의 기록에 따르면 이 가운데 폰 브라운과 슈미츠는 이를 거부하고 떠났고, 베르트하임(Bertheim)은 남았으며 에를리히와의 공동 논문은 1907년 5월 1일에 발표되었다. 노벨상 공식 약력은 에를리히가 베르트하임과 함께 올바른 구조식을 확립했다고 적는다.",
+  "paul-ehrlich.interpretation.moment.1":
+    "통용되던 공식에 맞서 자신의 화학적 해석을 고집하고, 화학자 두 명을 잃으면서까지 그에 따라 작업을 지시한 일은 독립적 사고와 부합한다. 같은 기록은 이런 태도가 사람을 잃는 대가를 치렀음도 보여 준다.",
+  "paul-ehrlich.moment.2":
+    "1909년 하타 사하치로는 1907년에 효과가 없다며 제쳐 두었던 606번 화합물이 매독에 걸린 토끼에게 효과가 있다고 보고했다. 에를리히는 실험을 거듭 되풀이하라고 요구했고, 마르콰르트의 기록에 따르면 에를리히가 결과를 받아들이고 1910년 발표를 준비하기 전에 하타가 조바심을 냈다. 노벨상 공식 약력은 수백 번의 실험이 그 효능을 거듭 입증했다고 적는다.",
+  "paul-ehrlich.interpretation.moment.2":
+    "자신이 간절히 바라던 결과였음에도 거듭 확인을 요구한 일은 완벽주의와 부합한다. 같은 요구는 실험을 맡은 사람을 지치게 하기도 했다.",
+  "paul-ehrlich.turning_point.1":
+    "1906년 에를리히는 프랑크푸르트의 게오르크 슈파이어 하우스 소장이 되었다. 이 화학요법 연구소는 프란치스카 슈파이어(Franziska Speyer)의 기부금으로 그의 연구소 옆에 세워졌다. 이곳의 화학 실험실 덕분에 그는 혈청 연구에서 벗어나 자신이 설계한 화합물을 직접 만들어 시험할 수 있게 되었고, 발렌트 등은 이 기부가 606호로 이어진 선별 연구의 필수 토대였다고 설명한다.",
+  "paul-ehrlich.interpretation.turning_point.1":
+    "혈청 연구에서 자신에게 없던 화학 실험실로 방향을 옮기고 그것을 민간의 기부로 마련한 일은 자원 활용 성향과 부합한다.",
+  /* ---------------------------------------------------------- roy-chapman-andrews (Roster43) */
+  "roy-chapman-andrews.achievement.1":
+    "앤드루스는 1922년부터 1930년까지 미국자연사박물관의 중앙아시아 탐사대를 다섯 차례 이끌고 몽골과 중국 북부로 들어갔으며, 낙타 대상(隊商)이 연료와 물자를 대는 자동차로 고비 사막을 누볐다. 1925년 탐사대에는 과학자와 기술자 14명, 조수 26명, 자동차 5대, 트럭 2대, 낙타 125마리가 포함되었고 비용은 70만 달러에 가까웠다. 탐사의 목적은 인류가 아시아에서 기원했다는 헨리 페어필드 오즈번(Henry Fairfield Osborn)의 생각을 검증하는 것이었으나 인류 화석은 나오지 않았다. 대신 포유류와 공룡 화석을 대량으로 수집했고, 서구 학계에 거의 알려지지 않았던 지역의 지도와 지질 조사를 남겼다.",
+  "roy-chapman-andrews.achievement.2":
+    "1923년 7월 고비 사막의 플레이밍 클리프스(Flaming Cliffs)에서 조지 올슨(George Olsen) 등 탐사대원들이 공룡 알을 발견했다. 이는 과학적으로 공룡 알로 인정된 최초의 사례로 널리 소개된다. 1859년 프랑스에서 발견된 알 껍데기는 거대한 새의 알로 여겨졌다. 같은 곳에서 앤드루스의 이름을 딴 프로토케라톱스(Protoceratops)가 1923년에 명명되었고, 소형 수각류인 벨로키랍토르(Velociraptor)와 오비랍토르(Oviraptor)는 1924년 오즈번이 명명했다. 이 알들은 처음에 프로토케라톱스의 것으로 여겨졌으나, 1993년 우하 톨고드(Ukhaa Tolgod)의 비슷한 둥지에서 배아가 발견된 뒤 오비랍토르류의 것으로 바뀌었다.",
+  "roy-chapman-andrews.achievement.3":
+    "아시아 탐사에 앞서 앤드루스는 박물관에서 고래를 연구했다. 그는 한국, 일본, 알래스카 등에서 여러 고래 종을 조사하고 골격을 수집했으며, 1913년 컬럼비아 대학에서 고래를 주제로 석사 학위를 받았다. 캘리포니아 회색고래에 관한 그의 연구서는 1914년 박물관 회보(Memoirs)에 실렸고, 1916년에는 『총과 카메라로 하는 고래 사냥』이 나왔다.",
+  "roy-chapman-andrews.achievement.4":
+    "앤드루스는 『고대인의 자취를 따라』(1926), 『중앙아시아의 새로운 정복』(1932), 어린이용 『공룡 이야기』(All About Dinosaurs, 1953) 등 20권이 넘는 책을 펴냈으며, 마지막 책은 훗날 고생물학자 필 커리(Phil Currie)와 마이크 노바첵(Mike Novacek)에게 영감을 주었다. 그는 1930년대 중반 미국자연사박물관의 관장이 되었고 1941년 말 무렵 자리에서 물러났다.",
+  "roy-chapman-andrews.moment.1":
+    "1923년 공룡 알이 신문 머리기사를 장식하자, 모금을 위해 뉴욕에 돌아와 있던 앤드루스는 오즈번에게 알 하나를 경매에 부치자고 제안하고, 기자들에게 소액 기부도 환영한다고 독자에게 알려 달라고 부탁했다. 그의 설명에 따르면 오스틴 콜게이트(Austin Colgate)가 콜게이트 대학에 기증할 목적으로 5천 달러에 알을 샀고, 기부금이 약 5만 달러 더 들어왔다. 훨씬 높은 값에 팔렸다는 소문을 들은 몽골과 중국 당국은 상업적 동기를 의심하기 시작했고, 다음 탐사는 1년 넘게 미뤄졌다. 앤드루스는 훗날 이 경매를 부메랑이었다고 평했다.",
+  "roy-chapman-andrews.interpretation.moment.1":
+    "발견의 화제성을 곧바로 모금과 연결한 일은 기회 포착과 부합한다. 여러 출처는 같은 조치가 탐사에 허가가 필요했던 정부들의 호의를 잃게 했다는 점도 함께 전한다.",
+  "roy-chapman-andrews.moment.2":
+    "앤드루스의 설명에 따르면 그는 1920년 오즈번과의 점심 자리에서 오즈번의 아시아 기원설을 검증할 고비 사막 탐사를 제안했다. 앞서 러시아 탐사대가 거의 성과를 내지 못했다는 지적에는 낙타로 10년 걸릴 일을 자동차로는 한 시즌에 해낼 수 있다고 답했다. 자동차가 고비 사막을 건널 수 있는지 어떻게 아느냐는 물음에는 알지는 못하지만 철저히 준비하면 가능하다고 믿는다고 했다. 그는 함대의 보급선처럼 낙타 대상이 먼저 물자를 싣고 가 있게 하고, 각자 자급할 수 있는 여러 작업 조를 꾸리는 계획을 설명했다.",
+  "roy-chapman-andrews.interpretation.moment.2":
+    "핵심 방법이 검증되지 않았음을 인정하면서도 보급 체계를 미리 설계한 점은 계획 지향성과 부합한다. 다만 이 서술은 앤드루스 본인의 것이어서 다듬어진 회고의 성격이 있다.",
+  "roy-chapman-andrews.turning_point.1":
+    "1928년 시즌이 끝날 무렵 내몽골에서 수집한 화석 상자 87개가 장자커우(Kalgan)에서 중국의 민족주의 단체인 고물보존위원회에 압수되었다. 이 단체는 미국인들이 중국의 보물을 가져간다고 비난했다. 박물관, 미국 국무부, 중국 정부가 협상한 끝에 표본은 돌려받았다. 앤드루스는 1929년을 협상으로 보냈고, 1930년에는 중국인 과학자 두 명을 데리고 고생물학 조사로만 제한된 마지막 시즌을 치렀으며, 가치 있는 수집품의 절반을 중국 측 단체에 넘겼다. 1930년이 마지막 시즌이 되었다. 중국 학자들은 화석을 국가 유산으로 보았고, 앤드루스는 화석이 인류 전체의 것이라고 주장했다.",
+  "roy-chapman-andrews.interpretation.turning_point.1":
+    "프로그램을 곧바로 끝내지 않고 한 시즌을 더 하기 위해 1년 동안 조건을 협상한 점은 끈기와 부합한다. 그 자신은 제한된 조건이 조사를 크게 위축시켰다고 평가했다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

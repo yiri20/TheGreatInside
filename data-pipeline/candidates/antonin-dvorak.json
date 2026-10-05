@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "antonin-dvorak",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Antonín Dvořák",
+    "aliases": [
+      "Antonin Dvorak"
+    ],
+    "wikidataId": "Q7298",
+    "birthYear": 1841,
+    "deathYear": 1904,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "CZ"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician",
+      "teacher"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "prolific",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dvorak_wikidata",
+      "kind": "wikidata",
+      "title": "Antonín Dvořák (Q7298) -- verified live via wbgetentities (2026-10-05): en label 'Antonín Dvořák', description 'Czech composer (1841–1904)', P569 8 Sep 1841, P570 1 May 1904, instance of human, ko label '안토닌 드보르자크', P18 'Dvorak.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7298"
+    },
+    {
+      "id": "src_dvorak_wikipedia",
+      "kind": "wikipedia",
+      "title": "Antonín Dvořák -- English Wikipedia article, read (plain-text extract) as orientation only; used for uncontested high-level facts in the editorial text (Brahms's 1877 recommendation to Simrock, the 1892 directorship, Rusalka), not as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k"
+    },
+    {
+      "id": "src_dvorak_hoffmeister1928",
+      "kind": "biography",
+      "title": "Karel Hoffmeister, Antonín Dvořák, edited and translated by Rosa Newmarch (London: John Lane The Bodley Head, 1928; Czech original 1924), Internet Archive full text (antonindvorak0000kare) -- Czech biography by a professor at the Prague Conservatoire who had studied there under Dvořák's directorship; admiring and reverential, partly based on Otakar Šourek's documentary work and on conversations with Dvořák, and it quotes some of his letters. Read locally: Part I (Life) in full, the foreword and preface, and the closing pages on his teaching and pupils.",
+      "url": "https://archive.org/details/antonindvorak0000kare"
+    },
+    {
+      "id": "src_dvorak_mason1903",
+      "kind": "biography",
+      "title": "Daniel Gregory Mason, 'Antonin Dvorak', chapter in From Grieg to Brahms: Studies of Some Modern Composers and Their Art (New York: Outlook, 1903), Internet Archive full text (fromgriegtobrahm00masorich) -- essay by an American composer and critic, an outside and sometimes patronising view that draws on Hadow for biography but adds its own judgments of his working methods. Read locally: the whole Dvořák chapter.",
+      "url": "https://archive.org/details/fromgriegtobrahm00masorich"
+    },
+    {
+      "id": "src_dvorak_hadow1895",
+      "kind": "biography",
+      "title": "W. H. Hadow, 'Antonin Dvorak', in Studies in Modern Music, Second Series (London: Seeley, 1895; reprint), Internet Archive full text (studiesinmodernm0000unse) -- the first extended English essay on Dvořák, by a British critic and later university vice-chancellor, written in his lifetime; independent of the Czech circle and the main source for the early-life narrative repeated by Mason and the Musical Times. Read locally: the opening biographical sections (Nelahozeves to the early works, the Czech national movement).",
+      "url": "https://archive.org/details/studiesinmodernm0000unse"
+    },
+    {
+      "id": "src_dvorak_sourek1956",
+      "kind": "biography",
+      "title": "Otakar Šourek, The Chamber Music of Antonín Dvořák, English version by Roberta Finlayson Samsour (Prague: Artia, 1956), Internet Archive full text (chambermusicofan00souruoft) -- work-by-work study by Dvořák's standard documentary biographer, working from the autographs, with composition dates and quoted letters; admiring, but it records dated autograph evidence and quotations of Dvořák's own letters to Simrock and Göbl. Read locally: the introduction and the entries for the C-major quartet (Op. 61), the 'American' quartet (Op. 96), the quintet (Op. 97), the Quartet in E flat (Op. 87), the terzetto and the closing remarks on his last years.",
+      "url": "https://archive.org/details/chambermusicofan00souruoft"
+    },
+    {
+      "id": "src_dvorak_brahms_simrock",
+      "kind": "archive",
+      "title": "Johannes Brahms, Briefwechsel XII: Briefe an Peter Joseph Simrock und Fritz Simrock, vol. 4, ed. Max Kalbeck (Berlin: Deutsche Brahms-Gesellschaft, 1919), Internet Archive full text (BrahmsBriefwechsel12) -- Brahms's letters to Dvořák's publisher, 1893-96, with Kalbeck's editorial notes (including a quotation from Brahms's March 1878 letter to Dvořák). Brahms is a peer and non-self witness; the German Fraktur OCR is rough, so the passages used were read in context from the text. Read locally: every passage mentioning Dvořák (letters of 26 Sep 1893, 17 Jan 1894, 30 Oct 1894, 5 Nov 1894, 1 Jan 1896, 27 Jan 1896, 1896 notes and the Novák recommendation).",
+      "url": "https://archive.org/details/BrahmsBriefwechsel12"
+    },
+    {
+      "id": "src_dvorak_courier_1893_12_20",
+      "kind": "press",
+      "title": "The Musical Courier (New York), 20 December 1893, vol. 27 no. 719, Internet Archive scan (sim_music-magazine-and-musical-courier_1893-12-20_27_719) -- contemporary US trade press: H. E. Krehbiel's New York Tribune analysis of the 'New World' Symphony reprinted in full, a report of the 16 December 1893 Philharmonic premiere under Anton Seidl, quotations from Dvořák's New York Herald statement about Black American melodies, and the Courier's own comment on the press reaction. Read locally: all passages on Dvořák.",
+      "url": "https://archive.org/details/sim_music-magazine-and-musical-courier_1893-12-20_27_719"
+    },
+    {
+      "id": "src_dvorak_courier_1893_12_27",
+      "kind": "press",
+      "title": "The Musical Courier (New York), 27 December 1893, vol. 27 no. 720, Internet Archive scan (sim_music-magazine-and-musical-courier_1893-12-27_27_720) -- contemporary US trade press: excerpts of Krehbiel's address on American folk music, which says Dvořák had been much criticised and misunderstood, and a year-end review calling the symphony strong but not necessarily American. Read locally: the passages on Dvořák.",
+      "url": "https://archive.org/details/sim_music-magazine-and-musical-courier_1893-12-27_27_720"
+    },
+    {
+      "id": "src_dvorak_etude1894",
+      "kind": "press",
+      "title": "The Etude (Philadelphia), March 1894, Internet Archive scan (EtudeMarch1894) -- a US music magazine reproducing a New York Herald report on Dvořák's composition class at the National Conservatory, plus a note on his praise of Seidl's conducting; contemporary and non-self but the OCR is partly garbled, so only the legible passages were used. Read locally: the two Dvořák passages.",
+      "url": "https://archive.org/details/EtudeMarch1894"
+    },
+    {
+      "id": "src_dvorak_etude1919",
+      "kind": "press",
+      "title": "The Etude (Philadelphia), November 1919, 'Dvorak as I Knew Him', recollections by Jeannette M. Thurber (founder-president of the National Conservatory), Harry Rowe Shelley and Camille W. Zeckwer (pupils), Internet Archive scan (EtudeNovember1919) -- retrospective recollections written 25 years later and admiring, with some doubtful medical and political asides that were not used; Thurber quotes his letters. Read locally: the three recollections in full.",
+      "url": "https://archive.org/details/EtudeNovember1919"
+    },
+    {
+      "id": "src_dvorak_musicaltimes1904",
+      "kind": "press",
+      "title": "The Musical Times (London), 1 June 1904, obituary 'Antonin Dvorak' with notes from Oscar Beringer, Internet Archive scan (sim_musical-times_1904-06-01_45_736) -- contemporary British notice of his death, summarising Hadow and recording the performance history in England; it gives his birth date wrongly as 8 April, which was not used. Read locally: the whole notice.",
+      "url": "https://archive.org/details/sim_musical-times_1904-06-01_45_736"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Hadow 1895, Mason 1903, Hoffmeister 1928, Musical Times 1904 | 1855-1876 | three non-self perspectives plus a pupil-biographer] Documented sequence of efforts carried through obstacles. (1) 1855-1873: told at fifteen to stay on as a butcher and innkeeper, he got his family's consent and entered the Prague Organ School in October 1857, earned about thirty shillings a month in a cafe band and chapel orchestra with no piano of his own, and spent roughly twelve years composing and discarding work before the Hymnus succeeded in March 1873 (Hadow, Mason, Hoffmeister; the Musical Times repeats Hadow). (2) 1870-1874: he set aside the failed opera Alfred, and rewrote the comic opera King and the Collier from scratch after it was withdrawn, whereupon it was staged successfully in November 1874 (Hoffmeister; Mason also reports the full rewrite). (3) Hoffmeister records him returning to opera again and again (Tvrde palice 1874, Vanda 1876, Selma sedlak 1877, Dimitrij 1881-82, later Rusalka), even though Vanda was not repeated after its first night. Kept below 80 because the childhood narrative is one Hadow account retold by the others, so those perspectives are not wholly independent, and Hoffmeister is admiring."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Hadow 1895, Mason 1903, Hoffmeister 1928, Sourek 1956 | 1857-1880s | outside critics plus Czech biographers] Several distinct training episodes. 1857-1873: with no money for scores he borrowed them from Smetana and Karel Bendl, spent spare coins on music paper and studied Beethoven, Mendelssohn and Schumann while writing exercises and destroying them (Hadow; Mason; Hoffmeister). Hoffmeister adds that he played viola in the amateur Cecilia orchestra that performed contemporary scores. Sourek says close study of Brahms's works in the late 1870s developed his thematic treatment. Counter-reading: Mason says he trained less systematically than Brahms, which bears on method, not on commitment. Teaching reports (Herald via Etude 1894, Shelley 1919) show the same craft emphasis but concern his teaching and were not counted. Sources partly overlap, hence strong_inference at 0.56."
+    },
+    "perfectionism": {
+      "score": 66,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[Hoffmeister 1928, Mason 1903, Sourek 1956, New York Herald via Etude 1894 | 1866-1881 | pupil-biographer, outside critic, documentary biographer, contemporary reporter] Specific actions on his own work. Hoffmeister: by Dvorak's own statement he tore up and burned the works of 1866-69, burned the 1872 Nocturnes although the critics were enthusiastic, and did not release the E-flat Symphony of 1873 for printing. Mason independently says his early works were 'burned without regret' and that the first opera was rewritten entire. Sourek's dated autographs and a letter show he finished the first movement of a quartet in F major in three days (7-9 Oct 1881), rejected it, and restarted the quartet in C major. A New York Herald report in the Etude (1894; OCR partly garbled) describes the severe self-criticism he applied to his own scores. Counter-evidence: Brahms, quoted by Kalbeck from an 1878 letter, found his manuscripts hasty on points of notation, and Mason calls his structure uneven. dual_edged: much early work was lost."
+    },
+    "execution_speed": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[Sourek 1956, Hoffmeister 1928 | 1881-1896 | documentary biographer plus pupil-biographer] Dated episodes of rapid delivery. The C-major quartet was completed in under four weeks in autumn 1881 because Hellmesberger had announced the premiere before Dvorak began; Sourek quotes his letter of 5 Nov 1881 ('What else could I do then than put aside the opera and start to write the quartet!'). The 'American' quartet in F was sketched in three days and scored in sixteen (8-23 June 1893), and the E-flat quintet was written between 26 June and 1 August 1893 (Sourek, from the autographs). Hoffmeister dates the January 1896 symphonic-poem sketches to three or four days each. Mason, from outside, calls him fast and 'indefatigable' but that is characterization. Sources draw on the same autograph catalogue, so they are not fully independent; dual_edged because Mason ties the speed to loose structure and Hoffmeister reports a long struggle over Armida (1902-03)."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Hoffmeister 1928, Sourek 1956, Krehbiel in Musical Courier 1893 | 1870-1891 | pupil-biographer, documentary biographer, contemporary US critic] Several distinct trials of new methods. Hoffmeister, following Sourek: in Alfred (1870) he tried Wagnerian leitmotif and declamatory writing, and in the quartets of 1873 he deliberately tried to weld the four movements around one theme, a conscious move away from fixed formal schemes. Sourek (1956) says the 'Dumky' Trio (1890-91) is a new cyclic form, and that in America he built some themes in the manner of spirituals and Indian songs (pentatonic scale, syncopation, drum rhythm), which Krehbiel analysed from outside in December 1893. Distinct episodes across three perspectives; kept at 0.56 because Hoffmeister and Sourek share a source base and the American episode is also used for independent thinking."
+    },
+    "deep_focus": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Hoffmeister 1928, Zeckwer in Etude 1919, Herald via Etude 1894 | 1877-1894 | pupil-biographer, pupil recollection 25 years later, contemporary reporter] Hoffmeister: for St Ludmila he worked many hours a day from 15 Sept 1885 to the end of May 1886; he sketched symphonies at the kitchen table amid household noise yet chose his 1877 flat because 'there are no pianos' (said to Hoffmeister himself). Zeckwer recalls finding him barricaded in his rooms in 'a fever of composition' (told 25 years later, with a hedge 'probably for several days'). The Herald report says he concentrated his whole attention on the pupil's problem in lessons. Three distinct sources, but two are anecdotal recollections, so strong_inference at 0.50."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[Hoffmeister 1928, Mason 1903, Herald via Etude 1894, Shelley in Etude 1919 | 1870s-1893 | four perspectives] Changes of course after failure or criticism. Hoffmeister: he acknowledged Alfred a failure and set it aside, and (with Mason) rewrote King and the Collier completely after its failure; Hoffmeister adds he was 'inclined to listen to the opinion of the critics' and revised Dimitrij repeatedly, which Kovarovic judged harmful. The Herald report in the Etude (1894) and Shelley (1919) both say he accepted Seidl's slower tempo for the New World slow movement and changed his marking. Counter-evidence: Shelley says that in class, once his mind was made up nothing could alter his views, and in 1893 he held to his Black-American-melodies position against press ridicule (see independent thinking). dual_edged since the Dimitrij revisions are reported as making the opera worse."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[Musical Courier 20 and 27 Dec 1893 (Krehbiel and others), Hoffmeister 1928, Sourek 1956 | 1891-1896 | contemporary US press plus Czech biographers] (1) 1893: Dvorak argued publicly that American composers should draw on Black American and Native American song; the Courier says most newspaper comment was flippant, and Krehbiel at first disagreed and later wrote a long exposition of the symphony; in the Herald statement reprinted in December 1893 Dvorak called it a 'settled conviction'; the Courier's own writers still doubted the work was 'American' and Krehbiel said Dvorak 'did not speak altogether advisedly'. (2) After returning home in 1895 he turned from chamber music to symphonic poems and opera, and Sourek says his publisher begged in vain for more chamber works. (3) He declined the Birmingham committee's suggested Newman text (Hoffmeister). Several documented episodes, with independent press for the first. dual_edged because critics judged the argument unsound. Not scored higher: elsewhere he accepted critics' advice."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Hadow 1895, Mason 1903, Hoffmeister 1928, Musical Times 1904 | 1857-1877 | three perspectives] Several small workarounds in poverty. He earned a living in a cafe band and a chapel orchestra (Hadow; Mason; Musical Times); Mason says he coaxed a kettle-drummer into letting him crouch behind the drums to hear concerts; Hoffmeister says he shared a room containing an old spinet, then put aside two of his eighteen florins a month to hire a tailor's piano, and in 1877 chose a flat on Zitna Street because there were no pianos near enough to disturb him. The kettle-drummer story rests on Mason alone and the others overlap with the persistence row, so 0.50."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "안토닌 드보르자크"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/antonin-dvorak-unknown-bnf-1900.jpg",
+    "width": 1292,
+    "height": 1600,
+    "source": "Bibliothèque nationale de France, département Musique, Est. Dvořák 001 (photomechanical print, 'Anton Dvorák', plate p. 4), via Gallica ark:/12148/btv1b8417521d and Wikimedia Commons 'Dvorak.jpg'",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-assumed-expired",
+    "attribution": "Unknown photographer; Anton Dvorák, photomechanical print of a studio portrait photograph, dated 1900 by the Bibliothèque nationale de France (Commons gives c. 1882 for the underlying photograph); BnF rights note: public domain (domaine public)",
+    "attributionUrl": "https://gallica.bnf.fr/ark:/12148/btv1b8417521d",
+    "creator": "Unknown",
+    "date": "c. 1882 photograph; BnF print dated 1900",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Dvorak.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-05) for Q7298 returned en label 'Antonín Dvořák', description 'Czech composer (1841-1904)', P569 8 Sep 1841, P570 1 May 1904, instance of human, citizenship Q42585 and Q533534 (Czech lands/Austria), P18 'Dvorak.jpg', ko label '안토닌 드보르자크'. This is the intended person. SLUG CHECK: not in scratch/prod_slugs.txt, no prior candidate file, no public/portraits/*dvorak* before this run (johannes-brahms.json merely mentions him). CLASSIFICATION: occupations composer, musician, teacher; fieldIds music (as pyotr-ilyich-tchaikovsky, johannes-brahms, ludwig-van-beethoven; field.music exists in en.ts); impactDomains artistic and cultural; tags craft_focused, prolific, overcame_adversity (existing ids); archetype creative_creator. REGION: central_europe, matching the Czech precedent emil-zatopek and the Tchaikovsky/Russia precedent; the Austrian-German composers in the roster are coded variously (Brahms western_europe, Beethoven central_europe), and a Czech national maps most naturally to central_europe. ERA 19th_century (career 1857-1904, scored behaviour 1857-1896). EVIDENCE READ (12 source records: 2 orientation, 10 substantive; all fetched with curl to scratch/work/antonin-dvorak/ and read locally): Hoffmeister 1928 (Part I in full, Part II ending), Mason 1903 chapter in full, Hadow 1895 opening sections, Sourek 1956 passages (introduction and entries on Op. 61, 87, 96, 97 and the terzetto), Brahms's letters to Fritz Simrock (vol. 4, 1893-96, all Dvorak passages), Musical Courier 20 and 27 Dec 1893, Etude March 1894 and November 1919, Musical Times 1 June 1904. PERSPECTIVES: (1) Hoffmeister, Czech pupil-biographer, admiring; (2) Mason, American critic, patronising but outside; (3) Hadow, British critic, independent of the Czech circle (Mason and the Musical Times re-tell his early-life narrative, so those three are one narrative, not three); (4) Sourek, documentary biographer, admiring but quoting autographs and letters (Hoffmeister draws on him, so not independent of Hoffmeister); (5) Brahms, peer, firsthand in letters to Simrock (non-self, independent); (6) contemporary US press, Krehbiel and the Courier, independent; (7) pupils and patron in 1919 (Thurber, Shelley, Zeckwer), admiring retrospective. Independent non-self perspectives counted: Hadow, Mason, Brahms, US press (4). NON-SELF BEHAVIOURAL sources: all of the above; no Dvorak self source was read directly (his letters are quoted through Sourek, Hoffmeister, Thurber and Brahms's replies). NOT ACCESSED: Sourek's full Czech biography and the 1954 English Letters and Reminiscences (lending-restricted or not on archive); Clapham's and Hurwitz's biographies and Beckerman's studies (lending-restricted); the Grove entry; Hanslick's reviews and the Brahms-Dvorak letters (only quoted through Kalbeck and Hoffmeister); Josef Suk's recollections; Rubin Goldmark (named as a pupil by Thurber only); Harper's 'Music in America' (Feb 1895) was fetched but the OCR did not contain the Dvorak article and it was not used; Brahms Briefwechsel vol. 11 (Simrock vol. 3) returned a server error and the 1878-1892 letters were not read. EPISODE USE: 1857-1873 apprenticeship -> persistence, mastery_orientation, resourcefulness; opera rewrite and Alfred -> persistence, perfectionism, belief_updating, experimentation; burned works -> perfectionism; dated autograph speed (1881, 1893, 1896) -> execution_speed; Dec 1893 Black-American-melody controversy -> independent_thinking (and experimentation, in part); Seidl's tempo and Dimitrij revisions -> belief_updating; St Ludmila hours, kitchen table, Zeckwer anecdote -> deep_focus. The 1893 episode and the opera rewrite each feed two rows, which is the main independence limit. ROWS CONSIDERED AND LEFT UNSCORED: creative_originality (would rest on the works' reception, i.e. fame and output); discipline (daily Mass and a dated output record are thin, single-source, and overlap with execution_speed and deep_focus); detail_orientation (only Brahms's 1878 hasty-notation remark via Kalbeck and the proof-reading favours; one source family); social_assertiveness (mixed: Hoffmeister says self-assertion was a weak point and Brahms offered to act as his intermediary, while pupils describe a commanding teacher); risk_tolerance (homesickness and a fear of travelling alone are emotional, not decisions); collaboration, leadership_drive, persuasiveness, impact_motivation, adaptability, achievement_drive (single episodes or duplicative). EXCLUDED ON PURPOSE: fame, honours, sales and opus counts; Zeckwer's pulling pupils by the nose and trampling manuscripts (single vivid anecdote, not scored); Shelley's claim about the cause of death and the claim that he sat in a Bohemian parliament (unreliable asides); grief at the death of his children and his late-life failure of Armida (not used to infer anything); religious practice beyond a note; his later political roles (life member of the Austrian House of Lords). CONFLICTS REPORTED, NOT ADJUDICATED: (a) the Seidl tempo story: the Herald via Etude says Andante to Adagio, Shelley says Larghetto to Largo; both say Seidl's tempo prevailed, which is all that was used; (b) King and the Collier's libretto: Hoffmeister says the same libretto was reworked, Mason says a new libretto; only the full rewrite of the music was used; (c) birth date: Musical Times says 8 April, all others and Wikidata say 8 September 1841; (d) Mason calls him uncritical and haphazard while Hoffmeister and the Herald call him exacting about his own work: both are recorded in the perfectionism row; (e) the date of the first performance of the New World Symphony: Courier says rehearsal 15 Dec and concert 16 Dec 1893; Hoffmeister and Thurber give 16 Dec 1893. CALIBRATION: 9 rows, scores 60-76, confidence 0.50-0.64 (only persistence at 0.64), nothing at or above 85 or above 0.72. No eligibility, coverage or match output was computed or used in scoring. PORTRAIT: Wikidata P18 'Dvorak.jpg' on Commons. Commons wikitext read: Information template, description 'Antonín Dvořák', date 1882, source Gallica btv1b8417521d, author unknown, permission {{PD-old-assumed-expired}}; Commons file 2100x2600 grayscale. Upstream check: Gallica OAI record for ark:/12148/btv1b8417521d reads title 'Anton Dvorák', date 1900, 'domaine public / public domain', format '1 impression photomécanique ; 16,5 x 11 cm (cadre)', source 'Bibliothèque nationale de France, département Musique, Est. Dvorák 001', collection IconMUS (not bot-walled; page and OAI record opened). The Gallica medium-resolution scan shows a framed printed plate captioned 'Anton Dvorák.' marked page '4' with a BnF library stamp, and the Commons image is a crop of its portrait area. Basis: a studio portrait photograph of the sitter reproduced as a photomechanical (halftone) print in a published work, dated 1900 by BnF; creator unknown; under US law anything published before 1931 is public domain and the BnF states domaine public; the sitter's apparent age and clothing are consistent with the 1880s. Caveats: the original photographer, the exact year of the photograph (Commons says 1882, BnF dates the print 1900) and the book the plate came from were not identified, so the filename uses the print year and 'unknown'; the image is a printed halftone reproduction, not a first-generation photograph. A search of the Library of Congress picture catalogue found no Dvorak portrait. I downloaded the Commons original (2100x2600), resized it with Pillow (LANCZOS) to 1292x1600 at JPEG q85 (downscale only, no crop) and viewed it: a head-and-shoulders portrait of a bearded man in a spotted bow tie, matching the Gallica plate. Saved as public/portraits/antonin-dvorak-unknown-bnf-1900.jpg. KOREAN NAME: '안토닌 드보르자크' is the Wikidata ko label."
+  }
+}

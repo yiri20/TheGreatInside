@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "henri-poincare",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Henri Poincaré",
+    "aliases": [
+      "Jules Henri Poincaré"
+    ],
+    "wikidataId": "Q81082",
+    "birthYear": 1854,
+    "deathYear": 1912,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "physicist",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "physics",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "theorist",
+      "polymath"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_poincare_wikidata",
+      "kind": "wikidata",
+      "title": "Henri Poincaré (Q81082) -- verified live via wbgetentities (2026-10-05): en label 'Henri Poincaré', description 'French mathematician, physicist and engineer (1854-1912)', born 29 Apr 1854, died 17 Jul 1912, citizenship France, ko label '앙리 푸앵카레'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q81082"
+    },
+    {
+      "id": "src_poincare_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Henri Poincaré', MacTutor History of Mathematics archive (University of St Andrews) -- standard reference biography (non-self), drawing on Toulouse, Miller and Barrow-Green, so it is NOT independent of those sources. Read in full (life, working method, mathematics, philosophy, honours); the long reference list was not followed up.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/"
+    },
+    {
+      "id": "src_poincare_ras_obit",
+      "kind": "biography",
+      "title": "A. S. E. (Arthur Stanley Eddington), obituary 'Jules Henri Poincaré', Journal of the Royal Astronomical Society 73 (1913) pp. 223-228, as reproduced by MacTutor -- CONTEMPORARY ASTRONOMER'S obituary, admiring and written within a year of his death; used for his chairs and committee service, the astronomical work, the reception of his philosophical books, and his reluctant assessment of quantum theory. Read in full.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Poincare_RAS/"
+    },
+    {
+      "id": "src_poincare_mines",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Poincaré - Inspector of mines', MacTutor History of Mathematics archive -- article on his 1879 service as a mining inspector at Vesoul, summarising the 1879 official report on the Magny pit explosion and the study of Roy and Dugas (Annales des Mines, 1954), who call the report 'a model of its kind'. Read in full; the report itself was not read.",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Poincare_mines/"
+    },
+    {
+      "id": "src_poincare_darboux",
+      "kind": "biography",
+      "title": "Gaston Darboux (Perpetual Secretary of the Academie des sciences, Poincare's senior colleague), 'Eloge historique d'Henri Poincare', in Oeuvres de Henri Poincare vol. II (Gauthier-Villars, Paris, 1916), pp. vii-lxxi, Internet Archive scan -- INSIDER official eulogy, laudatory in tone but rich in contemporary testimony (schoolteachers, classmates, Weierstrass's letter on the prize memoir, the list of his Sorbonne courses). Read the sections on his youth, the prize competition, the Sorbonne courses, celestial mechanics and the Academy sections; the technical sections were skimmed.",
+      "url": "https://archive.org/details/uvresdehenripoin02poin"
+    },
+    {
+      "id": "src_poincare_toulouse",
+      "kind": "biography",
+      "title": "Edouard Toulouse (physician-psychologist, director of the Laboratoire de psychologie of the Ecole des Hautes Etudes), 'Enquete medico-psychologique sur la superiorite intellectuelle: Henri Poincare' (Flammarion, Paris, 1910), Internet Archive scan -- INDEPENDENT OBSERVER'S study based on interviews and tests conducted with Poincare in 1897. Only the chapters on his stated working habits, manner of writing a memoir and absent-mindedness were read and used; the medical, hereditary and physiological chapters were deliberately not used.",
+      "url": "https://archive.org/details/enqutemdico00toul"
+    },
+    {
+      "id": "src_poincare_hadamard",
+      "kind": "biography",
+      "title": "Jacques Hadamard (mathematician, Poincare's successor in the Academie des sciences), 'An Essay on the Psychology of Invention in the Mathematical Field' (Princeton University Press, 1945; Dover reprint), Internet Archive scan -- INDEPENDENT but partly critical analysis of Poincare's 1908 lecture on mathematical creation; Hadamard reports his own comparable experience and disputes some objections. Read the chapters that discuss Poincare (preparation, incubation, illumination, the role of the unconscious).",
+      "url": "https://archive.org/details/eassayonthepsych006281mbp"
+    },
+    {
+      "id": "src_poincare_yoccoz",
+      "kind": "archive",
+      "title": "Jean-Christophe Yoccoz (Fields medallist in dynamical systems), 'Une erreur feconde du mathematicien Henri Poincare', Gazette de la SMF no. 107 (January 2006) -- expert article on the 1888-1890 prize memoir, its error and the discovery that came from correcting it; relies on June Barrow-Green's book for the historical circumstances (the book itself was not available). Read in full.",
+      "url": "https://smf.emath.fr/download/pdf/159377"
+    },
+    {
+      "id": "src_poincare_brent",
+      "kind": "archive",
+      "title": "Richard P. Brent (Australian National University), 'Some instructive mathematical errors', arXiv:2106.07269 (2021), section 2.3 on Poincare's prize essay -- scholarly note that summarises the prize committee's statement, Phragmen's 1888 comment and the 1889 recall of the printed memoir from Barrow-Green and others. Section 2.3 read in full; the other sections concern other mathematicians.",
+      "url": "https://arxiv.org/abs/2106.07269"
+    },
+    {
+      "id": "src_poincare_klein_letters",
+      "kind": "archive",
+      "title": "Henri Poincare Papers (ed. Scott A. Walter, Universite de Nantes): letter of Felix Klein to Poincare, 9 July 1881 (doc. 7-2-54), and letter of Poincare to Klein, 4 April 1882 (doc. 7-2-64), English translations of the original German and French -- PRIMARY correspondence, with Klein's letter giving the other side of the dispute over the naming of the functions. Both letters read in full; the other letters in the exchange were not read.",
+      "url": "https://henripoincarepapers.univ-nantes.fr/chp/text/klein-en-1882-04-04.html"
+    },
+    {
+      "id": "src_poincare_walter2014",
+      "kind": "archive",
+      "title": "Scott A. Walter (historian of physics), 'Poincare on clocks in motion', Studies in History and Philosophy of Modern Physics 47 (2014) pp. 131-141, HAL open copy -- scholarly article built on newly found student lecture notes; read the introduction, sections 3-4 (the light ellipse, his 1908-1909 revision toward clocks in motion) and the discussion.",
+      "url": "https://halshs.archives-ouvertes.fr/halshs-01234459v1/file/2014-shpmp-walter.pdf"
+    },
+    {
+      "id": "src_poincare_damour2017",
+      "kind": "archive",
+      "title": "Thibault Damour (theoretical physicist, IHES), 'Poincare, the Dynamics of the Electron, and Relativity', arXiv:1710.00706 (2017) -- commentary on Poincare's June 1905 Comptes Rendus note by a physicist who is critical of both over- and under-reading of Poincare; read the context, the discussion of the note's new results and the closing sections on how it was received and on Poincare's later attitude to Einstein.",
+      "url": "https://arxiv.org/abs/1710.00706"
+    }
+  ],
+  "rows": {
+    "belief_updating": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_poincare_yoccoz, src_poincare_brent, src_poincare_walter2014, src_poincare_ras_obit, src_poincare_damour2017 | 1889-1912 | expert article + scholarly note + historian of physics + contemporary obituary + physicist's critique] Yoccoz (relying on Barrow-Green) says Poincare saw that the objections of the Oscar II prize editor Phragmen were well founded, found a more serious error elsewhere in his memoir, told Mittag-Leffler in early December 1889 that correction needed substantial changes, paid the 3,500-crown printing cost of the withdrawn version (1,000 more than the prize) and produced a revised 270-page memoir that was published in November 1890; Brent adds Phragmen's 1888 doubt and that the corrected memoir was about twice as long. Walter documents that after March 1908 Poincare revised his presentation of the light ellipse (April 1909) so that comoving clocks and observers appear, bringing it closer to Minkowski and Einstein. The obituary says he reached 'with extreme reluctance' the conclusion that Planck's quantum ideas cannot be escaped. dual_edged: Damour reports that he nevertheless never gave up his belief in absolute space and time and apparently never cited Einstein. Several independent documented instances over 23 years; capped below 80 because the error episode is told almost entirely through one historian and because his revisions were selective."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_poincare_darboux, src_poincare_ras_obit, src_poincare_mactutor, src_poincare_yoccoz | 1879-1912 | insider eulogy + contemporary obituary + biography + expert article] Darboux lists the Sorbonne courses he gave and changed year by year (potential and fluid mechanics, optics, thermodynamics, elasticity, capillarity, electricity, probability, heat, celestial mechanics) and notes that his work on tides qualified him for the geography-and-navigation section of the Academie after the geometry, mechanics, astronomy and physics sections. The obituary reports that he held chairs of mathematical physics, calculus of probability and celestial mechanics at Paris and of analysis and astronomy at the Ecole Polytechnique; MacTutor traces work in mathematics, celestial mechanics, optics, electricity, relativity and philosophy of science, and Yoccoz says his work extended 'from geometry to analysis and topology' and into physics. He also trained and worked as a mining engineer (MacTutor mines article). Based on what he actually studied and taught in several fields over three decades, from four sources; not scored higher because the breadth of his output is not itself a measure of how deliberately he moved between fields."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_poincare_yoccoz, src_poincare_ras_obit, src_poincare_darboux, src_poincare_hadamard | 1880-1912 | expert article + contemporary obituary + insider eulogy + analysis of invention] Yoccoz explains that from his first work on differential equations Poincare changed the point of view: predecessors sought ever more sophisticated formulas for solutions, whereas he treated the equations as geometric objects and studied the long-term behaviour of orbits, which in the prize memoir led to the transverse homoclinic intersections whose geometry he found of 'redoubtable complexity'. The obituary reports his invention of the automorphic (Fuchsian) functions and the pear-shaped figures of equilibrium of rotating fluid. Darboux and Hadamard give independent testimony that his best-known discoveries came from combining mathematical ideas in unexpected ways. Documented concrete examples from several periods; scored below 85 because 'originality' here rests on how the historians describe the change of viewpoint, not on adversarial assessment."
+    },
+    "intuitive_synthesis": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_poincare_toulouse, src_poincare_hadamard, src_poincare_mactutor | 1880-1910 | independent observer's study + critical analysis of his lecture + biography] Toulouse, who interviewed and tested Poincare in 1897, records that he usually began a memoir without knowing how it would end, made no overall plan, wrote a formula automatically to provoke associations, took up and dropped a subject by fits and supposed his unconscious continued the work in between; Toulouse sums up that he used spontaneous intuitive activity for discovery and deliberate rational activity to establish certainty and draw consequences. Hadamard analyses Poincare's 1908 lecture (the Fuchsian-function discoveries, one of which came as he stepped onto an omnibus) and finds its picture of preparation, incubation and illumination largely justified, while arguing about details; MacTutor adds his dictum that 'it is by logic we prove, it is by intuition that we invent'. Part of the testimony is Poincare's own account, but it is corroborated by Toulouse's independent interview and by Hadamard's analysis, which also reports comparable experience of his own."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_poincare_mines, src_poincare_toulouse, src_poincare_mactutor, src_poincare_yoccoz | 1879-1910 | biography article citing a historians' study + independent observer + biography + expert article] The MacTutor mines article summarises his 1879 report on the Magny pit explosion (16 of 22 miners killed) as carefully argued: he listed possible causes with the evidence for and against each, used the direction of burns to place the blast, traced the numbered lamps and deduced from a slit lamp found by the wrong body that one miner had picked up another's lamp; Roy and Dugas call it 'a model of its kind' (second-hand: the report itself was not read). Toulouse records that Poincare used intuition for discovery and conscious deductive reasoning to establish certainty; MacTutor reports his view that formal argument can expose the mistakes of intuition. dual_edged: MacTutor also reports McLarty's judgement that he did not take the trouble to be rigorous in places, and the 1889 memoir contained a serious error that he did not detect himself (Yoccoz). Mixed evidence, hence moderate score and confidence."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_poincare_toulouse, src_poincare_darboux, src_poincare_ras_obit | 1886-1912 | independent observer + insider eulogy + contemporary obituary] Toulouse reports that Poincare worked regularly from 10 am to noon and from 5 to 7 pm, never in the evening after dinner, because work late in the day disturbed his sleep, and took complete intellectual rest during holidays; Darboux lists the many distinct courses he taught at the Sorbonne and elsewhere, each course changed from year to year, and the obituary records his administrative and committee duties and presidency of the Conseil des Observatoires, the Societe astronomique de France and (1906) the Academie des sciences. Toulouse's account also shows he did not push through when starting was painful, which is why the score is moderate: a fixed daily routine and sustained commitments, but not relentless effort on a single task."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_poincare_toulouse, src_poincare_ras_obit, src_poincare_darboux | 1897-1913 | independent observer + contemporary obituary + insider eulogy] Toulouse says that once a piece of work was under way Poincare was hard to distract and found it difficult to stop unless something strong intervened, and describes his habitual absent-mindedness, including the story (reported to Toulouse by Frederic Masson) that he found himself on a walk carrying a wicker cage he had picked up at a basket-maker's stall; the obituary says he was 'given to fits of abstraction and absent-mindedness' yet could throw this off and conduct meetings with alert attention. dual_edged: concentration of this depth also showed as absent-mindedness in daily life. Two independent sources agree on the pattern; the anecdotes are retellings of one or two incidents, so confidence is moderate."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_poincare_klein_letters, src_poincare_mactutor, src_poincare_damour2017, src_poincare_ras_obit | 1881-1912 | primary correspondence + biography + physicist's critique + contemporary obituary] In the 1881-82 correspondence Klein objected to Poincare naming a class of functions after Fuchs and wrote that he would use neither 'Fuchsian' nor 'Kleinian'; Poincare replied (4 April 1882) that he would recognise a prior property right only if shown earlier work of the kind, that he would not prolong the dispute but would 'do as I please', and that he hoped it would not damage their relations. MacTutor reports that he argued against attempts to reduce mathematics to logic (Russell, Hilbert's axiomatics), claiming induction cannot be derived by logic, and that he held the choice between Euclidean and non-Euclidean geometry for physical space to be a convention. dual_edged: Damour says he never gave up his ether-based absolute space and time even as Einstein and Minkowski moved on. Positions held against prominent contemporaries are documented, but most evidence is of stated positions rather than of costly acts, so the score is moderate."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_poincare_ras_obit, src_poincare_mactutor, src_poincare_darboux | 1901-1912 | contemporary obituary + biography + insider eulogy] The obituary says that his philosophical books Science and Hypothesis, The Value of Science and Science and Method, written in a clear style, 'met immediately with a multitude of readers' and shaped the philosophical ideas of many younger physicists and mathematicians; MacTutor, citing Whitrow, says he turned his literary gifts to explaining the meaning of science and mathematics to the general public at a time when science was not a popular subject in France; Darboux says his students arranged to print his lectures. Counter-evidence: MacTutor reports complaints of a disorganised lecturing style at Caen. Mostly admiring sources and no direct evidence of individual persuasion, hence low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "앙리 푸앵카레"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-05) for Q81082 returned en label 'Henri Poincare', description 'French mathematician, physicist and engineer (1854-1912)', P569 29 Apr 1854, P570 17 Jul 1912, citizenship France (Q142), ko label '앙리 푸앵카레'. SLUG CHECK: not in scratch/prod_slugs.txt and no existing candidate file. fieldIds mathematics, physics and philosophy all have field.* i18n keys; precedent Blaise Pascal (mathematics+physics+philosophy), French people coded western_europe. Hand-written books NOT accessed: June Barrow-Green, Poincare and the Three-Body Problem (1997); Jeremy Gray, Henri Poincare: A Scientific Biography (2013); Peter Galison, Einstein's Clocks, Poincare's Maps (2003); Olivier Darrigol's Isis article on the Einstein-Poincare connection (2004); Painleve's obituary; the Mittag-Leffler correspondence as a whole (only Klein letters were read). The prize-memoir episode therefore rests on Yoccoz and Brent, who in turn rely on Barrow-Green. Toulouse (1910) is a medical-psychological study; only his observations of working habits were used and none of the medical or hereditary material. Rows are scored only from documented behaviour; Poincare's health and death are not used. Zero-politics: his cousins' political careers and his Academy offices are not scored. Not scored for lack of independent behavioural evidence or because the evidence is mixed: persistence (he dropped work when starting was painful but also returned to the three-body problem all his life), conflict tolerance (one courteous dispute), collaboration, achievement drive."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/henri-poincare-manuel-pre1912.jpg",
+    "width": 1154,
+    "height": 1600,
+    "source": "Smithsonian Institution Libraries, Dibner Library of the History of Science and Technology, 'Scientific Identity: Portraits' collection, accession SIL14-P005-03 ('Portrait of Henri Poincare (1854-1912), Mathematician'), printed photograph 14.8 x 10.6 cm; credit line 'Cliche Henri Manuel' printed on the print; via Wikimedia Commons file 'Henri Poincare sitting.jpg' (2.0 MP original, cropped to the photograph and downsized)",
+    "license": "Public domain (photograph dated before 1912; Smithsonian Libraries: no known copyright restrictions; photographer Henri Manuel d. 1947, so French term life+70 has expired)",
+    "licenseUrl": "https://www.flickr.com/commons/usage/",
+    "attribution": "Photograph credited 'Cliche Henri Manuel' on the print (Smithsonian catalogue lists the photographer as unidentified); Smithsonian Institution Libraries, Dibner Library, SIL14-P005-03; no known copyright restrictions (Flickr Commons).",
+    "attributionUrl": "https://www.flickr.com/photos/25053835@N03/2551043489/",
+    "creator": "Henri Manuel studio, Paris (printed credit 'Cliche Henri Manuel'); Smithsonian lists photographer as unidentified",
+    "date": "before 1912",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Henri_Poincar%C3%A9_sitting.jpg"
+  }
+}

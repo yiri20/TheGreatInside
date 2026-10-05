@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "glenn-curtiss",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Glenn Curtiss",
+    "wikidataId": "Q454544",
+    "birthYear": 1878,
+    "deathYear": 1930,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "aviator",
+      "inventor",
+      "engineer",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology",
+      "business"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_curtiss_wikidata",
+      "kind": "wikidata",
+      "title": "Glenn Curtiss (Q454544) -- verified live via wbgetentities (2026-10-05): en label 'Glenn Curtiss', description 'American aviator and industrialist (1878-1930)', ko label '글렌 커티스', P569 21 May 1878, P570 23 July 1930, citizenship United States (Q30), instance of human, P18 'Glenn Curtiss - 1909 (cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q454544"
+    },
+    {
+      "id": "src_curtiss_wikipedia",
+      "kind": "wikipedia",
+      "title": "Glenn Curtiss -- English Wikipedia article (raw wikitext), read as orientation only; not used as support for any scored row. Its Smithsonian/Langley and Wright patent-settlement passages were not verified against primary sources here and are not used.",
+      "url": "https://en.wikipedia.org/wiki/Glenn_Curtiss"
+    },
+    {
+      "id": "src_curtiss_book",
+      "kind": "archive",
+      "title": "Glenn H. Curtiss and Augustus Post, The Curtiss Aviation Book (New York: Frederick A. Stokes, 1912), Internet Archive full text (curtissaviationb00curtrich) -- SELF / CO-AUTHORED, promotional in tone (Post was an Aero Club of America official and friend; the book is dedicated to Mabel Bell). Read locally: Part I (boyhood, motorcycles, Baldwin dirigible work), Part II (Aerial Experiment Association, Red Wing, White Wing, June Bug, Loon, Mineola), Part III chapters on Reims, the Albany-New York flight and the beginning of the hydroaeroplane (to the January 1911 San Diego flights). It omits the Wright patent suit entirely. Used for sequence of events and for Curtiss's own account of his preparations; never as the sole perspective for a scored row.",
+      "url": "https://archive.org/details/curtissaviationb00curtrich"
+    },
+    {
+      "id": "src_curtiss_book_ellyson",
+      "kind": "archive",
+      "title": "Lt. Theodore G. Ellyson, U.S. Navy, 'The Aeroplane for the Navy (with an account of the training camp at San Diego)', chapter in The Curtiss Aviation Book (1912), Internet Archive full text -- first-person account by the first naval officer detailed to learn to fly under Curtiss; a participant-observer inside a Curtiss-co-authored volume, so partly independent of Curtiss's own voice but sympathetic. Read in full: the November 1910 offer of instruction, the North Island camp from 17 January 1911, the fifty design changes, the Navy's 1911 delivery specification.",
+      "url": "https://archive.org/details/curtissaviationb00curtrich"
+    },
+    {
+      "id": "src_curtiss_sciam_1908",
+      "kind": "press",
+      "title": "Scientific American, 11 July 1908 (notice of the Aerial Experiment Association's three aeroplanes and the trophy trial) and 18 July 1908 ('The Winning Flight of the June Bug', report by the journal's aeronautical editor, who was present at Hammondsport on 4 July 1908), Internet Archive OCR text -- contemporary independent press and the trophy's own sponsor; the 18 July OCR is partly garbled in column order and was read for the dated facts used (a first attempt that settled in grass short of the finish, the tail-angle fault found, the second flight at 7 p.m. of about a mile in 1 min 42 2/5 s).",
+      "url": "https://archive.org/details/sim_scientific-american_1908-07-18_99_3"
+    },
+    {
+      "id": "src_curtiss_flight_1909",
+      "kind": "press",
+      "title": "Flight (London weekly aeronautical journal), issues of 28 August, 4 September and 11 September 1909, Internet Archive OCR text -- contemporary independent trade press on the Reims meeting (the Gordon Bennett Cup result, Curtiss's 5 per cent penalty, the Speed Prize) and on the Wright Brothers' suit against the Aeronautic Society over the Curtiss machine; the OCR is partly garbled and was read for the figures and statements used.",
+      "url": "https://archive.org/details/Flight_International_Magazine_1909-09-04-pdf"
+    },
+    {
+      "id": "src_curtiss_flight_1910",
+      "kind": "press",
+      "title": "Flight, 4 June 1910 (editorial on the Albany-New York flight and the news report 'Glenn Curtiss' Albany, New York Flight', plus the flight table dating the flight 29 May), Internet Archive OCR text -- contemporary independent trade press; the editorial praises the flight while questioning how much it advanced the science.",
+      "url": "https://archive.org/details/Flight_International_Magazine_1910-06-04-pdf"
+    },
+    {
+      "id": "src_curtiss_flight_1911_14",
+      "kind": "press",
+      "title": "Flight, issues of 28 January, 4 and 11 February 1911 (Ely's landing on the cruiser Pennsylvania; Curtiss rising from the water at San Diego), 3 February to 16 March 1912 (Curtiss hydroaeroplanes flown at Nice) and 31 July 1914 (the Curtiss flying boat America), Internet Archive OCR text -- contemporary independent trade press, read for the dated reports of these events.",
+      "url": "https://archive.org/details/sim_flight-international_1911-02-04_3_5"
+    },
+    {
+      "id": "src_curtiss_turner_1912",
+      "kind": "archive",
+      "title": "Charles C. Turner, The Romance of Aeronautics (London: Seeley, 1912), Internet Archive full text (romanceofaeronau00turn), passages on Curtiss (the Gordon Bennett win, his motorcycle work, the Baldwin and Bell associations, the Aerial Experiment Association) and the ship-deck demonstrations -- independent popular historian writing at the time; the account of Curtiss's early life is brief and secondary.",
+      "url": "https://archive.org/details/romanceofaeronau00turn"
+    },
+    {
+      "id": "src_curtiss_courts",
+      "kind": "archive",
+      "title": "Wright Co. v. Herring-Curtiss Co. and Glenn H. Curtiss, as printed in the Federal Reporter: 177 F. 257 (W.D.N.Y., 3 January 1910, preliminary injunction); 180 F. 110 and 112 (2d Cir., 14 June 1910, injunction reversed on conflicting affidavits); 204 F. 597 (W.D.N.Y., 21 February 1913, final hearing, decree for the Wright Company); 211 F. 654 (2d Cir., 13 January 1914, affirmed). Internet Archive scans of the Federal Reporter volumes 177, 180, 204 and 211 read locally -- neutral/adversarial court record that quotes Curtiss's own testimony. Used only for the dated course of the case and for what Curtiss said under oath; the courts' verdicts are not used as evidence of any trait.",
+      "url": "https://archive.org/details/gov.uscourts.f1.211"
+    },
+    {
+      "id": "src_curtiss_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Glenn Hammond Curtiss' (written by Tom D. Crouch, National Air and Space Museum), read in full -- institutional overview: the January 1907 motorcycle speed run, the Baldwin engine link, the Aerial Experiment Association and Scientific American Trophy, the Wright suit, flying boats, the November 1910 and January 1911 ship-deck flights, the OX-5 engine, the JN-4, the NC-4 and the 1917-1920 loss of corporate control.",
+      "url": "https://www.britannica.com/biography/Glenn-Hammond-Curtiss"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Curtiss and Post 1912; Ellyson chapter in the same volume; Scientific American 18 July 1908; Flight 4 Feb 1911 | 1900-1911 | self/co-authored book + Navy participant-observer + independent contemporary press] Several separately dated build-test-change cycles. (1) 1908 Aerial Experiment Association: a glider, then Red Wing, White Wing and June Bug, with changes after each flight; Curtiss's own account records cotton wing covering that would not fly until varnished. (2) Scientific American, whose editor was present at Hammondsport on 4 July 1908, records that the first trial of the June Bug settled in grass short of the finish, that the tail was found set at too sharp a downward angle, and that after it was corrected the second flight that evening covered about a mile. (3) The first float trials on the June Bug (renamed Loon, November 1908) did not get it off the water for lack of power (Curtiss), and in January 1911 at San Diego he and the officers launched and altered floats almost daily for about two weeks before the machine rose from the water (Curtiss; Flight dates the rise to late January 1911); Lt. Ellyson, a participant, counts 'no less than fifty changes' from the original idea. Documented episodes from three perspectives, two of them outside Curtiss's own voice; kept below 80 because the AEA work was shared with Bell, Baldwin, McCurdy and Selfridge and much of the detail is Curtiss/Post or Ellyson inside one book."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Curtiss and Post 1912; Ellyson chapter; Turner 1912; Flight 4 June 1910 | 1908-1911 | self/co-authored book + Navy participant-observer + independent historian and trade press] Three dated stretches of effort through setbacks. (1) 1908: the AEA machines repeatedly 'smashed' on landing and were rebuilt ('almost every time ... something would give way', Curtiss); Turner independently notes 'numerous accidents'. (2) The first float experiments (Loon, Nov 1908) failed for lack of power and were set aside; he returned to the problem at San Diego in 1911 and Flight reports the machine rising from the water (Curtiss; Flight Feb 1911). (3) Albany, late May 1910: by his account he rose at daybreak three days running and was called off by wind before starting on the fourth (Curtiss); Flight confirms he 'had been waiting on the weather' for some days. Ellyson adds that those at San Diego who did not yet know him wondered that he did not 'give up in despair' after fifty changes. Three episodes, three perspectives, but the detail of the first two comes from Curtiss/Post or Ellyson inside one book, so strong_inference at 0.58."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Curtiss and Post 1912; Ellyson chapter; Flight 4 Sep 1909; Flight 4 June 1910 | 1909-1911 | self/co-authored book + Navy participant-observer + independent trade press] (1) Albany-New York, May 1910: before the flight he travelled the river, chose a refuelling field at Poughkeepsie and a fallback meadow at Inwood, had fuel arranged and fitted pontoons and a hydro-surface in case of a forced landing on the river (Curtiss, self); Flight independently reports the two-stop plan, the days spent waiting on the weather and the second landing in a field near Spuyten Duyvil, which matches the fallback he says he chose. (2) Reims, August 1909: with a single machine and engine he kept out of the endurance events despite friends' urging (Curtiss, self); Flight records a 5 per cent penalty on his Speed Prize time and that he flew the Circuit, Speed and Cup events. (3) Ellyson: 'he always works the problem out in his mind before making any statement', and the Navy's 1911 hydroaeroplane order was delivered by the date asked. Three episodes, two perspectives; the Reims reasoning rests on Curtiss's own account, so 0.60."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Curtiss and Post 1912; Ellyson chapter; Turner 1912; Britannica | 1904-1911 | self/co-authored book + Navy participant-observer + independent historian + institutional overview] (1) 1904-05: when the dirigible builder Thomas Baldwin bought a Curtiss motorcycle engine, Curtiss built further and lighter engines for his airships (Curtiss; Turner and Britannica confirm the Baldwin engine link and that it brought him into aeronautics). (2) Winter 1908-09: after the trophy flight he accepted the Aeronautical Society of New York's order for a machine, enlarged the Hammondsport factory and moved flying to Mineola (Curtiss). (3) 29 November 1910: he wrote to the War and Navy Secretaries offering to train officers at his California station without charge, which he linked to his hydroaeroplane work; Ellyson independently confirms the Navy accepted the offer 'immediately' and dates the Navy's first practical interest in aviation to it. Scored from the timing of the moves, not from later commercial success."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Curtiss and Post 1912; Ellyson chapter; Turner 1912; Scientific American 11 July 1908 | 1907-1911 | self/co-authored book + Navy participant-observer + independent historian and press] Curtiss joined Alexander Graham Bell's Aerial Experiment Association in 1907 as Director of Experiments, where the plan was that each member would design one machine with the help of the others (Curtiss; Scientific American and Turner independently describe the association and its machines); his own account credits Lt. Selfridge with the Red Wing design and F. W. Baldwin with its first flight. At San Diego in 1911, Ellyson says the pupils were allowed to help on the experimental machine and that Curtiss would put changes as questions ('What do you think of making this change?') while generally managing to convince them his plan was best. Two perspectives outside Curtiss's own voice, but the second is a single sympathetic pupil's recollection and the AEA credits are partly Curtiss's own account, hence 0.50."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities + wbsearchentities calls (2026-10-05) for Q454544 returned en label 'Glenn Curtiss', description 'American aviator and industrialist (1878-1930)', ko label '글렌 커티스', P569 21 May 1878, P570 23 July 1930, citizenship United States (Q30), instance of human (Q5), P18 'Glenn Curtiss - 1909 (cropped).jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior data-pipeline/candidates/glenn-curtiss.json. CLASSIFICATION: occupations aviator, inventor, engineer, entrepreneur; fieldIds engineering, technology, business (all have field.* i18n keys; 'aviation' has none; precedent george-westinghouse and louis-bleriot); impactDomains technological/engineering/entrepreneurial; tags innovator and founder; archetypes technical_innovator and entrepreneurial_builder; era 20th_century; region north_america (US). EVIDENCE READ (11 source records, 2 orientation and 9 read substantive): Curtiss and Post, The Curtiss Aviation Book (1912; Parts I-III, the Navy chapter by Ellyson); Scientific American 11 and 18 July 1908; Flight 28 Aug, 4 Sep, 11 Sep 1909, 4 June 1910, 28 Jan, 4 and 11 Feb 1911, Feb-Mar 1912 issues, 19 June and 31 July and 7 Aug 1914; Turner (1912) passages; the Federal Reporter opinions in Wright Co. v. Herring-Curtiss Co. (177, 180, 204 and 211 F.); Britannica (Crouch). PERSPECTIVES: (1) Curtiss and Post, SELF/co-authored (context, never the sole perspective); (2) Ellyson, Navy participant-observer inside that volume (partly independent, sympathetic); (3) Scientific American 1908, independent contemporary press and trophy sponsor; (4) Flight 1909-1914, independent trade press (several issues, one perspective); (5) Turner 1912, independent historian (brief and secondary); (6) the federal courts, neutral/adversarial record quoting Curtiss's testimony; (7) Britannica/Crouch, institutional overview (achievements only). NON-SELF BEHAVIOURAL sources: Scientific American, Flight, Turner, Ellyson, the court opinions. No adversarial first-hand voice on Curtiss's behaviour (the Wright Brothers' own letters) could be read: The Papers of Wilbur and Orville Wright, Miracle at Kitty Hawk and Goldstone's Birdmen are lending-only at the Internet Archive (HTTP 401/403); Shulman, Unlocking the Sky (2002) and Roseberry, Glenn Curtiss: Pioneer of Flight (1972) were not accessible; the Wright State litigation records (Dayton) were located but their multi-hundred-page testimony PDFs were not read; the LOC Bell family papers and AEA Bulletins and Chronicling America were bot-walled and not bypassed; the Smithsonian NASM page returned 404. Hence scores are capped at 78 and confidence at 0.62. EPISODE USE: AEA aircraft sequence, the June Bug first-trial fault, the Loon and San Diego float work, and Ellyson's fifty changes -> experimentation (and, as a separate aspect, persistence); Albany reconnaissance and waiting, Reims event selection, Ellyson's remark and the 1 July 1911 delivery -> planning_orientation; Baldwin engines, the 1908-09 Aeronautical Society order, the 29 Nov 1910 offers to War and Navy -> opportunity_sensing; AEA membership and Ellyson's description of San Diego working style -> collaboration. ROWS CONSIDERED AND LEFT UNSCORED: risk_tolerance (mixed evidence: a 136 mph motorcycle run without goggles and boyhood cliff climbing, both self-reported, against 'this was not the time for taking chances' at Albany and Reims); competitiveness and achievement_drive (cycle racing and the 1907 record rest on Curtiss/Post and Britannica without a behavioural episode from an independent observer); independent_thinking and conflict_tolerance (the Wright suit shows what Curtiss argued and that the case ran 1909-1914, but the record does not show whose decision it was to keep contesting, and the courts' verdicts are not trait evidence); detail_orientation, execution_speed, resourcefulness (self-sourced only). EXCLUDED ON PURPOSE: fame, prizes, sales, patents and aircraft counts; marriage and family; the 1917-1920 loss of control of the Curtiss company and his death in 1930 (no trait inference from setbacks, bereavement or death); the 1914 Langley Aerodrome tests and Smithsonian dispute (appears in Wikipedia only; no primary source read); the First World War production, Army and Navy contracts and the Wright-Martin/patent-pool settlement (military and legal context, incidental and unscored). CONFLICTS REPORTED, NOT ADJUDICATED: the Gordon Bennett race date: Curtiss/Post say 29 August 1909, Flight (4 Sep 1909) places it on the Saturday, 28 August; the editorial uses 28 August (Flight); the Albany flight: Curtiss/Post give 'Saturday, May 30th' for the aborted start and a Sunday flight, but Flight's flight table dates the flight 29 May 1910 (a Sunday); editorial uses 29 May; the motorcycle record: Curtiss/Post and the postcard say 24 January 1907, Britannica says 23 January; editorial says January 1907; the first float flight at San Diego: Curtiss/Post say 26 January 1911, Flight (4 Feb 1911) says the 27th; editorial says late January 1911; Ely's ship landing: Flight 28 Jan 1911 text reads like the 19th, its 11 Feb caption and Britannica say 18 January; editorial uses 18 January. CALIBRATION: 5 rows, scores 66-78, confidence 0.50-0.62 (only experimentation 'documented'), nothing at or above 85 or 0.72; sparse by design. No eligibility, coverage or match output was computed or looked at while scoring. PORTRAIT: Wikidata P18 'Glenn Curtiss - 1909 (cropped).jpg'. Commons wikitext read: artist 'Unknown author (Bain News Service)', date 1909 (date created or published later by Bain), source LOC ggbain.04102, permission PD-US, Commons file 2405x3005. UPSTREAM CHECK: LOC Prints and Photographs JSON (loc.gov/pictures/resource/ggbain.04102/?fo=json, read directly; the item HTML page sits behind a Cloudflare bot wall and was not bypassed): title 'Glenn Curtis' (title from unverified Bain data), created/published '1909 (date created or published later by Bain)', glass negative, call number LC-B2- 852-5 [P&P], reproduction number LC-DIG-ggbain-04102, part of the George Grantham Bain Collection, rights information 'No known restrictions on publication', with a pointer to the Bain collection rights statement (that LOC guide page loads its content dynamically and could not be read). The negative itself is lettered 'Copyright 1909 = Glenn Curtis = by Geo. Grantham Bain'. BASIS: a US photograph created and published in 1909 by a news-photo agency, so US public domain by age; the individual photographer is not identified beyond the Bain agency (Commons: unknown author), so a life-plus-70 check in other jurisdictions could not be done, which is the weaker point (same caveat as other Bain/Vandyk portraits). A likeness. FILE: downloaded the LOC master TIFF (cdn.loc.gov/master/pnp/ggbain/04100/04102u.tif, 5785x4266 grayscale), cropped to the portrait region (excluding the black negative frame, the lettering strip and the partly visible woman on the left edge; some faint reversed ghost writing from the negative remains at left, as in the Commons crop) to 2440x3010 and saved at 1297x1600 JPEG q85 (downsized, never upscaled), viewed it and confirmed it is a half-length portrait of a moustached man in a straw boater and striped jacket with a rose buttonhole. Saved as public/portraits/glenn-curtiss-bain-1909.jpg. KOREAN NAME: '글렌 커티스' is the Wikidata ko label."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/glenn-curtiss-bain-1909.jpg",
+    "width": 1297,
+    "height": 1600,
+    "source": "Library of Congress Prints and Photographs Division, George Grantham Bain Collection, 'Glenn Curtis' (title misspelled in the source; LC-B2- 852-5 [P&P], LC-DIG-ggbain-04102, control number 2014684096; hdl.loc.gov/loc.pnp/ggbain.04102), glass negative; also on Wikimedia Commons as 'Glenn Curtiss - 1909 (cropped).jpg'",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US",
+    "attribution": "Bain News Service (George Grantham Bain), 1909 (date created or published later by Bain); Library of Congress Prints and Photographs Division, LC-DIG-ggbain-04102; record rights field: 'No known restrictions on publication'",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2014684096/",
+    "creator": "Bain News Service (George Grantham Bain)",
+    "date": "1909",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Glenn_Curtiss_-_1909_(cropped).jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "글렌 커티스"
+    }
+  }
+}

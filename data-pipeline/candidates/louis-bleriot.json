@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "louis-bleriot",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Louis Blériot",
+    "wikidataId": "Q5396",
+    "birthYear": 1872,
+    "deathYear": 1936,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "aviator",
+      "inventor",
+      "engineer",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bleriot_wikidata",
+      "kind": "wikidata",
+      "title": "Louis Blériot (Q5396) -- verified live via wbgetentities (2026-10-05): en label 'Louis Blériot', description 'French aviator, inventor and engineer (1872-1936)', ko label '루이 블레리오', birth 1 July 1872, death August 1936, citizenship France, instance of human, image 'Louis Bleriot.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q5396"
+    },
+    {
+      "id": "src_bleriot_wikipedia",
+      "kind": "wikipedia",
+      "title": "Louis Blériot and Blériot XI -- English Wikipedia articles (raw wikitext), read as orientation only for the chronology of the aircraft series, the Daily Mail prize and the later business; not used as support for any scored row or for any editorial claim.",
+      "url": "https://en.wikipedia.org/wiki/Louis_Bl%C3%A9riot"
+    },
+    {
+      "id": "src_bleriot_flight_1909_07",
+      "kind": "press",
+      "title": "Flight (London weekly aeronautical journal), issues of 17, 24 and 31 July 1909, Internet Archive full-text scans (Flight International Magazine 1909-07-17, 1909-07-24, 1909-07-31) -- CONTEMPORARY, INDEPENDENT trade press, sympathetic to aviation but not written by or for Blériot. Read locally: the 17 July report of his 25-mile cross-country flight; the 24 July notes on his entry for the Daily Mail prize, his cost-of-experiments statement, his burned foot and his starting-without-a-run patent; and the 31 July leader and news sections on the Channel flight (the journal's account of the crossing, its comment that the flight was 'somewhat foolhardy', the offer to share the prize with Latham, the Anzani engine, orders for machines and the Blériot lamp company).",
+      "url": "https://archive.org/details/Flight_International_Magazine_1909-07-31-pdf"
+    },
+    {
+      "id": "src_bleriot_flight_1909_08",
+      "kind": "press",
+      "title": "Flight, issues of 7, 14 and 28 August 1909, Internet Archive full-text scans (Flight International Magazine 1909-08-07, 1909-08-14, 1909-08-28) -- contemporary independent trade press. Read locally for Blériot's reception in Paris, the order to deliver thirty-six monoplanes by November at about 400 pounds each, his teaching of Leblanc and Delagrange on duplicates of the Type XI at Issy (including refusing to let a pupil fly in a squally wind) and the proposed, later cancelled, Blériot-Latham match race.",
+      "url": "https://archive.org/details/Flight_International_Magazine_1909-08-14-pdf"
+    },
+    {
+      "id": "src_bleriot_flight_1909_09",
+      "kind": "press",
+      "title": "Flight, issues of 4, 11 and 18 September and 16 October 1909, Internet Archive full-text scans (Flight International Magazine 1909-09-04, 1909-09-11, 1909-09-18, 1909-10-16) -- contemporary independent trade press, including H. Massac Buist's article on the Rheims meeting. Read locally for the Rheims results and the burning of Blériot's racing machine, the observation that Blériot's mechanics tied machines to a stake and measured propeller thrust with a hydraulic gauge, his London banquet speech of 15 September, his announcement that he had sold his 101st monoplane and would stop flying to deliver, and the October note on a British Blériot company.",
+      "url": "https://archive.org/details/Flight_International_Magazine_1909-09-11-pdf"
+    },
+    {
+      "id": "src_bleriot_turner1912",
+      "kind": "archive",
+      "title": "Charles C. Turner, The Romance of Aeronautics (London: Seeley, 1912), Internet Archive full text (romanceofaeronau00turn) -- independent British aeronautical historian and journalist, written three years after the Channel flight; narrative history, not a Blériot biography. Read locally: the passage on Blériot's experiments from 1900 to 1908 with the dated sequence of machines and wrecks, the passage on his early association with Voisin and the Seine glider trials, the Channel chapter (with the quotations from his own account), and the passage on the criticism he met for giving up exhibition flying.",
+      "url": "https://archive.org/details/romanceofaeronau00turn"
+    },
+    {
+      "id": "src_bleriot_grahamewhite_aeroplane",
+      "kind": "archive",
+      "title": "Claude Grahame-White and Harry Harper, The Aeroplane (Project Gutenberg eBook 45825) -- history of early aviation by a pilot and an aviation journalist, partly a rival-pilot perspective (Grahame-White flew Blériot monoplanes himself). Read locally: the passages on Blériot's early monoplanes, the dawn start of 25 July 1909, the ten minutes in sea mist, the decision not to wait for the escort, the abrupt landing at Dover and the burned foot.",
+      "url": "https://archive.org/details/theaeroplane45825gut"
+    },
+    {
+      "id": "src_bleriot_grahamewhite1911",
+      "kind": "archive",
+      "title": "Claude Grahame-White and Harry Harper, The Aeroplane: Past, Present and Future (London: T. Werner Laurie, 1911), Internet Archive full text (aeroplanepastpr00harpgoog) -- the introduction's recollection of Blériot's early experiments from 1900 (flapping-wing 'bird', two-cell motor craft on floats at Enghien, first monoplane flights) and the biographical dictionary entry on Blériot (French Aero Club certificate No. 1, the Channel flight, the school at Pau, the Gnome-engined monoplanes). Independent of Blériot but written by pilot-authors, so partly sympathetic.",
+      "url": "https://archive.org/details/aeroplanepastpr00harpgoog"
+    },
+    {
+      "id": "src_bleriot_self1911",
+      "kind": "archive",
+      "title": "Louis Blériot, 'Sporting and Commercial Possibilities of the Aeroplane', in Grahame-White and Harper, The Aeroplane: Past, Present and Future (1911), Section VII -- SELF source, an essay by Blériot (as presented by the book's editors) on engines, construction and aviation's prospects. Read in full as context only (his account of early engine failures, the critics who said reliable aeroplane engines were impossible, the 1909 appearance of the Gnome rotary engine); not used as support for any scored row because it is a self-account and the book's editors framed it.",
+      "url": "https://archive.org/details/aeroplanepastpr00harpgoog"
+    },
+    {
+      "id": "src_bleriot_flight_1936",
+      "kind": "press",
+      "title": "Flight, 6 August 1936, obituary 'The Death of Louis Blériot' (p. 153), and the 13 August 1936 notice 'The Late M. Blériot', Internet Archive OCR scans (sim_flight-international_1936-08-06_30_1441, sim_flight-international_1936-08-13_30_1442) -- period trade-press obituary written within a week of his death; the OCR is partly garbled and was read for the dated facts used (headlamp business profit, 1900 start and about 20,000 pounds spent, Lilienthal-style body-shifting replaced by wing warping, 'more crashing than flying', later turn to design and production). It gives his birth year as 1873, which conflicts with Wikidata and Britannica (1 July 1872).",
+      "url": "https://archive.org/details/sim_flight-international_1936-08-06_30_1441"
+    },
+    {
+      "id": "src_bleriot_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Louis Blériot' (written by Tom D. Crouch, curator emeritus, National Air and Space Museum) -- institutional overview, read in full: the headlamp business that funded his experiments, the Blériot XI and the Channel flight, more than 800 aircraft built between July 1909 and August 1914, the 1912 wing-strength controversy, and the 1914 takeover of the makers of the SPAD. Used for the Achievement facts only, not for any scored row.",
+      "url": "https://www.britannica.com/biography/Louis-Bleriot"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Flight 1909 trade press; Turner 1912; Flight 1936 obituary | 1900-1909 | three writers independent of Blériot and of one another's narratives] Flight (24 July 1909) records his own estimate of about 20,000 pounds spent on aeroplane experiments over nine years; Flight (31 July 1909) says he used to 'tumble with his machine with almost monotonous persistency; yet he kept on, in spite of criticisms' when monoplanes were widely doubted. Turner gives a dated sequence: the No. IV biplane wrecked in a ditch in November 1906; the No. V smashed days after its first flight in April 1907; the No. VI wrecked on 17 September 1907; the No. VII overturned in December 1907, after which he 'at once set to work' on the No. VIII; and a fog-time crash into a tree on 4 November 1908 after which he began the No. XI, with 'some say as many as fifty' accidents. The 1936 obituary independently says that for a long time he did almost more crashing than flying. Several dated episodes from three perspectives; scored from the repeated rebuilding, not from the later success of the Channel flight. Kept below 85 because no adversarial source was found."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Turner 1912; Grahame-White and Harper 1911; Flight 1936 and 1909 | 1900-1909 | independent historians and trade press] Turner and Grahame-White list a sequence of different layouts tried one after another from 1900: a flapping-wing 'bird' model, a glider towed behind a motor boat on the Seine, a two-cell craft on floats with two Antoinette engines at Enghien, a cellular biplane, canard and tandem-wing monoplanes, and finally the conventional monoplane. The 1936 obituary says he first tried Lilienthal-style balancing by shifting his body and then switched to wing warping and 'made better progress'. H. Massac Buist (Flight, 11 September 1909) reports that Blériot's machines were tied to a stake and the propeller thrust read from a hydraulic gauge before flights, and Flight (24 July 1909) reports his patent proposal for starting an aeroplane without an initial run. Several distinct tested variations from independent writers; strong_inference because the sources describe the series rather than his own reasoning."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[Flight 31 July 1909; Grahame-White and Harper; Turner 1912 | 1909 | trade press plus two independent histories] On 25 July 1909 he set out over open water with neither compass nor watch (Flight), was out of sight of land and of his escort for about ten minutes (Flight, Grahame-White, Turner), and chose not to circle and wait for the escorting destroyer when it fell behind because the wind was rising (Grahame-White). Flight's own editorial calls the flight 'somewhat foolhardy' and says Blériot himself admits as much; Turner says he was in peril throughout and was aware of it. Turner and Flight also record that he had put thousands of pounds of lamp-business profit into experiments, and Flight (31 July 1909) that he made his practice flight and then the crossing despite an injured foot. dual_edged because Flight also notes the precautions he took (he had a destroyer escort and, per Grahame-White, an air bag in the fuselage; Flight records his habit of throwing himself on a wing to cushion crashes) and that luck helped; kept at 0.62 because the sources are all English-language and sympathetic."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Flight 31 July 1909; Turner 1912 | 1906-1909 | trade press plus independent historian] Flight (31 July 1909) says he was 'the champion of the monoplane' at a time when monoplanes were unpopular and some critics said they would not fly at all, and that the compact No. XI which he showed at the Paris Salon was a type 'many more had deemed impracticable'. Turner notes he began as an associate of the Voisins and an advocate of the biplane and later became the great monoplane builder. Two documented instances of holding to a design against expert doubt; his own essay (not used) says critics told him reliable aeroplane engines were impossible. Moderate score because the doubt is described by the journals in general terms, not by named critics."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Flight July-September 1909; Turner 1912 | 1905-1909 | trade press plus independent historian] Flight (31 July 1909) reports that with 'sportsmanlike generosity' he offered to share the 1,000 pound Daily Mail prize with his rival Hubert Latham if Latham crossed that day (the offer was never tested). Flight (14 August 1909) records him teaching Leblanc and Delagrange personally on duplicates of the No. XI at Issy, testing the machine first and refusing to let Leblanc fly in a squally wind. In his 15 September 1909 London banquet response he said the appreciation shown him should be extended to his comrades in France and elsewhere (Flight, 18 September). Flight (14 August 1909) and Turner also record that in 1905-06 he worked with Gabriel Voisin, who piloted Blériot's glider in the Seine trials. Four distinct instances from two perspectives, none of them from a source critical of him; the banquet remark is a speech, so the score stays moderate."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Flight July-October 1909; Turner 1912 | 1909 | trade press plus independent historian] Flight (24 July 1909) says he entered his name for the Daily Mail prize 'seizing the chance offered by Mr. Latham's failure'. Flight (31 July) reports that within days he had sold 15 machines and secured a monopoly of the Anzani engine; Flight (7 August) that he undertook to deliver thirty-six monoplanes by November at about 400 pounds each, with some customers offering premiums for earlier delivery; Flight (18 September) that he had sold his 101st machine and gave up planned exhibition flying to deliver them; Flight (16 October) that a British company was being formed to take over his English rights. Turner says he announced he would stop competitions and exhibition flying to devote himself to manufacture, and that some people criticised the decision. Scored from the timing and form of these dated moves, not from later commercial success; kept at 0.48 because it concerns one short period."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Flight 1936 obituary; Turner 1912 | 1905-1908 | trade-press obituary plus independent historian] Two distinct changes of method. The 1936 obituary says he first tried to copy Lilienthal by shifting his body to balance the machine and then adopted wing warping and made better progress. Turner shows him starting in 1905-06 as an associate of the Voisins and an advocate of the biplane and floats, and, after the 1906 and 1907 failures, building a series of monoplanes that led to the No. VIII and No. XI. No source describes his reasoning, and the sources do not show him resisting evidence, so the score is a modest lean with moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루이 블레리오"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-05) for Q5396 returned en label 'Louis Blériot', description 'French aviator, inventor and engineer (1872-1936)', ko label '루이 블레리오', P569 1 July 1872 (month precision of day), P570 August 1936, citizenship France (Q142), instance of human (Q5), place of birth Q181285, place of death Q90 (Paris), P18 'Louis Bleriot.jpg'. This is the intended person. SLUG CHECK: not in scratch/prod_slugs.txt and no prior data-pipeline/candidates/louis-bleriot.json. CLASSIFICATION: occupations aviator, inventor, engineer, entrepreneur; fieldIds engineering and technology (precedent: alberto-santos-dumont uses technology+engineering, wilbur-wright/orville-wright engineering+technology; 'aviation' is used by amelia-earhart in roster27 but has no field.* i18n key, so it was not used); impactDomains technological/engineering/entrepreneurial; tags innovator and founder; archetypes technical_innovator and entrepreneurial_builder (all existing ids). ERA: 20th_century (headlamp business from 1897, aviation from 1900, the defining flight 1909, firm active to 1936). Region western_europe (France; precedent gustave-eiffel). EVIDENCE READ (11 source records, 2 orientation and 9 read substantive): Flight 1909 issues of 10 (skimmed), 17, 24, 31 July, 7, 14, 28 August, 4, 11, 18 September, 16 October (OCR from the Internet Archive, read locally and grepped for Blériot passages; the 31 July leader and news sections and the 24 July notes were read in full); Turner (1912) passages on Blériot and the Channel chapter; Grahame-White and Harper (Gutenberg 45825) Channel and early-monoplane passages; Grahame-White and Harper 1911 (introduction recollection, biographical entry, and Blériot's own essay); Flight 6 and 13 August 1936 obituary; Britannica (Crouch). PERSPECTIVES: (1) Flight, independent trade press, contemporary (several issues but one perspective); (2) Turner, independent historian 1912; (3) Grahame-White and Harper, pilot-authors (one a Blériot-monoplane flyer, so partly sympathetic); (4) Flight 1936 obituary, period retrospective; (5) Britannica/Crouch, institutional overview (achievements only); (6) Blériot himself, SELF, context only and never the sole perspective. Independent perspectives counted for scoring: Flight 1909, Turner, Grahame-White/Harper, Flight 1936 (4, but all English-language and sympathetic; no adversarial source was found, so scores are capped at 80 and confidence at 0.66). NON-SELF BEHAVIOURAL sources: Flight 1909, Turner, Grahame-White and Harper, Flight 1936. NOT AVAILABLE OR NOT READ: B. A. Elliott, Blériot: Herald of an Age (2000) and Ray Sanger, Blériot in Britain (2008) were not accessible (cited by Wikipedia only); C. H. Gibbs-Smith, A History of Flying; Gabriel Voisin's memoir (the one critical voice on Blériot) was not found online; the Daily Mail of 26 July 1909 and Blériot's own 1909 first-person account were read only as quoted by Turner and Flight; the Smithsonian NASM object page returned 404 and the ETHW page is empty. The Wikipedia raw text was read as orientation only. EPISODE USE: the 1906-1908 wrecks and rebuilds -> persistence (and experimentation, belief_updating as separate aspects: the sequence of layouts, the body-shift to wing-warping change); the Channel morning (no compass, ten minutes lost, decision not to wait for the escort, foolhardy comment) -> risk_tolerance only; Latham prize-sharing offer, teaching Leblanc and Delagrange, banquet speech, Voisin partnership -> collaboration; monoplane advocacy against doubters -> independent_thinking; Daily Mail entry after Latham's failure and the autumn 1909 orders and decision to stop flying -> opportunity_sensing. The Channel crossing feeds only risk_tolerance in scoring; its success and the later order book were NOT used as evidence of any trait. ROWS CONSIDERED AND LEFT UNSCORED: planning_orientation (careful tying-down tests and escort against flying without compass or watch: mixed); decisiveness (the decision to start on 25 July and to land abruptly is one retold episode, not independent incidents); competitiveness (Rheims and Brescia entries overlap with episodes already used); resourcefulness, execution_speed, leadership_drive, detail_orientation, discipline (the Flight remark that his mechanics worked smartly and systematically is about his team, not him); creative_originality (priority claims for the first successful monoplane rest on Wikipedia/Gibbs-Smith, which were not read); persuasiveness, conflict_tolerance (the Wright patent dispute is Wikipedia-only); impact_motivation (the banquet remark is a single speech). EXCLUDED ON PURPOSE: fame, prizes, the number of aircraft built, patents, wealth; marriage and children; the burned foot, the December 1909 Istanbul crash and the heart condition he died of (no trait inference from injury, illness or death); political, military and war-production roles (the 1912 monoplane grounding, SPAD and First World War output are incidental and unscored). CONFLICTS REPORTED, NOT ADJUDICATED: birth year 1872 (Wikidata, Britannica) vs 1873 (Flight 1936); death date 1 August (Flight, 'last Saturday') vs 2 August (Britannica); the crossing took 'roughly 40 minutes' (Flight), start about 4:40 and landing about 5:20 French time; Flight and Grahame-White differ on how the final landing was chosen (Flight says a gap in the cliffs where a Le Matin representative was signalling; Grahame-White says he turned suddenly towards an opening below Dover Castle). Turner places the landing near St. Margaret's Bay. These details are kept out of the editorial. CALIBRATION: 7 rows, scores 62-80, confidence 0.48-0.66 (only persistence at 0.66 documented), nothing at or above 85 or 0.72; sparse by design. No eligibility, coverage or match output was computed or used. PORTRAIT: Wikidata P18 'Louis Bleriot.jpg'. Commons wikitext read: Source LOC-image cph.3c00564, Date between 1909 and 1916, Author unknown, Permission PD-old-70; Commons file 1745x2839. UPSTREAM CHECK: LOC Prints and Photographs record 90712965 (JSON at loc.gov/pictures/resource/cph.3c00564, read directly; the item's MARC page sits behind a Cloudflare bot wall and was not bypassed): title 'M. Blériot, the first man to fly the channel', statement of responsibility 'Vandyk ; Rotary photo, E.C.', created/published '[between 1906 and 1916]', summary 'Half-length portrait, facing front, arms folded', call number LOT 6131 [item] [P&P], reproduction number LC-USZ62-100564, Ernest L. Jones Collection, rights information field empty (no restriction stated). The printed caption on the postcard ('The first man to fly the channel') shows it was issued after 25 July 1909, so the practical date range is 1909-1916. BASIS: a studio photograph by Vandyk published as a Rotary Photo postcard before 1917, so US public domain by publication before 1931 (95 years elapsed by 2012); in the UK the photographer is a studio name with no known death date, and Commons applies PD-old-70, which is the weaker point (the individual photographer was not identified or dated, so life-plus-70 could not be independently verified). A likeness (a portrait of the sitter). FILE: I downloaded the LOC master TIFF (tile.loc.gov storage-services master pnp cph 3c00564u.tif, 3287x4096 grayscale), cropped to the photograph proper (removing the black scan frame, the call-number scribbles and the postcard caption strip, so the crop is 2280x3400), and saved it at 1073x1600 JPEG q85 (downsized, never upscaled), viewed it and confirmed it is a half-length portrait of a moustached man in a striped jacket facing front with arms folded, with the studio mark 'Vandyk' in the lower right corner. Saved as public/portraits/louis-bleriot-vandyk-1909-1916.jpg. The Commons version is a separate, closer crop that still carries the caption strip; the LOC master was preferred because it is the verified upstream source. KOREAN NAME: '루이 블레리오' is the Wikidata ko label."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/louis-bleriot-vandyk-1909-1916.jpg",
+    "width": 1073,
+    "height": 1600,
+    "source": "Library of Congress Prints and Photographs Division, LOT 6131 (LC-USZ62-100564; hdl.loc.gov/loc.pnp/cph.3c00564), photographic print 'M. Blériot, the first man to fly the channel', Vandyk, published as a Rotary Photo postcard; Ernest L. Jones Collection; also on Wikimedia Commons as 'Louis Bleriot.jpg'",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-70",
+    "attribution": "Vandyk (photographer), published by Rotary Photo, E.C., between 1909 and 1916; Library of Congress Prints and Photographs Division (LC-USZ62-100564), no rights restriction stated in the record",
+    "attributionUrl": "https://www.loc.gov/pictures/item/90712965/",
+    "creator": "Vandyk",
+    "date": "between 1909 and 1916",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Louis_Bleriot.jpg"
+  }
+}
