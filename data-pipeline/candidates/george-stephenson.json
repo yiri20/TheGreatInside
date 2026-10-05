@@ -1,0 +1,216 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "george-stephenson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "George Stephenson",
+    "aliases": [],
+    "wikidataId": "Q133614",
+    "birthYear": 1781,
+    "deathYear": 1848,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological",
+      "industrial",
+      "innovation"
+    ],
+    "tagIds": [
+      "self_taught",
+      "innovator",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_stephenson_wikipedia",
+      "kind": "wikipedia",
+      "title": "George Stephenson -- orientation only (dates, nationality, occupations, career outline); not used as support for any scored row. Fetched and read (summary).",
+      "url": "https://en.wikipedia.org/wiki/George_Stephenson"
+    },
+    {
+      "id": "src_stephenson_wikidata",
+      "kind": "wikidata",
+      "title": "George Stephenson (Q133614) -- identity verified live through the wbgetentities API: label 'George Stephenson', description 'English civil and mechanical engineer and the \"Father of Railways\" (1781-1848)', born 9 Jun 1781, died 12 Aug 1848, citizenship United Kingdom of Great Britain and Ireland, ko label and kowiki title '조지 스티븐슨'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q133614"
+    },
+    {
+      "id": "src_stephenson_smiles",
+      "kind": "biography",
+      "title": "Samuel Smiles, The Life of George Stephenson and of his Son Robert Stephenson (later edition citing events to 1867), Project Gutenberg #46229 full text -- the standard Victorian biography, built largely on George and Robert Stephenson's own recollections, evidence they gave to Parliament and the testimony of their colleagues, so SELF/AFFILIATED and admiring; counted as one perspective and never the sole support for a row. Read closely: the early-years and Killingworth chapters, the safety-lamp chapter, the Stockton and Darlington chapter (rails, gauge, the visit to Edward Pease), the 1825 Parliamentary contest, Chat Moss, and the closing chapters on his character, honours and politics. Other chapters were searched, not read.",
+      "url": "https://www.gutenberg.org/cache/epub/46229/pg46229.txt"
+    },
+    {
+      "id": "src_stephenson_dnb",
+      "kind": "biography",
+      "title": "T. H. Beare, 'Stephenson, George', Dictionary of National Biography vol. 54 (1898), Wikisource transcription -- reference-work biography, NON-SELF but explicitly founded on Smiles's Life and the 1849 memoirs, so not an independent perspective. Read in full; used for dates, the order of events, the Davy lamp controversy as the compiler states it, and corroboration of the night-school, shoe- and clock-mending and engine-dismantling episodes.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Stephenson,_George"
+    },
+    {
+      "id": "src_stephenson_paris",
+      "kind": "biography",
+      "title": "John Ayrton Paris, The Life of Sir Humphry Davy (London: Colburn and Bentley, 1831), vol. 2, Internet Archive OCR full text -- Davy's friend and biographer, a hostile PARTISAN on the safety-lamp priority dispute; NON-SELF and adversarial to Stephenson. Read: pp. 107-109, 119 and 128-129 (the passage dismissing the claim made for 'an engine-wright of Killingworth', the critique of Stephenson's first lamp, Davy's own 1816 letter and the London counter-resolutions). Paris nevertheless says he is 'very willing to believe' Stephenson built his first lamp without knowing Davy's conclusions.",
+      "url": "https://archive.org/download/lifeofsirhumphry02pari/lifeofsirhumphry02pari_djvu.txt"
+    },
+    {
+      "id": "src_stephenson_lamp1817",
+      "kind": "archive",
+      "title": "George Stephenson, A Description of the Safety Lamp invented by George Stephenson, and now in use at Killingworth Colliery (London, 1817), Wellcome Collection scan, OCR text -- Stephenson's own 16-page pamphlet; PRIMARY and SELF, so never the only support for a row. Read in full: his dated account of the three lamps (21 Oct, 4 Nov and 30 Nov 1815), his refusal to publish a theory, and his comments on Davy's and Clanny's lamps.",
+      "url": "https://archive.org/download/b29302766/b29302766_djvu.txt"
+    },
+    {
+      "id": "src_stephenson_devey",
+      "kind": "biography",
+      "title": "Joseph Devey, The Life of Joseph Locke, Civil Engineer (London: Bentley, 1862), chapter VII 'The Grand Junction Railway: George Stephenson and Joseph Locke', Internet Archive OCR full text -- written from the side of Stephenson's pupil and later rival Locke, so a PARTISAN and openly critical account; NON-SELF. Read in full (pp. 90-105): the Locke/Stephenson disagreements over credit and over contract specifications, the Edge Hill tunnel errors, and the 1835 withdrawal. Its adjectives and verdicts ('only one was right') are treated as one side's advocacy; only dated, checkable episodes are used.",
+      "url": "https://archive.org/download/lifeofjosephlock00deverich/lifeofjosephlock00deverich_djvu.txt"
+    },
+    {
+      "id": "src_stephenson_jeaffreson",
+      "kind": "biography",
+      "title": "J. C. Jeaffreson (with William Pole), The Life of Robert Stephenson, vol. 1 (London: Longman, 1864), Internet Archive OCR full text -- a biography of Stephenson's son prepared with the family's co-operation, so AFFILIATED, but by a different author who prints Stephenson's own letters and corrects parts of Smiles; NON-SELF for George. Read: chapters I-V (Killingworth, the son's schooling, the 1816 patent with Losh, the 1824 rupture with Losh) and chapters VIII-IX (the 1828 boiler trials, Walker and Rastrick's 1829 reports, the premium offer, the Rocket and Rainhill).",
+      "url": "https://archive.org/download/lifeofrobertstep01jeaf_0/lifeofrobertstep01jeaf_0_djvu.txt"
+    },
+    {
+      "id": "src_stephenson_gooch",
+      "kind": "archive",
+      "title": "Sir Daniel Gooch, Diaries of Sir Daniel Gooch, Baronet (London: Kegan Paul, Trench, Trubner, 1892), Internet Archive OCR full text -- firsthand recollection by a locomotive engineer who knew Stephenson from childhood and worked for Robert Stephenson and Co in 1836; NON-SELF, admiring but on the opposite side of the 1845 gauge fight. Searched for every mention of George Stephenson and read in context (pp. 12-13, 30-31, 55-56).",
+      "url": "https://archive.org/download/diariesofsirdani00goocrich/diariesofsirdani00goocrich_djvu.txt"
+    },
+    {
+      "id": "src_stephenson_smg_people",
+      "kind": "institution",
+      "title": "Science Museum Group Collection, people record 'George Stephenson 1781-1848' (biographical summary, no individual author credited) -- institutional overview; NON-SELF. Read in full: Killingworth and the 1815 lamp claim, the Stockton and Darlington appointment and 1825 opening, the Liverpool and Manchester appointment, the Rocket 'built under the direction of his son Robert', the declined English honours and the Institution of Mechanical Engineers.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/ap43/stephenson-george"
+    },
+    {
+      "id": "src_stephenson_smg_rocket",
+      "kind": "institution",
+      "title": "Science Museum Group Collection, object record 'Rocket locomotive' (1829) -- institutional catalogue entry naming Robert Stephenson as designer and Robert Stephenson and Company as maker, and describing the Rainhill trials; NON-SELF. Read in full; used only for the credit attribution of the Rocket and the trial result, not for any behaviour.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co26704/rocket-locomotive-steam-locomotive"
+    },
+    {
+      "id": "src_stephenson_victorianweb",
+      "kind": "biography",
+      "title": "Jacqueline Banerjee, 'George Stephenson (1781-1848)', The Victorian Web -- modern secondary biography that quotes the Oxford Dictionary of National Biography assessment (M. B. Kirby): calling him 'father of the locomotive' is simplistic, yet he 'ranks as an engineering genius'; also records the standard-gauge legacy, the declined knighthood and the criticism that he saw himself as the engineer for every line. NON-SELF, secondary, balanced; fetched and read in full.",
+      "url": "https://www.victorianweb.org/technology/engineers/georgestephenson/bio.html"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_stephenson_jeaffreson, src_stephenson_smiles, src_stephenson_devey, src_stephenson_dnb | 1825; Jan-Mar 1829; 1834 | affiliated biographer + family-sourced biography + critical rival-side account + reference work] Jeaffreson records that in Jan-Mar 1829 two practical engineers of high reputation, Walker and Rastrick, were commissioned by the Liverpool and Manchester directors and delivered reports on 9 Mar recommending stationary engines, and that the Stephensons answered with a counter-statement and the premium trial instead of conceding. Smiles records that in the 1825 Commons committee he held to a locomotive railway against the engineering witnesses (Giles, Leather) and to a floating road over Chat Moss, although on re-examination he agreed that twelve miles an hour was outside his general experience; the DNB says he 'fought strenuously' for the locomotive against the fixed-engine plan. Devey adds the other side: in 1834 he opposed Locke's system of detailed specifications and short contract lengths that the directors adopted. Scored on behaviour under dissent, not on who proved right; dual_edged because the directors overruled him on contracts and Smiles himself calls his 'burnt air' theory of the lamp 'no doubt wrong'. Smiles's admiring tone was read past to the dated facts."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_stephenson_smiles, src_stephenson_lamp1817, src_stephenson_paris, src_stephenson_jeaffreson, src_stephenson_dnb | 1815; 1828; 1816-1822 | self pamphlet + family-sourced biography + hostile partisan + affiliated biographer + reference work] His own 1817 pamphlet dates three lamps (21 Oct, 4 Nov, 30 Nov 1815), each altered after trial in the Killingworth pit; Smiles adds the cottage tests with a gasometer and tubes of different bore (and a borrowed glass receiver blown up), which he gives partly in Stephenson's own words to the 1835 Mines Committee; Davy's partisan Paris, while contesting the lamp's safety, accepts that the first lamp was made and tried on 21 Oct 1815. Jeaffreson prints Stephenson's letters of Jan-Apr 1828 about boiler experiments (two flues, a return tube, bent tubes) that failed before the tubular boiler, and Smiles quotes his statement that Swedish malleable bars had run fourteen years at Killingworth before he advised against cast rails. The DNB lists his friction and gradient experiments. Several distinct, dated trial-and-alteration episodes from hostile, affiliated and self sources."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_stephenson_smiles, src_stephenson_dnb, src_stephenson_jeaffreson | 1825-1830; 1828 | family-sourced biography + reference work + affiliated biographer] Smiles reports that after the Commons committee threw out the 1825 Liverpool and Manchester bill (preamble carried by one vote, 37-36, then clauses lost) he was passed over for the 1826 survey, yet was appointed principal engineer when the directors declined Rennie's terms. On Chat Moss the first embankment sank repeatedly for weeks, the resident engineer (Dixon) was 'greatly disheartened' and the board met on the Moss to consider abandoning it; Smiles gives Stephenson's own 1837 account that he told them to keep filling and 'never for one moment doubted', and the DNB confirms the floating-road method succeeded. Jeaffreson independently shows the 1828 run of failed boilers (flues, return tube, bent tubes) continuing until the tubular boiler. The Chat Moss detail rests on Stephenson's own words relayed by Smiles, so confidence is held at 0.64."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_stephenson_smiles, src_stephenson_lamp1817, src_stephenson_paris | 21 Oct 1815; 1826-1830 | family-sourced biography + self pamphlet + hostile partisan] Two separate episodes: on 21 Oct 1815 he carried his untried first lamp into a deliberately fouled gallery at the Killingworth blower after the under-viewer Moodie warned that a lit candle would explode it, while Wood and Moodie hung back (Smiles, quoting Moodie's evidence in the 1817 committee report; Stephenson's pamphlet dates the trial; Paris argues the first lamp's air slide would have made it an exploding lamp, which suggests the risk was real); and in 1826-30 he committed to an unproven floating road over Chat Moss against leading engineers' advice (Smiles). Held moderate because Smiles records him pledging the directors only ten miles an hour and declining to take on lines whose estimates he thought too low, so the risk was selective, not general."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_stephenson_smiles, src_stephenson_dnb, src_stephenson_jeaffreson | c.1799-1812 | family-sourced biography + reference work + affiliated biographer] Several distinct episodes: he paid for night-school lessons in reading and writing from about eighteen and worked arithmetic by the engine fire (Smiles; DNB gives the night school in his eighteenth year); he took his engine to pieces every Saturday to learn its construction (Smiles, DNB); he repaired clocks and watches and mended boots in spare hours (DNB; Jeaffreson says the clock business was a more important income than had been supposed); in 1810-12 he rebuilt a failed Newcomen pumping engine at the Killingworth High Pit after the district's engine-men had failed (Smiles; DNB dates his 1812 appointment as engine-wright); and in a letter Jeaffreson prints he wrote that he had 'found a great want of education myself'. Most episodes rest on Smiles's family-sourced narrative, hence 0.56."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_stephenson_smiles, src_stephenson_dnb, src_stephenson_jeaffreson | 1805-1812; 1826-1830 | family-sourced biography + reference work + affiliated biographer] When short of money he took up shoe- and clock-mending (DNB, Jeaffreson) and, as a brakesman on contract in 1808, rearranged the pulleys at West Moor to stop the ropes wearing out in a month (Smiles); on Chat Moss the drains were laid in empty tar barrels and the road floated on heather hurdles and brushwood when the embankment would not stand (Smiles; DNB describes distributing the load over a wide surface). Distinct improvised solutions to different shortages, but the narrative detail is mostly Smiles's, so strong_inference at 0.58."
+    },
+    "detail_orientation": {
+      "score": 38,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_stephenson_smiles, src_stephenson_devey | 1825; 1834-35 | family-sourced biography + critical rival-side account] Smiles concedes that in the 1825 committee the plans and estimates were 'imperfect', that after depositing plans he re-estimated for a better line, that Cubitt was called to correct his levels, and that he was 'much less satisfactory' once bridges and costs were raised; Smiles blames incompetent surveyors in part. Stephenson himself said he had 'planned many a railway' from a post-chaise following the natural line of the country (Smiles, relayed by Robert). Devey, writing for Locke, says the Birmingham division's specifications under Stephenson drew tenders far above the estimates (Penkridge viaduct 26,000 pounds against 6,000 after Locke's revised specification) and that errors in the Edge Hill tunnel levels laid out by his assistant were found by Locke, not by Stephenson; Devey is a partisan, so only the dated episodes are used. Smiles also credits his minute command of locomotive and rail detail, so the score is below the middle rather than low."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_stephenson_smiles, src_stephenson_paris, src_stephenson_lamp1817, src_stephenson_jeaffreson, src_stephenson_devey, src_stephenson_gooch | 1816-1818; 1824; 1834-35; 1845 | family-sourced biography + hostile partisan + self pamphlet + affiliated biography + rival-side account + firsthand colleague] Four documented disputes he did not avoid: in 1816-18 he contested Davy's priority through meetings, a published pamphlet and a subscription, against counter-resolutions signed by Banks, Wollaston and others (Smiles; Paris from the other side); in 1824 he told the Stockton and Darlington directors not to buy his own patent cast rails, losing his co-patentee Losh 500 pounds and ending in a 'stormy interview' and final rupture (Jeaffreson; Smiles has the same advice); in 1834-35 he insisted on withdrawing Locke from the Liverpool and Manchester line and then left the Grand Junction when Locke was made engineer-in-chief (Devey, partisan); and in June 1845 Gooch recalls the 'passion' he got into when the broad-gauge bill passed. Dual_edged because Devey and the Losh rupture show costs to working relationships."
+    },
+    "belief_updating": {
+      "score": 54,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_stephenson_smiles, src_stephenson_jeaffreson, src_stephenson_lamp1817, src_stephenson_gooch | 1816-1822; 1817; 1845 | family-sourced biography + affiliated biography + self pamphlet + firsthand colleague] Mixed evidence, so held near the middle: he patented cast-iron rails with Losh in 1816 but by about 1822, citing fourteen years of Swedish bars at Killingworth, advised the Stockton and Darlington directors not to lay a single cast rail (Smiles; Jeaffreson dates the patent and the rupture), and in his 1817 pamphlet he wrote that he was 'by no means satisfied' that his own or anyone's explanation of why gas will not pass small apertures was the true one. Against that, Smiles calls his burnt-air theory 'no doubt wrong' with no record that he revised it, and Gooch records his anger in 1845 over the broad-gauge decision. Documented reversals are on materials after long use, not under opposition."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_stephenson_smiles, src_stephenson_dnb, src_stephenson_jeaffreson | 1813; late 1821; 1823; 1840s | family-sourced biography + reference work + affiliated biography] Several self-started moves: in 1813 he put the locomotive question to his own colliery owners and obtained money to build one (DNB); in late 1821, having heard of the Stockton and Darlington Act, he travelled to Darlington uninvited with Nicholas Wood to ask Edward Pease for the engineer's post and to urge locomotives (Smiles, from Pease's recollection; the Science Museum record dates the appointment to early 1822); in 1823 he induced Pease, Richardson and Longridge to join him in a locomotive factory in Newcastle (DNB; Jeaffreson); and at a York and North Midland meeting he volunteered unpaid services for the Scarborough branch (Smiles). Distinct initiatives, though several rest on Smiles."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조지 스티븐슨"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q133614 verified live before scoring: wbgetentities returned label 'George Stephenson', description 'English civil and mechanical engineer and the \"Father of Railways\" (1781-1848)', born 9 Jun 1781, died 12 Aug 1848, citizenship United Kingdom of Great Britain and Ireland (Q174193), ko label and kowiki sitelink both 조지 스티븐슨. The lead's P18 hint (Project Gutenberg etext 13103) is an illustration in Anne Keeling's 'Great Britain and Her Queen', not in Smiles; it was not used. Slug check: no data-pipeline/candidates/george-stephenson.json existed beforehand and no George Stephenson in src/data/people (the only 'stephenson' hits are Robert Stephenson mentioned inside the Brunel entries). REGION/ERA: GB, regionCode western_europe (same as the shipped GB precedents james-cook and the roster42 siblings isambard-kingdom-brunel and james-watt); era 19th_century (documented career 1808-1848, born 1781). CLASSIFICATION: occupations engineer + inventor (lamp and locomotive work), fieldIds engineering + technology and impact domains engineering/technological/industrial/innovation copied from the Brunel and Watt siblings; tags self_taught, innovator, craft_focused (Watt precedent) and archetype technical_innovator; no new tags needed.\nEVIDENCE READ (10 substantive records beyond the Wikipedia/Wikidata orientation entries, all opened and read, long books grepped and the relevant chapters read closely, not every page): Smiles's Life (Gutenberg 46229; family-sourced and admiring: SELF/AFFILIATED, one perspective); DNB 1898 (derived from Smiles, not independent); Paris's 1831 Life of Davy (hostile Davy-side partisan, ADVERSARIAL); Stephenson's own 1817 safety-lamp pamphlet (primary SELF); Devey's 1862 Life of Joseph Locke chapter VII (Locke-side partisan, CRITICAL); Jeaffreson's 1864 Life of Robert Stephenson vol. 1 (family-cooperating but separate author; corrects Smiles on the 'sacrifice for his son's schooling' story and prints letters); Gooch's 1892 Diaries (firsthand colleague, opposite side of the 1845 gauge fight); Science Museum Group people and Rocket records (institutional; the Rocket record names Robert Stephenson as designer, which tempers any claim that George designed it); Victorian Web biography quoting the ODNB assessment (modern secondary, balanced). INDEPENDENT NON-SELF PERSPECTIVES: Paris (adversarial), Devey (critical), Jeaffreson (affiliated but independent author), Gooch (firsthand, single anecdote), Science Museum Group (institutional); the DNB adds no perspective beyond Smiles. Non-self behavioural sources: Paris, Devey, Jeaffreson, Gooch. This clears the 2-perspective / 1-non-self-behavioural bar, but a good share of the colourful episodes (Chat Moss pep talk, the Pease visit, the Saturday engine dismantling, the night school) rest on Smiles, i.e. on Stephenson's and his son's recollections, so confidence was capped at 0.68 and rows built mostly on Smiles were held at 0.56-0.62 as strong_inference.\nSCORING NOTES: ten rows, 0.50-0.68 confidence, scores 38-76 (nothing at 85+). The lamp priority dispute is NOT scored as 'who invented it'; it is used only for behaviour (experimentation, risk, conflict). Smiles himself concedes the first lamp's theory was wrong and that Davy found the true law, Wollaston and Tennant had observed the underlying fact earlier, and Davy's partisan Paris concedes the first lamp was built without knowledge of Davy's results; the dispute is therefore left as contested priority. The Rocket is credited by the Science Museum record and by Jeaffreson to Robert Stephenson and Henry Booth (the tubular boiler) rather than to George, so no design behaviour is scored from it. 'Father of Railways', wealth, fame, the number of lines engineered and the Rocket's win were not used as trait evidence. Devey's verdicts ('only one was right') were treated as advocacy; Smiles's 'heroic' tone was read past. Detail_orientation is below the middle partly on Devey's rival-side account and partly on Smiles's own admissions about the 1825 survey; belief_updating is held near the middle because the evidence points both ways. No health or bereavement inference was made.\nNOT VERIFIABLE / NOT READ: the Oxford DNB entry (paywalled; only its quoted assessment via Victorian Web), the 1848-49 ICE/IMechE obituaries (J. Scott Russell, Field, Hyde Clarke) and Rolt's 1960 biography (not freely accessible, not attempted), a Newcomen Society critique of Smiles (bot wall, not bypassed), Art UK and NPG pages (403 bot wall, not bypassed; portrait data taken from the Wikimedia Commons file page, which cites Art UK), and a North East Museums page that was read but is internally inconsistent (e.g. a 36 mph Rocket speed, L&M dated 1822) and was not used. PORTRAIT: NPG 410, Pickersgill, c.1845, oil on canvas from life; Commons tags it PD-Art (artist died 1875); the file is only 619x800 on Commons (not upscaled); a higher-resolution IMechE miniature attributed to Alexander Craig (942x1200, inscribed 1840) was rejected because its attribution is only 'attributed to'."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/george-stephenson-pickersgill-1845.jpg",
+    "width": 619,
+    "height": 800,
+    "source": "National Portrait Gallery, London (NPG 410), via Wikimedia Commons (Art UK image)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Henry William Pickersgill (1782-1875), George Stephenson, c.1845, oil on canvas, 111.8 x 87 cm, National Portrait Gallery, London (NPG 410); public domain (artist died 1875); file as hosted on Wikimedia Commons, not resized.",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Henry_William_Pickersgill_(1782-1875)_-_George_Stephenson_-_410_-_National_Portrait_Gallery.jpg",
+    "creator": "Henry William Pickersgill",
+    "date": "c.1845",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Henry_William_Pickersgill_(1782-1875)_-_George_Stephenson_-_410_-_National_Portrait_Gallery.jpg"
+  }
+}

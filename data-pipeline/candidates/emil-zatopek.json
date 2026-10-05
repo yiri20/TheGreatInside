@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "emil-zatopek",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Emil Zátopek",
+    "aliases": [
+      "Emil Zatopek",
+      "Emil Ferdinand Zátopek"
+    ],
+    "wikidataId": "Q52589",
+    "birthYear": 1922,
+    "deathYear": 2000,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CZ"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "sustained_excellence",
+      "competitor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_zatopek_wikipedia",
+      "kind": "wikipedia",
+      "title": "Emil Zátopek, English Wikipedia article (read via the MediaWiki extracts API, 2026-10-04) -- orientation only; not used as support for any scored row. Read for cross-checking: it records the 1966 Ron Clarke medal gift and notes there is no evidence for the uranium-mine rumour (the camps had closed).",
+      "url": "https://en.wikipedia.org/wiki/Emil_Z%C3%A1topek"
+    },
+    {
+      "id": "src_zatopek_wikidata",
+      "kind": "wikidata",
+      "title": "Emil Zátopek (Q52589) -- verified live via wbgetentities (2026-10-04): en label 'Emil Zátopek', description 'Czech long-distance runner (1922-2000)', instance of human, born 19 Sep 1922, died 21/22 Nov 2000, citizenship Czechoslovakia and Czech Republic, ko label '에밀 자토페크' with a kowiki sitelink. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q52589"
+    },
+    {
+      "id": "src_zatopek_olympedia",
+      "kind": "institution",
+      "title": "Olympedia (Olympic historians' reference database) athlete biography of Emil Zátopek, with career results, personal bests, Olympic-record table and list memberships -- non-self reference biography, read in full. Used for Olympic results and records, the 18 world records of 1949-1954, the description of him as the first great distance runner to popularize interval training, and for his running the 1956 marathon only weeks after hernia surgery.",
+      "url": "https://www.olympedia.org/athletes/76736"
+    },
+    {
+      "id": "src_zatopek_worldathletics_turnbull2022",
+      "kind": "institution",
+      "title": "Simon Turnbull, 'Marking the centenary of the birth of Zatopek', World Athletics Heritage feature, 19 September 2022 -- institutional/journalistic feature (non-self) quoting Zátopek's own recollection of the marathon suggestion, Jim Peters's 1950s autobiography on the Helsinki marathon exchange, Zátopek's 1967 BBC interview on his training load, and Ron Clarke's recollection of the medal gift. Read in full. Its dating of the Clarke visit after the 1968 Games and its 'uranium mine' labour claim are contradicted by other sources read and are not used.",
+      "url": "https://worldathletics.org/heritage/news/emil-zatopek-olympic-treble-helsinki-1952"
+    },
+    {
+      "id": "src_zatopek_askwith_independent2016",
+      "kind": "biography",
+      "title": "Richard Askwith (author of the biography Today We Die a Little!, 2016), 'Emil Zátopek: The greatest Olympian vanished from public life after he defied Russian tanks in 1968', The Independent, 24 March 2016, adapted from the book -- BIOGRAPHER's account (non-self; admiring in tone but it also records his heavy drinking in exile and 'public capitulations to the regime for which the dissident movement never forgave him'). Read in full: Bata factory years, training methods, 1948 and 1952 Games, acts of generosity, the Jungwirth stand, 1966 medal gift to Ron Clarke, August 1968 and the exile.",
+      "url": "https://www.independent.co.uk/sport/olympics/emil-z-topek-the-greatest-olympian-who-vanished-from-public-life-after-he-defied-russian-tanks-in-a6951031.html"
+    },
+    {
+      "id": "src_zatopek_askwith_the42_2016",
+      "kind": "biography",
+      "title": "Richard Askwith, book extract on the July 1952 standoff over teammate Stanislav Jungwirth's travel papers, The42.ie, December 2016 (from Today We Die a Little!) -- BIOGRAPHER's text (same perspective as the Independent piece, not an independent second account). Read in full.",
+      "url": "https://the42.ie/3153972"
+    },
+    {
+      "id": "src_zatopek_athleticsweekly_askwith",
+      "kind": "press",
+      "title": "'Great moments - Zatopek's zenith', Athletics Weekly, diamond-anniversary series, with comments from biographer Richard Askwith on the Jungwirth standoff, the 'tonsillitis' cover story and the pressure before Helsinki 1952 -- journalistic retelling resting on Askwith (not independent of him). Read in full.",
+      "url": "https://athleticsweekly.com/news/meetings/great-moments-zatopek-zenith-1039938064/"
+    },
+    {
+      "id": "src_zatopek_times_obituary2000",
+      "kind": "press",
+      "title": "'Emil Zatopek, 1922-2000: one of the track greats, dies at 78', The Times (London), 22 November 2000, unsigned obituary (text as mirrored on a German running-history site; Times Newspapers copyright) -- obituary by a major newspaper (non-self). Read in full: early life at Bata, training experiments, 1948-1956 career, the 1968 manifesto and Wenceslas Square, dismissal, later manual work and sports-ministry job.",
+      "url": "https://uli-sauer.de/laufen/portraits/The_Times_Zatopek.htm"
+    },
+    {
+      "id": "src_zatopek_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Emil Zátopek' (editors' biography) -- reference overview (non-self). Read in full; used for Olympic medals, the 18 world records, the first sub-29-minute 10,000 m, the sub-one-hour 20,000 m of 1951, the 1946 Prague-to-Berlin bicycle trip, and the origin and spread of his interval training.",
+      "url": "https://www.britannica.com/biography/Emil-Zatopek"
+    },
+    {
+      "id": "src_zatopek_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Emil Zátopek' -- secondary reference biography (non-self; draws on Bob Phillips's 2004 biography and Askwith). Read in full: factory race he tried to avoid, officer-school training by flashlight, interval training, the 1952 marathon, the post-1954 decline and heavier training, post-1968 work and 1989 rehabilitation.",
+      "url": "https://www.ebsco.com/research-starters/sports-and-leisure/emil-zatopek"
+    },
+    {
+      "id": "src_zatopek_ap_marmor_1952",
+      "kind": "press",
+      "title": "Milt Marmor (Associated Press), 'Unbelievable Zatopek Exhausts Rivals and Writers' Adjectives', Evening Star (Washington, D.C.), 3 August 1952, image 54, via Library of Congress Chronicling America -- CONTEMPORARY wire report (non-self). Read in full: his conduct in the 5,000 m heat, his talking during the marathon, languages spoken, pulse and heart measurements.",
+      "url": "https://www.loc.gov/resource/sn83045462/1952-08-03/ed-1/?sp=54"
+    },
+    {
+      "id": "src_zatopek_ap_marathon_1952",
+      "kind": "press",
+      "title": "Associated Press, 'Track Program Ends As Zatopek Provides Unequaled Climax', Evening Star (Washington, D.C.), 28 July 1952, image 15, via Library of Congress Chronicling America -- CONTEMPORARY wire report of the Helsinki marathon (non-self). Read in full for his question to Jim Peters about the pace and his move to the lead at 20 km.",
+      "url": "https://www.loc.gov/resource/sn83045462/1952-07-28/ed-1/?sp=15"
+    },
+    {
+      "id": "src_zatopek_atlantadailyworld_1952",
+      "kind": "press",
+      "title": "Wire report on the Helsinki track programme, Atlanta Daily World, 25 July 1952, image 7, via Library of Congress Chronicling America -- CONTEMPORARY press (non-self). Read for the statement that he had promised his countrymen he would win the 5,000 m, the 10,000 m and the marathon.",
+      "url": "https://www.loc.gov/resource/sn82015425/1952-07-25/ed-1/?sp=7"
+    },
+    {
+      "id": "src_zatopek_keywestcitizen_grimsley1952",
+      "kind": "press",
+      "title": "Will Grimsley (Associated Press), 'Sports Roundup', The Key West Citizen, 9 December 1952, image 5, via Library of Congress Chronicling America -- CRITICAL contemporary US sports column (non-self, Cold War viewpoint) arguing that Zátopek fell short of an American ideal of 'sportsman' after the Helsinki Games because he allowed his fame to be used for Communist propaganda. Read in full; recorded as the adversarial perspective and NOT used to score any trait.",
+      "url": "https://www.loc.gov/resource/sn83016244/1952-12-09/ed-1/?sp=5"
+    },
+    {
+      "id": "src_zatopek_ap_1956_return",
+      "kind": "press",
+      "title": "Associated Press, 'Zatopek Back in Action, Wins at 10,000 Meters', Evening Star (Washington, D.C.), 8 October 1956, image 44, via Library of Congress Chronicling America -- CONTEMPORARY wire item (non-self) reporting his first 10,000 m race since his recent operation (Radio Prague), won in 29:33.4. Read in full.",
+      "url": "https://www.loc.gov/resource/sn83045462/1956-10-08/ed-1/?sp=44"
+    },
+    {
+      "id": "src_zatopek_ioc_museum_mimoun",
+      "kind": "institution",
+      "title": "Olympic Museum (IOC) collection record for Alain Mimoun's London 1948 diploma, including the museum's note on Mimoun's career and his account of meeting Zátopek at the finish of the 1956 Melbourne marathon -- institutional record (non-self; the account is Mimoun's recollection). Read in full.",
+      "url": "https://olympic-museum-artefacts.zetcom.net/en/collection/item/156019"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_zatopek_times_obituary2000, src_zatopek_worldathletics_turnbull2022, src_zatopek_ebsco, src_zatopek_askwith_independent2016, src_zatopek_ap_marmor_1952 | 1940s-1950s | obituary + institutional feature + reference + biographer + contemporary wire] Several independent sources describe the same sustained routine across different periods. As a young army trainee he ran 10-12 km in deep snow in the forests near the Milovice academy in heavy boots and three pairs of jogging trousers, and built up to training three times a day, often 100 x 400 m (Turnbull); at officer school he used every spare moment and, when it got dark, ran with a flashlight (EBSCO); in 1967 he told the BBC his maximum was 50 km in a day and about 350 km in a week (Turnbull, quoting the interview). The Times obituary says he trained in heavy army boots and subjected himself to series of punishing 400 m sprints with a 250 m jog between; Askwith describes 'levels of obsession' in his wartime training and his sentry-duty jogging. After the 1954 setbacks he reportedly stepped up to about 90 x 400 m a day (EBSCO). Contemporary AP (3 Aug 1952) credits him with 'an infinite capacity for hard work'. Many dated instances from at least four independent perspectives. Kept at 80, not 85+, because the volume figures are his own later statements and EBSCO's single-source numbers, and the 'wife on his back' story is rejected as unreliable (Askwith calls it alleged and later)."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_zatopek_times_obituary2000, src_zatopek_askwith_independent2016, src_zatopek_worldathletics_turnbull2022, src_zatopek_britannica | 1940s-1951 | obituary + biographer + institutional feature + reference] The Times says he 'experimented relentlessly': he trained in heavy army boots so racing shoes would feel light, wore a gas mask to see whether it helped breath control ('It didn't'), and ran on the spot in a spare room when curfew kept him indoors. Askwith lists holding his breath until he passed out, jogging on the spot for hours on sentry duty, and bounding through deep snow in three tracksuits, and says Western experts first derided his high-volume interval system. Turnbull (citing Butcher's biography) adds that in 1951 he deliberately tested his endurance by running two 20,000 m races within two weeks, the second the first sub-hour 20,000 m (59:51.8), in the year before Helsinki, when the marathon idea was being raised; Britannica calls him 'constantly experimenting with his workouts'. Several distinct, dated episodes from three independent perspectives. The interval method itself is NOT credited to him as an invention (Turnbull says a coach introduced him to it)."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zatopek_olympedia, src_zatopek_worldathletics_turnbull2022, src_zatopek_ap_1956_return, src_zatopek_ebsco | 1954-1956 | reference + institutional feature + contemporary wire + reference biography] Two separate episodes of continuing through setbacks. (1) By 1954-55 younger runners using his methods were beating him; EBSCO says he responded by training harder, up to about 90 x 400 m a day. (2) In 1956 he ran the Melbourne marathon, placing sixth, only a few weeks after hernia surgery (Olympedia; Turnbull says six weeks); contemporary AP (8 Oct 1956) reports his first 10,000 m after the operation, a win by a full lap in 29:33.4. Two documented episodes, but the first rests on one reference source and the cause of the hernia is disputed (the 'wife on his shoulders' story is not used), so strong_inference at moderate confidence."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zatopek_times_obituary2000, src_zatopek_askwith_independent2016, src_zatopek_ebsco | 1940s | obituary + biographer + reference] Three distinct improvisations around constraints on training time and place: running on the spot in a spare room when the wartime curfew kept him indoors (Times); jogging on the spot for hours while on sentry duty (Askwith); using a flashlight to continue running after dark at officer school (EBSCO). Each is from a different source and period, but each is a brief anecdote with no detail on how he improvised beyond the workaround itself, so kept at a modest score and strong_inference."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zatopek_ap_marmor_1952, src_zatopek_ap_marathon_1952, src_zatopek_worldathletics_turnbull2022, src_zatopek_askwith_independent2016 | 1948-1952 | contemporary wire x2 + institutional feature quoting Peters + biographer] Repeated dated instances of putting himself forward in a group. Contemporary AP (3 Aug 1952): in a 5,000 m heat he dropped back to tell American Curtis Stone to move up or 'miss the bus', jockeyed among leaders and trailers to encourage rivals and joked throughout; in the marathon he talked to cyclists, newsmen on the accompanying bus and other runners and twice asked Jim Peters about the pace; he spoke 'volubly' to reporters in five languages before the Games. Turnbull has him seeking Peters out on the start line to introduce himself, and Peters's own account has Zátopek speak first at about 12 miles. Askwith adds that in London in 1948 he talked his way into the Danish team to march in the opening ceremony. Counter-evidence: AP says that after the marathon he darted through the waiting reporters, went back to camp and slept, 'didn't care to be bothered', so this is a lean toward openness in group settings, not across-the-board. Several independent sources; score kept below 70."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_zatopek_askwith_independent2016, src_zatopek_askwith_the42_2016, src_zatopek_athleticsweekly_askwith | July 1952 | biographer (single perspective in three texts)] According to Askwith, when teammate Stanislav Jungwirth was refused travel papers because his father was imprisoned, Zátopek refused to leave without him, left his own paperwork at the ministry and trained alone while the team flew; Askwith says officials drew up a plan for 'exemplary punishment' that was destroyed after the wins, and that Zátopek himself feared prison if he failed. Both went to Helsinki on a later flight. This is one documented episode known through one biographer (the other two texts repeat him; the 'tonsillitis' cover story is also Askwith's), so inference-level and capped below 0.50. His untried marathon entry after two golds (Olympedia; AP; Turnbull notes he first tested himself over 20 km) is a weaker, calculated signal and is not used to raise the score."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zatopek_times_obituary2000, src_zatopek_atlantadailyworld_1952, src_zatopek_ap_marmor_1952, src_zatopek_worldathletics_turnbull2022 | 1949-1952 | obituary + contemporary press x2 + institutional feature] Two kinds of concrete, measurable targets. The Times says that once he dominated the 10,000 m he 'had to motivate himself by keeping the world record steadfastly before him', and he went on to set 18 world records. Contemporary press in July 1952 said he had promised his countrymen he would win the 5,000 m, the 10,000 m and the marathon, and AP on 3 Aug said he won the marathon 'just as he said he would'; Turnbull dates the marathon idea to an army superior's 1951 suggestion that he enter all three events and win them. Two converging lines from independent sources, but one is an obituarist's characterisation and the other a pre-Games statement partly rehearsed by officials (Askwith, as quoted in a secondary retelling, says Party-line speeches written for him were part of his duties), so kept at a moderate score."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에밀 자토페크"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities for Q52589 (2026-10-04) returned en label 'Emil Zátopek', description 'Czech long-distance runner (1922-2000)', instance of human (Q5), P569 19 Sep 1922, P570 21 and 22 Nov 2000 (two values, other sources also differ by a day), P27 Czechoslovakia (Q33946) and Czech Republic (Q213), ko label '에밀 자토페크' with a kowiki sitelink, P18 'Fotothek df roe-neg 0006305 003 Emil Zátopek-2.jpg'. The label, description and dates match the intended runner; no mural/hut/memorial entity. SLUG CHECK: no data-pipeline/candidates/emil-zatopek.json, no public/portraits/*zatopek* and no 'Zatopek/Zátopek' match in src/data/people or data-pipeline/candidates existed before this run. CLASSIFICATION: occupations athlete, field sport, impactDomains athletic/historical/cultural, tags sustained_excellence/competitor and archetype competitive_performer follow the existing jesse-owens, wilma-rudolph and jim-thorpe entries (ids checked in src/core/i18n/en.ts). Era 20th_century (career 1940s-1950s), nationality CZ with region central_europe, the same as the franz-kafka and vaclav-havel candidates (no historicalPolityKey is used for 20th-century figures; the Olympic NOC was Czechoslovakia, Olympedia gives nationality Czechia). KO NAME: '에밀 자토페크' is the Wikidata ko label and the Korean Wikipedia title. EVIDENCE READ (14 substantive records plus 2 orientation, all fetched with curl and read locally in scratch/emil-zatopek): Olympedia athlete page 76736; World Athletics Heritage feature by Simon Turnbull (2022); Richard Askwith's Independent adaptation of Today We Die a Little! (2016, read in full), The42.ie book extract and the Athletics Weekly Askwith piece (both retell Askwith); The Times obituary of 22 Nov 2000 (mirror); Britannica; EBSCO Research Starters; five contemporary US newspaper pages from the Library of Congress Chronicling America (Evening Star 28 Jul 1952, 3 Aug 1952 and 8 Oct 1956, Atlanta Daily World 25 Jul 1952, Key West Citizen 9 Dec 1952) read as OCR text; the IOC Olympic Museum record for Mimoun's 1948 diploma. Also opened but not recorded: The National (2009; thin, and wrongly says Clarke died in 2002), On running's marketing feature (unreliable details), a blog retelling of Askwith, Marathon Handbook pieces, the Gariwo bio and a French marathons.com piece (several claims contradicted by better sources, e.g. a 1975 'refused to recant' claim versus Askwith's 'public capitulations'; not used). Bot-walled and skipped, not bypassed: Sports Illustrated Vault, Radio Prague, Papers Past, the Deutsche Fotothek record page. Not read: Askwith's and Broadbent's and Butcher's full books, Zátopek's own writings. PERSPECTIVES: (1) biographer Askwith (three texts count once; admiring, with some critical detail); (2) The Times obituary; (3) contemporary AP/US press 1952 and 1956; (4) World Athletics Heritage feature (institutional), which relays testimony from competitor Jim Peters (adversary on the road) and from Ron Clarke; (5) Olympedia and Britannica/EBSCO reference works; (6) IOC Olympic Museum record with Mimoun's recollection; (7) CRITICAL: Will Grimsley's AP column (9 Dec 1952), a Cold War US view that he fell short as a 'sportsman' by serving as a propaganda instrument; recorded, and not used to score. SELF perspective: Zátopek's own words appear only as quoted in these sources (for example the marathon idea and the 1967 BBC interview via Turnbull); no row rests on them alone. NON-SELF BEHAVIOURAL sources are the Times, Askwith, AP, Turnbull, EBSCO and the IOC record. EPISODE USE: training regime (boots, snow, flashlight, volume, 400 m repeats) -> discipline; experiments (boots/gas mask/breath-holding/20,000 m tests) -> experimentation; curfew/sentry/flashlight workarounds -> resourcefulness; post-1954 heavier training and the Melbourne 1956 marathon after surgery -> persistence; Helsinki heat/marathon conduct and 1948 ceremony stunt -> social_assertiveness; Jungwirth standoff -> risk_tolerance (inference, Askwith only); record-chasing motive and public three-event promise -> achievement_drive. ROWS CONSIDERED AND LEFT UNSCORED: conflict_tolerance and independent_thinking (the August 1968 episode, signing the Two Thousand Words manifesto and refusing to denounce it are political and the brief treats them as incidental; the evidence is also mixed because Askwith, as quoted in a retelling, describes Party propaganda duties, and his Independent piece records later public capitulations); competitiveness (genuinely mixed: the Times calls his 1952 5,000 m a pure display of competitive aggression, yet AP and Askwith show him coaching and encouraging rivals mid-race and he valued friendship over winning); mastery_orientation (rests on an obituarist's characterisation); creative_originality (interval training credit is shared with the coach who introduced it and Swedish fartlek); collaboration, leadership_drive, curiosity (languages learned page by page is a single anecdote; five/eight languages differ between AP and Askwith); adaptability, detail_orientation, planning_orientation (training notebooks appear only in an unreliable source). EXCLUDED ON PURPOSE: the post-1968 punishment, exile, drinking, public capitulations and rehabilitation (no personality inference from persecution or from his marriage and family life); his political speeches of 1952 (AP 4 Aug 1952 reports a 'peace rally' speech blaming the US for the Korean War, and Askwith, as quoted in a retelling, says such speeches were often written for him); health episodes (influenza before Helsinki, hernia, final illness); honours as evidence; Dana's career. CONFLICTS REPORTED, NOT ADJUDICATED: (a) post-1968 work: Askwith and EBSCO say a drilling/prospecting team for roughly four and a half years, the Times says a geological team, World Athletics says six years in the Jáchymov uranium mine, while Wikipedia notes there is no evidence of the uranium camps (closed years earlier); (b) the Ron Clarke medal: Askwith (via the medal-box inscription 'Prag. 19-7-1966') and Wikipedia date it to 1966, whereas World Athletics places the visit after Clarke's 1968 collapse; (c) world-record years: Olympedia 1949-1954, the Times 1949-1955, World Athletics 1951-1955; (d) retirement 1956/57 (Times, Olympedia) vs 1958 (Britannica, EBSCO); (e) the Peters exchange: in Peters's own account Zátopek asked 'Is it good enough?' at about 12 miles and Peters answered 'pace too slow'; AP says Zátopek asked twice and decided at 20 km; (f) his 1952 marathon pre-commitment: AP says he promised all three titles, Askwith's interview says he had publicly promised two. KNOWN LIMITS: no full-text biography (Askwith, Broadbent, Butcher, Phillips) or Zátopek's own writings were available; Peters's and Clarke's words are known only through Turnbull/Askwith. Many moderate-confidence rows were kept below 0.72 per the Roster40 calibration lesson; all confidences are at or below 0.70 and all scores at or below 80. No eligibility, coverage or match output was used in scoring. PORTRAIT: Nationaal Archief, Fotocollectie Anefo, item 902-9145 'Internationale atletiekwedstrijd in het Olympisch Stadion. Emil Zatopek' (photographer J.D. Noske / Anefo; glass negative 9 x 12 cm; Amsterdam; the record gives 15 Aug 1948, the Commons description 13 Aug 1948; annotation 'Met achter zich Erik Ahlden en Willem Slijkhuis'). The archive's own record (reference NL-HaNA_2.24.01.09_0_902-9145, read from the record page's embedded metadata) lists the rights holder as 'Nationaal Archief, CC0'; Commons carries the same file under CC0 (File:Internationale Athletiekwedstrijd in het Olympisch Stadion. Emil Zatopek, Bestanddeelnr 902-9145.jpg, Anefo CC0 batch). I downloaded the archive's own 8-bit JPEG (3243x2550) from service.archief.nl and cropped to the runner (region x 1200-2260, y 640-1965), giving a 1060x1325 native-pixel JPEG q90, no resizing or upscaling; viewed: a wincing runner in a white vest with the Czechoslovak lion badge and bib 377, consistent with the record's caption (the two runners behind him are cropped out). Kind likeness (from life). The Wikidata P18 image (Roger and Renate Rössing, Deutsche Fotothek df_roe-neg_0006305_003, CC BY-SA 3.0 de on Commons) was NOT used: the Fotothek record page sits behind a proof-of-work wall and could not be read, so its institutional rights statement could not be verified, and the Commons category dates the same series to 1951 while the file says 1952. PUBLICATION DECISION: evidence_approved -- identity verified, 14 substantive records read, >=2 independent perspectives with several non-self behavioural sources, honest 7-row profile, portrait rights-verified. LEAD ERROR_CORRECTION (C, mechanical, no scoring change): source `kind` values mapped to the closed SourceKind vocabulary / internal archive identifier removed from a public source title: src_zatopek_times_obituary2000:obituary->press; src_zatopek_britannica:encyclopedia->biography; src_zatopek_ebsco:encyclopedia->biography."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/emil-zatopek-nationaal-archief-1948.jpg",
+    "width": 1060,
+    "height": 1325,
+    "source": "Nationaal Archief (Dutch National Archives), Fotocollectie Anefo, item 902-9145, via Wikimedia Commons (cropped)",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "J.D. (Daan) Noske / Anefo, 'Internationale atletiekwedstrijd in het Olympisch Stadion. Emil Zatopek', August 1948; Nationaal Archief, Fotocollectie Anefo, bestanddeelnummer 902-9145, CC0",
+    "attributionUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a8bb575a-d0b4-102d-bcf8-003048976d84",
+    "creator": "J.D. (Daan) Noske / Anefo",
+    "date": "August 1948",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Internationale_Athletiekwedstrijd_in_het_Olympisch_Stadion._Emil_Zatopek,_Bestanddeelnr_902-9145.jpg"
+  }
+}

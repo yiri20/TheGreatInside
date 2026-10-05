@@ -1,0 +1,235 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edwin-hubble",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Edwin Hubble",
+    "wikidataId": "Q43027",
+    "birthYear": 1889,
+    "deathYear": 1953,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "career_changer",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hubble_wikidata",
+      "kind": "wikidata",
+      "title": "Edwin Hubble (Q43027) -- verified live via wbgetentities (2026-10-04): en label 'Edwin Hubble', description 'American astronomer (1889-1953)', born 20 Nov 1889, died 28 Sep 1953, citizenship United States, instance of human, ko label '에드윈 허블'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q43027"
+    },
+    {
+      "id": "src_hubble_mayall_nas1970",
+      "kind": "biography",
+      "title": "N. U. Mayall (Lick Observatory astronomer, Hubble's protege and colleague), 'Edwin Powell Hubble, 1889-1953', Biographical Memoirs of the National Academy of Sciences vol. 41 (1970), PDF from nasonline.org -- INSIDER-LEANING official memoir: written with access to Grace Hubble's journals, with Hubble's own corrections to the quoted anecdotes, and accepting at face value stories that later archival work contradicts (see Osterbrock et al.). Read in full for the biographical narrative and the resume of research, including the long quotations from Hubble's own papers of 1920-1934; the later technical sections were skimmed.",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/hubble-edwin.pdf"
+    },
+    {
+      "id": "src_hubble_osterbrock1990",
+      "kind": "biography",
+      "title": "Donald E. Osterbrock (Lick Observatory historian), Ronald S. Brashear (Huntington Library manuscripts curator) and Joel A. Gwinn, 'Self-Made Cosmologist: The Education of Edwin Hubble', in Evolution of the Universe of Galaxies: Edwin Hubble Centennial Symposium (Astronomical Society of the Pacific, 1990), ADS scan -- INDEPENDENT scholarly biography of Hubble's life to 1924, built on contemporary letters and on school, university and Rhodes Trust records rather than on his or his widow's recollections, and openly critical of the embellished versions. Read pages 1-14 in full (youth, Chicago, Oxford, Louisville, Yerkes, army, Cambridge, Mount Wilson, marriage, conclusion); the footnotes were not read.",
+      "url": "https://ui.adsabs.harvard.edu/abs/1990ASPC...10....1O/abstract"
+    },
+    {
+      "id": "src_hubble_sandage1989",
+      "kind": "biography",
+      "title": "Allan Sandage (Carnegie Observatories; Hubble's last assistant and successor), 'Edwin Hubble 1889-1953', Journal of the Royal Astronomical Society of Canada vol. 83 no. 6 (December 1989), ADS scan -- ADMIRING SUCCESSOR's centennial assessment based on a re-reading of Hubble's published papers; it warns that the Huntington archive recollections contradict known facts. Read in full (11 pages of text; references not read).",
+      "url": "https://ui.adsabs.harvard.edu/abs/1989JRASC..83..351S/abstract"
+    },
+    {
+      "id": "src_hubble_aip_vanmaanen",
+      "kind": "institution",
+      "title": "American Institute of Physics Center for History of Physics, Cosmology exhibit page 'How Bad Science Supported Doubts that Spiral Nebulae are Separate Galaxies' -- institutional history (non-self, neutral to critical) describing Hubble's handling of the dispute with his Mount Wilson colleague Adriaan van Maanen over rotation measurements, ending with paired notes in the Astrophysical Journal. Read in full.",
+      "url": "https://history.aip.org/exhibits/cosmology/ideas/bad-evidence.htm"
+    },
+    {
+      "id": "src_hubble_aip_whowas",
+      "kind": "institution",
+      "title": "American Institute of Physics Center for History of Physics, Cosmology exhibit page 'Who Was Edwin Hubble?' -- short institutional biography (non-self) that treats his boxing and duel stories as reflecting 'a lifelong drive to promote a romantic image', and records that he never practised law. Read in full.",
+      "url": "https://history.aip.org/exhibits/cosmology/ideas/hubble.htm"
+    },
+    {
+      "id": "src_hubble_kragh2018",
+      "kind": "archive",
+      "title": "Helge Kragh (historian of cosmology), 'Hubble Law or Hubble-Lemaitre Law? The IAU Resolution', arXiv:1809.02557 (2018) -- independent, critical scholarly note that checks the historical claims of the 2018 International Astronomical Union resolution and summarises what Hubble and Humason did and did not claim in 1929-1931. Read in full.",
+      "url": "https://arxiv.org/abs/1809.02557"
+    },
+    {
+      "id": "src_hubble_nussbaumer_bieri2012",
+      "kind": "archive",
+      "title": "Harry Nussbaumer and Lydia Bieri, 'Who discovered the expanding universe?', arXiv:1107.2281 (2012) -- scholarly summary of their book Discovering the Expanding Universe, reconstructed from original documents; PRO-LEMAITRE in emphasis, but it records what Hubble's 1929 paper did and did not say (no mention of an expanding universe; Slipher velocities taken without references) and Lemaitre's own modest conduct. Read in full.",
+      "url": "https://arxiv.org/abs/1107.2281"
+    },
+    {
+      "id": "src_hubble_block2011",
+      "kind": "archive",
+      "title": "David L. Block, 'Georges Lemaitre and Stigler's Law of Eponymy', arXiv:1106.3928 (2011) -- ADVERSARIAL/partisan short essay for Lemaitre's priority; used here ONLY for its quotation of Hubble's letter to Willem de Sitter of 21 August 1930 on recognition of the velocity-distance relation as a Mount Wilson contribution, not for its characterisations of Hubble. Read in full.",
+      "url": "https://arxiv.org/abs/1106.3928"
+    },
+    {
+      "id": "src_hubble_maccallum2015",
+      "kind": "archive",
+      "title": "Malcolm A. H. MacCallum, 'Milestones of general relativity: Hubble's law (1929) and the expansion of the universe', arXiv:1504.03606 (2015) -- scholarly overview; read the sections on the pre-history of the law, Hubble's 1929 paper and Hubble's own later hedging (roughly the first third of the paper); the later sections on modern cosmology were not read.",
+      "url": "https://arxiv.org/abs/1504.03606"
+    },
+    {
+      "id": "src_hubble_tammann_reindl2002",
+      "kind": "archive",
+      "title": "G. A. Tammann and B. Reindl (Basel), 'Cosmic Expansion and H0: A Retro- and Pro-Spective Note', arXiv:astro-ph/0208176 (2002) -- historical sections of an astronomers' review (colleagues of Sandage; admiring of Hubble's skill but critical of his distance scale); read for the account of Hubble's 1929 diagram, his reaction to de Sitter's 1930 extension, his doubts about expansion in later life and the post-1952 revision of his distances. Read the historical sections.",
+      "url": "https://arxiv.org/abs/astro-ph/0208176"
+    },
+    {
+      "id": "src_hubble_tammann_reindl2011",
+      "kind": "archive",
+      "title": "G. A. Tammann and B. Reindl, 'Allan Sandage and the Cosmic Expansion', arXiv:1112.0170 (2011) -- introductory paragraphs only: Robertson's remark to Sandage, Hubble's 1936 book, and Hubble's last Hubble diagram annotated 'no recession factor'. The rest of the paper (Sandage's own research) was not read.",
+      "url": "https://arxiv.org/abs/1112.0170"
+    },
+    {
+      "id": "src_hubble_hughes_review1997",
+      "kind": "press",
+      "title": "David Hughes (Sheffield astronomer), review 'A starry, starry knight' of Gale E. Christianson's Edwin Hubble: Mariner of the Nebulae, Times Higher Education, 27 June 1997 -- CRITICAL contemporary review of the main biography (which was itself not available as full text and was not read). Read in full; used only as a critical perspective on how the biography presents Hubble's cautious wording of redshifts, his Hollywood circle and his single-technique career, not as support for a scored row.",
+      "url": "https://www.timeshighereducation.com/node/89718"
+    },
+    {
+      "id": "src_hubble_humason_ras1954",
+      "kind": "archive",
+      "title": "Milton L. Humason (Mount Wilson observer and Hubble's long-time collaborator), obituary of Edwin Hubble, Journal of the Royal Astronomical Society 114 (1954) pp. 291-295, as reproduced by the MacTutor History of Mathematics archive -- COLLEAGUE/INSIDER obituary, affectionate and repeating unverified stories (boxing the French champion, 'practising law successfully') that Osterbrock et al. contradict; used for the 1917 enlistment, the 1942 Aberdeen appointment, committee chairmanships and the observation programmes. Read in full.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Hubble_RAS/"
+    },
+    {
+      "id": "src_hubble_caltech_obit1953",
+      "kind": "institution",
+      "title": "'Edwin P. Hubble 1889-1953', obituary notice in Engineering and Science (Caltech), November 1953 ('The Summer at Caltech' issue) -- institutional obituary notice (non-self) with the Mount Wilson and Palomar director's statement on his work; used for dates, the 1942-1945 Aberdeen appointment and committee service. Read the Hubble notice.",
+      "url": "https://calteches.library.caltech.edu/1401/1/thesummer.pdf"
+    },
+    {
+      "id": "src_hubble_tsumura2017",
+      "kind": "archive",
+      "title": "Kohji Tsumura (Tohoku University), 'Verification of the anecdote about Edwin Hubble and the Nobel Prize', arXiv:1705.10125 (2017) -- scholarly check of Nobel Foundation records: Hubble was nominated in 1953 but the committee did not endorse astronomical work and chose Zernike on 15 September 1953, thirteen days before Hubble died; refutes the story that he was about to win. Read in full; not used for any scored row.",
+      "url": "https://arxiv.org/abs/1705.10125"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_hubble_osterbrock1990, src_hubble_aip_vanmaanen, src_hubble_sandage1989, src_hubble_maccallum2015 | 1917-1953 | archival biography + institutional history + admiring successor + scholarly overview] Osterbrock et al. say that in his 1917 thesis Hubble 'had the self-confidence to see what was on the plates' and describe it where others had ignored or tried to ignore evidence that did not fit the accepted picture; the thesis already suggested that the faint nebulae might be clusters of extra-galactic systems (a view others also held: Fath, Sanford and Curtis are named). In the 1920s he chose to treat the strongest evidence against that view, the rotation measurements of his own Mount Wilson colleague van Maanen, as unreliable, first demolishing the claim of corroboration in a private talk and then remeasuring four nebulae (AIP exhibit; Sandage: his 'ability to know which clues to trust, which to discard'). In the other direction, to the end of his writings, including his 1937 reply to Eddington and McVittie and his 1953 Darwin Lecture, he kept open the reading that the redshifts might not mean true expansion (Sandage; MacCallum), against the way the field was moving. dual_edged: the same stance was right about van Maanen and left him at odds with the later expansion consensus. Several dated instances from independent and admiring sources; not scored higher because on the island-universe question he was confirming a position others already held."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_hubble_aip_vanmaanen, src_hubble_sandage1989, src_hubble_block2011, src_hubble_tammann_reindl2002 | 1926-1930s | institutional history + admiring successor + partisan essay quoting an archive letter + astronomers' review] The AIP history describes how Hubble, in a dispute with a Mount Wilson colleague whose work he thought wrong, first demolished the colleague's claim of corroboration in a private talk, then published a remeasurement and arranged, with the observatory's publications editor and the journal, a published note in which van Maanen conceded his motions should be viewed 'with reserve' -- confronting the dispute but choosing a form that avoided an 'ungentlemanly' head-on challenge. Sandage records that Hubble made complaints about Lundmark's contemporaneous classification, 'which he rarely made public', some of them unfounded, and that Lundmark's reply was 'partially justifiable acerbic'. Block quotes Hubble's 21 Aug 1930 letter to de Sitter saying he was 'deeply concerned' that the velocity-distance relation be recognised as a Mount Wilson contribution, and Tammann and Reindl write that Hubble was 'outraged' when de Sitter extended his diagram in 1930 (one unreferenced sentence). Several instances over a decade, but each is partly told by a partisan or admiring source and the conflicts were mostly conducted by letter, footnote and negotiation, hence moderate score and confidence."
+    },
+    "competitiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hubble_sandage1989, src_hubble_block2011, src_hubble_tammann_reindl2002, src_hubble_nussbaumer_bieri2012, src_hubble_kragh2018 | 1926-1931 | admiring successor + partisan essay quoting an archive letter + astronomers' review + scholarly summaries] Two explicit episodes of guarding priority. (1) Sandage: Hubble 'guarded its priority in a revealing footnote' in his 1926 classification paper against Lundmark's contemporaneous scheme, showing 'a sensitivity he generally kept hidden'. (2) In his 21 Aug 1930 letter to de Sitter (quoted by Block) he asked that the velocity-distance relation be recognised as a Mount Wilson contribution; Tammann and Reindl describe him as outraged at what he took as undue competition. A disputed third point is NOT relied on: his 1929 paper cites de Sitter but not Lemaitre's 1927 paper, and Nussbaumer and Bieri and Block note that Slipher's velocities were used without references; whether that was intent or then-common practice is contested, and Kragh adds that Lemaitre himself later credited the law to Hubble and that Hubble and Humason did not present it as proof of expansion. Kept at strong_inference with moderate confidence because the sources are admiring or partisan and the instances are few."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.57,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hubble_sandage1989, src_hubble_mayall_nas1970, src_hubble_kragh2018, src_hubble_aip_vanmaanen, src_hubble_osterbrock1990 | 1920-1930s | admiring successor + insider memoir quoting his papers + scholarly note + institutional history + critical archival biography] Sandage characterises his method as 'largely inductive -- nearly pure Baconian': assembling massive data sets before generalising. Mayall's quotations from Hubble's own papers show him stating that the 1926 classification was 'descriptive and entirely independent of any theory', checking his Cepheid distances for M33 and NGC 6822 against other independent criteria, and writing in 1931 that 'velocity' was used in the sense of 'apparent' velocity 'without prejudice' to its ultimate significance; Kragh confirms that Hubble and Humason were careful to say it was a redshift-distance relation that did not by itself justify an expanding universe. The AIP page records that his remeasurement of van Maanen's nebulae established systematic errors. Against this, Osterbrock et al. call his 1917 thesis 'not very good technically' and 'decidedly confused' in its theoretical ideas, and Tammann and Reindl note that his distance scale was wrong by large factors; these limits are why the score is moderate. Several independent instances over fifteen years."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hubble_osterbrock1990, src_hubble_sandage1989, src_hubble_tammann_reindl2011, src_hubble_mayall_nas1970 | 1925-1936 | critical archival biography + admiring successor + astronomers' review + insider memoir] Osterbrock et al. write that Hubble 'was also a great writer and a great speaker' and that no one who read his books or heard his lectures 'could ignore him'. Sandage notes a 'surety of language' that 'tended (and was intended) to conquer the field by prose', says clear presentation gave some papers dominance over earlier work in which the problem had in fact been solved, and says the 1925 Cepheid paper, the 1929 redshift paper and the 1934 galaxy-counts paper were each written so convincingly that they were believed almost at once. Tammann and Reindl say his 1936 book The Realm of the Nebulae convinced the world of the expansion although his distance scale was off by a factor of about eight. Mayall adds James Jeans's review of that book and a 1933 earthquake episode at a Pasadena hotel (told from Grace Hubble's journals, so lower weight). Independent assessments agree on the effect of his writing and speaking; not scored higher because the evidence concerns written and lecture persuasion, less one-to-one persuasion."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hubble_osterbrock1990, src_hubble_humason_ras1954, src_hubble_caltech_obit1953, src_hubble_mayall_nas1970 | 1909-1953 | critical archival biography + colleague obituary + institutional notice + insider memoir] Osterbrock et al. document that in college Hubble was a class vice president and a university marshal, and as a graduate student took the residence-head post at Snell Hall; at officer camp in 1917 he volunteered for the infantry, in which he could expect a captain's commission, and wrote that he was 'the fourth man to be made student captain'; he then commanded the 2nd Battalion, 343rd Infantry, 86th Division, at Camp Grant in 1917-18 (promoted major January 1918; the letter of commendation for his training service is quoted), writing that he hoped his battalion would 'lead to the front'. After the armistice Mayall says he became administrative head of the American officers assigned to British universities (Osterbrock doubts the full claim: he was the ranking officer present at Cambridge in May 1919). Later Humason reports he chaired the Mount Wilson and Palomar Research Committee, and Mayall and the Caltech notice that he chaired the Los Angeles Committee on Foreign Relations. Several instances of seeking and holding command roles; the scientific leadership of his field is not counted here."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hubble_osterbrock1990, src_hubble_mayall_nas1970, src_hubble_humason_ras1954 | 1913-1919 | critical archival biography (letters and records) + insider memoir + colleague obituary] Osterbrock et al. document several self-initiated moves: in 1914, having concluded school-teaching was not for him, he wrote to his Chicago professor Moulton about coming back as a graduate student, which led to the Yerkes service scholarship; at Yerkes he began a nebular photography programme on the 24-inch reflector that had been standing mostly idle (no formal courses, the rest of his time 'his own'); in April 1917, within days of the declaration of war, he asked Frost to recommend him for a commission and wrote to Hale for a letter; in 1919 he 'had managed to find out about' the Army's British-university programme and had himself assigned to it, and from Cambridge wrote to Hale reminding him of the pre-war job offer. Mayall's and Humason's more dramatic version (an all-night thesis and a telegram refusing Hale's offer) is not used, because the dated letters in Osterbrock et al. show he wrote to Hale for a recommendation and Hale answered that the offer would be renewed after the war. Several dated, letter-based instances from one principal source, hence strong_inference."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hubble_osterbrock1990, src_hubble_mayall_nas1970, src_hubble_humason_ras1954, src_hubble_caltech_obit1953 | 1910-1946 | critical archival biography + insider memoir + colleague obituary + institutional notice] Osterbrock et al. conclude that Hubble 'suddenly thrust himself into strange, different situations, and succeeded': from Chicago to Queen's College, Oxford (a fellow Rhodes scholar thought he had become 'very British' within a year), to a high-school teaching and coaching job in New Albany (a popular teacher whose class of 1914 dedicated its yearbook to him), to graduate research at Yerkes, to infantry officer training and battalion command, to an administrative post among British universities. Humason, Mayall and Caltech add that in 1942, at 52, he left Mount Wilson and became Chief of Exterior Ballistics and director of the Supersonic Wind Tunnel at Aberdeen Proving Ground, a field new to him, returning to astronomy in 1946 (the 1946 Medal for Merit is not used as evidence). Several independent instances in different settings; the social-adaptation details (accent, manner) rest on one fellow scholar's comment."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_hubble_osterbrock1990, src_hubble_mayall_nas1970, src_hubble_humason_ras1954 | 1914-1942 | critical archival biography + insider memoir + colleague obituary] Three decisions that gave up a more secure path. In 1914 he left a school-teaching job for a graduate service scholarship of $120 tuition plus $30 a month; Mayall quotes his remark that he 'chucked the law for astronomy' knowing he might be 'second-rate or third-rate'. In April 1917, with a conditional offer from Hale at Mount Wilson (to follow completion of his Ph.D.), he applied for an army commission and told Hale he was doing so (Hale replied that the offer would be renewed after the war); he then joined the infantry, which Humason says he thought the best way to see a war and which Osterbrock et al. say he volunteered for rather than the artillery. (Mayall's and Humason's dramatic telegram version is not used; the dated letters differ.) In 1942, at 52, he was trying to get back into the infantry before being assigned to ordnance (Mayall's quotation of Hubble). Neutral impact: the war choices were shared with many of his generation (Osterbrock notes Rhodes scholars 'itching to get into the fight') and the move to astronomy had a standing offer behind it."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_hubble_osterbrock1990, src_hubble_mayall_nas1970 | 1911-1917 | critical archival biography + insider memoir] Osterbrock et al. conclude that Hubble 'was exceptionally self-reliant' and 'had very little training in research at Yerkes Observatory or anywhere else, except what he taught himself by doing it'. Instances: at Oxford he told his father he did not attend law lectures but read other men's notes so that he could 'work undisturbed' and spend most afternoons on sport and other reading; at Yerkes, apart from some routine observing duties, the rest of his time was 'his own, for study and research under the general supervision of Frost'. Mayall notes he 'firmly kept his personal history in the background'. The evidence is mostly one biographer's summary plus two early instances, hence inference level and a score near the middle."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에드윈 허블"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-04) for Q43027 returned en label 'Edwin Hubble', description 'American astronomer (1889-1953)', P569 20 Nov 1889, P570 28 Sep 1953, citizenship United States (Q30), instance of human, ko label '에드윈 허블', occupation astronomer (Q11063) among others, P18 'Studio portrait photograph of Edwin Powell Hubble (cropped).JPG'; matches the intended person. SLUG CHECK: no data-pipeline/candidates/edwin-hubble.json existed; grep of src/data/people/*.ts and data-pipeline/candidates/ for 'hubble' found no collision before this run. CLASSIFICATION: occupation astronomer; fields natural_science and physics, impactDomains scientific and historical, archetype scientific_explorer (as the galileo-galilei and henrietta-swan-leavitt candidates); tags career_changer (law and school-teaching to astronomy, Osterbrock et al.) and communicator (books and lectures; Osterbrock, Sandage); all ids exist in src/core/i18n/en.ts. Not given theorist (Hubble deliberately avoided theory) or nobel_laureate (he never won one). ERA 20th_century (career 1919-1953), nationality US, region north_america. EVIDENCE READ: 16 records (15 substantive + 1 orientation): Mayall's 1970 NAS memoir (full narrative); Osterbrock, Brashear and Gwinn 1990 (pp. 1-14, ADS scan read as page images); Sandage 1989 (all text pages, read as page images); two AIP history-exhibit pages; Kragh 2018; Nussbaumer and Bieri 2012; Block 2011; MacCallum 2015 (relevant third); Tammann and Reindl 2002 and 2011 (historical parts); Hughes's 1997 review of Christianson's biography; Humason's 1954 RAS obituary (via MacTutor); the 1953 Caltech obituary notice; Tsumura 2017. PERSPECTIVES: (1) SELF: Hubble's own papers and letters as quoted by Mayall, Osterbrock et al. and Block (never used alone for a row); (2) INSIDER/PROTEGE and colleague: Mayall and Humason (both repeat unverified embellishments); (3) ADMIRING SUCCESSOR: Sandage, Tammann and Reindl; (4) INDEPENDENT scholarly/archival: Osterbrock, Brashear and Gwinn (critical of the myth), AIP Center for History of Physics, Kragh, MacCallum, Nussbaumer and Bieri; (5) ADVERSARIAL/partisan: Block (pro-Lemaitre; used for one letter quote only) and Hughes's critical review. NON-SELF BEHAVIOURAL sources: Osterbrock et al., Sandage, AIP, Kragh, Tammann and Reindl. NOT AVAILABLE / NOT READ: Gale Christianson's Edwin Hubble: Mariner of the Nebulae (1995) exists on the Internet Archive only as a lending copy with no full text and was NOT read; the AIP Humason oral history page was blocked (403); the Huntington Library pages are behind a Vercel security checkpoint and were not bypassed; the Library of Congress search was also blocked. Web-search summaries mention Christianson's portrayal of Hubble as 'egotistical' and 'hot-tempered' and as feuding with colleagues; these were NOT used because the pages were not read, and no row rests on them. EPISODE USE: van Maanen dispute (1920s-1930s) -> independent_thinking, conflict_tolerance, analytical_rigor (remeasurement only); 1926 Lundmark footnote and 1930 de Sitter letter -> conflict_tolerance and competitiveness; 1929 non-citations -> mentioned only as a disputed point, not relied on; expansion-agnosticism to 1953 -> independent_thinking; method and the wording 'apparent velocity' -> analytical_rigor; books and lectures -> persuasiveness; class vice president, Snell Hall, battalion command, committee chairs -> leadership_drive; 1914-1919 letters and applications -> proactive_agency; Oxford, teaching, army, Aberdeen -> adaptability; 1914 switch, 1917 commission application and infantry choice, 1942 request -> risk_tolerance (the telegram story is told by Mayall and Humason but contradicted by dated letters, so not used); self-taught research habits -> autonomy_need. ROWS CONSIDERED AND LEFT UNSCORED: curiosity and mastery_orientation (only Humason's adjective and Mayall's note on his history-of-science library; insider/self); achievement_drive and impact_motivation (would rest on outcomes, honours and the Nobel story); persistence and deep_focus (long programmes are documented mainly as output and by admiring sources; Hughes's 'one subject, one technique' is a reviewer's summary); belief_updating (he kept the no-recession reading open to the end, but evidence on whether he updated elsewhere is thin, and a reported hesitation over Baade's 1952 distance revision was seen only in a search summary and not verified); ambiguity_tolerance (his hedging on redshift meaning is already used under analytical_rigor and independent_thinking); decisiveness (the 1917 enlistment is used elsewhere); social_assertiveness (Mayall's army and dinner anecdotes come from Grace Hubble's journals, which Sandage and Osterbrock warn are glorified); collaboration (co-authorship with Humason is documented but credit practice is contested and the assessments are second-hand); cross_domain_range (law, teaching and ballistics were career phases, not a synthesis of fields). EXCLUDED ON PURPOSE: the Nobel Prize story (Tsumura shows the committee had not endorsed him; nominations came from others), honours and eponyms (Hubble Space Telescope, Hubble sequence), his 1941 pro-intervention speeches as political activity, Hollywood friendships, Grace Hubble's first husband's death and any family or health reading, his 1949 heart attack and death, and the boxing, duel and 'practised law' stories (documented as self-presentation, not scored: no attribute fits and Osterbrock et al. and AIP present them as embellishment). CONFLICTS REPORTED, NOT ADJUDICATED: (a) priority for the velocity-distance relation versus Lemaitre and Slipher: Block, Nussbaumer and Bieri and the 2018 IAU resolution lean to Lemaitre; Kragh argues the empirical law is Hubble's and that Lemaitre credited it to him; MacCallum suggests Hubble for the observation and Lemaitre for the interpretation; the profile records only Hubble's documented statements and omissions; (b) whether he ever believed in an expanding universe: Sandage and Tammann and Reindl say he doubted it in later life, Nussbaumer and Bieri say he never believed in it; (c) Oxford: the Rhodes second-class honours and athletics are documented; boxing Carpentier, a duel and practising law are not. PORTRAIT: the Wikidata P18 image (Johan Hagemeyer studio portrait, 1931, Huntington Library) was REJECTED as rights-uncertain: the Commons file page tags it PD-US-no-notice (which depends on publication without a notice, not verified for a signed studio print from the Hubble papers) and PD-old-auto|1962 (Hagemeyer died 1962, so life-plus-70 has not expired); the Huntington item record (CONTENTdm dmGetItemInfo JSON) says only 'For information on use of Digital Library materials, please see Library Rights and Permissions' with no public-domain statement, and the Huntington rights page is behind a Vercel checkpoint that was not bypassed. A NOIRLab CC BY 4.0 photograph 'Hubble at 100-inch' (undated, photographer unknown) was also not used. CHOSEN: Hubble's individual portrait in The Cap and Gown 1910, the University of Chicago yearbook, p. 87 ('Edwin Powell Hubble -- Awarded Rhodes Scholarship from Illinois'), located by his name in the Internet Archive OCR text (capgown1910univ); page image leaf n96 downloaded (2205x3100 JPEG) and cropped to the photograph only (635x854, JPEG q85, no resizing or upscaling). Basis: published in the United States in 1910, hence US public domain (published before 1931); no photographer credited; Internet Archive metadata shows no rights restriction. Viewed: head-and-shoulders photograph of a young man in a dark suit and high collar; the caption beneath it names Hubble (the left photograph on that page is a different person). Kind: likeness (a c. 1909-10 likeness; he is about 20). KOREAN NAME: the Wikidata ko label. No eligibility, coverage or match output was used in scoring; scores and confidences were fixed before the validator was run."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/edwin-hubble-capandgown-1910.jpg",
+    "width": 635,
+    "height": 854,
+    "source": "The Cap and Gown 1910 (University of Chicago yearbook, Chicago, 1910), p. 87, via Internet Archive (capgown1910univ)",
+    "license": "Public domain (published in the United States in 1910)",
+    "licenseUrl": "https://www.copyright.gov/help/faq/faq-duration.html",
+    "attribution": "Photograph captioned 'Edwin Powell Hubble -- Awarded Rhodes Scholarship from Illinois', The Cap and Gown 1910, University of Chicago, p. 87; photographer not credited",
+    "attributionUrl": "https://archive.org/details/capgown1910univ",
+    "creator": "Unknown (photographer not credited in the University of Chicago yearbook)",
+    "date": "1909-1910",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/capgown1910univ/page/n96/mode/1up"
+  }
+}

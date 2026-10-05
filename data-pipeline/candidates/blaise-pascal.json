@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "blaise-pascal",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Blaise Pascal",
+    "aliases": [
+      "Pascal"
+    ],
+    "wikidataId": "Q1290",
+    "birthYear": 1623,
+    "deathYear": 1662,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "physicist",
+      "inventor",
+      "philosopher",
+      "writer"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "physics",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "literary"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "detail_oriented",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pascal_wikidata",
+      "kind": "wikidata",
+      "title": "Blaise Pascal (Q1290) -- verified live via wbgetentities (2026-10-04): en label 'Blaise Pascal', description 'French mathematician, physicist, inventor, writer, and Christian philosopher (1623-1662)', P569 19 Jun 1623, P570 19 Aug 1662, citizenship Kingdom of France (Q70972), instance of human, ko label '블레즈 파스칼' with a kowiki sitelink, P18 two images (Edelinck engraving, Versailles painting). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1290"
+    },
+    {
+      "id": "src_pascal_wikipedia",
+      "kind": "wikipedia",
+      "title": "Blaise Pascal, English Wikipedia (opening summary read 2026-10-04) -- orientation only; used to check the outline of his career and the standard list of contributions; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Blaise_Pascal"
+    },
+    {
+      "id": "src_pascal_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Blaise Pascal', MacTutor History of Mathematics Archive, University of St Andrews (last updated 1996) -- scholarly biographical summary (non-self) drawing on Adamson, Taton and the Dictionary of Scientific Biography; read in full. Used for the dated outline of his mathematics and physics (conics 1639-40, calculator from 1642, vacuum experiments 1646-48, hydrostatics 1653, the 1654 correspondence with Fermat, the 1658 cycloid contest). Its date of 'June 1647' for Descartes's letter to Carcavi disagrees with Tulloch (1649) and is not used.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pascal/"
+    },
+    {
+      "id": "src_pascal_sep_clarke",
+      "kind": "biography",
+      "title": "Desmond M. Clarke, 'Blaise Pascal', Stanford Encyclopedia of Philosophy (first published 2007, substantive revision 2015) -- scholarly encyclopedia article (non-self), critical in places of Pascal's reasoning about experiment and hypothesis and of the family's hagiographic life. Read Section 1 (Life and Works) and Section 4 (Theory of Knowledge, including the vacuum dispute with Descartes and the puy-de-Dôme experiment) in full and skimmed Sections 2-3; Sections 5-6 not read. Its health and psychological passages (including the citation of Cole) are not used.",
+      "url": "https://plato.stanford.edu/entries/pascal/"
+    },
+    {
+      "id": "src_pascal_tulloch1878",
+      "kind": "biography",
+      "title": "John Tulloch, Pascal (Edinburgh and London: Blackwood, 1878; ed. Mrs Oliphant), Project Gutenberg eBook #26726 -- Victorian Protestant scholar's biography (non-self), sympathetic but openly critical of Pascal's zeal in the 1646 Rouen affair of the Capuchin Jacques Forton and of the later austerities; draws on Gilberte Périer, Jacqueline Pascal's letters, Cousin and Faugère. Read Chapters I and II in full (family, youth, the machine, the vacuum, Descartes, Noël, the cycloid, the carrosses), Chapter III to Jacqueline's entry into Port-Royal, Chapter IV from the 1654 conversion to Pascal's death (including the 1661 Formulary dispute) and the passages of Chapter V on the origin and reception of the Provincial Letters. Its medical and psychological commentary (Lélut, Voltaire on the 1654 'abyss') is not used.",
+      "url": "https://www.gutenberg.org/ebooks/26726"
+    },
+    {
+      "id": "src_pascal_clermont",
+      "kind": "institution",
+      "title": "'Blaise Pascal: l'homme, l'oeuvre', Bibliothèque du Patrimoine de Clermont Auvergne Métropole, with the Muséum Henri-Lecoq and the mathematics laboratory of Université Clermont Auvergne; texts prepared under the scientific supervision of Pascal specialist Dominique Descotes -- institutional heritage website (non-self; local and celebratory in tone). Read the pages on his life, the calculating machine and its eight surviving originals, the puy-de-Dôme experiment (with the dates of his letter and Périer's report), the arithmetical triangle and the origin of probability, the cycloid contest, the Provincial Letters, the Poitou drainage company and the carrosses à cinq sols.",
+      "url": "https://blaisepascal.bibliotheques-clermontmetropole.eu/"
+    },
+    {
+      "id": "src_pascal_fermat_letters",
+      "kind": "archive",
+      "title": "Pascal-Fermat correspondence on the problem of points, 1654, with the exchange of 1660: English translation of the texts in Tannery and Henry, Oeuvres de Fermat vol. II (York University history-of-statistics collection, 17 pp.), checked against the French of Pascal's letters of 29 July, 24 August and 27 October 1654 and Fermat's letters of 9 August and 25 September 1654 in the Brunschvicg-Boutroux edition (Hachette, 1923; Wikisource) -- PRIMARY correspondence from both men, including Fermat's letter to Carcavi about Pascal; Fermat is an independent peer perspective. Read those letters in French and the 1660 exchange in English; the long technical sections were skimmed. The York translation's 'I can no longer doubt that I was wrong' (29 July) renders 'je ne doute plus que je ne sois dans la verite' and is not used.",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/pascal.pdf"
+    },
+    {
+      "id": "src_pascal_perier_vie",
+      "kind": "archive",
+      "title": "Gilberte Périer, La Vie de M. Pascal (written 1662-63), as copied in Clermont manuscript MS 2810 (1680), Wikisource transcription -- FAMILY perspective (his elder sister; admiring, hagiographic and partisan in aim). Read the passages on his education, the calculating machine, the vacuum experiments, the Provincial Letters and the cycloid. Her accounts of his asceticism, illness and religious experience are not used.",
+      "url": "https://fr.wikisource.org/wiki/Vie_de_Pascal_(manuscrit)"
+    },
+    {
+      "id": "src_pascal_seguier_letter",
+      "kind": "archive",
+      "title": "Blaise Pascal, dedicatory letter to Chancellor Séguier and 'Avis' to readers on the arithmetical machine (1645), with the royal privilege of 22 May 1649 (Wikisource transcription of the printed booklet) -- SELF account plus a royal chancery grant that recites his own petition. Read in full.",
+      "url": "https://fr.wikisource.org/wiki/Lettre_dédicatoire_à_Monseigneur_le_Chancelier"
+    },
+    {
+      "id": "src_pascal_brunschvicg_intros",
+      "kind": "biography",
+      "title": "Leon Brunschvicg, editorial introductions to the Pascal-Noël correspondence and to Pascal's letter to Florin Périer of 15 November 1647, in Oeuvres de Blaise Pascal, ed. Brunschvicg and Boutroux, vol. II (Paris: Hachette, 1923), Wikisource transcription -- SCHOLAR-editor (non-self) weighing Pascal, Noël, Mersenne, Roberval and Descartes against each other on the vacuum controversy and the origin of the puy-de-Dôme experiment. Read both introductions in full.",
+      "url": "https://fr.wikisource.org/wiki/Œuvres_de_Blaise_Pascal/Lettre_de_Blaise_Pascal_à_Florin_Perier/Introduction"
+    },
+    {
+      "id": "src_pascal_vacuum_letters_self",
+      "kind": "archive",
+      "title": "Blaise Pascal, letter to Florin Périer of 15 November 1647 (as printed by Pascal in 1648) and reply to Father Étienne Noël (autumn 1647), in the Brunschvicg-Boutroux edition (1923), Wikisource transcription -- SELF. Read the Périer letter in full and the opening, methodological section of the reply to Noël.",
+      "url": "https://fr.wikisource.org/wiki/Œuvres_de_Blaise_Pascal/Lettre_de_Blaise_Pascal_à_Florin_Perier/Lettre"
+    },
+    {
+      "id": "src_pascal_noel_second_letter",
+      "kind": "archive",
+      "title": "Father Étienne Noël, S.J., second letter to Pascal (late 1647), in the Brunschvicg-Boutroux edition (1923), Wikisource transcription -- ADVERSARY (Jesuit rector who defended the plenum against Pascal). Read the opening section.",
+      "url": "https://fr.wikisource.org/wiki/Œuvres_de_Blaise_Pascal/Lettres_du_P._Noël_et_réponse_de_Blaise_Pascal/Seconde_lettre_du_P._Noël"
+    },
+    {
+      "id": "src_pascal_mcrie_provincial",
+      "kind": "biography",
+      "title": "Thomas M'Crie (trans.), The Provincial Letters of Blaise Pascal, with historical introduction and notes (1847), Project Gutenberg eBook #73959 -- nineteenth-century Scottish Presbyterian translator's introduction (non-self; strongly sympathetic to Pascal and hostile to the Jesuits); reports Nicole's testimony on how Pascal drafted the Letters, their circulation and condemnation, the Jesuit replies of Father Daniel and the 1661 Formulary dispute. Read the introduction's account of their composition, reception and the Jesuit replies and the closing lines of Letter 16; the Letters themselves were not read through.",
+      "url": "https://www.gutenberg.org/ebooks/73959"
+    },
+    {
+      "id": "src_pascal_catenc1913",
+      "kind": "biography",
+      "title": "Joseph Lataste, 'Blaise Pascal', Catholic Encyclopedia vol. 11 (New York, 1913), Wikisource transcription -- CRITICAL Catholic perspective (non-self): accepts Pascal's good faith and the substantial accuracy of his quotations but faults his method and his exclusive attack on the Jesuits. Read the biographical and Provincial Letters sections.",
+      "url": "https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)/Blaise_Pascal"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pascal_vacuum_letters_self, src_pascal_brunschvicg_intros, src_pascal_noel_second_letter, src_pascal_sep_clarke, src_pascal_tulloch1878, src_pascal_fermat_letters | 1646-1654 | self + scholar-editor + ADVERSARY + scholar + peer] In his autumn-1647 reply to Father Noël, Pascal states the rule he applies -- no decisive judgment on a proposition unless it is self-evident to the senses or reason, or deduced by necessary consequence from such principles -- and then dissects Noël's argument that the apparently empty space transmits light and delays falling bodies, pointing out that the first premise had never been observed by anyone who tested it. Noël's own reply praises him for answering 'point by point' and 'methodically', and says he loves 'the search without preoccupation' Pascal described (Noël, second letter). In his 15 Nov 1647 letter to Périer he separates the claim that nature cannot tolerate a vacuum from the claim that the effects blamed on horror of the vacuum are due to the weight of the air, notes that his two-tube experiment could still be 'explained rather probably' by horror of the vacuum, and designs a single decisive test, the same tube and mercury read at the bottom and top of a mountain, specifying the height (500-600 toises) and a nearby observer of sufficient exactness. In July-October 1654 he works the problem of points by a recursive method, answers Roberval's objection, and checks it against Fermat's combinatorial method (Fermat to Pascal 25 Sep: 'you have strengthened it yourself in thinking to destroy it'). Corroborated by Brunschvicg (the experiment was Pascal's to carry through), Clarke (SEP) and Tulloch. Counter-evidence kept in view: Clarke argues Pascal wrongly treated the puy-de-Dôme result as proof of an empty space and overestimated how simply experiments decide among hypotheses; that is a limit of his philosophy of science, not of the rigour of the episodes above. Multiple independent dated instances including an adversary's acknowledgement; kept at 80, below the 85 band, because the method passages are in his own letters."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pascal_vacuum_letters_self, src_pascal_brunschvicg_intros, src_pascal_tulloch1878, src_pascal_sep_clarke, src_pascal_mcrie_provincial | 1646-1661 | self + scholar-editor + scholar + partisan translator] (1) In his 15 Nov 1647 letter he proposes the mountain test while acknowledging that 'all those who have meditated on this matter' expect the opposite result; Brunschvicg documents that in his immediate circle he had no encouragement: Mersenne's September 1647 preface sketched a mountain experiment but doubted it would show any difference, and Roberval, via Le Tenneur on 16 Jan 1648, thought it 'entirely useless' -- 'alone and against the common opinion' Pascal conceived and pressed the plan. (2) He rejected the scholastic horror of a vacuum and, in the discussion at his lodgings during Descartes's visit in late September 1647, maintained against Descartes's 'subtle matter' in the tube that the space was empty (Jacqueline's letter of 25 Sep 1647 as quoted by Tulloch, where Roberval took up the reply on his behalf; Clarke), and did not reply when Descartes later wrote to Carcavi (June and 17 Aug 1649) that he had suggested the experiment (Tulloch citing Bossut). (3) At the end of 1661 he refused the ambiguous declaration that Arnauld and Nicole had drafted for the Port-Royal nuns to sign and stood against them in discussion (M'Crie; Tulloch). Three separate episodes from independent authors. Not scored higher because the circle's scepticism (Mersenne, Roberval) and Descartes's claims are reported by editors who also credit shared groundwork, and the Formulary episode is religious-institutional."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pascal_clermont, src_pascal_seguier_letter, src_pascal_tulloch1878, src_pascal_sep_clarke, src_pascal_brunschvicg_intros, src_pascal_noel_second_letter, src_pascal_mactutor | 1642-1651 | institution + self + scholars + ADVERSARY] Two sustained programmes of trial and test. Vacuum: after hearing of Torricelli's experiment in Rouen in 1646 he repeated it many times and then ran new experiments before 'four or five hundred people', including Jesuit fathers (his own account quoted by Tulloch); in autumn 1647 he performed the two-tube experiment (mercury in an inner tube falls when the outer space is evacuated and the air pressure removed); he then designed the mountain test that Périer carried out on 19 Sep 1648 with repeated readings in different positions and weather (Tulloch's quotation of Périer; Clarke; Clermont), repeated the tower measurements himself in Paris, and suggested the weather-variation study that Périer ran at Clermont from early 1649 to March 1651, with parallel readings by Chanut at Stockholm and Descartes (Tulloch). Even Noël, his adversary, described the vacuum-in-a-vacuum experiment in his 1648 Gravitas comparata as Pascal's newest and finest discovery (Brunschvicg). Calculating machine: Pascal's own letter and the 1649 royal privilege state that he built more than fifty models, all different, in wood, ivory, ebony and copper and with different movements, before settling on one; Clermont and MacTutor (via Adamson) also report about fifty prototypes. The two programmes are independent in subject and sources. Kept below 85 because the machine figures originate in Pascal's own petition and the vacuum experiments were shared with Périer and a circle."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pascal_seguier_letter, src_pascal_clermont, src_pascal_tulloch1878, src_pascal_perier_vie, src_pascal_brunschvicg_intros | 1642-1649 and 1647-1648 | self + institution + scholars + family] Episode 1: the calculating machine. By his own letter to Séguier he came close to abandoning it twice -- first because artisans could not realise his design, and again when a Rouen clockmaker's useless imitation made him dismiss all his workmen -- and resumed after Séguier encouraged him and ordered him to perfect it; he then suspended other pursuits, kept refining it, tested it over a transport of more than 250 leagues and used a simpler working model publicly for six months. Gilberte Périer says it took two years to perfect and was tiring chiefly because the workmen had to be made to understand it; Clermont and the 1649 privilege confirm the fifty-odd prototypes and the cost in 'much time and expense'. Episode 2: the mountain experiment. Having conceived it in Nov 1647 against the expectations of Mersenne and Roberval (Brunschvicg), he waited until Périer could carry it out on 19 Sep 1648, because the Rouen hills were too low and the experiment needed a trusted observer (Tulloch). Two independent episodes from separate sources, but the first is mainly his own account, so kept at strong_inference. After 1652 the machine's production stopped (MacTutor, Clermont), a limit recorded here rather than hidden."
+    },
+    "conflict_tolerance": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pascal_tulloch1878, src_pascal_brunschvicg_intros, src_pascal_mcrie_provincial, src_pascal_catenc1913, src_pascal_clermont, src_pascal_sep_clarke | 1646-1661 | scholars + partisan translator + CRITICAL Catholic + institution] (1) 1646: with two friends he denounced the Capuchin Jacques Forton at Rouen to the diocesan authorities and, in Tulloch's reading of Gilberte Périer and of the documents Cousin published, 'showed a determination to pursue the matter amounting to persecution' until his father mediated. (2) 1647-1651: he took on Father Noël (Brunschvicg: 'courtesy that does not exclude irony, a lively sensitivity to scientific honour'; he brought his father into the quarrel) and, when Jesuits at Montferrand alluded in 1651 to claimants of Torricelli's experiment, wrote to Ribeyre that the mountain series 'was my own invention'. (3) 1656-57: he took up the defence of Arnauld in the Provincial Letters against the Sorbonne party and then the Jesuits, was driven into hiding under an assumed name and kept writing after a Jesuit relative warned that he was suspected (M'Crie), and left on record that he never repented the Letters (Tulloch, Clermont); the letters were burned by the Parliament of Provence in 1657 and condemned in Rome. (4) End of 1661: he alone opposed Arnauld and Nicole's compromise wording on signing the Formulary (M'Crie; Tulloch). Independent and critical support: Lataste concedes his good faith but says he 'unjustly blamed the Society of Jesus, attacking it exclusively'; Tulloch finds 'the passion of controversy' in the 1658 cycloid contest. dual_edged because Lataste and Tulloch both record costs (the Forton affair, the disputed fairness of attacks on the Jesuits). Multiple independent documented episodes over 15 years; not scored 85+ because the Letters were a Port-Royal collective effort."
+    },
+    "persuasiveness": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pascal_mcrie_provincial, src_pascal_tulloch1878, src_pascal_clermont, src_pascal_catenc1913, src_pascal_sep_clarke, src_pascal_seguier_letter | 1645-1658 | partisan translator + scholars + institution + CRITICAL Catholic + self] When Arnauld's own long defence failed to move his friends at Port-Royal, Pascal wrote the first letter to a provincial overnight, in the form of a Parisian's report to a friend, and Arnauld ordered it printed (Tulloch; M'Crie 'in a few hours'; Lataste). He chose, by his own later account to his sister (quoted by M'Crie), a lively and entertaining style so that women and people in general, not only theologians, would read it; Clermont notes the Letters were short anonymous pamphlets in accessible French rather than Latin, and Clarke that they 'rely on satire and ridicule as much as on logic'. Reception documented by an opponent: Father Daniel says the first letter 'created a fracas' and that packets of copies reached even a Breton town; M'Crie reports Mazarin laughing over the seventh; Tulloch records that parish priests of Paris and Rouen set up committees to check the quotations. Earlier, his Avis to readers (1645) anticipates the objections of two kinds of critic and answers them in advance. Critical corroboration: Lataste calls the Letters 'the first prose masterpiece of the French language' while saying he arranges the quotations somewhat disingenuously and simplifies complicated questions, hence dual_edged. The score rests on the documented audience-design and circulation, not on the literary reputation."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pascal_mcrie_provincial, src_pascal_tulloch1878, src_pascal_catenc1913, src_pascal_vacuum_letters_self, src_pascal_clermont | 1647-1657 | partisan translator + scholar + CRITICAL Catholic + self + institution] Provincial Letters: Pascal's own statement to his sister (quoted by M'Crie) is that he read Escobar twice, had friends read the other authors, and 'never used a single passage without having read it' in the book, with the case and the surrounding context. That claim was tested by parties who had no interest in confirming it: the parish priests of Paris and Rouen compared the quotations and found them correct (Tulloch; M'Crie), and Lataste, writing as a Catholic critic, says he never 'seriously alter[ed] his citations from the casuists, as he has sometimes been wrongfully accused of doing' (the Jesuit Father Daniel's 1697 reply alleged falsified texts, but it is known here only through M'Crie's hostile account, so Lataste's judgment is preferred). Other instances: in the 1647 letter to Périer he specifies the mountain test in measurable terms -- same tube, same mercury, several readings in one day, a mountain of at least 500-600 toises, an observer capable of 'all the exactness necessary' -- and the Pascaline's design had to handle the 20-sol/12-denier currency (Clermont; MacTutor). Not scored higher because Arnauld and Nicole supplied many of the quotations (M'Crie) and Pascal's own statement is the main evidence for his reading of the context."
+    },
+    "perfectionism": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pascal_mcrie_provincial, src_pascal_seguier_letter, src_pascal_mactutor, src_pascal_perier_vie | 1645-1658 | partisan translator (reporting Nicole) + self + scholar summary + family] Episode 1: Nicole, who worked with him on the Letters, says Pascal 'was often twenty whole days on a single letter' and 'recommenced some of them seven or eight times'; M'Crie adds, citing a note that was not checked, that the eighteenth was written thirteen times. Tulloch (not Nicole) also says some letters were written six or seven times. Episode 2: his own letter says the first machine 'did not give me entire satisfaction', so he corrected it into a second, a third and then more than fifty models before releasing the one he showed. Against this: the sixteenth letter was published long 'because I had no leisure to make it shorter' (Letter 16), and Gilberte Périer says the cycloid text was written in eighteen days 'with strange haste' under the printers' deadline, so rigorous revision was not constant. MacTutor's quotation of Adamson calls him 'a perfectionist' -- an editorial characterisation, used only as background. Two independent episodes, one of them partly reported at second hand, hence strong_inference and dual_edged."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pascal_fermat_letters, src_pascal_tulloch1878, src_pascal_mcrie_provincial, src_pascal_clermont, src_pascal_brunschvicg_intros | 1639-1662 | peer + scholars + partisan translator + institution] In the summer of 1654 Pascal and Fermat, who had never met, worked the problem of points in letters through Carcavi: Pascal wrote that he wished to 'open my heart' and 'disguise nothing', described his shorter method, relayed Roberval's objection to Fermat's method and his own reply, and asked Fermat to 'set me straight if I am in error'; Fermat in turn told Carcavi he admired Pascal's genius and proposed that Pascal and Carcavi edit his treatises. In the Puy-de-Dôme experiment he entrusted the execution to his brother-in-law Périer, who assembled named witnesses (a Minim friar, a canon, two counsellors and a physician) and reported back (Tulloch quoting Périer; Clermont). The Provincial Letters were drafted at Port-Royal, passed to Arnauld and Nicole for revision, drew on their quotations and were translated into Latin by Nicole (M'Crie; Clermont), and from 1658 he wrote parts of the collective Écrits pour les curés de Paris (Clermont; Tulloch). His 1658 Histoire de la roulette credits Roberval's method (Clermont). Counter-evidence: he stood alone against Port-Royal over the Formulary wording and left Descartes's claims unanswered, so this is not agreeableness but working partnership. Several independent documented instances."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pascal_fermat_letters, src_pascal_tulloch1878, src_pascal_vacuum_letters_self, src_pascal_sep_clarke | 1647-1654 | peer + scholars + self] Two instances in different fields. (1) Aug-Oct 1654: on 24 Aug Pascal told Fermat he feared they differed on the problem of points for three players, relayed Roberval's objection and argued that the combinatorial method was unjust once there were more than two players, asking Fermat to 'set me straight' (French: 'me redresser') if he was mistaken; Fermat's 25 Sep reply showed that in the disputed case (three players, the first lacking one point and the others two) the count of combinations gives 17, 5 and 5 and that Pascal's answer to Roberval had also answered the objection to Fermat's method; on 27 Oct Pascal wrote that Fermat's last letter 'satisfied me perfectly' and that the method, 'entirely yours', reached the same end (read in the French of Brunschvicg and Boutroux; the York translation's 'I was wrong' in the 29 Jul letter is not in the French and is not used). (2) Physics: in 1647 he still used the horror-of-vacuum maxim in his abridged treatise 'for lack of convincing experiments' and wrote that he would depart from received maxims only for 'indubitable and invincible proofs', but that once such proof existed one should show 'more veneration for evident truths than obstinacy for received opinions' (letter to Périer); Tulloch reports that he accepted Torricelli's explanation without hesitation as soon as it was communicated and designed the test of it, and his 1647 notice to the reader said he was not the inventor of the original experiment. Counter-evidence: Clarke says he held that the empty space was a true vacuum against Descartes's and others' reading of the same results and did not see that the experiment could not settle it. Two instances, one partly self-reported, with a real contrary example, hence strong_inference at a moderate score."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pascal_mactutor, src_pascal_clermont, src_pascal_sep_clarke, src_pascal_tulloch1878 | 1639-1662 | scholars + institution] He produced separate, dated bodies of work in unrelated fields rather than a single speciality: projective geometry (the 1639 one-page hexagon result and the 1640 Essay on Conics, MacTutor), a calculating machine built with clockmakers from 1642 (Clermont, MacTutor), hydrostatics and atmospheric pressure (experiments 1646-48, the treatises on the equilibrium of liquids and the weight of the air, MacTutor, Clermont, Tulloch), combinatorics and probability (the 1654 treatise on the arithmetical triangle and the Fermat correspondence), cycloid geometry (1658-59), polemical prose (the Provincial Letters, 1656-57) and commercial ventures in drainage and urban transport (Clermont). Clarke stresses that his domestic education never included the theology or philosophy of the schools, yet he intervened in theological controversy and wrote the Pensées notes. MacTutor's quotation about being 'embarrassed by the very abundance of his talents' is background only. Many documented instances in distinct fields from independent sources; the score reflects documented sustained output in several fields, not fame."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pascal_clermont, src_pascal_tulloch1878, src_pascal_seguier_letter | 1645-1662 | institution + scholar + self] Several ventures that he started or joined himself rather than waiting for a commission. (1) 1645-49: having built the machine to help his father's tax calculations, he wrote its dedication and public 'Avis', demonstrated it in Paris society (Clermont: 'il prend la peine d'aller la présenter dans le monde') and secured the 1649 royal privilege against counterfeits. (2) March 1654: he joined the Poitou drainage company founded by François Brisson and backed by the Duc de Roannez, to manage his fortune and to apply his hydraulics (Clermont). (3) 1662: with Roannez, the marquis de Sourches and the marquis de Crenan he founded the carrosses à cinq sols, fixed routes and fares in Paris, opened the first route on 18 March and four more by 5 July, introduced a change between coaches and explored extending the scheme to Lyon and, through Huygens, Amsterdam (Clermont; Tulloch notes the royal patent of January 1662 and his 'active interest'). Tulloch attributes the idea of the omnibus to Pascal while naming Roannez as patent-holder, so credit is shared. Three distinct episodes, one of them mainly self-reported, from an institutional source with a local interest, hence strong_inference."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "블레즈 파스칼"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-04) for Q1290 returned en label 'Blaise Pascal', en description 'French mathematician, physicist, inventor, writer, and Christian philosopher (1623-1662)', P569 1623-06-19, P570 1662-08-19, P27 Kingdom of France (Q70972), P31 human, P19 Clermont-Ferrand (Q42168 among values), P20 Paris (Q90), ko label '블레즈 파스칼' with a kowiki sitelink (title '블레즈 파스칼'), P18 two images. Not the Canadian singer Q130320477 or the university. SLUG CHECK: no data-pipeline/candidates/blaise-pascal.json existed at the start of this run (checked 2026-10-04) and grep of src/data/people/*.ts and the other candidates for 'pascal' found no hit (no production collision). CLASSIFICATION: occupations mathematician, physicist, inventor, philosopher, writer; fields mathematics, physics, philosophy (per the lead's brief; all ids present in src/core/i18n/en.ts); impactDomains scientific, technological, literary; tags cross_disciplinary and detail_oriented follow the two rows of that name, prodigy records the documented early mathematical work (1639 hexagon at 16, 1640 Essay); archetypes scientific_explorer and cross_disciplinary_generalist. Nationality FR, regionCode western_europe, era early_modern, following rene-descartes.json (FR, western_europe, early_modern) and isaac-newton.json; no historicalPolityKey exists for the Kingdom of France in the closed vocabulary (Descartes has none either). SOURCES READ (13 records: 2 orientation, 11 substantive; each source title states how much was read): MacTutor biography (read in full); Stanford Encyclopedia of Philosophy by Desmond Clarke (Sections 1 and 4 in full, 2-3 skimmed); Tulloch's 1878 biography (Chs I-II in full, III-V in parts); the Clermont library's Pascal site (nine pages); the Pascal-Fermat letters (translated, 17 pp.); Gilberte Périer's Vie (1680 copy, the education, machine, vacuum, Letters and cycloid passages); Pascal's 1645 letter to Séguier, Avis and the 1649 royal privilege; Brunschvicg's editorial introductions (Noël correspondence; letter to Périer); Pascal's 15 Nov 1647 letter to Périer and opening of his reply to Noël; Noël's second letter (opening); M'Crie's 1847 introduction to the Provincial Letters (composition, reception, Formulary, Jesuit replies) and the end of Letter 16; Lataste's 1913 Catholic Encyclopedia article. English Wikipedia (opening summary) and Wikidata are orientation only and support no row. PERSPECTIVES: SELF: Pascal's letters to Séguier, Périer, Noël and Fermat and the Letter 16 sentence (counted once). FAMILY/INSIDER: Gilberte Périer (admiring, partisan), and, via Tulloch, Jacqueline Pascal's letter of 25 Sep 1647. PEER: Fermat (letters of 1654 and his letter to Carcavi). ADVERSARIES: Father Noël (second letter; and, via Brunschvicg, his later concessions) and Father Daniel (1697, only as reported by M'Crie, so weakly sourced); Descartes (only via Tulloch's quotations of his 1649 letters). SCHOLARS: Brunschvicg, Clarke, Tulloch, MacTutor (O'Connor and Robertson, drawing on Adamson). SYMPATHETIC PARTISAN: M'Crie. CRITICAL: Lataste (Catholic critic of his method and of his treatment of the Jesuits); Tulloch also critical of the 1646 Forton affair. INSTITUTION: Clermont library site (local, celebratory). NON-SELF BEHAVIOURAL SOURCES: Tulloch, Brunschvicg, Clarke, M'Crie, Lataste, Clermont and Fermat. No row rests on Pascal's own words alone, but persistence, belief_updating and proactive_agency partly do and are held at strong_inference and <=0.60. EPISODE LEDGER: calculating machine (Séguier letter, privilege, Clermont, Gilberte) -> persistence and experimentation, with the 'not entirely satisfied' sentence also cited under perfectionism; vacuum experiments 1646-48 and the mountain design -> experimentation, analytical_rigor; mountain plan against Mersenne's and Roberval's doubts -> independent_thinking and persistence (second episode); Descartes's visit and 1649 claims -> independent_thinking; Noël reply and the 1651 Ribeyre letter -> conflict_tolerance and analytical_rigor; Forton affair 1646 -> conflict_tolerance only; Provincial Letters composition and rewriting -> persuasiveness, perfectionism, detail_orientation (citation checking), conflict_tolerance (hiding, never repenting) and collaboration (team drafting); Formulary stand 1661 -> conflict_tolerance and independent_thinking; Pascal-Fermat letters 1654 -> collaboration, belief_updating, analytical_rigor; drainage company 1654, carrosses 1662, presentation of the machine -> proactive_agency; the whole set of dated bodies of work -> cross_domain_range. ROWS CONSIDERED AND LEFT UNSCORED: curiosity (the childhood anecdotes of the sound experiment and charcoal geometry come only from Gilberte and Tulloch's retelling of her); execution_speed (first letter overnight and the cycloid in eighteen days against twenty days per letter and years on the machine -- mixed); competitiveness and achievement_drive (his sensitivity over priority with Noël and Descartes and the 1658 cycloid contest are real but the evidence is mixed and partly his own, while Gilberte says he had no passion for reputation); impact_motivation (the charity and the use of his sister's returned dowry are religiously motivated and entangled with the asceticism that is excluded); risk_tolerance (hiding under an assumed name and careful secrecy cut both ways); autonomy_need, discipline and planning_orientation (confounded by illness and by family and patron arrangements); mastery_orientation and deep_focus (no episode isolates them); social_assertiveness and leadership_drive (Port-Royal and the carrosses were collective efforts with named co-leaders). EXCLUDED ON PURPOSE: his lifelong ill-health, headaches, the 1647 paralysis, his dependence on his sisters' nursing, diet, medical treatment and the cause of death; the Neuilly bridge accident; the 1654 'Night of Fire' and the Memorial; the iron girdle, mortifications and every ascetic practice; his marriage-and-affection remarks; the Holy Thorn miracle and his niece's cure; the wager and the Pensées as religious content; any psychological reading by Cole, Lélut, Condorcet, Voltaire or Nietzsche (SEP's mention of Cole's 'manic depression' and Tulloch's Lélut and Voltaire passages were read and rejected); Descartes's remark that he had 'too much vacuum in his head' (an insult, not behaviour); and honours, the SI unit, fame and sales as evidence. CONFLICTS REPORTED, NOT ADJUDICATED: (a) MacTutor dates Descartes's letter to Carcavi 'June 1647' while Tulloch dates it June 1649 with a second on 17 Aug 1649 -- 1649 is used; (b) M'Crie gives 13 Jan 1656 for the first Provincial Letter, Tulloch, Clermont and Lataste give 23 Jan 1656 -- 23 Jan is used; (c) Tulloch dates Pascal's letter proposing the mountain experiment 15 Dec 1647, Clermont and Brunschvicg give 15 Nov 1647 -- 15 Nov is used; (d) Clermont says about fifty prototypes led to twenty finished machines, MacTutor (Adamson) says fifty prototypes by 1652; (e) priority of the mountain experiment: Descartes claimed (1649) to have suggested it, Mersenne's September 1647 preface had a related suggestion, Pascal claimed it as his own invention (1651); Brunschvicg and Tulloch both credit Pascal with the decisive initiative while acknowledging the shared background; (f) the number of rewrites of the eighteenth Letter (thirteen) is from M'Crie only; Nicole's seven or eight comes via M'Crie too; (g) the York English translation renders Pascal's 29 Jul 1654 sentence as 'I can no longer doubt that I was wrong' but the French (Brunschvicg-Boutroux, read on Wikisource) is 'je ne doute plus maintenant que je ne sois dans la verite' (that he is in the truth), so no 'I was wrong' claim is used; (h) Descartes's visit is dated 23 Sep by MacTutor and described by Jacqueline's letter of 25 Sep 1647 as a Sunday-evening arrangement with visits on the following days, so only 'late September 1647' is used. KNOWN LIMITS: the Provincial Letters themselves, the Pensées, Pascal's reply to Noël beyond its opening, the Treatise on the Equilibrium of Liquids, the Traite du triangle arithmetique and the full Gilberte Périer Vie were not read in full; Mesnard, Mortimer, Adamson, Hammond and Edwards were not accessible as full texts; Marguerite Périer's memoir and Jacqueline Pascal's letters were read only as quoted by Tulloch; Descartes's own 1649 letters and the Périer report of 22 Sep 1648 were read only as quoted by Tulloch and Clermont; Huygens's reply about Amsterdam is known only from Clermont; the MacTutor/Adamson prototype figures and the Brunschvicg editorial claims are secondary. PORTRAIT: Wikidata P18 lists two images. Rejected: 'Blaise Pascal Versailles.JPG' (Commons: anonymous copy after a painting by François II Quesnel, c.1690, oil on canvas, Versailles MV 5527; photo is the uploader's own, but the French Joconde record carries '(c) Réunion des musées nationaux - utilisation soumise à autorisation' for the Versailles image, an institutional rights statement that conflicts with the Commons PD tag for a photograph, so it was not relied on). Chosen: 'File:FR-631136102 GRA 6025 Portrait de Blaise Pascal par Edelinck (cropped).jpg' (the other P18 file), a crop of the Clermont library's scan (GRA 6025) of the copper engraving by Gérard Edelinck after François II Quesnel, signed 'Edelinck sculp. C.P.R.', dated c.1689-1692 and 'probably 1691' by the library's and Commons' sources (Dorival 1962; Lelong 1775). Verified on the exact Commons wikitext: Artwork template, source the Clermont site page, licence {{cc-by-sa-4.0|Clermont Auvergne Métropole, Bibliothèque du patrimoine, GRA 6025}}; Commons API size 2430x3151 for the crop (original 3011x4278). Basis: the engraving is a 17th-century work by an artist (Edelinck, d. 1707) long out of copyright, the scan is a faithful 2D copy of a flat print (no lighting or 3D reconstruction), and the holding library itself publishes it under an open licence requiring attribution, so there is no conflicting restriction; attribution to Clermont Auvergne Métropole is recorded. The engraving is posthumous (Pascal died 1662; the Quesnel painting is not a from-life image, and the library says the Domat red-chalk drawing is likewise after Quesnel, not from life), so kind is historical_depiction, not likeness. Downloaded with curl, opened with Pillow, downscaled only (LANCZOS) to 1234x1600, JPEG q85, no upscaling; saved as public/portraits/blaise-pascal-edelinck-1691.jpg; viewed: three-quarter bust in an oval frame, long hair, white collar, lettered 'Blaise Pascal' beneath the Pascal arms. KOREAN NAME: '블레즈 파스칼' is the Wikidata ko label and the title of the Korean Wikipedia article. No eligibility, coverage or match output was used in scoring."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/blaise-pascal-edelinck-1691.jpg",
+    "width": 1234,
+    "height": 1600,
+    "source": "Gérard Edelinck, copper engraving after François II Quesnel, c.1689-1692 (probably 1691), Bibliothèque du Patrimoine de Clermont Auvergne Métropole (GRA 6025), via Wikimedia Commons (cropped scan)",
+    "license": "Public domain (17th-century engraving); library reproduction released under CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Gérard Edelinck, portrait of Blaise Pascal after François II Quesnel, engraving, c.1691; Clermont Auvergne Métropole, Bibliothèque du patrimoine (GRA 6025); reproduction CC BY-SA 4.0; cropped and downscaled",
+    "attributionUrl": "https://blaisepascal.bibliotheques-clermontmetropole.eu/blaise-pascal-l-homme/en-portraits/collections-clermontoises/blaise-pascal-gra-6025",
+    "creator": "Gérard Edelinck (after François II Quesnel)",
+    "date": "c. 1689-1692 (probably 1691)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:FR-631136102_GRA_6025_Portrait_de_Blaise_Pascal_par_Edelinck_(cropped).jpg"
+  }
+}

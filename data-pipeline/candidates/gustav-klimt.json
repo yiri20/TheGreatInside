@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gustav-klimt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Gustav Klimt",
+    "wikidataId": "Q34661",
+    "birthYear": 1862,
+    "deathYear": 1918,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AT"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_klimt_wikidata",
+      "kind": "wikidata",
+      "title": "Gustav Klimt (Q34661) -- verified live via wbgetentities (2026-10-04): en label 'Gustav Klimt', description 'Austrian symbolist painter (1862–1918)', P569 14 Jul 1862, P570 6 Feb 1918, instance of human, ko label '구스타프 클림트' with a Korean Wikipedia sitelink, P18 'Klimt.jpg', 'Gustav Klimt 1912.jpg', 'Gustav Klimt in 1887.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q34661"
+    },
+    {
+      "id": "src_klimt_wikipedia",
+      "kind": "wikipedia",
+      "title": "Gustav Klimt, English Wikipedia article (plain-text extract read 2026-10-04) -- orientation only; used to cross-check dates and the outline of the career, never to support a scored row.",
+      "url": "https://en.wikipedia.org/wiki/Gustav_Klimt"
+    },
+    {
+      "id": "src_klimt_oebl",
+      "kind": "institution",
+      "title": "'Klimt, Gustav (1862-1918), Maler', Osterreichisches Biographisches Lexikon 1815-1950, vol. 3 (Austrian Academy of Sciences, 1965, pp. 409-410), online edition -- national biographical reference entry (non-self, institutional, written decades after his death). Read in full: training and decorative commissions with his brother Ernst and Franz Matsch, election as first president of the Vienna Secession in 1897, the three University of Vienna faculty paintings (commissioned 1896 per this entry, worked on until about 1907), the 1900 Paris medal, the rejected professorship, the Secession split and the Stoclet frieze, and the assessment of his place in Austrian painting. Its dating of the repurchase of the faculty paintings (1904) differs from the Belvedere's provenance records (25 May 1905); the Belvedere date is used here.",
+      "url": "https://www.biographien.ac.at/oebl/oebl_K/Klimt_Gustav_1862_1918.xml"
+    },
+    {
+      "id": "src_klimt_belvedere2012",
+      "kind": "institution",
+      "title": "Agnes Husslein-Arco and Alfred Weidinger (eds.), Gustav Klimt: 150 Jahre (Belvedere, Vienna, 2012), PDF of the museum's own catalogue (belvedere.at) -- museum scholarship (non-self). Read locally: the director's introduction; the reception essay by Christina Bachl-Hofmann and Dagmar Diernberger (quoting Berta Zuckerkandl, Hermann Bahr, Ludwig Hevesi, Karl Kraus, Arthur Roessler, the 1900 professors' petition and the hostile daily press, plus Klimt's one public remark of 1901); the catalogue entries on the Philosophy, Medicine and Jurisprudence paintings (with provenance, including Klimt's repurchase of 25 May 1905), the Beethoven Frieze, the Kiss (Lovers), Adele Bloch-Bauer I and the Fritza Riedler portrait, the red sketchbook and death-theme entries; the essays on Klimt and Egon Schiele and on the Salome; and the Beethoven Frieze chronology 1900-1999. Klimt's private letters to Emilie Floge printed in the volume were not used.",
+      "url": "https://www.belvedere.at/sites/default/files/jart-files/Klimt-Buch-fertig-ansichts.pdf"
+    },
+    {
+      "id": "src_klimt_bahr1903",
+      "kind": "press",
+      "title": "Hermann Bahr (ed.), Gegen Klimt (Vienna: J. Eisenstein, 1903), Internet Archive full text (Getty Research Institute copy) -- a deliberately partisan compilation: Bahr's friendly preface followed by the hostile Viennese press clippings on the Philosophy (March 1900), Medicine (March 1901), 'Goldfische' (1902) and the Beethoven Frieze (1902). ADVERSARIAL contemporary record of the reception, framed by a supporter. Read: Bahr's preface in full, the 1900 clippings on the Philosophy including the Neue Freie Presse reports on the professors' petition and the counter-declaration of other professors, and the March 1901 clippings on the Medicine.",
+      "url": "https://archive.org/details/gri_33125006423699"
+    },
+    {
+      "id": "src_klimt_hevesi1906",
+      "kind": "press",
+      "title": "Ludwig Hevesi, Acht Jahre Sezession (Marz 1897 - Juni 1905): Kritik, Polemik, Chronik (Vienna: Konegen, 1906), Internet Archive full text (achtjahresezessi00heve) -- the collected newspaper criticism of the Secession's leading supporter-critic (friendly but contemporary and dated). Read locally: the column on Klimt's Pallas Athene (Nov 1898), 'Aus der Sezession. Klimts Schubert' (March 1899, including the report, on the word of committee members, of demands made on the Medicine design), 'Der Protest gegen Klimts Philosophie' (18 May 1900, including Hevesi's own statement that he, not Klimt, wrote the explanatory catalogue text for the picture), and the November 1903 columns on the Klimt exhibition (Jurisprudence still unfinished at the opening; his visit to Klimt's attic studio; the study drawings; 'Aus dem Reiche des Todes').",
+      "url": "https://archive.org/details/achtjahresezessi00heve"
+    },
+    {
+      "id": "src_klimt_secession1902",
+      "kind": "archive",
+      "title": "XIV. Ausstellung der Vereinigung bildender Kunstler Osterreichs Secession Wien: Klinger, Beethoven, April-Juni 1902, exhibition catalogue (Vienna: Holzhausen, 1902), Internet Archive full text (Frick Art Reference Library copy) -- the Secession's own primary document (institutional, self-description of the group, not Klimt's words). Read: the preface on the exhibition concept (space designed under Josef Hoffmann around Max Klinger's Beethoven statue) and the room-by-room description of Klimt's wall frieze in the left side hall, with the list of the other artists' contributions.",
+      "url": "https://archive.org/details/frick-31072002491845"
+    },
+    {
+      "id": "src_klimt_kunstschau1908",
+      "kind": "archive",
+      "title": "Provisorischer Katalog der Kunstschau Wien 1908 (Vienna, 1908), Internet Archive full text -- primary exhibition document listing the exhibition committee with 'Gustav Klimt, President' and the room devoted to Klimt (room 22). Read: the committee page, the ticketing and sales notes and the room list.",
+      "url": "https://archive.org/details/provisorischerka00kuns"
+    },
+    {
+      "id": "src_klimt_unesco_stoclet",
+      "kind": "institution",
+      "title": "UNESCO World Heritage Centre, 'Stoclet House' (list entry 1298; description and Outstanding Universal Value statement) -- international heritage-body assessment (non-self). Read in full for the 1905-1911 construction under Josef Hoffmann and the statement that Koloman Moser, Gustav Klimt and other Wiener Werkstatte artists worked under Hoffmann to realise a total work of art.",
+      "url": "https://whc.unesco.org/en/list/1298/"
+    },
+    {
+      "id": "src_klimt_belvedere_faculty_story",
+      "kind": "institution",
+      "title": "Osterreichische Galerie Belvedere, 'The Stories Behind Klimt's Faculty Paintings', Google Arts & Culture online story -- museum text (non-self). Fetched 2026-10-04 through a summarising fetch tool (page content is script-rendered), so used only as a secondary pointer for details that the Belvedere catalogue also supports (the ministry's plan to hang the paintings in the Modern Gallery and Klimt's refusal; the repayment in 1905; Zuckerkandl's interview of 12 April 1905).",
+      "url": "https://artsandculture.google.com/story/nwWxIZNv_3ZAIA"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_klimt_oebl, src_klimt_belvedere2012, src_klimt_hevesi1906, src_klimt_bahr1903 | 1897-1905 | national biographical entry + museum scholarship + friendly contemporary critic + hostile press as adversarial record; Klimt's own 1901 remark as quoted by the Belvedere] In 1897 Klimt became the first president of the newly founded Vienna Secession (OeBL; Belvedere). The OeBL and the Belvedere both describe the move away from the historicist decorative manner of his early commissions towards symbolist pictures in the University of Vienna commission, which the commission's own members, 87 professors (petition of Mar 1900), more than 20 deputies (interpellation, Mar 1901) and most of the daily press attacked (Belvedere; the clippings in Gegen Klimt). The Belvedere records that on 3 Jun 1898 he agreed only to adaptations 'within the limits of artistic freedom', and in 1901 he told the Wiener Morgenzeitung that it mattered to him not how many liked a picture but who liked it. He did not turn to the approved manner afterwards: Jurisprudence (1903-07) pushed further into flat, gold-ornamented symbolism (OeBL). Hevesi (a supporter) wrote in 1899 that committee members threatened resignation unless a female main figure became male and that Klimt would not give way ('that is not his way'); this rests on Hevesi's hearsay and characterisation and is not used alone. Dual-edged because the stance cost him the state commission, a professorship that was refused four times (Belvedere) and, per the OeBL, official favour. Kept below 80: the Secession was a collective act and the best documented dissent is about his own pictures, not general intellectual independence."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_klimt_belvedere2012, src_klimt_oebl, src_klimt_hevesi1906 | 1898-1907 | museum scholarship + national biographical entry + friendly critic's studio visit] The three faculty paintings were commissioned by the ministry in 1894 (Belvedere; the OeBL says 1896); Klimt's compositions were presented to the university commission on 26 May 1898, the Philosophy was shown in 1900, the Medicine in 1901 and the Jurisprudence in Nov 1903, each shown into public attack, and the OeBL states he continued to work on them until about 1907, i.e. two years after he repurchased them (Belvedere provenance, 25 May 1905). Hevesi saw the Jurisprudence in Klimt's attic studio in the summer of 1903 and, reporting on the Nov 1903 opening, noted it was still unfinished although Klimt had painted up to the moment of the opening. Separate multi-year efforts: Adele Bloch-Bauer I from first studies in 1903/04 to 1907, and the paintings Freundinnen and Wasserschlangen, begun 1904 and worked on until 1907 (Belvedere). Several dated instances from independent scholarly and critical sources; kept at 72 because the faculty cycle is one linked commission and Hevesi is a partisan witness."
+    },
+    "perfectionism": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_klimt_belvedere2012, src_klimt_hevesi1906, src_klimt_oebl | 1898-1916 | museum scholarship + friendly critic + national biographical entry] Several separate episodes of repeated revision. For Adele Bloch-Bauer I the Belvedere counts more than 100 drawings in at least ten design series, 'never before had Klimt tried so many variants'. For the Philosophy the Belvedere lists 26 composition sketches plus a large transfer drawing, with the final painting changed again from them, and for the faculty paintings the OeBL notes he worked on them until about 1907 although they had been shown years earlier. The monumental Death and Life (1910/11) was reworked in 1916 (Belvedere). Hevesi (1903) describes study sheets for every figure on the studio floor and repeated drawings of the same hands and of the accused man in the Jurisprudence. Not scored higher: no statement by Klimt about standards, reworking can also reflect deadlines and patrons, and the Kiss's completion after the 1908 show is used under execution speed only."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_klimt_oebl, src_klimt_belvedere2012, src_klimt_hevesi1906 | 1890s-1911 | national biographical entry + museum scholarship + friendly critic; a hostile satirist quoted by the Belvedere] The OeBL traces successive changes of manner: engagement with the Pre-Raphaelites, Whistler, atmospheric Impressionism and Jugendstil in the 1890s, symbolism from 1898-1900, a flat, ornamental manner with gold leaf from the Jurisprudence onward (1903-07). Karl Kraus mocked the shift in 1899 ('now he has become a pointillist', quoted by the Belvedere); Hevesi wrote in 1903 that Klimt 'stays with no recipe' and finds new colour freedoms for each portrait. The Belvedere documents specific trials of materials and models: the Beethoven Frieze applied mother-of-pearl and brass buttons, mirror fragments, cut glass and gilt stucco to plaster; the Salome (1909) is, in the Belvedere's view, hardly conceivable without the mosaic pictures of Leopold Forstner's workshop that Klimt saw at the 1908 Kunstschau, and the Stoclet frieze was carried out in marble, metal, enamel and stones (OeBL). After the Paris and Spain trip of autumn 1909 he gave up the 'golden period' for stronger colour contrasts, in his own reported words 'no more little squares, naturalism is trumps' (Belvedere), at the height of his reputation. Several dated instances from independent sources."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_klimt_oebl, src_klimt_belvedere2012, src_klimt_secession1902, src_klimt_hevesi1906, src_klimt_unesco_stoclet, src_klimt_kunstschau1908 | 1881-1911 | institutional entries + museum scholarship + primary exhibition documents + friendly critic] From 1881 he worked for about twelve years with his brother Ernst and Franz Matsch in the 'Kunstler-Compagnie' on joint decorative commissions (the Burgtheater staircases 1886-88, the Kunsthistorisches Museum spandrels 1890; OeBL, Belvedere). In 1902 his Beethoven Frieze was one component of an exhibition whose space was designed under Josef Hoffmann around Max Klinger's statue, with fellow Secession artists contributing wall panels and the friezes of the opposite side hall (Secession catalogue; Belvedere chronology). The 1903 Klimt exhibition was arranged mostly by Koloman Moser with a vestibule by Hoffmann (Hevesi), and the Belvedere says the white exhibition room was developed with Moser. For the Stoclet frieze (1905-1911) Klimt worked in 'permanent exchange' with Forstner's mosaic workshop and under Hoffmann's direction (Belvedere; UNESCO). He chaired the 1908 Kunstschau committee of fifteen members (programme). Many dated instances across independent sources; Klimt's own words about collaboration are absent."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_klimt_oebl, src_klimt_belvedere2012, src_klimt_kunstschau1908 | 1897-1909 | national biographical entry + museum scholarship + primary exhibition catalogue] Klimt was elected first president of the Vienna Secession at its founding in 1897 (OeBL; Belvedere); the Belvedere's director writes that the Moderne Galerie (the state gallery that became the Belvedere's collection) goes back to an initiative of Carl Moll and Gustav Klimt, and that a circle of Secessionists around Klimt gave the state works, among them a van Gogh landscape of 1890. After the 1905 split he was president of the exhibition committee of the 1908 Kunstschau, as the primary catalogue lists, and the Belvedere says he was so occupied with organising that exhibition that his Kiss was not finished at the opening; the same group staged the 1909 International Kunstschau (Belvedere, Schiele essay). Several independent, dated instances of starting institutions and exhibitions. Held at 72: leadership of the Secession and Kunstschau was shared with Moll, Hoffmann and Moser, and the Belvedere's statement on the Moderne Galerie is an institutional summary."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_klimt_belvedere2012, src_klimt_belvedere_faculty_story, src_klimt_bahr1903, src_klimt_oebl | 1902-1905 and 1926 recollection | museum scholarship + museum story + friendly contemporary + national biographical entry] When the university rejected the paintings, the ministry planned to take them into the Moderne Galerie; per the Belvedere's story Klimt refused, offered to cancel the commission and repay the fees, and told Berta Zuckerkandl (Wiener Allgemeine Zeitung, 12 Apr 1905) that he declined any state help. The Belvedere's provenance records show he repurchased all three on 25 May 1905 and the catalogue says he returned the advances. Arthur Roessler (1926, quoted by the Belvedere) wrote that Klimt had grown tired of being used as a bone of contention or a showpiece; Bahr (preface of 1903) describes him as living withdrawn, asking nobody; the OeBL calls his position 'lonely'; the Belvedere cites Nebehay that he lived relatively withdrawn and avoided the public. Two distinct kinds of evidence (1905 conduct; withdrawn working life), but the 1905 detail leans on a summarised museum story, and friends' portraits of his seclusion are partly sympathetic. Dual-edged: official commissions ended. Private life is not used."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_klimt_bahr1903, src_klimt_belvedere2012, src_klimt_hevesi1906 | 1900-1916 | friendly contemporary + museum scholarship + friendly critic's visit] Bahr's preface to the 1903 volume, written to refute a rumour about Klimt, describes Klimt as getting up at six, walking two hours, swinging clubs between spells of work and working at the studio daily until about six -- a friend's routine report, not independently audited. The Belvedere records that from 1900 to 1916 he spent summers at the Attersee without a break, where nearly 50 landscapes and the designs for the Stoclet frieze were made. Hevesi found him on a 35-degree afternoon in the summer of 1903 working at a large canvas, climbing the ladder, with study sheets around him. Two or three distinct accounts of regular working habits but all sympathetic or indirect, so a modest score at moderate confidence."
+    },
+    "execution_speed": {
+      "score": 36,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_klimt_belvedere2012, src_klimt_oebl, src_klimt_hevesi1906 | 1894-1909 | museum scholarship + national biographical entry + friendly critic] Several documented cases of long completion times and unfinished works at deadline: the three faculty paintings commissioned in 1894 were first presented as compositions only on 26 May 1898 and finished in 1907 (Belvedere; OeBL); Hevesi saw the Jurisprudence still unfinished at the opening of the Nov 1903 exhibition although Klimt painted until the opening; Adele Bloch-Bauer I took from studies in 1903/04 to 1907; and the Kiss (Lovers) bought by the ministry at the 1908 Kunstschau was unfinished then. Klimt wrote on 16 Jul 1908 that he would finish it immediately and deliver it himself, but completion and the second instalment are documented only from June 1909 (Belvedere). The Belvedere attributes the Kiss delay partly to Kunstschau organising and the long portraits to the many studies, so this is a pattern of slow, deliberate completion rather than idleness. Dual-edged; kept at moderate confidence because patrons' and organisers' schedules are mixed into each case."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "구스타프 클림트"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities for Q34661 (2026-10-04) returned en label 'Gustav Klimt', description 'Austrian symbolist painter (1862–1918)', P569 1862-07-14, P570 1918-02-06, instance of human, ko label '구스타프 클림트' with a kowiki sitelink of the same title, P18 'Klimt.jpg' / 'Gustav Klimt 1912.jpg' / 'Gustav Klimt in 1887.jpg'. Matches the intended person. SLUG CHECK: no data-pipeline/candidates/gustav-klimt.json and no public/portraits/*klimt* existed before this run; grep of src/data/people/*.ts for 'klimt' found nothing, so no production collision. A previous attempt on this slug saved nothing. CLASSIFICATION: occupation painter and field art follow the closest finished sibling claude-monet.json (impactDomains artistic/cultural; archetype creative_creator, plus independent_creator for the Secession/1905 independence pattern); tags founder (Secession 1897), innovator and nonconformist (documented controversy); all ids exist in src/core/i18n/en.ts. REGION: central_europe -- production precedent for Austrians is split (Mozart, Gregor Mendel and Lise Meitner are central_europe; Freud, Wittgenstein, Hedy Lamarr and Niki Lauda are western_europe); Klimt is a Habsburg-Vienna figure and central_europe follows Mozart/Meitner, the lead may normalise. ERA: 20th_century because the documented career that carries every row runs 1897-1918 (the Secession, the faculty paintings, the golden phase, the Stoclet frieze); only the early decorative work and the Kunstler-Compagnie rows sit in the 1880s. SOURCES READ (9 records: 2 orientation, 7 substantive; all fetched with curl or the fetch tool into the scratch folder and read locally): the OeBL entry in full; the Belvedere 2012 catalogue 'Gustav Klimt: 150 Jahre' (reception essay, entries for the faculty paintings, Beethoven Frieze, Kiss, Adele I, Fritza Riedler, red sketchbook, Salome, Schiele essay, Beethoven Frieze chronology); Bahr's Gegen Klimt (1903; preface in full and the 1900 and 1901 clippings on the Philosophy and Medicine); Hevesi's Acht Jahre Sezession (1906; the Pallas Athene, Schubert, Protest and 1903 Klimt-exhibition columns); the Secession's 1902 Beethoven exhibition catalogue; the 1908 Kunstschau provisional catalogue; the UNESCO Stoclet entry; and the Belvedere's faculty-paintings story (secondary, via a summarising fetch). PERSPECTIVES: (1) national biographical reference (OeBL) and UNESCO, institutional and neutral; (2) Belvedere museum scholars (Husslein-Arco, Weidinger, Bachl-Hofmann/Diernberger and others), non-self, who also reprint hostile and friendly contemporaries; (3) FRIENDLY contemporaries: Hermann Bahr, Ludwig Hevesi (plus Zuckerkandl and Roessler as quoted by the Belvedere) -- partisan; (4) ADVERSARIAL contemporaries: the Viennese daily press compiled in Gegen Klimt, the 87 professors' petition (and the counter-declaration of other professors in the same clippings), Karl Kraus and the critic Seligmann as quoted by the Belvedere; (5) primary exhibition documents (Secession 1902, Kunstschau 1908); (6) SELF: Klimt wrote and said very little; the only own words used are his 1901 newspaper remark, his 1898 committee statement and his 1905 statement, all as quoted by the Belvedere; his private letters were not used. No row rests on self material. NON-SELF BEHAVIOURAL sources: the Belvedere catalogue, the OeBL, Bahr, Hevesi, the Secession and Kunstschau catalogues. EPISODE USE: 1897 Secession founding and the 1898-1901 commission stance -> independent thinking; 1898-1907 faculty cycle, Adele I and Freundinnen/Wasserschlangen timelines -> persistence; Adele I studies, Philosophy sketches, Death and Life 1916 rework, Hevesi's study sheets -> perfectionism; manner and materials changes -> experimentation; Kunstler-Compagnie, Beethoven exhibition and Stoclet teamwork -> collaboration; Secession, Moderne Galerie and Kunstschau organising -> proactive agency; 1905 repurchase/refusal and withdrawn working life -> autonomy need; daily routine and Attersee summers -> discipline; commission, Jurisprudence and Kiss completion dates -> execution speed. The Kiss's unfinished state is used under execution speed only and the Jurisprudence is used under persistence and execution speed from different details (studio visit and opening). ROWS CONSIDERED AND LEFT UNSCORED: conflict_tolerance (he declined to argue in public and left defence to Bahr, Hevesi and Zuckerkandl: mixed); leadership_drive (elected president by peers; presidency is documented but drive is not); creative_originality and aesthetic_sensitivity (would rest on fame and the work itself); curiosity (Ravenna 1903 and Spain 1909 trips are documented but Belvedere says he travelled rarely and unwillingly); social_assertiveness; belief_updating; risk_tolerance; competitiveness; achievement_drive. EXCLUDED ON PURPOSE: private life, relationships, children and the family household; the deaths of his father and brother in 1892 and his reported depression, the death of a son, the Ria Munk portrait; the March 1902 rumour episode recounted in Bahr's preface; his stroke, illness and death in 1918; prices, auction records and fame; the Bloch-Bauer restitution and the Nazi-era seizure and 1945 destruction of the faculty paintings (posthumous and not his behaviour); the private letters printed in the Belvedere volume (they contain personal remarks unrelated to work); honours such as the 1900 Paris medal and 1911 Rome gold medal as trait evidence. CONFLICTS REPORTED, NOT ADJUDICATED: (a) commission year of the faculty paintings: 1894 (Belvedere) vs 1896 (OeBL); (b) year Klimt took back the paintings: 25 May 1905 (Belvedere provenance) vs 1904 (OeBL); (c) the Secession split is dated 1904 by the OeBL and June 1905 by the Belvedere story; (d) Nebehay (via Belvedere) doubts that Schiele met Klimt as early as 1907; (e) the Hevesi report of the 1899 committee demands is single-source and partisan. KNOWN LIMITS: Whitford, Partsch, Nebehay's Dokumentation, Zuckerkandl's memoirs and Natter/Rollig volumes are lending-only at the Internet Archive and were not read; Zuckerkandl and Roessler are known here only through the Belvedere's quotations. The Google Arts story was read via a summarising fetch. Hevesi's later Altkunst-Neukunst (1909) was not opened. The Belvedere essay on Klimt in 2012 is an institution with a collecting interest. PORTRAIT: Wikidata P18 'Klimt.jpg' (Commons), a studio portrait by Anton Josef Trcka ('Antios', 1893-1940), 1914, with the signature 'ANTIOS WIEN 1914' printed in the lower margin and 'GUSTAV KLIMT 1914' inscribed at upper left. Commons wikitext: Author Creator:Josef Anton Trcka, Date 1914, licence PD-old, source a Czech Television page (weak). Independent attribution check: the Klimt Foundation's Gustav Klimt Database page on Trcka (klimt-database.com) explains the pseudonym Antios and shows the same photograph (Klimt Foundation inventory KF S442) captioned 'Anton Trcka: Gustav Klimt, 1914, Klimt Foundation'; the Leopold Museum's online record 21798 attributes another 1914 Trcka portrait of Klimt to Trcka. Rights basis: author Trcka died in 1940, so the term of life plus 70 years in Austria ended on 31 Dec 2010 (an Austrian simple photograph's own term is shorter still); the work was already public domain in Austria in 1996, so US URAA restoration does not apply. CAVEAT recorded: the Klimt Foundation database prints a copyright symbol for the Foundation under its reproductions; this is an ownership/reproduction notice for the print it holds, not a claim by the long-dead author, and the lead may judge it. Original Commons file 780x997 JPEG downloaded with a User-Agent, opened with Pillow, NOT resized or edited (already under 1600 px), saved as public/portraits/gustav-klimt-trcka-1914.jpg; viewed: seated man in a smock, receding hair, grey beard, looking left. Kind: likeness (photograph from life). Rejected: 'Gustav Klimt 1912.jpg' (Commons author unknown, taken from a Japanese exhibition catalogue; a Frankfurt museum record suggested Moriz Nahr, 1910-12, not verified), 'Gustav Klimt in 1887.jpg' (unknown author, blog source), and the Commons Moriz Nahr files (small copies from image-aggregator sites). KOREAN NAME: '구스타프 클림트' is the Wikidata ko label and the kowiki title. No eligibility, coverage or match output was used in scoring; the validator was run once at the end for structural errors only. LEAD ERROR_CORRECTION (C, mechanical, no scoring change): source `kind` values mapped to the closed SourceKind vocabulary / internal archive identifier removed from a public source title: title id removed."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gustav-klimt-trcka-1914.jpg",
+    "width": 780,
+    "height": 997,
+    "source": "Photograph by Anton Josef Trcka ('Antios'), 1914, via Wikimedia Commons (File:Klimt.jpg, Wikidata P18); same photograph shown by the Klimt Foundation (Gustav Klimt Database)",
+    "license": "Public domain (author died 1940)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old",
+    "attribution": "Anton Josef Trcka ('Antios'), portrait of Gustav Klimt, 1914 (signed 'ANTIOS WIEN 1914'); public domain, author died 1940. The Klimt Foundation database prints a Foundation copyright notice under its reproduction of the print.",
+    "attributionUrl": "https://klimt-database.com/en/network-vienna-1900/colleagues/anton-josef-trcka",
+    "creator": "Anton Josef Trcka (Antios)",
+    "date": "1914",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Klimt.jpg"
+  }
+}

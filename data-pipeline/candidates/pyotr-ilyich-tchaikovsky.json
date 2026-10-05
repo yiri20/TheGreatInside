@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "pyotr-ilyich-tchaikovsky",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Pyotr Ilyich Tchaikovsky",
+    "aliases": [
+      "Tchaikovsky",
+      "Pyotr Tchaikovsky",
+      "Peter Ilyich Tchaikovsky",
+      "Pyotr Ilich Tchaikovsky"
+    ],
+    "wikidataId": "Q7315",
+    "birthYear": 1840,
+    "deathYear": 1893,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "craft_focused",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tchaikovsky_wikidata",
+      "kind": "wikidata",
+      "title": "Pyotr Ilyich Tchaikovsky (Q7315) -- Wikidata entry verified live on 2026-10-04: English label 'Pyotr Ilyich Tchaikovsky', description 'Russian composer (1840-1893)', two recorded birth dates (25 April and 7 May 1840) and two death dates (25 October and 6 November 1893, i.e. Old and New Style), citizenship Russian Empire, Korean label. Orientation only; not used as support for any scored row.",
+      "url": "https://www.wikidata.org/wiki/Q7315"
+    },
+    {
+      "id": "src_tchaikovsky_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Pyotr Ilyich Tchaikovsky' (English) -- summary paragraph read for orientation only (lists the works for which he is best known). Not used as support for any scored row; cited only for uncontested high-level facts in the achievements text.",
+      "url": "https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky"
+    },
+    {
+      "id": "src_tchaikovsky_poznansky_life",
+      "kind": "biography",
+      "title": "Alexander Poznansky, 'Tchaikovsky: A Life', biographical essay written for Tchaikovsky Research (en.tchaikovsky-research.net) -- SCHOLAR's account (non-self; drawn on the Russian archives opened since the 1990s). Read locally from the opening through the 1893 narrative (about three quarters of the essay: childhood and the Ministry of Justice years, the St Petersburg and Moscow Conservatory years, the 1866-1877 operas, symphonies and ballet, the 1877-1886 years in Switzerland, Italy and Maydanovo, the 1887-1892 conducting tours, Sleeping Beauty, Queen of Spades and the 1891 American tour, and 1893 including Cambridge and the Sixth Symphony). The sections on his private life, the 1877 marriage, sexuality, and the circumstances of his death were read for context but are NOT used as evidence for any trait. The final epilogue and the notes were not read.",
+      "url": "https://en.tchaikovsky-research.net/pages/Tchaikovsky:_A_Life"
+    },
+    {
+      "id": "src_tchaikovsky_modest_life_letters",
+      "kind": "biography",
+      "title": "Modest Tchaikovsky (the composer's brother), The Life and Letters of Peter Ilich Tchaikovsky, abridged and edited by Rosa Newmarch (London: John Lane, 1906), Project Gutenberg eBook #45259 -- INSIDER biography (family member and sometime collaborator, admiring, quotes many of the composer's own letters, which are self perspective). Read locally, targeted: the Christmas Eve 1874 Rubinstein scene (his own account of it to von Meck, 21 January/2 February 1878) and Bulow's reply; the 1881 Violin Concerto Vienna reception with the full Hanslick review; the 1886-87 letters and narrative on his first conducting; the description of the Maydanovo/Klin working day; the passage on his financial support of others; and the January 1892 Brussels charity concert. Not read in full.",
+      "url": "https://www.gutenberg.org/ebooks/45259"
+    },
+    {
+      "id": "src_tchaikovsky_rimsky_memoir",
+      "kind": "biography",
+      "title": "Nikolay Rimsky-Korsakov, My Musical Life (New York: Knopf, English translation 1923; Internet Archive full text mymusicallife0000rims_p2v1) -- PEER composer's memoir (non-self; a member of the rival nationalist circle). Read locally, targeted: the account of the first meeting in 1866-67 and how Balakireff's circle first regarded him as a conservatory product; the 1876 visits; the 1879 note that Tchaikovsky as a Moscow critic had written a sympathetic review of Rimsky's Third Symphony; the 1891 St Petersburg visit; and Rimsky's frank dislike of Iolanta (used only to show the memoir is not uniformly admiring, never as trait evidence). The text spells the name 'Chaykovski'.",
+      "url": "https://archive.org/details/mymusicallife0000rims_p2v1"
+    },
+    {
+      "id": "src_tchaikovsky_newmarch_1900",
+      "kind": "biography",
+      "title": "Rosa Newmarch, Tchaikovsky: His Life and Works, with Extracts from His Writings and the Diary of His Tour Abroad in 1888 (London: John Lane, 1900), Internet Archive full text (cu31924022415891) -- early English-language biography built on the reminiscences of his friend and colleague Nikolay Kashkin; includes extracts of the composer's own 1888 tour diary (self). Read locally only in part: the preface, the passage on the composition and fortunes of Swan Lake, and the 1888 diary entry on Auer, Brodsky and Hanslick. Used for the canonical shortlist, not for scoring.",
+      "url": "https://archive.org/details/cu31924022415891"
+    },
+    {
+      "id": "src_tchaikovsky_tr_concertos",
+      "kind": "institution",
+      "title": "Tchaikovsky Research (en.tchaikovsky-research.net), scholarly reference site with source-cited work and people pages -- pages 'Piano Concerto No. 1', 'Violin Concerto', 'Nikolay Rubinstein', 'Leopold Auer', 'Adolph Brodsky' and 'Cesar Cui', each read in full. Documentary compilation (non-self editors, quoting letters, manuscripts and eyewitnesses) covering the 1874 Rubinstein criticism, the three versions of the Piano Concerto, Auer's and Davydov's refusal of the Violin Concerto, Brodsky's 1881 Vienna performance with Hanslick's hostile review, and Cui's hostile criticism of Tchaikovsky's music.",
+      "url": "https://en.tchaikovsky-research.net/pages/Piano_Concerto_No._1"
+    },
+    {
+      "id": "src_tchaikovsky_tr_early_works",
+      "kind": "institution",
+      "title": "Tchaikovsky Research (en.tchaikovsky-research.net) -- pages 'Romeo and Juliet', 'Mily Balakirev', 'Fatum', 'Undina' and 'The Voyevoda (opera)' (the last two read for their composition, rejection and score-destruction sections). Documentary compilation (non-self editors, quoting Tchaikovsky's and Balakirev's letters): Balakirev's 1869 critique of Romeo and Juliet and the revisions of 1870 and 1880, the deletion of bars from Fatum before its premiere and the later destruction of its score, and the destruction of the scores of Undina and most of The Voyevoda.",
+      "url": "https://en.tchaikovsky-research.net/pages/Romeo_and_Juliet"
+    },
+    {
+      "id": "src_tchaikovsky_tr_ballets",
+      "kind": "institution",
+      "title": "Tchaikovsky Research (en.tchaikovsky-research.net) -- pages 'Swan Lake', 'The Sleeping Beauty' and 'The Nutcracker', composition, performance and reception sections read in full. Documentary compilation (non-self editors) built on the composer's diary entries, sketchbook dates and letters, Petipa's and Vsevolozhsky's correspondence, and posters: commissions, the detailed plans supplied by the balletmaster, the dated composition of Sleeping Beauty in January 1889, Vsevolozhsky's 1891 letter about The Nutcracker, and the first productions of each ballet.",
+      "url": "https://en.tchaikovsky-research.net/pages/The_Sleeping_Beauty"
+    },
+    {
+      "id": "src_tchaikovsky_tr_operas_symphony6",
+      "kind": "institution",
+      "title": "Tchaikovsky Research (en.tchaikovsky-research.net) -- pages 'The Queen of Spades' (composition section), 'Yevgeny Onegin' (performances section), 'Symphony No. 6' (performances section) and 'The Year 1812' (composition and performances sections). Documentary compilation (non-self editors) with dated diary and sketch notes: the January-March 1890 composition of The Queen of Spades, the first performances of Onegin (Conservatory students 1879, Bolshoi 1881) and of The Queen of Spades (7/19 December 1890), the Sixth Symphony's premiere under the composer on 16/28 October 1893, and the commission and first performances of the 1812 overture.",
+      "url": "https://en.tchaikovsky-research.net/pages/The_Queen_of_Spades"
+    },
+    {
+      "id": "src_tchaikovsky_tr_new_york_1891",
+      "kind": "institution",
+      "title": "Tchaikovsky Research (en.tchaikovsky-research.net), page 'New York', read in full -- documentary day-by-day itinerary of his 1891 visit (non-self editors quoting his tour diary): arrival 14/26 April, almost daily rehearsals, the opening-week concerts of the new Music Hall (now Carnegie Hall) on 23 April/5 May and 25 April/7 May, and the Baltimore and Philadelphia concerts.",
+      "url": "https://en.tchaikovsky-research.net/pages/New_York"
+    },
+    {
+      "id": "src_tchaikovsky_damrosch_memoir",
+      "kind": "biography",
+      "title": "Walter Damrosch (conductor who invited him to open Carnegie Hall in 1891), My Musical Life (1923), as quoted and annotated on the Tchaikovsky Research page 'Walter Damrosch' -- EYEWITNESS HOST account (non-self; admiring): his 1891 rehearsals and concerts at the opening of the Music Hall, that he was 'not a conductor by profession' and found rehearsals and concerts fatiguing, and the June 1893 dinner at Cambridge where honorary doctorates went to five composers. Read in full on the TR page, not in the original book.",
+      "url": "https://en.tchaikovsky-research.net/pages/Walter_Damrosch"
+    },
+    {
+      "id": "src_tchaikovsky_smyth_memoir",
+      "kind": "biography",
+      "title": "Ethel Smyth, Impressions That Remained (1919), as quoted on the Tchaikovsky Research page 'Ethel Smyth', read in full -- EYEWITNESS account by a younger composer (non-self) of meeting him in Leipzig in January 1888: his courtesy, the hours-long argument with her about Brahms, and his advice to attend closely to orchestral colour. Read through the TR page, not the original book.",
+      "url": "https://en.tchaikovsky-research.net/pages/Ethel_Smyth"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 76,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_tchaikovsky_tr_early_works, src_tchaikovsky_poznansky_life, src_tchaikovsky_tr_concertos, src_tchaikovsky_modest_life_letters | 1868-1892 | editorial documentary compilation quoting his letters + scholar's biography + insider biographer] Several separately documented acts of cutting, destroying or reworking his own scores. Fatum (1868-69): before the Feb 1869 premiere he deleted bars 16-25 as 'ugly in terms of the music and the instrumentation' and later destroyed the full score (Tchaikovsky Research says it is unclear whether Balakirev's criticism or a changed attitude lay behind it). Undina (1869): after the Directorate's rejection he reused movements in Symphony 2, Swan Lake and The Snow Maiden and destroyed the full score about 1875-76; in 1879 he wrote that Undina, The Oprichnik and Vakula had all been deficient in understanding of what an opera requires (TR quoting his letter to von Meck). The Voyevoda opera: destroyed most of the full score in the 1870s, keeping the overture, one chorus, an entr'acte and the dances (TR; Poznansky). Romeo and Juliet: fundamentally revised after the 1870 premiere and again in 1880 (TR; the 1880 revision was also partly about a publisher dispute). Violin Concerto: after playing it through with Kotek he wrote a new Andante in March 1878 (TR). The symphonic ballad The Voyevoda: tore up the score after its Nov 1891 performance, and the sketches for a Symphony in E-flat did not satisfy him in 1892 and were abandoned (Poznansky). Poznansky adds that he tended to deprecate his own work and lose interest in it once finished, though not The Queen of Spades. Dual-edged: scores were lost and had to be reconstructed from orchestral parts after his death (TR; Poznansky). Counter-evidence considered: in 1874 he refused every change to the First Piano Concerto (resistance to another person's standard, not scored here). Not scored from output or fame."
+    },
+    "execution_speed": {
+      "score": 74,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_tchaikovsky_tr_concertos, src_tchaikovsky_tr_ballets, src_tchaikovsky_tr_operas_symphony6, src_tchaikovsky_poznansky_life | 1874-1893 | documentary compilation quoting diary, letter and manuscript dates + scholar's biography] Repeated, dated short-completion episodes. Violin Concerto (March 1878): first movement finished in five days (10/22 March), the whole concerto sketched by 16/28 March, full score ready 30 March/11 April, with the new Andante added on 24 March/5 April (TR, from letters and manuscript dates). The Sleeping Beauty: the Prologue and all of Acts I-II written in the roughly three weeks between his return to Frolovskoye on 26 Dec 1888/7 Jan 1889 and his departure on 19/31 Jan, by sketchbook and diary dates (TR); Poznansky describes a six-week retreat and notes that the score was finished in the summer. The Queen of Spades: begun 19/31 January 1890 in Florence and written in 44 days (Poznansky), with dated scene-by-scene sketch notes (TR). Vakula the Smith: finished within a month in 1874 for the Serov competition (Poznansky). Symphony 6: first movement complete within a week of starting in February 1893, sketches of the whole within five days after the Kharkov concert (Poznansky). In a later letter he wrote that he loved working in a rush (TR quote on Sleeping Beauty). Counter-evidence: The Nutcracker and Mazepa came slowly (TR; Poznansky), so the score reflects a repeated pattern rather than uniform speed."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_tchaikovsky_modest_life_letters, src_tchaikovsky_poznansky_life, src_tchaikovsky_tr_ballets | 1866-1893 | insider biographer + scholar + documentary compilation of diary entries] Modest, who stayed with him at Klin and Maydanovo, describes a day that 'was never changed to the end of his life': up at seven or eight, tea, reading, a short walk, then composing, orchestrating, correcting or writing letters 'between 9.30 and 1 p.m.' without wasting time; dinner at 1; a two-hour walk on which he thought out themes and noted them in exercise books; work again from about 5 to 7; no composing in the evenings after the summer of 1866; and the habit of doing the unpleasant tasks (letters, proofs) before the pleasant ones. Poznansky independently records the 'regular routine' he settled into on moving to Maydanovo in February 1885: reading, walking in the forest, working mornings and afternoons. TR's reading of the Sleeping Beauty sketchbooks and diary shows nearly daily work entries in January 1889 ('Worked all morning'; 'Worked ever so assiduously'). In 1874 he wrote that he was 'routinely having to be strict with myself' on the piano concerto (TR, self). Caveat: Modest is an admiring insider and partly repeats the composer's own account; the second perspective is Poznansky."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_tchaikovsky_tr_ballets, src_tchaikovsky_poznansky_life, src_tchaikovsky_tr_concertos | 1874-1891 | documentary compilation + scholar; non-self contemporary: Vsevolozhsky's letter] The Nutcracker: Modest said he was 'very little pleased' with the scenario, Vsevolozhsky wrote on 9/21 August 1891 'I have experienced agonies of remorse for asking you to do this ballet. I know that it is unappealing to you. You are an exceptionally kind soul for not refusing me' (TR, a non-self contemporary), yet Tchaikovsky continued the work in Berlin and Paris, where it 'did not come easily', and finished the ballet in late June or early July 1891 (TR; Poznansky). Manfred (1885): a promise to Balakirev that, Poznansky says, 'cost Tchaikovsky immense effort' and was finished only in September 1885. Mazepa (1882-83): 'Never has any important work given me so much trouble', completed and staged in February 1884 (Poznansky). Piano Concerto No. 1 (Nov-Dec 1874): 'going with much difficulty and rather badly... routinely having to be strict with myself', then worked 'tirelessly' to finish it by late December (TR quoting letters). Counter-evidence considered: he abandoned the E-flat symphony sketches in 1892 and Vakula after its poor reception; the row rests on commissioned or promised works he saw through."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tchaikovsky_tr_early_works, src_tchaikovsky_poznansky_life, src_tchaikovsky_tr_concertos | 1869-1889 | documentary compilation quoting both composers' letters + scholar's biography] Several distinct episodes of changing a work or a judgement in response to criticism, alongside deliberate refusals. Romeo and Juliet: Balakirev criticised the first theme in his reply of 1869 (TR quotes it); after the March 1870 premiere Tchaikovsky 'fundamentally revised' the overture in summer 1870 (new introduction, middle section almost entirely new, recapitulation reorchestrated). The Oprichnik (1874): after Cui's attack he 'found himself agreeing with the critics' and told his cousin 'The Oprichnik torments me' (Poznansky). Undina: in 1879 he judged it, The Oprichnik and Vakula deficient and wrote that he had 'learned my lesson' (TR). Piano Concerto No. 1: he refused Rubinstein's changes in 1874 but Poznansky and TR record later alterations to the piano part (1879 score) and further changes in 1888-89 after consulting Ziloti. Limits: in May 1871 he declined further revisions that Balakirev wanted to Romeo and Juliet, and the 1874 refusal stands; the selective pattern keeps the score modest."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tchaikovsky_tr_ballets, src_tchaikovsky_tr_concertos, src_tchaikovsky_tr_operas_symphony6, src_tchaikovsky_poznansky_life | 1874-1892 | documentary compilation of letters and sketchbooks + scholar] Works shaped with named collaborators and adjusted to their input. The Sleeping Beauty: he told Pogozhev he could not write a note before talks with the balletmaster, then worked from Petipa's detailed plans for the Prologue (6/18 Nov 1888), Acts I-II (18/30 Dec 1888) and the final scene (22 Jan/3 Feb 1889), with the directors hearing Act I on 23 Jan/4 Feb (TR). The Nutcracker: he followed Petipa's plan and recorded deviations in his sketchbook; when Vsevolozhsky told him on 15/27 Feb 1891 that the characteristic dances in Petipa's scheme would not do, he crossed those dances out and substituted a galop, and he noted 'Talk to Petipa regarding the Grossvater' (TR). Violin Concerto: he played it through with Kotek and replaced the Andante (TR). The Queen of Spades: libretto by his brother Modest, with Tchaikovsky choosing between two alternative texts Modest sent for the Interlude (TR). Piano Concerto No. 1: consulted Ziloti on the 1888-89 revision (TR). Counter-evidence: from 1885 he composed in solitude and showed work to no one beforehand (Modest), which is a different matter from joint work with commissioning partners."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tchaikovsky_poznansky_life, src_tchaikovsky_tr_concertos, src_tchaikovsky_tr_early_works, src_tchaikovsky_smyth_memoir, src_tchaikovsky_rimsky_memoir | 1862-1893 | scholar + documentary compilation + eyewitness composer + peer composer] Several episodes of holding his own judgement against authoritative opinion. At the St Petersburg Conservatory he thought Zaremba, whose dislike of Mozart and Glinka disappointed him, only an average instructor (Poznansky). On 24 December 1874 he told Nikolay Rubinstein 'I shall not alter a single note' and published the concerto as it stood (Poznansky; TR; Modest's account quotes his 1878 letter to von Meck). He never joined Balakirev's nationalist circle although its leader hoped he would (TR 'Mily Balakirev'); Rimsky recalls the circle first treating him 'rather negligently if not haughtily' as a conservatory product, and that he nevertheless came to Balakirev's evenings and won the circle's liking by simplicity and evident sincerity. Smyth's memoir records that he argued with her about Brahms 'by the hour' while remaining courteous. He held that The Queen of Spades belonged among the finest operas despite the scepticism of many (Poznansky). Limits: he withheld Symphony No. 1 from Nikolay Rubinstein's performance until Zaremba and Anton Rubinstein had given their opinions (Poznansky), and revised Romeo and Juliet at Balakirev's urging."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tchaikovsky_poznansky_life, src_tchaikovsky_modest_life_letters, src_tchaikovsky_damrosch_memoir, src_tchaikovsky_tr_new_york_1891 | 1861-1893 | scholar + insider biographer + eyewitness host + documentary itinerary] Two distinct documented changes of role. (1) 1861-63: a Ministry of Justice clerk, he attended harmony classes from 1861, enrolled at the new St Petersburg Conservatory in 1862 and in April 1863 asked for leave from the ministry, supporting himself with private lessons; he formally resigned in 1867 (Poznansky). (2) Conducting: his October 1886 letter to von Meck says the mere thought of the podium made him tremble and that he expected to refuse; on 4/16 December 1886 he reported conducting his first orchestral rehearsal 'in such style that all were astonished'; he conducted Cherevichki on 19/31 January 1887 (Modest), appeared with the St Petersburg Philharmonic in March 1887 and made his first European tour from December 1887 (Poznansky). Damrosch (1923) wrote that he 'was not a conductor by profession' and found rehearsals and concerts fatiguing but that players 'strove with double eagerness' to follow his intentions; the TR New York itinerary shows rehearsals almost daily and six American concerts in 1891. The difficulty he reported is self-reported and used only as the obstacle worked around, not as a trait."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tchaikovsky_modest_life_letters, src_tchaikovsky_poznansky_life, src_tchaikovsky_tr_ballets | 1878-1892 | insider biographer + scholar + documentary compilation] Documented choices that protect independent working conditions. In autumn 1878, once a regular allowance from von Meck made it possible, he resigned his professorship at the Moscow Conservatory and spent the next years largely outside Moscow and St Petersburg (Poznansky). Modest records that at Klin 'complete solitude during his hours of work' was the main advantage of his new home, that when engaged on a new work he 'could not endure company', that on his walks 'solitude was as necessary to him ... as during his work', and that from 1885 he ceased to show his works to anyone (the first person to see a new score was the publisher's engraver). The Sleeping Beauty was written in a retreat at Frolovskoye in Jan 1889 (TR; Poznansky). Caveat: the allowance was a patron's money until 1890, and he needed commissions and public performance; private-life circumstances are excluded and not used."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tchaikovsky_modest_life_letters, src_tchaikovsky_tr_ballets, src_tchaikovsky_tr_operas_symphony6 | 1877-1892 | insider biographer + documentary compilation quoting letters] Modest says he 'always wrote out everything very exactly' in his sketches, that orchestration was a clear copy of those drafts, that he gave close attention to the clauses on hereditary rights in his opera contracts, and that proof-correcting was a regular task. TR records his 19 Feb/3 March 1891 request to Jurgenson for Haydn-type children's instruments plus written instructions for how they should be played (Nutcracker), and his 1877 letter to Albrecht specifying that Onegin needed period-correct costumes from the 1820s, trained singers who could act and a chorus of real participants. A 1888 letter shows him refusing a French libretto because a Russian setting must respect 'local and historical truth'. Insider-heavy and partly self-reported, hence the lower confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "표트르 일리치 차이콥스키"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-04) for Q7315 returned en label 'Pyotr Ilyich Tchaikovsky', description 'Russian composer (1840-1893)', instance of human (Q5), P569 with two values (25 April 1840 and 7 May 1840, Old and New Style), P570 with values 25 October 1893 (twice) and 6 November 1893, citizenship Q34266 (Russian Empire), sex male, ko label '표트르 차이콥스키' with a kowiki sitelink, P18 'Porträt des Komponisten Pjotr I. Tschaikowski (1840-1893).jpg'. The lead's warning about Q1571685 ('death of Pyotr Ilyich Tchaikovsky') was heeded: that entity was not used; Q7315 is the person. SLUG CHECK: no data-pipeline/candidates/pyotr-ilyich-tchaikovsky.json and no public/portraits/*tchaik* existed before this run; grep -il tchaikovsky over src/data/people/*.ts found no hit (no production collision). CLASSIFICATION: occupationIds composer and musician (en.ts has no conductor/pianist id; Brahms and Clara Schumann precedent), fieldIds music, impactDomains artistic/cultural, tagIds perfectionist/craft_focused/prolific and archetypes creative_creator/independent_creator (all verified present in src/core/i18n/en.ts; 'prolific' is a classification tag only and no row rests on output volume). ERA 19th_century (documented career 1862-1893; every scored row rests on behaviour dated 1861-1893). REGION: central_europe, following the production and candidate precedent for Russian nationals (leo-tolstoy, dmitri-mendeleev, fyodor-dostoevsky all use nationalityCodes RU with regionCode central_europe); no scoring depends on it. EVIDENCE READ: 13 source records (2 orientation, 11 substantive), the text downloaded or fetched to C:\\Users\\Lenovo\\TGI-roster42-scratch\\pyotr-ilyich-tchaikovsky\\ and read locally: Tchaikovsky Research (en.tchaikovsky-research.net) work and people pages (Piano Concerto No. 1, Violin Concerto, Rubinstein, Auer, Brodsky, Cui, Romeo and Juliet, Balakirev, Fatum, Undina, The Voyevoda, Swan Lake, The Sleeping Beauty, The Nutcracker, Queen of Spades, Onegin, Symphony 6, 1812, New York, Damrosch, Smyth, Kashkin, Rimsky-Korsakov, Taneyev) fetched with curl through a small HTML-to-text script; Alexander Poznansky's essay 'Tchaikovsky: A Life' for TR (about three quarters read); Modest Tchaikovsky's Life and Letters (Gutenberg 45259, targeted passages); Rimsky-Korsakov's My Musical Life (IA full text, targeted passages); Newmarch 1900 (IA, partial). PERSPECTIVES: (1) Poznansky, modern scholar working from archives; (2) Modest Tchaikovsky, admiring family insider, who also quotes the composer's own letters (SELF perspective, counted once and never the only support for a row); (3) Rimsky-Korsakov, peer composer from the rival circle, not uniformly admiring; (4) Damrosch, host and conductor, eyewitness 1891 and 1893; (5) Ethel Smyth, eyewitness 1888; (6) Tchaikovsky Research editors, a documentary compilation that cites diaries, sketchbooks, letters from both sides and archives; (7) Newmarch 1900 (partial, built on Kashkin). ADVERSARIAL/CRITICAL voices are present through quotation rather than as separate sources: Nikolay Rubinstein (1874 verdict), Auer and Davydov (refusal of the Violin Concerto), Hanslick (1881 review, full text in Modest), Cui (1874 and 1875 criticism), Balakirev (Fatum and Romeo and Juliet critiques), Rimsky on Iolanta (opinion on music, not used for traits). NON-SELF BEHAVIOURAL sources: all substantive records except where noted self material. EPISODE USE: Fatum/Undina/Voyevoda scores, Romeo and Juliet revisions, Violin Concerto Andante, 1891 Voyevoda ballad, 1892 E-flat sketches -> perfectionism only; Violin Concerto March 1878, Sleeping Beauty Jan 1889, Queen of Spades 1890, Vakula 1874, Symphony 6 sketches -> execution_speed only; Maydanovo/Klin routine -> discipline only; Nutcracker, Manfred, Mazepa, Piano Concerto No. 1 composition difficulty -> persistence only; Balakirev critique of Romeo and Juliet, Oprichnik/Undina self-judgment, concerto revisions -> belief_updating only; Petipa and Vsevolozhsky plans, Kotek, Ziloti, Modest as librettist -> collaboration only; Rubinstein refusal 1874, Zaremba, Balakirev circle, Smyth/Brahms argument, Queen of Spades conviction -> independent_thinking only; 1861-63 career switch and 1886-87 conducting -> adaptability only; 1878 resignation and solitary working arrangements -> autonomy_need only; sketch/contract/instrument/staging/historical-truth demands -> detail_orientation only. ROWS CONSIDERED AND LEFT UNSCORED: conflict_tolerance (Rubinstein 1874, the Auer withdrawal of dedication and the 1873 press polemic with Cui point one way, while reconciliation with Rubinstein, leaving a room silently in 1874, leaving Vienna in 1892 and Modest's note that he bore rancour point in mixed directions, so the evidence is unresolved), creative_originality and aesthetic_sensitivity (would rest on fame/canon), mastery_orientation (only a single scholarly sentence on his studies, plus Modest's reading list), planning_orientation (overlaps discipline/collaboration), achievement_drive (Poznansky's 'intense desire to prove' after The Oprichnik is a biographer's interpretation), generosity and impact_motivation (Modest's claims that he supported many people, including Modest himself with about two thousand roubles a year, are insider-reported; no taxonomy attribute fits cleanly), risk_tolerance, decisiveness, social attributes. EXCLUDED ON PURPOSE: sexuality and rumours about it, the 1868 Artot engagement, the 1877 marriage and its aftermath, his relationship with von Meck as anything other than the fact of an allowance, his mental or emotional states (Poznansky and Modest both describe depression, homesickness and fear; none is used as trait evidence), illness, bereavements, and the circumstances and cause of his death (not discussed anywhere in this candidate); honours, fees, orders and sales; every statement of musical quality, which appears only in the canonical shortlist and editorial. CONFLICTS REPORTED, NOT ADJUDICATED: (a) the Swan Lake premiere, which Tchaikovsky Research calls 'went well' and Poznansky says 'was not the success the composer had hoped for' because of choreography and orchestra, and Newmarch 1900 calls 'if not brilliant, fairly lasting' (all agree it stayed in the Bolshoi repertoire until about 1883); (b) Tchaikovsky Research says the first Moscow performance of Fatum and the later destruction of its score may or may not have followed Balakirev's critique; (c) the Violin Concerto's world premiere: long assumed to be Brodsky's 4 December 1881 Vienna performance, but TR cites evidence for an earlier Hannover performance on 1/13 March 1880 that Tchaikovsky apparently never knew about; (d) the length of the Sleeping Beauty retreat (about three weeks by sketchbook dates in TR, 'six weeks' in Poznansky's narrative); (e) the 1881 Hanslick wording differs between Modest (quoting the review) and Tchaikovsky's own 1888 diary recollection in Newmarch ('stinking music'), which is a self-memory. KNOWN LIMITS: Britannica returned a Cloudflare bot wall and carnegiehall.org returned a queue page; neither was bypassed. The Library of Congress item pages returned HTTP 403 and the New York Public Library page behind the Commons Reutlinger file could not be reached; neither was used. Poznansky's essay was read only through the narrative of 1893 (not the epilogue or notes); Modest's and Rimsky's books were read in targeted passages, not in full; Kashkin's and Laroche's own memoirs, Brown's and Poznansky's other books, Anna Merkling's accounts, and the Russian-language literature were not read. The Tchaikovsky Research letter texts themselves (Letters 367-375, 736, 3170, 3557 and others) were read only where quoted on the work and people pages and in Modest. PORTRAIT: Wikidata P18 (Nikolai Kuznetsov, 1893 portrait) was NOT used because the Commons file is a painting of uncertain date; chosen instead is Commons 'File:Tschaikowsky EBieber 1888.jpg' (Atelier E. Bieber, Hamburg, studio photograph of the composer, 1888, from-life; Tchaikovsky Research's letters pages date the Hamburg sitting to 6/18 January 1888). Rights: Commons template PD-old-70-1923; the photographer is given as Leonard Berlin (1841-1931), so life plus 70 years has long expired, and the print is a pre-1900 studio photograph that is outside US term in any case. Caveats: (1) the Commons credit line names a Bergen Public Library Flickr item (5775463761) whose Flickr page I fetched showed other photographs, so the original library holding could not be confirmed and the Commons file page is the exact source page; (2) the Commons file history shows a 2022 edit 'crop, retouching' by a Commons user, i.e. it is a retouched crop (the same kind of file as the Orville Wright portrait precedent); (3) the print carries the sitter's handwritten inscription at the upper left (a German dedication, signed 'Tschaikowsky', dated 3.88 Leipzig as far as legible), which is part of the image and was not cropped; (4) Commons says the photographer is only 'probably' Leonard Berlin. Original 2634 x 3668 8-bit grayscale JPEG downloaded from upload.wikimedia.org with curl, opened with Pillow, downscaled with LANCZOS to 1149 x 1600 RGB, JPEG quality 85, no crop, no upscaling; saved as public/portraits/pyotr-ilyich-tchaikovsky-bieber-1888.jpg; viewed: a man with white hair and a full white beard, dark jacket and patterned tie, facing the camera. Other Commons candidates considered: the Reutlinger cabinet card (NYPL source, attributed to Emile Reutlinger, dated 1888 on Commons although TR letters 2980 and 3557 show Reutlinger sittings in June 1886 and on 6/18 March 1888, so its year is uncertain), the Rijksmuseum CC0 heliogravure RP-F-F00667-AE (Paul Klemann, undated c.1875-1890, a reproduction), and the Kuznetsov painting. Kind: likeness (from-life photograph). KOREAN NAME: 표트르 일리치 차이콥스키 is the conventional full Korean form (Russian given name plus patronymic plus surname); the Wikidata ko label and kowiki title use the shorter 표트르 차이콥스키. No eligibility, coverage or match output was used in scoring; validateCandidates.ts was run once after the rows were frozen."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/pyotr-ilyich-tchaikovsky-bieber-1888.jpg",
+    "width": 1149,
+    "height": 1600,
+    "source": "Wikimedia Commons file 'Tschaikowsky EBieber 1888.jpg' (photograph by Atelier E. Bieber, Hamburg, probably Leonard Berlin; Commons credit line gives a Bergen Public Library Flickr item)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-70-1923",
+    "attribution": "Atelier E. Bieber, Hamburg (probably Leonard Berlin, 1841-1931), studio photograph of Pyotr Ilyich Tchaikovsky, 1888, an inscribed print; the Tchaikovsky Research letters pages date the Hamburg sitting to 6/18 January 1888",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Tschaikowsky_EBieber_1888.jpg",
+    "creator": "Atelier E. Bieber, Hamburg (probably Leonard Berlin)",
+    "date": "1888",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tschaikowsky_EBieber_1888.jpg"
+  }
+}

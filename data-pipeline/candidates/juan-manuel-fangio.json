@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "juan-manuel-fangio",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Juan Manuel Fangio",
+    "aliases": [
+      "El Chueco",
+      "El Maestro"
+    ],
+    "wikidataId": "Q2069",
+    "birthYear": 1911,
+    "deathYear": 1995,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_fangio_wikidata",
+      "kind": "wikidata",
+      "title": "Juan Manuel Fangio (Q2069) -- verified live via wbgetentities (2026-10-05): en label 'Juan Manuel Fangio', description 'Argentine racing driver (1911–1995)', born 24 Jun 1911, died 17 Jul 1995, citizenship Argentina (Q414), instance of human, ko label '후안 마누엘 판지오', P18 'Juan Manuel Fangio (circa 1952).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2069"
+    },
+    {
+      "id": "src_fangio_wikipedia",
+      "kind": "wikipedia",
+      "title": "Juan Manuel Fangio, English Wikipedia -- orientation only (introduction read via the MediaWiki API: Argentine racing driver, 24 Jun 1911 - 17 Jul 1995, Formula One 1950-1958, five World Drivers' Championship titles, 24 wins); not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Juan_Manuel_Fangio"
+    },
+    {
+      "id": "src_fangio_moss_motorsport_1998",
+      "kind": "press",
+      "title": "Stirling Moss, 'In the master's wheel tracks: Moss on why Fangio remains the Maestro', Motor Sport, May 1998 (web version) -- first-person recollection by his 1955 Mercedes-Benz team-mate and later rival (non-self for Fangio; admiring in tone, so read for the specific episodes only): Bari 1950, the 1955 season, the 1955 Argentine heat, Aintree and Le Mans 1955, how he qualified, his conduct towards rivals and mechanics, his advice about Ferrari. Fetched with curl and read in full.",
+      "url": "https://www.motorsportmagazine.com/archive/article/may-1998/27/in-the-masters-wheeltracks/"
+    },
+    {
+      "id": "src_fangio_obit_motorsport_1995",
+      "kind": "press",
+      "title": "'Juan Manuel Fangio 1911-1995', Motor Sport, August 1995 (staff obituary, web version) -- journalistic obituary (non-self) covering his Balcarce background, early road racing, the 1949 European season, his career statistics, his business as a haulage operator, and the criticism 'especially from Italian sources' that he always manipulated himself into the best team, together with the writer's defence of it; also quotes Fangio's own remarks (self, inside a non-self piece). Fetched with curl and read in full; the 1948 co-driver's death is NOT used.",
+      "url": "https://www.motorsportmagazine.com/archive/article/august-1995/8/juan-manuel-fangio/"
+    },
+    {
+      "id": "src_fangio_roebuck_legends_2001",
+      "kind": "press",
+      "title": "Nigel Roebuck, 'Legends', Motor Sport, January 2001 (web version) -- the journalist's account of interviewing Fangio at length in London on 2 June 1979 through an interpreter, with his answers about Monza 1953, the 1957 German Grand Prix, his retirement and his later role, plus the writer's eyewitness description of Fangio driving a 1937 Mercedes-Benz W125 at Donington the next day aged 68. Fangio's remarks are SELF testimony relayed by an interpreter; the eyewitness passage is non-self. Fetched with curl and read in full.",
+      "url": "https://www.motorsportmagazine.com/archive/article/january-2001/16/legends"
+    },
+    {
+      "id": "src_fangio_roebuck_autosport_1995",
+      "kind": "press",
+      "title": "Nigel Roebuck, 'Farewell to a god', Autosport (published on the day his death was announced, July 1995) -- Roebuck's text built on the same 1979 interview, quoting Fangio at length on Monaco 1950, mechanics, Alfa Romeo, Mercedes-Benz, his unhappy 1956 at Ferrari, the 1956 Monza hand-over, 1957 and retirement. Mostly SELF testimony (counted once, together with the 2001 account of the same interview). Fetched with curl and read in full.",
+      "url": "https://www.autosport.com/f1/news/farewell-to-a-god-5053014/5053014/"
+    },
+    {
+      "id": "src_fangio_roebuck_aintree_2003",
+      "kind": "press",
+      "title": "Nigel Roebuck, '1955 British Grand Prix: F1 Legends', Motor Sport, February 2003 (web version) -- journalist's reconstruction of the 1955 British Grand Prix at Aintree, quoting Stirling Moss, his diary note and Fangio's answer when asked whether he let Moss win; explicit that nobody can say whether he did. Non-self for Fangio apart from his one quoted reply. Fetched with curl and read in full; used only as a documented UNCERTAINTY, not as evidence for any row.",
+      "url": "https://www.motorsportmagazine.com/archive/article/february-2003/16/legends-37/"
+    },
+    {
+      "id": "src_fangio_tavoni_1998",
+      "kind": "press",
+      "title": "Chris Nixon, 'Romolo Tavoni: Enzo's Right-Hand Man', Motor Sport, November 1998 (web version) -- interview-based profile carrying the recollections of Ferrari's secretary and later team manager (an interested, Ferrari-side party) about 1956: Fangio's demand for half the prize money plus a salary as at Mercedes, Ferrari's refusal to name him number one, Ferrari liking 'Fangio the driver, but not Fangio the man', and his move to Maserati for 1957 where Orsi accepted his terms. Fetched with curl and read in full; the sections on other drivers are not used.",
+      "url": "https://www.motorsportmagazine.com/archive/article/november-1998/42/enzos-right-hand-man/"
+    },
+    {
+      "id": "src_fangio_jenkinson_1957_report",
+      "kind": "press",
+      "title": "Denis Jenkinson (signed DSJ), report on the 1957 German Grand Prix as reprinted in the Motor Sport feature '1954-1963' (July 2004; original report September 1957) -- contemporary eyewitness race report (non-self): Fangio's 52-second stop on lap 12, the lap-by-lap closing of the gap, the 9 min 17.4 s lap and the pass of Collins and Hawthorn. Fetched with curl and read in full (the extract of the report; the same feature's introduction on the 1954 season was skimmed).",
+      "url": "https://www.motorsportmagazine.com/archive/article/july-2004/94/1954-1963/"
+    },
+    {
+      "id": "src_fangio_smith_goodwood_ring_2026",
+      "kind": "press",
+      "title": "Damien Smith, 'Nurburgring 1957: Fangio's day of days', Goodwood Road & Racing, 23 March 2026 -- historian-journalist's account (non-self) of the 1957 German Grand Prix quoting Jenkinson's report, Fangio's own 1979 words to Roebuck, and the claim by his business manager Marcello Giambertone (from Fangio's autobiography) of a ruse to make Ferrari relax; the planned half-tank pit stop and the soft-tyre concern. Fetched with curl and read in full. The Giambertone ruse is a self-side claim and is NOT used.",
+      "url": "https://www.goodwood.com/grr/f1/nurburgring-1957-fangios-day-of-days/"
+    },
+    {
+      "id": "src_fangio_tremayne_f1com_2019",
+      "kind": "press",
+      "title": "David Tremayne, 'F1's Best Drives #5 - Fangio's race of a lifetime', formula1.com, 7 April 2019 -- veteran journalist's retelling (non-self) of the 1957 German Grand Prix: Maserati's soft-Pirelli half-tank plan against Ferrari's hard-compound non-stop approach, the 52-second stop, the comeback and Fangio's later remark that he could not sleep for two nights. Fetched with curl and read in full.",
+      "url": "https://www.formula1.com/en/latest/article/f1s-best-drives-5-fangios-race-of-a-lifetime.7nylVrZzpxCiNgcfdbb01J"
+    },
+    {
+      "id": "src_fangio_fearnley_goodwood_monaco_1957",
+      "kind": "press",
+      "title": "Paul Fearnley, 'Fangio's 1957, part 2: Monaco', Goodwood Road & Racing, 17 May 2017 -- historian-journalist's account (non-self) of the 1957 Monaco Grand Prix and Fangio's handling of the unwanted V12 Maserati, with Fangio's own quoted account of the lap-4 pile-up. Fetched with curl and read in full; the pile-up itself is not used as evidence.",
+      "url": "https://www.goodwood.com/grr/race/historic/fangios-1957--his-greatest-season-relived-part-2/"
+    },
+    {
+      "id": "src_fangio_fearnley_goodwood_sportscars_1957",
+      "kind": "press",
+      "title": "Paul Fearnley, 'Fangio's 1957, part 3: Nurburgring 1,000km, GP of Portugal and Le Mans 24 Hours', Goodwood Road & Racing, 14 June 2017 -- historian-journalist's account (non-self) of Fangio's 1957 sports-car races with Moss and others, quoting Fangio on how he waited at Lisbon and Denis Jenkinson's remark that holding back at Le Mans was a 'crafty move'. Fetched with curl and read in full.",
+      "url": "https://www.goodwood.com/grr/race/historic/2017/6/fangios-1957-part-3-nurburgring-1000km-gp-of-portugal-and-le-mans-24-hours/"
+    },
+    {
+      "id": "src_fangio_motorsport_75_monza_1956",
+      "kind": "press",
+      "title": "'31. 1956 Italian GP: Fangio's fourth title after Collins' sportsmanship', Motor Sport, The 75 Greatest Grands Prix (web feature) -- short journalist's account (non-self) of the 1956 Italian Grand Prix, in which Peter Collins gave up his car so that Fangio could finish second and take the title; notes that Luigi Musso refused. Fetched with curl and read in full.",
+      "url": "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/80/31-1956-italian-gp-fangios-fourth-title-after-collins-sportsmanship/"
+    },
+    {
+      "id": "src_fangio_motorsport_75_ring_1957",
+      "kind": "press",
+      "title": "Nigel Roebuck, '4. 1957 German GP: Fangio's day of days at Nurburgring', Motor Sport, The 75 Greatest Grands Prix (web feature) -- journalist's account (non-self) of the race, noting the pre-planned half-tank pit stop and the three-make Nurburgring hat-trick, quoting Fangio's 1979 words. Fetched with curl and read in full.",
+      "url": "https://motorsportmagazine.com/special-article/the-75-greatest-grands-prix/140/4-1957-german-gp-fangios-day-of-days-at-nurburgring"
+    },
+    {
+      "id": "src_fangio_mercedes_classic",
+      "kind": "institution",
+      "title": "Mercedes-Benz Classic public archive, biography page 'Juan Manuel Fangio' -- INSTITUTIONAL biography by the car maker that employed him in 1954-55 and later made him president of its Argentine company (subject-affiliated, so used with that caveat): 1948 to 1958 career outline, the 1954 Mercedes-Benz return in which he raced the first two rounds on a Maserati, the five titles with record later surpassed by Michael Schumacher in 2003, his gentle driving style with low fuel and oil consumption, the Buenos Aires Mercedes-Benz agency and presidency of Mercedes-Benz Argentina in 1974. Fetched with curl and read in full.",
+      "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/Juan-Manuel-Fangio.xhtml?oid=7229"
+    },
+    {
+      "id": "src_fangio_ferrari_com_green",
+      "kind": "institution",
+      "title": "Gavin Green, 'A Story of Sacrifice', ferrari.com magazine -- SUBJECT-ADJACENT corporate magazine article by the team he drove for in 1956 (counted weakly): the 1956 season, Fangio taking over Luigi Musso's car at the Argentine Grand Prix, the 1956 Italian Grand Prix and Peter Collins's hand-over, with Fangio's remark that he was moved almost to tears. Fetched with curl and read in full.",
+      "url": "https://ferrari.com/en-BA/magazine/articles/a-story-of-sacrifice-the-story-of-the-1956-italian-gp"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_fangio_moss_motorsport_1998, src_fangio_jenkinson_1957_report, src_fangio_tremayne_f1com_2019, src_fangio_smith_goodwood_ring_2026, src_fangio_ferrari_com_green, src_fangio_roebuck_autosport_1995 | 1955-1957 | rival and team-mate + eyewitness race report + journalists + Ferrari-affiliated page + self] Moss, his 1955 team-mate and later rival, says Fangio drove only as fast as seemed necessary to take pole, but if someone beat his time by a tenth he would go out again and find two-tenths, and that he won only by speed and skill, never by carving rivals up. At the 1957 German Grand Prix a stop of about 52 s turned his roughly 28 s lead into a deficit of about 50 s (Smith, Tremayne, Jenkinson); he then cut about 10 s a lap, lapped in 9 min 17.4 s against his 9 min 25.6 s pole time and 24 s under his own 1956 record, passed Collins and Hawthorn on the penultimate lap and won by 3.6 s (Jenkinson's contemporaneous report). Quoted by Tremayne and Roebuck, he said he took himself and the car 'to the limit, and perhaps a little bit more' and could not sleep for two nights (self). At the 1956 Argentine Grand Prix he took over team-mate Musso's car after his own failed and won (ferrari.com; shared points). In 1979 he named Ascari and Moss as the two rivals he most feared (Roebuck, self). Kept below 80: the German Grand Prix is one race retold by several writers, most sources are admiring, and the motive (outperforming others rather than an internal standard) is inferred from behaviour."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fangio_obit_motorsport_1995, src_fangio_moss_motorsport_1998, src_fangio_mercedes_classic, src_fangio_tavoni_1998 | 1945-1957 | staff obituary incl. critics' view + rival/team-mate + Mercedes institution + Ferrari-side manager] After his 1949 European season he joined Alfa Romeo, the dominant team, for 1950 (Moss; obit); for 1954 he became the lead driver of Mercedes-Benz's planned return, the contacts dating from 1951, while winning the first two rounds on a Maserati until the W196 was ready (Mercedes-Benz Classic); after Mercedes withdrew he went to Ferrari for 1956 and then to Maserati for 1957, where Orsi was happy to pay his demands (Tavoni). Moss calls him extremely shrewd about how different teams treated drivers and says he advised him to drive for Ferrari but never sign. The obituary records the criticism, 'especially from Italian sources', that he always manipulated himself into the best team, and answers that this was peasant practicality: the best team will hire the best driver. Outside racing, the obituary says he built a haulage company on his public fame and by 1945-46 was trading US war-surplus trucks, and Mercedes-Benz Classic says he ran a Mercedes-Benz agency in Buenos Aires from the mid-1950s. Moderate: teams were also pursuing him, his own reasoning is thinly documented, and the critics and defenders disagree on motive, hence dual_edged."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fangio_moss_motorsport_1998, src_fangio_mercedes_classic, src_fangio_fearnley_goodwood_monaco_1957, src_fangio_smith_goodwood_ring_2026, src_fangio_roebuck_legends_2001 | 1949-1979 | rival + institution + journalists + eyewitness] Moss says he served his apprenticeship in battered American sedans in long South American road races, and Mercedes-Benz Classic says he won his first race in Europe, at San Remo in 1949, then won titles in cars from four different makers (Alfa Romeo, Mercedes-Benz, Ferrari, Maserati). At Monaco in 1957 the unwanted V12 Maserati would not run at low revs, so he used a deliberately brutal clutch technique to try to get a lap out of it and the V12 car was then pushed away rather than foisted on a weaker team-mate (Fearnley). At the 1957 German Grand Prix he adopted a half-tank start and a mid-race stop to run softer tyres than Ferrari (Smith). In 1979, aged 68 and in an unfamiliar 1937 W125 at Donington, he caught a tail slide on his first lap (Roebuck, eyewitness). Several dated instances from different perspectives; the road-racing background and the right-tool-for-each-car framing come mainly from admiring accounts."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fangio_moss_motorsport_1998, src_fangio_obit_motorsport_1995, src_fangio_roebuck_legends_2001, src_fangio_roebuck_autosport_1995, src_fangio_fearnley_goodwood_sportscars_1957 | 1953-1957 | team-mate + obituary + journalist + self] Moss says he always treated mechanics as friends and colleagues and had endless time for fans; the obituary calls him a team player who throughout his life would readily share credit, and describes mechanics in photographs as beaming, expectant, happy to be working with the best. In his own account (1979, via an interpreter) he made sure in every team that the mechanics were on his side by promising them 10 per cent of whatever he won, and at Ferrari in 1956 got a mechanic assigned exclusively to his car from mid-season (Roebuck 2001; Autosport 1995; self). He shared cars with Moss in the 1955 Mercedes-Benz sports-car team and in Maserati sports cars in 1957 (Moss; Fearnley), and Moss describes learning from following him. Several independent descriptions, but the concrete mechanic arrangements are self-reported and the rest is admiring characterization."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fangio_smith_goodwood_ring_2026, src_fangio_tremayne_f1com_2019, src_fangio_motorsport_75_ring_1957, src_fangio_fearnley_goodwood_sportscars_1957, src_fangio_moss_motorsport_1998 | 1957 | journalists + race report + rival] At the 1957 German Grand Prix he and Maserati planned a half-tank start and a mid-race stop for fuel and fresh soft Pirelli tyres, because he feared the softer rubber would not last the distance (Smith); Tremayne and Roebuck describe the same plan against Ferrari's non-stop approach. At the June 1957 Lisbon sports-car race he let the faster starters set the early pace and passed once their cars were showing the effects (Fangio's words quoted by Fearnley), and at Le Mans in 1957 he held himself in reserve in practice until he could see which car was best placed, which Jenkinson called a crafty move (Fearnley). Moss says he drove only as fast as necessary. Kept moderate: the German Grand Prix plan was a team decision that went wrong at the pit stop, and the other instances are race tactics rather than longer-range planning."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_fangio_moss_motorsport_1998, src_fangio_jenkinson_1957_report, src_fangio_tremayne_f1com_2019 | 1955-1957 | rival + eyewitness report + journalist] Moss says that in the 101 degree Fahrenheit heat of the 1955 Argentine Grand Prix most finishing cars had two or three drivers, but Fangio raced on alone, won and set fastest lap. At the 1957 German Grand Prix he refused to settle for second after a costly stop and kept closing lap after lap until he passed both Ferraris (Jenkinson; Tremayne). These show endurance and a refusal to concede within a single race rather than persistence through repeated setbacks over time, and his crashes and injuries are deliberately not used, so the row stays at inference level and a modest score."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fangio_tavoni_1998, src_fangio_roebuck_autosport_1995, src_fangio_ferrari_com_green, src_fangio_moss_motorsport_1998 | 1956 | Ferrari-side manager + self + Ferrari-affiliated page + rival] According to Tavoni (Ferrari's team manager, an interested party) Fangio wanted at Ferrari the same terms as at Mercedes-Benz, half the prize money plus a salary, and Ferrari declined to name him number one, saying he liked Fangio the driver but not Fangio the man. Fangio's own 1979 account is that he disliked the team manager and had the mechanic system changed halfway through 1956 (self). At the 1956 Argentine Grand Prix he took over Musso's car (Ferrari.com, which says this was not unusual then). Against this Moss describes him as discreet and diplomatic, never critical of people and never any good for gossip, and says he wagged a finger rather than getting angry. A real but moderate lean in negotiations, not in everyday manner."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "후안 마누엘 판지오"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-05) for Q2069 returned en label 'Juan Manuel Fangio', description 'Argentine racing driver (1911–1995)', born 24 Jun 1911, died 17 Jul 1995, citizenship Argentina (Q414), instance of human, ko label '후안 마누엘 판지오', P18 'Juan Manuel Fangio (circa 1952).jpg'; sitelinks enwiki, eswiki, kowiki (kowiki title '후안 마누엘 판히오'). No collision with Fangio II, the Fangio team or the museum. SLUG CHECK: no data-pipeline/candidates/juan-manuel-fangio.json existed; grep of src/data/people/*.ts for 'fangio' finds only passing mentions inside Enzo Ferrari's roster38.ts entry, so no production collision. CLASSIFICATION: occupation athlete, field sport, impactDomains athletic/historical, tags competitor/sustained_excellence, archetype competitive_performer (all ids verified in src/core/i18n/en.ts; style copied from ayrton-senna.json, niki-lauda.json). Region latin_america follows jorge-luis-borges, che-guevara and juan-peron (nationality AR) and ayrton-senna (BR). ERA 20th_century (career 1936-1958, then business). KOREAN NAME: '후안 마누엘 판지오' is the Wikidata ko label and the form common in Korean motorsport usage (Italian-origin surname); Korean Wikipedia's article title is '후안 마누엘 판히오' (Spanish-rule transliteration). The lead should choose; the alternative is a one-string change. EVIDENCE READ: 17 source records (2 orientation, 15 substantive), all fetched with curl to scratch/juan-manuel-fangio/ and read locally in full unless noted: Stirling Moss's 1998 Motor Sport piece; Motor Sport's August 1995 obituary; Roebuck's 2001 'Legends', Autosport 1995 'Farewell to a god' and 2003 Aintree piece; Tavoni interview profile (Motor Sport 1998); Jenkinson's 1957 Ring report (the extract reproduced in Motor Sport July 2004; the rest of that feature only skimmed); Goodwood Road & Racing articles by Damien Smith (2026) and Paul Fearnley (2017, parts 2 and 3); Tremayne (formula1.com 2019); Motor Sport '75 greatest GPs' entries for Monza 1956 and Nurburgring 1957; Mercedes-Benz Classic institutional biography; ferrari.com 'A Story of Sacrifice'. Also opened but NOT recorded or used: Motor Sport March 2023 'When Fangio was kidnapped in Cuba' (read in full; the 1958 Havana kidnapping is incidental and not scored, and no politics are used), Motor Sport Dec 2002 'Ring Leader' (Fearnley's drive of the 250F; only partly read, no row depends on it), Motor Sport Argentine and Monaco 1957 race reports (skimmed), automobilist.com blog (shop page, unusable), the SI Vault 1956 piece (blocked, 487 bytes). Not read: Fangio's autobiography 'My Racing Life' (only via quotation), Richard Williams's and Karl Ludvigsen's books, Guardian/Independent/Times obituaries (not located), Museo Fangio pages. PERSPECTIVES: (1) Stirling Moss, team-mate 1955 and rival, ADMIRING (the strongest first-hand behavioural witness, but openly an admirer); (2) Motor Sport staff obituary, which records and answers the Italian criticism that he always steered himself into the best team (critical perspective, briefly); (3) journalists/historians (Roebuck, Smith, Fearnley, Tremayne, Jenkinson's period report); (4) Ferrari side: Tavoni, an interested party, who says Ferrari liked 'Fangio the driver but not Fangio the man' (adversarial perspective on his 1956 terms), and ferrari.com (weak, corporate); (5) Mercedes-Benz Classic institution (subject-affiliated, weak); (6) SELF perspective, counted once: Fangio's 1979 interview answers via an interpreter as reported by Roebuck (Autosport 1995, Motor Sport 2001) and his quoted autobiography lines. NON-SELF BEHAVIOURAL sources: Moss, the obituary, Jenkinson, Fearnley, Smith, Tremayne, Tavoni. No row rests on self material alone. The sources are overwhelmingly one genre (motor-racing journalism), mostly admiring; adversarial material is limited to the Tavoni profile, the Italian criticism in the obituary and Ferrari's refusal to name him number one, and that limits confidence. CALIBRATION: seven rows, scores 58-76, confidence 0.46-0.62, all below the 85/0.72 ceilings (Roebuck/Roster40 lesson). EPISODE USE: Moss's pole-time remark, the 1957 German Grand Prix comeback, Argentina 1956 car-takeover and the named rivals -> competitiveness; team moves 1950/1954/1956/1957, Moss's 'shrewd' remark, the Italian criticism and the haulage/agency business -> opportunity_sensing; San Remo 1949 win, Monaco 1957 V12 technique, soft-tyre half-tank strategy, 1979 W125 slide -> adaptability; mechanics 10 per cent, mechanic arrangements, shared cars, credit-sharing -> collaboration; half-tank plan, Lisbon and Le Mans 1957 waiting -> planning_orientation; 1955 Argentina heat solo drive and the 1957 chase -> persistence (inference only); Ferrari 1956 terms and Musso's car -> social_assertiveness (inference only). The Ring 1957 episode is used in four rows but each time for a different behaviour (the chase for competitiveness; the strategy for adaptability and planning_orientation; the chase again, thinly, for persistence), and the persistence row is correspondingly weak. ROWS CONSIDERED AND LEFT UNSCORED: risk_tolerance (evidence genuinely mixed: his own account of taking 'chances' at the Ring against his stated patience and the Moss description of drive only as fast as necessary); conflict_tolerance (Moss says he avoided open conflict, Ferrari 1956 gives only one side); mastery_orientation, deep_focus, discipline, perfectionism, detail_orientation (admiring generalities and one self-told Monaco 1950 anecdote about recalling a photograph of a 1936 accident, self-only); decisiveness (same anecdote); leadership_drive (team-leader status at Mercedes, but no dated behavioural account of how he led); autonomy_need and belief_updating (self-told 1950 Rosario 'be patient' lesson only); impact_motivation. EXCLUDED ON PURPOSE: the 1958 Havana kidnapping and all Cuban/Argentine politics, any reading of his relationship with Juan Peron or later regional politics; crashes and injuries (Rosario 1950, Monza 1952, the 1948 Vuelta a America crash that killed his co-driver) and anything inferred from bereavement or grief; Marimon's death and his reaction; the 1955 Le Mans disaster apart from the fact that Mercedes-Benz withdrew its cars on instruction from Stuttgart (Moss) -- no row uses it; the Aintree 1955 question of whether he let Moss win (an acknowledged unknown, recorded in the source title only); the Giambertone ruse story (self-side claim, partly contradicted by Jenkinson's report that the slow stop was real); awards, titles, statistics and fame as evidence; his later presidency of Mercedes-Benz Argentina (a business role, not scored). CONFLICTS REPORTED, NOT ADJUDICATED: (a) the length of the 1957 pit stop and the resulting deficit: stop about 52 s (Jenkinson, Tremayne, Smith), deficit 48 s / 51 s / 52 s depending on source; (b) Wikipedia counts 52 F1 entries (46.15 per cent wins), Motor Sport's obituary says 51 starts; (c) the 1954 championship is credited to Maserati and Mercedes-Benz in different accounts; (d) Fangio told Roebuck he could not have won at Aintree 1955 while Moss's diary notes 'let Fangio lead' and nobody knows. PORTRAIT: Photograph by Willy Pragher (German photographer, 1908-1992) taken 4 Aug 1957 at the Nurburgring after the German Grand Prix, Staatsarchiv Freiburg (Landesarchiv Baden-Wuerttemberg) W 134 Nr. 048170a, 'Nuerburgring: Fangio auf dem Ehrenpodium; gross; mit Kranz', held in the Sammlung Willy Pragher; identification comes from the archive's own item title and matches the Commons category and other Pragher frames. RIGHTS: the archive's item viewer (permalink https://www.landesarchiv-bw.de/plink/?f=5-797206-1, read via zoom.php) states 'Es steht unter der Creative Commons Lizenz CC BY 4.0' and requires citation of source and signature; the archive's terms-of-use page (landesarchiv-bw.de, 'Nutzungsbedingungen auf einen Blick') confirms the CC-BY category for digitised holdings and that the author's name must be given; Commons carries the file under the {{LABW}} tag (CC BY 4.0). The Wikidata P18 image 'Juan Manuel Fangio (circa 1952).jpg' (unknown author, Museo Fangio, reprint in a Clarin book) was rejected for its unknown author and second-hand basis; Anefo/Nationaal Archief CC0 images of Fangio at Zandvoort 1955 (Harry Pot and Joop van Bilsen; 907-1855, 907-1856, 907-1900) exist but are group scenes with Neubauer or Moss rather than portraits, and the National Archives of Norway photograph by Bjorn Fjortoft (7 Aug 1955, Kristianstad; Commons CC BY 4.0) has a good likeness but its licence is stated only by the Commons tag and the institution's own rights statement could not be reached, so it was not used. The Commons file (1124x1677 greyscale) was downloaded with curl, opened with Pillow, downsized with LANCZOS to 1072x1600 JPEG q85, uncropped, saved as public/portraits/juan-manuel-fangio-landesarchiv-bw-1957.jpg. Kind: likeness (from-life photograph). Caveat: the frame is a post-race 1957 image, wet-haired and strained, with a sign fragment ('er Preis v.') at the top; legible but not a studio portrait. No eligibility, coverage or match output was consulted while scoring. PUBLICATION DECISION: evidence_approved -- identity verified, sources read, every row supported, portrait complete; the main limitation is source genre (almost all motor-racing journalism, mostly admiring), which is why confidence stays at or below 0.62."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/juan-manuel-fangio-landesarchiv-bw-1957.jpg",
+    "width": 1072,
+    "height": 1600,
+    "source": "Landesarchiv Baden-Wuerttemberg, Staatsarchiv Freiburg, W 134 Nr. 048170a (Sammlung Willy Pragher), 'Nuerburgring: Fangio auf dem Ehrenpodium; gross; mit Kranz', via Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Willy Pragher / Landesarchiv Baden-Wuerttemberg, Staatsarchiv Freiburg W 134 Nr. 048170a, 4 August 1957 (German Grand Prix, Nuerburgring), CC BY 4.0 (resized from the 1124x1677 Commons file)",
+    "attributionUrl": "https://www.landesarchiv-bw.de/plink/?f=5-797206-1",
+    "creator": "Willy Pragher",
+    "date": "1957-08-04",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:N%C3%BCrburgring-_Fangio_auf_dem_Ehrenpodium;_gro%C3%9F;_mit_Kranz_-_LABW_-_Staatsarchiv_Freiburg_W_134_Nr._048170a.jpeg"
+  }
+}
