@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alfred-wegener",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alfred Wegener",
+    "aliases": [
+      "Alfred Lothar Wegener"
+    ],
+    "wikidataId": "Q76323",
+    "birthYear": 1880,
+    "deathYear": 1930,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "explorer"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "exploration"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_wegener_wikidata",
+      "kind": "wikidata",
+      "title": "Alfred Wegener (Q76323) -- verified live via wbgetentities (2026-10-04): en label 'Alfred Wegener', description 'German climatologist and geophysicist (1880–1930)', P569 1 Nov 1880, P570 Nov 1930, citizenship Germany (Q183), instance of human, birthplace Berlin, place of death Greenland, ko label '알프레트 베게너', P18 'Alfred Wegener ca.1924-30.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q76323"
+    },
+    {
+      "id": "src_wegener_wikipedia",
+      "kind": "wikipedia",
+      "title": "Alfred Wegener, English Wikipedia article -- orientation only (consulted for the outline of his life; not used as support for any row).",
+      "url": "https://en.wikipedia.org/wiki/Alfred_Wegener"
+    },
+    {
+      "id": "src_wegener_ndb_wutzke2020",
+      "kind": "biography",
+      "title": "Ulrich Wutzke, 'Wegener, Alfred Lothar', Neue Deutsche Biographie vol. 27 (2020), pp. 544-546 (Deutsche Biographie online) -- scholarly biographical encyclopedia entry by the leading Wegener bibliographer (non-self; neutral reference tone). Read in full: career from the 1905 doctorate to Graz, the 1906-08 Danmark expedition, the 1912-13 crossing, lunar-crater experiments (1921 book), the 1927 Sall crater campaign, the planning of the 1929 and 1930 expeditions, the continental-drift entry and its reception. Family and honours sections not used.",
+      "url": "https://www.deutsche-biographie.de/sfz45485.html"
+    },
+    {
+      "id": "src_wegener_oeaw_obituary1931",
+      "kind": "press",
+      "title": "Wilhelm Schmidt, obituary 'A. Wegener' in the Almanach der Oesterreichischen Akademie der Wissenschaften 1931, pp. 321-328 (Wegener was a corresponding member) -- contemporary institutional obituary (non-self; admiring in tone but concrete and dated). Read in full: Urania post, Lindenberg and the 1906 balloon record, Danmark expedition, Marburg habilitation and aeronautical society, 1912-13 crossing, First World War service and the first edition of the drift book, 1916 meteorite, 1918/19 crater experiments, Hamburg 1919-24, Graz chair, 1929 pre-expedition and the 1930 relief journey.",
+      "url": "https://opac.geologie.ac.at/ais312/dokumente/Wegener_Nachruf_OEAW.pdf"
+    },
+    {
+      "id": "src_wegener_kehrt_biography",
+      "kind": "institution",
+      "title": "Christian Kehrt (historian of science, Deutsches Museum / Rachel Carson Center), 'Biography of Alfred Wegener', in the virtual exhibition 'The Wegener Diaries' (Environment & Society Portal, 2013, rev. 2020) -- scholar's essay drawing on the Deutsches Museum Wegener papers (non-self; includes a quoted 1911 letter to Koeppen and a 1913 diary passage, which are self material). Read in full: 1906 balloon record, Lindenberg, Danmark expedition, Koeppen's role, the 1911 letter, the 6 Jan 1912 Frankfurt lecture, post-war difficulty finding a professorship, Graz, the four polar expeditions. The portrait on that page is under reserved copyright and was not used.",
+      "url": "https://www.environmentandsociety.org/exhibitions/wegener-diaries/biography-alfred-wegener"
+    },
+    {
+      "id": "src_wegener_kehrt_diaries",
+      "kind": "institution",
+      "title": "Christian Kehrt, 'Alfred Wegener's Greenland Diaries' (overview essay in the Wegener Diaries exhibition, Environment & Society Portal) -- scholar's account of Wegener's scientific work in Greenland, his habit of diary keeping (14 volumes, c. 2,200 pages), his uncertainty about his role on the Danmark expedition, and the later dispute between Johannes Georgi and the Wegener family over the editing of the diaries (non-self; quotes two diary passages, which are self material). Read in full.",
+      "url": "https://www.environmentandsociety.org/exhibitions/wegener-diaries/greenland-diaries"
+    },
+    {
+      "id": "src_wegener_kehrt_expedition1912",
+      "kind": "institution",
+      "title": "Christian Kehrt, 'The Danish North Greenland Expedition 1912-1913' (Wegener Diaries exhibition, Environment & Society Portal) -- scholar's summary of the Koch expedition across the ice sheet, including that Wegener translated Koch's travel diary for the 1919 German edition (non-self; includes one 1912 diary page transcription). Read in full.",
+      "url": "https://www.environmentandsociety.org/exhibitions/wegener-diaries/danish-north-greenland-expedition-1912-1913"
+    },
+    {
+      "id": "src_wegener_kehrt_expedition1930",
+      "kind": "institution",
+      "title": "Christian Kehrt, 'The German Greenland Expedition 1930-1931' (Wegener Diaries exhibition, Environment & Society Portal) -- scholar's summary of the expedition's three-station plan, the seismic ice-thickness method, the delayed start, the untested propeller sledges and the winter at the Eismitte station, and of the family's later accusation against Georgi (non-self; includes one 1930 diary page transcription). Read in full.",
+      "url": "https://www.environmentandsociety.org/exhibitions/wegener-diaries/german-greenland-expedition-1930-1931"
+    },
+    {
+      "id": "src_wegener_demhardt2005",
+      "kind": "biography",
+      "title": "Imre Josef Demhardt, 'Alfred Wegener's Hypothesis on Continental Drift and Its Discussion in Petermanns Geographische Mitteilungen (1912-1942)', Polarforschung 75(1), 2005 (publ. 2006), pp. 29-35 -- scholarly article on the first publication of the hypothesis and the debate it triggered in a leading geographical journal (non-self; critical and balanced). Read in full: Koeppen's warning, the Frankfurt lecture and the 1912 paper, its stated omissions, Penck's 1921 reaction, the joint 1924 palaeoclimate book, the later pro and contra articles.",
+      "url": "https://epic.awi.de/id/eprint/28560/"
+    },
+    {
+      "id": "src_wegener_hofbauer2005",
+      "kind": "biography",
+      "title": "Gottfried Hofbauer (Erlangen), 'Alfred Wegener - Driftende Kontinente und unbewegliche Geologen' (Berichte der Geschichte der Geowissenschaften, 2005) -- scholarly essay by a geologist on Wegener's method and the geologists' rejection (non-self; sympathetic but openly critical of Wegener's drift-rate estimate, his handling of the driving mechanism and his shift from 'working hypothesis' to asserted theory). Read in full: habilitation, 1912 paper, the 1926 New York symposium, Du Toit and Argand, the 1924 palaeoclimate book, the fourth edition.",
+      "url": "https://www.gdgh.de/berichte/b09/wegener.pdf"
+    },
+    {
+      "id": "src_wegener_lake1923",
+      "kind": "biography",
+      "title": "Philip Lake, 'Wegener's hypothesis of continental drift', Geographical Journal 61(3), March 1923, pp. 179-194, with the recorded discussion of 22 January 1923 (speakers Lamplugh, Oldham, Debenham, Harold Jeffreys and others), Internet Archive OCR text -- ADVERSARIAL contemporary scientific critique (non-self). Read in full: Lake's examination of the geological evidence, the discussion, and the chairman's summing-up. Used only to document how the established view received the hypothesis.",
+      "url": "https://archive.org/details/lake-1923-sim-geographical-journal-1923-03-61-3"
+    },
+    {
+      "id": "src_wegener_nasa_ee2001",
+      "kind": "institution",
+      "title": "NASA Earth Observatory, 'Alfred Wegener (1880-1930)' (biographical feature, 8 Feb 2001) -- institutional popular biography (non-self; admiring and partly relying on Georgi, Sorge and Else Wegener). Read in full: Marburg years, the 1911 textbook, 1912-13 crossing, 1915-1929 editions, reception, Koeppen-Wegener palaeoclimates, the 1930 expedition and the search in 1931. Its attribution of one quoted remark about 'scientific sanity' was checked against the 1923 source and not used.",
+      "url": "https://earthobservatory.nasa.gov/features/Wegener/wegener_5.php"
+    },
+    {
+      "id": "src_wegener_awi_page",
+      "kind": "institution",
+      "title": "Alfred-Wegener-Institut, Helmholtz-Zentrum fuer Polar- und Meeresforschung, 'Alfred Wegener' (biographical page by Christian Salewski, German) -- institutional biography by the institute named after him (non-self; admiring). Read in full: 1905 lightning episode, sledge distances on the 1906-08 and 1912-13 expeditions, 1930 funding cuts and delays, the supply journey to Eismitte.",
+      "url": "https://www.awi.de/ueber-uns/organisation/alfred-wegener.html"
+    },
+    {
+      "id": "src_wegener_own_book1929",
+      "kind": "archive",
+      "title": "Alfred Wegener, Die Entstehung der Kontinente und Ozeane, 4th revised edition (Braunschweig: Vieweg, 1929), Internet Archive OCR text -- SELF perspective (his own main work). Read: the preface (Graz, Nov 1928) and chapter 1 'Geschichtliche Vorbemerkungen' in full, and the passages naming critics and naming earlier authors. Used only for how he describes his own method and priority, never as the sole support of a row.",
+      "url": "https://archive.org/details/Entstehung1929"
+    },
+    {
+      "id": "src_wegener_luedecke2000_abstract",
+      "kind": "biography",
+      "title": "Cornelia Luedecke, 'Lifting the veil: the circumstances that caused Alfred Wegener's death on the Greenland icecap, 1930', Polar Record 36(197), April 2000, pp. 139-154 -- scholarly article; ONLY THE PUBLISHED ABSTRACT was read (full text paywalled). The abstract states that the expedition leader and some members made erroneous judgements, that radio contact failed, and that no single person can be blamed. Used only for that hedge.",
+      "url": "https://doi.org/10.1017/S0032247400016247"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wegener_demhardt2005, src_wegener_ndb_wutzke2020, src_wegener_oeaw_obituary1931, src_wegener_lake1923, src_wegener_hofbauer2005 | 1911-1927 | scholars (Demhardt, Hofbauer) + scholarly encyclopedia (Wutzke) + contemporary academy obituary + adversarial 1923 critics] Three separately documented positions taken against the prevailing view. (1) Continental drift: Koeppen warned him in vain not to wander into geology as a meteorologist (Demhardt) and on 6 Jan 1912 he put the hypothesis to the Geologische Vereinigung in Frankfurt; the January 1923 meeting at the Royal Geographical Society shows the established view was against it (Lake, Lamplugh, Debenham, Jeffreys, with the chairman noting geologists 'regret' it cannot be proved), and Hofbauer reports that most geologists rejected horizontal drift through the 1920s. (2) Lunar craters: after impact experiments in 1918/19 he argued in his 1921 book, 'contrary to the prevailing view', that they were impact scars, a view Wutzke says was generally accepted only four decades later. (3) Sall (Kaali) crater: in Sept 1927 a measurement campaign showed an impact origin 'when the majority of scientists rejected' the existence of meteorite craters (Wutzke). The 1931 academy obituary independently describes him as following an idea independent of the prevailing views, largely in sharp contrast to them. Several independent sources and three distinct episodes; kept below 85 because the three share one stance and the strength of the opposition is partly described retrospectively; the 1923 critics are adversarial but are used only to show reception, not his character."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wegener_kehrt_expedition1912, src_wegener_awi_page, src_wegener_demhardt2005, src_wegener_own_book1929, src_wegener_ndb_wutzke2020, src_wegener_kehrt_expedition1930 | 1912-1930 | scholar + institutional biography + scholarly article + encyclopedia + self (secondary)] Several dated efforts carried on through difficulty. The 1912-13 crossing of the Greenland ice sheet, after overwintering at the ice edge, ended with the party reaching the west coast 'entirely exhausted' (Kehrt); the AWI page counts about 1,200 km on foot, mostly on skis, 75 days on the ice proper. He published the drift hypothesis in 1912, expanded it into a 94-page book in 1915 during the war, and reworked it for 1920, 1922 and 1929 as literature accumulated; the 4th edition is described as substantially redone (Demhardt; his own chapter 1). For Greenland he moved from a 1929 pre-expedition to the 1930 main expedition even after a 38-day delay at the landing and reduced state funds (AWI; Kehrt; Wutzke). Independent sources and distinct episodes over nearly two decades; kept below 80 because the AWI and NASA accounts are admiring and the expedition episode partly overlaps with risk_tolerance and planning_orientation."
+    },
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wegener_ndb_wutzke2020, src_wegener_oeaw_obituary1931, src_wegener_hofbauer2005, src_wegener_own_book1929, src_wegener_nasa_ee2001 | 1904-1929 | encyclopedia + obituary + scholarly essay + self + institutional] Documented sustained work in many fields with real output: a doctorate in astronomy (Alfonsine tables, 1905); aerology and polar meteorology (kite and balloon soundings, 1911 textbook, habilitation in meteorology, practical astronomy and cosmic physics); glaciology and seismic ice-thickness measurement; atmospheric optics, tornadoes and sound propagation; lunar craters (1921 book) and the Sall impact crater (1927); palaeoclimatology (joint 1924 book); and, for the drift hypothesis, geology, palaeontology and biogeography, which Hofbauer notes did not arise from his own field and which his 1929 preface addresses to geodesists, geophysicists, geologists, palaeontologists and plant and animal geographers (Wutzke; Schmidt; Hofbauer). NASA quotes Hans Cloos recalling that Wegener asked him for geological help. Several independent sources and many separate fields; no single anecdote."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wegener_ndb_wutzke2020, src_wegener_oeaw_obituary1931, src_wegener_kehrt_expedition1930 | 1906-1930 | encyclopedia + contemporary obituary + scholar] Repeated hands-on testing of ideas with new methods or instruments: the 1906-08 kite and tethered-balloon soundings, the first systematic polar atmosphere soundings (Wutzke; Schmidt); elaborate impact experiments to simulate lunar craters, winter 1918/19 in Marburg (Schmidt; Wutzke); a three-month Atlantic voyage in 1922 with a specially built angle-measuring device to record upper winds, with Kuhlbrodt (Wutzke; Schmidt); the Sept 1927 measurement campaign at Sall crater that found extraterrestrial iron (Wutzke); and in 1929-30 the first reflection-seismic ice-thickness measurements and field trials of new equipment, then the deployment of propeller sledges (Wutzke; Kehrt). Many dated instances from independent sources; not higher because the sledge trials went badly and the detail of the experiments is thinly described in what was read."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wegener_oeaw_obituary1931, src_wegener_ndb_wutzke2020, src_wegener_awi_page | 1909-1930 | contemporary obituary + encyclopedia + institutional] Repeatedly started things rather than waiting for them: in Marburg he founded the Kurhessian aeronautical society and flew as its only balloon pilot at first (Schmidt; Wutzke lists him as founding member, 1909); in summer 1911 he and Koch made the plan for the ice-sheet crossing (Schmidt); in Hamburg he set up a geophysical colloquium with Schott and Tams (Schmidt); from 1927 he drew up the aims of a German Greenland expedition built on three year-round stations, secured Notgemeinschaft support with the president's backing, and ran a 1929 pre-expedition to find the ascent route (Wutzke; Schmidt). Multiple independent sources and distinct initiatives; the expedition episode is shared with planning_orientation but the other three are separate."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wegener_demhardt2005, src_wegener_ndb_wutzke2020, src_wegener_oeaw_obituary1931, src_wegener_nasa_ee2001, src_wegener_kehrt_expedition1912, src_wegener_own_book1929 | 1906-1930 | scholar + encyclopedia + obituary + institutional + self] Several distinct joint undertakings: the world-record balloon flight of 1906 with his brother Kurt, who led it (Schmidt); the joint 1924 palaeoclimate book with Koeppen, whose supporting papers Demhardt documents (Demhardt; Wutzke); co-planning and then joint authorship of the scientific report of the 1912-13 Koch expedition and his translation of Koch's travel account for the 1919 German edition (Wutzke; Kehrt); the development of the Atlantic wind-measuring equipment with Kuhlbrodt and the Hamburg colloquium (Schmidt); asking the geologist Hans Cloos for help (NASA, quoting Cloos); and, in his own words, material sent to him by specialists in every field for the 4th edition (1929 preface). Several independent sources; Kehrt's passing mention of conflicts with other expedition members in the diaries is not used."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_wegener_awi_page, src_wegener_nasa_ee2001, src_wegener_ndb_wutzke2020, src_wegener_luedecke2000_abstract | 1906-1930 | institutional + encyclopedia + abstract of scholarly article] A moderate lean towards accepting physical exposure for scientific aims, from several distinct episodes: the 1906 endurance balloon flight, which the AWI page says was badly equipped with clothing and food and ended with the brothers marked by hunger and cold; the 1912 expedition in which, per NASA, the party barely survived a calving glacier before overwintering on the ice cap; and the decision, late in the 1930 season, to lead a supply convoy to Eismitte (Wutzke; AWI). Luedecke's abstract notes erroneous judgements by the leader as well as others, so the last episode is read as a risk judgement, not a verdict on the outcome. His death is NOT used as evidence; only decisions he took. Kept at moderate score and strong_inference; dual_edged because the same readiness accompanied misjudgements on the 1930 expedition."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_wegener_ndb_wutzke2020, src_wegener_oeaw_obituary1931, src_wegener_kehrt_expedition1930, src_wegener_awi_page, src_wegener_luedecke2000_abstract | 1927-1930 | encyclopedia + obituary + scholar + institutional + abstract] Mixed but documented. For the German Greenland expedition he designed from 1927 a coordinated plan of three year-round stations at about 71 degrees N with identical meteorological, glaciological, geodetic and seismic measurements, and ran a 1929 pre-expedition explicitly to test new equipment and find a suitable ascent glacier, so as to depend on certainty rather than on lucky chances (Wutzke; Schmidt). Against this, the 1930 main expedition counted on untested propeller sledges that proved unusable in the storms (Schmidt; Kehrt), started late, and left Eismitte under-supplied after a 38-day delay and reduced funding (Kehrt; AWI), and the Luedecke abstract notes erroneous judgements by the leader. Two clear instances of forward planning set against a documented shortfall in execution; hence a modest score and dual_edged."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_wegener_hofbauer2005, src_wegener_demhardt2005, src_wegener_own_book1929, src_wegener_lake1923 | 1912-1929 | scholars + self + adversarial critique] He advanced a major hypothesis while openly leaving its driving mechanism unresolved. In 1912 he wrote that he could not yet say what forces tore the first crust open and that the time seemed 'not ripe' for an analysis of causes (Hofbauer quoting the 1912 paper; Demhardt records the tide and 'accidental currents' suggestions); in his 1929 preface he says the truth can only be found by combining all earth sciences and that any new discovery in any science may modify the result (own preface). Critics used the gap: Jeffreys in 1923 called the proposed causes 'ridiculously inadequate' (Lake discussion). Two distinct instances across seventeen years from independent readers plus his own framing; dual_edged because the open mechanism became the main objection."
+    },
+    "belief_updating": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_wegener_hofbauer2005, src_wegener_own_book1929, src_wegener_lake1923 | 1912-1929 | scholar + self + adversarial critique] Genuinely mixed, so scored near the middle at low confidence. For: he reworked the book for the 1920, 1922 and 1929 editions as the literature grew, credits earlier authors by name (Taylor, Pickering, Mantovani and others), and in the 1929 preface admits that he himself once wrote, 'in a weak hour', that geophysics alone could decide the matter, contrary to his later stance. Against: Hofbauer notes that he kept his estimate of 14-28 m per year of drift in Greenland until 1929 although there were well-founded views that the Atlantic was far older there, paid only superficial attention to the mantle-convection idea of Holmes, and in his later efforts to win acceptance added no fundamentally new arguments; in 1923 Debenham said he 'changes his ground' (Lake discussion, adversarial). One scholarly judgement plus self and adversarial remarks, no single decisive episode; not stronger either way."
+    },
+    "intuitive_synthesis": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wegener_hofbauer2005, src_wegener_demhardt2005, src_wegener_kehrt_biography, src_wegener_ndb_wutzke2020, src_wegener_own_book1929 | 1910-1924 | scholars + encyclopedia] A pattern of drawing scattered observations into one overall picture, from two distinct works. The drift hypothesis grew from the fit of the Atlantic coasts (noticed in 1910, and in his words first set aside as improbable) and from a chance-read review of the Brazil-Africa land-bridge evidence in autumn 1911, which he combined with isostasy, fossils and structure (own chapter 1; Hofbauer; Wutzke). The 1924 book with Koeppen then reinterpreted the palaeoclimate record through maps of the drifted continents, which Demhardt notes ironically drew support from the adversaries' own field. Kehrt describes his publications as 'often based on intuitive insights and careful observations' across very different fields. Several works, scholarly sources; strong_inference because the descriptions of how he reasoned come from historians, and the two drift/palaeoclimate episodes are closely linked."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알프레트 베게너"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-04) for Q76323 returned en label 'Alfred Wegener', description 'German climatologist and geophysicist (1880–1930)', P569 1 Nov 1880 (precision day), P570 Nov 1930 (precision month), citizenship Germany (Q183), instance of human (Q5), place of birth Berlin (Q64), place of death Greenland (Q223), ko label '알프레트 베게너', P18 'Alfred Wegener ca.1924-30.jpg' and 'Wegener Alfred signature.jpg'. Matches the intended person; the Alfred Wegener Institute (Q536656) and the Alfred Wegener medal are different entities and were not used. SLUG CHECK: no data-pipeline/candidates/alfred-wegener.json and no public/portraits/*wegener* existed before this run; grep -ril 'wegener' src/data/people/ found nothing; no production collision. CLASSIFICATION: no 'meteorologist'/'geophysicist' occupation id exists (grep src/core/i18n/en.ts), so occupationIds are scientist + explorer (as fridtjof-nansen.json); fieldIds natural_science + exploration (as alexander-von-humboldt.json / fridtjof-nansen.json); impactDomains scientific + historical; tags explorer, field_researcher, cross_disciplinary (all verified existing ids; late_recognition deliberately NOT used because the later acceptance of drift is not personality evidence); archetypes scientific_explorer, cross_disciplinary_generalist (as humboldt). ERA: 20th_century because the documented career runs 1905-1930 (as marie-tharp / lise-meitner; nansen's 1861-1930 is 19th_century only because his major exploration was earlier). REGION: western_europe, following how production and candidates treat German nationals (alexander-von-humboldt, carl-friedrich-gauss, max-planck, albert-einstein, werner-heisenberg all western_europe; lise-meitner's central_europe reflects her Austrian base and was not followed); nationality DE (he held a chair at Graz, Austria, from 1924, but was a German citizen throughout). EVIDENCE READ (all fetched with curl/pdftotext into the scratch folder and read locally; 15 source records: 2 orientation, 12 substantive, 1 abstract-only): NDB entry by Ulrich Wutzke (2020, in full); Wilhelm Schmidt's 1931 obituary in the Almanach of the Austrian Academy of Sciences (in full); Christian Kehrt's four pages of the Deutsches Museum / Rachel Carson Center 'Wegener Diaries' exhibition (biography, diaries overview, 1912-13 expedition, 1930-31 expedition; the 1906-08 Danmark page was also read and used only for the observation that Wegener was a novice there with uncertainty about his role, which is not used in any row); Imre Demhardt's 2005 Polarforschung article (in full); Gottfried Hofbauer's 2005 essay (read the sections on method, the 1912 paper and the debate; the closing section on plate tectonics was only skimmed); Philip Lake's 1923 Geographical Journal paper and the recorded discussion (in full); NASA Earth Observatory's 2001 feature (in full); AWI's biography page (in full); Wegener's own 4th edition (1929), preface and chapter 1 (self) with grep checks of the critics list; and the abstract of Luedecke's 2000 Polar Record article (paywalled, abstract only). PERSPECTIVES: (1) scholarly encyclopedia (Wutzke); (2) contemporary institutional obituary (Schmidt, admiring); (3) historian of science (Kehrt, Deutsches Museum archive based); (4) historians/critics of method (Demhardt, Hofbauer; critical of the drift rate, mechanism and 'working hypothesis' to 'theory' shift); (5) ADVERSARIAL contemporary scientific critique (Lake 1923, Lamplugh, Debenham, Jeffreys; used only to document reception); (6) institutional biographies (AWI, NASA; admiring; NASA relies on Georgi, Sorge and Else Wegener); (7) SELF (1929 preface and chapter 1; Wegener's quoted letters and diary passages inside Kehrt/NASA/Demhardt). NON-SELF BEHAVIOURAL SOURCES: Wutzke, Schmidt, Kehrt, Demhardt, Hofbauer, Lake, AWI, NASA. No row rests on self material alone. EPISODE USE: opposition to the prevailing view (drift 1912; lunar craters 1921; Sall 1927) -> independent_thinking only; the same Sall/crater experiments are ALSO cited under experimentation (as method) and cross_domain_range (as a field), which are distinct traits but share material; 1912-13 crossing, book revisions 1915-1929 and 1929-30 expedition continuation -> persistence; 1906 balloon flight, 1912 glacier episode and 1930 relief convoy -> risk_tolerance (the 1930 convoy is ALSO used in planning_orientation only as part of the expedition's logistics shortfall, not as a risk episode); three-station plan and 1929 pre-expedition -> planning_orientation and proactive_agency; Koeppen, Koch, Kuhlbrodt, brother Kurt, Cloos -> collaboration; the 'time not ripe' remark and the preface -> ambiguity_tolerance; edition history, Holmes and the drift rate -> belief_updating; coast fit plus 1911 reading and 1924 palaeoclimate reconstruction -> intuitive_synthesis. ROWS CONSIDERED AND LEFT UNSCORED: leadership_drive (led three expeditions, but the 'obligation to be a hero' letter is known only through NASA's retelling and the leadership evidence overlaps proactive_agency); conflict_tolerance and social_assertiveness (NASA says he stayed quiet at the 1926 New York symposium, but that is a one-line retelling; Demhardt notes he never again defended the hypothesis in Petermanns Mitteilungen; no first-hand record of how he behaved in confrontation was read); persuasiveness (his lectures reached geologists but results were mostly negative); detail_orientation (obsessive diary keeping is documented by Kehrt, but Lake and Debenham accuse him of sloppiness in the fit, which I could not evaluate); curiosity (evidence overlaps cross_domain_range); deep_focus, mastery_orientation, achievement_drive, competitiveness (no direct behavioural evidence read); resourcefulness (the Eismitte ice cave was dug by Georgi and Sorge, not Wegener). EXCLUDED ON PURPOSE: his death and the manner of it as trait evidence (only decisions are used); the heart condition mentioned in the obituary; war wounds and service; his marriage and children, including the later marriages of his daughters (one to a Nazi Gauleiter, per the NDB genealogy) and any use of his legacy by later regimes; fame, honours, the institute named after him, and the vindication of continental drift by plate tectonics (not personality evidence). CONFLICTS AND CAUTIONS REPORTED, NOT ADJUDICATED: (a) NASA's feature attributes a remark about 'scientific sanity' to a British geologist; the 1923 discussion shows it was spoken by R. D. Oldham about the era BEFORE Wegener, so it was not used; (b) NASA says the relief run was 'unnecessary' because Eismitte could stretch its supplies; Luedecke's abstract only says that judgements were erroneous and that Georgi became a scapegoat, and the Wegener family's accusation against Georgi is reported by Kehrt; none of this is adjudicated here; (c) NASA and the 1931 obituary imply that a professorship in Germany was blocked by the reception of drift, whereas Kehrt only says he 'still had trouble finding a professorship' after the war, and the obituary and AWI record a Hamburg extraordinary professorship (1920 and 1921 respectively) and the Graz chair from 1924, so no row uses a causal claim about that; (d) the Titularprofessor date is 1916 (NDB, obituary) while some secondary sources say 1917; (e) the NDB gives the death as 'around 15 Nov 1930', AWI as 'around 16 Nov', Wikidata only 'Nov 1930'; (f) the 1927 longitude measurement that Wegener's 1929 edition presents as showing Greenland's present drift is NOT used (Hofbauer notes the geodetic accuracy of the period was far too low for the few centimetres per year that are actually involved). KNOWN LIMITS: Mott Greene's 2015 biography, Naomi Oreskes' The Rejection of Continental Drift, Roger McCoy's Ending in Ice, Else Wegener's and Georgi's accounts, and the 1928 AAPG symposium volume are not freely readable (library-lending-only or behind Cloudflare/HathiTrust/AAPG bot walls, which were not bypassed) and were NOT read; the American reception is therefore represented only by Hofbauer's summary and the 1923 British discussion. Wegener's diaries were not read beyond the transcribed passages quoted by Kehrt. No eligibility, coverage or match output was computed or used in scoring; the profile is deliberately limited to 11 rows, all at or below 0.72 confidence and 80 score. PORTRAIT: see portrait object. Commons file 'A Wegener Friis 1913.jpg' (Achton Friis, pencil portrait signed and dated 1913, from J. P. Koch, Durch die weisse Wueste, Springer, Berlin 1919; Commons template PD-old-70; Friis (Wikidata Q1551253) lived 1871-1939 so the term has expired in Denmark/EU, and a 1919 publication is also US public domain). The Wikidata P18 photo 'Alfred Wegener ca.1924-30.jpg' was rejected: author unknown (Bildindex Foto Marburg fm426294a), no publication given, PD-anon-70-EU claim without a publication date. The Deutsches Museum and AWI photographs shown on the Kehrt pages carry reserved-rights notices and were not used. Face checked visually against the 1924-30 photograph and the 1910 Bildindex photograph: the 1913 drawing matches the later photograph. KOREAN NAME: '알프레트 베게너' is the Wikidata ko label. LEAD PORTRAIT NOTE: portrait kind set to historical_depiction (a signed 1913 pencil drawing by Achton Friis; the sources do not state whether it was drawn from life or from a photograph). LEAD ERROR_CORRECTION (C, mechanical, no scoring change): source `kind` values mapped to the closed SourceKind vocabulary / internal archive identifier removed from a public source title: src_wegener_ndb_wutzke2020:encyclopedia->biography; src_wegener_oeaw_obituary1931:obituary->press; src_wegener_demhardt2005:journal->biography; src_wegener_hofbauer2005:journal->biography; src_wegener_lake1923:journal->biography; src_wegener_own_book1929:book->archive; src_wegener_luedecke2000_abstract:journal->biography."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alfred-wegener-friis-1913.jpg",
+    "width": 1200,
+    "height": 1600,
+    "source": "Achton Friis, pencil portrait of Alfred Wegener, plate in J. P. Koch, Durch die weisse Wueste (Berlin: Julius Springer, 1919), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-70",
+    "attribution": "Achton Friis (1871-1939), 'Alfred Wegener', pencil portrait signed and dated 1913; published in J. P. Koch, Durch die weisse Wueste, Julius Springer, Berlin 1919; public domain (artist died 1939)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:A_Wegener_Friis_1913.jpg",
+    "creator": "Achton Friis",
+    "date": "1913",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:A_Wegener_Friis_1913.jpg"
+  }
+}

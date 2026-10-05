@@ -83,7 +83,7 @@ test("people directory: default (unfiltered) view shows the current live Directo
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
-  await expect(page.getByText(/^349 people$/)).toBeVisible();
+  await expect(page.getByText(/^363 people$/)).toBeVisible();
 });
 
 test("people directory: heading hierarchy still holds with an active search filter (en-US)", async ({ page }) => {
@@ -647,7 +647,11 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // none of the 14 crosses BOTH the curiosity and collaboration thresholds,
   // so the filtered count of 9 is unaffected and only the "out of N" total
   // moves.
-  expect(bodyText).toMatch(/전체\s*350명\s*중\s*9명/);
+  // Total updated again 350->364 (Roster42, 2026-10-05, docs/checkpoints/
+  // roster42.md: 14 new people, all freshly researched, zero backlog reuse,
+  // one portrait hold). Cross-facet count 9 re-verified with the Directory's
+  // own filter (`filterPeople`) before this edit.
+  expect(bodyText).toMatch(/전체\s*364명\s*중\s*9명/);
   expect(bodyText).toContain("베라 루빈");
   expect(bodyText).toContain("에르되시");
   expect(bodyText).toContain("오펜하이머");

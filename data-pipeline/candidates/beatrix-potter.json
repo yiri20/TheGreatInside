@@ -1,0 +1,253 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "beatrix-potter",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Beatrix Potter",
+    "aliases": [
+      "Helen Beatrix Potter",
+      "Mrs William Heelis"
+    ],
+    "wikidataId": "Q214565",
+    "birthYear": 1866,
+    "deathYear": 1943,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "artist",
+      "naturalist",
+      "conservationist"
+    ],
+    "fieldIds": [
+      "literature",
+      "art",
+      "environmental_science"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "artistic"
+    ],
+    "tagIds": [
+      "self_taught",
+      "independent",
+      "detail_oriented",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_potter_wikidata",
+      "kind": "wikidata",
+      "title": "Beatrix Potter (Q214565) -- verified live via wbgetentities (2026-10-04): en label 'Beatrix Potter', description 'British children's writer and illustrator (1866–1943)', P569 28 Jul 1866, P570 22 Dec 1943, citizenship United Kingdom (Q145), instance of human, ko label '베아트릭스 포터', P18 'Beatrix Potter by King cropped.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q214565"
+    },
+    {
+      "id": "src_potter_wikipedia",
+      "kind": "wikipedia",
+      "title": "Beatrix Potter -- English Wikipedia article (read 2026-10-04 via action=raw). Orientation only: used to locate leads (Kew, the Linnean Society, the 1903 doll patent, Hill Top, Troutbeck Park, the 1930 Monk Coniston purchase) and never as support for a scored row.",
+      "url": "https://en.wikipedia.org/wiki/Beatrix_Potter"
+    },
+    {
+      "id": "src_potter_vam_tale",
+      "kind": "institution",
+      "title": "Victoria and Albert Museum, 'Peter Rabbit: the tale of The Tale' (V&A article, last updated 17 April 2024; the museum holds the Linder Bequest of Potter drawings, manuscripts and proofs) -- curatorial institutional account (non-self), read in full: the 4 September 1893 picture letter to Noel Moore, the rejection by at least six publishers, her insistence on a small, cheap book, the 250 privately printed copies of 16 December 1901, Warne's offer the same day, her cutting of eleven illustrations and rewriting to 32 pages, her proof corrections and cover design, the October 1902 first edition, and the later changes to the text and endpapers. It quotes her letters.",
+      "url": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale"
+    },
+    {
+      "id": "src_potter_vam_intro",
+      "kind": "institution",
+      "title": "Victoria and Albert Museum, 'Introducing Beatrix Potter' (V&A article for the 2022 exhibition Beatrix Potter: Drawn to Nature, last updated 17 April 2024) -- curatorial institutional overview (non-self), read in full: her home education and art training, studies at the Natural History Museum and under the microscope, fungi and the lost 1897 spore paper, the Hildesheimer and Faulkner commission of 1890, Hill Top (1905), Castle Farm (1909), her 1913 marriage, Troutbeck Park (1923), the Herdwick sheep and the shepherd Tom Storey, the books after 1913, and the bequest to the National Trust. Its passages on her engagement, family and eyesight are not used as trait evidence.",
+      "url": "https://www.vam.ac.uk/articles/introducing-beatrix-potter"
+    },
+    {
+      "id": "src_potter_linnean",
+      "kind": "institution",
+      "title": "The Linnean Society of London, 'Beatrix Potter (1866-1943): The Tale of the Linnean Society' (society's history-of-science page, drawing on its own minute book) -- institutional archival account (non-self) and a CORRECTIVE source, read in full: the paper (No. 2978) was read and discussed on 1 April 1897 by George Massee and withdrawn by Potter on 8 April, not rejected; women were not Fellows until 1905 and papers were routinely read by others; her mentor Charles McIntosh; over 350 fungal illustrations; the Armitt and V&A holdings; and a warning that a mistranslated diary footnote has misled historians about her views on lichens. Quotes her September 1897 letter to McIntosh.",
+      "url": "https://linnean.org/the-society/history-of-science/beatrix-potter-the-tale-of-the-linnean-society"
+    },
+    {
+      "id": "src_potter_lepp_anbg",
+      "kind": "institution",
+      "title": "Heino Lepp (Australian National Botanic Gardens and National Herbarium), 'Beatrix Potter and Fungi' case study on the anbg.gov.au fungi pages (last updated 2008) -- scholarly, deliberately balanced and CRITICAL account (non-self) built chiefly on Lear's biography, Mary Noble's chapter, Potter's letters to McIntosh and her Journal, read in full. It follows her fungal painting from 1887 and McIntosh's mentoring from 1892, her independent spore-germination experiments, the 1896 Kew visits and exchanges with Massee and the Director Thiselton-Dyer, the Linnean paper and its withdrawal, and her continued work to September 1897; it quotes her letters, calls one of them 'not the most diplomatic wording', rejects the popular claim that she was first to show lichens are fungus-alga partnerships, and warns against inflated claims.",
+      "url": "https://anbg.gov.au/fungi/case-studies/beatrix-potter.html"
+    },
+    {
+      "id": "src_potter_smithsonian",
+      "kind": "press",
+      "title": "Smithsonian Magazine, 'How Beatrix Potter Invented Character Merchandising' (feature built on interviews with her biographer Linda Lear and Beatrix Potter Society chair Rowena Godfrey) -- journalism relaying biographers' findings (non-self; one chain of evidence via Lear), read in full: the publishers' objections to her format and price, the 1901 self-publication and Warne's response, the unregistered American copyright, her prototype Peter Rabbit doll and the doll patent of December 1903, the patented board game, her close supervision of licensed goods, and the 1917 episode when she produced new material to help Warne after Harold Warne's arrest. Quotes from her letters appear.",
+      "url": "https://www.smithsonianmag.com/arts-culture/how-beatrix-potter-invented-character-merchandising-180961979/"
+    },
+    {
+      "id": "src_potter_hornbook1944",
+      "kind": "press",
+      "title": "Bertha E. Mahony Miller, 'Beatrix Potter in Letters', The Horn Book Magazine, May 1944 (online reprint) -- PERIOD tribute by an American bookseller and editor who corresponded with Potter from 1927 until November 1943 (friendly; non-self) and who quotes her letters at length (those quotations are SELF material, counted as one self perspective). Read in full: the May 1927 letter sending signed drawings to be sold for a fund to save land on Windermere, her November 1942 and August 1943 letters on managing two sheep farms and chairing the Herdwick Breeders' meetings, her 1929 letter on how she came to write and print Peter Rabbit, her comments on writing and revision, and quotations from 1944 obituary assessments in British and American papers.",
+      "url": "https://hbook.com/story/beatrix-potter-in-letters-vhe"
+    },
+    {
+      "id": "src_potter_bps_farmer",
+      "kind": "institution",
+      "title": "The Beatrix Potter Society, 'The Farmer' (society website page) -- learned-society page (non-self but friendly toward her): Hill Top (1905), Castle Farm (1909), her marriage, her work on rural-life committees and opposition to hydroplanes on Windermere, Troutbeck Park (1923), her election in March 1943 as president-elect of the Herdwick Sheep Breeders' Association, her role from 1930 as de facto land agent for the National Trust, and the bequest of over 4,000 acres. Read in full; it gives fifteen farms where other sources give fourteen.",
+      "url": "https://beatrixpottersociety.org.uk/beatrix-potter/the-farmer/"
+    },
+    {
+      "id": "src_potter_bps_artist",
+      "kind": "institution",
+      "title": "The Beatrix Potter Society, 'The Artist' (society website page) -- learned-society page (friendly), read in full: her childhood study of pets and collections, her early copies of fairy-tale and Alice illustrations, and her bequest of her fungus, moss and microscope studies and Roman-artefact watercolours to the Armitt Library, Ambleside.",
+      "url": "https://beatrixpottersociety.org.uk/beatrix-potter/the-artist/"
+    },
+    {
+      "id": "src_potter_armitt",
+      "kind": "institution",
+      "title": "The Armitt Museum and Library, Ambleside: 'Under the Microscope' (Beatrix Potter display page, 2024) and 'The Armitt to be displayed in the new V&A exhibition' (news item, 11 January 2022) -- holder of most of her fungal drawings (non-self), both pages read in full: hundreds of fungal paintings from the late 1880s through the 1890s, bequeathed by 1943-46; marginal notes implying magnification of at least x600; her and her husband's membership from 1913.",
+      "url": "https://www.armitt.com/under-the-microscope/"
+    },
+    {
+      "id": "src_potter_victorianweb",
+      "kind": "biography",
+      "title": "Hannah Swamidoss, 'Beatrix Potter: An Introduction', The Victorian Web (last modified 16 July 2014) -- academic overview (non-self) that cites Lear, Lane and Taylor page by page; read in full. Used for her 1892-97 fungal studies and the Linnean episode, the 1901 self-publication, her low-price insistence, her merchandise, Hill Top and her purchases of land with the help of William Heelis, and her writing of Appley Dapply's Nursery Rhymes and two painting books in 1917 to help Warne. Derivative of the biographies it cites.",
+      "url": "https://victorianweb.org/authors/potter/intro.html"
+    },
+    {
+      "id": "src_potter_cdc_eid",
+      "kind": "institution",
+      "title": "Byron Breedlove, 'Beatrix Potter, Author, Naturalist, Mycologist', Emerging Infectious Diseases 25(9), September 2019 (CDC 'About the Cover' essay, PMC6711238) -- public-health journal essay (non-self) quoting Lear and Marta McDowell, read in full: 350 paintings of fungi and lichens, McIntosh's mentoring, her motives for painting fungi, the Perth Museum collection, and Lear's statement that she had no evidence of ambition to be recognised as a mycologist.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6711238"
+    },
+    {
+      "id": "src_potter_countryfile",
+      "kind": "press",
+      "title": "Vivienne Crow (author of the National Trust guidebook 'Beatrix Potter's Lake District'), '10 things you didn't know about Beatrix Potter', Countryfile.com -- popular guide-writer's article (non-self), read in full: that neighbours knew her as Mrs Heelis, her sheep-show prizes and her shepherd Tom Storey's remark, her will's wish that the landlord's flocks be pure Herdwick, and her wish that farming traditions continue on her properties. A popular source; used only for uncontested points.",
+      "url": "https://www.countryfile.com/people/historical-figures/beatrix-potter"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 82,
+      "confidence": 0.76,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_potter_vam_intro, src_potter_lepp_anbg, src_potter_linnean, src_potter_armitt, src_potter_bps_artist | 1880s-1890s | museum curatorial + critical scholar + learned-society archive + holding museum] Self-directed, sustained inquiry across several fields of natural history. The V&A records studies at the Natural History Museum, learning to draw under the microscope, and interests in archaeology and fossils, with fungi as her main passion from the mid-1880s; the Armitt holds hundreds of fungal paintings of the late 1880s-1890s showing dissection, in-situ recording and microscope work; Lepp records that from 1892 she moved from painting fungi to asking how they reproduce and, when Kew did not have the answer, sought out Massee and then read Brefeld in German; the Linnean Society records her questions to McIntosh about intermediate species and her growing of spores on glass plates by 1896. The inquiry continued unrewarded: Lepp counts about 70 further microscope drawings in the two years after the 1897 paper. Several independent institutional sources on the same pattern; the score stays below the extreme band because her scientific work was a decade-long phase rather than a lifelong programme."
+    },
+    "detail_orientation": {
+      "score": 84,
+      "confidence": 0.76,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_potter_linnean, src_potter_lepp_anbg, src_potter_vam_tale, src_potter_vam_intro, src_potter_victorianweb | 1887-1903 | learned-society archive + critical scholar + museum + academic overview] The Linnean Society calls her a 'consummate illustrator' of 'meticulous observation' and notes that her paintings recorded Tremella spores that were not formally described until some 45 years later; the Linnean Society says drawings held at the Armitt and the V&A were accurate enough to be used to identify fungi; Lepp notes that McIntosh advised sectional drawings of gills and stems and that she recorded germinating spores, contaminant moulds and parasitic fungi on one sheet; the V&A documents her proof corrections for Peter Rabbit down to a single word (changing 'wept' to 'shed' in April 1903) and her design of cover, title page and frontispiece. Lepp's own caution (she recorded some phenomena she did not understand) concerns interpretation, not precision of observation. Independent institutional sources across two domains."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_potter_lepp_anbg, src_potter_linnean, src_potter_vam_intro | 1895-1897 | critical scholar + learned-society archive + museum] Lepp states she succeeded in germinating the spores of various macrofungi independently of the continental experimentalists, observed germinating spores under the microscope, took steps to limit contamination, and wrote in February 1897 that she had grown 40 to 50 sorts of spore; the Linnean Society confirms that by 1896 she was growing spores on glass plates and tracking them under the microscope, and the V&A says she 'experimented in spore germination'. Lepp stresses that she was not the first to germinate spores and that the content of her paper is unknown, which holds the score and confidence below the high band: the evidence is of method and persistence at the bench, not of verified results."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_potter_vam_tale, src_potter_smithsonian, src_potter_lepp_anbg, src_potter_hornbook1944, src_potter_linnean | 1893-1901, 1896-97 | museum + biographer's interviews + critical scholar + period correspondent (her own words) + learned-society archive] Held her own judgement against established authority in two fields. In publishing she rejected six firms' wish for a larger, dearer, coloured book, quoting her own market reasoning ('little rabbits cannot afford to spend 6 shillings...'), and printed the small book herself (V&A; Smithsonian; her 1929 letter in the Horn Book). In mycology she told Kew's Director Thiselton-Dyer in December 1896 that her findings 'would all be in the books in ten years', and wrote that she had 'rather contradicted' Massee (Lepp); the Linnean Society says she 'dared to bring her own ideas' to the professional table. Impact is dual-edged: in publishing the stance paid off, while Lepp judges the wording of her Kew letter undiplomatic and the Director was patronising. The Linnean Society also warns that claims she championed lichen symbiosis rest on a mistranslated footnote, so that claim is not used."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_potter_vam_tale, src_potter_smithsonian, src_potter_lepp_anbg, src_potter_hornbook1944, src_potter_vam_intro | 1890-1913 | museum + biographer's interviews + critical scholar (quoting Lear) + period correspondent (her own words)] Repeated choices to control her own work and income. She self-financed the privately printed Peter Rabbit (about GBP 11 of savings, by her own 1929 account) when refused (V&A; Smithsonian); after Warne failed to register American copyright she 'decided to go ahead and do things herself' by patenting a doll and game (Lear in Smithsonian); the V&A and Hildesheimer commission show an earlier effort to earn from her drawings (1890); she bought Hill Top in 1905 with her book earnings and an aunt's legacy (Horn Book). Lepp quotes Lear's summary that her aim by 1898 was 'to gain a measure of economic and personal independence', and she wrote in 1929 that she disliked writing to order and wrote 'to please myself'. The V&A also quotes her gratitude that her home education left her originality unrubbed. Family and household circumstances are deliberately not used."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_potter_vam_tale, src_potter_lepp_anbg, src_potter_bps_farmer, src_potter_hornbook1944 | 1896-1943 | museum + critical scholar + society page + period correspondent (her words)] Kept going after setbacks over decades. Rejected by at least six publishers, she printed and then reworked the book until Warne accepted (V&A). After a first, aborted attempt to see Kew's Director in December 1896 she returned within days and argued her case (Lepp), then kept working: about 70 more microscope drawings in the next two years (Lepp). In 1923 she took on Troutbeck Park, described as a large, disease-ridden sheep farm, and restored it to agricultural health (Beatrix Potter Society); in November 1942, aged 76, she wrote that she was still managing two sheep farms and a home farm and would 'do my bit till I drop' (Horn Book, her own words). The Lepp passage does not rest on any inference about her state of mind."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_potter_vam_intro, src_potter_lepp_anbg, src_potter_bps_farmer, src_potter_countryfile | 1880s-1943 | museum + critical scholar + society page + guide-writer] A pattern of working at skills for their own sake, across domains. As a girl and young woman she took drawing lessons and examinations at the National Art Training School and later copied Constable, while remaining sceptical of formal teaching (V&A); in mycology she learned taxonomy and microscope technique from McIntosh and, although daunted, read Brefeld's German volumes on Massee's suggestion (Lepp); decades later she became one of the most admired Herdwick breeders in the region, winning prizes at every local show (Beatrix Potter Society; Countryfile). No single source frames this as an aim to master, hence strong_inference built on three separate fields."
+    },
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_potter_vam_intro, src_potter_lepp_anbg, src_potter_armitt, src_potter_bps_farmer, src_potter_bps_artist | 1887-1943 | museum + critical scholar + holding museum + society pages] Real output in unrelated fields over a long span: fungal and microscopic natural-history drawing with an experimental paper (Armitt; Lepp; Linnean), fossil, archaeological and insect studies (V&A; Beatrix Potter Society, which lists Roman-artefact watercolours), picture books and their licensed products (V&A; Smithsonian), prize sheep breeding and farm management (Beatrix Potter Society), and land conservation with the National Trust (V&A; Beatrix Potter Society). Several documented, independently attested domains with sustained work in each, which supports the upper-70s band as strong_inference rather than documented, since no single source asserts breadth as a goal."
+    },
+    "aesthetic_sensitivity": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_potter_cdc_eid, src_potter_armitt, src_potter_hornbook1944, src_potter_vam_tale | 1880s-1930s | public-health essay quoting biographers + holding museum + period correspondent (her own words) + museum] Lear (quoted by the CDC essay) says she was drawn to fungi first for their 'ephemeral fairy qualities' and then for their shape, colour and the challenge they posed to watercolour; the Armitt says she painted them for colour, shape and texture; the V&A shows her designing covers, endpapers and binding colours; in 1934-36 letters to Horn Book she argues for old oak furniture, old cottages and the scale of buildings in the Lake District, calling a flat-roofed house near Wastwater out of scale (Mahony Miller quoting her). Documented attention to visual form from several angles, but the letters are self material and the museum and biographer sources partly rest on the same tradition, hence strong_inference."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_potter_smithsonian, src_potter_hornbook1944, src_potter_victorianweb | 1900-1904 | biographer's interviews relaying her letters + her own 1929 letter + academic overview] She spotted market openings early. She noted a 'vogue for small books' and shaped Peter Rabbit to it (her 1929 letter in the Horn Book; Smithsonian); in 1903 she observed that Harrods was selling dolls of an advertising character, wrote that 'there is a run on toys copied from pictures', learned her father had seen a squirrel doll named Nutkin on sale, and moved to patent her own Peter Rabbit doll in December 1903 (Smithsonian); the Victorian Web's overview confirms merchandise and pricing initiatives. Both episodes come through Lear's chain of biography and her own letters, and her small-book format also followed a trend set by others (Smithsonian notes the Bannerman model), so strong_inference and a moderate score."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_potter_lepp_anbg, src_potter_vam_tale, src_potter_smithsonian, src_potter_hornbook1944, src_potter_bps_farmer | 1896-1930 | critical scholar + museum + biographer's interviews + period correspondent + society page] She started things rather than waiting. In 1896 she sought out Massee and then the Kew Director with her spore results (Lepp, though her uncle Roscoe made the introduction); in 1901 she commissioned the printing of her own book (V&A); she sewed a Peter Rabbit prototype and patented it (Smithsonian); in May 1927 her first letter to an American bookshop and magazine offered signed drawings for sale toward a fund to save land on Windermere, and the receipts went to the fund (Horn Book); from 1930 she acted as land agent for National Trust farms (Beatrix Potter Society). Several distinct dated initiatives across 35 years."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_potter_bps_farmer, src_potter_vam_intro, src_potter_hornbook1944, src_potter_countryfile | 1905-1943 | society page + museum + period correspondent + guide-writer] Used her income repeatedly for a purpose beyond herself: she bought Lake District farms to protect them from development and kept them as working farms (V&A; Beatrix Potter Society); opposed hydroplanes on Windermere and sat on rural-improvement committees (Beatrix Potter Society); in 1927 raised money for a Windermere land appeal through her drawings (Horn Book); and left over 4,000 acres, flocks and farms to the National Trust with a wish that traditional farming and pure Herdwick flocks continue (V&A; Countryfile). Sources are friendly in tone (society, museum, tribute). Wikipedia, used only for orientation, notes that some contemporaries criticised her buying ahead of public knowledge; this is not scored."
+    },
+    "perfectionism": {
+      "score": 72,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_potter_vam_tale, src_potter_smithsonian, src_potter_hornbook1944, src_potter_victorianweb | 1902-1943 | museum + biographer's interviews + period correspondent (her words) + academic overview] The V&A records her correcting Warne's proofs for both text and illustrations, redrawing, changing a single word in April 1903 and 'reluctantly' cutting four further illustrations in October 1903; the Smithsonian says she 'monitored her sideshows to the last detail', and the Beatrix Potter Society chair calls her 'a perfectionist'; in 1943 she asked for time to make the Horn Book story 'as nearly word-perfect as I know how' and described writing as 'scribble, and cut out, and write it again and again'; the Victorian Web notes painstaking care over drawings and wording. Impact is rated an advantage because the sources link her care to the quality and durability of the work; none documents a missed deadline she caused."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_potter_vam_intro, src_potter_lepp_anbg, src_potter_victorianweb, src_potter_smithsonian | 1897-1930 | museum + critical scholar + academic overview + biographer's interviews] Changed course more than once and kept producing in the new field. After the 1897 paper she moved from mycology to illustrated stories (Lepp says why and when she stopped fungal work is not known; Victorian Web); after 1905 and again after 1913 her working life shifted toward farming and estate management, with new books drawn from earlier drawings (V&A); in 1917 she turned back to writing and product design to support Warne (Victorian Web; Smithsonian). Several documented pivots, but the motives are mostly not documented and some may have been imposed, so the score and confidence stay moderate."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-04) for Q214565 returned en label 'Beatrix Potter', description 'British children's writer and illustrator (1866-1943)', P569 28 Jul 1866, P570 22 Dec 1943, citizenship United Kingdom (Q145), instance of human, ko label '베아트릭스 포터', P18 'Beatrix Potter by King cropped.jpg'; label, description and dates match the intended person (not a painting entry). SLUG CHECK: no data-pipeline/candidates/beatrix-potter.json existed before this run; grep -ril 'beatrix' over src/data/people and the candidates folder found nothing, so no production collision. CLASSIFICATION: occupations writer, artist, naturalist, conservationist (no 'illustrator' id exists; 'artist' covers her picture-book and scientific illustration); fields literature, art, environmental_science (conservation; 'biology' not added because her mycology is treated as one strand, not the core), impactDomains literary/cultural/artistic, tags self_taught (home-educated; Linnean and Lepp stress her lack of formal training)/independent/detail_oriented/cross_disciplinary, archetypes creative_creator/independent_creator/cross_disciplinary_generalist; region western_europe and nationality GB per Jane Austen, Agatha Christie and Mary Anning candidates. ERA 20th_century: her documented career runs 1887-1943 and the published books (1902-1930), merchandise, farming and conservation are all 20th-century; the 1890s mycology is the only earlier strand. EVIDENCE READ: 14 source records (2 orientation, 12 substantive). All fetched by curl or the search tool into scratch and read locally: the V&A articles 'Peter Rabbit: the tale of The Tale' and 'Introducing Beatrix Potter'; the Linnean Society's own page on her paper (minute-book based); Heino Lepp's critical case study on the Australian National Botanic Gardens fungi pages (built on Lear, Noble, her letters and Journal); the Smithsonian Magazine feature with Linda Lear; the Horn Book May 1944 tribute with quoted letters; the Beatrix Potter Society pages 'The Farmer' and 'The Artist'; the Armitt Museum pages; Swamidoss on the Victorian Web; the CDC EID essay; a Countryfile article. PERSPECTIVES: (1) V&A curators (institutional, friendly to the subject); (2) Linnean Society (institutional archive, CORRECTIVE of popular myths and openly critical of its predecessors); (3) Heino Lepp (scientist-historian, CRITICAL of inflated claims, quotes letters and flags undiplomatic wording); (4) Lear via Smithsonian and CDC (biographer, friendly, a single chain); (5) Bertha Mahony Miller and the Horn Book (period American correspondent, friendly), which quotes Potter's own letters (SELF perspective, counted once); (6) Beatrix Potter Society and Armitt (friendly learned society and holding museum). NON-SELF sources provide every scored row; her own words reach the rows only through Mahony Miller's quotations and the V&A, Lepp and Smithsonian quotations of her letters. READ BUT NOT USED AS SOURCES: The Scientist (2007) repeats the claim that she was first in Britain to speculate that lichens are symbiotic, which Lepp and the Linnean Society contradict; a National Botanic Garden of Wales blog and two student blogs retell the legend that the Linnean Society rejected her paper, which the society's minute book contradicts; a Mental Floss article is derivative of the Smithsonian feature and contains errors; a CNCH Herdwick article is popular. Not opened or not readable: National Trust pages (Radware bot wall, not bypassed), Kew and Morgan Library pages (Cloudflare/403), Nature (Lear 2014, paywalled), Lane (1946), Lear (2007), Taylor and Linder (the Journal) on the Internet Archive are lending-restricted and were not read; Watling's 2000 article in The Linnean was not available online and is known only through Lepp and the Linnean Society page. NOT SCORED (deliberately): her engagement to Norman Warne and his death, her relationship with her parents and her marriage, her health and eyesight, and her Journal remarks about Wales; claims about lichen symbiosis; and the sales or valuation of the Peter Rabbit brand. Conflicts noted: fifteen farms (Beatrix Potter Society, Countryfile) versus fourteen (V&A); 250 plus 200 copies of the privately printed book (V&A, Smithsonian) versus 450 in her own 1929 letter; the Monk Coniston purchase is dated 1929 or 1930 in different sources and so is not used. SCORING DISCIPLINE: rows written and finalised before validateCandidates was run; the eligibility line printed by the validator was read-only and no row was edited afterwards. Fourteen rows chosen from the behaviours documented above; traits with only single or derivative evidence (collaboration, conflict_tolerance, persuasiveness, resourcefulness, belief_updating, discipline, leadership_drive) were left unscored on purpose."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "베아트릭스 포터"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear, adequately sized portrait was found. (1) Wikidata P18 'Beatrix Potter by King cropped.jpg' (Charles G. Y. King, May 1913, 778x1691) is an NPG-hosted reproduction (NPG P1825): its Commons file page and extmetadata carry the standard warning that third parties have made copyright claims against Commons over the work or a mechanical reproduction of it, even though the page tags it public domain on King's 1937 death; this is the known NPG trap, so it was not used (the uncropped 'Beatrix Potter by King.jpg', 1191x1536, and the NPG group photograph 'Rupert Potter, Beatrix Potter and Bertram Potter' P1822 carry the same warning). (2) The V&A holds high-resolution photographs of her by her father Rupert Potter (d. 1914), e.g. 'Beatrix Potter with a Border terrier at Lingholm, Keswick', 3 October 1897 (E.765-2005, IIIF 2500x1875, downloaded to scratch only and inspected), whose underlying copyright has long expired, but the V&A marks every image 'Copyright Victoria and Albert Museum, London' and its terms allow only non-commercial use at up to 768 px for five years, so the file is not rights-clear for this project. (3) The Commons-licensed Rupert Potter images ('Potter 1912.JPG', 395x599; 'Potter and Kep.JPG', 258x400; 'Young Beatrix.jpg', 200x266, which also carries a National Trust permission note) are low-resolution scans of book reproductions with attribution resting on the uploader's reading of a caption, and one is a visible halftone; not adequate. Next step: ask the V&A Image Licensing Team (vaimages@vam.ac.uk) to confirm in writing that the Rupert Potter 1897 photograph may be used without restriction, or find a pre-1931 publication of a portrait photograph in the Internet Archive/Library of Congress; the 1897 V&A image and its API record (object O176536, image 2016JC9406) are noted for that purpose."
+  }
+}

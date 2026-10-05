@@ -5396,6 +5396,264 @@ export const EDITORIAL_EN: Record<string, string> = {
     "By 1894-95 Röntgen, then close to fifty, was an established physicist known for precise measurements on gases, crystals and liquids. He obtained a Lenard tube, repeated Lenard's cathode-ray experiments and set aside his studies of liquids under pressure to work on cathode rays. The historian Alexi Assmus notes that this was outside his usual research.",
   "wilhelm-rontgen.interpretation.turning_point.1":
     "Moving into an unfamiliar line of work in mid-career is consistent with the profile's curiosity score. The discovery itself also involved chance, and this choice is one reasonable reading of how he came to be in a position to notice it.",
+  /* ---------------------------------------------------------- alfred-wegener (Roster42) */
+  "alfred-wegener.achievement.1":
+    "In a lecture on 6 January 1912 and in his book Die Entstehung der Kontinente und Ozeane (first edition 1915, fourth 1929), Wegener proposed that the continents were once joined and had drifted apart, arguing from the fit of coastlines, matching fossils and rock structures, and past climates. Most geologists rejected the idea, partly because he could not name a force that moves continents; after sea-floor spreading was found around 1960, continental motion was accepted within plate tectonics.",
+  "alfred-wegener.achievement.2":
+    "Wegener took part in four Greenland expeditions. On the Danmark expedition (1906-08) he made the first systematic soundings of the polar atmosphere with kites and tethered balloons; in 1912-13 he crossed the ice sheet with J. P. Koch's party; and the 1929 pre-expedition he led made the first reflection-seismic ice-thickness measurements. He led the 1930-31 German expedition, planned as three stations across the ice sheet, and died on it in November 1930; historians describe its programme as a reference for later international expeditions.",
+  "alfred-wegener.achievement.3":
+    "Wegener worked as a meteorologist on the upper atmosphere: in 1906 he and his brother Kurt set a balloon world record of about 52 hours aloft, and his 1911 textbook Thermodynamik der Atmosphäre became, according to NASA, a standard text in Germany. With his father-in-law Wladimir Köppen he wrote Die Klimate der geologischen Vorzeit (1924), which the Neue Deutsche Biographie says founded modern palaeoclimatology.",
+  "alfred-wegener.moment.1":
+    "In winter 1918/19 Wegener ran impact experiments in Marburg to simulate lunar craters, and in his 1921 book he argued, against the then-prevailing view, that they were impact scars. In September 1927 he carried out a measurement campaign at the Sall (Kaali) crater on the Estonian island of Saaremaa; according to the Neue Deutsche Biographie, the find of extraterrestrial iron there by Ivan Reinwald then settled that it was an impact crater.",
+  "alfred-wegener.interpretation.moment.1":
+    "The sequence of a laboratory model and then a field measurement campaign is consistent with the profile's experimentation score: a contested idea was tested by physical means rather than argued only in print.",
+  "alfred-wegener.moment.2":
+    "By September 1930 the German Greenland expedition was about 38 days behind schedule and had brought only part of the supplies to the Eismitte station in the centre of the ice sheet. On 21 September Wegener set out from the west coast with Fritz Loewe and 13 Greenlanders to take supplies there; most of the Greenlanders turned back, and Wegener, Loewe and Rasmus Villumsen reached Eismitte on 30 October. On 1 November, his 50th birthday, Wegener started back with Villumsen. He died on the way, probably in mid-November, and a search party found his grave on 12 May 1931.",
+  "alfred-wegener.interpretation.moment.2":
+    "Choosing to lead a late-season supply convoy himself illustrates the moderate willingness to accept physical risk in this profile. It is one reading among others: a 2000 historical study of the expedition concludes that several people, not only the leader, made erroneous judgements and that no single person can be blamed.",
+  "alfred-wegener.turning_point.1":
+    "On 6 January 1912 Wegener, a 31-year-old meteorologist and lecturer at Marburg, presented his drift hypothesis to the Geologische Vereinigung in Frankfurt, although his father-in-law Wladimir Köppen had warned him against entering geology as an outsider. A second lecture followed in Marburg four days later and a long paper appeared in Petermanns Mitteilungen from April; he returned to the theme in book editions of 1915, 1920, 1922 and 1929. From then on his name was tied to a controversial geological question, not only to meteorology and polar research.",
+  "alfred-wegener.interpretation.turning_point.1":
+    "Presenting the idea to specialists in a field that was not his own, after a warning from his mentor, is consistent with the profile's independent thinking score.",
+  /* ---------------------------------------------------------- blaise-pascal (Roster42) */
+  "blaise-pascal.achievement.1":
+    "In the summer of 1654 Pascal and Pierre de Fermat exchanged letters on how to divide the stakes of a gambling game interrupted before its end, solving the problem by different methods; mathematicians date the beginning of probability theory to this correspondence. The same year Pascal wrote his Treatise on the Arithmetical Triangle, a systematic study of the table of binomial coefficients that now bears his name, using a form of proof by induction. It was published only after his death, and the triangle itself, known in earlier traditions, was not his invention.",
+  "blaise-pascal.achievement.2":
+    "In 1646-47 Pascal took up Torricelli's mercury-barometer experiment and published his New Experiments Concerning the Vacuum; in November 1647 he asked his brother-in-law Florin Périer to test on the Puy de Dôme whether the effects blamed on nature's horror of a vacuum came instead from the weight of the air, and on 19 September 1648 Périer found the mercury about three inches lower at the summit than at the base. His Treatise on the Equilibrium of Liquids, written in the early 1650s and published after his death, sets out the principle of fluid pressure now called Pascal's law, and the SI unit of pressure bears his name. Descartes and others accepted the readings but disputed that the space above the mercury was a true vacuum.",
+  "blaise-pascal.achievement.3":
+    "From 1642 Pascal worked on an arithmetical machine, now called the Pascaline, a brass-and-ebony adding and subtracting machine with automatic carry. His own letter and the royal privilege of 1649 say he built more than fifty different models before settling on one, and about eight of the original machines survive. It was not the first calculating machine, since Wilhelm Schickard built one in 1624, and Pascal's sold poorly and went out of production around 1652.",
+  "blaise-pascal.achievement.4":
+    "Between January 1656 and March 1657 Pascal published eighteen anonymous open letters, the Provincial Letters, defending the theologian Antoine Arnauld against censure by the Sorbonne and then attacking the moral teaching of the Jesuits, in lively French meant for general readers rather than scholars' Latin. They circulated widely, were condemned in Rome in 1657, and later critics, even one who faulted his method, called them a masterpiece of French prose. His unfinished notes for a defence of Christianity, the Pensées, were published after his death in 1670 and include the argument known as Pascal's wager.",
+  "blaise-pascal.moment.1":
+    "In the 1645 dedication of his arithmetical machine to Chancellor Séguier, Pascal wrote that artisans could not build what he had designed, and that after a Rouen clockmaker made a useless imitation he dismissed all his workmen and resolved to abandon the project. At the Chancellor's urging he resumed work on the machine.",
+  "blaise-pascal.interpretation.moment.1":
+    "This offers one example of the profile's persistence: a documented near-abandonment and restart over several years, although the account of it comes mostly from Pascal's own letter.",
+  "blaise-pascal.moment.2":
+    "In January 1656, when Arnauld's own written defence left his friends at Port-Royal unmoved, Arnauld turned to Pascal and said that he, being young, ought to do something; the next day Pascal brought the first Letter, and Arnauld ordered it printed. Nicole, who helped revise the series, is reported to have said that Pascal often spent as long as twenty days on a single letter and rewrote some of them seven or eight times, while the sixteenth letter apologises for its length because he 'had no leisure to make it shorter'.",
+  "blaise-pascal.interpretation.moment.2":
+    "This is consistent with the profile's persuasiveness: the first Letter was written for readers whom Arnauld's technical paper had not reached, and the revision effort reported by Nicole points to care over how each one would be read.",
+  "blaise-pascal.turning_point.1":
+    "In late 1654 Pascal's work changed direction. After a night of religious experience on 23 November 1654, recorded in a note he kept sewn into his coat for the rest of his life, he ended his mathematical correspondence with Fermat and withdrew a short book on the vacuum that was ready for the printer. From 1656 he wrote on theology, in the Provincial Letters and then in notes for a defence of Christianity; he returned to mathematics only briefly, on the cycloid in 1658-59.",
+  "blaise-pascal.interpretation.turning_point.1":
+    "This sits alongside the profile's wide range across fields: after 1654 his published work was in a different field from the mathematics and physics of the preceding years, though the sources describe the cause of the change in religious terms and it is not interpreted further here.",
+  /* ---------------------------------------------------------- edwin-hubble (Roster42) */
+  "edwin-hubble.achievement.1":
+    "In 1923-24 Hubble used the 100-inch telescope at Mount Wilson to find Cepheid variable stars in the Andromeda nebula, and soon in M33 and NGC 6822. Their periods and brightness put Andromeda at roughly 900,000 light-years in his 1929 paper, far outside the Milky Way, and effectively settled the long dispute over whether spiral nebulae were separate galaxies. Later work showed his distance scale was too small; Andromeda proved about twice as far.",
+  "edwin-hubble.achievement.2":
+    "In 1929 Hubble set his galaxy distances against measured redshifts, mostly Vesto Slipher's, and reported that more distant galaxies appear to recede faster, at about 500 km/s per megaparsec. With Milton Humason, who measured fainter galaxies, he extended the relation from 1931. It became the observational basis of the expanding-universe picture, though Hubble wrote of 'apparent' velocities and kept the interpretation open, and Georges Lemaitre had derived such a relation and estimated its rate in 1927, so historians still debate how to share the credit.",
+  "edwin-hubble.achievement.3":
+    "In 1926 Hubble proposed a classification of galaxies into ellipticals, spirals, barred spirals and irregulars. The 'tuning fork' diagram that summarises it appeared in his 1936 book The Realm of the Nebulae, and Allan Sandage completed the system after Hubble's death. The Hubble sequence is still the standard starting point for describing galaxy shapes.",
+  "edwin-hubble.moment.1":
+    "In the 1920s Hubble's Mount Wilson colleague Adriaan van Maanen reported rotation measurements of spiral nebulae that, if the nebulae were distant, would have implied impossible speeds. According to the American Institute of Physics history, Hubble first took apart van Maanen's claim of corroboration in a private talk, then published his own remeasurement of four nebulae, which showed systematic errors in van Maanen's figures. Later van Maanen printed a short note saying his motions should be viewed 'with reserve', an arrangement the history says was negotiated with Hubble and the journal's editor.",
+  "edwin-hubble.interpretation.moment.1":
+    "This episode is consistent with a willingness to contradict a colleague's data openly, while settling the dispute by negotiating how the record would be presented rather than staging a direct confrontation.",
+  "edwin-hubble.moment.2":
+    "Hubble's 1926 galaxy-classification paper contains a footnote asserting priority over a similar scheme by Knut Lundmark; Allan Sandage says some of Hubble's complaints, which he rarely made public, were unfounded. In a letter to Willem de Sitter of 21 August 1930, quoted by the astronomer David Block, Hubble wrote that he considered the velocity-distance relation, 'its formulation, testing and confirmation, as a Mount Wilson contribution' and was 'deeply concerned in its recognition as such'.",
+  "edwin-hubble.interpretation.moment.2":
+    "These two episodes are consistent with a strong concern for priority and credit. Whether the omissions of earlier work in his 1929 paper were deliberate is disputed and is not part of this reading.",
+  "edwin-hubble.turning_point.1":
+    "After three years at Oxford, Hubble passed the Kentucky bar examination in 1913 but, according to Osterbrock and colleagues, left no record of practising law; he taught Spanish and physics and coached basketball at a high school in New Albany, Indiana. In 1914 he wrote to his Chicago professor Forest Moulton about returning as a graduate student, and Yerkes Observatory offered him a service scholarship. He later said he had 'chucked the law for astronomy', knowing he might be second-rate or third-rate.",
+  "edwin-hubble.interpretation.turning_point.1":
+    "This pivot illustrates taking the initiative to change direction: the move to astronomy came from his own request, at some cost in the security of a profession he was already qualified for.",
+  /* ---------------------------------------------------------- emil-zatopek (Roster42) */
+  "emil-zatopek.achievement.1":
+    "At the 1948 London Olympics Emil Zátopek won the 10,000 m and took silver in the 5,000 m. At Helsinki in 1952 he won the 5,000 m, defended his 10,000 m title and, in his first marathon, won that as well, setting an Olympic record in each (14:06.6, 29:17.0 and 2:23:03.2) within eight days. No one else has won all three at one Games.",
+  "emil-zatopek.achievement.2":
+    "Zátopek built his training around repeated fast runs, often dozens of 400 m efforts separated by short jogs, a method experts at first derided and that Olympedia credits him with popularising among distance runners; a coach had first introduced him to interval work. From 1949 into the mid-1950s he set 18 world records at distances from 5,000 m to 30,000 m, including the first 10,000 m under 29 minutes and, in 1951, the first 20,000 m run in under an hour (59:51.8).",
+  "emil-zatopek.moment.1":
+    "The Times obituary records that Zátopek trained in heavy army boots so that racing shoes would feel light, tried a gas mask to see whether it helped his breathing (it did not), and ran on the spot in a spare room when curfew kept him indoors. World Athletics adds that as an army trainee he ran 10-12 km through deep snow in boots and several layers of clothing, and that in 1951, a year before Helsinki, he ran two 20,000 m races within two weeks to test his endurance.",
+  "emil-zatopek.interpretation.moment.1":
+    "Trying out equipment and conditions this way is consistent with the experimentation scored on his profile; the Times's own aside that the gas mask did not help shows that not every trial paid off.",
+  "emil-zatopek.moment.2":
+    "When Ron Clarke, an Australian who held many world records but no Olympic gold medal, visited Prague in 1966, Zátopek, long retired, drove him to the airport and handed him a small package. Clarke opened it on the flight and found Zátopek's 1952 Olympic 10,000 m gold medal, inscribed with Clarke's name and the day's date. By Clarke's recollection, as reported by World Athletics, Zátopek said it was 'not out of friendship but because you deserve it', and Clarke wept.",
+  "emil-zatopek.turning_point.1":
+    "In 1968 Zátopek, who had signed the reformers' 'Two Thousand Words' manifesto weeks earlier, went to Wenceslas Square after Warsaw Pact forces invaded Czechoslovakia and argued with the Soviet soldiers there. After the reform movement was suppressed he was expelled from the army and the Communist Party, and his name was removed from school textbooks. He then did manual work for years with a crew prospecting for water and minerals in rural Czechoslovakia (accounts differ on the details), later held a sports-ministry job reading foreign sports publications, and was officially rehabilitated after 1989.",
+  /* ---------------------------------------------------------- george-stephenson (Roster42) */
+  "george-stephenson.achievement.1":
+    "He was engineer of the Stockton and Darlington Railway, opened on 27 September 1825, and of the Liverpool and Manchester Railway, opened on 15 September 1830, two of the earliest public railways to use steam locomotives for haulage. The Liverpool and Manchester line was carried across the Chat Moss bog. He laid both on the 4 ft 8.5 in gauge already used on the colliery wagonways, which later became the standard gauge.",
+  "george-stephenson.achievement.2":
+    "From 1814 he built and improved locomotives at Killingworth colliery, and in 1823 he helped found the Newcastle works that became Robert Stephenson and Company. The Rocket, built there under his son Robert's direction, won the Liverpool and Manchester Railway's 500-pound premium at the Rainhill trials in October 1829. The tubular boiler is credited to a suggestion by the company's treasurer Henry Booth, so the achievement is a shared one.",
+  "george-stephenson.achievement.3":
+    "In October and November 1815 he tested three miners' safety lamps at Killingworth colliery, built on the principle that flame will not pass through narrow tubes; the type became known as the Geordy lamp. Humphry Davy announced his own safety lamp the same autumn, and the priority between them was disputed: Davy's backers raised 2,000 pounds for him in 1816, and Stephenson's backers raised 1,000 pounds for him by 1818.",
+  "george-stephenson.moment.1":
+    "Chat Moss, the peat bog the Liverpool and Manchester line had to cross, is about twelve square miles in extent. According to Smiles, the first embankment sank repeatedly for weeks, and the directors held a board meeting on the Moss to decide whether to continue. At a Birmingham dinner in 1837 Stephenson recalled that other engineers had been consulted, that the directors were 'compelled' to let him go on, and that he never doubted the outcome. The first trial train crossed the Moss, drawn by the Rocket, on 1 January 1830.",
+  "george-stephenson.interpretation.moment.1":
+    "Because the account of the directors' doubts and of his own certainty rests mostly on his 1837 recollection as relayed by Smiles, this episode is best read as one example consistent with the profile's persistence score, not as a settled measure of how steady he was throughout.",
+  "george-stephenson.moment.2":
+    "On 21 October 1815 Stephenson took his first safety lamp into a Killingworth gallery that had been boarded in to foul the air with gas from a blower. The under-viewer John Moodie warned that a lit candle there would cause an explosion. Nicholas Wood and Moodie withdrew out of sight while Stephenson carried the lit lamp toward the blower; the flame flared and went out without igniting the gas. Moodie gave evidence to this effect to the 1817 committee, while Davy's biographer Paris later argued that the first lamp was not a sound design.",
+  "george-stephenson.interpretation.moment.2":
+    "Walking toward the gas with an untried lamp, after an experienced colleague's warning, is consistent with the profile's moderate risk-tolerance score; the profile holds that score down because he is also recorded pledging only modest speeds to the Liverpool directors and refusing lines whose estimates looked too low.",
+  "george-stephenson.turning_point.1":
+    "Late in 1821 Stephenson, then engine-wright at Killingworth colliery, travelled to Darlington with Nicholas Wood to ask Edward Pease, the promoter of the Stockton and Darlington Railway, to employ him as engineer, and to argue for locomotives over horses. He was appointed in early 1822. Until then his locomotives had run on private colliery lines; the appointment made him engineer of a public railway, and within about four years he was appointed engineer of the Liverpool and Manchester as well.",
+  "george-stephenson.interpretation.turning_point.1":
+    "Going to the promoter himself, uninvited, rather than waiting to be approached, is consistent with the profile's proactive-agency score; the detail of the visit comes from Pease's recollection as reported by Smiles.",
+  /* ---------------------------------------------------------- george-westinghouse (Roster42) */
+  "george-westinghouse.achievement.1":
+    "From 1885 George Westinghouse bought European transformer patents and had his engineers turn them into a working alternating-current lighting system, put into commercial service in Buffalo in November 1886; in July 1888 he acquired the rights to Nikola Tesla's alternating-current motor patents. His company built the alternating-current plant for the 1893 World's Columbian Exposition in Chicago and won the 1893 contract for the generators of the Niagara Falls power station, which began supplying Buffalo in November 1896.",
+  "george-westinghouse.achievement.2":
+    "In 1869, aged 22, Westinghouse patented a railway brake worked by compressed air and founded the Westinghouse Air Brake Company. His automatic brake of the 1870s and the quick-action triple valve he patented in 1887-88, after the Burlington trials, made it practical to brake long freight trains, and the brake came into general use on American railroads.",
+  "george-westinghouse.moment.1":
+    "In April 1892, General Electric-group companies bid $13.98 to $18.51 per light to illuminate the Chicago world's fair. Westinghouse's company won the contract with a bid of $5.25, which some of his friends called a reckless dive in the dark and which lost money directly. Because Edison's patent on the all-glass lamp bulb barred it from making ordinary lamps, Westinghouse and his engineers produced a two-piece 'stopper' lamp and he set up a glass factory, making about 250,000 lamps for the fair's opening on 1 May 1893, though the lamps held vacuum poorly and had to be renewed often.",
+  "george-westinghouse.interpretation.moment.1":
+    "Changing the lamp design and setting up a dedicated factory within months of meeting the patent barrier is consistent with resourcefulness under a hard outside constraint. His biographers present the low bid itself as a deliberate bet on publicity, so the episode is not evidence of cost control.",
+  "george-westinghouse.moment.2":
+    "Around 1900 Westinghouse drew up a patent specification for apparatus that would draw heat from the atmosphere and give more power than it consumed. Lord Kelvin cabled back that atmospheric heat cannot be used to generate power and later called the idea a chimera; in November 1901 Professor Dewar of the Royal Institution judged that the specification explicitly claimed perpetual motion, and about three years later his engineer MacAlpine reached the same verdict on the power claim. Westinghouse answered that Kelvin's paper did not meet the case and treated the work as a pastime; his biographer Henry Prout records references to it in his letters as late as 1913.",
+  "george-westinghouse.interpretation.moment.2":
+    "The episode is consistent with the independence from authority his biographer describes, who writes that he 'accepted nothing on a great name'. Here that independence ran against established thermodynamics, so it also illustrates the cost of the trait.",
+  "george-westinghouse.turning_point.1":
+    "On 23 October 1907, a day after the Knickerbocker Trust failure set off a financial panic, the directors of Westinghouse Electric and Manufacturing Company asked a federal court to appoint receivers; the company's debt was about $43 million. Westinghouse worked out the merchandise creditors' plan, under which creditors took stock in settlement, and the company came out of receivership in 1908 after about fourteen months. The reorganised board mostly represented banks and creditors, he stayed on as president with reduced powers, and in 1911 he ended his official relations with the company. He died in March 1914.",
+  "george-westinghouse.interpretation.turning_point.1":
+    "Prout ties the 1907 failure to the risks of his practice of financing the companies through personal appeals and his own holdings rather than a bankers' syndicate, and records his earlier refusal to accept bankers' control. That is consistent with the strong need for autonomy scored on his profile, though the facts above do not by themselves show that it explains the outcome.",
+  /* ---------------------------------------------------------- gustav-klimt (Roster42) */
+  "gustav-klimt.achievement.1":
+    "From about 1904 Klimt developed the 'golden' manner of his mature work, laying gold leaf and mosaic-like ornament over flat figures in Portrait of Adele Bloch-Bauer I (1907) and The Kiss (1908-09). The Austrian ministry bought The Kiss at the 1908 Kunstschau for the state's Modern Gallery, and the painting belongs to the Belvedere in Vienna.",
+  "gustav-klimt.achievement.2":
+    "In 1897 Klimt became the first president of the Vienna Secession, an association of artists that broke away from Vienna's established artists' society to show modern art on its own terms. The group built its own exhibition house in 1898, and Klimt contributed drawings and designs to its magazine Ver Sacrum.",
+  "gustav-klimt.achievement.3":
+    "His Beethoven Frieze (1901-02), about 34 metres of wall painting, was made for the Secession's 1902 exhibition built around Max Klinger's Beethoven statue. In 1905-1911 he also designed the marble, gold and enamel dining-room frieze of the Palais Stoclet in Brussels, now part of a UNESCO World Heritage site.",
+  "gustav-klimt.moment.1":
+    "In March 1901, while the Medicine painting was being attacked in the press and raised in parliament, Klimt made a rare public remark in the Wiener Morgenzeitung, as quoted by the Belvedere: he had no time to join the squabble, and what mattered to him was not how many people liked a picture but who did.",
+  "gustav-klimt.interpretation.moment.1":
+    "This reply is consistent with the profile's independent thinking: it names a standard for judging his own work that does not depend on public approval. It is a single remark, and his defence in print was largely left to supporters such as Bahr and Hevesi.",
+  "gustav-klimt.moment.2":
+    "In 1908 Klimt was president of the committee that organised the Vienna Kunstschau. The Belvedere says the organising left him no time to finish The Kiss before the opening; the ministry bought the unfinished picture there, Klimt wrote on 16 July 1908 that he would complete it at once, and its completion is documented only from June 1909.",
+  "gustav-klimt.interpretation.moment.2":
+    "This episode is consistent with the profile's slower completion of major works, though the Belvedere ties this delay partly to his organising workload and the exhibition deadline.",
+  "gustav-klimt.turning_point.1":
+    "In May 1905, after the controversy had made it impossible to hang his three faculty paintings in the university, Klimt withdrew from the commission, repurchased all of them and returned the advances he had received; the Belvedere's provenance records give 25 May 1905. The collector August Lederer bought the Philosophy that year. The commission begun in 1894 ended with none of the paintings hanging in the university, and later large-scale work such as the Stoclet frieze was made for private clients.",
+  "gustav-klimt.interpretation.turning_point.1":
+    "This is consistent with the profile's autonomy need: Klimt chose to own the paintings rather than see them moved to a state gallery. That refusal rests on the Belvedere's online account, and the same text says friends and patrons helped him repay, so it was not a solitary act.",
+  /* ---------------------------------------------------------- ignaz-semmelweis (Roster42) */
+  "ignaz-semmelweis.achievement.1":
+    "In 1847, as assistant in the First Obstetric Clinic of the Vienna General Hospital, Semmelweis tied the clinic's heavy toll from childbed fever to doctors and students who came to the labour ward from the dissecting room. From late May 1847 he required everyone to wash their hands in a chlorinated-lime solution before examining women; monthly mortality, over 18 per cent in April, fell to 2.38 per cent in June and 1.20 per cent in July.",
+  "ignaz-semmelweis.achievement.2":
+    "Semmelweis compared the First Clinic, where medical students were trained, with the Second, where midwives were trained: over 1841-46 the First recorded 9.92 per cent mortality against 3.38 per cent in the Second. He used that contrast, and the fall after 1847, to argue against the prevailing 'epidemic influences' explanation, and in 1861 he published his case as Die Aetiologie, der Begriff und die Prophylaxis des Kindbettfiebers, a 543-page book with statistical tables and replies to critics that named decomposing matter from cadavers and from living patients as the cause.",
+  "ignaz-semmelweis.moment.1":
+    "In 1861 Semmelweis answered his critics with open letters to the obstetricians Spaeth, Scanzoni and Siebold. He wrote that thousands of mothers and infants had died since 1847 who need not have died had he not stayed silent, told Siebold, a friend since 1847, that not sharing his view was equivalent to being a murderer, and offered to teach assembled German physicians until all were convinced. Siebold's posthumous letters of 1862 say he forgave his friend Semmelweis, and Kugelmann, an admirer, had asked in July 1861 for gentler treatment of Siebold.",
+  "ignaz-semmelweis.interpretation.moment.1":
+    "This is consistent with the high conflict tolerance in this profile: after years of silence he chose open confrontation with senior opponents, and the replies from Siebold and Kugelmann suggest the tone cost him goodwill even among people who respected his results.",
+  "ignaz-semmelweis.moment.2":
+    "In October 1847 a woman with a discharging cancer of the cervix was examined first on the ward round; Semmelweis and the students washed with soap and water as before and examined the other women, and eleven of the twelve women examined after her developed childbed fever. He concluded that matter from living patients, not only from cadavers, could cause the fever and required chlorinated-lime washing after any contaminated examination; a similar cluster in November led him to add air in the ward as a possible carrier.",
+  "ignaz-semmelweis.interpretation.moment.2":
+    "This episode helps explain why this profile's belief updating sits only near the middle: he revised the mechanism when the results contradicted it, but his writings of 1861 presented the doctrine as settled.",
+  "ignaz-semmelweis.turning_point.1":
+    "In March 1849 Professor Klein blocked the extension of Semmelweis's assistantship in the First Clinic, and the Ministry rejected his appeal in November 1850. Appointed a lecturer on 10 October 1850, Semmelweis left Vienna for Pest within days; there he became honorary head of the St Rochus maternity division in May 1851 and professor of obstetrics in July 1855. Until 1857 his discovery was presented in print by others, notably Hebra and Skoda.",
+  "ignaz-semmelweis.interpretation.turning_point.1":
+    "This episode sits alongside the profile's persistence score: he kept seeking posts from which to apply the method, yet the move coincided with years in which others, not he, explained his work in print.",
+  /* ---------------------------------------------------------- johannes-brahms (Roster42) */
+  "johannes-brahms.achievement.1":
+    "Brahms completed four symphonies, the first premiered at Karlsruhe on 4 November 1876 and the fourth at Meiningen on 25 October 1885, extending the Haydn-Beethoven symphonic tradition at a time when the New German school of Liszt and Wagner championed the symphonic poem and music drama. The first symphony's opening movement dates from about 1862, and some in Germany called the finished work 'Beethoven's Tenth'; Hans von Bulow's phrase 'Bach, Beethoven, Brahms' placed him in that line.",
+  "johannes-brahms.achievement.2":
+    "A German Requiem, a large work for soloists, chorus and orchestra, sets scriptural texts that Brahms chose himself rather than the Latin Mass. Performed in Bremen Cathedral on Good Friday, 10 April 1868, it carried his name across Europe, though part of the Vienna audience had hissed three of its movements in December 1867.",
+  "johannes-brahms.achievement.3":
+    "Beyond the symphonies he wrote two piano concertos (No. 1, first heard in January 1859, and No. 2, published in 1882) and a Violin Concerto first performed at Leipzig on 1 January 1879 with Joseph Joachim as soloist and Brahms conducting. His output also includes major chamber music, about two hundred songs for solo voice and the Hungarian Dances for piano duet, the first books of which appeared in 1869.",
+  "johannes-brahms.moment.1":
+    "On 27 January 1859 Brahms played his new D minor piano concerto at the Leipzig Gewandhaus. Scattered applause at the end was drowned by audible hissing, and the critic Bernsdorf wrote that the work offered 'waste, barren dreariness'. The next day Brahms wrote to Joachim that 'this failure has made no impression at all upon me' and that the concerto 'will please some day when I have improved its construction'.",
+  "johannes-brahms.interpretation.moment.1":
+    "Keeping to the same work after a public rejection, as he did again after the hissing of part of the German Requiem in 1867, is consistent with the sustained persistence recorded in his profile.",
+  "johannes-brahms.moment.2":
+    "In 1853 Brahms withdrew a string quartet that Schumann had recommended to a publisher. Florence May reports that the second and third of his violin sonatas were rejected after completion and the manuscripts destroyed by his own hand, and the Neue Deutsche Biographie records that he destroyed several of the works he had shown Schumann, against Schumann's wish.",
+  "johannes-brahms.interpretation.moment.2":
+    "Holding back or destroying finished work, recorded by a pupil-biographer and by a modern scholarly entry, is consistent with the exacting standards for his own music that his profile shows.",
+  "johannes-brahms.turning_point.1":
+    "In 1863 the Hamburg Philharmonic chose Julius Stockhausen as its conductor rather than Brahms, though Joachim had pressed the committee on his behalf, and in 1867, when the post fell vacant again, it passed him over a second time in favour of Julius von Bernuth. Florence May judged that this repeated slight from his native city led him to settle permanently in Vienna, where he had conducted the Singakademie in 1863-64 and later directed the Gesellschaft der Musikfreunde concerts from 1872 to 1875.",
+  "johannes-brahms.interpretation.turning_point.1":
+    "Building his working life in Vienna, where he repeatedly took and then gave up conducting posts, is consistent with the preference for control of his own time recorded in his profile.",
+  /* ---------------------------------------------------------- juan-manuel-fangio (Roster42) */
+  "juan-manuel-fangio.achievement.1":
+    "Between 1951 and 1957 he won five Formula One World Drivers' Championships: in 1951 with Alfa Romeo, in 1954 and 1955 with Mercedes-Benz (he began 1954 in a Maserati), in 1956 with Ferrari and in 1957 with Maserati. The last four came in consecutive years, and his total of five stood as the record until Michael Schumacher passed it in 2003.",
+  "juan-manuel-fangio.achievement.2":
+    "Racing in Formula One from 1950 to 1958, he won 24 Grands Prix, took pole position 29 times and set 23 fastest laps in 51 starts, and started all but two of those races from the front row.",
+  "juan-manuel-fangio.achievement.3":
+    "At the 1957 German Grand Prix at the Nurburgring, a pit stop of about 52 seconds left him roughly 50 seconds behind the two leading Ferraris with ten laps to go. He then broke the lap record repeatedly, lapped in 9 min 17.4 s, passed both cars on the penultimate lap and won by 3.6 seconds, clinching his fifth title. It was the last of his 24 Grand Prix wins, and it is widely regarded as the best drive of his career.",
+  "juan-manuel-fangio.moment.1":
+    "In a 1979 interview Fangio said that in every team he drove for he promised the mechanics 10 per cent of whatever he won. He recalled that at the 1953 Italian Grand Prix his Maserati had a vibration that practice could not cure; he complained again the night before the race, and by Sunday it was cured. He said he had no idea how the mechanics had done it.",
+  "juan-manuel-fangio.interpretation.moment.1":
+    "This account, which is his own and was told with some humour, is consistent with a driver who deliberately kept the people who prepared his cars on his side; his team-mate Stirling Moss likewise says he treated mechanics as friends and colleagues.",
+  "juan-manuel-fangio.moment.2":
+    "At the Portuguese sports-car Grand Prix in Lisbon in June 1957 he let Menditeguy's Maserati and Gregory's Ferrari set the early pace and, in his words, passed to take the lead once their cars were showing the effects of that effort, after ten laps. At Le Mans that year he set the pace in practice but held himself in reserve, waiting to see which car was best placed before agreeing to drive; Denis Jenkinson called this a crafty move.",
+  "juan-manuel-fangio.interpretation.moment.2":
+    "These episodes are consistent with timing his effort to how a race was likely to unfold rather than going flat out from the start; Moss likewise says he drove only as fast as seemed necessary. They are race tactics, not proof of long-range planning.",
+  "juan-manuel-fangio.turning_point.1":
+    "Fangio was already 38 when the Automovil Club Argentino sent a team to Europe in 1949 with him as its leader. He won at San Remo, Pau, Perpignan, Marseilles, Monza and Albi, and the results brought an invitation to join Alfa Romeo, the dominant Grand Prix team, for the first world championship season in 1950. He later said he had gone intending to stay about a year and ended up staying ten.",
+  "juan-manuel-fangio.interpretation.turning_point.1":
+    "The move shows him taking his racing career from South American road races to European Grand Prix circuits and different cars in his late thirties, which is consistent with an ability to change his approach when circumstances shift; it is one reading among several, since the Argentine club also made the decision to send him.",
+  /* ---------------------------------------------------------- katsushika-hokusai (Roster42) */
+  "katsushika-hokusai.achievement.1":
+    "Around 1830-32 Hokusai designed the colour woodblock series Thirty-six Views of Mount Fuji, which grew to forty-six prints and includes The Great Wave off Kanagawa and Fine Wind, Clear Morning. The views set the mountain among travellers, workers and weather. The British Museum's Tim Clark estimates that as many as 5,000 to 8,000 impressions were printed from the Great Wave's original block, and that a single sheet cost little more than a double helping of noodles.",
+  "katsushika-hokusai.achievement.2":
+    "From 1814 Hokusai published the Manga, a long series of woodblock sketchbooks crowded with small drawings of people, animals, plants, landscapes, trades and legends. Clark counts ten books of about thirty spreads each issued between 1814 and 1819, and the series eventually reached fifteen volumes, the last compiled from his leftover sketches after his death. Strange called it an encyclopaedia of Japanese life.",
+  "katsushika-hokusai.achievement.3":
+    "Japanese prints reached Paris in great numbers in the later nineteenth century, and Hokusai was among the names that travelled with them. Clark places him at the vanguard of the Japonisme movement and notes that Vincent van Gogh was one of the first in Europe to write a perceptive appreciation of the Great Wave. He calls Edmond de Goncourt's 1896 study of Hokusai the first serious biography in Europe.",
+  "katsushika-hokusai.moment.1":
+    "Michel Revon's 1896 study, drawing on the recollection of a man named Tozaki who witnessed the scene, says the lord of Tsugaru invited Hokusai to paint a screen and, when messages went unanswered, sent an envoy who came twice offering five gold pieces as a welcome gift. Hokusai refused both times, and the envoy threatened to kill him; Hokusai said he would simply return the gold. Months later he turned up at the lord's house unasked and painted a group of wild horses on the screen, which was kept in the Tsugaru castle.",
+  "katsushika-hokusai.interpretation.moment.1":
+    "This episode illustrates, in a single reported instance, a strong need to take on work at his own initiative rather than on a patron's summons. It rests on one late witness account.",
+  "katsushika-hokusai.moment.2":
+    "Japanese artists' compendia, as relayed by Revon and by Henri Focillon, say that in 1811 the novelist Bakin insisted Hokusai draw a clog between a character's teeth in their illustrated novel, and Hokusai refused, telling Bakin to try it himself first. Their collaboration, already marked by quarrels since 1807, ended there. Revon doubts that the clog alone explains the break.",
+  "katsushika-hokusai.interpretation.moment.2":
+    "Held alongside his other refusals of editors and patrons, this is consistent with a readiness to sustain open disagreement. Both Revon and Focillon describe Bakin as pedantic and domineering, so the quarrel does not show Hokusai alone as the difficult party.",
+  "katsushika-hokusai.turning_point.1":
+    "By about 1788 Hokusai, who had been expelled from his master's workshop and kept changing styles and names, was so poor that he sold red pepper and calendars in the street. A commission to paint the demon-queller Shoki on a banner for the Boys' Festival paid two gold ryo. In Revon's account of what Hokusai later told a bookseller, he then resolved to give his whole life to art, drawing from dawn until dark and studying for hours more. In 1789 he illustrated many books.",
+  "katsushika-hokusai.interpretation.turning_point.1":
+    "The resolution is known only from Hokusai's own later telling, so it is best read as how he understood his turning point; it is consistent with the profile's strong mastery drive.",
+  /* ---------------------------------------------------------- mary-pickford (Roster42) */
+  "mary-pickford.achievement.1":
+    "Mary Pickford began in Biograph one-reelers in 1909 and by the mid-1910s was one of the most popular and best-paid film stars in the world, known as 'America's Sweetheart'. Film historians describe her as a pioneer of a more naturalistic style of screen acting suited to the close-up camera. Tess of the Storm Country (1914) played on four continents, and by 1917 her films were drawing audiences from California to England and Japan.",
+  "mary-pickford.achievement.2":
+    "In 1919 Pickford, Charlie Chaplin, Douglas Fairbanks and D. W. Griffith founded United Artists, a distribution company through which performers and filmmakers could control and share in the profits of their own films. Pickford had already won her own production unit in 1916, which film scholar Gaylyn Studlar describes as a first for a Hollywood star. She remained a United Artists owner, serving as an executive from 1935, until she sold her stock in 1956.",
+  "mary-pickford.achievement.3":
+    "In 1927 Pickford was one of the 36 founders of the Academy of Motion Picture Arts and Sciences, and at the second awards, held in 1930, she won Best Actress for her first sound film, Coquette (1929). In 1921 she had helped found the Motion Picture Relief Fund, now the Motion Picture & Television Fund, and in 1932 she spearheaded its Payroll Pledge Program.",
+  "mary-pickford.moment.1":
+    "In the summer of 1907, fifteen-year-old Gladys Smith, a touring actress, went to the office of Broadway producer David Belasco again and again and was told to come back tomorrow. Accounts differ on the details: a 2005 PBS documentary has her finally storming in and shouting that her life depended on seeing him, while Terry Ramsaye's 1926 history has her bursting onto his stage during a rehearsal. In both versions she joined his company, and Belasco gave her the stage name Mary Pickford.",
+  "mary-pickford.interpretation.moment.1":
+    "This episode is consistent with the profile's high proactive agency: she acted to force an opening rather than waiting to be called.",
+  "mary-pickford.moment.2":
+    "In 1918, while Adolph Zukor was out of town, Pickford put Stella Maris into production, playing both a wealthy invalid and Unity Blake, an abused orphan servant who walks with a limp, a part Zukor would not have approved. When he returned and found her on set in costume he was dismayed, and she reassured him that her character died before the end. The film was widely praised, and the PBS documentary says Zukor conceded that the performance was 'the most remarkable' of her career.",
+  "mary-pickford.interpretation.moment.2":
+    "This is consistent with the profile's risk tolerance: she committed to an unconventional role her producer was likely to oppose, although later experiments such as Rosita (1922) were less well received by her fans.",
+  "mary-pickford.turning_point.1":
+    "By 1915 Pickford and her mother had concluded that her films were helping Paramount sell its other releases. After negotiations in 1916 that made national news, her contract with Zukor gave her a share of the profits through a production company in her name and a larger say over her films, and she began choosing material such as Poor Little Rich Girl (1917). From a salaried star she had become a producer, a position she carried first to First National in 1918 and then into United Artists in 1919.",
+  "mary-pickford.interpretation.turning_point.1":
+    "This is consistent with the profile's strong autonomy need: she pressed for ownership and control of her work, not only a higher salary.",
+  /* ---------------------------------------------------------- matthew-henson (Roster42) */
+  "matthew-henson.achievement.1":
+    "Matthew Henson was Robert Peary's chief assistant on the Arctic expeditions of 1891-1909. By Peary's own account he went with him on every northern expedition after the first, in 1886, and on almost every long sledge journey, as dog driver, hunter, interpreter and general assistant; he had first been hired in 1887 for Peary's Nicaragua survey.",
+  "matthew-henson.achievement.2":
+    "In April 1909 Henson was one of the six men in Peary's final party, with four Inuit men, at the camp Peary reported as the North Pole. Peary's claim to have reached the Pole has been disputed ever since, and later researchers cited by reference works doubt it, so what is established is Henson's place in that final party and not the result.",
+  "matthew-henson.achievement.3":
+    "Over about eighteen years Henson learned igloo building, dog driving and the Inuktun language from the Inughuit of northern Greenland. Peary wrote that, apart from the Inuit themselves, Henson was the best man he had for sledge travel, and Captain Robert Bartlett wrote that Henson was a better dog driver than he was.",
+  "matthew-henson.moment.1":
+    "During the winter of 1891-92 at Redcliffe House in northwest Greenland, Henson, who had come north as Peary's attendant, took over the cooking for the expedition's household from November until May. Josephine Peary's diary says he did this under her supervision, and records him hunting deer with the Inuit hunter Ikwa and travelling by boat that autumn.",
+  "matthew-henson.interpretation.moment.1":
+    "The cooking, hunting and boat work alongside his duties as attendant illustrate how he took on new roles in an unfamiliar setting, which fits the adaptability this profile records; the diary is one witness's account.",
+  "matthew-henson.moment.2":
+    "In the spring and summer of 1895 Peary, Hugh Lee and Henson crossed the Greenland ice cap and returned on short rations, with weakened dogs killed and fed to the others. Peary wrote that Lee and Henson 'never complained' and called Henson 'unhesitating and tenacious as a bulldog'.",
+  "matthew-henson.interpretation.moment.2":
+    "Peary's account of the 1894-95 stay and this journey is consistent with persistence under hardship, though the praise comes from his employer and leader.",
+  "matthew-henson.turning_point.1":
+    "After the 1908-09 expedition Henson made no more Arctic journeys. He first worked parking cars in New York; on 26 February 1913 President Taft appointed him to the New York Custom House, where he served as a messenger and, from 1927, a clerk until his position was abolished in November 1936.",
+  "matthew-henson.interpretation.turning_point.1":
+    "The move from field exploration to a salaried federal post is consistent with another change of working role, though the records do not state his own reasons.",
+  /* ---------------------------------------------------------- pyotr-ilyich-tchaikovsky (Roster42) */
+  "pyotr-ilyich-tchaikovsky.achievement.1":
+    "Tchaikovsky composed the scores of three ballets: Swan Lake, first staged at the Bolshoi Theatre in Moscow in 1877, and The Sleeping Beauty (1890) and The Nutcracker (1892), both written for the Imperial Theatres in St Petersburg. The Swan Lake score was heavily cut and rearranged in later productions, and the version widely known in the twentieth century derives from one prepared after his death; all three ballets remain staples of the repertoire.",
+  "pyotr-ilyich-tchaikovsky.achievement.2":
+    "In 1874 Nikolay Rubinstein criticised the First Piano Concerto harshly, and Leopold Auer, to whom the Violin Concerto had been offered, declined to play it as too difficult; after its 1881 Vienna performance the critic Eduard Hanslick wrote a hostile review. Both concertos are now among the best-loved works in the repertoire, alongside the Fourth, Fifth and Sixth ('Pathetique') symphonies, the last premiered under his own baton in 1893, and the 1812 Overture.",
+  "pyotr-ilyich-tchaikovsky.achievement.3":
+    "Two of Tchaikovsky's operas are settings of Pushkin. Eugene Onegin, which he called 'lyrical scenes', was composed in 1877-78 and first staged in full by Moscow Conservatory students in March 1879, with its first professional production at the Bolshoi in January 1881. The Queen of Spades premiered at the Mariinsky Theatre in St Petersburg in December 1890, after he had written it in Florence in 44 days.",
+  "pyotr-ilyich-tchaikovsky.moment.1":
+    "On Christmas Eve 1874 Tchaikovsky played his new piano concerto for Nikolay Rubinstein and Nikolay Hubert, hoping for technical advice. By Tchaikovsky's own account, written three years later to Nadezhda von Meck, Rubinstein condemned the work harshly and said he would perform it if it were revised; Tchaikovsky answered that he would not alter a single note. He published it as it stood and dedicated it to Hans von Bulow, who gave its first performance in Boston in October 1875; Tchaikovsky later made revisions of his own, in 1879 and around 1889.",
+  "pyotr-ilyich-tchaikovsky.interpretation.moment.1":
+    "The episode is consistent with the profile's independent thinking: he held to his own judgement against the most authoritative pianist in Moscow, although his later revisions show he did not treat the concerto as beyond change.",
+  "pyotr-ilyich-tchaikovsky.moment.2":
+    "Tchaikovsky destroyed the scores of several early works. He cut bars from the symphonic fantasia Fatum before its 1869 premiere and later destroyed the full score; he reused parts of the opera Undina in other works and then destroyed that score; and he destroyed most of the score of his first opera, The Voyevoda. In 1891 he tore up the score of a later symphonic ballad, also called The Voyevoda, after hearing it performed. Fatum, the ballad and most of the opera were reconstructed after his death, largely from surviving orchestral parts; of Undina only extracts survive.",
+  "pyotr-ilyich-tchaikovsky.interpretation.moment.2":
+    "This pattern is consistent with the profile's perfectionism, with the loss of the originals as its visible cost. Tchaikovsky Research notes that for Fatum it is unclear whether Balakirev's criticism or a changed view of the piece lay behind the destruction.",
+  "pyotr-ilyich-tchaikovsky.turning_point.1":
+    "Tchaikovsky had repeatedly said he could not conduct, and in October 1886 he wrote to von Meck that the very thought of the podium made him tremble. In December 1886 he took his first orchestral rehearsal, and on 19/31 January 1887 he conducted the premiere of his revised opera Cherevichki at the Bolshoi Theatre in Moscow. By the end of 1887 he had set out on a first European tour as a conductor, and over the next six years he conducted his own music in Prague, Paris, London and, in 1891, at the opening week of the new Music Hall in New York, later called Carnegie Hall.",
+  "pyotr-ilyich-tchaikovsky.interpretation.turning_point.1":
+    "The change illustrates the profile's adaptability: a self-described reluctance gave way to a sustained new public role. The difficulty is self-reported, and Walter Damrosch, who hosted him in 1891, wrote that he found the work tiring but that the players followed his intentions eagerly.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -10645,6 +10903,264 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1894~95년, 쉰 살 가까이 된 뢴트겐은 기체·결정·액체에 대한 정밀 측정으로 알려진 자리 잡은 물리학자였다. 그는 레나르트관을 구해 레나르트의 음극선 실험을 재현했고, 압력 아래 액체에 관한 연구를 제쳐 두고 음극선 연구에 나섰다. 과학사학자 알렉시 아스무스는 이것이 그의 평소 연구 분야 밖이었다고 지적한다.",
   "wilhelm-rontgen.interpretation.turning_point.1":
     "경력 중반에 낯선 연구 분야로 옮겨 간 것은 이 프로필의 호기심 점수와 부합한다. 발견 자체에는 우연도 작용했으며, 이 선택은 그가 그 현상을 알아챌 위치에 서게 된 과정에 대한 합리적인 해석 가운데 하나다.",
+  /* ---------------------------------------------------------- alfred-wegener (Roster42) */
+  "alfred-wegener.achievement.1":
+    "베게너는 1912년 1월 6일의 강연과 저서 『대륙과 해양의 기원』(초판 1915년, 제4판 1929년)에서, 대륙들이 한때 하나로 붙어 있다가 갈라져 이동했다는 가설을 내놓았다. 근거는 해안선의 일치, 서로 대응하는 화석과 암석 구조, 과거의 기후였다. 대륙을 움직이는 힘을 제시하지 못한 점도 한 원인이 되어 대다수 지질학자는 이 가설을 받아들이지 않았다. 1960년경 해저 확장이 발견된 뒤에야 대륙의 이동은 판구조론의 틀 안에서 인정받았다.",
+  "alfred-wegener.achievement.2":
+    "베게너는 그린란드 탐험에 네 차례 참가했다. 1906~08년 덴마크 탐험에서는 연과 계류 기구로 극지 대기를 체계적으로 처음 관측했고, 1912~13년에는 코흐가 이끈 탐험대와 함께 빙상을 횡단했다. 그가 이끈 1929년 예비 탐험에서는 반사 지진파로 빙상 두께를 처음 측정했다. 1930~31년 독일 그린란드 탐험은 빙상을 가로지르는 관측소 세 곳을 두는 계획으로, 그는 이 탐험을 이끌다 1930년 11월에 숨졌다. 역사가들은 이 탐험의 연구 계획이 이후 국제 탐험의 기준이 되었다고 평가한다.",
+  "alfred-wegener.achievement.3":
+    "베게너는 상층 대기를 연구한 기상학자였다. 1906년에는 형 쿠르트와 함께 약 52시간 동안 기구를 띄워 세계 기록을 세웠고, 1911년에 낸 교재 『대기의 열역학』은 NASA의 설명에 따르면 독일에서 표준 교재가 되었다. 장인 블라디미르 쾨펜과 함께 쓴 『지질 시대의 기후』(1924)는 『신독일인명사전』이 근대 고기후학을 세운 책으로 평가한다.",
+  "alfred-wegener.moment.1":
+    "1918~19년 겨울 베게너는 마르부르크에서 달의 크레이터를 재현하는 충돌 실험을 했고, 1921년 저서에서 당시의 통설과 달리 그것이 충돌의 흔적이라고 주장했다. 1927년 9월에는 에스토니아 사레마 섬의 살(칼리) 분화구에서 측정 조사를 수행했다. 『신독일인명사전』에 따르면 이후 이반 라인발트가 그곳에서 지구 밖에서 온 철을 발견함으로써 충돌 분화구임이 확정되었다.",
+  "alfred-wegener.interpretation.moment.1":
+    "실험실 모형 실험 뒤에 현장 측정 조사가 이어진 이 과정은 이 프로필의 실험성 점수와 맞닿아 있다. 논란이 된 생각을 지면에서 논증하는 데 그치지 않고 물리적인 방법으로 검증하려 했다는 점을 보여 준다.",
+  "alfred-wegener.moment.2":
+    "1930년 9월 독일 그린란드 탐험대는 일정이 약 38일 늦어졌고, 빙상 한가운데 있는 아이스미테 관측소에는 물자의 일부만 옮겨 둔 상태였다. 9월 21일 베게너는 프리츠 뢰베와 그린란드인 13명과 함께 서해안을 출발해 그곳으로 물자를 나르러 갔다. 그린란드인 대부분은 도중에 돌아갔고, 베게너와 뢰베, 라스무스 빌룸센만 10월 30일 아이스미테에 도착했다. 11월 1일 쉰 번째 생일에 베게너는 빌룸센과 함께 되돌아가는 길에 올랐다. 그는 가는 도중 아마 11월 중순에 숨졌고, 수색대가 1931년 5월 12일 그의 무덤을 찾아냈다.",
+  "alfred-wegener.interpretation.moment.2":
+    "늦은 계절에 물자 수송대를 직접 이끌기로 한 선택은 이 프로필에서 나타나는 적당한 수준의 신체적 위험 감수 성향을 보여 주는 한 예다. 다만 여러 해석 가운데 하나일 뿐이다. 이 탐험을 다룬 2000년의 역사 연구는 대장만이 아니라 여러 사람이 잘못된 판단을 했으며 어느 한 사람의 탓으로 돌릴 수 없다고 결론짓는다.",
+  "alfred-wegener.turning_point.1":
+    "1912년 1월 6일 마르부르크의 강사이자 31세 기상학자였던 베게너는 프랑크푸르트의 지질학회에서 대륙 이동 가설을 처음 발표했다. 장인 블라디미르 쾨펜은 기상학자가 외부인으로서 지질학에 뛰어들지 말라고 경고했지만 그는 뜻을 굽히지 않았다. 나흘 뒤 마르부르크에서 두 번째 강연을 했고, 4월부터 『페터만 지리학 보고』에 긴 논문이 실렸다. 그는 1915년, 1920년, 1922년, 1929년의 책 개정판에서 이 주제로 돌아왔다. 이때부터 그의 이름은 기상학과 극지 연구뿐 아니라 논쟁적인 지질학 문제와도 연결되었다.",
+  "alfred-wegener.interpretation.turning_point.1":
+    "스승이자 장인의 경고를 받고도 자신의 전공이 아닌 분야의 전문가들 앞에서 그 생각을 발표한 일은 이 프로필의 독립적 사고 점수와 맞닿아 있다.",
+  /* ---------------------------------------------------------- blaise-pascal (Roster42) */
+  "blaise-pascal.achievement.1":
+    "1654년 여름 파스칼은 피에르 드 페르마와 편지를 주고받으며, 도박이 끝나기 전에 중단되었을 때 판돈을 어떻게 나눌지 하는 문제를 서로 다른 방법으로 풀었다. 수학자들은 확률론의 출발점을 이 서신 교환에서 찾는다. 같은 해 파스칼은 이항계수 표를 체계적으로 다룬 《산술 삼각형론》을 썼는데, 이 글은 수학적 귀납법에 해당하는 증명 방식을 사용했고 그의 사후에야 출간되었다. 이 삼각형 자체는 이전 여러 전통에서 이미 알려져 있었으므로 파스칼이 발명한 것은 아니다.",
+  "blaise-pascal.achievement.2":
+    "파스칼은 1646~47년에 토리첼리의 수은 기압계 실험을 이어받아 《진공에 관한 새 실험》을 펴냈다. 1647년 11월 그는 매제 플로랭 페리에에게 퓌드돔 산에서, 자연이 진공을 싫어해서 생기는 것으로 여겨지던 현상이 실은 공기의 무게 때문인지 시험해 달라고 부탁했고, 1648년 9월 19일 페리에는 정상의 수은주가 산기슭보다 약 3인치 낮다는 것을 확인했다. 1650년대 초에 쓰여 그의 사후에 출간된 《액체의 평형론》은 지금 파스칼의 법칙이라 불리는 유체 압력의 원리를 정리했고, 압력의 SI 단위도 그의 이름을 땄다. 데카르트 등은 측정값은 받아들였지만 수은 위의 공간이 진짜 진공이라는 해석에는 이의를 제기했다.",
+  "blaise-pascal.achievement.3":
+    "1642년부터 파스칼은 오늘날 '파스칼린'이라 불리는 계산 기계를 연구했다. 놋쇠와 흑단으로 만든, 자리올림이 자동으로 되는 덧셈·뺄셈 기계였다. 그 자신의 편지와 1649년의 왕실 특허장에 따르면 그는 한 가지 모델을 정하기까지 50가지가 넘는 모델을 만들었고, 원형 기계 약 여덟 대가 지금도 남아 있다. 이것이 최초의 계산 기계는 아니어서, 빌헬름 시카르트가 1624년에 이미 하나를 만들었고, 파스칼의 기계는 잘 팔리지 않아 1652년경 생산이 끝났다.",
+  "blaise-pascal.achievement.4":
+    "1656년 1월부터 1657년 3월까지 파스칼은 《시골 친구에게 보낸 편지》(프로뱅시알) 18편을 익명으로 발표했다. 신학자 앙투안 아르노를 소르본의 견책에서 변호하고 이어 예수회의 도덕 교리를 공격한 글로, 학자들의 라틴어가 아니라 일반 독자를 위한 생생한 프랑스어로 쓰였다. 이 편지들은 널리 퍼졌고 1657년 로마에서 단죄를 받았으나, 그의 방법을 비판한 평자조차 프랑스 산문의 걸작이라 불렀다. 기독교를 변호하려고 남긴 미완의 메모 《팡세》는 1670년 그의 사후에 출간되었으며 '파스칼의 내기'로 알려진 논증을 담고 있다.",
+  "blaise-pascal.moment.1":
+    "1645년 파스칼은 자신의 계산기를 세귀에 대법관에게 헌정하는 글에서, 장인들이 자신이 설계한 것을 만들어 내지 못했고 루앙의 한 시계공이 쓸모없는 모조품을 만들자 직공들을 모두 내보내고 이 일을 포기하기로 마음먹었다고 적었다. 대법관의 권유로 그는 이 기계의 작업을 다시 시작했다.",
+  "blaise-pascal.interpretation.moment.1":
+    "이 일화는 이 프로필의 끈기를 보여 주는 한 사례이다. 몇 해에 걸쳐 거의 포기했다가 다시 시작한 일이 기록으로 남아 있지만, 그 내용은 대부분 파스칼 자신의 편지에 기대고 있다.",
+  "blaise-pascal.moment.2":
+    "1656년 1월, 아르노가 직접 쓴 변론문이 포르루아얄의 친구들을 움직이지 못하자 아르노는 파스칼에게 젊은 당신이 뭔가 해 보라고 말했고, 이튿날 파스칼이 첫 번째 편지를 가져오자 아르노는 곧바로 인쇄하게 했다. 연작의 교정을 도운 니콜은 파스칼이 편지 한 통에 스무 날이나 매달리기도 했고 어떤 편지는 일고여덟 번 다시 썼다고 말했다고 전해지며, 열여섯 번째 편지는 '더 짧게 쓸 여유가 없었다'며 길이에 대해 사과한다.",
+  "blaise-pascal.interpretation.moment.2":
+    "이 일화는 이 프로필의 설득력과 맞아떨어진다. 첫 편지는 아르노의 전문적인 글이 닿지 못한 독자를 겨냥해 쓰였고, 니콜이 전하는 거듭된 퇴고는 각 편지가 어떻게 읽힐지에 쏟은 공을 짐작하게 한다.",
+  "blaise-pascal.turning_point.1":
+    "1654년 말 파스칼의 작업은 방향을 틀었다. 1654년 11월 23일 밤의 종교적 체험을 겪은 뒤, 그는 이 체험을 적은 쪽지를 죽을 때까지 옷 속에 꿰매어 지녔고, 페르마와의 수학 서신 교환을 끝냈으며 인쇄 직전이던 진공에 관한 작은 책의 출간도 접었다. 1656년부터는 《시골 친구에게 보낸 편지》에 이어 기독교를 변호하기 위한 메모 등 신학적인 글을 썼고, 수학으로는 1658~59년에 사이클로이드 문제로 잠깐 돌아왔을 뿐이다.",
+  "blaise-pascal.interpretation.turning_point.1":
+    "이 전환은 이 프로필이 보여 주는 여러 분야에 걸친 폭과 나란히 놓인다. 1654년 이후 그의 작업은 그전 몇 해의 수학·물리학과 다른 분야에 속했지만, 자료들은 이 변화의 원인을 종교적인 말로 설명하고 있어 여기서는 더 해석하지 않는다.",
+  /* ---------------------------------------------------------- edwin-hubble (Roster42) */
+  "edwin-hubble.achievement.1":
+    "1923~24년 허블은 마운트 윌슨의 100인치 망원경으로 안드로메다 성운에서 세페이드 변광성을 찾아냈고, 곧이어 M33과 NGC 6822에서도 발견했다. 이 별들의 주기와 밝기로부터 1929년 논문에서 안드로메다까지의 거리를 약 90만 광년으로 구했는데, 이는 우리은하 바깥에 있는 거리였고 나선 성운이 별개의 은하인지를 둘러싼 오랜 논쟁을 사실상 끝냈다. 이후 연구에서 그의 거리 척도는 너무 작았던 것으로 드러나, 안드로메다까지의 실제 거리는 두 배가량이었다.",
+  "edwin-hubble.achievement.2":
+    "1929년 허블은 은하까지의 거리를 (주로 베스토 슬라이퍼가 측정한) 적색편이와 대조해, 멀리 있는 은하일수록 더 빠르게 멀어지는 것처럼 보이며 그 비율이 약 500km/s/Mpc임을 보고했다. 1931년부터는 더 희미한 은하를 측정한 밀턴 휴메이슨과 함께 이 관계를 넓혀 갔다. 이 관계는 팽창하는 우주 모형의 관측적 토대가 되었다. 다만 허블 자신은 '겉보기' 속도라는 표현을 쓰며 해석을 열어 두었고, 조르주 르메트르가 1927년에 이미 비슷한 관계를 도출해 팽창률을 추정했기 때문에 공로를 어떻게 나눌지는 지금도 논의된다.",
+  "edwin-hubble.achievement.3":
+    "1926년 허블은 은하를 타원 은하, 나선 은하, 막대 나선 은하, 불규칙 은하로 나누는 분류 체계를 제안했다. 이를 요약한 '소리굽쇠' 도표는 1936년 저서 『성운의 세계』에 실렸고, 허블이 세상을 떠난 뒤 앨런 샌디지가 이 체계를 완성했다. 허블 분류는 지금도 은하의 모양을 설명하는 표준적인 출발점으로 쓰인다.",
+  "edwin-hubble.moment.1":
+    "1920년대 마운트 윌슨의 동료 아드리안 판 마넌은 나선 성운의 회전을 측정했다고 보고했는데, 성운이 멀리 있다면 이는 불가능한 속도를 뜻하는 값이었다. 미국물리학회(AIP)의 역사 자료에 따르면, 허블은 먼저 다른 관측자들이 판 마넌의 결과를 뒷받침했다는 주장을 사적인 자리에서 반박한 뒤, 네 개의 성운을 직접 다시 측정해 판 마넌의 수치에 체계적 오차가 있음을 보였다. 이후 판 마넌은 자신의 운동 측정값을 '유보적으로 보아야 한다'는 짧은 글을 실었는데, 이 자료는 그 형식이 허블 및 학술지 편집자와 협의된 것이라고 설명한다.",
+  "edwin-hubble.interpretation.moment.1":
+    "이 일화는 동료의 자료를 공개적으로 반박하는 것을 마다하지 않으면서도, 정면충돌 대신 기록이 제시되는 방식을 협의해 갈등을 정리했다는 해석과 어울린다.",
+  "edwin-hubble.moment.2":
+    "허블의 1926년 은하 분류 논문에는 크누트 룬드마르크가 거의 같은 시기에 내놓은 분류보다 자신의 것이 먼저라고 주장하는 각주가 있다. 앨런 샌디지는 허블이 좀처럼 공개하지 않았던 불만 가운데 일부가 근거 없는 것이었다고 말한다. 천문학자 데이비드 블록이 인용한 1930년 8월 21일자 빌럼 더 시터르에게 보낸 편지에서 허블은 속도-거리 관계의 '정식화, 검증, 확인'이 마운트 윌슨의 기여이며 그렇게 인정받는 일을 '깊이 걱정한다'고 썼다.",
+  "edwin-hubble.interpretation.moment.2":
+    "이 두 일화는 선취권과 공로 인정에 대한 강한 관심과 어울린다. 1929년 논문에서 앞선 연구를 인용하지 않은 것이 의도적이었는지는 논란이 있으며, 이 해석에는 포함되지 않는다.",
+  "edwin-hubble.turning_point.1":
+    "허블은 옥스퍼드에서 3년을 보낸 뒤 1913년 켄터키 변호사 시험에 합격했지만, 오스터브록 등에 따르면 실제로 변호사로 일한 기록은 없다. 그는 인디애나주 뉴올버니의 고등학교에서 스페인어와 물리를 가르치고 농구부를 지도했다. 1914년 시카고 대학의 은사 포리스트 몰턴에게 대학원생으로 돌아가고 싶다는 편지를 썼고, 여키스 천문대는 그에게 근무 장학금을 제안했다. 그는 훗날 '법을 때려치우고 천문학을 택했다'고 말하며, 이류나 삼류에 그친다 해도 중요한 것은 천문학이었다고 덧붙였다.",
+  "edwin-hubble.interpretation.turning_point.1":
+    "이 전환은 방향을 바꾸기 위해 스스로 나선 사례를 보여 준다. 천문학으로의 이동은 그 자신의 요청에서 비롯되었고, 이미 자격을 갖춘 직업의 안정을 일부 포기하는 일이었다.",
+  /* ---------------------------------------------------------- emil-zatopek (Roster42) */
+  "emil-zatopek.achievement.1":
+    "에밀 자토페크는 1948년 런던 올림픽에서 10,000m 금메달과 5,000m 은메달을 땄다. 1952년 헬싱키 올림픽에서는 5,000m에서 우승하고 10,000m 2연패를 이룬 데 이어 생애 첫 마라톤에서도 우승했으며, 8일 사이에 세 종목 모두 올림픽 신기록(14분 06초 6, 29분 17초 0, 2시간 23분 03초 2)을 세웠다. 한 대회에서 이 세 종목을 모두 우승한 선수는 아직 없다.",
+  "emil-zatopek.achievement.2":
+    "자토페크는 400m를 빠르게 달리고 짧게 조깅하며 쉬는 반복 훈련, 흔히 수십 회에 이르는 인터벌 훈련을 중심으로 훈련을 짰다. 전문가들은 처음에는 이 방식을 비웃었지만, 올림피디아는 그가 장거리 선수들 사이에 인터벌 훈련을 널리 퍼뜨린 선수라고 평가한다(인터벌 훈련 자체는 한 코치가 처음 소개했다). 그는 1949년부터 1950년대 중반까지 5,000m에서 30,000m 사이 거리에서 세계 신기록을 18번 세웠고, 여기에는 최초의 29분 이내 10,000m와 1951년 최초의 1시간 이내 20,000m(59분 51초 8)가 포함된다.",
+  "emil-zatopek.moment.1":
+    "타임스 부고는 자토페크가 경기용 신발이 가볍게 느껴지도록 무거운 군화를 신고 훈련했고, 호흡에 도움이 되는지 보려고 방독면을 써 보았으며(도움이 되지 않았다), 통행금지로 실내에 머물러야 할 때는 빈방에서 제자리 달리기를 했다고 기록한다. 월드 애슬레틱스는 군 훈련병 시절 그가 군화와 여러 겹의 옷을 입고 깊은 눈 속에서 10~12km를 달렸으며, 헬싱키 한 해 전인 1951년에는 지구력을 시험하려고 2주 사이에 20,000m 경기를 두 번 뛰었다고 덧붙인다.",
+  "emil-zatopek.interpretation.moment.1":
+    "이렇게 장비와 환경을 직접 시험해 보는 모습은 그의 프로필에 매겨진 실험 정신과 일치한다. 방독면이 도움이 되지 않았다는 타임스의 언급은 모든 시도가 성과로 이어진 것은 아니었음을 보여 준다.",
+  "emil-zatopek.moment.2":
+    "올림픽 금메달은 없지만 세계 기록을 여러 개 가진 호주의 론 클라크가 1966년 프라하를 찾았을 때, 오래전에 은퇴한 자토페크는 그를 공항까지 태워다 주며 작은 꾸러미를 건넸다. 클라크가 비행기 안에서 열어 보니 클라크의 이름과 그날의 날짜가 새겨진 자토페크의 1952년 올림픽 10,000m 금메달이 들어 있었다. 월드 애슬레틱스가 전하는 클라크의 회상에 따르면 자토페크는 이것이 '우정 때문이 아니라 받을 자격이 있기 때문'이라고 말했고, 클라크는 눈물을 흘렸다.",
+  "emil-zatopek.turning_point.1":
+    "1968년 자토페크는 몇 주 전 개혁파의 '2,000어 선언'에 서명했는데, 바르샤바 조약군이 체코슬로바키아를 침공하자 바츨라프 광장으로 나가 그곳의 소련군 병사들과 논쟁을 벌였다. 개혁 운동이 진압된 뒤 그는 군과 공산당에서 제명되었고 그의 이름은 교과서에서 지워졌다. 이후 수년간 시골에서 물과 광물을 탐사하는 팀에서 육체노동을 했고(세부 내용은 기록마다 다르다), 나중에는 체육부에서 외국 스포츠 간행물을 읽는 일을 맡았으며, 1989년 이후 공식 복권되었다.",
+  /* ---------------------------------------------------------- george-stephenson (Roster42) */
+  "george-stephenson.achievement.1":
+    "그는 1825년 9월 27일 개통된 스톡턴-달링턴 철도와 1830년 9월 15일 개통된 리버풀-맨체스터 철도의 기사장으로, 증기기관차로 열차를 끄는 초기 공공 철도 두 곳을 건설했다. 리버풀-맨체스터 선은 챗 모스 습지를 가로질렀다. 두 철도 모두 탄광 궤도에서 이미 쓰이던 4피트 8.5인치 궤간으로 깔았고, 이 궤간이 훗날 표준궤가 되었다.",
+  "george-stephenson.achievement.2":
+    "그는 1814년부터 킬링워스 탄광에서 기관차를 만들고 개량했으며, 1823년에는 훗날 로버트 스티븐슨 사로 발전한 뉴캐슬 공장을 공동 설립했다. 아들 로버트의 지휘 아래 이 공장에서 만든 로켓호는 1829년 10월 레인힐 시험에서 리버풀-맨체스터 철도의 상금 500파운드를 받았다. 다관식 보일러는 철도 회사 회계 담당자 헨리 부스의 착상으로 알려져 있어, 이 성과는 여럿이 함께 이룬 것이다.",
+  "george-stephenson.achievement.3":
+    "그는 1815년 10월과 11월 킬링워스 탄광에서 좁은 관을 통해서는 불꽃이 전파되지 않는다는 원리에 기댄 광부용 안전등 세 가지를 시험했고, 이 형식은 '조르디 램프'로 알려졌다. 험프리 데이비도 같은 가을에 자신의 안전등을 발표해 두 사람 사이의 선취권이 논란이 되었다. 1816년 데이비 지지자들은 그에게 2,000파운드를, 1818년까지 스티븐슨 지지자들은 스티븐슨에게 1,000파운드를 모아 주었다.",
+  "george-stephenson.moment.1":
+    "리버풀-맨체스터 선이 지나야 했던 챗 모스는 면적이 약 12제곱마일에 이르는 이탄 습지다. 스마일스에 따르면 첫 제방은 몇 주 동안 거듭 가라앉았고, 이사회는 공사를 계속할지 정하려고 습지 위에서 회의를 열었다. 스티븐슨은 1837년 버밍엄 만찬에서 다른 기술자들의 의견도 구해 본 상태였고, 이사들이 어쩔 수 없이 자신이 계속하도록 허락했으며, 자신은 결과를 한 번도 의심하지 않았다고 회고했다. 1830년 1월 1일 로켓호가 끄는 첫 시험 열차가 이 습지를 건넜다.",
+  "george-stephenson.interpretation.moment.1":
+    "이사들의 의심과 그 자신의 확신에 관한 이야기는 대부분 스마일스가 전한 1837년의 회고에 의존하므로, 이 일화는 이 프로필의 끈기 점수와 어울리는 한 가지 사례로 보아야 하며, 그가 늘 한결같았다는 확정적 척도로 읽어서는 안 된다.",
+  "george-stephenson.moment.2":
+    "1815년 10월 21일 스티븐슨은 첫 안전등을 들고 킬링워스 탄광의 한 갱도로 들어갔다. 그곳은 분출구에서 나오는 가스로 공기를 일부러 탁하게 만들려고 판자를 둘러 둔 곳이었다. 하급 감독 존 무디는 불 켜진 양초를 들이면 폭발할 것이라고 경고했다. 니콜라스 우드와 무디는 시야 밖으로 물러섰고, 스티븐슨은 불을 켠 등을 들고 분출구 쪽으로 나아갔다. 불꽃은 커졌다가 꺼졌을 뿐 가스에 불이 붙지는 않았다. 무디는 1817년 위원회에서 같은 취지로 증언했고, 훗날 데이비의 전기 작가 패리스는 이 첫 안전등이 건전한 설계가 아니었다고 주장했다.",
+  "george-stephenson.interpretation.moment.2":
+    "경험 많은 동료의 경고를 듣고도 시험해 보지 않은 안전등을 들고 가스 쪽으로 나아간 일은 이 프로필의 보통 수준 위험 감수 점수와 어울린다. 다만 그가 리버풀 이사들에게는 낮은 속도만 약속하고 견적이 너무 낮아 보이는 노선은 맡지 않았다는 기록도 있어, 이 프로필은 그 점수를 높게 잡지 않았다.",
+  "george-stephenson.turning_point.1":
+    "1821년 말 당시 킬링워스 탄광의 기관 담당자였던 스티븐슨은 니콜라스 우드와 함께 달링턴으로 가서, 스톡턴-달링턴 철도의 발기인 에드워드 피스에게 자신을 기사로 써 달라고 청하고 말보다 기관차를 쓰자고 설득했다. 그는 1822년 초 기사로 임명되었다. 그때까지 그의 기관차는 사설 탄광 선로에서만 달렸으나, 이 임명으로 그는 공공 철도의 기사가 되었고, 약 4년 뒤에는 리버풀-맨체스터 철도의 기사로도 임명되었다.",
+  "george-stephenson.interpretation.turning_point.1":
+    "먼저 제안을 받기를 기다리지 않고 초청 없이 발기인을 직접 찾아간 일은 이 프로필의 주도성 점수와 어울린다. 다만 이 방문의 세부는 스마일스가 전한 피스의 회고에 바탕을 두고 있다.",
+  /* ---------------------------------------------------------- george-westinghouse (Roster42) */
+  "george-westinghouse.achievement.1":
+    "조지 웨스팅하우스는 1885년부터 유럽의 변압기 특허를 사들이고 기술자들과 함께 이를 실용적인 교류 조명 체계로 발전시켰으며, 이 체계는 1886년 11월 버펄로에서 상업 운전에 들어갔다. 1888년 7월에는 니콜라 테슬라의 교류 전동기 특허 권리를 취득했다. 그의 회사는 1893년 시카고 세계 콜럼버스 박람회의 교류 발전 설비를 만들고 같은 해 나이아가라 폭포 발전소의 발전기 계약을 따냈으며, 이 발전소는 1896년 11월 버펄로에 전력을 공급하기 시작했다.",
+  "george-westinghouse.achievement.2":
+    "1869년 22세의 웨스팅하우스는 압축공기로 작동하는 철도 제동기로 특허를 얻고 웨스팅하우스 에어브레이크 회사를 세웠다. 1870년대의 자동 제동기와, 벌링턴 시험 뒤인 1887~88년에 특허를 얻은 급속작용 삼동변(트리플 밸브)은 긴 화물열차의 제동을 현실적으로 가능하게 했고, 이 제동기는 미국 철도에서 널리 쓰이게 되었다.",
+  "george-westinghouse.moment.1":
+    "1892년 4월 시카고 박람회 조명 입찰에서 제너럴일렉트릭 계열 회사들은 전구 하나당 13.98~18.51달러를 써냈다. 웨스팅하우스의 회사는 5.25달러를 써내 계약을 따냈는데, 일부 친구들은 이를 어둠 속으로 뛰어드는 무모한 짓이라 불렀고 직접적인 수지로는 손해였다. 에디슨의 유리구 전구 특허 때문에 일반 전구를 만들 수 없게 되자 웨스팅하우스와 기술자들은 두 부분으로 된 '마개 전구'를 만들고 유리 공장을 세워 1893년 5월 1일 개막에 맞춰 약 25만 개를 생산했다. 다만 이 전구는 진공을 오래 유지하지 못해 자주 교체해야 했다.",
+  "george-westinghouse.interpretation.moment.1":
+    "특허 장벽에 부딪힌 뒤 몇 달 안에 전구 설계를 바꾸고 전용 공장까지 세운 대응은 강한 외부 제약 아래에서 발휘된 자원 활용 성향과 일치한다. 전기 작가들은 낮은 입찰가 자체를 홍보를 노린 의도적 승부수로 설명하므로, 이 일화가 비용 절감 능력의 증거는 아니다.",
+  "george-westinghouse.moment.2":
+    "1900년경 웨스팅하우스는 대기 중의 열을 끌어내어 소비하는 것보다 더 많은 동력을 얻는 장치의 특허 명세서를 작성했다. 켈빈 경은 대기의 열로는 동력을 얻을 수 없다고 곧바로 전보를 쳤고 나중에는 이를 '망상'이라고 불렀다. 1901년 11월 왕립연구소의 듀어 교수는 이 명세서가 사실상 영구기관을 주장한다고 판단했고, 약 3년 뒤 그의 기술자 맥앨파인도 동력 주장에 대해 같은 결론을 내렸다. 웨스팅하우스는 켈빈의 논문이 이 사안을 다루지 못한다고 답하고 이 작업을 소일거리로 여겼으며, 전기 작가 헨리 프라우트는 1913년까지도 그의 편지에 이 일이 언급된다고 기록했다.",
+  "george-westinghouse.interpretation.moment.2":
+    "이 일화는 전기 작가가 '이름만 대단한 권위는 아무것도 곧이곧대로 받아들이지 않았다'고 쓴 그의 권위에 대한 독립성과 일치한다. 이 경우 그 독립성은 확립된 열역학에 맞서는 방향으로 작용했으므로, 이 특성의 대가를 보여 주는 사례이기도 하다.",
+  "george-westinghouse.turning_point.1":
+    "1907년 10월 22일 니커보커 신탁회사의 파산이 금융 공황을 일으킨 이튿날인 10월 23일, 웨스팅하우스 전기제조회사의 이사들은 연방 법원에 관리인 선임을 신청했고 회사의 부채는 약 4,300만 달러였다. 웨스팅하우스는 채권자들이 채권 대신 주식을 받는 '상품 채권자 안'을 마련했고, 회사는 약 14개월 뒤인 1908년에 법정관리에서 벗어났다. 재편된 이사회는 대부분 은행과 채권자 대표로 채워졌으며, 그는 권한이 줄어든 사장으로 남았다가 1911년 회사와의 공식 관계를 끝냈다. 그는 1914년 3월에 세상을 떠났다.",
+  "george-westinghouse.interpretation.turning_point.1":
+    "프라우트는 1907년의 실패를 은행단 대신 개인적 호소와 자신의 지분으로 회사들을 조달하던 방식에 내재한 위험과 연결짓고, 그가 앞서 은행가들의 지배를 거부한 일도 기록한다. 이는 그의 프로필에 매겨진 강한 자율성 욕구와 일치하지만, 위 사실만으로 그것이 결과를 설명한다고 말할 수는 없다.",
+  /* ---------------------------------------------------------- gustav-klimt (Roster42) */
+  "gustav-klimt.achievement.1":
+    "클림트는 1904년경부터 평면적인 인물 위에 금박과 모자이크 같은 장식을 입히는 이른바 '황금기' 양식을 발전시켰고, 《아델레 블로흐바우어의 초상 I》(1907)과 《키스》(1908~09)가 그 대표작이다. 《키스》는 1908년 쿤스트샤우에서 오스트리아 교육부가 국가 현대미술관용으로 사들였으며, 지금은 빈 벨베데레의 소장품이다.",
+  "gustav-klimt.achievement.2":
+    "1897년 클림트는 빈 분리파의 초대 회장이 되었다. 분리파는 빈의 기성 미술가 단체에서 갈라져 나와 현대 미술을 자신들의 방식으로 선보이려 한 예술가 모임으로, 1898년 자체 전시관을 지었고 클림트는 기관지 《베르 사크룸》에 드로잉과 도안을 실었다.",
+  "gustav-klimt.achievement.3":
+    "1901~02년에 제작한 길이 약 34미터의 벽화 《베토벤 프리즈》는 막스 클링거의 베토벤 조각상을 중심에 둔 1902년 분리파 전시를 위한 작품이었다. 클림트는 1905년부터 1911년 사이 브뤼셀 스토클레 저택 식당의 대리석·금·에나멜 프리즈도 설계했으며, 이 저택은 현재 유네스코 세계유산이다.",
+  "gustav-klimt.moment.1":
+    "1901년 3월, 《의학》이 언론의 공격을 받고 의회에서도 거론되던 때에 클림트는 《빈 모르겐차이퉁》에 드물게 공개 발언을 했다. 벨베데레가 인용한 바에 따르면, 그는 이 다툼에 끼어들 시간이 없고 자신에게 중요한 것은 몇 사람이 그림을 좋아하느냐가 아니라 누가 좋아하느냐라고 말했다.",
+  "gustav-klimt.interpretation.moment.1":
+    "이 답변은 이 프로필의 독립적 사고 성향과 일치한다. 자기 작품을 판단하는 기준이 대중의 승인에 달려 있지 않다는 입장을 밝힌 것이다. 다만 이는 한 번의 발언이며, 지면에서의 변호는 대체로 바르나 헤베시 같은 지지자들이 맡았다.",
+  "gustav-klimt.moment.2":
+    "1908년 클림트는 빈 쿤스트샤우를 조직한 위원회의 회장이었다. 벨베데레에 따르면 전시를 준비하느라 개막 전까지 《키스》를 끝내지 못했고, 교육부는 미완성 상태의 이 그림을 전시장에서 사들였다. 클림트는 1908년 7월 16일 곧바로 완성하겠다고 적었지만, 완성 기록은 1909년 6월에야 확인된다.",
+  "gustav-klimt.interpretation.moment.2":
+    "이 일화는 이 프로필에서 큰 작품을 끝내는 데 시간이 오래 걸리는 경향과 어울린다. 다만 벨베데레는 이 경우의 지연을 전시 조직 업무와 개막 일정 탓으로도 설명한다.",
+  "gustav-klimt.turning_point.1":
+    "1905년 5월, 논란 끝에 학부 그림 세 점을 대학에 걸 수 없게 되자 클림트는 주문에서 물러나 세 점을 모두 되사고 받았던 선급금을 돌려주었다. 벨베데레의 소장 이력은 그 날짜를 1905년 5월 25일로 기록한다. 같은 해 수집가 아우구스트 레더러가 《철학》을 샀다. 1894년에 시작된 이 주문은 어느 그림도 대학에 걸리지 못한 채 끝났고, 이후 스토클레 프리즈 같은 대규모 작업은 민간 의뢰인을 위해 이루어졌다.",
+  "gustav-klimt.interpretation.turning_point.1":
+    "이는 이 프로필의 자율성 욕구와 일치하는 대목이다. 클림트는 그림이 국가 미술관으로 옮겨지는 대신 자신이 소유하는 쪽을 택했다. 다만 이 거부는 벨베데레의 온라인 설명에 근거하며, 같은 글은 친구와 후원자들의 도움으로 상환했다고 덧붙이므로 혼자 힘으로 한 일은 아니었다.",
+  /* ---------------------------------------------------------- ignaz-semmelweis (Roster42) */
+  "ignaz-semmelweis.achievement.1":
+    "1847년 빈 종합병원 제1산과 병동의 조수였던 제멜바이스는 이 병동에서 산욕열로 숨지는 산모가 많은 이유를 해부실에서 곧바로 분만실로 오는 의사와 학생들과 연결지었다. 그는 1847년 5월 말부터 산모를 진찰하기 전에 모두가 염화석회 용액으로 손을 씻도록 했고, 4월에 18퍼센트를 넘었던 월별 사망률은 6월에 2.38퍼센트, 7월에 1.20퍼센트로 떨어졌다.",
+  "ignaz-semmelweis.achievement.2":
+    "제멜바이스는 의대생이 실습하는 제1산과 병동과 조산사가 실습하는 제2산과 병동을 비교했다. 1841~46년의 사망률은 제1병동이 9.92퍼센트, 제2병동이 3.38퍼센트였다. 그는 이 차이와 1847년 이후의 감소를 근거로 당시 통설이던 '유행성 영향' 설명에 반박했으며, 1861년에는 통계표와 비판자들에 대한 답변을 담은 543쪽 분량의 『산욕열의 원인, 개념, 예방』을 펴내 시신과 살아 있는 환자에게서 나온 부패 물질을 원인으로 제시했다.",
+  "ignaz-semmelweis.moment.1":
+    "1861년 제멜바이스는 산과 의사 슈패트, 스칸초니, 지볼트에게 보내는 공개서한으로 비판자들에게 답했다. 그는 자신이 침묵하지 않았다면 1847년 이후 죽지 않았을 수천 명의 산모와 영아가 죽었다고 썼고, 1847년부터 친구였던 지볼트에게는 자신의 견해에 동의하지 않는 것은 살인자가 되는 것과 같다고 말했으며, 모든 독일 의사가 납득할 때까지 모인 의사들을 가르치겠다고 제안했다. 지볼트는 1862년에 사후 출간된 서간집에서 친구 제멜바이스를 용서한다고 적었고, 제멜바이스의 업적을 높이 평가한 쿠겔만은 1861년 7월에 지볼트를 더 너그럽게 대해 달라고 청했다.",
+  "ignaz-semmelweis.interpretation.moment.1":
+    "이는 이 프로필의 높은 갈등 내성과 맥이 닿는다. 그는 오랜 침묵 끝에 지위 높은 반대자들과 공개적으로 맞서는 쪽을 택했고, 지볼트와 쿠겔만의 반응은 그의 성과를 존중하던 사람들 사이에서도 이런 어조가 호의를 잃게 했을 가능성을 시사한다.",
+  "ignaz-semmelweis.moment.2":
+    "1847년 10월, 자궁경부에 고름이 나는 암이 있는 산모가 회진의 첫 침상에 입원했다. 제멜바이스와 학생들은 평소처럼 비누와 물로 손을 씻은 뒤 다른 산모들을 진찰했고, 그 뒤에 진찰받은 산모 열두 명 가운데 열한 명이 산욕열에 걸렸다. 그는 시신뿐 아니라 살아 있는 환자에게서 나온 물질도 이 병을 일으킬 수 있다고 결론짓고 오염된 진찰 뒤에는 염화석회로 손을 씻도록 했으며, 11월에 비슷한 집단 발생이 있자 병동 공기도 매개가 될 수 있다는 생각을 덧붙였다.",
+  "ignaz-semmelweis.interpretation.moment.2":
+    "이 일화는 이 프로필의 신념 갱신 점수가 중간 수준에 머무는 이유를 설명하는 데 도움이 된다. 결과가 기존 설명과 어긋나자 그는 기전을 수정했지만, 1861년의 글에서는 자신의 학설을 이미 결론이 난 것으로 제시했다.",
+  "ignaz-semmelweis.turning_point.1":
+    "1849년 3월 클라인 교수가 제1산과 병동에서 제멜바이스의 조수 임기 연장을 막았고, 교육부는 1850년 11월 그의 이의 신청을 기각했다. 1850년 10월 10일 강사로 임명된 제멜바이스는 며칠 만에 빈을 떠나 페스트로 갔고, 1851년 5월 성 로쿠스 병원 산과의 명예 과장이 되었으며 1855년 7월 산과학 교수가 되었다. 1857년까지 그의 발견은 헤브라와 스코다를 비롯한 다른 사람들이 지면에 소개했다.",
+  "ignaz-semmelweis.interpretation.turning_point.1":
+    "이 일화는 이 프로필의 지속성 점수와 나란히 놓고 볼 수 있다. 그는 자신의 방법을 적용할 자리를 계속 찾았지만, 이 이동은 그가 아닌 다른 사람들이 그의 연구를 지면에 설명하던 시기와 겹쳤다.",
+  /* ---------------------------------------------------------- johannes-brahms (Roster42) */
+  "johannes-brahms.achievement.1":
+    "브람스는 교향곡 네 곡을 완성했다. 1번은 1876년 11월 4일 카를스루에에서, 4번은 1885년 10월 25일 마이닝겐에서 초연되었다. 리스트와 바그너를 따르는 신독일악파가 교향시와 악극을 내세우던 시기에, 그는 하이든에서 베토벤으로 이어진 교향곡 전통을 이어 나갔다. 1번의 첫 악장은 1862년경에 쓴 것이며, 완성된 곡을 두고 독일 일부에서는 '베토벤의 열 번째 교향곡'이라 불렀다. 한스 폰 뷜로의 '바흐, 베토벤, 브람스'라는 표현은 그를 그 계보에 놓았다.",
+  "johannes-brahms.achievement.2":
+    "《독일 레퀴엠》은 독창자와 합창, 관현악을 위한 대규모 작품으로, 라틴어 미사문이 아니라 브람스가 직접 고른 성경 구절을 가사로 삼았다. 1868년 4월 10일 성금요일 브레멘 대성당에서 연주되어 그의 이름을 유럽 전역에 알렸다. 그보다 앞선 1867년 12월 빈에서는 이 곡의 세 악장을 들은 청중 일부가 야유를 보냈다.",
+  "johannes-brahms.achievement.3":
+    "교향곡 외에도 그는 피아노 협주곡 두 곡(1번은 1859년 1월에 처음 연주되었고, 2번은 1882년에 출판되었다)과 바이올린 협주곡을 썼다. 바이올린 협주곡은 1879년 1월 1일 라이프치히에서 요제프 요아힘의 독주, 브람스의 지휘로 초연되었다. 그의 작품에는 주요한 실내악, 독창을 위한 가곡 약 200곡, 피아노 연탄을 위한 《헝가리 무곡》도 포함되며, 《헝가리 무곡》의 첫 책들은 1869년에 출판되었다.",
+  "johannes-brahms.moment.1":
+    "1859년 1월 27일 브람스는 라이프치히 게반트하우스에서 자신의 새 피아노 협주곡 d단조를 연주했다. 끝나자 드문드문 나온 박수는 분명하게 들리는 야유에 묻혔고, 비평가 베른스도르프는 이 곡이 '황량하고 메마른 삭막함'뿐이라고 썼다. 이튿날 브람스는 요아힘에게 '이번 실패는 나에게 아무 인상도 남기지 않았다'고, 그리고 '구성을 다듬고 나면 이 협주곡은 언젠가 사랑받을 것'이라고 써 보냈다.",
+  "johannes-brahms.interpretation.moment.1":
+    "공개적인 거부를 당한 뒤에도 같은 작품을 붙들고 간 이 태도는, 1867년 《독일 레퀴엠》 일부에 야유가 쏟아진 뒤에도 그랬듯이, 그의 프로필에 기록된 꾸준한 끈기와 일치한다.",
+  "johannes-brahms.moment.2":
+    "1853년 브람스는 슈만이 출판사에 추천했던 현악 사중주를 거두어들였다. 플로렌스 메이에 따르면 그의 바이올린 소나타 가운데 두 번째와 세 번째는 완성된 뒤 스스로 퇴짜를 놓았고 원고도 직접 없애 버렸다. 《신독일 인명사전》은 그가 슈만에게 보여 주었던 작품 몇 곡을, 슈만의 뜻에 반하여 없앴다고 기록한다.",
+  "johannes-brahms.interpretation.moment.2":
+    "제자이자 전기 작가, 그리고 현대 학술 사전이 함께 기록한, 완성한 작품을 내놓지 않거나 없애 버린 행동은 그의 프로필에 나타난 자기 음악에 대한 엄격한 기준과 일치한다.",
+  "johannes-brahms.turning_point.1":
+    "1863년 함부르크 필하모니 협회는 요아힘이 위원회에 그를 적극 추천했는데도 브람스 대신 율리우스 슈톡하우젠을 지휘자로 뽑았고, 1867년 그 자리가 다시 비었을 때에도 율리우스 폰 베르누트를 택하며 그를 두 번째로 제쳤다. 플로렌스 메이는 고향 도시에서 거듭 받은 이 푸대접이 그가 빈에 영구히 정착하기로 마음먹게 된 이유라고 판단했다. 그는 이미 1863~64년에 빈 징아카데미를 지휘했고, 1872년부터 1875년까지는 빈 음악애호가협회 연주회를 이끌었다.",
+  "johannes-brahms.interpretation.turning_point.1":
+    "여러 차례 지휘직을 맡았다가 내려놓으며 빈에서 자신의 활동 기반을 쌓은 것은, 그의 프로필에 기록된 자기 시간을 스스로 통제하려는 성향과 일치한다.",
+  /* ---------------------------------------------------------- juan-manuel-fangio (Roster42) */
+  "juan-manuel-fangio.achievement.1":
+    "1951년부터 1957년 사이 포뮬러 원 월드 드라이버스 챔피언십에서 다섯 번(1951, 1954, 1955, 1956, 1957) 우승했다. 1951년에는 알파 로메오, 1954년과 1955년에는 메르세데스-벤츠(1954년은 마세라티로 시즌을 시작했다), 1956년에는 페라리, 1957년에는 마세라티와 함께였다. 마지막 네 번은 4년 연속이었고, 다섯 번이라는 기록은 2003년 미하엘 슈마허가 넘어서기 전까지 최다였다.",
+  "juan-manuel-fangio.achievement.2":
+    "1950년부터 1958년까지 포뮬러 원에서 달리며 51번 출전해 24승, 폴 포지션 29회, 패스티스트 랩 23회를 기록했고, 두 경기를 제외하고는 모두 맨 앞줄에서 출발했다.",
+  "juan-manuel-fangio.achievement.3":
+    "1957년 뉘르부르크링 독일 그랑프리에서는 약 52초가 걸린 피트 스톱 탓에 10바퀴를 남기고 선두의 페라리 두 대에 50초가량 뒤처졌다. 그는 랩 레코드를 거듭 갈아치우며 9분 17.4초의 랩 타임을 기록했고, 끝에서 두 번째 바퀴에서 두 대를 모두 추월해 3.6초 차이로 우승하며 다섯 번째 타이틀을 확정했다. 통산 24승 가운데 마지막 승리였으며, 흔히 그의 최고의 레이스로 꼽힌다.",
+  "juan-manuel-fangio.moment.1":
+    "1979년 인터뷰에서 판지오는 자신이 몸담았던 모든 팀에서 우승 상금의 10퍼센트를 정비사들에게 주겠다고 약속했다고 말했다. 1953년 이탈리아 그랑프리 연습 때 마세라티에 고치지 못하는 진동이 있었는데, 경기 전날 밤 다시 불평했더니 일요일에는 말끔히 해결되어 있었다고 한다. 그는 정비사들이 어떻게 해결했는지는 전혀 모른다고 덧붙였다.",
+  "juan-manuel-fangio.interpretation.moment.1":
+    "본인이 약간의 유머를 섞어 들려준 이야기이지만, 자신의 차를 준비하는 사람들을 의식적으로 자기 편으로 만들어 두려 했다는 점과 어긋나지 않는다. 팀 동료였던 스털링 모스도 그가 정비사들을 친구이자 동료로 대했다고 말한다.",
+  "juan-manuel-fangio.moment.2":
+    "1957년 6월 리스본에서 열린 포르투갈 스포츠카 그랑프리에서 그는 멘디테기의 마세라티와 그레고리의 페라리가 초반 페이스를 끌도록 두었다가, 본인의 말로는 그들의 차가 무리한 주행의 영향을 보이기 시작했을 때 10바퀴째에 추월해 선두에 올랐다. 같은 해 르망에서는 연습에서 가장 빠른 기록을 냈지만 어느 차가 가장 유리한지 지켜본 뒤에야 출전하겠다며 물러서 있었고, 데니스 젠킨슨은 이를 영리한 수라고 평했다.",
+  "juan-manuel-fangio.interpretation.moment.2":
+    "이 일화들은 처음부터 전력으로 달리기보다 경기가 어떻게 흘러갈지에 맞춰 힘을 쓰는 시점을 정했다는 해석과 어긋나지 않는다. 모스 역시 그가 필요하다고 보이는 만큼만 빠르게 달렸다고 말한다. 다만 이는 경기 전술일 뿐, 장기적인 계획을 보여 주는 증거는 아니다.",
+  "juan-manuel-fangio.turning_point.1":
+    "1949년 아르헨티나 자동차 클럽이 판지오를 팀 리더로 하여 유럽에 팀을 보냈을 때 그는 이미 38세였다. 그는 산레모, 포, 페르피냥, 마르세유, 몬차, 알비에서 우승했고, 이 성적으로 1950년 첫 월드 챔피언십 시즌에 당시 그랑프리를 지배하던 알파 로메오 팀에 합류해 달라는 제안을 받았다. 그는 훗날 약 1년만 머물 생각으로 갔다가 10년을 머물렀다고 말했다.",
+  "juan-manuel-fangio.interpretation.turning_point.1":
+    "남미의 장거리 도로 레이스에서 유럽의 그랑프리 서킷과 낯선 차량으로 무대를 옮긴 것은 상황이 바뀔 때 접근 방식을 바꾸는 능력과 어긋나지 않는다. 다만 그를 보내기로 결정한 것은 아르헨티나 자동차 클럽이기도 하므로, 여러 해석 가운데 하나일 뿐이다.",
+  /* ---------------------------------------------------------- katsushika-hokusai (Roster42) */
+  "katsushika-hokusai.achievement.1":
+    "1830~32년경 호쿠사이는 채색 목판화 연작 《후가쿠 36경》을 만들었고, 이 연작은 모두 46점으로 늘어났다. 〈가나가와 해변의 높은 파도 아래〉(흔히 '거대한 파도')와 〈개풍쾌청〉이 여기에 들어 있다. 이 그림들은 후지산을 여행자와 일하는 사람들, 날씨와 함께 담아냈다. 영국박물관의 팀 클라크는 '거대한 파도'의 원판 하나에서 많게는 5,000~8,000장이 인쇄되었고, 한 장 값이 국수 두 그릇 값을 조금 넘는 정도였다고 추정한다.",
+  "katsushika-hokusai.achievement.2":
+    "호쿠사이는 1814년부터 《만가(漫画)》를 펴냈다. 사람과 동물, 식물, 풍경, 직업, 전설을 담은 작은 그림이 빼곡한 목판 스케치북 연작이다. 클라크는 1814년부터 1819년 사이에 한 권당 약 서른 면으로 된 열 권이 나왔다고 설명하며, 이 연작은 결국 열다섯 권까지 이어졌는데 마지막 권들은 그가 죽은 뒤 남은 스케치를 모아 엮었다. 스트레인지는 이 책을 일본 생활의 백과사전이라고 불렀다.",
+  "katsushika-hokusai.achievement.3":
+    "19세기 후반 일본 판화가 대량으로 파리에 들어왔고, 호쿠사이는 그와 함께 이름이 알려진 작가 가운데 한 사람이었다. 클라크는 그를 자포니슴의 선두에 선 인물로 보며, 빈센트 반 고흐가 '거대한 파도'를 날카롭게 평가한 글을 쓴 유럽 최초의 사람들 가운데 하나였다고 말한다. 클라크는 1896년에 나온 에드몽 드 공쿠르의 호쿠사이 연구를 유럽 최초의 본격적인 평전이라고 부른다.",
+  "katsushika-hokusai.moment.1":
+    "미셸 르봉이 1896년 연구서에서 전하는 이야기로, 그 자리에 있었던 도자키라는 사람의 기억에 바탕을 둔다. 쓰가루의 영주가 호쿠사이에게 병풍 그림을 청했으나 답이 없자, 사자가 두 차례 찾아와 환영 선물로 금 다섯 닢을 내밀었다. 호쿠사이는 두 번 모두 거절했다. 사자가 그를 죽이겠다고 위협하자 호쿠사이는 그저 금을 돌려보내겠다고 답했다. 몇 달 뒤 그는 청하지도 않았는데 영주의 저택을 찾아가 병풍에 야생마 무리를 그렸고, 이 병풍은 쓰가루 성에 보관되었다.",
+  "katsushika-hokusai.interpretation.moment.1":
+    "이 일화는 후원자의 부름이 아니라 스스로 마음이 동할 때 일을 맡으려는 강한 독립 욕구를 보여 주는 사례로 읽을 수 있다. 다만 늦게 전해진 목격자 한 사람의 이야기에 근거한다.",
+  "katsushika-hokusai.moment.2":
+    "르봉과 앙리 포시옹이 전하는 일본 화가 열전의 기록에 따르면, 1811년 소설가 바킨은 함께 만들던 삽화 소설에서 한 인물이 나막신을 입에 문 장면을 그리라고 고집했고, 호쿠사이는 그렇게 하는 사람은 없다며 먼저 직접 해 보라고 말하고 거절했다. 1807년부터 이미 다툼이 잦았던 두 사람의 협업은 여기서 끝났다. 르봉은 나막신 하나만으로 결별을 설명하기는 어렵다고 본다.",
+  "katsushika-hokusai.interpretation.moment.2":
+    "편집자나 후원자의 요구를 거절한 다른 일화들과 함께 보면, 의견 충돌이 생겨도 물러서지 않고 맞서는 태도와 부합한다. 다만 르봉과 포시옹 모두 바킨을 고지식하고 권위적인 사람으로 묘사하므로, 이 다툼을 호쿠사이 한쪽만 까다로웠다는 증거로 읽을 수는 없다.",
+  "katsushika-hokusai.turning_point.1":
+    "1788년경 호쿠사이는 스승의 공방에서 쫓겨난 뒤 화풍과 이름을 계속 바꾸다 형편이 몹시 어려워져, 거리에서 고춧가루와 달력을 팔았다. 그러던 중 단오 축제용 깃발에 귀신 쫓는 신 쇼키를 그려 달라는 주문을 받았고, 금 두 료를 받았다. 르봉이 호쿠사이가 훗날 서적상에게 해 준 이야기를 바탕으로 전하는 바에 따르면, 그는 이때 평생을 그림에 바치기로 결심하고 새벽부터 해질 때까지 그리고 그 뒤로도 몇 시간씩 공부했다. 이듬해인 1789년에는 많은 책에 삽화를 그렸다.",
+  "katsushika-hokusai.interpretation.turning_point.1":
+    "이 결심은 호쿠사이가 훗날 직접 한 이야기로만 전해지므로, 그가 자신의 전환점을 어떻게 이해했는지를 보여 주는 이야기로 읽는 편이 낫다. 이는 이 프로필의 강한 숙련 지향과 부합한다.",
+  /* ---------------------------------------------------------- mary-pickford (Roster42) */
+  "mary-pickford.achievement.1":
+    "메리 픽퍼드는 1909년 바이오그래프의 단편 영화로 영화 경력을 시작해, 1910년대 중반에는 세계에서 가장 인기 있고 출연료가 높은 영화배우 가운데 한 명이 되었고 '미국의 연인'이라 불렸다. 영화사학자들은 픽퍼드를 클로즈업 카메라에 어울리는 보다 자연스러운 연기 양식을 개척한 배우로 평가한다. 「테스 오브 더 스톰 컨트리」(1914)는 네 개 대륙에서 상영되었고, 1917년경에는 캘리포니아에서 영국과 일본에 이르기까지 그의 영화를 보는 관객이 있었다.",
+  "mary-pickford.achievement.2":
+    "1919년 픽퍼드는 찰리 채플린, 더글러스 페어뱅크스, D. W. 그리피스와 함께 유나이티드 아티스츠를 세웠다. 배우와 영화인이 자기 영화의 배급을 직접 통제하고 수익을 나눌 수 있게 하려는 배급사였다. 픽퍼드는 그보다 앞선 1916년에 이미 자신의 제작 부문을 확보했는데, 영화학자 게일린 스터들러는 이를 할리우드 스타로서는 처음 있는 일이라고 설명한다. 픽퍼드는 1935년부터 경영진으로 일했고, 1956년 지분을 팔 때까지 유나이티드 아티스츠의 소유주로 남았다.",
+  "mary-pickford.achievement.3":
+    "1927년 픽퍼드는 영화예술과학아카데미를 세운 36명의 창립 회원 가운데 한 사람이었고, 1930년에 열린 제2회 시상식에서 첫 유성영화 「코케트」(1929)로 여우주연상을 받았다. 앞서 1921년에는 영화인 구호 기금(현 모션 픽처 & 텔레비전 펀드)의 창립에 참여했고, 1932년에는 급여 공제 기부 제도인 '페이롤 플레지'를 앞장서 추진했다.",
+  "mary-pickford.moment.1":
+    "1907년 여름, 순회 극단 배우였던 열다섯 살의 글래디스 스미스는 브로드웨이 제작자 데이비드 벨라스코의 사무실을 날마다 찾아갔지만 내일 다시 오라는 말만 들었다. 세부 내용은 기록마다 다르다. 2005년 PBS 다큐멘터리는 마침내 사무실로 뛰어들어 벨라스코를 만나지 못하면 목숨이 걸렸다고 외쳤다고 전하고, 1926년 테리 램지의 영화사는 리허설 중인 무대로 뛰어들었다고 전한다. 두 기록 모두 그가 벨라스코의 극단에 들어갔다는 점은 같고, 메리 픽퍼드라는 예명도 벨라스코가 붙여 주었다.",
+  "mary-pickford.interpretation.moment.1":
+    "이 일화는 기회가 오기를 기다리기보다 스스로 기회를 만들어 낸다는, 이 프로필의 높은 주도적 행동성과 일관된다.",
+  "mary-pickford.moment.2":
+    "1918년 아돌프 주커가 도시를 비운 사이 픽퍼드는 「스텔라 마리스」 촬영에 들어갔다. 부유한 병약한 소녀와, 학대받으며 절뚝이며 걷는 고아 하녀 유니티 블레이크를 한 사람이 연기하는 작품이었고, 주커가 승인하지 않았을 배역이었다. 돌아온 주커는 분장한 채 촬영장에 있는 픽퍼드를 보고 크게 당황했으며, 픽퍼드는 자기 배역이 영화가 끝나기 전에 죽는다며 그를 안심시켰다. 영화는 호평을 받았고, PBS 다큐멘터리에 따르면 주커는 그 연기가 픽퍼드 경력에서 '가장 놀라운' 것이었다고 인정했다.",
+  "mary-pickford.interpretation.moment.2":
+    "이는 제작자가 반대했을 법한 비관습적인 배역을 밀어붙였다는 점에서 이 프로필의 위험 감수 성향과 일관된다. 다만 이후 「로지타」(1922)처럼 팬들의 반응이 덜했던 시도도 있었다.",
+  "mary-pickford.turning_point.1":
+    "1915년경 픽퍼드와 어머니는 그의 영화가 파라마운트의 다른 작품까지 팔리게 하는 힘이 되고 있다고 판단했다. 1916년 전국적인 화제가 된 협상 끝에 주커와 맺은 계약은 그의 이름을 건 제작 부문을 통한 수익 분배와 작품에 대한 더 큰 발언권을 보장했고, 픽퍼드는 「푸어 리틀 리치 걸」(1917) 같은 작품을 직접 고르기 시작했다. 월급을 받는 스타에서 제작자로 바뀐 이 위치는 1918년 퍼스트 내셔널을 거쳐 1919년 유나이티드 아티스츠로 이어졌다.",
+  "mary-pickford.interpretation.turning_point.1":
+    "이는 높은 급여만이 아니라 자기 작업의 소유권과 통제권을 요구했다는 점에서 이 프로필의 강한 자율성 욕구와 일관된다.",
+  /* ---------------------------------------------------------- matthew-henson (Roster42) */
+  "matthew-henson.achievement.1":
+    "매슈 헨슨은 1891년부터 1909년까지 로버트 피어리의 북극 탐험에서 수석 조수로 일했다. 피어리 자신의 설명에 따르면 1886년의 첫 탐험을 제외한 모든 북극 탐험과 거의 모든 장거리 썰매 여행에 동행했으며, 개썰매 몰이꾼, 사냥꾼, 통역, 일반 보조로 일했다. 그는 1887년 피어리의 니카라과 측량을 위해 처음 고용되었다.",
+  "matthew-henson.achievement.2":
+    "1909년 4월 헨슨은 이누이트 남성 네 명과 함께 피어리의 마지막 일행 여섯 명 중 한 사람으로, 피어리가 북극점이라고 보고한 야영지에 있었다. 피어리의 북극점 도달 주장은 그 뒤로 줄곧 논란이 되었고 참고 문헌들이 인용하는 후대 연구자들은 이를 의심한다. 따라서 확실한 것은 결과가 아니라 헨슨이 그 마지막 일행에 속했다는 사실이다.",
+  "matthew-henson.achievement.3":
+    "헨슨은 약 18년 동안 그린란드 북부의 이누이트(인구후이트)에게서 이글루 짓기, 개썰매 몰이, 이누크툰어를 배웠다. 피어리는 이누이트를 제외하면 헨슨이 썰매 여행에서 자신이 데리고 있던 최고의 사람이라고 썼고, 로버트 바틀릿 선장은 헨슨이 자신보다 개썰매를 더 잘 몰았다고 기록했다.",
+  "matthew-henson.moment.1":
+    "1891~92년 겨울 그린란드 북서부의 레드클리프 하우스에서 피어리의 시종으로 북쪽에 온 헨슨은 11월부터 5월까지 탐험대 숙소의 요리를 맡았다. 조세핀 피어리의 일기는 그가 자신의 감독 아래 요리했다고 적고 있으며, 그해 가을에는 이누이트 사냥꾼 이크와와 함께 사슴 사냥을 하고 배로 이동한 기록도 남아 있다.",
+  "matthew-henson.interpretation.moment.1":
+    "시종의 일과 함께 요리, 사냥, 배 이동까지 맡은 것은 낯선 환경에서 새로운 역할을 받아들이는 모습을 보여 주며, 이 프로필이 기록한 적응력과 맞닿아 있다. 다만 이 일기는 한 목격자의 기록이다.",
+  "matthew-henson.moment.2":
+    "1895년 봄과 여름 피어리, 휴 리, 헨슨은 그린란드 빙모를 가로질러 갔다가 부족한 식량으로 돌아왔고, 쇠약해진 개들은 죽여서 다른 개들에게 먹였다. 피어리는 리와 헨슨이 '불평하지 않았다'고 썼고, 헨슨을 '망설임 없이 불도그처럼 끈질기다'고 평했다.",
+  "matthew-henson.interpretation.moment.2":
+    "1894~95년의 체류와 이 여행에 대한 피어리의 기록은 고난 속의 끈기와 일치하지만, 이 칭찬은 고용주이자 지휘자였던 피어리의 것이다.",
+  "matthew-henson.turning_point.1":
+    "1908~09년 탐험 이후 헨슨은 더 이상 북극 탐험을 하지 않았다. 그는 먼저 뉴욕에서 주차 일을 했고, 1913년 2월 26일 태프트 대통령이 그를 뉴욕 세관에 임용했다. 그곳에서 메신저로 일하다 1927년부터 사무원으로 일했고, 1936년 11월 그의 자리가 폐지될 때까지 근무했다.",
+  "matthew-henson.interpretation.turning_point.1":
+    "현장 탐험에서 연방 정부의 월급직으로 옮긴 것은 또 한 번의 역할 변화와 일치하지만, 기록에는 본인의 이유가 나와 있지 않다.",
+  /* ---------------------------------------------------------- pyotr-ilyich-tchaikovsky (Roster42) */
+  "pyotr-ilyich-tchaikovsky.achievement.1":
+    "차이콥스키는 발레 세 편의 음악을 작곡했다. 1877년 모스크바 볼쇼이 극장에서 초연된 「백조의 호수」, 그리고 상트페테르부르크 제국극장을 위해 쓴 「잠자는 숲속의 미녀」(1890)와 「호두까기 인형」(1892)이다. 「백조의 호수」는 이후 공연에서 악보가 크게 삭제되고 재배열되었으며 20세기에 널리 알려진 판본은 작곡가 사후에 만들어진 것에서 비롯되었다. 그럼에도 세 작품 모두 지금까지 발레 레퍼토리의 중심에 남아 있다.",
+  "pyotr-ilyich-tchaikovsky.achievement.2":
+    "1874년 니콜라이 루빈시테인은 피아노 협주곡 제1번을 혹독하게 비판했고, 바이올린 협주곡의 헌정 대상으로 삼았던 레오폴트 아우어는 지나치게 어렵다며 연주를 거절했다. 1881년 빈에서 이 바이올린 협주곡이 연주된 뒤에는 비평가 에두아르트 한슬리크가 적대적인 평을 썼다. 그러나 두 협주곡은 오늘날 가장 사랑받는 레퍼토리에 속하며, 교향곡 제4번, 제5번, 제6번(「비창」)과 「1812년 서곡」도 그의 대표작으로 꼽힌다. 제6번 교향곡은 1893년 작곡가 자신의 지휘로 초연되었다.",
+  "pyotr-ilyich-tchaikovsky.achievement.3":
+    "차이콥스키의 오페라 가운데 두 편은 푸시킨의 작품을 바탕으로 한다. 그가 '서정적 장면들'이라 부른 「예브게니 오네긴」은 1877~78년에 작곡되어 1879년 3월 모스크바 음악원 학생들이 처음으로 전막을 무대에 올렸고, 첫 전문 공연은 1881년 1월 볼쇼이 극장에서 열렸다. 「스페이드의 여왕」은 그가 1890년 피렌체에서 44일 만에 쓴 뒤 같은 해 12월 상트페테르부르크 마린스키 극장에서 초연되었다.",
+  "pyotr-ilyich-tchaikovsky.moment.1":
+    "1874년 크리스마스 이브에 차이콥스키는 새로 쓴 피아노 협주곡을 니콜라이 루빈시테인과 니콜라이 후베르트 앞에서 연주했다. 연주 기교에 관한 조언을 구하려는 자리였다. 3년 뒤 나데즈다 폰 메크에게 쓴 편지에 따르면 루빈시테인은 이 작품을 혹독하게 비난하며 고쳐 오면 연주해 주겠다고 했고, 차이콥스키는 한 음도 바꾸지 않겠다고 답했다. 그는 작품을 그대로 출판하고 한스 폰 뷜로에게 헌정했으며, 뷜로는 1875년 10월 보스턴에서 이 곡을 초연했다. 차이콥스키는 훗날 1879년과 1889년경에 스스로 수정을 가했다.",
+  "pyotr-ilyich-tchaikovsky.interpretation.moment.1":
+    "이 일화는 모스크바에서 가장 권위 있는 피아니스트의 평가에 맞서 자신의 판단을 지킨 모습으로, 이 프로필의 독립적 사고와 어울린다. 다만 이후 스스로 수정한 점으로 보아 그가 이 협주곡을 고칠 수 없는 작품으로 여긴 것은 아니다.",
+  "pyotr-ilyich-tchaikovsky.moment.2":
+    "차이콥스키는 초기 작품 여러 편의 악보를 파기했다. 교향적 환상곡 「운명」은 1869년 초연 전에 몇 마디를 삭제했고 이후 총보를 없앴다. 오페라 「운디나」는 일부를 다른 작품에 재사용한 뒤 총보를 없앴으며, 첫 오페라 「보예보다」도 대부분의 총보를 파기했다. 1891년에는 이후에 쓴 같은 제목의 교향적 발라드 「보예보다」를 연주회에서 듣고 악보를 찢어 버렸다. 「운명」과 이 발라드, 그리고 오페라 「보예보다」의 대부분은 작곡가 사후에 주로 남아 있던 관현악 파트보를 바탕으로 복원되었고, 「운디나」는 일부 발췌곡만 전한다.",
+  "pyotr-ilyich-tchaikovsky.interpretation.moment.2":
+    "이러한 모습은 이 프로필의 완벽주의와 어울리며, 원본이 사라졌다는 점이 그 대가로 드러난다. 다만 「운명」의 경우 발라키레프의 비판 때문인지 작품에 대한 생각이 바뀌어서인지는 차이콥스키 리서치도 분명히 말하지 못한다.",
+  "pyotr-ilyich-tchaikovsky.turning_point.1":
+    "차이콥스키는 자신이 지휘를 할 수 없다는 말을 여러 차례 했고, 1886년 10월에는 폰 메크에게 지휘대를 떠올리기만 해도 몸이 떨린다고 썼다. 그는 1886년 12월 첫 오케스트라 리허설을 직접 이끌었고, 1887년 1월 31일(구력 19일) 모스크바 볼쇼이 극장에서 개작한 오페라 「체레비츠키」의 초연을 지휘했다. 1887년이 가기 전에 첫 유럽 지휘 순회를 떠났으며, 이후 6년 동안 프라하, 파리, 런던에서 자신의 곡을 지휘했고 1891년에는 뉴욕에 새로 문을 연 뮤직 홀(훗날 카네기 홀)의 개관 주간에도 출연했다.",
+  "pyotr-ilyich-tchaikovsky.interpretation.turning_point.1":
+    "스스로 밝힌 망설임이 새로운 공적 역할로 이어졌다는 점에서 이 변화는 이 프로필의 적응력을 보여 주는 사례다. 어려움은 본인이 직접 말한 내용이며, 1891년 그를 초청한 월터 담로시는 지휘가 그를 몹시 지치게 했지만 연주자들이 그의 의도를 열심히 따랐다고 적었다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

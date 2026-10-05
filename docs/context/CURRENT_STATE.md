@@ -4,41 +4,47 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-**Minimal update, 2026-10-03 (Roster41)**: the paragraph and Product-section
-headline below this note are stale (they predate Roster17-41 and describe a
+**Minimal update, 2026-10-05 (Roster42)**: the paragraph and Product-section
+headline below this note are stale (they predate Roster17-42 and describe a
 125-person/124-match-eligible state). Current mechanically-verified truth,
 recorded here rather than by rewriting the outdated narrative that
-follows (see `docs/checkpoints/roster41.md` for the full record):
+follows (see `docs/checkpoints/roster42.md` for the full record):
 
-- Production: **350** people. Directory-visible: **349**. Match-eligible:
+- Production: **364** people. Directory-visible: **363**. Match-eligible:
   **114** (unchanged since Legacy Integrity Batch 1; roster growth since
-  then has been non-match-eligible new-candidate publication — ninth
+  then has been non-match-eligible new-candidate publication — tenth
   consecutive new-candidate cycle at 114, the diagnostic-confirmed expected
   pattern, see `docs/checkpoints/recent-cohort-matching-architecture.md`).
-  *(Roster41 / PR #52 is now merged into `main`; these counts are live.)*
-- Latest merged `main` SHA: `9b4ad1bf74295c7cef25103ea76caf8834461237`
-  (PR #52, Roster41 merge).
-- **Editorial Major-Achievement Significance Audit completed** (branch
-  `fix/editorial-major-achievement-significance`, PR pending; see
-  `docs/checkpoints/editorial-major-achievement-audit.md`): of the 59
-  Roster38-41 profiles, 23 had Achievement selection rewritten (EN+KO) and
-  36 passed; a 24-profile older control sample failed 3/24, so the
-  classification is **RECENT_EDITORIAL_REGRESSION** (no broad historical
-  remediation warranted). `docs/editorial-content.md` now carries a Major
-  Achievement Selection Standard.
-- Latest roster: **Roster41 (sixth fresh cycle after the diagnostic):
-  15 frozen, 14 shipped, 1 held** (Claude Shannon — evidence_approved,
-  portrait rights unresolved), zero backlog reuse (2026-10-03; shipped
-  6 building_discovery / 5 arts_culture / 7 science_knowledge by field
-  membership). Combined Roster33-41: 125 new-candidate people shipped,
-  0 match-eligible — recorded, not re-investigated.
-- Next recommended task: **Roster42**, under the new Major Achievement
-  Selection Standard (same discipline; leadership_society
-  lowest priority; building_discovery 92 still the thinnest published
-  category vs. arts_culture 128 / science_knowledge 153). Legacy Integrity
-  Batch 6 not started. Next performance checkpoint around 500 production
-  people; do not repeat the recent-cohort matching diagnostic without
-  genuinely new evidence.
+  *(These are the numbers on the unmerged `feat/roster42` branch, PR
+  pending; `main` is at 350/349/114 until it merges.)*
+- Latest merged `main` SHA: `37371d64cb3fde7807a02820e6a355886856fd84`
+  (PR #53, Editorial Major-Achievement Significance Audit merge; Roster41 /
+  PR #52 merged before it).
+- Latest roster: **Roster42 (seventh fresh cycle after the diagnostic:
+  15 frozen, 14 shipped, 1 held** — Beatrix Potter, evidence_approved,
+  portrait rights unresolved), zero backlog reuse (2026-10-05; shipped
+  7 building_discovery / 5 arts_culture / 6 science_knowledge by field
+  membership). Combined Roster33-42: 139 new-candidate people shipped, 0
+  match-eligible — recorded, not re-investigated.
+- **Editorial significance standard now active**: Major Achievement cards
+  are chosen by `docs/editorial-content.md`'s Major Achievement Selection
+  Standard (primary-contribution, top-omission and identity checks), not by
+  trait alignment or ledger strength; Roster42 was the first cycle to run
+  the checks (one top-omission failure caught and corrected before
+  publication). Known non-blocking editorial debt: henry-ford,
+  vincent-van-gogh, stephen-hawking (older control-sample failures) and raw
+  internal ids in Rembrandt/Kubrick public source notes.
+- Next recommended task: **Roster43** (same discipline and the same
+  Major Achievement review gate; leadership_society lowest priority;
+  building_discovery 99 still the thinnest published category vs.
+  arts_culture 133 / science_knowledge 159; Oceania nationals remain
+  blocked by the missing region bucket). Legacy Integrity Batch 6 not
+  started. Next performance checkpoint around 500 production people; do not
+  repeat the recent-cohort matching diagnostic without genuinely new
+  evidence.
+
+Superseded Roster41-era note (kept short for continuity): Roster41 shipped
+14 (350/349/114), see `docs/checkpoints/roster41.md`.
 
 Older Roster33-era paragraph and Product-section headline below (both
 now superseded by the above, kept for historical continuity only, not

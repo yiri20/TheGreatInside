@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ignaz-semmelweis",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ignaz Semmelweis",
+    "wikidataId": "Q59736",
+    "birthYear": 1818,
+    "deathYear": 1865,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "HU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "independent",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_semmelweis_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ignaz Semmelweis (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '이그나츠 제멜바이스' confirmed via the Wikidata kowiki sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+    },
+    {
+      "id": "src_semmelweis_wikidata",
+      "kind": "wikidata",
+      "title": "Ignaz Semmelweis (Q59736) -- verified live via wbgetentities (2026-10-04): en label 'Ignaz Semmelweis', description 'Hungarian physician, early pioneer of antiseptic procedures (1818–1865)', instance of human, P569 1818-07-01, P570 1865-08-13, citizenship Austrian Empire (Q131964) and Hungary (Q28), ko label '이그나츠 제멜바이스', enwiki 'Ignaz Semmelweis', kowiki '이그나츠 제멜바이스', P18 'Borsos & Doctor Semmelweis Ignác cropped.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q59736"
+    },
+    {
+      "id": "src_semmelweis_schuerer_1905",
+      "kind": "biography",
+      "title": "Fritz Schürer von Waldheim, Ignaz Philipp Semmelweis: Sein Leben und Wirken. Urteile der Mit- und Nachwelt (Vienna and Leipzig: A. Hartleben, 1905), Internet Archive full text (b24875788, German OCR) -- NON-SELF, ADMIRING BIOGRAPHY by a Viennese physician who worked from Ministry of Education and medical-faculty files, the letters of Semmelweis's widow, the notes of his Pest colleagues Hirschler and Hegar and Kußmaul's memoir, and who reprints contemporary documents in full or in extract (Hebra's reports of December 1847 and April 1848, Haller's 1848 hospital report and 1849 society minute, Brücke's 31 Oct 1850 report to the Academy of Sciences, Skoda's Oct 1849 lecture, the letters of Tilanus and Michaelis, Levy's 1848 critique, Liebig's 1859 letter, Siebold's 1861 article and 1862 posthumous remark, Kugelmann's 1861 letters) as well as long extracts from Semmelweis's own 1861 book and open letters (SELF, as quoted). Read locally: childhood to departure from Vienna (pp. 1-92), the Pest years 1850-57 (pp. 93-125), the 1858-59 reception, and the chapter on the 1861 book, the open letters to Spaeth, Scanzoni and Siebold and the replies of Kugelmann (pp. 154-180). The last chapters on his illness, hospitalisation and death and the author's psychological and medical speculation about his later years were NOT used as evidence. Partisan against Klein, Scanzoni and Braun; that tone is discounted.",
+      "url": "https://archive.org/details/b24875788"
+    },
+    {
+      "id": "src_semmelweis_kadar_croft_2020",
+      "kind": "archive",
+      "title": "Nicholas Kadar and Russell D. Croft, 'Why Semmelweis's doctrine was rejected: evidence from the first publication of his results by Friedrich Wieger, and an editorial commenting on the results', British Journal for the History of Science 53(3), September 2020, pp. 389-395 (Cambridge Core PDF, doi 10.1017/S0007087420000229), read in full -- NON-SELF, MODERN SCHOLARLY (two retired physicians and independent historians; argumentative and critical of other historians' accounts, notably Loudon and Tulodziecki). Read: Wieger's 20 April 1849 eyewitness account of the Vienna practice (nail-brush scrubbing; a midwife's sponge as a non-cadaver source; wards exchanged without effect); the 1850 Gazette médicale de Paris editorial rejecting the Vienna figures as post hoc reasoning; Klein's objection of the same kind (per Lesky 1964); the October and November 1847 setbacks and what Semmelweis changed after them; the 1850 lecture on self-infection; the animal experiments with Lautner. Their own thesis (that animal experiments were aimed at the post hoc objection) is treated as their interpretation, not as fact.",
+      "url": "https://doi.org/10.1017/S0007087420000229"
+    },
+    {
+      "id": "src_semmelweis_sinclair_1909",
+      "kind": "biography",
+      "title": "Sir William J. Sinclair (Professor of Obstetrics and Gynaecology, University of Manchester), Semmelweis: His Life and His Doctrine (Manchester University Press, 1909), Internet Archive full text (semmelweishislif00sinc) -- NON-SELF SECONDARY BIOGRAPHY by a British obstetrician, sympathetic but not uncritical. Read locally: the 'Elimination of Factors' and 'Removal from Assistantship' chapters (his retelling of the 1861 book's tables and the epidemic, fear, priest's-bell and birth-position hypotheses he examined; the October 1846 re-appointment of Breit; the winter 1846-47 English study; the Venice trip), the Kußmaul and Skoda passages, and the later chapters on the open letters, quoting Bruck's judgement that the letters embittered the controversy. Much of the early narrative is paraphrased from Semmelweis's own 1861 text, so for those passages it is a SELF perspective at one remove; the Pest-period assessments are Sinclair's own. His and others' passages on Semmelweis's final illness were NOT used.",
+      "url": "https://archive.org/details/semmelweishislif00sinc"
+    },
+    {
+      "id": "src_semmelweis_kussmaul_1899",
+      "kind": "biography",
+      "title": "Adolf Kußmaul, Jugenderinnerungen eines alten Arztes (Stuttgart: Bonz, 1899), Internet Archive full text (jugenderinnerun00kussgoog, poor Fraktur OCR), the Vienna chapter on Semmelweis and Klein (printed pp. 372-375) -- NON-SELF, FIRSTHAND CONTEMPORARY (the Baden physician who took Semmelweis's obstetric course in the autumn of 1847 and practised in the First Clinic with his friend Bronner, recalling it five decades later, partly from a letter to his father). Read: his account of two patients with infected tissue on the ward and the small outbreaks among women delivered beside them, his promise to tell the Heidelberg professor Naegele of the discovery, his portrait of Klein and the anecdote of Klein, a midwife and a disputed examination in which Semmelweis stood behind Klein and was visibly angry. His physical and character description of Semmelweis is read as quoted in the two biographies above because the OCR of that line is garbled. His remark on Semmelweis's later mental illness was NOT used.",
+      "url": "https://archive.org/details/jugenderinnerun00kussgoog"
+    },
+    {
+      "id": "src_semmelweis_university_history",
+      "kind": "institution",
+      "title": "Semmelweis University, 'Short History' (semmelweis.hu, English), read in full -- INSTITUTIONAL (the university that bears his name; commemorative). Used only for: Semmelweis as professor and director of obstetrics and gynaecology at the Pest university 1855-1865, the title 'saviour of mothers', that his work met strong opposition in his lifetime, and that the Budapest University of Medicine took his name on 7 November 1969.",
+      "url": "https://semmelweis.hu/english/the-university/history/"
+    },
+    {
+      "id": "src_semmelweis_wellcome_catalogue",
+      "kind": "institution",
+      "title": "Wellcome Collection catalogue record for Ignaz Philipp Semmelweis, Die Aetiologie, der Begriff und die Prophylaxis des Kindbettfiebers (Pest, Vienna and Leipzig: C. A. Hartleben, 1861; vi, 543 pages), read in full -- INSTITUTIONAL CATALOGUE RECORD. Used only to confirm the title, publisher, date and extent of the 1861 book; it describes no behaviour.",
+      "url": "https://wellcomecollection.org/works/n5yu49cf"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_semmelweis_schuerer_1905, src_semmelweis_sinclair_1909, src_semmelweis_kadar_croft_2020, src_semmelweis_kussmaul_1899 | 1846-1861 | admiring biography reprinting contemporary documents + British obstetric professor (largely retelling his own argument) + modern scholars + eyewitness] In 1846-47, with the First Clinic's mortality about three times the midwives' Second Clinic's (Sinclair's reproduction of his table: 9.92 per cent against 3.38 per cent for 1841-46), he tested the accepted 'epidemic influences' explanation against what he saw -- the two wards share a roof and a city, women delivered in the street or prematurely were spared, no matching outbreak in the city, no seasonal pattern -- and concluded the cause lay inside the First Clinic (Sinclair; Schürer). After Kolletschka died of an autopsy wound on 13 March 1847 he tied the clinic's rate to doctors' work in the dissecting room (Schürer; Sinclair; Kadar and Croft). He kept this position against sustained opposition: Levy's 1848 critique, the 1850 Paris editorial, the Würzburg prize monograph of 1859 and Siebold's 1861 article all rejected it (Schürer; Kadar and Croft). Kußmaul, in Vienna in autumn 1847, says the theory was the daily subject of conversation. Kept below 80: how he arrived at the idea is told mainly by himself and his admirers, and Schürer himself notes that the English contagionists and Kiwisch's reports had pointed in a related direction."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_semmelweis_schuerer_1905, src_semmelweis_sinclair_1909 | 1847-1862 | biography reprinting the letters and replies + Manchester professor + contemporaries' reactions] In September 1847, when mortality rose to 5.23 per cent, he found the students who had skipped the washing and told them so in sharp terms (Schürer). From 1861 he answered critics in open letters: to Spaeth he wrote that thousands of mothers and infants had died since 1847 who need not have died had he not stayed silent, and that he would watch for and expose anyone spreading errors on childbed fever; to Siebold, a friend since 1847, he wrote that not sharing his view was equivalent to being a murderer, and proposed that German physicians assemble so that he could teach them until all were convinced; to Scanzoni, whom he held responsible for the Würzburg reports, he suggested ill will rather than ignorance (all quoted in Schürer). He also criticised Virchow's 1858 account of epidemics in his book. Responses show the cost: Kugelmann, an admirer, asked in July 1861 for gentler treatment of Siebold; Siebold's posthumous 'Obstetric Letters' (1862) say he forgave 'his friend Semmelweis'; Schürer concedes the polemic was never forgiven; Sinclair, citing Bruck, judges the letters only embittered the controversy. Many dated instances, adversaries' replies included; dual_edged."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_semmelweis_schuerer_1905, src_semmelweis_kadar_croft_2020, src_semmelweis_sinclair_1909 | 1846-1850 | biography reprinting Haller's and Brücke's reports and Michaelis's letter + modern scholars + Sinclair] He treated the clinic as a trial: Sinclair (retelling his 1861 text) says he changed the birth position to the midwives' lateral one and had the priest's bell silenced to see whether the mortality gap would close, and it did not; from late May 1847 the hand-washing rule was applied as an intervention and the monthly rates tracked (Schürer; Kadar and Croft). Michaelis of Kiel wrote on 18 March 1848 that it would be presumptuous to speak from his small experience against the 'great Vienna experiment' (Schürer). After he lost the assistantship in March 1849 he and Lautner, Rokitansky's assistant, injected pus and putrid fluid into the vaginas of newly delivered rabbits (Haller's 1848 report, announcing it, and Brücke's 31 Oct 1850 report to the Academy, which says Semmelweis carried the work out with great zeal and conscientiousness and that the results were ambiguous; Brücke returned his 100 florins). Kadar and Croft read these tests as an attempt to answer the post hoc objection. Several dated, independently reported instances; the animal work is only partly his own initiative (Skoda advised it) and produced no clear result."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_semmelweis_sinclair_1909, src_semmelweis_schuerer_1905, src_semmelweis_kadar_croft_2020 | 1847-1861 | British professor retelling his tables + biography reprinting Haller and Levy + modern scholars] Two or more distinct episodes: (1) he compared the two clinics year by year and used 1833-1840, when students of both kinds were spread evenly over both wards and mortality was similar (about 6-7 per cent), as a natural control, then showed the gap appearing once doctors went to one and midwives to the other in 1841; his book carries 38 tables, including the pre-1822 period with usually under 1 per cent (Schürer; Sinclair); (2) Haller's independent tabulation in 1848-49 found four-fifths to five-sixths fewer deaths in the last two years (Schürer's reprint of Haller's report and the 28 Feb 1849 society minute). Against this: Levy's 1848 critique faulted his Vienna reports for lacking monthly figures and for not separating infection sources and held that a drop could reflect natural fluctuation; the 1850 Paris editorial objected on the same post hoc ground (Kadar and Croft); Klein refused him access to the birth registers in 1849 (Schürer), so part of the gap in his statistics was not of his making. Mostly retold from his own tables; strong_inference at moderate confidence."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_semmelweis_kadar_croft_2020, src_semmelweis_schuerer_1905, src_semmelweis_sinclair_1909 | 1847-1861 | modern scholars (citing Wieger's eyewitness report) + biography + Manchester professor] Wieger, a Strasbourg obstetrician who visited the clinic at the end of May 1847, stressed that attendants had to scrub their fingernails with a brush as part of the chlorine washing (Kadar and Croft); Schürer, quoting his 1861 book, says the washing continued until the hands felt slippery and that hospital linen, instruments and sponges had to be treated before touching the genitals. He watched compliance closely: the September 1847 rise to 5.23 per cent was traced to students who had neglected the washing (Schürer). Kußmaul, who worked on the ward that autumn, called him conscientious to an extreme degree (as quoted in Schürer and Sinclair). Several instances from different sources, but the protocol details come mostly from one eyewitness and his own book."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_semmelweis_schuerer_1905, src_semmelweis_kadar_croft_2020 | 1849-1861 | biography using ministry files and Pest colleagues' notes + modern scholars] After Klein blocked the extension of his assistantship in March 1849 he appealed to the ministry, which rejected the claim on 28 November 1850; he applied for a Privatdozentur in 1849, again in February 1850, and was appointed on 10 October 1850 after an eight-month wait (Schürer, from the ministry files). In Pest he asked the city for the St Rochus maternity division as an unpaid honorary chief in 1851, applied in September 1851 for a Prague chair that went to someone else, and became professor in July 1855, applying the chlorine rule throughout (Schürer; Semmelweis University history). He wrote the 543-page 1861 book and the 1861-62 letters after years of silence (Wellcome catalogue; Schürer). Dual_edged: he went unheard-from in print from 1850 to 1855 and left Vienna five days after his appointment, so the persistence was selective and was not continuous."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_semmelweis_schuerer_1905 | 1851-1857 | biography citing Pest colleagues Hegar and Hirschler and the Wiener medizinische Wochenschrift] On reaching Pest he went to the St Rochus maternity division the morning after hearing the yearly 'epidemic' discussed, saw the conditions and applied to the city to take charge of it (1851). In the 1856-57 school year, when 16 women died of childbed fever (about 3 per cent), he traced the deaths to foul linen from a lowest-bid laundry contractor, reported it to the provincial authority with smelly samples as evidence, and bought linen at his own expense; the authorities restored the former contractor and ordered new stock (Schürer, citing Hegar and Hirschler). From 1857 he began to give papers and write for the new Hungarian medical weekly, ending his years of silence (Schürer). Three instances, but all in one biography and the linen episode in one secondary chain, so moderate."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_semmelweis_kussmaul_1899, src_semmelweis_schuerer_1905, src_semmelweis_kadar_croft_2020, src_semmelweis_sinclair_1909 | 1847-1861 | eyewitness + biography + modern scholars + Manchester professor] In October 1847 a woman with a discharging uterine cancer was examined first; the washing between patients was done with soap and water, and 11 of the 12 women delivered after her died; in November a woman with a diseased knee was put on the ward and another cluster followed. Kußmaul and Bronner, then on the ward, witnessed such outbreaks (Kußmaul recalls the sources as other tissue in the room and says he told his father at Christmas); from them Semmelweis extended his view from cadavers to pus and discharges from living patients and to air in the room, and required chlorine washing after any contaminated examination (Schürer; Kadar and Croft). By his 1850 lecture he had added self-infection from decomposing tissue in the mother (Kadar and Croft). Against this, his 1861 book declares that nothing in the aetiology remained to be solved (as quoted in Schürer), and Levy's 1848 point that the ichorous cases were sketched too hastily to be judged was a fair one he did not take up. Revised in response to anomalous cases, but not to critics; kept near the middle."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_semmelweis_schuerer_1905, src_semmelweis_kussmaul_1899 | 1847-1861 | biography reprinting letters + eyewitness memoir] Three separate patterns: in 1847-48, rather than publishing himself, he had his pupils carry the news -- Routh to London, Arneth to Simpson in Edinburgh, Schwarz to Michaelis in Kiel, Stendrichs to Tilanus in Amsterdam; Kußmaul says he promised Semmelweis to tell Naegele in Heidelberg (Schürer; Kußmaul); in 1851 he sought an unpaid post to deal with the St Rochus epidemics (Schürer); in 1861 his book asks governments to enact a law forbidding anyone working in a maternity ward to handle decomposing matter, proposes an oath for graduating physicians and midwives, and in the open letters he argues that each year of silence cost lives (Schürer, quoting the 1861 book and letters, SELF). The stated motive is his own; the pupils' letters and the unpaid post are independently recorded."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이그나츠 제멜바이스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE (2026-10-04): wbgetentities for Q59736 returned en label 'Ignaz Semmelweis', description 'Hungarian physician, early pioneer of antiseptic procedures (1818–1865)', human, P569 1818-07-01, P570 1865-08-13, citizenship Austrian Empire (Q131964) and Hungary (Q28), ko label '이그나츠 제멜바이스' (kowiki sitelink identical), P18 'Borsos & Doctor Semmelweis Ignác cropped.jpg'; the lead's hint was correct and not a street/podcast/article entry. SLUG CHECK: no data-pipeline/candidates/ignaz-semmelweis.json existed before this work and no Semmelweis string appears in src/data/people/*.ts or public/portraits. CLASSIFICATION: era 19th_century (the documented career is 1846-1865); nationalityCodes HU and regionCode central_europe follow john-von-neumann and paul-erdos (HU, central_europe) and gregor-mendel (Austrian Empire, central_europe); he worked in Vienna and Pest within the Habsburg monarchy. Occupations physician and medical_researcher, field medicine, impactDomains medical and scientific, archetype scientific_explorer and tags independent and detail_oriented follow the rows (independent_thinking, detail_orientation) and the john-snow and joseph-lister precedents; 'obstetrician' has no occupation id and none was invented (FLAG: an obstetrician id would be more precise). EVIDENCE READ (all actually opened; 6 substantive records, 2 institutional, 2 orientation): Schürer von Waldheim 1905 in large part (see source record), Kadar and Croft 2020 in full, Sinclair 1909 in part, Kußmaul 1899 (the Semmelweis chapter only; Fraktur OCR), the Semmelweis University history page, the Wellcome catalogue record. NOT READ: Carter and Carter, Childbed Fever (1994), Nuland's The Doctors' Plague, Lesky 1964, Győry's Gesammelte Werke 1905 and Bruck 1887 (both downloaded but not read; Győry is cited only through Kadar and Croft), Skoda's 1849 Academy lecture in the original (its zobodat PDF returned an HTML page; it is read only as reprinted in Schürer), Britannica (HTTP 403, not bypassed), the OSZK blog post (see portrait). PERSPECTIVES: SELF (Semmelweis's 1861 book and open letters, only as quoted in Schürer and retold by Sinclair; never the sole support for any row); ADMIRING INSIDER-LEANING (Schürer; Hebra and Skoda as reprinted; Kugelmann); EYEWITNESS (Kußmaul 1899; Wieger 1849 via Kadar and Croft); ADVERSARIAL OR CRITICAL (Levy 1848, Paris editorial 1850, Siebold 1861 and his 1862 remark, Virchow 1858, Klein's objection per Lesky via Kadar and Croft; Sinclair quoting Bruck on the letters); MODERN SCHOLARLY (Kadar and Croft; Sinclair). Independence is weaker than the count suggests: most dated Vienna detail traces to Semmelweis's own 1861 book, Hebra's 1847-48 reports or Skoda's 1849 lecture, all by him or his allies; the independent anchors are Kußmaul, Wieger, Brücke's and Haller's reports, Michaelis's and Tilanus's letters and the critics' own words. CALIBRATION: no row exceeds confidence 0.68 or score 76; the rows resting on retold reasoning or on a single secondary chain (analytical_rigor, detail_orientation, proactive_agency, belief_updating, impact_motivation) are strong_inference at 0.52-0.58. EPISODE USE (no episode supports more than two rows): 1846-47 clinic comparison -> independent_thinking, analytical_rigor; open letters 1861-62 -> conflict_tolerance, impact_motivation; animal experiments and the 1847 trial -> experimentation; hand-washing protocol and the September 1847 lapse -> detail_orientation (and conflict_tolerance, the scolding only); Oct-Nov 1847 cases -> belief_updating; 1849-1861 appeals, applications and the book -> persistence; Pest petition and 1856-57 linen -> proactive_agency (petition also impact_motivation). ROWS CONSIDERED AND LEFT UNSCORED: persuasiveness (many pupils and a few chiefs persuaded, but the open letters lost allies and the evidence is outcome-driven and mixed), collaboration (he taught visitors generously and worked with Lautner, but he also broke with Skoda and Hebra by leaving and published almost nothing jointly), decisiveness (the abrupt October 1850 departure rests on a biography whose own explanation was medical speculation, which is not used), risk_tolerance, resourcefulness, adaptability, social_assertiveness (overlaps conflict_tolerance), discipline and everything else (thin or non-independent). EXCLUDED ON PURPOSE: his 1865 hospitalisation, mental state, manner and cause of death and every medical or psychological inference about them, including Schürer's guess that the 1850 departure showed a developing brain disease; any score from fame, later honours or the 'saviour of mothers' epithet; Kolletschka's death as anything but an event; the claim that he was the first or only discoverer of contagion (Schürer and Sinclair both note British contagionists and Kiwisch's reports); his private life and bereavements; Hungarian-national interpretations. The story that doctors' hands were the only source he named is not asserted: by late 1847 he also named pus from living patients and air. PORTRAIT: Wikidata P18 file 'Borsos & Doctor Semmelweis Ignác cropped.jpg' (Commons 1658 x 1722) was NOT used because it appears interpolated; the uncropped Commons scan 'Borsos & Doctor Semmelweis Ignác.jpg' (1000 x 1580, carte-de-visite inscribed 'Semmelweiss Ignácz') was downloaded and cropped by hand to the photograph (790 x 800, JPEG q88, no resizing, no retouching) and viewed after saving. Commons metadata read through the API: authors József Borsos (Q743451, 1821-1883) and Albert Doctor (Q907556, 1818-1888), date 1860, holding institution National Széchényi Library (OSZK) Manuscript Collection, licence {{PD-old-100-expired}}, source Ágnes Szemerédi's 2022 OSZK blog post. Both authors died more than 130 years ago, so the photograph is out of term in Hungary, the EU and the US. LIMITS: the OSZK blog page redirected to a blog.hu session page and was not read (not bypassed), so the library's own rights wording and the photograph's first publication could not be checked; no conflicting rights statement was found. kind likeness: made from life in 1860 when he was about 42. KOREAN NAME: '이그나츠 제멜바이스' is the Wikidata ko label and the kowiki title (alternative renderings '제멜바이스' and '세멜바이스' appear in Korean usage; Wikidata's was kept). STATUS: evidence_approved -- identity verified live, sources actually read, provenance honest about what is self, secondary or unread, every row tied to dated episodes, portrait found with one stated limit. No eligibility, coverage or match output was computed before the rows were fixed."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ignaz-semmelweis-borsos-doctor-1860.jpg",
+    "width": 790,
+    "height": 800,
+    "source": "Borsos és Doctor studio carte-de-visite, 1860, National Széchényi Library (OSZK) Manuscript Collection, via Wikimedia Commons (hand crop of the 1000 x 1580 scan, no upscaling)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-100-expired",
+    "attribution": "József Borsos and Albert Doctor (Borsos és Doctor studio), 'Semmelweiss Ignácz', carte-de-visite photograph, 1860; National Széchényi Library, Manuscript Collection; Wikimedia Commons file 'Borsos & Doctor Semmelweis Ignác.jpg' (authors died 1883 and 1888)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c.jpg",
+    "creator": "József Borsos and Albert Doctor (Borsos és Doctor studio)",
+    "date": "1860",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c.jpg"
+  }
+}

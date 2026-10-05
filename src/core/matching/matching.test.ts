@@ -612,6 +612,26 @@ describe("confidence and missing data", () => {
       "paul-cezanne",
       "robert-koch",
       "wilhelm-rontgen",
+      // Roster42 (2026-10-05, docs/checkpoints/roster42.md): 14 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero
+      // backlog reuse, one hold (Beatrix Potter, portrait). Each has whatever
+      // eligibility outcome its own evidence produced (computed by build(),
+      // never gated); all 14 came out non-match-eligible -- an evidence
+      // outcome, not a target.
+      "alfred-wegener",
+      "blaise-pascal",
+      "edwin-hubble",
+      "emil-zatopek",
+      "george-stephenson",
+      "george-westinghouse",
+      "gustav-klimt",
+      "ignaz-semmelweis",
+      "johannes-brahms",
+      "juan-manuel-fangio",
+      "katsushika-hokusai",
+      "mary-pickford",
+      "matthew-henson",
+      "pyotr-ilyich-tchaikovsky",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1164,6 +1184,26 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "paul-cezanne",
       "robert-koch",
       "wilhelm-rontgen",
+      // Roster42 (2026-10-05, docs/checkpoints/roster42.md): 14 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero
+      // backlog reuse, one hold (Beatrix Potter, portrait). Each has whatever
+      // eligibility outcome its own evidence produced (computed by build(),
+      // never gated); all 14 came out non-match-eligible -- an evidence
+      // outcome, not a target.
+      "alfred-wegener",
+      "blaise-pascal",
+      "edwin-hubble",
+      "emil-zatopek",
+      "george-stephenson",
+      "george-westinghouse",
+      "gustav-klimt",
+      "ignaz-semmelweis",
+      "johannes-brahms",
+      "juan-manuel-fangio",
+      "katsushika-hokusai",
+      "mary-pickford",
+      "matthew-henson",
+      "pyotr-ilyich-tchaikovsky",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

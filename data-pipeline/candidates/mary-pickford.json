@@ -1,0 +1,272 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mary-pickford",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mary Pickford",
+    "aliases": [
+      "Gladys Louise Smith (birth name)"
+    ],
+    "wikidataId": "Q104109",
+    "birthYear": 1892,
+    "deathYear": 1979,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CA",
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "actor",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "film",
+      "business"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "founder",
+      "independent"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pickford_wikidata",
+      "kind": "wikidata",
+      "title": "Mary Pickford (Q104109) -- verified live via wbgetentities (2026-10-04): en label 'Mary Pickford', description 'Canadian actress and producer (1892–1979)', P569 8 Apr 1892 (a second claim gives 1893), P570 29 May 1979, citizenship Canada (Q16), instance of human, ko label '메리 픽퍼드', P18 'Mary Pickford cph.3c17995u.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q104109"
+    },
+    {
+      "id": "src_pickford_wikipedia",
+      "kind": "wikipedia",
+      "title": "Mary Pickford -- English Wikipedia article (read 2026-10-04 via action=raw). Orientation only: used to locate leads (Motion Picture Relief Fund, film-donation history, the 1930 Oscar controversy) and never as support for a scored row.",
+      "url": "https://en.wikipedia.org/wiki/Mary_Pickford"
+    },
+    {
+      "id": "src_pickford_pbs_amex",
+      "kind": "biography",
+      "title": "Sue Williams (writer/director), 'Mary Pickford', PBS American Experience, aired 4 April 2005 -- full documentary transcript read. SCHOLAR perspective (non-self): narration plus interviews with biographers Eileen Whitfield and Scott Eyman and film historians Tino Balio, Jeanine Basinger, Kevin Brownlow, Robert Cushman and Kathryn Fuller-Seeley, with archival clips of Pickford, Fairbanks, Zukor and Chaplin quoted. Used for her 1907-1919 career moves, the 1915-16 salary and production-unit negotiation, Stella Maris, the formation of United Artists, the 1920s Lubitsch/Rosita and Coquette episodes, and the later decline. Its passages on her marriages, her family's drinking, her own drinking and her mother are not used as trait evidence.",
+      "url": "https://www.pbs.org/wgbh/americanexperience/films/pickford/"
+    },
+    {
+      "id": "src_pickford_pbs_decline",
+      "kind": "biography",
+      "title": "PBS American Experience, 'The Long Decline' (feature article accompanying the 2005 Mary Pickford film) -- scholarly/editorial overview (non-self), read in full. Used for the sound-era transition (Coquette), the shift in audience taste, and her 1930s-50s attempts at producing and radio; its remarks on drinking and family are not used.",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/pickford-long-decline/"
+    },
+    {
+      "id": "src_pickford_pbs_women",
+      "kind": "biography",
+      "title": "PBS American Experience, 'Women on Screen' (interview excerpts with film historians Jeanine Basinger, Scott Eyman, Kevin Brownlow and Eileen Whitfield on Pickford's appeal, her working method with D. W. Griffith and her audience) -- scholar perspective (non-self), read in full.",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/pickford-women-screen/"
+    },
+    {
+      "id": "src_pickford_canadian_enc",
+      "kind": "institution",
+      "title": "The Canadian Encyclopedia, 'Mary Pickford' (article by the encyclopedia's editors) -- national reference entry (non-self), read in full: Toronto birth, stage career, Biograph and IMP, United Artists and the Mary Pickford Company, the Motion Picture Relief Fund (1921), the Academy (1927), Coquette, her 1934 Toronto return and later citizenship. Its mention of her later alcoholism and depression is not used.",
+      "url": "https://thecanadianencyclopedia.ca/en/article/mary-pickford"
+    },
+    {
+      "id": "src_pickford_zukor1953",
+      "kind": "biography",
+      "title": "Adolph Zukor with Dale Kramer, The Public Is Never Wrong: The Autobiography of Adolph Zukor (New York: G. P. Putnam's Sons, 1953), Internet Archive full text (Media History Digital Library scan) -- COUNTERPARTY perspective (her employer and negotiating opponent, writing self-interestedly about himself, but non-self about Pickford). Read locally: his 1913 recruitment of her at Delmonico's and the $500-a-week contract, the 1914-15 salary negotiation against a serial offer, the 1916 contract and the Mary Pickford Company inside Famous Players, her disclosure of the First National offer in 1918, and his account of her leaving. His comments on her private life are not used.",
+      "url": "https://archive.org/details/publicisneverwro00adol"
+    },
+    {
+      "id": "src_pickford_hampton1931",
+      "kind": "archive",
+      "title": "Benjamin B. Hampton, A History of the Movies (New York: Covici-Friede, 1931), Chapter 8 'The Pickford Revolution', Internet Archive full text -- PERIOD industry historian (non-self) who personally negotiated with Mary and Charlotte Pickford in 1916 while trying to merge Paramount with V-L-S-E; an interested participant but independent of both Pickford and Zukor. Read pp. 146-160: the exhibitors' 'wrap everything around her neck' remark, the January 1915 contract, the demand for a Mary Pickford company, fewer and better pictures sold outside the program system, and the dispute over whether her Famous Players contract was still in force.",
+      "url": "https://archive.org/details/historyofmovies00hamp"
+    },
+    {
+      "id": "src_pickford_ramsaye1926",
+      "kind": "archive",
+      "title": "Terry Ramsaye, A Million and One Nights: A History of the Motion Picture (New York: Simon and Schuster, 1926), Internet Archive full text -- PERIOD film historian (non-self), read in the passages on her 1907 Belasco entry, her moves between Biograph, IMP and Majestic, and the formation of United Artists in 1919 (the McAdoo and Price arrangements and the quoted 'lunatics have taken charge of the asylum' reaction). Its early-career material may derive from Pickford's own telling and is treated with that caution.",
+      "url": "https://archive.org/details/ramsaye_book_1926"
+    },
+    {
+      "id": "src_pickford_studlar2019",
+      "kind": "press",
+      "title": "Gaylyn Studlar (David May Distinguished University Professor, Washington University in St. Louis), 'Artists, United: The Radical Origin of a Film Corporation', Washington University Center for the Humanities, 8 April 2019 -- SCHOLAR perspective (non-self) and the main CRITICAL source: it credits the 1919 founding, but states that after assuming executive leadership of United Artists in 1935 Pickford 'made mistakes, among them the loss of UA's distribution of Disney films', that management left her hands in 1951 and that she sold her stock in 1956. Read in full.",
+      "url": "https://humanities.washu.edu/node/16860"
+    },
+    {
+      "id": "src_pickford_beauchamp_ua",
+      "kind": "biography",
+      "title": "Cari Beauchamp (Hollywood historian), 'The Creation of United Artists', essay on the Mary Pickford Foundation website -- historian's account (non-self; hosted by the Foundation that preserves her legacy, so friendly in tone), read in full: the block-booking grievance, First National, the 1919 merger rumour, the 5 February 1919 signing, William McAdoo as counsel and Joseph Schenck's later role.",
+      "url": "https://marypickford.org/caris-articles/creation-united-artists/"
+    },
+    {
+      "id": "src_pickford_beauchamp_stella",
+      "kind": "biography",
+      "title": "Cari Beauchamp, 'Making and Promotion of Stella Maris', essay on the Mary Pickford Foundation website -- historian's account (hosted by the Foundation) drawing on Pickford's own memoir Sunshine and Shadow (self), trade-press reviews (Motion Picture World, Photoplay, 1918), Frances Marion and the Stella Maris press kit; read in full. Describes the dual role, the shoe she altered to produce a limp and Zukor's dismay on seeing her as Unity Blake.",
+      "url": "https://marypickford.org/caris-articles/making-promotion-stella-maris/"
+    },
+    {
+      "id": "src_pickford_beauchamp_rosita",
+      "kind": "biography",
+      "title": "Cari Beauchamp, 'Lubitsch, Pickford and the making of Rosita', essay on the Mary Pickford Foundation website (written for the 2023 Museum of Modern Art restoration) -- historian's account (hosted by the Foundation) quoting Pickford's own later interviews (Brownlow 1974, Pratt 1958, Columbia oral history), read in full. The American Legion exchange and the 'court of the last appeal' remark rest on her own recollections (self perspective).",
+      "url": "https://marypickford.org/caris-articles/lubitsch-pickford-making-rosita/"
+    },
+    {
+      "id": "src_pickford_beauchamp_liberty",
+      "kind": "biography",
+      "title": "Cari Beauchamp, 'Mary Pickford on the Road Selling Liberty Bonds', essay on the Mary Pickford Foundation website (cites 1918 Washington Post, Houston Press, Oakland Tribune, San Francisco Chronicle and Los Angeles Times reports) -- historian's account (hosted by the Foundation), read in full: the April-May 1918 tour with Chaplin and Fairbanks and her autumn 1918 California bond appearances.",
+      "url": "https://marypickford.org/caris-articles/mary-on-the-road-selling-liberty-bonds/"
+    },
+    {
+      "id": "src_pickford_beauchamp_mprf",
+      "kind": "biography",
+      "title": "Cari Beauchamp, 'Mary Pickford's Role in the History of the Motion Picture & Television Fund', essay on the Mary Pickford Foundation website (cites Los Angeles Times reports of 1925-1941) -- historian's account (hosted by the Foundation), read in full: the 1921 founding, the WAMPAS fundraising link, the 1924 building-fund chairmanship, the 1932 Payroll Pledge Program and the 1941 groundbreaking of the Motion Picture Country House.",
+      "url": "https://marypickford.org/?p=2905"
+    },
+    {
+      "id": "src_pickford_mptf_history",
+      "kind": "institution",
+      "title": "Motion Picture & Television Fund, 'Our History' (mptf.com timeline 1921-1971) -- institutional history (non-self) of the organisation she helped found; read the 1921, 1932 and 1939-1942 entries: incorporation of the Motion Picture Relief Fund with Joseph Schenck as president and Mary Pickford as vice president, her 1932 Payroll Pledge Program and the 1941 groundbreaking of the Country House.",
+      "url": "https://mptf.com/about/history/"
+    },
+    {
+      "id": "src_pickford_academy_history",
+      "kind": "award_body",
+      "title": "Academy of Motion Picture Arts and Sciences, 'Academy History and Structure' (oscars.org) -- institutional page (non-self), read: the Academy was founded in May 1927 by 36 members of the film community, including Mary Pickford.",
+      "url": "https://www.oscars.org/academy-history-and-structure"
+    },
+    {
+      "id": "src_pickford_academy_1930",
+      "kind": "award_body",
+      "title": "Academy of Motion Picture Arts and Sciences, 'The 2nd Academy Awards, 1930' (oscars.org ceremony page) -- awards-body record (non-self), read: Mary Pickford listed as Best Actress winner for Coquette, with the other nominees.",
+      "url": "https://www.oscars.org/oscars/ceremonies/1930"
+    },
+    {
+      "id": "src_pickford_mpf_academy",
+      "kind": "institution",
+      "title": "Mary Pickford Foundation, 'Mary Pickford and the Academy of Motion Pictures Arts & Sciences' -- legacy-organisation page (friendly, partly self perspective with her 1947 interview quotations), read in full: her role among the 36 founders, the early meetings at Pickfair, the lecture series and sound-transition exchange of knowledge, and the 1979 donation of her papers to the Academy library.",
+      "url": "https://marypickford.org/?p=3882"
+    },
+    {
+      "id": "src_pickford_mpf_loc",
+      "kind": "institution",
+      "title": "Mary Pickford Foundation, 'Mary Pickford and the Library of Congress' -- legacy-organisation page (friendly), read in full: the 1943 request from the Librarian of Congress, the 1946 delivery of 42 crates of nitrate film, the 1970 transfer of Biograph negatives, and Librarian Daniel Boorstin's description of the gift as the most important individual donation to the Library's film collection.",
+      "url": "https://marypickford.org/mpf-partnerships/mary-pickford-and-the-library-of-congress/"
+    },
+    {
+      "id": "src_pickford_tcm_coquette",
+      "kind": "press",
+      "title": "Margarita Landazuri, 'Coquette', Turner Classic Movies article, 3 January 2007 -- secondary film-writing (non-self), read in full: the 1929 sound film, her bobbed-hair image change and the favouritism charge after her 1930 Best Actress win. The tea-for-judges claim is a reported allegation and is not used as trait evidence.",
+      "url": "https://www.tcm.com/articles/87784/coquette"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pickford_hampton1931, src_pickford_zukor1953, src_pickford_pbs_amex, src_pickford_studlar2019, src_pickford_ramsaye1926, src_pickford_beauchamp_ua | 1910-1920 | period industry historian who negotiated with her + counterparty (Zukor) + scholar documentary + critical-leaning scholar + period film historian + historian] Repeated, dated moves toward control of her own work. About 1910-11 she left Biograph for IMP for higher pay (Zukor; Ramsaye; Hampton; Canadian Encyclopedia). In 1916 she and her mother demanded a company in her name with half its shares, fewer and better pictures, and sale outside the program system (Hampton, who was in the room); Zukor records a 'Mary Pickford Company organized inside Famous Players' with half the profits, and PBS describes her own production unit with shared creative control; Studlar calls her the first Hollywood star to produce her own films under such an arrangement. In 1917 she chose The Poor Little Rich Girl and added comedy to it (PBS). In 1918 she took First National's offer of artistic control (PBS; Beauchamp), and in 1919 co-founded United Artists to keep control of distribution (PBS, Balio; Studlar; Ramsaye). From about 1920 she chose directors, writers and cameramen and approved budgets, casting and distribution (PBS). Several independent sources over a decade; Zukor also records that she told him frankly of competing offers. Impact is advantage; the partnership strains inside United Artists are covered under leadership drive."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pickford_pbs_amex, src_pickford_ramsaye1926, src_pickford_zukor1953, src_pickford_beauchamp_rosita, src_pickford_beauchamp_mprf, src_pickford_mptf_history | 1907-1932 | scholar documentary + period historian + counterparty + historian + institution] She repeatedly created openings rather than waiting for them. In summer 1907 she kept returning to David Belasco's office and finally forced her way in to demand an audition (PBS; Ramsaye tells a differing version at a rehearsal; both agree she got the part). About 1910, when Biograph refused fifty dollars a week, she wrote to George Spoor of Essanay offering her services (Zukor). In 1915 she asked Zukor to open his books and compared receipts to see why her films drew crowds (PBS, Cushman). In 1922 she brought Ernst Lubitsch from Germany despite public hostility to German artists (Beauchamp, citing her later interviews; PBS). In 1932 she spearheaded the Payroll Pledge Program for the Motion Picture Relief Fund (MPTF; Beauchamp). Multiple distinct episodes across 25 years; the 1907 and 1922 details lean on her own recollections."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pickford_pbs_amex, src_pickford_beauchamp_stella, src_pickford_beauchamp_rosita, src_pickford_pbs_decline, src_pickford_tcm_coquette | 1918-1933 | scholar documentary + historian citing her memoir and 1918 trade press + period feature] In 1918 she put Stella Maris into production, playing both a wealthy invalid and a disfigured servant, while Zukor was away and knowing he would not approve (PBS; Beauchamp); reviews were strong. In 1919 each United Artists partner put up $100,000 in an enterprise that one observer dismissed as lunatics running the asylum (PBS; Ramsaye attributes the quip to Richard Rowland). In 1922 she brought in a German director for a grown-up role in Rosita (PBS; Beauchamp) and the film did poorly in small towns. In June 1928 she cut her curls despite the expectations of her fans and drew an 'avalanche of criticism' (PBS), and in 1929 she was the first major silent star to try a talkie (PBS Long Decline), Coquette, which was her most financially successful film (TCM; PBS), although the 1929 Taming of the Shrew with Fairbanks failed (PBS). Documented repeated choices with real downside; outcomes mixed, hence dual_edged. The success of Coquette and the 1930 Oscar are not used as evidence of the trait."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pickford_hampton1931, src_pickford_zukor1953, src_pickford_pbs_amex, src_pickford_beauchamp_rosita, src_pickford_studlar2019 | 1914-1922 | period historian who negotiated with her + counterparty + scholar documentary + historian citing her own recollection + critical-leaning scholar] She negotiated directly and firmly with powerful counterparties. Zukor writes that in 1914-15 her complaints about shoes, costumes and directors were 'Mary's way of opening salary negotiations', and that a serial company had offered her $4,000 a week, which he could not match, before she signed at $2,000 (Hampton dates the contract 15 January 1915). In 1916 Hampton found Charlotte and Mary 'positively affirmative' that her Famous Players contract had ended while Zukor and his counsel were equally certain it was in force; they proposed a mutual release. In 1918 she told Zukor she was going to First National and both were close to tears (PBS, Whitfield). After 1919 she and her partners fought Zukor's theatre purchases city by city and testified against him in a federal investigation (PBS narration). In 1922 she told Lubitsch she was the 'court of the last appeal' as financer and star (her own recollection, via Beauchamp). Zukor recalls the disputes as friendly and her parting words as 'We've done the best we could for each other', so the pattern is firm bargaining without lasting rupture; dual_edged because Studlar also records later disputes among the United Artists owners."
+    },
+    "perfectionism": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pickford_pbs_amex, src_pickford_hampton1931, src_pickford_beauchamp_stella | 1916-1921 | scholar documentary (Brownlow, Cushman) + period historian + historian citing her memoir] Two independent kinds of evidence. Kevin Brownlow says that on her own productions she backed her technicians fully, was very critical of herself at rushes, said 'I'm no good in this, we've got to retake it' and became known as 'Retake Mary Pickford'; PBS adds that she cut the number of her films each year so as not to saturate the market and wanted each to set new standards, and that Little Lord Fauntleroy (1921) needed steel girders and in-camera mattes for her two roles. Hampton (1931) records that in 1916 she asked for fewer pictures (eight or six instead of ten) specifically to improve their quality through less hasty production. Beauchamp (citing her memoir) adds the altered shoe for Unity Blake's limp. Quality-first behaviour is documented in at least two independent sources, but 'Retake' is one historian's report, hence strong_inference and a moderate score."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pickford_studlar2019, src_pickford_pbs_amex, src_pickford_beauchamp_mprf, src_pickford_academy_history | 1919-1956 | critical-leaning scholar + scholar documentary + historian + institution] Scott Eyman (PBS) says the leading role in forming United Artists was taken by Pickford and Fairbanks, with Mary and Charlotte described as formidable; Studlar says she assumed executive leadership of the company in 1935; Beauchamp records that she was elected president of the Motion Picture Relief Fund in the late 1920s, and the Academy lists her among its 36 founders. Against this, Studlar says she made mistakes as a United Artists executive, including the loss of Disney distribution, that management left her hands in 1951 and that she sold her stock in 1956; PBS says her later producing and radio ventures were unsuccessful. Several leadership roles are documented, but how directive she was in them is only partly described, so the score stays moderate with dual_edged impact."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pickford_pbs_amex, src_pickford_pbs_women, src_pickford_pbs_decline, src_pickford_canadian_enc | 1909-1929 | scholar documentary + scholar interviews + national reference] Two documented transitions. In 1909-10, coming from Belasco's stage, she studied her performances and concluded the camera needed a more intimate, naturalistic style than the Delsarte gestures of the stage (PBS, Balio and Eyman; Brownlow in 'Women on Screen' says she saw naturalism as even more important than Griffith did); the Canadian Encyclopedia notes that unlike many stage actors she moved to the vanguard of film performers. In 1929, although she considered sound 'like putting lip rouge on the Venus de Milo', she made Coquette, adapting stage techniques to sound (PBS Long Decline). She also asked Photoplay readers what roles to play after Rosita and made Little Annie Rooney in response (PBS). Results in sound and in changing her image were mixed (PBS), hence a moderate score and dual_edged."
+    },
+    "opportunity_sensing": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pickford_pbs_amex, src_pickford_hampton1931, src_pickford_studlar2019, src_pickford_beauchamp_ua | 1914-1919 | scholar documentary + period historian + scholar + historian] Independent observations of the same leverage and a later use of it. Hampton records that Charlotte Pickford heard film salesmen say 'as long as we have Mary on the program we can wrap everything around her neck' and concluded that Mary deserved greater pay; PBS (Cushman, Brownlow) says that in 1915 she saw her pictures drawing crowds, then examined the Paramount receipts and concluded that other films were being sold on her coattails; Studlar says she learned her films were used to force exhibitors to take whole packages. In 1919 the group learned of a Paramount-First National merger that would 'clamp the lid on the salaries' and responded with a distribution company of their own (Beauchamp; PBS). The observations are documented, but reading them as opportunity-spotting is an inference, and the 1919 move was a joint one."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pickford_mptf_history, src_pickford_beauchamp_mprf, src_pickford_beauchamp_liberty, src_pickford_canadian_enc, src_pickford_mpf_loc | 1918-1946 | institution + historian citing 1918-1941 press + national reference] Dated actions on behalf of others over three decades. In April 1918 she toured with Chaplin and Fairbanks to sell Liberty bonds and returned to California bond drives in the autumn, giving $5,000 of her own money to the Oakland fund (press reports cited by Beauchamp). In 1921 she was a founder and first vice president of the Motion Picture Relief Fund (MPTF; Canadian Encyclopedia); in 1924 she chaired a building fund for a home for indigent film workers; in 1932 she organised the payroll-deduction Payroll Pledge Program; in 1941 she broke ground for the Motion Picture Country House (MPTF; Beauchamp). In 1946 she delivered more than 1,000 reels of her films to the Library of Congress after its 1943 request (Mary Pickford Foundation page, friendly source). The MPTF and the Foundation both have an institutional interest in her legacy, but the dates and offices are in independent records."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pickford_pbs_amex, src_pickford_studlar2019 | 1900-1956 | scholar documentary + critical-leaning scholar] Two distinct stretches. From 1900 she worked in touring stock companies for seven years, and in 1907 returned day after day to Belasco's office before forcing her way in (PBS, Cushman). After retiring from acting in 1933 she tried radio, theatre and producing, which Eyman calls unsuccessful, and remained involved in United Artists until the 1950s, selling her shares reluctantly in 1956 (PBS; Studlar). Documented effort over long periods, but the results and her reasons for staying are partly outside the sources, so confidence stays at the bottom of the strong_inference band and impact is dual_edged."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-04) for Q104109 returned en label 'Mary Pickford', description 'Canadian actress and producer (1892–1979)', ko label '메리 픽퍼드', P569 8 Apr 1892 (a second birth claim gives 8 Apr 1893; Canadian Encyclopedia and Wikipedia give 1892, the LOC call number uses 1893), P570 29 May 1979, citizenship Canada (Q16), instance of human, P18 'Mary Pickford cph.3c17995u.jpg'; the entity matches the intended person (birth year 1892 used). SLUG CHECK: no data-pipeline/candidates/mary-pickford.json existed before this run; grep -ril pickford over data-pipeline/candidates and src/data/people found no collision. CLASSIFICATION: occupations actor and entrepreneur (no producer id exists; entrepreneur follows walt-disney.json), fieldIds film and business (walt-disney.json), impactDomains artistic/cultural/entrepreneurial, archetypes creative_creator and entrepreneurial_builder, tags founder and independent (founder: United Artists, Motion Picture Relief Fund, Academy; independent: independent production). Era 20th_century (career 1909-1956). Nationality CA and US (Canadian Encyclopedia: dual citizenship at death), regionCode north_america: Canadian-born, whole documented career in the United States, and the existing precedent for dual-nationality figures (alexander-graham-bell.json: GB+US -> north_america) applies; no CA precedent exists in the repository. EVIDENCE READ (all fetched with curl or WebFetch to the scratch folder and read locally): PBS American Experience 2005 documentary transcript (full), PBS 'The Long Decline' and 'Women on Screen' features; The Canadian Encyclopedia article; Zukor's 1953 autobiography (Internet Archive text; Pickford passages pp. 93-99, 129-131, 170-177, 181 and the 1918-19 passage); Hampton's 1931 A History of the Movies (Chapter 8, pp. 146-160); Ramsaye's 1926 A Million and One Nights (Belasco passage, IMP and Majestic moves, the 1919 United Artists passage); Studlar's 2019 WashU essay; five Cari Beauchamp essays on the Mary Pickford Foundation site (United Artists, Stella Maris, Rosita, Liberty bonds, MPTF); MPTF history page; Academy history and 1930 ceremony pages; Foundation pages on the Academy and the Library of Congress; TCM Coquette article; Wikipedia (orientation). Also opened and NOT used: United Artists Corporate Minutes 1919/1920/1938-1941 on the Internet Archive (OCR too degraded to read reliably); Whitfield, Eyman and Balio books and Pickford's own Sunshine and Shadow (lending-only or paywalled, not read). PERSPECTIVES: SELF (counted once): Pickford's own recollections as quoted in PBS and Beauchamp (Sunshine and Shadow, 1958 Pratt, 1974 Brownlow, Columbia oral history). SCHOLAR/INDEPENDENT: PBS documentary historians (Whitfield, Eyman, Balio, Basinger, Brownlow, Cushman, Fuller-Seeley), Studlar (film scholar), the Canadian Encyclopedia. PERIOD INDEPENDENT: Hampton 1931 (an interested participant in the 1916 talks but independent of both parties) and Ramsaye 1926. COUNTERPARTY/ADVERSARIAL: Zukor 1953 (her negotiating opponent; he also paid tribute to her). CRITICAL: Studlar (management mistakes at United Artists, loss of Disney), PBS (Rosita and Coquette reception, the 1930s-50s decline). FRIENDLY/HERITAGE: Beauchamp essays and Foundation pages (hosted by the Mary Pickford Foundation, citing period press and her own interviews), MPTF history. EPISODE USE: 1907 Belasco, c.1910 Spoor letter, 1915 request to see Zukor's books, 1922 Lubitsch, 1932 Payroll Pledge -> proactive_agency; c.1910-11 IMP, 1916 own company, 1918 First National, 1919 UA, post-1920 control -> autonomy_need; Stella Maris, UA stake, Rosita, 1928 haircut, 1929 talkie -> risk_tolerance; 1914-16 negotiations, 1916 contract dispute, 1918 call, federal testimony, 1922 'court of last appeal' -> conflict_tolerance; 'Retake Mary Pickford', fewer better films, Fauntleroy -> perfectionism; UA, MPRF presidency, Academy, 1935 UA executive role -> leadership_drive; 1909-10 acting-style change and 1929 sound -> adaptability; coattails and merger threat -> opportunity_sensing; Liberty bonds, MPRF, building fund, Payroll Pledge, LOC gift -> impact_motivation; early touring years, Belasco waiting, post-1933 attempts, UA to 1956 -> persistence. ROWS CONSIDERED AND LEFT UNSCORED: achievement_drive and competitiveness (would rest on fame, salary figures and Zukor's single partisan claim that she felt displaced by Chaplin); detail_orientation and analytical_rigor (Chaplin's remark that she knew amortizations and deferred stocks is reported only through PBS; the coattails analysis is already used under opportunity_sensing); persuasiveness (bargaining outcomes depend on her mother and on fame); collaboration (partnership accounts are dominated by Fairbanks, Chaplin and Charlotte, and the sources are thin on her own working methods); discipline and execution_speed (output counts and a single punctuality remark); cross_domain_range (acting plus business is occupation, not documented behaviour); deep_focus, curiosity, creative_originality (no behavioural source read directly on these). EXCLUDED ON PURPOSE: marriages to Owen Moore, Douglas Fairbanks and Buddy Rogers, Fairbanks's infidelity and the divorces; her mother's death and her reaction; her siblings' addiction and early deaths; her own drinking, depression and seclusion in later life (the Canadian Encyclopedia and PBS mention them; never inferred into any trait); her children; the January 1917 hotel-window passage in the PBS transcript; the claim that she was exhausted by overwork; the Coquette 'tea for the judges' allegation (reported, disputed, unverified); the 1976 honorary-Oscar appearance and the public reaction to her looks; and every salary figure that conflicts between sources. CONFLICTS REPORTED, NOT ADJUDICATED: (a) 1916 contract figures differ: Zukor gives $10,000 a week as advance against half the profits and a $1,040,000 two-year guarantee, PBS says $500,000, Hampton records a demand of $1,000 a day; the profile uses only the qualitative facts (own company, profit share, fewer pictures). (b) First National offer: PBS $675,000 for three pictures plus half the profits, Zukor $1,050,000 for three features, Beauchamp $1,500,000 a year; figures not used. (c) 1907 Belasco entry: PBS has her barging into his office, Ramsaye has her entering a rehearsal through the stage door; both agree on the outcome. (d) Who led the negotiations: Hampton emphasises Charlotte Pickford, PBS (Eyman) says Mary was equally capable of 'playing the muscle'; rows credit the Pickfords jointly where the source does. (e) UA founding date: signing 5 Feb 1919 (Beauchamp), announcement January 1919 (PBS), incorporation 17 April 1919 (Studlar), April 1919 (Ramsaye). (f) The Biograph, IMP and Majestic sequence differs in detail between Ramsaye, Zukor and the Canadian Encyclopedia. KNOWN LIMITS: no book-length scholarly biography (Whitfield 1997, Eyman 1990) and no Balio volume could be read in full; the evidence is weighted to business behaviour, with limited direct evidence about her day-to-day working relationships or creative process beyond the PBS historians and Beauchamp; much of the friendly material comes from the Mary Pickford Foundation. The profile is deliberately limited to 10 rows, all between 0.50 and 0.70 confidence and 60-78 score. PORTRAIT: Wikidata P18 'Mary Pickford cph.3c17995u.jpg' = Library of Congress Prints and Photographs Division, call number BIOG FILE - Pickford, Mary, 1893-1979, reproduction number LC-USZ62-117995, digital ID cph 3c17995, control number 97510062, titled 'Mary Pickford, head-and-shoulders portrait, facing front / Moody, N.Y.', dated between 1910 and 1920, note 'Copyright by Moody, New York.' The LOC JSON record (fetched directly) carries no rights or reproduction restriction and sets unrestricted true; Commons file page: author Rufus Porter Moody (Wikidata Q114562899: American photographer, 1873-1922), licence PD-US-expired, no third-party claim. Basis: a photographer who died in 1922 and a studio portrait of the 1910s, so public domain in the US on both the pre-1931 and life-plus-70 tests; the in-image mark '(c) Moody NY' is the original studio copyright mark, not a current claim. Original 3289x4096 greyscale TIFF master (tile.loc.gov) downloaded with curl, opened with Pillow, downscaled with LANCZOS to 1285x1600, JPEG q85, no crop, no upscaling; saved as public/portraits/mary-pickford-loc-1910s.jpg. Viewed: head-and-shoulders portrait of a young woman with long ringlets, consistent with the LOC title and her screen image of the 1910s. CAVEAT: the file is uncropped and therefore includes the LOC negative's black scan border and the reversed negative number '117995' along the bottom edge; cropping to the print area would be a purely presentational choice for the lead. Kind: likeness. KOREAN NAME: '메리 픽퍼드' is the Wikidata ko label. No eligibility, coverage or match output was used in scoring. LEAD PORTRAIT NOTE: the downscaled LOC scan (1285x1600) was cropped to the print area (removing the black scan border and reversed negative number) to 1153x1104; no upscaling, no retouching."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "메리 픽퍼드"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mary-pickford-loc-1910s.jpg",
+    "width": 1153,
+    "height": 1104,
+    "source": "Library of Congress Prints and Photographs Division, biographical-file portrait photograph (LC-USZ62-117995; digital ID cph.3c17995; control no. 97510062), Moody, New York",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+    "attribution": "Rufus Porter Moody (1873-1922), 'Mary Pickford, head-and-shoulders portrait, facing front', photographic print, between 1910 and 1920; Library of Congress Prints and Photographs Division (LC-USZ62-117995); studio copyright notice 'Copyright by Moody, New York' (photographer died 1922)",
+    "attributionUrl": "https://www.loc.gov/item/97510062/",
+    "creator": "Rufus Porter Moody",
+    "date": "1910-1920",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mary_Pickford_cph.3c17995u.jpg"
+  }
+}

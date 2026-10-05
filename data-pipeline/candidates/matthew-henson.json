@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "matthew-henson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Matthew Henson",
+    "wikidataId": "Q976683",
+    "birthYear": 1866,
+    "deathYear": 1955,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_henson_wikidata",
+      "kind": "wikidata",
+      "title": "Matthew Henson (Q976683) -- identity verified live through the Wikidata wbgetentities API on 2026-10-05: label 'Matthew Henson', description 'American explorer (1866-1955)', instance of human, born 8 Aug 1866, died 9 Mar 1955, citizenship United States, ko label and kowiki title '매슈 헨슨', image 'Matthew Henson 1910.jpg'. Orientation only; not used as support for any scored row.",
+      "url": "https://www.wikidata.org/wiki/Q976683"
+    },
+    {
+      "id": "src_henson_jpeary_journal",
+      "kind": "biography",
+      "title": "Josephine Diebitsch Peary, My Arctic Journal: A Year Among Ice-Fields and Eskimos (New York: Contemporary Publishing, 1893), Project Gutenberg #64549 full text -- eyewitness diary by Robert Peary's wife, who lived with Henson at Redcliffe House in northwest Greenland through 1891-92; NON-SELF (an expedition member close to Peary, so a partly partisan but independent-of-Henson observer). Searched for every mention of 'Matt' and read the passages closely: the November 1891 cooking arrangement, hunting and boat trips with Inuit, his sick spell, the frozen heel of May 1892, his role as her companion in the summer of 1892 and the July 1892 'native plot' scare.",
+      "url": "https://www.gutenberg.org/ebooks/64549"
+    },
+    {
+      "id": "src_henson_peary1898",
+      "kind": "archive",
+      "title": "Robert E. Peary, Northward over the 'Great Ice' (New York: Frederick A. Stokes, 1898), Internet Archive OCR full text, vols. 1 and 2 -- the expedition leader's own narrative of 1886 and 1891-97 (SELF for Peary, NON-SELF for Henson; an employer's admiring view). Read every passage that names Henson, notably the 1891 expedition roster, the August 1894 departure of the other party members, the 1895 ice-cap journey with Hugh Lee and Henson and Peary's closing tribute to the two men.",
+      "url": "https://archive.org/details/northwardovergre002pear"
+    },
+    {
+      "id": "src_henson_peary1907",
+      "kind": "archive",
+      "title": "Robert E. Peary, Nearest the Pole (New York: Doubleday, Page, 1907), Project Gutenberg #68906 full text -- Peary's narrative of the 1905-06 expedition and of his 1898-1902 work (employer's view; NON-SELF for Henson). Read all passages naming Henson, including Peary's own criticism of the delays of Henson's advance parties in March 1906 and his notes on Henson's hunting and reconnaissance trips in 1900-02 and 1905.",
+      "url": "https://www.gutenberg.org/ebooks/68906"
+    },
+    {
+      "id": "src_henson_peary1910",
+      "kind": "archive",
+      "title": "Robert E. Peary, The North Pole: Its Discovery in 1909 under the auspices of the Peary Arctic Club (New York: Frederick A. Stokes, 1910), Project Gutenberg #18975 full text -- Peary's narrative of the 1908-09 expedition (employer's and claimant's view; NON-SELF for Henson but written to support Peary's own claim, which is disputed). Read all passages naming Henson: his reasons for choosing Henson for the final party, Henson's pioneer divisions in February-March 1909, his hunting trips and instruction in igloo building. The book also contains racialised statements about Henson that are recorded here as context, not as evidence of his character.",
+      "url": "https://www.gutenberg.org/ebooks/18975"
+    },
+    {
+      "id": "src_henson_bartlett1928",
+      "kind": "archive",
+      "title": "Robert A. Bartlett, The Log of Bob Bartlett: The True Story of Forty Years of Seafaring and Exploration (New York: G. P. Putnam's Sons, 1928), Internet Archive OCR full text -- memoir by the captain of Peary's ship Roosevelt, who led a supporting party in 1909; NON-SELF (an independent colleague, and a rival for the final-party place). Read the 1909 chapter 'To the North Pole' where he says Peary chose Henson over him and that Henson was a better dog driver than he was.",
+      "url": "https://archive.org/details/logofbobbartlett00bart_0"
+    },
+    {
+      "id": "src_henson_nara_customs",
+      "kind": "institution",
+      "title": "Dorothy Dougherty, 'New York City U.S. Custom House Employee: Matthew Henson', Pieces of History blog, National Archives (National Archives at New York City) -- institutional account drawn from Customs personnel registers, Taft's 1913 appointment order, the 1920 census, Eisenhower's 1954 appointment book and the 1987 Reagan Library correspondence; NON-SELF. Read in full: his messenger and clerk grades and salaries 1913-1936, the 26 February 1913 appointment, the 1954 White House visit and the 1987-88 reburial at Arlington.",
+      "url": "https://prologue.blogs.archives.gov/?p=31371"
+    },
+    {
+      "id": "src_henson_nara_pole",
+      "kind": "institution",
+      "title": "Netisha Currie, 'The Pole at Last', Rediscovering Black History blog, U.S. National Archives (28 January 2014) -- institutional note on the Peary Collection; NON-SELF. Read in full, including its description of Henson's 5 September 1906 letter to Peary about rumours and treatment by members of the ship's crew, and the 1909 dinner given by the Colored Citizens of New York.",
+      "url": "https://rediscovering-black-history.blogs.archives.gov/2014/01/28/the-pole-at-last"
+    },
+    {
+      "id": "src_henson_nara_spotlight",
+      "kind": "institution",
+      "title": "Kaitlyn Crain Enriquez, 'Spotlight: Matthew Henson, Explorer', The Unwritten Record, U.S. National Archives Special Media Division (21 January 2025) -- archivist's survey of Henson and the Peary photograph collections; NON-SELF. Read in full: the list of expeditions, what Henson learned from the Inughuit, its note that the Pole claim has long been debated (including a Congressional hearing) and the later honours.",
+      "url": "https://unwritten-record.blogs.archives.gov/2025/01/21/spotlight-matthew-henson-explorer/"
+    },
+    {
+      "id": "src_henson_blackpast",
+      "kind": "biography",
+      "title": "Matthew C. Whitaker (history professor, Arizona State University), 'Henson, Matthew (1866-1955)', BlackPast encyclopedia entry -- scholarly reference biography; NON-SELF. Read in full; used for the outline of his career and its statement that later research indicates Peary and Henson did not reach the Pole, which is reported here as that author's assessment, not as settled fact.",
+      "url": "https://www.blackpast.org/african-american-history/henson-matthew-1866-1955"
+    },
+    {
+      "id": "src_henson_gale",
+      "kind": "biography",
+      "title": "Marjorie Burgess, 'Henson, Matthew 1866-1955', Contemporary Black Biography (Gale), reproduced on Encyclopedia.com -- secondary biographical profile citing Bradley Robinson's collaborative biography Dark Companion (1947), Wally Herbert's 1988 National Geographic article and The Noose of Laurels (1989), and S. Allen Counter's North Pole Legacy (1991); NON-SELF but second-hand and in places inconsistent with the archival record on dates. Read in full; used only to corroborate the outline of his life and the history of the Pole dispute.",
+      "url": "https://encyclopedia.com/people/history/us-history-biographies/matthew-henson"
+    },
+    {
+      "id": "src_henson_natgeo2003",
+      "kind": "press",
+      "title": "Anna Brendle, 'Profile: African-American North Pole Explorer Matthew Henson', National Geographic (10 January 2003) -- short popular profile drawing on Wally Herbert's 1988 National Geographic article; NON-SELF, secondary. Read in full; used only for the 2000 Hubbard Medal and for the account of the final camp on 6 April 1909, which rests on Henson's own later statements and is not used as evidence for any row.",
+      "url": "https://www.nationalgeographic.com/culture/2003/01/profile-african-american-north-pole-explorer-matthew-henson/"
+    },
+    {
+      "id": "src_henson_memoir1912",
+      "kind": "archive",
+      "title": "Matthew A. Henson, A Negro Explorer at the North Pole (New York: Frederick A. Stokes, 1912), Project Gutenberg #20923 full text, with a foreword by Robert Peary and an introduction by Booker T. Washington -- Henson's own first-person account (SELF perspective, counted once; never the sole support for a row). Searched and read the chapters on the 1891 start, the sledge-making of 1905-06, the 1908-09 march and his fall through a lead, which he says Ootah's quick action ended.",
+      "url": "https://www.gutenberg.org/ebooks/20923"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_henson_peary1898, src_henson_peary1910, src_henson_jpeary_journal, src_henson_nara_spotlight, src_henson_peary1907 | 1891-1909 | employer/expedition leader (admiring) + wife-witness + institutional archivist] Several dated instances of continuing in the field when others stopped. Peary (1898) records that in August 1894 the Falcon took home the other members of the party and that 'Lee and Henson alone possessed the grit and loyalty to remain' for the second year; in the spring-summer 1895 ice-cap journey, with rations 'continuously insufficient', weakened dogs killed and fed to the others and no hope of help, he wrote that 'Lee and Henson, brave boys, never complained' and later called Henson 'unhesitating and tenacious as a bulldog'. Josephine Peary's diary shows that in May 1892 Henson came back to the base with a frozen heel for more equipment and was still at the base and in the field through that summer. Peary (1910) says he took Henson on all his northern expeditions after 1886 and on nearly every 'farthest' sledge journey, and the National Archives lists Arctic expeditions in 1891-92, 1893-94, 1895-96, 1898-1902, 1905-06 and 1908-09. Several sources and dates, but the strongest wording (grit, loyalty, tenacious) is Peary's, an employer's; and Peary also records slow progress of Henson's advance parties in March 1906 (a ten-day delay, which he blames largely on weather) and that Henson turned back from a hard musk-ox chase when exhausted, so it is kept below 80. The racial discrimination Henson faced after 1909 is documented context and is not used as evidence of this trait."
+    },
+    "adaptability": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_henson_jpeary_journal, src_henson_peary1898, src_henson_peary1910, src_henson_nara_spotlight, src_henson_blackpast | 1891-1909 | wife-witness + employer + institutional archivist + scholarly entry] Hired in 1887 as Peary's attendant, Henson took on one new working role after another. Josephine Peary's diary says that from November 1891 until May he cooked for the Redcliffe House household (under her supervision), and shows him hunting deer with the Inuit hunter Ikwa and travelling with him by boat that year. Peary (1898) describes him as 'in turn cook, hunter, dog driver, housekeeper, and body-guard'. By 1908-09 Peary has Henson, with Marvin and the Inuit, teach new expedition members to build igloos, sends him on hunting and reconnaissance trips (Clements Markham Inlet, December 1908; Cape Lieber 1902) and gives him a pioneer division of three Inuit and their sledges to break the trail ahead of the main party in March 1909. The National Archives archivist writes that he learned igloo building, dog driving and the Inuktun language from the Inughuit, and BlackPast says he traded with the Inuit and learned their language. Several independent, dated instances in different decades; kept below 80 because the role list is Peary's own and much of the evidence is brief."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_henson_nara_spotlight, src_henson_peary1910, src_henson_jpeary_journal, src_henson_nara_pole | 1891-1909 | institutional archivist + expedition leader + wife-witness] Two or more distinct facts point the same way. The National Archives archivist writes that Henson 'spent the time establishing a relationship with the indigenous people of the area, while Peary more often remained distant', and the expedition depended on Inuit hunters and families. Peary (1910) has him work with Inuit divisions (Ootah, Ahwatingwah and Koolootingwah in the first pioneer division, Ootah and the others at the final camp) and with Marvin in training newcomers; Josephine Peary's diary records Henson hunting and travelling with the Inuit hunter Ikwa in 1891-92. Against this, the National Archives holds his 5 September 1906 letter to Peary about rumours and ill treatment from members of the ship's crew, and Peary criticised his advance parties' pace in 1906 and 1909, so the picture on the ship is mixed. Set at the lower end of the 'real lean' band. Peary's 1910 racialised comments about Henson's temperament are not evidence and are not used."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_henson_nara_spotlight, src_henson_peary1910, src_henson_bartlett1928 | 1891-1909 | institutional archivist + expedition leader + fellow expedition member] Henson's skill in Arctic travel is attested by three independent voices: the National Archives archivist (he learned igloo building, dog driving and the language over some eighteen years), Peary (1910: 'the best man I had with me for this kind of work' apart from the Inuit, 'almost as skilful at this work as an Eskimo') and Captain Bartlett, who had been Peary's alternative for the final party and wrote that 'Henson was a better dog driver than I', adding that he never held Peary's choice against him. The sources describe proficiency, not Henson's own motives for pursuing it, so the orientation toward mastery is an inference (score and confidence kept low); the learning-from-the-Inuit episodes are also used under adaptability, but the sustained, multi-year skill development reported here is a different fact."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "매슈 헨슨"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities for Q976683 on 2026-10-05 returned en label 'Matthew Henson', description 'American explorer (1866-1955)', instance of human, P569 8 Aug 1866, P570 9 Mar 1955, citizenship United States (Q30), ko label and kowiki title '매슈 헨슨', P18 'Matthew Henson 1910.jpg'. The lead's hint (Q976683) was confirmed, not merely trusted; no residence/school/satellite entity involved. SLUG CHECK: no data-pipeline/candidates/matthew-henson.json and no public/portraits/*henson* existed before this run; grep of src/data/people/*.ts for 'henson' found no person entry (only the substring inside unrelated text in Brunel material). CLASSIFICATION: occupation explorer, field exploration, impactDomains historical, tags explorer and late_recognition, archetype scientific_explorer, following the roald-amundsen / tenzing-norgay / fridtjof-nansen candidates (ids verified in src/core/i18n/en.ts); nationality US, region north_america; era 20th_century because the 1905-1909 expeditions, the 1909 final party, the 1912 memoir and the 1913-1936 civil-service career fall in the 20th century, though rows also rest on 1891-1900 evidence (a borderline choice; the lead may prefer 19th_century on a birth-year basis as for Shackleton and Nansen). EVIDENCE READ (13 records; 1 orientation, 12 substantive; all downloaded to the scratch folder and read locally): Josephine Peary's My Arctic Journal (1893, Gutenberg) -- every 'Matt' passage; Peary, Northward over the Great Ice (1898, vols 1-2 OCR) -- all Henson passages; Peary, Nearest the Pole (1907) and The North Pole (1910) -- all Henson passages; Bartlett, The Log of Bob Bartlett (1928) -- the 1909 chapter; three National Archives pieces (NY Custom House post, The Pole at Last, Unwritten Record spotlight); BlackPast (Whitaker); Gale/Encyclopedia.com profile; National Geographic 2003 profile; Henson's memoir A Negro Explorer at the North Pole (1912, Gutenberg) -- the passages on sledge-making, the Inuit, the 1909 march and his fall in a lead (also read the Peary foreword). A National Geographic Adventure blog by James Edward Mills (2014) and Maryland State Archives biographical card were opened but are not recorded because they are popular/thin and the former contains uncorroborated claims. PERSPECTIVES: (1) Josephine Peary, eyewitness diary of 1891-92 (non-self, expedition-family); (2) Robert Peary, the employer and claimant, in three books (non-self for Henson; admiring, paternalistic and racialised in places, and with a disputed claim at stake); (3) Robert Bartlett, ship's captain and alternate for the final party; (4) National Archives archivists (institutional, three pieces); (5) scholarly/reference biographers (Whitaker, Burgess) who report the later critical scholarship (Wally Herbert 1988-89, Counter 1991, Robinson 1947); (6) SELF: Henson's 1912 memoir (counted once, never sole support). NON-SELF BEHAVIOURAL sources: Josephine Peary, Peary x3, Bartlett, NARA x3. CRITICAL / ADVERSARIAL: Peary's own recorded criticism of the delays of Henson's advance parties (1906, 1909); the 1906 letter of grievance against crew members (NARA); the long dispute over whether Peary and Henson reached the Pole (NARA spotlight, BlackPast, Gale/Herbert) is documented as context only. NOT READ: Bradley Robinson, Dark Companion (1947), Herbert's Noose of Laurels, Counter's North Pole Legacy, Robert Bryce's Cook & Peary, Wally Herbert's 1988 NG article, Dolan material and the 1911 Congressional hearing (no accessible full text); they are cited second-hand only in the Gale and NARA pieces and are not relied on. EPISODE USE: 1894 remaining after the Falcon sailed and the 1895 ice-cap journey -> persistence; 1891-92 cooking and hunting, Peary's role list, 1908-09 igloo instruction/hunting/pioneer division, learning from the Inughuit -> adaptability; the NARA relationship statement, Inuit divisions, the 1906 letter -> collaboration; Peary/Bartlett/NARA skill statements -> mastery_orientation. LEFT UNSCORED ON PURPOSE: the truth of the Pole claim and who stood first at the final camp (Henson's own later statements only, plus disputed navigation; never used); the Cook-Peary dispute; racial discrimination, the loss of recognition and the parking-garage and Custom House years (documented context, not personality evidence; the 23-year messenger and clerk record is used only in the editorial draft); Peary's 'racial inheritance' passages about Henson's 'daring and initiative'; Henson's marriage, Inuit son and family (private life); honours (Explorers Club 1937, Congressional medal 1944-46, Hubbard Medal 2000, Arlington 1988) and the 1912 memoir (recognition/output, not behaviour); fear during the July 1892 'native plot' scare (single incident, observer judged it exaggerated); decisiveness, risk_tolerance, resourcefulness, leadership_drive, social_assertiveness and discipline (single-source role descriptions or occupational exposure; too thin). CONFLICTS REPORTED, NOT ADJUDICATED: (a) sledge-building: Peary (1910) says the Inuit built the 1908 sledges while Henson's memoir and the NG blog say Henson built many/all, so no sledge-building claim is used; (b) Custom House dates: NARA (registers) gives 1913 appointment and 2 Nov 1936 abolition of his position, Gale gives 'c.1913-33', BlackPast 1936, a popular source 1939 -- NARA used; (c) the medal: Gale and BlackPast say 1944, NARA says 1945 Navy medal, another source 1946 -- only 'mid-1940s' is used; (d) birth day 6 or 8 August (Wikidata, NARA, Maryland: 8 Aug 1866). PORTRAIT: Library of Congress Prints and Photographs Division, Bain News Service glass negative 'Mat. Henson, in fur parka, on sled, Battle Harbor', dated 9/09 on the negative (LC-DIG-ggbain-04257, LCCN 2014684251, call no. LC-B2- 885-5); LOC rights statement 'No known restrictions on publication', Bain collection rights page cited by LOC; creator Bain News Service (publisher). Photographed on the ship's deck in Labrador in September 1909, so a news photograph published before 1931 -> public domain in the US. Identity: the negative is captioned 'Mat. Henson, Battle Harbor 9/09'; the face matches the 1910 LOC portrait. Original 5785x4241 grayscale JPEG downloaded from Wikimedia Commons (the LOC vault copy was only 1024x751), cropped to the seated figure (1200x1300), JPEG q85, no resizing or upscaling; saved as public/portraits/matthew-henson-bain-1909.jpg. REJECTED: Wikidata P18 'Matthew Henson 1910.jpg' (LOC cph.3g07503, c1910, unknown photographer) because the LOC record carries a U.S. Copyright Office registration note (J137917) with no known publication, which leaves its public-domain status less certain than a Bain news photograph. No eligibility, coverage or match output was computed or consulted during scoring."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/matthew-henson-bain-1909.jpg",
+    "width": 1200,
+    "height": 1300,
+    "source": "Library of Congress Prints and Photographs Division, George Grantham Bain Collection (LC-DIG-ggbain-04257), via Wikimedia Commons (cropped to the figure)",
+    "license": "Public domain",
+    "licenseUrl": "https://www.loc.gov/rr/print/res/274_bain.html",
+    "attribution": "Bain News Service, 'Mat. Henson, in fur parka, on sled, Battle Harbor', glass negative, September 1909; Library of Congress Prints and Photographs Division (LC-DIG-ggbain-04257), no known restrictions on publication",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2014684251/",
+    "creator": "Bain News Service (publisher; photographer not recorded)",
+    "date": "1909",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mat._Henson,_in_fur_parka,_on_sled,_Battle_Harbor_LCCN2014684251.jpg"
+  }
+}

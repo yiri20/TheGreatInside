@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "katsushika-hokusai",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Katsushika Hokusai",
+    "aliases": [
+      "Hokusai",
+      "Tokitaro",
+      "Shunro",
+      "Taito",
+      "Iitsu",
+      "Gakyojin Manji"
+    ],
+    "wikidataId": "Q5586",
+    "birthYear": 1760,
+    "deathYear": 1849,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "independent",
+      "innovator",
+      "nonconformist",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hokusai_wikidata",
+      "kind": "wikidata",
+      "title": "Katsushika Hokusai (Q5586) -- verified live via wbgetentities (2026-10-04): en label 'Katsushika Hokusai', description 'Japanese artist (1760-1849)', birth 31 Oct 1760, death 10 May 1849, citizenship Japan, ko label '가쓰시카 호쿠사이', ja label '葛飾北斎'. The look-alike entity Q11621042 (Katsushika Hokusai II, Japanese ukiyo-e artist, Japanese Wikipedia only) was checked and is not this person. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q5586"
+    },
+    {
+      "id": "src_hokusai_wikipedia",
+      "kind": "wikipedia",
+      "title": "Hokusai (English Wikipedia) -- orientation only: read for the broad chronology (Manga from 1814, Thirty-six Views of Mount Fuji c. 1830-32, One Hundred Views from 1834, the 1839 fire) and the later European reception; never used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Hokusai"
+    },
+    {
+      "id": "src_hokusai_revon1896",
+      "kind": "biography",
+      "title": "Michel Revon, Etude sur Hoksai (Paris, 1896; doctoral thesis by a professor at the Tokyo law faculty), Internet Archive full text -- SCHOLAR with Japanese witness testimony: draws on Iijima Handjiro's 1893 Katsushika Hokusai den, Japanese compendia of ukiyo-e artists, and interviews with surviving acquaintances (Yokota Baigen, Koshu Rogi, Tozaki and others), most of them friendly to Hokusai; also relays Bakin's side of their quarrels. Read in full: the life chapter (early training and break with Katsukawa Shunsho, 1787-88 poverty, the 1804 performance before the shogun, the quarrels with Bakin and the actor Baiko, Nagoya 1817-18, Kyoto, Shinano, Uraga 1834-36, the 1836 famine, the 1839 fire, his studio and habits, money, the last moves and illness).",
+      "url": "https://archive.org/details/IA41543703_0026"
+    },
+    {
+      "id": "src_hokusai_goncourt1896",
+      "kind": "biography",
+      "title": "Edmond de Goncourt, Hokousai (Paris, 1896; Internet Archive copy of the 1916 edition) -- French collector-critic, admiring; relies on translations by Hayashi Tadamasa and documents from Bing and Gonse. Read for: the Dutch scroll commission and its price dispute, the letters from Uraga (rates paid, a single robe), the quarrel with Bakin over text and illustrations, the 1839 fire, the family (a troublesome son and grandson, the daughter Oyei who divorced and lived with him), the number of his dwellings, and his last words. Several dates in it are corrected by later writers.",
+      "url": "https://archive.org/details/hokousa00gonc"
+    },
+    {
+      "id": "src_hokusai_clark2020",
+      "kind": "press",
+      "title": "Juliet Rix, 'Tim Clark - interview: This set of Hokusai's drawings is a really important piece of the jigsaw', Studio International, 30 Oct 2020 -- interview with the British Museum's long-time Hokusai curator after the museum acquired 103 rediscovered drawings of 1829 for 'The Great Picture Book of Everything'. MODERN SCHOLAR / MUSEUM CURATOR perspective (non-self, independent of the nineteenth-century biographers): his insistence on top block-cutters, the January 1830 letter to publishers, the Manga, the European perspective in the Great Wave, Japonisme, his devotion to Nichiren Buddhism, and his late works. Fetched and read in full.",
+      "url": "https://www.studiointernational.com/index.php/tim-clark-interview-british-museum-newly-rediscovered-hokusai-drawings-japan"
+    },
+    {
+      "id": "src_hokusai_focillon1914",
+      "kind": "biography",
+      "title": "Henri Focillon, Hokousai (Paris: Felix Alcan, 1914), Internet Archive full text -- French art historian's critical synthesis; follows Goncourt and Revon for the facts but gives its own, more critical reading of Hokusai's temper. Read: the chapters on his maturity, the quarrels with Bakin and Baiko, the exile at Uraga, the famine, the fire and the old man's studio.",
+      "url": "https://archive.org/details/hokousai00fociuoft"
+    },
+    {
+      "id": "src_hokusai_strange1906",
+      "kind": "biography",
+      "title": "Edward F. Strange, Hokusai, the Old Man Mad with Painting (London/New York, 1906; by a Victoria and Albert Museum curator), Internet Archive full text -- English compilation from Goncourt, Revon and the Japanese life of Hokusai (not an independent perspective on the facts); read in full, including its account of why Japanese critics ranked Hokusai low and the 'peasant' label he used for himself. Its dating of the Fuji series (1823-29) is outdated.",
+      "url": "https://archive.org/details/hokusaioldmanmad00stra"
+    },
+    {
+      "id": "src_hokusai_afterword1834_self",
+      "kind": "archive",
+      "title": "Hokusai's own postscript to One Hundred Views of Mount Fuji (1834, written 'at seventy-five' by East Asian reckoning, signed Gakyo Rojin, the old man mad about drawing), as translated in C. J. Holmes, Hokusai (London, 1899) and quoted in Goncourt's book -- SELF perspective only; never the sole support for any row.",
+      "url": "https://archive.org/details/hokusai00holm"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_hokusai_revon1896, src_hokusai_strange1906, src_hokusai_focillon1914 | c.1779-1810 | Japanese-testimony scholar + compilation + critical art historian] After mastering the Katsukawa house style under Shunsho, Hokusai turned to the Kano academy manner and was expelled and forbidden the Katsukawa name (Revon pp.60-61; Strange ch.1), then tried Sori, Tosa, the European-influenced manner of Shiba Kokan and Ming Chinese models in turn instead of settling into one school's formulas (Revon pp.63-69). In 1810 he drew a theatre bill in his own slender-figure manner against the Torii convention; passers-by said only the Torii style suited such bills and it failed (Revon pp.82-83). Strange adds that Japanese critics of the time kept him outside the orthodox hierarchy for working this way, and Focillon notes the 'peasant' label he put on his door. Dual-edged: the breaks cost him patronage and income (he hawked red pepper and calendars c.1787, Revon p.64). Held below 80 because the episodes reach us through one tradition of testimony relayed by later writers; the Bakin disputes are scored under conflict tolerance, not here."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_hokusai_revon1896, src_hokusai_goncourt1896, src_hokusai_focillon1914, src_hokusai_clark2020 | c.1790-1846 | witness-based scholar + admiring collector + critical art historian + modern curator] Several separate episodes of declining work on a patron's terms: he twice refused the lord of Tsugaru's invitation to paint a screen and a 5-gold-piece welcome gift, held firm when the lord's envoy threatened to kill him, then months later drew a group of wild horses on the screen unasked (Revon pp.102-103, witness Tozaki); he put a notice on his door that he would not draw fans or pupils' model sheets (Revon p.101, from a drawing kept by Rogi); a witness recalled that no one could direct him and that he had to be left to draw what he wished (Revon p.102); when shogunate officials called to commission a picture he went on picking fleas from his clothes until they had insisted for a long time (Revon p.102 n.2; Focillon p.84 tells a version with a shogunal purveyor). Goncourt reads his lifelong poverty partly as the result of accepting only work that pleased him (editorial reading, not scored on its own). Dual-edged: the same stance kept his income low and left him dependent on friends and publishers (Revon; Clark on the January 1830 letter)."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hokusai_revon1896, src_hokusai_goncourt1896, src_hokusai_focillon1914, src_hokusai_strange1906, src_hokusai_clark2020 | c.1787-1839 | witness-based scholar + admiring collector + compilation + critical art historian + modern curator] Separate, dated setbacks each followed by a return to work: after c.1787-88 poverty selling pepper and calendars he took a banner commission and, per Strange, vowed to devote his life to art (Revon p.65; Strange ch.1); a paralytic attack c.1828-29 was overcome with a lemon-and-sake remedy he wrote out and illustrated himself (Revon p.93 n.5; Goncourt pp.262-263); in the famine of 1836 he drew hundreds of sketches, framed them himself and hung them outside print dealers' shops, later improvising pictures from ink blots for handfuls of rice (Revon pp.97-98; Focillon pp.92-93); when his house burned in 1839 he fled with his daughter carrying only his brushes, lost a lifetime of studies, rented a house on credit, made a palette from a broken bottle and went back to work (Revon pp.98-99; Goncourt p.242; Strange). Clark records that by January 1830, after a stroke and the death of his second wife, he was writing to publishers that he was destitute and needed commissions, and suggests the Fuji project helped rescue his career. Multiple dated episodes from several authors; held below 85 because the accounts share a few underlying testimonies."
+    },
+    "mastery_orientation": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hokusai_revon1896, src_hokusai_goncourt1896, src_hokusai_clark2020, src_hokusai_strange1906, src_hokusai_focillon1914, src_hokusai_afterword1834_self | 1780s-1849 | witness-based scholar + admiring collector + modern curator + compilation + SELF] Independent of his own words: Revon characterises his 'painter's conscience, forever tormented by the anxiety of possible progress' and documents his serial study of the Kano, Tosa, Sori, European and Ming manners (pp.63-69); friends and a daughter reported his last words, 'if Heaven had lent me ten more years ... five more years, I could have become a real painter' (Revon p.111; Goncourt p.264; Strange); Clark says that from sixty to ninety he had 'a very strong notion of what he wanted to achieve', kept returning to subjects such as ducks (1829, again 1847) and the dragon (1829 drawing, 1849 painting), and was by his own insistence exacting about the reproduction of his lines. His own 1834 postscript says that what he made before seventy 'is not worth counting' and that he hoped at 110 every dot and line would be alive (SELF, quoted by Goncourt and Holmes). Set at 82, not higher: the explicit statements are his own or his friends', and the independent corroboration is Clark's reading of the later work. LEAD RUBRIC_CORRECTION (downward, before eligibility): 82/0.70 -> 80/0.66 because the independent corroboration for the late-career mastery pattern rests on three perspectives of uneven independence (a scholar relaying Japanese witnesses, Goncourt, and Clark) plus the self-authored 1834 postscript; no extreme band without multiple independent documented instances."
+    },
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hokusai_revon1896, src_hokusai_focillon1914, src_hokusai_strange1906 | 1836-1839 | witness-based scholar + critical art historian + compilation] In the famine of 1836, when booksellers shut and artists were on the street, he turned out hundreds of cheap framed sketches for the dealers' doorways and, when that market flagged, took up a popular game of completing pictures from casual blots on silk or paper for a handful of rice each (Revon pp.97-98; Focillon p.92; Strange). After the 1839 fire left him without tools he made a washing cup from the base of a broken bottle and colour saucers from its fragments and rented new rooms on credit (Revon p.99; Strange). Two separate dated crises with specific improvised solutions; kept at 76 because both stories rest on a small circle of reporters (Saiboun, Baigen) as relayed by Revon."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_hokusai_revon1896, src_hokusai_goncourt1896, src_hokusai_focillon1914, src_hokusai_strange1906 | 1807-1811 and c.1810 | witness-based scholar incl. Bakin's side + admiring collector + critical art historian + compilation] In his collaborations with the novelist Takizawa Bakin he refused repeatedly to bend an illustration: from the first volume (1807) each insisted on his own reading, publishers sided with the illustrator and gave the later text to another writer; in 1808 he insisted on a fox in a suicide scene that Bakin opposed; in 1811 he refused to put a clog in a character's mouth ('try it yourself') and the partnership ended (Revon pp.80-87; Goncourt pp.114-115, where he says the text, not the drawing, should change; Focillon pp.82-83). He also ignored the leading actor Baiko, who had come to his house to ask for a ghost design, until Baiko apologised (Revon pp.82-83; Focillon p.83). Critical perspectives: Revon and Focillon describe Bakin as pedantic and domineering, while Focillon also says Hokusai himself was of 'difficult temper', with the pride of the poor and a ferocity in irony. Dual-edged: it cost him a valuable working relationship. Held at 70 because the dispute stories come from the same few Japanese compendia."
+    },
+    "perfectionism": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hokusai_clark2020, src_hokusai_focillon1914 | 1829-1836 | modern curator + critical art historian] Clark reports that Hokusai wrote to his publishers insisting that they employ the best block-cutters and sometimes complained when they cut lines in a way he disliked, treating the reproduction of every nuance of his brush line as essential. Focillon, reading his letters from Uraga (1834-36), notes that even while hiding and short of money he kept sending instructions about the engraving of his drawings and feared above all running out of paper, colours and brushes (pp.91-93). Two distinct, independently reported strands from different centuries; strong_inference rather than documented because neither source quotes a specific letter, and kept at 70 because his own 1834 postscript is about his standard for his early work, not about finishing individual pieces."
+    },
+    "competitiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hokusai_revon1896, src_hokusai_strange1906, src_hokusai_focillon1914 | c.1780-1823 | witness-based scholar + compilation + critical art historian] Three separate episodes of rivalry: when the Katsukawa pupil Shunko tore up his signboard in front of him he swore to become the first painter in the world, and told a friend late in life that without Shunko's insult he would never have become a great draughtsman (Revon p.62 and n.4; Strange ch.1); in 1804 he is said to have outdone the Chinese-school painter Buncho in a drawing contest before the shogun, drawing a river with a broom and a cock's inked feet, after which Buncho 'sweated under the arms' (Revon pp.78-79, from a witness; Strange); in 1823 he answered Toyokuni's imitation of his Manga with five actor prints signed 'old man of Katsushika, playing the monkey trick of imitating others' (Strange; Focillon p.91). The shogun contest is told by compilers and Strange doubts its significance; modest score and confidence."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hokusai_revon1896, src_hokusai_goncourt1896, src_hokusai_strange1906 | 1790s-1849 | witness-based scholar + admiring collector + compilation] Revon, relaying what Hokusai later told the bookseller Sando, says that after a banner commission in the late 1780s he resolved to give his life to art and worked from dawn until dark, then studied for hours more (p.66, from Hokusai den vol. I); and his witnesses describe a fixed working routine: from November to May he never left the corner of the brazier, working at his low table (pp.99-100), and each morning he drew small monsters on scraps of paper and threw them into the street (p.109 n.2, from the old man Hokkotsu); Goncourt says he took sketches and croquis every day of his life, and Revon's witness Baigen recalls that the collection of studies kept since his youth, lost in the 1839 fire, would have filled a cart (p.98 n.1). Strange speaks of unfailing industry from 1789 to his death but that is a summary judgement and is not counted. Several concrete habits from two tellers (one episode partly his own later account), hence strong_inference; not scored from the size of his output."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hokusai_revon1896, src_hokusai_clark2020, src_hokusai_strange1906 | 1780s-1830s | witness-based scholar + modern curator + compilation] Hokusai changed manner again and again (Revon pp.61-69: Katsukawa, Kano, Sori, Tosa, European procedures from Shiba Kokan, Ming painting; Strange notes the 1799 'new manner' marked by a new name); he improvised brushwork stunts such as the 1804 river drawn with a broom and a cock's feet (Revon pp.78-79) and made pictures out of casual ink blots (Revon pp.97-98); and Clark traces how he turned early copies of European perspective views into a deliberate play with perspective by his seventies, worked with imported Prussian-blue ink, and kept replaying motifs across decades. Several distinct documented trials from different authors, but none states an explicit method or a controlled comparison, hence strong_inference."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hokusai_revon1896, src_hokusai_clark2020, src_hokusai_strange1906 | 1790s-1829 | witness-based scholar + modern curator + compilation] Revon records him learning European procedures from Shiba Kokan and travelling from Edo to Nagoya (c.1817-18), Ise, Kishu, Osaka and Kyoto, noting local pipe designs in his sketchbooks (pp.69, 90-94 and notes); the Manga prefaces, as translated by Strange, say 'nothing in Nature was unattempted' (ch.2); and Clark describes the 1829 project 'The Great Picture Book of Everything', with drawings of ancient India and China, as an attempt to catalogue the universe for readers who could not travel (Japan then restricted travel abroad). Several independent strands; the preface wording is a friend's or the artist's own and is used only as corroboration."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hokusai_revon1896, src_hokusai_clark2020, src_hokusai_strange1906 | 1810-1832 | witness-based scholar + modern curator + compilation] Specific documented departures from convention rather than judgements of fame: the 1810 theatre bill in a new slender-figure style that the public rejected (Revon pp.82-83); the ink-blot completion games and brush performances (Revon pp.78-79, 97-98); the Manga sketchbooks, which a friend's preface and Strange describe as drawing 'as it comes' and as a pictorial encyclopaedia of Japanese life (Strange ch.2); Clark's account of how the Great Wave composition inverts perspective, making the wave dwarf Mount Fuji, and of his late habit of reinventing classic stories in contemporary style for popular readers. Not scored from the later reception of the prints. strong_inference: separate documented instances, but several are assessments by later scholars rather than records of his own decision-making."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "가쓰시카 호쿠사이"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE (2026-10-04, wbgetentities for Q5586 and the look-alike Q11621042): Q5586 = en 'Katsushika Hokusai', description 'Japanese artist (1760-1849)', P569 31 Oct 1760, P570 10 May 1849, P27 Japan, ko label '가쓰시카 호쿠사이', ja '葛飾北斎', P18 'Hokusai as an old man.jpg', enwiki/jawiki/kowiki sitelinks. Q11621042 is 'Katsushika Hokusai II' (jawiki only, 2nd-generation artist) and was NOT used. SLUG CHECK: no data-pipeline/candidates/katsushika-hokusai.json and no public/portraits/*hokusai* existed beforehand; grep -ril hokusai in src/data/people/*.ts found no person entry (no collision). CLASSIFICATION: occupations painter + artist (there is no printmaker or ukiyo-e id; the existing vocabulary has only painter/artist for visual artists, as for Monet); field art; impactDomains artistic/cultural; tags independent, innovator, nonconformist, craft_focused (all exist in en.ts); archetypes creative_creator, independent_creator (same as the Basho precedent). Region east_asia. ERA 19th_century: his documented career runs c.1779-1849 but every scored row rests on c.1800-1846 behaviour and the Fuji/Manga work is 1814-1835, following the Beethoven (1770-1827) precedent; matsuo-basho uses early_modern for a 17th-century life, which does not fit. nationalityCodes ['JP'] follows akira-kurosawa and Wikidata P27; matsuo-basho's empty list plus historicalPolityKey 'polity.tokugawa_shogunate' was considered, but that polity key has NO text in src/core/i18n/en.ts (only used in roster32.ts), so it is deliberately omitted here; lead may add it if the Basho precedent is preferred. EVIDENCE READ (6 substantive records + 1 self + 2 orientation): Revon 1896 (full life chapter, with the Iijima 1893 Katsushika Hokusai den and surviving-acquaintance testimony), Goncourt 1896 (Dutch scroll, Bakin, Uraga letters, fire, family, last years), Focillon 1914 (maturity, Bakin/Baiko, Uraga, famine, fire), Strange 1906 (full), the 1834 postscript via Holmes 1899 and Goncourt (SELF), and the 2020 Studio International interview with the British Museum's Tim Clark (full). All were downloaded with curl to the scratch folder and read locally (OCR text of the French books is noisy; passages were read in context and page numbers are Revon/Goncourt/Focillon print pages). PERSPECTIVES: (1) Revon, a Tokyo-based scholar relaying Japanese witnesses and Iijima 1893 (witnesses were friends and pupils of Hokusai, collected 1890s, 40+ years after his death: friendly, late recollection); (2) Goncourt, a French collector-critic (admiring, partly dependent on Hayashi/Bing/Gonse documents); (3) Clark, a modern curator drawing on current scholarship and the drawings themselves (independent of the nineteenth-century tradition); (4) Focillon, critical synthesis, explicitly harsher about Hokusai's temper and Bakin's pedantry (adversarial-leaning); (5) Strange, English compilation (NOT independent: it summarises Goncourt, Revon and the Japanese life, and relays Japanese critics' low ranking of Hokusai); SELF: the 1834 postscript. Honest count: 3 clearly independent perspectives (Revon+witnesses, Goncourt, Clark) plus Focillon as a critical re-reading; much of the 19th-century material rests on one Japanese tradition (Iijima 1893 and the Kaigashoshi/Ukiyoe ruiko compendia), so no row is above 0.70 and no score is above 82. EPISODE LEDGER (each episode supports at most two rows): Shunsho break/Kano -> independent_thinking, experimentation; 1810 Torii-style theatre bill -> independent_thinking, creative_originality; Tsugaru lord, door notice, flea visit -> autonomy_need; Bakin quarrels and Baiko -> conflict_tolerance; Shunko insult and Buncho contest and Toyokuni retort -> competitiveness; 1787-88 poverty and vow, stroke, famine, fire -> persistence (famine and fire also resourcefulness); daily sketching, brazier routine -> discipline; deathbed words, serial schools, Clark on late work and the 1834 postscript -> mastery_orientation; block-cutter insistence and Uraga engraving instructions -> perfectionism; Kokan, journeys, Great Picture Book -> curiosity; blots/brush stunts, Clark on perspective and Prussian blue -> experimentation, creative_originality. EXCLUDED ON PURPOSE: fame, the Great Wave's later reception and Japonisme (not scored); number of names (c.30) and moves (93 per Goncourt/Holmes; 56 by age 75 per Revon) as counts, used only as context; shunga and erotic work (not scored); his illness (stroke c.1828-29, last illness) as trait evidence; his daughter Oi's role and family troubles (his son and grandson's misconduct) for any trait about parenting; the unexplained flight to Uraga (Revon lists four possible reasons, Focillon says creditors of his grandson; unresolved); the claim that he founded a lasting school (Strange: he did not). ROWS CONSIDERED AND NOT SCORED: deep_focus (the unopened pay envelopes and long drawing sessions are better explained by indifference to money and by routine already scored under autonomy and discipline; the mosquito-net story in Revon is about selling his net to buy Baiko a gift and then drawing through sleepless nights, not about concentration), planning_orientation (money chaos documented but a household trait not planning), collaboration (Bokusen at Nagoya, publishers, daughter: mixed and thin), impact_motivation and persuasiveness (rest on prefaces by friends), belief_updating (Shunko anecdote only plus the 1834 self-assessment), risk_tolerance, execution_speed (only compilers' summary judgements), social_assertiveness, leadership_drive. DATE CAUTIONS: Strange dates the Fuji series 1823-29; the modern dating is c.1830-32 (Clark, Wikipedia orientation). The date of Manga volume 1 is disputed (Dec 1812 per Strange's argument; autumn 1817 per Revon; 1814 per Clark and Wikipedia); the fire is 1839 in Goncourt, Revon and Strange. Hokusai's age at the 1834 postscript is given as 75 by East Asian reckoning (about 74 by Western). Goncourt and Revon differ on the date of death (10 May 1849 is used). NOT VERIFIABLE / LIMITS: the Metropolitan Museum Heilbrunn essay (Vercel checkpoint, HTTP 429), the British Museum collection/blog pages (HTTP 403), Britannica (403), the Smithsonian asia.si.edu pages (403/bot wall) were not accessible and were not bypassed; Iijima's Katsushika Hokusai den (1893) and Hokusai's own letters were read only as quoted by Revon, Goncourt and Focillon; Smith College's student blog was read and rejected (wrong birth year). Modern English scholarship (Clark's Late Hokusai, Thompson/MFA, Lane, Michener, Forrer) is lending-restricted and was not accessible; Clark's interview is the only modern scholarly voice. PORTRAIT: Wikidata P18 'Hokusai as an old man.jpg' = Smithsonian National Museum of Asian Art (Freer Gallery) F1904.282, 'Hokusai as an old man', woodblock print, ink on paper, 54 x 25.5 cm, gift of Charles Lang Freer (bought from the dealer Kobayashi Bunshichi in 1904; Freer record cites the Original Album List, 'Sketches by Hokusai'). Verified: (a) the Smithsonian Open Access API record (api.si.edu, DEMO_KEY search q=F1904.282) lists 'Restrictions & Rights: CC0' and media usage CC0, date '1760-1849', Edo period, topic portrait/elder, and names no maker; (b) the Commons file page (File:Hokusai as an old man.jpg) shows {{cc-zero}}, source asia.si.edu/object/F1904.282/, creator template broken, and a category calling it a self-portrait, which the Smithsonian record does NOT say; (c) the image itself (downloaded from Commons at 4200 x 8717) carries a woodblock colophon which I read as 'Meiji 33 nen hachigatsu sei, Tokyo, Kobayashi Bunshichi zohan' = made August Meiji 33 (1900), Tokyo, blocks held by Kobayashi Bunshichi. So this is a 1900 reproduction print published 51 years after Hokusai's death, after an earlier image of him (possibly a self-portrait: Focillon p.94 says the old Hokusai drew himself in a drawing the collector Vever gave to the Louvre, but I could not connect this print to that drawing), and therefore kind = historical_depiction, date 1900. The asia.si.edu object page itself was bot-blocked (HTTP 403) and ids.si.edu rejected the download, so the rights statement was read from the Smithsonian API record rather than the page; the Commons copy was used for the pixels. Both Hokusai (d. 1849) and a 1900 print by an unnamed block-maker/publisher are in any case old enough to be public domain in Japan and the US. Downscaled from 4200x8717 to 771x1600 (JPEG q85, LANCZOS), saved as public/portraits/katsushika-hokusai-freer-1900.jpg and viewed: a standing old man in a check-pattern robe leaning on a long staff, plain buff ground, colophon at lower left. Identity rests on the museum title and the Wikidata P18 link. NOTE: Wikipedia and Wikidata were used for orientation only; no scored row rests on them. LEAD REVIEW: mastery_orientation corrected downward 82/0.70 -> 80/0.66 (rubric correction B, applied before any eligibility computation)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/katsushika-hokusai-freer-1900.jpg",
+    "width": 771,
+    "height": 1600,
+    "source": "Smithsonian National Museum of Asian Art (Freer Gallery of Art), F1904.282 'Hokusai as an old man', woodblock print, gift of Charles Lang Freer; copy via Wikimedia Commons",
+    "license": "CC0 1.0 Universal (Public Domain Dedication)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Woodblock print depicting Hokusai as an old man, printed in Tokyo in August 1900 (Meiji 33, per the colophon; blocks held by Kobayashi Bunshichi), 51 years after his death; maker of the earlier image not stated by the museum. National Museum of Asian Art, Smithsonian Institution, F1904.282, CC0.",
+    "attributionUrl": "https://asia.si.edu/object/F1904.282/",
+    "creator": "Unnamed; print published by Kobayashi Bunshichi (Tokyo), after an earlier image of Hokusai",
+    "date": "1900",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hokusai_as_an_old_man.jpg"
+  }
+}

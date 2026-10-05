@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "george-westinghouse",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "George Westinghouse",
+    "wikidataId": "Q262367",
+    "birthYear": 1846,
+    "deathYear": 1914,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "entrepreneur",
+      "engineer"
+    ],
+    "fieldIds": [
+      "business",
+      "technology",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_westinghouse_wikidata",
+      "kind": "wikidata",
+      "title": "George Westinghouse (Q262367) -- verified live via wbgetentities (2026-10-04): en label 'George Westinghouse', description 'American inventor and businessman (1846–1914)', P569 6 Oct 1846, P570 12 Mar 1914, citizenship United States (Q30), instance of human, ko label '조지 웨스팅하우스', P18 'George Westinghouse.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q262367"
+    },
+    {
+      "id": "src_westinghouse_wikipedia",
+      "kind": "wikipedia",
+      "title": "George Westinghouse -- Wikipedia article (and the William Kemmler article), read as orientation only; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/George_Westinghouse"
+    },
+    {
+      "id": "src_westinghouse_prout1921",
+      "kind": "biography",
+      "title": "Henry G. Prout, A Life of George Westinghouse (New York: American Society of Mechanical Engineers, 1921), Internet Archive full text (lifegeorgewest00prourich) -- INSIDER, ADMIRING official biography written for an ASME committee with Westinghouse's brother Henry Herman Westinghouse 'always in consultation'; Prout was himself a long-time Westinghouse company officer and writes as a participant ('the writer'). Read locally: Ch. I (introduction), Ch. II (air brake, in part: first trains, 1875 court finding, Burlington trials 1886-87, quick-action valve), Ch. IV (electric activities, to the Gaulard-Gibbs development), Ch. V (Tesla motor), Ch. VII (Chicago World's Fair), Ch. VIII (Niagara), Ch. XIII (natural gas, in part), Ch. XVI (finance, 1907-08 reorganization, Equitable Life) and Ch. XVII (personality, relations with employees) in full. Its evaluative praise is not used as evidence; it also states plainly that he was not an inventor of fundamentals in electricity and records his scrap-heap errors.",
+      "url": "https://archive.org/details/lifegeorgewest00prourich"
+    },
+    {
+      "id": "src_westinghouse_leupp1918",
+      "kind": "biography",
+      "title": "Francis E. Leupp, George Westinghouse: His Life and Achievements (Boston: Little, Brown, 1918/1919), Internet Archive full text (georgewestinghou00leuprich) -- journalist's biography prepared with the cooperation of Westinghouse's family and associates (the preface says doubtful passages were submitted to people who knew the facts), admiring in tone but narrative and anecdotal; includes passages on the 1890 and 1907 financial crises and the Kemmler episode. Read locally: Ch. VI (English brake trials 1871-75), Ch. X-XII (contest of the currents, New York campaign and Kemmler, Chicago lighting contract and stopper lamp, 1890 financial crisis) and Ch. XV (the 1907 failure and 1908 reorganization).",
+      "url": "https://archive.org/details/georgewestinghou00leuprich"
+    },
+    {
+      "id": "src_westinghouse_adams1927",
+      "kind": "archive",
+      "title": "Edward Dean Adams, Niagara Power: History of the Niagara Falls Power Company 1886-1918 (privately printed, 1927), Internet Archive full text (niagarapowerhist0002adam), chapter on the Westinghouse Electric and Manufacturing Company and George Westinghouse -- CLIENT-SIDE, non-insider account by the president of the Cataract Construction Company that placed the Niagara generator contract; documentary and company-history in style, favourable to Westinghouse's technical work but not written by his company. Read locally: the whole Westinghouse chapter, including the 1890 conversation with Adams about pneumatic transmission, Westinghouse's refusal to enter the Niagara commission's competition, the December 1892 offer and the 1893 contract.",
+      "url": "https://archive.org/details/niagarapowerhist0002adam"
+    },
+    {
+      "id": "src_westinghouse_moran1990",
+      "kind": "press",
+      "title": "Richard Moran (sociologist, Mount Holyoke College), 'The Strange Origin of the Electric Chair', Boston Sunday Globe, 5 August 1990, as reproduced on the New York Correction History Society site (Miskell, Executions in Auburn Prison, Appendix B) -- INDEPENDENT scholarly account (the author later wrote the book Executioner's Current, 2002), critical of the Edison-side campaign; read in full. Used for the 1888-90 Harold P. Brown controversy: Brown's public challenge, Westinghouse's refusal, the refusal to sell generators.",
+      "url": "https://correctionhistory.org/auburn&osborne/miskell/html/auburnchair_moran.html"
+    },
+    {
+      "id": "src_westinghouse_obit1914",
+      "kind": "press",
+      "title": "Obituary and notices of George Westinghouse, The Times-Dispatch (Richmond, Va.), 13 March 1914, p. 1, and The Milwaukee Leader, 13 March 1914, p. 16, Library of Congress Chronicling America OCR text -- period press (wire-service obituary and a notice of the Westinghouse employees' memorial holiday) written the day after his death; the OCR is partly garbled and was read only for the dated facts used (the Saturday half-holiday, the 1907 receivership and reorganization, the loss of control, the 50,000-employee holiday).",
+      "url": "https://www.loc.gov/resource/sn85038615/1914-03-13/ed-1/?sp=1"
+    },
+    {
+      "id": "src_westinghouse_ethw",
+      "kind": "institution",
+      "title": "Engineering and Technology History Wiki (IEEE/ETHW), 'George Westinghouse' biography page -- institutional overview (read in full): role in spreading alternating current, the Tesla patents, the 1893 Exposition and Niagara, the loss of financial control before his death, the 1911 Edison Medal.",
+      "url": "https://ethw.org/George_Westinghouse"
+    },
+    {
+      "id": "src_westinghouse_pbs_tesla",
+      "kind": "institution",
+      "title": "PBS, Tesla: Master of Lightning, 'Harnessing Niagara' page -- public-broadcaster overview centred on Tesla (read in full): the international Niagara commission, the late-1893 contract, first power to Buffalo in November 1896, and the Tesla royalty story (legendary in detail; not used for any scored row).",
+      "url": "https://www.pbs.org/tesla/ll/ll_niagara.html"
+    },
+    {
+      "id": "src_westinghouse_kemmler_page",
+      "kind": "institution",
+      "title": "The Westinghouse Legacy (heritage website), 'The Appeals of William Kemmler' (David Bear) -- a company-heritage page that mainly reproduces 1890 New York Times clippings as images; read only for the fact that the Times of 4 May 1890 published a letter from Westinghouse about the electric-chair apparatus and discussed whether he had hired Kemmler's lawyer. The clipping images were not readable; not used for any scored row.",
+      "url": "https://www.thewestinghouselegacy.org/archives/theappealsofwilliamfranciskemmler"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_leupp1918, src_westinghouse_adams1927 | 1871-1913 | insider biography + family-assisted biography + client-side company history + trade-press editorial quoted by Prout] Several separately dated efforts carried through setbacks. (1) England 1871-75: the managing director of a major railway refused to read his pamphlet or lend rolling stock; he asked to buy a train instead, got trial runs in 1872 (LNWR, Caledonian) and the first adoption by the Metropolitan District Railway only in January 1873, and still met cost objections after the 1875 official trials (Leupp). (2) Burlington brake trials: the committee reported adversely in 1886; the quick-action triple valve patented in March 1887 produced even worse shocks in the May 1887 trials and the committee favoured electrically operated valves; Westinghouse then reworked the valve to stop a fifty-car train without shock using air alone within months, while a friendly trade editor wrote that probably only one engineer living believed it possible (Prout, quoting the editorial). (3) Alternating current: from 1885 he kept the system going through the failure of the Stanley alternating arc lamp, the 133-cycle single-phase dead end for motors and a 1890-92 capital shortage that slowed polyphase work (Prout), until the 1893 Niagara award, which Adams says 'justified the long effort he had made'. (4) The atmospheric-heat power scheme pursued 1900-1913 after Kelvin, Dewar and MacAlpine rejected it (Prout). Four distinct episodes from three perspectives; kept below 80 because the Burlington and AC material is largely insider and the last episode is also used for independent_thinking."
+    },
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_leupp1918, src_westinghouse_obit1914 | 1890-1907 | insider biography + family-assisted biography + period obituary] He staked his own resources on his enterprises repeatedly. Prout: he 'several times imperilled his fortune and his credit by investing practically his entire fortune in his enterprises when others lacked the faith to invest', borrowing against his holdings to fund new ventures. Leupp: in the 1890 crisis he offered Pittsburgh bankers a mortgage on his Homewood estate for a $500,000 loan, and in October 1907 he and one or two other large holders had to take up most of a failing stock issue between them. In April 1892 his company took the Chicago fair lighting contract at $5.25 per light against General Electric-group bids of $13.98-$18.51, which 'not a few of his friends' judged a 'reckless dive in the dark' and which lost money directly (Leupp; Prout). Prout names the same financing method as the cause of the 1907 receivership (debt about $43 million) and records bankers saying he 'did not think enough about his reserves'; the 1914 wire obituary says he suffered severely in the panic. dual_edged because the pattern funded the AC programme and later cost him control. Documented and consistent across sources; kept below 80 as the sources are insider-dominant."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_adams1927 | 1885-1913 | insider biography + client-side company history] Repeated decisions against prevailing expert opinion. Prout: when he took up the Gaulard-Gibbs transformer in 1885 the technical journals that noticed it were hostile and even his patent expert Pope first expected it to fail (Pope's 1887 testimony quoted); in 1890 his engineers built a large slotted-armature direct-current railway generator after high authorities in Europe and America called it impossible, and it succeeded. Adams records that in 1890 he told the Niagara company's president that alternating current would be the only economical electrical system while the Niagara commission's preference was still for direct current (the preference is in Prout), and that he stayed out of the commission's 1890 competition on his own reading of its value. The Kelvin episode shows the same independence aimed at settled physics: after Kelvin's cable and letters (late 1900), Dewar (Nov 1901) and MacAlpine (c.1904) all told him his atmospheric-heat power scheme could not work, he answered that Kelvin's paper 'did not meet the case', and Prout records references to it as late as 1913 and says he 'accepted nothing on a great name'. Several documented instances, two perspectives; dual_edged because one case was demonstrably mistaken."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_leupp1918, src_westinghouse_obit1914 | 1888-1911 | insider + family-assisted biography + period obituary] Prout: in 1890 a group of bankers offered to lend to the Electric Company if they could name the general manager and 'their offer was rejected without discussion'; told by a European company's board that policy was the board's privilege, he replied that it was his privilege to say who sat on the board (he voted a majority of the stock); 'he would not give up control to any man or group of men'; and 'whether he was determined or just obstinate depends upon your point of view'. Leupp calls him 'substantially a dictator' in the management of the companies he founded. Prout also records an acting general superintendent's 1888 complaint that Westinghouse reserved the right to give orders to foremen over the superintendent's head. The 1914 obituary says control of the company passed to bankers after 1907, and Prout dates the end of his attempts to recover control to 1911. Two or more distinct episodes in two biographies plus the obituary, all insider or insider-leaning, so strong_inference at 0.60. dual_edged: it kept his strategy intact for two decades and left him exposed in 1907."
+    },
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_leupp1918, src_westinghouse_adams1927, src_westinghouse_ethw | 1883-1892 | insider + family-assisted biography + client-side company history + institutional overview] Several dated moves into new fields before others committed. Natural gas: no active interest until late 1883, in full operation by mid-1884, with a Pittsburgh associate saying he was the only man in the business who 'sized up the situation' (Prout; Leupp). Alternating current: on Pantaleoni's report he accepted the Gaulard-Gibbs option in principle in 1885 and in early 1886 sent Pope and Pantaleoni to buy the US rights ('Whatever it is, close the bargain'; $50,000, Leupp); within about two months of Tesla's motor patents issuing on 1 May 1888 he secured an assignment of exclusive rights on 7 July 1888 (Prout; Adams and ETHW confirm the acquisition). Chicago 1892: Leupp and Prout both say he took a loss-making bid for its advertising value. Scored from the timing and form of each move, not from the later success of alternating current; kept at 0.62 because the supporting accounts are insider or family-assisted."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_leupp1918 | 1865-1913 | insider biography + family-assisted biography] Prout: he returned for decades to a rotary steam engine (first patent 31 Oct 1865) as a favourite 'plaything', once working at it in a frock coat between a board meeting and a reception; in December 1883 he contracted to drill for gas in his own garden and, after a small first yield, kept on, 'scheming new drilling tools' in the evenings (Prout; Leupp covers the natural-gas work); his response to Burlington was repeated testing and redesign of the triple valve (Prout); he built the first large slotted-armature generator against expert advice (Prout); and in 1900-1913 he built and tested heat-and-power apparatus that Kelvin said could not work, calling it 'in a measure, a pastime' (Prout). Prout describes a large 'scrap heap' of failed experiments and says he treated a law as unproven until he had seen the proof. Several distinct dated cases from two biographies, both insider-leaning, so strong_inference."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_leupp1918 | 1887-1892 | insider biography + family-assisted biography] After the court in the Edison lamp case refused to require a licence, Westinghouse's engineers (already working on a two-piece lamp) produced the 'stopper' lamp, he set up a glass factory in Allegheny and designed grinding and exhaust apparatus, and about 250,000 lamps were made in a few months so the fair opened on time, although the lamps held vacuum poorly and had to be renewed often (Prout); Leupp adds that he went to the glass works daily to instruct the operators. At the 1887 Burlington trials, when the new valve failed, an electric vent-valve fallback already on hand kept his brake in contention, although he himself distrusted electrical operation for freight cars (Prout). On 23 December 1892 he noticed from an overheard remark that an Edison counsel was in Pittsburgh and had his lawyers in court the next morning (Leupp; Prout tells it more briefly). Prout also reports an associate's account of his improvising solutions to French railway engineers' requests. Several episodes, two insider-leaning perspectives."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_leupp1918 | 1890-1908 | insider biography + family-assisted biography] Prout: his 'frank and genial manner' and arguments won the Chicago exposition committee, after he had first won the Chicago newspapers, for a bid it had previously refused to consider; the banker Jacob Schiff reportedly declined to meet him because 'he would persuade me' (a relayed anecdote); and Paul Cravath is quoted crediting his 'power to influence men' in raising money in two crises. Leupp: in the 1890 crisis one Pittsburgh banker told a friend he dared not face Westinghouse for fear of granting a loan he would regret, yet the bankers who attended oversubscribed the $500,000 within a short time. In 1908 he devised and carried the merchandise creditors' plan, which required suppliers to take stock in settlement (Prout; Leupp). Several instances, but the testimony comes from his own associates and counsel, hence strong_inference at 0.58."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_leupp1918, src_westinghouse_adams1927 | 1881-1908 | insider + family-assisted biography + client-side company history] He repeatedly took the head of the enterprises he founded and gathered young engineers around him: Prout describes the Electric Company as a 'postgraduate school' with Westinghouse as 'dean', the Amber Club of young engineers that he funded for a time and visited, and his remark 'I believe in young men for a new business'; Adams quotes his engineer Lewis Stillwell saying the Niagara alternator work was 'directed and inspired by Mr. Westinghouse, who kept very closely in touch with every important development'; Leupp calls him 'substantially a dictator' in the management of his companies. Prout also records mis-hiring and a loyalty that kept unfit men, and his going over a superintendent's head (1888). Documented from three accounts but none is adversarial on leadership style (the Stillwell remark is a subordinate's), so kept at 0.58 as strong_inference. dual_edged because the same centralisation is described as a drawback."
+    },
+    "execution_speed": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_leupp1918 | 1885-1893 | insider biography + family-assisted biography] Prout: the essential conceptions of a workable transformer were formed 'within about three weeks -- from December 1 to December 20, 1885' after the Gaulard-Gibbs apparatus arrived in Pittsburgh; the quick-action valve was patented in March 1887 and reworked for later trials within months; after the Chicago contract and the lamp ruling a glass factory and equipment to make about 250,000 lamps were created in 'a very few months' so that the fair opened on 1 May 1893 (Prout; Leupp). Several dated fast turnarounds, but all rest on insider narration, hence strong_inference. Patent counts were deliberately not used."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_adams1927 | 1880-1893 | insider biography + client-side company history] Prout records that he insisted on uniform, interchangeable brake designs ('this instinct for standardizing was a fundamental thing in the nature of Westinghouse') and told his Pittsburgh staff very early that a standard frequency mattered 'in the same sense that a standard railroad gage is important', which led to the 60- and 30-cycle standards chosen by the end of 1892; the policy of pushing polyphase generators and circuits so that demand for induction motors would follow is told as a conference decision with his engineers. Prout and Adams both describe the 1893 Chicago exhibit as a complete generator-to-motor power system (generation, transformation, transmission, induction and synchronous motors, rotary converter) on a working scale. At least two distinct design-level decisions (standardisation, frequency), mostly from Prout, with Adams corroborating the integrated exhibit; kept at 66 and 0.52."
+    },
+    "belief_updating": {
+      "score": 50,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_westinghouse_prout1921, src_westinghouse_adams1927 | 1890-1913 | insider biography + client-side company history] Mixed. Updating: Adams records that in 1890 he told the Niagara president that pneumatic transmission to Buffalo was probably cheaper and likely to be adopted; Prout says the 1890 Telluride plant and the late-1892 rotary-converter tests 'definitely changed his mind' toward electrical (alternating-current) transmission. Not updating: from late 1900 he kept pursuing the atmospheric-heat power scheme against Kelvin, Dewar and MacAlpine (Prout, references as late as 1913), and Prout says he 'sometimes rejected advice and opinion to his own serious loss'. The evidence points both ways, and the change of mind rests on Prout's account; left at the unremarkable midpoint with low confidence (rubric section 5)."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_westinghouse_moran1990, src_westinghouse_leupp1918, src_westinghouse_prout1921 | 1888-1890 | independent scholarly account + family-assisted biography + insider biography] In the 1888-90 controversy over alternating current Moran reports that Westinghouse attacked the scientific validity of Harold P. Brown's animal experiments and pointed out that Brown was employed by Edison, refused to sell Brown generators for the first electric chair, and declined Brown's published challenge to a duel of currents; Leupp says he replied in print to Edison ('A Reply to Mr. Edison', North American Review, 1889), kept his indignation over the Kemmler apparatus 'under strong control' and gave reporters who tried to draw him into personal attack only mild replies. On the boardroom side Prout has him sitting 'unmoved' while every director opposed him. He engaged but did not escalate; the evidence is a handful of episodes mainly from one contest, and the later 'funded Kemmler's appeal' claim is contested between Moran and Leupp so it is NOT used. Moderate lean only."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조지 웨스팅하우스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-04) for Q262367 returned en label 'George Westinghouse', description 'American inventor and businessman (1846–1914)', P569 6 Oct 1846, P570 12 Mar 1914, citizenship United States (Q30), instance of human (Q5), occupations Q131524 and Q205375, place of birth Q12156499, place of death Q60 (New York City), ko label '조지 웨스팅하우스', P18 'George Westinghouse.jpg'. This is the intended person (not George Westinghouse III and not a school or company entity). SLUG CHECK: no data-pipeline/candidates/george-westinghouse.json and no public/portraits/*westinghouse* existed before this run; grep of src/data/people/*.ts found Westinghouse only inside comments in the Tesla and Edison entries (roster2.ts, roster3.ts, editorial.ts); no production collision. CLASSIFICATION: occupations inventor, entrepreneur, engineer; fieldIds business, technology, engineering (as thomas-edison.json and henry-ford.json); impactDomains technological/industrial/entrepreneurial; tags innovator/founder; archetypes technical_innovator and entrepreneurial_builder (all existing ids). ERA: 19th_century, matching thomas-edison.json and nikola-tesla.json, because the documented career (air brake 1869, AC 1885-1893) runs 1865-1907 and every scored row rests on 1871-1913 behaviour. Region north_america, nationality US. EVIDENCE READ (10 source records: 2 orientation, 8 substantive or institutional (Prout, Leupp, Adams, Moran, period press, ETHW, PBS, and the thin Westinghouse Legacy page)), fetched with curl and read locally: Prout, A Life of George Westinghouse (ASME 1921; Ch. I, II in part, IV, V, VII, VIII, XIII in part, XVI, XVII); Leupp (1918; Ch. VI, X-XII, XV and passages of Ch. III and XIX); Adams, Niagara Power (1927; the Westinghouse chapter); Moran 1990 via correctionhistory.org; the 13 March 1914 Chronicling America obituary and notices (OCR); the ETHW biography; the PBS Tesla Niagara page; the Westinghouse Legacy Kemmler page (headings only). The Wikipedia raw text of George Westinghouse and William Kemmler was opened as orientation. NOT AVAILABLE OR NOT READ: Jonnes, Empires of Light (2003) and Skrabec's Westinghouse biography are lending-restricted and were not read; the Rutgers Edison Papers pages (Brown and Westinghouse letters, Dec 1888) sit behind a JavaScript bot wall and were not bypassed; the Business History Review article on Harold P. Brown was not accessible; Smithsonian and Heinz History Center institutional pages were seen only as search results and are not cited. No labour-critical source was found: the labour-relations material (Saturday half-holiday of 1 June 1881, retention of workers in the 1892 panic, open shop, the 1906 pension scheme) comes from Prout and the 1914 notices only and was therefore NOT scored. PERSPECTIVES: (1) Prout, INSIDER/ADMIRING (ASME official biography, author a company officer, brother consulted); it states his limits (not an inventor of fundamentals in electricity; scrap heap; mis-hiring) and quotes an English reviewer who called Westinghouse more a manufacturer than an inventor (the only critical voice found, quoted by Prout); (2) Leupp, family- and associate-assisted journalist biography, admiring but narrative; it also reports that no regular stockholders' meeting was held 1897-1906; (3) Adams 1927, CLIENT-SIDE NON-INSIDER (president of the company that awarded the Niagara contract), independent of Prout on the Niagara refusal and the 1890 pneumatic view; (4) Moran 1990, INDEPENDENT academic account of the Brown/Edison campaign (critical of the Edison side); (5) period press obituary (LOC) as a dated independent check on the half-holiday, the 1907 failure and the loss of control; (6) ETHW and PBS institutional overviews (achievements only). No SELF source was read directly; his quoted letters and remarks come through Prout, Leupp and Moran. Independent perspectives counted: Adams, Moran, period press (3). NON-SELF BEHAVIOURAL sources: Prout, Leupp, Adams, Moran. EPISODE USE: England 1871-75 and the Burlington trials 1886-87 -> persistence (Burlington electric-vent fallback also resourcefulness); the Chicago 1892 bid and stopper lamp -> risk_tolerance (bid), resourcefulness (lamp and Dec 1892 court), execution_speed (factory) and opportunity_sensing (advertising value) -- the same event feeds four rows, which is the main independence limit; Dec 1885 transformer work -> execution_speed; Gaulard-Gibbs purchase and Tesla assignment -> opportunity_sensing; natural gas 1883-84 -> opportunity_sensing and experimentation; the 1890 financial crisis and bankers' control offer -> autonomy_need, risk_tolerance, persuasiveness; the 1907-08 receivership and merchandise creditors' plan -> risk_tolerance and persuasiveness; the Kelvin, Dewar and MacAlpine atmospheric-heat scheme -> independent_thinking, persistence, experimentation and belief_updating (counter-evidence); Niagara refusal and the Telluride change of mind -> independent_thinking and belief_updating; frequency and standardisation -> systems_abstraction; the Brown challenge, 'A Reply to Mr. Edison' and the refusal to sell generators -> conflict_tolerance only. ROWS CONSIDERED AND LEFT UNSCORED: creative_originality (Prout says he was not an inventor of fundamentals in electricity and the 1875 court said he was not the first to conceive the air brake; his 360-odd patents are an output count and were not used); planning_orientation (bankers' complaint about reserves and 10 per cent dividends against the 1891 lamp precaution and Niagara patience are mixed); impact_motivation, collaboration and discipline (welfare measures, family spirit and temperance come from Prout alone, and Prout says it was not conscious altruism; he says the 1906 pension scheme was originated by John F. Miller); detail_orientation, deep_focus and curiosity (Prout generalisations about memory and concentration without dated episodes); social_assertiveness, decisiveness, adaptability, achievement_drive and competitiveness (would rest on outcomes or on episodes already used). EXCLUDED ON PURPOSE: fame, wealth, patent counts and number of companies; Civil War service as a youth; marriage and family; religious views; honours (Edison Medal 1911, Grashof medal); his 1905 Equitable Life trusteeship. CONFLICTS REPORTED, NOT ADJUDICATED: (a) Kemmler's appeal: Moran writes that Kemmler's lawyers were 'paid for by Westinghouse'; Leupp says there was 'never a shadow of evidence' and that Westinghouse denied it; the Westinghouse Legacy page lists a 4 May 1890 letter by him to the New York Times; the lead's hint that he 'funded Kemmler's appeal' is therefore contested and is not stated as fact in any row or editorial text; (b) Chicago bid dates: Prout gives 23 May 1892 for the contract and says Westinghouse first refused to bid, Leupp says bids were opened in April 1892 and records the $5.49 Locksteadt bid and Westinghouse's $5.25; (c) the Niagara contract: Prout and Adams say October 1893 (Adams: first contract 20 October 1893), Adams also cites a letter of invitation of 10 August 1893; (d) first power to Buffalo is 15 or 16 November 1896 (Adams, PBS); (e) the Tesla royalty waiver is legend-laden: Prout does not mention it and the PBS Tesla page tells the 'torn contract' story, so it was NOT used. CALIBRATION: 13 rows, scores 50-78, confidence 0.42-0.66 (only persistence at 0.66), nothing at or above 85 or 0.72. strong_inference rows rest on two or more distinct dated episodes narrated mainly by insider or family-assisted sources. No eligibility, coverage or match output was computed or used in scoring. PORTRAIT: Wikidata P18 'George Westinghouse.jpg' (Commons). Commons wikitext read: Information template, Source Library of Congress Prints and Photographs Division (hdl.loc.gov/loc.pnp/cph.3b39671), call number 'BIOG FILE - Westinghouse, George, 1846-1914', Author Joseph G. Gessford, Date between 1900 and 1914, Permission PD, license {{PD-US}}; the Commons file is 1013x1494. Upstream check: LOC Prints and Photographs record 93511337 (reproduction number LC-USZ62-93492), title '[George Westinghouse, half-length portrait, facing front]', creator Gessford, Joseph G., 'Portrait photographs--1900-1920', created/published '[between 1900 and 1914]', note 'Copyright by Gessford.', rights information 'No known restrictions on publication.' Basis: a photographic print published between 1900 and 1914 (the copyright note shows a published, notice-bearing print), so US public domain by publication before 1931 (95 years from the latest possible date ran out in 2009), independently of LOC's 'no known restrictions' statement; a studio portrait of the sitter, so a likeness. Caveats: Gessford's lifespan and the exact year were not verified, and the print is dated only to a 14-year range (Historic Pittsburgh suggests c.1906, not verified), so the filename uses the range. I downloaded the LOC master TIFF (tile.loc.gov .../3b39671u.tif, 1073x1536 grayscale), converted it to JPEG q85 with Pillow, with no resize and no crop, and viewed it: a half-length portrait of an older man with white hair and a large white moustache in a bow tie and dark suit, consistent with the sitter. Saved as public/portraits/george-westinghouse-loc-1900-1914.jpg. KOREAN NAME: '조지 웨스팅하우스' is the Wikidata ko label."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/george-westinghouse-loc-1900-1914.jpg",
+    "width": 1073,
+    "height": 1536,
+    "source": "Library of Congress Prints and Photographs Division, BIOG FILE - Westinghouse, George, 1846-1914 (LC-USZ62-93492; hdl.loc.gov/loc.pnp/cph.3b39671), via Wikimedia Commons 'George Westinghouse.jpg'",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US",
+    "attribution": "Joseph G. Gessford, 'George Westinghouse, half-length portrait, facing front', photographic print, between 1900 and 1914; Library of Congress Prints and Photographs Division (LC-USZ62-93492), no known restrictions on publication",
+    "attributionUrl": "https://www.loc.gov/pictures/item/93511337/",
+    "creator": "Joseph G. Gessford",
+    "date": "between 1900 and 1914",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:George_Westinghouse.jpg"
+  }
+}

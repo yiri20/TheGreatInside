@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "johannes-brahms",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Johannes Brahms",
+    "aliases": [
+      "Brahms"
+    ],
+    "wikidataId": "Q7294",
+    "birthYear": 1833,
+    "deathYear": 1897,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "craft_focused",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_brahms_wikidata",
+      "kind": "wikidata",
+      "title": "Johannes Brahms (Q7294) -- verified live via wbgetentities (2026-10-04): en label 'Johannes Brahms', description 'German composer (1833–1897)', P569 7 May 1833 (a second, conflicting 1834 value is also listed), P570 3 Apr 1897, instance of human, ko label '요하네스 브람스', kowiki sitelink present, P18 'JohannesBrahms.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7294"
+    },
+    {
+      "id": "src_brahms_wikipedia",
+      "kind": "wikipedia",
+      "title": "Johannes Brahms (English Wikipedia) -- orientation only; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Johannes_Brahms"
+    },
+    {
+      "id": "src_brahms_may_vol1",
+      "kind": "biography",
+      "title": "Florence May, The Life of Johannes Brahms, vol. I (London: Edward Arnold, 1905), Project Gutenberg #40643 -- PUPIL-BIOGRAPHER perspective (non-self; May knew Brahms personally as a piano pupil; admiring and insider-leaning, but it prints his letters and the contemporary press including hostile reviews). Read locally: the withdrawal of the string quartet and the 1853-55 self-criticism, the 1855-59 years of study with the counterpoint exercises exchanged with Joachim and the list of early-music books he collected, the Leipzig concerto performance of 27 Jan 1859 with Brahms's letter to Joachim and Bernsdorf's review, the 1860 manifesto against the New German school (full text and the Leipzig parody), the Detmold years and his August 1860 refusal to return, and the account of Marxsen's letters.",
+      "url": "https://www.gutenberg.org/ebooks/40643"
+    },
+    {
+      "id": "src_brahms_may_vol2",
+      "kind": "biography",
+      "title": "Florence May, The Life of Johannes Brahms, vol. II (London: Edward Arnold, 1905), Project Gutenberg #40644 -- PUPIL-BIOGRAPHER perspective (non-self, admiring, quoting letters and period critics Hirsch, Schelle, Billroth, Hanslick, Dorffel and Bernsdorf). Read locally: the 1862-63 Hamburg Philharmonic matter (Joachim's letter of 31 Jan 1863) and the 1867 second passing-over, the Vienna Singakademie post of 1863-64 and his resignation, the first Vienna performance of three movements of the German Requiem on 1 Dec 1867 with the hostile reviews and Billroth's letter, the Bremen Cathedral performance on 10 Apr 1868, the 1872-75 Gesellschaft concerts and his giving up the post, the first Symphony (Karlsruhe, 4 Nov 1876) and the later symphonies, the Violin Concerto of 1879, the destroyed violin sonatas, the state-stipend committee and his support of Dvorak and other young composers, and the 1892 refusal of festival performances for his birthday.",
+      "url": "https://www.gutenberg.org/ebooks/40644"
+    },
+    {
+      "id": "src_brahms_henschel",
+      "kind": "biography",
+      "title": "George Henschel, Personal Recollections of Johannes Brahms: Some of His Letters to and Pages from a Journal Kept by George Henschel (Boston: Richard G. Badger, 1907), Internet Archive Google-scan OCR -- FRIEND/EYEWITNESS perspective (non-self, admiring; Henschel was a singer-conductor who toured with Brahms in 1875-76 and kept a pencil journal at the time). Read locally: the 1875 Vienna Gesellschaft farewell, the February 1876 Munster and Coblence concerts including Brahms practising alone before the concert, the train conversation about hard work and invention, the July 1876 Rugen journal, Kalbeck's note on Brahms and Wagner, and Henschel's closing character summary with Franz Wullner's tribute.",
+      "url": "https://archive.org/details/bub_gb_BfsLAQAAIAAJ"
+    },
+    {
+      "id": "src_brahms_dietrich_widmann",
+      "kind": "biography",
+      "title": "Albert Dietrich and J. V. Widmann, Recollections of Johannes Brahms, trans. Dora E. Hecht (New York: Charles Scribner's Sons, 1899), Internet Archive OCR -- FRIEND/EYEWITNESS perspectives (non-self, admiring): Dietrich, a composer who knew Brahms from Dusseldorf in 1853, and Widmann, a Swiss writer who saw him in 1886-97. Read locally: Dietrich's chapters on Brahms and Schumann (the joint F-A-E sonata of November 1853, 1862 Oldenburg letters) and Widmann's chapters on the opera question and the Thun summers (Brahms's rough manner toward pretension, his kindness to children and servants).",
+      "url": "https://archive.org/details/recollectionsofj017082mbp"
+    },
+    {
+      "id": "src_brahms_hadow",
+      "kind": "biography",
+      "title": "W. H. Hadow (Oxford), 'Johannes Brahms' in Studies in Modern Music, second series (London: Seeley and Co., 5th ed. 1904; essay first published in the Fortnightly Review), Project Gutenberg #39771 -- CRITIC-SCHOLAR perspective (non-self, a contemporary English musicologist, admiring but analytical). Read locally: section I 'Growth' on Brahms's training, the 1853 meeting with Joachim and Schumann, the years of private study 1855-58, and the 1859 Leipzig concerto and its reception.",
+      "url": "https://www.gutenberg.org/ebooks/39771"
+    },
+    {
+      "id": "src_brahms_ndb_riezler",
+      "kind": "institution",
+      "title": "Walter Riezler, 'Brahms, Johannes', Neue Deutsche Biographie 2 (1955), online at Deutsche Biographie (Historische Kommission bei der Bayerischen Akademie der Wissenschaften), read in German -- MODERN SCHOLARLY perspective (non-self, independent of the personal memoirs). Read: the biographical section (career, Detmold, Hamburg and Vienna posts, the 1860 manifesto, character) and the survey of the works including the destroyed early works, the long gestation of the first symphony and the 1891 revision of the B major trio.",
+      "url": "https://www.deutsche-biographie.de/gnd118514253.html"
+    },
+    {
+      "id": "src_brahms_tchaikovsky_research",
+      "kind": "institution",
+      "title": "Tchaikovsky Research, 'Johannes Brahms' (en.tchaikovsky-research.net), read in full -- ADVERSARIAL third-party perspective (non-self): documents Tchaikovsky's hostile 1872 review and 1886 diary entry about Brahms's music, Anna Brodsky's eyewitness account of the first meeting in Leipzig on 1 Jan 1888, Tchaikovsky's own report of Brahms's modesty, and Kashkin's memoir of the Hamburg lunch of 12 Mar 1889 where Brahms frankly said he did not like Tchaikovsky's Fifth Symphony. Used for behaviour only, never for judgments of the music.",
+      "url": "https://en.tchaikovsky-research.net/pages/Johannes_Brahms"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 80,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_brahms_may_vol1, src_brahms_may_vol2, src_brahms_ndb_riezler, src_brahms_henschel | 1853-1891 | pupil-biographer + modern scholarly entry + friend's journal, with Brahms's own words as recorded by the friend] Several separately documented acts of withholding or discarding his own work. In 1853 he withheld the string quartet that Schumann had recommended to Hartel (May I; May II dates this self-criticism to 'the young musician of twenty'). The NDB records that he destroyed several of the works he had shown Schumann, against Schumann's wish, and that he began a symphony in the 1850s but judged himself not yet equal to it and recast the material into a two-piano sonata and then the D minor piano concerto. May II records that of his violin sonatas the second and third 'were rejected after completion by the composer's relentless self-criticism, and the manuscripts destroyed by his own hand', and that the two string quartets Op. 51 were kept in his desk for some years before he finished them. The NDB adds that in 1891 he re-issued the youthful B major trio stripped of its formal weaknesses. In the train conversation of 26 Feb 1876 recorded by Henschel, Brahms says an inspiration is a gift he ought 'even to despise until I have made it my own by right of hard work', and Henschel closes with Franz Wullner's tribute to his 'relentless severity toward himself'. The NDB's further statement that about twenty earlier string quartets were destroyed is told only as hearsay ('wie man erzaehlt') and is NOT used. Independent corroboration from a modern scholar and a friend, many dated instances; dual_edged because the destroyed manuscripts are lost to us (May II). Kept below 85 because the destruction is known from biographers rather than from adversarial sources."
+    },
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brahms_may_vol1, src_brahms_hadow, src_brahms_may_vol2, src_brahms_henschel | 1855-1876 | pupil-biographer + critic-scholar + friend's journal] After his early success he withdrew from publication to re-train himself. May I: from 1855 'for a period of five or six years, he worked on without view to immediate publication'; Hadow says that after his appointment at Detmold he printed 'but one composition' in four years and 'set himself once more to a resolute course of training'; May II calls these 'four years of study passed in complete retirement'. The study was concrete and documented: an exchange of counterpoint exercises with Joachim at fixed intervals, with a system of fines enforced by Brahms; his own copies and indexes of early music, among them C. P. E. Bach's edition of J. S. Bach's chorales (autograph dated 1855), a manuscript copy of Bach's Art of Fugue marked Nov. 1855, a volume of Lasso and a copy of Palestrina's Missa Papae Marcelli dated 1856 (May I). Later, Henschel's journal entry of 26 Feb 1876 (Coblence) records him alone at the piano on the morning of the concert, red in the face, drilling the diatonic runs of Schumann's concerto and Beethoven's Choral Fantasia and telling himself 'Johannes, pull yourself together'. Several independent sources agree on the multi-year self-training; the Henschel scene is an eyewitness instance of practice beyond what the evening required. Not scored higher because no adversarial source speaks to it and the fines/exercise detail rests on May alone."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brahms_may_vol1, src_brahms_may_vol2, src_brahms_hadow, src_brahms_ndb_riezler | 1859-1876 | pupil-biographer incl. hostile reviews + critic-scholar + modern scholarly entry] Three separately dated setbacks after which he kept working on the same projects. (1) Leipzig, 27 Jan 1859: hissing greeted the D minor concerto; he wrote to Joachim that 'this failure has made no impression at all upon me' and that the concerto 'will please some day when I have improved its construction' (May I, letter quoted); the critic Bernsdorf called the work 'waste, barren dreariness' (adversarial review quoted in May I); Hadow notes his only response was to take it to Hamburg, and the NDB that Clara Schumann kept playing it and that it is long since counted among the great concertos. (2) Vienna, 1 Dec 1867: the first three movements of the German Requiem were hissed by part of the audience and the Wiener Zeitung's Hirsch and the critic Schelle wrote damagingly (May II, reviews quoted); Billroth's letter calls it 'a party conflict'; May II says his belief in the work was undiminished and he sent part of the manuscript to Marxsen for comment before the Bremen Cathedral performance of 10 Apr 1868. (3) The first symphony: the NDB gives 1862 for the first movement and 1876 for completion with the introduction added (premiere Karlsruhe 4 Nov 1876, May II). The symphony's long gestation is used here and not under perfectionism. Several independent sources and dated instances, incl. an adversarial critic; kept at 70 because (1) and (2) are mostly told through May's partisan narrative and Brahms's own reaction in (1) is shown only by his letter."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_brahms_may_vol1, src_brahms_henschel | 1855-1876 | pupil-biographer + friend's journal incl. his own recorded words] Two independent, distinct instances of routine and self-imposed regularity. May I: when he and Joachim exchanged counterpoint exercises in 1855-60, Brahms 'instituted a system of fines' for unpunctuality and insisted on regularity from the much busier Joachim, who 'good-naturedly' yielded. Henschel's journal (Coblence, 26 Feb 1876): on the morning of the concert Brahms went to the empty hall to practise alone, and in the train conversation of that day he stated his working principle that 'there is no real creating without hard work'. Henschel also records that in Vienna in 1875 Brahms 'had trained the chorus with infinite care and conducted with great earnestness'. Two instances plus an eyewitness account of preparation; a stated principle is only supportive. Moderate score because the trait is documented for short episodes rather than a described daily regimen, and the fines episode also underlies the mastery_orientation row."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_brahms_ndb_riezler, src_brahms_may_vol1, src_brahms_may_vol2, src_brahms_henschel, src_brahms_dietrich_widmann, src_brahms_hadow | 1857-1893 | modern scholarly entry + pupil-biographer + friend's journal + friend's letters + critic-scholar] Repeated pattern of taking an institutional post and then leaving it to control his own time. Hadow notes the Detmold post (from 1857) 'left him his own master for nearly three-quarters of the year'; in Aug 1860 he declined to go back there, citing his publications (May I). He accepted the Vienna Singakademie in 1863 and, per the NDB, gave it up after one year; May II says that after re-election 'his resolution failed him' and he resigned before the end of that summer. He directed the Gesellschaft der Musikfreunde concerts for three seasons from 1872 and gave up the post in 1875 (NDB; May II); Henschel records that he found the farewell ceremony and eulogy 'exceedingly distasteful' and took the address folio under his arm. Dietrich's 1862 letter says 'my time is precious' and that he was 'unwilling to allow myself to be tempted to concerts'; in the same year he told his parents he could give more concerts but did not wish to, as it left him unable to do anything else (May II). May II records that in 1892 he declined Hegar's offer of birthday festival performances and arranged months ahead to be away on his birthday in 1893. The NDB calls him the first serious-music composer to live from his works' earnings. Several independent, dated instances; impact neutral because the choices cost him conducting posts but gave him composing time (the Hamburg Philharmonic posts were not obtained, May II). The motive is inferred (May II gives no reason for the 1875 resignation beyond his letter that he had 'only given up my appointment'), hence strong_inference."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_brahms_dietrich_widmann, src_brahms_may_vol1, src_brahms_may_vol2, src_brahms_henschel | 1853-1887 | friend's recollection + pupil-biographer + friend's journal] Several documented instances of working in close, ongoing partnership. In Nov 1853 he wrote the scherzo of the joint 'F-A-E' violin sonata with Schumann and Dietrich, building it on a theme from Dietrich's first movement (Dietrich). From 1855 he and Joachim exchanged counterpoint exercises for years (May I). When Joachim premiered the Violin Concerto on 1 Jan 1879 the Leipzig critic Dorffel remarked on 'the direct or indirect share' Joachim had in the work (May II quoting Dorffel); Brahms sent part of the Requiem to Marxsen and asked for 'one or many words' of comment (May II, letter quoted). In 1876 he toured with Henschel as accompanist and conductor, and in 1887 played new chamber works from manuscript with the Hegar brothers at Widmann's home near Berne (Dietrich/Widmann). Several instances from different friends. Scored moderate because most of his composing was solitary and the partnership evidence is mostly from the circle of friends; the Violin Concerto share is a critic's remark, not a documented division of work."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_brahms_may_vol1, src_brahms_ndb_riezler, src_brahms_tchaikovsky_research, src_brahms_may_vol2 | 1860-1889 | pupil-biographer + modern scholarly entry + third-party/adversarial account + pupil-biographer summarising Heuberger] Documented willingness to state disagreement openly, with a counter-pattern of avoiding public polemic afterwards. In 1860 he and Joachim drafted a protest against the New German school's claims; a version signed by Brahms, Grimm, Joachim and Scholz reached the Berlin 'Echo' prematurely and was parodied in Brendel's Zeitschrift (May I prints both; the NDB says it was published at Brahms's instigation and with his signature and calls it 'unfortunate'). In March 1889 Brahms told Tchaikovsky over lunch in Hamburg that he did not like his Fifth Symphony at all; by Tchaikovsky's report (via Kashkin, in Tchaikovsky Research) the remark was made 'sincerely and simply' and Tchaikovsky answered with equal frankness and felt greater sympathy for him. May II, summarising Heuberger, says Brahms's criticism of young composers' manuscripts was 'so ruthless and searching as to be at first profoundly discouraging'. Counter-evidence: May I says that after 1860 he never again answered printed attacks and issued 'no other manifestoes than such as were constituted by his works', and the NDB says the anti-Wagner party label was 'very much to his displeasure'. Three distinct instances, one from an adversarial source, but the sources are partly second-hand (Kashkin's memory; May's pupil view), so strong_inference at moderate confidence, near the middle of the scale."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "요하네스 브람스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-04T00:00:00Z",
+    "updatedAt": "2026-10-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-04) for Q7294 returned en label 'Johannes Brahms', description 'German composer (1833-1897)', instance of human (Q5), P569 7 May 1833 plus a second, conflicting P569 value of 7 May 1834 (1833 is the universally cited year and is used), P570 3 Apr 1897, citizenship Q1055 (Hamburg) and Q183 (Germany), three occupation items Q36834, Q158852 and Q486748 (labels not fetched; they correspond to composer, conductor and pianist), ko label '요하네스 브람스' with a kowiki sitelink of the same title, P18 'JohannesBrahms.jpg'. SLUG CHECK: no data-pipeline/candidates/johannes-brahms.json and no public/portraits/*brahms* existed before this run; grep -il brahms over src/data/people/*.ts found only editorial.ts and roster40.ts, both inside Clara Schumann's entry (sources and rationale text that mention Brahms), no Brahms person entry; no collision. CLASSIFICATION: occupationIds composer and musician only (en.ts has no pianist or conductor occupation id; Clara Schumann used musician + composer), fieldIds music, impactDomains artistic/cultural (as Bach, Beethoven, Clara), tagIds perfectionist/craft_focused/sustained_excellence and archetypes creative_creator/scholarly_specialist (all verified in src/core/i18n/en.ts). ERA 19th_century (documented career 1853-1897; every scored row rests on 1853-1889 behaviour). REGION: western_europe, following the German-national precedent of Bach, Handel, Clara Schumann, Kant, Planck, Einstein etc.; Beethoven and Mozart sit in central_europe in production because of their Vienna careers, and the lead may prefer central_europe for Brahms for the same reason (born Hamburg, worked in Vienna from 1862/1872); no scoring depends on it. EVIDENCE READ: 9 source records (2 orientation, 7 substantive), all downloaded or fetched to C:\\Users\\Lenovo\\TGI-roster42-scratch\\johannes-brahms\\ and read locally: Florence May's Life of Brahms vols I and II (Gutenberg 40643/40644, targeted passages as listed in each record, not the whole of two long volumes); Henschel's Personal Recollections (IA OCR, journal Feb-Jul 1876 and closing summary); Dietrich and Widmann's Recollections (IA OCR, Dietrich's 1853 and 1862 chapters and Widmann's chapters on the opera and Thun); Hadow's essay (Gutenberg 39771, section I); Riezler's NDB entry (Deutsche Biographie, German, life and works); the Tchaikovsky Research page on Brahms (read in full). PERSPECTIVES: (1) Florence May, pupil-biographer, admiring and partly insider-leaning, but quoting hostile reviewers (Bernsdorf, Hirsch, Schelle) and Billroth; (2) Henschel, friend/eyewitness with a contemporaneous journal; (3) Dietrich and Widmann, friends (one from 1853, one from 1886-97); (4) Hadow, contemporary critic-scholar; (5) Riezler's NDB, modern scholarly institutional entry, independent of the memoirs and the only source that calls the 1860 manifesto 'unfortunate'; (6) Tchaikovsky Research, ADVERSARIAL third-party: Tchaikovsky's 1886 diary and 1872 review (about the music), Anna Brodsky's eyewitness of the 1888 meeting, Kashkin's memoir of the 1889 lunch. SELF material (counted once, as quoted by others): Brahms's letters to Joachim (27/28 Jan 1859), to his parents (1862), to Dietrich (1862), to his stepmother (1875), to Marxsen (1867-68), to Hegar (1892) and the remarks Henschel recorded. NON-SELF BEHAVIOURAL sources: all seven substantive records. No row rests on self material alone; no row rests on the NDB or Tchaikovsky Research alone. EPISODE USE: 1853 withdrawn quartet, destroyed sonatas/quartets-in-desk/1891 trio revision, the 1850s abandoned symphony and the 1876 'relentless severity' tribute -> perfectionism only; 1855-60 study years, counterpoint exchange with Joachim (content), early-music books, and the 26 Feb 1876 Coblence practice -> mastery_orientation (the fines and the Coblence practice also -> discipline as a separate behaviour: regularity and preparation, not skill-building); Leipzig 1859, Vienna Requiem Dec 1867, and the symphony's 1862-1876 gestation -> persistence only; Detmold, Singakademie, Gesellschaft, 1862 time/money letters, 1892-93 birthday avoidance, living from royalties -> autonomy_need only; F-A-E sonata, Joachim exchange (as partnership), Violin Concerto share, Marxsen request, Henschel tour, Hegar home concert -> collaboration only; 1860 manifesto, 1889 Tchaikovsky lunch, Heuberger's account of his criticism -> conflict_tolerance only. ROWS CONSIDERED AND LEFT UNSCORED: independent_thinking (defence of classical forms is tied to the party dispute; his 1888 praise of Wagner appears only in a private letter about a political quarrel that is excluded); creative_originality (would rest on fame/canon); aesthetic_sensitivity (Widmann's account of his tears at a play and the Henschel/Kalbeck remarks on text choice are thin or editorial); leadership_drive (accepted and quickly resigned several directorships: mixed); impact_motivation (support of Dvorak via the state-stipend committee, Levi, Heuberger, and the NDB's 'selbstlos hilfsbereit' are real but concern help to individuals, not a change sought in the world); social_assertiveness, belief_updating, detail_orientation, deep_focus, curiosity, experimentation (no specific documented episodes read). EXCLUDED ON PURPOSE: his relationship with Clara Schumann and Agathe von Siebold, bachelorhood and any reading of his temper from it (the NDB ties his 'difficult, brusque' manner to it: not used); his parents' deaths, his health and death; the 1888 political quarrel with Widmann and the 1870/71 Triumphlied war patriotism (zero-politics rule: no scored behaviour rests on political content); the NDB claim that about twenty early string quartets were destroyed (hearsay); his drinking, eating and jokes as colour; honours, income figures (400,000 marks) and the 'three B's' phrase as evidence; and every statement of musical quality, which is used only in the canonical shortlist and editorial, never in the rows. CONFLICTS REPORTED, NOT ADJUDICATED: (a) the date of the second Hamburg rejection: May II places it in 1867 and says he did not apply, the NDB says only that repeated efforts failed; (b) the symphony's start: May I says Schumann's 1853 wish led him to try a symphony then and May II treats the 1876 work as the long-awaited result, while the NDB gives the first movement in 1862 and completion in 1876; the exact start is not adjudicated and the row uses only the NDB's 1862/1876 dates; (c) the 1860 manifesto: May says Brahms 'induced Joachim' to draft it, the NDB says it was issued on Brahms's instigation and with his signature, Hadow frames him as a recluse who avoided party strife; the row treats the manifesto as an episode he initiated and May's later claim as a counter-pattern; (d) May II calls the 1868 Bremen concert the first performance of the 'then complete' Requiem; the NDB says it was completed 1866 and later extended by the soprano movement; both agree on the sequence used. KNOWN LIMITS: the major German-language biography (Kalbeck, Johannes Brahms, 4 vols) was located on the Internet Archive (KalbeckBrahms032 etc.) but not read; Walter Niemann's Brahms (1920) is lending-restricted (401, not bypassed); Heuberger's, Joachim's and Hanslick's own texts, Clara Schumann's diaries and letters, and the Brahms-Institut Lubeck and Gesellschaft der Musikfreunde pages were not read; Britannica returned HTTP 403 and was not used. Hadow's 'Growth' section was read but not the rest of the essay (works discussion). PORTRAIT: Wikidata P18 'JohannesBrahms.jpg' (C. Brasch, Berlin, 1889) was checked first: Commons gives PD-old / PD-US-expired but the file's source is a 2004 web-archive page of a university site, so I preferred a better-documented image. Chosen: Commons 'File:Luckhardt - Johannes Brahms (ONB 10362903).jpg', a photograph by Fritz Luckhardt (Vienna; Wikidata Q94383, 1843-1894, Commons creator workperiod 1867-1894) from the Austrian National Library, Bildarchiv Austria, inventory Pf 394:B(4), ONB title 'Brahms, Johannes 1833-1897', description 'Bildnis in juengeren Jahren (Brust, 3/4 links)' (portrait in younger years, bust, three-quarter left), cabinet-card signature 'Fritz Luckhardt' visible in the lower right corner. Rights: the author died in 1894, so life + 70 years ended on 1 Jan 1965 and the image is also long outside US term; Commons template PD-old-auto-1923 (1894); the ONB detail page shows no restriction text (its Digital viewer is a JavaScript application; only the metadata above was visible). Undated: Commons sorts it c. 1876, the photographer worked 1867-1894 and the sitter looks about 35-45; no date claimed beyond the range. Original 3512 x 5512 RGB JPEG downloaded from upload.wikimedia.org with curl, opened with Pillow, downscaled (LANCZOS) to 1019 x 1600, JPEG q85, no crop, no upscaling; saved as public/portraits/johannes-brahms-onb-luckhardt-undated.jpg; viewed: a young-to-middle-aged man with long hair parted to the side and no beard, bow tie and dark jacket, matching other Luckhardt portraits of Brahms. Kind: likeness (a from-life photograph). Other Commons candidates (LOC Harris & Ewing 1937 copy, LCCN2016872659, 'Copy', date unreliable; Kalbeck 1914 reproductions, unknown photographer) were not preferred. KOREAN NAME: '요하네스 브람스' is the Wikidata ko label and the kowiki title. No eligibility, coverage or match output was used in scoring; validateCandidates.ts was run once after the rows were frozen."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/johannes-brahms-onb-luckhardt-undated.jpg",
+    "width": 1019,
+    "height": 1600,
+    "source": "Austrian National Library (Osterreichische Nationalbibliothek), Bildarchiv Austria, photograph 'Brahms, Johannes 1833-1897' by Fritz Luckhardt, inventory Pf 394:B(4), via Wikimedia Commons",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-auto-1923",
+    "attribution": "Fritz Luckhardt (1843-1894), Vienna, cabinet-card portrait of Johannes Brahms in younger years (undated; photographer active 1867-1894); Austrian National Library, Bildarchiv Austria, inventory Pf 394:B(4) (image ID 10362903)",
+    "attributionUrl": "https://www.bildarchivaustria.at/Pages/ImageDetail.aspx?p_iBildID=10362903",
+    "creator": "Fritz Luckhardt",
+    "date": "undated (photographer active 1867-1894)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Luckhardt_-_Johannes_Brahms_(%C3%96NB_10362903).jpg"
+  }
+}
