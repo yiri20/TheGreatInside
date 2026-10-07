@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "roy-chapman-andrews",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Roy Chapman Andrews",
+    "wikidataId": "Q266266",
+    "birthYear": 1884,
+    "deathYear": 1960,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "naturalist",
+      "writer"
+    ],
+    "fieldIds": [
+      "exploration",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_andrews_wikidata",
+      "kind": "wikidata",
+      "title": "Roy Chapman Andrews (Q266266) -- verified live via the Wikidata API (2026-10-05): en label 'Roy Chapman Andrews', description 'American explorer, naturalist, and writer (1884-1960)', born 26 Jan 1884, died 11 Mar 1960, citizenship United States, instance of human, ko label '로이 채프먼 앤드루스', image 'Roy Chapman Andrews 50488r.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q266266"
+    },
+    {
+      "id": "src_andrews_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Roy Chapman Andrews', and 'Timeline of egg fossil research' -- orientation only (dates, the 1859 Pouech eggshell versus the 1923 first scientifically recognised dinosaur eggs, the directorship start year). Not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Roy_Chapman_Andrews"
+    },
+    {
+      "id": "src_andrews_lucky_star",
+      "kind": "biography",
+      "title": "Roy Chapman Andrews, Under a Lucky Star: A Lifetime of Adventure (Viking Press, 1943), Internet Archive full text -- SELF-WRITTEN autobiography, entertaining and openly self-presenting; the author's own account of the 1906 museum job, the 1920 Osborn lunch, the Gobi expeditions, the 1923 egg auction, the 1928 seizure and the directorship. Read the chapters on those episodes in full; the rest (whaling, China travel, later life) was skimmed. Never used as the sole basis for a scored row.",
+      "url": "https://archive.org/details/underaluckystara006445mbp"
+    },
+    {
+      "id": "src_andrews_pe_review",
+      "kind": "press",
+      "title": "Palaeontologia Electronica, review of Charles Gallenkamp, Dragon Hunter: Roy Chapman Andrews and the Central Asiatic Expeditions (Viking, 2001), 31 January 2002 -- paleontology-journal book review (non-self, broadly admiring of the book); describes the car-plus-camel-caravan method, Andrews's talent for fundraising and for organising expeditions, his own admission that he was not a great scientist and disliked laboratory work, and the later revision of the egg identification. Read in full. The biography itself (a lending-only book) was NOT read.",
+      "url": "https://palaeo-electronica.org/2001_2/books/dragon.htm"
+    },
+    {
+      "id": "src_andrews_kirkus",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of Charles Gallenkamp, Dragon Hunter (2001) -- CRITICAL review (non-self): finds the expeditions failed in their original aim of showing Asia to be the cradle of mankind, objects to the biography's uncritical hero-worship and to Andrews's condescension toward the Chinese. Read in full; used for the critical perspective, not for a scored row.",
+      "url": "https://www.kirkusreviews.com/book-reviews/charles-gallenkamp/dragon-hunter/print/"
+    },
+    {
+      "id": "src_andrews_drydredgers",
+      "kind": "press",
+      "title": "'The Original Indiana Jones', review of Charles Gallenkamp, Dragon Hunter, Jack's Stack column, March 2003, Dry Dredgers (Cincinnati amateur paleontology society) -- non-self hobbyist review that summarises the biography's account of the 1905 job, the Philippine island episode, the New York fundraising, the egg auction and its fallout, and that Andrews repeated and embellished stories from book to book. Read in full.",
+      "url": "https://drydredgers.org/jack0303.htm"
+    },
+    {
+      "id": "src_andrews_scott_preston",
+      "kind": "press",
+      "title": "Michon Scott, 'Roy Chapman Andrews', Strange Science (Rocky Road page), drawing on Douglas Preston, Dinosaurs in the Attic, and on Lukas Rieppel and Yu-chi Chang -- non-self popular history that is critical in places: expedition cost and size, the fundraising arrangements, the egg auction and Mongolian suspicion of it, Granger as the 'real star' in some historians' view, Andrews's reputation for damaging fossils, a 1945 book that repeated period racial views, and his unease as director. Read in full. Several of its anecdotes (the 'RCA'd' fossils, the quip about water) are unattributed retellings and are used only at inference level.",
+      "url": "https://www.strangescience.net/andrews.htm"
+    },
+    {
+      "id": "src_andrews_embryo_project",
+      "kind": "institution",
+      "title": "Madison Paige, 'Roy Chapman Andrews (1884-1960)', Embryo Project Encyclopedia, Arizona State University (2015) -- neutral academic encyclopedia entry (non-self): whale work, the 1923 Flaming Cliffs eggs, the Protoceratops assignment, the egg auction and the Chinese reaction, directorship and resignation, books. Read in full.",
+      "url": "https://embryo.asu.edu/pages/roy-chapman-andrews-1884-1960"
+    },
+    {
+      "id": "src_andrews_embryo_oviraptor",
+      "kind": "institution",
+      "title": "Madison Paige, 'Oviraptor philoceratops Dinosaurs', Embryo Project Encyclopedia, Arizona State University (2015) -- neutral entry (non-self) on the Oviraptor skeleton found over the nest in 1923, Osborn's 1924 'egg thief' reading, and the 1993 Ukhaa Tolgod embryo (Norell and colleagues, 1994) that reassigned the Flaming Cliffs eggs. Read in full.",
+      "url": "https://embryo.asu.edu/pages/oviraptor-philoceratops-dinosaurs"
+    },
+    {
+      "id": "src_andrews_linda_hall",
+      "kind": "institution",
+      "title": "Linda Hall Library, 'Scientist of the Day: Walter Granger' (6 September 2022) -- institutional history note (non-self) on the chief palaeontologist and second-in-command of the expeditions, listing Velociraptor, Protoceratops, Oviraptor and Baluchitherium finds and the first dinosaur eggs found in place, and citing Edwin Colbert on Granger's standing with the team in contrast to 'Andrews the showman'. Read in full; Colbert's book itself was not read.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/walter-granger"
+    },
+    {
+      "id": "src_andrews_gregory_nature1927",
+      "kind": "press",
+      "title": "J. W. Gregory (geologist), review of Andrews, On the Trail of Ancient Man, Nature 119, 521-522 (9 April 1927) -- contemporary independent scientific review (abstract page only; the full review is paywalled and was not read): records the expeditions' funding, the Osborn hypothesis they set out to test, and the eggs as the most dramatic find.",
+      "url": "https://www.nature.com/articles/119521a0"
+    },
+    {
+      "id": "src_andrews_natural_history1931",
+      "kind": "press",
+      "title": "Charles Gallenkamp (Andrews's biographer), editorial introduction to Andrews's 'The Fate of the Rash Platybelodon', Natural History magazine, March-April 1931 (online 'Picks from the Past') -- biographer's summary of the five expeditions (1922-1930): budget of nearly $700,000, the 1925 party of fourteen scientists and technicians, twenty-six assistants, five cars, two trucks and 125 camels, the 1928 confiscation of eighty-seven crates by the Committee for the Preservation of Ancient Objects, and the end of the programme after 1930. Read the introduction; the Andrews article was only skimmed.",
+      "url": "https://www.naturalhistorymag.com/picks-from-the-past/141664/the-fate-of-the-rash-platybelodon"
+    },
+    {
+      "id": "src_andrews_rieppel_chang",
+      "kind": "institution",
+      "title": "University of California, Santa Cruz Center for Cultural Studies, announcement and abstract of Lukas Rieppel (Brown University historian of science), 'Locating the Central Asiatic Expedition' (talk, 5 February 2020), the basis of Rieppel and Yu-chi Chang, 'Locating the Central Asiatic Expedition: Epistemic Imperialism in Vertebrate Paleontology', Isis 114 (2023) -- scholarly CRITICAL perspective (abstract only: Chinese intellectuals accused the Americans of plundering national heritage, while Andrews argued that fossils older than China belong to all mankind). The Isis article itself is behind a bot-check wall and was NOT read or bypassed.",
+      "url": "https://culturalstudies.ucsc.edu/2020/01/02/february-5-2020-lukas-rieppel-locating-the-central-asiatic-expedition/"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_andrews_pe_review, src_andrews_drydredgers, src_andrews_scott_preston, src_andrews_lucky_star | 1905-1925 | non-self reviews + popular history + self-account] Three independent secondary accounts describe the same capacity: the Palaeontologia Electronica reviewer credits his 'keen persuasive talents' in winning wealthy New York backers; the Dry Dredgers review says he talked his way into the 1905 museum job and later gained committed funding from named financiers (J. P. Morgan, Cleveland Dodge, Sidney Colgate, J. D. Rockefeller); Scott/Preston say the museum put up only $5,000 a year for the first five years and he raised the rest, including a $30,000 deal with Asia magazine for exclusive rights to his stories and a subscription scheme for natural-history enthusiasts. His own autobiography narrates the pitch to Henry Fairfield Osborn in 1920 and the 1906 floor-scrubbing offer; read as self-presentation, but the outline is confirmed by the secondary sources. Kept at 76 rather than 85+ because the evidence is about persuading funders and the press, and the same sources note it later backfired with Chinese and Mongolian officials."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_andrews_drydredgers, src_andrews_embryo_project, src_andrews_scott_preston, src_andrews_lucky_star | 1905-1922 | non-self reviews + encyclopedia + popular history + self-account] Self-initiated moves recorded in non-self sources: he went to New York after college and, told there were no openings, asked to be taken on as a cleaner (Dry Dredgers; Scott; Embryo Project; the autobiography gives the same story in his own words, so the retellings are not independent incidents); he proposed to museum president Osborn the Gobi expedition to test Osborn's Asia hypothesis, over lunch in 1920 (Scott, Embryo Project); and he spent years raising the funds and permits to make it happen, moving his family to Peking beforehand (Scott). One underlying set of episodes told by several sources, hence 0.62 rather than higher."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_andrews_embryo_project, src_andrews_scott_preston, src_andrews_drydredgers, src_andrews_lucky_star | 1923-1925 | encyclopedia + popular history + non-self review + self-account] After the 1923 dinosaur eggs made headlines, Andrews turned the publicity into funding by auctioning one egg: Colgate bought it for $5,000, and public contributions of roughly $50,000 followed (Scott; his own account says the same). The Embryo Project, Scott and Dry Dredgers all report the fallout: Mongolian and Chinese officials believed rumours of a far higher price and suspected commercial motives, delaying later expeditions. He had earlier used the Osborn hypothesis to get the expeditions sponsored (Dry Dredgers). dual_edged because the same eye for publicity paid for the work and damaged relations that mattered. One main episode plus supporting pattern, hence strong_inference."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_andrews_pe_review, src_andrews_natural_history1931, src_andrews_lucky_star, src_andrews_scott_preston | 1920-1930 | non-self review + biographer's summary + self-account + popular history] The reviewer calls the combination of motor cars for the scientists with a camel caravan carrying supplies a new approach that was repeated through the five expeditions, and Gallenkamp's 1931 summary says supply caravans were placed at rendezvous points ahead of each season. Andrews's own account of the 1920 pitch to Osborn lays out the plan: cars, gasoline sent ahead by camel 'like the supply ship to a fleet', self-sufficient working units, a multi-science staff. Scott gives the scale: roughly $700,000, and 40 people, two trucks, five cars and 125 camels in 1925. The evidence is for expedition logistics, not day-to-day habits; the 1930 and later phases and the directorship are not counted."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_andrews_pe_review, src_andrews_drydredgers, src_andrews_natural_history1931, src_andrews_lucky_star | 1909-1930 | non-self reviews + biographer's summary + self-account] Several secondary accounts describe him working in bandit-ridden, civil-war China and Mongolia with armed parties, and the reviewer lists snakes, bandits, bribes and an accidental shot to his own leg; Dry Dredgers describes the Philippine island where he and companions were left without supplies for two weeks. In the autobiography he tells Osborn that he does not know whether cars can cross the Gobi but believes so. Taking an untried method on a $250,000 request is a documented gamble; the accident and stories of narrow escapes are repeatedly embellished, per Dry Dredgers and Scott, so the score rests on the plan and the hazards, not on the anecdotes."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_andrews_pe_review, src_andrews_linda_hall, src_andrews_natural_history1931, src_andrews_embryo_project | 1914-1930 | non-self review + library history + biographer's summary + encyclopedia] He conceived, proposed, funded and led five expeditions, with a large mixed party (Gallenkamp's summary), and the reviewer says he excelled at organising from fundraising through fieldwork. The Linda Hall note describes the chief palaeontologist Granger as second in command under 'the flamboyant' Andrews. Counter-evidence: the Embryo Project and Scott describe the directorship as a poor fit for him, which is why the score is moderate, not high; the directorship itself is not counted."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_andrews_natural_history1931, src_andrews_lucky_star, src_andrews_scott_preston | 1928-1930 | biographer's summary + self-account + popular history] After the 1928 seizure of the expedition's collections, Andrews spent 1929 negotiating with the Chinese authorities and the U.S. State Department and obtained permission for a last, restricted season in 1930 (Gallenkamp's 1931 summary: 'permitted to return to the field in 1930' after prolonged negotiations; the autobiography gives the same sequence and the concessions made, including taking Chinese scientists and giving half the collections). Scott adds that the five field seasons were run against growing political resistance in Peking. One extended episode seen from two sides, so moderate confidence."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_andrews_drydredgers, src_andrews_scott_preston, src_andrews_lucky_star | 1909-1930 | non-self review + popular history + self-account] Dry Dredgers reports that when he and his companions were left on an uninhabited Philippine island, he fed the party by netting birds after his shotgun shells ran out (told from the biography; Dry Dredgers notes that Andrews repeated and embellished stories from book to book). Scott and the autobiography show repeated improvisation of funding: the Asia magazine arrangement, the subscription scheme, the egg auction. Ingenuity in finding workarounds is documented, but the dramatic survival story is single-sourced to the biography and told in several versions, hence moderate."
+    },
+    "detail_orientation": {
+      "score": 34,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "[src_andrews_pe_review, src_andrews_scott_preston | 1906-1930 | non-self review + popular history] The reviewer reports, from Gallenkamp's biography, that by his own admission Andrews was not a great scientist and lacked the patience for tedious laboratory work, preferring organising and field work. Scott adds, without a named source, that colleagues said he was poor at finding and extracting fossils and that damaged specimens were jokingly 'RCA'd'. Only one of these is attributed and neither is a dated incident, so this stays at inference level and a mildly low score; it is not evidence about his skill as an organiser."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로이 채프먼 앤드루스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata API (2026-10-05) for Q266266 returned en label 'Roy Chapman Andrews', description 'American explorer, naturalist, and writer (1884-1960)', P569 26 Jan 1884, P570 11 Mar 1960, citizenship United States, instance of human, ko label '로이 채프먼 앤드루스', P18 'Roy Chapman Andrews 50488r.jpg'; matches the intended person. SLUG CHECK: not in scratch/prod_slugs.txt and no existing candidate file. CLASSIFICATION: occupations explorer, naturalist, writer; fields exploration and natural_science (no paleontology field id exists); impactDomains scientific and historical; archetype scientific_explorer; tags explorer, field_researcher, communicator; region north_america; all ids exist in src/core/i18n/en.ts. EVIDENCE READ (13 records plus orientation): Andrews's autobiography Under a Lucky Star (Internet Archive full text, self, key chapters read); Palaeontologia Electronica review of Gallenkamp's Dragon Hunter; Kirkus review of the same (critical); Dry Dredgers review of the same; Michon Scott/Preston Strange Science page; Embryo Project entries on Andrews and on Oviraptor; Linda Hall Library note on Walter Granger; Nature 1927 review (abstract only); Gallenkamp's 1931 Natural History introduction; UCSC abstract of Rieppel's talk (article itself bot-walled, not bypassed). PERSPECTIVES: SELF (autobiography, never sole support); BIOGRAPHER via reviews (Gallenkamp, sympathetic; the three reviewers range from admiring to critical); INDEPENDENT scholarly/neutral (Embryo Project, Linda Hall Library, Rieppel abstract, Preston via Scott); CRITICAL (Kirkus; Rieppel and Chang on the Chinese objection; Scott on credit and the 1945 book); CONTEMPORARY (J. W. Gregory in Nature, abstract only). NON-SELF BEHAVIOURAL sources: the three Dragon Hunter reviews, Scott/Preston, Embryo Project, Linda Hall. NOT READ / UNAVAILABLE: Gallenkamp, Dragon Hunter (2001; lending only); Douglas Preston, Dinosaurs in the Attic; Rieppel and Chang, Isis 2023 (Cloudflare check, not bypassed); Kjaergaard's Isis and Endeavour articles; Granger's 1923 Novitates paper and Osborn's 1924 papers; Colbert, Men and Dinosaurs; Novacek, Dinosaurs of the Flaming Cliffs; Andrews's own On the Trail of Ancient Man and The New Conquest of Central Asia (downloaded, only grepped for the egg find and the names of the finders, not read through); the AMNH archives finding aid, AMNH 'ology' pages and Britannica (403 or bot-wall). No Mongolian-language or Chinese-language scholarship was reached; the Chinese objection is known only through Andrews, Gallenkamp's 1931 summary, Scott and the Rieppel abstract. EPISODE USE: 1905-06 job request, 1920 Osborn pitch, fundraising -> persuasiveness and proactive_agency; egg auction -> opportunity_sensing; car-and-camel design -> planning_orientation; hazards -> risk_tolerance; expeditions and negotiation -> leadership_drive and persistence; Philippine island and funding workarounds -> resourcefulness; reported dislike of laboratory work -> detail_orientation (inference only). ROWS CONSIDERED AND LEFT UNSCORED: curiosity and mastery_orientation (the whale and fossil work is documented as output; no behavioural source on how he studied); collaboration (his handling of Granger, Shackelford and the Chinese societies is told mainly by himself and credit disputes are contested by historians); conflict_tolerance and social_assertiveness (negotiations with Chinese officials and the 1928 seizure are political, and the sources are self or critical-by-framing); adaptability (the unhappiness as director is a feeling, not an action, and rests on Preston's single characterisation); cross_domain_range (the multi-science staff was a design choice, not his own range); achievement_drive and impact_motivation (would rest on fame and outcomes). EXCLUDED ON PURPOSE: fame, the Time cover, medals, the Indiana Jones association (contested by film-makers), his two marriages and divorce and any family reading, injuries, and political, military or diplomatic roles (incidental). CONFLICTS REPORTED, NOT ADJUDICATED: (a) first dinosaur eggs: Pouech's 1859 eggshell in France was documented but taken for a giant bird egg, and the 1923 Mongolian eggs are described as the first scientifically recognised dinosaur eggs (Wikipedia timeline; Embryo Project; Linda Hall says 'first dinosaur eggs in situ'); Andrews's own claim that the eggs showed unhatched young was not borne out, since the 1993 embryo is what later identified the owner; the card hedges accordingly; (b) credit within the expedition: Scott says some historians regard Granger as the real star; Andrews himself says the leader gets the lion's share of credit and that Shackelford found the first Protoceratops skull; (c) directorship dates: Andrews says 1934 to 1941, the Embryo Project says 1934 to 1942, AMNH archive snippets say 1935 to 1941 (finding aid not opened); the editorial avoids exact years; (d) the Chinese and Mongolian objection to removal of fossils versus Andrews's view that the fossils belong to all mankind (Rieppel abstract); the profile records both; (e) Kirkus's charge that the expeditions had a eugenic rationale and that Andrews was condescending to the Chinese, and Scott's note that his 1945 book repeated racial hierarchies of its time: recorded as critical context, not scored, and nothing in the rows rests on them. PORTRAIT: Bain News Service glass negative, Library of Congress; Commons file 'Roy Chapman Andrews 50488r.jpg'. LOC record https://www.loc.gov/pictures/item/2014719636/ (reproduction number LC-DIG-ggbain-50488) confirmed through the LOC JSON API: title 'Roy Chaman [i.e. Chapman] Andrews', no date recorded, rights note 'No known restrictions on publication' with a pointer to the Bain Collection rights page. Commons tags PD-Bain and PD-old-70-1923 and dates it 'circa 1920' (LOC records no date). Downloaded the Commons original (3890 x 5090 greyscale JPEG) and downsized once to 1223 x 1600, q85, no upscaling. Viewed: seated man in a pinstripe suit holding a deer skull, in a study with books; no caption in the image; the identification is the LOC title and Commons description. Kind: likeness. KOREAN NAME: the Wikidata ko label. No eligibility, coverage or match output was used in scoring."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/roy-chapman-andrews-bain-1920.jpg",
+    "width": 1223,
+    "height": 1600,
+    "source": "Library of Congress, Prints and Photographs Division, George Grantham Bain Collection, LC-DIG-ggbain-50488 (Bain News Service glass negative), via Wikimedia Commons",
+    "license": "Public domain (Bain News Service negative; Library of Congress: no known restrictions on publication)",
+    "licenseUrl": "https://www.loc.gov/rr/print/res/274_bain.html",
+    "attribution": "Bain News Service, publisher; George Grantham Bain Collection, Library of Congress; LCCN 2014719636",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2014719636/",
+    "creator": "Bain News Service",
+    "date": "circa 1920 (Commons dating; the Library of Congress records no date)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Roy_Chapman_Andrews_50488r.jpg"
+  }
+}

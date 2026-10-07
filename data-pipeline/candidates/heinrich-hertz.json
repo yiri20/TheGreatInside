@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "heinrich-hertz",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Heinrich Hertz",
+    "aliases": ["Heinrich Rudolf Hertz"],
+    "wikidataId": "Q41257",
+    "birthYear": 1857,
+    "deathYear": 1894,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["DE"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["physicist"],
+    "fieldIds": ["physics"],
+    "impactDomains": ["scientific", "technological", "historical"],
+    "tagIds": ["systematic_thinker"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hertz_wikidata",
+      "kind": "wikidata",
+      "title": "Heinrich Hertz (Q41257) -- verified live via wbgetentities (2026-10-05): en label 'Heinrich Hertz', description 'German physicist (1857-1894)', born 22 Feb 1857 in Hamburg, citizenship Germany, ko label '하인리히 루돌프 헤르츠'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q41257"
+    },
+    {
+      "id": "src_hertz_lenard_misc1896",
+      "kind": "biography",
+      "title": "Philipp Lenard (Hertz's assistant at Bonn and editor of his collected works), Introduction to Hertz's 'Miscellaneous Papers' (Macmillan, London, 1896; English translation by D. E. Jones and G. A. Schott), Internet Archive full text -- a narrative of Hertz's life from 1877 to 1891 built on his weekly letters to his parents, his day-book and the papers themselves: INSIDER, ADMIRING and FAMILY-SOURCED (the letters were supplied by the family, so they are Hertz's own account, not an independent observation). Read the whole Introduction and the first paper. Lenard became a notorious Nazi-era physicist decades later; none of that is used here, and only documented letters and events are relied on.",
+      "url": "https://archive.org/details/miscellaneouspap00hertuoft"
+    },
+    {
+      "id": "src_hertz_helmholtz_preface1894",
+      "kind": "biography",
+      "title": "Hermann von Helmholtz (Hertz's teacher and Berlin mentor), Preface to Hertz's 'The Principles of Mechanics Presented in a New Form' (Macmillan, London, 1899; English translation by D. E. Jones and J. T. Walley of the 1894 German edition), Internet Archive full text -- MENTOR's assessment, written within months of Hertz's death: how the Berlin prize problem arose, what the wave experiments showed, Hertz's character, and a critical reading of the mechanics book (Helmholtz states that he himself preferred a different method). Read the whole Preface, the editor's preface and Hertz's own preface; passages on his final illness were not used.",
+      "url": "https://archive.org/details/principlesofmech00hertuoft"
+    },
+    {
+      "id": "src_hertz_planck1894",
+      "kind": "biography",
+      "title": "Max Planck, 'Heinrich Rudolf Hertz: Rede zu seinem Gedaechtniss', memorial speech to the Physical Society of Berlin, 16 February 1894 (Barth, Leipzig, 1894; German), Google Books scan on the Internet Archive -- COLLEAGUE and admirer (a fellow member of the Berlin physics circle who knew him); a full chronological account of his work, with explicit comments on his method, his mistakes and his character. Read in full (German); the account of the final illness and death was not used.",
+      "url": "https://archive.org/details/bub_gb_-VU0AQAAMAAJ_2"
+    },
+    {
+      "id": "src_hertz_bonfort1894",
+      "kind": "press",
+      "title": "Helene Bonfort, 'Sketch of Heinrich Hertz', Popular Science Monthly vol. 45 (July 1894), Wikisource transcription -- SYMPATHETIC contemporary sketch by a writer from Hamburg who knew the family circle; it reports his schoolboy habits, why he moved to Bonn, his teaching and hospitality, and quotes the memorial speech of his Bonn colleague Hubert Ludwig. Read in full; the funeral passages were not used. Not independent in the sense of critical, but a different author and circle from Lenard and Planck.",
+      "url": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_45/July_1894/Sketch_of_Heinrich_Hertz"
+    },
+    {
+      "id": "src_hertz_nordmann_dsb",
+      "kind": "biography",
+      "title": "Alfred Nordmann (philosopher and historian of science), 'Hertz, Heinrich Rudolf', Supplementary entry in the New Dictionary of Scientific Biography (Scribner's/Gale, 2008), Internet Archive text -- INDEPENDENT modern scholarly assessment summarising the Buchwald, Doncel, Fölsing, Lützen and Mulligan literature (including Hertz's 1884 lectures and 1887 laboratory notes); it questions the old story that Hertz set out to prove Maxwell and describes the philosophy of the Principles of Mechanics. Read in full.",
+      "url": "https://archive.org/details/hertz-heinrich-rudolf"
+    },
+    {
+      "id": "src_hertz_ethw",
+      "kind": "institution",
+      "title": "'Heinrich Hertz', Engineering and Technology History Wiki (IEEE), reproducing an article first published in Today's Engineer, July 2007 -- secondary popular history by an engineering-history publication: his career moves, the reception of his waves by British Maxwellians and 'practical' engineers such as William Preece, and the later fate of the Principles of Mechanics. Read in full; the passages on his final illness and on Nazi-era treatment of his family were not used.",
+      "url": "https://ethw.org/Heinrich_Hertz"
+    },
+    {
+      "id": "src_hertz_electric_waves_intro1892",
+      "kind": "archive",
+      "title": "Heinrich Hertz, Introduction (1892) to 'Electric Waves: Being Researches on the Propagation of Electric Action with Finite Velocity through Space' (Macmillan, London, 1893; translation by D. E. Jones, preface by Lord Kelvin), Internet Archive full text -- SELF source: Hertz's own frank account of how the experiments arose, of his priority acknowledgements, of a failed experiment and of an error he later found in his own work. Read the whole Introduction; the individual papers were skimmed, not read in full. Never used alone for a row.",
+      "url": "https://archive.org/details/electricwavesbe00hertgoog"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hertz_planck1894, src_hertz_helmholtz_preface1894, src_hertz_lenard_misc1896, src_hertz_electric_waves_intro1892 | 1878-1892 | colleague memorial + mentor preface + family-sourced letters + self account] Planck (1894) says Hertz never stated a result without bounds: he regularly fixed limiting values to show how far a claim was justified by experiments varied in many directions, and that many of his early results took a negative form ('no kinetic energy of moving electricity', 'cathode rays do not mark the path of the current'). The prize paper of 1879 only set an upper limit on the inertia of electricity, and he repeated it with a better method to lower that limit (Planck; Helmholtz). Lenard's letters show the same habit at 21: a calculation that disagreed with his measurement by exactly a factor of two led him to hunt through it until he found a forgotten 2 (letter of 21 Jan 1879). Helmholtz singles out the combination of experimental skill with the acuteness of his reasoning, and his own 1892 introduction reports repeating an unwelcome interference experiment with 'the greatest care' regardless of outcome and then publishing the calculation error found by Poincare. Several dated, independent instances; not scored higher because the strongest assessments (Planck, Helmholtz) are from admiring colleagues."
+    },
+    "belief_updating": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hertz_electric_waves_intro1892, src_hertz_planck1894, src_hertz_nordmann_dsb | 1884-1892 | self account + colleague memorial + modern scholarship] In his 1892 introduction Hertz describes an experiment that gave a phase pattern pointing to infinite propagation speed, contrary to what he expected; he gave up for some weeks, then reasoned that proving Maxwell wrong would be as important as proving him right, repeated it 'without heeding what the outcome might be' and reported the result. He later stated plainly that two of its conclusions were wrong or doubtful: a calculation error pointed out by Poincare, and the claim that the velocity along wires differs from that in air, which later work made 'more and more improbable'. Planck independently records that Hertz first assumed separate electrostatic and electrodynamic forces travelling at different speeds and later saw that the separation was unnecessary, and that he first interpreted his experiments inside Helmholtz's theory to be safe. Nordmann adds that his move to Maxwell's view was gradual rather than a sudden conversion. Three distinct instances from two perspectives; the main account is Hertz's own, hence 0.64."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hertz_electric_waves_intro1892, src_hertz_lenard_misc1896, src_hertz_planck1894 | 1882-1888 | self account + family-sourced letters + colleague memorial] Two or more documented episodes of continuing after setbacks. In 1882 a long evaporation study turned from 'a beautiful positive result' into a negative one; he wrote that he was 'quite upset' but 'plucked up courage' and published what survived (Lenard; Planck confirms the work did not reach its aim). The 1000-cell battery built in September 1882 'turned sick' and had to be nursed along before it gave results in six weeks of work. In the summer of 1887 his attempts to show an electromagnetic effect of insulators with the new oscillations failed, and in the interference experiment of the next months he was 'disheartened' and stopped for some weeks before resuming (his own 1892 introduction); Planck describes the resulting series of experiments as continuous. The source for the most vivid episode is Hertz himself, so it stays strong_inference at a moderate confidence."
+    },
+    "curiosity": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hertz_planck1894, src_hertz_lenard_misc1896, src_hertz_bonfort1894 | 1857-1884 | colleague memorial + family-sourced letters + contemporary sketch] Planck reports that as a boy he combined a remarkable memory with broad interests, built a complete spectroscope, drew and painted, studied some botany, taught himself enough Sanskrit and Arabic that his tutor urged the father to let him study languages, and could still recite long passages of Homer. Bonfort adds that with every new school textbook he did not rest until he could say he had mastered it. Lenard's letters show it in his research life: in 1882 he roamed 'without any fixed plan' among Geissler-tube phenomena because they were 'exceedingly beautiful and varied'; in 1883 he became absorbed in the shape of a floating ice sheet that carries a weight, a problem he himself called of little importance; he took up microscopic observations 'by way of change' in 1884. Several independent documented instances across childhood and adult work; the sources are admiring."
+    },
+    "deep_focus": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hertz_lenard_misc1896 | 1878-1884 | family-sourced letters and day-book] Lenard quotes Hertz's letters and day-book for several periods of narrow concentration. In winter 1877-78 he studied mathematics and mechanics 'in all seclusion' from Laplace and Lagrange; in Berlin in 1878 he worked in the laboratory daily until four and then in the library; in February 1883 he wrote that for a whole week he could not take his mind from the floating-ice problem and that 'if I take up a book or try to do anything else my thoughts continually hark back to it'; in May 1884 the day-book has entries such as 'Nothing but electromagnetics' on successive days, and on 19 May 'Hit upon the solution of the electromagnetic problem this morning'. Several instances, but all from his own letters and diary as selected by one editor, and 'distractibility' is not tested, hence strong_inference at a moderate confidence."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hertz_lenard_misc1896, src_hertz_planck1894, src_hertz_bonfort1894 | 1877-1880 | family-sourced letter + colleague memorial + contemporary sketch] In his Munich letter of 1 Nov 1877 Hertz told his father he would 'rather be a great scientific investigator than a great engineer, but rather a second-rate engineer than a second-rate investigator', and that being able to study natural science only to pass an examination was unbearable; he acknowledged engineering was the surer livelihood. He then spent the winter on the original treatises of Laplace and Lagrange (Lenard), and Planck says he learned from Helmholtz and Kirchhoff in detail and kept lifelong gratitude to them. Bonfort reports his schoolboy habit of not resting until a new textbook was mastered. Distinct instances over a decade, drawn from his own letter and two admirers; scored as a real lean, not higher, because the evidence concerns his student years more than later pursuit of mastery."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hertz_electric_waves_intro1892, src_hertz_planck1894, src_hertz_helmholtz_preface1894, src_hertz_nordmann_dsb | 1882-1889 | self account + colleague memorial + mentor preface + modern scholarship] Concrete test-and-vary behaviour is documented from several angles. Hertz describes noticing side-sparks while using Riess spirals from a teaching collection, trying other positions of the secondary conductor until orderly phenomena appeared, casting paraffin rings and moving sulphur and paraffin blocks to test insulator effects, and, when a glass plate cut off the effect of one spark on another, testing quartz and so tracing it to ultraviolet light before putting it aside (1892 introduction). Planck calls that ultraviolet paper a model of experimental treatment of a new discovery, and describes the series of experiments showing reflection, polarization and refraction of the new waves. Helmholtz says one scarcely knows whether to admire his experimental skill or his reasoning more, and Nordmann notes that he developed the new phenomenon by materially transforming a familiar laboratory device. Independent, converging, documented."
+    },
+    "resourcefulness": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hertz_lenard_misc1896, src_hertz_planck1894, src_hertz_nordmann_dsb, src_hertz_electric_waves_intro1892 | 1873-1887 | family-sourced letters + colleague memorial + modern scholarship + self account] Repeated cases of making the means himself. As a schoolboy he made his own instruments, including a spectroscope (Planck), and from the age of sixteen had his own lathe, on which he turned the wooden frame of a tangent galvanometer, made at home in the 1878 holidays and used in his Berlin prize work (Lenard). In 1882 he preferred to blow his own glass tubes rather than wait days for the glassblower, and built a 1000-cell lead battery himself over two weeks, 'just like a mechanic'. At Kiel he fitted up a small laboratory in a spare room of his flat with primitive means (Planck; Lenard: home-made apparatus). At Karlsruhe he turned a pair of lecture-collection spirals into a sender and receiver of waves (his own introduction; Nordmann). Several documented instances from independent authors."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hertz_electric_waves_intro1892, src_hertz_planck1894, src_hertz_helmholtz_preface1894, src_hertz_nordmann_dsb, src_hertz_lenard_misc1896 | 1879-1894 | self account + colleague memorial + mentor preface + modern scholarship + family-sourced letters] Hertz's own account says that after the Berlin Academy's question was answered he decided the centre of the new theory lay in the third hypothesis (that air behaves like other dielectrics) and aimed at a propagation test rather than the second hypothesis he had set out to test, a goal he judged more worthy. Planck reports that in his Bonn re-derivation of Maxwell's theory he deliberately removed every concept not needed to describe the physical processes, in contrast to Maxwell's own presentation, and kept only electric and magnetic force. Helmholtz and Nordmann describe the Principles of Mechanics as a forceless mechanics built from a single law, departing from the Newtonian concept of force (Kirchhoff had advocated eliminating force earlier, Nordmann notes). Lenard adds, from the 1879 letters, that as a student he found his own way 'without first searching anxiously for the foot-prints of other explorers'. Several independent documented instances; Helmholtz also records reservations about the method of the Principles, so the score stays below 85."
+    },
+    "systems_abstraction": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hertz_planck1894, src_hertz_helmholtz_preface1894, src_hertz_nordmann_dsb | 1884-1894 | colleague memorial + mentor preface + modern scholarship] Three distinct pieces of documented abstraction. Planck describes Hertz's reduction of Maxwell's theory to two variables, electric and magnetic force, linked by differential equations in space and time, with the ether's velocity dropped. Helmholtz says the Principles of Mechanics shows his strong inclination to view scientific principles from the most general standpoint and tries to derive all the recognised laws of mechanics from a single fundamental law. Nordmann describes the 1884 lectures on the constitution of matter, in which he treats 'force' as part of the representational apparatus rather than a fundamental concept, and the geometrization of mechanics. Not scored higher because Helmholtz and the later reception of the book record that the abstract system left problems open."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hertz_planck1894, src_hertz_lenard_misc1896, src_hertz_bonfort1894, src_hertz_helmholtz_preface1894 | 1877-1894 | colleague memorial + family-sourced letters + contemporary sketch + mentor preface] Planck says an especially strong sense of duty marked him from childhood and was a necessary precondition of his later life. Lenard's letters show a regular working routine and an undistracted winter of study in 1877-78, and Bonfort says that for some years he knew no object but unceasing hard work. In 1889 he took over the Bonn institute, where Planck reports that a thorough reorganisation, new rooms and apparatus and new rules for student work were needed and that a series of papers came out of the institute under his direction. The editor's preface (Lenard) adds that he spent the last three years on the mechanics book, settling the general features and writing most of it within about a year. Several documented instances, but 'duty' is mostly the admirers' characterisation, hence strong_inference."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hertz_lenard_misc1896, src_hertz_planck1894, src_hertz_ethw | 1878-1885 | family-sourced letters + colleague memorial + engineering-history article] Three self-started moves are documented. In October 1878, having just arrived in Berlin, he noticed the faculty's prize notice on the board, took the problem on himself, discussed it with Helmholtz and began laboratory work within days (Lenard). At Kiel, without a proper laboratory, he fitted up his own in a spare room and was about to start thermoelectric experiments with the institute director's permission (Planck). When a promised professorship at Kiel was repeatedly delayed he took the full professorship at Karlsruhe in 1885 (ETHW). Modest score and confidence because each instance is a single, ordinary career or study initiative."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hertz_planck1894, src_hertz_lenard_misc1896, src_hertz_nordmann_dsb | 1877-1894 | colleague memorial + family-sourced letters + modern scholarship] Documented work in several distinct areas of physics and beyond, usually pursued in turn. Planck lists elasticity (contact of solids, hardness, a floating plate), electrodynamics, discharges in gases, evaporation of mercury, a graphical method for the adiabatic expansion of moist air (meteorology) and the foundations of mechanics; Lenard adds a hygrometer, a high-voltage battery and microscopic observations, and he began as an engineering student. Nordmann documents his Kantian-style conceptual critique of physics in the 1884 lectures. The range is largely within physics and applied mechanics, so the score is moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "하인리히 헤르츠"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-05) for Q41257 returned en label 'Heinrich Hertz', description 'German physicist (1857-1894)', born 22 Feb 1857 (Hamburg), citizenship Germany (Q1055), ko label '하인리히 루돌프 헤르츠', P18 images 'HEINRICH HERTZ.JPG' and 'Heinrich rudolf hertz.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupation physicist; field physics only (precedent: Planck, Roentgen, Maxwell, Faraday coded physics; field.physics exists in en.ts); region western_europe (Planck/Roentgen/Einstein precedent for Germans); era 19th_century; tag systematic_thinker (Faraday/Maxwell precedent; ids checked against en.ts); archetype scientific_explorer. Not given theorist (known mainly as an experimenter) nor nobel_laureate (no Nobel; died 1894). KOREAN NAME: conventional 하인리히 헤르츠 (the Wikidata ko label is the longer 하인리히 루돌프 헤르츠). EVIDENCE READ (7 substantive records + 1 orientation): Lenard's 1896 Introduction to Miscellaneous Papers (read in full, with Hertz's letters to his parents 1877-1884 and day-book); Helmholtz's preface plus editor's preface and Hertz's preface to The Principles of Mechanics; Planck's 1894 memorial speech (German, read in full); Bonfort's July 1894 sketch with Ludwig's speech; Nordmann's New Dictionary of Scientific Biography entry; the ETHW (Today's Engineer 2007) article; Hertz's own 1892 Introduction to Electric Waves. PERSPECTIVES: (1) SELF: his own 1892 introduction and the letters/day-book as quoted by Lenard; (2) MENTOR: Helmholtz; (3) COLLEAGUE: Planck, Ludwig; (4) ASSISTANT/EDITOR: Lenard; (5) CONTEMPORARY SKETCH: Bonfort; (6) INDEPENDENT MODERN SCHOLARSHIP: Nordmann (summarising Buchwald, Doncel, Fölsing, Lützen, Mulligan); (7) engineering-history article. NON-SELF BEHAVIOURAL sources: Planck, Helmholtz, Bonfort/Ludwig, Nordmann, ETHW. LIMITATION: nearly all contemporary sources are admiring (memorials written within a year of his death); the only critical voices are Helmholtz's reservations about the Principles of Mechanics and Nordmann's scholarly corrections of the 'Hertz set out to prove Maxwell' story, so confidences are capped (<=0.70) and no score reaches 85. NOT AVAILABLE / NOT READ: Albrecht Foelsing's biography 'Heinrich Hertz: Eine Biographie' (1997), Jed Buchwald's 'The Creation of Scientific Effects' (1994; Internet Archive lending copy only, no full text, known here only through Nordmann's summary), the family collection 'Erinnerungen, Briefe, Tagebuecher / Memoirs, Letters, Diaries' (no online text; known through Lenard's and Nordmann's quotations), Appleyard, Oliver Lodge's and FitzGerald's accounts, the Engineer obituary; Britannica and Science Museum pages returned HTTP 403 and were not bypassed. EPISODE USE: 1877 engineering-to-science letter, winter of Laplace/Lagrange -> mastery_orientation, deep_focus; 1878-79 prize research -> analytical_rigor, proactive_agency; 1882 evaporation failure and battery -> persistence, resourcefulness; 1883 floating ice -> curiosity, deep_focus; 1884 Maxwell reformulation -> independent_thinking, systems_abstraction; 1886-1888 wave work -> experimentation, belief_updating, independent_thinking, persistence; 1892 admission of error -> belief_updating, analytical_rigor; Bonn institute -> discipline. ROWS CONSIDERED AND LEFT UNSCORED: collaboration and humility (Bezold/Lodge/FitzGerald priority acknowledgements and Helmholtz's praise are documented but no attribute fits and 'modesty' is an admirers' trait word); conflict_tolerance and social_assertiveness (Planck: sharp only against unclear thinking; no documented dispute); persuasiveness (the 1889 Heidelberg lecture and teaching humour are reported only by admirers, thin); risk_tolerance (the 1877 change of course had family consent and is used for mastery_orientation); creative_originality, achievement_drive, impact_motivation (would rest on outcomes or the fame of the wave experiments; Hertz's own text says his ambition at the time 'did not go further' than answering the Academy's question). EXCLUDED ON PURPOSE: his final illness and death, any reading of the 1893 letters to his parents, his Jewish paternal ancestry, his posthumous treatment under the Nazi regime and his family's emigration, the naming of the SI unit, honours and prizes, and priority disputes about radio telegraphy or other inventors' later use of his waves. No political, military or activist material is scored (his army service year is incidental and unused). PORTRAIT: Wikimedia Commons file 'HEINRICH HERTZ.JPG' (3952x5168; the Wikidata P18 image), a cabinet photograph by Robert Krewaldt, Kaiserplatz 16, Bonn, c. 1890, tagged PD-old, with a reproduction credit to Guenter Josef Radig, re-uploaded by JayCubby in March 2026; the same portrait was published in Die Gartenlaube in 1894 ('Nach einer Photographie von R. Krewaldt in Bonn', Commons file Die_Gartenlaube_(1894)_b_083.jpg, also categorised under 'Robert Krewaldt 1890 portrait of Heinrich Hertz'), and ETH-Bibliothek holds a print (Portr_08117, c. 1890, photographer 'Unbekannt', PD-old-70). Rights basis: first published in Germany in 1894 or earlier, so public domain in the United States (published before 1931); a faithful reproduction of a two-dimensional photograph is not treated as creating new rights, but Krewaldt's dates are not documented on the Commons page, so German life-plus-70 status could not be independently confirmed. The Commons pages and the ETH e-pics record were read through the Commons API; the ETH e-pics institution page itself was not opened. Viewed after downsizing: head-and-shoulders oval portrait of a bearded man in a dark jacket and high collar on a mount, studio imprint at the foot. The 3952x5168 file was downsized to 1224x1600 (JPEG q85); no upscaling. No eligibility, coverage or match output was used in scoring; scores and confidences were fixed before the validator was run."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/heinrich-hertz-krewaldt-1890.jpg",
+    "width": 1224,
+    "height": 1600,
+    "source": "Wikimedia Commons, File:HEINRICH HERTZ.JPG (cabinet photograph by Robert Krewaldt, Bonn, c. 1890; reproduction credit Guenter Josef Radig); same portrait published in Die Gartenlaube 1894",
+    "license": "Public domain (photograph published in 1894 or earlier; Commons tag PD-old)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old",
+    "attribution": "Robert Krewaldt, Kaiserplatz 16, Bonn, c. 1890 (cabinet photograph); reproduction via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:HEINRICH_HERTZ.JPG",
+    "creator": "Robert Krewaldt (photographer, Bonn)",
+    "date": "c. 1890",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:HEINRICH_HERTZ.JPG"
+  }
+}

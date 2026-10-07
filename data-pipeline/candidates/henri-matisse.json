@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "henri-matisse",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Henri Matisse",
+    "wikidataId": "Q5589",
+    "birthYear": 1869,
+    "deathYear": 1954,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "perfectionist"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_matisse_wikidata",
+      "kind": "wikidata",
+      "title": "Henri Matisse (Q5589) -- verified live via wbgetentities (2026-10-05): en label 'Henri Matisse', description 'French artist (1869-1954)', born 31 Dec 1869, died 3 Nov 1954, citizenship France, ko label '앙리 마티스'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q5589"
+    },
+    {
+      "id": "src_matisse_notes1908",
+      "kind": "biography",
+      "title": "Henri Matisse, 'Notes of a Painter' (La Grande Revue, 25 December 1908), English text as reproduced on the Obelisk art-history site -- SELF/PRIMARY statement of his aims and method (expression through the whole arrangement of the picture, 'my thought has evolved', redoing earlier works). Read in full; used only for his stated working position, never as the sole perspective on a row.",
+      "url": "https://arthistoryproject.com/artists/henri-matisse/notes-of-a-painter/"
+    },
+    {
+      "id": "src_matisse_moma1978",
+      "kind": "institution",
+      "title": "Museum of Modern Art, New York, catalogue 'Matisse in the Collection of The Museum of Modern Art' (1978; exhibition 25 October 1978 - 30 January 1979), PDF from moma.org -- INSTITUTIONAL curatorial catalogue (entries signed by MoMA curators). Read the available text pages on the Moroccans and Cubism, the 1930 Pittsburgh/Barnes visit and the Dewey drawing, Jazz, the Vence chapel and chasubles, the late cut-outs and the Shchukin panels; the file as downloaded is partial (about pages 83-235 of the book were readable) so other sections were not read.",
+      "url": "https://www.moma.org/calendar/exhibitions/1829"
+    },
+    {
+      "id": "src_matisse_aic_radical",
+      "kind": "institution",
+      "title": "Art Institute of Chicago, online exhibition 'Matisse: Radical Invention, 1913-1917' (2010; co-organised with the Museum of Modern Art; curators Stephanie D'Alessandro and John Elderfield), theme pages 'Opportunity and Invention 1909-1910', 'Restlessness and Exploration 1910-1913', 'Methods of Modern Construction 1913', 'New Ambitions 1914', 'Interruptions and Returns 1914-1915', 'The Challenge of Painting 1916', 'Changing Course 1916-17', 'Printmaking 1913-1917', 'The Experiment Remembered' and the overview -- INSTITUTIONAL curatorial text quoting Matisse's own letters (to Camoin, Biette, Rosenberg, Sembat) and interviews. Read in full (short pages).",
+      "url": "https://archive.artic.edu/matisse/overview"
+    },
+    {
+      "id": "src_matisse_stein1933",
+      "kind": "biography",
+      "title": "Gertrude Stein, 'The Autobiography of Alice B. Toklas' (1933), web edition from Toronto Metropolitan University Pressbooks -- CONTEMPORARY FRIEND/COLLECTOR memoir (written in Alice Toklas's voice) of the Stein circle's dealings with Matisse from 1905: the purchase of Woman with a Hat, the Matisses' account of the price and of the refused picture, his daily routine, Vollard's visit, Berlin success and the later estrangement. Anecdotal and retrospective (written about 28 years after the events), and repeats the household's own telling; used for dated, specific incidents only. Read the Matisse passages in full (roughly 12 passages across the book).",
+      "url": "https://pressbooks.library.torontomu.ca/toklas/"
+    },
+    {
+      "id": "src_matisse_burgess1910",
+      "kind": "press",
+      "title": "Gelett Burgess, 'The Wild Men of Paris', Architectural Record (May 1910), republished on architecturalrecord.com -- CONTEMPORARY AMERICAN JOURNALIST, mocking and often hostile to the Fauves and Cubists, but recording a visit to Matisse and his stated ideas on simplicity and 'the absolute'; treated as an outsider and sceptical perspective, not as a reliable biography. Read pages 1-3 (all Matisse passages).",
+      "url": "https://www.architecturalrecord.com/articles/11445-the-wild-men-of-paris"
+    },
+    {
+      "id": "src_matisse_fry1920",
+      "kind": "press",
+      "title": "Roger Fry (English painter and critic), 'Vision and Design' (1920), Project Gutenberg ebook 54154 -- CONTEMPORARY CRITIC, an early English champion of Matisse; the passages on Matisse (pp. 158, 167, 193 of the printed text: his rhythmic line, use of colour, draughtsmanship and the 1910 and 1912 Post-Impressionist exhibitions) were read; the rest of the book was skimmed or not read. Used for contemporary critical reception, not for any scored behaviour.",
+      "url": "https://www.gutenberg.org/ebooks/54154"
+    },
+    {
+      "id": "src_matisse_perl2016",
+      "kind": "press",
+      "title": "Jed Perl, 'Which Matisse Do You Choose?', The New York Review of Books (12 May 2016), review of the three-volume Barnes Foundation catalogue 'Matisse in the Barnes Foundation' -- CRITICAL independent review (Perl disputes Yve-Alain Bois's neat division of Matisse into two) giving a summary of the Barnes commission of 1930 and the Dance mural, its two versions and use of cut paper. Read in full.",
+      "url": "https://www.nybooks.com/articles/2016/05/12/which-matisse-do-you-choose/"
+    },
+    {
+      "id": "src_matisse_vence",
+      "kind": "institution",
+      "title": "Mairie de Vence (municipal page), 'The history of the Rosaire Chapel' -- LOCAL INSTITUTIONAL account of the Chapelle du Rosaire, 1947-1951 (Sister Jacques-Marie, Brother Rayssiguier, Father Couturier, architects Perret and Milon de Peillon, first stone 11 December 1949, consecration 25 June 1951) and the text Matisse had read at the consecration. Read in full.",
+      "url": "https://vence.fr/?p=8343"
+    },
+    {
+      "id": "src_matisse_tate2002",
+      "kind": "institution",
+      "title": "Tate, press release for the exhibition 'Matisse Picasso' (Tate Modern, 11 May - 18 August 2002; Tate with the Musee Picasso, the Pompidou Centre and MoMA), 29 October 2001 -- INSTITUTIONAL curatorial summary of the Matisse-Picasso relationship from 1906 (open rivalry to 1917, estrangement, later closeness). Read in full.",
+      "url": "https://tate.org.uk/press/press-releases/matisse-picasso-0"
+    },
+    {
+      "id": "src_matisse_wright1915",
+      "kind": "press",
+      "title": "Willard Huntington Wright (American critic), 'Modern Painting: Its Tendency and Meaning' (1915), chapter X 'Henri-Matisse', Project Gutenberg ebook 39886 -- CONTEMPORARY CRITIC, a partisan of the modern movement but critical of the Impressionists; the chapter's account of Matisse's training under Moreau, his copying in the Louvre, his rejection of fixed forms for the nude and his statement that he tried to look at the model as if he had never seen a picture was read in full (about 12 pages); the rest of the book was not read. Interpretive criticism rather than biography; used for contemporary critical reception and one reported statement of method.",
+      "url": "https://www.gutenberg.org/ebooks/39886"
+    },
+    {
+      "id": "src_matisse_tate_fauvism",
+      "kind": "institution",
+      "title": "Tate, glossary entry 'Fauvism' (tate.org.uk art terms) -- INSTITUTIONAL definition: the name les fauves coined by the critic Louis Vauxcelles at the 1905 Salon d'Automne in Paris, the summer of 1905 at Collioure with Derain, and Matisse's continued use of bright colour and simple shapes after the group dispersed. Read in full.",
+      "url": "https://www.tate.org.uk/art/art-terms/f/fauvism"
+    },
+    {
+      "id": "src_matisse_tate_cutouts",
+      "kind": "institution",
+      "title": "Tate Modern, exhibition page 'Henri Matisse: The Cut-Outs' (17 April - 7 September 2014; 120 works made between 1936 and 1954) -- INSTITUTIONAL exhibition summary of the cut-outs, including The Snail (1953) and Memory of Oceania; the page also carries critics' praise, which was not used. Read in full.",
+      "url": "https://www.tate.org.uk/whats-on/tate-modern/exhibition/henri-matisse-cut-outs"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_matisse_aic_radical, src_matisse_perl2016, src_matisse_moma1978, src_matisse_stein1933 | c.1900-1951 | curatorial institution + independent critic + museum catalogue + friend's memoir] Several dated, independent instances of staying with a hard task through repeated failure. (1) Stein's memoir has the Matisses recalling the years of refusal at the Salon, when he painted a large still life all one winter in an overcoat in an unheated room and, after it was refused, 'worked every day and every day and every day'. (2) The Art Institute of Chicago pages record that he kept reopening Bathers by a River, Back and Jeannette through 1913-1917, building up and scraping back surfaces, and that The Moroccans, planned from 1912, was painted only in 1915-16; the MoMA catalogue quotes his letter to Camoin of 19 July 1916 that after a month on the Moroccan picture 'I am in a front line of my own making'. (3) Perl's review, summarising the Barnes catalogue, says a serious miscalculation of the size of the space forced him to begin the Barnes Dance again after more than a year's labour. (4) The Vence municipal page and the MoMA catalogue say the chapel took four years (1948-1951) of work, and the Vence page quotes the text he had read at the consecration saying it cost him four years of exclusive effort and that he thought of it as his masterpiece. Perspectives: institutional curators, an independent critic, a friend's retrospective memoir; the Stein anecdote is secondhand and 28 years later, so it carries less weight than the other three. Not scored above the high 70s because the main written sources are institutional and admiring of the finished works, and no adversarial account of his working life was available."
+    },
+    "perfectionism": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_matisse_notes1908, src_matisse_aic_radical, src_matisse_wright1915, src_matisse_moma1978 | 1908-1947 | self statement + curatorial institution + contemporary critic + museum catalogue] In 'Notes of a Painter' (1908) he says there is not one of his paintings he would not redo differently. The Art Institute of Chicago exhibition pages quote his remark to Gino Severini that 'one should be able to rework a masterpiece at least once' to be sure one has not fallen victim to one's nerves or to fate, and say he reworked the composition of Large Reclining Nude (the Pink Nude, 1935) at least 20 times on one canvas. Wright (1915), writing as a contemporary critic, says each colour in a Matisse picture 'is changed a score of times, modified and adjusted' before it is right. The MoMA catalogue says that when Jazz was published in 1947 he thought the book 'absolutely a failure' because the printed plates lost the finish of his cut-paper originals, and only two months later began to accept its virtues. Self-description plus three non-self sources that agree on the working pattern; impact is dual_edged because the same standard produced heavily worked, delayed pictures (only three paintings finished in 1913, per the Art Institute pages) as well as the finished works. Not higher because Wright's remark is a general characterisation, not an observed incident."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_matisse_aic_radical, src_matisse_moma1978, src_matisse_tate_cutouts, src_matisse_burgess1910 | 1913-1952 | curatorial institutions x3 + contemporary journalist] Documented trials of new methods rather than one repeated style. The Art Institute pages say that after 1913 he took up scraping and incising paint, resumed printmaking with a hand etching press bought for the purpose, and made at least 69 monotypes, 'for the first and only time in his career', using prints to test changes to a composition or record the end of a state. He then 'changed course' (his phrase to Ragnar Hoppe in 1919) back toward naturalism. The MoMA catalogue says the Jazz book (1943-47) was the first sustained use of cut and pasted painted paper, 'sketching with scissors in the actual colors', and that for the Barnes mural he used paper cut-outs to fix the imagery; the Tate exhibition page describes cut-outs as a medium that replaced painting for him. Burgess (1910), a hostile journalist, still describes him as 'a conscientious experimenter' working out a theory of simplicity. Independent agreement across periods; 78 rather than higher because the sources are mainly curatorial descriptions of his output, and some experiments (monotypes) were a short phase."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_matisse_notes1908, src_matisse_aic_radical, src_matisse_moma1978 | 1908-1947 | self statement + curatorial institutions] In 'Notes of a Painter' (1908) he says his thought has evolved and that he would redo any of his earlier paintings differently. The Art Institute pages say that by 1917 he began to learn again from Courbet and Corot, whose pictures he bought, and from Cezanne, after the austere experiments of 1913-1916 had made certain qualities impossible; and quote his 1919 interview remark that when you have exhausted a direction you must 'change course'. The MoMA catalogue records that he judged Jazz a failure at publication and within two months began to accept what it had achieved after hearing that painters were responding to it. The 1916 pattern (reworking a picture 'at least once') points the same way. Several consistent instances but little of it is a documented reversal of a stated position under outside argument (one letter and one reversal on a book), so strong_inference with moderate confidence."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_matisse_aic_radical, src_matisse_burgess1910, src_matisse_wright1915, src_matisse_stein1933 | 1905-1913 | curatorial institution + contemporary journalist + contemporary critic + friend's memoir] The Art Institute pages quote his letter of 9 January 1911 to Jean Biette: he did not want to do 'new pictures to explain the preceding ones', wanted canvases that 'capture my emotions of the moment', and felt 'my independence under attack'; after the 1910 Salon d'Automne he withdrew from close contact with a Paris art world increasingly occupied by Cubism and travelled instead. Burgess (1910) records him denying responsibility for the excesses of the younger painters who followed him, and Wright (1915) reports that he closed his teaching school and retired to Clamart when a student said she wanted to make 'the new'. Stein's memoir has him showing the large refused picture to Vollard and carrying on, and holding to his asking price of 500 francs when the Steins first offered 400 for the Woman with a Hat at the 1905 Salon. Independent, mostly dated; the Wright and Stein items are secondhand. 68 rather than higher because the Biette letter (his own words, reproduced by the museum) is the only direct statement of the stance, and the school story is one anecdote."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_matisse_stein1933, src_matisse_aic_radical, src_matisse_moma1978 | 1900s-1913, 1948-1952 | friend's memoir + curatorial institutions] Stein's memoir gives a routine over the early 1900s: every morning he painted, every afternoon he worked at sculpture, late each afternoon he drew from the nude and in the evening he played his violin, and 'worked terribly hard'. The Art Institute pages record that in January 1914 he gave up a planned winter in Tangier because 'my present task demands concentration' and that he moved to a quieter studio to focus; the MoMA catalogue says Vence took most of his creative energies from 1948 to 1952. Only one source gives the daily routine and it is retrospective and secondhand, so this is a moderate lean, not a strong pattern."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_matisse_moma1978, src_matisse_vence, src_matisse_tate2002 | 1907, 1948-1951 | museum catalogue + municipal institution + curatorial press release] At Vence he took Father Couturier as adviser on liturgical matters, followed the six prescribed liturgical colours and the semicircular chasuble shape Couturier had reintroduced, and relied on architects Perret and Milon de Peillon and local builders and artisans; the MoMA catalogue also says he insisted on his own interpretation of the symbols. The Tate release records the 1907 exchange of paintings with Picasso, and later exchanges of works during the Second World War, as part of a lasting working relationship. Accepting outside constraints on one project and a few exchanges is thin evidence for a general trait, and in each case he kept control of the design, so this is only a modest lean, scored near the middle with low confidence."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_matisse_vence, src_matisse_moma1978, src_matisse_aic_radical | 1913-1952 | municipal institution + museum catalogue + curatorial institution] The Vence page says he designed every detail of the chapel, from the building to the stained glass, ceramic tile murals, stalls, stoup, ritual objects and priestly vestments; the MoMA catalogue describes six chasubles each tied to a liturgical colour and season and the ceramic murals worked from his large brush drawings. For Jazz the same catalogue says the colours of the printed plates were matched by using the same paints as the cut-outs through stencils, and praises 'the precise meeting of colors'. The Art Institute pages record his scraping and incising of canvases and his use of monotypes to record each state. Several consistent descriptions but all are institutional accounts of the finished work rather than observed working habits, so scored as a moderate-to-clear lean."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_matisse_notes1908, src_matisse_moma1978, src_matisse_vence, src_matisse_wright1915 | 1908-1951 | self statement + museum catalogue + municipal institution + contemporary critic] In 'Notes of a Painter' he says expression lies in the whole arrangement of the picture, including the empty spaces and the proportions, not in passions in a face. The MoMA catalogue quotes him that the black in The Moroccans is 'a grand black which is as luminous as the other colors', and says he wanted the Vence chapel to produce 'feelings of release' by light; the Vence page describes the windows limited to three colours (yellow, green and blue). Wright (1915) says each of his colours is weighed at length in relation to the others. Consistent over four decades and across self, institutional and contemporary-critic perspectives; scored in the mid 70s, not higher, because the evidence is largely about the finished artworks and he is an artist, so occupational stereotype must not carry the score."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "앙리 마티스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-05) for Q5589 returned en label 'Henri Matisse', description 'French artist (1869-1954)', P569 31 Dec 1869, P570 3 Nov 1954, citizenship France (Q142), ko label '앙리 마티스', P18 'Portrait of Henri Matisse 1933 May 20.jpg'; matches the intended person. SLUG CHECK: henri-matisse is not in scratch/prod_slugs.txt and no candidate file existed before this run. CLASSIFICATION: occupation painter, field art (precedent claude-monet, edvard-munch, paul-cezanne: western_europe, nationality FR), impactDomains artistic and cultural, archetype creative_creator; tags innovator and perfectionist (supported by the rows, not by fame). career_changer was deliberately NOT used because no opened source documents his move from law to painting (Stein's memoir, which says pharmacy, is inaccurate on this point and was not relied on). All ids exist in src/core/i18n/en.ts. EVIDENCE READ (13 records, 12 substantive + 1 orientation): Matisse's own 'Notes of a Painter' (1908); the MoMA 1978 collection catalogue (partial PDF, about pages 83-235 readable); the Art Institute of Chicago 'Matisse: Radical Invention' theme pages (10 pages incl. overview); Gertrude Stein's 1933 memoir (Matisse passages); Burgess 1910 in Architectural Record (pages 1-3); Roger Fry's Vision and Design (1920; only the Matisse passages); Willard Huntington Wright 1915 (the Matisse chapter); Jed Perl's 2016 NYRB review of the Barnes catalogue; the Vence municipal page on the Chapelle du Rosaire; Tate's Matisse Picasso press release (2001), Fauvism glossary entry and Cut-Outs exhibition page. PERSPECTIVES: (1) SELF: 'Notes of a Painter' and Matisse's letters/interviews as quoted by the Art Institute and MoMA (never the sole support for a row); (2) FRIEND/COLLECTOR: Stein 1933 (retrospective, anecdotal); (3) CONTEMPORARY CRITICS: Fry (sympathetic), Wright (sympathetic to the movement but critical of Matisse's composition and of his imitators), Burgess (mocking journalist); (4) CURATORIAL INSTITUTIONS: MoMA 1978, Art Institute of Chicago/MoMA 2010, Tate, Vence; (5) INDEPENDENT MODERN CRITIC: Perl 2016 (disputes a neat division of Matisse's career). NON-SELF BEHAVIOURAL sources: all except Notes of a Painter. No adversarial biography was available; the scholarship used is mostly admiring of the finished work. NOT ACCESSIBLE / NOT READ: Hilary Spurling's two-volume biography (The Unknown Matisse, Matisse the Master) was not available as full text and only a Kirkus review was seen (not used as a source); Alfred Barr's 1951 'Matisse: His Art and His Public' and Fry's 1930 Matisse book are lending-only on the Internet Archive and were not opened; the Met, MoMA online, NGA and SFMOMA essay pages and the chapellematisse.com site were bot-walled or returned errors and were not used; Louis Vauxcelles's original 1905 Gil Blas review was not located as text (the Fauves naming is sourced to Tate); the Barnes Foundation catalogue itself was not read (only Perl's review). Barr and Spurling were requested as independent perspectives but are NOT supported by opened records here. CAUTIONS: nothing is inferred from his 1941 surgery or later illness; the Tate cut-outs page and the MoMA catalogue mention it only as background and no row depends on it. Politics/war roles unscored; his 1914 attempt to enlist is not scored. Stein's anecdotes about his marriage and family were not used. Row confidence kept at or below 0.68; no row above 78. 9 rows were scored; others (for example risk tolerance, decisiveness, social assertiveness, impact motivation) were left unscored for lack of independent behavioural evidence in the records opened. PORTRAIT: Alvin Langdon Coburn's photogravure of Matisse (Paris, 13 May 1913) published in Men of Mark (1913), via Wikimedia Commons (file 'Henri Matisse, 1913, photograph by Alvin Langdon Coburn.jpg', 1085x1290, tagged PD-US-expired; Commons source is the NYPL Digital Gallery image 301435). The NYPL record page redirected to the NYPL homepage and could not be opened, so the rights chain rests on the Commons wikitext and the 1913 publication date. The first-choice Van Vechten photograph of 20 May 1933 was checked: three Library of Congress records exist (2004663296, -297, -298), each reading 'For publication information see Carl Van Vechten Photographs (Lots 12735 and 12736)' with no rights statement of its own; the Commons PD template relies on the LC statement that restrictions on the collection expired in 1986 and that LC 'believes' the images are in the public domain, with an estate request not to crop or colourise. LC rights page was bot-walled. Because the Coburn image is larger, clearer, and its basis is pre-1931 publication, it was chosen instead."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/henri-matisse-coburn-1913.jpg",
+    "width": 1085,
+    "height": 1290,
+    "source": "Alvin Langdon Coburn, 'Henri Matisse, Paris, May 13th, 1913', photogravure in Men of Mark (London and New York, 1913), via the New York Public Library Digital Gallery (image 301435 / id 483434) and Wikimedia Commons",
+    "license": "Public domain (published in the United States in 1913; Coburn died 1966, so the US public-domain basis is publication before 1931)",
+    "licenseUrl": "https://www.copyright.gov/help/faq/faq-duration.html",
+    "attribution": "Alvin Langdon Coburn, 1913 (published in Men of Mark, 1913)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Henri_Matisse,_1913,_photograph_by_Alvin_Langdon_Coburn.jpg",
+    "creator": "Alvin Langdon Coburn",
+    "date": "1913-05-13",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Henri_Matisse,_1913,_photograph_by_Alvin_Langdon_Coburn.jpg"
+  }
+}

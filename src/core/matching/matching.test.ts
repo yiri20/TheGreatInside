@@ -632,6 +632,24 @@ describe("confidence and missing data", () => {
       "mary-pickford",
       "matthew-henson",
       "pyotr-ilyich-tchaikovsky",
+      // Roster43 (2026-10-05, docs/checkpoints/roster43.md): 14 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero backlog
+      // reuse, one hold (Louis Sullivan, portrait). Each has whatever eligibility
+      // outcome its own evidence produced (computed by build(), never gated).
+      "antonin-dvorak",
+      "dennis-ritchie",
+      "douglas-engelbart",
+      "edvard-munch",
+      "gertrude-ederle",
+      "glenn-curtiss",
+      "gottfried-wilhelm-leibniz",
+      "heinrich-hertz",
+      "henri-matisse",
+      "henri-poincare",
+      "louis-bleriot",
+      "paavo-nurmi",
+      "paul-ehrlich",
+      "roy-chapman-andrews",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1204,6 +1222,24 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "mary-pickford",
       "matthew-henson",
       "pyotr-ilyich-tchaikovsky",
+      // Roster43 (2026-10-05, docs/checkpoints/roster43.md): 14 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero backlog
+      // reuse, one hold (Louis Sullivan, portrait). Each has whatever eligibility
+      // outcome its own evidence produced (computed by build(), never gated).
+      "antonin-dvorak",
+      "dennis-ritchie",
+      "douglas-engelbart",
+      "edvard-munch",
+      "gertrude-ederle",
+      "glenn-curtiss",
+      "gottfried-wilhelm-leibniz",
+      "heinrich-hertz",
+      "henri-matisse",
+      "henri-poincare",
+      "louis-bleriot",
+      "paavo-nurmi",
+      "paul-ehrlich",
+      "roy-chapman-andrews",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

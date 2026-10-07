@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gottfried-wilhelm-leibniz",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Gottfried Wilhelm Leibniz",
+    "aliases": ["Gottfried Wilhelm von Leibniz", "Leibnitz"],
+    "wikidataId": "Q9047",
+    "birthYear": 1646,
+    "deathYear": 1716,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": ["DE"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["mathematician", "philosopher", "inventor"],
+    "fieldIds": ["mathematics", "philosophy"],
+    "impactDomains": ["scientific", "technological", "historical"],
+    "tagIds": ["polymath", "systematic_thinker", "cross_disciplinary"],
+    "archetypeIds": ["cross_disciplinary_generalist", "scholarly_specialist"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_leibniz_wikidata",
+      "kind": "wikidata",
+      "title": "Gottfried Wilhelm Leibniz (Q9047) -- verified live via Special:EntityData (2026-10-05): en label 'Gottfried Wilhelm Leibniz', description 'German mathematician and philosopher (1646-1716)'; P18 is the Francke portrait file. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q9047"
+    },
+    {
+      "id": "src_leibniz_wikipedia",
+      "kind": "wikipedia",
+      "title": "Gottfried Wilhelm Leibniz -- Wikipedia article (raw wikitext opened), orientation only; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+    },
+    {
+      "id": "src_leibniz_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy, 'Gottfried Wilhelm Leibniz' (Brandon C. Look, peer-reviewed scholarly reference entry) -- read locally in full for the Life section, the overview, the fundamental principles (best, contradiction, sufficient reason, continuity), the monad sections, the Theodicy/optimism section and the chronology of writings. Scholarly and sympathetic but notes the Russell and Voltaire criticisms of the Monadology and optimism and says most historians now hold that Newton and Leibniz developed the calculus independently.",
+      "url": "https://plato.stanford.edu/entries/leibniz/"
+    },
+    {
+      "id": "src_leibniz_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Gottfried Wilhelm von Leibniz' biography (J. J. O'Connor and E. F. Robertson; quotes G. MacDonald Ross and the Encyclopaedia Britannica) -- read locally in full for the Paris years and calculus notation (1672-76), the Hanover period (Harz mining project, binary arithmetic, determinants, Guelf history), academy campaigns, the Newton priority dispute and the 1715-16 Clarke correspondence. Mathematics-historians' account that is critical of the Royal Society committee of 1712-13 but also records Leibniz's failures.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/"
+    },
+    {
+      "id": "src_leibniz_merz1884",
+      "kind": "biography",
+      "title": "John Theodore Merz, Leibniz (Edinburgh and London: William Blackwood and Sons, Philosophical Classics for English Readers, 1884), Internet Archive scan (leibniz00merz_0) -- Victorian secondary biography and philosophical introduction by a historian of science, drawing on Guhrauer and Gerhardt; read locally: the chapters on the calculus and the controversy with Newton (including the Oldenburg correspondence of 1676-77), the Hanover years (Harz mines, Protogaea, church reunion), and the academy projects in Berlin, Dresden, Vienna and St Petersburg. Evaluative language is admiring in places; only the dated facts and the weighing of the priority evidence are used.",
+      "url": "https://archive.org/details/leibniz00merz_0"
+    },
+    {
+      "id": "src_leibniz_russell1900",
+      "kind": "biography",
+      "title": "Bertrand Russell, A Critical Exposition of the Philosophy of Leibniz (Cambridge University Press, 1900), Internet Archive scan (cu31924052172271) -- CRITICAL philosophical study by a later logician who argues Leibniz's private papers are more rigorous than his published works; read locally: the preface and Chapter I on Leibniz's character, circumstances and method of presentation, the discussion of why he never wrote a single systematic work, and the passages from the letters to Arnauld on arguments he chose not to publish.",
+      "url": "https://archive.org/details/cu31924052172271"
+    },
+    {
+      "id": "src_leibniz_clarke",
+      "kind": "archive",
+      "title": "G. W. Leibniz and Samuel Clarke, Exchange of papers, November 1715 - October 1716 (first published by Clarke in 1717), in Jonathan Bennett's modernized edition at earlymoderntexts.com -- PRIMARY documents: Leibniz's five papers (to Princess Caroline's circle) and the Newtonian Clarke's five replies, read locally in full. Clarke is an ADVERSARIAL contemporary perspective who accuses Leibniz of begging the question on sufficient reason; Bennett's editorial summaries are used only as finding aids.",
+      "url": "https://www.earlymoderntexts.com/assets/pdfs/leibniz1715_2.pdf"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 84,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leibniz_mactutor, src_leibniz_merz1884, src_leibniz_russell1900, src_leibniz_sep | 1663-1716 | scholarly reference + historian's biography + critical philosophical study; mostly secondary, with the dated works themselves named | independent perspectives agree] Documented work in law (doctorate 1667; revision of the Mainz civil law), combinatorial logic (1666), mechanics and dynamics, infinitesimal mathematics, the binary system and determinants, geology (the Harz observations and Protogaea), mine drainage engineering, library administration, dynastic history (Guelf archives), church reunion, and metaphysics. The MacTutor biography quotes G. MacDonald Ross that Leibniz 'deliberately ignored boundaries between disciplines' and was hostile to the faculty structure of universities because it blocked cross-fertilisation; Russell independently names 'versatility' as a reason he never wrote one connected system. The range is documented work in each field, not fame; scored below 85 because several of the engineering and historical projects were unfinished."
+    },
+    "curiosity": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leibniz_sep, src_leibniz_mactutor, src_leibniz_merz1884 | 1672-1690 | scholarly reference + mathematics-history biography + Victorian biography | secondary] Specific acts of seeking things out: in Paris (1672-76) he sought out Huygens, Arnauld and Malebranche and obtained access to unpublished manuscripts of Descartes and Pascal (SEP); after Pell told him in London in 1673 that his series results were in Mouton's book he read it the next day and then studied mathematics more systematically; he broke his 1676 journey to Hanover to spend several days with Spinoza in Amsterdam (SEP, from Leibniz's own notes); his Harz observations led him to a hypothesis about the earth's origin (MacTutor, Merz); and his 1687-90 archive trip took in scholars of many subjects (MacTutor). Different periods and three accounts, but the accounts overlap on the same biographical facts."
+    },
+    "creative_originality": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leibniz_mactutor, src_leibniz_merz1884, src_leibniz_sep | 1675-1701 | mathematics historians + Victorian historian of science + scholarly reference | secondary, partly adversarial on priority] Documented original constructions: the integral sign and d notation (first written 21 November 1675), the product rule and d(x^n) rule by autumn 1676, published in Acta Eruditorum in 1684 and 1686 (MacTutor); binary arithmetic perfected by 1679 (MacTutor); monads as the only true substances (SEP). On the calculus, Merz judges that Newton had general methods about ten years earlier and that Leibniz knew from the Oldenburg letters that such methods existed, but concludes that Leibniz still had to generalise the problem and supply the notation, which came from his own manuscripts of 1675-76; SEP reports that most historians now consider the two inventions independent. MacTutor adds that Newton claimed, with justification, that Leibniz's approach did not solve any previously unsolved problem, so the originality is of formalism and system more than of results. Kept below 85 for that reason."
+    },
+    "systems_abstraction": {
+      "score": 84,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leibniz_sep, src_leibniz_russell1900, src_leibniz_mactutor | 1666-1714 | scholarly reference + critical philosophical study + mathematics biography | secondary, with Russell critical] The 1666 Dissertation on the Art of Combinations sketched a 'universal characteristic' and logical calculus that SEP says occupied him for much of his life; MacTutor says he tried to reduce reasoning to an algebra of thought; SEP shows the linked principles (contradiction, sufficient reason, identity of indiscernibles, continuity) that he used in both mathematics and metaphysics. Russell, an unsympathetic reader who calls the Monadology 'a kind of fantastic fairy tale', still concludes the system was 'unusually complete and coherent' and could have been set out geometrically. That is an independent, critical corroboration of the pattern of abstraction."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leibniz_russell1900, src_leibniz_clarke, src_leibniz_sep | 1686-1716 | critical logician + adversarial contemporary + scholarly reference] Russell finds 'far less rhetoric and far more logic' in Leibniz's private papers than in his public manifestoes, and reconstructs a strict argument from the logic of propositions (letters to Arnauld, 1686). In the Clarke papers (1715-16) Leibniz builds a chain of arguments from sufficient reason to reject absolute space and the void. Against this, Clarke argues that Leibniz simply asserted the principle and begged the question, and Russell lists inconsistencies in the system, so the rigor is real but contested; kept at the strong-inference level."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leibniz_sep, src_leibniz_clarke, src_leibniz_russell1900, src_leibniz_mactutor | 1661-1716 | scholarly reference + primary papers + critical study + math biography] SEP notes the philosophical education was scholastic and that he nevertheless engaged the moderns and criticised Descartes on extension and Hobbes and Spinoza on necessity; MacTutor says he was dissatisfied with Aristotle's logic as a schoolboy and criticised Descartes' mechanics in the 1676-89 dynamics work. In the 1715-16 papers he rejects Newton's absolute space, attraction across a void and the divine 'sensorium', against the dominant English position (Clarke, adversarial). He also chose a court career over the Altdorf faculty post (Russell, SEP). Scored below 80 because much of his thought is explicitly a synthesis of ancient and modern positions rather than a break from them (SEP)."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_leibniz_russell1900, src_leibniz_mactutor, src_leibniz_merz1884 | 1686-1714 | critical logician + math biography + Victorian biography | secondary] Russell documents a 'desire for persuasiveness' that made Leibniz choose the arguments likely to convince a particular reader, quoting his own 1686 letter to Arnauld that he omitted an abstract argument because 'few people are capable' of it; MacTutor and Merz record that in 1700 he persuaded the Elector of Brandenburg to found the Society of Sciences, of which he became first president. Against this the same sources record that proposals for academies in Dresden, Vienna and St Petersburg did not come into being in his lifetime and that he lost favour at Hanover, so the outcome was mixed. Russell treats the audience-tailoring as a cost to the exposition of his ideas, hence dual-edged."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_leibniz_mactutor, src_leibniz_merz1884, src_leibniz_sep, src_leibniz_russell1900 | 1666-1716 | math biography + Victorian biography + scholarly reference + critical study] Long-running efforts that outlasted setbacks: the universal characteristic from 1666 onward (SEP); the academy campaign from 1695, the 1700 foundation, then the Dresden, Vienna and St Petersburg plans through his last fifteen years (Merz, MacTutor); church reunion as a lifelong aim (MacTutor, Merz); the Harz mining and pumping designs 1678-84, which MacTutor records as ending in failure; and the 1715-16 Clarke exchange, continued to his death. Counter-evidence: the Guelf history he was commissioned to write was never completed (MacTutor), and Russell notes the lack of a single connected exposition. Persistence at the projects he chose is documented; follow-through on the assigned ones is not, hence dual-edged and below 80."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leibniz_mactutor, src_leibniz_sep, src_leibniz_merz1884 | 1672-1716 | math biography + scholarly reference + Victorian biography | secondary] Documented working relationships: study under Huygens in Paris, a mathematically productive friendship with Tschirnhaus (1675), exchanges with Johann Bernoulli and Varignon, and a very large correspondence (MacTutor says over 600 correspondents, SEP more than 1100 people; the sources disagree and the count is not scored). MacTutor says he tried to bring learned societies together to coordinate research. Against this, the later priority dispute and the court isolation recorded by SEP and Merz show strained relationships, so the score is moderate."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leibniz_mactutor, src_leibniz_merz1884, src_leibniz_sep | 1670-1716 | math biography + Victorian biography + scholarly reference | secondary] MacTutor lists as lifelong aims the reunification of the Christian churches and collating all human knowledge; the Harz projects were attempts to drain mines with wind and water power; he prepared programmes for academies to 'promote science and stimulate industry and agriculture' (Merz, citing his 1713 letters to Prince Eugene), and he drafted the Consultationes Germanicae on the welfare of the realm (Merz). Merz is sympathetic in judging motive, so only the dated proposals are used; the sources agree the proposals largely did not materialise in his lifetime."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_leibniz_mactutor, src_leibniz_clarke, src_leibniz_sep | 1711-1716 | math biography + primary papers + scholarly reference] In the priority dispute he demanded a retraction from the Royal Society in 1711, published the anonymous pamphlet Charta volans in 1713-14, and declined to answer Keill, but did answer when Newton wrote to him directly (MacTutor). In the 1715-16 Clarke papers he answers every objection and openly questions whether Clarke is a 'lover of truth'. At the same time he used anonymity, avoided a public reply to Keill, and a stated lifelong aim was reconciliation of the churches (MacTutor), so the evidence is mixed between willingness to engage and avoidance of direct exposure; not scored high."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_leibniz_mactutor, src_leibniz_merz1884, src_leibniz_sep | 1673-1716 | math biography + Victorian biography + scholarly reference] When Pell told him in London in 1673 that his series results were already in Mouton's book, he checked the book the next day, found Pell correct, and 'redoubled his efforts' on mathematics (MacTutor, Merz); SEP says he changed or refined views over his career. Against this, MacTutor reports he blamed the Harz failures on deliberate obstruction by administrators and workers, and in the calculus dispute and the Clarke papers he did not concede ground. One clear documented update plus mixed later behaviour: a mid-range score."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_leibniz_russell1900, src_leibniz_mactutor, src_leibniz_sep | 1667-1716 | critical logician + math biography + scholarly reference] Russell names 'ambition' (with versatility and the wish to influence particular people) among the forces that shaped Leibniz's career and criticises his deference to princes and time spent pleasing them; MacTutor records that he wished to remain in the Paris Academy, accepted the Hanover post reluctantly, accepted the life presidency of the Brandenburg Society and demanded retraction from the Royal Society when accused. Russell is critical and the motive is partly inferred, hence moderate confidence and a dual-edged impact."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leibniz_sep, src_leibniz_mactutor, src_leibniz_merz1884 | 1672-1700 | scholarly reference + math biography + Victorian biography] SEP calls the 1672 Paris mission 'the single most important opportunity of his life' and records that he used it to meet Huygens and read Pascal's and Descartes's manuscripts; Merz records that conversations with Sophie Charlotte of Brandenburg over Bayle's writings led to the Theodicy and to the idea of an academy in Berlin, which Leibniz had prepared for years and took up when she showed interest. Two periods, secondary sources; scored moderately because the opportunities came partly through patrons."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "고트프리트 빌헬름 라이프니츠"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gottfried-wilhelm-leibniz-francke-1695.jpg",
+    "width": 1296,
+    "height": 1600,
+    "source": "Herzog Anton Ulrich-Museum, Braunschweig (inventory GG 558 per Wikidata Q29171873), via Wikimedia Commons file 'Christoph Bernhard Francke - Bildnis des Philosophen Leibniz (ca. 1695).jpg' (original 4486x5538, downsized to 1600px long edge at JPEG quality 85)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Art",
+    "attribution": "Christoph Bernhard Francke, 'Bildnis des Philosophen Gottfried Wilhelm Freiherr von Leibniz', oil on canvas, c. 1695; Herzog Anton Ulrich-Museum, Braunschweig. Public domain (PD-Art, PD-old-100-1923: the painter died in 1729). Commons records no restrictions.",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg",
+    "creator": "Christoph Bernhard Francke",
+    "date": "c. 1695",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE 2026-10-05 via Special:EntityData/Q9047: en label 'Gottfried Wilhelm Leibniz', description 'German mathematician and philosopher (1646-1716)', P18 = the Francke portrait file. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. REGION: Kant, Gauss, Kepler and Brahms are all coded western_europe in production, so western_europe. ERA early_modern as Kant. CLASSIFICATION: mathematician/philosopher/inventor; fieldIds mathematics and philosophy (both have field.* keys); court-counsellor, librarian, diplomatic and church-reunion roles are incidental and unscored (zero-politics). EVIDENCE READ locally (curl to scratch/work/gottfried-wilhelm-leibniz): Stanford Encyclopedia entry (full), MacTutor biography (full), Merz 1884 (calculus controversy, Hanover and academy chapters), Russell 1900 (preface and Chapter I and the Arnauld passages), and the complete Leibniz-Clarke papers (Bennett edition). Wikipedia/Wikidata orientation only. Candide (Gutenberg) was skimmed only for the Pangloss/optimism satire and is NOT listed as a source or used for any row. NOT ACCESSED: Antognazza's intellectual biography (2011), Aiton's biography (1985), A. R. Hall's Philosophers at War (1980) and Ross's Leibniz are lending-restricted on the Internet Archive; Fontenelle's eloge (French Wikisource page not retrievable) and Voltaire's Micromegas/Candide commentary were not read as sources. The priority dispute is used cautiously, only for documented acts (the 1711 demand for retraction, the anonymous Charta volans, the Clarke exchange), never to judge who was right; the Royal Society committee's bias is MacTutor's characterisation and is not asserted here. DISCREPANCIES: MacTutor says over 600 correspondents, SEP over 1100 people, so no count is scored. PORTRAIT: Commons wikitext gives {{PD-Art|PD-old-100-1923}} and credits the Herzog Anton Ulrich-Museum online gallery; the old museum URL (3landesmuseen.de) now returns 404 and the Bildindex record (00010888) did not render in a non-JS fetch, so the upstream institutional rights note could not be read and the chain rests on the Commons wikitext and Wikidata (Q29171873: inception 1695, collection Herzog Anton Ulrich Museum, inventory GG 558). Kind 'likeness' because it is a contemporary oil portrait painted c. 1695 in the sitter's lifetime by a Braunschweig court painter; whether it was painted from a live sitting is not documented in anything read. Rows are unscored where evidence is thin (no scores for risk tolerance, discipline, perfectionism, planning orientation, deep focus, aesthetic sensitivity)."
+  }
+}

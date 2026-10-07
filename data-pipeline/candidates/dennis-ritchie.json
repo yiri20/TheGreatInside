@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "dennis-ritchie",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Dennis Ritchie",
+    "aliases": ["Dennis M. Ritchie", "Dennis MacAlistair Ritchie", "dmr"],
+    "wikidataId": "Q45575",
+    "birthYear": 1941,
+    "deathYear": 2011,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["computer_scientist"],
+    "fieldIds": ["computing", "technology"],
+    "impactDomains": ["technological", "scientific", "innovation"],
+    "tagIds": ["early_computing", "innovator"],
+    "archetypeIds": ["technical_innovator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ritchie_wikidata",
+      "kind": "wikidata",
+      "title": "Dennis M. Ritchie (Q45575) -- Wikidata entry (verified live 2026-10-05: en label 'Dennis M. Ritchie', description 'American computer scientist, co-inventor of the Unix operating system and the C programming language (1941-2011)'). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q45575"
+    },
+    {
+      "id": "src_ritchie_chist1993",
+      "kind": "archive",
+      "title": "Dennis M. Ritchie, 'The Development of the C Language' (paper for the ACM Second History of Programming Languages conference, 1993), author's own electronic reprint (SELF source)",
+      "url": "https://minnie.tuhs.org/Mirrors/Dennis/chist.html"
+    },
+    {
+      "id": "src_ritchie_hist1984",
+      "kind": "archive",
+      "title": "Dennis M. Ritchie, 'The Evolution of the Unix Time-sharing System' (AT&T Bell Laboratories Technical Journal, 1984), author's own electronic reprint (SELF source)",
+      "url": "https://minnie.tuhs.org/Mirrors/Dennis/hist.html"
+    },
+    {
+      "id": "src_ritchie_mahoney",
+      "kind": "archive",
+      "title": "'Interview with Dennis Ritchie' -- transcript of an interview conducted by the historian Michael S. Mahoney (Unix Heritage Society oral-history collection; undated, with '[inaudible]' gaps) (SELF source in the sense that Ritchie is the speaker)",
+      "url": "https://tuhs.pdp-11.org.ru/Documentation/OralHistory/transcripts/ritchie.htm"
+    },
+    {
+      "id": "src_ritchie_bio",
+      "kind": "archive",
+      "title": "Dennis M. Ritchie, short autobiographical statement ('Dennis Ritchie Bio') from his Bell Labs home page, mirrored (SELF source)",
+      "url": "https://minnie.tuhs.org/Mirrors/Dennis/bigbio1st.html"
+    },
+    {
+      "id": "src_ritchie_noalias1988",
+      "kind": "archive",
+      "title": "Dennis Ritchie, 'Why I do not like X3J11 type qualifiers' -- his March 1988 comment to the ANSI C committee (X3J11) posted to comp.lang.c, as republished by Lysator, with the editor's note on the outcome (SELF source)",
+      "url": "https://www.lysator.liu.se/c/dmr-on-noalias.html"
+    },
+    {
+      "id": "src_ritchie_odd",
+      "kind": "archive",
+      "title": "Dennis M. Ritchie, 'Odd Comments and Strange Doings in Unix' (including the origin of the 'You are not expected to understand this' comment), mirrored from his home page (SELF source)",
+      "url": "https://minnie.tuhs.org/Mirrors/Dennis/odd.html"
+    },
+    {
+      "id": "src_ritchie_crypt",
+      "kind": "archive",
+      "title": "Dennis M. Ritchie, 'Dabbling in the Cryptographic World -- A Story' (about c. 1975-77 work on the M-209 cipher machine), mirrored from his home page; read in part (first ~40% of the page) (SELF source)",
+      "url": "https://minnie.tuhs.org/Mirrors/Dennis/crypt.html"
+    },
+    {
+      "id": "src_ritchie_turing_acm",
+      "kind": "award_body",
+      "title": "Tom Van Vleck, biography and citation of Dennis M. Ritchie, ACM A.M. Turing Award Laureate page (1983 award shared with Ken Thompson) (independent author; quotes Ritchie)",
+      "url": "https://amturing.acm.org/award_winners/ritchie_1506389.cfm"
+    },
+    {
+      "id": "src_ritchie_cacm_hyman",
+      "kind": "press",
+      "title": "Paul Hyman, 'Dennis Ritchie, 1941-2011' (In Memoriam), Communications of the ACM 54(12), December 2011 -- recollections from Brian Kernighan and Douglas McIlroy",
+      "url": "https://doi.org/10.1145/2043174.2043202"
+    },
+    {
+      "id": "src_ritchie_crimson",
+      "kind": "press",
+      "title": "Laya Anasu, 'Dennis Ritchie '63, The Man Behind Your Technology', The Harvard Crimson, 27 May 2013 -- recollections from Brian Kernighan, Margo Seltzer and Paul Horowitz",
+      "url": "https://thecrimson.com/article/2013/5/27/the_dennis_ritchie_1963"
+    },
+    {
+      "id": "src_ritchie_nyt_lohr",
+      "kind": "press",
+      "title": "Steve Lohr, 'Dennis Ritchie, Trailblazer in Digital Era, Dies at 70', The New York Times, 14 October 2011 (read via an e-mail-list republication and a PDF copy of the printed page) -- quotes Brian Kernighan and Ken Thompson",
+      "url": "https://www.nytimes.com/2011/10/14/technology/dennis-ritchie-programming-trailblazer-dies-at-70.html"
+    },
+    {
+      "id": "src_ritchie_lj_kernighan",
+      "kind": "press",
+      "title": "Aleksey Dolya, 'Interview with Brian Kernighan', Linux Journal, 29 July 2003 (Kernighan on his role in C and on Ritchie)",
+      "url": "https://www.linuxjournal.com/article/7035"
+    }
+  ],
+  "rows": {
+    "collaboration": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ritchie_nyt_lohr, src_ritchie_cacm_hyman, src_ritchie_lj_kernighan, src_ritchie_hist1984, src_ritchie_chist1993 | c.1968-1990s | non-self colleague accounts (Thompson, Kernighan, McIlroy) plus Ritchie's own histories] Ken Thompson says of working with Ritchie 'We were very complementary... It was just good with Dennis'; Kernighan says Ritchie was 'incredibly good to work with' (Crimson) that he himself 'twisted Dennis's arm' into co-writing the C book, and that Ritchie's reference-manual prose went into K&R untouched; in his own papers Ritchie describes a division of labour on K&R, building the Interdata port with Steve Johnson (helped by Thompson), and credits McIlroy's persistence for pipes. Kernighan also reports that Ritchie always said Thompson did most of the Unix work, which Kernighan calls characteristically modest. Several documented episodes over roughly three decades, with independent colleague voices; the colleagues are friends and Bell Labs insiders, and no source describes a collaboration that failed, so scored in the clear-pattern band, not extreme."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ritchie_noalias1988, src_ritchie_mahoney, src_ritchie_crimson, src_ritchie_hist1984 | 1969-1988 | self papers/interview plus one independent anecdote (Seltzer)] In March 1988 Ritchie sent the ANSI C committee a long dissenting comment that the draft's 'noalias' qualifier was 'an abomination' that 'must not survive' and that parts of the 'const' wording made the language inconsistent with its own library; the Lysator editor's note records that the const wording was changed and noalias was dropped (self source, outcome noted by a third-party host). In the Mahoney interview he says he was never convinced that the Multics virtual-memory model was right and that Unix was in part a reaction against Multics' over-engineering, and he declines the suggestion that C distils the ideas of 1960s language design. Margo Seltzer (independent) recalls Ritchie politely offering an alternative opinion when others explained C to him wrongly. Several dated instances but largely from Ritchie's own pen, hence 0.55 rather than higher."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ritchie_noalias1988, src_ritchie_crimson | 1988; 1980s-2000s | self essay + independent anecdote] Two distinct episodes: (1) he put an uncompromising written objection to a standards committee (self-described as a 'diatribe'/'jeremiad', while stating he was not speaking for AT&T) and the committee changed course; (2) Seltzer recalls him in conversations being told by others that he was wrong about C and responding politely with a different view rather than backing down or escalating. Both show comfort disagreeing openly on technical matters, one forcefully in writing and one mildly in person; no source documents interpersonal quarrels, so held in the modest-lean band with confidence 0.5."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ritchie_noalias1988, src_ritchie_odd, src_ritchie_chist1993, src_ritchie_cacm_hyman, src_ritchie_nyt_lohr | 1970s-1990 | self papers + independent colleague appraisals] The 1988 essay works through concrete library cases (strchr under const/noalias) to show the draft was internally inconsistent; the 'not expected to understand' account says that moving the kernel to a new machine, he and Steve Johnson spent about a week establishing that the context-switch mechanism was fundamentally broken and then redesigned the primitives instead of patching the compiler; his C history candidly names the missing function-argument types as 'a significant weakness' of his own design. Independently, McIlroy says Ritchie combines 'perfect control of the technical matter' with 'an unerring sense of how much to say', and Kernighan describes his code as meticulous and his writing as precise. Several independent, documented episodes."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ritchie_nyt_lohr, src_ritchie_cacm_hyman, src_ritchie_lj_kernighan | 1970s-2000s | non-self colleague accounts] Kernighan tells the Times that colleagues 'were struck by his code -- meticulous, clean and concise' and that his writing had 'a remarkable precision... no extra words'; McIlroy (CACM) praises his papers' control of the technical matter and economy; Kernighan (Linux Journal) says the C reference manuals are Ritchie's prose 'untouched'. These are characterizations by two close colleagues without a single named incident, so classed strong_inference at 0.5, not documented; a modest-lean score because precision in code and writing is what is described, not obsessive checking."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ritchie_crimson, src_ritchie_crypt | c.1975-77; 1980s-2000s | independent anecdote + self account] Margo Seltzer recalls Ritchie, on a zoo trip, knowing 'an exorbitant amount of information about naked mole rats'; the Crimson piece also reports he was widely read and knowledgeable beyond computing (reporter's summary, thinly sourced). In his own account of the M-209 cipher-machine episode he describes borrowing the physical machine just to admire its construction, then writing a program implementing a colleague's cryptanalytic attack outside his normal work; he calls it one of the more interesting things he has done. Two distinct, loosely connected signals, one self-told, hence moderate score and sub-0.5 confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "데니스 리치"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/dennis-ritchie-panyik-dale-2011.jpg",
+    "width": 640,
+    "height": 850,
+    "source": "Wikimedia Commons, File:Dennis Ritchie (right) Receiving Japan Prize.jpeg (1195x1628), uploaded from Flickr (dpanyikdale/5740011186); cropped to Dennis Ritchie only, no resampling",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo by Denise Panyik-Dale, taken at the Japan Prize Foundation ceremony, 19 May 2011, CC BY 2.0; cropped from the original",
+    "attributionUrl": "https://www.flickr.com/photos/dpanyikdale/5740011186/",
+    "creator": "Denise Panyik-Dale",
+    "date": "2011-05-19",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Dennis_Ritchie_(right)_Receiving_Japan_Prize.jpeg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-05) for Q45575: en label 'Dennis M. Ritchie', description 'American computer scientist, co-inventor of the Unix operating system and the C programming language (1941-2011)', ko label '데니스 리치', P569 9 Sep 1941, P570 12 Oct 2011 (Wikidata; other sources give 8 or 12 Oct, not relied on), citizenship United States, instance of human, P18 'Dennis Ritchie 2011.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt, no existing candidate file. CLASSIFICATION: computer_scientist; fields computing and technology (both have field.* keys); archetype technical_innovator and tags early_computing, innovator as for grace-hopper/margaret-hamilton. Region north_america (US). READ IN FULL OR LARGE PART: Ritchie, 'The Development of the C Language' (1993) and 'The Evolution of the Unix Time-sharing System' (1984), both read substantially via the author's mirrored reprints; the Mahoney interview transcript (long read, ~60%); Ritchie's short bio; his 1988 noalias essay (first ~45%, enough for the argument and the editor's outcome note); 'Odd Comments' (~half, including the full 'not expected to understand' account); 'Dabbling in Cryptography' (~40%); Van Vleck's ACM Turing page; Hyman's CACM In Memoriam (full); Anasu's Harvard Crimson piece (full); Lohr's NYT obituary (full text via republication); Linux Journal Kernighan interview (the Ritchie passages). PERSPECTIVES: (1) SELF: Ritchie's own histories, interview, essays (never the sole support for a row); (2) INDEPENDENT/colleague: Ken Thompson (NYT quote), Brian Kernighan (NYT, CACM, Crimson, Linux Journal -- a close friend, co-author and Bell Labs insider), Douglas McIlroy (CACM, his manager and longtime colleague), Margo Seltzer (Crimson, outside Bell Labs, Berkeley Unix community); (3) INSTITUTIONAL: Van Vleck's ACM biography. NO ADVERSARIAL source was found or read: all non-self voices are admiring friends, colleagues or obituarists, which is why confidence is capped at 0.62 and no score exceeds 74. NOT ACCESSED: Kernighan's 'UNIX: A History and a Memoir' (2019), Salus's 'A Quarter Century of UNIX' (1994), Ritchie's Turing lecture (the ACM PDF was behind a bot challenge and was not bypassed), the Computer History Museum oral histories and Rob Pike's Google+ remembrance (only seen as web-search snippets, not read, not used); the Bell Labs original home page returned an access-denied page so the Unix Heritage Society mirror of Ritchie's pages was used. ROWS CONSIDERED AND LEFT UNSCORED: social_assertiveness (colleagues describe him as private and quiet, but that is not the same as low assertiveness and Seltzer's anecdote points the other way); persistence, belief_updating, systems_abstraction, opportunity_sensing, proactive_agency (supported only by Ritchie's own accounts, no independent perspective); achievement_drive, competitiveness, impact_motivation (colleagues say he did not self-promote or seek credit, but no attribute row maps cleanly to that and no behavioural evidence addresses ambition); everything inferred from his death, illness, or health is excluded. POLITICS: Cold-War and military-funding remarks, and the NYT's Sandia anecdote, are incidental and unscored. PORTRAIT: the Commons file 'Dennis Ritchie 2011.jpg' is only 558x717; it is itself a crop of the larger 1195x1628 Commons original of the same Flickr photo (CC BY 2.0, FlickreviewR pass 2011-10-14 on the file page), so the portrait here is a fresh native-resolution crop of the larger original (640x850, no upscaling, mild JPEG re-encode at q92). Flickr's own page is script-rendered and did not expose the license in the HTML, so the rights chain rests on the Commons wikitext and the FlickreviewR record; the photographer's Flickr license could have changed since 2011 (CC licences already granted are irrevocable for the licensed copies). A sliver of Doug McIlroy's jacket sleeve remains at the left edge of the crop. CAVEAT: Kernighan, Thompson and McIlroy are friends/collaborators, so row confidences stay modest."
+  }
+}

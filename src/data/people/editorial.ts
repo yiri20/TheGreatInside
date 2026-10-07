@@ -8825,4 +8825,209 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "pyotr-ilyich-tchaikovsky-turning-point-1", textKey: "pyotr-ilyich-tchaikovsky.turning_point.1", interpretationKey: "pyotr-ilyich-tchaikovsky.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_tchaikovsky_modest_life_letters", "src_tchaikovsky_poznansky_life", "src_tchaikovsky_tr_new_york_1891"] },
     ],
   },
+  "antonin-dvorak": {
+    achievements: [
+      { id: "antonin-dvorak-achievement-1", textKey: "antonin-dvorak.achievement.1", sourceIds: ["src_dvorak_courier_1893_12_20", "src_dvorak_sourek1956", "src_dvorak_wikipedia"] },
+      { id: "antonin-dvorak-achievement-2", textKey: "antonin-dvorak.achievement.2", sourceIds: ["src_dvorak_hoffmeister1928", "src_dvorak_sourek1956", "src_dvorak_wikipedia"] },
+      { id: "antonin-dvorak-achievement-3", textKey: "antonin-dvorak.achievement.3", sourceIds: ["src_dvorak_etude1919", "src_dvorak_hoffmeister1928", "src_dvorak_sourek1956", "src_dvorak_musicaltimes1904"] },
+      { id: "antonin-dvorak-achievement-4", textKey: "antonin-dvorak.achievement.4", sourceIds: ["src_dvorak_hoffmeister1928", "src_dvorak_wikipedia"] },
+    ],
+    moments: [
+      { id: "antonin-dvorak-moment-1", textKey: "antonin-dvorak.moment.1", interpretationKey: "antonin-dvorak.interpretation.moment.1", attributeId: "execution_speed", sourceIds: ["src_dvorak_sourek1956"] },
+      { id: "antonin-dvorak-moment-2", textKey: "antonin-dvorak.moment.2", interpretationKey: "antonin-dvorak.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_dvorak_courier_1893_12_20", "src_dvorak_etude1894", "src_dvorak_etude1919"] },
+    ],
+    turningPoints: [
+      { id: "antonin-dvorak-turning-point-1", textKey: "antonin-dvorak.turning_point.1", interpretationKey: "antonin-dvorak.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_dvorak_hoffmeister1928", "src_dvorak_hadow1895", "src_dvorak_mason1903"] },
+    ],
+  },
+  "dennis-ritchie": {
+    achievements: [
+      { id: "dennis-ritchie-achievement-1", textKey: "dennis-ritchie.achievement.1", sourceIds: ["src_ritchie_chist1993", "src_ritchie_nyt_lohr"] },
+      { id: "dennis-ritchie-achievement-2", textKey: "dennis-ritchie.achievement.2", sourceIds: ["src_ritchie_hist1984", "src_ritchie_turing_acm", "src_ritchie_bio"] },
+      { id: "dennis-ritchie-achievement-3", textKey: "dennis-ritchie.achievement.3", sourceIds: ["src_ritchie_chist1993", "src_ritchie_nyt_lohr"] },
+    ],
+    moments: [
+      { id: "dennis-ritchie-moment-1", textKey: "dennis-ritchie.moment.1", interpretationKey: "dennis-ritchie.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_ritchie_noalias1988"] },
+      { id: "dennis-ritchie-moment-2", textKey: "dennis-ritchie.moment.2", interpretationKey: "dennis-ritchie.interpretation.moment.2", attributeId: "analytical_rigor", sourceIds: ["src_ritchie_odd"] },
+    ],
+    turningPoints: [
+      { id: "dennis-ritchie-turning-point-1", textKey: "dennis-ritchie.turning_point.1", interpretationKey: "dennis-ritchie.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_ritchie_chist1993", "src_ritchie_mahoney", "src_ritchie_turing_acm"] },
+    ],
+  },
+  "douglas-engelbart": {
+    achievements: [
+      { id: "douglas-engelbart-achievement-1", textKey: "douglas-engelbart.achievement.1", sourceIds: ["src_engelbart_arc_findingaid", "src_engelbart_chm_mouse", "src_engelbart_weber_chm2018", "src_engelbart_stanford_oralhistory"] },
+      { id: "douglas-engelbart-achievement-2", textKey: "douglas-engelbart.achievement.2", sourceIds: ["src_engelbart_ethw_milestone", "src_engelbart_landau_smithsonianmag2018", "src_engelbart_weber_chm2018"] },
+      { id: "douglas-engelbart-achievement-3", textKey: "douglas-engelbart.achievement.3", sourceIds: ["src_engelbart_wikipedia", "src_engelbart_landau_smithsonianmag2018", "src_engelbart_weber_chm2018", "src_engelbart_ethw_milestone"] },
+    ],
+    moments: [
+      { id: "douglas-engelbart-moment-1", textKey: "douglas-engelbart.moment.1", interpretationKey: "douglas-engelbart.interpretation.moment.1", attributeId: "impact_motivation", sourceIds: ["src_engelbart_stanford_oralhistory"] },
+      { id: "douglas-engelbart-moment-2", textKey: "douglas-engelbart.moment.2", interpretationKey: "douglas-engelbart.interpretation.moment.2", attributeId: "risk_tolerance", sourceIds: ["src_engelbart_stanford_oralhistory", "src_engelbart_ethw_milestone"] },
+    ],
+    turningPoints: [
+      { id: "douglas-engelbart-turning-point-1", textKey: "douglas-engelbart.turning_point.1", interpretationKey: "douglas-engelbart.interpretation.turning_point.1", attributeId: "autonomy_need", sourceIds: ["src_engelbart_weber_chm2018", "src_engelbart_stanford_oralhistory"] },
+    ],
+  },
+  "edvard-munch": {
+    achievements: [
+      { id: "edvard-munch-achievement-1", textKey: "edvard-munch.achievement.1", sourceIds: ["src_munch_mm_scream"] },
+      { id: "edvard-munch-achievement-2", textKey: "edvard-munch.achievement.2", sourceIds: ["src_munch_berlinische", "src_munch_daswerk1894", "src_munch_mm_timeline", "src_munch_mm_who"] },
+      { id: "edvard-munch-achievement-3", textKey: "edvard-munch.achievement.3", sourceIds: ["src_munch_glaser1922", "src_munch_schiefler1907", "src_munch_mm_who"] },
+      { id: "edvard-munch-achievement-4", textKey: "edvard-munch.achievement.4", sourceIds: ["src_munch_emunch_aula", "src_munch_mm_timeline", "src_munch_berlinische"] },
+    ],
+    moments: [
+      { id: "edvard-munch-moment-1", textKey: "edvard-munch.moment.1", interpretationKey: "edvard-munch.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_munch_emunch_aula"] },
+      { id: "edvard-munch-moment-2", textKey: "edvard-munch.moment.2", interpretationKey: "edvard-munch.interpretation.moment.2", attributeId: "autonomy_need", sourceIds: ["src_munch_mm_hecto"] },
+    ],
+    turningPoints: [
+      { id: "edvard-munch-turning-point-1", textKey: "edvard-munch.turning_point.1", interpretationKey: "edvard-munch.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_munch_berlinische", "src_munch_mm_timeline"] },
+    ],
+  },
+  "gertrude-ederle": {
+    achievements: [
+      { id: "gertrude-ederle-achievement-1", textKey: "gertrude-ederle.achievement.1", sourceIds: ["src_ederle_kennebec_1926", "src_ederle_indytimes_1926", "src_ederle_britannica", "src_ederle_ebsco_2021"] },
+      { id: "gertrude-ederle-achievement-2", textKey: "gertrude-ederle.achievement.2", sourceIds: ["src_ederle_olympedia", "src_ederle_britannica"] },
+      { id: "gertrude-ederle-achievement-3", textKey: "gertrude-ederle.achievement.3", sourceIds: ["src_ederle_ebsco_2021", "src_ederle_britannica"] },
+    ],
+    moments: [
+      { id: "gertrude-ederle-moment-1", textKey: "gertrude-ederle.moment.1", interpretationKey: "gertrude-ederle.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_ederle_indytimes_1926", "src_ederle_ebsco_2021"] },
+      { id: "gertrude-ederle-moment-2", textKey: "gertrude-ederle.moment.2", interpretationKey: "gertrude-ederle.interpretation.moment.2", attributeId: "risk_tolerance", sourceIds: ["src_ederle_indytimes_1926"] },
+    ],
+    turningPoints: [
+      { id: "gertrude-ederle-turning-point-1", textKey: "gertrude-ederle.turning_point.1", interpretationKey: "gertrude-ederle.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_ederle_nbh_1925", "src_ederle_southbend_1925", "src_ederle_ebsco_2021", "src_ederle_indytimes_1926"] },
+    ],
+  },
+  "glenn-curtiss": {
+    achievements: [
+      { id: "glenn-curtiss-achievement-1", textKey: "glenn-curtiss.achievement.1", sourceIds: ["src_curtiss_sciam_1908", "src_curtiss_flight_1909", "src_curtiss_flight_1910", "src_curtiss_britannica"] },
+      { id: "glenn-curtiss-achievement-2", textKey: "glenn-curtiss.achievement.2", sourceIds: ["src_curtiss_book_ellyson", "src_curtiss_flight_1911_14", "src_curtiss_britannica"] },
+      { id: "glenn-curtiss-achievement-3", textKey: "glenn-curtiss.achievement.3", sourceIds: ["src_curtiss_britannica"] },
+      { id: "glenn-curtiss-achievement-4", textKey: "glenn-curtiss.achievement.4", sourceIds: ["src_curtiss_britannica", "src_curtiss_book", "src_curtiss_turner_1912"] },
+    ],
+    moments: [
+      { id: "glenn-curtiss-moment-1", textKey: "glenn-curtiss.moment.1", interpretationKey: "glenn-curtiss.interpretation.moment.1", attributeId: "planning_orientation", sourceIds: ["src_curtiss_book", "src_curtiss_flight_1910"] },
+      { id: "glenn-curtiss-moment-2", textKey: "glenn-curtiss.moment.2", sourceIds: ["src_curtiss_courts", "src_curtiss_flight_1909", "src_curtiss_britannica"] },
+    ],
+    turningPoints: [
+      { id: "glenn-curtiss-turning-point-1", textKey: "glenn-curtiss.turning_point.1", interpretationKey: "glenn-curtiss.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_curtiss_book", "src_curtiss_book_ellyson", "src_curtiss_flight_1911_14"] },
+    ],
+  },
+  "gottfried-wilhelm-leibniz": {
+    achievements: [
+      { id: "gottfried-wilhelm-leibniz-achievement-1", textKey: "gottfried-wilhelm-leibniz.achievement.1", sourceIds: ["src_leibniz_mactutor", "src_leibniz_sep", "src_leibniz_merz1884"] },
+      { id: "gottfried-wilhelm-leibniz-achievement-2", textKey: "gottfried-wilhelm-leibniz.achievement.2", sourceIds: ["src_leibniz_sep", "src_leibniz_mactutor", "src_leibniz_russell1900"] },
+      { id: "gottfried-wilhelm-leibniz-achievement-3", textKey: "gottfried-wilhelm-leibniz.achievement.3", sourceIds: ["src_leibniz_mactutor", "src_leibniz_sep"] },
+      { id: "gottfried-wilhelm-leibniz-achievement-4", textKey: "gottfried-wilhelm-leibniz.achievement.4", sourceIds: ["src_leibniz_mactutor", "src_leibniz_merz1884"] },
+    ],
+    moments: [
+      { id: "gottfried-wilhelm-leibniz-moment-1", textKey: "gottfried-wilhelm-leibniz.moment.1", interpretationKey: "gottfried-wilhelm-leibniz.interpretation.moment.1", attributeId: "belief_updating", sourceIds: ["src_leibniz_mactutor", "src_leibniz_merz1884"] },
+      { id: "gottfried-wilhelm-leibniz-moment-2", textKey: "gottfried-wilhelm-leibniz.moment.2", interpretationKey: "gottfried-wilhelm-leibniz.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_leibniz_clarke", "src_leibniz_mactutor"] },
+    ],
+    turningPoints: [
+      { id: "gottfried-wilhelm-leibniz-turning-point-1", textKey: "gottfried-wilhelm-leibniz.turning_point.1", interpretationKey: "gottfried-wilhelm-leibniz.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_leibniz_sep", "src_leibniz_mactutor"] },
+    ],
+  },
+  "heinrich-hertz": {
+    achievements: [
+      { id: "heinrich-hertz-achievement-1", textKey: "heinrich-hertz.achievement.1", sourceIds: ["src_hertz_helmholtz_preface1894", "src_hertz_planck1894", "src_hertz_electric_waves_intro1892", "src_hertz_ethw"] },
+      { id: "heinrich-hertz-achievement-2", textKey: "heinrich-hertz.achievement.2", sourceIds: ["src_hertz_electric_waves_intro1892", "src_hertz_planck1894"] },
+      { id: "heinrich-hertz-achievement-3", textKey: "heinrich-hertz.achievement.3", sourceIds: ["src_hertz_lenard_misc1896", "src_hertz_planck1894"] },
+      { id: "heinrich-hertz-achievement-4", textKey: "heinrich-hertz.achievement.4", sourceIds: ["src_hertz_helmholtz_preface1894", "src_hertz_nordmann_dsb", "src_hertz_ethw"] },
+    ],
+    moments: [
+      { id: "heinrich-hertz-moment-1", textKey: "heinrich-hertz.moment.1", interpretationKey: "heinrich-hertz.interpretation.moment.1", attributeId: "belief_updating", sourceIds: ["src_hertz_electric_waves_intro1892"] },
+      { id: "heinrich-hertz-moment-2", textKey: "heinrich-hertz.moment.2", interpretationKey: "heinrich-hertz.interpretation.moment.2", attributeId: "deep_focus", sourceIds: ["src_hertz_lenard_misc1896", "src_hertz_planck1894"] },
+    ],
+    turningPoints: [
+      { id: "heinrich-hertz-turning-point-1", textKey: "heinrich-hertz.turning_point.1", interpretationKey: "heinrich-hertz.interpretation.turning_point.1", attributeId: "mastery_orientation", sourceIds: ["src_hertz_lenard_misc1896", "src_hertz_planck1894"] },
+    ],
+  },
+  "henri-matisse": {
+    achievements: [
+      { id: "henri-matisse-achievement-1", textKey: "henri-matisse.achievement.1", sourceIds: ["src_matisse_tate_fauvism", "src_matisse_stein1933", "src_matisse_moma1978", "src_matisse_perl2016"] },
+      { id: "henri-matisse-achievement-2", textKey: "henri-matisse.achievement.2", sourceIds: ["src_matisse_aic_radical", "src_matisse_moma1978", "src_matisse_perl2016"] },
+      { id: "henri-matisse-achievement-3", textKey: "henri-matisse.achievement.3", sourceIds: ["src_matisse_moma1978", "src_matisse_tate_cutouts"] },
+      { id: "henri-matisse-achievement-4", textKey: "henri-matisse.achievement.4", sourceIds: ["src_matisse_vence", "src_matisse_moma1978"] },
+    ],
+    moments: [
+      { id: "henri-matisse-moment-1", textKey: "henri-matisse.moment.1", interpretationKey: "henri-matisse.interpretation.moment.1", attributeId: "belief_updating", sourceIds: ["src_matisse_moma1978"] },
+      { id: "henri-matisse-moment-2", textKey: "henri-matisse.moment.2", interpretationKey: "henri-matisse.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_matisse_moma1978", "src_matisse_aic_radical"] },
+    ],
+    turningPoints: [
+      { id: "henri-matisse-turning-point-1", textKey: "henri-matisse.turning_point.1", interpretationKey: "henri-matisse.interpretation.turning_point.1", attributeId: "experimentation", sourceIds: ["src_matisse_aic_radical"] },
+    ],
+  },
+  "henri-poincare": {
+    achievements: [
+      { id: "henri-poincare-achievement-1", textKey: "henri-poincare.achievement.1", sourceIds: ["src_poincare_yoccoz", "src_poincare_brent", "src_poincare_ras_obit"] },
+      { id: "henri-poincare-achievement-2", textKey: "henri-poincare.achievement.2", sourceIds: ["src_poincare_mactutor", "src_poincare_ras_obit"] },
+      { id: "henri-poincare-achievement-3", textKey: "henri-poincare.achievement.3", sourceIds: ["src_poincare_walter2014", "src_poincare_damour2017"] },
+      { id: "henri-poincare-achievement-4", textKey: "henri-poincare.achievement.4", sourceIds: ["src_poincare_ras_obit", "src_poincare_mactutor", "src_poincare_hadamard"] },
+    ],
+    moments: [
+      { id: "henri-poincare-moment-1", textKey: "henri-poincare.moment.1", interpretationKey: "henri-poincare.interpretation.moment.1", attributeId: "analytical_rigor", sourceIds: ["src_poincare_mines"] },
+      { id: "henri-poincare-moment-2", textKey: "henri-poincare.moment.2", interpretationKey: "henri-poincare.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_poincare_klein_letters"] },
+    ],
+    turningPoints: [
+      { id: "henri-poincare-turning-point-1", textKey: "henri-poincare.turning_point.1", interpretationKey: "henri-poincare.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_poincare_yoccoz", "src_poincare_brent"] },
+    ],
+  },
+  "louis-bleriot": {
+    achievements: [
+      { id: "louis-bleriot-achievement-1", textKey: "louis-bleriot.achievement.1", sourceIds: ["src_bleriot_flight_1909_07", "src_bleriot_britannica"] },
+      { id: "louis-bleriot-achievement-2", textKey: "louis-bleriot.achievement.2", sourceIds: ["src_bleriot_flight_1909_07", "src_bleriot_grahamewhite1911", "src_bleriot_britannica"] },
+      { id: "louis-bleriot-achievement-3", textKey: "louis-bleriot.achievement.3", sourceIds: ["src_bleriot_britannica", "src_bleriot_flight_1909_07", "src_bleriot_flight_1936"] },
+    ],
+    moments: [
+      { id: "louis-bleriot-moment-1", textKey: "louis-bleriot.moment.1", interpretationKey: "louis-bleriot.interpretation.moment.1", attributeId: "risk_tolerance", sourceIds: ["src_bleriot_flight_1909_07", "src_bleriot_grahamewhite_aeroplane"] },
+      { id: "louis-bleriot-moment-2", textKey: "louis-bleriot.moment.2", interpretationKey: "louis-bleriot.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_bleriot_turner1912", "src_bleriot_flight_1909_07"] },
+    ],
+    turningPoints: [
+      { id: "louis-bleriot-turning-point-1", textKey: "louis-bleriot.turning_point.1", interpretationKey: "louis-bleriot.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_bleriot_flight_1909_07", "src_bleriot_flight_1909_08", "src_bleriot_flight_1909_09", "src_bleriot_turner1912"] },
+    ],
+  },
+  "paavo-nurmi": {
+    achievements: [
+      { id: "paavo-nurmi-achievement-1", textKey: "paavo-nurmi.achievement.1", sourceIds: ["src_nurmi_olympedia_athlete", "src_nurmi_olympedia_events", "src_nurmi_britannica"] },
+      { id: "paavo-nurmi-achievement-2", textKey: "paavo-nurmi.achievement.2", sourceIds: ["src_nurmi_olympedia_athlete", "src_nurmi_wa_heritage", "src_nurmi_britannica", "src_nurmi_racingpast"] },
+      { id: "paavo-nurmi-achievement-3", textKey: "paavo-nurmi.achievement.3", sourceIds: ["src_nurmi_olympedia_events", "src_nurmi_wa_heritage", "src_nurmi_milwaukee_leader_1924"] },
+    ],
+    moments: [
+      { id: "paavo-nurmi-moment-1", textKey: "paavo-nurmi.moment.1", interpretationKey: "paavo-nurmi.interpretation.moment.1", attributeId: "planning_orientation", sourceIds: ["src_nurmi_racingpast", "src_nurmi_olympedia_events", "src_nurmi_wa_heritage"] },
+      { id: "paavo-nurmi-moment-2", textKey: "paavo-nurmi.moment.2", interpretationKey: "paavo-nurmi.interpretation.moment.2", attributeId: "achievement_drive", sourceIds: ["src_nurmi_lope", "src_nurmi_wrhs"] },
+    ],
+    turningPoints: [
+      { id: "paavo-nurmi-turning-point-1", textKey: "paavo-nurmi.turning_point.1", interpretationKey: "paavo-nurmi.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_nurmi_brownsville_1932", "src_nurmi_britannica", "src_nurmi_finland100", "src_nurmi_olympedia_athlete", "src_nurmi_wrhs"] },
+    ],
+  },
+  "paul-ehrlich": {
+    achievements: [
+      { id: "paul-ehrlich-achievement-1", textKey: "paul-ehrlich.achievement.1", sourceIds: ["src_ehrlich_valent_2016", "src_ehrlich_nobel_bio", "src_ehrlich_marquardt_1949"] },
+      { id: "paul-ehrlich-achievement-2", textKey: "paul-ehrlich.achievement.2", sourceIds: ["src_ehrlich_valent_2016", "src_ehrlich_nobel_bio", "src_ehrlich_nobel_lecture_1908"] },
+      { id: "paul-ehrlich-achievement-3", textKey: "paul-ehrlich.achievement.3", sourceIds: ["src_ehrlich_nobel_bio", "src_ehrlich_valent_2016", "src_ehrlich_marquardt_1949"] },
+      { id: "paul-ehrlich-achievement-4", textKey: "paul-ehrlich.achievement.4", sourceIds: ["src_ehrlich_nobel_bio", "src_ehrlich_valent_2016"] },
+    ],
+    moments: [
+      { id: "paul-ehrlich-moment-1", textKey: "paul-ehrlich.moment.1", interpretationKey: "paul-ehrlich.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_ehrlich_marquardt_1949", "src_ehrlich_nobel_bio"] },
+      { id: "paul-ehrlich-moment-2", textKey: "paul-ehrlich.moment.2", interpretationKey: "paul-ehrlich.interpretation.moment.2", attributeId: "perfectionism", sourceIds: ["src_ehrlich_marquardt_1949", "src_ehrlich_nobel_bio"] },
+    ],
+    turningPoints: [
+      { id: "paul-ehrlich-turning-point-1", textKey: "paul-ehrlich.turning_point.1", interpretationKey: "paul-ehrlich.interpretation.turning_point.1", attributeId: "resourcefulness", sourceIds: ["src_ehrlich_valent_2016", "src_ehrlich_nobel_bio"] },
+    ],
+  },
+  "roy-chapman-andrews": {
+    achievements: [
+      { id: "roy-chapman-andrews-achievement-1", textKey: "roy-chapman-andrews.achievement.1", sourceIds: ["src_andrews_natural_history1931", "src_andrews_pe_review", "src_andrews_kirkus", "src_andrews_gregory_nature1927"] },
+      { id: "roy-chapman-andrews-achievement-2", textKey: "roy-chapman-andrews.achievement.2", sourceIds: ["src_andrews_embryo_project", "src_andrews_embryo_oviraptor", "src_andrews_linda_hall", "src_andrews_wikipedia"] },
+      { id: "roy-chapman-andrews-achievement-3", textKey: "roy-chapman-andrews.achievement.3", sourceIds: ["src_andrews_embryo_project"] },
+      { id: "roy-chapman-andrews-achievement-4", textKey: "roy-chapman-andrews.achievement.4", sourceIds: ["src_andrews_embryo_project", "src_andrews_scott_preston"] },
+    ],
+    moments: [
+      { id: "roy-chapman-andrews-moment-1", textKey: "roy-chapman-andrews.moment.1", interpretationKey: "roy-chapman-andrews.interpretation.moment.1", attributeId: "opportunity_sensing", sourceIds: ["src_andrews_lucky_star", "src_andrews_embryo_project", "src_andrews_scott_preston"] },
+      { id: "roy-chapman-andrews-moment-2", textKey: "roy-chapman-andrews.moment.2", interpretationKey: "roy-chapman-andrews.interpretation.moment.2", attributeId: "planning_orientation", sourceIds: ["src_andrews_lucky_star", "src_andrews_scott_preston"] },
+    ],
+    turningPoints: [
+      { id: "roy-chapman-andrews-turning-point-1", textKey: "roy-chapman-andrews.turning_point.1", interpretationKey: "roy-chapman-andrews.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_andrews_natural_history1931", "src_andrews_lucky_star", "src_andrews_rieppel_chang"] },
+    ],
+  },
 };

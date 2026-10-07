@@ -527,19 +527,37 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "mary-pickford",
     "matthew-henson",
     "pyotr-ilyich-tchaikovsky",
+    // Roster43 (2026-10-05, docs/checkpoints/roster43.md): 14 new, freshly
+    // researched, evidence_approved, directory-visible people -- zero backlog
+    // reuse, one hold (Louis Sullivan, portrait). Each has whatever eligibility
+    // outcome its own evidence produced (computed by build(), never gated).
+    "antonin-dvorak",
+    "dennis-ritchie",
+    "douglas-engelbart",
+    "edvard-munch",
+    "gertrude-ederle",
+    "glenn-curtiss",
+    "gottfried-wilhelm-leibniz",
+    "heinrich-hertz",
+    "henri-matisse",
+    "henri-poincare",
+    "louis-bleriot",
+    "paavo-nurmi",
+    "paul-ehrlich",
+    "roy-chapman-andrews",
   ]);
 
-  it("still exactly 364 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(364);
-    expect(PEOPLE_INDEX).toHaveLength(364);
+  it("still exactly 378 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(378);
+    expect(PEOPLE_INDEX).toHaveLength(378);
   });
 
-  it("still exactly 363 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 377 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(363);
+    expect(visible).toHaveLength(377);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/40/41/42 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/40/41/42/43 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "paavo-nurmi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Paavo Nurmi",
+    "aliases": ["Paavo Johannes Nurmi", "The Flying Finn"],
+    "wikidataId": "Q101942",
+    "birthYear": 1897,
+    "deathYear": 1973,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["FI"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["athlete"],
+    "fieldIds": ["sport"],
+    "impactDomains": ["athletic", "historical", "cultural"],
+    "tagIds": ["sustained_excellence", "systematic_thinker"],
+    "archetypeIds": ["competitive_performer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nurmi_wikidata",
+      "kind": "wikidata",
+      "title": "Paavo Nurmi (Q101942) -- verified live via the Wikidata API (2026-10-05): en label 'Paavo Nurmi', description 'Finnish middle and long distance runner (1897-1973)', ko label '파보 누르미'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q101942"
+    },
+    {
+      "id": "src_nurmi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Paavo Nurmi, English Wikipedia article (read via the MediaWiki extracts API, 2026-10-05) -- orientation and cross-checking only; not used as support for any scored row. Read for context on the 1924 Olympic race allocation, the 1932 suspension and the later business career.",
+      "url": "https://en.wikipedia.org/wiki/Paavo_Nurmi"
+    },
+    {
+      "id": "src_nurmi_olympedia_athlete",
+      "kind": "biography",
+      "title": "Olympedia (Olympic historians' database), athlete biography of Paavo Nurmi -- reference work by independent Olympic historians, non-self. Read in full (biography, medal record, personal bests): nine Olympic golds (six individual, three team) and three silvers 1920-1928, 22 official world records, the 1932 ban for alleged professionalism, and the 1952 torch.",
+      "url": "https://www.olympedia.org/athletes/67728"
+    },
+    {
+      "id": "src_nurmi_olympedia_events",
+      "kind": "biography",
+      "title": "Olympedia event-result pages with historians' commentary for Nurmi's Olympic events: 1920 5,000 m and 10,000 m and cross-country team; 1924 1,500 m, 5,000 m and cross-country; 1928 10,000 m -- independent, non-self. Read the commentary and result tables of each page: the Guillemot duel in 1920, the 55-minute 1500/5000 schedule and Nurmi's decision to attempt it in 1924, the record 1924 cross-country heat, and the 1928 10,000 m ('his ninth and final gold medal').",
+      "url": "https://www.olympedia.org/results/57399"
+    },
+    {
+      "id": "src_nurmi_finland100",
+      "kind": "institution",
+      "title": "Finland100 (Finnish Government's centenary-of-independence portal), 'Paavo Nurmi -- a running ambassador for Finland who embodied the nation's aspirations towards Europe and the West', with literature note citing Karikko and Koski, Legendary Runner (Sports Museum of Finland, 2006) -- Finnish historian's account (non-self), including quotations from Nurmi and from the journalist Martti Jukola and the interpretation of the 1932 ban. Read in full.",
+      "url": "https://finland100.fi/persons/nurmi-paavo/"
+    },
+    {
+      "id": "src_nurmi_wa_heritage",
+      "kind": "institution",
+      "title": "Mel Watman for World Athletics Heritage, 'Charley Paddock and Paavo Nurmi - the brightest stars of 100 years ago' (4 January 2021) -- athletics-historian overview of Nurmi's 1921-1931 records, stopwatch method and the 1924 double (non-self). Read in full.",
+      "url": "https://worldathletics.org/heritage/news/paddock-nurmi-brightest-athletics-stars-1921"
+    },
+    {
+      "id": "src_nurmi_racingpast",
+      "kind": "biography",
+      "title": "Racing Past (history of middle- and long-distance running), 'Profile: Paavo Nurmi' -- running-historian profile (non-self) with training schedules from Wilt's How They Train and Nurmi's pre-race target-time habit as quoted from The Will of Olympic Champions; note the profile itself says its details come from those books. Read in full.",
+      "url": "https://racingpast.ca/john_contents.php?id=112"
+    },
+    {
+      "id": "src_nurmi_encyclopedia_wb",
+      "kind": "biography",
+      "title": "Encyclopedia of World Biography (via encyclopedia.com), 'Paavo Nurmi' -- reference biography (non-self) drawing on Sports Museum Foundation of Finland and Virtual Finland material. Read in full; note it contains claims not confirmed elsewhere (for example the 1924 10,000 m episode, the thrown stopwatch and the 1932 Los Angeles story), which are not used.",
+      "url": "https://www.encyclopedia.com/people/sports-and-games/sports-biographies/paavo-nurmi"
+    },
+    {
+      "id": "src_nurmi_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Paavo Nurmi' (Editors of Encyclopaedia Britannica, updated by Mindy Johnston) -- reference article (non-self). Read in full; used for the Olympic record, the 1923 mile with its even 63-second quarters and the 1932 loss of amateur status.",
+      "url": "https://www.britannica.com/facts/Paavo-Nurmi"
+    },
+    {
+      "id": "src_nurmi_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Paavo Nurmi' -- reference overview citing Karikko and Koski's biography (non-self). Read in full; it contains errors (for example an '8,000 meters' gold in 1920) and is used only for broad points confirmed elsewhere.",
+      "url": "https://www.ebsco.com/research-starters/history/paavo-nurmi/"
+    },
+    {
+      "id": "src_nurmi_lope",
+      "kind": "press",
+      "title": "Lope Magazine, 'When the Flying Finn took America' (4 February 2022) -- modern sports-history retelling of the January-March 1925 American tour built from New York Times and other 1925 coverage (non-self, secondary). Read in full; used for the race-by-race travel and race schedule of the tour.",
+      "url": "https://lopemagazine.com/2022/02/04/paavo-nurmi-us-tour-1925-millrose-games-indoor-track/"
+    },
+    {
+      "id": "src_nurmi_wrhs",
+      "kind": "archive",
+      "title": "Edward Bolte, 'When the Flying Finns Flew in Cleveland, March 19, 1925', Western Reserve Historical Society bulletin (PDF with endnotes) -- local-history article citing the Cleveland Plain Dealer and Ashtabula Star-Beacon of March 1925 (non-self). Read in full; used for the 1925 tour totals and the contemporary reporter's remark that Nurmi was elusive.",
+      "url": "https://www.wrhs.org/files/news/bulletin44.4whentheflyingfinnsflewinclevelandmarch1925withendnotes.pdf"
+    },
+    {
+      "id": "src_nurmi_milwaukee_leader_1924",
+      "kind": "press",
+      "title": "Henry L. Farrell (United Press), 'Nurmi Sets Olympic Record in Winning 1,500 Meters', The Milwaukee Leader, 11 July 1924, p. 9 (Library of Congress, Chronicling America; OCR text read for the article) -- CONTEMPORARY press report of the 1924 Paris double, non-self.",
+      "url": "http://www.loc.gov/resource/sn83045293/1924-07-11/ed-1/?sp=9"
+    },
+    {
+      "id": "src_nurmi_brownsville_1932",
+      "kind": "press",
+      "title": "Associated Press, 'Nurmi is barred from Olympics on pro charges', Brownsville Herald (Texas), 29 July 1932, p. 6 (Library of Congress, Chronicling America; OCR text read for the article) -- CONTEMPORARY press report of the Los Angeles decision rejecting his entry over a 1931 German tour, with Finnish reaction; non-self and from a non-Finnish viewpoint.",
+      "url": "http://www.loc.gov/resource/sn86063730/1932-07-29/ed-2/?sp=6"
+    },
+    {
+      "id": "src_nurmi_nebraska_1925",
+      "kind": "press",
+      "title": "Associated Press dispatch of 7 January 1925 on Nurmi's New York debut, Nebraska newspaper sports page, 8 January 1925, p. 8 (Nebraska Newspapers, University of Nebraska-Lincoln; OCR partly illegible, only the Nurmi paragraphs read) -- contemporary press, non-self; used only to confirm the sold-out debut, the record sign-off and the verdict of veteran observers.",
+      "url": "https://nebnewspapers.unl.edu/lccn/sn84024326/1925-01-08/ed-1/seq-8.pdf"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Olympedia athlete page; Finland100; Racing Past; Encyclopedia of World Biography | 1919-1928 | independent historians, Finnish institutional account, running-historian profile, reference biography; all secondary] Olympedia credits his 'dedication to a rigorous training schedule'. Racing Past (citing Wilt) lays out the 1924 routine: a 10-12 km morning walk with sprints and gym work, an hour later 80-100 m sprints, a fast timed 400-1,000 m and 3,000-4,000 m at even pace on the track, and an evening 4-7 km cross-country run, after he had added a third daily session that year. Finland100 records his own statement that success needs 'hard work' at each of three stages and the journalist Martti Jukola's view that his demanding methods changed sports practice. The Encyclopedia of World Biography quotes him on devotion to a specialty. Several independent sources agree on a sustained, structured regimen; not scored above 80 because the sources describe and quote rather than document day-by-day logs."
+    },
+    "planning_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Olympedia 1924 1500 m page; Racing Past; Britannica; World Athletics Heritage | 1923-1924 | independent historians and reference work; secondary] Britannica reports that in his 1923 mile record he ran each of the first three quarters in exactly 63 seconds and the last in 61.4 by his stopwatch, a deliberately even-paced plan. Before the 1924 Games, when the schedule put the 1,500 m and 5,000 m finals 55 minutes apart, Racing Past says he tried that schedule at Helsinki on 19 June, running 3:52.6 and 14:28.2, both world records; Olympedia dates the 1,500 m record to three weeks before the Games and says he chose to attempt the double. Racing Past, quoting a translated Finnish source, also says he named his target time before races. The World Athletics Heritage piece gives the recorded kilometre splits of his 1921 10,000 m record. Several linked instances; the evidence is about pace and race schedule, which keeps the score below the 80s."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[Olympedia 1924 1500 m page; Lope Magazine; WRHS bulletin; Encyclopedia of World Biography; World Athletics Heritage | 1924-1925 | independent historians, modern retelling of 1925 press, local-history article; secondary] Olympedia says Nurmi 'still elected to attempt the double' in 1924 although the finals were 55 minutes apart, and won both. In 1925 he ran 55 events in five months on the American tour (WRHS; Lope Magazine's account of three races in three days with overnight trains between cities and a world record in most meetings); World Athletics Heritage and Racing Past count his records and say he set world records across 1,500 m to 10,000 m. The WRHS article adds that he left America fearing he had competed too often and burned himself out, hence dual-edged. Documented across two years and several sources; the underlying motive (records versus winning) is partly the sources' reading."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Olympedia athlete page; Racing Past; Britannica; Finland100 | 1920s | independent historians and reference works; secondary] Olympedia credits his 'mastery of pace judgment'; Racing Past says he developed an ability to judge his speed and later admitted he had done too much steady running at the expense of fast intervals, after which he added speed work in 1924; Britannica gives the exact 63-63-63-61.4 quarters of his mile record; Finland100 calls him a highly analytical athlete who rejected sauna and sisu as sufficient explanations and put the weight on work. Two or more distinct, independent facts (pace-judgment skill, self-critique of training mix and change in 1924) support a real lean, but the sources describe the skill more than they document a stated drive to master the craft for its own sake."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Olympedia 1924 1500 m page; Racing Past; Lope Magazine | 1924-1925 | independent historians and modern retelling of 1925 press; secondary] Olympedia says he hurt his knee a few weeks before the 1924 Games and that his punishing training programme let him recover quickly; Racing Past says he injured the knee badly in spring and came to form at the last moment, then won the 1,500 m and 5,000 m on one afternoon. In the 1925 tour Lope Magazine describes him racing in New York, Chicago and back to New York within three days after overnight train journeys, and WRHS counts 55 events in five months. Two distinct episodes of pressing on through injury and strain; evidence is for periods of one or two years, so only a moderate score and confidence."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Racing Past; Olympedia athlete and 1928 pages; EBSCO | 1924-1932 | running-historian profile, independent historians, reference overview; secondary] Racing Past says that in 1924 he changed his training (a third daily run and far more speed work) and that as his speed declined he focused on longer distances; Olympedia records that in 1928 he added the 3,000 m steeplechase and won a silver medal in it (EBSCO calls him 'completely inexperienced' in it), and that by 1932 he was preparing for the marathon. Several independent changes of method and event over eight years; modest because the sources do not record how he decided and the steeplechase result is a single event."
+    }
+  },
+  "externalIdentity": {
+    "wikidataId": "Q101942"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/paavo-nurmi-agence-rol-1923.jpg",
+    "width": 1067,
+    "height": 1600,
+    "source": "Bibliotheque nationale de France, Gallica, Agence Rol press photograph (glass negative), Stade Pershing, 30 September 1923, Rol 87116, ark:/12148/btv1b531190573, via Wikimedia Commons (cropped to Nurmi and downsized from a 2,100 x 3,150 px crop of the 6,192 x 8,508 px scan)",
+    "license": "Public domain (Gallica: 'domaine public / public domain'; Commons: PD-France, PD-1996, PD-US-expired)",
+    "licenseUrl": "https://gallica.bnf.fr/ark:/12148/btv1b531190573",
+    "attribution": "Agence Rol (photographic agency), 'Stade Pershing, 30/9/23, match d'athletisme, portraits des coureurs a pied, Paavo Nurmi et Lucien Duquesne', 30 September 1923; Bibliotheque nationale de France, Gallica; published in Le Petit Parisien, 1 October 1923, p. 4",
+    "attributionUrl": "https://catalogue.bnf.fr/ark:/12148/cb44482553t",
+    "creator": "Agence Rol (photographer not credited)",
+    "date": "1923-09-30",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:(Stade_Pershing,_30-9-23,_match_d%27athl%C3%A9tisme,_portraits_des_coureurs_%C3%A0_pied,_Paavo)_Nurmi_(et_Lucien)_Duquesne_-_btv1b531190573.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "파보 누르미"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata API (2026-10-05) returned Q101942, en label 'Paavo Nurmi', description 'Finnish middle and long distance runner (1897-1973)', ko label '파보 누르미'; the other hits (asteroid 1740 Paavo Nurmi Q143062, the 1925 statue Q17382947) were not used. SLUG CHECK: not in scratch/prod_slugs.txt, no existing candidate file or portrait. CLASSIFICATION: athlete / sport / athletic+historical+cultural, tags sustained_excellence and systematic_thinker, archetype competitive_performer, following the emil-zatopek and jesse-owens precedent; region western_europe per the Nordic precedent (nationality FI); era 20th_century. NURMI IS A PRIMARY-CAREER ATHLETE: later business ventures, the 1932 amateur-status ban and the 1952 torch are incidental and unscored; the 1932 ban is framed only as an amateur-rules decision, with no political reading. EVIDENCE READ (16 records, all fetched with curl or the loc.gov API and read locally in scratch/work/paavo-nurmi): Olympedia athlete page 67728 and seven event pages (57120, 57127, 57134, 57390, 57399, 57406, 57705); Finland100 profile; World Athletics Heritage (Watman 2021); Racing Past profile; Encyclopedia of World Biography; Britannica; EBSCO; Lope Magazine; WRHS Cleveland bulletin with endnotes; Milwaukee Leader (UP, 11 Jul 1924) and Brownsville Herald (AP, 29 Jul 1932) read as LOC OCR text; a Nebraska newspaper page of 8 Jan 1925 (OCR partly illegible, only the Nurmi paragraphs read); English Wikipedia read for cross-checks only. Also opened but not used: NURMI-Study page (a nutrition study's promotional biography, vegetarian-focused, repeats the same facts). Bot-walled or empty and skipped, not bypassed: paavonurmi.fi (the Sports Museum of Finland's official site; returned empty pages to curl and WebFetch), Papers Past (Incapsula), the Wayback Machine (429), chroniclingamerica.loc.gov OCR endpoint (Cloudflare challenge; the loc.gov search API and tile.loc.gov ALTO files were used instead), Sports Illustrated Vault. NOT READ: Karikko and Koski, Legendary Runner (Sports Museum Foundation of Finland, 2006), Lucas, 'In the Eye of the Storm' (Stadion 1992), Vogel (1972), Wilt, How They Train, Nurmi's own writings or the Kolehmainen/Nurmi accounts; their content is known only through Finland100, Racing Past and the encyclopedias. PERSPECTIVES: (1) Olympic historians (Olympedia, athlete and event pages, one family); (2) Finnish institutional/historian account (Finland100, from Karikko and Koski and Jukola); (3) athletics-heritage historian (World Athletics Heritage, Watman); (4) running-historian profile drawing on Wilt and a translated Finnish interview book (Racing Past); (5) contemporary press from the United States (UP 1924, AP 1925 and 1932); (6) reference works (Britannica, Encyclopedia of World Biography, EBSCO); (7) modern and local histories of the 1925 tour (Lope, WRHS, citing 1925 US papers). SELF perspective: Nurmi's own words appear only as quoted in Finland100, Racing Past and the Encyclopedia of World Biography; no row rests on them alone. NON-SELF BEHAVIOURAL sources: Olympedia, Racing Past, World Athletics Heritage, WRHS, Lope and the contemporary press. EPISODE USE: training regimen and Finland100 quotation -> discipline; 1923 even-quarters mile, 19 June 1924 Helsinki rehearsal of the Paris schedule and pre-race target times -> planning orientation; the 1924 double attempt and the 1925 tour -> achievement drive; pace-judgment skill and self-critique -> mastery orientation; 1924 knee injury and 1925 race load -> persistence; 1924 training change, steeplechase 1928 and move up in distance -> adaptability. ROWS CONSIDERED AND LEFT UNSCORED: competitiveness (genuinely mixed: he ran 'against the clock' per Finland100 and Encyclopedia of World Biography while Olympedia shows him racing Guillemot and Ritola hard); autonomy_need, social_assertiveness and independent_thinking (the training-alone, secrecy and no-interviews claims rest on Wikipedia and encyclopedias, and the 1924 10,000 m reaction and the thrown stopwatch are single-source anecdotes); opportunity_sensing, risk_tolerance and resourcefulness (the later share-dealing, clothing and construction ventures are mostly reported as outcomes in Finland100, Encyclopedia of World Biography and WRHS; no decision-level evidence was read); persuasiveness, leadership_drive, collaboration (no behavioural episodes read). EXCLUDED ON PURPOSE: marriage, divorce and family life, illness and the final heart illness, personal temperament labels ('taciturn', 'neurasthenic') as evidence, honours and records as evidence in themselves, the politics of the 1932 case (Finland100 and Wikipedia describe disputed claims about a Swedish campaign; not adjudicated and not scored), the 1939-40 fundraising tour. CONFLICTS REPORTED, NOT ADJUDICATED: (a) world-record count: Olympedia 22 official plus 13 unofficial; Britannica and Encyclopedia of World Biography 25; NURMI-Study 24; World Athletics Heritage 29 'outdoor world records or bests'; (b) 1924 5,000 m tactics: Olympedia says Nurmi caught the leaders at 2 km and led by 4 km, Racing Past and the Encyclopedia of World Biography say he trailed Ritola and passed at the end; (c) ban chronology: Wikipedia says IAAF suspension in April 1932 and a special commission rejected his entry less than three days before the 10,000 m, matching the AP report of 29 July; Britannica says he 'lost his international amateur status'; the Encyclopedia of World Biography attributes it to the 1925 German trip while the AP report says a 1931 German trip; (d) cause of the ban: Finland100 says a popular Finnish theory of a personal campaign by IAAF chairman Edstrom is not what happened (a tighter IAAF stance), while the Wikipedia article describes Edstrom pushing it; not scored; (e) 1924 Cross-country: 15 of 38 finishers (Olympedia, Wikipedia) versus 24 of 39 collapsing (Encyclopedia of World Biography). KNOWN LIMITS: all text is English; no Finnish-language, firsthand training log or full biography was readable; every confidence is at or below 0.68 and every score at or below 80. No eligibility, coverage or match output was used in scoring. PORTRAIT: Agence Rol press photograph, BnF Gallica ark:/12148/btv1b531190573, caption 'Nurmi et Lucien Duquesne', Paris, 30 September 1923 (BnF catalogue record cb44482553t, published in Le Petit Parisien 1 Oct 1923). Gallica page metadata carries DC.rights 'domaine public / public domain'; Commons carries PD-France/PD-1996/PD-US-expired; Rol agency photographs are not under restriction. The photo shows two runners; the right-hand runner, bib '1' with the Finnish flag, is identified by the penciled annotations on the negative and the BnF title; I downloaded the Commons copy of the 6,192 x 8,508 scan and cropped to Nurmi (2,100 x 3,150) then downsized to 1,067 x 1,600 (no upscaling); viewed and opens. Not used: Commons 'Paavo Nurmi (Antwerp 1920).jpg' (324 x 506, small) and the Bain News Service negative 'P. Nurmi' (LC-DIG-ggbain-38175, 3,219 x 4,747, no date recorded and several men in frame so the subject could not be identified with certainty). Gallica's own conditions-of-use page was not opened; the rights statement relied on is the Gallica page metadata plus Commons wikitext. PUBLICATION DECISION: evidence_approved -- identity verified, more than 10 substantive records read, at least 5 independent perspectives with several non-self behavioural sources, honest 6-row profile, portrait rights-verified."
+  }
+}

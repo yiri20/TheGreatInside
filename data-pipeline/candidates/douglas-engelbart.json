@@ -1,0 +1,228 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "douglas-engelbart",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Douglas Engelbart",
+    "aliases": [
+      "Douglas C. Engelbart",
+      "Doug Engelbart",
+      "Douglas Carl Engelbart"
+    ],
+    "wikidataId": "Q92614",
+    "birthYear": 1925,
+    "deathYear": 2013,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor",
+      "computer_scientist"
+    ],
+    "fieldIds": [
+      "computing",
+      "technology",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "innovation",
+      "engineering"
+    ],
+    "tagIds": [
+      "early_computing",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_engelbart_wikidata",
+      "kind": "wikidata",
+      "title": "Douglas Engelbart (Q92614) -- verified live via wbgetentities (2026-10-05): en label 'Douglas Engelbart', description 'American engineer and inventor (1925-2013)', born 30 Jan 1925, died 2 Jul 2013, citizenship United States, instance of human, ko label '더글러스 엥겔바트', images P18 'Douglas Engelbart in 2008.jpg' and 'SRI Douglas Engelbart 1968 (cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q92614"
+    },
+    {
+      "id": "src_engelbart_wikipedia",
+      "kind": "wikipedia",
+      "title": "Douglas Engelbart, English Wikipedia -- orientation only: used for the uncontested high-level facts that he won the ACM Turing Award (1997) and the US National Medal of Technology (December 2000), and for the title and report number of the October 1962 Air Force Office of Scientific Research summary report. Not used for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+    },
+    {
+      "id": "src_engelbart_stanford_oralhistory",
+      "kind": "archive",
+      "title": "Douglas Engelbart, Stanford and the Silicon Valley Oral History interviews (interviewers Judith Adams and Henry Lowood; edited by Thierry Bardini; 19 Dec 1986, 14 Jan 1987, 4 Mar 1987, 1 Apr 1987), Stanford University Libraries web transcripts -- SELF-ACCOUNT (his own long, frank retelling; used only where an independent source corroborates, or for facts about what he himself did and said he did). Read in full: interview 2 sections on Digital Techniques, the decision to join SRI and the first funding; interview 1 sections on the Navy, the Bush reading, Ames and Berkeley; interview 3 sections on the 1964 funding, SRI management, the patent/licensing question, the mouse and the 1968 demonstration; interview 4 sections on the Journal, the Network Information Center dissension, the 1977 sale to Tymshare. The remaining pages were skimmed and searched, not read line by line.",
+      "url": "https://web.stanford.edu/dept/SUL/sites/engelbart/main2-ntb.html"
+    },
+    {
+      "id": "src_engelbart_smithsonian1994",
+      "kind": "archive",
+      "title": "Transcript of a video history interview with Douglas Engelbart by Jon Eklund, Computerworld Smithsonian Award series, National Museum of American History, Cosmos Club, Washington, 4 May 1994 -- SELF-ACCOUNT. Read the sections on resistance at SRI to the 1962 report, the research community's view that he was on the wrong track, and NLS and the Alto; the rest of the transcript was skimmed.",
+      "url": "https://web.stanford.edu/class/history34q/readings/Engelbart/Engelbart_Interview1994.html"
+    },
+    {
+      "id": "src_engelbart_daniels_firstmonday",
+      "kind": "press",
+      "title": "Ted Daniels, review of Thierry Bardini, 'Bootstrapping: Douglas Engelbart, Coevolution, and the Origins of Personal Computing' (Stanford University Press, 2001), First Monday reviews section -- INDEPENDENT, CRITICAL secondary account that summarises Bardini's history of the SRI lab: Engelbart's single-minded pursuit, a dominating style that became prophet-like, weekly encounter-group sessions imposed on staff, the est episode, the difficulty of learning his system, and his lack of interest in product development. Reviewer's retelling of a book that was NOT itself read (lending-only at the Internet Archive); read in full.",
+      "url": "https://cybra.lodz.pl/Content/1081/issues/issue6_7/reviews/index.html"
+    },
+    {
+      "id": "src_engelbart_mitchell_chm2019",
+      "kind": "archive",
+      "title": "James G. Mitchell (Xerox PARC computer scientist; Engelbart's contemporary and sometime collaborator), oral history interview by David C. Brock, 19 February 2019, Computer History Museum, reference X8963.2019 -- INDEPENDENT PARC-side perspective: the shared programming-language project between PARC and Engelbart's lab, why people in the lab were upset at his directive style, the legal agreement that ended the collaboration, his later dislike of the web, his 'windows' claim, and Mitchell's admiration of the 1968 demonstration. Read the passages on Engelbart (about 14 mentions) in full; other parts of the 37-page transcript were not read.",
+      "url": "http://archive.computerhistory.org/resources/access/text/2019/05/102781074-05-01-acc.pdf"
+    },
+    {
+      "id": "src_engelbart_weber_chm2018",
+      "kind": "institution",
+      "title": "Marc Weber (historian, Computer History Museum), 'Net@50: Did Engelbart's \"Mother of All Demos\" Launch the Connected World?', Computer History Museum blog, 9 December 2018 -- INDEPENDENT institutional historian's overview: Engelbart's goal and the contrast with artificial-intelligence researchers, his hands-off management of operational detail, the Network Information Center, the decline of the lab after 1969, the 1977 sale to Tymshare, Bootstrap Institute (1988), and the later honours. Read in full.",
+      "url": "https://computerhistory.org/blog/net-50-did-engelbart-s-mother-of-all-demos-launch-the-connected-world/"
+    },
+    {
+      "id": "src_engelbart_landau_smithsonianmag2018",
+      "kind": "press",
+      "title": "Valerie Landau, 'How Douglas Engelbart Invented the Future', Smithsonian Magazine, January 2018 -- COLLABORATOR's account (Landau worked closely with Engelbart from 1986 to 2013, co-authored 'The Engelbart Hypothesis'); admiring but candid: his 1951 resolve, the 1968 audience reaction, the hiring of social-science graduates for 'networked improvement communities' and the funders' reaction, his 'You just don't get it' habit, his refusal to simplify the mouse and the system, and his own irritability toward colleagues. Read in full.",
+      "url": "https://www.smithsonianmag.com/innovation/douglas-engelbart-invented-future-180967498/"
+    },
+    {
+      "id": "src_engelbart_ethw_milestone",
+      "kind": "institution",
+      "title": "Engineering and Technology History Wiki (IEEE), Milestone 'Public Demonstration of Online Systems and Personal Computing, 1968' (dedicated 19 March 2017) -- institutional milestone citation and supporting statement (non-self, laudatory in tone): what was shown on 9 December 1968, the obstacles (funding for radical ideas, attitude of the mainstream computing community), and the list of references. Read in full.",
+      "url": "https://ethw.org/Milestones:Public_Demonstration_of_Online_Systems_and_Personal_Computing,_1968"
+    },
+    {
+      "id": "src_engelbart_arc_findingaid",
+      "kind": "archive",
+      "title": "Guide to the SRI ARC/NIC records (X3578.2006), finding aid by Elizabeth Feinler (a member of Engelbart's lab and later director of the Network Information Center), Computer History Museum, 2011 -- COLLEAGUE-written administrative history of the Augmentation Research Center and Network Information Center (dates, funding agencies, the NIC spin-off in 1973). Read the abstract and administrative history.",
+      "url": "https://archive.computerhistory.org/resources/access/text/finding-aids/102706170-SRI/102706170-SRI.pdf"
+    },
+    {
+      "id": "src_engelbart_chm_mouse",
+      "kind": "institution",
+      "title": "Computer History Museum, 'CHM Acquires Original SRI Mouse' -- institutional page crediting Bill English with designing the first mouse in 1964 at Engelbart's laboratory (patented 1970) and describing the 1968 demonstration. Read in full.",
+      "url": "https://computerhistory.org/?p=29205"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_engelbart_weber_chm2018, src_engelbart_daniels_firstmonday, src_engelbart_mitchell_chm2019, src_engelbart_smithsonian1994, src_engelbart_stanford_oralhistory | 1950s-1990s | independent historian + critical review of a biography + PARC colleague + two self-accounts] Weber describes his aim of augmenting human intellect as in 'stark contrast' to the artificial-intelligence agenda of his contemporaries; Daniels (summarising Bardini) says he pursued his co-evolution goal single-mindedly and with little interest in other developments in the field, and kept a system that took about a year to learn; Mitchell says he kept to a centralised, architect-centred view and never liked the decentralised web. Engelbart himself says that parts of the research community thought he was on the wrong track and that SRI doubted the 1962 report, and that he rejected an academic career because junior faculty who left the accepted path were punished. Several dated instances from independent sources, none disputing the pattern. dual_edged: the same stance kept his vision intact and also isolated him from the field's direction."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_engelbart_weber_chm2018, src_engelbart_daniels_firstmonday, src_engelbart_stanford_oralhistory, src_engelbart_landau_smithsonianmag2018 | 1957-2000s | independent historian + critical review + self-account + collaborator] He waited several months to be taken on at SRI and kept his augmentation idea alive while doing assigned device work (self-account); he left the company he co-founded in 1957 rather than give up the goal (self-account); after the lab was sold to Tymshare in 1977 and he left in 1986, Weber records that he continued in offices provided by Logitech and founded Bootstrap Institute with his daughter in 1988; Daniels records that he pursued his goal single-mindedly at SRI. Repeated over decades and corroborated by independent sources; the early episodes rest on his own retelling, hence not higher."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_engelbart_weber_chm2018, src_engelbart_landau_smithsonianmag2018, src_engelbart_smithsonian1994, src_engelbart_stanford_oralhistory | 1962-1990s | independent historian + collaborator + self-accounts] Weber reports that he framed the goal as raising a group's 'collective IQ' through a feed-forward 'bootstrapping' process in which each improvement in tools and organisational method accelerates the next, and that much of the lab's work was aimed at organisational process rather than machines; Landau reports that in the 1970s he sent staff to other sites to build 'networked improvement communities'; Engelbart says the 1962 report treated the control devices (mouse, chord keyset) and structured files as stages in a larger framework. The pattern is an integrated, many-level model of a tool, its users and its organisation, documented by an independent historian and a collaborator. I have not read the 1962 report itself; supported through secondary and interview accounts. dual_edged: the same breadth made the vision hard to communicate (Landau)."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_engelbart_weber_chm2018, src_engelbart_chm_mouse, src_engelbart_stanford_oralhistory, src_engelbart_mitchell_chm2019 | 1962-1968 | independent historian + institutional page + self-account + PARC colleague] Distinct documented ideas: the pointing-device concept that English built (CHM credits English with the 1964 design; Weber calls it Engelbart's idea and English's development); a one-hand chord keyset; a lab built around linked, structured documents and shared on-screen work; and in his interview a planned 'journal' with back-links that was never implemented. Mitchell, who had no stake in his priority, says PARC adopted the mouse and hired his team and that the 1968 demonstration 'blew me away'. Original combinations are documented across several items from independent sources; scored in the 70s, not higher, because authorship of individual elements is shared (English, others) and some priority claims are contested (Mitchell is sceptical of the 'windows' claim)."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_engelbart_weber_chm2018, src_engelbart_stanford_oralhistory, src_engelbart_mitchell_chm2019, src_engelbart_landau_smithsonianmag2018, src_engelbart_daniels_firstmonday | 1964-1977 | independent historian + self-account + PARC colleague + collaborator + critical review] Mixed, two-sided evidence. Toward: Weber says he inspired some of the best engineers of the time to join him; Engelbart says the 1968 demonstration 'never would have flown' without Bill English; the lab shared a common on-line tool and hosted the Network Information Center. Against: Mitchell says staff in the lab were upset because he was so directive and 'you had to do what he said'; Landau reports detractors saying the great proponent of collaboration was unable to collaborate, and that he ended debates with 'You just don't get it'; Daniels (from Bardini) describes staff mutiny and a dominating style. Scored at the midpoint because the independent evidence points both ways, with a lean to neither."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_engelbart_weber_chm2018, src_engelbart_stanford_oralhistory, src_engelbart_daniels_firstmonday | 1963-1977 | independent historian + self-account + critical review] Weber says he founded his own lab and grew it to about 50 people, was good at inspiring recruits, but was a hands-off manager of operations; Daniels (from Bardini) says he came to dominate subordinates in a prophet-like way. In his own account he says he asked SRI repeatedly (from about 1974) to give him someone else to run the lab so he could keep the research direction, and that he had realised in 1957 he was 'not very effective as a manager'. He sought to lead a vision and a research programme, but not the day-to-day running of an organisation, so a modest score."
+    },
+    "persuasiveness": {
+      "score": 50,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_engelbart_weber_chm2018, src_engelbart_stanford_oralhistory, src_engelbart_landau_smithsonianmag2018, src_engelbart_daniels_firstmonday, src_engelbart_smithsonian1994 | 1962-1977 | independent historian + self-accounts + collaborator + critical review] Documented successes: he obtained funding from NASA and ARPA in 1963-64 (Weber and the lab's finding aid confirm the funders) and persuaded conference organisers, initially hesitant, to give him the 1968 slot (self-account). Documented failures: Landau says the 1968 audience gave a standing ovation then left without volunteering to join, ARPANET funders read his hires of social-science graduates as a sign of failure, and the funding was cut; Engelbart says his own staff resented being asked to run the Network Information Center service; Daniels says the system was a hard sell. Balanced, so a mid score."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_engelbart_stanford_oralhistory, src_engelbart_ethw_milestone, src_engelbart_landau_smithsonianmag2018 | 1957-1968 | self-account + institutional milestone + collaborator] In 1957 he left a start-up he co-founded to pursue an unproven research goal with three young children (self-account); in 1968 he staged an unprecedented live demonstration with leased video and microwave links and a special projector, with a film recording kept on standby in case the live system crashed (self-account), and in his own telling did not tell his sponsors how much research money it used so they would not be exposed if it failed (self-account; Landau and the IEEE milestone confirm the scale and novelty of the demonstration). The 1968 event is corroborated as a fact; his stated reasoning about sponsors rests on his own retelling, hence moderate confidence."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_engelbart_stanford_oralhistory, src_engelbart_weber_chm2018, src_engelbart_landau_smithsonianmag2018, src_engelbart_smithsonian1994 | 1957-1977 | self-account + independent historian + collaborator] He rejected university positions because junior faculty had to pursue accepted research (self-account) and chose SRI as a place to find sponsors for his own ideas; he did the 1962 report largely alone and wanted his own lab; Weber records that SRI management was 'always wary' of his freewheeling group and made more demands as funding declined; Landau says his refusal to compromise made it hard to gather momentum, and when people praised more intuitive software he asked whether they would rather ride a tricycle or a bicycle. Several dated instances from three perspectives."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_engelbart_landau_smithsonianmag2018, src_engelbart_weber_chm2018, src_engelbart_stanford_oralhistory | 1951-2000s | collaborator + independent historian + self-account] Landau quotes him on his 1951 resolve to help people 'handle complexity and urgency'; he left a company he co-founded rather than let a profit-making role displace that goal (self-account); in the 1970s he sent hires to other institutions to build 'networked improvement communities' (Landau); and Weber records the long run of advocacy through Bootstrap Institute from 1988. Choices are consistently tied to a social goal rather than commercial return, corroborated by two non-self sources."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_engelbart_stanford_oralhistory, src_engelbart_landau_smithsonianmag2018, src_engelbart_weber_chm2018 | 1957-1977 | self-account + collaborator + independent historian] Went to SRI uninvited and waited months for an offer (self-account); arrived at ARPA's door in early 1963 with the 1962 report and a proposal (self-account; the finding aid and Weber confirm the 1963 funding); asked the programme committee for a 1968 slot nine months ahead (self-account); hired social-science graduates to build user communities without being asked to (Landau). Several distinct self-started moves, with the funding and hires corroborated by non-self sources."
+    },
+    "belief_updating": {
+      "score": 30,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_engelbart_landau_smithsonianmag2018, src_engelbart_daniels_firstmonday, src_engelbart_mitchell_chm2019 | 1970s-2010s | collaborator + critical review + PARC colleague] Landau reports he ended arguments with 'You just don't get it', lamented that Apple's one-button mouse had been 'dumbed down', and rejected ease-of-use criticism (tricycle versus bicycle); Daniels, summarising Bardini, says he accepted that learning his system could take a year and ignored the 'real' user; Mitchell says he disliked HTML and the decentralised web and became 'a little bit bitter'. Three independent perspectives describe a consistent refusal to revise core design convictions in response to user and market feedback. dual_edged: the same consistency preserved the integrated design he cared about."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "더글러스 엥겔바트"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/douglas-engelbart-handy-2008.jpg",
+    "width": 1212,
+    "height": 1496,
+    "source": "Wikimedia Commons, File:Douglas Engelbart in 2008.jpg (1212x1496), uploaded from Flickr (user vonguard / Alex Handy, photo 3092878391); stored unmodified (no resampling, no crop)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Photo by Alex Handy, taken 8 December 2008, CC BY-SA 2.0, via Wikimedia Commons; verified on the original Flickr page (license shown as Attribution-ShareAlike 2.0 Generic) on 2026-10-05 and reviewed by the Commons Flickr-review bot on 2010-03-13",
+    "attributionUrl": "https://www.flickr.com/photos/44451574@N00/3092878391/",
+    "creator": "Alex Handy",
+    "date": "2008-12-08",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Douglas_Engelbart_in_2008.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-05) for Q92614 returned en label 'Douglas Engelbart', description 'American engineer and inventor (1925-2013)', P569 30 Jan 1925, P570 2 Jul 2013, citizenship United States (Q30), instance of human (Q5), ko label '더글러스 엥겔바트', P18 'Douglas Engelbart in 2008.jpg' and 'SRI Douglas Engelbart 1968 (cropped).jpg'; matches the intended person. SLUG CHECK: slug not in scratch/prod_slugs.txt and no existing candidate file before this run. CLASSIFICATION: occupations engineer, inventor, computer_scientist (all in the occupation vocabulary); fields computing, technology, engineering (field.* keys exist in en.ts); impactDomains technological, innovation, engineering; tags early_computing and innovator; archetype technical_innovator; region north_america, nationality US, era 20th_century (career 1948-2013). EVIDENCE READ: 10 records opened and read in this run, of which 8 substantive: Stanford oral-history interviews 1-4 (self; large relevant portions read, rest skimmed), the 1994 Smithsonian interview (self; selected sections), Ted Daniels's First Monday review of Bardini's Bootstrapping (independent, critical, read in full), James Mitchell's 2019 CHM oral history (independent PARC peer; Engelbart passages read), Marc Weber's 2018 CHM blog (independent historian, read in full), Valerie Landau's 2018 Smithsonian Magazine article (collaborator, read in full), the IEEE ETHW milestone page, the CHM mouse page, and Elizabeth Feinler's finding aid (administrative history). PERSPECTIVES: (1) SELF: Stanford and Smithsonian interviews, never used alone for a row except where flagged in the rationale; (2) INDEPENDENT historians/institutions: Weber, ETHW, CHM, Feinler; (3) INDEPENDENT peer: Mitchell (PARC); (4) CRITICAL secondary: Daniels summarising Bardini; (5) COLLABORATOR/ADMIRER: Landau. NON-SELF BEHAVIOURAL sources: Weber, Mitchell, Daniels, Landau. NOT AVAILABLE / NOT READ: Thierry Bardini's Bootstrapping (2000), John Markoff's What the Dormouse Said (2005), Hiltzik's Dealers of Lightning and Waldrop's The Dream Machine exist on the Internet Archive only as lending copies and were NOT read; the Markoff New York Times obituary and the CHM 2005 Markoff oral history PDF were not retrieved; the ACM Turing Award page is behind a Cloudflare block and was not bypassed (Turing Award 1997 rests on Wikipedia as orientation and Weber's mention); the 1962 'Augmenting Human Intellect' report itself was not read; web-search summaries mentioning the est episode and Bardini's account were not used except as reported by Daniels, whose review was read. EPISODE USE: independent thinking (AI contrast, wrong-track perception, rejected academia); persistence (SRI waiting, 1957 departure from his start-up, Logitech/Bootstrap Institute); systems abstraction (bootstrapping, networked improvement communities); collaboration, leadership drive, persuasiveness (English at the 1968 demo, Mitchell on directive style, Landau on funders and 'You just don't get it', NIC dissension); risk tolerance (1968 gamble); autonomy; impact motivation; proactive agency; belief updating (mouse buttons, HTML, ease-of-use). ROWS CONSIDERED AND LEFT UNSCORED: experimentation (device tests and bootstrapping are only thinly evidenced: the use of his own system for lab work was not verified in what I read); curiosity (library roaming rests on one self-account); ambiguity_tolerance (overlaps with independent thinking; vague proposals are self-account); opportunity_sensing (his remark about the mouse patent is his own retelling and outcome-driven); adaptability (pivots such as the NIC and device work were assigned or sponsor-driven, and the conservative-design evidence is already in belief updating); conflict_tolerance (Landau's irritability anecdotes are not independent incidents); detail_orientation, perfectionism, discipline, deep_focus (no direct behavioural evidence read); achievement_drive and competitiveness (would rest on awards and priority claims). EXCLUDED ON PURPOSE: awards, honours and the Turing Award/National Medal (not behaviour); the mouse's commercial history and priority claims for windows (contested; Mitchell is sceptical); his health and death; the est/encounter-group episode beyond Daniels's summary (private-life and allegation-adjacent; secondary retelling of a book not read); his 1977 SRI termination reasons (only his own account, conflict-of-interest dispute). CONFLICTS REPORTED, NOT ADJUDICATED: (a) credit for the mouse: CHM credits English with the 1964 design, Weber calls the idea Engelbart's and the development English's, and Engelbart's own account is that English organised the device study; (b) whether the lab's decline was caused by management (Daniels/Bardini, Mitchell) or by funding shifts and talent loss (Weber, Landau, Engelbart): partly both. PORTRAIT: Commons 'Douglas Engelbart in 2008.jpg' (1212x1496, CC BY-SA 2.0 by Alex Handy, Flickr photo 3092878391, taken 2008-12-08); original Flickr page checked live 2026-10-05 and shows the Attribution-ShareAlike 2.0 license (license id 5); no upstream institution is involved (private photographer); stored unmodified. The 1968 SRI photograph (CC BY-SA 3.0, 235x322) was rejected as too small. EDITORIAL DRAFT: scratch/editorial/douglas-engelbart.json."
+  }
+}

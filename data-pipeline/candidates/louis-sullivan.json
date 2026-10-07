@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "louis-sullivan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Louis Sullivan",
+    "aliases": [
+      "Louis Henri Sullivan",
+      "Louis H. Sullivan"
+    ],
+    "wikidataId": "Q243240",
+    "birthYear": 1856,
+    "deathYear": 1924,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect"
+    ],
+    "fieldIds": [
+      "architecture"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "nonconformist",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sullivan_wikidata",
+      "kind": "wikidata",
+      "title": "Louis Sullivan (Q243240) -- verified live via wbgetentities (2026-10-05): en label 'Louis Sullivan', description 'American architect (1856-1924)', P569 3 Sep 1856, P570 14 Apr 1924, citizenship United States (Q30), instance of human, ko label '루이스 설리번', P18 'LouisSullivan.jpg' and 'Louis Sullivan circa 1895.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q243240"
+    },
+    {
+      "id": "src_sullivan_autobiography1924",
+      "kind": "biography",
+      "title": "Louis H. Sullivan, The Autobiography of an Idea (New York: Press of the American Institute of Architects, 1924), Internet Archive full text (autobiographyofi00sull_0), with a foreword by Claude Bragdon -- SELF-ACCOUNT, written in the third person in a highly stylised, often polemical prose, so used only for what he says he did and for his own stated positions, never as sole support for a row. Read locally: the foreword, the passages on leaving the Massachusetts Institute of Technology for the Ecole des Beaux-Arts, the 1879-81 entry into Adler's office and partnership, the Auditorium commission, the Wainwright Building and the steel-frame passage, and the World's Fair and its aftermath.",
+      "url": "https://archive.org/details/autobiographyofi00sull_0"
+    },
+    {
+      "id": "src_sullivan_tall_office_1896",
+      "kind": "press",
+      "title": "Louis H. Sullivan, 'The Tall Office Building Artistically Considered', Lippincott's Magazine, March 1896, Internet Archive scan (tallofficebuildi00sull) -- SELF, a published essay setting out his reasoning for the tall office building and the formula 'form ever follows function'. Read in full for the problem statement, the five-part programme of the building and the closing argument.",
+      "url": "https://archive.org/details/tallofficebuildi00sull"
+    },
+    {
+      "id": "src_sullivan_bragdon1918",
+      "kind": "biography",
+      "title": "Claude Bragdon, Architecture and Democracy (New York: Alfred A. Knopf, 1918), Internet Archive full text (architecturedemo00brag), essay 'Louis Sullivan, Prophet of Democracy' -- ADMIRING, personally acquainted contemporary (a younger architect who read Kindergarten Chats as it appeared and corresponded with Sullivan); quotes Sullivan's own letter on how he built Kindergarten Chats and records that admirers' attempt to publish it as a book failed when he refused to tone it down. Read the whole essay; its praise is not used as evidence.",
+      "url": "https://archive.org/details/architecturedemo00brag"
+    },
+    {
+      "id": "src_sullivan_rebori1916",
+      "kind": "press",
+      "title": "A. N. Rebori, 'An Architecture of Democracy: Three Recent Examples from the Work of Louis H. Sullivan', Architectural Record, May 1916 (republished in the magazine's 'From the Record Archives' series) -- ADMIRING first-hand observer: a fellow architect who describes watching Sullivan work out the Grinnell, Iowa bank with its building committee over three days, and his descriptions of the Grinnell and Newark banks. Read in full; its evaluative praise is not used as evidence.",
+      "url": "https://www.architecturalrecord.com/articles/18020-from-the-record-archives-an-architecture-of-democracy-three-recent-examples-from-the-work-of-louis-h-sullivan"
+    },
+    {
+      "id": "src_sullivan_wright1924",
+      "kind": "press",
+      "title": "Frank Lloyd Wright, 'Louis H. Sullivan -- His Work', The Architectural Record, vol. 56 no. 1, July 1924, pp. 28-32, Internet Archive OCR text (sim_architectural-record_1924-07_56_1; OCR partly garbled) -- PARTISAN first-hand testimony of a former employee and devoted disciple, written months after Sullivan's death; useful for what Wright says he witnessed (the Wainwright drawing board) and for Wright's view of the Auditorium, Transportation Building and Adler's role. Read the full essay; its adoring tone is not used as evidence.",
+      "url": "https://archive.org/details/sim_architectural-record_1924-07_56_1"
+    },
+    {
+      "id": "src_sullivan_mumford1931",
+      "kind": "biography",
+      "title": "Lewis Mumford, The Brown Decades: A Study of the Arts in America, 1865-1895 (New York: Harcourt, Brace, 1931), Internet Archive full text (browndecadesastu007829mbp), chapter 'Modern Architecture', the section on Louis Sullivan -- INDEPENDENT, CRITICAL scholarly account that praises his originality and the Carson Pirie Scott design while arguing against his emphasis on the vertical in tall buildings and against much of his ornament; also quotes Montgomery Schuyler's 1912 judgement. Read the whole Sullivan section; Mumford's remarks on Sullivan's personality, his later years and his psychology are interpretive and are deliberately not used.",
+      "url": "https://archive.org/details/browndecadesastu007829mbp"
+    },
+    {
+      "id": "src_sullivan_nps_wainwright",
+      "kind": "institution",
+      "title": "U.S. National Park Service, National Register of Historic Places Inventory -- Nomination Form, Wainwright Building, St. Louis (landmark designation 1968; form prepared by Stephen Lissandrello, Historic Sites Survey, 10 April 1975), NPGallery -- institutional description and statement of significance (read in full): the building's steel frame, planning logic and ornament, and its place in Sullivan's reasoning in the Lippincott's essay.",
+      "url": "https://npgallery.nps.gov/GetAsset/c4397f52-7f4c-4edd-bd90-2c69643e4c44"
+    },
+    {
+      "id": "src_sullivan_chicago_landmarks",
+      "kind": "institution",
+      "title": "City of Chicago, Chicago Landmarks, 'Carson, Pirie, Scott and Company Building' landmark details page (designated 5 November 1970) -- institutional summary: dates of the 1898-99 and 1902-04 construction, Sullivan and D. H. Burnham and Co. as architects, the cast-iron ornament of the lower two stories. Read in full (short).",
+      "url": "https://webapps1.chicago.gov/landmarksweb/web/landmarkdetails.htm?lanId=1264"
+    },
+    {
+      "id": "src_sullivan_cac_adler",
+      "kind": "institution",
+      "title": "Chicago Architecture Center, Architecture Encyclopedia, 'Adler and Sullivan' -- institutional overview (read in full): the firm's 1881 founding, the Auditorium, Wainwright and Chicago Stock Exchange buildings, the strain of the 1890s and the 1895 separation, and Sullivan's role as mentor of Frank Lloyd Wright.",
+      "url": "https://www.architecture.org/online-resources/architecture-encyclopedia/adler-and-sullivan"
+    },
+    {
+      "id": "src_sullivan_record2016",
+      "kind": "press",
+      "title": "Suzanne Stephens, 'Architectural Criticism -- on the RECORD', Architectural Record, 1 September 2016 -- magazine retrospective, read only for the statement that Montgomery Schuyler and Russell Sturgis commended the expression of the steel frame in Sullivan's Bayard Building (1899); orientation, not used for any row.",
+      "url": "https://www.architecturalrecord.com/articles/11869-architectural-criticismon-the-record"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sullivan_mumford1931, src_sullivan_bragdon1918, src_sullivan_rebori1916, src_sullivan_tall_office_1896, src_sullivan_autobiography1924 | 1870s-1910s | critical scholarly account + admiring contemporary + first-hand observer + two self-sources] Repeated, separately dated decisions against prevailing professional practice. (1) He left the Massachusetts Institute of Technology after about a year because he judged its teaching a pale copy of the Ecole des Beaux-Arts and went to Philadelphia and Paris (his own account; Mumford summarises the same route). (2) In 1896 he argued in print that the tall office building should be designed from its own conditions 'without thought of books, rules, precedents' (essay text), and Mumford says he 'refused to deal in' the costly historical styles of the 1890s, so that detractors called him an expensive architect, although Mumford criticises the vertical emphasis that resulted. (3) At the 1893 Exposition he produced the one building that departed from precedent (the Transportation Building; Mumford, Wright), against the classical majority. (4) Bragdon reports that when admirers wanted Kindergarten Chats issued as a book he was asked to tone it down and refused. (5) Rebori, watching him in Grinnell, describes each bank as derived from its own requirements rather than from a stock design. Mumford (critical) and Bragdon/Rebori/Wright (admiring) agree on the pattern, so it is not only a partisan reading; kept at 82 because the sources are mostly admiring and Mumford argues several of his conclusions were wrong."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sullivan_mumford1931, src_sullivan_nps_wainwright, src_sullivan_chicago_landmarks, src_sullivan_rebori1916, src_sullivan_wright1924 | 1890-1904 | critical scholarly account + institutional records + first-hand observer + partisan testimony] Mumford, who is critical of much of it, credits the originality of his ornament and of the Carson Pirie Scott store (a bold system of horizontal windows and a rounded corner bay with, he says, nothing comparable in European department stores until after 1920). The National Park Service describes the Wainwright Building as a specially developed form for the multi-storey office block, with piers, terra-cotta foliage panels varied in design and scale at each floor and an overhanging roof slab; the City of Chicago describes the cast-iron ornament of the lower two storeys of the Carson store. Rebori observes that no two of his buildings share an expression because each is derived from its own conditions. Wright, a partisan, says the Wainwright motif arrived as a single profile drawing on a board. Scored from the designs themselves and the consistent description across critical, admiring and institutional sources, not from fame; kept at 80 because Mumford also argues the ornament was often arbitrarily applied and that the vertical emphasis was a wrong turn."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sullivan_tall_office_1896, src_sullivan_mumford1931, src_sullivan_rebori1916, src_sullivan_nps_wainwright | 1891-1916 | self essay + critical scholarly account + first-hand observer + institutional record] In the 1896 essay he reduces the tall office building to five constant parts (plant below ground, banking or shop floor, second storey, identical office tiers, attic) plus one common entrance, deliberately ignoring 'incidental and accidental variation' to find a normal type, and then derives the exterior from that analysis. Mumford calls this 'fine factual analysis' while arguing that it conflicted with Sullivan's wish for a romantic soaring effect, and the National Park Service notes that the Wainwright Building expresses that internal arrangement on its facade. Rebori independently describes Sullivan spending three days in Grinnell, Iowa, working out the whole bank organisation (desks, cages, vault, departments) in plan, section and elevation before leaving. The behaviour is analysis of structure and function from first principles, shown in a published essay and in an observed commission; kept at 74 because the essay is self-authored and Mumford disputes that the reasoning was followed through."
+    },
+    "aesthetic_sensitivity": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_sullivan_chicago_landmarks, src_sullivan_nps_wainwright, src_sullivan_mumford1931, src_sullivan_rebori1916, src_sullivan_tall_office_1896 | 1890-1916 | institutional records + critical scholarly account + first-hand observer + self essay] Attention to ornament and to the felt quality of form runs through every source. Chicago's landmark page calls the Carson store ornament an example of his genius for ornament; the National Park Service describes terra-cotta foliage panels varied at each floor and an ornamented roof edge; Rebori describes colour work in gold leaf, leaded glass and glass mosaic in the Grinnell bank; in the essay he asks how to impart 'sentiment, beauty' to the office building and calls loftiness its 'thrilling aspect'. Mumford, a critic, concedes the ornament's originality while arguing that it was often arbitrarily applied and ended by undermining the logic of some designs, so dual_edged. Several sources, three perspectives; scored from design behaviour, not from reputation."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sullivan_autobiography1924, src_sullivan_bragdon1918, src_sullivan_mumford1931 | 1893-1924 | self account + admiring friend + critical scholar] He repeatedly stated unwelcome positions in public. In the Autobiography he blames the 1893 Exposition's classical architecture for damage that 'will last for half a century' and calls the resulting eclectic fashion a disease of the profession. Bragdon quotes his Kindergarten Chats attacks on the commercial towers of lower New York as 'outlawry' and says he refused to soften the text for book publication. Mumford says detractors damned him as an 'expensive' architect for refusing the cheap historical styles. Three perspectives show the stance, but only the first two describe his own words and the third an outcome, so strong_inference at 0.62. dual_edged: the same refusals meant working against the dominant taste of the period; Mumford records that detractors branded him 'expensive' and that some old clients and friends later lost faith in him, though he attributes that partly to changing taste."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sullivan_rebori1916, src_sullivan_nps_wainwright, src_sullivan_autobiography1924 | 1891-1916 | first-hand observer + institutional record + self account] Rebori observed him in Grinnell working out, on yellow paper and with a desk rule, every department, desk and cage of the bank to exact scale in plan, section and elevation across three days, so that the owner knew from the sketches what the building would look like down to the smallest detail. The National Park Service records that the Wainwright Building's foliage reliefs vary in design and scale at each floor, and lists the standard technical elements (raft footings, riveted steel frame, fireproof tile covering, movable partitions) that the design incorporated. Sullivan's own account of the Auditorium commission stresses four years of unremitting work. Rebori is an admiring single observer of one commission, so strong_inference at 0.58."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sullivan_autobiography1924, src_sullivan_wright1924, src_sullivan_mumford1931, src_sullivan_cac_adler | 1880-1895 | self account + partisan former employee + critical scholarly account + institutional overview] He worked in a division-of-labour partnership with Dankmar Adler from 1 May 1881 until 1895, built on an agreed split in which each had initiative and final authority in his own field (his own account). He credits Adler with teaching him theatre acoustics and with taking charge of building technique; Wright (partisan) says Adler's influence over him was 'great and good'; Mumford says he did his best work with Adler 'to serve as buffer between the imperious artist and his clients' and that the work disintegrated after the 1895 separation; the Chicago Architecture Center says the split followed financial strain and differing creative interests. A durable, defined partnership scores above neutral, but the same sources describe dependence on Adler for client handling and no comparable collaborator afterwards, so kept near the middle with dual_edged and low confidence. Fourteen-year partnership documented from four perspectives; later working relationships are not documented in the sources read."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루이스 설리번"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "Rights chain not verified to a primary publication or institution. The only sizeable photograph on Wikimedia Commons ('Louis Sullivan circa 1895.jpg', 645x1013) has Author 'Unknown', Date 'Unknown', immediate source a Tumblr blog post, and a PD-US-1923 tag that assumes (but does not document) publication before 1929; the Art Institute of Chicago holds an unattributed circa 1890 photograph in its Sulliviana collection but its page states all images are copyright-protected and gives no public-domain terms, so it could not be used. The other Commons image ('LouisSullivan.jpg', 203x300, detail of a 1919 oil painting by Frank A. Werner in the Chicago History Museum) is a historical depiction below the minimum size. The Library of Congress item 'Louis H. Sullivan 1924' (2014649074) is a not-digitized collotype print."
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE (2026-10-05): Wikidata wbgetentities Q243240 returned en label 'Louis Sullivan', description 'American architect (1856-1924)', P569 3 Sep 1856, P570 14 Apr 1924, US citizenship, ko label '루이스 설리번'. Slug checks: not in scratch/prod_slugs.txt, no prior candidate file. CLASSIFICATION: occupation architect and field architecture (field.architecture key exists in src/core/i18n/en.ts), as frank-lloyd-wright.json; region north_america; era 19th_century (career 1879-1904 and all scored behaviour 1870s-1916). EVIDENCE READ (10 source records, 8 substantive): Sullivan's Autobiography of an Idea (self; stylised third-person) and 1896 Lippincott's essay (self); Bragdon 1918 (admiring friend); Rebori 1916 (admiring first-hand observer); Wright 1924 Architectural Record (partisan disciple); Mumford 1931 (independent critical scholar, the main non-admiring source); NPS Wainwright nomination, Chicago Landmarks Carson Pirie Scott page, and Chicago Architecture Center overview (institutional). ACCESS LIMITS: Kindergarten Chats text itself was NOT opened (Internet Archive full text locked); it is represented only through Bragdon's quoted passages and Sullivan's quoted letter. Wright's An Autobiography, A Testament and Genius and the Mobocracy, Hugh Morrison's Louis Sullivan: Prophet of Modern Architecture (1935), Connely's Louis Sullivan As He Lived (1960), Twombly, Weingarden, and Montgomery Schuyler's 1896 Adler & Sullivan critique (HathiTrust only) could not be opened (locked or unavailable); Schuyler is represented only by the lines Mumford and Rebori quote, which are not used for any row. The Wikipedia article was not used. SCORING: seven rows, only where at least two perspectives described a concrete action; Mumford's critical remarks are used (not his late-life personality remarks), and nothing is inferred from Sullivan's later financial hardship, alcohol use, isolation or health. Rows NOT scored for lack of independent behavioural evidence in the sources read: persistence, risk_tolerance, autonomy_need, resilience-facet traits, perfectionism, execution_speed, persuasiveness, leadership_drive. Zero-politics rule: no political or activist role is involved. PORTRAIT HELD (see portrait.reason)."
+  }
+}

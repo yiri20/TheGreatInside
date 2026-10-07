@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "paul-ehrlich",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Paul Ehrlich",
+    "aliases": [
+      "Paul Ehrlich (physician)"
+    ],
+    "wikidataId": "Q57089",
+    "birthYear": 1854,
+    "deathYear": 1915,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ehrlich_wikipedia",
+      "kind": "wikipedia",
+      "title": "Paul Ehrlich (English Wikipedia) -- orientation only; not used as support for any scored row. Korean Wikipedia title '파울 에를리히' confirmed via the Wikidata kowiki sitelink.",
+      "url": "https://en.wikipedia.org/wiki/Paul_Ehrlich"
+    },
+    {
+      "id": "src_ehrlich_wikidata",
+      "kind": "wikidata",
+      "title": "Paul Ehrlich (Q57089) -- verified live via wbgetentities (2026-10-05): en label 'Paul Ehrlich', description 'Jewish-German physician and scientist (1854-1915)', ko label '파울 에를리히', P569 1854-03-14, P570 1915-08-20, P18 two images (Paul Ehrlich 3.jpg; the 1920 Voigt portrait). Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q57089"
+    },
+    {
+      "id": "src_ehrlich_marquardt_1949",
+      "kind": "biography",
+      "title": "Martha Marquardt, 'Paul Ehrlich' (London: William Heinemann Medical Books, 1949; introduction by Sir Henry Dale; enlarged from her 1924 'Paul Ehrlich als Mensch und Arbeiter'), Internet Archive digitised copy (Digital Library of India scan, OCR text) -- chapters III, IV, V, VII, VIII, IX, X, XI, XIV, XV, XVI, XVII, XXI, XXIV and XXV read in full; VI, XII and XVIII read in part; I, II, XIII, XIX, XX, XXII and XXIII not read. INSIDER AND ADMIRING (Ehrlich's secretary 1902-1915, writing three decades after his death; much dialogue is reconstructed from memory; she is openly partisan about Wassmann and about credit for 606). It also relays letters and recollections from Henry Dale, William Bulloch, Reid Hunt, Edmund Landau, William Welch, Johan Almqvist, Hans Sundberg and Felix Pinkus, and long extracts from Ehrlich's own 1899 and 1906 letters and autobiographical notes -- each such passage is cited below as a relayed account, not a separate source. Read: Charite assistant years and the 1882 stain for the tubercle bacillus; the Behring contract dispute; the Steglitz and Frankfurt institutes; the Gruber debate over the side-chain theory; working habits, 'blocks', reading and forgetfulness; the 1906 atoxyl scene with the chemists; the arsenic series, 606 set aside and re-tested by Hata; distribution of Salvarsan in 1910; the early necrosis problem; the 1912 refusal of lay lectures; Neosalvarsan as a compromise; the 1914 Wassmann libel case; the last year.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.63962"
+    },
+    {
+      "id": "src_ehrlich_valent_2016",
+      "kind": "archive",
+      "title": "Peter Valent, Bernd Groner, Udo Schumacher, Giulio Superti-Furga and colleagues (Medical University of Vienna commemorative symposium), 'Paul Ehrlich (1854-1915) and His Contributions to the Foundation and Birth of Translational Medicine', Journal of Innate Immunity 8(2), 2016, 111-120 (open full text, DOI 10.1159/000443526), read in full (body text; reference list skimmed) -- SCHOLARLY REVIEW, ADMIRING BUT MODERN AND INDEPENDENT OF MARQUARDT. Read: the three phases of his career (staining and haematology 1878-1890; antitoxin standardisation and side-chain theory 1890-1900; chemotherapy 1904-1914), the receptor and chemoreceptor concept with Langley, the screening programme (methylene blue 1891, trypan red with Shiga, arsacetin, arsenophenylglycin, 606, 914), the roles of Bertheim and Hata, the 1910 Wiesbaden announcement and 65,000 free samples, the remark that he was criticised for a 'too lively' imagination and overinterpretation, and the post-Salvarsan limits (resistance, combination with mercury or bismuth).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6738855/"
+    },
+    {
+      "id": "src_ehrlich_nobel_lecture_1908",
+      "kind": "award_body",
+      "title": "Paul Ehrlich, 'Partial Cell Functions', Nobel Lecture, 11 December 1908 (Nobel Lectures, Physiology or Medicine 1901-1921; NobelPrize.org PDF), read in full -- PRIMARY, SELF. Read: toxin-toxoid-antitoxin reasoning and the receptor concept, credit given by name to Morgenroth, Wassermann, Franke, Rohl, Gulbransen and Browning, the trypanosome recidive-strain experiments, his own statement that the work has gaps, and his claim that arsenophenylglycin was an 'entirely ideal remedy' in animals.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1908/ehrlich/lecture/"
+    },
+    {
+      "id": "src_ehrlich_nobel_bio",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Paul Ehrlich - Biographical' (from Nobel Lectures, Physiology or Medicine 1901-1921, Elsevier 1967), read in full -- INSTITUTIONAL SUMMARY; its closing paragraph says it relies on Martha Marquardt's biography for personal habits, so it is NOT independent of her on character. Used for dated facts: staining work, serum standardisation, side-chain theory, the 606th substance set aside in 1907 and tested on Hata's syphilitic rabbits, Neosalvarsan as the 914th substance, the 1908 prize shared with Metchnikoff.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1908/ehrlich/biographical/"
+    },
+    {
+      "id": "src_ehrlich_hata_1910",
+      "kind": "archive",
+      "title": "Paul Ehrlich and S. Hata, 'Die experimentelle Chemotherapie der Spirillosen (Syphilis, Rueckfallfieber, Huehnerspirillose, Framboesie)' (Berlin: Julius Springer, 1910), Internet Archive copy (Yale Medical Historical Library) -- Ehrlich's preface (Vorwort) read in full in German; Hata's experimental chapters and the tables were not read (technical OCR text). PRIMARY, SELF. Read: his statement of method (a planned search for a type of remedy improved by modification and substitution, not aimless trial of substances), the list of named collaborators and chemists he thanks, the Hoechst, Cassella and Rockefeller (through Flexner) support, his admission of having been 'a spendthrift' with his own means in the early years, and his statement that without Hata's exact work the result would not have been reached.",
+      "url": "https://archive.org/details/dieexperimentell1910ehrl"
+    },
+    {
+      "id": "src_ehrlich_dreuw_1914",
+      "kind": "archive",
+      "title": "Dr. med. Heinrich Dreuw (Berlin dermatologist), 'Die Salvarsangefahr' (Berlin: Ritter-Verlag, 1914; this copy carries a Georg-Speyer-Haus library stamp), Internet Archive OCR text -- opening survey and the sections on how 606 was introduced, the restricted early distribution, the switch from subcutaneous to intravenous injection, and the Berlin Dermatological Society discussion read (about the first 17 pages of the text, OCR partly garbled); the remainder skimmed. ADVERSARIAL CONTEMPORARY CRITIC AND POLEMICIST: the author states he is waging a public campaign against 'Ehrlich-Hata 606', quotes a Prague pharmacologist (Hering) on inadequate animal toxicology, a newspaper report of a 1910 Berlin society meeting, and his own observation of necroses; his case counts (for example about 280 deaths in the literature) are not independently checked and are not used. Cited only for what Ehrlich is said to have claimed ('therapia magna sterilisans', 'ideal', 'hyperideal'), the early limited distribution to chosen physicians, and the complaint that he did not answer a September 1910 letter.",
+      "url": "https://archive.org/details/1914DrDreuwDieSalvarsangefahr"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ehrlich_valent_2016, src_ehrlich_nobel_bio, src_ehrlich_marquardt_1949, src_ehrlich_nobel_lecture_1908, src_ehrlich_hata_1910 | 1891-1914 | modern scholars + institutional + insider + self] A designed, repeated testing programme rather than a single lucky trial. From 1891 he tested methylene blue in malaria patients; with Shiga he tested trypan red in infected mice; he then made and tested series of arsenic compounds (arsacetin, arsenophenylglycin No. 418, 606 in 1907, Neosalvarsan No. 914), the Nobel biography counting 'hundreds' of substances. In the 1908 Nobel Lecture he reports experiments on drug-resistant trypanosome strains and on trypanosome strains whose drug sensitivity changed after relapse. In the 1910 preface he states the method: find a type of remedy and improve it by modification and substitution, not try substances at random; Marquardt (chapter XII) quotes him explaining how he asked the Cassella chemist von Weinberg to make benzopurpurine soluble, which gave trypan red. Counter-evidence kept in view: Dreuw, citing Hering, says the toxicology of 606 before its 1910 introduction was inadequate (the blood-pressure fall was missed); that concerns the adequacy of preclinical testing, not the existence of a systematic programme. Held below 85 because several accounts are admiring."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ehrlich_valent_2016, src_ehrlich_nobel_bio, src_ehrlich_marquardt_1949 | 1891-1912 | modern scholars + institutional + insider] He kept the same search going across a run of documented dead ends: methylene blue no better than quinine (1891); trypan red followed by resistant trypanosomes; arsacetin (No. 306) strongly neurotoxic in mice; arsenophenylglycin (No. 418) caused hypersensitivity reactions in some patients; arsenophenol was unstable; 606, made in 1907, was set aside after a negative test. He then went on to more than three hundred further preparations to reach 914. Valent et al. quote his own summary that for seven years of misfortune he had one moment of luck; Marquardt (chapter XVI) says he had been convinced for two years that 606 must be good and asked Hata to repeat everything. Several independent episodes over two decades, hence documented rather than strong inference."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ehrlich_marquardt_1949, src_ehrlich_nobel_lecture_1908, src_ehrlich_valent_2016 | 1880s-1912 | insider + relayed colleague accounts + self] Close attention to small specifics in several unrelated settings. At the Charite (chapter III) he required his blood-staining method to be followed to the last detail and criticised deviations severely. Henry Dale's account (relayed in chapter X): asked by Koch to examine a blood film that seemed to show tubercle bacilli in blood, he asked for a camera lucida and squared paper, mapped every bacillus and showed they lay only in the corners, exposing a badly cleaned cover-slip. During the 1910 Salvarsan roll-out (chapters XVII-XVIII) he insisted on excluding oxygen and packing intermediate products in ice, sent written enquiries to users about the water used for solutions, issued detailed instructions, and kept a daily dose ledger himself. The Nobel Lecture reports quantitatively matched toxin and toxoid neutralisation. Marquardt is an admiring witness; Dale is an outside collaborator."
+    },
+    "perfectionism": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ehrlich_marquardt_1949, src_ehrlich_valent_2016 | 1906-1912 | insider + modern scholars] Two or more distinct episodes of refusing to accept a result or a lapse without repeated checking, with a cost to others. Chapter XVI: when Hata found 606 effective, Ehrlich insisted the experiments be repeated again and again, to the point that Hata grew impatient, because an earlier test had found nothing. Chapter XIV: he burst into rage when a chemist tore up his written instruction on excluding oxygen, and in 1906 two of three chemists left the Speyer-Haus after refusing his orders on atoxyl. Valent et al. call him a perfectionist who retested and requestioned results, a characterisation rather than an instance. Dual-edged: the same insistence protected patients and strained staff. Not scored higher because the evidence comes mostly from one admiring witness."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ehrlich_nobel_bio, src_ehrlich_marquardt_1949, src_ehrlich_nobel_lecture_1908, src_ehrlich_valent_2016, src_ehrlich_dreuw_1914 | 1890s-1910 | institutional + insider + self + modern scholars + adversarial critic] Strong on quantitative reasoning in the laboratory, with documented criticism of its limits. He established that toxin-antitoxin binding behaves like a chemical reaction (faster with heat) and defined antitoxin units against a fixed standard, which Dale's introduction and the Nobel biography say became the basis of serum standardisation; the Nobel Lecture reasons from quantitative toxoid neutralisation; he defined a therapeutic index between curative and tolerated dose (chapter XII). Against Gruber he answered with whole series of animal experiments (chapter IX). Counter-evidence: Valent et al. report he was criticised for overinterpretation and ideas 'not always based on solid experimental evidence', and Dreuw (via Hering) says the 606 toxicology missed the blood-pressure fall. Hence moderate-high, not extreme."
+    },
+    "intuitive_synthesis": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ehrlich_valent_2016, src_ehrlich_marquardt_1949, src_ehrlich_nobel_lecture_1908 | 1897-1908 | modern scholars + insider + self] He generalised from analogy to a unifying picture: from dye affinities and Emil Fischer's lock-and-key idea to the 1897 side-chain theory, then receptors (term proposed 1900) and chemoreceptors, then 'magic bullet' drugs. Marquardt quotes his own account that he saw ideas pictorially and that details stored in the subconscious 'set him on the right track' (chapter XII). Valent et al. record that many of these ideas were later proved right but were criticised as overinterpretation, and Gruber's nickname 'Doctor Fantasy' is recorded by Marquardt (chapters VII and IX). Several independent episodes; the contested reception makes the impact dual-edged."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ehrlich_marquardt_1949, src_ehrlich_nobel_bio, src_ehrlich_valent_2016 | 1897-1906 | insider + institutional + modern scholars] Held and acted on his own chemical reading against established or institutional positions. Chapter XIV: contrary to the accepted 1863 Bechamp formula of atoxyl, he insisted it was an amino-phenylarsonic acid, ordered the work on that basis, and two of the three chemists left rather than follow him; the Nobel biography and Valent et al. independently credit Ehrlich with Bertheim for establishing the correct structure. He defended the side-chain theory against Gruber in public (chapter IX) and, per his 1899 and 1906 letters quoted in chapter IV, refused to become Behring's subsidiary. Marquardt's quarrel scene is a reconstructed dialogue; the structural result is independently confirmed."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ehrlich_marquardt_1949, src_ehrlich_valent_2016, src_ehrlich_dreuw_1914 | 1900-1912 | insider + modern scholars + adversarial critic] Two or more documented revisions, alongside documented stubbornness. He changed the term side-chain to receptor and added chemoreceptors with Langley (Valent et al. say he was flexible in refining his own theories). After necrosis at the injection site, he replaced intramuscular injection with intravenous injection and sent a circular (Marquardt chapters XVIII and XXI; Dreuw says he was forced to, and had earlier disliked the route). He accepted Neosalvarsan as a compromise at physicians' request, 'with a sad heart', while still preferring the original 606. Against this, Marquardt records he thought the original better and would have reinstated it, and he did not move on Gruber's criticism. Mixed, so moderate."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ehrlich_nobel_bio, src_ehrlich_valent_2016, src_ehrlich_marquardt_1949 | 1877-1915 | institutional + modern scholars + insider] Sustained, productive work in several distinct fields, each with published results: histological staining and blood-cell classification (1877 on), clinical chemistry (the diazo reaction), bacteriological staining of the tubercle bacillus (1882), serum standardisation and immunology, experimental chemotherapy, and later cancer experiments; Valent et al. divide his career into three phases. Landau (relayed in chapter VIII) says he also set himself mathematical series problems for pleasure. Held at 72 because he described himself as a 'monoman' with one governing idea (chapter XI) and the fields share a chemical thread."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ehrlich_marquardt_1949, src_ehrlich_valent_2016 | 1900-1914 | insider + relayed colleague accounts + modern scholars] Several distinct instances. William Welch's answer, relayed in chapter XI, to Ehrlich's question during the 1904 American trip, whether he was very inquisitive: 'in scientific questions, a little'; his wife was embarrassed by his questions. He ordered ten to twenty new publications a week, read by what he called affinity and annotated them (chapter X). Landau reports his empirical number-pattern puzzles unrelated to his work (chapter VIII). His delight at Schaudinn and Hoffmann's 1905 discovery of the syphilis spirochaete, including regret that his friend Neisser had not found it, is recounted in chapter XIV. Mostly one admiring witness with outside voices relayed, so strong inference."
+    },
+    "deep_focus": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ehrlich_marquardt_1949, src_ehrlich_valent_2016 | 1900-1914 | insider + relayed colleague accounts + modern scholars] Many separate instances of absorption in work to the exclusion of surroundings: he worked while driving to the Institute and did not notice the cab-driver going round by the forest (chapter VI); Reid Hunt and Henry Dale (relayed in chapter X) describe him forgetting a new guest at a dinner and answering a question about rats while boiling a dye; he kept a large wall calendar yet still did not know the date; he wrote the first of his American lectures an hour before delivering it. Valent et al. describe him as 'completely obsessed' with laboratory work. The anecdotes largely come from one admiring witness, hence strong inference. Dual-edged: it also produced forgotten lent books and lost papers."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ehrlich_hata_1910, src_ehrlich_nobel_lecture_1908, src_ehrlich_valent_2016, src_ehrlich_marquardt_1949, src_ehrlich_dreuw_1914 | 1900-1914 | self + modern scholars + insider + adversarial critic] Worked through named co-workers and credited them in print. In the 1910 preface he thanks by name Shiga, Franke, Rohl, Browning, Gulbransen, Leupold and others, the chemists Kahn, Bertheim and Schmitz, the firms Hoechst and Cassella, and says the result would not have been reached without Hata's exact experiments; the Nobel Lecture credits Morgenroth, Wassermann and Franke by name. Valent et al. call him a superb networker. Marquardt (chapter XVII) says he let the press label 606 'Ehrlich-Hata', and (chapter XI) that he handed out rare chemicals and infected animals freely. Counter-evidence: Marquardt's own chapters show him ordering rather than consulting his chemists and refusing further work with Behring, and Dreuw complains that early supplies of 606 went to Ehrlich's chosen physicians and friends. Collaborative in practice, but hierarchical."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ehrlich_marquardt_1949, src_ehrlich_hata_1910 | 1889-1906 | insider + self] Three separate documented choices to keep control of his research agenda. After 1889 he ran a small private laboratory at his own expense before accepting a place with Koch (chapter V). In his 1899 and 1906 letters quoted in chapter IV he says his long-held wish was a state institute where he could be wholly free to follow his own plans, and that he refused to become Behring's employee; the 1910 preface admits he spent his own means freely in the early years. In 1914 he forbade his staff to move his chemical collection while he was away (chapter XXV). The letters about Behring are Ehrlich's side of a quarrel and are one-sided; no illness or health explanation is used here."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ehrlich_marquardt_1949, src_ehrlich_valent_2016, src_ehrlich_dreuw_1914 | 1910-1914 | insider + modern scholars + adversarial critic] Several distinct actions tied to patient benefit rather than personal gain. Valent et al. say his institute prepared and dispensed 65,000 samples to hospitals after Wiesbaden and Marquardt (chapter XVII) says they were supplied without charge in 1910 and that his own financial interest was small. He chased every adverse report on Salvarsan and wrote detailed instructions to users (chapters XVIII, XXI; the Almqvist case). He refused lay lectures in 1912 so as not to appear to advertise his own drug (chapter XXI). Counter-evidence: Dreuw alleges that selected physicians charged high private fees and that Ehrlich himself used the words 'ideal' and 'hyperideal' about the remedy; neither claim is independently verified, and the free supply is not disputed there. Moderate because the main account is admiring."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ehrlich_marquardt_1949, src_ehrlich_hata_1910, src_ehrlich_valent_2016, src_ehrlich_nobel_bio | 1880-1910 | insider + self + modern scholars + institutional] Got results from thin resources and then secured resources. At the Charite and Steglitz he worked with a Bunsen flame, an iron plate, blotting paper and a disused bakehouse (chapters III and V). He enlisted industrial chemists (Benda at Cassella, then the Hoechst works) to make the compounds he designed (chapters XII, XVI), obtained a Rockefeller grant through his friend Flexner (1910 preface), and benefited from Franziska Speyer's donation (Valent et al.). He recruited Kitasato's pupils Shiga and Hata, whose rabbit syphilis model made the 606 test possible (Nobel biography). Independent confirmation of each element across four sources."
+    },
+    "competitiveness": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ehrlich_marquardt_1949 | 1899-1914 | insider, quoting Ehrlich's own letters] Three documented episodes of contesting rivals. His 1899 and 1906 letters about Behring claim priority for the immunisation methods and diphtheria potency ('he owes his success to me', 'a Pyrrhic victory'). At the Society for Internal Medicine he set out to 'push Gruber to the wall' with animal-experiment series (chapter IX). On the night train he was angry that Wassermann was working with a dye he regarded as his own (chapter IX), and he complained of someone who habitually claimed earlier observation. Balanced by statements that one should leave part of the harvest to others and by his open sharing of materials (chapter XI), so a moderate lean only, with a single witness relaying his private letters."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "파울 에를리히"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-05T00:00:00Z",
+    "updatedAt": "2026-10-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-05) for Q57089 returned en label 'Paul Ehrlich', en description 'Jewish-German physician and scientist (1854-1915)', ko label '파울 에를리히' (kowiki title '파울 에를리히', used for displayNames ko-KR), P569 1854-03-14, P570 1915-08-20, P18 'Paul Ehrlich 3.jpg' and the 1920 Voigt portrait. Slug not in prod_slugs.txt and no prior candidate file. Not the American biologist Paul R. Ehrlich. Region/fields follow the Robert Koch precedent (western_europe; medicine+biology). SOURCES ACTUALLY OPENED: Marquardt 1949 (large parts, OCR), Valent et al. 2016 (full), Ehrlich's 1908 Nobel Lecture (full), NobelPrize.org biography (full), the preface of Ehrlich and Hata 1910 (German, preface only), Dreuw 1914 (opening sections). Independent perspectives: Ehrlich himself (lecture, preface, quoted letters); an admiring insider (Marquardt, relaying Dale, Bulloch, Hunt, Landau, Welch, Almqvist); a modern scholarly review (Valent et al.); an adversarial contemporary critic (Dreuw, polemical, case counts not used). The Nobel biography draws on Marquardt for character, so it is not counted as independent on behaviour. NOT ACCESSIBLE / NOT USED: Silverstein's 'Paul Ehrlich's Receptor Immunology' (2002) and A History of Immunology (lending-only or paywalled); Bäumler's biography; Hüntelmann and Prüll articles (paywalled); contemporary BMJ items such as 'Deaths after Salvarsan' (1914) and the 1915 BMJ obituary (PMC page scans sit behind a bot-check and were not bypassed); Library of Congress item pages (bot-check); Olga Metchnikoff's 'Life of Elie Metchnikoff' was searched for Ehrlich and contains only the shared-prize mention, so the Metchnikoff dispute and Wassermann's role rest on Ehrlich's own words and Valent et al. and are NOT scored. SCOPING: no row is based on his illnesses (tuberculosis 1888-89, strokes 1914-15) or on the antisemitic hostility he met; a passage in Marquardt linking his early illness to workplace constraint was deliberately not used. Politics, religion and the Wassmann libel case are incidental and unscored; Marquardt's description of Wassmann as 'mentally abnormal' is not repeated. Salvarsan attribution is shared: Bertheim synthesised the arsenicals with Ehrlich and Hata tested 606 on rabbits; Marquardt's insistence that Hata had 'nothing to do with the invention' is a partisan claim and is not adopted. Rows: 16, sparse by design (no row-count, coverage or eligibility target was used; eligibility numbers were not consulted while scoring). PORTRAIT: Bain News Service 1909 press photograph (LoC LCCN 00650787), public domain; the LoC page was bot-walled so the rights chain rests on the Commons wikitext (PD-Bain, PD-old-70-1923) quoting the LoC statement 'No known restrictions on publication'. Alternatives checked and not used: 'Paul Ehrlich 3.jpg' (Eduard Blum, undated before 1916, offered by Wellcome Collection under CC BY 4.0, attribution required) and the 1920 Voigt painting (a posthumous painted copy of a c. 1910 portrait, Science History Institute, damaged in 1938 and restored)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/paul-ehrlich-bain-1909.jpg",
+    "width": 1360,
+    "height": 1600,
+    "source": "Bain News Service, 'Prof. Paul Ehrlich', photographic print (Bain negative/print no. 728-1), 1909; Library of Congress Prints and Photographs Division, George Grantham Bain Collection, LCCN 00650787 (digital ID cph.3c26279), rights statement 'No known restrictions on publication'; via Wikimedia Commons (master TIFF 3319x4096). The Library of Congress item page itself is behind a bot-check and was not opened; the rights chain rests on the Commons file wikitext, which quotes the LoC statement and tags it PD-Bain and PD-old-70-1923 (US news-agency photograph, 1909).",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Bain News Service, Prof. Paul Ehrlich, photograph, 1909; Library of Congress, LCCN 00650787; no known restrictions on publication. Cropped to the photographic image area (handwritten caption, number and black border removed) and downsized to 1600 px.",
+    "attributionUrl": "https://www.loc.gov/pictures/item/00650787/",
+    "creator": "Bain News Service (photographer not individually credited)",
+    "date": "1909",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Prof._Paul_Ehrlich_LCCN00650787.tif"
+  }
+}
