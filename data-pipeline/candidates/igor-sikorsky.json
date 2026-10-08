@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "igor-sikorsky",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Igor Sikorsky",
+    "wikidataId": "Q212446",
+    "birthYear": 1889,
+    "deathYear": 1972,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor",
+      "aviator",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology",
+      "business"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sikorsky_wikidata",
+      "kind": "wikidata",
+      "title": "Igor Sikorsky (Q212446) -- verified live via wbgetentities (2026-10-07): en label 'Igor Sikorsky', description 'American aviation pioneer from Russian Empire (1889-1972)', P569 25 May 1889, P570 26 Oct 1972, citizenship Russian Empire / United States / Soviet-era item, instance of human, ko label '이고르 시코르스키', P18 'Sikorsky, Igor.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q212446"
+    },
+    {
+      "id": "src_sikorsky_wikipedia",
+      "kind": "wikipedia",
+      "title": "Igor Sikorsky -- Wikipedia article, read as orientation only (dates, names, cross-checks); not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Igor_Sikorsky"
+    },
+    {
+      "id": "src_sikorsky_erf1995",
+      "kind": "institution",
+      "title": "Sergei I. Sikorsky (Sikorsky Aircraft; the subject's son), 'The Development of the VS-300 Helicopter', 21st European Rotorcraft Forum, St Petersburg, 30 Aug - 1 Sep 1995, Paper XIII.1 (full text read) -- FAMILY/COMPANY insider technical history written from the Sikorsky company's own test records and archive; sympathetic in tone but unusually specific about errors (mis-phased cyclic control, two crashes, eighteen major reworks, the July 1940 loss of the Army contract to Platt-LePage). Contains some date typos (e.g. a 1991 for 1941), cross-checked against the other sources here.",
+      "url": "https://dspace-erf.nlr.nl/server/api/core/bitstreams/5f370209-a813-4e12-896f-230ed0a01c8d/content"
+    },
+    {
+      "id": "src_sikorsky_wohleber1993",
+      "kind": "biography",
+      "title": "Curt Wohleber, 'Straight Up', Invention & Technology magazine, Winter 1993 (vol. 8, no. 3) (full text read) -- INDEPENDENT long-form magazine biography (American Heritage engineering-history magazine); draws on Sikorsky's memoirs (self source, flagged as such in the article), the 1943 Life profile, a 1944 New York Times editorial and Captain Gregory's and Lindbergh's recollections. Admiring but includes failures (S-29-A forced landing, S-35 crash, flying-boat decline, lost 1939 Army competition, the VS-300 forward-flight problem).",
+      "url": "https://inventionandtech.com/node/85611"
+    },
+    {
+      "id": "src_sikorsky_panam_miller",
+      "kind": "institution",
+      "title": "Doug Miller, 'The Evolution of a Dream: Igor Sikorsky's Flying Boats', Pan Am Historical Foundation (full text read) -- THIRD-PARTY airline-history account (not Sikorsky's company) of the S-34, S-36, S-38, S-40, S-42, S-43 and VS-44 and their Pan American customer relationship, including the 1927 S-34 crash, the S-35 crash and the S-42 design with Pan Am's technical adviser Charles Lindbergh.",
+      "url": "https://panam.org/explorations/sikorsky-evolution-of-a-dream"
+    },
+    {
+      "id": "src_sikorsky_asme_giges2013",
+      "kind": "institution",
+      "title": "Nancy S. Giges, 'Igor Sikorsky: Aviation Pioneer', ASME (American Society of Mechanical Engineers), 24 July 2013 (full text read) -- INDEPENDENT engineering-society article built on an interview with Dorothy Cochrane, curator at the Smithsonian National Air and Space Museum and co-author of 'The Aviation Careers of Igor Sikorsky' (the standard museum-scholar biography, not accessible here; see notes). Curator's characterisation of his empirical method and of the need to 'reinvent himself' after the flying-boat era.",
+      "url": "https://www.asme.org/engineering-topics/articles/aerospace-defense/igor-sikorsky-aviation-pioneer"
+    },
+    {
+      "id": "src_sikorsky_asme_landmark1984",
+      "kind": "institution",
+      "title": "ASME / American Helicopter Society, 'VS-300 Helicopter (1939)', National Historic Mechanical Engineering Landmark brochure no. 95, dedicated 17 May 1984 (full text read) -- INDEPENDENT engineering-society landmark designation; records the 1931 patent application (granted 1935), the 12 March 1939 proposal with a US$60,000 cost estimate, the second and fourth configurations and the flight dates, and places the VS-300 against the Breguet-Dorand, Focke Fw-61 and Flettner machines.",
+      "url": "https://www.asme.org/wwwasmeorg/media/ResourceFiles/AboutASME/Who%20We%20Are/Engineering%20History/Landmarks/95-Sikorsky-VS-300-Helicopter.pdf"
+    },
+    {
+      "id": "src_sikorsky_ctexplored2014",
+      "kind": "press",
+      "title": "Alexander Soule, 'Sikorsky -- Still Revolutionary', Connecticut Explored, Spring/Summer 2014 (full text read) -- INDEPENDENT regional-history magazine; quotes the 1938 autobiography (self), a 1956 Reader's Digest piece by United Aircraft president Eugene Wilson (a superior and patron), and test pilot Les Morris's memoir (employee). Candid on the S-35 disaster, the 'strategic blunder' of the flying-boat era, and the failed larger helicopters before the S-55.",
+      "url": "https://www.ctexplored.org/sample-article-spring-2014/"
+    },
+    {
+      "id": "src_sikorsky_swopes_tdia",
+      "kind": "press",
+      "title": "Bryan R. Swopes, This Day in Aviation entries on Igor Sikorsky (VS-300 first flight 14 Sept 1939; VS-300 floats flight 17 Apr 1941 quoting Sikorsky's IAS lecture; S-42 first flight 30 Mar 1934 quoting The Hartford Courant, 31 Mar 1934, p. 18; and the Sikorsky Aero Engineering biography entry) (all read) -- hobbyist-historian site that reproduces period press and photographs from the Sikorsky Historical Archives; used only for the dated press quotation and flight facts.",
+      "url": "https://www.thisdayinaviation.com/tag/igor-ivanovich-sikorsky/page/2"
+    },
+    {
+      "id": "src_sikorsky_uscg_bunker",
+      "kind": "archive",
+      "title": "'The Helicopter as an Anti-Submarine Weapon', A History of Coast Guard Aviation: The Growth Years (1939-1956), as quoted with Colonel Frank Gregory's own account in This Day in Aviation, 6-7 May 1943 (read) -- US Coast Guard official history of the SS Bunker Hill shipboard XR-4 trials; INDEPENDENT of Sikorsky.",
+      "url": "https://www.thisdayinaviation.com/?p=33494"
+    },
+    {
+      "id": "src_sikorsky_gregory_mcnally",
+      "kind": "institution",
+      "title": "Brad McNally, 'BG Gregory', US Army & Air Force Rotorcraft Pioneers (biography of Brig. Gen. Hollingsworth F. Gregory, the Air Corps helicopter project officer who evaluated the VS-300 and XR-4) (read) -- INDEPENDENT military-pioneer biography built on Gregory's 1944 report and the Air Force official biography; the evaluator's perspective on Sikorsky's machines.",
+      "url": "https://mail.rotorheadsrus.us/documents/bg_gregory.html"
+    },
+    {
+      "id": "src_sikorsky_freeman_xr4",
+      "kind": "institution",
+      "title": "'XR-4 (VS-316)', Freeman Army Air Field Museum (Indiana) page on the Sikorsky XR-4 (read) -- Army-airfield museum page on the XR-4 contract (17 Dec 1940, US$50,000), the carry-over of the VS-300's cyclic control to the XR-4, and the early training problems; INDEPENDENT of Sikorsky.",
+      "url": "https://www.indianamilitary.org/FreemanAAF/Aircraft%20-%20American/RD-4%20Helicopter/RD-4%20Helicopter.htm"
+    },
+    {
+      "id": "src_sikorsky_centennial_panam",
+      "kind": "institution",
+      "title": "Asif Siddiqi, 'Pan American's Flying Boats', U.S. Centennial of Flight Commission (read) -- government-sponsored centennial essay on the Pan Am Clipper service; INDEPENDENT; used only for the S-40/S-42 context and the Trippe-Sikorsky relationship.",
+      "url": "https://centennialofflight.net/essay/Commercial_Aviation/china_clipper/Tran5.htm"
+    },
+    {
+      "id": "src_sikorsky_centennial_sikorsky",
+      "kind": "institution",
+      "title": "'Sikorsky Aircraft', U.S. Centennial of Flight Commission essay (read) -- short institutional history of the company: early aircraft, the S-29-A crash and re-engining, the S-35 failure, the S-38, the 1938 directive to stop building flying boats.",
+      "url": "https://centennialofflight.net/essay/Aerospace/Sikorsky/Aero24.htm"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sikorsky_wohleber1993, src_sikorsky_panam_miller, src_sikorsky_ctexplored2014, src_sikorsky_erf1995 | 1909-1941 | independent magazine biography + third-party airline history + regional-history magazine + family/company technical history] Several separately dated efforts continued through setbacks. (1) His 1909 and 1910 helicopters could not fly for lack of power, and he returned to the idea only in the late 1930s (Wohleber). (2) After the 21 Sept 1926 S-35 crash killed two crew, the company's capital was spent and its debts exceeded its assets (his own words, quoted by Connecticut Explored); Pan Am's historian records that he attended the funeral of the radio operator and was ready to build another S-35, and that after the S-34 prototype crashed in May 1927 he was soon back with the improved S-36 (Miller). (3) The VS-300 went through eighteen major reworks, several hundred smaller changes and two crashes (a December 1939 roll-over and an October 1940 tail-boom failure) before the final configuration, with a 1940 Army contract lost to Platt-LePage in between (ERF, Wohleber). Three episodes in four separate accounts; held below 80 because the VS-300 detail is mainly company-side."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sikorsky_erf1995, src_sikorsky_wohleber1993, src_sikorsky_asme_giges2013, src_sikorsky_asme_landmark1984 | 1939-1942 | company history + independent magazine + engineering-society article + landmark brochure] The VS-300 was built as an open tube-frame test bed that 'could, and often was, rebuilt literally overnight' (ERF); mechanics called it 'Igor's nightmare' (Wohleber). It ran through a series of control layouts: single tail rotor; main-rotor cyclic removed with two horizontal tail rotors steering fore-aft and roll (March 1940); outriggers lengthened to clear rotor downwash; a single tail-pylon rotor; then full cyclic returned with the oleo struts repositioned in late December 1941 to damp fore-aft rocking (ERF, Landmark brochure). A Smithsonian curator describes him as 'so empirical in all of his ideas and testing' (Giges). Several distinct documented trials from four sources."
+    },
+    "belief_updating": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sikorsky_erf1995, src_sikorsky_asme_landmark1984, src_sikorsky_wohleber1993, src_sikorsky_gregory_mcnally | 1939-1941 | company history + landmark brochure + magazine + Army pilot biography] He changed his own design on evidence. After the December 1939 roll-over he dropped main-rotor cyclic control for the horizontal tail rotors (March 1940); when forward flight beyond roughly 20-25 mph proved uncontrollable he lengthened and raised the tail rotors, then in June 1941 decided to 'return to full cyclic control' and later removed the horizontal rotors altogether, going back to the original single-main-rotor concept (ERF; the Landmark brochure describes the fourth and final configuration as giving full cyclic pitch back to the main rotor). Wohleber and Gregory's biographer add that the Army insisted all control sit in the main rotor and Sikorsky carried that into the XR-4. Two distinct reversals (March 1940 and June-December 1941) plus the Army-driven change; strong_inference because the reasons are partly reconstructed by the company's historian."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_sikorsky_wohleber1993, src_sikorsky_erf1995, src_sikorsky_asme_landmark1984 | 1909-1939 | independent magazine + family history + landmark brochure] In January 1909 the French military aviation head Capt. Ferber told him 'Do not waste your time on a helicopter. The airplane will be far more valuable', yet he 'stuck to his plans' and built two helicopters (Wohleber). In 1938-39 he proposed a single-main-rotor machine although every helicopter that had shown any success was multi-rotor and, per his son, 'opinion against the single-rotor concept was almost overwhelming'; United Aircraft management approved the project against much of its technical advisers' view (ERF; the Landmark brochure confirms the single-rotor novelty). His 1931 patent for a single main plus tail rotor was granted in 1935 (Landmark). dual_edged because the early helicopters failed and the Army chose Platt-LePage's side-by-side design in July 1940."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sikorsky_wohleber1993, src_sikorsky_asme_giges2013, src_sikorsky_ctexplored2014, src_sikorsky_centennial_sikorsky | 1918-1939 | independent magazine + engineering-society article + regional magazine + centennial essay] He rebuilt his career after two forced changes. He fled Russia in February 1918 leaving most of his money; designed a bomber for France until the war ended; reached New York in March 1919 and earned a marginal living teaching Russian immigrants (Wohleber, Giges). When the S-29-A found no repeat orders the company survived on smaller aircraft and Jenny wings (Wohleber), and when long-range land planes ended the flying-boat era, United Aircraft threatened to close his division in 1938 and he re-pitched the company around the helicopter; the Smithsonian curator says that at that point 'he had to reinvent himself again' (Giges; Centennial essay on the 1938 directive; Connecticut Explored on the 'strategic blunder' of the flying-boat era). Three separate pivots across four sources."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sikorsky_wohleber1993, src_sikorsky_erf1995, src_sikorsky_ctexplored2014 | 1923-1939 | independent magazine + family history + regional magazine] With little capital he built the all-metal S-29-A at a Long Island chicken farm largely from junkyard scrap iron, funded by fellow Russian emigres and by Rachmaninoff's money. The repaired aircraft then earned money on charter and a piano-delivery job (Wohleber; Giges names the $5,000). The VS-300 was improvised: only four simple engineering drawings survive, the rest described verbally to a small group of Russian emigre engineers who improvised the hardware, with a Ford pick-up differential in the tail gearbox and a Curtiss Jenny seat (ERF); Wohleber adds the truck-transmission gears and the experimental frame. Several documented cases from three accounts."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_sikorsky_wohleber1993, src_sikorsky_erf1995, src_sikorsky_ctexplored2014, src_sikorsky_centennial_sikorsky | 1913-1941 | independent magazine + family history + regional magazine + centennial essay] He personally took physical and financial gambles. He flew the first four-engine aeroplane in May 1913 (Wohleber); in 1918 left Russia abandoning most of his wealth; in 1924 let eight workers fly in the overloaded S-29-A despite fearing the engines could not cope, and it crash-landed on a golf course (Wohleber; the Centennial essay also says it carried too many passengers). He taught himself to fly the VS-300 'without ever having flown a helicopter before' and survived a near-inverted crash in October 1940 (ERF, Wohleber). dual_edged because the S-29-A flight put others at risk and cost a damaged aircraft."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sikorsky_panam_miller, src_sikorsky_ctexplored2014, src_sikorsky_wohleber1993 | 1927-1938 | third-party airline history + regional magazine + independent magazine] He read market openings but not always their end. Miller records that by 1927 he saw that long-range transports might favour water-landing designs and the S-38 suited Pan Am's Caribbean island routes, leading to 38 Pan Am S-38s and the S-40/S-42 Clipper orders. Connecticut Explored quotes United Aircraft's president Eugene Wilson that proving the boats could cross oceans 'paved the way for their replacement by land planes' and that by 1938 'we had a factory full of wonderful people, but no orders' (the article's writer calls the flying-boat bet a strategic blunder); he then offered the helicopter (Wohleber). Two documented episodes with opposite outcomes, so a middle score with dual_edged impact."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sikorsky_panam_miller, src_sikorsky_gregory_mcnally, src_sikorsky_wohleber1993, src_sikorsky_ctexplored2014, src_sikorsky_uscg_bunker | 1929-1944 | third-party airline history + Army pilot biography + independent magazine + regional magazine + Coast Guard history] He worked closely with outside experts and customers. The S-42 was 'designed with the active participation of Pan Am's Technical Advisor Charles Lindbergh', producing a sharp break from his earlier boom-tailed boats (Miller; the Hartford Courant 1934 article quoted by Swopes says it was built on Lindbergh's specifications). He accepted Capt. Gregory's requirement that all control sit in the main rotor and an enclosed cockpit for the XR-4 (Wohleber, Gregory biography), let Lindbergh and Gregory fly the VS-300 (Wohleber, Gregory biography), and refused to break up his emigre engineering team in 1938 (Wohleber); Wilson's description of the emigre-staffed plant (Connecticut Explored) is consistent. A pattern across customers, test pilots and staff rather than one episode."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sikorsky_asme_landmark1984, src_sikorsky_erf1995, src_sikorsky_wohleber1993 | 1931-1939 | landmark brochure + company history + independent magazine] The 1939 helicopter was prepared in advance. He filed a patent in 1931 for a design 'similar to, and including nearly all the major features of, the VS-300' (granted 1935); on 12 March 1939 he submitted a written proposal with a US$60,000 cost estimate to design, build and demonstrate a single-rotor helicopter (Landmark brochure); and while the VS-300 was built he had a small electric-motor flight simulator made to train himself before the first flight (ERF; Wohleber says he accepted United Aircraft's condition that the project not cost too much). Three distinct documented preparations."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sikorsky_ctexplored2014 | 1942 | regional magazine quoting test pilot Les Morris's memoir (employee, firsthand)] Morris describes watching Sikorsky inspect the XR-4 for 'any sign of flaw': a strut so slightly bent Morris had to sight along it, and a tail-rotor blade with an eighth-of-an-inch nick Sikorsky noticed without looking at the ship. Wohleber also calls him a 'clear, disciplined thinker'. Evidence is one employee's anecdotes from a single memoir, so kept as inference at moderate score."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sikorsky_wohleber1993, src_sikorsky_asme_giges2013 | 1944-1947 | independent magazine + engineering-society article] Wohleber quotes him: 'That was one of my dreams, to build this lifesaving machine ... a direct-lift aircraft could come in and save his life', and says he preferred peaceful uses of the helicopter; the Smithsonian curator says that, while the first contract was military, he was 'most proud' of rescue and aid uses (Giges). The XR-4 plasma flight of 3 Jan 1944 and the later rescue records are what he pointed to. The evidence is largely his own stated motive plus a curator's reading, so inference rather than strong_inference; his religious writing is incidental and not scored."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE 2026-10-07 via Wikidata wbgetentities: Q212446 en label 'Igor Sikorsky', description 'American aviation pioneer from Russian Empire (1889-1972)', P569 25 May 1889, P570 26 Oct 1972, citizenship Russian Empire/United States, instance of human, ko label '이고르 시코르스키'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupations engineer/inventor/aviator/entrepreneur, fieldIds engineering/technology/business (field.* i18n keys checked; 'aviation' has none), region north_america on the Alexander Graham Bell / Andrew Carnegie (foreign-born, career base in North America) precedent, nationality US; era 20th_century. EVIDENCE READ (12 records beyond the two orientation entries): Sergei Sikorsky 1995 ERF paper (family/company), Wohleber 1993 Invention & Technology (independent), Pan Am Historical Foundation (Miller), ASME/Giges 2013 with Smithsonian curator Cochrane, ASME landmark brochure 1984, Connecticut Explored 2014 (quoting United Aircraft president Wilson and pilot Morris), This Day in Aviation entries (Hartford Courant 1934, USCG history, Gregory quotes), Gregory biography (Army evaluator), Freeman Field XR-4 page, two Centennial of Flight essays. INDEPENDENT PERSPECTIVES: magazine biographer (Wohleber), Army evaluator Frank Gregory, United Aircraft president Eugene Wilson (superior/patron), employee pilot Les Morris, Pan Am historian, engineering-society/Smithsonian curator, Coast Guard historians. NOT ACCESSIBLE: Delear 'Igor Sikorsky: His Three Careers in Aviation' (1976) and Sikorsky's 'The Story of the Winged-S' (1938/1958) are lending-only on the Internet Archive (401 on full text; not bypassed); Cochrane and Ramirez's 'The Aviation Careers of Igor Sikorsky', Daley's Pan Am history and Sergievsky's 'Airplanes, Women, and Song' not opened; Sikorsky Archives site is bot-walled (HTTP 406) and was not used. Self quotations are used only as quoted by independent authors. ZERO-POLITICS: his flight from the Bolsheviks, anti-Soviet statements, military contracts and religious writing (The Invisible Encounter, Lord's Prayer commentary) are incidental/unscored; the wartime bomber and Army helicopter work is described only as engineering. Private life (two marriages) not used. SCORING: 12 rows; none from fame, awards, sales or output counts. Rows at 0.46 (detail_orientation, impact_motivation) rest on a single memoirist or his own stated motive and are the least certain; opportunity_sensing is deliberately mid-range with dual_edged impact. Not scored (insufficient behavioural evidence): curiosity beyond boyhood anecdotes, leadership_drive, persuasiveness, conflict_tolerance. PORTRAIT: Karl Bulla 1914 studio photograph; PD-old per Commons wikitext (Bulla 1855-1929); the Commons page is a scan from a 1993 book, so resolution is modest (640x1061, not upscaled) and no upstream institutional page was verified; Commons wikitext relied upon. Candidates rejected: 1944 USCG HNS-1 photo and 1951 NASA group photo (US-government public domain but Sikorsky is a small figure in a helicopter/group shot), Time 1953 cover painting (copyright status rested on non-renewal; not verified), Smithsonian B&W (rights not verified)."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이고르 시코르스키"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/igor-sikorsky-bulla-1914.jpg",
+    "width": 640,
+    "height": 1061,
+    "source": "Wikimedia Commons 'Sikorsky I.I. 1914. Karl Bulla.jpg' (scan from the book 'S-Peterburg. Stolitsa Rossiiskoi imperii. Liki Rossii', St Petersburg 1993, of a 1914 studio portrait by Karl Bulla)",
+    "license": "Public domain (author Karl Bulla died 1929; photograph taken 1914; Commons tag PD-old)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old",
+    "attribution": "Karl Bulla, portrait of Igor Sikorsky in flying dress with the Order of St Vladimir, 1914 (St Petersburg)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Sikorsky_I.I._1914._Karl_Bulla.jpg",
+    "creator": "Karl Bulla",
+    "date": "1914",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sikorsky_I.I._1914._Karl_Bulla.jpg"
+  }
+}

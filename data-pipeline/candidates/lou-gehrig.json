@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "lou-gehrig",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Lou Gehrig",
+    "aliases": [
+      "Henry Louis Gehrig",
+      "The Iron Horse"
+    ],
+    "wikidataId": "Q357444",
+    "birthYear": 1903,
+    "deathYear": 1941,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gehrig_wikidata",
+      "kind": "wikidata",
+      "title": "Lou Gehrig (Q357444) -- verified live via wbgetentities (2026-10-07): en label 'Lou Gehrig', description 'American baseball player (1903-1941)', born 19 Jun 1903, died 2 Jun 1941, citizenship United States, instance of human, occupation baseball player. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q357444"
+    },
+    {
+      "id": "src_gehrig_sabr_bio",
+      "kind": "biography",
+      "title": "James Lincoln Ray, 'Lou Gehrig', SABR BioProject (Society for American Baseball Research) -- long secondary biography that draws on Jonathan Eig's Luckiest Man (2005), Ray Robinson's Iron Horse (1990) and contemporary New York Times reports; sympathetic in tone but includes the Cobb fight, the Pipp myth correction and the salary episodes. Read in full for the narrative; the source list was skimmed.",
+      "url": "https://sabr.org/bioproj/person/lou-gehrig/"
+    },
+    {
+      "id": "src_gehrig_hof",
+      "kind": "institution",
+      "title": "National Baseball Hall of Fame and Museum, player page 'Gehrig, Lou' -- institutional summary (non-self) with career totals, the captaincy, the 1939 election and quoted remarks from teammates Bill Dickey and George Selkirk. Read in full.",
+      "url": "https://baseballhall.org/hall-of-famers/gehrig-lou"
+    },
+    {
+      "id": "src_gehrig_hof_discover",
+      "kind": "institution",
+      "title": "National Baseball Hall of Fame and Museum, 'Lou Gehrig's legacy celebrated every day at Hall of Fame' (Discover/Explore article) -- institutional account of his 1939 retirement and the Baseball Writers' Association vote of 7 December 1939 to suspend the waiting period. Read in full.",
+      "url": "https://baseballhall.org/discover/lou-gehrigs-legacy-celebrated-every-day-at-hall-of-fame"
+    },
+    {
+      "id": "src_gehrig_mlb_special_election",
+      "kind": "press",
+      "title": "MLB.com, 'Remembering Gehrig's special HOF election' -- league-media history piece on the December 1939 Winter Meetings special election (one of only two BBWAA special elections, the other being Roberto Clemente). Read in full; the vote tally was not disclosed.",
+      "url": "https://www.mlb.com/news/lou-gehrig-hall-of-fame-special-election"
+    },
+    {
+      "id": "src_gehrig_sabr_krieger_ruth",
+      "kind": "archive",
+      "title": "Tara Krieger, 'Babe Ruth and Lou Gehrig', SABR, in The Babe (2019) -- scholarly SABR essay with footnoted newspaper quotations from the 1920s-30s (Frank Graham, Rud Rennie, Paul Gallico, Robert Edgren, Fred Lieb), teammate recollections (Lefty Gomez, Bill Dickey, Waite Hoyt) and Eleanor Gehrig's memoir; it presents the Ruth-Gehrig feud as contested rather than settled. Read in full except the final paragraphs on the Ruth funeral and the footnotes.",
+      "url": "https://sabr.org/journal/article/babe-ruth-and-lou-gehrig/"
+    },
+    {
+      "id": "src_gehrig_sabr_ardolino",
+      "kind": "archive",
+      "title": "Frank Ardolino (University of Hawaii English professor), 'Lou vs. Babe in Real Life and in Pride of the Yankees', SABR Baseball Research Journal (2002) -- independent scholarly essay, partly drawing on Ray Robinson, Fred Lieb, Paul Gallico and Babe Ruth's 1948 autobiography; also records Ruth's January 1937 criticism of the streak and Gehrig's reply. Read in full.",
+      "url": "https://sabr.org/journal/article/lou-vs-babe-in-real-life-and-in-pride-of-the-yankees/"
+    },
+    {
+      "id": "src_gehrig_sabr_july4",
+      "kind": "archive",
+      "title": "Paul Hofmann, 'July 4, 1939: Lou Gehrig says farewell to baseball with Luckiest Man speech at Yankee Stadium', SABR Games Project -- game account footnoted to the New York Times and Daily News of 5 July 1939 (Drebinger; Doherty) and Eig; gives the speech text and attendance of 61,808. Read in full.",
+      "url": "https://sabr.org/gamesproj/game/july-4-1939-lou-gehrig-appreciation-day-ruth-and-gehrig-end-feud/"
+    },
+    {
+      "id": "src_gehrig_sabr_april30",
+      "kind": "archive",
+      "title": "Kevin Larkin, 'April 30, 1939: Lou Gehrig plays his final game with Yankees', SABR Games Project -- game account footnoted to the New York Times, Brooklyn Daily Eagle and Eig; records 2,130 consecutive games and that he asked manager Joe McCarthy to be benched in Detroit. Read in full; used only for the streak total and dates, not as trait evidence.",
+      "url": "https://sabr.org/gamesproj/game/april-30-1939-lou-gehrig-plays-his-final-game-with-yankees/"
+    },
+    {
+      "id": "src_gehrig_loc_keystone",
+      "kind": "archive",
+      "title": "Library of Congress Prints and Photographs Division, catalog record 'Lou Gehrig, famous Yankee first baseman' (Keystone View Company stereograph, c1930; JO 6667 U.S. Copyright Office; rights advisory 'No known restrictions on publication. No renewal in the U.S. Copyright Office (checked 9/2016)') -- portrait provenance only; read from the loc.gov JSON API. Not used for any row.",
+      "url": "https://www.loc.gov/item/89716183/"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gehrig_sabr_bio, src_gehrig_sabr_krieger_ruth, src_gehrig_sabr_ardolino, src_gehrig_hof | 1927-1937 | secondary biography + footnoted SABR essays + Hall of Fame page quoting a teammate] The SABR biography says that when Joe McCarthy arrived in 1931 and demanded year-round conditioning, this 'mirrored Gehrig's approach': he 'stayed in shape year round and showed up to play every day', and Krieger adds that Gehrig 'appreciated' McCarthy's high expectations. Krieger also reports that in spring 1927 he went to training camp early amid rumours of a right-handed first baseman, while Ruth reported late. Ardolino quotes his 1939 remark that he had averaged ten hours' sleep on almost every night in seventeen years (a self-report, taken as such; Krieger notes the clean-living image was only roughly true, since he smoked and drank in moderation). The Hall of Fame page quotes Bill Dickey: 'He just went out and did his job every day.' Routine, conditioning and punctuality are the evidence; the games-played streak is used only under persistence, and his 1938-39 decline is deliberately not used. Several independent descriptions of the same pattern over a decade; not scored higher because the best-dated instances (1927 camp, 1931 McCarthy) are single retellings and the sleep figure is his own."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gehrig_sabr_bio, src_gehrig_sabr_ardolino, src_gehrig_sabr_krieger_ruth | 1921-1937 | secondary biography + footnoted SABR essays] Dated instances before any illness: after the humiliating June 1921 Giants tryout (McGraw: 'Get this fellow out of here!') he went home 'temporarily crushed, but not defeated' and accepted a Hartford contract (SABR biography). In 1930 he played the last three weeks of the season with a broken finger (surgery afterwards, and bone chips found in his elbow) and still appeared in every game. Ardolino, citing Ray Robinson, says that over the 1925-1939 run he broke every finger and had 17 assorted hand fractures that healed unaided (a secondary tally, not independently checked). Ruth's January 1937 attack on the streak ('the worst mistakes a ball player can make') and Gehrig's reply that he had 'never been tired on the field' (Krieger, Ardolino) show he kept playing under open criticism; The SABR biography adds that when writer Dan Daniel told him in 1933 how long the run was, he 'kept right on playing', and that he called it 'a real stunt'. The decline from 1938 and the 1939 ending are excluded: nothing here is inferred from his illness. One dated instance plus corroborating summaries, hence strong_inference."
+    },
+    "social_assertiveness": {
+      "score": 36,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_gehrig_sabr_bio, src_gehrig_sabr_krieger_ruth, src_gehrig_sabr_ardolino, src_gehrig_hof, src_gehrig_sabr_july4 | 1925-1935 | secondary biography + SABR essays quoting teammates and writers + Hall of Fame page] The Hall of Fame and the SABR essays describe him as reserved and quiet beside the outgoing Ruth; SABR biography: he 'didn't give writers good quotes'; Lefty Gomez (teammate from 1930): 'how could you ever know how Lou really felt?'; Gehrig himself, 'I'm not a headline guy'. On pay, the SABR biography says he had signed the Yankees' standard contract 'automatically' for years, then let one sit and settled in 1927 for a three-year $25,000 deal, below the figure Ruth had urged, and accepted $23,000 for 1932 against Ruth's reported $80,000; Krieger says it was after his 1933 marriage that Eleanor encouraged him to engage with fans and advertisers and demand what he was worth. Against this, in private he told Ruth to 'control his mouth' and complained about him to reporter Stanley Frank (Krieger), so the reticence was not total; and the feud with Ruth is contested (Gomez says the press inflated it). Style and negotiating conduct, not shyness as a trait read from a quotation. Dual_edged: restraint won him respect but, per the SABR biography, cost him pay and headlines."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루 게릭"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-07) for Q357444 returned en label 'Lou Gehrig', description 'American baseball player (1903-1941)', P569 19 Jun 1903, P570 2 Jun 1941, citizenship United States (Q30), instance of human, P18 'Lou Gehrig in 1923 (cropped).jpg'; matches the intended person. SLUG CHECK: no lou-gehrig entry in scratch/prod_slugs.txt and no existing candidate file. CLASSIFICATION: occupation athlete, field sport (has a field.* key), impactDomains athletic and cultural, archetype competitive_performer, no tags: all follow the live babe-ruth.json precedent; era 20th_century; US; north_america.\nEVIDENCE READ: 9 substantive records opened and read (curl to scratch/work/lou-gehrig, read locally) + Wikidata orientation + a LOC record for the portrait: (1) James Lincoln Ray, SABR BioProject biography (full narrative); (2) Baseball Hall of Fame player page; (3) Hall of Fame Discover article on his legacy and the 1939 election; (4) MLB.com on the 1939 special election; (5) Tara Krieger, SABR 'Babe Ruth and Lou Gehrig' (2019; footnoted period quotations); (6) Frank Ardolino, SABR Baseball Research Journal 2002; (7) Paul Hofmann, SABR Games Project, July 4 1939; (8) Kevin Larkin, SABR Games Project, April 30 1939. PERSPECTIVES: (a) secondary biography (Ray, drawing on Eig and Robinson, sympathetic); (b) institutional (Hall of Fame, MLB.com); (c) scholarly SABR essays with footnoted period newspapers (Krieger, Ardolino, Hofmann, Larkin) which quote contemporaries: sportswriters Frank Graham, Rud Rennie, Paul Gallico, Robert Edgren, Fred Lieb and Dan Daniel (all only as quoted inside SABR pieces, not opened directly); teammates Lefty Gomez, Bill Dickey, George Selkirk, Waite Hoyt, Earle Combs and Tony Lazzeri (as quoted); (d) rival/critical voice: Babe Ruth's January 1937 attack on the streak and Dickey's claim that Gehrig 'never forgave' Ruth (via Krieger and Ardolino); Gomez's counter-claim that the feud was press-inflated; (e) self-side: Gehrig's own remarks and Eleanor Gehrig's memoir, only as quoted by Krieger and Ray (never alone for a row). NON-SELF BEHAVIOURAL sources: all of the above except Hall of Fame/MLB election pages, which are used only for achievements.\nNOT AVAILABLE / NOT READ: Jonathan Eig's 'Luckiest Man' (2005), Ray Robinson's 'Iron Horse' (1990), Eleanor Gehrig's 'My Luke and I' and Frank Graham's 'Lou Gehrig: A Quiet Hero' (1942) exist on the Internet Archive only as lending copies (full-text endpoints returned 401/403) and were NOT read; Chronicling America / loc.gov search and the New York Times archive were not usable (403 or paywall) and were not bypassed; no contemporary 1920s-30s newspaper page was opened directly; Wikipedia was used only for orientation.\nEPISODE BUDGET: 1921 Giants tryout and 1930 broken finger and Ruth's 1937 criticism -> persistence only; spring 1927 early camp, McCarthy 1931 conditioning, ten-hours-sleep self-report, Dickey quote -> discipline only; reserved press persona, contract settlements 1927-1932, Eleanor's encouragement after 1933, private rebuke of Ruth -> social_assertiveness only. Three rows, scored to what the evidence supports; not targeting a row count, coverage or eligibility, and no eligibility numbers were run or viewed before scores were fixed.\nROWS CONSIDERED AND LEFT UNSCORED: conflict_tolerance and competitiveness (the Cobb tunnel fight, the private rebuke of Ruth, the silent break with Ruth after 1934 and the 1927 home-run race point in different directions, the feud's cause and length are disputed between Dickey, Gomez, Eleanor and Krieger, and the home-run race is outcome evidence); leadership_drive (the 1935 captaincy was given by McCarthy and he doubted he was a vocal enough leader; no evidence of seeking command); collaboration (generous remarks about Ruth and Huggins are characterisation, and the Johnny Sylvester ball is a single anecdote); risk_tolerance and planning_orientation (his frugality and wish for a three-year contract are one money-specific theme, not enough on-topic evidence); adaptability (the 1938 lighter bat and changed stance come in the period of his decline, which is excluded); mastery_orientation (spring 1938 conditioning is also in the excluded period and overlaps discipline).\nEXCLUDED ON PURPOSE: any inference from his illness (ALS diagnosis of June 1939), symptoms, decline from 1938, retirement, death or the way he faced it; the July 4 1939 speech is used only as a historical event in an Achievement card, never as trait evidence; the 'luckiest man' framing, tributes and Pride of the Yankees mythology; home-run totals, titles, MVP awards, salary figures and records as trait evidence; his parents, marriage and private life beyond the one documented contract/assertiveness context; the rumours about Ruth and Eleanor Gehrig (not read in any opened source and not used); politics (his 1940 Parole Commissioner post is not used, zero-politics rule).\nCONFLICTS REPORTED, NOT ADJUDICATED: (a) when the streak ended: SABR bio says it ended on May 2 1939 when he asked McCarthy to sit him; the SABR Games Project piece says his 2,130th and last game was April 30 1939 and he asked to be benched two days later; the profile says only 'ended in May 1939 at 2,130 games'. (b) Ruth-Gehrig feud: Krieger and Ardolino/Robinson attribute it to the Gehrig mother and Claire Ruth episode, the 1934 Japan ship incident and 1937 streak criticism; Gomez says the press created it; Dickey says Gehrig never forgave Ruth after July 4 1939, while the Hall of Fame and Hofmann present the hug as ending it; the profile records only documented statements. (c) Pipp story: SABR bio documents that the 'headache' story is untrue (Huggins benched Pipp for form), so it is not used. (d) 1927 RBI total and season stat lines differ by one or two across sources; the editorial uses rounded or well-attested figures only.\nPORTRAIT: Wikidata P18 'Lou Gehrig in 1923 (cropped).jpg' was NOT used: Commons wikitext gives source as an AP Images newsroom item (AP page returned 403 and was not bypassed), author unknown, date 1923-06-12 and tag PD-US-expired, but the image itself shows a markedly older-looking man than a 20-year-old rookie (viewed at 700px), so the date looks unreliable and no publication fact was found. A second wire print (Pacific and Atlantic Photos, 'Lou Gehrig as a new Yankee 11 Jun 1923', 2187x2788, Commons PD-US-expired, source a Heritage Auctions lot page that returned 403) was also not used because publication of that exact print is undocumented. CHOSEN: Library of Congress stereograph 'Lou Gehrig, famous Yankee first baseman' (Keystone View Company, Meadville, Pa., c1930, No. 32597, LOC STEREO BIOG FILE, digital file LC-DIG-ppmsca-18599); the LOC JSON API (https://www.loc.gov/item/89716183/?fo=json; the HTML page returns 403) gives created/published 'Meadville, Pa.: Keystone View Company, c1930', note 'JO 6667 U.S. Copyright Office', rights advisory 'No known restrictions on publication. No renewal in the U.S. Copyright Office (checked 9/2016).' A US published (commercial stereocard, copyright-registered) work of c1930 is in the US public domain (published before 1 January 1931). The 50 MB master TIFF (5766x2945, both views) was downloaded from tile.loc.gov and I cropped the left-hand view to the player alone (920x1100, JPEG q85, no resizing or upscaling), saved as public/portraits/lou-gehrig-keystone-1930.jpg; the file reopens and was viewed. CAVEATS: the photograph is soft (stereo print, face about 220 px wide), the left and right views are near-identical so either half would do, the date is the catalogue's 'c1930' rather than a day, and the neighbouring player at the card edge is out of the crop. Kind: likeness (made from life, Gehrig about 27).\nKOREAN NAME: '루 게릭' (Wikidata ko label)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/lou-gehrig-keystone-1930.jpg",
+    "width": 920,
+    "height": 1100,
+    "source": "Keystone View Company, 'Lou Gehrig, famous Yankee first baseman', stereograph No. 32597 (Meadville, Pa., c1930), Library of Congress Prints and Photographs Division, STEREO BIOG FILE - Gehrig, Lou; digital file LC-DIG-ppmsca-18599; left-hand view cropped to the player only",
+    "license": "Public domain (published in the United States c1930; copyright registered JO 6667, no renewal found by the Library of Congress, checked 9/2016; US publication before 1931)",
+    "licenseUrl": "https://www.copyright.gov/help/faq/faq-duration.html",
+    "attribution": "Keystone View Company, stereograph 'Lou Gehrig, famous Yankee first baseman', c1930, Library of Congress Prints and Photographs Division",
+    "attributionUrl": "https://www.loc.gov/item/89716183/",
+    "creator": "Keystone View Company (Meadville, Pa.)",
+    "date": "c1930",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.loc.gov/item/89716183/"
+  }
+}

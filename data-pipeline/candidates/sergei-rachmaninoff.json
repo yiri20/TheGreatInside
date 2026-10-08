@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sergei-rachmaninoff",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sergei Rachmaninoff",
+    "aliases": [
+      "Sergey Rachmaninov",
+      "Sergei Rachmaninov",
+      "Sergei Vasilyevich Rachmaninoff"
+    ],
+    "wikidataId": "Q131861",
+    "birthYear": 1873,
+    "deathYear": 1943,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_rachmaninoff_wikidata",
+      "kind": "wikidata",
+      "title": "Sergei Rachmaninoff (Q131861) -- verified live via wbgetentities (2026-10-07): en label 'Sergei Rachmaninoff', description 'Russian composer, pianist and conductor (1873-1943)', instance of human, P569 1 Apr 1873 (Gregorian; a 20 Mar 1873 Julian value also listed), P570 28 Mar 1943, citizenship Russian Empire and United States, ko label '세르게이 라흐마니노프', P18 'Sergei Rachmaninoff, pianist (SAYRE 1608) (restored).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q131861"
+    },
+    {
+      "id": "src_rachmaninoff_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia articles on Sergei Rachmaninoff, Piano Concerto No. 2, Piano Concerto No. 3, Symphony No. 2 and Rhapsody on a Theme of Paganini -- read as orientation for premiere dates only; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Sergei_Rachmaninoff"
+    },
+    {
+      "id": "src_rachmaninoff_riesemann1934",
+      "kind": "biography",
+      "title": "Oskar von Riesemann, Rachmaninoff's Recollections Told to Oskar von Riesemann (New York: Macmillan, 1934; trans. Dolly Rutherford), Internet Archive full text -- SELF-TOLD memoir recorded by a friendly editor (Riesemann knew the composer from 1922, with an introduction by Daniel Gregory Mason); admiring, and Rachmaninoff's own words dominate, so it counts as a self source with editorial framing, not an independent perspective. Read locally in chunks: the introduction and preface; Ch. 3 (Sverev household, practice regime); Ch. 4 (the October 1889 break with Sverev, the Great Gold Medal exam, Gutheil, Aleko and the Tchaikovsky rehearsals); Ch. 5 (the First Symphony premiere of 1897, Cui's review, Rimsky-Korsakov's remark, the Fantasia and the bells advice); Ch. 6 (Mamontov Private Opera, first conducting failure and recovery, the Siloti-funded years of composition, Second Concerto period); Ch. 7 (Pan Voyevoda rehearsals, Chaliapin coaching, Baklanov, the 1906 decision to leave Moscow); Ch. 9 (first American tour, Mahler rehearsal, refusal of the Boston post); Ch. 10 (war-time charity concerts, Scriabin deputation, Vesper Mass, 1917 rewriting of the First Concerto, decision to become a full-time concert pianist in Scandinavia, Boston offers refused); Ch. 11 (arrival in New York, managers, programme choices, Stokowski, the neglect of composing). Chapter 12 (works survey) and Ch. 8 were only skimmed.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.179919"
+    },
+    {
+      "id": "src_rachmaninoff_tchaikovsky_research",
+      "kind": "institution",
+      "title": "Tchaikovsky Research (en.tchaikovsky-research.net), 'Sergei Rachmaninoff' -- scholarly reference wiki built on Tchaikovsky's letters, diaries and contemporaries' memoirs; INDEPENDENT of Rachmaninoff's own memoir. Read in full (first half closely): Tchaikovsky's 1891 letter calling Rachmaninoff's four-hand Sleeping Beauty arrangement lacking in courage, initiative and creativity, the 19-day composition of Aleko, the award of the Great Gold Medal (given twice before), Tchaikovsky's 1892 interview naming Rachmaninoff among promising younger composers and Rachmaninoff's letter about it, the 1893 Aleko premiere and Ippolitov-Ivanov's memory of the 1893 Taneyev soiree.",
+      "url": "https://en.tchaikovsky-research.net/pages/Sergei_Rachmaninoff"
+    },
+    {
+      "id": "src_rachmaninoff_chaliapin1932",
+      "kind": "biography",
+      "title": "Feodor Chaliapin, Man and Mask: Forty Years in the Life of a Singer (New York: Knopf, 1932; trans. Phyllis Mégroz), Internet Archive full text, chapter 'Serge Rachmaninov: A visit to Leo Tolstoi' and the Gorky passage -- PEER/COLLABORATOR perspective (non-self; Chaliapin was Rachmaninoff's close friend and frequent partner, so it is warm but is a different person's first-hand observation). Read in full for the passages on the Mamontov years, Rachmaninoff as accompanist and conductor, the 30 January 1900 visit to Tolstoy and the book recommendation that introduced Gorky to Chaliapin.",
+      "url": "https://archive.org/details/dli.ministry.16687"
+    },
+    {
+      "id": "src_rachmaninoff_rimsky1923",
+      "kind": "biography",
+      "title": "Nikolay Rimsky-Korsakov, My Musical Life (New York: Knopf, 1923; trans. Judah Joffe), Internet Archive full text -- memoir of an older composer from the rival St. Petersburg school (independent, and professionally detached). Read the passages on the Belayev circle (Rachmaninoff 'kept apart'), the Russian Symphony Concerts programme with the D-minor symphony, and the autumn 1904 Moscow production of Pan Voyevoda with Rachmaninoff conducting.",
+      "url": "https://archive.org/details/mymusicallife0000rims_p2v1"
+    },
+    {
+      "id": "src_rachmaninoff_sun1909",
+      "kind": "press",
+      "title": "'New Music by a Russian ... Third Pianoforte Concerto played by the Composer with the New York Symphony Orchestra', The Sun (New York), 29 November 1909, p. 7, Library of Congress Chronicling America OCR text -- contemporary newspaper review of the 28 November 1909 world premiere of the Third Concerto; mixed-to-reserved in judgement (too long, little contrast, 'not a great or memorable proclamation') but records the audience response and the pianist's manner. The OCR is garbled; only the review column was read.",
+      "url": "https://www.loc.gov/resource/sn83030272/1909-11-29/ed-1/?sp=7"
+    },
+    {
+      "id": "src_rachmaninoff_evstar1943",
+      "kind": "press",
+      "title": "Associated Press obituary 'Requiem Mass Held for Rachmaninoff, Noted Concert Pianist', Evening Star (Washington, D.C.), 29 March 1943, p. 12, and 'Rachmaninoff's Body Is Placed in Crypt', 31 March 1943, p. 10, Library of Congress Chronicling America OCR text -- wire-service obituary; used only for dated public facts and the guarded-private-life and concert-conduct remarks it reports (the 'unruly audience' recital is a wire anecdote, not independently confirmed). Both read in full.",
+      "url": "https://www.loc.gov/resource/sn83045462/1943-03-29/ed-1/?sp=12"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rachmaninoff_riesemann1934, src_rachmaninoff_rimsky1923, src_rachmaninoff_chaliapin1932 | 1897-1909 | self-told memoir + older rival composer's memoir + peer memoir] Several separate episodes show a standard applied to his own and others' work. After the March 1897 premiere of the First Symphony he judged the work and its orchestration deficient himself, withdrew it and, in Riesemann's account, hid the score (Riesemann). In 1905-06 he kept Chaliapin at the piano for two or three hours at a time 'until he knew the music of his own part and the whole opera down to the last detail', calling himself 'positively cruel' in rehearsal (Riesemann, his own words). In 1909 he praised Mahler for rehearsing his concerto's accompaniment to the point of perfection because 'every detail of the score was important' (Riesemann). The independent sources are lighter: Rimsky-Korsakov found the 1904 Moscow Pan Voyevoda 'well rehearsed' under him, and Chaliapin describes him as an exact accompanist. Three self-reported episodes plus two independent confirmations of careful rehearsal, so strong_inference; dual_edged because by his own account the same high standard sharpened the pain of the 1897 failure."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rachmaninoff_riesemann1934, src_rachmaninoff_rimsky1923, src_rachmaninoff_chaliapin1932, src_rachmaninoff_tchaikovsky_research | 1886-1919 | self-told memoir + independent memoirs + scholarly reference] Repeated deliberate skill-building. As a student he took Taneyev's counterpoint and Arensky's free composition and finished with the Great Gold Medal, which Tchaikovsky Research notes had been awarded twice before. Appointed second conductor at Mamontov's opera in 1897 with 'only a hazy idea' of conducting, he failed his first opera rehearsal, then sat watching Esposito's baton and learned why (he had given no cues to singers) and went on to conduct Samson and Delilah and others without trouble (Riesemann). Rimsky-Korsakov later found him 'talented' and his Moscow performance well rehearsed, and Chaliapin ranked him among the best conductors he had heard. In 1918 he concluded he could not live on his own works alone and set out to practise himself into a full-time concert pianist with a wider repertoire (Riesemann; the AP obituary records a half-century before the public). Scored for effortful skill development documented in several episodes, not for the level of eventual fame."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rachmaninoff_riesemann1934, src_rachmaninoff_tchaikovsky_research, src_rachmaninoff_evstar1943 | 1897-1934 | self-told memoir + scholarly reference + wire obituary] After the First Symphony's failure he composed little for a time but, by his own account, returned to the Second Concerto and asked his cousin Siloti to fund two years devoted only to composing, then wrote the concerto, cantata, Preludes Op. 23 and twelve songs of those years (Riesemann). In 1917, in Moscow during the upheaval, he sat at desk or piano all day rewriting his First Concerto (Riesemann). From late 1917 he built a new career as a touring pianist from nothing, accepting every engagement offered in Scandinavia and then a long American career (Riesemann; the AP obituary confirms it). Documented as a pattern over decades but largely from his own telling; the compositional hiatus is presented as a professional fact and not interpreted."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rachmaninoff_riesemann1934, src_rachmaninoff_chaliapin1932, src_rachmaninoff_evstar1943 | 1885-1943 | self-told memoir + peer memoir + wire obituary] As a boarder in Sverev's house from 1885 he practised three hours a day under supervision and learned French and German by a fixed weekday routine (Riesemann). In 1909 he took a silent practice keyboard on the Atlantic crossing to learn passages of the Third Concerto he could not yet play (Riesemann). In 1917-19 he prepared a larger repertoire in Copenhagen before the American season, and he spent summers preparing the next winter's programmes (Riesemann). Chaliapin describes him sitting bolt upright, composing; the AP obituary reports he guarded his hands before concerts with an electrically heated muff. Several habits across a lifetime, but the strongest material is self-reported, so strong_inference at moderate confidence."
+    },
+    "deep_focus": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rachmaninoff_riesemann1934, src_rachmaninoff_tchaikovsky_research, src_rachmaninoff_chaliapin1932 | 1892-1917 | self-told memoir + scholarly reference + peer memoir] Tchaikovsky Research records that he wrote the whole one-act opera Aleko in 19 days for his graduation exam in 1892. In November 1917, with firing in the Moscow streets, he says he sat at the writing table or piano all day and 'did not notice what went on around me' while rewriting the First Concerto (Riesemann; a self-told anecdote). Chaliapin describes his fixed, upright concentration at the piano when composing. Two documented instances (one independent) and one anecdote; confidence kept moderate."
+    },
+    "execution_speed": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rachmaninoff_tchaikovsky_research, src_rachmaninoff_riesemann1934 | 1892-1918 | scholarly reference + self-told memoir] Aleko was composed in 19 days for the March-May 1892 exam (Tchaikovsky Research, citing the documentary record). He says of his early work 'composition did not cost me the slightest effort', composing 'as I spoke' (Riesemann, quoted in Mason's introduction), and wrote the twelve songs of Op. 21 in a short stretch to raise money for his 1902 wedding trip (Riesemann). Self-description carries the second and third instances; kept below 70."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rachmaninoff_riesemann1934, src_rachmaninoff_rimsky1923 | 1892-1918 | self-told memoir + older rival composer's memoir] Three self-reported reversals, one partly corroborated. After the 1897 Symphony failure he says he saw its faults and agreed with Rimsky-Korsakov's blunt verdict that the music was not agreeable (Riesemann). He says he first scorned Rimsky's advice to play the Easter chant in the Fantasia without the bells but later saw Rimsky was right (Riesemann). During the 1904-05 Moscow Pan Voyevoda rehearsals he dropped his earlier Moscow prejudice against the St. Petersburg school and grew to admire Rimsky-Korsakov (Riesemann); Rimsky independently confirms that in the 1890s Rachmaninoff 'kept apart' from the Belayev circle. In 1918 he also concluded that playing only his own pieces would exhaust his career and changed course. The updating itself rests on his own account, hence strong_inference at about 0.55."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rachmaninoff_chaliapin1932, src_rachmaninoff_rimsky1923, src_rachmaninoff_riesemann1934 | 1897-1917 | peer memoir + older composer's memoir + self-told memoir] Chaliapin, a frequent partner from 1897, says that at the piano he and Rachmaninoff 'sing together' and that Rachmaninoff reliably shaped pauses and held notes for the singer; they performed together in Moscow and elsewhere (peer, first-hand). Rimsky-Korsakov recorded the 1904 Moscow production of Pan Voyevoda under Rachmaninoff with good orchestral and choral balance; Riesemann (his own words) describes coaching Chaliapin and the young bass Baklanov, enlisting the actor Lensky to check phrasing, and in 1914-17 giving charity concerts and staging a three-concerto evening to raise money for the wounded. Two independent observers and a self-told account; Riesemann's editorial praise of his dealings with singers is not used."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rachmaninoff_riesemann1934, src_rachmaninoff_rimsky1923, src_rachmaninoff_evstar1943 | 1889-1943 | self-told memoir + older rival composer's memoir + wire obituary] In October 1889 he asked Sverev for a room and piano of his own and, after the quarrel, left Sverev's house (Riesemann). In autumn 1906 he did not renew his Imperial Theatre contract despite offers of 'almost unlimited authority' and left Moscow for Dresden to compose in seclusion (Riesemann). In 1918 he refused two offers to lead the Boston Symphony and the long contract that went with them (Riesemann). Rimsky-Korsakov independently noted that in the 1890s he 'kept apart' from the Belayev circle, and the AP obituary says he kept his private life to himself and travelled in a private railway car. Several separate choices, partly independent; dual_edged because these decisions also cost him conducting positions and income."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rachmaninoff_riesemann1934, src_rachmaninoff_evstar1943, src_rachmaninoff_sun1909 | 1897-1930 | self-told memoir + wire obituary + period review] He moved between composing, opera and orchestral conducting and concert piano in successive phases (Mamontov's opera, the Bolshoi, the Moscow Philharmonic, then a New York tour in 1909 in which he played and conducted, per the NY Sun review of the 28 November 1909 premiere). From late 1917 he re-founded his livelihood as a touring pianist, adapting his programmes to American audiences' preference for the classics and Chopin, and later divided each season between Europe and North America (Riesemann). The AP obituary confirms the American career. Independent confirmation covers the breadth of roles; the way he adapted his programming is self-reported. Kept moderate."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rachmaninoff_riesemann1934 | 1906-1918 | self-told memoir] Two decisions to give up secure posts on his own judgement: in 1906 he turned down the Imperial Theatre's renewal and lavish terms to live in Dresden for composing, and in 1918 he declined the Boston Symphony conductorship and sailed to New York with no engagement, 'entirely at his own risk' as Riesemann puts it. Both are documented but from a single self-told source, and neither shows tolerance of danger beyond a career gamble, so the score stays near the middle at the low end of strong_inference."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rachmaninoff_riesemann1934, src_rachmaninoff_chaliapin1932 | 1889-1914 | self-told memoir + peer memoir] He answered the pianist Schlozer's sneer about the price of his Concerto with a sharp counter-quip at Sverev's table (Riesemann); he refused the Scriabin partisans' deputation 'once and for all' (Riesemann); and he argued heatedly with Chaliapin over the phrasing of his own opera until, in his account, they never mentioned it again (Riesemann; Chaliapin's chapter describes his warmth but does not mention the quarrel). Mason's introduction, summarising Riesemann, reports that he refused an orchestra delegation's demand about smoking by asking for their resignations. Three first-hand self-told cases and one report; no independent confirmation, so the score is modest."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rachmaninoff_riesemann1934 | 1900-1921 | self-told memoir] During the First World War he gave or joined charity concerts for the sick and wounded and played three concertos in one evening at the Grand Theatre for the largest gate, having a special platform built; he took Kalinnikov's unpublished manuscripts to a publisher to help his widow after she asked for a loan; and in 1920-21 he worked to bring his wife's family out of Russia (Riesemann). All are self-told and some are family-oriented, so this stays a modest lean."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "세르게이 라흐마니노프"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster44 research. QID verified live (Q131861). Region follows Tchaikovsky precedent (Russia -> central_europe). Zero-politics: exile, wartime and revolution are incidental; no traits are inferred from the 1897-1900 breakdown, hypnotherapy, illness or death. Sources opened and read: Riesemann memoir (full text, chapters 1-11, large parts), Tchaikovsky Research page, Chaliapin memoir chapter, Rimsky-Korsakov memoir passages, NY Sun 29 Nov 1909 review, Evening Star AP obituaries of 29 and 31 March 1943. Independent perspectives: Tchaikovsky (via Tchaikovsky Research), Chaliapin, Rimsky-Korsakov, NY Sun critic, AP wire. Cui's hostile 1897 review reached only second-hand via Riesemann. NOT accessible: Bertensson and Leyda 'A Lifetime in Music', Barrie Martyn and Schonberg biographies, Seroff (lending-only Internet Archive items); no letters read directly. Rachmaninoff's own memoir is the dominant source for most rows, hence modest confidences. Eligibility numbers were not consulted."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sergei-rachmaninoff-kubey-rembrandt-1921.jpg",
+    "width": 1176,
+    "height": 1492,
+    "source": "Library of Congress Prints and Photographs Division, BIOG FILE (LC-USZ62-40236; hdl.loc.gov/loc.pnp/cph.3a40575), via Wikimedia Commons 'Sergei Rachmaninoff cph.3a40575.jpg'",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US-1923",
+    "attribution": "Kubey-Rembrandt Studios (Philadelphia), head-and-shoulders portrait, c1921 (LOC record: 'c1921', note 'Photo by Kubey Rembrandt, 1732 Chestnut St., Phila., Pa.'); Library of Congress Prints and Photographs Division, rights status not evaluated by LOC; a c1921 copyright date indicates publication before 1923",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2005685132/",
+    "creator": "Kubey-Rembrandt Studios",
+    "date": "c1921",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sergei_Rachmaninoff_cph.3a40575.jpg"
+  }
+}

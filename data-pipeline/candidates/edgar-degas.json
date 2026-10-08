@@ -1,0 +1,216 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edgar-degas",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Edgar Degas",
+    "aliases": [
+      "Hilaire-Germain-Edgar De Gas",
+      "Edgar De Gas"
+    ],
+    "wikidataId": "Q46373",
+    "birthYear": 1834,
+    "deathYear": 1917,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "perfectionist",
+      "craft_focused",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_degas_wikidata",
+      "kind": "wikidata",
+      "title": "Edgar Degas (Q46373) -- verified live via wbgetentities (2026-10-07): en label 'Edgar Degas', description 'French Impressionist artist (1834-1917)', P569 19 Jul 1834, P570 27 Sep 1917, citizenship France (Q142), instance of human, ko label '에드가 드가' (ko description '프랑스의 화가, 조각가'), P18 'Edgar Degas self portrait 1855FXD.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q46373"
+    },
+    {
+      "id": "src_degas_boggs1988",
+      "kind": "institution",
+      "title": "Jean Sutherland Boggs, Douglas W. Druick, Henri Loyrette, Michael Pantazzi and Gary Tinterow, Degas (exhibition catalogue: Galeries nationales du Grand Palais, Paris; National Gallery of Canada, Ottawa; The Metropolitan Museum of Art, New York, 1988-89), Internet Archive full text (Degas18341917) -- museum-curators' scholarly catalogue with a dated, documented chronology that quotes Degas's letters (a self source) and the letters, journals and reviews of contemporaries including friendly (Pissarro, Desboutin, Claretie, Huysmans) and hostile (Caillebotte, Gauguin, Wolff, Mantz, Bertall) voices. Read locally: the 'technical invention' section on printmaking, pastel and distemper (pp. 199-200); Chronology II (December 1873 to January 1881) in full, including the 1874 recruitment letter and the 1876-81 Impressionist exhibitions; the essay on Degas and Faure; Chronology III for 1884-85 and the March 1886 planning of the last group exhibition; the Little Fourteen-Year-Old Dancer catalogue entry; Chronology IV for 1895-96 and the 'Photography and Portraiture' essay. The 1988 catalogue is itself a secondary synthesis; letter quotations are taken as the catalogue prints them.",
+      "url": "https://archive.org/details/Degas18341917"
+    },
+    {
+      "id": "src_degas_vollard1927",
+      "kind": "biography",
+      "title": "Ambroise Vollard, Degas: An Intimate Portrait (translated by Randolph T. Weaver; New York: Greenberg, 1927; Crown reprint 1937), Internet Archive full text (degaspor00voll) -- ACQUAINTANCE/DEALER's anecdotal portrait: Vollard sold and discussed art with Degas in his last decades and reports short scenes and sayings, sometimes quoting Renoir; admiring but openly anecdotal and compressed, and a number of its anecdotes are single-source. Read locally in full except the plates: the sections on prejudices and opinions, views on art, methods of work, frames, technical details, Pere Noisy, Delacroix and Corot, old age, the sculptor, the last years. Its antisemitic remarks by Degas and the accounts of his failing sight and hearing were read but are deliberately not used for any row.",
+      "url": "https://archive.org/details/degaspor00voll"
+    },
+    {
+      "id": "src_degas_moore1906",
+      "kind": "biography",
+      "title": "George Moore, Reminiscences of the Impressionist Painters (Dublin: Maunsel / Tower Press Booklets, 1906), Internet Archive full text (reminiscencesofi00mooruoft) -- memoir by an Irish writer who frequented the Nouvelle Athenes cafe in Paris in the 1870s and 1880s; ACQUAINTANCE, ambivalent and at points critical (he ranks Degas's intellect below Manet's gift for painting) and anecdotal, with some hearsay. Read locally: the whole Degas passage (Degas's quips about Whistler, Bastien-Lepage, Roll and Sargent, the Semiramis story, his Ingres collecting, his remark that talent at twenty-five is easy and at fifty is the test).",
+      "url": "https://archive.org/details/reminiscencesofi00mooruoft"
+    },
+    {
+      "id": "src_degas_lemoisne1912",
+      "kind": "biography",
+      "title": "Paul-Andre Lemoisne, Degas (L'Art de notre temps, Paris: Librairie centrale des Beaux-Arts, c. 1912), Internet Archive full text (cu31924015726221) -- preface and biographical notice by the Bibliotheque nationale print-room librarian who later compiled the Degas catalogue raisonne; written in Degas's lifetime ('M. Degas') by a scholar who says he had heard him speak, sympathetic but analytic and outspoken about Degas's relation to the Impressionists, plein-air painting and the public. Read locally: the preface and the first biographical sections (to his Rome years and the 1857 self-portrait etching); the later plate notices were not read.",
+      "url": "https://archive.org/details/cu31924015726221"
+    },
+    {
+      "id": "src_degas_lafond1918",
+      "kind": "biography",
+      "title": "Paul Lafond, Degas, vol. 1 (Paris: H. Floury, 1918), Internet Archive full text (degaslaf01lafouoft) -- appreciative monograph by a friend of Degas and of the sculptor Bartholome (Bartholome's letters to Lafond are cited in the Boggs catalogue); admiring in tone and general rather than anecdotal. Read locally: the introductory essay (to about p. 35) on Degas's subjects, method of correction and retouching, his devotion to Ingres and Poussin and his copies after the old masters; the rest of the two volumes was not read.",
+      "url": "https://archive.org/details/degaslaf01lafouoft"
+    },
+    {
+      "id": "src_degas_huysmans1889",
+      "kind": "press",
+      "title": "Joris-Karl Huysmans, 'Degas' in Certains (Paris: Tresse et Stock, 1889), Internet Archive full text (certainsgmoreaud00huys) -- contemporary art critic's essay, a hostile-to-the-establishment, strongly interpretive piece (it reads motives into the 1886 bather pastels; those readings are NOT used); read locally: the Degas chapter, for his description of Degas's withdrawal from public exhibitions, the wording of the 1886 catalogue entry for the nudes and his remark that Degas was an isolated, powerful artist with no clear precedent.",
+      "url": "https://archive.org/details/certainsgmoreaud00huys"
+    },
+    {
+      "id": "src_degas_nga_selfportrait",
+      "kind": "institution",
+      "title": "National Gallery of Art, Washington, open-data record for object 73867, 'Self-Portrait', c. 1855, red chalk on laid paper, 31 x 23.3 cm, Woodner Collection (accession 1991.182.23), with Degas atelier stamp and provenance from the artist's brother Rene De Gas -- read only to identify the portrait drawing used for the profile image (the NGA web page itself is behind a bot wall and was not bypassed); not used for any scored row.",
+      "url": "https://purl.org/nga/collection/artobject/73867"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_degas_vollard1927, src_degas_boggs1988, src_degas_lafond1918 | 1876-1903 | dealer-acquaintance memoir + museum catalogue quoting letters and contemporary critics + friendly monograph] Several separate, independently reported episodes of refusing to call work finished. Vollard: he would not let works leave the studio because he 'always hope[d] eventually to do better'; he used tracing paper to correct a figure again and again so that a hand-sized nude grew life-size and was then abandoned; he showed Vollard a small wax dancer redone 'for the twentieth time', and next day only the original lump remained ('I wouldn't take a bucket of gold for the pleasure I had in destroying it'); he painted out a figure in a Milliner's Workshop rather than sell it to an American buyer Cassatt had found; a collector who changed a frame got his money back and the picture was removed. Boggs: the etching Leaving the Bath went through twenty-two states (1879-80); the Little Fourteen-Year-Old Dancer was announced for 1880 and 1881 but appeared late each time, a critic (Goetschy, April 1880) noting he 'produces slowly, as he pleases'; the catalogue suggests 'customary last-minute hesitations'; and in 1903, when a buyer wanted the original wax, Cassatt reported that he wanted to redo it in bronze or plaster with a wax surface instead. Lafond describes every work as 'a series of corrections, retouchings, reworkings, above all suppressions'. dual_edged because the same refusal delayed the Faure commission for years and kept most of his sculpture from surviving. The score reflects corroboration across a friendly dealer, a scholarly catalogue and a hostile-to-delay critic; the sources agree and none contradicts. LEAD REVIEW CORRECTION (downward only, before eligibility was read): was 86/0.72; the corroborating perspectives mostly reach us through one compiling secondary source (the Boggs catalogue chronology), so score and confidence are lowered per the rubric's no-high-score-without-independent-corroboration rule."
+    },
+    "experimentation": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_degas_boggs1988, src_degas_vollard1927 | 1876-1896 | museum catalogue citing contemporaries' letters and reviews + dealer-acquaintance memoir] Concrete, dated technical trials reported by contemporaries. Boggs: about 1876 Desboutin wrote that Degas 'talks only of metallurgists, lead casters, lithographers, planishers' in a search to reproduce his drawings, and Degas told Claretie he had found a 'new technique for engraving'; his notebooks record printers and processes; he exhibited three groups of monotypes in 1877 and built pastel and gouache on the pale second pull of monotypes; he used a carbon rod (the 'crayon voltaique') for drypoint; Leaving the Bath passed through twenty-two states, which he labelled in 1880 'experiments and states of plates' ('essais et etats de planches'); critic Burty observed by 1877 that he had largely given up oil for distemper and pastel. In 1881 he built the Little Fourteen-Year-Old Dancer in tinted wax with a real bodice, tutu, wig and ribbon, and Huysmans called it the only truly modern initiative in sculpture. About 1895 he took up a camera but kept glass plates and lamp or moonlight rather than snapshots ('Daylight is too easy. What I want is difficult') (Boggs, quoting Halevy). Vollard independently shows him bleaching pastel crayons, working pastel over tracing paper and commissioning a special fixative, and declaring 'I'm glad I haven't found my style yet'. Several independent perspectives (Desboutin, Claretie, Burty, Huysmans, Vollard) on a pattern across media for twenty years. LEAD REVIEW CORRECTION (downward only, before eligibility was read): was 86/0.72; the corroborating perspectives mostly reach us through one compiling secondary source (the Boggs catalogue chronology), so score and confidence are lowered per the rubric's no-high-score-without-independent-corroboration rule."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_degas_lemoisne1912, src_degas_boggs1988, src_degas_vollard1927, src_degas_moore1906 | 1863-1886 | scholar-acquaintance preface + museum catalogue quoting hostile and friendly contemporaries + dealer and writer memoirs] He held his own line against the group he exhibited with. Lemoisne: he stayed out of the 1863 Salon des Refuses and exhibited at the official Salon until the end of the Empire, then joined the independents in 1874, but rejected the plein-air principle of the Impressionists, painted landscapes and racing scenes in the studio from sketches and memory, and bridled at the 'Impressionist' label. Vollard confirms the studio method (a little wooden horse for a model, 'never say plein air to me again') and Harold Van Doren's introduction to the Vollard volume says he was identified 'against his will' with a school. Boggs: Paul Mantz (Le Temps, 1877) wrote that it was unclear why Degas counted himself among the Impressionists, 'He has a distinct personality and stands apart'; Bertall (1877) said he had 'reserved a small chapel for himself'; Degas called the movement's goal 'a salon of Realists' (1874 letter to Tissot); in 1886 he dismissed Seurat's Grande Jatte in the one sentence quoted by Pissarro, which Pissarro takes as blindness (the quip is the evidence, not a judgement of Seurat). Moore records him dismissing Bastien-Lepage as 'a Bouguereau of the modern movement' when others were admiring the picture. dual_edged because Caillebotte, Gauguin and Pissarro in the same chronology describe the stance as divisive or unfair. Score reflects several documented episodes from adversarial and friendly sources; not extreme because the Moore and Vollard quips are single-source retellings. LEAD REVIEW CORRECTION (downward only, before eligibility was read): was 82/0.7; the corroborating perspectives mostly reach us through one compiling secondary source (the Boggs catalogue chronology), so score and confidence are lowered per the rubric's no-high-score-without-independent-corroboration rule."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_degas_vollard1927, src_degas_lemoisne1912, src_degas_huysmans1889, src_degas_boggs1988 | 1873-1912 | dealer memoir + scholar preface + critic + museum catalogue] He controlled the terms on which his work left the studio and was seen. Vollard: he did not like to sell, chose his own frames and refunded sales rather than let a collector change them; he refused permission for a collector to photograph a Delacroix lithograph in his collection ('I don't give a damn about the public'); he refused to be filmed by Sacha Guitry (who had to film him from the street); he would not move into a house with central heating. Lemoisne: his withdrawal from publicity was 'voulue' and he shut out all but a few friends. Huysmans (1889): in a time when painters 'wallow in the trough of crowds' he had exiled himself from exhibitions and public places and shown the 1886 pastels as a parting gesture. Boggs: a critic in April 1880 wrote that he is 'an artist who produces slowly, as he pleases ... without concerning himself about exhibitions and catalogues'; in March 1880 he tried to have the artists' names left off the group-exhibition poster ('When will we stop playing at being stars?'); in April 1873 he dropped plans to show at the Salon. Corroborated by an acquaintance, a scholar, a critic and a museum catalogue. dual_edged because financial pressure drove him to besiege dealers while still guarding control. LEAD REVIEW CORRECTION (downward only, before eligibility was read): was 82/0.7; the corroborating perspectives mostly reach us through one compiling secondary source (the Boggs catalogue chronology), so score and confidence are lowered per the rubric's no-high-score-without-independent-corroboration rule."
+    },
+    "mastery_orientation": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_degas_lemoisne1912, src_degas_lafond1918, src_degas_vollard1927, src_degas_boggs1988 | 1854-1903 | scholar preface + friendly monograph + dealer memoir + museum catalogue] A long, self-directed apprenticeship and continuing study. Lemoisne: he left law for drawing by 1854, entered the Ecole des Beaux-Arts in April 1855, was in Rome by 1856, and made copies after Poussin, Holbein, Clouet and Lawrence; he knew the Louvre better than any contemporary artist. Lafond: copies after the Italian primitives and Poussin (the Rape of the Sabines on a large scale), Degas following Ingres's advice to copy the masters for 'the sap of the plant'. Vollard has him tell a visiting mother that a young painter should 'copy the masters and re-copy them', and quotes his answer to a critic, 'I have spent my whole life trying to find out [what art is about]'. Boggs: in 1903, at sixty-nine, he wrote 'I must finish this sculpture ... I shall work until I drop' and 'Old age would be sad without work'. Several documented episodes across four sources. It is learning-for-skill, not output counts."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_degas_boggs1988, src_degas_moore1906, src_degas_huysmans1889, src_degas_lemoisne1912 | 1874-1886 | museum catalogue quoting reviewers + writer memoir + critic + scholar] Contemporaries, including opponents, treated the work as unprecedented. Boggs: the Little Dancer (tinted wax dressed in real fabric and hair) drew reviews that were 'unanimous in admitting that it was an extraordinary work', with Mantz writing that no warning could prepare a viewer for its realism and Huysmans that it overthrew the traditions of sculpture; Mantz in 1877 and Bertall called him a singular personality apart from the group. Huysmans (1889): an 'isolated, powerful artist, without proven precedents'. Moore: Degas 'put Semiramis aside for a ballet girl' and chose acrobats and ironing women, and had an originality of refusing what had been done before; Moore, however, ranks this intellect below Manet's gift. Lemoisne: he made modern subjects (theatre, racecourse, laundresses) seriously treated while keeping a traditional hand, and 'a bold innovator and a determined traditionalist' in one. The row rests on the documented form and subjects of his work and on how independent contemporaries read it, not on later fame; kept below 85 because several of these readings are interpretive."
+    },
+    "social_assertiveness": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_degas_moore1906, src_degas_vollard1927, src_degas_lemoisne1912, src_degas_boggs1988 | 1870s-1900s | writer memoir + dealer memoir + scholar preface + catalogue quoting Caillebotte] Repeated, outspoken verbal challenges. Moore: he told Whistler 'if you were not a genius you would be the most ridiculous man in Paris', called Sargent 'chef de rayon de la peinture', and dismissed Roll's fifty-figure crowd ('one makes a crowd with five'). Vollard: he dismissed a visiting mother's pride in her fifteen-year-old's 'sincerity about working from nature' by telling her the boy was lost, and threw a model out of the studio for questioning her likeness; Vollard also says he was often rude 'with the rudeness characteristic of timid people' and cultivated a hot-tempered reputation. Lemoisne: his 'terrible repartees' kept people at a distance. Boggs: in 1881 Caillebotte complained that he 'spends his time holding forth at the Cafe de la Nouvelle-Athenes' and 'introduced disunity into our midst' (an adversarial view, corroborated in the sense that Caillebotte withdrew from the exhibition). Documented instances are consistent across four sources; the sayings are mostly single-source retellings, which is why this is not scored higher."
+    },
+    "aesthetic_sensitivity": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_degas_moore1906, src_degas_vollard1927, src_degas_boggs1988 | 1880s-1896 | writer memoir + dealer memoir + museum catalogue] A documented, specific eye for form in other people's work. Moore: his collection 'is the most interesting in Paris, for it represents the taste of one man', with Ingres, Delacroix and Manet foremost; he placed a small Manet pear next to an Ingres 'Jupiter' because 'a pear painted like that would overthrow any god'. Vollard: he spent his afternoons visiting dealers, left a deposit on a Delacroix he had been inspecting, and spent twenty years hunting a rare Delacroix lithograph. Boggs: in 1896 he bought two Ingres portraits at auction, a Cezanne pair of still lifes through Vollard, and traded two dancer sketches for a van Gogh sunflower study, telling Daniel Halevy 'I buy, I buy'; in February 1884 he had Durand-Ruel bid for him on three works by Manet at the sale of Manet's studio. He also chose frames for each work himself (Vollard). Specific dated purchases and tastes from three independent sources."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_degas_vollard1927, src_degas_boggs1988 | 1879-1896 | dealer-acquaintance memoir + museum catalogue] At least four distinct documented instances of attention to small material details. Vollard: he picked a stray scrap of paper off the studio floor and burned it ('I don't like disorder'); chose the exact oil quantity for his salad dressing; worried over canvas weave and priming; refused commercial fixatives because they shine and attack the colour and had a special one prepared; specified blue sugar-paper passe-partouts with a half-inch gap and the colour of every frame. Boggs: in March 1879 his notebook contains ground plans of the exhibition rooms, a poster design and lists of artists, and for the 1895 photographic sessions he is quoted instructing sitters where to put their legs and arms and moving lamps. Both sources agree on the pattern, but Vollard is the main source for the studio details and some stories are single-source, so strong_inference."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_degas_boggs1988, src_degas_vollard1927 | 1874-1903 | museum catalogue + dealer memoir] Several continued efforts despite setbacks. Boggs: after the first group exhibition lost money and the society was dissolved (May 1874) he showed twenty-two works in the next one (1876) and kept showing through hostile reviews (Wolff, 1881: 'God of failures'); he organised the 1881 Duranty sale for Duranty's companion, although the results were disappointing; Le Jour et la Nuit was prepared in 1879-80 and never published, so the effort did not succeed; he took from 1874 to about 1887 to deliver the pictures commissioned by Faure. Vollard: he says he spent about twenty years hunting a particular Delacroix lithograph and kept returning to oil painting after swearing he would not touch a brush again. The same sources show him walking away from the group exhibitions after 1886 (Lemoisne, Huysmans), so this is a moderate lean."
+    },
+    "deep_focus": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_degas_boggs1988, src_degas_vollard1927 | 1879-1903 | museum catalogue + dealer memoir] Sustained absorption in a task shown by several episodes. Boggs: his 'consuming fascination with invention and process' displaced thoughts of financial gain in the twenty-two-state Leaving the Bath; Halevy's account (quoted by Boggs) of a night in which Degas ordered sitters to pose, moved lamps and repeated the exposure, 'running from one side of the room to the other with an expression of infinite happiness'; in 1903 he told friends he would stay in the studio to finish a sculpture and 'work until I drop'. Vollard describes his life as 'ordered like a sheet of music' with him in the studio from morning till night, humming when work went well. Three documented episodes plus a generalisation, mainly from two sources."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_degas_boggs1988 | 1874-1895 | museum catalogue] Two documented changes of means in response to circumstances unrelated to eyesight. After the family bank's collapse (1874-76) and the loss of his dealer's support he turned from oil to pastel, gouache and distemper, which the catalogue says let him work quickly and produce smaller, cheaper pictures that gave ready income: this was true of more than two-thirds of his colour work between 1876 and 1881, and by 1879 collectors were 'fighting over' what he called his 'articles' (Burty). In 1895, aged about sixty, he took up photography with lamp and tripod. Both moves are documented in one source and the first is partly the catalogue's own inference, so strong_inference at the lower confidence end."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_degas_boggs1988, src_degas_lemoisne1912 | 1873-1881 | museum catalogue quoting letters and reviews + scholar preface] He started collective projects rather than waiting for institutions. Boggs: in December 1873 he and other artists formed a cooperative society devoted to unjuried exhibitions, sales and an art journal; in March 1874 he wrote to Tissot that he was 'running the thing with energy ... there must be a salon of Realists' and recruited Bracquemond, Rouart and De Nittis (Legros and Tissot declined); in 1879 he prepared the fourth exhibition with floor plans and artist lists and planned the illustrated journal Le Jour et la Nuit (it was never published); in 1881 he organised the sale for Duranty's companion when Zola was busy. Lemoisne says he was 'at the first rank' of the innovators in the 1874 fight. Three or four dated initiatives from mostly one scholarly source plus Lemoisne, so strong_inference; the conflict with Caillebotte over who should be shown is not scored here."
+    }
+  },
+  "doNotCopyKeys": [],
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에드가 드가"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-07) for Q46373 returned en label 'Edgar Degas', description 'French Impressionist artist (1834-1917)', P569 19 Jul 1834, P570 27 Sep 1917, citizenship France (Q142), instance of human (Q5), ko label '에드가 드가', P18 'Edgar Degas self portrait 1855FXD.jpg'. SLUG CHECK: edgar-degas not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupation painter and artist (no 'sculptor' or 'printmaker' occupation id exists), fieldIds art (field.art exists in en.ts), regionCode western_europe, nationality FR (as claude-monet and paul-cezanne), era 19th_century, tags innovator, perfectionist, craft_focused, independent, archetypes creative_creator and independent_creator (all existing ids). EVIDENCE READ (6 substantive records opened and read locally, plus Wikidata and the NGA record for identity): Boggs et al. 1988 catalogue (portions listed in the source title), Vollard 1927/1937 (in full), Moore 1906 (the Degas passage), Lemoisne c.1912 (preface and biographical start), Lafond 1918 (introductory essay), Huysmans 1889 (Degas chapter). PERSPECTIVES: (1) Vollard, dealer-acquaintance, admiring and anecdotal; (2) Moore, writer-acquaintance, ambivalent; (3) Lemoisne, scholar who knew him, analytic; (4) Lafond, friendly monograph; (5) Huysmans, contemporary critic; (6) the Boggs chronology, which prints Degas's own letters (self source) and adversarial contemporaries (Caillebotte 1881, Gauguin 1885, Wolff 1881, Mantz 1877, Bertall) and friendly ones (Pissarro, Desboutin, Claretie). Independent non-self behavioural perspectives: Vollard, Moore, Lemoisne, Huysmans, and the catalogue's quoted contemporaries; adversarial: Caillebotte, Gauguin, Mantz, Bertall, Wolff. NOT ACCESSIBLE: Daniel Halevy, My Friend Degas (lending-restricted; quoted only through the Boggs catalogue), Paul Valery, Degas Danse Dessin (lending-restricted, not read), Degas Letters (Guerin) and Jill DeVonyar's work (not found as open text), the Metropolitan Museum and Orsay catalogues beyond the Boggs catalogue, and the NGA web page (bot wall, not bypassed). Place de la Concorde (Viscount Lepic and his daughters) was not opened in a source and is not cited. DELIBERATELY UNSCORED AND UNUSED: Degas's antisemitic remarks and his break with Jewish friends over the Dreyfus affair (read in Vollard and Boggs; a political position, incidental, not scored); his failing eyesight and hearing and the turn to sculpture (not used as trait evidence, nor as the reason for any move); his supposed dislike of women or the readings of motive in the 1886 bather pastels (Huysmans and Vollard speculate on psychology); his celibacy and family finances (the 1874-76 bank collapse is used only to date his shift to pastel); the delays in the Faure commission and Eugene Manet's 1885 remark that he did not settle his debts to Faure and Ephrussi are used only for dating (the catalogue's own account ties the delays to his need to earn money, so no reliability row was scored). ROWS CONSIDERED AND LEFT UNSCORED: discipline (a studio routine from morning to night in Vollard against years of late commissions in Boggs, mixed); collaboration and conflict_tolerance (founding the cooperative society against the Caillebotte, Gauguin and Pissarro disputes of 1881-86, and the Manet quarrel over a cut canvas, mixed and partly political-institutional); competitiveness and achievement_drive (only allegations from Gauguin and Caillebotte about vanity and the rivalry Moore reports); curiosity (reading La Nature and Muybridge against Vollard's 'horror of science'); resourcefulness, cross_domain_range (media range inside one field, already in experimentation), planning_orientation, decisiveness, belief_updating, risk_tolerance. CALIBRATION: 13 rows, scores 66-86, confidence 0.52-0.72; the two rows at 86 (perfectionism, experimentation) and 82 (independent_thinking, autonomy_need) rest on at least three independent perspectives each including an adversarial or hostile voice; nothing above 0.72. No eligibility, coverage or match output was computed or used. PORTRAIT: Commons 'Edgar Degas, Self-Portrait, c. 1855, NGA 73867.jpg' (3034x4000), Degas red-chalk self-portrait c.1855, NGA 1991.182.23 (NGA open access, CC0 per the Commons template; Degas died 1917 so the original is public domain worldwide); NGA open-data row confirms title 'Self-Portrait', red chalk on laid paper, Degas atelier stamp, provenance Rene De Gas; the NGA web page is Cloudflare-walled and was not bypassed, so rights rest on the Commons wikitext, the NGA open-data record and the artist's death date. Kind 'likeness' (an authentic self-portrait of the sitter as a young man of about twenty-one). Downsized from 3034x4000 to 1214x1600 (JPEG q85, long edge 1600) with Pillow; opens and was viewed. The Commons 'Edgar Degas self portrait 1855FXD.jpg' lead (454x572) was not used. Other options examined: a Carjat photograph from Manet's album on Gallica (1185x1878, full-length standing figure in a top hat, small face, Commons notes the Gallica check is still pending) was passed over for the clearer, closer self-portrait."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/edgar-degas-self-portrait-nga-c1855.jpg",
+    "width": 1214,
+    "height": 1600,
+    "source": "National Gallery of Art, Washington, Woodner Collection 1991.182.23 (NGA open access), via Wikimedia Commons 'Edgar Degas, Self-Portrait, c. 1855, NGA 73867.jpg'",
+    "license": "Public domain (CC0; artist died 1917)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Edgar Degas, Self-Portrait, c. 1855, red chalk on laid paper, National Gallery of Art, Washington, Woodner Collection (1991.182.23); NGA Open Access, CC0",
+    "attributionUrl": "https://purl.org/nga/collection/artobject/73867",
+    "creator": "Edgar Degas",
+    "date": "c. 1855",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Edgar_Degas,_Self-Portrait,_c._1855,_NGA_73867.jpg"
+  }
+}

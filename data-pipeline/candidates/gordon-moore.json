@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gordon-moore",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Gordon Moore",
+    "aliases": [
+      "Gordon Earle Moore"
+    ],
+    "wikidataId": "Q243969",
+    "birthYear": 1929,
+    "deathYear": 2023,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "engineer",
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business",
+      "technology",
+      "chemistry",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "entrepreneurial",
+      "industrial"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_moore_wikidata",
+      "kind": "wikidata",
+      "title": "Gordon Moore (Q243969) -- verified live via wbgetentities (2026-10-07): en label 'Gordon Moore', description 'American businessman, co-founder of Intel Corporation (1929-2023)', P569 3 Jan 1929, P570 24 Mar 2023, citizenship United States, ko label '고든 무어'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q243969"
+    },
+    {
+      "id": "src_moore_1965",
+      "kind": "press",
+      "title": "Gordon E. Moore, 'Cramming More Components onto Integrated Circuits', Electronics, vol. 38 no. 8, 19 April 1965 (IEEE reprint PDF, read in full) -- SELF, primary: the forecast of component counts per circuit, argued from cost-per-component and yield reasoning. Not used as a personality source beyond how the argument is built.",
+      "url": "https://www.cs.utexas.edu/%7Efussell/courses/cs352h/papers/moore.pdf"
+    },
+    {
+      "id": "src_moore_silicon_genesis_1995",
+      "kind": "archive",
+      "title": "Silicon Genesis: Oral Histories of Semiconductor Industry Pioneers, interview with Gordon E. Moore, 3 March 1995 (host Rob Walker; transcript by Dag Spicer, Stanford University Libraries; mirrored text read in full) -- SELF account: leaving Shockley, the Beckman meetings, Fairchild, the 1965 and 1975 forecasts, the microprocessor, founding Intel, failed Intel products. Self-told and informal, used only where another source corroborates or where the act is plainly documented.",
+      "url": "https://landley.net/history/mirror/interviews/Moore.html"
+    },
+    {
+      "id": "src_moore_ieee1976",
+      "kind": "archive",
+      "title": "Gordon Earl Moore, oral history conducted by Michael Wolff, IEEE History Center, 4 March 1976 (ETHW, read in full) -- SELF account of the 1959 integrated-circuit work at Fairchild and how he assigns credit among colleagues.",
+      "url": "https://ethw.org/Oral-History:Gordon_Earl_Moore"
+    },
+    {
+      "id": "src_moore_grove_chf2004",
+      "kind": "archive",
+      "title": "Andrew S. Grove, interviews by Arnold Thackray and David C. Brock, Los Altos, 14 July 2004 and later (Chemical Heritage Foundation oral history, PDF text, read in full) -- COLLEAGUE, firsthand, admiring but openly CRITICAL of Moore's management at Fairchild and of his fit with the microprocessor business; Grove worked under Moore at Fairchild from 1963 and with him at Intel.",
+      "url": "https://digital.sciencehistory.org/downloads/orig/pdf/3aas7sq"
+    },
+    {
+      "id": "src_moore_last_chf2004",
+      "kind": "archive",
+      "title": "Jay T. Last, interview by David C. Brock, Beverly Hills, 21 June 2004 (Chemical Heritage Foundation oral history, PDF text; read in the sections on the Shockley exit, the 1957-59 engineering decisions, Moore's role and later years) -- COLLEAGUE, firsthand, one of the eight Fairchild founders who reported to Moore; friendly to Moore but gives specific incidents.",
+      "url": "https://digital.sciencehistory.org/downloads/9mk5sfp"
+    },
+    {
+      "id": "src_moore_jones_chf2006",
+      "kind": "archive",
+      "title": "Jean C. Jones, interviews by David C. Brock, by telephone, 8 March, 5 April and 15 June 2006 (Chemical Heritage Foundation oral history, PDF text; read in the sections on Moore's working style as Intel CEO, his relations with Noyce and Grove, and the early-1980s memory decision) -- COLLEAGUE, firsthand: long-time assistant to Moore and Noyce at Fairchild and Intel.",
+      "url": "https://digital.sciencehistory.org/downloads/orig/pdf/3197xn21d"
+    },
+    {
+      "id": "src_moore_moore_last_chf2006",
+      "kind": "archive",
+      "title": "Gordon E. Moore and Jay T. Last, interview by David C. Brock and Christophe Lecuyer, Woodside, 20 January 2006 (Chemical Heritage Foundation oral history, text copy skimmed for the October 1957 start of Fairchild and early division of work) -- SELF plus COLLEAGUE joint recollection; only lightly used.",
+      "url": "https://digital.sciencehistory.org/downloads/orig/pdf/r41jrie"
+    },
+    {
+      "id": "src_moore_npr2012",
+      "kind": "press",
+      "title": "'Intel Legends Moore and Grove: Making It Last', NPR Morning Edition, 6 April 2012 (Laura Sydell; transcript read in full) -- INDEPENDENT journalism with Moore and Grove interviewed together: the 1968 start of Intel, the memory chip, the 1985 question about what a new CEO would do, and Moore's self-description as a loner.",
+      "url": "https://www.npr.org/transcripts/150057676"
+    },
+    {
+      "id": "src_moore_fortune2016",
+      "kind": "press",
+      "title": "Fortune, CEO Daily, 22 March 2016 (read in full) -- press retelling of Grove's own account in Only the Paranoid Survive of the 1985 exchange with Moore about leaving memory chips; second-hand. The book itself was not opened.",
+      "url": "https://fortune.com/2016/03/22/ceo-daily-tuesday-march-22"
+    },
+    {
+      "id": "src_moore_rock_memo",
+      "kind": "press",
+      "title": "'Arthur Rock's Intel Memo', Stanford Lawyer magazine (read in full) -- INDEPENDENT account of the 1968 financing of Intel and the founders' terms, drawing on Rock's own memo.",
+      "url": "https://law.stanford.edu/stanford-lawyer/articles/arthur-rocks-intel-memo/"
+    },
+    {
+      "id": "src_moore_shi_bio",
+      "kind": "institution",
+      "title": "Science History Institute, 'Gordon E. Moore' scientific biography (read in full) -- institutional overview of the Shockley, Fairchild and Intel career, the 1965 and 1975 forecasts and the shift from memory to microprocessors. Orientation and achievements only; not used for scored rows.",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/gordon-e-moore/"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moore_1965, src_moore_jones_chf2006, src_moore_grove_chf2004, src_moore_last_chf2004 | 1959-1987 | primary paper + three colleague oral histories] Several distinct instances. His 1965 paper argues from cost-per-component and yield reasoning and fits a doubling rate to the circuits then built, adding that the longer-term rate is 'a bit more uncertain'. Last holds a November 1959 memo setting out the open choice between etch-through and diffused isolation, and a 1957-58 memo that settled NPN versus PNP by making both on a production basis, letting 'the facts speak'. Grove says that when he handed Moore a manuscript the critical assessment was 'exquisite'. Jones says he had a head for figures, read financial statements for relationships she missed, and did much of his own research. Four perspectives; kept at 74 because most of it is praise from admirers of a quiet man."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moore_jones_chf2006, src_moore_grove_chf2004 | 1963-1987 | two colleague oral histories] Jones: he was 'a stickler for accuracy', would not ask someone again if the information they gave him was inaccurate, always proofread the annual report, and wrote his own speeches and magazine articles. Grove: he reviewed every paper from his lab and made good comments. Two sources, a handful of specifics, no adversarial source; kept in the high 60s."
+    },
+    "conflict_tolerance": {
+      "score": 32,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_moore_grove_chf2004, src_moore_last_chf2004 | c.1960-1968 | two colleague oral histories, one critical] Grove: at Fairchild Moore 'would not interfere in some conflict between X and Y and Z', heard the complaints about his subordinate Tom Sah 'and just chose to detach himself', and neither he nor Noyce could remove a heavy-drinking divisional manager, which Grove gives as a reason Fairchild disintegrated. Last: 'if he can avoid confrontation, he'll do it'; when Last threw a goal-setting form at him, Moore was in Last's office ten minutes later 'conciliatory'. Against this, Last says he was the one who telephoned Beckman in 1957, and the 1976 and 1995 accounts show him going around Shockley. Scored as a clear lean to avoidance of managerial confrontation rather than an extreme; dual_edged because the same quiet style left the research lab 'inspiring' to Grove while problems went unaddressed."
+    },
+    "social_assertiveness": {
+      "score": 36,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_moore_grove_chf2004, src_moore_last_chf2004, src_moore_npr2012, src_moore_jones_chf2006 | 1957-2012 | colleague oral histories + NPR interview] Grove: 'a passive, shy guy' whose meaning he often could not read, and whose animated annoyance he could count 'on my thumbs'. Last: when the group had to ring Beckman there was 'hemming and hawing' and Moore volunteered, with 'quavering' in his voice. NPR: he described himself as 'a loner'. Counter-evidence: Jones says he never had difficulty expressing himself, was clear but never threatening, and saw anyone who needed him; and he did take the first step with Beckman. A low-to-middling lean, not a low extreme."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moore_silicon_genesis_1995, src_moore_npr2012, src_moore_rock_memo, src_moore_last_chf2004 | 1957-1985 | self account + NPR + financing article + colleague] He left Shockley with seven colleagues in 1957 and, with Noyce, left Fairchild in 1968 to start Intel with about $3 million, aiming at three unproven memory technologies at once (Silicon Genesis; Rock article for the financing). He told Walker that a start-up 'has to bet the company', that 'if everything you do works, you're probably not trying hard enough', and that he was personally responsible for the ambitious 432 processor project. He also says leaving carried little personal risk in the Valley because failed founders could find jobs, so the lean is modest."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moore_silicon_genesis_1995, src_moore_last_chf2004, src_moore_npr2012, src_moore_fortune2016 | 1965-1985 | self account + colleague + NPR + press] Repeated recorded concessions and changes of course. He revised the 1965 doubling-every-year forecast in 1975 to every two years and said he had been 'a little bit too pessimistic'; he said of the electronic watch that 'we did misunderstand' the business; he said he had dismissed a patent on semiconductor memory as economically ridiculous; Last says he later called not taking up the integrated circuit sooner 'a mistake I made'; and in 1985 he answered Grove's question about what a new CEO would do immediately and plainly with 'get out of the memory business' (NPR; Fortune retelling). Several of these are his own accounts, hence 66 not higher."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moore_ieee1976, src_moore_silicon_genesis_1995, src_moore_grove_chf2004, src_moore_last_chf2004, src_moore_jones_chf2006 | 1957-1987 | self accounts + three colleague oral histories] He works in partnerships and credits others by name. In 1976 he told the interviewer that Noyce was 'the idea man' and that he and others were 'detail technologists', giving Noyce the aluminum-contact suggestion; in 1995 he gave Ted Hoff 'full credit for the vision' of the microprocessor. Last says he gave Noyce credit at a plaque ceremony although Last thought his own contributions went unrecorded, and that he ran the 1957 NPN/PNP decision 'in a very pleasant way'. Grove describes a three-person office at Intel in which each understood the others' contribution, and Jones calls Moore's relationship with Noyce 'very open' and says Grove deferred only to Moore. Several independent colleagues, so 70; credit-giving is not scored as a separate trait."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moore_1965, src_moore_silicon_genesis_1995, src_moore_grove_chf2004 | 1965-1968 | primary paper + self account + colleague] The 1965 paper reasons from cost, yield and circuit complexity to the economics of the whole industry rather than from one device. At Intel he and Noyce built development inside the production plant on purpose, after the Fairchild failure to transfer MOS from lab to factory (his account), and Grove says Intel's compensation scheme remains 'based on Gordon's philosophy and practices': low, performance-oriented, variable and equitable. Two design-level choices plus the paper; kept at 64 and 0.50 because the organisational ones are told by Moore and Grove only."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "고든 무어"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE (2026-10-07): wbgetentities Q243969 -> en label 'Gordon Moore', description 'American businessman, co-founder of Intel Corporation (1929-2023)', born 3 Jan 1929, died 24 Mar 2023, citizenship United States, ko label '고든 무어', P18 values include 'Former Intel CEO Gordon Moore in his cubicle.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file; Robert Noyce exists in production (not a collision). CLASSIFICATION: occupations chemist, engineer, entrepreneur, executive; fieldIds business, technology, chemistry, engineering (all have field.* keys); region north_america; tags founder and innovator; archetypes entrepreneurial_builder and technical_innovator (as the Noyce candidate). Moore's PhD was in chemistry and physics (Caltech 1954). EVIDENCE READ (curl to files, grepped locally): Moore 1965 Electronics paper (IEEE reprint); Silicon Genesis 1995 (self, full); IEEE 1976 oral history (self, full); Grove CHF 2004 (colleague, full); Last CHF 2004 (colleague, sections on Shockley exit, 1957-59 decisions, Moore, later years); Jones CHF 2006 (colleague, sections on Moore's CEO style, relations, early-1980s decision); Moore and Last 2006 (text copy, skimmed); NPR 2012; Fortune 2016 (second-hand Grove quote); Stanford Lawyer Rock-memo article; Science History Institute biography (orientation). PERSPECTIVES: SELF = Moore (1965, 1976, 1995); COLLEAGUE FIRSTHAND = Grove (critical), Last (friendly, specific), Jones (assistant, admiring); INDEPENDENT JOURNALISM = NPR 2012, Stanford Lawyer; CRITICAL VIEW present: Grove says Moore was 'constitutionally unable or simply unwilling' to do what a manager has to do, let Fairchild problems go unaddressed, and was never comfortable with the microprocessor business. Independent (non-self, non-colleague) perspectives are only NPR and the Rock article, which say little about behaviour, so confidence is capped at 0.62 and no score exceeds 74. NOT ACCESSIBLE / NOT READ: Berlin, Man Behind the Microchip; Thackray, Brock and Lecuyer, Moore's Law: The Life of Gordon Moore; Malone, The Intel Trinity; Grove, Only the Paranoid Survive (only the Fortune retelling); Shurkin, Broken Genius (lending-restricted); the Computer History Museum 2008 and 2015 interviews (catalog pages only, no transcript text obtained); Tom Wolfe's Esquire 1983 piece (not retrieved); Silicon Genesis transcripts for Last, Rock, Hoff and Grove on Stanford's site were behind a bot wall and were not bypassed; the January 2006 Moore and Last interview PDF 72khmps is a scanned image with no text layer (the text copy r41jrie was read instead). ROWS SCORED (8): analytical_rigor, detail_orientation, conflict_tolerance, social_assertiveness, risk_tolerance, belief_updating, collaboration, systems_abstraction. ROWS CONSIDERED AND NOT SCORED: decisiveness (Last's Beckman-call and the 1959 memo versus Grove's 'inaction' point both ways), leadership_drive (CEO 1975-87 but Grove says he disliked the managerial side), discipline (Jones only), opportunity_sensing and curiosity (the 124 home uses of microprocessors rests on Jones alone; Moore also admits not patenting memory and not pursuing the integrated circuit sooner), autonomy_need, independent_thinking, impact_motivation (philanthropy and its motives deliberately not scored), persuasiveness, creative_originality. SOURCE CONFLICT, NOT ADJUDICATED: Grove says Moore was uncomfortable with the microprocessor business and had little to do with it; Jones says he researched uses for the microprocessor at home and that it tilted him toward it; Moore says he had no trouble going along with Hoff's idea. Neither the memory exit nor the microprocessor strategy is credited to Moore personally in any row: Grove, then president, led the exit (Jones: 'that was Andy's job'). PRIVATE LIFE: Jones's story about Moore's views on Noyce's hotel rooms and any family or health material were NOT used. NO inference from age, illness or death. EXCLUDED: wealth, awards, the foundation's size, Intel's market value. No eligibility or match output was computed or used. PORTRAIT: Wikidata lists three P18 images; the lead 'Former Intel CEO Gordon Moore in his cubicle.jpg' (Intel Free Press, CC BY-SA 2.0, 2003, 1024x768, Flickr review pass on Commons, Flickr page itself shows CC BY-SA 2.0) was downloaded and viewed but is a wide office scene with him small in frame, so it was NOT used and the file was removed. Chosen instead: Commons 'Gordon Moore ID2004 crop.jpg' (1144x1132, CC BY-SA 3.0), a crop of a 4256x2848 Science History Institute staff photograph taken at Innovation Day on 14 September 2004; the Commons wikitext says it was released with permission by the Science History Institute under Wikipedian-in-residence cooperation. The file is the Commons original, not resized or recompressed by me, and was viewed: a smiling older man with glasses, dark suit and red tie, consistent with the sitter. Caveat: the upstream Science History Institute page for the photograph was not located, so the rights chain rests on the Commons institution template and wikitext; the attribution is a staff photographer, not a named person."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gordon-moore-science-history-institute-2004.jpg",
+    "width": 1144,
+    "height": 1132,
+    "source": "Science History Institute (formerly Chemical Heritage Foundation), photograph of Gordon E. Moore at Innovation Day, 14 September 2004, Philadelphia, via Wikimedia Commons 'Gordon Moore ID2004 crop.jpg' (crop of 'Rajiv L Gupta George Barclay Gordon Moore ID2004.JPG')",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Staff photographer, Science History Institute, 14 September 2004, CC BY-SA 3.0 (image supplied by the Science History Institute to Wikimedia Commons with permission)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Gordon_Moore_ID2004_crop.jpg",
+    "creator": "Staff photographer, Science History Institute",
+    "date": "2004-09-14",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Gordon_Moore_ID2004_crop.jpg"
+  }
+}

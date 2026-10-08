@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kathe-kollwitz",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Käthe Kollwitz",
+    "aliases": [
+      "Käthe Schmidt",
+      "Kaethe Kollwitz"
+    ],
+    "wikidataId": "Q142472",
+    "birthYear": 1867,
+    "deathYear": 1945,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "perfectionist"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kollwitz_wikidata",
+      "kind": "wikidata",
+      "title": "Käthe Kollwitz (Q142472) -- verified live via wbsearchentities and wbgetentities (2026-10-07): en label 'Käthe Kollwitz', description 'German printmaker and sculptor (1867-1945)', born 8 Jul 1867, died 22 Apr 1945, ko label '케테 콜비츠', P18 'Käthe Kollwitz by Hugo Erfurth, 1927.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q142472"
+    },
+    {
+      "id": "src_kollwitz_museum_koeln",
+      "kind": "institution",
+      "title": "Käthe Kollwitz Museum Köln, 'Biography' (kollwitz.de) -- year-by-year institutional biography (non-self, scholarly, based on the Kollwitz estate archive and her diaries; sympathetic to her). Read in full: education, the Weavers' Revolt and Peasants' War cycles, Académie Julian sculpture course, woodcut turn, the 1914-1932 memorial, the Prussian Academy years, the 1933-1945 chapter.",
+      "url": "https://www.kollwitz.de/biography"
+    },
+    {
+      "id": "src_kollwitz_artinwords",
+      "kind": "biography",
+      "title": "ARTinWORDS, 'Käthe Kollwitz Biografie' (artinwords.de) -- German art-historical biography (non-self, independent of the Kollwitz museums), organised by period; gives the sculpture beginnings (1904, 1909 critique by Alexander Oppler), the memorial's 1914-1932 history including technical and meaning-related doubts, the Weavers cycle set in the present, and the 1933 Academy resignation. Read in full.",
+      "url": "https://artinwords.de/?p=22832"
+    },
+    {
+      "id": "src_kollwitz_lemo",
+      "kind": "institution",
+      "title": "Deutsches Historisches Museum, LeMO Biografie 'Käthe Kollwitz 1867-1945' (Walther and Harders, 2015) -- institutional chronology (non-self); used for dates (1904 Paris sculpture class, 1906 poster removed, 1919 Academy, 1928 master studio, 1933 forced resignation, 1943 bombing). Read in full.",
+      "url": "https://www.dhm.de/lemo/biografie/kaethe-kollwitz"
+    },
+    {
+      "id": "src_kollwitz_ndb",
+      "kind": "biography",
+      "title": "Neue Deutsche Biographie 12 (1980), entry 'Kollwitz, Käthe' (Deutsche Biographie online) -- standard German national-biography entry (non-self, scholarly). Read in full: quotes her 1922 diary line, describes her self-portraits and the sculptural self-portrait of 1926-1936, her own later view that she was an 'evolutionary' rather than a revolutionary, and names Hans Kollwitz's 1948 and 1953 diary and letter editions as the best key to her.",
+      "url": "https://www.deutsche-biographie.de/gnd118564943.html"
+    },
+    {
+      "id": "src_kollwitz_ghdi_diary",
+      "kind": "archive",
+      "title": "German History in Documents and Images (German Historical Institute Washington), 'Käthe Kollwitz on the Rise of the Nazis (1930-33)' -- SELF source: her own diary entries 1930-1933 in English translation from Die Tagebücher (ed. Jutta Bohnke-Kollwitz, 1989), with editors' notes. Read in full; used only for her working-life facts (resigning from the Academy, continuing work on the sculpture group), not for any political position.",
+      "url": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi:document-5440"
+    },
+    {
+      "id": "src_kollwitz_artnews",
+      "kind": "press",
+      "title": "Art in America (ARTnews), feature on the Museum of Modern Art's Käthe Kollwitz retrospective -- recent critical overview (non-self, independent). Read in full: the Weavers and Peasants' War cycles (Black Anna reworked, allegorical figure dropped), the move from etching to woodcut, about 100 self-portraits, and a note that its gold-medal account differs from the museum chronologies.",
+      "url": "https://www.artnews.com/art-in-america/features/kathe-kollwitz-melancholy-prints-drawings-sorrows-witnessed-1234701212"
+    },
+    {
+      "id": "src_kollwitz_knauf1925",
+      "kind": "biography",
+      "title": "Erich Knauf, 'Käthe Kollwitz' chapter (pp. 207-216) in Empörung und Gestaltung: Künstlerprofile von Daumier bis Kollwitz (Büchergilde Gutenberg, Berlin, 1925), Internet Archive OCR -- CONTEMPORARY ADMIRING left-wing critic; includes a passage in which Kollwitz herself lists her literary influences. Read the chapter; the OCR is rough and was read for sense only.",
+      "url": "https://archive.org/details/emporungundgesta01knau"
+    },
+    {
+      "id": "src_kollwitz_kuhn1921",
+      "kind": "biography",
+      "title": "Alfred Kuhn, Käthe Kollwitz (Graphiker der Gegenwart series, Neue Kunsthandlung, Berlin, 1921), Internet Archive OCR -- CONTEMPORARY CRITICAL monograph that treats her art as already belonging to the previous generation, describes her cycles plate by plate and records how the first Peasants' War plate was reworked between early versions and the 1906 state. Read the first half; the OCR is rough.",
+      "url": "https://archive.org/details/kthekollwitz00kuhnuoft"
+    },
+    {
+      "id": "src_kollwitz_rosalux",
+      "kind": "institution",
+      "title": "Rosa-Luxemburg-Stiftung, 'Künstlerin für Menschenwürde und Frieden' (text by Gisela Notz, 2020) -- partisan (left-political foundation) short biography; used only to cross-check dates and the diary quotation, and treated with caution for characterisations. Read in full.",
+      "url": "https://www.rosalux.de/news/id/53342/kuenstlerin-fuer-menschenwuerde-und-frieden"
+    },
+    {
+      "id": "src_kollwitz_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Käthe Kollwitz' -- reference overview used for orientation and for the Prussian Academy and Pour le Mérite facts. Read in full; not used as support for a scored row.",
+      "url": "https://www.britannica.com/biography/Kathe-Kollwitz"
+    },
+    {
+      "id": "src_kollwitz_museum_berlin_sculptures",
+      "kind": "institution",
+      "title": "Käthe-Kollwitz-Museum Berlin: art postcards, sculptures (Pietà and the Neue Wache replica)",
+      "url": "https://www.kaethe-kollwitz.berlin/en/?p=4225"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kollwitz_museum_koeln, src_kollwitz_kuhn1921, src_kollwitz_artnews, src_kollwitz_ndb | 1902-1936 | institutional biography + contemporary critic + recent critic + national biography] Several documented cases of repeated reworking of a single piece. The Peasants' War cycle ran 1902-1908; Kuhn records that the first plate, the ploughmen, existed in earlier versions with a woman guiding the plough that were dropped for the 1906 state; the ARTnews critic says she reworked the Black Anna print many times and rejected an earlier flying nude figure; the museum records that she designed the cycle first as colour lithographs and later changed it. The sculptural group that became Mother with Two Children was begun in spring 1914 and finished in 1936 after rearrangement, and the sculptural self-portrait occupied her from 1926 to 1936 (the NDB says she had to struggle harder with three-dimensional form than with graphic work). Not scored higher because these are long, repeated revisions rather than a documented statement of an exacting standard, and several of the long durations had other causes (health, family, the war) that are not claimed here."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kollwitz_museum_koeln, src_kollwitz_artinwords, src_kollwitz_ghdi_diary, src_kollwitz_lemo | 1893-1943 | institutional biography + art-historical biography + her own diary + institutional chronology] Work sustained across years and obstacles, taken from what she did rather than from how she felt: the Weavers' Revolt cycle 1893-1897; the Peasants' War cycle 1902-1908 (in 1907 she cut her Florence prize stay short, the museum says, so as not to jeopardise finishing it); the memorial to the fallen volunteers, planned from 1914, abandoned in 1919 and begun again in 1924, completed and installed in 1932 (ARTinWORDS mentions technical problems and doubts about the meaning of sacrifice in the interval); and, after her 1933 forced resignation, her own diary entry that she was working on the sculpture group 'Mother with two children' and that the work was going well, followed by the move to a studio-community room where it was completed and by exhibition bans from 1936 during which the museum says she showed work in her studio. Several dated, independent instances; moderate score because the long gaps on the memorial reflect interruption as well as endurance."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kollwitz_museum_koeln, src_kollwitz_artinwords, src_kollwitz_artnews, src_kollwitz_lemo | 1890-1920 | institutional biography + art-historical biography + critic + chronology] Repeated, documented technical and medium changes. In 1890 she moved the Germinal scene from painting to etching and took graphic lessons for the purpose; in 1901 she showed a colour combination print (a 1901 journal credited her with inventing the technique, which the museum reports as a claim); the Peasants' War plates used pressed cloth in soft ground, sandpaper and reservage (ARTnews); in 1904 she spent two months in the sculpture class of the Académie Julian and visited Rodin's studios, started modelling in clay in 1908 and rented a sculptor's studio in 1912; around 1919-1920, impressed by Barlach's woodcuts, she took up woodcut, which she had found etching too slow for. Four or more separate episodes over three decades from independent sources; not higher because the intent is read from the changes rather than from her own statement of seeking novelty."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kollwitz_museum_koeln, src_kollwitz_artinwords, src_kollwitz_artnews | 1886-1920 | institutional biography + art-historical biography + recent critic] She repeatedly went to study a craft that she did not yet command: lessons from the age of 14 and the Berlin and Munich women's art schools; in 1904, aged 36, a sculpture class at the Académie Julian; on starting sculpture in 1909 she showed her first multi-figure group to Alexander Oppler, who pointed out its poor construction, which ARTinWORDS says spurred her ambition; she took up woodcut at about 53. The pattern is of learning new media through study and criticism rather than a stated ideal of mastery, hence strong_inference at a moderate score."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kollwitz_ndb, src_kollwitz_artnews, src_kollwitz_rosalux, src_kollwitz_museum_koeln, src_kollwitz_lemo | 1906-1929 | national biography + recent critic + foundation biography + institutional biography + chronology] Her own diary line of 1922 is quoted in three independent texts: she agrees that her art has purposes and wants to have an effect in a time when people are perplexed and in need of help (NDB gives the German; ARTnews dates it to the end of 1922, just after the War woodcuts). In practice she applied her work to public purposes outside the gallery: the 1906 poster for an exhibition on home workers (the Empress refused to visit while it was displayed), designs for relief posters such as 'Germany's children are starving' (1923) and for the Women's International League's 1929 documentation of modern warfare, per the museum and Rosa-Luxemburg-Stiftung. This row concerns her stated purpose for art and the humanitarian poster work; no party, movement or political position is scored. A documented self-statement plus several dated applications; not above the high 70s because the sources are largely her own edited words and sympathetic institutions."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kollwitz_ndb, src_kollwitz_knauf1925, src_kollwitz_kuhn1921, src_kollwitz_artnews | 1890s-1920s | national biography + contemporary admiring critic + contemporary critical monograph + recent critic] Several descriptions of her working apart from the dominant style of the day: the NDB says she found her own realist language, with extreme simplification of form; Knauf says she absorbed the graphic languages of her teachers but moved away from the classical manner as foreign to her; Kuhn (critically) says she had nothing to do with the avant-garde programmes of the 1910s and that her art was already of an earlier generation; ARTnews says she dropped the allegorical fussiness of the Symbolist tradition and, in the Black Anna print, rejected the allegorical flying nude. Kollwitz herself, in the passage Knauf quotes, says she took from literature only to pass on her own experience. Several independent characterisations but few specific dated decisions, hence the moderate band."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kollwitz_artinwords, src_kollwitz_artnews, src_kollwitz_knauf1925, src_kollwitz_museum_koeln | 1893-1923 | art-historical biography + recent critic + contemporary critic + institutional biography] ARTinWORDS stresses that in the Weavers' Revolt she depicted neither the historical 1844 revolt nor the play's plot but a fictional revolt set in the present, and the ARTnews critic calls the Peasants' War arguably her greatest work, with an active woman figure unusual in such scenes. Knauf says that, unlike earlier artists of revolution, she showed the fighters and the mourning women with their grief, and that she came to woodcut for a more direct form; the museum records the 1901 colour-print claim. Originality is read from critics' descriptions of what she did differently, not from fame, and the critics are partly admiring, so the score and confidence are held in the middle-high band."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "케테 콜비츠"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbsearchentities and wbgetentities (2026-10-07) returned Q142472, en label 'Käthe Kollwitz', description 'German printmaker and sculptor (1867-1945)', P569 8 Jul 1867, P570 22 Apr 1945, ko label '케테 콜비츠'. SLUG CHECK: not in scratch/prod_slugs.txt; no earlier candidate file. REGION: western_europe, following the Dürer and Rodin precedents in scratch/prod_names.txt. SOURCES READ in full or in the stated part: Kollwitz Museum Köln biography, ARTinWORDS biography, DHM LeMO chronology, NDB entry, GHDI diary excerpts 1930-33, Art in America feature, Rosa-Luxemburg-Stiftung text, Britannica, Knauf 1925 chapter and Kuhn 1921 monograph (rough OCR). NOT ACCESSIBLE: The Diary and Letters of Kaethe Kollwitz (Hans Kollwitz ed.; Internet Archive lending copy, text not available), Die Tagebücher (Bohnke-Kollwitz 1989) beyond the GHDI excerpts, Otto Nagel's monograph, Krahmer, Prelinger, Kearns, Heller, Bachrach; a 14-page publisher sample of Roswitha Mair's novelised biography was opened but deliberately NOT used because it is fictionalised and dwells on childhood health episodes. EXCLUSIONS BY RULE: political, party, pacifist and anti-Nazi activity is incidental and unscored (the 1918 open letter, the 1932-33 appeals, the Gestapo questioning of 1936 are not used as evidence); the death of her son Peter in 1914, the memorial's emotional content, childhood health episodes and any grief-related reading were not used as trait evidence; the memorial appears only as a work and a persistence timeline. ROW COUNT: seven rows, sparse by design; none targeted at any coverage figure, and eligibility numbers were not run or consulted. FACT CONFLICTS RECORDED: the 1898 gold-medal story is told as a nomination vetoed by Wilhelm II (museum, ARTinWORDS, Wikipedia) versus an award rescinded (ARTnews), and the proposer is Max Liebermann per the museum and ARTinWORDS but Adolph Menzel per the NDB and Wikipedia, so editorial text says only that Wilhelm II rejected the proposed medal. 'First woman' claims for the Prussian Academy are worded per the museum (first woman made a full member, 1919) and Britannica. INDEPENDENCE CAVEAT: the museum, the NDB and other texts all draw on her diary as edited by Hans Kollwitz, so the sources are not fully independent of one another; confidence is capped accordingly. PORTRAIT: Hugo Erfurth 1925 gelatin silver print, MoMA object 7.2015; see portrait block for rights chain and caveat."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kathe-kollwitz-erfurth-1925.jpg",
+    "width": 1254,
+    "height": 1600,
+    "source": "Hugo Erfurth, portrait of Käthe Kollwitz, 1925, gelatin silver print 30.3 x 24 cm, Museum of Modern Art, New York (object 7.2015, Committee on Photography Fund), via Wikimedia Commons file 'Käthe Kollwitz by Hugo Erfurth 1925.jpg' (original 1567 x 2000 px, downsized to 1254 x 1600)",
+    "license": "Public domain (Hugo Erfurth, died 14 February 1948: life plus 70 years expired in the EU and Germany at the end of 2018; 1925 work, public domain in the United States per Commons PD-US tag)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:K%C3%A4the_Kollwitz_by_Hugo_Erfurth_1925.jpg",
+    "attribution": "Hugo Erfurth, Portrait Käthe Kollwitz, 1925 (silver gelatin print, MoMA collection)",
+    "attributionUrl": "https://www.moma.org/collection/works/188330",
+    "creator": "Hugo Erfurth (1874-1948)",
+    "date": "1925",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:K%C3%A4the_Kollwitz_by_Hugo_Erfurth_1925.jpg"
+  }
+}

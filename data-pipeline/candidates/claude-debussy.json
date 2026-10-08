@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "claude-debussy",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Claude Debussy",
+    "aliases": [
+      "Claude-Achille Debussy",
+      "Achille-Claude Debussy"
+    ],
+    "wikidataId": "Q4700",
+    "birthYear": 1862,
+    "deathYear": 1918,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "independent",
+      "perfectionist"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "클로드 드뷔시"
+    }
+  },
+  "sources": [
+    {
+      "id": "src_debussy_wikidata",
+      "kind": "wikidata",
+      "title": "Claude Debussy (Q4700) -- verified live via wbgetentities (2026-10-07): en label 'Claude Debussy', description 'French classical composer (1862-1918)', born 22 Aug 1862, died 25 Mar 1918, citizenship France, instance of human, ko label present, image 'Claude Debussy by Atelier Nadar.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q4700"
+    },
+    {
+      "id": "src_debussy_vallas",
+      "kind": "biography",
+      "title": "Leon Vallas (French musicologist and critic who knew Debussy's circle), Debussy (Paris: Plon, late 1920s; Internet Archive scan 'debussy0000leon' -- the text refers to events up to mid-1926) -- INDEPENDENT-LEANING scholarly biography built on Debussy's published letters (to the Vasnier family, Ernest Chausson, Andre Messager, Robert Godet), his own newspaper articles and interviews, and printed memories by Maurice Emmanuel, Gabriel Pierne, Paul Vidal, Xavier Leroux, Camille Bellaigue, Henri de Regnier, Jacques-Emile Blanche and Emile Vuillermoz; it also quotes the Academie des Beaux-Arts reports in the Journal officiel and hostile reviews (Maurice Kufferath, Pierre Lalo, Willy). Admiring in tone but openly records Debussy's hesitations, hasty commissions and borrowings. Read in large part (childhood through the war years, about 4,000 of 5,000 OCR lines; the work-by-work analyses and the catalogue were skimmed). Many letters are therefore seen second-hand through Vallas.",
+      "url": "https://archive.org/details/debussy0000leon"
+    },
+    {
+      "id": "src_debussy_laloy1909",
+      "kind": "biography",
+      "title": "Louis Laloy (critic and Debussy's close friend), Claude Debussy (Paris: Les Bibliophiles fantaisistes / Dorbon aine, 1909), Internet Archive scan -- FRIEND's contemporary study, written from what Debussy told Laloy about his youth; partisan and openly polemical (against Wagner, Franck, Saint-Saens) but a first-hand witness to the 1902 Pelleas rehearsals and to the Revue blanche columns. Read the biographical chapters in full (to about line 1500 of the OCR text: youth, Conservatoire, Rome, Mallarme circle, Pelleas, Nocturnes, 1902 premiere); the later technical analysis of the scores was not read.",
+      "url": "https://archive.org/details/claudedebussy00lalo"
+    },
+    {
+      "id": "src_debussy_vuillermoz1920",
+      "kind": "biography",
+      "title": "Emile Vuillermoz (music critic, acquaintance and champion; later a rehearsal coach for Le Martyre de Saint Sebastien), Claude Debussy, lecture given 15 April 1920 at the Concerts historiques Pasdeloup (Paris: Heugel, 1920), Internet Archive scan -- ADMIRING CRITIC's posthumous portrait with first-hand observations of Debussy's working habits and public reticence and a hostile-press history of Pelleas. Read in full.",
+      "url": "https://archive.org/details/claudedebussycon00vuil"
+    },
+    {
+      "id": "src_debussy_liebich1908",
+      "kind": "biography",
+      "title": "Louise Liebich, Claude-Achille Debussy (London: John Lane, 1908), Internet Archive scan -- contemporary English biographer, admiring and largely built on Debussy's own articles and on reports of his letters to Laloy; useful for what was known of his character in 1908 (reticence, refusal of photographs, slow completion). Read chapters I and the start of II (about 700 of 2,875 OCR lines); the technical chapters were not read.",
+      "url": "https://archive.org/details/claudeachilledeb00lieb"
+    },
+    {
+      "id": "src_debussy_rolland",
+      "kind": "archive",
+      "title": "Romain Rolland, 'Claude Debussy: Pelleas et Melisande', in Musicians of To-day (translated by Mary Blaiklock; London: Kegan Paul, 1915; Project Gutenberg ebook 16467) -- INDEPENDENT contemporary assessment by a historian-critic who states he is 'not a Debussyite' and prefers a different art; credits the reform of French recitative and the restrained orchestra but judges Debussy's historical importance greater than his artistic value. Read the Debussy chapter in full (about 300 lines).",
+      "url": "https://www.gutenberg.org/ebooks/16467"
+    },
+    {
+      "id": "src_debussy_mason1918",
+      "kind": "archive",
+      "title": "Daniel Gregory Mason (American composer and critic), 'Claude Debussy', in Contemporary Composers (New York: Macmillan, 1918; Project Gutenberg ebook 56593) -- ADVERSARIAL/conservative critique of Debussy's aims (sensuous, 'mental vacuity') that nevertheless concedes the originality of his harmonic style and orchestration and credits him with reducing orchestral excess. Read the Debussy chapter in full (about 550 lines).",
+      "url": "https://www.gutenberg.org/ebooks/56593"
+    },
+    {
+      "id": "src_debussy_croche1921",
+      "kind": "archive",
+      "title": "Claude Debussy, Monsieur Croche antidilettante (Paris: Dorbon aine / Nouvelle Revue francaise, 1921; Internet Archive scan 'monsieurcrochean00debu') -- SELF source: his critical articles (Revue blanche 1901, Gil Blas 1903, Revue S.I.M. 1912-14) collected posthumously, including the first 'Monsieur Croche' conversation, the essay on the Prix de Rome and the passage on Saint-Saens. Read the first three pieces (about 330 lines); the rest was skimmed. Used only as Debussy's own statements, never as the sole perspective on a row.",
+      "url": "https://archive.org/details/monsieurcrochean00debu"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_debussy_vallas, src_debussy_laloy1909, src_debussy_vuillermoz1920, src_debussy_croche1921 | 1873-1902 | biography built on letters and classmates' memories + friend's study + critic's lecture + self essays] Vallas documents that as a student Debussy skipped virtuoso drill for his own reading of Bach, Chopin and Schumann, fought his harmony professor over the prescribed 'author's harmony' (Laloy tells the same incident), and by 1883 was trying out parallel fifths and unresolved ninth chords to unsettle his classmates (Emmanuel, quoted in Vallas). The Academie's own reports on his Rome submissions (Journal officiel 1886-87, quoted by Vallas; an adversarial source) accuse him of seeking 'the bizarre, the incomprehensible, the unplayable'. After devoted Wagner years (Vallas; Debussy's own later words in the Croche pieces: 'Wagnerian to the point of forgetting civility') he concluded the Wagner method served only Wagner and chose to seek 'after Wagner, not according to Wagner' (his statement for the Opera-Comique, quoted by Vallas). In summer 1892 he held to the Pelleas project although his friend Pierre Louys was surprised by the choice (Laloy). Impact dual-edged: the same stance brought official censure, works left unperformed for years and press ridicule (Vuillermoz, Vallas). Several sources and periods; friendly witnesses dominate, adversarial ones (Academie, Kufferath) attest the difference rather than the stance, hence not above 80. LEAD REVIEW CORRECTION (downward only, before eligibility was read): was 80/0.72; the corroborating perspectives mostly reach us through one compiling secondary source (Vallas), so score and confidence are lowered per the rubric's no-high-score-without-independent-corroboration rule."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_debussy_vallas, src_debussy_vuillermoz1920, src_debussy_rolland, src_debussy_mason1918 | 1883-1913 | biography + critic's lecture + independent critic + adversarial critic] Vallas, quoting Maurice Emmanuel's notebook of Debussy's talks with Guiraud, shows Debussy assembling his own harmonic and modal syntax (varied scales, enharmonic ambiguity, ambiguous chords, irregular rhythms) in the 1880s before using it in the Rome submissions, the Faune and the Nocturnes. In Pelleas he deliberately chose continuous declamation modelled on French speech and an orchestra reduced to discreet colours, telling Robert de Flers in 1902 that he wanted no 'parasite' musical phrases and distrusted leitmotifs; Vuillermoz adds that each work received its own plan rather than a stock form, and Vallas says that with La Mer he deliberately did not repeat Pelleas. Non-partisan and adversarial corroboration: the Academie (1886-87) and the critic Maurice Kufferath (1894, quoted in Vallas) found the music strange; Rolland, who says he is 'not a Debussyite', credits a real reform of French recitative and notes the originality lies in a new use of existing chords; Mason, hostile to the aims, concedes originality of harmonic style and orchestration. Kept below the top band because Rolland and Vallas also record borrowings and echoes (Moussorgsky, Chabrier, Charpentier's Louise) and Rolland judges the historical importance larger than the artistic value. LEAD REVIEW CORRECTION (downward only, before eligibility was read): was 85/0.72; the corroborating perspectives mostly reach us through one compiling secondary source (Vallas), so score and confidence are lowered per the rubric's no-high-score-without-independent-corroboration rule."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_debussy_vallas, src_debussy_vuillermoz1920, src_debussy_laloy1909 | 1883-1915 | biography + critic's lecture + friend's study] Vallas: at the Conservatoire in 1883 Debussy tried chains of fifths and octaves, sevenths that did not resolve, chords of the ninth, eleventh and thirteenth on every degree (Emmanuel); in 1889 he went repeatedly to the Exposition universelle to listen closely to Javanese, Spanish and Chinese ensembles with Paul Dukas and later wrote of Javanese and Annamite music again; with the Nocturnes and Faune he divided the strings and used muted brass and solo timbres in new ways (Vallas, Laloy); in Jeux (1913) he tried superposed seconds close to what Stravinsky had just done in the Rite of Spring, and in 1915 he wrote twelve piano studies, each built on one technical problem. Vuillermoz and Vallas both say he made a fresh plan for each work. Repeated, dated and independent of one another; not scored higher because Vallas notes several of the apparent novelties had precedents. LEAD REVIEW CORRECTION (downward only, before eligibility was read): was 80/0.7; the corroborating perspectives mostly reach us through one compiling secondary source (Vallas), so score and confidence are lowered per the rubric's no-high-score-without-independent-corroboration rule."
+    },
+    "aesthetic_sensitivity": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_debussy_vallas, src_debussy_vuillermoz1920, src_debussy_mason1918, src_debussy_liebich1908 | 1880-1913 | biography + critic's lecture + adversarial critic + contemporary biography] Vuillermoz reports he held back the proofs of a song for two years to find the right balance between two bars; Liebich, citing a letter to Laloy, says he would not publish the Suite bergamasque while twelve bars of the Sarabande still dissatisfied him; Vallas, quoting Xavier Leroux and Henri de Regnier, records an attraction in his student years to 'everything refined, delicate, complicated, strange' in clothes, objects, books and food, and his dislike of grandiloquence; he chose texts and titles with literary and pictorial care and insisted the Preludes' titles stand at the end of each piece rather than the head (Vallas). Mason, who disputes the worth of the aim, still calls the 'sheer tonal magic' of his sonorities admitted even by detractors. Behavior (selection, refusal, refinement) rather than reputation. LEAD REVIEW CORRECTION (downward only, before eligibility was read): was 84/0.7; the corroborating perspectives mostly reach us through one compiling secondary source (Vallas), so score and confidence are lowered per the rubric's no-high-score-without-independent-corroboration rule."
+    },
+    "perfectionism": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_debussy_vuillermoz1920, src_debussy_vallas, src_debussy_laloy1909, src_debussy_liebich1908 | 1890-1914 | critic's lecture + biography quoting letters + friend's study + contemporary biography] Vuillermoz: he worked slowly, was never in a hurry to release a piece, had to be pressed page by page for the engraver, and delayed one song's proofs two years over two bars. Vallas, quoting his letter of summer 1893 to Chausson: having finished the fourth-act fountain scene of Pelleas he decided it was 'not that at all', that the ghost of Wagner showed at the turn of a bar, and tore it all up to find 'more personal' phrases; he then finished Pelleas twice (1895, 1897), reworked it until 1902 and wrote the orchestration only at the last minute; he withdrew the 1890 Fantasy for piano and orchestra for life after the dress rehearsal and reused material in a piano piece; he abandoned the unfinished opera Chimene and destroyed his notes for the unfinished Poe opera The Devil in the Belfry (Vallas), explaining in a letter that the choral writing he had found did not yet satisfy him. Liebich/Laloy add the Sarabande's missing bars. Impact dual-edged: few works and long delays, and Vallas also records fast commissioned scores (the 1884 cantata in 25 days; Le Martyre de Saint Sebastien in two months), so the standard was applied to his own chosen projects rather than to everything. LEAD REVIEW CORRECTION (downward only, before eligibility was read): was 78/0.72; the corroborating perspectives mostly reach us through one compiling secondary source (Vallas), so score and confidence are lowered per the rubric's no-high-score-without-independent-corroboration rule."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_debussy_laloy1909, src_debussy_vuillermoz1920, src_debussy_vallas | 1892-1902 | friend's study + critic's lecture + biography] Laloy, Vuillermoz and Vallas agree that Pelleas occupied about ten years (1892-1902) with no certainty of a stage: in a January 1894 letter to Chausson (Vallas) he expected 'only smoke' from the hope it represented; the score was taken up, set aside and restarted, the first Opera-Comique plan being a few private performances for a chosen audience. Over the same years Vallas notes that publishers would not take the five Baudelaire songs (he had 200 copies privately printed in 1890), that Durand offered the 1893 quartet in vain to quartet societies and that the Bilitis songs waited two years for a first hearing. Several periods and sources, but the evidence is concentrated on one long project, so a moderate-high score and confidence."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_debussy_vallas, src_debussy_laloy1909, src_debussy_croche1921 | 1879-1913 | biography + friend's study + self essays] Vallas (from the Vasnier circle's printed memories) says that, 'aware of his ignorance', the student Debussy read widely, even the dictionary, and went to hear Palestrina and Lassus, which he praised in a letter of November 1885; in 1879 he spent a summer in Russia as house pianist to a Russian family and, per Laloy and Vallas, listened with attention to Moscow's Gypsy musicians; he had the original-version score of Boris Godunov in his hands around 1890; in 1889 he repeatedly heard the Exposition's Javanese and other ensembles and the Russian concerts conducted by Rimsky-Korsakov; he travelled to Bayreuth twice (1889, 1890). Sources overlap on the biographical frame, so confidence is moderate."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_debussy_vallas, src_debussy_laloy1909, src_debussy_vuillermoz1920 | 1887-1914 | biography + friend's study + critic's lecture] Debussy spent his twenties with poets and painters rather than musicians (Mallarme's Tuesday evenings; Louys, Regnier, Whistler, Maurice Denis); Paul Dukas, quoted in Vallas, says the strongest influences on him were the writers, not musicians; he wrote the texts of the Proses lyriques himself (Laloy, Vuillermoz) and later wrote periodic musical criticism for the Revue blanche (1901), Gil Blas (1903) and Revue S.I.M. (1912-14). Output outside music is limited to his own song texts and criticism, so only a modest lean; strong_inference because the pattern is clear but it is range of influences and writing rather than work in several fields."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_debussy_vallas, src_debussy_vuillermoz1920, src_debussy_liebich1908, src_debussy_laloy1909, src_debussy_croche1921 | 1885-1911 | biography quoting letters and the Journal officiel + critic's lecture + contemporary biography + friend's study + self essay] Vallas: at the Villa Medicis (1885-87) his 'independent character would not accept the smallest restriction of his liberty'; he wrote to the Vasniers on 4 June 1885 that he loved his freedom too much to follow the Institut's path, organised a romantic-looking escape to Paris, and left Rome for good in early 1887 after a little over two years; in 1890 the Academie refused to program Printemps in the concert of his Rome submissions and he gave up the concert rather than accept the exclusion (Vallas, Laloy). Vuillermoz: he had no disciples, no secretary, no 'campaign', disliked playing in public and let reputation take care of itself; Liebich: he refused to be photographed and kept his private life out of print. In the 1911 Excelsior interview he said he would do nothing to make enemies but nothing to turn them into friends, and Vallas adds his irritation at the exacting devotion of the Debussyists. In the Croche essay on the Prix de Rome he writes that when told of the prize he 'felt he was no longer free'. Impact dual-edged: Vuillermoz says the lack of campaigning cost him allies and he was 'adored, not loved'. Five sources from differing viewpoints; the Academie's reports are adversarial corroboration. LEAD REVIEW CORRECTION (downward only, before eligibility was read): was 84/0.72; the corroborating perspectives mostly reach us through one compiling secondary source (Vallas), so score and confidence are lowered per the rubric's no-high-score-without-independent-corroboration rule."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_debussy_vallas, src_debussy_vuillermoz1920, src_debussy_croche1921 | 1887-1914 | biography + critic's lecture + self essays] In print he attacked institutions and reputations without softening (the Prix de Rome and the Institut, Saint-Saens's opera Les Barbares, the Wagner method; Vallas, Croche), and he accepted the Academie's public rebuke and the booing and mockery at the 1902 Pelleas dress rehearsal without altering the score beyond one cut of 15 bars (Vallas). But the same sources describe a man who avoided face-to-face confrontation: Vuillermoz speaks of a 'haughty misanthropy' behind a rampart of irony; Debussy told Messager he was 'incapable of outward demonstrations' to rally others and after the opening weeks suffered a crisis of discouragement (Vallas); Maeterlinck, angry over the casting, broke with him and publicly wished the opera to fail (Vallas), and the sources record no matching public quarrel on Debussy's side. Mixed picture of written boldness and personal avoidance, so a mid score at modest confidence and dual-edged impact."
+    },
+    "social_assertiveness": {
+      "score": 36,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_debussy_vallas, src_debussy_vuillermoz1920, src_debussy_liebich1908 | 1875-1913 | biography quoting classmates and friends + critic's lecture + contemporary biography] Classmates (Bellaigue, Pierne) remember him at the Conservatoire as shut-in, awkward and brusque; Henri de Regnier says he spoke little of himself but judged colleagues severely and 'kept something distant'; Vuillermoz says playing his own pieces or accompanying singers in public was an ordeal he accepted rarely and with 'sullen timidity', that he never recruited allies or promoted his work, and Vallas notes his visibly nervous, rigid conducting of La Mer in 1908 and his admission to Messager that he could not stir up others' spirits. Liebich calls him unapproachable to strangers though genial among intimates. The same quiet figure later gave blunt interviews and wrote sharp criticism (see conflict tolerance), so the low score is about face-to-face and public self-assertion, not strength of opinion. Several witnesses; most are friends, and 'taciturn' is a repeated characterisation rather than a dated incident, hence documented but modest confidence."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_debussy_vallas, src_debussy_laloy1909, src_debussy_croche1921 | 1885-1893 | biography quoting letters + friend's study + self essay] Vallas and Laloy document that Debussy was a devoted Wagnerian in Rome, playing Tristan almost nightly (Vallas), went to Bayreuth in 1889 'moved to tears', returned in 1890 disenchanted and argued with a Wagnerian friend until they parted (Laloy); he later wrote that he had been Wagnerian 'to the point of forgetting the simplest civilities' (Croche). In 1893 he tore up a finished Pelleas scene because it echoed Wagner and rewrote it (Vallas, quoting his letter to Chausson). Counter-evidence: Vallas observes that Debussy imagined he had freed himself completely from leitmotifs although Pelleas uses about a dozen recurring themes, so he did not always see his own debts clearly; and his later newspaper columns attack Wagner repeatedly. A clear change of view over several years, not generalised to all subjects."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/claude-debussy-nadar-1890-1910.jpg",
+    "width": 1144,
+    "height": 1600,
+    "source": "Atelier Nadar, 'Claude Debussy. Compositeur' (studio demonstration print, albumen print from a gelatin silver bromide glass negative, 22.3 x 16.2 cm, Album de reference de l'Atelier Nadar vol. 13, Atelier Nadar commercial no. 2075), Bibliotheque nationale de France, Estampes et photographie, FT 4-NA-237 (6), digital copy on Gallica btv1b53118843k; digitally restored image by Adam Cuerden hosted on Wikimedia Commons",
+    "license": "Public domain (Atelier Nadar photograph, dated 1890-1910 by the BnF; Gallica metadata states 'domaine public'; Commons tag PD-Old-auto-1923 for the restored file)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Claude_Debussy_by_Atelier_Nadar.jpg",
+    "attribution": "Atelier Nadar, c. 1890-1910, Bibliotheque nationale de France (Gallica); restoration by Adam Cuerden",
+    "attributionUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53118843k",
+    "creator": "Atelier Nadar (photograph); Adam Cuerden (digital restoration)",
+    "date": "1890-1910",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Claude_Debussy_by_Atelier_Nadar.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-07) for Q4700 returned en label 'Claude Debussy', description 'French classical composer (1862-1918)', P569 22 Aug 1862, P570 25 Mar 1918, citizenship France (Q142), instance of human, P18 'Claude Debussy by Atelier Nadar.jpg'; matches. SLUG CHECK: not in scratch/prod_slugs.txt; no existing candidate file. CLASSIFICATION: composer; fieldIds music (field.music key exists); region western_europe (French precedent: Antoine Lavoisier, Auguste Rodin, Claude Monet); era 20th_century as the Klimt (1862-1918) candidate; tags innovator, independent and perfectionist (all exist) are supported by rows on creative originality, autonomy need and perfectionism; archetype creative_creator; impactDomains artistic and cultural. EVIDENCE READ (6 substantive records + 1 orientation; sources named in their titles): Vallas biography (about 4,000 of 5,000 OCR lines), Laloy 1909 (biographical chapters), Vuillermoz 1920 (full), Liebich 1908 (chapter I and start of II), Rolland 1915 (Debussy chapter), Mason 1918 (Debussy chapter), Debussy's Monsieur Croche (first three pieces, self). Also skimmed and NOT used: Chenneviere 1913 (published by Debussy's own publisher, Durand) and Lepine 1930 (romanced 'Vies authentiques' biography). Debussy's letters and the testimonies of Emmanuel, Pierne, Vidal, Leroux, Regnier, Blanche, Dukas, Bellaigue, Kufferath and Pierre Lalo were read ONLY as quoted by Vallas/Laloy/Vuillermoz (second-hand). BOOKS NOT ACCESSED: Francois Lesure's Claude Debussy: Biographie critique, Roger Nichols's Debussy Remembered and Debussy Letters (both borrow-only on the Internet Archive), Marguerite Long's At the Piano with Debussy, Louis Laloy's memoir La musique retrouvee, Maurice Emmanuel's Pelleas et Melisande study, and Pierre Lalo's, Vuillermoz's and Laloy's original periodical reviews. PERSPECTIVES: friends and champions (Laloy, Vuillermoz, Liebich), a scholarly biographer using letters and hostile reviews (Vallas), an independent non-Debussyist critic (Rolland), an adversarial conservative critic (Mason), the Academie's official reports and the critic Kufferath (as quoted by Vallas) and Debussy himself (Croche, letters, interviews as quoted). Behavior-only scoring: nothing is inferred from his illness, death or private life (marriages, affairs, debts, finances beyond professional commissions), and the 1915-16 patriotic writings are treated as incidental and unscored. PORTRAIT: Gallica OAI record and Commons wikitext were opened (see portrait block); 1982x2771 original resized to 1144x1600 (no upscale); file opens. MATCH ELIGIBILITY was deliberately not looked at while scoring."
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "knud-rasmussen",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Knud Rasmussen",
+    "wikidataId": "Q312769",
+    "birthYear": 1879,
+    "deathYear": 1933,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DK"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_rasmussen_wikidata",
+      "kind": "wikidata",
+      "title": "Knud Rasmussen (Q312769) -- verified live via wbgetentities (2026-10-07): en label 'Knud Rasmussen', description 'Danish explorer and anthropologist', born 7 Jun 1879, died 21 Dec 1933, citizenship Denmark (Q756617), instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q312769"
+    },
+    {
+      "id": "src_rasmussen_mathiassen1934",
+      "kind": "archive",
+      "title": "Therkel Mathiassen (archaeologist of the Fifth Thule Expedition and Rasmussen's colleague), 'Knud Rasmussen's Sledge Expeditions and the Founding of the Thule Trading Station', Geografisk Tidsskrift vol. 37 (1934) pp. 17-30, Royal Danish Geographical Society, e-tidsskrifter.dk -- COLLEAGUE/INSIDER memorial account in English, written the year after his death and openly admiring; gives dated, specific facts on the 1902-04 Literary Expedition, the 1910 Thule Station, the 1912 and 1916-18 Thule Expeditions and the Fifth Thule Expedition, plus a list of its published reports. Read in full.",
+      "url": "https://tidsskrift.dk/geografisktidsskrift/article/download/48004/60460?inline=1"
+    },
+    {
+      "id": "src_rasmussen_dbl_ostermann",
+      "kind": "biography",
+      "title": "H. Ostermann, 'Knud Rasmussen', Dansk Biografisk Leksikon (3rd ed., 1979-84; online at biografiskleksikon.lex.dk) -- encyclopedic Danish biography by the Greenland-literature editor who published Rasmussen's posthumous Sixth/Seventh Thule notes; ADMIRING in tone, uses memorial literature (Freuchen, Birket-Smith, Moltke). Read in full (in Danish); used for the Literary Expedition, 1905 reindeer survey, 1906-08 stay at Thule, the founding of the station, the ice-cap crossing, publications and the 1925 Copenhagen doctorate.",
+      "url": "https://biografiskleksikon.lex.dk/Knud_Rasmussen"
+    },
+    {
+      "id": "src_rasmussen_harper_steensby2023",
+      "kind": "press",
+      "title": "Kenn Harper (Arctic historian), 'And what about Steensby's theory?', Taissumani column, Nunatsiaq News, 15 April 2023 -- INDEPENDENT, mixed assessment: records that Rasmussen kept his faith in Steensby's inland-origin theory throughout the Fifth Thule Expedition and in Across Arctic America although archaeology (Mathiassen and later work) overturned it, and that Birket-Smith ignored the historical record; also credits the expedition's reports as irreplaceable salvage ethnography and calls Rasmussen a self-taught ethnographer. Read in full.",
+      "url": "https://nunatsiaq.com/?p=168946"
+    },
+    {
+      "id": "src_rasmussen_harper_kivalliq2021",
+      "kind": "press",
+      "title": "Kenn Harper, 'The starving Inuit of the inland Kivalliq', Taissumani column, Nunatsiaq News, 16 October 2021 -- INDEPENDENT, CRITICAL: compares population counts of 1918 and 1922-23, quotes anthropologist Ernest Burch and an RCMP report (Insp. Stuart Wood, Herschel Island, 1924) that Rasmussen told the police he would not make public the starvation he saw among the Caribou Inuit, and a later remark by Diamond Jenness that international courtesy kept the expedition from exposing it; Harper's own explanation for the short visit is stated as his belief. Read in full.",
+      "url": "https://nunatsiaq.com/stories/article/the-starving-inuit-of-the-inland-kivalliq/"
+    },
+    {
+      "id": "src_rasmussen_freuchen1935",
+      "kind": "biography",
+      "title": "Peter Freuchen (Rasmussen's close friend and partner at the Thule station), 'Arctic Adventure: My Life in the Frozen North' (Farrar & Rinehart, New York, 1935), Internet Archive scan -- PARTISAN FIRSTHAND memoir, openly adoring and anecdotal; used for dated episodes at Thule 1910-1918 (the station's founding, trading practice, travelling, Rasmussen's reaction to the 1917-18 deaths on the Second Thule Expedition and the later Koch dispute). Passages mentioning Rasmussen (about 70 hits across the book) were read in context; the chapters on Freuchen's solo travels and on later life were skimmed.",
+      "url": "https://archive.org/details/arctic-adventure-my-life-in-the-frozen-north"
+    },
+    {
+      "id": "src_rasmussen_lubowicka2020",
+      "kind": "biography",
+      "title": "Agata Lubowicka (literary scholar), 'Mapping Ultima Thule: Representations of North Greenland in the Expedition Accounts of Knud Rasmussen' (Peter Lang, 2020; open access via OAPEN), Internet Archive text -- INDEPENDENT, post-colonial scholarly study that also summarises the Danish biographical literature (Hastrup, Thisted, Michelsen, Frederiksen, Gant, Pedersen) and critiques Rasmussen's representation of the Inughuit as ambivalent. Read the introduction and the biographical and research-survey sections in full (pp. 31-40); the literary-analysis chapters were skimmed.",
+      "url": "https://archive.org/details/oapen-20.500.12657-51575"
+    },
+    {
+      "id": "src_rasmussen_polarrecord1934",
+      "kind": "institution",
+      "title": "Scott Polar Research Institute, 'Dr Knud Rasmussen' obituary note with frontispiece portrait, The Polar Record no. 7 (January 1934), Cambridge University Press for SPRI (scan hosted by Ifremer Archimer) -- short contemporary institutional obituary from a British polar institute (non-Danish, non-colleague): calls him a notable ethnologist and traveller and credits the founding of Thule as his more lasting work. Read in full (one paragraph); used for orientation and as an outside contemporary view, not for any scored row.",
+      "url": "https://archimer.ifremer.fr/doc/00000/7337/6521.pdf"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rasmussen_mathiassen1934, src_rasmussen_freuchen1935, src_rasmussen_dbl_ostermann | 1912-1924 | colleague memorial + partisan firsthand memoir + encyclopedia] Two distinct episodes. In April 1912 a northerly gale smashed the sea ice, so Rasmussen dropped the planned route along the north coast and took the First Thule Expedition straight up onto the ice cap (Mathiassen, who describes the change of plan). On the Fifth Thule Expedition he worked from a winter base, then split the party and later travelled on alone with two Inuit companions, living on local game and on the help of the Inuit communities he met (Mathiassen; DBL). Both accounts are admiring and from insiders, and both describe outcomes rather than inner states, so confidence is held in the 0.60 band."
+    },
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rasmussen_mathiassen1934, src_rasmussen_dbl_ostermann, src_rasmussen_freuchen1935 | 1906-1924 | colleague memorial + encyclopedia + partisan memoir] Mathiassen describes his method of travelling light with Inuit sledge technique, taking little food and relying on hunting and on local help, and contrasts it with earlier hand-sledge expeditions. Without state backing for the Cape York station, he and Freuchen raised the money privately through supporters (DBL; Freuchen, who describes the bankers and an unseen Danish donor in Baku). The station's fur profits then paid for most of the Thule expeditions (Mathiassen). Three separate instances from three accounts, though all are admiring and the second and third overlap, so a clear lean with moderate confidence."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rasmussen_mathiassen1934, src_rasmussen_polarrecord1934, src_rasmussen_freuchen1935 | 1917 and 1921-1924 | colleague memorial + outside institutional note + partisan memoir] Two dated episodes. On the 1917 return from the north coast the party was starving; Rasmussen, who was feeling the journey least, made a forced march with one companion to Etah, reaching it on 30 August after setting out on 25 August, and relief sledges went out that night (Mathiassen); Freuchen, at Thule, describes Rasmussen's later arrival drawn by months of hunger. The Fifth Thule Expedition ran three years and from March to May 1923 he sledged from Danish Island to Point Barrow with two Inuit companions and went on to Nome (Mathiassen); the Polar Record obituary also credits 'many long and difficult journeys'. Sources are admiring, but the dates and distances are specific."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rasmussen_mathiassen1934, src_rasmussen_freuchen1935, src_rasmussen_dbl_ostermann | 1916-1918 and 1921-1924 | colleague memorial + partisan memoir + encyclopedia] Mathiassen himself says his light method of travel always carried a risk of bad hunting, starvation and bad weather, and that men who joined 'knew what they would face'. On the Second Thule Expedition (1916-18) hunting failed, the last dog was eaten on 24 August 1917, and two members died on the return, Hendrik Olsen and Thorild Wulff (Mathiassen; DBL). Freuchen records that Rasmussen came home asking whether he was to blame and that Freuchen told him no. The Fifth Thule Expedition, by contrast, had no deaths among its twelve members (Mathiassen). dual_edged because the same method produced both the large results and the Second Thule losses. Not scored higher because every source for the Second Thule losses is partisan or admiring."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rasmussen_mathiassen1934, src_rasmussen_dbl_ostermann, src_rasmussen_freuchen1935 | 1910-1924 | colleague memorial + encyclopedia + partisan memoir] Mathiassen (a member of the Fifth Thule Expedition) says Rasmussen picked mature specialists who could make their own plans and then worked to help them carry those plans out, and that no one before him had made such use of Inuit members on expeditions. DBL says he was considerate and attentive to colleagues. In the introduction to Across Arctic America he sets aside space to name his Danish and Greenlandic colleagues and says the Inuit companions Anarulunguaq and Miteq had a bigger share in the outcome than he could show (self-source, used only for that stated acknowledgement). The Fifth Thule reports were published under the colleagues' own names (Mathiassen's list of volumes). Mostly admiring insider evidence, hence moderate confidence."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rasmussen_mathiassen1934, src_rasmussen_dbl_ostermann, src_rasmussen_lubowicka2020 | 1910-1933 | colleague memorial + encyclopedia + independent scholarly study] He conceived, financed and led the Thule expeditions from the station's profits (Mathiassen: only the Fifth got a state grant, and that covered a fraction of the cost). DBL names him leader of expeditions from 1912 and of the Sixth and Seventh Thule Expeditions to East Greenland in 1931-33. Lubowicka, an independent literary scholar, treats him as having moved from a rank-and-file member of the 1902 Literary Expedition to one of the main actors in Greenland by 1915, and notes his private enterprise funded the expeditions (she also notes critics read the station as bound up with Danish expansion; that political reading is incidental and not scored). The role is clearly documented; the motive is not read into it."
+    },
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rasmussen_dbl_ostermann, src_rasmussen_mathiassen1934, src_rasmussen_harper_steensby2023, src_rasmussen_freuchen1935 | 1900-1924 | encyclopedia + colleague memorial + independent press historian + partisan memoir] Several separate behaviours. In 1900-01 he went to Lapland and lived with the Sami (DBL; Mathiassen). In 1902-04, 1906-08 and 1919 he went north or east specifically to collect Inuit legends and religious ideas (Mathiassen; DBL). On the Fifth Thule Expedition he set out to visit all the Inuit groups of Arctic North America (Mathiassen) and at Aua's winter camp questioned him at length on religion (Across Arctic America, self-source). Harper, an independent Arctic historian, calls him a self-taught ethnographer who 'revelled' in recording life stories and legends, though he also says Rasmussen held on to a theory over the facts (scored separately under belief updating). Freuchen describes him keeping three old women in the house to extract stories at the Thule station. Documented across sources with independent corroboration from Harper."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rasmussen_dbl_ostermann, src_rasmussen_mathiassen1934, src_rasmussen_harper_steensby2023 | 1900-1933 | encyclopedia + colleague memorial + independent press historian] Several different working roles over three decades: a reindeer-herding survey for the government in Greenland in 1905 (DBL; Mathiassen), a trading-station manager and fundraiser, expedition leader, popular travel writer, translator of Inuit tradition and poetry (DBL's bibliography), and ethnographer of the Fifth Thule Expedition. Harper calls him self-taught as an ethnographer. Distinct activities are documented by two sources, but they were all connected to Greenland and the Inuit rather than spread across unrelated fields, so a lean rather than a clear pattern."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rasmussen_mathiassen1934, src_rasmussen_dbl_ostermann, src_rasmussen_freuchen1935, src_rasmussen_lubowicka2020 | 1906-1933 | colleague memorial + encyclopedia + partisan memoir + independent scholarly study] Insider sources give a stated welfare purpose for the Cape York station: the Polar Inuit had come to depend on guns and tools that Peary's expeditions had brought and whalers sold dearly, so the station was to supply them (Mathiassen; Freuchen; DBL on the 1906 sledge trip with ammunition). Mathiassen adds a hospital (1928), a nurse (1929), a church and a hunters' council. Lubowicka, an independent post-colonial scholar, reads the same station as also his livelihood and as a basis for later Danish claims and argues his books helped shape how Danes saw Greenlanders. Mixed documentation and partly self-reported motives, hence a moderate score and confidence; dual_edged because the same venture served others' ends as well."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rasmussen_dbl_ostermann, src_rasmussen_freuchen1935, src_rasmussen_mathiassen1934 | 1909-1925 | encyclopedia + partisan memoir + colleague memorial] When the state declined to take on a station at Cape York, he raised the money privately with the backing of mission societies (DBL), and Freuchen describes the same fundraising round. DBL also names him as one of the most energetic organisers of the national collection that rebuilt the National Museum, to which he gave very large ethnographic collections. Mathiassen says he had a gift for holding people of different kinds together on an expedition. Two separate campaigns documented; all accounts are admiring."
+    },
+    "belief_updating": {
+      "score": 35,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "[src_rasmussen_harper_steensby2023, src_rasmussen_harper_kivalliq2021, src_rasmussen_mathiassen1934 | 1921-1927 | independent press historian on the expedition's reports; Across Arctic America read first-hand] Harper (independent, with a mixed view) records that Rasmussen set out to test Steensby's theory of an inland American origin of the Inuit, said at Hudson Bay that the Caribou Inuit finds were solving the problem, and in 1927 still presented the conclusion as 'inevitable', while archaeology (by his own colleague Mathiassen and later work) showed Inuit culture spread from Alaska eastward; similarities between inland and coastal folklore he put down to recent borrowing from the coast. I checked the 1927 statement directly in Across Arctic America: it restates Steensby's theory and says all the expedition's researches supported it. Harper separately quotes Ernest Burch that neither Rasmussen nor Birket-Smith showed interest in the recent history of the people they visited, including the famine of those years. A judgement on one scientific question, from one main independent source plus first-hand text, not a verdict on his general openness; not scored lower for that reason."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rasmussen_dbl_ostermann, src_rasmussen_mathiassen1934, src_rasmussen_freuchen1935 | 1902-1921 | encyclopedia + colleague memorial + partisan memoir] Several self-started projects, each with a date: DBL says the extension of the 1902 Literary Expedition to the far north was due to him; in 1905 he surveyed West Greenland for reindeer herding, an idea he had taken from Lapland (DBL; Mathiassen says the government sent him); in 1906 he sledged north with ammunition when he learned whalers had not called on the Polar Inuit; in 1909-10 he set up the Thule station (Freuchen calls it Rasmussen's idea; DBL says it came from private fundraising after the state declined); and Mathiassen notes he had voiced the Fifth Thule plan in 1909, twelve years before he carried it out. Three accounts agree on the pattern; none is independent of the Danish memorial literature, so confidence is moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "크누드 라스무센"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID Q312769 VERIFIED LIVE via Wikidata wbgetentities 2026-10-07: en 'Knud Rasmussen', description 'Danish explorer and anthropologist', b. 7 Jun 1879, d. 21 Dec 1933, citizenship Denmark. SLUG: absent from scratch/prod_slugs.txt and data-pipeline/candidates before this run. CLASSIFICATION: no field.* i18n key exists for anthropology, so fieldIds = exploration only (as roald-amundsen); region western_europe (Nordic precedent); occupation explorer; tags explorer, field_researcher; archetype scientific_explorer (as Amundsen/Nansen). EVIDENCE READ (9 records: 8 substantive + Wikidata orientation): Mathiassen 1934 (Geografisk Tidsskrift, full); Dansk Biografisk Leksikon (full, Danish); Harper 2023 and Harper 2021 columns (full); Freuchen 1935 'Arctic Adventure' (all Rasmussen passages in context, ~70 hits, chapters on Freuchen's solo travels skimmed); Lubowicka 2020 (intro, biographical and research survey, selected analysis passages in context); Polar Record Jan 1934 obituary note (full, one paragraph); Rasmussen's 'Across Arctic America' 1927 (introduction and the Aua chapters read; rest skimmed by search; first-hand self-source, never the sole perspective for a row). INDEPENDENT PERSPECTIVES: Harper (Arctic historian, mixed-critical), Lubowicka (post-colonial literary scholar), SPRI Polar Record (outside institution); insider/partisan: Mathiassen, Freuchen, DBL (Ostermann). NOT ACCESSED: Hastrup 'Vinterens hjerte' (2010), Thisted 'Voicing the Arctic' (2010), Kleivan and Burch 1988 introduction (Etudes/Inuit/Studies; bot-walled by Anubis, not bypassed), Birket-Smith 'Knud Rasmussens saga' (1936), Michelsen's books on the Second Thule dispute, Freuchen's 'I Sailed with Rasmussen' (lending only), Rolf Gilberg Polar Record profile (paywalled). SCORING: 12 rows, none above 78, confidence 0.50-0.62. Left unscored on purpose: the Second Thule dispute with Lauge Koch (only a partisan Freuchen account), the RCMP statement that Rasmussen would not publicise the Caribou Inuit famine (single secondary retelling by Harper, motive unknown), and everything about illness, death or Greenland sovereignty (zero-politics; sovereignty only noted incidentally). Also note that Harper's belief-updating evidence is about one scientific theory only. PORTRAIT: LOC Bain Collection ggbain.02631 via Commons 'Knud Rasmussen 01.jpg' (2351x3042, downsized to 1237x1600, never upscaled). loc.gov record page is behind a Cloudflare challenge and was not bypassed; the rights note 'No known restrictions on publication' is as transcribed on Commons; photo date unrecorded. EDITORIAL draft at scratch/editorial/knud-rasmussen.json (3 achievements, 2 moments, 1 turning point; review gate PASS/PASS/PASS). eligibility_v2 was computed by the validator only after scoring was locked and was not used to adjust anything."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/knud-rasmussen-loc-bain.jpg",
+    "width": 1237,
+    "height": 1600,
+    "source": "Library of Congress, Prints and Photographs Division, George Grantham Bain Collection, digital id ggbain.02631 (record: https://hdl.loc.gov/loc.pnp/ggbain.02631), via Wikimedia Commons file 'Knud Rasmussen 01.jpg' (2351 x 3042 original; downsized, never upscaled)",
+    "license": "Public domain (Bain News Service photograph; LOC rights note as transcribed on Commons: 'No known restrictions on publication'; Commons tags PD-old-70 and PD-US-expired)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Knud_Rasmussen_01.jpg",
+    "attribution": "George Grantham Bain Collection, Library of Congress, Prints and Photographs Division (photographer not individually credited; date unrecorded)",
+    "attributionUrl": "https://hdl.loc.gov/loc.pnp/ggbain.02631",
+    "creator": "George Grantham Bain Collection (Bain News Service), photographer not individually credited",
+    "date": "undated (Bain collection, c. 1900-1920)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Knud_Rasmussen_01.jpg"
+  }
+}

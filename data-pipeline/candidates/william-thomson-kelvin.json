@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "william-thomson-kelvin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "William Thomson, 1st Baron Kelvin",
+    "aliases": [
+      "Lord Kelvin",
+      "Sir William Thomson"
+    ],
+    "wikidataId": "Q122701",
+    "birthYear": 1824,
+    "deathYear": 1907,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "engineer",
+      "inventor"
+    ],
+    "fieldIds": [
+      "physics",
+      "engineering"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "historical"
+    ],
+    "tagIds": [
+      "theorist",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kelvin_wikidata",
+      "kind": "wikidata",
+      "title": "William Thomson, 1st Baron Kelvin (Q122701) -- verified live via wbgetentities (2026-10-07): en label 'William Thomson, 1st Baron Kelvin', description 'British physicist and engineer (1824-1907)', ko label '켈빈 남작 1세 윌리엄 톰슨', P569 given as 26 June 1825 (the biographies give 26 June 1824), P570 17 Dec 1907, P18 'Sir William Thomson, Baron Kelvin by T. & R. Annan & Sons.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q122701"
+    },
+    {
+      "id": "src_kelvin_thompson1910",
+      "kind": "biography",
+      "title": "Silvanus P. Thompson, The Life of William Thomson, Baron Kelvin of Largs, 2 vols (London: Macmillan, 1910), Internet Archive full text (lifeofwillthom01thomrich, lifeofwillthom02thomrich) -- AUTHORISED, ADMIRING biography by a physicist and friend who worked from Kelvin's papers and family and colleagues' reminiscences; much of it reproduces letters and lectures in Kelvin's own words and includes verbatim minutes and letters of the Atlantic Telegraph Company directors. Read locally: vol. I Ch. VI (thermodynamics: the Oxford 1847 meeting with Joule, the years of suspended judgment, the absolute scale and 1851 paper, in part), Ch. VII (the laboratory, in part), Ch. VIII (Atlantic telegraph 1856-58: law of squares dispute, 1857-58 expeditions, the Whitehouse affair, in part), Ch. X (the Treatise, opening pages) and Ch. XIII (the geological controversy, in full); vol. II Ch. XV (the 1871 Lalla Rookh cruise with Helmholtz), Ch. XVI (Helmholtz's 1876 opinion), Ch. XVII (the compass and the Admiralty, in part), Ch. XIX (the Faure accumulator episode), Ch. XXII (the 1894-95 Perry correspondence), Ch. XXIII (the age of the earth, last pronouncement) and Ch. XXIV (the vortex-atom and ether passages, the 1896 Jubilee statement). Its praise is not used as evidence; the verbatim documents and dated actions are.",
+      "url": "https://archive.org/details/lifeofwillthom01thomrich"
+    },
+    {
+      "id": "src_kelvin_gray1908",
+      "kind": "biography",
+      "title": "Andrew Gray, Lord Kelvin: An Account of His Scientific Life and Work (London: J. M. Dent, 1908), Internet Archive full text (lordkelvinaccoun00grayrich) -- INSIDER scientific biography by Kelvin's former assistant and successor in the Glasgow chair, written within a year of his death; deliberately concerned with the science, with candid passages on the geological dispute. Read locally: the passages on the dynamical theory of heat (1851) and Clausius, the age-of-the-earth passages including the Perry challenge and Huxley's 1869 address, and the passages on the mirror galvanometer and siphon recorder.",
+      "url": "https://archive.org/details/lordkelvinaccoun00grayrich"
+    },
+    {
+      "id": "src_kelvin_field1892",
+      "kind": "biography",
+      "title": "Henry M. Field, The Story of the Atlantic Telegraph (New York: Scribner, 1892), Internet Archive full text (storyofatlantict00fieluoft) -- narrative history by the brother of the cable promoter Cyrus W. Field, an admiring partisan of the promoter and not of Kelvin; independent of Kelvin's Glasgow circle. Read locally: the passages on the 1857-58 expeditions, the 1865 contract arrangements that kept the company electricians from interfering, the 1866 expedition, the knighthood notice of 1866 and the chapters on the instruments.",
+      "url": "https://archive.org/details/storyofatlantict00fieluoft"
+    },
+    {
+      "id": "src_kelvin_whitehouse1858",
+      "kind": "archive",
+      "title": "E. O. Wildman Whitehouse, The Atlantic Telegraph: The Rise, Progress, and Development of Its Electrical Department (London: Bradbury & Evans, 1858), Internet Archive full text (cihm_47982) -- ADVERSARIAL PRIMARY pamphlet by the company's own electrician, Kelvin's opponent in the 1855-58 dispute over cable design; written in autumn 1858, after the cable had failed and after his dismissal, about his own instruments, with only a few cool references to Thomson. Read in full (57,000 characters).",
+      "url": "https://archive.org/details/cihm_47982"
+    },
+    {
+      "id": "src_kelvin_bright1899",
+      "kind": "biography",
+      "title": "Edward Brailsford Bright and Charles Bright, The Life Story of the Late Sir Charles Tilston Bright, Civil Engineer, with which is incorporated the story of the Atlantic cable (London: Constable, 1899), Internet Archive full text (cihm_48206) -- biography of the cable's engineer-in-chief by his brother and son; a partisan of Bright, who was Kelvin's colleague and sometime rival in the cable enterprise, hence independent of Kelvin's circle. Read locally: the passages on the 1855-58 cable design and Thomson's theory, the 1857-58 expeditions with Thomson aboard the Agamemnon, and his unpaid service.",
+      "url": "https://archive.org/details/cihm_48206"
+    },
+    {
+      "id": "src_kelvin_darwin1887",
+      "kind": "archive",
+      "title": "Francis Darwin (ed.), The Life and Letters of Charles Darwin, vol. II (London: John Murray; New York: Appleton, 1887), Internet Archive full text (lifelettersofch02darw) -- published letters of Darwin, the other party in the 1860s-70s dispute over the age of the earth; read only for Darwin's 12 July 1871 letter to A. R. Wallace mentioning 'Sir W. Thomson like an odious spectre' and the editor's footnote on Huxley's 1869 address to the Geological Society. An independent but one-sentence view; it is not used for any positive trait.",
+      "url": "https://archive.org/details/lifelettersofch02darw"
+    },
+    {
+      "id": "src_kelvin_king1925",
+      "kind": "biography",
+      "title": "Agnes Gardner King, Kelvin the Man: A Biographical Sketch by His Niece (London: Hodder and Stoughton, 1925), Internet Archive full text (kelvin-the-man) -- FAMILY memoir by Kelvin's niece, affectionate and anecdotal, with an introduction by the Glasgow University principal; it repeats the Admiralty compass delay from the family letters. Read in part (the professorship, work and compass pages); used only to corroborate the compass and his habit of carrying a notebook, never as a sole source for a row.",
+      "url": "https://archive.org/details/kelvin-the-man"
+    },
+    {
+      "id": "src_kelvin_nist",
+      "kind": "institution",
+      "title": "National Institute of Standards and Technology (NIST), 'Kelvin: Introduction' (SI redefinition pages) -- national-metrology-institute overview, read in full: the kelvin is the SI unit of temperature and the Kelvin scale is named for Lord Kelvin (1824-1907) and starts at absolute zero. Used only for the naming of the scale and unit.",
+      "url": "https://www.nist.gov/si-redefinition/kelvin-introduction"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kelvin_thompson1910, src_kelvin_bright1899, src_kelvin_field1892 | 1857-1889 | authorised biography quoting company minutes and Admiralty letters + the cable engineer's biography + the cable promoter's history] Two separately dated campaigns carried through repeated setbacks. (1) Atlantic cable: Thomson joined the 1857 expedition, which lost the cable, went again in 1858, and after the 1858 cable failed within weeks he was still the technical adviser to the board and on the 1865 and 1866 expeditions; Bright's biography says he took the 1858 post 'without recompense of any kind', Field says he held from 1857 that a larger conductor was a condition of success and kept working with the company until the 1866 success, and the directors' own minute thanks him for 'great sacrifices' in accompanying the squadron twice. (2) Ship's compass: he first pressed the Admiralty in 1878, offered one at his own expense in 1879 (accepted), brought it before the Royal United Service Institution in 1878 and 1880, and the Admiralty made it the standard compass only in November 1889, after foreign navies had adopted it (Thompson, with the Admiralty letters reproduced). Thompson also reports his own 1896 Jubilee statement of 'fifty-five years' of unsuccessful effort on the ether (used elsewhere). Independent confirmation of the cable commitment comes from Bright's and Field's accounts; the compass campaign rests on Thompson and a niece's memoir, so the confidence stays below 0.70."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_kelvin_thompson1910, src_kelvin_bright1899, src_kelvin_darwin1887 | 1855-1897 | authorised biography + cable engineer's biography (quoting the adversary's own remarks) + Darwin's published letters] Several dated cases of holding a position against prevailing opinion. (1) Cable design: in 1855-56 he published in the Athenaeum and the Royal Society that signalling speed fell with the square of cable length and urged a much thicker copper core, against Whitehouse's experiments and the already-signed contracts for a light core; Bright's biography records Whitehouse saying that if the theory were true the core required would be almost prohibitive, and adds that 'subsequent experience fully confirmed every part' of Thomson's theory. (2) Geology: from 1862 to 1869 he argued, against what he himself called 'perhaps a majority of British geologists', that the earth's heat and the sun's limited fuel set an age of tens to a hundred million years; Huxley's 1869 address answered him (describing himself as a special pleader), Darwin wrote to Wallace in 1871 that Thomson came 'like an odious spectre', and Thompson itself records that radioactive heating (Strutt, George Darwin) later undermined the temperature-gradient argument. dual_edged because the cable position was vindicated and the age estimate was not. Darwin's reaction is a second, adverse view of the geology dispute; the cable case rests on Thompson and Bright."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_kelvin_thompson1910, src_kelvin_gray1908 | 1847-1904 | authorised biography quoting his own letters and lectures + insider scientific biography] Mixed pattern across three episodes. Joule: Kelvin's own 1882 account says he was impelled to object at the 1847 Oxford meeting, then waited and spoke to Joule privately; Thompson shows him holding to Carnot's theory for about three years while publicly insisting Joule's work mattered, then writing to Joule in 1850 (Thompson dates the letter to the year of the Rankine and Clausius papers) that a conclusion about steam could be reconciled with known facts only through Joule's discovery, and rebuilding the theory (the dynamical theory of heat, 1851). Ether and vortex atoms: in 1896 he wrote 'I now abandon everything I have ever thought of or written in respect to constitution of ether', in 1898 'with great regret I abandon' the vortex-atom idea, and at his 1896 Jubilee called fifty-five years of effort 'failure'. Counter-evidence: on the age of the earth he conceded Perry's 1895 point only as far as testing it (his experiments found conductivity falling with temperature) and kept to a 20-25 million year sun age in his last 1897 statement. dual_edged and kept at 0.60 because the account is chiefly by an admiring biographer."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kelvin_thompson1910, src_kelvin_bright1899, src_kelvin_field1892 | 1855-1866 | authorised biography + cable engineer's biography + cable promoter's history; Helmholtz's 1876 opinion quoted in Nature via Thompson] He reduced a long submarine cable to a small set of parameters (resistance and capacity per length) and derived from them a general design rule, the law of squares, then a 'curve of arrival' for the signal at the far end and a signalling scheme (Thompson; Field's review quotation of the 1855 Royal Society paper). The rule transferred to every later cable: Bright's biography says experience 'fully confirmed every part' of it. Helmholtz, an independent peer, judged in 1876 that Thomson's particular gift was translating real facts into mathematical equations and purging theory of hypothetical assumptions. Several consistent sources, one dated design case; Helmholtz's statement is an evaluation so it is not used to raise the score."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kelvin_thompson1910, src_kelvin_whitehouse1858, src_kelvin_bright1899 | 1850-1858 | authorised biography quoting Ayrton + adversary's pamphlet + engineer's biography] Making working capacity from little. About 1850, with no laboratory in the department, he took over a disused wine cellar in the college basement (and, by Thompson's account, annexed an old examination room in 1868 without authority), gathered student volunteers and used whatever apparatus he could find; Ayrton, a student of the 1860s, recalls one room and a coal cellar and that students wound their own resistance coils. In 1857-58 he produced the mirror galvanometer (a one-third-grain mirror cut from microscope glass on James White's suggestion, hung on silk fibre) 'in his own study at small expense', and at Valencia in August 1858 the company's directors record that it superseded the failing relay apparatus; Whitehouse's own pamphlet describes seeing Thomson's galvanometer at Keyham and recording signals on it. Three dated instances from three perspectives, two of them favourable by origin."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kelvin_thompson1910, src_kelvin_whitehouse1858, src_kelvin_gray1908 | 1857-1895 | authorised biography + adversary's pamphlet + insider scientific biography] He ran his own measurements when data were missing. In 1857 he took samples of the cable's copper to Glasgow, found conductivities from 42 to 102 per cent of standard, sent five to Hofmann for chemical analysis and procured over forty more with measured impurities to establish that conductivity followed purity; Whitehouse's 1858 pamphlet independently says Thomson drew his attention to differences in the conducting power of copper wire during manufacture. After Perry's 1895 challenge he had conductivity of rocks at high temperature measured (Gray). Two dated cases with an independent confirmation of the first; scores below 75 because the laboratory work was carried by assistants and students in the accounts."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kelvin_thompson1910, src_kelvin_gray1908 | 1845-1876 | authorised biography + insider scientific biography; Helmholtz quoted in Nature via Thompson] Repeated, dated working partnerships. Thompson reports that for more than fifty years he and Stokes sent each other their ideas and could often not tell whose suggestion it was ('Consult Stokes'), that with Tait he planned and wrote the 1867 Treatise on Natural Philosophy, that Helmholtz sailed with him in 1871 and the two raced each other on the theory of waves, and that he organised student volunteers in the laboratory. Helmholtz wrote in 1876 of his 'kindliness for younger men and fellow-workers'. All main accounts are friendly or insider, so strong_inference at 0.58; no source reports a failed collaboration, but Thompson also reports Tait relished controversy where Thomson disliked it."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-07) for Q122701 returned en label 'William Thomson, 1st Baron Kelvin', description 'British physicist and engineer (1824-1907)', ko label '켈빈 남작 1세 윌리엄 톰슨', P569 26 June 1825 (Wikidata) versus 26 June 1824 in Thompson's 1910 Life ('Birth, June 26, 1824') and in King; the candidate uses 1824, the year the biographies give, and the discrepancy is recorded here and not resolved from Wikidata. P570 17 Dec 1907, P27 Q174193, P18 the Annan photograph. SLUG CHECK: not in scratch/prod_slugs.txt, no earlier candidate file. CLASSIFICATION: occupations physicist, engineer, inventor; fieldIds physics and engineering (both have field.* keys in en.ts; mathematics left out because no source here reads his mathematics as a separate career); region western_europe and nationality GB as for Faraday and Maxwell. The peerage (1892), his unionist politics (Home Rule) and religious views are incidental and unscored. EVIDENCE READ (9 source records: 1 orientation, 7 substantive, 1 institutional): Thompson's 1910 Life vols I-II (admiring authorised biography, with reproduced letters, lectures and company minutes) read in the passages listed in the source record; Gray 1908 (insider, Kelvin's assistant and successor) in part; Field 1892 (cable promoter's brother, independent of Kelvin's circle); the Whitehouse 1858 pamphlet (adversarial primary, read in full); the Bright 1899 biography (cable engineer's family, independent of Kelvin's circle); Darwin's Life and Letters vol. II (one letter); King 1925 (niece, family memoir, used only for corroboration). PERSPECTIVES: (1) Thompson, INSIDER/ADMIRING; (2) Gray, INSIDER/ADMIRING; (3) Bright's biographers, cable-engineer partisans, independent of Kelvin and sometimes at odds with him; (4) Field, promoter-side, independent; (5) Whitehouse, ADVERSARIAL PRIMARY (his 1858 account of his own instruments, which also confirms Thomson's copper-conductivity query and the use of Thomson's galvanometer); (6) Helmholtz's 1876 opinion (printed in Nature, via Thompson) as an independent peer evaluation; (7) Darwin's letter, an adverse view of the age-of-the-earth dispute; (8) King, family. Independent non-self perspectives counted: Bright, Field, Whitehouse (adversary), Helmholtz (peer, via Thompson), Darwin (adverse, one letter). NON-SELF BEHAVIOURAL sources: Thompson, Gray, Bright, Field. SELF: Kelvin's own letters and lectures are quoted by Thompson (the 1882 Joule recollection, the Admiralty letters, the 1896 and 1898 letters on the ether and the vortex atom, the Jubilee statement); Kelvin's original papers were not opened. NOT ACCESSIBLE OR NOT READ: Crosbie Smith and Norton Wise, Energy and Empire (1989), Joe Burchfield, Lord Kelvin and the Age of the Earth (1975), Sharlin's Lord Kelvin: the Dynamic Victorian (1979) and Gray's own later work are lending-restricted on the Internet Archive and were not read; Tait's and Maxwell's correspondence were not opened; the Wikipedia article was not used. Thompson and Gray are therefore the main sources on the thermodynamic and geological material, and no modern critical scholar was read; this is why every confidence stays at or below 0.68 and nothing is scored at 80 or above. ROWS: seven (persistence, independent_thinking, belief_updating, systems_abstraction, resourcefulness, experimentation, collaboration), scores 66-78, confidence 0.58-0.68. ROWS CONSIDERED AND LEFT UNSCORED: curiosity, analytical_rigor and creative_originality (would rest on the output of his papers and patents, which is fame/output, not episodes); deep_focus and detail_orientation (only anecdotes from King's family memoir); conflict_tolerance (Thompson says controversy was distasteful to him although he engaged Whitehouse, Huxley and Perry; the episodes are courteous and mixed); risk_tolerance and opportunity_sensing (the 1881 Faure accumulator company episode shows him accepting then withdrawing from a promoter's offer and losing money, which is a single episode); autonomy_need (his refusals of the Cambridge chair are told without his reasons in the passages read); cross_domain_range (the breadth is output); leadership_drive and persuasiveness (the compass advocacy failed for ten years); achievement_drive and mastery_orientation (would rest on honours); impact_motivation (King and Helmholtz praise are evaluations). EXCLUDED ON PURPOSE: the 1866 knighthood, the 1892 peerage, honours, wealth, patents and publication counts, his marriages and bereavements, religious belief and his stance on Irish Home Rule. CONFLICTS REPORTED, NOT ADJUDICATED: (a) birth year 1824 (biographies) versus 1825 (Wikidata); (b) the Whitehouse affair is told in Thompson from the directors' side, and Whitehouse's side is available only through his own 1858 pamphlet, written after his dismissal and the cable's failure, so the rows use only the facts on which Thompson, Bright and Whitehouse's pamphlet overlap or that rest on the directors' own documents; (c) whether the 1858 cable failure was caused by Whitehouse's high-voltage induction coils, which Thompson implies, is not adjudicated and is not used in any row; (d) credit for the second law is split with Clausius and Rankine, and Gray names Clausius primary discoverer of the principle, so the editorial says Kelvin 'formulated a version' only. CALIBRATION: no row at or above 80, none above confidence 0.68. No eligibility, coverage or match output was computed or used. PORTRAIT: P18 'Sir William Thomson, Baron Kelvin by T. & R. Annan & Sons.jpg'; Commons wikitext read: Description 'Scientist, resting on a binnacle and holding a marine azimuth mirror', carbon print 19.00 x 14.70 cm, Source National Galleries of Scotland accession PGP 230.1, Date c. 1900, Author T. & R. Annan & Sons, restored by Adam Cuerden, licence PD-scan (PD-Old-auto-1923 with the last named Annan, John Annan, dying in 1947, and alternatively PD-UK-anon); the file is 1920x2483 and was downloaded from upload.wikimedia.org and downsized to 1237x1600 JPEG q85 (no upscaling, no crop); viewed and checked as a older man with a white beard leaning on a ship's compass binnacle holding the azimuth mirror, consistent with the subject. Upstream check: the National Galleries of Scotland page (nationalgalleries.org/art-and-artists/42191) is behind a bot wall ('Just a moment') and was not bypassed; the rights chain therefore rests on the Commons wikitext, which also records NGS offering a CC-BY-NC licence that the uploader did not rely on. Caveats: the restoration is a Commons editor's retouching of the scan (the unrestored scan is available); the exact year is 'c. 1900' and the photographer is the firm, not a named person; Thompson's 1910 Life lists a 'Lord Kelvin and his Compass, photogravure by T. and R. Annan and Sons' as the frontispiece of vol. II, which looks like the same sitting, but the plate was not visually compared, so pre-1931 publication of this exact image is not established here. KOREAN NAME: '켈빈 남작 윌리엄 톰슨' (a plain-form variant of the Wikidata ko label '켈빈 남작 1세 윌리엄 톰슨'; the common Korean usage is also 켈빈 경)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/william-thomson-kelvin-annan-c1900.jpg",
+    "width": 1237,
+    "height": 1600,
+    "source": "National Galleries of Scotland, accession PGP 230.1 ('Sir William Thomson, Baron Kelvin, 1824 - 1907. Scientist, resting on a binnacle and holding a marine azimuth mirror', carbon print, 19.00 x 14.70 cm), via the Wikimedia Commons file 'Sir William Thomson, Baron Kelvin by T. & R. Annan & Sons.jpg' (restoration by Adam Cuerden of the scan; the unrestored scan is 'Sir William Thomson, Baron Kelvin by T. & R. Annan & Sons - Original.jpg')",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Art",
+    "attribution": "T. & R. Annan & Sons (Glasgow), carbon print of Lord Kelvin with his compass and azimuth mirror, c. 1900; National Galleries of Scotland PGP 230.1; restored scan by Adam Cuerden on Wikimedia Commons",
+    "attributionUrl": "https://www.nationalgalleries.org/art-and-artists/42191",
+    "creator": "T. & R. Annan & Sons",
+    "date": "c. 1900",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sir_William_Thomson,_Baron_Kelvin_by_T._%26_R._Annan_%26_Sons.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "켈빈 남작 윌리엄 톰슨"
+    }
+  }
+}

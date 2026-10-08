@@ -1,0 +1,216 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "suzanne-lenglen",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Suzanne Lenglen",
+    "aliases": [
+      "Suzanne Rachel Flore Lenglen"
+    ],
+    "wikidataId": "Q232831",
+    "birthYear": 1899,
+    "deathYear": 1938,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lenglen_wikidata",
+      "kind": "wikidata",
+      "title": "Suzanne Lenglen (Q232831) -- verified live via wbgetentities and the Wikidata item page (2026-10-07): en label 'Suzanne Lenglen', description 'French tennis player', P569 24 May 1899, P570 4 Jul 1938, citizenship France (Q142), instance of human, born and died Paris (Q194420), ko label '쉬잔 랑글렌', P18 'Suzanne Lenglen 02.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q232831"
+    },
+    {
+      "id": "src_lenglen_wikipedia",
+      "kind": "wikipedia",
+      "title": "Suzanne Lenglen and Lenglen-Dewhurst match at the 1926 Wimbledon Championships -- Wikipedia articles (raw wikitext of the match article read in full; the main article's reference list used only to find sources). Orientation only; the match article draws on Alan Little's 2007 Wimbledon Museum biography and Larry Engelmann's 1988 book, neither of which was available to read. Not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Lenglen%E2%80%93Dewhurst_match_at_the_1926_Wimbledon_Championships"
+    },
+    {
+      "id": "src_lenglen_tilden1922",
+      "kind": "biography",
+      "title": "William T. Tilden 2nd, The Art of Lawn Tennis (New York: George H. Doran Company, revised edition covering the 1921 season), Internet Archive full text (artlawntennis01tildgoog) -- CONTEMPORARY RIVAL-SPORT PEER, the American men's champion, who was present at Lenglen's 1921 US Championships match; opinionated, writes admiringly of her technique and critically of her mannerisms. Read locally: the passages on the 1921 Lenglen-Mallory match and the American tour, and the 'Famous Women Players' sketch of Lenglen.",
+      "url": "https://archive.org/details/artlawntennis01tildgoog"
+    },
+    {
+      "id": "src_lenglen_tilden1924",
+      "kind": "biography",
+      "title": "William T. Tilden 2nd, The Common Sense of Lawn Tennis (London: Methuen, 1924), Internet Archive full text (bwb_KT-576-957) -- independent contemporary assessment by the then American champion, with a chapter on women in tennis that discusses Lenglen's play and her temperament. Read locally: the Lenglen passages of 'Women in Tennis' and the 1923 season review.",
+      "url": "https://archive.org/details/bwb_KT-576-957"
+    },
+    {
+      "id": "src_lenglen_myers1921",
+      "kind": "biography",
+      "title": "A. Wallis Myers, Twenty Years of Lawn Tennis: Some Personal Memories (London: Methuen; New York: George H. Doran, 1921), Internet Archive full text (twentyyearsoflaw00myerrich) -- INDEPENDENT CONTEMPORARY JOURNALIST, the leading British tennis correspondent, who watched Lenglen on the Riviera and at Wimbledon; chapter X, 'The Lesson of Mlle Lenglen', is a first-hand analysis of her training and tactics. Read locally: chapter X in full, the Nice and Monte Carlo passages and the 1914 and 1919 Wimbledon recollections.",
+      "url": "https://archive.org/details/twentyyearsoflaw00myerrich"
+    },
+    {
+      "id": "src_lenglen_ownbook1920",
+      "kind": "biography",
+      "title": "Suzanne Lenglen, Lawn Tennis for Girls (New York: American Sports Publishing Company, Spalding Athletic Library, 1920; translated from the French), Internet Archive full text (lawntennisforgir00leng) -- SELF SOURCE, an instructional book with an introduction by F. B. Alexander and a clearly added costume section by another hand. Read locally: chapter I ('My Own Game', her account of how her father trained her) and the training passages. Her statement there that she drinks no alcohol conflicts with other sources and was NOT used.",
+      "url": "https://archive.org/details/lawntennisforgir00leng"
+    },
+    {
+      "id": "src_lenglen_hk_telegraph_19260629",
+      "kind": "press",
+      "title": "Hong Kong Telegraph, 29 June 1926, Internet Archive OCR (NPTG19260629) -- period press: a United Press account of the Wimbledon incident ('Another version of Lenglen affair') and a Reuters line that she retired from all Wimbledon events. The OCR is poor; read only for the dated report. The United Press version is hostile in tone and conflicts with the later Wimbledon Museum account.",
+      "url": "https://archive.org/details/NPTG19260629"
+    },
+    {
+      "id": "src_lenglen_hk_dailypress_19260901",
+      "kind": "press",
+      "title": "Hong Kong Daily Press, 1 September 1926, Internet Archive OCR (NPDP19260901) -- period press reprint of an interview with Lenglen about her professional contract with C. C. Pyle and her view of amateur tennis rules ('Mlle. Lenglen on her choice'). The OCR is garbled and was read only for the quoted statements; the interviewer and original paper are not identified in the text.",
+      "url": "https://archive.org/details/NPDP19260901"
+    },
+    {
+      "id": "src_lenglen_si2019",
+      "kind": "press",
+      "title": "Sports Illustrated, 'The Incomparable Life and Mysterious Death of Suzanne Lenglen' (issue of 30 May 2019), read in full -- modern magazine biography that leans on Larry Engelmann's and Alan Little's books; secondary and anecdotal in places (some retellings such as the 'blindfolded Borotra' story were NOT used).",
+      "url": "https://www.si.com/tennis/2019/06/27/suzanne-lenglen-tennis-wimbledon-life-death"
+    },
+    {
+      "id": "src_lenglen_ithf",
+      "kind": "institution",
+      "title": "International Tennis Hall of Fame, Suzanne Lenglen (Class of 1978) biography page, read in full -- institutional overview citing Alan Little's research and Larry Engelmann's book; used for her title record, the 1919 Wimbledon final, the 1926 Cannes match with Helen Wills and the 1926 professional tour.",
+      "url": "https://www.tennisfame.com/hall-of-famers/inductees/suzanne-lenglen"
+    },
+    {
+      "id": "src_lenglen_ithf_tennisworthy",
+      "kind": "institution",
+      "title": "International Tennis Hall of Fame, 'TennisWorthy: Suzanne Lenglen, A Roaring 20s Legend' (25 March 2019), read in full -- institutional feature with quotations from the historian Patrick Clastres and from Larry Engelmann (as told to CNN in 2013).",
+      "url": "https://www.tennisfame.com/news/2019/TennisWorthySuzanneLenglen"
+    },
+    {
+      "id": "src_lenglen_olympedia",
+      "kind": "award_body",
+      "title": "Olympedia, Suzanne Lenglen (athlete 2455), read in full -- the Olympic statistical record: 1920 Antwerp gold in women's singles and mixed doubles (with Max Decugis), bronze in women's doubles (with Elisabeth d'Ayen); did not start in 1924; also summarises her Wimbledon and French titles and her professional tour against Mary K. Browne.",
+      "url": "https://www.olympedia.org/athletes/2455"
+    },
+    {
+      "id": "src_lenglen_wimbledon",
+      "kind": "institution",
+      "title": "Wimbledon (All England Club), history of the 1920s, read in full for the Lenglen entries -- official club record of her 15 Wimbledon titles and 91 wins in 94 matches, and the club's own account of the 1926 second-round scheduling mix-up.",
+      "url": "https://www.wimbledon.com/en_GB/about/history/1920s"
+    },
+    {
+      "id": "src_lenglen_rg",
+      "kind": "institution",
+      "title": "Roland-Garros official site, 'Suzanne Lenglen, the first diva of tennis' (20 July 2018), read in full -- tournament feature on her clothing commissions from Jean Patou and her influence on women's tennis dress.",
+      "url": "https://www.rolandgarros.com/en-us/article/suzanne-lenglen-first-diva-of-tennis"
+    },
+    {
+      "id": "src_lenglen_edinburgh",
+      "kind": "institution",
+      "title": "University of Edinburgh Library, 'Body Language: movement, dance and physical education in Scotland, 1890-1990' blog (May 2018) on Margaret Morris and Suzanne Lenglen, read in full -- draws on the Margaret Morris Collection (Fergusson Gallery, Perth); used for Lenglen's 1930s collaboration with Morris, her Paris tennis school and the 1937 book Tennis by Simple Exercises.",
+      "url": "https://libraryblogs.is.ed.ac.uk/bodylanguage/2018/05/"
+    },
+    {
+      "id": "src_lenglen_weAreTennis",
+      "kind": "press",
+      "title": "We Are Tennis (BNP Paribas), '90 years ago, the match of the century between Lenglen and Wills' (22 September 2016, by Regis Delanoe), read in full -- sponsor-site feature on the 16 February 1926 Cannes match: the promoters, the crowd, the 6-3, 8-6 result in 59 minutes. Journalistic and somewhat romanticised; used only for the match facts.",
+      "url": "https://wearetennis.bnpparibas/en/news-tennis/news-results/3199-90-years-ago-the-match-of-the-century-between-lenglen-and-wills"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lenglen_myers1921, src_lenglen_ownbook1920, src_lenglen_tilden1924, src_lenglen_edinburgh | 1910s-1937 | independent contemporary journalist + self source + rival-peer assessment + library-archive account] Several distinct episodes of deliberate skill-building. Myers: she practised almost daily on the Nice club courts 'invariably against men' (ch. IV) and developed her speed 'by practising exclusively against men' of the hard-hitting Continental type (ch. X); in 1921 he saw her vary her ground-stroke play more than the year before and judged she 'had altered her tactics deliberately' against Mrs Beamish, as she 'was too much of an artist' to repeat one pattern. Her own account (ch. I): her father chose the best strokes of first-class players, she copied the result rather than the manner, and she built the game 'one stroke at a time', practising each for days. Tilden (1924) found 'no flaws to pick' in her technique. After retiring she sought out the movement teacher Margaret Morris after a Paris lecture, worked the exercises out with her, made them compulsory for pupils before they touched a racket, and co-wrote Tennis by Simple Exercises (1937) (Edinburgh library blog from the Morris archive). Three perspectives plus her own; kept at 0.62 because the training story is partly her own and her father's."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lenglen_myers1921, src_lenglen_hk_dailypress_19260901, src_lenglen_si2019, src_lenglen_tilden1922 | 1919-1926 | independent journalist + period interview + secondary magazine + rival peer] Two or more instances of departing from convention on her own judgement. (1) Training and style: she learned the game from men's strokes and practice partners rather than the women's baseline game of the day (Myers, her own book); Myers notes earlier women champions had also practised against men, so this was not wholly new, but she began 'almost where the others left off'; Tilden calls her overhead service 'remarkable for a woman' and SI says she served overhand when most of the 1919 Wimbledon field did not. (2) 1926 interview: she argued that tennis should be run like golf with open matches for amateurs and professionals together, called the amateur rules 'ridiculous', and said she would play whom she liked (Hong Kong Daily Press; SI quotes her making the same point). Kept below 75 because the interview OCR is garbled and the training story is partly self-reported."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lenglen_hk_dailypress_19260901, src_lenglen_si2019, src_lenglen_wimbledon, src_lenglen_ithf | 1921-1926 | period interview + secondary magazine + institutional records] Repeated insistence on setting her own terms. In 1926 she said she had turned down American offers 'since 1919', refused to answer Pyle's agent at once, and agreed only after Pyle crossed the Atlantic; she called the amateur system one in which only the wealthy could compete (SI quotes 'escape from bondage and slavery') and accepted the loss of Wimbledon and her club standing (SI: Wimbledon rescinded her membership). In 1921 SI (retelling Engelmann) says she threatened to go home unless she was given wine before matches despite Prohibition, an anecdote used only as a second, weaker instance. At Wimbledon in 1926 the club's own account says she arrived late after a scheduling mix-up; the contemporary United Press version says she refused to play, so that episode is NOT scored. dual_edged: independence from the amateur authorities also ended her Wimbledon career."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_lenglen_hk_dailypress_19260901, src_lenglen_si2019, src_lenglen_ithf, src_lenglen_olympedia | 1926-1927 | period interview + secondary magazine + two institutional records] One documented, consequential decision. In 1926, at the height of her amateur career, she signed a $50,000 contract with the promoter C. C. Pyle to headline the first women's professional tour in the United States, knowing professionals were barred from Wimbledon and the amateur championships (SI; ITHF; Olympedia place the tour against Mary K. Browne in 1926-27). She said she first agreed only to consider an agent's proposal at Nice the previous year and committed after Pyle came to Europe. A single episode seen by four sources supports a moderate lean only; the outcome (a financially successful tour) is not used as evidence."
+    },
+    "competitiveness": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lenglen_ithf, src_lenglen_ithf_tennisworthy, src_lenglen_tilden1924, src_lenglen_si2019 | 1919-1926 | institutional overviews + rival-peer assessment + secondary magazine] Several instances of intense investment in winning. ITHF calls her a 'relentless competitor' and says she called her 1919 win over Dorothea Lambert Chambers her hardest and most rewarding; the ITHF feature says she argued calls, threw her racquet and tried to unsettle opponents. Tilden (1924) writes that in victory she was 'supreme' but in defeat 'petty', which shows how much a loss mattered to her. SI reports her remark to Molla Mallory after the 1922 Wimbledon final (6-2, 6-0) that she had now proved what she could have done in New York, and that she played 'marvellously' to beat Helen Wills at Cannes in 1926. Scores rest on behaviour at matches, not on the record of titles. dual_edged because Tilden and the 1921 default show the same drive could undermine her composure."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lenglen_hk_dailypress_19260901, src_lenglen_ithf_tennisworthy, src_lenglen_si2019, src_lenglen_hk_telegraph_19260629 | 1921-1926 | period interview + institutional feature + secondary magazine + period wire report] Several instances of open confrontation with officials and opponents. She publicly called the amateur authorities' rules 'absurd' and 'ridiculous' in 1926 (Hong Kong Daily Press); the ITHF feature says she argued line calls with umpires; SI says she told tournament officials in 1921 she would go home without wine; the United Press report of 1926 says she 'flew into a tantrum' and left the stadium when officials questioned her excuse (contested by the Wimbledon account of a mix-up, so used only as a hostile contemporary report, not as fact). Moderate lean only: the evidence is mostly about her stance towards authority, not interpersonal disputes."
+    },
+    "aesthetic_sensitivity": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lenglen_rg, src_lenglen_tilden1922, src_lenglen_myers1921, src_lenglen_si2019 | 1919-1926 | institutional tournament feature + rival-peer account + independent journalist + secondary magazine] Documented attention to the look and form of her game. Roland-Garros says she commissioned Jean Patou for a pleated white silk skirt, sleeveless cardigan and tulle hair band, and from 1922 wore bright colours; SI says France's top designers competed to dress her and that she played in a silk headband. Tilden (1922) says she 'delights in acrobatic jumps, many of them unnecessary' and that the effect on her forehand drive was 'pictorially unique, but not good tennis'; Myers calls her 'too much of an artist' to repeat one tactical pattern. Costume and gesture are the evidence, not her fame as a style icon; kept at 0.52 because two of the four sources are retellings."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE (2026-10-07): Wikidata wbgetentities and the item page for Q232831 return en label 'Suzanne Lenglen', description 'French tennis player', P569 24 May 1899, P570 4 Jul 1938, citizenship France (Q142), instance of human, born and died Paris (Q194420), ko label '쉬잔 랑글렌', P18 'Suzanne Lenglen 02.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupation athlete, field sport (field.sport exists in en.ts), impactDomains athletic/historical/cultural, tag competitor, archetype competitive_performer (as babe-didrikson-zaharias.json and paavo-nurmi.json); region western_europe (French/Finnish precedent), era 20th_century, nationality FR. EVIDENCE READ (16 source records: 2 orientation, 14 substantive or institutional), fetched with curl and read locally: Tilden, The Art of Lawn Tennis (Doran, 1921-season edition) women's chapters; Tilden, The Common Sense of Lawn Tennis (Methuen 1924) Lenglen passages; Wallis Myers, Twenty Years of Lawn Tennis (1921) ch. X and the Nice/Monte Carlo/Wimbledon passages; Lenglen's own Lawn Tennis for Girls (1920) ch. I and training passages; Hong Kong Telegraph 29 June 1926 and Hong Kong Daily Press 1 Sept 1926 (Internet Archive OCR, poor); Sports Illustrated 2019 (full); International Tennis Hall of Fame biography and TennisWorthy feature (full); Olympedia (full); Wimbledon club 1920s history (Lenglen entries); Roland-Garros feature; University of Edinburgh library blog on Lenglen and Margaret Morris; We Are Tennis feature on the Cannes match; raw wikitext of the Lenglen-Dewhurst match article (orientation). NOT AVAILABLE OR NOT READ: Larry Engelmann, The Goddess and the American Girl (1988) and Alan Little, Suzanne Lenglen: Tennis Idol of the Twenties (Wimbledon Museum 2007) are lending-restricted or not online and were NOT read (their content reaches this file only through the Hall of Fame, SI, Wikipedia and the Wimbledon page); Gallica/Retronews French dailies (bot-walled or access denied), the Library of Congress Chronicling America and loc.gov search/item pages (Cloudflare wall, not bypassed), Britannica (403), Trove and Papers Past (walls), the Telegraph (paywall), SI Vault 1982 and 1991 pages (404); Time magazine 1926 returned no usable text. PERSPECTIVES: (1) Wallis Myers 1921, independent British journalist and eyewitness of her training and tactics; (2) Tilden 1922 and 1924, contemporary rival-sport peer, admiring of technique and critical of temperament; (3) her own book (self source, translated, with an added costume section by another hand); (4) period wire press of 1926 (hostile United Press account and the Pyle interview); (5) institutional overviews (ITHF, Olympedia, Wimbledon, Roland-Garros) and the Edinburgh library archive account; (6) SI 2019 as secondary retelling of Engelmann/Little. Independent perspectives counted: Myers, Tilden, period press, Edinburgh library blog (4). NON-SELF BEHAVIOURAL sources: Myers, Tilden, SI, ITHF feature, Edinburgh blog. EPISODE USE: training against men and tactical variation (Myers) -> mastery_orientation and independent_thinking; father's stroke-selection plan (self book) -> mastery_orientation; post-career Morris exercises -> mastery_orientation; 1926 Pyle contract and the amateur-rules interview -> autonomy_need, risk_tolerance, independent_thinking, conflict_tolerance (the same event feeds four rows, which is the main independence limit); 1921 wine-before-matches anecdote (SI/Engelmann) -> autonomy_need and conflict_tolerance as a weaker second instance; 1922 final remark and 1926 Cannes match -> competitiveness; Patou commissions and acrobatic style -> aesthetic_sensitivity. ROWS CONSIDERED AND LEFT UNSCORED: persistence (the 1922 revenge win and later returns rest on outcomes, not on dated behaviour), perfectionism (SI generalisation about crying when below her own standard, with no dated instance), discipline (her own claim of daily exercise and no alcohol conflicts with Tilden/SI/ITHF accounts of cognac and late nights; mixed so left unscored), social_assertiveness, collaboration (long doubles partnership with Elizabeth Ryan but SI says press blamed partners; mixed), proactive_agency (Morris/school episode only, one episode), impact_motivation, adaptability (one tactical change only). EXCLUDED ON PURPOSE: her early death, illness (asthma, the 1921 cough, appendicitis, leukaemia/pernicious anaemia, which sources give differently), her father's control and any personal-relationship or rumour material (lovers, Baldwin, Tillier), fame, title counts and win percentages as trait evidence, and the Borotra blindfold anecdote. CONFLICTS REPORTED, NOT ADJUDICATED: (a) the 1926 Wimbledon episode: Wimbledon club says a scheduling mix-up and a failure to inform her; the 1926 United Press report says she refused to play and left in a tantrum; Wikipedia (citing Little) says she had a doctor's appointment and asked for the order to change; none used as the basis of any row; (b) titles: the Edinburgh blog says 31 championship titles 1914-26 (the lead's '31'), ITHF says 21 majors combined at Wimbledon and the French, Roland-Garros and SI say 241 or 250 tournaments; Wimbledon's own count (15 titles, 91 of 94 matches) is the only count used; (c) turning professional: SI and ITHF say 1926, Olympedia says 1927 (the tour year); (d) her claim in 1926 that she would 'never give lessons' against her later Paris school. CALIBRATION: 7 rows, scores 64-76, confidence 0.50-0.62, nothing at or above 85 or 0.72; one documented row (risk_tolerance) and six strong_inference rows each resting on two or more distinct dated episodes. No eligibility, coverage or match output was computed or used. The sparse row count is honest: the available behavioural evidence is about training, tactics and the 1926 break, and the independent contemporary sources (Myers, Tilden) were written about the 1920s on-court Lenglen. PORTRAIT: Wikidata P18 'Suzanne Lenglen 02.jpg' (2615x3487) is Library of Congress Bain collection ggbain.32888 with unknown author and date; it was NOT used. The chosen image is Commons 'Susanne Lenglen LCCN2014712853.jpg', LOC George Grantham Bain Collection LCCN 2014712853 (negative number 5496-8 handwritten on the glass negative, caption 'Susanne Lenglen'), a news-agency portrait of her holding a racket in a headband and white dress. Commons wikitext read: author 'Bain News Service, publisher', source Library of Congress, permission 'No known restrictions on publication', licence {{PD-Bain}} and {{PD-old-70-1923}}, original 6504x8847 (grayscale). The LOC item page was behind a Cloudflare wall and was not bypassed, so the rights chain relies on the Commons wikitext and the cdn.loc.gov image link it cites (I viewed the 689x1024 LOC cdn derivative of 32873 and the 753x1024 derivative of 32701, which matches the chosen image). Basis: an agency photograph made while she was a public figure (1914-1926 at the latest) from a collection that LOC and Commons treat as pre-1931 and public domain; the LOC catalogue date '1900' is a placeholder and was not repeated; the exact date is unverified, hence the file name 'undated'. Downsized from the Commons original to 1176x1600, JPEG q85, no crop and no upscaling; opened and viewed, consistent with the sitter. Dated Agence Meurisse press photos (Gallica, 1925-26) exist on Commons but show her small in wide court shots, so they were rejected for the portrait. Saved as public/portraits/suzanne-lenglen-bain-news-service-undated.jpg. KOREAN NAME: '쉬잔 랑글렌' is the Wikidata ko label and the Korean Wikipedia title."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "쉬잔 랑글렌"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/suzanne-lenglen-bain-news-service-undated.jpg",
+    "width": 1176,
+    "height": 1600,
+    "source": "Library of Congress Prints and Photographs Division, George Grantham Bain Collection, LCCN 2014712853 (negative no. 5496-8, glass negative), via Wikimedia Commons 'Susanne Lenglen LCCN2014712853.jpg'",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-70-1923",
+    "attribution": "Bain News Service, 'Susanne Lenglen', glass negative, undated (the LOC catalogue date of 1900 is a placeholder and cannot be right for this sitter); Library of Congress Prints and Photographs Division, George Grantham Bain Collection, no known restrictions on publication",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2014712853/",
+    "creator": "Bain News Service",
+    "date": "undated (Lenglen's international career, 1914-1926; Bain collection pre-1931)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Susanne_Lenglen_LCCN2014712853.jpg"
+  }
+}

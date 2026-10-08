@@ -54,6 +54,7 @@ import { ROSTER_40 } from "./roster40.js";
 import { ROSTER_41 } from "./roster41.js";
 import { ROSTER_42 } from "./roster42.js";
 import { ROSTER_43 } from "./roster43.js";
+import { ROSTER_44 } from "./roster44.js";
 import { PERSON_EDITORIAL } from "./editorial.js";
 
 const seeds: PersonSeed[] = [
@@ -1211,6 +1212,7 @@ const ALL_ROSTERS: readonly Person[] = [
   ...ROSTER_41,
   ...ROSTER_42,
   ...ROSTER_43,
+  ...ROSTER_44,
 ];
 
 /**
