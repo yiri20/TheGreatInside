@@ -8084,7 +8084,7 @@ export const PEOPLE_INDEX: readonly PersonIndexEntry[] = [
     isDirectoryVisible: true,
     overallProfileConfidence: 0.5485714285714286,
     attributes: [["perfectionism", 72, 0.56, "advantage"], ["persistence", 74, 0.58, "advantage"], ["experimentation", 72, 0.56, "advantage"], ["mastery_orientation", 68, 0.5, "advantage"], ["impact_motivation", 78, 0.62, "advantage"], ["independent_thinking", 66, 0.5, "advantage"], ["creative_originality", 70, 0.52, "advantage"]],
-    portraitUrl: "/portraits/kathe-kollwitz-erfurth-1925.jpg",
+    portraitUrl: "/portraits/kathe-kollwitz-erfurth-1917.jpg",
   },
   {
     id: "p_knud_rasmussen",

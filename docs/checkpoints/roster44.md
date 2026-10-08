@@ -107,6 +107,18 @@ page).
   Harvey, Volta (science), Gehrig, Rasmussen (sport/exploration): "Do these
   cards explain why this person matters?" PASS x6.
 
+## Post-review portrait correction (Kollwitz)
+
+PR review rejected the 1925 MoMA/Erfurth portrait (conflicting institutional
+ARS copyright notice vs. a generic Commons PD template) and replaced it with
+the 1917 Erfurth photograph from the Dresden collection (explicit pre-1931
+publication basis, 565x682, no upscaling). Only Kollwitz's portrait metadata
+and asset changed; identity, rows, scores, editorial, publication and
+eligibility are untouched. Verified: file opens at 565x682, EN and KO routes
+200, portrait URL 200 (old URL 404), attribution correct in EN and KO, no
+console error; `validateCandidates` 0 errors, `roster44.test.ts` 175/175, `tsc`
+clean, rebuild printed `Generating static pages using 21 workers (810/810)`.
+
 ## Lead-review corrections (before eligibility; downward only)
 
 - **claude-debussy**: creative_originality 85/0.72 -> 80/0.66,
@@ -142,7 +154,7 @@ the original was larger.
 | edgar-degas | Self-portrait, red chalk c.1855, NGA 1991.182.23 | CC0 (NGA open data), Degas d. 1917 | NGA page bot-walled; chain via Commons + open-data record; painted self-portrait as `likeness` |
 | herman-melville | Joseph O. Eaton 1870 oil portrait (Houghton, Harvard) | Commons PD-Art (Eaton d. 1875) | Houghton holding rests on Commons; Harvard page unavailable |
 | sergei-rachmaninoff | Kubey-Rembrandt c1921 (LOC LC-USZ62-40236) | LOC copyright date c1921, pre-1923 PD | LOC lists rights "not evaluated"; UW Sayre 1923 photo ("In Copyright") and CC-BY-SA restoration rejected |
-| kathe-kollwitz | Hugo Erfurth 1925 gelatin silver print (MoMA 7.2015) | Erfurth d. 1948 -> PD in EU since 2019; Commons PD-US | **MoMA page still shows "© 2026 Hugo Erfurth / ARS"**: the basis rests on term expiry, noted as the least settled portrait |
+| kathe-kollwitz | Hugo Erfurth, "Bildnis Käthe Kollwitz", **1917** (Kupferstich-Kabinett, Staatliche Kunstsammlungen Dresden, via DDB / Commons) | Erfurth d. 1948; published before 1931 so PD in the US; author term expired in Germany (Commons PD-old-auto-expired) | 565x682, native size (PNG converted to JPEG, not upscaled). **Replaced the 1925 MoMA/Erfurth print** after PR review: MoMA's item page shows a live "Copyright 2026 Hugo Erfurth / ARS" notice that materially conflicts with the generic Commons PD-US tag, which documents no US publication basis (and Commons discussion raised US-status doubts for Erfurth photographs from 1924 on) |
 | alessandro-volta | Engraving by Bonatti after Garavaglia (before 1834; Penn Edgar Fahs Smith collection) | "No Copyright - United States"; artists d. <1836 | `historical_depiction`; Penn catalogue URL may move (retired Oct 2026) |
 | william-thomson-kelvin | Annan carbon print c.1900 (NGS PGP 230.1, via Commons) | Commons PD-scan (restoration) | NGS page bot-walled; pre-1931 publication of this exact image not established |
 | william-harvey | Oval portrait after Mytens c.1627 (NPG 5115, via Commons) | PD-art-old-100 | NPG page bot-walled; if it proves a copy, downgrade to `historical_depiction` |
