@@ -240,7 +240,12 @@ significance remains a human gate.
 
 ## Post-commit scoring lock
 
-Recorded in the docs follow-up below the implementation commit.
+Run against the clean committed HEAD (implementation commit `ce00498`):
+"Checked 475 previously-committed candidate file(s) against HEAD. 0
+flagged." with "Legacy scoring lock: 22 pre-pipeline production people
+covered, 0 flagged." Mechanical count of committed
+`data-pipeline/candidates/*.json` at that HEAD (`git ls-tree`): **475** = 475
+on disk = the checked count. Implementation commit: 62 changed files.
 
 ## Confirmations
 
