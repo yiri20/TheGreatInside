@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "cyrus-field",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Cyrus West Field",
+    "aliases": [
+      "Cyrus W. Field"
+    ],
+    "wikidataId": "Q1148998",
+    "birthYear": 1819,
+    "deathYear": 1892,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "founder"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_field_wikidata",
+      "kind": "wikidata",
+      "title": "Cyrus West Field (Q1148998) -- verified live via wbgetentities (2026-10-08): en label 'Cyrus West Field', description 'American businessman (1819-1892)', citizenship United States, P18 'CyrusField4.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q1148998"
+    },
+    {
+      "id": "src_field_wikipedia",
+      "kind": "wikipedia",
+      "title": "Cyrus W. Field -- Wikipedia article (plain-text extract, read 2026-10-08) as orientation; used only for the uncontested dates of his presidency of the New York Elevated Railroad Company (1877-1880) and his Congressional gold medal; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Cyrus_W._Field"
+    },
+    {
+      "id": "src_field_judson1896",
+      "kind": "biography",
+      "title": "Isabella Field Judson (his daughter), Cyrus W. Field: His Life and Work, 1819-1892 (New York: Harper, 1896), Project Gutenberg text (ebook 43753) -- FAMILY, ADMIRING biography built on his unfinished autobiography, letters and papers; quotes many letters from third parties. Read locally: Ch. II (clerk years), III (business 1840-53), IV (repayment of creditors 1853), V (Gisborne, Newfoundland line, Atlantic Telegraph Company 1854-57), VI-VIII (1857-61 expeditions, 1858 cable, creditors' meeting Dec 1860), X (1863 fundraising). Its praise is not used as evidence; dated letters and quoted third-party letters are.",
+      "url": "https://www.gutenberg.org/ebooks/43753"
+    },
+    {
+      "id": "src_field_bright1899",
+      "kind": "biography",
+      "title": "Edward Brailsford Bright and Charles Bright, The Life Story of Sir Charles Tilston Bright, Civil Engineer (London: Constable, 1899; 2nd ed. 1908), Internet Archive full text -- biography of Field's engineer partner by his brother and son, quoting Bright's own 1887 presidential address to the Society of Telegraph Engineers. Partner's-family perspective, independent of the Field family. Read locally: Ch. on the formation of the Atlantic Telegraph Company, the 1857-58 expeditions (board meeting after the 1858 failure), and the 1862-66 financing.",
+      "url": "https://archive.org/details/lifestorysircha00briggoog"
+    },
+    {
+      "id": "src_field_whitehouse1858",
+      "kind": "press",
+      "title": "Edward Orange Wildman Whitehouse, The Atlantic Telegraph: The Rise, Progress, and Development of Its Electrical Department (London: Bradbury & Evans, 1858), Canadiana microform scan (Internet Archive cihm_47982) -- ADVERSARIAL/SELF-INTERESTED pamphlet by the company's dismissed chief electrician defending his own work; read for his account of how the cable was chosen (a sub-committee including Field) and of his engagement by Field in 1856.",
+      "url": "https://archive.org/details/cihm_47982"
+    },
+    {
+      "id": "src_field_russell1860",
+      "kind": "press",
+      "title": "R. W. Russell, Remarks ... in reply to the statement of Messrs. Abram S. Hewitt, Cyrus W. Field, Henry J. Raymond and others, made at the meeting of stockholders of the American Telegraph Company, June 29th 1860 (New York: Bryant, 1860), Canadiana microform scan (Internet Archive cihm_47524) -- HOSTILE pamphlet by an opposing executive-committee member in a stockholder fight; used only for what it reproduces from the shorthand notes of the meeting (Field's own words) and for its dated account of Field's sale of stock in 1859.",
+      "url": "https://archive.org/details/cihm_47524"
+    },
+    {
+      "id": "src_field_hfield1892",
+      "kind": "biography",
+      "title": "Henry M. Field (his brother), The Story of the Atlantic Telegraph (New York: Scribner, 1892), Project Gutenberg text (ebook 34765) -- FAMILY, ADMIRING narrative by an eyewitness-adjacent brother; the 1858 board-meeting scene quoted in the Bright biography is this text, so the two are not independent on that scene. Read locally: the Gisborne introduction, the 1858 board scene and the closing chapters on the 1866 cable.",
+      "url": "https://www.gutenberg.org/ebooks/34765"
+    },
+    {
+      "id": "src_field_russell1865",
+      "kind": "biography",
+      "title": "William Howard Russell, The Atlantic Telegraph (London: Day & Son, 1866), Project Gutenberg text (ebook 40948) -- eyewitness narrative by The Times correspondent who sailed on the Great Eastern in 1865; written with the company's cooperation but by a journalist outside the Field family and the engineering staff. Read locally: the account of Field's role and of the 1865 failure and grappling.",
+      "url": "https://www.gutenberg.org/ebooks/40948"
+    },
+    {
+      "id": "src_field_press1887",
+      "kind": "press",
+      "title": "'Wall St. Magnates', report of the sale of a block of Manhattan Elevated Railway stock by Cyrus W. Field to Jay Gould, in the Fort Worth Daily Gazette, 30 June 1887, p. 5, Library of Congress Chronicling America (OCR text). A partisan, rumour-laden press report quoting a New York newspaper; read for the documented event (sale and Field's denial) only. A second item (Savannah Morning News, 25 June 1887) was seen as an OCR snippet only and is not relied on.",
+      "url": "https://www.loc.gov/resource/sn86064205/1887-06-30/ed-1/?sp=5"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_field_judson1896, src_field_bright1899, src_field_hfield1892, src_field_russell1865 | 1857-1866 | family biography + partner's-family biography + Times correspondent on board | firsthand dated episodes, partly independent] Several separately dated efforts kept going after failure. (1) July 1858: after the 1858 expedition had lost its cable three times, the London board debated abandonment, the chairman advised selling the remaining cable and the vice-chairman resigned; Field, Bright and Thomson argued for one more attempt and carried it (Judson; Bright; the board scene itself is Henry Field's text, so those two are one retelling). (2) 1858-1865: after the cable went silent in September 1858, he spent 1859-63 raising new capital in London and America, writing that he had 'never worked so hard' and going 'from door to door' (Judson, from his letters; the American total reached only about 66,600 pounds, so the effort is documented but its yield was modest). (3) August 1865: after the Great Eastern's cable parted, Field is reported by Sir William Thomson (Dundee 1867, via Judson) to have drafted the next prospectus in the ship's saloon the day they gave up; Russell, aboard as The Times correspondent, independently describes him as one 'to whom such accidents are never discouraging'. (4) December 1865: when the Attorney-General ruled that the preference shares needed an Act of Parliament and the subscribed money was returned, Field proposed a new company, which Bright's biography independently confirms was funded by Gooch, Brassey and the Telegraph Construction Company. Kept below 80 because the strongest narration of the 1858 board scene and of the later speeches is family-sourced and one episode (1865) is also used for resourcefulness."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_field_judson1896, src_field_bright1899, src_field_russell1865 | 1854-1877 | family + partner's-family biography + a journalist; Evening Post notice of 1866 reproduced in Judson | documented personal financial exposure] (1) He subscribed 500,000 dollars (100 shares) to the Atlantic Telegraph Company in December 1856, expecting to resell most of it in America but ending with 88 shares; George Saward, the company secretary, wrote in 1862 that Field had paid 67,000 pounds in calls on 67 of them and was the largest cash shareholder (Judson, quoting Saward). (2) His Elevated Railroad stake in 1877 (bought control of a company whose securities were then valued at about 60 cents on the dollar, Judson) was a second large concentrated purchase. (3) The same sources document the cost: the 1857 suspension of his paper firm while he was in England, the 1860 composition at 25 cents on the dollar with a mortgage over everything he owned to meet his cable-stock calls (Judson, from his own creditors' letter), and, per the New York Evening Post of 1866, that he 'twice nearly ruined himself'. The remark to Lord Clarendon that a lost cable would be charged 'to profit and loss' is self-reported and not weighted. Dual-edged rather than advantage because the same exposure produced the 1857 and 1860 insolvencies. Score is below 80 because Judson supplies the loan and creditor details from his own papers, not an adversarial source."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_field_judson1896, src_field_bright1899, src_field_russell1865 | 1854-1866 | family + partner's-family biography + Times correspondent | documented attempts, with outcomes both ways] Dated efforts to bring sceptical audiences round: (1) March-May 1854 he convened Peter Cooper, Wilson G. Hunt, Moses Taylor and Marshall O. Roberts around his dining table for four nights, and the new company was organised with 1,500,000 dollars subscribed by 8 May (Judson, including Cooper's own later account of being drawn in). (2) In 1856-57 he moved the British Foreign Office and, at Washington, talked 'with almost every member of Congress' for the cable bill that passed the Senate by one vote (Judson; Seward's 1858 Auburn speech, quoted there, describes the gaining of both governments' consent as the hardest task). (3) In 1866 the 600,000 pounds for the Anglo-American Telegraph Company was subscribed in fourteen days (Field's account via Judson; Bright's biography independently lists the first subscriptions of Gooch, Brassey, the Telegraph Construction Company and ten guaranteeing directors). Russell, a journalist outside Field's circle, wrote that he converted 'opposition' and overcame 'indifference' with 'gentle force'. Counter-evidence kept in view: the 1862 Boston meeting that passed praise resolutions but did not subscribe (Henry Field, quoted in Bright), and only about 66,600 pounds raised in America in 1863. Not above 74 because several of the same episodes also feed other rows and the subscriber lists are partly supplied by contractors with an interest in the contract."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_field_bright1899, src_field_russell1865, src_field_judson1896 | 1854, 1877 | partner's-family biography + Times correspondent + family biography] Two separately dated cases of seeing a larger use for an existing franchise. (1) 1854: Bright's biography (independent of the Field family) says Field, having 'caught on to the idea', had 'the acumen to recognise the importance of turning to useful purpose' Gisborne's exclusive Newfoundland rights; Field obtained a new charter in March 1854 that, per Judson, gave the company a fifty-year monopoly on submarine cables from Newfoundland across the Atlantic, and extended the project from Newfoundland to Ireland (the 'globe' scene is family-told and not used for the score). Russell writes that the project was a case of someone who 'devoted himself to work out one idea'. (2) 1877: Judson's diary and letter record that he bought control of the languishing New York Elevated Railroad and made his presidency conditional on cancelling a construction contract and clearing floating debt. The stock's later rise is an outcome and is not used. Strong_inference because the second episode rests on Judson alone."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_field_judson1896, src_field_bright1899, src_field_russell1865 | 1855-1866 | family + partner's-family biography + Times correspondent] (1) December 1865-March 1866: after the Attorney-General's opinion invalidated the planned preference shares, Field reached London, accepted the ruling and organised a different vehicle, the Anglo-American Telegraph Company, with ten guarantors at 10,000 pounds each and the contractors at 100,000 (Judson, from his own account; Bright independently lists the same subscriptions). (2) The 1866 programme changed the plan itself: lay a new cable and then grapple for the lost one, rather than wait for new capital to repeat 1865; Thomson, quoted in Judson, said Field renewed the proposal on the day the 1865 attempt was abandoned. Strong_inference with a modest score: both episodes come from one financing narration (Field's own account as retold by Judson) with Bright confirming only the subscriptions, and the engineering of the later grappling is credited to the ships' crews and engineers, not to Field."
+    },
+    "execution_speed": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_field_judson1896, src_field_bright1899 | 1854, 1866 | family biography + partner's-family biography] Two separate periods of fast organising. (1) January-May 1854: after meeting Gisborne he wrote to Maury and Morse the next morning, had the partners at his table for four nights, sailed to Newfoundland on 14 March and had a company organised with the money subscribed on 8 May (Judson). (2) December 1865-March 1866: after reaching London on 24 December he had the new company formed and registered by 1-2 March, and Judson records the manufacture and laying of the cable in the following five months (the manufacture itself belonged to the contractors, so only the organising dates are credited to Field). Bright's 1887 address, quoted in his biography, calls Field 'rapid in thinking and acting'; that is a partner's characterisation and is supporting only. Kept at strong_inference with modest score because dates for both episodes come mostly from Judson."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_field_russell1860, src_field_judson1896 | 1860, 1886 | HOSTILE pamphlet reproducing shorthand notes + family biography quoting a New York paper] (1) 29 June 1860: at the American Telegraph Company stockholders' meeting Field told the meeting, as recorded in a shorthand writer's notes reproduced by his opponent R. W. Russell, that the executive committee's pamphlet contained 'exactly thirty-six statements' that were 'utterly false, or gross misrepresentations', and was called to order by the chair for personal remarks. Russell, who opposed him, confirms the confrontation in his own pamphlet; Russell's claims about Field's motives are not used. (2) Judson quotes a November 1886 New York paper saying Field 'fought almost since the very beginning' for a uniform five-cent elevated fare at all hours, which won on 1 October 1886. Dual-edged because the 1860 fight cost him a former ally and the 1886 fare contest is described only through family-sourced press. Strong_inference: one verbatim episode from an adversary plus one family-sourced episode."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_field_bright1899, src_field_whitehouse1858, src_field_judson1896 | 1854-1856 | partner's-family biography + ADVERSARIAL pamphlet + family biography] Bright's biography records a signed agreement of 29 September 1856 between Brett, Field and Bright to promote the Atlantic Telegraph Company 'mutually, and on equal terms'. Whitehouse, later a bitter critic, writes in his 1858 pamphlet that Field in autumn 1856 'engaged my active co-operation', admitting him 'to fair participation' and recognising him 'by agreement, as one of the original projectors'. Judson's account of the 1854 dining-table meetings shows a similar sharing of the work. All three describe a pattern of shared terms but none is a conflict-free test of collaboration (Whitehouse's own reading was that the sub-committee including Field chose the cable over his advice), so confidence stays in the inference band."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사이러스 필드"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q1148998 returned en label 'Cyrus West Field', description 'American businessman (1819-1892)', P569 1819 (two values, 20 Oct and 30 Nov 1819, calendar-model-flagged), P570 12 Jul 1892, citizenship United States, P18 'CyrusField4.jpg'; no ko label, so the Korean display name is my conventional transliteration. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file or public/portraits file. CLASSIFICATION: occupation entrepreneur (no existing cable or financier id fits; the engineering was others'), fieldIds business and technology (both have field.* keys in en.ts), tag founder, archetype entrepreneurial_builder, region north_america, era 19th_century. EVIDENCE READ (locally, via curl): (1) Judson 1896, Ch. II-VIII, X-XII, XIV-XVI (family, admiring, built on his autobiography and papers, reproducing third-party letters); (2) Bright biography 1899 (the engineer partner's brother and son; contains Bright's 1887 address) -- independent of the Field family except where it quotes Henry Field; (3) Henry M. Field 1892 (brother; family; the 1858 board scene); (4) W. H. Russell 1866, The Times correspondent on the 1865 Great Eastern (outside the family and the engineering staff, but company-friendly); (5) Whitehouse 1858 pamphlet (ADVERSARIAL, self-interested, read for his account of his engagement and of the cable-selection committee); (6) R. W. Russell 1860 pamphlet (HOSTILE, reproduces shorthand notes of Field's own words at the 29 June 1860 stockholders' meeting); (7) Fort Worth Daily Gazette 30 June 1887 (LOC OCR; partisan, quotes a New York paper, read for the sale of Manhattan stock to Gould). Wikipedia and Wikidata were orientation only. NOT ACCESSED: John Steele Gordon's A Thread Across the Ocean (lending-restricted), Carter's Cyrus Field: Man of Two Worlds (1968) and Latham's Young Man in a Hurry (1958) (both lending-restricted), McDonald's A Saga of the Seas (1937), the 1866 Chamber of Commerce banquet proceedings and Field's own speeches (self-narrated; downloaded but not read), the NYT 1892 obituary, and the Savannah Morning News 25 June 1887 page (OCR snippet only). INDEPENDENT PERSPECTIVES: Bright's biography (engineer partner), W. H. Russell (journalist on board), R. W. Russell (hostile opponent, shorthand notes) and Whitehouse (adversarial); the Field-family sources are Judson and Henry Field, which are not independent of each other. A primary/self source is never the sole perspective for any row. EPISODE USE: 1858 board vote -> persistence; Dec 1865 refinancing -> persistence (partly), persuasiveness, resourcefulness, execution_speed; 1854 formation -> persuasiveness, opportunity_sensing, execution_speed; subscriptions and the 1857/1860 insolvencies -> risk_tolerance; 1860 stockholder fight and 1886 five-cent fare -> conflict_tolerance; the 1856 equal-terms agreement and Whitehouse's engagement -> collaboration. ROWS CONSIDERED AND LEFT UNSCORED: detail_orientation and discipline (clerk-era expense books and 'answered every letter the same day' are his own account or Schultz's recollection), leadership_drive and achievement_drive (would rest on his offices and success), impact_motivation (his speeches are self-reported and the Cooper 'knowledge shall cover the earth' language is Cooper's), analytical_rigor and planning_orientation (Whitehouse's account that a committee including Field chose the cable without testing sinking rate is self-interested; Bright says the smaller core had Faraday's and Morse's backing; the 'pretty plan on paper' remark cuts the other way), belief_updating and adaptability. EXCLUDED ON PURPOSE: the 1887 loss of his fortune as a trait, the 1880s-90s retirement, family bereavements and illness, wealth, honours (gold medal, Paris Exposition prize), and the repayment of compromised creditors in 1853 and 1866 (documented through third-party letters and a New York Evening Post notice, but there is no scored attribute for it, so it is recorded here, not scored). CONFLICTS REPORTED, NOT ADJUDICATED: (a) the 1858 Whitehouse versus Thomson/Bright dispute over the induction apparatus and the cause of the failure; (b) press reports disagree on whether Field was forced to sell Manhattan stock to Gould in June 1887 and give no reliable price; (c) Russell 1866 says the 2 August 1865 warning of the wire fault did not reach the stern watcher while Field was on duty; Judson quotes the same passage without that detail, and the attribution of blame is not clear-cut, so it was not used; (d) Wikidata gives two birth dates (20 October and 30 November 1819), Judson says 30 November. CALIBRATION: 8 rows, scores 62-78, confidence 0.48-0.66, nothing at or above 80 or 0.70; four of the rows are strong_inference or inference. Profile is deliberately sparse and will probably not reach match-eligibility numbers; no eligibility output was looked at to tune it. PORTRAIT: the lead Commons file CyrusField4.jpg (Sarony, c.1870) was rejected: its Commons wikitext gives only a commercial picture-archive page (picturehistory.com) as source and 'PD-old-100', with no institutional record or publication fact. Chosen instead: Charles DeForest Fredricks, 'Cyrus West Field', albumen silver print carte-de-visite c. 1863, National Portrait Gallery (Smithsonian) NPG.80.213; the Commons wikitext states the Gallery 'explicitly released this digital image under the CC0 license' with the NPG object link. The NPG object page is behind a Smithsonian bot-verification wall (HTTP 403) and was not bypassed, so the NPG CC0 statement is relied on through the Commons wikitext only. The photograph is also from c.1863 by a photographer who died in 1894, so it is out of copyright independently. Commons original 4315x7168 downsized to 963x1600 (q85, no crop; the carte mount and the signature 'Cyrus W. Field' are included) and viewed: a standing man with a globe and coiled cable, consistent with the sitter. Saved as public/portraits/cyrus-field-fredricks-1863.jpg."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/cyrus-field-fredricks-1863.jpg",
+    "width": 963,
+    "height": 1600,
+    "source": "Smithsonian National Portrait Gallery, NPG.80.213 (Charles DeForest Fredricks, Cyrus West Field, albumen silver print carte-de-visite, c. 1863), via Wikimedia Commons file 'Cyrus West Field by Charles DeForest Fredricks, c. 1863 ... NPG-8000506C 1.jpg'",
+    "license": "CC0 1.0 Universal (public domain dedication by the National Portrait Gallery)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Charles DeForest Fredricks, 'Cyrus West Field', albumen silver print, c. 1863; Smithsonian National Portrait Gallery, NPG.80.213 (CC0)",
+    "attributionUrl": "https://npg.si.edu/object/npg_NPG.80.213",
+    "creator": "Charles DeForest Fredricks",
+    "date": "c. 1863",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Cyrus_West_Field_by_Charles_DeForest_Fredricks,_c._1863,_albumen_silver_print,_from_the_National_Portrait_Gallery_-_NPG-8000506C_1.jpg"
+  }
+}

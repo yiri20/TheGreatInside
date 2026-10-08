@@ -669,6 +669,25 @@ describe("confidence and missing data", () => {
       "tycho-brahe",
       "william-harvey",
       "william-thomson-kelvin",
+      // Roster45 (2026-10-09, docs/checkpoints/roster45.md): 15 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero backlog
+      // reuse, no new hold. Each has whatever eligibility outcome its own
+      // evidence produced (computed by build(), never gated).
+      "alexandra-david-neel",
+      "andreas-vesalius",
+      "charles-lyell",
+      "cyrus-field",
+      "edgar-allan-poe",
+      "edouard-manet",
+      "francisco-goya",
+      "franz-schubert",
+      "gustav-mahler",
+      "herman-hollerith",
+      "humphry-davy",
+      "jim-clark",
+      "louis-daguerre",
+      "robert-boyle",
+      "wilhelm-maybach",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1278,6 +1297,25 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "tycho-brahe",
       "william-harvey",
       "william-thomson-kelvin",
+      // Roster45 (2026-10-09, docs/checkpoints/roster45.md): 15 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero backlog
+      // reuse, no new hold. Each has whatever eligibility outcome its own
+      // evidence produced (computed by build(), never gated).
+      "alexandra-david-neel",
+      "andreas-vesalius",
+      "charles-lyell",
+      "cyrus-field",
+      "edgar-allan-poe",
+      "edouard-manet",
+      "francisco-goya",
+      "franz-schubert",
+      "gustav-mahler",
+      "herman-hollerith",
+      "humphry-davy",
+      "jim-clark",
+      "louis-daguerre",
+      "robert-boyle",
+      "wilhelm-maybach",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

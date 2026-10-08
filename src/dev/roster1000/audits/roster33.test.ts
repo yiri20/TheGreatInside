@@ -112,7 +112,7 @@ describe.each(TARGETS)("Roster33: %s", (slug) => {
 });
 
 describe("Roster33: cross-target identity integrity", () => {
-  it("no duplicate ids, slugs, or Wikidata QIDs across all 393 production people", () => {
+  it("no duplicate ids, slugs, or Wikidata QIDs across all 408 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
     const qids = SEED_PEOPLE.map((p) => p.externalIdentity?.wikidataId).filter((x): x is string => !!x);
@@ -130,9 +130,9 @@ describe("Roster33: cross-target identity integrity", () => {
     }
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement (393 people as of Roster44, 2026-10-08 -- this batch itself added none of the later growth; the count reflects later roster-expansion cycles), all 14 Roster33 targets present in both", () => {
-    expect(SEED_PEOPLE).toHaveLength(393);
-    expect(PEOPLE_INDEX).toHaveLength(393);
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement (408 people as of Roster45, 2026-10-09 -- this batch itself added none of the later growth; the count reflects later roster-expansion cycles), all 14 Roster33 targets present in both", () => {
+    expect(SEED_PEOPLE).toHaveLength(408);
+    expect(PEOPLE_INDEX).toHaveLength(408);
     for (const slug of TARGETS) {
       expect(SEED_PEOPLE.filter((p) => p.slug === slug)).toHaveLength(1);
       expect(PEOPLE_INDEX.filter((p) => p.slug === slug)).toHaveLength(1);

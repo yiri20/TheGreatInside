@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jim-clark",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jim Clark",
+    "aliases": ["James Clark Jr."],
+    "wikidataId": "Q3137",
+    "birthYear": 1936,
+    "deathYear": 1968,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["GB"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["athlete"],
+    "fieldIds": ["sport"],
+    "impactDomains": ["athletic", "historical"],
+    "tagIds": ["competitor", "sustained_excellence"],
+    "archetypeIds": ["competitive_performer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_clark_wikidata",
+      "kind": "wikidata",
+      "title": "Jim Clark (Q3137) -- verified live via wbgetentities (2026-10-08): en label 'Jim Clark', description 'British racecar driver (1936-1968)', born 4 Mar 1936, died 7 Apr 1968, citizenship United Kingdom, instance of human, ko label '짐 클라크', P18 'Jim Clark 1965.jpg'. Orientation only; not used as support for any row. (A plain Wikidata name search returns an unrelated paleontologist, Q5609413; that item is not this person.)",
+      "url": "https://www.wikidata.org/wiki/Q3137"
+    },
+    {
+      "id": "src_clark_ms_ch1",
+      "kind": "press",
+      "title": "Motor Sport magazine (editorial), Jim Clark special, 'Chapter One: Formula 1 - If he finished, he won' -- retrospective magazine essay (secondary, admiring but statistics-based) on his 72 World Championship grands prix 1960-68, his driving method, the Lotus partnership with Colin Chapman and the 1967 Zandvoort debut of the Lotus 49. Read in full (captions included).",
+      "url": "https://www.motorsportmagazine.com/special-article/jim-clark-special/6/chapter-one-formula-1-if-he-finished-he-won-2/"
+    },
+    {
+      "id": "src_clark_ms_ch3",
+      "kind": "press",
+      "title": "Motor Sport magazine (editorial), Jim Clark special, 'Chapter Three: Americana - Reaping rewards across the pond' -- retrospective essay on his 1963-67 American campaign (Indianapolis 500, Milwaukee, Trenton, Riverside, Rockingham NASCAR), the 1964 accident aftermath and the Bahamas relocation for tax reasons. Read in full (about nine thousand characters, captions included).",
+      "url": "https://www.motorsportmagazine.com/special-article/jim-clark-special/70/chapter-three-americana-reaping-rewards-across-the-pond-2/"
+    },
+    {
+      "id": "src_clark_ms_ch4",
+      "kind": "press",
+      "title": "Motor Sport magazine (editorial), Jim Clark special, 'Chapter Four: Sports cars & saloons - Just show him a steering wheel' -- retrospective essay on his breadth outside Formula 1: 1955-56 rallies and autotests, first race at Crimond, Le Mans 1960, the 1962 Nurburgring 1000km, the 1966 RAC Rally, and the Boxing Day 1958 Brands Hatch race in which Chapman noticed him. Read in full.",
+      "url": "https://motorsportmagazine.com/special-article/jim-clark/94/chapter-four-sports-cars-saloons-just-show-him-a-steering-wheel"
+    },
+    {
+      "id": "src_clark_ms_indy2008",
+      "kind": "press",
+      "title": "Motor Sport magazine, 'How Jim Clark and Lotus won at the Indianapolis 500' (May 2008) -- interview-based feature quoting Dan Gurney (team-mate), Parnelli Jones and A. J. Foyt (rival winners), Mario Andretti, Lotus mechanics Fullalove, Sparshott and McCall, and IMS historian Donald Davidson on Clark's 1963-67 Indianapolis campaigns, USAC obstruction of Lotus, and Clark's conduct. INDEPENDENT first-person voices of rivals recorded decades later (retrospective, admiring). Read in full.",
+      "url": "https://motorsportmagazine.com/archive/article/may-2008/50/how-clark-won-round-indy"
+    },
+    {
+      "id": "src_clark_ms_1965report",
+      "kind": "press",
+      "title": "Motor Sport magazine, 'Race report: Indianapolis, May 31 1965' (contemporary report, initialled DSJ -- Denis Jenkinson) -- CONTEMPORARY press account of the 1965 race: Lotus 38-Ford, 190 of 200 laps led, qualifying speeds, retirements of rivals, prize money. Read in full.",
+      "url": "https://motorsportmagazine.com/special-article/jim-clark/93/race-report-indianapolis-may-31-1965"
+    },
+    {
+      "id": "src_clark_roebuck2003",
+      "kind": "press",
+      "title": "Nigel Roebuck, 'Legends: Jim Clark', Motor Sport, April 2003 -- columnist's feature built on interviews with Jabby Crombac (close friend), Jackie Stewart and Dan Gurney: Springfield 1963 dirt-track paddock, the Sun Valley Little 500 visit, Clark's reaction to Parnelli Jones's oil, the 1967 Rockingham NASCAR start and the Riverside Vollstedt drive. Secondary, with firsthand quoted recollections of insiders. Read in full.",
+      "url": "https://www.motorsportmagazine.com/archive/article/april-2003/20/legends-jim-clark/"
+    },
+    {
+      "id": "src_clark_ms_jimman",
+      "kind": "press",
+      "title": "Motor Sport magazine online, 'Jim the man' (April 2018, 50th-anniversary piece) -- personality feature quoting Stirling Moss, Jackie Stewart (as quoted from Eric Dymock's biography and from Nigel Roebuck, 2008), Sir John Whitmore, Trevor Taylor, mechanic Jim Endruweit and Kurt Ahrens. Secondary compilation; the Dymock book itself was NOT opened and is cited only as quoted here. Read in full.",
+      "url": "https://www.motorsportmagazine.com/articles/single-seaters/f1/jim-man/"
+    },
+    {
+      "id": "src_clark_diary2013",
+      "kind": "press",
+      "title": "Motor Sport magazine, 'Jim Clark's 1963 Diary: a year to savour' (August 2013) -- day-by-day reconstruction of his 1963 season with brief quotations from his own 'Jim Clark at the Wheel' (1964). Read the opening framing and the first four months (Indy testing, Pau, Imola, Aintree, Silverstone); the later parts of the long piece were skimmed only.",
+      "url": "https://www.motorsportmagazine.com/archive/article/august-2013/58/jim-clark-2/"
+    },
+    {
+      "id": "src_clark_f1hof",
+      "kind": "institution",
+      "title": "Formula1.com (official Formula 1 website), Drivers' Hall of Fame profile 'Jim Clark' -- institutional biographical profile covering his Borders farm upbringing, entry to racing, Chapman's reliance on him as a test driver, his reaction to publicity and his two titles; includes two quotations from Clark himself. Read in full as available (about six thousand characters).",
+      "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-jim-clark.2xXQsIYM7LBHJrP4Gw6rRD"
+    },
+    {
+      "id": "src_clark_goodwood2025",
+      "kind": "institution",
+      "title": "Goodwood Road & Racing, 'Jim Clark's sublime 1965 World Championship: 60 years later' (2025) -- institutional retrospective on the 1965 season: Tasman Series, Indianapolis 500, Spa, the Silverstone misfire/oil-pressure finish, title clinched at the Nurburgring. Read the season narrative.",
+      "url": "https://www.goodwood.com/grr/event-coverage/goodwood-revival/jim-clarks-sublime-1965-world-championship-60-years-later/"
+    },
+    {
+      "id": "src_clark_trust",
+      "kind": "institution",
+      "title": "The Jim Clark Trust (Scotland), 'Jim Clark' page -- very short institutional page carrying two quotations attributed to Clark himself (on farming as his occupation and on respecting safety limits). Read in full; SELF-attributed quotations, used for no scored row.",
+      "url": "https://www.jimclarktrust.com/jim-clark/"
+    },
+    {
+      "id": "src_clark_nationaalarchief",
+      "kind": "archive",
+      "title": "Nationaal Archief (Netherlands), Fotocollectie Anefo, item 918-4009 'Jim Clark' (NL-HaNA 2.24.01.05) -- the archive's own record: date 1965-11-04, creator 'Fotograaf Onbekend / Anefo', rights holder 'Nationaal Archief, CC0'. Used for the portrait only.",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/aacbd150-d0b4-102d-bcf8-003048976d84"
+    },
+    {
+      "id": "src_clark_wikipedia",
+      "kind": "wikipedia",
+      "title": "Jim Clark -- English Wikipedia. Orientation and cross-check of dates only; not used as support for any row.",
+      "url": "https://en.wikipedia.org/wiki/Jim_Clark"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clark_ms_indy2008, src_clark_roebuck2003, src_clark_ms_ch4, src_clark_goodwood2025, src_clark_ms_ch1 | 1962-1967 | Gurney/Andretti/Jones/Crombac quoted in magazine features + retrospective essays] Never having seen an oval, he reached second on his 1963 Indianapolis debut and won in 1965 (Gurney: 'it took a while for him to get dialled in, but once he did he was right on the pace'; Andretti on how quickly he adapted to ovals). Elsewhere he matched specialists on the 1966 RAC Rally after one day of testing (co-driver Melia), took a competitive second row in a year-old Vollstedt-Ford at Riverside 1967, started the Rockingham NASCAR race and, at Silverstone 1965, nursed a misfiring, oil-pressure-losing Lotus home three seconds ahead of Hill. Several dated instances from rivals, team-mates and retrospective writers; capped because most accounts are admiring retrospectives and Lotus machinery was also a factor."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clark_ms_ch1, src_clark_ms_jimman, src_clark_ms_indy2008, src_clark_f1hof | 1960-1967 | retrospective essay + insider quotations] Motor Sport describes a refined method (releasing brakes early, trail braking and carrying speed taken 'to the next level', cosseting engines and gearboxes); Whitmore says that once in a car Clark could answer detailed questions about its behaviour clearly and specifically; Andretti recalls Clark answering his many questions and advising him to be quick in slow corners and carry speed into them. The Formula 1 profile says he often said he had no idea where his speed came from, so this is scored as sustained craft rather than a stated drive to master. Sources agree in direction but are mostly secondary and admiring."
+    },
+    "competitiveness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clark_ms_ch1, src_clark_ms_indy2008, src_clark_ms_ch3, src_clark_roebuck2003 | 1962-1967 | retrospective essays + rival quotations] 82 per cent of his championship points came from wins and he finished second once in 72 grands prix (Motor Sport); the magazine says his slight frame and reserved manner 'belied' that he 'went for the jugular' at Indianapolis; Gurney calls him an 'edge man' who ran the ragged edge. Against this, he backed off at Milwaukee 1963 so as not to lap A. J. Foyt, and Stewart says he sometimes sped up while leading Spa 1965 only to discourage his compatriot's chase, so the drive was expressed through winning rather than through confrontation. Scored in the high 70s at most, one-sided sourcing (admiring retrospectives)."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clark_ms_ch1, src_clark_diary2013, src_clark_ms_jimman | 1963-1967 | retrospective essays + Whitmore] In practice for the 1967 Dutch GP he refused to drive the new Lotus 49 until a broken hub ball-race that he had sensed the previous day was found and fixed; in Indy testing in 1963 his report of an exhaust rattle led mechanics to a spare bolt caught between tub and primaries; and Motor Sport's Whitmore interview recalls precise questions to journalists down to quoted mile-per-hour figures. Three dated instances from two outlets/authors but all via Motor Sport, so moderate confidence; one of them (the diary) is a reconstruction."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clark_roebuck2003, src_clark_ms_ch4, src_clark_ms_indy2008 | 1963-1967 | columnist interviews with Crombac, Stewart, Gurney] Roebuck reads his attendance at the Springfield dirt-track meeting in August 1963 as pure love of racing and 'a desire to see something new'; Crombac says he was on his feet cheering at the Sun Valley Little 500 and 'always wanted to drive a sprint car or a midget'; Stewart recalls he drove odd Tasman specials he 'just couldn't help' trying; Clark of the NASCAR start: 'How could I turn it down?' Curiosity about cars and formats, not about ideas generally; consistent anecdotes but all from one outlet's retellings."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clark_ms_jimman, src_clark_ms_indy2008, src_clark_f1hof, src_clark_ms_ch1 | 1960-1967 | team-mate/mechanic/driver quotations + institutional profile] Trevor Taylor (team-mate) says he 'would rather help you than hurt you'; mechanic Jim Endruweit says the Lotus crew would 'do anything for him'; Andretti says Clark answered every question when asked for advice; Chapman relied on Clark to give driving feedback that he turned into engineering fixes (Formula 1 profile). Motor Sport also notes preferential treatment over team-mates, and Clark publicly stayed loyal to Chapman through repeated failures. Cooperative conduct from several firsthand voices, moderate score because it is team and mentoring conduct rather than broad cross-party work."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clark_ms_ch3, src_clark_ms_indy2008, src_clark_goodwood2025 | 1963-1966 | retrospective essays + mechanics' quotations] Went back to Indianapolis after second place in 1963 and a tyre-failure retirement while leading in 1964, finishing the third attempt with a win in 1965 after USAC made Lotus rebuild suspension and recast wheels (Sparshott); returned in 1966 and 1967 despite a disputed 1966 result and an unready 1967 programme. Repeated returns documented by several outlets, scored moderately because the effort was also underwritten by large prize money (about $166,621 in 1965)."
+    },
+    "social_assertiveness": {
+      "score": 32,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "[src_clark_ms_jimman, src_clark_f1hof, src_clark_ms_indy2008, src_clark_trust | 1960s | Stewart, Whitmore, Moss, Davidson quotations + institutional profile] Stewart says he 'dreaded making speeches' and had to be pushed into airport VIP lounges and would not do it alone; the Formula 1 profile says he hated press conferences and was visibly uncomfortable at public appearances; Davidson calls him 'shy, polite and a little ill at ease with his fame'; Moss found him 'a bit of an introvert'. Scored on observable public behaviour only; the same sources show he asserted himself technically in the car (e.g. refusing to drive the Lotus 49 until it was fixed). Consistent across several voices."
+    },
+    "conflict_tolerance": {
+      "score": 40,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_clark_roebuck2003, src_clark_ms_ch3, src_clark_ms_jimman, src_clark_ms_indy2008 | 1963-1966 | columnist + retrospective essays + Taylor/Whitmore + McCall] After Parnelli Jones's oil cost him the 1963 race Clark shook his hand while others fought; he kept his peace after the scored-second result of 1966 (Lotus declined to lodge a protest); Taylor and Motor Sport say he made no public complaint about Lotus's unreliability and would 'drive around the problem'. Whitmore says he 'got tougher later, tougher with Chapman'; McCall describes him silently storming out of a garage confrontation in 1966. Dual-edged: avoidance of open conflict helped relations and meant problems were absorbed on track; a single BBC interview is described as a one-off show of temper."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jim-clark-anefo-1965.jpg",
+    "width": 1200,
+    "height": 1600,
+    "source": "Nationaal Archief (Netherlands), Fotocollectie Anefo, item 918-4009 (NL-HaNA 2.24.01.05), via Wikimedia Commons 'File:Jim_Clark_1965.jpg'; downsized from 1510 x 2013 to 1200 x 1600, quality 85",
+    "license": "CC0 1.0 Universal (Public Domain Dedication)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photograph of Jim Clark, Fotocollectie Anefo, Nationaal Archief (2.24.01.05, item 918-4009), photographer unknown; the archive's own record gives rights holder 'Nationaal Archief, CC0'",
+    "attributionUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/aacbd150-d0b4-102d-bcf8-003048976d84",
+    "creator": "Unknown photographer / Anefo (Nationaal Archief)",
+    "date": "1965-11-04 (date recorded by the archive; Commons description says taken at Zandvoort in 1965)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jim_Clark_1965.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "짐 클라크"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities for Q3137 (2026-10-08) returned en label 'Jim Clark', description 'British racecar driver (1936-1968)', P569 4 Mar 1936, P570 7 Apr 1968, citizenship UK (Q145), instance of human, ko label '짐 클라크', P18 'Jim Clark 1965.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupation athlete, field sport (field.sport exists), same shape as the juan-manuel-fangio and ayrton-senna candidates; Scotland/UK coded western_europe. EVIDENCE READ: 12 substantive records opened and read via curl to scratch/work/jim-clark (eight Motor Sport pieces: Chapters One, Three and Four of its Jim Clark special, the May 2008 Indianapolis feature, the contemporary 1965 Indianapolis report by Jenkinson, Roebuck's April 2003 Legends column, 'Jim the man' (2018) and the 1963 diary (first four months); plus Formula1.com's Hall of Fame profile, Goodwood's 2025 retrospective, the Jim Clark Trust page, and the Nationaal Archief record) plus Wikipedia and Wikidata for orientation. INDEPENDENT PERSPECTIVES: rivals and peers quoted first-hand (Dan Gurney, Parnelli Jones, A. J. Foyt, Mario Andretti), close friend Jabby Crombac, Jackie Stewart, John Whitmore, Trevor Taylor, mechanics (Endruweit, Sparshott, McCall, Fullalove), historian Donald Davidson, the contemporary press (Jenkinson) and institutional profiles (Formula 1, Goodwood). CAVEAT: most are Motor Sport retrospectives, so a single publisher's compilation underlies much of the quoted testimony; confidence is capped at 0.66. NOT ACCESSED: Eric Dymock's 'Jim Clark: Portrait of a Great Driver' (cited only as quoted by Motor Sport), Graham Gauld's books, Clark's own 'Jim Clark at the Wheel' (seen only as a quoted line in the diary), Stewart's autobiography, Karl Ludvigsen's Chapman biography, Autosport archive, and the Jim Clark Trust's deeper content. SCOPE: nothing is inferred from his death, the grief or distress reported after the 1960 and 1961 Belgian/Italian accidents, nail-biting, or private-life indecision; the 1967 tax relocation is incidental and unscored. A 'decisiveness' row was deliberately NOT written because the reliable evidence (decisive in the car, indecisive away from it) is mostly private-life anecdote. PORTRAIT: Commons wikitext, the Commons API and the archive's own record page agree: CC0, unknown photographer/Anefo, rights holder 'Nationaal Archief, CC0', date 1965-11-04 (Commons says Zandvoort 1965); no conflicting copyright notice found. The upstream archive item page was fetched live (HTTP 200) and its metadata parsed from the embedded record. Scores: no row at or above 82 and no confidence above 0.66."
+  }
+}

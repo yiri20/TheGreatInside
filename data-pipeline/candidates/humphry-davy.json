@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "humphry-davy",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Humphry Davy",
+    "wikidataId": "Q131761",
+    "birthYear": 1778,
+    "deathYear": 1829,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "inventor"
+    ],
+    "fieldIds": [
+      "chemistry"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "communicator",
+      "self_taught",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_davy_wikidata",
+      "kind": "wikidata",
+      "title": "Humphry Davy (Q131761) -- verified live via Special:EntityData (2026-10-08): en label 'Humphry Davy', description 'British chemist', born 17 Dec 1778, died 29/30 May 1829, ko label '험프리 데이비', instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q131761"
+    },
+    {
+      "id": "src_davy_paris1831",
+      "kind": "biography",
+      "title": "John Ayrton Paris (physician), 'The Life of Sir Humphry Davy' (London: Colburn and Bentley, 1831), both volumes, Project Gutenberg texts 45394 and 45395 -- FIRST biography, written within two years of Davy's death with help from his family and friends; admiring of the science but openly critical of his conduct in places (the Royal Society presidency, the Faraday and iodine disputes are treated frankly) and described by later historians as deeply critical. Read: preface and contents; the passages on his lecturing and laboratory manner and the Purkis and Poole letters (vol. 1); the chloric-acid, muriatic-acid and chlorine chapters; the iodine episode in Paris, the safety-lamp chapter with the Buddle letters and the Stephenson resolutions, the 1823 chlorine liquefaction, and the Royal Society presidency passage (vol. 2). The remainder (early life, galvanism history, agricultural chemistry, Salmonia and Consolations summaries, the final illness) was not read.",
+      "url": "https://www.gutenberg.org/ebooks/45394"
+    },
+    {
+      "id": "src_davy_john1836",
+      "kind": "biography",
+      "title": "John Davy (Davy's brother, a physician), 'Memoirs of the Life of Sir Humphry Davy' (London: Longman et al., 1836), two volumes, Internet Archive scans b33286437_0001 and b33286437_0002 (OCR text) -- FAMILY-PARTISAN biography, written partly to rebut Paris. Read for the Royal Society election, the 1823 chlorine liquefaction account and his rebuttal of Paris, and the closing character summary with Thomas Poole's letter; the rest was not read.",
+      "url": "https://archive.org/details/b33286437_0001"
+    },
+    {
+      "id": "src_davy_thorpe1896",
+      "kind": "biography",
+      "title": "T. E. Thorpe (chemist and historian of chemistry), 'Humphry Davy, Poet and Philosopher' (Century Science Series, London: Cassell, 1896), Project Gutenberg text 54862 -- late-Victorian scholarly biography using the Royal Institution minutes and Davy's letters; admiring of his science, frank about his later relations with Faraday and his temper. Read: the Faraday engagement and 1813-15 tour with Faraday's letters, the 1807 alkali discovery, the safety lamp and Stephenson controversy, the Royal Society years and Faraday, and the copper-sheathing episode; the early-life and later literary chapters were not read.",
+      "url": "https://www.gutenberg.org/ebooks/54862"
+    },
+    {
+      "id": "src_davy_cottle1847",
+      "kind": "biography",
+      "title": "Joseph Cottle (Bristol bookseller and publisher, Davy's friend), 'Reminiscences of Samuel Taylor Coleridge and Robert Southey' (London, 1847), Project Gutenberg text 8580 -- FRIEND and FIRSTHAND witness of Davy at the Bristol Pneumatic Institution (1798-1801), with Davy's letters to him and Coleridge's remark on him; written decades later, and with its own health speculations that are NOT used here. Read the Davy chapters and the Coleridge passages.",
+      "url": "https://www.gutenberg.org/ebooks/8580"
+    },
+    {
+      "id": "src_davy_shi_bio",
+      "kind": "institution",
+      "title": "Science History Institute, 'Humphry Davy' (Scientific Biographies, updated by historian Frank A. J. L. James, 3 August 2026), sciencehistory.org -- modern independent historian's biography based on recent manuscript research; critical of Davy's treatment of Stephenson and of his Royal Society presidency. Read in full.",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/humphry-davy/"
+    },
+    {
+      "id": "src_davy_knight2017",
+      "kind": "institution",
+      "title": "David Knight (historian of science and author of a Davy biography), 'Left Behind', Distillations magazine, Science History Institute, 7 February 2017 -- essay-review of Jan Golinski's 'The Experimental Self: Humphry Davy and the Making of a Man of Science' (Chicago, 2016), giving an independent scholarly summary of Davy's career, rivalry with Gay-Lussac and later priority disputes. Read in full. Knight's own book and Golinski's book were not accessible as full text and were not read.",
+      "url": "https://www.sciencehistory.org/stories/magazine/left-behind/"
+    },
+    {
+      "id": "src_davy_commons_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Sir Humphry Davy, Bt by Thomas Phillips.jpg' (National Portrait Gallery, London, NPG 2546) -- inspected for the portrait chain only; NOT used as the portrait because its Commons page carries the NPG copyright-claims notice and the NPG item page is bot-walled and could not be read. Not used for any row.",
+      "url": "https://commons.wikimedia.org/wiki/File:Sir_Humphry_Davy,_Bt_by_Thomas_Phillips.jpg"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_davy_cottle1847, src_davy_paris1831, src_davy_thorpe1896 | 1798-1824 | friend witness + contemporary biography + Victorian chemist-biographer] Cottle, who saw him at Bristol, calls him the most persevering and enthusiastic experimentalist the kingdom could have produced and describes a run of gas trials. Paris (via the letters of his friend Purkis) records that in the laboratory he ran several unconnected experiments at once, moving between them without obvious order and breaking apparatus to meet the need of the moment, while still getting accurate results. Thorpe records that the first decisive potash result came in the first fortnight of October 1807 and that most leading facts were in hand by mid-November. Paris reports that after Buddle sent him samples of fire-damp in August 1815 he was writing within a fortnight that he had found new properties in the gas and four plans for lamps, and he then tried the lamp in Buddle's mines. Several dated episodes across three decades from three independent witnesses; held below 80 because the lamp and 1807 results are told partly through his own letters."
+    },
+    "execution_speed": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_davy_paris1831, src_davy_thorpe1896 | 1807-1815 | contemporary biography + Victorian chemist-biographer] Paris says that in the laboratory 'rapidity was power': a spectator would think he was making preparations when he was already obtaining results. Thorpe says he put the memoir announcing potassium and sodium together in a few hours (the Bakerian lecture of 19 Nov 1807, weeks after the first result). Paris dates his iodine work in Paris from late November 1813, with a letter to the Institute read on 13 December and a long paper to the Royal Society dated 10 December, and puts the safety-lamp letters to Gray within a fortnight of the sample gas. Several dated instances; the account of his laboratory habit rests on friends' letters, hence strong_inference."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_davy_cottle1847, src_davy_knight2017, src_davy_paris1831 | 1799-1800 | friend witness + independent historian + contemporary biography] Cottle watched him at Bristol breathe unfamiliar gases with a finger on his pulse and describes trials of nitrous gas and of carburetted hydrogen after which Davy wrote of the nitrous-gas trial 'I never design again to repeat so rash an experiment'; Cottle says he warned him against his perils. Knight describes him as a fearless experimenter who risked death with unknown gases and notes that Davy himself called his laboratory life 'a service of danger'. Paris lists the carburetted-hydrogen episode in his contents. Rated from the choice to run the trials, not from any injury or later health; dual_edged because contemporaries branded him a reckless self-experimenter (Knight) even as he published careful analyses."
+    },
+    "belief_updating": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_davy_paris1831, src_davy_knight2017 | 1808-1811 | contemporary biography + independent historian] Paris recounts that in 1808 Davy held that muriatic acid contained about a third of its weight of water and that oxymuriatic acid contained oxygen; on finding that charcoal, freed of hydrogen and moisture, produced no change in either gas under intense heat, he 'was led to suspect the accuracy of his previous conclusion', retraced his steps, and in his 1810 Bakerian lecture and a 1811 memoir argued that oxymuriatic acid is a simple body. Paris also says he afterwards abandoned his own claim about chloric acid. Knight confirms that Davy's experiments established chlorine as an element. Documented reversal of his own earlier stated position under experimental evidence, at cost in an acute controversy; scored below 80 because the sources are secondary retellings of the papers."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_davy_paris1831, src_davy_shi_bio, src_davy_knight2017 | 1797-1811 | contemporary biography + independent historians] The Science History Institute biography says that at 19 he wrote an essay on modern French chemistry that challenged key concepts of Lavoisier. Paris quotes the chemist Murray that Davy's view of chlorine as a simple substance was 'more unexpected' than any announced and led to 'an entire revolution', and says it was against the universal belief of Europe for nearly thirty years and drew open hostility, until Berzelius conceded. Knight adds that Davy contradicted Lavoisier's theory that oxygen was present in all acids. Several instances in different decades from independent sources; not higher because the chlorine view itself had a precedent in Scheele's earlier account, as Paris notes."
+    },
+    "intuitive_synthesis": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_davy_paris1831, src_davy_john1836 | 1799-1823 | contemporary biography + family biography] Paris quotes Davy's friend Thomas Poole that his 'most striking characteristic' was the quickness and truth of his apprehension, 'pure intuition', and contrasts his method with Wollaston's microscopic accuracy: Davy 'obtained his results by an intellectual process' of seizing the appropriate means at the moment. John Davy independently describes his brother's 'usual analogical mode of reasoning' in extending the chlorine-liquefaction experiment to muriatic gas and other gases. Two sources, both close to him and relying on one friend's judgment for the first point, hence strong_inference and moderate confidence."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_davy_paris1831, src_davy_shi_bio, src_davy_cottle1847, src_davy_thorpe1896 | 1801-1829 | contemporary biography + independent historian + friend witness + Victorian biographer] From 1802 he was the Board of Agriculture's lecturer in chemistry and Paris lists his work on tanning and on mineral analysis; the Science History Institute notes his longstanding interest in the theory of volcanoes, his climbs of Vesuvius and his analysis of pigments from Pompeii; Cottle says that had he not been a philosopher he would have been conspicuous as a poet, and Thorpe quotes Lockhart's praise of his Spinoza quatrains. Breadth of documented professional work in chemistry applied to agriculture, mining, naval copper and archaeology plus verse; the sources describe breadth rather than a synthesis, so kept at 76."
+    },
+    "persuasiveness": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_davy_paris1831, src_davy_cottle1847, src_davy_knight2017, src_davy_thorpe1896 | 1801-1813 | contemporary biography + friend witness + independent historian + Victorian biographer] Paris reproduces Purkis's account that crowds of the rank, learned and fashionable filled the Royal Institution lecture room and that his 'natural eloquence' and well-conducted experiments won unbounded applause; Knight says his earnest rhetoric and demonstrations gave an almost theatrical experience and made him the sought-after guest of high society; Thorpe describes Faraday as a young bookbinder following his last lectures from the gallery, and Cottle records Coleridge's remark that 'Davy could eat them all'. Independent sources agree on the effect of his lecturing and conversation; weighted for audiences and talk rather than one-to-one persuasion."
+    },
+    "competitiveness": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_davy_paris1831, src_davy_knight2017, src_davy_shi_bio, src_davy_thorpe1896 | 1813-1818 | contemporary biography + independent historians + Victorian biographer] In Paris in late 1813 Davy worked on the new substance (iodine) while Gay-Lussac was still working on it; Paris says he was accused of unfairly taking the subject from those engaged on it, reports that Thenard and Gay-Lussac retained 'great bitterness', and reprints Davy's paper acknowledging Gay-Lussac's note but explaining why he published; Knight calls it 'a race' with Gay-Lussac and says his later correspondence shows him 'fighting furiously for priority when he could have been magnanimous'. Thorpe says the Stephenson controversy greatly exasperated him and calls him 'greedy of fame'. Several priority episodes from independent and critical sources; dual_edged because it cost him goodwill in France and at Newcastle."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_davy_paris1831, src_davy_thorpe1896, src_davy_shi_bio | 1810-1818 | contemporary biography + Victorian biographer + independent historian] Paris describes a long and acute controversy over the chloride theory in which Davy, through his brother, took on Murray's defence of the older view and entered a 'warm controversy' with Gay-Lussac over chloric acid. In the Stephenson dispute Thorpe says Davy's friends passed public resolutions and circulated them, and the Science History Institute says he treated Stephenson with contempt as of lower social standing. Davy engaged rather than avoided these disputes, but several were fought by correspondents or friends and the Stephenson evidence is from critical secondary sources, hence moderate score and confidence."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_davy_shi_bio, src_davy_thorpe1896, src_davy_paris1831, src_davy_john1836 | 1801-1827 | independent historian + Victorian biographer + contemporary biographers] The Science History Institute describes him as 'intensely ambitious' in seeking the Royal Society presidency; Thorpe calls him 'greedy of fame'; Paris says he sacrificed the profit of the lamp in favour of 'immortal fame', and states that he sought patrician distinction. John Davy rejects the ambition reading and says he sought the chair to advance science. Several sources point the same way on motive, but a family source contests it and the evidence for motive is inferred from conduct and letters, hence strong_inference."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_davy_paris1831, src_davy_thorpe1896, src_davy_john1836 | 1815-1824 | contemporary biography + Victorian biographer + family biography] Paris, citing the colliery manager John Buddle, and Thorpe report that urged to patent the safety lamp he declined, saying his object was to serve humanity; in a January 1824 letter to his brother he wrote that he had given the copper-protection discovery to his country rather than patent it. John Davy says he never yielded to solicitations to patent his discoveries. The same declined-patent report reaches three sources through Buddle and Davy's own letters, so one chain of evidence; against it, the same sources show he accepted the coal-owners' testimonial plate and a baronetcy, so motives were mixed."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_davy_john1836, src_davy_paris1831, src_davy_shi_bio | 1820-1827 | family biography + contemporary biography + independent historian] John Davy says he put himself forward as candidate for the Royal Society presidency in 1820 and was elected almost unanimously. Paris says he opened his house to Fellows on a weekly evening and exercised authority in the Royal Institution's affairs in a way that provoked dissatisfaction; the Science History Institute says he had trouble distinguishing the presidency from his own work and fell into a dispute with the Admiralty faction. Seeking and holding the role is documented; accounts of how he led are partisan and brief, hence inference and low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "험프리 데이비"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata Special:EntityData fetch (2026-10-08) for Q131761: en label 'Humphry Davy', description 'British chemist', P569 17 Dec 1778, P570 29/30 May 1829, ko label '험프리 데이비', instance of human, P18 'Sir Humphry Davy, Bt by Thomas Phillips.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupations chemist and inventor, field chemistry only (physics not supported), region western_europe, era 19th_century, nationality GB; tags communicator, self_taught, cross_disciplinary; archetype scientific_explorer; all ids exist in the i18n vocabulary. EVIDENCE READ: six substantive records (Paris 1831 vols 1-2 in the targeted passages named in the source title, John Davy 1836 targeted passages, Thorpe 1896 targeted chapters, Cottle 1847 Davy chapters, Science History Institute biography in full, Knight's 2017 essay-review in full) plus Wikidata and a Commons file page for orientation and the portrait chain. PERSPECTIVES: (1) SELF: Davy's own letters and papers as quoted by Cottle, Paris, John Davy and Thorpe (never used alone for a row); (2) FAMILY-PARTISAN: John Davy; (3) CONTEMPORARY, partly critical: Paris and his informants (Purkis, Poole, Buddle, Underwood); (4) FRIEND-WITNESS: Cottle; (5) VICTORIAN SCHOLARLY: Thorpe (admiring, frank about faults); (6) MODERN INDEPENDENT HISTORIANS: Frank James and David Knight (summarising Golinski), critical of the Stephenson dispute and the presidency. NON-SELF BEHAVIOURAL sources: all of the above except Davy's own letters. NOT ACCESSIBLE / NOT READ: Knight's 'Humphry Davy: Science and Power' (1992) and Hartley's 1966 biography (Internet Archive lending copies without full text), Golinski's 'The Experimental Self' (known only through Knight's review), Frank James's 2025 Ambix paper, the Davy Notebooks, Faraday's own letters and Bence Jones's life of Faraday (read only as quoted by Thorpe), Tobin's 1832 journal of the 1828-29 tour (text downloaded, not read), Royal Institution archive; the National Portrait Gallery item page is behind a bot wall and was not bypassed. EPISODE USE: Bristol gas experiments -> experimentation, risk_tolerance; 1807 alkali metals and 1815 lamp work -> experimentation, execution_speed; 1808-1811 muriatic-acid reversal -> belief_updating, independent_thinking; Paris 1813 iodine and the Stephenson dispute -> competitiveness, conflict_tolerance; lectures -> persuasiveness; Board of Agriculture, volcanoes, Pompeii pigments, poetry -> cross_domain_range; Poole's comment and John Davy's analogy remark -> intuitive_synthesis; declined patents -> impact_motivation; presidency candidacy -> leadership_drive, achievement_drive. ROWS CONSIDERED AND LEFT UNSCORED: curiosity (a single Cottle anecdote about the cane experiment), adaptability, collaboration (the Faraday relationship is documented by Faraday's letters only as quoted by Thorpe, and the later estrangement and the 1823 chlorine credit are told differently by Paris and John Davy), persistence (the copper-protection trials are documented as a failure narrative, not scored), detail_orientation and discipline (Paris describes careless laboratory manipulation, not scored as a deficit without a better source), resourcefulness, opportunity_sensing (the Science History Institute calls his career choices 'shrewd' but the evidence is thin). EXCLUDED ON PURPOSE: his health, the 1812 laboratory explosion and its eye injury, his illness in the 1820s and his death; the claim by Cottle and others that the Bristol experiments shortened his life; his marriage and domestic arrangements; his 1813 travel under wartime passes and any political reading; the Vesuvius papyri unrolling (described by the Science History Institute as a destructive outcome, not scored); the Admiralty and Board of Longitude dispute beyond the single leadership row; honours, knighthood and baronetcy; the Faraday election episode because no source read gives particulars. CONFLICTS REPORTED, NOT ADJUDICATED: (a) credit for chlorine liquefaction in 1823: Paris says Faraday would probably have succeeded unaided and that Davy's suggestion followed Faraday's results, John Davy says the discovery followed from Davy's suggestion and that Paris's account is unjust; the profile records only that both are documented; (b) the Stephenson priority: Thorpe, Banks, Brande, Hatchett and Wollaston resolutions side with Davy; Brandling and the Newcastle party side with Stephenson; the Science History Institute notes only that Davy treated Stephenson with contempt; no row depends on who invented first; (c) motive for seeking the presidency: John Davy (usefulness to science) versus James and Thorpe (ambition). PORTRAIT: the Commons Thomas Phillips file (National Portrait Gallery NPG 2546, painted 1821) is tagged PD-Art on Commons but also carries the NPG copyright-claims notice linked to the 2009 NPG and Wikimedia dispute, and the NPG's own page returned a bot wall, so the stronger rights rule applies and it was NOT used. CHOSEN: the frontispiece engraving in volume 1 of Paris's 'The Life of Sir Humphry Davy' (London, Henry Colburn and Richard Bentley, 1831), engraved by W. H. Worthington after Sir Thomas Lawrence, marked 'Engraved by permission of the Council of the Royal Society from the original painting'; downloaded from the Internet Archive scan (University of California Libraries copy, lifeofsirhumphry01paririch, leaf n5, 2508x4030 native page image), cropped to the plate (2090x2620) and downsized to 1600 px on the long edge, JPEG q85. Basis: published in London in 1831, so public domain worldwide; Internet Archive metadata 'NOT_IN_COPYRIGHT'. Kind historical_depiction (a printed engraving after a painting, not a direct likeness). KOREAN NAME: the Wikidata ko label. No eligibility, coverage or match output was used in scoring; scores and confidences were fixed before the validator was run."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/humphry-davy-worthington-1831.jpg",
+    "width": 1276,
+    "height": 1600,
+    "source": "Frontispiece engraving in John Ayrton Paris, The Life of Sir Humphry Davy, vol. 1 (London: Henry Colburn and Richard Bentley, 1831), via Internet Archive (University of California Libraries copy), page image leaf n5 cropped to the plate and downsized to 1600 px",
+    "license": "Public domain (published in London in 1831; engraver W. H. Worthington and painter Sir Thomas Lawrence both died before 1850)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-100",
+    "attribution": "Engraving by W. H. Worthington after Sir Thomas Lawrence, marked 'Engraved by permission of the Council of the Royal Society from the original painting', London, 1831; Internet Archive metadata for this scan: NOT_IN_COPYRIGHT",
+    "attributionUrl": "https://archive.org/details/lifeofsirhumphry01paririch",
+    "creator": "William Henry Worthington (engraver) after Sir Thomas Lawrence (painter)",
+    "date": "1831",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://archive.org/details/lifeofsirhumphry01paririch/page/n5/mode/1up"
+  }
+}

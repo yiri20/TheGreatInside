@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edouard-manet",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Édouard Manet",
+    "aliases": [
+      "Edouard Manet"
+    ],
+    "wikidataId": "Q40599",
+    "birthYear": 1832,
+    "deathYear": 1883,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_manet_wikidata",
+      "kind": "wikidata",
+      "title": "Édouard Manet (Q40599) -- verified live via wbgetentities (2026-10-08): en label 'Édouard Manet', description 'French painter (1832-1883)', born 23 Jan 1832, died 30 Apr 1883, ko label '에두아르 마네', P18 'Édouard Manet, en buste, de face - Nadar.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q40599"
+    },
+    {
+      "id": "src_manet_claretie1874",
+      "kind": "press",
+      "title": "Jules Claretie (critic and novelist), 'Peintres et sculpteurs contemporains', 2nd ed. (Paris: Charpentier, 1874), Internet Archive scan peintresetsculp00clar -- CONTEMPORARY, SKEPTICAL-TO-HOSTILE CRITIC: a Salon review 'Deux heures au Salon' (apparently of the 1865 Salon, going by its mention of Olympia and Whistler's Princess of the Land of Porcelain) calls the Olympia a provocation ('defis jetes a la foule') and the chapter 'M. Edouard Manet' (Salon of 1872) judges that he deliberately set out to startle the public and produces 'morceaux de peinture et non des tableaux', while praising his brushwork and his Bon Bock of 1873 in the preface. Read those passages plus the chapter's biographical footnote (Salons 1861-1872); the remainder of the volume was not read. Used as an adversarial voice on how Manet was received, not for the critic's aesthetic verdicts.",
+      "url": "https://archive.org/details/peintresetsculp00clar"
+    },
+    {
+      "id": "src_manet_castagnary1892",
+      "kind": "press",
+      "title": "Jules-Antoine Castagnary (art critic, friend of Courbet), 'Salons (1857-1870)' and the later 'Salons' volume (Paris: Charpentier, 1892), Internet Archive scan salons185718701892cast -- CONTEMPORARY CRITIC, sympathetic to realism but not to Manet's treatment of faces and hands: the reviews of the Salons of 1873-1876 credit Manet with sincerity, work done from nature and a 'place in the history of contemporary art', protest the Salon jury's refusal of his 1876 pictures, and at the same time criticise the insufficient modelling of hands and faces in the plein-air Argenteuil and the Bon Bock. Read the Manet passages located by search in the text and their surrounding paragraphs; the rest of the volumes was not read. Page headers in the scan are OCR-unreliable for the year.",
+      "url": "https://archive.org/details/salons185718701892cast"
+    },
+    {
+      "id": "src_manet_hourticq1912",
+      "kind": "biography",
+      "title": "Louis Hourticq (Deputy Inspector of Fine Arts of the City of Paris), 'Edouard Manet', French Artists of Our Day series, English edition (London, 1912), Internet Archive scan douardmanet00lara -- LATER, INDEPENDENT ART-HISTORICAL MONOGRAPH written a generation after Manet's death and not by a friend; it leans on Zola, Duret and Proust for facts but adds its own account of the 1866-1867 refusals, the 1867 pavilion, the 1874 Impressionist exhibition from which Manet abstained, and the 1878 refusal. Read the narrative chapters 1863-1882 in the plate commentary form; the stylistic analysis chapters were skimmed.",
+      "url": "https://archive.org/details/douardmanet00lara"
+    },
+    {
+      "id": "src_manet_proust1913",
+      "kind": "biography",
+      "title": "Antonin Proust (Manet's schoolfriend, fellow pupil in Couture's studio and later a government minister for the arts), 'Edouard Manet: Souvenirs', ed. A. Barthelemy (Paris: H. Laurens, 1913), Internet Archive scan edouardmanetsouv00prou -- FRIEND'S MEMOIR, written long after the events from memory, with reconstructed dialogue and some points that other sources do not bear out (for example it says Olympia was first refused and then rescued, which Duret does not report, and Duret contradicts its account of who obtained the Ecole des Beaux-Arts hall for the 1884 retrospective); read for the Couture studio years (about two thirds of the text, the remainder skimmed), the travels, the Salon des Refuses, Olympia, the 1867 exhibition, the 1880-82 Salons and Manet's quoted letter to Proust of 1880. Use for behaviour and for Manet's own reported statements, which are self-sourced through a friend; the accompanying English translator's notes were not relied on.",
+      "url": "https://archive.org/details/edouardmanetsouv00prou"
+    },
+    {
+      "id": "src_manet_duret1902",
+      "kind": "biography",
+      "title": "Theodore Duret (art critic, collector and friend of Manet), 'Histoire d'Edouard Manet et de son oeuvre' (Paris: Charpentier et Fasquelle, 1902), Internet Archive scan histoireddouar00dure -- FIRST BIOGRAPHY, by an admiring friend and early defender who reprints several letters from Manet and the printed preface to his 1867 exhibition; read for the chapters on the 1863-1867 Salons, the 1867 private exhibition, the 1876-1880 Salon refusals and admissions, Manet's help to Monet and the Impressionists, and the late work. Admiring and partisan about Manet; the facts and the quoted letters are used, the praise is not.",
+      "url": "https://archive.org/details/histoireddouar00dure"
+    },
+    {
+      "id": "src_manet_zola1867",
+      "kind": "press",
+      "title": "Emile Zola, 'Edouard Manet, etude biographique et critique' (first published in the Revue du XIXe siecle, 1 January 1867; reprinted in 'Mes haines', Paris: Charpentier, 1879/1893 edition), Internet Archive scan meshainescauseri00zolauoft -- CONTEMPORARY ADVOCATE, a young critic and friend defending Manet in the year of his private exhibition; the essay is an argument as much as a portrait and says so in its own preface, so it is used for what Manet was seen to do and say in 1867 (his years in Couture's studio, his working habits, his reception) and as a contemporary view, not as neutral reporting. Read the biographical opening and the argument sections; the picture-by-picture catalogue was read selectively.",
+      "url": "https://archive.org/details/meshainescauseri00zolauoft"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_manet_proust1913, src_manet_zola1867, src_manet_castagnary1892, src_manet_claretie1874, src_manet_duret1902 | 1850s-1876 | friend's memoir + contemporary advocate + two contemporary critics + friend's biography] Proust, a fellow pupil, reports Manet telling Couture's studio that its light and shadows were false and objecting to the professional models' stock poses, until Couture told him he would only be 'the Daumier of your time' (firsthand-from-memory, reconstructed dialogue). Zola, writing in 1867 after speaking with Manet, independently describes six years in Couture's studio during which his temperament would not bend to the precepts. Duret's account of this conflict leans on Proust and is not counted as a separate witness. Proust also records that Manet would not accept contradiction or discussion on matters of art, and quotes him as saying he went 'straight ahead without worrying about what people say'. Two non-friendly contemporaries agree on the behaviour while disliking the results: Castagnary (1876) writes that Manet knew his worth and that his manner 'is his own and he keeps it'; Claretie, sceptical, concedes 'temperament, the search for originality' and a 'deliberate aim to astonish'. dual_edged: the same stance kept him outside the official system for most of two decades. Four perspectives including an unfriendly one; not scored higher because the Couture material is chiefly one reconstructed memoir."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_manet_duret1902, src_manet_hourticq1912, src_manet_castagnary1892, src_manet_proust1913 | 1859-1882 | friend's biography + later monograph + contemporary critic + friend's memoir] Duret documents a run of refusals and returns: refused at the Salon in 1859, admitted 1861, refused with the Dejeuner sur l'herbe in 1863, admitted 1865, both pictures refused in 1866 and again at the 1867 Exposition universelle, the Linge and L'Artiste refused in 1876, two pictures admitted in 1877, work refused at the 1878 Exposition universelle, two pictures admitted again in 1879, and the Bar aux Folies-Bergere shown at the Salon of 1882. Duret writes that his 'persistence in wishing to exhibit everywhere and to show his pictures in every circumstance was unshakeable'. Hourticq (1912, not a friend) confirms the 1866, 1867 and 1878 refusals. Castagnary (1876) calls it twenty years of work 'sincerely and courageously under the eyes of Paris'. Counter-evidence kept in the rationale: Proust says that after the Olympia of 1865 Manet went out less, stayed at home for long hours and let his ardour slacken. The pattern across the Salon sequence is documented by several accounts; the score is held in the low 70s because the same sources show periods of withdrawal and one tactical retreat in 1877."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_manet_duret1902, src_manet_proust1913, src_manet_hourticq1912 | 1863-1878 | friend's biography + friend's memoir + later monograph] Instead of waiting for the jury, Manet created his own showings. Duret records a private exhibition of fourteen canvases at Martinet's gallery in early 1863; in 1867, refused by the Exposition universelle jury, he had a wooden pavilion built near the Alma bridge on permitted ground and showed about fifty works with a printed preface (Proust adds that he paid for it and obtained the police prefect's permission; Hourticq calls it burdensome for his means); in 1876, after two works were refused, Duret says he invited press, artists and society to his studio and kept a visitors' register; and in 1878 he drew up a hundred-number catalogue for another private show before dropping it as too costly. All three narrators agree on the 1867 pavilion; the 1863 and 1876 episodes rest on Duret alone and the printed 1867 preface is Manet's own text. Several dated, independent-enough instances; not higher because the later projects were reactions to refusals and the 1878 plan was abandoned."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_manet_duret1902, src_manet_proust1913, src_manet_zola1867, src_manet_claretie1874, src_manet_castagnary1892 | 1859-1876 | friend's biography + friend's memoir + contemporary advocate + hostile contemporary critic + contemporary critic] Behaviour, not reputation: for the Dejeuner sur l'herbe Proust quotes Manet on Argenteuil beach saying he wanted to redo Giorgione's picture of women with musicians 'in the transparency of the atmosphere, with people like those over there'; Duret describes clothed contemporary men beside a nude, and for Olympia a thin modern Parisian woman set in place of the conventional goddess, with the black cat added for the sake of a dark tone. Duret says the jury and public condemned them in 1863 and 1865 precisely because they differed from accepted practice. The unfriendly Claretie accepts the originality while rejecting the results ('a deliberate aim to astonish', 'brushwork but not pictures'), and Castagnary calls him head of a school with 'incontestable influence'. Proust reports the aim as 'to be simple and clear'. Different kinds of source (friend, advocate, hostile, neutral) agree on the behaviour; kept below 85 because the strongest statements come from Manet's own circle."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_manet_duret1902, src_manet_castagnary1892, src_manet_proust1913 | 1873-1880 | friend's biography + contemporary critic + friend's memoir] Duret argues that after the public success of the Bon Bock (Salon 1873) Manet did not repeat it: in 1874 he sent the Chemin de fer, painted outdoors in a small garden, and in 1874-75 painted the large open-air Argenteuil, which provoked renewed mockery; in 1875 the Linge was painted in a garden and in 1880 he painted Pertuiset's portrait under trees after studying how sunlight under foliage colours shadows (Duret). Castagnary's 1875 review analyses the plein-air Argenteuil as an attempt that weakens the modelling of faces and hands, which shows the trial was visible to a contemporary. Duret also notes first pastels in 1874 and a lithograph and etching programme. Proust has Manet moving from dark grounds to a lighter manner after leaving Couture. Documented repeated changes of method after success, but the 'why' is largely Duret's interpretation, hence strong_inference."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_manet_duret1902, src_manet_proust1913, src_manet_zola1867 | 1850s-1860s | friend's biography + friend's memoir + contemporary advocate] Duret lists the self-directed study that followed the break with Couture: regular work at the Louvre, travel to Holland, Germany, Italy and later Spain, and close copies including a Rembrandt at Munich, Velazquez's Little Cavaliers and a Titian at the Louvre. Proust, who was with him, says he did not content himself with working at Couture's by day but attended Suisse's academy in the evening and made Sunday trips out of Paris, describing him as 'the searcher constantly looking for what could teach him'. Zola (1867) says he works with great intensity and without discouragement. Several consistent accounts of continued learning from others' work, but they describe the 1850s mostly and the later record centres on exhibiting, so confidence is moderate."
+    },
+    "perfectionism": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_manet_duret1902, src_manet_castagnary1892, src_manet_proust1913 | 1868-1880 | friend's biography (firsthand sitter) + contemporary critic + friend's memoir (firsthand sitter)] Duret sat for him in 1868 and describes that when the small portrait seemed finished Manet was not satisfied and kept adding a stool, a book, a lacquer tray with carafe and glass and finally a lemon until the picture pleased his eye; he also says Manet repainted the Execution of Maximilian a third time because the first two did not match the exact information he had gathered. Castagnary (1875) writes that Manet spares neither time nor trouble and parts with a canvas only when he judges he has reached the aim he set. Proust, also a sitter, says his portrait took seven or eight canvases before it came in one go in 1880. The standard is Manet's own (the same sources call him dissatisfied with grey monochrome), not a finish valued by the Salon, so it is held in the mid-60s."
+    },
+    "aesthetic_sensitivity": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_manet_duret1902, src_manet_proust1913, src_manet_zola1867 | 1860s-1882 | friend's biography + friend's memoir + contemporary advocate] Documented behaviour about how things look: Duret describes his 'instinctive and organic way of seeing', adding colour notes to a grey portrait because the monochrome did not please his eye, and placing still-life passages of bright, contrasting colour in several pictures including the Bar aux Folies-Bergere. Proust records his insistence on the frame ('without the frame, painting loses a hundred per cent'), on a separate panel with space between frames for any work shown in a museum, and his habit of clicking his tongue in front of works by Jongkind, Monet, Degas, Pissarro, Morisot, Cassatt and others as 'the supreme sign of admiration'. Zola says he had an innate need for distinction and elegance that shows in his work. Occupation alone is not used as evidence; the instances are specific. Moderate score because the sources are friends, and Proust's quoted words are reconstructed."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_manet_proust1913, src_manet_zola1867, src_manet_duret1902, src_manet_hourticq1912 | 1863-1882 | friend's memoir + contemporary advocate + friend's biography + later monograph] Proust quotes Manet that the Salon is 'the real field of battle', where one must measure oneself against others, and that he disliked the small chapels of group exhibitions; Hourticq (1912) writes that on the point of the Impressionists' group show Manet thought it necessary to force the doors of the Salon and hang beside his adversaries. Zola (1867) says Manet had always dreamed of success as it grows in Paris, with the compliments of women and welcome of the salons. Proust prints his 1880 letter to him complaining that his portrait was badly hung and judged 'worse', and says the Salon of 1880 was a disappointment when the jury withheld a second medal. Duret shows him sending work to the Salon repeatedly between 1861 and 1882. Drive for concrete, public marks of success is documented across four accounts, but from his circle; the same sources describe indifference to honours in other passages, so held at 68. Political connections that produced the 1881 medal and decoration are incidental and not scored."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_manet_proust1913, src_manet_duret1902, src_manet_castagnary1892, src_manet_claretie1874 | 1850s-1880 | friend's memoir + friend's biography + two contemporary critics] Evidence runs both ways, so the score is deliberately low-confidence. He stayed in open disagreement with Couture over several years and, according to Proust, with models and, once, with the critic Duranty (a duel with swords, told only by Proust, who says the pair then reconciled). He kept showing work under sustained ridicule (Duret; Claretie and Castagnary describe the reception). Against that, Proust says the Olympia attacks hurt him deeply, that he went out less afterwards and avoided the newspapers, and Duret describes how in 1877, after the 1876 refusals, he sent only studio pictures to get past the jury. Staying in the dispute with the public is documented; comfort with personal confrontation is only partly so."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_manet_proust1913, src_manet_hourticq1912, src_manet_duret1902 | 1856-1882 | friend's memoir (quoting Manet) + later monograph + friend's biography] Proust quotes Manet refusing, at the end of his life, to enter a museum piecemeal: he would not have a single picture at the Luxembourg unless the work was shown whole and with a panel to itself, and he turned down a proposal that the state buy one via a friend as a way round Parliament. He also says Manet would not join the group exhibitions of the day. Hourticq reports that Manet did not take part in the 1874 Impressionist exhibition because he wished to force entry to the Salon rather than form an independent group; his own 1867 preface says he sought 'to be himself and not another'. Wanting control of terms is shown, but Manet also sought the official Salon's approval throughout, so the autonomy is partial and the score modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에두아르 마네"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q40599 returned en label 'Edouard Manet', description 'French painter (1832-1883)', P569 23 Jan 1832, P570 30 Apr 1883, ko label, P18 'Edouard Manet, en buste, de face - Nadar.jpg'; matches the intended person. SLUG CHECK: edouard-manet not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupation painter and artist, fieldIds art (field.art exists), regionCode western_europe, nationality FR, era 19th_century, tags innovator and independent, archetype creative_creator (all existing ids; same pattern as claude-monet and edgar-degas). EVIDENCE READ (seven substantive records opened and read locally, Wikidata for identity only): Proust 1913 souvenirs (friend, about two thirds read), Duret 1902 first biography (friend; Couture chapter, 1863-1867, 1874-1882 Salon chapters, Monet letter, late work read; catalogue not read), Zola 1867 essay (advocate; biographical and argument sections read), Claretie 1874 (hostile-sceptical contemporary critic; Manet chapter and the 1865 Salon passage), Castagnary Salons (contemporary critic; 1873-1876 Manet reviews), Hourticq 1912 English monograph (later independent; 1863-1882 narrative). PERSPECTIVES: friend (Proust, Duret), advocate (Zola), hostile/sceptical contemporary (Claretie, quoted Mantz via Duret), sympathetic-critical contemporary (Castagnary), later independent (Hourticq). Duret's account of the Couture years leans on Proust and is not counted as independent; Duret and Proust contradict each other on who obtained the 1884 retrospective hall (a useful sign that Duret did not simply copy Proust). Manet's own words appear only through Proust and Duret (the 1867 printed preface, the 1875 letter to Duret, the 1880 letter to Proust). NOT ACCESSIBLE (lending-restricted or bot-walled; not bypassed): Tabarant 'Manet et ses oeuvres', Berthe Morisot's correspondence, T. J. Clark, Beatrice Farwell, Francoise Cachin and the 1983 Grand Palais/Met catalogue (Internet Archive lending copies), Met Museum essays (rate-limited), Mallarme's 1876 article, Paul de Saint-Victor, Bazire 1884. DELIBERATELY UNSCORED: his illness and death (locomotor ataxia, amputation) are not used for any row or text; Commune and National Guard service, the 1881 Legion of Honour and medal arranged through his friend Proust are incidental and unscored (zero-politics); relationship with Baudelaire and Morisot not scored (only incidental mentions in the sources read); Suzanne Leenhoff and private life not used. ROWS CONSIDERED AND LEFT UNSCORED: risk_tolerance (pavilion cost against family wealth, mixed), competitiveness (overlaps achievement_drive; one duel anecdote), adaptability and decisiveness (the 1877 tactical choice is Duret's interpretation), collaboration (help to Monet against abstention from group shows, mixed), persuasiveness (the 1867 preface did not persuade), discipline (Zola's intense work against Proust's idle periods), curiosity, execution_speed, detail_orientation. CALIBRATION: 11 rows, scores 60-80, confidence 0.48-0.66; highest is creative_originality 80 (documented, friend plus advocate plus hostile plus neutral critic); nothing at or above 85 and nothing above 0.66 confidence. conflict_tolerance (60/0.48) is the row I am least sure of because the evidence cuts both ways. No eligibility, coverage or match output was computed or used. PORTRAIT: Nadar photograph of Manet, bust, full face, enlargement by Paul Nadar, BnF Estampes et photographie FOL-EO-15 (9), Gallica ark btv1b10535676j: the Gallica record (OAI and HTML) gives creator Nadar (1820-1910), rights 'domaine public' and no copyright notice; Commons wikitext uses PD-old-100-expired and names Gallica as source; Commons file is a digital restoration by Adam Cuerden (no separate notice claimed; restoration of a public-domain photograph). The BnF date field is only '18..' with subject heading Portraits 1800-1869; Commons says before 1870; filename uses 1860s. Downsized from 4701x6253 to 1203x1600 (JPEG q85) with Pillow; opens and was viewed. Kind likeness (photograph of the sitter). No conflicting institutional rights notice was found; rights chain rests on the photographer's death date and the BnF public-domain field."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/edouard-manet-nadar-1860s.jpg",
+    "width": 1203,
+    "height": 1600,
+    "source": "Bibliotheque nationale de France, departement Estampes et photographie, FOL-EO-15 (9), digitised on Gallica (ark:/12148/btv1b10535676j): photograph of Edouard Manet, bust, full face, by Nadar, enlargement by Paul Nadar (positive print, 39.6 x 29.8 cm), via the Wikimedia Commons file 'Edouard Manet, en buste, de face - Nadar.jpg'",
+    "license": "Public domain (Nadar died 1910; BnF Gallica rights field: public domain)",
+    "licenseUrl": "https://gallica.bnf.fr/ark:/12148/btv1b10535676j",
+    "attribution": "Nadar (Gaspard-Felix Tournachon), photograph of Edouard Manet, before 1870 (BnF catalogue date given only as 18..; subject heading Portraits 1800-1869), enlargement by Paul Nadar; Bibliotheque nationale de France / Gallica; digital restoration (dust and stain removal) by Adam Cuerden on Wikimedia Commons, no separate rights claimed",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet,_en_buste,_de_face_-_Nadar.jpg",
+    "creator": "Nadar (Gaspard-Felix Tournachon, 1820-1910); enlargement by Paul Nadar",
+    "date": "before 1870",
+    "kind": "likeness",
+    "sourcePageUrl": "https://gallica.bnf.fr/ark:/12148/btv1b10535676j"
+  }
+}

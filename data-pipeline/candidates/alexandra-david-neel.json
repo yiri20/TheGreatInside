@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alexandra-david-neel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alexandra David-Néel",
+    "aliases": [
+      "Alexandra David-Neel"
+    ],
+    "wikidataId": "Q230456",
+    "birthYear": 1868,
+    "deathYear": 1969,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "writer",
+      "scholar"
+    ],
+    "fieldIds": [
+      "exploration",
+      "literature"
+    ],
+    "impactDomains": [
+      "historical",
+      "literary"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dneel_wikidata",
+      "kind": "wikidata",
+      "title": "Alexandra David-Néel (Q230456) -- verified live via wbgetentities (2026-10-08): en label 'Alexandra David-Néel', description 'French explorer, spiritualist, Buddhist, Taoist, anarchist and writer', P569 24 Oct 1868, P570 8 Sep 1969, citizenship France (Q142), instance of human, ko label '알렉상드라 다비드넬', P18 'Alexandra David-Neels.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q230456"
+    },
+    {
+      "id": "src_dneel_wikipedia",
+      "kind": "wikipedia",
+      "title": "Alexandra David-Néel -- English Wikipedia article, read as orientation only (chronology, the Denys controversy); not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Alexandra_David-N%C3%A9el"
+    },
+    {
+      "id": "src_dneel_journey1927",
+      "kind": "archive",
+      "title": "Alexandra David-Néel, My Journey to Lhasa (London: Heinemann, 1927), Internet Archive full text (Digital Library of India scan) -- SELF SOURCE, her own narrative of the 1923-24 journey, with an introduction describing earlier failed attempts. Read locally: the introduction, Chapter I (departure and disguise), the Po country robber episodes, the starvation and boot-mending passage, the Lhasa New Year passages and the final chapter. It is the main source for the journey itself and has been questioned by later writers; used only for what she says she did.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.40184"
+    },
+    {
+      "id": "src_dneel_journey_harper",
+      "kind": "archive",
+      "title": "Alexandra David-Néel, My Journey to Lhasa (New York and London: Harper & Brothers, 1927; copyright notice 1927, printed in the U.S.A.), Internet Archive scan (myjourneytolhasa00davi_2) -- used for the frontispiece portrait and publication facts only.",
+      "url": "https://archive.org/details/myjourneytolhasa00davi_2"
+    },
+    {
+      "id": "src_dneel_magic",
+      "kind": "archive",
+      "title": "Alexandra David-Néel, Magic and Mystery in Tibet (English edition 1932; Internet Archive full text, Archaeological Survey of India scan) -- SELF SOURCE on her years in Sikkim: study of the Tibetan language with grammars, dictionaries and a hermit lama, the lama's written examination of her knowledge of Buddhism, and her decision to cross China to Kumbum. Read locally in the relevant chapters; supernatural claims are not used.",
+      "url": "https://archive.org/details/2015.107735.-magic-and-mystery-in-tibet"
+    },
+    {
+      "id": "src_dneel_gesar",
+      "kind": "archive",
+      "title": "Alexandra David-Néel and Lama Yongden, The Superhuman Life of Gesar of Ling (London: Rider, 1933), Internet Archive full text, with a preface by Sylvain Lévi, Professor of Sanskrit at the Collège de France -- SELF SOURCE for the fieldwork (daily sittings of more than six weeks with a bard, manuscripts and notes from other bards), plus a short THIRD-PARTY preface by a senior French orientalist. Read locally: the preface, the introduction's account of how she found the epic and the sittings, and the note on her sources.",
+      "url": "https://archive.org/details/dli.pahar.2549"
+    },
+    {
+      "id": "src_dneel_karttunen",
+      "kind": "institution",
+      "title": "Klaus Karttunen (Professor of Indology, University of Helsinki), 'DAVID-NÉEL, Alexandra', Persons of Indian Studies (whowaswho-indology.info) -- INDEPENDENT, SCHOLARLY and SCEPTICAL reference entry (read in full): confirms the 1911-25 stay and the 1912 audience with the 13th Dalai Lama, says her books are popular but 'no scholarly studies', that numerous points are controversial and that the extent of her travels has been questioned, yet that she knew Tibetan culture and religion well.",
+      "url": "https://whowaswho-indology.info/?p=1490"
+    },
+    {
+      "id": "src_dneel_hertog2024",
+      "kind": "press",
+      "title": "Judith Hertog, 'Journey to Tibet: Retracing the footsteps of the French adventurer Alexandra David-Néel', Tricycle: The Buddhist Review, Fall 2024 -- modern INDEPENDENT magazine feature by a writer who visited her starting village; mixed in tone (admiring of the journey, critical of her arrogance and orientalism). Read in full (it is partly behind a subscription wall; the visible text was read). Used for the dates, the twelve-plus years in Asia, the earlier attempts turned back at the border, and the critical view.",
+      "url": "https://tricycle.org/magazine/alexandra-david-neel-tibet/"
+    },
+    {
+      "id": "src_dneel_guy1995",
+      "kind": "press",
+      "title": "David Guy, 'The Unlikely Story of Alexandra David-Néel', Tricycle: The Buddhist Review, Fall 1995 -- INDEPENDENT magazine profile drawing on the biographer Ruth Middleton; sympathetic, partly behind a subscription wall (visible text read). Used for the independent-scholar and disguise details; it also says she fired a pistol at robbers, which her own book does not, so the retellings differ.",
+      "url": "https://tricycle.org/magazine/alexandra-david-neel/"
+    },
+    {
+      "id": "src_dneel_gale",
+      "kind": "biography",
+      "title": "'Alexandra David-Néel', in Gale's biographical reference as reproduced on Encyclopedia.com -- INDEPENDENT reference biography (read in full): the 1912 audience with the 13th Dalai Lama, the cave in Sikkim, the 1916 crossing into Tibet and deportation, the 1924 arrival at Lhasa, and the 1927 reception, including the New York Times review of 12 June 1927 by Alma Luise Olson, which found the account fascinating but vague.",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/other-religious-beliefs-biographies/alexandra-david-neel"
+    },
+    {
+      "id": "src_dneel_li2001",
+      "kind": "institution",
+      "title": "Li Lianrong, 'History and the Tibetan Epic Gesar', Oral Tradition 16/2 (2001), 317-342 (open-access PDF) -- INDEPENDENT scholarly article on Chinese Gesar research, read in full; reports that the ethnologist Li Anzhai helped David-Néel and Lama Yongden while they investigated Gesar in Sichuan and wrote an article praising their work, and that their Gesar book was read by later Chinese scholars.",
+      "url": "https://journal.oraltradition.org/wp-content/uploads/files/articles/16ii/Li_Lianrong.pdf"
+    },
+    {
+      "id": "src_dneel_springfield1927",
+      "kind": "press",
+      "title": "'A Woman in Tibet', review of My Journey to Lhasa, Springfield Weekly Republican (Springfield, Mass.), 16 June 1927, p. 8, Library of Congress Chronicling America OCR text -- INDEPENDENT contemporary review (read in full): calls the narration good but 'thin', notes the map is too sketchy to follow, and repeats the publisher's claim that she was the first white woman in Lhasa ('we are told').",
+      "url": "https://www.loc.gov/resource/sn83020847/1927-06-16/ed-1/?sp=8"
+    },
+    {
+      "id": "src_dneel_evestar1925",
+      "kind": "press",
+      "title": "Alexandra David-Néel, serialised extract from her Lhasa journey, Evening Star (Washington, D.C.), 16 August 1925, Library of Congress Chronicling America OCR text -- her own text with the paper's introduction, read for the dated 1925 reception only; the OCR is partly garbled.",
+      "url": "https://www.loc.gov/resource/sn83045462/1925-08-16/ed-1/?sp=75"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dneel_journey1927, src_dneel_hertog2024, src_dneel_gale, src_dneel_karttunen | 1911-1925 | self narrative + independent magazine feature + reference biography + scholarly entry] Several dated efforts continued through setbacks. In her introduction she says an earlier try ended when her luggage betrayed her near the Salween frontier and Yongden was stopped, and that she then swore to reach Lhasa; when Tibetan officials near Kanze ordered her back while she was ill she refused to retrace her steps and argued for days until she was allowed on to Jakyendo; and she describes the 1923-24 trek with a snow-blocked pass, days of near-starvation and a night march after a wrong path. Hertog independently says she had spent more than twelve years in Asia and had twice joined caravans to Lhasa but was turned back at the border; Karttunen and the Gale biography confirm the 1911-25 span. The journey narrative is her own and has been questioned (Karttunen), so kept at strong_inference and 0.62."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_dneel_journey1927, src_dneel_gale, src_dneel_hertog2024, src_dneel_karttunen | 1916-1924 | self narrative + reference biography + independent feature + scholarly entry] She knowingly crossed bans with real penalties. In 1916 she went into Tibet to meet the Panchen Lama without permission and the British authorities gave her fourteen days to leave Sikkim (her account; Gale and Hertog say she was deported or expelled; Karttunen notes she quarrelled with the British authorities). In 1923-24 she travelled disguised through a country that stationed troops on its border, carrying gold hidden under her clothes, and says she calculated what discovery would cost (Hertog describes the border guards). Dual_edged because the 1916 crossing cost her a base in Sikkim. Strong_inference because the detail is largely her own account."
+    },
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dneel_journey1927, src_dneel_guy1995, src_dneel_hertog2024 | 1923-1924 | self narrative + independent magazine profile + feature] Several improvised solutions in her own narrative: dismissing the two coolies by pretending her feet hurt so that she and Yongden could assume their pilgrim disguise unseen; when seven robbers took Yongden's two rupees and moved to open his load she says she wept and invoked fearsome Tibetan deities until they returned the coins and asked for a blessing; mending worn boots on a snow-bound trek with a lama who had no cobbling skills; and, when a policeman stared at her in the Lhasa market, haggling loudly over a saucepan in a borderland manner until she was laughed off as a herdswoman. Guy and Hertog independently describe the disguise and the pilgrim persona, and Guy says she was fluent in Tibetan and knew the city she claimed to come from. The episodes are self-reported, so confidence stays at 0.60."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_dneel_guy1995, src_dneel_journey1927, src_dneel_karttunen, src_dneel_hertog2024 | 1911-1946 | independent profile + self narrative + scholarly entry + feature] Repeated choices to work outside institutions and against prohibitions. Guy calls her a scholar who for many years worked as an independent scholar with no institutional support; her own introduction frames the Lhasa journey as a protest against the closure of Tibet ('any honest traveller has the right to walk as he chooses') and says she refused an official order to retrace her steps; Karttunen records that she quarrelled with the British authorities and missionaries in Sikkim; Hertog says being told something was forbidden provoked her. Dual_edged because the same stance cost her her Sikkim base in 1916. Private life is deliberately not used."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dneel_gesar, src_dneel_li2001, src_dneel_magic, src_dneel_karttunen | 1912-1930s | self accounts + independent scholarly article + reference entry] Documented self-directed inquiry. In her Gesar book she describes finding that the Gesar epic was a living oral tradition among bards, then arranging private sittings with a bard for more than six weeks, two a day of about three hours, noting the recitation with Yongden and comparing it with manuscripts she collected. Li Lianrong independently reports that the ethnologist Li Anzhai helped her and Yongden while they investigated Gesar in Sichuan and wrote an article praising their work. In Magic and Mystery she describes seeking out a hermit lama and asking about hermits' practices (the Dalai Lama audience is not used because it rests on her account). Karttunen says she knew Tibetan culture and religion well. Kept at 0.56 because most detail is self-reported."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dneel_magic, src_dneel_gesar, src_dneel_karttunen, src_dneel_guy1995 | 1912-1933 | self accounts + scholarly entry + independent profile] Long, deliberate skill-building. She writes that she studied Tibetan with grammars, dictionaries and daily talks and readings with a hermit lama (Magic and Mystery), says a Sikkimese lama tested her with a written list of questions on Buddhist doctrine and that she passed,; Sylvain Lévi, a Collège de France professor, thanks her in his preface to the Gesar book for noting down the bards' recitations. Karttunen says she knew Tibetan culture and religion well although her books are not scholarly studies and some claims are unconvincing; Guy says she studied in libraries and meditation halls for years. Kept below 72 and at 0.56 because of that mixed independent verdict."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alexandra-david-neel-unknown-1927.jpg",
+    "width": 1161,
+    "height": 1600,
+    "source": "Frontispiece 'Madame Alexandra David-Neel' in the first US edition of My Journey to Lhasa (New York and London: Harper & Brothers, 1927), Internet Archive scan myjourneytolhasa00davi_2, cropped from the page scan and downsized from about 1520x2095",
+    "license": "Public domain (US publication 1927)",
+    "licenseUrl": "https://en.wikipedia.org/wiki/Copyright_Term_Extension_Act",
+    "attribution": "Photographer not credited; portrait published as the frontispiece of Harper & Brothers, 1927 (copyright notice 1927, printed in the U.S.A.). Works published in the United States in 1927 entered the US public domain on 1 January 2023. No upstream institutional rights note was found on the Internet Archive item.",
+    "attributionUrl": "https://archive.org/details/myjourneytolhasa00davi_2",
+    "creator": "Unknown (photographer not credited in the book)",
+    "date": "before April 1927",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/myjourneytolhasa00davi_2"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알렉상드라 다비드넬"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE 2026-10-08 via Wikidata wbgetentities: Q230456, en 'Alexandra David-Néel', 'French explorer, spiritualist, Buddhist, Taoist, anarchist and writer', 1868-1969, France, ko label '알렉상드라 다비드넬'. SLUG CHECK: not in scratch/prod_slugs.txt and no earlier candidate file. CLASSIFICATION: explorer/writer/scholar; fieldIds exploration and literature (both have field.* keys); religion and politics deliberately not used. Zero-politics: her early anarchist writing and views, and her Buddhist religious practice, are incidental and unscored; so are her marriage, relationship with Yongden and the Denys allegations beyond what sources document. EVIDENCE READ (13 records: 2 orientation, 11 substantive or contextual): her own books My Journey to Lhasa (introduction, Ch. I, robbers, starvation and Lhasa passages, final chapter), Magic and Mystery in Tibet (Sikkim chapters) and The Superhuman Life of Gesar of Ling (preface and introduction); independent: Karttunen's scholarly reference entry, Hertog (Tricycle 2024), Guy (Tricycle 1995, drawing on Middleton), the Gale biography on Encyclopedia.com (reporting the NYT review), Li Lianrong's Oral Tradition article (read in full), Sylvain Levi's preface, and the 1927 Springfield Republican review; the 1925 Evening Star serialisation was read for dating only. INDEPENDENT PERSPECTIVES: Karttunen (sceptical scholar), Hertog (modern critical journalist), Guy (sympathetic profile), Li (Chinese Gesar scholarship), Lévi (preface), contemporary reviewer. NOT ACCESSIBLE: Barbara and Michael Foster, The Secret Lives of Alexandra David-Neel / Forbidden Journey (Internet Archive borrow-only; Scribd page not readable); Ruth Middleton's biography (only via Guy); Peter Hopkirk, Trespassers on the Roof of the World (borrow-only); Jean Chalon; the Fondation/Maison Alexandra David-Néel in Digne; Jeanne Denys's book. Sir Charles Bell's Portrait of the Dalai Lama (1946) was read in full text and does not mention her, so it is not used. The Lhasa narrative rests heavily on her own account; Karttunen says the extent of her travels has been questioned, so confidence is capped at 0.62 and every Lhasa-specific claim in editorial is hedged. SCORING: six sparse rows from behaviour; no row targets coverage; supernatural, spiritual-attainment and political material not scored. PORTRAIT: the Calcutta studio 1924 photo, the 1924 Potala photo held by the Digne house, and the 1920s Commons images were rejected because the Commons PD templates (PD-anon-expired, PD-1923) have no documented first publication and the holder (Maison Alexandra David-Néel) is not an open licensor; the Preus museum 1933 CC BY 2.0 image is only 355x652. The chosen image has a documented 1927 US publication."
+  }
+}

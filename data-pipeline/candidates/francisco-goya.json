@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "francisco-goya",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Francisco de Goya",
+    "aliases": [
+      "Francisco Goya",
+      "Francisco José de Goya y Lucientes"
+    ],
+    "wikidataId": "Q5432",
+    "birthYear": 1746,
+    "deathYear": 1828,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_goya_wikidata",
+      "kind": "wikidata",
+      "title": "Francisco Goya (Q5432) -- verified live via wbgetentities (2026-10-08): en label 'Francisco Goya', description 'Spanish painter and printmaker (1746-1828)', born 30 Mar 1746, died 16 Apr 1828, citizenship Spain, ko label '프란시스코 데 고야'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q5432"
+    },
+    {
+      "id": "src_goya_matheron1858",
+      "kind": "biography",
+      "title": "Laurent Matheron (Bordeaux critic), 'Goya' (Paris: Schulz et Thuillie; Bordeaux: Gounouilhou, 1858), Internet Archive scan goya00ferrgoog -- EARLY FRIEND-OF-FRIENDS BIOGRAPHY drawn from Goya's Bordeaux circle (Brugada, Moratin's acquaintances, the Weiss household); anecdotal, admiring and often corrected by later archival work (its Inquisition story and the pistol/gutter anecdotes are retellings and are NOT used as support). Read the Bordeaux chapter (arrival, daily habits, miniatures and lithographs), the sections on the Caprichos, Tauromaquia and Disasters, and the closing catalogue; the early chapters were skimmed.",
+      "url": "https://archive.org/details/goya00ferrgoog"
+    },
+    {
+      "id": "src_goya_vinaza1887",
+      "kind": "archive",
+      "title": "Cipriano Munoz y Manzano, Conde de la Vinaza, 'Goya: su tiempo, su vida, sus obras' (Madrid: Tipografia de Manuel G. Hernandez, 1887), Internet Archive scan goyasutiemposuv00vinagoog -- ARCHIVAL BIOGRAPHY AND DOCUMENT COLLECTION that prints Goya's own 1781 memorial to the Pilar building board, the royal licences, the 1803 royal order for the Caprichos and Goya's letter of 9 October 1803, with letters to Martin Zapater; Spanish academic-institutional standpoint. Read the Pilar-dispute documents (c. pp. 160-175), the Court and 1803 Calcografia passages and the Caprichos chapter opening; the catalogue was only skimmed.",
+      "url": "https://archive.org/details/goyasutiemposuv00vinagoog"
+    },
+    {
+      "id": "src_goya_stokes1914",
+      "kind": "biography",
+      "title": "Hugh Stokes, 'Francisco Goya: A Study of the Work and Personality of the Eighteenth Century Spanish Painter and Satirist' (London: Herbert Jenkins, 1914), Internet Archive scan franciscogoyastu00stokuoft -- ENGLISH COMPILER-CRITIC who weighs the earlier biographers against each other, quotes Moratin's letters of 1824-1825 and Goya's letters of 1794, 1803, 1824 and 1825 (as printed by Lafond in the Gazette des Beaux-Arts), and rejects the 'keys' to the Caprichos. Read the chapters on the Caprichos (XIV), the Peninsular War (XVII), retirement 1818-1823 (XVIII) and Bordeaux and Paris (XIX); the others were sampled.",
+      "url": "https://archive.org/details/franciscogoyastu00stokuoft"
+    },
+    {
+      "id": "src_goya_yriarte1867",
+      "kind": "biography",
+      "title": "Charles Yriarte (French art critic), 'Goya: sa vie, son oeuvre' / 'Goya: sa biographie, les fresques, les toiles, les tapisseries, les eaux-fortes et le catalogue de l'oeuvre' (Paris: Henri Plon, 1867), Internet Archive scans bub_gb_P8ArAAAAYAAJ and gri_33125004500100 -- FIRST FULL FRENCH BIOGRAPHY, built on Spanish archive documents and Goya's own manuscript commentary to the Caprichos; critical of Goya as well as admiring (calls his preface to the Caprichos 'a little hypocritical' and his Bordeaux commentary evasive). Read the Caprichos section, the sections on the Disasters, the Prisoners and the Bordeaux years; other parts were skimmed.",
+      "url": "https://archive.org/details/bub_gb_P8ArAAAAYAAJ"
+    },
+    {
+      "id": "src_goya_zapater1860",
+      "kind": "biography",
+      "title": "Francisco Zapater y Gomez (Aragonese scholar, kinsman of Goya's correspondent Martin Zapater), 'Goya: noticias biograficas' (Madrid, 1860; the Internet Archive scan goyanoticiasbibl00zapa), -- PARTISAN CORRECTIVE written to refute Matheron's and Yriarte's romantic legends (duels, flights from the Inquisition) with the original letters of Goya to Martin Zapater and the Pilar papers in family hands; defensive of Goya and of Aragonese pride. Read the whole text up to 1784 (letters of 1775-1784, the 1781 Pilar dispute, the San Francisco el Grande competition); the later pages were skimmed.",
+      "url": "https://archive.org/details/goyanoticiasbibl00zapa"
+    },
+    {
+      "id": "src_goya_lafond1902",
+      "kind": "biography",
+      "title": "Paul Lafond (Paris art historian and museum curator), 'Goya' (Paris: Librairie de l'Art ancien et moderne / Laurens, 1902), Internet Archive scan goya00lafo (French, poor OCR) -- SPECIALIST BIOGRAPHY from the Bordeaux civil and Spanish palace archives (royal leave documents of 1824-1826, burial records, Moratin's circle). Read the final chapter on the return to France, Bordeaux and Goya's death; the earlier chapters were not read in full.",
+      "url": "https://archive.org/details/goya00lafo"
+    },
+    {
+      "id": "src_goya_calvert1908",
+      "kind": "biography",
+      "title": "Albert F. Calvert (English art writer), 'Goya: An Account of His Life and Works' (London: John Lane, 1908), Internet Archive scan goyaaccountofhis00calv -- popular English synthesis that repeats Matheron and Yriarte and, on the Caprichos, records the 1799 prospectus and the Inquisition story while noting 'unknown reasons' for the issue not proceeding. Read only the pages on the Caprichos, the 1803 sale and the return of Ferdinand VII (c. pp. 85-109); used for context, not as support for a scored row.",
+      "url": "https://archive.org/details/goyaaccountofhis00calv"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goya_stokes1914, src_goya_lafond1902, src_goya_matheron1858, src_goya_vinaza1887 | 1824-1825 | contemporary letters of Moratin as quoted by two later authors + royal-leave documents + Bordeaux-circle biography] In May 1824 Goya (aged 78) obtained six months' royal leave 'to take the waters of Plombieres' (document printed by Vinaza), travelled to Bordeaux alone and without French, and went on to Paris, where Stokes (following Lafond) says he looked at the year's pictures and studios, met Horace Vernet, and was moved to paint two portraits; Moratin wrote on 27 June 1824 that he was 'very anxious to see the world' (via Stokes). Lafond reports that the Paris stay served to study French painting and that he never actually went to Plombieres. In Bordeaux he took up lithography and ivory miniatures with a new printer and a self-invented technique (Matheron, Stokes quoting Goya's letter of 20 December 1825). Several dated instances from a friend's letters and later archive-based authors; the contents of what he saw in Paris are not documented (Stokes: 'would that we had his comments'), so the score rests on the travel and the new media, not on any recorded opinion."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goya_stokes1914, src_goya_yriarte1867, src_goya_matheron1858 | 1797-1825 | critic-compiler + first full biography + Bordeaux-circle biography + Goya's own words] Stokes and Yriarte both cite Goya's draft prospectus for the Caprichos (from Carderera's papers), in which he says he has not tried to imitate other people's work or copy nature but to show 'forms and movements existing only in the imagination'; the plates (witches, animals acting as people, hybrid beings) bear that out, and Stokes notes that the plates were prepared from drawings and not left to the inspiration of the moment. Matheron records that for the Bordeaux lithographs Goya covered the stone with a grey tint and scraped the lights out of it, and that his ivory miniatures were made by letting a drop of water run over blackened ivory; Goya himself writes on 20 December 1825 that his method of painting miniatures 'is original, and I have not seen it used elsewhere' (via Stokes). Critics are not uniform: Ruskin and Hamerton, quoted by Stokes, condemn the work as morally ugly or technically clumsy, but they dispute the value, not that the invention was unusual. Not scored higher because the Bordeaux miniature claim is self-described and Matheron's account of the technique is a single retelling."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goya_stokes1914, src_goya_matheron1858, src_goya_yriarte1867 | 1790s-1826 | critic-compiler + Bordeaux-circle biography + first full biography] Stokes says Goya 'ever ready for an artistic experiment' used the then comparatively new aquatint extensively in the Caprichos (several plates are in pure aquatint) and quotes a historian of aquatint calling him master of the mixed method; at 73 he took up lithography (dated stones of February-March 1819, per Stokes) and, after meeting the Bordeaux printer Gaulon, made the large Bulls of Bordeaux of 1825 with the stone set on an easel like a canvas (Matheron, Stokes); Matheron adds that in Bordeaux he painted with knife and rag rather than brush and made ivory miniatures, and Stokes notes that some of these 'experiments do not add to his reputation' and that many paintings are perfunctory. Several media, a long period, and a critic who counts the failures; the score does not credit the quality of the results."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_goya_vinaza1887, src_goya_zapater1860, src_goya_stokes1914, src_goya_matheron1858 | 1781-1803 | printed memorial + biography of a relative of the correspondent + critic-compiler + Bordeaux-circle biography] In his 1781 memorial to the Pilar building board (printed by Vinaza) Goya rejects judging his frescoes by anything other than 'the authorised rules of art' and, more tellingly, refuses to be reduced to a 'mere executor and mercenary dependent' of his brother-in-law Bayeu: a documented insistence on his own judgment of the work. Matheron's and Stokes's reports of his later sayings ('nature is the only master of drawing', 'my only masters have been nature, Velazquez and Rembrandt') are retellings of one Bordeaux tradition and carry little weight here. In the Caprichos the draft prospectus is a deliberate refusal to follow academic imitation (Stokes). The score is strong_inference because the best-documented instance is a single dispute and its resolution was a compromise (Zapater: he later agreed to new sketches approved by Bayeu), and because Stokes finds the popular 'key' readings of the Caprichos unsupported."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_goya_vinaza1887, src_goya_zapater1860, src_goya_matheron1858, src_goya_lafond1902 | 1781-1826 | printed memorial + relative's biography + Bordeaux-circle biography + archive biography] The 1781 Pilar memorial shows him unwilling to work under Bayeu's direction as a dependent; Zapater adds that, writing from Madrid after the dispute, Goya told his friend that remembering Zaragoza and painting there made his 'bile burn'. Matheron, drawing on the Bordeaux circle, writes that in his last years he painted for himself, 'less concerned than ever about the fate of his works', and Stokes (without a source) says he refused portraits except for acquaintances; Lafond and Vinaza document that he nevertheless stayed a salaried court servant (50,000 reales a year from 1799; retired on that salary on 17 June 1826) and had to ask the Crown for leave for each stay in France. dual_edged: genuine insistence on control of the work, held inside a lifelong dependence on court salary and favour. Anecdotal for the late period; strong_inference."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_goya_zapater1860, src_goya_vinaza1887, src_goya_yriarte1867, src_goya_stokes1914 | 1781-1803 | relative's biography + printed documents + critical biography + critic-compiler] In 1781 Goya put a heated written case against Bayeu and the Pilar board (Vinaza, Zapater) but then yielded when a mediator, Fr. Felix Salcedo, wrote to him and he agreed to redo the sketches with Bayeu's approval (Zapater). In 1799-1803 he published and sold satirical plates aimed at clerics and the court while employed by it (Stokes, Yriarte), then on 9 October 1803 handed the 80 plates and 240 printed sets to the Crown and thanked it for a 12,000-real pension for his son (letter printed by Vinaza and Stokes). Yriarte, a critical source, adds that Goya preferred allusions to names and 'did not dare' to explain them even at Bordeaux. Evidence shows willingness to provoke and also readiness to settle, so a moderate score; the accounts of an Inquisition inquiry are contradictory (Matheron, Yriarte and Calvert say proceedings began; Vinaza says he suffered no persecution and Stokes calls the threat unproven) and are not used."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goya_zapater1860, src_goya_vinaza1887 | 1775-1799 | Goya's own letters to Martin Zapater as printed in the 1860 biography + royal documents] Goya's letters of 1779-1784 show him pursuing royal notice: on 9 January 1779 he writes with delight of showing four pictures to the King and the Prince and Princess; on 25 July 1781 he calls the San Francisco el Grande commission 'the greatest undertaking' offered in Madrid, a 'formal competition' with Bayeu, Maella and the other court painters, and tells Zapater to make the news known to those who had doubted his merit; in 1783-84 he complains of silence from the minister Floridablanca after a portrait made 'to his satisfaction'. The royal documents printed by Vinaza record his advance to painter to the king (1786), court painter (25 April 1789) and first court painter (31 October 1799). Evidence is mostly self-reported letters to one friend, with the institutional record corroborating the career path; not scored higher because the letters are one-sided and the appointments are partly the product of patrons (Matheron says Godoy pressed for the 1799 title)."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_goya_stokes1914, src_goya_matheron1858 | December 1825 | letters of Goya as quoted by Stokes] When the large Bordeaux lithographs found no buyers in Paris, Goya wrote to Joaquin Maria Ferrer on 6 and 20 December 1825 asking him to circulate them among artists and amateurs and even to hand them to a print-dealer for a modest price, and, Stokes says, 'was not depressed' and began another bull-fight (Stokes; Matheron on the same plates). A single episode told through one letter-writer's correspondence and one later author; no systematic evidence of persistence across other setbacks is used here, and none is drawn from illness or age. strong_inference at moderate confidence."
+    },
+    "execution_speed": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_goya_stokes1914, src_goya_matheron1858 | 1824-1827 | Moratin's letter as quoted by Stokes + Bordeaux-circle biography + critic-compiler] Stokes quotes Moratin's letter of 28 June 1825 saying that Goya 'paints without rest, and without ever wishing to retouch what he paints'; Matheron says the old Goya produced a small still life 'in a turn of the hand' after a walk through the market and often painted over the previous day's picture, and Stokes records two life-size portraits finished within about eight weeks in Paris in 1824. Stokes also judges that many of his paintings are 'perfunctory in execution' and he 'was an unequal artist'. Low confidence: the evidence is one contemporary remark plus a retelling, limited to his Bordeaux years; dual_edged because the same working method is linked by Stokes to uneven quality."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프란시스코 데 고야"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE 2026-10-08: Wikidata wbgetentities for Q5432 returned en label 'Francisco Goya', description 'Spanish painter and printmaker (1746-1828)', born 30 Mar 1746, died 16 Apr 1828, citizenship Spain, ko label '프란시스코 데 고야', P18 'Vicente Lopez Portana - el pintor Francisco de Goya.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt; no earlier data-pipeline/candidates/francisco-goya.json existed. CLASSIFICATION: painter + artist, field art (field.art exists in en.ts), regionCode southern_europe (as Picasso, Gaudi), era early_modern (as Volta 1745, Jenner 1749, Lavoisier 1743), archetype creative_creator (as Manet), tags innovator and independent (both exist). EVIDENCE READ (full texts from the Internet Archive saved under scratch/work/francisco-goya/): Matheron 1858 (Bordeaux chapter, Caprichos/Tauromaquia/Disasters sections, closing catalogue), Vinaza 1887 (Pilar documents, royal orders and licences, 1803 sale letter, Third/Second of May catalogue entries, Caprichos chapter opening), Stokes 1914 (chapters XIV, XVII-XXII in full, plus the Pilar passage), Yriarte 1867 (Caprichos and Disasters sections), Zapater y Gomez 1860 (up to 1784), Lafond 1902 (the last chapter), Calvert 1908 (pp. 85-109). Seven substantive biographical records; Wikipedia/Wikidata orientation only. INDEPENDENT PERSPECTIVES: a Bordeaux-circle admirer (Matheron), a critical French biographer (Yriarte), Spanish archival documentary editing (Vinaza), a partisan relative-of-the-correspondent with the original letters (Zapater), an English critic-compiler who weighs them (Stokes) and a museum-archive specialist (Lafond). SELF SOURCES: Goya's own letters (to Martin Zapater 1775-1784, to Cean Bermudez, to Minister Soler of 9 October 1803, to his son Xavier of 24 December 1824, to Joaquin Maria Ferrer of 6 and 20 December 1825) and the 1781 Pilar memorial, read through Zapater, Vinaza, Stokes and Calvert, never as the sole perspective. NOT ACCESSIBLE: Robert Hughes 'Goya' (2003), Gassier & Wilson, Fred Licht, Valeriano Bozal (Internet Archive lending copies, full text not available), the Museo del Prado catalogue and collection pages (Cloudflare 403; not bypassed), the Metropolitan Museum essays (HTTP 429), and the primary Moratin diary and letters (read only as quoted by Stokes and Lafond); Goya's Zapater correspondence read only in the excerpts printed by Zapater y Gomez 1860 and Vinaza 1887, not in the Agueda/Sanchez Cantón edition. UNRESOLVED CONTRADICTIONS (not scored): the Inquisition inquiry over the Caprichos (Matheron, Yriarte, Calvert yes; Vinaza and Stokes say no persecution), and the pistol, gutter-sketch and Wellington anecdotes (Matheron/Stokes retellings only). DELIBERATELY EXCLUDED: any inference from the 1792-93 illness, deafness, bereavements or the Black Paintings as mental states; Joseph Bonaparte and Wellington portraits, afrancesado/patriot status and the 1814 pardon as political matters (incidental, unscored). PORTRAIT: The Met Open Access red-chalk self-portrait (CC0, isPublicDomain true, empty rights field); the Prado/Lopez portrait of 1826 on Wikimedia Commons (PD-Art, Lopez d. 1850) was not used because the Prado's own item page is bot-walled and its live rights notice could not be reconciled; the Met item is the explicit-basis alternative."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/francisco-goya-goya-1797.jpg",
+    "width": 1150,
+    "height": 1600,
+    "source": "The Metropolitan Museum of Art, Drawings and Prints, accession 1972.118.295 (Bequest of Walter C. Baker, 1971), Open Access record (Met collection API objectID 334315): 'Self-Portrait; wearing a top hat facing left within a drawn frame (recto); two studies of his face (verso)', red chalk on laid paper, ca. 1797-98; image DP800146 downsized from 2592x3605 to 1150x1600",
+    "license": "CC0 1.0 / Public Domain Dedication (The Met Open Access; Met API isPublicDomain: true, empty rightsAndReproduction field; Goya died 1828)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Francisco de Goya y Lucientes, self-portrait drawing in red chalk, ca. 1797-98; The Metropolitan Museum of Art, New York, Bequest of Walter C. Baker, 1971 (1972.118.295); Open Access",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/334315",
+    "creator": "Francisco de Goya y Lucientes (self-portrait, 1746-1828)",
+    "date": "ca. 1797-1798",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/334315"
+  }
+}

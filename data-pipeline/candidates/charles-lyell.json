@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "charles-lyell",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Charles Lyell",
+    "aliases": [
+      "Sir Charles Lyell"
+    ],
+    "wikidataId": "Q5333",
+    "birthYear": 1797,
+    "deathYear": 1875,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "communicator",
+      "independent"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lyell_wikidata",
+      "kind": "wikidata",
+      "title": "Charles Lyell (Q5333) -- verified live via wbgetentities (2026-10-08): en label 'Charles Lyell', description 'British geologist (1797-1875)', born 14 Nov 1797, died 22 Feb 1875 (a second death value of 11 Feb 1875 also appears on the item), citizenship United Kingdom, instance of human, ko label '찰스 라이엘'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q5333"
+    },
+    {
+      "id": "src_lyell_life_letters_1881",
+      "kind": "biography",
+      "title": "Katharine M. Lyell (his sister-in-law), ed., Life, Letters and Journals of Sir Charles Lyell, Bart., 2 vols (John Murray, 1881), Internet Archive scans -- FAMILY/PARTISAN compilation that prints Lyell's own letters and journals (so partly SELF testimony). Read for the 1831-1836 years in vol. 1 (the King's College chair and his wish to be free of it, the 1834 Sweden tour and sea-level marks) and for the 1858-1867 letters in vol. 2 (the March 1863 letters on Antiquity of Man and transmutation, the 1866 letter to Darwin); other chapters were searched by keyword, not read through.",
+      "url": "https://archive.org/details/cu31924012129544"
+    },
+    {
+      "id": "src_lyell_bailey1962",
+      "kind": "biography",
+      "title": "Sir Edward Bailey (former Director of the Geological Survey of Great Britain), Charles Lyell, British Men of Science series (Doubleday / Nelson, 1962-63), Internet Archive scan -- INDEPENDENT scholarly biography by a later geologist: admiring of Lyell's achievement but explicit about his errors (marine erosion of the Weald, floating-ice drift, fixity of species). Read chapters 7-11 (Principles volumes, the professorship, marriage, Darwin, the Elements) and 17-19 (antiquity of man, Origin of Species, closing years) in full; chapters 12-16 were only searched by keyword.",
+      "url": "https://archive.org/details/charleslyell002441mbp"
+    },
+    {
+      "id": "src_lyell_rudwick2008",
+      "kind": "biography",
+      "title": "Martin J. S. Rudwick (historian of geology), Worlds Before Adam: The Reconstruction of Geohistory in the Age of Reform (University of Chicago Press, 2008), Internet Archive copy (2010 printing) -- INDEPENDENT scholarly history that treats Lyell as one actor among many and quotes his critics (Whewell, Sedgwick, Conybeare, De la Beche). Read section 19.4 (Lyell in Sicily), chapters 22-24 on the reception of Principles (Scrope's and Whewell's reviews, Sedgwick's 1831 address, the 'catastrophists and one uniformitarian' section), the passage on the 1834 revision and the footnotes on Lyell's resistance to progression; the rest of the 38-chapter book was searched by keyword only.",
+      "url": "https://archive.org/details/worlds-before-adam-the-reconstruction-of-geohistory-in-the-age-of-reform-2010i"
+    },
+    {
+      "id": "src_lyell_bonney1895",
+      "kind": "biography",
+      "title": "Thomas George Bonney (geologist and Cambridge professor), Charles Lyell and Modern Geology, Century Science Series (Cassell, 1895), Project Gutenberg #34502 -- ADMIRING Victorian assessment by a fellow geologist that quotes Ramsay, Hooker, Darwin and Stanley, but also records Sedgwick's criticism that Lyell was no great field observer. Read the general assessment of his character and method and the account of the tenth edition of Principles; the narrative chapters were searched by keyword.",
+      "url": "https://www.gutenberg.org/ebooks/34502"
+    },
+    {
+      "id": "src_lyell_principles1830_33",
+      "kind": "archive",
+      "title": "Charles Lyell, Principles of Geology, being an attempt to explain the former changes of the earth's surface by reference to causes now in operation, vol. 1 (John Murray, 1830) and vol. 3 (1833), Wellcome Library scans on the Internet Archive -- SELF source (his own argument and his own coinages of Eocene, Miocene and Pliocene). Read the opening chapter's statement of method and the passages of vol. 3 that define the Tertiary periods by the proportion of living species; most of the text was not read through.",
+      "url": "https://archive.org/details/b29328123_0003"
+    },
+    {
+      "id": "src_lyell_antiquity1863",
+      "kind": "archive",
+      "title": "Charles Lyell, The Geological Evidences of the Antiquity of Man, with remarks on theories of the origin of species by variation (John Murray, 1863), Google Books scan on the Internet Archive -- SELF source. Read chapter 5-6 (Boucher de Perthes, Rigollot, the Brixham cave exploration and his own visit) and the closing chapters on species were searched by keyword.",
+      "url": "https://archive.org/details/geologicalevide07lyelgoog"
+    },
+    {
+      "id": "src_lyell_darwin_autobiography",
+      "kind": "biography",
+      "title": "Charles Darwin, Autobiography (written 1876-81; Nora Barlow / Francis Darwin editions), Project Gutenberg #2010 -- FRIEND/ALLY and SELF-INTERESTED perspective (Darwin owed much to Lyell). Read every passage naming Lyell: his mind and candour, the 1856 advice to write out the species theory, the 1858 Wallace essay and the Linnean Society reading, and Lyell's advice to avoid controversy.",
+      "url": "https://www.gutenberg.org/ebooks/2010"
+    },
+    {
+      "id": "src_lyell_dcp_1858",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project (University of Cambridge), letter from Charles Darwin to Charles Lyell, 18 [June 1858], with the editors' footnotes -- scholarly edition of the letter that forwarded Wallace's essay to Lyell, with notes that Lyell had urged Darwin in 1856 to write up his species theory and had recommended Wallace's 1855 paper. Read in full.",
+      "url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-2285.xml"
+    },
+    {
+      "id": "src_lyell_whitley1865",
+      "kind": "archive",
+      "title": "Nicholas Whitley (Honorary Secretary, Royal Institution of Cornwall), The 'Flint Implements' from Drift, Not Authentic: being a reply to The Geological Evidences of the Antiquity of Man (Truro / London, 1865), Internet Archive scan -- HOSTILE contemporary critic of Lyell's 1863 book (his central claim, that the flints are natural fractures, was later overturned). Read the preface and the sections on design, number and the Moulin-Quignon episode; used only to show what opponents said of Lyell's reasoning.",
+      "url": "https://archive.org/details/b2488053x"
+    },
+    {
+      "id": "src_lyell_psm1872",
+      "kind": "press",
+      "title": "'Sir Charles Lyell', Popular Science Monthly vol. 1 (New York, 1872), sketch with engraved portrait, Internet Archive scan (popularsciencemo01newy) -- contemporary US magazine notice, used only to check the origin of the Commons image suggested as a portrait lead; not used for any trait.",
+      "url": "https://archive.org/details/popularsciencemo01newy"
+    }
+  ],
+  "rows": {
+    "belief_updating": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[Darwin's Autobiography; Bailey 1962; Bonney 1895; Rudwick 2008; Lyell's own letters in Life, Letters and Journals and Antiquity of Man | 1833-1868 | ally + independent biography + admiring assessment + scholarly history + self] Several dated reversals on evidence. In 1833 he found Schmerling's Liege cave evidence for man with extinct animals 'far more difficult to get over' than any he had heard, and in 1859 he saw the Brixham cave excavations with Pengelly and Falconer and collected implements at Amiens and Abbeville, and accepted the antiquity (Bailey; Antiquity of Man). In 1860 he wrote 'I abandon the Old Red reptile' when the Elgin sandstone was redated (Bailey); in 1867 he told Whitaker he had changed his mind about the Weald escarpments being sea cliffs (Bailey, quoting the letter); and on species he moved from arguing against Lamarck in Principles to writing in 1865 that he had been 'forced to give up my old faith', and the tenth edition (1867-68) gives a full statement of Darwin's theory (Bailey; Bonney). Darwin calls his candour 'highly remarkable' in becoming a convert 'after he had grown old'. Limits: Rudwick notes he denied that the fossil record has a direction until after the Origin and conceded it only with reluctance, and in March 1863 he wrote that he found himself 'relapsing to my old views' on re-reading the Principles, to Darwin's disappointment (Bailey; Life, Letters and Journals). Strong and well corroborated, but slow, hence dual_edged."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[Rudwick 2008; Bailey 1962; Darwin's Autobiography; Lyell's 1830 letter to Scrope | 1828-1834 | independent scholarly history + biography + ally + self] Rudwick reports that in 1831-32 Whewell and others treated Lyell as the only uniformitarian, 'a minority of one', and that when Scrope proposed that the difference with the catastrophists was only one of degree and urged concessions, Lyell answered that on this point 'I cannot budge an inch'. Bailey adds that with wide field experience he became a convinced uniformitarian against the catastrophist majority and that he opposed von Buch's craters of elevation and Elie de Beaumont's parallel mountain chains, which Darwin says have since been forgotten largely because of him. Against that, Rudwick and Bailey show the 'existing causes' approach came from Hutton, Playfair, Prevost and Scrope (Scrope himself was unsure how original Lyell was being), and the same loyalty to uniformity kept Lyell in positions later abandoned (progression of life, marine denudation, floating ice), so the stance was both independent and a cost: dual_edged."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[Lyell's 1830 letter to Scrope in Life, Letters and Journals; Rudwick 2008; Bailey 1962; Darwin's Autobiography; Mantell's 1841 letter via Bailey | 1830-1841 | self + independent history + biography + ally + contemporary friend] On 14 June 1830 Lyell told his reviewer Scrope how to treat the Mosaic question ('If we don't irritate ... we shall carry all with us', 'It is just the time to strike') and that about half of his own history and comments had been cut because stating it openly would anticipate 'twenty or thirty years of the march of honest feeling'. Rudwick adds that he was consulted by the Quarterly's editor on who should review the book and was pleased that Scrope was likely to be positive, that he ended his history of geology 'tactfully and tactically' short of his own times, and that Sedgwick's 1831 address described him as writing 'in the language of an advocate'. Darwin credits the Principles with the way he learned to see geology on the Beagle voyage. Mantell, a friend, wrote in 1841 that Lyell had 'no faculty in speaking', so the evidence is for deliberate, written persuasion rather than oratory; dual_edged because the advocate's tone drew criticism from Sedgwick."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Darwin's Autobiography; Life, Letters and Journals (1834 Sweden letters); Rudwick 2008; Bonney 1895; Bailey 1962; Whitley 1865 | 1830-1865 | ally + family compilation printing his letters + scholarly history + admiring assessment + biography + hostile critic] Darwin says that when he put any geological remark to Lyell, Lyell 'never rested until he saw the whole case clearly' and advanced all possible objections, his mind showing 'clearness, caution, sound judgment'. In 1834 Lyell's own letters from Sweden show him measuring the stone marks cut in 1731 and 1820 to test the claim that the land is rising, allowing for the two-to-three-foot annual swing of the Baltic, cross-examining pilots and fishermen through an interpreter, and waking the pilot at dawn to repeat an observation he had judged incomplete in rough water. Rudwick notes that in the 1834 edition the subtitle became 'an inquiry how far' past changes can be explained by present causes, a recognition that the onus was on him to show adequacy case by case. Limits: Bailey lists conclusions he held for decades and later gave up (marine origin of the Weald escarpments, floating ice for drift), and the hostile Whitley (1865) complained that Antiquity of Man leaned on a colleague's authority for the claim that the flints were worked tools (a claim the later record did not support), so score and confidence are moderate."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Rudwick 2008; Life, Letters and Journals; Bailey 1962; Darwin's Autobiography; Bonney 1895 | 1821-1872 | independent history + family compilation printing his letters + biography + ally + admiring assessment] A long run of self-directed inquiries. In 1821 he rode over to meet the Sussex surgeon Gideon Mantell to see his fossils and began an intensive correspondence (Rudwick). In 1828 he went to Sicily 'to look for' a deposit of living-species shells high on Etna that people in England and Naples said he would not find, paying a man and a boy to collect more (Rudwick quoting his letter). Later come Schmerling's caves at Liege (1833), Sweden (1834), thirteen months in North America with three dozen boxes of specimens (1841-42), two further Etna visits in 1857-58 to check the evidence on craters of elevation, and in 1872, at 74, the Aurignac caves (Bailey). Darwin writes that his 'delight in science was ardent'; Ramsay, quoted by Bonney, that he was 'not afraid to learn anything from anyone'. Held at strong_inference because the pattern was also in the service of a thesis he was defending."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Bailey 1962; Life, Letters and Journals; Mantell's 1841 letter via Bailey; Darwin's Autobiography | 1829-1863 | biography + family compilation printing his letters + contemporary friend + ally] On 24 Nov 1829 he refused the new University of London chair, writing that the post should go to a man of fortune who did not hope to pay his travelling expenses from it. He accepted the King's College chair in 1831, told his family on 24 Dec 1831 of his 'decided wish to get free of the professorial chair', gave his last course in 1833 and resigned, the family account saying the duties would interfere with travelling and original research; Bailey adds that attendance had fallen and that he felt his place was that of a gentleman-scientist-author 'without strings'. Mantell wrote in 1841 that he had 'abandoned his profession, with his father's consent' to devote himself to geology. Bailey (summarising Mrs Lyell) records that in the early 1860s he declined a British Museum trusteeship, the Royal Society presidency and a parliamentary nomination to give his time to science, and in December 1836 he advised the young Darwin to work 'exclusively for yourself and for your science' and not 'prematurely incur the honour, or penalty, of official dignities'. Several dated instances from independent and family sources."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Rudwick 2008; Bailey 1962; Lyell's Principles vol. 3; Darwin's Autobiography; Mantell's 1841 letter via Bailey | 1821-1858 | independent history + biography + self + ally + contemporary friend] His work repeatedly rested on partnerships: the 1828 field tour with Murchison through Auvergne, Velay and Piedmont, which Murchison's 1831 address recalled and to which Principles vol. 3 is dedicated (Rudwick; Bailey); joint fieldwork with Mantell on the Weald from 1821 (Rudwick); a paid arrangement in Paris in 1829-30 under which Deshayes gave him a month of full-time work and two more months afterwards on fossil-shell identifications, from which the Tertiary scheme was developed (Bailey, quoting his letter); an acknowledgement in vol. 3 that Whewell helped him devise and anglicise the terms Eocene, Miocene and Pliocene; and the 1858 joint introduction, with Hooker, to the Darwin and Wallace papers (Bailey; Darwin). Darwin writes of his 'hearty sympathy with the work of other scientific men'. Limits: Mantell wrote that he 'had some reason to complain on points relating to authorship' and found Lyell lacking in warmth, and Bailey says he was never given to over-generous appreciation of others' work; the Principles was a single-author book."
+    },
+    "systems_abstraction": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[Rudwick 2008; Bailey 1962; Lyell's Principles vol. 1 and 3 | 1830-1833 | independent scholarly history + biography + self] Rudwick reports that Sedgwick, following Whewell, credited the Principles with a 'general system of geological dynamics', an inventory that put rivers, springs, volcanoes, earthquakes and the sea into one account of actual causes. Bailey explains how volume 1 links changes of climate, the shifting distribution of land and sea, and the extinction and migration of species into a single scheme, and how volume 3 sorts the Tertiary into stages by the share of living species among their shells (the principle stated in the text itself). Counter-evidence: Sedgwick argued the unifying assumption of uniform intensity was an unwarranted hypothesis, and several consequences of the scheme (no progression in the fossil record, marine erosion of the Weald) later proved wrong, hence dual_edged. Moderate confidence because the evidence is critics' and historians' description of the structure of one work, not a pattern across several."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Life, Letters and Journals (1830 letters); Rudwick 2008; Bailey 1962 | 1829-1831 | self + independent history + biography] His own letters state an aim beyond describing rocks. On 14 June 1830 he told Scrope that a review in the Quarterly could 'free the science from Moses' and that 'it is just the time to strike'; Rudwick says Scrope and Lyell valued the Quarterly because it reached the elites they most wanted to influence; Bailey records that in the opening chapter of the Principles he appeals for the divorce of geology from cosmogony, as history is divorced from theories of the creation of mankind. The cluster is confined to one phase of his career and relies on his private letters plus two secondary summaries, hence strong_inference and a moderate score."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "찰스 라이엘"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-08) for Q5333 returned en label 'Charles Lyell', description 'British geologist (1797-1875)', P569 14 Nov 1797, P570 22 Feb 1875 (and a second P570 value of 11 Feb 1875), citizenship United Kingdom (Q174193), instance of human, ko label '찰스 라이엘', P18 'PSM V01 D242 and V20 D610 Charles Lyell.jpg'; matches the intended person. SLUG CHECK: charles-lyell absent from scratch/prod_slugs.txt and from data-pipeline/candidates before this run. CLASSIFICATION: occupation scientist (no geologist occupation id exists; the Darwin and Wegener candidates use naturalist and scientist); field natural_science only (no geology field.* key exists in src/core/i18n/en.ts); impactDomains scientific and historical; tags field_researcher, communicator, independent; archetypes scientific_explorer and scholarly_specialist (as charles-darwin); all ids exist in the i18n vocabulary. ERA 19th_century, nationality GB, region western_europe (as charles-darwin; Lyell was born in Scotland but lived and worked in London). EVIDENCE READ (9 substantive records + 1 orientation + 1 portrait-lead check): Bailey 1962 (chapters 7-11 and 17-19 read; others by keyword); Rudwick 2008 (section 19.4, chapters 22-24 and selected passages and footnotes; rest by keyword); the 1881 Life, Letters and Journals (1830-1836 in vol. 1 and 1858-1867 in vol. 2, by passage); Bonney 1895 (character assessment and tenth-edition passages); Lyell's Principles vol. 1 and 3 (method statement and Tertiary definitions); Antiquity of Man chapters on Boucher de Perthes and Brixham; Darwin's Autobiography (all Lyell passages); the Darwin Correspondence Project letter of 18 June 1858 with notes; Whitley 1865 (preface and selected sections). PERSPECTIVES: (1) SELF: Lyell's own published books and printed letters (never the sole support of a row); (2) FAMILY/PARTISAN: Katharine Lyell's compilation (used mainly as the vehicle for his own letters); (3) FRIEND/ALLY: Darwin (admiring, but also records that Lyell would 'long remain dubious' over objections and, with Hooker, 'never seemed to agree' with natural selection before 1858), Mantell's 1841 letter (warm but critical; via Bailey), Ramsay and Hooker via Bonney; (4) INDEPENDENT SCHOLARLY: Rudwick (historian) and Bailey (geologist-biographer), both critical of specific errors; (5) CRITICS AND ADVERSARIES: Whewell, Sedgwick, Conybeare and De la Beche as reported by Rudwick; Sedgwick on 'advocate' language and 'deductive mind' via Rudwick and Bonney; Nicholas Whitley's hostile 1865 pamphlet read directly. NON-SELF BEHAVIOURAL sources: Rudwick, Bailey, Darwin, Mantell via Bailey, Bonney. NOT AVAILABLE / NOT READ: Leonard G. Wilson's Charles Lyell: The Years to 1841 and Lyell: The Man and his Times (not found as open full text; Wilson is cited via Rudwick only); James Secord's introduction to the Penguin Principles and Bartholomew's 'Singularity of Lyell' (cited via Rudwick footnotes only, not read); the Geological Society's 1875 obituary and presidential address were not located as open scans and were not read; Hopkins's critique was not read; Whewell's Quarterly Review essays are read only as summarised by Rudwick. Web-search summaries were not used. ROW EPISODE USE: Schmerling 1833 doubt then Brixham/Abbeville 1859, Elgin reptile 1860, Weald escarpments 1867, fixity of species to Darwin 1865-68 -> belief_updating; 'minority of one', 'cannot budge an inch', rejection of craters of elevation -> independent_thinking; 1830 Scrope letter, Lockhart review, Sedgwick 'advocate' -> persuasiveness; Sweden 1834 marks, Darwin's description of his case-testing, 'how far' subtitle -> analytical_rigor; Mantell 1821, Etna 1828, Sweden 1834, America 1841, Etna 1857-58, Aurignac 1872 -> curiosity; refusal of the chair 1829, resignation 1833, refused honours 1860s, advice to Darwin 1836 -> autonomy_need; Murchison 1828, Mantell 1821, Deshayes 1829-30, Whewell on terms, Hooker 1858 -> collaboration; Whewell/Sedgwick 'general system of geological dynamics' and Tertiary scheme -> systems_abstraction; 'free the science from Moses' letter -> impact_motivation. ROWS CONSIDERED AND LEFT UNSCORED: conflict_tolerance (mixed: he retaliated against Buckland and Sedgwick in 1832 yet was 'altogether averse to answering back' per Bailey and advised Darwin to avoid controversy); social_assertiveness (Mantell's 1841 remark on hesitant speaking and reserve is one friend's view); competitiveness (priority claims in his 1830 letter to Scrope and Mantell's authorship complaint are thin); leadership_drive and achievement_drive (would rest on society presidencies, honours and book editions); persistence, discipline, detail_orientation (would rest on edition counts or on the output of a man with failing eyesight; not used); creative_originality (the 'existing causes' approach and the Tertiary scheme were shared with Hutton, Playfair, Prevost, Scrope and Deshayes); cross_domain_range, risk_tolerance, planning_orientation, adaptability (not documented enough); ambiguity_tolerance and decisiveness (his slow acceptance of evolution is already scored under belief_updating). EXCLUDED ON PURPOSE: his failing eyesight and his later secretary, his wife's death and the couple's childlessness, his death and burial, his knighthood, baronetcy and honours, 'father of modern geology' reputation and edition counts, his politics (reform, American Civil War and slavery views, franchise opinions) and any racial or eugenic remarks in his letters, and his religious beliefs beyond the documented 'Moses' letter. CONFLICTS REPORTED, NOT ADJUDICATED: (a) whether Lyell was really the originator of the uniformitarian programme or restated Hutton and Playfair with new evidence (Bailey calls Principles a natural development of Hutton; Rudwick notes Prevost and Scrope; Whewell coined the label and counted Lyell a minority of one); (b) the reason for resigning the King's College chair (Mrs Lyell: duties interfered with travel and research; Bailey: also falling attendance after women were excluded); (c) whether Lyell's reluctance on species was caution or timidity (Darwin disappointed in 1863; Bonney and Darwin's Autobiography call his later conversion remarkable). PORTRAIT: the Commons lead 'PSM V01 D242 and V20 D610 Charles Lyell.jpg' is a Popular Science Monthly engraving (vol. 1, 1872; Commons template PD-old, author unknown, 1737x2086) from an Internet Archive scan; it is an engraving of unknown photographic or artistic source, so it was NOT chosen. CHOSEN: Hill and Adamson, 'Sir Charles Lyell - Geologist', salted paper print from paper negative, 1843-47, Metropolitan Museum of Art accession 37.98.2.109 (Harris Brisbane Dick Fund, 1937). RIGHTS CHAIN: the Met Open Access API record for object 268493 (collectionapi.metmuseum.org, queried 2026-10-08) reports isPublicDomain true and an empty rightsAndReproduction field; the Commons file 'Sir Charles Lyell - Geologist MET DP142452.jpg' is tagged CC0 from the Met open-access batch; creators Robert Adamson (d. 1848) and David Octavius Hill (d. 1870) died more than 70 years ago, and the work dates from 1843-47, so no live copyright or rightsholder notice conflicts. The Met object web page itself returned a Vercel security checkpoint (HTTP 429) and was NOT bypassed, so the rights statement rests on the Met API record plus the Commons wikitext. File downloaded from the Met image URL (3009x3893 JPEG), downscaled once with Lanczos to 1237x1600 (JPEG q85); no cropping and no upscaling; opened and viewed: a head-and-three-quarter photograph of a bald middle-aged man in a dark coat seated at a table holding a book, in profile facing right. Kind: likeness (a direct photograph of the sitter, c. 1843-47, when he was about 46-50). The sitter identification rests on the Met title and the matching Commons Hill and Adamson file; a second Hill and Adamson file on Commons carries the same attribution. KOREAN NAME: the Wikidata ko label. No eligibility, coverage or match output was used in scoring; scores and confidences were fixed before the validator was run."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/charles-lyell-hill-adamson-1843.jpg",
+    "width": 1237,
+    "height": 1600,
+    "source": "Metropolitan Museum of Art, New York, accession 37.98.2.109, 'Sir Charles Lyell - Geologist', salted paper print from paper negative, Hill and Adamson, 1843-47 (Harris Brisbane Dick Fund, 1937), Open Access",
+    "license": "Public domain (Metropolitan Museum Open Access, CC0); photograph by Hill and Adamson, 1843-47 (Adamson d. 1848, Hill d. 1870)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "David Octavius Hill and Robert Adamson (Hill and Adamson), 'Sir Charles Lyell - Geologist', 1843-47, salted paper print from paper negative, The Metropolitan Museum of Art, Harris Brisbane Dick Fund, 1937 (37.98.2.109)",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/268493",
+    "creator": "David Octavius Hill and Robert Adamson (Hill and Adamson)",
+    "date": "1843-1847",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/268493"
+  }
+}

@@ -4,39 +4,46 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-**Minimal update, 2026-10-08 (Roster44)**: the paragraph and Product-section
-headline below this note are stale (they predate Roster17-44 and describe a
+**Minimal update, 2026-10-09 (Roster45)**: the paragraph and Product-section
+headline below this note are stale (they predate Roster17-45 and describe a
 125-person/124-match-eligible state). Current mechanically-verified truth,
 recorded here rather than by rewriting the outdated narrative that
-follows (see `docs/checkpoints/roster44.md` for the full record):
+follows (see `docs/checkpoints/roster45.md` for the full record):
 
-- Production: **393** people. Directory-visible: **392**. Match-eligible:
-  **114** (unchanged since Legacy Integrity Batch 1; twelfth consecutive
+- Production: **408** people. Directory-visible: **407**. Match-eligible:
+  **114** (unchanged since Legacy Integrity Batch 1; thirteenth consecutive
   new-candidate cycle at 114, the diagnostic-confirmed expected pattern, see
   `docs/checkpoints/recent-cohort-matching-architecture.md`). *(These are the
-  numbers on the unmerged `feat/roster44` branch, PR pending; `main` is at
-  378/377/114 until it merges.)*
-- Latest merged `main` SHA: `cbafa509bc956bc15951a7f8601510d0dfec5ca8`
-  (PR #55, Roster43 merge).
-- Latest roster: **Roster44 (ninth fresh cycle after the diagnostic: 15
+  numbers on the unmerged `feat/roster45` branch, PR pending; `main` is at
+  393/392/114 until it merges.)*
+- Latest merged `main` SHA: `c515474ae6a293f170abbd93b4e5bb4401e48384`
+  (PR #56, Roster44 merge, including the Kollwitz portrait correction).
+- Latest roster: **Roster45 (tenth fresh cycle after the diagnostic: 15
   frozen, 15 shipped, 0 new holds**; Louis Sullivan and Beatrix Potter stay
-  portrait-held), zero backlog reuse (2026-10-08; shipped 6 building_discovery
-  / 5 arts_culture / 7 science_knowledge by directory taxonomy). Combined
-  Roster33-44: 168 new-candidate people shipped, 0 match-eligible -
+  portrait-held), zero backlog reuse (2026-10-09; shipped 6 building_discovery
+  / 7 arts_culture / 5 science_knowledge by directory taxonomy). Combined
+  Roster33-45: 183 new-candidate people shipped, 0 match-eligible -
   recorded, not re-investigated.
+- **Portrait rule (since Roster44)**: a generic Commons PD template is not
+  enough when the authoritative institutional page shows a conflicting live
+  copyright notice; reconcile with concrete facts, choose another image, or
+  hold.
 - **Editorial significance standard active** (`docs/editorial-content.md`
-  Major Achievement Selection Standard); Roster44 was its third cycle: 15/15
-  PASS, one top-omission failure (Kollwitz) corrected before publication.
-  Known non-blocking editorial debt: henry-ford, vincent-van-gogh,
+  Major Achievement Selection Standard); Roster45 was its fourth cycle: 15/15
+  PASS, no primary/top-omission/identity failure, two side-project cards
+  removed. Known non-blocking editorial debt: henry-ford, vincent-van-gogh,
   stephen-hawking (older control-sample failures) and raw internal ids in
   Rembrandt/Kubrick public source notes.
-- Next recommended task: **Roster45** (same discipline and Major Achievement
-  gate; leadership_society lowest priority; building_discovery 112 still the
-  thinnest published category vs. arts_culture 141 / science_knowledge 174;
+- Next recommended task: **Roster46** (same discipline and gates;
+  leadership_society lowest priority; building_discovery 118 still the
+  thinnest published category vs. arts_culture 148 / science_knowledge 179;
   Oceania nationals remain blocked by the missing region bucket). Legacy
   Integrity Batch 6 not started. Next performance checkpoint around 500
-  production people; do not repeat the recent-cohort matching diagnostic
-  without genuinely new evidence.
+  production people (now 408); do not repeat the recent-cohort matching
+  diagnostic without genuinely new evidence.
+
+Superseded Roster44-era note (kept short for continuity): Roster44 shipped
+15 (393/392/114), see `docs/checkpoints/roster44.md`.
 
 Superseded Roster43-era note (kept short for continuity): Roster43 shipped
 14 (378/377/114), see `docs/checkpoints/roster43.md`.

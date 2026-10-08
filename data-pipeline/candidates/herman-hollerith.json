@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "herman-hollerith",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Herman Hollerith",
+    "wikidataId": "Q192145",
+    "birthYear": 1860,
+    "deathYear": 1929,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "engineer",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "computing",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder",
+      "early_computing"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hollerith_wikidata",
+      "kind": "wikidata",
+      "title": "Herman Hollerith (Q192145) -- verified live via wbgetentities (2026-10-08): en label 'Herman Hollerith', description 'American statistician and inventor (1860-1929)', P569 29 Feb 1860, P570 17 Nov 1929, citizenship United States (Q30), instance of human, place of birth Buffalo (Q40435), P18 'Hollerith.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q192145"
+    },
+    {
+      "id": "src_hollerith_wikipedia",
+      "kind": "wikipedia",
+      "title": "Herman Hollerith -- Wikipedia article, raw wikitext read as orientation only (used to find the Heide, Truesdell and Wright references); not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Herman_Hollerith"
+    },
+    {
+      "id": "src_hollerith_truesdell1965",
+      "kind": "archive",
+      "title": "Leon E. Truesdell, The Development of Punch Card Tabulation in the Bureau of the Census, 1890-1940 (U.S. Department of Commerce, Bureau of the Census, 1965), Internet Archive full text -- official institutional history written by a long-time Census Bureau statistician, i.e. from the side of the customer that later became Hollerith's competitor. Read locally: the chapter 'The Originators of the System' (Hollerith's career to 1884, the Billings question), the 1889 test, the 1890 system and first count, the 1900 machinery, and Chapter VI (1900-1910: the rental rates, the Census Machine Shop, Hollerith's 1909 offer, the 1910 patent suit). Balanced in tone: it credits Hollerith's invention and also calls the 1904-05 rental rates 'excessive and exorbitant'.",
+      "url": "https://archive.org/details/bub_gb_MGZqAAAAMAAJ"
+    },
+    {
+      "id": "src_hollerith_heide2017",
+      "kind": "biography",
+      "title": "Lars Heide (Copenhagen Business School), 'Herman Hollerith', Immigrant Entrepreneurship: German-American Business Biographies, 1720 to the Present (German Historical Institute, Washington, D.C.) -- scholarly business-history biography by the author of Punched-Card Systems and the Early Information Explosion (2009), built on archival correspondence (Hollerith Papers at the Library of Congress, IBM Archives, Department of Commerce records) and on Geoffrey Austrian's biography; read in full. INDEPENDENT of Hollerith and of IBM; it also states his limits (one-man management style, no research department, conservative).",
+      "url": "https://www.immigrantentrepreneurship.org/entries/herman-hollerith/"
+    },
+    {
+      "id": "src_hollerith_martin1891",
+      "kind": "press",
+      "title": "Thomas Commerford Martin, 'Counting a Nation by Electricity', The Electrical Engineer (New York), 11 November 1891, reprinted pamphlet, Internet Archive full text -- contemporary trade-press report by the journal's editor after visiting the Census Office; admiring of the machines but written while the 1890 census was still being tabulated and while the press was criticising it. Read in full. Used for the 1889 test timings, the six-week first count, Hollerith's reluctance to release early figures, and the abuse the system drew in 1890-91.",
+      "url": "https://archive.org/details/101689471.nlm.nih.gov"
+    },
+    {
+      "id": "src_hollerith_thesis1889",
+      "kind": "archive",
+      "title": "Herman Hollerith, 'An Electric Tabulating System', The Quarterly of the Columbia University School of Mines, vol. 10 (1889), Internet Archive full text (SELF source; his Columbia doctoral dissertation). Read for his own account of why and how he built the system (the 'barbarous' census methods, experimenting 'on quite a large scale'); never the sole perspective for any row.",
+      "url": "https://archive.org/details/101772027.nlm.nih.gov"
+    },
+    {
+      "id": "src_hollerith_wright1900",
+      "kind": "archive",
+      "title": "Carroll D. Wright, assisted by William C. Hunt, The History and Growth of the United States Census (Washington: Government Printing Office, 1900), Internet Archive full text -- official census history; read for the passage on the Eleventh (1890) Census adopting the Hollerith electric tabulating system after a preliminary test and for the statistics that the system made possible. Note that co-author Hunt was a losing competitor in the 1889 test, which makes the favourable passage the more notable.",
+      "url": "https://archive.org/details/historyandgrowt00censgoog"
+    },
+    {
+      "id": "src_hollerith_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, CHM Revolution exhibition, 'Making Sense of the Census: Hollerith's Punched Card Solution' -- museum exhibition text (read in full): the 1890 competition, the tabulator and punch, the card sized to US banknotes so existing bins could be used, the 1911 merger and Hollerith's disagreement with Thomas Watson.",
+      "url": "https://www.computerhistory.org/revolution/punched-cards/2/2"
+    },
+    {
+      "id": "src_hollerith_ethw",
+      "kind": "institution",
+      "title": "Engineering and Technology History Wiki (IEEE/ETHW), 'Herman Hollerith' biography page -- brief institutional overview (read in full; it contains a date slip, '1990 U.S. Census', and is not used for any scored row).",
+      "url": "https://ethw.org/Herman_Hollerith"
+    },
+    {
+      "id": "src_hollerith_mactutor",
+      "kind": "institution",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Herman Hollerith', MacTutor History of Mathematics archive (University of St Andrews) -- compiled biography (read in full); several details differ from Truesdell and Heide (for example the timing of the 1890 count), so it is used only as a cross-check and not for any scored row.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hollerith/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hollerith_heide2017, src_hollerith_truesdell1965 | 1884-1897 | scholarly archival biography + Census Bureau institutional history] Several dated setbacks that he worked through. He resigned from the Patent Office in March 1884 and filed his first tabulating patent in September of that year with no commitment from the census authorities (Truesdell); the state census jobs he expected in 1885 did not materialise, so he took a brake-company management job in St. Louis and went back to the census machine, returning to New York in 1887 (Heide). He returned from the 1889 tour of Berlin and Paris with no orders (Heide). In 1895 the New York Central trial of his adding tabulator was dropped because the machine was unreliable; within a few months he devised a new adding tabulator, which the railway accepted after a second trial (Heide). In 1895 he also tried in vain to raise a British company. Four separate episodes from two independent perspectives; kept at 0.62 because the sequence is narrated mostly by one scholar drawing on Austrian's biography."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hollerith_heide2017, src_hollerith_truesdell1965 | 1884-1903 | scholarly biography + Census Bureau history] He started work on a tabulating machine on his own initiative after leaving the Patent Office, without a customer (Truesdell). Before his 1889 European tour he filed foreign patents to protect markets, and exhibited in Berlin and Paris; in 1894 he offered the Norwegian statistical office a free tabulator and travelled to Norway to assemble it himself; from 1901 he circulated brochures to life insurance companies and designed applications for wage administration, sales analysis and cost accounting for prospective private customers, and his correspondence shows him as the company's sole salesman (Heide). Initiative taken before anyone asked, across several years and countries."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hollerith_heide2017, src_hollerith_chm | 1894-1907 | scholarly biography + museum exhibition text] When the census job ended and revenue stopped after 1894, he looked for commercial customers (Heide). He answered the railway's 1894 request with a new 24-column layout and an adding tabulator, then in 1901-03 designed sales-analysis and cost-accounting applications for Marshall Field's, Taft-Peirce and Bethlehem Steel, and by 1907 had customers such as Eastman Kodak, Western Electric and Yale and Towne; he also sized his 1890 card to the dollar bill so existing currency bins and drawers could be reused (CHM). Heide adds that his foreign trips sought 'a larger scale of business, not a larger scope', so the sensing was of markets rather than of new ideas. Kept at 66."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hollerith_heide2017, src_hollerith_truesdell1965, src_hollerith_thesis1889 | 1884-1907 | scholarly biography + Census Bureau history + his own dissertation] His first design (patent application of 23 September 1884) used a continuous paper roll; he then moved to separate cards and a tabulator with counters, and replaced the face layout and punch for 1890 (Truesdell; Heide). He tested the system on Baltimore, Jersey City and New York City mortality statistics and Army sickness records in 1886-89 before the census contest (Heide; Truesdell gives Baltimore as 1887), and his dissertation says the method followed 'considerable experimenting on quite a large scale' (self). After the 1895 railway failure he rebuilt the adding tabulator, and after 1902 he developed a second series of machines (plugboard, sorter, 45-column card) (Heide). Several staged tests and redesigns; the self source is not the only perspective."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hollerith_heide2017, src_hollerith_chm | 1889-1907 | scholarly biography + museum exhibition text] Heide describes the 1890 system as resting on three principles (one card per individual, mechanised tabulation, electrically read cards) and his 1907 second system as an integrated set of punch, sorter and adding tabulator built to one card standard; the same account says that when the company grew around 1900 he reduced complexity by standardisation. CHM notes the card was sized for existing banknote bins. Design-level decisions, but two sources only and the 'integrated system' reading is Heide's; kept at 66 and 0.52."
+    },
+    "creative_originality": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hollerith_truesdell1965, src_hollerith_heide2017 | 1884-1889 | Census Bureau history + scholarly biography] Truesdell quotes Billings's 1880s statements that Billings first suggested recording data by punched holes and counting by electricity, and Raymond Pearl's judgement that Billings was the originator while Hollerith 'built a machine that implemented the idea'. Heide calls the unit card and the accumulating tabulator 'a real innovation'. Hollerith's own letter gives the tea-table origin. The original idea is therefore shared; his documented contribution is the card, the electrical reading and counting design and the keyboard punch. A moderate lean only."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hollerith_heide2017, src_hollerith_chm | 1896-1921 | scholarly biography + museum text] Heide: his preferred management style was as sole decision-maker; he kept the company small and did not create a research department although Bell and General Electric had; he remained, like his collaborator Eugene Ford, an independent consultant-inventor; after the 1911 merger he later left the board because he did not care to attend meetings, never travelled to New York to take part in development, and had difficulty communicating with Thomas Watson (CHM says he did not get along with Watson). In the 1905 renewal he opposed a rate concession and was overruled by his directors (Heide; Truesdell). dual_edged: it kept control of design but limited the firm's growth."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hollerith_truesdell1965, src_hollerith_heide2017 | 1884-1896 | Census Bureau history + scholarly biography] He left a government post in 1884 to become an independent inventor with no customer, and built a business that depended on a single temporary user, the 1890 Census Office, with little capital (Heide; Truesdell: 'no commitment from the census authorities'). In 1896 he incorporated with about $12,000 raised from ten friends, keeping 50.2 per cent (Heide). Moderate: the exposure was real but the sums were small and a stable job was left behind only after patent work had begun."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hollerith_heide2017, src_hollerith_chm | 1885-1896 | scholarly biography + museum text] When the expected 1885 census work did not come he took the St. Louis brake-company post and kept developing the machine alongside it (Heide); he built a business model in which punched cards and machines were produced by subcontractors while he designed, sold and maintained the equipment (Heide); and he sized the card to existing currency bins and boxes (CHM). Three episodes from two perspectives; moderate."
+    },
+    "collaboration": {
+      "score": 45,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hollerith_heide2017, src_hollerith_truesdell1965, src_hollerith_chm | 1882-1914 | scholarly biography + Census Bureau history + museum text] Mixed. He worked closely with Billings in 1880s (Billings's daughter remembered his wooden model brought to the family library; Willcox thought he may have been 'somewhat of a nuisance' - Truesdell) and relied on shop engineers and Eugene Ford to turn designs into products (Heide), but he did not build a team or research department, stayed a single consultant, and communicated poorly with Watson (Heide; CHM). Left near the midpoint at low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "허먼 홀러리스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q192145 returned en label 'Herman Hollerith', description 'American statistician and inventor (1860-1929)', P569 29 Feb 1860, P570 17 Nov 1929, citizenship United States (Q30), instance of human, place of birth Buffalo (Q40435), P18 'Hollerith.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupations inventor, engineer, entrepreneur; fieldIds computing and technology (both have field.* keys; business omitted because his firm was a small one-man company and the business strand is thin in the rows); tags innovator, founder, early_computing; archetype technical_innovator; region north_america. EVIDENCE READ (10 source records; 3 orientation or overview-only: Wikidata, Wikipedia wikitext, ETHW and MacTutor read but not used for rows; 6 substantive): Truesdell 1965 (Census Bureau history, Internet Archive full text; chapters on the originators, the 1889 test, the 1890 system and first count, 1900 machinery, and Chapter VI on 1900-1910 rates, the Machine Shop, the 1909 offer and the 1910 suit); Heide 2017 biography entry (read in full); Martin 1891 Electrical Engineer reprint (read in full); Hollerith's 1889 dissertation (self; read for aims and method); Wright and Hunt 1900 census history (passage on 1890 tabulation); CHM exhibition page. PERSPECTIVES: Heide (independent scholar, archival), Truesdell (the customer-side institutional historian, adverse on the 1904-05 rental rates, credits Billings), Martin (contemporary trade press, admiring), Wright and Hunt (official, Hunt a losing competitor in 1889). SELF: the dissertation and Hollerith's 1919 letter quoted by Truesdell; neither is sole support. NOT ACCESSIBLE: Geoffrey Austrian, Herman Hollerith: Forgotten Giant of Information Processing (1982; lending-restricted, 401), Heide's 2009 book, Cortada, Pugh, Rodgers, the Census Bureau's own web pages (JavaScript shell with no biography text); Austrian is therefore known only through Heide's citations. CONFLICTS RECORDED: first mortality-statistics test is Baltimore 1886 (Heide) or 1887 (Truesdell); Wikipedia and MacTutor give differing 1890 timing (six years to completion; three months to count; Truesdell says the first population count took little more than six weeks and the rough total was announced on 28 October 1890; Wright's successor report says final work would finish about two years earlier than 1880) so the editorial draft uses only the six-week first count and says nothing about total years; Truesdell notes that a single table in the 1889 test could perhaps have been tallied by hand as fast, so the claim of machine superiority is stated in terms of the test results, not as an absolute. The Billings 'tea table' origin is told differently (Billings says he suggested punched cards in 1880; Hollerith's letter; Billings's daughter) and credit is shared. ROWS: 10, scores 45-74, confidence 0.4-0.62; nothing at or above 85 or 0.70. Roles beyond: political or military roles do not apply. Left UNSCORED: detail_orientation, perfectionism (no dated episodes), conflict_tolerance and competitiveness (the Census dispute is mostly company-level and outcome-driven), persuasiveness (successes and failures mixed, only the salesman fact), leadership_drive and planning_orientation (mixed), belief_updating, adaptability (same episodes as opportunity_sensing), cross_domain_range (his brake, tubing and switch patents are output counts and were not used), curiosity. EXCLUDED ON PURPOSE: patents, medals, the later fame of IBM, wealth from the 1911 sale, family and private life, health, the Dehomag/Nazi-era reuse of his name (posthumous and not his behaviour; Heide says punched cards used to persecute Jews in the Holocaust is unsubstantiated). PORTRAIT: Commons 'Hollerith.jpg' wikitext: Source LOC cph.3c15982, Author C. M. Bell, date ca. 1888, Permission PD-old-100-expired. Upstream LOC Prints and Photographs record 96502521 (LOT 12259, reproduction number LC-USZ62-115982): '[Herman Hollerith, head-and-shoulders portrait, facing left]', 1 photographic print on cabinet card mount, creator Bell, C. M. (Charles Milton), approximately 1849-1893, created/published [ca. 1888]; its rights_information field is blank and the record is flagged unrestricted, with no copyright or rightsholder notice. Basis: a cabinet photograph by a Washington studio published about 1888 (pre-1931 publication) by a photographer who died about 1893, so public domain in the US and worldwide independently of the template. The LOC master (TIFF, 3276x4096) shows the print on its mount with the 'C. M. Bell, 463-465 Penna. Avenue, Washington D.C.' imprint; the Commons file (2000x2667) is a crop of the photograph with the mount removed, which I used, downsized to 1200x1600 (JPEG q85, no upscaling) and viewed: a young man with a large moustache in a tweed jacket, consistent with Hollerith in his late twenties. Caveats: the exact year (ca. 1888) and the death year of Bell are approximate catalogue dates; the file is a crop. KOREAN NAME: Wikidata ko label was returned garbled by the console; the name is the conventional Korean spelling."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/herman-hollerith-bell-1888.jpg",
+    "width": 1200,
+    "height": 1600,
+    "source": "Library of Congress Prints and Photographs Division, LOT 12259 (LC-USZ62-115982; hdl.loc.gov/loc.pnp/cph.3c15982), via Wikimedia Commons 'Hollerith.jpg' (cropped to the photograph)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-100-expired",
+    "attribution": "C. M. Bell (Charles Milton Bell, approximately 1849-1893), '[Herman Hollerith, head-and-shoulders portrait, facing left]', cabinet card photograph, ca. 1888, Washington, D.C.; Library of Congress Prints and Photographs Division (LC-USZ62-115982), no restriction recorded",
+    "attributionUrl": "https://www.loc.gov/pictures/item/96502521/",
+    "creator": "C. M. Bell (Charles Milton Bell)",
+    "date": "ca. 1888",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hollerith.jpg"
+  }
+}
