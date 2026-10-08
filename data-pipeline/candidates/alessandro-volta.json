@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alessandro-volta",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alessandro Volta",
+    "wikidataId": "Q680",
+    "birthYear": 1745,
+    "deathYear": 1827,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "chemist",
+      "inventor"
+    ],
+    "fieldIds": [
+      "physics",
+      "chemistry"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "innovator",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_volta_wikidata",
+      "kind": "wikidata",
+      "title": "Alessandro Volta (Q680) -- verified live via wbgetentities (2026-10-07): en label 'Alessandro Volta', description 'Italian chemist and physicist (1745-1827)', born 18 Feb 1745, died 5 Mar 1827, instance of human, ko label '알레산드로 볼타'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q680"
+    },
+    {
+      "id": "src_volta_rs1800_abstract",
+      "kind": "institution",
+      "title": "Royal Society of London, abstract of Volta's letter to Sir Joseph Banks 'On the Electricity excited by the mere Contact of conducting Substances of different Kinds' (read 26 June 1800), in Abstracts of the Papers Printed in the Philosophical Transactions, vol. 1 (JSTOR/Internet Archive scan) -- the Society's own third-person summary of the pile paper (SELF-DERIVED but written by the Society's editors, not by Volta). Read in full (about two pages).",
+      "url": "https://archive.org/details/paper-doi-10_1098_rspl_1800_0016"
+    },
+    {
+      "id": "src_volta_psm1892",
+      "kind": "biography",
+      "title": "'Sketch of Alessandro Volta', Popular Science Monthly vol. 41 (May 1892), Wikisource transcription -- secondary biographical sketch compiling Biot, Arago and Arthur Schuster (Encyclopaedia Britannica); sympathetic and anecdotal. Read in full.",
+      "url": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_41/May_1892/Sketch_of_Alessandro_Volta"
+    },
+    {
+      "id": "src_volta_makers_electricity1909",
+      "kind": "biography",
+      "title": "Michael F. O'Reilly (Brother Potamian) and James J. Walsh, 'Volta the Founder of Electrical Science', chapter V of Makers of Electricity (Fordham University Press, New York, 1909), Internet Archive scan -- ADMIRING, devotional Catholic secondary biography (it opens with childhood anecdotes of uncertain provenance and reads Volta's religious statement as a moral). Read chapter V in full; used for dated career facts, for Volta's own quoted remarks and for anecdotes explicitly flagged as tradition, never for religion or private life.",
+      "url": "https://archive.org/details/MakersOfElectricity"
+    },
+    {
+      "id": "src_volta_carradori1817",
+      "kind": "archive",
+      "title": "Giovacchino Carradori (physicist of Prato, himself a contemporary experimenter on galvanism), Istoria del Galvanismo in Italia, o sia Della contesa fra Volta e Galvani (1817), Google Books scan via Internet Archive (OCR is poor) -- CONTEMPORARY historian of the Volta-Galvani dispute who reports both sides' experiments (Galvani, Aldini, Valli) and the stages of Volta's changing position, though he concludes for Volta. Read the opening historical section (about fifteen pages) in full; the rest skimmed.",
+      "url": "https://archive.org/details/bub_gb_ZSIkJGI66p8C"
+    },
+    {
+      "id": "src_volta_methane_letters1777",
+      "kind": "archive",
+      "title": "Volta, Lettres sur l'air inflammable des marais (Milan, 1777), French translation by an unnamed Strasbourg professor, with three additional letters from the Giornale di Milano (Strasbourg, c. 1778), BIU Sante scan via Internet Archive -- SELF letters of November 1776 to Father Carlo Giuseppe Campi and January-May 1777 to Marquis Castelli, plus the translator's preface, which is a NON-SELF eyewitness note (he repeated the experiments with Volta in Strasbourg). Read the translator's preface, the dedication and the first three letters in full; later letters skimmed.",
+      "url": "https://archive.org/details/BIUSante_43133x02"
+    },
+    {
+      "id": "src_volta_pt1793_cavallo",
+      "kind": "archive",
+      "title": "Volta, 'Account of some Discoveries made by Mr. Galvani, of Bologna; with Experiments and Observations on them. In two Letters from Mr. Alexander Volta ... to Mr. Tiberius Cavallo', Philosophical Transactions of the Royal Society vol. 83 (read 31 January 1793), original French text, Internet Archive scan -- SELF writing, Volta's own account of how he first took up Galvani's frog experiments and of where he came to part from Galvani's interpretation. Read the opening sections (1-5), sections 15-18 and 40-42 in full; the long experimental middle sections skimmed.",
+      "url": "https://archive.org/details/philtrans01509254"
+    },
+    {
+      "id": "src_volta_wilkinson1804",
+      "kind": "archive",
+      "title": "C. H. Wilkinson, Elements of Galvanism, in Theory and Practice; with a comprehensive view of its History (London, 1804), Internet Archive scan -- CONTEMPORARY English compilation that reprints and summarises Volta's 1800-1801 letters and Paris memoir, Nicholson's published criticism of Volta's contact explanation of the pile, and the French Institute's December 1801 report. Read the chapters on the pile, Volta's letter to de la Metherie, Nicholson's reply and Volta's Paris memoir (about 60 pages); the later experimental chapters not read.",
+      "url": "https://archive.org/details/elementsgalvani01wilkgoog"
+    },
+    {
+      "id": "src_volta_zanino1879",
+      "kind": "biography",
+      "title": "Zanino Volta (lawyer and Volta's grandson), Alessandro Volta a Parigi: studio cronistorico, con documenti inediti e facsimile (Milan/Naples, Vallardi, 1879), Internet Archive scan -- FAMILY biography of the 1801 Paris journey, with quotations from Volta's autograph letters to his wife (10 and 17 November 1801), the diary of his travelling companion Brugnatelli and the correspondence of the minister Marescalchi; admiring, and openly intended to correct earlier accounts. Read the chapters on the Institute session of 7 November 1801 and the public demonstrations (about 40 pages in Italian); the rest, including the long documentary appendix, skimmed.",
+      "url": "https://archive.org/details/alessandrovoltap00volt"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_volta_methane_letters1777, src_volta_pt1793_cavallo, src_volta_rs1800_abstract, src_volta_carradori1817 | 1776-1800 | self letters + non-self eyewitness translator + Royal Society editors + contemporary historian] In his November 1776 letters to Father Campi (self) Volta describes testing his own conjecture about marsh gas instead of waiting for the planned joint field trip: he probed the bottom of Lake Maggiore with his walking stick, caught the bubbles, predicted from the smell that they would burn, and invited others to watch the next day; he then spent days stirring every pond, ditch and shore with flasks in his pockets, and recorded the one case where the gas put a candle out. The unnamed Strasbourg translator (non-self) writes that he repeated 'the most interesting and decisive' experiments with Volta in front of university colleagues. In 1793 (self) he asks what the smallest electrical force is that moves a frog, in a whole animal and in Galvani's preparation, 'which Mr. Galvani had omitted to do'. The Royal Society's 1800 summary of the pile paper (non-self) lists the column, the cup chain with silver and zinc bows, and trials of order, number of pairs and conducting layers; Carradori (contemporary, partisan for Volta) says that at each stage he varied his experiments or devised new ones. Several dated instances across four different record types; score kept below 85 because the letters and the 1793 paper are Volta's own account."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_volta_pt1793_cavallo, src_volta_psm1892, src_volta_wilkinson1804, src_volta_methane_letters1777 | 1776-1801 | self + secondary sketch compiling Biot/Schuster + contemporary compilation] In 1793 (self) Volta separates what Galvani observed from how he explained it, argues from the kind of electrical current (return stroke) that would reach the frog, and tests the claim that muscle is excited directly by the fluid, concluding in a numbered argument that it acts through the nerves. In 1800-1801 he used the condenser to make the very small voltage of a single metal pair readable and showed that readings scale with the number of pairs (his letter to de la Metherie, quoted in the 1892 sketch and in Wilkinson 1804), and in the Paris memoir he lists the three strongest objections to identifying galvanic and ordinary electricity (the weak electrometer readings, imperfect transmission, the decomposition of water) before answering them (Wilkinson). The 1892 sketch also notes Biot's remark that Volta preferred sure deductions from experimentally followed facts to broad general theories. Not scored higher: the contact explanation he defended was criticised by contemporaries for neglecting chemical action (see independent_thinking), and the secondary sources are admiring."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_volta_rs1800_abstract, src_volta_psm1892, src_volta_methane_letters1777, src_volta_makers_electricity1909 | 1775-1800 | institutional summary + secondary biographies + translator preface] The Royal Society's 1800 summary describes an apparatus of stacked silver, zinc and brine-soaked card, and a chain of cups, that acts 'without intermission' and, in Volta's own comparison, resembles the electric organ of the torpedo and electric eel, which cannot be modelled on friction machines or Leyden jars; he built the device to answer how a contact of two metals could be made to give a steady effect. The 1892 sketch dates the electrophorus to experiments of 1775 on wood impregnated with oil and says Volta wrote to Priestley asking how far it was new, and that improving it led to the condenser. In 1776-1777 he also devised the electrical pistol and eudiometer for gas work (letter titles and text; Makers 1909 for the eudiometer). Arago's remark, as quoted by Makers, that every Volta instrument existed in his mind before a craftsman built it is an admiring secondary judgement and is not used to raise the score. Several instruments across 25 years, but the strongest descriptions come from admiring or institutional summaries, so confidence is held at 0.62."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_volta_carradori1817, src_volta_pt1793_cavallo, src_volta_wilkinson1804 | 1792-1801 | contemporary historian + self + contemporary compilation with an English critic] Carradori (contemporary, himself an experimenter) reports that physicists first adopted Galvani's animal electricity almost without exception, and that after Volta argued that the metals were the exciting agent his claims, 'pronounced with the tone of truth and sustained with firmness', alarmed Galvani and his many followers; when Valli's and Aldini's metal-free experiments swung most savants back towards Galvani, they predicted Volta's defeat and he answered with new experiments rather than yielding. In 1793 Volta says himself that Galvani was astonished 'perhaps more than he should have been' by a phenomenon explained by ordinary electricity. dual_edged: in 1801 the English editor Nicholson (contemporary critic, reprinted by Wilkinson) objected that Volta had given everything to the metals and nothing to the fluids, citing Davy's pile of one metal and different liquids and the chemical changes inside the pile, and recalled Bennet's and Cavallo's earlier contact experiments; Volta kept his contact explanation in Paris. The same stance was right against animal electricity as the whole explanation and left him defending an incomplete explanation of the pile. Several dated cases from non-self sources."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_volta_pt1793_cavallo, src_volta_carradori1817, src_volta_methane_letters1777, src_volta_wilkinson1804 | 1776-1801 | self + contemporary historian + translator note + critic] In 1793 Volta writes that he began by welcoming Galvani's discovery (a 'beautiful and great' one), then, once he found his contact law, mistrusted the evidence for animal electricity and was 'on the point of abandoning that idea', re-examined the experiments, and concluded that a smaller natural animal electricity survives; he adds that he had to renounce 'not without regret' the fairest ideas, including that the electric fluid acts directly on muscle. Carradori (non-self) independently narrates the same sequence: Volta at first agreed in part with Galvani ('which did not displease Galvani'), then held a middle position, then dropped Galvani's theory. A translator's note to the 1776 letters (non-self) says new observations led Volta to change and entirely overturn the explanation he had first offered for why gas from metals burns more fiercely than marsh gas. dual_edged: in 1801 he restated the contact explanation against Nicholson's published chemical objections (Wilkinson). Two kinds of non-self corroboration; the evidence of change is better than the evidence of refusal."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_volta_carradori1817, src_volta_pt1793_cavallo, src_volta_wilkinson1804 | 1792-1801 | contemporary historian + self + contemporary compilation] Volta stayed in a public dispute for years: Carradori describes Volta and Galvani with his nephew Aldini as leaders of two camps across European physics, and says Volta, 'undaunted', answered each round of attack with new experiments. In 1793 he disagreed in print with Galvani's explanations while praising the discovery itself, and in Paris in 1801 he listed in advance the objections to his view and answered them (Wilkinson). Not scored higher: the sources describe argument in print, not personal confrontation, and Carradori is a partisan of Volta; no source shows how Volta handled disagreement with colleagues in person."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_volta_methane_letters1777, src_volta_psm1892, src_volta_makers_electricity1909 | 1769-1801 | self + secondary sketches] Volta moved between electricity and the chemistry of gases within a single year of letters: in 1776-1777 he adopts Priestley's pneumatic chemistry, proposes that the inflammable air from metals owes its explosions to mixed-in dephlogisticated air, and plans to test it (self, via translator). The 1892 sketch also attributes to him work on atmospheric electricity, on the expansion of gases by heat and the eudiometer; Makers (admiring) puts the same work together. Several dated cases across fields, but the later claims about gas expansion and meteorology are secondary only."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_volta_wilkinson1804, src_volta_zanino1879, src_volta_psm1892 | 1801 | contemporary compilation + family biography + secondary sketch] In November 1801 Volta read his memoir in Paris with demonstrations using portable pile apparatus; a commission of the Institute reported in December and unanimously decreed him a medal (Wilkinson, contemporary). His grandson's biography (family source, quoting Volta's letters to his wife of 10 and 17 November) says he answered questions interrupting the reading and also gave a public lecture at the National Lyceum, and the 1892 sketch reports the commission's strong reception; Volta himself joked that his small experiments with the straws of the electrometer had interested the ministers and the First Consul. One session with a family-sourced description; score and confidence kept low because the honours and Napoleon's response are not counted as behaviour and independent detail is thin."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_volta_methane_letters1777, src_volta_zanino1879, src_volta_makers_electricity1909 | 1775-1801 | self + translator + family source + admiring biography] Volta's 1776 letters credit Father Campi's discovery of a gas spring and describe working jointly with him in December (self); the translator (non-self) reports Volta authorised the French translation and repeated experiments with colleagues; the family biography draws on the diary of his travelling companion Brugnatelli for the Paris journey, and Makers (admiring) says part of his early experiments was carried out in the rooms of Canon Gattoni, who supplied instruments. Several small instances, no independent evidence of how he worked with students or rivals; score held low."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알레산드로 볼타"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-07) for Q680 returned en label 'Alessandro Volta', description 'Italian chemist and physicist (1745-1827)', P569 18 Feb 1745, P570 5 Mar 1827, instance of human, ko label '알레산드로 볼타', P18 'Volta A.jpg'; matches the intended person. SLUG CHECK: slug alessandro-volta is not in scratch/prod_slugs.txt and no candidate file existed before this run. CLASSIFICATION: occupations physicist, chemist, inventor; fields physics and chemistry (both have field.* keys in src/core/i18n/en.ts), impactDomains scientific and historical, archetype scientific_explorer, tags innovator and cross_disciplinary; era early_modern with Lavoisier (born 1743) as precedent; region southern_europe following Galileo Galilei, Enrico Fermi and Guglielmo Marconi. Napoleonic honours (Legion of Honour, Iron Crown, senator and count of the Kingdom of Italy, Paris medal) are treated as incidental and unscored under the zero-politics rule; religion and private life are not scored. EVIDENCE READ (9 records plus orientation): Royal Society's 1800 abstract of the pile letter (full); Popular Science Monthly 1892 sketch (full); Makers of Electricity 1909, chapter on Volta (full); Carradori's 1817 history of the Volta-Galvani dispute (opening historical section, poor OCR); Volta's 1776-1777 marsh-gas letters in French translation with the translator's preface (preface, dedication, letters 1-3); Volta's 1793 account of Galvani's discoveries to Cavallo (sections 1-5, 15-18, 40-42); Wilkinson's 1804 Elements of Galvanism (pile, Volta's letter to de la Metherie, Nicholson's criticism, Paris memoir); Zanino Volta's 1879 account of the 1801 Paris journey (Institute session and lectures). PERSPECTIVES: non-self and mostly independent: the Strasbourg translator (eyewitness, 1777); Carradori (contemporary historian of the dispute, partisan for Volta); Nicholson (English contemporary critic, 1801, via Wilkinson); the Royal Society's editors (1800 summary); Makers 1909 and the 1892 sketch (admiring secondary); Zanino Volta (family, admiring). Self: Volta's own letters (1776-1777, 1793, 1801). NOT ACCESSED: Giuliano Pancaldi, Volta: Science and Culture in the Age of Enlightenment (borrow-only); Marcello Pera, The Ambiguous Frog; Piccolino and Bresadola, Shocking Frogs; Bern Dibner's Volta books (borrow-only/401); Heilbron's work; Arago's eulogy of Volta (not in the English Biographies of Distinguished Scientific Men; French original not obtained); the Royal Society's full 1800 paper (publisher page not accessed, only the Society's own abstract); Galvani's own Commentarius (Latin, not read). Because modern scholarly biographies were not available, no row exceeds 80 and confidence stays at or below 0.68. PORTRAIT: Commons 'Volta A.jpg' (engraving by Gaetano Bonatti after a drawing by Giovita Garavaglia, before 1834, 1896x1776) traced to the Edgar Fahs Smith Image Collection record at the University of Pennsylvania (title 'Da un disegno fatto sul vero da Giovita Garavaglia'; Penn rights statement No Copyright - United States; Penn's physical print is stamped 'Printed in Germany', i.e. a later impression, and a photographic copy is noted from the Deutsches Museum). Downsized to 1600x1499 (JPEG q85, no upscaling). Classified historical_depiction, not likeness: it is an engraving made through two artists and the caption's claim that the drawing was made from life is not independently verified. Both named artists died before 1836, so the underlying design is out of copyright everywhere; the Penn catalogue site is due to be retired in October 2026, so the record URL may move to digitalcollections.library.upenn.edu. SCORING: scores and confidences were fixed before the validator was run; no eligibility, coverage or match numbers were consulted. Sparse by design (8 rows)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alessandro-volta-bonatti-garavaglia-1834.jpg",
+    "width": 1600,
+    "height": 1499,
+    "source": "Wikimedia Commons file 'Volta A.jpg' (original 1896x1776, downsized to 1600x1499 without upscaling), from the Edgar Fahs Smith Image Collection, University of Pennsylvania (Penn Libraries catalogue record 'Alessandro Volta : Da un disegno fatto sul vero da Giovita Garavaglia', engraved by Gaetano Bonatti)",
+    "license": "Public domain (engraving made before 1834; both named artists died before 1836, so life-plus-100 has long expired worldwide; tagged PD-old-100 on Commons)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-100",
+    "attribution": "Engraving by Gaetano Bonatti ('Gaet. Bonatti inc.') after a drawing by Giovita Garavaglia (1790-1835), published before 1834; digitised from the Edgar Fahs Smith Image Collection, University of Pennsylvania. Penn Libraries rights statement: No Copyright - United States.",
+    "attributionUrl": "https://colenda.library.upenn.edu/catalog/81431-p35t3g829",
+    "creator": "Gaetano Bonatti (engraver) after Giovita Garavaglia (draughtsman)",
+    "date": "before 1834",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Volta_A.jpg"
+  }
+}

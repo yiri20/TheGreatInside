@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "william-harvey",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "William Harvey",
+    "wikidataId": "Q93128",
+    "birthYear": 1578,
+    "deathYear": 1657,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "anatomist"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical",
+      "historical"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_harvey_wikidata",
+      "kind": "wikidata",
+      "title": "William Harvey (Q93128) -- verified live via wbgetentities (2026-10-07): en label 'William Harvey', description 'English physician (1578-1657)', born 1 Apr 1578, died 3 Jun 1657, citizenship Kingdom of England, instance of human, ko label '윌리엄 하비', two P18 images. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q93128"
+    },
+    {
+      "id": "src_harvey_aubrey",
+      "kind": "biography",
+      "title": "John Aubrey, 'William Harvey (1578-1657)', in 'Brief Lives', chiefly of contemporaries, set down between 1669 and 1696, ed. Andrew Clark, vol. 1 (Oxford: Clarendon Press, 1898), pp. 295-304, Internet Archive scan -- ACQUAINTANCE's memoir by a friend who knew Harvey personally from 1651 and had talked with him at Oxford; anecdotal, partly hearsay and, in Norman Moore's judgement and Willis's, not always accurate in detail; includes unflattering remarks (choleric, dagger, dismissive of his prescriptions). Read the whole entry including the editor's notes.",
+      "url": "https://archive.org/details/briefliveschief00aubrgoog"
+    },
+    {
+      "id": "src_harvey_willis1847",
+      "kind": "biography",
+      "title": "Robert Willis, 'The Life of Harvey', in The Works of William Harvey, M.D., translated from the Latin (London: Sydenham Society, 1847), vol. 1, pp. xvii-lxiv, Internet Archive scan -- ADMIRING Victorian editor-translator's biography, built on Harvey's own text, Aubrey, hospital and College records; frequently adds editorial praise and conjecture (e.g. about Harvey's motives for leaving the king's service), which is not used as evidence. Read the life from the family background to the discussion of the opposition and of the claims of predecessors (Servetus, Columbus, Caesalpinus); the closing section on Harvey's person and writings beyond that point was not read.",
+      "url": "https://archive.org/details/worksofwilliamha01harv"
+    },
+    {
+      "id": "src_harvey_dnb1891",
+      "kind": "biography",
+      "title": "Norman Moore (physician and historian of the Royal College of Physicians), 'Harvey, William (1578-1657)', Dictionary of National Biography vol. 25 (1891), via Wikisource -- INDEPENDENT scholarly biography written from the College's own manuscript annals, the British Museum notes of Harvey's 1616 and 1627 lectures and St Bartholomew's Hospital records; it tells readers to treat Aubrey's remarks on Harvey 'with suspicion'. Read in full.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Harvey,_William_(1578-1657)"
+    },
+    {
+      "id": "src_harvey_power1897",
+      "kind": "biography",
+      "title": "D'Arcy Power (surgeon and medical historian, Bart's), 'William Harvey' (Masters of Medicine series, London: T. Fisher Unwin, 1897), Project Gutenberg ebook 46664 -- sympathetic but archival biography that quotes Bart's, College and State Papers records, and sets Aubrey's anecdotes against them (e.g. it is sceptical that Harvey's loss of practice was due to the book alone). Read the passages on the Lumleian lectures, the 1628 publication and its reception, the College offices, the foreign journeys including Nuremberg, the Merton wardenship and the closing comparison with John Hunter; the chapters on the anatomical works and on generation, and most of the Civil War chapter, were not read in full.",
+      "url": "https://www.gutenberg.org/ebooks/46664"
+    },
+    {
+      "id": "src_harvey_demotu1628",
+      "kind": "archive",
+      "title": "William Harvey, Exercitatio Anatomica de Motu Cordis et Sanguinis in Animalibus (Frankfurt: Fitzer, 1628), in Robert Willis's English translation, 'An Anatomical Disquisition on the Motion of the Heart and Blood in Animals', Works of William Harvey (Sydenham Society, 1847), vol. 1 pp. 1-86 -- SELF source (primary). Read the dedication to the College of Physicians, the proem, chapter 1 (the author's motives), chapter 8 (the quantity of blood and the circular motion) and chapter 14 (conclusion); the remaining chapters were skimmed.",
+      "url": "https://archive.org/details/worksofwilliamha01harv"
+    },
+    {
+      "id": "src_harvey_riolan1649",
+      "kind": "archive",
+      "title": "William Harvey, 'First' and 'Second Anatomical Disquisition on the Circulation of the Blood, addressed to John Riolan' (Cambridge, 1649), in Willis's translation, Works of William Harvey (1847), vol. 1 pp. 89-142 -- SELF source (primary), Harvey's own reply to the Paris anatomist Riolan, who accepted part of the circulation and rejected the rest. Read the openings of both disquisitions.",
+      "url": "https://archive.org/details/worksofwilliamha01harv"
+    },
+    {
+      "id": "src_harvey_ent1651",
+      "kind": "archive",
+      "title": "George Ent, 'Epistle Dedicatory' to Harvey's Exercitationes de Generatione Animalium (London, 1651), in Willis's translation, Works of William Harvey (1847), vol. 1 pp. 145-150 -- FRIEND and disciple's report of a Christmas 1650 conversation with Harvey, quoting his remarks on studying natural things; partisan (Ent had defended the circulation in print in 1641) but a contemporary eyewitness. Read the opening conversation.",
+      "url": "https://archive.org/details/worksofwilliamha01harv"
+    },
+    {
+      "id": "src_harvey_keynes1978",
+      "kind": "archive",
+      "title": "Sir Geoffrey Keynes, 'Notes for the Life of William Harvey', Journal of the Royal College of Physicians of London 12(5):433-436 (1978), PMC5366683 -- addenda by Harvey's principal modern biographer to his 'Life of William Harvey' (Oxford, 1966): new evidence on the Nuremberg demonstration to Hofmann, a 1638 report of a nearly finished generation treatise, Harvey's patients and his 1639 scurvy prescription. Read in full (4 pages). Keynes's main 1966 biography was NOT accessible in full text and was not read.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5366683/"
+    },
+    {
+      "id": "src_harvey_oroukeboyle2013",
+      "kind": "archive",
+      "title": "Marjorie O'Rourke Boyle, 'Harvey, by Hercules! The Hero of the Blood's Circulation', Medical History 57(2) (2013), PMC3566748 -- modern scholarly, interpretive and partly revisionist reading of De Motu Cordis as a rhetorical act of self-defence against fellows of the College who accused him of breaking faith with Galenic medicine; argues Harvey's 'copia' of blood means a powerful supply rather than a measured quantity. Used only for the contested point about what the 'quantitative' argument meant and for the report that Harvey complained of the accusation in his own proem; its Herculean reading of his character is not used as evidence. Read the abstract and the opening sections on the oaths and the College setting.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3566748/"
+    },
+    {
+      "id": "src_harvey_rsm1913",
+      "kind": "institution",
+      "title": "Royal Society of Medicine, Historical Section, 'Portraits of Dr. William Harvey' (Oxford: Humphrey Milford / OUP, 1913), Internet Archive scan -- institutional iconography with notes by D'Arcy Power and Geoffrey Keynes on twenty portraits, busts and the coffin; warns that many pictures labelled Harvey are spurious or doubtful. Read in full for the portrait provenance; its general remarks on his appearance and temperament are secondary and not used for any row.",
+      "url": "https://archive.org/details/portraitsofdrwil00royarich"
+    },
+    {
+      "id": "src_harvey_commons_npg",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'File:William Harvey 2.jpg' (source link: National Portrait Gallery, London, NPG 5115; licence tag PD-art-old-100-expired) and Wikidata item Q28043529 (painting 'William Harvey', attributed to Daniel Mytens, 1627, collection National Portrait Gallery, inscribed). The NPG collection page itself sits behind a bot wall (Cloudflare 'Just a moment') and was not opened or bypassed. Portrait provenance only.",
+      "url": "https://commons.wikimedia.org/wiki/File:William_Harvey_2.jpg"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_harvey_demotu1628, src_harvey_dnb1891, src_harvey_aubrey, src_harvey_willis1847 | 1616-1628, anecdotes of 1651 | self + independent historian + acquaintance + admiring biographer] In the dedication to the College of Physicians Harvey says he professes 'both to learn and to teach anatomy, not from books but from dissections'; in the proem he says that some fellows 'chid and calumniated' him for departing from the opinion of all anatomists, and he published anyway. Moore (independent) documents that his 1616 lecture notes already state the circulation and that he kept lecturing on it every year for twelve years; Aubrey reports that he told the young Aubrey to 'go to the fountain head' (Aristotle, Cicero, Avicenna) rather than the moderns, and that he judged Bacon not a great philosopher ('writes philosophy like a Lord Chancellor'). Not higher: he remained within Aristotelian frameworks (the heart as 'sun of the microcosm', circular analogy with rain and heat, ch. 8), so the independence is on the specific Galenic doctrine of the blood rather than a general break with authority; several independent sources, no contradiction."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_harvey_demotu1628, src_harvey_dnb1891, src_harvey_willis1847, src_harvey_oroukeboyle2013 | 1616-1628 | self + independent historian + admiring biographer + modern revisionist] In chapter 8 of De Motu he reasons that the blood sent through the heart cannot be supplied by the ingested food without draining the veins and bursting the arteries, so it must return to the heart by another route, and then tests the inference with ligature experiments (Moore: a live snake with its great veins tied, a ligatured artery, and the venous valves shown to allow flow only towards the heart) and the structure of the valves. Moore describes the argument as demonstrated 'from the beginning' in 17 chapters; Willis stresses that Harvey left it 'as an inference or induction' because he never saw the passage between arteries and veins. O'Rourke Boyle cautions that Harvey's 'copia' meant a powerful supply, not a measured quantity, so the argument is scored as careful reasoning from structure, experiment and rough proportion, not as modern quantification. Several independent sources agree on the method; capped below 85 because the capillary link was inferred, not observed."
+    },
+    "experimentation": {
+      "score": 77,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_harvey_dnb1891, src_harvey_demotu1628, src_harvey_aubrey, src_harvey_riolan1649 | 1616-1651 | independent historian + self + acquaintance] Moore reports that the 1616 lecture notes show he had 'thoroughly dissected more than eighty species of animals', and describes the ligature experiments on a snake in De Motu; in the second Riolan disquisition (1649) Harvey says he had repeated the experiment of tying an artery upon a tube that Vesalius and Galen had only recommended, and in De Motu he relies on vivisection on many animals rather than on authority. Aubrey, an eyewitness at Oxford in 1642-43, saw him come to George Bathurst's college rooms where a hen was kept hatching eggs which they 'dayly opened' to see the progress of generation. Dated, multiple, independent instances of designing and repeating tests."
+    },
+    "curiosity": {
+      "score": 75,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_harvey_aubrey, src_harvey_ent1651, src_harvey_keynes1978, src_harvey_dnb1891 | 1636-1657 | acquaintance + friend/disciple + modern biographer + independent historian] Aubrey records, from the artist W. Hollar (a gentleman of the 1636 embassy), that on the journey Harvey kept making excursions into the woods to observe 'strange trees, and plants, earths', so that the Earl of Arundel was angry at the danger; that in his last years he worked Oughtred's mathematics ('Clavis') from a book kept in his meditating room; and that he dissected frogs, toads and many other animals. Ent (Christmas 1650) quotes him saying that examining the bodies of animals 'has always been my delight' and that each dissection led him to something unexpected; Moore adds Harvey's wide reading in the lectures. Keynes's notes record a contemporary's report that Harvey spoke in his lectures about the heart of bees and wasps. Several non-self witnesses on specific episodes; not above 75 because it rests largely on Aubrey and Ent, both close to him."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_harvey_dnb1891, src_harvey_demotu1628, src_harvey_keynes1978, src_harvey_willis1847 | 1616-1651 | independent historian + self + modern biographer + admiring biographer] Moore documents that he first stated the circulation in the April 1616 Lumleian lectures and lectured on it every year thereafter, publishing only in 1628, twelve years later; in the 1628 proem he says he took to the press partly at friends' request and partly because of the envy of others. Keynes's notes cite a 1638 letter reporting, via Sir Thomas Browne, that Harvey had 'an excellent tract de generatione coming forth' which Browne had seen ten years earlier, supporting a decades-long project that Ent saw handed over for the press at Christmas 1650; Willis adds that he continued dissecting at Oxford during the war. Scored strong_inference because the long timescale is documented but the motive and effort behind each interval are not."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_harvey_dnb1891, src_harvey_willis1847, src_harvey_aubrey | 1633-1656 | independent historian + admiring biographer + acquaintance] Moore: on 5 October 1633 Harvey himself asked the president of St Bartholomew's to summon the governors, surgeons and apothecary so he could lay before them 'some particulars concerning the good of the poore' and 'reformacon of some orders'; sixteen regulations he drafted were agreed except one. On 4 July 1651 he offered the College of Physicians a library, built at his own cost (completed 1654 and furnished with books, instruments and specimens, per Willis and Aubrey), and in 1656 gave the College his Burmarsh estate. These are self-initiated, dated, independently recorded actions. Not higher because they are a few episodes in one institutional setting."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_harvey_demotu1628, src_harvey_dnb1891, src_harvey_power1897, src_harvey_keynes1978, src_harvey_willis1847 | 1616-1650 | self + independent historian + sympathetic historian + modern biographer + admiring biographer] Harvey says he confirmed his conclusions 'by ocular demonstrations' before the president and fellows of the College before sending the book abroad; Moore says the College gave it 'all the honour it deserved'. In 1636 he went out of his way to demonstrate the circulation at Nuremberg and Altdorf to the opponent Caspar Hofmann, who stayed unconvinced (Moore; Keynes confirms the demonstration and the exchanged letters; Power adds the tradition that Harvey put down the knife and left). Willis and Moore record that opponents such as Primrose and Parisanus were not answered by Harvey and that the doctrine won its way partly through younger anatomists such as Ent. Mixed record: skilful demonstration to sympathetic audiences, one documented failure with a leading opponent, and refusal to argue with others. Hence moderate score and dual_edged."
+    },
+    "conflict_tolerance": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_harvey_demotu1628, src_harvey_riolan1649, src_harvey_willis1847, src_harvey_aubrey, src_harvey_oroukeboyle2013 | 1616-1649 | self + admiring biographer + acquaintance + modern revisionist] He lectured and then published a doctrine he expected to bring him enemies (ch. 8: 'I tremble lest I have mankind at large for my enemies... Still the die is cast'), travelled to face Hofmann, and replied to Riolan in 1649. But in the second Riolan disquisition he says he resolved never to read 'detractors, mummers' and held them unworthy of an answer; Willis says he scarcely replied to any opponent; Moore notes that one of the eleven rules he set himself for the 1616 lectures was to avoid controversy; Aubrey says he and his brothers were very choleric and that in youth he was apt to draw his dagger; and the fellows' accusation that O'Rourke Boyle reconstructs shows he was in open conflict at the College. Evidence points both ways (accepted conflict over the idea, refused polemical exchange), so a mid score with reduced confidence and dual_edged."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_harvey_dnb1891, src_harvey_demotu1628, src_harvey_power1897 | 1616-1651 | independent historian + self + sympathetic historian] Moore describes Harvey's 1616 lecture notes as tabular, closely written, with underlining and his initials against statements he claimed as his own, and records that it was his custom to settle beforehand the exact time to give to each part and not to exceed it, and that the lecture notes cover eleven stated rules including avoiding minute detail in lectures. In De Motu he reports observing the systole and diastole in many animals despite their rapidity, and the 1651 generation work follows the egg day by day (Moore: 'vast labour and careful observation'). Rests on documentary habits and one stated working rule; scored at the lower end of the lean band."
+    },
+    "autonomy_need": {
+      "score": 63,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_harvey_aubrey, src_harvey_ent1651, src_harvey_dnb1891 | 1626-1657 | acquaintance + friend/disciple + independent historian] Aubrey says he liked to contemplate alone, on the leads of his brother's house and in caves made at his house at Combe, and that he liked to be 'in the darke'; Ent quotes him at Christmas 1650 saying that his 'life of obscurity, this vacation from public business', which tires many, was a 'sovereign remedy' for him and that he found solace in his studies; Moore records that in 1626 he declined the official residence the hospital offered him and in 1654 declined the presidency of the College. The reasons for the last are given in the sources as age, which is not scored. Two non-self sources on the preference for solitude and self-directed study; a lean, not a strong pattern."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "윌리엄 하비"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-07) for Q93128 returned en label 'William Harvey', description 'English physician (1578-1657)', P569 1 Apr 1578, P570 3 Jun 1657, citizenship Kingdom of England (Q179876), instance of human, ko label '윌리엄 하비', P18 two Commons files; matches the intended person. SLUG CHECK: 'william-harvey' is not in scratch/prod_slugs.txt and no data-pipeline/candidates/william-harvey.json existed before this run. CLASSIFICATION: occupations physician and anatomist (both have occupation.* keys); field medicine only (field.biology exists in the i18n file, but the profile rests on anatomy and physiology as medicine and the precedent edward-jenner uses medicine alone, so biology was not added); impactDomains scientific, medical, historical; archetype scientific_explorer (as edward-jenner); no tags (none fits without inference); nationality GB (Kingdom of England, as Jenner), region western_europe, era early_modern. EVIDENCE READ (11 records: 10 substantive + 1 orientation): Aubrey's Harvey entry in Clark's 1898 edition of Brief Lives (whole entry and notes); Willis's 1847 Life of Harvey (about 90 percent of the life, including the section on the opposition and on Servetus, Columbus and Caesalpinus); Norman Moore's 1891 DNB article (whole); D'Arcy Power's 1897 biography (selected chapters: Lumleian lectures, the 1628 book and reception, College offices, Duke of Lennox, 1636 embassy and Nuremberg, closing comparison with Hunter; the rest skimmed or not read); Harvey's own De Motu Cordis in Willis's translation (dedication, proem, chapters 1, 8 and 14); his two disquisitions to Riolan (openings); Ent's 1651 epistle dedicatory (opening conversation); Keynes's 1978 Notes for the Life (whole); O'Rourke Boyle 2013 (abstract and opening sections); RSM 1913 Portraits of Dr. William Harvey (whole, for the portrait). PERSPECTIVES: (1) SELF: De Motu, Riolan disquisitions (never the sole source for any row); (2) ACQUAINTANCE/FRIEND: Aubrey (met him at Oxford 1642, acquainted from 1651; anecdotal, flagged by Moore as suspect in detail) and Ent (friend and disciple); (3) ADMIRING biographer: Willis (and Moore's flourish 'greatest of the discoveries of physiology' is not used); (4) INDEPENDENT scholarly/historical: Moore (College historian), Power, Keynes; (5) CRITICAL/REVISIONIST: O'Rourke Boyle (reads the book as self-defence in a hostile College; contests the 'quantitative' reading) and the opponents' views only as reported by Willis, Moore and Power (Primrose, Parisanus, Hofmann, Riolan, Gassendi, Folius), since their own works were not opened. NON-SELF BEHAVIOURAL sources: Aubrey, Ent, Moore, Power, Willis, Keynes. NOT AVAILABLE / NOT READ: Keynes's The Life of William Harvey (1966) in full (lending copy only; only the 1978 addenda were read); Gweneth Whitteridge's William Harvey and the Circulation of the Blood (1971) and her translations of the Hofmann correspondence (known only through Keynes); Walter Pagel's studies (not accessible); the ODNB entry (paywalled); Wellcome Collection and Royal College of Physicians pages (history.rcp.ac.uk returned Access Denied, not bypassed); the opponents' own works. EPISODE USE: 1616 lectures and 1628 publication despite the objections he reports (independent_thinking, persistence, conflict_tolerance); ch. 8 argument and ligature experiments (analytical_rigor); eighty species, tube-ligature test, Oxford hen's-egg inspections (experimentation); Hollar excursions, 'delight' in animals, Oughtred (curiosity); Barts 1633 reform meeting, College library 1651-54 and 1656 gift (proactive_agency); pre-publication demonstration to the College, Nuremberg 1636 (persuasiveness); lecture-notes habits (detail_orientation); solitary contemplation and declined residence (autonomy_need). ROWS CONSIDERED AND LEFT UNSCORED: belief_updating and ambiguity_tolerance (his adherence to Aristotelian and 'microcosm' frameworks is documented by the sources I read only in outline, and Pagel's analysis was not read); leadership_drive (College offices were held, but he declined the presidency and the stated reason was age, which is not scored); collaboration and social_assertiveness (Aubrey's remark that he was communicative and taught anyone modest and respectful, and the Scarborough story, are single acquaintance anecdotes); achievement_drive, competitiveness and impact_motivation (would rest on fame and outcomes); decisiveness and risk_tolerance (the 1628 publication is already used elsewhere); cross_domain_range (breadth of reading is not a synthesis across fields); discipline and planning_orientation (only the lecture time-budget, already used under detail_orientation). EXCLUDED ON PURPOSE: his service as physician to James I and Charles I, presence at Edgehill and the Oxford wardenship (incidental, zero-politics; Moore warns Aubrey's Edgehill anecdote should be treated with suspicion), the dagger and 'choleric' remarks beyond one qualifier in conflict_tolerance, his gout, the manner and cause of his death (including Aubrey's opium rumour, which Aubrey himself discusses and rejects), his marriage and childlessness, the parrot, the 'young wench' remark, and any health or private-life reading. CONFLICTS REPORTED, NOT ADJUDICATED: (a) whether publication cost him practice: Aubrey reports Harvey saying he 'fell mightily', Power suggests party feeling around the court also played a part; the profile does not score this; (b) whether Harvey demonstrated circulation quantitatively: Willis and Moore stress argued inference from structure and experiment; O'Rourke Boyle argues the key word meant a powerful supply, not a measured amount; the profile describes the argument as reasoning from proportion and structure and does not call it the first quantitative argument; (c) the Nuremberg walk-out is told as tradition (Power, Willis); the demonstration and the failure to convince Hofmann are documented (Moore, Keynes). PORTRAIT: Wikidata P18 lists two Commons files. File 1 (William Harvey 2.jpg, 646x762) comes from the National Portrait Gallery London, NPG 5115, a painting attributed to Daniel Mytens, dated 1627 and inscribed 'Doctor William Harvey' (checked by viewing: a man in a black doublet and lace ruff, oval, inscription at right), licence PD-art-old-100-expired (artist died 1647, work c. 1627). CHOSEN. The NPG page was behind a Cloudflare bot wall and was not bypassed, so the attribution and any statement that it was painted from life rest on Commons and Wikidata only; kind is set to likeness because it is an oval portrait of c. 1627, in his lifetime, inscribed with his name, but the lead may downgrade it to historical_depiction if the holder's page shows a later copy. The RSM 1913 volume warns many portraits labelled Harvey are doubtful and its own National Portrait Gallery entry (No. XV) is a different picture, of an older man, so NPG 5115 is not covered by it; the Janssen portrait at the Royal College of Physicians is described there as pedigreed (saved from the 1666 fire). File 2 ('William Harvey (1578-1657).jpg', 1178x2135) is a scan from Henry Sigerist's 1965 book Grosse Aerzte, plate 25, with Commons giving no author or date and a bare PD-old tag, so it was rejected for rights (the source work of 1965 gives no basis for public-domain status of the scan, and the original is unidentified). KOREAN NAME: the Wikidata ko label. No eligibility, coverage or match output was used in scoring; scores and confidences were fixed before the validator was run."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/william-harvey-mijtens-1627.jpg",
+    "width": 646,
+    "height": 762,
+    "source": "Oval oil portrait inscribed 'Doctor William Harvey', c. 1627, attributed to Daniel Mytens (Daniel Mijtens the Elder), National Portrait Gallery, London, NPG 5115, via Wikimedia Commons (File:William Harvey 2.jpg; Wikidata Q28043529). Downloaded unmodified (646x762, no resizing). The NPG collection page is bot-walled (Cloudflare) and was not opened or bypassed, so the NPG attribution wording, acquisition history and any 'from life' statement were NOT verified at the holder.",
+    "license": "Public domain (painting by an artist who died in 1647; Commons template PD-art-old-100-expired)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Art",
+    "attribution": "Attributed to Daniel Mytens (c. 1590-1647), William Harvey, c. 1627, oil on canvas, National Portrait Gallery, London (NPG 5115); photographic reproduction of a two-dimensional public-domain painting",
+    "attributionUrl": "https://www.npg.org.uk/collections/search/portrait/mw02970/William-Harvey",
+    "creator": "Attributed to Daniel Mytens the Elder (Daniel Mijtens)",
+    "date": "c. 1627",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:William_Harvey_2.jpg"
+  }
+}

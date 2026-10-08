@@ -650,6 +650,25 @@ describe("confidence and missing data", () => {
       "paavo-nurmi",
       "paul-ehrlich",
       "roy-chapman-andrews",
+      // Roster44 (2026-10-08, docs/checkpoints/roster44.md): 15 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero backlog
+      // reuse, no new hold. Each has whatever eligibility outcome its own
+      // evidence produced (computed by build(), never gated).
+      "alessandro-volta",
+      "claude-debussy",
+      "edgar-degas",
+      "gordon-moore",
+      "gottlieb-daimler",
+      "herman-melville",
+      "igor-sikorsky",
+      "kathe-kollwitz",
+      "knud-rasmussen",
+      "lou-gehrig",
+      "sergei-rachmaninoff",
+      "suzanne-lenglen",
+      "tycho-brahe",
+      "william-harvey",
+      "william-thomson-kelvin",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1240,6 +1259,25 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "paavo-nurmi",
       "paul-ehrlich",
       "roy-chapman-andrews",
+      // Roster44 (2026-10-08, docs/checkpoints/roster44.md): 15 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero backlog
+      // reuse, no new hold. Each has whatever eligibility outcome its own
+      // evidence produced (computed by build(), never gated).
+      "alessandro-volta",
+      "claude-debussy",
+      "edgar-degas",
+      "gordon-moore",
+      "gottlieb-daimler",
+      "herman-melville",
+      "igor-sikorsky",
+      "kathe-kollwitz",
+      "knud-rasmussen",
+      "lou-gehrig",
+      "sergei-rachmaninoff",
+      "suzanne-lenglen",
+      "tycho-brahe",
+      "william-harvey",
+      "william-thomson-kelvin",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

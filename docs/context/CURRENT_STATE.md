@@ -4,38 +4,42 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-**Minimal update, 2026-10-05 (Roster43)**: the paragraph and Product-section
-headline below this note are stale (they predate Roster17-43 and describe a
+**Minimal update, 2026-10-08 (Roster44)**: the paragraph and Product-section
+headline below this note are stale (they predate Roster17-44 and describe a
 125-person/124-match-eligible state). Current mechanically-verified truth,
 recorded here rather than by rewriting the outdated narrative that
-follows (see `docs/checkpoints/roster43.md` for the full record):
+follows (see `docs/checkpoints/roster44.md` for the full record):
 
-- Production: **378** people. Directory-visible: **377**. Match-eligible:
-  **114** (unchanged since Legacy Integrity Batch 1; eleventh consecutive
+- Production: **393** people. Directory-visible: **392**. Match-eligible:
+  **114** (unchanged since Legacy Integrity Batch 1; twelfth consecutive
   new-candidate cycle at 114, the diagnostic-confirmed expected pattern, see
   `docs/checkpoints/recent-cohort-matching-architecture.md`). *(These are the
-  numbers on the unmerged `feat/roster43` branch, PR pending; `main` is at
-  364/363/114 until it merges.)*
-- Latest merged `main` SHA: `98ecccf191e58b4d2a6cce4ff31b422bd32e7233`
-  (PR #54, Roster42 merge).
-- Latest roster: **Roster43 (eighth fresh cycle after the diagnostic: 15
-  frozen, 14 shipped, 1 held** - Louis Sullivan, evidence_approved, portrait
-  rights unresolved), zero backlog reuse (2026-10-05; shipped 7
-  building_discovery / 3 arts_culture / 8 science_knowledge by directory
-  taxonomy). Combined Roster33-43: 153 new-candidate people shipped, 0
-  match-eligible - recorded, not re-investigated.
+  numbers on the unmerged `feat/roster44` branch, PR pending; `main` is at
+  378/377/114 until it merges.)*
+- Latest merged `main` SHA: `cbafa509bc956bc15951a7f8601510d0dfec5ca8`
+  (PR #55, Roster43 merge).
+- Latest roster: **Roster44 (ninth fresh cycle after the diagnostic: 15
+  frozen, 15 shipped, 0 new holds**; Louis Sullivan and Beatrix Potter stay
+  portrait-held), zero backlog reuse (2026-10-08; shipped 6 building_discovery
+  / 5 arts_culture / 7 science_knowledge by directory taxonomy). Combined
+  Roster33-44: 168 new-candidate people shipped, 0 match-eligible -
+  recorded, not re-investigated.
 - **Editorial significance standard active** (`docs/editorial-content.md`
-  Major Achievement Selection Standard); Roster43 was its second cycle:
-  15/15 PASS, no failures before correction. Known non-blocking editorial
-  debt: henry-ford, vincent-van-gogh, stephen-hawking (older control-sample
-  failures) and raw internal ids in Rembrandt/Kubrick public source notes.
-- Next recommended task: **Roster44** (same discipline and Major Achievement
-  gate; leadership_society lowest priority; building_discovery 106 still the
-  thinnest published category vs. arts_culture 136 / science_knowledge 167;
+  Major Achievement Selection Standard); Roster44 was its third cycle: 15/15
+  PASS, one top-omission failure (Kollwitz) corrected before publication.
+  Known non-blocking editorial debt: henry-ford, vincent-van-gogh,
+  stephen-hawking (older control-sample failures) and raw internal ids in
+  Rembrandt/Kubrick public source notes.
+- Next recommended task: **Roster45** (same discipline and Major Achievement
+  gate; leadership_society lowest priority; building_discovery 112 still the
+  thinnest published category vs. arts_culture 141 / science_knowledge 174;
   Oceania nationals remain blocked by the missing region bucket). Legacy
   Integrity Batch 6 not started. Next performance checkpoint around 500
   production people; do not repeat the recent-cohort matching diagnostic
   without genuinely new evidence.
+
+Superseded Roster43-era note (kept short for continuity): Roster43 shipped
+14 (378/377/114), see `docs/checkpoints/roster43.md`.
 
 Superseded Roster42-era note (kept short for continuity): Roster42 shipped
 14 (364/363/114), see `docs/checkpoints/roster42.md`.

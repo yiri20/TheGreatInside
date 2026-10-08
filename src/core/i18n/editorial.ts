@@ -5936,6 +5936,313 @@ export const EDITORIAL_EN: Record<string, string> = {
     "At the end of the 1928 season the expedition's collections, eighty-seven crates of fossils from Inner Mongolia, were confiscated at Kalgan by a Chinese nationalist group, the Committee for the Preservation of Ancient Objects, which accused the Americans of taking China's treasures. After negotiations involving the museum, the U.S. State Department and the Chinese government, the specimens were released. Andrews spent 1929 negotiating, took two Chinese scientists on a restricted 1930 season limited to palaeontology, and gave half the valuable collections to the Chinese society. 1930 was the last season; Chinese scholars saw the fossils as national heritage, while Andrews argued that they belonged to all mankind.",
   "roy-chapman-andrews.interpretation.turning_point.1":
     "Spending a year negotiating terms for one more season, rather than ending the programme at once, is consistent with persistence; he himself judged the restricted terms to have crippled the work.",
+  /* ---------------------------------------------------------- alessandro-volta (Roster44) */
+  "alessandro-volta.achievement.1":
+    "In a letter to Sir Joseph Banks, read to the Royal Society on 26 June 1800, Volta described a column of alternating silver and zinc plates separated by card or leather soaked in a salt solution, and a variant chain of cups of salt solution joined by arcs of silver and zinc. The Society's summary says the apparatus acts without interruption and gives repeated shocks, and that Volta compared it to the electric organ of the torpedo.",
+  "alessandro-volta.achievement.2":
+    "After Luigi Galvani published his frog experiments in 1791, Volta repeated and extended them, and by 1793 he argued that most of the convulsions came from a weak electricity excited by two different metals touching, not from an electricity of the animal itself. Galvani and his nephew Giovanni Aldini defended animal electricity, and Carradori's 1817 history says physicists divided into two camps. The 1892 sketch says the pile grew out of this work.",
+  "alessandro-volta.achievement.3":
+    "In November 1776 Volta wrote to Father Carlo Campi that inflammable air could be collected from the bottoms of Lake Maggiore, Lake Como and many ponds and ditches by stirring the mud, and that it burned with a blue flame. Campi had earlier reported a bubbling gas spring near San Colombano. Volta's letters were printed in Milan in 1777 and translated into French.",
+  "alessandro-volta.achievement.4":
+    "In 1775 Volta wrote to Joseph Priestley announcing the electrophorus, a device that can supply electric charge repeatedly without being re-excited by friction, and asked how far it was new. Improving it led to the condenser, described in the Philosophical Transactions in 1782, which accumulates very small charges so that an electrometer can show them.",
+  "alessandro-volta.moment.1":
+    "In early November 1776, boating on Lake Maggiore near Angera, Volta prodded the reeds' bottom with his stick, collected the rising bubbles in a large glass vessel and, judging by the smell, told his companions the gas would burn; it did, and he invited others to watch the next day. In the following days he stirred the bottoms of waters near Como and carried flasks of gas home in his pockets. He reported that it burned from every muddy bottom he tried except one, where a candle went out, and that bare stone gave none.",
+  "alessandro-volta.interpretation.moment.1":
+    "Putting an idea to the test in the field at once, inviting witnesses and recording the one exception is consistent with experimentation.",
+  "alessandro-volta.moment.2":
+    "In the memoir he read at the French Institute in November 1801, Volta first set out the three strongest objections to treating the galvanic fluid as ordinary electricity, including the decomposition of water, and then answered them. The English editor William Nicholson objected in print to his letter to de la Metherie, arguing that the liquids and chemical changes in the pile mattered and that Humphry Davy's pile of a single metal with different liquids told against giving everything to the metals. Volta kept his contact explanation.",
+  "alessandro-volta.interpretation.moment.2":
+    "Keeping to his own explanation while stating the objections himself is consistent with independent thinking; a contemporary critic's chemical objection shows the cost of that stance.",
+  "alessandro-volta.turning_point.1":
+    "Galvani's 1791 treatise on electricity in muscular motion led Volta to praise it as a 'beautiful and great' discovery and to repeat the frog experiments. In 1793 he told Tiberius Cavallo that he had found two different metals excite a weak electricity of their own, that he had been on the point of giving up animal electricity, and that after re-testing he kept a smaller role for it but had to renounce, 'not without regret', the idea that the electric fluid acts directly on muscle. Carradori says Volta soon dropped Galvani's theory altogether. The same line of experiments led to the pile of 1800.",
+  "alessandro-volta.interpretation.turning_point.1":
+    "Re-testing his own evidence and giving up an idea he liked, while keeping what survived, is consistent with belief updating; he held the contact explanation of the pile against later criticism, so the pattern was not unconditional.",
+  /* ---------------------------------------------------------- claude-debussy (Roster44) */
+  "claude-debussy.achievement.1":
+    "Debussy's orchestral Prelude to the Afternoon of a Faun, inspired by Stéphane Mallarmé's poem, was first played at the Société Nationale in Paris on 22 December 1894 under Gustave Doret and was encored. According to Debussy's later account, Mallarmé, hearing it before the performance, said it prolonged the emotion of his poem and set its scene more passionately than colour. Within a few years other Paris conductors were programming it.",
+  "claude-debussy.achievement.2":
+    "Debussy set Maurice Maeterlinck's play Pelléas et Mélisande as a continuous opera, working on it from 1892-93 until the orchestration was written in early 1902. It opened at the Opéra-Comique in Paris on 30 April 1902 under André Messager, with Mary Garden as Mélisande. The vocal line follows the rhythms of French speech and the orchestra is deliberately restrained; Romain Rolland counted the first night among the notable dates of the French lyric stage, and Léon Vallas records its 175th performance in June 1926.",
+  "claude-debussy.achievement.3":
+    "The three orchestral Nocturnes (Nuages, Fêtes, Sirènes), first played at the Lamoureux concerts on 9 December 1900, and La Mer, three symphonic sketches begun in 1903, finished in March 1905 and first performed on 15 October 1905, use the orchestra as a palette of divided, muted and solo colours rather than of massed instrument families. Reception of La Mer was divided: one respected reviewer found the sea less deeply felt than in Pelléas, while Louis Laloy praised a new, firmer style.",
+  "claude-debussy.achievement.4":
+    "Alongside the orchestral works Debussy wrote a body of chamber and piano music. His String Quartet was first played at the Société Nationale on 29 December 1893 by the Ysaÿe quartet; Estampes was premiered by Ricardo Viñes on 9 January 1904; two series of Images appeared in 1905 and 1907 and two books of twelve Préludes in 1910 and 1913, with their evocative titles printed at the end of each piece rather than at its head. The critic Emile Vuillermoz, a champion of his music, credited him with renewing piano writing after Liszt and Chopin.",
+  "claude-debussy.moment.1":
+    "Having won the Prix de Rome in 1884, Debussy was entitled to a concert of his Rome submissions. He wanted the orchestral suite Printemps included, a work the Académie des Beaux-Arts had criticised in 1887 for 'vague impressionism' and for its unusual key and wordless chorus. The Académie would not allow it on the programme; Debussy refused to accept the exclusion and gave up the concert in 1890. La Damoiselle élue then waited until 1893 for a public performance, and Printemps was not published until 1904.",
+  "claude-debussy.interpretation.moment.1":
+    "Giving up a concert rather than accept a cut in his own programme is consistent with a strong need for autonomy, and the long wait for his Rome works to be heard shows what that choice cost.",
+  "claude-debussy.moment.2":
+    "In a letter to Ernest Chausson in the summer of 1893, Debussy said that the fountain scene of Pelléas's fourth act, which he had thought finished, was 'not at all' what he wanted: it resembled another composer's duet, and the ghost of Wagner, 'old Klingsor', appeared at a turn of the music. He tore it up and began again in search of more personal phrases, adding that he had found silence itself could serve as a means of expression. The letter is known from Vallas's quotation; Laloy confirms that the fourth-act duet was the first part he wrote.",
+  "claude-debussy.interpretation.moment.2":
+    "Discarding a scene he thought finished because it echoed Wagner is consistent with a perfectionist standard applied to originality, and it is one episode in a score he reworked for about a decade.",
+  "claude-debussy.turning_point.1":
+    "In summer 1892 Debussy bought Maeterlinck's play Pelléas et Mélisande, began reading it that evening and, according to Laloy, decided the next day to set it to music; Pierre Louÿs, to whom he first confided the plan and who then read the play, did not hide his surprise. The two went to Ghent, where Maeterlinck gave Debussy full licence to cut the text and to have the work staged as he saw fit (Vallas dates the decision and the visit to 1893). The choice set aside an earlier opera on the Cid story, Chimène, and committed Debussy to a project that took about ten years.",
+  "claude-debussy.interpretation.turning_point.1":
+    "Holding to an unusual subject after a close friend's surprise is consistent with independent thinking, and the decision tied up a large part of his following decade.",
+  /* ---------------------------------------------------------- edgar-degas (Roster44) */
+  "edgar-degas.achievement.1":
+    "Degas made the ballet a central subject of his work, painting and drawing dancers in rehearsal, in the wings and in the Opera foyer in oil, pastel and chalk. Jean-Baptiste Faure commissioned The Dance Class, which Degas delivered in 1874 for 5,000 francs. He later told Ambroise Vollard that people called him the painter of dancing girls, but that his chief interest in dancers lay in rendering movement and painting pretty clothes.",
+  "edgar-degas.achievement.2":
+    "Degas modelled The Little Fourteen-Year-Old Dancer in tinted wax, with Marie van Goethem as the model, and dressed it in a real bodice, tutu, stockings, ballet shoes and a wig with a ribbon. It was announced for the 1880 group exhibition but shown only in April 1881, and it is the only sculpture he exhibited in his lifetime. Reviewers were divided: Huysmans called it the only truly modern initiative he knew in sculpture, while others attacked the girl's expression. The work was cast in bronze only in 1921.",
+  "edgar-degas.achievement.3":
+    "In December 1873 Degas joined Monet, Pissarro, Sisley, Morisot, Cezanne and others in forming a cooperative society for unjuried exhibitions, and its first show opened on 15 April 1874 with ten works by him. He showed in the group's exhibitions between 1874 and the last, in 1886, where he exhibited a suite of pastels of women bathing. He objected to being called an Impressionist, and his friend and biographer Lemoisne notes that he never adopted the group's open-air painting.",
+  "edgar-degas.achievement.4":
+    "Beyond the ballet, Degas painted scenes of modern Paris: racecourses (Faure bought four racing scenes in 1873-74), laundresses and women ironing, and cafe-concert singers. In a Cafe (The Absinthe Drinker) was sold in London in 1876 through the dealer Charles Deschamps. His 1886 pastels of women washing, drying and combing their hair were catalogued as a suite of nudes at their toilette.",
+  "edgar-degas.moment.1":
+    "In 1876 Degas told the critic Jules Claretie that he had found a new technique for engraving, while the printmaker Marcellin Desboutin wrote that he talked only of metallurgists, lead casters and lithographers in his search for ways to reproduce his drawings. In 1880 he described the etchings he showed at the fifth group exhibition as 'experiments and states of plates'; one of them, Leaving the Bath, passed through twenty-two states.",
+  "edgar-degas.interpretation.moment.1":
+    "Seeking out industrial printers and presenting unfinished states of a plate as part of the show is consistent with a strong taste for experimentation; the Boggs catalogue notes that the pursuit displaced any thought of financial return.",
+  "edgar-degas.moment.2":
+    "Ambroise Vollard recalled that Degas once showed him a small wax dancer he had redone 'for the twentieth time' and said it would be ready for the caster in a day or two. The next day only the original lump of wax remained, and Degas told him he would not take a bucket of gold for the pleasure of destroying it and starting over.",
+  "edgar-degas.interpretation.moment.2":
+    "Destroying a nearly finished work to begin again is consistent with perfectionism; it is a single-source anecdote, but Vollard also reports that Degas painted out a figure and took back pictures that were reframed, and the Boggs catalogue records the Little Dancer's repeated delays.",
+  "edgar-degas.turning_point.1":
+    "In April 1873 Degas wrote to the painter James Tissot that he had given up plans to show at the Salon. That December he joined the cooperative society, and in March 1874 he wrote that he was 'running the thing with energy' because 'there must be a salon of Realists'. The society's first exhibition opened on 15 April 1874; it lost money and the society was dissolved in May, but Degas went on to show in the group's later exhibitions.",
+  "edgar-degas.interpretation.turning_point.1":
+    "Moving from the official Salon to an unjuried exhibition he helped organise is consistent with a strong need to control how his work was judged and shown; Lemoisne notes he had exhibited at the Salons through the Second Empire.",
+  /* ---------------------------------------------------------- gordon-moore (Roster44) */
+  "gordon-moore.achievement.1":
+    "In the 19 April 1965 issue of Electronics, Moore forecast that the number of components on an integrated circuit was doubling about every year and would keep doing so for ten years, reaching around 65,000 by 1975. In 1975 he revised the rate to a doubling about every two years. The forecast, later called Moore's Law, became a reference point for the semiconductor industry.",
+  "gordon-moore.achievement.2":
+    "In 1968 Moore and Robert Noyce left Fairchild to found Intel, with Arthur Rock arranging the financing and Moore first serving as executive vice president. Intel started by developing semiconductor memory; Moore was later its CEO (1975 to 1987) and chairman.",
+  "gordon-moore.achievement.3":
+    "In 1957 Moore and seven colleagues left Shockley Semiconductor Laboratory, after Arnold Beckman declined to change its management, and founded Fairchild Semiconductor with backing from Fairchild Camera and Instrument. Moore was responsible for diffusion work and furnaces there, and Fairchild went on to make silicon mesa transistors by batch processing and to produce early integrated circuits.",
+  "gordon-moore.achievement.4":
+    "In the mid-1980s Japanese competitors cut prices on memory chips and Intel's profits fell from $198 million in 1984 to under $2 million in 1985. Intel then left the memory business, laid off about 7,000 people, and concentrated on microprocessors. The change was led by Andy Grove as president; Moore, the CEO, answered Grove's question about what a new CEO would do with 'get out of the memory business'.",
+  "gordon-moore.moment.1":
+    "By Jay Last's account, in 1957 the Shockley group, unhappy with the management, had lunch together and Vic Grinich pressed them to act and call Arnold Beckman. After 'hemming and hawing', Moore said 'I'll do it' and telephoned, with what Last remembers as a quaver in his voice. Beckman was out, so Moore called again that evening, and Beckman came to meet the group.",
+  "gordon-moore.interpretation.moment.1":
+    "The account links a step taken in front of colleagues with visible nervousness: he acted first, though he was not at ease doing it. It rests on one colleague's memory.",
+  "gordon-moore.moment.2":
+    "In 1995 Moore told Rob Walker that after the 8080 microprocessor he had asked Intel's designers to 'start over' and make the right microprocessor without regard to past compatibility. The result, the 432, was so complex that its performance was far below conventional microprocessors and it found no market. He said he was 'personally responsible', and that Intel had also backed a conventional 16-bit processor, which led to the 8086.",
+  "gordon-moore.interpretation.moment.2":
+    "He describes an ambitious project that failed in his own words, accepts responsibility for it, and notes a parallel conventional project. This is his own account, so it shows how he tells it as much as what happened.",
+  "gordon-moore.turning_point.1":
+    "In 1985, with profits collapsing against Japanese memory makers, Andy Grove asked Moore what a new CEO brought in by the board would do. Moore answered, in Grove's telling, 'He would get us out of memories', and Grove replied that the two of them should walk out and do it themselves. Intel then left memory chips and concentrated on microprocessors.",
+  "gordon-moore.interpretation.turning_point.1":
+    "The exchange shows Moore giving a direct answer that went against what Intel had been built on. Jones says he was not struggling with the decision as Grove was, and trusted Grove to carry it out.",
+  /* ---------------------------------------------------------- gottlieb-daimler (Roster44) */
+  "gottlieb-daimler.achievement.1":
+    "Working from a greenhouse workshop in Cannstatt with Wilhelm Maybach, Daimler patented a small uncooled engine with hot-tube ignition in December 1883. It ran at about 600 rpm, against 120 to 180 for existing engines. The 'grandfather clock' engine followed (patented 3 April 1885, 0.7 kW at 600 rpm, with a closed crankcase), and in 1886 a carburettor patent let it burn petrol. Mercedes-Benz Classic says it cannot be settled which achievements belong to Daimler and which to Maybach.",
+  "gottlieb-daimler.achievement.2":
+    "Daimler's engine went into a wooden-framed two-wheeler, the 1885 'Riding Car' (patent DRP 36423), then into a four-wheeled carriage delivered in August 1886 and a motor boat tested on the Neckar the same month. Mercedes-Benz Classic calls the carriage the world's first four-wheeled automobile, following Carl Benz's patent car by a few months. The engine was also fitted to rail vehicles and to Wolfert's airship.",
+  "gottlieb-daimler.achievement.3":
+    "In September 1888 Daimler and the New York piano maker William Steinway set up the Daimler Motor Company, and in 1889 Panhard & Levassor in Paris took a licence for his French patents. On 28 November 1890 Daimler, Max Duttenhofer and Wilhelm Lorenz founded the Daimler-Motoren-Gesellschaft in Cannstatt. Daimler died in March 1900, before the Mercedes cars designed by Maybach's office were delivered later that year.",
+  "gottlieb-daimler.moment.1":
+    "In 1888 the magazine Die Gartenlaube reported that for some months a rail car driven by a small Daimler petroleum motor had run at midday on a narrow track in Cannstatt, and that trial runs had been made on the Württemberg railway for ministers, railway directors and engineers. The motor, about 60 kg, had also driven boats on the Neckar, at Baden-Baden before the grand-ducal family, on Lake Constance and at Berlin with Navy Ministry officials.",
+  "gottlieb-daimler.interpretation.moment.1":
+    "Repeating the same engine in rail, draisine and boat trials in several places before official audiences is consistent with experimentation; the article is an unsigned, uncritical report, so it shows the trials rather than their results.",
+  "gottlieb-daimler.moment.2":
+    "When Wilhelm Maybach left the new company in February 1891, Daimler kept him designing, first in Maybach's home and from 1892 in the rented rooms of the former Hotel Hermann in Cannstatt, which the Deutsche Patent- und Markenamt says Daimler financed. In 1895 Maybach turned down the DMG's invitation to come back without Daimler.",
+  "gottlieb-daimler.interpretation.moment.2":
+    "Keeping a designer working at his own expense while himself still inside the quarrelling company, and the designer's refusal to return without him, is consistent with collaboration; the credit for the work remains disputed.",
+  "gottlieb-daimler.turning_point.1":
+    "In October 1894 DMG's board members Max Duttenhofer and Wilhelm Lorenz threatened to let the company go bankrupt unless Daimler sold them his shares (nominal value 200,000 marks) and the rights to his inventions at a third of nominal value, and he agreed. William Steinway's diary of 11 November 1894 records Daimler's letter on how he left the company. In November 1895 the board took him back as an adviser and general inspector, on the condition set by a British group led by Frederick Simms that was buying his British rights. He recovered the shares for 66,666 marks and became chairman of the supervisory board in March 1897.",
+  "gottlieb-daimler.interpretation.turning_point.1":
+    "Returning to the firm with Maybach after being forced out, rather than leaving the engine work, is consistent with persistence; the terms were set by the investors' need for British money, not by Daimler.",
+  /* ---------------------------------------------------------- herman-melville (Roster44) */
+  "herman-melville.achievement.1":
+    "Melville's Moby-Dick; or, The Whale, a long novel of the whaleship Pequod and Captain Ahab's pursuit of a white whale, was published in London in October 1851 and in New York in November 1851. It draws on his own time at sea: the National Archives holds the Acushnet crew list showing that he signed on as a greenhand in December 1840 and left the ship at Nuku Hiva in July 1842. American reviews at the time were mostly favourable, and the book's standing as his major work grew in the 1920s revival.",
+  "herman-melville.achievement.2":
+    "Melville's first two books, Typee (1846) and Omoo (1847), were narratives of his years in the Pacific. The London publisher John Murray bought the English rights to Typee for 100 pounds, and the New York firm Wiley and Putnam published it simultaneously. By the start of 1849 Wiley and Putnam had sold 6,392 copies in the United States, and reviewers on both sides of the Atlantic took notice of both books.",
+  "herman-melville.achievement.3":
+    "After 1853 Melville turned to shorter forms and verse. Bartleby, the Scrivener appeared in a magazine in late 1853 and the Piazza Tales, a collection of his magazine stories, in 1856. His first book of poems, Battle-Pieces and Aspects of the War, was published by Harper and Brothers in 1866, and the long poem Clarel, a roughly 20,000-line poem based on his 1856-57 journey to the Holy Land, followed in 1876.",
+  "herman-melville.achievement.4":
+    "Melville finished Billy Budd, Foretopman five months before his death in 1891, but it remained unpublished until Raymond Weaver's 1924 edition of Billy Budd and Other Prose Pieces, prepared from the manuscripts that Weaver located with the help of Melville's granddaughter. The edition was part of the first collected edition of his works.",
+  "herman-melville.moment.1":
+    "While writing Moby-Dick in 1850 and 1851, Melville also ran a farm at Pittsfield. His wife's journal, quoted by Weaver and Mumford, records that he would sit at his desk all day, ride to the village after dark, and be up early walking before breakfast. In June 1851 he wrote to Hawthorne that he planned to go to New York to 'work and slave' on the book while it went through the press.",
+  "herman-melville.interpretation.moment.1":
+    "Keeping a long writing routine alongside farm work, as his wife recorded it, is consistent with discipline; the evidence is largely family and self-report, so the reading stays modest.",
+  "herman-melville.moment.2":
+    "As book sales fell after 1853, Melville looked for other income. Dana, Allan Melville and Hawthorne all backed his unsuccessful bid for a Pacific consulship in 1853. From 1857 to 1860 he lectured, giving fewer than thirty lectures at fees of about fifty dollars, and in 1858 wrote that he would lecture 'in Labrador or on the Isle of Desolation off Patagonia'. On 5 December 1866 he took a post as inspector of customs in New York, which he held for about twenty years.",
+  "herman-melville.interpretation.moment.2":
+    "Moving from writing to lecturing and then to a steady civil post as his income fell is consistent with adaptability; the sources describe the changes but not his reasons.",
+  "herman-melville.turning_point.1":
+    "After the success of Typee and Omoo, Melville published Mardi in April 1849, a Polynesian allegory. In its preface he said the book began as a test of whether a romance might be taken for fact after his two earlier narratives were doubted. Reviews, enthusiastic at first, grew hostile through 1849, and he wrote that the London Athenaeum had 'cut into' it and the Boston Post had 'burnt' it, adding that such attacks were 'matters of course'. His next books, Redburn and White-Jacket, returned to his sea experience, but Moby-Dick and Pierre followed.",
+  "herman-melville.interpretation.turning_point.1":
+    "Following two popular travel books with an allegory that readers and reviewers received poorly is consistent with independent thinking, and it cost him part of his audience.",
+  /* ---------------------------------------------------------- igor-sikorsky (Roster44) */
+  "igor-sikorsky.achievement.1":
+    "Sikorsky designed and test-flew the VS-300, which first lifted off, tethered, on 14 September 1939 at Stratford, Connecticut. Over the next two years it was rebuilt into a single main rotor with full cyclic control and one tail rotor to cancel torque, the layout that most of the world's helicopters still use. The American Society of Mechanical Engineers designated it a landmark as America's first practical helicopter.",
+  "igor-sikorsky.achievement.2":
+    "From the VS-300 Sikorsky built the XR-4, which first flew on 14 January 1942 and, with cyclic control carried over from the VS-300, became the prototype of the first production single-rotor helicopter. By the end of the Second World War his plant had turned out more than 400 R-4, R-5 and R-6 helicopters. On 3 January 1944 a Coast Guard R-4 flew blood plasma to the survivors of a sunken destroyer in a snowstorm.",
+  "igor-sikorsky.achievement.3":
+    "In Russia Sikorsky built the Russky Vityaz (Le Grand), which he flew in May 1913 as the first four-engine aeroplane, and then the Ilya Muromets, a passenger aircraft with an enclosed saloon. In 1914 he flew a Muromets about 700 miles from St Petersburg to Kiev. When the First World War began the type was developed into a long-range bomber, and more than seventy were built for the Russian military.",
+  "igor-sikorsky.achievement.4":
+    "In the United States Sikorsky's S-38 amphibian (1928) became Pan American Airways' workhorse, with 38 of the 111 built going to the airline. For Pan Am he then built the 40-passenger S-40, which Juan Trippe named the American Clipper (1931), and the longer-range S-42 (1934), designed with Pan Am's adviser Charles Lindbergh. The S-42 was used to survey Pan Am's ocean routes.",
+  "igor-sikorsky.moment.1":
+    "After Captain Frank Gregory flew the VS-300 in July 1940 and recommended the Army fund development, the Army insisted that all control sit in the main rotor and that the cockpit be enclosed. Sikorsky, who had been steering the VS-300 with horizontal tail rotors, returned it to a single main rotor with full cyclic control and carried that design into the XR-4. Gregory later described the VS-300 as 'a bucking bronco'.",
+  "igor-sikorsky.interpretation.moment.1":
+    "Returning to the original layout after months of testing a different one, and accepting the customer's control requirement, is consistent with belief updating; the company's own historian dates the final decision to June-December 1941.",
+  "igor-sikorsky.moment.2":
+    "On 21 September 1926 the S-35 built for René Fonck's transatlantic attempt crashed on take-off at Roosevelt Field, killing two of the crew. Sikorsky later wrote that all the company's capital was spent and its debts far exceeded its assets, and the aircraft was uninsured. He and most employees went to the funeral Mass for the radio operator; within two years the company had the S-36 and S-38 amphibians on the market.",
+  "igor-sikorsky.interpretation.moment.2":
+    "Rebuilding the business after a fatal, uninsured loss, rather than closing it, is consistent with persistence; the same sources say the promoters' schedule overrode his wish to test further, so the setback was partly outside his control.",
+  "igor-sikorsky.turning_point.1":
+    "By 1938 long-range land planes were replacing flying boats, United Aircraft's Sikorsky division had no orders, and the parent company threatened to close it. Sikorsky proposed building an experimental helicopter, on condition that his engineering team be kept together, and United Aircraft approved the project in late December 1938. The VS-300 flew nine months later.",
+  "igor-sikorsky.interpretation.turning_point.1":
+    "Pivoting the whole operation to a long-held idea when its main market vanished is consistent with adaptability; the article's writer also calls the earlier flying-boat bet a strategic blunder, so the pivot followed a misjudgment.",
+  /* ---------------------------------------------------------- kathe-kollwitz (Roster44) */
+  "kathe-kollwitz.achievement.1":
+    "Kollwitz made A Weavers' Revolt, six prints (three lithographs and three etchings) begun in 1893 after she saw the premiere of Gerhart Hauptmann's play The Weavers and finished in 1897. Shown at the Great Berlin Art Exhibition in 1898, the cycle brought her breakthrough; the jury proposed a medal for it and Kaiser Wilhelm II rejected the proposal. ARTinWORDS notes that the cycle depicts a fictional revolt set in the present, not the historical 1844 uprising or the play's plot.",
+  "kathe-kollwitz.achievement.2":
+    "Peasants' War, a cycle of seven etchings made between 1902 and 1908, was inspired by Wilhelm Zimmermann's history of the 1524-25 Peasants' War. The Kollwitz Museum Köln records that she first designed it as colour lithographs, and that it was funded by the Association for Historical Art in Dresden after she applied in 1904. She received the Villa Romana Prize in 1907. Art in America calls the cycle arguably her greatest in any medium.",
+  "kathe-kollwitz.achievement.3":
+    "In the early 1920s Kollwitz made War, a cycle of seven woodcuts, after taking up the woodcut medium under the influence of Ernst Barlach's prints. The Kollwitz Museum Köln describes it as her treatment of what she had experienced and understood during the First World War. Five of the seven prints, Art in America notes, concern bereaved parents.",
+  "kathe-kollwitz.achievement.4":
+    "The Grieving Parents is a pair of kneeling granite figures, a mother and a father, installed in 1932 at the war cemetery at Roggevelde near Diksmuide, Belgium, where her son Peter was buried; the cemetery was later merged into Vladslo, taking the figures with it. She had planned a memorial since 1914, dropped the first design in 1919 and drew up a new one in 1924. The granite figures were carved by August Rhades and Fritz Diederich from her plaster models.",
+  "kathe-kollwitz.achievement.5":
+    "In 1937-38 Kollwitz made the small sculpture Pietà (Mother with her Dead Son). The Käthe-Kollwitz-Museum Berlin records that an enlarged replica made by the sculptor Harald Haacke stands in the Neue Wache in Berlin; the original is a late work among her three small sculptures of those years.",
+  "kathe-kollwitz.moment.1":
+    "In September 1909, when she began her first multi-figure sculpture, a mother with a dead child, Kollwitz showed the first result to the sculptor Alexander Oppler, whom she knew from Munich. ARTinWORDS reports that he pointed out the poor construction of the work and that this spurred her ambition. In 1904 she had already spent two months in the sculpture class of the Académie Julian in Paris and visited Rodin's studios.",
+  "kathe-kollwitz.interpretation.moment.1":
+    "Going to a critical colleague with unfinished work, and learning the craft in a class years earlier, is consistent with a strong drive to master a new medium.",
+  "kathe-kollwitz.moment.2":
+    "Alfred Kuhn, a contemporary critic, records that the first plate of the Peasants' War, the ploughmen, existed in earlier versions in which a woman guided the plough. In the 1906 state she had been removed and only two men straining into the harness remain. The Art in America critic adds that she reworked another plate, Black Anna, many times and replaced an earlier flying nude figure with an earthbound one.",
+  "kathe-kollwitz.interpretation.moment.2":
+    "Cutting a figure and redrawing others across successive states is consistent with a perfectionist approach to composition; the sources describe the changes but not her stated reasons.",
+  "kathe-kollwitz.turning_point.1":
+    "Around 1920, impressed by Ernst Barlach's woodcuts, Kollwitz made one of her first woodcuts, a memorial print of 1920, after more than two decades working mainly in etching and lithography. Art in America says the medium better suited her need for directness, and that she had always found etching slow and technical. The woodcut became the medium of her cycle War.",
+  "kathe-kollwitz.interpretation.turning_point.1":
+    "Changing the main medium after two decades, because another artist's work showed what it could do, is consistent with a willingness to experiment with technique.",
+  /* ---------------------------------------------------------- knud-rasmussen (Roster44) */
+  "knud-rasmussen.achievement.1":
+    "Rasmussen led the Fifth Thule Expedition (1921-24), a Danish ethnographic expedition to Arctic North America that worked first from a base on Danish Island, north of Hudson Bay. From March to May 1923 he travelled by dog sled with two Inuit companions, Qavigarssuaq and Arnarulunguaq, from Danish Island to Point Barrow, Alaska, and went on to Nome, visiting Inuit groups on the way. The expedition brought home more than 20,000 specimens, about 15,000 of them ethnographic and archaeological, and excavations of old house ruins led to the discovery of the Thule culture.",
+  "knud-rasmussen.achievement.2":
+    "The expedition's results were published in English as the Report of the Fifth Thule Expedition 1921-24. Rasmussen wrote its volumes on the intellectual culture of the Iglulik (1929), Caribou (1930), Netsilik (1931) and Copper Inuit (1932), recording their beliefs, shamans and legends; the Danish Biographical Lexicon calls this his main scientific work. The historian Kenn Harper writes that without Rasmussen's work we would know little of the religion of several of these groups, although his theory that Inuit culture began inland was later overturned by archaeology.",
+  "knud-rasmussen.achievement.3":
+    "In 1910 Rasmussen and the engineer Ib Nyeboe founded the Thule trading station at North Star Bay in north-west Greenland, to supply the Polar Inuit with guns, tools and other goods and to serve as a base for expeditions; Peter Freuchen managed it for its first ten years. Profits from the station paid for most of the Thule expeditions, among them the 1912 First Thule Expedition, which crossed the Greenland ice cap to Independence Fjord and found no Peary Channel.",
+  "knud-rasmussen.moment.1":
+    "In August 1917, on the return from the Second Thule Expedition's journey along Greenland's north coast, the party was out of food and the last dog was eaten on 24 August. Rasmussen and the Inuit hunter Ajako, who were feeling the journey least, went ahead on foot to the settlement of Etah, 225 km away. He set out on 25 August and reached it on 30 August, and five relief sledges left that night. They met Lauge Koch's party on 4 September, by which time the botanist Thorild Wulff had died.",
+  "knud-rasmussen.interpretation.moment.1":
+    "Going ahead on foot to bring help for companions too weak to travel, and covering the distance in five days, is consistent with persistence; the account comes from a colleague and is admiring.",
+  "knud-rasmussen.moment.2":
+    "In the introduction to Across Arctic America (1927) Rasmussen restated H. P. Steensby's theory that the Inuit were originally inland hunters who later moved to the coast, adding that all the expedition's researches supported it. Later archaeology, including that of his own colleague Mathiassen, showed that Inuit culture spread from Alaska eastward, and Harper reports that the inland-origin idea has no following today. Harper adds that Rasmussen put similarities between inland and coastal folklore down to recent borrowing from the coast.",
+  "knud-rasmussen.interpretation.moment.2":
+    "Keeping to the theory after contrary archaeological findings is consistent with a low score for belief updating on this one scientific question; Harper's reading is that the data were used to support the theory rather than to shape it.",
+  "knud-rasmussen.turning_point.1":
+    "In 1902 Rasmussen, aged 22, joined the Literary Expedition led by Ludvig Mylius-Erichsen. Dansk Biografisk Leksikon says the plan was extended north of Melville Bay to the Polar Inuit largely thanks to him, and the party wintered among them. Mathiassen writes that there he gathered their legends and religious ideas and 'found his true sphere'. His first book, Nye Mennesker (1905), followed, and the Polar Inuit remained the fixed point of his work, including the Thule station.",
+  "knud-rasmussen.interpretation.turning_point.1":
+    "Pressing the expedition on to the Polar Inuit and spending the winter collecting their traditions is consistent with curiosity about a specific people, and it set the direction of his later work.",
+  /* ---------------------------------------------------------- lou-gehrig (Roster44) */
+  "lou-gehrig.achievement.1":
+    "From June 1925 until May 1939, Gehrig played in 2,130 consecutive games for the New York Yankees, beginning with a pinch-hitting appearance on 1 June 1925 and his first start at first base the next day. The Baseball Hall of Fame calls it a streak long thought unbreakable until Cal Ripken Jr. passed it in 1995, and the run is what earned him the nickname the Iron Horse.",
+  "lou-gehrig.achievement.2":
+    "In 1927 Gehrig batted cleanup for the Yankees lineup the New York press dubbed Murderers' Row. He hit .373 with 47 home runs, a league-leading 173 runs batted in and a Yankees-record 52 doubles, was named the American League's Most Valuable Player, and the Yankees swept that year's World Series. He and Babe Ruth, who hit a record 60 home runs, formed the middle of the order for the decade.",
+  "lou-gehrig.achievement.3":
+    "Gehrig finished his career with a .340 batting average, 493 home runs and about 1,995 runs batted in, and the Yankees won six World Series in his 17 seasons, according to the Hall of Fame. In 1934 he led the American League in batting average (.363), home runs (49) and runs batted in (165), a Triple Crown, and in 1936 he won a second MVP award.",
+  "lou-gehrig.achievement.4":
+    "On 4 July 1939, 61,808 fans came to Yankee Stadium for Lou Gehrig Appreciation Day, where he gave the farewell speech that begins 'Today I consider myself the luckiest man on the face of the earth'. On 7 December 1939 the Baseball Writers' Association of America voted unanimously to suspend the waiting period and elect him to the Hall of Fame immediately, which MLB.com describes as one of only two times the writers have elected a player by special election.",
+  "lou-gehrig.moment.1":
+    "In the last three weeks of the 1930 season Gehrig played with a broken finger that needed surgery once the season ended, and in the hospital doctors found bone chips in his left elbow that needed a second operation. He still appeared in every Yankees game that year and finished at .379 with 41 home runs and a league-leading 174 runs batted in.",
+  "lou-gehrig.interpretation.moment.1":
+    "Playing out a season with a broken finger instead of resting is consistent with persistence; it is one dated episode from a long run, and the later claim that he broke every finger over his career is a secondary tally.",
+  "lou-gehrig.moment.2":
+    "After the 1927 barnstorming tour with Ruth, Gehrig let the Yankees' usual contract sit on his desk, though Ruth had urged him to insist on $30,000. A few weeks later he visited owner Jacob Ruppert at his brewery and agreed to a three-year deal at $25,000 a year, a big raise for him but well below what Ruth earned, and the length of the contract mattered more to him than the figure.",
+  "lou-gehrig.interpretation.moment.2":
+    "Pausing before signing, then settling quickly on security rather than the larger figure Ruth suggested, is consistent with a low-key rather than forceful negotiating style; the biography reports his stated priority, and one contract is a small sample.",
+  "lou-gehrig.turning_point.1":
+    "On 2 June 1925, with the Yankees in seventh place, manager Miller Huggins started Gehrig at first base in place of Wally Pipp, who had been the regular for years. Gehrig, a backup who had been pinch-hitting, went 3-for-5, and Huggins told him before the next game that he was the first baseman 'today and from now on'. The SABR biography notes that the popular story of Pipp sitting out with a headache is untrue; Pipp was hitting .244 and the team was struggling.",
+  /* ---------------------------------------------------------- sergei-rachmaninoff (Roster44) */
+  "sergei-rachmaninoff.achievement.1":
+    "Rachmaninoff's Piano Concerto No. 2 was composed between June 1900 and April 1901 and premiered in full in Moscow on 9 November 1901 with Alexander Siloti conducting. His Piano Concerto No. 3, written in the summer of 1909, had its world premiere in New York on 28 November 1909 with Walter Damrosch conducting the New York Symphony Society and the composer as soloist. His Prelude in C-sharp minor, from the Op. 3 Morceaux de fantaisie that Tchaikovsky praised, became so widely played that it was demanded as an encore for decades.",
+  "sergei-rachmaninoff.achievement.2":
+    "Rachmaninoff composed the Second Symphony in 1906-07 and conducted its premiere in Saint Petersburg on 26 January 1908; the symphonic poem The Isle of the Dead was written in the same Dresden years. In the winter of 1915 he wrote the Vesper Mass (the All-Night Vigil), setting Russian Orthodox chant melodies for unaccompanied choir. In 1934 he wrote the Rhapsody on a Theme of Paganini at his Swiss villa and played its premiere in Baltimore on 7 November 1934 with Leopold Stokowski and the Philadelphia Orchestra.",
+  "sergei-rachmaninoff.achievement.3":
+    "Rachmaninoff reached New York on 10 November 1918 and built a career as a concert pianist, working with the managers Charles Ellis and C. J. Foley and with Steinway & Sons; his programmes centred on Beethoven, Schumann, Liszt and above all Chopin. The Associated Press obituary of 1943 called him second only to Paderewski among pianists and said he had been before the public for half a century. He also held conducting posts in Moscow, including at the Bolshoi, before leaving Russia.",
+  "sergei-rachmaninoff.moment.1":
+    "In 1905-06 Rachmaninoff, who offered to coach Chaliapin in the bass parts of his own two operas, said that when preparing other composers' operas with him he 'showed no mercy', keeping the singer at the piano for two or three hours, or longer, until he knew his part and the whole opera 'down to the last detail of orchestration'. He called himself 'positively cruel' in those rehearsals. Chaliapin remembered the same partnership as one in which, with Rachmaninoff at the piano, 'we are both singing'. The coaching account is Rachmaninoff's own, told to Riesemann.",
+  "sergei-rachmaninoff.interpretation.moment.1":
+    "Drilling a leading singer until every detail was secure, and describing himself as 'cruel' about it, is consistent with perfectionism; the account is his own, and Chaliapin's memoir records the warmth of the partnership rather than the drills.",
+  "sergei-rachmaninoff.moment.2":
+    "In autumn 1906, when his Imperial Theatre contract ended, Rachmaninoff did not renew it despite offers of 'almost unlimited authority' as chief conductor, and took his family to Dresden to compose in quiet. Arriving there, he told an acquaintance in the street, 'I have escaped from my friends.' He wrote the Second Symphony and The Isle of the Dead in these Dresden years.",
+  "sergei-rachmaninoff.interpretation.moment.2":
+    "Giving up a powerful post to protect his time for composing is consistent with a strong need for autonomy; the account comes from his own recollections as recorded by Riesemann.",
+  "sergei-rachmaninoff.turning_point.1":
+    "Rachmaninoff's First Symphony was premiered in Saint Petersburg in 1897 under Alexander Glazunov. The performance went badly, César Cui's review was scathing, and Rimsky-Korsakov told him at rehearsal that he did not find the music agreeable. Rachmaninoff later said he agreed that the work's faults were real, withdrew the score, and wrote little for a time. In 1900-01 he composed the Second Piano Concerto, helped by two years of support from his cousin Siloti, and its Moscow premiere in 1901 was a success.",
+  "sergei-rachmaninoff.interpretation.turning_point.1":
+    "Accepting that the criticism of the symphony was partly right, rather than defending the work, is consistent with belief updating; the judgment of the symphony's faults is his own recollection, and Rimsky-Korsakov's memoir only records the work's performance.",
+  /* ---------------------------------------------------------- suzanne-lenglen (Roster44) */
+  "suzanne-lenglen.achievement.1":
+    "Lenglen won the Wimbledon ladies' singles in 1919-1923 and 1925, beating the seven-time champion Dorothea Lambert Chambers 10-8, 4-6, 9-7 in the 1919 final. The All England Club records 15 Wimbledon titles for her (six singles, six doubles and three mixed) and 91 wins in the 94 matches she played there.",
+  "suzanne-lenglen.achievement.2":
+    "At the 1920 Antwerp Olympics Lenglen won gold in women's singles and in mixed doubles with Max Decugis, and bronze in women's doubles with Elisabeth d'Ayen. Olympedia lists her as French singles champion in 1920-1923 and 1925-1926; the tournament was open only to French players until 1925.",
+  "suzanne-lenglen.achievement.3":
+    "In 1926 Lenglen signed a $50,000 contract with the promoter C. C. Pyle and toured the United States against Mary K. Browne, a three-time US champion. The Tennis Hall of Fame calls it the first women's professional series and says she won all 38 matches. Professionals could not enter Wimbledon, and Sports Illustrated reports that the club rescinded her membership.",
+  "suzanne-lenglen.achievement.4":
+    "Lenglen played in short-sleeved silk dresses with hemlines above the calf and without the bulky undergarments then usual, and had Jean Patou make her a pleated white silk skirt, a sleeveless cardigan and a tulle hair band; from 1922 she wore bright colours. The Hall of Fame and the Roland-Garros site both present her as a change in what women wore on court.",
+  "suzanne-lenglen.moment.1":
+    "On 16 February 1926 Lenglen met Helen Wills, then a three-time US champion, at the Carlton Club in Cannes, the only time they played. Spectators watched from rooftops and neighbouring windows. At 6-5 in the second set an umpire overruled what Lenglen took for a winner, Wills levelled at 6-6, and Lenglen won 6-3, 8-6 after 59 minutes.",
+  "suzanne-lenglen.interpretation.moment.1":
+    "Winning the second set after the call went against her is consistent with competitiveness; the accounts also describe her as visibly nervous, so the match shows the drive and the strain together, and it is one match.",
+  "suzanne-lenglen.moment.2":
+    "After retiring from competition, Lenglen ran a tennis school in Paris. Having heard Margaret Morris lecture on movement, she invited Morris to adapt her exercises for tennis, and the two worked on them at Lenglen's Paris flat. Pupils had to do the exercises before they were allowed to pick up a racket, and the pair published Tennis by Simple Exercises in 1937.",
+  "suzanne-lenglen.interpretation.moment.2":
+    "Seeking out an outside specialist and rebuilding her pupils' first lessons around the method is consistent with a mastery orientation; the account comes from the Margaret Morris archive and reflects Morris's side of the collaboration.",
+  "suzanne-lenglen.turning_point.1":
+    "At the 1926 Wimbledon, Lenglen's second-round singles was rescheduled so that Queen Mary could watch, and she arrived late. The club's own history cites a scheduling mix-up and a failure to inform her properly; a contemporary United Press report says she refused to play. She was booed the next day, withdrew from the championships and never played at Wimbledon again. Later that year she signed with C. C. Pyle and turned professional.",
+  "suzanne-lenglen.interpretation.turning_point.1":
+    "Accepting the loss of Wimbledon to play on her own terms is consistent with a need for autonomy: in a 1926 interview she called the amateur rules 'ridiculous' and said players should meet whom they liked. Sources disagree on who was at fault on the day, so no trait is read from the incident itself.",
+  /* ---------------------------------------------------------- tycho-brahe (Roster44) */
+  "tycho-brahe.achievement.1":
+    "From 1576 Tycho observed from Uraniborg on the island of Hven, which Frederick II had offered him, and from 1584 also from Stjerneborg, a second observatory with underground crypts where the larger instruments stood fixed. With instruments he designed and kept rebuilding, and with sights and graduated arcs of his own devising, he ran a more frequent and more systematic observation programme than any earlier astronomer, according to Danish historian Kristian Peder Moesgaard, who says it raised the accuracy of positional astronomy about tenfold to roughly an arcminute, without a telescope; a later study of his planetary observations found errors mostly between 0.5 and 1 arcminute.",
+  "tycho-brahe.achievement.2":
+    "In November 1572 Tycho measured the position of a new star in Cassiopeia against the neighbouring stars and found no parallax, which put it far beyond the Moon and probably among the fixed stars; he published this in De nova stella in 1573. He did the same for the great comet first seen on 13 November 1577, and in De mundi aetherei recentioribus phaenomenis (printed on Hven in 1588) argued from his measurements that the comet moved among the planets, at least six times as far away as the Moon according to Dreyer. Moesgaard notes that these results struck at the Aristotelian picture of an unchanging heaven and of hard planetary spheres.",
+  "tycho-brahe.achievement.3":
+    "Tycho completed a catalogue of 1004 star positions in 1598 and circulated it in manuscript; the version he edited for print, with 777 stars, appeared in 1602 after his death in Astronomiae instauratae progymnasmata, and Kepler published the full list in the Rudolphine Tables in 1627. Moesgaard calls it the first real improvement in star catalogues since antiquity. A modern comparison with the Hipparcos Catalogue finds errors typically about 2 arcminutes wide, with some larger ones that mostly come from computation or copying; Dreyer judges that the stars added to reach about 1000 were observed in haste.",
+  "tycho-brahe.achievement.4":
+    "In 1588 Tycho published his own system of the world: the Earth fixed at the centre, the Sun and Moon circling it, and the five other planets circling the Sun. MacTutor, citing Janet Field, says most astronomers favoured it until at least the middle of the seventeenth century. In 1599 he became Imperial Mathematician in Prague, where Kepler joined him in 1600, first at the castle of Benatky nearby. Moesgaard writes that Kepler derived the elliptical orbits of the planets from Tycho's observations in Astronomia nova (1609) and in 1627 completed the Rudolphine Tables with them.",
+  "tycho-brahe.moment.1":
+    "On the evening of 11 November 1572, coming back from his laboratory, Tycho saw a very bright star in Cassiopeia where none had been. According to Dreyer he asked his servants and then some peasants driving past whether they saw it too, and only then began measuring its distance from the nine main stars of the constellation with a new wooden sextant. He repeated the measurements through the night and even left the instrument clamped between readings to be sure nothing had shifted, and he tabulated the sextant's own error.",
+  "tycho-brahe.interpretation.moment.1":
+    "Checking his own eyes against other people's and checking the instrument against itself is consistent with detail orientation; the account comes from Dreyer's reading of Tycho's published description.",
+  "tycho-brahe.moment.2":
+    "In 1584 Tycho found that his own value for the tilt of the ecliptic differed from Copernicus's, and that the Copernican solar theory sometimes strayed from observed positions. To test the Copernican input he sent his assistant Elias Olsen with a sextant on a royal ship to Frauenburg, where Olsen spent from mid-May to early June measuring the latitude of Copernicus's observing place, and Tycho used the difference to explain part of the shortcomings of the solar theory. Dreyer adds that Tycho never named Copernicus without admiration, and a canon at Frauenburg sent him the triquetrum Copernicus had made.",
+  "tycho-brahe.interpretation.moment.2":
+    "Re-measuring a respected authority's basic data rather than assuming it is consistent with analytical rigor, though Tycho himself kept the solar parallax of 3 arcminutes on authority, as Moesgaard notes.",
+  "tycho-brahe.turning_point.1":
+    "As a student at Copenhagen and then Leipzig, Tycho was meant to study law. A partial solar eclipse on 21 August 1560 that arrived at the predicted time first drew him to astronomy, and in August 1563 a conjunction of Saturn and Jupiter changed how he worked. The old Alphonsine tables were off by about a month and the Copernican-based Prutenic tables by a few days. Using a pair of ordinary compasses he began to record his own observations, and Dreyer and Moesgaard both say this convinced him that only a long, steady series of measurements could decide among the tables and the world systems behind them.",
+  "tycho-brahe.interpretation.turning_point.1":
+    "Letting a measured result outrank the printed tables, and acting on it against his guardians' plan for a legal career, is consistent with independent thinking.",
+  /* ---------------------------------------------------------- william-harvey (Roster44) */
+  "william-harvey.achievement.1":
+    "In 1628 Harvey published at Frankfurt the Exercitatio Anatomica de Motu Cordis et Sanguinis in Animalibus, a short quarto of 72 pages. Arguing from the structure of the heart and its valves, from experiments on living animals including ligatures on a snake, and from the amount of blood the heart sends out, he concluded that the blood travels in a continuous circuit, pumped from the right ventricle through the lungs and from the left ventricle round the body, and returns to the heart by the veins. He had first stated this in his lectures of April 1616.",
+  "william-harvey.achievement.2":
+    "Harvey was elected Lumleian lecturer in anatomy and surgery at the College of Physicians of London on 4 August 1615 and held the post until he resigned in 1656. His surviving notes for the lectures of 16-18 April 1616, the first public statement of the circulation, show that he had by then dissected more than eighty species of animals and used animal anatomy to explain the human body.",
+  "william-harvey.achievement.3":
+    "In 1651 Harvey's Exercitationes de Generatione Animalium appeared in London, after George Ent had taken the manuscript from him at Christmas 1650. The book describes the parts of the hen's egg and follows the growth of the chick inspection by inspection. Norman Moore judged that it shows great labour and careful observation, though the microscope was still needed to make much of it clear.",
+  "william-harvey.moment.1":
+    "In May 1636, travelling with the Earl of Arundel's embassy to the emperor, Harvey reached Nuremberg and offered to demonstrate the circulation to Caspar Hofmann, a professor who opposed it. He gave a demonstration there, which Keynes places at the University of Altdorf, but Hofmann remained unconvinced and the two exchanged letters afterwards. A later tradition adds that Harvey laid down his knife and left when the objections continued.",
+  "william-harvey.interpretation.moment.1":
+    "Offering a demonstration on the spot, rather than an argument by letter, fits persuasiveness, though the unconvinced Hofmann shows that it did not work on a determined opponent; the walk-out is tradition and is not relied on.",
+  "william-harvey.moment.2":
+    "John Aubrey, who first saw Harvey at Oxford in 1642, recalled that Harvey came several times to Trinity College to see George Bathurst, who kept a hen hatching eggs in his rooms. They opened one egg every day to follow the progress and way of generation.",
+  "william-harvey.interpretation.moment.2":
+    "Setting up a simple daily test and repeating it over several days is consistent with experimentation; the account rests on Aubrey's memory alone.",
+  "william-harvey.turning_point.1":
+    "After lecturing on the circulation at the College of Physicians every year since 1616, Harvey sent De Motu Cordis to press at Frankfurt in 1628, saying in the proem that some fellows reproached him for departing from all anatomists and that friends had urged him to publish. Opposition followed: James Primrose's reply appeared in 1630 and Parisanus's in 1635, and Aubrey reports Harvey saying that his practice fell off and that physicians were against him, though D'Arcy Power suggests the court's politics also played a part. Norman Moore concludes that before Harvey's death the doctrine was accepted throughout the medical world.",
+  "william-harvey.interpretation.turning_point.1":
+    "Publishing a doctrine he expected to draw hostility, then largely declining to answer the critics, is a mixed picture for conflict tolerance: he accepted open disagreement over the idea but avoided polemical exchange.",
+  /* ---------------------------------------------------------- william-thomson-kelvin (Roster44) */
+  "william-thomson-kelvin.achievement.1":
+    "In 1848 Thomson proposed an absolute scale of temperature built on Carnot's theory of heat engines, so that a degree no longer depended on the thermometric substance, and tabulated it from Regnault's measurements. His 1851 paper 'On the Dynamical Theory of Heat' reconciled Carnot's theory with Joule's equivalence of heat and work, and in 1852 he published the principle of a universal tendency to the dissipation of mechanical energy. He credited Clausius with the law of transformation while giving his own demonstration from a different axiom. The Kelvin scale and the SI unit, the kelvin, are named for him.",
+  "william-thomson-kelvin.achievement.2":
+    "Thomson worked out the mathematics of signalling through long submarine cables, showing that retardation grew with the square of the cable's length and arguing for a thicker copper conductor. He took part in the Atlantic cable expeditions of 1857 and 1858 and, after the 1858 cable failed within weeks, in those of 1865 and 1866. In 1858 he patented the mirror galvanometer, which made the faint signals readable, and he later devised the siphon recorder. He was knighted in 1866 for his part in the cable.",
+  "william-thomson-kelvin.achievement.3":
+    "From the 1870s Thomson redesigned the mariner's compass for iron ships, with a very light card carrying eight thin needles hung on silk threads and adjustable correcting magnets, and developed a sounding machine for taking deep-sea soundings from a moving ship. The German and Russian navies ordered them before the Royal Navy, which made his compass the standard in November 1889. They were made by the Glasgow instrument firm of James White, later Kelvin and James White Ltd.",
+  "william-thomson-kelvin.achievement.4":
+    "Thomson held the Glasgow chair of natural philosophy from 1846 until he withdrew from it in 1899. About 1850 he took over a disused wine cellar as a laboratory where students made measurements, which his biographer Thompson calls the first physical laboratory put at students' disposal in any university. With P. G. Tait he wrote the Treatise on Natural Philosophy, whose first volume appeared in 1867, a textbook written from the standpoint of energy.",
+  "william-thomson-kelvin.moment.1":
+    "In August 1858, after the cable was laid, the company's electrician Whitehouse could not get clear signals from Newfoundland on his own relays. According to Thompson, who quotes the directors' letters, the board took the cable out of Whitehouse's hands on 17 August and authorised Thomson to take charge at Valentia. Thomson found his own mirror galvanometer already installed, got the Newfoundland operators to switch to it, and communication was restored; he then asked the board to reconsider Whitehouse's dismissal, and they refused in unsparing terms. Whitehouse's later pamphlet records signals received on Thomson's galvanometer as well as his own apparatus.",
+  "william-thomson-kelvin.interpretation.moment.1":
+    "Putting a working instrument of his own into service when the main apparatus failed is consistent with resourcefulness; the sequence of events rests on Thompson's account of the directors' documents, and Whitehouse's side is available only through his 1858 pamphlet.",
+  "william-thomson-kelvin.moment.2":
+    "On 19 February 1869 T. H. Huxley, as president of the Geological Society of London, answered Thomson's argument that the earth's heat and the sun's limited fuel allowed only about 100 million years, likening mathematics to a mill that returns only what is put into it. On 5 April 1869 Thomson replied in Glasgow with 'Of Geological Dynamics', charging that many geologists treated the principles of physics as foreign to their work. In 1871 Darwin wrote to Wallace that Thomson came 'like an odious spectre' when he thought of pre-Silurian time. Thompson notes that the later discovery of radioactive heating undermined the temperature-gradient argument.",
+  "william-thomson-kelvin.interpretation.moment.2":
+    "Holding a position against what he called perhaps a majority of British geologists, and answering the leading advocate directly, is consistent with independent thinking; the position later proved to rest on incomplete physics, so the same stance carried a cost.",
+  "william-thomson-kelvin.turning_point.1":
+    "In 1847 Thomson heard James Joule's paper at the British Association in Oxford and, by his own later account, felt it must be wrong, but waited and spoke to Joule privately. For about three years he held to Carnot's theory while telling others that Joule's work mattered. In 1850 he wrote to Joule that a conclusion about steam could be reconciled with known facts only through Joule's discovery, and his 1851 paper rebuilt the theory on both.",
+  "william-thomson-kelvin.interpretation.turning_point.1":
+    "Taking about three years to move from doubt to adoption, while publicly insisting the evidence mattered, is consistent with belief updating that is slow but ends in acceptance; the account comes mainly from his admiring biographer and his own recollection.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -11725,6 +12032,313 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1928년 시즌이 끝날 무렵 내몽골에서 수집한 화석 상자 87개가 장자커우(Kalgan)에서 중국의 민족주의 단체인 고물보존위원회에 압수되었다. 이 단체는 미국인들이 중국의 보물을 가져간다고 비난했다. 박물관, 미국 국무부, 중국 정부가 협상한 끝에 표본은 돌려받았다. 앤드루스는 1929년을 협상으로 보냈고, 1930년에는 중국인 과학자 두 명을 데리고 고생물학 조사로만 제한된 마지막 시즌을 치렀으며, 가치 있는 수집품의 절반을 중국 측 단체에 넘겼다. 1930년이 마지막 시즌이 되었다. 중국 학자들은 화석을 국가 유산으로 보았고, 앤드루스는 화석이 인류 전체의 것이라고 주장했다.",
   "roy-chapman-andrews.interpretation.turning_point.1":
     "프로그램을 곧바로 끝내지 않고 한 시즌을 더 하기 위해 1년 동안 조건을 협상한 점은 끈기와 부합한다. 그 자신은 제한된 조건이 조사를 크게 위축시켰다고 평가했다.",
+  /* ---------------------------------------------------------- alessandro-volta (Roster44) */
+  "alessandro-volta.achievement.1":
+    "볼타는 1800년 6월 26일 왕립학회에서 낭독된 조지프 뱅크스 경에게 보낸 편지에서, 소금물에 적신 종이나 가죽을 사이에 끼운 은판과 아연판을 번갈아 쌓은 기둥과, 은과 아연으로 된 활 모양의 도선으로 소금물 잔들을 이은 변형 장치를 설명했다. 왕립학회의 요약은 이 장치가 끊김 없이 작동하며 거듭 충격을 준다고 전하고, 볼타가 이를 시끈가오리의 발전 기관에 견주었다고 밝힌다.",
+  "alessandro-volta.achievement.2":
+    "루이지 갈바니가 1791년 개구리 실험을 발표한 뒤 볼타는 그 실험을 되풀이하고 넓혔으며, 1793년에는 경련의 대부분이 동물 자체의 전기가 아니라 서로 다른 두 금속이 닿을 때 생기는 약한 전기에서 비롯된다고 주장했다. 갈바니와 조카 조반니 알디니는 동물 전기를 옹호했고, 카라도리의 1817년 역사서에 따르면 물리학자들은 두 진영으로 나뉘었다. 1892년의 인물 소묘는 볼타 전퇴가 이 연구에서 나왔다고 전한다.",
+  "alessandro-volta.achievement.3":
+    "볼타는 1776년 11월 카를로 캄피 신부에게 보낸 편지에서, 마조레 호수와 코모 호수, 그리고 많은 연못과 도랑의 바닥을 휘저으면 가연성 공기를 모을 수 있으며 이것이 푸른 불꽃을 내며 탄다고 썼다. 캄피는 이보다 앞서 산 콜롬바노 부근에서 기포가 올라오는 가스 샘을 보고한 바 있다. 볼타의 편지들은 1777년 밀라노에서 인쇄되었고 프랑스어로 번역되었다.",
+  "alessandro-volta.achievement.4":
+    "볼타는 1775년 조지프 프리스틀리에게 편지를 보내 기전반(electrophorus)의 제작을 알리고 이것이 어디까지 새로운 것인지 물었다. 기전반은 마찰로 다시 대전시키지 않고도 전하를 거듭 공급할 수 있는 장치다. 이를 개량한 끝에 나온 콘덴서(축전기)는 1782년 《철학회보》에 소개되었으며, 아주 작은 전하를 모아 검전기로 읽을 수 있게 한다.",
+  "alessandro-volta.moment.1":
+    "1776년 11월 초 볼타는 마조레 호수의 앙제라 부근에서 배를 타고 가다가 지팡이로 갈대밭 바닥을 쑤셔 올라오는 기포를 큰 유리그릇에 모았고, 냄새로 보아 이 기체가 탈 것이라고 동행인들에게 말했는데 실제로 탔다. 그는 이튿날 다른 사람들도 불러 이를 보여 주었다. 이후 며칠 동안 코모 부근의 물 바닥을 휘저으며 주머니에 작은 플라스크를 채워 집으로 가져왔다. 그는 진흙 바닥에서는 시험한 곳마다 기체가 탔고 촛불이 꺼진 곳은 단 한 군데였으며, 드러난 암석 바닥에서는 기체가 나오지 않았다고 보고했다.",
+  "alessandro-volta.interpretation.moment.1":
+    "아이디어를 곧바로 현장에서 시험하고, 증인을 부르고, 하나뿐인 예외까지 기록한 점은 실험 성향과 부합한다.",
+  "alessandro-volta.moment.2":
+    "1801년 11월 프랑스 학사원에서 낭독한 논문에서 볼타는 갈바니 유체를 보통의 전기로 보는 데 대한 가장 강력한 반론 세 가지, 즉 물의 분해를 포함한 반론을 먼저 제시한 다음 이에 답했다. 영국의 편집자 윌리엄 니컬슨은 볼타가 드 라 메트리에게 보낸 편지에 대해 지면으로 이의를 제기하여, 전퇴 안의 액체와 화학 변화도 중요하며 한 가지 금속과 서로 다른 액체로 만든 험프리 데이비의 전퇴는 모든 작용을 금속에 돌리는 데 불리하다고 주장했다. 볼타는 접촉 설명을 유지했다.",
+  "alessandro-volta.interpretation.moment.2":
+    "반론을 스스로 밝히면서도 자신의 설명을 유지한 점은 독립적 사고와 부합하며, 동시대 비판자의 화학적 반론은 그 태도의 대가를 보여 준다.",
+  "alessandro-volta.turning_point.1":
+    "1791년 갈바니가 근육 운동과 전기에 관한 논문을 내자 볼타는 그것을 '아름답고 위대한' 발견이라고 평하며 개구리 실험을 되풀이했다. 1793년 그는 티베리우스 카발로에게 서로 다른 두 금속이 스스로 약한 전기를 일으킨다는 것을 발견했고, 동물 전기를 포기할 뻔했으며, 다시 시험한 뒤에는 그 역할을 더 작게나마 남겨 두었으나 전기 유체가 근육에 직접 작용한다는 생각만은 '유감스럽게도' 버려야 했다고 알렸다. 카라도리는 볼타가 곧 갈바니의 이론을 아예 버렸다고 전한다. 같은 실험의 흐름은 1800년의 전퇴로 이어졌다.",
+  "alessandro-volta.interpretation.turning_point.1":
+    "자신의 증거를 다시 시험하고 아끼던 생각을 버리되 살아남은 부분은 유지한 점은 믿음 갱신과 부합한다. 다만 전퇴에 대한 접촉 설명은 훗날의 비판에도 유지했으므로 이 태도가 무조건적이지는 않았다.",
+  /* ---------------------------------------------------------- claude-debussy (Roster44) */
+  "claude-debussy.achievement.1":
+    "드뷔시의 관현악곡 〈목신의 오후 전주곡〉은 스테판 말라르메의 시에서 영감을 얻은 작품으로, 1894년 12월 22일 파리 국민음악협회(Société Nationale) 연주회에서 귀스타브 도레(Gustave Doret)의 지휘로 처음 연주되었고 앙코르를 받았다. 드뷔시가 훗날 전한 바에 따르면, 연주 전에 이 곡을 들은 말라르메는 자신의 시가 주는 감흥을 이어 가며 그 배경을 색채보다 더 열정적으로 그려 낸다고 말했다. 몇 년 안에 파리의 다른 지휘자들도 이 곡을 연주 목록에 올렸다.",
+  "claude-debussy.achievement.2":
+    "드뷔시는 모리스 메테를링크의 희곡 『펠레아스와 멜리장드』를 끊김 없이 이어지는 오페라로 작곡했다. 1892~93년에 시작해 1902년 초에야 관현악 편곡을 마쳤고, 이 작품은 1902년 4월 30일 파리 오페라 코미크에서 앙드레 메사제(André Messager)의 지휘, 메리 가든(Mary Garden)의 멜리장드 역으로 초연되었다. 성악 선율은 프랑스어 말의 리듬을 따르고 관현악은 의도적으로 절제되어 있다. 로맹 롤랑은 이 초연일을 프랑스 오페라 무대의 주요한 날 가운데 하나로 꼽았고, 레옹 발라스(Léon Vallas)는 1926년 6월에 175번째 공연이 있었다고 기록한다.",
+  "claude-debussy.achievement.3":
+    "세 곡의 관현악 〈야상곡〉(구름, 축제, 사이렌)은 1900년 12월 9일 라무뢰 연주회에서 처음 연주되었고, 1903년에 착수해 1905년 3월에 스케치를 마친 세 개의 교향적 스케치 〈바다(La Mer)〉는 1905년 10월 15일에 초연되었다. 두 작품은 악기군을 뭉쳐서 쓰는 대신 나누고 약음기를 쓰고 독주 음색을 살리는, 색채의 팔레트처럼 관현악을 다루었다. 〈바다〉에 대한 평가는 엇갈렸다. 한 존경받는 평론가는 〈펠레아스〉만큼 바다가 깊이 느껴지지 않는다고 보았고, 루이 라루아(Louis Laloy)는 더 단단해진 새로운 양식이라고 옹호했다.",
+  "claude-debussy.achievement.4":
+    "드뷔시는 관현악곡과 함께 실내악과 피아노곡을 다수 남겼다. 〈현악 사중주〉는 1893년 12월 29일 국민음악협회에서 이자이(Ysaÿe) 사중주단이 처음 연주했고, 〈에스탕프(Estampes)〉는 1904년 1월 9일 리카르도 비녜스(Ricardo Viñes)가 초연했다. 〈영상(Images)〉은 1905년과 1907년에 두 권이, 열두 곡씩 묶인 〈전주곡집(Préludes)〉은 1910년과 1913년에 두 권이 나왔으며, 암시적인 제목은 각 곡의 맨 앞이 아니라 끝에 적었다. 그의 음악을 옹호한 평론가 에밀 뷔예르모(Emile Vuillermoz)는 드뷔시가 리스트와 쇼팽 이후 피아노 어법을 새롭게 했다고 평가했다.",
+  "claude-debussy.moment.1":
+    "1884년 로마 대상을 받은 드뷔시는 로마 유학 중 제출한 작품들을 연주하는 음악회를 열 자격이 있었다. 그는 관현악 모음곡 〈봄(Printemps)〉도 넣고 싶어 했지만, 프랑스 학사원의 미술 아카데미(Académie des Beaux-Arts)는 1887년 이 곡을 '막연한 인상주의'라며 비판했고 특이한 조성과 가사 없는 합창을 문제 삼았으며 연주 목록에 올리는 것을 허락하지 않았다. 드뷔시는 이 배제를 받아들이지 않고 1890년 음악회 자체를 포기했다. 이후 〈선택받은 처녀(La Damoiselle élue)〉는 1893년에야 공개 연주되었고, 〈봄〉은 1904년에야 출판되었다.",
+  "claude-debussy.interpretation.moment.1":
+    "자기 프로그램에서 곡이 빠지는 것을 받아들이느니 음악회를 포기한 선택은 자율성에 대한 강한 욕구와 맞닿아 있으며, 로마 시절 작품이 오랫동안 연주되지 못한 것은 그 선택의 대가를 보여 준다.",
+  "claude-debussy.moment.2":
+    "1893년 여름 에르네스트 쇼송에게 보낸 편지에서 드뷔시는 이미 끝냈다고 생각했던 『펠레아스』 4막의 샘 장면이 자신이 원하던 것이 '전혀 아니다'라고 말했다. 다른 작곡가의 이중창을 닮았고, 선율이 전환되는 곳마다 바그너, 곧 '늙은 클링조르'의 유령이 나타났기 때문이다. 그는 그 장면을 찢어 버리고 더 개성적인 악구를 찾아 처음부터 다시 썼으며, 침묵 자체가 표현의 수단이 될 수 있음을 알게 되었다고 덧붙였다. 이 편지는 발라스가 인용한 대목으로 전해지며, 4막의 이중창이 가장 먼저 쓴 부분이었다는 점은 라루아도 확인해 준다.",
+  "claude-debussy.interpretation.moment.2":
+    "이미 끝냈다고 여긴 장면이 바그너를 떠올리게 한다는 이유로 버린 일은 독창성에 적용된 완벽주의적 기준과 맞닿아 있으며, 약 십 년에 걸쳐 고쳐 쓴 이 악보 전체에서 한 장면일 뿐이다.",
+  "claude-debussy.turning_point.1":
+    "1892년 여름 드뷔시는 메테를링크의 희곡 『펠레아스와 멜리장드』를 사서 그날 저녁 읽기 시작했고, 라루아에 따르면 이튿날 이 작품에 곡을 붙이기로 결심했다. 계획을 가장 먼저 털어놓았고 이후 이 희곡을 읽은 피에르 루이스(Pierre Louÿs)는 놀라움을 감추지 않았다. 두 사람은 겐트로 가서 메테를링크를 만났고, 메테를링크는 드뷔시에게 대본을 줄이고 작품을 원하는 방식으로 무대에 올릴 모든 재량을 주었다(발라스는 이 결정과 방문을 1893년으로 본다). 이 선택으로 『시드』 이야기에 바탕한 이전 오페라 〈시멘(Chimène)〉은 접혔고, 드뷔시는 약 십 년이 걸린 작업에 매이게 되었다.",
+  "claude-debussy.interpretation.turning_point.1":
+    "가까운 친구가 놀랐는데도 이례적인 소재를 밀고 나간 일은 독립적 사고와 맞닿아 있으며, 이 결정은 이후 십 년의 상당 부분을 묶어 놓았다.",
+  /* ---------------------------------------------------------- edgar-degas (Roster44) */
+  "edgar-degas.achievement.1":
+    "드가는 발레를 작품의 중심 주제로 삼아 연습 중인 무용수, 무대 옆, 오페라 극장 휴게실의 무용수를 유화와 파스텔, 소묘로 그렸다. 성악가 장바티스트 포르(Jean-Baptiste Faure)가 주문한 『무용 수업』은 1874년 5,000프랑에 인도되었다. 드가는 훗날 앙브루아즈 볼라르(Ambroise Vollard)에게, 사람들은 자신을 무용수를 그리는 화가라고 부르지만 무용수에 대한 자신의 주된 관심은 움직임을 표현하고 아름다운 의상을 그리는 데 있다고 말했다.",
+  "edgar-degas.achievement.2":
+    "드가는 마리 판 호트험(Marie van Goethem)을 모델로 색을 입힌 밀랍으로 「열네 살의 어린 무용수」를 만들고, 실제 보디스와 튀튀, 스타킹, 발레 슈즈, 리본을 단 가발을 입혔다. 이 작품은 1880년 그룹전에 출품이 예고되었으나 1881년 4월에야 공개되었으며, 드가가 생전에 전시한 유일한 조각이다. 평은 엇갈렸다. 위스망스(Huysmans)는 자신이 아는 조각 분야의 유일하게 진정으로 현대적인 시도라고 평했고, 다른 평자들은 소녀의 표정을 공격했다. 청동 주조는 1921년에야 이루어졌다.",
+  "edgar-degas.achievement.3":
+    "1873년 12월 드가는 모네, 피사로, 시슬레, 모리조, 세잔 등과 함께 심사 없는 전시를 위한 협동조합 회사를 만들었고, 그 첫 전시는 1874년 4월 15일 열려 그의 작품 열 점이 나왔다. 그는 1874년부터 마지막 전시인 1886년까지 이 그룹의 전시에 참여했으며, 마지막 전시에는 목욕하는 여인들을 그린 파스텔 연작을 냈다. 그는 '인상주의자'라 불리는 것을 못마땅해했으며, 르무안(Lemoisne)은 그가 이 그룹의 야외 제작 방식을 끝내 받아들이지 않았다고 쓴다.",
+  "edgar-degas.achievement.4":
+    "드가는 발레 외에도 경마장, 세탁부와 다림질하는 여인들, 카페 콩세르의 가수 등 근대 파리의 장면을 그렸다. 포르는 1873~74년에 그의 경마 장면 네 점을 샀다. 『카페에서(압생트를 마시는 사람)』는 1876년 화상 샤를 데샹(Charles Deschamps)을 통해 런던에서 팔렸다. 1886년에 선보인 목욕하고 몸을 닦고 머리를 빗는 여인들의 파스텔은 화장하는 여인들의 누드 연작으로 전시 도록에 기재되었다.",
+  "edgar-degas.moment.1":
+    "1876년 드가는 비평가 쥘 클라레티(Jules Claretie)에게 새로운 판화 기법을 찾아냈다고 말했고, 판화가 마르슬랭 데부탱(Marcellin Desboutin)은 그가 자신의 소묘를 복제할 방법을 찾느라 금속공, 납 주조공, 석판공 이야기만 한다고 썼다. 1880년 그는 제5회 그룹전에 낸 에칭을 '실험과 판의 단계'라는 이름으로 소개했으며, 그중 하나인 「욕조에서 나오는 여인」은 스물두 단계를 거쳤다.",
+  "edgar-degas.interpretation.moment.1":
+    "산업용 인쇄 기술자들을 찾아다니고, 판의 미완성 단계를 전시의 일부로 내놓은 일은 실험을 즐기는 강한 성향과 부합한다. 보그스(Boggs) 도록은 이런 탐구가 금전적 이득에 대한 생각을 밀어냈다고 지적한다.",
+  "edgar-degas.moment.2":
+    "앙브루아즈 볼라르는 드가가 스무 번째로 다시 만든 작은 밀랍 무용수상을 보여 주며 하루 이틀이면 주조업자에게 넘길 수 있다고 말했다고 회상했다. 그러나 다음 날 남은 것은 처음의 밀랍 덩어리뿐이었고, 드가는 그것을 부수고 다시 시작하는 즐거움을 금 한 양동이와도 바꾸지 않겠다고 말했다.",
+  "edgar-degas.interpretation.moment.2":
+    "거의 완성된 작품을 부수고 다시 시작한 일은 완벽주의와 부합한다. 이 일화는 단일 출처이지만, 볼라르는 드가가 그림 속 인물 하나를 지워 버리고 틀을 바꾼 그림을 도로 가져갔다고도 전하며, 보그스 도록은 「어린 무용수」가 거듭 늦어졌음을 기록한다.",
+  "edgar-degas.turning_point.1":
+    "1873년 4월 드가는 화가 제임스 티소(James Tissot)에게 살롱 출품 계획을 접었다고 썼다. 그해 12월 그는 협동조합 회사에 참여했고, 1874년 3월에는 '사실주의자들의 살롱이 있어야 한다'며 이 일을 '힘차게 이끌고 있다'고 썼다. 협회의 첫 전시는 1874년 4월 15일 열렸으나 적자를 냈고 협회는 5월에 해산되었다. 그러나 드가는 이후 이 그룹의 전시에 계속 참여했다.",
+  "edgar-degas.interpretation.turning_point.1":
+    "공식 살롱에서 벗어나 자신이 조직에 참여한 무심사 전시로 옮겨 간 일은 자기 작품이 평가되고 전시되는 방식을 스스로 통제하려는 강한 욕구와 부합한다. 르무안은 그가 제2제정기에는 살롱에 출품했다고 적는다.",
+  /* ---------------------------------------------------------- gordon-moore (Roster44) */
+  "gordon-moore.achievement.1":
+    "무어는 1965년 4월 19일자 《일렉트로닉스》에서 집적회로 한 개에 들어가는 부품 수가 대략 1년마다 두 배가 되고 있으며 앞으로 10년간 계속되어 1975년에는 약 6만 5천 개에 이를 것이라고 예측했다. 1975년에는 그 속도를 약 2년마다 두 배로 수정했다. 훗날 '무어의 법칙'으로 불리게 된 이 예측은 반도체 산업의 기준점이 되었다.",
+  "gordon-moore.achievement.2":
+    "1968년 무어는 로버트 노이스와 함께 페어차일드를 떠나 인텔을 설립했고, 자금 조달은 아서 록이 맡았다. 무어는 처음에 부사장을 맡았다. 인텔은 반도체 메모리 개발로 출발했으며, 무어는 이후 최고경영자(1975~1987년)와 이사회 의장을 지냈다.",
+  "gordon-moore.achievement.3":
+    "1957년 무어는 동료 일곱 명과 함께 쇼클리 반도체 연구소를 떠났다. 아널드 벡먼이 경영진 교체를 받아들이지 않은 뒤였다. 이들은 페어차일드 카메라 앤드 인스트루먼트의 투자를 받아 페어차일드 반도체를 세웠다. 무어는 이곳에서 확산 공정과 가열로를 맡았고, 페어차일드는 배치 공정으로 실리콘 메사 트랜지스터를 만들고 초기 집적회로를 생산했다.",
+  "gordon-moore.achievement.4":
+    "1980년대 중반 일본 업체들이 메모리 칩 가격을 낮추면서 인텔의 이익은 1984년 1억 9,800만 달러에서 1985년 200만 달러 미만으로 줄었다. 인텔은 이후 메모리 사업에서 철수하고 약 7,000명을 감원했으며 마이크로프로세서에 집중했다. 이 전환을 이끈 사람은 당시 사장이던 앤디 그로브였고, 최고경영자였던 무어는 새 CEO라면 무엇을 하겠느냐는 그로브의 질문에 '메모리 사업에서 손을 떼는 것'이라고 답했다.",
+  "gordon-moore.moment.1":
+    "제이 라스트의 설명에 따르면, 1957년 경영진에 불만을 품은 쇼클리 연구소 직원들이 함께 점심을 먹었고 빅 그리니치가 아널드 벡먼에게 전화를 걸어 행동에 나서자고 재촉했다. 한참 망설이던 끝에 무어가 '내가 하겠다'고 말하고 전화를 걸었는데, 라스트는 그때 그의 목소리가 떨렸다고 기억한다. 벡먼이 자리에 없자 무어는 그날 저녁 다시 전화했고, 벡먼은 이들을 만나러 왔다.",
+  "gordon-moore.interpretation.moment.1":
+    "이 일화는 동료들 앞에서 먼저 나서면서도 긴장한 모습을 함께 보여준다. 한 동료의 기억에 근거한 이야기다.",
+  "gordon-moore.moment.2":
+    "1995년 무어는 롭 워커에게, 8080 마이크로프로세서를 완성한 뒤 인텔 설계자들에게 과거와의 호환성에 구애받지 말고 '처음부터 다시' 올바른 마이크로프로세서를 만들어 보라고 했다고 말했다. 그 결과물인 432는 지나치게 복잡해서 성능이 기존 마이크로프로세서에 크게 못 미쳤고 시장을 찾지 못했다. 그는 자신에게 '개인적인 책임'이 있다고 말했고, 인텔이 동시에 일반적인 16비트 프로세서도 지원해 8086이 나왔다고 덧붙였다.",
+  "gordon-moore.interpretation.moment.2":
+    "그는 자신이 추진한 야심 찬 프로젝트가 실패했다고 스스로 말하고 책임을 인정하며, 병행한 일반 프로젝트도 언급한다. 본인의 설명이므로 사건 자체만큼 본인이 이를 어떻게 이야기하는지도 보여준다.",
+  "gordon-moore.turning_point.1":
+    "1985년 일본 메모리 업체들 앞에서 이익이 급감하던 때, 앤디 그로브는 이사회가 새 CEO를 데려온다면 그가 무엇을 하겠느냐고 무어에게 물었다. 그로브의 이야기에 따르면 무어는 '메모리에서 손을 떼게 할 것'이라고 답했고, 그로브는 두 사람이 문을 나갔다가 돌아와 직접 그렇게 하자고 말했다. 이후 인텔은 메모리 칩을 접고 마이크로프로세서에 집중했다.",
+  "gordon-moore.interpretation.turning_point.1":
+    "이 대화에서 무어는 인텔이 지금까지 해 온 일과 반대되는 답을 곧바로 내놓았다. 존스는 그가 그로브만큼 이 결정으로 고민하지 않았고, 그로브가 이를 실행할 것이라고 믿었다고 말한다.",
+  /* ---------------------------------------------------------- gottlieb-daimler (Roster44) */
+  "gottlieb-daimler.achievement.1":
+    "다임러는 칸슈타트의 온실 작업장에서 빌헬름 마이바흐와 함께 일하며 1883년 12월 열관 점화 방식의 작은 무냉각 엔진으로 특허를 받았다. 이 엔진은 분당 약 600회전으로 돌아, 당시 기존 엔진의 120~180회전을 크게 웃돌았다. 이어 폐쇄형 크랭크케이스를 갖춘 '추시계(Standuhr)' 엔진이 1885년 4월 3일 등록되었고(약 0.7kW, 600rpm), 1886년에는 기화기 특허로 휘발유를 쓸 수 있게 되었다. 메르세데스-벤츠 클래식은 어떤 성과가 다임러의 것이고 어떤 것이 마이바흐의 것인지는 지금까지 확정할 수 없다고 밝힌다.",
+  "gottlieb-daimler.achievement.2":
+    "다임러의 엔진은 1885년 목제 프레임의 이륜차 '승차 마차(Reitwagen, 특허 DRP 36423)'에 먼저 장착되었고, 1886년 8월 인도된 사륜 마차와 같은 달 네카어강에서 시험한 모터보트에도 쓰였다. 메르세데스-벤츠 클래식은 이 마차를 카를 벤츠의 특허 자동차보다 몇 달 늦은, 세계 최초의 사륜 자동차로 설명한다. 이 엔진은 철도 차량과 볼퍼트의 비행선에도 장착되었다.",
+  "gottlieb-daimler.achievement.3":
+    "1888년 9월 다임러는 뉴욕의 피아노 제조업자 윌리엄 스타인웨이와 함께 다임러 모터 컴퍼니를 세웠고, 1889년에는 파리의 파나르 에 르바소르(Panhard & Levassor)가 그의 프랑스 특허 사용권을 얻었다. 1890년 11월 28일 다임러는 막스 두텐호퍼, 빌헬름 로렌츠와 함께 칸슈타트에 다임러 자동차 회사(Daimler-Motoren-Gesellschaft)를 설립했다. 다임러는 1900년 3월에 세상을 떠났고, 마이바흐의 설계실이 만든 메르세데스 자동차는 그해 늦게 인도되었다.",
+  "gottlieb-daimler.moment.1":
+    "1888년 잡지 『가르텐라우베』는 몇 달 전부터 칸슈타트의 좁은 선로 위에서 다임러의 작은 석유 엔진으로 달리는 차량이 한낮에 운행되고 있으며, 뷔르템베르크 철도에서 장관, 철도 국장, 기술자들 앞에서 시험 운행도 이루어졌다고 보도했다. 무게 약 60kg의 이 엔진은 네카어강, 바덴바덴의 대공 가족 앞, 보덴호, 베를린에서 해군성 관리들 앞에서도 보트를 움직였다.",
+  "gottlieb-daimler.interpretation.moment.1":
+    "같은 엔진을 철도, 드레진, 보트 시험에 되풀이해 여러 곳에서 공식 참관인들 앞에 선보인 것은 실험 정신과 부합한다. 다만 이 기사는 서명 없는 호의적 보도여서 시험의 결과가 아니라 시험이 있었음을 보여 준다.",
+  "gottlieb-daimler.moment.2":
+    "1891년 2월 빌헬름 마이바흐가 새 회사를 떠나자 다임러는 그가 계속 설계하도록 했다. 처음에는 마이바흐의 집에서, 1892년부터는 칸슈타트의 옛 '호텔 헤르만' 건물을 빌려 일했고, 독일 특허청(DPMA)은 이를 다임러가 자금을 댄 것이라고 설명한다. 1895년 마이바흐는 다임러 없이 돌아오라는 DMG의 제안을 거절했다.",
+  "gottlieb-daimler.interpretation.moment.2":
+    "자신은 다툼이 이어지던 회사 안에 있으면서도 설계자가 계속 일하도록 비용을 댄 것, 그리고 그 설계자가 다임러 없이는 돌아오지 않겠다고 한 것은 협업과 부합한다. 다만 성과의 공은 여전히 논쟁의 대상이다.",
+  "gottlieb-daimler.turning_point.1":
+    "1894년 10월 DMG의 두텐호퍼와 로렌츠는 다임러가 액면가 20만 마르크의 주식과 발명 권리를 액면가의 3분의 1에 넘기지 않으면 회사를 파산시키겠다고 압박했고, 다임러는 이에 동의했다. 윌리엄 스타인웨이의 1894년 11월 11일 일기에는 다임러가 회사를 떠난 경위를 적은 편지가 도착했다는 기록이 있다. 1895년 11월 DMG는 그의 영국 특허권을 사려던 프레더릭 심스 일행이 내건 조건에 따라 그를 고문 겸 총감독으로 다시 받아들였다. 그는 6만 6,666마르크에 주식을 되찾았고 1897년 3월 감사회 의장이 되었다.",
+  "gottlieb-daimler.interpretation.turning_point.1":
+    "회사에서 밀려난 뒤에도 엔진 사업을 떠나지 않고 마이바흐와 함께 복귀한 것은 끈기와 부합한다. 다만 복귀 조건은 다임러가 아니라 영국 자금이 필요했던 투자자들이 정한 것이었다.",
+  /* ---------------------------------------------------------- herman-melville (Roster44) */
+  "herman-melville.achievement.1":
+    "멜빌의 『모비 딕, 또는 고래』는 포경선 피쿼드호와 에이해브 선장이 흰 고래를 쫓는 이야기를 담은 장편소설로, 1851년 10월 런던에서, 같은 해 11월 뉴욕에서 출간되었다. 이 작품에는 그가 직접 바다에서 보낸 경험이 담겨 있다. 미국 국립기록보관소가 소장한 아쿠슈네트(Acushnet)호 선원 명부에는 그가 1840년 12월 풋내기 선원으로 승선했고 1842년 7월 누쿠히바섬에서 배를 떠났다고 기록되어 있다. 당시 미국 서평은 대체로 호의적이었으며, 이 책이 그의 대표작으로 자리 잡은 것은 1920년대 재평가 이후였다.",
+  "herman-melville.achievement.2":
+    "멜빌의 첫 두 책 『타이피』(1846)와 『오무』(1847)는 태평양에서 보낸 시절을 쓴 이야기였다. 런던의 출판인 존 머리는 『타이피』의 영국 판권을 100파운드에 사들였고, 뉴욕의 와일리 앤드 퍼트넘이 이 책을 동시에 출간했다. 1849년 초까지 와일리 앤드 퍼트넘은 미국에서 6,392부를 팔았고, 대서양 양쪽의 서평가들이 두 책에 주목했다.",
+  "herman-melville.achievement.3":
+    "1853년 이후 멜빌은 짧은 산문과 시로 방향을 틀었다. 「필경사 바틀비」는 1853년 말 잡지에 실렸고, 잡지에 발표한 단편을 묶은 『피아자 이야기』는 1856년에 나왔다. 첫 시집 『전쟁 시편과 전쟁의 면모』는 1866년 하퍼 앤드 브라더스에서 출간되었고, 성지 여행(1856–57)을 바탕으로 쓴 약 2만 행의 장시 『클라렐』이 1876년에 뒤를 이었다.",
+  "herman-melville.achievement.4":
+    "멜빌은 1891년 사망하기 다섯 달 전에 『빌리 버드, 앞돛대 수병』을 완성했으나, 이 작품은 1924년 레이먼드 위버가 『빌리 버드와 기타 산문』을 펴낼 때까지 출간되지 않았다. 위버는 멜빌의 손녀의 도움으로 원고를 찾아냈으며, 이 책은 멜빌 전집의 일부였다.",
+  "herman-melville.moment.1":
+    "1850~1851년 『모비 딕』을 쓰는 동안 멜빌은 피츠필드에서 농장도 꾸렸다. 위버와 멜빌 전기들이 인용한 아내의 일기에는 그가 하루 종일 책상에 앉아 있고, 어두워진 뒤 마을로 말을 타고 나갔으며, 아침 식사 전에 일찍 일어나 산책했다고 적혀 있다. 1851년 6월 그는 호손에게 책이 인쇄되는 동안 뉴욕에서 '일하고 매달리려' 한다고 편지에 썼다.",
+  "herman-melville.interpretation.moment.1":
+    "아내가 기록한 대로 농장 일과 긴 집필 일과를 함께 이어간 것은 자기 규율과 부합한다. 다만 증거가 주로 가족과 본인의 기록이어서 해석은 조심스럽게 유지한다.",
+  "herman-melville.moment.2":
+    "1853년 이후 책 판매가 줄자 멜빌은 다른 수입원을 찾았다. 1853년 태평양 지역 영사직 청탁에는 다나, 동생 앨런 멜빌, 호손이 모두 힘을 보탰으나 성사되지 않았다. 1857년부터 1860년까지는 순회강연에 나서 서른 번이 채 안 되는 강연을 약 50달러의 사례로 소화했고, 1858년에는 '래브라도든 파타고니아 앞의 절망의 섬이든' 강연하러 가겠다고 썼다. 1866년 12월 5일에는 뉴욕 세관 검사관 자리를 얻어 약 20년 동안 근무했다.",
+  "herman-melville.interpretation.moment.2":
+    "수입이 줄자 집필에서 강연으로, 이어서 안정적인 공직으로 옮겨 간 것은 적응력과 부합한다. 다만 사료는 변화 자체만 서술할 뿐 그의 이유는 밝히지 않는다.",
+  "herman-melville.turning_point.1":
+    "『타이피』와 『오무』의 성공 뒤 멜빌은 1849년 4월 폴리네시아를 배경으로 한 알레고리 소설 『마디』를 냈다. 서문에서 그는 앞선 두 여행기가 사실로 믿어지지 않았던 터라, 이번에는 지어낸 이야기가 사실로 받아들여지는지 시험해 보려는 생각에서 시작한 책이라고 밝혔다. 서평은 처음에는 호의적이었으나 1849년 내내 점점 적대적으로 바뀌었고, 멜빌은 런던 《애서니엄》이 작품을 난도질했고 《보스턴 포스트》가 불태웠다고 쓰면서 그런 공격은 '으레 있는 일'이라고 덧붙였다. 이어진 『레드번』과 『화이트 재킷』은 다시 바다 경험으로 돌아갔으나, 그 뒤에 『모비 딕』과 『피에르』가 나왔다.",
+  "herman-melville.interpretation.turning_point.1":
+    "인기를 끈 여행기 두 권 뒤에 독자와 서평가들에게 호응을 얻지 못한 알레고리를 낸 것은 독립적 사고와 부합하며, 그 선택은 독자층 일부를 잃는 대가를 치르게 했다.",
+  /* ---------------------------------------------------------- igor-sikorsky (Roster44) */
+  "igor-sikorsky.achievement.1":
+    "시코르스키는 VS-300을 직접 설계하고 시험 비행했으며, 이 기체는 1939년 9월 14일 코네티컷주 스트랫퍼드에서 줄에 묶인 채 처음 떠올랐다. 이후 2년 동안 이 기체는 완전한 주기 피치 조종을 갖춘 단일 주 로터와, 토크를 상쇄하는 꼬리 로터 하나로 이루어진 형태로 개조되었고, 이는 오늘날에도 세계 대부분의 헬리콥터가 쓰는 배치다. 미국기계학회(ASME)는 이 기체를 미국 최초의 실용 헬리콥터로 기계 공학 역사 유산에 지정했다.",
+  "igor-sikorsky.achievement.2":
+    "시코르스키는 VS-300을 바탕으로 XR-4를 만들었고, 이 기체는 1942년 1월 14일 첫 비행을 했다. VS-300에서 가져온 주기 피치 조종 장치를 갖춘 XR-4는 최초의 양산 단일 로터 헬리콥터의 원형이 되었다. 2차 세계대전이 끝날 무렵 그의 공장은 R-4, R-5, R-6 헬리콥터를 400대 넘게 생산했다. 1944년 1월 3일에는 해안경비대의 R-4가 폭풍우 속에서 침몰한 구축함의 생존자들에게 혈장을 실어 날랐다.",
+  "igor-sikorsky.achievement.3":
+    "시코르스키는 러시아에서 '루스키 비탸지'(르 그랑)를 만들어 1913년 5월 최초의 4발 항공기로 직접 비행시켰고, 이어 밀폐된 객실을 갖춘 여객기 '일리야 무로메츠'를 만들었다. 1914년에는 무로메츠를 몰고 상트페테르부르크에서 키이우까지 약 700마일을 비행했다. 1차 세계대전이 시작되자 이 기종은 장거리 폭격기로 발전했고, 러시아군용으로 70대 넘게 제작되었다.",
+  "igor-sikorsky.achievement.4":
+    "미국에서 시코르스키가 만든 S-38 수륙양용기(1928)는 팬 아메리칸 항공의 주력 기종이 되었고, 생산된 111대 가운데 38대가 이 항공사에 갔다. 그는 이어 팬암을 위해 승객 40명을 태우는 S-40을 만들었는데, 후안 트립은 이 기체에 '아메리칸 클리퍼'(1931)라는 이름을 붙였다. 그다음에는 팬암의 고문 찰스 린드버그와 함께 항속 거리가 더 긴 S-42(1934)를 설계했다. S-42는 팬암의 해양 항로 탐사에 쓰였다.",
+  "igor-sikorsky.moment.1":
+    "1940년 7월 프랭크 그레고리 대위가 VS-300을 직접 몰아 보고 육군이 개발 자금을 대도록 권고한 뒤, 육군은 모든 조종을 주 로터에서 하고 조종석을 밀폐하라고 요구했다. 수평 꼬리 로터로 VS-300을 조종하던 시코르스키는 이 기체를 완전한 주기 피치 조종을 갖춘 단일 주 로터 방식으로 되돌렸고, 그 설계를 XR-4에 적용했다. 그레고리는 훗날 VS-300을 '날뛰는 야생마'라고 표현했다.",
+  "igor-sikorsky.interpretation.moment.1":
+    "다른 방식을 몇 달간 시험한 뒤 원래 배치로 돌아가고 고객의 조종 요구도 받아들인 것은 믿음 갱신과 일관된다. 회사 자체 역사가는 최종 결정 시점을 1941년 6월에서 12월 사이로 본다.",
+  "igor-sikorsky.moment.2":
+    "1926년 9월 21일, 르네 퐁크의 대서양 횡단 시도를 위해 만든 S-35가 루스벨트 필드에서 이륙하다 추락해 승무원 두 명이 숨졌다. 시코르스키는 훗날 회사의 자본이 모두 바닥났고 부채가 자산을 크게 넘어섰으며 기체는 보험에 들어 있지 않았다고 썼다. 그와 대부분의 직원은 무선사의 장례 미사에 참석했고, 2년이 안 되어 회사는 S-36과 S-38 수륙양용기를 시장에 내놓았다.",
+  "igor-sikorsky.interpretation.moment.2":
+    "사망 사고와 무보험 손실 이후 사업을 접지 않고 다시 일으킨 것은 끈기와 일관된다. 같은 자료들은 추가 시험을 원한 그의 뜻을 후원자들의 일정이 눌렀다고 전하므로, 이 좌절의 일부는 그의 통제 밖에 있었다.",
+  "igor-sikorsky.turning_point.1":
+    "1938년 무렵 장거리 육상 비행기가 비행정을 대체하면서 유나이티드 항공의 시코르스키 사업부에는 주문이 없었고, 모회사는 이 부문을 닫겠다고 압박했다. 시코르스키는 기술팀을 그대로 유지하는 조건으로 실험용 헬리콥터 제작을 제안했고, 유나이티드 항공은 1938년 12월 말 이를 승인했다. VS-300은 9개월 뒤 날아올랐다.",
+  "igor-sikorsky.interpretation.turning_point.1":
+    "주력 시장이 사라지자 오래 품어 온 구상으로 사업 전체를 돌린 것은 적응력과 일관된다. 다만 기사의 필자는 앞선 비행정 사업을 전략적 실수로 평가하므로, 이 전환은 판단 착오 뒤에 나온 것이다.",
+  /* ---------------------------------------------------------- kathe-kollwitz (Roster44) */
+  "kathe-kollwitz.achievement.1":
+    "콜비츠는 1893년 게르하르트 하우프트만의 희곡 『직조공들』 초연을 본 뒤 석판화 3점과 에칭 3점으로 이루어진 연작 「직조공 봉기」를 시작해 1897년에 완성했다. 이 연작은 1898년 대베를린 미술전시회에 출품되어 그녀의 출세작이 되었고, 심사위원단이 메달 수여를 제안했으나 황제 빌헬름 2세가 이를 거부했다. ARTinWORDS에 따르면 이 연작은 1844년의 실제 봉기나 희곡의 줄거리가 아니라 당대를 배경으로 한 가상의 봉기를 그린 것이다.",
+  "kathe-kollwitz.achievement.2":
+    "「농민전쟁」은 1902년부터 1908년까지 제작한 에칭 7점의 연작으로, 1524~25년 농민전쟁을 다룬 빌헬름 치머만의 역사서에서 영감을 얻었다. 쾰른 케테 콜비츠 미술관에 따르면 그녀는 처음에 이 연작을 컬러 석판화로 구상했으며, 1904년 신청해 드레스덴의 역사미술협회로부터 제작 지원을 받았다. 1907년에는 빌라 로마나 상을 받았다. 『아트 인 아메리카』는 이 연작을 모든 매체를 통틀어 그녀의 가장 위대한 작업이라고 평가한다.",
+  "kathe-kollwitz.achievement.3":
+    "콜비츠는 1920년대 초 에른스트 바를라흐의 판화에 자극받아 목판화를 시작한 뒤, 7점의 목판화 연작 「전쟁」을 만들었다. 쾰른 케테 콜비츠 미술관은 이 연작을 그녀가 제1차 세계대전 중에 겪고 깨달은 바를 다룬 작업으로 설명한다. 『아트 인 아메리카』에 따르면 7점 가운데 5점이 자식을 잃은 부모를 다룬다.",
+  "kathe-kollwitz.achievement.4":
+    "「슬퍼하는 부모」는 무릎 꿇은 어머니와 아버지를 표현한 화강암 조각 한 쌍으로, 1932년 아들 페터가 묻힌 벨기에 디크스마위더 인근 로게펠트 전몰자 묘지에 세워졌다. 이 묘지는 훗날 블라슬로 묘지로 통합되면서 조각도 함께 옮겨졌다. 그녀는 1914년부터 기념비를 구상했고 1919년에 첫 구상을 중단한 뒤 1924년 새 구상을 마련했다. 화강암 조각은 아우구스트 라데스와 프리츠 디더리히가 그녀의 석고 모형을 따라 제작했다.",
+  "kathe-kollwitz.achievement.5":
+    "콜비츠는 1937~38년에 작은 조각 「피에타(죽은 아들을 안은 어머니)」를 만들었다. 베를린 케테 콜비츠 미술관은 조각가 하랄트 하케(Harald Haacke)가 만든 확대 복제본이 베를린 노이에 바헤(Neue Wache)에 서 있다고 기록하며, 원작은 이 시기에 만든 작은 조각 세 점에 속하는 말년의 작품이다.",
+  "kathe-kollwitz.moment.1":
+    "1909년 9월 콜비츠는 어머니와 죽은 아이를 표현한 첫 다인물 조각을 시작하고, 첫 결과물을 뮌헨 시절부터 알던 조각가 알렉산더 오플러에게 보여 주었다. ARTinWORDS에 따르면 그는 작품의 구성이 허술하다고 지적했고, 이것이 그녀의 야심을 자극했다. 그녀는 이미 1904년에 파리 아카데미 쥘리앙의 조각 수업을 두 달간 들었고 로댕의 작업실도 방문한 바 있었다.",
+  "kathe-kollwitz.interpretation.moment.1":
+    "미완성 작품을 비판적인 동료 조각가에게 보여 준 일과 몇 해 전 수업을 들으며 기술을 익힌 일은 새로운 매체를 숙달하려는 강한 의욕과 부합한다.",
+  "kathe-kollwitz.moment.2":
+    "동시대 비평가 알프레트 쿤은 「농민전쟁」의 첫 장면인 쟁기질 판화에 쟁기를 모는 여성이 있는 초기 버전이 있었다고 기록한다. 1906년 판에서는 그 여성이 빠지고 멍에를 메고 버티는 두 남자만 남았다. 『아트 인 아메리카』의 비평가는 또 다른 판화 「검은 안나」를 여러 번 고쳤고, 초기의 하늘을 나는 나체상을 땅에 발을 디딘 인물로 바꾸었다고 덧붙인다.",
+  "kathe-kollwitz.interpretation.moment.2":
+    "여러 단계의 판을 거치며 한 인물을 빼고 다른 인물을 다시 그린 일은 구도에 대한 완벽주의적 태도와 부합한다. 다만 출처들은 변경 사실만 설명할 뿐 그녀가 밝힌 이유는 전하지 않는다.",
+  "kathe-kollwitz.turning_point.1":
+    "1920년경 콜비츠는 에른스트 바를라흐의 목판화에 감명받아, 20년 넘게 주로 에칭과 석판화로 작업해 온 뒤 첫 목판화 가운데 하나인 1920년의 추모 판화를 만들었다. 『아트 인 아메리카』는 이 매체가 직접적인 표현을 원하던 그녀에게 더 잘 맞았고 그녀가 에칭을 늘 더디고 기술적이라고 여겼다고 설명한다. 목판화는 연작 「전쟁」의 매체가 되었다.",
+  "kathe-kollwitz.interpretation.turning_point.1":
+    "20년이 지난 뒤 다른 작가의 작업을 보고 주된 매체를 바꾼 일은 기법을 새롭게 시도하려는 태도와 부합한다.",
+  /* ---------------------------------------------------------- knud-rasmussen (Roster44) */
+  "knud-rasmussen.achievement.1":
+    "라스무센은 1921~24년 제5차 툴레 탐험을 이끌었다. 이 덴마크 민족지 탐험대는 허드슨 만 북쪽 다니시 아일랜드(Danish Island)의 기지에서 먼저 활동했다. 1923년 3월부터 5월까지 그는 이누이트 동행자 카비가르수아크(Qavigarssuaq), 아르나룰룽와크(Arnarulunguaq)와 함께 개 썰매로 다니시 아일랜드에서 알래스카의 포인트 배로까지 갔고, 이어 놈(Nome)에 닿아 도중에 여러 이누이트 집단을 방문했다. 탐험대는 2만 점이 넘는 표본, 그중 약 1만 5천 점의 민족지·고고학 자료를 가져왔고, 옛 집터 발굴을 통해 툴레 문화가 발견되었다.",
+  "knud-rasmussen.achievement.2":
+    "탐험의 성과는 영어판 『제5차 툴레 탐험 보고서 1921-24』로 출간되었다. 라스무센은 이글룰릭(1929), 카리부(1930), 네칠릭(1931), 구리 이누이트(1932)의 지적 문화에 관한 권들을 집필해 그들의 신앙과 샤먼, 전승을 기록했고, 『덴마크 인명사전』은 이를 그의 주된 학문적 저작으로 평가한다. 역사가 켄 하퍼(Kenn Harper)는 라스무센의 작업이 없었다면 이들 집단 상당수의 종교에 대해 거의 알지 못했을 것이라고 쓰지만, 이누이트 문화가 내륙에서 시작되었다는 그의 이론은 이후 고고학으로 뒤집혔다.",
+  "knud-rasmussen.achievement.3":
+    "1910년 라스무센은 기술자 이브 뉘보에(Ib Nyeboe)와 함께 그린란드 북서부 노스스타 만에 툴레 교역소를 세웠다. 이 교역소는 극지 이누이트에게 총과 도구 등 물품을 공급하고 탐험의 기지로 쓰이기 위한 곳이었으며, 피터 프로이헨(Peter Freuchen)이 처음 10년간 운영했다. 교역소의 수익은 대부분의 툴레 탐험 비용을 댔고, 1912년 제1차 툴레 탐험은 그린란드 내륙 빙하를 가로질러 독립 피오르(Independence Fjord)에 이르렀으며 피어리 해협은 존재하지 않음을 확인했다.",
+  "knud-rasmussen.moment.1":
+    "1917년 8월, 제2차 툴레 탐험의 그린란드 북부 해안 여행에서 돌아오던 중 일행은 식량이 떨어졌고 8월 24일 마지막 개를 잡아먹었다. 여행의 영향을 가장 덜 받던 라스무센과 이누이트 사냥꾼 아야코(Ajako)는 225km 떨어진 에타(Etah) 정착지로 먼저 걸어 나섰다. 그는 8월 25일에 출발해 30일에 도착했고, 그날 밤 구조 썰매 다섯 대가 출발했다. 이들은 9월 4일 라우게 코크(Lauge Koch) 일행을 만났으나, 그때는 이미 식물학자 토르일드 불프(Thorild Wulff)가 숨진 뒤였다.",
+  "knud-rasmussen.interpretation.moment.1":
+    "너무 쇠약해 움직이기 어려운 동료들을 위해 먼저 걸어 도움을 구하러 가서 닷새 만에 그 거리를 간 것은 끈기와 일치한다. 이 기록은 동료가 쓴 것으로 호의적이다.",
+  "knud-rasmussen.moment.2":
+    "라스무센은 『북극 아메리카를 가로질러』(1927) 서문에서, 이누이트가 본래 내륙 사냥꾼이었다가 나중에 해안으로 옮겨 갔다는 H. P. 스텐스뷔(Steensby)의 이론을 다시 내세우며 탐험대의 모든 연구가 이를 뒷받침했다고 썼다. 이후 그의 동료 마티아센의 연구를 포함한 고고학은 이누이트 문화가 알래스카에서 동쪽으로 퍼졌음을 보여 주었고, 하퍼는 내륙 기원설이 오늘날 지지를 받지 못한다고 전한다. 하퍼는 또 라스무센이 내륙과 해안 민담의 유사성을 최근 해안에서 빌려 온 결과로 돌렸다고 덧붙인다.",
+  "knud-rasmussen.interpretation.moment.2":
+    "상반되는 고고학적 발견이 나온 뒤에도 이론을 유지한 것은 이 한 가지 학문적 문제에 한해 낮은 신념 수정 점수와 일치한다. 하퍼는 자료가 이론을 만들어 가기보다 이론을 뒷받침하는 데 쓰였다고 읽는다.",
+  "knud-rasmussen.turning_point.1":
+    "1902년 22세의 라스무센은 루드비 뮐리우스에리크센(Ludvig Mylius-Erichsen)이 이끄는 문학 탐험에 참가했다. 『덴마크 인명사전』은 탐험 계획이 멜빌 만 너머 극지 이누이트 지역까지 넓어진 것은 주로 그 덕분이라고 하며, 일행은 그들 사이에서 겨울을 났다. 마티아센은 그가 그곳에서 전설과 종교 관념을 모으며 '자신의 참된 영역을 찾았다'고 쓴다. 첫 책 『새로운 사람들』(Nye Mennesker, 1905)이 뒤를 이었고, 극지 이누이트는 툴레 교역소를 포함한 그의 활동의 고정점으로 남았다.",
+  "knud-rasmussen.interpretation.turning_point.1":
+    "탐험을 극지 이누이트에게까지 밀고 가 겨울 내내 그들의 전승을 모은 것은 특정 민족에 대한 호기심과 일치하며, 이는 이후 그의 작업 방향을 정했다.",
+  /* ---------------------------------------------------------- lou-gehrig (Roster44) */
+  "lou-gehrig.achievement.1":
+    "게릭은 1925년 6월부터 1939년 5월까지 뉴욕 양키스에서 2,130경기 연속 출장했다. 1925년 6월 1일 대타로 나선 것이 시작이었고, 이튿날 처음으로 1루수로 선발 출장했다. 미국야구명예의 전당은 이 기록이 칼 립켄 주니어가 1995년에 넘어설 때까지 깨지지 않을 것으로 여겨졌다고 소개하며, 이 연속 출장 때문에 그에게 ‘아이언 호스’라는 별명이 붙었다.",
+  "lou-gehrig.achievement.2":
+    "1927년 게릭은 뉴욕 언론이 ‘머더러스 로’라고 부른 양키스 타선에서 4번 타자로 나섰다. 그는 타율 0.373, 홈런 47개, 리그 1위인 타점 173개와 구단 신기록인 2루타 52개를 기록해 아메리칸리그 최우수선수(MVP)로 뽑혔고, 양키스는 그해 월드시리즈를 4연승으로 끝냈다. 그해 60홈런의 신기록을 세운 베이브 루스와 함께 그는 10년 가까이 타선의 중심을 이루었다.",
+  "lou-gehrig.achievement.3":
+    "게릭은 통산 타율 0.340, 홈런 493개, 타점 약 1,995개를 남겼고, 미국야구명예의 전당에 따르면 그가 뛴 17시즌 동안 양키스는 월드시리즈에서 여섯 번 우승했다. 1934년에는 아메리칸리그 타율(0.363), 홈런(49개), 타점(165개) 1위를 모두 차지해 트리플 크라운을 달성했고, 1936년에는 두 번째 MVP를 받았다.",
+  "lou-gehrig.achievement.4":
+    "1939년 7월 4일 양키 스타디움에는 ‘루 게릭 감사의 날’을 맞아 6만 1,808명의 관중이 모였고, 게릭은 ‘오늘 나는 지구상에서 가장 운이 좋은 사람이라고 생각합니다’라는 말로 시작하는 고별 연설을 했다. 같은 해 12월 7일 전미야구기자협회는 만장일치로 대기 기간을 면제해 그를 즉시 명예의 전당에 헌액하기로 의결했는데, MLB.com은 이를 협회가 특별 선거로 선수를 뽑은 단 두 번 중 하나라고 설명한다.",
+  "lou-gehrig.moment.1":
+    "1930 시즌 마지막 3주 동안 게릭은 손가락이 부러진 채 뛰었고, 시즌이 끝난 뒤에야 수술을 받았다. 입원 중에는 왼쪽 팔꿈치에서 뼛조각이 발견되어 두 번째 수술이 필요했다. 그럼에도 그는 그해 양키스의 모든 경기에 출장했고 타율 0.379, 홈런 41개, 리그 1위인 타점 174개로 시즌을 마쳤다.",
+  "lou-gehrig.interpretation.moment.1":
+    "손가락이 부러진 채 쉬지 않고 시즌을 끝까지 치른 것은 끈기와 일치한다. 다만 오랜 기간 가운데 한 시즌의 사례이며, 선수 생활 중 손가락이 모두 부러졌다는 말은 2차 자료의 집계다.",
+  "lou-gehrig.moment.2":
+    "1927년 가을 루스와 함께 전국 순회 경기를 마친 뒤, 게릭은 루스가 3만 달러를 요구하라고 권했음에도 양키스가 보낸 평소 계약서에 한동안 서명하지 않았다. 몇 주 뒤 그는 구단주 제이컵 루퍼트의 양조장을 찾아가 연봉 2만 5천 달러에 3년 계약을 맺었다. 이는 그에게 큰 인상이었지만 루스의 연봉에는 한참 못 미쳤고, 그에게는 금액보다 계약 기간이 더 중요했다.",
+  "lou-gehrig.interpretation.moment.2":
+    "서명을 미루다가 루스가 제시한 더 큰 금액 대신 안정을 택해 빠르게 합의한 것은 강하게 밀어붙이기보다 조용한 협상 방식과 일치한다. 전기는 그가 안정을 우선했다고 전하지만, 계약 한 건은 표본이 작다.",
+  "lou-gehrig.turning_point.1":
+    "1925년 6월 2일, 7위에 머물던 양키스의 밀러 허긴스 감독은 오랫동안 주전이던 월리 핍 대신 게릭을 1루수로 선발 출장시켰다. 대타로 나서던 후보 선수였던 게릭은 5타수 3안타를 쳤고, 허긴스는 다음 경기 전에 그에게 ‘오늘부터 계속’ 1루수라고 말했다. SABR 전기는 핍이 두통으로 쉬었다는 흔한 이야기가 사실이 아니라고 밝히는데, 핍은 타율 0.244였고 팀 성적도 부진했다.",
+  /* ---------------------------------------------------------- sergei-rachmaninoff (Roster44) */
+  "sergei-rachmaninoff.achievement.1":
+    "라흐마니노프의 피아노 협주곡 2번은 1900년 6월부터 1901년 4월 사이에 작곡되어, 1901년 11월 9일 모스크바에서 알렉산드르 실로티의 지휘로 전곡이 초연되었다. 1909년 여름에 쓴 피아노 협주곡 3번은 1909년 11월 28일 뉴욕에서 월터 담로슈가 지휘하는 뉴욕 심포니 소사이어티와 작곡가 자신의 협연으로 세계 초연되었다. 차이콥스키가 높이 평가한 소품집 Op. 3 『환상적 소곡집』에 실린 「C샤프 단조 전주곡」은 수십 년 동안 앙코르로 요청받을 만큼 널리 연주되었다.",
+  "sergei-rachmaninoff.achievement.2":
+    "라흐마니노프는 1906~07년에 교향곡 2번을 작곡하고 1908년 1월 26일 상트페테르부르크 초연을 직접 지휘했다. 교향시 「죽음의 섬」도 같은 드레스덴 시기에 쓰였다. 1915년 겨울에는 러시아 정교회 성가 선율을 무반주 합창으로 엮은 「저녁 기도(전야 기도)」를 작곡했다. 1934년에는 스위스의 별장에서 「파가니니 주제에 의한 랩소디」를 썼고, 1934년 11월 7일 볼티모어에서 레오폴드 스토코프스키와 필라델피아 오케스트라의 반주로 직접 초연했다.",
+  "sergei-rachmaninoff.achievement.3":
+    "라흐마니노프는 1918년 11월 10일 뉴욕에 도착해 찰스 엘리스와 C. J. 폴리 두 매니저, 그리고 스타인웨이 사와 함께 연주 활동을 시작해 피아니스트로서 경력을 쌓았다. 그의 프로그램은 베토벤, 슈만, 리스트, 그중에서도 쇼팽을 중심으로 했다. 1943년 AP 부고는 그를 파데레프스키에 버금가는 피아니스트로 평하며 50년 가까이 청중 앞에 섰다고 전했다. 러시아를 떠나기 전에는 모스크바에서 볼쇼이 극장을 포함한 지휘직도 맡았다.",
+  "sergei-rachmaninoff.moment.1":
+    "라흐마니노프는 1905~06년 샬랴핀에게 자신의 두 오페라의 베이스 역을 지도해 주겠다고 제안했고, 다른 작곡가의 오페라를 함께 준비할 때는 그의 회고대로 '봐주지 않고' 가수를 두세 시간 이상 피아노 앞에 붙들어 두어 자기 파트와 오페라 전체를 '관현악 편성의 세부까지' 익히게 했다. 그는 그 연습에서 자신이 '정말 가혹했다'고 말했다. 샬랴핀은 같은 협업을 두고, 라흐마니노프가 피아노를 칠 때는 '우리 둘이 함께 노래한다'고 회상했다. 지도 이야기는 리제만이 받아 적은 라흐마니노프 자신의 증언이다.",
+  "sergei-rachmaninoff.interpretation.moment.1":
+    "일류 가수를 세부까지 확실해질 때까지 반복해서 훈련시키고 그 점에서 스스로를 '가혹했다'고 평한 일은 완벽주의와 부합한다. 다만 이 서술은 본인의 증언이며, 샬랴핀의 회고록은 이런 반복 훈련보다 둘의 협업이 따뜻했다는 점을 전한다.",
+  "sergei-rachmaninoff.moment.2":
+    "1906년 가을 제국극장과의 계약이 끝나자, 라흐마니노프는 '거의 무제한의 권한'을 주겠다는 제안에도 계약을 갱신하지 않고 가족과 함께 조용히 작곡할 수 있는 드레스덴으로 떠났다. 드레스덴 거리에서 마주친 지인에게 그는 '친구들에게서 도망쳐 왔다'고 말했다. 교향곡 2번과 「죽음의 섬」은 이 드레스덴 시기에 쓰였다.",
+  "sergei-rachmaninoff.interpretation.moment.2":
+    "작곡할 시간을 지키려고 막강한 직위를 포기한 일은 강한 자율성 욕구와 부합한다. 이 서술은 리제만이 기록한 본인의 회고에서 나온 것이다.",
+  "sergei-rachmaninoff.turning_point.1":
+    "라흐마니노프의 교향곡 1번은 1897년 상트페테르부르크에서 알렉산드르 글라주노프의 지휘로 초연되었다. 연주는 좋지 않았고, 세자르 퀴이의 평은 혹독했으며, 림스키코르사코프는 리허설에서 이 음악이 마음에 들지 않는다고 말했다. 라흐마니노프는 훗날 작품의 결점이 실제로 있었다고 인정했다고 말하며 악보를 거두어들였고 한동안 작곡을 거의 하지 않았다. 1900~01년에는 사촌 실로티가 2년간 생활을 지원해 준 덕에 피아노 협주곡 2번을 썼고, 1901년 모스크바 초연은 성공을 거두었다.",
+  "sergei-rachmaninoff.interpretation.turning_point.1":
+    "교향곡을 변호하는 대신 비판이 어느 정도 옳았다고 받아들인 점은 믿음 갱신과 부합한다. 교향곡의 결점에 대한 판단은 본인의 회고이며, 림스키코르사코프의 회고록은 이 작품이 연주되었다는 사실만 기록한다.",
+  /* ---------------------------------------------------------- suzanne-lenglen (Roster44) */
+  "suzanne-lenglen.achievement.1":
+    "랑글렌은 1919~1923년과 1925년에 윔블던 여자 단식에서 우승했으며, 1919년 결승에서는 일곱 차례 우승한 도로시어 램버트 챔버스를 10-8, 4-6, 9-7로 꺾었다. 올잉글랜드 클럽의 기록에 따르면 그녀는 윔블던에서 단식 6회, 복식 6회, 혼합복식 3회 등 모두 15개의 타이틀을 땄고, 이곳에서 치른 94경기 중 91경기를 이겼다.",
+  "suzanne-lenglen.achievement.2":
+    "랑글렌은 1920년 앤트워프 올림픽에서 여자 단식과 막스 드퀴지와 짝을 이룬 혼합복식에서 금메달을, 엘리자베트 다얀과 나선 여자 복식에서 동메달을 땄다. 올림피디아는 그녀를 1920~1923년과 1925~1926년 프랑스 선수권 단식 우승자로 기록하는데, 이 대회는 1925년까지 프랑스 선수에게만 열려 있었다.",
+  "suzanne-lenglen.achievement.3":
+    "1926년 랑글렌은 흥행업자 C. C. 파일과 5만 달러 계약을 맺고 미국 단식 우승 3회 경력의 메리 K. 브라운을 상대로 미국 순회 경기를 치렀다. 테니스 명예의 전당은 이를 최초의 여자 프로 시리즈라고 부르며 그녀가 38경기를 모두 이겼다고 전한다. 프로 선수는 윔블던에 나갈 수 없었고, 스포츠 일러스트레이티드에 따르면 윔블던 측은 그녀의 회원 자격을 취소했다.",
+  "suzanne-lenglen.achievement.4":
+    "랑글렌은 소매가 짧고 치맛단이 종아리 위로 올라오는 실크 드레스를 입었고 당시 흔하던 두툼한 속옷도 입지 않았으며, 장 파투에게 주름 잡힌 흰 실크 스커트, 소매 없는 카디건, 튤 머리띠를 맞춰 입었다. 1922년부터는 밝은 색 옷도 입었다. 명예의 전당과 롤랑가로스 공식 사이트는 모두 그녀를 여성의 코트 복장을 바꾼 인물로 소개한다.",
+  "suzanne-lenglen.moment.1":
+    "1926년 2월 16일 랑글렌은 칸의 칼턴 클럽에서 당시 미국 선수권 3회 우승자였던 헬렌 윌스와 맞붙었고, 두 사람이 겨룬 것은 이때가 유일했다. 관중은 지붕과 이웃 건물 창문에서 경기를 지켜보았다. 2세트 6-5에서 랑글렌이 위너라고 생각한 공을 심판이 아웃으로 번복했고 윌스가 6-6을 만들었지만, 랑글렌이 59분 만에 6-3, 8-6으로 이겼다.",
+  "suzanne-lenglen.interpretation.moment.1":
+    "판정이 불리하게 바뀐 뒤에도 2세트를 따낸 것은 경쟁심과 부합한다. 다만 기록들은 그녀가 눈에 띄게 긴장했다고도 전하므로 이 경기는 승부욕과 부담을 함께 보여 주며, 하나의 경기일 뿐이다.",
+  "suzanne-lenglen.moment.2":
+    "선수 생활에서 물러난 뒤 랑글렌은 파리에서 테니스 학교를 운영했다. 그녀는 마거릿 모리스의 움직임 강연을 들은 뒤 모리스에게 그 운동을 테니스에 맞게 고쳐 보자고 제안했고, 두 사람은 랑글렌의 파리 집에서 함께 운동을 만들어 갔다. 학생들은 라켓을 잡기 전에 이 운동부터 해야 했고, 두 사람은 1937년 『간단한 운동으로 배우는 테니스』를 펴냈다.",
+  "suzanne-lenglen.interpretation.moment.2":
+    "외부 전문가를 직접 찾아가고 학생들의 첫 수업을 그 방법에 맞춰 다시 짠 것은 숙달 지향과 부합한다. 이 서술은 마거릿 모리스 자료에서 나온 것으로 협업을 모리스의 입장에서 전한다.",
+  "suzanne-lenglen.turning_point.1":
+    "1926년 윔블던에서 랑글렌의 2회전 단식은 메리 왕비가 관람할 수 있도록 시간이 바뀌었고, 그녀는 늦게 도착했다. 클럽 자체의 역사 기록은 일정 혼선과 그녀에게 제대로 알리지 못한 점을 들고, 당시 유나이티드 프레스 보도는 그녀가 경기를 거부했다고 전한다. 이튿날 그녀는 야유를 받았고 대회에서 기권한 뒤 다시는 윔블던에서 뛰지 않았다. 그해 말 그녀는 C. C. 파일과 계약하고 프로로 전향했다.",
+  "suzanne-lenglen.interpretation.turning_point.1":
+    "자기 방식대로 뛰기 위해 윔블던을 잃는 것을 받아들인 선택은 자율성 욕구와 부합한다. 그녀는 1926년 인터뷰에서 아마추어 규정이 '터무니없다'며 선수들이 원하는 상대와 겨뤄야 한다고 말했다. 그날 누구의 잘못이었는지에 대해서는 기록이 엇갈리므로, 사건 자체에서는 어떤 성향도 읽어 내지 않는다.",
+  /* ---------------------------------------------------------- tycho-brahe (Roster44) */
+  "tycho-brahe.achievement.1":
+    "티코는 1576년부터 프레데리크 2세가 내어준 벤섬(Hven)의 우라니보르(Uraniborg)에서 관측했고, 1584년부터는 큰 기구를 고정해 둘 수 있는 지하실을 갖춘 두 번째 관측소 스티에르네보르(Stjerneborg)에서도 관측했다. 그는 자신이 설계하고 거듭 다시 만든 기구, 그리고 직접 고안한 조준기와 눈금 호를 사용해 이전의 어느 천문학자보다 더 자주, 더 체계적으로 관측했다. 덴마크의 천문학사학자 크리스티안 페데르 뫼스고르(Kristian Peder Moesgaard)는 이를 통해 망원경 없이도 위치천문학의 정확도가 약 10배 높아져 대략 1각분 수준에 이르렀다고 평가한다. 이후의 한 연구는 그의 행성 관측 오차가 대부분 0.5~1각분 사이라는 점을 확인했다.",
+  "tycho-brahe.achievement.2":
+    "티코는 1572년 11월 카시오페이아자리에 나타난 새로운 별의 위치를 주변 별들과 비교해 측정했고 시차를 찾지 못했다. 이는 그 별이 달보다 훨씬 먼, 아마도 붙박이별 사이에 있다는 뜻이었으며, 그는 이를 1573년 『새로운 별에 대하여(De nova stella)』로 펴냈다. 1577년 11월 13일 처음 본 대혜성에도 같은 방법을 적용했고, 1588년 벤섬에서 인쇄한 『천상계의 최근 현상에 대하여(De mundi aetherei recentioribus phaenomenis)』에서 측정 결과를 근거로 혜성이 행성들 사이를 움직이며 드라이어(Dreyer)에 따르면 적어도 달까지 거리의 여섯 배는 떨어져 있다고 논증했다. 뫼스고르는 이 결과들이 변하지 않는 하늘과 단단한 행성 천구라는 아리스토텔레스적 그림을 흔들었다고 설명한다.",
+  "tycho-brahe.achievement.3":
+    "티코는 1598년에 별 1004개의 위치를 담은 목록을 완성해 필사본으로 돌렸다. 그가 인쇄용으로 다듬은 777개 별의 판본은 사후인 1602년 『천문학 재건의 예비 연구(Astronomiae instauratae progymnasmata)』에 실렸고, 케플러가 1627년 『루돌프 표(Rudolphine Tables)』에서 전체 목록을 발표했다. 뫼스고르는 이 목록을 고대 이후 별 목록의 첫 실질적 개선이라고 평가한다. 히파르코스 목록과의 현대적 비교에서는 오차가 대체로 약 2각분 폭이며, 더 큰 오차는 대부분 계산이나 필사 과정에서 생겼다고 한다. 드라이어는 1000개 가까이로 채우려 추가한 별들이 서둘러 관측된 것이라고 판단한다.",
+  "tycho-brahe.achievement.4":
+    "티코는 1588년 자신의 우주 체계를 발표했다. 지구는 중심에 고정되어 있고, 해와 달이 지구를 돌며, 나머지 다섯 행성은 해를 돈다는 것이다. 맥튜터(MacTutor)는 재닛 필드(Janet Field)를 인용해, 천문학자 대부분이 적어도 17세기 중반까지 이 체계를 선호했다고 전한다. 티코는 1599년 프라하에서 황실 수학자가 되었고, 1600년 케플러가 인근 베나트키(Benatky) 성에서 처음 그와 합류했다. 뫼스고르는 케플러가 『신천문학(Astronomia nova, 1609)』에서 티코의 관측으로 행성의 타원 궤도를 도출했고, 1627년 그 관측으로 『루돌프 표』를 완성했다고 쓴다.",
+  "tycho-brahe.moment.1":
+    "1572년 11월 11일 저녁, 티코는 실험실에서 돌아오다가 카시오페이아자리에서 전에 없던 매우 밝은 별을 보았다. 드라이어에 따르면 그는 먼저 하인들에게, 그다음에는 마침 마차를 몰고 지나가던 농부들에게 같은 별이 보이는지 물어본 뒤에야, 새로 만든 나무 육분의로 그 별과 별자리의 주요 별 아홉 개 사이의 거리를 재기 시작했다. 그는 밤새 측정을 되풀이했고, 기구가 움직이지 않았는지 확인하려고 측정 사이에 기구를 고정해 둔 채로 두기도 했으며, 육분의 자체의 오차도 표로 정리했다.",
+  "tycho-brahe.interpretation.moment.1":
+    "자신의 눈을 다른 사람들의 눈과 대조하고, 기구를 기구 자체와 대조해 본 일은 세부에 대한 꼼꼼함과 부합한다. 이 서술은 드라이어가 티코가 직접 펴낸 설명을 읽고 정리한 것이다.",
+  "tycho-brahe.moment.2":
+    "1584년 티코는 자신이 구한 황도 기울기가 코페르니쿠스의 값과 다르고, 코페르니쿠스의 태양 이론이 관측 위치에서 때때로 벗어난다는 점을 발견했다. 그는 코페르니쿠스 이론의 입력값을 검증하려고 조수 엘리아스 올센(Elias Olsen)에게 육분의를 들려 왕실 선박으로 프라우엔부르크에 보냈다. 올센은 5월 중순부터 6월 초까지 코페르니쿠스가 관측하던 곳의 위도를 측정했고, 티코는 그 차이로 태양 이론의 결함 일부를 설명했다. 드라이어는 티코가 코페르니쿠스의 이름을 언급할 때 늘 존경을 표했다고 덧붙이며, 프라우엔부르크의 한 참사회원이 코페르니쿠스가 직접 만든 삼각 관측 기구를 티코에게 보내 주었다고 전한다.",
+  "tycho-brahe.interpretation.moment.2":
+    "존경하는 권위자의 기본 자료를 그대로 받아들이지 않고 다시 측정한 일은 분석적 엄밀성과 부합한다. 다만 뫼스고르가 지적하듯 티코 자신은 태양 시차 3각분이라는 값을 권위에 기대어 그대로 받아들였다.",
+  "tycho-brahe.turning_point.1":
+    "티코는 코펜하겐과 라이프치히에서 법학을 공부하도록 되어 있었다. 1560년 8월 21일 예측된 시각에 일어난 부분 일식이 그를 천문학으로 이끌었고, 1563년 8월 토성과 목성의 합이 그의 작업 방식을 바꿔 놓았다. 옛 알폰소 표는 약 한 달이 틀렸고, 코페르니쿠스 이론에 기초한 프루테니아 표는 며칠 어긋났다. 그는 평범한 컴퍼스 한 쌍으로 자신의 관측을 기록하기 시작했으며, 드라이어와 뫼스고르는 모두 이 경험이 표와 그 바탕의 우주 체계를 가르는 것은 오직 길고 꾸준한 측정뿐이라는 확신을 심어 주었다고 말한다.",
+  "tycho-brahe.interpretation.turning_point.1":
+    "측정 결과를 인쇄된 표보다 우선시하고, 법률가가 되라는 보호자들의 계획에 맞서 그 결론대로 행동한 일은 독립적 사고와 부합한다.",
+  /* ---------------------------------------------------------- william-harvey (Roster44) */
+  "william-harvey.achievement.1":
+    "하비는 1628년 프랑크푸르트에서 『동물의 심장과 혈액의 운동에 관한 해부학적 연구』(Exercitatio Anatomica de Motu Cordis et Sanguinis in Animalibus)를 펴냈다. 72쪽짜리 작은 4절판 책이다. 그는 심장과 판막의 구조, 뱀에 결찰을 거는 실험을 비롯한 산 동물 실험, 그리고 심장이 내보내는 피의 양을 근거로, 피가 우심실에서 폐를 거쳐, 좌심실에서 온몸으로 이어지는 하나의 연속된 순환을 이루며 정맥을 통해 심장으로 돌아온다고 결론지었다. 이 생각은 1616년 4월의 강의에서 이미 처음 밝힌 것이었다.",
+  "william-harvey.achievement.2":
+    "하비는 1615년 8월 4일 런던 왕립의사회(College of Physicians)의 해부학·외과학 럼리 강좌(Lumleian lecture) 강사로 선출되어 1656년 사임할 때까지 그 자리를 지켰다. 혈액순환을 처음 공개적으로 밝힌 1616년 4월 16~18일 강의의 현존하는 노트를 보면, 그는 그 무렵 이미 80종이 넘는 동물을 해부했고 동물 해부를 통해 인체를 설명했다.",
+  "william-harvey.achievement.3":
+    "1651년 런던에서 하비의 『동물의 발생에 관한 연구』(Exercitationes de Generatione Animalium)가 출간되었다. 1650년 성탄절 무렵 조지 엔트(George Ent)가 원고를 받아 간 뒤의 일이다. 이 책은 닭 알의 각 부분을 기술하고, 병아리가 자라는 과정을 관찰 단계별로 따라간다. 노먼 무어(Norman Moore)는 이 책이 방대한 노력과 세심한 관찰을 보여주지만, 많은 부분을 밝히려면 아직 현미경이 필요했다고 평가했다.",
+  "william-harvey.moment.1":
+    "1636년 5월, 하비는 아런들 백작의 신성로마제국 황제 사절단과 동행해 뉘른베르크에 이르렀고, 순환설에 반대하던 교수 카스파어 호프만(Caspar Hofmann)에게 직접 시연해 보이겠다고 제안했다. 그는 그곳에서 시연을 했는데, 케인스(Keynes)는 이를 알트도르프 대학에서 있었던 일로 본다. 그러나 호프만은 끝내 납득하지 않았고 두 사람은 이후 편지를 주고받았다. 훗날의 전승에 따르면 하비는 반론이 계속되자 해부용 칼을 내려놓고 자리를 떠났다고 한다.",
+  "william-harvey.interpretation.moment.1":
+    "편지로 논쟁하는 대신 현장에서 시연을 제안한 점은 설득력과 부합한다. 다만 끝내 납득하지 않은 호프만은 단호한 반대자에게는 이 방식이 통하지 않았음을 보여 주며, 자리를 떠났다는 이야기는 전승이어서 근거로 삼지 않는다.",
+  "william-harvey.moment.2":
+    "1642년 옥스퍼드에서 하비를 처음 본 존 오브리(John Aubrey)는, 하비가 트리니티 칼리지의 조지 배서스트(George Bathurst)를 여러 차례 찾아왔다고 회상했다. 배서스트는 자기 방에서 암탉에게 알을 품게 하고 있었는데, 두 사람은 날마다 알을 하나씩 열어 발생이 어떻게 진행되는지를 지켜보았다.",
+  "william-harvey.interpretation.moment.2":
+    "간단한 관찰을 매일 반복해 며칠 동안 이어 간 방식은 실험 지향과 부합한다. 다만 이 이야기는 오브리의 기억에만 의존한다.",
+  "william-harvey.turning_point.1":
+    "하비는 1616년부터 해마다 왕립의사회에서 혈액순환을 강의한 끝에 1628년 프랑크푸르트에서 『심장과 혈액의 운동』을 인쇄에 넘겼다. 그는 서문에서 일부 회원이 모든 해부학자와 다른 주장을 한다고 자신을 비난했으며 친구들이 출판을 권했다고 밝혔다. 이어 반대가 일어났다. 제임스 프림로즈(James Primrose)의 반박문이 1630년에, 파리자누스(Parisanus)의 반박문이 1635년에 나왔고, 오브리는 하비가 자신의 진료가 크게 줄었으며 의사들이 모두 자신에게 반대했다고 말했다고 전한다. 다만 다시 파워(D'Arcy Power)는 궁정 정치도 한몫했을 수 있다고 본다. 노먼 무어는 하비가 죽기 전에 이 학설이 의학계 전체에서 받아들여졌다고 결론짓는다.",
+  "william-harvey.interpretation.turning_point.1":
+    "적대적 반응이 올 것을 예상하면서도 학설을 출간하고, 이후 비판자들에게는 대체로 답하지 않은 것은 갈등 감내 면에서 엇갈린 모습이다. 그는 학설을 둘러싼 공개적인 이견은 받아들였으나 논쟁적인 응수는 피했다.",
+  /* ---------------------------------------------------------- william-thomson-kelvin (Roster44) */
+  "william-thomson-kelvin.achievement.1":
+    "톰슨은 1848년 카르노의 열기관 이론에 바탕을 둔 절대 온도 눈금을 제안했다. 이 눈금에서는 온도의 한 눈금이 온도계에 쓰는 물질에 좌우되지 않았고, 그는 르뇨(Regnault)의 측정값으로 그 값을 표로 계산했다. 1851년 논문 「열의 동역학 이론에 관하여」는 카르노의 이론을 열과 일의 등가에 관한 줄(Joule)의 결과와 조화시켰고, 1852년에는 역학적 에너지가 흩어지는 보편적 경향의 원리를 발표했다. 그는 변환의 법칙은 클라우지우스(Clausius)의 공로로 돌리면서, 자신은 다른 공리에서 출발한 증명을 제시했다. 켈빈 눈금과 국제단위계(SI)의 온도 단위 켈빈은 그의 이름을 딴 것이다.",
+  "william-thomson-kelvin.achievement.2":
+    "톰슨은 긴 해저 케이블을 통한 신호 전송의 수학을 정립해, 신호 지연이 케이블 길이의 제곱에 비례해 커진다는 점을 보이고 더 굵은 구리 도체를 쓸 것을 주장했다. 그는 1857년과 1858년의 대서양 케이블 항해에 참여했고, 1858년의 케이블이 몇 주 만에 불통이 된 뒤에는 1865년과 1866년의 항해에도 참여했다. 1858년에는 희미한 신호를 읽을 수 있게 한 거울 검류계의 특허를 얻었고, 나중에는 사이펀 기록기를 고안했다. 1866년에는 케이블 사업에서의 역할로 기사 작위를 받았다.",
+  "william-thomson-kelvin.achievement.3":
+    "톰슨은 1870년대부터 철선(鐵船)에 맞게 나침반을 새로 설계했다. 아주 가벼운 나침반 카드에 가는 바늘 여덟 개를 명주실로 매달았고 조정 가능한 보정 자석을 갖췄으며, 달리는 배에서 깊은 바다의 수심을 재는 측심기도 개발했다. 독일과 러시아 해군이 영국 해군보다 먼저 이를 주문했고, 영국 해군은 1889년 11월에야 그의 나침반을 표준으로 삼았다. 이 장비는 글래스고의 계기 제작업체 제임스 화이트(James White), 훗날의 켈빈 앤드 제임스 화이트(Kelvin and James White Ltd.)에서 만들었다.",
+  "william-thomson-kelvin.achievement.4":
+    "톰슨은 1846년부터 1899년 퇴임할 때까지 글래스고 대학의 자연철학 석좌를 맡았다. 1850년경에는 쓰지 않던 포도주 저장고를 실험실로 삼아 학생들이 측정 작업을 하게 했는데, 전기 작가 톰프슨(Thompson)은 이를 어느 대학에서든 학생에게 개방된 최초의 물리학 실험실이라고 부른다. 그는 P. G. 테이트(Tait)와 함께 『자연철학 논고』를 썼으며, 에너지의 관점에서 쓴 이 교재의 1권은 1867년에 나왔다.",
+  "william-thomson-kelvin.moment.1":
+    "1858년 8월, 케이블이 놓인 뒤 회사의 전기 기사 화이트하우스(Whitehouse)는 자신의 중계기로는 뉴펀들랜드에서 오는 신호를 또렷이 받지 못했다. 이사들의 편지를 인용한 톰프슨의 서술에 따르면, 이사회는 8월 17일 케이블 관리를 화이트하우스에게서 거두고 톰슨에게 발렌시아(Valentia)의 지휘를 맡겼다. 톰슨은 자신의 거울 검류계가 이미 설치되어 있는 것을 발견하고 뉴펀들랜드 운용자들이 그것으로 바꾸게 해 통신을 되살렸다. 그는 이어 이사회에 화이트하우스의 해임을 다시 검토해 달라고 청했으나, 이사회는 매섭게 거절했다. 화이트하우스는 나중에 낸 소책자에서 자신의 장치뿐 아니라 톰슨의 검류계로도 신호를 받았다고 적었다.",
+  "william-thomson-kelvin.interpretation.moment.1":
+    "주 장치가 실패하자 자신이 만든 작동하는 기구를 투입한 일은 임기응변의 능력과 부합한다. 사건의 순서는 이사들의 문서에 대한 톰프슨의 서술에 의존하며, 화이트하우스 쪽 입장은 1858년의 소책자로만 확인된다.",
+  "william-thomson-kelvin.moment.2":
+    "1869년 2월 19일 런던 지질학회 회장 T. H. 헉슬리는 지구의 열과 태양의 한정된 연료로 볼 때 약 1억 년밖에 허용되지 않는다는 톰슨의 주장에 답하면서, 수학을 넣은 만큼만 내놓는 방앗간에 비유했다. 톰슨은 1869년 4월 5일 글래스고에서 「지질학적 동역학에 관하여」로 응답하며, 많은 지질학자가 물리학의 원리를 자기 일과 무관한 것으로 취급한다고 비판했다. 1871년 다윈은 월리스(Wallace)에게 보낸 편지에서 선(先)실루리아기를 생각하면 톰슨이 '불길한 유령처럼' 나타난다고 썼다. 톰프슨은 훗날 방사성 발열이 발견되어 온도 기울기에 바탕한 논증이 약해졌다고 적는다.",
+  "william-thomson-kelvin.interpretation.moment.2":
+    "스스로 영국 지질학자의 '아마도 다수'라고 부른 상대에 맞서 입장을 지키고 선두 논객에게 직접 답한 일은 독립적 사고와 부합한다. 다만 그 입장은 나중에 불완전한 물리학에 바탕한 것으로 드러났으므로, 같은 태도에는 대가도 따랐다.",
+  "william-thomson-kelvin.turning_point.1":
+    "1847년 톰슨은 옥스퍼드의 영국 과학진흥협회 모임에서 제임스 줄의 논문 발표를 들었고, 훗날 본인의 설명에 따르면 그것이 틀렸다고 느꼈으나 기다렸다가 줄에게 따로 이야기했다. 그는 약 3년 동안 카르노의 이론을 붙들면서도 다른 사람들에게 줄의 연구가 중요하다고 말했다. 1850년 그는 줄에게 증기에 관한 한 결론이 알려진 사실과 조화되려면 줄의 발견이 있어야 한다고 썼고, 1851년의 논문은 두 이론 위에 이론을 다시 세웠다.",
+  "william-thomson-kelvin.interpretation.turning_point.1":
+    "의심에서 수용까지 약 3년이 걸렸고 그동안에도 증거가 중요하다고 공개적으로 말한 일은, 느리지만 결국 받아들이는 방식의 믿음 갱신과 부합한다. 이 서술은 주로 그를 높이 평가하는 전기 작가와 본인의 회고에 의존한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

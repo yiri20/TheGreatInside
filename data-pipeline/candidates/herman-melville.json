@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "herman-melville",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Herman Melville",
+    "wikidataId": "Q4985",
+    "birthYear": 1819,
+    "deathYear": 1891,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "poet"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "late_recognition",
+      "independent"
+    ],
+    "archetypeIds": [
+      "independent_creator",
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_melville_wikidata",
+      "kind": "wikidata",
+      "title": "Herman Melville (Q4985) -- verified live via wbgetentities (2026-10-07): en label 'Herman Melville', description 'American writer and poet (1819-1891)', born 1 Aug 1819, died 28 Sep 1891, citizenship United States, ko label '허먼 멜빌', image 'Herman Melville by Joseph O Eaton.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q4985"
+    },
+    {
+      "id": "src_melville_weaver1921",
+      "kind": "biography",
+      "title": "Raymond M. Weaver (Columbia University scholar), 'Herman Melville: Mariner and Mystic' (New York: George H. Doran, 1921), full text from the Internet Archive -- the first full biography and the work that began the Melville revival; heavily INTERPRETIVE (psychological readings of the novels), so used here only for documents it reprints or reports: publication and sales records for Typee, Omoo, Mardi and Redburn, royalty accounts after the 1853 Harper fire, Melville's 1851 letters to Hawthorne, letters of Dana, Allan Melville and Chief Justice Shaw about a consulship (1853), R. H. Stoddard's recollection of Melville as customs inspector, Melville's own 1880s letter, and the bibliography. Read the publication, Hawthorne-years, post-Pierre and last-years chapters in full; the early-family and psychological chapters were skimmed and not used.",
+      "url": "https://archive.org/details/HermanMelvilleMarinerAndMystic"
+    },
+    {
+      "id": "src_melville_mumford1929",
+      "kind": "biography",
+      "title": "Lewis Mumford, 'Herman Melville' (New York: Harcourt, Brace, 1929), full text via Project Gutenberg -- second biography, written in the revival and openly an advocate's critical study; contains a speculative psychological reading that is NOT used. Used for the 1857-1860 lecture tours (fees, number, Melville's letter offering to lecture anywhere), the 1853 Harper fire and consulship attempts, the 1866 custom-house appointment, the composition of Clarel (about 20,000 lines, published 1876 with money from an uncle), and Mumford's acknowledgement that Weaver found the unpublished manuscripts through Melville's granddaughter. Read the chapters on 1850-1857 and the late life in full; early chapters skimmed.",
+      "url": "https://www.gutenberg.org/ebooks/78016"
+    },
+    {
+      "id": "src_melville_weaver1924_billybudd",
+      "kind": "archive",
+      "title": "Raymond W. Weaver (ed.), 'Billy Budd, Foretopman, and Other Prose Pieces', Standard Edition of The Works of Herman Melville vol. 13 (London: Constable, 1924), Project Gutenberg -- first publication of Billy Budd from the manuscript; editor's introductory note reports the novel was 'finished by Melville five months before his death in 1891, and never before published', that the sketches date from after his retirement as customs inspector, and reproduces the letter of 12 May 1854 from Charles F. Briggs, editor of Putnam's Monthly, rejecting 'The Two Temples' for fear of offending religious readers and mentioning James Russell Lowell's praise of 'The Encantadas'. Read the editor's note, the Briggs letter and the contents list; the fiction itself was skimmed only.",
+      "url": "https://www.gutenberg.org/ebooks/76513"
+    },
+    {
+      "id": "src_melville_hawthorne_notebook1856",
+      "kind": "archive",
+      "title": "Nathaniel Hawthorne, Passages from the English Notebooks (ed. Sophia Hawthorne, 1870), entry of 30 November 1856 (and the passage on the Chester visit), Project Gutenberg -- NON-SELF, firsthand account by the friend and fellow author: Melville visits Hawthorne at the Liverpool consulate on his way to Constantinople and Palestine, stays at Southport, talks 'of Providence and futurity'; Hawthorne calls him a man of 'very high and noble nature'. The 1870 text is Sophia Hawthorne's abridgment with ellipses and omits the notebook's remarks on Melville's state of mind, so it is used only for the visit and the journey. Read the entries in full.",
+      "url": "https://www.gutenberg.org/ebooks/7878"
+    },
+    {
+      "id": "src_melville_nara_acushnet",
+      "kind": "institution",
+      "title": "U.S. National Archives, Prologue magazine (Fall 2009), 'A Voyage into History' -- Pieces of History note on the crew list of the whaleship Acushnet (signed by Captain Valentine Pease 31 December 1841; National Archives-Northeast Region): Melville, aged 21, signed on in December 1840 as a greenhand, and he and another crew member deserted at Nuku Hiva in July 1842; 11 of the original 26 deserted at various times. Institutional, non-self record of the whaling voyage. Read in full (short).",
+      "url": "https://www.archives.gov/publications/prologue/2009/fall/melville-acushnet-crew-list"
+    },
+    {
+      "id": "src_melville_potter_rutgers",
+      "kind": "archive",
+      "title": "David Potter, 'Reviews of Moby-Dick', Journal of the Rutgers University Library (c. 1940), PDF -- scholarly survey of American magazine reviews of Typee, Omoo, Mardi, Redburn, White-Jacket and Moby-Dick found in Rutgers' periodical files: concludes that most American reviewers were favourable to Moby-Dick, that Mardi's reception turned hostile through 1849, and that the sales/reputation collapse came later (corrects the popular belief that the book was universally panned). Read in full (about 3 pages).",
+      "url": "https://jrul.libraries.rutgers.edu/index.php/jrul/article/download/1169/2611/5936"
+    },
+    {
+      "id": "src_melville_1851_reviews",
+      "kind": "press",
+      "title": "'The Original 1851 Reviews of Moby Dick', Bunk History, reprinting Literary Hub's compilation of excerpts from the London Morning Advertiser (24 Oct 1851), Henry F. Chorley in the London Athenaeum (25 Oct 1851) and the London John Bull (25 Oct 1851) -- contemporary reviews of the book, ranging from calling it 'trash belonging to the worst school of Bedlam literature' to 'a whole philosophy of life'. Excerpts only; the full reviews were not read. Used as ADVERSARIAL and favourable contemporary perspectives, not for any behavioural row.",
+      "url": "https://www.bunkhistory.org/resources/995"
+    },
+    {
+      "id": "src_melville_self_letters1851",
+      "kind": "archive",
+      "title": "Herman Melville's own letters to Nathaniel Hawthorne, June-November 1851, as printed in Weaver 1921 (Pittsfield, 29 June 1851 and November 1851) -- SELF source: describes working on the whale book while farming, 'work and slave on my Whale', 'Dollars damn me', and 'What's the use of elaborating what, in its very essence, is so short-lived as a modern book?'; also his 1849 letter noting that Mardi had been 'cut into' by the Athenaeum and 'burnt by the common hangman by the Boston Post'. Used as self-report alongside non-self sources, never alone.",
+      "url": "https://archive.org/details/HermanMelvilleMarinerAndMystic"
+    },
+    {
+      "id": "src_melville_battle_pieces",
+      "kind": "archive",
+      "title": "Herman Melville, 'Battle-Pieces and Aspects of the War' (New York: Harper & Brothers, 1866), Project Gutenberg -- the first published collection of his verse; used only to confirm the book's existence, date, dedication and its prefatory note on how the pieces were composed. Read the front matter; poems skimmed.",
+      "url": "https://www.gutenberg.org/ebooks/12384"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_melville_mumford1929, src_melville_weaver1924_billybudd, src_melville_weaver1921, src_melville_potter_rutgers | 1853-1891 | two biographers + editor's note + survey of reviews] After Mardi turned critics hostile (Potter) and Harper's 1853 fire destroyed the plates and most stock of his novels (Weaver 1921, Mumford), his books earned little: Weaver reprints a royalty account in which seven titles sold 54, 56, 42, 49, 29, 48 and 27 copies in a year. He went on writing anyway: two magazine stories in 1853, tales for Putnam's and Harper's to 1856, a verse collection in 1866, Clarel (about 20,000 lines, 1876, printed with an uncle's money, Mumford), and a final novel finished five months before he died (Weaver 1924). Mumford sees him working long pieces again once the custom-house post gave him stability. Several dated, independently reported instances over four decades, but the evidence is output continuing rather than a stated resolve, and much of it was unpublished or ignored, hence moderate confidence."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_melville_weaver1921, src_melville_self_letters1851, src_melville_potter_rutgers, src_melville_1851_reviews | 1849-1852 | biography reprinting a letter + self letters + survey of reviews + contemporary review excerpts] After the popular success of Typee and Omoo (Potter), he published Mardi (1849), a Polynesian allegory, in his preface framing it as a test of whether fiction might be taken for fact after his two narratives were doubted; Potter reports reviews turned hostile through 1849, and in a letter he dismissed the attacks as 'matters of course'. He then wrote Moby-Dick and Pierre rather than another South Seas narrative; the Athenaeum called the whale book 'absurd' while John Bull called it 'a whole philosophy of life'. Chorley says Melville seemed 'disdainful of learning the craft of an artist'. dual_edged: the same choice cost him his audience (Mumford, Weaver). Documented with self-report and hostile reviewers, but we lack any non-self account of his reasons, hence 0.6."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_melville_weaver1921, src_melville_mumford1929, src_melville_weaver1924_billybudd, src_melville_1851_reviews | 1846-1891 | two biographies + editor + contemporary reviews] Across his career he moved between distinct forms: first-person travel narratives (Typee, Omoo), a sea-boy novel (Redburn), a man-of-war book (White-Jacket), the allegorical Mardi, the encyclopedic Moby-Dick, the psychological Pierre, short magazine tales, the satire The Confidence-Man, lecture talks on Roman statuary (Mumford), a Civil War verse collection, the long poem Clarel and a novella left in manuscript. Reviewers noted each shift, e.g. the Athenaeum on Moby-Dick's mixture of romance and matter-of-fact (1851). Pattern across several decades documented by two biographers; no single statement of deliberate experimentation, hence strong_inference."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_melville_1851_reviews, src_melville_potter_rutgers, src_melville_weaver1921 | 1846-1852 | contemporary reviews incl. hostile ones + survey] Contemporaries of opposed opinions agree the work was unlike others: the London Leader (reprinted in Harper's New Monthly, 1852) placed him with Poe and Hawthorne as writers of genuine American originality; John Bull found 'philosophy in whales' and 'poetry in blubber'; Chorley of the Athenaeum called the book a 'mixture of romance and matter-of-fact' with 'mad (rather than bad) English'. Typee was widely reviewed as a distinctive narrative (Weaver, Potter). Evidence is reviewers' perception of the work, not a description of his method, and 1851 judgement of quality was divided, so scored in the clear-lean band only."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_melville_weaver1921, src_melville_mumford1929, src_melville_nara_acushnet | 1837-1891 | two biographies + National Archives record] Worked as a schoolteacher (1837-40), sailor and whaleman (NARA crew list, 1841-42), US Navy hand (1843-44), farmer at Pittsfield (self letters 1851), magazine writer, lecturer (1857-60) and for about twenty years a customs inspector (appointed 5 Dec 1866, Weaver), writing prose fiction, essays and two books of verse. Wide practical and literary range documented; moderate score because the occupations were sequential livelihoods more than a deliberate interdisciplinary programme, and he did not publish in non-literary fields."
+    },
+    "discipline": {
+      "score": 63,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_melville_weaver1921, src_melville_self_letters1851, src_melville_mumford1929 | 1850-1880s | wife's journal via Weaver + self letters + Stoddard recollection + biographer] Elizabeth Melville's journal (quoted by Weaver and Mumford) says that while writing Moby-Dick he sat at his desk all day, was up early and walked before breakfast; he wrote of working his farm by day and of going to New York in 1851 to 'work and slave' on the book while it went through the press. R. H. Stoddard (quoted in Weaver) saw him keep a customs post at the foot of Gansevoort Street for years, and Melville himself wrote of 'nearly twenty years' as a customs officer. Self and family reports with one outside observer; moderate."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_melville_mumford1929, src_melville_weaver1921 | 1853-1866 | two biographies reprinting letters] When the 1853 Harper fire and falling sales cut his income, he sought a Pacific consulship (Dana, Allan Melville and Hawthorne all intervened, Weaver and Mumford), lectured in 1857-60 (under thirty lectures, fees about fifty dollars; in 1858 he wrote he would lecture 'in Labrador or on the Isle of Desolation', Mumford) and in December 1866 accepted a customs inspectorship, which Mumford reads as a decision made 'with no sign of outraged vanity'. Documented changes of livelihood in response to circumstances; the framing of his attitude is Mumford's inference."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_melville_nara_acushnet, src_melville_weaver1921, src_melville_potter_rutgers | 1840-1849 | National Archives record + biography + survey] At 21 he signed on a whaling voyage as a greenhand and he and a shipmate left the ship at Nuku Hiva in July 1842 (NARA crew list; 11 of 26 deserted at different times, so desertion itself was not unusual). Later he followed two successful narratives with the allegorical Mardi, which Potter says turned reviewers hostile through 1849. The desertion detail is documented; the details of what followed are known mostly from his own books, so confidence is moderate."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_melville_hawthorne_notebook1856, src_melville_mumford1929, src_melville_weaver1921 | 1850-1857 | friend's firsthand notebook + biographies] Hawthorne's notebook (30 Nov 1856) records Melville, back from years of 'toilsome pen-labor', travelling to Constantinople and Palestine and reasoning with him about 'Providence and futurity, and ... everything else that lies beyond human ken'. Mumford describes the Holy Land journey notes that fed Clarel and his 1857-60 lectures on Rome; Weaver notes his collecting of etchings and annotated books (Schopenhauer). One firsthand third-party source plus travel record; moderate."
+    },
+    "aesthetic_sensitivity": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_melville_mumford1929, src_melville_weaver1921, src_melville_weaver1924_billybudd | 1850s-1880s | biographies + editor] Chose the sculpture of the Vatican and Roman sights as lecture subjects and described the statues with a satirical eye (Mumford quoting a Boston Journal report, 1857); Weaver says he collected etchings; the editor of Putnam's praised 'exquisitely fine description' in 'The Two Temples' (Briggs, 1854), and Lowell wrote warmly of 'The Encantadas'. Suggestive but not squarely a record of his own aesthetic practice, hence inference-level."
+    }
+  },
+  "doNotCopyKeys": [],
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-07) for Q4985 returned en 'Herman Melville', 'American writer and poet (1819-1891)', born 1 Aug 1819, died 28 Sep 1891, citizenship United States, ko '허먼 멜빌'. SLUG CHECK: not in scratch/prod_slugs.txt; no prior candidate file. CLASSIFICATION: writer and poet; field literature (field.literature i18n key exists); tags late_recognition (Moby-Dick and Billy Budd gained standing only in the 1920s revival, Weaver/Mumford) and independent; archetypes independent_creator and creative_creator as for emily-dickinson. ERA 19th_century. SCOPE: scored from documented professional behaviour only. Deliberately NOT used: his son's death, family or marital rumours, speculation about his mental health (Weaver 1921 and Mumford 1929 both contain such readings and they were disregarded), and any inference from his death. Weaver's 1921 account of Billy Budd (a summary written before the manuscript was published) and his statement that Melville's creative period 'closed' with Pierre are contradicted by later work and were not used. ACCESS GAPS: Hershel Parker's 'Herman Melville: A Biography' (1996/2002), Andrew Delbanco's 'Melville: His World and Work' (2005), Leon Howard's biography, Wilson Heflin's 'Herman Melville's Whaling Years' and the Melville Society archive could not be accessed; Britannica and Poetry Foundation pages were bot-walled and not bypassed. Melville's letters were read only as printed in Weaver 1921 (Minnigerode's 1922 edition not opened). Thus the independent non-self perspectives are: Hawthorne's notebook (friend, firsthand), the National Archives record, Potter's survey of American reviews, the 1851 London reviews (hostile and favourable), Putnam's editor Briggs, and two biographers (Weaver, Mumford) who partly rely on family testimony. CAUTION: no row exceeds 76 or 0.62; ten rows only, others left unscored for thin or purely self-reported evidence. PORTRAIT: Eaton oil portrait (1870); Commons wikitext credits Houghton Library accession 61Z-4; Harvard page not reached, so held to Commons rights note (artist died 1875)."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "허먼 멜빌"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/herman-melville-eaton-1870.jpg",
+    "width": 1298,
+    "height": 1600,
+    "source": "Joseph Oriel Eaton, portrait of Herman Melville, oil on canvas, May 1870 (accession 61Z-4, Houghton Library, Harvard University), via Wikimedia Commons file 'Herman Melville by Joseph O Eaton.jpg' (original 1461x1801; downsized to 1298x1600, no upscaling)",
+    "license": "Public domain (artist Joseph Oriel Eaton died 1875; PD-Art / PD-old-auto-expired on Commons)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Art",
+    "attribution": "Joseph Oriel Eaton, 'Herman Melville', 1870, oil on canvas, commissioned by Melville's brother-in-law John Hoadley and presented to the family; now at the Houghton Library, Harvard University (accession 61Z-4). Rights chain verified from the Commons file page wikitext and upstream credit; Harvard's catalogue page was not retrievable by script so the Houghton holding rests on the Commons record.",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Herman_Melville_by_Joseph_O_Eaton.jpg",
+    "creator": "Joseph Oriel Eaton (1829-1875)",
+    "date": "1870-05",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Herman_Melville_by_Joseph_O_Eaton.jpg"
+  }
+}

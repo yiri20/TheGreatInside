@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "tycho-brahe",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Tycho Brahe",
+    "wikidataId": "Q36620",
+    "birthYear": 1546,
+    "deathYear": 1601,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DK"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological"
+    ],
+    "tagIds": [
+      "detail_oriented",
+      "systematic_thinker",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tycho_wikidata",
+      "kind": "wikidata",
+      "title": "Tycho Brahe (Q36620) -- verified live via wbgetentities (2026-10-07): en label 'Tycho Brahe', description 'Danish astronomer and alchemist, 1546-1601', born 14 Dec 1546, died 24 Oct 1601, citizenship Kingdom of Denmark, instance of human, ko label '티코 브라헤'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q36620"
+    },
+    {
+      "id": "src_tycho_dreyer1890",
+      "kind": "biography",
+      "title": "J. L. E. Dreyer (Director of Armagh Observatory; later editor of Tycho's Opera omnia), 'Tycho Brahe: A Picture of Scientific Life and Work in the Sixteenth Century' (Edinburgh: Adam and Charles Black, 1890), Internet Archive full text -- the standard scholarly biography, built on Tycho's own correspondence and observing books and on Kepler's papers; sympathetic but openly critical in places (it calls the extra stars of the 1598 catalogue 'worthless' and records his temper and harshness to tenants). Read in full: Chapter II (youth), Chapter III (the new star of 1572), Chapter VI (life at Hven, assistants, Wittich, the Copernicus latitude check), Chapter VII (comet of 1577 and the Tychonic system), Chapter X (Wandsbeck, the 1598 Mechanica and catalogue, the Ursus affair) and Chapter XI (Prague, Kepler); Chapters IV, V, VIII, IX and XII were skimmed or not read.",
+      "url": "https://archive.org/details/tychobrahepictur00dreyuoft"
+    },
+    {
+      "id": "src_tycho_moesgaard_dbl",
+      "kind": "biography",
+      "title": "Kristian Peder Moesgaard (Danish historian of astronomy), 'Tyge Brahe (astronom)', Dansk Biografisk Leksikon (3rd ed., lex.dk) -- independent, critical national-biographical article written for the Danish reference work (in Danish; translated by the researcher); covers youth, the 1572 star, Hven, instruments, accuracy, the Tychonic system, the break with Christian IV and the move to Prague. Read in full including the iconography section on portraits.",
+      "url": "https://biografiskleksikon.lex.dk/Tyge_Brahe_-_astronom"
+    },
+    {
+      "id": "src_tycho_mactutor",
+      "kind": "biography",
+      "title": "'Tycho Brahe (1546-1601)', MacTutor History of Mathematics archive, University of St Andrews -- encyclopedic biography (non-self) that quotes the historians Victor Thoren, Y. Maeyama, Christine Wesley (via Noel Swerdlow's review) and Janet Field on instrument development and the accuracy of his observations, and states that his dealings with the Hven tenants and his own assistants became unreasonable in the 1590s. Read in full; the account of his death was not used.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahe/"
+    },
+    {
+      "id": "src_tycho_gingerich_voelkel1998",
+      "kind": "archive",
+      "title": "Owen Gingerich (Harvard-Smithsonian) and James R. Voelkel, 'Tycho Brahe's Copernican Campaign', Journal for the History of Astronomy 29 (1998), pp. 1-34, ADS scan -- INDEPENDENT, archival and openly critical study of Tycho's Mars-parallax programme, his contradictory claims about it and his priority dispute with Ursus, based on his observing logs and letters in the Opera omnia. Read the abstract, introduction and the 1582-1584 analysis (pp. 1-5), the 1590s decline and the evaluation and conclusion (pp. 28-29) and the notes (pp. 30-32); the intervening technical pp. 6-27 were not read.",
+      "url": "https://ui.adsabs.harvard.edu/abs/1998JHA....29....1G/abstract"
+    },
+    {
+      "id": "src_tycho_verbunt_vangent2010",
+      "kind": "archive",
+      "title": "Frank Verbunt (Utrecht) and Robert H. van Gent, 'Three editions of the Star Catalogue of Tycho Brahe', Astronomy & Astrophysics (2010), arXiv:1003.3836 -- independent modern comparison of the 1598 manuscript catalogue (1004 entries), Tycho's printed 777-star version (1602) and Kepler's 1627 edition against the Hipparcos Catalogue. Read the abstract, introduction and Sections 1-3 (description of the editions and method); the tables and per-constellation figures were not read.",
+      "url": "https://arxiv.org/abs/1003.3836"
+    },
+    {
+      "id": "src_tycho_brewster1841",
+      "kind": "biography",
+      "title": "Sir David Brewster, 'The Martyrs of Science: or, The Lives of Galileo, Tycho Brahe, and Kepler' (1841 and later editions), Internet Archive full text -- PARTISAN 19th-century hagiography that casts Tycho as a persecuted genius; used only as the opposite perspective to Dreyer and Moesgaard on his 1597 departure and on the dedication of the Mechanica to Rudolph II, never alone for a scored row. Read the Tycho chapter from the Danish court's turn against him to his reception at Prague.",
+      "url": "https://archive.org/details/martyrsofscience00brewrich"
+    },
+    {
+      "id": "src_tycho_graney2023",
+      "kind": "archive",
+      "title": "Christopher M. Graney (Vatican Observatory), 'Whence Tycho's Case against Copernicus? On Genesis, Augustine, and the Stars', arXiv:2312.09898 (2023) -- modern scholarly note on where Tycho's star-size objection to Copernicus came from. Read the abstract, introduction and the Genesis/Augustine/Aquinas/Calvin sections; not used for any scored row.",
+      "url": "https://arxiv.org/abs/2312.09898"
+    },
+    {
+      "id": "src_tycho_shm_skokloster",
+      "kind": "institution",
+      "title": "Statens historiska museer (SHM) collections record 'Malning, Portratt' (Skoklosters slott, inventory SKO 11593; photo Jens Mohr 2012) -- the holding institution's page: description 'Portratt av Tycho Brahe', licence statement that copyright in the work has expired and it is free to use (Public Domain Mark); also read the Wikimedia Commons file record that the museum contributed (date 1596, oil on canvas, 830 x 1020 mm, artist unknown, provenance Carl Gustaf Wrangel, PD-old-100-expired). Used for the portrait only.",
+      "url": "https://samlingar.shm.se/media/23223BAE-AD65-4932-BBC6-7AEEC3B7EB4D"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_tycho_dreyer1890, src_tycho_moesgaard_dbl, src_tycho_mactutor, src_tycho_gingerich_voelkel1998, src_tycho_verbunt_vangent2010 | 1563-1597 | critical biography + Danish national biography + encyclopedic summary of Thoren/Wesley + archival study + modern catalogue comparison] Dated instances of correcting for known instrument flaws: Moesgaard says his first real instrument in 1564 was imperfect but he computed a correction table so its readings could be used; Dreyer says that in 1572 he tabulated the sextant's eccentricity error, added a plumb-line correction arc, and left the sextant clamped between readings to check it had not shifted. In 1584 he sent an assistant to Frauenburg to re-measure Copernicus's latitude (Dreyer; Moesgaard). Moesgaard says he observed more often and more systematically than any predecessor and ordered results in protocols; MacTutor, quoting Wesley via Swerdlow, and Gingerich and Voelkel (citing Thoren) put his mature observations' errors at roughly 0.5-1 arcminute. Limits that keep the score below the 80s: Verbunt and van Gent find about 15 per cent of the 1598 catalogue entries wrong by more than 10 arcminutes, mostly in reduction or copying, and Dreyer says the stars added to reach about 1000 were observed hastily."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tycho_dreyer1890, src_tycho_moesgaard_dbl, src_tycho_gingerich_voelkel1998 | 1572-1589 | critical biography + Danish national biography + archival study] Dreyer describes three separate parallax tests of the 1572 star and 1577 comet (distance from fixed stars, altitude at culmination, the Regiomontanus method, comparison with distant observers' measures) all leading to the same conclusion, and says he re-examined the claim that comet tails point away from the Sun from twelve observations rather than taking it on trust. Moesgaard adds that his higher accuracy forced him to find and tabulate atmospheric refraction. Against this, Moesgaard notes he took the solar parallax of 3 arcminutes on authority, and Gingerich and Voelkel show his 1584-1589 statements about a Mars parallax contradict each other and rested on measurements that could not have detected it. Several careful tests, but with a documented lapse, so dual_edged and moderate."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_tycho_moesgaard_dbl, src_tycho_dreyer1890, src_tycho_mactutor | 1560-1588 | Danish national biography + critical biography + encyclopedic summary] Moesgaard says that as a self-taught student he read the standard planetary tables critically, found an error in Stadius's calculations, and concluded that only observation of the sky could settle conflicting learned books; Dreyer says that at sixteen he saw that only a long programme of observation could decide between the systems. After the 1572 star he let observation override the doctrine of an unchanging heaven, and by 1588 he rejected both the Ptolemaic and Copernican systems and published his own (Moesgaard: 'What do I, Tycho Brahe, see in the sky?' instead of 'what do Ptolemy and Copernicus see'). The same source adds the cost: he kept the axiom of circular motions throughout and used arguments from Aristotelian natural philosophy against the Earth's motion, so his independence did not reach the step Kepler took."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_tycho_dreyer1890, src_tycho_moesgaard_dbl, src_tycho_mactutor | 1562-1597 | critical biography + Danish national biography + encyclopedic summary] At Leipzig (1562-65) he studied astronomy at night and in secret against his tutor's orders and spent allowance money on instruments and books (Dreyer; Moesgaard). Moesgaard quotes Tycho saying that after several castle offers he chose Hven because on a separate island he would be free of visitors' disturbance and could work in peace, and that he refused offers that did not suit him; Dreyer records that he hesitated to print his first book because many nobles thought writing books beneath their rank. In 1597, when Christian IV would receive him only as a humble subject on terms the king set, he left Denmark with his instruments instead (Moesgaard). Several dated instances from independent sources; the same insistence on his own terms is part of what cost him Hven, hence dual_edged."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tycho_moesgaard_dbl, src_tycho_mactutor, src_tycho_dreyer1890, src_tycho_gingerich_voelkel1998 | 1576-1597 | Danish national biography + encyclopedic summary + critical biography + archival study] Moesgaard: from 14 December 1576 he made regular observations on Hven for about twenty years, observing more often and more according to plan than any earlier astronomer; MacTutor gives 15 March 1597 as the last recorded Hven observation, and Dreyer says a daily weather diary was kept from 1 October 1582 to April 1597 and that observing at Benatky stopped in June 1600 and resumed on 2 December 1600 in Prague. Gingerich and Voelkel describe a multi-year Mars programme from 1582 but also note that enthusiasm for it had waned by 1595 and that Tycho was often away from the island. Two independent accounts of a very long regular routine, with a documented slackening, give a solid but not top-band score."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tycho_gingerich_voelkel1998, src_tycho_moesgaard_dbl, src_tycho_mactutor | 1576-1595 | archival study + Danish national biography + encyclopedic summary of Thoren] Gingerich and Voelkel show that the 1582 Mars opposition began a sustained campaign that drove the building of new instruments and the study of refraction through the 1580s, with 'carefully planned observations'. Moesgaard says he observed 'according to a carefully laid plan for a new astronomical edifice built from the ground up', fixed the star positions first so that planetary work would rest on them, and in 1595 marked 1000 accurately determined stars on his great globe; MacTutor, quoting Thoren, says the instruments were built as series of experiments that can be traced in his logs. Several sources agree on a staged programme; the campaign's premise (a measurable Mars parallax) was mistaken, which does not change that it was planned."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_tycho_moesgaard_dbl, src_tycho_mactutor, src_tycho_gingerich_voelkel1998, src_tycho_dreyer1890 | 1569-1595 | Danish national biography + encyclopedic summary of Thoren + archival study + critical biography] Moesgaard: at Augsburg in 1569-70 he supervised a 19-foot quadrant and learned that finer reading on so clumsy an instrument gave only illusory accuracy; on Hven, once he knew an instrument's strengths and limits he used it as the model for a new one with other dimensions or material, and devised new sights and transversal divisions. MacTutor, quoting Thoren, says the construction of the instruments in the mid-1580s can be traced in his logs as several series of experiments; Gingerich and Voelkel cite his own statement that he remade most instruments more than once and show the same instrument being rebuilt as a different type. Four independent descriptions of iterative trial-and-rebuild across more than a decade."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tycho_moesgaard_dbl, src_tycho_dreyer1890, src_tycho_mactutor | 1578-1588 | Danish national biography + critical biography + encyclopedic summary] Moesgaard says he had been working on his own world system since 1578 and published it in 1588: Earth fixed at the centre with the Sun and Moon circling it and the five planets circling the Sun; Dreyer sets out the system and notes that his instrument improvements (new sights, transversal subdivision, sextants for distance) were described to Kassel and copied there. MacTutor adds that Reinhold had proposed a similar arrangement years earlier but that Rosen argues Tycho did not know of it, and Dreyer treats the question of whether Ursus had the idea first as unresolved. Moesgaard also credits the prosthaphaeresis method worked out jointly with Wittich. Several distinct novel contributions, but priority for the system is disputed, hence a moderate score."
+    },
+    "belief_updating": {
+      "score": 45,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tycho_gingerich_voelkel1998, src_tycho_moesgaard_dbl, src_tycho_dreyer1890 | 1584-1596 | archival study + Danish national biography + critical biography] Gingerich and Voelkel document that in 1584 he wrote that Mars showed no parallax, but in 1588 and 1589 told Peucer, Rothmann and Hagecius that the 1582 observations had shown it, pointing to the same data; that the claim could not have been measured with his instruments; that he later fell silent without retracting it; and that in 1596 he reprinted the 1588 letter in his Epistolae, which Michael Maestlin then inserted into Kepler's book. Moesgaard adds that he kept the principle of circular motion to the end and, to defend his system, used Aristotelian arguments against the Earth's motion that his own nova and comet work had undermined. In the other direction, Moesgaard says he gave up the Ptolemaic system on evidence and that until 1588 he still allowed that he might have to accept Copernicus. The mixed record (one clear instance of holding a claim against the evidence, one of dropping a doctrine for it) supports a below-middle score at moderate confidence; the sources leave open whether the 1588 claim was self-deception or deliberate."
+    },
+    "competitiveness": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_tycho_dreyer1890, src_tycho_gingerich_voelkel1998, src_tycho_moesgaard_dbl | 1580-1598 | critical biography + archival study + Danish national biography] Dreyer: when he learned in 1584-86 that Wittich had described his improved instruments at Kassel he suspected him of taking credit and wrote an indignant letter, though he later regretted it when he heard Wittich had died; in 1585 he printed a poem complaining that Rantzau had called Uraniborg a 'specula'; he accused Ursus of stealing his system and collected a notarised statement against him, which Dreyer says could not prove the charge and 'throws considerable light on his own character'. Gingerich and Voelkel judge that in his priority dispute with Ursus he stretched his claimed date for the system ('very nearly six years ago' in 1589 against 'five years' in the draft) and reprinted an old private claim about Mars to establish seniority. Dreyer also says the 1000-star manuscript was assembled in haste so as not to be 'inferior to Ptolemy with his 1028 stars'. Several dated episodes from critical sources; dual_edged because the priority anxiety also pushed him to publish."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tycho_dreyer1890, src_tycho_moesgaard_dbl, src_tycho_mactutor | 1578-1597 | critical biography + Danish national biography + encyclopedic summary] Dreyer: his heavy labour demands on the Hven tenants drew complaints and royal orders in 1578 and 1581 (he judges that Tycho was probably no worse than other nobles), and he printed open complaints against named dignitaries and against Ursus, whose attack he answered with notarised counter-evidence. Moesgaard says he largely evaded the obligations attached to his fiefs (the Roskilde prebend widow had to appeal to the king; the Kullen lighthouse duty was ignored) and that his arrogance built up ill will which he misjudged in 1597; MacTutor adds that a dispute over repairing the Roskilde chapel and the break-up of a marriage plan with the assistant Gellius caused a falling-out. He kept disputes going rather than settling them, and Dreyer says that at Benatky in 1600 he was in a running fight with the local official Muhlstein over money and building work. Several instances, but most are told by writers critical of him and the disputes were mostly about obligations and priority, so the score and confidence stay moderate."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tycho_moesgaard_dbl, src_tycho_dreyer1890, src_tycho_mactutor | 1576-1601 | Danish national biography + critical biography + encyclopedic summary] Moesgaard says he gathered assistants on Hven 'without petty regard' to nationality, rank or prior schooling, gave them a solid training (several became professors or bishops), and published his correspondence with the Kassel astronomers as technical treatises; with Wittich he developed prosthaphaeresis. Dreyer shows he brought Kepler into the Emperor's service as co-author of new tables and helped his household with money. On the other side, Dreyer records that Kepler's 1600 memorandum expected Tycho to refuse to let him copy the observations, his 'treasure', and that Tycho rarely discussed results at table, and he records Tycho's suspicion of Wittich and Ursus; MacTutor says his treatment of his student helpers became unreasonable in the 1590s. Mixed but clearly structured team-building, so a modest above-middle score."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tycho_dreyer1890, src_tycho_moesgaard_dbl, src_tycho_brewster1841 | 1584-1600 | critical biography + Danish national biography + partisan biography] Dreyer: on Hven he set up his own printing press (1584) and later a paper mill so that his books and calendars could be produced without outside printers. After he lost his income and left Hven he took the instruments, books and household abroad; at Wandsbeck in 1598 he had the Mechanica printed and 1000-star catalogues copied and sent them with letters to the Emperor, Prince Maurice of Orange, Magini, Kepler and others while writing to Hagecius and Rantzau to open doors; Moesgaard summarises this as the leading astronomer of Europe seeking a new employer, with the result an invitation from Rudolph II. Brewster tells the same sequence (including adapting the Mechanica to the Emperor's known interest in instruments) in a partisan voice. Documented across both periods; the Bohemian institution did not transplant well (Moesgaard), so not scored higher."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "티코 브라헤"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities call (2026-10-07) for Q36620 returned en label 'Tycho Brahe', description 'Danish astronomer and alchemist, 1546-1601', P569 14 Dec 1546 (and a year-precision value), P570 24 Oct 1601, citizenship Q756617 (Kingdom of Denmark), instance of human, ko label '티코 브라헤', occupations include astronomer (Q11063), P18 'Porträtt av Tycho Brahe - Skoklosters slott - 90153.tif'; matches the intended person. SLUG CHECK: not in scratch/prod_slugs.txt and no data-pipeline/candidates/tycho-brahe.json existed (only johannes-kepler.json, a different person). CLASSIFICATION: occupation astronomer; field natural_science only (the Kepler precedent adds mathematics and physics; for Tycho no physics claim is supported, and field.natural_science exists in en.ts); impactDomains scientific and technological (instrument design); archetype scientific_explorer; tags detail_oriented, systematic_thinker, innovator (all exist in en.ts). ERA early_modern, nationality DK, region western_europe (by origin; Nordic precedent; his later work in Prague does not change the region). EVIDENCE READ: 7 substantive records plus Wikidata for orientation: Dreyer 1890 (Chapters II, III, VI, VII, X, XI read; others skimmed or unread); Moesgaard's Dansk Biografisk Leksikon article (full, in Danish); MacTutor biography (full except the death passage, unused); Gingerich and Voelkel 1998 (ADS scan read as page images: pp. 1-5, 28-32); Verbunt and van Gent 2010 (sections 1-3); Brewster 1841 (Tycho chapter from the Danish court's turn to Prague); Graney 2023 (Genesis/Augustine sections; not used for rows); SHM/Skokloster record and Commons file record for the portrait. PERSPECTIVES: (1) SELF: Tycho's own letters and books are known only as quoted by Dreyer, Moesgaard and Gingerich and Voelkel (never used alone for a row); (2) KEPLER'S view: only via Dreyer and Gingerich and Voelkel (his 1600 memorandum, his examination of the 1582 Mars data); Kepler's own texts were not opened; (3) CRITICAL ARCHIVAL: Gingerich and Voelkel (his Mars claims and Ursus priority tactics), Dreyer (temper, tenants, hasty extra stars, Ursus 'throws considerable light on his own character'), Moesgaard (arrogance, evaded fief duties, misjudged the king); (4) MODERN QUANTITATIVE: Verbunt and van Gent, MacTutor's quoting of Wesley and Swerdlow; (5) PARTISAN: Brewster (persecuted genius; opposite perspective only); Ursus's side is known only through Dreyer's summary. NON-SELF BEHAVIOURAL sources: Dreyer, Moesgaard, MacTutor, Gingerich and Voelkel. NOT ACCESSIBLE / NOT READ: Thoren, The Lord of Uraniborg (1990); Christianson, On Tycho's Island (2000; Internet Archive lending copy only); Gassendi's 1654 life (partisan, not opened); Norlind, Gade and Ferguson biographies; Tycho's Mechanica and Opera omnia themselves; Dreyer Chapters IV, V, VIII, IX and XII were not read in full. EPISODE USE: 1563-1572 observing habits and instrument corrections -> detail_orientation, analytical_rigor; Leipzig secret study, Hven choice, 1597 departure -> autonomy_need; reading the tables critically and the 1588 system -> independent_thinking; Hven regular observing -> discipline and planning_orientation; instrument rebuilding -> experimentation; Tychonic system and instrument features -> creative_originality; Mars-parallax claims and circular-motion axiom -> belief_updating; Wittich, Rantzau 'specula', Ursus, the hasty 1000-star catalogue -> competitiveness; tenant orders, fief duties, Gellius and chapel disputes -> conflict_tolerance; assistants, Wittich formulas, Kepler's recruitment versus guarded data -> collaboration; press, paper mill, 1598 campaign for a patron -> resourcefulness. ROWS CONSIDERED AND LEFT UNSCORED: curiosity, mastery_orientation, achievement_drive, impact_motivation (would rest on output and outcomes), persistence (overlaps discipline and experimentation), perfectionism (the sources show correction practice but also hasty additions), aesthetic_sensitivity (Uraniborg's design and his poetry are documented, but no source treats them as behaviour about taste; left out rather than padded), risk_tolerance and decisiveness (the 1597 'high stakes' remark is one writer's judgment), leadership_drive, social_assertiveness (overlaps competitiveness and conflict_tolerance), adaptability (the move to Bohemia is documented but the sources call the transplant disappointing). EXCLUDED ON PURPOSE: the death story and any mercury or bladder speculation, the 1566 duel and nose injury, his unmarried partnership, family and private life, alchemy and astrology as a measure of belief, the Danish court rivalries as politics, and noble rank and the Order of the Elephant as status (not behaviour). CONFLICTS REPORTED, NOT ADJUDICATED: (a) priority for the geo-heliocentric system against Ursus (and Reinhold): Dreyer says it could not be proved either way, Gingerich and Voelkel suggest Tycho back-dated; (b) whether the 1588 Mars-parallax claim was self-deception or deliberate: Gingerich and Voelkel leave it open; (c) Brewster's account of a plot by Danish ministers versus Moesgaard's and Dreyer's accounts that Tycho misjudged the king and neglected duties. PORTRAIT: the Wikidata P18 image, an oil painting inscribed with Tycho's age as 50 (dated 1596 by the museum), unknown artist, Skokloster Castle (SHM inventory SKO 11593), provenance Carl Gustaf Wrangel; the SHM collections page carries a Public Domain Mark and the Commons file is tagged PD-old-100-expired. The Moesgaard iconography section says the 1596 type is mostly known from de Gheyn's 1596 engraving and many painted copies including one at Skokloster, so this painting is classified historical_depiction (a painting of the 1596 type, not shown to be from life). Original TIFF 3253x4007 downscaled to 1299x1600 (JPEG q85, long edge 1600, no upscaling); viewed and verified. KOREAN NAME: the Wikidata ko label, 티코 브라헤. No eligibility, coverage or match output was used in scoring; scores and confidences were fixed before the validator was run."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/tycho-brahe-unknown-1596.jpg",
+    "width": 1299,
+    "height": 1600,
+    "source": "Skoklosters slott (Statens historiska museer), inventory SKO 11593, oil on canvas, inscribed as painted when Tycho was 50 (1596); via Wikimedia Commons file 'Portratt av Tycho Brahe - Skoklosters slott - 90153.tif'",
+    "license": "Public domain (artist unknown; work more than 100 years old; Public Domain Mark per the museum)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Portrait of Tycho Brahe, unknown artist, dated 1596, Skokloster Castle (SHM, SKO 11593); photograph Jens Mohr 2012/2013, Statens historiska museer, public domain",
+    "attributionUrl": "https://samlingar.shm.se/media/23223BAE-AD65-4932-BBC6-7AEEC3B7EB4D",
+    "creator": "Unknown artist",
+    "date": "1596 (as dated by the museum; inscription gives his age as 50 completed)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif"
+  }
+}

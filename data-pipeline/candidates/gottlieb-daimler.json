@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gottlieb-daimler",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Gottlieb Daimler",
+    "aliases": ["Gottlieb Wilhelm Daimler", "Gottlieb Däumler"],
+    "wikidataId": "Q57098",
+    "birthYear": 1834,
+    "deathYear": 1900,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["DE"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["engineer", "inventor", "entrepreneur"],
+    "fieldIds": ["engineering", "technology", "business"],
+    "impactDomains": ["technological", "engineering", "industrial", "innovation", "entrepreneurial"],
+    "tagIds": ["innovator", "founder"],
+    "archetypeIds": ["technical_innovator", "entrepreneurial_builder"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_daimler_wikidata",
+      "kind": "wikidata",
+      "title": "Gottlieb Daimler (Q57098) -- identity verified live through the Wikidata API (wbgetentities, 2026-10-07): en label 'Gottlieb Daimler', en description 'German engineer and industrialist (1834-1900)', ko label '고틀리프 다임러', born 1834-03-17 (Schorndorf), died 1900-03-06, citizenship Germany, P18 'Gottlieb Daimler 1890s2.jpg'; kowiki sitelink '고틀리프 다임러'. Orientation only (its 'manner of death' statement is not used anywhere in this profile).",
+      "url": "https://www.wikidata.org/wiki/Q57098"
+    },
+    {
+      "id": "src_daimler_ndb_1957",
+      "kind": "biography",
+      "title": "Friedrich Schildberger, 'Daimler, Gottlieb Wilhelm', Neue Deutsche Biographie 3 (1957), pp. 485-487, deutsche-biographie.de -- read in full (training, Deutz 1872-82, the aim of a small fast petrol engine, patents from 1883, the 1885-86 vehicle and boat installations, DMG founded 28 Nov. 1890, Paris-Rouen 1894). INDEPENDENT SCHOLARLY biographical dictionary entry (non-self); relies on the 1930s-50s German biographies listed in its bibliography, some of them admiring.",
+      "url": "https://www.deutsche-biographie.de/sfz69617.html"
+    },
+    {
+      "id": "src_daimler_ndb_maybach_1990",
+      "kind": "biography",
+      "title": "Hans Christoph Graf von Seherr-Thoss, 'Maybach, Wilhelm', Neue Deutsche Biographie 16 (1990), pp. 523-525, deutsche-biographie.de -- read in full for the Daimler partnership (Reutlingen 1865, Karlsruhe 1869, Deutz 1872, Cannstatt 1882, the 1891-95 separation from the DMG, the Hotel Hermann workshop, the 1895 reunion, the 30,000 Mark share promised in 1882). INDEPENDENT scholarly entry written from Maybach's side (non-self; credits Maybach with most of the design work).",
+      "url": "https://www.deutsche-biographie.de/sfz70664.html"
+    },
+    {
+      "id": "src_daimler_mb_classic",
+      "kind": "institution",
+      "title": "Mercedes-Benz Classic M@RS public archive, 'Gottlieb Daimler' biography (Mercedes-Benz Group, accessed 2026-10-07) -- read in full: the most detailed dated chronology available (Deutz, 1882 departure, the 1883 patents, Reitwagen, 1886 carriage and boat, 1887 factory, the 1888 Daimler Motor Company with William Steinway, 1889 Panhard & Levassor licence, DMG 1890, 1894 forced share sale, 1895 return on Simms's condition). CORPORATE successor-company perspective (not independent; it states openly that the shares of credit between Daimler and Maybach cannot be settled by research).",
+      "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/Gottlieb-Daimler.xhtml?oid=579"
+    },
+    {
+      "id": "src_daimler_dpma_maybach",
+      "kind": "institution",
+      "title": "Deutsches Patent- und Markenamt (DPMA), 'Wilhelm Maybach - The father of the modern automobile', Milestones/Automobiles: The beginnings (German Patent and Trademark Office), read in full, with the patent numbers DE28022, DE34926 and DE36423. GOVERNMENT PATENT-OFFICE perspective (non-self; describes who designed and who filed).",
+      "url": "https://www.dpma.de/english/our_office/publications/milestones/automobiles/maybach/index.html"
+    },
+    {
+      "id": "src_daimler_benz_memoir",
+      "kind": "biography",
+      "title": "Carl Benz, Lebensfahrt eines deutschen Erfinders (Leipzig: Koehler & Amelang, 1925; Zeno.org text of the 1936 edition), chapters 'Die Automobil-Erfinder' and 'Gedenke, dass du ein Deutscher bist', read in full. RIVAL SELF SOURCE (Benz about Daimler, never met him; defends Benz's own priority; used only for the Panhard & Levassor licence of 1889 and for the independence of the two developments, with the contested priority claims not adjudicated).",
+      "url": "http://www.zeno.org/Naturwissenschaften/M/Benz,+Carl+Friedrich/Lebensfahrt+eines+deutschen+Erfinders/Die+Automobil-%C2%BBErfinder%C2%AB"
+    },
+    {
+      "id": "src_daimler_steinway_diary",
+      "kind": "archive",
+      "title": "The William Steinway Diary 1861-1896 (Smithsonian Institution, National Museum of American History, Archives Center), entries of 22 and 26 Aug. 1888, 6 Aug. 1890 and 11 Nov. 1894, plus the editors' annotation 'Daimler Motoren Gesellschaft' -- read. CONTEMPORARY PRIVATE DIARY of Daimler's American business partner (independent, firsthand but brief; no motive is read from it).",
+      "url": "https://americanhistory.si.edu/steinwaydiary/annotations/?id=844&popup=1"
+    },
+    {
+      "id": "src_daimler_gartenlaube_1888",
+      "kind": "press",
+      "title": "'Ein neuer Motor', Die Gartenlaube (Leipzig), Heft 9, 1888, p. 148 (Wikisource transcription, proofread) -- read in full: contemporary magazine report on the Cannstatt petroleum motor in a narrow-gauge rail car, rail trial runs, draisines and boats on the Neckar, at Baden-Baden, on Lake Constance and at Berlin. CONTEMPORARY PRESS perspective (non-self; unsigned and uncritical).",
+      "url": "https://de.wikisource.org/wiki/Ein_neuer_Motor"
+    },
+    {
+      "id": "src_daimler_weeks_1904",
+      "kind": "biography",
+      "title": "Lyman Horace Weeks, Automobile Biographies (New York: The Monograph Press, 1904), pp. 95-98 and the portrait plate, Internet Archive OCR and scans (University of California copy) -- read. CONTEMPORARY AMERICAN reference book (non-self; technical, partly erroneous: it gives 1899 as the year of death, so no date from it is used without a second source).",
+      "url": "https://archive.org/details/automobilebiogra00weekrich"
+    },
+    {
+      "id": "src_daimler_lemo",
+      "kind": "institution",
+      "title": "Susanne Eckelmann, 'Gottlieb Daimler 1834-1900', LeMO Lebendiges Museum Online, Deutsches Historisches Museum (2014) -- read in full as a dated chronology; it records that Daimler 'actually wanted to concentrate on developing and selling engines' and had Maybach build the vehicles. INSTITUTIONAL museum perspective (non-self; summary level).",
+      "url": "https://www.dhm.de/lemo/biografie/gottlieb-daimler"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_daimler_mb_classic, src_daimler_gartenlaube_1888, src_daimler_ndb_maybach_1990, src_daimler_dpma_maybach | 1882-87; 1891-94 | corporate + contemporary press + scholarly + patent office] After leaving Deutz in 1882 Daimler bought a villa in Cannstatt and fitted a workshop in its greenhouse for a small high-speed engine; the hot-tube patent followed in Dec. 1883, the 'grandfather clock' engine in 1885, the carriage and boat in 1886 and a factory with 23 workers in 1887 (Mercedes-Benz Classic), by which time the engine was being tried repeatedly in rail cars, draisines and boats before officials (Gartenlaube 1888). The same archive notes the public 'hardly took any notice' of his road vehicles, yet work continued. Second, separate episode: after Maybach left the DMG in 1891 Daimler had him continue designing, first at home and from 1892 in the rented Hotel Hermann (Seherr-Thoss, NDB; DPMA says Daimler financed it), while he was still inside the quarrelling company. Outcomes are not scored; the continuation through indifference and a board dispute is."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_daimler_ndb_maybach_1990, src_daimler_mb_classic, src_daimler_dpma_maybach | 1865-95 | scholarly (Maybach side) + corporate + patent office] From Reutlingen (1865) Daimler worked with Wilhelm Maybach at every later post; at Deutz he insisted on having Maybach with him and at Cannstatt he gave him an employment contract in April 1882 (Mercedes-Benz Classic) and promised him a 30,000 Mark share holding, which Maybach received only in 1895 (NDB Maybach). When Maybach left the DMG in 1891 Daimler kept him working and paying the Hotel Hermann workshop (NDB Maybach, DPMA); in 1895 Maybach declined to return to the DMG without Daimler (Mercedes-Benz Classic). Counterweight: Daimler filed the patents under his own name (DPMA), and the same corporate chronology says the credit between the two cannot be divided. The lean is moderate and rests on the partnership's documented structure rather than on any personal testimony."
+    },
+    "experimentation": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_daimler_mb_classic, src_daimler_gartenlaube_1888, src_daimler_ndb_1957, src_daimler_weeks_1904 | 1883-88 | corporate + contemporary press + scholarly + contemporary reference] The development ran as a series of builds and trials: a first horizontal test engine already running when the 1883 patents were filed, the vertical 'grandfather clock' of 1884-85, a carburettor patented in 1886, then the same engine put into a two-wheeler (tried at Cannstatt on 10 Nov. 1885 per Weeks), a carriage, a boat on the Neckar, a rail car, draisines and, per NDB, a Wolfert airship. The Gartenlaube (1888) shows the trials being repeated in different places and before different official audiences. How much of the hands-on design was Daimler's and how much Maybach's cannot be settled (Mercedes-Benz Classic), hence only a moderate score."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_daimler_mb_classic, src_daimler_steinway_diary, src_daimler_benz_memoir, src_daimler_weeks_1904 | 1888-95 | corporate + diary partner + rival + contemporary reference] With German interest in motor vehicles low, Daimler placed the engine through foreign licences: the Daimler Motor Company with William Steinway (Steinway's diary of 22 Aug. 1888 records a long talk with Daimler in Stuttgart; in Aug. 1890 Daimler found Steinway at his spa stay at Tepl (Bohemia) and kept him a whole day), the Panhard & Levassor licence of 1889 (Mercedes-Benz Classic; Benz, a rival, and Weeks both record the French take-up), and the British rights sold on Simms's offer in 1895. Mercedes-Benz Classic calls the licence income 'of vital importance' and links it to contacts from his Deutz years. Who approached whom is not clear in every case, so the row is moderate; the pattern across three countries is the evidence."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_daimler_ndb_1957, src_daimler_mb_classic, src_daimler_weeks_1904, src_daimler_benz_memoir | 1872-86 | scholarly + corporate + contemporary reference + rival] NDB describes the aim, set against the large, slow, stationary gas engines of the time, of a small, light, fast petrol engine for vehicles of every kind; Mercedes-Benz Classic records that he left Deutz in 1882 to pursue it with Maybach, and Weeks that he severed the Deutz connection for that purpose. Benz, who never met him, stresses that the two men's first vehicles used different engines, ignition, cooling and layout, each developed independently. Counterweight: the departure from Deutz is described as the outcome of a personal rift with Otto as much as of a technical choice, and the engine builds on Otto's four-stroke patent; moderate."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gottlieb-daimler-weeks-1904.jpg",
+    "width": 1244,
+    "height": 1600,
+    "source": "Portrait plate 'Gottlieb Daimler' in Lyman Horace Weeks, Automobile Biographies (New York: The Monograph Press, 1904), facing p. 96; Internet Archive scan automobilebiogra00weekrich (University of California Libraries copy, status NOT_IN_COPYRIGHT)",
+    "license": "Public domain (halftone reproduction of a photograph, published in the United States in 1904; photographer not named in the book)",
+    "attribution": "Photographer not named; portrait of Gottlieb Daimler, plate in Weeks, Automobile Biographies, New York 1904 (Internet Archive scan); public domain; cropped to the picture area and downscaled",
+    "attributionUrl": "https://archive.org/details/automobilebiogra00weekrich",
+    "creator": "Unknown photographer",
+    "date": "published 1904 (photograph taken before 1900)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/automobilebiogra00weekrich"
+  },
+  "provenance": {
+    "createdAt": "2026-10-07T00:00:00Z",
+    "updatedAt": "2026-10-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Wikidata QID Q57098 verified live (wbgetentities, 2026-10-07): en label 'Gottlieb Daimler', en description 'German engineer and industrialist (1834-1900)', ko label '고틀리프 다임러', born 1834-03-17, died 1900-03-06, kowiki sitelink used for displayNames ko-KR. Slug check: gottlieb-daimler not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION PRECEDENT: era 19th_century, regionCode western_europe, nationalityCodes DE follow karl-benz and rudolf-diesel; occupations engineer/inventor/entrepreneur as karl-benz; fields engineering, technology, business all have field.* i18n keys; impact domains and archetypes follow karl-benz; tags innovator and founder (no new ids). EVIDENCE READ (9 substantive records, all downloaded to scratch/work/gottlieb-daimler/ and read locally): NDB 3 (1957) Daimler; NDB 16 (1990) Maybach; Mercedes-Benz Classic M@RS Daimler biography; DPMA Maybach milestone page; Benz memoir chapters (Zeno.org); William Steinway diary entries and annotation (Smithsonian); Die Gartenlaube 1888 'Ein neuer Motor'; Weeks, Automobile Biographies (1904) pp. 95-98; LeMO biography. Also opened but not used for rows: ASME web article (popular, uncited, repeats an unsourced story that Daimler secretly diverted DMG funds to Maybach and that patents were registered in Maybach's name; not used), maybach.org visit report (foundation page, used only as corroboration of the greenhouse workshop in the editorial draft), ERIH Maybach page, German Wikipedia pages (orientation). INDEPENDENT PERSPECTIVES: (1) Benz, a rival writing in 1925 (self source for Benz, adversarial on priority); (2) William Steinway, contemporary business partner (diary); (3) Die Gartenlaube, contemporary press (1888); (4) Weeks, contemporary American reference (1904); (5) NDB scholars Schildberger and Seherr-Thoss (the latter from Maybach's side); (6) DPMA, government patent office; (7) Mercedes-Benz Classic, corporate successor (not independent); (8) LeMO museum. NON-SELF behavioural sources: Steinway diary, Gartenlaube, NDB Maybach, DPMA. NOT ACCESSED: Daimler's own letters and patents texts (DRP 28022 etc.) were not read directly; Sass, Geschichte des Deutschen Verbrennungsmotorenbaues (1962) chapter on Deutz 1876-82 is paywalled (Springer preview of the abstract only, which says Daimler's conduct made cooperation untenable; abstract not used as a source); Siebertz (1939, 1950), Ehmer, Hegele, Matschoss, Krauss in Biographisches Jahrbuch V, Kraus on Duttenhofer (2014), Bryant and Nixon not accessible. KNOWN LIMITS: no modern scholarly biography was read; the sequence of the DMG dispute rests mainly on the corporate chronology plus Maybach's NDB entry and one diary line; dates for Daimler's 1893/94 exit differ across web sources (Mercedes-Benz Classic and the Steinway diary agree on autumn 1894, used here); the division of design credit between Daimler and Maybach is explicitly unresolved in the corporate source and is not adjudicated; priority claims over Benz are not scored. EPISODE USE (no episode supports more than two rows): 1882-87 Cannstatt workshop and factory -> persistence; 1891-95 Maybach financed through the DMG dispute -> persistence, collaboration; 1865-82 Maybach followed to Karlsruhe/Deutz/Cannstatt and 30,000 Mark promise -> collaboration; 1883-88 build and trial series -> experimentation; 1888-95 foreign licences -> opportunity_sensing; 1872-86 small fast engine aim versus stationary engines -> independent_thinking. ROWS CONSIDERED AND LEFT UNSCORED: conflict_tolerance and adaptability (the Otto rift and the 1894 forced share sale are documented but the sources do not show how he behaved, only that he lost; used as editorial facts only), risk_tolerance and resourcefulness (rest on a single corporate chronology), persuasiveness, leadership_drive, detail_orientation, systems_abstraction (no independent behavioural evidence), and everything else. EXCLUDED ON PURPOSE: health, heart treatment, death and its cause (a Wikidata statement on manner of death is not used anywhere), family life and marriages, finances and the Deutz settlement as personality evidence, fame, the 'father of the automobile' label, number of engines or vehicles, patent counts, the later Mercedes brand and sales (after his death, Maybach's work), and any political or military use of engines. Confidences are at or below 0.6 and no row is above 70. PORTRAIT: Wikidata P18 'Gottlieb Daimler 1890s2.jpg' (2519x3148) rejected: Commons gives only Getty Images (caption: 'Photo by Mondadori via Getty Images', 1890s) and press-kit web pages as sources, author 'unknown' and a PD-anon-70-EU tag with no first-publication evidence, so the rights chain does not reach any original publication. 'Gottlieb Daimler by Rudolf Duhrkoop' files (Commons user uploads, CC BY-SA on a photo of a print) rejected: the pictured man does not resemble other portraits of Daimler and identification is unsupported. Chosen: the portrait plate captioned 'GOTTLIEB DAIMLER' in Weeks, Automobile Biographies (New York 1904), facing p. 96, a halftone published in the United States in 1904 (public domain as a pre-1931 publication; Internet Archive status NOT_IN_COPYRIGHT; scan contributed by University of California Libraries). Downloaded the 2488x3932 page scan from archive.org, cropped to the picture area (excluding the library perforation stamp), downscaled to 1244x1600 (JPEG q85); the saved file was opened and viewed and shows a bald, bearded older man seated in three-quarter view. The photographer is not named in the book; no upstream institution page claims rights. kind 'likeness' (reproduction of a photograph from life). Caveat: halftone screen and slight yellow cast from the scan. No eligibility, coverage or match output was used in scoring. PUBLICATION DECISION: evidence_approved (sparse but honest; >=2 independent perspectives incl. a rival and a contemporary business partner; >=1 substantive non-self behavioural source; rights-verified portrait)."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "고틀리프 다임러"
+    }
+  }
+}
