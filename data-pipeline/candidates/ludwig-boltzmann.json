@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ludwig-boltzmann",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ludwig Boltzmann",
+    "wikidataId": "Q84296",
+    "birthYear": 1844,
+    "deathYear": 1906,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "AT"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "theorist",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_boltzmann_wikidata",
+      "kind": "wikidata",
+      "title": "Ludwig Boltzmann (Q84296) -- verified live via wbgetentities (2026-10-09): en label 'Ludwig Boltzmann', description 'Austrian physicist and philosopher (1844-1906)', born 20 Feb 1844, died 5 Sep 1906, citizenship Austria, ko label '루트비히 볼츠만'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q84296"
+    },
+    {
+      "id": "src_boltzmann_hoeflechner",
+      "kind": "institution",
+      "title": "Walter Hoeflechner (historian, University of Graz), 'Ludwig Boltzmann - Persoenlichkeit, Karriere, Bedeutung', lecture for the centenary of Boltzmann's death (2006), PDF from the University of Graz history-of-science pages -- INDEPENDENT, CRITICAL historian's overview (in German) that distances itself from the anecdotes and from Broda's biography; used for the career, the Heidelberg/Berlin, Luebeck and Zermelo episodes, the 1902 philosophy lectures and the list of works. Read in full (the passages on illness were read but are not used as trait evidence).",
+      "url": "https://static.uni-graz.at/fileadmin/Wissenschaftsgeschichte/LB_OEGW.pdf"
+    },
+    {
+      "id": "src_boltzmann_sep_uffink",
+      "kind": "archive",
+      "title": "Jos Uffink (philosopher of physics), 'Boltzmann's Work in Statistical Physics', Stanford Encyclopedia of Philosophy (first published 2004, revised 2024) -- INDEPENDENT, CRITICAL scholarly survey: separates the myth of a neglected Boltzmann from the record, describes his polemics (including sarcastic replies to Zermelo and Ostwald) and the 1872 and 1877 papers, and notes that his papers often hide changes of approach. Read sections 1-3 and 5.3 and the overview of periods in full; the technical sections were skimmed.",
+      "url": "https://plato.stanford.edu/entries/statphys-Boltzmann/"
+    },
+    {
+      "id": "src_boltzmann_royalsociety_obit",
+      "kind": "archive",
+      "title": "Royal Society obituary notice 'Ludwig Boltzmann. 1844-1906' (Obituary Notices of Fellows deceased, c. 1907), PDF scan hosted by MacTutor -- CONTEMPORARY British scientific assessment of his work on the second law, the minimum theorem and the probability method, and of his 1894 Oxford visit (some biographical details, such as the Leipzig date, are wrong; the OCR of the last paragraphs is damaged and was not used). Read the legible parts.",
+      "url": "https://mathshistory.st-andrews.ac.uk/RS/boltzmann_rs.pdf"
+    },
+    {
+      "id": "src_boltzmann_populaere1905",
+      "kind": "archive",
+      "title": "Ludwig Boltzmann, 'Populaere Schriften' (J. A. Barth, Leipzig, 1905), Internet Archive scan of the Google copy -- SELF source (published essays and lectures). Read in German: 'Ueber die Unentbehrlichkeit der Atomistik in der Naturwissenschaft' (Annalen der Physik, 1897), the contents list, and the lecture 'Ueber eine These Schopenhauers' (Vienna, 21 January 1905); other essays were located but not read.",
+      "url": "https://archive.org/details/populreschrifte00boltgoog"
+    },
+    {
+      "id": "src_boltzmann_gastheorie1896",
+      "kind": "archive",
+      "title": "Ludwig Boltzmann, 'Vorlesungen ueber Gastheorie' vol. 1 (J. A. Barth, Leipzig, 1896), preface, Internet Archive scan -- SELF source: why he wrote the book and what he learned from the Oxford meeting of the British Association and the letters in Nature. Only the preface was read.",
+      "url": "https://archive.org/details/vorlesungenber01bolt"
+    },
+    {
+      "id": "src_boltzmann_eldorado1992",
+      "kind": "press",
+      "title": "Ludwig Boltzmann, 'A German Professor's Trip to El Dorado' (1905 essay, abridged and translated by Bertram Schwarzschild), Physics Today, January 1992, pp. 44-51 -- SELF source (first-person travel essay on his 1905 Berkeley summer session) in an abridged translation with an editor's introduction (the introduction's speculation about his death was not used). Read in full.",
+      "url": "https://aip.brightspotcdn.com/PTO.v45.i1.44_1.online.pdf"
+    },
+    {
+      "id": "src_boltzmann_flamm1997",
+      "kind": "archive",
+      "title": "Dieter Flamm (University of Vienna, Boltzmann's grandson), 'Ludwig Boltzmann - A Pioneer of Modern Physics', arXiv:physics/9710007 (1997) -- FAMILY and ADMIRING perspective: states the statistical interpretation of the second law, the exchange with Planck and Ostwald's report of the 1891 Halle remark on atomic energy. Read in full.",
+      "url": "https://arxiv.org/abs/physics/9710007"
+    },
+    {
+      "id": "src_boltzmann_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Ludwig Boltzmann', MacTutor History of Mathematics archive (1998) -- short compiled biography; quotes Sommerfeld's eyewitness account of the 1895 Luebeck debate; used for dates of chairs and that quotation only (its passages on mood and death are not used). Read in full.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Boltzmann/"
+    },
+    {
+      "id": "src_boltzmann_sime2016",
+      "kind": "institution",
+      "title": "Ruth Lewin Sime, introduction to Lise Meitner's talk 'Looking Back' (Max Planck Research Library, 2016) -- NON-self perspective on Meitner's memory of Boltzmann as the brilliant teacher who inspired her to pursue physics; secondhand and brief. Read the relevant paragraphs; Meitner's own 1964 text was not available.",
+      "url": "https://www.mprl-series.mpg.de/proceedings/9/13/index.html"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_boltzmann_flamm1997, src_boltzmann_sep_uffink, src_boltzmann_hoeflechner, src_boltzmann_populaere1905 | 1866-1899 | grandson's essay + critical philosophical survey + critical historian + self] Flamm and Uffink describe his 1877 statistical reading of the second law, which put probability into a fundamental law at a time when the physics community expected strictly deterministic laws. Hoeflechner records that at Heidelberg and Berlin in 1870-71 he pointed out errors to Kirchhoff and Helmholtz at their first meeting, and that he held to atomism against the phenomenalism of Mach and the energetics of Ostwald. In his own 1897 essay he refuses to treat either atomism or phenomenology as dogma. Several dated instances, two of them from non-admiring sources; not scored higher because the atomistic picture was shared by many chemists and some physicists, and Flamm is partisan."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_boltzmann_hoeflechner, src_boltzmann_sep_uffink, src_boltzmann_royalsociety_obit | 1866-1898 | critical historian + critical philosophical survey + contemporary obituary] Hoeflechner reports that he calculated the Poincare recurrence time for one cubic centimetre of gas as about 10 to the power 10^19 seconds, to answer Zermelo, and that he restated the second law as a statement of probability in 1895. The Royal Society notice calls the minimum theorem a remarkable contribution. Uffink, however, notes that his papers are often long, that assumptions and changes of approach are sometimes tucked away, and that even Maxwell complained of his longwindedness; the Ehrenfests, Klein and Truesdell found his work not always clear. dual_edged: demonstrable quantitative rigour in the replies to objections, paired with unclear exposition of assumptions."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_boltzmann_sep_uffink, src_boltzmann_flamm1997, src_boltzmann_populaere1905 | 1872-1897 | critical philosophical survey + grandson + self] Uffink describes the 1877 combinatorial argument in which a macrostate is weighted by the phase-space volume of the microstates that realise it, and equilibrium becomes the most probable macrostate; Flamm gives the same account and the link S = k log W in Planck's notation (Uffink adds that Boltzmann himself never wrote that formula). In 1897 he described both atomism and differential-equation physics as 'pictures' of the facts, to be judged by usefulness. A structural link between levels of description, documented in his own text and by a critical commentator."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_boltzmann_sep_uffink, src_boltzmann_royalsociety_obit, src_boltzmann_mactutor | 1866-1884 | critical survey + contemporary obituary + compiled biography] After Loschmidt's 1876 objection he did not defend the 1872 argument but produced a conceptually different one in 1877 (Uffink); the Royal Society notice credits the use of the probability function and its relation to entropy; MacTutor adds the 1884 derivation of Stefan's radiation law from thermodynamics. Original contributions are documented through the papers themselves; not scored higher because the same source warns that priority and the degree of novelty relative to Maxwell and Gibbs are contested, and the score rests on method rather than on fame."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_boltzmann_sep_uffink, src_boltzmann_gastheorie1896, src_boltzmann_populaere1905, src_boltzmann_hoeflechner | 1876-1897 | critical survey + self + historian] Uffink says Loschmidt's 1876 objection made him rethink the basis of his approach and produce the 1877 argument; in the preface to the Lectures on Gas Theory he says the discussions at the 1894 Oxford meeting and the letters in Nature had great influence on the content and presentation; in 1897 he notes that Mach's writings helped to clarify his own world view. Hoeflechner quotes his 1895 restatement that his theorem and the second law are only statements of probability. Not scored higher because he did not give up the atomic picture and Uffink says his replies to Zermelo were sarcastic."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_boltzmann_sep_uffink, src_boltzmann_hoeflechner, src_boltzmann_mactutor, src_boltzmann_populaere1905 | 1870-1905 | critical survey + critical historian + eyewitness quotation + self] Uffink states that in many disputes he took the initiative with a polemic (Clausius, Tait, Planck, Bertrand, Zermelo, Ostwald, Schopenhauer) and that he enjoyed polemics and sharp language. Hoeflechner records that he wrote to Ostwald in June 1895 that he meant to provoke a debate like those of the British Association at Luebeck, and quotes Sommerfeld's picture of Boltzmann as the bull against Ostwald's torero; Mach called him unbelievably naive and without a sense of measure for what is permissible. His own 1905 lecture announces a parody title of the kind of insult found in Schopenhauer. dual_edged: willingness to enter public disputes helped defend gas theory, while the tone of some replies drew criticism from Mach and from Uffink."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_boltzmann_mactutor, src_boltzmann_hoeflechner, src_boltzmann_sime2016, src_boltzmann_sep_uffink | 1895-1903 | eyewitness quotation + historian + student's memory + critical survey] Sommerfeld, who was at Luebeck in 1895, wrote that Boltzmann's arguments carried the day against Ostwald and that the young mathematicians were on Boltzmann's side; Hoeflechner and MacTutor note his philosophy lectures drew public attention from 1903; Sime reports that Meitner remembered him as a brilliant teacher who inspired her; Uffink praises his popular writing as witty and a delight to read. Mach and Klein thought otherwise about his tone and his atomism, and the Sommerfeld verdict is a single recollection, hence moderate score and confidence."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_boltzmann_hoeflechner | 1873-1874 | critical historian, citing Mach and Ettingshausen's 1906 memorial speech] Hoeflechner reports seven delicate experiments on dielectrics, mostly carried out in an unheated top-floor room in Graz, with which he tested predictions of Maxwell's electromagnetic theory; Mach judged him a scarcely surpassable experimenter, and in spring 1874 Boltzmann believed he had proved Maxwell's theory experimentally, twelve years before Hertz. A single historian is the source for the detail, so confidence is moderate."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_boltzmann_hoeflechner, src_boltzmann_royalsociety_obit, src_boltzmann_sep_uffink | 1866-1905 | historian + contemporary obituary + critical survey] The record covers kinetic theory, electromagnetism (experiments and lectures on Maxwell's theory), mechanics, radiation, and from 1902 philosophy lectures taken over from Mach; in 1905 he wrote to Brentano about discrete 'time atoms'. Hoeflechner stresses that he was not a trained philosopher and that the philosophical venture was uneven, so the score is moderate."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_boltzmann_royalsociety_obit, src_boltzmann_sep_uffink, src_boltzmann_hoeflechner, src_boltzmann_populaere1905 | 1866-1904 | contemporary obituary + critical survey + historian + self] The Royal Society notice says the attempt to ground the second law deductively formed the work of a lifetime; Uffink traces the same problem through the 1872, 1877, 1880s, 1894-95 and 1896-97 papers; Hoeflechner quotes his 1899 statement that he regarded it as his life's task to work out the classical theory clearly so that it need not be discovered a second time. Evidence is of his scientific work only."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_boltzmann_gastheorie1896, src_boltzmann_hoeflechner, src_boltzmann_eldorado1992 | 1873-1905 | self + historian] In the preface to the Lectures on Gas Theory he writes that gas theory was out of fashion in Germany and that he nonetheless published the book, having been urged since 1873; Hoeflechner records that in autumn 1902 he declared of his own accord that he would lecture in Mach's succession, though the motive is unclear from the minutes; in the Eldorado essay he says he accepted Klein's request for an encyclopaedia article at once so that Zermelo's view would not be the one enshrined. Self-reported or uncertain on motive in each case; low-moderate score."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루트비히 볼츠만"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ludwig-boltzmann-bude-c1880.jpg",
+    "width": 946,
+    "height": 1500,
+    "source": "Carte-de-visite photograph from the Atelier Leopold Bude, Graz, Staatliche Museen zu Berlin, Kunstbibliothek (object 1992,32/003a.066), catalogued with the title 'Ludwig Bolzmann'",
+    "license": "Public domain (marked Public Domain Mark 1.0 by the holding museum; photographer's studio active in the 19th century)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photograph by the Atelier Leopold Bude, Graz, taken between 1870 and 1885; collection of the Kunstbibliothek, Staatliche Museen zu Berlin",
+    "attributionUrl": "https://id.smb.museum/object/1817303",
+    "creator": "Atelier Leopold Bude, Graz",
+    "date": "1870-1885",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ludwig_Boltzmann_by_Leopold_Bude_(Kunstbibliothek_Berlin).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-09T00:00:00Z",
+    "updatedAt": "2026-10-09T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-09) for Q84296 returned en label 'Ludwig Boltzmann', description 'Austrian physicist and philosopher (1844-1906)', born 20 Feb 1844, died 5 Sep 1906 (two death dates listed, 5 and 6 Sep), citizenship Austria, ko label; matches the intended person. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupation physicist; field physics (field.physics exists in en.ts; philosophy not added because the critical historian says he was not a trained philosopher); region central_europe (Austria; Mozart, Mahler, Schubert precedent); era 19th_century. EVIDENCE READ: 9 source records (8 substantive + 1 orientation): Hoeflechner 2006 (full), Uffink in the Stanford Encyclopedia (sections 1-3, 5.3, period overview), the Royal Society obituary (legible parts), Boltzmann's own Populaere Schriften (Atomistik essay, Schopenhauer lecture, contents), Gas Theory preface, the Eldorado essay in translation, Flamm 1997, MacTutor, Sime's note on Meitner. INDEPENDENT PERSPECTIVES: Hoeflechner (critical Austrian historian), Uffink (critical philosopher of physics), the contemporary Royal Society obituary; Sommerfeld (eyewitness quotation, via MacTutor and Hoeflechner), Mach (via Hoeflechner and Uffink: adversarial, secondhand), Ostwald (only as the opponent in the debates, secondhand); Flamm is Boltzmann's grandson and an admirer; Meitner appears only through Sime's paraphrase. NOT ACCESSED: Broda's biography, Cercignani's 'The Man Who Trusted Atoms', Lindley's 'Boltzmann's Atom', Blackmore's anthology, Henriette Boltzmann's family account, Nature obituary by Bryan (paywalled preview only), Meitner's 1964 text, Sommerfeld's and Nernst's obituaries in full, Stefan Meyer's own memoir (cited by Hoeflechner). Ostwald's and Mach's own writings were not read. EXCLUDED BY DESIGN: his depression, the suicide attempt, his death and any bereavement are not used as trait evidence, and the sources' statements linking his hasty appointment negotiations (Berlin 1888, Leipzig 1900) to illness were not scored (no decisiveness or risk row). The Eldorado essay is the 1905 Berkeley trip; the 1904 trip was to St. Louis and Worcester. Zero-politics: no political roles. CONFIDENCE: all <= 0.64, scores <= 78. PORTRAIT: Bude carte-de-visite (Graz studio, so taken while Boltzmann taught at Graz, 1869-1873 or 1876-1890), 946x1500, SMB object page shows Public Domain Mark 1.0 with the footer copyright only for the website; Commons wikitext uses a PD-old template; identity from the museum title (spelled 'Bolzmann') and the studio caption 'Graz'; a Weierstrass album copy exists on Commons. The earlier Commons lead (1902 photograph, 378x425) was not used because it is small and its author is unknown."
+  }
+}

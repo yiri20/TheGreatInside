@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "pierre-auguste-renoir",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Pierre-Auguste Renoir",
+    "aliases": ["Auguste Renoir"],
+    "wikidataId": "Q39931",
+    "birthYear": 1841,
+    "deathYear": 1919,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["FR"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["painter"],
+    "fieldIds": ["art"],
+    "impactDomains": ["artistic", "cultural"],
+    "tagIds": ["craft_focused", "innovator"],
+    "archetypeIds": ["creative_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_renoir_wikidata",
+      "kind": "wikidata",
+      "title": "Pierre-Auguste Renoir (Q39931) -- verified live via wbgetentities (2026-10-08): en label 'Pierre-Auguste Renoir', description 'French painter and sculptor (1841-1919)', born 25 Feb 1841, died 3 Dec 1919, citizenship France, instance of human, ko label '오귀스트 르누아르'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q39931"
+    },
+    {
+      "id": "src_renoir_vollard1925",
+      "kind": "biography",
+      "title": "Ambroise Vollard (Paris art dealer and Renoir's friend), 'Renoir: An Intimate Record', translated by Harold L. Van Doren and Randolph T. Weaver (Alfred A. Knopf, New York, 1925), Internet Archive full text -- Renoir's own recollections as recorded in conversation by a dealer who admired him. SELF-TESTIMONY through an insider: retrospective, anecdotal, and the dealer arranged the episodes, so it is never used as the sole support for a row. Read the chapters on his beginnings, the Gleyre studio, the Impressionist exhibitions, Madame Charpentier's salon, his early travels (including Italy), his 'dry manner', the trip to Spain, Essoyes and Cagnes, and his last years; the other chapters were not read.",
+      "url": "https://archive.org/details/renoirintimatere00voll"
+    },
+    {
+      "id": "src_renoir_riviere1921",
+      "kind": "biography",
+      "title": "Georges Riviere (painter's friend from 1874, editor of the 1877 journal L'Impressionniste), 'Renoir et ses amis' (H. Floury, Paris, 1921), Internet Archive scan (University of Michigan copy), in French -- FRIEND's memoir written close to Renoir's death; admiring but specific about dates, rooms and decisions, and on several points (the Salon abstention of 1879-81, the 1874 hanging committee) independent of Renoir's own account to Vollard. Read the opening chapters (family, apprenticeship, Gleyre, early years), the 1874 exhibition, the Moulin de la Galette and Chatou chapters, the 1877 exhibition and the chapter on later group exhibitions; the later chapters on the 1890s onward were not read.",
+      "url": "https://archive.org/details/abu6175.0001.001.umich.edu"
+    },
+    {
+      "id": "src_renoir_duret1906",
+      "kind": "biography",
+      "title": "Theodore Duret (critic and collector who defended the Impressionists), 'Histoire des peintres impressionnistes', chapter on Renoir (first published 1906; Internet Archive scan of a later edition, University of Toronto copy), in French -- near-contemporary CRITIC-COLLECTOR account of his career, Salon record, sales and commissions, written by someone outside the painter's daily circle. Read the whole Renoir chapter (about fifteen pages); the other chapters were not read.",
+      "url": "https://archive.org/details/dhistoiredespein00dureuoft"
+    },
+    {
+      "id": "src_renoir_meiergraefe1912",
+      "kind": "biography",
+      "title": "Julius Meier-Graefe (German art critic), 'Auguste Renoir' (Paris, 1912), French edition, Internet Archive scan -- CRITIC's monograph based partly on conversations with the painter; independent of Vollard and Riviere. Used only for the passages on Renoir's copying at the Louvre in 1875 and his turn toward Ingres after the 1881 Italian journey; the rest of the monograph was skimmed, not read in full.",
+      "url": "https://archive.org/details/augusterenoir00meie"
+    },
+    {
+      "id": "src_renoir_nga_artist",
+      "kind": "institution",
+      "title": "National Gallery of Art, Washington, artist biography page 'Auguste Renoir' -- short NEUTRAL institutional biography: participation in the 1874 first Impressionist exhibition, distance from the movement by 1878, and a new approach drawn from classical and Renaissance art. Read in full.",
+      "url": "https://www.nga.gov/artists/1823-auguste-renoir"
+    },
+    {
+      "id": "src_renoir_pma_bathers",
+      "kind": "institution",
+      "title": "Philadelphia Museum of Art interpretive text for 'The Large Bathers', as published on Google Arts and Culture -- INSTITUTIONAL (curatorial) account: three years of work, numerous preparatory drawings and at least two full-scale multi-figure drawings, criticism of the new style, and that he never again devoted such painstaking effort to one work. Read in full (a short text).",
+      "url": "https://artsandculture.google.com/asset/the-large-bathers/2wE1mqTuUoBmtA"
+    },
+    {
+      "id": "src_renoir_smithsonian_phillips",
+      "kind": "press",
+      "title": "Smithsonian Magazine, 'Exhibit Sheds New Light on Renoir's \"Luncheon of the Boating Party\"' (2017) -- journalistic summary of the Phillips Collection exhibition 'Renoir and Friends' (secondhand: it relays reporting by other outlets and a curator). Read in full; used for the painting's location, the 1880 setting at Chatou and the sitters, and not for any scored row.",
+      "url": "https://www.smithsonianmag.com/smart-news/new-exhibit-looks-behind-and-beneath-famed-renoir-painting-180965178"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_renoir_vollard1925, src_renoir_riviere1921, src_renoir_meiergraefe1912, src_renoir_duret1906 | 1850s-1880s | self-testimony through a dealer + friend's memoir + critic + critic-collector] Renoir told Vollard that as a porcelain apprentice he went to the Louvre at ten each morning to sketch from the antique until noon, and Riviere confirms he kept visiting the Louvre throughout his life. Meier-Graefe records that in 1875 he was copying Delacroix's 'Jewish Wedding' there. Duret documents the winter journey of 1881-82 to Venice, Rome (where, he writes, Renoir only looked), Naples and Palermo, and Vollard has him calling Raphael his greatest joy of that trip and saying that around 1883 he concluded the only thing worth a painter's while was to study the museums, reading Cennino Cennini's treatise on fifteenth-century methods. Several dated episodes over three decades from four perspectives (one of them self); the motive is stated mainly by Renoir himself, which is why confidence stops short of 0.7."
+    },
+    "belief_updating": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_renoir_vollard1925, src_renoir_nga_artist, src_renoir_pma_bathers, src_renoir_duret1906, src_renoir_meiergraefe1912 | c.1878-1887 | self-testimony + museum biography + curatorial text + critic-collector + critic] Vollard records Renoir saying that around 1883 he had come to think Impressionism 'a blind alley' for him and that he knew neither how to paint nor how to draw; he admits that his dry, fresco-inspired experiments of those years produced a fragile paint surface and that he later learned oil is needed to keep colour from blackening. The NGA says he had distanced himself from the movement by 1878 and turned to classical and Renaissance art, the Philadelphia Museum says he spent three years on 'The Large Bathers' with many preparatory drawings, and Duret says his search for firm contour and his look toward Ingres was transitory and he returned to his supple natural manner. dual_edged: the revision cost him; Vollard says that the 1880s work was harshly received and friends complained of his new colours. The framing of 'a blind alley' is his own late account, but the change of method is documented by several non-self sources."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_renoir_vollard1925, src_renoir_duret1906, src_renoir_riviere1921 | 1860s-1880s | self-testimony + critic-collector + friend] Two separate sets of documented trials. Vollard has Renoir saying that after meeting Diaz in the Fontainebleau forest he gave up painting 'black' and painted the colours of light on trees as he saw them, which his friend Sisley mocked as crazy; Duret records that by the 1877 exhibition he laid a general violet tint over figures and ground in the 'Swing' and the Montmartre ball, which the public took for ignorance. In the 1880s Vollard has him trying fresco-like painting with the oil removed from his colours, painting on cement, and drawing every detail with a pen before painting. Several tests documented, but they come mostly from Renoir's own account and the violet shadows were a shared Impressionist discovery, so a moderate score."
+    },
+    "perfectionism": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_renoir_riviere1921, src_renoir_duret1906, src_renoir_vollard1925, src_renoir_pma_bathers | 1860s-1880s | friend + critic-collector + self-testimony + curatorial text] Riviere, who knew him from 1874, writes that he never let himself be careless about the execution of even the smallest canvas, that unfinished pictures were interrupted experiments rather than neglect, and that he destroyed almost all of his early work; Duret independently says he destroyed his first two Salon pictures, and Vollard has him destroying the 'Esmeralda' after its Salon showing. The Philadelphia Museum records three years of work with many preparatory and two full-scale drawings for 'The Large Bathers'. dual_edged: Vollard has him describing a portrait that gave him more trouble than any other and the three-year canvas as badly received. Several dated instances from independent perspectives; not scored higher because most of the supporting facts are about early work and one large canvas."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_renoir_duret1906, src_renoir_riviere1921, src_renoir_vollard1925 | 1850s and 1875-1883 | critic-collector + friend + self-testimony] When machine printing ended hand porcelain painting, Renoir turned to decorating fans, café walls and painted window blinds; Duret says the blind work paid well enough to fund study at Gleyre's studio, and Riviere adds that he never asked his parents for help. In the 1870s, after the Drouot sales of 1875 and 1877 raised only 2,150 and 2,005 francs, Duret says he stopped holding such sales, turned to portrait commissions from Choquet, Charpentier and the Berard family, and re-entered the Salon in 1879; Riviere confirms he sent works to the Salon and stayed out of the group shows of 1879-81, and Duret that he rejoined them in 1882. Two distinct changes of course documented by three perspectives, each told largely from Renoir's own report of his motives."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_renoir_duret1906, src_renoir_vollard1925, src_renoir_riviere1921, src_renoir_pma_bathers | 1876-1897 | critic-collector + self-testimony + friend + curatorial text] After Gustave Caillebotte's death in 1894 Duret writes that Renoir, as executor, worked 'a long time' with the heirs to get the State to accept the whole bequest of Impressionist paintings, refusing a selection that would send most to provincial palaces, and holding firm that Cezanne's pictures be accepted too; Vollard mentions the disagreements with the Minister of Fine Arts. Riviere says that to paint the large dance-hall picture in 1876 Renoir rented a room and a former stable in rue Cortot, expecting the work to take most of the summer. The Philadelphia Museum records three years on 'The Large Bathers'. Three separate long undertakings with independent sources; the outcome of each depended partly on others, so the score is moderate."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_renoir_riviere1921, src_renoir_duret1906, src_renoir_vollard1925 | 1873-1882 | friend + critic-collector + self-testimony] Riviere says Renoir sat on the hanging committee of the 1874 exhibition, was left almost alone to finish the task after two days and tried to be impartial, though Pissarro objected to the method; Duret records that Renoir sold paintings jointly with Monet, Sisley and Morisot at Drouot in 1875 and with Pissarro, Sisley and Caillebotte in 1877; Riviere says the 1877 weekly journal L'Impressionniste, defending the group, was prepared at Renoir's suggestion, and Vollard has him painting beside Monet at Argenteuil in 1873 and contributing unpaid to La Vie Moderne. Several joint undertakings from friendly sources; Riviere also records that Renoir objected to Pissarro's cooperative statutes, so the pattern is working with colleagues on practical tasks rather than submitting to group rules."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_renoir_duret1906, src_renoir_riviere1921, src_renoir_vollard1925, src_renoir_meiergraefe1912 | 1860s-1880s | critic-collector + friend + self-testimony + critic] After repeated Salon refusals Duret and Riviere document that he joined the 1874 exhibition outside the Salon jury system, and Duret that his violet-toned outdoor shadows of 1877 were taken for ignorance yet he kept to them. In the 1880s Vollard has him recalling that Huysmans and a painter friend ridiculed his admiration for Raphael, which he kept, and Meier-Graefe notes that among friends who loved Delacroix, a liking for Ingres was unfashionable. dual_edged: the same stance brought the harsh reception of his 1880s work that Vollard describes. Several episodes, but the motives are partly his own account and the 1874 move was a group decision."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/pierre-auguste-renoir-dornac-1910.jpg",
+    "width": 1491,
+    "height": 1600,
+    "source": "Photograph by Dornac (Paul Marsan), about 1910, from the album 'Nos contemporains chez eux' (1887-1917), Bibliotheque nationale de France, Gallica; file as hosted on Wikimedia Commons",
+    "license": "Public domain (photographer died 1941; Bibliotheque nationale de France Gallica record states 'domaine public'; photograph made about 1910)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Renoir,_Pierre-Auguste,_by_Dornac,_BNF_Gallica.jpg",
+    "attribution": "Dornac, about 1910, Bibliotheque nationale de France (Gallica)",
+    "attributionUrl": "https://gallica.bnf.fr/ark:/12148/btv1b8432964j",
+    "creator": "Dornac (Paul Marsan, 1858-1941)",
+    "date": "about 1910",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Renoir,_Pierre-Auguste,_by_Dornac,_BNF_Gallica.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "피에르오귀스트 르누아르"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q39931 returned en label 'Pierre-Auguste Renoir', description 'French painter and sculptor (1841-1919)', born 1841-02-25, died 1919-12-03, citizenship France, instance of human, ko label '오귀스트 르누아르'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: painter; field art (field.art exists); impactDomains artistic and cultural, archetype creative_creator and region western_europe as the Monet and Degas candidates; tags craft_focused (porcelain-painting apprenticeship, Riviere and Vollard) and innovator (Duret on coloured shadows); era 19th_century (as Monet, Cezanne, Degas). EVIDENCE READ: Vollard 1925 (selected chapters, listed in the source), Riviere 1921 (selected chapters), Duret (Renoir chapter in full), Meier-Graefe 1912 (targeted passages), NGA artist page, Philadelphia Museum text on Google Arts and Culture, Smithsonian Magazine article; Wikidata for identity only. PERSPECTIVES: SELF (Renoir's recollections as recorded by Vollard; never sole support), FRIEND (Riviere, from 1874), CRITIC-COLLECTOR (Duret), CRITIC (Meier-Graefe), INSTITUTIONAL (NGA, Philadelphia Museum). NON-SELF BEHAVIOURAL sources: Riviere, Duret, Meier-Graefe, Philadelphia Museum. NOT AVAILABLE / NOT READ: Jean Renoir's 'Renoir, My Father' (Internet Archive lending copy only, 401), Julie Manet's diary (no open full text found), Barbara Ehrlich White's biography and Anne Distel's catalogue (not accessible), Louis Leroy's 1874 review (the Wikisource version found was a 1924 reprint without usable Renoir text, not used), the Metropolitan Museum essay and Morgan Library pages (bot-protected pages, not bypassed), the Musee d'Orsay biography page (404), Smarthistory (403), the National Gallery of Art object page on the Guino terracotta (read, but it ties the sculpture to illness, so it was not used). Gaps: no non-self source on Renoir's letters was read; no row rests on his letters. CONFLICT NOTED: Vollard places an Algerian trip after the 1879 Salon, Riviere after the Italian journey; the dates of Algeria are therefore not used. The Large Bathers is dated differently (Vollard says exhibited 1886 at Georges Petit; museum chronologies elsewhere give 1887), so no year is stated. ROWS CONSIDERED AND LEFT UNSCORED: aesthetic_sensitivity (would rest on the occupation), resourcefulness (the apprenticeship and blind-painting evidence is already used under adaptability), execution_speed (Vollard's story of painting a cafe wall faster than three workmen is one self-told anecdote), conflict_tolerance and social_assertiveness (the Gambetta press-note episode and the Caillebotte talks are political/official errands and are used only for collaboration and persistence), leadership_drive (Riviere says he refused any school-head role; thin), perfectionism-adjacent detail_orientation (same evidence as perfectionism). EXCLUDED ON PURPOSE: his arthritis and disability and the way he worked later, his later sculpture with Richard Guino (no row), his wife's illness and death, his own death, family and models' private lives, political opinions, the 'no real friend' remark of his last years (single self-reported mood). PORTRAIT: the Wikidata P18 image (c.1875 photograph from the Musee d'Orsay, 525x650, photographer unknown) was REJECTED: the Commons page cites the RMN-Grand Palais agency page, which returned 403 and so could not be checked for a conflicting rights notice, and the file is also small. CHOSEN: photograph by Dornac, about 1910, from the album 'Nos contemporains chez eux' held by the Bibliotheque nationale de France (Gallica ark btv1b8432964j, frame 19; Gallica's own OAI record read directly: rights 'domaine public', album dated 1887-1917, previous owner Etienne Moreau-Nelaton who died in 1927, so the prints existed by then). The Gallica viewer page is bot-protected and was not bypassed; the image was downloaded from the Commons upload (restored stitch by a Commons user of the BnF original), cropped from 2567x2403 to the sitter and downsized to 1491x1600 JPEG quality 85, no upscaling. Rights basis: Dornac died 1941 (life plus 70 years has expired in France), BnF declares the item public domain, and a pre-1931 date is supported by the album's compilation before 1927; the exact year of the photograph is approximate. Viewed: seated elderly bearded man in a flat cap in a studio. No eligibility, coverage or match output was used in scoring; scores and confidences were fixed before the validator was run."
+  }
+}

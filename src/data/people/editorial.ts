@@ -9470,4 +9470,207 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "wilhelm-maybach-turning-point-1", textKey: "wilhelm-maybach.turning_point.1", interpretationKey: "wilhelm-maybach.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_maybach_ndb_1990", "src_maybach_ndb_karl_1990", "src_maybach_dpma", "src_maybach_mtu_2009"] },
     ],
   },
+  "alvar-aalto": {
+    achievements: [
+      { id: "alvar-aalto-achievement-1", textKey: "alvar-aalto.achievement.1", sourceIds: ["src_aalto_moma1998", "src_aalto_kim2009", "src_aalto_quantrill1983"] },
+      { id: "alvar-aalto-achievement-2", textKey: "alvar-aalto.achievement.2", sourceIds: ["src_aalto_quantrill1983", "src_aalto_moma1998", "src_aalto_kim2009"] },
+      { id: "alvar-aalto-achievement-3", textKey: "alvar-aalto.achievement.3", sourceIds: ["src_aalto_moma1998", "src_aalto_moma1984", "src_aalto_foundation_aino"] },
+      { id: "alvar-aalto-achievement-4", textKey: "alvar-aalto.achievement.4", sourceIds: ["src_aalto_moma1998", "src_aalto_quantrill1983", "src_aalto_foundation_bio"] },
+    ],
+    moments: [
+      { id: "alvar-aalto-moment-1", textKey: "alvar-aalto.moment.1", interpretationKey: "alvar-aalto.interpretation.moment.1", attributeId: "collaboration", sourceIds: ["src_aalto_moma1998", "src_aalto_pearson1978", "src_aalto_foundation_aino"] },
+      { id: "alvar-aalto-moment-2", textKey: "alvar-aalto.moment.2", interpretationKey: "alvar-aalto.interpretation.moment.2", attributeId: "proactive_agency", sourceIds: ["src_aalto_quantrill1983", "src_aalto_mit1999"] },
+    ],
+    turningPoints: [
+      { id: "alvar-aalto-turning-point-1", textKey: "alvar-aalto.turning_point.1", interpretationKey: "alvar-aalto.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_aalto_moma1998", "src_aalto_kim2009"] },
+    ],
+  },
+  "charles-goodyear": {
+    achievements: [
+      { id: "charles-goodyear-achievement-1", textKey: "charles-goodyear.achievement.1", sourceIds: ["src_goodyear_parton", "src_goodyear_peirce", "src_goodyear_holt1858", "src_goodyear_fanning"] },
+      { id: "charles-goodyear-achievement-2", textKey: "charles-goodyear.achievement.2", sourceIds: ["src_goodyear_peirce", "src_goodyear_parton"] },
+      { id: "charles-goodyear-achievement-3", textKey: "charles-goodyear.achievement.3", sourceIds: ["src_goodyear_grier1852", "src_goodyear_holt1858", "src_goodyear_hancock1857", "src_goodyear_peirce"] },
+    ],
+    moments: [
+      { id: "charles-goodyear-moment-1", textKey: "charles-goodyear.moment.1", interpretationKey: "charles-goodyear.interpretation.moment.1", attributeId: "opportunity_sensing", sourceIds: ["src_goodyear_parton", "src_goodyear_peirce", "src_goodyear_grier1852"] },
+      { id: "charles-goodyear-moment-2", textKey: "charles-goodyear.moment.2", interpretationKey: "charles-goodyear.interpretation.moment.2", attributeId: "experimentation", sourceIds: ["src_goodyear_parton", "src_goodyear_peirce"] },
+    ],
+    turningPoints: [
+      { id: "charles-goodyear-turning-point-1", textKey: "charles-goodyear.turning_point.1", interpretationKey: "charles-goodyear.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_goodyear_parton", "src_goodyear_peirce"] },
+    ],
+  },
+  "georges-cuvier": {
+    achievements: [
+      { id: "georges-cuvier-achievement-1", textKey: "georges-cuvier.achievement.1", sourceIds: ["src_cuvier_rudwick1997", "src_cuvier_embryo", "src_cuvier_lee1833"] },
+      { id: "georges-cuvier-achievement-2", textKey: "georges-cuvier.achievement.2", sourceIds: ["src_cuvier_rudwick1997", "src_cuvier_embryo", "src_cuvier_lee1833"] },
+      { id: "georges-cuvier-achievement-3", textKey: "georges-cuvier.achievement.3", sourceIds: ["src_cuvier_flourens1841", "src_cuvier_embryo", "src_cuvier_lee1833"] },
+    ],
+    moments: [
+      { id: "georges-cuvier-moment-1", textKey: "georges-cuvier.moment.1", interpretationKey: "georges-cuvier.interpretation.moment.1", attributeId: "analytical_rigor", sourceIds: ["src_cuvier_flourens1865", "src_cuvier_eckermann"] },
+      { id: "georges-cuvier-moment-2", textKey: "georges-cuvier.moment.2", interpretationKey: "georges-cuvier.interpretation.moment.2", attributeId: "collaboration", sourceIds: ["src_cuvier_rudwick1997"] },
+    ],
+    turningPoints: [
+      { id: "georges-cuvier-turning-point-1", textKey: "georges-cuvier.turning_point.1", interpretationKey: "georges-cuvier.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_cuvier_lee1833", "src_cuvier_embryo", "src_cuvier_rudwick1997"] },
+    ],
+  },
+  "giacomo-puccini": {
+    achievements: [
+      { id: "giacomo-puccini-achievement-1", textKey: "giacomo-puccini.achievement.1", sourceIds: ["src_puccini_dry1906", "src_puccini_britannica_sartori", "src_puccini_fraccaroli1925"] },
+      { id: "giacomo-puccini-achievement-2", textKey: "giacomo-puccini.achievement.2", sourceIds: ["src_puccini_parterre_fanciulla", "src_puccini_fraccaroli1925", "src_puccini_britannica_sartori", "src_puccini_interlude_turandot"] },
+      { id: "giacomo-puccini-achievement-3", textKey: "giacomo-puccini.achievement.3", sourceIds: ["src_puccini_britannica_sartori", "src_puccini_dry1906", "src_puccini_fraccaroli1925"] },
+    ],
+    moments: [
+      { id: "giacomo-puccini-moment-1", textKey: "giacomo-puccini.moment.1", interpretationKey: "giacomo-puccini.interpretation.moment.1", attributeId: "perfectionism", sourceIds: ["src_puccini_fraccaroli1925", "src_puccini_marotti1926"] },
+      { id: "giacomo-puccini-moment-2", textKey: "giacomo-puccini.moment.2", interpretationKey: "giacomo-puccini.interpretation.moment.2", attributeId: "curiosity", sourceIds: ["src_puccini_fraccaroli1925"] },
+    ],
+    turningPoints: [
+      { id: "giacomo-puccini-turning-point-1", textKey: "giacomo-puccini.turning_point.1", interpretationKey: "giacomo-puccini.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_puccini_dry1906", "src_puccini_fraccaroli1925", "src_puccini_britannica_sartori"] },
+    ],
+  },
+  "hugo-junkers": {
+    achievements: [
+      { id: "hugo-junkers-achievement-1", textKey: "hugo-junkers.achievement.1", sourceIds: ["src_junkers_ndb1974", "src_junkers_byers2008", "src_junkers_lvr", "src_junkers_lemo"] },
+      { id: "hugo-junkers-achievement-2", textKey: "hugo-junkers.achievement.2", sourceIds: ["src_junkers_ndb1974", "src_junkers_lemo", "src_junkers_sz2010"] },
+      { id: "hugo-junkers-achievement-3", textKey: "hugo-junkers.achievement.3", sourceIds: ["src_junkers_ndb1974", "src_junkers_technikmuseum", "src_junkers_sz2010"] },
+      { id: "hugo-junkers-achievement-4", textKey: "hugo-junkers.achievement.4", sourceIds: ["src_junkers_ndb1974", "src_junkers_lvr", "src_junkers_dm_findbuch", "src_junkers_naca565"] },
+    ],
+    moments: [
+      { id: "hugo-junkers-moment-1", textKey: "hugo-junkers.moment.1", interpretationKey: "hugo-junkers.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_junkers_byers2008"] },
+      { id: "hugo-junkers-moment-2", textKey: "hugo-junkers.moment.2", interpretationKey: "hugo-junkers.interpretation.moment.2", attributeId: "autonomy_need", sourceIds: ["src_junkers_byers2008", "src_junkers_warhistory"] },
+    ],
+    turningPoints: [
+      { id: "hugo-junkers-turning-point-1", textKey: "hugo-junkers.turning_point.1", interpretationKey: "hugo-junkers.interpretation.turning_point.1", attributeId: "resourcefulness", sourceIds: ["src_junkers_ndb1974", "src_junkers_lvr", "src_junkers_sz2010"] },
+    ],
+  },
+  "jean-baptiste-charcot": {
+    achievements: [
+      { id: "jean-baptiste-charcot-achievement-1", textKey: "jean-baptiste-charcot.achievement.1", sourceIds: ["src_charcot_lindahall", "src_charcot_defense", "src_charcot_medarus"] },
+      { id: "jean-baptiste-charcot-achievement-2", textKey: "jean-baptiste-charcot.achievement.2", sourceIds: ["src_charcot_antarcticguide", "src_charcot_lindahall", "src_charcot_amundsen1912", "src_charcot_medarus"] },
+      { id: "jean-baptiste-charcot-achievement-3", textKey: "jean-baptiste-charcot.achievement.3", sourceIds: ["src_charcot_academie1937", "src_charcot_geus", "src_charcot_medarus"] },
+    ],
+    moments: [
+      { id: "jean-baptiste-charcot-moment-1", textKey: "jean-baptiste-charcot.moment.1", interpretationKey: "jean-baptiste-charcot.interpretation.moment.1", attributeId: "risk_tolerance", sourceIds: ["src_charcot_oulie1938", "src_charcot_antarcticguide", "src_charcot_coolantarctica"] },
+      { id: "jean-baptiste-charcot-moment-2", textKey: "jean-baptiste-charcot.moment.2", interpretationKey: "jean-baptiste-charcot.interpretation.moment.2", attributeId: "curiosity", sourceIds: ["src_charcot_academie1937"] },
+    ],
+    turningPoints: [
+      { id: "jean-baptiste-charcot-turning-point-1", textKey: "jean-baptiste-charcot.turning_point.1", interpretationKey: "jean-baptiste-charcot.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_charcot_oulie1938", "src_charcot_lindahall", "src_charcot_defense"] },
+    ],
+  },
+  "jmw-turner": {
+    achievements: [
+      { id: "jmw-turner-achievement-1", textKey: "jmw-turner.achievement.1", sourceIds: ["src_turner_ng_temeraire", "src_turner_hamerton1879", "src_turner_ng_rainsteam"] },
+      { id: "jmw-turner-achievement-2", textKey: "jmw-turner.achievement.2", sourceIds: ["src_turner_thornbury1862_v1", "src_turner_hamerton1879"] },
+      { id: "jmw-turner-achievement-3", textKey: "jmw-turner.achievement.3", sourceIds: ["src_turner_thornbury1862_v2"] },
+      { id: "jmw-turner-achievement-4", textKey: "jmw-turner.achievement.4", sourceIds: ["src_turner_tate_seine"] },
+    ],
+    moments: [
+      { id: "jmw-turner-moment-1", textKey: "jmw-turner.moment.1", interpretationKey: "jmw-turner.interpretation.moment.1", attributeId: "competitiveness", sourceIds: ["src_turner_leslie1860", "src_turner_thornbury1862_v2"] },
+      { id: "jmw-turner-moment-2", textKey: "jmw-turner.moment.2", interpretationKey: "jmw-turner.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_turner_leslie1860"] },
+    ],
+    turningPoints: [
+      { id: "jmw-turner-turning-point-1", textKey: "jmw-turner.turning_point.1", interpretationKey: "jmw-turner.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_turner_thornbury1862_v1", "src_turner_hamerton1879"] },
+    ],
+  },
+  "john-dalton": {
+    achievements: [
+      { id: "john-dalton-achievement-1", textKey: "john-dalton.achievement.1", sourceIds: ["src_dalton_roscoe1895", "src_dalton_roscoe_harden1896", "src_dalton_thomson1831", "src_dalton_henry1854"] },
+      { id: "john-dalton-achievement-2", textKey: "john-dalton.achievement.2", sourceIds: ["src_dalton_roscoe1895", "src_dalton_thomson1831", "src_dalton_henry1854"] },
+      { id: "john-dalton-achievement-3", textKey: "john-dalton.achievement.3", sourceIds: ["src_dalton_roscoe1895", "src_dalton_henry1854"] },
+      { id: "john-dalton-achievement-4", textKey: "john-dalton.achievement.4", sourceIds: ["src_dalton_roscoe1895", "src_dalton_henry1854"] },
+    ],
+    moments: [
+      { id: "john-dalton-moment-1", textKey: "john-dalton.moment.1", interpretationKey: "john-dalton.interpretation.moment.1", attributeId: "belief_updating", sourceIds: ["src_dalton_berzelius1812", "src_dalton_henry1854", "src_dalton_roscoe_harden1896", "src_dalton_merz1896"] },
+      { id: "john-dalton-moment-2", textKey: "john-dalton.moment.2", interpretationKey: "john-dalton.interpretation.moment.2", attributeId: "resourcefulness", sourceIds: ["src_dalton_roscoe1895", "src_dalton_henry1854"] },
+    ],
+    turningPoints: [
+      { id: "john-dalton-turning-point-1", textKey: "john-dalton.turning_point.1", interpretationKey: "john-dalton.interpretation.turning_point.1", attributeId: "autonomy_need", sourceIds: ["src_dalton_roscoe1895", "src_dalton_henry1854"] },
+    ],
+  },
+  "linus-torvalds": {
+    achievements: [
+      { id: "linus-torvalds-achievement-1", textKey: "linus-torvalds.achievement.1", sourceIds: ["src_lt_history1992", "src_lt_newyorker2018"] },
+      { id: "linus-torvalds-achievement-2", textKey: "linus-torvalds.achievement.2", sourceIds: ["src_lt_lkml2006", "src_lt_raymond", "src_lt_lwn_scale2010"] },
+      { id: "linus-torvalds-achievement-3", textKey: "linus-torvalds.achievement.3", sourceIds: ["src_lt_lj_git", "src_lt_lwn_bk2016"] },
+    ],
+    moments: [
+      { id: "linus-torvalds-moment-1", textKey: "linus-torvalds.moment.1", interpretationKey: "linus-torvalds.interpretation.moment.1", attributeId: "conflict_tolerance", sourceIds: ["src_lt_tanenbaum"] },
+      { id: "linus-torvalds-moment-2", textKey: "linus-torvalds.moment.2", interpretationKey: "linus-torvalds.interpretation.moment.2", attributeId: "proactive_agency", sourceIds: ["src_lt_lj_git", "src_lt_lwn_bk2016", "src_lt_lkml2018"] },
+    ],
+    turningPoints: [
+      { id: "linus-torvalds-turning-point-1", textKey: "linus-torvalds.turning_point.1", interpretationKey: "linus-torvalds.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_lt_lkml2018", "src_lt_newyorker2018", "src_lt_siliconangle2018"] },
+    ],
+  },
+  "lord-rayleigh": {
+    achievements: [
+      { id: "lord-rayleigh-achievement-1", textKey: "lord-rayleigh.achievement.1", sourceIds: ["src_rayleigh_mactutor", "src_rayleigh_nobel_bio", "src_rayleigh_dnb_jeans1927"] },
+      { id: "lord-rayleigh-achievement-2", textKey: "lord-rayleigh.achievement.2", sourceIds: ["src_rayleigh_nobel_lecture", "src_rayleigh_dnb_jeans1927", "src_rayleigh_ramsay1896", "src_rayleigh_ramsay_nobel_lecture"] },
+      { id: "lord-rayleigh-achievement-3", textKey: "lord-rayleigh.achievement.3", sourceIds: ["src_rayleigh_mactutor", "src_rayleigh_dnb_jeans1927"] },
+      { id: "lord-rayleigh-achievement-4", textKey: "lord-rayleigh.achievement.4", sourceIds: ["src_rayleigh_glazebrook1910", "src_rayleigh_nobel_bio", "src_rayleigh_dnb_jeans1927"] },
+    ],
+    moments: [
+      { id: "lord-rayleigh-moment-1", textKey: "lord-rayleigh.moment.1", interpretationKey: "lord-rayleigh.interpretation.moment.1", attributeId: "analytical_rigor", sourceIds: ["src_rayleigh_nobel_lecture", "src_rayleigh_ramsay1896"] },
+      { id: "lord-rayleigh-moment-2", textKey: "lord-rayleigh.moment.2", interpretationKey: "lord-rayleigh.interpretation.moment.2", attributeId: "proactive_agency", sourceIds: ["src_rayleigh_glazebrook1910"] },
+    ],
+    turningPoints: [
+      { id: "lord-rayleigh-turning-point-1", textKey: "lord-rayleigh.turning_point.1", interpretationKey: "lord-rayleigh.interpretation.turning_point.1", attributeId: "autonomy_need", sourceIds: ["src_rayleigh_mactutor", "src_rayleigh_dnb_jeans1927", "src_rayleigh_nobel_bio"] },
+    ],
+  },
+  "ludwig-boltzmann": {
+    achievements: [
+      { id: "ludwig-boltzmann-achievement-1", textKey: "ludwig-boltzmann.achievement.1", sourceIds: ["src_boltzmann_sep_uffink", "src_boltzmann_hoeflechner"] },
+      { id: "ludwig-boltzmann-achievement-2", textKey: "ludwig-boltzmann.achievement.2", sourceIds: ["src_boltzmann_sep_uffink", "src_boltzmann_flamm1997"] },
+      { id: "ludwig-boltzmann-achievement-3", textKey: "ludwig-boltzmann.achievement.3", sourceIds: ["src_boltzmann_gastheorie1896", "src_boltzmann_sep_uffink"] },
+      { id: "ludwig-boltzmann-achievement-4", textKey: "ludwig-boltzmann.achievement.4", sourceIds: ["src_boltzmann_mactutor", "src_boltzmann_hoeflechner"] },
+    ],
+    moments: [
+      { id: "ludwig-boltzmann-moment-1", textKey: "ludwig-boltzmann.moment.1", interpretationKey: "ludwig-boltzmann.interpretation.moment.1", attributeId: "conflict_tolerance", sourceIds: ["src_boltzmann_hoeflechner", "src_boltzmann_mactutor"] },
+      { id: "ludwig-boltzmann-moment-2", textKey: "ludwig-boltzmann.moment.2", interpretationKey: "ludwig-boltzmann.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_boltzmann_hoeflechner"] },
+    ],
+    turningPoints: [
+      { id: "ludwig-boltzmann-turning-point-1", textKey: "ludwig-boltzmann.turning_point.1", interpretationKey: "ludwig-boltzmann.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_boltzmann_sep_uffink", "src_boltzmann_hoeflechner"] },
+    ],
+  },
+  "oscar-wilde": {
+    achievements: [
+      { id: "oscar-wilde-achievement-1", textKey: "oscar-wilde.achievement.1", sourceIds: ["src_wilde_mason1908", "src_wilde_ransome1912"] },
+      { id: "oscar-wilde-achievement-2", textKey: "oscar-wilde.achievement.2", sourceIds: ["src_wilde_ransome1912", "src_wilde_shaw1895", "src_wilde_sherard1906"] },
+      { id: "oscar-wilde-achievement-3", textKey: "oscar-wilde.achievement.3", sourceIds: ["src_wilde_ransome1912", "src_wilde_sherard1906"] },
+      { id: "oscar-wilde-achievement-4", textKey: "oscar-wilde.achievement.4", sourceIds: ["src_wilde_ransome1912", "src_wilde_douglas1914"] },
+    ],
+    moments: [
+      { id: "oscar-wilde-moment-1", textKey: "oscar-wilde.moment.1", interpretationKey: "oscar-wilde.interpretation.moment.1", attributeId: "conflict_tolerance", sourceIds: ["src_wilde_mason1908"] },
+      { id: "oscar-wilde-moment-2", textKey: "oscar-wilde.moment.2", interpretationKey: "oscar-wilde.interpretation.moment.2", attributeId: "persuasiveness", sourceIds: ["src_wilde_yeats1922"] },
+    ],
+    turningPoints: [
+      { id: "oscar-wilde-turning-point-1", textKey: "oscar-wilde.turning_point.1", interpretationKey: "oscar-wilde.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_wilde_sherard1906", "src_wilde_douglas1914", "src_wilde_shaw1895", "src_wilde_ransome1912"] },
+    ],
+  },
+  "pierre-auguste-renoir": {
+    achievements: [
+      { id: "pierre-auguste-renoir-achievement-1", textKey: "pierre-auguste-renoir.achievement.1", sourceIds: ["src_renoir_riviere1921", "src_renoir_duret1906", "src_renoir_smithsonian_phillips"] },
+      { id: "pierre-auguste-renoir-achievement-2", textKey: "pierre-auguste-renoir.achievement.2", sourceIds: ["src_renoir_duret1906", "src_renoir_nga_artist", "src_renoir_riviere1921"] },
+      { id: "pierre-auguste-renoir-achievement-3", textKey: "pierre-auguste-renoir.achievement.3", sourceIds: ["src_renoir_duret1906", "src_renoir_pma_bathers", "src_renoir_vollard1925"] },
+    ],
+    moments: [
+      { id: "pierre-auguste-renoir-moment-1", textKey: "pierre-auguste-renoir.moment.1", interpretationKey: "pierre-auguste-renoir.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_renoir_riviere1921"] },
+      { id: "pierre-auguste-renoir-moment-2", textKey: "pierre-auguste-renoir.moment.2", interpretationKey: "pierre-auguste-renoir.interpretation.moment.2", attributeId: "adaptability", sourceIds: ["src_renoir_duret1906", "src_renoir_riviere1921"] },
+    ],
+    turningPoints: [
+      { id: "pierre-auguste-renoir-turning-point-1", textKey: "pierre-auguste-renoir.turning_point.1", interpretationKey: "pierre-auguste-renoir.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_renoir_vollard1925", "src_renoir_pma_bathers", "src_renoir_nga_artist"] },
+    ],
+  },
+  "sonja-henie": {
+    achievements: [
+      { id: "sonja-henie-achievement-1", textKey: "sonja-henie.achievement.1", sourceIds: ["src_henie_olympedia", "src_henie_snl_larsen", "src_henie_britannica"] },
+      { id: "sonja-henie-achievement-2", textKey: "sonja-henie.achievement.2", sourceIds: ["src_henie_snl_larsen", "src_henie_britannica", "src_henie_vanityfair_jacobs"] },
+      { id: "sonja-henie-achievement-3", textKey: "sonja-henie.achievement.3", sourceIds: ["src_henie_snl_larsen", "src_henie_olympedia", "src_henie_britannica"] },
+    ],
+    moments: [
+      { id: "sonja-henie-moment-1", textKey: "sonja-henie.moment.1", interpretationKey: "sonja-henie.interpretation.moment.1", attributeId: "social_assertiveness", sourceIds: ["src_henie_snl_larsen", "src_henie_vanityfair_jacobs", "src_henie_wiehl_encyclopedia"] },
+      { id: "sonja-henie-moment-2", textKey: "sonja-henie.moment.2", interpretationKey: "sonja-henie.interpretation.moment.2", attributeId: "autonomy_need", sourceIds: ["src_henie_vanityfair_jacobs", "src_henie_snl_larsen"] },
+    ],
+    turningPoints: [
+      { id: "sonja-henie-turning-point-1", textKey: "sonja-henie.turning_point.1", interpretationKey: "sonja-henie.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_henie_snl_larsen", "src_henie_vanityfair_jacobs", "src_henie_wiehl_encyclopedia"] },
+    ],
+  },
 };

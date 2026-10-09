@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "charles-goodyear",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Charles Goodyear",
+    "wikidataId": "Q207667",
+    "birthYear": 1800,
+    "deathYear": 1860,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["inventor"],
+    "fieldIds": ["technology"],
+    "impactDomains": ["technological", "industrial"],
+    "tagIds": ["innovator"],
+    "archetypeIds": ["technical_innovator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_goodyear_wikidata",
+      "kind": "wikidata",
+      "title": "Charles Goodyear (Q207667) -- verified live via wbgetentities (2026-10-08): en label 'Charles Goodyear', description 'American inventor (1800-1860)', P569 29 Dec 1800, P570 1 Jul 1860, citizenship United States, ko label '찰스 굿이어'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q207667"
+    },
+    {
+      "id": "src_goodyear_parton",
+      "kind": "biography",
+      "title": "James Parton, 'Charles Goodyear', in Famous Americans of Recent Times (Boston: Ticknor and Fields, 1867), Internet Archive full text (famousamericans00partrich) -- chapter by an independent journalist-biographer, admiring in tone; built from Goodyear's own book on gum-elastic and from the sworn testimony in the patent trials (it quotes the trial witnesses directly). Read in full locally. Its framing of his devotion is evaluative and is not used as evidence; dated actions and the quoted witness testimony are.",
+      "url": "https://archive.org/details/famousamericans00partrich"
+    },
+    {
+      "id": "src_goodyear_peirce",
+      "kind": "biography",
+      "title": "Bradford K. Peirce, Trials of an Inventor: Life and Discoveries of Charles Goodyear (New York: Carlton & Porter, 1866), Internet Archive full text (trialsofinventor00peiriala) -- a Methodist minister's devotional biography written with the family's help, quoting Goodyear's own writings, Parton, trial testimony and recollections of his daughter and private secretary; sympathetic and religious in framing and therefore insider-leaning. Read locally: chapters on the rubber industry before 1834, the experiments of 1834-44, the patent and licences, the Great Exhibition 1851 and the Paris Exposition 1855. Its praise and providential language are not used as evidence.",
+      "url": "https://archive.org/details/trialsofinventor00peiriala"
+    },
+    {
+      "id": "src_goodyear_grier1852",
+      "kind": "archive",
+      "title": "Decision in the Great India Rubber Case of Charles Goodyear vs. Horace H. Day, delivered by Judge Grier, U.S. Circuit Court, District of New Jersey, 28 September 1852 (New York, 1852), Internet Archive full text (decisioningreati00unit) -- adjudicative opinion after about a hundred witnesses and argument by Daniel Webster and James T. Brady for Goodyear and Rufus Choate and Francis B. Cutting for the defendant. Read: statement of the patents, the findings on prior experimenters, abandonment and the English Hancock patent.",
+      "url": "https://archive.org/details/decisioningreati00unit"
+    },
+    {
+      "id": "src_goodyear_holt1858",
+      "kind": "archive",
+      "title": "Extension of the Goodyear Patent: Decision of the Commissioner of Patents, Joseph Holt, 14 June 1858 (U.S. Patent Office pamphlet), Internet Archive full text (extensionofgoody00unit) -- official decision on Goodyear's petition to extend his 1844 patent, summarizing sworn evidence on his experiments, his accounts, the 1855 Paris awards and the infringement litigation; the Commissioner's rhetoric is strongly sympathetic, so only its factual findings and the accounts it records are used. Read in part.",
+      "url": "https://archive.org/details/extensionofgoody00unit"
+    },
+    {
+      "id": "src_goodyear_hancock1857",
+      "kind": "biography",
+      "title": "Thomas Hancock, Personal Narrative of the Origin and Progress of the Caoutchouc or India-Rubber Manufacture in England (London: Longman, 1857), Internet Archive full text (personalnarrativ57hanc) -- RIVAL account by the English patentee of vulcanization. Read locally: the autumn-1842 sample from the American agent via William Brockedon, his own experiments, the patent sealed 21 November 1843, and the naming of 'vulcanization'. The OCR text does not name Goodyear at all; it is used only to date the English side of the priority dispute and the state of knowledge in Britain.",
+      "url": "https://archive.org/details/personalnarrativ57hanc"
+    },
+    {
+      "id": "src_goodyear_fanning",
+      "kind": "institution",
+      "title": "Leonard M. Fanning, 'Charles Goodyear: Father of the Rubber Industry' (booklet, Mercer Publishing Company for General Motors, 1955), Internet Archive text (goodyearfatherrubberindustry) -- short corporate-sponsored popular biography, read in full; it flags that one version of the 1839 stove story is unconfirmed and that critics called the invention pure accident while Goodyear said it came from close observation. Used only to corroborate the 1851 exhibition outlay and the variant tellings; not used as sole support for any row.",
+      "url": "https://archive.org/details/goodyearfatherrubberindustry"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goodyear_parton, src_goodyear_peirce, src_goodyear_grier1852, src_goodyear_holt1858 | 1834-1844 | independent journalist-biographer quoting trial witnesses + insider-leaning biography + court opinion + patent-office decision] Over about ten years he kept working at one problem through several dated failures. After the 1834 Roxbury agent told him rubber goods melted in summer he tried magnesia, quicklime and nitric-acid cures; shoes he stored through the next summer melted, and the nitric-acid process (patented, with a Washington demonstration) produced the government mail bags that decomposed in the following summer (Parton; Peirce). Friends, brothers and his wife urged him to return to the hardware business and he declined (Parton; Peirce quotes his own account), then pursued the sulphur-and-heat clue through two years of baking, boiling and oven trials in which, he said, he convinced nobody (Parton, quoting witnesses). Judge Grier, an adjudicator who had heard about a hundred witnesses, singled this out: others had used sulphur, lead and heat 'but to what purpose?' while Goodyear 'persisted in his experiments, and finally succeeded'. Several independent dated episodes and a neutral finding; kept at 80/0.68 because the narrative sources lean admiring and trace to Goodyear's own book."
+    },
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goodyear_parton, src_goodyear_peirce, src_goodyear_grier1852, src_goodyear_hancock1857 | 1834-1844 | journalist-biographer quoting trial testimony + insider-leaning biography + court opinion + rival account for context] He tested the material by trial, not theory. Parton: he got no useful hint from Philadelphia chemists and tried one additive after another (magnesia, quicklime, nitric acid), stored finished shoes through a summer to see whether they would hold, and, after the stove observation, established within days that the charred compound had an unchanged elastic rim, did not stiffen on ice and withstood about 278 degrees. Witness testimony quoted by Parton and Peirce shows him baking batches in his wife's oven for one, two, three and six hours, boiling and toasting samples, burying them in hot sand, hanging them in factory boiler man-holes and building a brick oven, varying proportions each time. Grier calls the discovery 'empirical' and the result of 'patient and continued experiments'. Hancock's rival account independently says the value of sulphur with heat had 'never been even dreamt of' by himself or the Americans, which fits an empirical rather than predicted result. Documented, several dated cases from more than one perspective."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_goodyear_parton, src_goodyear_peirce | 1836-1840 | journalist-biographer quoting trial witnesses + insider-leaning biography] Without a laboratory or a heat source he could control, he used what was to hand: the household oven after bread, kitchen saucepans and a tea-kettle, hot sand and ashes, brushwood gathered by neighbours, and after-hours use of factory ovens and boiler man-holes; he then had a brick oven built in a factory yard and paid the mason in aprons made of his own rubber cloth (Parton). In 1836 he worked in a borrowed room, hauling a jug of quicklime on his shoulder three miles to a horse-power mill (Parton, from his own narrative). The same sources and Peirce show him wearing his rubber in every form to test and show it. Several dated improvisations from two biographies, both leaning on his own book and trial testimony; strong_inference at 0.60."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_goodyear_parton, src_goodyear_peirce, src_goodyear_grier1852, src_goodyear_holt1858 | 1834-1855 | journalist-biographer + insider-leaning biography + court opinion + patent-office decision] Several moves into a problem or a market at a particular moment. In 1834, after the Roxbury agent's description of the failing rubber trade, he treated the melting problem as the opening and abandoned his own life-preserver improvement to work on it (Parton). In 1838-39 he noticed that Hayward's sulphur drying matched his own acid-gas result, bought Hayward's patent (issued 24 February 1839) and employed him (Parton; Grier). From 1844 he sold manufacturing licences to several companies (Peirce) and in 1851 and 1855 took large display courts at the London and Paris exhibitions to show hard-rubber and other applications (Peirce; Holt on the 1855 awards). Peirce and Fanning give the 1851 outlay as $30,000, which is Goodyear-side reporting. Scored from the timing and form of each move, not from the later size of the industry; 0.56 because the exhibition evidence is family-side and the licensing record is thin."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_goodyear_parton, src_goodyear_peirce, src_goodyear_hancock1857, src_goodyear_fanning | 1835-1840 | journalist-biographer + insider-leaning biography + rival account + corporate booklet] He acted against the settled view of the people around him. After the 1830s collapse of the American rubber companies it was the general view that no one could make the material stable; Parton and Peirce record that friends, brothers and his wife told him to stop, and that they treated each new announcement as another of his chimeras. Parton says he first reasoned that only a compound with some other substance could work, tested it, and, when the charred sample showed the opposite of what melting rubber should do, followed that clue while the bystanders at the stove were indifferent. Hancock's account confirms that the effect of sulphur with heat had not been recognised in England or America before. dual_edged: the same refusal to take advice left several years of failed products and, by Peirce's own account, friends who stopped listening. Moderate score: the evidence is mostly narrative retelling of Goodyear's and the trial witnesses' account; the stove episode itself is told differently in Fanning."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_goodyear_holt1858, src_goodyear_peirce, src_goodyear_fanning | 1840s-1855 | patent-office decision + insider-leaning biography + corporate booklet] Documented commitments of other people's and his own money to unproven development and display. Holt's decision records, without contradiction, that his brother-in-law William De Forest advanced $46,084 that Goodyear spent on experiments and new applications and that Goodyear's accounts showed expenditures of $129,535 against receipts of $162,894 on the invention. Peirce reports a $30,000 court at the 1851 Great Exhibition (Fanning gives the same figure) and a $50,000 pair of courts at the 1855 Paris Exposition, filled with hard-rubber furniture, jewellery and portraits on rubber panels; the Paris outlay is described there as a cause of his later financial trouble. dual_edged because the same pattern both opened new product lines (Peirce) and left obligations he could not meet. The patent-office figures are documented but are self-reported accounts; the exhibition figures are Goodyear-side; treated as inference at 0.55. His debts and imprisonment are not used as evidence."
+    },
+    "deep_focus": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_goodyear_parton, src_goodyear_peirce, src_goodyear_holt1858 | 1839-1858 | journalist-biographer + insider-leaning biography + patent-office decision] Dated working habits show a single subject taking nearly all his time. Parton: he watched baking batches 'far into the night'; he kept writing materials by his bed in case an idea came at night; the door-plate of his office and his autobiography were made of rubber. Peirce, citing his private secretary Rev. A. S. Hunt (family-side), says he gave his hours to the work as to a calling and used a Sunday rest from it only by rule. A banker's remark, reported there, was that his bed was weighed down with rubber samples while he was too ill for visitors. The Commissioner's 1858 decision describes the same life as one of unbroken experiment and records that his account books were never kept. dual_edged: the record shows narrow attention to the point of leaving licensing and accounts unmanaged (Peirce; Holt). Anecdotal sources of one house; 0.58."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "찰스 굿이어"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/charles-goodyear-jackman-appleton.jpg",
+    "width": 812,
+    "height": 1193,
+    "source": "Library of Congress Prints and Photographs Division, BIOG FILE - Goodyear, Charles (reproduction numbers LC-USZ6-7162 and LC-USZ6-57), engraving by W. G. Jackman published by D. Appleton & Co., New York, via Wikimedia Commons 'Charles Goodyear LCCN2002717061.jpg'; plate cropped to the engraved portrait (blank caption margins removed)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-70-1923",
+    "attribution": "William G. Jackman, 'Charles Goodyear', engraving, published by D. Appleton & Co., New York (date not recorded on the Library of Congress caption card; a nineteenth-century print); Library of Congress Prints and Photographs Division, record reads 'No known restrictions on publication'",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2002717061/",
+    "creator": "William G. Jackman",
+    "date": "nineteenth century (exact year not recorded)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Charles_Goodyear_LCCN2002717061.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q207667 returned en label 'Charles Goodyear', description 'American inventor (1800-1860)', P569 29 Dec 1800, P570 1 Jul 1860, citizenship United States, instance of human, ko label '찰스 굿이어'. SLUG CHECK: not in scratch/prod_slugs.txt and no previous candidate file. CLASSIFICATION: occupation inventor; field technology only (business and engineering not claimed: his own licensing and manufacturing record is thin and mostly Goodyear-side; he is not documented as an engineer); region north_america; era 19th_century. EVIDENCE READ (6 substantive records, all opened and read locally via curl): Parton (1867 chapter, full); Peirce (1866 biography, chapters on 1834-1855); Grier's 1852 Goodyear v. Day opinion; Commissioner Holt's 1858 extension decision (in part); Hancock's 1857 Personal Narrative (relevant chapters; rival; does not name Goodyear); Fanning's 1955 corporate booklet (full). Independent perspectives: Parton (independent journalist, but built on Goodyear's book and trial testimony), Grier and Holt (adjudicators, favourable to the patentee as plaintiff or petitioner), Hancock (rival, English side). Peirce and Fanning are insider-leaning or corporate. NOT ACCESSIBLE / NOT READ: Goodyear's own Gum-Elastic (1853-55) was read only through quotation in Parton, Peirce and Fanning; Slack, Noble Obsession (2002) and Wolf, India Rubber Man (1939) are lending-restricted on the Internet Archive (401) and were not read; Webster's 1852 argument and Thomas Hancock's patent text were not read directly; Scientific American and Smithsonian pieces were not opened. TREATMENT OF PRIVATE HARDSHIP: debt, imprisonment, the death of children and his wife, and his own illness are documented events and are NOT used as evidence for any trait; the 1855 Paris imprisonment appears only as the setting in which the Legion of Honor award reached him (Holt). ACCIDENT HEDGE: the 1839 stove observation is told with differing details (Peirce 'early months of 1839', Parton 'spring of 1839', Fanning 'believed Feb 23' and an unconfirmed alternate story); Goodyear himself denied it was luck. PORTRAIT: the Commons file 'Southworth and Hawes - Charles Goodyear (Zeno Fotografie) crop.png' was checked and REJECTED: its Commons page gives only a Zeno.org reproduction URL, no holding institution, no date and no accession data, so the stronger rights rule cannot be satisfied. Used instead the Library of Congress print of the Jackman engraving published by D. Appleton & Co. (LOC record: engraving by W.G. Jackman, Appleton, 'No known restrictions on publication'; old caption-card data, no date recorded). Basis: nineteenth-century commercially published engraving (Jackman and the Appleton firm worked in the 1850s-1880s) and the LOC no-known-restrictions statement; the exact publication year is unverified, which is the caveat. File cropped to the engraved image from the 910x1536 LOC scan, no upscaling. Healy's 1855 painting (Akron) and the Iles 1912 reproduction were not used."
+  }
+}

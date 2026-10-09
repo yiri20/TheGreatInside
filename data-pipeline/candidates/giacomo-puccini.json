@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "giacomo-puccini",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Giacomo Puccini",
+    "aliases": [
+      "Giacomo Antonio Domenico Michele Secondo Maria Puccini"
+    ],
+    "wikidataId": "Q7311",
+    "birthYear": 1858,
+    "deathYear": 1924,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_puccini_wikidata",
+      "kind": "wikidata",
+      "title": "Giacomo Puccini (Q7311) -- verified live via wbgetentities (2026-10-08): en label 'Giacomo Puccini', description 'Italian opera composer (1858-1924)', born 22 Dec 1858, died 29 Nov 1924, citizenship Kingdom of Italy (Q172579) and Italy (Q154849), ko label '자코모 푸치니'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7311"
+    },
+    {
+      "id": "src_puccini_dry1906",
+      "kind": "biography",
+      "title": "Wakeling Dry (English music writer), 'Giacomo Puccini' (John Lane, London and New York, 1906), full text from Project Gutenberg via the Internet Archive -- CONTEMPORARY, sympathetic English biography written while Puccini was alive, drawing on his letters, on a conversation with him and on photographs lent by his publisher Ricordi; it is a popular study, not archival scholarship. Read in full for the early years, the working habits, the chapters on Le Villi, Manon Lescaut, La boheme, Tosca and Madama Butterfly, and the account of the 1904 Scala fiasco.",
+      "url": "https://archive.org/details/giacomopuccini43873gut"
+    },
+    {
+      "id": "src_puccini_gilman1908",
+      "kind": "biography",
+      "title": "Lawrence Gilman (American music critic), 'A View of Puccini', in 'Aspects of Modern Opera: Estimates and Inquiries' (John Lane, New York and London, 1908), Internet Archive scan -- CRITICAL contemporary essay by an outside critic (it faults Puccini's fusion of music and drama, calls parts of Madama Butterfly 'insincere', and also credits the originality of Tosca and the influence of Debussy's harmonic experiments on Butterfly). Read in full (the Puccini chapter, pp. 31-70).",
+      "url": "https://archive.org/details/aspectsofmoderno00gilmrich"
+    },
+    {
+      "id": "src_puccini_fraccaroli1925",
+      "kind": "biography",
+      "title": "Arnaldo Fraccaroli (Italian journalist and Puccini's friend), 'La vita di Giacomo Puccini' (G. Ricordi & C., Milan, 1925), Internet Archive scan of the Italian text -- INSIDER-LEANING house biography published by Puccini's own music publisher a year after his death; much of it is Puccini's own telling to the author and quotations from his letters, with additional recollections by Illica and others. Read at length: youth, Le Villi, Edgar, Manon Lescaut, La boheme, Tosca, Madama Butterfly and its revision, La fanciulla del West, and the Turandot chapter (OCR text, so some words are garbled).",
+      "url": "https://archive.org/details/lavitadigiacomop00frac_0"
+    },
+    {
+      "id": "src_puccini_marotti1926",
+      "kind": "biography",
+      "title": "Guido Marotti and Ferruccio Pagni (two friends of Puccini), 'Giacomo Puccini intimo (nei ricordi di due amici)' (Vallecchi, Florence, 1926), Internet Archive scan (Boston Public Library copy) of the Italian text -- FRIENDS' memoir by an author and a painter who saw him almost daily in his last years; affectionate, anecdotal, and quoting Puccini's remarks on librettists, on Debussy, Strauss, Stravinsky and Schoenberg, and on his working habits. Read the chapters on his library of subjects, the librettists, the contemporaries and the studio, and the Il trittico passage.",
+      "url": "https://archive.org/details/giacomopucciniin00maro"
+    },
+    {
+      "id": "src_puccini_britannica_sartori",
+      "kind": "institution",
+      "title": "Claudio Sartori (Italian musicologist, Braidense National Library, Milan), 'Giacomo Puccini', Encyclopaedia Britannica -- independent reference biography by a Puccini specialist; used for dates and sequence of works (the 1884 Le villi premiere and Ricordi's contract, Manon Lescaut, the Butterfly fiasco, the Metropolitan premiere of La fanciulla del west, Il trittico, the posthumous Turandot). Read in full.",
+      "url": "https://www.britannica.com/biography/Giacomo-Puccini"
+    },
+    {
+      "id": "src_puccini_interlude_turandot",
+      "kind": "press",
+      "title": "Georg Predota, 'Puccini: Turandot Premiered Today in 1926', Interlude (25 April 2018) -- popular music-history article describing the unfinished state of Turandot and Toscanini's stopping the first performance at Puccini's last note; its details on the composer's last months are not used. Read in full; cross-checked against Britannica for the date, the conductor and the Alfano completion.",
+      "url": "https://interlude.hk/puccini-turandot-premiered-today-1926/"
+    },
+    {
+      "id": "src_puccini_parterre_fanciulla",
+      "kind": "press",
+      "title": "Parterre Box, 'Here comes my girl' (anniversary post, 10 December), quoting the New York Herald's report of the 10 December 1910 Metropolitan Opera premiere of La fanciulla del West -- newspaper report as quoted by a modern opera blog, used only for the date, cast, Toscanini, Belasco's role in staging and the audience reception. Read in full.",
+      "url": "https://parterre.com/2018/12/10/here-comes-my-girl/"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_puccini_fraccaroli1925, src_puccini_marotti1926, src_puccini_dry1906 | 1890s-1920s | insider house biography + friends' memoir + contemporary biographer] Fraccaroli (from Puccini's own telling) says he asked Giacosa to rework the last act of La boheme because its death scene did not fit the music he heard, was still unsatisfied after a second and third version, went to his publisher Giulio Ricordi to ask for a fourth, and Ricordi sided with him. Marotti and Pagni, two friends, say he would have whole acts redone three or four times when his characters did not fuse for him, and would write and strike out one chord twenty times and weigh a syllable or an accent for half an hour; Dry independently says he makes a rough sketch of the whole score, subjects it to many alterations and then a clean copy 'embodying all the process of polishing'. dual_edged: the same insistence cost his librettists repeated rewrites and, by Marotti's account, a good deal of friction. Kept at 0.64 because all three accounts lean towards Puccini's own telling or friends' memory."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_puccini_dry1906, src_puccini_fraccaroli1925, src_puccini_marotti1926, src_puccini_britannica_sartori | 1902-1924 | contemporary biographer + insider biography + friends' memoir + reference biography] For Madama Butterfly Dry says he asked a Japanese ambassadress for help and obtained actual Japanese melodies from a friend of hers in Paris. For Turandot Fraccaroli says he 'turned half the world upside down' to get Chinese music, as he had for Butterfly and La fanciulla del West, borrowed a Chinese music box and had the British Museum send its unique codex of old Chinese music. Marotti says he went to hear Schoenberg's Pierrot lunaire in Florence, spoke admiringly of Debussy and had stood with him for Stravinsky in a Paris theatre; Britannica says he studied Debussy, Strauss, Schoenberg and Stravinsky, and that Il trittico came out of that study. Several dated instances from four sources, but Dry also quotes him saying he was determined not to go beyond the place in art where he felt at home, and Gilman judges Butterfly's Debussy-like harmonies partly insincere, so the curiosity worked within a fixed style; hence 70, not higher."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_puccini_fraccaroli1925, src_puccini_dry1906, src_puccini_britannica_sartori | 1884-1910 | insider biography + contemporary biographer + reference biography] After Madama Butterfly was howled down at La Scala on 17 February 1904, Dry says he took the score away and Fraccaroli (quoting him) says he withdrew the opera that same night and refunded the theatre; within three months the opera was given at Brescia (28 May) in a revised three-act form in which, per Fraccaroli, the second act was divided in two, a drunk-uncle episode was cut, the tenor's part was enlarged with a new aria and a phrase too close to La boheme was removed. Earlier, in 1884, Fraccaroli and Britannica say he expanded Le Villi from one act to two at Ricordi's suggestion, in about two months; Fraccaroli adds that after the dress rehearsals of La fanciulla del West he cut half of Minnie's act-two aria as a repeat. dual_edged: in the same conversation Fraccaroli has him insisting that the opera was sincere and blaming the audience's broken mood, so he revised the work while rejecting the verdict. Fraccaroli's account is Puccini-sourced and from a Ricordi house biography, which caps the confidence."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_puccini_dry1906, src_puccini_marotti1926, src_puccini_fraccaroli1925 | 1890s-1920s | contemporary biographer + friends' memoir + insider biography] Dry says that, 'following his invariable custom', he chose the Butterfly subject himself, that he took Domenico Oliva's draft of Manon Lescaut and so drastically remodelled it with Ricordi that Oliva's name was dropped from the printed score, and quotes his wish that his next plot let him 'work in my own way'. Marotti and Pagni quote him saying that as a symphonist he would be 'autonomous, free, happy', whereas he felt the 'slavery' of depending on others' inspiration, and that the librettists were the people he had mistreated most; Fraccaroli describes him as 'exacting, imperious' once a libretto was chosen, with ideas he wanted to prevail. The pattern is firm but the evidence is largely his own statements and friends' memories, and his dependence on librettists and on Ricordi cuts against pure autonomy, hence strong_inference and dual_edged."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_puccini_fraccaroli1925, src_puccini_marotti1926, src_puccini_britannica_sartori | 1893-1924 | insider biography + friends' memoir + reference biography] Britannica says that for La boheme, Tosca and Madama Butterfly he worked 'enthusiastically' with Giacosa and Illica; Fraccaroli quotes Illica on four-handed working sessions with Giacosa, Giulio Ricordi and Puccini and on the sustained co-operation among them, and records Puccini going between the two poets to get verses and waiting several days at Giacosa's door for the lyrics of Musetta's waltz. Marotti and Pagni describe violent quarrels between Puccini and Illica that Giacosa and Ricordi had to calm. Dry adds that Puccini worked with an unusual amount of consultation with the writers on the book. Moderate score: a durable team method, but conducted through pressure on the other members, which is why the evidence is read as strong_inference and dual_edged, not as a clear collaborative strength."
+    }
+  },
+  "doNotCopyKeys": [],
+  "externalIdentity": {
+    "wikidataId": "Q7311"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/giacomo-puccini-dupont-1908.jpg",
+    "width": 1147,
+    "height": 1600,
+    "source": "Studio portrait photograph of Giacomo Puccini by A. Dupont, New York, about 1908, held by the Library of Congress Prints and Photographs Division (Miscellaneous Items in High Demand, call number BIOG FILE - Puccini, Giacomo, 1858-1924, reproduction number LC-USZ62-107386), via Wikimedia Commons",
+    "license": "Public domain (photograph copyright-registered in the United States about 1908, so published before 1931)",
+    "licenseUrl": "https://www.copyright.gov/help/faq/faq-duration.html",
+    "attribution": "A. Dupont (Aime Dupont studio), New York, about 1908; Library of Congress; cropped from the scan to remove the film border and downscaled",
+    "attributionUrl": "https://www.loc.gov/pictures/item/93503127/",
+    "creator": "A. Dupont (Dupont studio, New York)",
+    "date": "about 1908",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Giacomo_Puccini,_half-length_portrait,_standing,_facing_slightly_left,_right_hand_inside_coat_LCCN93503127.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "자코모 푸치니"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q7311 returned en label 'Giacomo Puccini', description 'Italian opera composer (1858-1924)', P569 1858-12-22, P570 1924-11-29, citizenship Q172579 and Q154849, instance of human, ko label '자코모 푸치니', P18 'GiacomoPuccini.jpg'. Slug not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION PRECEDENT: giuseppe-verdi.json (Italian composer: occupation composer, field music, regionCode southern_europe, impactDomains artistic+cultural, archetype creative_creator); era 19th_century as for Verdi, Mahler and Chekhov (born before 1865). EVIDENCE READ (every one opened and read from local text, not snippets): Wakeling Dry 1906 (full Project Gutenberg text, 205 KB), Lawrence Gilman 1908 (Puccini chapter, pp. 31-70), Arnaldo Fraccaroli 1925 (full Italian OCR text, 350 KB; read the youth, Le Villi, Boheme, Tosca, Butterfly, Fanciulla and Turandot chapters and searched the rest), Marotti and Pagni 1926 (full Italian OCR text, 285 KB; read the sections on librettists, contemporaries, studio and Il trittico), Britannica (Sartori) in full, Interlude Turandot article, Parterre Box Fanciulla post. INDEPENDENT PERSPECTIVES: Dry (contemporary English biographer), Gilman (critical American critic, outside Italy), Fraccaroli (friend and Ricordi house biography), Marotti and Pagni (two friends), Sartori (reference musicologist). INDEPENDENCE CAVEAT: Fraccaroli, Marotti and Dry each lean on Puccini's own conversations and letters, so for the working-habit rows the self-source is shared; no row rests on a single self-account, but confidence is capped (0.50-0.64). Only Gilman and Sartori are fully outside Puccini's circle, and neither describes working habits in detail. NOT ACCESSIBLE (not opened, no claim rests on them): Mosco Carner's biography, Julian Budden's Puccini: His Life and Works, Giuseppe Adami's Puccini and the Letters of Giacomo Puccini (1931, Internet Archive lending copies return HTTP 401), Specht's 1933 biography, Seligman's Puccini Among Friends, Gino Monaldi's 1925 Giacomo Puccini (Internet Archive text not available), Grove, Musical Courier/Musical America runs, and contemporary reviews by Bonaventura, Torchi and Shaw. SCORING: 5 rows (perfectionism 74, curiosity 70, belief_updating 66, autonomy_need 64, collaboration 58), scored to the evidence and not to coverage or eligibility; eligibility numbers were not run or consulted. Considered and NOT scored: persistence (supported only by generic 'doggedness' wording and by hardship narratives), conflict_tolerance (the quarrels with Illica are told as temper, not as a stance), competitiveness (the Leoncavallo Boheme and Tosca-with-Franchetti episodes are single-source or ambiguous), creative_originality and aesthetic_sensitivity (supported by critical verdicts on the music rather than by behaviour; Gilman is mixed), adaptability, execution_speed, planning_orientation, risk_tolerance, detail_orientation (duplicates the perfectionism episodes). EXCLUDED ON PURPOSE: his throat cancer and death (used only as the bare fact that Turandot was unfinished at his death, never as a trait signal), the 1908 Doria Manfredi scandal, his marriage, affairs and family life, the 1903 motor accident, his hunting and motor-boat habits, any political or wartime role, and sales, fame and rankings. PORTRAIT: Wikidata P18 'GiacomoPuccini.jpg' (516x800) was REJECTED: the Commons page gives source 'unknown', author 'unknown', date '?' and only a generic PD-old tag, so there is no documented publication; it is also under the 800-pixel mark. Chosen instead: Commons file 'Giacomo Puccini, half-length portrait, standing, facing slightly left, right hand inside coat LCCN93503127.jpg' (3267x4096, sha1 7199ccb2...), uploaded from the Library of Congress Prints and Photographs Division item 93503127 (reproduction number LC-USZ62-107386), whose catalogue notes read 'H108575 U.S. Copyright Office' and 'Copyright by A. Dupont', created c1908; the photograph itself carries the handwritten mark 'copyright A. Dupont'. LOC rights-information field is empty (no conflicting rightsholder or restriction notice on the live item record); the neighbouring LOC record 2005685154 (same Dupont New York portrait series, c1908) says 'No known restrictions on publication'. LEGAL BASIS RELIED ON: a United States copyright registration number for a photograph dated about 1908 shows the work was registered as a published photograph in the United States before 1931, so it is in the public domain in the United States; the Commons {{PD-old-70-1923}} tag is not the sole basis. Residual doubts, disclosed: the date is the Library's 'c1908' estimate, and the sitter is identified by the Library's catalogue (confirmed by comparison with other photographs of Puccini in the same LOC series and in the 1906 Dry biography). Downloaded the Commons original (sha1 matches the API), cropped away the negative border and the Library's reproduction number (a crop, not a resize), downscaled to 1147x1600 (long edge 1600; never upscaled) with Pillow LANCZOS, JPEG q85, saved as public/portraits/giacomo-puccini-dupont-1908.jpg; viewed the saved file: a clean head-and-three-quarter-length studio portrait of a man in a dark double-breasted suit, with the studio's copyright mark in the lower left."
+  }
+}

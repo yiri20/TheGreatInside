@@ -688,6 +688,24 @@ describe("confidence and missing data", () => {
       "louis-daguerre",
       "robert-boyle",
       "wilhelm-maybach",
+      // Roster46 (2026-10-10, docs/checkpoints/roster46.md): 14 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero backlog
+      // reuse, one hold (Henry Royce, portrait). Each has whatever eligibility
+      // outcome its own evidence produced (computed by build(), never gated).
+      "alvar-aalto",
+      "charles-goodyear",
+      "georges-cuvier",
+      "giacomo-puccini",
+      "hugo-junkers",
+      "jean-baptiste-charcot",
+      "jmw-turner",
+      "john-dalton",
+      "linus-torvalds",
+      "lord-rayleigh",
+      "ludwig-boltzmann",
+      "oscar-wilde",
+      "pierre-auguste-renoir",
+      "sonja-henie",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1316,6 +1334,24 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "louis-daguerre",
       "robert-boyle",
       "wilhelm-maybach",
+      // Roster46 (2026-10-10, docs/checkpoints/roster46.md): 14 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero backlog
+      // reuse, one hold (Henry Royce, portrait). Each has whatever eligibility
+      // outcome its own evidence produced (computed by build(), never gated).
+      "alvar-aalto",
+      "charles-goodyear",
+      "georges-cuvier",
+      "giacomo-puccini",
+      "hugo-junkers",
+      "jean-baptiste-charcot",
+      "jmw-turner",
+      "john-dalton",
+      "linus-torvalds",
+      "lord-rayleigh",
+      "ludwig-boltzmann",
+      "oscar-wilde",
+      "pierre-auguste-renoir",
+      "sonja-henie",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

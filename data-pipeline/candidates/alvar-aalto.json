@@ -1,0 +1,235 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alvar-aalto",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alvar Aalto",
+    "wikidataId": "Q82840",
+    "birthYear": 1898,
+    "deathYear": 1976,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FI"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect",
+      "product_designer"
+    ],
+    "fieldIds": [
+      "architecture",
+      "design"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "cross_disciplinary",
+      "founder"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_aalto_wikidata",
+      "kind": "wikidata",
+      "title": "Alvar Aalto (Q82840) -- verified live via wbgetentities (2026-10-08): en label 'Alvar Aalto', description 'Finnish architect and designer (1898-1976)', born 3 Feb 1898, died 11 May 1976, ko label '알바르 알토'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q82840"
+    },
+    {
+      "id": "src_aalto_moma1998",
+      "kind": "biography",
+      "title": "Peter Reed (ed.), 'Alvar Aalto: Between Humanism and Materialism' (Museum of Modern Art, New York, 1998), exhibition catalogue with essays by Kenneth Frampton, Pekka Korvenmaa, Juhani Pallasmaa, Peter Reed and Marc Treib and a note by Vilhelm Helander, Internet Archive full-text scan -- scholarly multi-author museum catalogue, mostly ADMIRING in tone but by several independent historians who also record criticism (the 1960s generation's rejection of the late marble-clad work; Korvenmaa on the limits of Aalto's role at Toppila). Read in full: the Pallasmaa essay passages on Paimio, Viipuri, Artek, the 1930s turn from rationalism and the Aino Aalto note; Korvenmaa's essay on industry (first half, through Sunila); Helander's note on Aalto as a competitor. The Frampton and Treib essays and the plate commentary were only searched, not read.",
+      "url": "https://archive.org/details/alvar-aalto-between-humanism-and-materialism"
+    },
+    {
+      "id": "src_aalto_quantrill1983",
+      "kind": "biography",
+      "title": "Malcolm Quantrill, 'Alvar Aalto: A Critical Study' (Secker & Warburg, 1983; New Amsterdam Books paperback 1989), foreword by Kenneth Frampton, Internet Archive full-text scan -- the most CRITICAL monograph consulted: argues that later work was often backward-looking, that the Finlandia Hall realised only part of the promise of the unbuilt Essen Opera House, and that Aalto's ambitions for his MIT post were unrealistic. Read the Introduction and the passages on Viipuri Library (1927-35), Sunila and Artek, the 1938-39 American visits and the MIT appointment; the remaining chapters were searched, not read end to end.",
+      "url": "https://archive.org/details/alvar-aalto-a-critical-study"
+    },
+    {
+      "id": "src_aalto_pearson1978",
+      "kind": "biography",
+      "title": "Paul David Pearson, 'Alvar Aalto and the International Style' (Whitney Library of Design, New York, 1978), Internet Archive full-text scan -- independent American architectural history; its section 'Aino Aalto' discusses how hard it is to attribute the Aaltos' joint work and which credits went to whom, and its notes record the credit lines of the 1936 Paris pavilion competition entries. Read the Aino Aalto section, the 1923-24 Aino passage and the Paris competition passage and notes; the rest was searched, not read end to end.",
+      "url": "https://archive.org/details/alvar-aalto-and-the-international-style"
+    },
+    {
+      "id": "src_aalto_foundation_aino",
+      "kind": "institution",
+      "title": "Alvar Aalto Foundation, biography page 'Aino Aalto' (alvaraalto.fi, Finnish text) -- institutional account (sympathetic to the Aalto legacy but non-self) of Aino Marsio-Aalto's career: joined Aalto's office in early 1924, married him that October, worked as an equal designer, first artistic director of Artek; says the roles of the different designers are hard to trace because work mostly went out under the office's name. Read in full.",
+      "url": "https://www.alvaraalto.fi/en/architects/aino-aalto/"
+    },
+    {
+      "id": "src_aalto_foundation_savoy",
+      "kind": "institution",
+      "title": "Alvar Aalto Foundation page on the Savoy Restaurant interior, Helsinki (1936-37), alvaraalto.fi -- institutional note recording that Aino and Alvar Aalto were commissioned jointly and that the designs were drawn in the newly set-up Artek drawing office. Read in full (short).",
+      "url": "https://www.alvaraalto.fi/?p=9141"
+    },
+    {
+      "id": "src_aalto_mit1999",
+      "kind": "institution",
+      "title": "MIT News Office, 'Renovation of historic Baker House dorm at MIT kicks off residential building campaign', 28 June 1999 -- institutional press release (non-self; promotional for MIT) on Baker House: Aalto first invited to MIT in 1940, commission 1946-48, serpentine form so each student room faces the river, rooms added during construction, and that the architect's wife's final illness kept him from designing the lighting scheme. Read in full.",
+      "url": "https://news.mit.edu/1999/bakerhouse"
+    },
+    {
+      "id": "src_aalto_finnisharch_baker",
+      "kind": "institution",
+      "title": "Finnisharchitecture.fi (Museum of Finnish Architecture / Alvar Aalto Foundation text), project page 'Baker House MIT Senior Dormitory' -- institutional account of the Aaltos' last joint project: Aino Aalto designed the special room furniture and a textile pattern while Alvar taught at MIT. Read in full (short).",
+      "url": "https://www.finnisharchitecture.fi/projects/baker-house-m-i-t-senior-dormitory"
+    },
+    {
+      "id": "src_aalto_moma1984",
+      "kind": "institution",
+      "title": "Museum of Modern Art press release no. 36, 'Alvar Aalto: Furniture and Glass' (27 September-27 November 1984), selective chronology -- institutional chronology (non-self) used for dates of the Paimio furniture experiments, the 1933 patent of the L-leg and the Karhula-Iittala and Riihimaki glass competitions. Read the chronology.",
+      "url": "https://www.moma.org/docs/press_archives/6098/releases/MOMA_1984_0034_36.pdf"
+    },
+    {
+      "id": "src_aalto_kim2009",
+      "kind": "archive",
+      "title": "Hyon-Sob Kim (Korea University), 'Alvar Aalto and Humanizing of Architecture', Journal of Asian Architecture and Building Engineering vol. 8 no. 1 (May 2009), PDF from J-STAGE -- independent scholarly interpretation, sympathetic, that reconstructs Aalto's 1940 article 'The Humanizing of Architecture' (Technology Review) and quotes it at length, together with his own description of the Paimio patient-room devices; used as the source for what Aalto himself argued in 1940 (a SELF source relayed by a scholar) and for the observation that he issued no manifesto. Read the first third (introduction, critique of rationalism, Paimio and Viipuri examples); the later sections on play and nature were skimmed.",
+      "url": "https://www.jstage.jst.go.jp/article/jaabe/8/1/8_1_9/_article"
+    },
+    {
+      "id": "src_aalto_foundation_bio",
+      "kind": "institution",
+      "title": "Alvar Aalto Foundation, biography page 'Alvar Aalto' (alvaraalto.fi, Finnish text) -- institutional summary (non-self but promotional) of Aalto's career: diploma 1921 and first office in Jyvaskyla, the brief period of strict functionalism leading to Paimio, the 1935 foundation of Artek to make and sell his furniture, the 1936 Karhula-Iittala glass competition, postwar public buildings (Saynatsalo, Jyvaskyla, Helsinki House of Culture) and town centres. Read in full (short).",
+      "url": "https://www.alvaraalto.fi/en/architects/alvar-aalto/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aalto_moma1998, src_aalto_quantrill1983 | 1927-1939 | museum catalogue (Pallasmaa essay) + critical monograph] Pallasmaa records that at Paimio (1929-33) Aalto devised heating, ventilation, daylight, colour and acoustic solutions from the patient's position, and that the Paimio Chair (1931-32) was made entirely of bent laminated plywood; for Viipuri Library (1927-35) he introduced a skylit reading space with a sunken floor section and ergonomic, tactile detailing that took the building 'well beyond the functionalist canon'. Quantrill, the most critical source, still credits the 1939 New York pavilion with 'stunning originality' and traces the curved-wood forms through earlier projects. Pallasmaa also names Duiker, Le Corbusier, Lurcat and Asplund as influences, and Quantrill judges much late work backward-looking, so the score is high but not top-band; it rests on the 1927-39 designs, not on later fame."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aalto_moma1998, src_aalto_kim2009, src_aalto_pearson1978 | 1929-1939 | museum catalogue + scholarly paper quoting Aalto + American history] Pallasmaa: Aalto spent 'lengthy experiments' with the Turku furniture maker Otto Korhonen before reaching the Paimio Chair, and in 1933 produced the bent-knee leg by inserting slivers of wood into saw cuts, bending and gluing them. Kim quotes Aalto's own 1940 account of an 'experimental room' at Paimio with ceiling radiators aimed at the foot of the bed and basins designed to run silently. Of Villa Mairea (1938-39) Aalto said an individual case can serve as an 'experimental laboratory', and Maire Gullichsen recalled telling him to treat it as an experimental house (quoted via Pearson). Aalto's own statements are self-reports, but the Korhonen experiments and the leg technique are described by independent historians."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aalto_moma1998, src_aalto_kim2009 | 1929-1940 | museum catalogue + scholarly paper] Pallasmaa reports that Aalto's Paimio scheme was such a radical step from professional convention that members of the Finnish Association of Architects discussed whether the young architect should be stopped from causing a scandal (he was backed by Frosterus and Strengell). Pallasmaa also quotes Aalto's criticism of Marcel Breuer's tubular-steel chair as failing requirements of glare, sound and heat conduction, and Kim documents his 1940 article arguing that rationalisation 'has not gone deep enough' and that he declined to publish manifestos ('I answer with my buildings', as reported). Admiring sources, but several dated instances of choosing his own line against prevailing doctrine."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aalto_moma1998, src_aalto_kim2009, src_aalto_quantrill1983 | 1928-1940 | museum catalogue + scholarly paper + critical monograph] Pallasmaa: after committing to functionalism in 1928 and defending its rationalist ideology fervently, Aalto in the mid-1930s became a sceptic of rationalist principles, a change 'more dramatic' in his writings than in his designs; Viipuri Library went through three successive schemes (a classicist 1927 entry, a continental-functionalist revision, then the personal 1933 scheme). Kim shows the 1940 article presenting this as a deepening, not a repudiation, of rationalism. Quantrill confirms the change of idiom from Turun Sanomat/Paimio to Mairea and the New York pavilion. Inference, not self-declared reversal: Aalto described it as an extension of his earlier position."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aalto_moma1998, src_aalto_foundation_bio, src_aalto_moma1984 | 1930-1960 | museum catalogue + institutional bio + chronology] Korvenmaa and Pallasmaa document Aalto's work across buildings, furniture, glass, exhibition interiors, standard houses and regional plans (the Kokemaenjoki valley and Imatra); the Foundation says he treated a building as a total work including furniture and lights, and MoMA's chronology dates the furniture experiments, the 1933 leg patent and the 1932-36 glass competitions. The domains are neighbouring design disciplines practised from one office, which limits the score."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aalto_moma1998, src_aalto_kim2009, src_aalto_finnisharch_baker | 1929-1949 | museum catalogue + scholarly paper + institutional page] Pallasmaa: Paimio was designed 'to the last detail', including washbasins, spittoons, hospital beds, wardrobes, lamps and outdoor chairs, with a canary-yellow stair and floor chosen for light and mood; Kim quotes Aalto's own description of basins angled so water falls noiselessly and of round skylights at Viipuri for indirect reading light. At Baker House the Foundation says bespoke furniture was needed for each differently shaped room (designed by Aino Aalto). Quantrill notes that professional librarians criticise the Viipuri level changes, a cost of putting the reader's environment ahead of staff convenience."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aalto_moma1998 | 1930s-1960s | museum catalogue (Pallasmaa essay)] Pallasmaa describes Aalto's furniture legs (the X, Y and Z series in Artek shop practice) as an open-ended modular system, a single prefabricated unit for stairs with different tread-riser proportions, the wedge-shaped brick for the House of Culture wall, and a growing set of reusable office 'Aalto standards' for tiles, acoustic surfaces, window and door details, ironwork and light fittings. One main source with detailed examples; Quantrill adds that Aalto advocated standardisation in housing after 1940."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aalto_quantrill1983, src_aalto_moma1998, src_aalto_pearson1978 | 1927-1936 | critical monograph + museum catalogue + American history] Quantrill: Viipuri Library, won in competition in 1927, passed through three design stages and the final scheme was presented on 14 December 1933 with building starting in April 1934, more than six years later with 'many frustrations'. The Reed catalogue notes (citing Schildt) that between the competitions that led to Paimio and the 1936 Paris pavilion Aalto entered twenty-two competitions without one leading to a built project; Pearson records that in June 1936 his Paris entries took first and second prizes. Persistence here is institutional and dated, not inferred from fame."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aalto_quantrill1983, src_aalto_moma1998 | 1933-1950 | critical monograph + museum catalogue] Quantrill: on his first US visit in October 1938 Aalto spoke little English, explaining ideas 'by sign language'; he worked on his English over the winter and in March 1939 could explain himself more clearly, then lectured at Cranbrook and Yale. After the war he became one of the first European visiting professors to commute to MIT, two visits of four to six weeks each year. Pallasmaa notes his 'capacity to make stylistic adaptations' between successive Viipuri schemes, and Aalto moved his office from Jyvaskyla to Turku to Helsinki (1933). Mostly one monograph for the English-language episode."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_aalto_moma1998, src_aalto_pearson1978, src_aalto_foundation_aino, src_aalto_finnisharch_baker | 1924-1949 | museum catalogue quoting Giedion + American history + foundation page] Via Reed's catalogue, Giedion wrote (1949) that exhibitions and work up to 1949 were signed 'Aino and Alvar Aalto' with her name first, though Aino herself said Alvar was the creative one. Pearson finds the pair generally listed as equal authors but with exceptions (Villa Flora only under Aino's name, some competitions omitting her) and calls the Artek attribution the 'most troubling'; the Alvar Aalto Foundation says she worked as an equal designer but roles are hard to trace because work went out under the office's name. The Baker House pages credit Aino with all the special room furniture while Alvar taught at MIT. At the 1936 Paris competition, Pearson reports credits to assistants Aarne Ervi and Viljo Revell. Dual-edged because who designed what is not settled; the row does not assume either reading."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aalto_moma1998, src_aalto_quantrill1983 | 1929-1940 | museum catalogue + critical monograph] Aalto designed Paimio from the patient's viewpoint, wrote of the Mairea villa as a laboratory whose findings should eventually reach housing for people of lesser means (Pallasmaa notes this aim 'remained stillborn'), and at Sunila planned housing for all grades of workers (Korvenmaa, who also stresses that the industrialist's power structure remained intact). Quantrill reports that after the 1940 Winter War he advocated standardised low-cost and temporary housing within the Finnish architects' association (single source). Stated aims partly self-reported; modest confidence."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aalto_moma1998, src_aalto_quantrill1983 | 1933-1939 | museum catalogue + critical monograph] Korvenmaa documents that Aalto, having proved himself with Toppila, 'set out to secure his share' of mid-1930s commissions and became almost a company architect to the Ahlstrom group through Harry Gullichsen; Artek was set up in 1935 by Aalto, Maire Gullichsen and Nils-Gustav Hahl so that his furniture could be produced and marketed, and Quantrill says Aalto used it as the outlet and revenue source for his own designs. Aalto moved his office to Helsinki in 1933 as Paimio was completed, expecting commissions in the capital. Documented moves; the interpretation of motive is inference."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aalto_quantrill1983, src_aalto_moma1998 | 1933-1946 | critical monograph + museum catalogue] Quantrill: after the 1938 American visit Aalto studied English to communicate better, and in 1939 immediately set about promoting a US lecture tour; for his 1945 MIT visiting post he proposed a tour of war-damaged Europe at his hosts' expense, an academic role MIT was not prepared to support (Quantrill calls his ambitions for the programme 'quite unrealistic'). Pallasmaa and Quantrill record the 1933 move to Helsinki. Initiative is well documented, but some of it did not succeed."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_aalto_moma1998, src_aalto_pearson1978 | 1929-1939 | museum catalogue + American history] Pallasmaa calls the 30-year-old Aalto's Paimio scheme a 'young daredevil' step away from professional convention; the Gullichsens told him Villa Mairea should be treated as an experimental house for which he would not be blamed if it failed (via Pearson), so some of the risk was shared with the client. No firsthand statement of risk appetite; kept low in confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알바르 알토"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q82840 returned en label 'Alvar Aalto', description 'Finnish architect and designer (1898-1976)', P569 3 Feb 1898, P570 11 May 1976, ko label '알바르 알토', P18 'Alvar Aalto1.jpg'. SOURCES READ: the 1998 Museum of Modern Art catalogue (Pallasmaa essay passages, Helander note, Korvenmaa essay first half, Aino Aalto note; Frampton and Treib essays only searched), Quantrill's critical monograph (selected chapters), Pearson 1978 (Aino section and Paris credit notes), Kim 2009 (first third), Alvar Aalto Foundation pages (Aino Aalto, Alvar Aalto, Savoy), MIT 1999 press release, Finnisharchitecture.fi Baker House page, MoMA 1984 chronology. NOT ACCESSED (only quoted or cited by the sources above): Goran Schildt's biographies (Early Years, Decisive Years, Masterworks; Internet Archive copies are lending-only), Richard Weston's 'Alvar Aalto', Sigfried Giedion's 'Space, Time and Architecture' (Giedion's 1949 comments are known only as quoted in the MoMA catalogue), Renja Suominen-Kokkonen's study of Finnish women architects (cited by the catalogue as the detailed account of Aino Aalto), Aalto's own essays (known only through Kim and the catalogue), the 1938 MoMA exhibition catalogue and contemporary press. SCORING: 14 rows from 1927-1949 documented behaviour; none from fame, awards, output, or any private-life circumstance. Marriage and bereavement are not used as evidence anywhere; the Aino Aalto credit question is recorded as dual-edged and unresolved. Political and wartime roles are incidental and unscored. Date note: sources give the marriage as 1924 (Foundation, Pearson) while MoMA's 1984 chronology says 1925. PORTRAIT: the Commons lead 'Alvar Aalto1.jpg' (1960, unknown author) was REJECTED: its source is a blog repost, there is no institutional record, and the Commons template (Finnish 50-year rule) does not settle US/URAA status for a 1960 photograph. Used instead the Finnish Heritage Agency JOKA/Kaleva press photograph of 18 July 1931 (Toppila pulp mill opening, accession JOKAKAL3B:23743): Finna record (API verified 2026-10-08) states CC BY 4.0 under the Finnish Heritage Agency; photographer not recorded; Commons page File:Alvar_Aalto_Oulu_19310718.tif matches. Published in Kaleva 19 July 1931. Frame contains a stray negative number at top left. Resized from 5282x3972 to 1600x1203 (q85), no crop."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alvar-aalto-kaleva-1931.jpg",
+    "width": 1600,
+    "height": 1203,
+    "source": "Finnish Heritage Agency (Museovirasto), JOKA Press Photo Archive, Kaleva collection, accession JOKAKAL3B:23743, via Finna",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Alvar Aalto at the opening of the Toppila sulphite pulp mill, Oulu, 18 July 1931. Photographer not named (Kaleva newspaper). Finnish Heritage Agency, JOKA Press Photo Archive, Kaleva, CC BY 4.0. Downsized from the original scan.",
+    "attributionUrl": "https://www.finna.fi/Record/museovirasto.775308E9DAEFE9E92B14AD0DF7F6AD7D",
+    "creator": "Unknown photographer (Kaleva newspaper)",
+    "date": "1931-07-18",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alvar_Aalto_Oulu_19310718.tif"
+  }
+}

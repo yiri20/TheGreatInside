@@ -1,10 +1,10 @@
 /**
- * Roster45 (2026-10-09, docs/checkpoints/roster45.md): tenth new-candidate
+ * Roster46 (2026-10-10, docs/checkpoints/roster46.md): eleventh new-candidate
  * roster-expansion cycle after the recent-cohort publication-vs-matching
  * architecture diagnostic (CONTINUE_EXPANSION_AS_IS classification) and the
- * fourth run under the Major Achievement Selection Standard. Table-driven
- * candidate<->production equality for all 15 promoted people, all freshly
- * researched, zero backlog reuse, no new hold this cycle (the Roster43 hold Louis Sullivan
+ * fifth run under the Major Achievement Selection Standard. Table-driven
+ * candidate<->production equality for all 14 promoted people, all freshly
+ * researched, zero backlog reuse, one hold this cycle (Henry Royce; the Roster43 hold Louis Sullivan
  * remains unpromoted). Mirrors
  * roster42.test.ts's shape and like it deliberately does NOT assert that
  * every addition is non-match-eligible: eligibility is whatever each
@@ -29,27 +29,26 @@ import type { Candidate } from "../candidateSchema.js";
 import { hasCandidateFile } from "./matchPoolIntegrityAudit.js";
 
 const TARGETS = [
-  "alexandra-david-neel",
-  "andreas-vesalius",
-  "charles-lyell",
-  "cyrus-field",
-  "edgar-allan-poe",
-  "edouard-manet",
-  "francisco-goya",
-  "franz-schubert",
-  "gustav-mahler",
-  "herman-hollerith",
-  "humphry-davy",
-  "jim-clark",
-  "louis-daguerre",
-  "robert-boyle",
-  "wilhelm-maybach",
+  "alvar-aalto",
+  "charles-goodyear",
+  "georges-cuvier",
+  "giacomo-puccini",
+  "hugo-junkers",
+  "jean-baptiste-charcot",
+  "jmw-turner",
+  "john-dalton",
+  "linus-torvalds",
+  "lord-rayleigh",
+  "ludwig-boltzmann",
+  "oscar-wilde",
+  "pierre-auguste-renoir",
+  "sonja-henie",
 ] as const;
 
 // Backlog candidates NOT retried this cycle (no concrete new signal since
 // Roster41; the same portrait / Oceania-region / evidence-quality blockers
 // stand) -- not promoted, not silently discarded (see
-// docs/checkpoints/roster45.md).
+// docs/checkpoints/roster46.md).
 const HELD_NOT_PROMOTED = [
   "naomi-uemura",
   "edmund-hillary",
@@ -63,6 +62,9 @@ const HELD_NOT_PROMOTED = [
   // Roster43 hold: researched and evidence_approved, but no portrait with a
   // resolved rights basis (see docs/checkpoints/roster43.md).
   "louis-sullivan",
+  // Roster46 hold: researched and evidence_approved, but no portrait with a
+  // resolved rights basis (see docs/checkpoints/roster46.md).
+  "henry-royce",
 ] as const;
 
 const TARGET_SET = new Set<string>(TARGETS);
@@ -88,7 +90,7 @@ const production = Object.fromEntries(
   TARGETS.map((slug) => [slug, SEED_PEOPLE.find((p) => p.slug === slug)!]),
 ) as Record<(typeof TARGETS)[number], (typeof SEED_PEOPLE)[number]>;
 
-describe.each(TARGETS)("Roster45: %s", (slug) => {
+describe.each(TARGETS)("Roster46: %s", (slug) => {
   const candidate = candidates[slug];
   const person = production[slug];
 
@@ -180,8 +182,8 @@ describe.each(TARGETS)("Roster45: %s", (slug) => {
   });
 });
 
-describe("Roster45: known backlog blockers remain genuinely absent from production", () => {
-  it("Naomi Uemura, Edmund Hillary, Anita Roddick, Simone de Beauvoir, Mimar Sinan, the Roster41 hold Claude Shannon, the Roster42 hold Beatrix Potter and the Roster43 hold Louis Sullivan are all absent from production", () => {
+describe("Roster46: known backlog blockers remain genuinely absent from production", () => {
+  it("Naomi Uemura, Edmund Hillary, Anita Roddick, Simone de Beauvoir, Mimar Sinan, the Roster41 hold Claude Shannon, the Roster42 hold Beatrix Potter the Roster43 hold Louis Sullivan and the Roster46 hold Henry Royce are all absent from production", () => {
     for (const slug of HELD_NOT_PROMOTED) {
       expect(SEED_PEOPLE.some((p) => p.slug === slug), `${slug} should not be in production this cycle`).toBe(false);
     }
@@ -216,6 +218,12 @@ describe("Roster45: known backlog blockers remain genuinely absent from producti
     expect(sullivan.portrait?.status).toBe("held");
   });
 
+  it("Henry Royce stays evidence_approved but portrait-held (not promoted on an unresolved rights basis)", () => {
+    const royce = loadCandidate("henry-royce");
+    expect(royce.status).toBe("evidence_approved");
+    expect(royce.portrait?.status).toBe("held");
+  });
+
   it("Simone de Beauvoir and Mimar Sinan remain genuinely held (audit-flagged prior batch, not re-promoted on reused research alone)", () => {
     for (const slug of ["simone-de-beauvoir", "mimar-sinan"]) {
       expect(loadCandidate(slug).status, slug).toBe("held");
@@ -223,7 +231,7 @@ describe("Roster45: known backlog blockers remain genuinely absent from producti
   });
 });
 
-describe("Roster45: cross-target identity integrity", () => {
+describe("Roster46: cross-target identity integrity", () => {
   it("no duplicate ids, slugs, or Wikidata QIDs across all 422 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
@@ -242,7 +250,7 @@ describe("Roster45: cross-target identity integrity", () => {
     }
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 422 people, all 15 Roster45 targets present in both", () => {
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 422 people, all 14 Roster46 targets present in both", () => {
     expect(SEED_PEOPLE).toHaveLength(422);
     expect(PEOPLE_INDEX).toHaveLength(422);
     for (const slug of TARGETS) {
@@ -251,7 +259,7 @@ describe("Roster45: cross-target identity integrity", () => {
     }
   });
 
-  it("the pre-existing match-eligible set is untouched: exactly 114 eligible people outside the 15 Roster45 targets", () => {
+  it("the pre-existing match-eligible set is untouched: exactly 114 eligible people outside the 14 Roster46 targets", () => {
     const preExistingEligible = SEED_PEOPLE.filter((p) => p.isMatchEligible && !TARGET_SET.has(p.slug));
     expect(preExistingEligible).toHaveLength(114);
     // Whatever the targets' own evidence produces is reflected, not assumed.
@@ -260,7 +268,7 @@ describe("Roster45: cross-target identity integrity", () => {
   });
 });
 
-describe("Roster45: Major Achievement structural checks", () => {
+describe("Roster46: Major Achievement structural checks", () => {
   // Raw internal identifiers must never leak into rendered editorial prose:
   // source ids (src_...), attribute ids (snake_case), or unresolved keys.
   const RAW_ID = /src_[a-z0-9_]+|[a-z]+_[a-z]+(?:_[a-z]+)*/;

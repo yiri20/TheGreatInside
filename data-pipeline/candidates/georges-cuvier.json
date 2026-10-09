@@ -1,0 +1,239 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "georges-cuvier",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Georges Cuvier",
+    "wikidataId": "Q171969",
+    "birthYear": 1769,
+    "deathYear": 1832,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "naturalist",
+      "anatomist",
+      "scientist"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "detail_oriented",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cuvier_wikidata",
+      "kind": "wikidata",
+      "title": "Georges Cuvier (Q171969) -- verified live via wbgetentities (2026-10-09): en label 'Georges Cuvier', description 'French naturalist, zoologist and paleontologist (1769-1832)', born 23 August 1769, died 13 May 1832, citizenship France, instance of human, ko label '조르주 퀴비에'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q171969"
+    },
+    {
+      "id": "src_cuvier_lee1833",
+      "kind": "biography",
+      "title": "Sarah (Mrs. R.) Lee, 'Memoirs of Baron Cuvier' (London, 1833), Internet Archive scan -- ADMIRING, FIRSTHAND-FAMILY biography by a naturalist and friend who lived in daily contact with the Cuvier household in Paris for nearly four years (1819-23) and openly sets out to show his 'heart'; hagiographic in tone and silent on the Geoffroy debate's outcome, so used for dated actions and household observations, not for judgments of merit. Read the life narrative (Normandy, Paris, the Museum, the Institute), the account of the fossil work and the elephant papers, the Fontainebleau and anoplotherium episodes, and the whole section on his character and daily habits; the legislative sections and the bibliography were skimmed only.",
+      "url": "https://archive.org/details/memoirsofbaroncu01leer"
+    },
+    {
+      "id": "src_cuvier_rudwick1997",
+      "kind": "biography",
+      "title": "Martin J. S. Rudwick (historian of geology), 'Georges Cuvier, Fossil Bones, and Geological Catastrophes: New Translations and Interpretations of the Primary Texts' (University of Chicago Press, 1997) -- INDEPENDENT scholarly study, built on the Institut and Museum archives, that translates Cuvier's 1790s-1820s papers and prefaces each with a critical commentary (including candid remarks on his self-assurance, his circumspection toward Lamarck and his dealings with Brongniart). Read the preface, the introduction, the commentaries and translations on the elephant, megatherium and Montmartre papers, the 1800 appeal, the lectures, the Paris-basin collaboration and the Discourse chapters; the later technical appendices were not read. Read in a full-text copy of the printed book; the book itself is cited, not the copy.",
+      "url": "https://archive.org/details/georgescuvierfos0000rudw"
+    },
+    {
+      "id": "src_cuvier_flourens1841",
+      "kind": "biography",
+      "title": "Pierre Flourens (Cuvier's successor as perpetual secretary of the Academie des sciences), 'Analyse raisonnee des travaux de Georges Cuvier, precedee de son eloge historique' (Paris, 1841), Internet Archive scan -- ADMIRING COLLEAGUE's memorial and critical analysis of the scientific work, hostile to transformism; used for what he says Cuvier did (the 1796 start, the classification, the Lamarck passage). The éloge and the sections on classification and on the species question were read; the detailed anatomy sections were skimmed.",
+      "url": "https://archive.org/details/analyseraisonne01flougoog"
+    },
+    {
+      "id": "src_cuvier_flourens1865",
+      "kind": "biography",
+      "title": "Pierre Flourens, 'De l'unite de composition et du debat entre Cuvier et Geoffroy Saint-Hilaire' (Paris, 1865), Internet Archive scan -- an eyewitness account of the 1830 Academie debate by a friend of both men who, on his own statement, was shown each side's papers beforehand; he sides with Cuvier on the science. Read the opening account of the origin of the quarrel, Cuvier's replies and the close of the oral debate; the later survey of comparative anatomy was skimmed.",
+      "url": "https://archive.org/details/delunitdecompos01flougoog"
+    },
+    {
+      "id": "src_cuvier_eckermann",
+      "kind": "biography",
+      "title": "Johann Peter Eckermann, 'Conversations of Goethe', English translation (1850) -- CONTEMPORARY OUTSIDER/CRITICAL perspective: the entries of 1830-31 record Goethe's own reaction to the Cuvier-Geoffroy Saint-Hilaire quarrel (he sided with Geoffroy and found Cuvier's analytic method wanting) and a second-hand judgement, from the entourage of the jurist Etienne Dumont, that Cuvier expounds a fact better than anyone but 'has scarcely any philosophy'. Read the relevant entries in full.",
+      "url": "https://archive.org/details/conversationsofg02goetuoft"
+    },
+    {
+      "id": "src_cuvier_embryo",
+      "kind": "archive",
+      "title": "Valerie Racine, 'Georges Cuvier (1769-1832)', Embryo Project Encyclopedia (Arizona State University, 2013) -- scholarly reference article, independent of the Cuvier circle, that summarises the principles of correlation of parts and conditions of existence, the four embranchements, the 1796 elephant paper, the Discourse and the Geoffroy debate with references to Appel, Coleman, Outram and Rudwick. Read in full.",
+      "url": "https://embryo.asu.edu/pages/georges-cuvier-1769-1832"
+    },
+    {
+      "id": "src_cuvier_venus_memoir",
+      "kind": "archive",
+      "title": "Georges Cuvier, 'Extrait d'observations faites sur le cadavre d'une femme connue a Paris et a Londres sous le nom de Venus hottentote' (Memoires du Museum, 1817), as reprinted in 'Discours sur les revolutions du globe, Etudes sur l'ibis et Memoire sur la Venus hottentote' (Paris, 1864), Internet Archive scan -- PRIMARY text, Cuvier's own published anatomical report on the body of Sarah Baartman; read in the opening pages for how he frames the subject and describes her. Used only as a record of what he published, never as support for a score.",
+      "url": "https://archive.org/details/discoursaurlesr00passgoog"
+    },
+    {
+      "id": "src_cuvier_exeter",
+      "kind": "institution",
+      "title": "University of Exeter, 'Cast in Stone: statues and memories of empire in post-imperial France and Britain', database entry 'Cuvier, Georges' -- a university research project's short biography that places Cuvier in the history of scientific racism and records his examination, dissection and retention of the remains of Sarah Baartman (her remains were returned to South Africa in 2002). Read in full (short entry); it cites Crais and Scully (2009), Blanckaert (2013) and Saini (2019), which could not be accessed.",
+      "url": "https://castinstone.exeter.ac.uk/database/s/en/item/1343"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 77,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cuvier_rudwick1997, src_cuvier_lee1833, src_cuvier_eckermann, src_cuvier_flourens1865 | 1796-1830 | independent scholarly study + admiring family biography + contemporary outsider + eyewitness colleague] Rudwick records that in his first major paper (read 4 April 1796) the 26-year-old rejected the opinions of distinguished predecessors on the ground that their observations had been insufficiently precise, and rested the claim of three distinct elephant species on skull-by-skull comparison with the drawings engraved from his own dissections; the same commentary says his Discourse treated geological 'systems' as underdetermined by the evidence and argued for fixing facts first. Lee (admiring) gives a dated teaching test: he told a medical student who claimed a novelty in human dissection to dissect an insect first and then re-examine the claim. In 1830 he answered Geoffroy Saint-Hilaire by asking what 'unity of plan' and 'unity of composition' meant and showing that, taken literally, they were refuted by opening a bird and a fish (Flourens, who sides with Cuvier on the science). Goethe, who disliked his method, still passes on the judgement that nobody expounds a fact better. Several dated instances from independent and admiring sources; not scored above 80 because Lee is admiring and Goethe's remark is second-hand."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cuvier_flourens1841, src_cuvier_rudwick1997, src_cuvier_lee1833 | 1790s-1820s | admiring colleague memorial + independent scholarly study + admiring family biography] Flourens describes the 1800s mollusc work as an anatomy of unprecedented exactness across muscles, vessels, nerves and sense organs of a whole class, where Daubenton had described essentially skeleton and viscera; Rudwick adds that his mollusc dissections demanded much finer manual dexterity than vertebrate work and that Cuvier made most of his own drawings throughout his life (they were then engraved), the plates being the evidence in the elephant paper; Lee reports that he examined the details of elementary school books and coloured the models for geography maps himself, and says no labour however minute irritated him when it served his object. Documented across three sources, though two are admiring."
+    },
+    "systems_abstraction": {
+      "score": 77,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cuvier_flourens1841, src_cuvier_embryo, src_cuvier_rudwick1997 | 1795-1817 | admiring colleague + independent reference article + independent scholarly study] Flourens and the Embryo Project article both record that Cuvier treated an animal as a functionally integrated whole, ranked organs by importance (principle of the subordination of characters) and, by comparing the nervous system, reduced the animal kingdom to four general plans, the embranchements, set out in Le Regne animal (1817); Rudwick describes the same working principle (the animal as a whole constrained by its conditions of existence) as what enabled him to assemble fossil skeletons from scattered bones without inventing composites. Goethe's complaint that his analytic method loses the synthetic 'spirit' is a different criticism and does not contradict the structural reasoning documented here. Documented in three sources; not scored 85+ because the reasoning is mainly attested in secondary retellings of his published method."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cuvier_lee1833, src_cuvier_rudwick1997 | 1788-1830 | admiring family biography + independent scholarly study] Rudwick shows the 22-year-old tutor in Normandy writing long letters that survey current botany, zoology, mineralogy and Deluc's theory of the earth from the journals he was getting from Paris, and doing his own chalk-and-flint field observation; Lee, from daily household observation in 1819-23, says he fetched the name of a new flower within the half hour, followed technical news (the Thames tunnel, rail-roads) and kept asking visitors for information he lacked. Two independent kinds of evidence (letters of 1791 and household observation of the 1820s), both showing wide-ranging questions; not higher because Lee is admiring."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cuvier_rudwick1997, src_cuvier_flourens1841, src_cuvier_lee1833 | 1791-1830 | independent scholarly study + admiring colleague + admiring family biography] Sustained work, each with published output, in invertebrate anatomy (molluscs, insects), vertebrate comparative anatomy, fossil reconstruction, the stratigraphy of the Paris region (with Brongniart) and the annual historical reports on the progress of the physical sciences for the Institut. Scored from the scientific range only; his educational and state posts are not used. Moderate because all of it sits within natural history broadly understood."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_cuvier_rudwick1997, src_cuvier_eckermann, src_cuvier_flourens1841, src_cuvier_flourens1865 | 1796-1832 | independent scholarly study + contemporary outsider + admiring colleague] Documented in 1796 as rejecting Buffon's cooling-earth reading of the northern fossil bones and predecessors' identifications; and later as holding a fixed position against transformism (Lamarck) and against Geoffroy Saint-Hilaire's single plan, where the contemporary Goethe judged him wrong. dual_edged: the same stance produced the extinction result and a rigid opposition to the idea of transmutation that Rudwick calls 'rooted'. Several dated instances from independent sources; not scored higher because Rudwick also notes the opposition was shared with many contemporaries."
+    },
+    "belief_updating": {
+      "score": 52,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cuvier_rudwick1997, src_cuvier_lee1833 | 1796-1812 | independent scholarly study + admiring family biography] Rudwick records that he began fossil work assuming that all fossil bones dated from the same catastrophe and changed this after working out that the Paris fossils sat in a thick pile of older rock than the loose-deposit mammoths, which led to the Paris-basin stratigraphy and to the ordering of faunas by age; Lee says he acknowledged and corrected errors in the first volumes of the Lecons. Against that, Rudwick documents a rooted refusal to treat the mummified animals or fossils as evidence of species change, and he reduced the ibis case to a misidentification. Mixed: updated on stratigraphy and detail, firm on the species question; hence a midpoint at low confidence."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cuvier_eckermann, src_cuvier_rudwick1997, src_cuvier_lee1833 | 1796-1830 | contemporary outsider + independent scholarly study + admiring family biography] Goethe (critical of his method) records the judgement from Dumont's circle that Cuvier's 'power of representation and his style' were admirable and that no one expounds a fact better; Rudwick shows him presenting the 1796 paper tactfully to the museum's zoologists and addressing the 1800s lecture courses at the Athenaeum and Lycee to a general public in a way that kept geology from being read as anti-religious; Lee says he sketched the animal in chalk while speaking. Several kinds of evidence; not higher because the sources describe exposition and presentation rather than winning sceptical opponents."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cuvier_rudwick1997, src_cuvier_flourens1841, src_cuvier_lee1833 | 1798-1828 | independent scholarly study + admiring colleague + admiring family biography] Rudwick documents the 1798 text and the 1800 prospectus in which he set out a research programme for fossil bones, listed his collaborators, and announced that he already had hundreds of drawings and fifty plates engraved before the work was printed; Flourens records the planned 20-volume natural history of fishes, with materials already put in order before the first volume of 1828; Lee reports that by seven in the morning he had arranged his assistants' work for the day. Three distinct sources."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cuvier_rudwick1997, src_cuvier_lee1833, src_cuvier_flourens1841 | 1795-1810 | independent scholarly study + admiring biography + admiring colleague] Rudwick documents that his fossil programme used quarry workmen around Paris, visits to private collections and correspondence with collectors across Europe, with an open appeal for specimens and information in 1800; Lee (quoting the memorial tradition) says that after he joined the Museum as an assistant in 1795 he began building a collection of comparative anatomy starting from four or five old skeletons in a lumber-room. Two independent kinds of evidence of self-initiated resource building."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cuvier_rudwick1997, src_cuvier_lee1833 | 1796-1810 | independent scholarly study + admiring family biography] Rudwick records three distinct episodes: the 1796 paper dismissed predecessors' observations as imprecise, the 1800 prospectus 'tacitly discouraged any potential competitors' by showing how far his project had advanced, and in the 1800s lectures he avoided attacking the more powerful Lamarck directly; he also notes that Cuvier 'did not count modesty among his virtues'. Lee asserts the opposite (freedom from vanity and from jealousy), which Rudwick's reading does not support. dual_edged; the instances come from one scholar's commentary, so confidence is moderate-low."
+    },
+    "risk_tolerance": {
+      "score": 34,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cuvier_rudwick1997, src_cuvier_lee1833 | 1796-1810 | independent scholarly study + admiring family biography] In the scientific sphere Rudwick repeatedly shows him drawing back to concrete conclusions rather than speculating (the 1796 paper left the cause of the catastrophe to a bolder 'genius'; later commentary notes his 'consistent caution about going beyond purely phenomenological laws'), and avoiding open attack on a powerful senior colleague. Lee records that in 1798 he declined an invitation to join the expedition to Egypt, judging that systematic work in the Paris collections would serve science better. Two distinct documented instances. dual_edged: the caution kept his claims sturdy but also closed off the transformist hypothesis."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cuvier_rudwick1997, src_cuvier_lee1833 | 1800-1823 | independent scholarly study + admiring family biography] Rudwick documents the Paris-basin work with Brongniart (the field research mainly Brongniart's, which Cuvier later acknowledged 'with uncharacteristic generosity', while Cuvier's name stood first and the manuscript was in his hand) and the 1800 open call for help from savants and collectors across Europe; Lee reports that he opened his library, drawings and collections to herself and Bowdich and allowed them to publish some of his own drawings of molluscs. dual_edged: openness to helpers but with credit unevenly shared in the Brongniart case."
+    },
+    "conflict_tolerance": {
+      "score": 57,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cuvier_flourens1865, src_cuvier_rudwick1997, src_cuvier_lee1833 | 1830 and earlier | eyewitness colleague + independent scholarly study + admiring biography] In the 1830 debate he answered Geoffroy Saint-Hilaire's reports in the Academy in several public replies, demanded definitions, and set the opposing arguments side by side in notes to his fish history (Lee, who says he had long stayed silent before replying). Against that, Rudwick records that he did not attack the more powerful Lamarck openly in his 1800s lectures and chose a safer target. Mixed engagement: willing to meet a conflict in public once it reached the Academy, indirect before; hence near the midpoint."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cuvier_flourens1841, src_cuvier_lee1833, src_cuvier_rudwick1997 | 1795-1828 | admiring colleague + admiring family biography + independent scholarly study] Over three decades he built a comparative-anatomy collection, rewrote the classification on anatomical grounds, and began a descriptive natural history of every known fish; Flourens says he was never content with the abridged system of the Regne animal and wanted every species described in full; Lee quotes his reply that however rich a collection is, one still wants more; Rudwick shows a research agenda restated across his geological texts. Not scored on output or honours but on repeated reorganisation of the field to a higher standard; the two admiring sources limit confidence."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cuvier_lee1833, src_cuvier_rudwick1997, src_cuvier_flourens1841 | 1795-1828 | admiring family biography + independent scholarly study + admiring colleague] Lee describes a fixed routine (up by seven, papers prepared, assistants assigned, visitors received, reading in the carriage, ending the day with readings) kept alongside heavy duties; Rudwick notes that the Paris-basin fieldwork was designed to fit his official duties and that he kept drawing his own plates throughout his life; Flourens records him resuming his programme of fish natural history while carrying other obligations. The routine is mainly attested by an admiring household witness, hence moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조르주 퀴비에"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-09T00:00:00Z",
+    "updatedAt": "2026-10-09T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-09) for Q171969 returned en label 'Georges Cuvier', description 'French naturalist, zoologist and paleontologist (1769-1832)', born August 1769 (Wikidata carries 23/24 August and a year-only value; the Lee biography and Rudwick give 23 August), died 13 May 1832, citizenship France, instance of human, ko label '조르주 퀴비에', P18 'Georges Cuvier 3.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupations naturalist, anatomist, scientist; fields natural_science and biology (both have field.* keys in src/core/i18n/en.ts); region western_europe as for other French and Western European scientists (Pasteur, Curie, Linnaeus, Lyell). Tags systematic_thinker, detail_oriented, communicator. His posts in the Imperial University, the Council of State, the peerage and the barony are incidental to the scientific identity and are NOT used as the basis of any row; 'administrator' tag deliberately not applied. The 1815-17 episode concerning the body of Sarah Baartman is documented as a scientific-ethical episode in the editorial draft, not an achievement, and not scored; no row is inferred from his bereavements or his death. EVIDENCE READ: Lee 1833 (full life narrative, fossil-work sections, whole character section); Rudwick 1997 (preface, introduction, and the commentaries/translations for the 1796 elephant paper, megatherium, Montmartre, 1800 prospectus, lectures, Paris-basin collaboration, Discourse); Flourens 1841 (eloge and the classification and species-question sections); Flourens 1865 (account of the 1830 debate); Eckermann's Conversations of Goethe (1830-31 entries); Embryo Project article; Cuvier's own 1817 report on the body of Sarah Baartman (opening pages only); Exeter Cast in Stone entry. NOT ACCESSED: Dorinda Outram, 'Georges Cuvier: Vocation, Science and Authority in Post-Revolutionary France' (1984); William Coleman, 'Georges Cuvier, Zoologist' (1964, lending-only scan); Toby Appel, 'The Cuvier-Geoffroy Debate' (1987); Crais and Scully, 'Sara Baartman and the Hottentot Venus' (2009); Cuvier's 1832 eloge of Lamarck (only secondhand reports of its tone were seen, not used); the Academie des sciences eloge. INDEPENDENT PERSPECTIVES: Rudwick (modern historian, critical of his self-assurance); Goethe via Eckermann (contemporary outsider, hostile to his method); Flourens (admiring colleague, friend of both parties in 1830); Lee (admiring family friend). The Lee and Flourens sources are admiring and are weighted accordingly. No eligibility, coverage or match output was used in scoring; scores and confidences were fixed before the validator was run.\n PORTRAIT: the lead's Commons lead 'Georges Cuvier 3.jpg' was REJECTED: the file is a painting credited to François-André Vincent (died 1816) whose only provenance is a January 2012 Christie's auction listing with a vague '19th century' date and no museum holding, so neither the attribution to Vincent nor the sitter's age and date can be established; the Christie's lot page (http://www.christies.com/lotfinder/lot_details.aspx?intObjectID=5529701) redirects to a lot page that could not be read as text, so its rights notice was not verified, and no Versailles or Museum holding could be confirmed. REPLACEMENT: Rijksmuseum lithograph RP-P-1911-948 by Julien-Leopold Boilly signed and dated 1820 (Cuvier about 51), from the Iconographie de l'Institut royal de France; the Rijksmuseum item page was read and states Copyright: Public domain, with no conflicting rightsholder notice; Commons file carries CC0 for the museum photograph; original 3344x4342 image downloaded, cropped to the portrait (2160x2055) without caption text, downsized to 1600x1522 (JPEG q85); file opens (viewed). Classified as a historical depiction (a contemporary lifetime print) because a sitting from life is not documented on the item page."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/georges-cuvier-boilly-1820.jpg",
+    "width": 1600,
+    "height": 1522,
+    "source": "Rijksmuseum, Amsterdam, print RP-P-1911-948, lithograph 'Le Baron Cuvier' from the series Iconographie de l'Institut royal de France; signed and dated 'Jul. Boilly 1820' on the stone",
+    "license": "Public domain (nineteenth-century print, published in France in or after 1820; the Rijksmuseum item page gives its copyright status as public domain and the museum's reproduction is released under the CC0 public domain dedication)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Julien-Léopold Boilly, lithograph portrait of Baron Cuvier, 1820, Rijksmuseum, Amsterdam (object number RP-P-1911-948); cropped to the portrait, without the caption text",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1911-948",
+    "creator": "Julien-Léopold Boilly (1796-1874), printed in Paris",
+    "date": "1820",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1911-948"
+  }
+}
