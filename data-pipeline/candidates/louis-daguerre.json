@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "louis-daguerre",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Louis Daguerre",
+    "aliases": ["Louis-Jacques-Mandé Daguerre"],
+    "wikidataId": "Q131405",
+    "birthYear": 1787,
+    "deathYear": 1851,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["FR"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["inventor", "painter", "entrepreneur"],
+    "fieldIds": ["technology", "art"],
+    "impactDomains": ["technological", "artistic", "cultural"],
+    "tagIds": ["innovator", "cross_disciplinary"],
+    "archetypeIds": ["technical_innovator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_daguerre_wikidata",
+      "kind": "wikidata",
+      "title": "Louis Daguerre (Q131405) -- verified live via wbgetentities (2026-10-08): en label 'Louis Daguerre', description 'French scientist, artist and photographer (1787-1851)', ko label '루이 다게르', citizenship France (Q142), P569 18 Nov 1787, P570 10 Jul 1851 (Wikidata also carries alternate date values). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q131405"
+    },
+    {
+      "id": "src_daguerre_wikipedia",
+      "kind": "wikipedia",
+      "title": "Louis Daguerre and Boulevard du Temple (photograph), Wikipedia articles -- read as orientation only (the Boulevard du Temple article dates the plate '1838 or possibly 1837', so that plate is deliberately left out of the editorial cards); not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Louis_Daguerre"
+    },
+    {
+      "id": "src_daguerre_manual1839",
+      "kind": "archive",
+      "title": "Daguerre, Historique et description des procédés du daguerréotype et du diorama (Paris: Alphonse Giroux, 1839), Internet Archive full text (historiqueetdesc00dagu) -- SELF SOURCE and also the vehicle for Daguerre's own priority case against Niépce: his 'Note historique' argues that Niépce had no part in the daguerreotype and prints extracts of Niépce's 1831-32 letters 'pour copie conforme, Arago, Daguerre'. Read locally: the Giroux apparatus notice, the 1839 contract, the practical description of the process, the Note historique with the Niépce and Isidore Niépce letter extracts, and the closing paragraphs on coloured light in the Diorama. Not used for any evaluative claim about himself; used only for dated facts and his documented actions.",
+      "url": "https://archive.org/details/historiqueetdesc00dagu"
+    },
+    {
+      "id": "src_daguerre_official1839",
+      "kind": "archive",
+      "title": "Official parliamentary documents of 1839 as reprinted in the same Giroux volume (Internet Archive historiqueetdesc00dagu): the Minister of the Interior's exposé des motifs (Duchâtel), François Arago's report to the Chamber of Deputies, and Gay-Lussac's report to the Chamber of Peers -- ADVOCATE-OFFICIAL texts written to secure the pensions (Arago was Daguerre's confidant and verified his sealed deposit), so their praise is discounted; read in part (exposé, the Arago report through the process description and the Delaroche note, and Gay-Lussac's closing arguments). Used for dated facts, the stated length of the research, the 6,000/4,000 franc pensions and for what the committee said it had verified.",
+      "url": "https://archive.org/details/historiqueetdesc00dagu"
+    },
+    {
+      "id": "src_daguerre_morse1914",
+      "kind": "biography",
+      "title": "Edward Lind Morse (ed.), Samuel F. B. Morse: His Letters and Journals, vol. 2 (Boston: Houghton Mifflin, 1914), Project Gutenberg #11018 -- EYEWITNESS FRIEND'S letters (Morse, in Paris in March 1839), edited and framed by Morse's admiring son; read the passages on Daguerre: Morse's 2 and 9 March 1839 letters (the Diorama fire), his 20 May 1839 letter to Daguerre proposing an American exhibition and Daguerre's 26 July 1839 reply, and the later recollection of Daguerre's openness with him. Firsthand on dated events, partisan in tone.",
+      "url": "https://www.gutenberg.org/ebooks/11018"
+    },
+    {
+      "id": "src_daguerre_ernouf1877",
+      "kind": "biography",
+      "title": "Baron Alfred Auguste Ernouf, Les inventeurs du gaz et de la photographie: Lebon d'Humbersin, Nicéphore Niepce, Daguerre (Paris: Hachette, 1877), Internet Archive full text (lesinventeursdug00erno_0), Daguerre chapter -- French popular-historical biography, sympathetic to Daguerre but explicitly engaged with the Niépce-family dispute (it quotes Niépce's 1827-29 letters and rebuts the 1841 and 1867 pamphlets). It repeats some anecdotes of doubtful sourcing (the spoon, the dating of the fire to 1838), which were not used. Read locally: the whole Daguerre section (youth and stage work, the Diorama, the 1826-29 approaches to Niépce, the 1829/1835/1837 contracts, the 1838-39 sale to the state and the aftermath).",
+      "url": "https://archive.org/details/lesinventeursdug00erno_0"
+    },
+    {
+      "id": "src_daguerre_eder1905",
+      "kind": "biography",
+      "title": "Josef Maria Eder, Ausführliches Handbuch der Photographie, vol. 1 part 1, 3rd ed. (Halle: Knapp, 1905), 'Nicéphore Niepce und Daguerre' chapter, Internet Archive full text -- Austrian scholarly history of photography, documentary in method (reproduces the 1829 and 1837 contracts, the 1830 letter from the Diorama, the 1839 laws, and cites Austrian court files); neutral between the French and Niépce camps, though it passes on the cupboard-and-mercury story only as hearsay ('soll'), which was not used. Read locally: the whole Daguerre biography, contracts, the 1838 subscription, the 1839 parliamentary and Academy dates, the English patent of 14 August 1839, the Giroux apparatus and the later years at Bry-sur-Marne.",
+      "url": "https://archive.org/details/hed-3-ved-3-v-1-ped-3-p-1-1905"
+    },
+    {
+      "id": "src_daguerre_davanne1885",
+      "kind": "institution",
+      "title": "Alphonse Davanne (vice-president of the Société française de photographie), Nicéphore Niepce, inventeur de la photographie: conférence faite à Chalon-sur-Saône pour l'inauguration de la statue de Nicéphore Niepce, 22 juin 1885 (Paris: Gauthier-Villars, 1885), Internet Archive full text -- NIÉPCE-HONOURING lecture by a leading photographic-society figure, hostile to the idea that Daguerre's route was the right one ('égarée pendant près de quinze ans par le séduisant procédé de Daguerre') yet crediting Daguerre with the latent image developed by mercury vapour, citing Fouque's 1867 book (not itself located or read). Read locally: the sections on the Niépce-Daguerre association, the pensions, the latent image and the later improvements.",
+      "url": "https://archive.org/details/1885Niepce_inventeur_photographie_BP65-6"
+    },
+    {
+      "id": "src_daguerre_litgazette1839",
+      "kind": "press",
+      "title": "The Literary Gazette (London), issues of 12 January 1839 (translation of H. Gaucheraud's report in the Gazette de France of 6 January 1839 on seeing Daguerre's plates), 30 March 1839 (Arago's remarks to the Academy after the Diorama fire, on the Niépce/Daguerre credit and the Bauer letter) and 24 August 1839 ('The Daguerre Secret', report of the Academy session of Monday 19 August) -- CONTEMPORARY foreign press and an invited eyewitness; Internet Archive full-text OCR (sim_literary-gazette_1839-01-12_1147, -03-30_1158, -08-24_1179), partly garbled, read for the dated facts used.",
+      "url": "https://archive.org/details/sim_literary-gazette_1839-01-12_1147"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_daguerre_official1839, src_daguerre_ernouf1877, src_daguerre_eder1905, src_daguerre_davanne1885 | 1824-1839 | official advocacy documents + sympathetic biography + neutral Austrian history + Niépce-camp lecture] The work on fixing the camera-obscura image is dated by Niépce's letters to January 1826 (Arago's report) and led to the 1839 announcement; the Minister's exposé calls it fifteen years of 'persevering and expensive' research. Distinct episodes: three approaches to the evasive Niépce between January 1826 and 1827 (Ernouf, from Niépce's own letters); the 1829 partnership and, per Ernouf, a closed laboratory period; the failed capital-raising of 1837 and the subscription of 15 May 1838 (Eder), after which he moved on to the state route instead of abandoning the process. Even Davanne, who thinks the Daguerre route misguided, credits him with the latent-image discovery. Kept below 80: the length and cost come from advocates (Duchâtel, Gay-Lussac) and the laboratory anecdotes from Ernouf alone."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_daguerre_ernouf1877, src_daguerre_official1839, src_daguerre_eder1905, src_daguerre_davanne1885 | 1824-1837 | sympathetic biography quoting Niépce's letters + official report + neutral history + Niépce-camp lecture] Niépce's letter of 4 September 1827 (quoted by Ernouf) records Daguerre's own trials with a phosphorescent powder meant to retain several prismatic colours and a different, much faster process than Niépce's; Niépce's 1831-32 letters (printed in the 1839 volume and cited by Eder and Davanne) show Daguerre proposing iodine on polished silver as the sensitive layer; Arago reports the final process came 'after an immense number of minute, painful, expensive trials'; Isidore Niépce's 1837 letter says Daguerre's method needed minutes where his father's needed most of a day. Davanne, from the Niépce side, credits Daguerre with the latent-image/mercury development. The cupboard-and-mercury and spoon stories were not used (Eder gives them as hearsay)."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_daguerre_ernouf1877, src_daguerre_eder1905, src_daguerre_manual1839, src_daguerre_litgazette1839 | 1812-1839 | sympathetic biography + neutral history + self source + contemporary press] Scored from what he devised, not from its later fame. Ernouf: after his 1812 stage settings (the Vampire graveyard with moving moonlight) he conceived a daytime spectacle of lit canvases; Eder describes the Diorama as pictures painted on both sides of a translucent canvas and lit from front or behind to change day to night, and Daguerre's own closing note explains the effect by coloured media transforming the light. The 1839 press and Arago describe a plate-based process unlike either Niépce's bitumen or the paper methods that preceded it (Gaucheraud, 6 January 1839: it 'disconcerts all the theories of science in light and optics'). Two distinct inventions, both documented across independent descriptions."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_daguerre_eder1905, src_daguerre_ernouf1877, src_daguerre_official1839 | 1803-1839 | neutral Austrian history + sympathetic biography + official report] Eder: apprenticed at 16 to a stage-decoration painter (Degotti), worked on panoramas with Prévost, designed for Paris opera stages, co-founded the Diorama, ran it as a business (his 30 June 1830 letter on a bill of exchange), improved the camera obscura with the optician Chevalier, and ran chemical experiments. Ernouf says he took up chemistry in 1823-25 and equipped a laboratory beside the Diorama. Arago's report notes the process combines optics, chemistry (Dumas and Pelouze checked the iodide and mercury effects) and painters' concerns. A real combination of painting, stagecraft, optics, chemistry and enterprise, documented from separate sources."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_daguerre_official1839, src_daguerre_ernouf1877, src_daguerre_eder1905 | 1824-1837 | official report + sympathetic biography + neutral history] Arago says that to everyone fixing the camera-obscura image had been a dream fit for Cyrano de Bergerac, and Ernouf (quoting the optician Chevalier's recollection) that the optician listened to Daguerre's plans without believing in them. Daguerre kept to the aim, and on iodised silver plates developed by mercury vapour took a route the state's own exposé calls 'entirely different' from Niépce's tradition (Davanne, from the Niépce side, agrees the latent image was his). Ernouf also records that in 1827 he told Niépce frankly that his own colour work was little more than a curiosity and preferred Niépce's results, so the independence was not simple self-assertion. Limited to this one line of inquiry; kept at 0.55."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_daguerre_ernouf1877, src_daguerre_eder1905, src_daguerre_manual1839 | 1822-1839 | sympathetic biography + neutral history + self source] Dated moves into new markets: after success as a stage designer he conceived the Diorama as a daytime paying spectacle and raised it on shares in 1822 (Ernouf); once the process was public he tied the sale of his apparatus to the maker Giroux, with each camera sold under his signature (the Giroux notice in the 1839 volume; Eder); and he took an English patent on 14 August 1839, days before Arago's public description (Eder), which Claudet then bought. Eder calls the patent 'characteristic of his well-developed business sense'. Scored from the timing and form of each move, not from later results; the English patent is described by Eder only, so confidence stays moderate."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_daguerre_ernouf1877, src_daguerre_eder1905, src_daguerre_litgazette1839 | 1826-1839 | sympathetic biography quoting Niépce's letters + neutral history + contemporary press] Unprompted initiatives: he approached the stranger Niépce in January 1826, again a year later and a third time two months after that with a specimen drawing, although each answer was evasive (Ernouf, from Niépce's letters); he travelled to Chalon to sign the 14 December 1829 contract (Eder); in 1837-38 he approached capitalists and organised the 15 May 1838 subscription (Eder) and, when it failed, took the process to Arago and through him to the Minister of the Interior; and he showed the plates to Gaucheraud and others before the Academy announcement (Literary Gazette, 12 January 1839). Several distinct, dated initiatives in three sources."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_daguerre_ernouf1877, src_daguerre_eder1905, src_daguerre_official1839 | 1837-1839 | sympathetic biography + neutral history + official documents] The process could not be patented in France and capitalists (Ernouf) and subscribers (Eder) would not pay for it. Daguerre changed route: Arago was initiated in confidence, the sealed deposit and a 14 June 1839 convention were drawn up, and the state took the process in exchange for pensions of 6,000 and 4,000 francs for himself and Isidore Niépce (the exposé itself explains that no patent could protect it). After the fire of March 1839 destroyed the Diorama and his work space he continued with the same plan and moved to the Boulevard Saint-Martin (Eder). Ernouf also reports he used all his resources to pay off the last Diorama shareholders. Two perspectives for the main episode; the pension deal rests partly on Arago's own role."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_daguerre_ernouf1877, src_daguerre_eder1905, src_daguerre_litgazette1839, src_daguerre_morse1914 | 1826-1839 | sympathetic biography + neutral history + contemporary press + friend's letters] Niépce, who suspected a speculator in 1826, was by 1829 signing a ten-year partnership after meeting Daguerre in person (Ernouf, Eder); Arago, Biot and Humboldt were invited to see the plates and reported on them in January 1839 (Literary Gazette); the Minister of the Interior signed a convention on 14 June 1839, five months after Arago's January announcement, and the two Chambers passed the law by acclamation (Eder, Ernouf); Morse and Gaucheraud wrote warmly after seeing his work (Morse 1839; Literary Gazette). Much of the persuading was done through Arago, and the effect on others is described by people who were already admirers, hence 0.5."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_daguerre_eder1905, src_daguerre_official1839, src_daguerre_ernouf1877 | 1824-1839 | neutral Austrian history + official exposé + sympathetic biography] Eder says the income of the Diorama financed his photographic experiments and the running of the enterprise until the 1839 fire, and the exposé speaks of years of expensive trials; his 30 June 1830 letter shows him asking creditors for a day's grace on a bill of 548 francs while still described as comfortably off (Eder). Ernouf adds that the Diorama's partners spent freely and did not save in good years, and that the 1839 fire left him ruined (Morse's letter only says the Diorama was insured, extent unknown). The commitment of a working business to an uncertain technical aim is documented; the personal-finance detail is thinner, so dual_edged at 0.5."
+    },
+    "deep_focus": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_daguerre_ernouf1877, src_daguerre_eder1905 | c.1830, 1830s-40s | sympathetic biography + neutral history, both drawing on the same later French accounts] Ernouf, quoting a contemporary, says that after the 1829 meeting with Niépce Daguerre became 'suddenly invisible', shut himself in the Diorama laboratory for about two years and barely noticed the July Revolution (an anecdote of late origin). Eder, citing Mentienne (1892), says that for the church at Bry-sur-Marne he painted a Gothic-interior picture for six months, often fifteen hours a day. Both are secondary retellings of the same French tradition, so they count as one stream with two examples; kept below 0.5 and not used for any other attribute."
+    },
+    "aesthetic_sensitivity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_daguerre_manual1839, src_daguerre_ernouf1877, src_daguerre_litgazette1839 | 1812-1839 | self source + sympathetic biography + contemporary press] The Diorama's effects depended on subtle changes of light and colour over a day; in the 1839 volume he writes that the sky's condition alters the apparent colour of a painting and that painters misattribute these changes to themselves (self source). Ernouf records that his stage and Diorama pictures drew applause for their effect, and Gaucheraud (Literary Gazette 12 January 1839) remarks on the 'gradations of lights, shadows and middle tints' of his plates and their weakness for foliage (a reported limit of the process). Taste is hard to read from behaviour; scored for sustained attention to light and tonal gradation, with the author-side praise discounted."
+    },
+    "collaboration": {
+      "score": 54,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_daguerre_ernouf1877, src_daguerre_eder1905, src_daguerre_manual1839, src_daguerre_davanne1885 | 1822-1841 | sympathetic biography + neutral history + self source + Niépce-camp lecture] Mixed record. Positive: a decade of shared Diorama exhibitions with Bouton (1822 to Bouton's retirement in 1832), a ten-year secret exchange agreement with Niépce in 1829, and work carried out by his pupil Sébron on his indications (Ernouf, Eder). Against: Eder notes that when Niépce disclosed his process Daguerre at first communicated nothing of his own experiments; the 1835 and 1837 acts changed the firm's name and gave the process Daguerre's name alone, and his 1839 Note historique argues that Niépce had no part in it, which provoked Isidore Niépce's 1841 pamphlet and later partisan attacks (known here only through Ernouf and Eder, not read directly). Ernouf and Eder judge the attacks exaggerated; Davanne would share the credit. Scored near the middle, dual_edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루이 다게르"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q131405 returned en 'Louis Daguerre', description 'French scientist, artist and photographer (1787-1851)', ko '루이 다게르', citizenship France (Q142). Slug not in prod_slugs and no prior candidate file. Region western_europe, as for other French candidates. fieldIds technology and art (both have field.* keys). Substantive sources actually opened: Daguerre's 1839 volume (self) with the official reports, Morse's letters (eyewitness), Ernouf 1877, Eder 1905, Davanne 1885, and the 1839 Literary Gazette (Gaucheraud translation, Arago remarks, Academy report). Independent perspectives: Daguerre (self); Arago/Duchâtel/Gay-Lussac (official advocates); Morse (friend and eyewitness); Ernouf (sympathetic French biographer using Niépce's letters); Eder (Austrian documentary historian); Davanne (Niépce-honouring photographic-society lecturer); Gaucheraud/Literary Gazette (contemporary press). NOT ACCESSED: Helmut and Alison Gernsheim's L.J.M. Daguerre (lending-only on the Internet Archive, no text), Beaumont Newhall's books (lending-only), Victor Fouque's La vérité sur l'invention de la photographie (1867) and Isidore Niépce's 1841 pamphlet (not located; known only through Davanne, Ernouf and Eder), Musée des arts et métiers and Société française de photographie holdings, Gallica press, and the Metropolitan and Getty museum pages (bot-walled; no bypass). Deliberately not used: the spoon and cupboard-and-mercury discovery stories (hearsay), the Dumas anecdote about friends doubting Daguerre's sanity (no inference from mental state), and the date 1838 for the fire (Ernouf's date conflicts with Morse's March 1839 letters). The fire of March 1839 is dated from Morse's letters and Arago's remarks; the Boulevard du Temple plate is left out of the cards because its date (1837 or 1838) is uncertain and it was sourced only to orientation material. Rows not scored for lack of independent behavioural evidence: curiosity, discipline, perfectionism, detail orientation, leadership drive, decisiveness, achievement drive (only the biographers' remarks). Daguerre's disputes with the Niépce family are recorded only in collaboration, dual_edged, at moderate confidence; Zero-politics: no political or military role is scored. Portrait: Sabatier-Blot daguerreotype of 1844 held by the George Eastman Museum (see portrait block)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/louis-daguerre-sabatier-blot-1844.jpg",
+    "width": 1252,
+    "height": 1600,
+    "source": "George Eastman Museum (Rochester, NY), daguerreotype of Louis-Jacques-Mandé Daguerre by Jean-Baptiste Sabatier-Blot, 1844 (gift of Eastman Kodak Company; ex-collection Gabriel Cromer), via Google Arts & Culture partner page asset kAGH5aEML9GTQQ and the Wikimedia Commons Google Art Project copy (original 2349x3001, downsized to 1252x1600 at q85)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Art",
+    "attribution": "Jean-Baptiste Sabatier-Blot (1801-1881), 'Louis Jacques Mande Daguerre', daguerreotype, 1844; George Eastman Museum. Basis: an 1844 original by a creator who died in 1881 (public domain by term, Commons PD-Art/PD-old-100), and the museum's own partner listing on Google Arts & Culture shows 'Rights: Public Domain'. The museum's own collection site (collections.eastman.org) is behind a Cloudflare wall and could not be consulted, so no museum-site rights notice was read, and none conflicting was observed. The original verso inscription confirms the sitter, the maker (his friend Sabatier-Blot) and the year 1844.",
+    "attributionUrl": "https://artsandculture.google.com/asset/kAGH5aEML9GTQQ",
+    "creator": "Jean-Baptiste Sabatier-Blot",
+    "date": "1844",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jean_Baptiste_Sabatier-Blot_-_Louis_Jacques_Mande_Daguerre_-_Google_Art_Project.jpg"
+  }
+}

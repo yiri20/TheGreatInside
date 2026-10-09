@@ -6243,6 +6243,305 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1847 Thomson heard James Joule's paper at the British Association in Oxford and, by his own later account, felt it must be wrong, but waited and spoke to Joule privately. For about three years he held to Carnot's theory while telling others that Joule's work mattered. In 1850 he wrote to Joule that a conclusion about steam could be reconciled with known facts only through Joule's discovery, and his 1851 paper rebuilt the theory on both.",
   "william-thomson-kelvin.interpretation.turning_point.1":
     "Taking about three years to move from doubt to adoption, while publicly insisting the evidence mattered, is consistent with belief updating that is slow but ends in acceptance; the account comes mainly from his admiring biographer and his own recollection.",
+  /* ---------------------------------------------------------- alexandra-david-neel (Roster45) */
+  "alexandra-david-neel.achievement.1":
+    "In 1923-24 David-Néel, then 55, and her adopted son Aphur Yongden travelled on foot across eastern Tibet disguised as a lama and his mother, avoiding the border guards of a country closed to foreigners, and reached Lhasa in February 1924. They stayed about two months. She is widely described as the first Western woman to enter the city; the account of the journey rests mainly on her own book, and the Indologist Klaus Karttunen notes that the extent of her travels has been questioned.",
+  "alexandra-david-neel.achievement.2":
+    "Her account of the journey appeared in 1927 in Paris, London and New York as My Journey to Lhasa, and in 1929 she published Mystiques et magiciens du Tibet (English edition Magic and Mystery in Tibet, 1932). Gale's biography reports that the first book caused a sensation; Karttunen calls her books very popular but not scholarly studies, and the New York Times reviewer found the Lhasa account fascinating but vague.",
+  "alexandra-david-neel.achievement.3":
+    "With Lama Yongden she recorded recitations of the Gesar of Ling epic from bards and manuscripts in the eastern Tibetan borderlands, including sittings of more than six weeks with one bard. The result, The Superhuman Life of Gesar of Ling, appeared in French in 1931 and in English in 1933 with a preface by the Collège de France professor Sylvain Lévi. The Chinese ethnologist Li Anzhai helped the pair and wrote an article praising their work.",
+  "alexandra-david-neel.achievement.4":
+    "From 1911 to 1925 she lived and studied in Asia, including Sikkim, where she met the 13th Dalai Lama in 1912 and spent time in a cave hermitage, and China and its Tibetan borderlands, where she spent years in monasteries such as Kumbum. In 1916 she entered Tibet without permission to visit the Panchen Lama and was sent out of Sikkim. Karttunen records the 1911-25 stay and says she knew Tibetan culture and religion well, though some of her claims are far from convincing.",
+  "alexandra-david-neel.moment.1":
+    "In her own account, seven robbers in the Po country took two rupees from Yongden and moved to open his load, which held foreign objects that would have exposed the pair. She says she wept and called on fearsome Tibetan deities by name until the men returned the coins and asked for a blessing. Her book does not mention a pistol, while a later profile says she fired one, so the details of the episode differ between tellings.",
+  "alexandra-david-neel.interpretation.moment.1":
+    "Improvising a persona from what she knew of Tibetan belief, rather than a fight she could not win, is consistent with resourcefulness; the episode is told almost entirely from her own pen.",
+  "alexandra-david-neel.moment.2":
+    "Falling ill with enteric fever near Kanze, she was ordered by Tibetan frontier officials to turn back because she had no permit from the British consul. She says she refused, argued for days, and went on to Jakyendo instead, telling them that unless they shot her they could not stop her. She later called this episode the start of a new period of wanderings.",
+  "alexandra-david-neel.interpretation.moment.2":
+    "Refusing an official order and going on alone is consistent with a strong need for autonomy; it is known only from her own account.",
+  "alexandra-david-neel.turning_point.1":
+    "In 1916 she crossed into Tibet from her hermitage without permission to visit the Panchen Lama at Tashilhunpo. The British Resident in Sikkim gave her fourteen days to leave, and Gale reports she was deported. Unable to return to Europe in wartime, she went on to Japan, Korea and China, the road that eventually led to Kumbum and the Lhasa journey.",
+  "alexandra-david-neel.interpretation.turning_point.1":
+    "Knowingly crossing a ban that would cost her her base is consistent with risk tolerance, and the cost fell on her Sikkim studies.",
+  /* ---------------------------------------------------------- andreas-vesalius (Roster45) */
+  "andreas-vesalius.achievement.1":
+    "In 1543 Vesalius published De humani corporis fabrica in Basel, printed by Johannes Oporinus and dedicated to Charles V. Its seven books treat bones and cartilages, ligaments and muscles, veins and arteries, nerves, the organs of nutrition and generation, the heart and lungs, and the brain and sense organs, with large woodcuts that sit beside the text. A shorter Epitome for students appeared the same year. The illustrations are traditionally attributed to Jan Stephan van Calcar of Titian's circle.",
+  "andreas-vesalius.achievement.2":
+    "Vesalius argued from dissection that Galen had described the body of an ape, not of a man. In the Fabrica he showed, among other corrections, that the sternum has three parts rather than seven, that the lower jaw is a single bone, that humans have no rete mirabile and that nerves are not hollow. His 1543 text still spoke of blood passing through invisible pores in the heart's septum; in the 1555 second edition he wrote that, as far as the senses can tell, none passes through it.",
+  "andreas-vesalius.achievement.3":
+    "Vesalius was appointed to teach surgery and anatomy at Padua in December 1537. Where anatomy was usually taught by a professor reading from a text while a barber cut, he dissected and lectured himself. In 1538 he issued six large printed sheets, the Tabulae anatomicae sex, for his students, with drawings credited to Calcar, and in 1540 he gave dissection demonstrations at Bologna that the student Baldasar Heseler recorded in his notes.",
+  "andreas-vesalius.moment.1":
+    "In Paris in the 1530s, anatomy was taught by professors who lectured from Galen while barbers cut the bodies. In an account Vesalius gave himself, which the biographer James Ball retells, he took the knife in his own hands and carried out a systematic dissection of the abdominal organs and the arm muscles. The Paris professor Joannes Guinterius wrote in 1539 of Vesalius as a young man of 'singular zeal' for anatomy, with whom he had examined the muscles, veins, arteries and nerves.",
+  "andreas-vesalius.interpretation.moment.1":
+    "Taking over a task the teachers were not performing, rather than waiting for the chance to do it, is consistent with proactive agency. The main account comes from Vesalius himself through an older biographer; Guinterius's 1539 remark is the one independent confirmation.",
+  "andreas-vesalius.moment.2":
+    "In 1561 Gabriele Falloppio published Observationes anatomicae, which praised Vesalius while correcting him. From Madrid Vesalius answered in a reply that was published in Venice in 1564. According to Vivian Nutton, the tone was cordial: Vesalius accepted Falloppio's criticism of his belief in venous fibres that controlled the flow of blood, was pleased by his account of teeth, and acknowledged that others had found the eyelid-raising muscle and the third ear ossicle, adding that he had confirmed the ossicle by dissection.",
+  "andreas-vesalius.interpretation.moment.2":
+    "Accepting a younger anatomist's correction and crediting others' discoveries is consistent with belief updating. Nutton sets this against his quieter handling of priority in the 1555 annotations, so it was not a general rule of his conduct.",
+  "andreas-vesalius.turning_point.1":
+    "When he left Italy for the imperial court, Vesalius burned his notes on Galen, the copy of Galen he had used for teaching, a fuller paraphrase of Rhazes's Almansor and material on drug formulas, after court physicians had judged his books harshly. In a 1546 letter he wrote that he did it 'with the intention of restraining myself somewhat in writing', that he had often regretted it, and that friends had advised against it. Nutton records his reply to Falloppio as his only publication after 1555.",
+  "andreas-vesalius.interpretation.turning_point.1":
+    "Burning the notes after hostile judgments is consistent with a limit on how long he stayed in open dispute, although the same letter defends his work against Sylvius. The account is his own, written two to three years after the event.",
+  /* ---------------------------------------------------------- charles-lyell (Roster45) */
+  "charles-lyell.achievement.1":
+    "Lyell's Principles of Geology (three volumes, 1830-33) argued that the past changes of the earth's surface should be explained by causes still in operation, drew on his own fieldwork on Etna and elsewhere, and called for geology to be separated from cosmogony. Darwin took the first volume on the Beagle voyage and wrote that Lyell's views were far superior to those of any other work he knew. The book went through eleven editions between 1830 and 1872.",
+  "charles-lyell.achievement.2":
+    "In volume 3 of the Principles (1833) Lyell divided the Tertiary into stages according to the proportion of living species among their fossil shells, naming them Eocene, Miocene and the Older and Newer Pliocene. The fossil-shell tables came from the Paris conchologist Gerard Paul Deshayes, and Lyell credited William Whewell with help in devising the names.",
+  "charles-lyell.achievement.3":
+    "Elements of Geology (1838) set out the science as a manual. Part I sorted rocks by character into aqueous, volcanic, plutonic and metamorphic classes, and Part II arranged them by age, from Recent and Tertiary onward, with 294 figures, many of them fossils. Lyell kept revising it, including a sixth edition in 1865.",
+  "charles-lyell.achievement.4":
+    "The Geological Evidences of the Antiquity of Man (1863) gathered the evidence that humans had lived alongside extinct mammals: flint implements in the Somme gravels at Abbeville and Amiens, where Lyell collected specimens himself, and cave deposits such as Brixham in Devon, together with a long account of glacial deposits and a discussion of the views of Lamarck, Darwin and Wallace on the origin of species. Three editions appeared in 1863 and a fourth in 1873.",
+  "charles-lyell.moment.1":
+    "On 14 June 1830, about ten days before the Principles appeared, Lyell wrote to Poulett Scrope, who was to review it in the Quarterly Review. He hoped Scrope could get into the review 'what will free the science from Moses', but advised him not to 'triumph over' opponents, and said that full half of his own history and comments had been cut because stating it openly would anticipate 'twenty or thirty years of the march of honest feeling'.",
+  "charles-lyell.interpretation.moment.1":
+    "Choosing what to say, what to cut and how his reviewer should pitch it, with the stated aim of carrying readers along rather than irritating them, is consistent with deliberate, strategic persuasion.",
+  "charles-lyell.moment.2":
+    "Lyell had urged Darwin in 1856 to write out his species theory, and on 1 July 1858 he and Joseph Hooker introduced the joint reading of Darwin's and Wallace's papers at the Linnean Society. But when Antiquity of Man appeared in 1863 Darwin was disappointed that Lyell had not spoken out more. Lyell told Hooker he had 'spoken out to the full extent of my present convictions', and told Darwin that after arguing a whole chapter for man's descent from animals he found himself 'relapsing to my old views' on re-reading a few pages of the Principles.",
+  "charles-lyell.interpretation.moment.2":
+    "Moving from arguing against transmutation to presenting the case for it, while openly admitting that his feelings lagged behind his reasoning, is consistent with belief updating that was real but slow, which is why Darwin found it frustrating.",
+  "charles-lyell.turning_point.1":
+    "Lyell was elected to the new chair of geology at King's College London in 1831 and lectured in 1832 and 1833. On 24 December 1831 he told his family of his 'decided wish to get free of the professorial chair'. After the 1833 course he resigned; the family account says the duties would interfere with his travelling and original research, and Bailey adds that attendance had fallen after women were excluded from the lectures. His next long journeys were to Sweden in 1834 and North America in 1841-42.",
+  "charles-lyell.interpretation.turning_point.1":
+    "Giving up a London chair for freedom to travel and write is consistent with a strong need to control his own working life; because Bailey also notes falling attendance, the decision cannot be read as purely a matter of principle.",
+  /* ---------------------------------------------------------- cyrus-field (Roster45) */
+  "cyrus-field.achievement.1":
+    "In 1854 Field and several New York partners, among them Peter Cooper, took over the Newfoundland telegraph concession of Frederic Gisborne and organised the New York, Newfoundland and London Telegraph Company. In September 1856 he agreed with John Brett and Charles Bright to form the Atlantic Telegraph Company, which was organised in London on 9 December 1856. Field's part was promotion and finance, including a large personal subscription; the electrical and engineering work fell to others, among them Bright, Edward Whitehouse and William Thomson.",
+  "cyrus-field.achievement.2":
+    "After the first expeditions of 1857 and June 1858 failed, a cable laid by the ships Niagara and Agamemnon was spliced in mid-Atlantic on 29 July 1858 and landed at Trinity Bay on 5 August. On 16 August Queen Victoria and President Buchanan exchanged messages over it. The cable went silent in early September 1858, and the engineer's biography records that most of the successful working had been done with Thomson's mirror galvanometer.",
+  "cyrus-field.achievement.3":
+    "After the Great Eastern's cable parted in August 1865, a new Anglo-American Telegraph Company raised 600,000 pounds, and in 1866 the ship laid a cable that was landed at Heart's Content, Newfoundland, on 27 July. On 2 September the lost 1865 cable was recovered and put in telegraphic contact with Valentia, and it was landed at Heart's Content on 8 September. A joint resolution of Congress approved on 2 March 1867 awarded Field a gold medal.",
+  "cyrus-field.moment.1":
+    "At the American Telegraph Company's stockholders' meeting on 29 June 1860, Field told the meeting that the executive committee's pamphlet contained 'exactly thirty-six statements' that were 'utterly false, or gross misrepresentations', and the chairman called him to order for making personal remarks. The account comes from the shorthand notes reproduced in the pamphlet of his opponent, R. W. Russell.",
+  "cyrus-field.interpretation.moment.1":
+    "Telling a hostile meeting in plain terms that an opposing pamphlet was false is consistent with a willingness to take open conflict; the only account is a record preserved by his opponent, and the chairman's rebuke shows the tone cost him goodwill.",
+  "cyrus-field.moment.2":
+    "Reaching London on 24 December 1865, Field learned that the Attorney-General had ruled that only an Act of Parliament could legalise the preference shares, and the money already subscribed had been returned. In his own later account, Daniel Gooch and Brassey encouraged him, and a new company was formed on 1 March 1866, with ten guarantors at 10,000 pounds each and the Telegraph Construction Company at 100,000. Bright's biography confirms these subscriptions.",
+  "cyrus-field.interpretation.moment.2":
+    "Accepting the legal ruling and replacing the planned share issue with a different company is consistent with resourcefulness; the account of his own part comes from his own words as retold by his daughter, and Bright confirms only the subscriptions.",
+  "cyrus-field.turning_point.1":
+    "After the June 1858 attempt, in which the cable parted several times, the board of the Atlantic Telegraph Company met in London. Its chairman, Sir William Brown, advised selling the cable still on board, and the vice-chairman, Brooking, left the room and resigned. Field, Bright and William Thomson argued for one more attempt, and the board voted for it; the ships left Queenstown on 17 July 1858 and the splice was made on 29 July. The board scene is told by Henry Field, Field's brother, whose text Bright's biography reproduces.",
+  "cyrus-field.interpretation.turning_point.1":
+    "Arguing for a further attempt when the chairman wanted to sell and a colleague resigned is consistent with persistence; both retellings of the board scene derive from Field's brother, so the account is not independent.",
+  /* ---------------------------------------------------------- edgar-allan-poe (Roster45) */
+  "edgar-allan-poe.achievement.1":
+    "Poe's tales include 'The Fall of the House of Usher' (Burton's Gentleman's Magazine, September 1839) and 'The Murders in the Rue Morgue' (Graham's Magazine, April 1841). His editor T. O. Mabbott judges 'Rue Morgue', 'if not actually the first detective story ever written', the first consciously composed as one and the direct ancestor of all that followed. Lowell wrote in 1845 that 'Usher' alone would have marked its author as a man of genius.",
+  "edgar-allan-poe.achievement.2":
+    "'The Raven' was printed in the New York Evening Mirror on 29 January 1845 with a commendatory note from N. P. Willis, and soon afterwards in the American Whig Review for February under the pseudonym 'Quarles'. Woodberry writes that no brief poem established itself so quickly and widely, and Willis described it as a poem that 'electrified the world of imaginative readers'.",
+  "edgar-allan-poe.achievement.3":
+    "Poe made his living largely as a magazine critic and editor. He reviewed for the Southern Literary Messenger from 1835 (Woodberry reports its circulation rising from 500 to 3,500 copies during his time there), wrote most of the book reviews for Burton's from July 1839 to June 1840, edited Graham's from 1841, and on 25 October 1845 became 'Editor and Proprietor' of the Broadway Journal. Lowell found his criticism marked by 'scientific precision and coherence of logic', if aesthetically limited.",
+  "edgar-allan-poe.moment.1":
+    "After the 'Literati' sketches Poe published in Godey's Lady's Book in 1846 drew attacks from Charles F. Briggs and Thomas Dunn English, Poe published a reply, which appeared in the Philadelphia Spirit of the Times on 10 July 1846. On 23 July he sued the New York Evening Mirror's editor and proprietor for libel over attacks the paper had printed, including English's, and on 17 February 1847 he was awarded $225 in damages.",
+  "edgar-allan-poe.interpretation.moment.1":
+    "Answering a public attack with a printed reply and then a lawsuit, rather than silence, is consistent with tolerance for open conflict. The merits are disputed: Briggs and English were hostile and Poe's own sketches provoked them, so this shows his willingness to fight, not that he was in the right.",
+  "edgar-allan-poe.moment.2":
+    "To raise money for his Stylus magazine, Poe advertised a lecture on the universe, and on 3 February 1848, on a stormy night, about sixty people came to the New York Society Library. The lecture raised too little, so he offered the full text to the publisher George Putnam, who accepted it as 'Eureka: A Prose Poem'; Putnam printed 500 copies and published it in the summer of 1848.",
+  "edgar-allan-poe.interpretation.moment.2":
+    "Turning a lecture meant to fund the Stylus into a book is consistent with persistence in a plan he had pursued since 1840. The Stylus was still never launched, so the sources show effort over time, not success.",
+  "edgar-allan-poe.turning_point.1":
+    "After editing for others since 1835, Poe bought the Broadway Journal, and the issue of 25 October 1845 carried 'Edgar A. Poe, Editor and Proprietor' on its masthead. Mabbott notes he had to borrow money from several people to do it. On 3 December 1845 he gave Charles Lane a half interest, and the last number of the paper appeared on 3 January 1846.",
+  "edgar-allan-poe.interpretation.turning_point.1":
+    "Taking ownership of a paper after years of working under other proprietors fits his stated wish, in his 1843 letter, for 'entire control of the editorial conduct'. The paper lasted only a few months more, so the same drive left him without a secure position.",
+  /* ---------------------------------------------------------- edouard-manet (Roster45) */
+  "edouard-manet.achievement.1":
+    "In 1863 the Salon jury refused Manet's large Le Déjeuner sur l'herbe, a nude woman seated with clothed contemporary men in a landscape. On Napoleon III's order the refused artists were allowed to show at the Palais de l'Industrie, and the picture, catalogued as 'Le Bain', drew a clamour of disapproval. In 1865 the Salon accepted Olympia, a nude Parisian woman in place of a conventional goddess, together with Jésus insulté par les soldats; Duret reports that it was mocked in the press and in caricature, and Proust that the Salon administration took precautions to protect the canvas.",
+  "edouard-manet.achievement.2":
+    "In 1867-68 Manet painted L'Exécution de Maximilien, a large picture of the shooting of Emperor Maximilian of Mexico at Querétaro on 19 June 1867. Duret notes that it is the one work of his showing a scene he had not seen: Manet gathered the circumstances and details of the event, posed a squad of soldiers lent from a barracks as the firing party, and painted it in three successive versions.",
+  "edouard-manet.achievement.3":
+    "Un bar aux Folies-Bergère was his main picture at the Salon of 1882, the last Salon in which he exhibited. A barmaid faces the viewer with a mirror behind her showing her talking to a man and the hall; on the bar are bottles and fruit painted in bright, contrasting colour. Duret reports that critics found the arrangement of the mirror incomprehensible.",
+  "edouard-manet.achievement.4":
+    "Duret writes that Pissarro, Monet, Renoir, Berthe Morisot, Cézanne and Sisley started from the light-toned painting for which Manet had set the example and went on to what came to be called Impressionism; Castagnary, reviewing the Salon of 1875, called Manet head of a school with an incontestable influence on a group of artists. Manet did not take part in the Impressionists' first group exhibition of 1874, according to Hourticq, because he thought it necessary to force the doors of the Salon.",
+  "edouard-manet.moment.1":
+    "In 1867 the Exposition universelle jury refused Manet, so he had a wooden pavilion built near the Alma bridge, on ground he obtained permission to use, and showed about fifty of his pictures there in May. The catalogue opened with a notice that said he did not mean to protest, only to show 'sincere works', and that showing was the way to find friends and allies. Duret and Hourticq report that the public and the press ridiculed the exhibition and that few visitors came; Courbet had built a similar pavilion nearby.",
+  "edouard-manet.interpretation.moment.1":
+    "Putting on the exhibition himself once the jury refused him is consistent with proactive agency; Hourticq also notes that this kind of show was burdensome for his means.",
+  "edouard-manet.moment.2":
+    "In 1875 Manet wrote to Duret that he had found Claude Monet at Argenteuil dejected and almost penniless. He proposed that the two of them buy ten to twenty of Monet's pictures at 100 francs each, 500 francs apiece, without Monet learning who was behind it, because a dealer or collector might refuse. Duret, who reprints the letter, notes that Manet was himself short of money and that the dealer Durand-Ruel, the only one who had bought such work, could not help at that moment.",
+  "edouard-manet.turning_point.1":
+    "In 1863 the Salon jury refused Le Déjeuner sur l'herbe, as it had refused his Absinthe Drinker in 1859. When Napoleon III allowed the refused artists to exhibit separately, Manet's large canvas was among the most noticed; Duret reports a clamour of disapproval, and Proust that the court declared it an offence against decency after the Emperor stopped in front of it. Manet had painted Olympia the same year, which Duret treats as a complement to the picture, and showed it at the Salon of 1865.",
+  "edouard-manet.interpretation.turning_point.1":
+    "Following the refusal with a second challenging nude two years later is consistent with persistence; Duret adds that the public's hostile view of him, once set in 1863, lasted for years.",
+  /* ---------------------------------------------------------- francisco-goya (Roster45) */
+  "francisco-goya.achievement.1":
+    "Goya became painter to the king in 1786, court painter by royal order of 25 April 1789, and first court painter on 31 October 1799 at 50,000 reales a year. His portrait of Charles IV and his family, painted in 1799-1800 and now in the Prado, shows the painter himself standing behind the canvas.",
+  "francisco-goya.achievement.2":
+    "Goya's Los Caprichos is a series of 80 etchings with aquatint that mock vices, superstition and social habits of his day. Early sets were sold from January 1799; on 9 October 1803 he handed the 80 copper plates and 240 printed sets to the Royal Chalcography (Real Calcografia), and the Crown granted his son a pension of 12,000 reales.",
+  "francisco-goya.achievement.3":
+    "Goya painted the Second of May 1808 and the Third of May 1808 as life-size companion canvases, showing the street fighting in the Puerta del Sol and the executions at the Principe Pio hill. From 1810 he also etched The Disasters of War, over 80 plates on the French invasion; he printed only a few proofs, and the series was first published in 1863 by the Academy of San Fernando.",
+  "francisco-goya.achievement.4":
+    "Goya etched the 33 plates of La Tauromaquia, issuing a limited number of impressions in 1815, and in 1825 at Bordeaux drew the four large Bulls of Bordeaux lithographs, printed by Gaulon in about 300 copies. He also painted the walls of his country house outside Madrid, work later transferred to the Prado.",
+  "francisco-goya.moment.1":
+    "In 1781, while painting the Pilar frescoes in Zaragoza, Goya answered the building board's wish to have his sketches checked by his brother-in-law Francisco Bayeu with a written memorial. He objected to being made Bayeu's 'mere executor and mercenary dependent' and said criticism should follow 'the authorised rules of art'. According to Francisco Zapater, after the Carthusian prior Felix Salcedo wrote to him, he agreed on 6 April to make new sketches in accord with Bayeu.",
+  "francisco-goya.interpretation.moment.1":
+    "Refusing in writing to work as another painter's dependent, while later accepting a compromise, is consistent with a strong need for autonomy that stayed within a working relationship.",
+  "francisco-goya.moment.2":
+    "On 30 May 1824 Ferdinand VII granted the 78-year-old Goya six months' leave to take the waters at Plombieres. He travelled alone to Bordeaux without speaking French and, after three days with the poet Leandro Fernandez de Moratin, went on to Paris. Moratin wrote on 27 June that Goya was 'very anxious to see the world'; Lafond says he never reached Plombieres and used the stay to study French painting.",
+  "francisco-goya.interpretation.moment.2":
+    "Setting out alone for Paris at that age to look at contemporary French painting is consistent with strong curiosity; the sources record the trip but not his own comments on what he saw.",
+  "francisco-goya.turning_point.1":
+    "Goya's 1824 leave was extended in January 1825, and on 17 June 1826 Ferdinand VII granted him retirement on his full salary of 50,000 reales and leave to return to France. He settled in Bordeaux, where he took up lithography and ivory miniatures, and he died there on 16 April 1828.",
+  "francisco-goya.interpretation.turning_point.1":
+    "Moving to Bordeaux and starting two new media there in his late seventies is consistent with experimentation continuing late in his career.",
+  /* ---------------------------------------------------------- franz-schubert (Roster45) */
+  "franz-schubert.achievement.1":
+    "At seventeen Schubert wrote the song 'Gretchen am Spinnrade' (October 1814) and, in the winter of 1815, the ballad 'Erlkönig' to Goethe's poems. Grove counts 137 songs from 1815 alone. In 1821 the Erlkönig was engraved and published as his first printed song after Vienna's two leading publishers, Diabelli and Haslinger, had declined it, and the cost was met by subscribers from the Sonnleithner circle; the singer Johann Michael Vogl performed it publicly in Vienna on 7 March 1821.",
+  "franz-schubert.achievement.2":
+    "In 1823 he set twenty poems from Wilhelm Müller's 'Die schöne Müllerin' as a song cycle, published in 1824 as his Opus 25, and in February 1827 began the twenty-four songs of Müller's 'Winterreise', whose first twelve are dated that month and whose second part he completed later in 1827. Haslinger published the first part in January 1828. Grove reports that Franz Lachner took half a dozen of the Winterreise songs to a publisher at Schubert's request and came back with six gulden.",
+  "franz-schubert.achievement.3":
+    "Schubert began a symphony in B minor on 30 October 1822 and completed two movements, the work known as the 'Unfinished'; the manuscript stayed in Graz with Anselm Hüttenbrenner until Johann Herbeck conducted it in Vienna in 1865 and it was published in 1867. In March 1828 he began his last symphony, in C major, a 218-page autograph; the parts were copied and some rehearsals held by the Vienna Gesellschaft der Musikfreunde, but it was withdrawn as too long and difficult, and neither symphony was performed in his lifetime (Grove).",
+  "franz-schubert.achievement.4":
+    "His chamber music includes the Octet for clarinet, horn, bassoon and strings (February to March 1824, written for Count Troyer, an amateur clarinettist), the String Quartet in D minor (first played on 29 January 1826), two piano trios (October and November 1827) and the String Quintet in C of 1828, which Grove called not only Schubert's finest chamber work but one of the finest of its kind. On 26 March 1828 he gave the only public concert devoted wholly to his own music; the Musikverein hall was crowded and, according to Grove, it brought him about 800 gulden.",
+  "franz-schubert.moment.1":
+    "According to his friend Josef von Spaun, one afternoon at the end of 1815 Spaun found Schubert in his room at his father's house in a state of excitement over Goethe's 'Erlkönig'. Schubert had read the poem twice, and Spaun found him writing the song down; the accompaniment was filled in quickly and in the evening he sang it at the Convict, the former choir school, where the audience made faces at the harmonies at 'Mein Vater, jetzt fasst er mich an' until their harmony teacher Ruzicka explained them. Kreissle and Grove both retell the account from Spaun; it does not come from a second witness.",
+  "franz-schubert.interpretation.moment.1":
+    "Composing a finished song within one afternoon is consistent with fast execution; it is the best-known story of its kind and rests on one friend's account.",
+  "franz-schubert.moment.2":
+    "In 1823 Schubert began the three-act opera Fierrabras on 25 May, had the first act fully scored by 31 May and finished all three acts, about a thousand pages, by 1 October. Early in 1824 he learned that the Court Opera had dismissed it; the libretto by Josef Kupelwieser was blamed. In a letter to Kupelwieser's brother, the painter Leopold, in March 1824, he wrote that he had thus composed two operas to no purpose, and in the same letter that his octet and quartets were meant to prepare the way for a grand symphony. The opera was not staged in his lifetime.",
+  "franz-schubert.interpretation.moment.2":
+    "Turning from rejected operas straight to chamber works he described as steps toward a symphony is consistent with persistence; the same pattern of choosing weak libretti is also noted by Grove.",
+  "franz-schubert.turning_point.1":
+    "In April 1816 Schubert, then an assistant teacher at his father's school, applied for a newly created music post at Laibach with testimonials from Salieri and the school superintendent Spendou; the post went to Jacob Schaufl on Salieri's recommendation. In the autumn of 1816 Franz von Schober, a student who admired his songs, took him into his lodgings, and Schubert left his father's school. Grove adds that he soon gave up the few lessons he tried. Years later he refused the court organist post and applied unsuccessfully for the court vice-Kapellmeister post in 1826.",
+  "franz-schubert.interpretation.turning_point.1":
+    "Leaving salaried teaching for an uncertain life among friends, and later refusing a court organist post that Josef Hüttenbrenner said he declined to keep his liberty, is consistent with a strong need for autonomy, at the cost of a secure income.",
+  /* ---------------------------------------------------------- gustav-mahler (Roster45) */
+  "gustav-mahler.achievement.1":
+    "Mahler composed nine numbered symphonies, the symphonic song cycle Das Lied von der Erde (completed 1908), the Kindertotenlieder and the Wunderhorn songs, and left a Tenth Symphony unfinished. He wrote most of this music in the summer breaks from his conducting posts. The Eighth Symphony was first performed in Munich on 12 September 1910 under his own baton, and Bruno Walter later premiered Das Lied von der Erde (Munich, 20 November 1911) and the Ninth (Vienna, 23 June 1912).",
+  "gustav-mahler.achievement.2":
+    "From 1897 to 1907 Mahler directed the Vienna Court Opera. According to his biographers Paul Stefan and Richard Specht, the paid claque disappeared, late-comers were no longer admitted during a performance, singers were drilled as an ensemble rather than as soloists, and from 1903 he worked with the painter Alfred Roller on some thirty to forty new productions, beginning with Tristan und Isolde, that brought scenery and lighting into line with the music. He left in 1907 and sailed for New York that December.",
+  "gustav-mahler.achievement.3":
+    "Mahler conducted at the Hamburg opera from 1891 and, after Hans von Bülow's illness and death in 1894, led its subscription concerts; in Vienna he also led the Philharmonic concerts from 1898 to 1901. In New York he conducted opera at the Metropolitan and, with the reorganised Philharmonic Society, 46 concerts in 1909-10 and a further 48 in the following season. Henderson of The Sun, a critic who at times disagreed with his readings, wrote in 1911 that all nineteen of his reviews of Mahler's Philharmonic concerts contained praise.",
+  "gustav-mahler.moment.1":
+    "According to Richard Specht, when admirers of the tenor Hermann Winkelmann kept interrupting performances at the Vienna Opera with applause in the middle of scenes, Mahler met a group of them at the stage door. He refused their cheers, called their behaviour 'barbarous' and unworthy of young people, and told them to think before doing it again; only after he had left the stage did he say he would accept their cheers. Specht reports that the interruptions stopped.",
+  "gustav-mahler.interpretation.moment.1":
+    "Facing a hostile group directly rather than avoiding it is consistent with tolerance of conflict; the account comes from an admiring biographer and is undated.",
+  "gustav-mahler.moment.2":
+    "Paul Stefan reports that Mahler performed Beethoven's Ninth Symphony with retouched instrumentation, following changes Wagner had proposed. When critics objected, he had a printed explanation handed out in the hall, and the performance was repeated. A Sun reviewer in 1909 also questioned his handling of Schumann's D minor symphony, calling the finale hurried and the coda little better than a blur, while granting that his intended design was plain to hear.",
+  "gustav-mahler.interpretation.moment.2":
+    "Making his own editorial changes to a canonical score and defending them in print is consistent with independent thinking; the Sun review shows that critics did not always accept his readings.",
+  "gustav-mahler.turning_point.1":
+    "In summer 1907 Mahler applied for his pension and left the Vienna Court Opera, where he held a life appointment, and in December sailed to America. The Sun reported at the time that he said he was weary of the post and wanted time to compose, while his enemies said he had been forced out; Stefan says a protest address signed by writers, musicians and scientists was presented to him. In his farewell letter to the company he wrote that he left 'patchwork' rather than a finished whole.",
+  "gustav-mahler.interpretation.turning_point.1":
+    "Giving up a secure appointment for more control over his working time is consistent with a need for autonomy, though the sources disagree on whether he left by choice or under pressure.",
+  /* ---------------------------------------------------------- herman-hollerith (Roster45) */
+  "herman-hollerith.achievement.1":
+    "Hollerith devised an electric tabulating system in which each person's census details were recorded as holes in a card and counted by an electrically operated machine; his first patent application was filed in September 1884 and the patents issued in January 1889. In the 1889 test on St. Louis census districts his method needed 5 hours 28 minutes to tabulate, against 55 hours 22 minutes for the Hunt method and 44 hours 41 minutes for the Pidgin method, and the Census Office adopted it. In 1890 the first count of the whole US population took a little over six weeks, and a preliminary total was announced on 28 October 1890.",
+  "herman-hollerith.achievement.2":
+    "In 1896 Hollerith incorporated the Tabulating Machine Company and won an order to supply machines for Russia's first national census (1897). An Austrian workshop had been licensed to build his system for the 1890 Austrian census, Norway and France also used it, the New York Central railroad became a commercial customer from 1897, and the US Census rented his machines again in 1900. In 1911 he and his directors sold the company to the merger that formed the Computing-Tabulating-Recording Company, renamed International Business Machines (IBM) in 1924; he stayed on as a consulting engineer.",
+  "herman-hollerith.achievement.3":
+    "From 1902 Hollerith redesigned his equipment for business customers. By 1907 his second system combined a keyboard punch, a sorter and an adding tabulator, with plugboard programming and an automatic card reader, around a 45-column card; a later 80-column card became the standard IBM card. His engineering collaborator Eugene Ford of the Taft-Peirce company played a key part in the keyboard punch design.",
+  "herman-hollerith.moment.1":
+    "In 1895 the New York Central railroad dropped its trial of Hollerith's adding tabulator because the machine was unreliable. Within a few months he devised a new adding tabulator for the same job; it was accepted after a second trial, and the railroad became a customer from 1897.",
+  "herman-hollerith.interpretation.moment.1":
+    "Returning with a redesigned machine after a failed trial, rather than leaving the customer, is consistent with persistence; the account rests on one scholar's reading of archival letters.",
+  "herman-hollerith.moment.2":
+    "In 1894 Hollerith offered the Norwegian statistical office a tabulator free for testing and travelled to Norway to assemble it himself. After a positive test the office bought it the following year for $1,100, and it was used for Norway's 1900 census.",
+  "herman-hollerith.interpretation.moment.2":
+    "Taking a free machine abroad and installing it himself, before any order existed, is consistent with proactive agency.",
+  "herman-hollerith.turning_point.1":
+    "For the 1904-05 year the Census Bureau obtained a lower rental rate; Hollerith opposed the concession but his directors overruled him. In 1905 the Bureau obtained funds to develop its own tabulating machinery, based on his early patents that would expire in 1906. When it refused his condition that the government do no experimental work on tabulating machines, it sent back the rented machines, and his company did not supply the Census Bureau again until the late 1920s.",
+  "herman-hollerith.interpretation.turning_point.1":
+    "Making the contract conditional on the customer not experimenting on its own is consistent with a strong need to keep control of his design; Truesdell's Census Bureau history itself calls the Bureau's rates 'excessive and exorbitant', so the dispute had two sides.",
+  /* ---------------------------------------------------------- humphry-davy (Roster45) */
+  "humphry-davy.achievement.1":
+    "In October 1807 Davy obtained the first decisive result in decomposing potash with a large voltaic battery, and on 19 November 1807 he delivered his Bakerian lecture to the Royal Society on the decomposition of the fixed alkalies and the new metal-like substances that form their bases: potassium and sodium. He went on to decompose the alkaline earths, and the Science History Institute lists calcium and magnesium among the elements he isolated; Paris adds boron from boracic acid.",
+  "humphry-davy.achievement.2":
+    "In his Bakerian lecture of 1810 and a memoir read in February 1811, Davy argued that the gas then called oxymuriatic acid contains no oxygen but is a simple substance, which forms muriatic acid (hydrochloric acid) by combining with hydrogen. Paris says the view went against the belief of European chemists for nearly thirty years and set off an acute controversy, and David Knight credits Davy with establishing chlorine as an element and showing that hydrochloric acid contains no oxygen, which undercut Lavoisier's idea that oxygen is in all acids.",
+  "humphry-davy.achievement.3":
+    "After the Rector of Bishopwearmouth, Dr Gray, invited him to look into explosions in Northumberland and Durham collieries, Davy visited the mines in August 1815, took samples of fire-damp, and wrote to Gray on 30 October 1815 that he had found a safe lamp. The wire-gauze lamp was tested in the mines in 1816 and found to work in practice, and the Science History Institute says it substantially reduced coal-mine deaths per ton of coal in the following years.",
+  "humphry-davy.achievement.4":
+    "In 1798 Davy became superintendent of Thomas Beddoes's Medical Pneumatic Institution in Bristol, where he investigated the effects of nitrous oxide ('laughing gas'). In 1801 he was appointed to the Royal Institution in London, where, in the Science History Institute's words, he became the most popular scientific lecturer in London in the 1800s; he also lectured on chemistry to the Board of Agriculture.",
+  "humphry-davy.moment.1":
+    "At Bristol, Cottle records, Davy tried to breathe nitrous gas, a deadly one. To keep its oxygen from forming nitric acid in his lungs, he first emptied his lungs with several breaths of nitrous oxide from a second bag, then took a single breath of the nitrous gas. It burned his throat and caused a spasm, he stopped at once, and he wrote of it, 'I never design again to repeat so rash an experiment.' Cottle says he had warned Davy of the danger of his gas trials.",
+  "humphry-davy.interpretation.moment.1":
+    "Deliberately breathing an untested gas, with a precaution of his own design, is consistent with a high tolerance for risk in the laboratory; stopping at once and recording that he would not repeat it shows the risk was weighed, not ignored. The account comes through his friend Cottle, who also recorded his own warnings.",
+  "humphry-davy.moment.2":
+    "In autumn 1815, after Davy had tried the lamp in mines with the colliery manager John Buddle, Buddle told him he might have made five or ten thousand pounds a year by patenting it. According to Paris and Thorpe, Davy answered that he had never thought of it and that his object was to serve humanity. The coal-owners later gave him a service of plate worth about 2,500 pounds, which he asked to be made as a dinner service.",
+  "humphry-davy.interpretation.moment.2":
+    "Declining a patent is consistent with a motive to have the invention used, but the account comes from Buddle's letter and Davy's own words as repeated by two admiring biographers, and he accepted the owners' plate, so the motive is shown as mixed rather than purely disinterested.",
+  "humphry-davy.turning_point.1":
+    "In 1808 Davy held that muriatic acid contained a large share of water and that oxymuriatic acid contained oxygen. Paris says he began to doubt it when charcoal, freed of hydrogen and moisture and heated white-hot by the voltaic battery in oxymuriatic or muriatic acid gas, produced no change. He retraced his steps and, in his 1810 Bakerian lecture, argued that oxymuriatic acid is a simple body, which led to one of the sharpest controversies in chemistry of the period.",
+  "humphry-davy.interpretation.turning_point.1":
+    "Reversing his own published position when an experiment failed to give the expected result is consistent with updating beliefs on evidence; the source is a secondary account of his papers.",
+  /* ---------------------------------------------------------- jim-clark (Roster45) */
+  "jim-clark.achievement.1":
+    "Driving for Colin Chapman's Team Lotus, Clark won the Formula One World Championship in 1963 and 1965. The Formula 1 website records seven championship race wins in 1963 and six of ten races in 1965. Motor Sport adds that across 72 World Championship grands prix between 1960 and 1968 he finished second only once, and that 82 per cent of his 274 points came from wins.",
+  "jim-clark.achievement.2":
+    "On 31 May 1965 Clark won the Indianapolis 500 in a rear-engined Lotus 38 with a Ford V8, leading 190 of the 200 laps after finishing second in 1963 and retiring from a challenging position in 1964. Motor Sport's contemporary report said his win established the rear-engine pattern at Indianapolis, as the Cooper-Climax had done in grand prix racing in 1959. The winner's share of the purse was $166,621.",
+  "jim-clark.achievement.3":
+    "Clark also won and placed in many kinds of car outside Formula One. He won four of the seven races of the 1965 Tasman Series; on the 1966 RAC Rally he set three fastest stage times in a Lotus Cortina before rolling it; and in 1967 he started a NASCAR race at Rockingham, climbing from 24th to 13th before his engine failed.",
+  "jim-clark.moment.1":
+    "In practice for the 1967 Dutch Grand Prix, the debut of the Lotus 49, Clark refused to drive the new car until a broken ball-race in the right-rear hub, which he had sensed the previous day and his mechanics had not found overnight, was traced and fixed. Motor Sport says he had been unable to try the car before the weekend because of a change in his tax status; he qualified eighth and won, leading from lap 15.",
+  "jim-clark.interpretation.moment.1":
+    "Refusing to drive until a fault he had felt was found, in a car he had never tried, is consistent with attention to detail; the same essay says an ability to drive around problems could also complicate testing sessions.",
+  "jim-clark.moment.2":
+    "At the 1963 Indianapolis 500, leader Parnelli Jones's car was dropping oil on the track, and Clark, whose Lotus was then the fastest car, fell back and finished second. According to Motor Sport, the next day Jones came to blows with Eddie Sachs, while Clark smiled, shook the winner's hand and made no fuss in public. Nigel Roebuck writes that two years later Clark won the race with Jones second, which in Clark's mind was the right response.",
+  "jim-clark.interpretation.moment.2":
+    "Shaking hands rather than protesting is consistent with a low tolerance for open conflict; Gurney and others in the Motor Sport features say the Lotus team felt Indianapolis officials were hostile, so the restraint also kept relations workable.",
+  "jim-clark.turning_point.1":
+    "On Boxing Day 1958 at Brands Hatch, Clark raced a Lotus Elite against Lotus founder Colin Chapman in an identical car. Chapman, who Motor Sport says got the better of it after a backmarker intervened, noticed Clark's pace, and afterwards invited him to race a Lotus Formula Junior; he joined Team Lotus for the latter part of the 1960 Formula One season. The Formula 1 website adds that Clark had come to racing reluctantly, entered in cars by wealthy friends who urged him on.",
+  "jim-clark.interpretation.turning_point.1":
+    "Racing the team owner flat out in a first meeting is consistent with competitiveness; the Formula 1 profile also shows others' initiative put him in those cars, so the opening was shared rather than self-engineered.",
+  /* ---------------------------------------------------------- louis-daguerre (Roster45) */
+  "louis-daguerre.achievement.1":
+    "In the process Daguerre made public in 1839, a silver-plated copper plate was exposed to iodine vapour, exposed in a camera, developed over heated mercury vapour and then made insensitive to light. The state's exposé said it needed four or five minutes, where Nicéphore Niepce's bitumen process had needed many hours. Daguerre's own 1839 note argues the daguerreotype owed nothing to Niepce, while Davanne, speaking for Niepce's memory, still credits Daguerre with the latent image developed by mercury vapour.",
+  "louis-daguerre.achievement.2":
+    "In 1822 Daguerre and the painter Charles-Marie Bouton opened the Diorama in Paris: large translucent canvases painted on both sides and lit from the front or from behind, so that one scene changed from day to night or into another effect. A programme had two pictures; Daguerre's Midnight Mass at Saint-Étienne-du-Mont was among the first. The 1839 agreement with the state also required him to make the Diorama's painting and lighting methods public.",
+  "louis-daguerre.achievement.3":
+    "Because the process could not be protected by a French patent, the Minister of the Interior agreed with Daguerre and Isidore Niepce on 14 June 1839 that the state would buy it for life pensions of 6,000 francs to Daguerre and 4,000 to Niepce; the Deputies passed the law on 3 July and the Peers on 30 July. François Arago described the process to the Academy of Sciences on 19 August to a crowd that overflowed the hall, and Daguerre's manual appeared from the maker Alphonse Giroux, who sold the apparatus under Daguerre's signature. Eder adds that Daguerre also took an English patent on 14 August 1839.",
+  "louis-daguerre.moment.1":
+    "On 3 September 1827 Daguerre spent about three hours in Paris with Nicéphore Niepce, whom he had approached since 1826. Niepce's letter of the next day, quoted by Ernouf, says Daguerre showed him the Diorama, described a fast process of his own and his struggle to hold several colours, and believed Niepce was further ahead; Daguerre pressed the need to shorten the fixing of the image. The two signed their partnership in December 1829.",
+  "louis-daguerre.interpretation.moment.1":
+    "Seeking out an older, more advanced researcher after repeated evasive replies, and using the meeting to push the next problem, is consistent with proactive agency; the account comes from Niepce's side of the correspondence as printed by Ernouf.",
+  "louis-daguerre.moment.2":
+    "On 8 March 1839 a fire destroyed the Diorama and Daguerre's home while he was visiting Samuel Morse to see the telegraph; Morse wrote to his brothers the next day. On 20 May Morse offered to arrange an exhibition of Daguerre's results in America, and on 26 July Daguerre replied that the transaction with the French government was nearly at an end, so he could not take it up.",
+  "louis-daguerre.interpretation.moment.2":
+    "Staying on the course of the state sale in the months after the loss, rather than taking a foreign offer, is consistent with persistence; Morse is a friendly witness and his son edited the letters.",
+  "louis-daguerre.turning_point.1":
+    "In 1837 and 1838 Daguerre and Isidore Niepce looked for capitalists and, on 15 May 1838, tried to sell the process by subscription. Ernouf says buyers admired the plates but doubted the images would last and feared copying, and Eder reports the attempt failed. Daguerre then took the secret to François Arago, who announced the invention to the Academy of Sciences on 7 January 1839 and helped bring the matter to the Minister of the Interior.",
+  "louis-daguerre.interpretation.turning_point.1":
+    "Changing route to the state when the market would not pay for something no patent could protect is consistent with resourcefulness; the buyers' reasons come from Ernouf alone.",
+  /* ---------------------------------------------------------- robert-boyle (Roster45) */
+  "robert-boyle.achievement.1":
+    "Around 1658-59 Boyle had an air pump built at Oxford with the help of Robert Hooke, and in December 1659 he wrote up the results as New Experiments Physico-Mechanical, Touching the Spring of the Air (published 1660). The book reported trials on flame, sound, living creatures and liquids in an evacuated glass, and argued that effects once credited to nature's horror of a vacuum come from the air's own spring. Thomas Hobbes and Francis Linus attacked it, and Boyle replied in the second edition of 1662.",
+  "robert-boyle.achievement.2":
+    "In the 1662 edition of the same book, Boyle added a reply to Linus together with trials in which air trapped in a bent glass tube was compressed and expanded using mercury. He reported that the pressures and expansions stood in reciprocal proportion. Richard Townley had suggested such a relation, and Peter Anstey notes that Boyle did not claim it held without limit. The relation is now known as Boyle's law.",
+  "robert-boyle.achievement.3":
+    "In The Sceptical Chymist (1661) Boyle used a dialogue, in which Carneades speaks for him, to challenge both the Aristotelian four elements and the chemists' three principles of salt, sulphur and mercury, asking what the words 'element' and 'principle' actually mean and what experiments show. Michael Hunter adds that the experimental essays of these years led him to advance corpuscularianism, his version of the mechanical philosophy, against scholastic explanations in terms of forms and qualities.",
+  "robert-boyle.achievement.4":
+    "Boyle attended the Royal Society's inaugural meeting on 28 November 1660, and Michael Hunter calls him the prime exemplar of the experimental philosophy it espoused; his books gave detailed accounts of his trials so that others could follow the procedure. A codicil of 1691 to his will charged a London house with funding the Boyle Lectures, a series of sermons defending the Christian religion, first given by Richard Bentley in 1692.",
+  "robert-boyle.moment.1":
+    "To test whether the air's pressure changes with height when no mountain was at hand, Boyle and a helper lowered a water-filled weather-glass on a string from the leads of Westminster Abbey to the ground and marked how far the water fell, about an inch. Two or three days later the wind made the result less regular; a repeat inside the church was hampered when the top of the pipe broke, and he wrote that the experiment might need further examination.",
+  "robert-boyle.interpretation.moment.1":
+    "Improvising a test when the ideal one was out of reach, and printing the wind-spoiled and hampered trials as well as the clean one, is consistent with a habit of devising experiments and recording their limits.",
+  "robert-boyle.moment.2":
+    "Within months of publishing Memoirs for the Natural History of Human Blood in 1684, Boyle began preparing a revised edition. According to the editors Michael Hunter and Harriet Knight, a draft preface credits the Italian physician Marcello Malpighi's response as a stimulus, and the list of topics for investigation grew from 30 to 45 titles. The revised edition was never printed.",
+  "robert-boyle.interpretation.moment.2":
+    "Reworking a printed book in response to another physician's reaction is consistent with revising his own position on outside evidence; the editors also record that critics found the printed book unsystematic and that the revision never reached print.",
+  "robert-boyle.turning_point.1":
+    "In 1645-46 Boyle's first writing project was a moral treatise, Aretology, and for several years his writing was pious and moralistic rather than scientific. In 1649 he set up a laboratory at his house in Stalbridge, Dorset, and, according to Michael Hunter, writings from that summer on show an enthusiasm for experimental knowledge that stayed with him for the rest of his life.",
+  "robert-boyle.interpretation.turning_point.1":
+    "A change of direction from moral writing to laboratory work, kept up for four decades, is consistent with curiosity pulling him toward a new line of inquiry.",
+  /* ---------------------------------------------------------- wilhelm-maybach (Roster45) */
+  "wilhelm-maybach.achievement.1":
+    "At Daimler's workshop in Cannstatt, Maybach worked from 1882 on a light, high-revving petrol engine. The DPMA describes the vertical 'grandfather clock' engine of 1884 as light and small yet fast enough to drive vehicles, and NDB says he raised engine speed from about 110 to 900 rpm by redesigning connecting rod, crankshaft, bearings and valve gear. In 1885 it powered the wooden two-wheeler known as the Reitwagen, which reached about 12 km/h. The sources differ on how to share credit with Daimler, who filed the patents.",
+  "wilhelm-maybach.achievement.2":
+    "Working from a flat and then from the rented ballroom of the former Hotel Hermann in Cannstatt in 1891-95, Maybach developed the belt drive, the two-cylinder Phoenix engine and the spray-jet carburettor of 1893, which NDB says became widely used and the DPMA says was used for decades in the car industry. Weeks's 1904 reference book already credited his 'able assistance' and the carburettor to the Daimler works.",
+  "wilhelm-maybach.achievement.3":
+    "In 1900 Maybach's design office, including Ernst Moewes, Eugen Linck and Albert Heess, built a racing car with a 35 hp four-cylinder engine and two carburettors for the Austrian businessman Emil Jellinek, who ordered 36 cars and named the model after his daughter Mercedes. NDB lists the honeycomb radiator, light-metal parts and geared transmission, and the DPMA says the car set the basic layout of the modern automobile; it was shown at Nice Race Week in March 1901.",
+  "wilhelm-maybach.achievement.4":
+    "After leaving the DMG in 1907, Maybach wrote to Count Zeppelin in 1908 recommending an airship engine based on a design by his son Karl, and Luftfahrzeug-Motorenbau was founded at Bissingen on 23 March 1909. Karl designed the first engine himself (NDB), and the Zeppelin LZ 10 Schwaben flew with three of the company's engines in 1911; the firm later became Maybach-Motorenbau and presented its first car in 1921.",
+  "wilhelm-maybach.moment.1":
+    "While researching for Daimler, Maybach found a patent by an Englishman named Watson that described an unregulated hot-tube ignition, which the Mercedes-Benz archive calls an important requirement for reaching higher engine speeds. A horizontal test engine followed in 1883, then the vertical 'grandfather clock'.",
+  "wilhelm-maybach.interpretation.moment.1":
+    "Searching existing patents and then testing the idea on a bench engine is consistent with experimentation; the account comes from the successor company's archive and the Watson patent itself was not checked.",
+  "wilhelm-maybach.moment.2":
+    "For the Paris World Exposition of 1889 Maybach built a four-wheeled 'steel-wheel car' with a bicycle-derived frame, solid rubber tyres, a geared transmission and a V-twin engine. NDB says that he and the French licensee Emile Levassor drove it on Paris streets, and the DPMA says he developed the vehicle around the engine instead of fitting an engine into a carriage.",
+  "wilhelm-maybach.interpretation.moment.2":
+    "Designing the transmission, frame, tyres and engine as one vehicle rather than adapting a carriage is consistent with systems thinking; both accounts are favourable to Maybach and credit is shared with Daimler's direction in other sources.",
+  "wilhelm-maybach.turning_point.1":
+    "In April 1907, after his position at the DMG had weakened since 1903 and supervisory board members wanted him out, Maybach left the company. NDB says Jellinek's support did not help. After the Zeppelin LZ 4 was destroyed at Echterdingen in August 1908, he offered Count Zeppelin an engine design by his son Karl, which led to the 1909 engine company that carried the Maybach name into airship, rail and car engines.",
+  "wilhelm-maybach.interpretation.turning_point.1":
+    "Turning a forced exit into an offer to a new customer within about a year is consistent with opportunity sensing; the engine design itself was his son's, and the account of the 1907 exit comes mainly from NDB and the DPMA.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -12339,6 +12638,305 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1847년 톰슨은 옥스퍼드의 영국 과학진흥협회 모임에서 제임스 줄의 논문 발표를 들었고, 훗날 본인의 설명에 따르면 그것이 틀렸다고 느꼈으나 기다렸다가 줄에게 따로 이야기했다. 그는 약 3년 동안 카르노의 이론을 붙들면서도 다른 사람들에게 줄의 연구가 중요하다고 말했다. 1850년 그는 줄에게 증기에 관한 한 결론이 알려진 사실과 조화되려면 줄의 발견이 있어야 한다고 썼고, 1851년의 논문은 두 이론 위에 이론을 다시 세웠다.",
   "william-thomson-kelvin.interpretation.turning_point.1":
     "의심에서 수용까지 약 3년이 걸렸고 그동안에도 증거가 중요하다고 공개적으로 말한 일은, 느리지만 결국 받아들이는 방식의 믿음 갱신과 부합한다. 이 서술은 주로 그를 높이 평가하는 전기 작가와 본인의 회고에 의존한다.",
+  /* ---------------------------------------------------------- alexandra-david-neel (Roster45) */
+  "alexandra-david-neel.achievement.1":
+    "1923~24년 당시 55세였던 다비드넬은 입양한 아들 아퓌르 용덴과 함께 라마승과 그 어머니로 변장한 채 외국인에게 닫혀 있던 티베트 동부를 걸어서 가로질렀고, 국경 경비를 피해 1924년 2월 라싸에 닿았다. 두 사람은 약 두 달을 머물렀다. 그녀는 이 도시에 들어간 최초의 서양 여성으로 흔히 소개되지만, 여정에 대한 기록은 주로 그녀 자신의 책에 의존하며, 인도학자 클라우스 카르투넨은 그녀의 여행 범위에 의문이 제기되어 왔다고 지적한다.",
+  "alexandra-david-neel.achievement.2":
+    "그녀의 여정 기록은 1927년 파리, 런던, 뉴욕에서 『라싸 여행』(My Journey to Lhasa)으로 출간되었고, 1929년에는 『티베트의 신비주의자와 마술사』(Mystiques et magiciens du Tibet)를 냈다(영어판 『티베트의 마술과 신비』, 1932). 게일 인명사전은 첫 책이 큰 반향을 일으켰다고 전하며, 카르투넨은 그녀의 책이 매우 널리 읽혔지만 학술 연구서는 아니라고 평하고, 뉴욕 타임스 서평자는 라싸 기록이 흥미롭지만 모호하다고 보았다.",
+  "alexandra-david-neel.achievement.3":
+    "그녀는 라마 용덴과 함께 티베트 동부 변경 지역의 음유시인과 필사본에서 게사르 서사시를 채록했으며, 한 시인과는 6주 넘게 낭송 자리를 가졌다. 그 결과물인 『링의 게사르의 초인적 생애』는 1931년 프랑스어로, 1933년 콜레주 드 프랑스 교수 실뱅 레비의 서문을 붙여 영어로 출간되었다. 중국 민족학자 리안자이는 두 사람을 도왔고 그들의 작업을 칭찬하는 글을 썼다.",
+  "alexandra-david-neel.achievement.4":
+    "1911년부터 1925년까지 그녀는 아시아에서 살며 공부했다. 시킴에서는 1912년 제13대 달라이 라마를 만났고 동굴 암자에서 지냈으며, 중국과 그 티베트 접경 지역에서는 쿰붐 같은 사원에서 여러 해를 보냈다. 1916년에는 허가 없이 티베트에 들어가 판첸 라마를 방문했다가 시킴에서 추방되었다. 카르투넨은 1911~25년의 체류를 기록하면서, 그녀가 티베트 문화와 종교를 잘 알았지만 일부 주장은 설득력이 약하다고 평한다.",
+  "alexandra-david-neel.moment.1":
+    "그녀 자신의 기록에 따르면, 포(Po) 지역에서 강도 일곱 명이 용덴의 돈 2루피를 빼앗고 외국 물건이 들어 있어 정체가 드러날 수 있는 그의 짐을 열려고 했다. 그녀는 울면서 티베트의 무서운 신들을 이름으로 불러 저주했고, 결국 강도들이 돈을 돌려주고 축복을 청했다고 한다. 그녀의 책에는 권총 이야기가 없으나 후대의 인물 소개글은 그녀가 권총을 쏘았다고 전해, 이 일화의 세부는 서술마다 다르다.",
+  "alexandra-david-neel.interpretation.moment.1":
+    "이길 수 없는 싸움 대신 티베트 신앙에 대한 지식으로 즉석에서 역할을 꾸며낸 것은 임기응변에 능한 면모와 부합한다. 다만 이 일화는 거의 전적으로 그녀 자신의 글에 의존한다.",
+  "alexandra-david-neel.moment.2":
+    "칸제 부근에서 장티푸스류의 열병에 걸린 그녀는 영국 영사의 허가증이 없다는 이유로 티베트 국경 관리들에게 돌아가라는 명령을 받았다. 그녀의 기록에 따르면 그녀는 이를 거부하고 며칠 동안 논쟁을 벌였으며, 총으로 쏘지 않는 한 막을 수 없다고 말하고 자키엔도로 나아갔다. 그녀는 훗날 이 일을 새로운 방랑기의 출발점이라고 불렀다.",
+  "alexandra-david-neel.interpretation.moment.2":
+    "공식 명령을 거부하고 혼자 길을 계속 간 것은 강한 자율성 욕구와 부합한다. 다만 이 일화는 그녀 자신의 기록으로만 알려져 있다.",
+  "alexandra-david-neel.turning_point.1":
+    "1916년 그녀는 허가 없이 은둔처에서 티베트로 넘어가 타시룬포에서 판첸 라마를 방문했다. 시킴 주재 영국 관리는 그녀에게 14일 안에 떠나라고 했고, 게일 인명사전은 그녀가 추방되었다고 전한다. 전시여서 유럽으로 돌아갈 수 없었던 그녀는 일본, 한국, 중국으로 이동했고, 이 길이 결국 쿰붐과 라싸 여행으로 이어졌다.",
+  "alexandra-david-neel.interpretation.turning_point.1":
+    "거주지를 잃을 수 있는 금지선을 알면서 넘은 것은 위험 감수 성향과 부합하며, 그 대가는 시킴에서의 공부에 돌아갔다.",
+  /* ---------------------------------------------------------- andreas-vesalius (Roster45) */
+  "andreas-vesalius.achievement.1":
+    "베살리우스는 1543년 바젤에서 『인체의 구조에 관하여(De humani corporis fabrica)』를 펴냈다. 요하네스 오포리누스(Johannes Oporinus)가 인쇄했고 카를 5세에게 헌정되었다. 이 책은 일곱 권으로, 뼈와 연골, 인대와 근육, 정맥과 동맥, 신경, 영양·생식 기관, 심장과 폐, 뇌와 감각기관을 다루며, 본문 옆에 큰 목판 삽화를 배치했다. 같은 해 학생용 요약본 『에피토메(Epitome)』도 나왔다. 삽화는 전통적으로 티치아노 문하의 얀 스테판 판 칼카르(Jan Stephan van Calcar)의 작품으로 알려져 있다.",
+  "andreas-vesalius.achievement.2":
+    "베살리우스는 해부를 근거로 갈레노스가 사람이 아니라 원숭이의 몸을 기술했다고 주장했다. 『파브리카』에서 그는 흉골이 일곱 조각이 아니라 세 부분으로 이루어져 있고, 아래턱뼈는 하나이며, 사람에게는 기이한 그물(rete mirabile)이 없고, 신경은 속이 비어 있지 않다는 점 등을 바로잡았다. 1543년판은 심장 중격의 보이지 않는 구멍으로 피가 통한다고 여전히 말했지만, 1555년 제2판에서는 감각으로 알 수 있는 한 중격을 통과하는 피는 없다고 썼다.",
+  "andreas-vesalius.achievement.3":
+    "베살리우스는 1537년 12월 파도바 대학에서 외과학과 해부학을 가르치게 되었다. 당시 해부학은 교수가 책을 읽는 동안 이발외과의가 시신을 자르는 방식이 보통이었지만, 그는 직접 해부하며 강의했다. 1538년에는 학생용으로 큰 판형의 인쇄 도판 여섯 장 『해부학 도판 여섯 장(Tabulae anatomicae sex)』을 냈고 그림은 칼카르의 이름으로 기록되어 있다. 1540년에는 볼로냐에서 해부 시연을 했으며, 학생 발다자르 헤젤러(Baldasar Heseler)가 이를 노트에 기록했다.",
+  "andreas-vesalius.moment.1":
+    "1530년대 파리에서는 교수가 갈레노스를 읽는 동안 이발외과의가 시신을 자르는 방식으로 해부학을 가르쳤다. 베살리우스가 직접 밝힌 이야기를 전기 작가 제임스 볼(James Ball)이 전하는 바에 따르면, 그는 직접 칼을 잡고 복부 장기와 팔 근육을 체계적으로 해부했다. 파리의 교수 요하네스 귄터(Joannes Guinterius)는 1539년 베살리우스를 해부학에 '남다른 열의'를 가진 청년이라 쓰며, 함께 근육과 정맥, 동맥, 신경을 조사했다고 적었다.",
+  "andreas-vesalius.interpretation.moment.1":
+    "교수들이 하지 않던 일을 기회가 오기를 기다리지 않고 스스로 맡은 것은 주도적 행동성과 부합한다. 주된 서술은 베살리우스 자신의 이야기를 옛 전기 작가가 전한 것이며, 귄터의 1539년 언급이 독립적으로 이를 뒷받침하는 유일한 증거다.",
+  "andreas-vesalius.moment.2":
+    "1561년 가브리엘레 팔로피오(Gabriele Falloppio)는 베살리우스를 높이 평가하면서도 그의 오류를 바로잡는 『해부학 관찰(Observationes anatomicae)』을 냈다. 베살리우스는 마드리드에서 이에 답하는 글을 썼고, 이 글은 1564년 베네치아에서 출간되었다. 비비언 넛턴(Vivian Nutton)에 따르면 어조는 정중했다. 베살리우스는 피의 흐름을 조절하는 정맥 섬유가 있다는 자신의 믿음에 대한 팔로피오의 비판을 받아들였고, 치아에 관한 설명을 매우 반겼으며, 눈꺼풀을 올리는 근육과 세 번째 귀속뼈를 다른 사람들이 발견했음을 인정하고 귀속뼈는 직접 해부로 확인했다고 덧붙였다.",
+  "andreas-vesalius.interpretation.moment.2":
+    "젊은 해부학자의 정정을 받아들이고 다른 사람들의 발견을 인정한 것은 믿음 갱신과 부합한다. 넛턴은 이를 1555년 주석에서 우선권 문제를 조용히 처리한 방식과 대비하므로, 이것이 그의 일관된 행동 방식이었다고 할 수는 없다.",
+  "andreas-vesalius.turning_point.1":
+    "이탈리아를 떠나 궁정으로 향할 때, 베살리우스는 궁정 의사들이 자신의 책을 혹독하게 평가한 뒤 갈레노스에 관한 자신의 주석, 강의에 쓰던 갈레노스 책, 라지(Rhazes)의 『알만소르』를 더 충실히 풀어 쓴 글, 약 처방 자료를 불태웠다. 1546년의 편지에서 그는 '글쓰기를 어느 정도 자제하려는 뜻으로' 그렇게 했고 자주 후회했으며 친구들이 말렸다고 썼다. 넛턴은 팔로피오에게 보낸 답을 그가 1555년 이후 낸 유일한 출판물로 기록한다.",
+  "andreas-vesalius.interpretation.turning_point.1":
+    "적대적 평가를 받은 뒤 자신의 주석을 불태운 일은 공개 논쟁에 머무는 한계가 있었음과 부합하지만, 같은 편지에서 그는 실비우스에 맞서 자신의 연구를 변호한다. 이 서술은 본인의 것이며 사건으로부터 2~3년 뒤에 쓰였다.",
+  /* ---------------------------------------------------------- charles-lyell (Roster45) */
+  "charles-lyell.achievement.1":
+    "라이엘의 『지질학 원리』(전 3권, 1830~33)는 지표면의 과거 변화를 지금도 작용하는 원인으로 설명해야 한다고 주장했고, 에트나 화산 등에서 직접 한 야외 조사를 바탕으로 했으며, 지질학을 우주 생성론과 분리해야 한다고 호소했다. 다윈은 비글호 항해에 제1권을 가져갔고, 이 책의 견해가 자신이 아는 어떤 책보다 훨씬 낫다고 평가했다. 이 책은 1830년부터 1872년까지 11판을 거듭했다.",
+  "charles-lyell.achievement.2":
+    "라이엘은 『지질학 원리』 제3권(1833)에서 제3기를 화석 조개류 가운데 현생종이 차지하는 비율에 따라 여러 시기로 나누고, 이를 에오세, 마이오세, 구(舊) 플라이오세와 신(新) 플라이오세라고 불렀다. 화석 조개 표는 파리의 패류학자 제라르 폴 데샤예(Gerard Paul Deshayes)가 만들었고, 라이엘은 용어를 만드는 데 윌리엄 휴얼(William Whewell)의 도움을 받았다고 밝혔다.",
+  "charles-lyell.achievement.3":
+    "『지질학 원론(Elements of Geology)』(1838)은 지질학을 한 권의 교재로 정리한 책이다. 제1부는 암석을 성질에 따라 수성암, 화산암, 심성암, 변성암의 네 부류로 나누고, 제2부는 이를 최근기와 제3기부터 시대순으로 다시 배열했으며, 화석 그림이 많이 포함된 도판 294점이 실렸다. 라이엘은 이 책을 계속 고쳐 1865년에 제6판을 냈다.",
+  "charles-lyell.achievement.4":
+    "『인류의 오랜 역사에 대한 지질학적 증거』(1863)는 인류가 멸종한 포유류와 같은 시대에 살았다는 증거를 모은 책이다. 라이엘이 직접 표본을 수집한 아브빌과 아미앵의 솜(Somme) 강 자갈층의 부싯돌 도구, 데번의 브릭섬 같은 동굴 퇴적층을 다루고, 빙하 퇴적물에 관한 긴 서술과 라마르크, 다윈, 월리스의 종 기원론에 대한 논의도 담았다. 1863년에 세 판이 나왔고 1873년에 제4판이 나왔다.",
+  "charles-lyell.moment.1":
+    "1830년 6월 14일, 『지질학 원리』 출간을 열흘쯤 앞두고 라이엘은 《쿼털리 리뷰》에 서평을 쓰기로 한 풀렛 스크로프(Poulett Scrope)에게 편지를 썼다. 그는 스크로프가 서평에 '이 학문을 모세에게서 해방시킬 내용'을 담을 수 있으리라 기대하면서도, 반대자들을 이겼다고 우쭐대지는 말라고 조언했다. 또 자신의 역사 서술과 논평의 절반가량을 덜어냈다고 밝히며, 이를 그대로 드러내면 '정직한 감정이 나아갈 20~30년'을 앞질러 버리게 되기 때문이라고 설명했다.",
+  "charles-lyell.interpretation.moment.1":
+    "무엇을 말하고 무엇을 덜어낼지, 서평가가 어떤 어조로 쓸지까지 미리 조율하고, 독자를 자극하기보다 끌어들이려 한 점은 계산된 전략적 설득과 일치한다.",
+  "charles-lyell.moment.2":
+    "라이엘은 1856년 다윈에게 종 이론을 충분히 정리해 쓰라고 권했고, 1858년 7월 1일에는 조지프 후커(Joseph Hooker)와 함께 다윈과 월리스의 논문을 린네 학회에서 공동으로 소개했다. 그러나 1863년 『인류의 오랜 역사에 대한 지질학적 증거』가 나왔을 때 다윈은 라이엘이 더 분명히 말하지 않은 데 실망했다. 라이엘은 후커에게 '현재의 확신이 허락하는 범위까지 말했다'고 답했고, 다윈에게는 인간이 동물에서 왔다는 주장을 한 장에 걸쳐 논증하고도 『지질학 원리』 몇 쪽을 다시 읽으면 '예전 견해로 되돌아가곤 한다'고 털어놓았다.",
+  "charles-lyell.interpretation.moment.2":
+    "종의 변화에 반대하던 입장에서 이를 뒷받침하는 쪽으로 옮겨 가면서도 감정이 이성의 속도를 따라가지 못한다고 솔직히 인정한 모습은, 실제로 일어났지만 느렸던 믿음 수정과 일치하며, 그래서 다윈에게는 답답하게 느껴졌다.",
+  "charles-lyell.turning_point.1":
+    "라이엘은 1831년 런던 킹스칼리지의 새 지질학 교수직에 선임되어 1832년과 1833년에 강의했다. 1831년 12월 24일에는 가족에게 '교수직에서 벗어나고 싶다는 분명한 바람'을 밝혔다. 1833년 강의를 마친 뒤 그는 사임했는데, 가족이 쓴 기록은 직무가 여행과 독자적인 연구를 방해하리라 여겼다고 전하며, 베일리(Bailey)는 여성 청강이 금지된 뒤 수강생이 줄었다고 덧붙인다. 그의 다음 장거리 여행은 1834년 스웨덴, 1841~42년 북아메리카였다.",
+  "charles-lyell.interpretation.turning_point.1":
+    "런던의 교수직을 내려놓고 여행과 집필의 자유를 택한 것은 자기 일의 방식을 스스로 통제하려는 강한 욕구와 일치한다. 다만 베일리가 강의 참석자 감소도 언급하므로, 이 결정이 전적으로 원칙에 따른 것이라고 단정할 수는 없다.",
+  /* ---------------------------------------------------------- cyrus-field (Roster45) */
+  "cyrus-field.achievement.1":
+    "필드는 1854년 피터 쿠퍼 등 뉴욕의 동업자 몇 사람과 함께 프레더릭 기즈번의 뉴펀들랜드 전신 사업권을 넘겨받아 뉴욕·뉴펀들랜드·런던 전신회사를 세웠다. 1856년 9월에는 존 브렛, 찰스 브라이트와 대서양 전신회사를 설립하기로 합의했고, 이 회사는 1856년 12월 9일 런던에서 조직되었다. 필드가 맡은 일은 사업 추진과 자금 조달이었고 본인도 거액을 출자했다. 전기 및 기술 작업은 브라이트, 에드워드 화이트하우스, 윌리엄 톰슨 등 다른 사람들의 몫이었다.",
+  "cyrus-field.achievement.2":
+    "1857년과 1858년 6월의 첫 시도가 실패한 뒤, 니아가라호와 아가멤논호가 깐 케이블이 1858년 7월 29일 대서양 한가운데에서 이어졌고 8월 5일 트리니티만에 닿았다. 8월 16일에는 빅토리아 여왕과 뷰캐넌 대통령이 이 케이블로 메시지를 주고받았다. 그러나 케이블은 1858년 9월 초 신호가 끊겼고, 기술자의 전기는 성공적인 송신 대부분이 톰슨의 거울 검류계로 이루어졌다고 기록한다.",
+  "cyrus-field.achievement.3":
+    "1865년 8월 그레이트이스턴호의 케이블이 끊어진 뒤 새 앵글로·아메리칸 전신회사가 60만 파운드를 모았고, 1866년 이 배는 케이블을 깔아 7월 27일 뉴펀들랜드의 하츠콘텐트에 상륙시켰다. 9월 2일에는 잃었던 1865년 케이블을 건져 올려 발렌시아와 통신이 이어졌고, 이 케이블은 9월 8일 하츠콘텐트에 상륙했다. 미국 의회는 1867년 3월 2일 승인한 공동 결의로 필드에게 금메달을 수여했다.",
+  "cyrus-field.moment.1":
+    "1860년 6월 29일 아메리칸 전신회사 주주총회에서 필드는 집행위원회의 소책자에 '명백한 허위이거나 심한 왜곡인 진술'이 정확히 서른여섯 개 있다고 말했고, 의장은 개인 공격을 이유로 그에게 주의를 주었다. 이 서술은 상대편인 R. W. 러셀의 소책자에 실린 속기록에 근거한다.",
+  "cyrus-field.interpretation.moment.1":
+    "적대적인 주주총회에서 상대 측 소책자가 허위라고 직설적으로 말한 것은 공개적 갈등을 마다하지 않는 태도와 부합한다. 유일한 기록은 상대편이 남긴 속기록이며, 의장의 주의는 그 어조가 호의를 잃게 했음을 보여 준다.",
+  "cyrus-field.moment.2":
+    "1865년 12월 24일 런던에 도착한 필드는 법무장관이 우선주 발행을 합법화하려면 의회 제정법이 필요하다고 판단했고 이미 모인 돈이 돌려졌다는 사실을 알게 되었다. 훗날 그의 설명에 따르면 대니얼 구치와 브래시가 그를 격려했고, 1866년 3월 1일 새 회사가 설립되어 보증인 열 명이 각 1만 파운드를, 전신건설회사가 10만 파운드를 냈다. 브라이트의 전기도 이 출자 내역을 확인해 준다.",
+  "cyrus-field.interpretation.moment.2":
+    "법무장관의 판단을 받아들이고 계획했던 주식 발행을 다른 형태의 회사로 대체한 일은 임기응변과 부합한다. 그의 역할에 대한 서술은 딸이 전한 그 자신의 말에 기대고 있으며, 브라이트의 전기는 출자 내역만 확인해 준다.",
+  "cyrus-field.turning_point.1":
+    "1858년 6월의 시도에서 케이블이 여러 번 끊어진 뒤 대서양 전신회사 이사회가 런던에서 열렸다. 윌리엄 브라운 회장은 배에 남은 케이블을 팔자고 권했고, 브룩킹 부회장은 자리를 떠나 사임했다. 필드와 브라이트, 윌리엄 톰슨은 한 번 더 시도하자고 주장했고 이사회는 이를 의결했다. 배들은 1858년 7월 17일 퀸스타운을 떠났고 7월 29일 케이블을 이었다. 이 장면은 필드의 동생 헨리 필드가 전한 것이며 브라이트의 전기가 같은 글을 옮겨 싣고 있다.",
+  "cyrus-field.interpretation.turning_point.1":
+    "회장이 매각을 권하고 동료가 사임하는 상황에서 재도전을 주장한 것은 끈기와 부합한다. 이사회 장면에 대한 두 서술은 모두 필드의 동생에게서 나온 것이어서 독립적인 기록은 아니다.",
+  /* ---------------------------------------------------------- edgar-allan-poe (Roster45) */
+  "edgar-allan-poe.achievement.1":
+    "포의 단편에는 『버튼스 젠틀맨스 매거진』 1839년 9월호에 실린 「어셔 가의 몰락」과 『그레이엄스 매거진』 1841년 4월호에 실린 「모르그 가의 살인」이 있다. 포의 전집을 편집한 T. O. 마벗(Mabbott)은 「모르그 가의 살인」이 '최초의 탐정 소설이라고까지는 할 수 없더라도' 탐정 소설로 의식하고 쓴 최초의 작품이며 이후 모든 작품의 직계 조상이라고 평가한다. 로웰(Lowell)은 1845년에 「어셔 가의 몰락」 하나만으로도 작가가 천재임을 보이기에 충분하다고 썼다.",
+  "edgar-allan-poe.achievement.2":
+    "「갈까마귀」는 1845년 1월 29일 뉴욕 『이브닝 미러』에 N. P. 윌리스의 추천 글과 함께 실렸고, 곧이어 『아메리칸 휘그 리뷰』 2월호에 '쿼를스(Quarles)'라는 가명으로 실렸다. 우드베리(Woodberry)는 어떤 짧은 시도 이만큼 빠르고 널리 자리 잡은 적이 없다고 썼고, 윌리스는 이 시가 상상력을 즐기는 독자들을 '전율시켰다'고 묘사했다.",
+  "edgar-allan-poe.achievement.3":
+    "포는 생계의 상당 부분을 잡지 비평가이자 편집자로서 마련했다. 1835년부터 『서던 리터러리 메신저』에 서평을 썼고(우드베리는 그가 있는 동안 이 잡지의 발행 부수가 500부에서 3,500부로 늘었다고 전한다), 1839년 7월부터 1840년 6월까지 『버튼스』의 서평 대부분을 썼으며, 1841년부터 『그레이엄스』를 편집했고, 1845년 10월 25일에는 『브로드웨이 저널』의 '편집인 겸 소유주'가 되었다. 로웰은 그의 비평이 미적 감각에서는 한계가 있지만 '과학적 정밀함과 논리의 일관성'이 두드러진다고 보았다.",
+  "edgar-allan-poe.moment.1":
+    "1846년 포가 『고디스 레이디스 북』에 연재한 '문인들(Literati)' 인물평이 찰스 F. 브릭스와 토머스 던 잉글리시의 공격을 받자, 포는 반박문을 냈고 이 글은 1846년 7월 10일 필라델피아 『스피릿 오브 더 타임스』에 실렸다. 7월 23일에는 뉴욕 『이브닝 미러』가 잉글리시의 글을 포함한 공격문들을 실었다는 이유로 편집인과 소유주를 명예훼손으로 고소했고, 1847년 2월 17일 225달러의 배상 판결을 받았다.",
+  "edgar-allan-poe.interpretation.moment.1":
+    "공개적인 공격에 침묵하지 않고 반박문을 내고 소송까지 한 것은 공개적인 갈등을 견디는 성향과 부합한다. 다만 옳고 그름은 다툼이 있다. 브릭스와 잉글리시는 적대적이었고 포 자신의 인물평이 이들을 자극했으므로, 이 일은 그가 맞서 싸울 의지가 있었음을 보여 줄 뿐 그가 옳았다는 뜻은 아니다.",
+  "edgar-allan-poe.moment.2":
+    "포는 자신의 잡지 『스타일러스(Stylus)』 자금을 마련하려고 우주에 관한 강연을 공고했고, 1848년 2월 3일 폭풍우 치던 밤에 뉴욕 소사이어티 도서관에 60명가량이 모였다. 강연으로는 돈이 충분히 모이지 않자 그는 전문을 출판업자 조지 퍼트넘에게 보여 주었고, 퍼트넘은 이를 『유레카: 산문시』로 받아들여 500부를 찍어 1848년 여름에 펴냈다.",
+  "edgar-allan-poe.interpretation.moment.2":
+    "『스타일러스』 자금을 대려던 강연을 책으로 바꾼 것은 1840년부터 이어 온 계획을 포기하지 않는 끈기와 부합한다. 그래도 『스타일러스』는 끝내 창간되지 못했으므로, 자료가 보여 주는 것은 성공이 아니라 오랜 시간에 걸친 노력이다.",
+  "edgar-allan-poe.turning_point.1":
+    "1835년부터 남의 잡지를 편집해 온 포는 『브로드웨이 저널』을 인수했고, 1845년 10월 25일자에는 '편집인 겸 소유주 에드거 A. 포'라는 문구가 실렸다. 마벗은 그가 이를 위해 여러 사람에게 돈을 빌려야 했다고 적는다. 1845년 12월 3일 그는 찰스 레인에게 지분 절반을 넘겼고, 이 신문의 마지막 호는 1846년 1월 3일에 나왔다.",
+  "edgar-allan-poe.interpretation.turning_point.1":
+    "여러 해 동안 남의 소유주 밑에서 일한 끝에 신문을 직접 소유한 것은 1843년 편지에서 밝힌 '편집 전반에 대한 완전한 통제'를 바란다는 뜻과 맞는다. 신문은 몇 달 더 이어졌을 뿐이어서, 같은 열망이 그에게 안정된 자리를 남겨 주지는 못했다.",
+  /* ---------------------------------------------------------- edouard-manet (Roster45) */
+  "edouard-manet.achievement.1":
+    "1863년 살롱 심사위원단은 마네의 대작 『풀밭 위의 점심 식사』를 낙선시켰다. 풍경 속에서 옷을 입은 동시대 남성들 곁에 한 여성이 나체로 앉아 있는 그림이다. 나폴레옹 3세의 명령으로 낙선 작가들은 팔레 드 랭뒤스트리에서 작품을 선보일 수 있게 되었고, 『욕조(Le Bain)』라는 제목으로 목록에 오른 이 그림은 격렬한 비난을 불러일으켰다. 1865년 살롱은 전통적인 여신 대신 파리의 현대 여성을 나체로 그린 『올랭피아』를 『조롱당하는 예수』와 함께 받아들였다. 뒤레는 이 그림이 신문과 풍자화에서 조롱받았다고 전하고, 프루스트는 살롱 운영진이 캔버스를 보호하려고 조치를 취했다고 전한다.",
+  "edouard-manet.achievement.2":
+    "마네는 1867~68년에 대작 『막시밀리안 황제의 처형』을 그렸다. 1867년 6월 19일 멕시코 케레타로에서 막시밀리안 황제가 총살된 사건을 다룬 그림이다. 뒤레는 이 작품이 마네가 직접 보지 못한 장면을 그린 유일한 작품이라고 적는다. 마네는 사건의 경위와 세부 사항을 알아본 뒤, 병영에서 빌린 병사들을 처형 부대 모델로 세웠고, 세 차례에 걸쳐 새로 그렸다.",
+  "edouard-manet.achievement.3":
+    "『폴리 베르제르의 바』는 마네가 마지막으로 출품한 1882년 살롱의 주요 출품작이었다. 바 안쪽의 여종업원이 정면으로 관객을 바라보고, 그 뒤의 거울에는 한 남성과 이야기하는 모습과 홀의 풍경이 비친다. 바 위에는 밝고 대비되는 색의 병과 과일이 놓여 있다. 뒤레에 따르면 비평가들은 거울을 이용한 이 구도를 이해할 수 없다고 평했다.",
+  "edouard-manet.achievement.4":
+    "뒤레는 피사로, 모네, 르누아르, 베르트 모리조, 세잔, 시슬레가 마네가 본을 보인 밝은 색조의 회화에서 출발해 훗날 인상주의라 불리게 되는 길로 나아갔다고 쓴다. 카스타냐리는 1875년 살롱 평에서 마네를 한 유파의 우두머리이며 일군의 화가들에게 부인할 수 없는 영향을 미쳤다고 불렀다. 우르티크에 따르면 마네는 살롱의 문을 억지로라도 열어야 한다고 생각했기 때문에 1874년 인상주의자들의 첫 단체전에는 참여하지 않았다.",
+  "edouard-manet.moment.1":
+    "1867년 만국박람회 심사위원단이 마네를 낙선시키자, 그는 알마 다리 근처의 사용 허가를 받은 부지에 목조 가설 건물을 세우고 5월에 자신의 그림 약 쉰 점을 그곳에서 선보였다. 목록은 자신이 항의하려는 것이 아니라 '진실한 작품'을 보여주려는 것이며, 작품을 보여주는 것이 벗과 동지를 찾는 길이라고 밝히는 글로 시작했다. 뒤레와 우르티크에 따르면 대중과 언론은 이 전시를 조롱했고 찾아온 관람객은 적었다. 쿠르베도 근처에 비슷한 가설 건물을 세웠다.",
+  "edouard-manet.interpretation.moment.1":
+    "심사위원단이 거부하자 직접 전시를 연 일은 주도적 행동과 부합한다. 우르티크는 이런 전시가 마네의 재력으로는 부담이 컸다고도 적는다.",
+  "edouard-manet.moment.2":
+    "1875년 마네는 뒤레에게 보낸 편지에서 아르장퇴유의 클로드 모네를 찾아갔더니 의기소침하고 거의 빈털터리였다고 썼다. 그는 두 사람이 모네의 그림 열 점에서 스무 점을 한 점에 100프랑에 사자고 제안했는데, 각자 500프랑을 내는 셈이었고, 뒤에 누가 있는지 모네가 모르게 하자는 것이었다. 화상이나 수집가는 거절할지도 모른다고 보았기 때문이다. 이 편지를 다시 실은 뒤레는 마네 자신도 돈이 부족했고, 그런 그림을 사 준 유일한 화상 뒤랑뤼엘도 그때는 도울 수 없었다고 적는다.",
+  "edouard-manet.turning_point.1":
+    "1863년 살롱 심사위원단은 1859년 『압생트를 마시는 사람』을 거절했던 것처럼 『풀밭 위의 점심 식사』도 낙선시켰다. 나폴레옹 3세가 낙선 작가들의 별도 전시를 허락하자 마네의 대형 캔버스는 가장 주목받은 작품 가운데 하나가 되었다. 뒤레는 격렬한 비난이 일었다고 전하고, 프루스트는 황제가 그림 앞에 멈춰 선 뒤 궁정이 이 그림을 풍속을 해친다고 선언했다고 전한다. 마네는 같은 해에 『올랭피아』도 그렸는데, 뒤레는 이 작품을 『풀밭 위의 점심 식사』의 짝으로 본다. 마네는 이 그림을 1865년 살롱에 내놓았다.",
+  "edouard-manet.interpretation.turning_point.1":
+    "낙선 뒤 2년 만에 또 하나의 도발적인 누드로 다시 도전한 점은 끈기와 부합한다. 뒤레는 1863년에 굳어진 대중의 적대적 시선이 수년간 이어졌다고 덧붙인다.",
+  /* ---------------------------------------------------------- francisco-goya (Roster45) */
+  "francisco-goya.achievement.1":
+    "고야는 1786년 국왕의 화가가 되었고, 1789년 4월 25일 왕명으로 궁정 화가에, 1799년 10월 31일 연봉 5만 레알의 수석 궁정 화가에 임명되었다. 1799~1800년에 그린 「카를로스 4세의 가족」은 현재 프라도 미술관에 있으며, 화가 자신이 캔버스 뒤에 서 있는 모습이 담겨 있다.",
+  "francisco-goya.achievement.2":
+    "고야의 『로스 카프리초스』는 당시의 악덕과 미신, 사회 관습을 풍자한 에칭과 애쿼틴트 판화 80점 연작이다. 초기 판본은 1799년 1월부터 판매되었고, 1803년 10월 9일 고야는 동판 80장과 인쇄본 240질을 왕립 판화 인쇄국(Real Calcografia)에 넘겼으며, 왕실은 그의 아들에게 연 1만 2천 레알의 연금을 주었다.",
+  "francisco-goya.achievement.3":
+    "고야는 푸에르타 델 솔 광장의 시가전과 프린시페 피오 언덕의 총살 장면을 담은 『1808년 5월 2일』과 『1808년 5월 3일』을 실물 크기의 한 쌍으로 그렸다. 또 1810년부터 프랑스 침공을 다룬 80여 점의 에칭 『전쟁의 참화』를 제작했는데, 생전에는 시험 인쇄본 몇 점만 찍었고 연작은 1863년 산페르난도 왕립 아카데미가 처음 출간했다.",
+  "francisco-goya.achievement.4":
+    "고야는 『투우술』 연작 33점을 에칭으로 제작해 1815년에 한정 부수를 인쇄했고, 1825년 보르도에서는 골롱(Gaulon)이 약 300부를 찍은 대형 석판화 『보르도의 투우』 네 점을 그렸다. 마드리드 교외의 자택 벽에 그린 벽화도 남겼는데, 이 그림들은 이후 프라도 미술관으로 옮겨졌다.",
+  "francisco-goya.moment.1":
+    "1781년 사라고사의 필라르 성당 프레스코를 그리던 고야는 자신의 밑그림을 처남 프란시스코 바예우에게 검토받게 하려는 공사 위원회의 뜻에 서면 진정서로 맞섰다. 그는 바예우의 '단순한 집행자이자 고용된 종속자'가 되는 것을 거부했고, 비판은 '공인된 미술의 규칙'에 따라야 한다고 주장했다. 프란시스코 사파테르에 따르면, 카르투시오회 수도원장 펠릭스 살세도가 편지를 보낸 뒤 그는 4월 6일 바예우와 합의해 새 밑그림을 그리기로 했다.",
+  "francisco-goya.interpretation.moment.1":
+    "다른 화가의 종속자로 일하기를 서면으로 거부하면서도 나중에 타협을 받아들인 모습은, 협력 관계 안에서 유지된 강한 자율 욕구와 일치한다.",
+  "francisco-goya.moment.2":
+    "1824년 5월 30일 페르난도 7세는 78세의 고야에게 플롬비에르 온천 요양을 위한 6개월 휴가를 허락했다. 고야는 프랑스어를 하지 못한 채 혼자 보르도로 가서 시인 레안드로 페르난데스 데 모라틴의 집에서 사흘을 머문 뒤 파리로 떠났다. 모라틴은 6월 27일 편지에서 고야가 '세상을 몹시 보고 싶어 한다'고 썼으며, 라퐁은 고야가 플롬비에르에는 가지 않고 프랑스 회화를 살펴보는 데 그 체류를 썼다고 전한다.",
+  "francisco-goya.interpretation.moment.2":
+    "그 나이에 홀로 파리로 가서 동시대 프랑스 회화를 보려 한 것은 강한 호기심과 일치한다. 다만 사료는 여행 사실만 전할 뿐 그가 본 것에 대한 본인의 논평은 전하지 않는다.",
+  "francisco-goya.turning_point.1":
+    "고야의 1824년 휴가는 1825년 1월에 연장되었고, 1826년 6월 17일 페르난도 7세는 그에게 연봉 5만 레알 전액을 받는 퇴직과 프랑스로 돌아갈 허가를 내렸다. 그는 보르도에 정착해 석판화와 상아 세밀화를 시작했고, 1828년 4월 16일 그곳에서 세상을 떠났다.",
+  "francisco-goya.interpretation.turning_point.1":
+    "70대 후반에 보르도로 옮겨 두 가지 새로운 매체를 시작한 것은, 경력 후반까지 이어진 실험 정신과 일치한다.",
+  /* ---------------------------------------------------------- franz-schubert (Roster45) */
+  "franz-schubert.achievement.1":
+    "슈베르트는 열일곱 살이던 1814년 10월 괴테의 시에 붙인 가곡 「물레 잣는 그레트헨」을, 1815년 겨울에는 발라드 「마왕」을 썼다. 그로브는 1815년 한 해에만 가곡 137곡을 센다. 빈의 주요 출판사 디아벨리와 하슬링거가 거절한 뒤 1821년 「마왕」은 존라이트너 모임의 예약 구독자들이 비용을 대어 판각·출판되었고, 성악가 요한 미하엘 포글이 1821년 3월 7일 빈에서 이 곡을 공개 연주했다.",
+  "franz-schubert.achievement.2":
+    "1823년 그는 빌헬름 뮐러의 시 20편을 가곡집 「아름다운 물방앗간 아가씨」로 작곡했고(1824년 작품번호 25로 출판), 1827년 2월에는 뮐러의 연작시 「겨울 나그네」 24곡의 작곡에 착수했다. 앞의 12곡에는 그달의 날짜가 적혀 있고 제2부는 같은 해 후반에 완성했다. 하슬링거는 1828년 1월 제1부를 출판했다. 그로브는 프란츠 라흐너가 슈베르트의 부탁으로 「겨울 나그네」 가곡 여섯 곡을 출판사에 가져가 6굴덴을 받아 왔다고 전한다.",
+  "franz-schubert.achievement.3":
+    "슈베르트는 1822년 10월 30일 나단조 교향곡을 쓰기 시작해 두 악장을 완성했는데, 이것이 '미완성 교향곡'으로 알려진 작품이다. 자필 악보는 안젤름 휘텐브레너와 함께 그라츠에 남아 있다가 1865년 요한 헤르베크의 지휘로 빈에서 연주되었고 1867년 출판되었다. 1828년 3월에는 마지막 교향곡인 다장조 교향곡(자필 악보 218쪽)에 착수했다. 빈 악우협회에서 파트보를 필사하고 몇 차례 리허설을 했으나 너무 길고 어렵다는 이유로 철회되었으며, 두 교향곡 모두 생전에 연주되지 못했다(그로브).",
+  "franz-schubert.achievement.4":
+    "그의 실내악으로는 클라리넷, 호른, 바순과 현악기를 위한 팔중주(1824년 2~3월, 아마추어 클라리넷 연주자 트로이어 백작을 위해 작곡), 현악 사중주 라단조(1826년 1월 29일 첫 연주), 피아노 삼중주 두 곡(1827년 10~11월), 1828년의 현악 오중주 다장조가 있으며, 그로브는 이 오중주를 슈베르트 최고의 실내악일 뿐 아니라 이 장르 최고 작품 중 하나로 평했다. 1828년 3월 26일 그는 자기 작품만으로 구성한 유일한 공개 연주회를 열었고, 음악협회 홀은 사람들로 가득 찼으며 그로브에 따르면 약 800굴덴의 수입을 올렸다.",
+  "franz-schubert.moment.1":
+    "친구 요제프 폰 슈파운에 따르면, 1815년 말의 어느 오후 슈파운이 아버지 집의 슈베르트 방에 찾아갔을 때 그는 괴테의 「마왕」에 흥분해 있었다. 슈베르트는 시를 두 번 읽은 뒤였고 슈파운은 그가 곡을 적고 있는 것을 보았다. 반주는 금세 채워졌고 저녁에 그는 옛 합창학교인 콘빅트에서 이 곡을 불렀는데, '아버지, 아버지, 그가 나를 붙잡아요' 대목의 화성에 청중이 얼굴을 찡그렸고 화성학 교사 루지치카가 이를 설명해 주었다. 크라이슬레와 그로브 모두 이 이야기를 슈파운에게서 옮겨 적었으며 두 번째 목격자는 없다.",
+  "franz-schubert.interpretation.moment.1":
+    "한나절에 완성된 곡을 써낸 것은 빠른 실행 속도와 부합한다. 이런 종류의 이야기 중 가장 유명하지만 한 친구의 증언에 의존한다.",
+  "franz-schubert.moment.2":
+    "1823년 슈베르트는 5월 25일 3막 오페라 「피에라브라스」를 쓰기 시작해 5월 31일까지 제1막 총보를 끝냈고, 10월 1일까지 약 천 쪽에 달하는 세 막 전체를 완성했다. 1824년 초 그는 궁정 오페라 극장이 이 작품을 퇴짜 놓았음을 알게 되었고, 요제프 쿠펠비저가 쓴 대본이 이유로 지목되었다. 1824년 3월 쿠펠비저의 형제인 화가 레오폴트에게 보낸 편지에서 그는 이렇게 오페라 두 편을 헛되이 작곡했다고 썼고, 같은 편지에서 팔중주와 사중주는 대교향곡으로 가는 길을 닦기 위한 것이라고 밝혔다. 이 오페라는 생전에 무대에 오르지 못했다.",
+  "franz-schubert.interpretation.moment.2":
+    "거절당한 오페라에서 곧바로 교향곡으로 가는 단계라고 설명한 실내악으로 방향을 돌린 것은 끈기와 부합한다. 그로브는 그가 약한 대본을 거듭 골랐다는 점도 함께 지적한다.",
+  "franz-schubert.turning_point.1":
+    "1816년 4월 당시 아버지 학교의 보조 교사였던 슈베르트는 살리에리와 학교 감독관 슈펜두의 추천서를 갖추어 라이바흐에 새로 생긴 음악 교사직에 지원했으나, 그 자리는 살리에리의 추천으로 야코프 샤우플에게 돌아갔다. 1816년 가을 그의 가곡을 흠모하던 대학생 프란츠 폰 쇼버가 그를 자기 숙소로 데려갔고, 슈베르트는 아버지의 학교를 떠났다. 그로브는 그가 시도했던 몇몇 개인 레슨도 곧 그만두었다고 덧붙인다. 몇 해 뒤 그는 궁정 오르가니스트 자리를 사양했고 1826년 궁정 부악장직에는 지원했으나 떨어졌다.",
+  "franz-schubert.interpretation.turning_point.1":
+    "정해진 봉급이 있는 교직을 떠나 친구들 곁의 불안정한 생활을 택하고, 요제프 휘텐브레너의 전언대로 자유를 지키려고 궁정 오르가니스트 자리를 사양한 것은 안정된 수입을 희생하더라도 자율성을 크게 원하는 성향과 부합한다.",
+  /* ---------------------------------------------------------- gustav-mahler (Roster45) */
+  "gustav-mahler.achievement.1":
+    "말러는 번호가 붙은 교향곡 아홉 곡과 교향적 연가곡 『대지의 노래』(1908년 완성), 『죽은 아이를 그리는 노래』, 『소년의 마법 뿔피리』 가곡들을 작곡했고, 교향곡 10번은 미완으로 남겼다. 이 음악의 대부분은 지휘직을 쉬는 여름 휴가 동안 썼다. 교향곡 8번은 1910년 9월 12일 뮌헨에서 그의 지휘로 초연되었고, 『대지의 노래』(1911년 11월 20일 뮌헨)와 교향곡 9번(1912년 6월 23일 빈)은 그의 사후 브루노 발터가 초연했다.",
+  "gustav-mahler.achievement.2":
+    "말러는 1897년부터 1907년까지 빈 궁정 오페라극장을 이끌었다. 전기 작가 파울 슈테판과 리하르트 슈페히트에 따르면, 돈을 받고 박수를 치는 박수 부대(클라크)는 사라졌고 공연 중에는 지각한 관객의 입장이 허용되지 않았으며, 가수들은 독창자가 아니라 앙상블로 훈련받았다. 1903년부터는 화가 알프레트 롤러와 함께 『트리스탄과 이졸데』를 시작으로 서른 편에서 마흔 편가량의 새 프로덕션을 만들어 무대 장치와 조명을 음악에 맞추었다. 그는 1907년 극장을 떠나 그해 12월 뉴욕으로 건너갔다.",
+  "gustav-mahler.achievement.3":
+    "말러는 1891년부터 함부르크 오페라에서 지휘했고, 한스 폰 뷜로가 병으로 물러나 1894년 세상을 떠난 뒤에는 이 도시의 정기 연주회를 맡았다. 빈에서는 1898년부터 1901년까지 빈 필하모닉 연주회도 지휘했다. 뉴욕에서는 메트로폴리탄 오페라에서 오페라를 지휘했고, 재편된 뉴욕 필하모닉 협회와 함께 1909~10년 시즌에 46회, 이듬해 시즌에 48회의 연주회를 열었다. 때로 그의 해석에 이견을 보였던 『더 선』의 평론가 헨더슨은 1911년 말러의 필하모닉 연주회에 쓴 자신의 평 열아홉 편 모두에 칭찬이 들어 있다고 썼다.",
+  "gustav-mahler.moment.1":
+    "리하르트 슈페히트에 따르면, 테너 헤르만 빙켈만의 팬들이 빈 오페라극장에서 장면 도중에 박수를 쳐 공연을 계속 끊자, 말러는 무대 출입구에서 그들 일부와 마주쳤다. 그는 그들의 환호를 거절하고 그런 행동은 '야만적'이며 젊은이답지 못하다고 말한 뒤 다시는 그러지 말고 생각해 보라고 했다. 그리고 자신이 무대에서 물러난 뒤에야 환호를 받아들이겠다고 말했다. 슈페히트는 그 뒤로 방해가 멈췄다고 전한다.",
+  "gustav-mahler.interpretation.moment.1":
+    "적대적인 무리를 피하지 않고 직접 마주한 일은 갈등을 견디는 태도와 부합한다. 다만 이 서술은 그를 높이 평가한 전기 작가의 것이며 날짜가 밝혀져 있지 않다.",
+  "gustav-mahler.moment.2":
+    "파울 슈테판에 따르면, 말러는 바그너가 제안한 방식을 따라 악기 편성을 다듬어 베토벤의 교향곡 9번을 연주했다. 비평가들이 반발하자 그는 해명문을 인쇄해 연주회장에서 나누어 주었고, 그 연주는 다시 열렸다. 1909년 『더 선』의 한 평론가도 슈만 교향곡 d단조에 대한 그의 해석을 문제 삼아 피날레가 서둘렀고 코다는 뭉개진 소리에 가까웠다고 평했으나, 그가 의도한 구성은 분명히 들렸다고 인정했다.",
+  "gustav-mahler.interpretation.moment.2":
+    "정전으로 꼽히는 악보에 자신만의 편집을 가하고 그것을 인쇄물로 변호한 일은 독립적 사고와 부합한다. 『더 선』의 평은 비평가들이 그의 해석을 늘 받아들인 것은 아님을 보여 준다.",
+  "gustav-mahler.turning_point.1":
+    "1907년 여름 말러는 연금을 신청하고, 종신 임용 상태였던 빈 궁정 오페라극장을 떠났으며, 12월에 미국으로 건너갔다. 『더 선』은 당시 그가 이 직책에 지쳤고 작곡할 시간을 원한다고 말했다고 보도했으며, 그의 적들은 그가 쫓겨났다고 주장했다고 전했다. 슈테판은 작가, 음악가, 학자들이 서명한 항의 서한이 그에게 전달되었다고 쓴다. 극장 단원들에게 보낸 작별 편지에서 말러는 완결된 전체가 아니라 '미완의 조각'을 남기고 떠난다고 썼다.",
+  "gustav-mahler.interpretation.turning_point.1":
+    "안정된 직위를 내려놓고 자신의 작업 시간에 대한 더 큰 통제권을 택한 일은 자율성에 대한 욕구와 부합한다. 다만 그가 스스로 떠났는지 압력을 받았는지에 대해서는 자료마다 의견이 갈린다.",
+  /* ---------------------------------------------------------- herman-hollerith (Roster45) */
+  "herman-hollerith.achievement.1":
+    "홀러리스는 한 사람의 인구조사 항목을 카드의 구멍으로 기록하고 이를 전기로 작동하는 기계가 세는 전기 집계 체계를 고안했다. 첫 특허 출원은 1884년 9월에 했고 특허는 1889년 1월에 나왔다. 1889년 세인트루이스 조사구역에서 치른 시험에서 그의 방식은 집계에 5시간 28분이 걸렸고, 헌트(Hunt) 방식은 55시간 22분, 피진(Pidgin) 방식은 44시간 41분이 걸렸으며, 인구조사국은 그의 방식을 채택했다. 1890년에는 미국 전체 인구의 1차 집계가 6주 남짓 만에 끝났고, 잠정 총인구는 1890년 10월 28일에 발표되었다.",
+  "herman-hollerith.achievement.2":
+    "홀러리스는 1896년 태뷸레이팅 머신 컴퍼니(Tabulating Machine Company)를 설립하고 러시아 최초의 전국 인구조사(1897)에 쓸 기계 공급 주문을 따냈다. 오스트리아의 한 공방은 1890년 오스트리아 인구조사를 위해 그의 방식을 제작할 면허를 받았고, 노르웨이와 프랑스도 이 방식을 썼으며, 1897년부터는 뉴욕 센트럴 철도가 상업 고객이 되었다. 미국 인구조사국도 1900년에 다시 그의 기계를 임차했다. 1911년 그는 이사진과 함께 회사를 매각했고, 이 회사는 합병되어 컴퓨팅-태뷸레이팅-레코딩 컴퍼니(CTR)가 되었으며 1924년 IBM(International Business Machines)으로 이름을 바꿨다. 그는 자문 엔지니어로 남았다.",
+  "herman-hollerith.achievement.3":
+    "홀러리스는 1902년부터 기업 고객을 위해 장비를 새로 설계했다. 1907년 무렵 그의 두 번째 체계는 건반식 천공기, 분류기, 합산 집계기에 플러그보드 방식의 프로그래밍과 자동 카드 판독기를 더하고 45열 카드를 중심으로 했으며, 이후의 80열 카드는 표준 IBM 카드가 되었다. 공동 작업자였던 태프트-피어스(Taft-Peirce) 사의 유진 포드(Eugene Ford)는 건반식 천공기 설계에서 핵심 역할을 했다.",
+  "herman-hollerith.moment.1":
+    "1895년 뉴욕 센트럴 철도는 홀러리스의 합산 집계기가 믿을 수 없다는 이유로 시험 사용을 중단했다. 홀러리스는 몇 달 만에 같은 용도의 새 합산 집계기를 고안했고, 두 번째 시험을 거쳐 채택되어 1897년부터 이 철도가 고객이 되었다.",
+  "herman-hollerith.interpretation.moment.1":
+    "시험이 실패한 뒤 고객을 포기하지 않고 새로 설계한 기계를 들고 돌아간 일은 끈기와 부합한다. 이 서술은 한 학자가 기록 보관소의 서신을 읽어 정리한 것이다.",
+  "herman-hollerith.moment.2":
+    "1894년 홀러리스는 노르웨이 통계국에 집계기를 무상으로 시험해 보라고 제안하고, 직접 노르웨이로 가서 조립했다. 시험 결과가 좋아 통계국은 이듬해 1,100달러에 이 기계를 구입했고, 기계는 1900년 노르웨이 인구조사에 쓰였다.",
+  "herman-hollerith.interpretation.moment.2":
+    "주문이 있기도 전에 무상 기계를 해외로 가져가 직접 설치한 일은 주도적 행동성과 부합한다.",
+  "herman-hollerith.turning_point.1":
+    "1904~05년 회계연도에 인구조사국은 더 낮은 임차 요율을 얻어 냈고, 홀러리스는 양보에 반대했으나 이사진이 그의 뜻을 눌렀다. 1905년 인구조사국은 1906년에 만료될 그의 초기 특허를 바탕으로 자체 집계 기계를 개발할 예산을 확보했다. 정부가 집계 기계에 관한 실험 작업을 하지 않는다는 그의 조건을 인구조사국이 거부하자, 그의 회사는 임차했던 기계를 돌려받았고 1920년대 후반에야 다시 인구조사국에 기계를 공급했다.",
+  "herman-hollerith.interpretation.turning_point.1":
+    "고객이 자체 실험을 하지 않는다는 조건을 계약에 단 일은 자신의 설계에 대한 통제를 지키려는 강한 욕구와 부합한다. 트루스델(Truesdell)의 인구조사국 역사서는 당시 요율을 '과도하고 터무니없다'고 평가하므로 이 분쟁에는 양쪽의 입장이 있었다.",
+  /* ---------------------------------------------------------- humphry-davy (Roster45) */
+  "humphry-davy.achievement.1":
+    "1807년 10월 데이비는 대형 볼타 전지로 포타시(탄산칼륨)를 분해하는 데 처음으로 결정적인 결과를 얻었고, 같은 해 11월 19일 왕립학회에서 베이커 강연(Bakerian lecture)으로 고정 알칼리의 분해와 그 기저가 되는 새로운 금속성 물질, 곧 칼륨(포타슘)과 나트륨(소듐)을 발표했다. 이어 알칼리토류도 분해했으며, 과학사연구소(Science History Institute)는 칼슘과 마그네슘을 그가 분리한 원소로 꼽고, 파리스(Paris)는 붕산에서 붕소를 얻었다고 덧붙인다.",
+  "humphry-davy.achievement.2":
+    "데이비는 1810년 베이커 강연과 1811년 2월 낭독한 논문에서, 당시 '산화염소산(oxymuriatic acid)'이라 불리던 기체에는 산소가 없고 하나의 단체(單體)이며 수소와 결합하여 염산(muriatic acid)이 된다고 주장했다. 파리스는 이 견해가 거의 30년 동안 유럽 화학자들의 믿음에 맞서는 것이었으며 치열한 논쟁을 불러일으켰다고 전하고, 데이비드 나이트(David Knight)는 데이비가 염소가 원소임을 확립하고 염산에 산소가 들어 있지 않음을 보임으로써 모든 산에 산소가 있다는 라부아지에의 생각을 흔들었다고 평가한다.",
+  "humphry-davy.achievement.3":
+    "비숍웨어머스의 교구목사 그레이 박사(Dr Gray)가 노섬벌랜드와 더럼 탄광의 폭발 사고를 살펴봐 달라고 요청하자, 데이비는 1815년 8월 탄광을 찾아 갱내 가스(fire-damp) 시료를 채취했고, 1815년 10월 30일 그레이에게 안전한 등불을 찾았다고 편지로 알렸다. 금속망(와이어 거즈) 안전등은 1816년 탄광에서 시험되어 실제로 작동하는 것으로 확인되었고, 과학사연구소는 이후 몇 년 동안 석탄 1톤당 사망자 수를 크게 줄였다고 설명한다.",
+  "humphry-davy.achievement.4":
+    "1798년 데이비는 토머스 베도스(Thomas Beddoes)가 브리스틀에 세운 의학 기체 연구소(Medical Pneumatic Institution)의 책임자가 되어 아산화질소('웃음 가스')의 작용을 연구했다. 1801년에는 런던의 왕립연구소(Royal Institution)에 임용되었으며, 과학사연구소의 표현으로는 1800년대 런던에서 가장 인기 있는 과학 강연자가 되었다. 그는 농업위원회(Board of Agriculture)에서도 화학 강의를 맡았다.",
+  "humphry-davy.moment.1":
+    "코틀(Cottle)의 기록에 따르면 브리스틀에서 데이비는 치명적이라는 일산화질소(nitrous gas)를 직접 들이마셔 보았다. 폐 속의 산소와 결합해 질산이 생기는 것을 막으려고 먼저 다른 주머니의 아산화질소로 폐를 비운 뒤 일산화질소를 한 번 들이마셨다. 그러자 목이 타고 경련이 일어 곧바로 중단했고, 그는 '이처럼 무모한 실험을 다시 되풀이할 생각은 없다'고 적었다. 코틀은 자신이 데이비에게 이런 기체 실험의 위험을 경고했다고 말한다.",
+  "humphry-davy.interpretation.moment.1":
+    "검증되지 않은 기체를 직접 들이마시되 스스로 고안한 예방책을 쓴 것은 실험실에서의 높은 위험 감수와 부합한다. 곧바로 멈추고 되풀이하지 않겠다고 기록한 점은 위험을 무시한 것이 아니라 저울질했음을 보여 준다. 이 서술은 친구 코틀을 통해 전해지며, 코틀은 자신의 경고도 함께 기록했다.",
+  "humphry-davy.moment.2":
+    "1815년 가을 데이비가 탄광 관리자 존 버들(John Buddle)과 함께 갱내에서 안전등을 시험한 뒤, 버들은 특허를 냈다면 연 5천~1만 파운드를 벌 수 있었을 것이라고 말했다. 파리스와 소프(Thorpe)에 따르면 데이비는 그런 생각은 해 본 적이 없으며 자신의 목적은 인류를 위하는 것이었다고 답했다. 탄광주들은 나중에 약 2,500파운드 상당의 은식기를 선물했고, 데이비는 이를 식기 세트로 만들어 달라고 청했다.",
+  "humphry-davy.interpretation.moment.2":
+    "특허를 마다한 것은 발명이 널리 쓰이기를 바라는 동기와 부합한다. 다만 이 이야기는 버들의 편지와 데이비 본인의 말을 호의적인 두 전기 작가가 되풀이한 것이며 그가 탄광주들의 은식기 선물은 받았으므로, 동기는 순전히 사심 없는 것이 아니라 복합적이었던 것으로 보는 것이 적절하다.",
+  "humphry-davy.turning_point.1":
+    "1808년 데이비는 염산(muriatic acid)에 상당량의 물이 들어 있고 산화염소산(oxymuriatic acid)에는 산소가 있다고 보았다. 파리스에 따르면, 수소와 수분을 제거한 숯을 볼타 전지로 백열 상태까지 가열해도 두 기체에서 아무 변화가 일어나지 않자 그는 자신의 앞선 결론을 의심하기 시작했다. 그는 자신이 걸어온 길을 되짚어 1810년 베이커 강연에서 산화염소산이 하나의 단체라고 주장했고, 이는 당시 화학계에서 가장 치열한 논쟁의 하나로 이어졌다.",
+  "humphry-davy.interpretation.turning_point.1":
+    "실험이 기대한 결과를 내지 못하자 자신이 발표한 입장을 스스로 뒤집은 일은 증거에 따라 믿음을 수정하는 태도와 부합한다. 다만 이 서술은 그의 논문에 대한 2차 기록에 의존한다.",
+  /* ---------------------------------------------------------- jim-clark (Roster45) */
+  "jim-clark.achievement.1":
+    "클라크는 콜린 채프먼의 팀 로터스 소속으로 1963년과 1965년에 포뮬러 원 월드 챔피언십 타이틀을 차지했다. 포뮬러 1 공식 웹사이트는 그가 1963년에 챔피언십 경기 7승을, 1965년에는 10개 경기 중 6승을 거두었다고 기록한다. 모터 스포트는 1960년부터 1968년까지 치른 월드 챔피언십 그랑프리 72경기에서 2위로 들어온 것이 단 한 번뿐이었고, 통산 274점 가운데 82퍼센트가 우승에서 나왔다고 덧붙인다.",
+  "jim-clark.achievement.2":
+    "1965년 5월 31일 클라크는 포드 V8 엔진을 후방에 얹은 로터스 38을 몰고 인디애나폴리스 500에서 우승했으며, 200바퀴 가운데 190바퀴를 선두로 달렸다. 그는 1963년에 2위를 했고 1964년에는 선두권에서 경쟁하다 리타이어한 바 있다. 모터 스포트의 당시 경기 보도는 이 우승이 1959년 쿠퍼-클라이맥스가 그랑프리에서 그랬듯 인디애나폴리스에서 후방 엔진 방식의 흐름을 확립했다고 평가했다. 우승 상금은 16만 6,621달러였다.",
+  "jim-clark.achievement.3":
+    "클라크는 포뮬러 원 밖에서도 다양한 종류의 자동차로 우승하고 입상했다. 그는 1965년 태즈먼 시리즈 7개 경기 가운데 4승을 거두었고, 1966년 RAC 랠리에서는 로터스 코티나로 구간 최고 기록을 세 차례 세웠으나 차가 구르는 사고로 경기를 마치지 못했다. 1967년에는 록킹엄에서 열린 나스카(NASCAR) 경기에 출전해 24위에서 13위까지 올라섰지만 엔진이 고장 났다.",
+  "jim-clark.moment.1":
+    "1967년 네덜란드 그랑프리 연습 주행에서 클라크는 신형 로터스 49의 데뷔전임에도, 오른쪽 뒤 허브의 볼 레이스가 부러진 것을 찾아 수리할 때까지 운전하기를 거부했다. 그는 전날 이상을 감지했지만 정비사들은 밤새 원인을 찾지 못한 상태였다. 모터 스포트에 따르면 그는 세금 지위 변경 때문에 대회 주말 전에 이 차를 시험해 보지 못했으며, 예선 8위로 출발해 15번째 바퀴에 선두에 올라 우승했다.",
+  "jim-clark.interpretation.moment.1":
+    "한 번도 몰아 보지 않은 차에서 자신이 느낀 결함이 발견될 때까지 운전을 거부한 것은 세부에 대한 주의와 일치한다. 같은 글은 문제를 피해 운전하는 그의 능력이 시험 주행을 어렵게 만들 수도 있었다고도 말한다.",
+  "jim-clark.moment.2":
+    "1963년 인디애나폴리스 500에서 선두를 달리던 파넬리 존스의 차가 트랙에 오일을 흘렸고, 당시 가장 빠른 차였던 클라크의 로터스는 뒤로 밀려 2위로 경기를 마쳤다. 모터 스포트에 따르면 다음 날 존스는 에디 삭스와 주먹다짐을 벌였지만, 클라크는 웃으며 우승자와 악수했고 공개적으로 불평하지 않았다. 나이절 로벅은 2년 뒤 클라크가 우승하고 존스가 2위를 한 것이 클라크가 생각하는 올바른 대응이었다고 쓴다.",
+  "jim-clark.interpretation.moment.2":
+    "항의하는 대신 악수한 것은 공개적인 갈등을 피하는 성향과 일치한다. 모터 스포트 기사에서 거니 등은 로터스 팀이 인디애나폴리스 측의 적대감을 느꼈다고 말하므로, 이런 자제는 관계를 유지하는 데에도 도움이 되었다.",
+  "jim-clark.turning_point.1":
+    "1958년 12월 26일 브랜즈 해치에서 클라크는 로터스 창업자 콜린 채프먼과 같은 사양의 로터스 엘리트를 타고 맞붙었다. 모터 스포트에 따르면 채프먼은 느린 차가 끼어든 덕분에 우위를 차지했지만, 클라크의 속도를 눈여겨보았고 이후 그에게 로터스 포뮬러 주니어 출전을 제안했다. 클라크는 1960년 포뮬러 원 시즌 후반부터 팀 로터스에 합류했다. 포뮬러 1 공식 웹사이트는 클라크가 마지못해 레이스를 시작했으며 부유한 친구들이 차를 마련해 주고 그를 독려했다고 덧붙인다.",
+  "jim-clark.interpretation.turning_point.1":
+    "첫 만남에서 팀 소유주를 상대로 전력을 다해 겨룬 것은 경쟁심과 일치한다. 다만 포뮬러 1 공식 웹사이트의 설명대로 다른 사람들이 그를 그 차에 태웠으므로, 이 기회는 스스로 만든 것이 아니라 함께 만들어진 것이다.",
+  /* ---------------------------------------------------------- louis-daguerre (Roster45) */
+  "louis-daguerre.achievement.1":
+    "1839년 다게르가 공개한 방법에서는 은을 입힌 구리판에 요오드 증기를 쐬어 감광층을 만들고, 카메라에서 노출한 다음 가열한 수은 증기로 상을 나타내고, 마지막으로 빛에 반응하지 않도록 처리했다. 정부의 취지서는 이 방법에 4~5분이 걸린다고 밝혔는데, 니세포르 니엡스의 역청 방식은 몇 시간이 걸렸다. 다게르는 1839년 자신의 글에서 다게레오타입이 니엡스에게 빚진 것이 없다고 주장했지만, 니엡스를 기리는 입장의 다바네도 수은 증기로 현상하는 잠상 현상을 알린 공은 다게르에게 있다고 인정한다.",
+  "louis-daguerre.achievement.2":
+    "1822년 다게르는 화가 샤를마리 부통(Charles-Marie Bouton)과 함께 파리에 디오라마를 열었다. 앞뒤 양면에 그린 커다란 반투명 캔버스를 앞이나 뒤에서 비춰, 한 장면이 낮에서 밤으로, 또는 다른 효과로 바뀌게 한 것이다. 한 회 공연은 그림 두 점으로 이루어졌고, 다게르의 〈생테티엔뒤몽의 자정 미사〉가 초기 작품에 속했다. 1839년 정부와의 계약에는 디오라마의 회화·조명 기법도 공개한다는 조항이 들어 있었다.",
+  "louis-daguerre.achievement.3":
+    "프랑스에서는 이 방법에 특허를 줄 수 없었기 때문에, 내무장관은 1839년 6월 14일 다게르와 이지도르 니엡스와 합의하여 국가가 이를 사들이고 다게르에게 연 6,000프랑, 니엡스에게 연 4,000프랑의 종신 연금을 주기로 했다. 법은 7월 3일 하원, 7월 30일 상원을 통과했다. 프랑수아 아라고는 8월 19일 과학 아카데미에서 이 방법을 설명했고 회의장은 넘치는 청중으로 가득 찼다. 다게르의 설명서는 제작자 알퐁스 지루(Alphonse Giroux)에서 나왔고, 지루는 다게르의 서명이 든 장비를 팔았다. 에더는 다게르가 1839년 8월 14일 영국 특허도 받았다고 덧붙인다.",
+  "louis-daguerre.moment.1":
+    "1827년 9월 3일 다게르는 1826년부터 접촉해 온 니세포르 니엡스와 파리에서 세 시간가량 만났다. 에르누프가 인용한 니엡스의 이튿날 편지에 따르면, 다게르는 그에게 디오라마를 구경시키고 자신의 빠른 방법과 여러 색을 담으려는 시도의 어려움을 설명했으며, 니엡스가 더 앞서 있다고 믿었고, 상을 고정하는 시간을 줄여야 한다고 강하게 말했다. 두 사람은 1829년 12월 동업 계약을 맺었다.",
+  "louis-daguerre.interpretation.moment.1":
+    "여러 번 미적지근한 답을 받고도 더 앞선 연구자를 찾아가고, 그 만남에서 다음 과제를 밀어붙인 일은 주도적 행동과 부합한다. 이 서술은 에르누프가 실은 니엡스 쪽 서신에 근거한다.",
+  "louis-daguerre.moment.2":
+    "1839년 3월 8일 다게르가 새뮤얼 모스의 전신기를 보러 가 있는 사이 불이 나 디오라마와 그의 집이 타 버렸고, 모스는 이튿날 형제들에게 편지를 썼다. 5월 20일 모스는 미국에서 다게르의 작품 전시를 주선하겠다고 제안했고, 다게르는 7월 26일 프랑스 정부와의 거래가 거의 끝나 가고 있어 그 제안을 받을 수 없다고 답했다.",
+  "louis-daguerre.interpretation.moment.2":
+    "손실을 겪은 뒤에도 외국의 제안 대신 정부 매각이라는 기존 방향을 유지한 점은 끈기와 부합한다. 모스는 다게르에게 우호적인 증인이며 편지는 그의 아들이 엮었다.",
+  "louis-daguerre.turning_point.1":
+    "1837~1838년 다게르와 이지도르 니엡스는 투자자를 찾았고, 1838년 5월 15일에는 구독 방식으로 이 방법을 팔려 했다. 에르누프에 따르면 사람들은 은판 사진에 감탄하면서도 상이 오래갈지 의심하고 복제를 걱정했으며, 에더는 이 시도가 실패했다고 전한다. 다게르는 이후 비밀을 프랑수아 아라고에게 알렸고, 아라고는 1839년 1월 7일 과학 아카데미에 이 발명을 알리고 내무장관과의 협의를 도왔다.",
+  "louis-daguerre.interpretation.turning_point.1":
+    "특허로 보호할 수 없는 발명에 시장이 값을 치르지 않자 국가로 방향을 바꾼 일은 임기응변·자원 활용 능력과 부합한다. 구매자들의 이유는 에르누프의 서술에만 의존한다.",
+  /* ---------------------------------------------------------- robert-boyle (Roster45) */
+  "robert-boyle.achievement.1":
+    "보일은 1658~59년경 옥스퍼드에서 로버트 후크의 도움으로 공기 펌프를 제작했고, 1659년 12월에 그 결과를 정리해 『공기의 탄성에 관한 새로운 물리-역학 실험』(1660년 출간)을 썼다. 이 책은 배기한 유리 용기 안에서 불꽃, 소리, 생물, 액체를 대상으로 한 실험을 보고하고, 흔히 자연이 진공을 싫어하기 때문이라고 설명되던 현상이 실제로는 공기 자체의 탄성에서 비롯된다고 주장했다. 토머스 홉스와 프란키스쿠스 리누스가 이 책을 공격했고, 보일은 1662년 재판에서 이에 답했다.",
+  "robert-boyle.achievement.2":
+    "보일은 같은 책의 1662년 판에 리누스에 대한 반박문과 함께, 구부러진 유리관 속에 가둔 공기를 수은을 이용해 압축하고 팽창시킨 실험을 덧붙였다. 그는 압력과 팽창이 서로 반비례한다고 보고했다. 이런 관계는 리처드 타운리가 먼저 제안한 것이었고, 피터 앤스티는 보일이 이 관계가 한계 없이 성립한다고 주장한 것은 아니라고 지적한다. 이 관계가 오늘날 보일의 법칙이라 불린다.",
+  "robert-boyle.achievement.3":
+    "『회의적 화학자』(1661)에서 보일은 자신의 입장을 대변하는 카르네아데스가 등장하는 대화체를 써서, 아리스토텔레스의 4원소설과 화학자들의 소금·황·수은 3원리설을 모두 문제 삼았다. 그는 '원소'와 '원리'라는 말이 실제로 무엇을 뜻하는지, 실험은 무엇을 보여 주는지를 물었다. 마이클 헌터는 이 시기의 실험 논문들이 보일로 하여금 형상과 성질로 설명하는 스콜라 철학에 맞서 기계론 철학의 한 형태인 입자론(corpuscularianism)을 내세우게 했다고 덧붙인다.",
+  "robert-boyle.achievement.4":
+    "보일은 1660년 11월 28일 왕립학회의 창립 모임에 참석했으며, 마이클 헌터는 그를 왕립학회가 내세운 실험 철학의 대표적 본보기라고 부른다. 그의 저서는 다른 사람들이 같은 절차를 따라 할 수 있도록 실험 과정을 자세히 기록했다. 1691년 유언장의 추가 조항으로 그는 런던의 한 집에서 나오는 수입을 기독교를 옹호하는 설교 시리즈인 보일 강연(Boyle Lectures)의 재원으로 지정했고, 이 강연은 1692년 리처드 벤틀리가 처음 맡았다.",
+  "robert-boyle.moment.1":
+    "보일은 산이 없는 곳에서 공기의 압력이 높이에 따라 달라지는지 시험하려고, 물을 채운 기상 유리관을 웨스트민스터 사원 지붕에서 끈으로 땅까지 내려 물이 얼마나 내려가는지 표시했는데, 그 차이는 약 1인치였다. 이틀 또는 사흘 뒤에는 바람 때문에 결과가 덜 규칙적이었고, 성당 안 회랑에서 한 재시도는 관 윗부분이 부러지는 바람에 차질을 빚었으며, 그는 이 실험에 추가 검토가 필요할 수 있다고 적었다.",
+  "robert-boyle.interpretation.moment.1":
+    "이상적인 실험이 불가능할 때 대안적인 시험을 고안하고, 깨끗한 결과뿐 아니라 바람 때문에 어긋난 시도와 관이 부러져 차질을 빚은 시도까지 기록한 것은 실험을 고안하고 그 한계를 함께 적는 습관과 부합한다.",
+  "robert-boyle.moment.2":
+    "보일은 1684년 『인간 혈액의 자연사를 위한 기록』을 출간한 지 몇 달 안에 개정판 준비에 들어갔다. 편집자 마이클 헌터와 해리엇 나이트에 따르면, 그가 쓴 서문 초안은 이탈리아 의사 마르첼로 말피기의 반응이 계기였다고 밝히고 있으며, 조사 항목 목록은 30개에서 45개로 늘어났다. 이 개정판은 끝내 인쇄되지 않았다.",
+  "robert-boyle.interpretation.moment.2":
+    "다른 의사의 반응을 받아들여 이미 출간한 책을 고쳐 쓰려 한 것은 외부 증거에 비추어 자신의 입장을 수정하는 태도와 부합한다. 다만 편집자들은 비평가들이 이 책을 체계적이지 못하다고 평가했고 개정판이 인쇄되지 못했다는 점도 함께 기록한다.",
+  "robert-boyle.turning_point.1":
+    "1645~46년 보일의 첫 집필 계획은 도덕론인 『아레톨로지(Aretology)』였고, 이후 몇 해 동안 그의 글은 과학적이기보다 경건하고 교훈적이었다. 1649년 그는 도싯 스톨브리지의 자택에 실험실을 차렸으며, 마이클 헌터에 따르면 그해 여름 이후의 글에는 실험적 지식에 대한 열정이 나타나고 이는 평생 이어졌다.",
+  "robert-boyle.interpretation.turning_point.1":
+    "도덕적 저술에서 실험실 작업으로 방향을 바꾸고 이를 40년 동안 이어 간 것은 새로운 탐구 방향으로 이끌린 호기심과 부합한다.",
+  /* ---------------------------------------------------------- wilhelm-maybach (Roster45) */
+  "wilhelm-maybach.achievement.1":
+    "마이바흐는 1882년부터 칸슈타트의 다임러 작업장에서 가볍고 고속으로 도는 가솔린 엔진을 개발했다. 독일 특허청(DPMA)은 1884년의 수직 '벽시계(Standuhr)' 엔진이 작고 가벼우면서도 차량을 움직일 만큼 빠르게 돌았다고 설명하고, 독일인명사전(NDB)은 그가 커넥팅 로드, 크랭크축, 베어링, 밸브 기구를 새로 설계해 회전수를 분당 약 110회에서 900회로 끌어올렸다고 기록한다. 이 엔진은 1885년 '라이트바겐(Reitwagen)'이라 불리는 목제 이륜차를 움직였고, 속도는 시속 약 12km였다. 특허를 낸 사람은 다임러였기에, 두 사람의 공로를 어떻게 나눌지는 자료마다 견해가 다르다.",
+  "wilhelm-maybach.achievement.2":
+    "마이바흐는 1891~95년 자택과, 칸슈타트의 옛 호텔 헤르만의 연회장을 빌린 작업장에서 벨트 구동 장치, 2기통 피닉스(Phoenix) 엔진, 그리고 1893년의 분사 노즐식 기화기를 개발했다. NDB는 이 기화기가 널리 보급되었다고 하고, DPMA는 수십 년 동안 자동차 산업에서 쓰였다고 한다. 1904년의 윅스(Weeks)의 참고서도 이미 다임러 공장에 대한 그의 '유능한 도움'과 기화기를 언급했다.",
+  "wilhelm-maybach.achievement.3":
+    "1900년 마이바흐의 설계실(에른스트 뫼베스, 오이겐 링크, 알베르트 헤스 등)은 오스트리아 사업가 에밀 옐리네크의 주문으로 4기통 35마력 엔진과 기화기 2개를 갖춘 경주용 자동차를 만들었다. 옐리네크는 36대를 주문했고 딸의 이름을 따 '메르세데스'라고 불렀다. NDB는 벌집형 냉각기, 경합금 사용, 기어식 변속기를 꼽고, DPMA는 이 차가 현대 자동차의 기본 형태를 정했다고 평가한다. 이 차는 1901년 3월 니스 레이스 주간에서 선보였다.",
+  "wilhelm-maybach.achievement.4":
+    "1907년 DMG를 떠난 마이바흐는 1908년 체펠린 백작에게 아들 카를의 설계를 바탕으로 한 비행선 엔진을 제안하는 편지를 썼고, 1909년 3월 23일 비싱엔에 항공기 엔진 회사(Luftfahrzeug-Motorenbau)가 설립되었다. 첫 엔진은 카를이 직접 설계했으며(NDB), 1911년 체펠린 LZ 10 '슈바벤'호가 이 회사 엔진 3기를 달고 날았다. 이 회사는 훗날 마이바흐 모터렌바우가 되어 1921년 첫 자동차를 선보였다.",
+  "wilhelm-maybach.moment.1":
+    "마이바흐는 다임러를 위해 자료를 조사하던 중, 왓슨이라는 영국인이 낸 특허에서 조절하지 않는 열관(hot-tube) 점화 방식을 발견했다. 메르세데스-벤츠 기록보관소는 이것이 더 높은 회전수를 얻는 데 중요한 조건이었다고 설명한다. 1883년 수평형 시험 엔진이 만들어졌고, 이어 수직형 '벽시계' 엔진이 나왔다.",
+  "wilhelm-maybach.interpretation.moment.1":
+    "기존 특허를 찾아 보고 시험 엔진으로 직접 검증한 일은 실험 정신과 부합한다. 다만 이 서술은 후속 회사의 기록보관소에서 나왔고, 왓슨 특허 자체는 확인하지 못했다.",
+  "wilhelm-maybach.moment.2":
+    "마이바흐는 1889년 파리 만국박람회를 위해 자전거 제작 방식을 본뜬 차체, 통고무 타이어, 기어식 변속기, V형 2기통 엔진을 갖춘 사륜 '스틸 휠 카'를 만들었다. NDB에 따르면 그와 프랑스 라이선스 업체의 에밀 르바소르가 파리 거리에서 직접 몰았고, DPMA는 마차에 엔진을 얹는 대신 엔진을 중심으로 차량을 설계했다고 설명한다.",
+  "wilhelm-maybach.interpretation.moment.2":
+    "마차를 개조하는 대신 변속기, 차체, 타이어, 엔진을 하나의 차량으로 설계한 일은 시스템적 사고와 부합한다. 두 서술 모두 마이바흐에게 호의적이며, 다른 자료는 다임러의 지휘 몫도 함께 언급한다.",
+  "wilhelm-maybach.turning_point.1":
+    "1903년 이후 DMG에서 입지가 약해지고 감독이사회 일부가 그의 퇴진을 원하자, 마이바흐는 1907년 4월 회사를 떠났다. NDB에 따르면 옐리네크의 지원도 소용이 없었다. 1908년 8월 체펠린 LZ 4호가 에히터딩겐에서 파괴된 뒤 그는 체펠린 백작에게 아들 카를의 엔진 설계를 제안했고, 이는 1909년 엔진 회사 설립으로 이어졌다. 이 회사는 마이바흐라는 이름을 비행선, 철도, 자동차 엔진으로 이어 갔다.",
+  "wilhelm-maybach.interpretation.turning_point.1":
+    "강제 퇴진을 1년 남짓 만에 새 고객에 대한 제안으로 바꾼 일은 기회 포착과 부합한다. 다만 엔진 설계 자체는 아들의 몫이었고, 1907년 퇴진에 대한 서술은 주로 NDB와 DPMA에 의존한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wilhelm-maybach",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Wilhelm Maybach",
+    "wikidataId": "Q77125",
+    "birthYear": 1846,
+    "deathYear": 1929,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "industrial",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_maybach_wikidata",
+      "kind": "wikidata",
+      "title": "Wilhelm Maybach (Q77125) -- verified live through the Wikidata API (wbgetentities, 2026-10-08): en label 'Wilhelm Maybach', description 'German engine designer and industrialist (1846-1929)', born 1846-02-09 (Heilbronn), died 1929-12-29, citizenship Germany, ko label '빌헬름 마이바흐', P18 'Wilhelm-maybach-1900.jpg'. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q77125"
+    },
+    {
+      "id": "src_maybach_ndb_1990",
+      "kind": "biography",
+      "title": "Hans Christoph Graf von Seherr-Thoss, 'Maybach, Wilhelm', Neue Deutsche Biographie 16 (1990), pp. 523-525, deutsche-biographie.de -- read in full: Bruderhaus training from 1861, Karlsruhe 1869, Deutz 1872-82 (surface carburettor, tube ignition, Otto engine to series production), Cannstatt 1883-88 (engine speed raised from 110 to 900 rpm, Veloziped 1885, boat 1886, the 1889 steel-wheel car), the Hotel Hermann workshop 1892-95, the 1895 return as technical director, the 1900 35 hp car built with a named team, the conflicts that led to his 1907 departure, and the 1908-09 offer to Count Zeppelin. INDEPENDENT SCHOLARLY biographical dictionary entry (non-self; credits Maybach with most of the design work, so it leans toward his side of the Daimler priority question).",
+      "url": "https://www.deutsche-biographie.de/sfz70664.html"
+    },
+    {
+      "id": "src_maybach_ndb_karl_1990",
+      "kind": "biography",
+      "title": "Karl Maybach, 'Maybach, Karl', Neue Deutsche Biographie 16 (1990), p. 525, deutsche-biographie.de -- read for the 1908 Echterdingen episode and the founding of Luftfahrzeug-Motorenbau (the father offered Count Zeppelin an airship engine developed from his son's new design; the son designed the first airship engine himself). INDEPENDENT SCHOLARLY entry (non-self); important as a limit: it attributes the Zeppelin engine design to Karl, not Wilhelm.",
+      "url": "https://www.deutsche-biographie.de/sfz59436.html"
+    },
+    {
+      "id": "src_maybach_dpma",
+      "kind": "institution",
+      "title": "Deutsches Patent- und Markenamt (DPMA), 'Wilhelm Maybach - The father of the modern automobile', Milestones/Automobiles: The beginnings, text by Jan Bjorn Potthast (last updated 10 December 2025) -- read in full, with the patent numbers it cites. GOVERNMENT PATENT-OFFICE perspective (non-self; independent of the Mercedes-Benz successor company; celebratory in tone and states its own 'father of the modern automobile' framing, which is not used as evidence).",
+      "url": "https://www.dpma.de/english/our_office/publications/milestones/automobiles/maybach/index.html"
+    },
+    {
+      "id": "src_maybach_mars",
+      "kind": "institution",
+      "title": "Mercedes-Benz Classic public archive (M@RS), 'Wilhelm Maybach' biography (Mercedes-Benz Group) -- read in full: the most detailed dated chronology (Bruderhaus, the April 1882 contract and the promised 30,000-Mark share, the Watson patent found during research, the 1889 steel-wheel car, the February 1891 departure, the Hotel Hermann ballroom funded by Daimler, the November 1895 return, the 1900-01 first Mercedes, the post-1903 loss of position, April 1907 departure, 1909 Zeppelin engine company). CORPORATE successor-company perspective (not independent).",
+      "url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/Wilhelm-Maybach.xhtml?oid=597"
+    },
+    {
+      "id": "src_maybach_lemo",
+      "kind": "institution",
+      "title": "Susanne Eckelmann, 'Wilhelm Maybach 1846-1929', LeMO Lebendiges Museum Online, Deutsches Historisches Museum (2014) -- read in full as a dated chronology (training, Deutz, Cannstatt, the 1889 Paris steel-wheel car, the 1890-95 separation from the DMG, the 1900 car for Jellinek, the 1907 departure, honours). INSTITUTIONAL museum perspective (non-self; summary level; its note on a son's illness is not used).",
+      "url": "https://www.dhm.de/lemo/biografie/wilhelm-maybach"
+    },
+    {
+      "id": "src_maybach_erih",
+      "kind": "institution",
+      "title": "European Route of Industrial Heritage (ERIH), 'Wilhelm Maybach (1846-1929)' biography page -- read in full: short overview. INSTITUTIONAL heritage-network perspective (non-self; summary; it says Maybach designed the Phoenix engine 'with Daimler and his son Paul', which differs from the other sources and is not used).",
+      "url": "https://www.erih.net/how-it-started/stories-about-people-biographies/biography/maybach"
+    },
+    {
+      "id": "src_maybach_engineering_1930",
+      "kind": "press",
+      "title": "'The Late Dr. W. Maybach', Engineering, 10 January 1930, as transcribed on Grace's Guide (Wilhelm Maybach page) -- read in full: contemporary trade-press obituary written days after his death. PERIOD PRESS perspective (non-self; short and partly inaccurate: it places the Maybach works at Ludwigshafen and dates events loosely, so only its broad pattern -- Deutz, tube ignition claimed for him, jet carburettor, Mercedes, 1907 retirement, Zeppelin link -- is used, never a date).",
+      "url": "https://www.gracesguide.co.uk/Wilhelm_Maybach"
+    },
+    {
+      "id": "src_maybach_weeks_1904",
+      "kind": "biography",
+      "title": "Lyman Horace Weeks, Automobile Biographies (New York: The Monograph Press, 1904), the Daimler chapter's passage on Maybach, Internet Archive full text (automobilebiogra00weekrich) -- read: contemporary American reference book that mentions 'the able assistance of William Maybach' and the aspirating carburettor. CONTEMPORARY foreign perspective (non-self; one short passage only).",
+      "url": "https://archive.org/details/automobilebiogra00weekrich"
+    },
+    {
+      "id": "src_maybach_mtu_2009",
+      "kind": "institution",
+      "title": "MTU Friedrichshafen press release, 'Chronicle of a Century of Engines' (10 March 2009) -- read: the 1908 letter from Wilhelm Maybach to Count Zeppelin about an engine design by his son Karl, the founding of Luftfahrzeug-Motorenbau on 23 March 1909, the Type AZ engine and the LZ 10 Schwaben (1911). CORPORATE successor-company perspective (not independent).",
+      "url": "https://mtu-solutions.com/na/en/pressreleases/2009/chronicle_of_a_century_of_engines.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_maybach_ndb_1990, src_maybach_dpma, src_maybach_mars | 1891-1895 and 1907-1909 | scholarly dictionary + patent-office page + corporate archive; the three agree on the sequence] Two separate efforts carried through displacement. (1) After leaving the DMG in February 1891 he kept designing, first secretly in his own flat and from autumn 1892 in the rented Hotel Hermann ballroom, producing the belt drive, the Phoenix engine and the spray-jet carburettor until the 1895 reunion (NDB, DPMA, MARS). (2) After leaving the DMG for good in 1907 he was in contact with Count Zeppelin within about a year and the engine company was founded in March 1909. Limit: the Zeppelin engine itself was designed by his son Karl (Karl Maybach NDB), so episode (2) shows continued effort, not a personal engineering feat; the daily detail of episode (1) comes mainly from corporate and celebratory sources."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_maybach_ndb_1990, src_maybach_mars, src_maybach_dpma | 1875-1899 | scholarly + corporate + patent-office] Repeatedly tried an idea on hardware: a 1875 petrol engine and a float surface carburettor with tests of petrol-air mixtures at Deutz; hot-tube ignition worked out in 1883 (MARS says he found the unregulated hot-tube principle in a patent by an Englishman named Watson); the engine tried in a two-wheeler (1885), a carriage and a boat (1886), trams and balloons; and a ball-bearing axle (1898) and drum brakes (1899) tried on a lorry (NDB). The same engine being tried in many vehicles is the pattern, not one anecdote."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_maybach_ndb_1990, src_maybach_mars, src_maybach_lemo | 1861-1906 | scholarly + corporate + museum] From 1861 he trained in technical drawing and design at the Bruderhaus works and took evening classes in physics and mathematics (NDB; MARS adds English and French); in Cannstatt he spent 1883-88 redesigning connecting rod, crankshaft, bearings and valve gear to raise engine speed from about 110 to 900 rpm, and a 1906 racing engine reached 1,500 rpm (NDB). Sustained, specific refinement of one craft over four decades. Limit: figures come from one scholarly entry and are not independently re-measured."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_maybach_dpma, src_maybach_ndb_1990, src_maybach_mars | 1886-1901 | patent-office page + scholarly + corporate] Moved from fitting an engine into an existing carriage to designing the whole vehicle around the engine: the 1889 steel-wheel car combined bicycle-style frame, geared transmission and a V-twin, and the 1900 35 hp car combined a light engine, honeycomb radiator, geared transmission, low frame and equal-size wheels. DPMA states he was one of the first to develop an organic vehicle around the engine; NDB lists the same components. Limit: Jellinek's specification and a named design-office team contributed (NDB), and the DPMA wording is celebratory."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_maybach_mars, src_maybach_ndb_1990, src_maybach_dpma | 1882-1895 | corporate + scholarly + patent-office] Found workable routes with little: the Watson patent that opened the way to hot-tube ignition (MARS); a design office in his own flat in 1891-92 and then a rented ballroom funded by Daimler (NDB, DPMA, MARS); a 1889 prototype built for the Paris exhibition from steel bicycle-derived parts. Rests on a small number of episodes; the Hotel Hermann arrangement is described slightly differently by the three sources and the differences are not adjudicated."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_maybach_dpma, src_maybach_mars, src_maybach_ndb_1990 | 1865-1907 | patent-office + corporate + scholarly] Worked with Daimler for over three decades, following him between employers three times (Karlsruhe 1869, Deutz 1872, Cannstatt 1882) and working for him through the 1891-95 separation; MARS describes mutual respect and loyalty between two different men and DPMA says they complemented each other; NDB names the members of his design office (Moewes, Linck, Heess and others) as the team that built the 1900 car. Limit: both pairing accounts come from Mercedes-Benz-adjacent or celebratory sources, and credit between Daimler and Maybach is contested."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_maybach_ndb_karl_1990, src_maybach_mtu_2009, src_maybach_dpma, src_maybach_mars | 1908-1909 | scholarly + two corporate + patent-office] After the Zeppelin LZ 4 was destroyed at Echterdingen in August 1908 and a national donation made a new airship possible, he wrote to Count Zeppelin recommending an engine design by his son Karl; the engine company was founded in March 1909 (NDB Karl Maybach, MTU, DPMA, MARS). One dated episode, supported by four sources but with the dating of the letter (1908) and the founding (1909) kept separate; his earlier role in the Jellinek order is not counted because the initiative was Jellinek's (NDB, DPMA)."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q77125 returned en label 'Wilhelm Maybach', description 'German engine designer and industrialist (1846-1929)', P569 9 Feb 1846, P570 29 Dec 1929, citizenship Germany (Q183), place of birth Q715 (Heilbronn), ko label '빌헬름 마이바흐', P18 'Wilhelm-maybach-1900.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: engineer, inventor (no entrepreneur/business: his own Maybach-Motorenbau was founded with and run by his son Karl, per the NDB Karl Maybach entry, and the sources describe Wilhelm as advisory there); fieldIds engineering, technology (both have field.* keys); region western_europe (Daimler/Benz precedent); era 19th_century (documented behaviour 1861-1909). Zero-politics. EVIDENCE READ (9 records, fetched with curl and read locally in scratch/work/wilhelm-maybach/): NDB Wilhelm Maybach (Seherr-Thoss 1990) and NDB Karl Maybach in full; DPMA Milestones page in full; Mercedes-Benz Classic M@RS biography in full; LeMO (DHM) chronology; ERIH page; Engineering 10 Jan 1930 obituary via Grace's Guide; Weeks 1904 (one passage); MTU 2009 press release. The Wikipedia article was fetched but not used. PERSPECTIVES: (1) NDB, independent scholarly (written from Maybach's side); (2) DPMA, government patent office, independent of the Daimler successor company; (3) period press (Engineering 1930, Weeks 1904), short and partly inaccurate; (4) LeMO and ERIH, museum/heritage summaries; (5) MARS and MTU, corporate successor-company accounts (not independent). Independent non-self perspectives counted: NDB, DPMA, period press. NO SELF SOURCE was read: Maybach's 1915 and 1916 articles (Allgemeine Automobil-Zeitung 1915, Deutsche Luftfahrer-Zeitschrift 1916) and his 1876 Philadelphia travel report (MTU archive) were not accessible online. NOT ACCESSED: Siebertz, Gottlieb Daimler (1940, 1950), Bryant's Daimler/Mercedes accounts, Lenz, Nixon 1936, Duncan 1927 (no accessible full text found), Beaumont 1900, the Benz memoir (used in the Daimler candidate but not used here because it does not discuss Maybach), Gartenlaube (no Maybach article found; the 1888 Daimler article was not re-read). The Gottlieb Daimler candidate was NOT used as evidence. LIMITS AND CONFLICTS (reported, not adjudicated): sources are almost all admiring or corporate; no critical or adversarial account of his personality or management was found, so confidence stays at or below 0.58 and scores at or below 70. Priority between Daimler and Maybach is contested (DPMA says patents were filed in Daimler's name; NDB credits Maybach with most design work). Place of birth differs (Heilbronn vs Loewenstein on a Commons file description); Heilbronn is used per NDB, DPMA and Wikidata. DMG departure dates differ slightly (NDB: 1891-95 separation; DPMA/MARS: February 1891). The Zeppelin engine was designed by Karl, not Wilhelm (NDB Karl Maybach). The ERIH page says Phoenix was designed with Daimler and Paul Daimler in 1894, which conflicts with NDB; not used. ROWS CONSIDERED AND LEFT UNSCORED: creative_originality (rests on patent lists and priority claims that are contested), risk_tolerance (the 1891 working arrangement is described only in corporate and celebratory terms), autonomy_need and conflict_tolerance (his exit from the DMG is described as pushed-out; no firsthand statement), detail_orientation (NDB says he drew almost everything himself and ran workshop and testing, a single summary line), leadership_drive and persuasiveness (no behavioural evidence beyond office titles), perfectionism, curiosity (inferable only from the Watson patent episode, already used), impact_motivation. EXCLUDED ON PURPOSE: fame, awards (Dr.-Ing. e.h. 1916, Grashof medal 1922), patent counts, sales and race wins, company success, family bereavements and a son's illness and murder, and the 'king of constructors' label as reputation. CALIBRATION: 7 rows, scores 60-70, confidence 0.48-0.58, all strong_inference; nothing at or above 85 or 0.72. No eligibility or match output was computed or used. PORTRAIT: Wikidata P18 'Wilhelm-maybach-1900.jpg' is 300x389 and a user upload with no source, so it was not used; 'Wilhelm Maybach Protrait.jpg' (600x800) is a copy from a DaimlerChrysler press site with only a generic PD-US tag, so it was rejected under the stronger rights rule (corporate press page as the only basis). Chosen: Commons 'Emil Stumpp Wilhelm Maybach.jpg' (908x1329). Commons wikitext: date 1926, source 'Koepfe in Schwaben: Portraetskizzen von Emil Stumpp', Stuttgarter Neues Tagblatt, 1926, author Emil Stumpp, {{PD-old}}. Basis: a drawing printed in a newspaper series in 1926, so published before 1931 and US public domain by publication date; Stumpp (Emil Wilhelm Stumpp, born 17 March 1886, died 5 April 1941 per German Wikipedia) died more than 70 years before 2026, so also public domain in the EU. The drawing bears the artist's signature and the sitter's own signature, so it was drawn from life (a likeness). No institutional item page with a conflicting rights notice exists; I could not see the original newspaper page (the Commons file is a scan of a printed page), so the exact publication page is documented only by Commons. I cropped the printed caption strip (bottom 179 px, pixel crop only, no resize or upscale), saved as JPEG q85 (908x1150), opened and viewed it: a charcoal portrait of an elderly man with round glasses, moustache and bow tie. Saved as public/portraits/wilhelm-maybach-stumpp-1926.jpg. KOREAN NAME: '빌헬름 마이바흐' is the Wikidata ko label."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "빌헬름 마이바흐"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/wilhelm-maybach-stumpp-1926.jpg",
+    "width": 908,
+    "height": 1150,
+    "source": "Emil Stumpp, 'Wilhelm Maybach', charcoal/crayon portrait drawing signed by the artist and by the sitter, published in 'Koepfe in Schwaben: Portraetskizzen von Emil Stumpp', Stuttgarter Neues Tagblatt, 1926 (Wikimedia Commons 'Emil Stumpp Wilhelm Maybach.jpg')",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old",
+    "attribution": "Emil Stumpp (1886-1941), 'Wilhelm Maybach', published in Koepfe in Schwaben, Stuttgarter Neues Tagblatt, 1926; Wikimedia Commons, Public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Emil_Stumpp_Wilhelm_Maybach.jpg",
+    "creator": "Emil Stumpp",
+    "date": "1926",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Emil_Stumpp_Wilhelm_Maybach.jpg"
+  }
+}

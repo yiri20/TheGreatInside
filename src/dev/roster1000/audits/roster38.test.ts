@@ -169,7 +169,7 @@ describe("Roster38: re-inspected backlog candidates remain genuinely absent from
 });
 
 describe("Roster38: cross-target identity integrity", () => {
-  it("no duplicate ids, slugs, or Wikidata QIDs across all 393 production people", () => {
+  it("no duplicate ids, slugs, or Wikidata QIDs across all 408 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
     const qids = SEED_PEOPLE.map((p) => p.externalIdentity?.wikidataId).filter((x): x is string => !!x);
@@ -187,9 +187,9 @@ describe("Roster38: cross-target identity integrity", () => {
     }
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 393 people, all 15 Roster38 targets present in both", () => {
-    expect(SEED_PEOPLE).toHaveLength(393);
-    expect(PEOPLE_INDEX).toHaveLength(393);
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 408 people, all 15 Roster38 targets present in both", () => {
+    expect(SEED_PEOPLE).toHaveLength(408);
+    expect(PEOPLE_INDEX).toHaveLength(408);
     for (const slug of TARGETS) {
       expect(SEED_PEOPLE.filter((p) => p.slug === slug)).toHaveLength(1);
       expect(PEOPLE_INDEX.filter((p) => p.slug === slug)).toHaveLength(1);

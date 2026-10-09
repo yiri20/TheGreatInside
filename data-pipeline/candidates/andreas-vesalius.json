@@ -1,0 +1,251 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "andreas-vesalius",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Andreas Vesalius",
+    "aliases": [
+      "Andreas van Wesel",
+      "Andries van Wesel"
+    ],
+    "wikidataId": "Q170267",
+    "birthYear": 1514,
+    "deathYear": 1564,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "BE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "anatomist",
+      "physician"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical",
+      "historical"
+    ],
+    "tagIds": [
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_vesalius_wikidata",
+      "kind": "wikidata",
+      "title": "Andreas Vesalius (Q170267) -- verified live via wbgetentities (2026-10-08): en label 'Andreas Vesalius', description 'Flemish anatomist, physician and author (1514-1564)', died 16 Oct 1564, instance of human, ko label '안드레아스 베살리우스', P18 'Vesalius Fabrica portrait.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q170267"
+    },
+    {
+      "id": "src_vesalius_nutton2012",
+      "kind": "archive",
+      "title": "Vivian Nutton (historian of medicine, UCL), 'Vesalius Revised. His Annotations to the 1555 Fabrica', Medical History 56(4), 2012, open-access full text on PubMed Central -- INDEPENDENT scholarly study of Vesalius's own heavily annotated copy of the 1555 edition, prepared for a never-published third edition; admiring of his precision but openly critical of how he handled credit to contemporaries and of the 'brash young man in a hurry' of 1543. Read in full (text, footnotes not read).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3483767/"
+    },
+    {
+      "id": "src_vesalius_compier2012",
+      "kind": "archive",
+      "title": "A. H. Compier (Leiden), 'Rhazes in the Renaissance of Andreas Vesalius', Medical History 56(1), 2012, open-access full text on PubMed Central -- INDEPENDENT scholarly article that reads Vesalius's early Paraphrasis of Rhazes (1537), his 1539 bloodletting letter, the Fabrica preface and his 1546 letter on the China root (long passages translated, including his own account of burning his notes). Read the introduction, the sections on the 1537 Paraphrasis, the 1538-1546 development and the discussion of the 1546 letter; the closing speculation about Rhazes's possible influence on his criticism of Galen was skimmed only.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3314893/"
+    },
+    {
+      "id": "src_vesalius_zampieri2015",
+      "kind": "archive",
+      "title": "F. Zampieri, M. ElMaghawry, A. Zanatta and G. Thiene (University of Padua), 'Andreas Vesalius: Celebrating 500 years of dissecting nature', Global Cardiology Science and Practice 2015, open-access full text on PubMed Central -- ADMIRING Padua-based review for the 500th anniversary, quoting the Fabrica preface and the 1543 and 1555 passages on the heart septum; relies on O'Malley (1964) and Cushing (1962). Read in full (figure captions skimmed).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4762440/"
+    },
+    {
+      "id": "src_vesalius_ball1910",
+      "kind": "biography",
+      "title": "James Moores Ball, 'Andreas Vesalius, the Reformer of Anatomy' (St. Louis, 1910), Internet Archive scan -- OLD POPULAR biography by an American physician, admiring and partly romantic (it repeats the pilgrimage legend and some embellished anecdotes, which are not used here); useful for the structure of the Padua courses, the contents of the Fabrica book by book, the Tabulae of 1538, and the quarrels with Sylvius and Colombo. Read chapters 4-15 (early life to death); the opening chapters on ancient and medieval anatomy were skimmed.",
+      "url": "https://archive.org/details/cu31924003440751"
+    },
+    {
+      "id": "src_vesalius_roth1892",
+      "kind": "biography",
+      "title": "Moritz Roth, 'Andreas Vesalius Bruxellensis' (Berlin, 1892), Internet Archive scan (German, poor OCR) -- standard archival biography of the 19th century. Read only the passages on Vesalius's departure from Italy and the burning of his notes (pp. 189-191, with the Latin of his 1546 letter in the footnote) and on Jacobus Sylvius's attacks on Vesalius (pp. 227-230); the remaining ~500 pages were not read.",
+      "url": "https://archive.org/details/andreasvesalius00rothgoog"
+    },
+    {
+      "id": "src_vesalius_falloppio1562",
+      "kind": "archive",
+      "title": "Gabriele Falloppio (Italian anatomist and Vesalius's junior contemporary, who taught at Pisa and Padua), 'Observationes anatomicae' (Venice, 1561/1562), digitised Wellcome copy at the Internet Archive (Latin) -- CONTEMPORARY respectful critic of Vesalius; read the author's preface and opening pages (his statement of how he came to side with Vesalius and where he thought Vesalius went wrong) and located the many later passages that name Vesalius; the anatomical body of the book was not read.",
+      "url": "https://archive.org/details/hin-wel-all-00000568-001"
+    },
+    {
+      "id": "src_vesalius_spielmann1925",
+      "kind": "biography",
+      "title": "M. H. Spielmann, 'The Iconography of Andreas Vesalius' (London: Wellcome Historical Medical Museum, 1925), Internet Archive scan -- scholarly iconography with forewords by Arthur Keith and others; read the foreword and the chapter on the Fabrica woodcut portrait (authorship by Calcar's drawing, Vesalius's reuse of the block in several works); the catalogue of painted portraits was skimmed.",
+      "url": "https://archive.org/details/b20457108"
+    },
+    {
+      "id": "src_vesalius_krishnan2021",
+      "kind": "archive",
+      "title": "P. Krishnan and S. Nag, 'Historical Vignette: Andreas Vesalius and Head Injuries in Royalty', Asian Journal of Neurosurgery 2021, open-access full text on PubMed Central -- short secondary vignette of Vesalius's involvement in the 1559 Henri II and 1562 Don Carlos head-injury cases; rests on Norwich, Kean and others. Read in full.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8477829/"
+    },
+    {
+      "id": "src_vesalius_xiang2023",
+      "kind": "archive",
+      "title": "J. Xiang and S. Venkatesan (Imperial College London), 'The role of Vesalius and his contemporaries in the transfiguration of human anatomical science', Journal of Anatomy 2023, open-access full text on PubMed Central -- student-level secondary review; some details are loose (e.g. the places where Falloppio held his posts) and are not relied on. Used only for its quotations of the 1540 Bologna student notes of Baldasar Heseler and of Sylvius's 1551 pamphlet. Read in full.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9877481/"
+    },
+    {
+      "id": "src_vesalius_met_portrait",
+      "kind": "institution",
+      "title": "The Metropolitan Museum of Art, object 1980.1001 (Gift of Richard Day, 1980): woodcut 'Portrait of Andreas Vesalius, half-length ... frontispiece to De humani corporis fabrica libri septem', John of Calcar, dated 1542, Open Access (public domain flag true in the Met Open Access API, no rights notice) -- institutional record of the portrait leaf; used only for the portrait chain, not for any row.",
+      "url": "https://www.metmuseum.org/art/collection/search/692287"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vesalius_nutton2012, src_vesalius_zampieri2015, src_vesalius_falloppio1562, src_vesalius_compier2012 | 1538-1555 | independent scholarly study + admiring review + contemporary respectful critic + scholarly article] Nutton describes the 1543 Fabrica's 'blunt affirmation' that human anatomy could and should be studied only through human dissection, a challenge to masters and to the new Galenism, made by a young man 'too little respectful of his masters'. Zampieri quotes the preface (Galen wrong over 200 times in one demonstration; the body he described was an ape's) and lists specific corrections (sternum of three parts, one-piece mandible, no rete mirabile in man). Falloppio reports that in the Pisa and Padua schools he never met a learned man who favoured Galen's side over Vesalius's. Counterweight: Compier translates Vesalius's own 1546 letter saying he read Galen's On Bones three times before his students before daring to note an error, and Zampieri shows the 1543 text still hedged on the heart and followed Galen's physiology 'because I am yet hesitant' -- independence was empirical and incremental, not wholesale. Several dated instances from independent sources; not higher because his method was shared with predecessors such as Berengario (Xiang) and he stayed within Galenic physiology."
+    },
+    "belief_updating": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vesalius_compier2012, src_vesalius_zampieri2015, src_vesalius_nutton2012 | 1537-1561 | scholarly article quoting his own letters + admiring review + independent scholarly study] Compier shows his 1537 Paraphrasis of Rhazes subjecting the Arab author to Galen in the anti-Arab rhetoric of his Paris teachers, then by the 1539 bloodletting letter and the 1543 preface a reconciling, more balanced view, and in the 1546 letter a confession that he was now 'baffled by my own stupidity' at having followed Galen so closely. Zampieri contrasts the 1543 sentence marvelling at blood passing through invisible septal pores with the 1555 statement that none passes through the septum as far as sense can tell. Nutton reports that in his reply to Falloppio (dated 1561) Vesalius graciously accepted the criticism of his belief in venous fibres and was pleased by Falloppio's account of teeth, and that in the 1555 annotations he softened some attacks on Galen. Counterweight in the same source: Nutton also finds him quietly dropping or recasting priority claims rather than openly retracting them. Several independent, dated reversals; the cases are changes of anatomical view, not general open-mindedness."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vesalius_zampieri2015, src_vesalius_ball1910, src_vesalius_xiang2023 | 1537-1543 | admiring review + old popular biography + secondary review quoting a student's notes] Zampieri describes him testing Galenic descriptions against dissection and explaining the error by cause: structures he found Galen describing (rete mirabile, a single carotid trunk) belong to apes and other mammals, so Galen cannot have dissected human bodies; the 1538 Tabulae still reproduced some of these, which shows the check was done between 1538 and 1543. Ball describes comparative plates (human skull on a dog's skull, ape and dog sacra) used to prove the point, and a Bologna demonstration in which he showed in three bodies that Galen's account of the azygos vein was wrong. Xiang quotes Heseler's 1540 Bologna notes: he corrected Galen's false opinions on three human bodies and six dogs. Secondary retellings of a method largely known from his own book, hence strong inference rather than documented."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vesalius_nutton2012, src_vesalius_ball1910 | 1542-1560s | independent scholarly study + old popular biography] Nutton counts well over a thousand annotations in Vesalius's own copy of the 1555 Fabrica, including corrected letters in plates that had become invisible through shading, instructions to the block-cutter to inset a sliver of wood with the right letter, a redrawn toe outline for a cutter's mistake, and hundreds of small wording changes (adjectives replaced to say 'thick', 'broad', 'hard' instead of 'big'); he concludes the notes show an 'overriding passion for accuracy in both word and image'. Ball cites his 1542 letter to the printer Oporinus asking that every detail of the cuts be distinctly visible and that the printed pictures match the proofs. One primary scholarly study of a unique document plus a supporting letter, not independent repeated instances from several sources, so held below 80."
+    },
+    "perfectionism": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_vesalius_nutton2012, src_vesalius_ball1910 | 1542-c.1560 | independent scholarly study + old popular biography] Nutton: two thirds of the changes in the annotated 1555 copy concern words, most of them purely stylistic, made 'rather as a modern novelist might go over a sentence again and again'; he calls the re-reading of 800 folio pages 'thorough and careful, if not obsessive', with corrections of corrections, and the plan for a third edition was never carried out. Ball reports the 1542 letter to Oporinus insisting that each print should look like a picture. The same source suggests the effort ran past what the printed result required (the third edition never appeared), hence dual-edged; kept moderate because it rests on one scholar's reading of one annotated book."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vesalius_nutton2012, src_vesalius_zampieri2015, src_vesalius_ball1910 | 1537-1564 | independent scholarly study + admiring review + old popular biography] Nutton concludes Vesalius 'continued to consider himself a dissector' and kept revising the Fabrica for years after the 1555 edition, even when at court he could 'not easily obtain a skull'; the 1555 edition is described by Zampieri as a novel major contribution rather than an update, and Ball describes his Padua courses occupying nearly whole days for three weeks. Falloppio's 1561 observations were answered point by point from Madrid (Nutton, Zampieri), his only publication after 1555. Persistent work on the craft long after external reward had moved elsewhere, but evidence is concentrated in one scholar and the reviews that follow him."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vesalius_ball1910, src_vesalius_nutton2012, src_vesalius_zampieri2015 | 1537-1560s | old popular biography + independent scholarly study + admiring review] Ball reports that he wrote the seven books of the Fabrica in about three years while acting as lecturer, demonstrator and dissector in his own courses, and that the Padua courses ran nearly all day for about three weeks; Zampieri places the manuscript's completion in summer 1542, five years after he took the chair. Nutton notes that reading the 800 folio pages of the 1555 Fabrica even once would take months and that the notes imply years of free time given to the book. Structure and duration are documented; day-to-day routine is not, so this stays a strong inference."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vesalius_ball1910, src_vesalius_nutton2012 | boyhood-1560s | old popular biography + independent scholarly study] Ball, following the Fabrica, says he dissected mice, moles, rats, dogs and cats as a boy and noted the elasticity of the air-filled bladders used when learning to swim (a retelling from his own book). Nutton finds him, in late annotations, adding a report of female circumcision among the Ethiopian Scevani that Nutton traces to no medical source, rewriting his chapter on the organ of smell repeatedly to ask how odours and sensation reach the brain through bone, and keeping up comparative anatomy of the ape's humerus. The early evidence is retold from his own writing; the later evidence is firsthand but small in scale."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vesalius_ball1910, src_vesalius_zampieri2015, src_vesalius_nutton2012 | 1533-1543 | old popular biography + admiring review + independent scholarly study] In Paris, where dissections were done by barbers while the professor lectured, Vesalius took the knife himself and performed a systematic dissection; the older biography quotes his own later statement of this and the 1539 praise of Joannes Guinterius, who names him 'a young man ... of singular zeal in the study of anatomy' and says he examined muscles, veins, arteries and nerves with him. In Padua he prepared the six Tabulae of 1538 and an edition of Guinterius's Institutiones for his students and articulated a skeleton for class (Ball), then went himself to Basel in 1543 to supervise the printing of the Fabrica, dissected there, and the book received copyright protection from the Venetian Senate and the Emperor (Zampieri). The Paris episode is firsthand-retold, the Padua and Basel initiatives are better documented."
+    },
+    "aesthetic_sensitivity": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vesalius_nutton2012, src_vesalius_ball1910, src_vesalius_spielmann1925 | 1538-1555 | independent scholarly study + old popular biography + iconography] Nutton describes 'Vesalius the artist' as well as the anatomist and the Latinist: the Fabrica unites words and pictures in a 'complex dialogue', and the annotations show him correcting the blocks as he would a dropped letter and redrawing a toe or an eyelid with a fine pen for the cutter. Ball reports that he complained of the artist who tormented him and of the large sums he paid to induce skilled artists to draw dissections, and records that painters of the following two centuries copied his muscle figures. Spielmann notes that he reused the same portrait woodcut in several works between 1543 and 1555, which suggests he approved of the likeness (an inference). Strong but concentrated in one scholarly reading and the older books."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vesalius_nutton2012, src_vesalius_compier2012, src_vesalius_zampieri2015, src_vesalius_krishnan2021 | 1537-1562 | independent scholarly studies + admiring review + secondary vignette] Nutton sums the annotator up as three people at once, anatomist, humanist and artist; Compier shows Greek, Latin, Arabic and Hebrew terms across the Paraphrasis, the Tabulae and the Fabrica and a Rhazes edition; Zampieri and Krishnan describe him turning from teaching to clinical work as imperial physician, writing the report and performing the autopsy for Henri II (1559) and advising trepanation for Don Carlos (1562). The range is real but all of it stays within medicine and its supporting arts, so a modest score."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_vesalius_nutton2012, src_vesalius_falloppio1562, src_vesalius_xiang2023, src_vesalius_roth1892 | 1540-1561 | independent scholarly study + contemporary respectful critic + secondary review + archival biography] Nutton reports that Melanchthon built the anatomical sections of his revised De anima on the Fabrica and that Vesalius's plates were copied across Europe, and Falloppio writes that in the Pisa and Padua schools he found the favoured side to be Vesalius's rather than Galen's; Xiang quotes Heseler's 1540 Bologna notes recording that he 'showed us many things neither heard nor seen before'. Against this, Roth describes the Parisian professor Sylvius answering with appeals that the Emperor treat the 'monster' as he deserved, and with a claim that human bodies had changed since Galen, and the Fabrica was received with fierce opposition from Galenists. His case won readers and students but also provoked organised hostility; the persuasion evidence is real and dated yet mostly reported by sympathetic or neutral sources."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_vesalius_nutton2012, src_vesalius_falloppio1562, src_vesalius_ball1910 | 1533-1543 | independent scholarly study + contemporary respectful critic + old popular biography] Nutton calls the 1543 author a 'brash young man in a hurry, too little respectful of his masters'. Falloppio, who supports him, writes (my translation of the Latin) that Vesalius, driven on by the ardour and impetus of victory, sometimes took Galen at his words rather than his sense and often attacked and accused him more unworthily than so great an anatomist should, and that this did not serve his own glory. Ball, drawing on Vesalius's own account, says that in Paris he pushed aside the barber-prosectors and took the knife in front of the class. The pattern is consistent across a neutral scholar, a friendly critic and his own telling; it is a dual-edged trait because the same forwardness helped in Paris and Basel and hurt in his relations with Sylvius and Colombo."
+    },
+    "conflict_tolerance": {
+      "score": 52,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_vesalius_compier2012, src_vesalius_roth1892, src_vesalius_ball1910, src_vesalius_nutton2012 | 1543-1561 | scholarly article quoting his own letter + archival biography + old popular biography + independent scholarly study] He published the Fabrica knowing it would be attacked and replied in print to Sylvius's charges in his 1546 China-root letter (Compier), which is open conflict. But the same letter records that, after physicians at court judged his books very harshly, he burned his Galen notes and a Rhazes paraphrase in a single day 'with the intention of restraining myself somewhat in writing', and that he thought the notes would have made 'each and every one my enemy'; Roth adds that friends advised against the burning, and Ball says Colombo's opposition and that of other Galenists at Padua disgusted him before he took the court post. Nutton notes that in the 1561 reply to Falloppio he was cordial. Open confrontation in 1543-1546 followed by withdrawal from the dispute and from teaching points to a mixed score rather than a high or low one."
+    },
+    "competitiveness": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_vesalius_nutton2012, src_vesalius_falloppio1562, src_vesalius_ball1910 | 1543-1561 | independent scholarly study + contemporary respectful critic + old popular biography] Nutton records that Vesalius, 'as his opponents rightly argued, was adept at hiding his debts to others', naming past authorities rather than contemporaries, and that in the annotations he quietly deleted an explicit 'discovered by us' claim for a muscle and recast 'professors' of anatomy as 'ancient' ones, so that no contemporary appears to have anticipated him. Falloppio says his zeal for victory sometimes carried him into positions that did not serve his own glory. Ball describes a bitter and personal controversy with his former pupil Colombo. Priority-guarding behaviour is documented in one scholar's reading and echoed by a friendly critic, but the conduct is indirect (omission, wording) rather than open contest, so modest score and confidence."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_vesalius_nutton2012, src_vesalius_zampieri2015, src_vesalius_krishnan2021 | 1543-1564 | independent scholarly study + admiring review + secondary vignette] Within weeks of the Fabrica he became physician to Charles V, and thereafter, as Nutton puts it, life moved between court circles in the Netherlands and Spain with only 'autopsies and occasional surgery' to keep his hand in; Zampieri and Krishnan show him working as a clinician and surgeon at Henri II's deathbed (1559) and for Don Carlos (1562). He also complained that in Madrid he could scarcely obtain a skull. The change of setting from teaching and dissection to court practice is documented and he performed in the new role, but there is little first-hand evidence of how he coped, so the score stays moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "안드레아스 베살리우스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/andreas-vesalius-calcar-1542.jpg",
+    "width": 1152,
+    "height": 1600,
+    "source": "The Metropolitan Museum of Art, New York, Drawings and Prints, accession 1980.1001 (Gift of Richard Day, 1980), impression of the portrait leaf of De humani corporis fabrica (Basel, 1543), Open Access image DP853465, downsized from 2658 x 3693 px Classified as a historical depiction: a woodcut by an unknown cutter after Calcar, and no source states it was drawn from life.",
+    "license": "Public domain / Met Open Access (CC0); sixteenth-century woodcut, Met Open Access API reports isPublicDomain true and no rightsAndReproduction notice",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Portrait of Andreas Vesalius, woodcut dated 1542 (inscribed 'AN. AET. XXVIII', age 28), attributed to John (Jan Stephan) of Calcar; Metropolitan Museum of Art, Gift of Richard Day, 1980 (1980.1001)",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/692287",
+    "creator": "John (Jan Stephan) of Calcar (attributed; drawn for the woodcut, cutter unknown)",
+    "date": "1542",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/692287"
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q170267 returned en label 'Andreas Vesalius', description 'Flemish anatomist, physician and author (1514-1564)', ko label '안드레아스 베살리우스', P18 'Vesalius Fabrica portrait.jpg'; matches the intended person. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. Region western_europe follows the Low Countries precedent (antonie-van-leeuwenhoek: NL, western_europe); Brussels-born (BE), career in Padua, Basel and at the courts of Charles V and Philip II, which are incidental and unscored (zero-politics). SOURCES: 9 read sources plus Wikidata (orientation) and the Met object record (portrait only): Nutton 2012, Compier 2012, Zampieri et al. 2015, Ball 1910, Roth 1892 (selected pages), Falloppio 1561/62 (preface and opening), Spielmann 1925 (portrait chapter), Krishnan 2021, Xiang 2023 (cautious). Independent perspectives: Nutton (scholarly, critical on credit), Compier (scholarly, reads his letters), Falloppio (contemporary respectful critic), Sylvius (hostile, through Roth's summary and Ball), Colombo (hostile former pupil, through Ball only; his own text not read), Heseler (student, through Xiang only). Primary/self material: the Fabrica preface and the 1546 China-root letter, read only through Compier, Zampieri, Roth and Ball. NOT ACCESSED: O'Malley, 'Andreas Vesalius of Brussels' (1964) and Cushing, 'A Bio-Bibliography of Andreas Vesalius' (Internet Archive lending copies, HTTP 401); Vesalius's Fabrica preface and Examen in the original; Sylvius's 1551 pamphlet and Colombo's De re anatomica in the original; Heseler's notes. EXCLUDED ON PURPOSE: the Holy Land pilgrimage and the story of dissecting a living patient (legend; sources say reasons were never settled), anything about his death or health, the 'first anatomy chair' and 'first illustrated anatomy' claims, and the Titian attribution. The authorship of the woodcuts is recorded as an attribution to Calcar only. Rows are deliberately limited to behaviour documented in the sources; confidences are capped at 0.66; no row at or above 80. PORTRAIT: Fabrica portrait leaf (inscribed age 28, 1542), woodcut attributed to Calcar, from the Metropolitan Museum Open Access impression (1980.1001, public domain, no rights notice in the API); chosen over the Commons file whose source field is 'unknown'. Classified likeness because it is a contemporary portrait of the sitter that, per Spielmann, he reused in several of his own works; whether it was drawn from life is not documented, and the cutter is unknown."
+  }
+}

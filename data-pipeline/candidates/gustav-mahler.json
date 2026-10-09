@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gustav-mahler",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Gustav Mahler",
+    "aliases": [
+      "Mahler"
+    ],
+    "wikidataId": "Q7304",
+    "birthYear": 1860,
+    "deathYear": 1911,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "AT"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mahler_wikidata",
+      "kind": "wikidata",
+      "title": "Gustav Mahler (Q7304) -- verified live via wbgetentities (2026-10-08): en label 'Gustav Mahler', description 'Austrian late-Romantic composer (1860-1911)', born 7 Jul 1860, died 18 May 1911, citizenship Austria among others, instance of human, ko label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7304"
+    },
+    {
+      "id": "src_mahler_stefan1913",
+      "kind": "biography",
+      "title": "Paul Stefan, 'Gustav Mahler: A Study of His Personality and Work', translated by T. E. Clark (G. Schirmer, New York, 1913), Internet Archive scan -- ADMIRING CONTEMPORARY biography by a partisan of Mahler (Stefan also wrote the polemic 'Gustav Mahler's Heritage' in 1908, which he says provoked a counter-pamphlet). Read the biographical chapters on Cassel, Pest, Hamburg, the Vienna Opera and Philharmonic years, the 1907 departure and America, and the section on summer composing (about pp. 20-67); the analytical chapters on the works were only skimmed.",
+      "url": "https://archive.org/details/gustavmahlerstud00stefuoft"
+    },
+    {
+      "id": "src_mahler_specht1913",
+      "kind": "biography",
+      "title": "Richard Specht, 'Gustav Mahler' (Schuster & Loeffler, Berlin and Leipzig, 1913), Internet Archive scan of the University of Toronto copy (in German) -- ADMIRING CONTEMPORARY biography by a Vienna critic and friend, openly hostile to Mahler's Vienna opponents. Read the opening of the Vienna chapter (arrival in 1897, the Winkelmann and Hermannbund episode, the velvet curtain), the passage on the departure and the farewell letter, the Mahler-Roller productions passage, and the plate list and plates 8, 10, 11 and 12 as page images; the rest of the 800-page volume was searched, not read.",
+      "url": "https://archive.org/details/gustavmahler00spec"
+    },
+    {
+      "id": "src_mahler_bauerlechner1923",
+      "kind": "biography",
+      "title": "Natalie Bauer-Lechner, 'Erinnerungen an Gustav Mahler' (E. P. Tal, Leipzig and Vienna, 1923), Internet Archive scan (in German) -- diary-style record by a close friend and violist (c. 1890-1901) of Mahler's remarks and daily work, published posthumously; PARTISAN and written with his statements as she remembered them, so used here as a record of what he said and did in her presence, not as neutral testimony. Read the passages on the Third Symphony's demands, instrumentation, the reworking of the Fourth, the Beethoven editing remarks, and the account of his Vienna production of Dalibor; the book was otherwise searched, not read in full.",
+      "url": "https://archive.org/details/erinnerungengust00baue"
+    },
+    {
+      "id": "src_mahler_alma1946",
+      "kind": "biography",
+      "title": "Alma Mahler, 'Gustav Mahler: Memories and Letters', translated by Basil Creighton (John Murray, London, 1946), Internet Archive scan -- memoir by his widow, PARTISAN and known to be unreliable on some points, with printed letters from Mahler to her (self source). Read the passages on the Maiernigg daily routine, the engagement of Alfred Roller, the circumstances of the 1907 resignation and the 1907 letters from Frankfurt; used only for concrete routines and events, and every row that uses it also cites an independent source. Her account of the marriage, his health and his family losses was not used.",
+      "url": "https://archive.org/details/GustavMahler"
+    },
+    {
+      "id": "src_mahler_friends1916",
+      "kind": "archive",
+      "title": "'Gustav Mahler: The Composer, the Conductor, and the Man -- Appreciations by Distinguished Contemporary Musicians' (Society of the Friends of Music, New York, 1916), booklet issued for the New York premiere of the Eighth Symphony, Internet Archive scan -- collected brief tributes by about two dozen musicians who sang, played or conducted with him, mostly admiring (one contributor refers to his 'detractors'), with one candid note on his irritability. Read in full.",
+      "url": "https://archive.org/details/ldpd_6873490_000"
+    },
+    {
+      "id": "src_mahler_sun1907",
+      "kind": "press",
+      "title": "'Notes of Opera in Europe -- Theories of Gustav Mahler's secret retirement', The Sun (New York), 7 July 1907, p. 36, Library of Congress Chronicling America OCR -- contemporary newspaper note reporting, side by side, what Mahler said, what his friends said and what his enemies said about his leaving the Vienna Court Opera. Read the Mahler paragraphs (the OCR is noisy but legible).",
+      "url": "https://www.loc.gov/resource/sn83030272/1907-07-07/ed-1/?sp=36"
+    },
+    {
+      "id": "src_mahler_sun1909",
+      "kind": "press",
+      "title": "Unsigned review 'The Philharmonic Concert -- the third historical programme', The Sun (New York), 30 December 1909, p. 7, Library of Congress Chronicling America OCR -- contemporary CRITICAL review of Mahler's Philharmonic Society concert (Schubert, Mendelssohn concerto, Schumann's D minor symphony), noting both his explicit interpretive design and, in its view, a hurried finale. Read the Mahler passages.",
+      "url": "https://www.loc.gov/resource/sn83030272/1909-12-30/ed-1/?sp=7"
+    },
+    {
+      "id": "src_mahler_sun1911",
+      "kind": "press",
+      "title": "W. J. Henderson, season retrospective in the music pages of The Sun (New York), 23 April 1911, p. 26, Library of Congress Chronicling America OCR -- the paper's critic on the troubled New York orchestral situation and the end of Mahler's Philharmonic tenure, with a count of his own reviews of Mahler's concerts. Read the Mahler paragraphs.",
+      "url": "https://www.loc.gov/resource/sn83030272/1911-04-23/ed-1/?sp=26"
+    },
+    {
+      "id": "src_mahler_tribune1910",
+      "kind": "press",
+      "title": "'Gustav Mahler: Impersonation of Concentrated Nervous Energy', character sketch with interview in the New-York Tribune, 3 April 1910, p. 57, Library of Congress Chronicling America OCR -- contemporary newspaper portrait by a Tribune reporter who visited Mahler at the Hotel Savoy, quoting his own statements on conducting, criticism and the public. Read in full (about half the page; the rest of the page is unrelated).",
+      "url": "https://www.loc.gov/resource/sn83030214/1910-04-03/ed-1/?sp=57"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_mahler_bauerlechner1923, src_mahler_stefan1913, src_mahler_friends1916, src_mahler_sun1907 | 1880s-1907 | close-friend diary + admiring biography + colleague tributes + neutral press] Bauer-Lechner records Mahler (c. 1900-01) saying he racks his brains over the orchestration 'until what is wanted really stands there', that work worth keeping is worth that labour, and, while reworking the Fourth Symphony, that the instrumentation of its simplest theme cost him more trouble than the most polyphonic movement; she also records that for his Vienna Dalibor he sharpened markings and retouched the instrumentation. Stefan reports, citing the composer Foerster, solo rehearsals that singers almost dreaded because he demanded the 'utmost exactitude' of rhythm, and rehearsals at Cassel that ran eight hours. Colleagues in the 1916 booklet say singers 'trembled at his severity' and that he showed an uncompromising insistence on the highest standard; Damrosch adds that his nervous concentration made him seem unsociable and sometimes rude. The Sun (1907) notes that the opera artists refused to sign a round robin for him and reads that as evidence of the zeal with which he held singers to their task. dual_edged: the same demands wore on orchestras (Stefan on the 1901 Philharmonic break) and on colleagues. Several dated, independent-enough instances, but most are told by admirers, hence confidence stays below 0.70 and score below 82."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mahler_bauerlechner1923, src_mahler_stefan1913, src_mahler_friends1916 | c. 1896-1901 | close-friend diary + admiring biography + colleague tribute] Bauer-Lechner records specifics of his scoring practice: violins on the E string for songful high passages and on the G string for sorrowful ones, avoiding the weak middle strings for passionate expression; marking passages 'nicht eilen' or 'nicht schleppen' rather than ritardando or accelerando because players would exaggerate the latter; removing filler notes from a variation in the Fourth where the texture was clouded. Stefan describes his attention to hidden inner parts and small nuances that others overlooked. Chadwick (1916 booklet, an American composer who says he knew him only slightly) says his performances were 'the last word in clarity and finish'. Concrete markings and revisions, but narrated by friends and admirers, hence moderate-high rather than high."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mahler_alma1946, src_mahler_stefan1913, src_mahler_bauerlechner1923 | 1899-1910 | widow's memoir + admiring biography + close-friend diary] Alma Mahler describes an unvarying daily routine for six summers at Maiernigg: up at six or half past, breakfast sent up to his composing hut, work there until midday, then swimming and walking; Stefan independently dates the composing to the theatre holidays (Fourth begun at Aussee in 1899, the Rueckert songs, Fifth, Sixth and Seventh at Maiernigg, Das Lied von der Erde and the Ninth at Toblach) while he ran the Vienna Opera the rest of the year; Bauer-Lechner records him working at the Fourth every morning and evening for a few hours. The routine is a documented structure, but two of the three accounts are partisan and none is a first-hand dated diary of the work itself, so score and confidence stay moderate."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_mahler_stefan1913, src_mahler_sun1909, src_mahler_bauerlechner1923, src_mahler_specht1913 | 1890s-1909 | admiring biographies + critical contemporary press + close-friend diary] Stefan reports that Mahler, like Wagner before him, touched up Beethoven's Ninth Symphony instrumentation, answered the critics who objected with a printed explanation handed out in the hall, and repeated the performance; Bauer-Lechner records him (mid-1890s, Third Symphony) saying the work demanded forces no orchestra would grant him and that he would rather take what he needed and risk hostility and few performances than adapt it to an outdated orchestra; Specht and Stefan describe his abolition of the claque, his refusal of the traditional allegorical curtain, and the Roller stagings that broke with the old Vienna manner. The Sun's unsigned 1909 review shows the other side: it faulted his hurried Schumann finale while crediting his clearly stated design for the programme. dual_edged: unconventional readings drew both enthusiasm and sharp criticism. Several dated instances from partisan and critical sources, hence below 0.65."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_mahler_specht1913, src_mahler_stefan1913, src_mahler_sun1907, src_mahler_friends1916 | 1884-1907 | admiring biographies + neutral press + colleague tribute] Specht tells how, when the Hermannbund youths at the stage door hailed him in defence of the tenor Winkelmann after audiences applauded mid-scene, Mahler stopped them and told them their behaviour was 'barbarous' and unworthy of youth before walking off; Stefan reports he stopped the claque and barred late-comers, 'ejected' favourites who would not conform, and quarrelled with the Cassel Intendant (1884-85) and later with the Pest Intendant, giving up the Pest post in 1891 when his authority was curtailed; The Sun (1907) records that the artists of the opera refused to sign a testimonial for him and that his 'enemies' were openly active at his departure; Damrosch (1916) says his irritability could look like rudeness. He confronted friction repeatedly rather than avoiding it, at visible cost (the 1901 Philharmonic break, 1907). Several instances, but the Winkelmann scene is an admirer's single retelling, hence 0.60."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_mahler_stefan1913, src_mahler_tribune1910, src_mahler_sun1907 | 1884-1910 | admiring biography incl. a self-written letter + neutral press] Stefan prints Mahler's 1884 letter to Angelo Neumann in which, as second conductor at Cassel, he offers himself as a 'young and energetic conductor' who can breathe fire into artists and asks for better and more demanding work; his career then moved through Prague, Leipzig, Pest, Hamburg to the Vienna directorship (1897) and the New York Philharmonic (1909). The Tribune (1910) describes him as 'absolute master' of musicians and singers, and quotes him saying the conductor must be the master mind of any performance but should lead by tact and insist on obedience only from stubborn singers. On the other side, The Sun (1907) reports his friends saying the administrative load was too much and that he wanted less work, and he left the Vienna directorship at his own application. Documented pursuit and exercise of lead positions, but tempered by ambivalence about administration, so moderate."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mahler_stefan1913, src_mahler_sun1907, src_mahler_specht1913, src_mahler_alma1946 | 1891-1910 | admiring biographies + neutral press + widow's memoir] Stefan says Mahler gave up his Pest directorship in 1891 when the new Intendant took away his 'authoritative rights', although his contract had eight years to run, and that he accepted the New York offer in 1907 because it let him conduct only for part of the year; The Sun (1907) reports, as his own and his friends' account, that he had not been forced to go but applied for his pension because he wanted less work and more time to compose, while his enemies said he was pushed; Specht says he bought a plain velvet curtain at his own expense when the authorities refused to replace the Vienna Opera's allegorical one; Alma Mahler describes the hut where he allowed no one near him before work. Recurring choices for control over his work and working conditions, but the 1907 motives are contested between the sources, so the row is strong_inference at 0.50."
+    },
+    "aesthetic_sensitivity": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mahler_bauerlechner1923, src_mahler_specht1913, src_mahler_alma1946, src_mahler_friends1916 | 1890s-1907 | close-friend diary + admiring biography + widow's memoir + colleague tributes] Bauer-Lechner records his choices of string register and timbre to match expressive character, and his remark that the instruments should be used 'only in their proper place and entirely in their own nature'; Specht and Alma Mahler describe how he and Alfred Roller reworked the look of Vienna productions (lighting, simple Bayreuth-style curtain, the 1903 Tristan staging) so that scenery, light and music belonged together; several colleagues in the 1916 booklet single out the finish of his performances. Concrete sensory choices documented in more than one source, but all from admirers, so 0.60."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_mahler_alma1946, src_mahler_specht1913, src_mahler_bauerlechner1923, src_mahler_sun1907 | 1895-1907 | widow's memoir + admiring biography + close-friend diary + neutral press] Alma Mahler says Mahler hired the painter Alfred Roller, who had never worked backstage, as Vienna stage designer, after a single conversation, a 'colossal risk'; Specht independently speaks of the 30-40 'daring' Mahler-Roller productions; Bauer-Lechner records him choosing, for the Third Symphony, the forces he needed over a version that would be easier to perform; The Sun (1907) notes he held a life appointment at the Court Opera and gave it up by applying for a pension, going to America. Several documented bets, but each is retold by partisans and the stakes (career, finances) are not described in the sources, hence moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "구스타프 말러"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gustav-mahler-naehr-1907.jpg",
+    "width": 801,
+    "height": 956,
+    "source": "Wikimedia Commons, 'Photo of Gustav Mahler by Moritz Naehr 01.jpg' (Commons wikitext: published on plate 12 of Richard Specht, Gustav Mahler, Schuster & Loeffler, Berlin/Leipzig 1913); plate checked on the Internet Archive scan of Specht 1913 (Univ. of Toronto copy), leaf with page number 12, credited 'M. Naehr, Wien, phot.'",
+    "license": "Public domain (photographer Moritz Naehr, died 1945, so Austrian and EU term of life+70 expired end of 2015; published 1913, so also US public domain)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photograph by Moritz Nähr (Vienna), 1907, as published on plate 12 of Richard Specht, 'Gustav Mahler' (Berlin and Leipzig: Schuster & Loeffler, 1913), credited 'M. Nähr, Wien, phot.'",
+    "attributionUrl": "https://archive.org/details/gustavmahler00spec",
+    "creator": "Moritz Nähr",
+    "date": "1907 (per Commons; published 1913)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Photo_of_Gustav_Mahler_by_Moritz_N%C3%A4hr_01.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE 2026-10-08: Wikidata wbgetentities for Q7304 returned en label 'Gustav Mahler', description 'Austrian late-Romantic composer (1860-1911)', P569 7 Jul 1860, P570 18 May 1911, instance of human, citizenship Austria (Q40) plus two historical polities, ko label '구스타프 말러', P18 'Gustav-Mahler-Kohut.jpg' and 'Photo of Gustav Mahler by Moritz Nähr 01.jpg'; matches the intended person. SLUG CHECK: not in scratch/prod_slugs.txt and no existing data-pipeline/candidates/gustav-mahler.json. CLASSIFICATION: no 'conductor' occupation id exists in src/core/i18n/en.ts, so occupationIds are composer + musician (as johannes-brahms.json); fieldIds music (field.music exists); impactDomains artistic + cultural; tags perfectionist and craft_focused (as brahms); archetypes creative_creator + organizational_leader (opera directorship and orchestra leadership). ERA 19th_century (born 1860; formative and Hamburg/Vienna directorships 1891-1907 straddle the turn of the century; Dvorak and Tchaikovsky precedents are 19th_century). REGION central_europe, nationality AT (Austrian composer born in Bohemia; precedent: antonin-dvorak, gustav-klimt are central_europe). EVIDENCE READ (10 records: 1 orientation + 9 substantive, all fetched with curl/urllib to scratch/work/gustav-mahler and read or grepped locally): Stefan 1913 (English; biographical chapters read), Specht 1913 (German; Vienna opening, Winkelmann scene, departure, plates), Bauer-Lechner 1923 (German; selected passages), Alma Mahler 1946 (English; selected passages and the 1907 letters), the 1916 New York tribute booklet (in full), and four New York/US newspaper pages from Library of Congress Chronicling America (The Sun 7 Jul 1907, 30 Dec 1909, 23 Apr 1911; New-York Tribune 3 Apr 1910). PERSPECTIVES: (1) Stefan, (2) Specht, (3) Bauer-Lechner, (4) Alma Mahler (four partisan or admiring contemporaries/insiders, NOT independent of each other in outlook; Specht and Stefan also draw on each other's circle); (5) colleague tributes of 1916 (admiring, one candid on irritability); (6) NEUTRAL press, The Sun 1907 reporting friends' and enemies' versions of his leaving Vienna; (7) CRITICAL press, The Sun 1909 review (hurried Schumann finale) and Henderson 1911 (fifteen of nineteen reviews wholly praising, four with exceptions); (8) Tribune 1910 reporter's character sketch with Mahler's own interview statements (self). Non-self behavioural sources: all of the above except the interview passages. No row rests on self material alone; the most positive rows (perfectionism, detail orientation) are held at 80 and 76 and 0.68 and 0.64 because the strongest evidence is from admirers. ROWS CONSIDERED AND LEFT UNSCORED: persistence (overlaps discipline), mastery_orientation and achievement_drive (no distinct behavioural instance read beyond the fame of the work), collaboration (Roller partnership is documented only by Alma and Specht, and sources describe him as autocratic), social_assertiveness (overlaps conflict_tolerance), persuasiveness (the printed explanation to the Ninth Symphony audience is one retelling), belief_updating (one Bauer-Lechner anecdote on restoring the Fourth's scherzo, ambiguous), impact_motivation (self quotations only through partisans), opportunity_sensing (the Roller hire is a single widow's anecdote). EXCLUDED ON PURPOSE: his heart condition, the 1910 consultation with Freud, the marriage crisis, the death of his daughter and his own death, and any reading of the Kindertotenlieder, Das Lied von der Erde or the Ninth as personal psychology; his 1897 conversion to Catholicism (the sources read do not treat it as behaviour relevant to a scored row); antisemitic press hostility in Vienna as personality evidence (it is context, not behaviour of Mahler); fame, premieres, sales, the posthumous canon. CONFLICTS AND CAUTIONS REPORTED, NOT ADJUDICATED: (a) whether Mahler left the Vienna Opera of his own accord or was pushed: The Sun (1907) gives both versions, Stefan says he resigned out of disgust, Alma says an official used a leave-of-absence entry as pretext; the rows use only the common ground (he applied for his pension while holding a life appointment); (b) Stefan's claim that the Vienna deficit disappeared under him and that press and public were enthusiastic is not used (partisan; Henderson 1911 and the Sun 1909 show critics were not uniformly enthusiastic about his readings); (c) the Winkelmann/Hermannbund and velvet-curtain anecdotes are Specht's retellings without dates; (d) Bauer-Lechner's diary dates are approximate and her book was posthumously edited. KNOWN LIMITS: Bruno Walter's 'Gustav Mahler' (1936), Otto Klemperer's recollections, Henry-Louis de La Grange's four-volume biography, Jens Malte Fischer, Norman Lebrecht, Knud Martner's Selected Letters, Anna Bahr-Mildenburg, Schoenberg's 1912 tribute, the Vienna critics (Hirschfeld, Ludwig Karpath and the Hanslick school) and Guido Adler's 1916 study were NOT read: the Walter, Klemperer, La Grange, Fischer and Martner titles are lending-library-only on the Internet Archive (HTTP 401), Adler's 1916 scan is a garbled Fraktur OCR, and Viennese press archives were not reached; no bot wall was bypassed. The Vienna critical voice is therefore represented only through Stefan's and Specht's reports and the New York papers. No eligibility, coverage or match output was computed or used. The profile is deliberately limited to 9 rows, all at or below 0.68 confidence and 80 score. PORTRAIT: Commons file 'Photo of Gustav Mahler by Moritz Nähr 01.jpg' (801x956, copied unmodified; Commons template PD/1923 with deathyear 1945; Commons description says it is a studio portrait treated as a Lichtbildwerk with 70 years pma). The identical photograph was checked by eye as plate 12 of Richard Specht's 1913 book on the Internet Archive scan (Univ. of Toronto copy), credited 'M. Nähr, Wien, phot.', which gives a documented pre-1931 publication; Nähr died in 1945, so the Austrian/EU term expired at the end of 2015. The Commons source line also cites a Getty Images/Hulton Archive listing (not opened) and a WDR page; the Austrian National Library's Bildarchiv Austria (picturemaxx) database is a script-driven application that returned no item page, so no institutional rights notice could be read and none was found to contradict the public-domain basis; if a reviewer can open the ÖNB item and it shows a conflicting notice, the portrait should be re-held. The date '1907' is Commons' dating; Specht (1913) gives the photograph no date. The Kohut/Bieber 1892 cabinet photograph (Commons 'Gustav-Mahler-Kohut.jpg', published 1900) was an alternative (1140x1443) but shows him at 32 and is a later cropped, retouched scan. Face matches across both. KOREAN NAME: '구스타프 말러' is the Wikidata ko label and the conventional spelling."
+  }
+}

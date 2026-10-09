@@ -1,0 +1,227 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "robert-boyle",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Robert Boyle",
+    "wikidataId": "Q43393",
+    "birthYear": 1627,
+    "deathYear": 1691,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB",
+      "IE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "physicist",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_boyle_wikidata",
+      "kind": "wikidata",
+      "title": "Robert Boyle (Q43393) -- verified live via wbgetentities (2026-10-08): en label 'Robert Boyle', description 'Anglo-Irish natural philosopher, chemist, physicist, and inventor (1627-1691)', ko label '로버트 보일', P569 25 Jan 1627 (a second, conflicting 1626 value also present), P570 31 Dec 1691, instance of human. Orientation only.",
+      "url": "https://www.wikidata.org/wiki/Q43393"
+    },
+    {
+      "id": "src_boyle_birch1744",
+      "kind": "biography",
+      "title": "Thomas Birch, 'The Life of the Honourable Robert Boyle', prefixed to The Works of the Honourable Robert Boyle, vol. 1 (London: A. Millar, 1744), Internet Archive full text (boyleworks01) -- first full biography, secondary and admiring, compiled by an editor from Boyle's papers and letters about 50 years after his death; partly built on Bishop Burnet's funeral sermon. Read locally: the Oxford years and Hooke's work on the air pump, the 1660-62 publications and the Linus/Hobbes controversy, the 1660 Clarendon approach and the 1665 Eton provostship, the 1680 Royal Society presidency offer, and the closing character section. OCR uses long-s so read by careful grep.",
+      "url": "https://archive.org/details/boyleworks01"
+    },
+    {
+      "id": "src_boyle_aubrey1898",
+      "kind": "biography",
+      "title": "John Aubrey, entry 'Robert Boyle' in 'Brief Lives', chiefly of Contemporaries, set down between 1669 and 1696, ed. Andrew Clark (Oxford: Clarendon Press, 1898), vol. 1, pp. 120-121, Internet Archive full text (briefliveschiefl01aubr) -- brief first-hand acquaintance sketch by a contemporary friend (written c. 1680s); read in full (about one page). Gives Boyle's laboratory with paid assistants, his generosity to men in want and to foreign chemists, the Arabic New Testament, and the Latin and travel notes.",
+      "url": "https://archive.org/details/briefliveschiefl01aubr"
+    },
+    {
+      "id": "src_boyle_sep",
+      "kind": "institution",
+      "title": "Peter Anstey, 'Robert Boyle', Stanford Encyclopedia of Philosophy (peer-reviewed scholarly encyclopedia entry; current revision), read in full: life, the Baconian experimental philosophy and typology of experiments, 'exploratory experiments', the origin of what became Boyle's Law (Townley's suggestion, the J-tube trials and Boyle's own framing), corpuscular matter theory. Independent modern scholarly secondary.",
+      "url": "https://plato.stanford.edu/entries/boyle/"
+    },
+    {
+      "id": "src_boyle_works_self",
+      "kind": "archive",
+      "title": "Robert Boyle's own writings as printed in The Works (ed. Birch, 1744), Internet Archive vol. 1 (boyleworks01): 'An Account of Philaretus during his Minority' (autobiography, c. 1648-49), 'New Experiments Physico-Mechanical' (1660) and 'A Defence of the Doctrine touching the Spring and Weight of the Air against Linus' (1662) with its examination of Hobbes' Dialogus Physicus -- SELF SOURCE, used only for what he reports doing and how he credits or reports others; never the sole perspective for any row. Read locally by grep and passage reading, not cover to cover.",
+      "url": "https://archive.org/details/boyleworks01"
+    },
+    {
+      "id": "src_boyle_hunter_intro",
+      "kind": "institution",
+      "title": "Michael Hunter (Birkbeck, University of London; director of the Robert Boyle Project), 'Robert Boyle: An Introduction' and 'Boyle timeline', Robert Boyle Project website (boyle.bbk.ac.uk, 2004-2025), read in full -- independent modern scholarly secondary by the leading Boyle biographer (Boyle: Between God and Science, Yale 2009, not accessible). Covers the Stalbridge laboratory (1649), the Oxford years and Hooke's assistance, New Experiments (1660), Certain Physiological Essays on unsuccessful experiments, the Hobbes, Linus and Deusing attacks, the criticism by Huygens and Leibniz of his reluctance to draw conclusions, the alchemical interests, his refusal of the 1680 presidency, and the Boyle Lectures bequest.",
+      "url": "https://boyle.bbk.ac.uk/learn--introduction.html"
+    },
+    {
+      "id": "src_boyle_mulraine",
+      "kind": "institution",
+      "title": "James Mulraine (Historical Portraits, London), 'The Shannon Portrait of the Hon. Robert Boyle', note hosted on the Robert Boyle Project website (boyle.bbk.ac.uk), read in full -- dealer/curatorial note on the Kerseboom portrait: derives from a 1689 sitting, described in R.E.W. Maddison's 1959 portraiture study; Boyle disliked sitting for his portrait; the version had descended in the Earls of Shannon family since 1692. Used for portrait provenance only.",
+      "url": "https://boyle.bbk.ac.uk/media/pdf/TheShannonPortraitOfTheHonRobertBoyle.pdf"
+    },
+    {
+      "id": "src_boyle_muir1911",
+      "kind": "biography",
+      "title": "M. M. Pattison Muir, Introduction to Robert Boyle, The Sceptical Chymist (Everyman's Library; London: J. M. Dent, 1911; text of 1661 work), Internet Archive full text (scepticalchymist00boylrich) -- chemist-historian's early-20th-century account of the argument of the book, with the dialogue between Carneades (Boyle's voice) and Themistius, read in the introduction plus selected passages of the text.",
+      "url": "https://archive.org/details/scepticalchymist00boylrich"
+    },
+    {
+      "id": "src_boyle_evelyn",
+      "kind": "archive",
+      "title": "John Evelyn, Diary (entries 1659-1692), Internet Archive full text of the Bohn/Bray edition (diaryofjohnevely00eveliala) -- first-hand diary of a friend and fellow member of the Royal Society, independent of Birch and Hunter. Read locally for every Boyle entry: the 12 April 1656 dinner at Sayes Court, the 1 September 1659 college proposal, the visit of 7 September 1660 to see the pneumatic engine perform experiments, the 7 May 1662 Royal Society trials in Boyle's vacuum before Prince Rupert, the 30 November 1680 election, his death and funeral (1692) and Evelyn's trusteeship of the bequest.",
+      "url": "https://archive.org/details/diaryofjohnevely00eveliala"
+    },
+    {
+      "id": "src_boyle_hunterknight_blood",
+      "kind": "archive",
+      "title": "Michael Hunter and Harriet Knight (eds), 'Unpublished Material relating to Robert Boyle's Memoirs for the Natural History of Human Blood', Robert Boyle Project Occasional Papers No. 2 (Birkbeck, University of London, 2005), PDF; the editors' introduction was read in full (about 12 pages) and the document descriptions in part -- scholarly edition of archive manuscripts: Boyle began revising the 1684 book within months of publication, citing Malpighi's response, expanding his 'heads' from 30 to 45 titles and re-sorting experiments he found 'disperst in a Chaos'; also records A. Rupert Hall's and Johannes Buttner's critical assessments of the book as unsystematic and untimely.",
+      "url": "https://boyle.bbk.ac.uk/media/pdf/BOYLE_Blood_Revise4.pdf"
+    },
+    {
+      "id": "src_boyle_hunter_heads",
+      "kind": "archive",
+      "title": "Michael Hunter (ed.), 'Robert Boyle's Heads and Inquiries', Robert Boyle Project Occasional Papers No. 1 (Birkbeck, University of London, 2005), PDF; introduction read in full (about 4 pages) and the contents list -- scholarly edition of Boyle's manuscript lists of topics for investigation (volatile salts, elasticity, electricity, the sea, gems, disease, flame, damps) and his Baconian practice of compiling such lists to organise data and solicit information from others.",
+      "url": "https://boyle.bbk.ac.uk/media/pdf/BOYLE_Heads_Revise3.pdf"
+    },
+    {
+      "id": "src_boyle_wikipedia",
+      "kind": "wikipedia",
+      "title": "Robert Boyle -- Wikipedia article (raw text), skimmed as orientation only; not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Robert_Boyle"
+    },
+    {
+      "id": "src_boyle_wp_leviathan",
+      "kind": "wikipedia",
+      "title": "Leviathan and the Air-Pump -- Wikipedia article summarising Shapin and Schaffer's 1985 book (Hobbes's criticisms of Boyle's experimental programme and the 'matter of fact' and witnessing practices), read as orientation only to place the adversarial perspective; the book itself was not accessible, and nothing here is used as support for a scored row.",
+      "url": "https://en.wikipedia.org/wiki/Leviathan_and_the_Air-Pump"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_boyle_hunter_intro, src_boyle_birch1744, src_boyle_sep, src_boyle_evelyn, src_boyle_works_self | 1649-1662 | scholarly secondary, early biography, scholarly encyclopedia, contemporary diary, self account] Four distinct episodes. (1) He set up a working laboratory at Stalbridge in 1649 and by his own initiative took up chemical trials and microscope observation (Hunter). (2) About 1658-59 he had an air pump contrived with Robert Hooke after the German engine proved to need two strong men for hours and to admit no objects, and after 'an unsuccessful trial or two of ways proposed by others' (Boyle's own 1660 account; Birch dates the pump to Oxford), then ran trials on flame, sound and animals; Evelyn saw the engine perform experiments on 7 September 1660 and the Royal Society tried experiments in it on 7 May 1662. (3) In the 1662 Defence, lacking a mountain, he improvised a water weather-glass lowered from the Westminster Abbey leads and recorded that wind and a broken glass spoiled a clean result, and had correspondents repeat the trials on hills (self). (4) After Townley suggested an inverse relation he designed the J-tube compression and expansion trials (Anstey). Independent scholars (Hunter, Anstey) agree on the pattern; kept at 80, not higher, because the episodes cluster in one 1659-62 programme."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boyle_hunter_intro, src_boyle_hunter_heads, src_boyle_aubrey1898, src_boyle_birch1744 | 1649-1691 | scholarly secondary, scholarly edition of manuscripts, first-hand acquaintance, early biography] Several separate documented signs: his lists of 'heads' and inquiries range from volatile salts, elasticity, electricity and luminosity to the sea, gems, disease and 'damps' and were also published to draw in information from others (Hunter, editor of the manuscripts, speaks of 'his curiosity'); Hunter describes him as insatiable in collecting information and willing to take unusual reported phenomena seriously until shown not to exist; Aubrey, who knew him, writes that he 'will not spare for cost to gett any rare secret' from foreign chemists. Not 80+ because the evidence is a pattern of interests, not a single directly quoted question-asking episode."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boyle_muir1911, src_boyle_sep, src_boyle_works_self, src_boyle_birch1744 | 1661-1662 | early-20th-century chemist-historian, scholarly encyclopedia, self account, early biography] Two documented analyses. (1) In The Sceptical Chymist (1661) he takes the Aristotelian elements and the Paracelsian three principles in turn, demands a definition of what is meant by 'element' or 'principle' (Muir quotes his own definition), and tests the supporting experiments one by one; Muir also notes that he found no satisfactory test of elementariness and was not satisfied with his own suggestions. (2) In the 1662 Defence he examines Linus's funicular hypothesis and Hobbes's Dialogus Physicus point by point, including whether the rarefaction and condensation it requires is intelligible (self; Birch). Rated in the 70s, below 80, because the book is chiefly negative critique and the logical analysis is described by secondary authors rather than checked against an independent reconstruction."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boyle_hunter_intro, src_boyle_birch1744, src_boyle_works_self | 1660-1662 | scholarly secondary, early biography, self account] Three documented practices. (1) Hunter reports that in New Experiments and later works he 'went to great pains' to give a detailed account of his trials so others could follow the procedure, and that his precision in observing outcomes was unprecedented. (2) Birch says he kept 'very exact registers' of experiments. (3) His own 1662 report of the Westminster Abbey trial gives the marked water stations, repeats, the effect of wind, the broken pipe and a note that further examination was needed. Not above 75 because a manuscript-level check of his notes was not made and Hunter notes that the later works are patchwork compilations."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boyle_birch1744, src_boyle_muir1911, src_boyle_hunter_intro | c.1650-1666 | early biography, chemist-historian, scholarly secondary] Birch reports that he would acquiesce in no single man's hypothesis and for many years did not read Descartes's Principles lest he be biased, while rejecting the Aristotelian approach as words; Muir shows The Sceptical Chymist rejecting both the Aristotelian elements and the fashionable Paracelsian principles; Hunter states that his intellectual evolution was more independent of the Hartlib circle than has been thought and that he was 'independent and eclectic' in his relations with the establishment. Three separate authors; the Descartes claim comes from Birch alone, so confidence stays below 0.65."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boyle_hunterknight_blood, src_boyle_sep, src_boyle_works_self, src_boyle_hunter_intro | 1662-1691 | scholarly edition of manuscripts, scholarly encyclopedia, self account, scholarly secondary] Two or more documented instances of revising his position in response to others. (1) Within months of publishing Human Blood (1684) he began a revised edition, expanded his heads from 30 to 45 titles and cited the Italian physician Malpighi's response as the stimulus (Hunter and Knight). (2) In 1662 he acknowledged that Townley's inverse-proportion suggestion was one he had not reduced to a hypothesis and built new trials on it (his text; Anstey). (3) He devoted two essays in Certain Physiological Essays (1661) to unsuccessful experiments (Hunter). Mid-60s only: the revision of the blood book never reached print, and Hunter records that Huygens and Leibniz criticised his reluctance to commit to conclusions."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boyle_works_self, src_boyle_birch1744, src_boyle_hunter_intro, src_boyle_hunter_heads, src_boyle_evelyn | 1656-1680 | self account, early biography, scholarly secondary, scholarly edition, contemporary diary] Distinct documented practices of working with others. He named Hooke as the person who fitted him with a pump and described the earlier German engine as recorded by Schott (1660 text); Hunter reports he said Hooke 'made him understand Des Cartes' and helped in crucial experiments; he credited Townley for the pressure-volume idea and Ball and Townley for hill trials (1662 text); he joined the Oxford group around Wilkins and attended the first Royal Society meeting on 28 November 1660 (Hunter); his heads were designed to solicit data from others (Hunter, editor of the manuscripts); Evelyn's diary records Royal Society trials using his vacuum. Limits: the secondary scholarship that stresses how little credit assistants received (the Shapin and Schaffer line) was seen only in summary, and no Hooke source was read, so the balance of credit is not settled."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boyle_hunter_heads, src_boyle_hunterknight_blood, src_boyle_sep, src_boyle_hunter_intro | 1660s-1691 | scholarly editions of manuscripts, scholarly encyclopedia, scholarly secondary] Documented lists of designed experiments and titles: manuscript 'heads' and inquiries from the 1660s on diverse subjects, published inquiry lists in the Philosophical Transactions, 'Designed Experiments for the History of Human Blood' and a planned second edition in the 1680s, and his coined category of 'exploratory experiments' with deliberately designed outcomes (Anstey). The heads were used as an agenda for investigation (Hunter). Kept in the 60s because Hunter and Knight also record that his printed blood book was unsystematic and untimely, and Hunter that he left many plans unpublished."
+    },
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boyle_hunter_intro, src_boyle_sep, src_boyle_birch1744, src_boyle_aubrey1898 | 1649-1691 | scholarly secondary, scholarly encyclopedia, early biography, first-hand acquaintance] Documented publication across pneumatics, hydrostatics, chemistry, colour, cold, animal physiology and blood (Hunter, Anstey), alongside medical work and, per Birch, sustained study of several languages, plus, in Hunter's account, philosophy and theology. Independent authors converge on breadth of work (not only interests). Not above the 70s because much of the range is catalogued by Hunter as compiled from reports of others and because philosophical and theological writing is excluded as a trait source here."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_boyle_hunter_intro, src_boyle_sep, src_boyle_muir1911, src_boyle_works_self | 1661-1691 | scholarly secondary, scholarly encyclopedia, chemist-historian, self account] Documented willingness to leave open questions open: Hunter says he was hostile to premature systematisation, showed reluctance to draw conclusions (criticised by Huygens and Leibniz) and gave priority to establishing whether strange phenomena existed over dismissing them; Anstey notes he did not claim the pressure-volume ratio held in extreme cases or without limit to compression; Muir records him rejecting every proposed test of 'element' and not being satisfied with his own. Marked dual-edged because the same stance left works compiled rather than systematised."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boyle_works_self, src_boyle_birch1744, src_boyle_hunter_intro | 1658-1662 | self account, early biography, scholarly secondary] Two documented workarounds: after the German engine's two defects he set Hooke and another to contrive a new pump, with an arm-hole in the receiver based on his earlier home-made glass with an opening (1660 text; Birch and Hunter agree Hooke helped), and in 1662 he improvised a weather-glass test from the Abbey leads when few had access to hills. Both rest largely on his own account, so confidence is held under 0.5."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로버트 보일"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q43393 returned en label Robert Boyle, description Anglo-Irish natural philosopher, chemist, physicist, and inventor (1627-1691), ko label 로버트 보일, P569 25 Jan 1627 (with a second 1626 value present), P570 31 Dec 1691, instance of human, P27 Kingdom of Ireland. SLUG CHECK: not in scratch/prod_slugs.txt, no prior candidate file or portrait. CLASSIFICATION: occupations chemist, physicist, philosopher; fieldIds chemistry and physics (both have field.* keys; philosophy deliberately omitted, since the scored behaviours are experimental); region western_europe (British/Irish precedent; Newton and others); nationality codes GB and IE (born at Lismore, Ireland, lived mostly in England); era early_modern as Newton. EVIDENCE READ (13 source records: 4 orientation or not used for rows (Wikidata, Wikipedia x2, Mulraine portrait note) and 9 substantive): Birch 1744 Life (Internet Archive, long-s OCR, read by passage), Aubrey Brief Lives entry (full), Anstey SEP (full), Boyle own New Experiments 1660 / Defence 1662 incl. the Examen of Hobbes opening, and the Philaretus autobiography (by grep and passages), Hunter Robert Boyle Project introduction and timeline (full), Hunter and Knight Human Blood occasional paper (introduction full), Hunter Heads and Inquiries (introduction full), Evelyn Diary (all Boyle entries), Muir 1911 introduction to The Sceptical Chymist (full introduction). NOT ACCESSED: Hunter Boyle Between God and Science (2009), Shapin and Schaffer Leviathan and the Air-Pump (1985) (only a Wikipedia summary was read, as orientation), Principe The Aspiring Adept, Maddison 1969, Hooke diary and Waller life of Hooke, Hobbes Dialogus Physicus itself (Hobbes is read only through Boyle quotations and Hunter), Linus original, Philosophical Transactions. PERSPECTIVES: Birch (early biography, partly from Burnet funeral sermon, admiring); Aubrey and Evelyn (contemporary first-hand, independent of each other and of Birch); Hunter and Hunter-Knight (modern scholarly, independent); Anstey (modern philosophy scholarship, independent); Muir (1911 chemist-historian, whiggish); adversarial perspective only second-hand (Hobbes, Linus via Boyle own text; Huygens, Leibniz, Hall and Buttner via Hunter and Hunter-Knight). Self source: Boyle own works, never the sole support. EPISODES: pump with Hooke, Abbey trial, Townley and J-tube -> experimentation (cluster 1659-62, main independence limit); Sceptical Chymist and Defence -> analytical_rigor; Stalbridge 1649 and Heads -> curiosity; blood revision with Malpighi, Townley credit, unsuccessful-experiments essays -> belief_updating; Hooke, Townley, Ball, Royal Society -> collaboration. ROWS CONSIDERED AND LEFT UNSCORED: autonomy_need and leadership_drive (his refusals of ordination, of a peerage, of the 1665 Eton provostship and of the 1680 Royal Society presidency were stated as matters of conscience about oaths and religion, and theology is not a trait source), impact_motivation (charity, Arabic and Irish bibles, missionary patronage come mostly from Birch/Burnet and are treated as incidental), conflict_tolerance (his replies to Hobbes and Linus were detailed but he wrote of a natural indisposedness to contention; evidence mixed, unscored), persistence, discipline, mastery_orientation (hagiographic character passages from Burnet via Birch only), creative_originality (credit for pump, law and ideas is shared with Hooke, Guericke and Townley), systems_abstraction, perfectionism, proactive_agency. EXCLUDED ON PURPOSE: fame, aristocratic family and politics, health and eyesight, religious devotion, East India Company shares, alchemy as belief (including the 1689 repeal of the statute against multiplying metals), will and charity amounts. CALIBRATION: 11 rows, scores 60-80, confidence 0.48-0.68, nothing at 85 or 0.70. No eligibility figures were used to tune scores (an incidental validator line was seen only after scoring was final). PORTRAIT: Wikidata P18 lists The Shannon Portrait of the Hon Robert Boyle.jpg; Commons wikitext (artwork Q36688079): Johann Kerseboom, 1689, source digital.sciencehistory.org/works/3r074v879, permission Science History Institute cooperation, PD-Art-old-100-1923. Upstream item page read directly (not bot-walled): Science History Institute Digital Collections, oil on canvas 127.0 x 101.6 cm, Rights Public Domain Mark 1.0, credit line Courtesy of Science History Institute, institutional location Museum, no conflicting copyright or rightsholder notice. Basis: a 1689 painting by an artist who died in 1708, in a museum collection that itself marks it Public Domain, so rights are clear on both the work and the institution sides. Provenance (Mulraine, Historical Portraits): a Kerseboom autograph version derived from a 1689 sitting (Maddison 1959), in the Earls of Shannon family from 1692, formerly in an Irish private collection; Boyle disliked sitting for portraits. CAVEATS: this is one of several versions from the 1689 sitting (the Royal Society also holds one); the signature-style inscription Ob 30 Dec 1691 on the canvas shows a posthumous addition; it is classed as likeness (painter from life, contemporary version), not verified at the Maddison catalogue level. The Wellcome M0006615 image (CC BY 4.0) was skipped as instructed. Downloaded the SHI full-size JPG 3327x4200, downsized once to 1267x1600 (long edge 1600) with Pillow q85, no crop; viewed and verified. KOREAN NAME: 로버트 보일 is the Wikidata ko label. EDITORIAL DRAFT: scratch/editorial/robert-boyle.json (4 achievements, 2 moments, 1 turning point)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/robert-boyle-kerseboom-1689.jpg",
+    "width": 1267,
+    "height": 1600,
+    "source": "Science History Institute (Philadelphia) Digital Collections, \"The Shannon Portrait of the Hon. Robert Boyle F. R. S. (1627-1691)\", oil on canvas, 127.0 x 101.6 cm, institutional location Museum; via Wikimedia Commons \"The Shannon Portrait of the Hon Robert Boyle.jpg\"",
+    "license": "Public domain (Public Domain Mark 1.0)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Johann Kerseboom, The Shannon Portrait of the Hon. Robert Boyle F. R. S., oil on canvas, 1689; courtesy of Science History Institute, Philadelphia (Rights: Public Domain Mark 1.0)",
+    "attributionUrl": "https://digital.sciencehistory.org/works/3r074v879",
+    "creator": "Johann Kerseboom",
+    "date": "1689",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg"
+  }
+}

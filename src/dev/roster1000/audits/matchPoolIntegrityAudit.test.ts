@@ -36,7 +36,7 @@ describe("match-pool integrity audit: cohort counts", () => {
 
   it("classifies every production person exactly once", () => {
     expect(inventory).toHaveLength(SEED_PEOPLE.length);
-    expect(inventory).toHaveLength(393);
+    expect(inventory).toHaveLength(408);
   });
 
   it("matches the live production/directory/eligible counts", () => {
@@ -82,7 +82,7 @@ describe("match-pool integrity audit: cohort counts", () => {
     // Roster42 (2026-10-05, docs/checkpoints/roster42.md) repeats it a
     // tenth time: 14 new, freshly researched people, none match-eligible --
     // directory-visible rose 349->363, match-eligible held at 114.
-    expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(392);
+    expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(407);
     expect(inventory.filter((r) => r.isMatchEligible)).toHaveLength(114);
   });
 
@@ -132,7 +132,7 @@ describe("match-pool integrity audit: lineage classification", () => {
     const map = buildLineageMap();
     for (const p of SEED_PEOPLE) {
       const lineage = classifyLineage(p.slug);
-      expect(lineage).toMatch(/^roster(1|[2-9]|1[0-6]|2[4-9]|3[0-9]|4[0-4])$/);
+      expect(lineage).toMatch(/^roster(1|[2-9]|1[0-6]|2[4-9]|3[0-9]|4[0-5])$/);
       if (lineage !== "roster1") {
         expect(map.get(p.slug)).toBe(lineage);
       } else {

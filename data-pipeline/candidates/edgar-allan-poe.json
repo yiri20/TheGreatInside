@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edgar-allan-poe",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Edgar Allan Poe",
+    "wikidataId": "Q16867",
+    "birthYear": 1809,
+    "deathYear": 1849,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "poet",
+      "editor"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "independent",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_poe_wikidata",
+      "kind": "wikidata",
+      "title": "Edgar Allan Poe (Q16867) -- verified live via Special:EntityData (2026-10-08): en label 'Edgar Allan Poe', description 'American writer and literary critic (1809-1849)', born 1809-01-19, died 1849-10-07, ko label '에드거 앨런 포'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q16867"
+    },
+    {
+      "id": "src_poe_woodberry1",
+      "kind": "biography",
+      "title": "George E. Woodberry (Columbia literature professor), 'The Life of Edgar Allan Poe, Personal and Literary', vol. 1 (Houghton Mifflin, 1909; Internet Archive scan lifeofedgarallan0000geor) -- SCHOLARLY but period biography (Poe's first serious biographer, partly sympathetic, partly moralising; it prints much of Poe's correspondence). Read chapters V-VII selectively (Southern Literary Messenger years 1835-37, the Burton's Gentleman's Magazine quarrel of 1840, the Graham's period and the 1841 cryptography and Barnaby Rudge papers); its remarks on drinking and temperament were deliberately NOT used.",
+      "url": "https://archive.org/details/lifeofedgarallan0000geor"
+    },
+    {
+      "id": "src_poe_woodberry2",
+      "kind": "biography",
+      "title": "George E. Woodberry, 'The Life of Edgar Allan Poe, Personal and Literary', vol. 2 (Houghton Mifflin, 1909; Internet Archive scan lifeedgarallanp00unkngoog) -- same period biography, vol. 2. Read the chapters on the Stylus plan (1843), 'The Raven' and the Broadway Journal, 'The Literati' (the 1846 quarrel with Thomas Dunn English and the libel suit), Eureka (1848 lecture) and the Notes; Poe's own letters are quoted extensively and are counted as a separate self source below. Its speculation about drinking and illness was NOT used.",
+      "url": "https://archive.org/details/lifeedgarallanp00unkngoog"
+    },
+    {
+      "id": "src_poe_mabbott1969",
+      "kind": "biography",
+      "title": "Thomas Ollive Mabbott (Poe's modern scholarly editor), 'Annals', in The Collected Works of Edgar Allan Poe, vol. I: Poems (Harvard/Belknap, 1969), pp. 529-572, text hosted by the Edgar Allan Poe Society of Baltimore -- concise scholarly chronology of Poe's life and editorial posts, independent of Woodberry. Read in full; its remarks on his habits and the circumstances of his death were not used.",
+      "url": "https://www.eapoe.org/works/mabbott/tom1p118.htm"
+    },
+    {
+      "id": "src_poe_lowell1845",
+      "kind": "press",
+      "title": "James Russell Lowell, notice of Poe's life and writings, first printed in Graham's Magazine (February 1845) and reprinted with alterations in The Works of the Late Edgar Allan Poe, vol. 1 (J. S. Redfield, New York, 1850; Internet Archive poeworks01) -- CONTEMPORARY FRIEND and fellow poet; written at Poe's own request, so partial; includes the judgment of Poe as a critic ('scientific precision and coherence of logic') and as an analytic writer. Read in full.",
+      "url": "https://archive.org/details/poeworks01"
+    },
+    {
+      "id": "src_poe_willis1849",
+      "kind": "press",
+      "title": "N. P. Willis (editor of the Evening Mirror and Home Journal), 'Death of Edgar A. Poe' (Home Journal, October 1849), as reprinted in The Works of the Late Edgar Allan Poe, vol. 1 (Redfield, 1850) -- FIRSTHAND employer's account of Poe as critic and sub-editor at the Evening Mirror (1844-45); friendly to Poe and written in reply to Griswold's obituary. Read in full; the passages on drinking and 'insanity' (hearsay) were not used.",
+      "url": "https://archive.org/details/poeworks01"
+    },
+    {
+      "id": "src_poe_griswold1849",
+      "kind": "press",
+      "title": "Rufus W. Griswold, unsigned obituary of Poe, New-York Tribune (October 1849), as quoted in Willis's notice in The Works of the Late Edgar Allan Poe, vol. 1 (Redfield, 1850) -- HOSTILE, unreliable source (Griswold, Poe's rival and self-appointed literary executor, later shown to have distorted Poe's biography). Used ONLY to document the post-death fight over Poe's reputation; it supports no scored row and none of its characterisations is repeated.",
+      "url": "https://archive.org/details/poeworks01"
+    },
+    {
+      "id": "src_poe_neal1850",
+      "kind": "press",
+      "title": "John Neal (Portland writer and early champion of Poe's poems), 'Edgar A. Poe', Daily Advertiser (Portland, Maine), 26 April 1850, hosted by the Edgar Allan Poe Society of Baltimore -- sympathetic contemporary who never met Poe, defending him against Griswold; used for its view that Poe's magazine ventures were commercially unrealistic and for the reputation fight. Read in full.",
+      "url": "https://www.eapoe.org/papers/misc1827/18500426.htm"
+    },
+    {
+      "id": "src_poe_briggs1846",
+      "kind": "press",
+      "title": "Charles F. Briggs (Poe's former co-editor at the Broadway Journal), 'Mr. Poe and the New York Literati', Evening Mirror (New York), 26 May 1846, hosted by the Edgar Allan Poe Society of Baltimore -- ADVERSARIAL contemporary review of Poe's 'Literati' papers (disputes their fairness and independence and attacks Poe personally; its personal remarks were not used). Read in full.",
+      "url": "https://www.eapoe.org/papers/misc1827/18460530.htm"
+    },
+    {
+      "id": "src_poe_english1846",
+      "kind": "press",
+      "title": "Thomas Dunn English (writer and former associate of Poe), 'A Card: Mr. English's Reply to Mr. Poe', Evening Mirror (New York), 23 June 1846, hosted by the Edgar Allan Poe Society of Baltimore -- HOSTILE contemporary counter-attack in the 1846 'Literati' quarrel; its accusations (money, conduct, drinking) are contested and were not used as evidence of any trait, only to document that the dispute and Poe's published reply happened. Read in full.",
+      "url": "https://www.eapoe.org/papers/misc1827/18460623.htm"
+    },
+    {
+      "id": "src_poe_philosophy1846",
+      "kind": "archive",
+      "title": "Edgar A. Poe, 'The Philosophy of Composition' (Graham's Magazine, April 1846), as printed in The Works of the Late Edgar Allan Poe, vol. 2 (Redfield, 1850; Internet Archive poeworks02) -- SELF source: Poe's own account of how he claims to have composed 'The Raven'. Read the opening pages in full; the later analysis of the poem was skimmed. Not used as the sole support for any row, and whether it truthfully records his procedure is disputed.",
+      "url": "https://archive.org/details/poeworks02"
+    },
+    {
+      "id": "src_poe_letters",
+      "kind": "archive",
+      "title": "Edgar A. Poe's own letters to John P. Kennedy (1835-36), F. W. Thomas (1843), James Russell Lowell (1843) and others, as printed in Woodberry's 'Life' (1909) -- SELF source, a single perspective; used only for dated statements of his plans (editorial control, the Stylus partnership) and never alone.",
+      "url": "https://archive.org/details/lifeedgarallanp00unkngoog"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_poe_philosophy1846, src_poe_woodberry2, src_poe_mabbott1969, src_poe_lowell1845, src_poe_briggs1846 | 1835-1846 | self + period biography + modern editor + friendly contemporary + adversarial contemporary] In the 1843 Stylus prospectus Poe announced a journal of 'a sincere and fearless opinion' (Woodberry quotes it) and, as a reviewer for the Southern Literary Messenger from 1835, 'rivaled the severity of the British reviewers' and became involved in controversies (Mabbott). In 1846 he published an analysis of his own working method that rejects the prevailing notion of poets composing by 'a species of fine frenzy' (his own text). Lowell, a friend, says his criticism stood in 'refreshing contrast with the vague generalisms and sharp personalities of the day' and was 'without the heat of partizanship'. Briggs (hostile, 1846) says he had 'never seen so small an amount' of independence in the Literati papers, charging toadying in some notices and personal malice in others -- a contested point that holds the score and confidence down. dual_edged: the stance made him distinctive and fed repeated quarrels. Self evidence is never the sole basis; three outside voices bear on the stance."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_poe_woodberry2, src_poe_mabbott1969, src_poe_briggs1846, src_poe_english1846, src_poe_willis1849 | 1840-1847 | period biography + modern editor + two hostile contemporaries + employer] In 1846 Poe's Literati sketches in Godey's drew public attacks from Briggs and from Thomas Dunn English; Poe replied in print (published in the Philadelphia Spirit of the Times, 10 July 1846) and on 23 July 1846 sued the Evening Mirror's editor Hiram Fuller and proprietor Augustus Clason for libel, winning $225 in damages on 17 February 1847 (Mabbott and Woodberry agree on the date and amount; Briggs's and English's own texts confirm the public dispute). In 1840 he left Burton's Gentleman's Magazine in a quarrel in which he accused Burton of advertising prizes he did not mean to pay, while Burton circulated hostile reports (Woodberry; the merits are contested). Counter-evidence: Willis, his employer at the Mirror in 1844-45, says Poe 'readily and courteously assented' when asked to soften a harsh review, so he was not uniformly combative. Several dated instances from independent and hostile sources, but the merits are contested and one source is a friend, hence moderate."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_poe_lowell1845, src_poe_woodberry1, src_poe_mabbott1969, src_poe_philosophy1846 | 1839-1846 | friendly contemporary + period biography + modern editor + self] Lowell credits him with 'a faculty of vigorous yet minute analysis' and says his criticism had 'scientific precision and coherence of logic' while finding it 'aesthetically deficient' (a balanced judgment from a friend). Mabbott records that in 1839-40 Poe wrote a series in Alexander's Weekly Messenger that included his first solutions of cryptograms submitted by readers, and Woodberry adds that in 1841 he again 'received and translated several intricate cryptographs' in Graham's and published an analysis of the plot of Barnaby Rudge from its opening chapters (reported secondhand: 'Dickens is said to have been so surprised'). Woodberry cautions that the detective tales show constructive invention more than true analysis, so the rigor is credited to the criticism and cipher columns, not to the fiction. In 1846 he also published a step-by-step account of how he says a poem is built (self; its accuracy is disputed). Multiple independent documented instances; capped because Lowell was a friend and the Dickens anecdote is reported secondhand."
+    },
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_poe_mabbott1969, src_poe_lowell1845, src_poe_philosophy1846 | 1839-1846 | modern editor + friendly contemporary + self] Mabbott judges 'The Murders in the Rue Morgue' (Graham's, April 1841) 'if not actually the first detective story ever written' the first 'consciously composed as such' and the ancestor of all that followed; Lowell says Poe had 'done that which could only be done once with success or safety' and that his tales' strength lay in building mystery and terror into 'art, not artifice'; in 1846 Poe wrote that he keeps 'originality always in view' in choosing an effect (self). These are editorial and critical judgments about the work plus one self-declared aim, not a count of outputs, and they come from admirers; no independent behavioural account of how the originality arose was found, hence strong_inference at moderate confidence."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_poe_woodberry2, src_poe_mabbott1969, src_poe_letters, src_poe_neal1850 | 1840-1849 | period biography + modern editor + self letters + sympathetic contemporary] Poe pursued his own magazine for nearly a decade: the Penn Magazine prospectus of 1840-41, the Stylus prospectus of 4 March 1843 (with a partner, a half interest and a signed contract with the illustrator F. O. C. Darley), the plan's collapse by June 1843 ('my Magazine scheme has exploded', his letter to Lowell), a renewed Stylus prospectus in January and April 1848 backed by a fund-raising lecture, and fresh correspondence about it with E. H. N. Patterson in 1849 (Woodberry, Mabbott). Neal, a sympathetic contemporary, thought these ventures commercially unrealistic from the start, which marks the persistence as dual_edged. The venture never launched, so the evidence is of effort over time, not success; the Eureka lecture episode (Feb 1848) is held to this row and proactive_agency only."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_poe_woodberry2, src_poe_mabbott1969, src_poe_letters | 1843-1848 | period biography + modern editor + self letters] Rather than waiting for editors' offers, Poe repeatedly created his own routes: in Feb 1843 he wrote that he had secured a partner for the Stylus and arranged illustrations in advance (self letter to F. W. Thomas, in Woodberry); on 25 October 1845 the Broadway Journal's masthead read 'Edgar A. Poe, Editor and Proprietor' after he bought the paper, borrowing money from several friends to do so (Mabbott; the paper's last number appeared 3 January 1846, per Woodberry); in February 1845 he lectured on American poetry at the New-York Historical Society to test his new popularity (Woodberry); on 3 February 1848 he advertised a lecture on the universe, with Willis's help, to raise money for the Stylus (Woodberry; about sixty came on a stormy night). Several dated, separately sourced initiatives; not scored higher because the main ventures did not succeed and the dates come from two compilers."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_poe_letters, src_poe_woodberry1, src_poe_woodberry2, src_poe_mabbott1969, src_poe_willis1849 | 1836-1848 | self letters + period biography + modern editor + employer] In 1843 Poe wrote that he had found 'a partner possessing ample capital, and, at the same time, so little self-esteem as to allow me entire control of the editorial conduct' (letter, in Woodberry). Woodberry argues that by 1836-37 Poe was 'irked' by working under Thomas W. White without a share in the profits and wanted to own a magazine; the Stylus plans and the 1845 purchase of the Broadway Journal (Mabbott) fit that aim. Willis adds that Poe 'voluntarily gave up' his place at the Mirror on a prospect of leading another periodical. The period biography supplies the motive reading for 1836-37; the later steps are independently documented as actions. dual_edged: it drove his projects and left him without secure employment."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/edgar-allan-poe-unknown-1849.jpg",
+    "width": 1236,
+    "height": 1600,
+    "source": "J. Paul Getty Museum, Los Angeles, 'Portrait of Edgar Allan Poe' (the 'Annie' daguerreotype), accession 84.XT.957, Open Content digital image via the Getty IIIF service",
+    "license": "Public domain (daguerreotype by an unknown American maker, late May-early June 1849; Getty collection record: Public Domain / No Copyright)",
+    "licenseUrl": "https://www.getty.edu/art/collection/object/1040HX",
+    "attribution": "Unknown maker, American, Portrait of Edgar Allan Poe, late May-early June 1849, daguerreotype, 84.XT.957, J. Paul Getty Museum, Los Angeles",
+    "attributionUrl": "https://www.getty.edu/art/collection/object/1040HX",
+    "creator": "Unknown maker, American",
+    "date": "1849-06",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.getty.edu/art/collection/object/1040HX"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에드거 앨런 포"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster45 candidate. QID VERIFIED LIVE: Wikidata Special:EntityData for Q16867 (2026-10-08) returned en label 'Edgar Allan Poe', description 'American writer and literary critic (1809-1849)', born 1809-01-19, died 1849-10-07, ko label '에드거 앨런 포' (also the kowiki title), P18 'Edgar Allan Poe, circa 1849, restored, squared off.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt; no data-pipeline/candidates/edgar-allan-poe.json existed before this run. CLASSIFICATION PRECEDENT: era 19th_century, nationality US, region north_america, field literature, impact domains literary and cultural as mark-twain, herman-melville and emily-dickinson; occupations writer, poet and editor are existing occupation.* ids ('critic' has no occupation.* key; 'journalism' was not added because the evidence concerns magazine editing and reviewing as part of literary work, as for the other literature entries); tags independent and craft_focused and archetypes creative_creator and independent_creator exist in en.ts/archetypes. EVIDENCE READ (11 source records incl. 1 orientation, 1 hostile 'reputation-only' record and 1 self-letters record; 8 substantive for scoring): Woodberry's two-volume Life (1909; chapters on the Southern Literary Messenger, Burton's, Graham's, the Stylus, 'The Raven', the Broadway Journal, 'The Literati', Eureka read selectively; downloaded to scratch/work/edgar-allan-poe and read locally by passage); Mabbott's 'Annals' (1969, read in full); Lowell's 1845 notice, Willis's 1849 'Death of Edgar A. Poe' and Griswold's Tribune obituary (all as reprinted in the 1850 Works, vol. 1); Neal's 1850 Portland article (read in full); Briggs's 26 May 1846 review of the Literati papers (read in full); English's 23 June 1846 'Card' (read in full); Poe's 'Philosophy of Composition' (opening pages). PERSPECTIVES: (1) SELF: Poe's letters (as printed in Woodberry) and his essay, never sole support; (2) period scholarly biographer: Woodberry (partly moralising); (3) modern scholarly editor: Mabbott (independent of Woodberry); (4) friendly contemporaries: Lowell (wrote at Poe's request), Willis (employer, firsthand), Neal (never met Poe); (5) ADVERSARIAL contemporaries: Briggs and English (1846); (6) HOSTILE posthumous: Griswold (used only to document the reputation fight). NON-SELF behavioural sources: Willis, Woodberry, Mabbott, Briggs and English (for the existence of the 1846 dispute), Lowell. NOT AVAILABLE / NOT READ: Arthur Hobson Quinn's 1941 critical biography, Kenneth Silverman's 1991 biography and Jeffrey Meyers's biography exist only as lending copies with no accessible full text and were NOT read; Mabbott's full Collected Works beyond the 'Annals' and the Ostrom edition of the letters were not read; Griswold's long 1850 'Memoir' was not opened (only his short Tribune obituary as quoted by Willis); the Poe Log (eapoe.org) was not used; Hawthorne's remarks on Poe were not read. Web-search summaries were not used. EPISODE USE (no episode supports more than two rows): the 1846 Literati quarrel and Mirror libel suit -> conflict_tolerance (independent_thinking cites only the Briggs charge as counter-evidence and the stated policy of 'fearless opinion', not the suit); the Messenger, Burton's and Graham's editorial years -> independent_thinking, analytical_rigor, conflict_tolerance (Burton quarrel only); the cryptography columns and Barnaby Rudge paper -> analytical_rigor only; 'Rue Morgue' and Lowell's assessment -> creative_originality only; the Stylus plan 1840-49 and Eureka lecture -> persistence, proactive_agency (autonomy_need uses the 1843 'entire control' letter and the 1836-37 departure, a different strand); the 1845 Broadway Journal purchase -> proactive_agency, autonomy_need. ROWS CONSIDERED AND LEFT UNSCORED: discipline and execution_speed (the sources that speak to his reliability as editor tie lapses to drinking, which was excluded; Willis calls him punctual and industrious for months but that is one friendly witness); detail_orientation and perfectionism (Darley's recollection of neat manuscripts is about presentation; Poe's own letter calls 'The Descent into the Maelstrom' finished in a hurry, so mixed); persuasiveness and social_assertiveness (lectures drew audiences of 300 and about 60 and the Boston Lyceum reading of 1845 went badly; mixed and partly reported by hostile or hearsay sources); competitiveness (rivalry with Longfellow/Griswold and the 'Little Longfellow War' not read in primary form); collaboration (co-editorships with Burton, Briggs, Watson ended in quarrels but the accounts are partisan); resourcefulness (taking $50 to lend his name to The Conchologist's First Book in 1839 per Mabbott is one hack-work episode); aesthetic_sensitivity, curiosity, mastery_orientation, planning_orientation (rest on Poe's self-description of method or on literary criticism of his poems rather than behavioural accounts); risk_tolerance (his finances are an event, not a documented choice pattern); belief_updating (no on-point evidence found). EXCLUDED ON PURPOSE: all alcohol and drug allegations (Woodberry, Willis, English, Briggs, Burton, Getty text) and any reading of 'irresponsible insanity' or mental illness; the death of his wife Virginia and his own mysterious death; his marriage and relationships with Frances Osgood, Helen Whitman and others; Griswold's smear and his 'Memoir' (used only to record the reputation fight, never as trait evidence); the Chivers plagiarism charges; poverty is mentioned only as the context for his borrowing and fund-raising, not as a trait. CONFLICTS REPORTED, NOT ADJUDICATED: (a) whether Poe was independent or a flatterer-and-score-settler in the Literati papers (Lowell versus Briggs); (b) the Burton quarrel (Poe accused Burton over prize advertisements; Burton circulated hostile reports; Woodberry reports both); (c) how reliably 'The Philosophy of Composition' describes how 'The Raven' was written (Woodberry calls the analysis 'notorious'; the essay is used only as evidence of his stated method); (d) whether the English accusations of 1846 had any basis (Poe's published reply, the merchant's retraction and the libel verdict are in Woodberry and Mabbott; not adjudicated here). All confidences are at or below 0.62 and all scores below 85 as instructed. PORTRAIT: Wikidata P18 and the lead image 'Edgar Allan Poe, circa 1849, restored, squared off.jpg' (Commons; {{PD-old-100-1923}}; restoration by Yann Forget and Adam Cuerden; 1556 x 2188) is a retouched derivative of the 'Annie' daguerreotype. Its upstream holder was verified: J. Paul Getty Museum, accession 84.XT.957 (Getty Museum collection page https://www.getty.edu/art/collection/object/1040HX, redirected from the older gettyguide id 39406 named in the Commons file; the page itself needs JavaScript, so rights were read from the Getty Linked Art record https://data.getty.edu/museum/collection/object/891c9955-1075-459f-a526-687a47356c97, fetched 2026-10-08): licence entry 'Public Domain' with description 'No Copyright' on the object rights statement, collection metadata dedicated CC0, producer 'Unknown maker, American', date late May-early June 1849, provenance Arnold Crane then sold to the Getty 1984; only the Getty's descriptive TEXT is CC BY 4.0, which is not used. No conflicting copyright or rightsholder notice was found on the Getty record. Basis: an anonymous American daguerreotype of 1849 is out of copyright in the United States (more than 120 years since creation, no known author) and the holder itself marks it Public Domain. The Commons restoration was NOT used (retouching and edge fill); instead the unretouched Getty digital image was fetched through the Getty IIIF service (original 3350 x 4172) as a region crop of the oval plate in its gilt frame (region 391,639,2255,2920) delivered at 1236 x 1600, i.e. downscaled, not upscaled; the saved file was opened with PIL and viewed. Rejected alternatives: the 1848 'Whitman' daguerreotype (Brown University) and the Library of Congress items were not needed. kind likeness (photograph from life, about 40 years old). Sitter identity rests on the Getty title and the long-standing identification of the 'Annie' daguerreotype (given to Annie L. Richmond, per Commons). KOREAN NAME: Wikidata ko label and kowiki title. No eligibility, coverage or match output was used in scoring; scores and confidences were fixed before the validator was run."
+  }
+}

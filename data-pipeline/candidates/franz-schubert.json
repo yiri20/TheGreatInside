@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "franz-schubert",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Franz Schubert",
+    "wikidataId": "Q7312",
+    "birthYear": 1797,
+    "deathYear": 1828,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "AT"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_schubert_wikidata",
+      "kind": "wikidata",
+      "title": "Franz Schubert (Q7312) -- verified live via wbgetentities (2026-10-08): en label 'Franz Schubert', description 'Austrian composer (1797-1828)', born 31 Jan 1797, died 19 Nov 1828, instance of human, ko label '프란츠 슈베르트'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7312"
+    },
+    {
+      "id": "src_schubert_kreissle1_1869",
+      "kind": "biography",
+      "title": "Heinrich Kreissle von Hellborn, The Life of Franz Schubert, translated by Arthur Duke Coleridge (London: Longmans, Green, 1869), volume 1, archive.org full text -- the first full biography, written from interviews with Schubert's brother, sister, friends (Spaun, Schober, Josef Huttenbrenner, Sonnleithner) and official documents; admiring and sometimes hedging between rival friends' accounts. Read in full for the chapters on the school years, the Laibach application (1816), life with Schober, the 1820-21 publication of the songs, the Beethoven episode and the offer of the court organist post; the work lists and criticism chapters were skimmed.",
+      "url": "https://archive.org/details/lifeoffranzschub01kreiuoft"
+    },
+    {
+      "id": "src_schubert_kreissle2_1869",
+      "kind": "biography",
+      "title": "Heinrich Kreissle von Hellborn, The Life of Franz Schubert, translated by Arthur Duke Coleridge (London, 1869), volume 2, archive.org full text -- continuation: Schubert's 1824 letter to Kupelwieser and diary extracts, the opera failures, the 1826 candidacy for vice-Kapellmeister, the publishers' letters of 1826-28, the Winterreise period, the concert of 26 March 1828, the Sechter episode and the final illness (not used). Read the chapters named; the catalogue of works and the closing appreciation were skimmed.",
+      "url": "https://archive.org/details/lifeoffranzschub02kreiuoft"
+    },
+    {
+      "id": "src_schubert_grove1883",
+      "kind": "biography",
+      "title": "Sir George Grove, 'Schubert, Franz Peter', in A Dictionary of Music and Musicians vol. 3 (London: Macmillan, 1883; reprinted 1900), archive.org full text -- long critical English article, built on Kreissle, Ferdinand Schubert, Bauernfeld's 1829 obituary, Thayer and the autographs (Grove examined manuscripts and cites Nottebohm's catalogue); more openly critical than Kreissle of Schubert's haste, his schooling and his choice of poor libretti. Read from the opening through the 1816-1818 section in full; later sections read in part (see notes).",
+      "url": "https://archive.org/details/dictionaryofmusi03grovuoft"
+    },
+    {
+      "id": "src_schubert_reissmann1873",
+      "kind": "biography",
+      "title": "August Reissmann, Franz Schubert: Sein Leben und seine Werke (Berlin: Guttentag, 1873), Google scan on archive.org (German) -- independent German critic-biographer who draws on Kreissle but weighs the rival accounts himself; read chapter 6 (1823-24, the court organist offer) and chapter 7 (the 1826-27 vice-Kapellmeister candidacy and the Schechner-rehearsal story) in full; the rest of the book was searched, not read.",
+      "url": "https://archive.org/details/franzschubertse01reisgoog"
+    },
+    {
+      "id": "src_schubert_duncan1905",
+      "kind": "biography",
+      "title": "Edmondstoune Duncan, Schubert (The Master Musicians series, London: J. M. Dent, 1905), archive.org full text -- English popular biography that corrects Grove on Schubert's working method (documents the Erlkonig re-writings, the six settings of 'Sehnsucht' and the revisions of the C major symphony); read the chapter on revisions and song-writing (pp. 124-127), the 1826-27 passage on the Vice-Kapellmeister vacancy and the Schechner rehearsal (pp. 55-57) and the Winterreise passage; the remaining chapters were skimmed. Derives from Kreissle and Grove, so counted as a secondary, not independent, perspective.",
+      "url": "https://archive.org/details/schubert00dunciala"
+    },
+    {
+      "id": "src_schubert_contemporary_letters",
+      "kind": "archive",
+      "title": "Contemporary documents about Schubert quoted in full or in part in Kreissle (1869) and Grove (1883): letters of the Leipzig publishers H. A. Probst (26 Aug 1826, 9 Feb 1828), Breitkopf & Hartel (7 Sep 1826) and C. F. Peters (1822), the Allgemeine Musikalische Zeitung review of the Zauberharfe (1820), Salieri's Laibach testimonial (1816) and Hofkapellmeister Eybler's reply about a Mass; read as printed in those two books, not in the original archives -- non-self, contemporary and mutually independent of Schubert's circle (publishers and critics who had no stake in his friends' accounts).",
+      "url": "https://archive.org/details/lifeoffranzschub02kreiuoft"
+    },
+    {
+      "id": "src_schubert_self_letters",
+      "kind": "archive",
+      "title": "Schubert's own letters and diary entries (Kupelwieser, March 1824; Ferdinand, August 1818; Huttenbrenner, 1819 and January 1828; the Gesellschaft der Musikfreunde, September 1826; Bauernfeld-circle and Steyr/Salzburg letters of 1825) as translated and quoted in Kreissle (1869) and Grove (1883) -- SELF source, read second-hand in English translation; the Deutsch edition of the letters (The Schubert Reader, 1947) is lending-only and was not opened. Used only for his stated plans and actions, never for his moods or health.",
+      "url": "https://archive.org/details/lifeoffranzschub02kreiuoft"
+    }
+  ],
+  "rows": {
+    "execution_speed": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schubert_grove1883, src_schubert_kreissle1_1869, src_schubert_duncan1905 | 1814-1827 | critical English biography working from dated autographs + first biography from friends' testimony + popular biography] Grove reads the dates Schubert wrote on his own manuscripts: in 1823 he began the three-act opera Fierrabras on 25 May, had the 304-page first act fully scored by 31 May and the second by 5 June, and finished the whole (about 1000 pages) by 1 October; the 1822 'Alfonso und Estrella' acts are dated 20 Sept, 20 Oct and 27 Feb; the first movement of the 1814 B-flat string quartet is dated 5-6 Sept 'in 4 1/2 hours'. Other firsthand witnesses are reported at second hand: Spaun found him mid-way through the Erlkonig on the afternoon of its composition (Kreissle, from Spaun); the Hiller visit of 1827 ('I compose every morning; when one piece is done, I begin another') and Franz Lachner's recollection that half a dozen Winterreise songs were written in one morning (both via Grove); the parts of the 'Trout' quintet were written out without a score (Grove, Duncan). The 'Zauberharfe in a fortnight' and 'Rosamunde in five days' reports are single-witness and are not relied on. Strongest where a dated autograph exists; the rest is firsthand-via-biographer. Not scored higher because Kreissle, Grove and Duncan share one lineage."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_schubert_kreissle1_1869, src_schubert_grove1883 | 1814-1827 | first biography + critical English biography; Hiller and Lachner are firsthand via Grove] Kreissle describes the routine during his two years sharing Mayrhofer's room: while Mayrhofer was at his censorship duties Schubert 'toiled with equal perseverance', staying at home until dinner and keeping the afternoons free. Grove adds that he began work directly on waking, composed each morning (Hiller, 1827, quoted via Grove), and practised the habit of writing the title, date and 'Frz Schubert Mpia' at the head of each piece as he began it, which Grove traces to his father's early training. The habit continued while he worked as a teacher: Grove notes the 1815 output was produced 'in the mere intervals' of school duties and that he taught 'diligently and punctually'. Counter-evidence kept in view: Grove calls him unfit for any post requiring punctuality or restraint, and Schubert's sister recalled him as strict and ill-tempered as a teacher; the row rests on his self-set routine, not on institutional punctuality. Strong_inference: routine is described by two secondary accounts and one visitor, not by a diary."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_schubert_kreissle1_1869, src_schubert_reissmann1873, src_schubert_grove1883 | 1816-1827 | first biography (Josef Huttenbrenner as witness) + independent German critic + critical English biography] (1) 1816-17: after three years as assistant teacher at his father's school he applied unsuccessfully for the Laibach music post, then accepted Schober's invitation to live with him, left his father's school and, Grove writes, soon gave up the few lessons he tried (Kreissle, Grove). (2) About 1822-23 the acting Hofmusikgraf Dietrichstein, through Vogl, offered him the post of court organist, which would have assured an income; Josef Huttenbrenner, who carried the news to Schubert's father, says he refused it 'from a distaste and dread of sinking into a dependent position' (Kreissle), and Huttenbrenner later said the longing for perfect independence led him to reject the chance. Reissmann independently reaches the same reading (the post would not have repaid the sacrificed independence) and adds that when a post better matching his standing, vice-Kapellmeister, fell vacant in 1826 he applied without delay. (3) In 1825 Schwind urged him to pursue the court organist vacancy; Grove writes that he made no move. Dual_edged: the same stance left him without a salary and in financial dependence on friends and publishers. Three dated episodes, one firsthand witness plus two secondary readings."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_schubert_grove1883, src_schubert_kreissle1_1869, src_schubert_kreissle2_1869, src_schubert_self_letters | 1814-1827 | critical English biography + first biography + his own 1824 letter] Two kinds of continuing through discouragement. (a) Stage works: 'Die Zwillingsbruder' (June 1820) ran six performances; 'Die Zauberharfe' (Aug 1820) was occasionally given and dropped by winter; 'Alfonso und Estrella' (written 1821-22) was never staged in his lifetime; 'Die Verschworenen' (April 1823) was returned unexamined; 'Fierrabras' (1823) was dismissed early in 1824; Rosamunde (Dec 1823) closed after two performances. In his March 1824 letter he writes that he has 'composed two operas to no purpose' yet in the same letter plans quartets and a concert to 'pave the way for a grand symphony', and by 1826-27 he was still sketching 'Der Graf von Gleichen' (Grove, from the autograph dated 17 June 1827). (b) Publication: Diabelli and Haslinger refused the Erlkonig in 1820-21 as by an unknown composer; Probst and Breitkopf (1826) answered cautiously; he kept approaching publishers, and 1827-28 letters from Leipzig, Mainz and Schott followed (Kreissle). Also three unwelcome years in his father's school discharged 'zealously and conscientiously' (Kreissle) though Grove and his sister report impatience with pupils. Dual_edged because Grove and Liszt both judge that he kept setting poor libretti. Multiple dated instances from two lineages; the 1824 letter is self-report."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_schubert_grove1883, src_schubert_kreissle1_1869, src_schubert_kreissle2_1869 | 1816-1828 | critical English biography + first biography; Vogl's diary and Hiller's account are firsthand via Grove] Documented joint working: from about 1816 he performed his songs with the baritone Johann Michael Vogl, who 'induced by Schober' visited him and later wrote in his diary of Schubert's songs; Schubert's own letter of 1825 says that in their performances 'the two seemed for the moment to be one', and Hiller (1827, quoted via Grove) describes the pair's joint performance; Grove lists many pieces written for named friends and occasions: a cantata for Vogl's 1819 birthday with a libretto by Stadler, antiphons for his brother Ferdinand's Palm Sunday service in 1820 (reportedly written in haste), a 'Gebet' for the Esterhazy family quartet written in under ten hours in Sept 1824, a serenade written for Anna Frohlich's pupils in 1827, a piano trio for Bocklet, Schuppanzigh and Linke, a horn song for Lewy. He also worked over his brother's Requiem (Aug 1818 letter) and set Schober's libretto for the 1821-22 opera. Kreissle and Grove both show the Sonnleithner circle organising subscription publication of the Erlkonig in 1821. Pattern across many occasions, but the firsthand attestation is limited and the circle is also the source of the accounts."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_schubert_kreissle2_1869, src_schubert_grove1883, src_schubert_self_letters | 1814-1828 | first biography (Sechter and Hauer as witnesses) + critical English biography + his own 1824 letter] (1) Self-set learning aims: in March 1824 he wrote that the octet and two quartets were to 'pave the way for a grand symphony' (his letter, Kreissle); Grove reads the 1824-25 instrumental work as preparation for it, and states that Gluck's Iphigenie (1815) 'drove him to the study of Gluck's scores' (Bauernfeld via Grove). (2) Late counterpoint plan: on 4 November 1828, with the pianist Lanz, he called on the court organist Simon Sechter to arrange lessons in fugue writing from Marpurg's exercises, fixing hours; Grove, citing Kreissle and Sechter, quotes his remark to the Frohlich sisters, after Handel's oratorio scores came into his hands, that he saw 'how much I have still to learn' and meant to 'work hard with Sechter'; Sechter himself says the course never began because of Schubert's illness (Kreissle); Hauer told Kreissle he often asked to study Handel together. Mayrhofer and Schindler's views on how much counterpoint he had are conflicting and are not used. The illness is not used; only the arrangement he made. Against: Grove reports he showed no wish to follow Beethoven's laborious revising (see perfectionism). Strong_inference: planning documented in two sources, but only the Sechter visit is a dated, witnessed action."
+    },
+    "perfectionism": {
+      "score": 52,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_schubert_duncan1905, src_schubert_grove1883, src_schubert_kreissle1_1869 | 1814-1828 | two biographers who disagree about his habit + first biography] Genuinely mixed record. Revision documented by Duncan (from the Breitkopf complete edition) and Grove (from the autographs): four different Erlkonig versions, 'Sehnsucht' set six times, 'Gesang der Geister uber den Wassern' set in 1817, rescored in Dec 1820 and revised in Feb 1821, the Mass in A-flat written 1819-22 with three attempts at the 'Cum Sancto' (4 and 199 bars discarded) and revised again before his death, an opera ('Des Teufels Lustschloss') rewritten in 1814 after the mass taught him its flaws, a string trio restarted as a quartet, and first and second subjects of the 1828 C major symphony altered after scoring, with extra bars inserted. Against it: Grove reports Franz Lachner's recollection that he locked finished pieces in a drawer and often never thought of them again, Vogl's anecdote of a song he failed to recognise a fortnight later, and Schindler's account that, shown Beethoven's Fidelio manuscript, he 'had really no time for such corrections'; Grove thinks the G major quartet would have been shorter had he taken time, and Duncan states that Schubert 'as a general rule' did not revise. A score near the middle with low confidence records that the two biographers read the same facts differently; dual_edged."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q7312 returned en label 'Franz Schubert', description 'Austrian composer (1797-1828)', P569 31 Jan 1797, P570 19 Nov 1828, instance of human, P18 'Franz Schubert by Wilhelm August Rieder 1875 larger version.png', ko label '프란츠 슈베르트'. SLUG CHECK: not in scratch/prod_slugs.txt, no prior candidate file. CLASSIFICATION: occupations composer, musician; fieldIds music (field.music exists in en.ts); impactDomains artistic and cultural; tags prolific, craft_focused (existing ids); archetype creative_creator. REGION: central_europe, matching Ludwig van Beethoven and Wolfgang Amadeus Mozart in scratch/prod_names.txt (Brahms is western_europe; the Austrian precedents use central_europe). ERA 19th_century. EVIDENCE READ (4 orientation/record entries + 7 substantive): Kreissle von Hellborn 1869 vol. 1 and vol. 2 (English, Coleridge; read the chapters on the school years, Laibach 1816, Schober, the 1820-21 publication, Beethoven, the organist offer, the 1824 letter and diary, the 1826 candidacy, the 1826-28 publisher letters, the 26 March 1828 concert, Sechter), Grove's Dictionary vol. 3 (the full Schubert article, read through 1828), Reissmann 1873 (chapters 6-7), Duncan 1905 (revisions chapter, 1826-27 passage), and the publishers' letters, review and testimonials quoted in Kreissle and Grove; Schubert's own letters and diary read only through those books. All fetched with curl to scratch/work/franz-schubert/ and read locally. PERSPECTIVES AND INDEPENDENCE: Kreissle (friends Spaun, Schober, Josef Huttenbrenner, Sonnleithner, Schubert's brother and sister; official documents), Grove (critical, works from autographs; draws on Kreissle), Reissmann (German critic who corrects Kreissle on the Schechner story; also draws on Kreissle), Duncan (derivative of Grove and Kreissle but corrects Grove on revisions), publishers (Probst, Breitkopf, Peters, Diabelli and Haslinger's refusal) and contemporary press (AmZ 1820, Hentl 1822) -- non-self, contemporary and independent of the friends' circle, but read only as quoted. Honest limit: the biographers form ONE lineage (Kreissle); independent firsthand non-self voices (Hiller, Lachner, Vogl's diary, Sechter, Zierer, Huttenbrenner) are all quoted through that lineage. No row therefore exceeds confidence 0.62 and no score exceeds 78. NOT ACCESSED: Otto Erich Deutsch, Schubert: Memoirs by His Friends (archive.org lending/401), Schubert: A Documentary Biography and The Schubert Reader (lending-only), Maurice Brown, Newbould, Elizabeth Norman McKay, Joseph Huttenbrenner's own memoir, the original letters in German, Rolland, and the Wiener Zeitschrift 1822 and AmZ reviews in the original. ROWS SCORED (7): execution_speed, discipline, autonomy_need, persistence, collaboration, mastery_orientation, perfectionism. LEFT UNSCORED ON PURPOSE: creative_originality and experimentation (would rest on reception and fame); social_assertiveness and conflict_tolerance (the Schechner rehearsal story is contested -- Schindler says he refused to alter the aria and stormed out, Zierer, Josef Huttenbrenner and Reissmann say he stayed quiet and calm -- and the Weber 'Euryanthe' quarrel rests on Weber's son and Kreissle only; Beethoven visit also contested: Schindler vs Huttenbrenner); proactive_agency (mixed: Kreissle says he took no steps between 1816 and 1826 to secure a position, while Grove, Reissmann and the letters show him approaching Weber, Mosel, Probst and Schott and applying for the 1826 post); risk_tolerance (overlaps autonomy_need); adaptability; independent_thinking; analytical_rigor; aesthetic_sensitivity (would be inferred from the music). EXCLUDED ON PURPOSE: syphilis or any diagnosis, his hospital stay of 1823, his health and the final illness (only the Sechter lesson arrangement is used), death and burial, depressive statements in the 1824 letter and diary (only his stated plans are used), speculation about sexuality, the Caroline Esterhazy and Therese Grob attachments, drinking, and unreliable asides ('Schwammerl' nicknames, the 'Tyrant' nickname). TASK-BRIEF CORRECTION: the brief lists 'Hofkapelle/teaching posts declined'; the sources say he REFUSED the court organist post (c. 1822-23, per Josef Huttenbrenner) but APPLIED for the Laibach music post (1816) and for the vice-Kapellmeister post (1826), both unsuccessful, and made no move on the organist vacancy in 1825 (Grove, Schwind's urging). CONFLICTS REPORTED, NOT ADJUDICATED: (a) Schechner rehearsal 1826 (above); (b) Beethoven visit 1822: Schindler says Schubert stood tongue-tied and fled after Beethoven pointed out a harmonic slip, Huttenbrenner says Beethoven was out and the score was left; (c) whether Schubert habitually revised: Grove says almost never, Duncan and the autographs show four Erlkonigs, six Sehnsucht settings and the A-flat Mass revised until the end; (d) Schubert as teacher: Kreissle says 'zealous and conscientious', his sister says strict and ill-tempered, Grove says diligent and punctual; (e) dating of the 1825 'Gastein' symphony vs the 1828 C major, left aside. PORTRAIT: Wikidata P18 is a Commons file of Rieder's 1875 OIL copy (Wien Museum; Commons wikitext says 'Oil painting, after a watercolor (1825)', PD-Art/PD-old-100). Not used: it is a later copy by the artist, and the Wien Museum page for that object (CC BY 4.0 on the photograph) was not needed. Used instead Wien Museum inventory 103817, a collotype (Lichtdruck) c. 1870-1900 published by Karl Konig and printed by Max Jaffe after Rieder's 1825 watercolour made from life; the Wien Museum object page (opened, not bot-walled) states the image is CC0 and asks that author, photographer and Wien Museum be named. No conflicting copyright notice was found on that page; Rieder died 1880 and the print pre-dates 1931. The 1825 original (Commons says Osterreichische Nationalbibliothek, Pg 502: I(3) POR MAG, Bildarchiv Austria #10C7DAAD; the portal onb.digital is JavaScript-only and its rights notice could not be read) was NOT used for that reason. Image: downloaded the full Wien Museum scan (3500x2920, includes a colour target and mount), cropped to the printed plate and downscaled with Pillow (LANCZOS) to 1600x1260 JPEG q85; viewed and confirmed a seated bespectacled man with curly hair, dark coat and neckcloth, with the facsimile inscriptions a name-and-date inscription at lower left and a signature with a death-date line at lower right. Classified likeness because it is a mechanical facsimile of a portrait made from life, not a later painter's copy; the caveat is that it is a printed reproduction, not the original watercolour, and the death-date line shows the plate was made after 1828. Saved as public/portraits/franz-schubert-rieder-1825.jpg. KOREAN NAME: '프란츠 슈베르트' is the Wikidata ko label."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/franz-schubert-rieder-1825.jpg",
+    "width": 1600,
+    "height": 1260,
+    "source": "Wien Museum Online Sammlung, inventory 103817: 'Franz Schubert (1797-1828), Komponist (Reproduktion eines Aquarells von Wilhelm August Rieder von 1825)', collotype (Lichtdruck) c. 1870-1900, published by Karl Konig, Vienna, printed by Max Jaffe, after Wilhelm August Rieder (1796-1880)",
+    "license": "CC0 1.0 (Wien Museum object page); the underlying watercolour (1825) and the print (c. 1870-1900) are in the public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Wien Museum Online Sammlung (inv. 103817), collotype by Max Jaffe, published by Karl Konig, after Wilhelm August Rieder's 1825 watercolour portrait of Schubert made from life; the Wien Museum page states the image may be reused under CC0 and asks that the author, photographer and Wien Museum be named as source",
+    "attributionUrl": "https://sammlung.wienmuseum.at/en/object/525611-franz-schubert-1797-1828-komponist-reproduktion-eines-aquarells-von-wilhelm-august-rieder-von-1825",
+    "creator": "Wilhelm August Rieder (original watercolour, 1825); collotype reproduction published by Karl Konig, printed by Max Jaffe",
+    "date": "1825 (original watercolour, from life); reproduction c. 1870-1900",
+    "kind": "likeness",
+    "sourcePageUrl": "https://sammlung.wienmuseum.at/en/object/525611-franz-schubert-1797-1828-komponist-reproduktion-eines-aquarells-von-wilhelm-august-rieder-von-1825"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프란츠 슈베르트"
+    }
+  }
+}
