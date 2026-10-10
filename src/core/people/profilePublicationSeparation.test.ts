@@ -619,19 +619,33 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "roger-federer",
     "sergey-brin",
     "usain-bolt",
+    "buzz-aldrin",
+    "cristiano-ronaldo",
+    "francis-crick",
+    "jack-ma",
+    "johann-wolfgang-von-goethe",
+    "joseph-priestley",
+    "leonard-bernstein",
+    "ludwig-mies-van-der-rohe",
+    "mark-zuckerberg",
+    "paul-dirac",
+    "rafael-nadal",
+    "satyajit-ray",
+    "steven-spielberg",
+    "tiger-woods",
   ]);
 
-  it("still exactly 435 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(435);
-    expect(PEOPLE_INDEX).toHaveLength(435);
+  it("still exactly 449 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(449);
+    expect(PEOPLE_INDEX).toHaveLength(449);
   });
 
-  it("still exactly 434 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 448 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(434);
+    expect(visible).toHaveLength(448);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/40/41/42/43/44/45/46/47 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/40/41/42/43/44/45/46/47/48 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

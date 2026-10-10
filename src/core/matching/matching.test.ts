@@ -724,6 +724,20 @@ describe("confidence and missing data", () => {
       "roger-federer",
       "sergey-brin",
       "usain-bolt",
+      "buzz-aldrin",
+      "cristiano-ronaldo",
+      "francis-crick",
+      "jack-ma",
+      "johann-wolfgang-von-goethe",
+      "joseph-priestley",
+      "leonard-bernstein",
+      "ludwig-mies-van-der-rohe",
+      "mark-zuckerberg",
+      "paul-dirac",
+      "rafael-nadal",
+      "satyajit-ray",
+      "steven-spielberg",
+      "tiger-woods",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1388,6 +1402,20 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "roger-federer",
       "sergey-brin",
       "usain-bolt",
+      "buzz-aldrin",
+      "cristiano-ronaldo",
+      "francis-crick",
+      "jack-ma",
+      "johann-wolfgang-von-goethe",
+      "joseph-priestley",
+      "leonard-bernstein",
+      "ludwig-mies-van-der-rohe",
+      "mark-zuckerberg",
+      "paul-dirac",
+      "rafael-nadal",
+      "satyajit-ray",
+      "steven-spielberg",
+      "tiger-woods",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

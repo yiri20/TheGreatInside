@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jack-ma",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jack Ma",
+    "aliases": [
+      "Ma Yun"
+    ],
+    "wikidataId": "Q1137062",
+    "birthYear": 1964,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "technological",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jackma_wikidata",
+      "kind": "wikidata",
+      "title": "Jack Ma (Q1137062) -- verified live via the Wikidata API (2026-10-10): English label 'Jack Ma', description 'Chinese businessman', born 10 September 1964, no date of death, instance of human, citizenship China. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1137062"
+    },
+    {
+      "id": "src_jackma_ap_2014",
+      "kind": "press",
+      "title": "Kelvin Chan (Associated Press), 'Alibaba IPO highlights impish founder Jack Ma's rise to China's entrepreneur-in-chief', 2014 -- wire profile written ahead of the New York listing: founding of China Pages and Alibaba, the Taobao launch against eBay, Ma's public style and his 2013 step-down as CEO, with comments from a former Alibaba marketing vice president. Passages about his early schooling, family and an episode in California known only from his own retelling were not used. Read in full.",
+      "url": "https://www.foxnews.com/world/alibaba-ipo-highlights-impish-founder-jack-mas-rise-to-chinas-entrepreneur-in-chief"
+    },
+    {
+      "id": "src_jackma_idg_ebay_2006",
+      "kind": "press",
+      "title": "Sumner Lemon (IDG News Service), 'EBay China decides free is a business model', InfoWorld, 20 January 2006 -- trade-press report on eBay dropping its Chinese seller fee after calling Taobao's three-year no-fee strategy a non-business-model, with market-share figures from Analysys International and comment from an analyst and an Alibaba spokesman. Independent, contemporaneous. Read in full.",
+      "url": "https://www.infoworld.com/article/2221322/ebay-china-decides-free-is-a-business-model.html"
+    },
+    {
+      "id": "src_jackma_eightroads",
+      "kind": "institution",
+      "title": "Eight Roads, 'Alibaba: The story of a generation' (case study), Eight Roads Ventures website, undated -- early investor's account of its October 1999 Series A investment after a five-hour pitch at Ma's apartment, the 2001 cash retrenchment, the 2004 repurchase of Goldman Sachs' stake, and the Yahoo investment. Investor first-hand view, admiring and with a financial interest. Read in full.",
+      "url": "https://eightroads.com/en/stories/alibaba-the-story-of-a-generation"
+    },
+    {
+      "id": "src_jackma_f1",
+      "kind": "institution",
+      "title": "Alibaba Group Holding Limited, Amendment No. 5 to Form F-1 registration statement filed with the U.S. Securities and Exchange Commission, 27 August 2014 -- company history section (1999 founding in Ma's apartment by 18 founders, Taobao established in 2003 as a free platform, Alipay escrow in 2004, 2007 monetisation, Tmall, cloud and Singles Day figures) and the company's own description of its business. Company self-description; record facts only, used for chronology and business-model facts. Pages 77-79 and the business description were read; the risk-factor, structure and legal sections (variable interest entities, Alipay control) were not used as evidence.",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pc/blog/AlibabaProspectusAug14.pdf"
+    },
+    {
+      "id": "src_jackma_stanford_2011",
+      "kind": "archive",
+      "title": "Jack Ma, closing keynote at the 'China 2.0: Transforming Media and Commerce' conference, Stanford Graduate School of Business, 30 September 2011, edited transcript with audience questions, The Singju Post -- his own account of the 1999 search for venture capital, the small-business strategy of Alibaba.com, Taobao against eBay, Alipay escrow, splitting Taobao and the Yahoo China acquisition. Self material; never sole support. The regulatory and ownership questions in the Q&A (VIE structures, Alipay licensing) were read but not used as evidence.",
+      "url": "https://singjupost.com/alibabas-jack-ma-reflects-12-year-journey-china-2-0-conference-transcript/"
+    },
+    {
+      "id": "src_jackma_nanjinger",
+      "kind": "press",
+      "title": "Shahnaz Mouhamou, 'Digging For Treasure; How Taobao Won the ECOM Race', The Nanjinger, 13 May 2015 -- magazine feature built partly on a book excerpt about Ma's May 2003 announcement of Taobao to his executives, plus an account of eBay's market entry via EachNet, Taobao's free listings, TV advertising and instant-messaging feature. Sympathetic and secondary; used for corroboration only. Read in full.",
+      "url": "https://thenanjinger.com/magazine/feature-stories/digging-for-treasure-how-taobao-won-the-ecom-race-2/"
+    },
+    {
+      "id": "src_jackma_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Jack Ma' (Britannica Money), updated September 2026 -- reference biography of his career, Alipay, Taobao versus eBay, the Yahoo stake and the 2014 listing. Reference orientation only; not counted as a substantive behavioural source and not used as support for any row.",
+      "url": "https://www.britannica.com/money/Jack-Ma"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jackma_eightroads, src_jackma_ap_2014, src_jackma_nanjinger | 1999-2014 | investor first-hand + wire profile + secondary feature] Eight Roads says its partner was sold on the Series A after Ma talked for five hours straight in his apartment, and describes later investors (Goldman Sachs, Yahoo) joining; the AP profile calls him an enthralling speaker and says he founded Alibaba with 17 friends and about $60,000 they raised, and quotes a former marketing vice president calling him a pied piper of entrepreneurs; the Nanjinger excerpt shows him convincing executives to stand on their heads to illustrate seeing things differently. The investor account is admiring and self-interested and the other two are sympathetic, so the score stays under 80 and confidence near 0.6."
+    },
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jackma_f1, src_jackma_idg_ebay_2006, src_jackma_ap_2014, src_jackma_stanford_2011 | 1999-2006 | company record, trade press, wire profile, own account] Alibaba.com targeted small exporters rather than the big buyers that US business-to-business sites served (his own account and the filing); Taobao was set up as a free platform when eBay owned the market (filing, trade press, wire profile); Alipay's escrow was created to deal with distrust between online buyers and sellers (filing). Independent press confirms the market outcome (Taobao 57.1 percent versus eBay 34.2 percent of auction volume in 2005 per Analysys; eBay shut its China site in 2006) but not the intent, which comes mostly from company and own accounts, so strong inference."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jackma_idg_ebay_2006, src_jackma_nanjinger, src_jackma_eightroads, src_jackma_f1 | 2003-2007 | trade press, feature, investor, company record] In 2003 he launched Taobao against an incumbent with close to 85 percent share (feature) and kept it free of seller fees for about three years while eBay publicly called 'free' not a business model (trade press); the filing says Taobao was only monetised in 2007; Eight Roads notes that in 2004 Alibaba still had no revenue stream and some investors were losing patience. A deliberate bet on user growth ahead of revenue; the outcome favoured it, but the sources are mostly sympathetic and the commitment of funds is not described, so moderate."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jackma_ap_2014, src_jackma_eightroads, src_jackma_stanford_2011 | 1995-2002 | wire profile, investor, own account] The AP profile traces China Pages (1995), a stumble after a falling out with a state-owned partner, a short spell at a ministry-backed venture he left for lack of dynamism, then Alibaba in 1999; Eight Roads describes the 2001 burst of the internet bubble, when Alibaba cut costs and closed offices to survive; in his Stanford talk he says he was turned down by many venture capitalists in 1999 and returned to China with no money (self account, uncorroborated). Two independent sources corroborate the setbacks and the continuation; the venture-capital rejection is self-reported only."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jackma_eightroads, src_jackma_f1, src_jackma_nanjinger, src_jackma_stanford_2011 | 2001-2011 | investor, company record, feature, own account] After the 2001 downturn Alibaba curtailed spending and kept going (investor); the filing lists a sequence of products added as the business evolved (instant messaging between buyers and sellers 2004, monetisation through marketing services in 2007, Tmall in 2008, cloud in 2009); the feature says Taobao adopted features suited to Chinese users where eBay did not localise; in 2011 he describes splitting Taobao into separate businesses and, about the Yahoo China acquisition, says he would do it again but not the same way (self account). Pattern is clear but comes mostly from company and sympathetic sources."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jackma_ap_2014, src_jackma_nanjinger, src_jackma_f1 | 1999-2014 | wire profile, feature, company record] Ma recruited a founding group of 17 friends who raised about $60,000; the AP profile describes him as a charismatic figure who performs at company-wide Alifest meetings (dressed as a punk rocker for the 2009 anniversary), a figurehead for 22,000 employees who stepped down as CEO in 2013 with a letter saying he was no longer young for the internet business; the filing credits a partnership of 18 founders who launched several core businesses. Visible leadership of a founder group is documented, but how he led day to day is described mostly by supporters, so strong inference."
+    },
+    "competitiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jackma_ap_2014, src_jackma_idg_ebay_2006, src_jackma_nanjinger | 2003-2006 | wire profile, trade press, feature] The AP profile quotes his line that eBay is a shark in the ocean and Alibaba a crocodile in the Yangtze River, fighting where it can win; trade press records eBay's October 2005 dismissal of Taobao's strategy and its reversal on seller fees three months later, with Taobao ahead on market share; the feature describes his decision to launch Taobao to keep eBay from coming to Alibaba's market. A consistent rivalry narrative across independent sources, though much of it is the public story Ma and the company tell, so moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마윈"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q1137062 returned en label 'Jack Ma', description 'Chinese businessman', born 10 Sep 1964, no death date, instance of human, citizenship China. SLUG/QID CHECK: no existing production or candidate slug or QID collision. LIVING SUBJECT: only documented public professional behaviour is scored (founding and running Alibaba, Taobao strategy, competitive and investor episodes, public speaking). Excluded: private life, family, health, philanthropy, and every Chinese regulatory, political or government-relations episode (the 2011 Alipay ownership dispute and VIE questions that appear in his Stanford Q&A, the F-1 risk and structure sections, anything after 2013 concerning the regulatory environment). READ (6 substantive sources): AP wire profile (2014), IDG/InfoWorld on eBay and Taobao (2006), Eight Roads investor case study, Alibaba's F-1 company history and business description (2014), his Stanford GSB keynote transcript (2011), The Nanjinger feature (2015). Britannica and Wikidata are orientation only. PERSPECTIVES: wire reporter plus former Alibaba marketing executive's comment, trade press with analyst and rival comment, early investor, company self-description, Ma's own speech, a sympathetic feature drawing on a book excerpt. Self material is never sole support for a row, but the single venture-capital-rejection claim is self-reported only and is flagged as such. There is no adversarial or critical biography in the set; criticism of Alibaba in the sources is mostly about its competitors, not Ma, so scores stay under 80 and confidence at most 0.62, and seven rows only. NOT OPENED: Duncan Clark's 'Alibaba: The House That Jack Ma Built' and Liu Shiying and Martha Avery's 'Alibaba' (no access, only quoted second-hand), the 2012 documentary 'Crocodile in the Yangtze' (not viewed), the original New York Times and Forbes profiles (not retrieved), Harvard 'Platform Digit' student post (not a reliable source). DATE NOTE: Britannica dates Alipay to 2003 and the F-1 to 2004; the F-1 is used. PORTRAIT: Commons 'Enabling eCommerce- Small Enterprises, Global Players (39008130265) (cropped).jpg', photograph by Ciaran McCrickard for the World Economic Forum, 24 January 2018, Davos; credited on Commons to 'Foundations World Economic Forum' (Flickr account); CC BY 2.0, reviewed by FlickreviewR 2 on 6 March 2018 and the Flickr page shows the CC BY 2.0 licence; no conflicting restriction on the Commons file page. Original 1224 x 1630 pixels, downscaled only to 901 x 1200."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jack-ma-wef-2018.jpg",
+    "width": 901,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Enabling eCommerce- Small Enterprises, Global Players (39008130265) (cropped).jpg' -- photograph by Ciaran McCrickard for the World Economic Forum, session 'Enabling eCommerce: Small Enterprises, Global Players', Davos, 24 January 2018, published on the World Economic Forum's Flickr account under CC BY 2.0 (licence reviewed on Commons by FlickreviewR 2); cropped file 1224 x 1630 pixels, downscaled to 901 x 1200.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Ciaran McCrickard / World Economic Forum, 24 January 2018, CC BY 2.0, cropped and downscaled",
+    "attributionUrl": "https://www.flickr.com/photos/yglvoices/39008130265/",
+    "creator": "Ciaran McCrickard / World Economic Forum",
+    "date": "2018-01-24",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Enabling_eCommerce-_Small_Enterprises,_Global_Players_(39008130265)_(cropped).jpg"
+  }
+}

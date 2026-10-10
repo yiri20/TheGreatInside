@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "johann-wolfgang-von-goethe",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Johann Wolfgang von Goethe",
+    "aliases": [
+      "Goethe"
+    ],
+    "wikidataId": "Q5879",
+    "birthYear": 1749,
+    "deathYear": 1832,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "poet"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "polymath",
+      "prolific",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_goethe_wikidata",
+      "kind": "wikidata",
+      "title": "Johann Wolfgang von Goethe (Q5879) -- verified live via the Wikidata API (2026-10-10): English label 'Johann Wolfgang von Goethe', description 'German writer, artist, natural scientist and politician (1749-1832)', born 28 August 1749, died 22 March 1832, citizenship Germany, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q5879"
+    },
+    {
+      "id": "src_goethe_eckermann",
+      "kind": "biography",
+      "title": "Johann Peter Eckermann, 'Conversations of Goethe with Eckermann and Soret', translated by John Oxenford (revised edition, George Bell and Sons, London, 1883), Internet Archive scan -- CONTEMPORARY WITNESS, Goethe's secretary and devoted younger friend from 1823 to 1832, with entries by the Genevan scholar Frederic Soret; admiring and shaped by Eckermann's own editing, and much of it is Goethe speaking about himself. Used only for dated, concrete statements and scenes (the colour-theory conversations of 1823-26, the 'collective being' remarks of 1832, the sealed 'Helena' packet of 1827, the stitched Faust manuscript of 1831, the yearly rereading of Moliere). Read those entries in full from the scan text; the rest of the three volumes was skimmed, not read.",
+      "url": "https://archive.org/details/conversationsofg00goetrich"
+    },
+    {
+      "id": "src_goethe_schiller",
+      "kind": "biography",
+      "title": "L. Dora Schmitz (translator), 'Correspondence between Schiller and Goethe, from 1794 to 1805', volume I covering 1794-1797 (George Bell and Sons, London, 1877), Internet Archive scan -- PEER witness: letters between the two writers, including Schiller's letter of 23 August 1794 describing Goethe's way of thinking, Goethe's reply of 27 August 1794, the 1795-96 exchanges on the epigram collection (Xenien) and the periodical Horen, and the June 1797 letters on resuming Faust. Candid in places but friendly and mutually admiring, and the OCR text is partly corrupted; only passages that read clearly were used. Volume II (1798-1805) was not opened.",
+      "url": "https://archive.org/details/correspondenceb00schmgoog"
+    },
+    {
+      "id": "src_goethe_lewes",
+      "kind": "biography",
+      "title": "George Henry Lewes, 'The Life and Works of Goethe' (first published 1855; Everyman's Library edition, J. M. Dent, London, 1908), Internet Archive scan -- INDEPENDENT Victorian biography written from German sources, openly critical on Goethe's impatience, his unfinished works and his colour theory, and including Edward Devrient's and Chancellor von Muller's accounts of his theatre direction. Dated by modern standards. Read the chapters on his early temperament, the intermaxillary bone, the poet as a man of science and the theatrical manager, plus the passages on Werther and the fragments; the political chapters and the later narrative were not read.",
+      "url": "https://archive.org/details/lifeworksofgoeth00leweuoft"
+    },
+    {
+      "id": "src_goethe_crease",
+      "kind": "press",
+      "title": "Robert P. Crease, 'Fight over light', Physics World (IOP Publishing), 16 April 2015 -- modern opinion piece by a philosopher of physics on Goethe's Theory of Colours (1810), his scientific collecting, instruments and treatises, and why physicists rejected the attack on Newton while artists and philosophers took it up. Independent and critical of the colour theory's physics; the page's last paragraph is behind registration and was not read. Read in full to that point.",
+      "url": "https://physicsworld.com/a/fight-over-light/"
+    },
+    {
+      "id": "src_goethe_faustedition",
+      "kind": "institution",
+      "title": "University of Wurzburg news item, 'Digital Edition of Goethe's Faust', 24 October 2018 -- announcement of the historical-critical Faust edition by Frankfurter Goethe-Haus, the Goethe and Schiller Archive in Weimar and Wurzburg, stating that Goethe worked on Faust for over 60 years and that over 2,000 manuscript pages and more than 1,500 testimonies to its creation survive. Scholarly institutional source for the length of the work history only. Read in full.",
+      "url": "https://www.uni-wuerzburg.de/en/news-and-events/news/detail/news/digital-edition-of-goethes-faust/"
+    },
+    {
+      "id": "src_goethe_pinakothek",
+      "kind": "institution",
+      "title": "Bayerische Staatsgemaeldesammlungen, Neue Pinakothek Munich, collection record for Joseph Karl Stieler, 'Johann Wolfgang von Goethe', 1828, oil on canvas 78 x 63.8 cm, inventory WAF 1048 -- museum page used to check the portrait's rights notice (see portrait record). Not used for any scoring.",
+      "url": "https://www.sammlung.pinakothek.de/en/artwork/02LAY3QLyk"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goethe_lewes, src_goethe_crease, src_goethe_schiller | 1784-1810 | critical biographer + modern critic of the science + peer] Lewes records his osteological studies and the intermaxillary bone result of 1784, and his treatise on the metamorphosis of plants; Crease describes a collector of botanical, geological and zoological specimens who owned electrical and optical instruments and wrote treatises on anatomy and botany; Schiller in 1794 describes him looking at nature as a whole to explain its parts. Three independent perspectives, including two that are critical of the results, agree on sustained investigative interest; kept below 85 because the sources describe the range of topics more than his moment-to-moment questioning."
+    },
+    "cross_domain_range": {
+      "score": 84,
+      "confidence": 0.72,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goethe_lewes, src_goethe_crease, src_goethe_schiller, src_goethe_eckermann | 1784-1832 | critical biographer + modern critic + peer + disciple] Poetry, drama and the novel are joined in the sources by anatomy, botany and optics (Lewes, Crease), by theatre management (Lewes, quoting Devrient and von Muller), and by drawing and print collecting (Eckermann's scenes of him showing sketches and studying engravings). Schiller's 1794 letter says he looks to the whole of nature to understand its parts, which ties the fields into one practice. Several independent sources across a lifetime; the top band is withheld because the physics results were rejected."
+    },
+    "intuitive_synthesis": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_goethe_schiller, src_goethe_lewes, src_goethe_crease | 1784-1810 | peer + critical biographer + modern critic] Schiller's 1794 letter describes a mind that works from the intuition of a whole and says correct intuition grasps what analysis reaches only laboriously; Lewes shows the same instinct in the intermaxillary bone, which Goethe expected on the ground that unity runs through nature, and Crease describes his search for archetypes (Urpflanze) behind natural forms. The same habit led him to a colour theory physicists rejected, which is why the impact is dual-edged. One peer's reading plus two independent descriptions of method, hence strong inference."
+    },
+    "aesthetic_sensitivity": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_goethe_eckermann, src_goethe_schiller | 1794-1832 | disciple + peer] Eckermann records him rereading pieces of Moliere every year and looking again at engravings after the great Italian masters to renew their impression, and showing a portfolio of sketches at his table; Schiller's 1794 letter says his mind had to translate ideas back into intuitions and feelings, because only through feeling can genius be productive. A real, repeated attention to artistic form, but one source is Goethe's own recorded remarks and the other a friend's interpretation, so confidence stays moderate."
+    },
+    "independent_thinking": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_goethe_lewes, src_goethe_crease, src_goethe_eckermann | 1791-1826 | critical biographer + modern critic + disciple] Lewes and Crease agree that he rejected Newton's account of light for decades against the physicists of his day (Lewes: 'Their opposition never made him pause'), and Eckermann records him saying in 1823 that he alone among millions knew the truth about colours. Independent thought is documented, but both outside sources judge the conclusion wrong, so impact is dual-edged. Confidence below 0.7 because the weight is on one long dispute."
+    },
+    "belief_updating": {
+      "score": 38,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_goethe_lewes, src_goethe_eckermann | 1823-1832 | critical biographer + disciple] Lewes reports that when Eckermann brought a fact that contradicted the colour theory, Goethe grew angry and refused to admit it, and that on colours he was 'always sensitive'; Eckermann records him dismissing the Newtonians' explanations as 'too stupid' to bother with. Against that, in 1832 he describes owing most of what he is to what he took in from others ('we are all collective beings'), so openness shows in general and closure in one domain. Scored below the midpoint on the specific, better-sourced colour-theory evidence with lowered confidence for the conflict."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_goethe_faustedition, src_goethe_eckermann, src_goethe_lewes, src_goethe_schiller | 1772-1831 | scholarly institution + disciple + critical biographer + peer] The Wurzburg-led edition states he worked on Faust for over 60 years; in 1831 Eckermann saw the second part's manuscript stitched together with white paper for the missing fourth act, and in June 1797 Schiller welcomed his decision to resume it. Lewes credits his patience in colour research 'for years and years' but also says he left many works as fragments, so persistence is selective rather than general; held at 76."
+    },
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_goethe_eckermann, src_goethe_faustedition, src_goethe_schiller | 1797-1832 | disciple + scholarly institution + peer] Eckermann records his habit of rereading Moliere each year and revisiting engravings 'because we little men are not able to retain the greatness of such things', and his remark that Faust grew by being added to at intervals; the Faust manuscripts show over 60 years of revision; in 1797 Schiller says taking up Faust again would exercise 'some new faculty' in him. The picture rests mainly on Goethe's own remarks as recorded by an admirer, hence 0.62 and strong inference."
+    },
+    "collaboration": {
+      "score": 74,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_goethe_schiller, src_goethe_eckermann, src_goethe_lewes | 1794-1832 | peer + disciple + critical biographer] After Schiller's August 1794 letter Goethe wrote that he regarded these days as an epoch in his life and that, once each saw the other's course clearly, they could work together without interruption; the correspondence shows the two planning the Horen and the Musen-Almanach, and in December 1796 Goethe suggesting that they write epigrams on the periodicals on the model of Martial's Xenia, which they then exchanged in batches. In 1832 he told Eckermann that no one owes everything to his own inner self. Lewes adds that actors and colleagues saw a demanding director, so the evidence is of purposeful partnership, not easy cooperation; below 80 for that reason."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_goethe_schiller, src_goethe_lewes, src_goethe_eckermann | 1796-1826 | peer + critical biographer + disciple] In winter 1796-97 he and Schiller wrote a large body of satirical epigrams (the Xenien, about 200 by Schiller's count) aimed at the periodicals of their day, and Goethe kept up the colour-theory dispute against the physicists for decades. Lewes also reports that he kept a tight rein on criticism of his theatre, threatening to resign over a planned article, and Eckermann records him refusing to engage the Newtonians' explanations, so he sought combat on his own terms rather than open debate. Mixed evidence, held mid-high with moderate confidence."
+    },
+    "social_assertiveness": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_goethe_lewes | 1791-1817 | critical biographer quoting two contemporaries] Lewes, citing Edward Devrient, describes him rising in the pit to silence the audience at a 1802 performance and quoting Chancellor von Muller on his unalterable determinations and demands; Lewes also reports that he used the 'brief imperative' with actors and told a refusing actor he would play the part himself. Confined to his theatre management and to one biographer's compilation of two accounts, so strong inference at 0.6; impact is dual-edged because the same sources report both admiration and despotism."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "요한 볼프강 폰 괴테"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/johann-wolfgang-von-goethe-stieler-1828.jpg",
+    "width": 973,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Goethe (Stieler 1828).jpg' -- Joseph Karl Stieler, oil on canvas 1828 (Neue Pinakothek Munich, inventory WAF 1048), painted from sittings with Goethe in Weimar; original Commons file 1972 x 2432 pixels, downscaled once to 973 x 1200 (never upscaled).",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Goethe_(Stieler_1828).jpg",
+    "attribution": "Joseph Karl Stieler, 1828, Bayerische Staatsgemaeldesammlungen - Neue Pinakothek Munich (WAF 1048), Public Domain (artist died 1858)",
+    "attributionUrl": "https://www.sammlung.pinakothek.de/en/artwork/02LAY3QLyk",
+    "creator": "Joseph Karl Stieler",
+    "date": "1828",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Goethe_(Stieler_1828).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q5879 returned en label 'Johann Wolfgang von Goethe', ko label present, born 1749-08-28, died 1832-03-22, citizenship Germany; the lead's QID hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID (only passing mentions of Goethe in other people's source text). READ (5 substantive sources): Eckermann's Conversations (Oxenford translation, targeted entries 1823-32), the Schiller-Goethe correspondence volume I (Schmitz translation, 1794-97 passages), Lewes's Life and Works of Goethe (1855; 1908 edition, targeted chapters), Crease in Physics World (2015) and the University of Wurzburg Faust-edition announcement (2018, length of the Faust work only); the Neue Pinakothek page was read only for the portrait. PERSPECTIVES: disciple/secretary (Eckermann, admiring and largely Goethe's own words), peer correspondent (Schiller, friendly), critical Victorian biographer (Lewes), modern physicist-philosopher critic (Crease), scholarly institution. Self material (Goethe's own recorded remarks) is never the sole support for a row. EXCLUSIONS: Goethe's Weimar ministerial and political offices, his military and diplomatic episodes (including Napoleon's reception), his romantic and family life, health and bereavements, and any psychological reading of Werther or his 'obscurity and hesitation' were not scored; his own diaries were not used. NOT OPENED: the Schiller-Goethe correspondence volume II (1798-1805), Goethe's autobiographical writings and Italian Journey (self sources), Boyle's biography, Safranski, Nicholas Boyle and other modern biographies (not accessible), Britannica. SCORING: 11 rows, highest 84 (range across fields), lowest 38 (belief updating, on a single well-documented domain), confidence 0.50-0.72, no row above 0.72 and none above 84; evidence is a mix of admiring and critical, and OCR errors in the Schmitz scan limited use to passages that read cleanly. PORTRAIT: Commons 'Goethe (Stieler 1828).jpg' by Joseph Karl Stieler (1781-1858), painted from life, tagged PD-Art-old-100-1923 (artist died 1858), Commons metadata Copyrighted: False; the Neue Pinakothek's own collection page (inventory WAF 1048, acquired from the artist by King Ludwig I in 1828, Wittelsbacher Ausgleichsfonds since 1923) shows no restriction and labels its digital reproduction CC BY-SA 4.0, which is permissive and attribution-compatible, so there is no conflicting rights notice; original 1972 x 2432, saved as a 973 x 1200 downscale. Recommended courtesy attribution to the museum is included. The Commons upload dates from 2005 and is not the museum's own digital file."
+  }
+}

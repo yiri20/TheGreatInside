@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "cristiano-ronaldo",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Cristiano Ronaldo",
+    "aliases": [
+      "Cristiano Ronaldo dos Santos Aveiro",
+      "CR7"
+    ],
+    "wikidataId": "Q11571",
+    "birthYear": 1985,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "PT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cr7_wikidata",
+      "kind": "wikidata",
+      "title": "Cristiano Ronaldo (Q11571) -- verified live via the Wikidata API (2026-10-10): English label 'Cristiano Ronaldo', description 'Portuguese association football player (born 1985)', born 5 February 1985, no date of death, instance of human, citizenship Portugal. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q11571"
+    },
+    {
+      "id": "src_cr7_tnt_inside",
+      "kind": "press",
+      "title": "TNT Sports, 'How Ronaldo became the world's best: the inside story', 7 May 2015 -- long feature built on first-hand accounts from his former Manchester United teammate Quinton Fortune and power-development coach Mike Clegg about his training, preparation and early ambition. Teammate and coach voices in an outlet's frame; admiring in tone. Read in full.",
+      "url": "https://www.tntsports.co.uk/football/how-ronaldo-became-the-worlds-best-the-inside-story_sto4716516/story.shtml"
+    },
+    {
+      "id": "src_cr7_goal_fletcher",
+      "kind": "press",
+      "title": "Jack Sear, 'Fletcher reveals Man Utd stars used to laugh at Ronaldo for bizarre training routine', Goal, 6 November 2018 -- report of former teammate Darren Fletcher's Sky Sports account of Ronaldo's extra training (ankle weights, fast-feet work) and teammates' reaction. Teammate first-hand account relayed by an outlet. Read in full.",
+      "url": "https://www.goal.com/en-us/news/fletcher-reveals-man-utd-stars-used-to-laugh-at-ronaldo-for-bizarre-training-routine/lafvuklm3qqv1e27k8i1zw8o6"
+    },
+    {
+      "id": "src_cr7_fe_ancelotti",
+      "kind": "press",
+      "title": "Football Espana, 'Ancelotti: Cristiano is good for football', 14 January 2014 -- report of his Real Madrid coach Carlo Ancelotti's comments on Ronaldo's conduct and work ethic after the 2013 Ballon d'Or. Coach's first-hand view; admiring. Read in full.",
+      "url": "https://www.football-espana.net/2014/01/14/ancelotti-cristiano-good-for-football"
+    },
+    {
+      "id": "src_cr7_tnt_allegri",
+      "kind": "press",
+      "title": "TNT Sports, ''Ronaldo needs to understand he'll be on the bench sometimes' - Massimiliano Allegri on CR7', 24 August 2018 -- Juventus coach Allegri's pre-season comments on Ronaldo's training intensity, role and example to younger players. Coach's first-hand view; carries a mildly critical note about rotation. Read in full.",
+      "url": "https://www.tntsports.co.uk/football/serie-a/2018-2019/ronaldo-needs-to-understand-hell-be-on-the-bench-sometimes-massimiliano-allegri-on-cr7_sto6899856/story.shtml"
+    },
+    {
+      "id": "src_cr7_sky_balague",
+      "kind": "press",
+      "title": "Guillem Balague, 'Was Portugal's Euro 2016 win Cristiano Ronaldo's final? Balague tells the tale in new chapters of biography', Sky Sports, 17 November 2016 -- extract from the biographer's Cristiano Ronaldo book on Ronaldo's behaviour after he was injured in the 2016 European Championship final, with accounts from Nani, coach Fernando Santos and critics including Jose Mourinho. Independent and partly critical; the book itself was NOT read. Private and family passages not used. Read in full.",
+      "url": "https://www.skysports.com/football/news/12087/10659454/was-portugals-euro-2016-win-cristiano-ronaldo-s-final-guillem-balague-tells-the-tale-in-new-chapters-of-biography"
+    },
+    {
+      "id": "src_cr7_espn_tenhag",
+      "kind": "press",
+      "title": "Rob Dawson, 'Man United's Cristiano Ronaldo refused to come on in win over Tottenham, Erik ten Hag confirms', ESPN, 21 October 2022 -- report of the manager's press conference on Ronaldo leaving the bench before the end of the 2-0 win over Tottenham (19 October 2022), the earlier July 2022 early exit from a friendly, and the one-match squad omission. Independent news report quoting the manager; no statement from Ronaldo. Read in full.",
+      "url": "https://africa.espn.com/football/story/_/id/37633129/man-uniteds-cristiano-ronaldo-refused-come-win-tottenham-erik-ten-hag"
+    },
+    {
+      "id": "src_cr7_score_santos",
+      "kind": "press",
+      "title": "Daniel Rouse, 'Santos: Ronaldo's role still to be defined after World Cup benching', theScore, December 2022 -- report on Portugal coach Fernando Santos leaving Ronaldo out of the starting line-up against Switzerland at the 2022 World Cup after his reaction to being substituted against South Korea, and Santos's remarks. Independent news report; no direct quote from Ronaldo in it. Read in full.",
+      "url": "https://www.thescore.com/worldcup/news/2506699"
+    },
+    {
+      "id": "src_cr7_espn_juve",
+      "kind": "press",
+      "title": "ESPN, 'Cristiano Ronaldo leaves Real Madrid to join Juventus', 10 July 2018 -- news report of the transfer, including Ronaldo's open letter, Real Madrid's statement and reported contract background (sources unnamed). Read in full.",
+      "url": "https://www.espn.com/soccer/soccer-transfers/story/3560356/cristiano-ronaldo-leaves-real-madrid-to-join-juventus"
+    },
+    {
+      "id": "src_cr7_nat_sixwc",
+      "kind": "press",
+      "title": "Steve Luckings, 'Cristiano Ronaldo makes World Cup history with two goals as Portugal beat Uzbekistan', The National, 24 June 2026 -- match report of Portugal's 5-0 win in Houston in which Ronaldo became the first player to score at six World Cups, with his post-match comments and international tally (145 goals in 230 appearances). Read in full.",
+      "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/06/24/cristiano-ronaldo-six-world-cups/"
+    },
+    {
+      "id": "src_cr7_gwr_goals",
+      "kind": "award_body",
+      "title": "Guinness World Records, 'Cristiano Ronaldo: Most goals in men's internationals' (Hall of Fame entry) -- record entry (115 goals when set on 1 September 2021) and list of his other record entries: Champions League goals and appearances, scoring in three Champions League finals, five European Championship tournaments (25 appearances, 14 goals). Used for record facts only, not trait evidence; figures are as of the entry date. Read in full.",
+      "url": "https://www.guinnessworldrecords.com/records/hall-of-fame/cristiano-ronaldo-most-goals-in-mens-internationals"
+    },
+    {
+      "id": "src_cr7_gwr_icon",
+      "kind": "award_body",
+      "title": "Guinness World Records, 'Cristiano Ronaldo: Football and social media star' (GWR Icons profile, inducted 2024) -- states he is a five-time Ballon d'Or recipient and a five-time UEFA Champions League winner (counts only, no years). Added to support the achievement cards; used for award facts only, not trait evidence. Read in full.",
+      "url": "https://www.guinnessworldrecords.com/records/icons/cristiano-ronaldo-football-and-social-media-star"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cr7_tnt_inside, src_cr7_goal_fletcher, src_cr7_fe_ancelotti, src_cr7_tnt_allegri | 2003-2018 | coaches and teammates at three clubs] United's power coach Mike Clegg describes a fixed daily routine (early core and activation work, football training, a second gym session, then rest and recovery) that Ronaldo kept for five or six years; Fletcher says he trained with ankle weights while teammates laughed; Ancelotti at Real Madrid was struck by his off-field professionalism; Allegri at Juventus says he trains very competitively and takes nothing for granted. Four independent observers at three clubs over 15 years converge, hence documented; all are admiring, so confidence is capped below 0.72 and the score stays under 85."
+    },
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cr7_tnt_inside, src_cr7_goal_fletcher, src_cr7_fe_ancelotti | 2003-2014 | teammate and coach accounts] Fortune says he practised tricks alone after sessions, asked teammates how they were done and kept at them until he could do them better; Clegg says he took advice from coaches, the manager and players; Fletcher confirms the extra skill work. Ancelotti attributes the Ballon d'Or to 'part talent and part work'. Several independent instances of self-directed skill work, all from sympathetic observers, so strong_inference rather than documented."
+    },
+    "competitiveness": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_cr7_tnt_inside, src_cr7_tnt_allegri, src_cr7_sky_balague, src_cr7_score_santos | 2003-2022 | teammate, coach and biographer accounts + news report] Fortune says he was incredibly competitive in training and wanted to be better than every other player; Allegri says he trains very competitively; after leaving the 2016 final injured he was tearful and kept shouting instructions from the touchline (Nani, via Balague); at the 2022 World Cup Santos said he did not like Ronaldo's visible anger at being substituted against South Korea. Competitive drive documented across two decades, but it also produced friction, hence dual_edged and a score below 85."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cr7_tnt_inside, src_cr7_goal_fletcher, src_cr7_tnt_allegri, src_cr7_nat_sixwc | 2003-2026 | teammate and coach accounts + match report] Fortune recalls that at 18 he said he would become the world's best player and brushed off advice not to say so; Fletcher says he planned to be the best from the day he arrived at United; Allegri credits his success to years of sacrifice; at 41 he said records are 'always nice' but his aim was to help the national team reach its objectives. Stated ambition is partly second-hand (teammates' recollections of his words), so strong_inference and kept moderate."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cr7_sky_balague, src_cr7_tnt_allegri, src_cr7_nat_sixwc | 2016-2026 | biographer extract + coach + match report] In the 2016 final, after he was forced off, he told teammates at half-time to stay together and fight to the end and then gave instructions from the technical area, behind coach Santos; Santos called it nerves 'externalised', while Mourinho and Balague questioned whether it went too far. Allegri calls him a great example for younger players. Taking charge of the group is documented, but whether it helped is contested in the sources, hence dual_edged and a moderate score."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cr7_tnt_inside, src_cr7_sky_balague, src_cr7_espn_tenhag, src_cr7_score_santos | 2003-2022 | coach and teammate accounts + news reports] Evidence cuts both ways: he asked teammates how tricks were done and took coaching advice (Fortune, Clegg), and supported teammates at half-time of the 2016 final (Nani, Santos); but in 2022 he left United's bench before the end of a win over Tottenham, which Ten Hag called a refusal to come on and a breach of team culture (after a similar early exit in a July friendly), and Santos left him out against Switzerland after his reaction to being substituted. Mixed evidence is left in the middle band with low confidence rather than averaged into a false precision."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "크리스티아누 호날두"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q11571 returned en label 'Cristiano Ronaldo', description 'Portuguese association football player (born 1985)', born 5 Feb 1985, no death date, instance of human, citizenship Portugal; Korean label matches. SLUG/QID CHECK: no existing production or candidate slug or QID collision (grep of src/data and data-pipeline/candidates). LIVING SUBJECT: only documented public professional behaviour (training, preparation, match and touchline conduct, discipline episodes, career decisions) is scored; family, relationships, health, tax and legal matters, social-media business and motives were not used. READ (11 sources): TNT Sports 2015 feature (Fortune, Clegg), Goal on Fletcher (2018), Football Espana on Ancelotti (2014), TNT on Allegri (2018), Sky Sports extract of Balague's biography (2016), ESPN on the Ten Hag/Tottenham episode (2022), theScore on Santos and the 2022 benching, ESPN on the 2018 Juventus transfer, The National (June 2026), Guinness World Records entry; Wikidata for orientation. PERSPECTIVES: teammates (Fortune, Fletcher, Nani), coaches (Clegg, Ancelotti, Allegri, Santos, Ten Hag), independent biographer Balague with critics (Mourinho), news reports, and Ronaldo's own statements (2018 open letter, 2026 post-match remarks). Self material never sole support. NOT OPENED / EXCLUDED: Balague's full biography, Business Insider (server error), Ahram on Ancelotti (403), the Guardian and BBC (not reachable to the search tool), Ronaldo's 2022 Piers Morgan interview and the Man United exit (not read), the 90min piece on Walter Smith's training rule and the Butt anecdote (seen only in search summaries, not opened), the beIN recovery piece (summary only), Portugoal's July 2026 report (read for the elimination but it contradicts The National on whether the 2026 goals made him a five- or six-World-Cup scorer, so it is not used for any claim). Reported contract background in the 2018 transfer story is from unnamed sources and was not scored. Coverage is deliberately narrow (six rows); no trait is scored 85+ and confidence stays at or below 0.70 because nearly all behavioural sources are admiring coach and teammate accounts. Record totals differ by date (Guinness entry 115 international goals in 2021; The National 145 in June 2026), so editorial text cites dated figures. PORTRAIT: Commons file carries the {{Personality rights}} template (Restrictions: personality) in addition to CC BY-SA 4.0; same situation as the Lionel Messi candidate's Berlin photo from the same WikiPortraits series. The licence for the photograph itself is clear; the personality-rights notice is a non-copyright restriction that applies to commercial or defamatory reuse and should be reviewed by the lead if a stricter standard is wanted. ACHIEVEMENT SOURCE ADDED: Guinness Icons profile (award counts only) was opened to support the five Ballon d'Or and five Champions League titles after the first-pass editorial review found them missing."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/cristiano-ronaldo-berlin-2026.jpg",
+    "width": 1067,
+    "height": 1600,
+    "source": "Wikimedia Commons, 'Cristiano Ronaldo Croatia v Portugal 2 July 2026-075 (cropped).jpg' -- Bryan Berlin's own work, taken at the 2026 FIFA World Cup (WikiPortraits), 2 July 2026; resized from 2812 x 4215 pixels to 1067 x 1600 with no further cropping. The file page also carries the Commons 'Personality rights' template (non-copyright restriction).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Bryan Berlin (WikiPortraits), 2 July 2026, CC BY-SA 4.0, resized from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
+    "creator": "Bryan Berlin",
+    "date": "2026-07-02",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg"
+  }
+}

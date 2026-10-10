@@ -83,7 +83,7 @@ test("people directory: default (unfiltered) view shows the current live Directo
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
-  await expect(page.getByText(/^434 people$/)).toBeVisible();
+  await expect(page.getByText(/^448 people$/)).toBeVisible();
 });
 
 test("people directory: heading hierarchy still holds with an active search filter (en-US)", async ({ page }) => {
@@ -651,7 +651,16 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // roster42.md: 14 new people, all freshly researched, zero backlog reuse,
   // one portrait hold). Cross-facet count 9 re-verified with the Directory's
   // own filter (`filterPeople`) before this edit.
-  expect(bodyText).toMatch(/전체\s*435명\s*중\s*9명/);
+  // Total updated again 435->449 (Roster48, 2026-10-11, docs/checkpoints/
+  // roster48.md: 14 new people, all freshly researched, zero backlog reuse,
+  // one portrait hold). Unlike earlier cycles the cross-facet count DID move,
+  // 9->12: Leonard Bernstein, Johann Wolfgang von Goethe and Francis Crick each
+  // cross BOTH the curiosity and collaboration thresholds on their own
+  // evidence (verified on the rendered Directory result list).
+  expect(bodyText).toMatch(/전체\s*449명\s*중\s*12명/);
+  expect(bodyText).toContain("레너드 번스타인");
+  expect(bodyText).toContain("괴테");
+  expect(bodyText).toContain("프랜시스 크릭");
   expect(bodyText).toContain("베라 루빈");
   expect(bodyText).toContain("에르되시");
   expect(bodyText).toContain("오펜하이머");

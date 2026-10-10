@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "francis-crick",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Francis Crick",
+    "aliases": [
+      "Francis Harry Compton Crick",
+      "F. H. C. Crick"
+    ],
+    "wikidataId": "Q123280",
+    "birthYear": 1916,
+    "deathYear": 2004,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "biologist",
+      "scientist"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "theorist",
+      "career_changer",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_crick_wikidata",
+      "kind": "wikidata",
+      "title": "Francis Crick (Q123280) -- verified live via the Wikidata API (2026-10-10): English label 'Francis Crick', description 'British molecular biologist, biophysicist, neuroscientist; co-discoverer of the structure of DNA (1916-2004)', born 8 June 1916, died 28 July 2004, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q123280"
+    },
+    {
+      "id": "src_crick_nobelbio",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Francis Crick - Biographical', Nobel Prize in Physiology or Medicine 1962 (nobelprize.org; text written at the time of the award) -- institutional career record: physics degree, wartime Admiralty mine work, the 1947 move to biology with, in the text's words, no biology and practically no organic chemistry or crystallography, the helix diffraction theory, the 1953 DNA structure, and the later adaptor hypothesis and genetic-code work with Brenner. Work record only; family paragraph not used. Read in full.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1962/crick/biographical/"
+    },
+    {
+      "id": "src_crick_nlm",
+      "kind": "institution",
+      "title": "U.S. National Library of Medicine, Profiles in Science: Francis Crick Papers -- three scholarly essays: 'The Discovery of the Double Helix, 1951-1953', 'Defining the Genetic Coding Problem, 1954-1957' and 'From Molecular Biology to Neurobiology, 1976-2004'. INDEPENDENT institutional archive narrative drawing on the papers; includes the adaptor hypothesis circulated in the RNA Tie Club, the central dogma, the move to the Salk Institute, his stated skepticism of behaviorist approaches, his own admission that he had not produced a novel convincing theory in neurobiology, and the controversy over the use of Rosalind Franklin's data. Read in full; the 'Deciphering the Genetic Code' and 'Embryology' essays were not opened.",
+      "url": "https://profiles.nlm.nih.gov/spotlight/sc/feature/doublehelix"
+    },
+    {
+      "id": "src_crick_tamura",
+      "kind": "press",
+      "title": "Koji Tamura, 'The Genetic Code: Francis Crick's Legacy and Beyond', editorial, Life (Basel) 6(3):36, 25 August 2016 (open access via PubMed Central) -- scholarly centenary editorial by a tRNA researcher. Describes his collaborations with Watson, Brenner, Orgel and Koch, his adaptor hypothesis and central dogma, his initial refusal to accept that tRNA was the adaptor because of its size, the 1961 triplet-code paper, and his 'frozen accident' view with room left for stereochemical interactions. Admiring in tone but specific and dated; Tamura's cited quotations of others (the 'conductor' and 'nuclear reactor' phrases) were used only where the original source was also read. Read in full.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5041012/"
+    },
+    {
+      "id": "src_crick_sacks",
+      "kind": "biography",
+      "title": "Oliver Sacks, 'Remembering Francis Crick', The New York Review of Books, 24 March 2005 -- PEER witness and correspondent: a neurologist's first-hand account of Crick's 1962 talk on the triplet code, a 1986 dinner at which Crick demanded stories and generated hypotheses from each, and a 1987-88 exchange of long, prompt, detailed letters on a colour-blind patient, in which Crick consulted other vision scientists and pushed for scans and psychophysics. Admiring; used for dated, concrete scenes only. Read in full to the point of the letters; the final sections were skimmed.",
+      "url": "https://www.nybooks.com/articles/2005/03/24/remembering-francis-crick/"
+    },
+    {
+      "id": "src_crick_cobb",
+      "kind": "press",
+      "title": "Matthew Cobb and Nathaniel Comfort, 'What Rosalind Franklin truly contributed to the discovery of DNA's structure', Nature, 25 April 2023 -- INDEPENDENT modern historians (each writing a biography, Cobb of Crick) re-examining the 1953 discovery from Franklin's archive and Crick's own notes and interviews. Reports that Watson and Crick solved the structure by six weeks of trial-and-error model building and then used the King's College data, without permission, to confirm it; that Crick said he was glad he had not seen Franklin's data earlier; and that Franklin worked without a peer to exchange ideas with. Used as a counter-balance to the popular account, and for his working method. Read in full to the section on what Franklin did; the closing paragraphs were skimmed.",
+      "url": "https://www.nature.com/articles/d41586-023-01313-5"
+    },
+    {
+      "id": "src_crick_naturenews",
+      "kind": "press",
+      "title": "Helen Pilcher, 'Francis Crick', Nature News, 29 July 2004 (reprinted by BioEd Online, Baylor College of Medicine) -- obituary report noting his switch from physics to biology after the war, the 1962 Nobel Prize shared with Watson and Wilkins, his work on the genetic code, and his turn to consciousness at the Salk Institute, where he championed the idea that aspects of consciousness correlate with specific brain changes. A tribute quote from Watson is in the piece and was not used. Read in full.",
+      "url": "https://www.bioedonline.org/news/nature-news-archive/francis-crick/"
+    },
+    {
+      "id": "src_crick_plos",
+      "kind": "institution",
+      "title": "Siegel RM and Callaway EM, 'Francis Crick's Legacy for Neuroscience: Between the alpha and the Omega', PLoS Biology 2(12):e419, 2004 (open access, CC BY) -- the publication in which the portrait photograph (credited to Marc Lieberman) appeared; used only to check the portrait's licence and credit. Not used for scoring.",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020419"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 84,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_crick_nobelbio, src_crick_nlm, src_crick_naturenews, src_crick_tamura | 1937-2004 | award body + archive essays + obituary + scholar] Physics at University College London and wartime mine work gave way, in 1947, to biology and then to X-ray crystallography, the genetic code, origin-of-life questions and, from 1977 at the Salk Institute, neuroscience and consciousness; NLM stresses that in each field he was a theorist assimilating results from many disciplines. Four independent sources describe the same three-field arc; held below 90 because the neuroscience work is described as less decisive than the earlier fields. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on institutional essays, one peer recollection and obituaries; the biographies and Crick's own books were not opened; score and confidence lowered."
+    },
+    "mastery_orientation": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_crick_nobelbio, src_crick_nlm, src_crick_sacks | 1947-1990s | award body + archive essays + peer] The Nobel text records that in 1947 he knew no biology and practically no organic chemistry or crystallography and spent the next years learning them; NLM says that when he moved to neurobiology at 60 he again educated himself deeply by reading experimental papers in neuroanatomy, neurophysiology and psychophysics and forged contacts with specialists; Sacks describes five-page detailed letters and requests for scans and psychophysics. The same deliberate re-training in two fields is documented by independent sources. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on institutional essays, one peer recollection and obituaries; the biographies and Crick's own books were not opened; score and confidence lowered."
+    },
+    "systems_abstraction": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_crick_nlm, src_crick_tamura, src_crick_nobelbio | 1951-1958 | archive essays + scholar + award body] NLM says it fell to Watson and Crick to unify disparate findings by Todd, Chargaff, Wilkins, Franklin and Pauling into a coherent account of the double helix, and that his 1957 paper set out the sequence hypothesis and central dogma; the same archive says his role in neurobiology was to assimilate ideas from many disciplines and propose theories. Tamura and the Nobel text name the adaptor hypothesis and central dogma, the latter still holding. The abstraction of information flow into general principles is documented from several sources. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on institutional essays, one peer recollection and obituaries; the biographies and Crick's own books were not opened; score and confidence lowered."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_crick_nlm, src_crick_tamura, src_crick_cobb | 1953-1961 | archive essays + scholar + historians] NLM says the adaptor hypothesis, circulated in a 1955 note, was soon confirmed by the discovery of adaptor RNAs and enzymes 'exactly as Crick had predicted'; Cobb and Comfort show that the double-helix structure came from the pair's own model building, with other groups' data used afterwards as a check, not as the source; Tamura describes the central dogma and the 1961 triplet-code work. Held at 84 because the Franklin priority debate shows the discoveries were built on others' data and the independent pieces credit teamwork. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on institutional essays, one peer recollection and obituaries; the biographies and Crick's own books were not opened; score and confidence lowered."
+    },
+    "collaboration": {
+      "score": 82,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_crick_tamura, src_crick_nlm, src_crick_sacks, src_crick_cobb | 1951-1990s | scholar + archive essays + peer + historians] Tamura says his research style was characterised by collaborations with outstanding partners (Watson, Brenner, Orgel, Koch) and that he always discussed his ideas; NLM calls him the intellectual leader of the coding effort, distributing, critiquing and connecting results from many sources and mediating between scientists of differing opinions; Sacks describes him as a hub in touch with the neuroscientific world and consulting others; Cobb and Comfort contrast the informal exchange Watson and Crick were immersed in with Franklin's relative isolation. Four independent sources agree. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on institutional essays, one peer recollection and obituaries; the biographies and Crick's own books were not opened; score and confidence lowered."
+    },
+    "curiosity": {
+      "score": 82,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_crick_sacks, src_crick_nlm, src_crick_tamura | 1954-1990 | peer + archive essays + scholar] Sacks describes a 1986 dinner at which Crick seized him and said 'Tell me stories!' and set off bursts of hypotheses from each patient story, and prompt, minutely argued five-page letters; NLM describes his 1954 attempt to test colinearity using human tears and his choice of 'the gossip test' for fields, and Tamura calls him never modest in his choice of problems. Dated scenes from one admiring peer plus archive narrative; kept at 0.66."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_crick_nlm, src_crick_tamura, src_crick_sacks | 1951-2004 | archive essays + scholar + peer] NLM says Watson and Crick pursued the structure with single-minded focus for eighteen months, that the code work occupied him for about thirteen years, and that Crick was still editing a manuscript with Koch days before his death; Tamura says he spent the last 28 years on the brain; Sacks notes the code was cracked after four years of intense work. Long documented commitments, but each is described in a sentence by secondary sources, so strong inference."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_crick_nlm, src_crick_naturenews | 1981-1994 | archive essays + obituary] NLM says he was skeptical of the behaviorist and functionalist approaches then predominant, argued that consciousness could be studied without first being defined (an influential 1990 article with Koch), and in 1981 proposed 'directed panspermia' for the origin of life; Nature News calls his consciousness programme radical at the time and credits him with giving the field respectability. The speculative panspermia proposal and NLM's own remark on his unrealised theory in neurobiology make the impact dual-edged; two sources only, hence 0.62."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_crick_tamura, src_crick_nlm, src_crick_cobb | 1958-1968 + 1990s | scholar + archive essays + historians] Tamura reports that when tRNA was discovered Crick did not believe it was the adaptor because of its large size and insisted there would be twenty different adaptors, though NLM says experiments confirmed the existence of adaptors and enzymes as he had predicted; in 1968 he asked for 'direct experimental proof' of stereochemical interactions rather than vague models; and in neurobiology he admitted he had not produced a convincing novel theory. Cobb and Comfort record him writing he was glad he had not seen Franklin's data earlier. Mixed evidence of both resistance and open acknowledgment of limits, so a near-neutral score with reduced confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프랜시스 크릭"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/francis-crick-lieberman-2004.jpg",
+    "width": 1200,
+    "height": 894,
+    "source": "Wikimedia Commons, 'Francis Crick.png' -- photograph credited to Marc Lieberman showing Crick in his office with a brain model behind him; first published in Siegel and Callaway, PLoS Biology 2(12):e419 (2004), an open-access article under the Creative Commons Attribution licence; original Commons file 3000 x 2236 pixels (greyscale PNG), converted to JPEG and downscaled once to 1200 x 894 (never upscaled).",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "attribution": "Photo: Marc Lieberman, via Siegel RM and Callaway EM, PLoS Biology 2004, CC BY 2.5",
+    "attributionUrl": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020419",
+    "creator": "Marc Lieberman",
+    "date": "c. 1990s-2004 (photo undated; published 2004)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Francis_Crick.png"
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q123280 returned en label 'Francis Crick', description 'British molecular biologist, biophysicist, neuroscientist; co-discoverer of the structure of DNA (1916-2004)', born 1916-06-08, died 2004-07-28; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID (only passing mentions in other people's source text). READ (6 substantive sources): the Nobel Foundation biography, three U.S. National Library of Medicine Profiles in Science essays (double helix, genetic coding problem, neurobiology), Tamura's 2016 centenary editorial in Life, Sacks's 2005 NYRB recollection, Cobb and Comfort's 2023 Nature re-examination of the discovery, and Pilcher's 2004 Nature News obituary report. PERSPECTIVES: award body, institutional archive scholarship (NLM), scholarly admirer (Tamura), peer and correspondent (Sacks), independent modern historians critical of the popular narrative (Cobb and Comfort), obituary press. NOT OPENED: Ridley's and Olby's biographies, Crick's own What Mad Pursuit and Nobel lecture (self sources), the NLM 'Deciphering the Genetic Code' and 'Embryology' essays, Horace Judson's Eighth Day of Creation, Sejnowski's Neuron obituary, the Royal Society memoir, the UCL notice (blocked). EXCLUSIONS (deliberate): all of Watson's later controversial statements and every characterisation by Watson of Crick or Franklin (the Nature News tribute quote and the critique of The Double Helix narrative were not used as evidence of his personality); Crick's family, marriages, children and illness; politics and religion; and his scientific priority dispute over Franklin's data, which is recorded in source notes but left unscored because the sources disagree on whether the use was improper and no trait row can be separated from that question. SCORING: 9 rows, highest 88 (cross-domain range) and 86 (collaboration); lowest 58 (belief updating) and 76 (persistence, independent thinking); confidence 0.55-0.72, no row above 0.72; evidence is largely admiring or institutional, with Cobb and Comfort and the NLM essays providing the critical counterweight. FIELDS: the lead's hint was natural_science; biology also exists in the controlled field vocabulary and both are listed, no new vocabulary was added. PORTRAIT: Commons 'Francis Crick.png', credited to Marc Lieberman and published in PLoS Biology 2004 under CC BY (the PLOS article page states the CC Attribution licence and credits 'Photo: Marc Lieberman'); the Commons record gives the Siegel and Callaway article as source; the Commons 'Taken on 14 December 2004' date is the article date, not a verified photo date. The Wellcome Collection images of Crick on Commons (tagged CC BY 4.0) were deliberately avoided because the Wellcome 'in copyright' trap could not be resolved from the Commons record; the Norman Seeff photograph credited in Tamura's paper was also avoided (copyright retained by the photographer). Original greyscale PNG 3000 x 2236, converted to JPEG at 1200 x 894. LEAD REVIEW (Roster48): 5 top row(s) lowered before eligibility (built on institutional essays, one peer recollection and obituaries; the biographies and Crick's own books were not opened)."
+  }
+}

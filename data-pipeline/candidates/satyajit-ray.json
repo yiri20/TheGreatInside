@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "satyajit-ray",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Satyajit Ray",
+    "aliases": ["Satyajit Roy"],
+    "wikidataId": "Q8873",
+    "birthYear": 1921,
+    "deathYear": 1992,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["IN"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["film_director", "writer"],
+    "fieldIds": ["film", "literature"],
+    "impactDomains": ["artistic", "cultural"],
+    "tagIds": ["craft_focused", "independent", "prolific"],
+    "archetypeIds": ["creative_creator", "independent_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ray_wikidata",
+      "kind": "wikidata",
+      "title": "Satyajit Ray (Q8873) -- verified live via the Wikidata API (2026-10-10): English label 'Satyajit Ray', description 'Indian filmmaker and writer (1921-1992)', born 2 May 1921, died 23 April 1992, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q8873"
+    },
+    {
+      "id": "src_ray_makingpp",
+      "kind": "institution",
+      "title": "'Making of Pather Panchali', satyajitray.org (the Ray Society's official site) -- chronological account of 1950-1955: the search for a producer, the notebook and sketchbook used to explain the film, Sunday shooting, funding gaps, government installments, the MoMA deadline and ten days of continuous post-production. Official, family-run and admiring; the funding and learning-by-shooting details are factual, the rest is the family's account. Read in full.",
+      "url": "https://satyajitray.org/making-of-pather-panchali/"
+    },
+    {
+      "id": "src_ray_notebooks",
+      "kind": "institution",
+      "title": "Sandip Ray, 'Ray's Notebooks, Unseen', DaakBangla, 2021 -- the filmmaker's son describes Ray's per-film notebooks: script drafts, frame sketches, costume and title designs, set layouts with seat numbers, a hand-drawn army procession for The Chess Players. Family member, admiring, first-hand knowledge of the notebooks. Read in full.",
+      "url": "https://daakbangla.com/2021/05/notebooks-unseen/"
+    },
+    {
+      "id": "src_ray_lwl",
+      "kind": "press",
+      "title": "Arun AK, 'Satyajit Ray at 100: The musical genius behind the auteur', Little White Lies, 2021 -- independent film-magazine essay on Ray's turn to composing his own scores from Teen Kanya (1961), including his stated reason, the complaints of two Indian classical composers about his interference, and Ravi Shankar's contrary praise. Read in full.",
+      "url": "https://lwlies.com/articles/satyajit-ray-centenary-music-wes-anderson/"
+    },
+    {
+      "id": "src_ray_criterion",
+      "kind": "press",
+      "title": "A. O. Scott, 'The Apu Trilogy: Every Common Sight', Criterion Collection essay -- independent critical essay on the making of Pather Panchali (shot over two and a half years with interruptions when funds ran out, no finished script, first-time crew), its reception, and Aparajito's different form. Read in full.",
+      "url": "https://www.criterion.com/current/posts/3798-the-apu-trilogy-every-common-sight"
+    },
+    {
+      "id": "src_ray_encyclopedia",
+      "kind": "biography",
+      "title": "'Ray, Satyajit', International Dictionary of Films and Filmmakers biographical entry, reproduced on Encyclopedia.com -- reference biography and critical essay: career chronology, awards list, the statement that his sketches became storyboard elements, an 'endless search for the elusive producer' who would accept his terms, one film or more a year until 1983, and a critical note that he has been accused of softening evil. Read in full.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/film-and-television-biographies/satyajit-ray"
+    },
+    {
+      "id": "src_ray_esquire",
+      "kind": "press",
+      "title": "Shantanu Ray Chaudhuri, interview with actress Sharmila Tagore, Esquire India, 2 July 2025 -- she recalls her first shot for Ray in Apur Sansar, directed in exact step-by-step cues and completed in one take. Actor's first-hand recollection decades later; affectionate. Her private life was not used. Read in full.",
+      "url": "https://www.esquireindia.co.in/entertainment/the-interview/woman-we-love/amp"
+    },
+    {
+      "id": "src_ray_livehistory",
+      "kind": "press",
+      "title": "'Feluda: A Sleuth For All Times', Live History India -- history of Ray's detective fiction and writing career: the family children's magazine Sandesh, 35 Feluda stories and novels from 1965 to 1992 serialised in Sandesh and Desh. Popular journalism. Read in full.",
+      "url": "https://livehistoryindia.com/story/snapshort-histories/feluda"
+    },
+    {
+      "id": "src_ray_oscar",
+      "kind": "press",
+      "title": "ETV Bharat Entertainment Team, 'India's Most Glorious Oscar Moment, A Hospital Bed And A Legend', 13 March 2026 -- account of the 1992 honorary Academy Award, quoting the Academy's citation and Ray's acceptance remarks. Award facts only; health passages not used. Read in full.",
+      "url": "https://www.etvbharat.com/en/entertainment/indias-most-glorious-oscar-moment-a-hospital-bed-and-a-legend-enn26031304719"
+    },
+    {
+      "id": "src_ray_awards",
+      "kind": "institution",
+      "title": "'Awards won by Satyajit Ray and his films', satyajitray.org -- official list of honours including the Bharat Ratna, the 1992 honorary Academy Award, Cannes 1956 Best Human Document and the Venice Golden Lion for Aparajito (1957). Record facts only; official site. Read in full.",
+      "url": "https://satyajitray.org/awards/"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ray_notebooks, src_ray_makingpp, src_ray_lwl, src_ray_encyclopedia | 1950-1992 | family, official site, independent magazine, reference] Ray kept a notebook for each film with script drafts, frames sketched beside the dialogue, costume designs and set layouts (his son); he used a notebook and sketchbook to explain his first film to producers (official site); the reference biography says his sketches became storyboard elements; the independent essay says he began working on a film's music at the script stage. Counter-note: the Criterion essay reports he had no finished script for Pather Panchali, so the planning was visual and notebook-based rather than a fixed script. Several descriptions agree; family-heavy, so confidence stays under 0.65."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ray_notebooks, src_ray_criterion, src_ray_esquire | 1952-2025 | son, independent critic, actress] The notebooks specify costume fabrics, seat numbers in a train set and every element of a marching army (his son, admiring); Criterion reports that he wanted to observe and probe a village for revealing details and gestures; Tagore recalls being directed in exact physical cues with the first take accepted. The detail claims rest mainly on admiring or family sources and one recollection, so strong inference rather than documented."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ray_makingpp, src_ray_criterion, src_ray_encyclopedia | 1950-1955 | official site, independent critic, reference] About two years passed without a producer; he borrowed against his insurance policy and from friends and shot on Sundays around a day job; shooting paused for about a year when money ran out and resumed on government installments; the independent essay confirms two and a half years of shooting with interruptions when funds ran out, and the reference biography calls the search for a producer 'endless'. The independent essay corroborates the official account of repeated funding interruptions."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ray_encyclopedia, src_ray_lwl, src_ray_makingpp | 1950-1961 | reference biography, independent magazine, official site] The reference biography says his independent filmmaking meant searching for a producer who would accept his non-negotiable artistic terms; he stopped using outside composers because, in his own words, he had too many musical ideas of his own and composers resented being guided, and two of those composers accused him of excessive interference. Strong control over his own work, with a cost in collaborative friction; the quote is self-reported."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ray_lwl, src_ray_makingpp, src_ray_notebooks | 1950-1964 | independent magazine, official site, son] He assembled a young technical team (cinematographer Subrata Mitra, art director Bansi Chandra Gupta) and drew set designs his art director built, but sitarist Vilayat Khan and sarodist Ali Akbar Khan complained of his interference while Ravi Shankar said he was the best filmmaker he had worked with. Mixed evidence, hence a middling score and dual-edged impact."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ray_lwl, src_ray_encyclopedia, src_ray_livehistory, src_ray_notebooks | 1943-1992 | independent magazine, reference, journalism, son] Besides directing and writing his screenplays he composed his own film scores from 1961, worked as an illustrator and designed titles and posters, wrote 35 Feluda stories and novels, and edited and illustrated the children's magazine Sandesh. Four sources of different kinds converge on a documented body of output; the score reflects breadth of output, not an inference about temperament."
+    },
+    "aesthetic_sensitivity": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ray_notebooks, src_ray_lwl, src_ray_criterion | 1955-1991 | son, independent magazine, independent critic] He trained as a commercial artist, drew costume, title-lettering and character sketches for his films, and the critic reads his first film's rhythm and sound as consciously composed, quoting his view that Indian cinema lacked a sense of musical form. Admiring-source heavy, so no higher."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사티아지트 레이"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q8873 returned en label 'Satyajit Ray', description 'Indian filmmaker and writer (1921-1992)', born 2 May 1921, died 23 April 1992, instance of human; Korean label matches. SLUG/QID CHECK: no existing production or candidate slug or QID collision. READ (9 substantive sources, Wikidata for orientation only): satyajitray.org Making of Pather Panchali and Awards pages (official), Sandip Ray in DaakBangla (family), Little White Lies (independent), Criterion/A. O. Scott (independent critic), Encyclopedia.com biographical entry (reference), Esquire India Tagore interview (actor recollection), Live History India (journalism), ETV Bharat Oscar article (award facts). PERSPECTIVES: official/family, independent critics and journalists, a reference biography, an actor, and the complaining composers via one independent report. EXCLUDED: family and private life (marriage, son, mother's connections, the wife's jewelry pawned in the funding story), politics, health and heart attacks, Ray's dispute over his unmade film The Alien and the E.T. claim (contested, popular single-source retellings, not scored), and any inference from illness. NOT OPENED: Andrew Robinson's 'The Inner Eye' and Ray's own books (no access), Criterion video essays and the Soumitra Chatterjee Silhouette interview (video, no transcript), Tampa Bay Times 1992 obituary (paywalled), Guardian/NYT obituaries (not found). The evidence is sympathetic overall; the only adversarial strands are the composers' interference complaints and the reference entry's note that he was accused of softening evil. Seven rows; highest score 82, highest confidence 0.66. PORTRAIT: Commons 'Satyajit Ray in New York (cropped).jpg' by Dinu Alam, 12 October 1981, own work, CC BY-SA 4.0 per the file page, no restriction template; low resolution (398 x 531) but legally clear; not upscaled; the uncropped original is 649 x 980."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/satyajit-ray-dinu-alam-1981.jpg",
+    "width": 398,
+    "height": 531,
+    "source": "Wikimedia Commons, 'Satyajit Ray in New York (cropped).jpg' -- photograph by Dinu Alam (uploaded as Dinu Alam Newyork, own work), 12 October 1981, cropped from 'Satyajit Ray in New York.jpg' (649 x 980); the file is the cropped version at its original 398 x 531 pixels, not resized.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Dinu Alam, 12 October 1981, CC BY-SA 4.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Satyajit_Ray_in_New_York_(cropped).jpg",
+    "creator": "Dinu Alam",
+    "date": "1981-10-12",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Satyajit_Ray_in_New_York_(cropped).jpg"
+  }
+}
