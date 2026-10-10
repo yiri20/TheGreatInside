@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "marcel-proust",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Marcel Proust",
+    "wikidataId": "Q7199",
+    "birthYear": 1871,
+    "deathYear": 1922,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "late_recognition",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_proust_wikidata",
+      "kind": "wikidata",
+      "title": "Marcel Proust (Q7199) -- verified live via wbgetentities (2026-10-10): en label 'Marcel Proust', description 'French novelist, critic and essayist (1871-1922)', born 10 Jul 1871, died 18 Nov 1922, citizenship France, ko label '마르셀 프루스트'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7199"
+    },
+    {
+      "id": "src_proust_pierrequint1927",
+      "kind": "biography",
+      "title": "Leon Pierre-Quint, 'Marcel Proust: His Life and Work' (translated by Hamish Miles, Alfred A. Knopf, New York, 1927; French original 1925), Internet Archive full text -- ADMIRING early critic-biographer (a contemporary reader and advocate who knew Proust's circle), writing within five years of his death from correspondence and acquaintances. Read: the chapters on the Ruskin years, the cork-lined room, the publisher refusals of 1912-1913 and Swann at Grasset, the reception of 1913, the NRF reconciliation, the war years and the last-years revision of proofs. Translation slips noted (it gives the Bible of Amiens as 1914; Pierre-Quint's own bibliography and Kolb's volume give 1904). The sections of literary analysis were skimmed.",
+      "url": "https://archive.org/details/marcelprousthisl0000leon"
+    },
+    {
+      "id": "src_proust_pierrequint1928",
+      "kind": "biography",
+      "title": "Leon Pierre-Quint, 'Comment travaillait Proust' (Editions des Cahiers libres, Paris, 1928), Internet Archive full text -- ADMIRING critic's study of Proust's working methods. Read: the bibliography listing Proust's books and their editions (Du cote de chez Swann at Grasset 1913 then NRF; the volumes to Le Temps retrouve 1927; the Ruskin translations of 1904 and 1906), the introduction, and the closing section that reprints Proust's own 1913 letter to the writer Rene Blum asking him to approach the publisher Bernard Grasset (self source, quoted by an admirer). The long section comparing magazine and book variants of one extract was skimmed, not checked line by line.",
+      "url": "https://archive.org/details/commenttravailla0000leon_o4s3"
+    },
+    {
+      "id": "src_proust_souday1927",
+      "kind": "press",
+      "title": "Paul Souday (critic of the daily Le Temps), 'Marcel Proust' (Simon Kra, Paris, 1927, eighth edition), Internet Archive full text -- CONTEMPORARY CRITICAL REVIEWS reprinted in the book: his feuilleton on Du cote de chez Swann of 10 December 1913 (praise for talent and imagination, but 'not composed', 'chaotic', with grammatical slips he asks why Proust does not correct on proof) and his piece on the 1919 Prix Goncourt for A l'ombre des jeunes filles en fleurs (the decision was 'not generally well received'; he notes Proust still lets slips pass in his proofs). Read both chapters in full; the later chapters on the novel as a whole were not read.",
+      "url": "https://archive.org/details/marcelproust00soud"
+    },
+    {
+      "id": "src_proust_dreyfus1926",
+      "kind": "biography",
+      "title": "Robert Dreyfus (school friend of Proust from the 1880s), 'Souvenirs sur Marcel Proust, accompagnes de lettres inedites' (Bernard Grasset, Paris, 1926), Internet Archive full text -- FRIEND's memoir with published letters of 1888-1908. Read: the passages on Proust's schooldays, the letters of 1905-1908 mentioning his Ruskin translation work and his tastes in painting, and the closing chapters. Warm, anecdotal; not used for any claim about health or family.",
+      "url": "https://archive.org/details/souvenirssurmarc0000robe"
+    },
+    {
+      "id": "src_proust_kolb1914",
+      "kind": "archive",
+      "title": "Philip Kolb (ed.), 'Correspondance de Marcel Proust', tome XIII: 1914 (Plon, Paris, 1985), Internet Archive full text -- scholarly critical edition of Proust's letters, with the editor's notes quoting the Grasset publishing house's own letter-books. Read: Andre Gide's letter of 10-11 January 1914 apologising for the NRF's refusal of Swann and Proust's reply, Proust's letters of April-May 1913 to Bernard Grasset about the extent of his proof corrections, Grasset's replies, the Grasset staff's June 1914 notes on Proust's demand for more proofs, and the Proust-Riviere letters on the NRF extract. Letters are SELF sources, but Gide's letter and the Grasset publisher-side notes are independent of Proust. Letters about health, family and private relationships were not used.",
+      "url": "https://archive.org/details/correspondancede0003phil_3"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_proust_pierrequint1927, src_proust_kolb1914, src_proust_souday1927, src_proust_pierrequint1928 | 1913-1922 | admiring critic-biographer + critical edition quoting the publisher's own letter-books + critical contemporary reviewer] Pierre-Quint reports that half of Du cote de chez Swann was rewritten four times on the first proofs and that in his last years Proust kept adding to proofs, then to the revised proofs, until the publisher 'was obliged to tear them from his hands' (the finished work nearly three times the length of the 1913 manuscript, by his footnote). The publisher's side is independent: in April-May 1913 Proust wrote to Grasset that he had reworked the proofs so heavily that he would be dishonest not to pay for the extra composition, and offered to pay a supplement; in June 1914 Grasset's staff wrote to the printer that the author 'absolutely wants many more proofs' and told the printer to take more care and leave double or triple margins, because Proust had telephoned that the corrected proofs were full of errors. Souday, a critic, complained at the same time of surviving slips of grammar and asked why Proust did not correct his proofs, which shows that the revising did not produce a clean text; hence dual_edged. Several dated instances from three perspectives; capped below 85 because the sources are mostly of one era and the admirer's account supplies the volume figures."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_proust_pierrequint1927, src_proust_pierrequint1928, src_proust_kolb1914, src_proust_souday1927 | 1912-1919 | admiring critic-biographer + publisher-side notes + critical reviewer] Pierre-Quint records that Swann was declined by the NRF (not read, in his account), by the Mercure de France, by Fasquelle and by Ollendorff (whose director, Humblot, wrote that he could not understand how anyone could spend thirty pages on turning over in bed), and that Proust, after a wait at each stage, still decided to have it published at Grasset at his own expense with a percentage of sales to the publisher, in a letter to Rene Blum that spells out the terms and his fear of further delay. Gide's January 1914 letter independently confirms the NRF's refusal as 'the gravest error' of the review, and Proust's reply says he had gone on soliciting the NRF 'in spite of' repeated refusals. Souday's 1913 review and Pierre-Quint's account of the near-silence of the press show how little immediate reward there was; Proust continued with the second volume, which won the 1919 Goncourt. Documented sequence across publishers and years; the rows rest on the publishing record only, not on any inference from health."
+    },
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_proust_pierrequint1927, src_proust_souday1927, src_proust_kolb1914 | 1912-1914 | admiring critic-biographer + critical contemporary + peer's letter] In Pierre-Quint's account Proust himself says the book 'has no resemblance to the classic novel'; Fasquelle's refusal calls it too massive and 'different from what the public is in the habit of reading', and the opening pages bored Ollendorff's director; Souday, a sceptical contemporary, calls it 'chaotic' and 'not composed' by French standards but praises its 'very original beauties' and imagination; Gide, a leading novelist of the NRF, writes in January 1914 that he is steeped in the book 'with delight'. Proust himself describes (letter to Blum, 1913) a work of very complex composition that he fears will look like digressions. Strong inference rather than documented: originality is inferred from the contemporaries' reactions to the form rather than measured, and some are admirers."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_proust_pierrequint1927, src_proust_pierrequint1928, src_proust_kolb1914 | 1912-1914 | admiring critic-biographer + publisher-side notes + peer's letter] Pierre-Quint reports that Proust wanted to bring out the book at his own expense so that he 'would be free to dispose of it according to his own ideas', held to that against the advice of friends, and feared publishers' demands for cuts, separate titles and gaps between volumes; in his 1913 letter he asks for a firm yes at his own cost because he wants 'the clear presentation' of his work. In 1914 he told Gide (letter) that he had given up an existing publisher and newspaper to seek a review and publisher he thought suited the book, and Pierre-Quint says he changed publisher 'for reasons of pure literature' and refused better terms from the NRF than Grasset's. Several dated episodes but all concern the one project and are largely in Proust's own words, hence moderate score and confidence."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_proust_pierrequint1928, src_proust_pierrequint1927, src_proust_kolb1914 | 1912-1913 | admiring critic + admiring biographer + critical edition] Rather than wait for acceptance, Proust approached publishers himself and through friends (Louis de Robert, Gaston Calmette, Rene Blum, Antoine Bibesco), proposed paying for the edition and the publicity, wrote to Blum that he wanted the first proofs started at once and some extracts released in advance, and Kolb's notes show extracts appeared in Le Figaro in 1913 before the volume (a reference to an extract of 25 March 1913). Documented, repeated initiative in one campaign; no wider evidence in the sources read."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_proust_pierrequint1927, src_proust_pierrequint1928 | 1912-1913 | admiring critic-biographer + self letter quoted by an admirer] Proust put up the cost of printing and publicity for a very long first volume, against the advice of friends who said that publishing at the author's expense would lower his standing, and in his letter to Blum he sets out the objection, which he expects to hear, that an author-financed edition 'will ridicule you'. The reputational gamble is documented; it was partly limited, however, by the percentage on sales that he offered the publisher, and the sources do not show what he lost or risked financially. Moderate score and confidence."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_proust_pierrequint1928, src_proust_pierrequint1927, src_proust_kolb1914, src_proust_souday1927 | 1913-1922 | admiring critic + admiring biographer + publisher-side notes + critical reviewer] Pierre-Quint's comparison of the magazine and book versions of one extract says Proust's changes were often for precision (replacing a word by a more exact one, rarely adding a vague adverb) and that he inserted brief allusions to earlier episodes to tie parts of the work together; the publisher-side notes show him demanding more proofs and wide margins for his corrections. Against this, Souday found slips of grammar in the printed text. Inference rests mainly on an admirer's analysis of one extract."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_proust_pierrequint1927, src_proust_dreyfus1926, src_proust_kolb1914 | 1899-1914 | admiring biographer + friend's memoir with letters + critical edition] Pierre-Quint says Proust made study journeys to churches for his Ruskin work and then spent about six years on the translations and prefaces; Dreyfus prints his 1908 letter on his preference in art for painters' late works (Monet's fogs, Rembrandt's sunlight); Kolb's chronology quotes his own January 1914 remark that he rose rarely, usually to go to the Schola or the Concert Rouge for Beethoven quartets. Three perspectives, but each shows taste or study of art rather than a dated creative decision, so moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마르셀 프루스트"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q7199 returned en label 'Marcel Proust', description 'French novelist, critic and essayist (1871-1922)', P569 10 Jul 1871, P570 18 Nov 1922, citizenship France (Q142), ko label '마르셀 프루스트', P18 'Marcel Proust 1895.jpg'. Slug marcel-proust absent from scratch/prod_slugs.txt and data-pipeline/candidates before this file. Region and field follow the Jules Verne precedent (western_europe, literature). NOT ACCESSIBLE / NOT READ: George Painter, 'Marcel Proust: A Biography'; Jean-Yves Tadie, 'Marcel Proust: A Life'; Celeste Albaret, 'Monsieur Proust' (all in copyright, no full text); Samuel Beckett, 'Proust' (1931) and Edmund Wilson, 'Axel's Castle' (1931) (Internet Archive lending only; 401 on full text); Gallica scans of the 1913 Le Figaro reviews and the NRF's own letters from Jacques Riviere and Henri Gheon (reached only through Kolb's notes and Pierre-Quint). Perspectives actually read: Pierre-Quint (admiring critic-biographer, two works), Souday (critical contemporary reviewer), Dreyfus (school friend), Gide (peer novelist and NRF editor, via his published letter), the Grasset house's own correspondence as quoted by Kolb, and Proust's own letters (self). Independent of Proust: Souday, Gide, Grasset staff, Dreyfus (friend). Unscored by design: asthma/illness and the cork-lined room as a medical fact, sexuality and relationships (Agostinelli, Hahn), bereavement, death; Jean Santeuil and Contre Sainte-Beuve were not documented in the sources read and are not used; the 'night writing' is mentioned in two sources only in connection with illness and is not scored. Scores kept below 82 and confidence below 0.70. Row set deliberately sparse (publishing-struggle and proof-revision behaviour dominate the readable record). PORTRAIT RIGHTS: basis is the photographer's death (Otto Wegener, 1849-1924, per English Wikipedia) so life+70 expired in France in 1994 and the work was already public domain in France on 1 January 1996 (United States restoration date); the Commons page uses a public-domain-by-age template and shows no conflicting rightsholder notice. Caveats: the Commons file's upstream is a web copy on a blog (not an institution page), and the image is a contrast-enhanced, halftone-looking reproduction; I did not locate the sitter-card's institutional record or a documented first publication date, and Gallica/BnF (a different pose of the same sitting, 1965 exhibition catalogue) is only cited by Commons for another file. Not bypassing any bot wall; the Carnavalet/Sotheby's files on Commons are different poses with copy-derived sources. Anefo/Nationaal Archief CC0 print (unknown photographer, 1967 copy negative, 2231x2911) was considered and rejected because the underlying photographer is unknown."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/marcel-proust-wegener-1895.jpg",
+    "width": 1207,
+    "height": 1600,
+    "source": "Wikimedia Commons file 'Marcel Proust 1895.jpg', a contrast-enhanced scan of a studio portrait by Otto Wegener, Paris, 1895",
+    "license": "Public domain (photographer Otto Wegener died in 1924, so protection in France and the United States has long expired)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Marcel_Proust_1895.jpg",
+    "attribution": "Otto Wegener, 1895; scan from a web copy of the photographer's cabinet card, uploaded to Wikimedia Commons by Yann Forget",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Marcel_Proust_1895.jpg",
+    "creator": "Otto Wegener",
+    "date": "1895",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Marcel_Proust_1895.jpg"
+  }
+}

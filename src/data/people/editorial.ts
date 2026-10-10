@@ -9673,4 +9673,191 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "sonja-henie-turning-point-1", textKey: "sonja-henie.turning_point.1", interpretationKey: "sonja-henie.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_henie_snl_larsen", "src_henie_vanityfair_jacobs", "src_henie_wiehl_encyclopedia"] },
     ],
   },
+  "andre-marie-ampere": {
+    achievements: [
+      { id: "andre-marie-ampere-achievement-1", textKey: "andre-marie-ampere.achievement.1", sourceIds: ["src_ampere_arago1839", "src_ampere_whittaker1910", "src_ampere_maxwell1873", "src_ampere_mactutor", "src_ampere_nist"] },
+      { id: "andre-marie-ampere-achievement-2", textKey: "andre-marie-ampere.achievement.2", sourceIds: ["src_ampere_valson1886", "src_ampere_whittaker1910", "src_ampere_arago1839"] },
+      { id: "andre-marie-ampere-achievement-3", textKey: "andre-marie-ampere.achievement.3", sourceIds: ["src_ampere_mactutor", "src_ampere_eb1911", "src_ampere_arago1839"] },
+    ],
+    moments: [
+      { id: "andre-marie-ampere-moment-1", textKey: "andre-marie-ampere.moment.1", interpretationKey: "andre-marie-ampere.interpretation.moment.1", attributeId: "deep_focus", sourceIds: ["src_ampere_valson1886"] },
+      { id: "andre-marie-ampere-moment-2", textKey: "andre-marie-ampere.moment.2", interpretationKey: "andre-marie-ampere.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_ampere_valson1886", "src_ampere_mactutor"] },
+    ],
+    turningPoints: [
+      { id: "andre-marie-ampere-turning-point-1", textKey: "andre-marie-ampere.turning_point.1", interpretationKey: "andre-marie-ampere.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_ampere_arago1839", "src_ampere_whittaker1910", "src_ampere_valson1886", "src_ampere_mactutor"] },
+    ],
+  },
+  "david-hilbert": {
+    achievements: [
+      { id: "david-hilbert-achievement-1", textKey: "david-hilbert.achievement.1", sourceIds: ["src_hilbert_mactutor", "src_hilbert_paris1900"] },
+      { id: "david-hilbert-achievement-2", textKey: "david-hilbert.achievement.2", sourceIds: ["src_hilbert_mactutor", "src_hilbert_sep_program"] },
+      { id: "david-hilbert-achievement-3", textKey: "david-hilbert.achievement.3", sourceIds: ["src_hilbert_mactutor"] },
+      { id: "david-hilbert-achievement-4", textKey: "david-hilbert.achievement.4", sourceIds: ["src_hilbert_mactutor"] },
+    ],
+    moments: [
+      { id: "david-hilbert-moment-1", textKey: "david-hilbert.moment.1", interpretationKey: "david-hilbert.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_hilbert_mactutor"] },
+      { id: "david-hilbert-moment-2", textKey: "david-hilbert.moment.2", interpretationKey: "david-hilbert.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_hilbert_renn_stachel", "src_hilbert_weinstein"] },
+    ],
+    turningPoints: [
+      { id: "david-hilbert-turning-point-1", textKey: "david-hilbert.turning_point.1", interpretationKey: "david-hilbert.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_hilbert_mactutor"] },
+    ],
+  },
+  "edmond-halley": {
+    achievements: [
+      { id: "edmond-halley-achievement-1", textKey: "edmond-halley.achievement.1", sourceIds: ["src_halley_cook_odnb", "src_halley_clerke_dnb1890", "src_halley_mactutor"] },
+      { id: "edmond-halley-achievement-2", textKey: "edmond-halley.achievement.2", sourceIds: ["src_halley_cook_odnb", "src_halley_clerke_dnb1890", "src_halley_mactutor"] },
+      { id: "edmond-halley-achievement-3", textKey: "edmond-halley.achievement.3", sourceIds: ["src_halley_cook_odnb", "src_halley_clerke_dnb1890", "src_halley_mactutor"] },
+      { id: "edmond-halley-achievement-4", textKey: "edmond-halley.achievement.4", sourceIds: ["src_halley_cook_odnb", "src_halley_mactutor", "src_halley_breslau1693"] },
+    ],
+    moments: [
+      { id: "edmond-halley-moment-1", textKey: "edmond-halley.moment.1", interpretationKey: "edmond-halley.interpretation.moment.1", attributeId: "conflict_tolerance", sourceIds: ["src_halley_glasgow_flamsteed", "src_halley_lindahall_1712", "src_halley_mactutor", "src_halley_cook_odnb"] },
+      { id: "edmond-halley-moment-2", textKey: "edmond-halley.moment.2", interpretationKey: "edmond-halley.interpretation.moment.2", attributeId: "analytical_rigor", sourceIds: ["src_halley_breslau1693", "src_halley_cook_odnb"] },
+    ],
+    turningPoints: [
+      { id: "edmond-halley-turning-point-1", textKey: "edmond-halley.turning_point.1", interpretationKey: "edmond-halley.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_halley_cook_odnb", "src_halley_clerke_dnb1890", "src_halley_mactutor"] },
+    ],
+  },
+  "federico-fellini": {
+    achievements: [
+      { id: "federico-fellini-achievement-1", textKey: "federico-fellini.achievement.1", sourceIds: ["src_fellini_dixon_dolce_vita", "src_fellini_shanahan_sensesgd"] },
+      { id: "federico-fellini-achievement-2", textKey: "federico-fellini.achievement.2", sourceIds: ["src_fellini_dixon_dolce_vita", "src_fellini_zimmermann_elements", "src_fellini_ebert_dolce_vita"] },
+      { id: "federico-fellini-achievement-3", textKey: "federico-fellini.achievement.3", sourceIds: ["src_fellini_dixon_8half", "src_fellini_shanahan_sensesgd"] },
+      { id: "federico-fellini-achievement-4", textKey: "federico-fellini.achievement.4", sourceIds: ["src_fellini_jackson_amarcord", "src_fellini_agius_amarcord"] },
+    ],
+    moments: [
+      { id: "federico-fellini-moment-1", textKey: "federico-fellini.moment.1", interpretationKey: "federico-fellini.interpretation.moment.1", attributeId: "aesthetic_sensitivity", sourceIds: ["src_fellini_apollo_cinecitta", "src_fellini_dixon_dolce_vita"] },
+      { id: "federico-fellini-moment-2", textKey: "federico-fellini.moment.2", interpretationKey: "federico-fellini.interpretation.moment.2", attributeId: "autonomy_need", sourceIds: ["src_fellini_dixon_dolce_vita"] },
+    ],
+    turningPoints: [
+      { id: "federico-fellini-turning-point-1", textKey: "federico-fellini.turning_point.1", interpretationKey: "federico-fellini.interpretation.turning_point.1", attributeId: "ambiguity_tolerance", sourceIds: ["src_fellini_dixon_8half"] },
+    ],
+  },
+  "franz-liszt": {
+    achievements: [
+      { id: "franz-liszt-achievement-1", textKey: "franz-liszt.achievement.1", sourceIds: ["src_liszt_schumann1840", "src_liszt_wikipedia"] },
+      { id: "franz-liszt-achievement-2", textKey: "franz-liszt.achievement.2", sourceIds: ["src_liszt_wikipedia", "src_liszt_letters1894", "src_liszt_schumann1840", "src_liszt_huneker1899"] },
+      { id: "franz-liszt-achievement-3", textKey: "franz-liszt.achievement.3", sourceIds: ["src_liszt_wagner_mylife", "src_liszt_letters1894", "src_liszt_wikipedia"] },
+      { id: "franz-liszt-achievement-4", textKey: "franz-liszt.achievement.4", sourceIds: ["src_liszt_fay1880", "src_liszt_wikipedia", "src_liszt_letters1894"] },
+    ],
+    moments: [
+      { id: "franz-liszt-moment-1", textKey: "franz-liszt.moment.1", interpretationKey: "franz-liszt.interpretation.moment.1", attributeId: "impact_motivation", sourceIds: ["src_liszt_schumann1840"] },
+      { id: "franz-liszt-moment-2", textKey: "franz-liszt.moment.2", sourceIds: ["src_liszt_fay1880"] },
+    ],
+    turningPoints: [
+      { id: "franz-liszt-turning-point-1", textKey: "franz-liszt.turning_point.1", sourceIds: ["src_liszt_wikipedia", "src_liszt_letters1894"] },
+    ],
+  },
+  "john-lennon": {
+    achievements: [
+      { id: "john-lennon-achievement-1", textKey: "john-lennon.achievement.1", sourceIds: ["src_lennon_shof"] },
+      { id: "john-lennon-achievement-2", textKey: "john-lennon.achievement.2", sourceIds: ["src_lennon_bb_tomorrow", "src_lennon_pmp_strawberry"] },
+      { id: "john-lennon-achievement-3", textKey: "john-lennon.achievement.3", sourceIds: ["src_lennon_wenner1970", "src_lennon_bb_imagine"] },
+    ],
+    moments: [
+      { id: "john-lennon-moment-1", textKey: "john-lennon.moment.1", interpretationKey: "john-lennon.interpretation.moment.1", attributeId: "perfectionism", sourceIds: ["src_lennon_pmp_strawberry"] },
+      { id: "john-lennon-moment-2", textKey: "john-lennon.moment.2", interpretationKey: "john-lennon.interpretation.moment.2", attributeId: "decisiveness", sourceIds: ["src_lennon_bb_leave", "src_lennon_pmp_leave"] },
+    ],
+    turningPoints: [
+      { id: "john-lennon-turning-point-1", textKey: "john-lennon.turning_point.1", interpretationKey: "john-lennon.interpretation.turning_point.1", attributeId: "leadership_drive", sourceIds: ["src_lennon_classical_music_meet", "src_lennon_wenner1970"] },
+    ],
+  },
+  "lionel-messi": {
+    achievements: [
+      { id: "lionel-messi-achievement-1", textKey: "lionel-messi.achievement.1", sourceIds: ["src_messi_aljazeera_2020", "src_messi_aljazeera_2014", "src_messi_footballespana_2021"] },
+      { id: "lionel-messi-achievement-2", textKey: "lionel-messi.achievement.2", sourceIds: ["src_messi_gwr_ballon", "src_messi_tsn_ballon"] },
+      { id: "lionel-messi-achievement-3", textKey: "lionel-messi.achievement.3", sourceIds: ["src_messi_footballespana_2021", "src_messi_espn_oral", "src_messi_guardian_retire", "src_messi_guardian_afp"] },
+    ],
+    moments: [
+      { id: "lionel-messi-moment-1", textKey: "lionel-messi.moment.1", interpretationKey: "lionel-messi.interpretation.moment.1", attributeId: "leadership_drive", sourceIds: ["src_messi_espn_oral"] },
+      { id: "lionel-messi-moment-2", textKey: "lionel-messi.moment.2", interpretationKey: "lionel-messi.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_messi_cnbc_2016", "src_messi_aljazeera_2016"] },
+    ],
+    turningPoints: [
+      { id: "lionel-messi-turning-point-1", textKey: "lionel-messi.turning_point.1", sourceIds: ["src_messi_footballespana_2021", "src_messi_goal_miami"] },
+    ],
+  },
+  "marcel-proust": {
+    achievements: [
+      { id: "marcel-proust-achievement-1", textKey: "marcel-proust.achievement.1", sourceIds: ["src_proust_pierrequint1928", "src_proust_kolb1914", "src_proust_souday1927"] },
+      { id: "marcel-proust-achievement-2", textKey: "marcel-proust.achievement.2", sourceIds: ["src_proust_pierrequint1928", "src_proust_pierrequint1927", "src_proust_dreyfus1926"] },
+      { id: "marcel-proust-achievement-3", textKey: "marcel-proust.achievement.3", sourceIds: ["src_proust_pierrequint1927"] },
+    ],
+    moments: [
+      { id: "marcel-proust-moment-1", textKey: "marcel-proust.moment.1", sourceIds: ["src_proust_kolb1914"] },
+      { id: "marcel-proust-moment-2", textKey: "marcel-proust.moment.2", interpretationKey: "marcel-proust.interpretation.moment.2", attributeId: "perfectionism", sourceIds: ["src_proust_kolb1914"] },
+    ],
+    turningPoints: [
+      { id: "marcel-proust-turning-point-1", textKey: "marcel-proust.turning_point.1", interpretationKey: "marcel-proust.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_proust_pierrequint1927", "src_proust_pierrequint1928"] },
+    ],
+  },
+  "nadia-comaneci": {
+    achievements: [
+      { id: "nadia-comaneci-achievement-1", textKey: "nadia-comaneci.achievement.1", sourceIds: ["src_nadia_olympedia_bio", "src_nadia_ap2020", "src_nadia_si2008", "src_nadia_spokesman2026"] },
+      { id: "nadia-comaneci-achievement-2", textKey: "nadia-comaneci.achievement.2", sourceIds: ["src_nadia_olympedia_bio", "src_nadia_olympedia_1980aa", "src_nadia_csm1980"] },
+      { id: "nadia-comaneci-achievement-3", textKey: "nadia-comaneci.achievement.3", sourceIds: ["src_nadia_olympedia_bio", "src_nadia_laureus"] },
+    ],
+    moments: [
+      { id: "nadia-comaneci-moment-1", textKey: "nadia-comaneci.moment.1", interpretationKey: "nadia-comaneci.interpretation.moment.1", attributeId: "competitiveness", sourceIds: ["src_nadia_gymhist1973"] },
+      { id: "nadia-comaneci-moment-2", textKey: "nadia-comaneci.moment.2", interpretationKey: "nadia-comaneci.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_nadia_csm1980", "src_nadia_olympedia_1980aa", "src_nadia_olympedia_bio"] },
+    ],
+    turningPoints: [
+      { id: "nadia-comaneci-turning-point-1", textKey: "nadia-comaneci.turning_point.1", sourceIds: ["src_nadia_csm1981", "src_nadia_olympedia_bio"] },
+    ],
+  },
+  "reinhold-messner": {
+    achievements: [
+      { id: "reinhold-messner-achievement-1", textKey: "reinhold-messner.achievement.1", sourceIds: ["src_messner_guinness", "src_messner_outside_schaffer2017", "src_messner_habeler_interview"] },
+      { id: "reinhold-messner-achievement-2", textKey: "reinhold-messner.achievement.2", sourceIds: ["src_messner_abenteuerberg2024", "src_messner_explorersweb_solo2020", "src_messner_thelocal_dpa2020"] },
+      { id: "reinhold-messner-achievement-3", textKey: "reinhold-messner.achievement.3", sourceIds: ["src_messner_abenteuerberg2024", "src_messner_climbing_wejchert2022", "src_messner_suburban_kukuczka"] },
+      { id: "reinhold-messner-achievement-4", textKey: "reinhold-messner.achievement.4", sourceIds: ["src_messner_aaj_antarctica", "src_messner_fuchs_explorersweb2016", "src_messner_climbing_wejchert2022", "src_messner_abenteuerberg2024"] },
+    ],
+    moments: [
+      { id: "reinhold-messner-moment-1", textKey: "reinhold-messner.moment.1", interpretationKey: "reinhold-messner.interpretation.moment.1", attributeId: "persuasiveness", sourceIds: ["src_messner_outside_schaffer2017", "src_messner_climbing_wejchert2022"] },
+      { id: "reinhold-messner-moment-2", textKey: "reinhold-messner.moment.2", interpretationKey: "reinhold-messner.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_messner_explorersweb_solo2020", "src_messner_thelocal_dpa2020"] },
+    ],
+    turningPoints: [
+      { id: "reinhold-messner-turning-point-1", textKey: "reinhold-messner.turning_point.1", interpretationKey: "reinhold-messner.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_messner_climbing_wejchert2022", "src_messner_abenteuerberg2024"] },
+    ],
+  },
+  "roger-federer": {
+    achievements: [
+      { id: "roger-federer-achievement-1", textKey: "roger-federer.achievement.1", sourceIds: ["src_federer_ap2022", "src_federer_tignor_sendoff2022", "src_federer_flink2018", "src_federer_garber2017"] },
+      { id: "roger-federer-achievement-2", textKey: "roger-federer.achievement.2", sourceIds: ["src_federer_berkok2022"] },
+      { id: "roger-federer-achievement-3", textKey: "roger-federer.achievement.3", sourceIds: ["src_federer_si_davis2014"] },
+    ],
+    moments: [
+      { id: "roger-federer-moment-1", textKey: "roger-federer.moment.1", interpretationKey: "roger-federer.interpretation.moment.1", attributeId: "experimentation", sourceIds: ["src_federer_tandon_sabr2015", "src_federer_bodo_sabr2015"] },
+      { id: "roger-federer-moment-2", textKey: "roger-federer.moment.2", interpretationKey: "roger-federer.interpretation.moment.2", attributeId: "leadership_drive", sourceIds: ["src_federer_sky2018", "src_federer_tignor_sendoff2022"] },
+    ],
+    turningPoints: [
+      { id: "roger-federer-turning-point-1", textKey: "roger-federer.turning_point.1", interpretationKey: "roger-federer.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_federer_nguyen2013", "src_federer_cambers2019", "src_federer_tignor_staff2015"] },
+    ],
+  },
+  "sergey-brin": {
+    achievements: [
+      { id: "sergey-brin-achievement-1", textKey: "sergey-brin.achievement.1", sourceIds: ["src_brin_nsf", "src_brin_ethw_pagerank", "src_brin_anatomy1998"] },
+      { id: "sergey-brin-achievement-2", textKey: "sergey-brin.achievement.2", sourceIds: ["src_brin_alphabet2019"] },
+      { id: "sergey-brin-achievement-3", textKey: "sergey-brin.achievement.3", sourceIds: ["src_brin_ipo_letter2004", "src_brin_alphabet2019"] },
+    ],
+    moments: [
+      { id: "sergey-brin-moment-1", textKey: "sergey-brin.moment.1", interpretationKey: "sergey-brin.interpretation.moment.1", attributeId: "risk_tolerance", sourceIds: ["src_brin_techradar_skydive2012"] },
+      { id: "sergey-brin-moment-2", textKey: "sergey-brin.moment.2", interpretationKey: "sergey-brin.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_brin_techradar_glass2025"] },
+    ],
+    turningPoints: [
+      { id: "sergey-brin-turning-point-1", textKey: "sergey-brin.turning_point.1", interpretationKey: "sergey-brin.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_brin_battelle_wired", "src_brin_alphabet2019"] },
+    ],
+  },
+  "usain-bolt": {
+    achievements: [
+      { id: "usain-bolt-achievement-1", textKey: "usain-bolt.achievement.1", sourceIds: ["src_bolt_observer_kessel2008", "src_bolt_nyt_2009", "src_bolt_guardian_kessel2009", "src_bolt_abc_au2025"] },
+      { id: "usain-bolt-achievement-2", textKey: "usain-bolt.achievement.2", sourceIds: ["src_bolt_observer_kessel2008", "src_bolt_guardian_kessel2012", "src_bolt_guardian_ingle2016", "src_bolt_cmc_relay2017"] },
+      { id: "usain-bolt-achievement-3", textKey: "usain-bolt.achievement.3", sourceIds: ["src_bolt_nyt_2009", "src_bolt_wa_moscow2013", "src_bolt_abc_beijing2015", "src_bolt_wa_london2017"] },
+    ],
+    moments: [
+      { id: "usain-bolt-moment-1", textKey: "usain-bolt.moment.1", interpretationKey: "usain-bolt.interpretation.moment.1", attributeId: "proactive_agency", sourceIds: ["src_bolt_nbc_first100", "src_bolt_abc_au2025"] },
+      { id: "usain-bolt-moment-2", textKey: "usain-bolt.moment.2", interpretationKey: "usain-bolt.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_bolt_bbc_daegu2011", "src_bolt_wa_moscow2013"] },
+    ],
+    turningPoints: [
+      { id: "usain-bolt-turning-point-1", textKey: "usain-bolt.turning_point.1", sourceIds: ["src_bolt_guardian_hattenstone2010", "src_bolt_observer_kessel2008"] },
+    ],
+  },
 };

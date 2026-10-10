@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "caravaggio",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Caravaggio",
+    "aliases": ["Michelangelo Merisi da Caravaggio", "Michelangelo Merisi"],
+    "wikidataId": "Q42207",
+    "birthYear": 1571,
+    "deathYear": 1610,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": ["IT"],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": ["painter"],
+    "fieldIds": ["art"],
+    "impactDomains": ["artistic", "cultural", "historical"],
+    "tagIds": ["innovator", "nonconformist"],
+    "archetypeIds": ["creative_creator", "independent_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_caravaggio_wikidata",
+      "kind": "wikidata",
+      "title": "Caravaggio (Q42207) -- verified live (2026-10-10): English label 'Caravaggio', description 'Italian painter (1571-1610)', born 29 Sep 1571, died 18 Jul 1610, Korean label '카라바조'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q42207"
+    },
+    {
+      "id": "src_caravaggio_baglione1642",
+      "kind": "biography",
+      "title": "Giovanni Baglione, 'Vita di Michelagnolo da Caravaggio, Pittore', in Le vite de' pittori, scultori et architetti (Rome, 1642), Internet Archive full text of the 1642 edition -- HOSTILE, rival source: Baglione was a painter whom Caravaggio and others faced in a 1603 libel suit, and the life mixes dated works with moralizing criticism. Read in full (the whole life, about three printed pages). Used for the Cardinal del Monte patronage, the Contarelli Chapel and the first Saint Matthew that pleased no one, the removal of the Death of the Virgin, the claimed habit of disparaging other painters, and the Malta and Naples sequence.",
+      "url": "https://archive.org/details/gri_vitedepittor00bagl"
+    },
+    {
+      "id": "src_caravaggio_bellori1672",
+      "kind": "biography",
+      "title": "Giovan Pietro Bellori, 'Vita di Michelangelo Merigi da Caravaggio, Pittore', in Le vite de' pittori, scultori et architetti moderni (Rome, 1672), Internet Archive full text -- classicist, ADVERSARIAL biographer who studied Caravaggio's pictures in Roman collections but wrote after his death and criticized his lack of idealization; it is the fullest early account of his method. Read in full (about ten printed pages). Used for painting from the model, the rejection of the ancients as teachers, the dark grounds and single-source lighting, the replaced first Saint Matthew, the Malta commission and the rapid sequence of altarpieces.",
+      "url": "https://archive.org/details/ghbel42612720"
+    },
+    {
+      "id": "src_caravaggio_vanmander1604",
+      "kind": "biography",
+      "title": "Karel van Mander, Het Schilder-Boeck (Haarlem, 1604), 'T'leven van noch ander Italiaensche Schilders, die teghenwoordigh te Room zijn', DBNL transcription of the 1604 first edition -- a short CONTEMPORARY Dutch notice written during Caravaggio's lifetime from Rome informants, independent of Baglione and Bellori and partly admiring, partly critical. Read in full (the Caravaggio passage). Used for painting everything from life, working in bursts of about a fortnight followed by weeks of roaming, and the mocking figure in the San Luigi picture.",
+      "url": "https://www.dbnl.org/tekst/mand001schi01_01/mand001schi01_01_0177.php"
+    },
+    {
+      "id": "src_caravaggio_met1990",
+      "kind": "institution",
+      "title": "Keith Christiansen, A Caravaggio Rediscovered: The Lute Player (New York: The Metropolitan Museum of Art, 1990), Internet Archive full text of the museum's exhibition catalogue -- modern curatorial scholarship with X-ray and archival evidence. Read: the opening essay on Cardinal del Monte, the early Roman years and the first public commission, and the sections on The Musicians, the two Lute Players and their painting from posed models.",
+      "url": "https://archive.org/details/metmuseum-A_Caravaggio_Rediscovered_The_Lute_Player"
+    },
+    {
+      "id": "src_caravaggio_cleveland2017",
+      "kind": "institution",
+      "title": "Dean Yoder, Conserving Caravaggio's Crucifixion of Saint Andrew: A Technical Study (Cleveland Museum of Art, 2017), Internet Archive full text of the museum's digital publication -- conservator's technical examination (infrared, X-ray, cross-sections). Read: the foreword, the infrared and incision sections of the ground-layer chapter. Used for the incised guide lines, the absence until recently of detected graphic underdrawing, and the changes made while painting.",
+      "url": "https://archive.org/details/caravaggio-app"
+    },
+    {
+      "id": "src_caravaggio_nationalgallery",
+      "kind": "institution",
+      "title": "National Gallery, London, artist page 'Michelangelo Merisi da Caravaggio (1571-1610)' -- museum overview (read in full): a fast worker who painted straight onto the canvas with minimal preparation, used working people as models, and the Malta episode. Short and popular in tone; used only as corroboration.",
+      "url": "https://www.nationalgallery.org.uk/artists/michelangelo-merisi-da-caravaggio"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_caravaggio_vanmander1604, src_caravaggio_bellori1672, src_caravaggio_baglione1642, src_caravaggio_met1990 | c.1595-1610 | contemporary Dutch notice written in his lifetime + adversarial classicist biographer + hostile rival biographer + modern curatorial scholarship] Van Mander (1604) reports that Caravaggio held that all pictures not painted from life were trifles and that nothing could be better than following nature, and that he did not draw a stroke without sitting a model before him. Bellori, who disapproved, independently describes him taking nature as his only model, refusing to treat the antique statues or Raphael as teachers, and saying no brushstroke in his pictures was his own but nature's. Baglione, hostile, adds that he disparaged painters past and present and that young painters followed his example. Christiansen confirms from X-ray and technical evidence a studio habit of painting figures from posed models. Three sources written from different positions converge on the same documented stance, so the score sits in the 70s rather than higher (the model-only claim is a stated principle reported by three writers, and the Bellori anecdote about the passing gypsy is a single retelling and is not relied on)."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_caravaggio_bellori1672, src_caravaggio_baglione1642, src_caravaggio_vanmander1604, src_caravaggio_met1990 | c.1594-1610 | adversarial classicist + hostile rival + contemporary notice + modern scholarship] Bellori records that his manner changed from soft Giorgionesque colouring to strong darks with single-source overhead light, painting figures within the closed brown air of a room, and that painters in Rome were seized by the novelty and began posing models and raising lights; he adds that Guido Reni bent towards the manner. Baglione complains that many young painters imitated him by painting a head from nature; Van Mander in 1604 already calls his approach a wonderfully fine manner for young painters to follow. Christiansen documents the early half-length genre pictures with music and cards for Del Monte as a departure from conventional subject types. The judgement of novelty comes from adversaries as well as admirers, which supports a high score; the score stays below 85 because the independence of Bellori from Baglione is partial and the originality is argued here from reception more than from a named design decision."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caravaggio_baglione1642, src_caravaggio_bellori1672, src_caravaggio_met1990 | c.1593-1600 | hostile rival + adversarial classicist + modern scholarship] Baglione describes the early Bacchus painted with great diligence, and the carafe of flowers with the window reflected in the water and dew on the petals painted with every exquisite diligence; Bellori independently describes the same flower picture with fresh dew and later the rusty armour in the Taking of Christ and the exact pallor of the dead body in the Entombment. Christiansen, from X-ray, reports pentimenti and revisions in the Del Monte Lute Player. Several separately documented pictures describe close rendering of surface; the score is capped in the 70s because the descriptions are by writers praising or criticizing how the pictures look and not by a record of working process."
+    },
+    "competitiveness": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_caravaggio_vanmander1604, src_caravaggio_baglione1642, src_caravaggio_bellori1672 | c.1595-1604 | contemporary notice + hostile rival + adversarial classicist] Van Mander (1604) says Caravaggio made a small figure in the San Luigi picture sticking out its tongue at the neighbouring painting by Giuseppe Cesari, as if mocking it. Baglione says he thought he alone had surpassed all painters of his profession. Bellori says he left Cesari's house to contest Cesari's glory, and that he valued no one but himself, calling himself the sole faithful imitator of nature. The three accounts are not independent retellings of one incident; they describe a rivalry with one named painter and a general stance. The effect on his career was mixed (patrons and critics took sides), hence dual-edged."
+    },
+    "social_assertiveness": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_caravaggio_baglione1642, src_caravaggio_vanmander1604, src_caravaggio_bellori1672 | c.1595-1608 | hostile rival + contemporary notice + adversarial classicist] Baglione says he spoke ill of all painters past and present, however eminent. Van Mander (1604) describes him as bold and unashamed in pushing himself forward and seeking his advantage everywhere, and as someone who does not hold other masters' works in much regard. Bellori adds that he described himself as the sole true follower of nature and that his strong manner drew attacks from older painters. These are descriptions of how he spoke and presented himself, written by people who disliked or only partly liked him; the score stays below the extreme band. Court testimony of his own (such as the 1603 libel case) was only reached through summaries and is not used."
+    },
+    "discipline": {
+      "score": 34,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_caravaggio_vanmander1604, src_caravaggio_bellori1672 | c.1600-1605 | contemporary notice + adversarial classicist] Van Mander (1604) says he did not apply himself steadily: after working a fortnight he would go out for one or two months with a rapier at his side and a servant behind him. Bellori independently says that after painting some hours of the day he would appear in the city with his sword, professing to attend to anything other than painting. The pattern is of bursts of work followed by long breaks, reported by two writers; the low score reflects regularity of work routine and is not a judgement on the quality of the output. Both sources are partly censorious; the National Gallery page repeats the pattern but is dependent on the same early biographers."
+    },
+    "execution_speed": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caravaggio_nationalgallery, src_caravaggio_vanmander1604, src_caravaggio_bellori1672, src_caravaggio_cleveland2017 | c.1600-1610 | museum overview + contemporary notice + adversarial classicist + conservator study] The National Gallery calls him a fast worker who painted straight onto the canvas with minimal preparation; Van Mander's fortnight of work before a long break implies short intense bursts; Bellori records that after the first Saint Matthew was rejected he made a second one and then a sequence of large altarpieces in Naples, Malta and Sicily during his flight; Yoder's infrared study of the Crucifixion of Saint Andrew describes fluid and rapid brushstrokes. No source gives measured dates for particular pictures, so this is a moderate pattern, not a documented pace."
+    },
+    "opportunity_sensing": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caravaggio_baglione1642, src_caravaggio_bellori1672, src_caravaggio_met1990 | c.1593-1608 | hostile rival + adversarial classicist + modern scholarship] Several separately documented moves: he left Cesari's workshop and offered pictures through a dealer near San Luigi dei Francesi, where Cardinal del Monte bought one and took him into his household (Baglione, Bellori, Christiansen); through Del Monte he reached Giustiniani, Mattei and the Contarelli commission (Christiansen); and Bellori says he travelled to Malta wanting the Cross of the Order, painting the Grand Master's portrait and the Beheading of Saint John there. The pattern is of using patron networks, but the sources are biographers' summaries, so confidence stays moderate."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caravaggio_vanmander1604, src_caravaggio_bellori1672, src_caravaggio_met1990 | c.1592-1608 | contemporary notice + adversarial classicist + modern scholarship] Van Mander says he rose from poverty by diligence, boldly taking on every commission and seeking his advantage in all things; Christiansen records his arrival in Rome after 1592 as an unknown with considerable ambition, and years of failed attempts before Del Monte; Bellori says he wanted the Cross of Malta given for merit and went to the island to get it. Three sources converge on ambition as visible behaviour, but they describe it from outside and none records his own stated goals."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_caravaggio_baglione1642, src_caravaggio_bellori1672, src_caravaggio_met1990 | c.1593-1600 | hostile rival + adversarial classicist + modern scholarship] Baglione says he left Cesari's house after some months to try working on his own; Bellori says he left Cesari's house because he was unhappy painting flowers and fruit and wanted to paint figures his own way; Christiansen notes an earlier failed attempt to set up shop with other young artists and calls his temperament fiercely independent (the museum's own characterization). The repeated moves away from other painters' workshops are documented; the preference is inferred, not stated by him."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "The only candidate image is the Wikimedia Commons file of Ottavio Leoni's black-chalk portrait drawing of Caravaggio (Biblioteca Marucelliana, Florence; about 1621, so about a decade after his death and not a likeness made from life). Its Commons page cites only a Milan city press release as its source and carries a generic public-domain art tag, with no upstream page from the library. The library, a state institution, publishes a Ministry of Culture authorization-and-fee regime for publishing reproductions of its holdings. That conflicts with a bare public-domain tag and could not be reconciled, so the image is not used. No other rights-clear image was found."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "카라바조"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster47 research. Wikidata Q42207 verified live 2026-10-10 (label Caravaggio; description Italian painter (1571-1610); P18 'Bild-Ottavio Leoni, Caravaggio.jpg'). Slug absent from prod_slugs.txt and from the candidates directory. Region southern_europe and nationality IT follow Michelangelo and Volta; era early_modern follows Michelangelo. Substantive sources actually read: Baglione 1642 life (full), Bellori 1672 life (full), Van Mander 1604 notice, the Met 1990 catalogue (essay and the Musicians/Lute Player sections), the Cleveland technical study (foreword, infrared and incision sections), and the National Gallery artist page; perspectives: Baglione (hostile rival), Bellori (adversarial classicist), Van Mander (contemporary, independent of both), Christiansen (modern curator), Yoder (conservator). NOT accessed: Langdon, Graham-Dixon, Schuetze, Prose and Sciberras (books); Mancini's Considerazioni (only reachable through secondary quotation); Sandrart; the Roman police and court records and Caravaggio's own 1603 libel testimony (only summaries seen, so not used as evidence); the Met Heilbrunn essay (site bot-wall, not bypassed). Deliberately not used: the 1606 killing, flight and death, and a psychiatric lecture on 'the creative psychopath' found in a Malta university repository (retrospective diagnosis excluded). Only ten rows are scored; no conflict, risk-tolerance or planning rows were added because the available behavioural evidence for them is violence-adjacent or ambiguous (incised guide lines versus an absence of drawings). Portrait held (see portrait.reason)."
+  }
+}

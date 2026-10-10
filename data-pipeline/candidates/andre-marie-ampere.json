@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "andre-marie-ampere",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "André-Marie Ampère",
+    "wikidataId": "Q675",
+    "birthYear": 1775,
+    "deathYear": 1836,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "physics",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "self_taught",
+      "cross_disciplinary",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ampere_wikidata",
+      "kind": "wikidata",
+      "title": "André-Marie Ampère (Q675) -- verified live (2026-10-10) via Special:EntityData: en label 'André-Marie Ampère', description 'French physicist and mathematician (1775–1836)'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q675"
+    },
+    {
+      "id": "src_ampere_mactutor",
+      "kind": "archive",
+      "title": "J. J. O'Connor and E. F. Robertson, 'André-Marie Ampère', MacTutor History of Mathematics archive (University of St Andrews) -- scholarly summary biography that draws on James R. Hofmann's 1995 biography (quoted in it), Blondel and Dictionary of Scientific Biography; used for dates, the Académie sequence of September-November 1820, the École polytechnique teaching, the 1814 Institut election and the Savary/Liouville/Fresnel working relationships. Read in full (references list skimmed).",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ampere/"
+    },
+    {
+      "id": "src_ampere_eb1911",
+      "kind": "archive",
+      "title": "'Ampère, André Marie', Encyclopaedia Britannica, 11th edition (1911), vol. 1, via Wikisource -- short encyclopaedia entry (non-self, neutral) used only to cross-check the 11 and 18 September 1820 dates, the 1802 probability treatise and the naming of electrodynamics. Read in full.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Amp%C3%A8re,_Andr%C3%A9_Marie"
+    },
+    {
+      "id": "src_ampere_arago1839",
+      "kind": "biography",
+      "title": "François Arago (Perpetual Secretary of the Académie des sciences and Ampère's friend of more than thirty years), 'Ampère' -- biographical éloge read to the Académie in 1839, in Oeuvres complètes de François Arago, vol. 2 (Notices biographiques II), Paris 1854, Internet Archive scan -- INSIDER/FRIEND colleague account, openly affectionate, but unusually detailed on the September 1820 sequence, the early objections to the electrodynamic theory, the Essai sur la philosophie des sciences (which Arago also criticises) and Ampère's working habits. Read in full for the electrodynamics, classification and character sections; the early-life and metaphysics sections were skimmed.",
+      "url": "https://archive.org/details/uvrescompltesde04flougoog"
+    },
+    {
+      "id": "src_ampere_maxwell1873",
+      "kind": "archive",
+      "title": "James Clerk Maxwell, A Treatise on Electricity and Magnetism, vol. 2 (Oxford, 1873; 1881 edition scan), arts. 526-528 -- later physicist's assessment (independent, admiring but analytical) of Ampère's experimental and mathematical work and of how it was presented, including the 'Newton of electricity' sentence and the remark that the published demonstration hides the route of discovery. Read the cited passage and surrounding articles.",
+      "url": "https://archive.org/details/electricityndmag02maxwrich"
+    },
+    {
+      "id": "src_ampere_whittaker1910",
+      "kind": "biography",
+      "title": "E. T. Whittaker, A History of the Theories of Aether and Electricity: From the Age of Descartes to the Close of the Nineteenth Century (London, 1910), pp. 85-93 (chapter 'Galvanism, from Galvani to Ohm') -- independent historian-mathematician's account of Oersted's discovery, Ampère's 18 September 1820 communication, the Biot-Savart announcement of 30 October 1820, Ampère's four laws, his assumption of central forces (which Whittaker calls the weak point), and the magnetic-shell and molecular-current development. Read the cited pages in full.",
+      "url": "https://archive.org/details/historyoftheorie00whitrich"
+    },
+    {
+      "id": "src_ampere_valson1886",
+      "kind": "biography",
+      "title": "C.-A. Valson (Dean of the Catholic Faculty of Sciences, Lyon), La vie et les travaux d'André-Marie Ampère (Lyon, 1886), Internet Archive scan -- ADMIRING (and at times hagiographic) biography that quotes Ampère's own letters of 1811-1822 from the 1875 'Correspondance et souvenirs' and passages by Littré, Sainte-Beuve and Arago. Used for the chapters on the scientific work (1811-1822 letters, the solenoid, the reception of the theory, Fresnel and the wave theory) and the portrait/character chapter. Read those chapters; the chapters on family and Jean-Jacques Ampère were not read.",
+      "url": "https://archive.org/details/lavieetlestrava01valsgoog"
+    },
+    {
+      "id": "src_ampere_faraday_letters",
+      "kind": "biography",
+      "title": "Henry Bence Jones, The Life and Letters of Faraday (London, 1870), vol. 1, Internet Archive scan -- contemporary NON-FRENCH perspective: Faraday's 1813 travel journal (Ampère with Clément and Desormes showing the new substance iodine to Davy), Faraday's letter to De la Rive of 12 September 1821 on Ampère's experiments and theory (SKEPTICAL of the theory, respectful of the experiments), and Ampère's own letter to Faraday of 1830 via Hachette. Read the cited letters and journal entries.",
+      "url": "https://archive.org/details/lifelettersoffar01joneiala"
+    },
+    {
+      "id": "src_ampere_journal_correspondance",
+      "kind": "archive",
+      "title": "Journal et correspondance d'André-Marie Ampère (Paris, 1869; collected by Mme H. Cheuvreux, his daughter-in-law), Internet Archive scan -- SELF source (his early journal and letters 1793-1805); only the editor's introduction (with its quotations of Arago and Littré) was used. The private journal and letters were deliberately not used for any trait row.",
+      "url": "https://archive.org/details/journaletcorre00amp"
+    },
+    {
+      "id": "src_ampere_nist",
+      "kind": "institution",
+      "title": "National Institute of Standards and Technology (NIST), 'Ampere: Introduction' (SI redefinition pages) -- institutional (non-self) statement that the SI base unit of electric current, the ampere, was until 2019 defined by a general version of an experiment conducted by André-Marie Ampère in the 1820s (current in two parallel wires). Used only for the legacy-of-the-unit sentence in an Achievement card; not used for any trait row. Read in full.",
+      "url": "https://www.nist.gov/si-redefinition/ampere-introduction"
+    }
+  ],
+  "rows": {
+    "execution_speed": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ampere_arago1839, src_ampere_whittaker1910, src_ampere_mactutor, src_ampere_valson1886 | September 1820 to 1821 | friend/éloge + historian + summary biography + admiring biography quoting Ampère's own letters] Arago dates the repeat of Oersted's experiment at the Académie to Monday 11 September 1820 and says that seven days later, on 18 September, Ampère presented a more general fact (parallel current-carrying wires attract or repel), having in between imagined the arrangement, built working apparatus and run a decisive experiment; Whittaker gives the same sequence independently, and MacTutor adds that he reported the force law of addition on 6 November and the symmetry principle in December and 'wrote up the work with remarkable speed'. In a letter of February 1821 quoted by Valson, Ampère says he wrote his memoir 'with extreme haste, in detached pieces', and that it is not clear enough. dual_edged: the speed produced the discovery and also a hurried, unclear first write-up (Valson's letter), and Hofmann (quoted in MacTutor) says Savary's help was needed to complete the detailed calculations. Several independent sources agree on the 1820 timing; the unclear write-up rests on Ampère's own admission."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ampere_whittaker1910, src_ampere_maxwell1873, src_ampere_arago1839 | 1820-1826 | independent historian + later physicist + friend/éloge] Whittaker sets out how Ampère obtained four experimentally established laws (reversal with current, equivalence of a sinuous and smooth circuit, force perpendicular to a closed circuit, scale invariance) and from them, with the assumption of central forces, derived the force formula between current elements; Maxwell calls the investigation 'one of the most brilliant achievements in science' and the formula 'the cardinal formula of electro-dynamics', 'perfect in form and unassailable in accuracy'. Arago says Ampère set himself to find 'a clear, rigorous, mathematical theory' and that the methods remain models. Capped at 74 because Whittaker identifies the central-force assumption as the weak point (Maxwell too notes the demonstration was reconstructed after the discovery), and because the mathematical derivation is described mainly by admirers and historians rather than audited here."
+    },
+    "systems_abstraction": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ampere_whittaker1910, src_ampere_valson1886, src_ampere_arago1839, src_ampere_mactutor | 1820-1826 and 1834 | independent historian + admiring biography + friend/éloge + summary biography] Whittaker: Ampère showed that a closed circuit is equivalent in its magnetic effects to a magnetic shell, regarded the current rather than magnetic fluid as fundamental and treated each magnetic molecule as carrying a small closed circuit; Valson and Arago describe the same step to the Earth as a set of circulating currents, and the solenoid he devised to reproduce a magnet with current (Valson). Arago further describes the late-life Essai sur la philosophie des sciences as an attempt at a natural classification of all human knowledge and discusses its structure; Arago also criticises its ordering of astronomy and optics. The pattern of unifying separate phenomena under one structure recurs in electromagnetism, chemistry (a unified law of combining proportions, per Ampère's 1814 letter in Valson) and the classification project, but the highest scores are not warranted because the unifying hypotheses were partly speculative (Valson himself says the molecular-current hypothesis cannot be affirmed as final)."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ampere_arago1839, src_ampere_whittaker1910, src_ampere_valson1886, src_ampere_maxwell1873 | 1820-1826 | friend/éloge + historian + admiring biography + later physicist] The idea that two current-carrying wires act on each other, before any experiment showed it, and its demonstration within a week (Arago, Whittaker); the molecular-current theory of magnetism and the solenoid (Whittaker, Valson); and the new science he named electrodynamics (Whittaker, Britannica 1911). Arago records that critics at first called it a mere corollary of Oersted's result, and that Ampère's challenge to them to deduce the direction of the mutual action of two currents from Oersted's experiment went unanswered; Faraday's 1821 letter calls the experiments excellent and the theory ingenious. Not higher because Faraday and others judged part of the theory under-evidenced in 1821, and because creative breadth is documented mostly for a single research programme."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ampere_valson1886, src_ampere_arago1839, src_ampere_whittaker1910, src_ampere_faraday_letters | 1820-1822 | admiring biography quoting Littré and Ampère's letters + friend/éloge + historian + Faraday] In his letters of December 1820 and February 1821 (quoted by Valson) Ampère says the prevailing Coulomb hypothesis of separate magnetic fluids had kept researchers from testing a current on a magnet and that current-bearing bodies and magnets obey one law, and Littré (quoted in Valson) describes him as continuing despite being 'badly heard and badly understood' and submitting his calculations to Laplace; Arago, by contrast, argues that the French reception was not as cold as Littré's account suggests and records strong early objections. Faraday's September 1821 letter to De la Rive shows a contemporary peer withholding assent from the theory for lack of experimental evidence. dual_edged: independence from the Coulomb picture was productive, but the central-force assumption he retained is the point Whittaker marks as the weak one. Perspectives disagree on how isolated he was, so the score and confidence are held moderate."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ampere_arago1839, src_ampere_valson1886, src_ampere_faraday_letters, src_ampere_whittaker1910 | 1820-1822 | friend/éloge + admiring biography + Faraday letter + historian] Arago: in the weeks after 18 September 1820 Ampère built apparatus allowing mobile current-carrying wires to stay connected to the battery, and demonstrated a platinum wire orienting itself under the Earth's action in a small study visited by physicists; Valson (from Ampère's September 1822 letter) records new experiments done with De la Rive in Geneva, including one testing a predicted repulsion between current portions and one on induced currents; Valson also describes the apparatus that became known as Ampère's table. Faraday (1821) writes that Ampère's experiments are excellent but few, and that 'theory makes up the great part' of what he had published, so the score is held below the level that the apparatus alone would suggest. Maxwell likewise says the published experiments do not show how the law was actually found."
+    },
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ampere_mactutor, src_ampere_arago1839, src_ampere_eb1911, src_ampere_valson1886, src_ampere_faraday_letters | 1802-1834 | summary biography + friend/éloge + encyclopaedia + admiring biography + Faraday journal] Independent sources agree on a career crossing fields: a treatise on the mathematics of gambling (1802) and on the calculus of variations (MacTutor, Britannica), a classification of partial differential equations (1814), the suggestion in 1811 that an acid prepared two years earlier contained hydrogen and an element analogous to chlorine for which he proposed the name fluorine, and a classification of the elements in 1816 (MacTutor), advocacy of Fresnel's wave theory of light from 1816 (MacTutor, Valson), electrodynamics, and the late classification of all knowledge (Arago, Britannica). Faraday's 1813 journal shows him in Paris with Clément and Desormes bringing the new substance iodine to Davy. Arago also records his intervention in the Cuvier-Geoffroy Saint-Hilaire debate on the unity of organisation. Several independent sources agree on the breadth; the score does not go higher because what is documented is breadth of work rather than equal depth in each field (Ampère himself wrote in 1814 that his mathematics memoirs 'advance little', quoted in Valson). LEAD REVIEW CORRECTION (downward only, before eligibility was read): was 84/0.7; the range across mathematics, physics, chemistry and philosophy is attested mainly by admiring contemporaries (Arago, Valson) and by a chemistry strand sourced only in summary, so score and confidence are lowered per the rubric."
+    },
+    "curiosity": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ampere_mactutor, src_ampere_arago1839, src_ampere_valson1886 | 1780s-1830s | summary biography + friend/éloge + admiring biography quoting Sainte-Beuve and Bredin] MacTutor (after Arago) reports that he read the Encyclopédie from the first volume, and submitted a first paper to the Académie de Lyon at 13, then took lessons in the calculus on realising he needed more mathematics; Arago says that his study at his house was open to all visitors; Valson, quoting Bredin and Sainte-Beuve, reports a lecture on palaeontology that lasted thirteen hours on a single outing and describes him at the Collège de France lecturing at length on whatever the subject led to. The early reading and the self-taught study of mathematics are partly self-reported (MacTutor says the claim that he mastered all mathematics by twelve is an exaggeration by his own account). Wide interest is documented by several sources; the longest anecdotes come from admiring friends."
+    },
+    "belief_updating": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ampere_valson1886, src_ampere_mactutor, src_ampere_arago1839 | 1803, 1816, 1820s | admiring biography quoting Ampère's letters + summary biography + friend/éloge] Valson quotes Ampère's own statement that until Fresnel's 1816 papers he had been a zealous supporter of the emission theory of light and gave it up with regret, and MacTutor says that by 1816 he was a strong advocate of the wave theory, agreeing with Fresnel against Biot and Laplace. MacTutor reports that Laplace found an error in his 1803 probability treatise and explained it in a letter, which Ampère corrected and reissued, and that after first believing in 1822 that he had himself found induction, he agreed full credit belonged to Faraday; Valson's letter of September 1822 shows he had tried and failed to obtain induced currents more than a year earlier. Three separate dated cases, mostly in secondary retellings of his own letters; the Faraday case rests on one secondary source."
+    },
+    "perfectionism": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ampere_mactutor, src_ampere_valson1886 | 1803-1816 | summary biography + admiring biography quoting Ampère's letter] MacTutor says the probability treatise was modified several times and that Ampère was 'reluctant to call it completed for fear that further changes might be required'; in a July 1816 letter quoted by Valson he complains that being sent away from Paris cost his memoir 'some degrees of perfection' and that the result will be imperfect, and in 1814 he told Ballanche that he had arrived at his chemical result first but 'unfortunately did not publish it in time' (Valson). dual_edged: the high standard cost speed of publication (his own 1814 remark). Moderate confidence because the evidence is a handful of reports, one of them Ampère's own words."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ampere_valson1886, src_ampere_arago1839, src_ampere_mactutor | 1820-1826 | admiring biography quoting Littré + friend/éloge + summary biography] Littré (quoted in Valson) says that Ampère, 'badly heard and badly understood', did not lose heart, submitted his calculations to Laplace and proved to the geometers that his law fitted Newton's principle; Arago records that he answered the 'action equals reaction' objection promptly and challenged his critics to deduce the direction of the mutual action of two currents from Oersted's experiment; MacTutor dates the work from September 1820 to the 1826 memoir. The commitment over six years is documented; Arago and Littré disagree on how hostile the reception actually was, and no independent adversarial source describes the length of the effort, so confidence is kept moderate."
+    },
+    "deep_focus": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ampere_valson1886, src_ampere_arago1839 | 1820-1821 | admiring biography quoting Ampère's letters + friend/éloge] In letters of December 1820 and February 1821 (quoted in Valson) Ampère writes that for three months he has had 'only one idea', the phenomena of the magnet and the voltaic circuit, that he sits up late at night, is responsible for two courses and cannot spare minutes for correspondence, and that he neglected even metaphysics, until then his favourite subject. Arago describes this sort of concentration as being under the 'tyrannical domination of an idea' and records, as real rather than affected, some lapses of attention (such as taking another man's hat) that he attributes to it. dual_edged: absorption produced rapid results and lapses in everyday matters, both reported by an affectionate friend. The core evidence is Ampère's own letters as retold by an admirer; the lapses were told by a friend and are not used for any other trait."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ampere_mactutor, src_ampere_arago1839, src_ampere_valson1886 | 1822-1827 | summary biography (quoting Hofmann) + friend/éloge + admiring biography] MacTutor reports that Fresnel lodged at Ampère's home from 1822 until his death in 1827, that Savary from 1823 made 'much more creative contributions' and that his discipline was especially valuable (quoting Hofmann), and that Liouville edited notes of Ampère's lectures; Arago names Savary and Duhamel as collaborators on the theory and its memoir, and Valson (from Ampère's letter) records De la Rive and his son helping with experiments in Geneva in 1822. Several collaborators named across sources, but the exact division of labour is described by only one scholarly summary, so confidence is moderate and the score is not higher."
+    },
+    "opportunity_sensing": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ampere_arago1839, src_ampere_whittaker1910, src_ampere_mactutor, src_ampere_eb1911 | September 1820 | friend/éloge + historian + summary biography + encyclopaedia] Four sources agree on the sequence: the news of Oersted's experiment reached Paris in the first half of September 1820 (Arago, Whittaker, Britannica 1911 give 11 September for the repeat or the news) and by 18 September Ampère had a more general result with apparatus built; Valson says Ampère, 'without stopping at the fact itself', saw at once its most remote consequences, and Arago says he 'divined' within the week that two current-carrying wires would act on each other. The speed of the response is well documented; the idea that this was foresight about a field before it existed rests on the phrasing of admirers, so the score is held below the top band."
+    },
+    "intuitive_synthesis": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ampere_maxwell1873, src_ampere_arago1839, src_ampere_valson1886 | 1820-1826 | later physicist + friend/éloge + admiring biography] Maxwell writes that one cannot believe Ampère discovered the law from the experiments he describes and that 'he tells us himself' that he found it by a process he does not show, afterwards removing 'all traces of the scaffolding'; Arago says that within seven days he had 'divined' that two wires would act on each other, and Valson says he was endowed 'to an exceptional degree with the genius that divines and discovers'. dual_edged: leaps to the correct result, but presentation that hides the route and left readers (Faraday, Littré's foreign scientists) unconvinced for some years. Maxwell's account is analytical and independent; the 'divination' language is from admirers, so strong inference rather than a direct documented act, and the confidence stays below 0.6."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ampere_arago1839, src_ampere_valson1886 | 1820-1822 | friend/éloge + admiring biography quoting Ampère's letters] Arago says Ampère put 'much vivacity' into answering critics who said his result was merely a consequence of Oersted's and challenged them to deduce the direction of the action of two currents, and in September 1822 he told a friend (quoted in Valson) that he had used an Académie reading to show, 'without stating it explicitly', how groundless the printed objections of De la Rive were, while staying in De la Rive's house. Disagreement was pursued through public replies and indirect rebuttal rather than open confrontation; evidence is thin and told by friends, so moderate score and low confidence."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ampere_valson1886, src_ampere_mactutor | 1814, 1820 | admiring biography quoting Ampère's letter + summary biography] In a March 1814 letter (Valson) Ampère says that after conversations with Davy he spent about two months on a law of chemical combining proportions but dropped it, because it could not support a candidacy for the mathematics seat at the Institut, in favour of mathematical memoirs; he was elected in November 1814 (MacTutor: 28 of 56 votes, ahead of Cauchy). In September 1820 he turned his research to electrodynamics within days. Two pivots in documented form; the first is told in Ampère's own letter, so confidence is low-moderate."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/andre-marie-ampere-tardieu-1825.jpg",
+    "width": 594,
+    "height": 1000,
+    "source": "Stipple engraving of André-Marie Ampère by Ambroise Tardieu, printed with the legend 'drawn from life in 1825 and engraved by Ambroise Tardieu'; Smithsonian Libraries and Archives, Dibner Library portrait collection (Scientific Identity), item SIL14-A4-05",
+    "license": "Public domain (engraving published in France in or about 1825; engraver Ambroise Tardieu died in 1841)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Ambroise Tardieu (engraver, after a drawing from life of 1825); image from the Smithsonian Libraries and Archives Dibner Library collection, via the Scientific Identity portrait gallery",
+    "attributionUrl": "https://www.sil.si.edu/DigitalCollections/hst/scientific-identity/CF/by_name_display_results.cfm?scientist=Ampere",
+    "creator": "Ambroise Tardieu (1788-1841), engraver, after a drawing from life",
+    "date": "1825",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ampere_Andre_1825.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "앙드레마리 앙페르"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE (2026-10-10): Wikidata Special:EntityData/Q675 returned en label 'André-Marie Ampère', description 'French physicist and mathematician (1775–1836)', P569 1775-01-20 (Julian-calendar-model value in Wikidata; biographies say 20 or 22 January 1775 -- year only is used), P570 1836-06-10, P18 'Ampere portrait at the Musee Poleymieux.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupations physicist and mathematician; fields physics and mathematics (chemistry omitted although MacTutor, Arago and Valson record work on the elements, because the chemistry is documented here only in summary form); region western_europe (France); era 19th_century (as michael-faraday, carl-friedrich-gauss; his main career 1802-1836); tags self_taught (Arago, MacTutor: educated at home by his father without a school), cross_disciplinary and systematic_thinker (Essai on classification, Arago). EVIDENCE READ (8 substantive records + 1 institutional page used only for an Achievement card + 1 orientation + 1 partial): MacTutor (full); Britannica 1911 (full); Arago's éloge (electrodynamics, classification, character sections in full; the rest skimmed; the scan's OCR heading misprints the reading date as 1889, the éloge is of 1839); Maxwell's Treatise arts. 526-528; Whittaker 1910 pp. 85-93; Valson 1886 (scientific-work and character chapters); Bence Jones, Life and Letters of Faraday vol. 1 (Faraday's 1813 journal, 12 Sept 1821 letter to De la Rive, Hachette-Ampère 1830 letters); Journal et correspondance 1869 (editor's introduction only). PERSPECTIVES: (1) SELF: Ampère's letters of 1811-1822 as quoted by Valson (never the sole support for a row); (2) INSIDER/FRIEND: Arago (friend of 30 years; also criticises the Essai); (3) ADMIRING BIOGRAPHER: Valson, with Littré and Sainte-Beuve quoted; Littré and Arago disagree on how cold the French reception was; (4) CONTEMPORARY PEER: Faraday (1821, skeptical of the theory, respectful of experiments); (5) LATER INDEPENDENT: Maxwell (admiring but analytical, notes the hidden scaffolding), Whittaker (historian; identifies the central-force assumption as the weak point); (6) SCHOLARLY SUMMARY: MacTutor, quoting James R. Hofmann (1995). NON-SELF BEHAVIOURAL sources: Arago, Maxwell, Whittaker, Faraday letters, MacTutor, Valson. NOT ACCESSED / NOT READ: James R. Hofmann, André-Marie Ampère: Enlightenment and Electrodynamics (1995) except for the passages quoted in MacTutor; Louis de Launay, Le Grand Ampère (1925) and his Correspondance du Grand Ampère (1936-1943) (Internet Archive lending copies, no text); Ampère's own 1826 memoir and the Essai sur la philosophie des sciences (full text; the Essai was reached only through Arago and Valson's descriptions); Sainte-Beuve and Littré in the original (only as quoted in Valson); Académie obituary notices other than Arago's. SCORING: seventeen rows, none above 84, confidence at most 0.70; private-life material (the death of his father, his first wife's death, his marriages, depression, family quarrels, health) was read but deliberately NOT used for any row. Anecdotes of absent-mindedness are cited only where Arago presents them as real and only for the narrow point of absorption in work. NOT SCORED: persuasiveness (the sources show both success with Arago and Fresnel and difficulty making the theory understood abroad, with no clean instance), achievement_drive, competitiveness and priority behaviour (a single self-reported 1814 remark), discipline (only Hofmann's remark about Savary), leadership and social assertiveness, risk tolerance, decisiveness. NO eligibility numbers were run or consulted. PORTRAIT: Commons P18 (a Getty-licensed photograph of the c.1799 painting at the Musée Ampère) was NOT used because its only upstream source is a Getty licensing page and the Commons page cites no museum rights notice; instead the Tardieu stipple engraving from the Smithsonian Dibner collection (printed legend 'Dessiné d'après nature en 1825, et gravé par Ambroise Tardieu') was used. The Smithsonian Libraries 'Scientific Identity' page for this item lists artist, dates and dimensions and carries no rights restriction; that site is flagged by the Libraries as no longer maintained, so the public-domain basis rests on publication date (1825) and the engraver's death in 1841, not on an institutional rights statement."
+  }
+}

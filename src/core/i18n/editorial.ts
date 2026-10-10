@@ -6822,6 +6822,251 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Within a month of winning her third Olympic title in February 1936, Henie signed a touring contract with Arthur Wirtz, played a charity show at Madison Square Garden, and then, with her father, rented the Polar Palace rink in Los Angeles for two shows to draw the film studios after Metro-Goldwyn-Mayer turned her down. Zanuck attended the second show, and her first Fox film, One in a Million, followed that year.",
   "sonja-henie.interpretation.turning_point.1":
     "Moving straight from the last amateur title to a self-organised campaign for a film career is consistent with proactive agency; her father organised much of it, so the credit is shared.",
+  /* ---------------------------------------------------------- andre-marie-ampere (Roster47) */
+  "andre-marie-ampere.achievement.1":
+    "In September 1820, a week after news of Oersted's discovery reached the Académie des sciences in Paris, Ampère showed that two parallel wires carrying electric current attract each other when the currents run the same way and repel when they run in opposite ways. He went on to derive a mathematical law for the force between current elements, which he set out in his 1826 memoir on the mathematical theory of electrodynamic phenomena, and he named the new science electrodynamics. Maxwell called the investigation 'one of the most brilliant achievements in science', and NIST notes that until 2019 the ampere was defined by a general version of an experiment Ampère conducted in the 1820s.",
+  "andre-marie-ampere.achievement.2":
+    "Ampère proposed that magnetism is itself electrical: a magnet owes its properties to small closed electric currents circulating in its molecules, and the Earth's magnetism can be treated as a system of currents running east to west around the globe. He coiled wire into a helix he called a solenoid, which behaves like a bar magnet when a current passes through it, and Whittaker records that he showed a circuit to be equivalent in its magnetic effects to a magnetic shell.",
+  "andre-marie-ampere.achievement.3":
+    "Before electrodynamics Ampère was known as a mathematician. His 1802 treatise on the mathematics of games of chance, which showed that the odds run against the habitual gambler, led to posts at Lyon and then Paris, and he was professor of mathematics at the École polytechnique from 1809 to 1828. His 1814 classification of partial differential equations preceded his election to the Institut that November. Late in life he wrote the Essai sur la philosophie des sciences, an attempt at a natural classification of all human knowledge.",
+  "andre-marie-ampere.moment.1":
+    "In letters of December 1820 and February 1821 Ampère told friends that for three months he had had only one idea, the action of currents and magnets on each other, that he was sitting up late into the night with two courses to teach, and that he had put aside even metaphysics, until then his favourite subject. In the second letter he also admitted that his memoir had been written with extreme haste, in detached pieces, and was not clear enough.",
+  "andre-marie-ampere.interpretation.moment.1":
+    "Setting aside other interests and working through the night on one question is consistent with deep focus; his own admission that the haste left the memoir unclear shows the cost, and the account rests on his letters as retold by an admiring biographer.",
+  "andre-marie-ampere.moment.2":
+    "Until 1816 Ampère had been a zealous supporter of the emission theory of light. Valson reports that when Fresnel's work was described in the Annales de chimie et de physique, Ampère admitted that he gave up, not without pain, a theory he had loved; by 1816 he was an advocate of the wave theory, siding with Fresnel against Biot and Laplace, and Fresnel lodged in his house from 1822 until his death in 1827.",
+  "andre-marie-ampere.interpretation.moment.2":
+    "Giving up a theory he cared for once the evidence for the rival account was set before him is consistent with belief updating.",
+  "andre-marie-ampere.turning_point.1":
+    "Oersted's experiment on the action of a current on a magnetic needle was repeated before the Académie des sciences on 11 September 1820. Seven days later, on 18 September, Ampère presented a more general result with apparatus already built, and over the following weeks visitors came to his study to see a platinum wire orient itself under the Earth's action. Valson notes that for the following years his metaphysical studies were set aside, and in 1826 he began teaching electrodynamics at the Collège de France in a course of his own design.",
+  "andre-marie-ampere.interpretation.turning_point.1":
+    "Turning within days from his other work to a newly reported experiment is consistent with opportunity sensing; that he foresaw an entire field in advance is stated only by admirers and is not claimed here.",
+  /* ---------------------------------------------------------- david-hilbert (Roster47) */
+  "david-hilbert.achievement.1":
+    "In 1900 Hilbert addressed the International Congress of Mathematicians in Paris on 'Mathematical Problems', arguing that open problems are a sign of a science's vitality. The list of problems that followed, known as Hilbert's problems, included the continuum hypothesis, the well-ordering of the reals and the Riemann hypothesis, and many were solved during the twentieth century.",
+  "david-hilbert.achievement.2":
+    "Hilbert's Grundlagen der Geometrie (1899) set geometry in a formal axiomatic framework and, in MacTutor's account, helped spread the axiomatic approach through twentieth-century mathematics. From around 1900, and fully from 1921, he pursued what became known as Hilbert's programme: to formalise mathematics and prove it consistent by finitary methods, a goal that Godel's 1930-31 results are generally taken to show cannot be reached.",
+  "david-hilbert.achievement.3":
+    "In 1888 Hilbert proved the finite basis theorem of invariant theory for any number of variables by an abstract method that showed a finite basis exists without constructing one. In 1897 he published the Zahlbericht, a report on algebraic number theory requested by the German Mathematical Society that, according to MacTutor, contains the ideas of what is now class field theory.",
+  "david-hilbert.achievement.4":
+    "Hilbert's work on integral equations around 1909 led directly, in Irving Kaplansky's words quoted by MacTutor, to twentieth-century research in functional analysis, and laid the basis for the infinite-dimensional spaces later called Hilbert spaces, which are used in analysis and quantum mechanics.",
+  "david-hilbert.moment.1":
+    "When Hilbert submitted his basis-theorem paper to Mathematische Annalen in 1888, the journal's referee for invariant theory, Paul Gordan, objected to its non-formal presentation. Hilbert, then an assistant lecturer, wrote to Felix Klein that he would not alter or delete anything unless a definite and irrefutable objection to his reasoning were raised. Klein had the paper published unchanged.",
+  "david-hilbert.interpretation.moment.1":
+    "Holding to an unconventional method against the field's recognised expert, with only a demand for a definite objection, is consistent with independent thinking; the account rests on letters quoted by MacTutor.",
+  "david-hilbert.moment.2":
+    "In November 1915 Hilbert and Einstein were working on the gravitational field equations at the same time. Hilbert's first proofs, stamped 6 December 1915, did not contain generally covariant field equations. Historians Renn and Stachel document that he then altered the proofs in his own hand, adding an acknowledgement of Einstein's contribution and removing the word 'new' for his equations, and by mid-February 1916 had a reworked paper in press. Whether he or Einstein should be credited first is still debated among historians.",
+  "david-hilbert.interpretation.moment.2":
+    "Revising a paper's claims after seeing a rival's conclusive result is consistent with updating a position on new evidence; the historians differ on how much Einstein's complaint, rather than Hilbert's own reworking, drove the changes.",
+  "david-hilbert.turning_point.1":
+    "In 1902 the University of Berlin offered Hilbert Lazarus Fuchs's chair. He declined, but only after using the offer to bargain with Gottingen, which then created a new chair that brought his friend Hermann Minkowski to the university. Hilbert stayed at Gottingen for the rest of his career.",
+  "david-hilbert.interpretation.turning_point.1":
+    "Turning a rival offer into a post for a close colleague is consistent with a preference for working alongside collaborators; MacTutor is the only source here for the episode.",
+  /* ---------------------------------------------------------- edmond-halley (Roster47) */
+  "edmond-halley.achievement.1":
+    "In his 1705 Synopsis of the Astronomy of Comets Halley computed the orbits of twenty-four comets and concluded that the comets of 1531, 1607 and 1682 were one body on an elliptical orbit, returning about every 76 years, and he predicted its return for late 1758. He died in 1742; the comet was seen again at the end of 1758, and the recovery was widely read as a confirmation of Newtonian mechanics. It has since carried his name.",
+  "edmond-halley.achievement.2":
+    "In January 1684 Halley, Hooke and Wren could not work out what orbits an inverse-square attraction to the Sun would produce, and in August Halley put the question to Newton in Cambridge. This led Newton to the Principia (1687), which Halley saw through the press, paying for the printing and receiving the sales proceeds, and for which he wrote a Latin ode and distributed copies. His biographer Alan Cook notes that Halley contributed nothing to its composition.",
+  "edmond-halley.achievement.3":
+    "Halley left Oxford without a degree in November 1676 and spent about eighteen months on St Helena fixing the positions of southern-hemisphere stars, with a letter from Charles II to the East India Company and an allowance from his father. His Catalogus Stellarum Australium (1679), listing 341 stars, made his name at twenty-two, and on 7 November 1677 he observed a transit of Mercury, from which he argued that a transit of Venus could be used to find the distance of the Sun.",
+  "edmond-halley.achievement.4":
+    "Halley turned scattered observations into charts and tables: a 1686 map of the trade winds and monsoons, which Cook calls the first meteorological chart produced; the 1693 life tables drawn from the bills of mortality of Breslau, one of the earliest links between mortality and age and a forerunner of actuarial method; and, after his Atlantic cruises of 1698-1700, the 1701 chart of magnetic variation showing lines of equal declination, the first such chart Cook says was published.",
+  "edmond-halley.moment.1":
+    "In 1712 Halley, working with the Royal Society's visitors to the Royal Observatory, took over publication of Flamsteed's unfinished star catalogue. The University of Glasgow reports that it went to press without Flamsteed's consent, altered his work and carried a preface openly criticising the Astronomer Royal; MacTutor adds that the preface charged Flamsteed with sluggishness, secretiveness and lack of public spirit. Newton and Halley had 400 copies printed, and in 1716 Flamsteed burned much of the edition, including Halley's unsigned preface.",
+  "edmond-halley.interpretation.moment.1":
+    "Pressing ahead with a publication he knew its author opposed, and writing a critical preface, is consistent with tolerance for open conflict; the Flamsteed side's account is the main source for how it was received, and the quarrel cost Halley a lasting enemy.",
+  "edmond-halley.moment.2":
+    "For his 1693 paper on mortality, Halley chose the bills of Breslau because the city lay far from the sea, had few strangers and had births slightly above funerals, which suited a standard population. The tables gave ages at death but not the number of inhabitants, so he said he would supply that figure by comparing mortality at all ages, and he then computed the price of annuities on lives for every fifth year of age, a calculation he called very laborious.",
+  "edmond-halley.interpretation.moment.2":
+    "Naming what was wrong with the London and Dublin bills, picking a population that avoided those faults, and stating the missing figure openly is consistent with analytical rigor; the paper is Halley's own account of his method.",
+  "edmond-halley.turning_point.1":
+    "In November 1676, aged twenty, Halley left Queen's College, Oxford, without taking a degree and sailed for St Helena to chart the southern stars, having arranged support from his father, a letter from Charles II and help from the East India Company. The skies were often cloudy and Flamsteed later criticised his procedures, but the catalogue published in 1679 gave him a European reputation at twenty-two, election to the Royal Society in 1678 and an Oxford M.A. conferred by royal command.",
+  "edmond-halley.interpretation.turning_point.1":
+    "Giving up a degree to pursue a self-devised southern survey, and lining up royal and company backing beforehand, is consistent with proactive agency.",
+  /* ---------------------------------------------------------- federico-fellini (Roster47) */
+  "federico-fellini.achievement.1":
+    "Fellini won the Academy Award for Best Foreign Language Film for La strada (1954), in which his wife Giulietta Masina plays the waif Gelsomina opposite Anthony Quinn's travelling strongman, and again for Le notti di Cabiria (1957), with Masina as an optimistic Roman prostitute. Shanahan notes that critics on the political Left attacked both films for leaving the neorealist social brief behind.",
+  "federico-fellini.achievement.2":
+    "La dolce vita (1960) follows a Roman gossip reporter, played by Marcello Mastroianni, through the city's nightlife of celebrity and scandal, and gave English the word 'paparazzi' through the photographer character Paparazzo. Dixon calls it an immediate commercial and critical sensation despite condemnation by the Catholic Church, and Bosley Crowther's 1961 New York Times review judged that Fellini had come closest of recent filmmakers to a comprehensive picture of frantic modern civilisation.",
+  "federico-fellini.achievement.3":
+    "In 8 1/2 (1963) Mastroianni plays a film director who cannot remember the film he is supposed to be making, and dream, memory and fantasy mix with the working day of a production. The film won the Oscars for Best Foreign Language Film and for Best Costume Design in black and white, and Dixon notes it is regularly cited among the greatest films in international critics' polls.",
+  "federico-fellini.achievement.4":
+    "Amarcord (1973), set in a fascist-era Rimini assembled from remembered and invented stories, won him his fourth Best Foreign Language Film Oscar, at the 1975 ceremony. Fellini said of it that he had invented the whole tale, and Jackson notes that its sea and ocean liner were deliberately built to look artificial.",
+  "federico-fellini.moment.1":
+    "Frustrated by the pressures of shooting on the real Via Veneto for La dolce vita, Fellini had designer Piero Gherardi rebuild the street at Cinecittà. Thirty years later he wrote that, passing the Café de Paris, he could not stop himself thinking the authentic Via Veneto was the one in Studio 5, adding that the studio street's dimensions seemed to him more accurate, or certainly more attractive. For Intervista (1987) he again used a scale model of the studio so as to re-route its avenues and recolour its roofs.",
+  "federico-fellini.interpretation.moment.1":
+    "Preferring a built street to the real one, and a model of the studio to an aerial shot, is consistent with aesthetic sensitivity; the quotations are Fellini's own later recollections, relayed by a magazine writer.",
+  "federico-fellini.moment.2":
+    "When the first producer of La dolce vita, Dino De Laurentiis, wanted Paul Newman in the lead, Dixon reports that Fellini refused to give up Marcello Mastroianni, and after strenuous negotiations De Laurentiis dropped out. Fellini was then involved with three producers at once before settling on Angelo Rizzoli and Giuseppe Amato's company, and signed the contract on 28 October 1958.",
+  "federico-fellini.interpretation.moment.2":
+    "Holding to his own casting choice at the price of losing his first producer is consistent with a need for control over the film's key decisions; Dixon's account of the other producers' positions is brief.",
+  "federico-fellini.turning_point.1":
+    "Fellini began preparing 8 1/2 in 1961-62 with a spa setting and a leading cast but, he told his friend Angelo Solmi, without knowing the plot, and he said he was fifty times on the point of telling the producer he could not go on. The change that unlocked the film, Dixon writes, was making the hero a film director like himself, a burnt-out man who must begin a film he cannot remember. The result won two Academy Awards.",
+  "federico-fellini.interpretation.turning_point.1":
+    "Proceeding with sets and casting while the story was still open, and then turning the problem itself into the film's subject, is consistent with a high tolerance for ambiguity; the account depends on Fellini's own later description as relayed by Solmi.",
+  /* ---------------------------------------------------------- franz-liszt (Roster47) */
+  "franz-liszt.achievement.1":
+    "From the late 1830s Liszt toured Europe as a concert pianist, often giving whole programmes alone: in March 1840 Robert Schumann reported that Liszt nearly always gave his concerts unassisted, and described his Dresden and Leipzig concerts, which included Weber's Concertstuck and Schubert's Erlkonig. The wave of public enthusiasm that followed his Berlin concerts of 1841-42 was named 'Lisztomania' by Heinrich Heine.",
+  "franz-liszt.achievement.2":
+    "As a composer Liszt wrote the symphonic poems, one-movement orchestral works built on a literary or pictorial programme, twelve of them between 1848 and 1858 while he lived in Weimar. His piano music includes the Piano Sonata in B minor, dedicated to Robert Schumann, many Hungarian Rhapsodies, and the Annees de pelerinage, which in 1852 he described as a thorough remodelling of his earlier Album d'un voyageur. Their reception was divided: Schumann doubted in 1840 that he would match his playing as a composer, and James Huneker in 1899 found the B minor sonata fascinating though without a true sonata structure.",
+  "franz-liszt.achievement.3":
+    "Liszt settled in Weimar in 1848 as court Kapellmeister. There the court theatre gave the first performance of Wagner's Lohengrin on 28 August 1850, which Liszt prepared and for which he wrote a detailed account that Wagner says drew attention to the work abroad, and in 1852 it staged Berlioz's Benvenuto Cellini. Liszt resigned his conducting post in 1858, after a hostile demonstration at the premiere of Peter Cornelius's The Barber of Baghdad.",
+  "franz-liszt.achievement.4":
+    "Liszt taught piano in group classes in which each pupil played in turn before the others. The American pupil Amy Fay described the Weimar classes of 1873, where he taught her without charge, and the Wikipedia article lists Tausig and Bulow among his pupils. In 1875 he was named president of the new Royal Hungarian Academy of Music in Budapest, which opened that November; his own letters say the plan was not his idea, and in 1876 he began teaching a piano class there.",
+  "franz-liszt.moment.1":
+    "In March 1840, still tired from six concerts in eight days in Prague, Liszt played in Dresden and then in Leipzig. Schumann reports that he said he was ready at once to give a concert for any charitable institution, played for the poor in Dresden and then for the Leipzig pension fund for aged or invalid musicians, and chose pieces by Mendelssohn, Hiller and Schumann himself, playing them almost at sight.",
+  "franz-liszt.interpretation.moment.1":
+    "Offering a benefit concert at once and taking up colleagues' music even when tired is consistent with impact motivation; Schumann also notes the visible strain it cost him.",
+  "franz-liszt.moment.2":
+    "In June 1873, the pupil Amy Fay saw Liszt in a Weimar class lose his temper once. A student from Stuttgart attempted Beethoven's Appassionata Sonata and made rhythmic mistakes, and Liszt burst out at him and gave a tirade against conservatories and teachers in general; then he stopped, told the student the anger was not meant for him, and asked him to play on.",
+  "franz-liszt.turning_point.1":
+    "As Weimar court Kapellmeister Liszt had to submit his programmes to the court intendant. After Franz von Dingelstedt took that post in 1857 and reduced music productions, a hostile demonstration at the 1858 premiere of Peter Cornelius's The Barber of Baghdad led Liszt to resign as conductor of the theatre. In December 1860 he wrote that he would conduct the rehearsals of Wagner's Rienzi at Weimar but refused to conduct its performances.",
+  /* ---------------------------------------------------------- john-lennon (Roster47) */
+  "john-lennon.achievement.1":
+    "Lennon formed the Quarrymen in Liverpool, invited Paul McCartney to join, and the two began the songwriting partnership behind the Beatles. The Songwriters Hall of Fame credits \"Love Me Do\", \"Please Please Me\" and \"She Loves You\" (1962-63) as early successes, calls the group \"perhaps the single most influential new pop entity in a generation\", and says \"I Want to Hold Your Hand\" became the biggest-selling British single in history.",
+  "john-lennon.achievement.2":
+    "In 1966 Lennon's songs pushed the Beatles' studio work in new directions. For 'Tomorrow Never Knows', recorded in April 1966 for Revolver, he asked for a voice like a chanting Dalai Lama; engineers ran his vocal through a rotating organ speaker, and a live mix of tape loops was added. For 'Strawberry Fields Forever' he asked George Martin and Geoff Emerick to join the start of one take to the end of a remake in a different key and tempo, which they did by varying tape speed.",
+  "john-lennon.achievement.3":
+    "After the Beatles, Lennon released John Lennon/Plastic Ono Band in 1970, which he described as 'the best thing I've ever done' and as written in the first person; his second solo album, Imagine, followed in 1971, co-produced with Yoko Ono and Phil Spector, and carries the title song that is his best-known.",
+  "john-lennon.moment.1":
+    "After three days of sessions in late November 1966 the Beatles had a take of 'Strawberry Fields Forever' they thought finished, but Lennon was not satisfied and the song was remade over four more sessions. He then told Martin and Emerick he liked the start of the first version and the end of the second, and asked them to join them. Martin objected that the takes were in different keys and tempos; Lennon replied that he was sure Martin could fix it. Emerick and Martin both recall the edit falling about a minute into the song, and that Lennon listened and could not hear it.",
+  "john-lennon.interpretation.moment.1":
+    "Sending a finished take back for a remake, and then asking for the best parts of both, is consistent with a high standard for the finished track; Douglas's 1980 account of him moving on quickly after a few takes shows the standard sat alongside impatience.",
+  "john-lennon.moment.2":
+    "On 20 September 1969, just after the Beatles had signed a new EMI/Capitol contract at Apple's Savile Row office, Lennon told McCartney and Starr he was leaving the group, although manager Allen Klein had asked him to keep quiet. Lennon says the announcement came after he had answered McCartney's proposals with 'No, no, no'; McCartney recalls him saying 'I'm leaving the group!' and Starr that it was not sulky. The break was kept private for months.",
+  "john-lennon.interpretation.moment.2":
+    "Saying so directly, against the manager's advice and in front of McCartney, is consistent with decisiveness and a willingness to confront; McCartney's account shows it also hurt.",
+  "john-lennon.turning_point.1":
+    "On 6 July 1957 Ivan Vaughan introduced the 15-year-old McCartney to Lennon, then 16, at the Woolton fete where the Quarry Men played. In the church hall McCartney retuned Lennon's guitar and played Eddie Cochran and Little Richard songs; Lennon later said he thought 'He's as good as me'. Lennon says he invited McCartney to join; Pete Shotton recalls a message passed on a week or so later.",
+  "john-lennon.interpretation.turning_point.1":
+    "Bringing in a younger player he judged as good as himself is consistent with building a group around the strongest available musician, in keeping with his leadership drive.",
+  /* ---------------------------------------------------------- lionel-messi (Roster47) */
+  "lionel-messi.achievement.1":
+    "Messi joined Barcelona as a 13-year-old and stayed for more than twenty years. With the club he won four Champions League titles (2006, 2009, 2011, 2015) and ten Spanish league titles, scoring 634 goals in 731 appearances by September 2020. In November 2014, within three days, he passed Telmo Zarra's La Liga scoring record and Raúl's Champions League scoring record.",
+  "lionel-messi.achievement.2":
+    "Messi won a record eight Ballons d'Or, in 2009, 2010, 2011, 2012, 2015, 2019, 2021 and 2023. Guinness World Records lists the eight wins as the most for any player, and the 2023 award followed Argentina's World Cup victory.",
+  "lionel-messi.achievement.3":
+    "After losing the 2014 World Cup final and the 2015 and 2016 Copa América finals, Messi led Argentina to the 2021 Copa América, its first title since 1993, in which he was named player of the tournament. In December 2022 Argentina beat France on penalties after a 3-3 draw in the World Cup final, with Messi scoring twice, and in 2024 it won the Copa América again. He played his last match for Argentina, a 3-0 friendly win over Benin, in October 2026 as the national team's record appearance maker and top scorer.",
+  "lionel-messi.moment.1":
+    "After Argentina's 2-1 opening defeat by Saudi Arabia at the 2022 World Cup, Messi says he let a day pass and then sent a message to the squad: nobody needed to blame anyone, nothing had to change, and winning the next two games would still put them top of the group. Enzo Fernández remembers a team meeting at which they agreed every remaining match was a final. Argentina beat Mexico and Poland.",
+  "lionel-messi.interpretation.moment.1":
+    "Acting to reset the squad after a shock defeat is consistent with leadership drive; the account is largely Messi's own, with Fernández confirming the meeting.",
+  "lionel-messi.moment.2":
+    "At the end of the Copa América Centenario final in June 2016, in which he missed in the penalty shoot-out against Chile, Messi told Argentine television that the national team was over for him. On 12 August he reversed the decision, saying many things had gone through his mind on the night of the final and that he preferred to help from within rather than criticise from outside.",
+  "lionel-messi.interpretation.moment.2":
+    "Returning to the team after a public exit, and then playing on for ten more years, is consistent with persistence, although the episode began with him announcing he was quitting.",
+  "lionel-messi.turning_point.1":
+    "In August 2021 Barcelona announced it could not renew Messi's contract because of La Liga's financial regulations. At a tearful farewell press conference on 8 August he said he had wanted to stay and had not expected to leave. He spent two years at Paris Saint-Germain, then in 2023 chose Inter Miami, saying he had put a return to Barcelona aside rather than leave his future in others' hands again.",
+  /* ---------------------------------------------------------- marcel-proust (Roster47) */
+  "marcel-proust.achievement.1":
+    "Proust wrote A la recherche du temps perdu (In Search of Lost Time). Its first volume, Du cote de chez Swann, was published by Bernard Grasset on 14 November 1913 at the author's expense; the NRF took over the work after the First World War, and the second volume, A l'ombre des jeunes filles en fleurs, won the Prix Goncourt of 1919. Sodome et Gomorrhe II appeared in 1922, and La Prisonniere (1923), Albertine disparue (1925) and Le Temps retrouve (1927) were published after his death.",
+  "marcel-proust.achievement.2":
+    "Proust translated John Ruskin's The Bible of Amiens (Mercure de France, 1904) and Sesame and Lilies (1906), each with his own preface and notes; the preface to the second, on reading, began as a magazine essay. According to Pierre-Quint, his English was weak and he worked with dictionaries, and the Ruskin work absorbed him for about six years.",
+  "marcel-proust.achievement.3":
+    "Les Plaisirs et les jours, Proust's first book, was published by Calmann-Levy in 1896 with illustrations by Madeleine Lemaire and a preface by Anatole France. It collected portraits, studies and stories he had contributed to Le Banquet and La Revue blanche, together with some unpublished pieces.",
+  "marcel-proust.moment.1":
+    "In January 1914 Andre Gide wrote to Proust that the NRF's refusal of Swann would remain the review's gravest mistake and one of the most stinging regrets of his own life. Proust replied within days that, without the repeated refusals, he would not have received Gide's letter, and that its joy exceeded what publication by the NRF would have given him; he added that he had never pretended to be indifferent to the refusals.",
+  "marcel-proust.moment.2":
+    "In spring 1913 Proust wrote to Grasset that he had reworked his proofs so heavily that he would be dishonest not to pay for the extra composition, and offered a supplement; a few weeks later he apologised for the 'terrible mess' of the sheets he was returning. In June 1914 Grasset's staff told their printer that the author 'absolutely wants many more proofs'.",
+  "marcel-proust.interpretation.moment.2":
+    "Reworking proofs far beyond the contract and offering to pay for it is consistent with perfectionism; the publisher's staff and a critic's complaint about surviving slips show that the result was not a clean text.",
+  "marcel-proust.turning_point.1":
+    "After Swann was declined by the NRF, the Mercure de France, Fasquelle and Ollendorff, Proust asked his friend Rene Blum in 1913 to take it to Bernard Grasset, offering to pay for the edition and publicity and to give the publisher a percentage of sales. Grasset accepted, the book came out in November 1913, and Proust went on to the second volume.",
+  "marcel-proust.interpretation.turning_point.1":
+    "Carrying on to a fifth route to publication after four refusals is consistent with persistence; the account of the refusals comes from an admirer, and Gide's 1914 letter independently confirms the NRF's.",
+  /* ---------------------------------------------------------- nadia-comaneci (Roster47) */
+  "nadia-comaneci.achievement.1":
+    "At the 1976 Montreal Olympics, 14-year-old Nadia Comăneci received the first perfect 10 awarded in Olympic gymnastics, on the uneven bars on 18 July; the scoreboard, built without room for a 10.00, displayed 1.00. She scored seven perfect 10s at the Games and won the individual all-around, uneven bars and balance beam titles, plus team silver and floor bronze. She appeared on the covers of Time, Newsweek and Sports Illustrated that August.",
+  "nadia-comaneci.achievement.2":
+    "At the 1980 Moscow Olympics she won the balance beam, defending her 1976 title, and shared the floor exercise gold, and took silver in the team event and, level with Maxi Gnauck, in the all-around. Across 1976 and 1980 she won nine Olympic medals, five of them gold.",
+  "nadia-comaneci.achievement.3":
+    "At her first senior European Championships in 1975 she won four gold medals, and in 1978 she won the World Championships balance-beam title, which Olympedia notes was her only individual world title.",
+  "nadia-comaneci.moment.1":
+    "In an April 1973 interview, 12-year-old Comăneci was asked whether she had expected to win both Bucharest competitions and answered 'Yes'; asked whether she could beat the national champion, she said 'Yes. If not this year, then the next one for sure.' The journalist compared her self-confidence to Cassius Clay's. The piece comes from the state-controlled Romanian press of the time.",
+  "nadia-comaneci.interpretation.moment.1":
+    "Stating, at twelve, that she expected to beat the country's best is consistent with strong competitiveness; the source is promotional state press, so it is one signal rather than a pattern.",
+  "nadia-comaneci.moment.2":
+    "At the 1980 Moscow Olympics she lost the all-around gold by 0.075 after a 28-minute scoring dispute led by Romania's head judge, then fell on vault in the apparatus finals. Over the rest of the competition she won the balance-beam final and tied for the floor gold, according to the Christian Science Monitor and Olympedia.",
+  "nadia-comaneci.interpretation.moment.2":
+    "Winning two finals within days of a disputed loss and a fall is consistent with persistence; it is one documented episode, not a lifelong pattern.",
+  "nadia-comaneci.turning_point.1":
+    "On 30 March 1981 the Romanian women's team's coaches Béla and Márta Károlyi and choreographer Géza Pozsár left the team in New York at the end of a US tour and asked for asylum. The Christian Science Monitor reported they cited the federation's interference with their training methods, including those used for Comăneci. Olympedia records that she then won the 1981 World Student Games in Bucharest and retired from competition; other sources place her retirement in 1984.",
+  /* ---------------------------------------------------------- reinhold-messner (Roster47) */
+  "reinhold-messner.achievement.1":
+    "On 8 May 1978 Messner and the Austrian Peter Habeler reached the summit of Everest from the South Col without supplementary oxygen, which Guinness World Records credits as the first such ascent. They went with very little equipment, in the lightweight alpine style they had first used on Gasherbrum I in 1975, which Habeler describes as the first alpine-style ascent of an eight-thousander.",
+  "reinhold-messner.achievement.2":
+    "In summer 1978 Messner climbed Nanga Parbat alone, described as the first solo ascent of an eight-thousander from base camp to summit. On 20 August 1980 he reached the top of Everest alone and without supplementary oxygen, by the north side during the monsoon and partly on a new route, which ExplorersWeb calls the first solo summit of the mountain.",
+  "reinhold-messner.achievement.3":
+    "Messner began his eight-thousander years on Nanga Parbat in 1970, where he and his brother Günther made the first ascent of the Rupal Face, and by 1986 had climbed all fourteen peaks above 8,000 metres; a 2024 profile says all without bottled oxygen, and he is credited as the first to complete the set. The Polish climber Jerzy Kukuczka finished it about a year later.",
+  "reinhold-messner.achievement.4":
+    "From 13 November 1989 to 12 February 1990 Messner and the German Arved Fuchs crossed Antarctica from the Ronne Ice Shelf to Scott Base in 92 days, each pulling his own sled and relying on their own power except for two supply depots. Messner puts the distance travelled at 2,800 km, and Climbing magazine calls it the first trans-Antarctic journey on foot. He later crossed Greenland with his brother Hubert in 1993.",
+  "reinhold-messner.moment.1":
+    "In late April 1978 Habeler fell ill after eating a tin of sardines at Camp III, and Messner went on with two Sherpas to the South Col, where a storm pinned them for two days. Back at base camp he told the film crew he might have to find a new partner, and Habeler later said it was Messner kicking him into action, 'Come on, Peter', that brought back his drive. The two reached the summit on 8 May.",
+  "reinhold-messner.interpretation.moment.1":
+    "Pressing a hesitating partner to go on is consistent with persuasiveness that works through pressure as well as encouragement; filmmaker Leo Dickinson says Messner could get the best out of people but also shame them. The account rests on Habeler's and Dickinson's recollections.",
+  "reinhold-messner.moment.2":
+    "On the approach to his 1980 solo climb of Everest, Messner fell into a crevasse at night above 7,000 metres. He later said that in the crevasse he told himself he would give up if he got out, but after climbing out he went on up the north ridge, and reached the summit on the third day after leaving base camp.",
+  "reinhold-messner.interpretation.moment.2":
+    "Continuing the climb after a near-fatal fall, alone and without a way to be rescued, is consistent with persistence; the same choice also carried very high risk, which the sources acknowledge.",
+  "reinhold-messner.turning_point.1":
+    "After completing the fourteen eight-thousanders in 1986, Messner turned to long journeys over flat, remote terrain. In his book Free Spirit he describes turning to the 'wild, untouched horizontal expanses'. A 2024 profile lists a search for the yeti in 1988, the Antarctic crossing of 1989-90, Greenland in 1993 and a solo Gobi journey in 2004.",
+  "reinhold-messner.interpretation.turning_point.1":
+    "Moving from vertical to horizontal exploration after finishing his main goal is consistent with adaptability, though the new projects stayed within the same field of remote, self-propelled travel.",
+  /* ---------------------------------------------------------- roger-federer (Roster47) */
+  "roger-federer.achievement.1":
+    "Federer won 20 Grand Slam men's singles titles, the first at Wimbledon in 2003, and retired in 2022 with that total. He won a record eighth Wimbledon singles title in 2017, and his 2009 French Open win completed a career Grand Slam; the 2017 Australian Open, his 18th major, came at 35 after six months away from competition.",
+  "roger-federer.achievement.2":
+    "From 2 February 2004 to 17 August 2008 Federer spent 237 consecutive weeks at No. 1 in the ATP rankings, the longest unbroken run since the rankings began in 1973. The next longest, by Jimmy Connors, lasted 160 weeks.",
+  "roger-federer.achievement.3":
+    "In November 2014 Federer and Stan Wawrinka led Switzerland to its first Davis Cup title, a 3-1 win over France in Lille. Wawrinka won the opening singles and the two won the doubles; Federer beat Richard Gasquet in straight sets to clinch the tie.",
+  "roger-federer.moment.1":
+    "During practice with Benoit Paire in Cincinnati in August 2015, Federer began running forward to return serves from the service line, hitting half-volleys and moving to the net. He said he wanted to keep the points short, and his coach Severin Luthi had asked them to play more games. The tactic, nicknamed SABR (Sneak Attack By Roger), appeared in that tournament's matches, including the first-set tiebreak of the final against Novak Djokovic. Boris Becker, Djokovic's coach, called it 'almost disrespectful'; Federer replied it was not.",
+  "roger-federer.interpretation.moment.1":
+    "Trying an untested tactic in practice, then using it in matches and defending it against public criticism, is consistent with experimentation; the account is Federer's own, relayed by reporters.",
+  "roger-federer.moment.2":
+    "At the 2018 Australian Open Federer said the Grand Slams' revenue-sharing agreement with the players 'has run its course', that players had to 'rally, get back together again, put in the effort', and that 'when the players don't talk, nothing gets done'. Sky Sports noted he had been president of the ATP Player Council in 2012, when talk of a boycott preceded larger prize-money increases, especially for early-round losers.",
+  "roger-federer.interpretation.moment.2":
+    "Speaking publicly for the player group and urging players to organise, after six years as council president, is consistent with leadership drive.",
+  "roger-federer.turning_point.1":
+    "After losing in the second round at Wimbledon in 2013 to the 116th-ranked Sergiy Stakhovsky, his worst Grand Slam loss in over ten years, Federer tested a larger 98-square-inch prototype racket for about a month, then said he would return to his old 90-square-inch frame through the US Open. In 2014 he moved to a bigger-headed racket, which ESPN later credited with helping him drive returns against Rafael Nadal's serve instead of slicing them. His ranking had fallen from No. 2 to No. 6 over the 2013 season.",
+  "roger-federer.interpretation.turning_point.1":
+    "Changing equipment and later his return tactics after a poor season, rather than waiting for form to return, is consistent with adaptability; the 2013 reversal shows the change was not made without hesitation.",
+  /* ---------------------------------------------------------- sergey-brin (Roster47) */
+  "sergey-brin.achievement.1":
+    "While PhD students at Stanford in 1995-1998, Brin and Larry Page built the BackRub web-crawling prototype and developed PageRank, a method that ranks a web page highly when many highly ranked pages link to it. The National Science Foundation describes Brin as a graduate student on Stanford's NSF-supported digital-library project who joined Page's work; the pair described the resulting Google prototype in the 1998 paper 'The Anatomy of a Large-Scale Hypertextual Web Search Engine'.",
+  "sergey-brin.achievement.2":
+    "Brin and Page founded Google in September 1998. By Alphabet's own account in 2019, the company had grown to more than 100,000 employees, with products including Search, Maps, Ads, Gmail, Android, Chrome, Google Cloud and YouTube.",
+  "sergey-brin.achievement.3":
+    "In the 2004 founders' letter in Google's registration statement, Page and Brin set out an auction-based public offering and a dual-class share structure in which Class B shares carry ten votes each, and the letter describes Brin as focusing on engineering and business deals alongside Page and the CEO Eric Schmidt. Google became part of the Alphabet holding company in 2015; Brin was Alphabet's President until 3 December 2019, when he and Page left their executive roles while remaining co-founders, shareholders and board members.",
+  "sergey-brin.moment.1":
+    "At Google I/O in June 2012 Brin presented Project Glass by staging a live demonstration in which a skydiver wearing the glasses streamed a jump toward the Moscone Center, followed by stunt cyclists wearing them. He announced that only conference attendees could order the Explorer edition, which was not a consumer product.",
+  "sergey-brin.interpretation.moment.1":
+    "Fronting a high-profile live demonstration of an unfinished product is consistent with risk tolerance; Brin and analysts later judged the publicity premature, so the same stance carried a cost.",
+  "sergey-brin.moment.2":
+    "At Google I/O in May 2025, asked what he had learned from Glass, Brin said he felt he had 'made a lot of mistakes with Google Glass', citing his lack of knowledge of consumer-electronics supply chains and the difficulty of a reasonable price. He added that the next launch should polish the product before a demo.",
+  "sergey-brin.interpretation.moment.2":
+    "Publicly naming his own errors and the change he would make is consistent with belief updating; this is a single reported on-stage statement.",
+  "sergey-brin.turning_point.1":
+    "By 1998 Brin and Page were unsure they wanted to run a company, and Brin was reluctant to leave the Stanford programme. Battelle reports that Brin's adviser told him he could return to graduate school and finish his thesis if Google did not work out; Brin recalls answering, 'Yeah, OK, why not? I'll just give it a try.' Google was incorporated in September 1998.",
+  "sergey-brin.interpretation.turning_point.1":
+    "Stepping out of a doctoral programme with a safety net, after weighing the choice, is consistent with proactive agency; the account rests on a journalist's interviews and Brin's own recollection.",
+  /* ---------------------------------------------------------- usain-bolt (Roster47) */
+  "usain-bolt.achievement.1":
+    "At the 2008 Beijing Olympics Bolt lowered his 100 m world record to 9.69 and broke Michael Johnson's 12-year-old 200 m record with 19.30. At the 2009 World Championships in Berlin he ran 9.58 in the 100 m, the largest cut to the record since electronic timing became mandatory for ratification in 1977, and 19.19 in the 200 m. A 2025 report says he still holds both records.",
+  "usain-bolt.achievement.2":
+    "Bolt won the 100 m and 200 m at the 2008 Olympics, and in 2008 became the first man to win three golds and set three world records at one Games. In 2012 he won the 100 m in an Olympic record of 9.63, the first man to defend that title since Carl Lewis in 1988. At Rio 2016 he took his ninth Olympic gold in the 4x100 m relay, completing a triple treble. In January 2017 the IOC disqualified Jamaica's 2008 relay team after a re-test of teammate Nesta Carter's sample, leaving Bolt with eight golds.",
+  "usain-bolt.achievement.3":
+    "At the World Championships Bolt won the 100 m and 200 m in Berlin in 2009, the 200 m in Daegu in 2011, the 100 m in Moscow in 2013 in 9.77 and the 100 m in Beijing in 2015, beating Justin Gatlin by 0.01 seconds in 9.79. World Athletics said that before the relay in London in 2017 he held a record haul of 11 world titles. In his last individual race there he finished third in the 100 m in 9.95, behind Gatlin and Christian Coleman, for a total of 14 championship medals.",
+  "usain-bolt.moment.1":
+    "In 2007 Bolt's coach Glen Mills wanted him to move up to the 400 m. Bolt proposed a wager: if he did well in a 100 m, he would be allowed to double 100 m and 200 m the next season. He broke Don Quarrie's 36-year-old Jamaican 200 m record at the national championships, and Mills is quoted by the Jamaica Gleaner as saying Bolt did not even say thank you but asked, 'When is the 100m?' Three weeks later he won his first professional 100 m in Crete in 10.03. Bolt's own account and the NBC account differ on the exact terms of the bet.",
+  "usain-bolt.interpretation.moment.1":
+    "Pressing his coach to change the season plan and then delivering the result that earned it is consistent with proactive agency; the account rests on Bolt's own words and one quotation from Mills relayed by a news outlet.",
+  "usain-bolt.moment.2":
+    "In the 100 m final at the 2011 World Championships in Daegu, Bolt left his blocks before the gun and was disqualified under the zero-tolerance rule in force since 2010, handing the title to Yohan Blake. He said 'I have nothing to say right now. I need some time.' Days later he won the 200 m at the same championships.",
+  "usain-bolt.interpretation.moment.2":
+    "Returning to win another title within days of a public disqualification is consistent with persistence; the sources report the result, not how he prepared.",
+  "usain-bolt.turning_point.1":
+    "In the Beijing 100 m final in August 2008 Bolt slowed and began celebrating before the line, yet still set a world record of 9.69. IOC president Jacques Rogge said he should show more respect for his opponents. Bolt said he was surprised by the criticism, asked some of the other runners whether he had disrespected them, and was told they would probably have done the same. Within the week he won the 200 m in a world record and then the relay. After the Games he went from a relatively new 100 m runner to a global figure and, as the Guardian's 2010 interview describes it, to the centre of questions about doping that he answered by pointing to repeated testing.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -13497,6 +13742,251 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1936년 2월 세 번째 올림픽 금메달을 딴 지 한 달 만에 헤니는 아서 위르츠와 순회 공연 계약을 맺고 매디슨 스퀘어 가든에서 자선 공연을 했다. 이어 아버지와 함께 로스앤젤레스의 폴라 팰리스 링크를 빌려 두 차례 공연을 열어 영화사들의 관심을 끌었는데, 앞서 메트로 골드윈 메이어는 그녀를 거절한 뒤였다. 재넉은 두 번째 공연에 왔고, 그녀의 첫 폭스 영화 〈원 인 어 밀리언〉이 그해 나왔다.",
   "sonja-henie.interpretation.turning_point.1":
     "마지막 아마추어 타이틀 직후 곧바로 영화계 진출 캠페인에 나선 일은 주도적 행동과 부합한다. 다만 아버지가 많은 부분을 준비했으므로 공은 나누어 볼 필요가 있다.",
+  /* ---------------------------------------------------------- andre-marie-ampere (Roster47) */
+  "andre-marie-ampere.achievement.1":
+    "1820년 9월, 외르스테드의 발견 소식이 파리 과학 아카데미에 전해진 지 일주일 만에 앙페르는 전류가 흐르는 평행한 두 도선이 전류의 방향이 같으면 서로 끌어당기고 반대이면 서로 밀어낸다는 사실을 보였다. 그는 이어 전류 요소 사이에 작용하는 힘의 수학적 법칙을 도출하여 1826년의 전기역학 현상에 관한 수학적 이론 논문에 담았고, 이 새로운 학문에 전기역학이라는 이름을 붙였다. 맥스웰은 이 연구를 '과학에서 가장 눈부신 업적 중 하나'라고 평가했으며, NIST는 2019년까지 암페어의 정의가 앙페르가 1820년대에 수행한 실험을 일반화한 것이었다고 설명한다.",
+  "andre-marie-ampere.achievement.2":
+    "앙페르는 자기 현상 자체가 전기적인 것이라고 보았다. 자석의 성질은 그 분자 속을 도는 작은 닫힌 전류에서 비롯되며, 지구의 자기도 지구를 동에서 서로 도는 전류들의 체계로 설명할 수 있다는 것이다. 그는 도선을 나선형으로 감은 장치에 솔레노이드라는 이름을 붙였는데, 이것은 전류가 흐르면 막대자석처럼 작용한다. 휘태커는 또한 앙페르가 전류가 흐르는 회로의 자기 효과가 자기 껍질(자기 이중층)과 같다는 것을 보였다고 기록한다.",
+  "andre-marie-ampere.achievement.3":
+    "전기역학에 앞서 앙페르는 수학자로 알려져 있었다. 도박꾼에게 확률이 불리하다는 것을 보여 준 1802년의 우연 게임 수학 논문 덕분에 그는 리옹과 파리에서 자리를 얻었고, 1809년부터 1828년까지 에콜 폴리테크니크의 수학 교수로 있었다. 1814년에 발표한 편미분방정식 분류는 같은 해 11월 그가 학사원(Institut)에 선출되기 직전의 업적이다. 만년에는 인간의 모든 지식을 자연스럽게 분류하려는 시도인 『과학 철학 시론』을 썼다.",
+  "andre-marie-ampere.moment.1":
+    "앙페르는 1820년 12월과 1821년 2월의 편지에서 친구들에게, 석 달 동안 전류와 자석이 서로에게 미치는 작용이라는 한 가지 생각뿐이었고, 강의 두 개를 맡은 채 밤늦게까지 깨어 있으며, 그때까지 가장 좋아하던 형이상학마저 제쳐 두었다고 적었다. 두 번째 편지에서는 자신의 논문이 극도로 서둘러 토막토막 쓰여 충분히 명료하지 않다고 인정하기도 했다.",
+  "andre-marie-ampere.interpretation.moment.1":
+    "다른 관심사를 접고 밤을 새워 한 가지 문제에 몰두한 모습은 깊은 집중과 일치한다. 서두른 탓에 논문이 명료하지 못했다는 본인의 시인은 그 대가를 보여 주며, 이 서술은 찬미하는 전기 작가 발송이 전한 그의 편지에 근거한다.",
+  "andre-marie-ampere.moment.2":
+    "앙페르는 1816년까지 빛의 방출설을 열렬히 지지했다. 전기 작가 C.-A. 발송(Valson)은 프레넬의 연구가 『화학과 물리학 연보』에 소개되자 앙페르가 아끼던 이론을 고통스럽게 포기했다고 스스로 인정했다고 전하며, 1816년에는 비오와 라플라스에 맞서 프레넬 편에 서서 파동설을 옹호했다. 프레넬은 1822년부터 1827년 사망할 때까지 앙페르의 집에서 지냈다.",
+  "andre-marie-ampere.interpretation.moment.2":
+    "경쟁 이론의 근거가 제시되자 애착이 있던 이론을 내려놓은 것은 믿음을 고쳐 가는 태도와 일치한다.",
+  "andre-marie-ampere.turning_point.1":
+    "전류가 자침에 미치는 작용에 관한 외르스테드의 실험은 1820년 9월 11일 과학 아카데미에서 재현되었다. 이레 뒤인 9월 18일 앙페르는 이미 장치를 만들어 놓은 더 일반적인 결과를 발표했고, 이후 몇 주 동안 학자들이 그의 서재를 찾아 백금 도선이 지구의 작용에 따라 방향을 잡는 것을 보았다. 발송(Valson)은 이후 몇 해 동안 그가 형이상학 연구를 접었다고 적고 있으며, 그는 1826년 콜레주 드 프랑스에서 직접 구성한 강의로 전기역학을 가르치기 시작했다.",
+  "andre-marie-ampere.interpretation.turning_point.1":
+    "다른 연구에서 새로 보고된 실험으로 며칠 만에 방향을 돌린 것은 기회 포착과 일치한다. 그가 한 학문 분야 전체를 미리 내다보았다는 말은 찬미하는 이들의 서술일 뿐이므로 여기서는 주장하지 않는다.",
+  /* ---------------------------------------------------------- david-hilbert (Roster47) */
+  "david-hilbert.achievement.1":
+    "힐베르트는 1900년 파리 국제수학자대회에서 '수학의 문제들'이라는 제목으로 강연하며, 미해결 문제가 풍부하다는 것이 학문이 살아 있다는 표지라고 주장했다. 이어 제시된 '힐베르트의 문제들'에는 연속체 가설, 실수의 정렬 가능성, 리만 가설 등이 포함되었으며, 그중 많은 문제가 20세기에 해결되었다.",
+  "david-hilbert.achievement.2":
+    "힐베르트의 『기하학의 기초』(1899)는 기하학을 형식적 공리 체계 위에 세웠으며, 맥튜터의 설명에 따르면 20세기 수학 전반에 공리적 접근이 퍼지는 데 큰 영향을 주었다. 그는 1900년경부터, 본격적으로는 1921년부터 이른바 '힐베르트 프로그램', 즉 수학을 형식화하고 유한적 방법으로 그 무모순성을 증명하려는 계획을 추진했다. 괴델의 1930~31년 결과는 이 목표가 달성될 수 없음을 보인 것으로 일반적으로 받아들여진다.",
+  "david-hilbert.achievement.3":
+    "힐베르트는 1888년 불변식론의 유한 기저 정리를 변수의 개수에 관계없이 증명했는데, 기저를 직접 구성하지 않고 그 존재만 보이는 추상적 방법을 썼다. 1897년에는 독일수학회의 요청으로 대수적 수론에 관한 보고서 『수론 보고』(Zahlbericht)를 발표했으며, 맥튜터에 따르면 이 보고서에는 오늘날 유체론(class field theory)이라 불리는 분야의 착상이 담겨 있다.",
+  "david-hilbert.achievement.4":
+    "맥튜터가 인용한 어빙 캐플런스키의 표현에 따르면, 힐베르트가 1909년경 연구한 적분방정식은 20세기 함수해석학 연구로 곧바로 이어졌고, 나중에 힐베르트 공간이라 불리는 무한차원 공간의 토대를 놓았다. 이 공간은 해석학과 양자역학에서 쓰인다.",
+  "david-hilbert.moment.1":
+    "1888년 힐베르트가 기저 정리 논문을 《수학 연보(Mathematische Annalen)》에 투고하자, 불변식론 심사를 맡은 파울 고르단은 그 비형식적 서술 방식에 이의를 제기했다. 당시 조교수급 강사였던 힐베르트는 자신의 추론에 대한 분명하고 반박할 수 없는 반론이 없는 한 아무것도 고치거나 삭제하지 않겠다고 펠릭스 클라인에게 편지로 밝혔다. 클라인은 논문을 수정 없이 실었다.",
+  "david-hilbert.interpretation.moment.1":
+    "분야의 공인된 권위자에 맞서 구체적인 반론만을 요구하며 비전통적 방법을 고수한 것은 독립적 사고와 부합한다. 이 서술은 맥튜터가 인용한 편지에 근거한다.",
+  "david-hilbert.moment.2":
+    "1915년 11월 힐베르트와 아인슈타인은 같은 시기에 중력장 방정식을 연구하고 있었다. 1915년 12월 6일자 도장이 찍힌 힐베르트의 초교지에는 일반공변 장 방정식이 들어 있지 않았다. 역사학자 렌과 스타첼은 그가 이후 교정지에 직접 손으로 아인슈타인의 기여를 인정하는 문구를 넣고 자신의 방정식에서 '새로운'이라는 단어를 지웠으며, 1916년 2월 중순에는 고쳐 쓴 논문이 인쇄에 들어갔다고 기록한다. 누구의 공을 먼저 인정할지는 역사학자들 사이에서 지금도 논쟁 중이다.",
+  "david-hilbert.interpretation.moment.2":
+    "경쟁자의 결정적 결과를 본 뒤 논문의 주장을 고친 것은 새로운 증거에 따라 입장을 바꾸는 것과 부합한다. 다만 그 변경을 이끈 것이 아인슈타인의 항의였는지 힐베르트 자신의 재작업이었는지에 대해서는 역사학자들의 견해가 갈린다.",
+  "david-hilbert.turning_point.1":
+    "1902년 베를린 대학은 힐베르트에게 라자루스 푹스의 교수직을 제안했다. 그는 이를 거절했지만, 그 제안을 이용해 괴팅겐과 협상했고, 괴팅겐은 그의 친구 헤르만 민코프스키를 데려올 새 교수직을 만들었다. 힐베르트는 남은 경력 내내 괴팅겐에 머물렀다.",
+  "david-hilbert.interpretation.turning_point.1":
+    "경쟁 대학의 제안을 가까운 동료의 자리로 바꾼 것은 협력자와 함께 일하려는 성향과 부합한다. 이 일화의 출처는 여기서는 맥튜터 하나뿐이다.",
+  /* ---------------------------------------------------------- edmond-halley (Roster47) */
+  "edmond-halley.achievement.1":
+    "핼리는 1705년 『혜성 천문학 개요』에서 혜성 24개의 궤도를 계산했고, 1531년·1607년·1682년의 혜성이 약 76년 주기로 돌아오는 타원 궤도의 같은 천체라고 결론지었으며, 1758년 말의 회귀를 예측했다. 그는 1742년에 세상을 떠났지만 이 혜성은 1758년 말에 다시 관측되었고, 이는 뉴턴 역학을 확인해 준 사건으로 널리 받아들여졌다. 이 혜성에는 그의 이름이 붙었다.",
+  "edmond-halley.achievement.2":
+    "1684년 1월 핼리는 훅, 렌과 함께 태양을 향한 역제곱 인력이 어떤 궤도를 만드는지 풀지 못했고, 8월 케임브리지로 뉴턴을 찾아가 그 문제를 물었다. 이 질문이 뉴턴을 『프린키피아』(1687)로 이끌었으며, 핼리는 이 책의 출판을 끝까지 맡아 인쇄 비용을 직접 대고 판매 수익을 거두었고, 라틴어 송시를 쓰고 증정본을 돌렸다. 전기 작가 앨런 쿡은 핼리가 책의 집필에는 기여한 바가 없었다고 밝힌다.",
+  "edmond-halley.achievement.3":
+    "핼리는 1676년 11월 학위 없이 옥스퍼드를 떠나, 찰스 2세가 동인도회사에 써 준 서한과 아버지가 주는 생활비를 바탕으로 세인트헬레나 섬에서 약 18개월 동안 남반구 별들의 위치를 측정했다. 341개 별을 실은 『남천 별 목록』(1679)은 22세의 그에게 이름을 안겨 주었으며, 1677년 11월 7일에는 수성의 태양면 통과를 관측해 금성의 태양면 통과로 태양까지의 거리를 구할 수 있다고 주장했다.",
+  "edmond-halley.achievement.4":
+    "핼리는 흩어진 관측 자료를 도표와 표로 정리했다. 1686년에는 무역풍과 계절풍 지도를 만들었는데 쿡은 이를 최초의 기상 도표로 꼽는다. 1693년에는 브레슬라우의 사망 통계로 생명표를 작성해 사망률과 연령을 연결한 초기 연구이자 근대 보험수리 방법의 선구가 되었고, 1698~1700년 대서양 항해 뒤인 1701년에는 편각이 같은 지점을 잇는 등편각선으로 지자기 편차 해도를 펴냈다. 쿡에 따르면 이런 방식의 해도가 출판된 것은 이때가 처음이다.",
+  "edmond-halley.moment.1":
+    "1712년 핼리는 왕립천문대 방문위원회와 함께 플램스티드가 끝내지 못한 별 목록의 출간을 맡았다. 글래스고 대학교는 이 책이 플램스티드의 동의 없이 인쇄에 들어갔고 그의 작업을 고쳤으며 왕실 천문학자를 공개적으로 비판하는 서문이 실렸다고 전하고, MacTutor는 서문이 플램스티드를 굼뜨고 비밀주의적이며 공익 정신이 부족하다고 비난했다고 덧붙인다. 뉴턴과 핼리는 400부를 찍게 했고, 1716년 플램스티드는 핼리의 무기명 서문을 포함해 이 판본의 상당 부분을 불태웠다.",
+  "edmond-halley.interpretation.moment.1":
+    "저자가 반대한다는 것을 알면서도 출간을 밀어붙이고 비판적인 서문을 쓴 일은 공개적 갈등을 감수하는 태도와 부합한다. 이 사건이 어떻게 받아들여졌는지는 주로 플램스티드 쪽 기록에 의존하며, 이 다툼으로 핼리는 오래가는 적을 얻었다.",
+  "edmond-halley.moment.2":
+    "1693년 사망률 논문에서 핼리는 브레슬라우의 통계를 택했다. 이 도시는 바다에서 멀고 외지인이 적으며 출생이 사망을 근소하게 웃돌아 기준 인구로 삼기에 적합했기 때문이다. 이 표에는 사망 연령은 있었으나 주민 수가 없었으므로, 그는 모든 연령의 사망 수를 비교해 그 수치를 보충하겠다고 밝혔고, 이어 5세 간격의 연령마다 종신연금 가격을 계산했는데 스스로 이를 매우 고된 계산이라고 불렀다.",
+  "edmond-halley.interpretation.moment.2":
+    "런던과 더블린 통계의 결함을 짚고, 그 결함을 피할 수 있는 인구를 고르고, 빠진 수치를 숨기지 않고 밝힌 방식은 분석적 엄밀성과 부합한다. 이 논문은 핼리 자신이 방법을 설명한 기록이다.",
+  "edmond-halley.turning_point.1":
+    "1676년 11월, 스무 살의 핼리는 학위를 받지 않고 옥스퍼드 퀸스 칼리지를 떠나 남쪽 별을 측량하러 세인트헬레나로 출항했다. 그는 아버지의 지원, 찰스 2세의 서한, 동인도회사의 도움을 미리 마련해 두었다. 하늘은 자주 흐렸고 플램스티드는 훗날 그의 절차를 비판했지만, 1679년에 나온 목록은 22세의 그에게 유럽적 명성을, 1678년 왕립학회 회원 선출과 왕명에 따른 옥스퍼드 문학석사 학위를 안겨 주었다.",
+  "edmond-halley.interpretation.turning_point.1":
+    "스스로 구상한 남천 측량을 위해 학위를 포기하고 왕실과 회사의 후원을 미리 확보한 일은 능동적 주도성과 부합한다.",
+  /* ---------------------------------------------------------- federico-fellini (Roster47) */
+  "federico-fellini.achievement.1":
+    "펠리니는 『라 스트라다』(1954)로 아카데미 외국어영화상을 받았고, 『카비리아의 밤』(1957)으로 다시 같은 상을 받았다. 앞의 영화에서는 아내 줄리에타 마시나가 앤서니 퀸이 연기한 떠돌이 차력사 곁의 소녀 젤소미나를 맡았고, 뒤의 영화에서는 마시나가 낙천적인 로마의 매춘부로 나온다. 샤나한(Shanahan)은 좌파 비평가들이 두 작품 모두 네오리얼리즘의 사회 비판 노선을 떠났다며 공격했다고 전한다.",
+  "federico-fellini.achievement.2":
+    "『달콤한 인생』(1960)은 마르첼로 마스트로이안니가 연기한 로마의 가십 기자가 유명인과 스캔들로 얼룩진 도시의 밤을 헤매는 이야기이며, 사진기자 파파라초라는 인물을 통해 영어에 '파파라치'라는 말을 남겼다. 딕슨(Dixon)은 가톨릭 교회의 비난에도 이 영화가 곧바로 흥행과 평단 양쪽에서 화제작이 되었다고 설명하고, 보즐리 크라우더는 1961년 뉴욕 타임스 평에서 펠리니가 최근의 영화인 가운데 정신없는 현대 문명의 포괄적 모습에 가장 가까이 다가갔다고 평했다.",
+  "federico-fellini.achievement.3":
+    "『8과 1/2』(1963)에서 마스트로이안니는 자신이 만들어야 할 영화를 기억하지 못하는 영화감독을 연기하며, 꿈과 기억과 환상이 제작 현장의 일상과 뒤섞인다. 이 영화는 아카데미 외국어영화상과 흑백 의상상을 받았고, 딕슨은 이 작품이 국제 비평가 투표에서 역대 최고의 영화 가운데 하나로 자주 꼽힌다고 쓴다.",
+  "federico-fellini.achievement.4":
+    "파시즘 시대 리미니를 기억과 지어낸 이야기로 엮어 낸 『아마르코르드』(1973)로 펠리니는 1975년 시상식에서 네 번째 아카데미 외국어영화상을 받았다. 펠리니는 이 이야기를 처음부터 모두 지어냈다고 말했으며, 잭슨(Jackson)은 영화 속 바다와 대형 여객선이 일부러 인공적으로 보이게 만들어졌다고 설명한다.",
+  "federico-fellini.moment.1":
+    "펠리니는 『달콤한 인생』을 찍으면서 실제 비아 베네토에서 촬영하는 부담에 시달리자, 미술감독 피에로 게라르디에게 치네치타에 그 거리를 그대로 지어 달라고 했다. 30년 뒤 그는 카페 드 파리 앞을 지날 때마다 진짜 비아 베네토는 5번 스튜디오에 있던 거리라는 생각을 떨칠 수 없다고 썼고, 스튜디오의 거리가 더 정확하거나 적어도 더 매력적이었다고 덧붙였다. 『인터비스타』(1987)에서도 그는 스튜디오 축소 모형을 만들어 가로수 길의 방향을 바꾸고 지붕 색을 다르게 칠했다.",
+  "federico-fellini.interpretation.moment.1":
+    "실제 거리보다 지어 놓은 거리를, 항공 촬영보다 스튜디오 모형을 택한 점은 미적 감수성과 부합한다. 인용된 말은 펠리니가 나중에 회고한 것이며 잡지 기고자를 통해 전해진다.",
+  "federico-fellini.moment.2":
+    "『달콤한 인생』의 첫 제작자 디노 데 라우렌티스가 주연으로 폴 뉴먼을 원하자, 딕슨에 따르면 펠리니는 마르첼로 마스트로이안니를 포기하지 않았고, 힘든 협상 끝에 데 라우렌티스는 제작에서 물러났다. 그 뒤 펠리니는 한동안 제작자 세 곳과 동시에 얽혔다가, 안젤로 리촐리와 주세페 아마토의 회사와 1958년 10월 28일 계약을 맺었다.",
+  "federico-fellini.interpretation.moment.2":
+    "첫 제작자를 잃는 대가를 치르면서도 자신의 캐스팅을 고수한 것은 작품의 핵심 결정을 직접 통제하려는 욕구와 부합한다. 다른 제작자들의 입장에 대한 딕슨의 서술은 짧다.",
+  "federico-fellini.turning_point.1":
+    "펠리니는 1961~62년에 온천 휴양지를 배경으로 주연 배우들을 정해 두고 『8과 1/2』을 준비했지만, 친구 안젤로 솔미에게 말했듯이 줄거리를 알지 못했고, 제작자에게 더는 못 하겠다고 말하려던 순간이 쉰 번이나 있었다고 했다. 딕슨은 영화를 풀리게 한 결정적 변화가 주인공을 자신과 같은 영화감독, 곧 기억나지 않는 영화를 시작해야 하는 지친 남자로 바꾼 것이었다고 쓴다. 그 결과물은 아카데미상 두 부문을 받았다.",
+  "federico-fellini.interpretation.turning_point.1":
+    "이야기가 정해지지 않은 상태에서 세트와 캐스팅을 진행하고, 그 문제 자체를 영화의 주제로 삼은 일은 높은 모호성 내성과 부합한다. 이 서술은 솔미를 통해 전해지는 펠리니 본인의 훗날 설명에 기대고 있다.",
+  /* ---------------------------------------------------------- franz-liszt (Roster47) */
+  "franz-liszt.achievement.1":
+    "리스트는 1830년대 후반부터 피아니스트로 유럽 각지를 순회했으며, 흔히 혼자서 연주회 전체를 이끌었다. 1840년 3월 로베르트 슈만은 리스트가 거의 언제나 다른 연주자의 도움 없이 연주회를 연다고 전하면서, 베버의 〈콘체르트슈튀크〉와 슈베르트의 〈마왕〉 등이 포함된 드레스덴과 라이프치히 연주회를 묘사했다. 1841~42년 베를린 연주회 이후 이어진 대중의 열광은 하인리히 하이네가 '리스토마니아'라고 이름 붙였다.",
+  "franz-liszt.achievement.2":
+    "작곡가로서 리스트는 문학이나 회화에서 따온 표제를 바탕으로 한 단악장 관현악곡인 교향시를 썼으며, 그중 열두 곡을 바이마르에 살던 1848~1858년 사이에 완성했다. 피아노 작품으로는 로베르트 슈만에게 헌정한 피아노 소나타 b단조, 여러 곡의 헝가리 광시곡, 그리고 1852년 자신이 이전 〈여행자의 앨범〉을 철저히 고쳐 다시 만든 것이라고 설명한 〈순례의 해〉가 있다. 평가는 엇갈렸다. 슈만은 1840년에 리스트가 작곡에서 연주만큼의 수준에 이를지 의문을 표했고, 제임스 허네커는 1899년에 b단조 소나타가 흥미롭지만 진정한 소나타 구조는 없다고 보았다.",
+  "franz-liszt.achievement.3":
+    "리스트는 1848년 궁정 악장으로 바이마르에 정착했다. 그곳 궁정극장은 1850년 8월 28일 바그너의 〈로엔그린〉을 초연했는데, 리스트가 이를 준비했고 작품에 관한 상세한 글을 써서 바그너의 말대로 작품이 해외에서 주목받는 데 기여했다. 1852년에는 베를리오즈의 〈벤베누토 첼리니〉를 무대에 올렸다. 리스트는 페터 코르넬리우스의 〈바그다드의 이발사〉 초연 때 적대적인 소란이 일어난 뒤인 1858년에 지휘직을 사임했다.",
+  "franz-liszt.achievement.4":
+    "리스트는 학생들이 차례로 다른 학생들 앞에서 연주하는 집단 수업 방식으로 피아노를 가르쳤다. 미국인 제자 에이미 페이는 1873년 바이마르 수업을 묘사하며 그가 자신을 무료로 가르쳤다고 전했고, 위키백과는 타우지히와 뷜로를 그의 제자로 꼽는다. 1875년 그는 새로 설립된 부다페스트의 헝가리 왕립 음악원 초대 원장으로 지명되었고 이 학교는 그해 11월에 문을 열었다. 그의 편지에 따르면 이 계획은 자신의 구상이 아니었으며, 1876년부터 그는 이곳에서 피아노 수업을 맡았다.",
+  "franz-liszt.moment.1":
+    "1840년 3월, 리스트는 프라하에서 8일 동안 여섯 번 연주한 피로가 가시지 않은 채 드레스덴과 라이프치히에서 연주했다. 슈만의 보고에 따르면 그는 어떤 자선 기관을 위해서든 곧바로 연주회를 열겠다고 말했고, 드레스덴에서는 가난한 이들을 위해, 이어 라이프치히에서는 연로하거나 병든 음악가를 위한 연금 기금을 위해 연주했으며, 멘델스존, 힐러, 슈만 자신의 작품을 골라 거의 초견으로 연주했다.",
+  "franz-liszt.interpretation.moment.1":
+    "곧바로 자선 연주회를 제안하고 피곤한 가운데에도 동료들의 음악을 연주 곡목으로 택한 점은 사회적 기여를 중시하는 동기와 부합한다. 슈만은 그 때문에 그가 눈에 띄게 힘들어했다는 점도 함께 적는다.",
+  "franz-liszt.moment.2":
+    "1873년 6월 제자 에이미 페이는 바이마르 수업에서 리스트가 한 번 화를 내는 모습을 보았다. 슈투트가르트에서 온 학생이 베토벤의 〈열정〉 소나타를 연주하다 리듬에서 실수를 하자 리스트는 그에게 소리를 높이며 음악원과 교사들 전반에 대한 장광설을 늘어놓았다. 그러고는 곧 그 분노는 학생에게 향한 것이 아니라고 말하고 계속 연주하라고 했다.",
+  "franz-liszt.turning_point.1":
+    "바이마르 궁정 악장이던 리스트는 연주 곡목을 궁정 극장 총감독에게 제출해야 했다. 1857년 프란츠 폰 딩엘슈테트가 그 자리에 오르며 음악 공연을 줄이자, 1858년 페터 코르넬리우스의 〈바그다드의 이발사〉 초연에서 일어난 적대적인 소란 끝에 리스트는 극장 지휘직에서 물러났다. 1860년 12월 그는 바이마르에서 바그너의 〈리엔치〉 리허설은 지휘하겠지만 공연 지휘는 거부한다고 썼다.",
+  /* ---------------------------------------------------------- john-lennon (Roster47) */
+  "john-lennon.achievement.1":
+    "레논은 리버풀에서 쿼리멘(Quarrymen)을 결성하고 폴 매카트니를 불러들여, 비틀스의 바탕이 된 작곡 동반 관계를 시작했다. 송라이터스 명예의 전당은 「Love Me Do」, 「Please Please Me」, 「She Loves You」(1962~63)를 초기 성공작으로 꼽고, 이 그룹을 \"한 세대에서 가장 영향력 있는 새로운 팝 그룹\"이라 평하며, 「I Want to Hold Your Hand」가 영국 역사상 가장 많이 팔린 싱글이 되었다고 전한다.",
+  "john-lennon.achievement.2":
+    "1966년 레논의 곡들은 비틀스의 스튜디오 작업을 새로운 방향으로 이끌었다. 1966년 4월 『리볼버』를 위해 녹음한 「Tomorrow Never Knows」에서 그는 달라이 라마가 읊조리는 듯한 목소리를 요청했고, 엔지니어들은 그의 보컬을 회전 스피커에 통과시켰으며 테이프 루프를 실시간으로 섞어 넣었다. 「Strawberry Fields Forever」에서는 조지 마틴과 제프 에머릭에게 한 테이크의 앞부분과 키와 템포가 다른 재녹음본의 뒷부분을 이어 붙여 달라고 요청했고, 두 사람은 테이프 속도를 조절해 이를 해냈다.",
+  "john-lennon.achievement.3":
+    "비틀스 이후 레논은 1970년 『John Lennon/Plastic Ono Band』를 발표했으며, 이 앨범에 대해 '내가 해 온 것 중 최고'이며 1인칭으로 쓴 곡들이라고 말했다. 1971년에는 오노 요코, 필 스펙터와 공동 프로듀서로 참여한 두 번째 솔로 앨범 『Imagine』이 나왔고, 여기에는 그의 가장 널리 알려진 곡인 표제곡이 실려 있다.",
+  "john-lennon.moment.1":
+    "1966년 11월 하순 사흘간의 세션 끝에 비틀스는 「Strawberry Fields Forever」의 완성본 테이크를 얻었다고 생각했지만 레논은 만족하지 못했고, 곡은 네 번의 세션에 걸쳐 다시 녹음되었다. 그 뒤 그는 마틴과 에머릭에게 첫 번째 버전의 앞부분과 두 번째 버전의 뒷부분이 마음에 든다며 이어 붙여 달라고 했다. 마틴이 두 테이크의 키와 템포가 다르다고 하자 레논은 마틴이 해결할 수 있을 거라고 답했다. 에머릭과 마틴은 편집점이 곡의 1분 지점 부근이었고, 레논이 들어 보고도 이음새를 알아채지 못했다고 회고한다.",
+  "john-lennon.interpretation.moment.1":
+    "완성된 테이크를 다시 만들게 하고 이어서 두 버전의 가장 좋은 부분을 합쳐 달라고 요청한 일은 완성된 곡에 대한 높은 기준과 부합한다. 다만 1980년 더글러스의 증언처럼 몇 번의 테이크 뒤 곧 다음으로 넘어가는 모습도 있어, 그 기준은 조급함과 함께 있었다.",
+  "john-lennon.moment.2":
+    "1969년 9월 20일, 비틀스가 애플의 새빌로 사무실에서 EMI/캐피톨과의 새 계약에 서명한 직후, 레논은 매니저 앨런 클라인이 입을 다물어 달라고 했음에도 매카트니와 링고 스타에게 그룹을 떠난다고 말했다. 레논은 매카트니의 제안마다 '안 돼'라고 답하다가 그 말이 나왔다고 하고, 매카트니는 그가 '나는 그룹을 떠난다!'고 말했다고 기억하며, 스타는 분위기가 언짢지 않았다고 말한다. 이 결별은 몇 달 동안 공개되지 않았다.",
+  "john-lennon.interpretation.moment.2":
+    "매니저의 조언에도 불구하고 매카트니 앞에서 직접 말한 것은 결단력, 그리고 맞서는 태도와 부합한다. 다만 매카트니의 설명에는 그 일이 상처가 되었다는 점도 드러난다.",
+  "john-lennon.turning_point.1":
+    "1957년 7월 6일 아이번 본(Ivan Vaughan)이 울턴 교회 축제에서 쿼리 멘이 공연하던 16세의 레논에게 15세의 매카트니를 소개했다. 교회 강당에서 매카트니는 레논의 기타를 조율해 주고 에디 코크란과 리틀 리처드의 곡을 연주했고, 레논은 훗날 '그는 나만큼 하는구나' 싶었다고 말했다. 레논은 자신이 매카트니에게 합류를 청했다고 하고, 피트 쇼튼은 일주일쯤 뒤 전언이 전해졌다고 기억한다.",
+  "john-lennon.interpretation.turning_point.1":
+    "자신만큼 잘한다고 본 더 어린 연주자를 끌어들인 일은 가장 뛰어난 연주자를 중심으로 그룹을 꾸리려는 태도, 곧 리더십 욕구와 부합한다.",
+  /* ---------------------------------------------------------- lionel-messi (Roster47) */
+  "lionel-messi.achievement.1":
+    "메시는 13세에 FC 바르셀로나에 입단해 20년 넘게 뛰었다. 이 클럽에서 챔피언스리그 4회(2006, 2009, 2011, 2015)와 스페인 리그 10회 우승을 이뤘고, 2020년 9월까지 731경기에서 634골을 넣었다. 2014년 11월에는 사흘 사이에 텔모 사라(Telmo Zarra)의 라리가 득점 기록과 라울(Raúl)의 챔피언스리그 득점 기록을 넘어섰다.",
+  "lionel-messi.achievement.2":
+    "메시는 2009, 2010, 2011, 2012, 2015, 2019, 2021, 2023년에 발롱도르를 받아 역대 최다인 8회 수상 기록을 세웠다. 기네스 세계 기록은 이 8회를 선수 최다 수상으로 올렸고, 2023년 수상은 아르헨티나의 월드컵 우승 직후에 이뤄졌다.",
+  "lionel-messi.achievement.3":
+    "메시는 2014년 월드컵 결승과 2015년·2016년 코파 아메리카 결승에서 모두 패한 뒤, 아르헨티나를 이끌고 1993년 이후 첫 우승인 2021년 코파 아메리카를 차지했고 대회 최우수 선수로 뽑혔다. 2022년 12월 월드컵 결승에서는 프랑스와 3-3으로 비긴 뒤 승부차기로 이겼으며 메시는 두 골을 넣었다. 2024년에는 코파 아메리카에서 다시 우승했다. 2026년 10월 베냉과의 친선경기(3-0 승)를 마지막으로 대표팀 경기를 마쳤고, 아르헨티나 대표팀 최다 출전·최다 득점 기록을 보유한 채 물러났다.",
+  "lionel-messi.moment.1":
+    "2022년 월드컵 조별리그 첫 경기에서 아르헨티나가 사우디아라비아에 1-2로 지자, 메시는 하루가 지난 뒤 선수단에 메시지를 보냈다고 말한다. 서로 탓할 필요가 없고, 바꿀 것도 없으며, 남은 두 경기를 이기면 조 1위가 될 수 있다는 내용이었다. 엔소 페르난데스는 남은 경기를 모두 결승전으로 여기자고 다짐한 팀 미팅을 기억한다. 아르헨티나는 이후 멕시코와 폴란드를 꺾었다.",
+  "lionel-messi.interpretation.moment.1":
+    "충격적인 패배 뒤 선수단을 다잡으려 먼저 움직인 것은 리더십 욕구와 부합한다. 이 서술은 주로 메시 본인의 말이며, 팀 미팅은 페르난데스가 확인해 준다.",
+  "lionel-messi.moment.2":
+    "2016년 6월 코파 아메리카 센테나리오 결승에서 칠레와의 승부차기 때 실축한 메시는 경기 직후 아르헨티나 방송에서 자신에게 대표팀은 끝났다고 말했다. 8월 12일 그는 결정을 뒤집으며, 결승전 밤에 많은 생각이 스쳤고 밖에서 비판하기보다 안에서 돕는 쪽을 택하겠다고 밝혔다.",
+  "lionel-messi.interpretation.moment.2":
+    "공개적으로 대표팀을 떠난다고 밝힌 뒤 복귀해 10년을 더 뛴 것은 끈기와 부합한다. 다만 이 일화는 그가 그만두겠다고 선언하면서 시작되었다.",
+  "lionel-messi.turning_point.1":
+    "2021년 8월 바르셀로나는 라리가 재정 규정 때문에 메시와 계약을 갱신할 수 없다고 발표했다. 8월 8일 눈물 속에 열린 작별 기자회견에서 그는 남고 싶었고 떠나리라고는 상상하지 못했다고 말했다. 그는 파리 생제르맹에서 2년을 보낸 뒤 2023년 인터 마이애미를 택했는데, 바르셀로나 복귀를 접은 이유로 다시는 자신의 미래를 남의 손에 맡기고 싶지 않았다고 설명했다.",
+  /* ---------------------------------------------------------- marcel-proust (Roster47) */
+  "marcel-proust.achievement.1":
+    "프루스트는 『잃어버린 시간을 찾아서』(A la recherche du temps perdu)를 썼다. 첫 권인 『스완네 집 쪽으로』는 1913년 11월 14일 베르나르 그라세(Bernard Grasset)에서 저자 비용으로 출간되었고, 제1차 세계대전 뒤에는 NRF(신프랑스 평론) 출판사가 이어받았으며, 둘째 권 『꽃피는 처녀들의 그늘에서』는 1919년 공쿠르상을 받았다. 『소돔과 고모라 II』는 1922년에 나왔고, 『갇힌 여인』(1923), 『사라진 알베르틴』(1925), 『되찾은 시간』(1927)은 그의 사후에 출간되었다.",
+  "marcel-proust.achievement.2":
+    "프루스트는 존 러스킨의 『아미앵의 성서』(메르퀴르 드 프랑스, 1904)와 『참깨와 백합』(1906)을 번역했고, 두 책 모두 직접 쓴 서문과 주석을 붙였다. 두 번째 책의 서문은 독서를 다룬 글로, 처음에는 잡지 에세이로 발표되었다. 피에르캥(Pierre-Quint)에 따르면 그의 영어 실력은 약했고 사전에 의존해 작업했으며, 러스킨 작업은 약 6년 동안 그를 사로잡았다.",
+  "marcel-proust.achievement.3":
+    "프루스트의 첫 책 『쾌락과 나날』(Les Plaisirs et les jours)은 1896년 칼만레비(Calmann-Levy)에서 마들렌 르메르(Madeleine Lemaire)의 삽화와 아나톨 프랑스의 서문을 달고 출간되었다. 이 책은 그가 『르 방케』와 『라 르뷔 블랑슈』에 기고한 초상, 연구, 이야기와 미발표 글 일부를 모은 것이다.",
+  "marcel-proust.moment.1":
+    "1914년 1월 앙드레 지드는 프루스트에게 『스완네 집 쪽으로』를 거절한 일이 NRF의 가장 큰 잘못으로 남을 것이며 자기 생애에서 가장 쓰라린 후회 가운데 하나라고 편지에 썼다. 프루스트는 며칠 안에 답장을 보내, 거듭된 거절이 없었다면 지드의 편지도 받지 못했을 것이고 그 편지의 기쁨은 NRF에서 책을 내는 것보다 크다고 했으며, 거절당했을 때 무관심한 척한 적은 없다고 덧붙였다.",
+  "marcel-proust.moment.2":
+    "1913년 봄 프루스트는 그라세에게 교정쇄를 너무 많이 고쳐서 추가 조판 비용을 내지 않으면 정직하지 못한 것이라고 편지를 쓰고 추가금을 내겠다고 했으며, 몇 주 뒤에는 돌려보내는 교정지의 '끔찍한 난장판'에 대해 사과했다. 1914년 6월 그라세 사 직원들은 인쇄소에 저자가 '교정쇄를 훨씬 더 많이 원한다'고 알렸다.",
+  "marcel-proust.interpretation.moment.2":
+    "계약 범위를 훨씬 넘어 교정쇄를 고치고 그 비용을 내겠다고 한 것은 완벽주의와 부합한다. 다만 출판사 직원들과 비평가가 남은 오류를 지적한 것을 보면 결과가 깨끗한 원고는 아니었다.",
+  "marcel-proust.turning_point.1":
+    "『스완네 집 쪽으로』가 NRF, 메르퀴르 드 프랑스, 파스켈, 올랑도르프에서 잇따라 거절당하자, 프루스트는 1913년 친구 르네 블룸에게 베르나르 그라세에게 원고를 전해 달라고 부탁하며 출판 비용과 홍보비를 직접 내고 판매액의 일정 비율을 출판사에 주겠다고 제안했다. 그라세가 받아들여 책은 1913년 11월에 나왔고, 프루스트는 둘째 권 작업을 이어 갔다.",
+  "marcel-proust.interpretation.turning_point.1":
+    "네 차례 거절을 당한 뒤에도 다섯 번째 출간 경로를 택해 계속한 것은 끈기와 부합한다. 거절 경위는 그를 존경한 비평가의 서술이며, NRF의 거절은 1914년 지드의 편지가 독립적으로 확인해 준다.",
+  /* ---------------------------------------------------------- nadia-comaneci (Roster47) */
+  "nadia-comaneci.achievement.1":
+    "1976년 몬트리올 올림픽에서 14세의 나디아 코마네치는 7월 18일 이단평행봉에서 올림픽 체조 사상 처음으로 10점 만점을 받았다. 10.00을 표시할 자리가 없던 전광판에는 1.00이 떴다. 그녀는 이 대회에서 만점을 일곱 차례 받았고 개인종합, 이단평행봉, 평균대에서 금메달을, 단체 은메달과 마루운동 동메달을 땄다. 그해 8월 타임, 뉴스위크, 스포츠 일러스트레이티드의 표지를 장식했다.",
+  "nadia-comaneci.achievement.2":
+    "1980년 모스크바 올림픽에서 그녀는 평균대에서 1976년에 이어 다시 금메달을 땄고 마루운동에서 공동 금메달을 차지했으며, 단체전 은메달과 막시 그나우크와 동률의 개인종합 은메달도 획득했다. 1976년과 1980년 두 대회에서 딴 올림픽 메달은 모두 아홉 개이며 그중 다섯 개가 금메달이다.",
+  "nadia-comaneci.achievement.3":
+    "1975년 첫 시니어 유럽선수권에서 그녀는 금메달 4개를 땄고, 1978년에는 세계선수권 평균대 우승을 차지했는데, 올림페디아는 이것이 그녀의 유일한 개인 세계선수권 우승이라고 기록한다.",
+  "nadia-comaneci.moment.1":
+    "1973년 4월 인터뷰에서 12세의 코마네치는 부쿠레슈티 대회 두 곳을 모두 이길 것으로 예상했느냐는 질문에 '네'라고 답했고, 국내 챔피언을 이길 수 있겠느냐는 질문에는 '네. 올해가 아니라면 내년에는 반드시요'라고 답했다. 기자는 그녀의 자신감을 캐시어스 클레이에 비유했다. 이 기사는 당시 국가가 통제하던 루마니아 언론의 것이다.",
+  "nadia-comaneci.interpretation.moment.1":
+    "열두 살에 나라 최고의 선수들을 이길 것으로 기대한다고 말한 점은 강한 경쟁심과 부합한다. 다만 출처가 홍보 성격의 국영 언론이라 하나의 신호일 뿐 패턴으로 보기는 어렵다.",
+  "nadia-comaneci.moment.2":
+    "1980년 모스크바 올림픽에서 그녀는 루마니아 심판장이 이끈 28분간의 채점 논란 끝에 개인종합 금메달을 0.075점 차로 놓쳤고, 이후 종목별 결선 도마에서 넘어졌다. 크리스천 사이언스 모니터와 올림페디아에 따르면 그녀는 이어진 경기에서 평균대 결선을 우승하고 마루운동에서 공동 금메달을 차지했다.",
+  "nadia-comaneci.interpretation.moment.2":
+    "논란 속의 패배와 실수 직후 며칠 안에 두 종목 결선에서 우승한 것은 끈기와 부합한다. 다만 이는 평생에 걸친 패턴이 아니라 하나의 기록된 사례이다.",
+  "nadia-comaneci.turning_point.1":
+    "1981년 3월 30일 루마니아 여자 체조 대표팀의 코치 벨라 카롤리와 마르타 카롤리, 안무가 게저 포자르는 미국 순회경기를 마치고 뉴욕에서 팀을 떠나 망명을 신청했다. 크리스천 사이언스 모니터는 이들이 코마네치를 비롯한 선수들의 훈련 방식에 연맹이 계속 간섭한 것을 이유로 들었다고 보도했다. 올림페디아는 그녀가 이후 1981년 부쿠레슈티 세계대학경기대회에서 우승하고 현역에서 은퇴했다고 기록하는데, 다른 자료는 은퇴 시기를 1984년으로 본다.",
+  /* ---------------------------------------------------------- reinhold-messner (Roster47) */
+  "reinhold-messner.achievement.1":
+    "1978년 5월 8일 메스너는 오스트리아의 페터 하벨러(Peter Habeler)와 함께 보조 산소 없이 사우스콜 방면에서 에베레스트 정상에 올랐으며, 기네스 세계 기록은 이를 최초의 무산소 등정으로 인정한다. 두 사람은 1975년 가셔브룸 I에서 처음 시도한 가벼운 알파인 스타일로 최소한의 장비만 갖추고 올랐는데, 하벨러는 가셔브룸 I을 8,000m급 봉우리의 첫 알파인 스타일 등정이라고 설명한다.",
+  "reinhold-messner.achievement.2":
+    "1978년 여름 메스너는 낭가파르바트를 단독으로 올랐으며, 이는 베이스캠프에서 정상까지 이어진 8,000m급 봉우리 최초의 단독 등정으로 소개된다. 1980년 8월 20일에는 몬순 기간 중 북쪽에서, 일부 구간은 새로운 루트로 보조 산소 없이 혼자 에베레스트 정상에 올랐으며, 익스플로러스웹(ExplorersWeb)은 이를 이 산의 첫 단독 등정이라고 평가한다.",
+  "reinhold-messner.achievement.3":
+    "메스너는 1970년 낭가파르바트에서 동생 귄터(Günther)와 함께 루팔 벽을 처음 오르며 8,000m급 등반을 시작했고, 1986년까지 8,000m가 넘는 14개 봉우리를 모두 올랐다. 2024년의 한 인물 소개는 모두 보조 산소 없이 올랐다고 전하며, 그는 이 14좌를 처음 완등한 사람으로 인정받는다. 폴란드의 예지 쿠쿠츠카(Jerzy Kukuczka)는 약 1년 뒤 완등했다.",
+  "reinhold-messner.achievement.4":
+    "1989년 11월 13일부터 1990년 2월 12일까지 메스너는 독일의 아르베드 푸크스(Arved Fuchs)와 함께 론 빙붕에서 스콧 기지까지 92일에 걸쳐 남극 대륙을 횡단했다. 두 사람은 각자 썰매를 끌었고, 두 곳의 보급 창고를 제외하면 자신들의 힘만으로 이동했다. 메스너는 실제 이동 거리를 2,800km로 밝히며, 클라이밍(Climbing) 매거진은 이를 도보로 이룬 첫 남극 횡단이라고 소개한다. 그는 1993년 동생 후베르트와 함께 그린란드도 횡단했다.",
+  "reinhold-messner.moment.1":
+    "1978년 4월 말 하벨러가 3캠프에서 정어리 통조림을 먹고 몸이 좋지 않게 되자, 메스너는 셰르파 두 명과 함께 사우스콜까지 올라갔고 폭풍에 갇혀 이틀을 보냈다. 베이스캠프로 돌아온 그는 촬영팀에게 새 파트너를 찾아야 할지도 모른다고 말했으며, 하벨러는 훗날 메스너가 '어서, 페터' 하며 밀어붙인 덕분에 의욕을 되찾았다고 말했다. 두 사람은 5월 8일 정상에 올랐다.",
+  "reinhold-messner.interpretation.moment.1":
+    "망설이는 파트너를 밀어붙여 계속 나아가게 한 일은 격려뿐 아니라 압박을 통해서도 작동하는 설득력과 부합한다. 촬영 감독 레오 디킨슨(Leo Dickinson)은 메스너가 사람에게서 최선을 끌어내기도 하지만 창피를 주기도 했다고 말한다. 이 서술은 하벨러와 디킨슨의 회고에 근거한다.",
+  "reinhold-messner.moment.2":
+    "1980년 에베레스트 단독 등반 중 메스너는 7,000m 위에서 밤에 크레바스에 빠졌다. 그는 훗날 크레바스 안에서 빠져나가면 그만두겠다고 스스로에게 말했다고 회고했지만, 빠져나온 뒤에는 북쪽 능선을 따라 계속 올라 베이스캠프를 떠난 지 사흘째에 정상에 도착했다.",
+  "reinhold-messner.interpretation.moment.2":
+    "구조를 기대할 수 없는 상황에서 혼자 아찔한 추락을 겪고도 등반을 이어간 것은 끈기와 부합한다. 같은 선택이 매우 큰 위험을 수반했다는 점은 출처들도 인정한다.",
+  "reinhold-messner.turning_point.1":
+    "1986년 8,000m급 14좌를 완등한 뒤 메스너는 평평하고 외딴 지형을 오래 가로지르는 여정으로 방향을 돌렸다. 그는 저서 『자유로운 영혼(Free Spirit)』에서 '야생의, 손길이 닿지 않은 수평의 광대한 땅'으로 눈을 돌렸다고 적었다. 2024년의 한 인물 소개는 1988년 예티 탐색, 1989~90년 남극 횡단, 1993년 그린란드, 2004년 단독 고비 사막 여정을 꼽는다.",
+  "reinhold-messner.interpretation.turning_point.1":
+    "주된 목표를 마친 뒤 수직에서 수평의 탐험으로 옮겨간 것은 적응력과 부합하지만, 새 프로젝트들도 외딴 곳을 스스로의 힘으로 이동한다는 같은 범주 안에 있었다.",
+  /* ---------------------------------------------------------- roger-federer (Roster47) */
+  "roger-federer.achievement.1":
+    "페더러는 2003년 윔블던에서 첫 우승을 차지한 이후 그랜드슬램 남자 단식 20회 우승을 기록했고, 2022년 이 기록을 안고 은퇴했다. 2017년에는 윔블던 단식 통산 8번째 우승이라는 기록을 세웠으며, 2009년 프랑스 오픈 우승으로 커리어 그랜드슬램을 완성했다. 2017년 호주 오픈은 통산 18번째 메이저 우승으로, 6개월의 공백을 거친 뒤 35세에 이룬 것이다.",
+  "roger-federer.achievement.2":
+    "페더러는 2004년 2월 2일부터 2008년 8월 17일까지 237주 연속으로 ATP 랭킹 1위를 지켰다. 1973년 랭킹이 도입된 이래 가장 긴 연속 기록이며, 그다음인 지미 코너스의 기록은 160주였다.",
+  "roger-federer.achievement.3":
+    "2014년 11월 페더러는 스탄 바브링카와 함께 스위스를 이끌어 릴에서 프랑스를 3대 1로 꺾고 스위스 최초의 데이비스컵 우승을 이뤄냈다. 바브링카가 첫 단식을 이겼고 두 사람이 복식을 따냈으며, 페더러가 리샤르 가스케를 세트 스코어 3대 0으로 꺾어 승부를 확정지었다.",
+  "roger-federer.moment.1":
+    "2015년 8월 신시내티에서 베노아 페르와 연습하던 중 페더러는 서비스 라인까지 달려 나와 리턴을 하프발리로 치고 네트로 접근하기 시작했다. 그는 포인트를 짧게 끝내고 싶었고, 코치 세버린 뤼티가 게임을 더 해 보자고 했다고 설명했다. 'SABR(Sneak Attack By Roger)'라는 별칭이 붙은 이 전술은 그 대회 경기들, 특히 노바크 조코비치와의 결승 1세트 타이브레이크에서도 나왔다. 조코비치의 코치 보리스 베커는 이를 '거의 무례하다'고 평했고, 페더러는 그렇지 않다고 답했다.",
+  "roger-federer.interpretation.moment.1":
+    "연습에서 검증되지 않은 전술을 시험해 보고, 이를 경기에서 쓰며 공개적 비판에도 옹호한 점은 실험정신과 부합한다. 이 설명은 페더러 본인의 말을 기자들이 전한 것이다.",
+  "roger-federer.moment.2":
+    "2018년 호주 오픈에서 페더러는 그랜드슬램 대회와 선수들 사이의 수익 배분 합의가 '수명을 다했다'고 말했고, 선수들이 '다시 뭉쳐 노력해야' 하며 '선수들이 대화하지 않으면 아무것도 이뤄지지 않는다'고 했다. 스카이 스포츠는 그가 2012년 ATP 선수협의회 회장이었고, 당시 보이콧 이야기가 나온 뒤 특히 초반 라운드 탈락 선수들을 중심으로 상금이 크게 늘었다고 짚었다.",
+  "roger-federer.interpretation.moment.2":
+    "6년간 선수협의회 회장을 지낸 뒤에도 선수 집단을 대변해 공개적으로 목소리를 내고 선수들의 결집을 촉구한 점은 리더십 욕구와 부합한다.",
+  "roger-federer.turning_point.1":
+    "2013년 윔블던 2회전에서 세계 랭킹 116위 세르히 스타호프스키에게 져 10년 넘는 기간 중 최악의 그랜드슬램 패배를 당한 뒤, 페더러는 약 한 달간 더 큰 98제곱인치 시제품 라켓을 시험했고, 이후 US 오픈까지는 기존 90제곱인치 라켓으로 돌아가겠다고 말했다. 2014년에는 헤드가 더 큰 라켓으로 바꿨고, ESPN은 훗날 이것이 라파엘 나달의 서브를 슬라이스 대신 강하게 받아치는 데 도움이 되었다고 평가했다. 그의 랭킹은 2013년 한 해 동안 2위에서 6위로 내려갔다.",
+  "roger-federer.interpretation.turning_point.1":
+    "부진한 시즌 뒤 폼이 돌아오기를 기다리지 않고 장비와 이후 리턴 전술까지 바꾼 점은 적응력과 부합한다. 2013년의 번복은 이 변화가 망설임 없이 이뤄진 것은 아니었음을 보여 준다.",
+  /* ---------------------------------------------------------- sergey-brin (Roster47) */
+  "sergey-brin.achievement.1":
+    "브린은 1995~1998년 스탠퍼드대학교 박사과정 학생으로서 래리 페이지(Larry Page)와 함께 웹 크롤링 시제품 백럽(BackRub)을 만들고, 높은 순위의 페이지가 많이 링크한 페이지를 높게 평가하는 방식인 페이지랭크(PageRank)를 개발했다. 미국 국립과학재단(NSF)은 브린을 스탠퍼드의 NSF 지원 디지털 도서관 프로젝트에서 페이지의 작업에 합류한 대학원생으로 설명하며, 두 사람은 이 구글 시제품을 1998년 논문 「대규모 하이퍼텍스트 웹 검색 엔진의 해부(The Anatomy of a Large-Scale Hypertextual Web Search Engine)」에 소개했다.",
+  "sergey-brin.achievement.2":
+    "브린과 페이지는 1998년 9월 구글을 창업했다. 2019년 알파벳(Alphabet)의 설명에 따르면 구글은 직원 10만 명 이상의 회사로 성장했고, 검색, 지도, 광고, 지메일, 안드로이드, 크롬, 구글 클라우드, 유튜브 등의 제품을 갖추었다.",
+  "sergey-brin.achievement.3":
+    "구글의 2004년 증권신고서에 실린 창업자 서한에서 페이지와 브린은 경매 방식의 공모와, B종 주식이 주당 10표를 갖는 차등의결권 구조를 밝혔으며, 서한은 브린이 페이지, 최고경영자 에릭 슈미트(Eric Schmidt)와 함께 엔지니어링과 사업 제휴를 맡는다고 설명한다. 구글은 2015년 지주회사 알파벳 아래로 들어갔고, 브린은 2019년 12월 3일까지 알파벳 사장을 지냈다. 이날 그와 페이지는 공동 창업자, 주주, 이사회 구성원으로 남으면서 경영직에서 물러났다.",
+  "sergey-brin.moment.1":
+    "2012년 6월 구글 I/O에서 브린은 프로젝트 글래스(Project Glass)를 소개하며, 글래스를 쓴 스카이다이버가 모스콘 센터를 향해 뛰어내리는 장면을 생중계하고 이어서 글래스를 쓴 묘기 자전거 선수들이 등장하는 시연을 선보였다. 그는 탐험가(Explorer) 에디션이 일반 소비자용이 아니며 행사 참석자만 주문할 수 있다고 밝혔다.",
+  "sergey-brin.interpretation.moment.1":
+    "미완성 제품을 대규모 라이브 시연으로 직접 선보인 일은 위험 감수와 부합한다. 다만 브린과 분석가들은 훗날 이 홍보가 이르다고 평가했으므로, 이런 태도에는 대가도 따랐다.",
+  "sergey-brin.moment.2":
+    "2025년 5월 구글 I/O에서 글래스를 통해 무엇을 배웠느냐는 질문을 받은 브린은 '구글 글래스에서 많은 실수를 했다'고 말하며, 소비자 가전 공급망에 대한 지식 부족과 적정 가격을 맞추는 어려움을 이유로 들었다. 그는 다음 출시에서는 제품을 다듬은 뒤에 시연해야 한다고 덧붙였다.",
+  "sergey-brin.interpretation.moment.2":
+    "자신의 실수와 앞으로 바꿀 점을 공개적으로 밝힌 일은 신념 수정과 부합한다. 다만 보도된 단 한 번의 무대 발언이다.",
+  "sergey-brin.turning_point.1":
+    "1998년 무렵 브린과 페이지는 회사를 운영하고 싶은지 확신이 없었고, 브린도 스탠퍼드 박사과정을 떠나기를 망설였다. 존 배틀(John Battelle)에 따르면 브린의 지도교수는 구글이 잘되지 않으면 대학원으로 돌아와 논문을 마치면 된다고 말했고, 브린은 '그래요, 좋아요, 안 될 것 없죠. 한번 해 볼게요'라고 답했다고 회고한다. 구글은 1998년 9월 법인으로 설립되었다.",
+  "sergey-brin.interpretation.turning_point.1":
+    "안전망을 확인한 뒤 고민 끝에 박사과정에서 한 발 나선 선택은 주도적 행동과 부합한다. 이 서술은 기자의 인터뷰와 브린 자신의 회고에 의존한다.",
+  /* ---------------------------------------------------------- usain-bolt (Roster47) */
+  "usain-bolt.achievement.1":
+    "볼트는 2008년 베이징 올림픽에서 100m 세계기록을 9초69로 낮췄고, 12년 동안 이어진 마이클 존슨의 200m 기록을 19초30으로 깼다. 2009년 베를린 세계선수권에서는 100m를 9초58에 달렸는데, 이는 전자 계시가 세계기록 공인 요건이 된 1977년 이후 기록을 가장 크게 줄인 것이었고, 200m는 19초19를 기록했다. 2025년 보도에 따르면 그는 두 기록을 지금도 보유하고 있다.",
+  "usain-bolt.achievement.2":
+    "볼트는 2008년 올림픽에서 100m와 200m를 석권했고, 한 대회에서 금메달 3개와 세계기록 3개를 달성한 최초의 선수가 되었다. 2012년에는 올림픽 신기록인 9초63으로 100m 2연패를 이뤘는데, 이 종목 타이틀을 지킨 것은 1988년 칼 루이스 이후 처음이었다. 2016년 리우 올림픽에서는 4x100m 계주에서 올림픽 통산 아홉 번째 금메달을 따며 세 대회 연속 세 종목 석권을 완성했다. 2017년 1월 국제올림픽위원회는 동료 네스타 카터의 시료 재검사 결과를 이유로 2008년 자메이카 계주팀을 실격 처리했고, 볼트의 금메달은 여덟 개가 되었다.",
+  "usain-bolt.achievement.3":
+    "세계선수권에서 볼트는 2009년 베를린에서 100m와 200m, 2011년 대구에서 200m, 2013년 모스크바에서 9초77으로 100m, 2015년 베이징에서 9초79로 저스틴 개틀린을 0.01초 차로 따돌리고 100m 정상에 올랐다. 세계육상연맹은 2017년 런던 대회 계주 이전에 그가 역대 최다인 금메달 11개를 보유하고 있다고 밝혔다. 그 대회에서 마지막 개인 경기로 치른 100m에서는 개틀린과 크리스티안 콜먼에 이어 9초95로 3위를 했고, 이로써 세계선수권 메달은 모두 14개가 되었다.",
+  "usain-bolt.moment.1":
+    "2007년 볼트의 코치 글렌 밀스는 그가 400m로 올라가기를 원했다. 볼트는 100m에서 좋은 기록을 내면 다음 시즌에 100m와 200m를 함께 뛰게 해 달라는 내기를 제안했다. 그는 자메이카 선수권에서 돈 쿼리가 36년간 갖고 있던 자메이카 200m 기록을 깼고, 자메이카 글리너가 전한 밀스의 말에 따르면 볼트는 고맙다는 인사도 없이 '100m는 언제냐'고 물었다. 3주 뒤 그는 크레타에서 치른 첫 프로 100m를 10초03으로 우승했다. 내기의 정확한 조건은 볼트 본인의 설명과 NBC의 설명이 서로 조금 다르다.",
+  "usain-bolt.interpretation.moment.1":
+    "코치에게 시즌 계획을 바꾸자고 먼저 요구하고 그 조건이 되는 기록을 실제로 낸 것은 주도적 행동과 부합한다. 이 서술은 볼트 본인의 말과 한 언론이 전한 밀스의 발언 하나에 근거한다.",
+  "usain-bolt.moment.2":
+    "2011년 대구 세계선수권 100m 결승에서 볼트는 출발 신호 전에 블록을 박차고 나가 2010년부터 시행된 무관용 규정에 따라 실격되었고, 타이틀은 요한 블레이크에게 돌아갔다. 그는 '지금은 할 말이 없다. 시간이 필요하다'고 말했다. 며칠 뒤 그는 같은 대회 200m에서 우승했다.",
+  "usain-bolt.interpretation.moment.2":
+    "공개적인 실격 직후 며칠 만에 다른 종목에서 우승한 것은 끈기와 부합한다. 다만 출처들은 결과만 전할 뿐 그가 어떻게 준비했는지는 알려 주지 않는다.",
+  "usain-bolt.turning_point.1":
+    "2008년 8월 베이징 올림픽 100m 결승에서 볼트는 결승선 앞에서 속도를 늦추고 세리머니를 시작했는데도 세계기록인 9초69를 세웠다. 자크 로게 국제올림픽위원회 위원장은 그가 상대 선수들에게 더 예의를 갖춰야 한다고 말했다. 볼트는 비판에 놀랐다고 하면서, 다른 선수 몇 명에게 자신이 무례했느냐고 물었더니 그들이 이겼어도 같은 행동을 했을 것이라고 답했다고 전했다. 그는 그 주 안에 200m에서 세계기록으로 우승하고 계주까지 석권했다. 이 대회 이후 그는 100m에 갓 입문한 선수에서 세계적 스타가 되었고, 2010년 가디언 인터뷰가 전하듯 도핑 의혹을 묻는 질문의 중심에도 섰는데, 그는 거듭 받은 검사를 근거로 이에 답했다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

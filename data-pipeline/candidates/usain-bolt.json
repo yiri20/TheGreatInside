@@ -1,0 +1,198 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "usain-bolt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Usain Bolt",
+    "wikidataId": "Q1189",
+    "birthYear": 1986,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["JM"],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": ["athlete"],
+    "fieldIds": ["sport"],
+    "impactDomains": ["athletic", "cultural"],
+    "tagIds": ["competitor"],
+    "archetypeIds": ["competitive_performer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bolt_wikidata",
+      "kind": "wikidata",
+      "title": "Usain Bolt (Q1189) -- verified live via wbgetentities (2026-10-10): en label 'Usain Bolt', description 'Jamaican sprinter', born 21 Aug 1986, citizenship Jamaica, instance of human, no date of death, ko label '우사인 볼트'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1189"
+    },
+    {
+      "id": "src_bolt_guardian_hattenstone2010",
+      "kind": "press",
+      "title": "Simon Hattenstone (The Guardian), 'Usain Bolt: Fast and loose', interview, 28 August 2010 -- long-form interview with the sprinter, with his manager Ricky Simms present; mostly Bolt's own words plus the manager's remarks and the journalist's framing. Read in full. Family and health passages were deliberately not used.",
+      "url": "https://www.theguardian.com/sport/2010/aug/28/usain-bolt-interview"
+    },
+    {
+      "id": "src_bolt_observer_kessel2008",
+      "kind": "press",
+      "title": "Anna Kessel (The Observer), 'Olympics: Jamaican speed freak', 24 August 2008 -- profile written in Beijing that quotes Bolt and several outside people: his first coach Pablo McNeil, Stephen Francis (Asafa Powell's coach), former teacher Dwight Barnett, friend Germaine Mason, and Gleaner sports editor Elton Tucker. The most independent third-party account of his early career and of the criticism of his Beijing celebration. Read in full.",
+      "url": "https://www.theguardian.com/sport/2008/aug/24/olympics2008.olympicsathletics"
+    },
+    {
+      "id": "src_bolt_nyt_2009",
+      "kind": "press",
+      "title": "The New York Times, report on the men's 100 m final at the 2009 World Championships in Berlin (17 August 2009), archived copy -- independent race report with comment from Tyson Gay and coach Jon Drummond and Bolt's post-race statements. Read in full.",
+      "url": "https://web.archive.org/web/20150929084253/http://www.nytimes.com/2009/08/17/sports/global/17track.html"
+    },
+    {
+      "id": "src_bolt_guardian_kessel2009",
+      "kind": "press",
+      "title": "Anna Kessel (The Guardian), \"'I aim to become a legend,' says Usain Bolt as he smashes 200m world record\", 20 August 2009 -- race report with Bolt's own quotations and reaction to doping questions. Read in full.",
+      "url": "https://www.theguardian.com/sport/2009/aug/20/usain-bolt-200m-reaction-world-championships"
+    },
+    {
+      "id": "src_bolt_bbc_daegu2011",
+      "kind": "press",
+      "title": "BBC Sport, 'World Athletics 2011: Bolt disqualified as Blake wins gold', 28 August 2011, archived copy -- news report of the Daegu false start with Bolt's two statements. Read in full.",
+      "url": "https://web.archive.org/web/20160510144555/http://www.bbc.co.uk/sport/athletics/14698558"
+    },
+    {
+      "id": "src_bolt_guardian_kessel2012",
+      "kind": "press",
+      "title": "Anna Kessel (The Guardian), 'Usain Bolt takes 100m Olympic gold - this time even faster', 6 August 2012 -- race report from London 2012 describing the doubts about his form and his response. Read in full.",
+      "url": "https://www.theguardian.com/sport/2012/aug/05/usain-bolt-olympic"
+    },
+    {
+      "id": "src_bolt_wa_moscow2013",
+      "kind": "institution",
+      "title": "World Athletics (then IAAF), 'Report: Men's 100m final - Moscow 2013', 11 August 2013 -- governing-body race report that also summarises his sprint-title record to that date (non-self, institutional). Read in full.",
+      "url": "https://www.iaaf.org/news/report/report-mens-100m-final-moscow-2013"
+    },
+    {
+      "id": "src_bolt_abc_beijing2015",
+      "kind": "press",
+      "title": "ESPN report carried by ABC7 San Francisco, 'Usain Bolt beats Justin Gatlin to win 100-meter title at world championships', 23 August 2015 -- news report of the Beijing 2015 final including his stumble in the semi-final. Read in full.",
+      "url": "https://abc7news.com/post/usain-bolt-beats-justin-gatlin-to-win-100-meter-title-at-world-championships/953132/"
+    },
+    {
+      "id": "src_bolt_guardian_ingle2016",
+      "kind": "press",
+      "title": "Sean Ingle (The Guardian), 'Usain Bolt leads Jamaica to 4x100m gold to complete Olympic triple treble', 20 August 2016 -- race report from Rio 2016 with Bolt's and Yohan Blake's comments. Read in full.",
+      "url": "https://www.theguardian.com/sport/2016/aug/19/usain-bolt-jamaica-4x100m-gold-olympic-triple-treble-rio-2016"
+    },
+    {
+      "id": "src_bolt_cmc_relay2017",
+      "kind": "press",
+      "title": "Caribbean Media Corporation report in Stabroek News, 'Bolt stripped of gold medal', 26 January 2017 -- reports the IOC's disqualification of Jamaica's 2008 men's 4x100 m relay team after re-analysis of Nesta Carter's Beijing sample, quotes the IOC statement and Bolt's earlier comment about giving the medal back. Read in full.",
+      "url": "https://stabroeknews.com/2017/01/26/sports/bolt-stripped-gold-medal"
+    },
+    {
+      "id": "src_bolt_wa_london2017",
+      "kind": "institution",
+      "title": "World Athletics (then IAAF), 'Report: men's 100m final - IAAF World Championships London 2017', 5 August 2017 -- governing-body report of his last individual race. Read in full; the passage on a friend's death was not used.",
+      "url": "https://worldathletics.org/competitions/world-athletics-championships/iaaf-world-championships-london-2017-7093740/news/report/report-mens-100m-final-iaaf-world-champions"
+    },
+    {
+      "id": "src_bolt_nbc_first100",
+      "kind": "press",
+      "title": "NBC Sports Olympics, article on Bolt's first professional 100 m race in 2007 (published before the 2017 World Championships), quoting coach Glen Mills as reported by the Jamaica Gleaner and Bolt's own book. Read in full; the Gleaner and book quotations are second-hand here and the book itself was not accessed.",
+      "url": "https://www.nbcsports.com/olympics/news/usain-bolt-first-100-meter-race"
+    },
+    {
+      "id": "src_bolt_abc_au2025",
+      "kind": "press",
+      "title": "ABC News (Australia), 'Usain Bolt was only allowed to run in 100-metre events after winning bet with coach Glen Mills', 18 March 2025 -- reports Bolt's own podcast account of the 2007 bet and states that he still holds the 100 m, 200 m and relay world records. Read in full; his account differs slightly from the NBC version on the terms of the bet.",
+      "url": "https://www.abc.net.au/news/2025-03-18/athletics-usain-bolt-glen-mills-100m-sprint-bet/105065744"
+    },
+    {
+      "id": "src_bolt_observer_mills2012",
+      "kind": "press",
+      "title": "Jamaica Observer, 'Modest Mills basks in mega success', 22 September 2012 -- profile of coach Glen Mills and the Racers Track Club after the London Olympics (training base at the University of the West Indies; his athletes took gold, silver and bronze in the Olympic 200 m). Read in full; Bolt appears only in passing.",
+      "url": "https://jamaicaobserver.com/2012/09/22/modest-mills-basks-in-mega-success"
+    },
+    {
+      "id": "src_bolt_iaaf_beijing2008",
+      "kind": "institution",
+      "title": "IAAF news flash 'World 4x100m record - BOLT and JAMAICA again 37.10 sec', 22 August 2008, archived copy -- governing-body bulletin on the Beijing relay final (the result later annulled). Read in full.",
+      "url": "https://web.archive.org/web/20080822215440/http://www.iaaf.org/OLY08/news/kind=100/newsid=47266.html"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bolt_guardian_hattenstone2010, src_bolt_guardian_kessel2009, src_bolt_nyt_2009, src_bolt_guardian_kessel2012 | 2009-2012 | long-form interview + race reports | self and manager statements corroborated by independent reporters] In the 2010 interview Bolt says he would count a couple of Olympic silvers in 2012 as failure ('you set a standard for yourself'), and that he could not deal with regularly losing to Tyson Gay, though he would not quit and would want to redeem himself; his manager Ricky Simms adds that he wants to beat everybody at football. In 2009 he says his main aim is to become a legend and in the New York Times he says a legend has to keep winning year after year. The 2012 Guardian report records that he answered months of doubts about his form by winning the final ('I said it on the track'). Several dated instances, but much of it is his own and his manager's description, and the manner of racing (relaxed, joking) is deliberately not read as a lack of competitiveness."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bolt_guardian_hattenstone2010, src_bolt_guardian_kessel2009, src_bolt_nyt_2009 | 2009-2010 | interview + race reports | Bolt's own words, independently reported] Across 2009 and 2010 he repeatedly names a specific long-run aim, to become a legend by defending titles ('People always say I'm a legend, but I'm not. Not until I've defended my Olympic titles'), and says he cannot rely on two good seasons. The statements are consistent over a year and across two outlets, but they are goals he states rather than a documented sequence of costly choices, hence a moderate score with strong-inference evidence only."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bolt_bbc_daegu2011, src_bolt_wa_moscow2013, src_bolt_guardian_kessel2012, src_bolt_abc_beijing2015 | 2011-2015 | race reports + governing-body report | independent of Bolt] After the Daegu 2011 false-start disqualification in the 100 m, which he first met with 'I have nothing to say right now. I need some time' (BBC), he went on to win the 200 m at those championships (World Athletics 2013 summary). In 2012 he won the Olympic 100 m after a run of doubts and a defeat by his training partner Yohan Blake weeks earlier (Guardian), and in 2015 he recovered from a stumble in the semi-final to win the final by 0.01 s (ESPN/ABC). Three separate, dated recoveries from setbacks in independent reports; scored a clear lean rather than higher because the sources describe results, not the effort behind them."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bolt_nbc_first100, src_bolt_abc_au2025, src_bolt_guardian_hattenstone2010 | 2007-2008 | press articles quoting coach Mills (via the Gleaner) and Bolt's own account | two accounts of one episode] In 2007 his coach Glen Mills preferred that he move up to the 400 m; Bolt proposed a deal under which a fast 100 m would let him double 100 m and 200 m in 2008. He broke Don Quarrie's national 200 m record, Mills is quoted as saying 'He just said, When is the 100m?', and three weeks later he ran his first professional 100 m in Crete in 10.03. He also pleaded with Mills to run the 100 m at Beijing (Guardian 2010). One episode told twice (the two accounts differ on the exact terms), so a modest score."
+    },
+    "persuasiveness": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bolt_nbc_first100, src_bolt_abc_au2025 | 2007 | press articles | single episode, Bolt's own account plus Mills's quoted reaction] Bolt got an experienced coach to change the plan for his season by offering a wager he could win. Only one such episode is documented; nothing else in the sources read shows him moving others by argument, so the score sits just above neutral with low confidence."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bolt_guardian_kessel2009, src_bolt_guardian_kessel2012, src_bolt_nbc_first100 | 2007-2012 | race reports + press | his own accounts] He moved from a 200 m specialist to a world-record 100 m runner within a year (NBC, Guardian 2008), and said he won in 2009 because he identified his start as the weakness and worked on it; in 2012 he again focused on his start ('I sat in the blocks a bit') and his coach told him his best race was at the end. Evidence comes mostly from his own quotations and is not independently verified as a change in method, hence modest."
+    },
+    "discipline": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bolt_guardian_hattenstone2010, src_bolt_observer_kessel2008, src_bolt_guardian_kessel2012 | 2005-2012 | interview + profile | conflicting accounts] Bolt calls himself lazy (2010), while his manager says that when he trains he trains very hard, and after the 2012 final Bolt says Yohan Blake works harder than he does. Gleaner editor Elton Tucker says that as a teenager he liked nightclubs and thought natural talent was enough, and that Mills's strict regime made the difference after they began working together in 2005 (Observer 2008, the explanation of what changed is Tucker's view, not Bolt's). Evidence is genuinely mixed and partly second-hand, so the score stays neutral and the impact dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "우사인 볼트"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/usain-bolt-zwegers-2012.jpg",
+    "width": 1067,
+    "height": 1600,
+    "source": "Photograph 'Brussels, Memorial Van Damme, Usain Bolt' by Arian Zwegers, taken 7 September 2012 at the Memorial Van Damme meeting in Brussels; published on Flickr and copied to Wikimedia Commons. Reduced from 3456 x 5184 to 1067 x 1600 pixels.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Arian Zwegers, CC BY 2.0, via Wikimedia Commons",
+    "attributionUrl": "https://www.flickr.com/photos/azwegers/7957059282/",
+    "creator": "Arian Zwegers",
+    "date": "2012-09-07",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Brussels,_Memorial_Van_Damme,_Usain_Bolt_(7957059282).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE (wbgetentities 2026-10-10): Q1189, en 'Usain Bolt', description 'Jamaican sprinter', born 21 Aug 1986, no death date, ko label '우사인 볼트'. SLUG CHECK: not in scratch/prod_slugs.txt, no prior candidate file. CLASSIFICATION: occupation athlete, field sport (field.sport exists), impactDomains athletic and cultural, tag competitor, archetype competitive_performer, region latin_america (Jamaica; Bob Marley precedent in prod_names). LIVING SUBJECT: only documented public professional behaviour is scored. Deliberately NOT used: scoliosis and injuries beyond career facts, family, finances, the Stylo/fund-fraud episode, relationships, the death of a friend mentioned in the 2017 report, and doping speculation about him (he has repeatedly been quoted denying and speaking of testing; no allegation is made or scored). EVIDENCE READ (16 records, 15 substantive plus Wikidata): Guardian Hattenstone interview 2010; Observer Kessel profile 2008; New York Times Berlin 2009 report; Guardian Berlin 200 m 2009; BBC Daegu 2011; Guardian London 2012; World Athletics Moscow 2013 and London 2017 reports; ESPN/ABC Beijing 2015; Guardian Rio 2016; CMC/Stabroek relay disqualification 2017; NBC Sports 2007-bet article; ABC Australia 2025; Jamaica Observer Mills profile 2012; IAAF Beijing 2008 relay bulletin. PERSPECTIVES: (1) SELF: Bolt's interview, press-conference and podcast quotations (never alone for a row); (2) INSIDER: manager Ricky Simms (Hattenstone interview), coach Glen Mills (only via NBC/Gleaner and Jamaica Observer); (3) FORMER COACHES, TEACHER, FRIEND AND LOCAL PRESS: Pablo McNeil, Stephen Francis, Dwight Barnett, Germaine Mason, Elton Tucker (Observer 2008); (4) INDEPENDENT journalists and governing bodies: NYT, Guardian, BBC, World Athletics, IOC statement via CMC; (5) RIVALS: Tyson Gay (NYT 2009). NON-SELF BEHAVIOURAL sources: Observer 2008, NYT 2009, BBC 2011, Guardian 2012 and 2016, World Athletics 2013 and 2017. NOT ACCESSED: Richard Moore's The Bolt Supremacy (only publisher blurbs seen), Bolt's own autobiography Faster Than Lightning (only quotations via NBC/Gleaner), a Glen Mills long interview, the Gleaner archive itself, Olympedia (not found in search), the European Journal of Physics study of the 2009 race (news summaries only, not used). Several of those named in the assignment were therefore not available. LIGHTNING-BOLT POSE: the Guardian 2010 interview says the pose is based on a Jamaican dance rather than a lightning bolt, so no claim is made about its origin. SCORING NOTES: seven rows only; nothing padded; max score 72 and confidence 0.6. The 2008 relay gold was annulled in January 2017 after teammate Nesta Carter's re-test (CAS dismissed Carter's appeal in 2018 per search summaries; not opened). PORTRAIT: the first-choice Agencia Brasil photograph (Commons, CC BY 3.0 br) was NOT used because the live Agencia Brasil page carried no licence notice that I could confirm and the publisher's parent company (EBC) lists commercial licensing of its photographs, so the upstream rights chain could not be reconciled; replaced with a photographer-authored Commons file (Arian Zwegers, CC BY 2.0). Flickr source page fetched: licence field is Creative Commons Attribution 2.0 (Flickr licence id 4, link to creativecommons.org/licenses/by/2.0/); Commons carries a Flickr review stamp dated 2013-02-06. Image shows a hooded Jamaica team jacket with sponsor logo; not cropped."
+  }
+}

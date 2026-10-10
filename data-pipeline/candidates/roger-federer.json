@@ -1,0 +1,198 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "roger-federer",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Roger Federer",
+    "wikidataId": "Q1426",
+    "birthYear": 1981,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["CH"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["athlete"],
+    "fieldIds": ["sport"],
+    "impactDomains": ["athletic", "cultural"],
+    "tagIds": ["competitor", "sustained_excellence"],
+    "archetypeIds": ["competitive_performer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_federer_wikidata",
+      "kind": "wikidata",
+      "title": "Roger Federer (Q1426) -- verified live via wbgetentities (2026-10-10): en description 'Swiss tennis player (born 1981)', ko label '로저 페더러', born 8 Aug 1981, no death date, occupation tennis player. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1426"
+    },
+    {
+      "id": "src_federer_tignor_sendoff2022",
+      "kind": "press",
+      "title": "Steve Tignor (Tennis.com senior writer), 'Roger Federer's Laver Cup sendoff represented everything that made his career one-of-a-kind', Tennis.com, 24 September 2022 -- independent retrospective assessment written the night of his final match; used for the 20 Grand Slam titles, his six years as ATP Player Council president, his role in prize-money talks and the Laver Cup, and his friendship with Nadal. Admiring in tone (an obituary-style essay). Read in full.",
+      "url": "https://www.tennis.com/news/articles/roger-federer-laver-cup-sendoff-retirement-nadal-why-his-career-one-of-a-kind"
+    },
+    {
+      "id": "src_federer_tignor_staff2015",
+      "kind": "press",
+      "title": "Steve Tignor, 'From Fedberg to Ljuberer: Thoughts on Federer's coaching shift', Tennis.com, 12 December 2015 -- independent analysis of Federer's coaching changes (Annacone, Edberg, Ljubicic), his 2013 low point and 2014-15 return to a net-attacking game, with a quotation from Paul Annacone via the New York Times. Read in full.",
+      "url": "https://www.tennis.com/news/articles/staff-change"
+    },
+    {
+      "id": "src_federer_flink2018",
+      "kind": "press",
+      "title": "Steve Flink (veteran tennis historian and columnist), 'Federer is focusing on the larger picture by skipping the clay season', Tennis.com, 17 April 2018 -- opinion column that reconstructs Federer's 2016-2018 scheduling decisions (skipping Roland Garros in 2016, the 2017 and 2018 clay seasons) and the 2017 results; the author's reading of Federer's motives is an interpretation, the dated schedule facts are the usable content. Read in full.",
+      "url": "https://prod.tennis.com/news/articles/federer-is-focusing-on-the-larger-picture-by-skipping-the-clay-season"
+    },
+    {
+      "id": "src_federer_cambers2019",
+      "kind": "press",
+      "title": "Simon Cambers, 'How do you solve a lefty like Rafa Nadal? A look at Roger Federer's strategy', ESPN, 6 June 2019 -- independent analysis, with Federer's own quotations at Roland Garros and a comment from coach Patrick Mouratoglou, of how Federer changed his returns, shot selection and equipment against left-handers and Nadal. Read in full.",
+      "url": "https://www.espn.com/tennis/story/_/id/26911910/how-do-solve-lefty-rafa-nadal-look-roger-federer-strategy"
+    },
+    {
+      "id": "src_federer_nguyen2013",
+      "kind": "press",
+      "title": "Courtney Nguyen (freelance tennis writer for SI.com), 'Roger Federer switching back to old racket through the U.S. Open', Sports Illustrated, 14 August 2013 -- contemporaneous report of his prototype-racket testing after the Wimbledon loss and his reversal, with his quoted explanation. Read in full.",
+      "url": "https://www.si.com/tennis/beyond-baseline/2013/08/14/roger-federer-switching-to-old-racket"
+    },
+    {
+      "id": "src_federer_tandon_sabr2015",
+      "kind": "press",
+      "title": "Kamakshi Tandon, 'Laziness leads to new half-volley return from Federer', ESPN, September 2015 -- contemporaneous report in which Federer describes how the chip-and-charge return began in a Cincinnati practice session and how coach Severin Luthi pressed him to keep playing points. Read in full.",
+      "url": "https://www.espn.com/tennis/usopen15/story/_/id/13591360/us-open-roger-federer-reveals-origins-trick-shot"
+    },
+    {
+      "id": "src_federer_bodo_sabr2015",
+      "kind": "press",
+      "title": "Peter Bodo, 'He said what? Federer justifies his sneak attack', ESPN, September 2015 -- contemporaneous report that records criticism of the tactic by Boris Becker (then coach of Novak Djokovic), reservations quoted from Djokovic, and Federer's reply. Read in full.",
+      "url": "https://www.espn.com/tennis/usopen15/story/_/id/13634493/tennis-said-roger-federer-justifies-sneak-attack"
+    },
+    {
+      "id": "src_federer_tandon_coaches2016",
+      "kind": "press",
+      "title": "Kamakshi Tandon, 'Federer confirms that Edberg is not coaching him', Tennis.com, 4 July 2016 -- short Wimbledon press-conference report quoting Federer on who his coaches were (Severin Luthi and Ivan Ljubicic) and how he used them. Read in full.",
+      "url": "https://www.tennis.com/news/articles/federer-confirms-that-edberg-is-not-coaching-him"
+    },
+    {
+      "id": "src_federer_sky2018",
+      "kind": "press",
+      "title": "Sky Sports, 'Roger Federer argues prize money agreement with Grand Slams has run its course', January 2018 -- news report of his Australian Open press comments, with a note that he was Player Council president during the 2012 prize-money pressure. Read in full; a second wire report (AFP via The Local, 19 January 2018) carrying the same quotations was also read.",
+      "url": "https://www.skysports.com/tennis/news/12110/11212874/roger-federer-argues-prize-money-agreement-with-grand-slams-has-run-its-course"
+    },
+    {
+      "id": "src_federer_bodo2019",
+      "kind": "press",
+      "title": "Peter Bodo, 'How a French Open win over Tommy Haas cemented Federer's legacy', ESPN, 2019 -- retrospective on the 2009 French Open, with quotations from Federer, from his opponent Tommy Haas and from Paul Annacone. Read in full.",
+      "url": "https://www.espn.com/tennis/story/_/id/26850806/how-french-open-win-tommy-haas-cemented-federer-legacy"
+    },
+    {
+      "id": "src_federer_garber2017",
+      "kind": "press",
+      "title": "Greg Garber, 'Roger Federer beats longtime rival Rafael Nadal, wins 18th Grand Slam', ESPN, 29 January 2017 -- match report of the 2017 Australian Open final with the seedings, the layoff context and Federer's on-court remarks. Read in full.",
+      "url": "https://www.espn.com/tennis/story/_/id/18577366/roger-federer-defeats-rafael-nadal-win-australian-open-title"
+    },
+    {
+      "id": "src_federer_berkok2022",
+      "kind": "press",
+      "title": "John Berkok, 'Roger Federer records that may never be broken: 237 consecutive weeks at No. 1', Tennis.com, 22 September 2022 -- records piece listing the longest streaks at No. 1 in ATP rankings since 1973. Read in full.",
+      "url": "https://www.tennis.com/news/articles/roger-federer-records-that-may-never-be-broken-237-straight-weeks-no-1"
+    },
+    {
+      "id": "src_federer_si_davis2014",
+      "kind": "press",
+      "title": "Sports Illustrated, 'Switzerland wins first Davis Cup title after Federer defeats Gasquet', 23 November 2014 -- match report and commentary on the Lille final, including Federer's on-court remarks and the writer's note that his Davis Cup participation had been on his own terms. Read in full.",
+      "url": "https://www.si.com/tennis/2014/11/23/switzerland-wins-davis-cup-roger-federer-richard-gasquet"
+    },
+    {
+      "id": "src_federer_ap2022",
+      "kind": "press",
+      "title": "Associated Press, 'Roger Federer pairs with Rafael Nadal in last match, falls in doubles at Laver Cup', carried by ESPN, 23 September 2022 -- wire report of his final match, with his and Nadal's quoted remarks and the note that the Laver Cup was founded by his management company. Read in full.",
+      "url": "https://www.espn.com/tennis/story/_/id/34652037/roger-federer-pairs-rafael-nadal-last-match-falls-doubles-laver-cup"
+    },
+    {
+      "id": "src_federer_livaudais2022",
+      "kind": "press",
+      "title": "Stephanie Livaudais, 'Rafael Nadal's tears revealed human side of Roger Federer rivalry', Tennis.com, 24 September 2022 -- report on the farewell ceremony with Nadal's quoted remarks. Read in full.",
+      "url": "https://www.tennis.com/news/articles/rafael-nadal-tears-revealed-human-side-roger-federer-rivalry-laver-cup-retire"
+    },
+    {
+      "id": "src_federer_ploughshares",
+      "kind": "press",
+      "title": "Ploughshares blog, 'The Unbearable Lightness of Being a Great Tennis Player: Looking Back at Foster Wallace on Federer' -- commentary on David Foster Wallace's 2006 essay 'Federer as Religious Experience' (New York Times Magazine, 20 August 2006; collected in Both Flesh and Not). Read in full as reception context for how a literary writer viewed his play; not used to support any scored row. The Wallace essay itself was not read (New York Times page not retrievable).",
+      "url": "https://pshares.org/blog/the-unbearable-lightness-of-being-a-great-tennis-player-looking-back-at-foster-wallace-on-federer/"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_federer_cambers2019, src_federer_tignor_staff2015, src_federer_nguyen2013 | 2013-2019 | independent ESPN analysis + independent Tennis.com analysis + contemporaneous SI report; includes Federer's own quotes] Cambers (ESPN, 2019) reports that Federer lost four of his first seven matches against left-handers early in his career, then, in his own words, came to 'love' the test; with the larger racket he adopted in 2014 he stopped returning Nadal's kicking serve with a backhand slice and began driving it with topspin, and Mouratoglou attributes his run of wins over Nadal to that change plus stepping in to hit on the rise. Tignor (2015) says that after the 2013 season (ranking fell from No. 2 to No. 6) Federer, with Edberg's help, 'went back to his roots at the net' and found a way to win without the physical gifts of his youth, finishing 2015 with six titles at age 34. Nguyen (2013) documents that he tried a prototype frame within weeks of a second-round Wimbledon loss. Several dated, independent instances over six years; the coaches' influence on the changes is reported but its size is not measured, hence not higher than 74."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_federer_nguyen2013, src_federer_tandon_sabr2015, src_federer_bodo_sabr2015 | 2013, 2015 | contemporaneous SI report + two contemporaneous ESPN reports; Federer's own accounts] After the July 2013 Wimbledon loss he played about a month with a blacked-out 98-square-inch prototype at Hamburg and Gstaad before saying he would go back to his old frame through the US Open and test more afterwards ('right now I feel like I need to simplify everything'). In August 2015 he told reporters that the chip-and-charge half-volley return that became known as the sneak attack began as an attempt to shorten practice points with Benoit Paire in Cincinnati; he used it in matches within days, sparingly, and kept it in reserve against big servers. Two documented instances of trying new equipment and tactics against a settled routine, one of which he reversed; moderate score because both are tactical or equipment trials rather than a broad pattern of invention."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_federer_flink2018, src_federer_tignor_staff2015 | 2016-2018 | opinion column by an independent historian + independent Tennis.com analysis] Flink (2018) lays out the schedule decisions as dated facts: no Roland Garros in 2016, no clay-court events at all in 2017 or 2018, with the weeks used to prepare for Stuttgart, Halle and Wimbledon, and in 2017 he won the Australian Open, Indian Wells and Miami, skipped clay, then won Halle and Wimbledon without dropping a set; Flink interprets it as pacing the season around his main targets ('pacing and planning'). Tignor (2015) describes the staffing changes (Edberg, then Ljubicic with Luthi staying) as deliberate steps in a career-extension plan. The motive is the columnist's interpretation, not Federer's documented statement in a source read here (the contemporaneous April 2017 report was not retrievable), so strong_inference and moderate confidence."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_federer_bodo2019, src_federer_flink2018, src_federer_garber2017 | 1999-2017 | independent ESPN retrospective with opponent's and coach's quotes + Tennis.com column + ESPN match report] Bodo (2019): Nadal had beaten Federer in all four of their French Open meetings, three of them finals, before 2009; Flink adds that Federer entered Roland Garros 17 years in a row (1999-2015). In the 2009 fourth round Haas won the first two sets and had a break point in the third; Federer came back to win in five sets, then needed five sets again against del Potro before the final (Federer: he 'knew' the pressure would increase, and he was down 3-4 in that third set when he hit the saving forehand, per Haas). Garber (2017) reports that in the 2017 Australian Open final he came from a break down in the fifth set against Nadal to win the last five games. Dated, independent, and the 2009 account includes the opponent's perspective; competitive resilience only, no inference from injury or private matters."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_federer_tignor_sendoff2022, src_federer_sky2018, src_federer_ap2022 | 2008-2022 | independent Tennis.com assessment + news report with his own quotes + AP wire] Tignor (2022) reports that he was ATP Player Council president for six years, helped negotiate more prize money at the majors, and was the star power behind the Laver Cup; AP says the Laver Cup was founded by his management company. In January 2018 (Sky Sports; AFP via The Local) he said the revenue-sharing agreement 'has run its course', that players 'have to rally, get back together' and 'put in the effort', and that 'when the players don't talk, nothing gets done'. Documented role and public statements by independent news sources; the size of his personal contribution to specific prize-money increases is asserted by Tignor but not itemised, so confidence stays moderate. Governance and event-founding is treated as a professional leadership behaviour, not a political one."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_federer_tandon_sabr2015, src_federer_tandon_coaches2016, src_federer_tignor_staff2015, src_federer_si_davis2014, src_federer_tignor_sendoff2022, src_federer_livaudais2022 | 2008-2022 | contemporaneous ESPN/Tennis.com/SI reports + Tennis.com essays + Nadal's quoted remarks] Federer says that in the 2015 Cincinnati practice he was 'going to stop already' but coach Severin Luthi told him to play more games, and the tactic that resulted was one Luthi urged him to use in a match; in 2016 he described Luthi and Ljubicic as his coaches and said he talked matches over with them, while Tignor (2015) reports that he wanted the Edberg partnership to continue. After the 2014 Davis Cup final he told the crowd 'This is for the boys' and the SI writer credits Wawrinka as much as Federer, while noting that his own Davis Cup appearances had been on his own terms. Tignor (2022) and Nadal (Tennis.com, AP) describe a friendship and shared farewell with his chief rival; Nadal: 'an important part of my life is leaving too'. Several independent sources, but they mostly describe working relationships rather than a single documented collaborative act, so strong_inference."
+    }
+  },
+  "doNotCopyKeys": [],
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/roger-federer-si-robi-2016.jpg",
+    "width": 1185,
+    "height": 1600,
+    "source": "Wikimedia Commons file 'Federer WM16 (37)' (Wimbledon Championships, 27 June 2016), downsized from 2725 x 3679 pixels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Photograph by si.robi (Flickr), 2016, licensed CC BY-SA 2.0; resized from the original. Derivative is shared under the same licence.",
+    "attributionUrl": "https://www.flickr.com/photos/16732597@N07/28136155830",
+    "creator": "si.robi (Flickr user)",
+    "date": "2016-06-27",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Federer_WM16_(37)_(28136155830).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster47 research for a LIVING subject: documented public professional behaviour only; no health, family, private-life, mental-state or allegation claims. His knee operations and retirement are used only as dated career facts; no trait is inferred from them (the 2017 layoff is cited only as context to the Australian Open final). QID VERIFIED LIVE 2026-10-10 via Wikidata wbgetentities: Q1426, en description 'Swiss tennis player (born 1981)', ko label 로저 페더러, P569 8 Aug 1981, no P570. Slug not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: occupation athlete; field sport (field.sport key exists in en.ts); region western_europe on the Einstein/Jung/Piaget precedent for Switzerland; tags competitor and sustained_excellence and archetype competitive_performer follow the Michael Jordan and Serena Williams candidates. EVIDENCE READ: 16 records (15 substantive press/analysis pieces, opened and read in full as saved text, plus the Wikidata orientation record). Independent perspectives named: Tennis.com (Steve Tignor, Steve Flink, John Berkok, Kamakshi Tandon, Stephanie Livaudais), ESPN (Simon Cambers, Peter Bodo, Greg Garber, Associated Press), Sports Illustrated (Courtney Nguyen and staff), Sky Sports/AFP; first-hand views come from Federer's quoted press-conference and on-court remarks, from Tommy Haas, Paul Annacone, Patrick Mouratoglou, Boris Becker, Novak Djokovic and Rafael Nadal as quoted by those reporters. Adversarial/critical angle: Becker/Djokovic/McEnroe reservations about the sneak-attack return (Bodo), and Flink's note that the 2017-18 clay skips left him unable to test himself against Nadal on clay. NOT ACCESSIBLE / NOT READ: David Foster Wallace's 2006 New York Times essay (NYT page not retrievable; a commentary piece was read), Chris Clarey's New York Times coverage (paywalled/blocked), Rene Stauffer's 'The Roger Federer Story', Nadal's memoir 'Rafa', Wertheim's SI pieces, Eurosport/TNT, ITF and Olympics.com pages (bot-blocked or empty); Federer's own Dartmouth and retirement texts were not read. The Roger Federer Foundation (ATP news page read for orientation only, no independent evaluation found) is not scored and not used as an Achievement; Olympic doubles gold (2008) and singles silver (2012) were confirmed only in Wikipedia and are therefore not asserted in editorial text. Scores are capped at 74 and confidence at 0.62 because every row rests on press reporting of dated events; no biography was available. Eligibility numbers were not run. PORTRAIT: Commons file by Flickr user si.robi (CC BY-SA 2.0; Commons carries a FlickreviewR pass dated 2016-07-20 and the live Flickr page shows licence code 5, Attribution-ShareAlike 2.0 Generic, owner si.robi, photo id 28136155830). The Commons 'Source' field oddly lists a New York Times image URL, but the Flickr licence review is against the author's own Flickr upload, and no agency or press notice appears on the Flickr page. Downsized to 1185 x 1600 from 2725 x 3679 (Lanczos, quality 85). Share-alike credit is stated in the attribution field. Alternative image (Rob Keating, Australian Open 2020, CC BY 2.0) is only 710 x 946 so was not used."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로저 페더러"
+    }
+  }
+}

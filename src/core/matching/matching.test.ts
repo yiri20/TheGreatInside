@@ -706,6 +706,24 @@ describe("confidence and missing data", () => {
       "oscar-wilde",
       "pierre-auguste-renoir",
       "sonja-henie",
+      // Roster47 (2026-10-11, docs/checkpoints/roster47.md): 13 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero backlog
+      // reuse, two holds (Ferruccio Lamborghini and Caravaggio, portrait). Each has
+      // whatever eligibility outcome its own evidence produced (computed by build(),
+      // never gated).
+      "andre-marie-ampere",
+      "david-hilbert",
+      "edmond-halley",
+      "federico-fellini",
+      "franz-liszt",
+      "john-lennon",
+      "lionel-messi",
+      "marcel-proust",
+      "nadia-comaneci",
+      "reinhold-messner",
+      "roger-federer",
+      "sergey-brin",
+      "usain-bolt",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1352,6 +1370,24 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "oscar-wilde",
       "pierre-auguste-renoir",
       "sonja-henie",
+      // Roster47 (2026-10-11, docs/checkpoints/roster47.md): 13 new, freshly
+      // researched, evidence_approved, directory-visible people -- zero backlog
+      // reuse, two holds (Ferruccio Lamborghini and Caravaggio, portrait). Each has
+      // whatever eligibility outcome its own evidence produced (computed by build(),
+      // never gated).
+      "andre-marie-ampere",
+      "david-hilbert",
+      "edmond-halley",
+      "federico-fellini",
+      "franz-liszt",
+      "john-lennon",
+      "lionel-messi",
+      "marcel-proust",
+      "nadia-comaneci",
+      "reinhold-messner",
+      "roger-federer",
+      "sergey-brin",
+      "usain-bolt",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
