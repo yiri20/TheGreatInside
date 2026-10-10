@@ -6542,6 +6542,286 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In April 1907, after his position at the DMG had weakened since 1903 and supervisory board members wanted him out, Maybach left the company. NDB says Jellinek's support did not help. After the Zeppelin LZ 4 was destroyed at Echterdingen in August 1908, he offered Count Zeppelin an engine design by his son Karl, which led to the 1909 engine company that carried the Maybach name into airship, rail and car engines.",
   "wilhelm-maybach.interpretation.turning_point.1":
     "Turning a forced exit into an offer to a new customer within about a year is consistent with opportunity sensing; the engine design itself was his son's, and the account of the 1907 exit comes mainly from NDB and the DPMA.",
+  /* ---------------------------------------------------------- alvar-aalto (Roster46) */
+  "alvar-aalto.achievement.1":
+    "Aalto won the competition for the Paimio Tuberculosis Sanatorium and designed it between 1929 and 1933. The wards were planned around the patient lying in bed: a ceiling colour chosen for quiet, light sources outside the patient's line of sight, heating directed at the feet and basins designed to run silently. He also designed the building's fittings, from washbasins and beds to lamps and outdoor chairs, and the sanatorium brought him international attention.",
+  "alvar-aalto.achievement.2":
+    "Aalto won the 1927 competition for the Viipuri municipal library, but the project passed through three schemes and the final design was presented only in December 1933; the building was completed in 1935. The executed library has a skylit main reading space with a sunken floor section and round skylights that bring in indirect daylight, and art historians treat it as the point where he moved beyond the functionalist canon toward his own style.",
+  "alvar-aalto.achievement.3":
+    "For Paimio, Aalto and the Turku furniture maker Otto Korhonen developed the Paimio Chair (1931-32), made entirely of bent laminated plywood. In 1933 he produced the bent-knee leg, made by sawing slits, inserting slivers of wood and bending and gluing them, which led to a stackable three-legged stool first shown in London that year. In 1935 Aalto, Maire Gullichsen and Nils-Gustav Hahl founded the company Artek to produce and market his furniture, with Aino Aalto as its first artistic director.",
+  "alvar-aalto.achievement.4":
+    "Villa Mairea, built in 1938-39 for Maire and Harry Gullichsen at Noormarkku, is one of Aalto's best-known houses; its living area is described as a forest turned into architecture, with a column hidden by a screen of unpeeled saplings. Saynatsalo Town Hall, completed in 1952 for a village of about three thousand people, groups the council chamber, library, flats and shops around a courtyard and is regarded as one of his finest civic buildings.",
+  "alvar-aalto.moment.1":
+    "Aalto signed his office's exhibitions and work up to 1949 'Aino and Alvar Aalto', putting his wife's name first. Giedion wrote in 1949 that Aino herself insisted Alvar was the creative one, and Pearson finds the credit lines uneven: Villa Flora appears under her name alone, some competition reviews omit her, and the Artek attribution is 'troubling'. The Alvar Aalto Foundation says she worked as an equal designer, and that the roles are hard to trace because most work went out under the office's name.",
+  "alvar-aalto.interpretation.moment.1":
+    "Listing a partner first and sharing credit publicly is consistent with collaboration, but who designed what is not settled in the sources, so the evidence is dual-edged and the score is kept modest.",
+  "alvar-aalto.moment.2":
+    "In 1945 Aalto returned to MIT as a visiting professor and proposed first touring war-damaged Europe at his hosts' expense, but Quantrill reports that MIT wanted a studio teacher and not a research director. In autumn 1946 he was commissioned to design Baker House, a student dormitory, and spent most of his visits supervising it. Its serpentine form was designed so every student room faces the Charles River, at oblique angles that vary the views and soften the traffic noise from Memorial Drive.",
+  "alvar-aalto.interpretation.moment.2":
+    "Proposing a larger role than the host would back is consistent with proactive agency; Quantrill judges his ambitions for the programme unrealistic, so the initiative did not succeed as proposed even though the commission did.",
+  "alvar-aalto.turning_point.1":
+    "After committing to rationalist functionalism in 1928, Aalto turned in the mid-1930s into a critic of its rationalist doctrine. His 1940 article 'The Humanizing of Architecture' argued that rationalisation had not gone deep enough and that technical functionalism is correct only if extended to the psychological and physical field. The Viipuri Library had by then moved from a classicist competition entry through a continental-functionalist revision to a personal final scheme, and Pallasmaa notes that his writings changed more dramatically than his designs.",
+  "alvar-aalto.interpretation.turning_point.1":
+    "Revising his stated position while presenting it as a deeper form of rationalism is consistent with belief updating; it is an inference, since Aalto framed it as an extension of his earlier view, not a reversal.",
+  /* ---------------------------------------------------------- charles-goodyear (Roster46) */
+  "charles-goodyear.achievement.1":
+    "Goodyear developed vulcanization, the heating of India rubber with sulphur so that it no longer melts in heat or stiffens in cold. Biographers date the key observation to the winter or spring of 1839, when a lump of rubber-and-sulphur compound touched a hot stove at Woburn, Massachusetts, and charred instead of melting. Accounts differ on details of that scene, and Goodyear said the result came from close observation rather than luck. It took him years more to find the right proportions and temperature, and his United States patent issued on 15 June 1844.",
+  "charles-goodyear.achievement.2":
+    "Goodyear patented the process and licensed it to manufacturers, and worked out applications for the new material: rubber cloth with fibre mixed in, shoes, shirred elastic goods and hard rubber for items such as combs. Peirce, quoting Parton, reports that by 1865 American makers were producing about 1.5 million pairs of rubber shoes a year. At the 1851 Great Exhibition in London he showed rubber goods, including hard-rubber furniture, in a display court.",
+  "charles-goodyear.achievement.3":
+    "Goodyear's patent was tested in court. In the 1852 case Goodyear v. Day, argued by Daniel Webster for Goodyear and Rufus Choate for the defendant, Judge Grier held that others had tried sulphur and heat without perfecting anything and that Goodyear was the original inventor of the vulcanizing process. In England, Thomas Hancock's patent, sealed on 21 November 1843, was held valid, and Goodyear's English patent of 30 January 1844 did not give him the same footing there.",
+  "charles-goodyear.moment.1":
+    "In 1838 Goodyear met Nathaniel Hayward, a former rubber-factory foreman in Woburn who dried rubber with a little sulphur and said the method had come to him in a dream. Parton writes that Goodyear saw the sulphur give the same result as his own nitric-acid process, though he did not at first realise the two shared the same chemistry. He bought Hayward's patent, which Judge Grier dates 24 February 1839, and employed him.",
+  "charles-goodyear.interpretation.moment.1":
+    "Connecting another man's overlooked process to his own result and buying the rights is consistent with opportunity sensing. The sources also say he did not yet understand why it worked, so this is a move on a signal, not on an explanation.",
+  "charles-goodyear.moment.2":
+    "After the stove observation, Goodyear tested what heat and time did to the compound. Witnesses in the later patent trials, quoted by Parton, described him baking batches in his wife's oven for one, three or six hours, boiling samples, burying them in hot sand and asking factory foremen for oven time after hours. Having no suitable oven, he and his family built one of brick in a factory yard and paid the mason in aprons made of his own rubber cloth.",
+  "charles-goodyear.interpretation.moment.2":
+    "Varying time, temperature and proportions batch by batch and building his own apparatus is consistent with experimentation; the details come from trial witnesses as retold by his biographers.",
+  "charles-goodyear.turning_point.1":
+    "Goodyear received a government order for 150 rubber mail bags and made the order public, hoping it would prove his nitric-acid process. The bags were left hanging in the factory over a summer and began to soften and drop from their handles, because the treatment had cured only the surface. Peirce reports Goodyear blamed the lead and colouring he had mixed in. The failure ended that business, and friends and family urged him to stop experimenting. He kept working with sulphur, which led to the 1839 observation.",
+  "charles-goodyear.interpretation.turning_point.1":
+    "Carrying on with sulphur after a public failure and advice to stop is consistent with persistence; the two biographies differ on the cause of the failure, and both rest largely on Goodyear's own account.",
+  /* ---------------------------------------------------------- georges-cuvier (Roster46) */
+  "georges-cuvier.achievement.1":
+    "In April 1796 Cuvier read the Institut national a paper comparing the skulls and teeth of living and fossil elephants. He showed that the elephants of Ceylon and the Cape of Good Hope were two distinct species, and that the mammoth and the 'Ohio animal' (which he later named Mastodon) differed from both. He concluded that such bones came from animals no longer alive, part of a world destroyed by some kind of catastrophe. In the same year he described a giant fossil from Paraguay and named it Megatherium. Reference accounts such as the Embryo Project Encyclopedia describe the elephant paper as proving that extinction was real.",
+  "georges-cuvier.achievement.2":
+    "Cuvier treated a fossil skeleton as a problem governed by the correlation of parts: because each organ of an animal has to fit the rest, a few bones could point to the whole creature. He applied this to the fossil mammals of the gypsum quarries of Montmartre and of other deposits, and in 1812 collected his papers as the four-volume Recherches sur les ossemens fossiles, prefaced by a Preliminary Discourse that Rudwick calls immensely influential in the nineteenth century. With the geologist Alexandre Brongniart he also described the alternating marine and freshwater beds of the Paris region (a report of 1808, enlarged in 1811), putting the fossils at the centre of the stratigraphy.",
+  "georges-cuvier.achievement.3":
+    "Appointed in 1795 to assist the professor of comparative anatomy at the Museum in Paris, Cuvier built up its comparative-anatomy collection and, with Duméril and later Duvernoy, published the Leçons d'anatomie comparée (1800-05). By ranking organs by importance and comparing nervous systems, he divided the animal kingdom into four basic plans, or embranchements: vertebrates, molluscs, articulates and radiates. His Le Règne animal (1817) set out the scheme, and he also published a series of detailed memoirs on the anatomy of molluscs.",
+  "georges-cuvier.moment.1":
+    "In 1830 the Académie des sciences heard Geoffroy Saint-Hilaire report on a memoir that compared the organs of cephalopods with those of vertebrates, and conclude that nobody could now escape 'unity of composition'. According to Flourens, who knew both men and sides with Cuvier, Cuvier had often praised Geoffroy's earlier discoveries and spoke only when the claim was extended across the separate plans of animals. Cuvier asked what 'unity of plan' and 'unity of composition' were meant to mean, and argued that in the ordinary sense of identity they were refuted by opening a bird and a fish. Goethe, who followed the dispute from Weimar, took Geoffroy's side and thought Cuvier's analytic method left out the unity of living nature.",
+  "georges-cuvier.interpretation.moment.1":
+    "Pressing an opponent to define his terms and answering with what an anatomist finds on the table is consistent with analytical rigor; Goethe's verdict shows that critics saw the same method as too narrow.",
+  "georges-cuvier.moment.2":
+    "A paper on fossil quadrupeds that Cuvier signed in December 1800 ended with an appeal. The Institut had it printed as a separate booklet so it could reach naturalists, and in it Cuvier asked savants and collectors across Europe for specimens and information. He named those already helping him, among them quarry workers around Paris and the owners of private collections, and told readers that he already had more than three hundred drawings, fifty of them engraved as plates. Rudwick reads the text both as an appeal for collaboration and as a quiet discouragement to anyone thinking of competing.",
+  "georges-cuvier.interpretation.moment.2":
+    "Asking for help across Europe is consistent with collaboration, while showing how far his work had already advanced also protected his lead; Rudwick's reading is that both aims were present.",
+  "georges-cuvier.turning_point.1":
+    "Cuvier spent the Revolution years as a tutor to a Protestant noble family in Normandy, dissecting marine animals with few books at hand. Through the agronomist Tessier, who was sheltering nearby, he sent his observations to Paris naturalists including Geoffroy Saint-Hilaire, and in spring 1795 he accepted their invitation to come to the capital. He joined the Muséum as assistant to the ageing professor of comparative anatomy, Mertrud, and within a year he had read his elephant paper to the Institut.",
+  "georges-cuvier.interpretation.turning_point.1":
+    "Sending observations to distant specialists from an isolated post, then taking the opening in Paris when it came, is consistent with proactive agency.",
+  /* ---------------------------------------------------------- giacomo-puccini (Roster46) */
+  "giacomo-puccini.achievement.1":
+    "Puccini's La bohème (Teatro Regio, Turin, 1 February 1896, conducted by Arturo Toscanini), Tosca (Rome, January 1900) and Madama Butterfly (La Scala, Milan, 17 February 1904) became the core of his reputation. Britannica counts them among his mature operas, written with the librettists Giuseppe Giacosa and Luigi Illica, and Butterfly was reworked after its first night and revived in 1904.",
+  "giacomo-puccini.achievement.2":
+    "La fanciulla del West, based on David Belasco's play, had its world premiere at the Metropolitan Opera, New York, on 10 December 1910, with Toscanini conducting, Emmy Destinn, Enrico Caruso and Pasquale Amato in the leading roles, and Puccini present. He then wrote the three one-act operas of Il trittico (New York, 1918) and began Turandot, which he had not finished when he died in 1924. It was first performed at La Scala on 25 April 1926 under Toscanini, who stopped at the last music Puccini had written; Franco Alfano completed the ending from his sketches.",
+  "giacomo-puccini.achievement.3":
+    "Puccini entered the one-act opera Le Villi in a competition in 1883; Britannica says the judges did not consider it, but friends led by Arrigo Boito paid for its premiere at Milan's Teatro dal Verme on 31 May 1884. The publisher Giulio Ricordi bought the copyright, asked for it to be expanded to two acts, commissioned a new opera and gave him a monthly stipend. After Edgar (La Scala, 1889) failed, Manon Lescaut, first given at the Teatro Regio in Turin on 1 February 1893, made his position secure, according to Dry.",
+  "giacomo-puccini.moment.1":
+    "According to Arnaldo Fraccaroli, who wrote Puccini's biography for his publisher, Puccini asked Giacosa to rework the last act of La bohème because its death scene did not fit the music he had in mind. After Giacosa had redone it three times Puccini went to Giulio Ricordi to ask for a fourth, and Ricordi agreed with him. Marotti and Pagni, two friends, add that Puccini could have whole acts redone three or four times.",
+  "giacomo-puccini.interpretation.moment.1":
+    "Going back for a fourth version of one act is consistent with perfectionism; the accounts rest on Puccini's own telling and friends' memories, and the cost fell on his librettists.",
+  "giacomo-puccini.moment.2":
+    "For Turandot, Fraccaroli writes, Puccini wrote to people around the world for Chinese music of every kind, and the British Museum sent him its only known codex of old Chinese rhythms and music. When the librettists Giuseppe Adami and Renato Simoni came to read him their scenario, he first let a Chinese music box playing the imperial hymn sound in the room; he had borrowed it from the collection of Baron Fassini at Bagni di Lucca.",
+  "giacomo-puccini.interpretation.moment.2":
+    "Collecting music from another tradition before writing the opera, from a museum codex to a music box, is consistent with curiosity about other musical worlds; the account comes from Puccini's circle and is a single source for this episode.",
+  "giacomo-puccini.turning_point.1":
+    "Madama Butterfly was howled down at its La Scala premiere on 17 February 1904. Dry says Puccini took the score away after the performance, and Fraccaroli, quoting him, says he withdrew the opera that evening and returned the theatre's fee. He reworked it into three acts, dividing the second act, cutting the drunken uncle's episode and enlarging the tenor's part with a new aria, and the new version was received with acclaim at the Teatro Grande in Brescia on 28 May 1904.",
+  "giacomo-puccini.interpretation.turning_point.1":
+    "Reworking the opera within three months of its failure is consistent with a willingness to change a work in response to how it was received; in the same conversation Fraccaroli has Puccini calling the opera sincere and blaming the broken mood of the evening, so the revision did not mean accepting the verdict.",
+  /* ---------------------------------------------------------- hugo-junkers (Roster46) */
+  "hugo-junkers.achievement.1":
+    "In 1910 Junkers patented an all-wing aircraft with unbraced, thick-profile cantilever wings, after working from 1909 with his Aachen colleague Hans Reissner on a metal-winged aircraft. His company's J 1 first flew in December 1915; the Neue Deutsche Biographie lists it as his first all-metal aircraft, with a speed of 170 km/h at just over 1,000 kg, and a regional history portal calls it the first all-metal aircraft in the world. Wartime shortages of duralumin meant it was built of sheet iron, and it was nicknamed the Blechesel, the 'sheet-metal donkey'.",
+  "hugo-junkers.achievement.2":
+    "In 1919 his Dessau company built the F 13, a four-seat all-metal airliner with an enclosed cabin. The Neue Deutsche Biographie says it showed all the essential features of the modern airliner and that about 300 were built; it helped start German commercial aviation. In 1921 Junkers set up an air-traffic department that became Junkers Luftverkehr, which merged in 1926 with a competitor to form Deutsche Luft Hansa.",
+  "hugo-junkers.achievement.3":
+    "The Ju 52, first flown in 1930 as a single-engine aircraft and from 1932 as the three-engine Ju 52/3m, became known worldwide as 'Tante Ju' (Aunt Ju). The Neue Deutsche Biographie describes it as a 17-passenger airliner, the last aircraft to arise from Junkers's personal initiative, the standard airliner of Deutsche Lufthansa before 1939, and until the early 1940s the most-built airliner in the world; a newspaper feature counts almost 5,000 built after 1932.",
+  "hugo-junkers.achievement.4":
+    "Before aircraft, Junkers worked on gas engines at Dessau and in 1892 patented, with Wilhelm von Oechelhaeuser, a horizontal two-stroke opposed-piston gas engine. In the same year he patented the calorimeter, which measures the heating value of gas, and from it developed the gas bath heater and the water heater; his firm Junkers & Co. was founded in Dessau in 1895. He built an opposed-piston oil engine in 1908, founded Junkers Motorenbau in 1923, and in 1929 produced the first diesel aircraft engine. The heater business paid for his later research.",
+  "hugo-junkers.moment.1":
+    "On 11 January 1916 Junkers asked the army aviation inspectorate for money to develop the J 1 further; the war ministry ordered six more aircraft at 25,000 marks each. Between August and October he sent it a series of long letters, and he asked again for an advance on 6 October and 19 December. The ministry replied that orders would follow once his aircraft were ready for the front. Byers records that by early 1917 he had put over 1.5 million marks of his own money into aircraft research. An order for fifty J 4 aircraft came on 20 March 1917.",
+  "hugo-junkers.interpretation.moment.1":
+    "Repeating the requests over a year, and continuing development with his own money while they went unanswered, is consistent with persistence; the account rests on one scholarly study drawing on his own letters.",
+  "hugo-junkers.moment.2":
+    "After army officials forced a joint company on him and Anthony Fokker in October 1917, Junkers refused Fokker's demand to run its operations and insisted that the patented wing could be used only by the new company. In April 1918 he drafted a letter to the inspector of flying troops complaining that the board was setting research priorities and allocating money for his research institute, and noted that he intended to take the institute back into his own firm. The joint company was formally dissolved on 24 April 1919.",
+  "hugo-junkers.interpretation.moment.2":
+    "Resisting outside control over his research and its funding is consistent with a strong need for autonomy; Byers also reports that army officials saw the same stance as a lack of deference.",
+  "hugo-junkers.turning_point.1":
+    "The 1932 world economic crisis pulled Junkers's group of companies into financial trouble. To save the aircraft and engine works he sold his original water-heater firm, Junkers & Co., to Robert Bosch. In October 1933 the National Socialist government forced him to transfer the majority of the shares in his aircraft and engine companies to the Reich and to leave their management. He spent his remaining years on private research into metal building, and died in 1935.",
+  "hugo-junkers.interpretation.turning_point.1":
+    "Selling the firm that had financed his research in order to keep the aircraft and engine works going is consistent with resourcefulness; the 1933 transfer is recorded as an event and is not a basis for any trait.",
+  /* ---------------------------------------------------------- jean-baptiste-charcot (Roster46) */
+  "jean-baptiste-charcot.achievement.1":
+    "Charcot led the French Antarctic Expedition of 1903-1905 in the Français, a three-masted ship built for it at Saint-Malo. The Linda Hall Library calls it the first French Antarctic expedition. It wintered at Wandel Island and surveyed about a thousand kilometres of previously unknown coast and islands on the west side of the Antarctic Peninsula, bringing back 75 cases of collections, notes and measurements for the Paris Natural History Museum; the French Navy's magazine says he took ten specialists covering every discipline.",
+  "jean-baptiste-charcot.achievement.2":
+    "In the Pourquoi-Pas? (1908-1910) Charcot wintered at Petermann Island, then pushed south and west along the peninsula, charting about 2,000 kilometres of coast. He named Marguerite Bay, sighted a new land at about 70 degrees south that he named Charcot Land after his father (it is now known to be an island), and in January 1910 passed in sight of Peter I Island, which no one had seen since Bellingshausen in 1821. The results were published in a long series of volumes. In 1912 Roald Amundsen wrote that Charcot had opened up 'a large extent of the unknown continent' and that the scientific results were extraordinarily rich.",
+  "jean-baptiste-charcot.achievement.3":
+    "After the First World War Charcot made the Pourquoi-Pas? a research ship for northern waters. General Perrier counts seventeen annual Arctic cruises from 1920 to 1936, those after 1924 mostly to east Greenland, and the Danish survey history records seven visits to the Scoresby Sund region. In 1931-33 the ship helped set up the French station at Scoresby Sund for the International Polar Year and later brought it home; each cruise was written up in a report by Charcot, alongside the work of the scientists he carried.",
+  "jean-baptiste-charcot.moment.1":
+    "At Deception Island in late 1909 a diver told Charcot that the Pourquoi-Pas? had lost part of her stem and keel and that a slight knock could sink her. According to Oulie, who draws on his journal, he asked the diver and the whaling manager to keep it between themselves and decided to carry out the summer campaign; the ship went south, sighted the new land and turned north on 22 January 1910. Sources differ on how fully he told his officers and crew at the time.",
+  "jean-baptiste-charcot.interpretation.moment.1":
+    "Carrying on with a ship he knew to be badly damaged, to reach a goal he saw as a national one, is consistent with a high tolerance for physical risk; the same sources record near-losses earlier in the expedition, so the stance cut both ways.",
+  "jean-baptiste-charcot.moment.2":
+    "On 29 June 1921 the Pourquoi-Pas? reached Rockall, an Atlantic islet that Alfred Lacroix says had been landed on only twice, in 1840 and 1863. Charcot took a boat himself, ready to help, while two seamen jumped onto the weed-covered rock and chipped samples for an hour; a second party landed on 1 July. Lacroix's study of the samples, which he had asked Charcot to seek, showed that the rock is mainly a granite rather than the type of rock earlier named after the islet.",
+  "jean-baptiste-charcot.interpretation.moment.2":
+    "Choosing a dangerous, unglamorous target after earlier failed attempts, and organising the boats himself, is consistent with curiosity about a scientific question; the account is by Lacroix, a friend who had urged the voyage, so it is admiring.",
+  "jean-baptiste-charcot.turning_point.1":
+    "In April 1903, with a ship being built at Saint-Malo for an Arctic cruise, Charcot wrote to his companion Paul Pleneau that they would go south instead: the north would need much deeper penetration, while in the south little had been explored. The Linda Hall Library and the French Navy magazine tie the change to the news that Otto Nordenskjold's Swedish expedition was missing; Nordenskjold was in fact rescued later that year. A newspaper subscription and state grants covered the cost, and the Francais left in August 1903.",
+  "jean-baptiste-charcot.interpretation.turning_point.1":
+    "Redirecting an almost-finished ship and a planned programme on his own initiative, then raising the money through a public subscription, is consistent with proactive agency.",
+  /* ---------------------------------------------------------- jmw-turner (Roster46) */
+  "jmw-turner.achievement.1":
+    "In 1839 Turner showed The Fighting Temeraire at the Royal Academy, a picture of the old Trafalgar warship being towed up the Thames by a steam tug to the breaker's yard. The National Gallery notes that he worked from reports, not from seeing the tow, and took liberties with her rigging and paintwork for effect. In 1840 he exhibited the Slave Ship under the title Slavers Throwing Overboard the Dead and Dying, with lines from his own manuscript poem; Ruskin later owned it and the picture went to Boston. In 1844 he painted Rain, Steam, and Speed, a Great Western Railway train crossing Brunel's Maidenhead bridge in rain, now also in the National Gallery.",
+  "jmw-turner.achievement.2":
+    "From 1807 Turner issued the Liber Studiorum, a series of landscape mezzotints sold in numbers of five plates and arranged under six heads: historical, pastoral, elegant pastoral, mountain, marine and architectural. Hamerton calls it a direct appeal to the public to judge between Turner and Claude Lorrain, whose private Liber Veritatis it echoed in name. Turner published it himself and etched and engraved some of the plates, with other engravers working under his corrections. It stopped at the fourteenth number, seventy-one plates in all with the frontispiece, and it did not pay.",
+  "jmw-turner.achievement.3":
+    "Turner's will of 1831, with later codicils, left his finished pictures to the National Gallery on conditions, among them that two be hung between two Claudes and that a Turner Gallery be built, with the bulk of his funded money meant for a charity for decayed male artists. After his death in 1851 the National Gallery took 324 pictures and a vast number of drawings, and the conditions were argued over in Parliament and Chancery. Ruskin, sorting the drawings in 1857-58, found more than 19,000 pieces of paper in seventeen boxes, many damaged, and catalogued 1,757 studies as important.",
+  "jmw-turner.achievement.4":
+    "Alongside his oil paintings Turner made large numbers of watercolour designs for engraved topographical series. For Turner's Annual Tour, Tate's catalogue records, he produced about forty designs in gouache on blue paper in 1832-33 specifically to be engraved; they were published by Charles Heath in two volumes in 1834 and 1835 and later gathered as The Rivers of France.",
+  "jmw-turner.moment.1":
+    "At the Royal Academy's varnishing days in 1832, Constable was adding bright reds to the barges of his Opening of Waterloo Bridge, hung beside a grey sea piece by Turner. C. R. Leslie, who came into the room just as Turner left it, says Turner had put a round daub of red lead on his sea, and Constable said, 'He has been here, and fired a gun.' Turner stayed away for a day and a half, then used the last painting time to glaze the red patch and shape it into a buoy.",
+  "jmw-turner.interpretation.moment.1":
+    "Answering a rival's colour with a single stroke, then reshaping it to belong in the picture, is consistent with competitiveness; Leslie reports the events as an eyewitness without stating Turner's motive.",
+  "jmw-turner.moment.2":
+    "Late in Turner's career the New Yorker James Lenox, who knew Turner only from engravings, asked Leslie to buy him a picture, and Turner let him have a sunset view of Staffa for 500 pounds after refusing a lower offer for the Temeraire. Lenox found it 'indistinct' when it arrived. Leslie told Turner, who replied, 'indistinctness is my fault.' Lenox later wrote that on a second view he admired it greatly.",
+  "jmw-turner.interpretation.moment.2":
+    "Answering a buyer's complaint by owning the quality he was criticised for, rather than softening it, is consistent with independent thinking; the account is Leslie's, a friendly witness who was the go-between.",
+  "jmw-turner.turning_point.1":
+    "In 1807, when few buyers sought his oil pictures and fashionable taste followed Claude, Turner began the Liber Studiorum in the spirit of a challenge to Claude's Liber Veritatis. According to the drawing-master Wells, he took it up when he had little business. For the first plates he hired the engraver Charles Turner at eight guineas a plate; after a quarrel over the terms and the corrections the two did not speak for nineteen years. The series stopped at the fourteenth number.",
+  "jmw-turner.interpretation.turning_point.1":
+    "Turning a slack period into a self-published series addressed to the public, rather than waiting for buyers, is consistent with proactive agency; the business was run unevenly and the project was not completed.",
+  /* ---------------------------------------------------------- john-dalton (Roster46) */
+  "john-dalton.achievement.1":
+    "Dalton proposed that each chemical element consists of atoms of a characteristic weight and that compounds form by the union of small whole numbers of atoms. A table of the relative weights of the 'ultimate particles' of gaseous and other bodies, with hydrogen as 1, was appended to a paper he read to the Manchester Literary and Philosophical Society on 21 October 1803 and printed in 1805. He set the theory out in A New System of Chemical Philosophy (part 1, 1808; part 2, 1810). Thomas Thomson described it in the 1807 edition of his System of Chemistry. Henry Roscoe notes that Dalton never claimed to have invented the idea of atoms, only to have used it to explain chemical combination, and that many of his early weights were rough.",
+  "john-dalton.achievement.2":
+    "In essays read to the Manchester Literary and Philosophical Society in October 1801 and published in 1802, Dalton argued that when two gases are mixed their particles do not repel one another, so the pressure on a vessel is the sum of the pressure each gas would exert alone; this is now called Dalton's law of partial pressures. The same essays showed that the vapour pressure of a liquid is the same in a vacuum as in air and reported that all gases he tested expand by the same amount when heated. Thomson says Gay-Lussac published a paper on the expansion of gases about half a year after Dalton's essays appeared.",
+  "john-dalton.achievement.3":
+    "Dalton's Meteorological Observations and Essays, drafted at Kendal and printed in the 1790s, covered the barometer, thermometer, hygrometer, rainfall, evaporation and the aurora. In it he argued that water vapour exists as a separate fluid mixed through the air rather than being dissolved in it, and that rain results from cooling below the dew-point; Roscoe sees in this the root of his law of vapours and the first germ of his atomic theory. He also concluded that the aurora is guided by the earth's magnetism. Roscoe notes that he was unaware of some earlier work, such as Hadley's explanation of the trade winds and De Luc's barometer results.",
+  "john-dalton.achievement.4":
+    "On 31 October 1794 Dalton read to the Manchester Literary and Philosophical Society his 'Extraordinary Facts relating to the Vision of Colours', his first paper to the Society. It described how he and his brother, and four brothers named Harris in Maryport, whom he questioned through a local correspondent, saw pink as blue and some greens as red. He suggested that the vitreous humour of the eye might be coloured; a post-mortem examination after his death found the lenses normal and the explanation was shown to be wrong. The paper drew general attention to the condition, and Prevost of Geneva and Wartmann of Lausanne named it 'Daltonism'.",
+  "john-dalton.moment.1":
+    "On 20 September 1812 Dalton wrote to Berzelius that he did not admit the French doctrine of equal measures of gases combining 'in a mathematical sense', while acknowledging 'something wonderful in the frequency of the approximation'. Berzelius answered on 13 October that Gay-Lussac's experiments on combining volumes seemed to him 'the finest proofs of the probability of the atomic theory' and that he would not readily think Gay-Lussac in error. Henry says he never 'heartily and unreservedly accepted' the law; Roscoe and Harden add that, in a strict sense, his conclusion was the more correct one.",
+  "john-dalton.interpretation.moment.1":
+    "Holding to his own measurements against a respected correspondent and the leading French chemist is consistent with a low tendency to revise a view under outside pressure on this point; Henry notes that he did give up his laws of temperature in 1827 after Dulong and Petit's results, so the pattern was not total.",
+  "john-dalton.moment.2":
+    "For his dew-point measurements in the Lake District Dalton found a spring on the mountainside, filled a dry tumbler with its water, and noted whether dew formed on the outside; if it did he warmed the water and repeated, and if the water was not cold enough he stirred in powdered nitre and sal ammoniac to chill it, or used snowdrifts. He carried a barometer and a small pocket thermometer to give the height and air temperature. Roscoe says he climbed Helvellyn about forty times and that the Ordnance Survey height of 1,039 yards was close to his figure of 1,035.",
+  "john-dalton.interpretation.moment.2":
+    "Improvising an instrument and a cooling mixture on the spot to get a reading is consistent with resourcefulness; the account is Dalton's own, quoted by his biographers.",
+  "john-dalton.turning_point.1":
+    "In 1793 Dalton left Kendal, where he and his brother Jonathan had run a school since 1785, to become tutor in mathematics and natural philosophy at the Presbyterian-founded Manchester Academy, with a guaranteed salary of £80 for the session after Gough brought him to the principal's notice. After six years there he gave up the post and lived by private teaching, at two shillings a lesson, so that he could pursue his own research; the Literary and Philosophical Society, which he joined in 1794, made him secretary in 1800. Roscoe adds that, as a teacher, he set pupils to their lessons and then left them largely alone while he got on with his own calculations and experiments.",
+  "john-dalton.interpretation.turning_point.1":
+    "Leaving a salaried post to live on private pupils and keep his time for research is consistent with a strong need to control how he spent his working days; the account of his motives comes from his admiring biographers.",
+  /* ---------------------------------------------------------- linus-torvalds (Roster46) */
+  "linus-torvalds.achievement.1":
+    "In August 1991 Torvalds, then a student at the University of Helsinki, told comp.os.minix readers he was making a free operating system for 386 PCs, 'just a hobby'; he put the kernel source on a Finnish FTP server in October 1991. The Linux kernel he began now runs the large server fleets of companies such as Google and Amazon and the phones that use Android, according to The New Yorker, and he still has final say over what enters the main kernel.",
+  "linus-torvalds.achievement.2":
+    "The first Linux sources carried a licence that barred distribution for a fee; Torvalds, who held nearly all the copyright, replaced it with the GNU General Public License, the licence in use for the kernel since. Eric Raymond later described his style of releasing early and often, delegating widely and treating users as co-developers as the 'bazaar' model, and LWN reports that subsystem maintainers feed their trees to him for merging into a single mainline.",
+  "linus-torvalds.achievement.3":
+    "In 2005, after BitMover withdrew the free BitKeeper licence the kernel developers had been using, Torvalds wrote the distributed version-control system Git himself. Linux Journal reports it was hosting its own development within days and the kernel's within weeks; he then handed its maintenance to Junio Hamano. LWN later described Git as the dominant version-control system in software development.",
+  "linus-torvalds.moment.1":
+    "On 29 January 1992 the operating-systems professor Andrew Tanenbaum posted 'LINUX is obsolete' on comp.os.minix, calling a monolithic design a step back. Torvalds answered the same day with a sharp reply that conceded microkernels were nicer in theory but defended Linux as available now; the next day he posted an apology for the tone of that reply while still disagreeing that Linux was obsolete.",
+  "linus-torvalds.interpretation.moment.1":
+    "Answering an established professor in public the same day, and in blunt terms, shows a readiness to stay in open disagreement.",
+  "linus-torvalds.moment.2":
+    "When BitMover ended the free BitKeeper licence in 2005, Linux Journal and LWN report that Torvalds, rather than adopt one of the open-source alternatives that had been built for him, stopped kernel work and wrote Git. He later wrote that this was the time he had left kernel development for a while because he 'needed to write a little tool called git'.",
+  "linus-torvalds.interpretation.moment.2":
+    "Building the missing tool himself, instead of waiting for one to appear, fits a pattern of creating his own opportunities.",
+  "linus-torvalds.turning_point.1":
+    "On 16 September 2018 Torvalds posted to the kernel mailing list an apology to people his personal behaviour had hurt, said he would take a break to get help on how to behave differently, and asked Greg Kroah-Hartman to finish the 4.19 release. The New Yorker reported that he had defended his abrasive style as recently as 2013; he returned about a month later and the kernel adopted a revised code of conduct.",
+  "linus-torvalds.interpretation.turning_point.1":
+    "Publicly changing course after years of defending his style shows a position being revised in response to others' objections, though slowly.",
+  /* ---------------------------------------------------------- lord-rayleigh (Roster46) */
+  "lord-rayleigh.achievement.1":
+    "Rayleigh began writing The Theory of Sound in the winter of 1872-73, during a trip up the Nile, and published it in two volumes in 1877 and 1878. James Jeans wrote in the Dictionary of National Biography that it was the only textbook Rayleigh ever wrote and that it at once took rank as the leading book on its subject.",
+  "lord-rayleigh.achievement.2":
+    "In 1892 Rayleigh announced that nitrogen prepared by different routes differed in density by as much as one part in a thousand. He and William Ramsay traced the difference to an unknown gas in the atmosphere, which they named argon, and their joint paper 'Argon, a new constituent of the atmosphere' was communicated to the Royal Society on 31 January 1895. Rayleigh received the Nobel Prize in Physics in 1904, and Ramsay the Prize in Chemistry.",
+  "lord-rayleigh.achievement.3":
+    "In 1871 Rayleigh published a theory of the scattering of light that MacTutor calls the first correct explanation of why the sky is blue. His wave-theory work on optics showed, in the words MacTutor quotes from a 1953 account, that the resolving power of a grating depends on the total number of lines multiplied by the order of the spectrum, and in 1885 he described waves that travel along the plane surface of an elastic solid, now known as Rayleigh waves.",
+  "lord-rayleigh.achievement.4":
+    "As Cavendish Professor at Cambridge, Rayleigh redetermined the ohm in absolute units between 1880 and 1883, working with Arthur Schuster and Mrs Sidgwick, and in 1884 published with Mrs Sidgwick the electrochemical equivalent of silver and the voltage of the Clark cell. R. T. Glazebrook, who worked under him, wrote that the ohm had been uncertain by about 4 per cent and that later accuracy in the silver determination was the direct outcome of Rayleigh's work. The Nobel Foundation biography credits his experiments with establishing standards of resistance, current and electromotive force.",
+  "lord-rayleigh.moment.1":
+    "Rayleigh prepared nitrogen by two routes, from air over red-hot copper and from ammonia. He had at first thought the nitrogen work finished when the ammonia series agreed with itself, but the second method gave densities a thousandth different, 'to my surprise and disgust', as he put it in his Nobel lecture. He ruled out known impurities, kept a sample for eight months to test the idea of dissociated nitrogen, then replaced air with oxygen in the ammonia method to enlarge the gap to about one part in 200, noting that it is 'a good rule' to magnify a discrepancy rather than try to get rid of it.",
+  "lord-rayleigh.interpretation.moment.1":
+    "Checking a result by a second method and then enlarging the anomaly instead of discarding it is consistent with analytical rigor; the account is Rayleigh's own, and Ramsay's history describes the same tests.",
+  "lord-rayleigh.moment.2":
+    "After taking the Cavendish chair in 1879, Rayleigh asked friends for money to equip the laboratory, since university funds would not stretch to it. According to R. T. Glazebrook, the fund reached about 1,500 pounds, of which the Duke of Devonshire and Rayleigh each gave 500, while resident members of the university were not asked. He also began a course of lectures on the history of the basic electrical measurements and started his own experiments soon after his inauguration.",
+  "lord-rayleigh.interpretation.moment.2":
+    "Raising money himself rather than waiting for the university, and starting experiments almost at once, is consistent with proactive agency; the account comes from a colleague who worked under him.",
+  "lord-rayleigh.turning_point.1":
+    "Rayleigh resigned the Cavendish professorship at the end of 1884, after five years, and went back to research in his private laboratory at Terling in Essex, although colleagues tried to persuade him to stay. James Jeans wrote that he found Cambridge life rather too exacting, and MacTutor adds that his finances had improved by then. He kept working on gas densities and optics from Terling, and took up the Royal Society's secretaryship a few months later.",
+  "lord-rayleigh.interpretation.turning_point.1":
+    "Leaving a leading chair to work in his own laboratory is consistent with a need to set the terms of his own work; MacTutor notes that money was also a consideration, so the choice was not purely a preference.",
+  /* ---------------------------------------------------------- ludwig-boltzmann (Roster46) */
+  "ludwig-boltzmann.achievement.1":
+    "In 1872 Boltzmann published 'Further studies on the thermal equilibrium of gas molecules' in the Vienna Academy proceedings. The paper contains the equation now named after him and the H-theorem, with which he described how a gas moves towards the velocity distribution Maxwell had postulated in 1860 and how its entropy increases. Uffink calls it one of his most important papers.",
+  "ludwig-boltzmann.achievement.2":
+    "In 1877 he published 'On the relation between the second law of the mechanical theory of heat and the calculus of probabilities'. Equilibrium is there treated as the most probable macrostate, the one realised by the largest number of microstates, so that evolution towards equilibrium goes from less probable to more probable states. Planck later wrote the entropy relation as S = k log W; the Stanford Encyclopedia notes that Boltzmann never wrote it down in that form, and that scholars still disagree about how far the paper escapes the reversibility objection.",
+  "ludwig-boltzmann.achievement.3":
+    "His two-volume Vorlesungen ueber Gastheorie (Lectures on Gas Theory), published in 1896 and 1898, grew out of lectures at Munich and Vienna. In the preface he says he set out chiefly to present the work of Clausius and Maxwell clearly, gave his own papers some space, and learned much from the discussions at the 1894 Oxford meeting of the British Association and the letters in Nature that followed. Uffink counts the book among the main events of his 1890s work on statistical physics.",
+  "ludwig-boltzmann.achievement.4":
+    "In 1879 Josef Stefan had stated empirically that the energy radiated by a hot body rises with the fourth power of its temperature; in 1884 Boltzmann showed that the law follows from thermodynamics, which is why it bears both names. Earlier, in Graz in 1873-74, he had carried out seven delicate experiments on dielectrics, mostly in an unheated top-floor room, to test predictions of Maxwell's electromagnetic theory, and Ernst Mach judged him an experimenter hardly to be surpassed.",
+  "ludwig-boltzmann.moment.1":
+    "At the 1895 meeting of German scientists in Luebeck, Wilhelm Ostwald argued that the irreversibility of natural processes shows that they cannot be described by mechanical equations. Boltzmann had written to Ostwald the previous June that he meant to provoke a debate in the manner of the British Association; Felix Klein supported him. Arnold Sommerfeld, who was present, compared the exchange to a bull against a supple bullfighter in which the bull won, and wrote that the young mathematicians were on Boltzmann's side.",
+  "ludwig-boltzmann.interpretation.moment.1":
+    "Setting out to provoke an open public debate with a leading opponent is consistent with comfort in confrontation. The same sources report that Mach and others found his polemics too sharp, so the stance cut both ways.",
+  "ludwig-boltzmann.moment.2":
+    "Hoeflechner reports that when Boltzmann went to Heidelberg in 1870 and to Berlin in 1871, although already a full professor, to continue his studies with Kirchhoff and Helmholtz, he pointed out mistakes in their work at the first meeting, which caused a stir among the local audience. The account is a historian's summary without a quoted letter.",
+  "ludwig-boltzmann.interpretation.moment.2":
+    "Telling two of the leading physicists of the day about errors in their work at a first meeting is consistent with intellectual independence from authority, as reported by one historian.",
+  "ludwig-boltzmann.turning_point.1":
+    "In 1876 his former teacher and friend Josef Loschmidt objected that a purely mechanical theorem could never yield a one-way, time-asymmetric result such as the H-theorem claimed to give for the second law. According to Uffink, Boltzmann rethought the basis of his approach and in 1877 produced a conceptually different, probability-based analysis; whether it avoids the objection is still disputed. In the following years he returned to ensembles and the ergodic hypothesis, and in 1895 he stated that his theorem and the second law were only statements of probability.",
+  "ludwig-boltzmann.interpretation.turning_point.1":
+    "Rebuilding the argument after a colleague's objection, instead of only defending it, is consistent with a willingness to revise a position under criticism, even though his later replies to critics such as Zermelo were described as sarcastic.",
+  /* ---------------------------------------------------------- oscar-wilde (Roster46) */
+  "oscar-wilde.achievement.1":
+    "The Picture of Dorian Gray appeared in Lippincott's Monthly Magazine in July 1890 (published 20 June) and drew a flood of reviews, some hostile. Wilde published a preface in the Fortnightly Review in March 1891 and the novel came out as a book on 1 July 1891 from Ward, Lock and Co. with seven added chapters; Ransome called it the first novel for many years written in England with such freedom in choice of matter and manner.",
+  "oscar-wilde.achievement.2":
+    "Between 1892 and 1895 four of his comedies reached the London stage: Lady Windermere's Fan (St James's Theatre, 20 February 1892), A Woman of No Importance (Haymarket, 19 April 1893), An Ideal Husband (Haymarket, 3 January 1895) and The Importance of Being Earnest, 'a trivial comedy for serious people' (St James's, 14 February 1895). Bernard Shaw, reviewing An Ideal Husband, called him in a sense the only thorough playwright of the day.",
+  "oscar-wilde.achievement.3":
+    "Wilde wrote Salome in French in 1891 (published 1893). In 1892 the censor prevented Sarah Bernhardt from staging it in London, and it was first produced in Paris in 1896 at the Theatre de l'Oeuvre. According to Robert Ross, quoted by Ransome, it was staged in Berlin in 1901 and has held the European stage since.",
+  "oscar-wilde.achievement.4":
+    "After his release from prison in 1897 Wilde began The Ballad of Reading Gaol, which he revised in Naples and Paris and published under a pseudonym in 1898, and wrote two letters on prison conditions for the Daily Chronicle (28 May 1897, 24 March 1898). The long letter he wrote near the end of his sentence was published in extracts in 1905 as De Profundis.",
+  "oscar-wilde.moment.1":
+    "On 5 July 1890 the Scots Observer reviewed Dorian Gray, calling it clever but false to morality and 'discreditable alike to author and editor'. Wilde wrote to the paper on 9 July that the artist 'has no ethical sympathies at all' and has no desire to be a popular novelist because it is 'far too easy'; the editor added a reply note, and Wilde wrote again in August.",
+  "oscar-wilde.interpretation.moment.1":
+    "Answering a hostile review in the paper's own columns, and returning to the dispute weeks later, is consistent with a willingness to keep an argument going in public.",
+  "oscar-wilde.moment.2":
+    "W. B. Yeats, then a young poet, met Wilde at W. E. Henley's table in the late 1880s and recorded that he had never before heard a man talk 'with perfect sentences, as if he had written them all over night with labour and yet all spontaneous'. Yeats added that the sense of artifice that listeners noted came from the perfect rounding of the sentences and the deliberation behind them.",
+  "oscar-wilde.interpretation.moment.2":
+    "A younger writer's account that the talk impressed through carefully shaped sentences is consistent with a speaker whose effect on listeners rested on deliberate verbal craft, though Yeats also notes it read as artificial.",
+  "oscar-wilde.turning_point.1":
+    "On 20 February 1892 George Alexander produced Lady Windermere's Fan at the St James's Theatre. Until then, Sherard says, Wilde was making little from his pen and it was commonly said that he had advertised himself into notoriety; after the play's success he wrote three more comedies for London managers in three years. Douglas, hostile to him, says he wrote plays 'till the sweat fairly rolled off him' once managers would advance money, and Shaw judged Earnest the first of his plays aimed squarely at West End commercial use.",
+  "oscar-wilde.interpretation.turning_point.1":
+    "Moving from small-circulation prose to commissioned stage comedy once it paid is consistent with seeing and taking an opening, though Douglas and Shaw's readings of his motives are their own conjectures.",
+  /* ---------------------------------------------------------- pierre-auguste-renoir (Roster46) */
+  "pierre-auguste-renoir.achievement.1":
+    "In 1876 Renoir painted Bal du moulin de la Galette, a large scene of dancers at a Montmartre dance hall, and showed it at the Impressionist exhibition of 1877. In 1880-81 he painted Luncheon of the Boating Party on the balcony of the Maison Fournaise at Chatou, using friends as sitters; it is now in the Phillips Collection in Washington. The critic Theodore Duret counted the boating picture among the most important he painted.",
+  "pierre-auguste-renoir.achievement.2":
+    "Renoir took part in the first Impressionist exhibition in 1874 in the former studio of the photographer Nadar, showing five oil paintings and a pastel, among them La Danseuse and La Loge, and exhibited with the group again in 1876, 1877 and 1882. The National Gallery of Art calls him one of the founding members of the movement. In the pictures of 1877 he gave figures and ground in sunlit foliage a violet tint, which the public of the time took for ignorance.",
+  "pierre-auguste-renoir.achievement.3":
+    "After a journey through Venice, Rome, Naples and Palermo in the winter of 1881-82, Renoir turned toward firmer, drawn form and the study of Raphael and the old masters. He spent three years on The Large Bathers, preparing it with many drawings, and exhibited it at the Galerie Georges Petit in Paris, where it was harshly criticised. The Philadelphia Museum of Art, which owns the painting, notes that he never again put such painstaking effort into a single work.",
+  "pierre-auguste-renoir.moment.1":
+    "In May 1876 Renoir and his friend Georges Riviere searched Montmartre for a room near the dance hall, where Renoir planned a large picture, and found a furnished room with a former stable for storing canvases in rue Cortot. Riviere says Renoir wanted the dance hall's regulars rather than professional models and bought a dozen of the fashionable 'timbale' straw hats to give to the young women who might pose. The work was expected to take most of the summer.",
+  "pierre-auguste-renoir.interpretation.moment.1":
+    "Setting up a studio, a store for the canvas and a group of sitters for a picture expected to take most of a summer is consistent with persistence; the account comes from a close friend who was there.",
+  "pierre-auguste-renoir.moment.2":
+    "Renoir joined other Impressionists in public sales at the Hotel Drouot in March 1875 and May 1877. Theodore Duret reports that his twenty paintings in 1875 brought 2,150 francs in all and sixteen in 1877 brought 2,005 francs, and that he tried no more such sales. He turned to portraits for patrons, among them the collector Choquet, the publisher Georges Charpentier and the Berard family. Portraits of Madame Charpentier and of the actress Jeanne Samary were accepted and hung prominently at the Salon of 1879.",
+  "pierre-auguste-renoir.interpretation.moment.2":
+    "Dropping a sales route that had failed twice and moving to commissioned portraits, including a return to the Salon, is consistent with adaptability; Duret is a near-contemporary critic and collector, and much of the motive is his reading.",
+  "pierre-auguste-renoir.turning_point.1":
+    "Around 1883 Renoir told his dealer Ambroise Vollard that he had 'wrung Impressionism dry' and felt he knew neither how to paint nor how to draw. He turned to the museums and to Cennino Cennini's handbook of fifteenth-century methods and, after his Italian journey, spent three years on The Large Bathers. The work was attacked, and he later said that in these years he had dried the oil out of his colours, which left fragile paint surfaces.",
+  "pierre-auguste-renoir.interpretation.turning_point.1":
+    "Naming a weakness in his own method and changing it, despite a hostile reception, is consistent with belief updating; the explanation of why is mostly his own later account to Vollard.",
+  /* ---------------------------------------------------------- sonja-henie (Roster46) */
+  "sonja-henie.achievement.1":
+    "Henie won the Olympic women's figure-skating title three times in a row, at St. Moritz in 1928, Lake Placid in 1932 and Garmisch-Partenkirchen in 1936. She was also world champion ten years running from 1927 to 1936 and European champion six times from 1931 to 1936. Olympedia notes she had finished last of eight at the 1924 Games, aged 11.",
+  "sonja-henie.achievement.2":
+    "Henie wanted to merge dance and figure skating, choreographing programmes to music she chose and wearing costumes that allowed freer movement. Britannica credits her ballet training and Anna Pavlova's influence, short skirts above the knee, and a repertoire of 19 spins; Vanity Fair describes her white boots as part of a shift in the sport toward a more feminine, poetic look.",
+  "sonja-henie.achievement.3":
+    "After the 1936 Games Henie turned professional. She signed with the impresario Arthur Wirtz for touring ice shows and, with 20th Century Fox, starred in about ten films, beginning with One in a Million in 1936, most built around her skating. The Norwegian encyclopedia says her touring Hollywood Ice Revue earned her more than her films did.",
+  "sonja-henie.moment.1":
+    "When Darryl Zanuck offered Henie only a supporting part, she insisted on the title role, and the Norwegian encyclopedia says her father rented a Los Angeles ice hall and filled it with spectators before Zanuck agreed to her fee and to films built around her skating. Vanity Fair adds that she would not do a number in someone else's film. The Norwegian encyclopedia also says she later irritated Zanuck by going to him directly instead of through channels.",
+  "sonja-henie.interpretation.moment.1":
+    "Holding out for the title role against a studio head is consistent with social assertiveness; the retellings share family sources and come from a single negotiation period.",
+  "sonja-henie.moment.2":
+    "Around 1951 Henie split from her touring partner Arthur Wirtz and produced her own ice show. Vanity Fair says Wirtz was already paying her half the profit and that his publicity director called the break an extraordinarily bad business decision; the Norwegian encyclopedia says her second husband had persuaded her Wirtz took too much. Her new show was booked into lesser halls, and Vanity Fair reports she borrowed from Wirtz to meet the payroll.",
+  "sonja-henie.interpretation.moment.2":
+    "Choosing to run her own show over a profitable partnership is consistent with a need for autonomy, and the cost she paid shows the stance was double-edged; the sources disagree about how far the decision was her own.",
+  "sonja-henie.turning_point.1":
+    "Within a month of winning her third Olympic title in February 1936, Henie signed a touring contract with Arthur Wirtz, played a charity show at Madison Square Garden, and then, with her father, rented the Polar Palace rink in Los Angeles for two shows to draw the film studios after Metro-Goldwyn-Mayer turned her down. Zanuck attended the second show, and her first Fox film, One in a Million, followed that year.",
+  "sonja-henie.interpretation.turning_point.1":
+    "Moving straight from the last amateur title to a self-organised campaign for a film career is consistent with proactive agency; her father organised much of it, so the credit is shared.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -12937,6 +13217,286 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1903년 이후 DMG에서 입지가 약해지고 감독이사회 일부가 그의 퇴진을 원하자, 마이바흐는 1907년 4월 회사를 떠났다. NDB에 따르면 옐리네크의 지원도 소용이 없었다. 1908년 8월 체펠린 LZ 4호가 에히터딩겐에서 파괴된 뒤 그는 체펠린 백작에게 아들 카를의 엔진 설계를 제안했고, 이는 1909년 엔진 회사 설립으로 이어졌다. 이 회사는 마이바흐라는 이름을 비행선, 철도, 자동차 엔진으로 이어 갔다.",
   "wilhelm-maybach.interpretation.turning_point.1":
     "강제 퇴진을 1년 남짓 만에 새 고객에 대한 제안으로 바꾼 일은 기회 포착과 부합한다. 다만 엔진 설계 자체는 아들의 몫이었고, 1907년 퇴진에 대한 서술은 주로 NDB와 DPMA에 의존한다.",
+  /* ---------------------------------------------------------- alvar-aalto (Roster46) */
+  "alvar-aalto.achievement.1":
+    "알토는 파이미오 결핵 요양소 설계 공모전에서 당선되어 1929년부터 1933년까지 이 건물을 설계했다. 병실은 침대에 누운 환자를 기준으로 계획되었다. 조용한 느낌을 주는 천장 색, 환자의 시야 밖에 둔 조명, 발쪽을 향한 난방, 물소리가 나지 않도록 설계한 세면대가 그 예이다. 그는 세면대와 침대에서 조명과 야외 의자에 이르기까지 건물의 비품도 직접 설계했으며, 이 요양소는 그에게 국제적인 주목을 안겨 주었다.",
+  "alvar-aalto.achievement.2":
+    "알토는 1927년 비푸리 시립도서관 설계 공모전에서 당선되었으나 계획안이 세 차례 바뀌어 최종 설계는 1933년 12월에야 제출되었고, 건물은 1935년에 완공되었다. 완공된 도서관에는 천창으로 빛이 드는 중심 열람 공간이 있고, 그 바닥 일부는 한 단 낮게 내려가 있으며, 둥근 천창으로 간접 자연광이 들어온다. 건축사가들은 이 도서관을 그가 기능주의의 틀을 넘어 자신만의 양식으로 나아간 지점으로 본다.",
+  "alvar-aalto.achievement.3":
+    "알토는 파이미오 요양소를 위해 투르쿠의 가구 제작자 오토 코르호넨(Otto Korhonen)과 함께 성형 합판만으로 만든 파이미오 의자(1931~32)를 개발했다. 1933년에는 나무에 톱질로 틈을 내고 얇은 나무 조각을 끼워 구부려 접착하는 방식으로 '굽은 무릎' 다리를 만들었고, 이는 같은 해 런던에서 처음 선보인 쌓을 수 있는 다리 셋 달린 스툴로 이어졌다. 1935년 알토는 마이레 굴릭센(Maire Gullichsen), 닐스구스타프 할(Nils-Gustav Hahl)과 함께 자신의 가구를 생산·판매할 회사 아르텍(Artek)을 설립했고, 아이노 알토가 초대 예술 감독을 맡았다.",
+  "alvar-aalto.achievement.4":
+    "1938~39년 노르마르쿠에 마이레와 하리 굴릭센(Maire and Harry Gullichsen) 부부를 위해 지은 빌라 마이레아는 알토의 대표적인 주택으로 꼽히며, 거실 영역은 숲이 건축으로 바뀐 것에 비유되고 기둥 하나는 껍질을 벗기지 않은 어린 나무 가림막 뒤에 가려져 있다. 약 3천 명이 사는 마을을 위해 1952년에 완공한 세이나찰로 시청은 의회실, 도서관, 주거 공간, 상점을 안뜰 둘레에 모아 놓았으며 그의 대표적인 공공건축 가운데 하나로 평가된다.",
+  "alvar-aalto.moment.1":
+    "알토는 1949년까지 사무소의 전시와 작업물에 '아이노와 알바르 알토'라고 아내의 이름을 앞에 적어 서명했다. 기디온은 1949년에 아이노 자신은 창조적인 사람은 알바르라고 늘 말했다고 썼고, 피어슨(Pearson)은 크레디트 표기가 일정하지 않다고 본다. 빌라 플로라는 아이노의 이름으로만 나오고, 일부 공모전 평에는 그녀가 빠져 있으며, 아르텍의 저작 표기는 '곤란한 문제'라는 것이다. 알바르 알토 재단은 아이노가 동등한 디자이너로 일했지만 작업 대부분이 사무소 이름으로 나갔기 때문에 각자의 역할을 가려내기 어렵다고 설명한다.",
+  "alvar-aalto.interpretation.moment.1":
+    "동반자의 이름을 앞세워 공개적으로 공동 서명한 것은 협업과 부합한다. 다만 누가 무엇을 설계했는지는 자료로 확정되지 않으므로 증거는 양면적이며 점수도 보수적으로 둔다.",
+  "alvar-aalto.moment.2":
+    "1945년 알토는 객원 교수로 MIT에 돌아오며 먼저 전쟁으로 파괴된 유럽을 호스트 측 비용으로 순회하자고 제안했지만, 콴트릴(Quantrill)에 따르면 MIT는 연구 책임자가 아니라 설계 스튜디오 교수를 원했다. 1946년 가을 그는 학생 기숙사 베이커 하우스(Baker House)를 설계하게 되었고, 이후 방문의 대부분을 그 건물의 감독에 썼다. 구불구불한 형태는 모든 학생 방이 찰스강을 향하되 비스듬한 각도로 놓여 경치를 다양하게 하고 메모리얼 드라이브의 교통 소음을 누그러뜨리도록 설계된 것이다.",
+  "alvar-aalto.interpretation.moment.2":
+    "호스트가 뒷받침하려는 것보다 더 큰 역할을 제안한 일은 주도적 행동과 부합한다. 콴트릴은 이 프로그램에 대한 그의 야심이 비현실적이었다고 평가하므로, 제안한 형태 그대로는 성사되지 못했지만 설계 의뢰는 성사되었다.",
+  "alvar-aalto.turning_point.1":
+    "1928년 합리주의적 기능주의에 몰두했던 알토는 1930년대 중반에 그 합리주의 교리를 비판하는 쪽으로 돌아섰다. 1940년의 글 「건축의 인간화」에서 그는 합리화가 충분히 깊이 나아가지 못했으며 기술적 기능주의는 심리적·신체적 영역까지 넓혀야만 옳다고 주장했다. 비푸리 도서관은 그 무렵 고전주의적 공모안에서 대륙 기능주의풍의 수정안을 거쳐 개성적인 최종안으로 옮겨 갔고, 팔라스마(Pallasmaa)는 그의 글이 설계보다 더 극적으로 바뀌었다고 지적한다.",
+  "alvar-aalto.interpretation.turning_point.1":
+    "자신이 밝힌 입장을 수정하면서도 이를 합리주의의 더 깊은 형태로 제시한 것은 믿음 갱신과 부합한다. 알토가 이를 이전 견해의 번복이 아니라 확장으로 설명했으므로 이는 추론이다.",
+  /* ---------------------------------------------------------- charles-goodyear (Roster46) */
+  "charles-goodyear.achievement.1":
+    "굿이어는 인도고무를 황과 함께 가열해 더위에 녹지 않고 추위에 굳지 않게 만드는 가황법을 개발했다. 전기 작가들은 핵심 관찰을 1839년 겨울에서 봄 사이로 보는데, 매사추세츠주 우번에서 고무와 황을 섞은 덩어리가 뜨거운 난로에 닿았을 때 녹지 않고 가죽처럼 탄 일이다. 이 장면은 기록마다 세부가 다르며, 굿이어 자신은 우연이 아니라 면밀한 관찰의 결과라고 말했다. 알맞은 배합과 온도를 찾는 데는 그 뒤로도 여러 해가 걸렸고, 미국 특허는 1844년 6월 15일에 발급되었다.",
+  "charles-goodyear.achievement.2":
+    "굿이어는 이 공정으로 특허를 받아 제조업자들에게 사용권을 내주었고, 새 소재의 용도를 개발했다. 섬유를 섞은 고무 천, 신발, 고무줄을 넣은 직물 제품, 빗 같은 물건을 만드는 경질 고무가 그것이다. 피어스는 파턴을 인용해 1865년에 미국 제조업자들이 고무 신발을 해마다 약 150만 켤레 만들었다고 전한다. 그는 1851년 런던 만국박람회에 경질 고무 가구를 포함한 고무 제품을 전시관을 꾸며 선보였다.",
+  "charles-goodyear.achievement.3":
+    "굿이어의 특허는 법정에서 시험대에 올랐다. 1852년 굿이어 대 데이 소송에서는 대니얼 웹스터가 굿이어를, 러퍼스 초트가 피고를 변론했고, 그리어 판사는 다른 사람들도 황과 열을 써 보았지만 완성한 것은 없었다고 보고 굿이어를 가황 공정의 최초 발명자로 인정했다. 영국에서는 1843년 11월 21일에 봉인된 토머스 핸콕의 특허가 유효하다고 판단되었고, 1844년 1월 30일자 굿이어의 영국 특허는 같은 지위를 얻지 못했다.",
+  "charles-goodyear.moment.1":
+    "1838년 굿이어는 우번의 옛 고무 공장 직공장 너새니얼 헤이워드를 만났다. 헤이워드는 고무에 황을 조금 넣어 말렸고, 그 방법이 꿈에서 떠올랐다고 말했다. 파턴에 따르면 굿이어는 황이 자신의 질산 공정과 같은 결과를 내는 것을 보았지만, 두 방법의 화학이 같다는 것은 처음에는 깨닫지 못했다. 그는 그리어 판사가 1839년 2월 24일자로 기록한 헤이워드의 특허를 사들이고 그를 고용했다.",
+  "charles-goodyear.interpretation.moment.1":
+    "다른 사람이 주목하지 않던 공정을 자신의 결과와 연결해 권리를 사들인 일은 기회 포착과 부합한다. 다만 사료는 그가 아직 원리를 이해하지 못했다고 전하므로, 이는 설명이 아니라 신호를 보고 움직인 사례다.",
+  "charles-goodyear.moment.2":
+    "난로에서의 관찰 뒤 굿이어는 열과 시간이 혼합물에 어떤 영향을 주는지 시험했다. 이후 특허 재판에서 증언한 사람들은, 파턴이 인용한 바에 따르면, 그가 아내의 오븐에 한 시간, 세 시간, 여섯 시간씩 고무를 구워 보고 시료를 끓이고 뜨거운 모래에 묻었으며, 공장 직공장들에게 퇴근 뒤 오븐을 쓰게 해 달라고 부탁했다고 말했다. 알맞은 오븐이 없자 그는 가족과 함께 공장 마당에 벽돌 오븐을 쌓고, 석공에게 자신의 고무 천으로 만든 앞치마를 대가로 주었다.",
+  "charles-goodyear.interpretation.moment.2":
+    "배치마다 시간, 온도, 배합을 바꿔 보고 직접 장치를 만든 일은 실험 정신과 부합한다. 세부 내용은 재판 증인의 증언을 전기 작가들이 옮긴 것이다.",
+  "charles-goodyear.turning_point.1":
+    "굿이어는 정부로부터 고무 우편 가방 150개를 주문받았고, 이 주문을 공개해 질산 공정의 성능을 입증하려 했다. 가방은 여름 동안 공장에 걸려 있다가 물러지며 손잡이에서 떨어지기 시작했는데, 처리가 표면만 경화시켰기 때문이다. 피어스는 굿이어가 섞어 넣은 납과 착색제를 원인으로 보았다고 전한다. 이 실패로 사업은 끝났고, 친구들과 가족은 실험을 그만두라고 권했다. 그러나 그는 황을 쓴 실험을 이어 갔고, 그것이 1839년의 관찰로 이어졌다.",
+  "charles-goodyear.interpretation.turning_point.1":
+    "공개적인 실패와 그만두라는 권유 뒤에도 황 실험을 이어 간 일은 끈기와 부합한다. 두 전기는 실패의 원인을 다르게 설명하며, 둘 다 상당 부분 굿이어 자신의 서술에 의존한다.",
+  /* ---------------------------------------------------------- georges-cuvier (Roster46) */
+  "georges-cuvier.achievement.1":
+    "1796년 4월 퀴비에는 살아 있는 코끼리와 화석 코끼리의 두개골과 이빨을 비교한 논문을 국립학사원에서 발표했다. 그는 실론의 코끼리와 희망봉의 코끼리가 서로 다른 두 종이며, 매머드와 '오하이오 동물'(그가 나중에 마스토돈이라 이름 붙인 동물)이 둘 모두와 다르다는 것을 보였다. 그리하여 이런 뼈들이 더 이상 살아 있지 않은 동물의 것이며, 어떤 대변동으로 파괴된 이전 세계의 일부라고 결론지었다. 같은 해에 그는 파라과이에서 발견된 거대한 화석을 기재하고 메가테리움이라는 이름을 붙였다. 엠브리오 프로젝트 백과사전 같은 참고 문헌은 이 코끼리 논문이 멸종이 실재함을 증명했다고 설명한다.",
+  "georges-cuvier.achievement.2":
+    "퀴비에는 화석 골격을 부분 상관의 원리로 풀어야 할 문제로 다루었다. 동물의 각 기관은 나머지와 맞아야 하므로 뼈 몇 개만으로도 동물 전체를 짐작할 수 있다는 것이다. 그는 이를 몽마르트르 석고 채석장과 여러 퇴적층의 화석 포유류에 적용했고, 1812년 그동안의 논문을 네 권짜리 『화석 뼈에 관한 연구』로 묶으면서 「서설」을 앞에 붙였다. 러드윅은 이 서설이 19세기에 매우 큰 영향을 끼쳤다고 평가한다. 지질학자 알렉상드르 브롱냐르와는 파리 지역의 바다와 민물 퇴적층이 번갈아 쌓인 순서를 기술해(1808년 보고서, 1811년 확대판) 화석을 지층 연구의 중심에 놓았다.",
+  "georges-cuvier.achievement.3":
+    "1795년 파리 자연사박물관의 비교해부학 교수를 돕는 자리에 임명된 퀴비에는 박물관의 비교해부학 표본 컬렉션을 키웠고, 뒤메릴, 이후 뒤베르누아와 함께 『비교해부학 강의』(1800~05)를 펴냈다. 그는 기관을 중요도에 따라 서열화하고 신경계를 비교하여 동물계를 척추동물, 연체동물, 관절동물, 방사동물의 네 가지 기본 체제(앙브랑슈망)로 나누었다. 이 체계는 『동물계』(1817)에 정리되었으며, 그는 연체동물의 해부에 관한 상세한 논문도 연속해서 발표했다.",
+  "georges-cuvier.moment.1":
+    "1830년 프랑스 과학아카데미는 두족류의 기관을 척추동물의 기관과 비교한 논문에 대해 조프루아 생틸레르가 낸 보고를 들었다. 그는 이제 누구도 '구성의 통일'을 피할 수 없다고 결론지었다. 두 사람을 모두 알았고 퀴비에 편에 선 플루랑스에 따르면, 퀴비에는 조프루아의 앞선 발견들을 자주 칭찬했고 그 주장이 동물의 서로 다른 체제들을 가로질러 확장되었을 때에야 발언했다. 퀴비에는 '체제의 통일'과 '구성의 통일'이 무엇을 뜻하느냐고 물었고, 이 말을 동일성이라는 일상적 의미로 쓴다면 새와 물고기를 열어 보는 것만으로 반박된다고 주장했다. 바이마르에서 이 논쟁을 지켜본 괴테는 조프루아 편에 서서 퀴비에의 분석적 방법이 살아 있는 자연의 통일성을 놓친다고 보았다.",
+  "georges-cuvier.interpretation.moment.1":
+    "상대에게 용어의 뜻을 정의하라고 요구하고 해부학자가 실제로 확인하는 사실로 답한 태도는 분석적 엄밀성과 부합한다. 괴테의 평가는 같은 방법을 지나치게 좁다고 본 비판자도 있었음을 보여 준다.",
+  "georges-cuvier.moment.2":
+    "1800년 12월에 퀴비에가 서명한 화석 네발짐승에 관한 논문은 호소로 끝난다. 학사원은 이 논문을 박물학자들에게 보낼 수 있도록 별도의 소책자로 인쇄했고, 퀴비에는 여기서 유럽 전역의 학자와 수집가에게 표본과 정보를 요청했다. 그는 파리 주변 채석장 노동자와 개인 소장가 등 이미 자신을 돕고 있는 사람들을 밝혔고, 이미 삼백 점이 넘는 그림이 있으며 그중 쉰 점이 판화로 새겨졌다고 알렸다. 러드윅은 이 글을 협력을 구하는 호소인 동시에 경쟁하려는 사람을 조용히 단념시키는 글로 읽는다.",
+  "georges-cuvier.interpretation.moment.2":
+    "유럽 전역에 도움을 청한 것은 협력과 부합하지만, 작업이 이미 얼마나 진행되었는지 밝힌 것은 그의 선점을 지키는 일이기도 했다. 러드윅은 두 의도가 모두 있었다고 읽는다.",
+  "georges-cuvier.turning_point.1":
+    "퀴비에는 혁명기를 노르망디의 개신교 귀족 가문의 가정교사로 보내면서 책이 거의 없는 환경에서 해양 동물을 해부했다. 근처에 몸을 숨기고 있던 농학자 테시에를 통해 그는 조프루아 생틸레르를 비롯한 파리의 박물학자들에게 관찰 결과를 보냈고, 1795년 봄 그들의 초청을 받아들여 수도로 갔다. 그는 나이 든 비교해부학 교수 메르트뤼의 조교로 박물관에 들어갔고, 1년이 지나지 않아 코끼리 논문을 학사원에서 발표했다.",
+  "georges-cuvier.interpretation.turning_point.1":
+    "외진 곳에서 먼 곳의 전문가들에게 관찰 결과를 보내고, 파리에서 기회가 왔을 때 그것을 잡은 일은 주도적 행동성과 부합한다.",
+  /* ---------------------------------------------------------- giacomo-puccini (Roster46) */
+  "giacomo-puccini.achievement.1":
+    "푸치니의 「라 보엠」(1896년 2월 1일 토리노 레조 극장, 아르투로 토스카니니 지휘), 「토스카」(1900년 1월 로마), 「나비 부인」(1904년 2월 17일 밀라노 라 스칼라)은 그의 명성의 중심이 되었다. 브리태니커는 이 작품들을 그의 성숙기 오페라로 꼽으며, 대본은 주세페 자코사와 루이지 일리카가 썼다. 「나비 부인」은 초연 직후 손질을 거쳐 1904년 안에 다시 무대에 올랐다.",
+  "giacomo-puccini.achievement.2":
+    "데이비드 벨라스코의 희곡을 바탕으로 한 「서부의 아가씨」는 1910년 12월 10일 뉴욕 메트로폴리탄 오페라에서 세계 초연되었다. 토스카니니가 지휘했고 에미 데스틴, 엔리코 카루소, 파스콸레 아마토가 주역을 맡았으며 푸치니도 참석했다. 이후 그는 한 막짜리 오페라 세 편으로 이루어진 「3부작」(뉴욕, 1918)을 썼고 「투란도트」에 착수했으나 1924년 사망할 때까지 끝내지 못했다. 이 작품은 1926년 4월 25일 라 스칼라에서 토스카니니의 지휘로 초연되었고, 토스카니니는 푸치니가 쓴 마지막 음악에서 연주를 멈추었다. 결말은 프랑코 알파노가 푸치니의 스케치를 바탕으로 완성했다.",
+  "giacomo-puccini.achievement.3":
+    "푸치니는 1883년 한 막짜리 오페라 「레 빌리」를 경연에 냈다. 브리태니커에 따르면 심사위원들은 이 작품을 고려하지 않았으나, 아리고 보이토를 비롯한 친구들이 비용을 대어 1884년 5월 31일 밀라노 델 베르메 극장에서 초연되었다. 출판업자 줄리오 리코르디는 판권을 사들이고 이를 2막으로 늘릴 것을 요청했으며, 새 오페라를 의뢰하고 매달 지원금도 주었다. 「에드가르」(1889, 라 스칼라)는 실패했지만, 1893년 2월 1일 토리노 레조 극장에서 초연된 「마농 레스코」로 드라이는 그의 지위가 안정되었다고 쓴다.",
+  "giacomo-puccini.moment.1":
+    "푸치니의 출판사를 위해 그의 전기를 쓴 아르날도 프라카롤리에 따르면, 푸치니는 「라 보엠」 마지막 막의 죽음 장면이 자신이 떠올린 음악과 맞지 않는다며 자코사에게 고쳐 쓰기를 청했다. 자코사가 세 번 고쳐 쓴 뒤에도 푸치니는 줄리오 리코르디를 찾아가 네 번째 수정을 부탁했고, 리코르디는 그의 말이 옳다고 했다. 친구인 마로티와 파그니는 푸치니가 막 전체를 서너 번씩 다시 쓰게 하기도 했다고 덧붙인다.",
+  "giacomo-puccini.interpretation.moment.1":
+    "한 막을 네 번째로 다시 쓰게 하려고 돌아간 일은 완벽주의와 부합한다. 다만 이 기록들은 푸치니 자신의 이야기와 친구들의 기억에 의존하며, 그 부담은 대본가들이 졌다.",
+  "giacomo-puccini.moment.2":
+    "프라카롤리에 따르면 푸치니는 「투란도트」를 위해 세계 곳곳에 연락해 온갖 중국 음악을 구했고, 대영박물관은 고대 중국의 리듬과 음악을 담은 유일한 사본을 보내 주었다. 대본가 주세페 아다미와 레나토 시모니가 시나리오를 읽어 주러 왔을 때, 푸치니는 먼저 방 안에 황제의 찬가를 연주하는 중국 오르골 소리가 울리게 했다. 이 오르골은 바니 디 루카에 사는 파시니 남작의 소장품에서 빌려 온 것이었다.",
+  "giacomo-puccini.interpretation.moment.2":
+    "오페라를 쓰기 전에 박물관 사본에서 오르골에 이르기까지 다른 음악 전통의 자료를 모은 일은 다른 음악 세계에 대한 호기심과 부합한다. 이 이야기는 푸치니 주변 인물의 기록이며, 이 일화는 단일 출처에 의존한다.",
+  "giacomo-puccini.turning_point.1":
+    "「나비 부인」은 1904년 2월 17일 라 스칼라 초연에서 야유를 받았다. 드라이에 따르면 푸치니는 공연이 끝난 뒤 악보를 들고 나가 버렸고, 프라카롤리는 푸치니의 말을 인용해 그가 그날 저녁 작품을 철회하고 극장에 대관료를 돌려주었다고 쓴다. 그는 작품을 3막으로 고쳐, 2막을 둘로 나누고 술 취한 삼촌 장면을 덜어 내고 테너 파트에 새 아리아를 더해 확대했으며, 새 판은 1904년 5월 28일 브레시아 그란데 극장에서 갈채를 받았다.",
+  "giacomo-puccini.interpretation.turning_point.1":
+    "실패한 지 석 달 안에 작품을 고친 일은 작품이 받아들여진 방식에 따라 작품을 바꾸려는 태도와 부합한다. 같은 대화에서 프라카롤리는 푸치니가 이 오페라를 진심이 담긴 작품이라 하고 그날 저녁의 깨진 분위기를 탓했다고 전하므로, 수정이 곧 평가를 받아들였다는 뜻은 아니었다.",
+  /* ---------------------------------------------------------- hugo-junkers (Roster46) */
+  "hugo-junkers.achievement.1":
+    "융커스는 1909년부터 아헨의 동료 한스 라이스너(Hans Reissner)와 금속 날개 항공기를 함께 연구한 뒤, 1910년 지지 와이어 없이 두꺼운 단면의 외팔보 날개를 쓰는 전익기(날개만으로 이루어진 항공기)의 특허를 얻었다. 그의 회사가 만든 J 1은 1915년 12월에 처음 비행했다. 『신독일인명사전』은 이를 그의 첫 전금속제 항공기로 올리며 무게는 1,000kg을 조금 넘고 속도는 시속 170km였다고 적고, 한 지역사 포털은 세계 최초의 전금속제 항공기라고 부른다. 전시의 두랄루민 부족 때문에 기체는 철판으로 만들어졌고, '양철 당나귀'라는 뜻의 블레헤젤(Blechesel)이라는 별명이 붙었다.",
+  "hugo-junkers.achievement.2":
+    "1919년 그의 데사우 회사는 밀폐된 객실을 갖춘 4인승 전금속제 여객기 F 13을 만들었다. 『신독일인명사전』은 이 기종이 현대 여객기의 본질적인 특징을 두루 갖추었고 약 300대가 만들어졌으며 독일 민간 항공의 출발에 크게 기여했다고 적는다. 1921년 융커스는 항공 운송 부서를 세웠고, 이 부서는 융커스 루프트페어케어(Junkers Luftverkehr)가 되어 1926년 경쟁사와 합병해 도이체 루프트한자(Deutsche Luft Hansa)가 되었다.",
+  "hugo-junkers.achievement.3":
+    "Ju 52는 1930년 단발 기체로 처음 비행했고 1932년부터는 3발기 Ju 52/3m이 되어, 전 세계에서 '탄테 유(Tante Ju, 유 이모)'로 불렸다. 『신독일인명사전』은 이 기종을 승객 17명의 여객기이자 융커스의 개인적 주도에서 나온 마지막 항공기로, 1939년 이전 도이체 루프트한자의 표준 여객기였고 1940년대 초까지 세계에서 가장 많이 만들어진 여객기였다고 설명한다. 한 신문 기사는 1932년 이후 5,000대 가까이 만들어졌다고 집계한다.",
+  "hugo-junkers.achievement.4":
+    "항공기에 앞서 융커스는 데사우에서 가스 엔진을 연구했고, 1892년 빌헬름 폰 외헬호이저(Wilhelm von Oechelhaeuser)와 함께 수평형 2행정 대향 피스톤 가스 엔진의 특허를 냈다. 같은 해 가스의 발열량을 재는 열량계의 특허를 얻었고, 이를 바탕으로 가스 욕조용 온수기와 순간온수기를 개발했으며, 1895년 데사우에 융커스 운트 코(Junkers & Co.)를 세웠다. 그는 1908년 대향 피스톤 오일 엔진을 만들었고, 1923년 융커스 모토렌바우(Junkers Motorenbau)를 세웠으며, 1929년에는 최초의 디젤 항공기 엔진을 내놓았다. 온수기 사업의 수익은 이후 그의 연구를 뒷받침했다.",
+  "hugo-junkers.moment.1":
+    "1916년 1월 11일 융커스는 J 1의 추가 개발 자금을 육군 항공 감독국에 요청했고, 전쟁부는 한 대에 2만 5천 마르크로 항공기 여섯 대를 더 주문했다. 그는 8월부터 10월까지 전쟁부에 긴 편지를 여러 통 보냈고, 10월 6일과 12월 19일에도 선금을 다시 요청했다. 전쟁부는 그의 항공기가 전선 투입이 가능해지면 주문하겠다고 답했다. 바이어스(Byers)는 1917년 초까지 그가 항공기 연구에 사재 150만 마르크 이상을 쏟아부었다고 기록한다. J 4 50대의 주문은 1917년 3월 20일에 나왔다.",
+  "hugo-junkers.interpretation.moment.1":
+    "답이 없는 상태에서 1년 넘게 요청을 되풀이하고 사재로 개발을 이어간 일은 끈기와 부합한다. 이 서술은 그 자신의 편지를 바탕으로 한 학술 연구 한 편에 의존한다.",
+  "hugo-junkers.moment.2":
+    "1917년 10월 육군 관계자들이 융커스와 안토니 포커(Anthony Fokker)에게 합작회사 설립을 강요한 뒤, 융커스는 회사 운영을 맡겠다는 포커의 요구를 거부했고 특허 받은 날개 기술은 새 회사만 쓸 수 있다고 못박았다. 1918년 4월 그는 이사회가 연구 우선순위를 정하고 연구소 자금을 배분한다고 항의하는 편지를 항공대 감독관에게 쓰기 위해 초안을 작성했고, 연구소를 자기 회사로 다시 가져오겠다는 뜻을 적어 두었다. 합작회사는 1919년 4월 24일 공식 해산되었다.",
+  "hugo-junkers.interpretation.moment.2":
+    "자신의 연구와 그 자금에 대한 외부의 통제에 맞선 일은 강한 자율성 욕구와 부합한다. 바이어스는 육군 관계자들이 같은 태도를 존중이 부족한 것으로 보았다고도 전한다.",
+  "hugo-junkers.turning_point.1":
+    "1932년 세계 경제 위기는 융커스의 기업군을 재정난에 빠뜨렸다. 그는 항공기와 엔진 공장을 지키기 위해 원래의 온수기 회사인 융커스 운트 코를 로베르트 보슈(Robert Bosch)에 팔았다. 1933년 10월 국가사회주의 정부는 그에게 항공기·엔진 회사 지분의 과반을 제국에 넘기고 경영에서 물러나도록 강제했다. 그는 남은 해를 금속 건축에 관한 개인 연구에 쏟다가 1935년에 세상을 떠났다.",
+  "hugo-junkers.interpretation.turning_point.1":
+    "자신의 연구를 뒷받침해 온 회사를 팔아 항공기·엔진 공장을 유지한 일은 임기응변의 자원 동원력과 부합한다. 1933년의 지분 이전은 하나의 사건으로 기록할 뿐 어떤 특성의 근거로도 삼지 않는다.",
+  /* ---------------------------------------------------------- jean-baptiste-charcot (Roster46) */
+  "jean-baptiste-charcot.achievement.1":
+    "샤르코는 1903~1905년 프랑스 남극 탐험대를 이끌고, 생말로에서 이 탐험을 위해 지은 돛대 셋짜리 배 프랑세호로 항해했다. 린다 홀 도서관은 이를 프랑스 최초의 남극 탐험이라고 소개한다. 탐험대는 완델섬에서 월동하며 남극 반도 서쪽의 미지의 해안과 섬 약 1,000킬로미터를 측량했고, 파리 국립자연사박물관에 보낼 표본·기록·관측 자료 75상자를 가져왔다. 프랑스 해군 잡지에 따르면 그는 모든 분야를 아우르는 전문가 열 명을 태웠다.",
+  "jean-baptiste-charcot.achievement.2":
+    "샤르코는 푸르쿠아파호(1908~1910)를 타고 페테르만섬에서 월동한 뒤 반도를 따라 남서쪽으로 나아가며 약 2,000킬로미터의 해안을 측량했다. 그는 마그리트만에 이름을 붙였고, 남위 70도 부근에서 새 땅을 발견해 아버지의 이름을 따 샤르코 랜드라 불렀다(지금은 섬으로 알려져 있다). 1910년 1월에는 1821년 벨링스하우젠 이후 아무도 보지 못한 표트르 1세 섬을 시야에 넣었다. 성과는 여러 권의 학술 보고서로 간행되었다. 1912년 로알 아문센은 샤르코가 '미지의 대륙의 넓은 부분'을 열었고 과학적 성과가 대단히 풍부했다고 썼다.",
+  "jean-baptiste-charcot.achievement.3":
+    "제1차 세계대전이 끝난 뒤 샤르코는 푸르쿠아파호를 북쪽 바다를 위한 연구선으로 삼았다. 페리에 장군은 1920~1936년에 매년 이어진 북극 항해를 17차례로 꼽으며, 1924년 이후에는 대개 그린란드 동부로 갔다고 말한다. 덴마크 지질조사소의 탐험사는 스코르스비순 일대를 일곱 차례 방문했다고 기록한다. 1931~33년에는 제2차 국제 극지의 해를 위한 프랑스 관측소를 스코르스비순에 세우는 일을 도왔고 나중에 관측대를 데려왔다. 항해마다 샤르코가 보고서를 썼고, 함께 탄 과학자들의 연구도 따로 발표되었다.",
+  "jean-baptiste-charcot.moment.1":
+    "1909년 말 디셉션섬에서 잠수부가 샤르코에게 푸르쿠아파호의 선수와 용골 일부가 떨어져 나갔으며 가벼운 충격에도 침몰할 수 있다고 알렸다. 그의 일지를 바탕으로 한 마르트 울리에의 서술에 따르면, 그는 잠수부와 고래잡이 회사 책임자에게 비밀을 지켜 달라고 부탁하고 여름 탐사를 계속하기로 했다. 배는 남쪽으로 가 새 땅을 발견했고 1910년 1월 22일 북쪽으로 뱃머리를 돌렸다. 당시 장교와 선원에게 얼마나 알렸는지는 자료마다 다르다.",
+  "jean-baptiste-charcot.interpretation.moment.1":
+    "심하게 손상된 배임을 알면서도 국가적 목표라 여긴 일을 위해 항해를 계속한 것은 신체적 위험을 크게 감수하는 성향과 부합한다. 같은 자료들이 탐험 초반의 아찔한 위기도 기록하고 있어, 이런 태도는 양면적이었다.",
+  "jean-baptiste-charcot.moment.2":
+    "1921년 6월 29일 푸르쿠아파호는 대서양의 외딴 바위섬 록올에 닿았다. 알프레드 라크루아에 따르면 이 섬에 사람이 오른 것은 1840년과 1863년 두 번뿐이었다. 샤르코는 직접 보트를 몰고 대기하며 도울 태세를 갖추었고, 선원 두 명이 해초로 덮인 바위에 뛰어올라 한 시간 동안 표본을 깼다. 7월 1일에는 두 번째 조가 상륙했다. 라크루아가 샤르코에게 구해 달라고 부탁했던 이 표본을 분석한 결과, 이 바위는 예전에 이 섬의 이름을 따 붙인 암석이 아니라 주로 화강암으로 이루어졌음이 드러났다.",
+  "jean-baptiste-charcot.interpretation.moment.2":
+    "앞선 시도들이 실패한 위험하고 화려하지 않은 대상을 골라 직접 보트 작업을 지휘한 것은 과학적 물음에 대한 호기심과 부합한다. 다만 이 서술은 항해를 권했던 친구 라크루아의 것이어서 우호적이다.",
+  "jean-baptiste-charcot.turning_point.1":
+    "1903년 4월 생말로에서 북극 항해용 배가 건조되던 중, 샤르코는 동행자 폴 플레노에게 편지를 보내 대신 남쪽으로 가겠다고 했다. 북쪽에서 성과를 내려면 훨씬 더 깊이 들어가야 하지만 남쪽은 탐사가 거의 이루어지지 않았다는 이유였다. 린다 홀 도서관과 프랑스 해군 잡지는 이 변경을 오토 노르덴셸드의 스웨덴 탐험대가 소식이 끊겼다는 소식과 연결 짓는데, 노르덴셸드는 그해 말 구조되었다. 비용은 신문 모금과 국가 보조금으로 충당했고, 프랑세호는 1903년 8월 출항했다.",
+  "jean-baptiste-charcot.interpretation.turning_point.1":
+    "거의 완성된 배와 계획을 스스로 판단해 다른 방향으로 돌리고 대중 모금으로 비용을 마련한 일은 주도적 행동성과 부합한다.",
+  /* ---------------------------------------------------------- jmw-turner (Roster46) */
+  "jmw-turner.achievement.1":
+    "터너는 1839년 왕립미술원 전시에 〈전함 테메레르〉를 내놓았다. 트라팔가르 해전에 참전한 늙은 군함이 증기 예인선에 끌려 템스강을 거슬러 올라가 해체장으로 가는 모습을 그린 작품이다. 내셔널 갤러리는 그가 예인 장면을 직접 본 것이 아니라 보도를 토대로 그렸고, 효과를 위해 돛 장비와 도장을 자유롭게 바꾸었다고 설명한다. 1840년에는 자신의 미발표 시에서 따온 구절과 함께 〈노예선〉을 '죽어 가는 이와 죽은 이를 바다에 던지는 노예선'이라는 제목으로 전시했으며, 이 그림은 훗날 러스킨의 소유가 되었다가 보스턴으로 건너갔다. 1844년에는 대서부 철도의 열차가 브루넬이 설계한 메이든헤드 다리를 비 속에서 건너는 〈비, 증기, 속도〉를 그렸고, 이 작품도 지금 내셔널 갤러리에 있다.",
+  "jmw-turner.achievement.2":
+    "터너는 1807년부터 풍경 메조틴트 연작 〈리베르 스투디오룸〉을 다섯 점씩 묶은 분책으로 펴냈다. 작품은 역사, 목가, 우아한 목가, 산악, 해양, 건축의 여섯 부문으로 나뉘었다. 해머턴은 이 작품을 터너와 클로드 로랭 가운데 누가 낫냐는 판단을 대중에게 직접 구한 것이라고 평하는데, 이름도 클로드의 사적인 화집 〈리베르 베리타티스〉를 따랐다. 터너는 이 연작을 직접 출판했고 일부 판은 스스로 에칭과 판각을 했으며, 다른 판각가들은 그의 교정을 받으며 작업했다. 연작은 제14분책에서 멈췄고 표제 그림을 포함해 모두 71점이었으며 수지가 맞지 않았다.",
+  "jmw-turner.achievement.3":
+    "터너는 1831년의 유언장과 이후의 추가 유언으로 완성작들을 조건부로 내셔널 갤러리에 남겼다. 조건에는 두 점을 클로드의 그림 두 점 사이에 걸 것과 터너 갤러리를 지을 것이 있었고, 그의 자금 대부분은 노쇠한 남성 화가를 위한 자선 기관에 쓰이도록 되어 있었다. 1851년 그가 세상을 떠난 뒤 내셔널 갤러리는 그림 324점과 방대한 소묘를 넘겨받았고, 조건을 둘러싸고 의회와 대법관 법원에서 논란이 벌어졌다. 러스킨은 1857~58년에 소묘를 정리하면서 상자 열일곱 개에서 1만 9천 장이 넘는 종이를 발견했는데 상당수가 손상되어 있었고, 그중 1,757점을 중요한 습작으로 목록에 올렸다.",
+  "jmw-turner.achievement.4":
+    "터너는 유화와 함께 판화로 제작될 지형 풍경 시리즈를 위한 수채화 원화를 대량으로 그렸다. 테이트 도록에 따르면 『터너의 연례 여행(Turner's Annual Tour)』을 위해 1832~33년에 푸른 종이에 구아슈로 약 마흔 점의 원화를 판화 제작용으로 그렸으며, 이 작품들은 찰스 히스(Charles Heath)가 1834년과 1835년에 두 권으로 출간했고 이후 『프랑스의 강들(The Rivers of France)』로 묶였다.",
+  "jmw-turner.moment.1":
+    "1832년 왕립미술원의 바니시 데이에 컨스터블은 터너의 회색 바다 그림 옆에 걸린 〈워털루 다리 개통식〉의 바지선에 밝은 붉은색을 더하고 있었다. 터너가 방을 막 나갈 때 들어온 C. R. 레슬리에 따르면 터너는 자기 바다에 둥근 연단 붉은색 얼룩을 찍어 놓았고, 컨스터블은 '그가 다녀갔어, 총을 쏘고 갔군'이라고 말했다. 터너는 하루 반 동안 나타나지 않다가 마지막 그림 작업 시간에 그 붉은 자국에 유약을 입혀 부표 모양으로 다듬었다.",
+  "jmw-turner.interpretation.moment.1":
+    "경쟁자의 색에 붓질 하나로 답하고 그것을 다시 그림 안에 어울리게 다듬은 일은 경쟁심과 부합한다. 레슬리는 현장을 본 사람으로서 사건을 전할 뿐 터너의 동기는 밝히지 않는다.",
+  "jmw-turner.moment.2":
+    "터너의 만년에 뉴욕의 제임스 레녹스는 터너의 작품을 판화로만 알았는데, 레슬리에게 그림 한 점을 대신 구해 달라고 부탁했다. 터너는 〈테메레르〉에 대한 낮은 제안은 거절했지만 레녹스에게는 500파운드에 스태파섬의 석양 그림을 내주었다. 그림이 도착하자 레녹스는 '흐릿하다'고 실망했다. 레슬리가 이를 전하자 터너는 '흐릿한 것은 내 결점이오'라고 답했다. 레녹스는 나중에 다시 보니 그림이 대단히 마음에 든다고 편지했다.",
+  "jmw-turner.interpretation.moment.2":
+    "구매자가 지적한 특징을 누그러뜨리지 않고 자기 결점이라고 인정해 답한 일은 독립적 사고와 부합한다. 이 이야기는 중개인이던 친구 레슬리의 서술이다.",
+  "jmw-turner.turning_point.1":
+    "1807년 터너는 유화를 찾는 구매자가 적고 유행하는 취향이 클로드를 따르던 때 클로드의 〈리베르 베리타티스〉에 맞서는 마음으로 〈리베르 스투디오룸〉을 시작했다. 소묘 교사 웰스에 따르면 그는 일이 별로 없을 때 이 일에 손을 댔다. 초기 판은 판각가 찰스 터너에게 한 점당 8기니를 주고 맡겼는데, 조건과 수정을 두고 다투다가 두 사람은 19년 동안 말을 하지 않았다. 연작은 제14분책에서 멈췄다.",
+  "jmw-turner.interpretation.turning_point.1":
+    "일이 한가한 시기를 구매자를 기다리는 대신 대중을 향한 자비 출판 연작으로 바꾼 일은 주도적 행동과 부합한다. 다만 사업은 고르지 않게 운영되었고 기획은 끝내 완결되지 못했다.",
+  /* ---------------------------------------------------------- john-dalton (Roster46) */
+  "john-dalton.achievement.1":
+    "돌턴은 모든 화학 원소가 고유한 무게의 원자로 이루어져 있고, 화합물은 적은 수의 원자가 정수비로 결합해 만들어진다고 제안했다. 수소를 1로 놓고 기체와 그 밖의 물질의 '궁극 입자' 상대 무게를 적은 표는 1803년 10월 21일 맨체스터 문학철학회에서 읽은 논문 끝에 붙었고 1805년에 인쇄되었다. 그는 이 이론을 『화학 철학의 새 체계』(1권 1부 1808년, 2부 1810년)에서 정리했다. 토머스 톰슨은 1807년판 『화학 체계』에서 이를 소개했다. 헨리 로스코는 돌턴이 원자라는 생각 자체를 처음 내놓았다고 주장한 적은 없고 그 생각으로 화학적 결합을 설명했을 뿐이며, 초기 원자량 가운데 상당수는 거친 근삿값이었다고 지적한다.",
+  "john-dalton.achievement.2":
+    "돌턴은 1801년 10월 맨체스터 문학철학회에서 읽고 1802년에 발표한 논문에서, 두 기체를 섞으면 입자들이 서로 밀어내지 않으므로 용기에 가해지는 압력은 각 기체가 혼자 있을 때 내는 압력의 합이라고 주장했다. 오늘날 돌턴의 분압 법칙이라 불리는 내용이다. 같은 논문들은 액체의 증기압이 진공에서나 공기 중에서나 같다는 점과, 그가 시험한 모든 기체가 가열되면 같은 양만큼 팽창한다는 점도 보고했다. 톰슨은 게이뤼삭이 기체의 팽창에 관한 논문을 돌턴의 논문이 나오고 반년쯤 뒤에 발표했다고 전한다.",
+  "john-dalton.achievement.3":
+    "돌턴의 『기상 관측과 논고』는 켄들에서 쓰여 1790년대에 인쇄되었으며 기압계, 온도계, 습도계, 강수량, 증발, 오로라를 다루었다. 이 책에서 그는 수증기가 공기에 녹아 있는 것이 아니라 별개의 유체로 공기 속에 퍼져 있다고 보았고, 비는 이슬점 아래로 냉각되어 내린다고 주장했다. 로스코는 여기에서 증기에 관한 돌턴의 법칙과 원자론의 첫 싹을 본다. 그는 또 오로라가 지구 자기의 영향을 받는다고 결론지었다. 로스코는 그가 해들리의 무역풍 설명이나 드 뤽의 기압 결과 같은 앞선 연구를 모르고 있었다고 지적한다.",
+  "john-dalton.achievement.4":
+    "1794년 10월 31일 돌턴은 맨체스터 문학철학회에서 「색 시각에 관한 특이한 사실들」을 읽었는데, 이는 학회에 낸 그의 첫 논문이었다. 이 논문은 그와 그의 형, 그리고 현지 지인을 통해 문의한 메리포트의 해리스 형제 네 사람이 분홍색을 파란색으로, 어떤 초록색을 붉은색으로 보았다고 서술했다. 그는 눈의 유리체가 색을 띠고 있을지 모른다고 추측했으나, 사후 검시에서 수정체가 정상으로 확인되어 이 설명은 틀린 것으로 밝혀졌다. 이 논문은 이 증상에 대한 일반의 관심을 불러일으켰고, 제네바의 프레보와 로잔의 바르트만은 이를 '돌터니즘'이라 불렀다.",
+  "john-dalton.moment.1":
+    "1812년 9월 20일 돌턴은 베르셀리우스에게 보낸 편지에서, 같은 부피의 기체가 결합한다는 프랑스의 학설을 '수학적인 의미에서는' 받아들이지 않는다고 쓰면서도 근삿값이 자주 맞아떨어지는 것에는 '놀라운 데가 있다'고 인정했다. 베르셀리우스는 10월 13일 답장에서 기체의 결합 부피에 관한 게이뤼삭의 실험이 '원자론이 옳을 개연성에 대한 가장 훌륭한 증거'로 보이며 게이뤼삭이 틀렸다고 쉽게 생각하지는 않겠다고 적었다. 헨리는 그가 이 법칙을 끝내 '진심으로 거리낌 없이 받아들이지' 않았다고 말하고, 로스코와 하든은 엄밀한 의미에서는 돌턴의 결론이 더 정확했다고 덧붙인다.",
+  "john-dalton.interpretation.moment.1":
+    "존경받는 편지 상대와 프랑스의 대표적 화학자 앞에서도 자신의 측정값을 고수한 모습은, 이 문제에서 외부의 압력에 따라 견해를 고치는 경향이 낮았음과 부합한다. 다만 헨리는 그가 1827년 뒤롱과 프티의 결과를 받아들여 자신의 온도 법칙을 포기했다고 전하므로, 이런 경향이 전면적이지는 않았다.",
+  "john-dalton.moment.2":
+    "돌턴은 호수 지방에서 이슬점을 재면서, 산비탈의 샘을 찾아 그 물을 마른 유리컵에 담고 바깥에 이슬이 맺히는지 살폈다. 이슬이 맺히면 물을 다시 데워 되풀이했고, 물이 충분히 차지 않으면 질산칼륨과 염화암모늄 가루를 넣어 식히거나 눈더미를 이용했다. 높이와 기온을 알기 위해 기압계와 작은 휴대용 온도계도 들고 다녔다. 로스코는 그가 헬벨린산에 마흔 번쯤 올랐고, 육지측량부가 잰 1,039야드가 그의 값 1,035야드와 가까웠다고 전한다.",
+  "john-dalton.interpretation.moment.2":
+    "그 자리에서 기구와 냉각 혼합물을 즉석으로 마련해 측정값을 얻은 모습은 임기응변의 재주와 부합한다. 이 서술은 돌턴 자신의 글을 전기 작가들이 인용한 것이다.",
+  "john-dalton.turning_point.1":
+    "1793년 돌턴은 1785년부터 형 조너선과 함께 학교를 운영하던 켄들을 떠나, 고프를 통해 알려져 장로교 계통에서 세운 맨체스터 아카데미의 수학·자연철학 교사가 되었다. 보장된 급여는 한 학기 80파운드였다. 그곳에서 6년을 보낸 뒤 그는 자리를 내려놓고, 자신의 연구를 이어가기 위해 한 번에 2실링을 받는 개인 교습으로 생계를 꾸렸다. 1794년에 가입한 문학철학회는 1800년 그를 서기로 선출했다. 로스코는 교사로서의 그가 학생들에게 과제를 준 뒤 대체로 내버려 두고 자신의 계산과 실험에 몰두했다고 덧붙인다.",
+  "john-dalton.interpretation.turning_point.1":
+    "급여가 있는 자리를 내려놓고 개인 교습으로 생계를 꾸리며 연구할 시간을 지킨 선택은, 자신의 일과를 스스로 정하려는 강한 욕구와 부합한다. 그의 동기에 대한 서술은 그를 높이 평가하는 전기 작가들에게서 나온 것이다.",
+  /* ---------------------------------------------------------- linus-torvalds (Roster46) */
+  "linus-torvalds.achievement.1":
+    "토르발스는 헬싱키 대학교 학생이던 1991년 8월 comp.os.minix 이용자들에게 386 PC용 무료 운영체제를 만들고 있다고, '그냥 취미'라고 알렸고, 같은 해 10월 핀란드의 FTP 서버에 커널 소스를 공개했다. 그가 시작한 리눅스 커널은 The New Yorker에 따르면 지금 구글과 아마존 같은 회사의 대규모 서버와 안드로이드 휴대전화를 움직이고 있으며, 그는 메인 커널에 무엇이 들어갈지에 대한 최종 결정권을 지금도 갖고 있다.",
+  "linus-torvalds.achievement.2":
+    "초기 리눅스 소스에는 수수료를 받고 배포하는 것을 금지하는 라이선스가 붙어 있었는데, 저작권을 거의 혼자 갖고 있던 토르발스는 이를 GNU 일반 공중 사용 허가서(GPL)로 바꾸었다. 에릭 레이먼드는 나중에 자주 일찍 배포하고, 폭넓게 권한을 나누며, 사용자를 공동 개발자로 대하는 그의 방식을 '바자회' 모델이라 불렀고, LWN은 서브시스템 관리자들이 자신의 저장소를 그에게 넘기면 그가 하나의 메인라인으로 병합한다고 전한다.",
+  "linus-torvalds.achievement.3":
+    "2005년 비트머버(BitMover)가 커널 개발자들이 쓰던 비트키퍼(BitKeeper)의 무료 라이선스를 철회하자, 토르발스는 분산 버전 관리 시스템 깃(Git)을 직접 만들었다. Linux Journal에 따르면 깃은 며칠 만에 자체 개발을 관리할 수 있게 되었고 몇 주 안에 커널 개발을 맡을 수 있게 되었으며, 그 뒤 그는 유지 관리를 주니오 하마노(Junio Hamano)에게 넘겼다. LWN은 훗날 깃을 소프트웨어 개발에서 가장 널리 쓰이는 버전 관리 시스템이라고 평가했다.",
+  "linus-torvalds.moment.1":
+    "1992년 1월 29일 운영체제 교수 앤드루 타넨바움은 comp.os.minix에 '리눅스는 구식이다'라는 글을 올려 모놀리식 설계가 퇴보라고 주장했다. 토르발스는 같은 날 날카로운 답글로, 이론적으로는 마이크로커널이 더 낫다는 점은 인정하면서도 리눅스는 지금 쓸 수 있다는 점을 들어 옹호했고, 이튿날에는 그 답글의 어조를 사과하는 글을 올리면서도 리눅스가 구식이라는 주장에는 계속 동의하지 않았다.",
+  "linus-torvalds.interpretation.moment.1":
+    "기성 교수에게 같은 날 공개적으로, 그것도 직설적으로 답한 것은 공개적인 의견 충돌을 감수하는 태도를 보여 준다.",
+  "linus-torvalds.moment.2":
+    "2005년 비트머버가 비트키퍼 무료 라이선스를 끝내자, Linux Journal과 LWN에 따르면 토르발스는 그를 위해 만들어진 오픈소스 대안 가운데 하나를 택하지 않고 커널 작업을 멈춘 채 직접 깃을 만들었다. 그는 훗날 이때를 '깃이라는 작은 도구를 써야 해서' 한동안 커널 개발에서 물러났다고 직접 적었다.",
+  "linus-torvalds.interpretation.moment.2":
+    "필요한 도구가 나오기를 기다리지 않고 직접 만든 것은 스스로 기회를 만들어 내는 방식과 맞닿아 있다.",
+  "linus-torvalds.turning_point.1":
+    "2018년 9월 16일 토르발스는 커널 메일링 리스트에 자신의 개인적 행동으로 상처받은 사람들에게 사과하는 글을 올리고, 다르게 행동하는 법에 대한 도움을 받기 위해 휴식을 갖겠다고 밝히며 그레그 크로아카트먼(Greg Kroah-Hartman)에게 4.19 릴리스를 마무리해 달라고 부탁했다. The New Yorker는 그가 2013년까지도 거친 어투를 옹호했다고 보도했으며, 그는 약 한 달 뒤 복귀했고 커널은 개정된 행동 강령을 채택했다.",
+  "linus-torvalds.interpretation.turning_point.1":
+    "수년간 자신의 방식을 옹호하다가 공개적으로 방향을 바꾼 것은 다른 사람들의 문제 제기에 따라 입장을 수정한 것이지만, 그 속도는 더뎠다는 점을 보여 준다.",
+  /* ---------------------------------------------------------- lord-rayleigh (Roster46) */
+  "lord-rayleigh.achievement.1":
+    "레일리는 1872~73년 겨울 나일강 여행 중에 『음향 이론』(The Theory of Sound)을 쓰기 시작해, 1877년과 1878년에 두 권으로 출간했다. 제임스 진스(James Jeans)는 『영국 인명사전』에서 이 책이 레일리가 쓴 유일한 교과서였으며 출간 즉시 이 분야의 대표 저서가 되었다고 썼다.",
+  "lord-rayleigh.achievement.2":
+    "레일리는 1892년 서로 다른 방법으로 만든 질소의 밀도가 최대 천분의 일까지 다르다고 발표했다. 그와 윌리엄 램지(William Ramsay)는 이 차이가 대기 중의 미지의 기체 때문임을 밝혀 아르곤이라 이름 붙였고, 공동 논문 「아르곤, 대기의 새로운 구성 성분」은 1895년 1월 31일 왕립학회에 제출되었다. 레일리는 1904년 노벨 물리학상을, 램지는 노벨 화학상을 받았다.",
+  "lord-rayleigh.achievement.3":
+    "레일리는 1871년 빛의 산란 이론을 발표했는데, 맥튜터(MacTutor)는 이를 하늘이 파란 이유에 대한 최초의 올바른 설명이라고 평가한다. 그는 빛의 파동 이론으로 회절격자의 분해능이 격자선 간격이 아니라 전체 선의 수와 스펙트럼 차수의 곱으로 정해진다는 것을 보였고(1953년 서술을 맥튜터가 인용), 1885년에는 탄성 고체의 평면 표면을 따라 전파되는 파동, 곧 오늘날의 레일리파를 설명했다.",
+  "lord-rayleigh.achievement.4":
+    "레일리는 케임브리지 캐번디시 교수로서 1880~83년에 아서 슈스터(Arthur Schuster), 시지윅 부인과 함께 옴(ohm)의 절대 단위 값을 다시 측정했고, 1884년에는 시지윅 부인과 함께 은의 전기화학 당량과 클라크 전지의 전압을 발표했다. 그의 밑에서 일한 R. T. 글레이즈브룩(Glazebrook)은 당시 옴의 불확실성이 약 4퍼센트였으며 이후 은 측정의 정밀도는 레일리 연구의 직접적 결과라고 썼다. 노벨재단의 약력도 그의 실험이 저항, 전류, 기전력의 표준을 세우는 데 이바지했다고 서술한다.",
+  "lord-rayleigh.moment.1":
+    "레일리는 질소를 두 가지 방법, 곧 공기를 뜨거운 구리 위로 통과시키는 방법과 암모니아에서 얻는 방법으로 만들었다. 암모니아법 측정값들이 서로 잘 맞았을 때는 질소 연구가 끝난 줄 알았으나, 두 번째 방법의 밀도는 천분의 일 정도 달랐고, 그는 노벨상 강연에서 이를 '놀랍고 짜증스러웠다'고 표현했다. 그는 알려진 불순물의 영향을 배제하고, 해리된 질소라는 가설을 시험하려고 시료를 여덟 달 보관했으며, 암모니아법에서 공기 대신 산소를 써서 차이를 약 200분의 1로 키웠다. 그는 불일치를 없애려 하기보다 키워 보는 것이 '좋은 원칙'이라고 적었다.",
+  "lord-rayleigh.interpretation.moment.1":
+    "두 번째 방법으로 결과를 검증하고, 불일치를 버리지 않고 오히려 키운 일은 분석적 엄밀성과 부합한다. 이 서술은 레일리 본인의 것이며, 램지의 저술도 같은 시험들을 기록하고 있다.",
+  "lord-rayleigh.moment.2":
+    "1879년 캐번디시 교수직을 맡은 레일리는 대학 예산으로는 장비를 충당하기 어렵다고 보고 친구들에게 실험실 장비 마련을 위한 기부를 청했다. R. T. 글레이즈브룩에 따르면 기금은 약 1,500파운드에 이르렀고 데번셔 공작과 레일리가 각각 500파운드를 냈으며, 대학 구성원들에게는 기부를 요청하지 않았다. 그는 또 전기 측정의 기본 역사에 관한 강의를 시작했고, 취임 직후 자신의 실험에도 착수했다.",
+  "lord-rayleigh.interpretation.moment.2":
+    "대학의 지원을 기다리지 않고 직접 기금을 모으고 곧바로 실험에 착수한 일은 주도적 행동성과 부합한다. 이 서술은 그의 밑에서 일한 동료에게서 나온 것이다.",
+  "lord-rayleigh.turning_point.1":
+    "레일리는 5년간 맡았던 캐번디시 교수직을 1884년 말에 사임하고, 동료들이 만류했음에도 에식스 터링(Terling)의 개인 실험실로 돌아가 연구했다. 제임스 진스는 그가 케임브리지 생활이 지나치게 벅차다고 느꼈다고 썼고, 맥튜터는 그 무렵 그의 재정 형편이 나아졌다고 덧붙인다. 그는 터링에서 기체 밀도와 광학 연구를 이어 갔고 몇 달 뒤 왕립학회 서기직을 맡았다.",
+  "lord-rayleigh.interpretation.turning_point.1":
+    "주요 교수직을 내려놓고 자신의 실험실에서 연구하기로 한 선택은 자기 연구의 조건을 스스로 정하려는 욕구와 부합한다. 맥튜터는 재정 사정도 고려 사항이었다고 하므로, 순수하게 선호만의 결정은 아니었다.",
+  /* ---------------------------------------------------------- ludwig-boltzmann (Roster46) */
+  "ludwig-boltzmann.achievement.1":
+    "1872년 볼츠만은 빈 과학아카데미 회보에 「기체 분자 사이의 열평형에 관한 추가 연구」를 발표했다. 이 논문에는 그의 이름이 붙은 볼츠만 방정식과 H-정리가 들어 있으며, 그는 기체가 맥스웰이 1860년에 가정한 속도 분포로 나아가는 과정과 엔트로피가 증가하는 과정을 설명했다. 우핑크는 이 논문을 그의 가장 중요한 논문 가운데 하나로 꼽는다.",
+  "ludwig-boltzmann.achievement.2":
+    "1877년 그는 「열의 역학 이론의 제2법칙과 확률 계산의 관계에 대하여」를 발표했다. 이 논문에서 평형은 가장 많은 미시 상태로 실현되는 가장 확률 높은 거시 상태로 다뤄지며, 평형을 향한 진행은 덜 확률적인 상태에서 더 확률적인 상태로의 이동이 된다. 엔트로피 관계를 S = k log W로 쓴 것은 훗날의 플랑크이며, 스탠퍼드 철학 백과사전은 볼츠만이 이 식을 그 형태로 쓴 적이 없다고 지적하고, 이 논문이 가역성 반론을 얼마나 피했는지는 지금도 논쟁 중이라고 전한다.",
+  "ludwig-boltzmann.achievement.3":
+    "1896년과 1898년에 나온 두 권짜리 『기체 이론 강의』는 뮌헨과 빈에서의 강의에서 비롯되었다. 서문에서 그는 무엇보다 클라우지우스와 맥스웰의 업적을 알기 쉽게 소개하려 했고 자신의 논문에도 얼마간 지면을 주었으며, 1894년 옥스퍼드 영국과학진흥협회 모임의 토론과 이후 『네이처』에 실린 편지들에서 많이 배웠다고 밝힌다. 우핑크는 이 책을 1890년대 통계물리학 연구의 주요 사건 가운데 하나로 꼽는다.",
+  "ludwig-boltzmann.achievement.4":
+    "1879년 요제프 슈테판은 뜨거운 물체가 내보내는 복사 에너지가 온도의 네제곱에 비례한다고 경험적으로 밝혔고, 1884년 볼츠만은 이 법칙이 열역학에서 유도됨을 보였다. 그래서 이 법칙에는 두 사람의 이름이 붙었다. 그보다 앞선 1873~74년 그라츠에서 그는 난방이 되지 않는 꼭대기 층 방에서 유전체에 관한 정밀한 실험 일곱 건을 수행해 맥스웰 전자기 이론의 예측을 검증했고, 에른스트 마흐는 그를 따라가기 어려운 실험가라고 평했다.",
+  "ludwig-boltzmann.moment.1":
+    "1895년 뤼베크에서 열린 독일 자연과학자 모임에서 빌헬름 오스트발트는 자연 현상의 비가역성이 그것을 역학 방정식으로 기술할 수 없음을 보여 준다고 주장했다. 볼츠만은 그 전해 6월 오스트발트에게 영국과학진흥협회식 토론을 일으킬 생각이라고 편지에 썼고, 펠릭스 클라인이 그를 거들었다. 현장에 있던 아르놀트 조머펠트는 이 논쟁을 날랜 투우사와 황소의 싸움에 비기며 이번에는 황소가 이겼다고 썼고, 당시 젊은 수학자들이 모두 볼츠만 편이었다고 적었다.",
+  "ludwig-boltzmann.interpretation.moment.1":
+    "주요 반대자와의 공개 토론을 일부러 일으키려 한 것은 대립을 마다하지 않는 태도와 부합한다. 같은 자료들은 마흐 등이 그의 논쟁이 지나치게 날카롭다고 보았다고도 전하므로, 이 태도는 양면적이었다.",
+  "ludwig-boltzmann.moment.2":
+    "회플레히너에 따르면 볼츠만은 이미 정교수였음에도 키르히호프와 헬름홀츠에게 배우러 1870년 하이델베르크로, 1871년 베를린으로 갔고, 첫 만남에서 두 사람의 연구에 있는 오류를 지적해 그곳 사람들을 놀라게 했다. 이 서술은 편지를 직접 인용하지 않은 역사가의 요약이다.",
+  "ludwig-boltzmann.interpretation.moment.2":
+    "당대 최고 물리학자 두 사람에게 첫 만남에서 연구의 오류를 알린 것은 권위로부터 지적으로 독립적인 태도와 부합한다. 다만 이는 한 역사가의 서술이다.",
+  "ludwig-boltzmann.turning_point.1":
+    "1876년 그의 옛 스승이자 친구인 요제프 로슈미트는 순수하게 역학적인 정리로는 H-정리가 제2법칙에 대해 주장하는 것처럼 한 방향의 시간 비대칭적 결과를 얻을 수 없다고 반론을 제기했다. 우핑크에 따르면 볼츠만은 접근의 토대를 다시 생각했고 1877년 개념적으로 다른 확률 기반의 분석을 내놓았다. 그것이 반론을 피하는지는 지금도 논쟁 중이다. 이후 그는 앙상블과 에르고딕 가설로 돌아갔고, 1895년에는 자신의 정리와 제2법칙이 확률에 관한 진술일 뿐이라고 밝혔다.",
+  "ludwig-boltzmann.interpretation.turning_point.1":
+    "동료의 반론을 받고 논증을 방어하는 데 그치지 않고 다시 세운 것은 비판을 받으면 입장을 고칠 수 있는 태도와 부합한다. 다만 체르멜로 같은 비판자에 대한 이후의 답변은 비꼬는 어조였다고 평가된다.",
+  /* ---------------------------------------------------------- oscar-wilde (Roster46) */
+  "oscar-wilde.achievement.1":
+    "『도리언 그레이의 초상』은 1890년 7월호 『리핀콧 먼슬리 매거진』에 실렸고(6월 20일 발간), 적대적인 평을 포함해 수많은 서평을 불러왔다. 와일드는 1891년 3월 『포트나이틀리 리뷰』에 서문을 발표했고, 소설은 1891년 7월 1일 워드 록 사에서 일곱 장이 추가된 단행본으로 나왔다. 아서 랜섬은 이 작품을 영국에서 여러 해 만에 소재와 방식을 그렇게 자유롭게 고른 소설이라고 평했다.",
+  "oscar-wilde.achievement.2":
+    "1892년부터 1895년 사이에 그의 희극 네 편이 런던 무대에 올랐다. 『윈더미어 부인의 부채』(세인트 제임스 극장, 1892년 2월 20일), 『하찮은 여인』(헤이마켓 극장, 1893년 4월 19일), 『이상적인 남편』(헤이마켓, 1895년 1월 3일), 그리고 '진지한 사람들을 위한 사소한 희극'이라는 부제의 『정직함의 중요성』(세인트 제임스, 1895년 2월 14일)이다. 버나드 쇼는 『이상적인 남편』 평에서 그를 어떤 의미에서 당대의 유일한 철저한 극작가라고 불렀다.",
+  "oscar-wilde.achievement.3":
+    "와일드는 1891년 『살로메』를 프랑스어로 썼다(1893년 출간). 1892년 검열관이 사라 베르나르가 런던에서 이 작품을 무대에 올리는 것을 막았고, 초연은 1896년 파리의 외브르 극장에서 이루어졌다. 랜섬이 인용한 로버트 로스에 따르면 이 작품은 1901년 베를린에서 상연된 뒤 유럽 무대에서 꾸준히 공연되어 왔다.",
+  "oscar-wilde.achievement.4":
+    "와일드는 1897년 출소한 뒤 『레딩 감옥의 노래』를 쓰기 시작해 나폴리와 파리에서 고쳤고, 1898년 가명으로 출간했으며, 『데일리 크로니클』에 감옥 실태에 관한 편지 두 통(1897년 5월 28일, 1898년 3월 24일)을 실었다. 복역이 끝나 갈 무렵 쓴 긴 편지는 1905년 발췌본으로 『심연으로부터』라는 제목으로 출간되었다.",
+  "oscar-wilde.moment.1":
+    "1890년 7월 5일 『스코츠 옵서버』는 『도리언 그레이의 초상』을 영리하지만 도덕에 어긋난다고 평하며 '작가와 편집자 모두에게 불명예스럽다'고 썼다. 와일드는 7월 9일 이 신문에 보낸 편지에서 예술가에게는 '윤리적 공감이 전혀 없다'고, 대중적인 소설가가 되고 싶지 않은 것은 그것이 '너무 쉽기' 때문이라고 답했다. 편집자는 답변 주석을 달았고, 와일드는 8월에 다시 편지를 보냈다.",
+  "oscar-wilde.interpretation.moment.1":
+    "적대적인 서평에 그 신문 지면에서 직접 답하고 몇 주 뒤 다시 논쟁에 나선 것은 공개적인 논쟁을 이어 가는 것을 마다하지 않는 태도와 부합한다.",
+  "oscar-wilde.moment.2":
+    "당시 젊은 시인이던 W. B. 예이츠는 1880년대 말 W. E. 헨리의 모임에서 와일드를 만났고, 밤새 공들여 써 온 것 같으면서도 모두 자연스러운 '완벽한 문장'으로 말하는 사람은 처음 보았다고 적었다. 그는 듣는 이들이 느낀 인위적인 인상은 문장을 완벽하게 다듬는 것과 그 바탕에 있는 숙고에서 나왔다고 덧붙였다.",
+  "oscar-wilde.interpretation.moment.2":
+    "젊은 작가가 정성껏 다듬은 문장으로 인상을 남겼다고 기록한 것은 듣는 이에게 미친 효과가 의도적인 언어 기교에 기댄 화자였음을 보여 주지만, 예이츠는 그것이 인위적으로 느껴지기도 했다고 덧붙인다.",
+  "oscar-wilde.turning_point.1":
+    "1892년 2월 20일 조지 알렉산더는 세인트 제임스 극장에서 『윈더미어 부인의 부채』를 무대에 올렸다. 셰러드에 따르면 그때까지 와일드는 글로 거의 돈을 벌지 못했고, 사람들은 흔히 그가 스스로를 선전해 유명해졌을 뿐이라고 말했다. 이 연극이 성공한 뒤 그는 3년 사이에 런던 극장주들을 위해 희극 세 편을 더 썼다. 그에게 적대적이던 더글러스는 극장주들이 선금을 주기 시작하자 그가 '땀이 줄줄 흐를 정도로' 희곡을 썼다고 말하고, 쇼는 『정직함의 중요성』이 웨스트엔드 상업 극장을 겨냥한 그의 첫 작품이라고 보았다.",
+  "oscar-wilde.interpretation.turning_point.1":
+    "소수 독자를 겨냥한 산문에서 돈이 되기 시작한 무대 희극으로 옮겨 간 것은 기회를 보고 붙잡았다는 해석과 부합하지만, 그의 동기에 대한 더글러스와 쇼의 해석은 각자의 추측이다.",
+  /* ---------------------------------------------------------- pierre-auguste-renoir (Roster46) */
+  "pierre-auguste-renoir.achievement.1":
+    "르누아르는 1876년 몽마르트르의 무도장에서 춤추는 사람들을 그린 대작 〈물랭 드 라 갈레트의 무도회〉를 그려 1877년 인상파전에 내놓았다. 1880~81년에는 샤투의 푸르네즈 식당 발코니에서 친구들을 모델로 〈뱃놀이 일행의 오찬〉을 그렸으며, 이 작품은 현재 워싱턴의 필립스 컬렉션에 있다. 비평가 테오도르 뒤레는 이 뱃놀이 그림을 그의 가장 중요한 작품 가운데 하나로 꼽았다.",
+  "pierre-auguste-renoir.achievement.2":
+    "르누아르는 1874년 사진가 나다르의 옛 스튜디오에서 열린 첫 인상파전에 유화 다섯 점과 파스텔 한 점을 냈고, 그중에는 〈무희〉와 〈특별석〉이 있었다. 이후 1876년, 1877년, 1882년에도 이 그룹과 함께 전시했다. 미국 국립미술관(National Gallery of Art)은 그를 인상파의 창립 멤버 가운데 한 명으로 소개한다. 1877년 그림에서는 햇빛이 드는 나뭇잎 아래의 인물과 땅에 보랏빛을 입혔는데, 당시 관객은 이를 무지의 소치로 보았다.",
+  "pierre-auguste-renoir.achievement.3":
+    "르누아르는 1881~82년 겨울 베네치아, 로마, 나폴리, 팔레르모를 여행한 뒤 더 단단한 윤곽선과 라파엘로 등 옛 거장의 연구 쪽으로 방향을 틀었다. 그는 많은 소묘로 준비하며 〈대수욕도〉에 3년을 들였고, 파리의 조르주 프티 화랑에서 선보였으나 혹평을 받았다. 이 그림을 소장한 필라델피아 미술관은 그가 이후 한 작품에 이렇게까지 공을 들인 적이 없다고 설명한다.",
+  "pierre-auguste-renoir.moment.1":
+    "1876년 5월 르누아르는 친구 조르주 리비에르와 함께 몽마르트르를 돌며 큰 그림을 그릴 무도장 근처의 방을 찾았고, 코르토 거리에서 가구가 딸린 방과 캔버스를 보관할 옛 마구간을 얻었다. 리비에르에 따르면 르누아르는 전문 모델이 아니라 무도장의 단골들을 그리고 싶어 했고, 모델이 되어 줄 젊은 여성들에게 줄 유행하는 밀짚모자 '탱발'을 열두 개쯤 샀다. 이 작업은 여름 대부분이 걸릴 것으로 예상되었다.",
+  "pierre-auguste-renoir.interpretation.moment.1":
+    "여름 대부분이 걸릴 그림을 위해 작업실과 캔버스 보관 장소, 모델이 되어 줄 사람들을 미리 마련한 일은 끈기와 부합한다. 이 서술은 현장에 있던 가까운 친구에게서 나온 것이다.",
+  "pierre-auguste-renoir.moment.2":
+    "르누아르는 1875년 3월과 1877년 5월 다른 인상파 화가들과 함께 드루오 경매장의 공개 경매에 작품을 냈다. 테오도르 뒤레에 따르면 1875년에는 그림 스무 점이 모두 2,150프랑, 1877년에는 열여섯 점이 2,005프랑에 팔렸고, 그는 더 이상 이런 경매를 시도하지 않았다. 그는 수집가 쇼케, 출판인 조르주 샤르팡티에, 베라르 가족 같은 후원자의 초상화로 방향을 돌렸다. 샤르팡티에 부인과 배우 잔 사마리의 초상화는 1879년 살롱에 입선해 눈에 띄는 자리에 걸렸다.",
+  "pierre-auguste-renoir.interpretation.moment.2":
+    "두 번 실패한 판매 방식을 접고 살롱 복귀를 포함해 주문 초상화로 옮겨 간 일은 적응력과 부합한다. 뒤레는 같은 시대의 비평가이자 수집가이며, 동기에 관한 서술의 상당 부분은 그의 해석이다.",
+  "pierre-auguste-renoir.turning_point.1":
+    "1883년 무렵 르누아르는 화상 앙브루아즈 볼라르에게 자신이 '인상주의를 짜낼 만큼 짜냈고', 그림도 소묘도 제대로 할 줄 모른다고 느꼈다고 말했다. 그는 미술관 연구와 15세기 기법을 다룬 체니노 첸니니의 안내서로 눈을 돌렸고, 이탈리아 여행 뒤에는 〈대수욕도〉에 3년을 들였다. 이 작품은 공격을 받았으며, 그는 훗날 이 시기에 물감에서 기름을 빼 버려 화면이 약해졌다고 말했다.",
+  "pierre-auguste-renoir.interpretation.turning_point.1":
+    "자신의 방법에 약점이 있다고 인정하고 적대적인 반응에도 이를 바꾼 일은 믿음 갱신과 부합한다. 그 이유에 대한 설명은 대부분 훗날 볼라르에게 한 본인의 이야기이다.",
+  /* ---------------------------------------------------------- sonja-henie (Roster46) */
+  "sonja-henie.achievement.1":
+    "헤니는 1928년 생모리츠, 1932년 레이크플래시드, 1936년 가르미슈파르텐키르헨 동계 올림픽에서 여자 피겨스케이팅 싱글 금메달을 3연속으로 땄다. 또 1927년부터 1936년까지 10년 연속 세계선수권 우승, 1931년부터 1936년까지 여섯 차례 유럽선수권 우승을 차지했다. 올림픽 기록 사이트 올림피디아에 따르면 그녀는 11세이던 1924년 올림픽에서는 8명 중 꼴찌였다.",
+  "sonja-henie.achievement.2":
+    "헤니는 춤과 피겨스케이팅을 하나로 합치려 했고, 자신이 고른 음악에 맞춰 안무를 짜고 움직임이 자유로운 의상을 입었다. 브리태니커는 발레 수업과 안나 파블로바의 영향, 무릎 위로 올라오는 짧은 스커트, 19가지 스핀 레퍼토리를 그 특징으로 꼽는다. 배니티 페어는 그녀의 흰색 부츠를 종목이 더 여성적이고 시적인 모습으로 옮겨 가는 변화의 일부로 설명한다.",
+  "sonja-henie.achievement.3":
+    "1936년 올림픽 뒤 헤니는 프로로 전향했다. 그녀는 흥행사 아서 위르츠(Arthur Wirtz)와 아이스쇼 순회 계약을 맺었고, 20세기 폭스에서 1936년 〈원 인 어 밀리언〉을 시작으로 대부분 스케이팅을 중심에 둔 영화 약 10편에 출연했다. 노르웨이 백과사전은 순회 공연 '할리우드 아이스 레뷰'가 영화보다 더 많은 수입을 가져다주었다고 설명한다.",
+  "sonja-henie.moment.1":
+    "대릴 재넉(Darryl Zanuck)이 조연만 제안하자 헤니는 타이틀 롤을 고집했다. 노르웨이 백과사전에 따르면 그녀의 아버지는 로스앤젤레스의 아이스링크를 빌려 관객으로 채웠고, 그제야 재넉이 그녀의 출연료와 스케이팅 중심 영화 제작에 동의했다. 배니티 페어는 그녀가 남의 영화에서 한 장면만 공연하는 일은 하지 않으려 했다고 덧붙인다. 노르웨이 백과사전은 그녀가 나중에 절차를 거치지 않고 재넉에게 직접 찾아가 그를 자주 성가시게 했다고도 전한다.",
+  "sonja-henie.interpretation.moment.1":
+    "스튜디오 대표에게 맞서 타이틀 롤을 고집한 일은 사회적 적극성과 부합한다. 다만 이 이야기들은 가족 쪽 증언을 공유하고, 하나의 협상 시기에 관한 것이다.",
+  "sonja-henie.moment.2":
+    "1951년 무렵 헤니는 순회 공연 파트너 아서 위르츠와 결별하고 직접 아이스쇼를 제작했다. 배니티 페어에 따르면 위르츠는 이미 수익의 절반을 그녀에게 주고 있었고, 그의 홍보 책임자는 이 결별이 극히 잘못된 사업 결정이었다고 말했다. 노르웨이 백과사전은 그녀의 두 번째 남편이 위르츠가 지나치게 많이 가져간다고 그녀를 설득했다고 전한다. 새 쇼는 규모가 작은 공연장에 잡혔고, 배니티 페어는 그녀가 급여를 맞추기 위해 위르츠에게 돈을 빌렸다고 전한다.",
+  "sonja-henie.interpretation.moment.2":
+    "수익성 있던 동업 대신 자기 쇼를 직접 꾸리기로 한 선택은 자율성에 대한 욕구와 부합하며, 그 대가를 보면 이런 태도가 양면적이었음을 알 수 있다. 다만 그 결정이 얼마나 본인의 것이었는지에 대해서는 자료마다 설명이 다르다.",
+  "sonja-henie.turning_point.1":
+    "1936년 2월 세 번째 올림픽 금메달을 딴 지 한 달 만에 헤니는 아서 위르츠와 순회 공연 계약을 맺고 매디슨 스퀘어 가든에서 자선 공연을 했다. 이어 아버지와 함께 로스앤젤레스의 폴라 팰리스 링크를 빌려 두 차례 공연을 열어 영화사들의 관심을 끌었는데, 앞서 메트로 골드윈 메이어는 그녀를 거절한 뒤였다. 재넉은 두 번째 공연에 왔고, 그녀의 첫 폭스 영화 〈원 인 어 밀리언〉이 그해 나왔다.",
+  "sonja-henie.interpretation.turning_point.1":
+    "마지막 아마추어 타이틀 직후 곧바로 영화계 진출 캠페인에 나선 일은 주도적 행동과 부합한다. 다만 아버지가 많은 부분을 준비했으므로 공은 나누어 볼 필요가 있다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

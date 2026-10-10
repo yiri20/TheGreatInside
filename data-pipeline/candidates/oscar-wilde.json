@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "oscar-wilde",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Oscar Wilde",
+    "wikidataId": "Q30875",
+    "birthYear": 1854,
+    "deathYear": 1900,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_wilde_wikidata",
+      "kind": "wikidata",
+      "title": "Oscar Wilde (Q30875) -- verified live via Wikidata entity data (2026-10-08): en label 'Oscar Wilde', description 'Irish poet, playwright, and aesthete (1854-1900)'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q30875"
+    },
+    {
+      "id": "src_wilde_ransome1912",
+      "kind": "biography",
+      "title": "Arthur Ransome, 'Oscar Wilde: A Critical Study' (Martin Secker, London, 1912), Project Gutenberg text -- CRITICAL-LITERARY study by a younger writer, sympathetic but openly judging (calls the 1882 lecture tour 'rather humiliating', finds Dorian Gray uneven, discusses Salome and the plays at length). Read the chronology, the chapters on the American tour, Dorian Gray, the plays and Salome in full; the chapters on the poems were skimmed.",
+      "url": "https://www.gutenberg.org/ebooks/36017"
+    },
+    {
+      "id": "src_wilde_mason1908",
+      "kind": "archive",
+      "title": "Stuart Mason (ed.), 'Oscar Wilde: Art and Morality. A Defence of The Picture of Dorian Gray' (J. Jacobs, London, 1908), Project Gutenberg text -- a bibliographer's compilation, sympathetic to Wilde, that reprints the 1890 hostile reviews (St James's Gazette, Scots Observer, Daily Chronicle, Athenaeum), Pater's review and Wilde's eight published replies, with the editor's introduction and a table of the 1890/1891 text changes. Read the introduction, the St James's Gazette and Scots Observer reviews and all of Wilde's letters in full; the other reviews and the bibliography were skimmed.",
+      "url": "https://www.gutenberg.org/ebooks/33689"
+    },
+    {
+      "id": "src_wilde_sherard1906",
+      "kind": "biography",
+      "title": "Robert Harborough Sherard, 'The Life of Oscar Wilde' (Methuen, London, 1906), Internet Archive scan -- FRIEND's defensive biography, written to rehabilitate Wilde and containing a pseudo-medical theory of his conduct that is NOT used here. Read the American tour, Woman's World editorship, Dorian Gray and 1892-95 theatre chapters (with quoted contemporary press notices); the rest was searched, not read in full.",
+      "url": "https://archive.org/details/lifeoscarwilde00shergoog"
+    },
+    {
+      "id": "src_wilde_douglas1914",
+      "kind": "biography",
+      "title": "Lord Alfred Douglas, 'Oscar Wilde and Myself' (John Long, London, 1914; written with T. W. H. Crosland), Internet Archive scan -- ADVERSARIAL, self-interested and polemical memoir by a former close associate who disparages Wilde's talent as 'shallow'; used only for what he concedes about Wilde's working habits and for the contrasting verdict on his output. Read the chapters on Wilde's character, the plays and prose, and the 1894-97 chapters; searched the rest.",
+      "url": "https://archive.org/details/oscarwildemyself00dougrich"
+    },
+    {
+      "id": "src_wilde_yeats1922",
+      "kind": "biography",
+      "title": "W. B. Yeats, 'The Trembling of the Veil' (T. Werner Laurie, London, 1922), Project Gutenberg text, sections VII-XI on Henley's circle and his meetings with Wilde in the late 1880s -- ADMIRING-BUT-CRITICAL memoir by a younger Irish poet (he calls Wilde a great talker whose impression of artifice came from deliberation). Read those sections in full.",
+      "url": "https://www.gutenberg.org/ebooks/33505"
+    },
+    {
+      "id": "src_wilde_whistler1890",
+      "kind": "press",
+      "title": "James McNeill Whistler, 'The Gentle Art of Making Enemies' (Heinemann, London, 1892), Project Gutenberg text -- ADVERSARIAL, self-compiled record of Whistler's 1883-1890 letters to the press and telegrams, reprinting Wilde's 9 January 1890 letter to Truth and the Scots Observer's remark that Whistler 'comes off a palpable second' against Wilde; one-sided (Whistler accuses Wilde of borrowing his ideas). Read every passage mentioning Wilde.",
+      "url": "https://www.gutenberg.org/ebooks/24650"
+    },
+    {
+      "id": "src_wilde_shaw1895",
+      "kind": "press",
+      "title": "George Bernard Shaw, notices of 'An Ideal Husband' (Saturday Review, January 1895) and 'The Importance of Being Earnest' (Saturday Review, February 1895), in 'Dramatic Opinions and Essays' (Brentano's, New York, 1906), Internet Archive scan -- CONTEMPORARY independent critic of the premieres, admiring of Wilde's wit but dismissive of the construction of Earnest. Read both notices in full.",
+      "url": "https://archive.org/details/dramaticopinions01shawuoft"
+    },
+    {
+      "id": "src_wilde_deprofundis",
+      "kind": "archive",
+      "title": "Oscar Wilde, 'De Profundis' (written in prison 1897; Methuen, London, 1905), Project Gutenberg text -- SELF source, a long personal letter; read the opening and the passages about his own art and about his plans to write again. Used only for his self-description of his position as an artist and not for any private-life matter; never used alone for a row.",
+      "url": "https://www.gutenberg.org/ebooks/921"
+    }
+  ],
+  "rows": {
+    "aesthetic_sensitivity": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wilde_ransome1912, src_wilde_yeats1922, src_wilde_sherard1906, src_wilde_mason1908 | 1882-1890 | critical study + younger poet's memoir + friend's biography + compiled letters] In 1882 he lectured across the United States on decorative art and house decoration, urging audiences to plan a definite colour scheme for their rooms and criticising stoves decorated with cast-iron funeral urns (Ransome, from the lectures). Yeats recalls dining c.1887-88 in his Chelsea house, a white drawing room and dining room with Whistler etchings let into white panels and one diamond of red cloth on the table, a scheme he thought 'perhaps too perfect in its unity'; Sherard records that as editor of The Woman's World he wrote a monthly literary column with 'considerable care' and paid by the page regardless of illustrations. His own letters of 1890 state that an artist 'has no ethical sympathies' and treats virtue and wickedness as colours on a palette, and he called Dorian Gray 'an essay on decorative art' (Ransome, quoting a letter). Several dated episodes across a decade, from sympathetic, critical and friendly witnesses; not scored higher because the interior and editorship details come from one friend each and Ransome notes the 1882 lectures were also a commissioned role."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wilde_mason1908, src_wilde_ransome1912, src_wilde_yeats1922 | 1890-1891 | compiled letters + critical study + memoir] When the St James's Gazette and the Scots Observer attacked Dorian Gray in June-July 1890 he answered in print that a work cannot be judged by moral standards and that the artist writes for his own pleasure and 'has no desire to be a popular novelist'; for the 1891 book he added seven chapters and a preface rather than withdrawing anything, altering only one passage after a private suggestion from Walter Pater (Mason). Ransome sets this against the English habit of writing the novel in a fixed form and calls Dorian Gray written 'with that freedom in choice of matter and manner' unusual in England at the time. Yeats records that Wilde, when asked how often he went to the publisher's office, answered that he had 'struck off one of the days' and never answered their letters. Not scored higher: the stance is a rehearsed position as much as a risk, and he also tailored later work for commercial managers (see opportunity_sensing)."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_wilde_shaw1895, src_wilde_ransome1912, src_wilde_whistler1890 | 1890-1895 | contemporary critic + critical study + adversarial self-compiled record] Shaw wrote in January 1895 that Wilde 'plays with everything' (wit, philosophy, drama, the audience) and was in a sense the only thorough playwright of the day, and that other writers could not simply sit down and produce a Wilde play; Ransome says Dorian Gray was the first novel for years in England written with a continental freedom of matter and manner, and that Salome was written directly in French. The counter-evidence is in the same sources: Shaw judged Earnest a 1870s-style farcical comedy of plot and mechanical fun brought up to date by Wilde's style, and Whistler (a hostile, self-compiled witness) charged him in 1890 with taking other people's ideas about art, which Wilde denied in print. Originality of manner is documented by an independent contemporary; originality of material is contested, hence dual_edged and a moderate score."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_wilde_yeats1922, src_wilde_ransome1912, src_wilde_whistler1890, src_wilde_sherard1906 | 1880s-1890 | memoir + critical study + adversarial record + friend's biography] Yeats, who met him at W. E. Henley's table c.1887-88, records that Wilde dominated the evening, parried a persistent interrupter, and answered Henley's question about his office hours so as to leave Henley outdone, while himself saying afterwards that he had had to strain every nerve to equal Henley; Ransome says that on leaving Oxford he adopted a fantastic costume to emphasise his personality and within three years was being caricatured in Punch several times a month. In November 1883 he and Whistler exchanged telegrams, Wilde's saying that together they 'never talk about anything except ourselves' and Whistler's answering 'except me' (Whistler's own record). The same openness drew enemies: Yeats notes that Henley, after first admiration, began 'mixing the poisoned bowl' for him. Several dated social encounters from admiring, critical and hostile witnesses; dual_edged because it cost him allies as well as winning audiences."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_wilde_yeats1922, src_wilde_sherard1906, src_wilde_ransome1912, src_wilde_shaw1895 | 1882-1895 | memoir + friend's biography + critical study + contemporary critic] Yeats says he had never before heard a man talk 'with perfect sentences' and that the impression of artifice came from deliberation; on 9 January 1882 the New York audience at Chickering Hall was large and the Nation's critic admitted the lecture was a success though judging it 'not new' and its extravagance not extravagant enough for Americans (quoted by Sherard); Shaw wrote that critics 'laugh angrily' at his epigrams yet cannot resist them. Against that, Sherard reports the English provincial lectures after 1883 were not successful and Ransome notes some American audiences were rude. Effect on audiences is documented from independent witnesses but mixed, hence moderate score and confidence."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_wilde_mason1908, src_wilde_whistler1890, src_wilde_yeats1922 | 1883-1893 | compiled letters + adversarial record + memoir] In 1890 he answered the St James's Gazette (25 June), then the Scots Observer on 9 July and again in August, in sharp terms ('Caliban' and 'Thersites' for the reviewers), and the Scots Observer editor attached a rebuttal note in return; on 9 January 1890 he replied to Whistler's charge of plagiarism in Truth that the assertions were 'deliberately untrue' and Whistler's reply followed within a week; in March 1893 he told the Times that English critics' opinions of a French work of his had little interest for him (Mason's note on Salome). Yeats adds that Henley told 'my lads' to attack him. Several named, dated public disputes, one of them recorded by his adversary, hence documented; dual_edged because the replies were combative in tone and prolonged rather than ended each dispute."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wilde_ransome1912, src_wilde_mason1908, src_wilde_sherard1906, src_wilde_douglas1914, src_wilde_shaw1895 | 1881-1895 | critical study + compiled letters + friend + adversarial memoir + contemporary critic] Ransome writes that the American promoters wanted a 'specimen aesthete' to help the comic opera Patience, that Wilde accepted knowing the reason, and that he also used the trip to seek a staging for his play Vera; Mason prints a letter written before Dorian Gray appeared in Lippincott's saying the story would 'create a sensation', that its copyright reverted to him after three months and that he would add chapters if a publisher cared to take it, and in 1891 the book appeared with seven new chapters; Sherard says the novel was written to the order of the magazine's proprietors while he was short of money; Douglas (hostile) concedes that when managers would pay 'on account' for comedies he wrote plays 'till the sweat fairly rolled off him', and Shaw judged Earnest the first Wilde play designed for practical use at the West End theatres. Five authors with different stances describe the same pattern across three episodes; kept moderate because Douglas and Shaw's readings are conjectural."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wilde_ransome1912, src_wilde_sherard1906, src_wilde_mason1908 | 1878-1895 | critical study + friend's biography + compiled letters] Ransome's chronology lists a volume of poems (1881), lectures on art and decoration (1882-83), two years editing The Woman's World (1887-89), fairy tales (1888), critical essays (1885-1891), a novel (1890-91), and four comedies and a one-act play in French (1891-1895); Mason adds the Newdigate prize poem Ravenna (1878), that he told Andre Gide 'writing bores me so', and that his prose came late after his early poetry. Breadth of forms is documented by critical, friendly and compiling sources; it is not scored higher because all of it lies within literature and public speaking and no source describes him deliberately applying one field's method in another."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오스카 와일드"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata entity data (2026-10-08) for Q30875 returned en label 'Oscar Wilde', description 'Irish poet, playwright, and aesthete (1854-1900)'; matches the intended person. SLUG CHECK: scratch/prod_slugs.txt has no oscar-wilde (only oscar-niemeyer); no existing candidate file. CLASSIFICATION: occupation writer (no playwright id exists in the occupation vocabulary), field literature (field.literature i18n key exists), impact domains literary and cultural, tags nonconformist and communicator, archetype creative_creator; era 19th_century (1854-1900, scored behaviour 1878-1895); nationality IE; region western_europe (as james-joyce and george-bernard-shaw). EVIDENCE READ: 9 records (1 orientation, 8 substantive), downloaded with curl and read locally: Ransome 1912 (Gutenberg 36017); Mason 1908 compilation of the Dorian Gray reviews and Wilde's replies (Gutenberg 33689); Sherard 1906 (Internet Archive scan); Douglas 1914 (Internet Archive scan); Yeats 1922 (Gutenberg 33505, sections VII-XI); Whistler 1892 (Gutenberg 24650, every Wilde passage); Shaw's 1895 notices in Dramatic Opinions and Essays (Internet Archive scan); De Profundis (Gutenberg 921, self). PERSPECTIVES: (1) SELF: Wilde's own published letters (via Mason and Whistler) and De Profundis, never alone for a row; (2) FRIEND: Sherard (hagiographic, includes a medical theory of Wilde's conduct that was ignored); (3) ADVERSARIAL: Douglas and Whistler (both self-interested); (4) CONTEMPORARY HOSTILE REVIEWERS: St James's Gazette and Scots Observer reviews of Dorian Gray as reprinted by Mason (their sexual insinuations were NOT used); (5) INDEPENDENT critics: Shaw 1895 and Ransome 1912; (6) YOUNGER ADMIRING-CRITICAL: Yeats. Independent perspectives counted: Shaw, Ransome, Yeats. NON-SELF BEHAVIOURAL sources: Ransome, Mason, Sherard, Douglas, Yeats, Whistler, Shaw. NOT AVAILABLE / NOT READ: Richard Ellmann's biography, Merlin Holland's Irish Peacock and Scarlet Marquess and The Complete Letters (lending copies only), Hesketh Pearson, Frank Harris (deliberately skipped as unreliable), Max Beerbohm, the Library of Congress item page for the portrait (behind a Cloudflare challenge, not bypassed). DELIBERATELY EXCLUDED: sexuality, relationships and private life, the 1895 trials and imprisonment as personal life, bankruptcy, illness and death; Douglas's accusation that Wilde sold the same play rights to several buyers in 1897-98 (hostile, undated, unsupported); Sherard's and others' anecdotes (the 'nothing to declare but my genius' remark; Sherard's claim of a two-week composition of Earnest, contradicted by Douglas's account of writing it at Worthing). The Queensberry libel action is not scored; Pater's one-passage suggestion is documented in Mason (introduction and Wilde's own later testimony quoted there) and used only for the 1891 book text. ROWS SCORED (8): aesthetic sensitivity, independent thinking, creative originality, social assertiveness, persuasiveness, conflict tolerance, opportunity sensing, cross-domain range. ROWS CONSIDERED AND LEFT UNSCORED: discipline and execution speed (Yeats and Shaw call him indolent, Sherard praises his regularity as an editor, Douglas says he worked hard when paid, and the Earnest composition accounts conflict); belief updating (one documented change after Pater against a 1878 Newdigate-poem anecdote of ignoring advice, Mason only); risk tolerance and autonomy need (would rest on the same 1890 episodes already used); perfectionism and detail orientation (no dated episode). CALIBRATION: scores 64-80, confidence 0.50-0.66; nothing at or above 85 or 0.72. No eligibility, coverage or match output was computed or used. PORTRAIT: Wikidata-linked Commons file 'Oscar Wilde by Napoleon Sarony. Three-quarter-length photograph, seated.jpg' (Commons wikitext read via the API): Sarony's 1882 albumen print on card mount, source Library of Congress Prints and Photographs Division id ppmsca.07757, restored by Adam Cuerden, notes '1045 U.S. Copyright Office' and 'Copyright by N. Sarony', license PD-old (Sarony died 1896). The LOC item page was unreachable (Cloudflare challenge), so the upstream rights statement was NOT read; the basis is the concrete publication fact on the Commons record: a photograph published in the United States in 1882 with copyright registered by Sarony (the photograph series at issue in Burrow-Giles v. Sarony, 1884), whose term expired long ago, and a photographer who died in 1896. Commons original is 2502x4146; it was downsized once to 966x1600 (q85, no crop, no upscale) and visually checked. Kind likeness."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/oscar-wilde-sarony-1882.jpg",
+    "width": 966,
+    "height": 1600,
+    "source": "Library of Congress Prints and Photographs Division (item ppmsca.07757), via Wikimedia Commons restoration by Adam Cuerden",
+    "license": "Public domain (photograph published in the United States in 1882; photographer died 1896)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph,_seated.jpg",
+    "attribution": "Napoleon Sarony, Oscar Wilde, three-quarter-length photograph, seated, 1882 (albumen print, Library of Congress; digital restoration by Adam Cuerden)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph,_seated.jpg",
+    "creator": "Napoleon Sarony (restoration by Adam Cuerden)",
+    "date": "1882",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph,_seated.jpg"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "henry-royce",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Henry Royce",
+    "wikidataId": "Q516276",
+    "birthYear": 1863,
+    "deathYear": 1933,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "engineering",
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "industrial",
+      "technological",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "founder",
+      "self_taught",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_royce_wikidata",
+      "kind": "wikidata",
+      "title": "Henry Royce (Q516276) -- verified live 2026-10-08 via Special:EntityData: en label 'Henry Royce', description 'English engineer, car designer, co-founder of Rolls-Royce', born 27 March 1863, died 22 April 1933. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q516276"
+    },
+    {
+      "id": "src_royce_wikipedia",
+      "kind": "wikipedia",
+      "title": "Henry Royce -- Wikipedia article, read as orientation only (it draws on Pemberton and Pugh, which could not be opened); its anecdotes that no other opened source corroborates were not used for any row.",
+      "url": "https://en.wikipedia.org/wiki/Henry_Royce"
+    },
+    {
+      "id": "src_royce_gracesguide",
+      "kind": "archive",
+      "title": "Grace's Guide to British Industrial History, 'Frederick Henry Royce' -- dated chronology of his life with transcribed 1932-33 obituaries from the Institution of Automobile Engineers and the Institution of Mechanical Engineers (professional bodies, contemporary, formal and admiring in tone) and a Times notice reference; read in full. Used for the career sequence (Manchester firm of 1884, cranes and dynamos, the 1903-04 turn to cars, the 1906 Rolls-Royce company, the Derby works designed to his plans) and for the reported 'well known perfectionism'.",
+      "url": "https://www.gracesguide.co.uk/Henry_Royce"
+    },
+    {
+      "id": "src_royce_buist1926",
+      "kind": "biography",
+      "title": "H. Massac Buist, Rolls-Royce Memories: A Coming-of-Age Souvenir (Cambridge University Press, 1926), Internet Archive full text (Digital Library of India scan) -- a motoring journalist's account written for the firm's twenty-first anniversary with the company's co-operation and colleagues' recollections; admiring and partly promotional, so its praise is not used as evidence, but it names dated, witnessed incidents of Royce's working method (the scrapped front axle in 1903-04, the 'good enough' reproof, the two-guinea-an-ounce tools, the Manchester works run for a month on a car engine, the 1906 wire-wheel exchange with Claude Johnson). Read locally: the chapters 'By Force of Circumstance', 'Challenge and Renown' and 'Expansion and Migration' in the passages used.",
+      "url": "https://archive.org/details/dli.ministry.22108"
+    },
+    {
+      "id": "src_royce_ministry1944",
+      "kind": "archive",
+      "title": "The Power Behind Their Wings: an account of the part played by Sir Henry Royce and the Rolls-Royce engineers in the development of the in-line liquid-cooled aero-engine (Great Britain, Ministry of Information, 1944), Internet Archive full text -- wartime government publicity written with Rolls-Royce material, hence promotional and not independent of the firm; read for the Eagle, Schneider Trophy and Merlin lineage, for quoted extracts from his 1915 memoranda to the factory, and for the board's 1915 preface to them. Several of its anecdotes repeat Buist and are counted once.",
+      "url": "https://archive.org/details/powerwingsrollsroyce"
+    },
+    {
+      "id": "src_royce_motorsport1997",
+      "kind": "press",
+      "title": "Bill Boddy, 'Henry Royce and the Light car experiment', Motor Sport magazine, May 1997 -- an independent motoring historian working from papers held by the Rolls-Royce Enthusiasts' Club on the small Calcott car Royce ran from 1917; read in full. Documents his habit of testing rival and small cars, specifying parts to makers and trying an aero-engine primer on his own car.",
+      "url": "https://www.motorsportmagazine.com/archive/article/may-1997/72/henry-royce-and-the-light-car-experiment/"
+    },
+    {
+      "id": "src_royce_johnson",
+      "kind": "archive",
+      "title": "Grace's Guide, 'Claude Johnson' -- biographical entry on Royce's business partner built on the Oxford Dictionary of National Biography account and a 1926 obituary; read in full. A business-side perspective, partly critical of Royce's temperament, used for Johnson's insistence on a single model and for the account of the 1904 Rolls agreement.",
+      "url": "https://www.gracesguide.co.uk/Claude_Johnson"
+    },
+    {
+      "id": "src_royce_royceltd",
+      "kind": "archive",
+      "title": "Grace's Guide, 'Royce Ltd' and 'Rolls-Royce' company entries -- dated chronologies drawn from trade press and company records; read in full. Used for the Manchester crane and dynamo business, the 1903-04 first cars, the December 1904 agreement, the 1906 company, the 1908 Derby works and the First World War Eagle engine.",
+      "url": "https://www.gracesguide.co.uk/Royce_Ltd"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_royce_buist1926, src_royce_gracesguide, src_royce_ministry1944 | 1903-1915 | journalist's anniversary book with colleague witness + professional-body obituary notes + wartime publicity quoting his letters] Buist records that on the first experimental cars (1903-04) Royce scrapped every part that was not faultless, scrapped the front axle of the first nearly finished car because it had been bent half an inch to fit the drawing, and 'carried on in an alarming manner' when a mechanic called a job 'good enough'. The 1944 publication, which repeats this anecdote, adds extracts from his 1915 letters to the factory, e.g. 'You have evidently got it right this time, but I think you can improve it', and the Grace's Guide chronology notes his 'well known perfectionism' when draughtsmen brought him drawings. Dual-edged because the business-side biography of Johnson calls Royce 'increasingly temperamental' and Johnson later moved to limit his interference in production; the incident evidence is firsthand-witnessed but filtered through a promotional book, so confidence stays moderate."
+    },
+    "detail_orientation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_royce_buist1926, src_royce_ministry1944, src_royce_motorsport1997 | 1903-1919 | journalist's anniversary book + wartime publicity quoting letters + independent magazine historian from club archive papers] Buist says he designed every tool and spanner on the early cars; the 1944 account quotes his 1915 comments on individual jigs and tools ('the one for drilling the sparking plug hole is rather crude', 'I do not like the lumpy construction' of a rotary table). Boddy's papers show him checking a supplier's inner-tube valve stems with a micrometer against his own car and specifying redesigns of brake straps. Three differently sourced settings, so documented, but the first two are firm-adjacent."
+    },
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_royce_buist1926, src_royce_ministry1944, src_royce_motorsport1997 | 1903-1919 | journalist's anniversary book + wartime publicity + independent magazine historian] Before building his first car he bought a Decauville and spent weekdays taking it apart at the works, and repaired friends' cars to learn their faults (Buist, 1903). He staged the six-cylinder design through two-, three- and four-cylinder test cars, designed rigs that produced in hours the failures that road mileage showed in thousands of miles, and kept the Manchester works running for about a month on a standard 40/50 car engine as a durability trial (Buist). The 1944 text says he routinely tested engines to destruction. Boddy documents him trying an aero-engine primer on his private car in 1918. Independent corroboration for the habit of testing comes only from the Boddy piece, which is why confidence is moderate."
+    },
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_royce_buist1926, src_royce_ministry1944 | 1903-1915 | journalist's anniversary book + wartime publicity] Both accounts say he could operate any machine in the works to the standard of its operator, filed a hub cap into a faultless hexagon, spent time showing apprentices how to use a file, and attributed the 1906 Tourist Trophy win to '2 per cent. improvements in every feature'. The 1944 text records the motto 'Quidvis recte factum, quamvis humile praeclarum' on his mantelpiece. The accounts are admiring and the hub-cap and file stories are retold across both, so they are counted as one perspective and rated strong inference, not documented."
+    },
+    "deep_focus": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_royce_buist1926 | 1903-1906 | journalist's anniversary book citing colleagues] While designing the first cars he would work a day, a night and a second day without stopping with a few assistants, ate sandwiches on a bench while discussing the problem, and was astonished to be told it was the day before Christmas; Johnson worried about the pattern (Buist). Single source built on colleague recollection, so confidence is moderate; no inference about health is drawn from it. Dual-edged because Johnson's later moves (the single-model policy, relieving Royce of factory management) were aimed partly at the workload."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_royce_ministry1944, src_royce_royceltd | 1907-1931 | wartime publicity + company chronology] The 40/50 Silver Ghost was held substantially unchanged for about nineteen years while he sought small improvements every year (1944 account); after the 1929 Schneider Trophy win with the R engine he and his team pursued a further development for 1931 that flew above 400 mph (1944 account; the 1933 institution obituaries, via Grace's Guide, give 328 and 408 mph). The sustained improvement of one design is documented in the company chronology; the personal motive is the publicity text's reading, so strong inference."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_royce_gracesguide, src_royce_buist1926, src_royce_royceltd | 1902-1904 | professional-body obituary + journalist's anniversary book + company chronology] The Institution of Mechanical Engineers obituary says that, because of difficult conditions in the crane and dynamo business, he turned in 1903 to the motor car; Buist adds that he judged the prospects for large British electrical cranes small against German and American competition and saw that cars were not being designed as a master engineer would approve. The company chronology shows three cars built by spring 1904 and an agreement with C. S. Rolls and Co in December 1904. Independent obituary and journalist agree on the turn and its stated reasons."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_royce_buist1926, src_royce_motorsport1997 | 1903-1919 | journalist's anniversary book + independent magazine historian] When no suitable British magneto could be bought, he designed and made magnetos himself at Derby (Buist); with limited money at the 1906 Tourist Trophy he listed improvements one by one until Johnson funded them, wire wheels first (Buist); he improvised a car engine as the Manchester works' power source and, in 1917-19, specified redesigns and had parts made through the works for his own small car (Boddy). Two sources of different kinds; the Boddy material is the independent one."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "헨리 로이스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE 2026-10-08 (Special:EntityData Q516276: 'Henry Royce', 'English engineer, car designer, co-founder of Rolls-Royce', 27 Mar 1863 - 22 Apr 1933). SLUG CHECK: not in scratch/prod_slugs.txt, no prior candidate file. CLASSIFICATION: occupations engineer/entrepreneur; fieldIds engineering, business, technology (all have field.* keys); region western_europe (England). Era 20th_century as henry-ford (same birth year); defining work 1904-1933. EVIDENCE OPENED AND READ (8 records, 2 orientation): Grace's Guide Royce page with IAE and IMechE obituaries; Buist, Rolls-Royce Memories 1926 (Internet Archive); the 1944 Ministry of Information Power Behind Their Wings; Boddy, Motor Sport May 1997; Grace's Guide Claude Johnson (ODNB-derived), Royce Ltd and Rolls-Royce entries; Wikipedia as orientation. NOT ACCESSIBLE: Pemberton, Life of Sir Henry Royce (1936), Rowland, The Rolls-Royce Men, Pugh, Magic of a Name, Oldham, The Hyphen in Rolls-Royce, Lloyd, Rolls-Royce: Growth of a Firm and Hives's memoir -- all lending-restricted or not online; none read. LIMITATIONS: the behavioural evidence is weighted toward firm-friendly accounts (Buist, 1944 publicity) with only the Boddy article and the Johnson/obituary perspectives independent of the company; there is no adversarial source, so confidence is held at or below 0.66 and no score reaches 85. Anecdotes found only on Wikipedia (the sledgehammer episode, dismissing staff) were not used. His 1911 illness, later health and death are deliberately not used for any row; no private-life material is scored. Politics/military are incidental (aero-engines for war are not scored)."
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear, adequately sized portrait established. The Wikimedia Commons image 'Henry Royce.jpg' is only 454 by 611 pixels and its current file page has no source or publication details (the page text was vandalised). A 1906 print on Grace's Guide and a 1933 plate do not say which issue or page published them, and the 1933 plate is not clearly public domain. A 1939-46 oil portrait from The National Archives (INF 3/4, painter unknown) is a later painting whose Crown copyright and publication history could not be checked because the archive's catalogue page could not be read; it is not forced under the stricter rights rule. Leads for a later attempt: the Derwent Wood bronze statue and a portrait plate in Buist's 1926 book, and Internet Archive scans of The Autocar 1906. Follow-up attempt (2026-10-08): the plates of Buist's 1926 book were checked on the Internet Archive scan. The only photograph of Royce there (Plate X) shows him bending over a garden table with a colleague, is a low-quality black-and-white reproduction and carries no printed photographer credit, so it is not an adequate portrait. The statue plate could not be located in the scan. The hold stands."
+  }
+}

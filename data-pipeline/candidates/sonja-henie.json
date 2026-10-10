@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sonja-henie",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sonja Henie",
+    "aliases": [
+      "Sonja Henie Onstad"
+    ],
+    "wikidataId": "Q204205",
+    "birthYear": 1912,
+    "deathYear": 1969,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NO",
+      "US"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical"
+    ],
+    "tagIds": [
+      "competitor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_henie_wikidata",
+      "kind": "wikidata",
+      "title": "Sonja Henie (Q204205) -- verified live via Special:EntityData (2026-10-08): en label 'Sonja Henie', description 'Norwegian figure skater and actress (1912-1969)', born 8 Apr 1912, died 12 Oct 1969, citizenship Norway and United States, ko label '소냐 헤니' and kowiki sitelink '소냐 헤니'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q204205"
+    },
+    {
+      "id": "src_henie_snl_larsen",
+      "kind": "biography",
+      "title": "Svend Erik Løken Larsen and Kjetil Korslund, 'Sonja Henie', Store norske leksikon (snl.no; last updated 27 May 2026) -- Norwegian national encyclopedia entry by a scholar who also wrote the Norsk biografisk leksikon entry; domestic, openly critical in places (records that later portrayals stress her darker sides, her wartime refusal and her clashes with Zanuck). Read in full, in Norwegian.",
+      "url": "https://snl.no/Sonja_Henie"
+    },
+    {
+      "id": "src_henie_vanityfair_jacobs",
+      "kind": "press",
+      "title": "Laura Jacobs, 'Sonja Henie's Ice Age' (Vanity Fair, 11 February 2014), read from the Internet Archive capture of 23 July 2017 -- magazine feature built on interviews with skaters who worked with or knew her (Dick Button, Don Watson, Boots Beyer, Susan Strong Davis, publicist Tom King) and on her brother Leif's writing; mixes admiring and hostile voices and discusses the Strait and Leif Henie biography as one-sided. Read in full.",
+      "url": "https://www.vanityfair.com/hollywood/2014/02/sonja-henie-ice-skating-queen"
+    },
+    {
+      "id": "src_henie_psh_wright",
+      "kind": "institution",
+      "title": "Janet Wright, 'Three Faces of Sonja: Competitor, Performer, Movie Star', Pro Skating Historical Foundation (2011), from the Earl Reflow collection -- skating-history article using a 1938 Look magazine item, a 1938 gossip column, a January 1938 Time item and the recollection of a young skater from the 1936 St. Louis carnival; informal and partly anecdotal. Read in full.",
+      "url": "https://proskatinghistoricalfoundation.org/sonja3.html"
+    },
+    {
+      "id": "src_henie_wiehl_encyclopedia",
+      "kind": "biography",
+      "title": "Inga Wiehl, 'Henie, Sonja (1912-1969)', in Women in World History: A Biographical Encyclopedia (Gale), via Encyclopedia.com -- biographical essay that leans heavily on Henie's own 1940 memoir Wings on My Feet and the Olympic reference books; counts as largely SELF-derived perspective and is used only for dated facts and quotations from her memoir. Read in full.",
+      "url": "https://www.encyclopedia.com/women/dictionaries-thesauruses-pictures-and-press-releases/henie-sonja-1912-1969"
+    },
+    {
+      "id": "src_henie_independent_colledge",
+      "kind": "press",
+      "title": "Sandra Stevenson, obituary of the British skater Cecilia Colledge, The Independent (April 2008) -- obituary from the rival's side of the 1936 Olympic contest (it quotes the British team manager T. D. Richardson on other matters); used only for the 1936 school-figures anecdote about Henie, reported by one source. Read in full.",
+      "url": "https://www.independent.co.uk/news/obituaries/cecilia-colledge-champion-figure-skater-812673.html"
+    },
+    {
+      "id": "src_henie_olympedia",
+      "kind": "archive",
+      "title": "Olympedia (OlyMADMen), athlete page 'Sonja Henie' -- Olympic results and short biography (results, 1936 turn to professional, ten feature films); used for dates and results only. Read in full.",
+      "url": "https://www.olympedia.org/athletes/81280"
+    },
+    {
+      "id": "src_henie_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica editors, 'Sonja Henie' -- short reference entry (ballet influence, short skirts, 19 spins, titles, professional turn, Henie Onstad Art Center). Read in full; reference confirmation of facts, not behavioural evidence.",
+      "url": "https://www.britannica.com/biography/Sonja-Henie"
+    },
+    {
+      "id": "src_henie_theolympians",
+      "kind": "press",
+      "title": "The Olympians (theolympians.co), two blog posts on Henie that quote a 23 January 1938 Arkansas Gazette interview by J. D. Shapiro -- BLOG relay of a 1938 newspaper interview; used only as a lead to the interview's quoted remark and NOT as support for any scored row. Read the post text.",
+      "url": "https://theolympians.co/tag/sonja-henie/"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_henie_independent_colledge, src_henie_vanityfair_jacobs, src_henie_psh_wright, src_henie_snl_larsen | 1936-1952 | rival-side obituary + journalist's interviews with show skaters and a publicist + skating-history article + Norwegian encyclopedia] The Colledge obituary says that at the 1936 Games Henie, angered when the close school-figures result was posted, took the sheet from the competitors' lounge wall and tore it up; a single report from the rival's side. Vanity Fair: in her own touring company she did eight numbers, would not allow other blondes in the show, and would not take second billing; Wirtz's wish for back-up performers was one reason she split from him (Tom King, Wirtz's publicity director), and show skaters said many 'wouldn't skate with her, because she was the whole show' (Boots Beyer). Wright's source, a skater at the 1936 carnival, calls her 'not friendly'. dual_edged: the same stance kept her at the top and cost her working relationships. Not scored higher because the sharpest incident is a single rival-side source and the others are later recollections."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_henie_vanityfair_jacobs, src_henie_wiehl_encyclopedia, src_henie_snl_larsen | 1936-1938 | journalist's feature + memoir-based encyclopedia essay (self-derived) + Norwegian encyclopedia] Asked by Zanuck what she wanted in a film, she answered 'the title role' and refused supporting status; Vanity Fair: 'She didn't give an inch, and Zanuck caved' and a skating historian says she refused to do a number in anyone else's film. The Norwegian encyclopedia adds that Zanuck first offered only a guest spot, that she and her father then rented an ice hall and filled it, and that she demanded an unheard-of $75,000 per film, later negotiated $160,000 per film, and kept irritating Zanuck by going to him directly instead of through channels. Several consistent accounts of the same negotiation period; the account is partly family-sourced (her father and brother), so one negotiation series, not many independent incidents."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_henie_snl_larsen, src_henie_vanityfair_jacobs, src_henie_wiehl_encyclopedia, src_henie_psh_wright | March-May 1936 and 1936-1938 | Norwegian encyclopedia + journalist's feature + memoir-based essay + skating-history article using a 1938 Look item] After the 1936 Games she did not wait for an offer: a month later she signed a touring contract with Arthur Wirtz, played a charity show at Madison Square Garden, gave seventeen appearances in nine cities in three weeks, then (with her father) hired the Polar Palace rink in Los Angeles, mailed invitations and put on two shows that brought the studio heads, after Metro-Goldwyn-Mayer had declined; the Look item says she also rented a rink and bought a big white car to get producers' attention. Several independent retellings of the same Hollywood campaign; her father organised much of it, so credit is shared and not scored higher."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_henie_vanityfair_jacobs, src_henie_snl_larsen, src_henie_wiehl_encyclopedia | 1936-1940s | journalist's feature + Norwegian encyclopedia + memoir-based essay] Told the New York Times in March 1936 she wanted to do with skates what Fred Astaire did with dancing, having noticed there were no skaters in Hollywood (Vanity Fair); the film and ice-show businesses were run so that each advertised the other, with film costumes and choreography reused in the shows, and the Norwegian encyclopedia notes endorsement and product deals from white skates to paper dolls and cigarettes. Vanity Fair also records her copying RKO's Astaire-Rogers formula as the model for Fox's skating musicals. The 1936 turn from amateur to professional skating and film is documented consistently; the Astaire remark is quoted through a journalist, so confidence is moderate."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_henie_vanityfair_jacobs, src_henie_snl_larsen | 1937-1952 | journalist's feature with skaters and publicist + Norwegian encyclopedia] From 1937 she ran her ice shows: Vanity Fair says she 'rode herd over every aspect of production' (music, costumes, chorus, box office, merchandise), and in 1951 she broke with Wirtz to produce her own show, which both sources describe as a costly business decision (Tom King: 'extraordinarily bad'; the Norwegian encyclopedia: she was unprepared for the financial and technical demands and lost the best halls). The Norwegian source says her second husband persuaded her that Wirtz took too much, so the break was not wholly her own initiative. dual_edged: wanting control over her own show raised her standing and then cost her. Two sources on the same decision."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_henie_vanityfair_jacobs, src_henie_wiehl_encyclopedia, src_henie_snl_larsen, src_henie_britannica | 1920s-1930s | journalist's feature + memoir-based essay (self-derived) + Norwegian encyclopedia + reference entry] From childhood she trained on a fixed schedule (three hours in the morning, two in the afternoon), took ballet from age five, and went to London to study with ballerinas (Karsavina in Vanity Fair; Pavlova's performance in the memoir-based essay) because she wanted her free-skating programme to blend dance and skating; the Norwegian encyclopedia says she wanted to choreograph to music she chose herself and to wear costumes that allowed more movement. Britannica gives the ballet influence and spin repertoire. The training schedule was set largely by her father, so only the deliberate ballet-and-choreography pursuit is counted; the memoir-based source is self-derived."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sonja-henie-agence-rol-1924.jpg",
+    "width": 1600,
+    "height": 1482,
+    "source": "Agence Rol press photograph, Bibliothèque nationale de France (Estampes et photographie, EI-13 (1077)), via Wikimedia Commons; cropped to the skater from the full frame",
+    "license": "Public domain (1924 press photograph; public domain in France and the United States)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-1996",
+    "attribution": "Agence Rol, photograph of Sonja Henie at the 1924 Winter Olympics, Chamonix, 27 January 1924; Bibliothèque nationale de France; public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Chamonix,_27-1-24,_miss_Sonya_Heurie_(i.e._Sonja_Henie,_aux_Jeux_olympiques_d%27hiver)_-_btv1b531245725.jpg",
+    "creator": "Agence Rol (press photograph agency)",
+    "date": "1924",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Chamonix,_27-1-24,_miss_Sonya_Heurie_(i.e._Sonja_Henie,_aux_Jeux_olympiques_d%27hiver)_-_btv1b531245725.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "소냐 헤니"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata Special:EntityData fetch (2026-10-08) for Q204205 returned label 'Sonja Henie', description 'Norwegian figure skater and actress (1912-1969)', P569 8 Apr 1912, P570 12 Oct 1969, citizenship Norway (Q20) and United States (Q30), ko label and kowiki sitelink '소냐 헤니', P18 'Sonja Henie 1942.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file.\nCLASSIFICATION: athlete / sport (primary sport kept; film not added because the film career is secondary to the skating identity and the field.film key is available but not claimed), era 20th_century, nationality NO and US (naturalised 1941 per Britannica/SNL), region western_europe (Nordic precedent), competitor tag and competitive_performer archetype are classification only, not evidence.\nEVIDENCE READ: 7 substantive records opened and read with curl and local text extraction (Store norske leksikon entry by Larsen and Korslund; Laura Jacobs, Vanity Fair 2014 via Internet Archive; Janet Wright, Pro Skating Historical Foundation; Wiehl in Women in World History via Encyclopedia.com; Independent obituary of Cecilia Colledge; Olympedia; Britannica) plus a blog relay (not used for rows) and Wikidata/Wikipedia for orientation.\nINDEPENDENT PERSPECTIVES: (1) Norwegian scholarly encyclopedia (Larsen/Korslund), domestic and critical; (2) Vanity Fair/Jacobs, journalism built on interviews with show skaters and a publicist, some hostile, some admiring; (3) Pro Skating Historical Foundation/Wright, skating-history writing from an event promoter's family archive; (4) Independent obituary of her 1936 rival (rival-side, adversarial but single anecdote). SELF perspective (counted once): her 1940 memoir Wings on My Feet as carried by Wiehl's encyclopedia essay and Vanity Fair quotations. Non-self behavioural sources: SNL, Vanity Fair, Pro Skating Historical Foundation, Independent.\nNOT ACCESSED: Wings on My Feet (1940; Internet Archive copy is lending-only, HTTP 401 on text download) and its Norwegian original Mitt livs eventyr (1938); Raymond Strait and Leif Henie, 'Queen of Ice, Queen of Shadows' (1985), described as one-sided by Vanity Fair's interviewees and not read; Time (1938 item, 17 July 1939 cover story), LIFE, Look, New York Times (1936 interview, 1969 obituary) and Variety were not available as full text (Google Books refused automated access and no archive text was found; no bypass attempted). The Time/Look/NYT material enters only as relayed by the Pro Skating Historical Foundation and Vanity Fair.\nEXCLUDED ON PURPOSE (zero-politics and health/private-life rules): the 1936 greeting and photographs with Hitler, the wartime portrait order and the 1941 Little Norway refusal, and the post-war debate about her attitude (all contested political material, left unscored and unspeculated); her illness (leukemia) and death; marriages, relationships and sexual-life remarks (Vanity Fair); alcohol use; her father's death as a trait explanation; fortune size, box-office rankings and honours as evidence; the 'greatest' and 'first' superlatives. Art collecting (Henie Onstad Art Center) is not scored because the Norwegian encyclopedia credits Niels Onstad with opening her eyes to abstract art, so it is a joint project, not individually attributable.\nROWS CONSIDERED AND LEFT UNSCORED: achievement_drive (the '10 championships then movies' goal appears only in a blog relay of a 1938 interview), discipline (the training regime was set by her father), perfectionism (journalist's characterisation only), persistence, risk_tolerance, conflict_tolerance, leadership_drive and collaboration (no individually attributable, multi-source evidence), cross_domain_range (sport to film is performance-adjacent).\nCONFLICTS REPORTED, NOT ADJUDICATED: how old she was when she got her first skates (age five per her brother, six per her own memoir, per Vanity Fair); her 1924 Olympic placing (last in a field of eight per Olympedia and SNL); whether she or her father drove the Hollywood campaign (credit shared in the rows); the amateur-status 'expense money' practice (open secret per SNL and Pro Skating Historical Foundation, never made an issue).\nPORTRAIT: Commons 'File:Chamonix, 27-1-24, miss Sonya Heurie (i.e. Sonja Henie, aux Jeux olympiques d'hiver) - btv1b531245725.jpg' (Agence Rol press photograph, 27 Jan 1924, Chamonix, BnF Estampes et photographie EI-13 (1077)). Commons wikitext read via API: tags PD-France, PD-1996 and PD-US-expired; author Agence Rol (commissioning agency); no copyright claim in the wikitext. Basis: photograph taken and distributed in 1924 (before 1931) by a French press agency; public domain in France before the 1996 US restoration date and expired in the US. UPSTREAM: the Gallica item page returned a Cloudflare block and was not bypassed, so the rights chain rests on the Commons wikitext and the BnF catalogue data it reproduces. The BnF title misspells her name as 'Sonya Heurie'; the Commons correction and the Norwegian encyclopedia's use of a 1924 Chamonix photo support identity. Original 8487x6115 (SHA1 matched), cropped to the skater (no upscaling), downscaled to 1600 px, JPEG q85. Shows her at age 11. REJECTED: 'Sonja Henie 1942.jpg' (Wikidata P18; Toronto Star, tagged PD-Canada only, source a Toronto Public Library search URL with no item-level rights notice, conflicting with TPL Star archive restrictions); Agence Rol 1931 photographs (1931 is after the pre-1931 line and carry only a bare agency basis); Norwegian National Library digitised photographs (undated, PD-Norway50 only).\nKOREAN NAME: '소냐 헤니' is the Wikidata ko label and the Korean Wikipedia title. No eligibility, coverage or match output was used in scoring. Status evidence_approved is proposed for lead review; scores kept <= 72 and confidence <= 0.62 because the evidence is largely journalistic retelling with a single rival-side anecdote and no access to the memoir or full biographies."
+  }
+}

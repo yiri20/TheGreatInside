@@ -1,0 +1,221 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jean-baptiste-charcot",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jean-Baptiste Charcot",
+    "aliases": [
+      "Jean Charcot",
+      "Commandant Charcot"
+    ],
+    "wikidataId": "Q463531",
+    "birthYear": 1867,
+    "deathYear": 1936,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "physician"
+    ],
+    "fieldIds": [
+      "exploration",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "leader"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_charcot_wikidata",
+      "kind": "wikidata",
+      "title": "Jean-Baptiste Charcot (Q463531) -- verified live via the Wikidata API (2026-10-08): English label 'Jean-Baptiste Charcot', English description 'French scientist (1867-1936)', French description 'medecin, explorateur polaire et sportif francais', born 15 July 1867, died 16 September 1936, citizenship France, instance of human; this is the polar explorer, not his father the neurologist Jean-Martin Charcot. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q463531"
+    },
+    {
+      "id": "src_charcot_oulie1938",
+      "kind": "biography",
+      "title": "Marthe Oulie, 'Charcot of the Antarctic' (John Murray, London, 1938; preface by Admiral Sir William Goodenough), Internet Archive scan of the English edition -- FRIENDLY, quotation-heavy biography by a woman of Charcot's circle, built largely on his own letters, journals and books and openly admiring (it ends in tribute); used for dated episodes with his own words. Read the chapters on the 1903 departure and the switch from north to south, the first Antarctic summer, wintering and return (chapters VIII-XII), the second expedition's fitting-out, the Deception Island decision and Charcot Land (about chapters XIII-XVI), the 1925 diversion toward Greenland, the Polar Year subsidy and the closing 'Charcot the man' pages; the childhood and father chapters and the wartime chapters were skimmed only.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.175821"
+    },
+    {
+      "id": "src_charcot_whynot1911",
+      "kind": "archive",
+      "title": "Jean Charcot, 'The Voyage of the Why Not? in the Antarctic: the Journal of the Second French South Polar Expedition, 1908-1910' (Hodder and Stoughton, London and New York, 1911; English version by Philip Walsh), Internet Archive full text -- FIRSTHAND journal of the second expedition, never used alone for a row. Read by searching the full text and reading around the passages on the introduction (relations with other explorers), Deception Island and the whalers, the 4 January 1909 boat trip to Cape Tuxen, the grounding on the rock, and the preserved-food illness; the rest of the 300-page journal was not read.",
+      "url": "https://archive.org/details/voyageofwhynotin00char"
+    },
+    {
+      "id": "src_charcot_rapport1927",
+      "kind": "archive",
+      "title": "J.-B. Charcot, 'Rapport preliminaire sur la campagne du Pourquoi-Pas? en 1927' (Annales hydrographiques, Imprimerie nationale, Paris, 1928), Internet Archive scan -- FIRSTHAND official cruise report. Read only the opening pages (organisation of the cruise, who commanded the ship, the named scientific staff, the Navy's instructions); the technical sections on soundings and dredging were not read.",
+      "url": "https://archive.org/details/j-b-charcot-rapport-preliminaire-sur-la-campagne-du-pourquoi-pas-en-1927"
+    },
+    {
+      "id": "src_charcot_amundsen1912",
+      "kind": "archive",
+      "title": "Roald Amundsen, 'The South Pole: an account of the Norwegian Antarctic Expedition in the Fram, 1910-1912' (John Murray, London, 1912), Internet Archive full text of the English edition -- RIVAL polar explorer's contemporary assessment, in the book's short 'History of the South Pole' chapter. Read the paragraph on Charcot's two expeditions and the surrounding paragraphs on the other early-1900s expeditions.",
+      "url": "https://archive.org/details/southpoleaccount01amunuoft"
+    },
+    {
+      "id": "src_charcot_academie1937",
+      "kind": "institution",
+      "title": "Academie des sciences, 'Ceremonie commemorative en hommage a Jean-Baptiste Charcot', Sorbonne, 2 October 1937 (Notices et discours, vol. II), speeches by Charles Maurain, General G. Perrier and Alfred Lacroix, PDF from academie-sciences.fr -- COLLEAGUE eulogies by Academy members, some of whom sailed with him or served beside him; commemorative and admiring in tone, but dated, specific and by several different speakers. Read in full (the speech by Louis Gain on the Antarctic voyages is not in the PDF).",
+      "url": "https://www.academie-sciences.fr/pdf/eloges/charcotJB_notice.pdf"
+    },
+    {
+      "id": "src_charcot_geus",
+      "kind": "institution",
+      "title": "A. K. Higgins, 'Exploration history of northern East Greenland' (Geological Survey of Denmark and Greenland, GEUS Bulletin 21, 2010), section on the 1925-36 voyages of the Pourquoi-Pas? -- INDEPENDENT scholarly regional history by a Danish-Greenland survey geologist, neutral in tone. Read the Charcot entry (voyages to the Scoresby Sund region, the 1931-33 French Polar Year station, the guests carried, the loss of the ship) and searched the rest of the volume for his name; the remaining expedition summaries were not read.",
+      "url": "https://www.geus.dk/media/13651/nr21_p017-116.pdf"
+    },
+    {
+      "id": "src_charcot_antarcticguide",
+      "kind": "press",
+      "title": "Antarctic Guide (antarcticguide.com), 'Jean-Baptiste-Etienne-Auguste Charcot: French Antarctic Expeditions (1908-10)', Heroic Age history page -- modern popular compilation (no named author), neutral and sourced in the way of a general history; read in full. It names the 4 January 1909 boat trip as a mistake that could have cost lives and records Amundsen's praise.",
+      "url": "https://antarcticguide.com/about-antarctica/antarctic-history/heroic-age/jean-baptiste-etienne-auguste-charcot-french-antarctic-expeditions-1908-10/"
+    },
+    {
+      "id": "src_charcot_coolantarctica",
+      "kind": "press",
+      "title": "Cool Antarctica, 'Jean-Baptiste Charcot - Second French Antarctic Expedition 1908-1910 - Pourquoi-Pas?' (coolantarctica.com), long narrative history page -- modern popular compilation that follows Charcot's journal closely and adds its own judgements (for example calling a decision 'uncharacteristic recklessness'); not independent of the journal on the facts. Read in full.",
+      "url": "https://www.coolantarctica.com/Antarctica%20fact%20file/History/antarctic_whos_who_charcot_pourquoi_pas.php"
+    },
+    {
+      "id": "src_charcot_lindahall",
+      "kind": "institution",
+      "title": "William B. Ashworth Jr., 'Jean-Baptiste Charcot', Scientist of the Day, Linda Hall Library (Kansas City), 15 July 2024 -- INDEPENDENT library history note by a historian of science, built on the Library's own sets of the two expeditions' published volumes; read in full.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/jean-baptiste-charcot/"
+    },
+    {
+      "id": "src_charcot_defense",
+      "kind": "institution",
+      "title": "'L'epopee du Francais et du Pourquoi Pas? Jean-Baptiste Charcot, le Polar Gentleman', Cols Bleus magazine, French Ministry of the Armed Forces (defense.gouv.fr), history section -- institutional popular history from the French Navy's own magazine, admiring in tone but specific; read in full.",
+      "url": "https://www.defense.gouv.fr/marine/cols-bleus/cols-bleus-magazine/histoire/lepopee-du-francais-du-pourquoi-pas-jean-baptiste-charcot-polar"
+    },
+    {
+      "id": "src_charcot_teive2014",
+      "kind": "archive",
+      "title": "Helio A. G. Teive, Francisco M. B. Germiniani and Renato P. Munhoz, 'Jean-Baptiste Charcot, the French Antarctic expedition and scurvy', Arquivos de Neuro-Psiquiatria 72(7), July 2014 (SciELO) -- scholarly historical note by neurologists, a close re-reading of Charcot's own journal; read in full. Used only for how he reported and handled the winter 1909 illness; never as support for any trait from the illness itself.",
+      "url": "http://www.scielo.br/j/anp/a/hnhM7nqjSVv7gKJV6ByVzHv/?lang=en"
+    },
+    {
+      "id": "src_charcot_boyd",
+      "kind": "press",
+      "title": "'Searching for Amundsen: Louise Arner Boyd aboard the Hobby', Sea History 177 (National Maritime Historical Society), PDF -- popular maritime-history article on a different ship's private search; read for its account of the French, Soviet and Norwegian ships gathered at Kings Bay in July 1928, including the Pourquoi-Pas? under Charcot. Read the relevant page only.",
+      "url": "https://seahistory.org/wp-content/uploads/SH177-LA-Boyd.pdf"
+    },
+    {
+      "id": "src_charcot_spri1933",
+      "kind": "institution",
+      "title": "Scott Polar Research Institute (Cambridge), Picture Library catalogue entry 'Cambridge East Greenland Expedition, 1933' -- institutional description of the three-man Cambridge party carried to Scoresby Sound in the Pourquoi-Pas? as Charcot's guests; read the introductory description.",
+      "url": "https://www.spri.cam.ac.uk/picturelibrary/catalogue/cege1933/"
+    },
+    {
+      "id": "src_charcot_medarus",
+      "kind": "archive",
+      "title": "'Jean-Baptiste CHARCOT (1867-1936)', medarus.org (Medecins et Explorateurs, French medical-history site) -- French biographical summary by a history-of-medicine site; read in full. Used for the chronology of the Arctic cruises and for his work on dredging methods.",
+      "url": "https://www.medarus.org/Medecins/MedecinsTextes/charcot_jb.html"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Oulie 1938; Linda Hall Library; French Navy magazine; Academie des sciences 1937 | 1903-1931 | friendly biography quoting letters + independent library history + institutional history + colleague eulogy] In April 1903, with a ship already being built for an Arctic cruise, Charcot wrote to his companion Pleneau that they would go south instead, to a coast on which 'very little exploration has been done', and the expedition was announced as the French contribution to the international Antarctic effort (Oulie quoting the letter; the Linda Hall note and the Navy magazine date the switch to the news that Nordenskjold's expedition was missing). He had already spent most of his inheritance on the ship, and when funds ran out the newspaper Le Matin opened a public subscription that, with grants, closed the budget (Navy magazine; Oulie gives 150,000 francs). In July 1931, on the day the Budget Commission withdrew the grant for the Polar Year station at Scoresby Sound, Oulie says he spent four hours catching members one by one in the Chamber's corridors until the money was voted five minutes before closing; Perrier's eulogy confirms the funds were secured only through President Doumer and that Charcot went in 1931 to choose the station sites a year ahead. Several dated, self-started undertakings from more than one kind of source; the Chamber anecdote rests on Oulie alone, so not scored higher."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Charcot 1911 journal; Antarctic Guide; Oulie 1938; Academie des sciences 1937; Linda Hall Library | 1905-1936 | firsthand journal + modern history + friendly biography + colleague eulogy + library history] The Francais struck an uncharted rock in January 1905 and was sold in Buenos Aires after the voyage (Oulie; Academie), yet within three years Charcot had a larger replacement built and sailed again; on 4-5 January 1909 the Pourquoi-Pas? hit a submerged rock only hours after the boat party was rescued, was lightened and hauled off after a day's work, and the expedition went on to chart further south (journal; Antarctic Guide). After the war the same ship made a long series of annual cruises, seventeen Arctic campaigns between 1920 and 1936 according to Perrier, which Charcot kept leading as expedition chief after the age limit took the command from him in 1925, and he edited the scientific volumes of both Antarctic expeditions (Linda Hall). Repeated and independently reported across three decades; kept below 75 because the same sources also show how much of the push came from the ship and her officers."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[Antarctic Guide; Cool Antarctica; Charcot 1911 journal; Oulie 1938; Amundsen 1912 | 1909-1910 | modern history + journal-based compilation + firsthand journal + friendly biography + rival explorer] On 4 January 1909 Charcot, Godfroy and Gourdon took a small motorboat toward Cape Tuxen with food for one meal and no shelter, and were cut off for three days by closing ice; the Antarctic Guide calls it 'a mistake that could have cost their lives' and the journal records the thin provisioning. In December 1909 a diver at Deception Island told him that a slight knock would sink the damaged ship; Oulie quotes Charcot's own account that he asked the diver and the whaling manager to say nothing and resolved to sail south, and he then discovered and named land at about 70 degrees S before turning north in January 1910 (Antarctic Guide and Cool Antarctica agree he went south despite the report, Cool says without telling officers and crew in full, while Oulie says the men supported him when they knew). The rival Amundsen wrote in 1912 that Charcot 'chose one of the most difficult fields of the Antarctic zone to work in', one where 'navigation' was 'in the highest degree risky'. dual_edged: the land discoveries and the near-losses came from the same readiness to carry on; the sources differ on how openly he told his crew."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[French Navy magazine; Academie des sciences 1937; Charcot 1911 journal; Antarctic Guide | 1903-1932 | institutional history + colleague eulogy + firsthand journal + modern history] For the first expedition he embarked ten specialists covering every discipline and carried prefabricated huts so that a shore station could be set up if the ship wintered in the ice (Navy magazine); the second ship was designed from the first ship's faults (Antarctic Guide, Cool Antarctica) and the Polar Year station site was reconnoitred a year ahead (Perrier). Against this, the 4 January 1909 boat trip was provisioned for a few hours only, and his own journal admits that the winter's stock of lamp oil was 'rather limited' 'through an error in my calculations'. Mixed evidence of careful preparation with some lapses, so a moderate score and confidence."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[Charcot 1911 journal; Academie des sciences 1937; Scott Polar Research Institute; GEUS Bulletin 21; Oulie 1938 | 1908-1936 | firsthand journal + colleague eulogies + institutional catalogue + Danish survey history + friendly biography] In the journal's introduction Charcot says he wrote to de Gerlache, Bruce, Scott, Shackleton, Nordenskjold and Drygalski for advice and that all of them gave him their experience; Oulie adds that Scott gave him advice on sledging and boots at Lautaret before 1908. In the Arctic he carried other parties as guests or partners: the Danish explorer Ejnar Mikkelsen in 1926 and a three-man Cambridge zoology party in 1933 (GEUS; Scott Polar Research Institute), the Paul-Emile Victor ethnographic mission to Angmagssalik in 1934-35 and a German cruise liner that ran aground at Torshavn (Perrier eulogy). Perrier writes that he surrounded himself with first-class officers and men who asked only to come back each year. Counter-evidence: Oulie records that Charcot, who thought the 1932 Polar Year leader Habert too fond of comforts, disliked him from the start, and that the two men's temperaments clashed. Many dated cases from several sources, but most of the praise is from friends and colleagues."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Academie des sciences 1937 (Lacroix); GEUS Bulletin 21; medarus.org | 1921-1936 | colleague eulogy + Danish survey history + medical-history site] In 1921 he took the Pourquoi-Pas? to the isolated islet of Rockall with the Navy's permission, at the urging of the Academy mineralogist Lacroix; Lacroix, who asked him to try, records that two seamen jumped onto the rock on 29 June and a draughtsman and a topman on 1 July, bringing back the rock samples that had eluded earlier attempts and that settled what the rock is made of. He then chose for his Arctic cruises the least-known coast, east Greenland, and returned there seven times (GEUS; Academie), carrying naturalists who brought back fossils, plants and insects, and medarus credits him with devising the dredging equipment and methods used on the cruises. The curiosity is shown by choices of destination and what the cruises collected rather than by direct quotation, so strong inference only."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Linda Hall Library; Oulie 1938; French Navy magazine; Academie des sciences 1937; Antarctic Guide | 1903-1936 | library history + friendly biography + institutional history + colleague eulogy + modern history] Charcot spent a large part of his inheritance fitting out the first expedition and took no pay on either Antarctic voyage (Linda Hall; Oulie, who says he also drew no wage at first as director of the floating laboratory). The Navy magazine says he left the race for the Pole to Scott and chose 'obscure' scientific and cartographic work; the whalers at Deception Island were using the charts from his first voyage when he arrived in 1908 (Antarctic Guide), and the journal and Oulie record that one aim of the 1910 season was to survey Joinville Island for whaling anchorages. Later he went to look for Amundsen's missing aeroplane in 1928 (Academie; Boyd) and, according to Oulie quoting him, once took his ship toward a missing Danish party in 1925 'against orders'. Consistent pattern, but several items rest on one source, so strong inference."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Oulie 1938; Cool Antarctica; Academie des sciences 1937 | 1903-1928 | friendly biography + journal-based compilation + colleague eulogy] He changed the 1903 programme from an Arctic cruise to an Antarctic one within weeks (Oulie); after the Francais was damaged in 1905 he gave up a second wintering, sold the ship and began a larger replacement (Oulie; Academie); in 1909 he gave up his wish to winter at Matha Strait and moved to the known anchorage at Petermann Island when the ice made the first choice unsafe (Cool Antarctica); in 1928 he dropped a planned sounding cruise near Greenland to join the search for Amundsen's aeroplane (Perrier eulogy). Several re-plannings, but each was a response to circumstances rather than a documented change of view, and the 1909 item rests on one compiler."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jean-baptiste-charcot-bain-1925.jpg",
+    "width": 1154,
+    "height": 1600,
+    "source": "Library of Congress, Prints and Photographs Division, George Grantham Bain Collection (Bain News Service, 12 June 1925), digital ID ggbain.04801, via Wikimedia Commons; the Bain caption reads 'Jean M. Charcot'",
+    "license": "Public domain (Bain News Service photograph, 1925; the Library of Congress reports no known copyright restrictions on its Bain collection)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste_Charcot.jpg",
+    "attribution": "Bain News Service photograph of Jean-Baptiste Charcot, 12 June 1925, Library of Congress, George Grantham Bain Collection; resized from the original scan, not altered otherwise",
+    "attributionUrl": "https://hdl.loc.gov/loc.pnp/ggbain.04801",
+    "creator": "Bain News Service (publisher; individual photographer not named)",
+    "date": "1925-06-12",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste_Charcot.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "장바티스트 샤르코"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE (2026-10-08): Wikidata API for Q463531 returned en label 'Jean-Baptiste Charcot', description 'French scientist (1867-1936)', born 1867-07-15, died 1936-09-16, citizenship France; ko label; P18 is the Bain portrait used here. It is the explorer, NOT his father the neurologist Jean-Martin Charcot (1825-1893); no row or portrait draws on the father. SLUG CHECK: jean-baptiste-charcot absent from scratch/prod_slugs.txt and from data-pipeline/candidates before this run. CLASSIFICATION: explorer + physician (trained and worked as a doctor before 1903; the later career is polar and oceanographic cruises); fields exploration and natural_science (his cruises were oceanographic, geological and biological collecting, per the Academie eulogies and medarus); not medicine, because the sources read describe no medical work after 1903 except the shipboard illness, which is deliberately not scored; tag explorer, field_researcher, leader; archetype scientific_explorer; impact domains scientific and historical; era 20th_century (expeditions 1903-1936), region western_europe (as other French people). Military/naval service in 1914-18 (including the auxiliary-cruiser and decoy-ship commands) and the 1925 age-limit retirement from command are incidental and unscored (zero-politics rule). The 1936 loss of the ship is not used for any row and nothing is inferred from his death. EVIDENCE READ: 15 records (14 substantive + 1 orientation). Perspectives: SELF (Charcot's 1911 journal and 1928 cruise report, never used alone); FRIENDLY BIOGRAPHER (Oulie 1938, who used his letters; admiring); RIVAL (Amundsen 1912); COLLEAGUE EULOGISTS (Maurain, Perrier, Lacroix at the Academie des sciences, 1937); DANISH-GREENLAND SURVEY HISTORIAN (Higgins, GEUS); LIBRARY HISTORIAN (Ashworth, Linda Hall); French Navy magazine; modern compilers (Antarctic Guide, Cool Antarctica, medarus.org); neurologist-historians (Teive et al., read only for how he reported the winter illness); SPRI and Sea History for specific voyages. NOT ACCESSED: Marthe Oulie's French original, Charcot's 'Le Francais au Pole Sud' (1906; downloaded, not read), 'Le Pourquoi-Pas? dans l'Antarctique' (1910, French) and the full text of the Walsh translation beyond the passages named; Polar Record and Geographical Journal obituaries (paywalled); Louis Gain's speech in the 1937 Academie ceremony (not in the PDF); Jean-Louis Faure, 'Au Groenland avec Charcot' (1932); Paul-Emile Victor's recollections; the Gallica press of 1905 and 1910. SCOPE CAVEATS: the two Antarctic expeditions are described largely through Charcot's own journal, so most firsthand detail is self-reported; the independent confirmations are Amundsen on the difficulty, the modern histories on the near-losses, and the Academie speakers on the Arctic cruises. Sources disagree on the number of published expedition volumes (24 in the Linda Hall set; 28 in the popular compilations), so no card quotes a number. The question of how openly Charcot told his crew about the hull damage in December 1909 differs between Cool Antarctica and Oulie and is recorded as such. Private life (marriages, divorce, family) and the winter 1909 illness are not scored. PORTRAIT: Library of Congress Bain News Service photograph of 12 June 1925 (digital ID ggbain.04801), original 3883x5384, reduced to 1154x1600 (no upscaling). Rights basis: the Commons wikitext applies the Bain public-domain template and records the Library's 'no known copyright restrictions' statement; the Library's own item pages (loc.gov and hdl.loc.gov) returned a bot-wall (HTTP 403 'Just a moment') and were NOT bypassed, so the live LOC rights note could not be read directly and the portrait's rights basis is the Commons record plus the date of the photograph (1925, before 1931). Identity: the Bain caption reads 'Jean M. Charcot', but the father died in 1893, the photograph is dated 1925, the sitter is a bearded man of about 57 in a ship's-rail setting, and Wikidata uses this file as the explorer's image, so it is treated as the son with that caption slip noted. LEAD REVIEW NOTES: top row scores are 72-74 with confidence 0.62 or below; no row at or above 82 or 0.70."
+  }
+}

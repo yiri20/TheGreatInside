@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-dalton",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John Dalton",
+    "wikidataId": "Q41284",
+    "birthYear": 1766,
+    "deathYear": 1844,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "physicist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "self_taught",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dalton_wikidata",
+      "kind": "wikidata",
+      "title": "John Dalton (Q41284) -- verified live via wbgetentities (2026-10-09): en label 'John Dalton', description 'British chemist and mathematician (1766-1844)', born 6 Sep 1766, died 27 Jul 1844, citizenship United Kingdom of Great Britain and Ireland, ko label '존 돌턴'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q41284"
+    },
+    {
+      "id": "src_dalton_roscoe1895",
+      "kind": "biography",
+      "title": "Sir Henry E. Roscoe (Manchester chemist, editor of the Century Science Series), 'John Dalton and the Rise of Modern Chemistry' (Macmillan, London and New York, 1895), Internet Archive scan -- ADMIRING biography by a later Manchester chemist who worked in the archives of the Literary and Philosophical Society (laboratory notebooks, lecture manuscripts, letters, pupils' and friends' recollections such as Miss Johns, Jonathan Otley, Dr Ransome, Lyon Playfair). Read in full, chapters 1-9 (early life, Manchester, colour vision, gas researches, daily life, atomic theory, lectures and honours, character and last years); the appendices and facsimiles were not read. It also candidly lists Dalton's weaknesses (rough apparatus, rejection of Gay-Lussac and of Berzelius's symbols, rudeness).",
+      "url": "https://archive.org/details/johndaltonandri02roscgoog"
+    },
+    {
+      "id": "src_dalton_henry1854",
+      "kind": "biography",
+      "title": "William Charles Henry (Manchester physician, F.R.S.; Dalton's pupil and the son of his friend Dr William Henry), 'Memoirs of the Life and Scientific Researches of John Dalton' (Cavendish Society, London, 1854), Internet Archive scan -- the first full biography, written from Dalton's letters, journals and conversations by a pupil-friend; ADMIRING but openly critical on points of science (his experimental accuracy, his rejection of Gay-Lussac's law of volumes). Read chapters 4 (atomic theory, Davy, Gay-Lussac, Berzelius letter), 6 (second part of the New System), 7 (Royal Society, Paris, pension) and the character sections of chapter 9; chapters 1-3, 5 and 8 were searched and sampled, the appendix on colour-blindness was not read.",
+      "url": "https://archive.org/details/memoirsoflifesci00henruoft"
+    },
+    {
+      "id": "src_dalton_roscoe_harden1896",
+      "kind": "archive",
+      "title": "Henry E. Roscoe and Arthur Harden, 'A New View of the Origin of Dalton's Atomic Theory' (Macmillan, London, 1896), Internet Archive scan -- CRITICAL scholarly study based on Dalton's twelve volumes of laboratory notebooks and his 1810 Royal Institution lecture notes in the Manchester Literary and Philosophical Society, together with previously unpublished letters (including Berzelius to Dalton, 1812, and Dalton to Berzelius, 1812). Read chapter 1 in full (how the theory arose, the competing accounts by Thomson, Henry, Angus Smith and Debus), the discussion of Dalton's attitude to Gay-Lussac's law, and the Berzelius correspondence; the long tables of calculations and most of the remaining letters were skimmed or not read.",
+      "url": "https://archive.org/details/newviewoforigino00roscuoft"
+    },
+    {
+      "id": "src_dalton_thomson1831",
+      "kind": "biography",
+      "title": "Thomas Thomson (Glasgow professor of chemistry, Dalton's contemporary and first public champion), 'The History of Chemistry' vol. 2 (London, 1831), chapter on the atomic theory, Internet Archive scan -- CONTEMPORARY ADVOCATE's account, including his own journal of a visit to Dalton in Manchester on 26 August 1804, his remarks on Dalton's way of life, and his report of Sir Humphry Davy's resistance to the atomic theory in 1807. Read the Dalton section in full (about 25 pages); the rest of the volume was not read.",
+      "url": "https://archive.org/details/historyofchemist02thomuoft"
+    },
+    {
+      "id": "src_dalton_merz1896",
+      "kind": "biography",
+      "title": "John Theodore Merz, 'A History of European Thought in the Nineteenth Century' vol. 1 (Blackwood, Edinburgh and London, 1896), Internet Archive scan -- INDEPENDENT historian of ideas, not a Manchester or Dalton partisan; read the passages on Dalton's atomic theory (priority against Higgins, citing Wurtz and Kopp), his reliance on his own experiments, and the footnote recording that Dalton alone doubted Gay-Lussac's figures although Thomson and Berzelius urged their value. Read these passages and their surroundings only; the rest of the two-volume work was not read.",
+      "url": "https://archive.org/details/historyofeurope01merziala"
+    },
+    {
+      "id": "src_dalton_berzelius1812",
+      "kind": "archive",
+      "title": "Letters between Jons Jacob Berzelius and Dalton, London and Manchester, 1 August, 20 September and 13 October 1812, as printed in Roscoe and Harden (1896) and in Henry (1854) from the manuscripts in the Manchester Literary and Philosophical Society -- CONTEMPORARY PEER correspondence (the Swedish chemist who adopted Dalton's atomic theory) in which Berzelius tells Dalton his rejection of Gay-Lussac's volume experiments is mistaken, and Dalton replies. Read in full in both printings.",
+      "url": "https://archive.org/details/newviewoforigino00roscuoft"
+    },
+    {
+      "id": "src_dalton_selfwritings",
+      "kind": "archive",
+      "title": "John Dalton's own papers, lectures and letters, as quoted in Roscoe (1895), Henry (1854) and Roscoe and Harden (1896): 'Extraordinary Facts relating to the Vision of Colours' (Manchester Memoirs, read 31 October 1794), the 'Constitution of mixed gases' essays (read October 1801), the 1803 table of relative weights of ultimate particles, A New System of Chemical Philosophy (1808, 1810), his Royal Institution lecture notes of 1810, his reply to Davy on the polar expedition (1818), and the 1840 note on the Royal Society -- SELF SOURCE, never the sole perspective for a row. Read only in the quotations of the three books above; the original volumes were not opened.",
+      "url": "https://archive.org/details/newviewoforigino00roscuoft"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_dalton_roscoe1895, src_dalton_roscoe_harden1896, src_dalton_merz1896, src_dalton_henry1854, src_dalton_berzelius1812 | 1790s-1837 | admiring biography + archival study + independent historian + pupil biography + peer letter] Dalton's own 1810 lecture notes (quoted by Roscoe and Harden) describe how, finding the chemical-affinity explanation of the atmosphere unworkable, he worked out on paper that each gas must act independently and that atoms of different gases differ in size, the route to his atomic weights; Merz, following Kopp and Wurtz, records that Dalton reached the theory undividedly his own and that he distrusted facts he had not verified himself. Roscoe quotes the preface of his New System ('having been in my progress so often misled by taking for granted the results of others, I have determined to write as little as possible but what I can attest by my own experience') and calls his disregard for others' views a failing common in self-educated original minds; Roscoe notes that, short of books, his Meteorological Essays reached conclusions already published by Hadley (trade winds) and De Luc (barometer variation) without his knowing it, and that he acknowledged De Luc once he learned of it. The same stance cost him: Merz notes he alone doubted Gay-Lussac's figures although Thomson and Berzelius urged him otherwise, and in 1837 he called Berzelius's chemical symbols 'horrifying' (Roscoe). dual_edged. Several dated instances from independent, admiring and contemporary sources; capped because the strongest items are Dalton's own account of his reasoning."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dalton_roscoe1895, src_dalton_henry1854 | 1787-1844 | admiring biography + pupil biography, with firsthand Otley and Johns recollections] Roscoe, working from the volumes in the Manchester Literary and Philosophical Society, reports a daily meteorological journal begun at Kendal on 24 March 1787 and kept, with about 200,000 observations, until the evening before his death; a neighbour set her clock by seeing him open his window to read his thermometers. Roscoe says he climbed Helvellyn some forty times with barometer and dew-point apparatus, and Dalton's own 1821 paper (quoted by Roscoe) says he made such mountain observations almost every summer from 1803; Jonathan Otley, a Keswick guide who walked with him, describes the trips (quoted by Roscoe and Henry). Several independent witnesses to the routine over decades; the 'no break' and '200,000' figures come from Roscoe's reading of the notebooks and were not independently counted."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dalton_roscoe1895, src_dalton_henry1854 | c.1800-1844 | admiring biography + pupil biography, quoting Miss Johns (his landlady's daughter) and Peter Clare] Miss Johns's account of nearly thirty years in the same house (quoted by Roscoe and Henry) gives a fixed daily timetable: up at eight, fire lit in the laboratory before breakfast, laboratory until dinner at one, laboratory again until supper at nine, a single weekly afternoon of bowls on Thursdays with a set number of games. Roscoe adds that, as president, he was punctilious that meetings of the Literary and Philosophical Society begin at seven and end at nine, and had a clock presented to the Society that strikes once a day, at nine; Roscoe, who read through Dalton's account books, adds that they record every small outgoing, down to the last entry in July 1844. The same sources are admiring, but the habits are described by people who lived or worked beside him over many years."
+    },
+    "experimentation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_dalton_roscoe1895, src_dalton_henry1854, src_dalton_thomson1831 | 1799-1810 | admiring biography + pupil biography + contemporary advocate] Roscoe describes tests devised with home-made apparatus: a hot poker plunged into water with thermometers at different depths (1799) to contest Rumford's claim that liquids do not conduct heat; a barometer-tube method and an air-pump method for the force of steam; mixed-gas diffusion in phials joined by a tube or a clay pipe; dew-point readings on mountain springs with a tumbler, adding nitre and sal ammoniac when the water was not cold enough. Henry and Roscoe both conclude he was not great as an exact experimenter (rough instruments; Henry compares his experimental work unfavourably with that of Berzelius, Davy and Gay-Lussac). dual_edged: many original, improvised tests, but accuracy limited. Several dated instances; moderate confidence because the assessments are by admirers who were chemists themselves."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dalton_roscoe1895, src_dalton_henry1854 | 1780s-1830s | admiring biography + pupil biography] From a weaver's family with few resources, Dalton ran a village school at about twelve, later a school with his brother in Kendal, then took private pupils in Manchester at a shilling or two a lesson and acted as consulting chemist for water analyses, which Roscoe says kept him in bread while his research continued. He built his own barometers and thermometers (selling them to Peter Crosthwaite for 18s and 6s, Roscoe) and a rain-gauge from a stool and funnel for a village correspondent, and improvised diffusion tubes from clay pipes. Roscoe and Henry both reproduce letters showing these methods. Several dated examples, though from friendly biographers."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dalton_roscoe_harden1896, src_dalton_roscoe1895, src_dalton_thomson1831, src_dalton_merz1896 | 1801-1810 | archival study + admiring biography + contemporary advocate + independent historian] Roscoe and Harden transcribe Dalton's 1810 lecture notes: to reconcile the Newtonian picture of repelling particles with a mixture of different gases he 'combined my atoms upon paper', drew diagrams of atoms surrounded by heat, and concluded that different gases must have different atom sizes and that atoms of one gas do not repel those of another. His laboratory notebook for 6 September and 12 October 1803 introduces circular symbols for atoms and compounds and tables of relative weights (Roscoe). Thomson's journal of his 1804 visit says Dalton explained the composition of bodies through symbols and numbers, 'happy idea ... that gave Mr. Dalton's opinions so much clearness'. Merz regards the whole as one mental representation. The accounts of exactly how the idea arose disagree (Thomson and Henry versus Roscoe and Harden), but all agree it was his own abstract model of gas mixtures and combination in fixed proportions. Capped below 80 because much of the evidence is Dalton's self-report and the numbers themselves were crude."
+    },
+    "belief_updating": {
+      "score": 42,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_dalton_henry1854, src_dalton_roscoe1895, src_dalton_merz1896, src_dalton_berzelius1812, src_dalton_roscoe_harden1896 | 1803-1837 | pupil biography + admiring biography + independent historian + peer letter + archival study] On combining volumes of gases he held out against evidence for decades: Henry says he 'persisted in withholding his assent' from Gay-Lussac's law from 1809 and that he never 'heartily and unreservedly accepted it'; Merz notes he alone doubted Gay-Lussac's figures although Thomson and Berzelius urged their value; Dalton wrote to Berzelius on 20 September 1812 that he did 'not admit' the French doctrine of equal measures of combining gases 'in a mathematical sense', and Berzelius answered on 13 October that these experiments were the finest proofs of the atomic theory and that he would not readily think Gay-Lussac in error (Roscoe and Harden; Henry); in 1837 he still called Berzelius's chemical symbols 'horrifying' and kept his own circles to the end (Roscoe). Against this, Henry records that in 1827 he accepted Dulong and Petit's refutation of his laws of temperature ('I have made some experiments ... which lead me to adopt the results of Dulong') and Roscoe shows him revising his tables of atomic weights in 1803, 1808 and 1810 and acknowledging De Luc's priority on the barometer. Mixed; the weight falls on one long-running refusal, hence a below-average score. Roscoe and Harden also point out that Dalton's conclusion was in a strict sense the more correct one. dual_edged."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_dalton_roscoe1895, src_dalton_henry1854, src_dalton_selfwritings, src_dalton_thomson1831 | 1793-1842 | admiring biography + pupil biography + self papers + contemporary advocate] After six years as tutor at the Manchester Academy (1793-99) he left to teach privately and keep his time free for research (Roscoe); Thomson says he supported himself in independence by pupils and occasional lectures, indifferent to income. In 1810, by his own statement of 1840 (quoted by Henry), he declined Davy's invitation to be put forward for the Royal Society (Henry guesses at the fee but Dalton gave no reason). In 1818 he refused a paid place on the Admiralty polar expedition because it meant giving up sedentary habits and interrupting his chemical work (his reply to Davy, Roscoe and Henry). He told the Manchester Society that he could carry all the books he had ever had on his head, discouraging a periodicals library (Roscoe). Several dated choices pointing the same way, but motives are partly inferred."
+    },
+    "persuasiveness": {
+      "score": 44,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "[src_dalton_roscoe1895, src_dalton_roscoe_harden1896, src_dalton_thomson1831, src_dalton_henry1854 | 1787-1810 | admiring biography + archival study + contemporary advocate] Roscoe records that his early Kendal lectures drew few subscribers (he halved the fee in 1791), that the Quarterly Review criticised his rough speech and provincial accent as a London lecturer, and that 'he was not a brilliant exponent of scientific truth'; Roscoe also says the atomic theory was brought before the scientific world by Thomson's lectures and 1807 textbook rather than by Dalton, and that Davy resisted it as late as 1811. Dalton's own letters mention an Edinburgh class of eighty in 1807 and applause at the Royal Institution in 1804 after Davy coached him on his first lecture. The record is of an unadorned, unpolished speaker who nevertheless gathered audiences; moderate-to-low score, moderate confidence."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dalton_roscoe1895, src_dalton_henry1854, src_dalton_selfwritings | 1787-1801 | admiring biography + pupil biography + self papers] Roscoe and Henry list investigations Dalton took up on his own initiative: an eleven-volume herbarium and insect collection from the Kendal district; experiments on snails, mites and maggots in water and in a vacuum; weighed food and excreta on himself to estimate insensible perspiration; an English grammar (1801); the aurora and its relation to magnetism; and, when he noticed in 1792 that a geranium looked different to him by candlelight, a systematic inquiry into colour vision with his brother and friends, including letters to a Maryport shoemaker to question other affected people. The breadth is documented; the motive is inferred from the pattern rather than stated by an independent witness, hence moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 돌턴"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-09T00:00:00Z",
+    "updatedAt": "2026-10-09T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-09) for Q41284 returned en label 'John Dalton', en description 'British chemist and mathematician (1766-1844)', ko label '존 돌턴', P569 6 Sep 1766, P570 27 Jul 1844, citizenship Q174193 (United Kingdom of Great Britain and Ireland), P18 'John Dalton. Line engraving by W. H. Worthington, 1823, after ... Wellcome V0006489.jpg'; matches the intended person. SLUG CHECK: john-dalton is not in scratch/prod_slugs.txt and no candidate file existed. CLASSIFICATION: occupations chemist, physicist, teacher; fields chemistry and physics (both have field.* keys in src/core/i18n/en.ts; physics also fits his gas laws, meteorology has no field key); region western_europe (as michael-faraday and isaac-newton); nationality GB; era 19th_century (career 1787-1844); tags self_taught (documented in Roscoe and Henry) and systematic_thinker; archetype scientific_explorer (as michael-faraday). EVIDENCE READ: seven substantive records plus the self source and one orientation record: Roscoe 1895 (chapters 1-9 read in full), Henry 1854 (chapters 4, 6, 7 and parts of 9 read; chapters 1-3, 5, 8 searched and sampled), Roscoe and Harden 1896 (chapter 1, the Gay-Lussac discussion and the Berzelius letters), Thomson 1831 (Dalton chapter), Merz 1896 (passages), the 1812 Berzelius-Dalton letters, and Dalton's own papers as quoted in those books. PERSPECTIVES: (1) SELF: Dalton's papers, lecture notes and letters, only as quoted; (2) ADMIRING biographers: Roscoe (a later Manchester chemist) and Henry (pupil and friend), both of whom state Dalton's flaws openly; (3) ARCHIVAL/CRITICAL scholarship: Roscoe and Harden on the notebooks, with the disputed genesis of the theory; (4) CONTEMPORARY ADVOCATE: Thomson, whose 1804 journal and 1807 textbook introduced the theory; (5) CONTEMPORARY PEER: Berzelius's 1812 letters; (6) INDEPENDENT historian of ideas: Merz. NON-SELF BEHAVIOURAL sources: all of the above. NOT AVAILABLE / NOT READ: R. Angus Smith, 'Memoir of John Dalton and History of the Atomic Theory' (1856) was searched for on the Internet Archive but not found as full text and was not read (it is cited second-hand by Roscoe and by Roscoe and Harden); Elizabeth Patterson, 'John Dalton and the Atomic Theory' (1970) and Frank Greenaway's biography were not accessible and not read; Edwin Constable, 'John Dalton - the man and the myth', Dalton Transactions 51 (2022) 768-776, sits behind a Royal Society of Chemistry bot-check page that was not bypassed and so was not read; the Wikisource DNB page does not exist and MacTutor's biography URL has moved, so neither was used; George Wilson's 1865 appendix on colour-blindness and the Manchester Memoirs obituary were not read. EPISODE USE: 1787-1844 meteorological journal and Helvellyn trips -> persistence; fixed daily timetable and account books -> discipline; mixed-gas, diffusion and heat experiments -> experimentation and resourcefulness; 1810 notes, symbols, relative weights -> systems_abstraction and independent_thinking; 1809-1812 Gay-Lussac refusal, 1837 view of Berzelius's notation versus acceptance of Dulong and Petit in 1827 -> belief_updating; leaving the Academy, declining the Royal Society in 1810 and the polar expedition in 1818 -> autonomy_need; lecturing record -> persuasiveness; herbarium, insect, self-weighing, grammar, aurora, colour-vision inquiry -> curiosity. ROWS CONSIDERED AND LEFT UNSCORED: conflict_tolerance (his disagreements with Gough, Davy and Gay-Lussac are documented but mostly conducted in print and are already used under independent_thinking and belief_updating); proactive_agency and opportunity_sensing (early school-keeping and the choice of Edinburgh and Glasgow for lectures are only self-reported); mastery_orientation and detail_orientation (rest on Roscoe's adjectives); risk_tolerance, adaptability, collaboration (no clear dated behaviour; the Quaker business is private); achievement_drive and impact_motivation (would rest on honours and outcomes); decisiveness; leadership_drive (he was president of the Literary and Philosophical Society from 1817, but the sources describe the post, not leadership behaviour). EXCLUDED ON PURPOSE: his colour-vision deficiency is a documented subject of his own 1794 paper and appears only as a work fact in the editorial, with no trait inferred from it, his later lead-poisoning scare, paralytic attacks, last years and death, which are not read as traits; his Quaker religion and private feelings (Nancy Wilson, Hannah, bachelorhood), which are only mentioned where they bear on professional behaviour, and not scored; his politics (Roscoe says he took no part) and the king's audience anecdote; the pension, medals and honours as outcomes; the 1840 phosphate paper, which the Royal Society declined to print, treated as part of his decline and not used; the priority dispute with William Higgins (Roscoe, Henry and Merz all hold that Dalton reached the theory independently and Merz, citing Wurtz and Kopp, says the honour belongs to him; that is stated as these historians' judgement, not adjudicated here). CONFLICTS REPORTED, NOT ADJUDICATED: (a) how the atomic theory arose: Thomson and Henry (the carburetted hydrogens and the oxides of nitrogen, with Richter's tables) versus Roscoe and Harden (a physical model of gas mixtures first), with Debus proposing yet another path; the editorial states only what Dalton published; (b) why he refused Gay-Lussac: Kopp's explanation (the specific gravities of the time) is rejected by Henry; Roscoe and Harden say his view was in a strict sense the more correct; no motive is asserted; (c) why he declined the Royal Society in 1810: Dalton gave no reason; Henry's guess (the fee) is flagged as a guess; (d) the date of the first table of atomic weights (October 1803 read; printed November 1805 after possible alterations, per Henry). PORTRAIT: the Wikidata P18 image (William Henry Worthington's 1823 line engraving, Wellcome Collection V0006489) is CC BY 4.0 and was NOT used, as instructed. CHOSEN: the frontispiece of Roscoe's 1895 book, a photogravure (signed Meisenbach) after Joseph Allen's 1814 portrait painted for the Manchester Literary and Philosophical Society (Henry says Allen painted it in 1814; Roscoe says it is a reduction of the well-known engraving of the painting by Allen). Extracted at its embedded size of 550x776 pixels from the Google scan on the Internet Archive (identifier johndaltonandri02roscgoog, metadata 'possible-copyright-status NOT_IN_COPYRIGHT'); not resized or upscaled; saved as JPEG; the file opens and was viewed (a seated man in spectacles, hand to his temple, with laboratory glassware and a sheet of atomic symbols at left). Basis: published in London and New York in 1895, hence US public domain (published before 1931), and the original painting dates from 1814 (the painter died in 1839). Kind: historical depiction (a later photomechanical reproduction of a painting). Caveats: no Manchester Society or other institutional item page was consulted, so there is no conflicting live rightsholder notice to reconcile; the Meisenbach signature is the reproducer's; the 1814 date is Henry's. KOREAN NAME: the Wikidata ko label. No eligibility, coverage or match output was used in scoring; scores and confidences were fixed before the validator was run."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-dalton-allen-1814.jpg",
+    "width": 550,
+    "height": 776,
+    "source": "Frontispiece of Henry E. Roscoe, John Dalton and the Rise of Modern Chemistry (Macmillan, London and New York, 1895), a photogravure after Joseph Allen's 1814 portrait, via Internet Archive",
+    "license": "Public domain (book published in 1895; the painting is from 1814)",
+    "licenseUrl": "https://www.copyright.gov/help/faq/faq-duration.html",
+    "attribution": "Portrait of John Dalton by Joseph Allen (1814), reproduced as the frontispiece of Roscoe's John Dalton and the Rise of Modern Chemistry, 1895 (reproduction signed Meisenbach)",
+    "attributionUrl": "https://archive.org/details/johndaltonandri02roscgoog",
+    "creator": "Joseph Allen (painter, 1814); photogravure reproduction signed Meisenbach (1895)",
+    "date": "1814 (painting); 1895 (reproduction)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://archive.org/details/johndaltonandri02roscgoog"
+  }
+}

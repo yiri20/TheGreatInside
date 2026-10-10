@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hugo-junkers",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hugo Junkers",
+    "aliases": ["Heinrich Hugo Junkers"],
+    "wikidataId": "Q60363",
+    "birthYear": 1859,
+    "deathYear": 1935,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["DE"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["engineer", "inventor", "entrepreneur"],
+    "fieldIds": ["engineering", "technology"],
+    "impactDomains": ["technological", "engineering", "industrial", "innovation"],
+    "tagIds": ["innovator", "founder"],
+    "archetypeIds": ["technical_innovator", "entrepreneurial_builder"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_junkers_wikidata",
+      "kind": "wikidata",
+      "title": "Hugo Junkers (Q60363) -- verified live via Wikidata Special:EntityData (2026-10-08): en label 'Hugo Junkers', description 'German aviation pioneer (1859-1935)', born 3 Feb 1859, died 3 Feb 1935, citizenship Germany, GND 118776525, image 'Bundesarchiv Bild 146-2005-0007, Hugo Junkers.jpg'; no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q60363"
+    },
+    {
+      "id": "src_junkers_wikipedia",
+      "kind": "wikipedia",
+      "title": "Hugo Junkers -- English and German Wikipedia articles (raw wikitext), read as orientation only and to flag contested points (Reissner's share in the first all-metal aircraft; the circumstances of his last years); not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Hugo_Junkers"
+    },
+    {
+      "id": "src_junkers_ndb1974",
+      "kind": "biography",
+      "title": "Gert Behrsing, 'Junkers, Hugo', Neue Deutsche Biographie 10 (1974), pp. 695-697, deutsche-biographie.de -- scholarly encyclopedia biography, read in full (career from the Aachen and Dessau gas-engine work, the 1892 calorimeter and opposed-piston engine, the 1895 firm, the Aachen chair, the 1910 thick-wing patent, J 1, F 13, the airline, Ju 52, the 1925-27 finance committee and the 1932 crisis). Written from archive material in the Deutsches Museum and standard older biographies; admiring of his technical record but dated and factual in tone.",
+      "url": "https://www.deutsche-biographie.de/pnd118776525.html"
+    },
+    {
+      "id": "src_junkers_byers2008",
+      "kind": "biography",
+      "title": "Richard Byers, 'An Unhappy Marriage: The Junkers-Fokker Merger', Journal of Historical Biography 3 (Spring 2008), pp. 1-30 (open access, University of the Fraser Valley) -- peer-reviewed scholarly article by a historian whose doctoral work was on Junkers, based on Junkers company correspondence, his diary notes and army-inspectorate files. Read in full: the J 1 years 1915-16, the financing letters, the December 1916 meeting with Fokker, the 1917 merger, the 1918 dispute over the research institute and the 1919 break-up. Independent of the company and of the family; also reports the army's unflattering view of him.",
+      "url": "http://www.ufv.ca/jhb/volume_3/volume_3_byers.pdf"
+    },
+    {
+      "id": "src_junkers_lvr",
+      "kind": "institution",
+      "title": "Christoph Kaltscheuer, 'Hugo Junkers', Portal Rheinische Geschichte (Landschaftsverband Rheinland), published 2 September 2016, last changed 21 December 2021 -- regional-history biography, read in full: schooling and training, the engine station with Oechelhaeuser, the 1912 resignation from the Aachen chair after internal disputes over his research intensity, the post-1919 civil turn, the contacts with the Bauhaus, the 1932 sale of the heater firm.",
+      "url": "https://www.rheinische-geschichte.lvr.de/Persoenlichkeiten/hugo-junkers/DE-2086/lido/57c9304667ae88.38671048"
+    },
+    {
+      "id": "src_junkers_dm_findbuch",
+      "kind": "archive",
+      "title": "Archiv des Deutschen Museums, Munich, Findbuch FA 043 Junkers-Werke, Teilbestand Metall- und Hausbau (Juhaus), status 12 Oct 2023 -- archive finding aid whose introduction (read in full) summarises the company history, the products made during the 1921-22 aircraft-building ban, the systematic house-building research from 1926, and states that contacts with the Bauhaus did not lead to close cooperation in house building. The 1,300-plus file list was skimmed, not read.",
+      "url": "https://www.deutsches-museum.de/assets/Forschung/Archiv/Download/Findbuecher_PDF/FA_043_Juhaus.pdf"
+    },
+    {
+      "id": "src_junkers_lemo",
+      "kind": "institution",
+      "title": "Ulrike Triebs, 'Hugo Junkers 1859-1935', LeMO (Lebendiges Museum Online), Deutsches Historisches Museum, Berlin, status 14 September 2014 -- dated institutional chronology, read in full: the 1910 patent, J 1, the Junkers-Fokker works, the air-traffic department of 1921, the attempts to work around the aircraft-building ban, the Bauhaus contacts, the tensions with senior staff before 1933.",
+      "url": "https://www.dhm.de/lemo/biografie/hugo-junkers"
+    },
+    {
+      "id": "src_junkers_sz2010",
+      "kind": "press",
+      "title": "Sebastian Beck, 'Ein freier Geist' (150th birthday of Hugo Junkers), Sueddeutsche Zeitung, 2 Feb 2009 / online 17 May 2010 -- newspaper feature, read in full, built partly on interviews with his grandson Bernd Junkers, who manages the family papers; used only for the working-pattern details and the F 13 and company figures it states, with that family connection noted.",
+      "url": "https://www.sueddeutsche.de/auto/150-geburtstag-von-hugo-junkers-ein-freier-geist-1.482001"
+    },
+    {
+      "id": "src_junkers_warhistory",
+      "kind": "press",
+      "title": "'Fokkers and Junkers', WarHistory.org, 16 September 2018 -- long web article read in full; a Fokker-centred account of the Berlin and Dessau negotiations of December 1916 to October 1917 and of the J 1 and J 4 aircraft. The page does not name its author or sources, so it is used only as a second, Fokker-side view of events that Byers also documents.",
+      "url": "https://warhistory.org/fr/article/fokkers-and-junkers?amp=0"
+    },
+    {
+      "id": "src_junkers_naca565",
+      "kind": "archive",
+      "title": "Dr. Gasterstaedt (Junkers engineer), 'Development of the Junkers-Diesel Aircraft Engine', NACA Technical Memorandum No. 565 (Washington, May 1930), translated from Automobiltechnische Zeitschrift, 10 and 20 January 1930 -- company-insider technical paper, first pages read (the two-stroke principle chosen for the aircraft diesel); used only for what the engine was, not for any behaviour.",
+      "url": "https://archive.org/details/NASA_NTRS_Archive_19930094849"
+    },
+    {
+      "id": "src_junkers_technikmuseum",
+      "kind": "institution",
+      "title": "Heidi Debschuetz, 'Hugo Junkers and the Aunt Ju', Technik Museum Sinsheim Speyer, museum story of 23 September 2025 -- short museum summary, read in full: the J 1 first flight of 12 December 1915, the F 13 altitude record of 13 September 1919, the Ju 52. Used for dates only.",
+      "url": "https://stories.technik-museum.de/en/community/museum-stories/hugo-junkers-and-the-aunt-ju/"
+    },
+    {
+      "id": "src_junkers_exner",
+      "kind": "award_body",
+      "title": "Wilhelm Exner Medal (Austrian Trade Association), 'Hugo Junkers', medallist of 1927 -- foundation biography page, read in full; honour recorded only, not used for any scored row.",
+      "url": "https://www.wilhelmexner.org/en/medalists/hugo-junkers"
+    },
+    {
+      "id": "src_junkers_cof",
+      "kind": "institution",
+      "title": "U.S. Centennial of Flight Commission, 'Hugo Junkers and His Company' (centennialofflight.net) -- short English-language overview, read in full; a US popular summary used only to cross-check the F 13, Luftverkehr and Ju 52 outline. Not used for any scored row.",
+      "url": "https://centennialofflight.net/essay/Aerospace/Junkers/Aero55.htm"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_junkers_byers2008, src_junkers_lvr, src_junkers_dm_findbuch, src_junkers_ndb1974 | 1912-1932 | scholarly article from company papers + regional-history biography + archive finding aid + encyclopedia] Several distinct dated episodes. (1) 1912: LVR says he resigned the Aachen chair on 1 December 1912 after internal disputes over his research intensity. (2) 1917-18: Byers documents that he refused Fokker's demand to control the new joint company's operations and refused to bring in a large industrial backer (Stinnes or AEG) as Fokker wanted, insisted the wing patents go only to the joint company, and in April 1918 drafted a letter to the army inspector complaining that the board was setting research priorities and allocating funds; he resolved to take the research institute back into his own firm and 'press on regardless'; NDB adds that the 1917 merger was forced on him against his will. Byers says he several times ended professional relationships over what he saw as intrusion and that contemporaries called him pugnacious and vehemently resistant to outside criticism. (3) The Deutsches Museum finding aid says he insisted on marketing under his own name, one reason the Bauhaus contacts did not become close cooperation. (4) LeMO and NDB record tensions with senior managers in the early 1930s and a state-appointed finance committee running his works in 1925-27. dual_edged: the research kept its independence but he repeatedly clashed with partners, army officials and managers. Independence rests on Byers (documentary) plus two institutional summaries; kept at 0.66."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_junkers_byers2008, src_junkers_ndb1974, src_junkers_lvr | 1888-1932 | scholarly article from company papers + encyclopedia + regional biography] (1) J 1 and after: Byers dates his request for development money to 11 January 1916, long letters to the war ministry between August and October 1916, further advance requests on 6 October and 19 December, all unanswered, until the army order for fifty J 4 aircraft on 20 March 1917 ('two and a half years of struggle'); he had spent over 1.5 million marks of his own money in 1915-16, and kept developing the duralumin J 7 and J 9 in 1917-18 after army orders went elsewhere. (2) NDB: between 1888 and 1892 he developed the horizontal opposed-piston gas engine 'in laborious work' to 100 and then 200 horsepower, and in 1915 the war forced the Dessau and Magdeburg works to stop operating. (3) NDB and LVR: in the 1932 crisis he sold the heater firm to Bosch to rescue the aircraft and engine works. Three episodes from three perspectives; Byers is the strongest and documentary; kept below 80 because the other two are summaries."
+    },
+    "perfectionism": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_junkers_byers2008, src_junkers_warhistory | 1915-1918 | scholarly article + Fokker-side web account] Byers: through 1917-18 he refused to compromise his construction method, so wartime Junkers aircraft needed about four times as many workers as wooden ones and took longer, and the army concluded he put his own agenda above urgent needs; a note says he proceeded slowly and cautiously, insisting on several stages of theoretical evaluation, stress analysis and pre-flight trials, and refused to hurry construction. WarHistory, from the Fokker side, describes the army's loss of patience in 1916 because he kept changing and improving the J 1 design instead of going into production, and calls him an uncompromising perfectionist academic (the author's characterisation). Two independent perspectives on one wartime period, so strong_inference; dual_edged because the stance delayed deliveries and cost him army goodwill."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_junkers_ndb1974, src_junkers_byers2008, src_junkers_sz2010 | 1909-1917 | encyclopedia + scholarly article + newspaper feature] NDB: when Reissner's work brought him to aviation in 1909 he 'soon left conventional notions', patenting on 1 February 1910 an all-wing aircraft with an unbraced, thick-profile cantilever wing instead of thin bird-like braced wings, and was the first to choose metal for aircraft. Byers: in 1916 he argued directly to the war ministry that metal construction made aircraft nearly invulnerable, fireproof and suited to cheap unskilled mass production, and in late 1916 submitted a monoplane to a competition where the army wanted a biplane, giving ground only after much wrangling. The newspaper feature adds that this ran against the prevailing view that metal could not fly (journalistic framing, no cited source). Several documented choices against current practice; kept at 0.60 because NDB is a summary and the feature is indirect."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_junkers_byers2008, src_junkers_dm_findbuch, src_junkers_ndb1974, src_junkers_lemo | 1892-1932 | scholarly article + archive finding aid + encyclopedia + institutional chronology] (1) Byers: duralumin was unavailable in 1915 because the Zeppelin programme had priority, so the J 1 was built of sheet iron, with the welding techniques worked out during construction; in 1918 duralumin for the J 9 came from a Dueren firm's temporary surplus. (2) NDB and LVR: the calorimeter and the heater firm paid for the later research. (3) Deutsches Museum: during the 1921-22 aircraft-building ban his metalworking went into boats, skates, window frames, lamps, cutlery and duralumin suitcases; NDB and LeMO add subsidiaries in Sweden and the Soviet Union to keep aircraft work going. (4) NDB and LVR: he sold the heater firm to Bosch in 1932 to keep the aircraft and engine works alive. Four distinct situations from four sources; summaries dominate, so 0.58."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_junkers_byers2008, src_junkers_ndb1974, src_junkers_sz2010 | 1915-1932 | scholarly article + encyclopedia + newspaper feature] Byers: by early 1917 he had put over 1.5 million marks of his own money into aircraft research and no longer had the means to continue alone. NDB: the 1923 Moscow-area factory, set up at the Reichswehr's urging, brought financial difficulty when government credit promises were not kept; in 1925-27 he had to hand management temporarily to a finance committee; in 1932 the group was pulled into the world crisis and survived by selling the heater firm. The newspaper feature says he put all his energy and money into new technology. Staking the firm's money repeatedly is documented, but the extent of his own exposure in the 1920s comes from summaries, so 0.56; dual_edged because it funded the aircraft and cost him control of the finances."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_junkers_byers2008, src_junkers_warhistory | 1916-1919 | scholarly article from company papers + Fokker-side web account] Byers: contemporaries described him as pugnacious; in 1916 he bypassed the army inspectorate and wrote long letters directly to the war ministry; he set strict conditions in the Fokker talks of January 1917; in April 1918 he took his objections to the inspector of flying troops; Fokker and he then litigated over patents in German and Dutch courts for about twenty years (the dispute ending in 1940). WarHistory independently reports that he filed suit over the cantilever-wing patent granted on 22 December 1916 and that he reacted with anger when Fokker used what he had been shown in Dessau. The behaviour is documented in both accounts; no data on how he handled disagreement with subordinates, so 0.56."
+    },
+    "systems_abstraction": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_junkers_byers2008, src_junkers_ndb1974, src_junkers_dm_findbuch | 1910-1930 | scholarly article + encyclopedia + archive finding aid] Byers: in 1916 he saw the J 1 as an intermediate step toward a final 'system' of aircraft manufacture while the army treated it as an end product, and he viewed aviation as a system of engines, airframes and support machinery all devised by his own organisation. NDB: he had the first wind tunnels built at Aachen and Dessau, treated planned research as a principle of his enterprise, made his own aircraft engines from 1924, and joined in founding airlines, which created the first larger civil air-traffic networks. Deutsches Museum: from 1926 he began systematic research on house building and its fittings aimed at serial production of building elements for an international market. Three sources, several periods, but the framing is partly the authors' synthesis, so 0.55."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_junkers_byers2008, src_junkers_ndb1974, src_junkers_lemo | 1909-1923 | scholarly article + encyclopedia + institutional chronology] NDB and LVR: he moved into aviation from heat technology and engines after meeting Reissner in 1909. Byers: from 1918 he aimed to end dependence on state contracts and create a civil market for his aircraft. NDB and LeMO: in 1919 he turned to the all-metal F 13 transport, in May 1919 obtained permission for an air-mail and passenger line from Berlin through Dessau to Weimar, set up an air-traffic department in 1921 and a company in 1923, and with Hermann Koehl started the first night air services. Moves in time and direction are documented, but all are summaries and the later success is not used as evidence; 0.52."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "후고 융커스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata Special:EntityData for Q60363 (2026-10-08) returned en label 'Hugo Junkers', description 'German aviation pioneer (1859-1935)', born 3 Feb 1859, died 3 Feb 1935, Germany, GND 118776525, no ko label; the intended person. SLUG CHECK: not in scratch/prod_slugs.txt; no earlier candidate file. CLASSIFICATION: occupations engineer, inventor, entrepreneur; fieldIds engineering and technology only (both have field.* keys in en.ts; business omitted because the rows do not rest on commercial behaviour; no field key exists for aviation); region western_europe as for Benz, Daimler and Diesel; era 20th_century (his defining work 1915-1932; compare Henry Ford born 1863). Korean name '후고 융커스' follows the conventional Korean transliteration (Wikidata has no Korean label). EVIDENCE READ (12 source records: 2 orientation, 10 read): NDB 1974 in full; Byers 2008 in full (30 pages); LVR Rheinische Geschichte in full; Deutsches Museum Findbuch introduction; LeMO chronology; Sueddeutsche Zeitung feature; the WarHistory article; the NACA 565 translation (opening pages); the Technik Museum Speyer story; Wilhelm Exner Medal page; Centennial of Flight overview. PERSPECTIVES: (1) NDB, scholarly encyclopedia from museum archive material; (2) Byers, independent scholarly study from Junkers company correspondence and diary notes plus army files, critical of both men in parts and recording the army's negative view of him; (3) Deutsches Museum archive finding aid, institutional and corrective on the Bauhaus; (4) LVR and LeMO, regional and national history portals; (5) WarHistory, Fokker-side view of the same 1916-17 events (author and sources not named); (6) SZ, journalism with a family connection. NON-SELF BEHAVIOURAL SOURCES: Byers, WarHistory, LVR, NDB. No Junkers autobiographical text was read; his diary notes and letters are quoted only through Byers (and one diary credo through SZ, not scored). Independent perspectives counted: Byers, the Deutsches Museum finding aid, WarHistory (3). NOT ACCESSIBLE OR NOT READ: Wolfgang Wagner, Hugo Junkers: Pionier der Luftfahrt (Bonn 1996); Pollog 1930 and Blunck 1951 biographies; Groehler and Erfurth, Hugo Junkers: ein politisches Essay (1989); Scheiffele, Bauhaus, Junkers, Sozialdemokratie (2003); Dierikx, Fokker: A Transatlantic Biography (1997); the Fokker autobiography on Internet Archive (lending-restricted, 401); Byers's 2002 dissertation; Flight magazine and other contemporary press were not located in open full text; the Technikmuseum Hugo Junkers Dessau pages and the Air and Space article on the Bremen flight were not reachable (403); a family site (junkers.de) returned 404. CONFLICTS REPORTED, NOT ADJUDICATED: (a) first flight of the J 1: Byers and the Technik Museum give 12 December 1915, WarHistory gives 20 December; text says December 1915; (b) Ju 52 first flight 11 September 1930 (museum) versus other dates; text says 1930, and the three-engine Ju 52/3m 1932; (c) F 13 production: NDB about 300, SZ 322 for 1919-1930; text says more than 300; (d) design credit of the J 1: Byers and Wikipedia name Hans Reissner as a collaborator on the 1909-11 metal-wing aircraft and say the two parted after 1911; NDB attributes the 1910 thick-wing patent and J 1 to Junkers; cards say Junkers built the J 1 and mention Reissner's earlier collaboration; (e) the English Wikipedia statement that he refused rearmament and was placed under house arrest in 1934 is not confirmed by NDB, LVR or the Deutsches Museum (LVR says he lived under Gestapo observation in Munich); NOT used. ROWS CONSIDERED AND LEFT UNSCORED: execution_speed (Byers describes slow, cautious work, but the J 1 body was built by sixteen workers in six weeks: mixed); belief_updating, adaptability, collaboration (only mixed or single-episode evidence: the compromise biplane J 4, the Reissner partnership and the Bauhaus contacts that the Deutsches Museum says did not become close); impact_motivation and the SZ 'industrial credo' (a diary line quoted by the grandson's interviewer, not behaviour); leadership_drive, achievement_drive, deep_focus (the 6am-to-midnight working day is a family anecdote); creative_originality and analytical_rigor (would rest on his patents and the fame of the aircraft, which are outputs). EXCLUDED ON PURPOSE: fame, patent and aircraft counts, company size, honours (Exner medal 1927, honorary doctorates); all war-production, rearmament and political roles (incidental and unscored); the 1933-35 loss of his firms (recorded as an event only, not as basis for any trait); his health, his death, the death of his son in 1923 and his disability. CALIBRATION: 9 rows, scores 66-80, confidence 0.52-0.66, nothing at or above 85 or 0.70; only autonomy_need at 80 and persistence at 76 reach the high 70s, each with two or more independent perspectives. No eligibility, coverage or match output was computed or used. PORTRAIT: Wikidata image (Bundesarchiv 146-2005-0007, 507x800, CC BY-SA 3.0 de) was passed over for a larger rights-clear alternative: Library of Congress Prints and Photographs Division, George Grantham Bain Collection glass negative 'Hugo Junkers', [between ca. 1915 and ca. 1920], reproduction LC-DIG-ggbain-26735, call number LC-B2- 4573-15, rights advisory 'No known restrictions on publication' (LOC item page read via its JSON record). The master TIFF (4191x5779, grayscale) was converted to JPEG at 1160x1600 (long edge 1600, quality 85, no crop) and viewed: a head-and-shoulders portrait of an older man, with the negative's border and the agency's handwritten caption 'HUGO JUNKERS' visible. Basis: a press-agency photograph of a living public figure dated 1915-1920, so published before 1931 and public domain in the US, with the Library's no-known-restrictions statement; the exact date and first publication of this particular print were not verified. A Commons file 'Hugo Junkers 1920.jpg' (Getty source, EU anonymous-work template) was rejected because Getty is a live commercial rightsholder source; a CC0 NARA-sourced file dated 1954 was not used because the date and rights basis were not verified."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hugo-junkers-bain-1915-1920.jpg",
+    "width": 1160,
+    "height": 1600,
+    "source": "Library of Congress, Prints and Photographs Division, George Grantham Bain Collection (call number LC-B2- 4573-15; digital file LC-DIG-ggbain-26735), also on Wikimedia Commons as 'Hugo Junkers LCCN2014706903.tif'",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Bain",
+    "attribution": "Bain News Service, 'Hugo Junkers', glass negative, between about 1915 and about 1920; Library of Congress Prints and Photographs Division, no known restrictions on publication",
+    "attributionUrl": "https://www.loc.gov/item/2014706903/",
+    "creator": "Bain News Service (publisher)",
+    "date": "between about 1915 and about 1920",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hugo_Junkers_LCCN2014706903.tif"
+  }
+}

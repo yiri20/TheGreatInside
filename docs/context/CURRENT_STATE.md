@@ -4,43 +4,48 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-**Minimal update, 2026-10-09 (Roster45)**: the paragraph and Product-section
-headline below this note are stale (they predate Roster17-45 and describe a
+**Minimal update, 2026-10-10 (Roster46)**: the paragraph and Product-section
+headline below this note are stale (they predate Roster17-46 and describe a
 125-person/124-match-eligible state). Current mechanically-verified truth,
 recorded here rather than by rewriting the outdated narrative that
-follows (see `docs/checkpoints/roster45.md` for the full record):
+follows (see `docs/checkpoints/roster46.md` for the full record):
 
-- Production: **408** people. Directory-visible: **407**. Match-eligible:
-  **114** (unchanged since Legacy Integrity Batch 1; thirteenth consecutive
+- Production: **422** people. Directory-visible: **421**. Match-eligible:
+  **114** (unchanged since Legacy Integrity Batch 1; fourteenth consecutive
   new-candidate cycle at 114, the diagnostic-confirmed expected pattern, see
   `docs/checkpoints/recent-cohort-matching-architecture.md`). *(These are the
-  numbers on the unmerged `feat/roster45` branch, PR pending; `main` is at
-  393/392/114 until it merges.)*
-- Latest merged `main` SHA: `c515474ae6a293f170abbd93b4e5bb4401e48384`
-  (PR #56, Roster44 merge, including the Kollwitz portrait correction).
-- Latest roster: **Roster45 (tenth fresh cycle after the diagnostic: 15
-  frozen, 15 shipped, 0 new holds**; Louis Sullivan and Beatrix Potter stay
-  portrait-held), zero backlog reuse (2026-10-09; shipped 6 building_discovery
-  / 7 arts_culture / 5 science_knowledge by directory taxonomy). Combined
-  Roster33-45: 183 new-candidate people shipped, 0 match-eligible -
-  recorded, not re-investigated.
+  numbers on the unmerged `feat/roster46` branch, PR pending; `main` is at
+  408/407/114 until it merges.)*
+- Latest merged `main` SHA: `4e0fb11bd52bbff46cd96d966f23e9b9a14eedd0`
+  (PR #57, Roster45 merge).
+- Latest roster: **Roster46 (eleventh fresh cycle after the diagnostic: 15
+  frozen, 14 shipped, 1 held** - Henry Royce, evidence_approved, portrait
+  rights unresolved; Louis Sullivan and Beatrix Potter stay portrait-held),
+  zero backlog reuse (2026-10-10; shipped 5 building_discovery / 5
+  arts_culture / 6 science_knowledge by directory taxonomy). Combined
+  Roster33-46: 197 new-candidate people shipped, 0 match-eligible - recorded,
+  not re-investigated.
+- **Direction**: continue the 250 -> 500 expansion lane; next scale checkpoint
+  around 500 production people (now 422).
 - **Portrait rule (since Roster44)**: a generic Commons PD template is not
   enough when the authoritative institutional page shows a conflicting live
   copyright notice; reconcile with concrete facts, choose another image, or
   hold.
 - **Editorial significance standard active** (`docs/editorial-content.md`
-  Major Achievement Selection Standard); Roster45 was its fourth cycle: 15/15
-  PASS, no primary/top-omission/identity failure, two side-project cards
-  removed. Known non-blocking editorial debt: henry-ford, vincent-van-gogh,
-  stephen-hawking (older control-sample failures) and raw internal ids in
-  Rembrandt/Kubrick public source notes.
-- Next recommended task: **Roster46** (same discipline and gates;
-  leadership_society lowest priority; building_discovery 118 still the
-  thinnest published category vs. arts_culture 148 / science_knowledge 179;
+  Major Achievement Selection Standard); Roster46 was its fifth cycle: 15/15
+  PASS, one top-omission failure (Turner) corrected before publication. Known
+  non-blocking editorial debt: henry-ford, vincent-van-gogh, stephen-hawking
+  (older control-sample failures) and raw internal ids in Rembrandt/Kubrick
+  public source notes.
+- Next recommended task: **Roster47** (same discipline and gates;
+  leadership_society lowest priority; building_discovery 123 still the
+  thinnest published category vs. arts_culture 153 / science_knowledge 185;
   Oceania nationals remain blocked by the missing region bucket). Legacy
-  Integrity Batch 6 not started. Next performance checkpoint around 500
-  production people (now 408); do not repeat the recent-cohort matching
+  Integrity Batch 6 not started. Do not repeat the recent-cohort matching
   diagnostic without genuinely new evidence.
+
+Superseded Roster45-era note (kept short for continuity): Roster45 shipped
+15 (408/407/114), see `docs/checkpoints/roster45.md`.
 
 Superseded Roster44-era note (kept short for continuity): Roster44 shipped
 15 (393/392/114), see `docs/checkpoints/roster44.md`.

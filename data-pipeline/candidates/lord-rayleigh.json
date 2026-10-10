@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "lord-rayleigh",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John William Strutt, 3rd Baron Rayleigh",
+    "aliases": [
+      "Lord Rayleigh",
+      "John William Strutt"
+    ],
+    "wikidataId": "Q83297",
+    "birthYear": 1842,
+    "deathYear": 1919,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_rayleigh_wikidata",
+      "kind": "wikidata",
+      "title": "John William Strutt (Q83297) -- verified live via wbgetentities (2026-10-09): en label 'John William Strutt', description 'English physicist (1842-1919)', born 12 Nov 1842, died 30 Jun 1919, citizenship United Kingdom, instance of human, ko label '존 윌리엄 스트럿 레일리'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q83297"
+    },
+    {
+      "id": "src_rayleigh_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson (University of St Andrews), 'John William Strutt (Lord Rayleigh)', MacTutor History of Mathematics archive -- modern SECONDARY biography (neutral to admiring) that quotes Heathcote's 1953 Nobel-winners chapter, Rayleigh's 1884 British Association address, his Nobel lecture and a remark on receiving the Order of Merit. Read in full; used for his decision to enter science, the Terling laboratory, the Cavendish years, the 1884 resignation and the range of his papers.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Rayleigh/"
+    },
+    {
+      "id": "src_rayleigh_nobel_bio",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Lord Rayleigh - Biographical', written at the time of the 1904 Nobel Prize in Physics and published in Les Prix Nobel (NobelPrize.org) -- institutional contemporary biography (non-self, official and admiring). Read in full; used for dates, the Cavendish professorship, the experimental standards, the hand-over of estate management and the teaching school at Cambridge.",
+      "url": "https://www.nobelprize.org/prizes/physics/1904/strutt/biographical/"
+    },
+    {
+      "id": "src_rayleigh_nobel_lecture",
+      "kind": "award_body",
+      "title": "Lord Rayleigh, 'The density of gases in the air and the discovery of argon', Nobel Lecture, 12 December 1904 (Nobel Foundation PDF) -- SELF source: his own account of how the nitrogen density discrepancy was followed up. Read in full (about four pages); never used alone for a row.",
+      "url": "https://www.nobelprize.org/uploads/2018/06/strutt-lecture.pdf"
+    },
+    {
+      "id": "src_rayleigh_dnb_jeans1927",
+      "kind": "biography",
+      "title": "James Hopwood Jeans, 'Strutt, John William, third Baron Rayleigh', Dictionary of National Biography 1912-1921 supplement volume (published 1927; Wikisource transcription) -- ADMIRING scholarly biography by a physicist, drawing on Robert Strutt's 1924 life of his father, the Royal Society obituary and personal knowledge. Read in full; used for the early career, the Cavendish laboratory aim, the electrical units, the nitrogen work, administrative duties and Jeans's assessment of his method.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1927_supplement/Strutt,_John_William"
+    },
+    {
+      "id": "src_rayleigh_glazebrook1910",
+      "kind": "archive",
+      "title": "R. T. Glazebrook (Rayleigh's Demonstrator at the Cavendish Laboratory 1880-84), chapter 'The Rayleigh Period' in 'A History of the Cavendish Laboratory 1871-1910' (Longmans, 1910; Internet Archive scan) -- FIRST-HAND COLLEAGUE account (non-self, admiring but concrete and statistical). Read the whole chapter on his professorship (teaching organisation, fund-raising, the electrical standards work with Schuster and Mrs Sidgwick); later chapters were not read.",
+      "url": "https://archive.org/details/cu31924012321893"
+    },
+    {
+      "id": "src_rayleigh_thomson1921",
+      "kind": "archive",
+      "title": "J. J. Thomson, address at the unveiling of the Rayleigh memorial tablet in Westminster Abbey, 30 November 1921, printed in Nature vol. 108 (8 December 1921) pp. 472-474 (Internet Archive scan) -- COLLEAGUE and Cavendish successor, memorial speech (admiring). Read in full; used for his assessment of Rayleigh's working method, range and his period at Cambridge.",
+      "url": "https://archive.org/details/paper-doi-10_1038_108472a0"
+    },
+    {
+      "id": "src_rayleigh_ramsay1896",
+      "kind": "archive",
+      "title": "William Ramsay (Rayleigh's co-discoverer), 'The Gases of the Atmosphere: The History of Their Discovery', chapter V 'The Discovery of Argon' (Macmillan, 1896; 1902 printing, Internet Archive scan) -- COLLABORATOR's contemporary popular history (non-self, partisan to the joint work). Read the chapter on the discovery in full; used for Rayleigh's tests of the nitrogen discrepancy and the way the collaboration began.",
+      "url": "https://archive.org/details/gasesofatmospher00ramsuoft"
+    },
+    {
+      "id": "src_rayleigh_ramsay_nobel_lecture",
+      "kind": "award_body",
+      "title": "William Ramsay, Nobel Lecture in Chemistry, 12 December 1904 (NobelPrize.org) -- COLLABORATOR's lecture; read only for the passage on his 1894 suggestion to Lord Rayleigh about atmospheric nitrogen, the rest being about Ramsay's own later work and skimmed. Not used for any scored row.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1904/ramsay/lecture/"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rayleigh_nobel_lecture, src_rayleigh_ramsay1896, src_rayleigh_glazebrook1910, src_rayleigh_thomson1921, src_rayleigh_dnb_jeans1927 | 1880s-1904 | self account + collaborator + first-hand colleague + memorial speech + admiring biography] In his Nobel lecture Rayleigh says he made a second series of nitrogen densities by a different method because 'it was desirable to multiply methods', then, finding the two differed by a thousandth, ruled out recognised impurities and kept a prepared sample for eight months to test the idea of dissociated nitrogen; Ramsay adds that he prepared oxygen three ways, tried the silent electric discharge to test an ozone-like form, and repeated Cavendish's spark experiment. Glazebrook, who worked beside him, records that his ohm determination was driven by the 'outstanding corrections': he found the British Association's estimate of the self-inductance correction was about one-tenth of its true value, built a second, stiffer apparatus, repeated the result by the Lorenz method with Mrs Sidgwick and wrote a paper comparing the sources of error in the methods. Thomson says that among 446 papers scarcely any needed correction. Many dated episodes in a different domain from the main row, from five perspectives; kept below 80 because most sources are admiring."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rayleigh_nobel_lecture, src_rayleigh_ramsay1896, src_rayleigh_glazebrook1910 | 1892-1895 and 1880-1883 | self account + collaborator + first-hand colleague] Rayleigh writes that, having a series of nitrogen densities in good agreement, he 'was at first disposed to consider the work on nitrogen as finished', but a second method gave 'to my surprise and disgust' a result a thousandth different; he then took the difference seriously ('a good rule ... to seek to magnify a discrepancy'), tested and dropped the explanations that failed (impurities, dissociated nitrogen), and moved to the heavier-gas hypothesis; Ramsay's chapter records the same tests and notes that the new gas was at first thought to be an ozone-like modification of nitrogen before the evidence changed that view. Glazebrook shows him accepting that his first ohm value was about 0.3 per cent off and tracing the difference to the coil measurement. A concrete self-reported episode, corroborated by the collaborator's account of the tests; only one main domain, so a moderate score."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rayleigh_nobel_lecture, src_rayleigh_dnb_jeans1927, src_rayleigh_thomson1921, src_rayleigh_glazebrook1910 | 1882-1895 and 1879-1884 | self account + admiring biography + memorial speech + first-hand colleague] Rayleigh says that the densities of gases 'engaged a large part of my attention for over 20 years' and that he first proposed a redetermination in a British Association address in 1882; Jeans places the nitrogen measurements in his years as Royal Society secretary and the discovery in 1894-95, after a 'somewhat prolonged inquiry' into impurities. Glazebrook records that he took on the ohm determination, a task with 'little scope' for originality according to Jeans, and carried it through a first apparatus, a second rebuilt apparatus, a second method and then the silver and Clark-cell determinations in five years. Thomson calls his research 'without pause and without hurry'. Documented sustained programmes from several sources, but the long-run wording is mostly admiring."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rayleigh_mactutor, src_rayleigh_nobel_bio, src_rayleigh_thomson1921 | 1869-1919 | modern biography listing papers + official biography + memorial speech] MacTutor lists topics he chose to write on outside his main lines of work: insects and the colour of flowers (1874), the irregular flight of a tennis ball (1877), the soaring of birds (1883), the sailing flight of the albatross (1889) and the whispering gallery (1910); the Nobel biography says his work ranged over almost the whole of physics, from colour vision to capillarity to photography. Thomson says he 'went roaming about seeking for difficulties to destroy'. Several examples, but they come from one list of titles and an admiring speech, and no letter or diary of his own interest was read, so confidence stays moderate."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.57,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rayleigh_thomson1921, src_rayleigh_dnb_jeans1927, src_rayleigh_nobel_lecture, src_rayleigh_ramsay1896 | 1869-1904 | memorial speech + admiring biography + self account + collaborator] Thomson says his collected papers represent mathematics, light, heat, electricity, magnetism and the properties of gases, liquids and solids 'in fairly equal proportions', and that his best work combined mathematical analysis with experiment; Jeans says he was equally at home in physics, chemistry and mathematics. The record of crossing a disciplinary boundary is the nitrogen work: he took a physicist's balance to a chemist's question, and in the Nobel lecture says he worked on the isolation first independently and then in concert with the chemist Ramsay, after one chemical method came from Ramsay. Evidence is one speech, one biography and the argon episode, hence moderate."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rayleigh_mactutor, src_rayleigh_thomson1921, src_rayleigh_glazebrook1910 | 1868-1884 | modern biography + memorial speech + first-hand colleague] MacTutor says he got impressive results at Terling with cheap equipment and was 'always one to economise and make do with unsophisticated equipment'; Thomson says the argon discovery was made with 'the oldest piece of chemical apparatus, the balance' and that his electrical-unit work with simple apparatus rivalled Regnault and Joule in accuracy; Glazebrook shows him re-erecting the British Association's old spinning-coil apparatus, borrowing coils Chrystal had wound, and reusing the frame for a second method rather than starting from scratch. Three independent descriptions of the same habit across 1868-1884."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rayleigh_glazebrook1910, src_rayleigh_dnb_jeans1927, src_rayleigh_ramsay1896, src_rayleigh_nobel_lecture | 1879-1895 | first-hand colleague + admiring biography + collaborator + self account] Glazebrook says Rayleigh planned the course syllabus with the demonstrators, was always available for difficulties and left them free to teach as seemed best; the electrical-unit papers were written with Schuster and Mrs Sidgwick, one using coils Glazebrook had used for his own determination, whose result he compared with his own. Jeans says Rayleigh persuaded a group of workers to take on the drudgery of exact measurement. On argon, Ramsay writes that he asked permission to experiment on atmospheric nitrogen and received it, and that the two then 'joined forces' with letters 'almost daily'; Rayleigh's lecture says the isolation was undertaken by Ramsay and himself 'working at first independently but afterwards in concert' and that a method of preparing nitrogen came from Ramsay's recommendation. Four perspectives agree on the pattern."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rayleigh_glazebrook1910, src_rayleigh_mactutor, src_rayleigh_nobel_lecture | 1868-1884 | first-hand colleague + modern biography + self account] Glazebrook says one of his first acts at the Cavendish was to ask friends for gifts of apparatus money, raising about 1500 pounds of which he gave 500 himself (resident university members were not asked), and that he began a course on the history of the fundamental electrical measurements and started the experiments shortly after taking the chair. MacTutor says that on returning from his American trip in 1868 he bought equipment and set up his own laboratory at Terling, and the Nobel lecture says he raised the question of redetermining gas densities in a British Association address in 1882. Self-started projects, but each is a single episode and the fund-raising rests on one colleague's account."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "[src_rayleigh_mactutor, src_rayleigh_nobel_bio, src_rayleigh_dnb_jeans1927 | 1865-1884 | modern biography + official biography + admiring biography] MacTutor says that on leaving Cambridge he knew taking up science was 'not really acceptable' for the heir to a peerage and that several family members disapproved, yet he was 'determined to devote his life to science' and let nothing stand in the way; the Nobel biography and Jeans record that in 1876 he left the whole management of the 7,000-acre estate to his younger brother so that he could give his time to science, and that in 1884 he resigned the Cavendish chair to work in his private laboratory at Terling although colleagues urged him to stay (Jeans says he found Cambridge 'rather too exacting'); Jeans adds that his personal preference would have been for research 'in the quiet of his country seat'. Three dated choices that point the same way from independent compilers, but all come from admiring or secondary sources."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 윌리엄 스트럿, 제3대 레일리 남작"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-09T00:00:00Z",
+    "updatedAt": "2026-10-09T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-09) for Q83297 returned en label 'John William Strutt', description 'English physicist (1842-1919)', P569 12 Nov 1842, P570 30 Jun 1919, citizenship United Kingdom (Q174193), instance of human, ko label '존 윌리엄 스트럿 레일리', P18 'John William Strutt.jpg'; matches the intended person. SLUG CHECK: lord-rayleigh not in scratch/prod_slugs.txt and no candidate file existed; no 'rayleigh' in data-pipeline/candidates or src/data/people. NAME: canonical form follows the roster's peer precedent 'William Thomson, 1st Baron Kelvin'; 'Lord Rayleigh' and 'John William Strutt' kept as aliases. CLASSIFICATION: occupation physicist; field physics only (the argon work is chemistry-adjacent but he is a physicist by training and the Nobel is in Physics, so chemistry was not added); region western_europe; era 19th_century (main career 1869-1904); tags nobel_laureate (fact) and cross_disciplinary (Thomson and Jeans on his range); archetype scientific_explorer; all ids exist in src/core/i18n/en.ts. EVIDENCE READ (9 records: 8 substantive + 1 orientation): MacTutor biography (full); Nobel Foundation biography (full); Rayleigh's Nobel lecture PDF (full, self); Jeans's 1927 Dictionary of National Biography entry (full); Glazebrook's chapter on his Cavendish professorship in the 1910 History of the Cavendish Laboratory (read pp. 41-68 on teaching, funds and electrical standards; not the rest of the book); J. J. Thomson's 1921 Westminster Abbey memorial address in Nature (full); Ramsay's 1896 chapter on the discovery of argon (full chapter); Ramsay's Nobel lecture (one passage only, not used for rows); the opening pages of Rayleigh's 1884 British Association presidential address were read but not used for any row. PERSPECTIVES: (1) SELF: Nobel lecture (never alone for a row); (2) FIRST-HAND COLLEAGUE: Glazebrook (Demonstrator under him) and Thomson (successor); (3) COLLABORATOR: Ramsay (partisan to the joint discovery); (4) ADMIRING BIOGRAPHER: Jeans, Nobel Foundation; (5) MODERN SECONDARY: MacTutor. NON-SELF BEHAVIOURAL sources: Glazebrook, Ramsay, Jeans, MacTutor, Thomson. NO ADVERSARIAL OR CRITICAL source was found or read; all non-self accounts are admiring or neutral, which is why scores stay at or below 78 and confidence at or below 0.68. NOT ACCESSIBLE / NOT READ: Robert John Strutt's 1924 'John William Strutt, Third Baron Rayleigh' (Wellcome/Internet Archive copy returned 403), Robert Lindsay's 'Lord Rayleigh: The Man and His Work' (1970) and R. J. Strutt's augmented 1968 'Life' (Internet Archive lending copies, no full text), J. J. Thomson's 'Recollections and Reflections' (lending copy), Schuster's 'Biographical Fragments', the Royal Society obituary notice and the Nature 1919 obituary, and Rayleigh's own 1892 Nature letter on nitrogen; none of these was used from snippets. A web search summary or Wikipedia was not used for any row. EPISODE USE: nitrogen density discrepancy 1892-1895 -> analytical_rigor, belief_updating, persistence, collaboration, cross_domain_range; electrical standards at the Cavendish 1880-84 -> analytical_rigor, belief_updating, persistence, resourcefulness, collaboration; fund-raising and first acts as professor, Terling laboratory, 1882 call for new gas densities -> proactive_agency; list of side topics -> curiosity; decision to enter science, 1876 hand-over of estate management, 1884 resignation -> autonomy_need. ROWS CONSIDERED AND LEFT UNSCORED: independent_thinking (the sources show him following a discrepancy, but no source shows him against a prevailing view beyond the chemists' dissociated-nitrogen idea, and Jeans stresses sound judgement over novelty); detail_orientation, experimentation (the evidence is the same episodes already used under analytical_rigor); perfectionism and discipline (rest on output regularity, 446 papers or on 'clearness' of style, which is output and reputation); persuasiveness (Thomson and Jeans praise clarity of his papers and lectures, not any documented influencing of others beyond one line in Jeans); leadership_drive (Jeans says he took administrative duties from a sense of duty while preferring private research, so there is no clean drive evidence); impact_motivation and achievement_drive (his own Order of Merit remark, quoted by MacTutor, is of pleasing himself; honours and the Nobel Prize are excluded); social_assertiveness, conflict_tolerance and competitiveness (no episode read); decisiveness, risk_tolerance (no episode read). EXCLUDED ON PURPOSE: peerage, estate, Lord Lieutenant of Essex, Privy Council, Chancellor of Cambridge, committee chairs and his wartime and aeronautics advice as political or administrative roles (incidental, unscored; the Cambridge chancellorship and Royal Society presidency are honours); his marriage connection to the Balfour family; his psychical-research interest (not a reliable-trait episode in the sources read); his childhood and 1872 rheumatic fever and winter in Egypt and his death (no inference from illness or death); Nobel Prize and other honours as trait evidence (an award, not behaviour). CONFLICTS REPORTED, NOT ADJUDICATED: Jeans says Ramsay joined the nitrogen work 'in its later stages', Ramsay's account has him asking permission after Rayleigh's early tests, and Rayleigh says the isolation was done 'at first independently but afterwards in concert'; the profile records only that the collaboration began with Ramsay asking to join. Jeans calls argon Rayleigh's only striking discovery and puts his optics papers as his most enduring title to fame; other sources lead with argon. CLAIMS I DID NOT VERIFY AGAINST A SOURCE I OPENED: the lead's 1899 date for the scattering paper (MacTutor only gives the 1871 theory) and the name 'Rayleigh criterion' (MacTutor describes the grating and prism resolving-power result without the eponym), so the editorial draft uses only what these sources say. PORTRAIT: the Wikidata image 'John William Strutt.jpg' is a cropped copy of the plate in the Proceedings of the Royal Society obituary notice (24 Mar 1921, volume 98 of series A, per the Commons file page, which tags it only as US public domain and gives no photographer); that notice was not opened and its rights were not checked on the Royal Society page, so it was not used. Chosen instead: the full-page portrait on p. 91 of The Popular Science Monthly vol. 67 (New York, 1905, Internet Archive scan viewed page image n96, caption 'Lord Rayleigh', no photographer credit), which is a documented pre-1931 US publication; the Internet Archive item carries no rights notice, and the volume's own 1905 copyright notice (The Science Press) is long expired. It is the same photograph as the Elliott & Fry print in the Wellcome Collection (checked by eye against a thumbnail); the Wellcome copy is licensed CC BY 4.0 and was NOT used, only compared, and its Elliott & Fry attribution is recorded with that caveat. Date of the photograph is unknown (earlier than 1905). The file was cut from the Commons PNG (1543 x 2227, itself a crop of the Internet Archive page scan) and downsized to 1109 x 1600 JPEG q85. Other leads rejected: Nobel Foundation 280 x 396 copy (too small; Commons licence tags are mixed); Maull and Fox photogravure from a Leuven library catalogue (undated); steel engraving from The Electrician 1893 (engraving, 700 x 701)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/lord-rayleigh-popular-science-monthly-1905.jpg",
+    "width": 1109,
+    "height": 1600,
+    "source": "The Popular Science Monthly, vol. 67 (May to October 1905), New York: The Science Press, p. 91, full-page portrait captioned 'Lord Rayleigh' illustrating the note 'The Nobel Prizes', via Internet Archive (popularsciencemo67newy)",
+    "license": "Public domain (published in the United States in 1905)",
+    "licenseUrl": "https://www.copyright.gov/help/faq/faq-duration.html",
+    "attribution": "Photograph captioned 'Lord Rayleigh', The Popular Science Monthly, vol. 67, 1905, p. 91; the magazine does not credit a photographer, and the Wellcome Collection catalogue attributes the same portrait photograph to Elliott & Fry",
+    "attributionUrl": "https://archive.org/details/popularsciencemo67newy",
+    "creator": "Not credited in the magazine (the Wellcome Collection catalogue attributes this photograph to Elliott & Fry, London)",
+    "date": "1905 (published); photograph taken earlier, date unknown",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/popularsciencemo67newy/page/n96/mode/1up"
+  }
+}

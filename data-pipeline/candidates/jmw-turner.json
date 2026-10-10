@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jmw-turner",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "J. M. W. Turner",
+    "aliases": [
+      "Joseph Mallord William Turner",
+      "William Turner of Oxford"
+    ],
+    "wikidataId": "Q159758",
+    "birthYear": 1775,
+    "deathYear": 1851,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_turner_wikidata",
+      "kind": "wikidata",
+      "title": "J. M. W. Turner (Q159758) -- verified live via wbgetentities (2026-10-08): en label 'J. M. W. Turner', description 'English painter and draftsman (c.1775-1851)', P569 23 Apr 1775, P570 19 Dec 1851, instance of human, ko label present, P18 'Joseph Mallord William Turner auto-retrato.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q159758"
+    },
+    {
+      "id": "src_turner_thornbury1862_v1",
+      "kind": "biography",
+      "title": "Walter Thornbury, The Life of J. M. W. Turner, R.A., founded on letters and papers furnished by his friends and fellow academicians, vol. 1 (London: Hurst and Blackett, 1862), Internet Archive full text (lifeofjmwturnerr01thor) -- COMPILED MEMORIAL BIOGRAPHY by a literary journalist, admiring, built from the recollections of Turner's friends (the drawing-master Wells, the Rev. Henry Trimmer, George Jones and others) plus quotations from Ruskin; it carries some date errors (for example it places Rain, Steam and Speed in 1832) and is used here only for dated or attributed items cross-checked elsewhere. Read locally: the Liber Studiorum chapter (Wells's account of the project and the engraver dispute), the account of Turner's art life, the walking-tour passages, the chapter on his sketchbooks, and the passages on the Temeraire and on his reluctance to sell.",
+      "url": "https://archive.org/details/lifeofjmwturnerr01thor"
+    },
+    {
+      "id": "src_turner_thornbury1862_v2",
+      "kind": "biography",
+      "title": "Walter Thornbury, The Life of J. M. W. Turner, R.A., vol. 2 (London: Hurst and Blackett, 1862), Internet Archive full text (lifeofjmwturnerr02thor) -- continuation of the compiled memorial biography; includes a condensed reading of Turner's will and codicils copied from the probate registry, the House of Lords and Chancery proceedings about the bequest, Ruskin's own account of sorting the drawings (1857-58), George Jones's testimony about Turner's plans for a charity, and a recollection of Turner's Royal Academy council behaviour. Read locally: the chapters on the will and the bequest, the Ruskin chapter, the Academy-life and lecture passages, and the Constable/varnishing-day passages.",
+      "url": "https://archive.org/details/lifeofjmwturnerr02thor"
+    },
+    {
+      "id": "src_turner_hamerton1879",
+      "kind": "biography",
+      "title": "Philip Gilbert Hamerton, The Life of J. M. W. Turner, R.A. (London: Seeley, Jackson and Halliday, 1879), Internet Archive full text (lifeofjmwturnerr01hame) -- INDEPENDENT critical biography by an art writer who knew none of the original circle; sympathetic to the art but openly critical of Turner's business conduct and, on the Liber Studiorum, of his handling of engravers and printsellers. Read locally: the Liber Studiorum chapter in full (the Claude rivalry, Turner as his own publisher, prices, the Burlington Fine Arts Club catalogue of 1872, Turner's marginal notes on engravers' proofs).",
+      "url": "https://archive.org/details/lifeofjmwturnerr01hame"
+    },
+    {
+      "id": "src_turner_leslie1860",
+      "kind": "biography",
+      "title": "Charles Robert Leslie, Autobiographical Recollections, ed. Tom Taylor (London: John Murray, 1860), Internet Archive full text (autobiographical00lesluoft), chapter on Turner -- EYEWITNESS memoir by a fellow Royal Academician and friend of Constable, written without hostility; Leslie says he came into the room at the Academy in 1832 just as Turner left Constable's picture, describes Turner on varnishing days, and reports Turner's exchange with him over an American order (1840s). Read locally: the Turner chapter in full.",
+      "url": "https://archive.org/details/autobiographical00lesluoft"
+    },
+    {
+      "id": "src_turner_constable1845",
+      "kind": "archive",
+      "title": "John Constable, letters in C. R. Leslie, Memoirs of the Life of John Constable, composed chiefly of his letters (London: Longman, 1845), Internet Archive full text (memoirsoflifeofj00lesluoft) -- primary letters of Turner's chief rival and critic, 1813-1830s (OCR uses the long s, so searched by hand); Constable praises Turner's range of mind and his 'golden visions' while remaining a partisan of his own manner. Read locally: the passages mentioning Turner (1813 dinner, 1826 Academy exhibition, letters on Petworth and the 1830s exhibitions).",
+      "url": "https://archive.org/details/memoirsoflifeofj00lesluoft"
+    },
+    {
+      "id": "src_turner_jones1849",
+      "kind": "biography",
+      "title": "George Jones, Sir Francis Chantrey, R.A.: Recollections of his Life, Practice and Opinions (London: Moxon, 1849), Internet Archive full text (sirfrancischantr00joneiala) -- friend's memoir by a fellow Academician who knew both men; the passages on Turner (Petworth, Academy council 1828 and 1837, his conduct over the hanging of a Lawrence portrait) are firsthand or close to it, and Jones's testimony on Turner's charity is quoted at length by Thornbury. Read locally: the Turner passages.",
+      "url": "https://archive.org/details/sirfrancischantr00joneiala"
+    },
+    {
+      "id": "src_turner_ruskin1857",
+      "kind": "biography",
+      "title": "John Ruskin, Notes on the Turner Gallery at Marlborough House, 1856-7 (London: Smith, Elder, 1857), Internet Archive full text (notesonturnergal00rusk) -- PARTISAN catalogue notes by Turner's chief champion and the cataloguer of the drawings after his death; valuable for dating pictures and for Ruskin's own observations of Turner's habits of work, but openly enthusiastic. Read locally: the opening remarks, the notes on the Ulysses, Temeraire and later pictures, and the division of Turner's career into periods.",
+      "url": "https://archive.org/details/notesonturnergal00rusk"
+    },
+    {
+      "id": "src_turner_ng_temeraire",
+      "kind": "institution",
+      "title": "National Gallery, London, painting page for J. M. W. Turner, 'The Fighting Temeraire' (1839), Overview and In-depth text -- institutional curatorial text (read in full): the ship's last tow to the breaker, Turner's reliance on reports rather than eyewitness observation, his liberties with the facts, and the first showing at the Royal Academy in 1839.",
+      "url": "https://www.nationalgallery.org.uk/paintings/joseph-mallord-william-turner-the-fighting-temeraire"
+    },
+    {
+      "id": "src_turner_ng_rainsteam",
+      "kind": "institution",
+      "title": "National Gallery, London, painting page for J. M. W. Turner, 'Rain, Steam, and Speed - The Great Western Railway' (1844), Overview and In-depth text -- institutional curatorial text (read in full): the Maidenhead Viaduct and Brunel's bridge, the hare, Turner's habit of using new forms of transport, and the 1840s railway setting.",
+      "url": "https://www.nationalgallery.org.uk/paintings/joseph-mallord-william-turner-rain-steam-and-speed-the-great-western-railway"
+    },
+    {
+      "id": "src_turner_tate_seine",
+      "kind": "institution",
+      "title": "Tate, J.M.W. Turner: Sketchbooks, Drawings and Watercolours (catalogue entry, Wanderings by the Seine watercolours for Turner's Annual Tour; read as a one-page summary of the engraved-series watercolours)",
+      "url": "http://www.tate.org.uk/art/research-publications/jmw-turner/wanderings-by-the-seine-watercolours-for-the-turners-annual-tour-series-the-rivers-of-r1195838"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_turner_thornbury1862_v1, src_turner_thornbury1862_v2, src_turner_hamerton1879, src_turner_leslie1860 | 1789-1845 | compiled biography + critical biography + eyewitness memoir] Study of the craft pursued across decades. Admitted a student of the Royal Academy at fourteen (1789) and copying pictures as a student (Leslie records Turner telling him he copied many); in the Liber Studiorum (from 1807) he set out, Hamerton says, to show command of every class of landscape, divided into six heads, and covered engravers' proofs with detailed technical instruction (Thornbury; Hamerton quotes the marginal notes on sky tone and light). As Professor of Perspective he prepared a large series of tinted diagrams of difficult problems (Ruskin, quoted in Thornbury) even though by common report he lectured badly, and he kept wrestling with a dome problem he never solved, saying he thought he 'could do that yet'. Sketchbooks show notes for composition ('bargemen hanging clothes on the shrouds -- to avoid long lines'). Three perspectives, but all depend partly on friends' memorials, so kept near 0.64."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_turner_thornbury1862_v1, src_turner_hamerton1879 | 1790s-1820s | compiled biography + critical biography] Fine-grained attention in working notes and proofs. His sketchbooks record the left stilt of a plough being the higher one, the date a castle passed to the Seymours, tides, harbour depths and the founding dates of castles (Thornbury, the chapter on sketchbooks); on engravers' proofs he wrote corrections about the exact tone of a sky or a leaf mass and objected to a patch of aquatint the engraver had used without permission (Hamerton, from the Burlington Fine Arts Club catalogue of 1872). Thornbury writes that he watched the Liber 'in all its processes' with jealous care. Independent confirmation of the proof-correcting behaviour by Hamerton, who is otherwise critical of Turner; sketchbook material is Thornbury only."
+    },
+    "perfectionism": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_turner_thornbury1862_v1, src_turner_thornbury1862_v2, src_turner_hamerton1879 | 1807-1830s | compiled biography + critical biography] Reworking until his own standard was met. Thornbury (via the engraver's reminiscences) has him reversing the whole light and shade of a worn Liber plate and being 'severe, exacting, and sensitively careful in his corrections'; the quarrel with the engraver Charles Turner over Windsor Castle began over his demand for more changes to trees and steps, and Hamerton attributes the break to 'the hardness and severity of the painter'. Thornbury also reports that his exhibited pictures were 'not finished till he had worked on them when they were on the walls' of the Academy. dual_edged because the same exactingness strained working relationships (the two did not speak for nineteen years, Thornbury). The sources are partly one compiler, hence strong_inference and a lower confidence."
+    },
+    "competitiveness": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_turner_thornbury1862_v1, src_turner_thornbury1862_v2, src_turner_hamerton1879, src_turner_leslie1860, src_turner_constable1845 | 1800s-1851 | compiled biography + critical biography + eyewitness memoir + rival's letters] Repeated, openly staged rivalry. (1) The Liber Studiorum was begun in answer to Claude's Liber Veritatis; Hamerton, writing independently, calls it 'a direct appeal to the public to judge between its author and the famous landscape-painter' and notes that Turner later arranged that two of his pictures be hung beside two by Claude (the will, as reproduced in Thornbury). (2) Thornbury lists exhibited pictures painted in rivalry of Vandervelde (1804) and of Wilkie (1807), and the picture painted for Lord Stafford 'as a rival to a Vandervelde'. (3) At the 1832 Academy varnishing days Leslie, who came in as Turner left, saw that Turner had put a red daub on his grey sea piece beside Constable's brilliantly coloured 'Opening of Waterloo Bridge'; Constable said 'he has been here, and fired a gun'; Turner stayed away a day and a half and then shaped the daub into a buoy. Leslie reports what happened and does not interpret Turner's motive; Thornbury adds that Turner 'was not going to let himself be checkmated'. Constable's own letters show the rivalry from the other side (1826: 'Turner never gave me so much pleasure or so much pain before'). dual_edged because the Liber was a commercial failure and the rivalry sat beside a long dispute with an engraver."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_turner_leslie1860, src_turner_jones1849, src_turner_hamerton1879, src_turner_thornbury1862_v1 | 1807-1840s | eyewitness memoir + friend's memoir + critical biography + compiled biography] Preference for working and selling on his own terms. Leslie: Turner relied entirely on 'a guide within himself' and never talked of his own art; Jones: at Petworth he painted a series for the dining-room with his door locked against everyone except the host (Chantrey got in by imitating Lord Egremont's knock); Hamerton: he published the Liber himself and refused the trade the usual share of profit, which hurt sales; Leslie: he declined to part with the Temeraire for an American's low offer and answered 'they won't come up to the scratch'; Thornbury: he bought in his own pictures when they came up for sale and would not sell except at his own price. dual_edged because it cost him sales and engravers. Several separate episodes but all professional; strong_inference because the trait label rests on the pattern rather than on a stated principle."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_turner_leslie1860, src_turner_constable1845, src_turner_thornbury1862_v1, src_turner_ng_temeraire | 1800s-1844 | eyewitness memoir + rival's letters + compiled biography + institutional text] Chose his own subjects and manner against the taste of the day. Thornbury (Wells's account): fashionable patrons, led by Sir George Beaumont, favoured Claude and passed Turner by, and Turner answered with his own Liber and the Claude-hung bequest; Leslie: when an American buyer found a late Turner 'indistinct', Turner replied that 'indistinctness is my fault'; Constable (letter of 1836): the public 'think he is laughing at them, and so they laugh at him in return' while Turner 'seems to paint with tinted steam'. The National Gallery notes that he frequently painted contemporary scenes, seeing the train and Brunel's bridge as subjects 'worthy of being painted' and putting a steam tug beside the old warship. Three perspectives (one hostile-leaning rival). dual_edged because the manner lost him buyers and drew public ridicule."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_turner_constable1845, src_turner_ng_rainsteam, src_turner_ng_temeraire, src_turner_hamerton1879, src_turner_ruskin1857 | 1799-1844 | rival's letters + institutional text + critical biography + partisan catalogue] Scored from what contemporaries and curators say the pictures do, not from fame. Constable, a rival, wrote that Turner had 'a wonderful range of mind' (1813) and (1828) that his pictures were 'golden visions, glorious and beautiful ... only visions, but still they are art', and (1836) that he seemed 'to paint with tinted steam, so evanescent and so airy'. The National Gallery records that in Rain, Steam, and Speed (1844) he used an abruptly foreshortened viaduct and a barely visible hare to set natural against mechanised speed, and that in the Temeraire (1839) he took liberties with the facts (rigging, paintwork, a ghost-white ship against a sunset) for symbolic effect. Hamerton calls the Liber an epitome of landscape invention. Independent curatorial and rival sources agree; held below 82 because Ruskin's partisan praise is not used."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_turner_thornbury1862_v1, src_turner_ruskin1857 | 1790s-1840s | compiled biography + partisan catalogue] Trials of colour and effect recorded in working material. Thornbury, who handled the sketchbooks in the Turner Bequest, records 'trials with the brush' of purple and salmon in a sketchbook of the Borders, 'masses of experimental colour' in another, studies of light on empty and half-filled glass balls and a jailer's lantern in Newgate for perspective problems, and quick oil sketches such as the Ellesmere sea-piece laid in dead colour overnight. Ruskin's 1857 catalogue separates distinct periods in his handling. Primary material is described only through Thornbury and Ruskin, both admirers, so strong_inference at 0.58."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_turner_thornbury1862_v1, src_turner_ng_rainsteam | 1790s-1844 | compiled biography + institutional text] Range of looking and note-taking. Thornbury says he took notes in the Devon and Dorset sketchbook 'like a spy or a pilot', on forts, tides and harbours 'quite out of his province', sketched mackerel, mutton and a cat as well as ruins and cathedrals, and walked twenty to twenty-five miles a day on early tours; the National Gallery says he 'was particularly interested in industry and technology' and often travelled by steam train. Evidence is behavioural but partly one compiler, hence strong_inference."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_turner_thornbury1862_v1, src_turner_thornbury1862_v2, src_turner_hamerton1879 | 1807-1840s | compiled biography + critical biography] When patrons did not buy, he made his own channels. He became his own publisher of the Liber (Hamerton; Thornbury via Wells) and built a picture gallery at his house in Queen Anne Street (plans appear in a sketchbook of 1820, Thornbury; Thornbury and a visitor describe it as open to callers). Both are documented; the ventures were uneven (Hamerton judges the publishing not skilful, and the Liber stopped at the fourteenth number), so kept modest."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_turner_thornbury1862_v2, src_turner_jones1849, src_turner_leslie1860 | 1831-1851 | will reproduced in a biography + friend's memoir + eyewitness memoir] Concrete plans to benefit others. The will of 10 June 1831 and its later codicils, condensed in Thornbury from the probate registry, left the bulk of his funded property to found a charity for decayed male artists ('Turner's Gift'), a gold medal and an annuity for a professor of landscape at the Royal Academy, a sum for the Academy's pension fund, sums for artists' benevolent and orphan funds, and his finished pictures to the National Gallery on conditions. Jones, who was named a trustee, testifies that for twenty-five years Turner talked of the best way to leave property for unsuccessful artists. Leslie adds that Turner paid a heavy dinner bill for a large party. Several of the conditions were later found legally unworkable (Chancery), and Turner's conditions also served his own reputation (hanging beside Claude); scored on the stated aims and Jones's independent testimony."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "J. M. W. 터너"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-08T00:00:00Z",
+    "updatedAt": "2026-10-08T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-08) for Q159758 returned en label 'J. M. W. Turner', description 'English painter and draftsman (c.1775-1851)', P569 1775-04-23, P570 1851-12-19, instance of human, ko label present. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: painter; field art (field.art exists); impactDomains artistic and cultural; archetype creative_creator; region western_europe as other British artists; tags craft_focused and innovator. SOURCES READ locally (internet archive full text): Thornbury 1862 vols 1-2 (compiled memorial biography, date errors noted), Hamerton 1879 Liber chapter, Leslie 1860 Turner chapter (eyewitness), Constable letters via Leslie 1845 (rival), Jones 1849 Chantrey memoir (friend), Ruskin 1857 gallery notes (partisan), National Gallery pages for the Temeraire and Rain, Steam, and Speed. Independent perspectives: Hamerton (critical), Leslie (friendly eyewitness), Constable (rival), Jones (friend), National Gallery (institution); Thornbury and Ruskin are admiring/partisan and used for dated or quoted items only. NOT ACCESSED: Finberg 1939 (borrow-only, 401), Hamilton, Shanes, Butlin and Joll catalogue; Tate catalogue pages (503 to automated requests); Redding's recollections (downloaded; only one irrelevant mention of Turner found); Museum of Fine Arts Boston page (403). EXCLUDED by rule: his mother's mental illness, his private life, secrecy about his household and the circumstances of his death are not used for any row; Thornbury's note that Turner sold Liber 'sham proofs' (via Hamerton) is an unverified allegation about business practice and is not scored. Politics unscored. PORTRAIT: the Commons self-portrait c.1799 (Tate N00458) was NOT used: Commons tags it generic PD-Art, and Tate's own page was bot-walled (503) so its live rights notice could not be reconciled under the stronger rights rule. Used instead the c.1840 Charles Turner mezzotint from the National Library of Wales (IIIF manifest rights field: Public Domain Mark 1.0; engraver died 1857). The record read does not name the painter of the original, so it is classed as a historical depiction. Scores kept below 82 and confidence at or below 0.66; conflict_tolerance, persistence and risk_tolerance deliberately left unscored (anecdotal or contradictory). Wikipedia was not used."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jmw-turner-charles-turner-1840.jpg",
+    "width": 947,
+    "height": 1188,
+    "source": "Mezzotint print by Charles Turner (engraver, 1774-1857), published about 1840 by Day and Haghe, titled 'J. M. W. Turner, R.A. making his sketch for the celebrated picture of Mercury and Argus'; National Library of Wales, Welsh Portrait Collection (handle 10107/4674619); file as hosted on Wikimedia Commons",
+    "license": "Public domain (engraver died 1857; print published about 1840; the National Library of Wales marks the digitised item with the Public Domain Mark 1.0)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Charles Turner, mezzotint, about 1840, National Library of Wales, Welsh Portrait Collection (Public Domain Mark)",
+    "attributionUrl": "http://hdl.handle.net/10107/4674619",
+    "creator": "Charles Turner (engraver, 1774-1857)",
+    "date": "about 1840",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_J._M._W._Turner,_R.A._making_his_sketch_for_the_celebrated_picture_of_Mercury_%26_Argus_(4674619).jpg"
+  }
+}
