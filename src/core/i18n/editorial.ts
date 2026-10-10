@@ -7067,6 +7067,272 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Returning to win another title within days of a public disqualification is consistent with persistence; the sources report the result, not how he prepared.",
   "usain-bolt.turning_point.1":
     "In the Beijing 100 m final in August 2008 Bolt slowed and began celebrating before the line, yet still set a world record of 9.69. IOC president Jacques Rogge said he should show more respect for his opponents. Bolt said he was surprised by the criticism, asked some of the other runners whether he had disrespected them, and was told they would probably have done the same. Within the week he won the 200 m in a world record and then the relay. After the Games he went from a relatively new 100 m runner to a global figure and, as the Guardian's 2010 interview describes it, to the centre of questions about doping that he answered by pointing to repeated testing.",
+  /* ---------------------------------------------------------- cristiano-ronaldo (Roster48) */
+  "cristiano-ronaldo.achievement.1":
+    "The men's international scoring record holder: he passed Ali Daei's mark in 2021 and had 145 goals for Portugal by June 2026, when he became the first player to score at six World Cups.",
+  "cristiano-ronaldo.achievement.2":
+    "A five-time Champions League winner and five-time Ballon d'Or recipient, he is the competition's record scorer, the only player to score in three finals and Real Madrid's all-time top scorer.",
+  "cristiano-ronaldo.achievement.3":
+    "He won the 2016 European Championship with Portugal, and holds the tournament's records for appearances (25) and goals (14).",
+  "cristiano-ronaldo.moment.1":
+    "Forced off injured in the 2016 European Championship final, he told his teammates at half-time to stay together and then shouted instructions from the technical area through extra time, standing behind coach Fernando Santos.",
+  "cristiano-ronaldo.interpretation.moment.1":
+    "This is consistent with a strong urge to steer the group even when he was no longer on the pitch, though the sources disagree on whether it helped.",
+  "cristiano-ronaldo.moment.2":
+    "At Manchester United he trained with weights on his ankles and practised tricks alone after sessions while teammates laughed, as Darren Fletcher and Quinton Fortune recalled.",
+  "cristiano-ronaldo.interpretation.moment.2":
+    "This is consistent with a habit of working on skills by himself well beyond what the team required.",
+  "cristiano-ronaldo.turning_point.1":
+    "At the 2022 World Cup, Portugal coach Fernando Santos left him out of the starting line-up against Switzerland after his visible anger at being substituted against South Korea, ending his run as an automatic starter at major tournaments.",
+  "cristiano-ronaldo.interpretation.turning_point.1":
+    "This is consistent with competitive intensity that stayed high late in his career and sometimes strained his relationship with coaches.",
+  /* ---------------------------------------------------------- tiger-woods (Roster48) */
+  "tiger-woods.achievement.1":
+    "He won 82 PGA Tour events, tying Sam Snead's record, including 15 major championships: five Masters, four PGA Championships, three U.S. Opens and three Open Championships.",
+  "tiger-woods.achievement.2":
+    "He held all four major titles at once, winning the 2000 U.S. Open (by 15 strokes), the 2000 Open Championship, the 2000 PGA Championship and the 2001 Masters in succession, a run known as the Tiger Slam.",
+  "tiger-woods.achievement.3":
+    "He won the 2019 Masters, his fifth Masters title and 15th major.",
+  "tiger-woods.moment.1":
+    "Before the 2019 Masters he arrived the Sunday before tournament week without an instructor, walked the front nine with only a putter and a couple of wedges, and later skipped the Tuesday practice round, calling that the best move he made all week.",
+  "tiger-woods.interpretation.moment.1":
+    "This is consistent with a preference for planning his preparation around what he judged he needed rather than following the standard routine.",
+  "tiger-woods.moment.2":
+    "In the final round of the 2019 Masters at the 12th hole, with others in the water, he judged the wind and aimed left of the flag, saying he told himself to commit to the shot over the bunker.",
+  "tiger-woods.interpretation.moment.2":
+    "This is consistent with choosing a conservative target under pressure rather than attacking the flag.",
+  "tiger-woods.turning_point.1":
+    "After leaving coach Butch Harmon in 2003, he began a second swing rebuild with Hank Haney in March 2004, a year in which he won once and had his worst major finishes as a pro, while Harmon publicly questioned the decision.",
+  "tiger-woods.interpretation.turning_point.1":
+    "This is consistent with a willingness to rebuild technique at a cost to short-term results, by his own account because he thought he could become better.",
+  /* ---------------------------------------------------------- rafael-nadal (Roster48) */
+  "rafael-nadal.achievement.1":
+    "He won 22 Grand Slam singles titles, including a record 14 French Open titles, with a 112-4 record at Roland Garros and 63 career clay-court titles.",
+  "rafael-nadal.achievement.2":
+    "He completed the career Grand Slam and won Olympic gold in singles at Beijing 2008 and in doubles at Rio 2016.",
+  "rafael-nadal.achievement.3":
+    "He won the 2022 Australian Open final after losing the first two sets, his 21st major title.",
+  "rafael-nadal.moment.1":
+    "In the 2022 Australian Open final he saved three break points at 0-40 in the third set and kept breaking back to come from two sets down against Daniil Medvedev.",
+  "rafael-nadal.interpretation.moment.1":
+    "This is consistent with staying in a match through repeated setbacks rather than letting an early deficit decide it.",
+  "rafael-nadal.moment.2":
+    "When he complained about the balls in a match against James Blake, his uncle and coach Toni Nadal told him to lose and stop complaining; he lost, then won a tournament the next week with the same balls.",
+  "rafael-nadal.interpretation.moment.2":
+    "This is consistent with a training culture built around accepting the same conditions as the opponent and without making excuses.",
+  "rafael-nadal.turning_point.1":
+    "In 2008 he won Wimbledon in a final that ended as the light faded, his first Wimbledon title and his first major outside the French Open, ending his image as a clay-court specialist.",
+  "rafael-nadal.interpretation.turning_point.1":
+    "This is consistent with a game that kept developing beyond clay, as the months his team reports he spent on his serve would suggest.",
+  /* ---------------------------------------------------------- mark-zuckerberg (Roster48) */
+  "mark-zuckerberg.achievement.1":
+    "He launched Facebook from his Harvard dorm room in February 2004 and, as CEO, led it to 845 million monthly active users by the end of 2011.",
+  "mark-zuckerberg.achievement.2":
+    "He led Facebook's acquisition of Instagram in 2012 and of WhatsApp in 2014, a deal valued at $19 billion including retention units.",
+  "mark-zuckerberg.achievement.3":
+    "In October 2021 he introduced Meta as the new company brand bringing Facebook's apps and technologies together, with the metaverse as its focus.",
+  "mark-zuckerberg.moment.1":
+    "In 2006, when Yahoo's chief executive offered about a billion dollars for Facebook, Zuckerberg turned it down, telling him it was not about the price and that he wanted to keep running and growing it.",
+  "mark-zuckerberg.interpretation.moment.1":
+    "This is consistent with a strong preference for keeping control of what he was building over a large financial payout.",
+  "mark-zuckerberg.moment.2":
+    "At TechCrunch Disrupt in September 2012 he said betting too much on HTML5 rather than native apps was the company's biggest mistake, saying Facebook had 'burned two years', and moved its mobile apps to native code.",
+  "mark-zuckerberg.interpretation.moment.2":
+    "This is consistent with publicly acknowledging a strategic misjudgement and changing course, though an outside critic argued his diagnosis was incomplete.",
+  "mark-zuckerberg.turning_point.1":
+    "In 2007 he announced that Facebook would become a platform that outside developers could build applications on, and in 2008 he unveiled Facebook Connect, letting people sign in to other websites with their Facebook account.",
+  "mark-zuckerberg.interpretation.turning_point.1":
+    "This is consistent with reading the product as something larger than a single site and building outward from it.",
+  /* ---------------------------------------------------------- jack-ma (Roster48) */
+  "jack-ma.achievement.1":
+    "He founded Alibaba in 1999 in his Hangzhou apartment with 17 others, starting as a marketplace linking small Chinese exporters with global buyers.",
+  "jack-ma.achievement.2":
+    "He launched Taobao in 2003 as a free marketplace for consumers and Alipay's escrow payment service in 2004; eBay closed its China site in 2006.",
+  "jack-ma.achievement.3":
+    "By 2013 Alibaba was the largest online and mobile commerce company by gross merchandise volume according to IDC, and it listed in New York in September 2014 in what its early investor Eight Roads calls the world's biggest IPO.",
+  "jack-ma.moment.1":
+    "In October 2005 eBay said 'free' is not a business model about Taobao's no-fee strategy; three months later eBay dropped its own seller transaction fee in China while Taobao held a larger share of auction volume.",
+  "jack-ma.interpretation.moment.1":
+    "This is consistent with a competitor reading the market differently and a bet on growth ahead of fees that the market outcome favoured.",
+  "jack-ma.moment.2":
+    "When the 2001 internet bubble burst, Alibaba cut costs and closed offices to survive, according to its early investor Eight Roads.",
+  "jack-ma.interpretation.moment.2":
+    "This is consistent with staying with the business through a downturn by cutting back rather than giving up.",
+  "jack-ma.turning_point.1":
+    "In May 2003 he told his executives that Alibaba would launch Taobao, a consumer marketplace, widening the company from business-to-business trade to online shopping and a defence against eBay.",
+  "jack-ma.interpretation.turning_point.1":
+    "This is consistent with moving into a new market early to meet a feared competitor on its own ground.",
+  /* ---------------------------------------------------------- buzz-aldrin (Roster48) */
+  "buzz-aldrin.achievement.1":
+    "As lunar module pilot of Apollo 11 he followed Neil Armstrong onto the Moon on 20 July 1969, becoming the second human to walk on its surface.",
+  "buzz-aldrin.achievement.2":
+    "On Gemini XII in November 1966 he made three spacewalks, including one where he worked with handholds and a waist tether and finished with no fatigue, which NASA says showed spacewalk work was feasible.",
+  "buzz-aldrin.achievement.3":
+    "He held a doctorate from MIT, where his thesis was on orbital rendezvous, and he put that work to use on Gemini XII when the radar lock was lost.",
+  "buzz-aldrin.moment.1":
+    "When Gemini XII lost its radar lock at about 74 miles from the Agena, Aldrin took out a sextant and slide rule, measured the angle to the target and worked out corrections with his rendezvous chart and the onboard computer.",
+  "buzz-aldrin.interpretation.moment.1":
+    "This is consistent with applying quantitative training directly to a live fault when the automated system fails.",
+  "buzz-aldrin.moment.2":
+    "During the Apollo 11 descent, after the first 1202 program alarm, Aldrin asked Houston to supply the time-to-pitchover information instead of requesting that display from the computer, and kept calling out altitude and descent rate to touchdown.",
+  "buzz-aldrin.interpretation.moment.2":
+    "This is consistent with adjusting how he used the system to reduce risk while continuing to carry out the assigned task.",
+  "buzz-aldrin.turning_point.1":
+    "In September 1966, after earlier Gemini spacewalkers had struggled with exhaustion, Aldrin was sent to train underwater in a Baltimore pool before Gemini XII, a method that became the primary spacewalk training approach.",
+  "buzz-aldrin.interpretation.turning_point.1":
+    "This is consistent with preparing for a hard task through repeated, detailed rehearsal once a better method was available.",
+  /* ---------------------------------------------------------- johann-wolfgang-von-goethe (Roster48) */
+  "johann-wolfgang-von-goethe.achievement.1":
+    "He worked on Faust for more than 60 years, revising and returning to it until its second part reached its last acts in 1831.",
+  "johann-wolfgang-von-goethe.achievement.2":
+    "His early works, including Götz von Berlichingen and The Sorrows of Young Werther, were immensely popular.",
+  "johann-wolfgang-von-goethe.achievement.3":
+    "From 1794 he worked in close partnership with Friedrich Schiller on journals, almanacs and epigrams, and he directed the Weimar court theatre.",
+  "johann-wolfgang-von-goethe.moment.1":
+    "In 1823 he told Eckermann that for twenty years he had known that Newton and the mathematicians were wrong about colour and that he alone among millions knew the truth, and he went on defending his theory for the rest of his life.",
+  "johann-wolfgang-von-goethe.interpretation.moment.1":
+    "This is consistent with a willingness to hold a position against nearly the whole scientific establishment of his day, in a case where later physicists judged him wrong.",
+  "johann-wolfgang-von-goethe.moment.2":
+    "In 1831 he had the whole manuscript of Faust's second part stitched together, with white paper standing in for the missing fourth act, so that what was finished would draw him on to complete the rest.",
+  "johann-wolfgang-von-goethe.interpretation.moment.2":
+    "This is consistent with finishing a very long work by returning to it in stages and arranging the work so it pulls him forward.",
+  "johann-wolfgang-von-goethe.turning_point.1":
+    "After Schiller's letter of 23 August 1794 describing his mind, Goethe replied that he regarded those days as an epoch in his life, and the two began a close working partnership on journals, almanacs and poems.",
+  "johann-wolfgang-von-goethe.interpretation.turning_point.1":
+    "This is consistent with a writer who, from this point, sought out a close peer to work with instead of working mainly alone.",
+  /* ---------------------------------------------------------- leonard-bernstein (Roster48) */
+  "leonard-bernstein.achievement.1":
+    "He made his name in 1943 by conducting the New York Philharmonic at short notice, became its music director in 1958, and championed Mahler and American composers.",
+  "leonard-bernstein.achievement.2":
+    "He wrote the music for West Side Story (1957), which joined symphonic writing with Latin and jazz elements; its 1961 film won eleven Academy Awards.",
+  "leonard-bernstein.achievement.3":
+    "He led 53 televised Young People's Concerts between 1958 and 1972, teaching music to a national audience.",
+  "leonard-bernstein.moment.1":
+    "Before the Philharmonic's 1962 Brahms concert with Glenn Gould, he told the audience he did not fully agree with the pianist's very slow reading, then conducted it anyway because he found it interesting enough to hear.",
+  "leonard-bernstein.interpretation.moment.1":
+    "This is consistent with voicing disagreement openly while still giving a colleague's different idea a fair hearing.",
+  "leonard-bernstein.moment.2":
+    "In an Omnibus television lecture on Beethoven's Fifth Symphony he laid the opening bars out on the studio floor and studied the composer's discarded drafts to ask why Beethoven chose the final version.",
+  "leonard-bernstein.interpretation.moment.2":
+    "This is consistent with an interest in how a work was made, not only in how it sounds.",
+  "leonard-bernstein.turning_point.1":
+    "On 14 November 1943 the 25-year-old assistant conductor replaced the ill Bruno Walter at the Philharmonic with no rehearsal, and the concert, broadcast nationwide, made him a celebrity overnight.",
+  "leonard-bernstein.interpretation.turning_point.1":
+    "This is consistent with being able to take on a very large task at short notice after preparing the repertoire in advance.",
+  /* ---------------------------------------------------------- steven-spielberg (Roster48) */
+  "steven-spielberg.achievement.1":
+    "He directed Jaws (1975), which established him as a leading director and, according to Britannica, all but created the summer-blockbuster genre.",
+  "steven-spielberg.achievement.2":
+    "He directed Schindler's List (1993), shot largely in black-and-white in Poland, and won the best-director Oscar for it and again for Saving Private Ryan (1998).",
+  "steven-spielberg.achievement.3":
+    "He directed Raiders of the Lost Ark (1981), shot in 73 days, and then E.T. the Extra-Terrestrial (1982), which Britannica calls even more successful.",
+  "steven-spielberg.moment.1":
+    "When Jaws' mechanical shark kept failing at sea, he shot everything he could without it, and the shark shots he had storyboarded were eventually all obtained.",
+  "steven-spielberg.interpretation.moment.1":
+    "This is consistent with reorganising the shoot around what was possible while holding to a visual plan prepared in advance.",
+  "steven-spielberg.moment.2":
+    "On Schindler's List he asked cinematographer Janusz Kaminski what he thought of shooting in black-and-white and then gave him what Kaminski called 100 percent free rein over the look.",
+  "steven-spielberg.interpretation.moment.2":
+    "This is consistent with seeking a close collaborator's view and then trusting that person with major visual decisions.",
+  "steven-spielberg.turning_point.1":
+    "For Schindler's List in 1993 the final print was black-and-white against studio hopes, with handheld and deliberately imperfect camerawork instead of the polished style of his earlier films, according to his cinematographer.",
+  "steven-spielberg.interpretation.turning_point.1":
+    "This is consistent with a director willing to set aside his own proven style and the studio's preference for a more demanding subject.",
+  /* ---------------------------------------------------------- satyajit-ray (Roster48) */
+  "satyajit-ray.achievement.1":
+    "He directed the Apu Trilogy (1955-1959), whose first film, Pather Panchali, won the Best Human Document prize at Cannes in 1956 and made him an internationally recognised filmmaker.",
+  "satyajit-ray.achievement.2":
+    "Aparajito won the Golden Lion at Venice in 1957, and in 1992 he received an honorary Academy Award for lifetime achievement and India's Bharat Ratna.",
+  "satyajit-ray.achievement.3":
+    "Besides directing, he wrote the Feluda detective stories and composed the music for his own films from Teen Kanya (1961) onward.",
+  "satyajit-ray.moment.1":
+    "Unable to find a producer for Pather Panchali, he took a notebook of sketches, dialogue and treatment and a second sketchbook of key scenes to potential backers, and when none came forward he started shooting on Sundays with borrowed money.",
+  "satyajit-ray.interpretation.moment.1":
+    "This is consistent with a habit of preparing a film visually in advance and continuing through a funding gap rather than waiting for backing.",
+  "satyajit-ray.moment.2":
+    "From Teen Kanya (1961) he composed his own film scores, saying he had too many musical ideas of his own and that composers resented being guided; two classical composers who had scored his films accused him of excessive interference.",
+  "satyajit-ray.interpretation.moment.2":
+    "This is consistent with a strong need to control his own work, with a cost in friction with collaborators.",
+  "satyajit-ray.turning_point.1":
+    "After Pather Panchali was screened at the Museum of Modern Art in 1955 and won at Cannes in 1956, he resigned from his job at the D. J. Keymer advertising agency and became a full-time filmmaker, making one or more films a year until 1983.",
+  "satyajit-ray.interpretation.turning_point.1":
+    "This is consistent with moving from a side project done around a day job to a sustained, prolific working life once the first film proved viable.",
+  /* ---------------------------------------------------------- ludwig-mies-van-der-rohe (Roster48) */
+  "ludwig-mies-van-der-rohe.achievement.1":
+    "He championed a steel-and-glass International Style whose actual supports are the dominant feature of the building, and his 1919-21 glass-skyscraper designs set out the idea of 'skin and bones' construction.",
+  "ludwig-mies-van-der-rohe.achievement.2":
+    "He designed the German Pavilion at the 1929 Barcelona exposition and the cantilevered Barcelona chair made for it, which became a classic of twentieth-century furniture design.",
+  "ludwig-mies-van-der-rohe.achievement.3":
+    "In the United States he built the Farnsworth House (1951) and, with Philip Johnson, the Seagram Building in New York, while heading the architecture school at the Illinois Institute of Technology until 1958.",
+  "ludwig-mies-van-der-rohe.moment.1":
+    "When the Seagram chairman said no one would see a brick firewall at the back, Mies insisted on bronze for it, saying 'God would see it,' according to the building's planning director.",
+  "ludwig-mies-van-der-rohe.interpretation.moment.1":
+    "This is consistent with applying the same level of finish to places no visitor would notice.",
+  "ludwig-mies-van-der-rohe.moment.2":
+    "At the Farnsworth House he ground rivet heads off the steel junctions and polished the welds smooth to make the connections invisible, while leaving the weekend house without closets and with only two small operable windows.",
+  "ludwig-mies-van-der-rohe.interpretation.moment.2":
+    "This is consistent with putting the visual ideal ahead of practical convenience, which produced both a celebrated house and a difficult one to live in.",
+  "ludwig-mies-van-der-rohe.turning_point.1":
+    "In 1938 he took over the architecture school at the Armour Institute in Chicago (soon renamed the Illinois Institute of Technology) and drew its campus master plan, his first chance to design a group of buildings in an urban centre.",
+  "ludwig-mies-van-der-rohe.interpretation.turning_point.1":
+    "This is consistent with a working life in which teaching a drafting-based curriculum and his own large commissions were closely linked.",
+  /* ---------------------------------------------------------- paul-dirac (Roster48) */
+  "paul-dirac.achievement.1":
+    "In 1925 he independently produced a formulation of quantum mechanics based on a noncommutative algebra, and in 1930 he set out the whole theory in The Principles of Quantum Mechanics.",
+  "paul-dirac.achievement.2":
+    "His 1928 wave equation for the electron joined quantum theory with special relativity, two frameworks that had been mathematically opposed.",
+  "paul-dirac.achievement.3":
+    "His hole theory required a positively charged particle with the electron's mass, and the positron was found experimentally in 1932 and 1933; he shared the 1933 Nobel Prize in Physics.",
+  "paul-dirac.moment.1":
+    "After the war he kept explaining why he was not satisfied with renormalization, even though it was a big success, and urged physicists to look for the correct Hamiltonian.",
+  "paul-dirac.interpretation.moment.1":
+    "This is consistent with holding to his own standard for a good theory even when most of the field had moved on.",
+  "paul-dirac.moment.2":
+    "In his 1963 Scientific American article he argued that it is more important to have beauty in one's equations than to have them fit experiment, using Schroedinger's discovery as his example.",
+  "paul-dirac.interpretation.moment.2":
+    "This is consistent with a theorist who treated mathematical beauty as a guide to progress, a stance Dyson judges did not lead to major later discoveries.",
+  "paul-dirac.turning_point.1":
+    "After the early 1930s his output fell, and Schweber's review describes him becoming a loner once again after the war, in contrast to his years of close ties with Cambridge circles and European correspondents.",
+  "paul-dirac.interpretation.turning_point.1":
+    "This is consistent with a researcher whose strongest work came while he was closely connected to colleagues and who later worked mostly on his own terms.",
+  /* ---------------------------------------------------------- francis-crick (Roster48) */
+  "francis-crick.achievement.1":
+    "In 1953 he and James Watson proposed the double-helix structure of DNA, whose paired bases suggested how genes are copied.",
+  "francis-crick.achievement.2":
+    "In 1955-58 he put forward the adaptor hypothesis, the sequence hypothesis and the central dogma of molecular biology, which set out how genetic information flows into proteins.",
+  "francis-crick.achievement.3":
+    "With Sydney Brenner and colleagues he showed in 1961 that three DNA bases code for one amino acid, and from 1977 he turned to the brain and consciousness at the Salk Institute.",
+  "francis-crick.moment.1":
+    "At a San Diego dinner in 1986 he sat Oliver Sacks beside him and said 'Tell me stories!', then answered each patient story with a burst of hypotheses and suggested investigations.",
+  "francis-crick.interpretation.moment.1":
+    "This is consistent with a scientist who treated other people's observations as raw material for new hypotheses.",
+  "francis-crick.moment.2":
+    "When transfer RNA was discovered, he did not believe it was the adaptor he had predicted, because it was larger than he expected, and insisted there would be twenty different adaptors.",
+  "francis-crick.interpretation.moment.2":
+    "This is consistent with holding to the specific form of his own prediction even when new evidence matched it only loosely, although later experiments confirmed adaptors and enzymes as he had foreseen.",
+  "francis-crick.turning_point.1":
+    "In 1947 he left wartime Admiralty work in physics to study biology, at a time when, in the Nobel Foundation's wording, he knew no biology and practically no organic chemistry or crystallography.",
+  "francis-crick.interpretation.turning_point.1":
+    "This is consistent with a researcher willing to retrain from the beginning in a new field.",
+  /* ---------------------------------------------------------- joseph-priestley (Roster48) */
+  "joseph-priestley.achievement.1":
+    "His History and Present State of Electricity (1767) surveyed the field and added his own experiments, and it led to his election to the Royal Society.",
+  "joseph-priestley.achievement.2":
+    "He identified at least eight new gases, devised a way to make carbonated water, and set out hundreds of experiments in the six-volume Experiments and Observations on Different Kinds of Air (1774-1786).",
+  "joseph-priestley.achievement.3":
+    "In 1774 he isolated the gas now called oxygen, which he named dephlogisticated air, and showed it to Lavoisier, who built the new chemistry on it.",
+  "joseph-priestley.moment.1":
+    "After finding that a candle burned strongly in the new air from heated mercuric oxide, he put mice in it and then breathed it himself, noting that only two mice and he had so far had the privilege.",
+  "joseph-priestley.interpretation.moment.1":
+    "This is consistent with a researcher who followed an unexpected result with further tests on whatever he could try, including himself.",
+  "joseph-priestley.moment.2":
+    "In 1797, when the scientific community had dismissed phlogiston, he published The Doctrine of Phlogiston Established, and he still held the view when he died.",
+  "joseph-priestley.interpretation.moment.2":
+    "This is consistent with holding a framework against the weight of contemporary evidence, a stance historians read as both tenacious and costly.",
+  "joseph-priestley.turning_point.1":
+    "After Lavoisier's Traite of 1789, the Hexagon article says, Priestley's science turned from new discoveries to rearguard actions defending phlogiston.",
+  "joseph-priestley.interpretation.turning_point.1":
+    "This is consistent with a researcher whose output shifted from exploring new phenomena to defending an established position once the field moved against him.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -13987,6 +14253,272 @@ export const EDITORIAL_KO: Record<string, string> = {
     "공개적인 실격 직후 며칠 만에 다른 종목에서 우승한 것은 끈기와 부합한다. 다만 출처들은 결과만 전할 뿐 그가 어떻게 준비했는지는 알려 주지 않는다.",
   "usain-bolt.turning_point.1":
     "2008년 8월 베이징 올림픽 100m 결승에서 볼트는 결승선 앞에서 속도를 늦추고 세리머니를 시작했는데도 세계기록인 9초69를 세웠다. 자크 로게 국제올림픽위원회 위원장은 그가 상대 선수들에게 더 예의를 갖춰야 한다고 말했다. 볼트는 비판에 놀랐다고 하면서, 다른 선수 몇 명에게 자신이 무례했느냐고 물었더니 그들이 이겼어도 같은 행동을 했을 것이라고 답했다고 전했다. 그는 그 주 안에 200m에서 세계기록으로 우승하고 계주까지 석권했다. 이 대회 이후 그는 100m에 갓 입문한 선수에서 세계적 스타가 되었고, 2010년 가디언 인터뷰가 전하듯 도핑 의혹을 묻는 질문의 중심에도 섰는데, 그는 거듭 받은 검사를 근거로 이에 답했다.",
+  /* ---------------------------------------------------------- cristiano-ronaldo (Roster48) */
+  "cristiano-ronaldo.achievement.1":
+    "남자 A매치 최다 득점 기록 보유자로, 2021년 알리 다에이의 기록을 넘어섰고 2026년 6월까지 포르투갈 대표팀에서 145골을 넣었다. 그 대회에서 처음으로 월드컵 6개 대회 득점 기록도 세웠다.",
+  "cristiano-ronaldo.achievement.2":
+    "챔피언스리그 우승 5회, 발롱도르 수상 5회를 기록했고, 챔피언스리그 최다 득점자이자 결승전 세 차례에서 득점한 유일한 선수이며 레알 마드리드 역대 최다 득점자다.",
+  "cristiano-ronaldo.achievement.3":
+    "2016년 유럽 선수권 대회에서 포르투갈과 함께 우승했으며, 이 대회 최다 출전(25경기)과 최다 득점(14골) 기록을 가지고 있다.",
+  "cristiano-ronaldo.moment.1":
+    "2016년 유럽 선수권 결승에서 부상으로 교체된 그는 하프타임에 동료들에게 뭉쳐서 끝까지 싸우자고 말했고, 연장전까지 감독 페르난두 산투스 뒤 기술 지역에서 계속 지시를 외쳤다.",
+  "cristiano-ronaldo.interpretation.moment.1":
+    "경기장 밖에서도 팀을 이끌려는 강한 욕구와 일치하지만, 그것이 도움이 되었는지는 자료마다 평가가 갈린다.",
+  "cristiano-ronaldo.moment.2":
+    "맨체스터 유나이티드 시절 그는 발목에 무게를 달고 훈련하고 훈련이 끝난 뒤에도 혼자 기술을 연습했으며, 동료들이 웃어도 개의치 않았다고 대런 플레처와 퀸턴 포춘은 회고했다.",
+  "cristiano-ronaldo.interpretation.moment.2":
+    "팀이 요구하는 수준을 넘어 스스로 기술을 갈고닦는 습관과 일치한다.",
+  "cristiano-ronaldo.turning_point.1":
+    "2022년 월드컵에서 포르투갈 감독 페르난두 산투스는 한국전 교체 때 드러낸 그의 분노를 이유로 스위스전 선발에서 그를 제외했고, 이는 큰 대회에서 당연한 선발이던 시대의 끝을 알렸다.",
+  "cristiano-ronaldo.interpretation.turning_point.1":
+    "경력 후반에도 높게 유지된 승부욕이 때로 감독과의 관계에 부담을 주었다는 점과 일치한다.",
+  /* ---------------------------------------------------------- tiger-woods (Roster48) */
+  "tiger-woods.achievement.1":
+    "PGA 투어에서 82승을 거두어 샘 스니드의 최다승 기록과 타이를 이뤘고, 이 중 마스터스 5회, PGA 챔피언십 4회, US 오픈 3회, 디 오픈 3회를 포함해 메이저 15승을 달성했다.",
+  "tiger-woods.achievement.2":
+    "2000년 US 오픈(15타 차), 2000년 디 오픈, 2000년 PGA 챔피언십, 2001년 마스터스를 잇달아 우승해 네 개의 메이저 타이틀을 동시에 보유했으며, 이 기록은 '타이거 슬램'으로 불린다.",
+  "tiger-woods.achievement.3":
+    "2019년 마스터스에서 우승해 통산 다섯 번째 마스터스 우승이자 15번째 메이저 우승을 기록했다.",
+  "tiger-woods.moment.1":
+    "2019년 마스터스를 앞두고 그는 대회 주간 전 일요일에 코치 없이 도착해 퍼터와 웨지 몇 자루만 들고 전반 9홀을 걸었고, 화요일 연습 라운드는 건너뛰었으며 이를 그 주 최고의 결정이라고 말했다.",
+  "tiger-woods.interpretation.moment.1":
+    "일반적인 준비 방식을 따르기보다 자신이 필요하다고 판단한 것에 맞춰 준비를 계획하는 성향과 일치한다.",
+  "tiger-woods.moment.2":
+    "2019년 마스터스 최종 라운드 12번 홀에서 다른 선수들이 물에 빠진 상황에서도 그는 바람을 판단해 깃대 왼쪽을 겨냥했고, 벙커 위로 보내는 샷에 확신을 갖자고 스스로에게 말했다고 밝혔다.",
+  "tiger-woods.interpretation.moment.2":
+    "압박 속에서 깃대를 공격하기보다 보수적인 목표 지점을 택했다는 점과 일치한다.",
+  "tiger-woods.turning_point.1":
+    "2003년 코치 부치 하먼과 결별한 뒤 2004년 3월부터 행크 헤이니와 두 번째 스윙 개조에 들어갔고, 그해 우승은 한 번에 그쳤으며 메이저 성적도 프로 데뷔 후 가장 나빴고, 하먼은 이 결정에 공개적으로 의문을 제기했다.",
+  "tiger-woods.interpretation.turning_point.1":
+    "스스로 더 나아질 수 있다고 믿었다는 본인의 설명처럼 단기 성적을 감수하고 기술을 다시 세우려는 의지와 일치한다.",
+  /* ---------------------------------------------------------- rafael-nadal (Roster48) */
+  "rafael-nadal.achievement.1":
+    "그랜드슬램 단식 22회 우승을 차지했고, 이 중 프랑스 오픈에서만 14회 우승했으며 롤랑가로스 전적은 112승 4패, 클레이코트 우승은 통산 63회였다.",
+  "rafael-nadal.achievement.2":
+    "커리어 그랜드슬램을 완성했고, 2008년 베이징 올림픽 단식과 2016년 리우 올림픽 복식에서 금메달을 땄다.",
+  "rafael-nadal.achievement.3":
+    "2022년 호주 오픈 결승에서 첫 두 세트를 내주고도 역전승해 21번째 메이저 우승을 차지했다.",
+  "rafael-nadal.moment.1":
+    "2022년 호주 오픈 결승에서 그는 3세트 0-40의 위기에서 브레이크 포인트 세 개를 모두 막아냈고, 계속해서 되받아치며 다닐 메드베데프를 상대로 두 세트 열세를 뒤집었다.",
+  "rafael-nadal.interpretation.moment.1":
+    "초반의 열세에 승부를 맡기지 않고 거듭된 위기에도 경기에 머문다는 점과 일치한다.",
+  "rafael-nadal.moment.2":
+    "제임스 블레이크와의 경기에서 공 상태를 불평하자 삼촌이자 코치인 토니 나달은 지고 불평을 멈추라고 했고, 그는 졌지만 다음 주 같은 공으로 치른 대회에서 우승했다.",
+  "rafael-nadal.interpretation.moment.2":
+    "상대와 같은 조건을 받아들이고 변명하지 않는 훈련 문화와 일치한다.",
+  "rafael-nadal.turning_point.1":
+    "2008년 그는 해가 지며 어두워지는 속에서 끝난 결승전에서 윔블던을 우승했는데, 이는 첫 윔블던 우승이자 프랑스 오픈 밖에서 딴 첫 메이저 타이틀로 클레이코트 전문가라는 이미지를 끝냈다.",
+  "rafael-nadal.interpretation.turning_point.1":
+    "그의 팀이 전한, 서브에 몇 달을 들인 노력이 말해주듯 클레이코트 밖에서도 경기력을 계속 키워 왔다는 점과 일치한다.",
+  /* ---------------------------------------------------------- mark-zuckerberg (Roster48) */
+  "mark-zuckerberg.achievement.1":
+    "2004년 2월 하버드 기숙사에서 페이스북을 시작했고, CEO로서 2011년 말 월간 활성 이용자 8억 4,500만 명까지 키웠다.",
+  "mark-zuckerberg.achievement.2":
+    "2012년 인스타그램, 2014년 왓츠앱 인수를 이끌었고, 왓츠앱 인수는 직원 보상 주식을 포함해 190억 달러 규모였다.",
+  "mark-zuckerberg.achievement.3":
+    "2021년 10월 페이스북의 앱과 기술을 하나로 묶는 새 회사 브랜드 메타를 발표하며 메타버스를 회사의 핵심 방향으로 내세웠다.",
+  "mark-zuckerberg.moment.1":
+    "2006년 야후 CEO가 페이스북 인수가로 약 10억 달러를 제시했을 때, 그는 가격이 문제가 아니며 계속 직접 운영하고 키우고 싶다며 거절했다.",
+  "mark-zuckerberg.interpretation.moment.1":
+    "큰 금전적 보상보다 자신이 만든 것을 직접 이끄는 쪽을 택하는 강한 성향과 일치한다.",
+  "mark-zuckerberg.moment.2":
+    "2012년 9월 테크크런치 디스럽트에서 그는 네이티브 앱 대신 HTML5에 지나치게 건 것이 회사의 가장 큰 실수였고 2년을 허비했다고 말했으며, 모바일 앱을 네이티브 방식으로 전환했다.",
+  "mark-zuckerberg.interpretation.moment.2":
+    "전략적 판단 착오를 공개적으로 인정하고 방향을 바꾼 모습과 일치하지만, 외부 비평가는 그의 진단이 불완전하다고 보았다.",
+  "mark-zuckerberg.turning_point.1":
+    "2007년 외부 개발자가 앱을 만들 수 있는 플랫폼으로 페이스북을 전환한다고 발표했고, 2008년에는 페이스북 계정으로 다른 웹사이트에 로그인할 수 있는 페이스북 커넥트를 공개했다.",
+  "mark-zuckerberg.interpretation.turning_point.1":
+    "제품을 하나의 사이트를 넘어서는 것으로 보고 바깥으로 확장해 나간 모습과 일치한다.",
+  /* ---------------------------------------------------------- jack-ma (Roster48) */
+  "jack-ma.achievement.1":
+    "1999년 항저우의 자택에서 다른 17명과 함께 알리바바를 창업했고, 처음에는 중국 중소 수출업체와 해외 구매자를 잇는 마켓플레이스로 시작했다.",
+  "jack-ma.achievement.2":
+    "2003년 소비자용 무료 마켓플레이스 타오바오를, 2004년 에스크로 결제 서비스 알리페이를 선보였고, 이베이는 2006년 중국 사이트를 닫았다.",
+  "jack-ma.achievement.3":
+    "2013년 알리바바는 IDC 기준 총거래액에서 세계 최대 온·오프라인 모바일 상거래 기업이 되었고, 2014년 9월 뉴욕에 상장했다. 초기 투자자 에이트로즈는 이를 세계 최대 규모의 IPO라고 평가한다.",
+  "jack-ma.moment.1":
+    "2005년 10월 이베이는 타오바오의 무료 전략을 두고 '무료는 사업 모델이 아니다'라고 했지만, 석 달 뒤 중국 사이트의 판매자 수수료를 없앴고 경매 거래량에서는 타오바오가 더 앞서 있었다.",
+  "jack-ma.interpretation.moment.1":
+    "경쟁사와 다르게 시장을 읽고 수수료보다 성장에 먼저 건 선택이 시장 결과로 뒷받침된 모습과 일치한다.",
+  "jack-ma.moment.2":
+    "2001년 닷컴 거품이 꺼졌을 때 알리바바는 비용을 줄이고 사무실을 닫아 버텼다고 초기 투자자 에이트로즈는 전한다.",
+  "jack-ma.interpretation.moment.2":
+    "하락기에 사업을 접지 않고 규모를 줄여 이어간 모습과 일치한다.",
+  "jack-ma.turning_point.1":
+    "2003년 5월 그는 임원들에게 타오바오 출시를 알렸고, 알리바바는 기업 간 거래에서 온라인 쇼핑으로 사업을 넓히며 이베이에 대한 방어에 나섰다.",
+  "jack-ma.interpretation.turning_point.1":
+    "우려하던 경쟁자가 오기 전에 새 시장에 먼저 들어가 맞서는 선택과 일치한다.",
+  /* ---------------------------------------------------------- buzz-aldrin (Roster48) */
+  "buzz-aldrin.achievement.1":
+    "아폴로 11호의 달 착륙선 조종사로서 1969년 7월 20일 닐 암스트롱에 이어 달 표면에 발을 디뎌 두 번째로 달 위를 걸은 사람이 되었다.",
+  "buzz-aldrin.achievement.2":
+    "1966년 11월 제미니 12호에서 세 차례 우주 유영을 했고, 그중 한 번은 손잡이와 허리 고정줄을 써서 피로 없이 작업을 마쳤으며, NASA는 이를 통해 우주 유영 작업이 가능함이 입증되었다고 평가한다.",
+  "buzz-aldrin.achievement.3":
+    "MIT에서 궤도 랑데부를 주제로 한 논문으로 박사 학위를 받았고, 제미니 12호에서 레이더 추적이 끊겼을 때 그 연구를 실제 비행에 활용했다.",
+  "buzz-aldrin.moment.1":
+    "제미니 12호가 아제나 표적에서 약 120킬로미터 거리에서 레이더 추적을 잃자 올드린은 육분의와 계산자를 꺼내 표적과의 각도를 재고 랑데부 도표와 탑재 컴퓨터로 보정값을 계산했다.",
+  "buzz-aldrin.interpretation.moment.1":
+    "자동 장치가 고장났을 때 정량적 훈련을 곧바로 현장의 문제 해결에 적용하는 모습과 일치한다.",
+  "buzz-aldrin.moment.2":
+    "아폴로 11호 하강 중 첫 1202 프로그램 경보 뒤 올드린은 컴퓨터에 해당 화면을 요청하는 대신 휴스턴에 피치오버까지 남은 시간 정보를 요청했고, 착륙까지 고도와 하강 속도를 계속 불러 주었다.",
+  "buzz-aldrin.interpretation.moment.2":
+    "맡은 임무를 계속 수행하면서 위험을 줄이도록 시스템을 쓰는 방식을 조정한 모습과 일치한다.",
+  "buzz-aldrin.turning_point.1":
+    "앞선 제미니 우주 유영자들이 탈진으로 어려움을 겪은 뒤인 1966년 9월 올드린은 제미니 12호에 앞서 볼티모어의 수영장에서 수중 훈련을 받았고, 이 방식은 이후 우주 유영 훈련의 주된 방법이 되었다.",
+  "buzz-aldrin.interpretation.turning_point.1":
+    "더 나은 방법이 주어지자 반복적이고 세밀한 연습으로 어려운 임무를 준비한 모습과 일치한다.",
+  /* ---------------------------------------------------------- johann-wolfgang-von-goethe (Roster48) */
+  "johann-wolfgang-von-goethe.achievement.1":
+    "그는 60년이 넘도록 <파우스트>를 고쳐 쓰고 다시 붙들었고, 1831년에 제2부가 마지막 막에 이르렀다.",
+  "johann-wolfgang-von-goethe.achievement.2":
+    "<괴츠 폰 베를리힝겐>과 <젊은 베르테르의 슬픔>을 비롯한 초기 작품은 큰 인기를 끌었다.",
+  "johann-wolfgang-von-goethe.achievement.3":
+    "1794년부터 프리드리히 실러와 긴밀히 협력해 잡지와 연감, 풍자 단시를 함께 만들었고, 바이마르 궁정 극장도 이끌었다.",
+  "johann-wolfgang-von-goethe.moment.1":
+    "1823년 그는 에커만에게, 20년 동안 뉴턴과 수학자들이 색에 관해 틀렸다는 것을 알았으며 수많은 사람 가운데 자신만이 진실을 안다고 말했고, 이후 평생 자신의 이론을 옹호했다.",
+  "johann-wolfgang-von-goethe.interpretation.moment.1":
+    "당대 거의 모든 과학계에 맞서 자신의 입장을 지키려 한 태도와 일치하며, 이 경우 후대 물리학자들은 그가 틀렸다고 보았다.",
+  "johann-wolfgang-von-goethe.moment.2":
+    "1831년 그는 <파우스트> 제2부 원고 전체를 한 권으로 꿰매게 하고, 빠진 제4막 자리는 백지로 채워 두어 이미 쓴 부분이 나머지를 완성하도록 이끌게 했다.",
+  "johann-wolfgang-von-goethe.interpretation.moment.2":
+    "아주 긴 작품을 여러 단계로 나누어 다시 붙들고, 작업 방식을 스스로 이끌어 가도록 짜는 태도와 일치한다.",
+  "johann-wolfgang-von-goethe.turning_point.1":
+    "1794년 8월 23일 실러가 그의 정신세계를 묘사한 편지를 보내자 괴테는 그 며칠이 자기 삶의 한 획기라고 답했고, 두 사람은 잡지와 연감, 시 작업에서 긴밀한 협력을 시작했다.",
+  "johann-wolfgang-von-goethe.interpretation.turning_point.1":
+    "이 시점부터 홀로 작업하기보다 가까운 동료와 함께 일하는 쪽을 택한 작가라는 점과 일치한다.",
+  /* ---------------------------------------------------------- leonard-bernstein (Roster48) */
+  "leonard-bernstein.achievement.1":
+    "1943년 촉박한 통보를 받고 뉴욕 필하모닉을 지휘해 이름을 알렸고, 1958년 음악감독이 되어 말러와 미국 작곡가들의 작품을 적극 소개했다.",
+  "leonard-bernstein.achievement.2":
+    "1957년 <웨스트 사이드 스토리>의 음악을 작곡했으며, 교향악적 기법에 라틴과 재즈 요소를 결합한 이 작품의 1961년 영화는 아카데미상 11개 부문을 받았다.",
+  "leonard-bernstein.achievement.3":
+    "1958년부터 1972년까지 텔레비전으로 방송된 어린이·청소년 음악회 53회를 이끌며 전국의 시청자에게 음악을 가르쳤다.",
+  "leonard-bernstein.moment.1":
+    "1962년 글렌 굴드와의 브람스 협주곡 연주 전에 그는 관객에게 피아니스트의 매우 느린 해석에 전적으로 동의하지는 않는다고 밝혔지만, 들어볼 가치가 있다고 보아 그대로 지휘했다.",
+  "leonard-bernstein.interpretation.moment.1":
+    "의견 차이를 공개적으로 밝히면서도 동료의 다른 구상에 공정한 기회를 주는 태도와 일치한다.",
+  "leonard-bernstein.moment.2":
+    "텔레비전 프로그램 '옴니버스'의 베토벤 교향곡 5번 강의에서 그는 스튜디오 바닥에 첫 마디들을 펼쳐 놓고 베토벤이 버린 초고들을 살피며 왜 최종본을 택했는지 물었다.",
+  "leonard-bernstein.interpretation.moment.2":
+    "작품이 어떻게 들리는지뿐 아니라 어떻게 만들어졌는지에도 관심을 둔다는 점과 일치한다.",
+  "leonard-bernstein.turning_point.1":
+    "1943년 11월 14일 25세의 부지휘자는 리허설도 없이 아픈 브루노 발터를 대신해 필하모닉을 지휘했고, 전국에 중계된 이 연주로 하룻밤 사이에 유명해졌다.",
+  "leonard-bernstein.interpretation.turning_point.1":
+    "미리 레퍼토리를 공부해 둔 덕분에 아주 큰 임무도 촉박하게 맡을 수 있었다는 점과 일치한다.",
+  /* ---------------------------------------------------------- steven-spielberg (Roster48) */
+  "steven-spielberg.achievement.1":
+    "<조스>(1975)를 연출해 주목받는 감독으로 자리 잡았으며, 브리태니커 백과사전에 따르면 이 영화는 여름 블록버스터 장르를 사실상 탄생시켰다.",
+  "steven-spielberg.achievement.2":
+    "폴란드에서 대부분 흑백으로 촬영한 <쉰들러 리스트>(1993)를 연출해 이 작품과 <라이언 일병 구하기>(1998)로 두 차례 아카데미 감독상을 받았다.",
+  "steven-spielberg.achievement.3":
+    "73일 만에 촬영한 <레이더스>(1981)를 연출했고, 이어 브리태니커가 한층 더 큰 성공이라고 평가한 <E.T.>(1982)를 만들었다.",
+  "steven-spielberg.moment.1":
+    "<조스>의 기계 상어가 바다에서 계속 고장 나자 그는 상어 없이 찍을 수 있는 장면을 모두 먼저 촬영했고, 콘티로 짜 둔 상어 장면은 결국 모두 확보되었다.",
+  "steven-spielberg.interpretation.moment.1":
+    "미리 준비한 시각적 계획을 지키면서도 가능한 것을 중심으로 촬영 순서를 다시 짜는 태도와 일치한다.",
+  "steven-spielberg.moment.2":
+    "<쉰들러 리스트>에서 그는 촬영감독 야누시 카민스키에게 흑백 촬영에 대한 생각을 물었고, 카민스키의 표현으로 영상 스타일에 관한 '전적인 재량'을 주었다.",
+  "steven-spielberg.interpretation.moment.2":
+    "가까운 협력자의 의견을 구한 뒤 중요한 시각적 결정을 그에게 맡기는 태도와 일치한다.",
+  "steven-spielberg.turning_point.1":
+    "1993년 <쉰들러 리스트>는 제작사의 바람과 달리 흑백으로 완성되었고, 촬영감독의 말에 따르면 이전 영화의 매끈한 스타일 대신 핸드헬드와 의도적으로 불완전한 카메라 움직임을 택했다.",
+  "steven-spielberg.interpretation.turning_point.1":
+    "자신이 검증한 스타일과 제작사의 선호를 접고 더 무거운 소재에 도전하는 태도와 일치한다.",
+  /* ---------------------------------------------------------- satyajit-ray (Roster48) */
+  "satyajit-ray.achievement.1":
+    "그는 아푸 3부작(1955~1959)을 연출했고, 첫 작품 〈길의 노래〉는 1956년 칸 영화제에서 '최고 인간 기록' 상을 받으며 그를 세계적으로 알려진 감독으로 만들었다.",
+  "satyajit-ray.achievement.2":
+    "〈아파라지토〉는 1957년 베네치아 영화제 황금사자상을 받았고, 그는 1992년 아카데미 평생공로상(명예상)과 인도 최고 훈장인 바라트 라트나를 받았다.",
+  "satyajit-ray.achievement.3":
+    "그는 영화 연출 외에도 탐정 소설 펠루다 시리즈를 썼고, 〈세 딸〉(1961)부터는 자신의 영화 음악을 직접 작곡했다.",
+  "satyajit-ray.moment.1":
+    "〈길의 노래〉의 제작자를 찾지 못하자 그는 스케치와 대사, 구성을 담은 노트와 핵심 장면을 그린 스케치북을 들고 투자자를 찾아다녔고, 아무도 나서지 않자 빌린 돈으로 일요일마다 촬영을 시작했다.",
+  "satyajit-ray.interpretation.moment.1":
+    "영화를 미리 시각적으로 준비하고, 자금 문제가 있어도 후원을 기다리지 않고 계속 밀고 나가는 습관과 일치한다.",
+  "satyajit-ray.moment.2":
+    "〈세 딸〉(1961)부터 그는 영화 음악을 직접 작곡했는데, 자신에게 음악적 아이디어가 너무 많고 작곡가들은 지시받는 것을 싫어한다고 말했으며, 그의 영화 음악을 맡았던 인도 고전음악가 두 명은 그가 지나치게 간섭한다고 비판했다.",
+  "satyajit-ray.interpretation.moment.2":
+    "자기 작업을 직접 통제하려는 욕구가 강했고 그 대가로 협업자와 마찰이 있었다는 점과 일치한다.",
+  "satyajit-ray.turning_point.1":
+    "〈길의 노래〉가 1955년 뉴욕 현대미술관에서 상영되고 1956년 칸에서 상을 받은 뒤 그는 광고회사 D. J. 키머의 일을 그만두고 전업 영화감독이 되어 1983년까지 해마다 한 편 이상의 영화를 만들었다.",
+  "satyajit-ray.interpretation.turning_point.1":
+    "본업 틈틈이 하던 작업이 첫 영화의 성공으로 지속적이고 다작하는 직업 생활로 바뀌었다는 점과 일치한다.",
+  /* ---------------------------------------------------------- ludwig-mies-van-der-rohe (Roster48) */
+  "ludwig-mies-van-der-rohe.achievement.1":
+    "그는 건물의 실제 구조 부재가 건축의 중심이 되는 강철과 유리의 국제주의 양식을 이끌었고, 1919~21년의 유리 고층건물 설계안은 '뼈대와 피부' 구조의 개념을 제시했다.",
+  "ludwig-mies-van-der-rohe.achievement.2":
+    "그는 1929년 바르셀로나 박람회의 독일관을 설계했고, 이를 위해 만든 캔틸레버 방식의 바르셀로나 의자는 20세기 가구 디자인의 고전이 되었다.",
+  "ludwig-mies-van-der-rohe.achievement.3":
+    "미국에서는 판스워스 주택(1951)을 지었고 필립 존슨과 함께 뉴욕의 시그램 빌딩을 설계했으며, 1958년까지 일리노이 공과대학 건축학부를 이끌었다.",
+  "ludwig-mies-van-der-rohe.moment.1":
+    "시그램 회장이 건물 뒤쪽의 벽돌 방화벽은 아무도 보지 않는다고 하자, 미스는 그곳에도 청동을 쓰겠다고 고집하며 \"신은 보실 것\"이라고 말했다고 건물의 기획 책임자는 전했다.",
+  "ludwig-mies-van-der-rohe.interpretation.moment.1":
+    "방문객이 눈치채지 못할 곳에도 같은 수준의 마감을 요구했다는 점과 일치한다.",
+  "ludwig-mies-van-der-rohe.moment.2":
+    "판스워스 주택에서 그는 강철 접합부의 리벳 머리를 갈아내고 용접부를 매끈하게 다듬어 이음매를 보이지 않게 했지만, 주말 별장에는 옷장을 두지 않았고 여닫을 수 있는 창도 작은 것 두 개뿐이었다.",
+  "ludwig-mies-van-der-rohe.interpretation.moment.2":
+    "실용적 편의보다 시각적 이상을 앞세운 태도와 일치하며, 그 결과 유명한 건축물이 되었지만 살기에는 불편한 집이 되었다.",
+  "ludwig-mies-van-der-rohe.turning_point.1":
+    "1938년 그는 시카고 아머 공과대학(곧 일리노이 공과대학으로 개명)의 건축학부를 맡아 캠퍼스 마스터플랜을 그렸고, 이는 도심에서 건물군을 설계할 수 있었던 그의 첫 기회였다.",
+  "ludwig-mies-van-der-rohe.interpretation.turning_point.1":
+    "제도 중심의 교육과정을 가르치는 일과 그 자신의 대형 설계가 긴밀하게 이어졌던 작업 방식과 일치한다.",
+  /* ---------------------------------------------------------- paul-dirac (Roster48) */
+  "paul-dirac.achievement.1":
+    "1925년 그는 비가환 대수에 바탕을 둔 양자역학 체계를 독자적으로 만들어 냈고, 1930년에는 《양자역학의 원리》에서 이 이론 전체를 체계적으로 정리했다.",
+  "paul-dirac.achievement.2":
+    "1928년 그가 세운 전자의 파동방정식은 수학적으로 서로 어긋나던 양자론과 특수상대성이론을 하나로 이었다.",
+  "paul-dirac.achievement.3":
+    "그의 구멍 이론은 전자와 질량이 같고 전하가 양인 입자가 있어야 한다고 보았고, 양전자는 1932년과 1933년에 실험으로 확인되었다. 그는 1933년 노벨 물리학상을 공동 수상했다.",
+  "paul-dirac.moment.1":
+    "전쟁이 끝난 뒤에도 그는 재규격화가 큰 성공을 거두었는데도 왜 만족하지 못하는지를 거듭 설명했고, 물리학자들이 올바른 해밀토니안을 찾아야 한다고 촉구했다.",
+  "paul-dirac.interpretation.moment.1":
+    "학계 대부분이 다른 길로 나아간 뒤에도 좋은 이론에 대한 자신의 기준을 지킨 태도와 일치한다.",
+  "paul-dirac.moment.2":
+    "1963년 <사이언티픽 아메리칸> 기고에서 그는 슈뢰딩거의 발견을 예로 들며, 방정식이 실험과 맞는 것보다 아름다운 것이 더 중요하다고 주장했다.",
+  "paul-dirac.interpretation.moment.2":
+    "수학적 아름다움을 연구의 길잡이로 삼은 이론가의 태도와 일치하며, 다이슨은 이것이 이후 큰 발견으로 이어지지 않았다고 평가한다.",
+  "paul-dirac.turning_point.1":
+    "1930년대 중반 이후 그의 논문 수는 줄었고, 슈웨버의 서평은 전쟁 뒤 그가 다시 혼자 연구하는 사람이 되었다고 묘사한다. 이는 케임브리지 모임과 유럽 동료들과 긴밀히 교류하던 시기와 대비된다.",
+  "paul-dirac.interpretation.turning_point.1":
+    "가장 큰 성과는 동료들과 긴밀히 연결되어 있던 시기에 나왔고, 이후에는 주로 자신의 방식대로 연구한 학자라는 점과 일치한다.",
+  /* ---------------------------------------------------------- francis-crick (Roster48) */
+  "francis-crick.achievement.1":
+    "1953년 그는 제임스 왓슨과 함께 DNA의 이중나선 구조를 제안했고, 짝을 이루는 염기쌍은 유전자가 어떻게 복제되는지를 설명해 주었다.",
+  "francis-crick.achievement.2":
+    "1955~58년 그는 어댑터 가설, 서열 가설, 분자생물학의 중심 원리를 내놓아 유전 정보가 단백질로 이어지는 흐름을 정리했다.",
+  "francis-crick.achievement.3":
+    "1961년 시드니 브레너 등과 함께 DNA 염기 세 개가 아미노산 하나를 지정함을 보였고, 1977년부터는 솔크 연구소에서 뇌와 의식을 연구했다.",
+  "francis-crick.moment.1":
+    "1986년 샌디에이고의 한 만찬에서 그는 올리버 색스를 옆자리에 앉히고 '이야기를 들려주시오!'라고 했고, 환자 이야기가 나올 때마다 가설과 검증 방법을 쏟아냈다.",
+  "francis-crick.interpretation.moment.1":
+    "다른 사람의 관찰을 새로운 가설의 재료로 삼는 과학자의 태도와 일치한다.",
+  "francis-crick.moment.2":
+    "전달 RNA가 발견되었을 때 그는 그것이 자신이 예측한 어댑터라고 믿지 않았다. 예상보다 크기가 컸기 때문이며, 아미노산마다 서로 다른 어댑터 스무 종이 있을 것이라고 주장했다.",
+  "francis-crick.interpretation.moment.2":
+    "새로운 증거가 자신의 예측과 느슨하게만 맞아도 예측의 구체적 형태를 고수하는 태도와 일치하지만, 이후 실험은 그가 내다본 어댑터와 효소를 확인해 주었다.",
+  "francis-crick.turning_point.1":
+    "1947년 그는 물리학 기반의 해군성 전시 연구를 떠나 생물학 공부를 시작했다. 노벨재단의 표현으로는 당시 생물학을 전혀, 유기화학과 결정학도 거의 알지 못하던 때였다.",
+  "francis-crick.interpretation.turning_point.1":
+    "새로운 분야에서 처음부터 다시 배우기를 마다하지 않는 연구자라는 점과 일치한다.",
+  /* ---------------------------------------------------------- joseph-priestley (Roster48) */
+  "joseph-priestley.achievement.1":
+    "《전기의 역사와 현황》(1767)은 이 분야를 정리하고 자신의 실험을 더한 책으로, 그는 이 책으로 왕립학회 회원에 선출되었다.",
+  "joseph-priestley.achievement.2":
+    "그는 새로운 기체를 여덟 가지 이상 찾아냈고 탄산수를 만드는 방법을 고안했으며, 여섯 권짜리 《여러 종류의 공기에 관한 실험과 관찰》(1774~1786)에 수백 건의 실험을 정리했다.",
+  "joseph-priestley.achievement.3":
+    "1774년 그는 오늘날 산소라 부르는 기체를 분리해 '탈플로지스톤 공기'라 이름 붙였고, 이를 라부아지에에게 보여 주었으며 라부아지에는 이를 바탕으로 새로운 화학을 세웠다.",
+  "joseph-priestley.moment.1":
+    "가열한 산화수은에서 얻은 새 공기 속에서 촛불이 힘차게 타는 것을 본 그는 쥐를 넣어 보았고 이어 직접 들이마셔 본 뒤, 지금까지 그 공기를 마신 것은 쥐 두 마리와 자신뿐이라고 적었다.",
+  "joseph-priestley.interpretation.moment.1":
+    "예상 밖의 결과가 나오면 시험할 수 있는 모든 것, 자기 자신까지 동원해 추가로 시험해 보는 연구자의 태도와 일치한다.",
+  "joseph-priestley.moment.2":
+    "과학계가 플로지스톤 이론을 이미 버린 1797년에도 그는 《플로지스톤 이론의 확립》을 펴냈고, 세상을 떠날 때까지 이 견해를 지켰다.",
+  "joseph-priestley.interpretation.moment.2":
+    "당대의 증거가 쌓여 가는데도 자신의 틀을 지킨 태도와 일치하며, 역사가들은 이를 끈질김이자 대가가 큰 선택으로 읽는다.",
+  "joseph-priestley.turning_point.1":
+    "헥사곤 논문에 따르면 1789년 라부아지에의 《화학원론》이 나온 뒤 프리스틀리의 과학 활동은 새로운 발견보다 플로지스톤을 지키는 후위전 쪽으로 옮겨 갔다.",
+  "joseph-priestley.interpretation.turning_point.1":
+    "학계의 흐름이 자신에게 불리해지자 새로운 현상을 탐구하던 데서 기존 입장을 방어하는 쪽으로 활동이 바뀐 연구자라는 점과 일치한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

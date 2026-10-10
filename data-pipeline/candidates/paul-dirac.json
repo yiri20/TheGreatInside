@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "paul-dirac",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Paul Dirac",
+    "aliases": [
+      "Paul Adrien Maurice Dirac",
+      "P. A. M. Dirac"
+    ],
+    "wikidataId": "Q47480",
+    "birthYear": 1902,
+    "deathYear": 1984,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "physics",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "theorist",
+      "specialist"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dirac_wikidata",
+      "kind": "wikidata",
+      "title": "Paul Dirac (Q47480) -- verified live via the Wikidata API (2026-10-10): English label 'Paul Dirac', description 'British theoretical physicist (1902-1984)', born 8 August 1902, died 20 October 1984, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q47480"
+    },
+    {
+      "id": "src_dirac_nobelbio",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Paul A.M. Dirac - Biographical', Nobel Prize in Physics 1933 (nobelprize.org; text written at the time of the award, from Les Prix Nobel) -- institutional account of his career, naming the noncommutative-algebra formulation of 1925, the relativistic electron equation of 1928, the hole theory of 1930 and its positron prediction, and his two books. Work record only; says nothing about behaviour beyond travel and posts. Read in full.",
+      "url": "https://www.nobelprize.org/prizes/physics/1933/dirac/biographical/"
+    },
+    {
+      "id": "src_dirac_nobellecture",
+      "kind": "award_body",
+      "title": "P. A. M. Dirac, 'Theory of Electrons and Positrons', Nobel Lecture, 12 December 1933 (nobelprize.org PDF from Nobel Lectures, Physics 1922-1941) -- SELF source used only as work evidence: how the negative-energy solutions of his equation led to the hole theory and positrons, and his proposal that negative protons could exist and that a universe of mirror-image stars is conceivable. Read in full; never used as sole support for a behavioural claim.",
+      "url": "https://www.nobelprize.org/prizes/physics/1933/dirac/lecture/"
+    },
+    {
+      "id": "src_dirac_schweber",
+      "kind": "press",
+      "title": "Silvan S. Schweber, review of Helge Kragh's 'Dirac: A Scientific Biography' (Cambridge University Press, 1990), Physics Today, April 1991, pp. 99-100 (AIP PDF) -- INDEPENDENT scholarly review by a historian of physics. Describes three periods of Dirac's output, his strong ties to Cambridge circles and correspondents in 1924-34, his hands-on experimental isotope-separation work encouraged by Kapitza, wartime collaboration, and his postwar isolation and repeated dissatisfaction with renormalization; also notes limits of the book. Read in full; the review's childhood-psychology paragraph was deliberately not used.",
+      "url": "https://aip.brightspotcdn.com/PTO.v44.i4.99_1.online.pdf"
+    },
+    {
+      "id": "src_dirac_dyson",
+      "kind": "press",
+      "title": "Freeman Dyson, 'Silent Quantum Genius', review of Graham Farmelo's 'The Strangest Man', The New York Review of Books, 25 February 2010 -- PEER witness and critic: a leading physicist who attended Dirac's Cambridge lectures in 1941 and knew him afterwards. Assesses Dirac as the boldest thinker of the quantum revolution, describes his concentration on one problem at a time, his verbatim lectures from his own book, his doctrine of mathematical beauty and why Dyson thinks it left the second half of his career comparatively sterile, and his refusal to join debates on interpreting quantum mechanics. Read in full; the review's discussion of family, marriage and the autism question was deliberately not used and no diagnosis of any kind is scored or implied.",
+      "url": "https://www.nybooks.com/articles/2010/02/25/silent-quantum-genius/"
+    },
+    {
+      "id": "src_dirac_ashrafi",
+      "kind": "press",
+      "title": "Babak Ashrafi, review of Graham Farmelo's 'The Strangest Man: The Hidden Life of Paul Dirac, Mystic of the Atom', Physics Today, December 2009 -- independent review by a historian of science. Notes his engineering-then-mathematics training and his combination of pragmatic and rigorous approaches, and that he worked and collaborated little but impressed those he did work with. Read in full; its paragraphs on childhood and on a posthumous diagnosis (which the reviewer himself questions) were not used.",
+      "url": "https://physicstoday.aip.org/reviews/the-strangest-man-the-hidden-life-of-paul-dirac-mystic-of-the-atom"
+    },
+    {
+      "id": "src_dirac_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Paul Dirac' biography -- scholarly secondary biography drawing on the Dalitz and Peierls Royal Society memoir, the Royal Society obituary and a Higgs appreciation. Used for the 1925 Poisson-bracket insight, the 1933 Lagrangian paper later built on by Feynman, his book-based lectures, that he took very few research students, and honours. Read in full; its personal-life paragraphs were not used.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirac/"
+    },
+    {
+      "id": "src_dirac_scientificamerican",
+      "kind": "press",
+      "title": "P. A. M. Dirac, 'The Evolution of the Physicist's Picture of Nature', Scientific American, May 1963, as quoted at length in Peter Woit, 'Not Even Wrong' blog post of 24 May 2021 -- SELF source (his own stated view that beauty in equations matters more than fit to experiment, contrasting Heisenberg's and Schroedinger's routes) read through a mathematician's blog extract, not the original magazine page. Work-philosophy evidence only; never sole support.",
+      "url": "https://www.math.columbia.edu/~woit/wordpress/?p=12341"
+    },
+    {
+      "id": "src_dirac_landesarchiv",
+      "kind": "institution",
+      "title": "Landesarchiv Baden-Wuerttemberg (Staatsarchiv Freiburg), Willy Pragher photograph collection (W 134), terms of use and Wikimedia Commons category notice -- used only to check the portrait's licence (CC BY with attribution of photographer and archive signature). Not used for scoring.",
+      "url": "https://commons.wikimedia.org/wiki/Category:Willy_Pragher"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 84,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dirac_nobelbio, src_dirac_dyson, src_dirac_schweber, src_dirac_mactutor | 1925-1933 | award body + peer-critic + historian + biography] The Nobel account credits an independently derived noncommutative algebra for atomic properties in 1925, the relativistic electron equation of 1928 and a hole theory implying the positron; Dyson calls him the purest and boldest thinker of the quantum revolution and notes the positron prediction was made without experimental prompting; Schweber lists inventing the Dirac equation, the antiparticle notion and the study of magnetic monopoles among his most seminal work, and MacTutor notes his 1933 Lagrangian paper became the base for Feynman's path integral. Four independent sources agree, including a critic of his later work, so the high band is supported. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on book reviews and a peer memoir; the Kragh and Farmelo books were not opened; score and confidence lowered."
+    },
+    "systems_abstraction": {
+      "score": 82,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dirac_nobelbio, src_dirac_dyson, src_dirac_mactutor | 1925-1930 | award body + peer + biography] The Nobel account says his equation reconciled relativity and quantum theory, two frameworks that are mathematically distinct and opposed; Dyson quotes the preface of his Principles of Quantum Mechanics, where he deliberately breaks from the historical line to present the abstract mathematical scheme directly, and MacTutor quotes the memoir authors on an approach that is 'abstract but simple'. Held at 86 because the sources describe the finished frameworks more than the process of building them. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on book reviews and a peer memoir; the Kragh and Farmelo books were not opened; score and confidence lowered."
+    },
+    "analytical_rigor": {
+      "score": 82,
+      "confidence": 0.66,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dirac_ashrafi, src_dirac_mactutor, src_dirac_dyson | 1920s-1940s | historian + biography + peer] Ashrafi credits his engineering training, which focused on getting results, together with rigorous mathematics from Bristol, as an ingredient in his success; MacTutor quotes the Royal Society memoir authors on 'unbeatable logic' and a reviewer on the lasting quality of his book, and records his saying he was taught never to start a sentence without knowing its end; Dyson, however, notes his early thinking was concerned with practical details as much as with abstract beauty. The pattern is consistent and independently described, but is inferred from descriptions of his style rather than from a worked example."
+    },
+    "independent_thinking": {
+      "score": 84,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_dirac_dyson, src_dirac_schweber, src_dirac_ashrafi | 1925-1970s | peer-critic + historian + historian] Dyson says he preferred to fight his battles alone, refused to take part in debates on interpreting quantum mechanics and, later, ignored the new particle discoveries because they seemed not beautiful enough, which Dyson judges made his later decades comparatively sterile; Schweber notes that after the war he marched to his own drum, holding that renormalization, though successful, was not the right route; Ashrafi describes him as utterly independent. The documentation is strong and comes from two critical readers, hence dual-edged. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on book reviews and a peer memoir; the Kragh and Farmelo books were not opened; score and confidence lowered."
+    },
+    "deep_focus": {
+      "score": 84,
+      "confidence": 0.66,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dirac_dyson, src_dirac_ashrafi, src_dirac_schweber | 1925-1945 | peer + historian + historian] Dyson describes a formidable concentration of attention on a single problem and an ability to set aside irrelevancies; Ashrafi notes he spoke only when needed and calculated with precision; Schweber's bibliometric periods show nearly all his output in 1924-1934 was research papers. The long, narrowly aimed work is documented, but the sources describe the habit in general terms and none observes a specific working day, so it stays strong inference."
+    },
+    "aesthetic_sensitivity": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_dirac_scientificamerican, src_dirac_dyson, src_dirac_schweber, src_dirac_mactutor | 1963 + 1930s-1970s | self + peer-critic + historian + biography] In his own 1963 article he argues that beauty in equations matters more than fit to experiment; Dyson reports he preached mathematical beauty for the last fifty years of his life and argues it did not lead him to important new discoveries, and Schweber and MacTutor both note beauty's role in how he judged theories. Focus on mathematical beauty as a criterion is well documented across independent readers; the self source is not the sole support, and the dual-edged impact reflects Dyson's critical assessment."
+    },
+    "belief_updating": {
+      "score": 36,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_dirac_schweber, src_dirac_dyson | 1945-1970s | historian + peer-critic] Schweber reports that after the war he made 'inadequacies' of quantum field theory a constant refrain and kept explaining why he was not satisfied with renormalization even though it was 'a big success'; Dyson says he ignored the stream of new particles and symmetries because he judged them not beautiful enough. Both describe a settled position held against the field's prevailing evidence, but the range is one phase of a career and neither source claims to have seen how he reasoned privately, so the score is low-moderate with reduced confidence."
+    },
+    "autonomy_need": {
+      "score": 86,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_dirac_schweber, src_dirac_ashrafi, src_dirac_dyson, src_dirac_mactutor | 1925-1970s | historian + historian + peer + biography] Schweber calls him a 'loner once again' after the war; Ashrafi says he kept mostly to himself and collaborated infrequently; Dyson says he preferred to fight alone; MacTutor notes he took very few research students and declined honorary degrees while accepting academy memberships. Four independent sources, scored as a working preference only. The dual-edged impact reflects Schweber's observation that his most productive years were the years of strongest ties to colleagues. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on book reviews and a peer memoir; the Kragh and Farmelo books were not opened; score and confidence lowered."
+    },
+    "collaboration": {
+      "score": 44,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_dirac_schweber, src_dirac_ashrafi, src_dirac_mactutor | 1924-1945 | historian + historian + biography] Schweber describes strong ties to the Cavendish circles, the Kapitza Club and a second Cambridge theory club and an extensive correspondence with Heisenberg, Pauli, Bohr and Tamm in 1924-34, and strong interaction again in wartime isotope-separation work; Ashrafi says he collaborated infrequently but impressed those he did work with; MacTutor says he took very few research students. Mixed evidence of selective rather than habitual cooperation, hence a below-midpoint score with moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "폴 디랙"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/paul-dirac-pragher-1982.jpg",
+    "width": 656,
+    "height": 1000,
+    "source": "Wikimedia Commons, '32. Tagung 1982 Physiker; Mainau Paul Dirac - W134Nr.119172a - Willy Pragher.jpg' -- photograph by Willy Pragher (1908-1992) at the 1982 Mainau/Lindau Nobel laureates' meeting, held by the Landesarchiv Baden-Wuerttemberg, Staatsarchiv Freiburg (signature W 134 Nr. 119172a); original file 656 x 1000 pixels, saved unchanged (no scaling).",
+    "license": "CC BY 3.0 DE",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+    "attribution": "Willy Pragher, Landesarchiv Baden-Wuerttemberg, Staatsarchiv Freiburg, W 134 Nr. 119172a, CC BY 3.0 DE",
+    "attributionUrl": "https://www.landesarchiv-bw.de/plink/?f=5-706798-1",
+    "creator": "Willy Pragher",
+    "date": "1982",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:32._Tagung_1982_Physiker;_Mainau_Paul_Dirac_-_W134Nr.119172a_-_Willy_Pragher.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q47480 returned en label 'Paul Dirac', description 'British theoretical physicist (1902-1984)', born 1902-08-08, died 1984-10-20; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID. READ (7 substantive sources): the Nobel Foundation biography, Dirac's 1933 Nobel lecture (self, work only), Schweber's Physics Today review of Kragh's biography (1991), Dyson's New York Review of Books review of Farmelo (2010), Ashrafi's Physics Today review of Farmelo (2009), the MacTutor biography, and Dirac's 1963 Scientific American argument via Woit's extended quotation (self, work philosophy only; the original magazine page was not opened). PERSPECTIVES: award body, historian of physics (Schweber), peer and critic who heard him lecture (Dyson), historian of science (Ashrafi), scholarly biography summarising the Royal Society memoir (MacTutor), plus self material used only for work evidence. NOT OPENED: Kragh's and Farmelo's books themselves (only reviews read), the Dalitz-Peierls Royal Society memoir (summarised via MacTutor), Pais's essay, Bohr's and Heisenberg's own recollections, the Feynman accounts, the Kuhn/AIP oral history; Farmelo's Strangest Man was NOT accessible directly. EXCLUSIONS (deliberate): all family, childhood, marriage, bereavement and private life; any question of neurodivergence or diagnosis (raised and disputed in the Farmelo reviews and entirely excluded from scoring and from the editorial draft; no personality is inferred from childhood or silence); his political travel and Soviet-friendship episodes; and the folklore anecdotes about his conversation (unverified). SCORING: 9 rows, highest 90 (autonomy need, four independent sources) and 88 (creative originality, independent thinking); lowest 36 (belief updating) and 44 (collaboration); confidence 0.58-0.72, no row above 0.72; sources are admiring in tone but Dyson and Schweber are explicitly critical of his later work and are weighted. PORTRAIT: Commons file by Willy Pragher, 656 x 1000, Commons licence 'CC BY 3.0 DE'; the Landesarchiv Baden-Wuerttemberg acquired the Pragher photo estate's exploitation rights and the Commons 'Willy Pragher' category notice states its photos are provided under CC BY with photographer and archive signature credited; the Landesarchiv terms page distinguishes Public Domain / CC-BY item notices and lists no conflicting restriction here; the archive's online-catalogue item page itself needs JavaScript and could not be read, so the item-level notice rests on the Commons record and the collection notice (the Commons 'Dirac 1933' Nobel Foundation file is tagged public domain but was not used because the Nobel Foundation's own reuse terms were not verified). The photograph shows Dirac at about 80, a different decade from his work years, which is acceptable for a likeness. Commons warns that Pragher descriptions occasionally err in place or date; the 1982 meeting date was not independently confirmed. LEAD REVIEW (Roster48): 4 top row(s) lowered before eligibility (built on book reviews and a peer memoir; the Kragh and Farmelo books were not opened)."
+  }
+}

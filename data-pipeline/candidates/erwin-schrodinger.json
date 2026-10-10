@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "erwin-schrodinger",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Erwin Schrödinger",
+    "aliases": ["Erwin Schroedinger", "Erwin Rudolf Josef Alexander Schrödinger"],
+    "wikidataId": "Q9130",
+    "birthYear": 1887,
+    "deathYear": 1961,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["AT"],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": ["physicist"],
+    "fieldIds": ["physics"],
+    "impactDomains": ["scientific", "historical", "educational"],
+    "tagIds": ["nobel_laureate", "theorist", "cross_disciplinary"],
+    "archetypeIds": ["scientific_explorer", "independent_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_schro_wikidata",
+      "kind": "wikidata",
+      "title": "Erwin Schrödinger (Q9130) -- verified live via the Wikidata API (2026-10-10): English label 'Erwin Schrödinger', description 'Austrian physicist (1887-1961)', born 12 August 1887, died 4 January 1961, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q9130"
+    },
+    {
+      "id": "src_schro_univie",
+      "kind": "institution",
+      "title": "Helen Piel, 'Treasures from the archive', University of Vienna Library, Schrödinger 100 website -- monthly archive essays built on letters and notebooks in the Erwin Schrödinger Archive: the 1926 papers, his notebooks and the optical-mechanical analogy, letters to Thirring, Einstein, Planck, Bohr and Pauli, Debye's recollection that he hardly discussed the work, the 1927 Berlin move, his philosophical reading. Library archivist's account with quoted letters; the Nazi-era and politics passages and a parenthetical about a colleague were not used. Read in full.",
+      "url": "https://schroedinger100.univie.ac.at/treasures-from-the-archive"
+    },
+    {
+      "id": "src_schro_iqoqi",
+      "kind": "institution",
+      "title": "Christoph Lehner, 'Schrödinger's Notebooks and the History of the Einstein-Podolsky-Rosen Paradox', IQOQI Vienna blog, 14 December 2023 -- historian of physics on the research notebooks, which record his thought process in lucid prose, and on a 1931 manuscript linking Szilard's thought experiment to the 1935 entanglement and cat paper. Scholarly account. Read in full.",
+      "url": "https://iqoqi-vienna.at/blogs/blog/schroedingers-notebooks-and-the-history-of-the-einstein-podolsky-rosen-paradox"
+    },
+    {
+      "id": "src_schro_heisenberg",
+      "kind": "biography",
+      "title": "Werner Heisenberg, 'Fresh Fields (1926-1927)', chapter of 'Physics and Beyond' (1971), pp. 70-80 as circulated by informationphilosopher.com -- the main opponent's memoir of Schrödinger's 1926 Munich lecture and the Copenhagen discussions with Bohr, including dialogue reconstructed from memory decades later. Adversarial perspective on his interpretation, generous about his mathematics; the dialogue is a reconstruction, not a transcript. Read the chapter in full.",
+      "url": "https://www.informationphilosopher.com/solutions/scientists/heisenberg/Bohr-Schrodinger.pdf"
+    },
+    {
+      "id": "src_schro_uzh",
+      "kind": "institution",
+      "title": "Zentralbibliothek Zurich, 'From waves to particles: Schrödinger and Heitler in Zurich' (2025 centenary profile) -- library profile of Schrödinger's Zurich years (open-air lecturing style, the 1925-26 breakthrough, Pauli's 'superstition' remark, Debye and Weyl, Heitler's account that he received invitations to excursions rather than research guidance, Heitler-London theory). Health, money, religious and personal passages were not used. Read in full.",
+      "url": "https://www.zb.uzh.ch/en/zwischen-wellen-und-teilchen-schroedinger-und-heitler-in-zuerich"
+    },
+    {
+      "id": "src_schro_goenner",
+      "kind": "biography",
+      "title": "Hubert F. M. Goenner, 'On the History of Unified Field Theories, Part II (ca. 1930 - ca. 1965)', Living Reviews in Relativity 17 (2014), section 8 'Schrödinger II' -- scholarly history including Schrödinger's 27 January 1947 presentation to the Royal Irish Academy with the press invited, Einstein's published reply and Schrödinger's letter admitting to hot air. The excuse passages about Irish politics were not used. Read in full.",
+      "url": "https://www.maths.tcd.ie/EMIS/journals/LRG/Articles/lrr-2014-5/articlese8.html"
+    },
+    {
+      "id": "src_schro_weaire",
+      "kind": "press",
+      "title": "Denis Weaire, 'Albert and Erwin: decline and fall', Physics World, 23 April 2015 -- review of Paul Halpern's 'Einstein's Dice and Schrödinger's Cat' by a Dublin physicist: Schrödinger's time at the Dublin Institute, the prematurely announced 1947 breakthrough and the press reaction. Review of a popular book; political and de Valera passages not used. Read in full.",
+      "url": "https://physicsworld.com/a/albert-and-erwin-decline-and-fall/"
+    },
+    {
+      "id": "src_schro_dias",
+      "kind": "institution",
+      "title": "Dublin Institute for Advanced Studies, School of Theoretical Physics, 'History' -- sections 2.1 to 2.3 and the later history (lectures and seminars, the 1942 colloquium with Dirac and Eddington, statutory public lectures including 'What is Life?', Schrödinger's research areas and resignation). Institutional history. Read in full.",
+      "url": "https://www.stp.dias.ie/history/history2.shtml"
+    },
+    {
+      "id": "src_schro_nobel",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Erwin Schrödinger - Biographical' (biography written at the time of the 1933 award) and the 'Facts' page -- prize motivation 'for the discovery of new productive forms of atomic theory', career posts, the dissatisfaction with Bohr's quantum condition that led to wave mechanics, and his later work on unification and 'What is Life?'. Award-body record facts; the private-life sentences were not used. Read in full.",
+      "url": "https://www.nobelprize.org/prizes/physics/1933/schrodinger/biographical/"
+    },
+    {
+      "id": "src_schro_irishtimes",
+      "kind": "press",
+      "title": "Kevin O'Sullivan, 'Dublin institute marks 75th anniversary of Schrödinger lecture', The Irish Times, 5 February 2018 -- report on the 1943 'What is Life?' lecture series, its audience, and Watson's and Crick's acknowledgement of its influence. Political and passport passages not used. Read in full.",
+      "url": "https://www.irishtimes.com/news/science/dublin-institute-marks-75th-anniversary-of-schr%C3%B6dinger-lecture-1.3379859"
+    },
+    {
+      "id": "src_schro_perutz",
+      "kind": "press",
+      "title": "M. F. Perutz, 'Physics and the riddle of life', Nature 326 (1987) 555 -- standfirst and reference list only (the article is paywalled): says the book 'What is Life?' drew several physicists into molecular biology but that its chief merit lies in popularising an earlier paper by Timofeeff, Zimmer and Delbruck. Abstract-level; used only to qualify the achievement card.",
+      "url": "https://www.doi.org/10.1038/326555A0"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_schro_heisenberg, src_schro_univie, src_schro_iqoqi, src_schro_goenner | 1926-1947 | opponent's memoir, archive letters, historian, scholarly history] He built wave mechanics out of de Broglie's idea and Hamilton's analogy rather than the matrix route, then refused to accept Bohr's quantum jumps through days of argument in Copenhagen (the opponent's own account); in 1935 his entanglement analysis kept him apart from Einstein's hope of a completing theory; in 1947 he pushed his own unified theory against Einstein's reservations. Independent sources, including an adversary, agree that he held his own line; dual-edged because the 1947 case went badly."
+    },
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_schro_univie, src_schro_iqoqi, src_schro_uzh, src_schro_heisenberg | 1925-1935 | archive, historian, library profile, opponent] The wave equation came, in the archive's account, from combining de Broglie and Einstein's idea with the optical-mechanical analogy; the opponent calls its hydrogen solution elegant and simple; in 1935 he coined the term entanglement and posed the cat problem; a library profile quotes Feynman that the equation could not be derived from anything known. Several independent historians agree on the output; scoring it as originality of temperament is inferential."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schro_heisenberg, src_schro_univie, src_schro_iqoqi | 1926-1931 | opponent, archive, historian] Heisenberg reports that Schrödinger quickly proved wave and matrix mechanics mathematically equivalent and that his methods simplified calculations; his notebooks show a worked-through derivation (with crossings-out), and he sought help from the mathematician Hermann Weyl for the equations; the 1931 Szilard manuscript shows him analysing an explicit entangled state for a long time. Rigour in method is well attested by an adversary and two archive-based historians."
+    },
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schro_univie, src_schro_dias, src_schro_nobel, src_schro_uzh | 1906-1956 | archive, institution, award body, library] He worked on colour theory and physiology, statistical thermodynamics, atomic spectra and later unified field theory and probability; wrote on Greek philosophy and Indian philosophy (Nature and the Greeks, My View of the World), poetry and, in 1943-44, the physics of heredity in 'What is Life?'; the Dublin history says he and Heitler were not narrow specialists and drew on wide reading for public lectures. Documented breadth of output across four sources."
+    },
+    "belief_updating": {
+      "score": 44,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_schro_heisenberg, src_schro_univie, src_schro_goenner | 1926-1947 | opponent, archive, scholarly history] He kept to a wave-only interpretation against Bohr and Heisenberg and, per Heisenberg, stayed convinced the objections would be removed; he answered Einstein's doubts about his equation within a week, conceded Einstein's priority in the gas-theory inspiration and, after the 1947 reply, admitted in a letter to having inflated the claim. Mixed record of holding positions under criticism and conceding in private; Heisenberg's dialogue is a memory reconstruction."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_schro_goenner, src_schro_weaire | 1947 | scholarly history, review] He presented an unverified unified field theory to the Royal Irish Academy with the press invited, claiming the solution to a 30-year-old problem; Einstein's published reply said such preliminary attempts should not be presented to the public; the reviewer calls the announcement premature and the press response an embarrassment. One episode, but described by two independent sources and by his own letter; dual-edged because the reviewer says it cooled his relationship with Einstein."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_schro_univie, src_schro_uzh, src_schro_dias | 1925-1955 | archive, library profile, institution] Debye recalled that he hardly talked to anyone about what he was working on apart from Weyl; Heitler said he received weekend excursions rather than research guidance; yet in Dublin he organised colloquia that brought Dirac, Eddington, Born and Pauli to a country with little access to quantum theory and gave courses at two levels. Solitary in discovery, institution-building in Dublin; evidence is thin and partly second-hand."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에르빈 슈뢰딩거"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q9130 returned en label 'Erwin Schrödinger', description 'Austrian physicist (1887-1961)', born 12 Aug 1887, died 4 Jan 1961, instance of human; Korean label matches. SLUG/QID CHECK: no existing production or candidate slug or QID collision. READ (10 substantive sources, Wikidata for orientation only): University of Vienna Library archive essays (letters and notebooks), IQOQI Vienna historian's note, Heisenberg's 'Physics and Beyond' chapter (the main opponent), Zentralbibliothek Zurich profile (including Heitler's account), Goenner's Living Reviews history of unified field theories, Physics World review, DIAS history, Nobel Foundation biography and facts pages, Irish Times anniversary report; plus the Nature standfirst by Perutz (abstract only). PERSPECTIVES: archivists and historians, an opponent (Heisenberg), a student's recollection (Heitler via the Zurich profile), a colleague (Debye via the archive), an award body, and a reviewer. EXCLUDED ENTIRELY: private life and relationships (including the Nobel facts page's sentence on his domestic arrangements, his marriage and any other person), health and illness, money and finances, religious remarks, politics and emigration (Nazi-era, de Valera and Irish politics, the 1947 letter's remarks on the administration), and any inference from these. NOT OPENED OR NOT AVAILABLE: Walter Moore's 'Schrödinger: Life and Thought' (no access), Born's and Heitler's own obituary notes (Royal Society site blocked), Einstein-Planck-Schrödinger letters in the original (read only as quoted by the Vienna archive), Perutz's full essay, Halpern's book. The brief's Heitler/Born/Moore sources could therefore only be reached through secondary quotation; Planck's and Einstein's reactions come from the Vienna archive's quotations of the letters. Seven rows; highest score 80, highest confidence 0.68; the lowest score (belief updating, 44) and risk and collaboration rows are dual-edged by design to avoid a flattering profile. PORTRAIT: HELD (see portrait.reason)."
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No photograph with a concretely verified basis was found. (1) Commons 'Erwin Schrödinger (1933).jpg' is the Nobel Foundation image (280 x 396); the Nobel Foundation page itself carries 'Copyright (c) The Nobel Foundation 1933', which conflicts with Commons's generic PD tag, so it was rejected. (2) Commons 'Erwin Schrödinger - Narodowe Archiwum Cyfrowe (1-E-939).jpg' (1933, unknown author, 2534 x 3500) is tagged public domain under the Polish pre-1994 anonymous-publication rule and the NAC's blanket statement, but the authoritative NAC record page (audiovis.nac.gov.pl/obraz/231021/) and its image URL are blocked to non-browser clients (Incapsula challenge) and the Commons page itself says first-publication place and date are unverified, so the basis could not be checked. (3) Smithsonian Libraries Dibner portrait by 'Robertson' (before 1961, Flickr Commons 'no known copyright restrictions') has no date or publication data and the institution asserts only no known restrictions. Schrödinger died 1961, so the author-death public-domain route is not available for any of these (photographer unknown or alive-era). Next step: open NAC record 1-E-939 in a real browser to read its rights field and original publication (title, date, source periodical); if it states first publication in Poland in 1933 without a copyright notice, use the Commons file downscaled from 2534 x 3500 to about 868 x 1200 as 'erwin-schrodinger-unknown-1933.jpg' with kind 'likeness'. Otherwise look for a named-author CC photograph (for example a DIAS or Austrian archive image with a stated licence)."
+  }
+}

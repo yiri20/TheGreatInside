@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "steven-spielberg",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Steven Spielberg",
+    "aliases": [
+      "Steven Allan Spielberg"
+    ],
+    "wikidataId": "Q8877",
+    "birthYear": 1946,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "film_director"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_spielberg_wikidata",
+      "kind": "wikidata",
+      "title": "Steven Spielberg (Q8877) -- verified live via the Wikidata API (2026-10-10): English label 'Steven Spielberg', description 'American filmmaker (born 1946)', born 18 December 1946, no date of death, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q8877"
+    },
+    {
+      "id": "src_spielberg_asc_raiders",
+      "kind": "press",
+      "title": "'Of Narrow Misses and Close Calls: Raiders of the Lost Ark -- Directing', American Cinematographer (ASC), originally published November 1981 and republished online -- SELF source: Spielberg's own account of how he prepared and shot Raiders (the 73-day schedule he kept from Paramount against an 87-day budget, three to five takes per shot, 35 set-ups a day in Tunisia, storyboarding of dialogue sequences, a second-unit director for the truck chase, his working relationship with cinematographer Douglas Slocombe). Valuable for dates and numbers, but his own words, so never the sole support for a row. Read in full to the cinematography discussion.",
+      "url": "https://theasc.com/article/flashback-raiders-of-the-lost-ark-directing/"
+    },
+    {
+      "id": "src_spielberg_asc_schindler",
+      "kind": "press",
+      "title": "Karen Erbach, 'Schindler's List Finds Heroism Amidst Holocaust', American Cinematographer (ASC), originally published January 1994 and republished online -- profile of cinematographer Janusz Kaminski built on his first-hand account of preparing and shooting the film with Spielberg in Poland in 1993: Spielberg's request for his view on black-and-white, the decision to shoot in black-and-white against studio hopes, the 'free rein' he gave the cinematographer, handheld and imperfect camera moves, and Spielberg's specific ideas for strobe-light shadow and colour effects. Independent collaborator account, admiring but concrete. Read the first two-thirds in full; the closing section was skimmed.",
+      "url": "https://theasc.com/article/schindlers-list-finds-heroism-amidst-holocaust/"
+    },
+    {
+      "id": "src_spielberg_asc_skull",
+      "kind": "press",
+      "title": "Noah Kadner, 'Vintage Indy in the Kingdom of the Crystal Skull', American Cinematographer (ASC), originally published June 2008 and republished online -- article quoting cinematographer Janusz Kaminski, camera operator Mitch Dubin and gaffer David Devlin on Spielberg's preparation (watching the first three Indiana Jones films together), his decision to avoid handheld camerawork on this film, a shot he decided on the spur of the moment on the first day with Harrison Ford, and his reaction to the heat problems on location. Several independent crew voices from the same unit, admiring in tone. Read the first half in full; the second half on visual effects was skimmed.",
+      "url": "https://theasc.com/article/indiana-jones-kingdom-crystal-skull/"
+    },
+    {
+      "id": "src_spielberg_syfy_alves",
+      "kind": "press",
+      "title": "Adam Pockross, 'Jaws at 45: Joe Alves designed Bruce the shark -- and kept Jaws from sinking', SYFY WIRE, 1 June 2020 -- interview with the film's production designer on how Spielberg proposed a full-size shark shot in the real ocean, the studio's two-month start date that left no time to test the shark, salt water damaging the electronics, the crew shooting 'everything he could without the shark', the 104 extra shooting days, and Spielberg's selective use of the shark. First-hand colleague account (non-self), generally sympathetic to Spielberg. Read in full.",
+      "url": "https://www.syfy.com/syfywire/jaws-joe-alves-interview-45-anniversary"
+    },
+    {
+      "id": "src_spielberg_classicfm_williams",
+      "kind": "press",
+      "title": "Maddy Shaw Roberts, ''I played the shark theme to Spielberg and he said, \"you can't be serious!\"' -- John Williams on composing Jaws', Classic FM, 29 August 2022 -- interview with composer John Williams, who recalls that Spielberg first wanted dissonant, Images-style music for Jaws and reacted with disbelief when Williams played the two-note shark theme at the piano. Composer's first-hand account (non-self), warm in tone. Read in full.",
+      "url": "https://www.classicfm.com/composers/williams/jaws-theme-spielberg-joke/"
+    },
+    {
+      "id": "src_spielberg_classicalmusic_jaws",
+      "kind": "press",
+      "title": "Charlotte Smith, 'Jaws at 50: how John Williams' groundbreaking soundtrack saved Spielberg's cinematic masterpiece from disaster', Classical Music magazine, 13 June 2025 -- feature quoting Spielberg's own account of the Jaws score (his temp track of Williams's own Images music, the piano demonstration, his gradual conversion, and the line that the score is responsible for half the film's success), the 55-to-159-day shooting overrun, and violinist Richard Kaufman's recollection of Spielberg at the scoring sessions. Mixture of Spielberg's recollections (self) and a musician's account (non-self). Read in full.",
+      "url": "https://www.classical-music.com/features/tv-and-film-music/jaws-at-50"
+    },
+    {
+      "id": "src_spielberg_dog_kennedy",
+      "kind": "press",
+      "title": "Michael Leader, 'Kathleen Kennedy interview: War Horse, Lincoln, Studio Ghibli, Jurassic Park 4 & more', Den of Geek, 12 January 2012 -- interview with Spielberg's long-time producer on what a producer does and how Spielberg prepares and shoots (prep, clear decision-making, storyboarding and pre-visualisation on most films but none on Lincoln, the nightly reviews with the New Zealand animation team during Tintin, and years-long waits for scripts). Collaborator first-hand account (non-self), professional and warm. Read in full.",
+      "url": "https://www.denofgeek.com/uk/movies/18590/kathleen-kennedy-interview-war-horse-lincoln-studio-ghibli-jurassic-park-4-more"
+    },
+    {
+      "id": "src_spielberg_awardsline_kennedy",
+      "kind": "press",
+      "title": "AwardsLine, 'Kathleen Kennedy' Q&A, 19 December 2012 -- interview in which Kennedy describes the 13-year path of Lincoln to the screen, how financing partners were assembled and how Spielberg ran a quiet, performance-focused set with almost no downtime. Collaborator first-hand account (non-self). Read in full; the later section on her Lucasfilm role was not used.",
+      "url": "https://awardsline.com/tag/kathleen-kennedy/"
+    },
+    {
+      "id": "src_spielberg_lucasfilm_raiders",
+      "kind": "institution",
+      "title": "Lucas O. Seastrom (Lucasfilm historian), '40 Years Ago: Raiders of the Lost Ark Starts Production', Lucasfilm.com, 23 June 2020 -- company history of the first day of shooting at La Rochelle, noting that none of the cast had worked with Spielberg before and that the complex production 'came in under schedule'. Producer-side corporate source, promotional; used only for the schedule outcome. Read in full.",
+      "url": "https://www.lucasfilm.com/news/40-years-ago-raiders-of-the-lost-ark-starts-production/"
+    },
+    {
+      "id": "src_spielberg_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Steven Spielberg' biography entry -- reference article used only for record facts for the achievement cards (Jaws and the summer blockbuster, Raiders, E.T., two best-director Oscars for Schindler's List and Saving Private Ryan) and for its balanced note that critics found The Color Purple and Empire of the Sun lacking in emotional depth and that 1941, Empire of the Sun and Always did poorly. The public page is truncated after the 1980s, so nothing on the 1990s onward beyond its introduction was read. Not used as support for any trait row.",
+      "url": "https://www.britannica.com/biography/Steven-Spielberg"
+    },
+    {
+      "id": "src_spielberg_flickr",
+      "kind": "institution",
+      "title": "Flickr photo page 'HamnetBFILFF111025-66' by Raph_PH, taken 11 October 2025, uploaded 13 October 2025, licence shown as Creative Commons Attribution 4.0 -- page checked for the portrait's licence. Not used for any scoring.",
+      "url": "https://www.flickr.com/photos/raph_ph/54852222538/"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_spielberg_dog_kennedy, src_spielberg_asc_raiders, src_spielberg_asc_skull | 1980-2012 | producer + his own account + camera crew] Kennedy says that on most of their films they storyboard and pre-visualise and that in Spielberg's prep much of what is discussed 'is exactly what is going to be shot on the day', adding that 'prep is everything' (Lincoln being the exception, with none); Spielberg himself says he storyboarded dialogue as well as action sequences on Raiders and kept a secret 73-day schedule against an 87-day budget; the Crystal Skull crew describes him preparing by watching the first three Indiana Jones films with his cinematographer. Two independent accounts plus his own; held at 76 because he also leaves room for improvisation (see the decisiveness row)."
+    },
+    "execution_speed": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_spielberg_asc_raiders, src_spielberg_dog_kennedy, src_spielberg_lucasfilm_raiders | 1980-2012 | his own account + producer + company history] Spielberg says Raiders was shot in 73 days with three to five takes per shot and about 35 set-ups a day in Tunisia; Lucasfilm's historian says the complex production came in under schedule; Kennedy says the reason he can shoot quickly is that every department is prepared through his clear decisions. The numbers are largely his own, with two independent confirmations of the pace; the Jaws overrun (55 to about 159 days, per two sources) is a counter-example caused by the ocean and the shark, so the score stays below 85. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): all collaborator sources are warm and from his own circle with no adversarial voice; score and confidence lowered."
+    },
+    "decisiveness": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_spielberg_dog_kennedy, src_spielberg_asc_skull | 2008-2012 | producer + camera operator] Kennedy says 'He doesn't waffle': when asked what he wants he is 'very clear' and lays it out succinctly; camera operator Mitch Dubin says Spielberg made up his mind on the spur of the moment about the opening fedora-shadow shot on the first day with Harrison Ford, which became a complicated 270-degree camera move. Two collaborators, one general and one specific, so strong inference."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_spielberg_syfy_alves, src_spielberg_classicfm_williams, src_spielberg_classicalmusic_jaws, src_spielberg_asc_skull | 1974-2008 | production designer + composer + Spielberg's recollection + crew] With the mechanical shark failing, Alves says Spielberg 'shot everything he could without the shark' and the production kept its storyboarded shark shots for later; Williams says Spielberg, who had wanted Images-style dissonance, reacted with disbelief to the two-note theme and went on to use it (Spielberg's own account says he came round after hearing it again); on Crystal Skull Dubin says Spielberg, who normally does a lot of handheld work, wanted none and had the camera on a Technocrane for about 80 percent of the shoot. Separate episodes from separate witnesses; no single dominating source."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_spielberg_syfy_alves, src_spielberg_asc_schindler, src_spielberg_classicalmusic_jaws | 1974-1994 | production designer + cinematographer + feature] Alves says Spielberg proposed a full-size 25-foot shark in the real ocean even though the studio's effects department said it could not be done and that it had never been done; the shoot then ran from 55 to about 159 days. For Schindler's List, the ASC profile says the final print was black-and-white 'against studio hopes', a more art-house gamble. The risks paid off in the end but clearly cost time and money on Jaws, hence dual-edged; two independent witnesses plus a feature."
+    },
+    "collaboration": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_spielberg_asc_schindler, src_spielberg_classicfm_williams, src_spielberg_dog_kennedy, src_spielberg_awardsline_kennedy, src_spielberg_asc_skull | 1974-2012 | cinematographer + composer + producer + crew] Kaminski says Spielberg asked for his view on shooting in black-and-white and then gave him 'a hundred percent free rein' on the look; Williams recalls Spielberg listening, laughing and finally accepting the shark theme; Kennedy describes herself as a partner from finding the material through casting, over more than 30 years; the Crystal Skull crew lists the same department heads working with him repeatedly. Multiple independent and consistent accounts, which fits long-term repeat collaborators; kept at 80 because the sources are all from within his circle. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): all collaborator sources are warm and from his own circle with no adversarial voice; score and confidence lowered."
+    },
+    "aesthetic_sensitivity": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_spielberg_asc_schindler, src_spielberg_asc_raiders, src_spielberg_asc_skull | 1980-2008 | cinematographer + his own account + crew] Kaminski reports Spielberg's specific visual ideas on Schindler's List, such as lighting the ghetto raid with strobes so only soldiers' shadows are seen and colouring a faded-blue stamp inside the black-and-white frame; Spielberg says he cut pictures from glossy magazines to discuss the look and cross-lighting with Slocombe; the Crystal Skull crew describes him devising the fedora-shadow reveal. A consistent, concrete interest in visual form from independent and self sources; moderate confidence because most of it comes from cinematographers and not from outside critics."
+    },
+    "belief_updating": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_spielberg_classicfm_williams, src_spielberg_classicalmusic_jaws | 1975 | composer + Spielberg's own recollection] Spielberg had temp-tracked Jaws with Williams's dissonant Images music; when Williams played the two-note theme he thought it was a joke, but Williams kept asking him to listen again and Spielberg says he came to see it as the signature of the whole score, later saying the score is responsible for half the film's success. Two accounts of one episode, one of them his own, so no more than a moderate score and confidence."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_spielberg_awardsline_kennedy, src_spielberg_dog_kennedy, src_spielberg_asc_schindler | 1983-2012 | producer + cinematographer] Kennedy says Lincoln took 13 years and multiple iterations to reach theatres, with nearly a year spent assembling financing partners and a script that Tony Kushner worked on for six years; Kaminski notes that Spielberg had wanted to make Schindler's List for about ten years. Both are about holding onto a project through long development, which is not the same as persistence under on-set adversity, so the score and confidence stay modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "스티븐 스필버그"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/steven-spielberg-raph-ph-2025.jpg",
+    "width": 931,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Steven Spielberg 2025.jpg' -- photograph by Raph_PH taken 11 October 2025 at the Hamnet gala premiere (BFI London Film Festival, Royal Festival Hall), from the photographer's Flickr (photos/raph_ph/54852222538), Commons licence review passed by FlickreviewR on 2025-10-16; Commons file 1439 x 1854 pixels, downscaled once to 931 x 1200 (never upscaled).",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Photo: Raph_PH, 11 October 2025, CC BY 4.0, downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Steven_Spielberg_2025.jpg",
+    "creator": "Raph_PH",
+    "date": "2025-10-11",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Steven_Spielberg_2025.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q8877 returned en label 'Steven Spielberg', description 'American filmmaker (born 1946)', born 1946-12-18, no death date, citizenship United States, ko label present; the lead's QID hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID (only incidental mentions of Spielberg in other people's source text). LIVING SUBJECT: only documented, public professional filmmaking behaviour is scored (preparation, shooting method, collaboration with named colleagues, on-set and post-production decisions). Family, marriage, faith and identity, health, finances, philanthropy, the Shoah Foundation, awards-season conduct, studio and business dealings (DreamWorks), any allegations or controversies and any inferred motive or psychology were deliberately excluded; a Slashfilm piece mixing such material with duplicate retellings of Kaminski was opened but not used. READ (9 substantive sources plus one reference article for record facts only, Britannica, whose public page is truncated after the 1980s): ASC articles on Raiders (1981, Spielberg's own account), Schindler's List (1994, Kaminski) and Crystal Skull (2008, Kaminski, Dubin, Devlin); SYFY WIRE interview with Jaws production designer Joe Alves; Classic FM interview with John Williams; Classical Music magazine Jaws feature (includes a violinist's recollection and Spielberg's recorded recollection); Den of Geek and AwardsLine interviews with Kathleen Kennedy; Lucasfilm company history of the Raiders shoot. PERSPECTIVES: cinematographer, camera operator and gaffer, composer, production designer, producer, a session musician, a corporate historian and Spielberg's own 1981 account; self material (ASC 1981 and Spielberg's quoted recollections) is never the sole support for a row. Collaborator sources are all from within his working circle and warm in tone, so no score exceeds 80 and no confidence exceeds 0.70; there is no adversarial source, and the Jaws overrun and the studio's initial doubts are the only counter-evidence. NOT OPENED: ASC Munich and Saving Private Ryan articles (Munich URL dead), Frank Marshall, Michael Kahn and Slocombe accounts, Carl Gottlieb's The Jaws Log, the HBO documentary 'Spielberg', Joseph McBride's and Molly Haskell's biographies, TCM's Behind the Camera Jaws page (403), and critical essays on his films. PORTRAIT: Commons 'Steven Spielberg 2025.jpg' by Raph_PH (11 October 2025, red-carpet event), CC BY 4.0 per the Commons licence tag and the photographer's own Flickr page, which shows 'Some rights reserved' with the CC BY 4.0 deed link; no personality-rights or other restriction template is on the Commons page; downloaded at 1439 x 1854, downscaled to 931 x 1200. Because the sitter is living, the image is an informal public-event photo with an unaltered black stage background. LEAD REVIEW (Roster48): collaboration 80/0.70 -> 76/0.64 and execution_speed 80/0.68 -> 76/0.64 because every behavioural source is an admiring collaborator."
+  }
+}
