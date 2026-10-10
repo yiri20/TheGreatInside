@@ -242,7 +242,12 @@ Achievement test. Historical significance remains a human gate.
 
 ## Post-commit scoring lock
 
-Recorded in the docs follow-up below the implementation commit.
+Run against the clean committed HEAD (implementation commit `8b933ad`):
+"Checked 505 previously-committed candidate file(s) against HEAD. 0
+flagged." with "Legacy scoring lock: 22 pre-pipeline production people
+covered, 0 flagged." Mechanical count of committed
+`data-pipeline/candidates/*.json` at that HEAD (`git ls-tree`): **505** = 505
+on disk = the checked count. Implementation commit: 64 changed files.
 
 ## Confirmations
 
