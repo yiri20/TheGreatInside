@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { Analytics } from "@vercel/analytics/next";
 import { notoSerifKR } from "@lib/fonts";
 import { siteUrl } from "@lib/env";
 import { GOOGLE_SITE_VERIFICATION } from "@lib/seo";
@@ -28,7 +29,10 @@ export const metadata: Metadata = {
 export default function DefaultRootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={notoSerifKR.variable}>
-      <body className="tgi-root">{children}</body>
+      <body className="tgi-root">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
