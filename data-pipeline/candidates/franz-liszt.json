@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "franz-liszt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Franz Liszt",
+    "aliases": [
+      "Liszt Ferenc"
+    ],
+    "wikidataId": "Q41309",
+    "birthYear": 1811,
+    "deathYear": 1886,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "HU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician",
+      "teacher"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "mentor"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_liszt_wikidata",
+      "kind": "wikidata",
+      "title": "Franz Liszt (Q41309) -- verified live via wbgetentities (2026-10-10): en label 'Franz Liszt', description 'Hungarian romantic composer and virtuoso pianist (1811-1886)', P569 22 Oct 1811, P570 31 Jul 1886, ko label '프란츠 리스트', P18 'FLisztFXD.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q41309"
+    },
+    {
+      "id": "src_liszt_wikipedia",
+      "kind": "wikipedia",
+      "title": "Franz Liszt -- Wikipedia article (raw wikitext read), orientation only; used to locate the standard accounts (Grove, Walker) and for uncontested dates in Achievement text, not as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Franz_Liszt"
+    },
+    {
+      "id": "src_liszt_fay1880",
+      "kind": "archive",
+      "title": "Amy Fay, Music-Study in Germany, from the home correspondence of Amy Fay (Chicago: Jansen, McClurg, 1881; 1883 printing), Internet Archive full text (musicstudyingerm1883faya) -- first-hand PUPIL letters written at the time from Weimar, May-July 1873, to her family: Chapters XVIII-XX read in full (Liszt's lessons, his playing and teaching, his temper, his reaction to pupils). Warmly admiring in tone but unusually specific; also records his cruelty and temper. Read locally.",
+      "url": "https://archive.org/details/musicstudyingerm1883faya"
+    },
+    {
+      "id": "src_liszt_ramann1882",
+      "kind": "biography",
+      "title": "Lina Ramann, Franz Liszt: Artist and Man, vol. II, translated by E. Cowdery (London: W. H. Allen, 1882), Internet Archive full text (franzlisztartist02rama) -- CONTEMPORARY, ADMIRING authorised biography written with Liszt's cooperation; this volume covers 1811-1840 (Paris years, Geneva, the 1839-40 tours). Read locally: the passages on benefit concerts (Paris, Geneva, the 1838 Pest flood concerts in Vienna and Pest), the Geneva period and the concert tours. Hagiographic and sentimental; used only for dated, concrete actions.",
+      "url": "https://archive.org/details/franzlisztartist02rama"
+    },
+    {
+      "id": "src_liszt_schumann1840",
+      "kind": "press",
+      "title": "Robert Schumann, 'Franz Liszt' reviews from the Neue Zeitschrift fuer Musik, 1840 (Dresden and Leipzig concerts) and his 1830s-40s reviews of Liszt's studies, in Music and Musicians: Essays and Criticisms, translated by F. R. Ritter (London: Reeves, 1877-80), Internet Archive full text (musicmusicianses00schu_0) -- CONTEMPORARY CRITIC AND FELLOW COMPOSER, enthusiastic about the performer, openly doubtful that Liszt had become a composer of equal rank. Read locally: the Dresden/Leipzig concert notices (Mendelssohn's Bach concerto evening, Weber Concertstueck, benefit concerts, playing Schumann's and Hiller's music almost at sight) and the studies review (virtuoso eclipsing composer).",
+      "url": "https://archive.org/details/musicmusicianses00schu_0"
+    },
+    {
+      "id": "src_liszt_chorley1854",
+      "kind": "press",
+      "title": "Henry F. Chorley, Modern German Music: Recollections and Criticisms (London: Smith, Elder, 1854), Internet Archive full text (moderngermanmusi01choruoft) -- HOSTILE, BRITISH critic, strongly against Wagner's music and system; read for the passages where he mentions Liszt at Weimar (the 'rehabilitation' of Tannhaeuser; Liszt's 'generous heart' and 'enthusiastic paradox') and Liszt's playing. Used as a deliberately unsympathetic outside voice.",
+      "url": "https://archive.org/details/moderngermanmusi01choruoft"
+    },
+    {
+      "id": "src_liszt_wagner_mylife",
+      "kind": "biography",
+      "title": "Richard Wagner, My Life (authorised translation, London: Constable, 1911), Internet Archive full text (mylifeauthorized01wagn, mylifeauthorized02wagn) -- SELF-SERVING MEMOIR of the main beneficiary of Liszt's Weimar work, with a rival's and debtor's perspective; read locally: the Paris and Berlin meetings with Liszt (1840-41), the 1849 Weimar Tannhaeuser rehearsal, Liszt's writings and Lohengrin production (1850-51), the 1853 quarrel episode with Karl Ritter at Zurich. Written decades later; used with care.",
+      "url": "https://archive.org/details/mylifeauthorized01wagn"
+    },
+    {
+      "id": "src_liszt_letters1894",
+      "kind": "archive",
+      "title": "Letters of Franz Liszt, vol. I (Paris to Rome) and vol. II (Rome to Weimar), collected and edited by La Mara, translated by Constance Bache (London: H. Grevel; New York: Scribner, 1894), Internet Archive full texts (lettersfranzlis00bachgoog, lettersoffranzli020960mbp) -- SELF SOURCE (his own letters, published in translation with the editor's notes, which are La Mara's, not Liszt's). Read locally: the 1839 Beethoven monument offer, the 1849-1859 Weimar letters (Lohengrin, Benvenuto Cellini, Berlioz, workload), the editor's note on the 1858-60 resignation, and the 1874-1881 Budapest Academy of Music letters. Never the sole support for a row.",
+      "url": "https://archive.org/details/lettersfranzlis00bachgoog"
+    },
+    {
+      "id": "src_liszt_wagner_liszt_corr",
+      "kind": "archive",
+      "title": "Correspondence of Wagner and Liszt, translated by Francis Hueffer, revised by W. Ashton Ellis (London: Grevel, 1897), Internet Archive full text (correspondencew00elligoog) -- both parties' letters, 1841-1861; read for Liszt's 1850-53 Weimar letters to Wagner (Lohengrin cast and the Haertel payment for Lohengrin numbers) and Wagner's requests for money and help. Self sources on both sides.",
+      "url": "https://archive.org/details/correspondencew00elligoog"
+    },
+    {
+      "id": "src_liszt_berlioz_apthorp",
+      "kind": "archive",
+      "title": "Hector Berlioz: Selections from his Letters, and Aesthetic, Humorous, and Satirical Writings, translated by W. F. Apthorp (New York: Holt, 1879), Internet Archive full text (cu31924022328409) -- Berlioz's own travel letters and memoir extracts mentioning Liszt (support at the 1830 Conservatoire performance, the Prague banquet speech, the Weimar welcome). Partly a friend's and beneficiary's view; read only for the passages that name Liszt.",
+      "url": "https://archive.org/details/cu31924022328409"
+    },
+    {
+      "id": "src_liszt_huneker1899",
+      "kind": "press",
+      "title": "James Huneker, Mezzotints in Modern Music: Brahms, Tschaikowsky, Chopin, Richard Strauss, Liszt and Wagner (New York: Scribner, 1899), Internet Archive full text (mezzotintsinmode00hune) -- Late-century American critic's essays, including the Liszt essays and 'A Liszt Etude'; a mixed, sometimes sceptical assessment of Liszt's piano works (e.g. the B minor sonata) and of the Liszt legend. Read locally for the assessment of the B minor sonata and Liszt's influence on later pianism.",
+      "url": "https://archive.org/details/mezzotintsinmode00hune"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_liszt_letters1894, src_liszt_schumann1840, src_liszt_fay1880 | 1832-1873 | self letters + contemporary critic + pupil's letters] Three separately dated episodes of working at the craft beyond what performance required. (1) 1832 (self, so only supporting): he wrote that he practised four to five hours of technical exercises a day while reading Beethoven, Bach and others. (2) 1838-40 (Schumann, a rival composer who is sceptical of Liszt as composer): Liszt published his Paganini bravura studies with Schumann's own arrangement of the first study printed above his, measure for measure, so that the two could be compared, and Schumann reads the set as Liszt laying down 'all his experience' of piano effect; Liszt had also reworked earlier studies. In April 1852 Liszt himself says he spent the previous three years on a 'rather severe work of revision', remodelling the Studies and the Album d'un Voyageur into the Annees de pelerinage. (3) 1873 (Fay, firsthand pupil): he made a pupil repeat a hard passage of Beethoven's Op. 110 sonata over and over and then had every member of the class try it, and stopped students to demonstrate pedal and touch. Self-account is only supporting; Schumann and Fay are independent of each other. Kept below 80 because Fay is an admiring pupil and the 1832 letter is self-report."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_liszt_schumann1840, src_liszt_fay1880, src_liszt_letters1894 | 1829-1873 | contemporary critic + pupil's letters + self letters] Sustained workload carried out on schedule. Schumann, March 1840: Liszt arrived in Dresden after six concerts in eight days in Prague, gave a concert two days later, then played again in Leipzig for charities despite visible fatigue, and Schumann notes that he gave concerts largely unassisted. Fay, July 1873: a Liszt class lesson lasted four hours with some twenty players, and Weimar lessons ran three times a week. In his own letters he reports being 'full of lessons' from half past eight to ten at night (Dec 1829, as a teenager) and, in April 1852, personally taking the many rehearsals Tannhaeuser, Lohengrin and Benvenuto Cellini needed rather than delegating them. Independent witnesses (Schumann, Fay) over more than thirty years; self-reported items only supporting. Fay also observes that he did not take pains to play every note exactly right, so the evidence is about sustained workload and routine, not about precision."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_liszt_schumann1840, src_liszt_ramann1882, src_liszt_letters1894, src_liszt_fay1880 | 1830s-1873 | contemporary critic + admiring authorised biography + self letter + pupil's letters] Repeated, dated acts of giving his time and art to a cause. Schumann (an independent witness), March 1840: Liszt said he was ready at once to give a concert for any charitable institution, played for the poor in Dresden and then for the Leipzig pension fund for aged or invalid musicians within a few days, even though tired. Ramann (admiring biographer, but giving concrete figures): after the 1838 flood at Pest he gave concerts for the sufferers, his benefit concert for Pest and Ofen bringing in 1,600 to 1,800 silver gulden, and in Lyons in the 1830s he organised a concert for starving workers. Liszt's own letter of October 1839 offers the Bonn Beethoven monument committee to make up the shortfall from his own means (a marble monument at 50,000 to 60,000 francs), and the editor's note credits him with the monument. Fay (1873): he taught her without a fee. Multiple dated instances, two of which come from independent witnesses, and one of which is a self-made offer; no contradicting evidence found. Kept at 78 because the Ramann and letter items are admiring or self-reported."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_liszt_schumann1840, src_liszt_wagner_mylife, src_liszt_berlioz_apthorp, src_liszt_letters1894 | 1840-1855 | contemporary critic + beneficiary's memoir + friend's letters + self letters] Worked repeatedly through and for other musicians. Schumann, 1840: Liszt chose to play works by Mendelssohn, Hiller and Schumann at his Leipzig concert, and took part in the Mendelssohn-hosted evening of Bach's triple concerto with Mendelssohn and Hiller. Wagner (a rival-turned-beneficiary, writing decades later): the Weimar Lohengrin production, a printed essay on it, a similar preface for Tannhaeuser, and an offered commission for a new work were Liszt's doing; Liszt brought Robert Franz to a Lohengrin performance almost by force. In the 1850s Liszt's letters offer to stage Hiller's opera at Weimar, and in June 1855 he praises Reinecke's Bach variations; the Apthorp volume's narrative (drawing on Berlioz) has Liszt applauding Berlioz conspicuously at the 1830 Conservatoire performance. Counter-evidence: Wagner reports an October 1853 dinner at which Liszt lost his temper at the composer Karl Ritter's smiles (Wagner mentions Liszt later visited Ritter to reconcile). Several dated instances from different perspectives, but Wagner is both beneficiary and the main source."
+    },
+    "leadership_drive": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_liszt_letters1894, src_liszt_wagner_mylife, src_liszt_fay1880 | 1849-1876 | self letters + beneficiary's memoir + pupil's letters] He took charge of institutions but did not always seek the role. Weimar: in April 1852 he writes that the theatre needed 'reform and stirring up' and that he could not hand the many rehearsals to anyone else; in June 1855 he writes that Weimar 'cannot do without my ideas and influence' (self, so supporting only). Wagner independently describes Liszt carrying the Lohengrin production through with limited means. In 1873 Fay watches him arrange the Jena dinner and excursion down to the seating. In contrast, his letters of the early-to-mid 1870s say he will back the Hungarian academy plan only 'in self-defence' and aspires to 'quiet time for work', and in 1876 he took only a piano class there; the 1858-60 Weimar resignation (La Mara's editor note) also shows him leaving an institution under opposition. Mixed: decisive in Weimar, reluctant in Budapest, hence a moderate score at 0.52."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_liszt_wagner_mylife, src_liszt_chorley1854, src_liszt_schumann1840, src_liszt_fay1880 | 1840-1873 | beneficiary's memoir + hostile critic + contemporary critic + pupil's letters] Wagner: Liszt's essay on Lohengrin and his 'enthusiastic eloquence' won the critic Adolf Stahr for the work, and he got Robert Franz to attend a performance almost by force; on Liszt's recommendation the Weimar manager offered Wagner a contract. Chorley, a critic hostile to Wagner, independently records that Liszt gave his 'generous heart' and 'enthusiastic paradox and sophistry' to recommending Wagner's music (a hostile source confirming the behaviour while disliking its object). Schumann: Liszt had a rare power of leading audiences. Fay: he put 'the first diplomat in Europe' as his alternative career and managed groups with tact. The behaviour is documented, but the evidence of outcomes comes mostly from Wagner, who profited from it; Chorley adds an independent hostile confirmation, so 0.58."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_liszt_schumann1840, src_liszt_chorley1854, src_liszt_fay1880, src_liszt_letters1894 | 1840-1873 | contemporary critic + hostile critic + pupil + self] Stands out against prevailing taste several times. Schumann, 1840: Liszt gave full concerts alone, Schumann noting that he nearly always gave his concerts unassisted. Chorley (hostile): Liszt backed Wagner's music before it was accepted, and Chorley objects to it. Fay: in Berlin she had been taught that Liszt could not compose and had no originality, but Weimar convinced her otherwise (a pupil's change, not Liszt's action); in 1873 Liszt says his orchestral and choral works made their way slowly in Germany, and in a June 1855 letter he writes that his task is 'quite a different one' from the Duesseldorf festival and does not envy its success. Dual-edged because several of these stances (the symphonic poems, the Weimar partisanship) cost him standing, per La Mara's note on the 1858-60 resignation. The evidence is mostly reception and Liszt's own statements, so kept at 0.55."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_liszt_fay1880, src_liszt_schumann1840, src_liszt_letters1894 | 1838-1873 | pupil's letters + contemporary critic + self] Fay (firsthand, 1873): he extemporised a different ending to Au bord d'une source in a lesson, and demonstrated a pedal-and-touch effect for an arpeggio from his Flying Dutchman arrangement by playing it, saying 'I've invented a great many things'. Schumann: the Paganini studies are an attempt to carry the instrument to the 'verge of impossibility', reworking the earlier etudes with added difficulties. Liszt in 1852 describes a 'severe work of revision' and remodelling of old works. Several episodes, but they concern piano technique and revision, and Schumann is critical of the direction; kept at 0.55."
+    },
+    "aesthetic_sensitivity": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_liszt_fay1880, src_liszt_schumann1840 | 1840-1873 | pupil's letters + contemporary critic] Fay, 1873, records specific coaching on shading and phrasing: wait after a run 'as if in admiration', keep the hand still ('don't make omelette'), play the melody so it reaches the gallery, and a particular pedal-and-touch effect; she also notes that Liszt arranged the dinner seating so that ladies and gentlemen alternated ('always have a little variety'). Schumann (1840) singles out 'magical tenderness' in a study Liszt played over his bravura, naming Chopin as the only other player with that quality. Specific, repeated behaviours in two perspectives; kept at 0.56 because Fay is an admiring pupil and the Schumann remark is about his playing."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_liszt_wagner_mylife, src_liszt_ramann1882, src_liszt_letters1894 | 1832-1855 | beneficiary's memoir + admiring biography + self] He worked as performer, composer, conductor, teacher and writer. Wagner (1850-51): Liszt wrote a detailed account of the Lohengrin production, translated into German and printed in the Illustrirte Zeitung, and a preface to Tannhaeuser. Ramann's contents list the essays on the position of artists (1835-40) and his literary championing of musical reform. In June 1855 Liszt sends the Neue Zeitschrift fuer Musik editor proofs of a second article on Berlioz. In 1832 he also writes of reading widely in literature and philosophy alongside piano practice. The breadth is documented, but 'range' here is within music and writing about music; kept moderate at 0.5."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프란츠 리스트"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q41309 returned en label 'Franz Liszt', description 'Hungarian romantic composer and virtuoso pianist (1811-1886)', P569 22 Oct 1811, P570 31 Jul 1886, citizenship Q171150, Q131964 (Austrian Empire), Q28 (Hungary), ko label '프란츠 리스트', P18 'FLisztFXD.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. CLASSIFICATION: era 19th_century; nationality HU and region central_europe (Hungary within the Habsburg monarchy; Dvorak, Mahler and Semmelweis precedent); occupations composer, musician, teacher; field music; tag mentor; archetype creative_creator. EVIDENCE READ (9 source records opened locally: 8 substantive, 1 orientation): Amy Fay 1873 Weimar letters (chapters XVIII-XX); Ramann vol. II (1811-1840) benefit-concert and Pest passages; Schumann's 1840 Dresden/Leipzig notices and studies review; Chorley 1854 passages on Weimar; Wagner, My Life (Liszt passages, both volumes); Letters of Franz Liszt vols I-II (selected letters 1832-1881); Wagner-Liszt correspondence (selected); Berlioz letters (Apthorp) Liszt passages; Huneker 1899 Liszt essays (B minor sonata). Wikipedia raw text read as orientation only. NOT AVAILABLE OR NOT READ: Alan Walker, Franz Liszt (3 vols, Cornell), Lachmund's Living with Liszt, Hanslick's criticism and Vienna's Golden Years (lending-restricted, 401), Ramann vols I and III for the Weimar years (only the 1811-1840 volume was readable), Heine's Lutezia (German, not read), Grove, Johns 1993 on reception, Ernest Newman's The Man Liszt (1934, restricted). No primary Weimar-theatre documents were read. PERSPECTIVES: SELF (Liszt's letters, only supporting); ADMIRING PUPIL (Fay); ADMIRING AUTHORISED BIOGRAPHER (Ramann, concrete charity facts only); CONTEMPORARY CRITIC AND FELLOW COMPOSER, partly sceptical (Schumann); HOSTILE CRITIC (Chorley, who dislikes Wagner and the Weimar project but confirms the behaviour); RIVAL/BENEFICIARY (Wagner, memoir decades later); LATER CRITIC (Huneker, mixed). Independent perspectives: Schumann, Chorley, Fay (Wagner is partial). Non-self behavioural sources: Fay, Schumann, Chorley, Wagner, Ramann. EPISODE USE: 1832 practice letter and April 1852 revision letter -> mastery_orientation (self, supporting); Schumann's Paganini-studies review -> mastery_orientation, experimentation; Fay's lessons -> mastery_orientation, aesthetic_sensitivity, experimentation, discipline; Schumann March 1840 concerts -> discipline, impact_motivation, collaboration, independent_thinking; Ramann 1838 Pest and Lyons concerts, the Bonn monument offer and Fay's unpaid lessons -> impact_motivation; Wagner's account of the Lohengrin production, Stahr and Franz -> collaboration, persuasiveness, cross_domain_range, leadership_drive; Liszt letters of 1852, 1855 and the Budapest Academy letters -> leadership_drive. No episode feeds more than four rows. ROWS CONSIDERED AND LEFT UNSCORED: creative_originality (reception of the works is divided: Fay's Berlin teachers, Schumann and Huneker disagree, and a score would rest on the works' reception, not behaviour); persistence (no clear long failed-and-retry sequence in read sources; the 1858 resignation is as much withdrawal); risk_tolerance (the 1847-48 end of the touring career is only in Wikipedia); social_assertiveness and conflict_tolerance (Fay reports indirect snubs and one outburst; Wagner's Ritter episode is a single incident); adaptability, decisiveness, planning_orientation and everything else (thin or non-independent). EXCLUDED ON PURPOSE: all private life (Marie d'Agoult, Princess Carolyne zu Sayn-Wittgenstein, children, the abbe's orders as religion), health, appearance of the body, death, fame, pupil lists and output counts as evidence, Wagner's political circumstances and Liszt's own political comments, and the Schumann-household 1848 episode (Wikipedia only, private). CONFLICTS REPORTED: (a) The Budapest Academy: Wikipedia and common summaries say he 'founded' it; his own letters (Apponyi, Mihalovich) say the idea was not his and he hesitated, so the editorial says president, not founder. (b) Weimar resignation: Wikipedia says 1858 (the post ran to 1859); La Mara's editor note in the Dec 1860 letter does not give a date. (c) 'First recital' and 'invented the master class' (Wikipedia citing Grove and Walker) are not repeated as firsts. CALIBRATION: 10 rows, scores 62-78, confidence 0.50-0.66; nothing at or above 85 or 0.70. The sparse set is accepted: no padding to any coverage target, and no eligibility, coverage or match output was computed or looked at. PORTRAIT: the lead's Commons file 'FLisztFXD.jpg' (2333x3343) was checked and NOT used: its wikitext says it is a derived 'remastered' version of 'FLiszt.jpg', whose source is a 1946 Kunstverlag Lucien Mazenod book (Geneva); there is no holding institution, no publication facts on the original photograph, and it is digitally enlarged. Hanfstaengl died in 1877 so the 1858 photograph would be out of copyright, but the provenance chain was unreconciled, so under the stronger rights rule another image was chosen. USED: Library of Congress Prints and Photographs Division carte de visite 'Franz Liszt' (no. 1226, call number LOT 13301, no. 96; reproduction LC-USZ62-130770; LCCN 2004680099), dated by LOC '[between 1880 and 1886]', gift stamp 1946, rights advisory 'No known restrictions on publication.' (read from the LOC JSON API; the loc.gov picture page itself is behind a bot wall and was not bypassed). Commons file 'Franz Liszt LCCN2004680099.jpg' carries {{PD-old-100-1923}} and the same LOC statement. Basis: a commercially published carte de visite (printed number and title on the mount) from the 1880s, so US public domain by pre-1931 publication; the photographer is unknown and no conflicting notice was found. I downloaded the LOC master TIFF (3273x4096 including mount), cropped it to the photograph and saved a 1022x1600 JPEG q85 (downsized, not upscaled), then viewed it: an elderly man with long white hair in a black clerical coat with orders on the chest, consistent with the sitter's late years. kind likeness (a photograph from life, made when he was about 70). Caveat: exact date and photographer unknown; the sitter is shown in his last decade, so it is not a Hanfstaengl 1858 portrait. KOREAN NAME: '프란츠 리스트' is the Wikidata ko label."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/franz-liszt-unknown-1880-1886.jpg",
+    "width": 1022,
+    "height": 1600,
+    "source": "Library of Congress Prints and Photographs Division, 'Franz Liszt' (carte de visite, no. 1226; LC-USZ62-130770; LCCN 2004680099), via Wikimedia Commons 'Franz Liszt LCCN2004680099.jpg'",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-100-1923",
+    "attribution": "Unknown photographer, 'Franz Liszt', photographic print on carte de visite mount, between 1880 and 1886; Library of Congress Prints and Photographs Division (LC-USZ62-130770), no known restrictions on publication; cropped to the photograph",
+    "attributionUrl": "https://www.loc.gov/item/2004680099/",
+    "creator": "Unknown photographer",
+    "date": "between 1880 and 1886",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Franz_Liszt_LCCN2004680099.jpg"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sergey-brin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sergey Brin",
+    "wikidataId": "Q92764",
+    "birthYear": 1973,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["computer_scientist", "entrepreneur"],
+    "fieldIds": ["computing", "technology", "business"],
+    "impactDomains": ["technological", "entrepreneurial", "innovation"],
+    "tagIds": ["founder", "innovator"],
+    "archetypeIds": ["entrepreneurial_builder", "technical_innovator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_brin_wikidata",
+      "kind": "wikidata",
+      "title": "Sergey Brin (Q92764) -- verified live via wbgetentities (2026-10-10): en label 'Sergey Brin', ko label '세르게이 브린', born 21 Aug 1973, instance of human, citizenship United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q92764"
+    },
+    {
+      "id": "src_brin_battelle_wired",
+      "kind": "press",
+      "title": "John Battelle (journalist, Wired co-founder), 'The Birth of Google', Wired 13.08 (August 2005), an excerpt from his book The Search, based on interviews with both founders -- INDEPENDENT journalistic narrative of how Brin joined Page's BackRub project, how the two built early Google from borrowed hardware, and how they weighed leaving Stanford. Read in full. It relies partly on the founders' own recollections (quoted), and it credits Page with the weighted-ranking concept and Brin with the mathematics.",
+      "url": "https://www.wired.com/2005/08/battelle/"
+    },
+    {
+      "id": "src_brin_nsf",
+      "kind": "institution",
+      "title": "U.S. National Science Foundation, 'Google' impact page on the Digital Library Initiative project at Stanford -- institutional (funder) history, non-self. Read in full; it describes Brin as a Stanford graduate student supported by an NSF Graduate Student Fellowship who joined Page's work on web ranking, the BackRub prototype and the PageRank method.",
+      "url": "https://www.nsf.gov/impacts/google"
+    },
+    {
+      "id": "src_brin_ethw_pagerank",
+      "kind": "institution",
+      "title": "Engineering and Technology History Wiki (IEEE), 'Milestones: PageRank and the Birth of Google, 1996-1998' -- independent institutional account of the PageRank algorithm and the three commemorative plaques. Read in full; its reference list also records the January 1998 Stanford technical report by Page, Brin, Motwani and Winograd and the patent filed in Page's name.",
+      "url": "https://ethw.org/Milestones:PageRank_and_the_Birth_of_Google,_1996-1998"
+    },
+    {
+      "id": "src_brin_anatomy1998",
+      "kind": "archive",
+      "title": "Sergey Brin and Lawrence Page, 'The Anatomy of a Large-Scale Hypertextual Web Search Engine', Seventh International World Wide Web Conference (Brisbane, 1998), Stanford-hosted copy -- SELF/primary technical paper by Brin and Page. Read the abstract, the design-goals and scalability sections and Appendix A (advertising and mixed motives). Used for what the two authors built and wrote, never as the only perspective for a scored row.",
+      "url": "http://infolab.stanford.edu/~backrub/google.html"
+    },
+    {
+      "id": "src_brin_ipo_letter2004",
+      "kind": "archive",
+      "title": "Larry Page and Sergey Brin, 'An Owner's Manual for Google's Shareholders' (founders' letter in Google's 2004 S-1 registration statement), Alphabet investor-relations archive -- SELF/primary corporate document, written in Page's voice and signed by both. Read in full. Describes the planned auction IPO, the dual-class voting structure, the long-term and high-risk-project policy, the 20% time policy and the three-person executive arrangement in which Brin 'focuses on engineering and business deals'.",
+      "url": "https://abc.xyz/investor/founders-letters/2004-ipo-letter/"
+    },
+    {
+      "id": "src_brin_alphabet2019",
+      "kind": "archive",
+      "title": "Alphabet Inc. press release and founders' letter, 'Alphabet management change' (3 December 2019), abc.xyz -- SELF/corporate document announcing that Page and Brin leave their CEO and President roles at Alphabet while remaining co-founders, shareholders and board members, with a statement by chairman John Hennessy. Read in full.",
+      "url": "https://abc.xyz/investor/news/news-details/2019/Alphabet-management-change-12-03-2019/default.aspx"
+    },
+    {
+      "id": "src_brin_register_ted2010",
+      "kind": "press",
+      "title": "The Register, report on Sergey Brin's interview at the TED conference (February 2010) about Google's China operations -- trade-press report, non-self, short. Read in full. Records his stated wish to find a way to keep serving China, and his call for other companies hit by the December 2009 attacks to come forward.",
+      "url": "https://www.theregister.com/2010/02/15/google_china_brin_ted/"
+    },
+    {
+      "id": "src_brin_wsj_china_excerpt",
+      "kind": "press",
+      "title": "Wall Street Journal report (March 2010) on Brin's role in Google's decision to stop self-censoring in China, as excerpted by the Business and Human Rights Resource Centre -- EXCERPT ONLY: the full WSJ article is paywalled and was not opened; the excerpt says Brin pushed the company to abandon its censored China search engine and had reluctantly agreed to launch it four years earlier. Used only as a corroborating pointer, never as the sole support for a scored row.",
+      "url": "https://www.business-humanrights.org/en/brin-drove-google-to-pull-back-in-china"
+    },
+    {
+      "id": "src_brin_techradar_skydive2012",
+      "kind": "press",
+      "title": "TechRadar, 'Google Glasses showcased with skydiving extravaganza' (June 2012) -- trade-press report on Brin's keynote presentation of Project Glass at Google I/O 2012, the skydiving and bike stunt demonstration, and the Explorer edition offered to attendees. Read in full.",
+      "url": "https://www.techradar.com/news/world-of-tech/phone-and-communications/internet/google-glasses-showcased-with-skydiving-extravaganza-1087181"
+    },
+    {
+      "id": "src_brin_computerworld_teller2015",
+      "kind": "press",
+      "title": "Computerworld, 'Google X exec: Where Google went wrong with Glass' (18 March 2015) -- trade-press report on Astro Teller's South by Southwest remarks about Glass, with critical commentary from independent analysts (Enderle, Kerravala, Kagan) on how Google publicised the prototype. Read in full. Teller is a Google colleague, so the analysts are the non-self voices; the article concerns Glass as a company programme, with Brin named only as the project's public face by other sources.",
+      "url": "https://www.computerworld.com/article/2899052/googlex-exec-where-google-went-wrong-with-glass.html"
+    },
+    {
+      "id": "src_brin_techradar_glass2025",
+      "kind": "press",
+      "title": "Lance Ulanoff, TechRadar, \"'I made a lot of mistakes with Google Glass': Google's Sergey Brin admits missteps\" (May 2025) -- journalist's report on Brin's on-stage conversation at Google I/O 2025 with Alex Kantrowitz and Demis Hassabis, quoting his own assessment of Glass (timing, supply chains, price) and his statement that Google should polish a product before a demo. Read in full; the quotations are Brin's own words reported by an independent writer.",
+      "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/i-made-a-lot-of-mistakes-with-google-glass-googles-sergey-brin-admits-missteps-but-says-android-xr-has-a-bright-future-for-one-big-reason"
+    },
+    {
+      "id": "src_brin_tnw_gemini2026",
+      "kind": "press",
+      "title": "The Next Web, 'Sergey Brin has no executive title at Google but is shaping Gemini' (September 2026), summarising a Business Insider report -- secondary, explicitly unverified by TNW; Google declined to comment. Read in full for context on Brin's recent technical involvement in Gemini; NOT used as support for any scored row, and its unrelated personal-finance items were ignored.",
+      "url": "https://thenextweb.com/news/sergey-brin-gemini-microkitchen-google-deepmind"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brin_battelle_wired, src_brin_nsf | 1995-1996 | independent journalism + funder history] Battelle describes Brin as having moved from project to project without settling on a thesis topic, and quotes Brin that after talking to many research groups BackRub 'was the most exciting project' because it tackled the Web, 'which represents human knowledge'. NSF independently records him joining the web-ranking work. Perspective: a single journalist's narrative partly built on the subject's own recollection, so confidence is held to 0.5; the pattern across several projects is described, not itemised."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brin_battelle_wired, src_brin_ethw_pagerank, src_brin_anatomy1998 | 1996-1998 | journalism + institutional history + co-authored paper] Battelle credits Page with the weighted-ranking idea and Brin with 'figur[ing] out the math' so the link-weighting could be computed; the 1998 co-authored paper (read) works through the algorithm and scaling, and IEEE's history notes the mathematical formulation. Brin's exact share cannot be separated from Page's in the co-authored text, so the row rests on Battelle's attribution plus the pair's documented joint work; kept moderate."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brin_battelle_wired, src_brin_nsf, src_brin_ipo_letter2004, src_brin_alphabet2019 | 1995-2019 | independent journalism + funder history + self documents] Independent sources show Brin joining Page's project rather than working alone and the two building the prototype together (Battelle, NSF, joint paper). Over 2004-2019 the founders' own documents describe a three-person leadership arrangement with Eric Schmidt and decisions shared among them, and a joint step back in 2019, with chairman Hennessy noting their joint contributions. The 2004 and 2019 descriptions are SELF statements; the independent basis is the early joint work and its continuity, so confidence stays at 0.55."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brin_battelle_wired, src_brin_nsf | 1996-1998 | independent journalism + funder history] Battelle describes Page and Brin without money for new computers 'begg[ing] and borrow[ing]' hardware (a drive from the network lab, an idle CPU from the loading docks), converting a dorm room into an office, while NSF records that the equipment was funded by the digital-library project and industrial contributions. Early-stage, dated and independently narrated for the Page-and-Brin pair together; not scored higher because the account does not separate Brin's share."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_brin_battelle_wired, src_brin_techradar_skydive2012, src_brin_techradar_glass2025, src_brin_computerworld_teller2015 | 1998, 2012, 2015, 2025 | independent journalism + trade press] In 1998 Brin considered leaving the Stanford PhD for the start-up on the strength of his adviser's remark that he could return (Battelle). In June 2012 he personally fronted the Glass launch at Google I/O with a live skydive-and-stunt demonstration before the product was ready for consumers (TechRadar), which Brin himself later called a mistake of timing (TechRadar 2025) and which Teller, and analysts quoted by Computerworld, criticised as over-hyped. dual_edged because the same boldness produced a global search company and a public product setback. Not scored higher: the 2004 letter's endorsement of high-risk projects is a SELF statement and is not counted."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brin_techradar_glass2025, src_brin_computerworld_teller2015 | 2015 and 2025 | trade press] In May 2025 Brin said publicly that he 'made a lot of mistakes with Google Glass', attributing them to his own ignorance of consumer-electronics supply chains and pricing, and said the next product launch should be polished before a demo. This is one documented, dated instance of an on-record reassessment, reported by an independent writer; the 2015 Computerworld piece shows the company's own earlier reassessment (Teller) but not Brin's. A single instance, so score and confidence are modest."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brin_battelle_wired, src_brin_ethw_pagerank, src_brin_alphabet2019, src_brin_techradar_glass2025 | 1996-1998, 2019, 2025 | independent journalism + institutional history + trade press] Brin chose BackRub from several research groups (Battelle), helped turn it into a deployed service on Stanford's site in 1996 and into a company by 1998 (ETHW, Alphabet release), and, after leaving his Alphabet role in 2019, was reported in 2025 as back at Google working on its AI efforts (TechRadar). The 2025 return rests on a single report and on Brin's own on-stage description, so it is weighed lightly."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "세르게이 브린"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sergey-brin-jurvetson-2010.jpg",
+    "width": 1100,
+    "height": 1600,
+    "source": "Photograph of Sergey Brin at the TED conference, 12 February 2010, by Steve Jurvetson, via Wikimedia Commons (cropped version of a Flickr photograph titled 'Idealism')",
+    "license": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Steve Jurvetson, CC BY 2.0, via Wikimedia Commons. Cropped and resized for display.",
+    "attributionUrl": "https://www.flickr.com/photos/jurvetson/4352962220/",
+    "creator": "Steve Jurvetson",
+    "date": "2010-02-12",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sergey_Brin_Ted_2010_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE 2026-10-10 via Wikidata wbgetentities: Q92764, en 'Sergey Brin' (description 'American billionaire businessman (born 1973)'), ko '세르게이 브린', born 21 Aug 1973, citizenships Russia-era entry and United States, P18 'Sergey Brin Ted 2010 (cropped).jpg'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. LIVING SUBJECT: only documented public professional behaviour is scored. Deliberately NOT used or scored: private life (marriages, family, relationships), health and genetics, personal wealth and any tax or residence reporting (a personal-finance item in the TNW summary was ignored), political giving and statements, allegations. The 2010 China withdrawal and the Glass launch are cited only as dated professional events; the China episode rests on a trade-press report and a WSJ excerpt (the full WSJ article was paywalled and not opened) and is therefore not a scored row. CLASSIFICATION: occupations computer_scientist and entrepreneur; fieldIds computing, technology and business (all have field.* keys in src/core/i18n/en.ts); impactDomains technological, entrepreneurial, innovation as for the existing Larry Page profile; region north_america as for Linus Torvalds and Igor Sikorsky precedents; tags founder and innovator exist in the vocabulary. READING: 12 records opened (11 substantive + 1 orientation): Battelle (Wired 2005, full), NSF impact page, IEEE ETHW milestone page, the 1998 Anatomy paper (abstract, design goals, appendices), the 2004 IPO letter (full), the 2019 Alphabet release (full), The Register 2010, the WSJ excerpt, TechRadar 2012, Computerworld 2015, TechRadar 2025, TNW 2026. PERSPECTIVES: (1) SELF: Brin and Page's 1998 paper, 2004 and 2019 letters, Brin's quoted words in 2005, 2010 and 2025; (2) INDEPENDENT JOURNALISM: Battelle; (3) INSTITUTIONAL: NSF, IEEE ETHW; (4) TRADE PRESS and ANALYSTS: The Register, TechRadar, Computerworld (including independent analysts' criticism of Glass publicity); (5) COLLEAGUE: Astro Teller (via Computerworld) and chairman John Hennessy (via Alphabet release). BOOKS NOT ACCESSED: Steven Levy, In the Plex (2011); David Vise, The Google Story (2005); Ken Auletta, Googled (2009); Eric Schmidt and Jonathan Rosenberg, How Google Works (2014) -- print books, not opened; nothing is attributed to them. A search-snippet account of Brin's 2023 return to Gemini work (WSJ-sourced) was NOT opened and is not cited; the later-role evidence is only the 2025 TechRadar report and the unverified 2026 TNW summary. Brin's Google X leadership and the Parkinson's-gene discussion were deliberately not used (the first lacked an opened source; the second is health-related). Rows are sparse and every confidence is at most 0.55; no row is at or above 85. PORTRAIT: Commons file 'Sergey Brin Ted 2010 (cropped).jpg' is a crop of Steve Jurvetson's Flickr photograph; the live Flickr page (opened 2026-10-10) shows owner Steve Jurvetson and licence CC BY 2.0 (Some rights reserved), the Commons wikitext carries the Flickr upload bot licence-review marker, and the author is the photographer, not an agency. Downloaded 1423x2070 original, resized with LANCZOS to 1100x1600 (long edge 1600) at quality 85; checked visually."
+  }
+}

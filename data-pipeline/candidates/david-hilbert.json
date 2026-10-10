@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "david-hilbert",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "David Hilbert",
+    "wikidataId": "Q41585",
+    "birthYear": 1862,
+    "deathYear": 1943,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "theorist",
+      "mentor",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hilbert_wikidata",
+      "kind": "wikidata",
+      "title": "David Hilbert (Q41585) -- verified live via wbgetentities (2026-10-10): en label 'David Hilbert', description 'German mathematician (1862-1943)', born 23 Jan 1862, died 14 Feb 1943, ko label read from the entity. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q41585"
+    },
+    {
+      "id": "src_hilbert_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'David Hilbert', MacTutor History of Mathematics Archive (University of St Andrews) -- scholarly online biography (non-self) built on Reid, Rowe, Corry and others; quotes contemporaneous letters (Gordan to Klein, Hilbert to Klein, Klein to Hilbert) and Blumenthal's assessment. Read in full.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/"
+    },
+    {
+      "id": "src_hilbert_weyl_extracts",
+      "kind": "biography",
+      "title": "Hermann Weyl (Hilbert's doctoral student and Gottingen colleague), 'David Hilbert and his mathematical work', Bulletin of the American Mathematical Society 50 (1944) 612-654, as extracted on the MacTutor page 'Weyl on Hilbert and Hilbert on others' -- INSIDER/PUPIL obituary appreciation, admiring; the extracts also include Hilbert's own 1905, 1909 and 1929 tributes to Blumenthal, Minkowski, Bernays and Courant. Only the extracts were read; the full article (blocked by the publisher site) was not.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Weyl_on_Hilbert/"
+    },
+    {
+      "id": "src_hilbert_renn_stachel",
+      "kind": "archive",
+      "title": "Jurgen Renn and John Stachel (historians of science), 'Hilbert's Foundation of Physics: From a Theory of Everything to a Constituent of General Relativity', Max Planck Institute for the History of Science Preprint 118 (1999) -- INDEPENDENT scholarly reconstruction from Hilbert's proofs, marginal notes and the Einstein-Hilbert correspondence. Read the introduction and the sections on the November-December 1915 exchange and Hilbert's revision of his proofs; the later technical sections were skimmed.",
+      "url": "https://www.mpiwg-berlin.mpg.de/sites/default/files/Preprints/P118.pdf"
+    },
+    {
+      "id": "src_hilbert_weinstein",
+      "kind": "archive",
+      "title": "Galina Weinstein, 'From the Berlin Entwurf field equations to the Einstein tensor II: November 1915 until March 1916', arXiv:1201.5353 (2012) -- independent historical study of the Einstein-Hilbert exchange; DISAGREES in part with Renn and Stachel about who influenced whom. Read the sections on the November 1915 letters and the conclusion.",
+      "url": "https://arxiv.org/abs/1201.5353"
+    },
+    {
+      "id": "src_hilbert_sep_program",
+      "kind": "archive",
+      "title": "Richard Zach, 'Hilbert's Program', Stanford Encyclopedia of Philosophy (first published 2003, substantive revision 2023) -- scholarly reference article (non-self) on the origin, development and fate of the programme; used for dates, collaborators and its relation to Godel's 1930-31 results. Historical sections read.",
+      "url": "https://plato.stanford.edu/entries/hilbert-program/"
+    },
+    {
+      "id": "src_hilbert_mactutor_noether",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Emmy Noether', MacTutor History of Mathematics Archive -- scholarly online biography (non-self), quoting van der Waerden and Weyl; used for Hilbert's and Klein's 1915 invitation to Noether and Hilbert's advertising her courses under his own name. Read the Gottingen sections.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/"
+    },
+    {
+      "id": "src_hilbert_mactutor_courant",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Richard Courant', MacTutor History of Mathematics Archive -- scholarly online biography (non-self), quoting Constance Reid; used for Courant's years as Hilbert's student and assistant and for the authorship of Methods of Mathematical Physics. Read the Gottingen sections.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Courant/"
+    },
+    {
+      "id": "src_hilbert_paris1900",
+      "kind": "archive",
+      "title": "David Hilbert, 'Mathematical Problems', address to the International Congress of Mathematicians, Paris 1900, English translation by M. W. Newson (Bulletin of the American Mathematical Society 8, 1902), as hosted by Clark University -- SELF source (his own stated criteria for good problems and for rigour); never the sole perspective for any row. Read the introductory methodological sections and the opening problems.",
+      "url": "http://aleph0.clarku.edu/~djoyce/hilbert/problems.html"
+    },
+    {
+      "id": "src_hilbert_mactutor_quotes",
+      "kind": "biography",
+      "title": "'Quotations by David Hilbert', MacTutor History of Mathematics Archive -- collected sayings with second-hand attributions (Bell, Eves, Reid); read for context only, no scored row rests on it.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/quotations/"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hilbert_mactutor, src_hilbert_weyl_extracts | 1888 | scholarly biography quoting contemporaneous letters + pupil appreciation] In 1888 Hilbert, then a young lecturer, proved the finite basis theorem for any number of variables by an entirely abstract method, abandoning the computational approach of the field's leading expert Gordan after seeing that it could not generalise. MacTutor quotes Gordan's referee comment that Hilbert 'has scorned to present his thoughts following formal rules', and Hilbert's reply to Klein that he would alter nothing unless a definite objection to the reasoning were raised; Klein published it unchanged and called the later work the most important on general algebra the Annalen had published. Weyl (pupil, admiring) describes his 'firm confidence in the power of reason' and a willingness to stand apart from his environment on public matters, which is not scored here. One well-documented early episode from a compiler drawing on letters plus an admiring insider; hence mid-70s at most, with moderate confidence."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "[src_hilbert_mactutor, src_hilbert_weyl_extracts, src_hilbert_renn_stachel | 1888-1915 | scholarly biography + pupil appreciation + independent historians] In 1888 Hilbert answered Gordan's critical referee report with a forceful letter to Klein refusing to change the paper (MacTutor, quoting the letter). Weyl writes that his directness 'could be something to be afraid of' and that one had better think twice before telling him an empty phrase. In the 1915 exchange with Einstein over the gravitational field equations he stayed in correspondence and, after Einstein's complaint of 18 November, changed his proofs to concede Einstein's priority (Renn and Stachel) rather than escalating. The evidence is a few dated episodes, one of them an admiring insider's general remark, so the lean is real but modest."
+    },
+    "systems_abstraction": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hilbert_mactutor, src_hilbert_sep_program, src_hilbert_renn_stachel, src_hilbert_weyl_extracts | 1888-1930s | scholarly biography + encyclopedia + independent historians + pupil appreciation] Hilbert repeatedly recast a field as an abstract axiomatic or structural system: the basis theorem by an abstract existence argument (1888); the Zahlbericht (1897), which Rowe (quoted in MacTutor) says reshaped algebraic number theory with new concepts; Grundlagen der Geometrie (1899) giving geometry a formal axiomatic setting; the 1915 attempt to derive physical equations from a few axioms and a variational principle (Renn and Stachel, who also show the deductive structure presupposed more than his three axioms stated); and the programme, from around 1900 and fully from 1921, of formalising mathematics with a consistency proof (SEP). Blumenthal (quoted in MacTutor) credits him with seeing underlying unity across far-flung fields. Several independent documented instances across decades; capped below 80 because the physics attempt and the programme did not reach their stated aims."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hilbert_renn_stachel, src_hilbert_weinstein | Nov 1915-Feb 1916 | independent historians' reconstruction of proofs and letters] The first proofs of Hilbert's paper (6 December 1915) lacked the generally covariant field equations and contained a restriction on coordinates. Renn and Stachel document marginal changes in Hilbert's hand after Einstein's conclusive paper: he added acknowledgement of Einstein's contribution of the metric tensor, deleted the word 'new' for his equations, and, after setting the paper aside, found by early 1916 a new energy expression that no longer restricted coordinates and had a revised first communication in press by mid-February 1916. Weinstein agrees that Hilbert in the printed version acknowledged Einstein's priority. The degree of Hilbert's motive (placating Einstein versus correcting his own theory) is the authors' inference, and Weinstein differs on influence, so one documented episode only; moderate score and confidence."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hilbert_mactutor, src_hilbert_weyl_extracts, src_hilbert_mactutor_courant, src_hilbert_mactutor_noether | 1880s-1929 | scholarly biographies + pupil appreciation] Close working friendships with Hurwitz and Minkowski from Konigsberg (MacTutor); in 1902 he used Berlin's offer of a chair to bargain Gottingen into creating a chair for Minkowski, and later ran a joint seminar with him on mathematical physics (MacTutor, Courant). Weyl describes him teaching pupils on long walks and letting them share in his own work. In 1915 Hilbert and Klein invited Noether to Gottingen for help on invariant theory relevant to his physics, then fought for her habilitation and listed her courses under his own name during the wait (MacTutor on Noether). In 1929 he publicly credited Courant with creating the Mathematical Institute (Weyl extracts, Hilbert's own words). Note that Courant is the sole author of the 1924 Courant-Hilbert text, with Hilbert's role being lecture notes and passing interest (MacTutor on Courant), so no co-authorship is claimed. Several independent dated instances; held in the high 60s because much comes from admiring or compiled sources."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hilbert_mactutor, src_hilbert_renn_stachel, src_hilbert_sep_program, src_hilbert_mactutor_courant | 1885-1930s | scholarly biography + independent historians + encyclopedia] MacTutor lists successive work in invariants, algebraic number fields, foundations of geometry, integral equations (c. 1909) and what became functional analysis, kinetic gas theory and radiation, the 1915 foundations of physics, and mathematical logic and proof theory; the same sources document the shifts (Courant: from c. 1908 he devoted himself almost exclusively to analysis; by the 1920s his interests had moved away from mathematical physics). Renn and Stachel and the SEP independently document his physics papers and the foundations programme with Bernays and Ackermann. A documented pattern of changing fields, not a single episode; kept below 80 because all domains are mathematical or mathematical physics."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hilbert_mactutor, src_hilbert_weyl_extracts | 1888-1900 | scholarly biography + pupil appreciation] Hilbert's basis theorem used a method Klein judged the most important in general algebra in the Annalen; the Zahlbericht, in Rowe's words quoted by MacTutor, was 'not really a Bericht in the conventional sense' but original research with new concepts; Blumenthal (his first student, quoted) ranks his gift as insight into deep connection rather than concept-creation, placing Minkowski higher on the creation of new concepts. That honest qualification keeps the score modest. Weyl, an admiring pupil, reports the remark that he forced mathematicians to consider important what he thought important."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_hilbert_paris1900, src_hilbert_sep_program, src_hilbert_renn_stachel, src_hilbert_mactutor | 1899-1930s | self + encyclopedia + independent historians + biography] In 1900 Hilbert said a solution must be establishable 'by means of a finite number of steps' from finitely many hypotheses and insisted that rigour and simplicity go together (self; used only for the stated standard). His behaviour matched it in Grundlagen der Geometrie and in the 1920s consistency programme, which asked for finitary proofs (SEP). The independent check cuts both ways: Renn and Stachel show his 1915 'axiomatic' physics rested on more assumptions than the three axioms stated, and his first proofs were not generally covariant. Dual-edged, with the self source never the sole perspective."
+    },
+    "competitiveness": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hilbert_renn_stachel, src_hilbert_weinstein | Nov 1915 | independent historians who partly disagree] Documented actions: on 13 November 1915 Hilbert answered Einstein by announcing that he would present his theory in detail on the 16th; he submitted his paper on 20 November, two days after Einstein's 18 November letter; Weinstein adds that Hilbert did not tell Einstein of his 20 November talk. Renn and Stachel read this as Hilbert seeing Einstein's direction as a threat to priority ('not cooperation but competition'), while Weinstein concludes Einstein was not 'nostrified' and that after 18 November the two were no longer competing; Klein judged no priority question existed. The motive is an inference by historians who differ, so a mid score at moderate-low confidence; no claim that Hilbert behaved improperly."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hilbert_sep_program, src_hilbert_mactutor | 1893-1930s | encyclopedia + scholarly biography] The Zahlbericht was begun in 1893 and published in 1897, three years of work on a report requested by the German Mathematical Society (MacTutor). The foundations programme runs from his 1900 call for a consistency proof of analysis, through the 1904 and 1920s work with Bernays and Ackermann, to the 1930s Grundlagen der Mathematik volumes (SEP, MacTutor), a sustained effort of over three decades that continued after Godel's results of 1930-31 showed the original aim could not be met (MacTutor). Long-running but the sources do not describe setbacks or his reaction to them, so a moderate score."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "다비트 힐베르트"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q41585 returned en label 'David Hilbert', description 'German mathematician (1862-1943)', born 23 Jan 1862, died 14 Feb 1943, ko label read from the entity, P18 'Hilbert.jpg'. SLUG: not in prod_slugs.txt and no earlier candidate file. CLASSIFICATION: regionCode western_europe by German precedent (Gauss, Planck, Roentgen, Noether, Einstein); fields mathematics and physics (both have field.* keys; physics supported by his 1915-1927 physics papers and lectures, documented by Renn and Stachel and MacTutor); tags theorist, mentor (documented supervision and Noether/Courant episodes), systematic_thinker; archetype cross_disciplinary_generalist as for Poincare. EVIDENCE READ: 9 substantive records opened and read (MacTutor Hilbert biography in full; Weyl extracts on MacTutor; MacTutor Noether and Courant biographies, Gottingen sections; Renn and Stachel MPIWG Preprint 118, introduction and the Nov 1915-Feb 1916 sections; Weinstein arXiv:1201.5353, Nov 1915 sections and conclusion; SEP 'Hilbert's Program', historical sections; Hilbert's 1900 Paris address as a self source) plus MacTutor quotations page and Wikidata for orientation. Independent perspectives: Renn and Stachel (historians), Weinstein (historian, partly disagrees), Zach (SEP), MacTutor's compilers quoting letters of Gordan, Klein, Minkowski and Blumenthal's assessment; insider/admiring: Weyl 1944 (extracts only). NOT ACCESSED: Constance Reid's 'Hilbert' (borrow-only), Blumenthal's 1935 Lebensgeschichte, Weyl's full 1944 article (publisher site bot-walled), Max Born's autobiography, Courant's remembrances, Corry-Renn-Stachel 1997 Science paper (paywalled), Godel's later critique. NOT SCORED / EXCLUDED: the 1914 'Aufruf an die Kulturwelt' stance, the 1933 dismissals and the reported exchange with Rust (zero-politics, incidental), his family's health and his own illness and death (no inference), and the unverifiable second-hand quotes (Bathhouse remark on Noether, Fermat remark). The Einstein-Hilbert priority question is documented and contested; the rows cite only dated actions and flag that motive is historians' inference. PORTRAIT: frontispiece of American Journal of Mathematics vol. 29 (1907), viewed as a page image from the Internet Archive scan (leaf n3, shows the portrait with Hilbert's printed signature) and the Commons file 'David Hilbert, 1907.jpg' (1185x1695, grayscale) compared and identical in content; Commons credits the unknown author and PD-US-1923; basis: published in the United States in 1907, hence US public domain (published before 1931). No conflicting institutional rights notice was found, since the source is a journal scan rather than an archive item page. Downsized from 1695 to 1600 px long edge (1119x1600, JPEG q85), never upscaled. Kind: likeness. The small Commons 'Hilbert.jpg' (437x592, unknown publication) was NOT used. KOREAN NAME: the Wikidata ko label. No eligibility, coverage or match output was used; scores and confidences were fixed before the validator was run."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/david-hilbert-ajm-1907.jpg",
+    "width": 1119,
+    "height": 1600,
+    "source": "Frontispiece portrait of David Hilbert, American Journal of Mathematics, volume 29 (Johns Hopkins Press, Baltimore, 1907); digitised page also at the Internet Archive (sim_american-journal-of-mathematics_1907_29); file via Wikimedia Commons 'David Hilbert, 1907.jpg'",
+    "license": "Public domain (published in the United States in 1907)",
+    "licenseUrl": "https://www.copyright.gov/help/faq/faq-duration.html",
+    "attribution": "Photograph of David Hilbert, frontispiece of the American Journal of Mathematics vol. 29 (1907); photographer not credited",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:David_Hilbert,_1907.jpg",
+    "creator": "Unknown (photographer not credited in the journal)",
+    "date": "1907 (publication; the photograph is earlier)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/sim_american-journal-of-mathematics_1907_29/page/n3/mode/1up"
+  }
+}

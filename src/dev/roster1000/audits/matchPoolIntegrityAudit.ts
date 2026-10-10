@@ -58,6 +58,7 @@ import { ROSTER_43 } from "../../../data/people/roster43.js";
 import { ROSTER_44 } from "../../../data/people/roster44.js";
 import { ROSTER_45 } from "../../../data/people/roster45.js";
 import { ROSTER_46 } from "../../../data/people/roster46.js";
+import { ROSTER_47 } from "../../../data/people/roster47.js";
 
 const CANDIDATES_DIR = join(process.cwd(), "data-pipeline/candidates");
 
@@ -107,6 +108,7 @@ const NAMED_ROSTERS: ReadonlyArray<readonly [string, readonly Person[]]> = [
   ["roster44", ROSTER_44],
   ["roster45", ROSTER_45],
   ["roster46", ROSTER_46],
+  ["roster47", ROSTER_47],
 ];
 
 export function buildLineageMap(): ReadonlyMap<string, string> {

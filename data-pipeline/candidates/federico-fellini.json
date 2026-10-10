@@ -1,0 +1,235 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "federico-fellini",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Federico Fellini",
+    "wikidataId": "Q7371",
+    "birthYear": 1920,
+    "deathYear": 1993,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "film_director"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "intuitive"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_fellini_wikidata",
+      "kind": "wikidata",
+      "title": "Federico Fellini (Q7371) -- verified live via wbgetentities (2026-10-10): en label 'Federico Fellini', description 'Italian filmmaker (1920-1993)', born 20 Jan 1920, died 31 Oct 1993, citizenship Italy, instance of human, ko label '페데리코 펠리니'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7371"
+    },
+    {
+      "id": "src_fellini_dixon_dolce_vita",
+      "kind": "biography",
+      "title": "Wheeler Winston Dixon (film historian), 'La Dolce Vita', Senses of Cinema, CTEQ Annotations on Film, issue 54 (April 2010) -- INDEPENDENT scholarly essay (non-self) on Fellini's early career and the making of La dolce vita: the apprenticeship with Rossellini, the first two films' failures, the dispute with the first producer over casting Mastroianni, the dropped Luise Rainer role, the reconstruction of the Via Veneto at Cinecittà and the cutting of the film. Read in full.",
+      "url": "https://www.sensesofcinema.com/2010/cteq/la-dolce-vita/"
+    },
+    {
+      "id": "src_fellini_dixon_8half",
+      "kind": "biography",
+      "title": "Wheeler Winston Dixon, 'A Fantastic, Enchanted Ballet: Federico Fellini's 8 1/2 (1963)', Senses of Cinema, CTEQ Annotations on Film, issue 82 (January 2017) -- INDEPENDENT scholarly essay (non-self) on the genesis of 8 1/2, relying on Angelo Solmi's 1967 book and Fellini's own quoted remarks: preparation without a settled plot, the change of the protagonist into a film director, the casting and the improvised ending. Read in full.",
+      "url": "https://www.sensesofcinema.com/2017/cteq/8-%c2%bd-federico-fellini/"
+    },
+    {
+      "id": "src_fellini_shanahan_sensesgd",
+      "kind": "biography",
+      "title": "Antonia Shanahan, 'Fellini, Federico', Senses of Cinema Great Directors, issue 21 (July 2002) -- INDEPENDENT critical survey (non-self) of the whole career, drawing on Peter Bondanella's readings: Fellini's formation as a caricaturist and magazine writer without film-school training, the ten years of scriptwriting and set apprenticeship with Rossellini and others, his chosen influences, the break with the neorealist 'social' brief after Paisa, the criticism from the political Left, and the turn to dream and memory. Read in full except the later bibliography.",
+      "url": "https://www.sensesofcinema.com/2002/great-directors/fellini/"
+    },
+    {
+      "id": "src_fellini_chiesi_notebook",
+      "kind": "institution",
+      "title": "Roberto Chiesi (Cineteca di Bologna), film note on 'Fellini: A Director's Notebook' (1969), Il Cinema Ritrovato festival catalogue, 2019 edition -- INSTITUTIONAL film-archive note (non-self) recording that in 1966 Fellini withdrew from his planned film Il viaggio di G. Mastorna although sets were built and contracts signed, and that the 1969 television film he then made began on the abandoned set and included a Nights of Cabiria sequence cut at the producer's request. Read in full.",
+      "url": "https://ilcinemaritrovato.it/en/film/fellini-a-directors-notebook/"
+    },
+    {
+      "id": "src_fellini_romafest_dreams",
+      "kind": "institution",
+      "title": "Fondazione Cinema per Roma, 'Fellini Oniricon - The Book of My Dreams' (exhibition announcement, 17 November 2008) -- INSTITUTIONAL press text for the 2009 Academy of Motion Picture Arts and Sciences exhibition curated by Tullio Kezich and Vittorio Boarini; used only for the physical description and dating of the dream diary (two ledgers, drawings and notes dated 1960-1982 with scattered pages to 1990, begun on the advice of the Jungian analyst Ernst Bernhard). PROMOTIONAL in tone; not used for claims about influence. Read in full.",
+      "url": "https://romacinemafest.it/en/?p=21364"
+    },
+    {
+      "id": "src_fellini_bachmann1980",
+      "kind": "press",
+      "title": "Gideon Bachmann, 'Federico Fellini: The Cinema Seen as a Woman... An Interview on the Day City of Women Premiered in Rome', Film Quarterly vol. 34 no. 2 (Winter 1980-81), pp. 2-9, JSTOR scan on the Internet Archive -- SELF source: Fellini's own account of how he works and what he refuses (control until the final mix, film-making as a crew 'tribe', refusal to make a political platform of his films). Self-presentation by a famously unreliable self-narrator, so used only as one voice beside non-self sources and never alone for a row. Read in full.",
+      "url": "https://archive.org/details/Interview_with_Fellini_Cinema_seen_as_a_woman"
+    },
+    {
+      "id": "src_fellini_apollo_cinecitta",
+      "kind": "press",
+      "title": "'Inside Federico Fellini's dream factory in Rome', Apollo Magazine (art-history journalism) -- NON-SELF magazine feature on Cinecitta and Fellini that quotes his later recollections of building the Via Veneto in Studio 5 for La dolce vita and the scale model of the studio for Intervista (1987). Read in full; the quotations are Fellini's own, the framing is the writer's.",
+      "url": "https://apollo-magazine.com/cinecitta-film-studio-rome-fellini-mussolini/"
+    },
+    {
+      "id": "src_fellini_zimmermann_elements",
+      "kind": "archive",
+      "title": "Zach Zimmermann, 'Film as History: Fellini's La Dolce Vita as a Historical Artifact', Elements (Boston College undergraduate journal) -- student scholarly article on the reception of La dolce vita in Italy and the United States, quoting Bosley Crowther's 1961 New York Times reviews (admiring) and Time magazine's 1961 notice (hostile) and noting the later academic fall in Fellini's reputation. Read in full for the reception section; the formal analysis was skimmed.",
+      "url": "https://ejournals.bc.edu/index.php/elements/article/download/9034/8152/15376"
+    },
+    {
+      "id": "src_fellini_ebert_dolce_vita",
+      "kind": "press",
+      "title": "Roger Ebert, 'La Dolce Vita', Great Movies, Chicago Sun-Times (5 January 1997), read via the Internet Archive's 2023 capture of the Roger Ebert site -- CRITIC's retrospective (non-self) that places the film at the dividing point between the neorealism of the earlier films and the carnival visuals of the later ones and credits Nino Rota's score. Read in full.",
+      "url": "https://www.rogerebert.com/reviews/great-movie-la-dolce-vita-1960"
+    },
+    {
+      "id": "src_fellini_jackson_amarcord",
+      "kind": "biography",
+      "title": "Bruce Jackson, 'Fellini's Memory: Amarcord', Senses of Cinema, feature article, issue 104 (January 2023) -- scholarly film essay (non-self) on how Amarcord was built from remembered and invented stories and from deliberately artificial studio sets (the cardboard liner Rex), quoting Fellini's remark that he invented the whole tale. Read in full for method and set design; the scene-by-scene analysis was skimmed.",
+      "url": "https://www.sensesofcinema.com/2023/feature-articles/fellinis-memory-amarcord/"
+    },
+    {
+      "id": "src_fellini_halligan_lexicon",
+      "kind": "press",
+      "title": "Benjamin Halligan (critic), review of Sam Rohdie's 'Fellini Lexicon' (BFI, 2002), 'The Felliniesque Besieged', Senses of Cinema issue 24 (January 2003) -- CRITICAL, interpretive review (non-self) that describes Fellini as repeatedly rewriting his own themes and reports Pauline Kael's later judgment that Casanova made 'an epic of his own alienation'. Used only as a sceptical counter-perspective on the scale of his originality; read in full.",
+      "url": "https://www.sensesofcinema.com/2003/book-reviews/fellini_lexicon/"
+    },
+    {
+      "id": "src_fellini_agius_amarcord",
+      "kind": "biography",
+      "title": "Jacob Agius, 'I Remember: Amarcord (Federico Fellini, 1973)', Senses of Cinema, CTEQ Annotations on Film, issue 104 (February 2023) -- short scholarly essay (non-self) on the film's collaboration with screenwriter Tonino Guerra, Fellini's remark that he invented the whole tale, and the film's Best International Feature Film Oscar at the 1975 ceremony. Read in full.",
+      "url": "https://www.sensesofcinema.com/2023/cteq/i-remember-amarcord-federico-fellini-1973/"
+    },
+    {
+      "id": "src_fellini_wikipedia",
+      "kind": "wikipedia",
+      "title": "Federico Fellini, English Wikipedia (raw wikitext read 2026-10-10) -- ORIENTATION ONLY for names, dates and the list of awards and collaborators; its claims that rest on Tullio Kezich's 'Fellini: His Life and Work' (2006), Bondanella and Alpert could not be checked against the books and are not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Federico_Fellini"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Shanahan, Ebert, Dixon (La dolce vita), Halligan | 1950-1973 | independent critical surveys + critic's retrospective + sceptical review] Shanahan describes a deliberate departure from the neorealist brief: after Paisa Fellini restated his aim as looking at 'any kind of reality', spiritual and metaphysical as well as social, and she records that La strada's mythic, religious register was attacked from the Left as a betrayal of neorealism; she also notes that the later films gave up plot for dream, memory and invented 'memory'. Ebert places La dolce vita at the dividing point between the neorealist films and the 'carnival' visuals of the later ones, and Dixon notes the film's studio-built Via Veneto and episodic, plotless design. Halligan, a sceptic, agrees on the pattern but argues that Fellini kept rewriting the same preoccupations, which is why the score stays in the 70s and not higher. Several dated instances across independent sources; score rests on documented stylistic decisions, not on fame or awards."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Dixon (La dolce vita), Apollo, Jackson (Amarcord), Chiesi | 1959-1969 | independent essays + magazine feature + archive note] Fellini had the Via Veneto rebuilt in Studio 5 and later wrote that he came to think the studio street the more accurate and more attractive one (Apollo, quoting him 30 years on); for Intervista he used a scale model of Cinecittà so as to re-route the pine avenues and recolour the roofs, explaining that a literal aerial shot would communicate no feeling. Jackson records that the Amarcord ocean liner and sea were built to look deliberately unreal. Chiesi's note describes him choosing faces from a parade of extras in the 1969 film. The same stance is documented in several different productions; most of the quotations are his own, relayed by non-self writers, so the score stays below the 80s."
+    },
+    "intuitive_synthesis": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Shanahan, Fondazione Cinema per Roma, Dixon (8 1/2) | 1960-1963 | independent survey + institutional exhibition text + independent essay] Shanahan reports that from 8 1/2 on his films turned toward dream, imagination and memory and quotes his remark that he makes a film 'in the same manner in which I live a dream'. The exhibition text records that, urged by his Jungian analyst, he kept a dream diary of drawings and notes from 1960, in two ledgers, for about thirty years. Dixon (citing Solmi) shows 8 1/2 being built up from a visit to a spa and a letter of impressions rather than from a plot. Three separate kinds of evidence of a working method that starts from images and intuitions; the diary source is promotional, so this is held to the mid-60s and the claim is not stretched into any account of why he kept it."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[Shanahan, Dixon (La dolce vita), Zimmermann | 1946-1961 | independent survey + independent essay + reception study] Shanahan notes that he never attended film school and never frequented the cine-clubs, and when asked about influences named Chaplin, Keaton, Laurel and Hardy, the Marx Brothers, Germi and Bunuel in preference to the cine-club canon; after Paisa he rejected a purely social neorealist brief and was 'savaged by the Left' for La strada's religious undertones, yet repeated the approach in Il bidone and Le notti di Cabiria. Dixon and Zimmermann record that La dolce vita provoked condemnation from the Catholic Church and a hostile Time notice. Several documented instances; dual_edged because the same course drew sustained hostile criticism. Fellini's own refusal to let the films be a political platform (Bachmann, self) is treated as corroboration only."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[Dixon (La dolce vita), Dixon (8 1/2), Chiesi, Bachmann (self) | 1958-1966 | independent essays + archive note + self interview] Dixon documents that on La dolce vita Fellini held to Mastroianni against the first producer's wish for Paul Newman until that producer withdrew, and then dropped an actress and her character after she tried to soften the role. In 1966 he withdrew from Mastorna with sets built and contracts signed (Chiesi). In 1980 he described the director's job as being 'at the top of a pyramid' and stressed controlling the film down to its smallest details until the final mix (Bachmann; self, used only as a corroborating voice). Several instances of insisting on his own judgement over the film's key choices, at real cost in one case; the evidence is about creative control and not about general independence."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[Dixon (La dolce vita), Zimmermann | 1958-1961 | independent essay + reception study] Dixon describes the stand-off with the first producer over the lead actor, the loss of that producer, a period in which three producers were involved at once, and later friction with a co-producer who wanted controversial scenes cut; he also records the rows over the Rainer role and notes that the film was condemned outright by the Catholic Church. Zimmermann adds the hostile Time notice. The episodes are all drawn from one production in 1958-60 and mostly from one essayist, so the evidence is kept at inference level with a moderate score; his behaviour in other disputes is not documented in the sources read."
+    },
+    "ambiguity_tolerance": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[Dixon (8 1/2), Shanahan, Bachmann (self) | 1961-1963, 1980 | independent essays + self interview] Dixon, citing Fellini's friend Angelo Solmi, reports that Fellini signed deals, built sets and cast actors for 8 1/2 while still unsure what the story or the hero's profession was, saying he sometimes felt he could not remember the story at all; he decided only later to make the hero a director. Shanahan adds that the finished film blurs reality, dream and memory deliberately. In 1980 he said he preferred making a film about a problem without giving an answer (Bachmann). Two production episodes plus a consistent stated method; dual_edged because the same open-endedness made the preparation, in his words, 'torture' and left the project close to collapse."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Shanahan, Dixon (La dolce vita), Dixon (8 1/2), Ebert, Apollo | 1950-1973 | independent survey + essays + critic + magazine] The filmography in Shanahan shows the same writers across the 1950s and 60s (Pinelli and Flaiano on every film from The White Sheik to La dolce vita and 8 1/2, with Rondi added for La dolce vita and 8 1/2), and the same cinematographers and composer recur; Ebert credits Nino Rota's score as integral to La dolce vita, and Dixon lists Rota and Di Venanzo among the 8 1/2 team. Dixon records that three screenwriters worked with him through 1958 on La dolce vita and that he later described one producer as the ideal producer who respected his methods. Apollo notes that the studio set was designed by Piero Gherardi to his brief. Sustained repeat collaboration documented independently; the credit lists show who worked with him, not how he treated them, so the score is held at 70."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[Dixon (La dolce vita), Apollo, Chiesi | 1959-1966 | independent essay + magazine + archive note] Several dated decisions made under pressure. On La dolce vita he refused to move off Mastroianni when the first producer pressed for a star, he dropped the Rainer character and the actress after she tried to soften the role, and he moved the Via Veneto scenes into the studio once shooting on the real street became impossible (Dixon; Apollo). In 1966, at the other end, he abruptly withdrew from Mastorna with sets already built (Chiesi). Several documented sudden choices of both kinds; the score is moderate because the instances are clustered in one production and one cancelled project."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[Shanahan, Dixon (La dolce vita), Chiesi | 1939-1969 | independent survey + essay + archive note] Shanahan traces a succession of changes of role and medium: caricaturist, magazine humorist, radio and film gagman, scriptwriter and assistant for Rossellini and others, then director, followed by a change of style after Paisa and again after La dolce vita. Dixon documents the response to the Via Veneto problem by building a studio replica. Chiesi records that after abandoning Mastorna he made a television film for NBC from the abandoned sets. Several documented changes of method in response to circumstance; no row is based on his health or private life."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[Dixon (La dolce vita), Dixon (8 1/2), Shanahan | 1952-1963 | independent essays + survey] Two documented decisions that risked financing and schedule: holding out for the little-known Mastroianni over a star the producer wanted, which cost him that producer, and starting preparation and casting for 8 1/2 without a settled plot. Dixon and Shanahan also record that his first two films as director failed with audiences and that he kept making personal projects. Evidence is limited to a few episodes in 1952-1963 and no sources describe his own view of the risks, so confidence is kept low and impact dual_edged."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q7371: en label 'Federico Fellini', description 'Italian filmmaker (1920-1993)', born 20 Jan 1920, died 31 Oct 1993, citizenship Italy (Q38), instance of human, ko label '페데리코 펠리니', image 'Federico Fellini NYWTS 2.jpg'. SLUG CHECK: not in scratch/prod_slugs.txt, no existing candidate file. CLASSIFICATION: film_director / film, impactDomains artistic and cultural, region southern_europe (Italy; same coding as Verdi), tag intuitive, archetypes creative_creator and independent_creator; field.film key exists in src/core/i18n/en.ts. EVIDENCE READ: 12 substantive records opened as text and read (13th is orientation): two Dixon essays and Shanahan's career survey (Senses of Cinema), Chiesi's Cineteca note, the Rome Film Fest exhibition text, Bachmann's 1980 interview (full JSTOR scan on Internet Archive), the Apollo feature on Cinecitta, Zimmermann's reception study, Ebert's La dolce vita essay, Jackson on Amarcord, Halligan on the Fellini Lexicon. PERSPECTIVES: SELF (Bachmann interview and quotations of his remarks in others; never used alone); INDEPENDENT scholars/critics (Dixon, Shanahan, Jackson); INSTITUTIONAL (Cineteca di Bologna, Fondazione Cinema per Roma, promotional in tone); CRITICAL/SCEPTICAL (Halligan with Pauline Kael's later judgment; Time's 1961 hostile notice as reported by Zimmermann); CONTEMPORARY ADMIRING (Bosley Crowther 1961 as quoted by Zimmermann; Ebert 1997). NOT AVAILABLE / NOT READ: Tullio Kezich 'Fellini: His Life and Work', Peter Bondanella 'The Cinema of Federico Fellini', Charlotte Chandler 'I, Fellini', Costanzo Costantini 'Fellini on Fellini', Bernardino Zapponi 'Il mio Fellini', Baxter's biography and Angelo Solmi's 1967 book exist on the Internet Archive only as lending copies with no full text (HTTP 401/403 on the text files) and were NOT read; Bondanella and Solmi are cited only as they appear in Shanahan and Dixon. Criterion essays, Britannica, the Academy site and the New York Times pages (including Crowther's reviews and the obituary) returned 403 bot-walls and were not bypassed; Roger Ebert's 8 1/2 essay was not available. Sight and Sound pieces and Giulietta Masina's own accounts were not located. EPISODE USE: creative_originality = departure from neorealist brief and later dream/memory style; aesthetic_sensitivity = studio-built Via Veneto, Intervista model, deliberately artificial Amarcord sets, faces chosen from extras; intuitive_synthesis = dream method and diary and 8 1/2 genesis; independent_thinking = refusing cine-club canon and the Left's brief; autonomy_need = Mastroianni stand-off, Mastorna withdrawal, control until final mix; conflict_tolerance = producer and actress rows on La dolce vita; ambiguity_tolerance = 8 1/2 prepared without plot; collaboration = recurring writers/composer/cinematographer; decisiveness, adaptability, risk_tolerance as above. Confidence maximum 0.6; no score above 74. ROWS CONSIDERED AND LEFT UNSCORED: persistence and discipline (the thirty-year dream diary is documented only by a promotional exhibition text, and the flops-then-continue pattern is described only in two lines), planning_orientation (the evidence points both ways: 'leaving nothing to chance' in the final mix versus preparing without a plot), perfectionism, curiosity, mastery_orientation, leadership_drive, persuasiveness, achievement_drive and impact_motivation (would rest on outcomes or his own interview). EXCLUDED ON PURPOSE: any reading of his stroke, depression, bereavement, marriage or private life, death and funeral; the 1966 Mastorna withdrawal is used only as a dated professional event, not as evidence of any mental state; honours, Oscars and box-office are not scored (Achievements only); his remarks on politics are incidental and unscored. CONFLICTS REPORTED NOT ADJUDICATED: dates and explanations for abandoning Mastorna differ between sources (one festival note says 1966 after a crisis, others cite a clairvoyant's warning and disputes with the producer); only the withdrawal with sets built and contracts signed is used. Fellini repeatedly said he invented his 'memories' (Jackson, Agius, Wikipedia), so autobiographical claims in his films are not used as evidence. PORTRAIT: Wikidata P18 'Federico Fellini NYWTS 2.jpg' on Wikimedia Commons: Walter Albertin, New York World-Telegram and Sun staff photographer, 1965, Library of Congress New York World-Telegram and Sun Collection (hdl.loc.gov/loc.pnp/cph.3c21239). The Commons description records the upstream rights note as 'No copyright restriction known. Staff photographer reproduction rights transferred to Library of Congress through Instrument of Gift' and cites the Library of Congress guidance page; the LOC item record and the LOC rights page are behind a Cloudflare challenge / dynamic page and were NOT bypassed, so the chain relies on the Commons transcription of the LOC note and no contradictory live notice could be observed or ruled out. Original 2608x2137 greyscale JPEG downsized to 1600x1311 (q85); viewed: clear head-and-shoulders photograph of a middle-aged man in a pinstripe suit gesturing while speaking (hand motion-blurred). Kind likeness. No eligibility, coverage or match output was used; scores and confidences were fixed before the validator was run."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "페데리코 펠리니"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/federico-fellini-albertin-1965.jpg",
+    "width": 1600,
+    "height": 1311,
+    "source": "Wikimedia Commons, from the Library of Congress New York World-Telegram and Sun Collection (resized derivative of the original photograph)",
+    "license": "No known copyright restrictions (Library of Congress staff-photographer collection; reproduction rights transferred to the Library of Congress by Instrument of Gift)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Federico_Fellini_NYWTS_2.jpg",
+    "attribution": "Walter Albertin, New York World-Telegram and Sun staff photographer, 1965; Library of Congress, Prints and Photographs Division, New York World-Telegram and Sun Newspaper Photograph Collection",
+    "attributionUrl": "http://hdl.loc.gov/loc.pnp/cph.3c21239",
+    "creator": "Walter Albertin (New York World-Telegram and Sun staff photographer)",
+    "date": "1965",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Federico_Fellini_NYWTS_2.jpg"
+  },
+  "externalIdentity": {
+    "wikidataId": "Q7371",
+    "wikipediaUrls": {
+      "en-US": "https://en.wikipedia.org/wiki/Federico_Fellini"
+    }
+  }
+}

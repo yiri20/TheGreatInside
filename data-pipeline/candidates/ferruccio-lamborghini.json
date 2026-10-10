@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ferruccio-lamborghini",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ferruccio Lamborghini",
+    "wikidataId": "Q311999",
+    "birthYear": 1916,
+    "deathYear": 1993,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "engineer"
+    ],
+    "fieldIds": [
+      "engineering",
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial"
+    ],
+    "tagIds": [
+      "founder",
+      "independent"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lamborghini_wikidata",
+      "kind": "wikidata",
+      "title": "Ferruccio Lamborghini (Q311999) -- verified live via wbgetentities (2026-10-10): en label 'Ferruccio Lamborghini', description 'Italian industrialist, founder of Automobili Lamborghini (1916-1993)', P569 28 Apr 1916, P570 20 Feb 1993, ko label '페루치오 람보르기니', P18 'Ferruccio lamborghini.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q311999"
+    },
+    {
+      "id": "src_lamborghini_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ferruccio Lamborghini -- Wikipedia article, read as orientation only (including its footnote quoting a 1991 magazine interview in which Lamborghini tells the Ferrari clutch story); its account of his wartime arrest differs from the Italian biographical dictionary and is not used. Not used as support for any scored row.",
+      "url": "https://en.wikipedia.org/wiki/Ferruccio_Lamborghini"
+    },
+    {
+      "id": "src_lamborghini_treccani",
+      "kind": "biography",
+      "title": "Dizionario Biografico degli Italiani, Volume 63 (2004), entry 'Lamborghini, Ferruccio' (Istituto della Enciclopedia Italiana Treccani) -- INDEPENDENT scholarly reference biography, built from three monographs (Borzicchi 2001, Tonino Lamborghini 1997, Foresti 1993) because the company papers were lost; it treats the Ferrari quarrel as tradition and weighs business motives. Read in full (Italian): training and Rhodes, the Carioca tractors and loan, the 1950s industrialisation, the 1960 burners, the 1962-63 team and factory, the 350 GTV, 350 GT and Miura, the 1968-71 tractor crisis, the 1972-74 sales and the La Fiorita estate.",
+      "url": "https://www.treccani.it/enciclopedia/ferruccio-lamborghini_(Dizionario-Biografico)/"
+    },
+    {
+      "id": "src_lamborghini_hagerty",
+      "kind": "press",
+      "title": "Hagerty Media magazine feature, 'Lamborghini's first V-12 lived large for 48 years' -- INDEPENDENT motoring-history feature (read in full) drawing on Lamborghini's historian Paolo Gabrielli and quoting Road & Track's 1964 profile by Griff Borgeson; covers the Bizzarrini V-12 contract and fee dispute, the engineers' roles, the 350 GTV and 350 GT, the Miura layout and the 1974 sale. It notes that those who knew him thought he cared little whether a good story was literally true.",
+      "url": "https://www.hagerty.com/media/magazine-features/lamborghinis-first-v-12-lived-large-for-48-years/"
+    },
+    {
+      "id": "src_lamborghini_goodfellow",
+      "kind": "press",
+      "title": "Winston Goodfellow, 'Myth Busting, Part II: The Real Inspiration for Lamborghini's Miura' (author's blog; read in full) -- INDEPENDENT author-historian's report of his own 9 December 1993 interview with the Miura's chief engineer Gian Paolo Dallara (plus conversations with Paolo Stanzani, Bob Wallace, Marcello Gandini and Sergio Pininfarina), correcting the popular 'built in secret after hours' legend: Dallara recalls that Lamborghini was in the factory every day, knew of the project and took the bare chassis to the 1965 Turin show, and that he approved Bertone's body proposal on sight. A single recollection set down decades later.",
+      "url": "https://winstongoodfellow.com/blogs/blog/myth-busting-part-ii-the-real-inspiration-for-lamborghini-s-miura"
+    },
+    {
+      "id": "src_lamborghini_carrozzieri",
+      "kind": "press",
+      "title": "Andreas Scheidl, 'The Lamborghini 350 GT: Ferruccio's first street car', Carrozzieri Italiani, 29 January 2024 -- enthusiast-historian's article (read in full) with additional information from Wolfgang Blaube; covers the 3.5-litre V-12 contract with Giotto Bizzarrini (100 horsepower per litre, 4.5 million lire reward with a reduction clause), the August 1963 test, the settlement through legal means, and the 350 GT's coachbuilders. Its argument about who really designed the V-12 is contested and is not used.",
+      "url": "https://www.carrozzieri-italiani.com/lamborghini-350-gt/"
+    },
+    {
+      "id": "src_lamborghini_motorvalley",
+      "kind": "institution",
+      "title": "Motor Valley (Emilia-Romagna regional motor-industry promotion site), 'Ferruccio Lamborghini: a dream challenge' -- promotional regional biography (read in full) that quotes Lamborghini's own account of the Ferrari exchange; tends to the heroic and partly follows family accounts. Used for dated business facts that agree with the Italian biographical dictionary (wartime Rhodes repair work, the 1948 tractor start, burners after a US visit, the 1971-73 sales, the La Fiorita retirement) and for the report that people close to him advised against the car venture.",
+      "url": "https://www.motorvalley.it/en/stories/ferruccio-lamborghini-a-dream-challenge/"
+    },
+    {
+      "id": "src_lamborghini_tonino",
+      "kind": "press",
+      "title": "Motor Valley, 'Ferruccio Lamborghini, through Tonino's words' -- interview at the Ferruccio Lamborghini Museum with his son Tonino Lamborghini (read in full) -- PARTISAN, family perspective, recollected decades later; used only for the vaporiser feature of the first Carioca tractor, which the biographical dictionary also records, and not for any evaluation of character.",
+      "url": "https://www.motorvalley.it/en/stories/ferruccio-lamborghini-through-tonino-s-words-the-guardian-of-his-legacy-since-childhood/"
+    },
+    {
+      "id": "src_lamborghini_carscoops",
+      "kind": "press",
+      "title": "Carscoops, 'Lamborghini's Humble Beginnings: Ferruccio and His Tractors' (2012) -- motoring-news profile (read in full) reproducing Lamborghini's own words from a 1991 Thoroughbred and Classic Cars interview about his Ferrari clutch problems and his meeting with Enzo Ferrari. SELF-ACCOUNT, told decades afterwards and a retold legend; Hagerty dates a similar interview to 1981. Not used to establish what Ferrari said or did.",
+      "url": "https://carscoops.com/2012/04/lamborghinis-humble-beginnings/amp"
+    },
+    {
+      "id": "src_lamborghini_wallace",
+      "kind": "press",
+      "title": "Jalopnik, 'A Salute To Bob \"Jota\" Wallace, Lamborghini's Fastest Engineer' -- obituary-style profile of the company's first chief test driver (read in full); records that Lamborghini opposed any racing activity, so Wallace built the Jota on his own time with factory tools. Brief; used for the stance against racing only.",
+      "url": "https://www.jalopnik.com/a-salute-to-bob-jota-wallace-lamborghinis-fastest-e-1399647885/"
+    },
+    {
+      "id": "src_lamborghini_cbc",
+      "kind": "press",
+      "title": "CBC Radio, Under the Influence, 'How the Lamborghini supercar began with a tractor and an insult' (14 April 2022) -- short broadcast retelling of the Ferrari clutch legend, read in full; a retelling, not an independent source, and not used for any scored row.",
+      "url": "https://www.cbc.ca/radio/undertheinfluence/how-the-lamborghini-supercar-began-with-a-tractor-and-an-insult-1.6419560"
+    }
+  ],
+  "rows": {
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lamborghini_treccani, src_lamborghini_motorvalley, src_lamborghini_tonino | 1939-1956 | independent reference biography + regional promotional biography + family interview] Three distinct improvised solutions. (1) Rhodes, 1939 onward: assigned to the 50th mixed motor-vehicle unit, he became indispensable for repairing and re-adapting an antiquated vehicle park, and (per Treccani) gained experience in recovering vehicles close to scrapping; Motor Valley agrees on the repair role. (2) 1947-48: the first Carioca tractors were built from engines and differentials of abandoned lorries sold by the state surplus agency; to get round the persistent petrol shortage he devised a vaporiser that let the engine start on petrol and then run on paraffin, from two tanks joined by a copper coil (Treccani; his son's interview confirms the feature). (3) From 1951 he paid for plant land and expansion by barter in tractors rather than cash (Treccani). Three instances, one compiler for the details, with the wartime role and surplus conversion corroborated by a second account; kept at 0.64."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lamborghini_treccani, src_lamborghini_motorvalley | 1934-1974 | independent reference biography + regional promotional biography] He repeatedly started ventures himself instead of staying an employee or inheriting a business. At 18 (1934) after a job at a Bologna workshop he opened his own workshop at Renazzo with a friend; in summer 1946 he opened a small repair garage; at the end of 1947 he moved from mechanic to maker by forming a tractor-building partnership, then left it in 1948 to run his own firm with four workers; in 1960 he decided on his own to make heating burners and built a new plant (Treccani; Motor Valley adds a US factory visit); in 1962-63 he assembled an engineering team and built the car factory; after selling the car and tractor companies he bought the La Fiorita estate in 1974 and turned it into a wine and agritourism business (Treccani). Seven dated starts across forty years in two sources; the overlap with opportunity sensing is acknowledged, this row is about initiative, not timing."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lamborghini_treccani, src_lamborghini_motorvalley, src_lamborghini_hagerty | 1948-1963 | independent reference biography + regional promotional biography + independent motoring feature] Dated moves into openings tied to specific conditions. 1948: on his honeymoon he found at Portici a large surplus depot of Morris, Perkins and Dodge engines and bought about a hundred diesel engines on a bank loan (Treccani). 1952: after the Fanfani law subsidised farmers' purchases of Italian-made machines, the firm industrialised (Treccani; his son's account of the MWM licence is partisan and not relied on). 1960: reasoning that postwar housebuilding (about 400,000 rooms a year) would bring central heating, he decided to produce burners (Treccani; Motor Valley says a US factory visit showed burners could replace coal boilers). Cars: Treccani and Hagerty both read the decision as driven by the profit margins and advertising value of the sector rather than only by the Ferrari quarrel. Scored from the form and timing of the moves, not from later success."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lamborghini_treccani, src_lamborghini_motorvalley | 1948-1971 | independent reference biography + regional promotional biography] October 1948: a 10 million lire loan from the local savings bank, secured on his father's farm, to buy about a hundred engines (Treccani). 1963: bought a 20,000 square metre site in February and had a billion-lire factory finished in five months, entering a market with an established rival (Treccani); Motor Valley reports that his wife, who ran the tractor plant, and others asked him to reconsider. 1968-69: after sales rose he took the workforce from 380 to nearly 1,000 in a few months for a record output, and Treccani records that his heavy investment left the firm particularly exposed when credit tightened, a large Bolivian order was cancelled and labour disputes hardened, leading to the 1971 sale of the buildings to Fiat and the 1973 sale of the tractor firm. dual_edged because the same pattern built the firms and later cost him the tractor company."
+    },
+    "execution_speed": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lamborghini_treccani, src_lamborghini_hagerty, src_lamborghini_goodfellow | 1947-1966 | independent reference biography + independent motoring feature + engineer interview] Three short timelines. The decision to build tractors at the end of 1947 produced a first tractor shown on 2 February 1948 (Treccani). The car factory was completed in five months and opened on 26 October 1963, with a car shown at the Turin show that November (Treccani); Hagerty adds that a non-running showpiece was assembled quickly for that show, so the speed had a cost. The Miura chassis was shown at Turin in November 1965, Bertone's body proposals were approved on sight in the days around New Year, and a prototype appeared at Geneva about three months later (Goodfellow, from Dallara; Treccani dates Geneva to spring 1966). Much of the engineering was done by his team, so this is scored as a company pattern he set, at moderate confidence."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lamborghini_treccani, src_lamborghini_motorvalley | 1960-1974 | independent reference biography + regional promotional biography] Changed course several times as conditions shifted. Tractors to burners (1960) to cars (1963) to hydraulics (the Oleodinamica company, 1969) (Treccani). When the first car, the 350 GTV, was a failure and the 350 GT sold modestly, Treccani says he was about to close the Sant'Agata plant when his engineers brought rear-engine designs in August 1965, and he backed what became the Miura. In the 1971 crisis he sold the tractor buildings to Fiat, used short-time working, and used the proceeds to set up a leaner tractor firm at Pieve di Cento before selling it to Same in 1973; after leaving industry in 1974 he built a wine and agritourism estate (Treccani; Motor Valley agrees on the sales and the estate). Several documented reorientations in two sources."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lamborghini_treccani, src_lamborghini_hagerty, src_lamborghini_goodfellow | 1950s-1971 | independent reference biography + independent motoring feature + engineer interview] He set direction for every firm he founded and chose capable people to run parts of it. Treccani: in the early 1950s he built two assembly lines, a sales network and a new management structure with directors for each sector; he hired 'the best technicians on the market' for the burner plant and in 1962 assembled a team of heavyweight engineers for the car. Hagerty quotes Road & Track's 1964 profile calling him one of the rare Italian executives without an instinctive aversion to delegating authority; Goodfellow's Dallara interview shows him letting a 27-year-old engineer decide how the Miura chassis was made while approving the key choices himself. Treccani also says his paternalistic management habit was strained by permanent labour conflict in the late 1960s, hence dual_edged."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_lamborghini_treccani, src_lamborghini_goodfellow, src_lamborghini_wallace | 1965-1966 | independent reference biography + engineer interview + obituary profile] Mixed and thinly evidenced. He launched the company to build front-engine grand tourers and, per the Wallace obituary, opposed racing activity, but in 1965 he accepted his young engineers' mid-engine road-car chassis (Treccani: when he was on the point of closing the plant; Goodfellow's Dallara: he took it to the Turin show unbodied) and approved Bertone's radical body on sight ('Go ahead. Don't change anything'). The same sources show him keeping the road-car, no-racing rule. One principal episode, recollected by one participant, so inference at low confidence."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lamborghini_hagerty, src_lamborghini_carrozzieri, src_lamborghini_treccani | 1963, 1968-1971 | independent motoring feature + enthusiast history + independent reference biography] 1963: when Bizzarrini's V-12 reached about 350 horsepower in an unrealistic test but was not the tractable touring engine he wanted, he refused the bonus fee; Hagerty says the two 'lawyered up and words flew' (and that he probably paid in the end), Carrozzieri says the payment was settled through legal means. 1968-71: Treccani records permanent labour conflict that undermined a paternalistic management. His own account of confronting Enzo Ferrari (Carscoops, 1991 interview) is self-reported and is not scored. Two documented disputes in independent sources; moderate, dual_edged because the labour conflict contributed to the tractor crisis."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lamborghini_treccani, src_lamborghini_hagerty | 1948-1963 | independent reference biography + independent motoring feature] He entered the 1948 Mille Miglia in a car he had modified himself, and destroyed it (Treccani). For the car engine he obtained from Bizzarrini a V-12 intended to exceed Ferrari's in displacement and power (Treccani), and per Hagerty the fee was a fixed sum for matching Ferrari's 300 horsepower plus a bonus for every horsepower beyond it. Both sources, however, tie the car venture mainly to profit and publicity, and Wallace's obituary says he opposed racing, so the rivalry was commercial rather than sporting; kept at moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "페루치오 람보르기니"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q311999 returned en label Ferruccio Lamborghini, description Italian industrialist, founder of Automobili Lamborghini (1916-1993), P569 28 Apr 1916, P570 20 Feb 1993, ko label 페루치오 람보르기니. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. Region southern_europe follows the Enzo Ferrari precedent; fieldIds engineering and business (both have field.* keys); technology omitted as unsupported by the rows. Books NOT accessed: Borzicchi (2001) L'uomo che inventò la Miura, Tonino Lamborghini (1997) Onora il padre e la madre, Foresti (1993), Wallace Wyss Miura histories, Road & Track 1964 (Borgeson, seen only as quoted by Hagerty), the 1991/1981 magazine interview (seen only as quoted by Carscoops/Wikipedia/Hagerty); official Automobili Lamborghini heritage page returned 404 and was not read; Hagerty-style Hemmings/Octane pieces not located. Perspectives: Treccani reference biography (independent, scholarly), Hagerty feature (independent), Goodfellow/Dallara interview (independent, engineer), Carrozzieri Italiani (enthusiast), Motor Valley (regional promotional), Tonino interview (family, partisan), Lamborghini own words (self, via Carscoops). The Ferrari clutch story is treated as a retold legend and not scored. Wikipedia claim of wartime arrest as collaborator conflicts with Treccani and is not used. Ten rows only; no padding. Portrait held (no rights-clear image)."
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear likeness found. The Wikidata image 'Ferruccio lamborghini.jpg' (992x672, 1970s) is tagged public domain under the Italian 'simple photograph' rule, but its wikitext gives the author as unknown and the source only as 'archivio' (an unnamed archive), with no publication record to show it was published or that the Italian 20-year term had run; the other Commons images of him (1963 and 1968 press-style photographs, the 1963 engine photograph) are likewise unknown-author copies from social-media or blog pages carrying the same generic tag, and the 'Ferruccio Lamborghini.jpg' file is a company press-database image flagged on Commons as needing source review. None has an explicit documented basis, so under the stricter rights rule the portrait is held."
+  }
+}

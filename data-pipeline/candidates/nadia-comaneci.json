@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nadia-comaneci",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Nadia Comăneci",
+    "aliases": ["Nadia Comaneci"],
+    "wikidataId": "Q33228",
+    "birthYear": 1961,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["RO", "US"],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": ["athlete"],
+    "fieldIds": ["sport"],
+    "impactDomains": ["athletic", "cultural"],
+    "tagIds": ["prodigy", "competitor"],
+    "archetypeIds": ["competitive_performer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nadia_wikidata",
+      "kind": "wikidata",
+      "title": "Nadia Comăneci (Q33228) -- verified live via wbgetentities (2026-10-10): en label 'Nadia Comăneci', description 'Romanian gymnast and five-time Olympic gold medalist (born 1961)', born 12 November 1961, citizenship Romania and United States, ko label '나디아 코마네치'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q33228"
+    },
+    {
+      "id": "src_nadia_olympedia_bio",
+      "kind": "archive",
+      "title": "Olympedia (olympedia.org), athlete biography and Olympic results for Nadia Comăneci -- independent Olympic-historian reference entry (non-self). Read in full: biography (1975 European Championships, 1976 and 1980 Games, 1978 World balance-beam title, 1981 World Student Games, retirement), full results table (nine Olympic medals) and the list of honours.",
+      "url": "https://www.olympedia.org/athletes/28995"
+    },
+    {
+      "id": "src_nadia_olympedia_1980aa",
+      "kind": "archive",
+      "title": "Olympedia, 1980 Summer Olympics women's individual all-around results page -- independent Olympic-historian account of the final rotation, the 28-minute dispute led by the Romanian head judge over the beam score, and the final standings. Read in full (narrative and results table).",
+      "url": "https://www.olympedia.org/results/70489"
+    },
+    {
+      "id": "src_nadia_ap2020",
+      "kind": "press",
+      "title": "Tim Reynolds (Associated Press), 'In 1976, Comaneci's perfect 10s made her the perfect one', 8 August 2020 (copy on KSL.com) -- news retrospective built on an AP interview with Comăneci; independent journalist's framing plus her own quoted words on the Montreal scoreboard, her goals in 1976, her 1980 medals and the free Bart and Nadia Sports Experience. Read in full.",
+      "url": "https://www.ksl.com/article/50004151/in-1976-comanecis-perfect-10s-made-her-the-perfect-one"
+    },
+    {
+      "id": "src_nadia_csm1980",
+      "kind": "press",
+      "title": "Larry Eldridge (Christian Science Monitor sports editor), ''Nadia II' had all eyes in Moscow -- but not the gold', 28 July 1980 -- contemporaneous on-the-spot report of the Moscow Olympic gymnastics competition: the all-around decision and protests, her fall on vault, her beam gold and tied floor gold. Read the archive page; a few passages are marked omitted or illegible in the archive copy.",
+      "url": "https://www.csmonitor.com/1980/0728/072834.html"
+    },
+    {
+      "id": "src_nadia_csm1981",
+      "kind": "press",
+      "title": "Christian Science Monitor, 'Nadia's coach vaults to US', 9 April 1981 -- short contemporaneous news report on the asylum request of Béla and Márta Károlyi and choreographer Géza Pozsár and the reasons they gave (interference with training methods, including those for Comăneci). Read in full.",
+      "url": "https://csmonitor.com/1981/0409/040919.html"
+    },
+    {
+      "id": "src_nadia_si2008",
+      "kind": "press",
+      "title": "Sports Illustrated staff, 'Catching up with Nadia Comaneci', 31 July 2008 -- short profile with her own quoted remarks on the Montreal scoreboard, her 2008 reality-television appearance and her 2003 book, and a summary of her post-competition work (speaking, charities, gymnastics academy and magazine). Read in full.",
+      "url": "https://www.si.com/olympics/2008/07/31/comaneci-cuw"
+    },
+    {
+      "id": "src_nadia_spokesman2026",
+      "kind": "press",
+      "title": "'Nadia's Perfect Performance!', The Spokesman-Review (Spokane), July 2026 anniversary feature -- secondary compilation citing Bud Greenspan, Sports Illustrated, CNN, the Guardian and Sports-Reference; used for the detail that she scored seven perfect 10s in Montreal (four on uneven bars, three on balance beam), the magazine covers of August 1976, and the minimum-age rule changes that followed. Read in full; treated as a compilation, not as an independent perspective.",
+      "url": "https://www.spokesman.com/further-review/nadia-perfect-performance/"
+    },
+    {
+      "id": "src_nadia_gymhist1973",
+      "kind": "archive",
+      "title": "Gymnastics-History.com (Paul Ziert translation project), 'Early interviews with Nadia Comăneci, 1972-73' -- English translations of contemporaneous Romanian press pieces (Sportul, Ifjumunkas, Cutezatorii, April-June 1973) with a twelve-year-old Comăneci's own answers, her coach Béla Károlyi's statements, and journalists' accounts of her competitions and training sessions; the Romanian press of the period was state-controlled and promotional, so these are read as contemporaneous but not neutral. Read in full.",
+      "url": "https://www.gymnastics-history.com/2023/07/1972-3-early-interviews-with-nadia-comaneci/"
+    },
+    {
+      "id": "src_nadia_rferl2021",
+      "kind": "press",
+      "title": "Alison Mutler (Radio Free Europe/Radio Liberty), 'Nadia: Book Details Abuse Of Legendary Gymnast And Her Daring Escape From Romania', 31 July 2021 -- review of historian Stejărel Olaru's book Nadia and the Securitate, drawn from declassified secret-police files and interviews with former coaches and teammates. Read in full for context on the conditions of the Romanian national programme; deliberately NOT used for any scored row (it concerns how others treated the gymnasts and private matters) and the book itself was not accessed.",
+      "url": "https://www.rferl.org/a/gymnast-comaneci-abuse-escape/31386922.html"
+    },
+    {
+      "id": "src_nadia_laureus",
+      "kind": "institution",
+      "title": "Laureus World Sports Academy, member profile 'Nadia Comaneci' -- institutional profile (non-self but promotional) giving her Olympic medal totals, 1975 European Championships results, the 1976 scoreboard episode, her 1980 Moscow result, her 2000 founding membership of the Academy, her roles with Special Olympics International and the Muscular Dystrophy Association and her 1996 Hall of Fame induction. Read in full.",
+      "url": "https://www.laureus.com/world-sports-academy/members/nadia-comaneci"
+    },
+    {
+      "id": "src_nadia_specialolympics",
+      "kind": "institution",
+      "title": "Special Olympics, 'Nadia Comaneci' Global Ambassador profile -- institutional profile (promotional) describing her lifelong support and three decades of attending events and advocating for people with intellectual disabilities. Read in full.",
+      "url": "https://www.specialolympics.org/about/ambassadors/nadia-comaneci"
+    },
+    {
+      "id": "src_nadia_cbs2004",
+      "kind": "press",
+      "title": "CBS News (The Early Show, Harry Smith), 'Notes From Nadia Comaneci' (2004), with an excerpt from her own memoir Letters to a Young Gymnast (Basic Books, 2003) -- SELF/PRIMARY source: her own account of her 1976 mindset, of sacrifice and hard work, and of the Comăneci Salto. Never the sole support for any row. Read in full (interview text and the excerpt); the full book was not accessed.",
+      "url": "https://www.cbsnews.com/news/notes-from-nadia-comaneci"
+    },
+    {
+      "id": "src_nadia_flo2013",
+      "kind": "press",
+      "title": "Lucy Cameron (FloGymnastics), 'Book Review: Letters to a Young Gymnast by Nadia Comaneci', 11 December 2013 -- reader's review quoting the memoir on her 1976 state of mind and her relationship with her coach; used only to cross-check the memoir's themes. Read in full.",
+      "url": "https://flogymnastics.com/articles/5046904-book-review-letters-to-a-young-gymnast-by-nadia-comaneci"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nadia_gymhist1973, src_nadia_csm1980, src_nadia_olympedia_bio | 1973-1980 | contemporaneous press interview + on-the-spot newspaper report + Olympic reference; mostly secondary, one self-quoted exchange] In a 1973 interview a Romanian journalist asked the twelve-year-old whether she had expected to win both Bucharest competitions ('Yes') and whether she could beat the then national champion ('Yes. If not this year, then the next one for sure'); the journalist likened her self-confidence to Cassius Clay's. At Moscow in 1980 the CSM describes her as the reigning champion who 'milked the crowd every time she stepped onto the mat', and Olympedia lists her as the defending champion who finished level second in the all-around. Two dated instances from different sources, a decade apart, both about wanting and expecting to win; the 1973 source is state press and the 1980 description is one reporter's impression, hence moderate score and confidence."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nadia_csm1980, src_nadia_olympedia_bio, src_nadia_olympedia_1980aa | July 1980 | on-the-spot newspaper report + independent Olympic reference] In the Moscow 1980 team and individual competition she fell on bars earlier (the CSM notes she was not in the bars final), lost the all-around gold to a disputed margin of 0.075 (Olympedia: level second with 79.075 against 79.150), then fell on vault in the apparatus finals, and still won the balance-beam final and tied for the floor gold (CSM; Olympedia lists beam gold and floor tied gold). Olympedia adds that she won the 1981 World Student Games before retiring. One concentrated, well-documented episode of returning to competition after setbacks within days, not a decade-long pattern, so only a moderate score; her own memoir remarks on hard work are not used here."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nadia_gymhist1973, src_nadia_cbs2004, src_nadia_olympedia_bio | 1973-2004 | contemporaneous state-press observation + her own remarks; not independently corroborated] A journalist who attended several of her 1973 training sessions wrote that behind her performances was 'an enormous amount of work' and that she practised 'hours, days, weeks, months' for a single element, dividing her day between school and the training room; her coach added that her training load was carefully monitored. In 2004 she said 'Working hard is a part of life and I don't complain about working hard.' The training regime was set by coaches and the national programme (see the RFE/RL context source, not scored), so how much is her own discipline versus imposed structure cannot be separated; consistent with discipline but kept below documented-pattern level."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nadia_cbs2004, src_nadia_gymhist1973, src_nadia_ap2020 | 1973-2020 | her own statements + contemporaneous judge's remark + AP interview] Self-report: 'I love to learn skills and I love to accomplish ... Take little steps', and that she does not want people to train just to reach the Olympics (2004). In 1973 a judge told a journalist that her exercises contained 'only elements of the highest degree of difficulty'; in 1976 she said her goal was 'not to make a major mistake and hit the ground' rather than chasing a score (AP 2020). The memoir also reports that a skill named after her is rated the top difficulty tier, which is her own claim and not independently checked here. Mostly self-reported plus one judge's remark; moderate score and confidence."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nadia_ap2020, src_nadia_specialolympics, src_nadia_laureus, src_nadia_si2008 | 2000-2020 | AP report + institutional profiles (promotional) + SI profile] AP (2020) reports that she and Bart Conner offer a free three-day sports event for about 10,000 children a year and train young gymnasts; Special Olympics describes three decades of attending events and advocating for people with intellectual disabilities; Laureus lists her as a founding Academy member (2000) and as a Special Olympics International board officer and Muscular Dystrophy Association vice president; SI (2008) says she contributes to several charities. The institutional pages are self-promotional and give no specific dated decisions, so this is a modest lean with low confidence, scored as sustained public service roles rather than as a strong pattern."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/nadia-comaneci-nuta-2026.jpg",
+    "width": 1066,
+    "height": 1600,
+    "source": "Photograph 'Nadia Comăneci at Sports Festival 2026' by Lucian Nuță (Flickr, 14 June 2026, Cluj-Napoca), via Wikimedia Commons; the Flickr licence was checked by the Commons Flickr review bot",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Lucian Nuță (Nuță Lucian), CC BY-SA 4.0. Resized from the 1365 x 2048 original; no other change. The photographer's credit is also visible in the image.",
+    "attributionUrl": "https://www.flickr.com/photos/nutalucian/55339169623/",
+    "creator": "Lucian Nuță",
+    "date": "2026-06-14",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nadia_Com%C4%83neci_at_Sports_Festival_2026.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "나디아 코마네치"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE 2026-10-10 (wbgetentities Q33228: en label Nadia Comăneci, description Romanian gymnast and five-time Olympic gold medalist (born 1961), born 12 Nov 1961, citizenship Romania and United States). Slug not in prod slugs or existing candidates. CLASSIFICATION: occupation athlete, field sport (field.sport exists), impact domains athletic and cultural, tags prodigy and competitor, archetype competitive_performer (as other athlete candidates). Region central_europe following the Russia/Eastern Europe precedent (Pavlova, Zatopek). EVIDENCE: 13 records read (12 substantive plus Wikidata orientation): Olympedia athlete page and 1980 all-around page; AP 2020; CSM 1980 and 1981; SI 2008; translated 1973 Romanian press; RFE/RL 2021 (context only, unscored); Laureus and Special Olympics profiles; CBS 2004 with memoir excerpt (self); FloGymnastics review; Spokesman-Review compilation. Independent perspectives: Olympedia (Olympic historians), AP (journalist interview), CSM (contemporaneous US newspaper), RFE/RL (historian's archive-based book review), Romanian state press 1973 (contemporaneous, promotional). Self/primary: memoir excerpt and her interview remarks, never sole support. NOT ACCESSED: Britannica (bot-walled, not bypassed), International Gymnastics Hall of Fame page (404), Guardian 1976 piece (404), Sports Illustrated Vault 1980 (404), NYT archive, her full memoir Letters to a Young Gymnast, Olaru's Nadia and the Securitate, Béla Károlyi's autobiography, Dominique Moceanu's memoir. SCORING: five rows only, all confidence at or below 0.58, scores 58-72; rows deliberately omitted for traits that would rest only on coaches' accounts, private life, her 1989 departure from Romania (a documented career event, incidental and unscored under the zero-politics rule), or the training-methods controversy (reported by RFE/RL from secret-police files and coaches; no claims about her motives or health are made). Retirement date differs by source (Olympedia: after 1981 World Student Games; SI, Laureus, Spokesman-Review: 1984), so no retirement year is stated in editorial. PORTRAIT: the Commons 1977 and 1980 images credited to the Romanian Olympic Committee carry only a bare 'Public domain' tag with unknown author and a dead source link, so they were rejected under the stronger rights rule; the 2026 photograph has a named photographer and an explicit CC BY-SA 4.0 licence, confirmed on his Flickr page. Caveat: full-length event photo with the photographer's watermark in the lower corner, and ShareAlike terms apply."
+  }
+}

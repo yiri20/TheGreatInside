@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edmond-halley",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Edmond Halley",
+    "aliases": [
+      "Edmund Halley"
+    ],
+    "wikidataId": "Q47434",
+    "birthYear": 1656,
+    "deathYear": 1742,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "polymath",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_halley_wikidata",
+      "kind": "wikidata",
+      "title": "Edmond Halley (Q47434) -- verified live via wbgetentities (2026-10-10): en label 'Edmond Halley', description 'English astronomer, mathematician, geophysicist, meteorologist and physicist (1656-1742)', born 8 Nov 1656, died 1742, instance of human, ko label '에드먼드 핼리'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q47434"
+    },
+    {
+      "id": "src_halley_cook_odnb",
+      "kind": "biography",
+      "title": "Alan Cook (Halley's modern biographer, author of 'Edmond Halley: Charting the Heavens and the Seas', 1997), 'Halley, Edmond (1656-1742)', Oxford Dictionary of National Biography (Oxford University Press, 2004), as reproduced by the MacTutor History of Mathematics archive -- INDEPENDENT modern scholarly biography built on Halley's papers, the Flamsteed and Newton correspondence and Hooke's diary; frank about Halley's limits (haste, lax procedures, no part in composing the Principia, a difficult first Paramore cruise, a thin case for his alleged atheism). Read in full.",
+      "url": "https://mathshistory.st-andrews.ac.uk/DNB/Halley.html"
+    },
+    {
+      "id": "src_halley_clerke_dnb1890",
+      "kind": "biography",
+      "title": "Agnes Mary Clerke (historian of astronomy), 'Halley, Edmund', Dictionary of National Biography vol. 24 (1890), via Wikisource -- Victorian ADMIRING but also critical assessment, with dated citations to the Philosophical Transactions; says his administration of the Royal Observatory was 'the least successful part of his career' and that his lunar observations were not methodical, yet calls him 'wholly free from rancour'. Read in full.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Halley,_Edmund"
+    },
+    {
+      "id": "src_halley_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Edmond Halley', MacTutor History of Mathematics (University of St Andrews, 2000) -- secondary biography that quotes Flamsteed's letters (the adversary's view of Halley), Hearne's account of the 1704 Oxford inaugural lecture, and Chapman and Glaisher on the Principia; also records the criticism of his work as Astronomer Royal and Ronan's defence of it. Read in full.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Halley/"
+    },
+    {
+      "id": "src_halley_glasgow_flamsteed",
+      "kind": "institution",
+      "title": "University of Glasgow Archives and Special Collections, 'John Flamsteed: Historia Coelestis Britannica' (Revolutions in Astronomy exhibition) -- institutional description from the Flamsteed side of the 1712 dispute: Halley sent an unfinished star catalogue to the press without Flamsteed's consent, with a preface that openly criticised the Astronomer Royal. Read in full.",
+      "url": "https://www.gla.ac.uk/myglasgow/archivespecialcollections/digitisedcollections/revolutionsinastronomy/johnflamsteedhistoriacelestisbritannica"
+    },
+    {
+      "id": "src_halley_lindahall_1712",
+      "kind": "institution",
+      "title": "Alex Johnson, 'Historia Coelestis by John Flamsteed: Rare Book of the Week', Fine Books and Collections (24 March 2025), reporting the Linda Hall Library's copy of Flamsteed's annotated 1712 edition -- ADVERSARIAL-leaning institutional account: Flamsteed saw the observations as obtained under false pretenses, Newton and Halley had 400 copies printed, and Flamsteed burned parts of about 300 recovered copies in 1716 including Halley's unsigned preface. Read in full.",
+      "url": "https://www.finebooksmagazine.com/fine-books-news/historia-coelestis-john-flamsteed-rare-book-week"
+    },
+    {
+      "id": "src_halley_breslau1693",
+      "kind": "archive",
+      "title": "Edmond Halley, 'An Estimate of the Degrees of the Mortality of Mankind, drawn from curious Tables of the Births and Funerals at the City of Breslaw; with an Attempt to ascertain the Price of Annuities upon Lives', Philosophical Transactions vol. 17 (1693), JSTOR Early Journal Content scan on the Internet Archive -- SELF source (his own paper); used only for what he says he chose and why (Breslau as a standard population because it was far from the sea and had few strangers, the missing census figure and how he supplied for it, and the annuity valuation he computed). Read in full.",
+      "url": "https://archive.org/details/jstor-101946"
+    },
+    {
+      "id": "src_halley_nauenberg2005",
+      "kind": "archive",
+      "title": "Michael Nauenberg (University of California, Santa Cruz), 'Hooke's memorandum on the development of orbital dynamics', arXiv:physics/0504093 (2005) -- scholarly paper SYMPATHETIC TO HOOKE on his priority dispute with Newton; used here only for what it quotes of Halley: his urging of Hooke to produce a demonstration and his May 1686 letter relaying Hooke's claim to Newton. Read the opening sections and the passages naming Halley; the later sections were skimmed.",
+      "url": "https://arxiv.org/abs/physics/0504093"
+    },
+    {
+      "id": "src_halley_chin2021",
+      "kind": "archive",
+      "title": "Siu A. Chin (Texas A&M University), 'Modern light on ancient feud: Robert Hooke and Newton's graphical method', arXiv:2106.07082 (2021) -- scholarly paper on the Hooke-Newton feud that quotes Halley's letter of 22 May 1686 to Newton and Newton's furious reply of June 1686. Read the abstract, introduction and the passages naming Halley; the technical sections were not read.",
+      "url": "https://arxiv.org/abs/2106.07082"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_halley_cook_odnb, src_halley_clerke_dnb1890 | 1679-1731 | modern biography + Victorian DNB with dated citations] Cook lists a spread of enquiries: demography, classical scholarship, geophysics, the proper motions of stars, the longitude problem and the Moon's motion, and says he applied classical scholarship to show changes in the world within historical times (a Philosophical Transactions paper placing Julius Caesar's landing in Britain by the tides). Clerke adds dated papers on trade winds and monsoons (1686), the circulation of sea vapour and the origin of springs (1687), a method for the roots of equations (1694), and his 1710 edition of Apollonius's Conics including a restored eighth book, begun, she says, notwithstanding his previous ignorance of Arabic. Several documented episodes across unrelated fields; strong_inference because no source frames them as deliberate breadth-seeking and both are secondary summaries of his papers."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_halley_cook_odnb, src_halley_clerke_dnb1890, src_halley_mactutor | 1670s-1697 | modern biography + Victorian DNB + secondary biography] Cook and Clerke say he began astronomical and magnetic observations at school (Clerke: he noticed changes in the variation of the compass), and Cook says he wrote three scientific papers as an undergraduate. In January 1684 he, Hooke and Wren asked after a meeting of the Royal Society what orbits an inverse-square attraction would produce (Cook, MacTutor). In 1697 he climbed Snowdon to test his method of determining heights with the barometer (Clerke). The evidence is his self-started questions and tests rather than any statement of motive, hence strong_inference at a moderate score; the range of his topics is scored separately under cross-domain range and not counted again here."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_halley_cook_odnb, src_halley_clerke_dnb1890, src_halley_mactutor | 1676-1715 | modern biography + Victorian DNB + secondary biography] Four dated self-initiated moves. 1676: he left Oxford without a degree to chart the southern stars, with support from his father, a letter from Charles II to the East India Company and advice from Moore and Cassini (Cook; Clerke; MacTutor). August 1684: he called on Newton in Cambridge and put the orbit question (Cook; Clerke). 1698: Clerke says that, wishing to investigate the compass variation, he obtained from William III the command of the Paramour Pink with orders to study the variation and look for land to the south of the western ocean. 1715: he drew a map of the zone of totality of the solar eclipse and organised systematic observations across the country, which Cook calls the first time anything of the kind had been done. Several documented instances from independent biographers across four decades."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_halley_cook_odnb, src_halley_clerke_dnb1890 | 1676-1700 | modern biography + Victorian DNB] He gave up the Oxford degree for an eighteen-month expedition to a remote island whose climate Clerke says proved unfavourable (Cook, Clerke). On the second Paramour cruise (1699-1700) he went south to 52 degrees among ice; Cook says he was in considerable danger, as he was later from a storm off Africa, and Clerke quotes his own words that he 'scarce dare write my thoughts' of the ice islands. Two documented exposures to physical and career risk; impact neutral because the first was backed by royal and company support and the second was a naval commission with a ship's crew."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_halley_clerke_dnb1890, src_halley_cook_odnb | 1683-1739 | Victorian DNB + modern biography] Clerke documents that he set out in 1683 to follow the Moon through a full saros period of about eighteen years, secured nearly two hundred observations at Islington in 1683-84 before his father's death interrupted him, resumed and carried out the design after his appointment at Greenwich, and announced in 1731 nearly fifteen hundred lunar observations; she calls it the most sustained effort of his life. Cook confirms he completed a cycle but died before he could publish it and that he observed the Moon until the end of 1739. dual_edged: Clerke adds that pursuing one end so exclusively he virtually failed to reach it, and she judges the revival of the saros not to have served science. Two independent accounts of one long programme."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_halley_clerke_dnb1890, src_halley_cook_odnb, src_halley_mactutor | 1679-1710 | Victorian DNB + modern biography + secondary biography quoting Glaisher] Four dated instances of working to bring others' work to completion or joint results. He observed with Hevelius at Danzig from May to July 1679 using both men's instruments, and recognised the consistency of Hevelius's observations although he deplored his obsolete methods (Cook). He observed the great comet of 1680-81 with Cassini in Paris (Cook; Clerke). He urged Newton to proceed, corrected the Principia proofs and paid for the printing, which Glaisher, quoted by MacTutor and Clerke, says 'all his letters show the most intense devotion to'. He joined David Gregory on the Conics of Apollonius and carried the edition through after Gregory died in 1708 (Cook). The Flamsteed rupture is counted under conflict tolerance; the score is moderate because the instances are mostly service to a single project or person."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_halley_mactutor, src_halley_glasgow_flamsteed, src_halley_lindahall_1712, src_halley_cook_odnb, src_halley_nauenberg2005, src_halley_chin2021 | 1684-1716 | secondary biography + Flamsteed-side institutional accounts + modern biography + two scholarly papers on the Hooke-Newton dispute] In 1712 he took over publication of Flamsteed's unfinished catalogue; Glasgow says it went to press without Flamsteed's consent with a preface openly criticising him, MacTutor (citing Chapman) that the preface charged him with sluggishness, secretiveness and lack of public spirit, and the Linda Hall account that Flamsteed burned much of the edition in 1716. Cook adds that his letters show he could make sharp comments on others who should have known better. In the Principia dispute, Nauenberg and Chin quote him urging Hooke to produce his own demonstration and, in May 1686, reporting Hooke's priority claim to Newton, whose reply was furious; Halley carried the dispute rather than avoiding it. Against this, MacTutor says he did much to calm disputes, and Cook says he got on well with nearly everyone except Flamsteed. dual_edged; moderate score and confidence because the main accounts of the 1712 affair are from the Flamsteed side."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_halley_cook_odnb, src_halley_clerke_dnb1890, src_halley_mactutor | 1679-1704 | modern biography + Victorian DNB + secondary biography quoting Hearne and Glaisher] In 1679 the 68-year-old Hevelius, sent a 23-year-old judge, accepted Halley's checks of his observations (MacTutor, quoting a biographer: 'a man of great natural diplomacy'; Cook). Clerke, quoting Glaisher, says his suggestions originated the Principia and that he averted the threatened suppression of its third book (Newton's own account of the third book is not in the sources read). Hearne, quoted by MacTutor, says his 1704 Oxford inaugural lecture 'very much pleased the generality of the University', and Cook says he impressed persons of high rank including Peter the Great and the emperor of Austria. Several instances, but each rests on a secondary account and none is a measured outcome of persuasion alone."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_halley_breslau1693, src_halley_cook_odnb, src_halley_clerke_dnb1890, src_halley_mactutor | 1693-1715 | his own paper + modern biography + Victorian DNB + secondary biography] In his 1693 paper he states the faults of the London and Dublin bills (no count of the people, no ages, many strangers), chooses Breslau for lacking them, says openly that the number of inhabitants is missing and supplies it by comparing mortality at all ages, then computes annuity values. Cook says he estimated the maximum size of gold atoms in a matter-of-fact, empirical way from the gold on silver-gilt wire and followed the principle of predicting what is unknown from what is observed; Clerke notes that in 1693 he inferred the Moon's acceleration by comparing ancient with modern eclipses and that he gave an accurate prediction of the eclipse of 1715; Cook and MacTutor describe the orbit calculations for twenty-four comets, including awareness that Jupiter's and Saturn's attractions complicate the return date. Self source not used alone. Limits are scored separately under detail orientation."
+    },
+    "detail_orientation": {
+      "score": 40,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_halley_cook_odnb, src_halley_clerke_dnb1890, src_halley_mactutor | 1679-1739 | modern biography + Victorian DNB + secondary biography] Cook says Flamsteed 'justly criticized him for haste and lax procedures' on the St Helena work. Clerke, citing Bradley and Grant, says that as Astronomer Royal he took no account of fractional parts of seconds of time, accepted ten seconds of arc as the limit of attainable accuracy, used ill-regulated clocks and an unmethodical system of registration, and 'undervalued those habits of minute attention' indispensable to observational excellence. Counter-evidence: Cook finds Halley and Flamsteed observing to about one minute of arc, Flamsteed more consistent, and MacTutor records that Ronan argues the criticisms of his Greenwich work are unfair. Two independent assessments (Cook and Clerke) with a defender, hence only moderate confidence; dual_edged because speed and breadth are the other side of the same working style."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_halley_cook_odnb, src_halley_clerke_dnb1890, src_halley_mactutor | 1683-1701 | modern biography + Victorian DNB + secondary biography] He turned worldwide observations into single pictures of a system: a synoptic chart of the trade winds (Cook calls it the first meteorological chart; MacTutor dates it 1686), a 1687 paper on the circulation of sea vapour that balances evaporation against condensation to explain springs (Clerke), and a theory of the compass variation with four magnetic poles, two fixed in the Earth's outer shell and two revolving with an inner nucleus, which Clerke says explained the secular changes with surprising success. Cook adds that he understood there must be relative motions inside the Earth to account for the changing variation, and that local anomalies must come from shallow sources. Several documented instances from two biographers; strong_inference because the sources describe his papers and do not quote his reasoning."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_halley_cook_odnb, src_halley_clerke_dnb1890, src_halley_mactutor | 1686-1705 | modern biography + Victorian DNB + secondary biography] Choices of representation and hypothesis that departed from his predecessors: lines of equal magnetic declination to show the variation over the Atlantic in 1701 (Cook says no-one had published such a representation before; Clerke that it set the example of a method of displaying complex facts to the eye), the Breslau life table as a way to relate mortality to age (Cook and MacTutor: a forerunner of actuarial method), the trade-wind chart of 1686, and his argument that comets could move on elliptical orbits while Newton favoured parabolic ones (MacTutor). Several documented departures; priority claims rest on secondary biographers rather than on a survey of earlier work."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_halley_cook_odnb, src_halley_clerke_dnb1890, src_halley_breslau1693 | 1676-1693 | modern biography + Victorian DNB + his own paper] Cook says that in 1691, asked by the Royal African Company to attempt salvage of the lost frigate Guynie, he improved the diving bell and devised a diving suit with air supplied by a tube from the bell. Clerke says he improved the sextant on the voyage to St Helena. In 1693 he worked around the missing census of Breslau by inferring the population from the age-at-death table (his own paper). Cook adds the estimate of the size of gold atoms from gilded wire. Several documented improvisations around a missing instrument, count or means, from independent sources."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE (2026-10-10, wbgetentities): Q47434 en label 'Edmond Halley', description 'English astronomer, mathematician, geophysicist, meteorologist and physicist (1656-1742)', ko label '에드먼드 핼리', human; slug absent from prod_slugs.txt and candidates. CLASSIFICATION: fields natural_science and mathematics only. Exploration was considered (Atlantic cruises 1698-1700 had an order to look for land south of the western ocean) but left out as the voyages were a magnetic survey and he is not primarily an explorer; physics left out as unsupported by the sources read. Region western_europe, nationality GB, era early_modern as for Isaac Newton. Tags polymath and field_researcher exist in vocabulary. EVIDENCE READ (8 substantive + 1 orientation): Cook's ODNB article (full; modern biographer), Clerke's 1890 DNB article (full), MacTutor biography (full, quotes Flamsteed and Hearne), University of Glasgow Flamsteed exhibition page (full), Fine Books/Linda Hall account of Flamsteed's 1712 edition (full), Halley's own 1693 Breslau paper (Internet Archive OCR, read in full), Nauenberg 2005 and Chin 2021 (passages naming Halley only). PERSPECTIVES: self (Breslau paper, never sole support); independent modern biographer (Cook); Victorian admiring/critical (Clerke, who also records Grant's and Bradley's criticisms); Flamsteed side/adversary (Glasgow, Linda Hall, Flamsteed quotes in MacTutor); Hooke side (Nauenberg, Chin). NON-SELF behavioural sources: all but the Breslau paper. NOT ACCESSED: Cook's book, Ronan's Genius in Eclipse, Armitage, the Flamsteed and Newton correspondence volumes, Hooke's diary, Biographia Britannica (only as cited by Cook), Aubrey's Brief Lives (no Halley entry on Wikisource; MacTutor link page not found), Royal Society, NPG and loc.gov pages (bot-walled or JavaScript-gated: not bypassed), Halley's own 1705 Synopsis and Halley's 1716 transit-of-Venus paper (not opened; their content rests on Cook, Clerke and MacTutor). EPISODE USE: St Helena 1676 -> proactive_agency, risk_tolerance; Newton visit and Principia -> proactive_agency, collaboration, persuasiveness; Danzig and Cassini -> collaboration; 1712 Flamsteed catalogue and Hooke relay -> conflict_tolerance; Breslau, eclipses, comets, gold atoms -> analytical_rigor; haste and registration criticisms -> detail_orientation; charts and magnetic theory -> systems_abstraction, creative_originality; diving bell, sextant, census workaround -> resourcefulness; saros -> persistence; wide topics -> cross_domain_range, curiosity. LEFT UNSCORED: leadership_drive (naval command is an incidental role under the zero-politics rule and the first Paramour cruise's discord is a complication), social_assertiveness, risk of religious views (his alleged atheism is thin per Cook and is not scored), achievement_drive (honours not behaviour), belief_updating, independent_thinking (comets-versus-Newton is one instance only), planning_orientation, decisiveness. EXCLUDED ON PURPOSE: Chester mint deputy post and Adriatic fortification mission (incidental state service), his father's death and family matters, his own death and later paralysis, the 'atheism' charge, and the unverified legends about the diamond ring beyond Cook's remark. CONFLICTS REPORTED: Clerke says he passed his life 'without becoming involved in a single controversy', which the Flamsteed and Hooke material contradicts, so that claim is not used; Clerke says Halley was poor in 1686 while Cook gives an income above 150 pounds a year; birth date 29 Oct (Cook, probable) vs 8 Nov (Wikidata, Clerke) so the birth year only is used; the first sighting of the returning comet is 25 Dec 1758 (Clerke, MacTutor) vs 1759 (Cook). PORTRAIT: The Wikidata image (NPG 4393, oil by Richard Phillips, before 1722) was NOT used because the NPG item page is bot-walled (Cloudflare challenge) so its live rights notice could not be checked, and the Commons PD-Art tag alone is insufficient under the stronger rights rule. The bust photograph (Commons, PD-self) is a 1904 bust photographed in 2006, not a likeness from life. A Library of Congress halftone of the Vertue engraving was rejected because the date of the halftone reproduction is unrecorded. CHOSEN: John Faber's 1722 mezzotint after Thomas Murray (1712), Wellcome Collection Iconographic Collections ICV 2725 (V0002531), via Commons (CC BY 4.0 per Wellcome at upload); the sheet carries its own inscription ('T. Murray pinx. 1712', 'John Faber fecit 1722') and Halley's name and titles, so it is identified and dated by the print itself. Basis: print published in London in 1722, hence public domain by publication date, faithful 2D reproduction. CAVEAT FOR REVIEW: the live Wellcome catalogue (api.wellcomecollection.org, work fwkuueez) currently lists only a closed-store physical item and no online image or licence, so the CC BY 4.0 grant could not be re-verified at the source; the claim rests on the 1722 publication date and the Commons record. Resized from 2358x3299 to 1144x1600 (downsized, not upscaled; q85); file opened and viewed. Kind historical depiction (engraving after a painting, not a drawing from life). No eligibility, coverage or match output was used in scoring; scores and confidences were fixed before the validator was run."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에드먼드 핼리"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/edmond-halley-faber-1722.jpg",
+    "width": 1144,
+    "height": 1600,
+    "source": "Mezzotint 'Edmundus Halleius, Astronomus Regius et Geometriae Professor Savilianus' by John Faber, 1722, after Thomas Murray's portrait of 1712, Wellcome Collection (Iconographic Collections), via Wikimedia Commons",
+    "license": "Public domain (print published in London in 1722); the Wellcome Collection scan was released under CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "John Faber (engraver) after Thomas Murray; Wellcome Collection (credit line: Wellcome Collection, CC BY 4.0)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Edmund_Halley._Mezzotint_by_J._Faber,_1722,_after_T._Murray,_Wellcome_V0002531.jpg",
+    "creator": "John Faber, engraver, after a painting by Thomas Murray",
+    "date": "1722",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Edmund_Halley._Mezzotint_by_J._Faber,_1722,_after_T._Murray,_Wellcome_V0002531.jpg"
+  }
+}

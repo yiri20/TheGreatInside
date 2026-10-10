@@ -1,0 +1,221 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-lennon",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John Lennon",
+    "wikidataId": "Q1203",
+    "birthYear": 1940,
+    "deathYear": 1980,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lennon_wikidata",
+      "kind": "wikidata",
+      "title": "John Lennon (Q1203) -- verified live via wbgetentities (2026-10-10): en label 'John Lennon', description 'British musician (1940-1980)', born 9 Oct 1940, died 8 Dec 1980, citizenship United Kingdom, instance of human, ko label '존 레논'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1203"
+    },
+    {
+      "id": "src_lennon_wenner1970",
+      "kind": "press",
+      "title": "Jann S. Wenner (Rolling Stone), 'Lennon Remembers, Part One and Part Two', interview recorded in New York on 8 December 1970 and published by Rolling Stone, Wayback Machine copy on archive.org -- SELF source (Lennon's own account, given while angry with the Beatles' business affairs and promoting his first solo album; he disputes and overstates in places). Read the full Part One text and the passages on the Beatles' studio work, Hamburg, the writing partnership, Rubber Soul, Phil Spector, the Let It Be sessions and the end of the group; Part Two was only searched, not read in full. Used for his own description of his work and for the 1969 meeting, never as the only support for a row.",
+      "url": "https://archive.org/details/lennon-remembers-interview"
+    },
+    {
+      "id": "src_lennon_bb_tomorrow",
+      "kind": "archive",
+      "title": "The Beatles Bible, 'Tomorrow Never Knows' song page, parts 1 and 2 (beatlesbible.com) -- COMPILER of dated quotations from Barry Miles (Many Years From Now), Paul McCartney, George Harrison and Ringo Starr (Anthology), Mark Lewisohn (The Complete Beatles Recording Sessions, quoting engineer Geoff Emerick), George Martin and David Sheff, with Lennon's own remarks. The books themselves were not opened; what is relied on are the quoted words of the people present at the April 1966 sessions. Read both parts in full.",
+      "url": "https://www.beatlesbible.com/songs/tomorrow-never-knows/2/"
+    },
+    {
+      "id": "src_lennon_pmp_strawberry",
+      "kind": "archive",
+      "title": "The Paul McCartney Project, session page 'Mixing Strawberry Fields Forever' (22 December 1966) -- compiler page quoting, in separate extracts, engineer Geoff Emerick (Here, There and Everywhere, 2006) and producer George Martin (All You Need Is Ears, 1979, and With A Little Help From My Friends, 1995) on the joining of two takes of Lennon's song. Two independent insider accounts that differ in detail (semitone or whole tone, which take). Read in full; the books were not opened.",
+      "url": "https://www.the-paulmccartney-project.com/session/recording-strawberry-fields-forever-7/"
+    },
+    {
+      "id": "src_lennon_bb_strawberry",
+      "kind": "archive",
+      "title": "The Beatles Bible, 'Strawberry Fields Forever' song page, part 1 (beatlesbible.com) -- compiler page with quoted Lennon (1980, to David Sheff), Paul McCartney, Mike Pinder and engineer Jerry Boys; used only for the November 1966 demo and Mellotron context. Part 1 read; part 2 was not read.",
+      "url": "https://www.beatlesbible.com/songs/strawberry-fields-forever/"
+    },
+    {
+      "id": "src_lennon_classical_music_meet",
+      "kind": "press",
+      "title": "Paul McGuinness, 'One sultry July day that changed the world: the true story of how Lennon met McCartney', BBC Music Magazine / classical-music.com feature -- secondary retelling of 6 July 1957 at Woolton that draws on Hunter Davies's authorised biography, Paul McCartney and Lennon's own recollection, and records that Pete Shotton's account of the invitation differs from Lennon's. Read in full; the underlying books were not opened.",
+      "url": "https://www.classical-music.com/rock/paul-meets-john"
+    },
+    {
+      "id": "src_lennon_bb_leave",
+      "kind": "archive",
+      "title": "The Beatles Bible, '20 September 1969: John Lennon reveals he is leaving The Beatles' (beatlesbible.com) -- compiler page giving the context of the EMI/Capitol renegotiation and quoting Lennon (1970, to Wenner), Paul McCartney and Ringo Starr (Anthology) on the Savile Row meeting. Three differing first-person accounts. Read in full.",
+      "url": "https://beatlesbible.com/1969/09/20/john-lennon-reveals-he-is-leaving-the-beatles"
+    },
+    {
+      "id": "src_lennon_pmp_leave",
+      "kind": "archive",
+      "title": "The Paul McCartney Project, article 'John Lennon tells the other Beatles he's leaving the band' (September 1969) -- compiler page with McCartney's 1984 Playboy interview, Lennon's 1969 and 1970 remarks and Kenneth Womack's Solid State (2019) on the weeks around the Toronto concert and the Plastic Ono Band's first single offer to the group. Read in full; the sensitive song-theme detail in it is not used.",
+      "url": "https://the-paulmccartney-project.com/1969/09/john-lennon-tells-the-other-beatles-hes-leaving-the-band"
+    },
+    {
+      "id": "src_lennon_mix_douglas",
+      "kind": "press",
+      "title": "Mix magazine, 'Classic Tracks: John Lennon and Yoko Ono's Watching the Wheels' (mixonline.com) -- trade-press interview with producer Jack Douglas on the secret 1980 Double Fantasy sessions: how Lennon chose musicians, wrote at home, sang live and worked in the studio. INDEPENDENT firsthand witness (the producer), recalling decades later. Read in full.",
+      "url": "https://www.mixonline.com/recording/classic-tracks/classic-tracks-john-lennon-and-yoko-onos-watching-wheels-366241"
+    },
+    {
+      "id": "src_lennon_rcm_doublefantasy",
+      "kind": "press",
+      "title": "Record Collector magazine, 'Lennon's last session: the making of Double Fantasy' -- oral-history feature built on Lennon's 1980 interview statements (Robert Hilburn and others) and recollections of the studio musicians and producer Jack Douglas (Ken Sharp's Starting Over and Tony Davilio's The Lennon Sessions). Read in full; used for the five-year break after 1975 and the 1980 session team.",
+      "url": "https://recordcollectormag.com/articles/lennons-last-session-the-making-of-double-fantasy"
+    },
+    {
+      "id": "src_lennon_bb_hamburg",
+      "kind": "archive",
+      "title": "The Beatles Bible, '17 August 1960: Live: Indra Club, Hamburg' (beatlesbible.com) -- compiler page on the first Hamburg engagement (48 nights, contracted hours) with George Harrison's Anthology recollection. Read in full. Group-level evidence; not used for a scored row.",
+      "url": "https://www.beatlesbible.com/1960/08/17/live-indra-club-hamburg/"
+    },
+    {
+      "id": "src_lennon_jstor_hamburg",
+      "kind": "institution",
+      "title": "Matthew Wills, 'The Beatles Got Started in Hamburg. There's a Reason for That', JSTOR Daily (17 August 2020), summarising historian Julia Sneeringer's article on Hamburg's Reeperbahn in Central European History 42 (2009) -- independent scholarly context for the 1960-62 Hamburg engagements (about 1,100 hours over four stays). Read in full; the underlying article was not opened.",
+      "url": "https://daily.jstor.org/the-beatles-got-started-in-hamburg-theres-a-reason-for-that/"
+    },
+    {
+      "id": "src_lennon_bb_imagine",
+      "kind": "archive",
+      "title": "The Beatles Bible, 'Imagine (album)' page, part 1 (beatlesbible.com) -- compiler page giving recording dates, producers and personnel of the 1971 album and quoting Lennon (1980, to Sheff; 1971, Crawdaddy). Read part 1; part 2 was only downloaded.",
+      "url": "https://www.beatlesbible.com/people/john-lennon/albums/imagine/"
+    },
+    {
+      "id": "src_lennon_shof",
+      "kind": "institution",
+      "title": "Songwriters Hall of Fame, John Lennon profile (institutional biography; read in full)",
+      "url": "https://www.songhall.org/profiles/john-lennon"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lennon_bb_tomorrow, src_lennon_pmp_strawberry | April 1966 and Nov-Dec 1966 | compiled quotations from engineer Emerick, producer Martin, McCartney and Starr; insider accounts, not self] For 'Tomorrow Never Knows' Lennon asked the engineers for a voice like the Dalai Lama chanting from a hilltop (Martin); the answer, running his vocal through a revolving organ speaker, was tried (Martin: 'I don't think anyone had done that before'; Emerick: the speaker had to be wired into the circuit), and the track was built on one chord and a live mix of six tape loops (Starr, Martin). For 'Strawberry Fields Forever' he proposed joining the start of one finished take to the end of a differently-keyed, differently-paced remake (Emerick and Martin, whose two books agree on the request and disagree on details), which Martin and Emerick achieved by varying tape speed. Specific, dated, multi-witness instances of him pushing a new sound and leaving the method to the engineers. Not higher: the technical solutions were largely the engineers' and McCartney's (loops), and Lennon himself judged the Tomorrow Never Knows result short of his idea."
+    },
+    "perfectionism": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_lennon_pmp_strawberry, src_lennon_bb_tomorrow, src_lennon_mix_douglas | Nov 1966-Dec 1966, April 1966, 1980 | producer and engineer accounts plus Lennon's own remark] After three days the band had a take of 'Strawberry Fields Forever' they considered finished; Lennon, not satisfied, had the song remade over four more sessions and then, still unsure, asked to join parts of both (Emerick, Martin). He later said he should have tried to get closer to his original idea of chanting monks on 'Tomorrow Never Knows' (Lennon to Hunter Davies). Against this, producer Douglas says that in 1980 Lennon did three or four band takes, 'would get bored and want to move on' and left comping to him, and Martin says that if an idea did not come together quickly he 'tended to wander off and lose interest'. So a high standard for what the track should be, held alongside impatience with refinement; moderate score and confidence."
+    },
+    "execution_speed": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_lennon_pmp_strawberry, src_lennon_mix_douglas, src_lennon_wenner1970 | 1966-1970, 1980 | producer Martin and producer Douglas (independent) plus Lennon's own account] Martin writes that once Lennon had an idea 'it had to be captured quickly' and that he lost interest if it did not materialise in very short order; Douglas describes three or four live band takes per song in 1980 before Lennon moved on. Lennon says he wrote 'Instant Karma' in the morning, booked the studio and recorded it in about three takes the same day (self account, 1970). Consistent across two decades and three witnesses. dual_edged because the same speed shortened refinement; not scored higher because the Strawberry Fields work and Revolver show long sessions as well."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.53,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lennon_classical_music_meet, src_lennon_pmp_strawberry, src_lennon_mix_douglas, src_lennon_wenner1970, src_lennon_bb_leave | 1957-1980 | secondary retelling, producers' accounts, Lennon and McCartney first-person] In 1957 he took in a younger player he thought as good as himself and, by Lennon's account, invited him to join (Shotton's version is a week later via a message). He brought technical problems to Martin and Emerick and trusted them with the solution; in 1980 Douglas found him 'one of the easiest artists I ever produced', arriving, doing his takes and leaving comping to the producer. Against this, he says that apart from the earliest songs he and McCartney 'wrote apart always', and in September 1969 he met each of McCartney's proposals with 'No, no, no' before announcing he was leaving. A willing, trusting collaborator in the studio, unwilling when he had ceased to want the shared project; moderate."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_lennon_pmp_leave, src_lennon_bb_leave, src_lennon_rcm_doublefantasy | 1969-1980 | his own statements, McCartney and Starr's Anthology accounts, magazine oral history] In autumn 1969 the other Beatles were not ready to record a single he had written; he said 'Bugger you, I'll put it out myself' and released it under the Plastic Ono Band name. On 20 September 1969 he told McCartney and Starr he was leaving; McCartney recalls that Lennon 'had control of the situation', and Starr that Lennon was 'always the most forward when it came to nailing anything'. After his last 1975 album he stepped away from recording for about five years, in his own words with no time limit in mind. Documented over a decade from several voices (McCartney is hurt by it, Starr more matter-of-fact). dual_edged: independence of this kind also ended the group."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lennon_bb_leave, src_lennon_mix_douglas | 1969, 1980 | McCartney and Starr's accounts, producer Douglas] Telling the group he was leaving, at the point the new EMI/Capitol contract had just been signed and with the group's commercial position very strong (Beatles Bible's contract context), and, in 1980, returning after five years with a deliberately softer 'mature' sound, telling the producer 'we're going to get all kinds of grief about this, that I've lost my edge' (Douglas). Two dated cases of knowingly accepting public disapproval, both told by third parties; the business downside is not documented from Lennon's side, so confidence stays moderate."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_lennon_bb_leave, src_lennon_pmp_leave, src_lennon_bb_imagine | 1969-1971 | first-person accounts from Lennon, McCartney and Starr; compiler page for 1971] At the 20 September 1969 meeting he answered McCartney's proposals with repeated 'No', then said 'The group's over, I'm leaving' although Klein had asked him not to say it; McCartney calls it 'the really hurtful thing' that Lennon did not mean to tell them, while Starr describes the meeting as 'not sulky' and not really fighting. In 1971 he wrote a song aimed at McCartney and defended it as an 'angry letter, sung' (Lennon to Crawdaddy). Open confrontation in the working relationship, documented from three sides who disagree on tone; dual_edged and moderate confidence."
+    },
+    "decisiveness": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_lennon_bb_leave, src_lennon_pmp_strawberry | Sept 1969, Dec 1966 | McCartney, Starr, Lennon, Martin] Starr: Lennon 'was always the most forward when it came to nailing anything'; McCartney: 'good old John -- he had to blurt it out'. In December 1966 he settled on his preferred structure for 'Strawberry Fields Forever' and gave Martin the task, 'You can do it', leaving. Decisions announced quickly, and sometimes ahead of plan (the 1969 announcement came earlier than agreed). Two witnesses to the style; the Strawberry Fields case is a request more than a decision, so moderate score and confidence."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lennon_classical_music_meet, src_lennon_wenner1970, src_lennon_bb_leave | 1957-1969 | secondary retelling of Davies/Lewisohn material, Lennon's own account, McCartney and Starr] He started and led the Quarry Men and, by his own and Shotton's accounts, was the one who decided to ask McCartney in (the two differ on how); Lennon says 'I met Paul, and said, You want to join me band?'. Twelve years later he was still the one who ended the group's life ('Let's end it', Starr; 'I'm leaving', Lennon). Founder-and-first-decider evidence, not a record of managing people; moderate."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lennon_mix_douglas, src_lennon_rcm_doublefantasy, src_lennon_wenner1970 | 1966-1980 | producer Douglas, magazine oral history, Lennon's 1970 account] Lennon says the group learned to use the studio itself from Rubber Soul on; after the five-year break he told Douglas he wanted a mature, soft sound rather than a rock record, rejected the old Plastic Ono Band session players for New York session players, and asked for contemporaries who understood 1950s music. Two shifts in method told by Lennon and a producer, both about his own recording approach; modest score and confidence because the material is mostly his stated intentions."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 레논"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE 2026-10-10 via wbgetentities: Q1203 en label 'John Lennon', description 'British musician (1940-1980)', born 9 Oct 1940, died 8 Dec 1980, citizenship United Kingdom, ko label '존 레논'. 12 source records read (compiler pages that quote Lewisohn, Emerick, Martin, McCartney, Starr and Barry Miles; Lennon's own Wenner interview; producer Jack Douglas on 1980; JSTOR summary of Sneeringer). INDEPENDENT PERSPECTIVES: producer George Martin and engineer Geoff Emerick (two separate books, quoted), Paul McCartney (Anthology, Playboy 1984), Ringo Starr (Anthology), producer Jack Douglas (Mix), Julia Sneeringer via JSTOR Daily; self: Lennon (Wenner 1970, Sheff 1980, Hunter Davies). BOOKS NOT OPENED: Mark Lewisohn's Tune In and The Complete Beatles Recording Sessions, Philip Norman's John Lennon: The Life, Geoff Emerick's Here, There and Everywhere, George Martin's All You Need Is Ears, Brian Epstein's A Cellarful of Noise, Barry Miles's Many Years From Now, Pete Shotton, Ray Coleman (all borrow-only or paywalled; their words are used only as quoted on compiler pages). Contemporary Rolling Stone 1968-70 reviews were not located. Compiler pages (Beatles Bible, Paul McCartney Project) reprint quotations from the same books, so quotations from one book are counted as one voice. EXCLUDED by rule: childhood, family, relationships (Yoko Ono, Cynthia, May Pang), drug use, the 'lost weekend', his death, and political activity (peace activism, Bed-Ins, US immigration case); the Double Fantasy sessions are used only for documented 1980 working method. Wenner interview used for work facts only. Caveat: Lennon's own Wenner interview was given in anger at the Beatles' business situation; the McCartney 1984 account is hostile to Klein. Scores are capped under 77 and confidence at 0.66 because most behavioural detail comes through compiler pages. 'Imagine' title-track lyrics and Lennon's later political songs are deliberately not scored."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-lennon-anefo-1969.jpg",
+    "width": 670,
+    "height": 920,
+    "source": "Nationaal Archief, Fotocollectie Anefo, record 922-2494 (photograph taken at Schiphol airport, 31 March 1969); tightly cropped from the 2410 x 3672 original file on Wikimedia Commons, with other people and the second subject removed",
+    "license": "CC0 1.0 Public Domain Dedication (Nationaal Archief record states rights holder 'Nationaal Archief, CC0')",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photograph by Joost Evers / Anefo, Nationaal Archief (CC0; credit not required, given as a courtesy); cropped and converted to greyscale JPEG",
+    "attributionUrl": "http://proxy.handle.net/10648/ab63fd72-d0b4-102d-bcf8-003048976d84",
+    "creator": "Joost Evers / Anefo",
+    "date": "1969-03-31",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab63fd72-d0b4-102d-bcf8-003048976d84"
+  }
+}

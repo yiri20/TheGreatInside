@@ -1,0 +1,265 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "lionel-messi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Lionel Messi",
+    "aliases": [
+      "Leo Messi",
+      "Lionel Andres Messi"
+    ],
+    "wikidataId": "Q615",
+    "birthYear": 1987,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "AR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "prodigy",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_messi_wikidata",
+      "kind": "wikidata",
+      "title": "Lionel Messi (Q615) -- verified live via the Wikidata API (2026-10-10): English label 'Lionel Messi', description 'Argentine association football player (born 1987)', born 24 June 1987, no date of death, instance of human, citizenship Argentina, Spain and Italy. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q615"
+    },
+    {
+      "id": "src_messi_espn_oral",
+      "kind": "press",
+      "title": "Alex Kirkland, 'Oral history: How Argentina won the 2022 World Cup, as told by Messi, Mac Allister & Co.', ESPN, 18 December 2023 -- ESPN interviews with ten Argentina squad members for the series 'Champions, One Year On' (Messi, Di Maria, Fernandez, De Paul, Otamendi, Martinez and others). MIXED self and teammate voices in an independent outlet's frame; Messi's own words are first-hand, the teammates' words are first-hand observations about him. Read in full.",
+      "url": "https://global.espn.com/football/story/_/id/39121682/how-argentina-won-2022-world-cup-their-own-words"
+    },
+    {
+      "id": "src_messi_fifa_scaloni",
+      "kind": "institution",
+      "title": "FIFA Technical Study Group, 'Argentina coach Lionel Scaloni talks to Coaches Forum about FIFA World Cup campaign', fifa.com, 9 May 2023 -- the Argentina head coach's own account (via FIFA) of the 2022 campaign, including how the staff built the team around Messi. Manager perspective, official source. Read in full.",
+      "url": "https://www.fifa.com/technical/news/argentina-coach-lionel-scaloni-talks-to-coaches-forum-about-fifa-world-cup-campaign"
+    },
+    {
+      "id": "src_messi_guardian_wilson",
+      "kind": "press",
+      "title": "Jonathan Wilson, 'Messi's exit leaves Argentina with impossible task of replacing their superhero', The Guardian, 26 September 2026 -- independent tactical and historical column on Messi's two international 'halves', the 2016 retirement and return, and his effect on the team. Opinion column; read in full.",
+      "url": "https://www.theguardian.com/football/2026/sep/26/lionel-messi-exit-argentina-impossible-task-superhero"
+    },
+    {
+      "id": "src_messi_guardian_opta",
+      "kind": "press",
+      "title": "Ryan Benson (Opta Analyst), 'Lionel Messi has completed football and can bid Argentina farewell with pride', The Guardian, 6 October 2026 -- statistics-led retrospective of his Argentina career, quoting his 2016 statement and tracing the Scaloni era. Independent analysis; read in full.",
+      "url": "https://www.theguardian.com/football/2026/oct/06/lionel-messi-completed-football-argentina-farewell-world-cup-glory"
+    },
+    {
+      "id": "src_messi_guardian_rueter",
+      "kind": "press",
+      "title": "Jeff Rueter, 'Lionel Messi in his 30s was one of the best international players ever', The Guardian, 1 September 2026 -- analysis of the decade after his 2016 retirement and return. Independent; read in full.",
+      "url": "https://www.theguardian.com/football/2026/sep/01/lionel-messi-argentina-international-career"
+    },
+    {
+      "id": "src_messi_guardian_retire",
+      "kind": "press",
+      "title": "Billy Munday, 'Argentina's Lionel Messi retires from international football: This hurts me a lot', The Guardian, 31 August 2026 -- news report quoting his written retirement statement and teammates' tributes. Family and health details in the report were not used. Read in full.",
+      "url": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina"
+    },
+    {
+      "id": "src_messi_guardian_afp",
+      "kind": "press",
+      "title": "Agence France-Presse, 'Lionel Messi describes ending Argentina career as his saddest day in football', The Guardian, 7 October 2026 -- report of his final Argentina match (3-0 against Benin, 6 October 2026) and his words to the crowd. Read in full.",
+      "url": "https://www.theguardian.com/football/2026/oct/07/lionel-messi-ends-argentina-career-saddest-day"
+    },
+    {
+      "id": "src_messi_guardian_fine",
+      "kind": "press",
+      "title": "PA Media, 'Lionel Messi fined for slapping opposition player in MLS game', The Guardian, 22 August 2026 -- short news report of an MLS disciplinary fine (Inter Miami v Philadelphia Union, 19 August 2026), quoting the league's statement. Dated professional event only; read in full.",
+      "url": "https://www.theguardian.com/football/2026/aug/22/lionel-messi-fine-slapping-opposition-player-quinn-sullivanmls-soccer-football"
+    },
+    {
+      "id": "src_messi_guardian_iglesias",
+      "kind": "press",
+      "title": "Pablo Iglesias Maurer, 'Lionel Messi's international retirement serves as a reminder: watch him while you still can', The Guardian, 31 August 2026 -- column on his Inter Miami years and influence at the club. Personal and family passages deliberately not used. Read in full.",
+      "url": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can"
+    },
+    {
+      "id": "src_messi_goal_burofax",
+      "kind": "press",
+      "title": "Goal, 'Why did Messi use a burofax to tell Barcelona he wanted to leave?', 27 August 2020 -- explainer on the August 2020 formal notice of intent to leave, the contract-clause dispute, and the preceding conflicts with the club board (reported from club sources). Read in full.",
+      "url": "https://www.goal.com/en/news/lionel-messi-burofax-barcelona-star-transfer-demands-boardroom-betrayal/1fe0lkdcyjf6114gm0p9hfc1zt"
+    },
+    {
+      "id": "src_messi_aljazeera_2020",
+      "kind": "press",
+      "title": "Al Jazeera, ''Club of my life': Messi to stay at Barcelona for another year', 4 September 2020 -- news-agency report of his Goal.com interview: he stayed rather than go to court, and called the club's management a disaster. Also gives his Barcelona totals to that date. Read in full.",
+      "url": "https://www.aljazeera.com/amp/sports/2020/9/4/club-of-my-life-messi-to-stay-at-barcelona-for-another-year"
+    },
+    {
+      "id": "src_messi_footballespana_paycut",
+      "kind": "press",
+      "title": "Colin Millar, 'Barcelona and Lionel Messi confirm players accept wage cut of over 70%', Football Espana, 30 March 2020 -- report quoting Messi's Instagram statement on the 2020 pandemic wage reduction and his criticism of the club's handling. Read in full.",
+      "url": "https://www.football-espana.net/2020/03/30/barcelona-lionel-messi-confirm-players-accept-wage-cut-above-70-percent"
+    },
+    {
+      "id": "src_messi_footballespana_2021",
+      "kind": "press",
+      "title": "Alan Feehely, 'Lionel Messi: Last year I wanted to leave, this year I didn't. That's why I'm sad', Football Espana, 8 August 2021 -- report and quotations from his farewell press conference at Camp Nou, including the 2021 Copa America result. Read in full.",
+      "url": "https://www.football-espana.net/2021/08/08/lionel-messi-last-year-i-wanted-to-leave-this-year-i-didnt-thats-why-im-sad"
+    },
+    {
+      "id": "src_messi_goal_miami",
+      "kind": "press",
+      "title": "Thomas Hindle, 'Lionel Messi revealed all on his decision to join Inter Miami', Goal, 7 June 2023 -- extracts from his own interview with SPORT and Mundo Deportivo on leaving Paris and not returning to Barcelona. FIRST-HAND (self) account relayed by an outlet; not independently verified. Read in full.",
+      "url": "https://www.goal.com/en/lists/lionel-messi-interview-snubbing-barcelona-leaving-psg-inter-miami-decision-al-hilal/blt39ffda53a1c21bb4"
+    },
+    {
+      "id": "src_messi_aljazeera_2016",
+      "kind": "press",
+      "title": "Al Jazeera, 'Lionel Messi reverses decision to quit Argentina team', 12 August 2016 -- report of his statement ending the retirement announced after the Copa America Centenario final. Read in full.",
+      "url": "https://www.aljazeera.com/sports/2016/8/12/lionel-messi-reverses-decision-to-quit-argentina-team"
+    },
+    {
+      "id": "src_messi_cnbc_2016",
+      "kind": "press",
+      "title": "Arjun Kharpal, 'Lionel Messi retires from Argentina squad after missing penalty in Copa America final', CNBC, 27 June 2016 -- news report with his immediate post-match words. Read in full.",
+      "url": "https://www.cnbc.com/2016/06/27/lionel-messi-retires-from-argentina-squad-after-missing-penalty-in-copa-america-final.html"
+    },
+    {
+      "id": "src_messi_aljazeera_2014",
+      "kind": "press",
+      "title": "Al Jazeera (news agencies), 'Messi breaks Champions League scoring record', 26 November 2014 -- report of his hat-trick at APOEL Nicosia and the La Liga record set three days earlier. Read in full.",
+      "url": "https://www.aljazeera.com/sports/2014/11/26/messi-breaks-champions-league-scoring-record"
+    },
+    {
+      "id": "src_messi_gwr_ballon",
+      "kind": "award_body",
+      "title": "Guinness World Records, 'Most wins of the Ballon d'Or' -- record entry: 8, by Lionel Messi in 2009-12, 2015, 2019, 2021 and 2023 (ceremony in Paris, 30 October 2023). Used for the award fact only, not as trait evidence. Read in full.",
+      "url": "https://www.guinnessworldrecords.com/world-records/102717-most-wins-of-the-ballon-dor"
+    },
+    {
+      "id": "src_messi_tsn_ballon",
+      "kind": "press",
+      "title": "TSN.ca staff, 'Messi wins record eighth Ballon d'Or', 30 October 2023 -- news report of the 2023 ceremony. Award fact only. Read in full.",
+      "url": "https://www.tsn.ca/soccer/argentina-and-inter-miami-forward-lionel-messi-wins-eighth-ballon-d-or-1.2028774"
+    },
+    {
+      "id": "src_messi_goal_scaloni",
+      "kind": "press",
+      "title": "Gill Clark, 'Power struggle in the Argentina camp? Lionel Messi tension led to shock exit hint from Lionel Scaloni', Goal, 6 December 2023 -- brief report that relays an earlier report by The Athletic (not read directly) about Messi leading his team off the pitch before the November 2023 qualifier against Brazil without consulting the coach. Second-hand and unverified; used with low weight. Read in full.",
+      "url": "https://www.goal.com/en-ug/lists/argentina-lionel-messi-tension-exit-hint-lionel-scaloni-inter-miami-superstar-agitated-manager-world-cup-qualifying-brazil/blt4764bc8e8f734d81"
+    },
+    {
+      "id": "src_messi_elgrafico_olympics",
+      "kind": "press",
+      "title": "Redaccion El Grafico, 'El detras del oro: por que Lionel Messi no se perdio los Juegos Olimpicos', El Grafico (Argentina), 24 June 2024 -- Spanish-language report of Messi's own recollection (to the Clank programme) of Guardiola's 2008 decision to let him go to the Beijing Olympics. Self-account relayed by an outlet. Read in full.",
+      "url": "https://www.elgrafico.com.ar/articulo/lionel-messi/78548/el-detras-del-oro-por-que-lionel-messi-no-se-perdio-los-juegos-olimpicos"
+    },
+    {
+      "id": "src_messi_balague_bleacher",
+      "kind": "press",
+      "title": "Guillem Balague, 'Football Writers' Week: Guillem Balague on Writing Lionel Messi's Biography', Bleacher Report, 25 September 2014 -- the biographer's own account of how his authorised biography (Messi, Orion, 2013) was researched, with family editorial control and unlimited access to those around him. Used only to characterise that book; the book itself was NOT accessible and was not read.",
+      "url": "https://bleacherreport.com/articles/2211277-football-writers-week-guilem-balague-on-writing-lionel-messis-biography"
+    },
+    {
+      "id": "src_messi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Lionel Messi, English Wikipedia (API plain-text extract, retrieved 2026-10-10) -- orientation for dates and recent events only (including the 2026 World Cup final and his October 2026 international retirement, which were then confirmed in The Guardian pieces above). Not used as support for any row.",
+      "url": "https://en.wikipedia.org/wiki/Lionel_Messi"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_messi_espn_oral, src_messi_guardian_fine, src_messi_guardian_wilson | 2022-2026 | oral history with teammates + wire report + independent column] In the 2022 oral history Messi says he deliberately dribbled at Lewandowski in the group game and shrugged off his handshake because he was angry about a remark, and that he cupped his ears at the Dutch bench after a provocative quarter-final, then 'regretted it straight away'; his teammate Di Maria independently says that is how he reacts to being slighted. In August 2026 the MLS fined him for slapping an opponent after an elbow (PA report quoting the league), and Wilson reports Barcelona youth coaches' phrase for the teenage Messi 'getting the face on' when he decided to take a game over (second-hand anecdote). Instances span two decades of settings and are corroborated by teammates and a disciplinary record, but they are a handful of episodes, and the behaviour cut both ways (regret, a fine), hence dual_edged and below 80."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_messi_cnbc_2016, src_messi_aljazeera_2016, src_messi_guardian_rueter, src_messi_guardian_wilson, src_messi_guardian_opta | 2014-2022 | news reports + three independent analysis pieces] After losing the 2014 World Cup final and two successive Copa America finals he announced on the night of the 2016 final that the national team was over for him ('I tried many times'), then reversed within about six weeks, stating he 'gave serious thought to quitting' but preferred to help from within. The Guardian's Rueter, Wilson and Opta analyst all present the decade that followed (a poor 2018 World Cup, then 2021 Copa America, 2022 World Cup, 2024 Copa America) as continued effort through repeated failure. The 2016 episode is also a quit and was reversed after a public campaign, so the pattern is inferred from the arc rather than a single documented act of grinding on; not scored higher."
+    },
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_messi_elgrafico_olympics, src_messi_cnbc_2016, src_messi_goal_burofax, src_messi_espn_oral | 2008-2022 | self-accounts relayed by outlets + club-sourced report] In 2008 he sulked in Barcelona training because he wanted to play in the Beijing Olympics, and Guardiola let him go (Messi's own account, repeated in two 2019-2024 retellings). In 2016 he said missing out on a title 'hurts me more than anyone'. In 2020 Goal reports he told the new coach he had no faith in the club's project after the 8-2 Champions League defeat, and in 2022 he described the World Cup as the dream he wanted to fulfil. Mostly his own statements, so strong_inference; an outlet's report of a private meeting is second-hand."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_messi_goal_burofax, src_messi_aljazeera_2020, src_messi_goal_miami, src_messi_guardian_iglesias | 2020-2023 | club-sourced report + wire report + self-interview + independent column] In August 2020 he formally notified Barcelona he wanted to leave (burofax) but stayed a year rather than litigate. In 2023, in his own words to SPORT and Mundo Deportivo, he declined to wait on Barcelona's finances because he 'wanted to make my own decision' rather than 'leaving my future in someone else's hands'. The Guardian's Iglesias writes that he effectively runs the show at Inter Miami (columnist's characterisation). Two decisions of the same kind, one self-reported; moderate lean only."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_messi_footballespana_paycut, src_messi_goal_burofax, src_messi_aljazeera_2020, src_messi_footballespana_2021, src_messi_espn_oral | 2020-2022 | news reports + self-interview + teammate account] He publicly criticised people inside Barcelona in the March 2020 statement, challenged a club official over public criticism of players (reported by Goal), and in September 2020 called club management a disaster, yet declined to take the club to court and, at his 2021 farewell, said 'I can't speak for the club' rather than argue the La Liga dispute. Di Maria describes him as someone who 'keeps things bottled up' and then expresses it in an interview or on the pitch. A selective, indirect confrontation style rather than a clear high or low, so the score stays near the middle."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_messi_espn_oral, src_messi_fifa_scaloni, src_messi_guardian_opta, src_messi_goal_scaloni | 2022-2023 | teammate oral history + coach account + analyst + second-hand report] After the shock defeat to Saudi Arabia in 2022 Messi says he waited a day and then sent a message to the group; Fernandez describes the follow-up team meeting. Scaloni says the staff built the side to let Messi play his football. The Opta analyst describes the squad taking on his defensive work. Goal, relaying The Athletic, says he led the team off the pitch in November 2023 without consulting the coach (unverified, second-hand). Leadership is shown mostly through example and selected interventions rather than a documented drive to run things, hence a moderate score."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_messi_footballespana_paycut, src_messi_espn_oral | 2020-2022 | news report quoting his statement + oral history] In March 2020 his statement said the first-team players would accept the 70 percent wage cut and add contributions so that all club employees kept 100 percent of pay. After the 2022 Saudi defeat he describes telling the group there was no need to throw blame at each other and to continue as before. Two instances of group-oriented action, both partly self-described; kept modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "리오넬 메시"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q615 returned en label 'Lionel Messi', description 'Argentine association football player (born 1987)', born 24 Jun 1987, no death date, instance of human. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. LIVING SUBJECT: only documented public professional behaviour is scored; health (including the childhood growth-hormone treatment), family (including his father's death in 2026), tax case, relationships and motives were deliberately excluded. Region latin_america follows the Pele and Senna precedent. Perspectives: Messi himself (ESPN oral history, Goal interview extracts, 2016 and 2020 statements), teammates (Di Maria, Fernandez via ESPN), his coach Scaloni (FIFA), former coach Luis Enrique (praise only; not used for scoring), and independent journalists and analysts (Jonathan Wilson, Opta Analyst, Jeff Rueter, Pablo Iglesias Maurer in The Guardian; Goal; Al Jazeera). NOT ACCESSED: Guillem Balague's biography 'Messi' (the book itself), Jimmy Burns's 'Hand of God', Sid Lowe, Marti Perarnau and Graham Hunter long reads, The Athletic (paywalled; its November 2023 Messi-Scaloni report was only seen second-hand through Goal), and any Barcelona official site records. Sources are mostly news and analysis, with few long-form behavioural biographies available to the agent, so only seven rows are scored with confidence <= 0.62 and none above 76. Recent events (2026 World Cup final loss to Spain, retirement from Argentina on 6 October 2026 after a 3-0 win over Benin) were confirmed from The Guardian/AFP; the 2026 caps/goals totals differ slightly between outlets (125 vs 126 goals), so the editorial text avoids exact totals. The Ballon d'Or count rests on Guinness World Records plus TSN (the official Ballon d'Or site did not give a readable list). Awards are used as Achievement facts only, not as trait evidence."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/lionel-messi-berlin-2026.jpg",
+    "width": 1067,
+    "height": 1600,
+    "source": "Wikimedia Commons, 'Leo Messi Argentina v Egypt 7 July 2026-1.jpg' -- Bryan Berlin's own work, taken at the 2026 FIFA World Cup (WikiPortraits), uploaded 11 July 2026; resized from 3333 x 5000 pixels to 1067 x 1600 with no cropping",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Bryan Berlin (WikiPortraits), 7 July 2026, CC BY-SA 4.0, resized from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+    "creator": "Bryan Berlin",
+    "date": "2026-07-07",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
+  }
+}

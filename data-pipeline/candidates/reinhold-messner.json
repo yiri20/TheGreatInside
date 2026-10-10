@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "reinhold-messner",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Reinhold Messner",
+    "wikidataId": "Q189307",
+    "birthYear": 1944,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "writer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer",
+      "nonconformist",
+      "independent",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_messner_wikidata",
+      "kind": "wikidata",
+      "title": "Reinhold Messner (Q189307) -- verified live via wbgetentities (2026-10-10): en label 'Reinhold Messner', description 'Italian mountaineer, adventurer and explorer (born 1944)', ko label '라인홀트 메스너'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q189307"
+    },
+    {
+      "id": "src_messner_outside_schaffer2017",
+      "kind": "press",
+      "title": "Grayson Schaffer (Outside editor at large), 'The Men Who Really Conquered Everest', Outside, 15 September 2017 -- independent long-form reconstruction of the 1978 Everest climb and the later falling-out with Peter Habeler, based on new interviews with both men plus filmmaker Leo Dickinson, historian Maurice Isserman and John Roskelley, and on Messner's and Habeler's 1978-79 books. Read in full.",
+      "url": "https://www.outsideonline.com/outdoor-adventure/climbing/single-narrow-gasping-lung/"
+    },
+    {
+      "id": "src_messner_climbing_wejchert2022",
+      "kind": "press",
+      "title": "Michael Wejchert, 'Everest Made Them Famous -- And Destroyed Their Partnership', Climbing magazine, 6 October 2022 -- independent long-form profile of Messner and Habeler built on interviews with both (2020-21), with quotations from both men's books and from Dickinson; it overlaps with the Outside piece on the 1978 Everest episode (same sources), so the two are not counted as independent retellings of that one episode. Read in full.",
+      "url": "https://www.climbing.com/culture/everest-first-oxygenless-messner-habler"
+    },
+    {
+      "id": "src_messner_aaj_naked_mountain",
+      "kind": "institution",
+      "title": "Book review of Reinhold Messner, The Naked Mountain (The Mountaineers Books, 2003), American Alpine Journal (American Alpine Club, c. 2004) -- neutral institutional review that records the public dispute between Messner and members of the 1970 Nanga Parbat expedition, his legal responses, and the court injunctions on two teammates' books; the reviewer states he has not read the opposing accounts and that the facts cannot be settled. Read in full. Used only for the dated fact of the public dispute, not for the merits.",
+      "url": "https://publications.americanalpineclub.org/articles/12200444700/The-Naked-Mountain"
+    },
+    {
+      "id": "src_messner_aaj_antarctica",
+      "kind": "institution",
+      "title": "'Antarctica Traverse by Messner and Fuchs, 1989-1990', American Alpine Journal (American Alpine Club) -- short institutional expedition note stating that the pair crossed Antarctica 'entirely on their own power except for two supply depots' in 92 days; it includes an excerpt from Messner's own report (self-perspective) on sleds, roles and distance. Read in full.",
+      "url": "https://publications.americanalpineclub.org/articles/12199120402/Antarctica-Antarctica-Traverse-by-Messner-and-Fuchs-1989-1990"
+    },
+    {
+      "id": "src_messner_fuchs_explorersweb2016",
+      "kind": "press",
+      "title": "'1989: Arved Fuchs traversed Antarctica, with Messner (Interview)', ExplorersWeb, 31 October 2016 -- interview with Messner's Antarctic partner Arved Fuchs (independent firsthand perspective on how the partnership formed and how the crossing was navigated and supplied), with the interviewer's summary of Messner's own account of choosing a partner. Read in full.",
+      "url": "https://explorersweb.com/2016/10/31/1989-arved-fuchs-traversed-antarctica-with-messner-exweb-interview-2016-10-31-30886/"
+    },
+    {
+      "id": "src_messner_explorersweb_solo2020",
+      "kind": "press",
+      "title": "'Top Expeditions 1970-2020, #1: Messner Solos Everest', ExplorersWeb, 31 December 2020 -- specialist-press retelling of the 1980 solo ascent of Everest, quoting Messner, Tom Hornbein, Doug Scott and John Krakauer; admiring in tone and noting that the story that he brought his schedule forward to beat a rival solo attempt is 'as the story goes'. Read in full.",
+      "url": "https://explorersweb.com/2020/12/31/top-expeditions-1970-2020-1-messner-solos-everest/"
+    },
+    {
+      "id": "src_messner_thelocal_dpa2020",
+      "kind": "press",
+      "title": "'Like the moon landing: The Tyrolian who climbed Everest alone 40 years ago', The Local (Germany; based on a German Press Agency interview), 16 August 2020 -- news profile on the 40th anniversary of the solo ascent with Messner's own recollections and quotations from fellow climber Stefan Glowacz; notes that fans admire his daring and critics reproach his ambition and egoism. Read in full.",
+      "url": "https://www.thelocal.de/20200816/like-the-moon-landing-the-tyrolian-who-defeated-mt-everest-40-years-ago"
+    },
+    {
+      "id": "src_messner_abenteuerberg2024",
+      "kind": "press",
+      "title": "'Reinhold Messner is 80 -- Confrontation as an elixir of life', Adventure Mountain (abenteuer-berg.de), 17 September 2024 -- journalist's birthday profile (the author has interviewed him) summarising his climbing milestones, polar journeys and museums and describing him as polarising and outspoken. Read in full; its remarks on his private life were not used.",
+      "url": "https://abenteuer-berg.de/en/reinhold-messner-is-80-confrontation-as-an-elixir-of-life/"
+    },
+    {
+      "id": "src_messner_habeler_interview",
+      "kind": "press",
+      "title": "Interview with Peter Habeler, Active-Traveller (travel magazine) -- Habeler, Messner's climbing partner on Gasherbrum I and Everest in 1975-78, on the partnership, alpine style, and the 1978 climb; a firsthand independent partner perspective. Read in full.",
+      "url": "https://www.active-traveller.com/advice/interview-peter-habeler"
+    },
+    {
+      "id": "src_messner_guinness",
+      "kind": "institution",
+      "title": "Guinness World Records, 'First ascent of Everest without supplementary oxygen' -- record entry crediting Messner and Habeler with the first successful ascent of Everest without supplemental oxygen on 8 May 1978. Read in full (two short paragraphs).",
+      "url": "https://www.guinnessworldrecords.com/world-records/first-ascent-of-mt-everest-without-oxygen"
+    },
+    {
+      "id": "src_messner_suburban_kukuczka",
+      "kind": "press",
+      "title": "Andrew Szalay, 'Messner and Kukuczka: Two of the Greatest Climbers of All Time', The Suburban Mountaineer (climbing blog), 27 June 2013 -- personal-blog comparison of the race between Messner and Jerzy Kukuczka to climb all fourteen 8000-metre peaks; WEAK source, used only for the order of completion (Messner a year ahead) and the framing of the race, with the style comparison treated as the blogger's opinion. Read in full.",
+      "url": "https://suburbanmountaineer.com/2013/06/27/messner-and-kukuczka-two-of-the-greatest-climbers-of-all-time/"
+    },
+    {
+      "id": "src_messner_mmm_dolomites",
+      "kind": "institution",
+      "title": "'Messner Mountain Museums', Dolomites.org (regional tourism site, Alpe di Siusi / Val Gardena / Valle Isarco) -- tourism-board description of the six Messner Mountain Museums and the 1993 Sulden mini-museum from which they grew. Read in full; promotional in tone, used only for the dated facts.",
+      "url": "https://dolomites.org/things-to-do/messner-mountain-museums/"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_messner_outside_schaffer2017, src_messner_explorersweb_solo2020, src_messner_thelocal_dpa2020, src_messner_climbing_wejchert2022 | 1977-1980 | long-form reportage + specialist press + news interview; the Everest 1978 items in Outside and Climbing share sources] In 1977 Messner sat in the back of a single-engine plane around 30,000 ft above Everest without a mask while the pilot and filmmaker used oxygen (filmmaker Leo Dickinson recalls his lips going cyan; Messner himself said on film that it proved only that one could stay there 'not dying'). In April 1978, after Habeler fell ill, he went on alone with two Sherpas to the South Col and was caught in a storm for two days. In August 1980 he went up the north side of Everest alone, in the monsoon, with no liaison officer and no oxygen, fell into a crevasse at night above 7,000 m and kept climbing; The Local (German Press Agency interview) quotes his credo that adventure 'is only adventure when there is risk involved'. Repeated, dated instances across several sources. dual_edged because the same choices carried a high chance of serious accident, as the sources themselves say. Not scored higher because the accounts are largely sympathetic and he and Habeler also describe turning back when conditions did not allow a summit."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_messner_outside_schaffer2017, src_messner_explorersweb_solo2020, src_messner_abenteuerberg2024, src_messner_suburban_kukuczka | 1970-1986 | long-form reportage + specialist press + birthday profile + blog] After his April 1978 solo bid ended in a storm at the South Col and his partner doubted the project, Messner kept the Everest attempt going and, with Habeler, summited on 8 May (Outside). In 1980 he continued up Everest after a night fall into a crevasse (Explorersweb). The journalist profile and the blog both describe the fourteen-peak project as running from the first eight-thousander in 1970 to the last in 1986, i.e. sixteen years of attempts. The blog is weak and is used only for the 16-year span, which the profile's 1970/1986 dates support independently. Several dated instances; not scored higher because the sources describe the final ascents rather than the failed attempts in detail."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_messner_outside_schaffer2017, src_messner_guinness, src_messner_climbing_wejchert2022 | 1971-1978 | long-form reportage + record body + profile] Schaffer reports that Messner 'codified' the alpine-style ethic in a 1971 Mountain magazine manifesto ('The Murder of the Impossible': 'Put on your boots and get going') and, with Habeler, set out in 1975-78 to climb Everest without bottled oxygen when most Himalayan climbers considered oxygen vital there. Schaffer also checks the claim that doctors had declared it physically impossible and finds it 'a stretch': the loudest doubters were climbers, and earlier research and Norton's 1924 height without oxygen pointed the other way. So the evidence is that he reasoned from his own prior high-altitude experience against the prevailing practice, not that he overturned a scientific consensus. The record body (Guinness) confirms the 1978 outcome; the oxygen claim was disputed at the time and was supported by the full emergency cylinders found at the South Col camp (Outside). Moderate score and confidence because the 'impossible' framing is Messner's own and is partly debunked by the same independent source."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_messner_abenteuerberg2024, src_messner_thelocal_dpa2020, src_messner_explorersweb_solo2020, src_messner_outside_schaffer2017 | 1978-1990 | birthday profile + news interview + specialist press + long-form reportage] In summer 1978 he made the first solo ascent of an eight-thousander from base camp on Nanga Parbat; he told German Press Agency that it showed him he could cope psychologically by himself and that alone one bears all the responsibility but need not share the fear. In 1980 he climbed Everest alone with no liaison officer at base camp (Explorersweb). The 2024 profile says he reached the summits of the fourteen peaks without bottled oxygen, 'in a small team or even solo'. Counter-evidence: in 1978 he joined a large Austrian expedition and agreed to use its icefall route for funding and logistics (Outside), and historian Maurice Isserman remarks that he and Habeler 'really made two solo ascents without oxygen', consistent with preferring independent action inside a team. Moderate confidence because the evidence is behavioural but the sources are sympathetic."
+    },
+    "competitiveness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_messner_climbing_wejchert2022, src_messner_outside_schaffer2017, src_messner_explorersweb_solo2020, src_messner_suburban_kukuczka | 1978-1986, 2017 | long-form profile + long-form reportage + specialist press + blog] Four partly independent threads. (1) Habeler's 1982 remark to David Roberts (quoted in Climbing) that 'Reinhold simply wants to be number one' and in his book that Messner 'needs' public recognition, a partisan view from a former partner. (2) Dickinson, who filmed him, says Messner 'wanted more' of the credit after Everest (Outside); Messner himself says he objected to Habeler's ghostwritten book and its title (Climbing). (3) Explorersweb relays, 'as the story goes', that he brought forward his 1980 solo attempt to get ahead of a possible attempt by Naomi Uemura. (4) The blog says Messner initiated the race for all fourteen peaks in 1983 and Kukuczka, who had three, took up the challenge; Schaffer also quotes Messner dismissing Kilian Jornet's speed ascents: he would have 'ten times more respect' for a new line done in two months. Behavioural evidence that he measures himself against others and guards credit, mostly told by rivals or from secondhand stories, hence moderate. dual_edged: it fed his output and also the Habeler breach."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_messner_outside_schaffer2017, src_messner_climbing_wejchert2022, src_messner_thelocal_dpa2020, src_messner_abenteuerberg2024 | 1978-2004 | long-form reportage + profile + news interview + birthday profile] Dickinson, who filmed him in 1978 and shortly afterward, calls Messner 'the most driven human being I've ever seen on the planet' and says Habeler lacked 'Messner's all-consuming willpower' (Outside). Habeler says that after Everest 'Reinhold was focused on finishing the 8,000ers' while he himself was 'never a collector of peaks' (Climbing). Once the fourteen were done in 1986, German Press Agency says he 'restlessly searched for new frontiers', and the 2024 profile lists Antarctica, Greenland and an attempted solo Gobi walk in 2004. Messner's own summary, in Free Spirit as quoted in Climbing, is that after heights he turned to 'horizontal' expanses. The assessment comes from a filmmaker, a partner and journalists rather than from output counts; not scored higher because several accounts are admiring or secondhand."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_messner_fuchs_explorersweb2016, src_messner_outside_schaffer2017, src_messner_aaj_antarctica | 1975-1989 | partner interview + long-form reportage + institutional note] Fuchs, the partner, says 'we both were looking for a suitable partner', and the interviewer's summary of Messner's book says that after the Seven Summits Messner (calling that goal a 'childish game') sought an ice-travel specialist and navigator for a crossing of Antarctica rather than another mountaineer. Schaffer writes that the Everest-without-oxygen plan was set out on the flight home from Gasherbrum I in 1975 and that for the 1978 attempt Messner and Habeler arranged extra funding from the magazine Geo and brought in a film crew. Fuchs says the pair had very little information, 'if any at all', about their route (the interviewer's framing that nobody had taken that route before is not independently checked here). Initiative is documented in three dated projects; the sources do not show how many ideas he started and dropped."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_messner_outside_schaffer2017, src_messner_climbing_wejchert2022, src_messner_habeler_interview | 1978, 1980s-2020 | long-form reportage + profile + partner interview] When Habeler lost nerve in April-May 1978, Habeler says he went up only after Messner 'kicked me in the ass' and said 'Come on, Peter'; the Climbing profile quotes Habeler: 'If Reinhold had not kicked me in my ass, I probably would not have been able to go up.' Dickinson says Messner 'had the ability of getting the best out of people but also shaming them', and that he told the camera in 1978 he might have to find a new partner. Climbing adds that Messner relied on lectures and book deals to fund his trips and that filmmakers say he has an unusual ability to engage reporters. Direct testimony from the person he persuaded, consistent across two long-form pieces, but both rest on the same 2017-2021 interviews with Habeler, so limited independence and a mid score."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_messner_aaj_naked_mountain, src_messner_outside_schaffer2017, src_messner_climbing_wejchert2022, src_messner_abenteuerberg2024 | 1978-2004 | institutional review + long-form reportage + profile + birthday profile] Documented professional disputes, scored for willingness to engage in public conflict and not for who was right. The American Alpine Journal review records that members of the 1970 Nanga Parbat expedition publicly accused him, that he 'responded vigorously -- even with lawsuits', and that he obtained court injunctions against further editions of two teammates' 2003 books; the reviewer says he cannot judge between the accounts. In 1978 he told Reuters that doubters of the oxygen-free Everest climb, including Tenzing Norgay, were motivated by 'sheer envy' (Outside), and the dispute with Habeler over the book left the two barely speaking for about twenty years before they reconciled (Outside, Climbing). The 2024 profile calls him 'polarizing' and quotes him calling himself 'a living provocation'. dual_edged: the same stance sustained long public disputes. Not scored higher or with more confidence because the merits of the Nanga Parbat dispute are not adjudicated in the sources used."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_messner_climbing_wejchert2022, src_messner_abenteuerberg2024, src_messner_mmm_dolomites | 1986-2016 | profile + birthday profile + tourism board] After the fourteen peaks he moved to a different kind of expedition: Antarctica on foot (1989-90), Greenland (1993) and the Gobi (2004) (birthday profile), which Messner himself describes in Free Spirit as turning 'to the wild, untouched horizontal expanses' (Climbing). Habeler jokes that 'Reinhold has seven lives', listing rock climber, alpinist, high-altitude specialist and museum curator (Climbing). The tourism board dates a first mini-museum in Sulden in 1993 and the six-museum project by 2016. Several role changes documented, but they were largely within the same theme of mountains and remote travel, so a moderate score."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_messner_explorersweb_solo2020, src_messner_outside_schaffer2017, src_messner_climbing_wejchert2022 | 1977-1980 | specialist press + long-form reportage + profile] For the 1980 solo he spent about a month of training and acclimatisation on the Tibetan plateau and deposited supplies at the North Col before the summit push (Explorersweb). In 1977, before the Everest attempt, he used the flight above the summit without a mask as a test of how he would function (Outside). For Nanga Parbat in 1970 he is said to have trained harder than at any other time, adjusting his diet (Climbing). On the Everest summit day he stopped for half an hour to make tea during a whiteout and recorded that it was 'practically certain' they would not reach the top, but continued (Outside, Climbing). Sparse but dated preparation evidence; the same sources show much improvisation under changing weather, so the score stays modest."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_messner_habeler_interview, src_messner_climbing_wejchert2022, src_messner_aaj_antarctica, src_messner_fuchs_explorersweb2016, src_messner_outside_schaffer2017 | 1965-1990 | partner interview + profile + institutional note + partner interview + reportage] Mixed evidence. Habeler says of their 13-year climbing partnership that 'we trusted each other completely', and recalls that Messner cooked for him when altitude headaches struck on Gasherbrum I (Climbing). In Antarctica each man pulled his own sled, Fuchs navigated and Messner followed, and Fuchs says they had different personalities and backgrounds but 'we were successful' (AAJ note, Fuchs). Against this, the pair agreed before the Everest summit day that each would save himself alone if something went wrong; Habeler later wrote that readers might think Messner had been the leader, and Messner and Habeler barely spoke for about twenty years after 1978 (Outside, Climbing). Isserman says they were roped together for only a short time. Mid-range score with low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "라인홀트 메스너"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q189307 returned en label 'Reinhold Messner', description 'Italian mountaineer, adventurer and explorer (born 1944)', ko label '라인홀트 메스너'. SLUG CHECK: not in scratch/prod_slugs.txt and no prior candidate file. LIVING SUBJECT: documented public professional behaviour only; his brother's death in 1970, family, relationships, health, inheritance matters and the 2005 recovery of remains were not used for any row; the European Parliament term (1999-2004) and political statements are incidental and unscored (zero-politics). The Nanga Parbat dispute is cited only as a dated public professional dispute (American Alpine Journal review) and its merits are not adjudicated. fieldIds: exploration only; 'sport' was not added because the sources frame the feats as exploration/mountaineering firsts rather than competitive sport. SOURCES ACTUALLY READ IN FULL (saved to scratch/work/reinhold-messner): Outside (Schaffer 2017), Climbing (Wejchert 2022), American Alpine Journal Naked Mountain review and Antarctica note, ExplorersWeb Fuchs interview and solo-Everest piece, The Local/DPA, Adventure Mountain 80th-birthday profile, Active-Traveller Habeler interview, Guinness entry, Suburban Mountaineer blog (weak), Dolomites.org museum page (promotional). BOOKS NOT ACCESSED: Messner's own books (Everest: Expedition to the Ultimate, Free Spirit, The Naked Mountain, All 14 Eight-Thousanders, Antarctica: Both Heaven and Hell), Habeler's The Lonely Victory, Hans Saler's and Max von Kienlin's books (injunction-restricted), Greg Child's 2003 Outside article, Krakauer's and Walt Unsworth's and Audrey Salkeld's Everest histories, Der Spiegel/NZZ/Guardian long-reads (not retrieved), and the Himalayan Club records; Messner's own perspective is therefore known only through excerpts quoted by the independent sources above. INDEPENDENCE CAVEAT: Outside and Climbing share their interviewees on the 1978 Everest episode and are treated as one perspective there; the Antarctic crossing is covered independently by Fuchs and by an institutional note (which quotes Messner's own report). The Kukuczka blog is a weak source. Scores are kept below 82 and confidence at or below 0.66 for these reasons."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/reinhold-messner-ptolusque-2017.jpg",
+    "width": 1139,
+    "height": 1600,
+    "source": "Wikimedia Commons file 'Reinhold Messner at Frankfurt Book Fair 2017 (26) (cropped).jpg', photographed at the Frankfurt Book Fair on 12 October 2017 (own work of the uploader); downsized from 2015 x 2831 pixels to 1139 x 1600",
+    "license": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Ptolusque, Wikimedia Commons, CC BY-SA 4.0 (resized from the original)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Reinhold_Messner_at_Frankfurt_Book_Fair_2017_(26)_(cropped).jpg",
+    "creator": "Ptolusque (Wikimedia Commons user)",
+    "date": "2017-10-12",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Reinhold_Messner_at_Frankfurt_Book_Fair_2017_(26)_(cropped).jpg"
+  }
+}
