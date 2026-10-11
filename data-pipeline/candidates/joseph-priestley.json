@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "joseph-priestley",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Joseph Priestley",
+    "aliases": [
+      "Joseph Priestley, LL.D., F.R.S."
+    ],
+    "wikidataId": "Q159636",
+    "birthYear": 1733,
+    "deathYear": 1804,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "scientist"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "chemistry"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "polymath",
+      "prolific",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_priestley_wikidata",
+      "kind": "wikidata",
+      "title": "Joseph Priestley (Q159636) -- verified live via the Wikidata API (2026-10-10): English label 'Joseph Priestley', description 'English chemist, theologian, educator, and political theorist (1733-1804)', born 13 March 1733 (a second 24 March value reflects the calendar change), died 6 February 1804, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q159636"
+    },
+    {
+      "id": "src_priestley_shi",
+      "kind": "institution",
+      "title": "Science History Institute, 'Joseph Priestley', Scientific Biographies (updated 2026 by John Powers) -- INDEPENDENT institutional history-of-science biography. Covers the history of electricity (1767), the identification of at least eight new airs, the nitrous air test, early experiments on plants refreshing air, the six-volume Experiments and Observations on Different Kinds of Air, the 1774 isolation of oxygen shown to Lavoisier, and his long defence of phlogiston against the new chemistry. Read in full; its sections on religion, dissent and the Birmingham riot were not used as personality evidence.",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/joseph-priestley/"
+    },
+    {
+      "id": "src_priestley_hexagon",
+      "kind": "biography",
+      "title": "James L. Marshall and Virginia R. Marshall, 'Joseph Priestley', The Hexagon of Alpha Chi Sigma (University of North Texas chemists), Summer 2005, pp. 28-33 -- secondary biographical article drawing on Schofield, Partington, Thomson and Davis; used for the electricity book, brewery-prompted gas studies, new gases found at Bowood, the oxygen visit to Lavoisier, the plant and blood experiments, and, most usefully, the scholarly assessments of why he clung to phlogiston (Partington's critical reading, Schofield's balanced one, Davis's view that his logic was self-consistent). Some of its general statements about his manner and reactions are the authors' impressions and were not used. Read in full.",
+      "url": "https://chemistry.unt.edu/system/files/james-l-marshall-pdfs/priestley.pdf"
+    },
+    {
+      "id": "src_priestley_wiley",
+      "kind": "biography",
+      "title": "'A Breath of Immoral Air: Joseph Priestley and the Discovery of Oxygen', Chapter 1 of a Wiley popular-science book on scientific breakthroughs (sample chapter PDF, John Wiley and Sons; author not shown on the pages read) -- popular narrative that quotes Priestley's own accounts of the 1774 experiment, the mice and the tasting of the new air, the soda-water work, the trough, and the later phlogiston pamphlet of 1797; also gives the Lavoisier and Scheele background. Popular-science level and partly dependent on Priestley's own words; used for dated experimental episodes cross-checked with the Institute and Hexagon articles. Read in full.",
+      "url": "https://catalogimages.wiley.com/images/db/pdf/0471402761.pdf"
+    },
+    {
+      "id": "src_priestley_eo",
+      "kind": "archive",
+      "title": "Joseph Priestley, 'Experiments and Observations on Different Kinds of Air', volume I (1774; Project Gutenberg text of the London first edition) -- SELF source used only as work evidence: the Preface (immediate publication of results, openly stating his real views and mistakes, doubts multiplying with discoveries), the finding that vegetation restores air spoiled by burning candles, and the failed ice-and-fixed-air experiment. The volume containing the oxygen experiments (volume II) was not opened. Never used as sole support for a behavioural claim.",
+      "url": "https://www.gutenberg.org/ebooks/29734"
+    },
+    {
+      "id": "src_priestley_neh",
+      "kind": "press",
+      "title": "NEH 'Humanities' magazine (Spring 2024, vol. 45 no. 2), 'Joseph Priestley Created Revolutionary Maps of Time' -- journalistic essay quoting Rosenberg and Grafton and Priestley's biographer Robert Schofield on his 1765 Chart of Biography, his output of roughly 150-200 publications, and Schofield's judgement that contemporaries were more profound and analytic but that Priestley made systematic and operational what had been fragmentary. Read in full; the passages on the digital-humanities project and on politics were not used.",
+      "url": "https://www.neh.gov/article/joseph-priestley-created-revolutionary-maps-time"
+    },
+    {
+      "id": "src_priestley_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library, 'Scientist of the Day: Joseph Priestley', 14 July 2015 (William B. Ashworth Jr., University of Missouri-Kansas City) -- short historian's entry noting his books on electricity, optics and gases and recording Georges Cuvier's eulogy line that he was a father of modern chemistry who refused to acknowledge his daughter; also mentions the Rembrandt Peale portrait. Read in full (very short). The Birmingham riot context was not used.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/joseph-priestley/"
+    },
+    {
+      "id": "src_priestley_npg",
+      "kind": "institution",
+      "title": "National Portrait Gallery, Smithsonian Institution, object NPG.77.160, 'Joseph Priestley' by James Sharples, 1797, pastel on paper, sight size 23 x 17.8 cm (record read through the Smithsonian Open Access API, which marks the image CC0; the museum's web page returned a server error and a 403) -- used only to check the portrait's rights. Not used for scoring.",
+      "url": "https://npg.si.edu/object/npg_NPG.77.160"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_priestley_wiley, src_priestley_hexagon, src_priestley_shi, src_priestley_eo | 1767-1775 | popular narrative + secondary biography + institutional history + self] The Leeds lodging next to a brewery led him to study the fixing of carbon dioxide and, from there, other airs; he tested mice and tasted the new air himself; and his Preface states that in seeking one thing he often found another. The Institute and the Hexagon both describe an exploratory, sometimes accidental style of experimenting across many substances. Four sources agree, three of them independent of his own words; kept at 84 because curiosity here is described mainly through gases and not across his whole life. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on institutional and secondary-quotation sources; Schofield and the primary oxygen volume were not opened; score and confidence lowered."
+    },
+    "experimentation": {
+      "score": 82,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_priestley_shi, src_priestley_wiley, src_priestley_hexagon, src_priestley_eo | 1767-1786 | institutional history + popular narrative + secondary biography + self] The Institute credits him with identifying at least eight new airs, establishing experimental protocols and techniques, inventing the nitrous air test and presenting hundreds of experiments in six volumes, and says he replicated historical electrical experiments before conducting new ones; the Wiley chapter and Hexagon describe his mercury trough, burning lens and the plant and blood experiments; the self-written Preface explains his rule of narrating the real course of experiments, including failures. Independent sources agree on the breadth and method. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on institutional and secondary-quotation sources; Schofield and the primary oxygen volume were not opened; score and confidence lowered."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_priestley_shi, src_priestley_neh, src_priestley_hexagon, src_priestley_lindahall | 1761-1790s | institutional history + historian essay + secondary biography + historian] English grammar, history charts, electricity, optics and gases are recorded by the Institute, which says he made significant contributions to grammar and the physics of electricity; NEH describes the 1765 Chart of Biography and Schofield's estimate of 150-200 publications; the Hexagon notes a perspective-drawing book and the Chart; Ashworth lists electricity, optics and gases. Several independent sources across more than thirty years; his theological and political writing is deliberately not counted. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on institutional and secondary-quotation sources; Schofield and the primary oxygen volume were not opened; score and confidence lowered."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_priestley_neh, src_priestley_hexagon, src_priestley_shi | 1765-1786 | historian essay + secondary biography + institutional history] NEH quotes Schofield that he made systematic and operational what had been fragmentary and impractical before him, and describes the Chart's design linking units of time to units of distance; the Hexagon speaks of his genius for compiling confusing bits and pieces into an understandable whole and his pneumatic-chemistry procedures; the Institute says he pieced the field of pneumatic chemistry together from existing theories and techniques. Schofield also says some contemporaries were more profound and analytic, so the score stays at 74."
+    },
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_priestley_shi, src_priestley_hexagon, src_priestley_wiley | 1760s-1770s | institutional history + secondary biography + popular narrative] The Institute credits his pragmatic solutions to difficult problems in pneumatic chemistry; the Hexagon says he acquired instruments in Nantwich and Warrington, built new equipment for the electrical work, and taught himself perspective drawing when he could not find an illustrator for the second edition of the electricity book; the Wiley chapter describes a trough and lens apparatus improvised from simple parts. Three independent descriptions of the same habit."
+    },
+    "analytical_rigor": {
+      "score": 50,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_priestley_hexagon, src_priestley_shi, src_priestley_neh | 1780s-1800 | secondary biography citing critics + institutional history + historian essay] The Hexagon reports Partington's view that he displayed a 'perverse ingenuity' in adapting phlogiston to every new fact, and Schofield's view that he did not appreciate gravimetric analysis; the Institute says the new chemistry relied on weight measurement and that Priestley argued this overlooked qualitative observations; NEH quotes Schofield that others were more profound and analytic. Davis (cited in the Hexagon) judged his logic self-consistent, so the evidence is mixed: strong observational method, weak quantitative reasoning. Mid-range score with reduced confidence."
+    },
+    "belief_updating": {
+      "score": 28,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_priestley_shi, src_priestley_hexagon, src_priestley_lindahall, src_priestley_wiley | 1780s-1804 | institutional history + secondary biography + historian + popular narrative] The Institute says he resisted the new chemistry and died in 1804 still hoping phlogiston would be restored, even though his own discoveries had helped begin the revolution; Ashworth records Cuvier's eulogy line about a father of modern chemistry who refused to acknowledge his daughter; the Wiley chapter says his last scientific paper, The Doctrine of Phlogiston Established (1797), came when the community had dismissed the theory; the Hexagon notes his sharp criticism of the new chemistry forced its supporters to answer him. Four independent sources agree; the edge is dual because his objections had some value."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_priestley_shi, src_priestley_hexagon, src_priestley_neh | 1767-1804 | institutional history + secondary biography + historian essay] The Institute dates his gas experiments from the late 1760s to a six-volume work published 1774-1786 and says his main scientific output in America was a renewed attack on the new chemistry; the Hexagon says his idea of phlogiston was refined through the years to his dying day; NEH counts 150-200 publications. The long commitment is documented, but each source describes it briefly, and the same persistence is the other face of the closed attitude toward phlogiston, so the impact is dual-edged."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_priestley_shi, src_priestley_hexagon, src_priestley_wiley, src_priestley_eo | 1766-1775 | institutional history + secondary biography + popular narrative + self] The Institute records Franklin encouraging the electricity history and Priestley demonstrating the new air to Lavoisier and other notables in 1774; the Hexagon says the Royal Society furnished books and apparatus for the electricity project and that his experiments often sparked discoveries by others; his Preface says he chose to publish immediately and openly rather than brood over a system. Open exchange is well supported, but the evidence is of sharing results and receiving help, not sustained joint work, hence a moderate score and reduced confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조지프 프리스틀리"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/joseph-priestley-sharples-1797.jpg",
+    "width": 951,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Joseph Priestley by James Sharples, 1797, pastel on paper, from the National Portrait Gallery - NPG-NPG 77 160.jpg' -- pastel on paper by James Sharples (c. 1751-1811), 1797, drawn from life in America, National Portrait Gallery, Smithsonian Institution (NPG.77.160); the museum's digital image is released under CC0 (Smithsonian Open Access). Original Commons file 5563 x 6385 pixels includes the museum frame and mat; cropped to the pastel itself (2710 x 3420 pixels) and downscaled once to 951 x 1200 (never upscaled).",
+    "license": "CC0 1.0 (Smithsonian Open Access); work in the public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "James Sharples, Joseph Priestley, 1797, pastel on paper, National Portrait Gallery, Smithsonian Institution, NPG.77.160 (CC0)",
+    "attributionUrl": "https://npg.si.edu/object/npg_NPG.77.160",
+    "creator": "James Sharples",
+    "date": "1797",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Priestley_by_James_Sharples,_1797,_pastel_on_paper,_from_the_National_Portrait_Gallery_-_NPG-NPG_77_160.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q159636 returned en label 'Joseph Priestley', description 'English chemist, theologian, educator, and political theorist (1733-1804)', born 1733-03-13 (also a 1733-03-24 value), died 1804-02-06; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID. READ (6 substantive sources): the Science History Institute biography (2026 update), the Marshall and Marshall Hexagon article (2005; citing Schofield, Partington, Davis, Thomson), the Wiley popular-science chapter on Priestley and oxygen, volume I of Priestley's own Experiments and Observations (1774; self, work evidence only), the NEH Humanities essay on his time charts (quoting Schofield), and Ashworth's Linda Hall entry (quoting Cuvier). The McEvoy 1979 BJHS article on Priestley's electricity was seen only as an abstract page and is not counted. PERSPECTIVES: institutional history of science, scholarly secondary biography with critical historians (Partington, Schofield, Davis) quoted, popular narrative, humanities journalism with a historian's judgement, a historian's short entry carrying a contemporary adversary's eulogy (Cuvier), plus self material used only for experimental method. NOT OPENED: Schofield's two-volume biography, Priestley's History and Present State of Electricity, volume II of Experiments and Observations (the oxygen volume), Lavoisier's and Scheele's own accounts, the Royal Society catalogue, Hartog and Partington (paywalled or print only); the Lavoisier-Scheele priority dispute is therefore not adjudicated here. EXCLUSIONS (deliberate): his political writing and support for the American and French revolutions, his Unitarian theology and religious controversy, the 1791 Birmingham riot and emigration (treated as incidental and unscored, no personality inferred from persecution or exile), family and private life, and the authors' impressionistic remarks on his manner. SCORING: 9 rows, highest 86 (experimentation, cross-domain range) and 84 (curiosity); lowest 28 (belief updating, four independent sources) and 50 (analytical rigor); confidence 0.58-0.72, no row above 0.72; sources include explicit critics, so the low belief-updating and mid rigor scores are corroborated rather than hedged. FIELDS: the lead's hint was natural_science; chemistry also exists in the controlled field vocabulary and both are listed, no new vocabulary added. PORTRAIT: James Sharples's 1797 pastel (a from-life portrait by a contemporary artist) at the Smithsonian National Portrait Gallery; the Smithsonian Open Access API record for NPG.77.160 (id edanmdm:npg_NPG.77.160) states usage access CC0 for the object and its image, matching the Commons description; the NPG web page itself returned a 500 error and a 403, so the item notice rests on the Open Access API record. Alternatives deliberately not used: Ellen Sharples (print scan with no institutional rights page checked), Rembrandt Peale (Commons file credited only to a Pennsylvania heritage site), Royal Society portraits (not checked). The file was cropped to remove the frame and mat (a crop, not a restyle) and not upscaled. LEAD REVIEW (Roster48): 3 top row(s) lowered before eligibility (built on institutional and secondary-quotation sources; Schofield and the primary oxygen volume were not opened)."
+  }
+}

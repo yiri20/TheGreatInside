@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mark-zuckerberg",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mark Zuckerberg",
+    "aliases": [
+      "Mark Elliot Zuckerberg"
+    ],
+    "wikidataId": "Q36215",
+    "birthYear": 1984,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "technological",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder",
+      "product_leader"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_zuck_wikidata",
+      "kind": "wikidata",
+      "title": "Mark Zuckerberg (Q36215) -- verified live via the Wikidata API (2026-10-10): English label 'Mark Zuckerberg', description 'American Internet entrepreneur', born 14 May 1984, no date of death, instance of human, citizenship United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q36215"
+    },
+    {
+      "id": "src_zuck_crimson_2004",
+      "kind": "press",
+      "title": "Michael M. Grynbaum, 'Mark E. Zuckerberg '06: The whiz behind thefacebook.com', The Harvard Crimson, 10 June 2004 -- contemporaneous campus-newspaper profile and interview four months after launch: how he builds small projects, why he declined offers to sell, and his stated goals. Includes the reporter's note of the ConnectU allegations and his denial (not used as evidence). Student journalism, admiring in places. Read in full.",
+      "url": "https://www.thecrimson.com/article/2004/6/10/mark-e-zuckerberg-06-the-whiz/"
+    },
+    {
+      "id": "src_zuck_crimson_2014",
+      "kind": "press",
+      "title": "Meg P. Bernhard and Matthew Q. Clarida, 'Ten Years Later, Facebook's First Users Look Back at Site's Earliest Days', The Harvard Crimson, 4 February 2014 -- retrospective with early users on the February 2004 launch, first-week growth and Zuckerberg's 2004 remarks about building a campus-wide directory in a week. Read in full.",
+      "url": "https://www.thecrimson.com/article/2014/2/4/facebook-ten-years-feature-1/"
+    },
+    {
+      "id": "src_zuck_newyorker_2010",
+      "kind": "press",
+      "title": "Jose Antonio Vargas, 'The Face of Facebook' (Mark Zuckerberg Opens Up), The New Yorker, 20 September 2010 -- long reported profile based on several interviews and employees, investors and critics: Yahoo's offer, running the company day to day, executive turnover, the platform strategy and the privacy backlash. Family, relationship and leaked-message passages were not used. Independent, includes critics. Read in full.",
+      "url": "https://www.newyorker.com/magazine/2010/09/20/the-face-of-facebook"
+    },
+    {
+      "id": "src_zuck_time_2010",
+      "kind": "press",
+      "title": "Lev Grossman, 'Person of the Year 2010: Mark Zuckerberg', TIME, 15 December 2010 (ten-page article) -- independent profile reporting on how product meetings are run, the photo-sharing and News Feed history, Beacon and the 2009 privacy changes, with both praise and criticism. Family, wealth and philanthropy passages were not used. Read in full, all ten pages.",
+      "url": "https://content.time.com/time/specials/packages/article/0,28804,2036683_2037183_2037185,00.html"
+    },
+    {
+      "id": "src_zuck_s1_letter",
+      "kind": "institution",
+      "title": "Facebook, Inc., Form S-1 registration statement (filed with the U.S. Securities and Exchange Commission, February 2012), including the founder's letter from Mark Zuckerberg and user figures -- his own account of the 'Hacker Way', hackathons and company values, plus the 845 million monthly active users figure as of 31 December 2011. Self-authored in the letter; used only for stated practice and record facts, never as sole support. Letter and key figures read.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512034517/d287954ds1.htm"
+    },
+    {
+      "id": "src_zuck_tnw_instagram",
+      "kind": "press",
+      "title": "Jon Russell, 'Zuckerberg negotiated and wrapped up Facebook-Instagram deal in 3 days, mostly on his own', The Next Web, 18 April 2012 -- report summarising the Wall Street Journal's account (anonymous sources) of how he personally led the Instagram negotiation. Secondary report of sourced-anonymously reporting. Read in full.",
+      "url": "https://www.thenextweb.com/news/zuckerberg-negotiated-and-wrapped-up-facebook-instagram-deal-in-3-days-mostly-on-his-own"
+    },
+    {
+      "id": "src_zuck_register_html5",
+      "kind": "press",
+      "title": "Matt Asay, 'HTML5 isn't Facebook's biggest mistake', The Register, 14 September 2012 -- critical commentary quoting Zuckerberg's TechCrunch Disrupt remarks that betting too much on HTML5 over native apps was the company's biggest strategic mistake, and disputing his diagnosis with outside engineers' views. Critical, independent. Read in full.",
+      "url": "https://www.theregister.com/2012/09/14/facebook_html_5_vs_native_apps/"
+    },
+    {
+      "id": "src_zuck_siliconangle_whatsapp",
+      "kind": "press",
+      "title": "John Furrier, 'Breaking news: Facebook buys WhatsApp for $19 billion', SiliconANGLE, 19 February 2014 -- report reproducing Facebook's announcement and SEC filing for the WhatsApp acquisition (cash and shares plus retention units). Record facts only, used to support the achievement cards. Read in full.",
+      "url": "https://siliconangle.com/2014/02/19/breaking-news-facebook-buys-whatsapp-for-19-billion/"
+    },
+    {
+      "id": "src_zuck_meta_rename",
+      "kind": "institution",
+      "title": "Meta, 'The Facebook Company Is Now Meta', Meta newsroom, 28 October 2021 -- the company's announcement that CEO Mark Zuckerberg introduced Meta as a new company brand bringing its apps and technologies together, with the metaverse as its focus. Company announcement; record fact only, added to support the achievement cards after the first-pass review. Read in full.",
+      "url": "https://about.fb.com/news/2021/10/facebook-company-is-now-meta/"
+    }
+  ],
+  "rows": {
+    "execution_speed": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_zuck_crimson_2004, src_zuck_crimson_2014, src_zuck_tnw_instagram, src_zuck_s1_letter | 2004-2012 | campus press x2, deal report, own letter] In 2004 he told the Crimson he could build a campus-wide directory 'in a week' and that the Facebook took about a week to make; its launch was reported as 650 registered users in 24 hours; in 2012 the Wall Street Journal account (via The Next Web) has him negotiating the Instagram purchase in about three days; his own S-1 letter describes a hackathon-and-ship culture ('done is better than perfect'). Several independent episodes over eight years point the same way; the early quotes are partly his own words, so confidence stays below 0.7."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_zuck_newyorker_2010, src_zuck_tnw_instagram, src_zuck_time_2010 | 2006-2012 | investor/counterparty quote, deal report, independent profile] Former Yahoo chief executive Terry Semel told The New Yorker he had never met anyone who would walk away from a billion dollars and that Zuckerberg said it was not about price; MTV, Yahoo and Microsoft offers were also declined. In 2012 he bought Instagram, which had not yet made money, with the board 'told, not consulted' (anonymous-source report). TIME says he stood his ground when users disliked News Feed. These are bets on his own judgement against conventional options, but the Instagram details rely on anonymous sourcing, so moderate."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_zuck_tnw_instagram, src_zuck_newyorker_2010, src_zuck_time_2010 | 2006-2012 | deal report, profile with investor quote, independent profile] The Instagram deal was reported as largely negotiated by him personally within days; investor Jim Breyer told The New Yorker that in the early years Zuckerberg would ask for a newly hired executive to be removed within ten days; TIME describes him moving a product meeting briskly and tuning out points that are not compelling. Fast calls are an advantage in a fast market and also the source of the executive churn Breyer calls 'a revolving door', hence dual-edged. Mostly second-hand reports, so strong inference."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_zuck_time_2010, src_zuck_register_html5, src_zuck_newyorker_2010 | 2007-2012 | independent profile, critical commentary] TIME reports that a month after launching Beacon he apologised and eventually scrapped it; The Register quotes him at Disrupt 2012 saying 'we burned two years' betting on HTML5 and that the company would move to native apps; The New Yorker says he simplified the privacy settings after the 2010 backlash. The same sources show the privacy problem returned in 2009 and the Register argues his HTML5 diagnosis was incomplete, so the pattern is real but uneven."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_zuck_crimson_2004, src_zuck_newyorker_2010 | 2004-2010 | campus press + independent profile with counterparty and friend quotes] In 2004 he told the Crimson 'my goal is to not have a job' and valued 'not having someone tell me what to do'; The New Yorker reports he declined offers from MTV, Yahoo and Microsoft to keep running it ('this is my baby'), and a close friend calls it 'the Mark show' while early pages carried 'A Mark Zuckerberg production'. Documented across independent sources and reported as a reason friends left, so dual-edged."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zuck_time_2010, src_zuck_newyorker_2010, src_zuck_tnw_instagram | 2005-2012 | independent profiles + deal report] TIME credits the insight that people wanted to be embedded in their real relationships and describes the 2005 photo product winning on tagging despite weak functionality; The New Yorker documents the 2007 platform and 2008 Facebook Connect moves; the Instagram report says he noticed young people signing up to the app in droves. These are read as judgement calls about where use was heading; the sources are partly admiring and some attribution is anonymous, so strong inference."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zuck_crimson_2004, src_zuck_s1_letter, src_zuck_time_2010 | 2004-2012 | campus press, own letter, independent profile] He described building 'small things' and putting them together, and not releasing half of what he makes; his S-1 letter says a testing framework can run thousands of versions of Facebook and that hackathons produced Timeline, chat and video; TIME reports the 2005 photo product was launched quickly and iterated on. A good part is his own account of company practice, so this stays strong inference."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zuck_newyorker_2010, src_zuck_time_2010 | 2010 | two independent profiles with employee quotes] The New Yorker reports he is involved in almost every new product, spends a daily afternoon block with engineers, sits in the open office near senior staff, and that a dozen employees called him an intense listener; TIME shows him running a product-launch review without notes and quotes his vice president of product Chris Cox saying he was won over by the vision on a whiteboard. Both profiles are from a single year, 2010, and employees are mostly positive, so strong inference."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_zuck_time_2010, src_zuck_newyorker_2010 | 2006-2010 | independent profiles] TIME reports that when users disliked News Feed in 2006 he stood his ground and the feature became standard; The New Yorker records him continuing a privacy approach criticised by advocacy groups while telling the reporter that the company would be criticised for it for a long time, and Breyer's account of repeatedly pushing executives out. The two sources agree on holding a position under criticism but also show repeated reversals later, so only a moderate score at thin confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마크 저커버그"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q36215 returned en label 'Mark Zuckerberg', description 'American Internet entrepreneur', born 14 May 1984, no death date, instance of human, citizenship United States. SLUG/QID CHECK: no existing production or candidate slug or QID collision (only 'jeff-bezos' and other business candidates exist). LIVING SUBJECT: only documented public professional behaviour is scored (building and shipping products, company management, acquisitions, public letters and conference remarks, responses to product failures). Excluded: private life, family, relationships, wealth and philanthropy, the Winklevoss/ConnectU and Saverin lawsuits as allegations, the leaked 2004 instant messages (read in The New Yorker but not used as scoring evidence), and regulatory, political and election controversies of later years. READ (8 substantive sources): Harvard Crimson 2004 profile and 2014 retrospective, The New Yorker 2010 profile, TIME 2010 Person of the Year (all ten pages), Facebook Form S-1 founder's letter and user figures, The Next Web on the Instagram deal (WSJ-sourced, anonymous), The Register 2012 critique of the HTML5 remarks, SiliconANGLE 2014 on the WhatsApp announcement (record facts only). Wikidata is orientation only. PERSPECTIVES: contemporaneous campus press, independent magazine profiles (with investor, counterparty, employee and critic voices), own letter, critical tech commentary. Self material is never sole support for a row. NOT OPENED: Steven Levy 'Facebook: The Inside Story', David Kirkpatrick 'The Facebook Effect' and Ben Mezrich's book (no access; Mezrich is also known to use invented scenes), Wall Street Journal and New York Times original Instagram articles (paywalled; the deal is taken from The Next Web's summary), Zuckerberg's TechCrunch Disrupt video (quoted via The Register). Coverage is nine rows, all scores under 80 and confidence at most 0.64, because the best independent profiles date from 2010 and later-decade management behaviour is dominated by regulatory and political coverage that is excluded here, so it is a thinner and earlier-career picture than his full record. PORTRAIT: Commons 'Mark Zuckerberg at the 37th G8 Summit in Deauville 018 v1.jpg' by Guillaume Paumier (own work), taken 26 May 2011, CC BY 3.0; the file page also carries the Commons personality-rights warning, the same non-copyright notice as other candidate portraits. The author notes the file is retouched (a microphone edited out). The alternative lead (Anthony Quintano, F8 2019 crop, CC BY 2.0) was not used because its current Commons description text had been vandalised with a wrong name when checked. Downscaled only, from 1610 x 2415 to 800 x 1200."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mark-zuckerberg-paumier-2011.jpg",
+    "width": 800,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Mark Zuckerberg at the 37th G8 Summit in Deauville 018 v1.jpg' -- Guillaume Paumier's own work, photographed at the press conference on the e-G8 forum during the 37th G8 summit, Deauville, 26 May 2011; the author retouched out a microphone; original 1610 x 2415 pixels, downscaled to 800 x 1200. The file page also carries the Commons 'Personality rights' template (non-copyright restriction).",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Photo: Guillaume Paumier, 26 May 2011, CC BY 3.0, downscaled",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Mark_Zuckerberg_at_the_37th_G8_Summit_in_Deauville_018_v1.jpg",
+    "creator": "Guillaume Paumier",
+    "date": "2011-05-26",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mark_Zuckerberg_at_the_37th_G8_Summit_in_Deauville_018_v1.jpg"
+  }
+}

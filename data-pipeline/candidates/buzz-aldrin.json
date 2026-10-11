@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "buzz-aldrin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Buzz Aldrin",
+    "aliases": [
+      "Edwin Eugene Aldrin Jr.",
+      "Edwin E. Aldrin Jr."
+    ],
+    "wikidataId": "Q2252",
+    "birthYear": 1930,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronaut",
+      "engineer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_aldrin_wikidata",
+      "kind": "wikidata",
+      "title": "Buzz Aldrin (Q2252) -- verified live via the Wikidata API (2026-10-10): English label 'Buzz Aldrin', description 'American astronaut (born 1930)', born 20 January 1930, no date of death, instance of human, citizenship United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2252"
+    },
+    {
+      "id": "src_aldrin_nasa_gemini12",
+      "kind": "institution",
+      "title": "Bob Granath, 'Gemini XII Crew Masters the Challenges of Spacewalks', NASA, 14 November 2016 -- NASA's account of the Gemini XII mission: his MIT doctorate on orbital rendezvous, the underwater spacewalk training, the lost radar lock during rendezvous and his sextant-and-slide-rule solution, and his three spacewalks of November 1966. Agency narrative with direct mission quotations; sympathetic institutional view. Read in full.",
+      "url": "https://www.nasa.gov/feature/gemini-xii-crew-masters-the-challenges-of-spacewalks"
+    },
+    {
+      "id": "src_aldrin_airspace_eva",
+      "kind": "press",
+      "title": "'Where NASA Learned to Spacewalk', Air & Space Magazine (Smithsonian) -- first-person account by a former NASA astronaut who flew spacewalks on STS-98, telling the story of the engineers who invented neutral-buoyancy training in a Baltimore pool, including how Aldrin was sent there before Gemini XII and the trainer's view of how he performed. Independent trainer's voice; undated in the retrieved copy. Read in full.",
+      "url": "https://www.smithsonianmag.com/air-space-magazine/where-nasa-learned-spacewalk-180952396/"
+    },
+    {
+      "id": "src_aldrin_alsj_landing",
+      "kind": "institution",
+      "title": "NASA Apollo Lunar Surface Journal, 'The First Lunar Landing' (corrected air-to-ground transcript with commentary by editor Eric Jones, Frank O'Brien and others, including post-mission comments by Armstrong and Aldrin recorded 1989-1991) -- the powered-descent section from the first 1202 program alarm to touchdown, with Aldrin's altitude and velocity call-outs and computer entries. Primary transcript plus later commentary; the commentary by Aldrin himself is self material and is used only as supplement. Read the descent, alarm and touchdown section in full.",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.landing.html"
+    },
+    {
+      "id": "src_aldrin_alsj_alarms",
+      "kind": "institution",
+      "title": "Peter Adler, 'Apollo 11 Program Alarms', Apollo 11 Lunar Surface Journal (NASA), 1998 -- explanation by an MIT Instrumentation Laboratory engineer who helped write the lunar module guidance software of why the 1201 and 1202 alarms occurred and how the computer restarted. Engineer's independent technical account; says little about Aldrin directly and is used for context. Read in full.",
+      "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-pa.html"
+    },
+    {
+      "id": "src_aldrin_mit_eyles",
+      "kind": "press",
+      "title": "Don Eyles, 'Landing Apollo via Cambridge', MIT News, 17 July 2009 (reprint of his 1989 Boston Globe recollection) -- the MIT Instrumentation Laboratory software engineer's account from a monitoring room in Cambridge of the Apollo 11 landing, including the program alarms, in which Aldrin selected the landing program, pressed proceed and 'interrogated the computer'. Independent engineer view, written twenty years after the event. Read in full.",
+      "url": "https://news.mit.edu/2009/apollo-eyles-0717"
+    },
+    {
+      "id": "src_aldrin_damninteresting",
+      "kind": "press",
+      "title": "Alan Bellows, 'The Martian Express', Damn Interesting, April 2008 -- popular-science article on cycler orbits that credits Aldrin as one of the concept's chief designers and proponents, describes his 1985 reasoning behind the Aldrin Cycler and lists the concept's drawbacks. Popular secondary source with reader comments; used only for the proposal and its limits, not for personality. Article read in full; comments skimmed.",
+      "url": "https://www.damninteresting.com/the-martian-express/"
+    },
+    {
+      "id": "src_aldrin_mit_thesis",
+      "kind": "archive",
+      "title": "Edwin Eugene Aldrin Jr., 'Line-of-sight guidance techniques for manned orbital rendezvous', Sc.D. thesis, Department of Aeronautics and Astronautics, MIT, 1963 -- DSpace@MIT catalogue record (311 leaves; advisors listed). Only the catalogue record was opened, not the thesis text, so it is used to confirm the thesis exists and its title and date only.",
+      "url": "https://dspace.mit.edu/handle/1721.1/12652"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aldrin_nasa_gemini12, src_aldrin_alsj_landing, src_aldrin_mit_eyles | 1963-1969 | agency narrative, mission transcript, MIT engineer] On Gemini XII, when radar lock was lost at about 74 miles, he used a sextant and slide rule to measure the angle to the Agena and computed corrections with his rendezvous chart and the onboard computer, applying his MIT doctoral research (NASA); during the Apollo 11 landing the NASA editor's commentary records that he worked out that many of the 1202 alarms could be avoided by not requesting the time-to-pitchover display and asked Houston to supply it instead, and Eyles says he quickly interrogated the computer about the alarm. Three independent descriptions across three years show hands-on quantitative problem-solving under a fault, but the sources are sympathetic institutional or technical accounts, so the score stays under 80."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aldrin_nasa_gemini12, src_aldrin_airspace_eva | 1966 | agency narrative, trainer's account] NASA says he did several underwater training sessions of more than two hours in the Gemini mockup and on the mission worked 'slowly and deliberately', resting as planned; the Air & Space account quotes the engineer who ran the training saying he ran through a series of two-hour exercises on footholds, handrails, tethers and tools and was 'the smoothest of anyone who came in'. Two independent views of one preparation period; strong on training habit but only one episode, so moderate."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aldrin_nasa_gemini12, src_aldrin_alsj_landing, src_aldrin_mit_eyles | 1966-1969 | agency narrative, mission transcript, MIT engineer] After the Gemini XII radar lock was lost he switched to manual sextant measurements to complete the rendezvous; during the Apollo 11 descent, after repeated 1202 alarms, he changed how information was obtained from the computer (the transcript commentary at 102:39:14 shows him asking Houston to read out the display) and continued the descent callouts through touchdown, while Eyles reports flight controllers told the crew to continue. Two clear episodes in different missions; the first draws on NASA's own narrative, so moderate."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aldrin_alsj_landing, src_aldrin_mit_eyles | 1969 | mission transcript, MIT engineer] The Apollo 11 transcript shows Aldrin giving a continuous, precise stream of altitude, descent-rate, forward-velocity, fuel and LPD-angle readouts during the last minutes of the landing (for example 'down at 2 1/2, 19 forward' and 'drifting to the right a little') and carrying out the post-landing switch checklist; Eyles describes him selecting the landing program and pressing proceed. This is the lunar module pilot's assigned role, which is also standard for the position, so it is read as consistent with careful execution rather than as a distinctive personal trait: strong inference."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aldrin_nasa_gemini12, src_aldrin_mit_thesis, src_aldrin_damninteresting | 1963-1985 | agency narrative, thesis catalogue record, popular science] NASA notes he was the first astronaut to have earned a doctorate and that his thesis topic, orbital rendezvous, was what he used in flight; the MIT record confirms the 1963 thesis; the Damn Interesting article describes him returning to orbital mechanics in 1985 with the cycler idea. A long-running focus on one technical domain is consistent with a mastery orientation, but the later strand rests on a popular article and the thesis text was not read."
+    },
+    "creative_originality": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_aldrin_damninteresting | 1985-2008 | popular science] The article credits him as one of the chief designers and proponents of the Earth-Mars cycler (the 'Aldrin Cycler', named after his 1985 reasoning that trajectories repeating on the 26-month synodic period should exist) and also lists its drawbacks (high flyby speeds of about 15,000 and 22,000 mph, no timing flexibility, higher upfront cost). One popular secondary source, so confidence is low; the concept is original but its practical value is contested in the same article."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "버즈 올드린"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q2252 returned en label 'Buzz Aldrin', description 'American astronaut (born 1930)', born 20 Jan 1930, no death date, instance of human, citizenship United States. SLUG/QID CHECK: no existing production or candidate slug or QID collision (neil-armstrong is a separate candidate, Q1615). LIVING SUBJECT: only documented public professional behaviour is scored (Gemini XII rendezvous, training and spacewalks, Apollo 11 descent conduct as recorded in NASA's transcript and by engineers, the rendezvous thesis, the Mars cycler proposal). Excluded: health, alcohol, depression, family, marriages, private life, later litigation and public disputes, military service and combat, and any commentary on who stepped first onto the Moon or other crew-relationship disputes. READ (6 substantive sources plus one record): NASA Gemini XII feature, Air & Space Magazine on neutral-buoyancy training, NASA Apollo Lunar Surface Journal landing transcript and commentary (descent, alarm and touchdown section), Peter Adler's alarm essay, Don Eyles in MIT News, Damn Interesting on the Aldrin Cycler; MIT DSpace thesis catalogue record only (thesis text not opened). Wikidata is orientation only. PERSPECTIVES: agency narrative, an outside astronaut and the engineers who trained and supported him, MIT guidance-software engineers, the air-to-ground transcript with later commentary by Armstrong and Aldrin, and a popular-science article with critique of his proposal. Aldrin's own comments in the Journal are self material and never sole support. Evidence is concentrated in two missions (1966 and 1969) and one 1985 proposal, so only six rows are scored, all scores below 80, confidence at most 0.66, and the sources are mostly sympathetic institutional accounts. NOT OPENED: Aldrin's own books (not accessed, and largely about matters excluded here), Andrew Chaikin's 'A Man on the Moon' and James Hansen's 'First Man' (no access), NASA JSC oral histories (none located for Aldrin), the thesis PDF itself, the Gemini XII and Apollo 11 mission reports. PORTRAIT: NASA official Apollo 11 prime-crew portrait of Edwin E. Aldrin Jr., NASA/JSC photo ID S69-31743, dated 16 April 1969 (confirmed in the NASA Image and Video Library record), as the Wikimedia Commons crop 'Buzz Aldrin (S69-31743) (cropped).jpg' (cropped by a Commons user in December 2024 from the 6498 x 8123 original 'Buzz Aldrin (S69-31743).jpg'); public domain as a work of NASA, a US government agency (the Commons PD-USGov tag quotes NASA's policy that its material is not protected by copyright unless noted; NASA's own media-usage page was not separately opened, and no conflicting notice appears on the NASA Image Library record); the Commons page carries the generic personality-rights notice (non-copyright). Downscaled only, from 2779 x 3304 to 1009 x 1200. The lead's suggested 'Aldrin Apollo 11 (3x5 crop).jpg' was rejected because it is the visor-reflection lunar-surface photograph (AS11-40-5903), in which Aldrin's face is not visible."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/buzz-aldrin-nasa-1969.jpg",
+    "width": 1009,
+    "height": 1200,
+    "source": "NASA / Johnson Space Center, 'Apollo XI - Prime Crew - Portrait' of Edwin E. Aldrin Jr., photo ID S69-31743, 16 April 1969 (NASA Image and Video Library), via the Wikimedia Commons crop 'Buzz Aldrin (S69-31743) (cropped).jpg' (2779 x 3304 pixels; crop of the NASA original), downscaled to 1009 x 1200.",
+    "license": "Public Domain (NASA work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Buzz_Aldrin_(S69-31743)_(cropped).jpg",
+    "attribution": "NASA, 1969 (photo S69-31743), cropped and downscaled",
+    "attributionUrl": "https://images.nasa.gov/details/S69-31743",
+    "creator": "NASA",
+    "date": "1969-04-16",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Buzz_Aldrin_(S69-31743)_(cropped).jpg"
+  }
+}

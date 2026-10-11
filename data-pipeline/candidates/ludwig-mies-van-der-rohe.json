@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ludwig-mies-van-der-rohe",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ludwig Mies van der Rohe",
+    "aliases": [
+      "Mies",
+      "Ludwig Mies"
+    ],
+    "wikidataId": "Q41508",
+    "birthYear": 1886,
+    "deathYear": 1969,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE",
+      "US"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect",
+      "teacher"
+    ],
+    "fieldIds": [
+      "architecture"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "innovation"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "perfectionist",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mies_wikidata",
+      "kind": "wikidata",
+      "title": "Ludwig Mies van der Rohe (Q41508) -- verified live via the Wikidata API (2026-10-10): English label 'Ludwig Mies van der Rohe', description 'German architect (1886-1969)', born 27 March 1886, died 17 August 1969, instance of human, citizenship Germany and United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q41508"
+    },
+    {
+      "id": "src_mies_spectator_farnsworth",
+      "kind": "press",
+      "title": "Stephen Bayley, 'The magnificent fiasco of Mies van der Rohe's Farnsworth House', The Spectator, 10 April 2021 -- critic's review of Alex Beam's 'Broken Glass', combining admiration for the house's detailing with a sharp account of its habitability, cost and Mies's handling of the client. Personal relationship, drinking and similar passages and the Nazi-era remarks were not used. Read in full.",
+      "url": "https://spectator.com/article/the-magnificent-fiasco-of-mies-van-der-rohe-s-farnsworth-house/"
+    },
+    {
+      "id": "src_mies_spectator_mertins",
+      "kind": "press",
+      "title": "Stephen Bayley, 'The man who gave the world (but not London) the glass skyscraper', The Spectator, 15 February 2014 -- critic's review of Detlef Mertins's Phaidon monograph 'Mies': on the perfectionism and refusal of decoration, the deliberately deep Seagram mullions, and criticism that his language was easy to imitate. The Bauhaus-closure and Nazi-era passages were not used. Read in full.",
+      "url": "https://spectator.com/article/the-man-who-gave-the-world-but-not-london-the-glass-skyscraper/"
+    },
+    {
+      "id": "src_mies_moma_iit",
+      "kind": "institution",
+      "title": "Museum of Modern Art, collection entry for Mies's 'IIT Master Plan, Chicago, Illinois, aerial perspective' (c. 1940-41), with an essay excerpt by Terence Riley -- on his Armour/IIT curriculum patterned on the Bauhaus preliminary course and on drawings that students drafted to his specifications before he added the final touches. Institutional catalogue text. Read in full.",
+      "url": "https://www.moma.org/collection/works/87763"
+    },
+    {
+      "id": "src_mies_tclf",
+      "kind": "institution",
+      "title": "The Cultural Landscape Foundation, 'Ludwig Mies van der Rohe' pioneer profile -- short biography: no formal architectural training, director of the Armour/IIT architecture school until 1958, International Style, Seagram Building and Plaza (with Philip Johnson), landscape collaboration with Alfred Caldwell on IIT, Lafayette Park and Toronto-Dominion Centre. Read in full.",
+      "url": "https://www.tclf.org/pioneer/ludwig-mies-van-der-rohe"
+    },
+    {
+      "id": "src_mies_cac",
+      "kind": "institution",
+      "title": "Chicago Architecture Center, 'Edith Farnsworth House' building profile -- Farnsworth House history: Mies as general contractor 'meticulously controlling every detail', the dispute over cost, and the court's finding in his favour on a 30 percent overrun. Read in full.",
+      "url": "https://www.architecture.org/online-resources/buildings/edith-farnsworth-house"
+    },
+    {
+      "id": "src_mies_brit_farnsworth",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Farnsworth House' -- encyclopedia article on the 1951 house: eight I-beams, welds polished smooth, seams and fastenings removed, and the note that Mies ignored storage and closets 'in favour of an aesthetic perfectionism'. Read in full (rumoured romance passage not used).",
+      "url": "https://www.britannica.com/print/article/1771537"
+    },
+    {
+      "id": "src_mies_brit_bio",
+      "kind": "biography",
+      "title": "Wolf Von Eckardt, 'Ludwig Mies van der Rohe', Encyclopaedia Britannica biography -- early training (no formal architectural education, apprenticeships, Behrens, Schinkel and Berlage influences), the 1919-21 glass skyscraper projects, Weissenhof 1927 and the 1929 Barcelona Pavilion and chair. Read to the point where the Bauhaus years begin; the later sections were behind the free-access cutoff and were not read. Family and Bauhaus-closure passages not used.",
+      "url": "https://www.britannica.com/biography/Ludwig-Mies-van-der-Rohe"
+    },
+    {
+      "id": "src_mies_metropolis_lambert",
+      "kind": "press",
+      "title": "Paul Makovsky, '\"I Was There\": Phyllis Lambert on Mies and Building Seagram', Metropolis, 22 July 2013 -- interview with the Seagram building's planning director on choosing Mies and on how he approached the commission and other architects. Client-side first-hand witness, admiring of Mies. Read in full.",
+      "url": "https://metropolismag.com/projects/phyllis-lambert-mies-building-seagram/"
+    },
+    {
+      "id": "src_mies_archpaper_lambert",
+      "kind": "press",
+      "title": "Vladimir Belogolovsky, interview with Phyllis Lambert about Mies and the Seagram Building, The Architect's Newspaper -- detailed first-hand account of the design process: the plaza, the 1/8-inch model and the stilts exchange, the bronze on the back firewall, the associate architects' reaction, and how Lambert shielded Mies's decisions. Client-side witness, admiring but independent of Mies. Read in full.",
+      "url": "https://www.archpaper.com/?p=371517"
+    },
+    {
+      "id": "src_mies_poli_convention",
+      "kind": "institution",
+      "title": "Zaida Garcia-Requejo, Pablo Rodriguez Rodriguez and Maria del Pilar Salazar Lozano, 'Mies's Convention Hall: Convergence of Teaching and Architecture', Cuadernos de Proyectos Arquitectonicos, no. 9, 2019 -- abstract only (the article PDF was not opened): Mies developed the 1953-54 Convention Hall project with his graduate students and engineer Frank Kornacker, and many accounts overlook the students' role. Abstract-level support only.",
+      "url": "https://polired.upm.es/index.php/proyectos_arquitectonicos/article/view/4551"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mies_cac, src_mies_brit_farnsworth, src_mies_spectator_farnsworth, src_mies_archpaper_lambert | 1951-1958 | institution, encyclopedia, critic, client-side witness] At the Farnsworth House he acted as general contractor and controlled every detail, polished the welds smooth and removed all seams and fastenings, and rivet heads were ground off at the steel junctions; at Seagram he insisted on bronze even for a back firewall nobody would see ('God would see it'), per the planning director. Four sources of different kinds, including a critic who is hostile to the house's livability, agree on the precision. The score stays under 85 because the most vivid anecdote comes from an admiring witness. LEAD REVIEW CORRECTION (Roster48, before eligibility, downward only): built on two critic pieces, a client-side witness and institutional pages; score and confidence lowered."
+    },
+    "perfectionism": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_mies_brit_farnsworth, src_mies_spectator_farnsworth, src_mies_spectator_mertins, src_mies_cac | 1951-1958 | encyclopedia, critic x2, institution] Britannica says he ignored storage and closets in favour of an aesthetic perfectionism; the critic describes fanatical perfectionism, deliberately deep Seagram mullions for looks, refusal of double glazing and a house that was an oven in summer; the Chicago Architecture Center notes the cost overrun, which a court attributed to materials costs. The same standard produced acclaimed buildings and a dispute with a client, hence dual-edged."
+    },
+    "aesthetic_sensitivity": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mies_brit_bio, src_mies_archpaper_lambert, src_mies_spectator_mertins | 1919-1958 | encyclopedia, client-side witness, critic] Britannica describes the 1929 pavilion's travertine, onyx and marble spaces and its chair; Lambert reports he chose bronze with a particular alloy he likened to an old penny; the critic argues the Seagram mullions were sized for appearance rather than structure. A consistent record of material and proportion choices; the inference is that these reflect sensitivity rather than convention."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mies_archpaper_lambert, src_mies_cac, src_mies_spectator_farnsworth | 1951-1958 | client-side witness, institution, critic] When the Seagram chairman objected to the stilts he answered 'look how beautiful it is' (and the objection ended there); at Farnsworth he sued over unpaid costs and was countersued, and the court ruled in his favour on the overrun; the critic reports he refused changes the client asked for. Willingness to hold a position against clients, but the record is a few episodes from two projects and some is the critic's colour."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mies_moma_iit, src_mies_tclf, src_mies_poli_convention, src_mies_archpaper_lambert, src_mies_spectator_farnsworth | 1940-1958 | institution, abstract, client-side witness, critic] He worked with Philip Johnson on Seagram and with Alfred Caldwell on landscapes, students drafted to his specification and later joined his office, and graduate students helped develop the Convention Hall; Lambert says the associate architects thought his work childish and had to act as a connector, and the critic calls him careless as a building administrator. Productive teams, uneven fit with clients and contractors."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mies_brit_bio, src_mies_tclf, src_mies_moma_iit | 1900-1958 | encyclopedia, institution x2] He had no formal architectural training, apprenticed with architects and a furniture designer and studied Schinkel and Berlage, then spent decades refining one idea of structural honesty; at IIT he built a curriculum from basic drafting upward. Descriptions of a lifelong, craft-first pursuit of one language, but no source reports his own account of learning, hence strong inference."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루트비히 미스 반 데어 로에"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q41508 returned en label 'Ludwig Mies van der Rohe', description 'German architect (1886-1969)', born 27 Mar 1886, died 17 Aug 1969, instance of human, citizenship Germany and United States; Korean label matches. SLUG/QID CHECK: no existing production or candidate slug or QID collision. READ (10 substantive sources, Wikidata for orientation only): two Spectator reviews by Stephen Bayley (critic, partly adversarial), MoMA catalogue text, TCLF profile, Chicago Architecture Center and Britannica Farnsworth House pages, Britannica biography (read only to the start of the Bauhaus years, the rest was behind the free-access cutoff), and two interviews with Phyllis Lambert (Metropolis, The Architect's Newspaper); one academic abstract on teaching and the Convention Hall (abstract only). PERSPECTIVES: critic, client-side witness, institutions and encyclopedias, academic abstract. EXCLUDED: 1930s Bauhaus-closure and Nazi-era dealings (incidental, unscored), politics, family, marriage and relationship passages (including the rumoured romance with the Farnsworth client), drinking and similar personal remarks in the Spectator pieces, health, and any inference from his emigration. NOT OPENED: Alex Beam's 'Broken Glass', Peter Carter's 'Mies van der Rohe at Work', Mertins's 'Mies', the Banham teaching quote (only seen in a search summary), and the full text of the Convention Hall article. Farnsworth lawsuit outcome is reported inconsistently across sources (court ruled for Mies per the Chicago Architecture Center; cost figures vary), so only the Chicago Architecture Center's version is cited and no cost figure is asserted. Six rows only; highest score 84, highest confidence 0.70, because the Farnsworth and Seagram episodes dominate the record. PORTRAIT: Hugo Erfurth, oil-print portrait of 1934, held by the Museum fur Kunst und Gewerbe Hamburg (inventory P1991.5012), which labels it 'Public Domain'; Commons 'Hugo Erfurth - Portrait Ludwig Mies van der Rohe, 1934.jpg' (PD-Art, PD-old, Public Domain Mark). Erfurth died 14 Feb 1948, so the photograph is out of copyright in Germany under life plus 70 years (since 1 Jan 2019). Residual note: no first-publication data for the print were found, so US status rests on the institution's and Commons's public-domain determination; no conflicting rights notice was found on the MK&G page. Not downscaled; 866 x 1200 as downloaded. LEAD REVIEW (Roster48): 1 top row(s) lowered before eligibility (built on two critic pieces, a client-side witness and institutional pages)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ludwig-mies-van-der-rohe-hugo-erfurth-1934.jpg",
+    "width": 866,
+    "height": 1200,
+    "source": "Museum fur Kunst und Gewerbe Hamburg (MK&G Sammlung Online), inventory P1991.5012, Hugo Erfurth, 'Ludwig Mies van der Rohe', oil print, Dresden, 1934, labelled Public Domain by the museum; Wikimedia Commons digital copy 'Hugo Erfurth - Portrait Ludwig Mies van der Rohe, 1934.jpg', 866 x 1200 pixels, unmodified. Hugo Erfurth died 14 February 1948 (life plus 70 years expired 2018).",
+    "license": "Public domain (author died 1948)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Hugo Erfurth, 1934; Museum fur Kunst und Gewerbe Hamburg, public domain",
+    "attributionUrl": "https://www.mkg-hamburg.de/object/mkg-e00131935",
+    "creator": "Hugo Erfurth",
+    "date": "1934",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hugo_Erfurth_-_Portrait_Ludwig_Mies_van_der_Rohe,_1934.jpg"
+  }
+}

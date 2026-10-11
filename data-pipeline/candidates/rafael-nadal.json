@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rafael-nadal",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Rafael Nadal",
+    "aliases": [
+      "Rafa Nadal",
+      "Rafael Nadal Parera"
+    ],
+    "wikidataId": "Q10132",
+    "birthYear": 1986,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nadal_wikidata",
+      "kind": "wikidata",
+      "title": "Rafael Nadal (Q10132) -- verified live via the Wikidata API (2026-10-10): English label 'Rafael Nadal', description 'Spanish tennis player (born 1986)', born 3 June 1986, no date of death, instance of human, citizenship Spain. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q10132"
+    },
+    {
+      "id": "src_nadal_iese",
+      "kind": "institution",
+      "title": "IESE Insight (IESE Business School), 'Rafa Nadal: an example of effort', 16 November 2009 -- case-study article based on interviews with Nadal and his team about his training with his uncle and coach Toni Nadal, specific episodes (the James Blake balls, post-victory review of weak points, months on his serve) and how his team grew. Coach and team voices; admiring and dated 2009. Family and private passages not used. Read in full.",
+      "url": "https://www.iese.edu/insight/articles/rafa-nadal-example-effort/"
+    },
+    {
+      "id": "src_nadal_atp_moya",
+      "kind": "press",
+      "title": "Rafael Plaza, 'Moya: interview, part 2', ATPTour.com, 19 December 2023 -- interview with Nadal's coach Carlos Moya on training load, competitiveness and how the team works with Nadal. Coach first-hand view on the official tour site. Injury and health passages were not used. Read in full.",
+      "url": "https://www.atptour.com/en/news/moya-nadal-interview-december-2023-part-2"
+    },
+    {
+      "id": "src_nadal_federer_letter",
+      "kind": "press",
+      "title": "Punto de Break, 'Federer's emotional farewell letter to Nadal: You challenged me in ways no one else could', 19 November 2024 -- report and translation of Roger Federer's open letter to Nadal on their rivalry, his intensity and rituals. Rival's first-hand view; affectionate in tone. Read in full.",
+      "url": "https://www.puntodebreak.com/en/2024/11/19/federers-emotional-farewell-letter-to-nadal-you-challenged-in-ways-no-one-else-could"
+    },
+    {
+      "id": "src_nadal_tennisnet_ao22",
+      "kind": "press",
+      "title": "Jens Huiber, 'Australian Open: Rafael Nadal after a 2-0 set deficit against Medvedev for the 21st Grand Slam victory', tennisnet.com, 30 January 2022 -- independent set-by-set report of the 2022 Australian Open final, including the three break points Nadal saved at 0-40 in the third set. Background on his preceding injuries was not used. Read in full.",
+      "url": "https://www.tennisnet.com/en/news/australian-open-rafael-nadal-after-a-2-0-set-deficit-against-medvedev-for-the-21st-grand-slam-victory"
+    },
+    {
+      "id": "src_nadal_tennismajors_uso19",
+      "kind": "press",
+      "title": "Tennis Majors, 'US Open 2019: Medvedev fightback created unforgettable moment - Nadal', 9 September 2019 -- report of Nadal's post-final comments after the five-set 2019 US Open final, including his praise of Medvedev. Self quotation in an independent report. Read in full.",
+      "url": "https://www.tennismajors.com/?p=15704"
+    },
+    {
+      "id": "src_nadal_ap_laver",
+      "kind": "press",
+      "title": "Associated Press (via ESPN), 'Roger Federer, paired with Rafael Nadal, loses in his last match at Laver Cup', 23 September 2022 -- wire report of the doubles match and Nadal's comments afterwards. Read in full.",
+      "url": "https://www.espn.com/tennis/story/_/id/34652037/roger-federer-pairs-rafael-nadal-last-match-falls-doubles-laver-cup"
+    },
+    {
+      "id": "src_nadal_reuters_davis",
+      "kind": "press",
+      "title": "Reuters (via Flashscore), 'An emotional goodbye: Nadal leaves a proud legacy as he officially enters retirement', November 2024 -- report of Nadal's farewell Davis Cup singles defeat in Malaga and his speech, including his comments on team selection by captain David Ferrer. Read in full.",
+      "url": "https://www.flashscore.com/news/tennis-davis-cup-world-group-atp-singles-an-emotional-goodbye-nadal-leaves-a-proud-legacy-as-he-officially-enters-retirement/xvcOuJZg"
+    },
+    {
+      "id": "src_nadal_tsn_slams",
+      "kind": "press",
+      "title": "Howard Fendrich (Associated Press), 'A look at Nadal's 22 Grand Slam titles as he prepares to retire after Davis Cup', TSN, 18 November 2024 -- AP list of his 22 major titles by tournament (14 French Open, 4 US Open, 2 Wimbledon, 2 Australian Open) and notable facts. Record facts only. Read in full.",
+      "url": "https://www.tsn.ca/tennis/a-look-at-rafael-nadal-s-22-grand-slam-titles-as-he-prepares-to-retire-after-davis-cup-1.2206758"
+    },
+    {
+      "id": "src_nadal_tennis_beijing",
+      "kind": "press",
+      "title": "John Berkok, 'On this day 2008: Rafael Nadal captures gold medal at Beijing Olympics', Tennis.com, 17 August 2023 -- retrospective on his 2008 Olympic singles final win over Fernando Gonzalez and the semifinal against Novak Djokovic. Award fact only, added to support the achievement cards. Read in full.",
+      "url": "https://tennis.com/news/articles/on-this-day-2008-rafael-nadal-captures-gold-medal-at-beijing-olympics"
+    },
+    {
+      "id": "src_nadal_outlook_numbers",
+      "kind": "press",
+      "title": "Outlook Sports Desk (AP inputs), 'Rafael Nadal's career in numbers before farewell at Davis Cup Final 8', Outlook India, 19 November 2024 -- summary of his two Olympic golds (singles 2008, doubles 2016), 22 Grand Slams, 63 clay titles, a 112-4 record at Roland Garros and 29-1 Davis Cup singles record at that date. Record facts only, added to support the achievement cards. Read in full.",
+      "url": "https://www.outlookindia.com/sports/tennis/rafael-nadal-retirement-career-in-numbers-before-farewell-at-davis-cup-final-8"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nadal_iese, src_nadal_atp_moya | 2009-2023 | coach-side accounts 14 years apart] The IESE case describes training of about three hours between tournaments and nearly all day in pre-season, no tolerance of excuses (the story of being told to lose and stop complaining about the balls in a match against James Blake, then winning a title the next week with the same balls), and a review of weak points even after his first Roland Garros title. Fourteen years later his coach Moya says a large part of the team's job is to restrain his training load and hours. Both are coach-side and admiring in tone, which caps confidence below 0.7 and the score below 80."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nadal_iese, src_nadal_federer_letter | 2009-2024 | team-side case study + rival's letter] The IESE case reports he worked for months on his serve and accepted criticism even after victories; Federer writes that Nadal made him rethink his own game, down to his racquet head size, which is an outside observation of how much Nadal's game demanded of rivals rather than a direct account of Nadal's own learning. One detailed team-side instance and one indirect outside signal, so strong_inference at a moderate level."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nadal_tennisnet_ao22, src_nadal_tennismajors_uso19, src_nadal_federer_letter | 2019-2024 | independent match reports + rival's letter] In the 2022 Australian Open final he recovered from two sets down, saved three break points at 0-40 in the third set and repeatedly broke back (tennisnet); after the five-set 2019 US Open final he credited Medvedev's fightback for the moment (Tennis Majors, Nadal's own words); Federer says on clay Nadal made him work harder than he thought he could. Several independent match episodes converge; they are all match-level, so strong_inference rather than documented."
+    },
+    "competitiveness": {
+      "score": 82,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nadal_atp_moya, src_nadal_federer_letter, src_nadal_tennisnet_ao22, src_nadal_iese | 2009-2024 | coach, rival and independent reports] Moya calls him a 'competitive animal' when he steps on court; Federer, his main rival, writes that Nadal challenged him in ways no one else could and that he was beaten far more often than he won; Nadal's recovery from two sets down in the 2022 Australian Open final is reported independently (tennisnet), and Toni Nadal's account (IESE) shows the competitive standard set from childhood. Coach, rival and neutral reporter agree across 15 years; the score stays under 85 because the evidence is mostly admiring and not adversarial."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nadal_iese, src_nadal_atp_moya, src_nadal_reuters_davis, src_nadal_ap_laver | 2009-2024 | team-side accounts + wire reports] His team grew from two people to seven with loosely defined roles, which the case study says broadened decision-making; Moya says Nadal defers to the team's judgement on workload; at the 2024 Davis Cup he said that, as captain, he would not select himself for singles and that David Ferrer made the call; in 2022 he played doubles with Federer at the Laver Cup. Several instances of team-oriented conduct, but most are second-hand descriptions or Nadal's own words, so moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "라파엘 나달"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q10132 returned en label 'Rafael Nadal', description 'Spanish tennis player (born 1986)', born 3 Jun 1986, no death date, instance of human, citizenship Spain; Korean label matches. SLUG/QID CHECK: no existing production or candidate slug or QID collision (Roger Federer's candidate file only links Nadal articles). LIVING SUBJECT: only documented public professional behaviour (training, match conduct, rivalry conduct, team work, career decisions on court) is scored. Injuries and comeback medical detail, family, marriage and children, the 2022 personal circumstances noted in one tennis.com report, foundation work, business and any inferred psychology (including any speculation on his rituals) were deliberately excluded. READ (8 substantive sources): IESE Insight (2009), ATPTour.com Moya interview (2023), Federer's open letter via Punto de Break (2024), tennisnet 2022 Australian Open final report, Tennis Majors 2019 US Open comments, AP/ESPN Laver Cup 2022, Reuters/Flashscore 2024 farewell, AP/TSN 2024 list of 22 titles; the tennis.com 2022 piece was opened but contributed only context already in the AP report. Wikidata for orientation. PERSPECTIVES: coaches (Toni Nadal via IESE, Carlos Moya), main rival Federer, independent match reporters, wire services, and Nadal's own quotations (2019, 2022, 2024). Self material is never sole support. NOT OPENED: Toni Nadal's tennishead interview (403) and the BBC 'tough love' feature as reprinted by The Manica Post (403), the Tennis Majors/L'Equipe Moya piece (not opened and it concerns his doubts and injuries), Nadal's autobiography 'Rafa' and Toni's 'Rafa: My Story' / 'Todo se puede entrenar' (no access), Britannica (not opened). Coverage is narrow (five rows), no score above 82 and confidence at most 0.68, because most sources are sympathetic coach, team or rival accounts and there is no adversarial source. A decade-old case study carries the childhood and early-career training evidence. PORTRAIT: Commons 'Rafael Nadal en 2024 (cropped).jpg' by Barcex, 22 April 2024 (25th Laureus World Sports Awards red carpet), CC BY-SA 4.0 via the file's own self-licence; the file page also carries the Commons 'Personality rights' template (Restrictions: personality), the same situation as the Lionel Messi and Cristiano Ronaldo portraits; the licence for the photograph is clear and this is a non-copyright reuse notice. It is a crop of a group photograph taken at an event; the cropped file shows Nadal alone, with the event backdrop visible, not downscaled. ACHIEVEMENT SOURCES ADDED after the first-pass editorial review found the Olympic golds missing: Tennis.com (2008 Beijing final) and Outlook India/AP career numbers; award and record facts only, no scoring changed. Five Davis Cup titles were seen only in a search summary, not opened, so they are not asserted."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/rafael-nadal-barcex-2024.jpg",
+    "width": 1006,
+    "height": 1355,
+    "source": "Wikimedia Commons, 'Rafael Nadal en 2024 (cropped).jpg' -- Barcex's own work, taken at the 25th Laureus World Sports Awards red carpet, Madrid, 22 April 2024 (supported by Wikimedia Espana), cropped from 'Rafael Nadal en 2024.jpg'; unmodified original of the cropped file, 1006 x 1355 pixels. The file page also carries the Commons 'Personality rights' template (non-copyright restriction).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Barcex, 22 April 2024, CC BY-SA 4.0, cropped from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Rafael_Nadal_en_2024_(cropped).jpg",
+    "creator": "Barcex",
+    "date": "2024-04-22",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Rafael_Nadal_en_2024_(cropped).jpg"
+  }
+}

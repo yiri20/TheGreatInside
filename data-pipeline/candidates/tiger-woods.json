@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "tiger-woods",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Tiger Woods",
+    "aliases": [
+      "Eldrick Tont Woods",
+      "Eldrick Woods"
+    ],
+    "wikidataId": "Q10993",
+    "birthYear": 1975,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tiger_wikidata",
+      "kind": "wikidata",
+      "title": "Tiger Woods (Q10993) -- verified live via the Wikidata API (2026-10-10): English label 'Tiger Woods', description 'American golfer', born 30 December 1975, no date of death, instance of human, citizenship United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q10993"
+    },
+    {
+      "id": "src_tiger_espn_diaz",
+      "kind": "press",
+      "title": "Jaime Diaz, 'Tiger underwent major swing reconstruction', ESPN (from Golf Digest), 14 December 2004 -- independent long-form account of Woods's 2003-04 swing rebuild with Hank Haney, including Woods's own explanation, former coach Butch Harmon's disagreement, and critics (Vijay Singh, Johnny Miller). Injury and surgery passages were not used. Read in full.",
+      "url": "https://www.espn.com/golf/news/story?id=1946259"
+    },
+    {
+      "id": "src_tiger_golf_bamberger",
+      "kind": "press",
+      "title": "Michael Bamberger, 'A master plan: Exclusive look inside the days that led to Tiger Woods' 2019 Masters victory', GOLF.com, 7 April 2020 -- excerpt from Bamberger's book 'The Second Life of Tiger Woods' covering Woods's practice and preparation in the days before the 2019 Masters, with accounts from caddie Joe LaCava, Justin Thomas, Jose Maria Olazabal and caddie Terry Holt. Independent biographer's reporting; the book itself was NOT read and its private-life material is not used. Excerpt read in full.",
+      "url": "https://golf.com/news/tournaments/tiger-woods-2019-masters-victory-exclusive-look/"
+    },
+    {
+      "id": "src_tiger_espn_harig",
+      "kind": "press",
+      "title": "Bob Harig, 'The 12 things to know about Tiger Woods' 2019 Masters win', ESPN, 9 November 2020 -- reported retrospective of Woods's 2019 Masters preparation and final round, with comments from LaCava, Rob McNamara, Webb Simpson, Justin Rose and Patrick Reed. Independent report; read in full.",
+      "url": "https://africa.espn.com/golf/story/_/id/30228624/the-12-things-know-tiger-woods-win-masters"
+    },
+    {
+      "id": "src_tiger_golf_ralph",
+      "kind": "press",
+      "title": "Pat Ralph, 'Masters 2019: the 12th hole and Tiger's victory', GOLF.com, 15 April 2019 -- report of his club and target choice on the 12th hole in the final round, with Woods's own words. Self quotation in an outlet's report. Read in full.",
+      "url": "https://www.golf.com/news/columns/2019/04/15/masters-2019-12th-hole-tiger-victory/"
+    },
+    {
+      "id": "src_tiger_pgatour_picks",
+      "kind": "institution",
+      "title": "Mike McAllister, PGA TOUR news report on the 2019 Presidents Cup captain's picks, 7 November 2019 -- Woods naming himself as one of four picks and a playing captain, assistants' roles and his described approach to the dual role. Official tour source quoting Woods; medical passages not used. Read in full.",
+      "url": "https://www.pgatour.com/article/news/latest/2019/11/07/tiger-woods-analysis-presidents-cup-picks-playing-captain-news-notes"
+    },
+    {
+      "id": "src_tiger_golf_melton",
+      "kind": "press",
+      "title": "Zephyr Melton, 'Tiger Woods hated this drill', GOLF.com Play Smart, 21 February 2025 -- short instruction feature on Butch Harmon's 'pause drill' with Woods's own recollection of practising it for hours. Mostly self account. Read in full.",
+      "url": "https://golf.com/instruction/tiger-woods-hated-this-drill-play-smart/"
+    },
+    {
+      "id": "src_tiger_golfweek_wins",
+      "kind": "press",
+      "title": "Golfweek (USA TODAY Sports), 'A look at Tiger Woods' 82 career PGA Tour victories', 28 October 2019, republished on Yahoo Sports -- list of all 82 wins including 15 majors and the margins. Record facts only. Read in full.",
+      "url": "https://ca.sports.yahoo.com/news/82-pga-tour-wins-tiger-000041445.html"
+    },
+    {
+      "id": "src_tiger_compendium",
+      "kind": "press",
+      "title": "Golf Compendium, '2001 Masters: Completing the Tiger Slam' (undated reference page) -- results of the 2001 Masters and the definition of the four consecutive majors from the 2000 U.S. Open to the 2001 Masters. Amateur reference site; used only for the Tiger Slam fact. Read in full.",
+      "url": "https://golfcompendium.com/2018/11/2001-masters-tournament.html"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_tiger_espn_diaz, src_tiger_golf_melton, src_tiger_golf_bamberger | 1997-2019 | independent long-form report + self account + biographer excerpt] Diaz documents the deliberate 2003-04 swing rebuild (and refers to the 1997-98 overhaul that preceded it), undertaken when he was already a top player, with Woods's own words, 'I thought I could become better', and his former coach Harmon on the other side of the argument; Woods recalls practising Harmon's pause drill 'for hours and hours'; Bamberger describes him talking turf, grain and wedge specifications with Olazabal days before the 2019 Masters. Repeated, independent instances across 20 years, but the rebuilds cost results for a time and drew public criticism, hence dual_edged."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tiger_espn_diaz, src_tiger_golf_melton | 1998-2004 | independent report + self account] Diaz notes the 2004 rebuild produced the same win total as his 1998 rebuilding year and no major, yet he continued; Woods says 'achieving trust is always the final step with a change' and recalls hours of repeated drill work under Harmon. Two documented periods of staying with a difficult process through weak results; both are mainly swing-change episodes, hence strong_inference and not higher."
+    },
+    "planning_orientation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tiger_golf_bamberger, src_tiger_espn_harig | 2019 | two independent accounts of the same week] Before the 2019 Masters he arrived the Sunday before tournament week, earlier than in at least a decade, kept the calendar light, walked the front nine with only a putter and wedges, and (per Harig) skipped the Tuesday practice round, later saying it was the best move he made that week; Bamberger notes his 14-club set-up had been refined well beforehand. Bamberger's and Harig's accounts agree, but they describe one tournament week, so strong_inference."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tiger_espn_diaz, src_tiger_golf_bamberger | 2004-2019 | independent reports] Diaz records specific technical changes (swing plane, a 'flat spot' at the bottom of the swing, a switch to a 460cc driver with a 44.5-inch graphite shaft); Bamberger records a 14-club set-up refined down to the shafts and a Wednesday session with Olazabal on turf, grain, slopes, bunker lips and wedge specifications. Two independent reports a decade and a half apart converge on equipment and technical precision."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tiger_espn_diaz, src_tiger_golf_ralph | 2004-2019 | independent report + self quotation] Diaz reports Woods describing the 2004 changes as less extensive than his 1997-98 overhaul, with Harmon's public line being 'if something's not broken, don't fix it'; in both cases he rebuilt while already a top-ranked player. In the 2019 final round he deliberately aimed left of the flag at the 12th, a conservative choice by his own account. Willing to risk form for improvement while choosing safe targets in contention; the pattern is mixed, so moderate and dual_edged."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tiger_pgatour_picks, src_tiger_golf_bamberger | 2019 | official tour report + biographer excerpt] In 2019 he named himself as one of four picks and thus a playing captain for the Presidents Cup (only the second in the event's history), said he would keep an open line with his assistants and players, and told one unpicked player himself; Bamberger describes him as clearly the leader of his small preparation team. Two instances from a single year, one of them the biographer's characterisation, so a moderate lean only."
+    },
+    "competitiveness": {
+      "score": 68,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_tiger_espn_harig, src_tiger_golf_bamberger | 2019 | two independent reports] Harig mentions a Wednesday closest-to-the-pin contest on the ninth hole before the 2019 Masters, which LaCava later tied to a downhill putt on Sunday; Bamberger reports Thomas saying he was less helpful than Fred Couples in a Monday practice round, which the author reads as competitive focus. Both are small episodes interpreted by the writers, and the evidence comes from one week; kept low-confidence rather than scored from reputation."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "타이거 우즈"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q10993 returned en label 'Tiger Woods', description 'American golfer', born 30 Dec 1975, no death date, instance of human, citizenship United States; Korean label matches. SLUG/QID CHECK: no existing production or candidate slug or QID collision. LIVING SUBJECT: only documented public competitive and professional behaviour (swing rebuilds, practice, tournament preparation, on-course decisions, Presidents Cup captaincy role) is scored. Injuries, surgeries, the 2021 accident, recovery, family, relationships, the 2009 scandal and Haney's 'The Big Miss' (which is largely private-life and psychological commentary) were deliberately excluded and nothing is inferred from them. Where a source mentioned the knee in connection with the swing rebuild or the Presidents Cup pick, those passages were not used. READ (8 substantive sources): Diaz (ESPN 2004), Bamberger excerpt (GOLF.com 2020), Harig (ESPN 2020), Ralph (GOLF.com 2019), McAllister (PGA TOUR 2019), Melton (GOLF.com 2025), Golfweek list (2019), Golf Compendium; Wikidata for orientation. PERSPECTIVES: Woods himself (2004 and 2019 quotations, 2025 drill recollection), his former coach Butch Harmon, critics Vijay Singh and Johnny Miller (via Diaz), caddie LaCava, Justin Thomas, Olazabal and Terry Holt (via Bamberger), Webb Simpson, Justin Rose and Patrick Reed (via Harig), and independent reporters. Self material is never sole support. NOT OPENED: Golf Digest (403 for the LaCava takeaways, the Presidents Cup piece and the 2019 oral history), Golf Channel (403), Britannica (403), SI Vault Harmon profile and 2004 slump piece (404), Masters.com (timeout), Hank Haney's book, Golf Monthly (truncated), the 2008 U.S. Open reports (a knee-injury story, so excluded in any case). Coverage is narrow (7 rows); the highest score is 80 and the highest confidence 0.66 because most sources are sympathetic retrospectives of one 2019 week and the long-run behaviour rests on the single Diaz report; the rating for competitiveness is deliberately low-confidence inference. PORTRAIT: Commons 'Tiger Woods in May 2019.jpg' (official White House photograph by Joyce N. Boghosian, 6 May 2019, Rose Garden, tagged PD-USGov-POTUS). The basis is verified: the original Flickr page of the White House account shows the Public Domain Mark with the credit 'Official White House Photo by Joyce N. Boghosian', and the template rationale is that it is a work of an Executive Office of the President employee made as part of official duties (17 U.S.C. 105). The archived Trump White House copyright page was not reachable (404), so no conflicting institutional notice was found but none could be positively cleared beyond the Flickr mark. The file is the unmodified original (1051 x 1493). The photograph was taken at a Presidential Medal of Freedom ceremony; it is used only as a portrait of Woods and implies no endorsement."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/tiger-woods-whitehouse-2019.jpg",
+    "width": 1051,
+    "height": 1493,
+    "source": "Wikimedia Commons, 'Tiger Woods in May 2019.jpg' -- official White House photograph by Joyce N. Boghosian, 6 May 2019 (Rose Garden, Medal of Freedom ceremony), originally published on the White House Flickr account with the Public Domain Mark; unmodified original, 1051 x 1493 pixels",
+    "license": "Public domain (work of a U.S. federal government employee)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-POTUS",
+    "attribution": "Official White House Photo by Joyce N. Boghosian, 6 May 2019, public domain (U.S. government work)",
+    "attributionUrl": "https://www.flickr.com/photos/whitehouse/33919289398/",
+    "creator": "Joyce N. Boghosian (White House)",
+    "date": "2019-05-06",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tiger_Woods_in_May_2019.jpg"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "leonard-bernstein",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Leonard Bernstein",
+    "aliases": [
+      "Lenny Bernstein"
+    ],
+    "wikidataId": "Q152505",
+    "birthYear": 1918,
+    "deathYear": 1990,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "communicator",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bernstein_wikidata",
+      "kind": "wikidata",
+      "title": "Leonard Bernstein (Q152505) -- verified live via the Wikidata API (2026-10-10): English label 'Leonard Bernstein', description 'American conductor and composer (1918-1990)', born 25 August 1918, died 14 October 1990, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q152505"
+    },
+    {
+      "id": "src_bernstein_playbill_debut",
+      "kind": "institution",
+      "title": "Gino Francesconi (Carnegie Hall archivist and museum director), 'Leonard Bernstein's Famous Debut', Playbill, 1 November 2003 -- archivist's account of the 14 November 1943 concert in which the 25-year-old assistant conductor replaced the ill Bruno Walter at short notice and without a rehearsal; includes the New York Times front-page and editorial reaction and the count of his later Carnegie Hall appearances. Institutional archivist's account, admiring in tone. Read in full.",
+      "url": "https://playbill.com/article/leonard-bernsteins-famous-debut"
+    },
+    {
+      "id": "src_bernstein_inquirer",
+      "kind": "press",
+      "title": "'Orchestra members remember Bernstein', Philadelphia Daily News / Inquirer, 9 January 2008 -- short recollections by Philadelphia Orchestra violinist-pianist Davyd Booth, cellist Richard Harlow and Israel Philharmonic trumpeter Roger Blackburn of rehearsing and performing under Bernstein (Tristan rehearsals 1977, Mahler Ninth 1979, a 1976 Dell concert, a 1972 Mahler film and a tired Carnegie Hall rehearsal). Three musicians' first-hand accounts, affectionate in tone. Read in full.",
+      "url": "https://www.inquirer.com/philly/entertainment/20080109_Orchestra_members_remember_Bernstein.html"
+    },
+    {
+      "id": "src_bernstein_carnegie_conductor",
+      "kind": "institution",
+      "title": "Carnegie Hall, 'The Conductor: Focus On The Need to Lead', essay from the exhibition 'Bernstein: The Best of All Possible Worlds' (Carnegie Hall Corporation, 2001-2008) -- institutional essay on how he came to conducting (Mitropoulos), the 1943 debut, his appointment as New York Philharmonic music director, his advocacy for American concert music and Mahler, the criticism of his podium style, and a Philharmonic horn player's recollection. Institutional, admiring but acknowledging critics. Read in full.",
+      "url": "https://bernstein.carnegiehall.org/leonardBernstein/essays/nr_theconductor.html"
+    },
+    {
+      "id": "src_bernstein_carnegie_educator",
+      "kind": "institution",
+      "title": "Carnegie Hall, 'The Educator: Focus On Televisions and Teachers', essay from the exhibition 'Bernstein: The Best of All Possible Worlds' (Carnegie Hall Corporation, 2001-2008) -- institutional essay on his Omnibus lectures (including the Beethoven Fifth Symphony lecture on discarded drafts), 53 televised Young People's Concerts between 1958 and 1972, a critic's remark on how little he simplified for children, and his mentoring of younger conductors. Institutional, admiring. Read in full.",
+      "url": "https://bernstein.carnegiehall.org/leonardBernstein/essays/nr_theeducator.html"
+    },
+    {
+      "id": "src_bernstein_jstor",
+      "kind": "press",
+      "title": "Matthew Wills, 'Leonard Bernstein, Teacher', JSTOR Daily, 24 September 2018 -- short feature on the Young People's Concerts (begun two weeks after he became Philharmonic music director in 1958, running fourteen years on CBS) with critic Sudip Bose's assessment of his teaching method and a statement by his daughter that he was proudest of his work as an educator. Secondary and admiring; the daughter's remark is family testimony about his own professional priorities only. Read in full.",
+      "url": "https://daily.jstor.org/leonard-bernstein-teacher"
+    },
+    {
+      "id": "src_bernstein_playbill_ypc",
+      "kind": "press",
+      "title": "Margaret Shakespeare, 'Inspiring the Next Generation', Playbill, 1 March 2004 -- feature on the New York Philharmonic's Young People's Concerts, with conductor Marin Alsop, violist Rebecca Young and others recalling Bernstein's televised concerts and Alsop's account of him later becoming her mentor. Admirers' recollections; used only for the influence of the concerts and the mentoring. Read in full.",
+      "url": "https://playbill.com/article/inspiring-the-next-generation"
+    },
+    {
+      "id": "src_bernstein_amscholar_gould",
+      "kind": "press",
+      "title": "Sudip Bose, 'Who's the Boss?', The American Scholar, 26 July 2018 -- critic's account of the 6 April 1962 New York Philharmonic concert in which Bernstein addressed the audience before Glenn Gould's Brahms D minor concerto, with the full text of his remarks, the disagreement over tempi, Bernstein's eventual agreement to play it Gould's way, Gould's later comments and Harold Schonberg's negative review. Independent and balanced. The second half (a 2000 Grimaud concert) was not used. Read the first half in full.",
+      "url": "https://theamericanscholar.org/?p=35615"
+    },
+    {
+      "id": "src_bernstein_wnyc_gould",
+      "kind": "press",
+      "title": "Sara Fishko, 'Battling Over Brahms', Fishko Files, WNYC (produced 2006; page dated 12 October 2016) -- radio-feature transcript on the Bernstein-Gould 1962 concert quoting Bernstein's disclaimer, Schonberg's snide 'Ossip' review (the Times critic), and Tim Page's 1998 reassessment calling the performance significant and original. Independent. Read in full.",
+      "url": "https://wnyc.org/story/battling-over-brahms/"
+    },
+    {
+      "id": "src_bernstein_ebsco_wss",
+      "kind": "biography",
+      "title": "William B. Kennedy, 'Bernstein Joins Symphonic and Jazz Elements in West Side Story', EBSCO Research Starters (History), 2021 -- encyclopedia-style article on how West Side Story developed from Jerome Robbins's 1949 idea through a shelved 'East Side Story', its 1954 revival, Bernstein's decision to hand lyrics to Stephen Sondheim, the score's mixture of Latin, jazz, ballad and operatic styles, and the show's mixed first reception. Secondary and independent; also mentions his Omnibus lectures and concurrent projects. Read in full.",
+      "url": "https://ebsco.com/research-starters/history/bernstein-joins-symphonic-and-jazz-elements-west-side-story"
+    },
+    {
+      "id": "src_bernstein_nationaalarchief",
+      "kind": "institution",
+      "title": "Nationaal Archief (Dutch National Archives), Fotocollectie Anefo, 'Leonard Bernstein in een ontspannen pose', 20 September 1968, inventory 921-6976 -- archive record page used to check the portrait's rights statement (rights holder 'Nationaal Archief, CC0', reuse 'rechtenvrij en gratis'). Not used for any scoring.",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab4e4036-d0b4-102d-bcf8-003048976d84"
+    }
+  ],
+  "rows": {
+    "collaboration": {
+      "score": 74,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bernstein_ebsco_wss, src_bernstein_amscholar_gould, src_bernstein_inquirer | 1949-1979 | encyclopedia history + independent critic + orchestra musicians] West Side Story took shape in a team of Robbins, Laurents, Sondheim and Bernstein over several years, with Bernstein handing the lyrics to Sondheim when he judged the task too big for him alongside his other work; in 1962 he put his own view aside to lead the orchestra through Gould's different concept of the Brahms concerto; Philadelphia and Israel Philharmonic players describe a conductor who thanked them for good playing and joined them in the music. Several independent episodes across decades; not higher because the same sources record sharp disagreements and a public disclaimer in the Gould case."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernstein_ebsco_wss, src_bernstein_amscholar_gould, src_bernstein_carnegie_educator | 1949-1972 | encyclopedia history + independent critic + institutional essay] The EBSCO article says Bernstein convinced Laurents, who had refused to write a libretto for a 'Bernstein opera', how indispensable Laurents would be to the project; Bose writes that Bernstein eventually gave in to Gould and persuaded the Philharmonic's musicians to accept his radical tempi; Carnegie Hall's essay credits the television lectures with winning a mass audience for sophisticated music. Three separate instances that point the same way, but each is reported in a sentence or two, so strong inference."
+    },
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bernstein_carnegie_conductor, src_bernstein_ebsco_wss, src_bernstein_carnegie_educator | 1943-1972 | institutional essays + encyclopedia history] The sources describe him as a pianist and composer who became a conductor, who also wrote an opera (Trouble in Tahiti), Broadway scores (On the Town, West Side Story, Candide), a film score (On the Waterfront), seven Omnibus television lectures, 53 televised Young People's Concerts and a book from those lectures, and who explained jazz, American musical theatre and classical music in the same programmes. Documented across three independent descriptions; held under 85 because all of it is in music and music teaching."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernstein_playbill_debut, src_bernstein_ebsco_wss, src_bernstein_amscholar_gould | 1943-1962 | archivist + encyclopedia history + independent critic] In 1943 he conducted a nationally broadcast Philharmonic concert on a few hours' notice and without a rehearsal; in the West Side Story project he accepted that the original Catholic-Jewish 'East Side Story' would not work and pointed to the newer Latin American influx as the contemporary setting; in 1962 he accepted a soloist's incompatible concept. Dated, separate episodes; strong inference because each shows adjusting under pressure rather than a stated disposition."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bernstein_amscholar_gould, src_bernstein_wnyc_gould, src_bernstein_inquirer | 1962-1972 | independent critic + radio feature + orchestra musician] Before the 1962 concert he argued with Gould over tempi and character in rehearsal, then went on stage and told the audience he could not say he agreed with the conception; the Times critic punished him for it. A trumpeter recalls him telling the Israel Philharmonic in a rehearsal that they were 'running like a bunch of scared rabbits'. He engaged the disagreement openly but yielded in the end, so the lean is moderate; the Gould episode is the only well-documented clash."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernstein_inquirer, src_bernstein_carnegie_conductor | 1972-1979 | orchestra musicians + institutional essay] Booth says 'with him there were never any dead notes, always a personal intensity' and that he called the 1979 Mahler Ninth the finest performance he had done; Harlow says he was as energetic in rehearsal as in a concert and 'wasn't putting on a show'; horn player Cerminaro says he wanted musicians to give and 'sweat with him'. These are performers' impressions of his emotional commitment to musical shape and expression, plus the institution's note on his long immersion in Mahler; that is consistent with high attention to expressive detail, but it is admiring and impressionistic, so confidence stays moderate."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernstein_carnegie_educator, src_bernstein_jstor, src_bernstein_playbill_ypc, src_bernstein_carnegie_conductor | 1958-1972 | institutional essay + feature + admirers' recollections] He began the Young People's Concerts two weeks into his tenure as Philharmonic music director and led 53 televised ones over fourteen years, pitching them above condescension (Tim Page); Marin Alsop and other musicians say the concerts shaped their careers, and he mentored younger conductors; his daughter has said he was proudest of his educating. He also championed American composers such as Ives and Copland in his programming. The pattern is consistent and well attested, but the sources are admiring and none records the motive in his own contemporaneous words."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernstein_carnegie_educator, src_bernstein_amscholar_gould, src_bernstein_carnegie_conductor | 1958-1972 | institutional essays + independent critic] His Omnibus lecture on Beethoven's Fifth studied the discarded drafts of its opening to ask why Beethoven settled on the final version; his Young People's Concerts opened with questions like 'What is a conductor?'; and in his 1962 remarks he told the audience the orchestra was going along with Gould's reading in a spirit of 'curiosity, adventure and experiment' because the conception was interesting enough to hear. Repeated, concrete questions across formats; moderate confidence because most evidence is from his educating and one speech."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernstein_ebsco_wss, src_bernstein_carnegie_educator, src_bernstein_amscholar_gould | 1957-1972 | encyclopedia history + institutional essay + independent critic] The West Side Story score combined Latin rhythms, jazz, show ballads and operatic ensemble writing, and the article calls the show a milestone because dance carried the story; the televised Young People's Concerts perfected a 'concert-lecture' form with painted-floor scores and orchestra demonstrations; he chose to conduct Gould's unorthodox Brahms rather than withdraw. New formats and mixtures are documented, but the authorship of the stage innovations is shared with Robbins and others, so strong inference."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "레너드 번스타인"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/leonard-bernstein-anefo-1968.jpg",
+    "width": 790,
+    "height": 1200,
+    "source": "Nationaal Archief (Dutch National Archives), Fotocollectie Anefo, 'Leonard Bernstein in een ontspannen pose', 20 September 1968, Concertgebouw Amsterdam (Edison award reportage), inventory 921-6976, photographer unknown / Anefo; also on Wikimedia Commons as 'Leonard Bernstein in een ontspannen pose, Bestanddeelnr 921-6976.jpg'. Original file 2407 x 3658 pixels, downscaled once to 790 x 1200 (never upscaled).",
+    "license": "CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anefo (photographer unknown), 20 September 1968, Nationaal Archief, CC0",
+    "attributionUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab4e4036-d0b4-102d-bcf8-003048976d84",
+    "creator": "Anefo (photographer unknown)",
+    "date": "1968-09-20",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Leonard_Bernstein_in_een_ontspannen_pose,_Bestanddeelnr_921-6976.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-10T00:00:00Z",
+    "updatedAt": "2026-10-10T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-10) for Q152505 returned en label 'Leonard Bernstein', ko label present, born 1918-08-25, died 1990-10-14, citizenship United States; the lead's QID hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID (only incidental 'Woodward and Bernstein' mentions in another person's source text). READ (9 substantive sources, all opened and read in full or, for the American Scholar piece, its Bernstein half): Playbill/Carnegie Hall archivist on the 1943 debut; Philadelphia Inquirer orchestra-members recollections; Carnegie Hall conductor essay; Carnegie Hall educator essay; JSTOR Daily on the Young People's Concerts; Playbill on the Young People's Concerts; Sudip Bose in The American Scholar on the 1962 Gould concert; WNYC Fishko Files on the same concert; EBSCO Research Starters on West Side Story. PERSPECTIVES: orchestra players (first-hand), institutional archivists and exhibition essays (admiring), independent critics (Bose, Page via WNYC, Schonberg's negative contemporary review quoted in WNYC), encyclopedia-style history. Bernstein's own words appear only as quoted inside these sources and never carry a row alone. EXCLUSIONS: private life (marriage, family, sexuality, health, the 'radical chic' episode and other political and activist activity including the 1989 Berlin Freedom concert and Kennedy memorial performances), any inference of motive from private circumstances, and his compositions' critical standing. NOT OPENED: Carnegie Hall's own debut article (queue page blocked), the New York Times obituary and 1943 report (not retrievable), Humphrey Burton's and Joan Peyser's biographies, Bernstein's 'The Joy of Music' and other self writings, Nigel Simeone's letters edition. SCORING: 9 rows, range 62-82, confidence 0.50-0.70; no row above 82 or 0.70 because the evidence is dominated by admiring institutional essays and a small number of musicians' recollections. PORTRAIT: Nationaal Archief Fotocollectie Anefo item 921-6976 (20 September 1968); the archive's own record page states 'Auteursrechthebbende: Nationaal Archief, CC0' and 'U kunt deze afbeelding rechtenvrij en gratis (her)gebruiken', matching the Commons CC0 tag; the fonds-level finding aid carries a general copyright-restriction line, but the item-level CC0 statement governs open-data items; photographer unknown, so no personal-rights holder was identifiable; downloaded from Commons at 2407 x 3658 and downscaled to 790 x 1200. Rejected alternatives: the Jack Mitchell Commons portrait (CC BY-SA 4.0 on the high-resolution derivative, but the permission ticket is recorded only on the small original), and William P. Gottlieb 1946-48 Library of Congress photographs (public domain by the photographer's dedication but of Bernstein at about 28)."
+  }
+}
