@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "richard-branson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Richard Branson",
+    "aliases": [
+      "Sir Richard Branson",
+      "Richard Charles Nicholas Branson"
+    ],
+    "wikidataId": "Q194419",
+    "birthYear": 1950,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_branson_wikidata",
+      "kind": "wikidata",
+      "title": "Richard Branson (Q194419) -- verified live via the Wikidata API (2026-10-11): English label 'Richard Branson', description 'British business magnate', born 18 July 1950, no date of death, citizenship United Kingdom, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q194419"
+    },
+    {
+      "id": "src_branson_gale_biography",
+      "kind": "biography",
+      "title": "Barry Alfonso, 'Branson, Richard 1950-', International Directory of Business Biographies (Gale), via Encyclopedia.com -- reference biography covering the Student magazine and mail-order record start, Virgin Records, the 1984 launch of Virgin Atlantic against his partners' and bankers' objections, the publicity stunts, the 1985 flotation and 1988 buy-back, the unusual group structure and delegating style, the criticism of 'Virgin's system of one', the 1992 sale of the music business, and the late-1990s failures and retrenchment. CANONICAL SIGNIFICANCE SOURCE. Written to 2004; mostly neutral with criticism noted; draws on Branson's own memoir and interviews, so self quotations inside it are marked as such. Read in full.",
+      "url": "https://www.encyclopedia.com/people/social-sciences-and-law/business-leaders/richard-branson"
+    },
+    {
+      "id": "src_branson_grant_case",
+      "kind": "institution",
+      "title": "'Richard Branson and the Virgin Group of Companies in 2002', business-school case study from Robert M. Grant's Contemporary Strategy Analysis teaching materials (Blackwell) -- academic account of the group's structure and Branson's role (publicity, public relations and appointing senior executives), the 1984 airline launch, the 1985 flotation and its aftermath, Virgin Cola, Virgin Vodka, Victory Corporation and Virgin Direct, the Economist's 1998 over-extension warning and the 1996-97 refocus on core businesses. Independent, analytical and critical of several ventures; footnotes cite INSEAD cases, Fortune, Forbes and Bloomberg. Read in full apart from the appendix tables.",
+      "url": "https://www.blackwellpublishing.com/kolb/downloads/private/grant/virgin.pdf"
+    },
+    {
+      "id": "src_branson_sb_rifkin",
+      "kind": "press",
+      "title": "Glenn Rifkin, 'How Richard Branson Works Magic', strategy+business (Booz & Company), 1998 -- management-journal profile with reported interview material from Branson and Virgin executives on his 'big bad wolf' approach to entering industries, the 25 percent of his time spent on publicity, Freddie Laker's advice to use himself in promotion, reading employee mail each morning, his notebook, and the 1992 sale of Virgin Records. Admiring in tone and heavily based on what Branson says; used with that caution. Read in full.",
+      "url": "https://www.strategy-business.com/article/13416"
+    },
+    {
+      "id": "src_branson_csm_baum",
+      "kind": "press",
+      "title": "Julian Baum, 'Branson: just another '60s dreamer?', The Christian Science Monitor, 2 May 1988 -- contemporary newspaper profile with Branson's own account of learning to delegate young, of boyhood friends still running his record company, and of how near the company was to failure four years earlier, plus the reporter's note that Virgin's share price had dipped below its flotation price. Independent contemporary reporting, partly interview. Read in full.",
+      "url": "https://www.csmonitor.com/1988/0502/obran.html"
+    },
+    {
+      "id": "src_branson_marketingweek_mitchell",
+      "kind": "press",
+      "title": "Alan Mitchell, 'Is Branson about to burst the Virgin brand bubble?', Marketing Week, 2 August 2001 -- critical commentary on Branson's decision to redefine Virgin as a 'branded venture capital organisation' licensing its name to joint ventures and partners, with three reasoned objections. Independent critical voice from a marketing columnist; an opinion piece, so used only for what it reports about the decision and for the critical view. Read in full.",
+      "url": "https://www.marketingweek.com/alan-mitchell-is-branson-about-to-burst-the-virgin-brand-bubble/"
+    },
+    {
+      "id": "src_branson_cityam_failures",
+      "kind": "press",
+      "title": "'Why Richard Branson isn't afraid to fail: Four Virgin businesses that didn't work out', City A.M. -- business-press piece on Virgin Cola (1994-2009, the 1998 US launch with a tank in New York), Virgin Megastores, Virgin Brides and Virgin Ware, framing his success as built on experimentation. Light, partly jokey in tone; used only for the facts of the failures. Read in full.",
+      "url": "https://www.cityam.com/why-richard-branson-isn-t-afraid-fail-four-virgin-businesses-didn-t-work-out/"
+    },
+    {
+      "id": "src_branson_simpleflying_history",
+      "kind": "press",
+      "title": "Mark Finlay, 'History: How Virgin Atlantic Came To Be', Simple Flying -- aviation-press history of the airline's founding: Randolph Fields's idea, Freddie Laker's advice, the second-hand 747 leased from Boeing with a one-year option to return it (Branson's recollection), the first flight, the three-class layout and the use of Branson's publicity. Aviation-enthusiast press, sympathetic; the sections on the later dispute with British Airways were not used. Read in full.",
+      "url": "https://simpleflying.com/virgin-atlantic-founding-history/"
+    },
+    {
+      "id": "src_branson_cnbc_blackboard",
+      "kind": "press",
+      "title": "CNBC Make It, 'Richard Branson started Virgin Atlantic with a board and $39 flights', 30 December 2019 -- short feature built on Branson's own recollection, in a CNBC podcast interview, of the cancelled flight, the chartered plane and the call to Boeing. SELF account, a well-polished anecdote; used only to cross-check the Boeing lease, never as sole support. Read in full.",
+      "url": "https://www.cnbc.com/2019/12/30/richard-branson-started-virgin-atlantic-with-a-board-and-39-flights.html"
+    },
+    {
+      "id": "src_branson_biography_com",
+      "kind": "biography",
+      "title": "Biography.com, 'Richard Branson' -- general biography page for dates and orientation (Student magazine at 16, Virgin Records, Virgin Atlantic in 1984, the 1992 sale to Thorn EMI). Popular and uncritical; not used as support for any row. Read.",
+      "url": "https://www.biography.com/business-leaders/richard-branson"
+    },
+    {
+      "id": "src_branson_sciam_unity22",
+      "kind": "press",
+      "title": "Chelsea Gohd and SPACE.com, 'Virgin Galactic Launches Richard Branson to Space in First Fully Crewed Flight of VSS Unity', Scientific American, 12 July 2021 -- news report of the 11 July 2021 Unity 22 flight, in which Branson flew with five others to 86 km (282,000 feet) in Virgin Galactic's SpaceShipTwo, noting the debate over whether the flight officially reached space. Added after the achievement self-gate as the one bounded source for a documented fact only; not used for any trait row. Read in full to the discussion of the altitude debate.",
+      "url": "https://www.scientificamerican.com/article/virgin-galactic-launches-richard-branson-to-space-in-1st-fully-crewed-flight-of-vss-unity"
+    },
+    {
+      "id": "src_branson_commons_chatham",
+      "kind": "institution",
+      "title": "Wikimedia Commons file 'Richard Branson March 2015 (cropped).jpg' and its Flickr source page (Chatham House, 4 March 2015, licence shown as Creative Commons Attribution 2.0) -- opened to check the portrait's licence. Not used for any scoring.",
+      "url": "https://www.flickr.com/photos/chathamhouse/16528067458/"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_branson_gale_biography, src_branson_grant_case, src_branson_sb_rifkin, src_branson_simpleflying_history | 1984-1992 | reference biography + case study + management journal + aviation press] In 1984 he committed to a transatlantic airline over the objections of his Virgin Records executives (the case study says 'to the horror' of his executives; the biography says it caused ill feeling with partners and met disfavour with his bankers) and started it with a single second-hand 747 leased from Boeing with an option to return it after a year; in 1992 he sold the profitable Virgin Music Group for about $1 billion to keep the airline going. The same sources record the downside: the airline's cash problems, losses on Virgin Cola and Victory Corporation. Independent and critical sources agree on the pattern; the lease terms and the cancelled-flight story are partly his own account. Capped at 78 because the physical stunts (powerboat and balloon) are publicity, not business decisions, and are counted only lightly."
+    },
+    "opportunity_sensing": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_branson_sb_rifkin, src_branson_gale_biography, src_branson_grant_case, src_branson_simpleflying_history | 1984-1995 | management journal + reference biography + case study + aviation press] The strategy+business profile quotes his 'big bad wolf' approach of looking for industries whose dominant players overcharge and underdeliver, and the biography quotes his preference for markets served by two giants; the airline pioneered a three-class layout with a premium cabin and seat-back screens, and Virgin Direct offered low-fee funds against the major financial firms, reaching about 250,000 customers within three years of its 1995 launch. These are consistent, specific, independently described entries into incumbent-dominated markets, but several rest on his own framing and some (Cola, Vodka, clothing) did not work, so the score is held in the mid-70s."
+    },
+    "decisiveness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_branson_gale_biography, src_branson_csm_baum, src_branson_grant_case | 1984-1999 | reference biography + 1988 newspaper profile + case study] The biography quotes his memoir that he makes up his mind about a business proposal within thirty seconds on gut instinct, says he found it hard to make rapid decisions once Virgin was a listed company, and reports staff calling this 'Virgin's system of one'; he says Virgin makes decisions on the phone rather than in formal meetings; the case study records the 1985 decision to float the group and, within a few years, the decision to take it private again. Quick decisions are documented, partly in his own words and with staff criticism, so the impact is dual-edged and the evidence type strong inference."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_branson_sb_rifkin, src_branson_simpleflying_history, src_branson_grant_case, src_branson_gale_biography | 1984-1998 | management journal + aviation press + case study + reference biography] The strategy+business profile reports that he sets aside at least a quarter of his time for publicity and that his stunts earned coverage on national television at no cost to Virgin; Simple Flying says the airline obtained a large amount of free publicity from his interviews and stunts; the case study notes his management role was primarily publicity and public relations; Boeing agreed to lease him an aircraft after a meeting (per his own account via CNBC). The counter-evidence is in the same case study: it saw little evidence of Virgin converting media coverage for Virgin Cola into sales. Strong inference with a documented outcome that cuts both ways."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_branson_gale_biography, src_branson_csm_baum, src_branson_grant_case, src_branson_sb_rifkin | 1988-1998 | reference biography + 1988 newspaper profile + case study + management journal] The biography says he usually supervised a business's start-up, delegated management and stepped back in only as a troubleshooter, and promoted people from within (a flight attendant to run Virgin Brides); the 1988 profile says boyhood friends who joined at 17 still ran the record company; the case study says senior executives and advisers formed an informal team that guided strategy and appointments; the management journal reports he reads employee letters each morning. The sources are largely admiring or his own account, and the same record shows he kept a controlling interest, so the score and confidence are modest."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_branson_grant_case, src_branson_gale_biography, src_branson_marketingweek_mitchell | 1988-2001 | case study + reference biography + critical columnist] After the 1987 crash he bought the group back from the stock market in 1988; in 1996-97 the executive team refocused on core businesses; Virgin Vodka was withdrawn and a 49 percent stake in Virgin Atlantic was sold in 1999 to Singapore Airlines, reportedly to support weaker companies; in 2001 he redefined Virgin as a 'branded venture capital organisation' licensing its name, which the columnist criticised as a fundamental change in philosophy. Repeated reshaping of the group is documented by independent sources, but it followed difficulties and the later strategy is contested."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_branson_gale_biography, src_branson_csm_baum, src_branson_sb_rifkin | 1984-1992 | reference biography + 1988 newspaper profile + management journal] The biography says the airline struggled with lenders and overdrafts into the early 1990s and that he gained access to Heathrow in July 1991 and sold the music business in 1992 to keep it flying; in 1988 he said that until about 1984 'the company could have gone either way'. The record shows he kept the airline going through years of financial strain, but the main sources are a reference biography and his own words, and he also closed or sold many other ventures, so the score is moderate."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_branson_grant_case, src_branson_cityam_failures, src_branson_gale_biography | 1987-2002 | case study + business press + reference biography] The case study lists ventures across airlines, rail, cola, vodka, clothing and cosmetics, financial services, internet services and a bid for the National Lottery; the business press names Virgin Cola, Megastores, Brides and Ware as ventures that did not last; the biography records the wider group of more than two hundred companies. Many new fields tried, with documented failures alongside successes, so dual-edged; the sources do not describe how he designed or learned from individual trials, which limits confidence."
+    },
+    "analytical_rigor": {
+      "score": 42,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_branson_gale_biography, src_branson_grant_case | 1988-2002 | reference biography + case study] In his memoir, quoted in the biography, he says he relies 'far more on gut instinct than researching huge amounts of statistics', and staff were reported to call this 'Virgin's system of one'; the case study notes the group had little formal control structure and that Victory Corporation's finance director said the group did not take control of the flotation 'in the way we should have done'. This points to a lean away from formal analysis, but it is largely his self-description plus staff comment, and the same case study credits the group with considerable financial and managerial talent, so the score is a mild lean only and the confidence is moderate."
+    },
+    "competitiveness": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_branson_sb_rifkin, src_branson_gale_biography, src_branson_cityam_failures | 1992-2000s | management journal + reference biography + business press] The strategy+business profile says he has cast himself as David against Goliaths such as British Airways, EMI and Coca-Cola, and the biography quotes his memoir that he loves giving big companies a run for their money; the 1998 US launch of Virgin Cola with a tank in New York (the sources differ on whether it was Times Square or Fifth Avenue) was staged around the same rivalry. The stance is well documented, but it is described mostly in his own words and the cola challenge did not succeed, so the confidence is moderate and the impact is dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "리처드 브랜슨"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/richard-branson-chatham-house-2015.jpg",
+    "width": 823,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Richard Branson March 2015 (cropped).jpg' -- photograph by Chatham House, taken 4 March 2015 at the 'UK Drugs Policy: Taking the Lead Internationally' event, London, from Chatham House's Flickr (photos/chathamhouse/16528067458); Commons records the Flickr licence as verified CC BY 2.0 by the UploadWizard; Commons file 1348 x 1965 pixels, downscaled once to 823 x 1200 (never upscaled).",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Chatham House, 4 March 2015, CC BY 2.0, downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Richard_Branson_March_2015_(cropped).jpg",
+    "creator": "Chatham House",
+    "date": "2015-03-04",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Richard_Branson_March_2015_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q194419 returned en label 'Richard Branson', description 'British business magnate', born 1950-07-18, no death date, citizenship United Kingdom (Q145), ko label '리처드 브랜슨'; the lead's QID hint was correct. SLUG/QID CHECK: no existing candidate file, production roster entry or QID collision. CANONICAL SIGNIFICANCE SOURCE: Barry Alfonso, 'Branson, Richard 1950-', International Directory of Business Biographies (Gale) via Encyclopedia.com (https://www.encyclopedia.com/people/social-sciences-and-law/business-leaders/richard-branson), supported by the Grant business-school case study. LIVING SUBJECT: only documented, public business conduct is scored (Virgin Records, the Virgin Atlantic launch and funding decisions, the group structure and management style, ventures and their outcomes, publicity practice). Family and private life, health and dyslexia, tax residence and wealth, the 2017 and later personal allegations, the British Airways 'dirty tricks' dispute and libel settlement (a legal matter and not behavioural evidence), the 1971 customs settlement and 1970 obscenity charge (legal matters from his youth), space-company hype (only the documented fact of the July 2021 Unity 22 flight is used, in an achievement card, from one added source), Virgin Trains' service record, politics and philanthropy were excluded. READ (10 substantive sources, including the Scientific American report added after the self-gate, plus Wikidata and Commons/Flickr for identity and portrait only): Gale reference biography; business-school case study (Grant); strategy+business profile (Rifkin, 1998); Christian Science Monitor profile (1988); Marketing Week commentary (2001); City A.M. failures article; Simple Flying founding history; CNBC feature (self account); Biography.com (orientation). PERSPECTIVES: reference biographer, business-school case authors, management-journal and newspaper reporters, a critical marketing columnist, aviation press, and Branson's own words (quoted in the Gale entry, strategy+business, the 1988 profile and CNBC; self material is never the sole support for a row). Admiring sources dominate (strategy+business, Simple Flying, CNBC), so no score exceeds 78 and no confidence exceeds 0.68; the independent and critical voices (case study, Marketing Week, the biography's notes on staff criticism and failures) are the counterweight and are why several rows are dual-edged. DISAGREEMENTS NOTED: the first flight date is given as 22 June 1984 (Gale, Simple Flying) and 24 June 1984 (case study); the Boeing lease is told as a one-year lease with return option (CNBC, Simple Flying) and the BA libel figures differ across sources (not used). NOT OPENED: Tim Jackson's unauthorised 'Virgin King' (1994), Branson's memoir 'Losing My Virginity', Des Dearlove's 'Business the Richard Branson Way', the Economist 1998 article (quoted only through the case study), the Fortune and Forbes pieces cited in the Gale entry, Britannica and the Entrepreneur and Forbes failure articles (403 or unreadable), and Virgin's own promotional blog posts (deliberately skipped as self-promotion). PORTRAIT: Commons 'Richard Branson March 2015 (cropped).jpg' by Chatham House (an institution; the individual photographer is not named), taken at a public policy event on 4 March 2015, CC BY 2.0 per the Commons licence review and the Flickr page ('Some rights reserved', licence link by/2.0); no restriction or personality-rights template on the Commons page; downloaded at 1,348 x 1,965 and downscaled to 823 x 1,200. The event title relates to a policy panel; the image is used only as a likeness and no policy content is used or scored."
+  }
+}

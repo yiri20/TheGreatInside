@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "freeman-dyson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Freeman Dyson",
+    "aliases": [
+      "Freeman John Dyson",
+      "F. J. Dyson"
+    ],
+    "wikidataId": "Q153717",
+    "birthYear": 1923,
+    "deathYear": 2020,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB",
+      "US"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "mathematician",
+      "writer"
+    ],
+    "fieldIds": [
+      "physics",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "generalist",
+      "nonconformist",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dyson_wikidata",
+      "kind": "wikidata",
+      "title": "Freeman Dyson (Q153717) -- verified live via the Wikidata API (2026-10-11): English label 'Freeman Dyson', description 'theoretical physicist and mathematician (1923-2020)', born 15 December 1923, died 28 February 2020, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q153717"
+    },
+    {
+      "id": "src_dyson_iasobit",
+      "kind": "institution",
+      "title": "Institute for Advanced Study, 'Freeman J. Dyson (1923-2020), Scientist and Writer, Who Dreamt Among the Stars, Dies at 96' (IAS obituary of 28 February 2020 with tributes by Dijkgraaf, Witten, Simonyi and Simons; read as reproduced by the MacTutor History of Mathematics archive, because the IAS's own page returned an access error) -- CANONICAL SIGNIFICANCE SOURCE: the 1949 paper showing that the Tomonaga-Schwinger and Feynman formulations of quantum electrodynamics are equivalent, the work with Bethe and Feynman at Cornell, his permanent IAS faculty appointment from 1953, and his later work in many fields and as a writer. An institutional house obituary, so admiring in tone; read in full.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Obituaries/Dyson_Princeton/"
+    },
+    {
+      "id": "src_dyson_pnas",
+      "kind": "institution",
+      "title": "Robbert Dijkgraaf (Director of the Institute for Advanced Study), 'Freeman J. Dyson 1923-2020: Legendary physicist, writer, and fearless intellectual explorer', Proceedings of the National Academy of Sciences, 16 June 2020 -- tribute by the head of his home institution. Notes his jumping between fields by his own account of a short attention span, being an 'eternal graduate student' with no doctorate, his friendships with people who disagreed with him, and his 1970s climate-model work and later skepticism described briefly. Read in full; an admiring institutional tribute.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7306802"
+    },
+    {
+      "id": "src_dyson_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Freeman John Dyson' biography -- scholarly secondary biography including the Taylor and Bethe letters of reference, the 1948-49 QED papers, his mathematics published alongside physics, Gibbs lecture 'Missed Opportunities' and 'Unfashionable Pursuits', and reviewers' summaries of his selected papers. Read in full; its paragraphs on his marriage, children and family were not used.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dyson/"
+    },
+    {
+      "id": "src_dyson_gupta",
+      "kind": "press",
+      "title": "Patrick Das Gupta (University of Delhi), 'F. J. Dyson: The Man who would make Patterns and Disturb the Universe', Resonance 25(10), 2020 (arXiv:2010.07767) -- independent physicist's scientific obituary. Explains the 1949 paper unifying the Tomonaga-Schwinger operator formalism with Feynman's space-time approach, G. I. Taylor's reference calling him 'the best mathematician in England', the 1948 Lamb-shift calculation and the later speculative ideas. Read through the QED section and introduction; later technical sections were skimmed, not checked.",
+      "url": "https://arxiv.org/abs/2010.07767"
+    },
+    {
+      "id": "src_dyson_nature",
+      "kind": "press",
+      "title": "Phillip F. Schewe, obituary 'Freeman Dyson', Nature 579, 342 (19 March 2020) -- obituary by his biographer. Lists QED, the intrinsically safe nuclear reactor, field theory in condensed-matter physics, random matrices, the stability of matter and the infrared search for extraterrestrial civilisations, notes his 'intellectual restlessness', that he 'avoided collaboration, saying that he needed the freedom to vary his interests', and his contrarian climate views. Read in full; his biographer's book Maverick Genius was not opened.",
+      "url": "https://www.nature.com/articles/d41586-020-00747-5"
+    },
+    {
+      "id": "src_dyson_natgeo",
+      "kind": "press",
+      "title": "Andrea Stone, 'Freeman Dyson, legendary theoretical physicist, dies at 96', National Geographic, 28 February 2020 -- independent news obituary quoting science-communication scholar Declan Fahy and physicist Virginia Trimble. Reports that he 'did not propose radical new ideas' but cleaned up the details of the quantum revolution's theories, that he never completed a doctorate and called the Ph.D. system 'an abomination', the TRIGA reactor, and that his climate stance came to define him publicly. Read in full; its family details were not used.",
+      "url": "https://www.nationalgeographic.com/science/article/freeman-dyson-legendary-theoretical-physicist-dies-at-96"
+    },
+    {
+      "id": "src_dyson_quanta",
+      "kind": "press",
+      "title": "Quanta Magazine, 'A Rebel Without a Ph.D.', 26 March 2014 -- magazine profile and interview conducted days after his 90th birthday. Independent framing by the magazine and by colleague William Press (the 2012 Press-Dyson iterated prisoner's dilemma paper, a problem Dyson answered the next day), plus Dyson's own answers (SELF material: 'I'm not a person for big questions. I look for puzzles'; that he translated Feynman's ideas into mathematics). Read in full; the self statements are used only for how he describes his own approach, never as sole support.",
+      "url": "https://www.quantamagazine.org/20140326-a-rebel-without-a-ph-d/"
+    },
+    {
+      "id": "src_dyson_farmelo",
+      "kind": "press",
+      "title": "Graham Farmelo (physicist-biographer), 'Freeman Dyson', remembrance, 2 March 2020 (grahamfarmelo.com) -- first-person account by a biographer who lunched with Dyson over fifteen years. Describes a quiet, direct man who offered a counter-orthodox opinion in every conversation, who agreed 'there is some truth' in the Princeton remark that he would rather be interesting than right, who would not back down under criticism of his climate-model views, his published essays and the Oppenheimer quarrel (he reports Dyson saying he told Oppenheimer he thought him a narrow-minded snob). A single biographer's recollection of Dyson's own statements, so one perspective; the very private statements about hating or admiring individuals were not used as trait evidence.",
+      "url": "https://grahamfarmelo.com/remembering-freeman/"
+    },
+    {
+      "id": "src_dyson_krauss",
+      "kind": "press",
+      "title": "Lawrence Krauss, 'Freeman Dyson', Inference: International Review of Science 5(2), May 2020 (written as 'In Praise of a Great Contrarian') -- tribute from a physicist colleague who disagreed with him on climate and cosmic futurology. Reports lunches at the Institute for Advanced Study, that he 'never really wanted to be a member of any club who would have him', his decision at fifty to write books, Weinberg's remark that when consensus forms 'like ice hardening on a lake, Dyson will do his best to chip at the ice', and Krauss's view that his climate claims were mistaken. Read in full; a friendly critic.",
+      "url": "https://inference-review.com/article/in-praise-of-a-great-contrarian"
+    },
+    {
+      "id": "src_dyson_pw",
+      "kind": "press",
+      "title": "Hamish Johnston, review of David Kaiser (ed.), 'Well, Doc, You're In: Freeman Dyson's Journey through the Universe', Physics World, 16 May 2023 -- independent review of a ten-author multi-chapter biography. Describes the Cornell and IAS years, General Atomics and the TRIGA reactor, Project Orion, the origin-of-life 'metabolism-first' view, the Dyson sphere, and the trajectory of his climate position over 50 years. Read in full; the book itself was not opened.",
+      "url": "https://physicsworld.com/a/freeman-dyson-the-visionary-thinker-and-maverick-scientist-who-challenged-authority/"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 82,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dyson_iasobit, src_dyson_nature, src_dyson_pw, src_dyson_mactutor, src_dyson_natgeo | 1941-2018 | institution + obituary + reviewer + biography + news obituary] Edward Witten (in the IAS obituary) says his contributions were so wide-ranging it is 'virtually impossible' to summarise them; Nature lists QED, nuclear-reactor design, condensed-matter field theory, random matrices, the stability of matter, extraterrestrial-civilisation search and origin-of-life theory; MacTutor documents pure-mathematics papers published for decades alongside physics; Physics World describes TRIGA, Orion, origin of life and the Dyson sphere. Independent obituaries, a reviewer and a scholarly biography all converge, and a critic (Krauss) does not dispute the breadth. Military and policy advisory work in the sources is not counted. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): obituary/tribute-heavy evidence without the main long-form profiles or the memoir opened; score and confidence lowered."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_dyson_krauss, src_dyson_farmelo, src_dyson_natgeo, src_dyson_pnas, src_dyson_nature | 1970s-2020 | physicist-critic + biographer + news obituary + institutional tribute + obituary] Krauss quotes Weinberg that Dyson will 'chip at the ice' when consensus forms and says it is hard to find a field in which he simply furthered the majority view; Farmelo reports a counter-orthodox opinion in every conversation and that Dyson accepted there was truth in 'he would rather be interesting than right'; NatGeo records his opposition to the doctoral system and that his contrarianism came to define him in public; Dijkgraaf calls him a 'rebel' unafraid to question everything. Several independent sources, including critics, agree. Dual-edged: the same habit is cited by Krauss and NatGeo as leading him to positions (notably on climate models) that many colleagues considered unfounded; this row scores the habit of dissent, not whether any particular view was correct, and treats his climate stance only as documented professional intellectual-contrarian conduct. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): obituary/tribute-heavy evidence without the main long-form profiles or the memoir opened; score and confidence lowered."
+    },
+    "analytical_rigor": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dyson_gupta, src_dyson_mactutor, src_dyson_nature, src_dyson_quanta | 1943-1949 | physicist obituary + biography + obituary + magazine profile] Das Gupta calls the 1949 equivalence paper 'remarkably pedagogical and crystal clear'; G. I. Taylor and Bethe (in MacTutor) rate his mathematical ability among the best they had seen; Nature credits him with mathematically proving the stability of solid matter; Quanta's William Press describes him instantly grasping 'a path to the distant horizon' of a mathematical problem. The evidence is consistent across independent sources but is mostly assessments of results and ability, so it sits at 82 rather than higher. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): obituary/tribute-heavy evidence without the main long-form profiles or the memoir opened; score and confidence lowered."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dyson_natgeo, src_dyson_nature, src_dyson_pw, src_dyson_quanta, src_dyson_krauss | 1949-1970s | news obituary + obituary + reviewer + magazine + physicist critic] The sources split: NatGeo (quoting Fahy) says he 'did not propose radical new ideas' but cleaned up existing theories and Dyson himself says he translated Feynman's ideas into mathematics, while Nature and Physics World credit original ideas such as the infrared search for civilisations (the 'Dyson sphere'), metabolism-first origin of life and the intrinsically safe TRIGA reactor; Krauss calls some later ideas (nuclear-pulse space travel) theoretically interesting but impractical. The synthesis and the speculative ideas are real and documented, but how original the QED synthesis was is contested in the sources, which keeps the score in the middle-high band."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dyson_nature, src_dyson_krauss, src_dyson_natgeo, src_dyson_iasobit | 1950s-2010s | obituary + physicist critic + news obituary + institution] Schewe says he 'avoided collaboration, saying that he needed the freedom to vary his interests'; Krauss says he 'never really wanted to be a member of any club who would have him' and that the Institute let him follow his own path; NatGeo documents that he never completed a doctorate and opposed the system; the IAS obituary says the Institute gave him the 'freedom and flexibility to follow his curiosity'. Several independent sources agree on a strong preference for self-direction, tempered by his documented team work (see the collaboration row)."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_dyson_nature, src_dyson_natgeo, src_dyson_quanta, src_dyson_pw, src_dyson_pnas | 1948-2013 | obituary + news obituary + magazine + reviewer + tribute] Mixed evidence: Schewe says he avoided collaboration, but NatGeo calls him 'content to work with others on their ideas', Quanta documents the 2012 paper written with Press and his tutoring by Feynman, Physics World records the team designing TRIGA and Orion (Dyson is a named inventor on the TRIGA patent) and Dijkgraaf says he was happy to be friends with people who disagreed with him. The pattern is selective, short, project-based collaboration rather than sustained teamwork, and the sources do not fully agree, so the score stays near the middle and confidence is low."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_dyson_farmelo, src_dyson_krauss, src_dyson_natgeo, src_dyson_pw | 1950s-2020 | biographer + physicist critic + news obituary + reviewer] Farmelo reports that he stood by his views under strong criticism and reports telling Oppenheimer he thought him a narrow-minded snob for objecting to his move beyond fundamental physics; Krauss describes debating climate and cosmic futures with him, with Dyson returning the next day to rebut Krauss's arguments; NatGeo documents that atmospheric physicists criticised his climate model and he continued to say global warming was 'grossly exaggerated'; Physics World notes his sustained public dissent from the consensus climate response. Evidence of willingness to hold his ground in professional disputes, but much rests on his own statements relayed by one biographer; it is not evidence of enjoying conflict. The substance of the climate disagreement is not judged here."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_dyson_pw, src_dyson_nature, src_dyson_natgeo, src_dyson_iasobit | 1950s-1990s | reviewer + obituary + news obituary + institution] He took a year's leave from the Institute for a speculative engineering project (Physics World), moved out of a leading position in fundamental particle physics into reactor design, origin-of-life theory and writing (Nature, IAS), and held a professorship without a doctorate (NatGeo). These are career-structure risks taken by someone already securely placed at the IAS, and his own description is that he chose puzzles rather than big questions, so the lean toward risk-taking is moderate and inferred."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/freeman-dyson-appelbaum-2005.jpg",
+    "width": 683,
+    "height": 1024,
+    "source": "Wikimedia Commons, 'Freeman Dyson.jpg' -- photograph by Jacob Appelbaum (Flickr user ioerror) at a Long Now Foundation seminar, San Francisco, 5 October 2005; original Commons file 683 x 1024 pixels, saved unchanged (no scaling); the Commons page records an automated Flickr licence review ('FlickreviewR' pass, 1 April 2008) for CC BY-SA 2.0; the Flickr page itself could not be opened (HTTP 403) so the review record on Commons is the verification; no conflicting notice was found in the IAS or AIP pages read (the AIP Emilio Segre Visual Archives group photograph of 1979 was seen but not used).",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Photo: Jacob Appelbaum (Flickr: ioerror), Long Now Foundation seminar, 5 October 2005, CC BY-SA 2.0",
+    "attributionUrl": "https://www.flickr.com/photos/ioerror/49895337/",
+    "creator": "Jacob Appelbaum",
+    "date": "2005-10-05",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Freeman_Dyson.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프리먼 다이슨"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q153717 returned en label 'Freeman Dyson', description 'theoretical physicist and mathematician (1923-2020)', born 1923-12-15, died 2020-02-28; Korean label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for the slug or QID. CANONICAL SIGNIFICANCE SOURCE: IAS obituary as reproduced by MacTutor (https://mathshistory.st-andrews.ac.uk/Obituaries/Dyson_Princeton/). READ (10 substantive sources): the IAS obituary with tributes, Dijkgraaf's PNAS tribute, the MacTutor biography, Das Gupta's scientific obituary, Schewe's Nature obituary, Stone's National Geographic obituary, the Quanta Magazine profile and interview, Farmelo's remembrance, Krauss's tribute in Inference, and Johnston's Physics World review of the Kaiser volume. PERSPECTIVES: institution and head of his home institute, scholarly biography, independent physicist obituarist, his biographer (Schewe), a physicist-biographer friend (Farmelo), a physicist critic (Krauss), news obituary quoting scholars of science communication and physics, a reviewer of a ten-author biography, plus his own interview answers (self, used only for how he describes his approach). NOT OPENED: the New York Times Magazine 'The Civil Heretic' profile (HTTP 403; known only through quotations in Krauss and NatGeo), the New York Times and New Yorker obituaries and profiles, Physics Today and Royal Society memoir pieces (none found), the National Academy of Sciences memoir by Press and Finkbeiner (the PDF did not download), Kaiser's edited volume and Schewe's 'Maverick Genius' (reviews only), Schweber's QED history, Dyson's own books and essays, and the Feynman, Bethe and Oppenheimer accounts beyond what the sources above relay. EXCLUSIONS (deliberate): family, marriage, children, health and death; the climate-politics controversy as a matter of right or wrong (recorded only as documented professional intellectual-contrarian conduct in the independent-thinking and conflict-tolerance rows); his wartime Bomber Command operations-research work, the Federation of American Scientists chairmanship, test-ban advocacy and JASON defence advisory work (military, policy and activism are unscored); private statements about liking or disliking individual colleagues. REGION DECISION: western_europe, although most of his career was at Princeton. Reasoning: the existing candidates for people who moved abroad record their region of origin, not of career (Albert Einstein DE/CH/US = western_europe, Nikola Tesla RS/US = central_europe, Enrico Fermi IT/US = southern_europe, John von Neumann HU/US = central_europe, Ahmed Zewail EG/US = north_africa, and the British-born Alfred Hitchcock and Charlie Chaplin = western_europe), so western_europe follows the existing convention; nationalityCodes lists GB and US (US citizen from 1957 per NatGeo). The lead's brief assumed the opposite precedent; the lead may overrule. SCORING: 8 rows, highest 86 (cross-domain range, four-plus independent sources including critics) and 84 (independent thinking); lowest 56 (collaboration) and 62 (risk tolerance); confidence 0.5-0.7, no row above 0.7; most sources are admiring obituaries, so only rows with critic corroboration (Krauss, Fahy via NatGeo, Weinberg via Krauss) exceed 80. PORTRAIT: Jacob Appelbaum photograph, Commons 'Freeman Dyson.jpg', CC BY-SA 2.0, 683 x 1024 (Dyson aged 81); a Commons file by 'Lumidek' (Harvard, 2004, CC BY 3.0) was found but is credited to a username only, so the named-author Appelbaum photo was preferred. LEAD REVIEW (Roster49): 3 rows lowered before eligibility (obituary/tribute-heavy evidence without the main long-form profiles or the memoir opened)."
+  }
+}

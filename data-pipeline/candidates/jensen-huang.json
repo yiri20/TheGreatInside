@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jensen-huang",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jensen Huang",
+    "aliases": [
+      "Jen-Hsun Huang"
+    ],
+    "wikidataId": "Q305177",
+    "birthYear": 1963,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US",
+      "TW"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive",
+      "engineer"
+    ],
+    "fieldIds": [
+      "business",
+      "computing"
+    ],
+    "impactDomains": [
+      "technological",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_huang_wikidata",
+      "kind": "wikidata",
+      "title": "Jensen Huang (Q305177) -- verified live via the Wikidata API (2026-10-11): English label 'Jensen Huang', description 'American entrepreneur and businessman; co-founder and CEO of Nvidia', born 17 February 1963, no date of death, citizenship Taiwan and United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q305177"
+    },
+    {
+      "id": "src_huang_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, 'Jensen Huang' 2024 Fellow profile -- museum profile of the Nvidia founder covering the 1993 founding with Chris Malachowsky and Curtis Priem, the 1999 GeForce 256 which the museum calls the first GPU, CUDA in 2006, the use of Nvidia GPUs for AlexNet in 2012, and the Fellow citation 'for visionary leadership in the advancement of devices and systems for computer graphics' with accelerated computing and artificial intelligence. CANONICAL SIGNIFICANCE SOURCE (orientation to his historical contribution, institutional and honouring in tone); used for the achievement cards and the CUDA/AlexNet dates, never as the sole support for a behavioural row. Read in full.",
+      "url": "https://computerhistory.org/profile/jensen-huang/"
+    },
+    {
+      "id": "src_huang_fortune_haas",
+      "kind": "press",
+      "title": "Fortune, 8 June 2024, article on Huang's management and Nvidia's fast product cadence -- relays former Nvidia employee Rene Haas (later Arm CEO, via the Financial Times) saying Huang organised the company around projects rather than hierarchy so he could reach any layer and get direct answers ('transparency and speed', 'they move very, very fast'), reports Huang's June 2024 announcement of yearly AI accelerator upgrades (Blackwell Ultra for 2025, Rubin for 2026), and notes he is one of 22 CEOs who founded their Fortune 500 company. Non-self business press with one former-employee voice; thin on detail beyond those points. Read in full.",
+      "url": "https://fortune.com/2024/06/08/jensen-huang-nvdia-ceo-management-leadership-organization-culture-ai-chips"
+    },
+    {
+      "id": "src_huang_fortune_perfectionist",
+      "kind": "press",
+      "title": "Eleanor Pringle, 'Nvidia CEO Jensen Huang: demanding perfectionist, say staff', Fortune, 30 April 2024 -- reports from a 60 Minutes interview that staff describe him as demanding, a perfectionist and not easy to work for, that Huang says those labels fit him 'perfectly' and that 'if you want to do extraordinary things, it shouldn't be easy'. Staff descriptions are unnamed and general, and the substance is Huang's own acceptance of them, so used only for the perfectionism row with a mixture of other and self voice. Read in full.",
+      "url": "https://fortune.com/2024/04/30/nvidia-ceo-jensen-huang-demanding-perfectionist-say-staff"
+    },
+    {
+      "id": "src_huang_levinson_review",
+      "kind": "press",
+      "title": "Marc Levinson, review of Stephen Witt's 'The Thinking Machine', Dow Jones Newswires, republished 8 April 2025 -- critical-to-mixed book review: credits Huang with an abrupt 2013 decision to move Nvidia from videogame graphics towards AI computation after meeting engineer Bryan Catanzaro, recounts the failed first chip (1995), the successful GeForce (1999), a failed 2003 revision and a 2006 product repurposing gaming technology for scientists described as a fiasco, and portrays Huang as a relentless worker and harsh critic who berates staff in public and lost his temper often as CEO, so that he 'may not be a good model' for aspiring CEOs. Independent, partly adversarial reviewer summarising a biography; the review itself does not mention CUDA. Read in full.",
+      "url": "https://www.itiger.com/hant/news/2525329020"
+    },
+    {
+      "id": "src_huang_uniteai_review",
+      "kind": "press",
+      "title": "Book review of Stephen Witt's 'The Thinking Machine', Unite.AI -- largely admiring review describing Nvidia's choice of parallel processing for real-time graphics, Huang treating the GPU as the base of a wider computing platform, software treated as strategically as silicon, tools and developer support funded well before demand, CUDA making GPUs usable for general computing and Nvidia facing near-failure more than once but surviving on a long-held conviction about accelerated computing. Independent but admiring and short on dates, so used with moderate confidence. Read in full.",
+      "url": "https://www.unite.ai/de/book-review-the-thinking-machine-jensen-huang-nvidia-and-the-worlds-most-coveted-microchip-by-stephen-witt/"
+    },
+    {
+      "id": "src_huang_digitimes_book",
+      "kind": "press",
+      "title": "Amanda Liang, DIGITIMES, 16 December 2024, article drawn from Tae Kim's book 'The Nvidia Way' -- reports Huang's use of whiteboards rather than slides, his preference for big-picture estimates over false precision, his very wide span of direct reports and direct communication with most staff, an unnamed former executive's anecdote about the oversized whiteboard and his own admission that office politics was a problem in Nvidia's early days. Promotional in tone, two voices anonymous and largely Huang's own account via the book, so not used as sole support for any row; partly paywalled. Read in full as available.",
+      "url": "https://apps.digitimes.com/news/a20241212PD205/nvidia-jensen-huang-management-ceo.html?mod=0"
+    },
+    {
+      "id": "src_huang_nextplatform_buck",
+      "kind": "press",
+      "title": "The Next Platform, 28 October 2015, 'Inside the Programming Evolution of GPU Computing' -- interview with Nvidia's Ian Buck on how his Stanford Brook project became CUDA after Nvidia hired him in 2004 (extensions to C, C++ and Fortran so a threaded programmer could use a GPU, a library team built in parallel, GPUs in the Titan supercomputer). Colleague first-hand account of the technology; it does not mention Huang, so used only as background for the CUDA design and as a check on CHM's dates, not for any Huang trait row. Read in full.",
+      "url": "https://www.nextplatform.com/2015/10/28/inside-the-programming-evolution-of-gpu-computing"
+    },
+    {
+      "id": "src_huang_ec_portrait",
+      "kind": "institution",
+      "title": "European Commission Audiovisual Service photo page P-063789/00-17 and its conditions-of-use page -- checked for the portrait: photo dated 13 May 2024 captioned as Jensen Huang, Founder and CEO of NVIDIA; EU-owned audiovisual content is licensed CC BY 4.0 unless a file says otherwise. Not used for any scoring.",
+      "url": "https://audiovisual.ec.europa.eu/en/photo-details/P-063789~2F00-17"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_huang_levinson_review, src_huang_chm, src_huang_uniteai_review | 2006-2013 | critical reviewer + museum + admiring reviewer] Levinson credits Huang with an abrupt 2013 decision to turn Nvidia towards AI computation after meeting an engineer working on neural networks, whose project he called the most important in the company's history; the museum notes Nvidia GPUs powered AlexNet in 2012 and that this led the company to focus on accelerated computing for AI; Unite.AI describes funding tools and developer support before demand existed. Consistent across two independent reviewers and the museum, but the detail is thin and the 2006 push was by Levinson's account a commercial fiasco, so no higher."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_huang_levinson_review, src_huang_uniteai_review, src_huang_chm | 1995-2013 | critical reviewer + admiring reviewer + museum] Levinson lists a failed first chip, a failed 2003 revision and a 2006 science-computing product described as a fiasco before the AI pivot; Unite.AI says Nvidia faced failure more than once and funded tools and developer support before there was clear demand; the museum shows the CUDA platform introduced in 2006 later becoming central to AI. Repeated large bets with mixed early results, so dual-edged; no source here gives the financial size of any bet, so confidence stays moderate."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_huang_uniteai_review, src_huang_levinson_review, src_huang_chm | 1995-2012 | two reviewers + museum] Unite.AI says Nvidia survived repeated near-failures through Huang's sustained conviction that accelerated computing would matter beyond its original uses; Levinson recounts the failed 1995 chip and later setbacks before the company's success; the museum dates CUDA to 2006 and the AI payoff to 2012 onward. A long gap between the platform bet and its payoff is documented, but the near-failure episodes are not dated in the sources read and the Unite.AI account is admiring, so moderate."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_huang_uniteai_review, src_huang_chm, src_huang_fortune_haas | 1999-2024 | admiring reviewer + museum + business press] Unite.AI says Huang treated the GPU as the base of a broader computing platform and software as strategically as silicon, where rivals treated GPUs as parts tied to gaming cycles; the museum describes CUDA as a programming model that turned GPUs into general-purpose computing devices; Fortune reports the 2024 plan for yearly accelerator platform upgrades. Consistent platform-level framing from several sources, but one account is admiring and none quotes a colleague on how he reasoned, so strong inference."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_huang_levinson_review, src_huang_digitimes_book | 1995-2013 | critical reviewer + book-derived article] Levinson reports that Huang admitted after the failed 1995 chip that every decision had been wrong, and that in 2013 he abruptly redirected the company after meeting an AI engineer; the DIGITIMES piece reports his own admission that office politics was a problem early on. Two partly self-sourced accounts and a single reviewer for each episode, so a modest score and confidence."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_huang_chm, src_huang_fortune_haas, src_huang_levinson_review, src_huang_digitimes_book | 1993-2024 | museum + business press + reviewer + book-derived article] Co-founded Nvidia in 1993 and still leads it as CEO; Fortune notes he is one of 22 CEOs who founded their Fortune 500 company; Haas describes an organisation arranged so the CEO can reach any layer, and DIGITIMES and Levinson both describe a very wide span of direct reports and direct communication with most staff. Documented in several sources; capped below 80 because the descriptions are largely favourable and mostly relayed from the CEO's own account."
+    },
+    "execution_speed": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_huang_fortune_haas | 2024 | former employee + business press] Haas says the company moves 'very, very fast' and 'very, very purposeful', and Fortune reports Huang's June 2024 announcement of yearly AI accelerator upgrades with Blackwell Ultra for 2025 and Rubin for 2026, a faster cadence than the market had expected. One article with one outside voice, so moderate confidence."
+    },
+    "perfectionism": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_huang_fortune_perfectionist, src_huang_levinson_review | 2024-2025 | press relaying staff descriptions + critical reviewer] Fortune reports that staff describe him as demanding and a perfectionist, which he accepts as fitting him 'perfectly'; Levinson describes a harsh critic with little patience, who berates staff in public. Staff descriptions are unnamed and general and the acceptance is his own, so the evidence mixes other and self voices; dual-edged because both sources link the standard to a difficult working environment."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_huang_levinson_review, src_huang_fortune_haas, src_huang_fortune_perfectionist | 2024-2025 | critical reviewer + business press] Levinson reports he criticises staff openly and regularly lost his temper; Fortune relays staff calling him demanding and his own line that extraordinary work 'shouldn't be easy'; Haas describes a structure in which Huang reaches into any layer and gets direct answers. Open, confrontational criticism is documented by one critical reviewer and a general description, with no specific named incident, so moderate and dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "젠슨 황"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jensen-huang-dasilva-2024.jpg",
+    "width": 807,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Jensen Huang (cropped) (2024).jpg' -- photograph by Peter Dasilva for the European Commission Audiovisual Service, 13 May 2024 (meeting with Josep Borrell Fontelles; EC photo P-063789/00-17), cropped on Commons from 'Josep Borrell with NVIDIA CEO and founder Jensen Huang (2024).jpg'; Commons file 1129 x 1678 pixels, downscaled once to 807 x 1200 (never upscaled).",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Photo: Peter Dasilva, © European Union, 2024, licensed under CC BY 4.0; cropped and downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Jensen_Huang_(cropped)_(2024).jpg",
+    "creator": "Peter Dasilva",
+    "date": "2024-05-13",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jensen_Huang_(cropped)_(2024).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q305177 returned en label 'Jensen Huang', description 'American entrepreneur and businessman; co-founder and CEO of Nvidia', born 1963-02-17, no death date, citizenship Taiwan and United States, ko label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID in the roster49 worktree. LIVING SUBJECT: only documented, public professional behaviour as Nvidia founder and CEO is scored (product and platform bets, management practice described by independent press and reviews). Family, wealth and share price, stock or valuation commentary, export-control and government relations, philanthropy, health, the 2002 SEC matter and any inferred motive or psychology were excluded (the Levinson review mentions the SEC matter; it is not used). CANONICAL SIGNIFICANCE SOURCE: Computer History Museum 2024 Fellow profile of Jensen Huang (https://computerhistory.org/profile/jensen-huang/), read in full; it is the basis of the achievement cards. READ (6 substantive non-Wikidata sources plus the museum profile and an EC photo page for the portrait): Fortune 8 June 2024 and 30 April 2024; Marc Levinson's Dow Jones review of Witt's The Thinking Machine; a Unite.AI review of the same book; DIGITIMES (16 December 2024) on Kim's The Nvidia Way; The Next Platform 2015 Ian Buck interview (CUDA design background, not used for any Huang row). PERSPECTIVES: museum, general business press, a former employee (Rene Haas, relayed), a critical reviewer, an admiring reviewer, a colleague on the CUDA technology, and Huang's own recollections as relayed by Fortune and DIGITIMES; self material is never the sole support for a row. CALIBRATION: sources are mostly secondary (book reviews and press digests of two books and a 60 Minutes interview), so no score exceeds 78 and no confidence exceeds 0.62; the only adversarial voice is Levinson's review. NOT OPENED: The New Yorker profile (Stephen Witt, fetch refused), the books themselves, the Business Insider piece on employee accounts (fetch refused or reposted only), Time, Wired, Stratechery, the Business Insider/Lifeboat repost (opened but only a stub with no detail), Tom's Hardware Buck interview (page body not returned), the HBS and journal case studies, and press on the CUDA-era analyst scepticism (only low-quality secondary summaries were found, so that claim is not used). The Levinson and Unite.AI reviews are second-hand summaries of Witt's book, so book claims are attributed to the reviewer. PORTRAIT: Commons 'Jensen Huang (cropped) (2024).jpg' by Peter Dasilva (EC Audiovisual Service), 13 May 2024, CC BY 4.0 per the Commons EC-Audiovisual template (which notes the licence is not yet reviewed by a Commons reviewer) and the EC conditions of use (CC BY 4.0 unless a file says otherwise; the photo page states no contrary notice or restriction; exceptions for private individuals do not apply to a public-business meeting photo of a company CEO). Downloaded at 1129 x 1678 and downscaled once to 807 x 1200. A US-government public-domain alternative exists (The White House, Nov 2025, 645 x 839, Commons 'Jen-Hsun Huang 2025.jpg') if the EC licence review is challenged. TWO-LEVEL REVIEW: first-pass Achievement self-gate is recorded in the editorial draft."
+  }
+}

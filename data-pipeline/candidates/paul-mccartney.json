@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "paul-mccartney",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Paul McCartney",
+    "aliases": [
+      "James Paul McCartney",
+      "Sir Paul McCartney"
+    ],
+    "wikidataId": "Q2599",
+    "birthYear": 1942,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "musician",
+      "songwriter"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mccartney_wikidata",
+      "kind": "wikidata",
+      "title": "Paul McCartney (Q2599) -- verified live via the Wikidata API (2026-10-11): English label 'Paul McCartney', description 'English musician and member of the Beatles (born 1942)', born 18 June 1942, no date of death, citizenship United Kingdom, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2599"
+    },
+    {
+      "id": "src_mccartney_shof",
+      "kind": "award_body",
+      "title": "Songwriters Hall of Fame, 'Sir Paul McCartney' inductee profile (inducted 1987) -- CANONICAL SIGNIFICANCE SOURCE: the Hall's biography describes him as widely identified as the songwriting arm of the Beatles with John Lennon, names Yesterday, Eleanor Rigby, Let It Be, Live and Let Die and other songs, and notes his work with Wings and as a solo artist and his 1997 knighthood for services to music. Institutional, celebratory in tone; used for the achievement cards only, not for trait rows. Read in full.",
+      "url": "https://www.songhall.org/profiles/sir-paul-mccartney"
+    },
+    {
+      "id": "src_mccartney_rockhall",
+      "kind": "institution",
+      "title": "Rock and Roll Hall of Fame, 'Paul McCartney' inductee page (solo induction 1999) -- institutional page with an excerpt of Allan Kozinn's induction essay stating that an 'unquenchable musical curiosity' and the urge to create drive him as composer and performer; used only for the achievement cards (the page shows only the opening of the essay, so the full essay was not read). Not used for any trait row.",
+      "url": "https://www.rockhall.com/inductees/paul-mccartney"
+    },
+    {
+      "id": "src_mccartney_musicradar_emerick",
+      "kind": "press",
+      "title": "MusicRadar, Geoff Emerick interview on recording the Beatles' Abbey Road (1969) -- the Beatles' recording engineer's track-by-track recollections: McCartney's wish to make a record 'the way the band used to' with George Martin and Emerick behind the console, his suggestion of a slower, 'swampy' tempo for Come Together, his habit of arriving early and rehearsing the Oh! Darling vocal over and over, his Moog solos on Maxwell's Silver Hammer, the concept he brought to tie the medley together, and his acceptance of George Harrison's wish for a simple bass line on Something. Colleague first-hand account (non-self), one engineer's memory. Read in full.",
+      "url": "https://www.musicradar.com/news/beatles-geoff-emerick-abbey-road-interview"
+    },
+    {
+      "id": "src_mccartney_guitarworld_something",
+      "kind": "press",
+      "title": "Guitar World, 'Paul McCartney's Something bassline: did the Beatle overplay?' -- short feature quoting Geoff Emerick on the Something session and McCartney's own comment that he is 'a melodist' who tries to get a melody out of the bass part but must be selective, and that he had to 'sell' the Something bass line to Harrison. Mixes an engineer's account (the same Emerick quote as in the MusicRadar interview, so counted once) with McCartney's own recollection (self). Read in full.",
+      "url": "https://guitarworld.com/features/did-paul-mccartney-overplay-on-something"
+    },
+    {
+      "id": "src_mccartney_guitarworld_abbeyroad",
+      "kind": "press",
+      "title": "Guitar World, Abbey Road session feature built on Geoff Emerick's recollections -- the new console and bass sound on Abbey Road, McCartney being eager to cut a new album after the Let It Be sessions while the others were not, the Moog used for his solo on Maxwell's Silver Hammer, and his plan for the 16-minute side-two medley, which Lennon disliked. Press feature drawing on one engineer's account; relevant passages (console and bass sound, session background, the Moog, the medley plan) were read, the gear listings were skimmed.",
+      "url": "https://www.guitarworld.com/interview-abbey-road-engineer-ken-scott-discusses-recording-beatles-white-album-says-sessions-were-blast"
+    },
+    {
+      "id": "src_mccartney_tapeop_emerick",
+      "kind": "press",
+      "title": "Tape Op, Geoff Emerick interview on his memoir 'Here, There and Everywhere' -- used only for Emerick's account of the Ob-La-Di, Ob-La-Da session in which McCartney, after repeated takes, had a specific idea of how he wanted to sing it and clashed with George Martin over direction, and for Emerick's note that McCartney asked him to rebuild the Apple studio. Colleague first-hand account (non-self), an informal and sometimes critical memory of the sessions. Read the Sgt. Pepper-to-Abbey Road sections in full.",
+      "url": "https://tapeop.com/interviews/57/geoff-emerick"
+    },
+    {
+      "id": "src_mccartney_bb_yesterday",
+      "kind": "press",
+      "title": "The Beatles Bible, 'Yesterday' song page -- compiler page assembling quotations from McCartney and George Martin and the session details documented in Mark Lewisohn's 'The Complete Beatles Recording Sessions' (14 and 17 June 1965): McCartney recorded guitar and vocal in two takes, considered a BBC Radiophonic Workshop backing, Martin proposed a string quartet (a first for the Beatles), McCartney insisted on no vibrato and worked on the score with Martin, who wrote most of it. Compiler page (comments section not used); the mixture of McCartney's own recollection and Lewisohn's session record is flagged in each row. Read in full.",
+      "url": "https://www.beatlesbible.com/songs/yesterday/"
+    },
+    {
+      "id": "src_mccartney_bb_eleanor",
+      "kind": "press",
+      "title": "The Beatles Bible, 'Eleanor Rigby' song page -- compiler page quoting McCartney (Anthology, Barry Miles's 'Many Years From Now') and session information: McCartney began the song as a piano vamp, took the unfinished song to Lennon's house where the other Beatles and Pete Shotton suggested ideas (Ringo Starr's 'darning his socks', George Harrison's refrain, Shotton's final verse written up by McCartney), and the session used a string octet. Compiler page; the reader comments were not used. Read in full.",
+      "url": "https://www.beatlesbible.com/songs/eleanor-rigby/"
+    },
+    {
+      "id": "src_mccartney_bb_paperback",
+      "kind": "press",
+      "title": "The Beatles Bible, 'Paperback Writer' song page -- compiler page quoting Geoff Emerick and Mark Lewisohn's 'The Complete Beatles Recording Sessions' on the bass line: McCartney played a Rickenbacker bass instead of his Hofner, a loudspeaker was placed in front of the bass amplifier and used as a microphone against EMI's rules, and the bass and vocals were overdubbed. Compiler page; the comments section was not used. Read in full.",
+      "url": "https://www.beatlesbible.com/songs/paperback-writer/"
+    },
+    {
+      "id": "src_mccartney_npr_martin",
+      "kind": "press",
+      "title": "NPR Fresh Air, 'Remembering Record Producer George Martin, The Fifth Beatle' (9 March 2016) transcript, including Terry Gross's 1980 interview with Martin -- Martin says that by the time of Sgt. Pepper Lennon and McCartney very rarely wrote together and each wrote their own songs, and that the Pepper idea came after McCartney had the idea of a song called Sgt. Pepper's Lonely Hearts Club Band, which he thinks was McCartney's own idea of presenting the album as a fictitious band's performance. Producer's first-hand account (non-self), hedged ('I think'). Read in full.",
+      "url": "https://www.npr.org/transcripts/469794407"
+    },
+    {
+      "id": "src_mccartney_recordmirror_martin",
+      "kind": "press",
+      "title": "Record Mirror, 'Beatles recording manager George Martin talks about their most ambitious LP' (27 May 1967), as republished by The Paul McCartney Project -- Martin on Sgt. Pepper: 700 hours in the studio, the group being perfectionists who wanted the LP exactly as they had it in their minds, always wanting to be one step ahead, and the string session of up to 41 musicians. Producer's first-hand account about the group as a whole (non-self); promotional context at the time of release. Read in full.",
+      "url": "https://www.the-paulmccartney-project.com/interview/beatles-recording-manager-george-martin-talks-about-their-most-ambitious-lp/"
+    },
+    {
+      "id": "src_mccartney_anefo",
+      "kind": "archive",
+      "title": "Nationaal Archief (The Hague), Fotocollectie Anefo, photograph by Koen Suyk, 26 January 1980, bestanddeelnummer 930-6404 -- archive record and its Wikimedia Commons file page checked for the portrait's rights (CC0, rights holder Nationaal Archief). Not used for any scoring.",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/acd8d236-d0b4-102d-bcf8-003048976d84"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mccartney_musicradar_emerick, src_mccartney_tapeop_emerick, src_mccartney_recordmirror_martin | 1968-1969 | engineer + producer] Emerick says McCartney kept rehearsing the Oh! Darling vocal, arriving at the studio early to do it over and over, and 'had to work himself up' for the take, and that on Ob-La-Di, Ob-La-Da, at the sixth attempt, McCartney had a clear idea of how he wanted to sing it and clashed with Martin over direction; Martin says the Beatles as a group were perfectionists who wanted Sgt. Pepper exactly as they imagined it. Two Emerick sources are one witness; Martin speaks of the group, not of him alone, so the score and confidence stay moderate. Dual-edged because the same insistence produced friction in the session."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mccartney_bb_eleanor, src_mccartney_bb_yesterday, src_mccartney_musicradar_emerick, src_mccartney_tapeop_emerick | 1965-1969 | session documentation + engineer] McCartney took the unfinished Eleanor Rigby to the other Beatles and Pete Shotton and took up their suggestions; on Yesterday he worked on the string score with Martin; Emerick says he dropped his elaborate Something bass line when Harrison asked for a simple one ('Paul complied') and that John liked his suggestion to slow Come Together. Against that, Emerick describes him swearing at Martin in the Ob-La-Di session. Mixed picture, so dual-edged and a moderate score."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mccartney_bb_paperback, src_mccartney_bb_yesterday, src_mccartney_musicradar_emerick, src_mccartney_guitarworld_abbeyroad | 1965-1969 | session documentation + engineer + his own account] For Paperback Writer he switched to a Rickenbacker bass and, with Emerick, a loudspeaker was used as a microphone in front of the bass amplifier against EMI's rules (Emerick, via Lewisohn); he considered a BBC Radiophonic Workshop backing for Yesterday (his own recollection) before the string quartet; on Abbey Road he 'tinkered around' with the Moog until he had a sound he liked for the Maxwell's Silver Hammer solos (Emerick). Several separate episodes from engineer and compiled session record, with some of the detail his own."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mccartney_npr_martin, src_mccartney_bb_yesterday, src_mccartney_bb_eleanor, src_mccartney_musicradar_emerick | 1965-1969 | producer + engineer + session documentation] Martin credits the Sgt. Pepper 'fictitious band' idea to McCartney (hedged: 'I think'); Yesterday was recorded with only his guitar, his voice and a string quartet, a first for the Beatles; Eleanor Rigby was built on a minimal piano vamp with a string octet; Emerick says a concept from McCartney tied the Abbey Road medley together. A pattern of format-breaking ideas, but several come through his own collaborators' framing and Martin hedges, so no higher."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mccartney_guitarworld_something, src_mccartney_bb_yesterday, src_mccartney_guitarworld_abbeyroad | 1965-1969 | press + his own recollection + engineer] Guitar World describes him as approaching the bass 'as a songwriter, and not as an instrumentalist', and McCartney says he is a melodist who tries to get a melody out of the bass part; he insisted on no vibrato from the Yesterday quartet and pushed for a seventh in the cello part; the engineer notes the new console let his bass lines move in counterpoint to the vocal. Consistent but largely his own framing and one engineer's description, so moderate confidence."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mccartney_bb_yesterday, src_mccartney_musicradar_emerick | 1965-1969 | session documentation + engineer] On Yesterday McCartney was initially sceptical of Martin's string-quartet idea but went on to work on the score with him; on Something he replaced his elaborate bass line with the simpler one Harrison wanted. Two episodes, one of them in his own recollection, and the Ob-La-Di clash points the other way, so the score stays modest."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mccartney_musicradar_emerick, src_mccartney_guitarworld_abbeyroad, src_mccartney_npr_martin | 1967-1969 | engineer + producer] Martin credits him with the idea that made Sgt. Pepper a fictitious band's performance; Emerick says that after Let It Be he was keen to make a record the way the band used to, with Martin and Emerick behind the console, and Guitar World notes he was eager to cut a new album while the others were not and that Lennon disliked his plan for the Abbey Road medley. Initiative within the band's musical work only. Dual-edged because the same drive met resistance inside the group."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "폴 매카트니"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/paul-mccartney-anefo-1980.jpg",
+    "width": 828,
+    "height": 1000,
+    "source": "Nationaal Archief, Fotocollectie Anefo, bestanddeelnummer 930-6404, photograph by Koen Suyk at Schiphol, 26 January 1980; Wikimedia Commons original 3682 x 2445 pixels (file 'Aankomst Paul McCartney op Schiphol ... Bestanddeelnr 930-6404.jpg'), cropped to the sitter (a 1636 x 1975 region, other people and microphones partly removed) and downscaled once to 828 x 1000, converted to greyscale (never upscaled)",
+    "license": "CC0 1.0 Public Domain Dedication (Commons licence tag CC-zero; rights holder stated as Nationaal Archief)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photograph by Koen Suyk / Anefo, Nationaal Archief (CC0; credit not required, given as a courtesy); cropped and downscaled",
+    "attributionUrl": "http://proxy.handle.net/10648/acd8d236-d0b4-102d-bcf8-003048976d84",
+    "creator": "Koen Suyk / Anefo",
+    "date": "1980-01-26",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Aankomst_Paul_McCartney_op_Schiphol_na_uitwijzing_door_Japan_ivm_bezit_Marihu,_Bestanddeelnr_930-6404.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q2599 returned en label 'Paul McCartney', description 'English musician and member of the Beatles (born 1942)', born 1942-06-18, no death date, citizenship United Kingdom, ko label present; the lead's QID hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID (grep of data-pipeline, src/data, public). CANONICAL SIGNIFICANCE SOURCE: Songwriters Hall of Fame, 'Sir Paul McCartney' profile (https://www.songhall.org/profiles/sir-paul-mccartney); the Rock and Roll Hall of Fame page was also read as orientation. LIVING SUBJECT: only documented, public studio and professional behaviour is scored (songwriting method, bass and instrument choices, studio work with named engineers and the producer, session decisions). Family, marriage, bereavement (a Yesterday-lyric comment thread about his mother was seen on the Beatles Bible page and deliberately not used), health, drugs and any legal matters, finances, business dealings, politics and activism, and the Lennon-McCartney authorship disputes were excluded; Lennon's personal opinions about McCartney were not used and no text from the existing John Lennon candidate was reused. READ (8 substantive sources plus two institutional pages): MusicRadar's Emerick interview, Guitar World's Something-bass feature and Abbey Road session feature, Tape Op's Emerick interview, four Beatles Bible compiler pages (Yesterday, Eleanor Rigby, Paperback Writer; the Rain page was also read but not used), the NPR transcript of Martin's 1980 interview, Martin's 1967 Record Mirror interview, the Songwriters Hall of Fame profile and the Rock Hall page. PERSPECTIVES: recording engineer (Emerick, whose accounts across three pages are one witness, counted once), producer (Martin), compiled session documentation (Lewisohn-derived Beatles Bible), institutions, and McCartney's own recollections (self, never sole support for any row). All behavioural witnesses are insiders to the Beatles' studio team and mostly warm, though Emerick records friction (Ob-La-Di, Come Together) and Lennon's dislike of the medley plan; no outside adversarial critic of his method was opened, so no score exceeds 76 and no confidence exceeds 0.66. NOT OPENED: Barry Miles's 'Many Years From Now', Lewisohn's books themselves (only through the Beatles Bible), Emerick's memoir itself, Martin's own books, Hunter Davies's interviews, Ringo Starr's accounts, Wings-era accounts, the Britannica article (blocked) and any critical essays on his bass playing. The Rain Beatles Bible page and a MusicRadar article on Beatles drumming (which records a drumming dispute with Starr) were read but not used for any row. PORTRAIT: Commons original of Anefo/Nationaal Archief 930-6404 (Koen Suyk, 26 January 1980, Schiphol), CC0 per the Commons licence tag and the Nationaal Archief tag, the same rights basis as other Anefo portraits already in the repo; the Nationaal Archief record page was opened but is script-rendered, so the rights statement was read from the Commons file page; the Archive's own file title names the circumstances of the arrival, which is not mentioned anywhere in this candidate. Downloaded at 3682 x 2445, cropped to the sitter and downscaled to 828 x 1000, greyscale."
+  }
+}

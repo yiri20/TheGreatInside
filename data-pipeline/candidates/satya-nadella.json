@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "satya-nadella",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Satya Nadella",
+    "aliases": [
+      "Satya Narayana Nadella"
+    ],
+    "wikidataId": "Q7426870",
+    "birthYear": 1967,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US",
+      "IN"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "executive",
+      "engineer"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "leader",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nadella_wikidata",
+      "kind": "wikidata",
+      "title": "Satya Nadella (Q7426870) -- verified live via the Wikidata API (2026-10-11): English label 'Satya Nadella', description 'Indian-American business executive and CEO of Microsoft', born 19 August 1967, no date of death, citizenship India and United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7426870"
+    },
+    {
+      "id": "src_nadella_msbio",
+      "kind": "institution",
+      "title": "Microsoft News Center, 'Satya Nadella' executive biography -- the company's own profile: joined Microsoft in 1992, named CEO in February 2014, previously executive vice president of the Cloud and Enterprise group where he 'led the transformation to the cloud infrastructure and services business', earlier roles in Online Services R&D and the Business Division, education. CANONICAL SIGNIFICANCE SOURCE (institutional orientation to his role and the cloud emphasis; self-published by his employer, so promotional and never used as support for a behavioural row; the Britannica entry was tried but returned HTTP 403). Read in full.",
+      "url": "https://news.microsoft.com/exec/satya-nadella/"
+    },
+    {
+      "id": "src_nadella_ibarra",
+      "kind": "press",
+      "title": "Herminia Ibarra and Aneeta Rattan (London Business School), account of Nadella's culture change at Microsoft, 9 June 2019 -- describes the Ballmer-era culture of internal competition and six-monthly stack ranking, his first year spent listening, the July 2015 mission statement, a 180-executive off-site that led to a 17-leader culture cabinet defining 'growth mindset', abolition of stack ranking for continual feedback, a leaders' habit of closing meetings by asking whether it was a growth or fixed-mindset meeting, and his emailed admission that he had 'answered that question completely wrong' after a public remark about pay raises. Business-school case-style article; largely favourable, built on Nadella's and his executives' own statements with no before-and-after culture metrics, and it admits that the financial gains are not causally tied to the culture change. Read in full.",
+      "url": "https://herminiaibarra.com/?p=905"
+    },
+    {
+      "id": "src_nadella_bloomberg_github",
+      "kind": "press",
+      "title": "Dina Bass and Eric Newcomer, Bloomberg, 4 June 2018, 'Microsoft Buys GitHub for $7.5 Billion, Going Back to Its Roots' (republished by Data Center Knowledge) -- news report on the all-stock purchase, Nadella's statements that Microsoft is 'all in on open source' and must earn GitHub users' trust, the contrast with Steve Ballmer calling open source a 'cancer', analyst views (Moody's, Bernstein), and sceptics including a coder who deleted his GitHub account, and GitHub's own losses. Independent business reporting with sceptical voices. Read in full.",
+      "url": "https://www.datacenterknowledge.com/microsoft/microsoft-buys-github-75-billion-going-back-its-roots"
+    },
+    {
+      "id": "src_nadella_hackernews_github",
+      "kind": "press",
+      "title": "Swati Khandelwal, 'Confirmed: Microsoft Buys GitHub For $7.5 Billion', The Hacker News, 4 June 2018 -- security-and-developer news article on the same deal: the move away from near-total dependence on Windows, projects released as open source (PowerShell, .NET, the Edge JavaScript engine), Ubuntu on Windows 10 with Canonical, the developer-community fear of the acquisition and Bloomberg's unnamed-source report that GitHub sold partly because it was impressed with Nadella's leadership. Secondary retelling of the Bloomberg story with its own commentary, so not an independent perspective on the same incident; its Bloomberg link was broken. Read in full.",
+      "url": "https://thehackernews.com/2018/06/microsoft-acquires-github.html"
+    },
+    {
+      "id": "src_nadella_computerworld_nokia",
+      "kind": "press",
+      "title": "Gregg Keizer, 'Microsoft writes off $7.6B, admits failure of Nokia acquisition', Computerworld, 8 July 2015 -- news report on the $7.6 billion impairment on the Nokia phone business, about 7,800 further job cuts, Nadella's memo that Microsoft was moving away from a strategy to grow a standalone phone business, analyst Jack Gold calling the deal a 'monumental mistake' while crediting Nadella for 'stepping up' to write it down, and noting that Nadella had been among those who objected before he became CEO. Independent trade reporting with an analyst voice. Read in full.",
+      "url": "https://www.computerworld.com/article/2945371/microsoft-writes-off-76b-admits-failure-of-nokia-acquisition.html"
+    },
+    {
+      "id": "src_nadella_martech_nokia",
+      "kind": "press",
+      "title": "Greg Sterling, 'Microsoft CEO Nadella Rebukes Ballmer With Nokia Write-Down', Martech, 9 July 2015 -- commentary on the same write-down and restructuring, placing it after the earlier 'tough choices' memo and the sale of map-imaging operations to Uber and display advertising to AOL, reading it as a repudiation of Ballmer's Nokia strategy, crediting Nadella for candour and decisive action while arguing it does not by itself strengthen Microsoft's mobile position. Independent commentator with a mixed verdict; the same event as the Computerworld report, so not counted as a second independent account of it. Read in full.",
+      "url": "https://martech.org/microsoft-ceo-nadella-rebukes-ballmer-with-nokia-write-down"
+    },
+    {
+      "id": "src_nadella_itwire_openai",
+      "kind": "press",
+      "title": "Sam Varghese, ITWire, 2 May 2024, 'Microsoft decision to invest in OpenAI was taken in a hurry, email shows' -- report on the June 2019 'Thoughts on OpenAI' email from Microsoft's CTO to Nadella and Bill Gates (made public in the US Justice Department's antitrust trial against Google, crediting Ars Technica for the details), Nadella forwarding it to the CFO recommending that its ideas be implemented, Microsoft investing $1 billion in OpenAI a few weeks later, and Nadella's testimony about the email. Independent but derivative of other outlets' reporting of court documents, so one story rather than several. Read in full.",
+      "url": "https://itwire.com/government-tech-news/technology-regulation/microsoft-decision-to-invest-in-openai-was-taken-in-a-hurry,-email-shows.html"
+    },
+    {
+      "id": "src_nadella_flickr",
+      "kind": "institution",
+      "title": "Flickr photo page 'LE WEB PARIS 2013 - CONFERENCES - PLENARY 1 - SATYA NADELLA' by OFFICIAL LEWEB PHOTOS, taken and uploaded 10 December 2013, licence shown as Creative Commons Attribution 2.0 -- page checked for the portrait's licence. Not used for any scoring.",
+      "url": "https://www.flickr.com/photos/86704644@N00/11315186824"
+    }
+  ],
+  "rows": {
+    "decisiveness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nadella_computerworld_nokia, src_nadella_martech_nokia | 2015 | trade reporter + commentator] In July 2015 Microsoft took a $7.6 billion impairment on the Nokia phone business and announced about 7,800 further job cuts; Nadella's memo said the company was moving away from growing a standalone phone business. Analyst Jack Gold credits him for 'stepping up' to write the deal down and Sterling for 'candor and decisive action', while Sterling also says the move did not by itself strengthen Microsoft's mobile position. Two sources but one event, so the confidence stays moderate."
+    },
+    "belief_updating": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nadella_ibarra, src_nadella_martech_nokia, src_nadella_bloomberg_github | 2014-2018 | business-school article + commentator + news] Ibarra and Rattan report that after a public remark on pay raises he emailed employees admitting he had 'answered that question completely wrong'; Sterling reads the Nokia write-down as a repudiation of the earlier strategy (Computerworld notes Nadella had objected beforehand, so this is a change of company position more than of his own view); Bloomberg contrasts the 2018 'all in on open source' stance with Ballmer's 'cancer' label. Mixed support, one episode partly self-reported through leaders' accounts, so strong inference at modest confidence."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nadella_ibarra, src_nadella_hackernews_github, src_nadella_bloomberg_github | 2014-2018 | business-school article + two news reports] Ibarra and Rattan note Office becoming available on iOS in spring 2014; The Hacker News lists Microsoft projects released as open source (PowerShell, .NET, the Edge JavaScript engine) and Ubuntu on Windows 10; Bloomberg describes a shift from near-total dependence on Windows towards in-house development on Linux and a reversal of the Ballmer-era stance on open source. Consistent across three outlets, but the two GitHub reports overlap and attribution of each change to Nadella personally is partly press interpretation."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nadella_bloomberg_github, src_nadella_itwire_openai, src_nadella_msbio | 2018-2019 | news + court-document report + company bio] Nadella said the $7.5 billion GitHub purchase would speed Microsoft's moves into cloud and AI; in June 2019 he forwarded his CTO's email arguing Microsoft was years behind competitors in machine-learning scale to the CFO, recommending that its ideas be implemented, and Microsoft invested $1 billion in OpenAI a few weeks later. The ITWire report is derivative and shows his reaction, not his reasoning, and Bloomberg also records open-source developers' distrust of the deal, so no higher."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nadella_ibarra, src_nadella_bloomberg_github | 2014-2018 | business-school article + news] Ibarra and Rattan describe a 180-executive off-site that produced a 17-leader culture cabinet to define the company's growth-mindset values and a shift from stack ranking to continual feedback; Bloomberg reports GitHub would run independently under its own CEO after the purchase. These are structures he set up rather than direct observations of how he works with colleagues, and the main account relies on leaders' own statements, so a modest score and confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사티아 나델라"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/satya-nadella-leweb-2013.jpg",
+    "width": 1200,
+    "height": 1042,
+    "source": "Wikimedia Commons, 'Satya Nadella.jpg' -- photograph by OFFICIAL LEWEB PHOTOS (the LeWeb conference's Flickr account) taken 10 December 2013 at LeWeb Paris, plenary session; Commons Flickr-upload-bot record with CC BY 2.0 licence tag, and the Flickr page (photos/86704644@N00/11315186824) checked directly showing 'Some rights reserved', CC BY 2.0; Commons file 1731 x 1503 pixels, downscaled once to 1200 x 1042 (never upscaled).",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: LeWeb / OFFICIAL LEWEB PHOTOS, 10 December 2013, CC BY 2.0, downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Satya_Nadella.jpg",
+    "creator": "OFFICIAL LEWEB PHOTOS (LeWeb)",
+    "date": "2013-12-10",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Satya_Nadella.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q7426870 returned en label 'Satya Nadella', description 'Indian-American business executive and CEO of Microsoft', born 1967-08-19, no death date, citizenship India and United States, ko label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID in the roster49 worktree. LIVING SUBJECT: only documented public professional behaviour as Microsoft executive and CEO is scored (restructuring decisions, acquisitions and investments, culture programme as described by independent business press). Family, wealth, health, private life, antitrust and political or government dealings, layoffs as moral questions, AI-risk positions and any inferred motive or psychology were excluded; the public pay-raise remark and his apology are used only as a documented, professionally relevant episode. CANONICAL SIGNIFICANCE SOURCE: Microsoft News Center executive biography (https://news.microsoft.com/exec/satya-nadella/), read in full; it is company-published and orientation only (Britannica returned HTTP 403), so the achievement cards also rest on the independent sources. READ (7 substantive non-Wikidata sources plus the company bio and the Flickr page): Ibarra and Rattan on the culture change; Bloomberg via Data Center Knowledge and The Hacker News on GitHub; Computerworld and Martech on the Nokia write-down; ITWire on the OpenAI email. PERSPECTIVES: business-school authors, general business and trade press, analyst voices (Moody's, Bernstein, J. Gold), sceptical open-source developers, a news report on court documents and the company bio; self material (his memos and statements as quoted) is never the sole support for a row. CALIBRATION: sources are mostly news and commentary on single events, several overlap, and the culture account is largely favourable and built on leaders' own statements, so no score exceeds 76 and no confidence exceeds 0.62. NOT OPENED: Hit Refresh (his memoir, self), Britannica (403), the Time 100 essay, Wired/Fortune/Stratechery pieces and any book-length independent biography, Ars Technica's original email report, and anything on Azure revenue (no figure is used). Sources found only as search snippets were not used. PORTRAIT: Commons 'Satya Nadella.jpg' by OFFICIAL LEWEB PHOTOS, 10 December 2013 (two months before he became CEO; the sitter is clearly identified by the Flickr title and Commons category), CC BY 2.0 both on Commons and the Flickr page; no restriction template is on the Commons page; downloaded at 1731 x 1503 and downscaled once to 1200 x 1042. The newer Microsoft-supplied 'MS-Exec-Nadella' images (CC BY-SA 4.0 on Commons, credited to a photographer and 'Microsoft') were not used because the basis for Microsoft's release was not verifiable, and the 2025 White House dinner photo was rejected as a distant group political-event shot."
+  }
+}

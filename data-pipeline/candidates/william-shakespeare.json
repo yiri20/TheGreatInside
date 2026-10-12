@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "william-shakespeare",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "William Shakespeare",
+    "aliases": [
+      "Shakespeare",
+      "The Bard"
+    ],
+    "wikidataId": "Q692",
+    "birthYear": 1564,
+    "deathYear": 1616,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "poet",
+      "actor"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "prolific",
+      "renaissance"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_shakespeare_wikidata",
+      "kind": "wikidata",
+      "title": "William Shakespeare (Q692) -- verified live via the Wikidata API (2026-10-11): English label 'William Shakespeare', description 'English playwright and poet (1564-1616)', Korean label present, baptism/birth given as 1564 (several dates recorded), died 23 April 1616 (a second death date is also recorded). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q692"
+    },
+    {
+      "id": "src_shakespeare_sbt_career",
+      "kind": "institution",
+      "title": "Shakespeare Birthplace Trust, 'Shakespeare's Career' (Shakespedia) -- CANONICAL SIGNIFICANCE SOURCE: the Trust's account of his reputation established in London by 1592, the two narrative poems, membership and sharership in the Lord Chamberlain's Men (later the King's Men), almost twenty years as the company's regular dramatist at roughly two plays a year, membership of the Globe and Blackfriars syndicates, and the First Folio as the best illustration of his pre-eminence. Read in full.",
+      "url": "https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/william-shakespeare/shakespeare-career/"
+    },
+    {
+      "id": "src_shakespeare_folger_overview",
+      "kind": "institution",
+      "title": "Folger Shakespeare Library (with the British Library, Bodleian Libraries, Shakespeare Birthplace Trust and The National Archives), 'Playwright, actor & shareholder', Shakespeare Documented -- overview essay and document list on Shakespeare's work as actor, playwright and shareholder in the Lord Chamberlain's / King's Men, and the company's playhouses (the Theatre, the Globe from 1599, Blackfriars from 1609). Read in full, plus the sub-essays 'Shakespeare's company', 'Shakespeare's playhouses' and 'Contemporary accounts and critical responses to plays'.",
+      "url": "https://shakespearedocumented.folger.edu/resource/playwright-actor-shareholder"
+    },
+    {
+      "id": "src_shakespeare_exchequer_1595",
+      "kind": "archive",
+      "title": "Alan H. Nelson and Folger staff, 'Exchequer, Pipe Office, Declared Accounts: Listing Shakespeare as a leading player of the Lord Chamberlain's company' (The National Archives E 351/542, payment of 15 March 1595), Shakespeare Documented -- essay on the Treasurer of the Household's account naming William Kempe, William Shakespeare and Richard Burbage as the payees for two plays shown before the Queen at Christmas 1594. Read in full.",
+      "url": "https://shakespearedocumented.folger.edu/resource/document/exchequer-pipe-office-declared-accounts-listing-shakespeare-leading-player-lord"
+    },
+    {
+      "id": "src_shakespeare_globe_ipm",
+      "kind": "archive",
+      "title": "Folger Shakespeare Library, 'Inquisition Post Mortem of Thomas Brend, showing Shakespeare and others occupying the Globe playhouse' (17 May 1599, The National Archives), Shakespeare Documented -- essay on the near-contemporary record of the newly built Globe 'in the occupation of William Shakespeare and others', read as evidence of his participation in the lease and a leading position among its leaseholders. Read in full.",
+      "url": "https://shakespearedocumented.folger.edu/resource/document/inquisition-post-mortem-thomas-brend-showing-shakespeare-and-others-occupying"
+    },
+    {
+      "id": "src_shakespeare_playhouses",
+      "kind": "institution",
+      "title": "Folger Shakespeare Library, 'Shakespeare's playhouses', Shakespeare Documented -- overview essay on the Theatre, the Globe (1599) and the Blackfriars indoor playhouse, stating that Shakespeare was one of the original seven shareholders of the reorganized Blackfriars in 1608 and listing the Globe lease deeds of 1601 and 1608 that name him. The tail of the Blackfriars paragraph was cut off in the page text and was not read. Read to that point.",
+      "url": "https://shakespearedocumented.folger.edu/resource/playwright-actor-shareholder/shakespeares-playhouses"
+    },
+    {
+      "id": "src_shakespeare_greene",
+      "kind": "institution",
+      "title": "Heather Wolfe, 'Greenes, groats-worth of witte: First printed allusion to Shakespeare as a playwright' (1592; Folger STC 12245), Shakespeare Documented -- essay on the pamphlet that attacks an 'upstart Crow' and 'Shake-scene', on Henry Chettle's apology in Kind-Heart's Dream and Thomas Nashe's denial of authorship. HOSTILE CONTEMPORARY witness (and Chettle's defence of him, as summarized by the Folger). Read in full; the Chettle document's own Folger page carries no description and Chettle's text itself was not read.",
+      "url": "https://shakespearedocumented.folger.edu/resource/document/greenes-groats-worth-witte-first-printed-allusion-shakespeare-playwright"
+    },
+    {
+      "id": "src_shakespeare_buc",
+      "kind": "archive",
+      "title": "Folger Shakespeare Library, 'George a Greene: George Buc interviews William Shakespeare and Edward Juby' (1599), Shakespeare Documented -- essay on the marginal notes in which the future Master of the Revels records two actors' answers about who wrote an anonymous play, with Shakespeare described as a leading member of the Lord Chamberlain's Men. Read in full.",
+      "url": "https://shakespearedocumented.folger.edu/resource/document/george-greene-george-buc-interviews-william-shakespeare-and-edward-juby"
+    },
+    {
+      "id": "src_shakespeare_henslowe",
+      "kind": "archive",
+      "title": "Grace Ioppolo, 'Henslowe's diary: including the first recorded performances of Henry VI and Titus Andronicus', Shakespeare Documented (Dulwich College MSS 7) -- essay on Philip Henslowe's account book: the diary does not name Shakespeare, but records performances of plays of his by other companies in 1592-94, and Ioppolo states there is no evidence he belonged to Lord Strange's Men and that he became a sharer in the Lord Chamberlain's Men in 1594. Read in full.",
+      "url": "https://shakespearedocumented.folger.edu/resource/document/henslowes-diary-including-first-recorded-performances-henry-vi-and-titus"
+    },
+    {
+      "id": "src_shakespeare_jonson_discoveries",
+      "kind": "archive",
+      "title": "Ben Jonson, 'Timber, or Discoveries' (written c. 1630, printed 1641), the passage 'De Shakspeare nostrat', Project Gutenberg ebook 5134 (Discoveries Made Upon Men and Matter and Some Poems, Cassell edition with Morley's introduction) -- PEER witness, a rival dramatist and friend writing some years after Shakespeare's death: he reports that the players praised Shakespeare for never blotting a line, says he answered 'Would he had blotted a thousand', and calls him honest, of an open and free nature, with an excellent fancy, brave notions and gentle expressions, but one whose facility sometimes needed to be stopped. Written from memory and as a personal note-book, so used for the characterization, not for dated events. Read the passage in full.",
+      "url": "https://www.gutenberg.org/ebooks/5134"
+    },
+    {
+      "id": "src_shakespeare_jonson_tribute",
+      "kind": "archive",
+      "title": "Ben Jonson, 'To the memory of my beloved, the Author, Mr. William Shakespeare' (First Folio, 1623), transcription from The Works of Ben Jonson, vol. 3 (Chatto & Windus, 1910), Luminarium -- the commemorative poem. ADMIRING and a commissioned tribute, so only used for its remark that art as well as nature made him, that a poet must 'sweat' and 'strike the second heat upon the Muses' anvil', and for the 'small Latin and less Greek' line. Read in full as quoted.",
+      "url": "https://luminarium.org/sevenlit/jonson/benshake.htm"
+    },
+    {
+      "id": "src_shakespeare_folio_preface",
+      "kind": "institution",
+      "title": "Internet Shakespeare Editions (University of Victoria), 'The First Folio (1623)' -- Life and Times essay quoting the 'To the great Variety of Readers' preface signed by John Heminge and Henry Condell, Shakespeare's fellow actors and editors of the Folio: 'His mind and hand went together; and what he thought, he uttered with that easiness, that we have scarce received from him a blot in his papers.' COLLEAGUE witness, admiring and published after his death. Read in full.",
+      "url": "https://internetshakespeare.uvic.ca/Library/SLT/literature/publishing/folio.html"
+    },
+    {
+      "id": "src_shakespeare_folio_study",
+      "kind": "institution",
+      "title": "'Prose Contributions to Shakespeare's First Folio', The Cambridge Edition of the Works of Ben Jonson (Electronic edition, University of Victoria / HCMC) -- scholarly introduction on who wrote the Folio's prefaces, concluding that the 'blot' sentence was drafted by Heminges and Condell rather than Jonson and setting it beside Jonson's Discoveries passage. Read the relevant sections.",
+      "url": "https://hcmc.uvic.ca/eol/cambridge/benjonson/dubia/dub_04_FirstFolio/"
+    },
+    {
+      "id": "src_shakespeare_meres",
+      "kind": "institution",
+      "title": "Internet Shakespeare Editions, 'The first rave review' -- Francis Meres, Palladis Tamia: Wit's Treasury (1598), as quoted by permission of the Folger: Meres compares Shakespeare with Ovid in poetry and with Plautus and Seneca in comedy and tragedy and lists twelve plays by title. CONTEMPORARY CRITIC; the site notes he was unusually uncritical in his praise of English writers in general. Read in full.",
+      "url": "https://internetshakespeare.uvic.ca/Library/SLT/life/early%20maturity/meres.html"
+    },
+    {
+      "id": "src_shakespeare_lear_best",
+      "kind": "institution",
+      "title": "Michael Best, 'Textual Introduction' to King Lear, Internet Shakespeare Editions (University of Victoria; the page is marked as not peer reviewed) -- modern scholarly account of the 1608 quarto and 1623 Folio versions, setting out the case that Shakespeare himself revised the play, the contrary arguments and the evidence of authorial draft copy, and stating that scholars are divided. MODERN SCHOLARSHIP, explicitly contested. Read the revision sections in full.",
+      "url": "https://internetshakespeare.uvic.ca/doc/Lr_TextIntro/"
+    },
+    {
+      "id": "src_shakespeare_collab_folger",
+      "kind": "institution",
+      "title": "Peter Kirwan, 'Collaborations and (mis)attributions', Shakespeare Documented (Folger Shakespeare Library) -- scholarly essay on the Shakespeare Apocrypha, stating that scholars are now more willing to accept Shakespeare writing plays collaboratively and that The Two Noble Kinsmen has reached general consensus as collaborative. Read in full.",
+      "url": "https://shakespearedocumented.folger.edu/resource/playwright-actor-shareholder/collaborations-and-misattributions"
+    },
+    {
+      "id": "src_shakespeare_bodleian_ff",
+      "kind": "institution",
+      "title": "Bodleian Libraries, University of Oxford, 'The Bodleian First Folio' (digital facsimile of Arch. G c.7) -- institution page used only to check the rights notice for the portrait source images (published under a Creative Commons Attribution 3.0 Unported licence). Not used for any scoring.",
+      "url": "https://firstfolio.bodleian.ox.ac.uk/"
+    }
+  ],
+  "rows": {
+    "collaboration": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_shakespeare_exchequer_1595, src_shakespeare_globe_ipm, src_shakespeare_playhouses, src_shakespeare_sbt_career, src_shakespeare_collab_folger, src_shakespeare_folio_preface | 1594-1613 | archival record + institutions + colleague] The 1595 Exchequer payment names him with Kempe and Burbage as a company trustee; the 1599 inquisition lists him first among the occupiers of the new Globe; the Folger and the Trust say he was one of the original Blackfriars shareholders and that he stayed with the one company for the rest of his career as its regular dramatist; the Folger's collaboration essay records general consensus that The Two Noble Kinsmen was written jointly; and two fellow actors later edited his plays for the Folio. Several independent records agree on sustained, structured working partnership. Kept at 76 because the surviving record shows the structure of the partnership far better than the day-to-day manner of it."
+    },
+    "execution_speed": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_shakespeare_sbt_career, src_shakespeare_folio_preface, src_shakespeare_jonson_discoveries, src_shakespeare_folio_study | c. 1592-1613 | institution + colleagues + peer] The Trust states that for almost twenty years he was the company's regular dramatist, producing on average two plays a year; his fellow actors said what he thought he uttered with ease; Jonson, who disputed the claim that he never blotted a line, still reports that he 'flowed with that facility' that it was sometimes necessary he should be stopped, and the Cambridge Jonson essay confirms the two passages are separate testimonies. The speed claim rests on colleagues and one rival, both writing after his death, and the average is a Trust summary rather than a count we checked, so strong inference at 0.56. Impact dual-edged because the one critical witness treats the same facility as a fault."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shakespeare_meres, src_shakespeare_greene, src_shakespeare_jonson_discoveries, src_shakespeare_sbt_career | 1592-1637 | contemporary critic + hostile contemporary + peer + institution] Meres in 1598 names him the most excellent English writer in both comedy and tragedy and lists twelve plays; the Folger essay reads the 1592 'Shake-scene' attack as a reaction to his mastery of blank verse, which in its view may have 'hit a nerve'; Jonson credits an excellent fancy and brave notions. The Trust also records the early success of the narrative poems. These are contemporaries judging the work, not describing method, and Meres was known for generous praise, so the score is held below 80 and the evidence is treated as inference from reception."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shakespeare_henslowe, src_shakespeare_folger_overview, src_shakespeare_playhouses, src_shakespeare_lear_best | 1592-1613 | archival record + institutions + modern scholarship] He wrote for and performed with companies before settling as a sharer in 1594 (the Henslowe diary shows plays of his in other companies' hands), moved with the company from the Theatre to the Globe in 1599 and into the indoor Blackfriars from 1608-09, and wrote for the royal court and the provinces as well as the public stage; some scholars argue he also revised plays such as King Lear between quarto and Folio, though Best stresses that this is contested. Most of the change is the company's, not demonstrably his own initiative, so the score is moderate and confidence is at the lower edge of the band."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shakespeare_exchequer_1595, src_shakespeare_globe_ipm, src_shakespeare_playhouses, src_shakespeare_sbt_career | 1594-1608 | archival record + institutions] The records show him moving from hired player and writer to a sharer in the company, a named occupier and leaseholder of the Globe (1599, with later deeds in 1601 and 1608) and one of seven Blackfriars shareholders in 1608, so he held a stake in the playhouses where his plays were staged. Whether each step was his own initiative is not documented (the Folger essays describe Richard and Cuthbert Burbage as principal shareholders of the Globe and owners of Blackfriars), so this is scored as a moderate lean on the structure of his holdings, not on any recorded statement of intent."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "윌리엄 셰익스피어"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/william-shakespeare-droeshout-1623.jpg",
+    "width": 1200,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Shakespeare Droeshout 1623.jpg' -- Martin Droeshout, copper engraving, frontispiece of the First Folio (1623), cropped scan from the Bodleian Libraries' digital facsimile of Arch. G c.7; original Commons file 2640 x 2640 pixels, downscaled once to 1200 x 1200 (never upscaled). A posthumous published engraving prepared for the Folio, not a likeness drawn from a documented sitting.",
+    "license": "Public Domain (engraving of 1623; artist died c. 1650); facsimile source published by the Bodleian under CC BY 3.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Shakespeare_Droeshout_1623.jpg",
+    "attribution": "Martin Droeshout, 1623, First Folio frontispiece; digital facsimile courtesy of the Bodleian Libraries, University of Oxford (Arch. G c.7), CC BY 3.0",
+    "attributionUrl": "https://firstfolio.bodleian.ox.ac.uk/",
+    "creator": "Martin Droeshout",
+    "date": "1623",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Shakespeare_Droeshout_1623.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q692 returned en label 'William Shakespeare', description 'English playwright and poet (1564-1616)', ko label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID. CANONICAL SIGNIFICANCE SOURCE: Shakespeare Birthplace Trust, 'Shakespeare's Career' (https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/william-shakespeare/shakespeare-career/). READ (14 sources, all opened and read in the passages used): the Trust career page; Folger 'Shakespeare Documented' overview, company, playhouse and contemporary-accounts essays; the Exchequer 1595, Globe inquisition 1599, Greene's Groatsworth, Buc and Henslowe-diary document essays; Jonson's Discoveries passage (Gutenberg) and his Folio tribute (Luminarium transcription); the Heminge and Condell preface as quoted by Internet Shakespeare Editions and the Cambridge Jonson edition's study of the Folio prefaces; Meres 1598 as quoted by Internet Shakespeare Editions; Michael Best's King Lear textual introduction; Kirwan's collaborations essay. PERSPECTIVES: institutional archivists and scholars (Folger, Trust), colleagues (Heminge and Condell), a rival dramatist and friend (Jonson, in two registers, one a commissioned tribute), a hostile contemporary (the Groatsworth pamphlet, with Chettle's apology summarized by the Folger), a contemporary critic (Meres), modern textual scholarship (Best, contested). Not one source is Shakespeare's own testimony: he left no letters or diary, and none of the sonnets or plays was used as evidence of his own behaviour or inner life. THIN-EVIDENCE STATEMENT: the surviving record documents his professional position and how contemporaries judged him, not his daily conduct; his manner in meetings, disputes or revision is almost entirely unrecorded. Accordingly only 5 rows are scored, the highest 76 (collaboration) and lowest 60 (opportunity sensing), confidence 0.48-0.66, only one row 'documented'. EXCLUSIONS: all private life (marriage, family, will, Stratford property, health, death), the authorship question, the sonnets as autobiography, any reading of character from the plays, Greene's accusations of arrogance (an attack pamphlet, not corroborated behaviour), and patronage politics. NOT OPENED: the Chandos and other portraits' institution pages (not needed once the Droeshout was cleared), Greenblatt's 'Will in the World' and Bate's 'Soul of the Age' (book-length, not accessible; no review was relied on), Chettle's Kind-Heart's Dream text, the Henslowe MS pages, Cuthbert Burbage's 1635 petition, the British Library 'Shakespeare in Quarto' pages (the Library's teaching page returned only a menu), and the Folger First Folio exhibition page (404). EVIDENCE BOUNDARY: the 'never blotted a line' claim is a players' claim that Jonson himself disputes and that revision scholarship (Best) complicates, so it is not scored as a perfectionism or detail trait. PORTRAIT: Droeshout engraving in the First Folio (1623), kind historical_depiction. Commons 'Shakespeare Droeshout 1623.jpg' is tagged PD-Art/PD-old (Droeshout died c. 1650) and credits the Bodleian facsimile; the Bodleian First Folio page states that its facsimile is published under CC BY 3.0, which is permissive and compatible, so no conflicting restriction was found (the Folger and National Portrait Gallery pages were not needed). Original 2640 x 2640, saved as a 1200 x 1200 downscale (the Commons file is already a crop around the portrait); attribution to the Bodleian is included as a courtesy."
+  }
+}

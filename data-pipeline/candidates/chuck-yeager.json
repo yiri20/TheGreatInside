@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "chuck-yeager",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Chuck Yeager",
+    "aliases": [
+      "Charles Elwood Yeager"
+    ],
+    "wikidataId": "Q271939",
+    "birthYear": 1923,
+    "deathYear": 2020,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "aviator"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "technological",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yeager_wikidata",
+      "kind": "wikidata",
+      "title": "Chuck Yeager (Q271939) -- verified live via the Wikidata API (2026-10-11): English label 'Chuck Yeager', description 'American World War II flying ace and test pilot; first pilot to fly faster than sound (1923-2020)', born 13 February 1923, died 7 December 2020, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q271939"
+    },
+    {
+      "id": "src_yeager_nasm_x1",
+      "kind": "institution",
+      "title": "Smithsonian National Air and Space Museum, collection record 'Bell X-1 Glamorous Glennis' -- museum's own account of the 14 October 1947 flight (Mach 1.06 at 43,000 feet), of the joint NACA/Army Air Forces research programme that built the XS-1, of Yeager's later Mach 1.45 flight of 26 March 1948, and of the aircraft's 1950 presentation to the Smithsonian with the 1947 Collier Trophy awarded to Bell, NACA's John Stack and Yeager. CANONICAL SIGNIFICANCE SOURCE. Institutional, not a character source; used for significance and record facts only. Read in full (the page's 106 image slides were not itemised).",
+      "url": "https://airandspace.si.edu/collection-objects/bell-x-1/nasm_A19510007000"
+    },
+    {
+      "id": "src_yeager_nasa_fs085",
+      "kind": "institution",
+      "title": "NASA Dryden Flight Research Center, 'First Generation X-1' fact sheet FS-2003-07-0085 -- agency history of the X-1 programme: the June 1947 two-phase plan, Yeager's powered flights from 29 August to Mach 0.997 on 10 October, the observation that NACA engineers used to a more cautious step-by-step approach saw Yeager and the Air Force 'acting in haste', and the top-secret handling of the result. Institutional, neutral in tone, not a character study. Read in full.",
+      "url": "https://www.nasa.gov/centers/dryden/pdf/120327main_FS-085-DFRC.pdf"
+    },
+    {
+      "id": "src_yeager_historynet_carlson",
+      "kind": "press",
+      "title": "Mark Carlson, 'Bell X-1: Dropping the Orange Beast That Broke the Sound Barrier', HistoryNet (Aviation History) -- article built on the first-hand recollections of Robert Cardenas, the Air Force officer in charge of the X-1 project and B-29 launch pilot, and on the project record: the stepwise flights from August to October 1947, the loss of elevator effectiveness at Mach 0.92 and Dick Frost's adjustable stabiliser fix, how Cardenas learned of Yeager's broken ribs, and the broom-handle fix. Independent colleague account (non-self); sympathetic, and it explicitly corrects the film The Right Stuff's version. Read in full.",
+      "url": "https://historynet.com/bell-x-1-dropping-the-orange-beast/"
+    },
+    {
+      "id": "src_yeager_tda_x1a",
+      "kind": "press",
+      "title": "Bryan Swopes, '12 December 1953', This Day in Aviation -- aviation-history entry on Yeager's Mach 2.44 flight in the Bell X-1A: Bell engineers had warned him not to exceed Mach 2.3, the aircraft tumbled out of control and fell about 50,000 feet, his official post-flight report, a radio transcript, and a quotation from NACA test pilot A. Scott Crossfield's memoir Always Another Dawn. Contemporary technical record (Yeager's own report) plus an independent test-pilot peer's account; the compiler is a hobbyist historian. Read in full.",
+      "url": "https://www.thisdayinaviation.com/12-december-1953/"
+    },
+    {
+      "id": "src_yeager_tda_nf104",
+      "kind": "press",
+      "title": "Bryan Swopes, '10 December 1963', This Day in Aviation -- aviation-history entry on Yeager's fourth attempt at an altitude record in the Lockheed NF-104A: the planned zoom-climb profile, the re-entry attitude error (about 50 degrees nose-down instead of 70), the flat spin, his ejection, his burns, and a quotation from his 1985 autobiography. A candid, non-hagiographic technical account with Yeager's own recollection marked as such; reader comments below the article were not used. Read in full.",
+      "url": "https://www.thisdayinaviation.com/10-december-1963/"
+    },
+    {
+      "id": "src_yeager_smithsonian_macgregor",
+      "kind": "press",
+      "title": "Jeff MacGregor, 'How the Bell X-1 Ushered in the Supersonic Age', Smithsonian magazine -- essay on the X-1 programme (Bell, Stack, Kotcher, Woods and Yeager), the Collier Trophy, the aircraft's 1950 donation and Air Force Chief of Staff Vandenberg's remark at it, and the museum curators' account of Yeager as a rock-star visitor after The Right Stuff. Journalistic and admiring in tone; used for significance and context, not behavioural scoring. Read in full.",
+      "url": "https://www.smithsonianmag.com/smithsonian-institution/bell-x1-supersonic-flight-180980765/"
+    },
+    {
+      "id": "src_yeager_smithsonian_obit",
+      "kind": "press",
+      "title": "'Remember Chuck Yeager by Exploring the Plane He Flew to Break the Sound Barrier', Smithsonian magazine, 8 December 2020 -- obituary-style feature with the X-1 history, the 'sound barrier' idea, the one-year secrecy, and Yeager's own 1985 recollection that the flight was a letdown because 'the real barrier' was in knowledge and experience of supersonic flight. Mixed (journalist plus quoted self account). Read in full.",
+      "url": "https://www.smithsonianmag.com/smart-news/remembering-chuck-yeager-exploring-plane-broke-sound-barrier-180976479/"
+    },
+    {
+      "id": "src_yeager_encyclopedia_wb",
+      "kind": "biography",
+      "title": "'Chuck Yeager', Encyclopedia of World Biography, via Encyclopedia.com -- reference biography covering his wartime service (incidental here), selection as the X-1 pilot, the Mach 1 flight, the December 1953 Mach 2.4 flight, the 1963 NF-104 attempt, his return to flying after a month in hospital and later career. Used for dates, sequence and the account of the fall from a horse, the doctor, and the broomstick. Reference-grade, not first-hand. Read in full.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/chuck-yeager"
+    },
+    {
+      "id": "src_yeager_foundation_punch",
+      "kind": "institution",
+      "title": "General Chuck Yeager Legacy Foundation, 'Punching a Hole in the Sky' -- the foundation's narrative of the X-1 programme: Colonel Albert Boyd's choice of Yeager, Chalmers Goodlin's bonus dispute with Bell, the eighth powered flight at Mach 0.96, the horse accident, the off-base doctor and the broomstick lever. Affiliated with the subject and admiring; used only to cross-check facts given elsewhere. Read in full.",
+      "url": "https://chuckyeager.com/history/mach-buster/punching-a-hole-in-the-sky"
+    },
+    {
+      "id": "src_yeager_sdasm",
+      "kind": "institution",
+      "title": "San Diego Air & Space Museum, online exhibit 'The Sound Barrier: The Men' -- museum profile of the X-1 team (Boyd, Cardenas, Hoover, Ridley, Frost, Yeager) quoting Major General Ascani that choosing the most junior test pilot for the project was 'courageous because it was unorthodox'. Museum source, somewhat celebratory. Read in full.",
+      "url": "https://sandiegoairandspace.org/exhibits/online-exhibit-page/sound-barrier-the-men"
+    },
+    {
+      "id": "src_yeager_nara_portrait",
+      "kind": "archive",
+      "title": "U.S. National Archives and Records Administration, catalog record 542371, 'Official portrait of Brigadier General Charles E. Yeager' (15 September 1969), Record Group 342 -- its rights metadata (No Copyright - United States, unrestricted access) as imported on the Commons file page; the NARA catalogue site itself is script-rendered and could not be read directly. Not used for any scoring.",
+      "url": "https://catalog.archives.gov/id/542371"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_yeager_tda_x1a, src_yeager_historynet_carlson, src_yeager_tda_nf104, src_yeager_nasm_x1 | 1947-1963 | technical record + project officer + peer test pilot] On 12 December 1953 Yeager took the X-1A to Mach 2.44 although Bell engineers had warned him not to exceed Mach 2.3; the aircraft then tumbled out of control and fell about 50,000 feet, and his own report and radio transcript show he came close to disaster (he later said he would have ejected had the aircraft had a seat). In October 1947 he made the first supersonic attempt in a rocket aircraft with broken ribs he did not report (Cardenas says Yeager never mentioned it, and later learned of it from an anonymous caller), and in December 1963 he went for an altitude record in the NF-104A on his fourth attempt, ending in a flat spin and ejection. These are specific, independently recorded episodes across sixteen years, including the downside; dual-edged because the risks paid off in 1947 and 1953 but cost an aircraft and left him burned in 1963. Held at 80 because several details (the horse, who knew) come from his own account or the foundation. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): a single project-officer/peer account base plus a self report; Wolfe and the autobiographies were not opened; score and confidence lowered."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yeager_tda_nf104, src_yeager_encyclopedia_wb, src_yeager_tda_x1a | 1953-1963 | technical record + reference biography + his own recollection] The December 1963 flight was his fourth attempt at the altitude record; his autobiography (quoted in the technical record) says he stayed with the spinning NF-104A through thirteen of fourteen spins before ejecting; the reference biography says that after a month in hospital with burns he was back on flying duties. After the 1953 X-1A tumble he recovered the aircraft and landed it. The sources show repeated attempts and staying with a failing aircraft, but the strongest details are his own and the failed record shows effort is not the same as success, so the score is moderate."
+    },
+    "competitiveness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yeager_tda_nf104, src_yeager_encyclopedia_wb, src_yeager_tda_x1a, src_yeager_smithsonian_macgregor | 1953-1963 | technical record + reference biography + curators' account] The 1963 NF-104A flights were attempts to beat a Soviet altitude record of 113,890 feet (the reference biography); the 1953 X-1A flight pushed past the speed Bell had advised against; Smithsonian curators remember that Yeager 'always had to be the fastest', even at autograph signings. The pattern of going after records is clear, but no source documents his interactions with rivals in detail, so this is strong inference and not an extreme score."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yeager_historynet_carlson, src_yeager_encyclopedia_wb, src_yeager_foundation_punch, src_yeager_tda_x1a | 1947-1953 | project officer + reference biography + foundation + technical record] To close the X-1's hatch with broken ribs, a broomstick handle was used as a lever extension; the sources disagree on who thought of it (Cardenas credits Ridley, the foundation also credits Ridley, the encyclopedia says Yeager brought it), so the credit is shared but the workaround is well recorded. In 1953 Crossfield, a peer test pilot, wrote that Yeager told him he had deliberately put the aircraft into a spin in thicker air to recover from the tumble ('A spin is something I know how to get out of'), which fits improvising with what he knew; Crossfield called his survival of the episode a feat. Two settings, partly shared credit, so moderate."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yeager_historynet_carlson, src_yeager_sdasm, src_yeager_tda_x1a | 1947-1953 | project officer + museum + peer test pilot] Carlson, drawing on Cardenas, says Yeager, who lacked an engineering background, relied heavily on flight engineer Jack Ridley to understand the aerodynamics, that Dick Frost talked him down on a blind landing when the canopy iced over, and that the team made the fix for the Mach 0.92 elevator problem together; the 1953 transcript shows him in constant radio contact with Ridley and the chase pilots. The sources describe a working unit around him, but they are mostly about what others did for him, and the foundation and museum voices are celebratory, so the score is modest."
+    },
+    "ambiguity_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yeager_encyclopedia_wb, src_yeager_historynet_carlson, src_yeager_nasa_fs085 | 1947 | reference biography + project officer + agency history] The 'sound barrier' was an unknown regime in which earlier approaches had met loss of control; the reference biography says Yeager's own belief was that the vibration would calm once he passed Mach 1 and that he continued to push through buffeting at about Mach 0.87; the team's step-by-step approach reached Mach 0.997 on 10 October and loss of elevator effectiveness at Mach 0.92 was solved by a stabiliser modification before the final flight. He acted on an informed expectation without full certainty, but the expectation is reported mostly from his side, so moderate confidence."
+    },
+    "execution_speed": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yeager_nasa_fs085, src_yeager_historynet_carlson | 1947 | agency history + project officer] NASA's history says the NACA engineers, used to a cautious step-by-step approach, felt Yeager and the Air Force 'seemed to be acting in haste', and Cardenas says the Air Force commander wanted the project done 'progressive and brief'; Yeager went from his first powered flight on 29 August 1947 to Mach 1.06 on 14 October, about six weeks. The pace was largely set by the Air Force programme and the commander, not by Yeager alone, so the score and confidence stay modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "척 예거"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/chuck-yeager-usaf-1969.jpg",
+    "width": 966,
+    "height": 1200,
+    "source": "U.S. National Archives and Records Administration catalog record 542371 (NAID 542371; Record Group 342, 'Photographs of Air Force Officers and Officials'), 'Official portrait of Brigadier General Charles E. Yeager', 15 September 1969, via Wikimedia Commons. Original 2,416 x 3,000 pixels, downscaled once to 966 x 1,200 (never upscaled).",
+    "license": "Public domain (US federal government work; NARA catalogue: No Copyright - United States)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Official U.S. Air Force portrait, 15 September 1969, National Archives and Records Administration (catalog record 542371); public domain, downscaled from the original",
+    "attributionUrl": "https://catalog.archives.gov/id/542371",
+    "creator": "U.S. Air Force (individual photographer not recorded)",
+    "date": "1969-09-15",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Brigadier_General_Charles_E._Yeager._-_NARA_-_542371.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q271939 returned en label 'Chuck Yeager', description 'American World War II flying ace and test pilot; first pilot to fly faster than sound (1923-2020)', born 1923-02-13, died 2020-12-07, citizenship United States, ko label '척 예거'; the lead's QID hint was correct. SLUG/QID CHECK: no existing candidate file, production roster entry or QID collision for this slug or Q271939. CANONICAL SIGNIFICANCE SOURCE: Smithsonian National Air and Space Museum collection record 'Bell X-1 Glamorous Glennis' (https://airandspace.si.edu/collection-objects/bell-x-1/nasm_A19510007000), supported by the NASA Dryden 'First Generation X-1' fact sheet. SCOPE: only documented test-pilot conduct (the 1947 X-1 programme, the 1953 X-1A flight, the 1963 NF-104A flight) is scored. Wartime combat service, command and rank, later Air Force public-relations and commercial roles, Vietnam-era service, his family, politics and any public statements were excluded and are not evidence. READ (11 substantive sources, plus Wikidata and a NARA catalogue record for identity and portrait only): NASM collection record; NASA Dryden fact sheet; HistoryNet article by Mark Carlson built on Robert Cardenas's recollections; This Day in Aviation entries on the X-1A (with Yeager's official post-flight report and an A. Scott Crossfield quotation) and on the NF-104A crash; Smithsonian magazine essay and 2020 feature; Encyclopedia of World Biography; Yeager Foundation narrative; San Diego Air & Space Museum exhibit. PERSPECTIVES: project officer (Cardenas via Carlson), peer test pilot (Crossfield, quoted), agency historians (NASA, NASM), museum and magazine writers, his own contemporaneous flight report and 1985 recollections (self, never the sole support). Several accounts are admiring, and the day-of-flight narrative of 14 October 1947 rests mostly on Yeager and Ridley, so no confidence exceeds 0.70 and no score exceeds 80. DISAGREEMENTS NOTED: the horse accident and the broomstick are told differently (who knew; who thought of the lever); peak altitude of the NF-104A flight is given as roughly 101,600 to 108,000 feet depending on source. COUNTER-EVIDENCE: the 1963 NF-104A flight ended in a spin attributed in the technical record to a re-entry attitude error, and NASA records that NACA engineers thought the 1947 pace hasty; both are reflected in the dual-edged impact of risk tolerance, competitiveness and execution speed. NOT OPENED: Tom Wolfe's The Right Stuff (book, read about only through the HistoryNet article's correction of its film version, so used only as one perspective that is explicitly discussed there), Yeager's autobiographies (quoted second-hand only), Crossfield's Always Another Dawn (quoted second-hand only), Richard Hallion's and Dan Hampton's books, the Edwards AFB history page and the National Museum of the US Air Force fact sheet (both returned access denied), the Britannica entry (not retrievable). PORTRAIT: NARA catalog record 542371 (official Air Force portrait of Brigadier General Yeager, 15 September 1969) via Commons; NARA catalogues it with copyright status 'No Copyright - United States' and unrestricted access and Commons applies the PD-USGov template (work of a federal employee in official duties) plus the Public Domain Mark; the NARA catalogue site is script-rendered so its status was read through the metadata imported on the Commons page, and no conflicting notice was seen; the photographer is not named in the catalogue. The uniformed official portrait is a US-government document, downloaded at 2,416 x 3,000 (greyscale), downscaled to 966 x 1,200. LEAD REVIEW (Roster49): risk_tolerance lowered before eligibility."
+  }
+}
