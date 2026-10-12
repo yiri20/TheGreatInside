@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "lebron-james",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "LeBron James",
+    "aliases": [
+      "LeBron Raymone James"
+    ],
+    "wikidataId": "Q36159",
+    "birthYear": 1984,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lebron_wikidata",
+      "kind": "wikidata",
+      "title": "LeBron James (Q36159) -- verified live via the Wikidata API (2026-10-11): English label 'LeBron James', description 'American basketball player (born 1984)', born 30 December 1984, no date of death, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q36159"
+    },
+    {
+      "id": "src_lebron_nba_career",
+      "kind": "institution",
+      "title": "NBA.com Staff, 'Looking back: LeBron James' career as he turns 37', updated 23 September 2022 -- league's own career summary: four championships (Miami 2012 and 2013, Cleveland 2016, Los Angeles Lakers 2020), four Finals MVPs, 17 All-Star and 17 All-NBA selections, Rookie of the Year in 2003-04, selection to the 75th Anniversary Team, eight straight Finals trips, the 2007 Finals run, and his three franchises. CANONICAL SIGNIFICANCE SOURCE. Institutional and celebratory in tone; its MVP count is internally inconsistent (four in one place, 'five career MVPs' in another), so no MVP count is used. Read in full.",
+      "url": "https://nba.com/news/lebron-james-career-highlights"
+    },
+    {
+      "id": "src_lebron_nba_2016",
+      "kind": "institution",
+      "title": "NBA.com Staff, 'Top Moments: Cavaliers end Cleveland's long championship drought', 14 September 2021 -- league history of the 2016 Finals: the Cavaliers as underdogs to the 73-win Warriors, the 3-1 deficit, Game 5 (James 41 points, 16 rebounds, seven assists, three steals, three blocks, with Irving also scoring 41), Game 6 and Game 7, the chase-down block on Iguodala and Finals MVP honours, with James's own quotes crediting his coaches and Irving. League source, favourable to its stars; used for the series facts. Read in full.",
+      "url": "https://www.nba.com/news/history-top-moments-cavaliers-erase-3-1-deficit-2016-finals"
+    },
+    {
+      "id": "src_lebron_slate_levin",
+      "kind": "press",
+      "title": "Josh Levin, 'LeBron James' performance in the 2016 NBA Finals transformed the King into an NBA legend', Slate, June 2016 -- essay on the Finals as a mixed picture: James led both teams in points, rebounds, assists, steals and blocks and scored 41 in Games 5 and 6 and a triple-double in Game 7, yet shot 9 of 24 in Game 7 with five turnovers and 'never came close to controlling his team's fate', needing breaks to win. Independent columnist, admiring but explicitly weighing luck against performance; contains an editorial passage on his career path that is not used. Read in full.",
+      "url": "https://slate.com/culture/2016/06/lebron-james-performance-in-the-2016-nba-finals-transformed-the-king-into-an-nba-legend.html"
+    },
+    {
+      "id": "src_lebron_fox_lue",
+      "kind": "press",
+      "title": "FOX Sports, 'Tyronn Lue called out LeBron James during halftime of Game 7 of the NBA Finals', 30 June 2017 -- summary of Lee Jenkins's Sports Illustrated profile: coach Tyronn Lue confronted James at a timeout and again at halftime of Game 7 ('Stop being so passive!', stop the turnovers, guard Draymond Green), James's angry reaction to assistants Damon Jones and James Jones, and Lue's own explanation that the Cavaliers needed their best player to be at his best. Coach's first-hand account relayed by two outlets (a 2026 Yahoo/Basketball Network retelling of the same episode was also read and is treated as one incident, not a second source). Read in full.",
+      "url": "https://www.foxsports.com/stories/nba/tyronn-lue-called-out-lebron-james-during-halftime-of-game-7-of-the-nba-finals"
+    },
+    {
+      "id": "src_lebron_espn_haberstroh",
+      "kind": "press",
+      "title": "Tom Haberstroh, 'For Heat, it all starts with LeBron James', ESPN Miami Heat Index, 22 October 2012 -- reported feature on how coach Erik Spoelstra rebuilt the Heat around James after the 2011 Finals: Spoelstra's film-room review of James's Cleveland years, his admission that he had 'put LeBron in a box', the March 2012 lunch at which he told James to play like a big man and 'forget everything you know', James's response (38 points, 11 rebounds, five steals against Portland the next game), Shane Battier's signing and position-less basketball. Independent beat reporting with coach quotations. The ESPN site blocked direct download, so the page was read through the fetch tool's page summary, and only specific, conservatively stated facts from it are used.",
+      "url": "https://www.espn.com/blog/truehoop/miamiheat/post/_/id/15523/it-all-starts-with-lebron-james"
+    },
+    {
+      "id": "src_lebron_espn_mcmenamin",
+      "kind": "press",
+      "title": "Dave McMenamin, 'LeBron James is harvesting the benefits of seeds planted years ago', ESPN, 20 December 2017 -- feature on how his habits developed: former Cavaliers assistant Chris Jent describing film sessions on a laptop of 'like 6,000 clips' shown 'good and bad' and James returning to the gym late at night, trainer Mike Mancias saying he 'leaves no stone unturned', and James on never wanting to be a 'one-hit wonder'. Insiders' accounts (an assistant coach and his own trainer), admiring; James's own quotes marked as self. The ESPN site blocked direct download, so the page was read through the fetch tool's page summary, and only specific, conservatively stated facts from it are used.",
+      "url": "https://www.espn.com/nba/story/_/id/21831381/lebron-james-reaping-benefits-groundwork-laid-years-ago-nba"
+    },
+    {
+      "id": "src_lebron_clutchpoints_spoelstra",
+      "kind": "press",
+      "title": "Zachary Weinberger, 'Heat's Erik Spoelstra drops eye-opening LeBron James comparison in Year 22', ClutchPoints, 4 December 2024 -- report of Miami Heat coach Erik Spoelstra's pre-game comments after working with James as a Team USA assistant at the 2024 Olympics: James 'so detailed at 26, that doesn't change as you get older', consistently the first one in the workout room (about 6 a.m.), 'noticing things on film' and an active participant in team meetings and film sessions. Named coach quoted at length (non-self), admiring; a news-site report of press-room remarks. Read in full.",
+      "url": "https://clutchpoints.com/nba/miami-heat/heat-news-erik-spoelstra-drops-eye-opening-lebron-james-comparison-in-year-22"
+    },
+    {
+      "id": "src_lebron_ap_lakers_practice",
+      "kind": "press",
+      "title": "Greg Beacham (Associated Press), 'Los Angeles Lakers love LeBron James' leadership in first practice', 25 September 2018, via NBA.com -- wire report on his first practice with the Lakers: teammate Rajon Rondo calling him a leader and mentor, coach Luke Walton saying his approach 'set the tone', and James saying he must be patient with himself and teammates in a new system. Independent wire reporting with named teammate and coach quotations; first-day, so only a snapshot. Read in full.",
+      "url": "https://www.nba.com/article/2018/09/25/lakers-lebron-james-leadership-first-practice/"
+    },
+    {
+      "id": "src_lebron_olajuwon_yahoo",
+      "kind": "press",
+      "title": "Adel Ahmad, 'Hakeem Olajuwon on how LeBron came to him to work out after the 2011 Finals loss', Yahoo Sports (from Basketball Network), 19 June 2025 -- retelling of Hall of Famer Hakeem Olajuwon's own recollection that James flew to Houston after the 2011 Finals defeat, found the footwork hard on the first day and came back the next day with the moves 'smooth' after working on his own, and that Olajuwon was 'very, very impressed' by his determination. Named outside expert's first-hand account, relayed by a sports aggregator; admiring. Read in full.",
+      "url": "https://sports.yahoo.com/article/hakeem-olajuwon-lebron-came-him-013700656.html"
+    },
+    {
+      "id": "src_lebron_br_2011",
+      "kind": "press",
+      "title": "Eddy DelSignore, 'LeBron James, I'm Not Mad, I'm Just Disappointed', Bleacher Report, 14 June 2011 -- fan-writer opinion column after the 2011 Finals, quoting Charles Barkley's 2010 television criticism of James's aggression in a playoff loss. Opinion and not independent reporting; used only as the contemporary critical voice that his 2011-era effort and aggression were questioned, never as support for a score. Read in full.",
+      "url": "https://bleacherreport.com/articles/733333-2011-nba-finals-lebron-james-im-not-mad-im-just-dissapointed"
+    },
+    {
+      "id": "src_lebron_si_return",
+      "kind": "press",
+      "title": "LeBron James (as told to Lee Jenkins), 'LeBron: I'm coming back to Cleveland', Sports Illustrated, 11 July 2014 -- SELF source: his own essay announcing his return to the Cavaliers after four seasons in Miami, mentioning the 2010 move and the team he joined. Self-authored, so used only to confirm the sequence of his team moves; his stated personal reasons are not used. Read in full.",
+      "url": "https://www.si.com/nba/2014/07/11/lebron-james-cleveland-cavaliers"
+    },
+    {
+      "id": "src_lebron_npr_record",
+      "kind": "press",
+      "title": "Bill Chappell and Ayana Archie, 'LeBron James breaks the NBA career scoring record, passing Kareem Abdul-Jabbar', NPR, 7-8 February 2023 -- news report of the game against Oklahoma City in which James passed Abdul-Jabbar's 38,387 career points to become the league's all-time leading scorer, the first new name atop the list since 1984, with the on-court ceremony and his career scoring average. Added after the achievement self-gate as the one bounded source for a record fact; not used for any trait row. Read in full to the reaction section.",
+      "url": "https://www.npr.org/2023/02/07/1152839238/lebron-james-nba-scoring-record-kareem-abdul-jabbar"
+    },
+    {
+      "id": "src_lebron_commons_drost",
+      "kind": "institution",
+      "title": "Wikimedia Commons file 'LeBron James (51959977144) (cropped2).jpg' and its Flickr source page (Erik Drost, 21 March 2022, licence shown as Creative Commons Attribution 2.0) -- opened to check the portrait's licence. Not used for any scoring.",
+      "url": "https://www.flickr.com/photos/edrost88/51959977144/"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lebron_clutchpoints_spoelstra, src_lebron_espn_mcmenamin, src_lebron_ap_lakers_practice | 2009-2024 | former Heat head coach + insiders + wire report] Spoelstra, speaking in 2024, says James was consistently the first one in the workout room around 6 a.m. during the Olympics and that his attention to detail 'doesn't change as you get older'; Cavaliers assistant Jent describes him returning to the gym late at night and trainer Mancias says he 'leaves no stone unturned'; at his first Lakers practice in 2018 he spoke of 'championship habits every day'. Independent named witnesses from different years agree on sustained routine; all are admiring or insiders, and he is also a source for his own regimen, so the score stays at 80 and the confidence below 0.70. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): part of the coaching/work-habit evidence reached me only as fetch summaries of ESPN pieces; score and confidence lowered."
+    },
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lebron_olajuwon_yahoo, src_lebron_espn_haberstroh, src_lebron_espn_mcmenamin | 2009-2012 | Hall of Fame tutor + beat reporter + former assistant coach] After the 2011 Finals loss he travelled to train with Hakeem Olajuwon on post footwork; Olajuwon says the first day was rough, that James went away and worked on it himself and came back with the moves smooth, and that he was impressed by his determination; Jent describes film sessions with about 6,000 clips shown 'good and bad' during a 2009 summer, and ESPN reports that his production at power forward in 2012 was well above his season average. Specific, consistent learning efforts from outside experts across several years, but all admiring and partly relayed second-hand."
+    },
+    "belief_updating": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lebron_espn_haberstroh, src_lebron_olajuwon_yahoo, src_lebron_br_2011 | 2011-2012 | beat reporter + Hall of Fame tutor + critical column] After the 2011 Finals, when his aggression and play in the series were publicly criticised, he sought out Olajuwon, and in March 2012, when Spoelstra told him to play like a big man and 'forget everything you know', he took the new role immediately and produced a 38-point game at power forward; Spoelstra himself calls the earlier approach of putting James 'in a box' his biggest regret, so the change was a joint one, not James's alone. A clear before-and-after sequence told by independent reporters, but the motive (his own reflection) is not documented, so strong inference."
+    },
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lebron_espn_haberstroh, src_lebron_nba_career, src_lebron_ap_lakers_practice | 2010-2018 | beat reporter + league history + wire report] He played power forward and then 'position-less' basketball in Miami after being a conventional small forward, and later went through three franchises (Cleveland 2003-10, Miami 2010-14, Cleveland 2014-18, the Lakers from 2018), reaching eight straight Finals across two of them; at his first Lakers practice he said he had to be patient with himself because it was a new system. Independent sources document the role change and the team changes; the tactical changes were largely driven by coaches, so moderate."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lebron_clutchpoints_spoelstra, src_lebron_espn_mcmenamin | 2009-2024 | former Heat head coach + former assistant coach] Spoelstra says James was 'so detailed at 26' and that 'the details of winning' still matter to him, with him noticing things on film and taking an active part in team meetings and film sessions, and Jent describes long film sessions on defensive and offensive fundamentals during a summer promotional tour. Two coaches fifteen years apart describe the same attention to detail; one is a 2024 press-room remark, the other an insider anecdote, so strong inference rather than documented."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lebron_nba_2016, src_lebron_slate_levin, src_lebron_nba_career | 2007-2016 | league history + independent columnist] The 2016 Cavaliers came back from a 3-1 deficit; James scored 41 points in Game 5 (16 rebounds, seven assists, three steals, three blocks) and 41 in Game 6, then recorded a triple-double in Game 7 and made the chase-down block on Iguodala, after losing the 2015 Finals to the same team; Slate adds that he led both teams in points, rebounds, assists, steals and blocks, but also that he shot 9 of 24 in Game 7 with five turnovers and needed breaks, so the outcome was shared. Documented, specific performances under elimination pressure from the league and an independent columnist; held at 78 because these show repeated effort in one series more than a whole career of it."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lebron_ap_lakers_practice, src_lebron_espn_haberstroh, src_lebron_nba_2016 | 2012-2018 | wire report + beat reporter + league history] On his first day with the Lakers, Rondo called him a leader and mentor and coach Walton said his approach 'set the tone'; before Game 5 in 2016 he said 'as one of the leaders of the team, we just went out and executed'; ESPN reports Spoelstra saying James had 'completely transformed' the Heat by embracing the changes made around him. Consistent descriptions from named teammates and coaches, though several are admiring or self-referential and come from first days or interviews, not sustained observation."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lebron_nba_2016, src_lebron_fox_lue, src_lebron_espn_haberstroh, src_lebron_slate_levin | 2012-2016 | league history + coach's account + beat reporter + columnist] After Game 5 of the 2016 Finals he credited the coaching staff's game plan and called Irving's 41-point performance one of the greatest he had seen live; in Miami he accepted a role change proposed by the coach; Slate says he made his teammates better. Against that, Lue says he was angry when criticised at the Game 7 timeout and halftime and complained to assistants, though he then played the second half as the coach asked. A mix of cooperative and prickly behaviour, mostly told by people close to him, so the score is moderate."
+    },
+    "competitiveness": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lebron_fox_lue, src_lebron_nba_2016, src_lebron_slate_levin, src_lebron_br_2011 | 2010-2016 | coach's account + league history + independent columnist + critical column] Lue says that in Game 7 he and his staff deliberately pushed James at the timeout and at halftime because 'we needed him to be his best', and James, angry at first, went on to play a triple-double game and make the chase-down block; he scored 41 in two consecutive elimination games; but a 2011 column quotes Charles Barkley's 2010 criticism that he lacked aggression in a big home playoff loss, and Slate notes missed shots and turnovers in Game 7. High competitive output with documented lapses, so dual-edged."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lebron_nba_career, src_lebron_si_return, src_lebron_slate_levin | 2010-2018 | league history + self essay + columnist] The league's own history lists his four team changes (Cleveland, Miami in 2010, a return to Cleveland in 2014, the Lakers in 2018), and his own 2014 essay names the teammates he went to Miami to play with; Slate notes that leaving Ohio in 2010 brought public anger and that he later returned. These are documented, public career choices to join specific teams, but the reasons for each are mostly his own or inferred, and the sources do not show how he built rosters, so the confidence is modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "르브론 제임스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/lebron-james-erik-drost-2022.jpg",
+    "width": 1036,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'LeBron James (51959977144) (cropped2).jpg' -- photograph by Erik Drost taken 21 March 2022 at Los Angeles Lakers at Cleveland Cavaliers, from the photographer's Flickr (photos/edrost88/51959977144); Commons licence CC BY 2.0, Flickr page shows 'Some rights reserved' with the by/2.0 licence link; Commons file 1197 x 1387 pixels, downscaled once to 1036 x 1200 (never upscaled).",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Erik Drost, 21 March 2022, CC BY 2.0, cropped by Wikimedia Commons user and downscaled",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:LeBron_James_(51959977144)_(cropped2).jpg",
+    "creator": "Erik Drost",
+    "date": "2022-03-21",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:LeBron_James_(51959977144)_(cropped2).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q36159 returned en label 'LeBron James', description 'American basketball player (born 1984)', born 1984-12-30, no death date, citizenship United States, ko label '르브론 제임스'; the lead's QID hint was correct. SLUG/QID CHECK: no existing candidate file, production roster entry or QID collision. CANONICAL SIGNIFICANCE SOURCE: NBA.com Staff, 'Looking back: LeBron James' career as he turns 37' (https://nba.com/news/lebron-james-career-highlights), supported by NBA.com's 2016 Finals history. LIVING SUBJECT: only documented public professional conduct is scored (preparation and work habits as described by coaches, teammates, trainers and reporters, on-court Finals performance, in-game and role decisions, and the public sequence of his team moves). Politics, activism, business and media ventures, family and private life, health, injuries, recovery and sleep routines, finances, and the reasons he gives for personal decisions were excluded. Recent 2026 reports about his team situation were seen in search results but not used, because the claims could not be confirmed from a source read in full; the profile makes no statement about his current team. READ (12 substantive sources, including an NPR report on the 2023 scoring record added after the self-gate for a card fact only, plus Wikidata and Commons/Flickr for identity and portrait only): NBA.com career summary; NBA.com 2016 Finals history; Slate (Levin); FOX Sports summary of Lee Jenkins's SI profile (and a 2026 Yahoo retelling of the same Lue episode, not counted separately); ESPN Haberstroh (2012) and ESPN McMenamin (2017), both read only through the fetch tool's page summary because ESPN blocks direct download, with only conservatively stated facts used; ClutchPoints report on Spoelstra (2024); AP report on his first Lakers practice (2018); Yahoo/Basketball Network on Hakeem Olajuwon (2025); a 2011 Bleacher Report opinion column (critical voice only); his own 2014 SI return essay (self; never sole support). PERSPECTIVES: league institutional history, head coaches (Spoelstra, Lue, Walton), an assistant coach and a trainer, a teammate (Rondo), a Hall of Fame tutor (Olajuwon), independent columnists and reporters, and his own words (self, never sole support for any row). Nearly all sources are admiring or from within his circle and several are interviews or press-room remarks, so no score exceeds 80 and no confidence exceeds 0.68; the counter-evidence (Slate's account of Game 7 shooting and turnovers and of needing breaks, Barkley's 2010 criticism via the 2011 column, Lue's account that James was angry when challenged) is why persistence, collaboration and competitiveness are held lower or marked dual-edged. NOT OPENED: ESPN Brian Windhorst's 2014 and later reporting, Windhorst's book 'Return of the King', Lee Jenkins's full SI profile (only the FOX summary read), The Athletic and New York Times coverage (blocked), his 2014 'Decision' coverage, Basketball-Reference statistics pages, and any source on his off-court business, media or philanthropic activity (deliberately excluded). DISAGREEMENTS NOTED: NBA.com's career page gives four MVPs in one paragraph and 'five career MVPs' in another, so no MVP count is used; for the 2016 Game 7 only the triple-double fact (Slate) is used, not a stat line. PORTRAIT: Commons 'LeBron James (51959977144) (cropped2).jpg' by Erik Drost (named photographer), taken at a public NBA game on 21 March 2022, CC BY 2.0 per the Commons file page and the photographer's Flickr page ('Some rights reserved', by/2.0 link); no restriction or personality-rights template on the Commons page; the image shows team and sponsor marks on the jersey; downloaded at 1,197 x 1,387 and downscaled to 1,036 x 1,200. LEAD REVIEW (Roster49): discipline lowered before eligibility."
+  }
+}

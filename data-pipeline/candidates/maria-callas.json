@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "maria-callas",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Maria Callas",
+    "aliases": [
+      "Maria Callas (Kalogeropoulos)",
+      "Maria Meneghini Callas",
+      "La Divina"
+    ],
+    "wikidataId": "Q128297",
+    "birthYear": 1923,
+    "deathYear": 1977,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US",
+      "GR"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_callas_wikidata",
+      "kind": "wikidata",
+      "title": "Maria Meneghini Callas (Q128297) -- verified live via the Wikidata API (2026-10-11): English label 'Maria Meneghini Callas', description 'American-Greek operatic soprano (1923-1977)', born 2 December 1923, died 16 September 1977, citizenship Greece and United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q128297"
+    },
+    {
+      "id": "src_callas_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Maria Callas' biography entry -- CANONICAL SIGNIFICANCE SOURCE: American-born Greek soprano who revived classical coloratura roles and 19th-century bel canto works (Bellini, Donizetti) that had long been dropped from standard repertoires, tutored by conductor Tullio Serafin, with her success attributed in part to her sense of theatre and her 'scrupulously high artistic standards'; more than 40 roles and more than 20 complete operas recorded; final operatic performance as Tosca at Covent Garden and master classes at Juilliard. Only the career sections were used; the personal-life and vocal-decline sections were read but not used for any card or row. Read in full.",
+      "url": "https://www.britannica.com/biography/Maria-Callas"
+    },
+    {
+      "id": "src_callas_roh",
+      "kind": "institution",
+      "title": "Royal Ballet and Opera (Royal Opera House), 'Creative Spotlight: Maria Callas' -- institutional guide to her Covent Garden career: debut as Norma in 1952, later Aida, Il trovatore, La traviata, Medea and Tosca; her 1949 breakthrough in Venice when she stepped in as Elvira in I puritani while in rehearsal as Brunnhilde; the house's description of her commitment to her art and 'refusal to accept anything but the best'. Institutional page, admiring in tone; its off-stage section was not used. Read in full.",
+      "url": "https://www.rbo.org.uk/creative-spotlight-maria-callas"
+    },
+    {
+      "id": "src_callas_musicweb_studio",
+      "kind": "press",
+      "title": "MusicWeb International, review of 'Maria Callas: The Complete Studio Recordings 1949-1969' (December 2007) -- long critical essay on her recording career: Serafin as her guide and mentor who persuaded her to build her repertoire around bel canto when she seemed to be heading toward Wagner and heavier roles, her Venice 1949 switch from Brunnhilde to Elvira, producer Walter Legge's repertoire choices for the studio (including roles she never sang on stage) and her willingness to record what was proposed, and the conductors who prepared her roles at La Scala. Critic's judgments, partly speculative on Legge's motives, which were not used. Read in full.",
+      "url": "https://www.musicweb-international.com/classrev/2007/Dec07/Callas_complete_studio_3959182.htm"
+    },
+    {
+      "id": "src_callas_nyt_bootlegs",
+      "kind": "press",
+      "title": "Anthony Tommasini, 'Giving Those Callas Bootleg Tapes a Road Test', The New York Times, 9 January 2003 (archived copy) -- music critic's article on EMI's release of live Callas recordings, with two work episodes: the 1958 Lisbon Traviata rehearsals where, reportedly, she refused conductor Franco Ghione's suggestion to ease the final high note because Verdi had marked it triple piano, and the 20 November 1957 Dallas rehearsal recording in which she and conductor Nicola Rescigno work through Martern aller Arten and she manages the long final phrases on one breath on the third try; also notes she had scant time to learn the role of Maddalena in the 1955 Andrea Chenier and sounded nervous. Critic's first-hand listening for the Dallas and Chenier points; the Lisbon episode is marked 'reportedly'. Read in full.",
+      "url": "https://www.oocities.org/robdeland/Music_news/2003.01.09.NYTimes.CallasBootlegs.html"
+    },
+    {
+      "id": "src_callas_juilliard",
+      "kind": "institution",
+      "title": "The Juilliard School, 'Happy 100th Birthday, Maria Callas!' (Juilliard Journal, Juilliard Archives, 14 September 2023) -- archivist's account of her Juilliard master classes: she publicly auditioned students in May 1971, chose 25 singers from more than 300 applicants, and taught two six-week cycles (October 1971 to March 1972) in which the singers performed 75 scenes and arias. Institutional archive page; says nothing about the content of her teaching. Read in full.",
+      "url": "https://www.juilliard.edu/node/164741"
+    },
+    {
+      "id": "src_callas_newcriterion",
+      "kind": "press",
+      "title": "The New Criterion, 'Lessons from masters' -- essay on master classes that recounts, in one paragraph, a Callas master-class exchange in which she answered a student's 'it's a cry of despair' with 'it's a B flat'. One anecdote recounted by a music critic (not an eyewitness account), so used with low weight; the rest of the essay concerns other teachers. Read in full.",
+      "url": "https://newcriterion.com/article/lessons-from-masters/"
+    },
+    {
+      "id": "src_callas_hampsong",
+      "kind": "institution",
+      "title": "Hampsong Foundation, 'Maria Callas: A Centenary Commemoration' (feature produced by Jon Tolansky with scholar Roger Pines and baritone Thomas Hampson) -- annotated track list with the presenters' notes: her Venice 1949 Elvira learned in a couple of days while performing Brunnhilde that week, and Pines's remark that she was supreme in her line-by-line response to the text, especially in Cherubini's Medea with Bernstein. Scholar and artist commentary (admiring); the audio itself was not heard, only the written notes. Read in full.",
+      "url": "https://hampsongfoundation.org/resource/maria-callasa-centenary-commemoration/"
+    },
+    {
+      "id": "src_callas_npr2007",
+      "kind": "press",
+      "title": "NPR (Tom Huizenga), 'Maria Callas, The Legend Who Lived for Her Art' (16 September 2007) transcript -- feature on her recorded legacy in which critic John Steane says her records hold a fusion of singing and characterization, and soprano Aprile Millo compares listening to her to reading Shakespeare, describing how she brought drama to Norma, Tosca and Madama Butterfly. Admiring critics' and artists' views of the recordings; used only for the achievement cards. The private-life paragraph was not used. Read in full.",
+      "url": "https://www.npr.org/transcripts/14404970"
+    },
+    {
+      "id": "src_callas_anefo",
+      "kind": "archive",
+      "title": "Nationaal Archief (The Hague), Fotocollectie Anefo, photograph by Bert Verhoeff, 9 December 1973, series 'Maria Callas op Schiphol', bestanddeelnummer 926-8776 -- archive record and its Wikimedia Commons file page checked for the portrait's rights (CC0, rights holder Nationaal Archief). Not used for any scoring.",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ac3e7272-d0b4-102d-bcf8-003048976d84"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_callas_nyt_bootlegs, src_callas_roh, src_callas_britannica | 1957-1958 | critic + institution + encyclopaedia] The Dallas rehearsal recording has her insisting on taking the final rising scales of Martern aller Arten in one breath and succeeding on the third try; the Lisbon Traviata story (reported, not heard) has her refusing a conductor's easier solution for the final high note because Verdi marked it triple piano; the Royal Opera House and Britannica both describe her exacting standards. One documented rehearsal and one reported anecdote, with institutional summaries that are admiring, so the score and confidence stay moderate; dual-edged because she accepted a possible wobble in performance."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_callas_nyt_bootlegs, src_callas_hampsong, src_callas_newcriterion | 1958-1972 | critic + scholar notes + critic's anecdote] She held to the composer's written dynamic marking at Lisbon (reported); Pines describes her as supreme in her line-by-line response to the text; a retold master-class remark ('it's a B flat') stresses the note as written over histrionics. Consistent in direction, but each piece is a single report or a retelling, so a moderate score and confidence."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_callas_britannica, src_callas_musicweb_studio, src_callas_juilliard, src_callas_roh | 1947-1972 | encyclopaedia + critic + archive + institution] She worked under Serafin and moved from heavy Wagner and Italian roles toward the bel canto roles that revived long-neglected works, built a repertoire of more than 40 roles, and later chose 25 singers from more than 300 applicants for a series of master classes in which they performed 75 scenes and arias. Strong pattern of craft commitment, but largely institutional and critical summary rather than colleague testimony about her working day, so confidence stays at 0.6."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_callas_roh, src_callas_musicweb_studio, src_callas_nyt_bootlegs | 1949-1955 | institution + critic] In 1949 she stepped in as Elvira in I puritani in Venice while rehearsing Brunnhilde (the Royal Opera House calls it her big break; MusicWeb calls learning both roles in that time-scale a formidable achievement); in 1955 she took on Maddalena in Andrea Chenier with scant time to learn it and sounded nervous according to the critic. The same episode is told by three sources, so it counts once; one success and one less happy outcome, hence dual-edged."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_callas_musicweb_studio | 1949-1952 | critic] MusicWeb says it was Serafin who persuaded her to bring the bel canto repertoire into her own when she seemed to be heading toward Wagner and heavier Italian roles. A single critic's sentence about one change of repertoire direction, with the mentor's role asserted rather than shown, so inference only and a modest score."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마리아 칼라스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/maria-callas-anefo-1973.jpg",
+    "width": 851,
+    "height": 1000,
+    "source": "Nationaal Archief, Fotocollectie Anefo, bestanddeelnummer 926-8776 (series 'Maria Callas op Schiphol'), photograph by Bert Verhoeff at Schiphol, 9 December 1973; Wikimedia Commons original 2426 x 3665 pixels, cropped to the sitter (a 2200 x 2585 region, other people partly removed) and downscaled once to 851 x 1000, greyscale (never upscaled)",
+    "license": "CC0 1.0 Public Domain Dedication (Commons licence tag CC-zero; rights holder stated as Nationaal Archief)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photograph by Bert Verhoeff / Anefo, Nationaal Archief (CC0; credit not required, given as a courtesy); cropped and downscaled",
+    "attributionUrl": "http://proxy.handle.net/10648/ac3e7272-d0b4-102d-bcf8-003048976d84",
+    "creator": "Bert Verhoeff / Anefo",
+    "date": "1973-12-09",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Een_portret_van_de_zangeres,_Bestanddeelnr_926-8776.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q128297 returned en label 'Maria Meneghini Callas', description 'American-Greek operatic soprano (1923-1977)', born 1923-12-02, died 1977-09-16, citizenship Greece and United States, ko label present; the lead's QID hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID. REGION CHOICE: southern_europe, because her professional career was centred in Italy (Verona, Venice, La Scala, the recording studios of Milan and Florence) and Greece (training in Athens, final citizenship), although she was born in New York and held US citizenship; nationality codes list both US and GR. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Maria Callas' (https://www.britannica.com/biography/Maria-Callas), supplemented by the Royal Opera House guide. DECEASED SUBJECT: only documented professional behaviour is scored (rehearsal conduct, fidelity to the score, repertoire choices and their stated sources, teaching). Private life, marriage, relationships, her mother and family, weight, the fall in vocal quality and speculation on its cause, her death, feuds with managers and rival singers, and 'diva' behaviour off the stage were excluded; Britannica's and Royal Opera House's private-life passages were read and not used. READ (7 substantive sources plus two for the cards only): Britannica, Royal Opera House spotlight, MusicWeb review of the complete studio recordings, Tommasini's New York Times piece (archived copy), Juilliard Archives article, New Criterion essay, Hampsong centenary notes, NPR 2007 feature. PERSPECTIVES: critics (MusicWeb, Tommasini, New Criterion), scholar and artist commentary (Pines, Hampson), two institutions (Royal Opera House, Juilliard) and an encyclopaedia. No first-hand colleague account (conductor, producer, partner) was opened and the rehearsal evidence comes through a critic's description of one recording plus one reported anecdote, so no score exceeds 76 and no confidence exceeds 0.62; belief_updating rests on a single sentence of one review and is marked inference. NOT USED OR NOT OPENED: the New York Review of Books essay on Walter Legge was opened but mentions her only in passing and was not used; Gramophone's review of the Dallas rehearsal disc and its Covent Garden Vissi d'arte feature (bot-blocked), Walter Legge's, Tito Gobbi's, Franco Zeffirelli's and John Ardoin's books, the Juilliard master-class recordings (audio), the Met Opera archives and Rudolf Bing's account, and the PBS documentary 'The Magic of Callas'. The Dallas and Lisbon episodes are described by Tommasini and the Lisbon one is 'reportedly', so it is not treated as established. PORTRAIT: Commons original of Anefo/Nationaal Archief 926-8776 (Bert Verhoeff, 9 December 1973, Schiphol), CC0 per the Commons licence tag and the Nationaal Archief tag, the same rights basis as other Anefo portraits already in the repo; the Nationaal Archief record page is script-rendered, so the rights statement was read from the Commons file page; the sitter is portrayed at Schiphol during her concert tour; downloaded at 2426 x 3665, cropped to the sitter and downscaled to 851 x 1000, greyscale."
+  }
+}

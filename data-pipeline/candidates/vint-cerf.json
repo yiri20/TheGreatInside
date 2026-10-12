@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "vint-cerf",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Vint Cerf",
+    "aliases": [
+      "Vinton Gray Cerf",
+      "Vinton Cerf"
+    ],
+    "wikidataId": "Q92743",
+    "birthYear": 1943,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist",
+      "engineer"
+    ],
+    "fieldIds": [
+      "computing",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "scientific"
+    ],
+    "tagIds": [
+      "innovator",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "institution_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cerf_wikidata",
+      "kind": "wikidata",
+      "title": "Vint Cerf (Q92743) -- verified live via the Wikidata API (2026-10-11): English label 'Vint Cerf', description 'American computer scientist (born 1943)', born 23 June 1943, no date of death, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q92743"
+    },
+    {
+      "id": "src_cerf_ethw",
+      "kind": "institution",
+      "title": "IEEE Milestones (Engineering and Technology History Wiki), 'Transmission Control Protocol (TCP) Enables the Internet, 1974', dedicated 20 May 2024 at Stanford -- IEEE milestone entry crediting Vinton Cerf and Robert Kahn as co-authors of the 1974 paper 'A Protocol for Packet Network Intercommunication', which described TCP linking multiple packet-switched networks; TCP was later split into TCP and IP, and TCP/IP was required on ARPANET on 1 January 1983. States that the work was the product of collaboration among many contributors. CANONICAL SIGNIFICANCE SOURCE (professional-society history of the contribution; honouring in tone, so not used for any behavioural row). Read in full.",
+      "url": "https://ethw.org/Milestones:Transmission_Control_Protocol_(TCP)_Enables_the_Internet,_1974"
+    },
+    {
+      "id": "src_cerf_lemelson",
+      "kind": "institution",
+      "title": "Lemelson-MIT, 'Vinton Cerf' biography -- institutional biography: born 1943, Stanford mathematics degree and UCLA computer science master's and doctorate, Stanford assistant professor 1972-76, DARPA 1973-82 funding TCP/IP, packet radio and packet satellite groups, MCI Mail, Corporation for National Research Initiatives, Google from 2005, Jet Propulsion Laboratory interplanetary-internet work, ICANN chairman 2000-2007 and Internet Society president 1992-95, and honours including the 1997 National Medal of Technology, 2012 Internet Hall of Fame and 2013 Queen Elizabeth Prize for Engineering. Honouring institutional biography with no working-style description. Read in full.",
+      "url": "https://lemelson.mit.edu/resources/vinton-cerf"
+    },
+    {
+      "id": "src_cerf_hlf",
+      "kind": "institution",
+      "title": "Heidelberg Laureate Forum, 'Vinton Gray Cerf' laureate page -- gives the 2004 ACM A.M. Turing Award, shared with Robert E. Kahn, 'for pioneering work on internetworking, including the design and implementation of the Internet's basic communications protocols, TCP/IP, and for inspired leadership in networking'. Brief institutional page used only to confirm the award and its citation (the ACM's own page returned HTTP 403). Read in full.",
+      "url": "https://www.heidelberg-laureate-forum.org/laureate/vinton-gray-cerf.html"
+    },
+    {
+      "id": "src_cerf_networkworld",
+      "kind": "press",
+      "title": "Juan Carlos Perez, 'ICANN faces major transition with Cerf's departure', Network World, 29 June 2007 -- trade-press assessment of Cerf's tenure as ICANN chairman (board from 1999, chairman from 2000, leaving in October 2007 under term limits): consensus-building through early crises, political skill (Mark Uncapher), board stability (Milton Mueller), a registry executive saying his strong leadership sometimes led board members to vote with him even when he was wrong, and critics saying he took a very conservative approach, accepted U.S. control and let bureaucracy grow. Independent with mixed and critical voices. Read in full.",
+      "url": "https://www.networkworld.com/article/2292011/icann-faces-major-transition-with-cerf-s-departure.html"
+    },
+    {
+      "id": "src_cerf_ap_icann",
+      "kind": "press",
+      "title": "Anick Jesdanun (Associated Press), 'A guiding force of the Internet steps down', Philadelphia Inquirer, 4 November 2007 -- wire profile of Cerf at the end of seven years as the unpaid ICANN chairman: ICANN survived power struggles and grew, ICANN CEO Paul Twomey's remark that Cerf has 'a certain star quality', can talk to anyone and explains how the Internet works to sceptical officials, his humour ('My sentence is up'), and continuing criticism that ICANN was arbitrary, secretive and slow. Independent, with a colleague's view and critical voices. Read in full.",
+      "url": "https://www.inquirer.com/philly/business/20071104_A_guiding_force_of_the_Internet_steps_down.html"
+    },
+    {
+      "id": "src_cerf_pelkey",
+      "kind": "archive",
+      "title": "James Pelkey, 'A History of Computer Communications' interview page for Vint Cerf (interview recorded 8 February 1988 at CNRI, Reston), with the interviewer's summary -- describes Kahn's 1973 request that Cerf help design a host-to-host protocol interconnecting heterogeneous packet networks, the May 1974 paper, Cerf joining Kahn at ARPA's IPTO in September 1976 to manage the redesign into TCP/IP, and notes that Cerf consistently credited others and was gracious, engaging and someone people liked working with and for. Archive of an oral-history interview plus the interviewer's own appraisal, so partly self; used for collaboration only alongside other sources. The first 100,000 characters of the page were read; the last part was not.",
+      "url": "https://historyofcomputercommunications.info/interviews/Vint-Cerf/"
+    },
+    {
+      "id": "src_cerf_quanta",
+      "kind": "press",
+      "title": "Susan D'Agostino, 'To Boldly Go Where No Internet Protocol Has Gone Before' (Cerf interview), Quanta Magazine, 21 October 2020 -- edited Q&A on the Interplanetary Internet: the spring 1998 meeting at JPL, Adrian Hooke pushing the idea and holding the team together, Cerf's conclusion that standard Internet protocols fail at interplanetary distances because of delay, the 2003 bundle protocols that let nodes store and forward data, building the network incrementally by reusing spacecraft, and Cerf saying 'a lot of people contributed to the creation of the internet'. The technical claims are largely Cerf's own account (self), with the interviewer's descriptions of him as playful and with 'a preacher's eagerness'. Personal health remarks in the piece were not used. Read in full.",
+      "url": "https://quantamagazine.org/vint-cerfs-plan-for-building-an-internet-in-space-20201021"
+    },
+    {
+      "id": "src_cerf_techreview",
+      "kind": "press",
+      "title": "Brittany Sauser, 'A Better Network for Outer Space', MIT Technology Review, 27 October 2008 -- news report on the Interplanetary Internet effort led by Cerf with NASA's Jet Propulsion Laboratory and MITRE: a store-and-forward bundle protocol for delay- and disruption-tolerant networking, TCP/IP kept on planetary surfaces and inside spacecraft, reuse of existing spacecraft such as EPOXI by uploading new software, authentication between nodes and plans for a proposed international standard. Independent press reporting of plans, with Cerf quoted; it does not say whether the planned tests happened. Read in full.",
+      "url": "https://www.technologyreview.com/s/411092/a-better-network-for-outer-space/"
+    },
+    {
+      "id": "src_cerf_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Dr Vint Cerf ForMemRS.jpg' -- checked for the portrait's licence: photograph by Duncan Hull, 15 July 2016, credit 'The Royal Society', CC BY-SA 4.0 (the page also shows CC BY-SA 3.0 in its summary) with a Wikimedia VRT permission notice from the copyright holder. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Dr_Vint_Cerf_ForMemRS.jpg"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cerf_ethw, src_cerf_pelkey, src_cerf_quanta, src_cerf_techreview | 1973-2008 | professional society + archive interview + two press pieces] The IEEE entry says the 1974 paper described a protocol that linked multiple packet-switched networks into a single internet and that TCP was later split into TCP and IP; Pelkey's page describes the 1973 aim of a protocol interconnecting an arbitrary number of heterogeneous networks; for space, the Quanta and Technology Review pieces describe a store-and-forward bundle protocol for links with long delays and interruptions, with TCP/IP kept for planetary surfaces and spacecraft. A consistent layered, network-of-networks way of framing problems across decades; the design credit is shared with Kahn and many contributors, so no higher."
+    },
+    "collaboration": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cerf_ethw, src_cerf_lemelson, src_cerf_pelkey, src_cerf_quanta, src_cerf_ap_icann | 1973-2020 | professional society + institutional bio + interviewer + press + wire] The IEEE entry credits Cerf and Kahn jointly and says the work was a collaboration among many contributors; Lemelson and Pelkey describe a decades-long partnership with Kahn that continued at DARPA and CNRI; Pelkey's interviewer says Cerf consistently credited others and was someone people liked working with and for; Quanta quotes him that a lot of people contributed and describes Adrian Hooke holding the JPL team together; the AP quotes ICANN's CEO that he could talk to anyone. The interviewer's praise and Cerf's own remarks are partly self-reported, but the joint credit is institutional and independent."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cerf_ap_icann, src_cerf_networkworld | 2007 | wire + trade press] The AP quotes ICANN's CEO that Cerf has 'a certain star quality', can talk to anyone and explains how the Internet works to sceptical officials, and that his humour and gravitas helped the organisation through difficult battles; Network World credits him with building consensus and using his standing to keep disputes from escalating, while one registry executive says his strong leadership sometimes led board members to vote with him even when he was wrong. Two independent outlets from the same 2007 tenure and largely from sympathetic voices, so strong inference and moderate confidence."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cerf_lemelson, src_cerf_networkworld, src_cerf_ap_icann | 1992-2007 | institutional bio + trade press + wire] Lemelson lists his presidency of the Internet Society (1992-95) and the ICANN chairmanship (2000-2007); the AP describes seven years in the unpaid chair through power struggles; Network World's critics say he took a conservative approach, did not press the oversight question and let bureaucracy grow, and that he lacked strong corporate-management skills. Documented willingness to hold demanding stewardship roles with mixed assessments, so dual-edged and moderate."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cerf_techreview, src_cerf_quanta | 2003-2020 | press report of plans + Cerf's own interview] Technology Review reports a plan to test the protocols by repurposing existing spacecraft such as EPOXI with new software rather than launching new hardware, and Quanta describes building the network incrementally, with spacecraft repurposed as backbone nodes after their main missions; the incremental approach is stated in Cerf's own words. One project, partly self-described, so moderate."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cerf_quanta, src_cerf_ap_icann, src_cerf_lemelson | 1998-2020 | Cerf interview + wire + institutional bio] Quanta dates the interplanetary-network idea to a 1998 JPL meeting and the bundle protocols to 2003, still being extended in 2020; the AP records seven years as ICANN chairman through power struggles; Lemelson's career list shows a multi-decade commitment to Internet architecture. Long documented commitments across several roles, but little about how he handled setbacks within them, so not higher."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cerf_quanta, src_cerf_techreview | 1998-2008 | Cerf interview + press report] In the interview Cerf says TCP/IP does not work at interplanetary distances, and Technology Review reports a design that keeps TCP/IP on planetary surfaces and in spacecraft but uses a different delay-tolerant bundle protocol for interplanetary links. This shows him setting aside his own earlier protocol where it fails, but the conclusion is stated mainly by Cerf himself and there is one project, so modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "빈트 서프"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/vint-cerf-hull-2016.jpg",
+    "width": 800,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Dr Vint Cerf ForMemRS.jpg' -- portrait photograph by Duncan Hull taken 15 July 2016 for the Royal Society (credit 'The Royal Society'; Royal Society-WMUK collaboration upload), with a Wikimedia VRT permission notice (ticket 2014062710019796) and CC BY-SA 4.0 licence tag (the file summary also shows CC BY-SA 3.0); Commons file 960 x 1440 pixels, downscaled once to 800 x 1200 (never upscaled).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Duncan Hull / The Royal Society, 15 July 2016, CC BY-SA 4.0, downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Dr_Vint_Cerf_ForMemRS.jpg",
+    "creator": "Duncan Hull (for The Royal Society)",
+    "date": "2016-07-15",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Dr_Vint_Cerf_ForMemRS.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q92743 returned en label 'Vint Cerf', description 'American computer scientist (born 1943)', born 1943-06-23, no death date, citizenship United States, ko label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID in the roster49 worktree. LIVING SUBJECT: only documented public professional behaviour is scored (protocol design with Kahn, ICANN and Internet Society roles as reported by press, Interplanetary Internet work). Hearing, health (the 2020 Quanta piece mentions a recent illness; not used), family, honours-as-politics (Presidential Medal of Freedom and government appointments are not scored or carded), ICANN policy and U.S. oversight disputes as politics, and his Google advocacy on policy topics were excluded. CANONICAL SIGNIFICANCE SOURCE: IEEE Milestones entry 'Transmission Control Protocol (TCP) Enables the Internet, 1974' on ETHW (https://ethw.org/Milestones:Transmission_Control_Protocol_(TCP)_Enables_the_Internet,_1974), read in full, supplemented by the Lemelson-MIT biography and the Heidelberg Laureate Forum page for the Turing Award citation (ACM's own pages, Britannica and Cisco's reprint returned 403/504). READ (7 substantive non-Wikidata sources plus the Commons page): ETHW milestone; Lemelson-MIT biography; Heidelberg Laureate Forum page; Network World (2007); AP via Inquirer (2007); Pelkey 1988 interview page (first 100,000 characters); Quanta (2020 Q&A); MIT Technology Review (2008). PERSPECTIVES: professional society, institutional biographers, trade press with critical voices (Mueller, Peter), wire reporting with a colleague (ICANN CEO), an oral-history interviewer, a science-magazine interviewer and Cerf's own statements; Cerf's interview material is never the sole support for a row. CALIBRATION: design credit is explicitly shared (with Kahn and many contributors, per the IEEE entry), several behavioural sources are admiring or interviews, so no score exceeds 78 and no confidence exceeds 0.64; the critical voices are limited to the 2007 ICANN coverage. NOT OPENED: the ACM Turing Award pages (403), Britannica (403), the New Stack 2023 Cerf-Kahn retrospective (body not returned), Hafner and Lyon's 'Where Wizards Stay Up Late', the Computer History Museum oral histories, the full Pelkey transcript PDF, Cerf's own memoir-style writing, and the IETF drafts; Quanta's and Technology Review's claims about operational use and standardisation were not independently verified and are not used. PORTRAIT: Commons 'Dr Vint Cerf ForMemRS.jpg' by Duncan Hull for the Royal Society, 15 July 2016, CC BY-SA 4.0, with a VRT permission notice and no restriction template; a 2010 Veni Markovski photo (CC BY 3.0) was rejected because its Commons page carries a personality-rights restriction. Downloaded at 960 x 1440 and downscaled once to 800 x 1200. Because the licence is ShareAlike, the portrait credit and licence must be shown with it."
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "pierre-curie",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Pierre Curie",
+    "aliases": [
+      "Pierre Curie (physicist)"
+    ],
+    "wikidataId": "Q37463",
+    "birthYear": 1859,
+    "deathYear": 1906,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "craft_focused",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pcurie_wikidata",
+      "kind": "wikidata",
+      "title": "Pierre Curie (Q37463) -- verified live via the Wikidata API (2026-10-11): English description 'French physicist and chemist (1859-1906)', born 15 May 1859, died 19 April 1906, Korean label present; the entity carries its name under the language-neutral 'mul' label, with no separate English label. Distinct from Marie Curie (a different entity and an existing production person). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q37463"
+    },
+    {
+      "id": "src_pcurie_nobelbio",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Pierre Curie - Biographical', Nobel Prize in Physics 1903 (nobelprize.org; text written at the time of the award, from Les Prix Nobel) -- CANONICAL SIGNIFICANCE SOURCE: his early crystallography with his brother Jacques and the discovery of piezoelectricity, his theories of symmetry, magnetism and the Curie point, the apparatus he built, and the radium and polonium work done with his wife under hardship, for which they shared half the 1903 prize. Work record only; says nothing about behaviour beyond hardship and teaching load. Read in full.",
+      "url": "https://www.nobelprize.org/prizes/physics/1903/pierre-curie/biographical/"
+    },
+    {
+      "id": "src_pcurie_marie",
+      "kind": "biography",
+      "title": "Marie Curie, 'Pierre Curie' (translated by Charlotte and Vernon Kellogg, Macmillan, New York, 1923; Internet Archive scan, OCR text) -- FAMILY source: his widow's biography, written from her memories, his brother Jacques's recollections and his own notes. Describes his crystal and magnetism research, instruments, doctoral thesis, habit of pursuing unforeseen phenomena without publishing, decision to set aside crystals to join her radium work, teaching, refusal of honours, and quotes tribute passages by Gernez, Jean Perrin, Cheneveau and Paul Langevin, so the Perrin and Langevin accounts are read second-hand through her selection. One admiring perspective, never used as sole support. Read the career, research, tribute and Nobel-era chapters; the personal and family chapters were not used.",
+      "url": "https://archive.org/details/pierrecurie0000curi"
+    },
+    {
+      "id": "src_pcurie_dsb",
+      "kind": "biography",
+      "title": "'Curie, Pierre', Complete Dictionary of Scientific Biography (Charles Scribner's Sons, 2008; via Encyclopedia.com) -- scholarly reference biography. Gives the three periods of his work (crystal physics with Jacques, isolated work on symmetry and magnetism, radioactivity with Marie), the 1894 statement of the symmetry laws now called Curie's principle, the magnetism thesis, his 'never hasty' publication, indifference to career and refusal of decoration in 1903, Lord Kelvin's early recognition, and the later industrial use of piezoelectricity by his student Langevin. Read through the career, personality and piezoelectricity/symmetry sections; the radioactivity and magnetism sections later in the entry were skimmed, not read in full.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/pierre-curie"
+    },
+    {
+      "id": "src_pcurie_aps",
+      "kind": "institution",
+      "title": "American Physical Society, 'March 1880: The Curie Brothers Discover Piezoelectricity', APS News 'This Month in Physics History', March 2014 -- institutional history column. Describes the brothers testing crystals with tinfoil, glue, wire and a jeweller's saw, the converse effect predicted by Lippmann and confirmed by them, Curie's law and the Curie point, his experimental approach to seances as a physics question, his not engaging in academic politics, and his rejection for a mineralogy post and the Academy in 1903. Read in full; its remarks on his death and family were not used.",
+      "url": "https://www.aps.org/apsnews/2014/03/this-month-in-physics-history"
+    },
+    {
+      "id": "src_pcurie_espci",
+      "kind": "institution",
+      "title": "ESPCI Paris - PSL, 'History and Heritage of ESPCI Paris' -- institutional history of the school where he worked from 1882 to 1904-05 (shown as 'Pierre Curie' among its notable people), recording that the Curies' radioactivity work brought it renown and that the school keeps their original instruments. Orientation and institutional confirmation only; thin on his behaviour. Read in full.",
+      "url": "https://www.espci.psl.eu/en/about/history-and-heritage/"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pcurie_nobelbio, src_pcurie_dsb, src_pcurie_aps, src_pcurie_marie | 1880-1904 | award body + reference biography + institutional history + family biography] The Nobel account says he built several delicate pieces of apparatus (balances, electrometers) to assist his experiments; the DSB entry describes the quartz balance and years of measuring magnetic properties of substances at various temperatures (his widow gives the range as ordinary temperatures up to 1400 degrees); APS describes the brothers testing quartz, topaz, Rochelle salt and other crystals with improvised materials after expecting a link between heat- and pressure-induced charge; his widow adds that he also tested for possible new phenomena (strongly diamagnetic bodies, magnetic conductors) with negative results. Four independent institutional or scholarly sources agree on a career built on measurement and instrument-making. Held at 80 because the sources describe the pattern more than any single dated trial in detail, and the family source is admiring. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): five sources, the behavioural account comes mainly from Marie Curie's family biography (one perspective) and tributes quoted second-hand; score and confidence lowered."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pcurie_dsb, src_pcurie_marie, src_pcurie_nobelbio | 1884-1895 | reference biography + family biography + award body] The DSB entry says he never indulged in hasty publication and that his papers were 'lucid and cogent', reflecting a precise mind; his widow says he could not accustom himself to hasty publication and quotes his thesis statement of a clear, falsifiable aim (whether diamagnetic and paramagnetic bodies pass into each other) and its negative finding; the Nobel account credits his symmetry theories. The Langevin tribute (via Marie Curie) calls him sure in explanation. The evidence is consistent, but two of the three sources are partisan or reference summaries rather than adversarial scholarship, and no critic's account was read, so it stays below the top band. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): five sources, the behavioural account comes mainly from Marie Curie's family biography (one perspective) and tributes quoted second-hand; score and confidence lowered."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pcurie_nobelbio, src_pcurie_aps, src_pcurie_dsb, src_pcurie_marie | 1880-1900 | award body + institutional history + reference biography + family biography] The Nobel account says that to assist his experiments he constructed his own apparatus; APS says the 1880 discovery used 'the crudest of materials' (tinfoil, glue, wire, magnets and a jeweller's saw); DSB says he developed equipment that all physics laboratories were to use and that the Curies worked until 1905 in a 'wretched laboratory'; his widow, and the Nobel account, describe doing radium work in barely adequate premises. The pattern of building what the research needed with little is consistent across sources; the Curies' shared laboratory conditions are not attributed to Pierre alone. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): five sources, the behavioural account comes mainly from Marie Curie's family biography (one perspective) and tributes quoted second-hand; score and confidence lowered."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pcurie_dsb, src_pcurie_nobelbio, src_pcurie_marie | 1884-1895 | reference biography + award body + family biography] The DSB entry states that in 1894 he published an important work on symmetry in physical phenomena, setting out what are called Curie's laws of symmetry as a new expression of causality ('it is asymmetry that creates the phenomenon'), and that his symmetry ideas gave direction to his experiments and to piezoelectricity; the Nobel account names his 'theories of symmetry'; his widow also notes his analogy between magnetization and the density of a fluid. Two independent sources agree on the contribution; the DSB is the substantive account and the details were not checked against his original 1894 paper (not opened)."
+    },
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pcurie_marie, src_pcurie_aps, src_pcurie_dsb | 1890s | family biography + institutional history + reference biography] His widow records that he hunted for unforeseen phenomena, often with little hope and without publishing, 'solely for the love of the unforeseen'; APS records that he attended seances as a scientific experiment with detailed observational notes, writing in 1894 that such phenomena interested him because he thought they raised physics questions; the DSB entry says he had an insatiable need to understand nature and gave up diversions for it. Documented in independent sources, but the unpublished-searches claim rests on one family source, and the seance example is an unusual and arguably contested use of his curiosity, so it was weighed lightly."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pcurie_dsb, src_pcurie_aps, src_pcurie_nobelbio, src_pcurie_marie | 1880-1904 | reference biography + institutional history + award body + family biography] The DSB entry and APS document a long working partnership with his brother Jacques (piezoelectricity, the quartz balance) that ended when Jacques moved to Montpellier in 1883, followed by joint work with Marie on radioactivity; the Nobel account says the radioactivity studies were made together with his wife; Marie Curie writes that he set aside his own crystal work to join her search for the new substance; Cheneveau and Langevin tributes quoted in her book describe a mentor who worked alongside his students. Several independent sources agree on the partnership pattern; credit between the two spouses is not divided here, and nothing is inferred about the marriage itself. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): five sources, the behavioural account comes mainly from Marie Curie's family biography (one perspective) and tributes quoted second-hand; score and confidence lowered."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pcurie_nobelbio, src_pcurie_dsb, src_pcurie_marie | 1890-1905 | award body + reference biography + family biography] The Nobel account says the radium and polonium work was achieved 'under conditions of much hardship' with barely adequate facilities while teaching heavily to earn a living; the DSB entry says he spent twenty-two years at the school in isolated research and that the Curies worked until 1905 in a poor laboratory; his widow describes the multi-year thesis work on magnetism and the long fractionation of pitchblende that found only trace amounts of the new elements. The picture is consistent, but sources emphasise hardship more than specific decisions to persevere, and his widow's account is one perspective, so the lean is moderate."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_pcurie_dsb, src_pcurie_aps, src_pcurie_marie | 1870s-1905 | reference biography + institutional history + family biography] The DSB entry says he attended neither school nor lycee because he was unsuited to academic discipline, worked in more isolated settings, was unconcerned with his career, 'steadfastly rejected all compromise and complicated diplomacy' and refused decoration in 1903; APS says he did not engage in academic politics and was passed over for a mineralogy post and the Academy in 1903; his widow says he opposed all honorary distinctions. The pattern of preferring his own research to institutional advancement is consistent, but it is mostly documented through reference and family accounts, and the sources do not show how much he sought independence for its own sake."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/pierre-curie-dujardin-1906.jpg",
+    "width": 979,
+    "height": 1380,
+    "source": "Wikimedia Commons, 'Pierre Curie by Dujardin c1906.jpg' -- photographic portrait of Pierre Curie, dated 1906 in the frontispiece caption ('Pierre Curie in 1906', heliogravure by Dujardin, printed by Ch. Wittmann) of Marie Curie's 'Pierre Curie' (Macmillan, 1923; confirmed in the Internet Archive scan opened for the biography source), and also reproduced in her 'Traite de radioactivite' (Gauthier-Villars, 1910) per the Commons record; original Commons file 979 x 1380 pixels, saved unchanged (no scaling). The photographer is unknown; 'Dujardin' on Commons is the heliogravure printer. Rights basis: published in 1910 and 1923, before 1931 (public domain in the United States) with an unknown photographer and more than 70 years since publication (public domain in France and the EU); Commons tags it PD-old. An alternative Wellcome Collection scan (M0000112, credited to E. Pirou) was NOT used because Wellcome's own catalogue page labels the item 'In copyright' despite a CC BY digitisation licence, which is a conflicting institutional notice.",
+    "license": "Public domain (published 1910 and 1923; unknown photographer)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old",
+    "attribution": "Unknown photographer, heliogravure by Dujardin, 'Pierre Curie in 1906'; published in Marie Curie, Traite de radioactivite (1910) and Pierre Curie (1923); public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Pierre_Curie_by_Dujardin_c1906.jpg",
+    "creator": "Unknown photographer (heliogravure by Dujardin)",
+    "date": "c. 1906",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Pierre_Curie_by_Dujardin_c1906.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "피에르 퀴리"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q37463 returned en description 'French physicist and chemist (1859-1906)', born 1859-05-15, died 1906-04-19, Korean label 'Pierre Curie' present (the entity has a language-neutral 'mul' label and no English label); the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug pierre-curie or QID Q37463 (grep of src, data-pipeline, public); Marie Curie is a separate existing production person and was not confounded: every row concerns Pierre's own documented conduct, and joint work with Marie is not divided or credited here. CANONICAL SIGNIFICANCE SOURCE: Nobel Foundation biography (https://www.nobelprize.org/prizes/physics/1903/pierre-curie/biographical/). READ (5 substantive sources): the Nobel biography, Marie Curie's 1923 biography (family, one perspective, plus second-hand quoted tributes by Perrin, Langevin, Cheneveau and Gernez), the Complete Dictionary of Scientific Biography entry, the APS history column on piezoelectricity, and the ESPCI heritage page (thin). PERSPECTIVES: award body, widow-biographer, scholarly reference biography, a learned-society history column, a school's institutional history. NOT OPENED: Pierre Curie's own papers and the 1894 symmetry paper (known through DSB), his Nobel lecture (the nobelprize.org page was opened but the lecture PDF could not be downloaded), the Oeuvres de Pierre Curie (1908), Jean Perrin's and Paul Langevin's original obituaries (read only as quoted in Marie Curie's book), Anna Hurwic's 1995 biography, Britannica (HTTP 403), the Institut Curie and Musee Curie pages (only listings found), and any critical or hostile account of him. EXCLUSIONS (deliberate): marriage and family life, his illness and the street accident that killed him, any inference of personality from those; Marie Curie's own independent achievements; the Curies' radium-industry and commercial questions; his political views and the New World Encyclopedia claim about them (weak source, uncorroborated). SCORING: 8 rows, highest 80 (experimentation) and 78 (analytical rigor); lowest 68 (autonomy need) and 72 (persistence); confidence 0.52-0.64, no row above 0.64 because the best behavioural detail comes from his widow and from admiring tributes and no critical biography was read. PORTRAIT: unknown-photographer 1906 portrait, Commons 'Pierre Curie by Dujardin c1906.jpg', public domain by age, 979 x 1380, kind recorded as likeness because it is a photograph of the living sitter; the Wellcome copy was rejected over a conflicting 'In copyright' catalogue notice; a CC0 bronze medal by Emile Vernier (Musee Carnavalet, 1907) was seen but is a posthumous relief, not a likeness from life. LEAD REVIEW (Roster49): 4 rows lowered before eligibility (five sources, the behavioural account comes mainly from Marie Curie's family biography (one perspective) and tributes quoted second-hand)."
+  }
+}

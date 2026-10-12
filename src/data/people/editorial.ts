@@ -10056,4 +10056,199 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "joseph-priestley-turning-point-1", textKey: "joseph-priestley.turning_point.1", interpretationKey: "joseph-priestley.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_priestley_hexagon", "src_priestley_shi"] },
     ],
   },
+  "jensen-huang": {
+    achievements: [
+      { id: "jensen-huang-achievement-1", textKey: "jensen-huang.achievement.1", sourceIds: ["src_huang_chm"] },
+      { id: "jensen-huang-achievement-2", textKey: "jensen-huang.achievement.2", sourceIds: ["src_huang_chm", "src_huang_uniteai_review"] },
+      { id: "jensen-huang-achievement-3", textKey: "jensen-huang.achievement.3", sourceIds: ["src_huang_chm"] },
+    ],
+    moments: [
+      { id: "jensen-huang-moment-1", textKey: "jensen-huang.moment.1", interpretationKey: "jensen-huang.interpretation.moment.1", attributeId: "risk_tolerance", sourceIds: ["src_huang_levinson_review", "src_huang_chm"] },
+      { id: "jensen-huang-moment-2", textKey: "jensen-huang.moment.2", interpretationKey: "jensen-huang.interpretation.moment.2", attributeId: "perfectionism", sourceIds: ["src_huang_fortune_perfectionist"] },
+    ],
+    turningPoints: [
+      { id: "jensen-huang-turning-point-1", textKey: "jensen-huang.turning_point.1", interpretationKey: "jensen-huang.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_huang_levinson_review", "src_huang_chm"] },
+    ],
+  },
+  "satya-nadella": {
+    achievements: [
+      { id: "satya-nadella-achievement-1", textKey: "satya-nadella.achievement.1", sourceIds: ["src_nadella_msbio"] },
+      { id: "satya-nadella-achievement-2", textKey: "satya-nadella.achievement.2", sourceIds: ["src_nadella_ibarra"] },
+      { id: "satya-nadella-achievement-3", textKey: "satya-nadella.achievement.3", sourceIds: ["src_nadella_bloomberg_github", "src_nadella_itwire_openai"] },
+    ],
+    moments: [
+      { id: "satya-nadella-moment-1", textKey: "satya-nadella.moment.1", interpretationKey: "satya-nadella.interpretation.moment.1", attributeId: "decisiveness", sourceIds: ["src_nadella_computerworld_nokia", "src_nadella_martech_nokia"] },
+      { id: "satya-nadella-moment-2", textKey: "satya-nadella.moment.2", interpretationKey: "satya-nadella.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_nadella_ibarra"] },
+    ],
+    turningPoints: [
+      { id: "satya-nadella-turning-point-1", textKey: "satya-nadella.turning_point.1", interpretationKey: "satya-nadella.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_nadella_ibarra"] },
+    ],
+  },
+  "vint-cerf": {
+    achievements: [
+      { id: "vint-cerf-achievement-1", textKey: "vint-cerf.achievement.1", sourceIds: ["src_cerf_ethw"] },
+      { id: "vint-cerf-achievement-2", textKey: "vint-cerf.achievement.2", sourceIds: ["src_cerf_ethw", "src_cerf_hlf"] },
+      { id: "vint-cerf-achievement-3", textKey: "vint-cerf.achievement.3", sourceIds: ["src_cerf_lemelson", "src_cerf_ap_icann"] },
+    ],
+    moments: [
+      { id: "vint-cerf-moment-1", textKey: "vint-cerf.moment.1", interpretationKey: "vint-cerf.interpretation.moment.1", attributeId: "collaboration", sourceIds: ["src_cerf_quanta", "src_cerf_ethw"] },
+      { id: "vint-cerf-moment-2", textKey: "vint-cerf.moment.2", interpretationKey: "vint-cerf.interpretation.moment.2", attributeId: "persuasiveness", sourceIds: ["src_cerf_ap_icann", "src_cerf_networkworld"] },
+    ],
+    turningPoints: [
+      { id: "vint-cerf-turning-point-1", textKey: "vint-cerf.turning_point.1", interpretationKey: "vint-cerf.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_cerf_quanta", "src_cerf_techreview"] },
+    ],
+  },
+  "chuck-yeager": {
+    achievements: [
+      { id: "chuck-yeager-achievement-1", textKey: "chuck-yeager.achievement.1", sourceIds: ["src_yeager_nasm_x1", "src_yeager_smithsonian_obit"] },
+      { id: "chuck-yeager-achievement-2", textKey: "chuck-yeager.achievement.2", sourceIds: ["src_yeager_nasm_x1", "src_yeager_smithsonian_macgregor"] },
+      { id: "chuck-yeager-achievement-3", textKey: "chuck-yeager.achievement.3", sourceIds: ["src_yeager_nasm_x1", "src_yeager_tda_x1a"] },
+    ],
+    moments: [
+      { id: "chuck-yeager-moment-1", textKey: "chuck-yeager.moment.1", interpretationKey: "chuck-yeager.interpretation.moment.1", attributeId: "risk_tolerance", sourceIds: ["src_yeager_historynet_carlson", "src_yeager_encyclopedia_wb"] },
+      { id: "chuck-yeager-moment-2", textKey: "chuck-yeager.moment.2", interpretationKey: "chuck-yeager.interpretation.moment.2", attributeId: "resourcefulness", sourceIds: ["src_yeager_tda_x1a"] },
+    ],
+    turningPoints: [
+      { id: "chuck-yeager-turning-point-1", textKey: "chuck-yeager.turning_point.1", interpretationKey: "chuck-yeager.interpretation.turning_point.1", attributeId: "risk_tolerance", sourceIds: ["src_yeager_sdasm", "src_yeager_encyclopedia_wb"] },
+    ],
+  },
+  "richard-branson": {
+    achievements: [
+      { id: "richard-branson-achievement-1", textKey: "richard-branson.achievement.1", sourceIds: ["src_branson_gale_biography", "src_branson_sb_rifkin"] },
+      { id: "richard-branson-achievement-2", textKey: "richard-branson.achievement.2", sourceIds: ["src_branson_gale_biography", "src_branson_grant_case", "src_branson_simpleflying_history"] },
+    ],
+    moments: [
+      { id: "richard-branson-moment-1", textKey: "richard-branson.moment.1", interpretationKey: "richard-branson.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_branson_gale_biography", "src_branson_sb_rifkin"] },
+      { id: "richard-branson-moment-2", textKey: "richard-branson.moment.2", interpretationKey: "richard-branson.interpretation.moment.2", attributeId: "competitiveness", sourceIds: ["src_branson_cityam_failures", "src_branson_grant_case"] },
+    ],
+    turningPoints: [
+      { id: "richard-branson-turning-point-1", textKey: "richard-branson.turning_point.1", interpretationKey: "richard-branson.interpretation.turning_point.1", attributeId: "risk_tolerance", sourceIds: ["src_branson_gale_biography", "src_branson_grant_case", "src_branson_simpleflying_history"] },
+    ],
+  },
+  "lebron-james": {
+    achievements: [
+      { id: "lebron-james-achievement-1", textKey: "lebron-james.achievement.1", sourceIds: ["src_lebron_nba_career"] },
+      { id: "lebron-james-achievement-2", textKey: "lebron-james.achievement.2", sourceIds: ["src_lebron_nba_2016", "src_lebron_slate_levin"] },
+      { id: "lebron-james-achievement-3", textKey: "lebron-james.achievement.3", sourceIds: ["src_lebron_npr_record"] },
+    ],
+    moments: [
+      { id: "lebron-james-moment-1", textKey: "lebron-james.moment.1", interpretationKey: "lebron-james.interpretation.moment.1", attributeId: "mastery_orientation", sourceIds: ["src_lebron_olajuwon_yahoo"] },
+      { id: "lebron-james-moment-2", textKey: "lebron-james.moment.2", interpretationKey: "lebron-james.interpretation.moment.2", attributeId: "competitiveness", sourceIds: ["src_lebron_fox_lue", "src_lebron_slate_levin"] },
+    ],
+    turningPoints: [
+      { id: "lebron-james-turning-point-1", textKey: "lebron-james.turning_point.1", interpretationKey: "lebron-james.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_lebron_espn_haberstroh", "src_lebron_nba_career"] },
+    ],
+  },
+  "paul-mccartney": {
+    achievements: [
+      { id: "paul-mccartney-achievement-1", textKey: "paul-mccartney.achievement.1", sourceIds: ["src_mccartney_shof", "src_mccartney_npr_martin"] },
+      { id: "paul-mccartney-achievement-2", textKey: "paul-mccartney.achievement.2", sourceIds: ["src_mccartney_bb_yesterday", "src_mccartney_bb_eleanor", "src_mccartney_npr_martin"] },
+      { id: "paul-mccartney-achievement-3", textKey: "paul-mccartney.achievement.3", sourceIds: ["src_mccartney_shof", "src_mccartney_rockhall"] },
+    ],
+    moments: [
+      { id: "paul-mccartney-moment-1", textKey: "paul-mccartney.moment.1", interpretationKey: "paul-mccartney.interpretation.moment.1", attributeId: "experimentation", sourceIds: ["src_mccartney_bb_paperback"] },
+      { id: "paul-mccartney-moment-2", textKey: "paul-mccartney.moment.2", interpretationKey: "paul-mccartney.interpretation.moment.2", attributeId: "collaboration", sourceIds: ["src_mccartney_musicradar_emerick", "src_mccartney_guitarworld_something"] },
+    ],
+    turningPoints: [
+      { id: "paul-mccartney-turning-point-1", textKey: "paul-mccartney.turning_point.1", interpretationKey: "paul-mccartney.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_mccartney_bb_yesterday"] },
+    ],
+  },
+  "maria-callas": {
+    achievements: [
+      { id: "maria-callas-achievement-1", textKey: "maria-callas.achievement.1", sourceIds: ["src_callas_britannica", "src_callas_musicweb_studio"] },
+      { id: "maria-callas-achievement-2", textKey: "maria-callas.achievement.2", sourceIds: ["src_callas_britannica", "src_callas_roh"] },
+      { id: "maria-callas-achievement-3", textKey: "maria-callas.achievement.3", sourceIds: ["src_callas_npr2007"] },
+    ],
+    moments: [
+      { id: "maria-callas-moment-1", textKey: "maria-callas.moment.1", interpretationKey: "maria-callas.interpretation.moment.1", attributeId: "perfectionism", sourceIds: ["src_callas_nyt_bootlegs"] },
+      { id: "maria-callas-moment-2", textKey: "maria-callas.moment.2", interpretationKey: "maria-callas.interpretation.moment.2", attributeId: "detail_orientation", sourceIds: ["src_callas_nyt_bootlegs"] },
+    ],
+    turningPoints: [
+      { id: "maria-callas-turning-point-1", textKey: "maria-callas.turning_point.1", interpretationKey: "maria-callas.interpretation.turning_point.1", attributeId: "risk_tolerance", sourceIds: ["src_callas_roh", "src_callas_musicweb_studio"] },
+    ],
+  },
+  "martin-scorsese": {
+    achievements: [
+      { id: "martin-scorsese-achievement-1", textKey: "martin-scorsese.achievement.1", sourceIds: ["src_scorsese_britannica"] },
+      { id: "martin-scorsese-achievement-2", textKey: "martin-scorsese.achievement.2", sourceIds: ["src_scorsese_filmfoundation_1990", "src_scorsese_movingpictures"] },
+      { id: "martin-scorsese-achievement-3", textKey: "martin-scorsese.achievement.3", sourceIds: ["src_scorsese_wamc_oscars"] },
+    ],
+    moments: [
+      { id: "martin-scorsese-moment-1", textKey: "martin-scorsese.moment.1", interpretationKey: "martin-scorsese.interpretation.moment.1", attributeId: "adaptability", sourceIds: ["src_scorsese_dog_schoonmaker"] },
+      { id: "martin-scorsese-moment-2", textKey: "martin-scorsese.moment.2", interpretationKey: "martin-scorsese.interpretation.moment.2", attributeId: "planning_orientation", sourceIds: ["src_scorsese_nofilmschool_prieto", "src_scorsese_academy_prieto"] },
+    ],
+    turningPoints: [
+      { id: "martin-scorsese-turning-point-1", textKey: "martin-scorsese.turning_point.1", interpretationKey: "martin-scorsese.interpretation.turning_point.1", attributeId: "impact_motivation", sourceIds: ["src_scorsese_filmfoundation_1990", "src_scorsese_movingpictures"] },
+    ],
+  },
+  "william-shakespeare": {
+    achievements: [
+      { id: "william-shakespeare-achievement-1", textKey: "william-shakespeare.achievement.1", sourceIds: ["src_shakespeare_meres"] },
+      { id: "william-shakespeare-achievement-2", textKey: "william-shakespeare.achievement.2", sourceIds: ["src_shakespeare_folio_preface"] },
+      { id: "william-shakespeare-achievement-3", textKey: "william-shakespeare.achievement.3", sourceIds: ["src_shakespeare_sbt_career", "src_shakespeare_playhouses"] },
+    ],
+    moments: [
+      { id: "william-shakespeare-moment-1", textKey: "william-shakespeare.moment.1", interpretationKey: "william-shakespeare.interpretation.moment.1", attributeId: "collaboration", sourceIds: ["src_shakespeare_exchequer_1595"] },
+      { id: "william-shakespeare-moment-2", textKey: "william-shakespeare.moment.2", interpretationKey: "william-shakespeare.interpretation.moment.2", attributeId: "execution_speed", sourceIds: ["src_shakespeare_jonson_discoveries", "src_shakespeare_folio_preface", "src_shakespeare_folio_study"] },
+    ],
+    turningPoints: [
+      { id: "william-shakespeare-turning-point-1", textKey: "william-shakespeare.turning_point.1", interpretationKey: "william-shakespeare.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_shakespeare_sbt_career", "src_shakespeare_henslowe"] },
+    ],
+  },
+  "raphael": {
+    achievements: [
+      { id: "raphael-achievement-1", textKey: "raphael.achievement.1", sourceIds: ["src_raphael_vatican", "src_raphael_ng_intro"] },
+      { id: "raphael-achievement-2", textKey: "raphael.achievement.2", sourceIds: ["src_raphael_ng_intro", "src_raphael_ng_artist"] },
+      { id: "raphael-achievement-3", textKey: "raphael.achievement.3", sourceIds: ["src_raphael_ng_intro", "src_raphael_rowland", "src_raphael_vasari"] },
+    ],
+    moments: [
+      { id: "raphael-moment-1", textKey: "raphael.moment.1", interpretationKey: "raphael.interpretation.moment.1", attributeId: "collaboration", sourceIds: ["src_raphael_vasari", "src_raphael_rowland"] },
+      { id: "raphael-moment-2", textKey: "raphael.moment.2", interpretationKey: "raphael.interpretation.moment.2", attributeId: "cross_domain_range", sourceIds: ["src_raphael_ng_intro", "src_raphael_ng_artist"] },
+    ],
+    turningPoints: [
+      { id: "raphael-turning-point-1", textKey: "raphael.turning_point.1", interpretationKey: "raphael.interpretation.turning_point.1", attributeId: "mastery_orientation", sourceIds: ["src_raphael_ng_intro", "src_raphael_ng_artist"] },
+    ],
+  },
+  "jennifer-doudna": {
+    achievements: [
+      { id: "jennifer-doudna-achievement-1", textKey: "jennifer-doudna.achievement.1", sourceIds: ["src_doudna_nobel_release", "src_doudna_asbmb"] },
+      { id: "jennifer-doudna-achievement-2", textKey: "jennifer-doudna.achievement.2", sourceIds: ["src_doudna_nobel_release"] },
+      { id: "jennifer-doudna-achievement-3", textKey: "jennifer-doudna.achievement.3", sourceIds: ["src_doudna_nobel_popular", "src_doudna_asbmb"] },
+    ],
+    moments: [
+      { id: "jennifer-doudna-moment-1", textKey: "jennifer-doudna.moment.1", interpretationKey: "jennifer-doudna.interpretation.moment.1", attributeId: "execution_speed", sourceIds: ["src_doudna_asbmb"] },
+      { id: "jennifer-doudna-moment-2", textKey: "jennifer-doudna.moment.2", interpretationKey: "jennifer-doudna.interpretation.moment.2", attributeId: "adaptability", sourceIds: ["src_doudna_stat", "src_doudna_nih"] },
+    ],
+    turningPoints: [
+      { id: "jennifer-doudna-turning-point-1", textKey: "jennifer-doudna.turning_point.1", interpretationKey: "jennifer-doudna.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_doudna_nobel_popular", "src_doudna_asbmb"] },
+    ],
+  },
+  "freeman-dyson": {
+    achievements: [
+      { id: "freeman-dyson-achievement-1", textKey: "freeman-dyson.achievement.1", sourceIds: ["src_dyson_iasobit", "src_dyson_gupta", "src_dyson_pnas"] },
+      { id: "freeman-dyson-achievement-2", textKey: "freeman-dyson.achievement.2", sourceIds: ["src_dyson_nature", "src_dyson_pw", "src_dyson_natgeo"] },
+      { id: "freeman-dyson-achievement-3", textKey: "freeman-dyson.achievement.3", sourceIds: ["src_dyson_iasobit", "src_dyson_nature", "src_dyson_natgeo"] },
+    ],
+    moments: [
+      { id: "freeman-dyson-moment-1", textKey: "freeman-dyson.moment.1", interpretationKey: "freeman-dyson.interpretation.moment.1", attributeId: "analytical_rigor", sourceIds: ["src_dyson_iasobit", "src_dyson_gupta"] },
+      { id: "freeman-dyson-moment-2", textKey: "freeman-dyson.moment.2", interpretationKey: "freeman-dyson.interpretation.moment.2", attributeId: "collaboration", sourceIds: ["src_dyson_quanta"] },
+    ],
+    turningPoints: [
+      { id: "freeman-dyson-turning-point-1", textKey: "freeman-dyson.turning_point.1", interpretationKey: "freeman-dyson.interpretation.turning_point.1", attributeId: "autonomy_need", sourceIds: ["src_dyson_iasobit", "src_dyson_krauss"] },
+    ],
+  },
+  "pierre-curie": {
+    achievements: [
+      { id: "pierre-curie-achievement-1", textKey: "pierre-curie.achievement.1", sourceIds: ["src_pcurie_nobelbio", "src_pcurie_dsb"] },
+      { id: "pierre-curie-achievement-2", textKey: "pierre-curie.achievement.2", sourceIds: ["src_pcurie_aps", "src_pcurie_nobelbio", "src_pcurie_dsb"] },
+      { id: "pierre-curie-achievement-3", textKey: "pierre-curie.achievement.3", sourceIds: ["src_pcurie_nobelbio", "src_pcurie_dsb", "src_pcurie_marie"] },
+    ],
+    moments: [
+      { id: "pierre-curie-moment-1", textKey: "pierre-curie.moment.1", interpretationKey: "pierre-curie.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_pcurie_aps", "src_pcurie_nobelbio"] },
+      { id: "pierre-curie-moment-2", textKey: "pierre-curie.moment.2", interpretationKey: "pierre-curie.interpretation.moment.2", attributeId: "curiosity", sourceIds: ["src_pcurie_marie"] },
+    ],
+    turningPoints: [
+      { id: "pierre-curie-turning-point-1", textKey: "pierre-curie.turning_point.1", interpretationKey: "pierre-curie.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_pcurie_marie", "src_pcurie_nobelbio"] },
+    ],
+  },
 };

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "raphael",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Raphael",
+    "aliases": [
+      "Raffaello Sanzio",
+      "Raffaello Sanzio da Urbino",
+      "Raffaello Santi"
+    ],
+    "wikidataId": "Q5597",
+    "birthYear": 1483,
+    "deathYear": 1520,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "architect"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "renaissance",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_raphael_wikidata",
+      "kind": "wikidata",
+      "title": "Raphael (Q5597) -- verified live via the Wikidata API (2026-10-11): English label 'Raphael', description 'Italian painter and architect (1483-1520)', Korean label present, born 1483 (several dates recorded), died April 1520. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q5597"
+    },
+    {
+      "id": "src_raphael_ng_intro",
+      "kind": "institution",
+      "title": "The National Gallery, London, 'A brief introduction to Raphael's life and times' (The Credit Suisse Exhibition: Raphael, 2004-05) -- CANONICAL SIGNIFICANCE SOURCE: the Gallery's overview of his work as painter, draughtsman, designer for tapestry, prints, sculpture and stage sets, architect and archaeologist; the 1508 call to Rome for Julius II's apartments (the Stanze, including The School of Athens); the portraits of Julius II, Leo X and Castiglione; his 1514 appointment as chief architect of St Peter's and Leo X's commission of a survey of ancient Rome; and the Mantuan ambassador Pandolfo Pico's letter of 7 April 1520 on his death. Read in full.",
+      "url": "https://www.nationalgallery.org.uk/exhibitions/past/the-credit-suisse-exhibition-raphael/a-brief-introduction-to-raphael-s-life-and-times"
+    },
+    {
+      "id": "src_raphael_ng_artist",
+      "kind": "institution",
+      "title": "The National Gallery, London, artist page 'Raphael' -- the Gallery's short biography: regarded for centuries as the supreme High Renaissance painter, an independent master from 1500, a noted portraitist and painter of Madonnas in Florence, called to Julius II's court in 1508 and appointed architect of St Peter's in 1514, whose example dominated the academic tradition of European painting until the mid-19th century. Read in full.",
+      "url": "https://www.nationalgallery.org.uk/artists/raphael"
+    },
+    {
+      "id": "src_raphael_vatican",
+      "kind": "institution",
+      "title": "Vatican Museums, 'Stanze of Raphael' and 'Room of the Segnatura' -- museum pages stating that the four rooms were part of the apartment chosen by Julius II as his residence, that the decoration was executed by Raphael and his school between 1508 and 1524, and that the Segnatura frescoes (1508-1511), with the School of Athens, Parnassus and Disputation, were the first work he executed in the Vatican. Read both pages' main text.",
+      "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanze-di-raffaello.html"
+    },
+    {
+      "id": "src_raphael_vasari",
+      "kind": "biography",
+      "title": "Giorgio Vasari, 'Life of Raffaello da Urbino', Lives of the Most Eminent Painters, Sculptors and Architects, vol. 4 (translated by Gaston du C. de Vere, 1912-15), Project Gutenberg ebook 28420 -- the 1550/1568 biography, a LATER, PARTISAN and idealizing Florentine biographer who wrote after Raphael's death and presents him as gentle, courteous and loved by his workshop; treated as one perspective only. Used for the workshop passages ('some fifty painters' who accompanied him), the work on cartoons and architecture, his will naming Giulio Romano and Gianfrancesco Penni (Il Fattore) as heirs, and Bembo's epitaph as reported there. Read the Life from the Roman commissions to the end; the early chapters on his apprenticeship were skimmed.",
+      "url": "https://www.gutenberg.org/ebooks/28420"
+    },
+    {
+      "id": "src_raphael_ou",
+      "kind": "institution",
+      "title": "The Open University (OpenLearn), 'Artists and authorship: the case of Raphael' (Level 3 course, first published 2016, updated 2018) -- university course on how Raphael's life and authorship were constructed; sections 2.2 (Vasari and the reception of Raphael), 2.5-2.6 (the primary reports of his death: Michiel's diary of 6 April 1520, Pico's and Lippomano's letters, with the age and portent discrepancies), 2.10.2 (Castiglione's 'letter from Raphael', shown by Shearman to be Castiglione's own fiction) and 2.11.1 (Raphael and Michelangelo as paired personas). Read through the page text summarised by the fetch tool, not the original line by line; critical of Vasari.",
+      "url": "https://www.open.edu/openlearn/history-the-arts/artists-and-authorship-the-case-raphael/content-section-0"
+    },
+    {
+      "id": "src_raphael_rowland",
+      "kind": "press",
+      "title": "Ingrid D. Rowland, 'The Gentle Genius', The New York Review of Books, 10 January 2013 -- review of the 'Late Raphael' exhibition (Prado, Madrid, and Louvre, Paris, 2012-13) and its catalogue by Tom Henry and Paul Joannides: the workshop as a diversified company of up to fifty people producing art in virtually every medium, the trust placed in young associates Giulio Romano and Gianfrancesco Penni, Penni's role as manager of accounts, and Raphael's hands-on intervention. INDEPENDENT MODERN critic reporting curatorial scholarship, admiring in tone. Read in full.",
+      "url": "https://www.nybooks.com/articles/2013/01/10/gentle-genius/"
+    },
+    {
+      "id": "src_raphael_apollo",
+      "kind": "press",
+      "title": "Apollo Magazine, 'Michelangelo and Sebastiano's fraught but fertile friendship' (review of the National Gallery exhibition 'Michelangelo & Sebastiano', 2017) -- reports Sebastiano del Piombo's July 1518 letter to Michelangelo, written while his Raising of Lazarus competed with Raphael's Transfiguration, and the argument that the two joined forces chiefly to counter their common Roman rival. RIVAL-CAMP perspective, second-hand through a reviewer. Read in full.",
+      "url": "https://apollo-magazine.com/michelangelo-and-sebastianos-fraught-but-fertile-friendship/"
+    },
+    {
+      "id": "src_raphael_rijksmuseum",
+      "kind": "institution",
+      "title": "Rijksmuseum, Amsterdam, collection record RP-P-1967-977, Jacob Matham, 'Portret van Rafael' (engraving, Haarlem, 1630, after a painting by Raphael) -- museum page used only to check the rights notice and attribution for the portrait (marked Public domain). Not used for any scoring.",
+      "url": "https://www.rijksmuseum.nl/en/collection/RP-P-1967-977"
+    }
+  ],
+  "rows": {
+    "collaboration": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_raphael_vasari, src_raphael_rowland, src_raphael_ng_intro, src_raphael_vatican | 1508-1520 | partisan biographer + modern critic + institutions] Vasari reports him directing a large circle of painters and leaving his possessions to Giulio Romano and Gianfrancesco Penni; Rowland, drawing on the 2012 curators, describes a workshop that stayed harmonious and in which he placed trust in young associates while inspecting every stage; the National Gallery pictures him with Giulio Romano in the 1519-20 double portrait, and the Vatican credits the Stanze to 'Raphael and his school'. Two independent perspectives, but Vasari is idealizing (the Open University course says so) and Rowland is admiring and secondhand, so the score is held below 80 and confidence at 0.62."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_raphael_rowland, src_raphael_ng_intro, src_raphael_ng_artist, src_raphael_vasari | 1514-1520 | modern critic + institutions + partisan biographer] After Bramante's death in 1514 he was made chief architect of St Peter's and later put in charge of antiquities and the survey of ancient Rome; Rowland calls him the leader and manager of what amounted to a company; Vasari has some fifty painters escorting him. These are documented offices and an organized shop, but they were conferred by the popes and do not show how much he sought them, so the reading is of leading, not of drive, and stays moderate."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_raphael_ng_intro, src_raphael_ng_artist, src_raphael_rowland, src_raphael_vasari | 1504-1520 | institutions + modern critic + biographer] The National Gallery says that he worked broadly beyond painting and drawing, designing for tapestry, prints, sculpture, stage sets and applied arts, and was active as architect and archaeologist, writing poetry too; Rowland describes a workshop producing art in virtually every medium; Vasari lists architectural designs for the Pope's vineyard (Vigna) and for stables alongside cartoons for tapestries. Several independent sources on the same breadth with real outputs, but the sources describe the range more than the quality outside painting, so just below the top band."
+    },
+    "execution_speed": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_raphael_ng_intro, src_raphael_rowland, src_raphael_ng_artist | 1508-1520 | institutions + modern critic] The National Gallery says he produced a huge number of works in a short career and developed his style at 'double-speed'; Rowland credits the workshop with producing huge quantities of art while keeping a consistent style. Much of that output was delegated to assistants (Vatican: 'Raphael and his school'), so the evidence shows the throughput of an enterprise more than his own pace, hence strong inference at 0.55."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_raphael_ng_intro, src_raphael_ng_artist, src_raphael_vasari | 1500-1508 | institutions + partisan biographer] The National Gallery records that around 1504 he went to Florence to learn from the artists there, above all Leonardo and Michelangelo, and that sketches after their works survive; its artist page says his early style followed Perugino before he became an independent master in 1500; Vasari describes him mastering Perugino's manner before leaving. A deliberate move to study the leading masters is documented, but the sources do not describe later habits of practice, so moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "라파엘로 산치오"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/raphael-matham-1630.jpg",
+    "width": 976,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Portret van Rafael, RP-P-1967-977.jpg' -- Jacob Matham, engraving, Haarlem, 1630, after a painting by Raphael (Rijksmuseum, Amsterdam, RP-P-1967-977); original Commons file 4816 x 5920 pixels, downscaled once to 976 x 1200 (never upscaled). Includes the plate border and caption. A later copy after Raphael's self-portrait, not a likeness drawn from life; its caption wrongly gives his age at death as 33.",
+    "license": "Public Domain (CC0 Rijksmuseum digital file; engraving of 1630)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portret_van_Rafael,_RP-P-1967-977.jpg",
+    "attribution": "Jacob Matham, 1630, engraving after Raphael; Rijksmuseum, Amsterdam (RP-P-1967-977), Public Domain",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1967-977",
+    "creator": "Jacob Matham",
+    "date": "1630",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portret_van_Rafael,_RP-P-1967-977.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q5597 returned en label 'Raphael', description 'Italian painter and architect (1483-1520)', ko label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID. CANONICAL SIGNIFICANCE SOURCE: The National Gallery, London, 'A brief introduction to Raphael's life and times' (https://www.nationalgallery.org.uk/exhibitions/past/the-credit-suisse-exhibition-raphael/a-brief-introduction-to-raphael-s-life-and-times). READ (8 sources): the Gallery's introduction and artist page; the Vatican Museums' Stanze and Segnatura pages; Vasari's Life of Raphael (de Vere translation, Gutenberg) from the Roman commissions to the end; the Open University course sections named above (via the fetch tool's page summaries, so used only for broad claims about Vasari's idealization, the shape of the primary death reports and the authorship of the Castiglione letter); Rowland's 2013 NYRB review of 'Late Raphael'; the Apollo review of the Michelangelo and Sebastiano exhibition. PERSPECTIVES: institutional (National Gallery, Vatican Museums, Open University), a later partisan biographer (Vasari), an independent modern critic (Rowland, reporting the Prado/Louvre curators), and a rival-camp voice (Sebastiano del Piombo's 1518 letter, second-hand via Apollo; used for context, not scored). The 'Pandolfo Pico' and Michiel death reports were read only as summarized by the Gallery and the Open University, not in their own text. THIN/UNEVEN EVIDENCE: the surviving record is rich on commissions and output, thin on his own words (his letters are few, and the famous 'letter to Castiglione' on the idea of beauty is shown by the Open University course, following Shearman, to be Castiglione's fiction, so it was excluded); only 5 rows are scored, the highest 78 and lowest 68, confidence 0.55-0.66. EXCLUSIONS: his love life, the 'Fornarina', the proposed marriage and the cause of death (Vasari's account of the fever is treated by the Open University course as myth-making), any inferred psychology, patronage politics, and the debated division of authorship in the Hall of Constantine and the later tapestries (not scored as his conduct). NOT OPENED: Castiglione's and Bembo's own letters and writings (Bembo's epitaph was seen only as quoted by Vasari), Marcantonio Michiel's own notes, the Rutgers dissertation and Oxford paper on the workshop, the British Museum workshop entry (not retrievable), the Metropolitan Museum essay (blocked, HTTP 429), the Smithsonian and Royal Collection pages (blocked, HTTP 403), the Louvre record, and the Prado/Louvre catalogue. PORTRAIT: no safely reusable portrait from life was cleared. The Uffizi self-portrait (1506) was set aside because the Uffizi Galleries operate a rights-and-reproductions regime for images of its works (Italian Cultural Heritage Code, ministerial decree 108 of 2024) that the Commons public-domain tag does not override; the Louvre's double portrait was set aside for similar restrictions on commercial reuse of its images. Instead the 1630 engraving by Jacob Matham after Raphael in the Rijksmuseum was used: the museum record states Public domain, the Commons file is tagged CC0, and the original file was 4816 x 5920, saved as a 976 x 1200 downscale. It is classified historical_depiction because it is a later copy; its own caption gives an age of 33 at death, a figure the National Gallery text notes is an error."
+  }
+}

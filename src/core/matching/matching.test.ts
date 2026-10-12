@@ -738,6 +738,20 @@ describe("confidence and missing data", () => {
       "satyajit-ray",
       "steven-spielberg",
       "tiger-woods",
+      "chuck-yeager",
+      "freeman-dyson",
+      "jennifer-doudna",
+      "jensen-huang",
+      "lebron-james",
+      "maria-callas",
+      "martin-scorsese",
+      "paul-mccartney",
+      "pierre-curie",
+      "raphael",
+      "richard-branson",
+      "satya-nadella",
+      "vint-cerf",
+      "william-shakespeare",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1416,6 +1430,20 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "satyajit-ray",
       "steven-spielberg",
       "tiger-woods",
+      "chuck-yeager",
+      "freeman-dyson",
+      "jennifer-doudna",
+      "jensen-huang",
+      "lebron-james",
+      "maria-callas",
+      "martin-scorsese",
+      "paul-mccartney",
+      "pierre-curie",
+      "raphael",
+      "richard-branson",
+      "satya-nadella",
+      "vint-cerf",
+      "william-shakespeare",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

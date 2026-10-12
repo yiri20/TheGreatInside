@@ -7333,6 +7333,270 @@ export const EDITORIAL_EN: Record<string, string> = {
     "After Lavoisier's Traite of 1789, the Hexagon article says, Priestley's science turned from new discoveries to rearguard actions defending phlogiston.",
   "joseph-priestley.interpretation.turning_point.1":
     "This is consistent with a researcher whose output shifted from exploring new phenomena to defending an established position once the field moved against him.",
+  /* ---------------------------------------------------------- jensen-huang (Roster49) */
+  "jensen-huang.achievement.1":
+    "He co-founded Nvidia in 1993 with Chris Malachowsky and Curtis Priem, and its 1999 GeForce 256 is described by the Computer History Museum as the first graphics processing unit.",
+  "jensen-huang.achievement.2":
+    "Nvidia introduced CUDA in 2006, which let developers use its GPUs for general-purpose computing, and its GPUs powered AlexNet in 2012, after which the company focused on accelerated computing for AI.",
+  "jensen-huang.achievement.3":
+    "In 2024 the Computer History Museum named him a Fellow for visionary leadership in computer graphics devices and systems, also recognising his work in accelerated computing and artificial intelligence.",
+  "jensen-huang.moment.1":
+    "A Dow Jones review of Stephen Witt's biography describes a 2006 product that repurposed gaming-chip technology for scientists as a fiasco, yet the museum shows the CUDA platform from that year later becoming central to AI.",
+  "jensen-huang.interpretation.moment.1":
+    "This is consistent with a willingness to back a platform whose payoff was years away and not yet visible.",
+  "jensen-huang.moment.2":
+    "Asked in a 60 Minutes interview about staff describing him as demanding and a perfectionist, he said the labels fit him perfectly and that extraordinary work should not be easy.",
+  "jensen-huang.interpretation.moment.2":
+    "This is consistent with a leader who accepts a high personal standard as a deliberate part of how he works.",
+  "jensen-huang.turning_point.1":
+    "In 2013, after meeting an engineer working on neural networks, he abruptly moved Nvidia from videogame graphics towards chips for AI computation, according to a Dow Jones review of Witt's biography.",
+  "jensen-huang.interpretation.turning_point.1":
+    "This is consistent with sensing a new opening early and redirecting a company towards it quickly.",
+  /* ---------------------------------------------------------- satya-nadella (Roster49) */
+  "satya-nadella.achievement.1":
+    "He became Microsoft's CEO in February 2014, after leading the transformation of its cloud infrastructure and services business as head of the Cloud and Enterprise group, according to the company's own biography.",
+  "satya-nadella.achievement.2":
+    "He replaced the stack-ranking system and internal-competition culture he inherited with a growth-mindset programme, after an executive off-site that led to a 17-leader culture cabinet.",
+  "satya-nadella.achievement.3":
+    "He bought GitHub for $7.5 billion in 2018, saying Microsoft was 'all in on open source', and Microsoft invested $1 billion in OpenAI in 2019.",
+  "satya-nadella.moment.1":
+    "In July 2015 Microsoft wrote down $7.6 billion on the Nokia phone business and cut about 7,800 more jobs, and Nadella's memo said the company was moving away from growing a standalone phone business.",
+  "satya-nadella.interpretation.moment.1":
+    "This is consistent with a leader willing to write off a costly predecessor's bet rather than keep defending it.",
+  "satya-nadella.moment.2":
+    "After a public remark about pay raises drew criticism, he emailed employees admitting he had 'answered that question completely wrong', according to a business-school account.",
+  "satya-nadella.interpretation.moment.2":
+    "This is consistent with publicly acknowledging a mistake and adjusting course.",
+  "satya-nadella.turning_point.1":
+    "On becoming CEO in 2014 he spent his first year listening and then, in 2015, set a new mission and began replacing the internal-competition culture, per a London Business School account.",
+  "satya-nadella.interpretation.turning_point.1":
+    "This is consistent with a leader who changed how the company worked together before changing its products.",
+  /* ---------------------------------------------------------- vint-cerf (Roster49) */
+  "vint-cerf.achievement.1":
+    "With Robert Kahn he co-authored the 1974 paper 'A Protocol for Packet Network Intercommunication', which described TCP linking multiple packet-switched networks; TCP was later split into TCP and IP.",
+  "vint-cerf.achievement.2":
+    "TCP/IP became required on ARPANET on 1 January 1983, and in 2004 he and Kahn received the Turing Award for pioneering work on internetworking, including the design and implementation of TCP/IP.",
+  "vint-cerf.achievement.3":
+    "He served as president of the Internet Society (1992-95) and chaired ICANN, which oversees the Internet's naming and addressing, from 2000 to 2007.",
+  "vint-cerf.moment.1":
+    "Asked about his role, he said a lot of people contributed to the creation of the Internet, and the IEEE milestone entry likewise describes the work as a collaboration among many contributors.",
+  "vint-cerf.interpretation.moment.1":
+    "This is consistent with sharing credit for a joint effort instead of claiming it alone.",
+  "vint-cerf.moment.2":
+    "As ICANN chairman, the organisation's CEO said, he could explain how the Internet works to sceptical officials, and his humour and gravitas were credited with helping it through difficult battles.",
+  "vint-cerf.interpretation.moment.2":
+    "This is consistent with explaining technical matters in a way that wins over doubtful listeners.",
+  "vint-cerf.turning_point.1":
+    "In 1998 he met a JPL team to plan an interplanetary network after concluding that standard Internet protocols fail over interplanetary distances, which led to the delay-tolerant bundle protocols introduced in 2003.",
+  "vint-cerf.interpretation.turning_point.1":
+    "This is consistent with recognising where his own earlier design reaches its limit and developing a different approach.",
+  /* ---------------------------------------------------------- chuck-yeager (Roster49) */
+  "chuck-yeager.achievement.1":
+    "On 14 October 1947 he piloted the Bell X-1 to Mach 1.06 at 43,000 feet over the California desert, the first flight faster than the speed of sound, which the Smithsonian says showed that aircraft could be designed to fly faster than sound and turned the 'sound barrier' into a myth.",
+  "chuck-yeager.achievement.2":
+    "He shared the 1947 Collier Trophy with Bell Aircraft's Lawrence Bell and NACA scientist John Stack for the first supersonic flight, a joint NACA and Army Air Forces research programme.",
+  "chuck-yeager.achievement.3":
+    "He kept pushing the speed envelope, reaching Mach 1.45 in the X-1 in March 1948 and Mach 2.44 in the X-1A in December 1953, a flight that ended in a violent tumble from which he recovered.",
+  "chuck-yeager.moment.1":
+    "Two days before the Mach 1 attempt he broke two ribs in a fall from a horse and, according to the officer in charge, said nothing; a broom handle was used as a lever extension so he could close and lock the X-1's hatch.",
+  "chuck-yeager.interpretation.moment.1":
+    "This is consistent with a willingness to accept personal risk, and to work around a physical obstacle, rather than give up a flight he had prepared for.",
+  "chuck-yeager.moment.2":
+    "After the X-1A tumbled out of control at Mach 2.4 in December 1953, he told fellow test pilot Scott Crossfield he had deliberately put it into a spin in thicker air, saying a spin was something he knew how to get out of.",
+  "chuck-yeager.interpretation.moment.2":
+    "This is consistent with falling back on a manoeuvre he knew well to recover an aircraft in a situation no one had a procedure for.",
+  "chuck-yeager.turning_point.1":
+    "In 1947 the Air Force took over the X-1 project after Bell's civilian pilot demanded large bonus money to go past Mach 1, and Colonel Albert Boyd chose Yeager, then the most junior test pilot available, who flew it for his regular captain's pay.",
+  "chuck-yeager.interpretation.turning_point.1":
+    "This is consistent with accepting a high-stakes, unproven assignment that a better-paid civilian pilot had stalled over.",
+  /* ---------------------------------------------------------- richard-branson (Roster49) */
+  "richard-branson.achievement.1":
+    "He founded Virgin in 1970 as a mail-order record business, built it into Virgin Records and a group the Gale business biography puts at more than two hundred companies across music, air travel, financial services and retail, and promoted it with his own stunts, such as the 1986 powerboat record and the 1987 balloon crossing of the Atlantic.",
+  "richard-branson.achievement.2":
+    "He launched Virgin Atlantic in 1984 with a single second-hand Boeing 747, against the objections of his own Virgin Records executives, and in 1992 sold the Virgin Music Group for about $1 billion to keep the airline going.",
+  "richard-branson.moment.1":
+    "In 1992 he sold the Virgin Music Group, the profitable business he had built from the start, for about $1 billion so that Virgin Atlantic, which was struggling with lenders and overdrafts, could stay in the air.",
+  "richard-branson.interpretation.moment.1":
+    "This is consistent with sticking with a struggling venture and giving up a successful one to keep it going.",
+  "richard-branson.moment.2":
+    "To launch Virgin Cola in the United States in 1998 he rode a tank through New York, crushing rivals' bottles, though the drink was later withdrawn and the case study found little sign that the publicity had been turned into sales.",
+  "richard-branson.interpretation.moment.2":
+    "This is consistent with taking on much larger rivals in showy fashion, with mixed commercial results.",
+  "richard-branson.turning_point.1":
+    "In February 1984 he agreed to back lawyer Randolph Fields's idea for a transatlantic airline, despite objections from his Virgin Records executives and bankers, and Virgin Atlantic made its first flight that June from a single leased 747.",
+  "richard-branson.interpretation.turning_point.1":
+    "This is consistent with moving a music-based business into a capital-intensive new industry despite resistance from those closest to it.",
+  /* ---------------------------------------------------------- lebron-james (Roster49) */
+  "lebron-james.achievement.1":
+    "He has won four NBA championships with three franchises (Miami in 2012 and 2013, Cleveland in 2016, the Lakers in 2020), with four Finals MVP awards and eight straight Finals appearances, according to the NBA's own career summary.",
+  "lebron-james.achievement.2":
+    "In 2016 he led the Cavaliers to the first Finals comeback from 3-1 down, ending Cleveland's 52-year championship drought, with 41-point games in Games 5 and 6, a Game 7 triple-double and the chase-down block on Andre Iguodala.",
+  "lebron-james.achievement.3":
+    "On 7 February 2023 he passed Kareem Abdul-Jabbar's 38,387 career points to become the NBA's all-time leading scorer, the first new name atop the list since 1984.",
+  "lebron-james.moment.1":
+    "After losing the 2011 Finals he flew to Houston to work on his post footwork with Hakeem Olajuwon, who says the first day was rough and that James returned the next day with the moves smooth after practising on his own.",
+  "lebron-james.interpretation.moment.1":
+    "This is consistent with responding to a public setback by seeking out an expert and putting in the practice to fix a specific weakness.",
+  "lebron-james.moment.2":
+    "At the Game 7 timeout and again at halftime in 2016, coach Tyronn Lue told him to stop being passive and to guard Draymond Green; James was angry and complained to assistants, and the game ended with a triple-double from him.",
+  "lebron-james.interpretation.moment.2":
+    "This is consistent with a player who reacts sharply to being challenged and then turns that into competitive output.",
+  "lebron-james.turning_point.1":
+    "In March 2012 Heat coach Erik Spoelstra told him to play like a big man and 'forget everything you know'; James took the role immediately, scoring 38 points with 11 rebounds and five steals in the next game, and Miami went on to win the 2012 title.",
+  "lebron-james.interpretation.turning_point.1":
+    "This is consistent with a star accepting a new position and style quickly when a coach proposes it.",
+  /* ---------------------------------------------------------- paul-mccartney (Roster49) */
+  "paul-mccartney.achievement.1":
+    "With John Lennon he formed the songwriting core of the Beatles; the Songwriters Hall of Fame calls them widely identified as the band's songwriting arm and among the most important music contributors of their time, together and separately.",
+  "paul-mccartney.achievement.2":
+    "He took the Beatles beyond the guitar-band format with Yesterday, recorded with a string quartet in 1965, and Eleanor Rigby, recorded with a string octet; George Martin credits him with the idea behind Sgt. Pepper's Lonely Hearts Club Band.",
+  "paul-mccartney.achievement.3":
+    "After the Beatles he continued with Wings and as a solo artist, and was inducted into the Songwriters Hall of Fame in 1987 and, as a solo artist, the Rock and Roll Hall of Fame in 1999.",
+  "paul-mccartney.moment.1":
+    "For Paperback Writer he played a Rickenbacker bass instead of his usual Hofner, and with engineer Geoff Emerick a loudspeaker was placed in front of the bass amplifier and used as a microphone, bending EMI's rules.",
+  "paul-mccartney.interpretation.moment.1":
+    "This is consistent with a willingness to change instruments and recording methods to get a bigger bass sound.",
+  "paul-mccartney.moment.2":
+    "On Something, according to Emerick, McCartney started with an elaborate bass line, was told by George Harrison that he wanted it simple, and complied.",
+  "paul-mccartney.interpretation.moment.2":
+    "This is consistent with adjusting his own part to serve a bandmate's song.",
+  "paul-mccartney.turning_point.1":
+    "In June 1965 he recorded Yesterday with only his guitar and voice and a string quartet that George Martin proposed, a first for the Beatles; he was initially sceptical, insisted on no vibrato and worked on the score with Martin.",
+  "paul-mccartney.interpretation.turning_point.1":
+    "This is consistent with an initially sceptical musician taking up a producer's idea and then shaping it closely.",
+  /* ---------------------------------------------------------- maria-callas (Roster49) */
+  "maria-callas.achievement.1":
+    "She revived 19th-century bel canto roles by Bellini and Donizetti that had long been dropped from standard repertoires, working with conductor Tullio Serafin, according to Britannica.",
+  "maria-callas.achievement.2":
+    "She sang more than 40 roles and recorded more than 20 complete operas, debuting at La Scala in 1950 and Covent Garden in 1952 and singing Norma at Chicago's Lyric Opera in 1954 and repeating it at the Metropolitan Opera.",
+  "maria-callas.achievement.3":
+    "She joined singing to characterization in roles such as Norma and Tosca; critic John Steane says her records hold an incomparable fusion of the two.",
+  "maria-callas.moment.1":
+    "In a 1957 Dallas rehearsal she kept at the last rising scales of Martern aller Arten until, on the third try, she took them in one breath.",
+  "maria-callas.interpretation.moment.1":
+    "This is consistent with insisting on a demanding technical standard in rehearsal.",
+  "maria-callas.moment.2":
+    "At the 1958 Lisbon Traviata she reportedly declined the conductor's suggestion to ease the final high note, citing Verdi's triple-piano marking.",
+  "maria-callas.interpretation.moment.2":
+    "This is consistent with putting fidelity to the written score ahead of a safer option.",
+  "maria-callas.turning_point.1":
+    "In 1949 in Venice she stepped in as Elvira in I puritani while in rehearsal as Brunnhilde, a breakthrough that, with Serafin's guidance, led her toward the bel canto repertoire.",
+  "maria-callas.interpretation.turning_point.1":
+    "This is consistent with accepting a high-stakes short-notice role and then following a mentor's advice on repertoire.",
+  /* ---------------------------------------------------------- martin-scorsese (Roster49) */
+  "martin-scorsese.achievement.1":
+    "He broke through with Mean Streets (1973), his first film with Robert De Niro, and Taxi Driver (1976), which won the Palme d'Or at Cannes, according to Britannica.",
+  "martin-scorsese.achievement.2":
+    "He co-founded the Film Foundation in 1990 with seven other directors and served as its board president; by 2010 it had restored 545 films.",
+  "martin-scorsese.achievement.3":
+    "He won the best director Oscar for The Departed (2007), which also won best picture, after earlier nominations for Raging Bull, Goodfellas, The Last Temptation of Christ, Gangs of New York and The Aviator.",
+  "martin-scorsese.moment.1":
+    "On Silence, when fog suddenly whited out the village, he told the crew to shoot it, had the samurai emerge from the fog, and later reshot the close-ups, according to his editor Thelma Schoonmaker.",
+  "martin-scorsese.interpretation.moment.1":
+    "This is consistent with turning an unplanned change of conditions into part of the film.",
+  "martin-scorsese.moment.2":
+    "According to cinematographer Rodrigo Prieto, Scorsese makes very meticulous shot lists and diagrams, largely before the locations are fixed, and then walks him through the whole shot list in prep.",
+  "martin-scorsese.interpretation.moment.2":
+    "This is consistent with detailed advance planning of how a film will be shot.",
+  "martin-scorsese.turning_point.1":
+    "In 1990 he became president of the board of the newly announced Film Foundation, which he and seven other directors launched to preserve American film heritage, and by 2010 he had also campaigned for a low-fade colour film stock.",
+  "martin-scorsese.interpretation.turning_point.1":
+    "This is consistent with committing a filmmaker's standing to the long-term survival of film history.",
+  /* ---------------------------------------------------------- william-shakespeare (Roster49) */
+  "william-shakespeare.achievement.1":
+    "In 1598 Francis Meres named him the most excellent English writer in both comedy and tragedy for the stage, listing twelve plays including Romeo and Juliet and A Midsummer Night's Dream.",
+  "william-shakespeare.achievement.2":
+    "The First Folio of 1623, edited by two of his fellow actors, collected 36 plays, 18 of them never printed before, saving works such as Macbeth, Twelfth Night and The Tempest.",
+  "william-shakespeare.achievement.3":
+    "For almost twenty years he was the regular dramatist of the Lord Chamberlain's (later King's) Men, a sharer in the company and a member of the syndicates that held the Globe and Blackfriars.",
+  "william-shakespeare.moment.1":
+    "On 15 March 1595 the Treasurer of the Household's account recorded payment to William Kempe, William Shakespeare and Richard Burbage for two plays shown before the Queen at Christmas 1594, naming him with the company's leading figures.",
+  "william-shakespeare.interpretation.moment.1":
+    "This is consistent with a member whom the company trusted with its business, not only its writing.",
+  "william-shakespeare.moment.2":
+    "Ben Jonson wrote that the players praised Shakespeare for never blotting a line, that he answered 'Would he had blotted a thousand', and that he nonetheless loved the man, who 'flowed with that facility' that sometimes he needed to be stopped.",
+  "william-shakespeare.interpretation.moment.2":
+    "This is consistent with a writer who composed quickly and fluently, a quality his closest rival admired and also criticised.",
+  "william-shakespeare.turning_point.1":
+    "Around 1594, after the plague closures, he joined the newly formed Lord Chamberlain's Men and became a sharer, staying with that company, later the King's Men, for the rest of his career.",
+  "william-shakespeare.interpretation.turning_point.1":
+    "This is consistent with a shift from writing for several companies to writing for, and co-owning, a single company.",
+  /* ---------------------------------------------------------- raphael (Roster49) */
+  "raphael.achievement.1":
+    "Called to Rome in 1508 to decorate Julius II's apartments, he and his school painted the Vatican Stanze between 1508 and 1524, beginning with the Segnatura frescoes that include The School of Athens.",
+  "raphael.achievement.2":
+    "His portraits of Julius II, Leo X and Baldassare Castiglione, and his Madonnas, rank among his most admired works; the National Gallery says the popes' faces still define how we see them.",
+  "raphael.achievement.3":
+    "From 1514 he was chief architect of St Peter's and was commissioned by Leo X to survey the buildings of ancient Rome, while directing a large workshop that Giulio Romano and Gianfrancesco Penni inherited.",
+  "raphael.moment.1":
+    "Vasari reports that when Raphael fell ill he made his will and left his possessions to his disciples Giulio Romano and Il Fattore (Gianfrancesco Penni), the two who then carried his workshop forward.",
+  "raphael.interpretation.moment.1":
+    "This is consistent with a master who tied his closest assistants to the continuation of the workshop, though Vasari is a later and admiring biographer.",
+  "raphael.moment.2":
+    "On Bramante's death in 1514 he was made chief architect of St Peter's, and he was later put in charge of antiquities and asked by Leo X to survey the buildings of ancient Rome.",
+  "raphael.interpretation.moment.2":
+    "This is consistent with a painter whose work spread across architecture and the study of antiquity.",
+  "raphael.turning_point.1":
+    "Around 1504 he moved to Florence to learn from the artists there, above all Leonardo and Michelangelo, making sketches after their works before the call to Rome in 1508.",
+  "raphael.interpretation.turning_point.1":
+    "This is consistent with an already independent master who went on studying the leading artists of his day.",
+  /* ---------------------------------------------------------- jennifer-doudna (Roster49) */
+  "jennifer-doudna.achievement.1":
+    "In 2012, working with Emmanuelle Charpentier, she helped recreate the CRISPR/Cas9 'genetic scissors' in a test tube and reprogram them to cut any DNA molecule at a predetermined site.",
+  "jennifer-doudna.achievement.2":
+    "She shared the 2020 Nobel Prize in Chemistry with Charpentier \"for the development of a method for genome editing\".",
+  "jennifer-doudna.achievement.3":
+    "From 2006 her Berkeley group worked out how several Cas proteins function, and in 2011 she and Eva Nogales published a cryo-EM structure of the E. coli CRISPR effector complex.",
+  "jennifer-doudna.moment.1":
+    "In 2012 the Berkeley, Vienna and Umea groups worked almost around the clock across time zones to publish the Cas9 results before competitors could, with a postdoc waking each day to the previous day's results from Vienna.",
+  "jennifer-doudna.interpretation.moment.1":
+    "This is consistent with a team that moved quickly under competitive pressure, working in step with a partner lab on another continent.",
+  "jennifer-doudna.moment.2":
+    "In March 2020 she announced that her institute was building a clinical COVID-19 testing laboratory on the Berkeley campus, and the NIH director later noted that she had no experience in virology or clinical diagnostics.",
+  "jennifer-doudna.interpretation.moment.2":
+    "This is consistent with a scientist willing to redirect her institute's resources to an unfamiliar problem when a community need appeared.",
+  "jennifer-doudna.turning_point.1":
+    "At a 2011 conference in Puerto Rico, Charpentier proposed that the two of them study how Cas9 works in Streptococcus pyogenes, and Doudna joined, starting the collaboration that led to the 2012 discovery.",
+  "jennifer-doudna.interpretation.turning_point.1":
+    "This is consistent with a researcher who joined forces with a partner from a different field to tackle a problem neither could settle alone.",
+  /* ---------------------------------------------------------- freeman-dyson (Roster49) */
+  "freeman-dyson.achievement.1":
+    "In 1949 he showed that the two competing formulations of quantum electrodynamics, by Tomonaga and Schwinger and by Feynman, are mathematically equivalent, which let physicists use Feynman diagrams in calculations.",
+  "freeman-dyson.achievement.2":
+    "Beyond QED he helped design the TRIGA research reactor, worked on random matrices and the stability of matter, and in 1960 suggested searching for advanced civilisations by the infrared heat of star-enclosing structures, later called Dyson spheres.",
+  "freeman-dyson.achievement.3":
+    "From the 1970s he wrote books and essays for general readers, including Disturbing the Universe (1979) and Weapons and Hope, which won the National Book Critics Circle Award for nonfiction in 1984.",
+  "freeman-dyson.moment.1":
+    "Travelling alone by bus to Princeton in 1948, after weeks of studying Feynman's and Schwinger's methods, he worked out that the two theories were equivalent, which he later called a flash of illumination.",
+  "freeman-dyson.interpretation.moment.1":
+    "This is consistent with an ability to hold two difficult formalisms in mind and prove how they relate.",
+  "freeman-dyson.moment.2":
+    "When colleague William Press posed a problem about the iterated prisoner's dilemma, Dyson replied the next day, and the two published a much-cited paper in 2012.",
+  "freeman-dyson.interpretation.moment.2":
+    "This is consistent with a pattern of short, project-based collaboration on problems that catch his interest.",
+  "freeman-dyson.turning_point.1":
+    "In 1975, following G. H. Hardy's advice that old men should write books, he decided to write books, and his output of theorems gradually fell while his output of books rose.",
+  "freeman-dyson.interpretation.turning_point.1":
+    "This is consistent with a preference for steering his own career toward the work he found most creative.",
+  /* ---------------------------------------------------------- pierre-curie (Roster49) */
+  "pierre-curie.achievement.1":
+    "With Marie Curie he announced the discovery of polonium and radium in 1898, and in 1903 the two shared half of the Nobel Prize in Physics with Henri Becquerel for their work on radioactivity.",
+  "pierre-curie.achievement.2":
+    "In 1880, working with his brother Jacques, he discovered piezoelectricity, the appearance of electric charge on certain crystals under pressure, and the brothers built the quartz electrometer and balance to measure it.",
+  "pierre-curie.achievement.3":
+    "He showed that the magnetic properties of a substance change at a certain temperature, now called the Curie point, found the law relating weak magnetization to temperature, and in 1894 set out his laws of symmetry in physical phenomena.",
+  "pierre-curie.moment.1":
+    "In 1880 he and Jacques tested quartz, topaz, Rochelle salt and other crystals with tinfoil, glue, wire and a jeweller's saw, and found that pressure produced electric charge.",
+  "pierre-curie.interpretation.moment.1":
+    "This is consistent with a habit of building simple apparatus to test an idea directly.",
+  "pierre-curie.moment.2":
+    "While studying magnetism he searched for strongly diamagnetic bodies and for conductors of magnetism, found none, and, according to his widow, never published these searches.",
+  "pierre-curie.interpretation.moment.2":
+    "This is consistent with pursuing unforeseen possibilities for their own sake rather than for publication.",
+  "pierre-curie.turning_point.1":
+    "In 1898 he set aside his own work on crystals to join Marie Curie's search for an unknown radioactive substance in pitchblende, which led to the discovery of polonium and radium.",
+  "pierre-curie.interpretation.turning_point.1":
+    "This is consistent with a willingness to redirect his own research to work jointly on a promising problem.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -14519,6 +14783,270 @@ export const EDITORIAL_KO: Record<string, string> = {
     "헥사곤 논문에 따르면 1789년 라부아지에의 《화학원론》이 나온 뒤 프리스틀리의 과학 활동은 새로운 발견보다 플로지스톤을 지키는 후위전 쪽으로 옮겨 갔다.",
   "joseph-priestley.interpretation.turning_point.1":
     "학계의 흐름이 자신에게 불리해지자 새로운 현상을 탐구하던 데서 기존 입장을 방어하는 쪽으로 활동이 바뀐 연구자라는 점과 일치한다.",
+  /* ---------------------------------------------------------- jensen-huang (Roster49) */
+  "jensen-huang.achievement.1":
+    "1993년 크리스 말라초프스키, 커티스 프리엠과 함께 엔비디아를 공동 창업했으며, 1999년의 지포스 256은 컴퓨터역사박물관이 최초의 그래픽처리장치(GPU)로 소개한다.",
+  "jensen-huang.achievement.2":
+    "엔비디아는 2006년 개발자가 GPU를 범용 연산에 쓸 수 있게 하는 CUDA를 내놓았고, 2012년 알렉스넷에 엔비디아 GPU가 쓰인 뒤 AI를 위한 가속 컴퓨팅에 집중했다.",
+  "jensen-huang.achievement.3":
+    "2024년 컴퓨터역사박물관은 컴퓨터 그래픽 기기와 시스템 발전에 대한 선구적 리더십을 이유로 그를 펠로로 선정했고, 가속 컴퓨팅과 인공지능 분야의 공로도 함께 인정했다.",
+  "jensen-huang.moment.1":
+    "스티븐 위트의 평전에 대한 다우존스 서평은 게임용 칩 기술을 과학자용으로 돌린 2006년 제품을 실패작이라 묘사하지만, 컴퓨터역사박물관은 그해의 CUDA 플랫폼이 이후 AI의 핵심이 되었다고 소개한다.",
+  "jensen-huang.interpretation.moment.1":
+    "성과가 몇 년 뒤에야 나타날 플랫폼에 먼저 투자하는 태도와 일치한다.",
+  "jensen-huang.moment.2":
+    "60분(60 Minutes) 인터뷰에서 직원들이 자신을 요구가 많은 완벽주의자로 묘사한다는 말에, 그는 그 표현이 딱 맞으며 대단한 일은 쉬워서는 안 된다고 답했다.",
+  "jensen-huang.interpretation.moment.2":
+    "높은 기준을 자신이 일하는 방식의 의도된 일부로 받아들이는 리더와 일치한다.",
+  "jensen-huang.turning_point.1":
+    "다우존스의 위트 평전 서평에 따르면, 그는 2013년 신경망을 연구하는 엔지니어를 만난 뒤 엔비디아의 방향을 비디오게임용 그래픽에서 AI 연산용 칩으로 갑작스럽게 돌렸다.",
+  "jensen-huang.interpretation.turning_point.1":
+    "새로운 기회를 일찍 포착해 회사의 방향을 빠르게 돌리는 태도와 일치한다.",
+  /* ---------------------------------------------------------- satya-nadella (Roster49) */
+  "satya-nadella.achievement.1":
+    "마이크로소프트 자체 약력에 따르면 그는 클라우드·엔터프라이즈 부문을 이끌며 클라우드 인프라와 서비스 사업의 전환을 주도한 뒤 2014년 2월 최고경영자(CEO)가 되었다.",
+  "satya-nadella.achievement.2":
+    "그는 물려받은 상대평가(스택 랭킹)와 내부 경쟁 문화를 없애고, 경영진 워크숍에서 출발해 17명의 리더로 꾸려진 '문화 캐비닛'을 거쳐 성장 마인드셋 프로그램을 도입했다.",
+  "satya-nadella.achievement.3":
+    "2018년 마이크로소프트가 '오픈소스에 전력을 다한다'며 75억 달러에 깃허브를 인수했고, 2019년에는 오픈AI에 10억 달러를 투자했다.",
+  "satya-nadella.moment.1":
+    "2015년 7월 마이크로소프트는 노키아 휴대전화 사업에 76억 달러를 상각하고 약 7,800명을 추가 감원했으며, 나델라는 독자적인 휴대전화 사업을 키우는 전략에서 벗어난다는 메모를 냈다.",
+  "satya-nadella.interpretation.moment.1":
+    "전임자의 값비싼 결정을 계속 옹호하기보다 손실을 인정하고 정리하는 태도와 일치한다.",
+  "satya-nadella.moment.2":
+    "임금 인상에 관한 공개 발언이 비판을 받자, 그는 직원들에게 그 질문에 '완전히 잘못 답했다'고 인정하는 이메일을 보냈다고 경영대학원 보고서는 전한다.",
+  "satya-nadella.interpretation.moment.2":
+    "실수를 공개적으로 인정하고 방향을 바로잡는 태도와 일치한다.",
+  "satya-nadella.turning_point.1":
+    "2014년 CEO가 된 그는 첫해를 경청에 쓴 뒤 2015년 새로운 사명을 내놓고 내부 경쟁 중심의 문화를 바꾸기 시작했다고 런던비즈니스스쿨 저자들은 설명한다.",
+  "satya-nadella.interpretation.turning_point.1":
+    "제품보다 먼저 조직이 함께 일하는 방식을 바꾸려 한 리더와 일치한다.",
+  /* ---------------------------------------------------------- vint-cerf (Roster49) */
+  "vint-cerf.achievement.1":
+    "로버트 칸과 함께 1974년 논문 「패킷 네트워크 상호 접속을 위한 프로토콜」을 공동 집필해 여러 패킷 교환망을 잇는 TCP를 제시했으며, TCP는 이후 TCP와 IP로 나뉘었다.",
+  "vint-cerf.achievement.2":
+    "TCP/IP는 1983년 1월 1일 아르파넷의 필수 규약이 되었고, 2004년 그와 칸은 TCP/IP의 설계와 구현을 포함한 인터네트워킹 선구적 업적으로 튜링상을 받았다.",
+  "vint-cerf.achievement.3":
+    "1992~95년 인터넷소사이어티 회장을 지냈고, 인터넷 이름·주소 체계를 감독하는 ICANN의 이사회 의장을 2000년부터 2007년까지 맡았다.",
+  "vint-cerf.moment.1":
+    "자신의 역할을 묻자 그는 인터넷 탄생에 많은 사람이 기여했다고 말했고, IEEE 마일스톤 항목도 이 작업을 여러 기여자의 협업의 산물이라고 설명한다.",
+  "vint-cerf.interpretation.moment.1":
+    "공동 작업의 공을 혼자 차지하지 않고 나누는 태도와 일치한다.",
+  "vint-cerf.moment.2":
+    "ICANN 의장 시절, 당시 CEO는 그가 회의적인 관계자들에게 인터넷의 작동 방식을 설명할 수 있었고, 그의 유머와 무게감이 어려운 국면을 넘기는 데 도움이 되었다고 평가했다.",
+  "vint-cerf.interpretation.moment.2":
+    "기술적 사안을 회의적인 청중이 납득하도록 설명하는 능력과 일치한다.",
+  "vint-cerf.turning_point.1":
+    "1998년 그는 표준 인터넷 규약이 행성 간 거리에서는 작동하지 않는다고 판단하고 JPL 팀과 행성 간 네트워크를 구상했으며, 이는 2003년 지연 허용 번들 프로토콜로 이어졌다.",
+  "vint-cerf.interpretation.turning_point.1":
+    "자신이 설계한 기존 방식의 한계를 인정하고 다른 접근을 개발하는 태도와 일치한다.",
+  /* ---------------------------------------------------------- chuck-yeager (Roster49) */
+  "chuck-yeager.achievement.1":
+    "1947년 10월 14일 캘리포니아 사막 상공에서 벨 X-1을 몰아 고도 약 13,000미터에서 마하 1.06에 도달했다. 이는 음속보다 빠른 최초의 비행으로, 스미소니언은 이 비행이 음속보다 빠르게 나는 항공기를 설계할 수 있음을 보여 주어 '음속 장벽'을 신화로 만들었다고 설명한다.",
+  "chuck-yeager.achievement.2":
+    "NACA와 육군 항공대의 공동 연구 계획이었던 최초의 초음속 비행으로, 벨 항공기의 로런스 벨, NACA 과학자 존 스택과 함께 1947년 콜리어 트로피를 받았다.",
+  "chuck-yeager.achievement.3":
+    "1948년 3월 X-1으로 마하 1.45에, 1953년 12월 X-1A로 마하 2.44에 도달하며 속도의 한계를 계속 넓혔고, 후자의 비행은 기체가 격렬하게 회전하며 추락하는 상황에서 간신히 회복하는 것으로 끝났다.",
+  "chuck-yeager.moment.1":
+    "마하 1 도전 이틀 전 말에서 떨어져 갈비뼈 두 대가 부러졌지만, 프로젝트 책임 장교의 말에 따르면 그는 아무 말도 하지 않았고, 빗자루 손잡이를 지렛대 연장용으로 써서 X-1의 해치를 닫고 잠갔다.",
+  "chuck-yeager.interpretation.moment.1":
+    "준비해 온 비행을 포기하기보다 개인적 위험을 감수하고 신체적 장애물을 우회하려는 태도와 일치한다.",
+  "chuck-yeager.moment.2":
+    "1953년 12월 X-1A가 마하 2.4에서 통제 불능으로 회전한 뒤, 그는 동료 시험비행사 스콧 크로스필드에게 더 짙은 대기에서 일부러 기체를 스핀에 넣었으며 스핀은 빠져나오는 법을 아는 것이라고 말했다.",
+  "chuck-yeager.interpretation.moment.2":
+    "아무도 대응 절차를 갖고 있지 않던 상황에서 자신이 잘 아는 기동에 의존해 기체를 회복시키는 태도와 일치한다.",
+  "chuck-yeager.turning_point.1":
+    "1947년 벨의 민간 조종사가 마하 1을 넘는 대가로 거액의 보너스를 요구하자 공군이 X-1 계획을 넘겨받았고, 앨버트 보이드 대령은 당시 가장 경력이 짧은 시험비행사였던 예거를 선택했으며 그는 대위 봉급만 받고 비행했다.",
+  "chuck-yeager.interpretation.turning_point.1":
+    "더 높은 보수를 받던 민간 조종사가 멈춰 세웠던 위험하고 검증되지 않은 임무를 받아들이는 태도와 일치한다.",
+  /* ---------------------------------------------------------- richard-branson (Roster49) */
+  "richard-branson.achievement.1":
+    "1970년 우편 주문 음반 사업으로 버진을 세워 버진 레코드로 키웠고, 게일 기업인 전기가 음악, 항공, 금융, 소매 등에 걸쳐 200개가 넘는 회사라고 설명하는 그룹으로 확장했으며, 1986년 파워보트 대서양 횡단 기록과 1987년 열기구 대서양 횡단 같은 자신의 도전으로 이를 홍보했다.",
+  "richard-branson.achievement.2":
+    "1984년 버진 레코드 경영진의 반대를 무릅쓰고 중고 보잉 747 한 대로 버진 애틀랜틱 항공을 출범시켰고, 1992년에는 항공사를 지키기 위해 버진 뮤직 그룹을 약 10억 달러에 매각했다.",
+  "richard-branson.moment.1":
+    "1992년 그는 처음부터 키워 온 수익성 있는 사업인 버진 뮤직 그룹을 약 10억 달러에 팔아, 대출과 당좌 대월 문제로 어려움을 겪던 버진 애틀랜틱이 계속 운항할 수 있게 했다.",
+  "richard-branson.interpretation.moment.1":
+    "어려움을 겪는 사업을 지키기 위해 성공한 사업을 포기하면서까지 끝까지 밀고 가는 태도와 일치한다.",
+  "richard-branson.moment.2":
+    "1998년 미국에서 버진 콜라를 출시하며 탱크를 타고 뉴욕 거리를 지나며 경쟁사 병들을 으깼지만, 이 음료는 나중에 철수했고 사례 연구는 이 홍보가 매출로 이어졌다는 증거가 거의 없다고 보았다.",
+  "richard-branson.interpretation.moment.2":
+    "훨씬 큰 경쟁사에 화려한 방식으로 맞서되 상업적 결과는 엇갈린 태도와 일치한다.",
+  "richard-branson.turning_point.1":
+    "1984년 2월 그는 버진 레코드 경영진과 은행의 반대에도 변호사 랜돌프 필즈가 제안한 대서양 횡단 항공사 구상을 지원하기로 했고, 버진 애틀랜틱은 그해 6월 임대한 747 한 대로 첫 비행을 했다.",
+  "richard-branson.interpretation.turning_point.1":
+    "가까운 이들의 반대에도 음악 기반 사업을 자본이 많이 드는 새 산업으로 옮겨 가는 태도와 일치한다.",
+  /* ---------------------------------------------------------- lebron-james (Roster49) */
+  "lebron-james.achievement.1":
+    "NBA 공식 커리어 요약에 따르면 세 구단에서 네 차례 NBA 우승(마이애미 2012·2013년, 클리블랜드 2016년, 레이커스 2020년)을 차지했고, 파이널 MVP를 네 번 받았으며 파이널에 8년 연속 진출했다.",
+  "lebron-james.achievement.2":
+    "2016년 클리블랜드를 이끌고 파이널 사상 처음으로 3승 1패 열세를 뒤집어 도시의 52년 우승 가뭄을 끝냈으며, 5·6차전 41득점, 7차전 트리플더블, 이궈달라를 쫓아가 막은 블록을 기록했다.",
+  "lebron-james.achievement.3":
+    "2023년 2월 7일 카림 압둘자바의 통산 38,387득점을 넘어 NBA 역대 최다 득점자가 되었으며, 이는 1984년 이후 처음으로 이 순위 맨 위에 새 이름이 오른 것이었다.",
+  "lebron-james.moment.1":
+    "2011년 파이널에서 패한 뒤 그는 휴스턴으로 가 하킴 올라주원에게 포스트 풋워크를 배웠고, 올라주원은 첫날은 매끄럽지 않았지만 제임스가 혼자 연습한 뒤 이튿날에는 동작이 부드러워졌다고 말한다.",
+  "lebron-james.interpretation.moment.1":
+    "공개적인 실패에 대해 전문가를 찾아가 특정 약점을 고치려 연습하는 태도와 일치한다.",
+  "lebron-james.moment.2":
+    "2016년 7차전 타임아웃과 하프타임에 타이런 루 감독이 소극적으로 하지 말고 드레이먼드 그린을 막으라고 지적하자 제임스는 화를 내며 코치들에게 불만을 토로했지만, 그는 이 경기를 트리플더블로 마쳤다.",
+  "lebron-james.interpretation.moment.2":
+    "도전을 받으면 날카롭게 반응하되 이를 경쟁적 활약으로 바꾸는 태도와 일치한다.",
+  "lebron-james.turning_point.1":
+    "2012년 3월 마이애미의 에릭 스포엘스트라 감독이 그에게 빅맨처럼 뛰고 '알고 있던 것을 모두 잊으라'고 하자 제임스는 곧바로 그 역할을 받아들여 다음 경기에서 38득점 11리바운드 5스틸을 기록했고, 마이애미는 2012년 우승을 차지했다.",
+  "lebron-james.interpretation.turning_point.1":
+    "코치가 제안한 새로운 포지션과 스타일을 스타 선수가 빠르게 받아들이는 태도와 일치한다.",
+  /* ---------------------------------------------------------- paul-mccartney (Roster49) */
+  "paul-mccartney.achievement.1":
+    "존 레넌과 함께 비틀즈의 작곡의 중심을 이루었으며, 송라이터 명예의 전당은 두 사람이 비틀즈의 작곡을 대표하는 인물로 널리 알려져 있고 함께일 때나 따로일 때나 당대 가장 중요한 음악적 기여자로 꼽힌다고 소개한다.",
+  "paul-mccartney.achievement.2":
+    "1965년 현악 사중주와 녹음한 <Yesterday>와 현악 팔중주를 쓴 <Eleanor Rigby>로 비틀즈를 기타 밴드의 틀 너머로 이끌었고, 조지 마틴은 《서전트 페퍼스 론리 하츠 클럽 밴드》의 발상이 그에게서 나왔다고 설명한다.",
+  "paul-mccartney.achievement.3":
+    "비틀즈 이후 윙스와 솔로 활동을 이어 갔으며, 1987년 송라이터 명예의 전당에, 솔로 아티스트로서 1999년 로큰롤 명예의 전당에 헌액되었다.",
+  "paul-mccartney.moment.1":
+    "<Paperback Writer>에서 그는 평소의 회프너 대신 릭켄배커 베이스를 연주했고, 엔지니어 제프 에머릭과 함께 베이스 앰프 앞에 스피커를 마이크처럼 놓아 EMI의 규정을 벗어난 방식으로 녹음했다.",
+  "paul-mccartney.interpretation.moment.1":
+    "더 큰 베이스 사운드를 얻기 위해 악기와 녹음 방식을 바꾸는 태도와 일치한다.",
+  "paul-mccartney.moment.2":
+    "에머릭에 따르면 <Something>에서 매카트니는 처음에 화려한 베이스 라인을 연주했으나 조지 해리슨이 단순하게 해 달라고 하자 그대로 따랐다.",
+  "paul-mccartney.interpretation.moment.2":
+    "동료의 곡에 맞춰 자신의 연주를 조정하는 태도와 일치한다.",
+  "paul-mccartney.turning_point.1":
+    "1965년 6월 그는 조지 마틴이 제안한 현악 사중주와 함께 자신의 기타와 목소리만으로 <Yesterday>를 녹음했는데, 이는 비틀즈로서는 처음이었다. 처음에는 회의적이었으나 비브라토를 쓰지 말 것을 요구하며 마틴과 함께 악보 작업을 했다.",
+  "paul-mccartney.interpretation.turning_point.1":
+    "처음에는 회의적이었던 음악가가 프로듀서의 제안을 받아들인 뒤 세밀하게 다듬는 태도와 일치한다.",
+  /* ---------------------------------------------------------- maria-callas (Roster49) */
+  "maria-callas.achievement.1":
+    "브리태니커에 따르면 그녀는 지휘자 툴리오 세라핀과 함께 오랫동안 표준 레퍼토리에서 사라졌던 벨리니와 도니체티의 19세기 벨칸토 작품들을 되살렸다.",
+  "maria-callas.achievement.2":
+    "40개가 넘는 역을 노래하고 20편이 넘는 오페라 전곡을 녹음했으며, 1950년 라 스칼라, 1952년 코벤트 가든에 데뷔하고 1954년 시카고 리릭 오페라에서 <노르마>를 부른 뒤 메트로폴리탄 오페라에서도 같은 역을 노래했다.",
+  "maria-callas.achievement.3":
+    "<노르마>와 <토스카> 같은 역에서 노래와 인물 해석을 하나로 결합했으며, 평론가 존 스틴은 그녀의 음반에 둘의 비할 데 없이 풍부한 결합이 담겨 있다고 말한다.",
+  "maria-callas.moment.1":
+    "1957년 댈러스 리허설에서 그녀는 <Martern aller Arten>의 마지막 상승 음계를 세 번째 시도 끝에 한 호흡으로 해냈다.",
+  "maria-callas.interpretation.moment.1":
+    "리허설에서 까다로운 기술적 기준을 고집하는 태도와 일치한다.",
+  "maria-callas.moment.2":
+    "1958년 리스본 <라 트라비아타>에서 그녀는 지휘자가 마지막 높은 음을 쉽게 처리하자고 제안하자 베르디의 피아니시시모 지시를 들어 거절했다고 전해진다.",
+  "maria-callas.interpretation.moment.2":
+    "더 안전한 방법보다 악보에 적힌 지시에 충실하려는 태도와 일치한다.",
+  "maria-callas.turning_point.1":
+    "1949년 베네치아에서 그녀는 브륀힐데 역을 리허설하던 중 <청교도>의 엘비라 역을 대신 맡았고, 이 돌파구와 세라핀의 지도로 벨칸토 레퍼토리로 향하게 되었다.",
+  "maria-callas.interpretation.turning_point.1":
+    "촉박한 일정의 중요한 역을 받아들이고 이후 레퍼토리에 관한 스승의 조언을 따르는 태도와 일치한다.",
+  /* ---------------------------------------------------------- martin-scorsese (Roster49) */
+  "martin-scorsese.achievement.1":
+    "브리태니커에 따르면 로버트 드 니로와 처음 함께한 <비열한 거리>(1973)로 두각을 나타냈고, <택시 드라이버>(1976)는 칸 영화제 황금종려상을 받았다.",
+  "martin-scorsese.achievement.2":
+    "1990년 다른 일곱 명의 감독과 함께 영화재단을 설립해 이사회 의장을 맡았으며, 2010년까지 이 재단은 545편의 영화를 복원했다.",
+  "martin-scorsese.achievement.3":
+    "<디파티드>(2007)로 아카데미 감독상을 받았고 이 작품은 작품상도 받았다. 그 전에는 <분노의 주먹>, <좋은 친구들>, <그리스도 최후의 유혹>, <갱스 오브 뉴욕>, <에비에이터>로 후보에 올랐다.",
+  "martin-scorsese.moment.1":
+    "편집자 델마 스쿤메이커에 따르면 <사일런스> 촬영 중 갑자기 안개가 마을을 뒤덮자 그는 그대로 찍으라고 했고, 사무라이들이 안개 속에서 나타나게 한 뒤 나중에 클로즈업을 다시 촬영했다.",
+  "martin-scorsese.interpretation.moment.1":
+    "예기치 못한 상황의 변화를 영화의 일부로 끌어들이는 태도와 일치한다.",
+  "martin-scorsese.moment.2":
+    "촬영감독 로드리고 프리에토에 따르면 스코세이지는 촬영지가 정해지기도 전에 대부분 매우 꼼꼼한 샷 리스트와 도면을 만들고, 준비 단계에서 샷 리스트 전체를 직접 설명해 준다.",
+  "martin-scorsese.interpretation.moment.2":
+    "영화를 어떻게 촬영할지 미리 세밀하게 계획하는 태도와 일치한다.",
+  "martin-scorsese.turning_point.1":
+    "1990년 그는 일곱 명의 다른 감독과 함께 미국 영화 유산을 보존하기 위해 출범시킨 영화재단의 이사회 의장이 되었고, 2010년까지 색이 덜 바래는 컬러 필름 개발을 위한 캠페인도 벌였다.",
+  "martin-scorsese.interpretation.turning_point.1":
+    "영화 감독으로서의 영향력을 영화사의 장기적 보존에 쏟는 태도와 일치한다.",
+  /* ---------------------------------------------------------- william-shakespeare (Roster49) */
+  "william-shakespeare.achievement.1":
+    "1598년 프랜시스 미어스는 그를 희극과 비극 모두에서 영국 최고의 극작가로 꼽으며, <로미오와 줄리엣>과 <한여름 밤의 꿈>을 포함한 열두 편을 열거했다.",
+  "william-shakespeare.achievement.2":
+    "그의 동료 배우 두 사람이 엮은 1623년 퍼스트 폴리오는 희곡 36편을 모았고 그중 18편은 그전에 인쇄된 적이 없어, <맥베스>, <십이야>, <템페스트> 같은 작품이 보존되었다.",
+  "william-shakespeare.achievement.3":
+    "그는 거의 20년 동안 궁내부장관 극단(훗날 국왕 극단)의 전속 극작가이자 지분을 가진 단원이었고, 글로브와 블랙프라이어스 극장을 소유한 조합의 일원이었다.",
+  "william-shakespeare.moment.1":
+    "1595년 3월 15일 궁정 재무관의 장부에는 1594년 성탄절에 여왕 앞에서 공연한 두 편의 대가가 윌리엄 켐프, 윌리엄 셰익스피어, 리처드 버비지에게 지급된 것으로 기록되어, 그가 극단의 핵심 인물들과 나란히 이름을 올렸다.",
+  "william-shakespeare.interpretation.moment.1":
+    "극단이 그를 글쓰기만이 아니라 운영에도 믿고 맡긴 구성원이었다는 점과 일치한다.",
+  "william-shakespeare.moment.2":
+    "벤 존슨은 배우들이 셰익스피어가 한 줄도 지운 적이 없다고 칭찬하곤 했으나 자신은 \"천 줄은 지웠으면\" 하고 답했다고 적었고, 그래도 그 사람을 사랑했으며 그의 글솜씨가 너무 술술 흘러 때로는 멈추게 해야 했다고 평했다.",
+  "william-shakespeare.interpretation.moment.2":
+    "빠르고 유려하게 쓰는 작가였다는 점과 일치하며, 가장 가까운 경쟁자가 이를 칭찬하면서도 비판했다는 점이 함께 드러난다.",
+  "william-shakespeare.turning_point.1":
+    "1594년 무렵 역병으로 극장이 닫혔다가 풀린 뒤 그는 새로 만들어진 궁내부장관 극단에 합류해 지분을 가진 단원이 되었고, 훗날 국왕 극단이 된 이 극단에서 평생 활동했다.",
+  "william-shakespeare.interpretation.turning_point.1":
+    "여러 극단을 위해 쓰던 데서 한 극단을 위해 쓰고 함께 소유하는 쪽으로 옮겨 간 변화와 일치한다.",
+  /* ---------------------------------------------------------- raphael (Roster49) */
+  "raphael.achievement.1":
+    "1508년 로마로 불려 가 교황 율리우스 2세의 거처를 장식한 그는 1508년부터 1524년까지 자신의 공방과 함께 바티칸 스탄차를 그렸고, <아테네 학당>이 포함된 서명실 프레스코로 시작했다.",
+  "raphael.achievement.2":
+    "율리우스 2세, 레오 10세, 발다사레 카스틸리오네의 초상화와 성모상은 그의 가장 높이 평가받는 작품들이며, 영국 내셔널 갤러리는 두 교황의 얼굴이 지금도 우리가 그들을 보는 방식을 규정한다고 말한다.",
+  "raphael.achievement.3":
+    "1514년부터 성 베드로 대성당의 수석 건축가로 일했고 레오 10세로부터 고대 로마 건축물 조사를 의뢰받았으며, 줄리오 로마노와 잔프란체스코 펜니가 물려받은 대규모 공방을 이끌었다.",
+  "raphael.moment.1":
+    "바사리는 라파엘로가 병이 들자 유언장을 작성해 제자 줄리오 로마노와 일 파토레(잔프란체스코 펜니)에게 재산을 남겼다고 전하며, 두 사람은 이후 그의 공방을 이어 갔다.",
+  "raphael.interpretation.moment.1":
+    "가장 가까운 조수들이 공방을 이어 가도록 묶어 둔 스승의 태도와 일치하지만, 바사리는 후대의 호의적인 전기 작가라는 점에 유의해야 한다.",
+  "raphael.moment.2":
+    "1514년 브라만테가 사망하자 그는 성 베드로 대성당의 수석 건축가가 되었고, 이후 고대 유물 관리를 맡았으며 레오 10세로부터 고대 로마 건축물 조사를 의뢰받았다.",
+  "raphael.interpretation.moment.2":
+    "회화에서 건축과 고대 연구로까지 활동 영역을 넓힌 화가라는 점과 일치한다.",
+  "raphael.turning_point.1":
+    "1504년 무렵 그는 피렌체로 옮겨 레오나르도와 미켈란젤로를 비롯한 그곳 예술가들에게 배웠고, 그들의 작품을 보고 스케치했으며, 이후 1508년 로마의 부름을 받았다.",
+  "raphael.interpretation.turning_point.1":
+    "이미 독립한 거장이면서도 당대 최고 예술가들을 계속 연구한 태도와 일치한다.",
+  /* ---------------------------------------------------------- jennifer-doudna (Roster49) */
+  "jennifer-doudna.achievement.1":
+    "2012년 에마뉘엘 샤르팡티에와 협력해 CRISPR/Cas9 '유전자 가위'를 시험관에서 재현하고, 어떤 DNA든 정해진 위치에서 자르도록 재설계하는 데 기여했다.",
+  "jennifer-doudna.achievement.2":
+    "그녀는 2020년 샤르팡티에와 함께 \"유전체 편집 방법의 개발\"로 노벨 화학상을 공동 수상했다.",
+  "jennifer-doudna.achievement.3":
+    "2006년부터 버클리의 연구 그룹이 여러 Cas 단백질의 기능을 밝혀냈고, 2011년에는 에바 노갈레스와 함께 대장균 CRISPR 효과기 복합체의 저온전자현미경 구조를 발표했다.",
+  "jennifer-doudna.moment.1":
+    "2012년 버클리, 빈, 우메오의 연구팀은 경쟁자들보다 먼저 Cas9 결과를 발표하기 위해 시차를 이용해 거의 밤낮없이 작업했고, 박사후연구원은 매일 아침 빈에서 온 전날의 결과 메일을 받았다.",
+  "jennifer-doudna.interpretation.moment.1":
+    "경쟁 압박 속에서 다른 대륙의 협력 연구실과 보조를 맞추며 빠르게 움직인 팀의 모습과 일치한다.",
+  "jennifer-doudna.moment.2":
+    "2020년 3월 그녀는 자신의 연구소가 버클리 캠퍼스에 코로나19 임상 검사실을 만들고 있다고 발표했으며, 미국 국립보건원장은 나중에 그녀가 바이러스학이나 임상 진단 경험이 없었다고 언급했다.",
+  "jennifer-doudna.interpretation.moment.2":
+    "공동체의 필요가 생겼을 때 낯선 문제에 연구소의 자원을 돌릴 수 있는 과학자라는 점과 일치한다.",
+  "jennifer-doudna.turning_point.1":
+    "2011년 푸에르토리코 학회에서 샤르팡티에가 연쇄상구균의 Cas9가 어떻게 작동하는지 함께 연구하자고 제안했고, 다우드나가 합류하면서 2012년의 발견으로 이어진 협력이 시작되었다.",
+  "jennifer-doudna.interpretation.turning_point.1":
+    "혼자서는 풀기 어려운 문제를 다른 분야의 파트너와 힘을 합쳐 푼 연구자라는 점과 일치한다.",
+  /* ---------------------------------------------------------- freeman-dyson (Roster49) */
+  "freeman-dyson.achievement.1":
+    "1949년 그는 양자전기역학을 다룬 두 경쟁 이론, 곧 도모나가·슈윙거의 이론과 파인만의 이론이 수학적으로 동등함을 보였고, 이로써 물리학자들이 파인만 도형을 계산에 쓸 수 있게 되었다.",
+  "freeman-dyson.achievement.2":
+    "그는 양자전기역학 밖에서도 TRIGA 연구용 원자로 설계에 참여했고, 무작위 행렬과 물질의 안정성을 연구했으며, 1960년에는 별을 둘러싼 구조물이 내는 적외선으로 고도 문명을 찾자고 제안했다. 이 구조물은 훗날 다이슨 구로 불렸다.",
+  "freeman-dyson.achievement.3":
+    "1970년대부터 그는 일반 독자를 위한 책과 에세이를 썼고, 《우주를 어지럽히다》(1979)와 1984년 전미도서비평가협회상 논픽션 부문을 받은 《무기와 희망》이 대표작이다.",
+  "freeman-dyson.moment.1":
+    "1948년 혼자 버스를 타고 프린스턴으로 가던 길에, 파인만과 슈윙거의 방법을 몇 달 동안 파고든 끝에 두 이론이 동등함을 알아냈고, 훗날 이를 번뜩이는 깨달음이라고 불렀다.",
+  "freeman-dyson.interpretation.moment.1":
+    "이는 어려운 두 형식 체계를 함께 붙들고 그 관계를 증명해 내는 능력과 부합한다.",
+  "freeman-dyson.moment.2":
+    "동료 윌리엄 프레스가 반복 죄수의 딜레마에 관한 문제를 내놓자 다이슨은 이튿날 답을 보냈고, 두 사람은 2012년에 많이 인용되는 논문을 함께 발표했다.",
+  "freeman-dyson.interpretation.moment.2":
+    "이는 관심을 끄는 문제에 대해 짧고 과제 중심으로 협업하는 양상과 부합한다.",
+  "freeman-dyson.turning_point.1":
+    "1975년 그는 늙으면 책을 써야 한다는 G. H. 하디의 조언에 따라 책을 쓰기로 결심했고, 정리 증명은 점차 줄고 저서는 늘어 갔다.",
+  "freeman-dyson.interpretation.turning_point.1":
+    "이는 가장 창조적이라고 느끼는 일을 향해 스스로 경력의 방향을 정하려는 성향과 부합한다.",
+  /* ---------------------------------------------------------- pierre-curie (Roster49) */
+  "pierre-curie.achievement.1":
+    "그는 마리 퀴리와 함께 1898년 폴로늄과 라듐의 발견을 발표했고, 1903년 두 사람은 방사능 연구로 앙리 베크렐과 노벨 물리학상을 나누어 받았다.",
+  "pierre-curie.achievement.2":
+    "1880년 그는 형 자크와 함께 압력을 받은 특정 결정에 전하가 나타나는 압전 현상을 발견했고, 이를 측정하는 석영 전위계와 저울도 만들었다.",
+  "pierre-curie.achievement.3":
+    "그는 물질의 자기적 성질이 특정 온도에서 달라진다는 것을 보였고(오늘날 퀴리점), 약한 자화와 온도의 관계를 나타내는 법칙을 찾았으며, 1894년에는 물리 현상의 대칭성에 관한 법칙을 제시했다.",
+  "pierre-curie.moment.1":
+    "1880년 그와 자크는 주석박, 풀, 철사, 보석 세공용 톱 같은 소박한 재료로 석영, 황옥, 로셸염 등 여러 결정을 시험했고, 압력이 전하를 일으킨다는 것을 확인했다.",
+  "pierre-curie.interpretation.moment.1":
+    "이는 소박한 장치를 직접 만들어 착상을 시험하는 습관과 부합한다.",
+  "pierre-curie.moment.2":
+    "자기 연구 중에 그는 강한 반자성체와 자기 전도체를 찾아보았으나 찾지 못했고, 아내의 기록에 따르면 이런 탐색은 발표하지 않았다.",
+  "pierre-curie.interpretation.moment.2":
+    "이는 발표보다는 예상 밖의 가능성 자체를 좇는 태도와 부합한다.",
+  "pierre-curie.turning_point.1":
+    "1898년 그는 자신의 결정 연구를 제쳐 두고 피치블렌드 속 미지의 방사성 물질을 찾던 마리 퀴리의 연구에 합류했고, 이는 폴로늄과 라듐의 발견으로 이어졌다.",
+  "pierre-curie.interpretation.turning_point.1":
+    "이는 유망한 문제를 함께 풀기 위해 자신의 연구 방향을 바꾸는 태도와 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

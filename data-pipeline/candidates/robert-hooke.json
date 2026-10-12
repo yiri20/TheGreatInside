@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "robert-hooke",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Robert Hooke",
+    "aliases": [
+      "Dr. Robert Hooke"
+    ],
+    "wikidataId": "Q46830",
+    "birthYear": 1635,
+    "deathYear": 1703,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "physicist",
+      "inventor"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "polymath",
+      "innovator",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hooke_wikidata",
+      "kind": "wikidata",
+      "title": "Robert Hooke (Q46830) -- verified live via the Wikidata API (2026-10-11): English label 'Robert Hooke', description 'English natural philosopher, architect and polymath (1635-1703)', born 1635 (Wikidata lists 18 July, 28 July and a year-only value), died 3 March 1703 (also listed as 14 March, the Gregorian equivalent), Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q46830"
+    },
+    {
+      "id": "src_hooke_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Robert Hooke' biography -- scholarly secondary biography drawing on Westfall's Dictionary of Scientific Biography entry, Nichols's edition of the diaries and Waller's 1705 preface. CANONICAL SIGNIFICANCE SOURCE for his primary contribution: the Royal Society's first Curator of Experiments from 1662, Micrographia (1665), the improved air pump for Boyle, spring-regulated clocks and the law of elasticity, and the quarrels with Newton. Read in full; its remarks on his health, family and private life were deliberately not used, and its architecture/surveying passages are incidental and unscored.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hooke/"
+    },
+    {
+      "id": "src_hooke_culblog",
+      "kind": "institution",
+      "title": "Cambridge University Library Special Collections blog, 'Robert Hooke and his Micrographia' (Liam Sims, 12 January 2015) -- institutional account of Micrographia as printed by order of the Royal Society, Pepys's reaction in January 1665, the book as the first English book devoted to microscopic research, each plate based on Hooke's own drawing, and his surviving library and diaries. Read in full.",
+      "url": "https://specialcollections-blog.lib.cam.ac.uk/?p=9478"
+    },
+    {
+      "id": "src_hooke_rsarts",
+      "kind": "institution",
+      "title": "The Royal Society, 'Seeing closer: the birth of microscopy' (Google Arts & Culture story) -- institutional account stating that Hooke was the Society's first Curator of Experiments, that Micrographia (1665) was the first major book to examine the microscopic world, and that there are 'famously no known portraits of him'. Read in full; used for the work record and for the portrait-status finding.",
+      "url": "https://artsandculture.google.com/story/ewUB3a4BACdxKQ"
+    },
+    {
+      "id": "src_hooke_aubrey",
+      "kind": "biography",
+      "title": "John Aubrey, 'Brief Lives' (ed. Andrew Clark, 1898), vol. 1, entry 'Robert Hooke', via Project Gutenberg #47787 -- near-contemporary friend's sketch written about 1680 and annotated by Hooke himself. Reports his boyhood invention of 'thirty severall wayes of flying', mastery of the first six books of Euclid in a week, work for Willis and Boyle, appointment as Curator, a list of his inventions and publications, and Aubrey's own (admiring, partisan) account of the 1678-79 letters to Newton. Read the full entry; a friend's account, so its praise ('great suavity and goodnesse') is treated as one perspective and Aubrey's priority claims are not adjudicated.",
+      "url": "https://www.gutenberg.org/ebooks/47787"
+    },
+    {
+      "id": "src_hooke_waller",
+      "kind": "biography",
+      "title": "Richard Waller, 'The Life of Dr. Robert Hooke', prefixed to 'The Posthumous Works of Robert Hooke' (London, 1705; Internet Archive scan, OCR text) -- near-contemporary Royal Society-commissioned life by a colleague who knew him. Gives the Royal Society minute of 5-12 November 1662 appointing him Curator to bring three or four experiments to each meeting, the Hevelius dispute, and the author's own character sketch (indefatigable worker, short sleep, 'melancholy, mistrustful and jealous' temper, more reserved after disputes over credit, a planned bequest to the Society never put in a will). Read the sections on his career and character in the OCR text; the OCR is imperfect, so only passages that read cleanly were relied on, and the Worth Library note below documents that Waller glossed over the Newton quarrels. His account of the death of a family member was not used.",
+      "url": "https://archive.org/details/bim_eighteenth-century_the-posthumous-works-of-_hooke-robert_1705"
+    },
+    {
+      "id": "src_hooke_micro",
+      "kind": "archive",
+      "title": "Robert Hooke, 'Micrographia' (1665), preface and observations, via Project Gutenberg #15491 -- SELF primary source used only as work evidence: his programme of supplying the senses with instruments, 'a scrupulous choice, and a strict examination' of particulars, the observations of cork cells, charcoal and the flea. Read the preface and sampled observations (not every observation); never used as sole support for a behavioural claim.",
+      "url": "https://www.gutenberg.org/ebooks/15491"
+    },
+    {
+      "id": "src_hooke_dear",
+      "kind": "press",
+      "title": "Peter Dear (Cornell), review of Stephen Inwood's 'The Forgotten Genius' and Lisa Jardine's 'The Curious Life of Robert Hooke', Physics Today, February 2005 -- INDEPENDENT historian's review of both modern biographies. States that Hooke was the Royal Society's first curator of experiments, Boyle's experimental technician who built the air pumps, that Micrographia (1665) was his greatest legacy, the breadth of his manuscripts, the diaries as a source, and compares the two biographies. Read in full; its remarks on his sex life and health were not used.",
+      "url": "https://physicstoday.aip.org/reviews/the-forgotten-genius-the-biography-of-robert-hooke-1635-1703"
+    },
+    {
+      "id": "src_hooke_enderby",
+      "kind": "press",
+      "title": "John Enderby (Physical Secretary, Royal Society), review of Stephen Inwood's 'The Man Who Knew Too Much', Times Higher Education, 4 July 2003 -- review by a senior officer of the Society Hooke served. Describes Hooke as an early fully professional scientist under Boyle's patronage, curator from 1662, a difficult colleague who accused the Society of stealing his ideas, threatened to resign and found a rival body, and whom Wren's son largely wrote out of his father's life. Read in full; its paragraphs on his private relationships and bowel complaints were deliberately not used. Registration-walled but readable.",
+      "url": "https://www.timeshighereducation.com/node/85486"
+    },
+    {
+      "id": "src_hooke_smith",
+      "kind": "press",
+      "title": "George E. Smith (Tufts), review of Ofer Gal's 'Meanest Foundations and Nobler Superstructures: Hooke, Newton and the Compounding of the Celestiall Motions of the Planetts', Physics Today, 2003 -- Newton-scholar's critical review. Sets out the 1679-80 Hooke-Newton letters, Gal's thesis that Hooke's programme of treating planetary paths as 'encurved' rectilinear motion influenced Newton, and Smith's counter-view that Hooke's reasoning rested on suppositions with a large gap to evidence. Read in full; the book itself was not opened.",
+      "url": "https://physicstoday.aip.org/reviews/meanest-foundations-and-nobler-superstructures-hooke-newton-and-the-compounding-of-the-celestiall-motions-of-the-planetts"
+    },
+    {
+      "id": "src_hooke_worth",
+      "kind": "institution",
+      "title": "Edward Worth Library (Dublin), 'Newton and Hooke' note on Waller's Life in the Posthumous Works -- library essay setting the 1672 optics dispute and the gravity dispute in scholarship (Westfall 1967 and 1972, Guicciardini and Nauenberg 2005), noting Hooke's recurring habit of outlining research plans he did not carry through and that Waller was writing for the Royal Society under Newton's presidency. Read in full.",
+      "url": "https://newton.edwardworthlibrary.ie/Debating-Newton/Newton-and-Hooke"
+    },
+    {
+      "id": "src_hooke_jardinerev",
+      "kind": "press",
+      "title": "complete-review.com, review roundup for Lisa Jardine's 'The Curious Life of Robert Hooke' -- quotes the Daily Telegraph (Malcolm), The Guardian (Uglow), The Independent (Souhami), Literary Review (Grayling), New Statesman (Wroe), New York Times Book Review (Hirst) and The Observer (Heawood) on the biography. Used only for how the reviewers describe his working life and collaborations, and for the note that a possible portrait identified by Jardine is doubted. The individual newspaper reviews and Jardine's book were not opened; quoted excerpts only.",
+      "url": "https://complete-review.com/reviews/scibio/hooker1.htm"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 82,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hooke_waller, src_hooke_mactutor, src_hooke_dear, src_hooke_aubrey, src_hooke_micro | 1655-1665 | colleague biography + institutional biography + historian + friend + self work] Waller prints the Royal Society minute of November 1662 appointing him to bring three or four experiments to every weekly meeting; MacTutor calls this an unrealistic load that few others could have attempted and says he answered it with a wealth of original ideas; Dear says he built Boyle's air pumps and was the Society's 'lifeblood'; Aubrey records his work as Willis's and Boyle's laboratory assistant; Micrographia is a book of his own hands-on observations. Four independent sources agree and the pattern runs over fifteen years. Held at 82 because the sources describe the output more than any single trial in detail, and the Gutenberg Micrographia was sampled, not read through. Primary books (Jardine, Inwood) were not opened."
+    },
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hooke_mactutor, src_hooke_dear, src_hooke_enderby, src_hooke_aubrey | 1655-1703 | institutional biography + historian + Royal Society officer + friend] MacTutor lists optics, mechanics, astronomy, geology and fossils, clocks and the microscope; Dear lists geology, astronomy, watchmaking, gravity, chemistry, mechanics and microscopy in his manuscripts; Enderby says the breadth of his contributions is 'astonishing'; Aubrey lists inventions from pendulum watches to a division engine to an astronomical instrument. The breadth is documented across domains that are genuinely different. Architecture and surveying work are noted by the sources but deliberately not counted here."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hooke_mactutor, src_hooke_smith, src_hooke_worth, src_hooke_aubrey | 1660-1685 | institutional biography + critical Newton scholar + library essay + friend] MacTutor describes a 'flood of ideas' including the spiral balance spring, the anchor escapement and the first statement of the law of elasticity; Smith, a critic of Gal's thesis, nevertheless reports that Gal credits Hooke with a distinctive 'programme' of treating planetary motion as rectilinear motion curved by attraction, which Newton took up; the Worth Library cites Westfall that the concept of centripetal force was one Hooke contributed. Held at 76 because who invented what (notably inverse-square gravitation and the balance spring) is disputed in the scholarship and Aubrey's priority claims are one friend's view; the sources agree on abundance of ideas more than on their finished form."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hooke_mactutor, src_hooke_aubrey, src_hooke_dear, src_hooke_waller | 1640s-1660 | institutional biography + friend + historian + colleague] As a boy he made a working clock and a model ship; Aubrey records him inventing flying schemes at school and teaching himself to draw by grinding chalk and ruddle on a trencher; MacTutor and Dear say he built an improved air pump for Boyle (Waller prints his own manuscript note that he contrived and perfected it). The pattern of making the instrument he needs himself is consistent across sources, but each early-life detail rests on his own later recollection reported by Aubrey or MacTutor."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hooke_waller, src_hooke_mactutor, src_hooke_culblog | 1662-1690 | colleague biography + institutional biography + institution] Waller calls him active, restless and 'indefatigable' to the last, often working all night; MacTutor records that the Society did not always pay him, that he was forced to go to court to recover his lecture fee, and that he kept producing experiments for fifteen years; the Cambridge blog dates the Society's order to print Micrographia to November 1664, about two years into his appointment. Held at 66 because 'indefatigable' is a colleague's summary, and the same sources describe unfinished projects (see the analytical rigor row) so this is persistence at demonstration and invention more than at completing theories."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_hooke_mactutor, src_hooke_enderby, src_hooke_smith, src_hooke_waller, src_hooke_worth | 1672-1690 | institutional biography + Royal Society officer + critical Newton scholar + colleague + library essay] MacTutor documents his 1672 rejection of Newton's light theory and the 1679-86 priority claim against Newton, with Hooke's bitter 1690 lectures; Waller records the dispute with Hevelius; Enderby says he repeatedly accused the Society of stealing his ideas and threatened to resign and set up a rival body; Smith says the priority accusations were many and 'diminished his standing both in his time and in ours'. Multiple independent sources describe a repeated willingness to fight priority disputes openly. Marked dual-edged: it protected claims he thought were his own but cost him allies and, per the sources, his later reputation. MacTutor cautions that the 'difficult man' label is a harsh simplification, since he stayed on good terms with Boyle and Wren."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hooke_mactutor, src_hooke_jardinerev, src_hooke_aubrey, src_hooke_waller, src_hooke_enderby | 1655-1700 | institutional biography + reviewers + friend + colleague + Royal Society officer] MacTutor says he was on very good terms with Boyle and Wren and records the lifelong working friendship with Wren; a reviewer quoted at complete-review (Heawood) calls him a 'great and generous collaborator' whose help was crucial to Boyle and Wren; Aubrey calls him a person of 'great suavity and goodnesse'. Against this, Waller writes that after disputes over credit he became 'close and reserv'd' and would suggest nothing until he could perfect it himself, and Enderby notes his threat to found a rival society. Genuinely mixed, so the score sits near the middle with low confidence; the reviewer quote is read through a roundup, not the original review."
+    },
+    "analytical_rigor": {
+      "score": 46,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hooke_mactutor, src_hooke_smith, src_hooke_worth, src_hooke_micro | 1665-1686 | institutional biography + critical Newton scholar + library essay + self work] MacTutor says he did not have the technical ability to turn his inspired ideas into comprehensive theories and never followed them through; Smith says his planetary reasoning revolved around suppositions with 'an enormous gap' between conceptualisation and evidence (a Newtonian reading that Gal's school disputes); the Worth Library says he often outlined research plans he did not carry through. Against this, the Micrographia preface sets out a programme of strictly examining each particular, and the observations are careful. The score reflects a lean toward intuitive, exploratory reasoning rather than formal proof; it is a contested reading and deliberately low-confidence, and the mathematical comparison is with Newton, who is an exceptionally high bar."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No authenticated portrait of Hooke is known: the Royal Society itself states there are 'famously no known portraits of him' (Google Arts & Culture story, src_hooke_rsarts), and a possible portrait proposed by Lisa Jardine is doubted (src_hooke_jardinerev; MacTutor reports another candidate was established to be a different person). The only rights-clear images found on Wikimedia Commons are modern imaginative paintings by Rita Greer (Free Art License / CC BY-SA, e.g. 'Robert Hooke 1635-1703 Physicist and Polymath', 2011, 2097 x 2793), which are a modern artist's conjecture of his appearance. The permitted portrait kinds do not honestly fit them: 'likeness' would assert a lifetime image, 'historical_depiction' explicitly excludes modern reconstructions ('does NOT automatically qualify' in src/core/types.ts), and 'editorial_nonlikeness' is reserved for an original visual made for this product with no appearance claim. Commons also holds a file 'Robert Hooke portrait.jpg' tagged public domain that its own description says is probably not Hooke. Next step for a human or the lead: decide whether to commission or select a symbolic non-portrait visual (for example a plate from Micrographia, whose 1665 engravings are public domain and can be credited to the Royal Society's printing of Hooke's drawings) under the editorial_nonlikeness treatment, or to leave the person without a portrait."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로버트 훅"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q46830 returned en label 'Robert Hooke', description 'English natural philosopher, architect and polymath (1635-1703)', born 1635 (with 18 July and 28 July values), died 3 March 1703; Korean label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for the slug or QID (grep of src, data-pipeline, public). CANONICAL SIGNIFICANCE SOURCE: MacTutor 'Robert Hooke' (https://mathshistory.st-andrews.ac.uk/Biographies/Hooke/). READ (11 substantive sources): MacTutor biography, Cambridge University Library blog on Micrographia, Royal Society story on microscopy, Aubrey's Brief Lives entry (Clark edition, full entry), Waller's 1705 Life (OCR; career and character sections), Micrographia preface and sampled observations (self), Dear's Physics Today review of Inwood and Jardine, Enderby's Times Higher Education review of Inwood, Smith's Physics Today review of Gal, the Edward Worth Library essay on Newton and Hooke, and the complete-review roundup of Jardine reviews. PERSPECTIVES: friend (Aubrey), colleague and Royal Society appointee (Waller), institutional biographers and libraries, a Royal Society officer (Enderby), a historian of science (Dear), a critical Newton scholar (Smith), reviewers of Jardine through a roundup, and Hooke's own published work as self evidence only. NOT OPENED: Jardine's and Inwood's books themselves (only reviews and a roundup of excerpts); Hooke's Diary (known only through MacTutor, Dear and the Cambridge blog); the Westfall, Gal, Nauenberg and Guicciardini studies of the gravity dispute (known through the Worth Library essay and Smith's review); the ODNB entry; the Royal Society, Science Museum and Whipple Museum pages (the first two URLs tried returned 404 and the Whipple page found was an event notice with no biography); the Nature note on newly found Hooke notes (paywalled); the Huygens balance-spring priority dispute (only snippet-level, so not used). EXCLUSIONS (deliberate): his health, spinal condition and headaches, bereavement, relationships with family members and servants (raised in Enderby, Dear and Jardine reviews), and any inference about temperament from illness; the Great Fire surveyorship, Bethlem/other building designs and Wren partnership as architecture or civic work (incidental, unscored); the Royal Society's internal politics beyond his own documented conduct. SCORING: 8 rows, highest 82 (experimentation) and 80 (cross-domain range); lowest 46 (analytical rigor) and 56 (collaboration); confidence 0.44-0.66; three rows (conflict tolerance, collaboration, analytical rigor) are dual-edged by design because the sources disagree. BOOK-REVIEW CAVEAT (Roster48 lesson): the best modern evidence is in book reviews, so no score exceeds 82 and no confidence exceeds 0.66. Hooke's Newton priority claims are recorded only as scholarly accounts of a dispute; none is adjudicated and no political or architectural trait is scored. PORTRAIT: HELD, see portrait.reason for the exact blocker (no authenticated portrait exists; only modern conjectural paintings available and no honest permitted kind)."
+  }
+}

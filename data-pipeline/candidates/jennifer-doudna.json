@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jennifer-doudna",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jennifer Doudna",
+    "aliases": [
+      "Jennifer A. Doudna",
+      "Jennifer Anne Doudna"
+    ],
+    "wikidataId": "Q56068",
+    "birthYear": 1964,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "biologist",
+      "chemist",
+      "scientist"
+    ],
+    "fieldIds": [
+      "biology",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical",
+      "innovation"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_doudna_wikidata",
+      "kind": "wikidata",
+      "title": "Jennifer Doudna (Q56068) -- verified live via the Wikidata API (2026-10-11): English label 'Jennifer Doudna', description 'American biochemist', Korean label present, born 19 February 1964, no date of death recorded. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q56068"
+    },
+    {
+      "id": "src_doudna_nobel_release",
+      "kind": "award_body",
+      "title": "The Royal Swedish Academy of Sciences, press release 'The Nobel Prize in Chemistry 2020' (7 October 2020) -- CANONICAL SIGNIFICANCE SOURCE: the citation 'for the development of a method for genome editing' to Emmanuelle Charpentier and Jennifer A. Doudna, the account of Charpentier's 2011 discovery of tracrRNA, the collaboration she initiated with Doudna the same year, the test-tube recreation and reprogramming of the CRISPR/Cas9 genetic scissors in 2012 and their use since. Read in full.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2020/press-release/"
+    },
+    {
+      "id": "src_doudna_nobel_popular",
+      "kind": "award_body",
+      "title": "The Royal Swedish Academy of Sciences, 'Popular information: Genetic scissors: a tool for rewriting the code of life' (Nobel Prize in Chemistry 2020) -- the Nobel Committee's narrative of the discovery: Doudna's work on RNA and RNA interference, the 2006 call from a Berkeley microbiologist colleague about CRISPR and her putting her research group to work on the Cas proteins, the 2011 meeting in Puerto Rico where Charpentier proposed the collaboration, and the failed first experiment solved by adding tracrRNA. Written by the Committee with the laureates' own accounts as input, so partly self-derived; read for the facts of the collaboration, not for personality. Read the biographical and discovery sections in full; the later sections on applications and ethics were skimmed.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2020/popular-information/"
+    },
+    {
+      "id": "src_doudna_asbmb",
+      "kind": "press",
+      "title": "ASBMB Today (American Society for Biochemistry and Molecular Biology), 'From bacterial immunity to scientific revolution' (December 2020) -- society-magazine feature on the CRISPR-Cas9 discovery and the 2020 Nobel Prize, with interviews of Doudna, colleagues and collaborators (Martin Jinek, Krzysztof Chylinski, Megan Hochstrasser, Fyodor Urnov, Joan Steitz). INDEPENDENT of Doudna, favourable in tone and partly built on her own quotes. Covers the move from RNA interference to CRISPR, the Berkeley-Vienna-Umea collaboration, the race to publish in 2012, the founding of the Innovative Genomics Institute in 2014, the 2015 Napa meeting she planned on gene-editing ethics, and the pandemic work. Read in full; the patent-dispute paragraph was read but not scored.",
+      "url": "https://asbmb.org/asbmb-today/people/121520/from-bacterial-immunity-to-scientific-revolution"
+    },
+    {
+      "id": "src_doudna_stat",
+      "kind": "press",
+      "title": "Matthew Herper, 'CRISPR pioneer Doudna opens lab to run Covid-19 tests', STAT, 30 March 2020 -- contemporaneous news report on the pop-up clinical testing laboratory at the Innovative Genomics Institute (2,500 square feet, over 1,000 samples a day planned), staffed by more than 50 volunteers including industry staff, with the effort started on 13 March 2020 and based on laboratory robots. Independent reporting with Doudna's own quotes. Read in full.",
+      "url": "https://www.statnews.com/2020/03/30/crispr-pioneer-doudna-opens-lab-to-run-covid-19-tests/"
+    },
+    {
+      "id": "src_doudna_nih",
+      "kind": "institution",
+      "title": "Federal Laboratory Consortium, 'NIH Director lauds CRISPR pioneer's COVID-19 volunteer efforts' (summary of NIH Director Francis Collins's Director's Blog of 12 May 2020) -- government summary stating that Doudna, with no experience in virology or clinical diagnostics, led the creation of a pop-up COVID-19 testing laboratory that was fully operational on 6 April 2020 after obtaining CLIA certification and validating its test, and that she convinced IGI colleagues to help. Third-party observer (a federal agency head), second-hand through the FLC summary; the original blog post was not opened. Read in full.",
+      "url": "https://federallabs.org/communications/federal-lab-news/nih-director-lauds-crispr-pioneer-s-covid-19-volunteer-efforts"
+    }
+  ],
+  "rows": {
+    "collaboration": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_doudna_nobel_release, src_doudna_nobel_popular, src_doudna_asbmb, src_doudna_stat | 2011-2020 | award body + society magazine + news report] The Nobel Committee records that Charpentier proposed a collaboration in 2011 and that the two together recreated and reprogrammed the Cas9 scissors; ASBMB describes a three-location collaboration (Berkeley, Vienna, Umea) between two labs, run around the clock in 2012 with postdocs Jinek and Chylinski, producing two joint papers; STAT reports the 2020 testing lab run by more than 50 volunteers from academia and industry. Several independent sources on repeated working partnerships across different projects; held at 80 because the ASBMB feature leans on Doudna's own framing of collaboration. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): five sources, no adversarial source on her conduct and part of the Nobel narrative is her own telling; score and confidence lowered."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_doudna_nobel_popular, src_doudna_asbmb, src_doudna_stat, src_doudna_nih | 2006-2020 | award body + society magazine + news + government] The Nobel Committee and ASBMB both describe her moving from RNA interference into CRISPR after a colleague's 2006 call; STAT and the NIH director's summary describe her leading a clinical-testing lab in 2020 although she had no experience in virology or clinical diagnostics, working through CLIA certification and test validation. Two documented pivots in different decades, each described by independent sources; the 2006 pivot is told partly from her own account, so confidence stays at 0.64. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): five sources, no adversarial source on her conduct and part of the Nobel narrative is her own telling; score and confidence lowered."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_doudna_asbmb, src_doudna_stat, src_doudna_nih | 2014-2020 | society magazine + news + government] ASBMB says she founded the Innovative Genomics Institute in 2014 and co-leads it; STAT calls her its executive director and describes her team of more than 50 volunteers; the NIH director's summary says she saw a need and convinced IGI colleagues to help create the testing lab. These are documented roles and an episode of rallying people, but the sources show her leading specific efforts, not a general appetite for authority, so the score stays in the low 70s. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): five sources, no adversarial source on her conduct and part of the Nobel narrative is her own telling; score and confidence lowered."
+    },
+    "execution_speed": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_doudna_stat, src_doudna_nih, src_doudna_asbmb | 2012, 2020 | news + government + society magazine] STAT dates the start of the testing-lab effort to 13 March 2020 and the NIH summary has it fully operational on 6 April 2020 with a 24-hour turnaround; ASBMB quotes postdoc Jinek describing the 2012 CRISPR work as an around-the-clock operation across time zones because the team knew competitors were close. Two time-pressed episodes in two decades, from independent sources, but both were team efforts, so the score is held at 72. LEAD REVIEW CORRECTION (Roster49, before eligibility, downward only): five sources, no adversarial source on her conduct and part of the Nobel narrative is her own telling; score and confidence lowered."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_doudna_nobel_popular, src_doudna_asbmb | 2006-2011 | award body + society magazine] Both sources describe her learning of CRISPR in 2006 through a colleague, noticing the similarity to RNA interference, and putting her group to work on the Cas proteins' structure and function; the Nobel Committee describes her as having a nose for ground-breaking projects. The two accounts describe the same sequence of events, and the Committee's narrative draws on her own telling, so this is treated as one well-documented episode read as a pattern: strong inference at 0.58, not documented."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_doudna_asbmb, src_doudna_stat, src_doudna_nih | 2014-2020 | society magazine + news + government] ASBMB quotes IGI staff member Hochstrasser describing the institute as Doudna's effort to make sure CRISPR leaves the lab and reaches the real world in a positive way, and colleague Urnov calling her a clear citizen-scientist; the same article says she planned the 2015 Napa meeting on gene-editing ethics and invited the organizers of the 1975 Asilomar meeting; STAT and the NIH summary show her redirecting the institute to community testing in 2020. The pattern is consistent across sources, but the key characterizations come from close colleagues, so confidence is moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "제니퍼 다우드나"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jennifer-doudna-christopher-michel-2023.jpg",
+    "width": 900,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Jennifer Doudna by Christopher Michel in 2023 05.jpg' -- photograph by Christopher Michel, 12 July 2023, uploaded by the photographer as own work under CC BY-SA 4.0; original Commons file 5464 x 7285 pixels, downscaled once to 900 x 1200 (never upscaled). Black-and-white portrait.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Christopher Michel, 2023, licensed under CC BY-SA 4.0; downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Jennifer_Doudna_by_Christopher_Michel_in_2023_05.jpg",
+    "creator": "Christopher Michel",
+    "date": "2023-07-12",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jennifer_Doudna_by_Christopher_Michel_in_2023_05.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-11T00:00:00Z",
+    "updatedAt": "2026-10-11T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-11) for Q56068 returned en label 'Jennifer Doudna', description 'American biochemist', ko label present, born 1964-02-19, no death date; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for this slug or QID. CANONICAL SIGNIFICANCE SOURCE: Royal Swedish Academy of Sciences, press release 'The Nobel Prize in Chemistry 2020' (https://www.nobelprize.org/prizes/chemistry/2020/press-release/). READ (6 sources): the Nobel press release and popular information; the ASBMB Today feature; the STAT report on the Berkeley testing lab; the Federal Laboratory Consortium summary of the NIH director's blog. Also read but not used for any row: the BookPage and Philadelphia Inquirer/AP reviews of Walter Isaacson's 'The Code Breaker', which describe the book rather than documented episodes (the book itself was not read). PERSPECTIVES: the Nobel Committee (partly built on the laureates' accounts), a society magazine quoting collaborators and colleagues, contemporaneous news reporting, and a federal agency head's recognition of her work; there is no adversarial source on her conduct. LIVING-SUBJECT SCOPE: only public, documented professional conduct is scored. EXCLUSIONS: the CRISPR patent dispute and the commercial ventures (mentioned by ASBMB, not scored, and no source read adjudicates the dispute), her family and childhood, her feelings or private regrets reported in the book reviews, health, and any inferred motive; her public ethics advocacy is used only as the documented professional episode of convening the 2015 Napa meeting, not as political activity. NOT OPENED: the Berkeley news, IGI and HHMI pages (blocked, HTTP 403/404), the Nobel scientific background, the 2012 Science paper, Isaacson's book, Collins's original blog post, and the Chemistry World feature (only a stub was retrievable). SCORING: 6 rows, highest 80 (collaboration), lowest 70 (impact motivation), confidence 0.55-0.70, four rows documented and two strong inference; no row above 0.70 and none above 80. PORTRAIT: Commons 'Jennifer Doudna by Christopher Michel in 2023 05.jpg', own work by the named photographer under CC BY-SA 4.0 (the Nobel Foundation's facts page credits the same photographer for its Doudna photo, so no conflicting institutional claim was found); original 5464 x 7285, saved as a 900 x 1200 downscale. Attribution to the photographer is included and the share-alike condition applies to derivatives of the file. LEAD REVIEW (Roster49): 4 rows lowered before eligibility (thin, non-adversarial evidence)."
+  }
+}
