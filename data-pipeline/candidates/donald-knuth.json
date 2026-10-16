@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "donald-knuth",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Donald Knuth",
+    "aliases": [
+      "Donald Ervin Knuth",
+      "Donald E. Knuth",
+      "Don Knuth"
+    ],
+    "wikidataId": "Q17457",
+    "birthYear": 1938,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "computing",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "educational"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "detail_oriented",
+      "early_computing"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_knuth_wikidata",
+      "kind": "wikidata",
+      "title": "Donald Knuth (Q17457) -- verified live via the Wikidata API (2026-10-15): English label 'Donald Knuth', description 'American computer scientist and mathematician (born 1938)', born 10 January 1938, no date of death, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q17457"
+    },
+    {
+      "id": "src_knuth_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, 'Donald Knuth', 1998 Fellow profile -- museum profile with the Fellow citation 'for his fundamental early work in the history of computing algorithms, development of the TeX typesetting language, and for major contributions to mathematics and computer science'; describes The Art of Computer Programming as the 'Bible' of computer science pedagogy, his early mastery of the IBM 650, his invention of TeX in 1977 out of frustration with the typography proposed for a new volume of the series, TeX as a worldwide standard for technical publishing, his Turing Award (1974), National Medal of Science (1979) and Kyoto Prize (1996), and quotes his remark that his work takes long hours of study and uninterruptible concentration. CANONICAL SIGNIFICANCE SOURCE (museum assessment of his primary contribution; honouring in tone, used for the achievement cards and orientation, and for one quoted remark about his working conditions; Britannica and the ACM's own pages returned HTTP 403). Read in full.",
+      "url": "https://computerhistory.org/profile/donald-knuth/"
+    },
+    {
+      "id": "src_knuth_turing",
+      "kind": "institution",
+      "title": "Heidelberg Laureate Forum, 'Donald Ervin Knuth' laureate page -- gives the 1974 ACM A.M. Turing Award 'for his major contributions to the analysis of algorithms and the design of programming languages, and in particular for his contributions to the \"art of computer programming\" through his well-known books in a continuous series by this title'. Brief page used only to confirm the award and its citation, because the ACM's own award page returned HTTP 403. Read in full.",
+      "url": "https://www.heidelberg-laureate-forum.org/laureate/donald-ervin-knuth/"
+    },
+    {
+      "id": "src_knuth_kyoto",
+      "kind": "award_body",
+      "title": "Inamori Foundation, 'Donald Ervin Knuth', 1996 Kyoto Prize in Advanced Technology (Information Science) laureate page with achievement digest, citation and profile -- credits him with systematising fundamental algorithms and numerical methods compatible with machine arithmetic, compiled in The Art of Computer Programming; with the WEB system and the idea of programs legible as documents (literate programming); and with TeX and METAFONT as documentation technology now used for many languages and by the American Mathematical Society. Independent award-body assessment, honouring in tone; its profile timeline lists an emeritus title under 1977, which conflicts with every other source and was not used. Read in full.",
+      "url": "https://www.kyotoprize.org/en/laureates/donald_ervin_knuth/"
+    },
+    {
+      "id": "src_knuth_stanfordeng",
+      "kind": "institution",
+      "title": "Stanford University School of Engineering, 'Donald Knuth' (2011 Engineering Hero page) -- short university profile: widely considered the 'father' of the analysis of algorithms, attribute grammars, empirical study of programming languages and literate programming; appointed professor at Stanford in 1968 and stayed until his retirement in 1993; introduced new courses, notably Concrete Mathematics, and mentored many doctoral students; The Art of Computer Programming started in 1963 (other sources say 1962), proposed as seven volumes. Institutional and honouring. Read in full.",
+      "url": "https://engineering.stanford.edu/about/history/heroes/2011-heroes/donald-knuth"
+    },
+    {
+      "id": "src_knuth_oac",
+      "kind": "archive",
+      "title": "Stanford University Libraries, Department of Special Collections, finding aid for the Donald E. Knuth papers (SC0097), 1962-2018, on the Online Archive of California -- describes correspondence, notes, manuscripts, printouts, logbooks, proofs and galleys for TeX, METAFONT, Computer Modern and his books; says his work established the analysis of algorithms as an academic field, that he took time out from the series after Volume 3 to create TeX and METAFONT, and that he retired from regular research and teaching in 1992 (one year earlier than most other sources) to finish The Art of Computer Programming. Archival description, partly derived from encyclopedic text; its family details were not used. Read in full.",
+      "url": "https://oac.cdlib.org/findaid/ark:/13030/kt2k4035s1"
+    },
+    {
+      "id": "src_knuth_stanfordmag",
+      "kind": "press",
+      "title": "Kara Platoni, 'Love at First Byte', Stanford magazine, May/June 2006 -- alumni-magazine profile with colleague and former-student quotes: his first IBM 650 and the 1958 basketball-statistics program, rigor and elegance as his watchwords (Christos Papadimitriou), drafting 3,000 handwritten pages before the series was reconceived, 'consummate perfectionist' with each page having at least 100 ways to be wrong, the 1977 pause of a planned year that took ten to create TeX and METAFONT with design lessons and typographers, release of both programs to the public domain, literate programming, paying more than $20,000 in checks for errata, no longer reading e-mail, still writing several programs a week, and a former student's report that he considers his talent to be detail. Independent and admiring in tone; its passages on family and religion were not used. Read in full.",
+      "url": "https://stanfordmag.org/contents/love-at-first-byte"
+    },
+    {
+      "id": "src_knuth_salon",
+      "kind": "press",
+      "title": "Mark Wallace, 'The art of Don E. Knuth', Salon, 16 September 1999 -- profile of Knuth at 61: the long wait for Volume 4 (he says he has never been a good estimator of how long things take; his publisher's editor says it is the most-asked question), his remark that he is obsessively detail-oriented and the 270-inch stack of correspondence he measured, reward checks totalling more than $10,000, thousands of improvements made to earlier volumes, a former student's account of working at several levels of abstraction, software writer Ellen Ullman calling him a godfather, and criticism that younger programmers are put off by his machine-level detail. Independent journalism with critical voices; its passages on religion and music were not used. Read in full.",
+      "url": "https://www.salon.com/1999/09/16/knuth/"
+    },
+    {
+      "id": "src_knuth_electronicdesign",
+      "kind": "press",
+      "title": "Kristina Fiore, 'Don Knuth: The Historian Of The Computer Age', Electronic Design, 19 October 2007 -- trade-press profile: the 1962 commission for a book on compilers, the 3,000 handwritten pages and 1968/1969/1973 volumes, his wish to make programming more rigorous so one can be sure of a program, writing Volume 4A out of order as the field grows, reward checks as a cultivated eccentricity, a ten-year break to create TeX and METAFONT as open-source programs, and retirement as Professor Emeritus in 1993. Independent short profile, mostly built from his own remarks. Read in full.",
+      "url": "https://www.electronicdesign.com/technologies/embedded/article/21795606/don-knuth-the-historian-of-the-computer-age"
+    },
+    {
+      "id": "src_knuth_quanta",
+      "kind": "press",
+      "title": "Susan D'Agostino, 'The Computer Scientist Who Can't Stop Telling Stories' (Q&A with Donald Knuth), Quanta Magazine, 16 April 2020 -- science-magazine interview with the writer's framing: the series begun as a graduate student in 1962 and still incomplete, volumes published in 1968, 1969 and 1973, a leave in 1990 and retirement in 1993 to finish it, putting the series aside for nearly a decade to build TeX (made open source), literate programming, his statements that he wants to quantify how good an algorithm is, writes about five new programs a week and picks the thing he hates most on his to-do list. Independent framing but mostly his own words; the interview's passages on family, theology and music were not used. Read in full.",
+      "url": "https://www.quantamagazine.org/computer-scientist-donald-knuth-cant-stop-telling-stories-20200416/"
+    },
+    {
+      "id": "src_knuth_pearls",
+      "kind": "press",
+      "title": "Jon Bentley (with Don Knuth and Doug McIlroy), 'Programming Pearls: A Literate Program', Communications of the ACM, June 1986 -- column printing Knuth's literate WEB program for finding the most common words in a text, built around a hash-trie data structure (Bentley praises its design and lucid description), followed by Doug McIlroy's published review: he buys the discipline but not the result, calls it an intricate and refined piece of engineering over-built for the problem, and shows a six-step Unix pipeline that solves the same problem. A contemporary, partly adversarial peer assessment; read from a scanned copy, the program listing itself was not examined line by line.",
+      "url": "https://www.cs.tufts.edu/~nr/cs257/archive/don-knuth/pearls-2.pdf"
+    },
+    {
+      "id": "src_knuth_selfpages",
+      "kind": "institution",
+      "title": "Donald E. Knuth's own Stanford web pages, 'Retirement' and 'Frequently Asked Questions' (https://cs.stanford.edu/~knuth/) -- SELF-authored: he retired early because he judged that he needed at least 20 years of full-time work to finish The Art of Computer Programming, which he calls the most important project of his life; he works in 'batch mode', concentrating on one subject at a time, and accepts no appointments or new responsibilities; he pays $2.56 (one hexadecimal dollar) for each error found in his books, with the payments going into an account at a fictional Bank of San Serriffe because he can no longer write personal checks. Used only to corroborate independent accounts and never as sole support for a row. Read in full.",
+      "url": "https://cs.stanford.edu/~knuth/retd.html"
+    },
+    {
+      "id": "src_knuth_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Donald Ervin Knuth (cropped).jpg' and its parent 'Donald Ervin Knuth.jpg', with the Flickr source page -- checked for the portrait's licence: photograph credited on Commons to Alex Handy (Flickr account 'vonguard') taken 11 January 2011 at the Computer History Museum's Revolution exhibition opening, uploaded from Flickr and confirmed under CC BY-SA 2.0; the Flickr page shows 'Some rights reserved' with a CC BY-SA 2.0 licence; the Commons crop was made on 3 December 2018. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Donald_Ervin_Knuth_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 82,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_knuth_salon, src_knuth_stanfordmag, src_knuth_electronicdesign, src_knuth_pearls | 1986-2007 | web-magazine and trade profiles + alumni magazine + professional column] Salon quotes him 'I'm obsessively detail-oriented' and reports that he measured a 270-inch stack of correspondence from his TeX years, while noting that younger programmers are put off by his machine-level detail; Stanford Magazine quotes a former doctoral student that he once said his very talent is detail, and reports that he had written more than $20,000 in reward checks for errors in his books (Salon had put it above $10,000 in 1999, and Electronic Design calls the checks a cultivated eccentricity); McIlroy's 1986 review describes his program as intricate and wonderfully worked. Several independent outlets over two decades and a critical voice agree, so documented at a moderate-high confidence. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): several top rows quote Knuth describing himself, relayed through profiles; external corroboration exists but is shared across the same few profiles; score and confidence lowered."
+    },
+    "perfectionism": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_knuth_stanfordmag, src_knuth_salon, src_knuth_pearls, src_knuth_chm, src_knuth_electronicdesign | 1976-2007 | alumni-magazine profile + web-magazine profile + professional column with a critical review + museum profile + trade profile] Stanford Magazine calls him the consummate perfectionist and quotes him that each page has at least 100 ways to be wrong, so he gives exact figures and cross-checks them; it reports that in 1977 he halted work on his books for what he expected to be a year and spent ten building TeX and METAFONT because he could no longer stand the look of his own volumes, and the Computer History Museum likewise dates TeX to his frustration with the typography proposed for a new volume; Salon records thousands of improvements made to the earlier volumes and that Volume 4 was long delayed (his editor says it is the question he is asked most); in 1986 Doug McIlroy's published review of Knuth's literate word-count program called it refined beyond all ordinary desires while arguing it was over-built. Five independent outlets agree and one is adversarial, so documented at a moderate-high confidence; dual-edged because the same standard repeatedly delayed the series. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): several top rows quote Knuth describing himself, relayed through profiles; external corroboration exists but is shared across the same few profiles; score and confidence lowered."
+    },
+    "aesthetic_sensitivity": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_knuth_chm, src_knuth_stanfordmag, src_knuth_quanta, src_knuth_kyoto, src_knuth_salon | 1976-2020 | museum + alumni magazine + science magazine + award citation + web magazine] The Computer History Museum says he invented TeX because he was frustrated with the quality of typography proposed for a new volume of his books; Stanford Magazine says that by 1976 he could no longer stand to look at his own work, took design classes from an art professor and worked with leading typographers to capture the intelligence of letter design, and that he regards elegance as spare, memorable and pleasingly symmetrical; Quanta quotes him that he knew programming could make books look good again; the Kyoto citation credits TeX and METAFONT with producing high-quality printed documents; Salon quotes him that a program should be treated as an essay, a work of literature. Five independent sources over four decades, though the design reasoning is largely his own explanation, so documented at a moderate-high confidence. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): several top rows quote Knuth describing himself, relayed through profiles; external corroboration exists but is shared across the same few profiles; score and confidence lowered."
+    },
+    "analytical_rigor": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_knuth_stanfordmag, src_knuth_electronicdesign, src_knuth_kyoto, src_knuth_pearls, src_knuth_quanta | 1965-2020 | alumni magazine + trade profile + award citation + professional column + science magazine] A former Stanford colleague (Christos Papadimitriou) tells Stanford Magazine that he introduced rigor and elegance into programming, and Knuth defines rigor there as mathematical proof that a program is correct; Electronic Design reports that he wanted the work to be more rigorous so that one could be more sure of a program; the Kyoto citation credits him with systematising the fundamental algorithms and numerical methods compatible with machine arithmetic; Bentley's 1986 column praises his implementation and lucid description of a hash-trie data structure; Quanta records his aim of saying that one program is 13.8 percent better than another and explaining how to compare them. Independent colleague and award-body testimony plus his stated method, so documented at a moderate-high confidence."
+    },
+    "deep_focus": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_knuth_quanta, src_knuth_stanfordmag, src_knuth_stanfordeng, src_knuth_electronicdesign, src_knuth_chm | 1990-2020 | science magazine + alumni magazine + university page + trade profile + museum] Quanta reports that he took a leave in 1990 and retired in 1993 to spend the rest of his life completing the series; Stanford's engineering school and Electronic Design also date the retirement to 1993; Stanford Magazine says he famously regards e-mail as a time sink and no longer reads it, apart from errata and current-work correspondence printed out for him; the Computer History Museum quotes his remark that his work takes long hours of studying and uninterruptible concentration. The behaviour is documented by several independent outlets, but the explanation is largely his own words, so documented at a moderate confidence."
+    },
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_knuth_quanta, src_knuth_stanfordmag, src_knuth_salon, src_knuth_electronicdesign | 1962-2020 | science magazine + alumni magazine + web magazine + trade profile] Quanta says he began the series as a graduate student in 1962, published the first three volumes in 1968, 1969 and 1973 and was working on part B of Volume 4 in 2020; Stanford Magazine says Volume 4 had by 2006 been in the works nearly 30 years and that the planned one-year typography detour took ten; Salon and Electronic Design describe him still working on the next volume in 1999 and 2007, with Electronic Design noting that he wrote parts of Volume 4A out of order as the field grew. Four independent profiles over twenty years describe the same long commitment, with the delays attributed to scope and standards rather than abandonment, so documented at a moderate confidence."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_knuth_chm, src_knuth_stanfordmag, src_knuth_quanta, src_knuth_electronicdesign, src_knuth_stanfordeng | 1977-1993 | museum + alumni magazine + science magazine + trade profile + university page] The Computer History Museum, Stanford Magazine, Quanta and Electronic Design all describe him responding to the poor typography of his own books by building TeX and METAFONT over about a decade, which Stanford Magazine notes he did with limited typesetting experience, by taking design lessons and working with typographers, and then releasing them for free use; Quanta describes his later decision to take leave in 1990 and retire in 1993 to finish the series (Stanford's engineering school and Electronic Design confirm the 1993 retirement). Two documented self-started projects, each told by several independent outlets, so documented at a moderate confidence."
+    },
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_knuth_stanfordmag, src_knuth_quanta, src_knuth_salon | 1999-2020 | alumni magazine + science magazine + web magazine] Stanford Magazine says that in retirement he still writes several programs a week and keeps browsing journals for material for Volumes 5 to 7; Quanta quotes him writing an average of five new programs every week; Salon reports that he revised the earlier volumes with thousands of improvements. Three outlets agree on a sustained practice of improving the craft beyond any external requirement, but the programming habit rests mostly on his own statements, so strong inference at a moderate confidence."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_knuth_salon, src_knuth_stanfordmag, src_knuth_kyoto, src_knuth_quanta | 1996-2020 | web magazine + alumni magazine + award citation + science magazine] Salon quotes a former doctoral student (Lyle Ramshaw) that Knuth says a computer scientist must be able to work with several levels of abstraction at once; Stanford Magazine reports him recasting paragraph breaking as a combinatorial problem in which each of a thousand possible breaks has a score; Quanta has him describing letterforms as a design logic captured with adjustable parameters; the Kyoto citation says he systematised software science and created its foundations. The pattern is consistent across sources, but most of the reasoning is his own account or a student's report of his teaching, so strong inference at a moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "도널드 커누스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/donald-knuth-handy-2011.jpg",
+    "width": 797,
+    "height": 1197,
+    "source": "Wikimedia Commons, 'Donald Ervin Knuth (cropped).jpg' -- a Commons crop (3 December 2018) of 'Donald Ervin Knuth.jpg', photograph credited on Commons to Alex Handy (the Flickr source account is 'vonguard', and the Flickr page itself shows only that username, so the real-name credit rests on the Commons upload record) taken 11 January 2011 at the opening of the Computer History Museum's Revolution exhibition; the original was uploaded from Flickr by the Flickr upload bot on 25 January 2011 and confirmed on that date to be licensed CC BY-SA 2.0, and the Flickr page (photos/44451574@N00/5347112697) checked directly shows 'Some rights reserved', CC BY-SA 2.0; the file carries no restriction template and no embedded copyright field; Commons structured data depicts Donald Knuth. Commons crop 797 x 1197 pixels, used as is (under 1200 pixels, never upscaled).",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Photo: Alex Handy (Flickr: vonguard), 11 January 2011, CC BY-SA 2.0, cropped from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Donald_Ervin_Knuth_(cropped).jpg",
+    "creator": "Alex Handy (Flickr: vonguard)",
+    "date": "2011-01-11",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Donald_Ervin_Knuth_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q17457 returned en label 'Donald Knuth', description 'American computer scientist and mathematician (born 1938)', born 1938-01-10, no death date, citizenship United States, ko label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug donald-knuth or QID Q17457 in the roster50 worktree. Region is the controlled value north_america; fieldIds computing and mathematics, occupationIds, tagIds and archetypeIds are existing vocabulary ids used by other candidates. LIVING SUBJECT: only documented public professional behaviour is scored (the Art of Computer Programming, TeX and METAFONT development, literate programming, reward checks for errata, the early-1990s retirement from Stanford to finish the series). Excluded from rows and cards: family and private life (several profiles quote his wife and children), religion and theology (his books on the subject and the Bible-verse study), music and the pipe organ, finances, his opposition to software patents (a policy position), and any inferred motive or psychology beyond what the profiles document. CANONICAL SIGNIFICANCE SOURCE: Computer History Museum, 'Donald Knuth', 1998 Fellow profile (https://computerhistory.org/profile/donald-knuth/), read in full and supported by the Kyoto Prize citation, the Turing Award citation (via the Heidelberg Laureate Forum page because the ACM page returned 403) and Stanford's engineering-school page; Britannica returned 403. READ (11 cited substantive non-Wikidata sources plus the Commons page): CHM profile; Heidelberg Laureate Forum page; Kyoto Prize page; Stanford engineering-school page; Stanford archives finding aid; Stanford magazine 2006; Salon 1999; Electronic Design 2007; Quanta 2020; the 1986 Communications of the ACM 'Programming Pearls' column with McIlroy's review (scanned copy; the review and commentary read, the program listing not line by line); and Knuth's own Stanford retirement, FAQ and biography pages (self). Also read but not cited: two recipients' blog posts (Drozd, Azose) corroborating that reward checks or certificates are sent, the Stanford Profiles page (Wikipedia-derived), the CWRU newsroom pointer to the New York Times piece, Knuth's own TAOCP page and short biographies. PERSPECTIVES: museum and award bodies (honouring), a university engineering school and archive, four journalists (alumni magazine, web magazine, trade press, science magazine) quoting colleagues, a former student, a software writer and his editor, a contemporary peer critic (McIlroy, adversarial) and Knuth's own statements (self; never sole support for a row). CALIBRATION: the independent evidence for his meticulousness and aesthetic standards is broad (five or more outlets plus an adversarial reviewer) but largely admiring and partly built from his own remarks, so no score exceeds 84 and no confidence exceeds 0.68; the abstraction, mastery and focus rows rest more on his own explanations and are held lower. DATE CONFLICTS RECORDED: retirement 1993 (Quanta, Stanford engineering page, Electronic Design, his own biography) versus 1992 (Stanford finding aid); series started 1962 (Quanta, Electronic Design, his biography) versus 1963 (Stanford engineering page, finding aid); the cards use 1962 and 1993. NOT OPENED: the New York Times 2018 profile 'The Yoda of Silicon Valley' (HTTP 403, paywalled, only a CACM reprint and a university pointer seen), the CACM 2008 Shustek interview (403), the University of Michigan errata story (403), the ACM Turing Award and Lecture pages (403), Britannica (403), the CHM 2007 oral history, Knuth's books, Daylight's interview books and the TUG interviews. PORTRAIT: Commons crop of Alex Handy's CC BY-SA 2.0 photograph (Flickr-confirmed, no restriction template, no embedded copyright field), 797 x 1197 used without resizing; because the licence is ShareAlike the credit and licence must be shown with it. Not used: the 2012 Turing Centenary photograph by orcmid (CC BY 2.0 but a blurred profile shot), the 2005 Open Content Alliance photograph (CC BY-SA 2.5, 427 x 505, too small) and photographs of Knuth with other people. LEAD REVIEW (Roster50): 3 rows lowered before eligibility (several top rows quote Knuth describing himself, relayed through profiles; external corroboration exists but is shared across the same few profiles)."
+  }
+}

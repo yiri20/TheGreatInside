@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "titian",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Titian",
+    "aliases": [
+      "Tiziano Vecellio",
+      "Tiziano Vecelli"
+    ],
+    "wikidataId": "Q47551",
+    "birthYear": 1490,
+    "deathYear": 1576,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "renaissance",
+      "prolific",
+      "innovator",
+      "perfectionist"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_titian_wikidata",
+      "kind": "wikidata",
+      "title": "Titian (Q47551) -- verified live via the Wikidata API (2026-10-15): English label 'Titian', description 'Italian painter (c.1490-1576)', born c.1490 (several dates recorded, 1477-1490), died 1576 (27 August in most sources), citizenship Republic of Venice, birthplace Pieve di Cadore, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q47551"
+    },
+    {
+      "id": "src_titian_ng_artist",
+      "kind": "institution",
+      "title": "The National Gallery, London, artist page 'Titian' -- CANONICAL SIGNIFICANCE SOURCE: the Gallery's overview calling him the greatest painter of 16th-century Venice and the first with a mainly international clientele; his training under the Bellini and Giorgione, the Assunta (displayed 1518) and Pala Pesaro for the Frari, the mythologies for Alfonso d'Este, the 1530 meeting with Charles V and the court of Philip II (the 'poesie'), his only Roman trip in 1545-46, and a freer late brushwork pushed to the edge of abstraction in the Death of Actaeon and the Pieta, left for his own tomb. Honouring institutional tone. Read in full.",
+      "url": "https://www.nationalgallery.org.uk/artists/titian"
+    },
+    {
+      "id": "src_titian_nga_artist",
+      "kind": "institution",
+      "title": "National Gallery of Art, Washington, artist biography 'Titian (Vecellio, Tiziano), Venetian, 1488/1490-1576' -- scholarly institutional biography and CANONICAL SIGNIFICANCE SOURCE alongside the London Gallery's page: one of the towering figures of Italian Renaissance art who dominated painting in Venice from the death of Giovanni Bellini in 1516 until his own death, with a career exceptionally well documented in his middle and later years but contradictory evidence for his birth date; his early career and the Giorgione question; the Assunta (completed 1518) and the Pesaro altarpiece for the Frari, the Ferrara mythologies for Alfonso d'Este, the patronage of Charles V (visits to Augsburg in 1548 and 1551) and above all Philip II of Spain; his portraiture; and, on his working practice, that his fame led to a demand he could meet only by employing assistants to produce replicas and variants (sometimes manifestly inferior, but with his own involvement in the initial and final stages making autograph and workshop hard to separate), that technical examination shows extensive pentimenti in his own and his collaborators' works, that he left many works unfinished in his studio at death for his assistants to complete, and that he began paintings on the sketchiest underdrawing and evolved them freely with radical revisions, his handling becoming broader and looser over time, with Rubens, Van Dyck and Velazquez deeply indebted to him. Institutional scholarly account, admiring in tone but candid about attribution problems; the bibliography and the lists of works in the Gallery's collection were not used. Read in full.",
+      "url": "https://www.nga.gov/artists/1932-titian"
+    },
+    {
+      "id": "src_titian_ng_diana",
+      "kind": "institution",
+      "title": "The National Gallery, London, research paper 'Titian's Diana and Actaeon' (online in-depth research pages: The commission; Subject; Date and working practice; History of ownership; Provenance) -- the Gallery's account of the commission of six large mythologies (the 'poesie') for Philip II of Spain, 1549-62, for which Titian was allowed exceptional freedom in choosing the subjects and which stimulated the most ambitious works of his career, and of the documents for Diana and Actaeon and Diana and Callisto: his letters of 19 June and 22 September 1559 to Philip (the works finished, then said to have occupied him for more than three years, the delay attributed to his 'ardent desire' to do things worthy of the king, 'from which it follows that I am never satisfied with my efforts, but seek always with all my industry to polish and enhance' them) and a letter from the Spanish ambassador in Venice (that Titian would 'bring to perfection' the two paintings within twenty days because he wanted to resolve 'a few little things that others wouldn't notice'); his many visible revisions beneath loose, confident brushwork. Institutional research account that includes the ambassador's contemporary report and Titian's own letter (self); the ownership and provenance pages were skimmed and not used. Read in full.",
+      "url": "https://www.nationalgallery.org.uk/research/research-resources/research-papers/titian-s-diana-and-actaeon"
+    },
+    {
+      "id": "src_titian_ng_prince",
+      "kind": "institution",
+      "title": "The National Gallery, London, teachers' notes 'Prince and painter' (art historian Karly Allen) and the Gallery's 'Paintings in depth: Diana and Actaeon' pages -- institutional account of Titian's relationship with Prince (later King) Philip of Spain: the meeting through Charles V in 1548 and the 1550 portrait; the freedom Titian enjoyed to choose subjects from Ovid, the surviving letters, the poesie that 'appear to have evolved piecemeal over more than 10 years', patron and painter 'overlooking any mention of fees and contracts'; his 1559 letter comparing the relationship to that of Alexander and Apelles (the notes call it exceptional for an artist to raise himself so in his own words); the Gallery's statement that he took three years over the two Diana pictures and wrote an 'unapologetic letter' about the delay; the Death of Actaeon remaining in his studio at his death. Institutional educational account, admiring in tone; the passages on later display and ownership were not used. Read in full.",
+      "url": "https://www.nationalgallery.org.uk/learning/teachers-and-schools/picture-in-focus/teachers-notes/prince-and-painter"
+    },
+    {
+      "id": "src_titian_vasari",
+      "kind": "biography",
+      "title": "Giorgio Vasari, 'Description of the Works of Tiziano da Cadore, Painter', Lives of the Most Eminent Painters, Sculptors and Architects, vol. 9 (translated by Gaston du C. de Vere, 1912-15), Project Gutenberg ebook 32362 -- the 1568 biography by a LATER, Florentine and partisan writer (a believer in drawing first, who met Titian in Rome in 1546 and in Venice in 1566) and therefore one perspective only: Titian's training under Bellini and the influence of Giorgione, the Fondaco de' Tedeschi frescoes, his offices and commissions at Venice, Ferrara, Mantua, Urbino, Rome, Augsburg and for Charles V and Philip II, his friendship with Pietro Aretino, who made him known to princes (Aretino's advice that an altarpiece be sent as a gift to Charles V, who rewarded it with two thousand crowns), his late manner of bold strokes that look rough near but perfect from a distance and are 'painted over and over again', the disputes with friars over a repainted altarpiece, his use of 'his young men' for some altarpieces and the many unfinished pictures in his house, the pupil Paris Bordone's judgement that he was not ready to teach and his taking over a commission from him, his support for the mosaicists of San Marco, and Michelangelo's remark that Venetians did not learn to draw. Later partisan biography, admiring but with a Florentine critical edge (and a courtly flattering tone toward the living Titian); not independent evidence of motive. Read in full from the beginning of the Life to its end (the lives of the other artists in the volume were not used).",
+      "url": "https://www.gutenberg.org/ebooks/32362"
+    },
+    {
+      "id": "src_titian_botteghe",
+      "kind": "press",
+      "title": "Fondazione Centro Studi Tiziano e Cadore, web page 'Le botteghe di Tiziano (Titian's ateliers)' reproducing two reviews of the 2009-10 scholarly volume of that name by Giorgio Tagliaferro, Bernard Aikema and others: Enrico Castelnuovo, 'A Holding called Titian' (Il Sole 24 Ore, 2010) and Antonio Paolucci, 'The Titian Firm' (L'Osservatore Romano, 9 July 2010) -- modern art-historical accounts of how Titian's workshops were run: the Biri Grande house-atelier as residence, workshop, display space and office; the involvement of his family (his brother Francesco, his son Orazio, his cousins Cesare and Marco) and of long-serving assistants such as Girolamo Dente and, later, foreign painters; 'virtual ateliers' at Augsburg and for Philip II's commissions; helpers who completed barely sketched canvases and replicated successful compositions and portraits; a private room where Titian withdrew to paint apart from the collective work of the atelier; the 'Titian system' of a 'factory of images' and 'company' run with the trust of a mountain man mainly in family; his astute investment of earnings and commercial interests; and the seventeenth-century biographer Carlo Ridolfi's anecdote (quoted by Paolucci) that Titian left the keys out so that disciples could make copies which he then finished 'by his hand'. Two independent modern scholars' reviews of a scholarly book, admiring and interpretive in tone, with Ridolfi seen only as quoted; the pages on the book's price, ordering and the unrelated catalogue entries were not used. Read in full.",
+      "url": "https://tizianovecellio.it/portfolio/le-botteghe-di-tiziano/?lang=en"
+    },
+    {
+      "id": "src_titian_ng_actaeon",
+      "kind": "institution",
+      "title": "The National Gallery, London, collection page 'The Death of Actaeon' (NG6420, about 1559-75; overview and in-depth text and audio description) -- the Gallery's account of the sequel to Diana and Actaeon: conceived about 1559 and probably the picture Titian mentioned in a June 1559 letter to Philip II as 'Actaeon torn apart by his hounds', but mostly painted when he was in his mid-eighties, never sent to Spain and possibly left in his studio at his death in 1576; the debate over whether it is finished; his much bolder and freer late technique that exploited the textures of paint and canvas, left parts in different states of completion, and added scumbled touches sometimes applied with his fingers. Institutional account, authoritative on the picture and cautious about whether it is finished; the provenance, frame and exhibition-history tabs were not used. Read in full.",
+      "url": "https://www.nationalgallery.org.uk/paintings/titian-the-death-of-actaeon"
+    },
+    {
+      "id": "src_titian_spectator",
+      "kind": "press",
+      "title": "Alasdair Palmer, 'Exhibitions: Tiziano', The Spectator, 25 May 2013 (review of the exhibition at the Scuderie del Quirinale, Rome) -- independent critic's review: Delacroix's remark on the fire of life in Titian's eyes, the individuality Titian wrung out of the dull genre of the official portrait of Venetian doges he was obliged to paint under the terms of his state pension, Charles V as the least successful portrait, and Titian's old-age style in which form dissolves into colour, with obvious brushstrokes and contemporaries' observation that he painted more with his fingers than with brushes, influential on Rubens, Rembrandt, Velazquez and later painters. Short press review, admiring in tone but with a dissenting judgement of one portrait; its remark that Titian was the first to use female models in his studio was not used because no source read supports it. Read in full.",
+      "url": "https://spectator.com/article/exhibitions-tiziano/"
+    },
+    {
+      "id": "src_titian_crowe",
+      "kind": "biography",
+      "title": "Joseph Archer Crowe and Giovanni Battista Cavalcaselle, 'Titian: His Life and Times, with some account of his family, chiefly from new and unpublished records', 2 vols (London: John Murray, 1877), Internet Archive scans -- the standard nineteenth-century archival biography, itself a later and secondary scholarly account that prints the Venetian state decrees and Aretino's and Titian's letters; passages read: vol. 1, chapter 5 (the 1513 grant and the December 1516 broker's patent, the Fondaco de' Tedeschi office, the Doge's portraits) and the resolution of the Venetian Council on 23 June 1537 that Titian, who had drawn the salary of the patent for about twenty years without painting the battle picture in the Hall of the Great Council, must refund what he had received for the time he had not worked; vol. 2, chapter 1 (the council's decree, the rival commission to Pordenone, and Titian's completing the battle picture afterwards, 'a tardy atonement'), with the passages quoting Aretino's letters of 1537 and 1543 to Titian and of 1546 to Duke Cosimo, and the opening of Titian's 1550 letter to Aretino from Augsburg on his reception by Charles V. Nineteenth-century scholarly narrative with a strong authorial voice (the rest of the two volumes was skimmed through targeted searches and not read in full).",
+      "url": "https://archive.org/details/titianhislifetim01crow_0"
+    },
+    {
+      "id": "src_titian_prado_self",
+      "kind": "institution",
+      "title": "Museo Nacional del Prado, collection entry 'Self-portrait' (Titian, ca. 1562, oil on canvas, P000407; catalogue text drawn from Miguel Falomir, 'El retrato del Renacimiento', 2008, p. 492), read from the Internet Archive's copy of the page dated 15 April 2023 because the live page returns HTTP 403 -- the Prado's curatorial account of Titian's self-presentation: that he painted his first self-portrait before going to Rome in 1545 and, after the Roman stay, took the most interest in circulating his image 'in a context of intense rivalry with Michelangelo', with self-portraits acquired by Paolo Giovio (1549), sent to Charles V (1550, corresponding to Giovanni Britto's print) and received by Philip II (1552), only two surviving; that the Prado picture is a profile (an exceptional format for a self-portrait) that can be identified with the portrait Vasari saw in his studio in 1566; and that the golden chain of a Knight of the Golden Spur and the brush express the motto PICTOR ET EQUES, his image being 'carefully considered'. Also checked for the portrait: the page offers its image only through separate 'Personal use' and 'Commercial use' download options, a museum reproduction regime that a public-domain tag on a 16th-century painting does not override, so the Prado photograph was not used. Curatorial catalogue text, authoritative on the picture's history and dating (other sources date it between 1562 and 1570); the page's bibliography and video links were not used. Read in full.",
+      "url": "https://www.museodelprado.es/en/the-collection/art-work/selfportrait/abc62514-eb24-4c67-9843-8a8505fe1b61"
+    },
+    {
+      "id": "src_titian_rijks",
+      "kind": "institution",
+      "title": "Rijksmuseum, Amsterdam, collection record RP-P-1910-1486, 'Zelfportret van Titiaan' (Self-portrait of Titian), mezzotint and engraving by Jan Thomas (named on the print) after a painting by Titian, dated 30 March 1661, plate 314 x 245 mm, subject Titian in profile, with the rights statement 'Copyright: Public domain' -- checked for the portrait's licence and attribution (the print's own inscription calls it the true portrait of Titian and dedicates it to the Empress Eleonora, Vienna, 1661). The record does not name the painting copied. Not used for any scoring.",
+      "url": "https://www.rijksmuseum.nl/en/collection/RP-P-1910-1486"
+    },
+    {
+      "id": "src_titian_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Zelfportret van Titiaan, RP-P-1910-1486.jpg' -- the Rijksmuseum digital file of the 1661 mezzotint, tagged CC0 (zero) and filed under portraits of Titian and prints after Titian; original JPEG 5544 x 7108 pixels, with the museum's record as its source. Checked for the file and licence; not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Zelfportret_van_Titiaan,_RP-P-1910-1486.jpg"
+    },
+    {
+      "id": "src_titian_ng_bacchus",
+      "kind": "institution",
+      "title": "The National Gallery, London, collection page 'Bacchus and Ariadne' (overview and in-depth text) -- the Gallery's account of the painting made for Alfonso d'Este's Camerino d'Alabastro at Ferrara (begun in Venice in 1520 or 1522 and finished at Ferrara early in 1523): that the Duke sent canvases of the right size so that the pictures would fit the room, that Titian calculated the landscape, composition and direction in relation to the other paintings in the room, that it was a substitute for a picture the Duke had commissioned from Raphael, who died in 1520, and that Titian 'self-consciously attempted to emulate, and perhaps outdo, Raphael'; and its technical account of his colour (the finest pigments in their purest form, mixed only with white, used separately in large areas at full strength, with oil-rich glazes) and of his growing interest in the textural possibilities of paint, culminating in late works such as The Death of Actaeon. Institutional account, admiring in tone, with the emulation of Raphael given as the Gallery's interpretation; the audio description was not used. Read in full.",
+      "url": "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_titian_ng_diana, src_titian_nga_artist, src_titian_vasari, src_titian_ng_actaeon | 1556-1576 | museum research paper quoting a contemporary ambassador's letter + museum scholarly biography + later partisan biographer + museum collection page] In a letter of 22 September 1559 Titian told Philip II that the two Diana pictures had occupied him for more than three years because he was 'never satisfied with my efforts' and sought always to polish and enhance them (self); the Gallery's research page adds a separate report from the Spanish ambassador in Venice that Titian would bring the two paintings 'to perfection' within twenty days because he wanted to resolve 'a few little things that others wouldn't notice', and says his many revisions remain visible beneath the brushwork; the National Gallery of Art says technical examination shows he began pictures on the sketchiest underdrawing and evolved them with frequent and sometimes radical revisions, with extensive pentimenti in his own and his workshop's pictures; Vasari says his late pictures look dashed off but are 'painted over and over again', so often that the labour could be perceived. A contemporary third party, technical evidence and a later biographer agree on repeated reworking, so documented at a moderately high confidence; the same pages show the cost (years of delay) and that in late pictures he left some details unresolved, so the standard concerns effect rather than literal finish, hence dual-edged. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the top rows rest on Titian's own 1559 letter, museum research prose and a later partisan biographer (Vasari), with Aretino and Dolce not opened; score and confidence lowered."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_titian_nga_artist, src_titian_ng_actaeon, src_titian_ng_artist, src_titian_spectator, src_titian_vasari | 1530s-1576 | museum scholarly biography + museum collection page + museum biography + press review + later biographer] The National Gallery of Art says he pioneered the use of the canvas support for an expressively uneven texture, with thick impasto beside thin sketchy areas, and that his handling became broader and looser over his career; the National Gallery says he experimented with many different styles and from the late 1560s pushed his art 'to the edge of abstraction', and its page on The Death of Actaeon says that in his final years he used a much bolder and freer technique, added scumbled touches sometimes applied with his fingers and left parts in different states of completion; Palmer's 2013 review says that in old age he invented a style in which form dissolves into colour and notes contemporaries' report that he painted more with his fingers than with brushes; Vasari, in the 1568 edition, says his late bold, coarse strokes differed greatly from the delicacy of his youth and, though they astonish, led imitators to paint clumsy pictures. Several independent institutional, critical and contemporary-era descriptions of sustained technical change over decades, documented at a moderately high confidence. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the top rows rest on Titian's own 1559 letter, museum research prose and a later partisan biographer (Vasari), with Aretino and Dolce not opened; score and confidence lowered."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_titian_ng_artist, src_titian_ng_diana, src_titian_ng_prince, src_titian_nga_artist, src_titian_vasari | 1518-1562 | museum biography + museum research paper + museum teachers' notes + museum scholarly biography + later biographer] The National Gallery says the Assunta, displayed in 1518, was a 'revolutionary watershed' in Venetian altarpiece design and that the asymmetrical Pesaro altarpiece strongly influenced Venetian altarpieces into the 18th century, and describes his 1530 life-size full-length portrait of Charles V as an early example of a then very innovative genre; its research page says that for the six mythologies for Philip II he was allowed exceptional freedom in choosing the subjects and coined 'poesie' for them, and its teachers' notes say he himself suggested the subjects and made new and innovative compositions; the National Gallery of Art says Rubens, Van Dyck and Velazquez were deeply indebted to his example. Against this, the Gallery says the first two poesie were variations of pictures he had painted before, and the National Gallery of Art describes workshop replicas and variants of his compositions, so originality was not constant. Institutional and historical judgements agree on inventiveness at several career points, but they are largely admiring hindsight, so strong inference at a modest confidence."
+    },
+    "aesthetic_sensitivity": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_titian_ng_bacchus, src_titian_ng_diana, src_titian_nga_artist, src_titian_ng_actaeon, src_titian_spectator | 1520-1576 | museum collection page + museum research paper + museum scholarly biography + museum collection page + press review] The Gallery's account of Bacchus and Ariadne says Titian used the finest pigments in their purest form, mixed only with white, each in large separate areas at full strength with oil-rich glazes, set contrasting colours against each other for harmony, and calculated the landscape, composition and direction in relation to the other paintings in the room; the ambassador's report quoted on the Gallery's research page has him reworking the Diana pictures to resolve 'a few little things that others wouldn't notice'; the National Gallery of Art says he was regarded from his own lifetime as the supreme master of colour, using the oil medium to give colours depth and soften the edges of forms, and that his technique is evocative of sensuous surfaces and poetic mood; the Gallery's Actaeon page describes his late exploitation of paint and canvas texture; Palmer cites Delacroix on the 'fire of life' in Titian's eyes. Specific, technically examined colour and composition decisions across his career, documented at a moderate confidence, though the sources are institutional and admiring. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the top rows rest on Titian's own 1559 letter, museum research prose and a later partisan biographer (Vasari), with Aretino and Dolce not opened; score and confidence lowered."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_titian_botteghe, src_titian_nga_artist, src_titian_vasari, src_titian_ng_artist | 1530s-1576 | two modern scholars' reviews with a 17th-century biographer quoted + museum scholarly biography + later partisan biographer + museum biography] Castelnuovo and Paolucci describe a family-centred workshop (his brother Francesco, his son Orazio, his cousins Cesare and Marco and the long-serving Girolamo Dente) with foreign painters and 'virtual ateliers' at Augsburg, in which assistants completed barely sketched canvases and replicated successful compositions and portraits while Titian kept a private room to paint apart from the collective work; Paolucci quotes Ridolfi that he left the keys out so that disciples could copy his finest works and then finished the copies 'by his hand'; the National Gallery of Art says he met demand by employing assistants to produce replicas and variants, that his involvement at the start and end of a work's production blurs the line between autograph and workshop, and that after his death assistants completed the many works he left unfinished; Vasari says he used 'his young men' for some altarpieces, but also that the pupil Paris Bordone left because Titian was 'not very ready to teach his young men' and that he 'has not taught much'; the National Gallery says Aretino and Sansovino became 'inseparable friends' who stimulated his interest in Mannerism. A long, well-documented system of delegation and team production, but hierarchical, family-bound and partly unwilling to teach, so documented at a moderate confidence with dual-edged impact."
+    },
+    "execution_speed": {
+      "score": 36,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_titian_crowe, src_titian_nga_artist, src_titian_ng_diana, src_titian_ng_prince, src_titian_vasari | 1516-1559 | nineteenth-century archival scholarship quoting a state decree + museum scholarly biography + museum research paper and notes + later biographer] The Venetian Council's decree of 23 June 1537, printed by Crowe and Cavalcaselle, records that since December 1516 Titian had held a broker's patent with a salary on condition that he paint the battle picture in the Hall of the Great Council, that he had drawn the salary for about twenty years without doing so, and that he was to refund what he had received for the time he had not worked (the National Gallery of Art says the picture was not executed until 1537-8, and Crowe and Cavalcaselle call its completion under a rival's competing commission a 'tardy atonement'); the National Gallery says he took three years over the two Diana pictures and wrote an 'unapologetic letter' about the delay, and its notes say the poesie evolved over more than ten years; Vasari says he put off an invitation to Rome from one day to the next for so long that Leo X and Raphael died before he went. Against this stands a very large output of portraits, altarpieces and replicas, so the low score concerns delivery of major commissions, not total output. Several independent episodes of late delivery, documented at a modest confidence; the delays partly reflect his revision habit."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_titian_nga_artist, src_titian_ng_prince, src_titian_ng_diana, src_titian_prado_self, src_titian_ng_artist | 1513-1559 | museum scholarly biography + museum teachers' notes + museum research paper + museum catalogue text + museum biography] The National Gallery of Art says that in 1513, in Giovanni Bellini's lifetime, he secured the commission for a large canvas in the Venetian government's premier council chamber; the Gallery's notes and research page say that for the poesie he himself suggested the subjects and coined the term, and that in 1559 he wrote to Philip II comparing their relationship to that of Alexander and the painter Apelles, which the notes call exceptional for an artist to say of himself; the Prado's catalogue says that after his Roman stay he took the most interest in circulating his own image, with self-portraits acquired by Paolo Giovio (1549), sent to Charles V (1550) and received by Philip II (1552); the National Gallery says he went on from Alfonso d'Este's court to Mantua, Urbino and the imperial court, becoming the first painter with a mainly international clientele. Several independent institutional accounts of self-started moves to shape his commissions and reputation, but much is curatorial interpretation and the letter is self, so strong inference at a modest confidence."
+    },
+    "competitiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_titian_prado_self, src_titian_ng_bacchus, src_titian_crowe, src_titian_vasari | 1520-1550 | museum catalogue text + museum collection page + nineteenth-century archival scholarship + later partisan biographer] The Prado's catalogue says that after Rome he circulated his self-portraits 'in a context of intense rivalry with Michelangelo'; the National Gallery's account of Bacchus and Ariadne says he took over a commission meant for Raphael, who had died, and 'self-consciously attempted to emulate, and perhaps outdo' him; Crowe and Cavalcaselle describe the Venetian Council in 1537-8 setting Pordenone to paint beside him in the Hall of the Great Council while demanding that Titian refund his salary, after which Titian finished the battle picture; Vasari adds that the Giovanni Elemosinario altarpiece was given to Pordenone to compete with his and that Titian had the young Paris Bordone's altarpiece commission taken from him, whether 'to prevent him from being able to display his ability so soon' or from 'desire of gain', a motive Vasari only guesses at. The pieces are partly curatorial interpretation and a partisan biographer's insinuation, so strong inference at a modest confidence, with dual-edged impact."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q47551 returned en label 'Titian', description 'Italian painter (c.1490-1576)', birth dates recorded between 1477 and 1490 (so the candidate gives c.1490), death 1576 (27 August or 26 September in the entries), citizenship Republic of Venice, ko label '티치아노'; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug titian or QID Q47551 in the roster50, roster49 or main checkouts (the only candidate file is this one). Region southern_europe is a valid controlled value (Venice and Cadore; Raphael is the precedent); nationalityCodes IT. Vocabulary ids (occupation painter, field art, tags renaissance, prolific, innovator and perfectionist, archetype creative_creator, impact domains artistic, cultural and historical) already exist and are used by other candidates (Raphael and others). ZERO POLITICS: no political material is scored; Charles V, Philip II, the dukes, the popes and the Venetian Council appear only as patrons, clients or employers, and imperial diets and court politics are unscored. DECEASED SUBJECT (1576): only documented professional behaviour is scored. Excluded: his marriage, children and family affairs (including a benefice sought for a son), the cause of his death, his personal finances beyond documented commission practice, Aretino's reputation, and any inferred motive or psychology. CANONICAL SIGNIFICANCE SOURCE: The National Gallery, London, artist page 'Titian' (https://www.nationalgallery.org.uk/artists/titian; re-opened and re-read in full during this resume), which calls him the greatest painter of 16th-century Venice and the first with a mainly international clientele and covers the Assunta, the Pesaro altarpiece, the Ferrara mythologies, Charles V, the poesie and the late style; and the National Gallery of Art, Washington, artist biography (https://www.nga.gov/artists/1932-titian), which adds his portraiture, his workshop, his technique and his influence (both institutional and admiring in tone, so used for the achievement cards and orientation and never alone for a behavioural row). READ (11 cited non-Wikidata sources plus the Rijksmuseum and Commons rights pages): the two canonical pages above; the National Gallery's research paper on Diana and Actaeon (all five pages, including the working-practice page that prints Titian's 1559 letters and the Spanish ambassador's report), its teachers' notes 'Prince and painter' and its 'Paintings in depth' pages; its collection pages for The Death of Actaeon and for Bacchus and Ariadne; Vasari's Life of Titian in the de Vere translation (Gutenberg ebook 32362) from its beginning to its end; the Fondazione Centro Studi Tiziano e Cadore's page reproducing Castelnuovo's and Paolucci's reviews of 'Le botteghe di Tiziano'; Alasdair Palmer's 2013 Spectator review; the Prado's catalogue entry for the self-portrait (through an archived copy of 15 April 2023, because the live page returns HTTP 403); and Crowe and Cavalcaselle's 1877 'Titian: His Life and Times' (read through targeted passages: the Fondaco broker's patent and the Council's 1537 decree in volume 1, chapter 5, the opening of volume 2 on the rival commission and the battle picture, and the passages quoting Aretino's letters of 1537 and 1543, his 1546 letter to Duke Cosimo and Titian's 1550 letter from Augsburg; the rest of the two volumes was searched, not read). PERSPECTIVES: museum scholarship and catalogue texts (National Gallery, National Gallery of Art, Prado); a contemporary third party (the Spanish ambassador in Venice, as quoted in the Gallery's research paper); a later, Florentine and partisan biographer who knew Titian (Vasari, one perspective only); modern art historians (Castelnuovo, Paolucci) with the 17th-century biographer Ridolfi seen only as quoted; nineteenth-century archival scholars who print the state decree (Crowe and Cavalcaselle); an independent critic (Palmer); and Titian's own letters as quoted (self; never sole support). CALIBRATION: the record is rich on his working methods and patrons but the sources are overwhelmingly institutional and admiring, Vasari is partisan and the letters are self-presentation, so no score exceeds 82 and no confidence exceeds 0.68; counter-evidence is recorded in the rows (the twenty-year delay on a state commission and the refund decree, three years on two pictures, first poesie that were variations of earlier works, a workshop in which assistants did much of the repeated work, Vasari's and Bordone's complaint that he did not teach, and Vasari's view that his late works diminished his reputation). Traits NOT scored: persistence (long careers are not evidence of perseverance through obstacles), discipline (contradicted by the delays), mastery orientation (overlaps the perfectionism and experimentation evidence), leadership drive (the workshop is role evidence), persuasiveness (rests on Vasari's flattering remarks and Aretino's initiative), opportunity sensing (in Vasari's story of an Annunciation sent to Charles V it was the commissioner, on Aretino's advice, who acted), autonomy need, adaptability, belief updating, risk tolerance, decisiveness, conflict tolerance, deep focus, curiosity, detail orientation (his late technique is deliberately less descriptive). DATE AND FACT CONFLICTS RECORDED: birth c.1490 (National Gallery), 1488 or 1490 (National Gallery of Art) and 1480 (Vasari), so no birth year is stated in any card; the poesie are dated 1549-62 in the Gallery's research paper but 'about 1551' onwards on its artist page, so the card says 'from about 1551'; the battle picture in the Hall of the Great Council is called the Battle of Spoleto by the National Gallery of Art and Sansovino and the Battle of Cadore by Crowe and Cavalcaselle (the notes use 'the battle picture'); The Death of Actaeon is dated about 1559-75 and described as possibly unfinished, so no completion date is stated; the Prado dates its self-portrait about 1562 and other catalogues date it differently, so the portrait record gives no date for the painting. NOT OPENED: Aretino's letters in their own text (seen only as quoted by Crowe and Cavalcaselle), Dolce's 1557 dialogue and Ridolfi's 1648 Lives (Ridolfi only as quoted by Paolucci), Puppi's edition of Titian's letters, the Metropolitan Museum's essay on Titian (HTTP 429), the Prado's pages on the poesie (HTTP 403), the monographs by Wethey, Hope and Humfrey, Boschini's account of the late technique, and the pension-arrears material (seen only in search summaries, not used). PORTRAIT: the lead's first choice, the Prado self-portrait (ca. 1562), was checked and set aside: the Prado's own page, read through its archived copy, offers the image only through separate 'Personal use' and 'Commercial use' download options, a museum reproduction regime that the public-domain status of a 16th-century painting does not override, and the live page could not be opened (HTTP 403). The fallback was a print after Titian from the Rijksmuseum, Amsterdam: record RP-P-1910-1486, 'Zelfportret van Titiaan', a mezzotint and engraving by Jan Thomas (named on the print) after a painting by Titian, dated 30 March 1661 and inscribed 'Il vero ritratto del unico Titiano' for the Empress Eleonora, with the museum's rights statement 'Copyright: Public domain' and a CC0 Commons scan (original 5544 x 7108 pixels); it shows Titian in profile, as in the Prado's profile self-portrait, though the record does not name the painting copied. The scan was cropped to the plate image (caption block and paper margins removed) and downscaled once to 1054 x 1200 (verified to open as a JPEG, never upscaled), saved as public/portraits/titian-thomas-1661.jpg, and classified historical_depiction because it is a later print after his own self-portrait and not a likeness made from life by the printmaker. Considered and not chosen: the Rijksmuseum prints by Jean Baron (dated only 1641-1741) and René Lochon (dated 1646 to before 1675), a later print dated from 1813 onward, and the Prado photograph. LEAD REVIEW (Roster50): 3 row(s) lowered before eligibility (the top rows rest on Titian's own 1559 letter, museum research prose and a later partisan biographer (Vasari), with Aretino and Dolce not opened)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/titian-thomas-1661.jpg",
+    "width": 1054,
+    "height": 1200,
+    "source": "Rijksmuseum, Amsterdam, collection record RP-P-1910-1486, 'Zelfportret van Titiaan' (Self-portrait of Titian): mezzotint and engraving by Jan Thomas (named on the print) after a painting by Titian, dated 30 March 1661 (inscribed 'Il vero ritratto del unico Titiano', dedicated to the Empress Eleonora, Vienna), plate 314 x 245 mm; the museum's record states 'Copyright: Public domain', and the Commons file of the museum's scan is tagged CC0 (original 5544 x 7108 pixels). The print was cropped to the plate image (the caption block and paper margins removed) and downscaled once to 1054 x 1200 (never upscaled). A later print after Titian's own self-portrait (a profile like the Prado's self-portrait, though the record does not name the painting copied), not a likeness drawn from life by the printmaker.",
+    "license": "Public Domain (Rijksmuseum record states Public domain; CC0 digital file; mezzotint of 1661)",
+    "licenseUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1910-1486",
+    "attribution": "Jan Thomas, 1661, mezzotint after Titian; Rijksmuseum, Amsterdam (RP-P-1910-1486), Public Domain, cropped and downscaled from the original",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1910-1486",
+    "creator": "Jan Thomas",
+    "date": "1661-03-30",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Zelfportret_van_Titiaan,_RP-P-1910-1486.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "티치아노"
+    }
+  }
+}

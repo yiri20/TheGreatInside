@@ -1,0 +1,197 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "katalin-kariko",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Katalin Karikó",
+    "aliases": [
+      "Karikó Katalin",
+      "Kati Karikó"
+    ],
+    "wikidataId": "Q88608397",
+    "birthYear": 1955,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "HU",
+      "US"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "biologist",
+      "chemist",
+      "scientist"
+    ],
+    "fieldIds": [
+      "biology",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical",
+      "innovation"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kariko_wikidata",
+      "kind": "wikidata",
+      "title": "Katalin Karikó (Q88608397) -- verified live via the Wikidata API (2026-10-15): English label 'Katalin Karikó', description 'Hungarian biochemist', Hungarian and Korean labels present, instance of human, born 17 January 1955 in Szolnok, no date of death, citizenship Hungary and the United States, occupations including biochemist, researcher, university teacher and inventor; a name search for the person returns only this entity. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q88608397"
+    },
+    {
+      "id": "src_kariko_nobel_press",
+      "kind": "award_body",
+      "title": "The Nobel Assembly at Karolinska Institutet, press release for the 2023 Nobel Prize in Physiology or Medicine, 2 October 2023 (with the laureates' short biographies) -- CANONICAL SIGNIFICANCE SOURCE: the prize to Katalin Karikó and Drew Weissman 'for their discoveries concerning nucleoside base modifications that enabled the development of effective mRNA vaccines against COVID-19'; the committee's account that Karikó, 'devoted to developing methods to use mRNA for therapy', stayed true to her vision despite difficulties in convincing research funders, that the two noticed dendritic cells react to in vitro transcribed mRNA and tested mRNA variants with modified bases (inflammation 'almost abolished'), the 2005 paper and the 2008 and 2010 studies showing increased protein production, the two base-modified mRNA vaccines approved in December 2020; and her career facts (born 1955 in Szolnok, PhD at Szeged in 1982, postdoctoral work in Szeged, at Temple University and in Bethesda, at Penn from 1989 to 2013, then BioNTech, since 2021 professor at Szeged and adjunct professor at Penn). Award-body citation, honouring in tone. Read in full.",
+      "url": "https://www.nobelprize.org/prizes/medicine/2023/press-release/"
+    },
+    {
+      "id": "src_kariko_nobel_story",
+      "kind": "award_body",
+      "title": "Nobel Prize Outreach, 'Katalin Karikó' (Women who changed science series; undated feature referring to 2020-2024) -- the Nobel organisation's popular profile: grants and mistrust at Penn, a demotion after which she persisted, her late-1990s meeting with Drew Weissman at a photocopier, the discouraging first mouse experiments with inflammatory responses, the 2005 discovery, her 2013 move to BioNTech, and her use of prize money to support RNA research at Szeged. Much of the page is family, early-life and political-context material and her own recollections of her departure from Penn, none of which was used; only the professional chronology was used, and only as a secondary check. Read in full.",
+      "url": "https://www.nobelprize.org/stories/women-who-changed-science/katalin-kariko/"
+    },
+    {
+      "id": "src_kariko_lasker",
+      "kind": "award_body",
+      "title": "Evelyn Strauss for the Lasker Foundation, 'Modified mRNA vaccines' (2021 Lasker~DeBakey Clinical Medical Research Award to Katalin Karikó and Drew Weissman: citation, the Foundation's account of the work and the laureates' acceptance remarks) -- award-body narrative: Karikó's commitment to mRNA therapeutics from her undergraduate years, steady funding rejections and lack of institutional support through the 1990s, the 1997 photocopier meeting and her offer to make mRNA for Weissman's HIV experiments, the discovery that mRNA by itself matured dendritic cells and the decision to find how to avoid the immune activation, the experiments with RNAs from different sources and with a collection of modified nucleosides (2005), pseudouridine and protein output (2008), the chromatographic purification step, the 2012 erythropoietin tests in mice and monkeys, the move to BioNTech in 2013 and the continued work at a distance, and the 2010 stem-cell paper that finally drew notice. Detailed and specific, honouring in tone; the laureates' own remarks at the end are self and were not used as support. Read in full.",
+      "url": "https://laskerfoundation.org/winners/modified-mrna-vaccines/"
+    },
+    {
+      "id": "src_kariko_stat_nobel",
+      "kind": "press",
+      "title": "Andrew Joseph and Deborah Balthazar, '2023 Nobel Prize in Medicine: Karikó, Weissman awarded prize for mRNA research', STAT, 2 October 2023 -- news report: the two researchers' complementary expertise as the Nobel committee framed it, Karikó's 'rejection after rejection in the 1990s while applying for grants' and demotion at Penn, the 2005 discovery, how it 'did not gain wide attention' but caught the attention of the scientists who went on to found Moderna and BioNTech, and her present posts at Szeged and Penn. Her quoted recollections of the demotion and her advice to students are self and were not used. Independent journalism, sympathetic. Read in full.",
+      "url": "https://www.statnews.com/2023/10/02/nobel-prize-medicine-kariko-weissman-awarded-prize/"
+    },
+    {
+      "id": "src_kariko_stat_buck",
+      "kind": "press",
+      "title": "Stuart Buck (executive director of the Good Science Project), 'The Karikó problem: Lessons for funding basic research', STAT First Opinion, 1 February 2022 -- opinion essay on science funding that summarises her record: a non-tenure-track research post at Penn, demotion in 1995 because she never won an NIH grant for her mRNA research, a former colleague's remark that her history was told 'as a cautionary tale for young scientists', the copy-machine meeting with Weissman, and the 2005 paper being 'summarily rejected' by Nature and Science (Nature calling it an 'incremental contribution'). Policy writer's argument, used only for the factual summary. Read in full.",
+      "url": "https://www.statnews.com/2022/02/01/kariko-problem-lessons-funding-basic-research/"
+    },
+    {
+      "id": "src_kariko_science",
+      "kind": "press",
+      "title": "Catherine Offord and Jon Cohen, 'mRNA discovery that paved way for COVID-19 vaccines wins Nobel Prize in Physiology or Medicine', Science, 2 October 2023 -- science-news report: the 2005 Immunity paper (replacing uridine with modified bases such as pseudouridine reduced the inflammatory response) and the 2008 follow-up on protein output, the first regulatory authorisations of mRNA vaccines in December 2020, Karikó telling Science that in the early 2000s she had no research team and did the biochemistry with her own hands, comments by Anthony Fauci ('doggedly kept at it'), by the oncologist Jessica Foster, who has worked with her, and by the Nobel Assembly's Thomas Perlmann that she 'never received an R01' grant from the NIH. Independent reporting with named colleagues and officials, admiring. Read in full.",
+      "url": "https://www.science.org/content/article/mrna-discovery-paved-way-covid-19-vaccines-wins-nobel-prize-physiology-medicine"
+    },
+    {
+      "id": "src_kariko_chronicle",
+      "kind": "press",
+      "title": "Megan Zahneis, 'Katalin Karikó has thoughts on how to support shunned scholars like her', The Chronicle of Higher Education, 5-6 October 2023 (print issue of 27 October 2023) -- interview-based report: the account of her demotion and pay cut at Penn for lack of grants, the 'incremental contribution' verdict on the 2005 paper, her view that blame is 'twisted' and that funding and publishing systems reward fashionable work, the two Penn colleagues who supported her (a cardiologist who paid her salary for seven years when grants were rejected and a neurosurgery resident who helped secure her a post), and her proposal for formalised institutional support for unconventional scholars. Her remarks on recognition are self; the account of a department chair's pressure over publications and grants is an employment dispute and was not used. Independent reporting. Read in full.",
+      "url": "https://www.chronicle.com/article/katalin-kariko-has-thoughts-on-how-to-support-shunned-scholars-like-her"
+    },
+    {
+      "id": "src_kariko_penn_today",
+      "kind": "institution",
+      "title": "Penn Today (University of Pennsylvania), 'A wrong number, a cryptic message, and a big Nobel win', 2 October 2023 -- the university's report of the prize announcement and press conference: the chance meeting in the late 1990s while photocopying papers, the 2005 discovery, the report that Weissman noted they 'stayed focused and kept working, despite not getting funding, not getting published, and failing to persuade others that mRNA was interesting and viable', his remark that 'we spent the rest of those 20-plus years working together', and the university leaders' praise. Institutional news item, admiring (the promotional adjectives of the university's president and dean were not used). Read in full.",
+      "url": "https://penntoday.upenn.edu/news/wrong-number-cryptic-message-and-big-win-nobel-weissman-kariko"
+    },
+    {
+      "id": "src_kariko_gazette",
+      "kind": "press",
+      "title": "Matthew De George, 'The Vaccine Trenches', The Pennsylvania Gazette, May | June 2021 (cover feature, read from the magazine's PDF) -- alumni-magazine feature with interviews: her work at the bench 'never above doing the unglamorous work' even as a vice president, how her former supervisor Elliot Barnathan hired her in 1989 and describes her as 'incredibly inquisitive' and a voracious reader, her reputation as 'the RNA hassler' for offering to make RNA for colleagues, the mid-1990s move off the tenure track into a newly created senior research investigator post, the neurosurgery lab and the 1999 paper she kept publishing, the photocopier meeting with Weissman, grants and investors that did not materialise, the 2004-2005 work on nucleosides and the patent, Barnathan's 'patchwork quilt' description of her method, and Weissman's 'We never gave up'. Skims over the Pfizer chief medical officer sidebar and the vaccine-policy passages, which were not used. Independent feature journalism with named colleagues, admiring. Read in full.",
+      "url": "https://thepenngazette.com/pdfs/PennGaz0521_feature2.pdf"
+    },
+    {
+      "id": "src_kariko_sciencefriday",
+      "kind": "press",
+      "title": "Flora Lichtman, 'The Leap: I Was Considered A Nobody' (Science Friday in partnership with the Hypothesis Fund; audio profile with transcript), 12 May 2025 -- produced radio profile whose only used material is the first-hand recollection of the neurosurgeon David Langer, who worked with her as a student: that she was 'crazy about cleaning all the glassware' and taught him how to rinse a beaker properly, and his description of how she handled disconfirming data. The segment's family, early-life and immigration passages, the narrator's speculation that her focus on truth explains her demotion and departure from Penn, a colleague's characterisations of her conduct towards senior figures, and her own recollections of the dispute were not used (personality inference from an employment dispute and private life). Audio profile with one named colleague, admiring and promotional in framing. Read in full.",
+      "url": "https://www.sciencefriday.com/segments/the-leap-i-was-considered-a-nobody/"
+    },
+    {
+      "id": "src_kariko_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Katalin Karikó in 2024 by Christopher Michel 02.jpg' -- checked for the portrait's file and licence: description 'Katalin Karikó in 2024', taken 16 September 2024 (12:10), source 'own work' and author 'Creator:Christopher Michel' (the photographer's Commons account Cmichel67 uploaded it on 17 September 2024), licence tag 'self | cc-by-sa-4.0' (Creative Commons Attribution-ShareAlike 4.0), original JPEG 4569 x 6850 pixels (about 19.6 MB), category Katalin Karikó. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Katalin_Karik%C3%B3_in_2024_by_Christopher_Michel_02.jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kariko_nobel_press, src_kariko_lasker, src_kariko_nobel_story, src_kariko_gazette, src_kariko_stat_nobel, src_kariko_stat_buck, src_kariko_science, src_kariko_chronicle, src_kariko_penn_today | 1989-2013 | award-body citation + award-body narrative + award-body profile + alumni-magazine feature with colleagues + news report + opinion essay + news report with colleagues' comments + interview-based report + university news report] The Nobel Committee says she 'remained true to her vision of realizing mRNA as a therapeutic despite encountering difficulties in convincing research funders', and the Lasker Foundation says that through the 1990s she 'persevered despite steady funding rejections and lack of institutional support'; the Penn Gazette reports that she was moved off the tenure track in the mid-1990s into a newly created senior research investigator post and, while moving between labs, 'continued publishing', including a 1999 paper on in vitro transcribed mRNA expressed in living cells; the Nobel Prize Outreach profile says that despite being demoted 'she persisted in her work'; STAT's Buck says she was demoted in 1995 because she never won an NIH grant for the mRNA work and that the 2005 paper was rejected by Nature and Science, and the Chronicle likewise reports the demotion and pay cut for lack of grants and Nature's 'incremental contribution' verdict on that paper; Science quotes the Nobel Assembly's Thomas Perlmann that she 'never received an R01' grant from the NIH; Penn Today reports Weissman noting at Penn's press conference that they 'stayed focused and kept working' despite not getting funding or publications, and Weissman says 'We never gave up' (Penn Today and the Gazette), and Science quotes Anthony Fauci ('doggedly kept at it') and the oncologist Jessica Foster on her 'grit and determination to follow the science, despite many telling her she could not succeed'. The same research programme continued for about two decades before the 2005 result was widely taken up. Independent award bodies, reporters, a collaborator and named colleagues agree, but several details (the demotion, the rejections) originate in her own accounts relayed by reporters, the Penn Gazette's date for the demotion differs from STAT's, and the sources are admiring, so documented at a moderately high confidence and held below the top band; the accounts of her departures from Temple and Penn are employment disputes and are not scored. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): part of the evidence (grant rejections, the demotion) reaches the record through her own interviews relayed by reporters, corroborated by Weissman and award bodies; score and confidence lowered."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_kariko_nobel_press, src_kariko_lasker, src_kariko_nobel_story, src_kariko_gazette, src_kariko_science, src_kariko_stat_nobel | 1990s-2010 | award-body citation + award-body narrative + award-body profile + alumni-magazine feature + news report with a colleague's comment + news report] The Nobel Committee records that in vitro transcribed mRNA was seen as unstable, hard to deliver and inflammatory so that 'enthusiasm for developing the mRNA technology for clinical purposes was, therefore, initially limited', yet she was 'devoted to developing methods to use mRNA for therapy'; the Lasker Foundation says 'concerns about mRNA instability and delivery dominated conventional wisdom, and few investigators had an appetite' for the problems while Karikó 'had committed to her dream'; the Nobel Prize Outreach profile says that when she joined Penn in 1989 mRNA 'was largely dismissed as unstable and useless by the wider scientific community'; the Penn Gazette calls mRNA a method 'many dismissed as a clinical dead end in the 1990s' and says her attachment to it 'imperiled her job prospects' at Penn; Science quotes Foster on her following the science 'despite many telling her she could not succeed'; STAT reports that the key research 'did not gain wide attention at the time' before reaching the scientists who founded Moderna and BioNTech. Several independent descriptions of a research direction held against prevailing opinion for about two decades, with its costs documented alongside the payoff (the 2005 paper was turned down by two leading journals and, per Lasker, 'no one rang'), so documented at a moderate confidence with a dual-edged impact; this row concerns the choice and defence of an unpopular direction, while the persistence row concerns enduring setbacks, so the two share episodes but not the claim."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kariko_nobel_press, src_kariko_lasker, src_kariko_science | 2002-2012 | award-body citation + award-body narrative + news report] The Nobel Committee says that after noticing dendritic cells react to in vitro transcribed mRNA, Karikó and Weissman 'produced different variants of mRNA, each with unique chemical alterations in their bases', delivered them to dendritic cells and found the inflammatory response 'almost abolished' with base modifications; the Lasker Foundation adds that they first tested RNAs from different sources (bacterial, total mammalian, mitochondrial and transfer RNA, the last of which stirred no response), built a collection of mRNAs each carrying a particular modified nucleoside, measured dendritic-cell maturation markers and activation of Toll-like receptors 7 and 8, showed in 2008 that pseudouridine also raised protein output, repeated the findings in mice, developed a chromatographic step to remove contaminating RNA molecules, and tested the system in mice and a small number of monkeys with mRNA encoding erythropoietin (reported in 2012); Science dates the 2005 and 2008 papers independently. Controlled, stepwise testing documented in specific experiments by an award body and corroborated for dates by a news report, but both detailed accounts are honouring narratives and the work was joint with Weissman, so documented at a moderate confidence."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kariko_gazette, src_kariko_lasker, src_kariko_nobel_press, src_kariko_science | 1989-2005 | alumni-magazine feature with a former supervisor + award-body narrative + award-body citation + news report] Her former supervisor Elliot Barnathan says in the Penn Gazette that she 'was always incredibly inquisitive' and 'read voraciously', always knew 'the latest technology or the latest paper, even if it was in a totally different area', and would ask 'Why don't we try this formulation?'; the Lasker Foundation says that since her undergraduate years 'she has devoured information and mastered techniques' with mRNA therapeutics in mind and that, with few articles online, she 'photocopied as avidly as she read'; the Nobel Committee records that she and Weissman 'wondered why' synthetic mRNA was recognised as foreign when mammalian mRNA was not, and then whether the absence of altered bases explained it; Science says the pair combined her RNA biochemistry with his immunology. Three independent descriptions (a former supervisor, an award-body writer, the Nobel Committee) of wide reading and question-driven follow-up, but the first-hand testimony comes from one admiring colleague, so documented at a moderate confidence."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kariko_sciencefriday, src_kariko_gazette, src_kariko_lasker | 1980s-2012 | audio profile with a former colleague + alumni-magazine feature + award-body narrative] David Langer, who worked with her early on as a student, says on Science Friday that she was 'crazy about cleaning all the glassware' and taught him to rinse a beaker by filling it a third of the way and swirling twice; the Penn Gazette says that even as a vice president she 'was never above doing the unglamorous work in the lab: the repetitive cell culturing and data collection that she easily could have delegated'; the Lasker Foundation says she and Weissman developed a chromatographic procedure to remove contaminating double-stranded RNA from their mRNA, 'eliminating residual safety hazards', and that each time a new lipid delivery material appeared they and colleagues analysed it. Three independent descriptions from a colleague, a journalist and an award-body writer, but the colleague's is one friend's anecdote and the others are summary statements, so documented at a moderate confidence."
+    },
+    "collaboration": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kariko_nobel_press, src_kariko_lasker, src_kariko_penn_today, src_kariko_gazette, src_kariko_science | 1997-2020 | award-body citation + award-body narrative + university news report + alumni-magazine feature + news report with colleagues' comments] The Nobel Committee describes a collaboration that 'soon began' between the biochemist and the immunologist Weissman, and STAT reports that the committee framed their work as complementary expertise; the Lasker Foundation says that after they met at the photocopier in 1997 she offered to make the mRNA he needed for HIV-vaccine experiments, that the two followed up the unexpected result together, and that after she moved to BioNTech in 2013 they carried on 'now working at a distance'; Weissman says at Penn's press conference that they spent 'the rest of those 20-plus years working together' and in the Gazette that 'Katy and I worked on this from the beginning'; the Gazette adds that BioNTech funds research in his lab; Science quotes Fauci calling it a 'years and years-long collaboration on a very, very difficult problem'. One sustained partnership documented by award bodies, a collaborator and independent observers over more than two decades, but it is essentially one partnership and the sources are admiring, so documented at a moderate confidence."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kariko_gazette, src_kariko_lasker, src_kariko_nobel_press | 1989-2013 | alumni-magazine feature + award-body narrative + award-body citation] The Penn Gazette says her zeal earned her a reputation as 'the RNA hassler' at Penn and beyond, quoting her recollection that at meetings she asked neighbours what they were doing and offered 'I can make an RNA for you', and quotes Barnathan that she would propose experiments ('Well why don't we do this?'); the Lasker Foundation describes 'an RNA aficionado' offering 'to make the key reagent' for Weissman's HIV experiment, which he accepted and which started the collaboration; the Nobel Committee records that she moved from Penn to BioNTech in 2013. Several instances of initiating collaboration or proposing work, but the first-hand material is her own recollection and one former supervisor's remark and the 2013 move is a single recorded change whose circumstances are contested and unscored, so strong inference at a modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "커털린 커리코"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/katalin-kariko-christopher-michel-2024.jpg",
+    "width": 900,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Katalin Karikó in 2024 by Christopher Michel 02.jpg' -- photograph by Christopher Michel, taken 16 September 2024, uploaded by the photographer (Commons account Cmichel67) on 17 September 2024 as own work under CC BY-SA 4.0; original JPEG 4569 x 6850 pixels (about 19.6 MB, Canon EOS R5 Mark II metadata). Black-and-white portrait. A 3:4 region (3969 x 5292 pixels) around her head and torso was cropped from the original and downscaled once to 900 x 1200 (never upscaled).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Christopher Michel, 2024, licensed under CC BY-SA 4.0; cropped and downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Katalin_Karik%C3%B3_in_2024_by_Christopher_Michel_02.jpg",
+    "creator": "Christopher Michel",
+    "date": "2024-09-16",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Katalin_Karik%C3%B3_in_2024_by_Christopher_Michel_02.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q88608397 returned en label 'Katalin Karikó', description 'Hungarian biochemist' (hu: '(1955) magyar biokémikus'), ko label present, instance of human, born 1955-01-17 in Szolnok, no date of death, citizenship Hungary and the United States; a wbsearchentities search on her name returned only this entity, so the lead's hint is the Hungarian biochemist born in 1955 and not another entity. KOREAN NAME: '카탈린 카리코' is the spelling used by Korean news at the 2023 prize (seen in search results, pages not opened: Wikitree's headline and a Newsis report); variants exist ('카리코/커리코'), Korean Wikipedia's article title is '커리코 커털린' (Hungarian name order) and Wikidata's ko label is '커털린 커리코', and the repository's Hungarian precedent uses Western order and the common spelling ('폴 에르되시'). SLUG/QID CHECK: no existing production or candidate file for slug katalin-kariko or QID Q88608397 in the roster50 worktree or the main checkout, and her name appears nowhere in src or data-pipeline. REGION: central_europe, a choice between origin and career recorded here: she was born, schooled (PhD at the University of Szeged, 1982) and first employed (Hungarian Academy of Sciences, Szeged) in Hungary, emigrated in 1985, worked in the United States (Temple, Penn) until 2013 and at BioNTech in Germany from 2013, and has held a professorship at Szeged since 2021 (Nobel press release). The repository's dominant convention for emigrant scientists is the region of origin (John von Neumann HU and US, Nikola Tesla RS and US, Enrico Fermi, Freeman Dyson, Har Gobind Khorana, Subrahmanyan Chandrasekhar, Ahmed Zewail, Chien-Shiung Wu), with a few exceptions (Emilio Segre and Maria Goeppert Mayer, and I. M. Pei as an architect, are north_america); origin was chosen for consistency with the closest precedent, a Hungarian-born scientist with a US career (von Neumann), and her US and German careers are carried by nationalityCodes HU and US (US citizenship per Wikidata and her own statement on Science Friday), not by the region. Vocabulary ids (occupations biologist, chemist and scientist, fields biology and natural_science, tags nobel_laureate and late_recognition, archetype scientific_explorer, impact domains scientific, medical and innovation) already exist and match the Jennifer Doudna candidate; era contemporary as for other living people. LIVING SUBJECT: only documented public professional conduct is scored; excluded are family and private life (including the teddy-bear smuggling story, her husband and daughter, early life), health (a diagnosis mentioned in one retelling), her emigration and the currency rules of the time, the reported dispute with a supervisor at Temple, her recollections of being forced out of Penn and told she was not of faculty quality (an employment dispute told in her own words and the same retelling in Fortune), the narrator's and commentators' speculation that her character, gender or origin explains the demotion (including a Nobel Assembly member's passing remark in Science), the patent and licensing arrangements, and any inferred motive or emotion. The demotion is used only as a documented professional event (a move off the tenure track into a newly created research post, reported by the Penn Gazette, STAT, the Chronicle and the Nobel Outreach profile), with no personality inference from it. ZERO POLITICS: no political material is scored; the regime context of her emigration was not used. CANONICAL SIGNIFICANCE SOURCE: the Nobel Assembly at Karolinska Institutet press release for the 2023 Nobel Prize in Physiology or Medicine (https://www.nobelprize.org/prizes/medicine/2023/press-release/), read in full: the prize motivation, the committee's account of the discovery (dendritic cells, base-modified mRNA, the 2005 paper, the 2008 and 2010 studies on protein production), the two base-modified COVID-19 vaccines approved in December 2020, and her career facts; supported by the Lasker Foundation's 2021 award narrative and Science's news report (honouring or reporting in tone, so used for the achievement cards and orientation and never alone for a behavioural row). READ (10 cited non-Wikidata sources plus the Commons rights page): the Nobel press release; the Nobel Prize Outreach profile (professional chronology only); the Lasker Foundation narrative by Evelyn Strauss (2021); STAT's news report by Andrew Joseph and Deborah Balthazar (2 October 2023); Stuart Buck's STAT opinion essay (1 February 2022); Science's news report by Catherine Offord and Jon Cohen (2 October 2023); the Chronicle of Higher Education's report by Megan Zahneis (October 2023); Penn Today (2 October 2023); Matthew De George's feature 'The Vaccine Trenches' in The Pennsylvania Gazette (May | June 2021, read from the PDF); and the Science Friday audio profile transcript (12 May 2025, used only for one colleague's first-hand account). PERSPECTIVES: the Nobel Committee and the Lasker Foundation (award bodies, honouring); independent reporters and a science-news desk (STAT, Science, the Chronicle) with named officials and colleagues (a Nobel Assembly member, Anthony Fauci, the oncologist Jessica Foster); her collaborator Drew Weissman (at Penn's press conference and in the Gazette); her former supervisor Elliot Barnathan and the neurosurgeon David Langer (first-hand colleague accounts, admiring); the university's own news service (Penn Today); a policy writer's opinion summary (Buck); and her own words as quoted (self; never sole support). The demotion and grant rejections are reported by several outlets but largely originate in her own interviews, so they are treated as one account with independent corroboration from the Nobel Assembly's Perlmann, Weissman, Barnathan's colleagues and the Gazette, not as many independent events. CALIBRATION: evidence is broad on the scientific work and on persistence, but the sources are overwhelmingly admiring (award bodies, her university, friends and collaborators), the accounts of her conduct towards colleagues are one-sided, and several details are her own recollections relayed by reporters, so no score exceeds 82 and no confidence exceeds 0.68; counter-evidence and limits are recorded in the rows (the Gazette's and STAT's differing demotion dates, the single-partnership basis of the collaboration row, the single-anecdote basis of the detail row). Traits NOT scored: leadership drive (her BioNTech vice-president role is role evidence only), achievement drive and competitiveness (her only evidence is her own statement that she never craved recognition), impact motivation and mastery orientation (her own statements and overlaps with the curiosity and detail evidence), risk tolerance (overlaps independent thinking and persistence), adaptability and resourcefulness (the emigration is excluded and the BioNTech move is a single decision, and her doing experiments with her own hands is her own statement), social assertiveness, persuasiveness and conflict tolerance (the only evidence is one-sided accounts of an employment dispute), discipline and deep focus (overlap the persistence and detail evidence), belief updating (one colleague's general remark and her own statement), autonomy need and ambiguity tolerance (no independent instances). DATE AND FACT CONFLICTS RECORDED: (1) her Penn titles differ: the Nobel press release says she was appointed Assistant Professor in 1989 and stayed until 2013, the Penn Gazette says she was hired as a research assistant professor, was moved in the mid-1990s to a newly created senior research investigator post and later held adjunct status, and Penn's spokesperson (as quoted by Fortune) lists research assistant professor, senior research investigator and adjunct professor, so no title is stated in any card; (2) the demotion is dated 1995 by STAT's Buck and 'the mid-1990s' by the Penn Gazette, so the moment says mid-1990s; (3) the photocopier meeting is dated 1997 by the Lasker Foundation and the late 1990s by Science, Penn Today and the Nobel Outreach profile, and the moment says 1997 attributed to the Lasker Foundation; (4) the Nobel press release says she became vice president and later senior vice president at BioNTech while the Gazette says she joined as a senior vice president and Science says she held the post until recently, so no title or end date is stated; (5) STAT's Buck says the 2005 paper was rejected by Nature and Science while the Chronicle mentions only Nature's 'incremental contribution' verdict, so the rows cite Buck for both. NOT OPENED: her memoir Breaking Through (2023), her Nobel lecture, banquet speech and Nobel interview (self); the Nobel Committee's scientific background PDF; the Wired (2020) and New York Times (2021) profiles that the other outlets quote (not opened; reached only as quoted); Science's blog post by Derek Lowe on the rejection of the 2005 paper and the Nature news coverage (the Science blog returned HTTP 403; the Nature daily briefing was read but is a short newsletter item and is not cited); the primary research papers (not behavioural sources); the University of Szeged and Hungarian Academy pages. Fetched but read only in part or not usable: STAT's 2020 'The story of mRNA' and 2021 profile (paywalled teasers), the Frontiers in Immunology commentary on rejection (read; not cited because it asserts discrimination and carries unverified details), Fortune's 2 October 2023 retelling and Billy Penn's 2020 post (read; not cited because they relay private, health and employment-dispute material and contain errors, although Billy Penn records that Penn would not discuss employment matters), the Pennsylvania Gazette's 2023 'Nobel Cause' item (partly read) and a Temple University news page (no relevant content). PORTRAIT: Wikimedia Commons file 'Katalin Karikó in 2024 by Christopher Michel 02.jpg', taken 16 September 2024 and uploaded on 17 September 2024 by the photographer's own Commons account (Cmichel67; Creator:Christopher Michel, Wikidata Q5112871) as own work under the licence tag self | cc-by-sa-4.0 (CC BY-SA 4.0, attribution and share-alike); original JPEG 4569 x 6850 pixels (19.6 MB); no conflicting statement on the file page or the creator page; the same photographer and licence as the Jennifer Doudna portrait already in the roster. A 3:4 region (3969 x 5292) around her head and torso was cropped and downscaled once to 900 x 1200 (verified to open as a JPEG, never upscaled), saved as public/portraits/katalin-kariko-christopher-michel-2024.jpg; black-and-white portrait. RESIDUAL RIGHTS NOTE: CC BY-SA 4.0 requires attribution and share-alike for adaptations, and the crop and downscale are disclosed in the attribution; no model-release statement is made on the file page, as for other Commons portraits of public figures. Considered and not chosen: the University of Szeged's 2021 photographs (CC BY-SA 4.0 on Commons, institutional author, 2048 x 1415 at most), the US Embassy Sweden 2023 Nobel reception photographs (CC BY 2.0 on Commons, event snapshots at 2560 x 1525 at most), the Thorne Media Life Science Medalists crop (765 x 597) and two lower-resolution portraits (512 x 512). LEAD REVIEW (Roster50): 1 row(s) lowered before eligibility (part of the evidence (grant rejections, the demotion) reaches the record through her own interviews relayed by reporters, corroborated by Weissman and award bodies). KOREAN NAME (lead): set to the Wikidata/Korean Wikipedia form 커털린 커리코 (agent had used 카탈린 카리코 from search results)."
+  }
+}

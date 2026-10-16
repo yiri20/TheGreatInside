@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "aretha-franklin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Aretha Franklin",
+    "aliases": [
+      "Aretha Louise Franklin",
+      "The Queen of Soul",
+      "Lady Soul"
+    ],
+    "wikidataId": "Q125121",
+    "birthYear": 1942,
+    "deathYear": 2018,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_aretha_wikidata",
+      "kind": "wikidata",
+      "title": "Aretha Franklin (Q125121) -- verified live via the Wikidata API (2026-10-15): English label 'Aretha Franklin', description 'American singer, songwriter, and pianist (1942-2018)', born 25 March 1942, died 16 August 2018, citizenship United States, Korean label present (it is out of date: the current Korean Wikipedia article title uses the more common spelling adopted in this profile). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q125121"
+    },
+    {
+      "id": "src_aretha_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Aretha Franklin' (article by the music biographer David Ritz, fact-checked by Britannica's editors; page updated September 2026) -- encyclopaedia biography: calls her the singer who defined the golden age of soul music of the 1960s and one of the greatest vocalists of the 20th century; describes the 1966 move from Columbia to Atlantic, where producer Jerry Wexler let her shape her own musical identity, 'I Never Loved a Man (the Way I Love You)' (1967, recorded at Fame Studios, with spontaneous arrangements and background vocals she devised herself) as her first million-seller, 'Respect' as her first number-one pop single and the source of her first two Grammy Awards, Amazing Grace (1972) as one of the great gospel albums of any era, the 1982 return with Luther Vandross after the 1979 disco album flopped, the 1998 'Nessun dorma' substitution, and her honours (first woman in the Rock and Roll Hall of Fame, Kennedy Center Honors, Grammy Lifetime Achievement Award, the 2002 National Recording Registry entry for 'Respect'). CANONICAL SIGNIFICANCE SOURCE (encyclopaedic assessment of her primary contribution; honouring in tone, so used for the achievement cards and orientation and never alone for a behavioural row). Passages outside her musical career were not used. Read in full.",
+      "url": "https://www.britannica.com/biography/Aretha-Franklin"
+    },
+    {
+      "id": "src_aretha_rockhall",
+      "kind": "institution",
+      "title": "Rock & Roll Hall of Fame, 'Aretha Franklin' inductee page (inducted 1987 by Keith Richards; 'The first woman inducted into the Rock & Roll Hall of Fame') together with its 1987 induction biography by Michael Hill (a PDF on the Hall's site, read as OCR text) -- museum assessment: 'an artist of passion, sophistication and command, whose recordings remain anthems that defined soul music'; the biography traces her gospel start, the Columbia years, the 1966 move to Atlantic at Jerry Wexler's behest, the first Atlantic single cut at Fame Recording Studios, later albums (Young, Gifted, and Black, Spirit in the Dark, Amazing Grace) and the 1980s work with producers such as Luther Vandross and Narada Michael Walden. Honouring in tone; the scanned PDF has OCR errors. Passages on her early life were not used. Read in full.",
+      "url": "https://www.rockhall.com/inductees/aretha-franklin"
+    },
+    {
+      "id": "src_aretha_loc",
+      "kind": "institution",
+      "title": "Cary O'Dell, 'Aretha Franklin and \"Respect\"', Library of Congress blog (an essay from the National Recording Registry series, republished 16 August 2018) -- Library of Congress essay on her 1967 recording, one of the first Registry selections in 2002: at the piano with her sister Carolyn she played with the song's tempo and phrasing, added a bridge borrowed from a Sam and Dave song and new lyrics including 'Sock it to me'; her version reached number one where Otis Redding's had reached number 35; in 1967 alone she charted with 'Respect', 'Chain of Fools', 'You Make Me Feel Like a Natural Woman', 'Baby, I Love You' and 'I Never Loved a Man'. Institutional and honouring; the republication note and reader comments were not used. Read in full.",
+      "url": "https://blogs.loc.gov/loc/2018/08/aretha-franklin-and-respect/"
+    },
+    {
+      "id": "src_aretha_smithsonian",
+      "kind": "institution",
+      "title": "Katherine J. Wu, 'Museum Curators Reflect on the Legacy of the Queen of Soul', Smithsonian Magazine, August 2018 -- feature quoting Smithsonian curators (Dwandalyn Reece of the National Museum of African American History and Culture, Asma Naeem of the National Portrait Gallery, John Troutman of the National Museum of American History): her 1998 Grammy Awards substitution for 'Nessun dorma' with twenty minutes' notice ('neither her genre nor her typical vocal range'), the curators' assessments ('She transformed popular music', 'a cultural linchpin') and a summary of her honours. Institutional and honouring in tone; passages on her final years were not used. Read in full.",
+      "url": "https://www.smithsonianmag.com/smithsonian-institution/museum-curators-reflect-legacy-queen-soul-180970009/"
+    },
+    {
+      "id": "src_aretha_grammy",
+      "kind": "award_body",
+      "title": "Recording Academy (GRAMMY.com), 'Aretha Franklin' artist page -- award-body record: 18 wins and 44 nominations, first wins for 'Respect' (the 1967 recording), the Grammy Legend Award (1991) and Lifetime Achievement Award (1994), five recordings in the Grammy Hall of Fame ('Respect', 'Chain Of Fools', 'Amazing Grace', 'A Natural Woman (You Make Me Feel Like)' and 'I Never Loved A Man The Way I Love You'), eight Grammy stage performances and the 2008 MusiCares Person of the Year. Honouring record used only for the achievement cards. Read in full.",
+      "url": "https://www.grammy.com/artists/aretha-franklin/11503"
+    },
+    {
+      "id": "src_aretha_npr_wexler",
+      "kind": "press",
+      "title": "Terry Gross interview with producer Jerry Wexler, 'Roots of R&B: Record producer Jerry Wexler', NPR Fresh Air (originally broadcast in 1993; transcript published 29 August 2025) -- the Atlantic producer's own account: he heard the church singer in her; sat her at the piano; the Muscle Shoals method of ad-lib recording 'without written arrangements'; how the skeletal 'Do Right Woman' track was finished in New York ('Aretha laid down an organ part and a piano part', then the lead, then the background parts with her sisters); that the 'sock it to me's on 'Respect' were her idea; and Otis Redding's reaction. First-hand collaborator's account recorded some 26 years after the sessions, admiring and partly self-congratulatory about his own role; passages on other sessions and artists were not used. Read in full.",
+      "url": "https://www.npr.org/2025/08/29/nx-s1-5521998/roots-of-r-b-record-producer-jerry-wexler"
+    },
+    {
+      "id": "src_aretha_amroutes",
+      "kind": "press",
+      "title": "Nick Spitzer, 'American Routes Shortcuts: Remembering Aretha Franklin', WWNO / American Routes public radio, 21 September 2018 -- radio segment with Muscle Shoals guitarist Jimmy Johnson (the rhythm section then cut new records with her every month and a half or two for three years) and a recorded statement by Jerry Wexler: he wanted her to play on her records, she brought 'great piano playing', 'Aretha was a great arranger' who worked out the key, the vocal arrangement and the background arrangement (with her sisters or her group) before sessions, 'almost like painting by the numbers'. Collaborators' retrospective accounts, admiring; passages on how the first session ended were not used. Read in full.",
+      "url": "https://www.wwno.org/show/american-routes/2018-09-21/american-routes-shortcuts-remembering-aretha-franklin"
+    },
+    {
+      "id": "src_aretha_uncut",
+      "kind": "press",
+      "title": "Graeme Thomson, 'The making of Aretha Franklin's \"I Never Loved A Man (The Way I Love You)\"', Uncut, October 2018 issue (online 17 August 2018) -- oral history with Fame session musicians Spooner Oldham, David Hood, Charlie Chalmers and Jimmy Johnson: Wexler's pre-production song selection with her, her piano-and-vocal live tracking, the band feeling its way into the song, her piano entering only at the second verse ('That's her arrangement'), and the formula of rhythm section with live vocal, horn overdubs and background singers. Session-musician testimony 51 years later, partly contradictory in detail (who brought the song, who found the opening riff); passages on the disruption that ended the session were not used. Read in full.",
+      "url": "https://www.uncut.co.uk/features/making-aretha-franklins-never-loved-man-way-love-106958/"
+    },
+    {
+      "id": "src_aretha_dowd",
+      "kind": "archive",
+      "title": "Tom Dowd, 'Rock and Roll; Interview with Tom Dowd [Part 1 of 4]', raw interview footage (undated) for the WGBH series Rock and Roll, American Archive of Public Broadcasting (GBH and the Library of Congress), human-corrected transcript -- the Atlantic engineer on Memphis and Muscle Shoals recording versus New York chart-based sessions, on 'I Never Loved A Man' (she sat down at the piano, played the song once or twice, and the band had it in two or three takes) and on how comfortable she was playing with the Muscle Shoals musicians. First-hand engineer's account decades after the sessions; Parts 2 to 4 were not opened and passages on Stax, Motown and other artists were not used. Read in full.",
+      "url": "https://americanarchive.org/catalog/cpb-aacip-15-fb4wh2dg9p"
+    },
+    {
+      "id": "src_aretha_yorke",
+      "kind": "press",
+      "title": "Ritchie Yorke, 'ARETHA: Octaves Of Bittersweet Ecstasy', The Globe Magazine (Toronto), 15 November 1969, reprinted by Billboard Canada on 14 September 2018 with permission -- a journalist's eyewitness account of a night of recording at Criteria Studios in Miami with Tom Dowd, Jerry Wexler, Arif Mardin and the Muscle Shoals rhythm section: she goes straight to the piano, explains a vocal part to her backing singers, asks for a redo of parts she is unhappy with, and arrives with arrangements prepared; includes Wexler's and Dowd's remarks and a short interview with her (self). The only contemporaneous eyewitness account found, and it is frank rather than purely admiring; its extensive passages outside the recording session were not used. Read in full.",
+      "url": "https://ca.billboard.com/fyi/aretha-octaves-bittersweet-ecstasy"
+    },
+    {
+      "id": "src_aretha_mardin",
+      "kind": "press",
+      "title": "Michele Norris, 'Arif Mardin: Tales from the Recording Studio', NPR All Things Considered, 19 December 2005 (transcript) -- interview with the Atlantic arranger-producer: 'Day Dreaming' as 'Aretha's concept' (her Fender Rhodes figure, then the rhythm section) with what he calls Stravinsky-like time signatures; that with her he sat in the room with manuscript paper trying to write down what she played with her left and right hands; and that she was 'definitely' the queen of these recording sessions. First-hand arranger's retrospective, admiring; passages on other artists were not used. Read in full.",
+      "url": "https://www.npr.org/2005/12/19/5061890/arif-mardin-tales-from-the-recording-studio"
+    },
+    {
+      "id": "src_aretha_wral",
+      "kind": "press",
+      "title": "Bo Emerson (Cox Newspapers), 'How Aretha turned \"Respect\" into a feminist anthem', WRAL.com, 16 August 2018 -- newspaper feature with bassist David Hood on Wexler having her play piano while she sang at Fame (and the acoustic separation that needed), a quotation from engineer Tom Dowd's WGBH interview on 'Respect', and Wexler's Rolling Stone account of Otis Redding's reaction. Secondary journalism quoting named collaborators; its passages on contract and business matters were not used. Read in full.",
+      "url": "https://www.wral.com/archive/17774040/"
+    },
+    {
+      "id": "src_aretha_rs_respect",
+      "kind": "press",
+      "title": "Megan Conway, 'Respect', Rolling Stone '500 Greatest Songs of All Time' entry (web page dated 30 May 2012) -- short entry on the 14 February 1967 session at Atlantic's New York studio: Wexler brought in the Fame musicians and King Curtis, her sisters Carolyn and Erma sang backing vocals, Arif Mardin arranged and Tom Dowd engineered; Mardin's remark that there was 'never a day like that'; and that Aretha and Carolyn came up with the spelled-out bridge and the 'sock it to me' chant. Short, admiring magazine entry. Read in full.",
+      "url": "https://www.rollingstone.com/music/music-news/respect-65830/"
+    },
+    {
+      "id": "src_aretha_ehrlich",
+      "kind": "press",
+      "title": "Lyndsey Parker, 'Grammy Producer Ken Ehrlich on When Aretha Franklin Sang \"Nessun Dorma\"', Yahoo Entertainment (reposted on Lyndsanity), 16 August 2018 -- interview with the 1998 Grammy telecast producer: how he asked her to replace Pavarotti in 'Nessun Dorma', that she asked about the key, spent about 45 minutes with Pavarotti's conductor testing it from a cassette recording, said 'I can do it. It won't be easy, but I want to do this', and sang it live to a stunned silence and then applause. First-hand producer's account twenty years later, admiring; passages on his friendship with her were not used. Read in full.",
+      "url": "https://www.lyndsanity.com/?p=6529"
+    },
+    {
+      "id": "src_aretha_npr_grace",
+      "kind": "press",
+      "title": "Michel Martin and Tim Greiving, \"Aretha Franklin's 'Amazing Grace' Gets LA Premiere In The Church Where It Took Place\", NPR, 7 April 2019 (transcript) -- report that she recorded the live album at New Temple Missionary Baptist Church in Watts over two nights in 1972, hosted by the Rev. James Cleveland with the Southern California Community Choir, that her niece says she chose to record a gospel album 'against the better advice of her recording company', and that it became the bestselling live gospel album of all time. Journalism quoting a relative and the film's producer; passages on the later film release were not used. Read in full.",
+      "url": "https://www.npr.org/2019/04/07/710247560/aretha-franklins-amazing-grace-gets-la-premiere-in-the-church-where-it-took-plac"
+    },
+    {
+      "id": "src_aretha_nc5",
+      "kind": "press",
+      "title": "NewsChannel 5 Nashville, 'Musicians Recount Playing With Aretha Franklin', 16 August 2018 -- local-news report quoting Muscle Shoals bassist David Hood (at her first session Wexler had her play piano and sing at the same time; 'All the musicians that worked with her get their feel from what she's doing on the piano') and drummer Gene Chrisman ('The way she played piano, you just almost fell into what she was doing'; one evening in New York in 1967 they recorded 'Dr. Feelgood', 'Soul Serenade' and 'A Natural Woman'). Short and admiring; passages outside the recording sessions were not used. Read in full.",
+      "url": "https://www.newschannel5.com/news/musicians-recount-playing-with-aretha-franklin"
+    },
+    {
+      "id": "src_aretha_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Aretha Franklin.jpg' with its Flickr source page -- checked for the portrait's licence: photograph credited on Commons to Joe Ortuzar (Flickr account 'joe ortuzar') taken 7 March 2010 at the Larry King Gala 2010, uploaded from Flickr and reviewed on 3 February 2018 by FlickreviewR 2 as CC BY 2.0; the Flickr page shows 'Some rights reserved' under CC BY 2.0 and the photographer's tag 'aretha'; no restriction template and no copyright field in the file's EXIF or XMP data. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Aretha_Franklin.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 77,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aretha_loc, src_aretha_rs_respect, src_aretha_npr_wexler, src_aretha_mardin, src_aretha_uncut, src_aretha_britannica | 1967-2005 | Library of Congress essay + magazine entry + public-radio interviews with the producer and the arranger + session-musician oral history + encyclopaedia] The Library of Congress essay says that at the February 1967 'Respect' session, at the piano with her sister Carolyn, she played with the song's tempo and phrasing, added a bridge and new lyrics including 'Sock it to me', and Rolling Stone's entry credits her and Carolyn with the spelled-out bridge and the chant; producer Jerry Wexler told NPR in 1993 that the 'sock it to me's were her idea and called the result her transmutation of Otis Redding's song; arranger Arif Mardin told NPR in 2005 that 'Day Dreaming' was 'Aretha's concept', built on her Fender Rhodes figure, and asked where she found its Stravinsky-like time signatures; session pianist Spooner Oldham says that on 'I Never Loved a Man' she does not play a note until the second verse and 'that's her arrangement'; Britannica says she devised the background vocals herself at Atlantic. Several distinct songs and four independent insiders agree, but they are collaborators or honouring institutions with a stake in the story, so documented at a moderate-high confidence and below the extreme band."
+    },
+    "intuitive_synthesis": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aretha_npr_wexler, src_aretha_dowd, src_aretha_uncut, src_aretha_mardin, src_aretha_yorke | 1967-2005 | public-radio interviews + archive interview with the engineer + session-musician oral history + 1969 eyewitness feature] Wexler describes finishing the skeletal 'Do Right Woman' track in New York by extemporisation: she laid down an organ part and a piano part, sang the lead, then built the background vocals with her sisters; engineer Tom Dowd says she sat down at the piano, played 'I Never Loved A Man' once or twice and the band had it in two or three takes; Oldham says she felt the dynamics building and came in on the second verse without being told; Mardin says that with her he sat in the room with manuscript paper trying to write down what she was playing with her left and right hands; in the 1969 interview she answers a question about her left-hand ideas with 'it's just the way I hear what I'm putting down' (self). Four independent accounts of different songs agree that she built parts by ear and feel rather than from written charts, but the trait is inferred from collaborators' descriptions of method, so strong inference at a moderate confidence."
+    },
+    "planning_orientation": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aretha_amroutes, src_aretha_yorke, src_aretha_uncut | 1969-2018 | public-radio segment with Wexler + 1969 eyewitness feature + session-musician oral history] Wexler says she would work out the key, the vocal arrangement and the background arrangement at home, with her sisters or her group, so that in the studio it was 'almost like painting by the numbers'; the 1969 feature, from a night at Criteria Studios in Miami, reports that when a tune attracted her she took it home and arrived with a concise idea of the bass line, vocal parts and drums, and quotes her that the arrangement of 'Eleanor Rigby' was worked out in Detroit with her backing singers and guitarist before the Miami sessions and that 'Son of a Preacher Man' had been worked on there 'for quite a while' (self), though she adds that how much is ready beforehand 'depends on whether we're in a good mood'; Hood says Wexler and she would go through several hundred songs and narrow them to about twenty in pre-production before the band saw them. Three accounts, two of them non-self and one contemporaneous, agree; the unplanned work on 'Do Right Woman' and 'Respect' and her own qualification keep the score out of the top band, so documented at a moderate confidence."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aretha_ehrlich, src_aretha_smithsonian, src_aretha_dowd, src_aretha_britannica, src_aretha_rockhall | 1967-2008 | Grammy-producer interview + museum feature + engineer interview + encyclopaedia + museum essay] At the 1998 Grammy Awards, asked on very short notice to replace Luciano Pavarotti in 'Nessun dorma' (a piece she had sung two nights earlier at a tribute), she asked about the key, worked with Pavarotti's conductor for about forty-five minutes from a cassette recording and then sang it live (Ehrlich; the Smithsonian says she had twenty minutes' notice and calls the aria neither her genre nor her usual range); Dowd says she was 'completely comfortable' playing with the Muscle Shoals musicians, strangers to her, at her first Atlantic session, after Columbia records made in a very different way (Uncut and Britannica describe those years as a mix of jazz, pop and show-tune material); Britannica and the Hall of Fame essay trace a career that moved from gospel to jazz and pop to soul and then, in the 1980s, to dance records made with producers such as Luther Vandross and Narada Michael Walden, though the 1979 disco attempt flopped. Three distinct kinds of change are documented by independent outlets, but the 1998 account is one episode told by one producer and the career summaries are honouring, so strong inference at a moderate confidence."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aretha_dowd, src_aretha_nc5, src_aretha_amroutes, src_aretha_yorke, src_aretha_npr_wexler, src_aretha_loc | 1967-2018 | engineer interview + local news + public-radio segment + 1969 eyewitness feature + public-radio interview + library essay] Dowd says she was completely comfortable playing with the Muscle Shoals strangers; bassist David Hood says that 'all the musicians that worked with her get their feel from what she's doing on the piano' and drummer Gene Chrisman that 'the way she played piano, you just almost fell into what she was doing'; guitarist Jimmy Johnson says the same rhythm section cut new records with her every month and a half or two for three years; the 1969 feature shows her explaining a vocal part to her backing singers and quotes her on the Muscle Shoals players, 'I understand them, and they understand me' (self); Wexler says she and her sisters built the background parts on 'Do Right Woman' and the Library of Congress says she worked up 'Respect' with her sister. A stable working ensemble and parts built with others are described consistently by independent musicians, but by admirers, and the same sources show her directing sessions, so a moderate score and confidence."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aretha_yorke, src_aretha_britannica, src_aretha_wral, src_aretha_npr_grace | 1969-2019 | 1969 eyewitness feature + encyclopaedia + newspaper feature + public-radio report] The 1969 feature reports that early in the Atlantic partnership Wexler would play her a song and she would accept or reject it, and that by then 'Aretha calls the shots'; Britannica says Wexler allowed her to sculpt her own musical identity and the Cox feature that he let her choose material, devise arrangements and use her sisters for backing vocals (the producer's decision rather than hers); NPR (2019) quotes her niece that, against her record company's advice, she decided to record a gospel album in a church, the album that became Amazing Grace, and the 1969 feature already records her naming a gospel album as her next project (self). Several independent outlets show her choosing songs, parts and projects herself, but much of the evidence concerns latitude granted by a producer and one statement comes from a relative, so strong inference at a modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아레사 프랭클린"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/aretha-franklin-ortuzar-2010.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Aretha Franklin.jpg' -- photograph credited on Commons to Joe Ortuzar (the Flickr source account is 'joe ortuzar' and the Flickr page shows only that username, so the real-name credit rests on the Commons upload record), taken 7 March 2010 at the Larry King Gala 2010 (EXIF Canon EOS 40D; Flickr title 'Larry King Gala 2010 193', tagged 'aretha' by the photographer); uploaded from Flickr and reviewed on 3 February 2018 by FlickreviewR 2 as CC BY 2.0, and the Flickr page checked directly shows 'Some rights reserved', CC BY 2.0; the file carries no restriction template and no copyright field in its EXIF or XMP data. Original 2821 x 2592 pixels; a 4:5 portrait region (2074 x 2592 pixels) was cropped from it and downscaled once to 960 x 1200 (never upscaled).",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Joe Ortuzar (Flickr: joe ortuzar), 7 March 2010, CC BY 2.0, cropped and downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Aretha_Franklin.jpg",
+    "creator": "Joe Ortuzar (Flickr: joe ortuzar)",
+    "date": "2010-03-07",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Aretha_Franklin.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q125121 returned en label 'Aretha Franklin', description 'American singer, songwriter, and pianist (1942-2018)', born 1942-03-25, died 2018-08-16, citizenship United States (Q30), ko label present (out of date; the current Korean Wikipedia article title, to which the Wikidata spelling redirects, is used as the display name); the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug aretha-franklin or QID Q125121 in the roster50 worktree (the only repository mentions of her name are inside other people's text). Region north_america is a valid controlled value; occupationIds singer and musician, fieldIds music, archetype creative_creator, tag sustained_excellence (supported by Grammy wins from the late 1960s to 2008 on the GRAMMY.com page) and impact domains artistic and cultural are existing vocabulary ids used by other candidates. ZERO POLITICS: no political, civil-rights-activism or government-event material is scored (inauguration performances, honours presented by presidents, activism). SUBJECT DIED 2018: only documented professional behaviour in the studio and on stage is scored; private life, relationships, marriages, children, health, illness and death are excluded, and no personality inference is drawn from bereavement, illness or the events around her death. Also excluded: the disruption that ended the first Muscle Shoals session (it concerned her then-husband), her 1969 missed sessions and concerts (the sources that mention them tie them to her health or exhaustion, so no discipline or reliability row is scored), the dispute over the release of the Amazing Grace film, and her earlier record-company finances and contract matters. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Aretha Franklin' (https://www.britannica.com/biography/Aretha-Franklin), read in full: it says she defined the golden age of soul music of the 1960s and is considered one of the greatest vocalists of the 20th century; supported by the Rock and Roll Hall of Fame inductee page and 1987 essay, the Smithsonian curators' feature, the Library of Congress essay and the GRAMMY.com page (all honouring in tone, so used for the achievement cards and orientation only). READ (16 cited non-Wikidata sources plus the Commons page, all opened and read): Britannica; the Rock Hall page and Michael Hill's 1987 essay (PDF); the Library of Congress blog essay on 'Respect'; the Smithsonian Magazine curators' feature; the GRAMMY.com artist page; the NPR Fresh Air interview with Jerry Wexler (1993); the WWNO American Routes segment with Jimmy Johnson and a Wexler statement; the Uncut oral history of the first Fame session; the American Archive of Public Broadcasting interview with Tom Dowd (Part 1; only the passages on her were used); Ritchie Yorke's 1969 Globe Magazine eyewitness feature (via Billboard Canada); NPR's interview with Arif Mardin (2005); the WRAL/Cox Newspapers feature; Rolling Stone's 'Respect' entry; Ken Ehrlich's interview on the 1998 Grammys; NPR's 2019 report on Amazing Grace; NewsChannel 5's report with Hood and Chrisman. Read but not cited: Classic FM and MPR News pieces on the 1998 Grammys (MPR quotes David Ritz's account that she asked about the arrangement, listened to it twice and said 'I can do it'; it retells the same incident as Ehrlich and so is not an independent perspective), ABC7 Los Angeles on Amazing Grace (a museum curator's 'bestselling' remark), a 1995 Mix interview with Tom Dowd that mentions her only in passing; Arif Mardin's Songwriter Universe interview was skimmed (no session detail on her). PERSPECTIVES: the Atlantic producer (Wexler), arranger (Mardin) and engineer (Dowd); five session musicians (Oldham, Hood, Chalmers, Johnson, Chrisman); a 1969 eyewitness journalist (Yorke); the 1998 Grammy telecast producer (Ehrlich); museum, library, hall-of-fame and award-body institutions; an encyclopaedia; and the subject's own statements in the 1969 interview (self; never sole support for a row). The three Atlantic insiders share a stake in the Atlantic story and are not treated as fully independent of one another. CALIBRATION: the evidence is rich on studio method but almost entirely admiring or collaborator-sourced, with one frank contemporaneous journalist and no adversarial source found, so no score exceeds 77 and no confidence exceeds 0.66, and only six rows are scored. Traits NOT scored for lack of two independent episodes or because the evidence is tied to health: perfectionism and detail orientation (the 1969 night shows her asking for a redo, but Dowd describes two or three takes at the first session), risk tolerance (the 1998 episode alone), persistence and resilience (career setbacks documented without a statement of her response), mastery orientation (one source on vocal coaching), discipline and reliability (see exclusions), leadership and assertiveness (the 'calls the shots' evidence is used in the autonomy row). CONFLICTS RECORDED: the notice she had for 'Nessun dorma' (twenty minutes in the Smithsonian and MPR tellings; about 45 minutes of work on the key in Ehrlich's), so the moment states both; whether Columbia dropped her (Uncut) or she chose not to renew (WRAL) is unresolved, so the turning point says only that she moved; Oldham says she brought 'I Never Loved a Man' to the session while Hood says he does not know where it came from, so no row relies on it; the spelled-out 'Respect' bridge is credited to her and her sister by Rolling Stone while the Library of Congress says she kept it, so the text does not claim who originated it; Uncut calls the song a Top 10 pop hit and Britannica her first million-seller (compatible). NOT OPENED: the New York Times obituary (HTTP 403), Wexler's memoir Rhythm and the Blues, her 1999 memoir and David Ritz's biography, Peter Guralnick's Sweet Soul Music, the full Rolling Stone account of the 1998 Grammys, the Amazing Grace concert film, Parts 2 to 4 of the Dowd interview, BMI's Mardin tribute (403), the Smithsonian museum object pages (403) and the Kennedy Center Honors page. PORTRAIT: Wikimedia Commons file 'Aretha Franklin.jpg' by Joe Ortuzar (Flickr 'joe ortuzar'), taken 7 March 2010 at the Larry King Gala 2010, CC BY 2.0: reviewed on Commons by FlickreviewR 2 (3 February 2018), the Flickr page checked on 2026-10-15 shows 'Some rights reserved' under CC BY 2.0 with the photographer's own tag 'aretha' (identity), and the downloaded original has no copyright field in its EXIF or XMP data; the real-name credit rests on the Commons record because Flickr shows only the username; downloaded at 2821 x 2592, cropped to a 4:5 region and downscaled once to 960 x 1200 (verified to open as a JPEG, never upscaled), saved as public/portraits/aretha-franklin-ortuzar-2010.jpg; the CC BY licence requires the credit and a note that it was cropped. Rejected after checking: Pete Souza's official White House photographs of 14 April 2015 (US government works, but the original Flickr file carries an embedded White House notice limiting it to news publication and personal printing, forbidding manipulation and commercial or endorsement use, which conflicts with a product use; also a candid full-length frame); the Atlantic Records 1967-68 publicity images (the Commons public-domain basis is only a 'published without notice' tag on a Billboard advertisement, which could not be checked against the magazine's own notice); the Library of Congress 1968 Lee Friedlander photograph (record says 'Rights status not evaluated'; printed 1983; held off-site); a 1997 Kennedy Center photograph credited to a photo-agency Flickr account (CC BY-SA 2.0; not pursued because the chosen photograph is sharper and the basis equally clear); and event, audience and mural images in the Commons category. No Dutch Nationaal Archief or Anefo photograph of her was found on Commons or by search."
+  }
+}

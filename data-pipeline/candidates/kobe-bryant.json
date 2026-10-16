@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kobe-bryant",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kobe Bryant",
+    "aliases": [
+      "Kobe Bean Bryant"
+    ],
+    "wikidataId": "Q25369",
+    "birthYear": 1978,
+    "deathYear": 2020,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "prodigy",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kobe_wikidata",
+      "kind": "wikidata",
+      "title": "Kobe Bryant (Q25369) -- verified live via the Wikidata API (2026-10-15): English label 'Kobe Bryant', description 'American basketball player (1978-2020)', born 23 August 1978, died 26 January 2020, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q25369"
+    },
+    {
+      "id": "src_kobe_hof",
+      "kind": "institution",
+      "title": "Naismith Memorial Basketball Hall of Fame, 'Kobe Bryant' enshrinee page (class of 2020) -- the Hall's biography and quick facts: five NBA championships, eleven All-NBA First Team honours, two Finals MVP awards, 18 All-Star selections, the 2008 MVP, 33,643 career points, the 81-point game, nine All-Defensive First Team selections, three straight titles with Shaquille O'Neal and back-to-back titles in 2009 and 2010, two Olympic golds, and the Hall's stress on his work ethic and never-give-an-inch mindset. CANONICAL SIGNIFICANCE SOURCE. Institutional and celebratory; its statement that he led the NBA in scoring in four seasons conflicts with Olympedia (two scoring titles, 2006 and 2007), so no scoring-title count is used. Read in full.",
+      "url": "https://www.hoophall.com/hall-of-famers/kobe-bryant/"
+    },
+    {
+      "id": "src_kobe_olympedia",
+      "kind": "archive",
+      "title": "Olympedia (olympedia.org), 'Kobe Bryant' athlete biography and Olympic results -- the Olympic historians' database: two Olympic golds (Beijing 2008 and London 2012), a 36-0 record over five USA Basketball national teams, five NBA championships (2000-02, 2009, 2010), two Finals MVP awards, the 2008 MVP, scoring titles in 2006 and 2007, and a 20-year career with one franchise that it records as an NBA record. CANONICAL SIGNIFICANCE SOURCE (second). Statistical reference; passages outside his sporting record were not used. Read in full.",
+      "url": "https://www.olympedia.org/athletes/113621"
+    },
+    {
+      "id": "src_kobe_nba_81",
+      "kind": "institution",
+      "title": "NBA.com Staff, 'Top Moments: Kobe Bryant drops 81 points on Raptors in 2006', 14 September 2021 -- league history of the 22 January 2006 game: 81 points on 28-of-46 shooting in a comeback from 18 down, 27 in the third quarter and 28 in the fourth, 55 in the second half (the second-highest half total in league history, behind Chamberlain's 59), Phil Jackson nearly sitting him at 77 points, and Bryant's own reaction. League source, celebratory; used for the performance facts only. Read in full.",
+      "url": "https://www.nba.com/news/history-top-moments-kobe-bryant-81-points-2006"
+    },
+    {
+      "id": "src_kobe_lakers_finale",
+      "kind": "institution",
+      "title": "NBA.com (Los Angeles Lakers site), 'Kobe Drops 60, Leads Victory in Career Finale', 13 April 2016 -- team-site recap of his last game: 60 points on 22-of-50 shooting after missing his first five shots, 13 unanswered points to finish the 101-96 comeback over Utah from 57-42 down at halftime, and his sixth 60-point game. Team-site recap, celebratory; its passages outside the game itself were not used. Read in full.",
+      "url": "https://www.nba.com/lakers/news/160413_jazzwrap"
+    },
+    {
+      "id": "src_kobe_espn_macmullan",
+      "kind": "press",
+      "title": "Jackie MacMullan, 'Jordan, Russell, Kareem, even the King of Pop -- the astonishing mentors who shaped Kobe Bryant', ESPN, first published 13 April 2016 and republished 5 April 2020 -- long feature on how he sought out basketball legends: Jerry West's rookie-year advice, Michael Jordan's tutoring on the fadeaway and post defence over two decades, Bill Russell on handling high-volume scorers, Kareem Abdul-Jabbar, Magic Johnson's 2009 challenge about his legacy, Hakeem Olajuwon's four-hour post-move session in 2009 and Larry Bird's call, plus the account of a practice elbow that left a teammate in tears and Jordan's reply. Named mentors' quotations make it substantive and non-self; passages outside his basketball development were not used. Read in full through the built-in browser (the page blocks direct download).",
+      "url": "https://africa.espn.com/nba/story/_/id/15193525/jordan-russell-kareem-even-king-pop-astonishing-mentors-shaped-kobe-bryant"
+    },
+    {
+      "id": "src_kobe_espn_jackson",
+      "kind": "press",
+      "title": "Phil Jackson, 'Kobe Bryant and the Triangle', ESPN, 15 May 2013 -- excerpt from Jackson's book 'Eleven Rings' (with Hugh Delehanty) on the 1999-2000 Lakers: Bryant's ambition and imitation of Michael Jordan, his stubbornness as a learner, the February 2000 team meeting at which O'Neal said Bryant was playing too selfishly, Jackson's blunt challenge to him and the exchange about being captain, and the Lakers' 27-1 run to a 67-15 record. The coach's own first-hand account, written years later with a co-author and with the author's own stake, so it is used as one coach's view and never as the sole support for a row. Read in full through the built-in browser (the page blocks direct download).",
+      "url": "https://www.espn.com/nba/story/_/page/jacksonbookexcerpt130519/nba-eleven-rings-phil-jackson"
+    },
+    {
+      "id": "src_kobe_ap_2004",
+      "kind": "press",
+      "title": "Associated Press, 'Excerpts talk of psychological war -- and truce' (ESPN headline 'Dear Diary: Phil Jackson details Kobe clashes'), 12 October 2004 -- wire report on excerpts of Jackson's diary of the 2003-04 season: his description of a 'psychological war' and a truce with Bryant, his statement that Bryant would not listen to anyone, earlier requests to trade him, the Lakers' statement that the book contained inaccuracies and mostly 'Phil's opinions', and Bryant's reply that he had learned from Jackson and respected him. Wire report of a critical coach's book; its passages outside his working relationship with Jackson were not used. Read in full through the built-in browser (the page blocks direct download).",
+      "url": "https://www.espn.com/nba/news/story?id=1900031"
+    },
+    {
+      "id": "src_kobe_espn_markazi",
+      "kind": "press",
+      "title": "Arash Markazi, 'Long a tough, chilly teammate, Kobe Bryant has mellowed and now is a mentor', ESPN Los Angeles Lakers blog, 13 October 2014 -- reporter's account of his changed role in the 2014 preseason with quotations from teammates Robert Sacre and Jeremy Lin and coach Byron Scott: his earlier reputation as a difficult, dismissive teammate who rubbed those who did not work as hard the wrong way, his new mentoring, his talk of a more 'nurturing' approach, and Scott's remark on Julius Randle and Bryant's work ethic. Independent reporting with named teammates, partly admiring. Read in full through the built-in browser (the page blocks direct download).",
+      "url": "https://www.espn.com/blog/losangeles/lakers/post/_/id/40163/long-a-tough-chilly-teammate-kobe-bryant-has-mellowed-and-now-is-a-mentor"
+    },
+    {
+      "id": "src_kobe_espn_harris",
+      "kind": "press",
+      "title": "Eros Villanueva, 'Former Lakers coach Del Harris on what it was like coaching Kobe Bryant', ESPN (Philippines), 12 July 2020 -- report on Harris's webinar remarks: Bryant's work ethic compared with Jordan and Curry, his limited rookie-year minutes and Harris's 'knock out a player' message, his improvement over the next year, and Harris's view that he was not the best teammate early because he was in it to be the best. His first NBA head coach's retrospective, relayed by a reporter; passages outside his coaching relationship were not used. Read in full through the built-in browser (the page blocks direct download).",
+      "url": "https://www.espn.com/basketball/story/_/id/29448689/former-lakers-coach-harris-was-coaching-kobe"
+    },
+    {
+      "id": "src_kobe_espn_mcmenamin",
+      "kind": "press",
+      "title": "Dave McMenamin, 'Kobe looks to shake slump by altering routine', ESPN Los Angeles, 4 March 2010 -- the beat reporter's first-hand account of an unusually long pregame shooting session with assistant coach Chuck Person before a Miami game during a shooting slump, with his remark that Bryant's work ethic is the stuff of legends because he rarely lets anyone see it. Brief beat reporting. Read in full through the built-in browser (the page blocks direct download).",
+      "url": "https://www.espn.com/nba/news/story?id=4966886"
+    },
+    {
+      "id": "src_kobe_nba_redeem",
+      "kind": "institution",
+      "title": "Steve Aschburner (NBA.com), 'Comeback story by Team USA's 2008 Redeem Team immortalized in Springfield', updated 3 September 2025 -- league-site feature on the 2008 US Olympic team: Bryant joining in 2007, setting a tone by defending, diving for 50/50 balls and outworking everyone with 5 a.m. weight-room sessions, his role in the gold-medal win over Spain and his scoring and shot numbers. Feature by a long-time league writer, celebratory and partly drawing on the Netflix documentary, so retrospective. Read in full.",
+      "url": "https://www.nba.com/news/redeem-team-hall-of-fame-feature-2025"
+    },
+    {
+      "id": "src_kobe_si_recruit",
+      "kind": "press",
+      "title": "Alex Kirschenbaum (On SI), 'Lakers: How Team U.S.A. Recruited Kobe Bryant', 9 October 2022 -- recap of the Netflix documentary 'Redeem Team': Mike Krzyzewski on recruiting him and on his choice to show he was all-in by playing defence, and Jerry Colangelo on him diving for loose balls in the first scrimmage. Secondary recap of a documentary, so its quotations are retrospective; one quotation outside the Olympic story was not used, and the page text ends mid-article. Read to the end of the page text available.",
+      "url": "https://www.si.com/nba/lakers/onsi/news/how-team-usa-recruited-kobe-bryant-ak1987"
+    },
+    {
+      "id": "src_kobe_commons_cross",
+      "kind": "institution",
+      "title": "Wikimedia Commons file 'Kobe Bryant1.jpg' and its Flickr source page (Denise Cross, Flickr user LDCross, 19 June 2009, licence shown as Creative Commons Attribution 2.0) -- opened to check the portrait's licence. Not used for any scoring.",
+      "url": "https://www.flickr.com/photos/ldcross/3643463346/"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 82,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kobe_espn_harris, src_kobe_espn_mcmenamin, src_kobe_espn_markazi, src_kobe_nba_redeem, src_kobe_espn_macmullan | 1996-2014 | first NBA head coach + Lakers beat reporter + coach and teammates + league-site feature + long-form feature] Del Harris, his first NBA head coach, says Bryant, like Jordan and Curry, was willing to put in the time; ESPN's Lakers reporter watched him run an unusually long pregame shooting session more than two and a half hours before a 2010 game and wrote that his work ethic is legendary because he rarely lets anyone see it; in 2014 coach Byron Scott said that if Julius Randle had anywhere near Bryant's work ethic he would be an All-Star, and the reporter writes that Bryant rubs those who do not work as hard the wrong way; NBA.com says he outworked everyone on the 2008 US Olympic team with 5 a.m. weight-room sessions; and in winter 2009 he arrived three hours early at the practice facility (MacMullan). Independent coaches, teammates and reporters across eighteen years describe the same routine and none describes a lapse, but most accounts are retrospective or admiring and several rest on a single anecdote, so the score stays at 84 and the confidence at 0.70. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the strongest rows rest mainly on two shared source families (Jackson and MacMullan) plus beat-reporter features; score and confidence lowered."
+    },
+    "competitiveness": {
+      "score": 82,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_kobe_espn_jackson, src_kobe_espn_macmullan, src_kobe_nba_redeem, src_kobe_ap_2004, src_kobe_espn_harris | 1999-2008 | coach's book excerpt + long-form feature + league-site feature + wire report + first head coach] Jackson wrote that Bryant was hell-bent on surpassing Jordan as the greatest player and that his first words to Jordan at a 1999-2000 meeting were that he could beat him one on one; MacMullan reports that he was not content with beating an opponent and needed to break him, and tells of a 2004-05 practice in which he elbowed Sasha Vujacic in the face and left him in tears, after which Jordan, whom he phoned, said that sometimes a teammate has to be hard on others; NBA.com says that in a 2008 Olympic preliminary game against Spain he vowed to flatten Lakers teammate Pau Gasol at the first opportunity and did so; Jackson's 2004 diary calls their relationship a psychological war; Harris says Bryant was in it to be the best and lacked patience for players who could not do what he could. Consistent across a coach, mentors and reporters and dual-edged because the same sources record friction with teammates and coaches; held below 85 because several accounts are anecdotes retold years later. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the strongest rows rest mainly on two shared source families (Jackson and MacMullan) plus beat-reporter features; score and confidence lowered."
+    },
+    "achievement_drive": {
+      "score": 82,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kobe_espn_jackson, src_kobe_hof, src_kobe_espn_macmullan, src_kobe_nba_redeem | 1996-2008 | coach's book excerpt + Hall of Fame + long-form feature + league-site feature] Jackson writes that Bryant told teammates he was shooting for ten championships and was hell-bent on surpassing Jordan, and that he asked Jerry West how West had averaged 30 points a game alongside Elgin Baylor; the Hall of Fame credits his work ethic and never-give-an-inch mindset; MacMullan says that by 14 he had decided his quest for greatness would be a solitary journey; NBA.com says he joined the 2008 US team after reportedly telling Carmelo Anthony he was tired of watching them lose. The goals are documented independently of results (he won five titles, not ten). Held at 82 because the key statements come from Jackson's retelling and the 'tired of watching y'all lose' line is reported as alleged."
+    },
+    "mastery_orientation": {
+      "score": 82,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kobe_espn_macmullan, src_kobe_espn_jackson, src_kobe_espn_markazi, src_kobe_espn_mcmenamin | 1997-2014 | long-form feature with named mentors + coach's book excerpt + teammate quotations + beat reporter] MacMullan documents a pattern across two decades of seeking out masters to learn specific skills: questions to Jordan in 1997 about his fadeaway and in 1998-99 about guarding bigger players (Bryant called it a college education), Bill Russell on handling high-volume scorers, Kareem Abdul-Jabbar on the mind and body, and in 2009 a trip to Hakeem Olajuwon's ranch where he repeated the same post moves for four hours and, Olajuwon says, picked them up faster than the other players Olajuwon has taught, including Howard, Yao Ming and LeBron; Jackson says he studied tapes of Jordan and others as a boy; Jeremy Lin says Bryant has great attention to detail; and the Lakers reporter saw an extended solo shooting session before a game. Specific, named outside experts (Olajuwon, Jordan, West) corroborate the pattern, but the main account is one long feature built around Bryant's own recollections, so the score stays under 85."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kobe_espn_harris, src_kobe_espn_mcmenamin, src_kobe_espn_macmullan, src_kobe_hof | 1996-2010 | first head coach + beat reporter + long-form feature + Hall of Fame] the ESPN report of Harris's remarks says Bryant played 15.5 minutes a game as a rookie after Harris told him he would have to knock out an established player to get his spot, and that he then worked his way into an All-Star by his second season and the league's runner-up Sixth Man; in 2010 the Lakers reporter saw him add a long solo shooting session after a 24-for-70 stretch; Olajuwon says Bryant drilled the same moves for four hours; the Hall of Fame credits a never-give-an-inch mindset. Several consistent episodes, but each is a single anecdote or a coach's summary, and the sources show effort more than recovery from a major failure, so strong inference at 70."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_kobe_espn_jackson, src_kobe_nba_redeem, src_kobe_si_recruit, src_kobe_espn_markazi | 2000-2014 | coach's book excerpt + league-site feature + documentary recap + teammate quotations] Jackson says that when he suggested Bryant might be captain at twenty-five, Bryant replied that he wanted it 'tomorrow', and Jackson answered that a captain needs followers; at the 2008 Olympics NBA.com says he set a tone by defending and diving for 50/50 balls, and Krzyzewski says Bryant chose defence to show the others he was all-in; in 2014 the reporter and teammates describe him taking on a mentor's role, and Jeremy Lin says he has never played with a better leader and mentor. The drive to lead is documented from 2000, but the same sources show it outran his teammates' trust early on, so the impact is dual-edged and the evidence is strong inference."
+    },
+    "collaboration": {
+      "score": 54,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_kobe_espn_jackson, src_kobe_espn_harris, src_kobe_espn_markazi, src_kobe_nba_redeem | 1999-2014 | coach's book excerpt + first head coach + teammate quotations + league-site feature] Jackson's account of the 1999-2000 team meeting has O'Neal saying Bryant was playing too selfishly, with no teammate defending him, and says that after Jackson's challenge Bryant looked for ways to fit the system and socialised more as the Lakers went 27-1; Harris says he was not the best teammate early because he lacked patience for players who could not do what he could, and developed maturity later; in 2014 Robert Sacre said he barely spoke to Bryant in his first season, while Lin and Scott describe a hands-on mentor; at the 2008 Olympics he took 13 shots a game for 15 points on a team led in scoring by Wade (NBA.com). The pattern changed over time and is told mostly by coaches and reporters, so the score is mid-50s with moderate confidence and a dual-edged impact."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_kobe_espn_markazi, src_kobe_espn_macmullan, src_kobe_ap_2004, src_kobe_espn_jackson | 1999-2014 | reporter with teammate quotations + long-form feature + wire report + coach's book excerpt] ESPN's Markazi writes that he was never an easy teammate, was dismissive of those he did not think worth his time and would not sugarcoat, and Robert Sacre says he barely spoke to him in his first season; MacMullan relates the 2004-05 practice in which he elbowed Sasha Vujacic in the face and left him in tears; Jackson's 2004 diary calls their relationship a psychological war with arguments, although the Lakers' statement says the book mostly gave Phil's opinions, and Bryant himself said they had their share of arguments but he respected Jackson as a coach. Several independent accounts of confrontation, but they are mostly characterisations and one coach's disputed diary, so strong inference rather than documented."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_kobe_espn_jackson, src_kobe_espn_macmullan, src_kobe_espn_markazi, src_kobe_si_recruit, src_kobe_ap_2004 | 2000-2014 | coach's book excerpt + long-form feature + teammate quotations + documentary recap + wire report] Jackson says Bryant was a stubborn learner who had to experience failure before an aha moment, and that in early 2000 he began to fit himself into the triangle system; in 2009 he sought out Olajuwon to add post moves; at the 2008 Olympics Krzyzewski says he chose defence to show he was all-in; and in 2014 he described a 'more nurturing' style for a younger team, which Scott and teammates confirm. Documented changes of method across fifteen years, but Jackson's account of his resistance and the 2004 diary suggest he often changed only after conflict, so the score is moderate and dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "코비 브라이언트"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kobe-bryant-denise-cross-2009.jpg",
+    "width": 1165,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Kobe Bryant1.jpg' -- upload of the Flickr photograph photos/ldcross/3643463346 titled 'Disneyland Hosts Victory Parade for Los Angeles Lakers' by Denise Cross (Flickr user LDCross), taken 19 June 2009 at the Lakers' championship victory parade at the Disneyland Resort, Anaheim; Commons licence CC BY 2.0 with a FlickreviewR pass dated 9 August 2011, and the live Flickr page (opened 2026-10-15) shows 'Some rights reserved' (CC BY 2.0) with Denise Cross as the author; original file 1899 x 2848 pixels, cropped to a 1320 x 1360 head-and-shoulders area and downscaled once to 1165 x 1200 (never upscaled).",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Denise Cross (LDCross), 19 June 2009, CC BY 2.0, cropped and downscaled from the original",
+    "attributionUrl": "https://www.flickr.com/photos/ldcross/3643463346/",
+    "creator": "Denise Cross (LDCross)",
+    "date": "2009-06-19",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kobe_Bryant1.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q25369 returned en label 'Kobe Bryant', description 'American basketball player (1978-2020)', born 1978-08-23, died 2020-01-26, citizenship United States (Q30), ko label '코비 브라이언트'; the lead's QID hint was correct. SLUG/QID CHECK: no existing candidate file, production roster entry or QID collision anywhere in the worktree. PREFLIGHT (done before deep reading): region north_america is valid; zero politics (nothing political is scored); at least two independent perspectives and several substantive non-self behavioural sources were identified; a canonical significance source and a rights-clear portrait were found. CANONICAL SIGNIFICANCE SOURCE: Naismith Memorial Basketball Hall of Fame enshrinee page (https://www.hoophall.com/hall-of-famers/kobe-bryant/), with the Olympedia athlete biography (https://www.olympedia.org/athletes/113621) as a second overview. DECEASED SUBJECT (died 2020): only documented, public professional conduct is scored -- work ethic and preparation as described by coaches, teammates, mentors and reporters, on-court and Olympic conduct, and relationships with teammates and coaches as professional behaviour. Excluded entirely: the 2003 allegation and the criminal and civil matters that followed, family and private life, finances, the circumstances of his death and anything after it, injuries and medical detail, and post-playing ventures. Several sources carry such passages (Olympedia, the MacMullan feature, the AP report on Jackson's diary, the Lakers finale recap, the Harris report, an On SI recap) and none of it is used or inferred from; nothing is inferred from bereavement or death. READ (12 substantive sources, plus Wikidata and Commons/Flickr for identity and portrait only): Naismith Hall of Fame page; Olympedia; NBA.com history of the 81-point game; NBA.com Lakers recap of the final game; ESPN's Jackie MacMullan feature on his mentors; Phil Jackson's 'Eleven Rings' excerpt on ESPN; the Associated Press report on Jackson's 2003-04 diary; ESPN's Arash Markazi on his 2014 mentoring; ESPN's report on Del Harris's remarks; ESPN's Dave McMenamin on a 2010 pregame session; NBA.com's Steve Aschburner on the 2008 Redeem Team; On SI's recap of the Redeem Team documentary (recruitment). The ESPN and On SI pages block direct download, so they were read in full through the built-in browser's page text. Also read but not used: a second On SI recap (Carlos Boozer and Carmelo Anthony on his early-morning workouts) because it contains a factual slip (it names Dallas as the 2008 Finals opponent), and an excerpt of Lee Jenkins's 2013 Sports Illustrated cover story (only a fragment was available and it is largely his own words and medical detail). PERSPECTIVES: league, Hall of Fame and Olympic-record institutions; his first NBA head coach (Del Harris); his championship coach Phil Jackson, in a book excerpt and a 2004 diary that the club itself called largely 'Phil's opinions'; Olympic coach Mike Krzyzewski and USA Basketball director Jerry Colangelo (documentary recap); coach Byron Scott and teammates Robert Sacre and Jeremy Lin (2014); outside masters Michael Jordan, Jerry West, Magic Johnson, Bill Russell, Kareem Abdul-Jabbar, Hakeem Olajuwon and Larry Bird (MacMullan); beat and national reporters (ESPN, AP, NBA.com); and his own words, marked as self and never the sole support for a row. CALIBRATION: the sources are mostly retrospective and admiring or from inside his circle, with real critical voices (Jackson on selfishness and a 'psychological war', Harris on his early teammate relations, Markazi on a difficult teammate), which is why no score exceeds 84, no confidence exceeds 0.70, and the interpersonal rows (competitiveness, leadership drive, collaboration, conflict tolerance, adaptability) are dual-edged or moderate. Nine rows are supportable and the sparseness is deliberate: curiosity overlaps the mastery episodes, and risk-taking, planning, detail orientation, deep focus, perfectionism and film study rest on a single teammate remark or on material not read, so none was scored. DISAGREEMENTS NOTED: the Hall of Fame says he led the NBA in scoring in four seasons while Olympedia gives two scoring titles (2006 and 2007) and NBA.com gives the 2005-06 lead, so no scoring-title count is used; Olympedia dates his draft '1997' while Jackson's excerpt and the Harris report say 1996, so no draft year is used; Jackson's accounts are one coach's view and the Lakers' own statement called the 2004 diary mostly 'Phil's opinions'; NBA.com reports the 'tired of watching y'all lose' remark as alleged, and the Redeem Team recaps rest on the Netflix documentary and are retrospective. NOT OPENED: Olympics.com (Access Denied), Sports Illustrated Vault features (pages return 404), the Netflix documentary itself, his own books (self), 'Eleven Rings' beyond the ESPN excerpt, Jackson's 'The Last Season' beyond the AP report, Jeff Pearlman's 'Three-Ring Circus', New York Times and Los Angeles Times coverage (not reachable), The Ringer's 2020 retrospective (published after his death and skipped), and ESPN's 2015 'all-day process' feature (seen only as a fetch summary, and about injuries and body maintenance, so not used). PORTRAIT: Commons 'Kobe Bryant1.jpg', the Flickr photograph by Denise Cross (user LDCross) of the Lakers' victory parade at Disneyland on 19 June 2009, titled 'Disneyland Hosts Victory Parade for Los Angeles Lakers'; the Commons page shows CC BY 2.0 with a FlickreviewR pass (9 August 2011) and the live Flickr page opened on 2026-10-15 shows licence id 4 (CC BY 2.0) with Denise Cross as author; no restriction or personality-rights template on that file page (a derivative edit of the same photo, 'Kobe Bryant Disney Parade.jpg', carries the generic Commons personality-rights notice); no conflicting notice was found; the image was downloaded at 1899 x 2848, cropped to 1320 x 1360 around his head and shoulders and downscaled once to 1165 x 1200, never upscaled. Not used: the Christopher Johnson Flickr photograph from the 2012 Olympic exhibition (the Flickr page now says All Rights Reserved after a licence change); Keith Allison's 2015 portrait (its Flickr source page now returns 404 and the Commons file has an AI-upscale overwrite history); Pete Souza's White House photograph (the usage conditions on official White House photographs and a Commons personality-rights tag); a Department of Defense photograph taken at Arlington National Cemetery (publicity and non-endorsement conditions, and a cemetery setting that does not suit a profile image); and Erik Drost's 2016 photograph (CC BY 2.0 but too soft when cropped). LEAD REVIEW (Roster50): 2 rows lowered before eligibility (the strongest rows rest mainly on two shared source families (Jackson and MacMullan) plus beat-reporter features)."
+  }
+}

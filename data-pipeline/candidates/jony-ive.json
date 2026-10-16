@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jony-ive",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jony Ive",
+    "aliases": [
+      "Jonathan Ive",
+      "Jonathan Paul Ive",
+      "Sir Jonathan Ive"
+    ],
+    "wikidataId": "Q164750",
+    "birthYear": 1967,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB",
+      "US"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "product_designer"
+    ],
+    "fieldIds": [
+      "design",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "detail_oriented",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ive_wikidata",
+      "kind": "wikidata",
+      "title": "Jony Ive (Q164750) -- verified live via the Wikidata API (2026-10-15): English label 'Jony Ive', description 'English designer and former Chief Design Officer at Apple (born 1967)', born 27 February 1967, no date of death, citizenship listed as United Kingdom and United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q164750"
+    },
+    {
+      "id": "src_ive_designmuseum",
+      "kind": "institution",
+      "title": "Design Museum (London), 'Jonathan Ive' designer profile (page first posted 3 October 2014) -- museum profile of the winner of its inaugural Designer of the Year award (2003, for the iMac and iPod): says he combined 'fanatical care beyond the obvious stuff' (his phrase) with relentless experiments into new tools, materials and production processes; that working closely with Steve Jobs he developed the iMac, which sold more than 2 million units in its first year and brought colour and light to the drab world of computing; that he and a close-knit team applied the same attention to detail to later products; lists the iMac, iPod, MacBook Air, iPhone and iPad as innovations; and carries a timeline and a 2007 question-and-answer text in Ive's own words (SELF: used only to corroborate other accounts and for his stated reason for moving from consultancy to Apple). CANONICAL SIGNIFICANCE SOURCE (museum assessment of his primary contribution; honouring in tone). Read in full.",
+      "url": "https://designmuseum.org/designers/jonathan-ive"
+    },
+    {
+      "id": "src_ive_raeng",
+      "kind": "award_body",
+      "title": "Royal Academy of Engineering, President's Medal 'Previous winners' page -- lists the 2005 medal to Jonathan Ive (then Vice-President of Industrial Design at Apple) for outstanding achievements in engineering design, in particular the design of the iPod, which the Academy says represents the very best of human interface engineering. Academy citation (honouring), used for the achievement cards only. Read in full.",
+      "url": "https://raeng.org.uk/programmes-and-prizes/prizes/presidents-medal/previous-winners/"
+    },
+    {
+      "id": "src_ive_cooperhewitt",
+      "kind": "award_body",
+      "title": "Cooper Hewitt, Smithsonian Design Museum, 'Product Design: Jonathan Ive, Apple Inc.' National Design Awards profile (page dated 17 September 2019; the same text appears in the museum's 2007 product-design award announcement as reproduced by MacDailyNews, which was also read) -- says that since 1996 he has led an Apple product-design team widely regarded as one of the industry's best, that his streamlined aesthetic combined with knowledge of the engineering process brought design into public consciousness, that he made complex devices user-friendly and designed sculptural, desirable objects, and notes his Design Museum Designer of the Year title (2003) and his Royal Designer for Industry title. Museum and award-body statement (honouring), used for orientation and the achievement cards. Read in full.",
+      "url": "https://www.cooperhewitt.org/2019/09/17/product-design-jonathan-ive-apple/"
+    },
+    {
+      "id": "src_ive_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica (Britannica Money), 'Jony Ive' biography by Janet Moredock, fact-checked by Britannica's editors -- encyclopaedic overview: a British industrial designer who helped make design as central to a personal computer's appeal as its technical performance during his time at Apple (1992-2019); Tangerine, joining Apple, the 1998 iMac (two million sold in 1998, helping deliver Apple's first profitable year since 1995), the G4 Cube, flat-panel iMac and PowerBook G4, shaping the iPod, iPhone and iPad, involvement in the Apple Watch and Apple Park, awards, the founding of LoveFrom and the 2021 Ferrari partnership. Reputable field overview used for orientation and the achievement cards; its dating of his senior-vice-president promotion is internally inconsistent (1997 and 2005) and was not relied on, its D&AD wording ('best design studio of the past 50 years') differs from D&AD's own 'most awarded' category, and its section on the OpenAI deal was not used. Read in full.",
+      "url": "https://www.britannica.com/money/Jony-Ive"
+    },
+    {
+      "id": "src_ive_newyorker",
+      "kind": "press",
+      "title": "Ian Parker, 'The Shape of Things to Come', The New Yorker, 16 February 2015 -- very long profile based on extended access to Ive and his design studio and on interviews with named colleagues, friends and critics (Robert Brunner, Clive Grinyer, Bob Mansfield, Jeff Williams, Dan Riccio, Paola Antonelli, Richard Seymour, Laurene Powell Jobs, Tim Cook and designers in the studio): the studio's prototyping workshop and team method, the 1997 meeting with Steve Jobs and the iMac, the dispute over his role in the iPod, the iPhone and Apple Watch processes, Human Interface and iOS 7, Apple Park, and critical notes (the hockey-puck mouse, the 'skinning' remark, a former colleague's remark about internal positioning, disposability and luxury pricing). Independent, balanced and sceptical in places. It also covers his family, homes, cars, wealth, health and Tim Cook's personal life, none of which was used. Read in full.",
+      "url": "https://www.newyorker.com/magazine/2015/02/23/shape-things-come"
+    },
+    {
+      "id": "src_ive_wired",
+      "kind": "press",
+      "title": "David Pierce, 'Apple Watch: The Secret History of the iPhone Killer', Wired, 2 April 2015 (May 2015 issue) -- reporting on how the Watch was developed, mostly through named insiders Kevin Lynch and Alan Dye: Ive began studying horology after Steve Jobs's death and took the idea to Dye and a small group in the design studio, the first working prototype was an iPhone rigged to a wrist strap with a custom crown dongle, many Taptic prototypes were tested, and Ive was the decider who was hard to please on sounds and taps, which took more than a year. Independent, company-approved interviews and admiring in tone. Read in full.",
+      "url": "https://www.wired.com/2015/04/the-apple-watch/"
+    },
+    {
+      "id": "src_ive_guardian",
+      "kind": "press",
+      "title": "Ian Sample, profile of Jonathan Ive headlined 'He is the quintessential designer. He knows more than anyone what we will have in our hands in five years', The Guardian, 5 January 2007 -- short newspaper profile with colleagues and a former tutor: describes him dismantling an iBook on stage for over an hour and pointing to a tiny bespoke toolset built into its casing, his final-year project at Newcastle, the Tangerine period (he bought marine-biology books for ideas before pitching a bathroom suite) and quotes from Bob Young, Martin Darbyshire and the Design Council's David Kester. Independent and admiring; its family and home details and its career dates (which differ from other sources) were not used. Read in full.",
+      "url": "https://www.theguardian.com/technology/2007/jan/05/design.digitalmedia"
+    },
+    {
+      "id": "src_ive_metropolis",
+      "kind": "press",
+      "title": "Jennifer Kabat, 'Jonathan Ive: Product Design', Metropolis, 1 January 2006 -- design-magazine profile of Ive and his small, secretive team: design, engineering and software developing in tandem, his interest in a product's internal architecture as well as its exterior, the iBook sleep light and iMac handle, the iMac G5 camera detail, and a culture in which colleagues feel safe failing together. Independent but admiring; its claim that no designer had quit conflicts with Parker's report that two had left. Read in full.",
+      "url": "https://metropolismag.com/programs/jonathan-ive-product-design/"
+    },
+    {
+      "id": "src_ive_icon",
+      "kind": "press",
+      "title": "Marcus Fairs, 'Jonathan Ive', Icon magazine, issue 004 (July/August 2003; online record dated 21 March 2007) -- interview the morning after his Designer of the Year win: the iMac, the second-generation iMac and the iPod, solutions that should seem inevitable, honest use of materials, no focus groups, early collaboration with Steve Jobs and the hardware and software teams, and prototyping and iterating (mostly Ive's own words; the writer describes the team as craftspeople rather than stylists). Read in full.",
+      "url": "https://www.iconeye.com/back-issues/jonathan-ive-icon-004-july-august-2003"
+    },
+    {
+      "id": "src_ive_fortune2009",
+      "kind": "press",
+      "title": "Philip Elmer-DeWitt, 'A fireside chat with Apple's Jonathan Ive', Fortune, 1 July 2009 -- short report on his talk at the Royal College of Art that relays the BBC's Rory Cellan-Jones: no focus groups, the physicality of design (a noisy workshop, visits to Japanese aluminium craftsmen, a preference for making a physical prototype), and the Apple design ethic. Secondary and mostly Ive's own talk. Read in full.",
+      "url": "https://fortune.com/2009/07/01/a-fireside-chat-with-apples-jonathan-ive"
+    },
+    {
+      "id": "src_ive_dad",
+      "kind": "press",
+      "title": "Emilie Chalcraft, 'Apple named best design studio of past 50 years at one-off D&AD ceremony', Dezeen, 20 September 2012, reproducing D&AD's press release -- D&AD's 50th-birthday awards to the entrants with the most Pencils: Apple's design team received the Design Studio and Brand awards, with D&AD crediting the 'inspirational leadership of Sir Jonathan Ive' and the care the team puts into development. D&AD's own category is 'most awarded' (by Pencil count), which Dezeen's headline paraphrases as 'best'. Independent design press plus award-body text; honouring. Read in full.",
+      "url": "https://www.dezeen.com/2012/09/20/apple-named-best-design-studio-of-past-50-years-at-one-off-dad-awards/"
+    },
+    {
+      "id": "src_ive_dezeen_kahney",
+      "kind": "press",
+      "title": "Rose Etherington, 'Jony Ive \"more important to Apple now than Steve Jobs was\"', Dezeen, 13 December 2013 -- interview with Leander Kahney about his biography of Ive: the iMac as the turning point, the Jobs-Ive partnership, a design-led culture of iterative prototyping (about six prototypes before the iPhone), designers who take a product from conception to manufacture, and his view that Apple would be in trouble if Ive left. Opinionated and admiring, with one prediction that proved wrong (he did not expect Apple to make a watch). Secondary account of the biography's findings. Read in full.",
+      "url": "https://www.dezeen.com/2013/12/13/interview-with-leander-kahney-author-of-jony-ive-the-genius-behind-apples-greatest-products/"
+    },
+    {
+      "id": "src_ive_dezeen2019",
+      "kind": "press",
+      "title": "Augusta Pownall, 'Jony Ive to leave Apple and start an independent design company', Dezeen, 28 June 2019 -- news report of the announcement that he would leave Apple later that year to found LoveFrom with Apple as a client, with statements from Ive and Tim Cook, the successor arrangement (Evans Hankey and Alan Dye reporting to Jeff Williams), his Financial Times remarks and his work with Foster + Partners on Apple Park. Independent news report largely reproducing company statements. Read in full.",
+      "url": "https://www.dezeen.com/2019/06/28/jony-ive-leaves-apple-starts-lovefrom/"
+    },
+    {
+      "id": "src_ive_tidbits",
+      "kind": "press",
+      "title": "Josh Centers, 'Jony Ive Leaving Apple to Form a New Company', TidBITS, 27 June 2019 -- short Apple-news commentary that credits him with the original iMac, iPod and iPhone but lists flops during his tenure (the iPod Hi-Fi, round Mac Pro, Magic Mouse 2 and first-generation Apple Pencil) and argues that a 'fetish for thinness' drove unpopular decisions such as the butterfly keyboard. Opinion rather than reporting; reader comments under the piece were not used. Critical independent voice. Read in full.",
+      "url": "https://tidbits.com/2019/06/27/jony-ive-leaving-apple-to-form-a-new-company/"
+    },
+    {
+      "id": "src_ive_cnbc",
+      "kind": "press",
+      "title": "Todd Haselton, 'Apple is finally willing to make gadgets thicker so they work better', CNBC, 13 November 2019 -- technology column arguing, as a stated theory, that post-Ive Apple products traded some thinness for function (battery life, a better keyboard), crediting Ive with great products while saying thinness sometimes came at the cost of function, and noting a Bloomberg report that the glass at Apple Park led people to walk into windows. Independent, partly critical commentary that is speculative about causes. Read in full.",
+      "url": "https://www.cnbc.com/2019/11/13/apple-is-finally-willing-to-make-gadgets-thicker-so-they-work-better.html"
+    },
+    {
+      "id": "src_ive_oxford",
+      "kind": "institution",
+      "title": "University of Oxford Department of Computer Science, 'Apple's Chief Design Officer Sir Jonathan Ive to receive honorary degree', 31 March 2016 -- the nominating department's announcement of his honorary degree at Encaenia on 22 June 2016, describing his influential contributions to industrial design as chief designer of products including the original iMac, iPod and iPhone and saying they changed how people think about and interact with technology. Institutional and honouring. Read in full.",
+      "url": "https://www.cs.ox.ac.uk/news/1099-full.html"
+    },
+    {
+      "id": "src_ive_cambridge",
+      "kind": "institution",
+      "title": "University of Cambridge, 'Honorary Degrees 2016' news page with its honorand biographies -- reports that a Doctor of Science was conferred on Sir Jonathan Ive in recognition of his impact on the world of computing and in making technology approachable through design, and that he is credited with introducing elegance, purity and beauty to personal-computer design; the biography says his team designed the iMac, PowerBook, iBook, iPod, iPhone, iPad, Apple Watch and MacBook, that Steve Jobs referred to him as his creative partner, that six of his products are in the permanent collection of the Museum of Modern Art, and lists his Design Museum, Royal Society of Arts, CBE (2006) and KBE (2012) honours. Institutional and honouring. Read in full (the other honorands' entries were not used).",
+      "url": "https://www.cam.ac.uk/news/honorary-degrees-2016"
+    },
+    {
+      "id": "src_ive_dezeen_ferrari",
+      "kind": "press",
+      "title": "Jennifer Hahn, 'Jony Ive and Marc Newson shun touchscreens for interior of Ferrari's first electric car', Dezeen, 13 February 2026 -- report on the Ferrari Luce interior and interfaces designed with LoveFrom: mechanical controls, a CNC-machined recycled-aluminium steering wheel, buttons developed through more than 20 evaluation tests with Ferrari test drivers, a colour-changing key fob and a material palette of recycled aluminium and glass. Largely relays Ferrari's and the design team's statements; the only post-Apple project used in this profile. Read in full.",
+      "url": "https://www.dezeen.com/2026/02/13/jony-ive-marc-newson-lovefrom-ferrari-luce-interior/"
+    },
+    {
+      "id": "src_ive_kirkus",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of Leander Kahney's 'Jony Ive: The Genius Behind Apple's Greatest Products' (released 14 November 2013) -- short trade review calling the book an adulating biography of Apple's design chief, built on many interviews with designers and former Apple employees despite Apple's secrecy; used only to calibrate how admiring the biographical literature is (its remarks on early life and health were not used). Read in full.",
+      "url": "https://www.kirkusreviews.com/book-reviews/leander-kahney/jony-ive/"
+    },
+    {
+      "id": "src_ive_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Jonathan Ive 2009.jpg', with the Internet Archive snapshot (13 April 2024) of the Flickr photo page it was imported from (the live Flickr page now returns 404) -- checked for the portrait's licence: photograph credited on Commons to Gary Cohen (Flickr account 'glub') taken 16 April 2009 at the London premiere of the documentary 'Objectified', Flickr-reviewed on Commons on 26 October 2011 as CC BY-SA 2.0; the archived Flickr page shows 'Some rights reserved', licence CC BY-SA 2.0, title 'Jonathan Ive Objectified', taken 16 April 2009. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Jonathan_Ive_2009.jpg"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 82,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ive_newyorker, src_ive_wired, src_ive_guardian, src_ive_metropolis, src_ive_designmuseum, src_ive_dad | 2006-2015 | long-form magazine profile + technology magazine feature + newspaper profile + design-magazine profile + museum profile + award-body text] Parker (2015) reports that he has an opinion about every detail of the studio's work, that he insisted on simplifying the elevator control panels at the Apple Park campus after what he called a big fight, and that he was still revising the campus visitor-centre design late in the project; Wired reports that for the Watch's sounds and taps he was the hard-to-please decider and that it took more than a year to satisfy him; the Guardian (2007) describes him dismantling an iBook on stage for over an hour and pointing to a tiny bespoke toolset built into its casing, and quotes Tangerine's chief executive on his attention to detail; Metropolis (2006) points to details such as the iBook's breathing sleep light and quotes his regret that early versions of the iMac G5 were dominated by the camera in its bezel; the Design Museum quotes his own phrase 'fanatical care beyond the obvious stuff' and D&AD credits the passion and utmost care his design team puts into development. Four independent publications between 2006 and 2015 describe specific episodes and two institutions say the same in general terms; none disputes the trait, but the tone is largely admiring and part of the wording is his own, so documented at a moderate-high confidence. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the behavioural account rests heavily on two access-granted long-form profiles (The New Yorker, Wired) written inside the studio, with institutional pages that are admiring; score and confidence lowered."
+    },
+    "aesthetic_sensitivity": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ive_cooperhewitt, src_ive_cambridge, src_ive_designmuseum, src_ive_newyorker, src_ive_wired, src_ive_tidbits, src_ive_cnbc | 2007-2019 | award body + university + museum + long-form profile + technology magazine + critical commentary] The Cooper Hewitt says he designed sculptural, desirable objects, Cambridge says he is credited with bringing elegance, purity and beauty to personal-computer design, and the Design Museum says the iMac brought colour and light to computing; Parker reports him objecting that a proposed orange-brown box lining looked like carpeting in a dismal student flat, describing tangency breaks and Bezier surfaces in the corners of products and app icons, MoMA's design curator calling the breathing sleep light just amazing, and a British designer who has known him for years calling his approach emotionally warm modernism; Wired reports that he rejected Watch sounds as too metallic or not organic enough. Dual-edged because TidBITS argues that a 'fetish for thinness' under Ive led to unpopular trade-offs such as the butterfly keyboard and lists flops from his tenure, and CNBC says his products were gorgeous but, at least with the older MacBook keyboard, sometimes at the cost of function, while calling its explanation for Apple's later shift a theory. The sensitivity itself is documented by several independent voices, but the praise is largely institutional and the criticism is commentary rather than reporting, so documented at a moderate-high confidence. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the behavioural account rests heavily on two access-granted long-form profiles (The New Yorker, Wired) written inside the studio, with institutional pages that are admiring; score and confidence lowered."
+    },
+    "perfectionism": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ive_wired, src_ive_newyorker, src_ive_metropolis | 2006-2015 | technology magazine + long-form profile + design magazine] Wired reports that in weekly reviews of the Watch's sounds and Taptic taps he rejected versions as too metallic or not organic enough and that reaching sounds he was happy with took more than a year; Parker reports that it took a year before he settled on the Watch's click-in straps, quotes him on the campus visitor-centre design ('we should be done, but we're still redoing and redoing') and quotes him that everything the studio makes could be described as partially wrong because it is not perfect, which he treats as a reason to try to fix it next time; Metropolis (2006) calls the studio's translation of ideas into products a process of obsessive perfectionism and quotes his regret that early versions of the iMac G5 were dominated by the camera. Three independent outlets over nine years agree, but the standard is mostly shown through his own words and colleagues' accounts in admiring features, so documented at a moderate-high confidence. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the behavioural account rests heavily on two access-granted long-form profiles (The New Yorker, Wired) written inside the studio, with institutional pages that are admiring; score and confidence lowered."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ive_newyorker, src_ive_wired, src_ive_icon, src_ive_designmuseum, src_ive_fortune2009, src_ive_dezeen_kahney | 2003-2015 | long-form profile + technology magazine + design magazine + museum + business magazine + design-press interview] Parker reports that each studio table holds one product or concept, some meant for market in three to five years 'or never', that iPhone 6 prototypes were lined up at every tenth of an inch of screen size and carried around for days, that the first Watch model was built six weeks into the project and watch bands were tested by wearing them outside the studio, and quotes him that most explorations do not continue; Wired reports that the first Watch prototype was an iPhone rigged to a wrist strap with a custom crown dongle and that many Taptic prototypes were tested, each with a slightly different feel; Icon (2003) quotes him that the team makes a lot of models and prototypes and iterates, and Fortune (2009) that he likes to make a physical prototype and feel its weight; the Design Museum summarises his work as relentless experiments with new tools, materials and production processes, and Kahney says about six prototypes preceded the iPhone. Six outlets over twelve years describe iterative prototyping as the team's method, so documented at a moderate-high confidence; some descriptions are his own or the biographer's, hence not higher. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the behavioural account rests heavily on two access-granted long-form profiles (The New Yorker, Wired) written inside the studio, with institutional pages that are admiring; score and confidence lowered."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ive_wired, src_ive_newyorker, src_ive_guardian | 2007-2015 | technology magazine + long-form profile + newspaper profile] Wired reports that after Steve Jobs's death he began a deep investigation of horology, studying how reading the sun's position led to clocks and then watches, and that it became an obsession that turned into the Watch; Parker adds that while the Watch was in development he invited historians and astronomers to lecture in the studio; the Guardian (2007) says that before pitching a bathroom suite at Tangerine he bought marine-biology books and scoured them for ideas from nature. Three independent outlets describe three self-directed excursions beyond the immediate brief, but each is a single-source episode and the characterisation of motive is the writers', so documented at a moderate confidence."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ive_newyorker, src_ive_fortune2009, src_ive_designmuseum, src_ive_icon | 2003-2015 | long-form profile + business magazine + museum + design magazine] Parker reports that he designed the studio around in-house milling machines and a colour lab, holding that bad industrial design often starts in ignorance of what a material can and cannot do, and describes years of investigations into new materials and months spent in Asian factories enforcing cutting paths; Fortune (2009) relays his visits to Japanese aluminium craftsmen to learn how the metal could be made into a laptop casing; the Design Museum summarises his work as relentless experiments with new tools, materials and production processes; Icon (2003) quotes him on laser-welding differently gauged aluminium parts inside a laptop, parts nobody sees; Robert Brunner tells Parker that Ive raised the craft of industrial design to a level it had not reached before. The pattern is consistent across outlets, but the commitment is shown through descriptions of investments and his own accounts rather than a measured improvement over time, so strong inference at a moderate confidence."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ive_wired, src_ive_newyorker | 2000-2015 | technology magazine + long-form profile] Wired reports that just after Steve Jobs's death in October 2011 he began dreaming about a watch and soon brought the idea to Alan Dye and a small group in the design studio, before any product purpose had been defined; Parker reports that around 2000 he designed the studio with milling machines integrated into it, that he asked Apple's engineers to build the Digital Crown the studio had ordered up, that he and Dan Riccio spent eight weeks at the South Korean contract manufacturer to get an early iMac revision into production, and that after Jobs's death he and Tim Cook spent a lot of time discussing a software role for him, which became his leadership of Human Interface in 2012. Several self-initiated moves in different decades, though some rest on colleagues' accounts and his own telling, so documented at a moderate confidence."
+    },
+    "collaboration": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ive_newyorker, src_ive_wired, src_ive_metropolis, src_ive_guardian | 2006-2015 | long-form profile + technology magazine + design magazine + newspaper profile] Parker reports that each studio project has a lead designer but almost everyone contributes to every project and shares the credit, that team meetings are held in the kitchen two or three times a week with Ive encouraging candour, that Robert Brunner says the designers play together, work together and protect each other, and quotes Steve Jobs saying Ive was his spiritual partner with whom he thought up most Apple products; Wired describes weekly joint reviews with the software and interface teams and Alan Dye's account of a small group living in the design studio during the iOS 7 push; Metropolis (2006) says colleagues feel safe failing together; the Guardian calls them his small team of trusted designers. Counter-evidence is limited: a former colleague told Fast Company that Ive has a political agenda about his positioning (relayed by Parker, who notes that the colleague's remarks were otherwise admiring), and Bob Mansfield mentions colleagues' pique at Ive's privileged access to Jobs; unnamed-source reports of designers leaving in 2018-19 are not used. Several independent outlets agree on the team structure, but most evidence is descriptive and from admiring sources, so documented at a moderate confidence. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the behavioural account rests heavily on two access-granted long-form profiles (The New Yorker, Wired) written inside the studio, with institutional pages that are admiring; score and confidence lowered."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ive_designmuseum, src_ive_icon, src_ive_guardian, src_ive_newyorker | 1989-2015 | museum + design magazine + newspaper profile + long-form profile] The Design Museum says the iMac transformed product design by bringing colour and light to computers that had been grey or beige; Icon (2003) calls the second-generation iMac, with its dome-shaped base and arm-mounted flat screen, unlike any computer before it; the Guardian (2007) quotes his former tutor that his final-year project, a pebble-like object proposed as an alternative to cash and cards, showed a talent seen once in a lifetime of teaching; Parker reports the Watch's asymmetric Digital Crown and his aim of the 'strangely familiar'. Credit is shared and contested: Parker reports that Tony Fadell, whom he credits with much of the iPod's functionality, said Ive's role was to skin it (Tim Cook disputes this) and that Jobs took much of the credit for the iMac although most accounts say the studio had come up with something like it before his return. Several distinct, independently reported episodes, but with contested attribution of originality inside team products, so strong inference at a moderate confidence."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ive_metropolis, src_ive_newyorker, src_ive_wired, src_ive_icon | 2003-2015 | design magazine + long-form profile + technology magazine + design magazine] Metropolis (2006) reports that at Apple design, engineering and software development proceed in tandem and that he is as concerned with a product's internal architecture as with its exterior; Parker quotes Bob Mansfield that by the iPhone he was involved in fundamentals such as how to build products efficiently, the technology and how to cool them, and reports that he and Dye decided to avoid the screen edge to blur the line between hardware and software, with the Watch typeface echoing the case's rounded squareness; Wired says iOS 7 marked his ascendance over all Apple design; Icon (2003) quotes him attributing the iPod's success to the integration of hardware, software and physical interface. The pattern is consistent across outlets, but several statements are his own or describe a team decision, so strong inference at a moderate confidence."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ive_newyorker, src_ive_guardian, src_ive_dezeen_kahney, src_ive_britannica | 1992-2019 | long-form profile + newspaper profile + biographer interview + encyclopaedia] The Guardian (2007) says that when he joined Apple in 1992 the company was in disarray and he at first found the work frustrating, and Kahney says he struggled for five years to get his designs made before Jobs returned; Parker reports that in the mid-1990s he was close to leaving (Clive Grinyer), that Robert Brunner recommended him as his successor and later tried to tempt him to Pentagram, that Ive told Brunner he had to wait it out, and that, assuming the worst, he had a resignation letter in his pocket when Jobs returned; Britannica dates his Apple career to 1992-2019. Several independent accounts of staying through a lean period and a long tenure, but tenure alone is weak evidence and the letter detail is reported without a named source. Unnamed-source reports from 2019 that he was less involved after 2015 were disputed by Apple's chief executive and are not used; they could temper this row for 2015-2019, which the evidence above does not cover. So strong inference at a moderate confidence."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ive_guardian, src_ive_designmuseum, src_ive_newyorker, src_ive_dezeen_ferrari | 1989-2026 | newspaper profile + museum + long-form profile + design press] At the Tangerine consultancy he worked on projects from bathroom ceramics to power tools and televisions (Guardian, Design Museum), and Tangerine's chief executive says he can work on anything; at Apple, Parker reports his remit running through Human Interface (typefaces, icons, sounds), the staircases, signage and precast 'void slabs' of the Apple Park campus, and occasional outside pieces such as a box for a fashion designer's book; Dezeen (2026), relaying Ferrari, reports that after Apple his studio LoveFrom designed the interior and interfaces of the Ferrari Luce. All the work is design, so this is range across product types and scales rather than across unrelated fields, and the later items rest on company statements, hence strong inference at a moderate confidence."
+    },
+    "ambiguity_tolerance": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ive_wired, src_ive_newyorker, src_ive_metropolis | 2006-2015 | technology magazine + long-form profile + design magazine] Wired reports that Apple decided to make a watch and only then worked out what it was for, with the purpose emerging slowly during prototyping and the software being rebuilt more than once; Parker quotes him that in autumn 2011 the watch project was still tentative and very fragile and that the studio explores many things knowing most will not continue; Metropolis (2006) quotes him that early ideas can be rather fragile and says the team feels safe failing together. Three independent outlets describe open-ended exploration, but the decision to start without a defined purpose was Apple's and the quotes are his own, so strong inference at a moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조너선 아이브"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jony-ive-cohen-2009.jpg",
+    "width": 800,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Jonathan Ive 2009.jpg' -- photograph credited on Commons to Gary Cohen (the Flickr source account is 'glub', and the Flickr page itself shows only that username, so the real-name credit rests on the Commons upload record), taken 16 April 2009 (EXIF and Flickr both 2009-04-16 13:00 UK time, Canon EOS-1D Mark III) at the London premiere of Gary Hustwit's documentary 'Objectified'; imported from Flickr (photos/glub/3453126580, 'Jonathan Ive Objectified') and Flickr-reviewed on Commons on 26 October 2011 as CC BY-SA 2.0; the Flickr page is no longer live (HTTP 404 on 15 October 2026), but the Internet Archive snapshot of 13 April 2024 shows 'Some rights reserved' with CC BY-SA 2.0 and the same title, description and date; the file carries no restriction or personality-rights template, and the original JPEG has no embedded copyright, artist or rights field. Original 2173 x 3260 pixels (sha1 matches the Commons record), downscaled once to 800 x 1200 (never upscaled).",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Photo: Gary Cohen (Flickr: glub), 16 April 2009, CC BY-SA 2.0, downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Jonathan_Ive_2009.jpg",
+    "creator": "Gary Cohen (Flickr: glub)",
+    "date": "2009-04-16",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Jonathan_Ive_2009.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q164750 returned en label 'Jony Ive', description 'English designer and former Chief Design Officer at Apple (born 1967)', born 1967-02-27, no death date, citizenship United Kingdom and United States, ko label '조너선 아이브' (the Korean Wikipedia title is the same); the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug jony-ive or QID Q164750 in the roster50 worktree (grep of data-pipeline, src and public/portraits; steve-jobs is a separate existing candidate). Region is the controlled value western_europe; fieldIds design and technology, occupation product_designer, tag and archetype ids are existing vocabulary ids used by other candidates (design: alvar-aalto, frank-lloyd-wright, josiah-wedgwood, steve-jobs, zaha-hadid; product_designer: alvar-aalto, steve-jobs). Nationality GB and US (the New Yorker reports that he became a US citizen while keeping his British passport; Wikidata lists both). ZERO POLITICS: no political leadership, activism, military or diplomatic behaviour is scored; a meeting with the then Prince of Wales at Highgrove (the New Yorker) and a royal emblem commission (Britannica) are incidental and unscored. LIVING SUBJECT: only documented public professional behaviour is scored (leadership of Apple's industrial design studio, the prototyping and materials practice, the Apple Watch project, Human Interface and iOS 7 work, team practice, the working relationship with Steve Jobs as described by colleagues, and post-Apple LoveFrom work only as documented by Dezeen). Excluded from rows and cards: family and private life (several profiles cover his wife, children, parents, homes, cars, jet and holidays), health and medical details (mentioned in the New Yorker, Kirkus and Wikipedia; not used and not repeated here), wealth and compensation, Tim Cook's private life (the New Yorker), reported motives for his 2019 departure (anonymous-source stories seen only through secondary summaries and not used), the 2025 OpenAI and io transaction and any AI-venture speculation (Britannica's section on it not used), and any inferred motive or psychology beyond what the profiles document. CANONICAL SIGNIFICANCE SOURCE: Design Museum (London), 'Jonathan Ive' designer profile (https://designmuseum.org/designers/jonathan-ive), read in full apart from its listing of collection objects, supported by the Royal Academy of Engineering President's Medal listing (2005, the iPod), the Cooper Hewitt profile, Britannica and the Cambridge and Oxford honorary-degree pages. The Design Museum profile includes a 2007 question-and-answer text in Ive's own words, which is self material and is used only to corroborate other accounts. READ (19 cited substantive non-Wikidata sources plus the Commons and Flickr licence pages): the Design Museum profile; Royal Academy of Engineering President's Medal page; Cooper Hewitt product-design profile (and its 2007 announcement as reproduced by MacDailyNews); Britannica; Ian Parker's New Yorker profile (2015, read in full); David Pierce's Wired feature on the Apple Watch (2015, read in full); Ian Sample's Guardian profile (2007); Jennifer Kabat's Metropolis profile (2006); Marcus Fairs's Icon interview (2003); Fortune (2009, relaying the BBC); Dezeen's D&AD report (2012), Kahney interview (2013), departure report (2019) and Ferrari Luce report (2026); TidBITS (2019); CNBC (2019); Oxford Department of Computer Science (2016); Cambridge honorary degrees (2016); Kirkus on Kahney's biography. Read but not cited: the Royal College of Art's 2017 appointment announcement, the Carnegie Corporation's 2024 Great Immigrants page, Publishers Weekly's review of Kahney's book, Hugh Dubberly's 2012 ACM Interactions essay on Jobs and Ive, summaries from Engadget, the Christian Science Monitor, iMore and TechCrunch, and the Wikipedia article (orientation only). PERSPECTIVES: museum and award bodies and two universities (honouring); long-form magazine journalism with named colleagues, friends and critics and a sceptical edge (the New Yorker); technology-magazine reporting built on named Apple insiders (Wired); a national-newspaper profile with a former tutor and an employer (the Guardian); design and business press (Metropolis, Icon, Fortune, Dezeen); a design-press interview with his biographer; two critical Apple-news commentaries (TidBITS, CNBC); a trade review of the biography (Kirkus); and Ive's own statements (self; never sole support for a row). CALIBRATION: the behavioural evidence rests mainly on two long features (the New Yorker and Wired, both built on company-accessed interviews) plus older, shorter and admiring profiles; the critical voices are commentary on products rather than reporting on behaviour. So no score exceeds 85, no confidence exceeds 0.70, aesthetic sensitivity is dual-edged, and six rows (mastery, systems, persistence, cross-domain, originality, ambiguity) are strong inference at 0.52-0.58. Many items come from Ive's own words relayed by journalists; none is sole support. Credit inside team products is contested (the iPod's functionality and the iMac's conception, per the New Yorker), which is why originality is held at 74 and why the card on the later products says his team designed them rather than he alone (card 1 follows the Design Museum's wording that, working closely with Jobs, he developed the iMac). Rows are scored from behaviour, not from fame, awards or sales. CONFLICTS RECORDED: (1) titles and dates: Britannica gives senior vice president both in 1997 and in 2005, the Design Museum and the Guardian give vice president 1998 and senior vice president 2005, Metropolis gives vice president 1997, while Cooper Hewitt, Dezeen and the New Yorker have him leading the design team from 1996; the cards say from the mid-1990s and give no title dates. (2) D&AD's 2012 award is its own 'most awarded' category by Pencil count, which Dezeen's headline and Britannica paraphrase as 'best design studio of the past 50 years'; not used in a card. (3) Designer attrition: Metropolis says no designer had quit by 2006, the New Yorker reports Ive saying two left in fifteen years; not used for a row. (4) Studio size (19 industrial designers per the New Yorker, other figures elsewhere) is not used. (5) iMac and iPod authorship: see calibration. (6) The Dezeen interview with Kahney (2013) predicted that Apple would not make a watch, so it is treated as opinion and not as evidence. NOT OPENED: Isaacson's 'Steve Jobs' and Kahney's biography (known only through the New Yorker's quotations, the Dezeen interview and Kirkus); Fast Company's 2013 oral history of Apple design (HTTP 403; the archived copy was rate-limited); the Daily Telegraph's 2012 interviews (HTTP 402 paywall; seen only through summaries); the Financial Times interviews of 2015, 2018 and 2019 (paywalled; summaries only); the Wall Street Journal and Bloomberg 2019 stories on his reduced role (paywalled or HTTP 403; read only through NBC News and CNBC summaries, which describe anonymous-source claims about his involvement and motives that Apple's chief executive publicly called inaccurate; not used, and flagged here because, if true, they could temper persistence for 2015-2019, a period the rows do not cover); Vogue 2014 and Bloomberg Businessweek 2014 (not obtained); the New York Times 2014 interview transcript (an Engadget summary only); the BBC Desert Island Discs episode; the Royal Designers for Industry directory entry (dynamic page showed no entry text). The Flickr photo page is gone (404 on 2026-10-15); the Internet Archive snapshot was used. PORTRAIT: Commons 'Jonathan Ive 2009.jpg', credited to Gary Cohen (Flickr account 'glub'; the Flickr page shows only the username, so the real-name credit rests on the Commons upload record), taken 16 April 2009 at the London premiere of 'Objectified' (EXIF and Flickr both 2009-04-16 13:00 UK time, Canon EOS-1D Mark III). Rights basis: imported from Flickr and Flickr-reviewed on Commons on 26 October 2011 as CC BY-SA 2.0; the Internet Archive snapshot of the Flickr page (13 April 2024) shows 'Some rights reserved' with CC BY-SA 2.0 and the same title, description and date; the live Flickr page is no longer available, which does not undo a licence already granted but means it cannot be re-checked live; the Commons file carries no restriction or personality-rights template and the original JPEG has no embedded copyright, artist or rights field (only the colour profile's own string). Original 2173 x 3260 downloaded from upload.wikimedia.org (sha1 matched the Commons record) and downscaled once with bicubic resampling to 800 x 1200 (never upscaled), saved as public/portraits/jony-ive-cohen-2009.jpg. Because the licence is ShareAlike, the credit and licence must be shown with the portrait. Rejected: Marcus Dawes's 'Jonathan Ive (OTRS)' photograph (CC BY-SA 3.0 through two Commons permission tickets, 667 x 1000, a cleaner portrait, but it carries a personality-rights restriction template and its date is unspecified: the description says the 2010 Goodwood Festival of Speed, the embedded date says 2011); Aljawad's 2008 Macworld crop (CC BY-SA 3.0, 514 x 916, a Commons username credit); Michael Johnston's 2006 keynote snapshot (CC BY-SA 2.0, 1024 x 768 landscape, low quality); Apple-supplied images (basis not verified). No post-validation score changes have been made; any later change to a row's confidence or evidence type must carry an A, B or C label per scoring_rubric_v1 section 10. LEAD REVIEW (Roster50): 5 rows lowered before eligibility (the behavioural account rests heavily on two access-granted long-form profiles (The New Yorker, Wired) written inside the studio, with institutional pages that are admiring)."
+  }
+}

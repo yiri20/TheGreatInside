@@ -1,0 +1,226 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "tim-cook",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Tim Cook",
+    "aliases": [
+      "Timothy Donald Cook",
+      "Timothy D. Cook"
+    ],
+    "wikidataId": "Q265852",
+    "birthYear": 1960,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "executive"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial"
+    ],
+    "tagIds": [
+      "leader",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cook_wikidata",
+      "kind": "wikidata",
+      "title": "Tim Cook (Q265852) -- verified live via the Wikidata API (2026-10-15): English label 'Tim Cook', description 'American business executive, former Apple executive chairman' (the description looks stale, since Apple's own page says he is the executive chair), born 1 November 1960, no date of death, citizenship United States, chief-executive-officer position at Apple Inc. dated 24 August 2011 to 31 August 2026, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q265852"
+    },
+    {
+      "id": "src_cook_applebio",
+      "kind": "institution",
+      "title": "Apple, 'Tim Cook' leadership page -- the company's own profile: director since 2011, executive chair of the board, joined Apple in 1998 and CEO from 2011 to 2026, previously chief operating officer responsible for worldwide sales and operations including end-to-end management of the supply chain; credits him with new categories (Apple Watch, AirPods, Apple Vision Pro), services from iCloud and Apple Pay to Apple TV and Apple Music, and the move to Apple-designed silicon. CANONICAL SIGNIFICANCE SOURCE (the institution's own statement of his role; self-published and promotional, so used only for orientation and the achievement cards, never for a behavioural row; Britannica was tried and returned HTTP 403). Read in full.",
+      "url": "https://www.apple.com/leadership/tim-cook/"
+    },
+    {
+      "id": "src_cook_apple2011",
+      "kind": "institution",
+      "title": "Apple Newsroom press release, 24 August 2011, 'Steve Jobs Resigns as CEO of Apple' -- announces that the Board named Tim Cook, previously chief operating officer, as CEO and elected Jobs chairman, records Jobs's recommendation that the Board implement its succession plan and name Cook, and summarises his responsibilities as COO (worldwide sales and operations, supply chain, service and support, the Macintosh division, reseller and supplier relationships). Company-issued and promotional; used for the succession facts only. Read in full.",
+      "url": "https://www.apple.com/newsroom/2011/08/24Steve-Jobs-Resigns-as-CEO-of-Apple/"
+    },
+    {
+      "id": "src_cook_industryweek",
+      "kind": "press",
+      "title": "Doug Bartholomew, 'What's Really Driving Apple's Recovery', IndustryWeek, 16 March 1999 -- trade-press report on Cook's first year as Apple's senior vice president for worldwide operations: inventory cut from $437 million (about a month) at the end of fiscal 1997 to $78 million (six days) at the end of fiscal 1998, manufacturing moved to contract manufacturers, planning separated from execution with SAP and i2 software ('plan weekly, execute daily'), an analyst (AMR Research's Tom Grace) on Apple's earlier supply-chain weakness, an earlier failed SAP project, and the iMac launch's supply shortfalls. Independent reporting with an analyst voice, but most of the method and figures are Cook's own statements. Read in full.",
+      "url": "https://www.industryweek.com/leadership/companies-executives/article/21960994/whats-really-driving-apples-recovery"
+    },
+    {
+      "id": "src_cook_fortune2008",
+      "kind": "press",
+      "title": "Adam Lashinsky, 'Tim Cook: The Genius Behind Steve', Fortune, 24 November 2008 -- magazine profile based on interviews with about two dozen people who have dealt with Cook: the 1998 mandate to fix manufacturing and supply, closing factories and warehouses and using contract manufacturers, inventory falling from months to days, the 2005 prepayment of $1.25 billion to flash-memory suppliers, his expanding responsibilities (sales, Macintosh division, iPhone operations), his meeting style as described by named and unnamed former colleagues (long silences, relentless questioning, 4:30 a.m. e-mails, Sunday-night staff calls), an IBM supervisor's account, and sceptics who saw him as an operations executive rather than a product person. Independent and balanced, with analysts and critics; it also covers personal-life material, which was not used. Read in full.",
+      "url": "https://fortune.com/2008/11/24/apple-the-genius-behind-steve/"
+    },
+    {
+      "id": "src_cook_fortune2012",
+      "kind": "press",
+      "title": "Adam Lashinsky, 'Inside Apple's major shakeup', Fortune, 29 October 2012 -- commentary on the day Apple announced the departures of its iOS software chief and retail chief and gave Ive, Cue, Federighi and Mansfield wider responsibilities: calls it the biggest management shake-up since 1997, lists the preceding missteps (Maps, Siri, retail, earnings misses), relays a rumour that the software chief refused to sign the Maps apology, credits Cook with humility in apologising and criticises him for not explaining himself. Independent and critical; the motive reporting is hearsay. Read in full.",
+      "url": "https://fortune.com/2012/10/29/inside-apples-major-shakeup/"
+    },
+    {
+      "id": "src_cook_aljazeera2012",
+      "kind": "press",
+      "title": "Al Jazeera English (news agencies), 'Apple announces management shake-up', 30 October 2012 -- wire-based report of the 29 October 2012 changes: Forstall leaving and advising Cook until his departure, John Browett out with the retail team reporting to Cook until a replacement, Ive leading human interface, Cue taking Siri and Maps, Federighi heading both operating systems, Cook's statement that the moves would increase collaboration across hardware, software and services, and the note that it was not clear whether Maps was a factor. Independent factual reporting, with no assessment of Cook's own role. Read in full.",
+      "url": "https://www.aljazeera.com/economy/2012/10/30/apple-announces-management-shake-up"
+    },
+    {
+      "id": "src_cook_reuters_maps",
+      "kind": "press",
+      "title": "Reuters, 'Apple CEO Cook Apologizes for Maps Mess', 28 September 2012 (republished by The Fiscal Times; byline printed as 'Poornima Goopta') -- wire report on Cook's open letter apologising for the new Maps service, saying Apple 'fell short' and pointing users to rival apps; notes it was unusual for Apple, contrasts it with Steve Jobs's response to the 2010 iPhone 4 reception complaints, and describes the data and feature gaps users complained about. Independent wire reporting. Read in full; the full letter text was also read as reproduced by iPhone in Canada, which is not cited.",
+      "url": "https://www.thefiscaltimes.com/2012/09/28/Apple-CEO-Cook-Apologizes-Maps-Mess"
+    },
+    {
+      "id": "src_cook_fortune2015",
+      "kind": "press",
+      "title": "Adam Lashinsky, 'Apple's Tim Cook leads different', Fortune, 26 March 2015 -- cover-story profile of his first three and a half years as CEO: scrutiny after succeeding Jobs, the Maps apology handled with candour, the dismissal of the software and retail chiefs and his remark on cultural fit, a stable management team, Eddy Cue on how he delegates, the Apple Watch, Apple Pay and the Beats acquisition, analyst Jean-Louis Gassee's long-game reading, his plan to raise executives' public profiles, and a tour of the new campus site. Independent but largely favourable and by the same author as the 2008 and 2012 pieces, so not a separate perspective; the article also covers personal-life, public-policy and wealth material, none of which was used. Read in full.",
+      "url": "https://fortune.com/2015/03/26/tim-cook/"
+    },
+    {
+      "id": "src_cook_cnn2021",
+      "kind": "press",
+      "title": "Clare Duffy, 'How Tim Cook has grown the Apple empire in his decade as CEO', CNN Business, 24 August 2021 -- retrospective on his first ten years: expansion from device maker to a multi-business company, the iPhone line widening, the Apple Watch (2015) and AirPods (2016) as the most successful new hardware, services growth (iCloud, Podcasts, Music, Arcade, TV+, Fitness+), acquisitions including Beats ($3 billion) and Intel's modem business ($1 billion), analysts Tom Forte and Mike Bailey (hardware 'more iterative than revolutionary', 'maintaining the empire as opposed to building one', services solving a boom-bust problem), and the open succession question. Independent business reporting with mixed analyst voices; its passages on personal-life, advocacy and government matters were not used. Read in full.",
+      "url": "https://edition.cnn.com/2021/08/24/tech/tim-cook-apple-ceo-ten-years"
+    },
+    {
+      "id": "src_cook_kirkus",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of Leander Kahney's 'Tim Cook: The Genius Who Took Apple to the Next Level' (posted 16 February 2019) -- trade review calling the biography a praise-filled yet also critical decade-long performance report, 'occasionally hagiographic but mostly illuminating', that contrasts Cook with Jobs. Short independent assessment of the book rather than of Cook's behaviour; used only to calibrate how favourable the biographical literature is. Read in full.",
+      "url": "https://www.kirkusreviews.com/book-reviews/leander-kahney/tim-cook/"
+    },
+    {
+      "id": "src_cook_thurrott",
+      "kind": "press",
+      "title": "Paul Thurrott, 'Book Review: Tim Cook: The Genius Who Took Apple to the Next Level', Thurrott.com, 2 April 2019 -- technology journalist's review of Kahney's book: notes that Cook and most senior Apple leaders did not speak to the author on the record, relays Kahney's account of the Forstall exit (a refused demand for a public apology), says that Cook's Apple went on to apologise publicly for several issues, which he says Jobs would not have done, repeats Kahney's argument that logistics matter most at a company like Apple, and says he is not ready to call Cook a visionary or a better CEO than Jobs while judging him the better CEO for today's Apple. Independent reviewer relaying another author's partly anonymous reporting, so secondary. Read in full.",
+      "url": "https://www.thurrott.com/review/book-review/204181/book-review-tim-cook-the-genius-who-took-apple-to-the-next-level"
+    },
+    {
+      "id": "src_cook_thewrap2026",
+      "kind": "press",
+      "title": "Josh Dickey, 'Tim Cook to Step Down as Apple CEO, Will Become Executive Chairman as John Ternus Takes Over', TheWrap, 20 April 2026 -- entertainment-and-business news report of Apple's announcement that Ternus becomes CEO on 1 September 2026 and Cook executive chairman, reproducing Apple's statement and adding the writer's framing: a low-key leader who preferred to share the spotlight, an operations expert who widened the device portfolio (Watch, AirPods, Vision Pro) and invested more in media, and a company that fell behind in generative AI and struck a deal in January to use Google's Gemini model. Independent framing around a company statement. Read in full.",
+      "url": "https://www.thewrap.com/industry-news/business/tim-cook-step-down-apple-executive-chairman-john-ternus/"
+    },
+    {
+      "id": "src_cook_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Tim Cook March 2026 (cropped).jpg' (and its parent file 'Tim Cook March 2026.jpg') -- checked for the portrait's licence: photograph by Tessa Bury, own work, taken 13 March 2026 at Apple's 50th-anniversary kickoff event in New York, released by the copyright holder under CC BY 4.0, EXIF author and copyright holder both Tessa Bury, structured data depicting Tim Cook; the crop was made on Commons from the original. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Tim_Cook_March_2026_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cook_industryweek, src_cook_fortune2008 | 1998-2006 | trade press + business-magazine profile] IndustryWeek (1999) reports that Apple now projected sales weekly and adjusted production schedules daily, quoting him 'We plan weekly and execute daily', with planning software separated from execution systems; Fortune (2008, from interviews with about two dozen people) says his team accurately predicted demand for the 2005 iPod Nano and prepaid $1.25 billion to flash-memory suppliers to lock in supply through 2010, and that the 2006 switch of the Mac line to Intel processors passed without a blip in sales. Two independent outlets with specific, on-point decisions, but both largely admiring of his operations record, so documented at a moderate-high confidence and no higher."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_industryweek, src_cook_fortune2008, src_cook_cnn2021 | 1998-2021 | trade press + business-magazine profile + CNN retrospective] The 1999 and 2008 accounts describe treating Apple's manufacturing, distribution and supply apparatus as one system to be rebuilt (closing factories and warehouses, moving assembly to contract manufacturers, having suppliers hold standard parts, separating planning from execution), and Stanford's Blake Johnson tells Fortune that Apple does not run its supply chain to take out the last cent; CNN's analyst Tom Forte credits him with widening Apple into subscription services, and the CNN piece describes a shift from device maker to multi-business ecosystem. The supply-chain evidence is detailed; the ecosystem reading is an analyst's, so strong inference at a moderate confidence."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_fortune2008, src_cook_industryweek, src_cook_fortune2015 | 1999-2015 | business-magazine profiles + trade press] Fortune (2008) quotes former subordinates: Steve Doil says Cook asks ten questions and, if they are answered right, ten more, and Mike Janes recalls him questioning the team for hours after a conference keynote; IndustryWeek (1999) has him calling any internal inventory a defect and describing how Apple had handled the new iMac's colour options; Fortune (2015) calls him a numbers man who can recite most of the new campus's figures from memory, while Eddy Cue says that, unlike Steve Jobs, who got involved at the pixel level, Cook is involved at the high end and as needed. Detail focus is documented for operations and numbers but not for product design, and most of it is anecdote from one author's reporting, so a modest score and confidence."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_fortune2008, src_cook_industryweek | 1980s-2008 | business-magazine profile + trade press] Fortune (2008) reports that he often begins e-mailing his executives at 4:30 a.m., held a standing Sunday-night staff call for years to prepare for Monday meetings, and, according to a former IBM supervisor, volunteered to work in the plant between Christmas and New Year's so the company could fill all its orders; IndustryWeek (1999) quotes him on his weekly-plan, daily-execution routine ('I'm relentless on that'). The routines are documented mainly in one long profile with named colleagues, so strong inference at a moderate confidence."
+    },
+    "execution_speed": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_industryweek, src_cook_fortune2008 | 1998-2008 | trade press + business-magazine profile] IndustryWeek reports Apple's inventory falling from $437 million (a month's supply) at the end of fiscal 1997 to $78 million (six days) a year later and $25 million by December 1998, with Cook pushing to cut custom-order delivery from ten to five days and the reporter saying he pressed the company as if there were no floor under the accelerator pedal; Fortune adds an episode in which, thirty minutes into a meeting about a problem in Asia, he asked an operations executive why he was still there, and the executive went straight to the airport and flew to China. The figures are company results rather than a measure of his own pace, and the China story rests on unnamed people, so moderate."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_fortune2008, src_cook_fortune2012, src_cook_aljazeera2012, src_cook_fortune2015 | 1998-2015 | business-magazine profiles + wire report] Fortune (2008) describes him ending a meeting by sending an operations executive to China on the spot; in October 2012 Apple announced the departures of its iOS software chief and its retail chief and a redistribution of responsibilities within about a month of the Maps problems (Fortune called it the biggest shake-up since 1997); Fortune (2015) says Cook fired the software chief and dismissed the retail chief, and quotes Cook that a CEO has to reach conclusions about people in relatively short order. Apple gave no reason for the departures and the accounts of his motives rest on unnamed sources, so the score reflects documented outcomes and his own stated approach rather than proof of speed."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_reuters_maps, src_cook_fortune2015, src_cook_thurrott, src_cook_kirkus | 2012-2019 | wire + business-magazine profile + book review] On 28 September 2012 Cook published a letter saying Apple had fallen short with its new Maps, apologising and pointing customers to rival map apps; Reuters called it an unusual move and contrasted it with Steve Jobs's response to the 2010 iPhone 4 complaints, Fortune (2015) says he handled Maps with candour and humility and quotes him on the retail chief's exit as a reminder of how important cultural fit is in hiring; Thurrott's review of Kahney's book says Apple under Cook went on to apologise publicly for several issues, which he says Jobs would not have done (Kirkus calls the same biography occasionally hagiographic). Two episodes with consistent independent commentary, but the later apologies are one reviewer's observation and the hiring lesson is Cook's own statement, so strong inference at a moderate confidence."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cook_fortune2008, src_cook_aljazeera2012, src_cook_fortune2015, src_cook_thewrap2026 | 1998-2026 | business-magazine profiles + wire report + trade news] Fortune (2008) describes a tight-knit team of operations executives who had been with him since he joined; the October 2012 coverage quotes him saying the management changes were meant to increase collaboration across hardware, software and services; Fortune (2015) says senior management was unusually stable, quotes Eddy Cue that he lets his executives do their work, and quotes Cook that he wants to raise the public profile of several executives; TheWrap (2026) calls him a low-key leader who shared the spotlight with his team. Consistent across four outlets over eighteen years, but largely descriptions and statements rather than observed teamwork, and Fortune (2012) questions whether the 2012 reshuffle showed him firmly in control, so a moderate score."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cook_fortune2008, src_cook_fortune2012, src_cook_thurrott | 1998-2012 | business-magazine profile + commentary + book review] Fortune (2008) reports meeting behaviour described by former colleagues (long silences, relentless questioning, and a former executive who says he has seen Cook shred people with questions they cannot answer) while noting that he never raises his voice; Fortune (2012) relays a rumour, and Thurrott's review of Kahney's book repeats the account, that the software chief's refusal to sign the Maps apology contributed to his exit, which Apple never confirmed. Willingness to press hard in open disagreement is described by several voices but partly from unnamed sources, and some colleagues found it punishing, hence dual-edged at moderate confidence."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cook_fortune2008, src_cook_fortune2015, src_cook_cnn2021, src_cook_thewrap2026 | 2005-2026 | business-magazine profiles + CNN retrospective + trade news] Fortune (2008) credits his team with correctly forecasting demand for the 2005 iPod Nano and tying up flash-memory supply; Fortune (2015) and CNN (2021) describe the Apple Watch, Apple Pay, the Beats acquisition and a growing services line as moves beyond minding the Jobs-era business, with CNN's analyst saying he widened Apple into subscriptions; TheWrap (2026) says Apple fell behind in the generative-AI shift during his tenure and struck a deal in January to use Google's Gemini model. Documented hits in supply and services plus an independent critique on AI timing, and several moves had unresolved outcomes when reported, so a middling score, dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "팀 쿡"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/tim-cook-bury-2026.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Tim Cook March 2026 (cropped).jpg' -- a Commons crop (made 13 March 2026) of 'Tim Cook March 2026.jpg', photograph by Tessa Bury (own work, uploaded by her Commons account) taken 13 March 2026 at Apple's 50th-anniversary kickoff event at the Grand Central Terminal store, New York; the page says the copyright holder releases it under CC BY 4.0 and asks for the credit 'Tessa Bury', the EXIF author and copyright holder are both Tessa Bury, no restriction template is present, and structured data depicts Tim Cook; Commons crop 1271 x 1589 pixels, downscaled once to 960 x 1200 (never upscaled).",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Photo: Tessa Bury, 13 March 2026, CC BY 4.0, cropped and downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Tim_Cook_March_2026_(cropped).jpg",
+    "creator": "Tessa Bury",
+    "date": "2026-03-13",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tim_Cook_March_2026_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q265852 returned en label 'Tim Cook', description 'American business executive, former Apple executive chairman' (stale or wrong; Apple's own page, read the same day, says he serves as executive chair, and Wikidata dates the CEO role 24 August 2011 to 31 August 2026), born 1960-11-01, no death date, citizenship United States, ko label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug tim-cook or QID Q265852 in the roster50 worktree. The North America region code (north_america) is a valid controlled value. LIVING SUBJECT: only documented public professional behaviour as an Apple executive is scored (supply-chain and operations decisions, management reorganisations, the Maps apology, acquisitions and services as described by independent business press). Excluded: family and private life, health (his and anyone else's), personal-identity topics, wealth and philanthropy, politics and government dealings, regulatory, legal and antitrust matters, labour-practice controversies, privacy, environmental and social advocacy, and any inferred motive; no market-capitalisation or revenue figure is used as trait evidence. CANONICAL SIGNIFICANCE SOURCE: Apple, 'Tim Cook' leadership page (https://www.apple.com/leadership/tim-cook/), read in full and supported by the Apple Newsroom release of 24 August 2011 (succession) and by independent retrospectives (CNN 2021, TheWrap 2026); the Apple pages are company-published, so the achievement cards also rest on independent sources, and Britannica returned HTTP 403. READ (12 cited non-Wikidata sources, two of them company pages, plus three read but not cited): IndustryWeek 1999; Fortune 2008, 2012 and 2015 (all three by Adam Lashinsky, so one author's reporting, not three perspectives); Reuters 2012 on Maps (via The Fiscal Times); Al Jazeera 2012; CNN 2021; Kirkus and Thurrott reviews of Kahney's biography; TheWrap 2026; Apple's leadership page and 2011 release. Read but not cited: the Maps letter text on iPhone in Canada, MIT Technology Review's short 2012 report on the shake-up, and ABC7's report of the 2026 announcement. PERSPECTIVES: trade press, a business-magazine author with named and unnamed former colleagues and critics, wire reporting, a general-news analyst retrospective with two analysts, two book reviewers, an entertainment-and-business news writer, and company statements (self; never sole support for a row). CALIBRATION: the behavioural evidence is dominated by one long Fortune profile and a 1999 trade article that quotes Cook's own method, several accounts of the 2012 reshuffle rest on unnamed sources, and the reviews are secondary, so no score exceeds 74 and no confidence exceeds 0.62; the opportunity-sensing, conflict-tolerance and detail rows are deliberately modest and dual-edged where the independent voices disagree. DATE CONFLICT RECORDED: Fortune (2015) places the retail chief's dismissal in March 2013, whereas the October 2012 reports (Fortune 2012, Al Jazeera) announce his departure then; the rows and cards use only the 2012 dating, and the 2015 article is used for Cook's quoted remark and its description of the dismissals, not for a date. NOT OPENED: Kahney's and Isaacson's books, Lashinsky's 'Inside Apple', the Wall Street Journal profiles (paywalled; only a secondary summary containing private-life material was seen and not used), Reuters' 2013 profile (HTTP 401; only secondary summaries seen), Bloomberg Businessweek's 2012 interview, Search Engine Land (403) and Britannica (403); figures on valuation, revenue and services size are not used. PORTRAIT: Commons crop of Tessa Bury's CC BY 4.0 photograph of 13 March 2026 (named author, self-released, EXIF author and copyright holder consistent with the licence, no restriction template); downloaded at 1271 x 1589 and downscaled once to 960 x 1200. Rejected: the 2017 Austin Community College portrait (CC BY 2.0 on the college's Flickr page, but the embedded metadata of the original carries an 'All Rights Reserved' notice, which conflicts), Mike Deerkoski's 2012 WWDC photo (CC BY 2.0, Flickr-reviewed, a usable fallback but a lower-quality stage shot), photographs from political or government events (not used), and Apple-supplied images (basis not verified)."
+  }
+}
