@@ -1,0 +1,247 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "peter-higgs",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Peter Higgs",
+    "aliases": [
+      "Peter W. Higgs",
+      "Peter Ware Higgs"
+    ],
+    "wikidataId": "Q192112",
+    "birthYear": 1929,
+    "deathYear": 2024,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "theorist"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_higgs_wikidata",
+      "kind": "wikidata",
+      "title": "Peter Higgs (Q192112) -- verified live via the Wikidata API (2026-10-15): English label 'Peter Higgs', description 'British physicist and Nobel Prize winner (1929-2024)', Korean label present, instance of human, born 29 May 1929 in Newcastle upon Tyne, died 8 April 2024 in Edinburgh, citizenship United Kingdom, occupations including theoretical physicist, particle physicist, physicist and university teacher; a name search also returns other entities called Peter Higgs (a British Museum archaeologist, a sports journalist, an unrelated academic, paintings and articles), but only this one is the physicist. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q192112"
+    },
+    {
+      "id": "src_higgs_nobel_press",
+      "kind": "award_body",
+      "title": "The Royal Swedish Academy of Sciences, press release for the 2013 Nobel Prize in Physics, 8 October 2013 -- CANONICAL SIGNIFICANCE SOURCE: the prize to François Englert and Peter W. Higgs 'for the theoretical discovery of a mechanism that contributes to our understanding of the origin of mass of subatomic particles, and which recently was confirmed through the discovery of the predicted fundamental particle, by the ATLAS and CMS experiments at CERN's Large Hadron Collider'; the Academy's account that the two proposed the theory independently in 1964 (Englert together with his now deceased colleague Robert Brout), that the theory is 'a central part of the Standard Model', that on 4 July 2012 the theory was confirmed by the discovery of a Higgs particle by two research groups of some 3,000 scientists each, and that the Standard Model is not the final piece of the cosmic puzzle. Award-body citation, honouring in tone. Read in full.",
+      "url": "https://www.nobelprize.org/prizes/physics/2013/press-release/"
+    },
+    {
+      "id": "src_higgs_nobel_background",
+      "kind": "award_body",
+      "title": "Class for Physics of the Royal Swedish Academy of Sciences, 'Scientific Background on the Nobel Prize in Physics 2013: The BEH-Mechanism, Interactions with Short Range Forces and Scalar Particles', 8 October 2013 (PDF) -- the Academy's technical history of the mass-generation mechanism: how Englert and Brout (paper submitted 26 June 1964), Higgs (papers submitted 27 July and 31 August 1964) and Guralnik, Hagen and Kibble (submitted 12 October 1964) each reached it; that Higgs pointed out there is a case, a gauge theory, where Gilbert's criticism does not apply, studied the same model as Englert and Brout, derived an explicit expression for the bare mass of the remaining scalar particle (which 'has led to the name Higgs particle', although the particle 'is also a consequence of the mechanism of Englert and Brout'), sketched the non-abelian generalisation, and in a longer 1966 paper studied scattering processes and showed that the scalar's three-point coupling to the vector particle is proportional to the vector particle's squared mass; and that there was 'little excitement about the papers at the time'. Read the introduction and the sections on the mechanism and the further contributions in full; the sections on the Weinberg-Salam model and the experimental searches were skimmed. Award-body scientific history, careful about attribution.",
+      "url": "https://www.nobelprize.org/uploads/2018/06/advanced-physicsprize2013.pdf"
+    },
+    {
+      "id": "src_higgs_nobel_bio",
+      "kind": "award_body",
+      "title": "Nobel Prize Outreach, 'Peter Higgs - Biographical' (factual record written at the time of the 2013 award and later marked with his death on 8 April 2024) -- career chronology and publication list: First Class Honours in physics at King's College London in 1950, PhD in 1954 on molecular vibrations under Charles Coulson and Christopher Longuet-Higgins, research posts at Edinburgh, University College London and Imperial College, lectureship in mathematical physics at Edinburgh's Tait Institute from October 1960, leave at the University of North Carolina in 1965-66, Reader in 1970, Personal Chair of Theoretical Physics in 1980, retirement in 1996, his honours, and the list of his papers including the two 1964 papers (Physics Letters 12, 132 and Physical Review Letters 13, 508) and the 1966 paper (Physical Review 145, 1156). A dated record, not a narrative; used for chronology and authorship only. Read in full.",
+      "url": "https://www.nobelprize.org/prizes/physics/2013/higgs/biographical/"
+    },
+    {
+      "id": "src_higgs_aps_milestone",
+      "kind": "institution",
+      "title": "American Physical Society, 'Letters from the Past - A PRL Retrospective' (Physical Review Letters 50th-anniversary milestone collection), entry for 1964 -- lists Englert and Brout (Phys. Rev. Lett. 13, 321), Higgs, 'Broken Symmetries and the Masses of Gauge Bosons' (Phys. Rev. Lett. 13, 508) and Guralnik, Hagen and Kibble (Phys. Rev. Lett. 13, 585) together as Letters that 'show how mass could arise in local gauge theories', notes that earlier Physical Review papers foresaw different aspects, that the mechanism predicts the particle known as the Higgs boson, observed at the LHC in 2012, and that the 2004 Wolf Prize went to Englert, Brout and Higgs, the 2010 Sakurai Prize to all six authors and the 2013 Nobel Prize to Englert and Higgs. Professional-society description, neutral in tone. Read the 1964 entry (the page is a long list of other milestones, which were not read).",
+      "url": "https://journals.aps.org/prl/50years/milestones"
+    },
+    {
+      "id": "src_higgs_cern_page",
+      "kind": "institution",
+      "title": "CERN, 'The Higgs boson' (public explainer) -- CERN's account that the Higgs field was proposed in 1964, that the mass-giving interaction is known as the Brout-Englert-Higgs mechanism, 'proposed by theorists Robert Brout, François Englert and Peter Higgs', that on 4 July 2012 the ATLAS and CMS collaborations announced the discovery of a new particle with the properties expected of the Higgs boson, and that by March 2013 they concluded some kind of Higgs boson had been discovered. Institutional explainer, not a behavioural account. Read in full.",
+      "url": "https://home.cern/science/physics/higgs-boson"
+    },
+    {
+      "id": "src_higgs_ed_school",
+      "kind": "institution",
+      "title": "University of Edinburgh School of Physics and Astronomy, 'The School pays tribute to Professor Peter Higgs', 10 April 2024 -- the School's account that he was a researcher at the University in 1964 when he published the paper proposing the mechanism, his appointment as Lecturer in Mathematical Physics in 1960 and to a chair in 1980, the 2012 discovery and the 2013 Nobel Prize with Englert, the founding of the Higgs Centre for Theoretical Physics in 2012 and of the Higgs Centre for Innovation in 2018, and that he is remembered as 'a kind and humble colleague as well as an excellent and enthusiastic lecturer'. Institutional tribute, admiring; used for institutional facts only. Read in full.",
+      "url": "https://www.ph.ed.ac.uk/news/2024/the-school-pays-tribute-to-professor-peter-higgs-24-04-10"
+    },
+    {
+      "id": "src_higgs_kcl",
+      "kind": "institution",
+      "title": "King's College London, 'Remembering Professor Peter Higgs (1929 - 2024)', 10 April 2024 -- university tribute with comments from the theorist John Ellis ('a profoundly modest man') and the physicist Malcolm Fairbairn, and the line that his work on the boson 'struggled to find a place in scientific journals at the time, with one publication rejecting the study for being \"of no obvious relevance to physics\"'. The family details and the retirement date (which conflicts with the Nobel Foundation's record) were not used. Institutional tribute, admiring. Read in full.",
+      "url": "https://www.kcl.ac.uk/news/remembering-professor-peter-higgs-1929-2024"
+    },
+    {
+      "id": "src_higgs_guardian_close",
+      "kind": "press",
+      "title": "Frank Close, 'Peter Higgs obituary', The Guardian, 9 April 2024 (updated 11 April) -- obituary by the Oxford particle physicist who wrote Higgs's biography Elusive (2022) after long telephone conversations with him: the 1964 idea in the context of Nambu, Anderson, Brout and Englert and Kibble ('Higgs was always the first to stress that he had not been alone'), Higgs's 'justifiable claims to uniqueness' in the boson, his discomfort as a celebrity and view that CERN was 'misguided to talk up \"the\" boson' and that naming it after him was unfair, the account of the day of the 2013 Nobel announcement when he chose to be 'somewhere else' (a bar in Leith), and his remark that his 'style is to work in isolation, and occasionally have a bright idea'. A friend's and biographer's obituary, admiring and partly relying on Higgs's own recollections; the passages on family, marriage, health, CND membership and politics were not used. Read in full.",
+      "url": "https://www.theguardian.com/science/2024/apr/09/peter-higgs-obituary"
+    },
+    {
+      "id": "src_higgs_courier_ellis",
+      "kind": "press",
+      "title": "John Ellis, 'Peter Higgs 1929-2024', CERN Courier, 3 May 2024 -- obituary by a King's College London and CERN theorist who first met Higgs around 1980: the 1964 sequence (Gilbert's early-1964 argument, Higgs's first paper accepted by Physics Letters, the second rejected 'as not being of practical interest', revised and accepted by Physical Review Letters, the earlier Englert-Brout paper, the explicit massive scalar boson), the 1965 sabbatical at the University of North Carolina and third paper, scepticism and little attention for several years, then Weinberg, Salam, 't Hooft and Veltman; Higgs as 'a profoundly modest man' who followed the later searches 'from a distance as a somewhat bemused spectator', the 2012 CERN seminar and the 2013 Nobel Day disappearance. Colleague's obituary, admiring, detailed on the physics. Read in full.",
+      "url": "https://cerncourier.com/a/peter-higgs-1929-2024/"
+    },
+    {
+      "id": "src_higgs_physicsworld_obit",
+      "kind": "press",
+      "title": "Michael Banks, 'Peter Higgs: Nobel-prize-winning particle theorist dies aged 94', Physics World, 9 April 2024 -- news obituary: the physics of the mechanism, tributes from CERN's director-general, John Ellis, the Institute of Physics and the University of Edinburgh, an account of his 2012 Physics World interview in which he expressed embarrassment at having a particle named after him, felt it placed too much credit on him at the expense of other theorists and kept saying 'so-called Higgs boson', and Frank Close's remark that Higgs disliked the limelight and that 'his style was to work in isolation' while being comfortable with friends and colleagues. News writing relaying named colleagues; read as far as the free text goes (a registration prompt follows Close's remarks).",
+      "url": "https://physicsworld.com/a/peter-higgs-nobel-prize-winning-particle-theorist-dies-aged-94/"
+    },
+    {
+      "id": "src_higgs_nature_obit",
+      "kind": "press",
+      "title": "Christine Sutton, 'Peter Higgs obituary: physicist who predicted boson that explains why particles have mass', Nature 628, 717, 12 April 2024 -- obituary: that 'during a few weeks in the summer of 1964' Higgs wrote two short papers, that the second 'drew attention to a measurable consequence of his proposal', a new massive particle, and that although the particle became famous as the Higgs boson 'the self-effacing Higgs would usually refer to it as \"the scalar boson\"'. Only the open first part of the obituary was readable (the rest is behind a login); used for those statements only. Independent science journalism.",
+      "url": "https://www.nature.com/articles/d41586-024-01103-7"
+    },
+    {
+      "id": "src_higgs_conversation_fox",
+      "kind": "press",
+      "title": "Harald Fox (Lancaster University), 'Peter Higgs was one of the greats of particle physics. He transformed what we know about the building blocks of the universe', The Conversation, 11 April 2024 -- a particle physicist's essay: the 1964 idea alongside Brout and Englert and Hagen, Guralnik and Kibble, the boson as 'an afterthought' that distinguished Higgs's contribution, the writer's belief that the name 'Higgs mechanism' was 'a bit of an embarrassment' to Higgs, who was 'always quick to point out everyone else's contribution' and preferred the name 'Anderson-Brout-Englert-Higgs-Hagen-Guralnik-Kibble mechanism'. Narrative details that conflict with other accounts (a walk in the Highlands as the origin of the idea; 'went fishing' on Nobel Day) were not used. Independent physicist's essay, admiring. Read in full.",
+      "url": "https://theconversation.com/peter-higgs-was-one-of-the-greats-of-particle-physics-he-transformed-what-we-know-about-the-building-blocks-of-the-universe-227638"
+    },
+    {
+      "id": "src_higgs_scotsman_pa",
+      "kind": "press",
+      "title": "Press Association, 'Obituaries: Peter Higgs, pioneering physicist who gave his name to the Higgs boson particle', The Scotsman, 12 April 2024 -- wire obituary: that Higgs was uncomfortable with his name alone being linked to the particle and said the publicity had 'neglected' to give credit to the other people involved, that he called his new fame 'a bit of a nuisance', and that friends and colleagues described him as 'very unassuming and shy'. The passages on family, an honours refusal and his retirement date (2006, which conflicts with the Nobel Foundation's record of 1996) were not used. Wire-service obituary, admiring. Read in full.",
+      "url": "https://www.scotsman.com/news/people/obituaries-peter-higgs-pioneering-physicist-who-gave-his-name-to-the-higgs-boson-particle-4587545"
+    },
+    {
+      "id": "src_higgs_scotsman_interview",
+      "kind": "press",
+      "title": "Shan Ross, 'Interview: Peter Higgs on coping with becoming the most famous theoretical physicist in the world', The Scotsman, 16 February 2013 -- interview at his home: his remark at a Scottish Parliament reception that he and other theorists 'were sorry to have put people to so much trouble', the interviewer's note that he arrived by bus hoping to avoid fuss, his saying 'I try to limit the amount I do', his account of the 1966 Princeton seminar (a young German theorist told him that what he was about to say 'must contain a mistake'; he 'survived' and learnt he had convinced the leader of the group), and his stated plan to be 'maybe not around, or around, but elsewhere' on the day the Nobel Prize was announced. A journalist's interview largely in Higgs's own words (self-recollection); the passages on his marriage, family, health and politics (including Scottish independence) were not used. Read in full.",
+      "url": "https://www.scotsman.com/news/interview-peter-higgs-on-coping-with-becoming-the-most-famous-theoretical-physicist-in-the-world-1590102"
+    },
+    {
+      "id": "src_higgs_guardian_2013",
+      "kind": "press",
+      "title": "Decca Aitkenhead, 'Peter Higgs: I wouldn't be productive enough for today's academic system', The Guardian, 6 December 2013 -- interview on his way to Stockholm: that he published fewer than ten papers after 1964, that he doubted any university would employ him under today's expectations that academics collaborate and 'keep churning out papers', his account of answering departmental publication requests with 'None' and of an Edinburgh view that he 'might get a Nobel prize - and if he doesn't we can always get rid of him', and his regret that the particle became known as the 'God particle'. The passages on his disagreements with the university principal over student protests and South African investments, the honours system, Scottish independence and television were not used (political or private). A journalist's interview, largely Higgs's own statements (self). Read in full.",
+      "url": "https://www.theguardian.com/science/2013/dec/06/peter-higgs-boson-academic-system"
+    },
+    {
+      "id": "src_higgs_sciencenews_siegfried",
+      "kind": "press",
+      "title": "Tom Siegfried, 'Higgs owes his Nobel to an editor and a biologist', Science News (Context blog), 8 October 2013 -- the journalist's account of Higgs's 2001 talk in Ann Arbor and a brief conversation afterwards: that on 16 July 1964 Higgs read Walter Gilbert's argument, his reaction ('Oh yes you could'), the first paper sent to Physics Letters eight days later and accepted, the second paper sent on 31 July and rejected, his revision adding the prediction of 'incomplete multiplets of scalar and vector bosons', its publication in Physical Review Letters on 19 October 1964, a letter from Gilbert telling him why he was wrong, and Higgs's remark that without the rejection 'I might never have mentioned it'. A journalist's report of Higgs's own recollection (self-origin). Read in full.",
+      "url": "https://www.sciencenews.org/blog/context/higgs-owes-his-nobel-editor-and-biologist"
+    },
+    {
+      "id": "src_higgs_sciencenews_review",
+      "kind": "press",
+      "title": "Emily Conover, 'Elusive profiles the physicist who predicted the Higgs boson', Science News, 28 June 2022 -- review of Frank Close's biography: calls Higgs 'habitually modest and attention-averse', quotes him that 'my actual contribution was only a key insight right at the end of the story' and that the boson prediction was 'the only really original idea I've ever had', notes that he 'was the one to make the pivotal point' that the mass mechanism implied a new massive particle although Brout and Englert 'just barely beat him to it' and another team published just after, that his name became attached to the process despite that history, that he 'didn't make many contributions to the subject beyond his initial insight', and that Close 'still hasn't quite cracked him'. Independent reviewer, mixed to admiring. Read in full.",
+      "url": "https://www.sciencenews.org/article/elusive-book-peter-higgs-boson-mass-physics"
+    },
+    {
+      "id": "src_higgs_physicsworld_review",
+      "kind": "press",
+      "title": "Achintya Rao, 'Peter Higgs: the man behind the machine', Physics World, 5 July 2022 -- critical review of Close's Elusive: calls it 'anecdote-filled, meandering', notes that Close, 'a friend of Higgs', writes 'with all the partiality one might expect from such a relationship', that the preface mentions only Higgs winning the Nobel Prize ('misleading and unfair on Englert'), and that Close's scientific narrative of the 'meandering path' (Goldstone, Anderson's 1962 paper) is 'more historically accurate' than popular explanations. Used only to calibrate how much weight a friendly biographer's account can carry. Independent, critical reviewer. Read in full.",
+      "url": "https://physicsworld.com/a/peter-higgs-the-man-behind-the-machine/"
+    },
+    {
+      "id": "src_higgs_walker_tribute",
+      "kind": "biography",
+      "title": "Alan Walker (University of Edinburgh), 'A tribute to Peter Higgs: \"Travels with Peter\"', in Proceedings of the 2024 European School of High-Energy Physics, CERN Yellow Reports: School Proceedings CERN-2026-001, pp. 89-109 (open access, CC BY 4.0; dated 20 April 2025) -- first-hand account by an Edinburgh colleague who sat with Higgs on the panel that appointed him in 1969 and helped arrange his travel from 2008: that Higgs never used a computer or smartphone (his email was handled by the department's secretary), wanted his April 2008 CERN visit to be private (the news leaked), sometimes did not turn up to invited conferences, was persuaded to come to the 4 July 2012 seminar, and, asked to comment at the press conference, said 'It is not for me to comment. This is the day for the experimentalists and what they have so magnificently achieved'; his plan to avoid the media on the day of the 2013 Nobel announcement and where he actually was; and that asked to explain the Higgs boson in one sentence he answered 'No'. A friend's affectionate tribute, anecdotal; the family, health and private passages were not used. Read in full.",
+      "url": "https://e-publishing.cern.ch/index.php/CYRSP/article/download/1917/1488/13195"
+    },
+    {
+      "id": "src_higgs_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'DIMG 7469 (11253401126).jpg' (and its identical frame 'Nobel Prize 24 2013.jpg') -- checked for the portrait's file and licence: description 'Peter Higgs Nobelpristagare i fysik December 2013', taken 7 December 2013 at 10:02 (Canon EOS 5D Mark II), author 'Bengt Nyman from Vaxholm, Sweden', source Flickr, transferred to Commons by Bengt Nyman himself on 8 July 2016 and confirmed by FlickreviewR as CC BY 2.0 the same day; the identical frame 'Nobel Prize 24 2013.jpg' was uploaded by Nyman on 7 December 2013 with the description 'Nobel Laureates 2013 press conference at the Royal Swedish Academy of Sciences' and the licence confirmed by the upload bot; original JPEG 3393 x 3393 pixels (6.78 MB). Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:DIMG_7469_(11253401126).jpg"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_higgs_nobel_background, src_higgs_courier_ellis, src_higgs_sciencenews_siegfried, src_higgs_scotsman_interview | 1964-1966 | award-body scientific history + colleague's obituary + journalist's report of his 2001 talk + interview] The Nobel Academy's background paper says that in a paper submitted on 27 July 1964 Higgs 'pointed out that there is a case where Gilbert's criticism does not apply, namely in a gauge theory'; John Ellis likewise describes the first 1964 paper as a response to Walter Gilbert's early-1964 argument that Anderson's and Nambu's route to mass for a vector boson could not work in a relativistic theory ('This was Higgs's cue'), and Science News's Tom Siegfried, reporting Higgs's 2001 talk, quotes his first reaction to Gilbert's paper ('Oh yes you could') and a later letter from Gilbert 'telling me why I was wrong'; Ellis adds that in 1965 Higgs 'encountered scepticism about the validity of his theory' and that neither his nor the other mass-generation papers drew much attention for several years; in a 2013 interview Higgs recalls that before his 1966 Princeton seminar a young theorist told him his talk 'must contain a mistake' and that he nevertheless convinced the leader of the group (self-recollection). Several independent descriptions of one decisive episode of reaching a conclusion against a published argument, but beyond that episode the evidence is his own recollection, and the same mechanism was reached independently by two other groups in the same months, so documented at a moderate confidence."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_higgs_nobel_press, src_higgs_nobel_background, src_higgs_courier_ellis, src_higgs_guardian_close, src_higgs_sciencenews_review, src_higgs_guardian_2013 | 1964-1966 | award-body citation + award-body scientific history + colleague's obituary + biographer's obituary + book review + interview] The Nobel Academy honoured 'the theoretical discovery of a mechanism' for the origin of mass and says in its scientific background that Higgs's derivation of an explicit expression for the scalar particle's mass 'has led to the name Higgs particle', while stressing that the particle is 'also a consequence of the mechanism of Englert and Brout'; Ellis says Higgs 'pointed out explicitly that his model predicted the existence of a massive scalar boson', which he says the Englert-Brout paper did not mention; Frank Close writes that Higgs 'had justifiable claims to uniqueness' in the boson although even that was 'arguably implicit in other work'; Science News's reviewer quotes Higgs calling the boson prediction 'the only really original idea I've ever had' (self) and observes that he 'didn't make many contributions to the subject beyond his initial insight', and the Guardian's 2013 interview says he published fewer than ten papers after 1964. One well-documented original contribution, shared with independent discoverers and not part of a documented sustained pattern of output, so a moderate score and confidence; his own description is not relied on."
+    },
+    "analytical_rigor": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_higgs_nobel_background, src_higgs_courier_ellis, src_higgs_sciencenews_siegfried | 1964-1966 | award-body scientific history + colleague's obituary + journalist's report] The Nobel Academy's background paper walks through his second 1964 paper: he took the same model as Englert and Brout, studied the equations of motion for small oscillations about the symmetry-breaking vacuum, used a gauge transformation to absorb the Goldstone mode, correctly interpreted the result as a massive vector particle, found the mass of the remaining scalar and sketched the generalisation to a larger symmetry group; it adds that his longer 1966 paper studied scattering processes and showed that the scalar's three-point coupling to the vector particle is proportional to the vector particle's squared mass, and Ellis describes that paper as working out the boson's decay into pairs of massive gauge bosons and associated scattering; Siegfried reports Higgs's account that after the rejection he recognised the paper needed some 'experimentally interesting' consequence and added one. Two documented pieces of derivation and a documented response to criticism, but the sources describe the content of the papers rather than how he checked them, so strong inference at a modest confidence."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_higgs_courier_ellis, src_higgs_sciencenews_siegfried, src_higgs_kcl, src_higgs_nobel_background, src_higgs_sciencenews_review | 1964-1966 | colleague's obituary + journalist's report of his talk + university tribute + award-body scientific history + book review] Ellis, Siegfried (reporting Higgs's own account) and King's College London all report that Physics Letters, which had accepted his first 1964 paper, rejected his second (King's quotes the verdict 'of no obvious relevance to physics'); Ellis and Siegfried say Higgs revised it and sent it to Physical Review Letters, where it appeared on 19 October 1964; the Nobel Academy's background paper records that he then published a longer version in 1966, and Ellis says that in 1965-66 he met scepticism and that the papers drew little attention for several years. Two documented episodes of carrying on after a setback, but both within about two years; the sources do not show decades of sustained work on the problem (Ellis says he followed the later search 'from a distance' and Science News's reviewer says he contributed little beyond the initial insight), so a modest score and confidence."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_higgs_guardian_close, src_higgs_physicsworld_obit, src_higgs_guardian_2013, src_higgs_walker_tribute, src_higgs_nobel_bio, src_higgs_physicsworld_review | 1964-2013 | biographer's obituary + news obituary + interview + colleague's tribute + award-body record + critical book review] Frank Close, who talked with Higgs for hours for his biography, quotes Higgs: 'My style is to work in isolation, and occasionally have a bright idea', and Physics World separately relays Close's remark that Higgs's style was to work in isolation; the Nobel Foundation's list of his papers shows the 1964 and 1966 papers under his name alone; the Guardian's 2013 interview reports that he published fewer than ten papers after 1964, that he doubted any university would employ him under today's expectations that academics collaborate and 'keep churning out papers', that he said he answered departmental requests for recent publications with 'None', and that he believed he would have lost his post but for a 1980 Nobel nomination (his own account, not checked against university records); the Edinburgh colleague Alan Walker says Higgs never used a computer or smartphone, so that his email was handled by a departmental secretary. The central statements are Higgs's own, relayed by a friend and a journalist (and a Physics World reviewer notes the partiality to expect from a friend's biography), and Walker's account concerns his working habits rather than a documented dispute, so strong inference at a moderate confidence; dual-edged because he credits solitude for his one big idea while describing an institutional cost."
+    },
+    "competitiveness": {
+      "score": 36,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_higgs_guardian_close, src_higgs_physicsworld_obit, src_higgs_nature_obit, src_higgs_conversation_fox, src_higgs_scotsman_pa, src_higgs_sciencenews_review, src_higgs_walker_tribute | 2008-2013 | biographer's obituary + news obituary + journal obituary + physicist's essay + wire obituary + book review + colleague's tribute] Close writes that Higgs 'was always the first to stress' that others had had much the same idea and that naming the particle after him was unfair; Physics World reports that in a 2012 interview he said the name gave him too much credit at the expense of other theorists and kept saying 'so-called Higgs boson'; Nature's obituary says he would usually call it 'the scalar boson'; Harald Fox says he was 'always quick to point out everyone else's contribution' and preferred the long 'Anderson-Brout-Englert-Higgs-Hagen-Guralnik-Kibble mechanism', and Science News's reviewer relays a similar proposal; the Press Association's obituary says he was uncomfortable with his name alone being linked to the particle because the publicity 'neglected' to credit others; Walker recalls that at the press conference after the 4 July 2012 announcement Higgs declined to comment, saying 'This is the day for the experimentalists'; the Science News review also quotes him that his own contribution was 'only a key insight right at the end of the story' (self). Seven separate authors describe the same pattern of declining to compete for credit, but all are sympathetic, several repeat his own statements, and none documents his motivation in his research, so this is a modest low score inferred from conduct about credit, not a measure of drive. LEAD REVIEW CORRECTION (Roster50, before eligibility): both low rows are inferred from credit-sharing and publicity-avoidance conduct (reluctance toward the media is not the same as low social assertiveness); the claim is moved toward the middle and the weaker row is relabelled inference; claim strength lowered."
+    },
+    "social_assertiveness": {
+      "score": 38,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_higgs_guardian_close, src_higgs_courier_ellis, src_higgs_walker_tribute, src_higgs_scotsman_interview, src_higgs_scotsman_pa | 2008-2013 | biographer's obituary + colleague's obituary + colleague's tribute + interview + wire obituary] Close says that when the 2013 Nobel Prize was announced Higgs had decided to be 'somewhere else', so that the Swedish Academy could not reach him for over an hour (in the Scotsman's February 2013 interview he had said he might be 'maybe not around, or around, but elsewhere'); Ellis says he 'went missing' to avoid the media and decided 'somewhat reluctantly' to attend the 4 July 2012 CERN seminar; Walker says he wanted his April 2008 CERN visit to be private (the news leaked), that he sometimes did not turn up to invited conferences, and that he declined to comment at the 2012 press conference; the Scotsman's interviewer describes him hoping to get into a Scottish Parliament reception 'without a fuss' and quotes him saying he tries to limit what he does; the Press Association says friends and colleagues described him as 'very unassuming and shy'. Against this, he gave lectures and joined the 'Audience with Peter Higgs' public talks in 2012-14 and, per Close, 'bravely accepted his fate as a centre of attention' after 2012, so the evidence shows avoidance of publicity rather than reluctance to speak, and the score is only a modest lean. LEAD REVIEW CORRECTION (Roster50, before eligibility): both low rows are inferred from credit-sharing and publicity-avoidance conduct (reluctance toward the media is not the same as low social assertiveness); the claim is moved toward the middle and the weaker row is relabelled inference; claim strength lowered."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "피터 힉스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/peter-higgs-bengt-nyman-2013.jpg",
+    "width": 900,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'DIMG 7469 (11253401126).jpg' -- photograph of Peter Higgs by Bengt Nyman (Vaxholm, Sweden), taken 7 December 2013 at the Nobel laureates' press conference at the Royal Swedish Academy of Sciences (Canon EOS 5D Mark II); published on Flickr by the photographer, transferred to Commons by Bengt Nyman himself on 8 July 2016 and confirmed by FlickreviewR as CC BY 2.0; original JPEG 3393 x 3393 pixels (6.78 MB). A 3:4 region (2545 x 3393 pixels) around his head and shoulders was cropped from the original and downscaled once to 900 x 1200 (never upscaled). Identity: other frames of the same session (DIMG 7484, 7505, 7516) show the place card 'PETER W. HIGGS, Kungl. Vetenskapsakademien'.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Bengt Nyman, 2013, licensed under CC BY 2.0; cropped and downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:DIMG_7469_(11253401126).jpg",
+    "creator": "Bengt Nyman",
+    "date": "2013-12-07",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:DIMG_7469_(11253401126).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q192112 returned en label 'Peter Higgs', description 'British physicist and Nobel Prize winner (1929-2024)', ko label '피터 힉스', instance of human, born 1929-05-29 in Newcastle upon Tyne, died 2024-04-08 in Edinburgh, citizenship United Kingdom, occupations theoretical physicist, particle physicist, physicist and university teacher. A wbsearchentities search on the name returned several other entities named Peter Higgs (a British Museum archaeologist, a sports journalist, a Harvard PhD, paintings and articles) but only Q192112 is the physicist, so the lead's hint is confirmed. SLUG/QID CHECK: no existing production or candidate file for slug peter-higgs or QID Q192112 in the roster50 worktree or the main checkout; the name appears in the repository only incidentally (a 'Higgs appreciation' cited in the Paul Dirac candidate). REGION: western_europe (born in Newcastle upon Tyne, career at Edinburgh; nationalityCodes GB); era 20th_century and isLiving false (died 8 April 2024), following the repository's treatment of Gordon Moore (1929-2023) and Freeman Dyson. VOCABULARY: occupation physicist, field physics, tags nobel_laureate and theorist, archetype scientific_explorer, impact domains scientific and historical all already exist and are used by other candidates (Einstein, Rutherford, Ampere). ZERO POLITICS: no political, activist, military or diplomatic material is scored. CANONICAL SIGNIFICANCE SOURCE: the Royal Swedish Academy of Sciences press release for the 2013 Nobel Prize in Physics (https://www.nobelprize.org/prizes/physics/2013/press-release/), read in full: the prize motivation, the Standard Model context, the 2012 confirmation at CERN, and the statement that Englert (with the late Robert Brout) and Higgs proposed the theory independently in 1964; supported by the Academy's scientific background paper, the American Physical Society's PRL milestone entry and CERN's explainer. READ (19 cited sources besides Wikidata and the Commons page): the Nobel press release; the Nobel scientific background (history sections in full, the rest skimmed); the Nobel biographical record; the APS milestone entry (1964 only); CERN's Higgs boson page; the University of Edinburgh School tribute; the King's College London tribute; Frank Close's Guardian obituary; John Ellis's CERN Courier obituary; Michael Banks's Physics World obituary; Christine Sutton's Nature obituary (open part only); Harald Fox's Conversation essay; the Press Association obituary in The Scotsman; Shan Ross's 2013 Scotsman interview; Decca Aitkenhead's 2013 Guardian interview; Tom Siegfried's 2013 Science News account of his 2001 talk; Emily Conover's Science News review of Close's biography; Achintya Rao's Physics World review of it; and Alan Walker's tribute in CERN Yellow Reports. PERSPECTIVES: the Nobel Academy and the American Physical Society (award body and professional society); CERN, the University of Edinburgh and King's College London (institutions); four physicists writing from different positions (Close, his friend and biographer; Ellis, a CERN theorist; Fox, a Lancaster particle physicist; Walker, an Edinburgh colleague of five decades); independent journalists and reviewers (Banks, Sutton, the Press Association, Ross, Aitkenhead, Siegfried, Conover, Rao), of whom Rao is critical of the biography's partiality; and Higgs's own words as quoted (self; never sole support). SUBSTANTIVE NON-SELF BEHAVIOURAL SOURCES: Walker's first-hand tribute, Ellis's and Close's obituaries and Fox's essay. CALIBRATION: nearly every source is an obituary, tribute or interview, so the tone is admiring and many behavioural statements originate in Higgs's own accounts (the 1964 rejection and revision, the 1966 Princeton seminar, his working style, his view of the academic system) relayed by others; no score exceeds 72 and no confidence exceeds 0.58, and only seven rows are scored, so the profile is sparse on purpose. Traits NOT scored: curiosity and mastery orientation (only early-life and leisure anecdotes), cross-domain range (a documented drift from molecular physics through nuclear physics and general relativity to gauge theory, but within physics and under one theme of symmetry), belief updating (a single revision of a paper's presentation after a rejection, and a remark that he grew confident after LEP data), adaptability, collaboration (documented solitary working style but no documented partnership either way), perfectionism, discipline, deep focus and execution speed (no direct evidence), persuasiveness and conflict tolerance (the only evidence is his own recollection of the 1966 seminars and an institutional dispute that is political and excluded), leadership drive (a chair and a research centre named after him are role evidence only), achievement drive and impact motivation (his own remarks that the boson was not a 'big deal' are not evidence of motivation), and proactive agency or opportunity sensing (none documented). EXCLUSIONS: family and private life (parents, marriage and separation, children, the death of his former wife, childhood asthma and other health matters, leisure such as television, drinking and the arts), politics and activism (CND membership, his disagreements with a university principal over student protests and apartheid-era investments, Scottish independence, the refusal of a knighthood, the declined Downing Street invitation, remarks about political figures), religion (atheism), and his emotional states (the tears at the 2012 seminar, and the remark 'It ruined my life', which is not used as evidence about his state of mind). No honours are scored. FACT AND DATE CONFLICTS RECORDED: (1) retirement is 1996 in the Nobel Foundation record and Edinburgh's tribute but 2006 in the King's College London tribute and the Press Association obituary, so no card states it; (2) Higgs's first 1964 paper was sent about eight days after he read Gilbert's paper (Siegfried, citing his own talk), was submitted on 27 July (Nobel background) and was written 'a few weeks later' (Ellis), so the cards say 'in July 1964'; (3) the second paper was sent to Physics Letters on 31 July and rejected (Siegfried), reached Physical Review Letters on 31 August (Nobel background) and was published on 19 October 1964 (Siegfried; APS lists Phys. Rev. Lett. 13, 508), whereas Ellis says it followed the first paper 'a few days later', so the cards give only the publication date; (4) on Nobel Day Close and Walker place him in a Leith bar called The Vintage whereas The Conversation says he 'went fishing' (a caption) and 'went out for a walk', so the Moment follows Close and Walker; (5) accounts of where the idea came from differ (a Highlands walk in The Conversation, a weekend at home in a teaser by Lawrence Krauss, the Roxburgh Street building in Edinburgh's tribute and plaque), so no card says where it arose beyond Edinburgh; (6) who refereed the Physical Review Letters paper is stated only in Higgs's own account and is not used. NOT OPENED: Close's Elusive (book, not borrowed); Higgs's own Nobel lecture 'Evading the Goldstone theorem', his Nobel interview and his essays 'Prehistory of the Higgs Boson' and 'My Life as a Boson' (self; the short 2012 reprint of the latter was read only as a cross-check of the rejection sequence and the referee remark, and is not cited); the 2012 Physics World interview and the Guardian's 'underlying incompetence' interview (reached only as quoted); the New York Times and Telegraph obituaries (paywalled; the Telegraph returned HTTP 402); the 1964 papers themselves. Pages read but not cited: the Royal Society's obituary news item (no behavioural content), the University of Edinburgh's obituary and plaque news item (institutional facts duplicated by the School tribute), NPR's April 2024 interview with Close (repeats his account), the Spectator's review of Elusive (repeats the 'only really original idea' remark) and a Lawrence Krauss Substack teaser (links to a Quillette piece that was not read). PORTRAIT: Wikimedia Commons file 'DIMG 7469 (11253401126).jpg' (https://commons.wikimedia.org/wiki/File:DIMG_7469_(11253401126).jpg), author Bengt Nyman of Vaxholm, taken 7 December 2013 at 10:02 at the Nobel laureates' press conference at the Royal Swedish Academy of Sciences; Flickr source transferred to Commons by Nyman himself on 8 July 2016 (Flickr2Commons) and confirmed CC BY 2.0 by FlickreviewR the same day; the identical frame was uploaded by Nyman on 7 December 2013 as 'Nobel Prize 24 2013.jpg' (flickr upload bot, licence confirmed); original 3393 x 3393 pixels; no conflicting statement on either file page, and no institutional notice: the press conference was a public event and the picture is the photographer's own work. The Flickr page itself could not be opened (HTTP 404 to a non-browser request), so the licence basis rests on the Commons records above; a CC BY 2.0 grant by the author is not revocable. The two Commons copies differ slightly in colour processing; the more neutral 'DIMG' copy was used. A 3:4 region (2545 x 3393) of the head and shoulders was cropped and downscaled once to 900 x 1200 (verified to open as a JPEG, never upscaled), saved as public/portraits/peter-higgs-bengt-nyman-2013.jpg. Considered and not chosen: the other Nyman frames from the same session (microphone or place card in view), Gert-Martin Greuel's 2009 Oberwolfach photographs (CC BY-SA 2.0 de, 850 x 637 at most) and the painted portraits listed on Wikidata (the Ken Currie, Victoria Crowe and Lucinda Mackay paintings are modern works under their painters' copyright). University and CERN press photographs were not pursued because no reusable terms were found on the pages opened. RESIDUAL RIGHTS NOTE: CC BY 2.0 requires attribution, indication of changes and a licence link, which the attribution field supplies; no model-release statement is made on the file page, as for other Commons portraits of public figures at public events. LEAD REVIEW (Roster50): 2 row(s) lowered before eligibility (both low rows are inferred from credit-sharing and publicity-avoidance conduct (reluctance toward the media is not the same as low social assertiveness); the claim is moved toward the middle and the weaker row is relabelled inference)."
+  }
+}

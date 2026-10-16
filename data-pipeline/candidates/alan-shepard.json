@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alan-shepard",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alan Shepard",
+    "aliases": [
+      "Alan Bartlett Shepard Jr.",
+      "Al Shepard"
+    ],
+    "wikidataId": "Q174979",
+    "birthYear": 1923,
+    "deathYear": 1998,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronaut",
+      "aviator"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer",
+      "competitor",
+      "leader"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_shepard_wikidata",
+      "kind": "wikidata",
+      "title": "Alan Shepard (Q174979) -- verified live via the Wikidata API (2026-10-15): English label 'Alan Shepard', description 'American astronaut, first American in space, lunar explorer (1923-1998)', born 18 November 1923, died 21 July 1998, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q174979"
+    },
+    {
+      "id": "src_shepard_nasabio",
+      "kind": "institution",
+      "title": "NASA Johnson Space Center, 'Biographical Data: Alan B. Shepard, Jr. (Rear Admiral, USN, Ret.), NASA Astronaut (Deceased)', September 1998 -- the agency's official biography: named one of the Mercury astronauts in April 1959; first American in space on 5 May 1961 aboard Freedom 7 (a suborbital flight to 116 statute miles, landing 302 miles downrange); designated Chief of the Astronaut Office in 1963 with responsibility for coordinating, scheduling and controlling astronaut activities and training, a post he resumed in June 1971 until retiring in 1974; commander of Apollo 14 (31 January-9 February 1971), the third lunar landing, with Stuart Roosa and Edgar Mitchell, landing in the Fra Mauro region, returning almost 100 pounds of samples after a 33-hour stay and a 9 hour 17 minute moonwalk. CANONICAL SIGNIFICANCE SOURCE (authoritative on dates and roles but honouring in tone, so used for the achievement cards and for institutional roles only; its medical, honours and political entries were not used). Read in full.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2016/01/shepard_alan.pdf"
+    },
+    {
+      "id": "src_shepard_thisnewocean",
+      "kind": "institution",
+      "title": "Loyd S. Swenson Jr., James M. Grimwood and Charles C. Alexander, 'This New Ocean: A History of Project Mercury' (NASA SP-4201, NASA History Office), chapter 'Suborbital Flights into Space' -- official history of Shepard's selection for the first flight, his 120 simulated flights and his insistence, with operations director Walter Williams, on joining the preflight checkout, the holds of 2-5 May 1961 (about four hours in the capsule), his in-flight tasks (taking manual control of attitude, noticing a low pitch angle, a retropack indicator that did not light, a missed periscope filter, altitude call and manual valve), his debriefing observations and the aftermath. Official history by NASA-commissioned historians, factual and respectful, with some detail drawn from Shepard's own debrief. Read in full for this chapter; other chapters were searched for mentions only.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2023/02/SP-4201.pdf"
+    },
+    {
+      "id": "src_shepard_alsj_summary",
+      "kind": "archive",
+      "title": "Eric M. Jones and Ken Glover (eds.), Apollo Lunar Surface Journal, 'Apollo 14 Mission Summary: The Frustrations of Fra Mauro, Part II' (1995, revised 2015) -- historian-edited account of the landing about 30 metres from the aim point on an eight-degree slope, the crew talking Houston into shortening the rest period to get a full second moonwalk, the climb toward Cone Crater with the equipment cart (Shepard leading, counting cadence, calling a halt at a heart rate of 140, agreeing with Mitchell to press on, refusing to abandon the cart, the flight director's thirty-minute extension, sampling about 30 metres from a rim the crew never recognised), the crew's irritation at the end and the golf shots. Independent scholarly editorial account built on mission transcripts and debriefs. Read in full.",
+      "url": "https://apollojournals.org/alsj/a14/a14.summary.html"
+    },
+    {
+      "id": "src_shepard_afj_docking",
+      "kind": "archive",
+      "title": "Apollo 14 Flight Journal, 'Day 1, part 3: Transposition, Docking and Extraction' (W. David Woods, Ben Feist, Ronald Hansen and Johannes Kemppanen) -- annotated transcript and commentary on the docking trouble on the way to the Moon: repeated failed attempts to latch the probe, Shepard's suggestion of a suited inspection of the probe, Houston's alternative of retracting the probe under thrust, Shepard restating the plan, the hard dock about 4 hours 57 minutes into the flight and the crew's 1971 debrief comments. Independent historians' commentary on NASA transcripts; the text is copyrighted, so it is paraphrased only. Read the docking sections (about 3 h 13 m to 5 h 00 m GET); the rest of the page's transcript was skimmed, not read.",
+      "url": "https://apollojournals.org/afj/ap14fj/03_day1_tde.html"
+    },
+    {
+      "id": "src_shepard_alsj_landing",
+      "kind": "archive",
+      "title": "Eric M. Jones (ed.), Apollo Lunar Surface Journal, 'Landing at Fra Mauro' (1995, revised 2016) -- annotated transcript of the abort-bit anomaly, the software workaround entered by Mitchell, Shepard's check of one detail of the revised procedure, the manual throttle-up (about 1.25 seconds late per the mission report), the landing radar failing to lock until the circuit breaker was cycled on Houston's call, Shepard's debrief crediting the ground, and Gene Kranz's memoir recalling that Shepard told the flight director he would have continued the approach without the radar while the ground believed he would have had to abort. Independent editorial commentary on mission records; it quotes memoirs and debriefs. Read the abort-bit, radar and landing-approach sections, not every line of transcript.",
+      "url": "https://apollojournals.org/alsj/a14/a14.landing.html"
+    },
+    {
+      "id": "src_shepard_mitchell_oh",
+      "kind": "archive",
+      "title": "NASA Johnson Space Center Oral History Project, Edgar D. Mitchell interviewed by Sheree Scarborough, 3 September 1997 -- the Apollo 14 lunar module pilot's recollection of the Apollo 13/14 crew assignment: Shepard, as chief of the Astronaut Office, had a lot to say about whom he flew with and chose Stuart Roosa and Mitchell; headquarters thought he needed more time to train and the crews were swapped with Lovell's. Crewmate's recollection decades later; the long sections on Mitchell's own later views were not used. Read the passages on the assignment.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/08/mitchelled-9-3-97.pdf"
+    },
+    {
+      "id": "src_shepard_lovell_oh",
+      "kind": "archive",
+      "title": "NASA Johnson Space Center Oral History Project, James A. Lovell Jr. interviewed by Ron Stone, 25 May 1999 -- Lovell's recollection that Shepard talked Deke Slayton into giving him the next flight (Apollo 13), that NASA headquarters had second thoughts, and that Slayton then offered Lovell Apollo 13 and Shepard Apollo 14; also that competition for flights was aggressive but not that aggressive and that Slayton controlled crew selection. A peer directly affected by the swap; the medical reference in the passage was not used. Read the passages on the assignment.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/08/lovellja-5-25-99.pdf"
+    },
+    {
+      "id": "src_shepard_shepard_oh",
+      "kind": "archive",
+      "title": "NASA Johnson Space Center Oral History Project, Alan B. Shepard Jr. interviewed by Roy Neal, 20 February 1998 -- Shepard's own account of the 1959 group's competition, Robert Gilruth's announcement that he would fly first, the extra unmanned flight before his, his role helping Slayton with crew assignments and his proposal of himself with Roosa and Mitchell for Apollo 13 and the compromise of Apollo 14. SELF account recorded five months before his death; used only to corroborate others, never as sole support for a row, and its medical passages were not used. Read the passages on selection, the flight, crew assignment and Apollo 13/14; the rest was skimmed.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/08/shepardab-2-20-98.pdf"
+    },
+    {
+      "id": "src_shepard_smithsonian",
+      "kind": "press",
+      "title": "Arcynta Ali Childs, 'On May 5, 1961, Alan Shepard Went to Outer Space and Came Home', Smithsonian Magazine, 5 May 2011 -- short anniversary article quoting National Air and Space Museum curator Michael Neufeld: the flight lasted about 15 minutes and helped show that the capsule and astronauts could fly in space; Shepard was fundamentally chosen because he came out as the best of the seven as far as leadership of the program was concerned, the sharpest and best trained; the golf at the end of the second moonwalk is what people remember of Apollo 14. Independent museum-curator view; the article's note on his medical history was not used. Read in full.",
+      "url": "https://www.smithsonianmag.com/smithsonian-institution/on-may-5-1961-alan-shepard-went-to-outer-space-and-came-home-163104310/"
+    },
+    {
+      "id": "src_shepard_spudis",
+      "kind": "press",
+      "title": "Paul D. Spudis, 'Scientists vs. The Icy Commander', Air & Space Magazine (Smithsonian), 21 August 2009 -- lunar scientist's column: Shepard and Deke Slayton picked the Gemini and Apollo crews and colleagues learned not to cross him; he cheerfully called geology a low-grade science yet assured the scientists he would do his best; on the Cone Crater climb the geology back room was aghast at what it took as his declaring victory, but Lunar Reconnaissance Orbiter images 38 years later, Spudis argues, show he was at the rim. Critical and then revisionist view from the scientists' side; its reading of the images differs from the Surface Journal's note that the crew stopped about 30 metres from a rim it never recognised, and the medical reference was not used. Read in full.",
+      "url": "https://www.smithsonianmag.com/air-space-magazine/scientists-vs-the-icy-commander-153594402/"
+    },
+    {
+      "id": "src_shepard_spacereview",
+      "kind": "press",
+      "title": "Jeff Foust, 'Review: Light This Candle' (Neal Thompson's biography of Shepard), The Space Review, 1 November 2004 -- review of the third-party biography: Shepard widely acknowledged as an excellent pilot and an intense competitor, particularly when he and John Glenn jockeyed for the first Mercury flight; he flirted with failure at the Naval Academy and flight school, and flat-hatting nearly led to a court martial, but each time turned his fortunes around with hard work and luck; the author interviewed colleagues and used an FBI dossier. One reviewer's summary of a book that was not opened here; its medical and private-life material was not used. Read in full.",
+      "url": "https://thespacereview.com/article/256/1"
+    },
+    {
+      "id": "src_shepard_cnn_obit",
+      "kind": "press",
+      "title": "CNN, 'Alan Shepard was a pretty cool customer', 22 July 1998 -- obituary quoting Tom Wolfe's The Right Stuff on the two sides of Shepard ('Smilin' Al' and the 'icily correct' career officer, the 'Icy Commander'), Wolfe's account of Shepard telling the launch team to fix its little problem and light the candle, Shepard's remark that everybody thought he was a pretty cool customer, his statement that being first of the seven was 'competition at its best', and a summary of Apollo 14 (nine hours of moonwalks, a tired and irritable crew, the golf shots). Independent news summary; the Wolfe material is one writer's narrative relayed second-hand; the passages on illness, family, money and unrelated personal anecdotes were not used. Read in full.",
+      "url": "https://www.cnn.com/US/9807/22/obit.shepard.02/"
+    },
+    {
+      "id": "src_shepard_newsweek",
+      "kind": "press",
+      "title": "Newsweek, 'Al Just Left Us All Behind', 3 August 1998 (byline shown as Newsweek Editors) -- first-person remembrance written at his death by one of the other Mercury astronauts: Shepard determined to be head of the pack, desperately wanting to be the first man in space, reacting to Gagarin's flight with language that could not be printed, doing what it took to get a job done, proud of his 'Icy Commander' reputation for aloofness and disliking the press; it also tells personal anecdotes about cars and speeding, which were not used. A colleague's affectionate memoir, so admiring and anecdotal. Read in full.",
+      "url": "https://www.newsweek.com/al-just-left-us-all-behind-169598"
+    },
+    {
+      "id": "src_shepard_nasaimage",
+      "kind": "institution",
+      "title": "NASA Image and Video Library record S70-45232 (Johnson Space Center), 'Astronaut Alan B. Shepard Jr., Apollo 14 mission commander' (caption date 14 July 1970, 'Photo credit: NASA'), with NASA's Media Usage Guidelines and the Wikimedia Commons file page 'Alan B. Shepard 1970.jpg' -- checked for the portrait's basis. Not used for any scoring.",
+      "url": "https://images.nasa.gov/details/S70-45232"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_shepard_spacereview, src_shepard_newsweek, src_shepard_cnn_obit, src_shepard_shepard_oh | 1959-1961 | biography review + colleague's remembrance + obituary + his own interview] The Space Review says Thompson's biography repeatedly shows him as an excellent pilot and an intense competitor, particularly when he and John Glenn jockeyed for the first Mercury flight; a fellow Mercury astronaut writes in Newsweek that he was determined to be head of the pack, desperately wanted to be first in space and reacted to Gagarin's flight with language that could not be printed; CNN's obituary, drawing on Wolfe, calls him deadly earnest about being an astronaut and quotes his later description of being chosen first of the seven as 'competition at its best'; in his own 1998 interview he recalls thinking that his peers had better be happy because he was going to make the first flight. Four voices converge on a drive central to how he is remembered, mostly as characterisations with a few concrete reactions, and one is self-reported, so documented at a moderate-high confidence and a score below the top band; dual-edged because the same drive shows up in accounts of friction and aloofness."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_shepard_nasabio, src_shepard_smithsonian, src_shepard_mitchell_oh, src_shepard_lovell_oh, src_shepard_spudis | 1959-1971 | NASA biography + museum curator + two colleagues' oral histories + lunar scientist] NASA's biography lists him as Chief of the Astronaut Office from 1963, a post he resumed after Apollo 14 until 1974; the Smithsonian's curator says he was chosen for the first flight because he came out as the best of the seven as far as leadership of the program was concerned; Mitchell says that, as chief of the office, Shepard had a lot to say about who flew with him and picked Roosa and Mitchell; Lovell says he talked Deke Slayton into giving him the next flight; Spudis writes that Shepard and Slayton picked the Gemini and Apollo crews and that colleagues learned not to cross him. Institutional roles plus peers' accounts of how he used them, with a critical voice among them, so documented at a moderate-high confidence and dual-edged."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_shepard_thisnewocean, src_shepard_mitchell_oh, src_shepard_lovell_oh, src_shepard_shepard_oh | 1960-1970 | NASA history + two colleagues' oral histories + his own interview] This New Ocean says that long before the first flight Shepard and operations director Walter Williams insisted that the designated astronaut become an integral part of the preflight checkout of his spacecraft; Mitchell, Lovell and Shepard himself each recall that when the Apollo 13 crew was being decided he proposed himself as commander with Stuart Roosa and Edgar Mitchell, that headquarters objected, and that the outcome was Apollo 14 with Lovell's crew taking Apollo 13, Lovell calling him the ultimate politician for talking Slayton into the assignment. Two documented initiatives, the second told by three people who differ on emphasis and one of whom is Shepard, so documented at a moderate-high confidence."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shepard_alsj_summary, src_shepard_afj_docking, src_shepard_spudis | 1971 | lunar surface journal + flight journal + lunar scientist] The Surface Journal says Shepard and Mitchell talked Houston into shortening their rest period to get a full second moonwalk, then climbed toward Cone Crater with a hand cart on a slope of about ten percent, Shepard leading, counting cadence and calling halts, and pressed on past the planned time until the flight director called a stop; the Flight Journal documents repeated failed docking attempts on the way to the Moon, Shepard suggesting a suited inspection of the probe and then, when Houston proposed retracting the probe under thrust instead, running that procedure with Roosa until a hard dock was achieved; Spudis describes both men growing winded on the climb but portrays Shepard as eager to abandon it, so the Cone Crater evidence cuts both ways. Documented episodes from one mission, with mixed accounts of the climb, so strong inference at a moderate confidence."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shepard_alsj_summary, src_shepard_afj_docking, src_shepard_alsj_landing | 1971 | lunar surface journal + flight journal] On the Cone Crater climb the Surface Journal has Shepard taking stock after about two hours and judging it time to pick boulders and start sampling, then refusing Mitchell's suggestion to abandon the cart to move faster; in the docking trouble the Flight Journal shows him proposing a contingency promptly and then confirming the revised plan before making the retract call; at descent ignition the Journal cites the mission report that he made the manual throttle-up about a second and a quarter after the planned time. Documented choices under time pressure, but each was shaped by Houston's or Mitchell's input, so the score is moderate."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shepard_thisnewocean, src_shepard_afj_docking, src_shepard_alsj_landing | 1961-1971 | NASA official history + flight journal + lunar surface journal] This New Ocean reports 120 simulated Mercury-Redstone flights, a preflight routine described as unhurried but precise, and a debriefing in which he noted small hardware points (a wrist gauge that was hard to see, rubber finger cots on the gloves) while also admitting items he missed in flight (the periscope filter, an altitude call, the manual fuel valve); the Journals show him restating the retract procedure step by step to Houston before the docking attempt and, before the landing, rechecking one detail of a revised procedure (the throttle-control setting). Repeated attention to procedural detail across 1961 and 1971, but the records are largely his own transcripts and debrief, so moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "앨런 셰퍼드"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alan-shepard-nasa-1970.jpg",
+    "width": 791,
+    "height": 1200,
+    "source": "NASA Johnson Space Center photograph S70-45232, 'Astronaut Alan B. Shepard Jr., Apollo 14 mission commander' (caption date 14 July 1970, 'Photo credit: NASA'), downloaded from the NASA Image and Video Library original (2644 x 4009 pixels) and also catalogued on Wikimedia Commons as 'Alan B. Shepard 1970.jpg' (PD-USGov-NASA, same dimensions). NASA's Media Usage Guidelines say NASA content is generally not subject to copyright in the United States and that third-party copyrighted material is marked with the holder's name; this record carries only a NASA credit, no third-party credit and no logo. Downscaled once to 791 x 1200 (never upscaled).",
+    "license": "Public Domain (NASA work)",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attribution": "NASA / Johnson Space Center, photo S70-45232, 14 July 1970, downscaled from the original",
+    "attributionUrl": "https://images.nasa.gov/details/S70-45232",
+    "creator": "NASA (Johnson Space Center)",
+    "date": "1970-07-14",
+    "kind": "likeness",
+    "sourcePageUrl": "https://images.nasa.gov/details/S70-45232"
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q174979 returned en label 'Alan Shepard', description 'American astronaut, first American in space, lunar explorer (1923-1998)', born 1923-11-18, died 1998-07-21, citizenship United States, ko label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug alan-shepard or QID Q174979 in the roster50 worktree. Region is the controlled value north_america. SUBJECT AND EXCLUSIONS: only documented professional conduct as an astronaut and as Chief of the Astronaut Office is scored (Freedom 7 preparation and flight, crew-assignment dealings, Apollo 14). Excluded from rows and cards: his medical history and treatment and any inference from it (several sources mention it; only their crew-assignment and mission content was used), family, the drinking, womanising, car and speeding anecdotes found in some sources, naval service as such (including flat-hatting episodes), his post-NASA business and board roles, his 1971 appointment as a United Nations delegate and any other government dealing, and the Cold-War framing of the 1961 flight. CANONICAL SIGNIFICANCE SOURCE: NASA Johnson Space Center, 'Biographical Data: Alan B. Shepard, Jr.' (September 1998), https://www.nasa.gov/wp-content/uploads/2016/01/shepard_alan.pdf, read in full; it is the agency's own honouring biography, so the cards also rest on NASA's official Mercury history, the Apollo 14 journals and the Smithsonian pieces. READ (13 cited substantive non-Wikidata sources plus the NASA image record): the NASA biography; the MR-3 chapter of This New Ocean; the Apollo 14 Lunar Surface Journal summary and landing page (relevant sections) and the Flight Journal docking page (relevant sections); JSC oral histories of Mitchell and Lovell (assignment passages) and Shepard himself (selected passages); Smithsonian Magazine 2011; Spudis in Air & Space 2009; The Space Review's review of Thompson's biography; CNN's 1998 obituary; Newsweek's 1998 remembrance; the NASA Image Library record. Also read but not cited: Universe Today's review of Thompson's book (mostly private-life material) and the NPR and Tampa Bay Times obituary pages (audio-only and paywalled). PERSPECTIVES: NASA's official history and biography (institutional), historian-edited mission journals, two crewmates' oral histories, a lunar scientist critical of him, a museum curator, a biography reviewer, a news obituary relaying Tom Wolfe, a colleague's remembrance and his own interview (self; never sole support for a row). CALIBRATION: several accounts are admiring or anecdotal, the Wolfe-derived material is second-hand, the Cone Crater accounts disagree (the Surface Journal says the crew stopped about 30 metres from a rim it never recognised; Spudis argues orbital imagery shows it was at the rim), and the 'light this candle' line rests on Wolfe through CNN, so no score exceeds 80 and no confidence exceeds 0.66. NOT OPENED: Tom Wolfe's The Right Stuff, Deke Slayton's and Shepard's own 'Moon Shot' and 'Deke!', Neal Thompson's biography (only reviews read), Gene Kranz's memoir (only the passage quoted in the Surface Journal), Chris Kraft's memoir, the NYT and Washington Post obituaries, the Apollo 14 mission report and technical debrief documents, NASM object pages and Britannica; the 'Why don't you fix your little problem' line was not found in NASA's own history chapter. ROW DROPPED: a social-assertiveness row was drafted and removed before approval because its evidence was one joint crew request, one second-hand anecdote (Wolfe via CNN) and one reputational remark, which is too thin to support a score. PORTRAIT: NASA photograph S70-45232 (Apollo 14 commander portrait in civilian clothes), public domain as a NASA work with a NASA-only credit; downloaded at 2644 x 4009 and downscaled once to 791 x 1200. Not used: the 1971 rear-admiral uniform portrait S71-52263 (also NASA, but it foregrounds military rank, which is not scored) and Commons copies whose cited sources are third-party websites."
+  }
+}

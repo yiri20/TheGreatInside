@@ -752,6 +752,21 @@ describe("confidence and missing data", () => {
       "satya-nadella",
       "vint-cerf",
       "william-shakespeare",
+      "alan-shepard",
+      "aretha-franklin",
+      "donald-knuth",
+      "francis-ford-coppola",
+      "hans-christian-orsted",
+      "i-m-pei",
+      "igor-stravinsky",
+      "jony-ive",
+      "katalin-kariko",
+      "kobe-bryant",
+      "michael-phelps",
+      "peter-higgs",
+      "rita-levi-montalcini",
+      "tim-cook",
+      "titian",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1444,6 +1459,21 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "satya-nadella",
       "vint-cerf",
       "william-shakespeare",
+      "alan-shepard",
+      "aretha-franklin",
+      "donald-knuth",
+      "francis-ford-coppola",
+      "hans-christian-orsted",
+      "i-m-pei",
+      "igor-stravinsky",
+      "jony-ive",
+      "katalin-kariko",
+      "kobe-bryant",
+      "michael-phelps",
+      "peter-higgs",
+      "rita-levi-montalcini",
+      "tim-cook",
+      "titian",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {

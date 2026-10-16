@@ -83,7 +83,7 @@ test("people directory: default (unfiltered) view shows the current live Directo
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
-  await expect(page.getByText(/^462 people$/)).toBeVisible();
+  await expect(page.getByText(/^477 people$/)).toBeVisible();
 });
 
 test("people directory: heading hierarchy still holds with an active search filter (en-US)", async ({ page }) => {
@@ -662,8 +662,17 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // one portrait hold). The cross-facet count moved again, 12->13: Jennifer
   // Doudna crosses BOTH the curiosity and collaboration thresholds on her own
   // evidence (verified on the rendered Directory result list).
-  expect(bodyText).toMatch(/전체\s*463명\s*중\s*13명/);
+  // Total updated again 463->478 (Roster50, 2026-10-16, docs/checkpoints/
+  // roster50.md: 15 new people, all freshly researched, zero backlog reuse,
+  // no holds). The cross-facet count moved again, 13->16: Rita Levi-Montalcini,
+  // Jony Ive and Katalin Kariko each cross BOTH the curiosity and collaboration
+  // thresholds on their own evidence (verified on the rendered Directory result
+  // list).
+  expect(bodyText).toMatch(/전체\s*478명\s*중\s*16명/);
   expect(bodyText).toContain("제니퍼 다우드나");
+  expect(bodyText).toContain("리타 레비몬탈치니");
+  expect(bodyText).toContain("조너선 아이브");
+  expect(bodyText).toContain("커털린 커리코");
   expect(bodyText).toContain("레너드 번스타인");
   expect(bodyText).toContain("괴테");
   expect(bodyText).toContain("프랜시스 크릭");

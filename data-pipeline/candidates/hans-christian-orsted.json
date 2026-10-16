@@ -1,0 +1,238 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hans-christian-orsted",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hans Christian Ørsted",
+    "aliases": [
+      "H. C. Ørsted",
+      "Hans Christian Oersted",
+      "Hans Christian Orsted"
+    ],
+    "wikidataId": "Q44412",
+    "birthYear": 1777,
+    "deathYear": 1851,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DK"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "chemist"
+    ],
+    "fieldIds": [
+      "physics",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "polymath",
+      "founder"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist",
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_orsted_wikidata",
+      "kind": "wikidata",
+      "title": "Hans Christian Ørsted (Q44412) -- verified live via the Wikidata API (2026-10-15): English label 'Hans Christian Ørsted', description 'Danish physicist and chemist (1777-1851)', Korean label present, instance of human, born 14 August 1777 in Rudkøbing, died 9 March 1851 in Copenhagen, citizenship Kingdom of Denmark, occupations including physicist, chemist, inventor, university teacher, engineer and pharmacist; a name search also returns unrelated entities (a descendant, a prize, an institute, a statue, articles) but only this one is the physicist. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q44412"
+    },
+    {
+      "id": "src_orsted_aps_news",
+      "kind": "institution",
+      "title": "Alan Chodos (former editor of APS News), 'July 1820: Oersted & Electromagnetism', APS News (American Physical Society, 'This Month in Physics History'), 1 July 2008 -- CANONICAL SIGNIFICANCE SOURCE: the Society's account that by the end of the 18th century electrical and magnetic phenomena were believed to be distinct forces, that Ørsted's July 1820 pamphlet showed they were closely related, that he turned on a current during a lecture demonstration and saw a compass needle deflect (dated 21 April 1820 in the article) but that 'accounts differ on whether the demonstration was designed to look for a connection between electricity and magnetism, or was intended to demonstrate something else entirely', that he tried various wires, reversed the current, varied the orientation and interposed wood or glass, that the publication 'caused an immediate sensation' and led to Ampère's mathematical law, Faraday's induction and Maxwell's equations, and his other work (private lectures after returning to Copenhagen, the Society for Dissemination of Natural Science, the Polytechnic in 1829, aluminium in 1825). Professional-society retrospective, admiring but careful about the accident story. Read in full.",
+      "url": "https://aps.org/apsnews/2008/07/1820-oersted-electromagnetism"
+    },
+    {
+      "id": "src_orsted_britannica",
+      "kind": "biography",
+      "title": "'Hans Christian Ørsted', Encyclopaedia Britannica (online biography) -- short overview: Danish physicist and chemist who discovered that an electric current in a wire can deflect a magnetized compass needle, professor at Copenhagen from 1806, an evening lecture in April 1820, the discovery of piperine in 1820 and preparation of metallic aluminium in 1825, the 1824 society for spreading scientific knowledge among the public, and the adoption in the early 1930s of the name 'oersted' for the CGS unit of magnetic field strength; quick facts list the 1820 Copley Medal. Encyclopaedia entry, neutral. Read in full (three paragraphs of article text and the quick facts).",
+      "url": "https://www.britannica.com/biography/Hans-Christian-Orsted"
+    },
+    {
+      "id": "src_orsted_dbl",
+      "kind": "biography",
+      "title": "Ole Norling-Christensen, 'H.C. Ørsted', Dansk Biografisk Leksikon (3rd edition, 1979-84, online on Lex; entry last changed 2012; in Danish) -- the Danish national biography's scholarly entry: his schooling and prize essays (aesthetics 1796, medicine 1797), pharmacy examination (1797) and Kantian doctorate (1799), the 1801-04 study journey and the Paris failure over Ritter and Winterl, the 1812 chemical system and its suggestion that electricity might be converted into magnetism, the 1820 experiment as described in his own 1828 autobiography and 1830 encyclopaedia article, the compressibility work and his piezometers, the Society for the Dissemination of Natural Science (planned 1823, founded 1824), the Polytechnic (opened 1829, first director), his work for the Academy of Sciences (secretary from 1815), his advice to students such as L. A. Colding, his more than 2,000 Danish scientific word coinages, and his late philosophical works. A scholarly national-biography entry, admiring, drawing partly on his own writings; the family, religious-controversy and iconography sections were not used. Read in full.",
+      "url": "https://biografiskleksikon.lex.dk/H.C._%C3%98rsted"
+    },
+    {
+      "id": "src_orsted_jelved_jackson",
+      "kind": "biography",
+      "title": "Karen Jelved and Andrew D. Jackson (editors and translators of Ørsted's Selected Scientific Works, Princeton 1998), 'H. C. Ørsted and the Discovery of Electromagnetism', Niels Bohr Institute teaching text, Copenhagen, 2019 (25 pages) -- a scholarly outreach essay: Ørsted's own third-person account of the lecture experiment and of the three-month pause, his Kantian background and 1803 statement of a unifying programme, the prize essays, the Ritter and Winterl episode in Paris, the acoustic-figure and compressibility experiments (1805-1845), the July 1820 series with six named observers, the reception (Davy's Copley Medal proposal, Arago's 11 September 1820 demonstration, Ampère's and Biot and Savart's work), Ampère's letter explaining why the Parisians had not looked, the priority and plagiarism claims and Ørsted's 1821 and 1830 replies, his remarks about Ampère, and his turn after about 1825 to education and public service. Scholarly essay by his modern editors, admiring but analytical. Read in full.",
+      "url": "https://nbi.ku.dk/moed-os/gymnasielaerere_og_folkeskolelaerere/temadag2019/HC-Oersted-og-opdagelsen-af-elektromagnetismen.pdf"
+    },
+    {
+      "id": "src_orsted_giuliani",
+      "kind": "archive",
+      "title": "Giuseppe Giuliani (formerly University of Pavia), 'Electromagnetic induction: physics, historical breakthroughs, epistemological issues and textbooks', arXiv:2102.11036, 17 February 2021, the section on Ørsted's discovery -- a physicist-historian's account of the accident legend: Gilbert's 1820 remark in the Annalen der Physik that the effect 'happened by chance', Ørsted's own 1821 account of a prepared test of a long-held belief whose first result was 'indisputable' but 'confusing', Hansteen's 1857 letter and the doubts of Stauffer and Kipnis about it, and his conclusion that the discovery was by no means accidental although the path to it was 'long, uncertain and rhapsodic'; also Ørsted's description of his July 1820 experiments. Scholarly preprint, independent of Danish sources. Read the sections on Ørsted (the rest of the 55-page paper, on induction, was not read).",
+      "url": "https://arxiv.org/pdf/2102.11036"
+    },
+    {
+      "id": "src_orsted_hansteen_faraday",
+      "kind": "biography",
+      "title": "Henry Bence Jones, The Life and Letters of Faraday, vol. 2 (London, 1870), pp. 389-391, Internet Archive scan -- the letter of Christopher Hansteen (Norwegian astronomer and Ørsted's acquaintance) to Faraday dated 30 December 1857, which calls Ørsted 'a man of genius' but 'a very unhappy experimenter' who needed an assistant or an auditor to arrange experiments and tells the story that, after a lecture, Ørsted tried the wire parallel to the needle, saw the needle swing and 'tumbled over it by accident'. A contemporary's recollection written 37 years after the event (scholars note that Hansteen was not in Copenhagen then); read only the letter and its context.",
+      "url": "https://archive.org/details/lifelettersoffa02jone"
+    },
+    {
+      "id": "src_orsted_linda_hall",
+      "kind": "institution",
+      "title": "William B. Ashworth Jr., 'Hans Christian Oersted', Scientist of the Day, Linda Hall Library of Science, Engineering and Technology, 22 April 2024 -- a historian's short feature: that 'according to tradition' Ørsted made a 'famous accidental discovery' on 21 April 1820 while demonstrating for students, that he announced it on 21 July 1820 in a four-page Latin pamphlet, that it introduced electromagnetism into physics, that the original compass is said to be preserved in Copenhagen, that he was part of the Danish Golden Age and a friend of Hans Christian Andersen, and that hundreds of thousands were said to have joined his funeral procession. Library history feature, popular in tone and repeating the accident tradition (recorded as a conflicting account). Read in full.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/hans-christian-oersted/"
+    },
+    {
+      "id": "src_orsted_nbi_site",
+      "kind": "institution",
+      "title": "Niels Bohr Institute, University of Copenhagen, 'Electromagnetism - The unique discovery' (Great Danish researchers: HC Ørsted), 28 May 2010 -- the Institute's popular account: that Ørsted was sure there was a connection between electric and magnetic forces and, before a lecture, decided to try to demonstrate it with a test set-up, that the needle moved when it was parallel to the wire, that he repeated the experiment many ways before reporting it, the Paris reception (Coulomb's view, the 11 September 1820 demonstration, Ampère's rush to experiment), and Faraday's induction of 1831. Institutional popular text, national-pride tone, presents the experiment as planned. Read in full.",
+      "url": "https://nbi.ku.dk/english/www/hco/oersted/opdagelsen/"
+    },
+    {
+      "id": "src_orsted_dtu_history",
+      "kind": "institution",
+      "title": "Technical University of Denmark (DTU), 'DTU's historie' (in Danish) -- the university's account that the Polytechnic was founded on 5 November 1829 by H.C. Ørsted, the man who discovered electromagnetism, on the model of the École Polytechnique in France, with an early emphasis on basic science over practical teaching so that it first trained mainly technical teachers. Institutional history, proud in tone; used for the founding date and model only. Read in full.",
+      "url": "https://dtu.dk/om-dtu/profil/historie"
+    },
+    {
+      "id": "src_orsted_dtu_physics",
+      "kind": "institution",
+      "title": "DTU Physics, 'History' (department page) -- the department's statement that the university was founded in 1829 with Hans Christian Oersted as its first Director, that physics was taught until 1876 by professors holding joint posts with the University of Copenhagen, the first being Oersted, who had published in 1820 his paper on the relation between electricity and magnetism, and that a collection of Oersted's electrification machines is still held. Institutional history, brief. Read in full.",
+      "url": "https://physics.dtu.dk/About/history/DTU-Physics-History"
+    },
+    {
+      "id": "src_orsted_pw_review",
+      "kind": "press",
+      "title": "Anja Skaar Jacobsen (historian of science), 'A romantic scientist' (review of Dan Charly Christensen, Hans Christian Ørsted: Reading Nature's Mind, Oxford University Press, 2013), Physics World, 28 November 2013 -- review of the first complete biography: that Ørsted expected a connection between electricity and magnetism 'unlike his French colleagues' and had looked for one for years, as part of a programme seeking connections among electricity, magnetism, chemical affinity, heat and light; a polymath in science, philosophy, art and poetry; Davy's description of him as 'a man of simple manners, of no pretensions ... but ingenious, and a little of a German metaphysician'; the reviewer's disagreement with the author over calling him romantic. Historian's review of a scholarly biography, admiring; the passages on his love life, family losses and brother's career were not used. Read in full.",
+      "url": "https://physicsworld.com/a/a-romantic-scientist/"
+    },
+    {
+      "id": "src_orsted_ntm",
+      "kind": "institution",
+      "title": "Norsk Teknisk Museum (Norwegian Museum of Science and Technology), object record 'Batteri' with biographical note on H. C. Ørsted, on DigitaltMuseum -- the museum's note (in Norwegian, based on the Danish Technical Museum's text) that Ørsted took the pharmacy examination in 1797, was professor in Copenhagen 1806-29, co-founder and first director of the Polytechnic 1829-51, 'discovered' the magnetic effect of electricity during a lecture in 1820, was 'a very versatile physicist' who built a piezometer, produced aluminium, confirmed Boyle's and Mariotte's results on the compressibility of gases, founded the Society for the Dissemination of Natural Science in 1824 and coined Danish words such as ilt, brint, vægtfylde and varmefylde. Museum catalogue note, brief. Read in full.",
+      "url": "https://digitaltmuseum.org/021028569949"
+    },
+    {
+      "id": "src_orsted_smk",
+      "kind": "institution",
+      "title": "Statens Museum for Kunst (SMK, National Gallery of Denmark), SMK Open record KMS8176, 'Portrait of the Scientist Hans Christian Ørsted' (also titled 'Portrait of the Physicist Hans Christian Ørsted'), by C. A. (Christian Albrecht) Jensen, 1832-1833, oil on canvas, 678 x 510 mm -- checked for the portrait's rights: the museum's open API record (api.smk.dk, read as the SMK Open web page itself is a JavaScript app) marks the work as public domain and gives the rights statement 'https://creativecommons.org/publicdomain/mark/1.0/' (Public Domain Mark 1.0), creator dates 1792-1870, native image 5214 x 7015 pixels, acquired by the museum on 13 October 2000, catalogued in Sigurd Schultz, C.A. Jensen (1932), vol. 2, no. 249; the Wikimedia Commons copies of the same image add the provenance (the landowner P. B. Scavenius, Gjorslev; an estate auction in 1925; sold at auction in 2000) and an exhibition at Charlottenborg, Copenhagen, in 1833. Not used for any scoring.",
+      "url": "https://open.smk.dk/artwork/image/KMS8176"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_orsted_dbl, src_orsted_aps_news, src_orsted_jelved_jackson, src_orsted_pw_review, src_orsted_ntm | 1796-1851 | national biographical dictionary + professional-society retrospective + scholarly essay by the editors of his selected works + historian's book review + museum record] The Danish Biographical Lexicon records that he passed the pharmacy examination with distinction in 1797, won the university's prize essays in aesthetics (1796) and medicine (1797), took his doctorate in 1799 with a Kantian dissertation, and then worked in chemistry (a chemical system in 1812, piperine in 1820, aluminium in 1825), physics (acoustic figures, compressibility, electromagnetism), poetry (the long prose poem 'Luftskibet', 1836), the coining of more than 2,000 Danish scientific words and a final philosophical work; the APS retrospective says he was 'also a published writer and poet' who contributed to chemistry as well as physics; Jelved and Jackson say he considered himself a man of letters with a life-long interest in poetry; Physics World's reviewer of the 2013 biography calls him a polymath active in philosophy, art and poetry before his discovery; a museum record calls him 'a very versatile physicist'. Five separate sources converge, each naming specific works in more than one field, so documented at a moderately high confidence, held below the top band because they are modern, mostly admiring summaries and several rest on his own autobiography. LEAD REVIEW CORRECTION (Roster50, before eligibility): the evidence is secondary (the standard biography was not opened; Stauffer, Kipnis and Martins reached only through Giuliani); claim strength lowered."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_orsted_dbl, src_orsted_jelved_jackson, src_orsted_pw_review, src_orsted_aps_news | 1799-1820 | national biographical dictionary + scholarly essay + historian's book review + professional-society retrospective] The Danish Biographical Lexicon says that his reading of Kant gave him, before 1800, the idea that the apparently different forces of nature are fundamentally one, which led to his discovery of electromagnetism, and that in 1812 he discussed the possible conversion of electricity into magnetism and proposed that heat, light and magnetism arise from increasingly concentrated forms of the same electrical 'conflict'; Jelved and Jackson quote his 1803 statement that physics would no longer be 'a collection of fragments on motion, on heat, on air, on light, on electricity, on magnetism' but 'one system', and show that he took two forces, attraction and repulsion, from Kant and expected every other force to be a mixture of them, a conviction that motivated his work on acoustic figures and on compressibility; Physics World's reviewer says his research sought connections among electricity, magnetism, chemical affinity, heat and light, with electromagnetism 'a culmination of his research project'; the APS retrospective says he 'seems to have believed that electricity and magnetism were forces radiated by all substances'. Four independent descriptions of a long-held unifying framework, but the same convictions led him to accept Winterl's speculative system and to reject atoms (both in the lexicon and in Jelved and Jackson), so the impact is dual-edged, and confidence is moderate because much rests on his own statements as relayed by modern scholars. LEAD REVIEW CORRECTION (Roster50, before eligibility): the evidence is secondary (the standard biography was not opened; Stauffer, Kipnis and Martins reached only through Giuliani); claim strength lowered."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_orsted_dbl, src_orsted_jelved_jackson, src_orsted_pw_review | 1799-1820 | national biographical dictionary + scholarly essay + historian's book review] The Danish Biographical Lexicon says that in 1812 he discussed turning electricity into magnetism, 'an idea foreign to the physicists of the time', whose common opinion was that heat, light, electricity and magnetism were unchangeable substances, and that his Kantian rejection of atoms shaped his later research; Jelved and Jackson add that the French science he met in Paris prized experimental results 'and none whatsoever on Naturphilosophie' and quote Ampère's 1821 letter explaining that, because of Coulomb's hypothesis, it was 'absolutely' excluded that a voltaic pile could act on a magnet and that when Arago reported Ørsted's effect to the Institut 'it was rejected'; Physics World's reviewer writes that, 'unlike his French colleagues', Ørsted expected a connection and had been looking for one for years. The costs are documented too: the lexicon says his reputation as an uncritical enthusiast forced him to begin as an unpaid adjunct, and Jelved and Jackson that his support for Winterl's irreproducible claims 'created difficulties' in Paris and Copenhagen. Three independent accounts of holding a minority view for years, but the view came largely from Kant and the German natural philosophers rather than from his own reasoning alone, so a moderate confidence and a dual-edged impact."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_orsted_aps_news, src_orsted_linda_hall, src_orsted_dbl, src_orsted_jelved_jackson | 1805-1825 | professional-society retrospective + library history feature + national biographical dictionary + scholarly essay] The APS retrospective says the 1820 discovery 'marked the beginning of a revolution in the understanding of electromagnetism' and Linda Hall's historian that it 'introduced a new field, electromagnetism, into the domain of physics'; the Danish Biographical Lexicon calls his 1812 chemical system, built on his own experiments, his first scientific feat and credits him with more than 2,000 new Danish words, many still in use (brint and ilt for hydrogen and oxygen); Jelved and Jackson describe his 1805 attempt to detect electric charge in acoustic figures by strewing lycopodium powder on vibrating plates. Against this, the same lexicon says the 1812 system was 'almost overlooked in the history of chemistry' and that he had no influence on the later electromagnetic wave theory, the APS says he may have been inspired by Ritter, who believed in a connection, and Jelved and Jackson say none of his ten later manuscripts on electromagnetism merits a place in their table of highlights of the field's first century. One documented new field plus other original but less influential departures, so strong inference at a modest confidence."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_orsted_dbl, src_orsted_jelved_jackson, src_orsted_aps_news, src_orsted_giuliani | 1804-1845 | national biographical dictionary + scholarly essay + professional-society retrospective + scholarly article] The Danish Biographical Lexicon says that after the Paris failure he 'learned the necessity of a critical attitude' and kept his philosophical ideas in check until he had some proof, that in 1840 he advised his student L. A. Colding to test rather than publish speculations on the indestructibility of natural forces and found him funds for experiments, and that his piezometers and his 'sharp analysis of possible sources of error' became the basis of later work; Jelved and Jackson say he found a flaw in earlier compressibility experiments (the vessel walls might yield) and built a piezometer with equal pressure inside and outside, reported deviations near a change of state instead of keeping to the result he expected, and in July 1820 used a stronger battery, six named witnesses and a long series of measurements of distance and orientation, with notes and drawings preserved in the Royal Library; the APS retrospective adds that he tried various wires, reversed the current and interposed materials; Giuliani notes that Ørsted's own account calls the first effect 'indisputable' but 'confusing'. Against this, in 1803-04 he promoted Winterl's and Ritter's unreproducible claims, and Hansteen's 1857 letter calls him an 'unhappy experimenter' who needed assistants to manipulate instruments (a late recollection that concerns manual skill). Several distinct documented episodes after 1804, so strong inference at a moderate confidence."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_orsted_dbl, src_orsted_jelved_jackson | 1803-1845 | national biographical dictionary + scholarly essay] The Danish Biographical Lexicon says that his Paris experience, including his discovery that Ritter's claims were mistaken ('to his horror'), taught him the necessity of a critical attitude, that he then distanced himself from the systems of Winterl and Ritter and no longer accepted philosophical ideas that could not be confirmed by reproducible experiments, and that in 1840 he steered Colding from speculation to experiment; Jelved and Jackson date his 'uncritical and continuing support' for Winterl to 1803-04 and add that his compressibility experiments with sulphurous acid gas gave deviations from the result he expected, which he reported with the conclusion that the law holds only while a substance remains in one state. Against this, both sources show that he kept his core convictions (the rejection of atoms and the Kantian two-force scheme; the lexicon says he did so 'without rejecting his basic views') and that the revision took years, so the evidence is of updating specific claims rather than readiness to abandon a framework: strong inference at a modest confidence."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_orsted_dbl, src_orsted_jelved_jackson, src_orsted_aps_news, src_orsted_hansteen_faraday | 1805-1845 | national biographical dictionary + scholarly essay + professional-society retrospective + contemporary's letter] The Danish Biographical Lexicon says that with Lauritz Esmarch he built a new powerful galvanic battery, that he made a series of experiments on Chladni's sand figures (1807) and designed his own piezometers, 'fundamentally different' from and far more accurate than earlier ones; Jelved and Jackson describe his 1805 attempt to find electric charge in those figures by strewing lycopodium powder, the use of the charged dust to make prints of the figures, and the greatly improved piezometer; the APS retrospective says that after his first observation he tried various wires, reversed the current, varied the needle's orientation and put wood or glass between wire and compass. Hansteen's 1857 letter calls him an 'unhappy experimenter' who needed assistants to manipulate instruments, a recollection from 37 years after the discovery that scholars treat with caution and that concerns manual skill rather than readiness to try new methods. Several distinct documented instances across four decades, so strong inference at a moderate confidence."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_orsted_dbl, src_orsted_aps_news, src_orsted_britannica, src_orsted_jelved_jackson, src_orsted_dtu_history | 1814-1851 | national biographical dictionary + professional-society retrospective + encyclopaedia + scholarly essay + university history] The Danish Biographical Lexicon says that on his way home from England in 1823 he conceived a plan for a Danish institution to spread knowledge of natural science so that craftsmen, farmers and industrial workers and managers could improve their trades and see the usefulness and beauty of science, that he founded the Society for the Dissemination of Natural Science in 1824 and led it, giving it much of his time, until his death, that the Polytechnic he directed from 1829 came about largely on his initiative, and that he laid the foundation of a Danish patent system; the APS retrospective says the Society was 'dedicated to making science accessible to the public, something he thought was very important', and Britannica that it was devoted to the spread of scientific knowledge among the public; Jelved and Jackson say that from about 1825 until his death his efforts were increasingly directed towards education and public service and that his advice in the 1840s shaped Danish patent legislation; DTU's history page records the Polytechnic's founding by him on 5 November 1829. Several independent descriptions of sustained, self-initiated effort aimed at benefit beyond his own research, so documented at a moderately high confidence; his stated aims come partly from his own writings as quoted by the lexicon. LEAD REVIEW CORRECTION (Roster50, before eligibility): the evidence is secondary (the standard biography was not opened; Stauffer, Kipnis and Martins reached only through Giuliani); claim strength lowered."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_orsted_aps_news, src_orsted_dbl, src_orsted_dtu_history, src_orsted_giuliani | 1803-1829 | professional-society retrospective + national biographical dictionary + university history + scholarly article] The APS retrospective says that when he did not immediately obtain a university post on returning to Copenhagen he 'began giving lectures privately, charging admission', that they became popular and led to an appointment in 1806; the Danish Biographical Lexicon says that after his first foreign journey he submitted a proposal to reform physical studies that argued for a technical school (it found no echo then), that in 1827, when a mathematician's proposal for a craftsmen's school reached the university, he was the most active member of the committee whose result was the Polytechnic, that he planned the Society for the Dissemination of Natural Science in 1823, that in 1820 he had the Academy of Sciences publish exact meteorological observations and in 1827 a permanent meteorological committee was set up, and that the Academy's magnetic observatory was founded on his initiative; DTU's history page confirms the Polytechnic's opening in 1829. Against this, the lexicon quotes his 1828 autobiography on 'a certain tendency to postpone undertakings' and Giuliani notes that eight years separated his 1812 suggestion that electricity might act on a magnet from the experiment, so the initiative is documented mainly for institutions rather than for his research."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_orsted_jelved_jackson, src_orsted_giuliani | 1820-1830 | scholarly essay + scholarly article] Jelved and Jackson quote a 1823 letter in which Ørsted describes 'a long debate with Ampère about magnetism' and judges him 'a very inept debater', and a printed remark that the 'ingenuity' with which Ampère had changed his theory to fit contradictory facts was 'very remarkable'; both they and Giuliani report that when Gilbert's Annalen der Physik presented the discovery as a chance event, and when claims of luck and of earlier discovery (Romagnosi) were made, he answered in print in 1821 and again at length in the Edinburgh Encyclopaedia in 1830. Three documented episodes of answering critics and a rival theory in public rather than letting them pass, but the sources describe the disputes briefly, the tone of the remarks comes from his own letters, and several of the attacks concerned his priority rather than disputes he chose, so strong inference at a modest confidence."
+    },
+    "aesthetic_sensitivity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_orsted_dbl, src_orsted_jelved_jackson, src_orsted_pw_review, src_orsted_linda_hall | 1796-1850 | national biographical dictionary + scholarly essay + historian's book review + library history feature] The Danish Biographical Lexicon says that he won the university's 1796 prize for an essay on the boundary between poetic and prose language, that he saw in Chladni's sand figures a proof of the kinship between beauty (music) and reason (mathematics), that he wrote the long prose poem 'Luftskibet' (1836), and that he replaced foreign scientific terms with Danish coinages; Jelved and Jackson describe his scientific prose as florid, with 'philosophical and religious references and even bits of poetry', and say he regarded his scientific production as his 'literary career'; Physics World's reviewer lists art and poetry among his pursuits, and Linda Hall's historian places him in Denmark's Golden Age circle of writers and artists. Several independent descriptions of sustained attention to literary form and to the aesthetic side of science, but the evidence concerns his writing and interests more than the form of his experimental work, so strong inference at a modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "한스 크리스티안 외르스테드"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hans-christian-orsted-jensen-1832.jpg",
+    "width": 892,
+    "height": 1200,
+    "source": "Statens Museum for Kunst (SMK, National Gallery of Denmark), SMK Open record KMS8176 -- Christian Albrecht Jensen (1792-1870), 'Portrait of the Scientist Hans Christian Ørsted' (also catalogued as 'Portrait of the Physicist Hans Christian Ørsted'), 1832-1833, oil on canvas, 678 x 510 mm, painted during the sitter's lifetime and exhibited at Charlottenborg in 1833; the museum's open API record states that the work is in the public domain and carries the Public Domain Mark 1.0; native image 5214 x 7015 pixels (16.2 MB JPEG), downscaled once to 892 x 1200 (never upscaled, no cropping).",
+    "license": "Public domain (SMK Open: Public Domain Mark 1.0; painter C. A. Jensen died 1870)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "C. A. Jensen, Portrait of the Scientist Hans Christian Ørsted, 1832-1833, oil on canvas, Statens Museum for Kunst (KMS8176), public domain; downscaled from the SMK Open image",
+    "attributionUrl": "https://open.smk.dk/artwork/image/KMS8176",
+    "creator": "Christian Albrecht Jensen",
+    "date": "1832-1833",
+    "kind": "likeness",
+    "sourcePageUrl": "https://open.smk.dk/artwork/image/KMS8176"
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q44412 returned en label 'Hans Christian Ørsted', description 'Danish physicist and chemist (1777-1851)', ko label '한스 크리스티안 외르스테드', instance of human, born 1777-08-14 in Rudkøbing, died 1851-03-09 in Copenhagen, citizenship Kingdom of Denmark, occupations physicist, chemist, inventor, university teacher, engineer and pharmacist; a wbsearchentities search on the name returned only unrelated entities besides Q44412 (a descendant, a prize, an institute, a statue, articles), so the lead's hint is confirmed. SLUG/QID CHECK: no existing production or candidate file for slug hans-christian-orsted or QID Q44412 in the roster50 worktree or the main checkout; the name appears in the repository only in the Andre-Marie Ampere candidate's sources (Oersted's experiment). REGION: western_europe, following the Danish precedents already in the roster (Niels Bohr, Tycho Brahe, Hans Christian Andersen, Knud Rasmussen); era 19th_century as for Gauss (1777-1855) and Ampere (1775-1836). VOCABULARY: occupations physicist and chemist, fields physics and natural_science (both verified as used by other candidates, e.g. Ernest Rutherford and Alessandro Volta), tags polymath and founder, archetypes cross_disciplinary_generalist and scientific_explorer, impact domains scientific, historical and educational all already exist and are used by other candidates. ZERO POLITICS: nothing political is scored; his work for the Academy of Sciences, the Society for the Dissemination of Natural Science and the Polytechnic is scientific and educational organisation, and his brother's political career, his religious and philosophical controversies (the polemic with Grundtvig, the dispute with Bishop Mynster) and his views on God and nature are not scored. CANONICAL SIGNIFICANCE SOURCE: Alan Chodos, 'July 1820: Oersted & Electromagnetism', APS News, 1 July 2008 (https://aps.org/apsnews/2008/07/1820-oersted-electromagnetism), read in full: what the 1820 pamphlet showed, the prior belief that electricity and magnetism were distinct, the Society for Dissemination of Natural Science and the Polytechnic, and the caution that accounts differ on whether the demonstration was designed to look for a connection; supported by Britannica's overview, the Danish Biographical Lexicon and the Niels Bohr Institute essay by Jelved and Jackson. READ (12 cited sources besides Wikidata and the SMK record): the APS News retrospective; Britannica's entry; the Dansk Biografisk Leksikon entry by Ole Norling-Christensen (in Danish, in full); the Jelved and Jackson essay (25 pages); the Ørsted sections of Giuliani's 2021 arXiv paper; Hansteen's 1857 letter in Bence Jones's Life and Letters of Faraday; the Linda Hall Library feature by William Ashworth; the Niels Bohr Institute's popular page; DTU's Danish history page and DTU Physics' history page; Anja Skaar Jacobsen's Physics World review of the 2013 biography; and the Norsk Teknisk Museum record. PERSPECTIVES: a professional society (APS), a national biography (Danish), the editors and translators of his collected works (Jelved and Jackson), a physicist-historian outside Denmark (Giuliani), a US library's historian (Ashworth), a historian-of-science reviewer of the standard biography (Jacobsen), Danish and Norwegian institutions (the Niels Bohr Institute, DTU, a museum), and two contemporaries' voices as relayed (Hansteen directly, in a letter of 1857; Ampère, Gilbert, Davy and Faraday through Jelved and Jackson, Giuliani and Jacobsen), with Ørsted's own accounts and letters as quoted by those authors (self; never sole support). SUBSTANTIVE NON-SELF BEHAVIOURAL SOURCES: the Danish Biographical Lexicon, Jelved and Jackson, Giuliani and Hansteen. EVIDENCE IS DENSE FOR A 19TH-CENTURY FIGURE BUT SECONDARY: nearly everything is a modern summary that draws on Ørsted's own autobiography (1828), his 1821 and 1830 accounts and his letters, so behavioural claims are written as strong inference unless two or more sources agree on a specific act, no score exceeds 80 and no confidence exceeds 0.66, and only eleven rows are scored. Traits NOT scored: curiosity (overlaps cross-domain range; the childhood self-study and travel anecdotes come from one lexicon and one essay), leadership drive (the directorship and the secretaryship are role evidence, and the initiative behind them is carried by proactive agency and impact motivation), persistence (the eight years from the 1812 suggestion to the experiment and the three-month pause are explained by other duties and are not repeated setbacks), discipline and execution speed (his own admission of a tendency to postpone against his haste to publish in July 1820), persuasiveness (the pamphlet convinced through a repeatable experiment and the Ritter nomination failed), collaboration (work with Esmarch, Fourier and Ritter is mentioned but not described), resourcefulness (a single lexicon passage on rebuilding his instrument collection), social assertiveness, risk tolerance, adaptability, perfectionism, competitiveness (his replies on priority show concern for his claim but not a motive to outperform others), and the rest. EXCLUSIONS: private life (his engagement and marriage, the deaths of his sister-in-law and daughter, his father's housekeeper), his brother's political career, the polemic with Grundtvig and the dispute with Bishop Mynster, his views on God and nature in The Soul in Nature, his friendship with H. C. Andersen, honours (the 1820 Copley Medal and later orders and titles) and his reputation after death. FACT AND DATE CONFLICTS RECORDED: (1) THE ACCIDENT LEGEND IS TREATED AS CONTESTED, NOT AS FACT. Gilbert's remark in the Annalen der Physik (1820) says the effect 'happened by chance during his lectures last winter'; Hansteen's 1857 letter says that after a lecture, as the battery was running, Ørsted tried the wire parallel to the needle and 'tumbled over it by accident' (scholars note Hansteen was not in Copenhagen then, and Kipnis suggests he imagined the scene); Linda Hall (2024) still repeats the 'accidental' tradition; Britannica says only that he 'discovered' the effect during an evening lecture in April 1820; the APS says accounts differ; the Niels Bohr Institute, the Danish Biographical Lexicon (citing his own 1828 and 1830 accounts), Jelved and Jackson and Giuliani say he had prepared a test of a belief he had held since about 1803 and carried it out before his audience, although the first result was faint and confusing, and Giuliani concludes the discovery was 'by no means accidental'. No card or moment states that the discovery was an accident; the cards say that he saw a faint effect in a lecture demonstration in 1820 and established it in July. (2) The date of the lecture is 21 April 1820 in the APS and Linda Hall ('according to tradition'), 'April 1820' in Britannica, 'spring 1820' in the Danish Biographical Lexicon and the Niels Bohr Institute, and 'last winter' in Ørsted's own 1820 text as translated, so no card gives a day. (3) Whether the first trial used the wire across the needle or along it is disputed (Hansteen: across, then along; the NBI page: the effect appeared when needle and wire were parallel), so it is not stated. (4) The Paris journey is 1801-03 in the lexicon and August 1801 to January 1804 in Jelved and Jackson (arrival in Paris December 1802), so the turning point says 1802-04. (5) The prize Ritter sought is a '60,000 franc' prize for an electrical or galvanic discovery in the lexicon and a 'Napoleonic prize' in Jelved and Jackson; the turning point says a Napoleonic prize. (6) The Polytechnic is 'founded by Ørsted' (DTU) but he 'took part in establishing' it and became its first director (lexicon) and was co-founder (museum record), so the cards say 'helped found'. (7) 'First to produce aluminium' (APS; the lexicon says internationally recognised) is not repeated; the card says only that he prepared aluminium in 1825. (8) A Royal Society foreign membership in 1821 was not confirmed and is not stated; the 1820 Copley Medal (Britannica; Jelved and Jackson say Davy secured it) is an honour and not carded. NOT OPENED: Dan Charly Christensen's biography Hans Christian Ørsted: Reading Nature's Mind (2013; the Oxford University Press page returned HTTP 403, and only Jacobsen's review was read); Kirstine Meyer's 1920 edition of his scientific works and the 1998 Princeton Selected Scientific Works (reached only as quoted); Stauffer's 1953 and 1957 articles in Isis, Kipnis's 2005 article and Martins's 1986 article on the discovery (reached only through Giuliani); Ørsted's 1820 pamphlet, his 1821 and 1830 accounts and his autobiography (reached only as quoted); MacTutor (the St Andrews page address returned HTTP 404), the Royal Society's own Copley records, and the Society for the Dissemination of Natural Science's website (blocked by a bot check, HTTP 454). PORTRAIT: Statens Museum for Kunst (SMK) record KMS8176 (https://open.smk.dk/artwork/image/KMS8176), Christian Albrecht Jensen (1792-1870), 'Portrait of the Scientist Hans Christian Ørsted', 1832-1833, oil on canvas, 678 x 510 mm; the Danish Biographical Lexicon's list of likenesses includes a painting by C. A. Jensen of about 1832-33 formerly at Gjorslev, which matches the provenance given on the Commons copy (the landowner P. B. Scavenius, Gjorslev; auction 1925; sold in 2000; acquired by SMK on 13 October 2000) and an exhibition at Charlottenborg in 1833, so it is a lifetime portrait by a contemporary portraitist; the museum's open API record (api.smk.dk) gives public_domain true and the Public Domain Mark 1.0 and the embedded copyright field of the native image says 'Public Domain'; the SMK Open web page and SMK's use-of-material page are JavaScript apps that a text fetch could not render, so the API record was read instead; the Commons copies (File:C.A. Jensen - Portrait of the Physicist Hans Christian Ørsted - KMS8176 - Statens Museum for Kunst.jpg, 2126 x 2807, and a full-size copy of 5214 x 7015) carry Public domain with the CC0 notice and no conflicting statement; no conflicting museum notice was found. The native image (5214 x 7015, 16.2 MB) was downloaded from SMK's API and downscaled once to 892 x 1200, saved as public/portraits/hans-christian-orsted-jensen-1832.jpg (verified to open as a JPEG, never upscaled, the whole canvas kept). kind is likeness because it is a lifetime portrait, as for the Beethoven (Stieler) and George Stephenson (Pickersgill) portraits already in the roster. Considered and not chosen: Gilles-Louis Chretien's physionotrace profile of about 1802-03 (SMK KKS12954, public domain, but a small profile print of the young Ørsted), H. W. Bissen's 1850 bust (a sculpture), C. W. Eckersberg's 1822 portrait (held by the Danish Technical Museum, no open-licence record opened) and later copies and engravings. RESIDUAL NOTE: the Danish copyright status of a faithful photograph of a public-domain painting is settled here by SMK's own open-data statement for this image. LEAD REVIEW (Roster50): 3 row(s) lowered before eligibility (the evidence is secondary (the standard biography was not opened; Stauffer, Kipnis and Martins reached only through Giuliani)). LEAD FIX (Roster50 QA): reworded the SMK API field name public_domain in the public source title and portrait source to plain language (a raw snake_case token rendered on the profile page)."
+  }
+}

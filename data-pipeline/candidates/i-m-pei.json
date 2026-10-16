@@ -1,0 +1,236 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "i-m-pei",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "I. M. Pei",
+    "aliases": [
+      "Ieoh Ming Pei",
+      "I.M. Pei",
+      "Bei Yuming"
+    ],
+    "wikidataId": "Q46868",
+    "birthYear": 1917,
+    "deathYear": 2019,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CN",
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect"
+    ],
+    "fieldIds": [
+      "architecture"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "sustained_excellence",
+      "craft_focused",
+      "founder"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pei_wikidata",
+      "kind": "wikidata",
+      "title": "I. M. Pei (Q46868) -- verified live via the Wikidata API (2026-10-15): English label 'I. M. Pei', description 'Chinese-American architect (1917-2019)', born 26 April 1917, died 16 May 2019, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q46868"
+    },
+    {
+      "id": "src_pei_pritzker",
+      "kind": "award_body",
+      "title": "The Pritzker Architecture Prize, 1983 laureate page for I. M. Pei (biography, announcement and jury citation) -- CANONICAL SIGNIFICANCE SOURCE: the laureate biography (Webb & Knapp director of architecture from 1948, I. M. Pei & Associates from 1955, Pei Cobb Freed & Partners from 1989; the East Building of the National Gallery of Art and the Louvre extension named as two of his most prominent commissions; over fifty projects) and the unanimous jury's citation (some of the century's most beautiful interior spaces and exterior forms, concern for the surroundings of his buildings, a refusal to limit himself to a narrow range of problems, including moderate and low-income housing, and 'diplomacy and patience' that drew disparate people and disciplines together). Award-body citation, honouring in tone. Read in full.",
+      "url": "https://www.pritzkerprize.com/laureates/1983"
+    },
+    {
+      "id": "src_pei_architect_louvre",
+      "kind": "press",
+      "title": "Elizabeth Evitts Dickinson, 'Louvre Pyramid: The Folly that Became a Triumph', ARCHITECT magazine (American Institute of Architects), on the 2017 AIA Twenty-Five Year Award for the Grand Louvre -- trade-press account of how Pei secretly studied the Louvre for four months before accepting President Mitterrand's personal request, the 'Battle of the Pyramid' (a 1985 New York Times round-up of criticism and Pei's PBS recollection that most of the public was against it), and interviews with two Pei Cobb Freed architects (Ian Bader, Michael D. Flynn) on his working style, the glass and frame decisions, the full-scale wire mock-ups for Mitterrand and Chirac, and building the pyramid ahead of its supporting structure. Firm colleagues' recollections, admiring but specific; Pei's own PBS words are self. Read in full.",
+      "url": "https://www.architectmagazine.com/awards/aia-awards/louvre-pyramid-the-folly-that-became-a-triumph_o/"
+    },
+    {
+      "id": "src_pei_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'I.M. Pei' (article by Britannica's editors, last updated 5 October 2026; the page's AI-generated summaries were not used) -- encyclopaedia biography: a Chinese-born American architect noted for large, elegantly designed urban buildings and complexes, who headed Webb & Knapp's architectural division from 1948 (Mile High Center, Hyde Park Redevelopment, Place Ville-Marie), formed I. M. Pei & Associates in 1955, designed the National Gallery of Art East Building (1978, 'hailed as one of his finest achievements'), was chosen by Mitterrand after the East Building for the Grand Louvre, whose glass pyramid 'was initially controversial but over time came to be celebrated', and completed the Bank of China Tower (1989), the Miho and Suzhou museums and the Museum of Islamic Art in Doha (2008); his style as an extension of the International Style with geometric arrangements and richly contrasted materials; honours. CANONICAL SIGNIFICANCE SOURCE alongside the Pritzker laureate page (encyclopaedic orientation to his primary contribution; neutral in tone, used for the achievement cards and orientation and never alone for a behavioural row). Read in full except the early-life and family passages, which were not used.",
+      "url": "https://www.britannica.com/biography/I-M-Pei"
+    },
+    {
+      "id": "src_pei_louvre",
+      "kind": "institution",
+      "title": "Musee du Louvre, 'A pyramid for a symbol: Cour Napoleon and Pyramid' (museum web page) -- the client museum's own account of the Grand Louvre project commissioned by President Mitterrand in 1981: Pei's July 1983 appointment, his idea of a central underground lobby giving direct access to the three wings, the pyramid and the new exhibition spaces, storerooms and visitor facilities, the controversy, his statement that his approach was that of a landscape designer with Le Notre as inspiration, the metal frame built with firms specialised in ships' rigging, the inauguration on 29 March 1989, two years of research for the extra-clear glass made by Saint-Gobain, and his solution for the alignment of the courtyard with the Tuileries axis. Client-institution account, admiring in tone; Pei's own quoted statement is self. Read in full.",
+      "url": "https://www.louvre.fr/en/explore/the-palace/a-pyramid-for-a-symbol"
+    },
+    {
+      "id": "src_pei_afp_obit",
+      "kind": "press",
+      "title": "Agence France-Presse, 'Angry glances in the street: How Paris met Pei's Louvre pyramid', Paris, 17 May 2019 (read as published by Malay Mail) -- wire-service account of the pyramid controversy: up to 90 per cent of Parisians said to be against it at one point, Pei's recollection of 'angry glances', the January 1984 meeting of the historic-monuments commission that ended in uproar before he could present, the Louvre's then director Andre Chabaud's resignation in 1983 in protest at the 'architectural risks', former culture minister Jack Lang's recollection, later praise by Le Figaro and Prince Charles, and the present director's judgement; says Pei needed 'all his tact and dry sense of humour'. Wire copy; AFP's 28 March 2019 anniversary piece was also read and repeats the same episodes, so the two are one perspective, not two. Passages on the president's health and on one commentator's characterisation of the opposition were not used. Read in full.",
+      "url": "https://www.malaymail.com/news/life/2019/05/17/angry-glances-in-the-street-how-paris-met-peis-louvre-pyramid/1753953"
+    },
+    {
+      "id": "src_pei_afp_30years",
+      "kind": "press",
+      "title": "Agence France-Presse, 'From outrage to icon: Paris marks 30 years of Louvre's pyramid', Paris, 28 March 2019 (read as published by Malay Mail) -- anniversary wire piece by the same agency as the obituary above and covering the same episodes (the early outrage, Pei's recollection of 'angry glances', the monuments-commission meeting, the former director's resignation, Le Figaro's later supplement, the current director's view that the Louvre's entrance is a work of art), so it is counted as the same single wire perspective. Read in full; passages on the president's health and on satirical coverage were not used.",
+      "url": "https://www.malaymail.com/news/life/2019/03/28/from-outrage-to-icon-paris-marks-30-years-of-louvres-pyramid/1737286"
+    },
+    {
+      "id": "src_pei_nga",
+      "kind": "institution",
+      "title": "National Gallery of Art, Washington, Margaret Huang (archivist, National Gallery Archives), 'Who Is I. M. Pei? 10 Things to Know', 12 May 2023 -- client institution's archival article: his first constructed design (a 1949 Gulf Oil office in Atlanta whose marble curtain wall Architectural Forum praised), the 1955 firm, Jacqueline Kennedy's 1964 choice of Pei for the Kennedy Library over Kahn and Mies, the trustees' 1968 selection for the East Building, his division of the irregular site into two triangles (first sketched on an envelope), the approach of manipulating mass, volume, light and materials with an eye to how people experience architecture and its debt to cubism, the visits by Mitterrand and Emile Biasini to the East Building before the Louvre commission, the use of his 1983 Pritzker money for a scholarship fund for Chinese architecture students, and the Gallery's archive of the firm's East Building records. Client-institution account, admiring in tone; Pei's quoted statements are self. Read in full.",
+      "url": "https://www.nga.gov/stories/articles/who-i-m-pei-10-things-know"
+    },
+    {
+      "id": "src_pei_jfk",
+      "kind": "institution",
+      "title": "John F. Kennedy Presidential Library and Museum, 'I.M. Pei, Architect' (library history page) -- the client institution's account of the commission: Jacqueline Kennedy's selection in 1964 of a relatively young and unknown architect who told her he had not worked on monumental projects, the December 1964 commission for a Cambridge site and the initial design with a truncated glass pyramid, the 1976 decision to build instead at Columbia Point after delays and local concerns, Pei and his associate Ted Musho starting 'all over again' for the new site, the 1977 groundbreaking and 1979 dedication, the 1991 addition by Pei, and a career summary noting that he showed little concern with theory and did not think architecture should be isolated from commercial forces. Client-institution account; Pei's own dedication-programme words are self. Read in full.",
+      "url": "https://www.jfklibrary.org/about-us/about-the-jfk-library/history/im-pei-architect"
+    },
+    {
+      "id": "src_pei_nyt_obit",
+      "kind": "press",
+      "title": "Paul Goldberger, 'I.M. Pei, World-Renowned Architect, Is Dead at 102', The New York Times, 16 May 2019 (read as a full-text repost on the Ohio State University MCLC Resource Center, because the Times page returned HTTP 403 to direct download) -- critic's obituary: Pei's rise from Webb & Knapp to I. M. Pei & Associates (1955, with Henry Cobb and Eason Leonard) and independence in 1960, an appeal to developers, corporate chiefs and museum boards at once, the Kennedy Library's 15-year path and compromises, the Hancock Tower failure (designed by his partner Henry Cobb; experts blamed the glass; the firm nearly closed), the East Building and Ada Louise Huxtable's 1978 verdict, the Rock and Roll Hall of Fame commission he first turned down and the Qatar museum for which he began by reading and travelling, the Fragrant Hill hotel he later called a disappointment, and the Louvre pyramid as, like the Kennedy Library, Hancock Tower and Javits Center, a measure of his 'patience and perseverance'. Independent critic's assessment, admiring but recording failures; family and private-life passages were not used. Read in full.",
+      "url": "https://u.osu.edu/mclc/2019/05/17/i-m-pei-dead-at-102"
+    },
+    {
+      "id": "src_pei_bloomberg_obit",
+      "kind": "press",
+      "title": "James S. Russell (Bloomberg), 'Celebrated Architect I.M. Pei Is Dead at 102', Fortune, 16 May 2019 -- architecture critic's obituary: 'reserved and supremely diplomatic', with charm and quick wit towards clients; Goldberger's 1989 judgement of Pei as the most pragmatic and most visionary of architects; the firm's perfectionism with materials (razor-sharp marble corners, stretched glass, honed concrete) and the price paid when they stretched materials to the limit (the Hancock Tower's glass failures, litigation that 'might well have destroyed the firm', an opening four years late at almost double the estimate, and the roof of the Javits Center), yet setbacks 'could never persuade Pei to turn away from technological possibility'; critics' limits (forms derived from Le Corbusier and Kahn, limited influence on the course of architecture, the stiff grandeur of the Rock and Roll Hall of Fame, the much-reviled MIT media building). Independent critic's balanced assessment. Family passages were not used. Read in full.",
+      "url": "https://fortune.com/2019/05/16/architect-i-m-pei-dead-at-102"
+    },
+    {
+      "id": "src_pei_ap_obit",
+      "kind": "press",
+      "title": "Associated Press, 'I.M. Pei, architect who designed JFK Library, dies at 102', 16 May 2019 (read as published by Boston.com) -- wire obituary: Pei 'painstakingly researched each project', his reputation as a skilled diplomat who persuaded clients to spend money on grand-scale projects, Jacqueline Kennedy's remark that he 'loves things to be beautiful', the Louvre pyramid and his comment that the time had to be right, the Hancock Tower lawsuits (settled in 1981), his research into the roots of rock and roll for the Cleveland museum, and the Qatar museum. Wire copy; wartime and family passages were not used. Read in full.",
+      "url": "https://www.boston.com/news/obituaries/2019/05/16/i-m-pei-architect-who-designed-jfk-library-dies-at-102/"
+    },
+    {
+      "id": "src_pei_arecord",
+      "kind": "press",
+      "title": "Architectural Record, 'Architects Pay Tribute to I. M. Pei', 22 May 2019 -- trade-press collection of recollections by former colleagues and friends (Rob Rogers, Lo-Yi Chan, Ted Trussell Porter, Abby Suckle, Alexander Gorlin, Lorcan O'Herlihy, Michael Speaks, Robert Heintges, Kathy Ogawa): Pei's calm intensity across urban scale and fine detail, watching him with clients 'listening, teaching, selling', a lesson about placing every dot on a site plan exactly, his advice to pick clients carefully, a firm of up to 300 people in which any member's better design idea was pursued, the habit of reinventing products when none suited, his encouragement and referrals for departing staff, and his persuasive manner with a difficult client. Admiring tribute pieces by former employees, specific in anecdote; an anecdote about a third party's alleged misconduct was not used. Read in full.",
+      "url": "https://www.architecturalrecord.com/articles/14070-architects-pay-tribute-to-i-m-pei"
+    },
+    {
+      "id": "src_pei_loc",
+      "kind": "archive",
+      "title": "Library of Congress, Prints and Photographs Division, item record 2020732666, 'Itzhak Perlman with I.M. Pei, architect, looking at model of NYC Convention Center' (Bernard Gotfryd photograph collection; 35 mm colour transparency, [1980]; reproduction number LC-DIG-gtfy-03125) -- checked for the portrait's rights: the record gives Rights Advisory 'No known restrictions on publication', names Bernard Gotfryd as photographer and carries the notes 'Photo agency: Newsweek' and 'Gift; Bernard Gotfryd; 2004'; the Library's statement for the collection says there are no known copyright restrictions on Gotfryd's photographs, that they were restricted during his lifetime (he died in 2016) and that privacy and publicity rights may apply. The record was read through the Library's JSON interface because its HTML page returned HTTP 403 to direct download. Not used for any scoring.",
+      "url": "https://www.loc.gov/item/2020732666/"
+    },
+    {
+      "id": "src_pei_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Itzhak Perlman with I.M. Pei, architect, looking at model of NYC Convention Center (03125v).jpg' -- checked for the portrait's file and licence: Bernard Gotfryd, dated 1980-03-01 on Commons (the Library records [1980]), tagged with the Commons licence tag for the Gotfryd collection (Library of Congress, no known copyright restrictions; the tag's note repeats that the photographs were restricted during his lifetime and that privacy and publicity rights may apply); original JPEG 4910 x 3340 pixels with the Library's item link as its source. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Itzhak_Perlman_with_I.M._Pei,_architect,_looking_at_model_of_NYC_Convention_Center_(03125v).jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pei_architect_louvre, src_pei_afp_obit, src_pei_afp_30years, src_pei_nyt_obit, src_pei_jfk, src_pei_bloomberg_obit | 1964-1989 | trade-press interview with firm architects + wire report + critic's obituary + client-library history + critic's obituary] ARCHITECT's account of the 'Battle of the Pyramid' has Pei recalling (self, from a PBS film) that 90 per cent of the public was against the idea and that the first year and a half 'was really hell', and AFP (twice, in an obituary and an anniversary piece that count as one perspective) reports that the Louvre's director resigned in 1983 and that a January 1984 monuments-commission meeting ended in uproar before he could present, yet the pyramid opened in March 1989. Goldberger says the Kennedy Library took 15 years after political objections to its Cambridge site, and the library's own history says that after the 1976 move to Columbia Point Pei and an associate 'started all over again' on a new design, which Goldberger calls a scaled-down compromise; Goldberger sums up the Louvre, the Kennedy Library, the Hancock Tower and the Javits Center as a measure of Pei's 'patience and perseverance', and Russell says setbacks 'could never persuade Pei to turn away from technological possibility'. Independent critics, a wire service, a client institution and firm colleagues describe sustained effort through opposition over many years on at least two projects led by Pei himself, so documented at a moderately high confidence, held below the top band because the Hancock Tower was designed by his partner Henry Cobb (so it is not scored as Pei's own conduct) and most sources are admiring. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the strongest row leans on Pei's own recollection (relayed through a trade-press interview) and one wire service counted twice; score and confidence lowered."
+    },
+    "aesthetic_sensitivity": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pei_pritzker, src_pei_nga, src_pei_architect_louvre, src_pei_ap_obit, src_pei_louvre | 1964-1989 | award-body citation + client-institution archive article + trade-press interview with firm architects + wire obituary + client museum] The Pritzker jury credits him with 'some of its most beautiful interior spaces and exterior forms' and with raising the use of materials to an art; the National Gallery's archivist describes his approach as manipulating mass, volume, light and materials with an eye to how people experience architecture and records his view of architecture as an art like painting and sculpture (his own view, self); Michael Flynn recalls that Pei moved from a lightly reflective glass to the most transparent glass obtainable because any colour strengthened the perception of form and the glass should not alter how the colours of the historic facades were seen, and that he wanted the metal frame to have presence without being overdone; AP quotes Jacqueline Kennedy on choosing him, 'But Pei! He loves things to be beautiful', and Pei's stated aim of giving people pleasure in being in a space (self). Specific decisions about transparency, colour and light are documented by an insider and a client, alongside honouring citations, so documented at a moderate-high confidence."
+    },
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pei_architect_louvre, src_pei_arecord, src_pei_bloomberg_obit, src_pei_louvre, src_pei_ap_obit | 1960s-1989 | trade-press interview with firm architects + former colleagues' tributes + critic's obituary + client museum + wire obituary] Michael Flynn recalls that after Pei asked for the frame to match the roofs it took a series of conversations to choose among the 11 shades of grey on the surrounding buildings, and that he pushed the glass to the clearest then available; Ian Bader describes long work on the entrance and circulation and on the cables, counter-cables and glass; Lo-Yi Chan recalls Pei taking a pen from his hand to show that the stippled dots on a site plan must each be placed exactly where they belong, and Rob Rogers says he could consider urban-scale ideas and the most refined details at once; the Louvre says two years of research produced the extra-clear glass; Russell quotes Goldberger that by the end of the 1980s no other firm could produce large-scale work 'with such refinement and excellence of detail', and AP says Pei 'painstakingly researched each project'. Several independent accounts, from insiders, the client and critics, of attention to fine detail at every scale, documented at a moderate-high confidence."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pei_ap_obit, src_pei_bloomberg_obit, src_pei_nyt_obit, src_pei_arecord, src_pei_architect_louvre | 1964-1989 | wire obituary + critics' obituaries + former colleagues' tributes + trade-press interview with firm architects] AP says he developed a reputation as a skilled diplomat who persuaded clients to spend the money on grand-scale projects; Russell says he 'approached clients with charm and a quick wit, and they usually succumbed happily'; Goldberger says he was one of the few architects equally attractive to developers, corporate chiefs and museum boards and that Jacqueline Kennedy chose him on the spot after visiting his office; former staff recall watching him with clients 'listening, teaching, selling' (Chan), call him 'a master at navigating the players' (Suckle) and describe him winning round a difficult client in a meeting (Gorlin); Ian Bader recalls that he was 'not an architectural salesman' but that clarity, credibility and personality made his presentations compelling, and Bader and Flynn both describe the firm's full-scale wire-frame mock-ups of the pyramid shown to the president and to the Paris mayor, after which, Bader says, 'things got much easier'. Against this, Goldberger says the Louvre dispute was carried by the president's determination rather than by Pei's argument. Many independent descriptions agree on his effect on clients, but most are admiring recollections, so documented at a moderate confidence."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pei_pritzker, src_pei_architect_louvre, src_pei_arecord, src_pei_nyt_obit, src_pei_louvre | 1948-1990 | award-body citation + trade-press interview with firm architects + former colleagues' tributes + critic's obituary + client museum] The Pritzker citation says his tact and patience enabled him to draw together peoples of disparate interests and disciplines; Ian Bader says the Louvre solution was 'entirely his invention' yet 'the product of tremendous collaborative effort', and that Pei 'made people feel empowered' and 'gave people a lot of space to work things out'; former staff describe a firm of up to 300 people organised by project, with specialists in curtain walls, hardware and concrete and outside engineers, in which a better design idea was pursued however junior its source (Suckle), and a leader who sent work to and recommended staff who left to start their own firms (Chan, Heintges); Goldberger says Henry Cobb, whom Pei hired at Webb & Knapp, remained associated with him for more than 60 years; the Louvre says the metal frame was built with firms specialised in ships' rigging. The same accounts stress his 'singular vision' and say he 'convinced people to do it his way' (Gorlin), so the pattern is directed teamwork rather than open co-authorship; documented by several independent insiders and critics at a moderate confidence."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pei_nyt_obit, src_pei_ap_obit, src_pei_architect_louvre, src_pei_louvre | 1983-2008 | critic's obituary + wire obituary + trade-press interview + client museum] Goldberger reports that Pei, not a rock fan, first turned down the Rock and Roll Hall of Fame commission and then, after changing his mind, travelled to rock concerts with the Rolling Stone publisher to prepare, and AP independently says he 'admitted he was just catching up with the Beatles' and researched the roots of rock and roll; for the Doha museum Goldberger says he accepted 'with relish' a culture he did not claim to understand and began by reading a biography of the Prophet Muhammad and touring great Islamic architecture around the world; ARCHITECT says that before accepting the Louvre commission Pei made several trips to Paris to walk its galleries and grounds and studied Le Notre's landscape architecture, and the Louvre quotes his statement that Le Notre was his main source of inspiration (self); AP adds that he 'painstakingly researched each project, studying its use and relating it to the environment'. Three independent episodes of learning an unfamiliar subject before designing for it, reported by different outlets, so documented at a moderate confidence."
+    },
+    "perfectionism": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pei_bloomberg_obit, src_pei_architect_louvre, src_pei_louvre, src_pei_arecord | 1960s-1989 | critic's obituary + trade-press interview + client museum + former colleagues' tributes] Russell calls Pei and his partners 'perfectionists in the use of modern building materials', cutting razor-sharp corners from marble, stretching glass into vast arcs and honing concrete, and says they sometimes stretched materials to the limit and paid a heavy price (he cites the Hancock Tower, which Goldberger says was designed by Pei's partner Henry Cobb, and the Javits Center roof); Flynn recalls that Pei was not satisfied with a lightly reflective glass and chose the most transparent glass available, and the Louvre says it took two years of research to develop the extra-clear glass; Abby Suckle recalls that when nothing suitable existed on the market the firm reinvented the product, and that the office was 'cult-like in its devotion to design'; Kathy Ogawa recalls his 'strict adherence to the rigor of applying geometry'. Independent accounts agree on exacting standards, but the explicit 'perfectionist' label is a critic's characterisation of the firm and some of the costs belong to partners' projects, so strong inference at a modest confidence."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pei_bloomberg_obit, src_pei_louvre, src_pei_arecord, src_pei_nyt_obit, src_pei_britannica | 1960s-1989 | critic's obituary + client museum + former colleagues' tributes + critic's obituary + encyclopaedia] Russell says the firm sometimes stretched modern materials to the limit and paid a heavy price (the Hancock Tower's glass failures, the Javits Center roof), yet such setbacks 'could never persuade Pei to turn away from technological possibility', and notes that the Louvre pyramid's frame of stainless-steel rods and cables was made by a yacht-rigging manufacturer (the Louvre confirms that ships'-rigging specialists built the frame and that two years of research produced its extra-clear glass); Abby Suckle recalls that the firm routinely reinvented products and that manufacturers added its designs to their lines after it helped debug them; Britannica calls the East Building innovative. On the other side Goldberger describes 'a careful balance of the cutting edge and the conservative' and a modernism that sometimes seemed a throwback, so the experimentation was with materials and structure rather than with style. Several independent descriptions of technical experiment with costly failures, so strong inference at a modest confidence."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pei_pritzker, src_pei_nga, src_pei_nyt_obit, src_pei_ap_obit, src_pei_arecord | 1960s-1990 | award-body citation + client-institution archive article + critic's obituary + wire obituary + former colleagues' tributes] The Pritzker citation notes that his concern has always been the surroundings in which his buildings would rise and that his work included some of the best moderate and low-income housing; the National Gallery and Goldberger both report that he used the $100,000 Pritzker award to establish a scholarship fund for Chinese students of architecture; AP quotes his aim that architecture 'can reach a level where it influences people to want to do something more with their lives' (self); Rob Rogers recalls his belief that architecture can enrich human life at every scale. Several independent sources agree on a concern for public benefit alongside commercial work, but the stated aims are largely his own and the citation is honouring, so strong inference at a modest confidence."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pei_architect_louvre, src_pei_afp_obit, src_pei_bloomberg_obit, src_pei_nyt_obit | 1983-1989 | trade-press interview + wire report + critics' obituaries] Pei accepted the Louvre commission although AFP notes he had never worked on a historic building, ARCHITECT says the president chose him without an open competition and amid fierce hostility, and Ian Bader recalls that even in the firm it was a question 'whether it was a wise thing to get embroiled' given an already established reputation; Russell says the firm's willingness to push materials to the limit carried a heavy price, and Goldberger says the Hancock Tower crisis (a partner's design) nearly closed the firm. Against this, ARCHITECT says Pei spent four months in private study before agreeing, and Goldberger calls his work 'a careful balance of the cutting edge and the conservative' and 'bold yet pragmatic', so the pattern reads as calculated rather than reckless risk. Two independent episodes with a mixed picture, so strong inference at a modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "I. M. 페이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/i-m-pei-gotfryd-1980.jpg",
+    "width": 963,
+    "height": 1200,
+    "source": "Library of Congress, Prints and Photographs Division, Bernard Gotfryd photograph collection (item 2020732666, reproduction number LC-DIG-gtfy-03125; slide caption 'Itzhak Perlman with I.M. Pei, architect, looking at model of NYC Convention Center', photographer Bernard Gotfryd, [1980]), via Wikimedia Commons file '(03125v).jpg' (original JPEG 4910 x 3340 pixels). The Library's rights advisory for the item is 'No known restrictions on publication'; the item notes read 'Photo agency: Newsweek' and 'Gift; Bernard Gotfryd; 2004', and the collection statement adds that the photographs were restricted during Gotfryd's lifetime (he died in 2016) and that privacy and publicity rights may apply. A 4:5 region (1553 x 1935 pixels) around Pei was cropped from the right of the frame, excluding the violinist Itzhak Perlman at the left, and downscaled once to 963 x 1200 (never upscaled).",
+    "license": "No known restrictions on publication",
+    "licenseUrl": "https://www.loc.gov/item/2020732666/",
+    "attribution": "Photo: Bernard Gotfryd, 1980, Library of Congress, Prints and Photographs Division (LC-DIG-gtfy-03125), cropped and downscaled from the original",
+    "attributionUrl": "https://www.loc.gov/item/2020732666/",
+    "creator": "Bernard Gotfryd",
+    "date": "1980",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Itzhak_Perlman_with_I.M._Pei,_architect,_looking_at_model_of_NYC_Convention_Center_(03125v).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q46868 returned en label 'I. M. Pei', description 'Chinese-American architect (1917-2019)', born 1917-04-26, died 2019-05-16, ko label 'I. M. 페이'; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug i-m-pei or QID Q46868 in the roster50 or roster49 worktrees or the main checkout. Region north_america is a valid controlled value (practice based in New York; nationalityCodes CN and US because he was born in Guangzhou and became a US citizen, as for Chien-Shiung Wu). Vocabulary ids (occupation architect, field architecture, tags sustained_excellence, craft_focused and founder, archetype creative_creator, impact domains artistic, cultural and historical) already exist and are used by other candidates (architects Wright, Mies, Niemeyer, Aalto and Raphael). ZERO POLITICS: no political material is scored; the Louvre project's presidential patronage, the Paris mayor and the culture minister appear only as clients or stakeholders, and his 1974 remarks in China and his dealings with the Chinese government as a client (declining central Beijing hotels, Fragrant Hill) are unscored. DECEASED SUBJECT (2019): only documented public professional behaviour is scored. Excluded: family and private life (wife, children, his sons' firm, upbringing, wartime research work), health, death, art collecting, any inferred motive or psychology, one anecdote about a third party's alleged misconduct, his own feeling of being the target of discrimination at a commission meeting, and the Hancock Tower as personal conduct (the Times says his partner Henry Cobb designed it; it appears only as the firm's setback). CANONICAL SIGNIFICANCE SOURCE: The Pritzker Architecture Prize, 1983 laureate page for I. M. Pei (https://www.pritzkerprize.com/laureates/1983; biography, announcement, jury citation and selected works, read in full; the announcement is also at https://www.pritzkerprize.com/announcement-im-pei): it names the East Building of the National Gallery of Art and the Louvre extension as two of his most prominent commissions, lists over fifty projects and gives the unanimous jury's citation; supported by Britannica, the Louvre's own page and the National Gallery's archive article (honouring or client-institution in tone, so used for the achievement cards and orientation and never alone for a behavioural row). READ (12 cited non-Wikidata sources plus the Library of Congress and Commons rights pages): the Pritzker laureate page; Elizabeth Evitts Dickinson in ARCHITECT magazine (with two Pei Cobb Freed architects' interviews); Britannica (the AI-generated summaries were not used); the Louvre's own page on the pyramid; AFP's obituary and AFP's anniversary piece, both as published by Malay Mail (one wire perspective); the National Gallery of Art's archivist article; the Kennedy Library's history page; Paul Goldberger's New York Times obituary (full text read through a repost on the Ohio State MCLC site because the Times page returned HTTP 403); James S. Russell's Bloomberg obituary on Fortune; the AP obituary on Boston.com; Architectural Record's tribute collection. Read but not cited: the Library of Congress P&P rights guide (it loads dynamically; the collection statement was taken from the Library's published rights data), Wikimedia Commons categories and the Commons file pages for other Pei photographs, and Commons wikitext for the licence tags. PERSPECTIVES: client institutions (Louvre, National Gallery of Art, Kennedy Library); an award body (Pritzker); an encyclopaedia; two architecture critics' obituaries that record failures and limits (Goldberger, Russell); two wire services (AFP, AP); firm colleagues (two architects interviewed in ARCHITECT, nine former colleagues and friends in Architectural Record, all admiring and specific); and Pei's own words as quoted by these sources (self; never sole support). CALIBRATION: the evidence is broad but concentrated on the Louvre, the Kennedy Library and late-career obituary assessments, and the institutions honour him or were his clients, so no score exceeds 78 and no confidence exceeds 0.68; counter-evidence is recorded in the rows (Goldberger says the Louvre dispute was carried by the president's determination, critics call his forms derived from Le Corbusier and Kahn with limited influence, the Hancock Tower and Javits Center failures, and his own judgement that Fragrant Hill was a disappointment). Traits NOT scored: leadership drive (the firm and its size are role evidence only), achievement drive and competitiveness (one critic's characterisation of 'competitive ambition' plus one anecdote), autonomy need (one career step), independent thinking (characterisation; critics stress derived forms), adaptability, planning orientation and resourcefulness (overlap the curiosity, detail and experimentation evidence), decisiveness (one insider's phrase against four months of private deliberation), conflict tolerance (overlaps persistence; sources stress tact), cross-domain range (breadth within architecture only), belief updating (one self-assessment) and mastery orientation (largely his own statements). DATE AND FACT CONFLICTS RECORDED: Presidential Medal of Freedom 1992 (AP, Bloomberg) versus 1993 (Britannica), so no year is stated; the pyramid's height is 21 m on the Louvre's page, 22 m (71 feet) in AP and 70 feet in the Times, so no height is stated; firm chronology follows the Pritzker biography (Associates 1955, Partners 1966, Pei Cobb Freed 1989) and the Times (independence from Webb & Knapp in 1960) while the Kennedy Library page dates the firm to 1960 and its renaming to 1979; the candidates for the Kennedy Library are Kahn and Mies in the National Gallery and AP accounts but Kahn, Johnson, Bunshaft and Rudolph in the Times, so the card says 'including Louis Kahn'; the Hancock Tower opened three years late in the Times and four in Bloomberg, so no delay is stated. NOT OPENED: Pei's Pritzker acceptance speech and the BBC and PBS interviews and films (self or video), Michael Cannell's biography and Philip Jodidio's monographs, Ada Louise Huxtable's 1978 review and Goldberger's 1989 review (reached only as quoted), the Times's own page (HTTP 403), the Praemium Imperiale page, the Boston Globe obituary and its Hancock Tower pieces (paywalled or snippet-only), the 2020 Cornell lawsuit coverage (after his retirement), and the firm's own tribute page (self-promotion). PORTRAIT: Library of Congress, Prints and Photographs Division, Bernard Gotfryd photograph collection, item 2020732666 (LC-DIG-gtfy-03125), 'Itzhak Perlman with I.M. Pei, architect, looking at model of NYC Convention Center', photographer Bernard Gotfryd, [1980]; the item's rights advisory reads 'No known restrictions on publication', its notes read 'Photo agency: Newsweek' and 'Gift; Bernard Gotfryd; 2004', and the collection statement says there are no known copyright restrictions, that the photographs were restricted during his lifetime (he died in 2016) and that privacy and publicity rights may apply (the Library's HTML page returned HTTP 403, so the record was read through its JSON interface); the Commons file page carries the Gotfryd licence tag, original 4910 x 3340. A 4:5 region (1553 x 1935) around Pei was cropped from the right of the frame (excluding the violinist at the left) and downscaled once to 963 x 1200 (verified to open as a JPEG, never upscaled), saved as public/portraits/i-m-pei-gotfryd-1980.jpg; he is shown with a model of the Javits Convention Center project, a professional setting. RESIDUAL RIGHTS NOTE: the basis is the Library's 'no known restrictions' statement and a named photographer, not a licence from a named copyright holder, and the slide notes name Newsweek as photo agency (the same basis as the Gotfryd portraits already used for Barbara McClintock and Andy Warhol). Considered and not chosen: the June 2006 US Embassy Luxembourg photograph (a State Department work tagged public domain on Commons, with the embassy site's statement that its content is public domain unless a copyright is indicated, but the photographer is not named, the original is a 1000 x 666 group shot with the ambassador and Mrs. Pei and the Pei-only derivative is 224 x 336; a usable fallback); the other Gotfryd frames and the community crops of them (eyes closed or hand over the mouth); and the Pritzker Foundation and National Gallery Archives photographs (shown with credit lines but no reuse statement read). LEAD REVIEW (Roster50): 1 row(s) lowered before eligibility (the strongest row leans on Pei's own recollection (relayed through a trade-press interview) and one wire service counted twice)."
+  }
+}

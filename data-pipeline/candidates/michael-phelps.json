@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "michael-phelps",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Michael Phelps",
+    "aliases": [
+      "Michael Fred Phelps II"
+    ],
+    "wikidataId": "Q39562",
+    "birthYear": 1985,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "prodigy",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_phelps_wikidata",
+      "kind": "wikidata",
+      "title": "Michael Phelps (Q39562) -- verified live via the Wikidata API (2026-10-15): English label 'Michael Phelps', description 'American swimmer (born 1985)', born 30 June 1985, no date of death, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q39562"
+    },
+    {
+      "id": "src_phelps_olympedia",
+      "kind": "archive",
+      "title": "Olympedia (olympedia.org), 'Michael Phelps' athlete biography and Olympic results -- the Olympic historians' database: 28 Olympic medals (23 gold, 3 silver, 2 bronze) over 2000-2016 described as the best marks in Olympic history, the eight-medal Games of 2004 and 2008, the 2004 attempt at eight golds and the eight golds of Beijing 2008, the 2012 and 2016 programmes, the retirement after London and the return for Rio, and the Sports Illustrated Sportsperson of the Year listing. CANONICAL SIGNIFICANCE SOURCE. Statistical and biographical reference; passages outside his sporting record were not used. Read in full.",
+      "url": "https://www.olympedia.org/athletes/93860"
+    },
+    {
+      "id": "src_phelps_ishof",
+      "kind": "institution",
+      "title": "International Swimming Hall of Fame (ishof.org), 'Michael Phelps' honoree page -- Hall of Fame summary of his career: the Olympic debut at 15, world records in the 200 m butterfly, 100 m butterfly and both individual medleys, the eight-event Athens programme, the eight golds and seven world records of Beijing 2008 including the 0.01-second 100 m butterfly and the extra half-stroke at the wall, the career totals (28 Olympic medals, 23 golds, 39 world records) and the fourth straight 200 m individual medley title at Rio. CANONICAL SIGNIFICANCE SOURCE (second). Institutional and celebratory in tone, written in the year of his induction; its closing paragraph is not used. Read in full.",
+      "url": "https://ishof.org/honoree/michael-phelps/"
+    },
+    {
+      "id": "src_phelps_wapo_2004",
+      "kind": "press",
+      "title": "Michael E. Ruane (The Washington Post, via NBC News), 'As days wear on, Phelps feels refreshed', 12 July 2004 -- reported piece from the 2004 US Olympic Trials: seventeen races in seven days, coach Bob Bowman's account of post-race lactate tests showing faster recovery and his decision to keep the numbers from his swimmer, with the USA Swimming director of physiology, Olympic head coach Eddie Reese, former Michigan coach Jon Urbanchek ('blue-collar work ethic') and Mark Spitz commenting. Independent reporter with named expert voices; Bowman's explanation is labelled by him as a theory. Read in full.",
+      "url": "https://www.nbcnews.com/id/wbna5417957"
+    },
+    {
+      "id": "src_phelps_baltsun_2008",
+      "kind": "press",
+      "title": "Kevin Van Valkenburg, 'No time for excuses', The Baltimore Sun, 30 April 2008 -- reporter's feature observing his Ann Arbor training 100 days before Beijing: a two-hour morning practice and an afternoon workout each day, 20,000 metres in a single practice, grumbling but completing the set, his own admission of uneven training the previous year, the 2004 public goal of eight golds, and refusing to stop swimming a film take until he touched the wall. Independent beat reporting with Phelps and Bowman quotations; passages outside his training were not used. Read in full.",
+      "url": "https://www.baltimoresun.com/2008/04/30/no-time-for-excuses/"
+    },
+    {
+      "id": "src_phelps_si_2008_feb",
+      "kind": "press",
+      "title": "Sports Illustrated staff, 'Olympic Training Towns: Ann Arbor, Mich.', 27 February 2008 -- short magazine report on his Michigan training base: leg-strengthening drills, paddle work and non-kicking butterfly done as self-imposed resistance because competition did not always challenge him, the Michigan coaching culture, and training partner Erik Vendt's remark about training beside him. Independent magazine reporting, brief. Read in full.",
+      "url": "https://www.si.com/olympics/2008/02/27/oly-annarbor"
+    },
+    {
+      "id": "src_phelps_si_2008_dec",
+      "kind": "press",
+      "title": "Sports Illustrated staff, 'Sportsman of the Year: Michael Phelps', 2 December 2008 -- long magazine feature for the award: the Beijing aftermath, Bowman on the pressure of the eight-gold quest and on his swimmer's training ('he can't work any harder'), the plan to rework his programme for 2012 with the 400 m individual medley dropped, and the magazine's remark that he tinkers to stay engaged. Admiring national feature; its passages outside his training and racing were not used. Read in full.",
+      "url": "https://www.si.com/sportsperson/2008/12/02/sportsman-2008"
+    },
+    {
+      "id": "src_phelps_fina_2016",
+      "kind": "institution",
+      "title": "World Aquatics (formerly FINA), 'Coaches Clinic, Day 1: Inspiring and sharing winning tips', Windsor, Ontario, 4 December 2016 -- governing-body report on Bob Bowman's opening talk to the Swimming Coaches' Golden Clinic: Phelps trained 365 days a year for six years before the 2004 Olympics, his 'unbelievable work ethic', training times often on or under world-record pace, and Bowman's description of him as a notorious descender in training. The governing body relays the coach's own account of his swimmer. Read in full.",
+      "url": "https://www.worldaquatics.com/news/1910648/coaches-clinic-day-1-inspiring-and-sharing-winning-tips-"
+    },
+    {
+      "id": "src_phelps_swimswam_2017",
+      "kind": "press",
+      "title": "Matt Rees (SwimSwam), 'Bowman Shares Pre-Olympic Michael Phelps Workouts At ASCA Convention', 7 September 2017 -- trade-press summary of Bowman's remarks to the American Swimming Coaches Association: best training in 2002-04, about 80,000 yards a week at Michigan in 2004-08, only about half of training attended and two Saturday practices before London 2012, hand-written workouts 7, 14, 30 and 60 days out from each Olympics. The coach's own account relayed by a swimming-news site, so partly secondhand. Read in full.",
+      "url": "https://swimswam.com/bowman-shares-pre-olympic-michael-phelps-workouts-asca-convention/"
+    },
+    {
+      "id": "src_phelps_swimworld_lohn",
+      "kind": "press",
+      "title": "John Lohn (Swimming World), 'Ranking the 20-Greatest Swims of Michael Phelps' Career', republished 30 September 2023 from the archive -- editor's list of his defining races, selected with Bowman who comments on several: the 2000 Trials, the 'Austin, WR' note written the day after Sydney, the 2004 200 m freestyle against Thorpe and van den Hoogenband, the goggles failure in the 2008 200 m butterfly, the 0.01-second 100 m butterfly and its extra half-stroke, Rome 2009 against Cavic, the 2012 200 m medley tactic against Lochte, the 2015 breaststroke best and the fourth straight 200 m medley title, plus the editor's note that he was not fully dedicated to training before London. Trade-press editor working with the coach; admiring but specific. Read in full.",
+      "url": "https://www.swimmingworldmagazine.com/news/ranking-the-20-greatest-swims-of-michael-phelps-career-videos/"
+    },
+    {
+      "id": "src_phelps_swimworld_2012",
+      "kind": "press",
+      "title": "Swimming World archive, 'Michael Phelps, Bob Bowman Talk to Media Before Final Meet', 26 July 2012 -- transcript of the London press conference: his comparison of conditioning with Beijing, dropping one event, the decision to swim the 400 m individual medley again, the teammate criticism of his preparation and his reply, and Bowman's remark on his focus under pressure. Self and coach statements in a press setting; used for the programme changes and the Clary episode, never as sole support. Read in full.",
+      "url": "https://www.swimmingworldmagazine.com/news/michael-phelps-bob-bowman-talk-to-media-before-final-meet/"
+    },
+    {
+      "id": "src_phelps_reuters_2012",
+      "kind": "press",
+      "title": "Reuters (published by the Kyiv Post), 'The Greatest Olympian and his coach', 12 August 2012; also reprinted by The New Times, Kigali -- wire profile built on Bowman's recollections: three target times set at age 11, adversity deliberately created in practice and meets, a junior meet raced without goggles, the goggles that filled with water in Beijing, a rival's remark passed on before a race, and the London Games. Coach-sourced and admiring; passages outside his training and racing were not used, and its figure of up to 70 km a week before London conflicts with the coach's later account and is not used. Read in full.",
+      "url": "https://archive.kyivpost.com/article/content/london-2012-olympics/the-greatest-olympian-and-his-coach-311432.html"
+    },
+    {
+      "id": "src_phelps_ap_bangor_2012",
+      "kind": "press",
+      "title": "Wire report datelined Columbus, Ohio, 'Phelps fine-tuning himself for London Games', Bangor Daily News, 8 March 2012 -- preview of his London preparation: Bowman conceding he lost focus for a couple of years after Beijing, three weeks of altitude training in Colorado Springs, and a more selective choice of events. Wire credit not shown on the page; used only for the coach's statement and the programme choices. Read in full.",
+      "url": "https://www.bangordailynews.com/2012/03/08/sports/swimming-and-diving/phelps-fine-tuning-himself-for-london-games/"
+    },
+    {
+      "id": "src_phelps_ap_clary_2012",
+      "kind": "press",
+      "title": "Paul Newberry (Associated Press), 'Phelps Says Teammate Apologized Over Comments', CBS Baltimore, 26 July 2012 -- short wire report that Michigan training partner Tyler Clary apologised after a newspaper quoted him questioning Phelps's work ethic, and that Phelps said no apology was needed. Independent wire report of a critical teammate voice. Read in full.",
+      "url": "https://www.cbsnews.com/baltimore/news/phelps-says-teammate-apologized-over-comments/"
+    },
+    {
+      "id": "src_phelps_nbc4_clary",
+      "kind": "press",
+      "title": "Evan Pioch (NBC4 Washington), 'U.S. Swimmer Questions Phelps' Work Ethic', 26 July 2012 -- local-news report quoting Clary's remarks to the Riverside Press-Enterprise about a lack of preparation, with Clary's apology and Phelps's reply. Secondary report of a quoted interview about the same incident as the wire report above, so the two are one incident, not two. Read in full.",
+      "url": "https://www.nbcwashington.com/news/sports/us-swimmer-questions-phelps-work-ethic/2064800/"
+    },
+    {
+      "id": "src_phelps_commons_baker",
+      "kind": "institution",
+      "title": "Wikimedia Commons file 'Maryland Olympians Celebration (7982573613).jpg' and its Flickr source page (Maryland GovPics, caption 'by Jay Baker', 10 September 2012, licence shown as Creative Commons Attribution 2.0) -- opened to check the portrait's licence. Not used for any scoring.",
+      "url": "https://www.flickr.com/photos/mdgovpics/7982573613/"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_phelps_fina_2016, src_phelps_baltsun_2008, src_phelps_wapo_2004, src_phelps_swimswam_2017, src_phelps_ap_bangor_2012, src_phelps_swimworld_lohn | 2002-2012 | governing-body report of the coach's talk + Baltimore Sun beat reporter + Washington Post reporter + trade-press report of the coach's remarks + wire report + trade-press editor] World Aquatics reports Bowman saying Phelps trained 365 days a year for six years before 2004 and crediting an 'unbelievable work ethic'; the Baltimore Sun reporter watched a two-hour practice begin at 6:30 a.m. as the first of two daily sessions in 2008, heard him grumble about a set and then do it 'just as he always does', including the 20,000-metre practices his coaches often required; the Washington Post reported seventeen races in seven days at the 2004 Trials, with former Michigan coach Urbanchek describing a blue-collar work ethic; Bowman says he averaged about 80,000 yards a week at Michigan in 2004-08. The same coach supplies the counter-evidence: before London 2012 Phelps attended only about half of sessions (SwimSwam), Bowman conceded he lost focus for a couple of years after Beijing (wire report), Phelps himself told the Baltimore Sun of uneven training in the year before Beijing, and Swimming World's editor says he was not fully dedicated on the road to London. A sustained, well-documented routine at its peak and an equally documented multi-year lapse, with the coach the main source for both halves, so the score stays in the mid-70s and the confidence at 0.64."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_phelps_swimworld_lohn, src_phelps_ishof, src_phelps_reuters_2012, src_phelps_olympedia, src_phelps_fina_2016 | 2000-2016 | trade-press editor + Hall of Fame + wire profile + Olympic reference + governing-body report] The day after finishing fifth in the 200 m butterfly at Sydney 2000 with no medal, Bowman wrote 'Austin, WR' on his workout sheet, and Phelps set the world record at the 2001 Spring Nationals (1:54.92) and won his first world title that summer; Bowman says he trained daily for six years to 2004; in Beijing he reversed a deficit at the wall to win the 100 m butterfly by 0.01 second and in London won the same event after turning seventh (Reuters); after retiring following London he returned for Rio and won the 200 m butterfly again, the event that began his career (Hall of Fame). Several independent documented episodes over sixteen years, but the reaction to the Sydney setback rests on the coach's note plus Phelps's own quoted account (via Reuters), several comebacks are single races rather than long recoveries, and his effort lapsed in 2009-2011, so strong inference at 72."
+    },
+    "competitiveness": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_phelps_reuters_2012, src_phelps_swimworld_lohn, src_phelps_ishof | 2004-2012 | wire profile of the coach's methods + trade-press editor + Hall of Fame] Bowman says he has always tried to give Phelps adversity in meets and practice to overcome and that Phelps performs better as the pressure rises; in Beijing he made sure Phelps knew of Cavic's remark that it would be bad for the sport if he won eight golds, and the 100 m butterfly was then won by 0.01 second; Swimming World says Cavic's taunting at Rome 2009 lit a fire in Phelps, who rallied from behind to a world record and tugged on his suit as a message; at Athens he entered the 200 m freestyle against Thorpe and van den Hoogenband, which the Hall of Fame says he did to challenge himself and Bowman says he wanted as a challenge; in London he and Bowman planned to go out hard in the 200 m medley to pressure Lochte, who had swum an earlier final, and he won a third straight title. Consistent across a coach's account, an editor and an institution, but most details reach us through the coach and the same sources record a period when his appetite for training faded, so the score stays below 85. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the behavioural account comes largely through coach Bob Bowman, an admiring insider, plus event reporting; score and confidence lowered."
+    },
+    "achievement_drive": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_phelps_olympedia, src_phelps_ishof, src_phelps_baltsun_2008, src_phelps_reuters_2012, src_phelps_si_2008_dec | 1996-2016 | Olympic reference + Hall of Fame + Baltimore Sun + wire profile + Sports Illustrated] Olympedia records that he attempted gold in eight events at Athens 2004 to better Spitz's seven, finishing with six golds and two bronzes, and Olympedia and the Hall of Fame record that he took on eight events again in 2008 and won all eight; the Baltimore Sun notes he stated the eight-gold goal publicly in 2004; Bowman says that at 11 Phelps named three target races and times and swam those times to the hundredth of a second six months later; Bowman told Sports Illustrated that for six years Phelps had lived with the quest for eight golds; the Hall of Fame says he came back for Rio to end his career with a flourish. The goals are documented regardless of outcome (the 2004 attempt fell short). Held at 80 because the drive is documented mainly through his coach and institutional summaries, and the same sources show a lull in the middle of the period. LEAD REVIEW CORRECTION (Roster50, before eligibility, downward only): the behavioural account comes largely through coach Bob Bowman, an admiring insider, plus event reporting; score and confidence lowered."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_phelps_si_2008_feb, src_phelps_si_2008_dec, src_phelps_swimworld_lohn | 2008-2015 | Sports Illustrated x2 + trade-press editor] In February 2008 Sports Illustrated saw him doing leg-strengthening drills, paddle work and non-kicking butterfly as self-imposed resistance because competition did not always challenge him; in December 2008 it reported that he tinkers with his event programme to stay engaged, with a plan to add the 100 m freestyle; in 2015, at his last national championships, he set a personal best in the 200 m breaststroke, which Bowman read as a swimmer still working to improve himself. Three consistent signs across seven years from independent magazine and trade reporting, but two are brief observations, the last is the coach's interpretation, and Bowman said in 2008 that his technique could improve little, so the score and confidence are moderate."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_phelps_swimworld_lohn, src_phelps_reuters_2012, src_phelps_ap_bangor_2012, src_phelps_swimworld_2012, src_phelps_olympedia | 2008-2012 | trade-press editor + wire profile + wire report + press-conference record + Olympic reference] When his goggles filled with water on the dive in the 2008 Olympic 200 m butterfly he swam with limited vision and still set a world record, which Swimming World ties to Bowman's practice of giving him unforeseen problems to solve (the Reuters profile adds a junior meet he raced without goggles); for London he reduced his programme (he said he had dropped one event, and Olympedia lists seven events against eight in Beijing), trained at altitude in Colorado Springs and chose events more selectively, then took up the 400 m individual medley again after saying he would not swim it. Specific, independently documented changes, but most were set with his coach and the goggles episode is a single incident, so the score and confidence are moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마이클 펠프스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/michael-phelps-jay-baker-2012.jpg",
+    "width": 920,
+    "height": 1070,
+    "source": "Wikimedia Commons, 'Maryland Olympians Celebration (7982573613).jpg' -- photograph from the Maryland GovPics Flickr stream (Government of Maryland) captioned 'by Jay Baker at Baltimore, MD.', taken 10 September 2012 at the Maryland Olympians Celebration in Baltimore; Commons licence CC BY 2.0 with a FlickreviewR pass dated 4 August 2016, and the live Flickr page (opened 2026-10-15) shows licence 'Some rights reserved' (CC BY 2.0) with the same caption; original file 4256 x 2832 pixels, cropped to a 920 x 1070 head-and-shoulders area that excludes the other person in the frame, with no resizing and no upscaling.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Jay Baker / Maryland GovPics (Government of Maryland), 10 September 2012, CC BY 2.0, cropped from the original",
+    "attributionUrl": "https://www.flickr.com/photos/mdgovpics/7982573613/",
+    "creator": "Jay Baker (Maryland GovPics)",
+    "date": "2012-09-10",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Maryland_Olympians_Celebration_(7982573613).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-15T00:00:00Z",
+    "updatedAt": "2026-10-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-15) for Q39562 returned en label 'Michael Phelps', description 'American swimmer (born 1985)', born 1985-06-30, no death date, citizenship United States (Q30), ko label '마이클 펠프스'; the lead's QID hint was correct. SLUG/QID CHECK: no existing candidate file, production roster entry or QID collision anywhere in the worktree. PREFLIGHT (done before deep reading): region north_america is valid; zero politics (nothing political is scored); at least two independent perspectives and several substantive non-self behavioural sources were identified; a canonical significance source and a portrait with a defensible rights basis were found. CANONICAL SIGNIFICANCE SOURCE: Olympedia athlete biography (https://www.olympedia.org/athletes/93860), with the International Swimming Hall of Fame honoree page (https://ishof.org/honoree/michael-phelps/) as a second institutional overview. LIVING SUBJECT: only documented, public professional and competitive conduct is scored (training routine and volume as described by his coach and reporters, race preparation and tactics, event programmes, Olympic record). Excluded entirely: health, medical diagnoses and medication, mental health, alcohol, drug and legal matters, family, relationships, finances and private life, and philanthropy and advocacy. Several sources contain such material (one sentence of Olympedia's biography, the Reuters profile, both Sports Illustrated pieces, the 2012 wire report, and an NPR article that was read but not used because it is largely about those topics); none of it is used or inferred from. READ (14 substantive sources, plus Wikidata and Commons/Flickr for identity and portrait only): Olympedia; International Swimming Hall of Fame; Washington Post (Ruane, 2004, via NBC News); Baltimore Sun (Van Valkenburg, 2008); Sports Illustrated Ann Arbor report (2008); Sports Illustrated Sportsman of the Year feature (2008); World Aquatics/FINA coaches-clinic report (2016); SwimSwam on Bowman's ASCA talk (Rees, 2017); Swimming World (Lohn); Swimming World 2012 press-conference transcript; Reuters profile via the Kyiv Post (the New Times, Kigali reprint was also read); the March 2012 wire report via the Bangor Daily News; AP (Newberry, 2012); NBC4 Washington (Pioch, 2012; the same Clary incident as the AP report, so one incident, not two). Also read but not used: a Baltimore Sun column by Rick Maese (2008), an NPR report (2016), a 2004 Fox Baltimore television report, a 2008 CNBC blog item and a CBS Sports commentary on the Clary remarks. PERSPECTIVES: a reference archive and a Hall of Fame (institutional); his longtime coach Bowman, speaking to Reuters, SwimSwam, World Aquatics, Swimming World, a wire reporter and Sports Illustrated; a former Michigan coach, the Olympic head coach, a USA Swimming physiologist and Mark Spitz (Washington Post); a training partner who credited the effect of training beside him (Vendt, Sports Illustrated) and one who criticised his preparation (Clary, AP and NBC4); independent reporters (Washington Post, Baltimore Sun, Sports Illustrated, Reuters, wire services) and a trade-press editor (Swimming World); his own words are marked as self and are never the sole support for a row. CALIBRATION: coach-sourced and admiring material dominates, so no score exceeds 82 and no confidence exceeds 0.64; Bowman's own account that he attended about half of sessions before London and lost focus for a couple of years after Beijing, Clary's critique and the Swimming World editor's note are why discipline and persistence are held in the 70s. Only six rows are supportable and the sparseness is deliberate: planning, detail orientation and collaboration rest largely on the coach's own planning or on the relay format, and leadership, risk-taking and impact motivation would need private-life, philanthropic or unread material, so none was scored. DISAGREEMENTS NOTED: the daily-training streak is given as six years to 2004 by World Aquatics, and other retellings (not read in full) say five, so only 'six years per the governing-body report of Bowman's talk' is used; Reuters says he logged up to 70 km a week before London while Bowman (SwimSwam) says he attended about half of sessions, so no London volume figure is used; Olympedia and the Hall of Fame agree on 28 Olympic medals and 23 golds. NOT OPENED: the Olympics.com athlete page (timed out), Britannica (403), the USA Swimming biography (404), his memoir and Bowman's co-authored book 'The Golden Rules' (self and a coach with a commercial interest), Duhigg's 'The Power of Habit', Sports Illustrated Vault long-form pieces and New York Times coverage (not retrievable), and 2014 wire reports on his comeback (not retrievable). PORTRAIT: Commons 'Maryland Olympians Celebration (7982573613).jpg', the Maryland GovPics Flickr photo captioned 'by Jay Baker at Baltimore, MD.' (named staff photographer of the Government of Maryland; the Flickr account is the state's official channel), taken at a public celebration on 10 September 2012; the Commons page shows CC BY 2.0 with a FlickreviewR pass (4 August 2016) and the live Flickr page opened on 2026-10-15 shows licence id 4 (CC BY 2.0) and the same caption; no restriction or personality-rights template on the Commons page; no conflicting copyright notice from the Maryland government was found; downloaded at 4256 x 2832 and cropped to a 920 x 1070 head-and-shoulders region that excludes another person (adaptation allowed by the licence and stated in the attribution), never upscaled. Not used: Agencia Brasil photographs of Phelps (Commons CC BY 2.0 or CC BY 3.0 BR) because the Agencia Brasil site's own reproduction policy (journalistic use with credit; commercial reproduction through EBC licensing) cannot be reconciled with a blanket licence and the Flickr source pages now return 404, the same call as for Usain Bolt; a US Army public-domain photograph of Phelps carrying the flag in 2016, because it is a crowd scene and not a portrait; and Commons crops that show him shirtless. The image shows a small sponsor logo on his shirt. LEAD REVIEW (Roster50): 2 rows lowered before eligibility (the behavioural account comes largely through coach Bob Bowman, an admiring insider, plus event reporting)."
+  }
+}

@@ -7597,6 +7597,291 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1898 he set aside his own work on crystals to join Marie Curie's search for an unknown radioactive substance in pitchblende, which led to the discovery of polonium and radium.",
   "pierre-curie.interpretation.turning_point.1":
     "This is consistent with a willingness to redirect his own research to work jointly on a promising problem.",
+  /* ---------------------------------------------------------- alan-shepard (Roster50) */
+  "alan-shepard.achievement.1":
+    "On 5 May 1961 he flew Freedom 7 on a Redstone rocket and became the first American in space, a suborbital flight of about 15 minutes to an altitude of about 116 miles; he was one of the seven Mercury astronauts named in April 1959.",
+  "alan-shepard.achievement.2":
+    "In 1971 he commanded Apollo 14, the third crewed lunar landing, setting down in the Fra Mauro highlands with Edgar Mitchell; the two spent about 33 hours on the surface and brought back almost 100 pounds of samples, and he ended the second moonwalk by hitting golf balls.",
+  "alan-shepard.achievement.3":
+    "From 1963, and again from 1971 until he retired in 1974, he was Chief of the Astronaut Office, responsible for coordinating, scheduling and training NASA's astronauts and, with Deke Slayton, helping to choose the Gemini and Apollo crews.",
+  "alan-shepard.moment.1":
+    "After repeated failed attempts to dock with the lunar module on the way to the Moon, Shepard suggested that the crew suit up and bring the probe inside to inspect it; when Houston proposed retracting the probe under thrust instead, he repeated the plan back to Houston and made the retract call, and the spacecraft hard-docked about 4 hours 57 minutes into the flight, according to the Apollo 14 Flight Journal.",
+  "alan-shepard.interpretation.moment.1":
+    "This is consistent with persistence at a problem that combines proposing alternatives with carrying out a ground-suggested fix carefully.",
+  "alan-shepard.moment.2":
+    "When the Apollo 13 crew was being decided, Shepard recommended himself as commander with Stuart Roosa and Edgar Mitchell; headquarters objected, and after several days of talks the crews were swapped with Jim Lovell's, giving Shepard Apollo 14, according to Shepard, Mitchell and Lovell.",
+  "alan-shepard.interpretation.moment.2":
+    "This is consistent with pressing for the assignment he wanted through internal negotiation and then accepting a compromise.",
+  "alan-shepard.turning_point.1":
+    "In early 1961 Mercury director Robert Gilruth told the seven astronauts that Shepard would fly first, Gus Grissom second and John Glenn would back up both; Shepard recalled feeling elated and then sorry for his colleagues, and his flight came on 5 May, weeks after Yuri Gagarin's orbit.",
+  "alan-shepard.interpretation.turning_point.1":
+    "This is consistent with the intense competition for the first flight that colleagues and Shepard himself describe.",
+  /* ---------------------------------------------------------- aretha-franklin (Roster50) */
+  "aretha-franklin.achievement.1":
+    "In 1966 she moved to Atlantic Records, and in 1967 she recorded 'I Never Loved a Man (The Way I Love You)' and her reworking of Otis Redding's 'Respect', which reached number one on the pop chart and won her first two Grammy Awards. She also charted that year with 'Chain of Fools' and '(You Make Me Feel Like) A Natural Woman', and she became known as the Queen of Soul.",
+  "aretha-franklin.achievement.2":
+    "In 1972 she recorded the live gospel album Amazing Grace over two nights at the New Temple Missionary Baptist Church in Los Angeles, with the Rev. James Cleveland and the Southern California Community Choir. NPR calls it the bestselling live gospel album of all time, and Britannica says it is considered one of the great gospel albums of any era.",
+  "aretha-franklin.achievement.3":
+    "In 1987 she became the first woman inducted into the Rock and Roll Hall of Fame. She won 18 Grammy Awards, including the Grammy Legend Award in 1991 and a Lifetime Achievement Award in 1994, and five of her recordings are in the Grammy Hall of Fame.",
+  "aretha-franklin.moment.1":
+    "At Atlantic's New York studio on 14 February 1967, sitting at the piano with her sister Carolyn, she began reworking Otis Redding's 'Respect', playing with its tempo and phrasing and adding a new bridge and the 'sock it to me' chant. Producer Jerry Wexler later said the chant was her idea, and that when Redding heard the mix he said, 'That little gal done took my song.'",
+  "aretha-franklin.interpretation.moment.1":
+    "This is consistent with a habit of remaking borrowed material into her own arrangement rather than reproducing it.",
+  "aretha-franklin.moment.2":
+    "At the 1998 Grammy Awards, when Luciano Pavarotti withdrew shortly before his scheduled 'Nessun dorma', producer Ken Ehrlich asked Franklin, who had sung the aria two nights earlier at a tribute, to take his place. She asked about the key, worked with Pavarotti's conductor from a cassette recording, and then sang it live; accounts of her notice differ, from twenty minutes in the Smithsonian's telling to about 45 minutes of work on the key in the producer's.",
+  "aretha-franklin.interpretation.moment.2":
+    "This is consistent with comfort in adapting a familiar piece to unfamiliar conditions at very short notice.",
+  "aretha-franklin.turning_point.1":
+    "In 1966 she moved from Columbia Records, where nine albums between 1961 and 1966 had not produced a breakthrough, to Atlantic. At Fame Studios in Muscle Shoals, Alabama, in January 1967, producer Jerry Wexler had her play the piano while she sang with the studio's rhythm section, something her earlier records had not featured; Britannica adds that she devised the background vocals herself. The single from that session, 'I Never Loved a Man (The Way I Love You)', became her first million-seller.",
+  "aretha-franklin.interpretation.turning_point.1":
+    "This is consistent with a preference for shaping her own sound, since the new method put her piano playing and her background-vocal ideas at the centre.",
+  /* ---------------------------------------------------------- donald-knuth (Roster50) */
+  "donald-knuth.achievement.1":
+    "He began The Art of Computer Programming in 1962 and published its first three volumes in 1968, 1969 and 1973; in 1974 he received the Turing Award for his contributions to the analysis of algorithms and programming-language design, in particular through that series, and Stanford's archives say his work established the analysis of algorithms as an academic field.",
+  "donald-knuth.achievement.2":
+    "In 1977, frustrated by the typography proposed for a new volume of his books, he began developing the TeX typesetting system and the METAFONT font-design system, a detour that took about ten years; the Computer History Museum calls TeX a worldwide standard for technical publishing, and he made both programs freely available.",
+  "donald-knuth.achievement.3":
+    "He developed literate programming, in which a program is written as a document meant for human readers, creating the WEB system and publishing the paper 'Literate Programming' in 1984; the Kyoto Prize citation says the idea influenced the entire field of information science.",
+  "donald-knuth.moment.1":
+    "Knuth pays one 'hexadecimal dollar' ($2.56) to anyone who finds an error in his books; Salon reported in 1999 that he had written more than $10,000 in such checks and Stanford Magazine put the figure above $20,000 in 2006, noting that recipients rarely cash them.",
+  "donald-knuth.interpretation.moment.1":
+    "This is consistent with holding already-published work to a continuing standard of correctness.",
+  "donald-knuth.moment.2":
+    "In 1986 Jon Bentley asked Knuth for a literate program that finds the most common words in a text; Knuth wrote an intricate WEB program around a hash-trie data structure, and Doug McIlroy's published review praised its discipline but judged it over-built, showing that a six-step Unix pipeline solved the same problem.",
+  "donald-knuth.interpretation.moment.2":
+    "This is consistent with a craftsman's standard that builds every part with great care, at a cost one contemporary critic questioned.",
+  "donald-knuth.turning_point.1":
+    "In 1990 Knuth took a leave from Stanford and in 1993 retired from teaching to finish The Art of Computer Programming, which he said would need at least 20 years of full-time work, according to Quanta and his own Stanford pages.",
+  "donald-knuth.interpretation.turning_point.1":
+    "This is consistent with arranging his working life around uninterrupted concentration on one long project.",
+  /* ---------------------------------------------------------- francis-ford-coppola (Roster50) */
+  "francis-ford-coppola.achievement.1":
+    "He directed and co-wrote The Godfather (1972), which won the Academy Awards for Best Picture, Best Actor and Best Adapted Screenplay, the last shared by Coppola and Mario Puzo, and its sequel The Godfather Part II (1974), which won six Oscars, three of them Coppola's as producer, director and co-writer. With his 1970 screenplay Oscar for Patton, he is a five-time Oscar winner.",
+  "francis-ford-coppola.achievement.2":
+    "In 1974 he made The Conversation, a drama about a surveillance expert, which won the Palme d'Or at Cannes. In 1979 he released Apocalypse Now, which transposed Joseph Conrad's Heart of Darkness to the Vietnam War, took 238 days to shoot and shared the Palme d'Or; Britannica says it is generally regarded as a flawed masterpiece.",
+  "francis-ford-coppola.achievement.3":
+    "In 1969 he co-founded American Zoetrope with George Lucas, a company that encouraged young, unknown artists to make personal films. Britannica describes his 1970s work as an attempt to create an alternative to Hollywood's methods of production and distribution, and the Academy gave him its 2010 Irving G. Thalberg Memorial Award for establishing American Zoetrope and backing films from The Black Stallion to The Good Shepherd.",
+  "francis-ford-coppola.moment.1":
+    "As the costs of Apocalypse Now climbed from a planned $12 million toward $31.5 million, Coppola used his estate as collateral for a loan to cover the overage, according to the AFI Catalog's account of contemporary reports. The Praemium Imperiale profile quotes him saying that nobody came forward to help and that he went to the bank with all he had earned and the property he owned.",
+  "francis-ford-coppola.interpretation.moment.1":
+    "This is consistent with a willingness to stake his own assets on a project when outside backing fell short.",
+  "francis-ford-coppola.moment.2":
+    "Walter Murch says Coppola shot scenes such as the wedding in The Godfather and the opening of The Conversation in a documentary manner, launching actors into a scene, sometimes allowing improvisation, and covering it with several cameras. In The Conversation and other films he would let takes run to 15 or 20 so that actors who had gone past the obvious might come up with something unique.",
+  "francis-ford-coppola.interpretation.moment.2":
+    "This is consistent with a method that leaves room for chance discoveries rather than fixing the coverage in advance.",
+  "francis-ford-coppola.turning_point.1":
+    "In 1981 Coppola made One from the Heart on the stages of his Zoetrope Studios in Hollywood, using what he called 'electronic cinema' and committing his own money after foreign investors withdrew. After Paramount vetoed the film's release in January 1982 he announced that Zoetrope was ending its relationship with the studio and tried to arrange distribution himself; Zoetrope went bankrupt after the film, which cost about $25 million, grossed under $10 million.",
+  "francis-ford-coppola.interpretation.turning_point.1":
+    "This is consistent with a preference for keeping control of production and distribution, even when the studio's finances were at stake.",
+  /* ---------------------------------------------------------- hans-christian-orsted (Roster50) */
+  "hans-christian-orsted.achievement.1":
+    "After a first faint observation during a lecture demonstration in 1820, Ørsted repeated the experiment in July with a much stronger battery and showed that an electric current in a wire deflects a nearby magnetic compass needle, publishing the result in a four-page Latin pamphlet dated 21 July 1820. Within months Arago, Ampère, Biot and Savart in Paris had repeated and extended it, and the later work of Faraday and Maxwell built on the connection it established.",
+  "hans-christian-orsted.achievement.2":
+    "He also helped build science education in Denmark. In 1824 he founded the Society for the Dissemination of Natural Science, which he led until his death, and in 1829 he helped found the Polytechnic, now the Technical University of Denmark, serving as its first director until 1851.",
+  "hans-christian-orsted.achievement.3":
+    "In chemistry he prepared the alkaloid piperine from pepper in 1820 and metallic aluminium in 1825. From 1817 to 1845 he also measured how liquids and gases compress, using a piezometer he redesigned so that the pressure was the same inside and outside the vessel, and concluded that compression stays in proportion to the applied force until a substance changes state.",
+  "hans-christian-orsted.moment.1":
+    "After the faint movement of the needle in his lecture, Ørsted did not experiment on it again for about three months; in an account he wrote in the third person he gave the feebleness and confusion of the effect and the memory of earlier philosophers' errors, especially his friend Ritter's, as possible reasons. In July 1820 he resumed with a much larger battery, had six named observers witness the work and made a long series of measurements of how the wire's distance and orientation changed the needle's deflection before publishing.",
+  "hans-christian-orsted.interpretation.moment.1":
+    "This is consistent with checking a faint result carefully before announcing it.",
+  "hans-christian-orsted.moment.2":
+    "On his way home from England in 1823, after visiting institutions that taught natural science to craftsmen and workers, Ørsted conceived a plan for a Danish society that would spread knowledge of natural science among craftsmen, farmers and industrial workers and managers. He founded the Society for the Dissemination of Natural Science in 1824 and, according to the Danish Biographical Lexicon, led it and gave it much of his time until his death; the American Physical Society adds that he thought making science accessible to the public very important.",
+  "hans-christian-orsted.interpretation.moment.2":
+    "This is consistent with being driven to bring science to people outside the laboratory.",
+  "hans-christian-orsted.turning_point.1":
+    "During his study trip to Paris in 1802-04, Ørsted, then an enthusiastic follower of the German natural philosophers, backed his friend Johann Ritter's candidacy for a Napoleonic prize for a galvanic discovery that did not hold up; he was sharply criticised in a French journal and returned to Copenhagen with a reputation for more enthusiasm than judgment. According to the Danish Biographical Lexicon, he came to recognise many of Ritter's results as products of imagination and afterwards kept his philosophical ideas in check until he had at least some proof of them.",
+  "hans-christian-orsted.interpretation.turning_point.1":
+    "This is consistent with raising his standard of evidence after a public failure.",
+  /* ---------------------------------------------------------- i-m-pei (Roster50) */
+  "i-m-pei.achievement.1":
+    "He designed the glass pyramid and the underground lobby of the Grand Louvre, which gave the Louvre a central entrance linking its three wings. Inaugurated on 29 March 1989 after fierce criticism, the pyramid has become the museum's symbol.",
+  "i-m-pei.achievement.2":
+    "He designed the East Building of the National Gallery of Art in Washington, opened in 1978, solving an irregular site by dividing it into two triangles. According to Paul Goldberger, the New York Times critic Ada Louise Huxtable hailed it as the most important building of the era, and Pei called it one of his most important works.",
+  "i-m-pei.achievement.3":
+    "He founded I. M. Pei & Associates in 1955 (later Pei Cobb Freed & Partners) and designed more than fifty projects, including the Kennedy Library (1979), the Bank of China Tower in Hong Kong (1989) and the Museum of Islamic Art in Doha (2008). Britannica describes his style as an extension of the International Style, with bold geometric arrangements and richly contrasted materials, and he won the 1983 Pritzker Architecture Prize.",
+  "i-m-pei.moment.1":
+    "While designing the Louvre pyramid, Pei first looked at a lightly reflective glass, then decided to make the glass as transparent as possible so that it would not change how the colours of the old buildings were seen. According to architect Michael Flynn, he also wanted the metal frame matched to the roofs around it, which led to a series of conversations about which of the 11 shades of grey on those buildings to use. The Louvre says it took two years of research to develop the extra-clear glass.",
+  "i-m-pei.interpretation.moment.1":
+    "This is consistent with close attention to fine visual detail such as the clarity and colour of materials.",
+  "i-m-pei.moment.2":
+    "Asked to design the Rock and Roll Hall of Fame in Cleveland, Pei, who was not a rock fan, first turned the job down. After changing his mind he prepared by travelling to rock concerts with the publisher of Rolling Stone, according to the New York Times, and AP says he admitted he was just catching up with the Beatles and researched the roots of rock and roll.",
+  "i-m-pei.interpretation.moment.2":
+    "This is consistent with a habit of learning about an unfamiliar subject before designing for it.",
+  "i-m-pei.turning_point.1":
+    "In 1964 Jacqueline Kennedy, impressed when she visited his office, chose Pei for the Kennedy Library over candidates including Louis Kahn; Goldberger says the commission thrust him into the forefront of American architects. Political objections to the Cambridge site then delayed the project for years, and after the 1976 move to Columbia Point Pei and an associate started the design 'all over again'. The library was dedicated on 20 October 1979.",
+  "i-m-pei.interpretation.turning_point.1":
+    "This is consistent with seeing a long, entangled commission through a change of site and a redesign.",
+  /* ---------------------------------------------------------- igor-stravinsky (Roster50) */
+  "igor-stravinsky.achievement.1":
+    "He composed The Firebird (1910), Petrushka (1911) and The Rite of Spring (1913) for Sergei Diaghilev's Ballets Russes in Paris. Britannica calls the Rite, with its shifting rhythms and unresolved dissonances, an early modernist landmark, and its premiere on 29 May 1913 caused a famous uproar.",
+  "igor-stravinsky.achievement.2":
+    "After the First World War he turned to Neoclassicism, reworking music of earlier eras into a personal idiom in Pulcinella (1920), Oedipus Rex (1927), the Symphony of Psalms (1930) and The Rake's Progress (1951), his only full-length opera.",
+  "igor-stravinsky.achievement.3":
+    "In the 1950s he took up serial technique, which he had earlier ignored, in works that include the Cantata, the ballet Agon (1957), choreographed by George Balanchine, Threni (1958) and Requiem Canticles (1966). Boosey & Hawkes calls Agon one of the most unexpected stylistic turns in modern music.",
+  "igor-stravinsky.moment.1":
+    "While working with George Balanchine on a new ballet, Stravinsky asked how long one dance should be. Told 'about two-and-a-half minutes', he replied that there is no such thing as 'about' and asked for the exact time so that he could come as close to it as possible. The anecdote appears in Jennifer Homans's review of Charles Joseph's book on the partnership, which adds that Balanchine later said their work often centered on such negotiations about time.",
+  "igor-stravinsky.interpretation.moment.1":
+    "This is consistent with a preference for exact specifications over approximate ones.",
+  "igor-stravinsky.moment.2":
+    "Before composing the ballet Agon, Stravinsky received from Lincoln Kirstein a modern edition of François de Lauze's 17th-century dance treatise Apologie de la danse, with notes and excerpts by Marin Mersenne. According to Charles Joseph's study as summarised by Jennifer Homans, he marked his copy extensively and referred to both writers while composing, and Boosey & Hawkes says he had begun to study Webern's music intensely in 1952.",
+  "igor-stravinsky.interpretation.moment.2":
+    "It sits alongside a habit of reading widely in earlier theory and music while composing.",
+  "igor-stravinsky.turning_point.1":
+    "According to Boosey & Hawkes, Stravinsky had ignored Schoenbergian serialism until 1952, when he began to study Webern's music intensely. Britannica describes a series of 'cautiously experimental' works, the Cantata, the Septet and In Memoriam Dylan Thomas, followed by Agon (completed 1957), then Threni (1958) and, in 1966, Requiem Canticles. IRCAM says he took this path on the advice of Robert Craft.",
+  "igor-stravinsky.interpretation.turning_point.1":
+    "This offers one example of reworking an established style late in a long career with a technique tied to the Schoenberg school.",
+  /* ---------------------------------------------------------- jony-ive (Roster50) */
+  "jony-ive.achievement.1":
+    "From the mid-1990s he led Apple's industrial design team and, working closely with Steve Jobs, developed the 1998 iMac, a colourful translucent desktop computer that sold more than 2 million units in its first year; the Design Museum says it brought colour and light to computing, and Britannica says his work helped make design as central to a personal computer's appeal as its technical performance.",
+  "jony-ive.achievement.2":
+    "His team went on to design the iPod (2001), the iPhone (2007), the iPad (2010) and the MacBook; the Royal Academy of Engineering gave him its 2005 President's Medal for his design of the iPod, and in 2003 the Design Museum named him the first winner of its Designer of the Year award.",
+  "jony-ive.achievement.3":
+    "After Steve Jobs's death in 2011 his remit widened: he began the Apple Watch, launched in 2015, took charge of Apple's software design (Human Interface) as well as hardware in 2012, overseeing the iOS 7 redesign, and worked with Foster + Partners on the Apple Park campus.",
+  "jony-ive.moment.1":
+    "During the Apple Watch's development the software and interface teams held weekly reviews of the sound and feel of events such as an incoming call; Wired reports that Ive was the decider and was hard to please, rejecting versions as too metallic or not organic enough, and that it took more than a year to reach sounds and taps he was happy with.",
+  "jony-ive.interpretation.moment.1":
+    "This is consistent with an exacting standard for sensory detail.",
+  "jony-ive.moment.2":
+    "By the end of 2011 prototypes of the future iPhone 6 were lined up in the studio at every tenth of an inch of screen size, from four inches to well over six. The New Yorker reports that Ive and his colleagues judged each by carrying it around for days: a 5.7-inch model that first felt right seemed too big after sleeping on it, and Tim Cook said the final sizes were not plucked from nowhere.",
+  "jony-ive.interpretation.moment.2":
+    "This illustrates a habit of testing design judgments against physical prototypes over several days rather than trusting a first impression.",
+  "jony-ive.turning_point.1":
+    "By the mid-1990s Ive was close to leaving Apple, according to a former London colleague, and the New Yorker reports that he had a resignation letter in his pocket when Steve Jobs returned as chief executive in 1997. Jobs visited the design studio, and Ive says they began working together that day on what became the iMac, which launched in the summer of 1998, about two and a half years after Ive took charge of the group.",
+  "jony-ive.interpretation.turning_point.1":
+    "This is consistent with staying committed through a stretch when his work was undervalued, then working in close partnership once the company's priorities changed.",
+  /* ---------------------------------------------------------- katalin-kariko (Roster50) */
+  "katalin-kariko.achievement.1":
+    "With the immunologist Drew Weissman, Karikó showed that replacing a standard building block of synthetic mRNA with a modified nucleoside such as pseudouridine greatly reduces the inflammatory response it provokes. Their 2005 paper was followed in 2008 and 2010 by studies showing that such modifications also raise protein production, which the Nobel Committee says removed critical obstacles to clinical uses of mRNA.",
+  "katalin-kariko.achievement.2":
+    "The two mRNA COVID-19 vaccines from Pfizer-BioNTech and Moderna were built on this nucleoside-modified mRNA and were first approved in December 2020, with protective effects of around 95 percent reported. For the discoveries that enabled them, Karikó shared the 2023 Nobel Prize in Physiology or Medicine with Weissman, two years after the pair received the 2021 Lasker-DeBakey Clinical Medical Research Award.",
+  "katalin-kariko.achievement.3":
+    "She pursued mRNA as a medicine for decades. At the University of Pennsylvania, where she worked from 1989 to 2013, she kept developing it despite difficulty convincing research funders, according to the Nobel Committee, and in 2013 she moved to BioNTech in Germany, whose partnership with Pfizer produced one of the first two approved mRNA COVID-19 vaccines.",
+  "katalin-kariko.moment.1":
+    "To find out why lab-made mRNA triggered inflammation, Karikó and Weissman first compared RNAs from different sources: bacterial RNA caused a strong reaction in dendritic cells, mammalian RNA a mild one, and mammalian transfer RNA none. Because transfer RNA is rich in modified nucleosides, they then built a set of mRNAs each carrying one modified nucleoside and tested them on dendritic cells, measuring maturation and the activation of two RNA sensors. The sequence of experiments is described by the Lasker Foundation.",
+  "katalin-kariko.interpretation.moment.1":
+    "This is consistent with a stepwise, comparison-based way of testing an explanation.",
+  "katalin-kariko.moment.2":
+    "In the mid-1990s Karikó was moved off the tenure track at Penn into a newly created senior research investigator post, and STAT's Stuart Buck writes that this followed her never winning an NIH grant for the mRNA work. According to the Penn Gazette she joined a neurosurgery lab in 1997 and kept publishing, including a 1999 paper in which she used urokinase receptor proteins to show that in vitro transcribed mRNA could be strongly expressed in living cells.",
+  "katalin-kariko.interpretation.moment.2":
+    "This is consistent with continuing a research programme through institutional setbacks.",
+  "katalin-kariko.turning_point.1":
+    "In 1997 Karikó met Drew Weissman, a newly arrived immunologist at Penn, while both were waiting to use a photocopier. According to the Lasker Foundation she offered to make the mRNA he needed for HIV-vaccine experiments and he accepted, beginning the collaboration that led to the 2005 nucleoside-modification paper; Weissman later said they spent more than twenty years working together.",
+  "katalin-kariko.interpretation.turning_point.1":
+    "This is consistent with seeking out collaborators with complementary expertise and offering her own technical skill.",
+  /* ---------------------------------------------------------- kobe-bryant (Roster50) */
+  "kobe-bryant.achievement.1":
+    "Playing his entire 20-year career for the Los Angeles Lakers, he won five NBA championships (2000, 2001 and 2002 with Shaquille O'Neal, then 2009 and 2010), two Finals MVP awards and the 2008 league MVP award, according to the Naismith Basketball Hall of Fame and Olympedia.",
+  "kobe-bryant.achievement.2":
+    "On 22 January 2006 he scored 81 points against the Toronto Raptors, which NBA.com ranks among the best performances in league history, with 55 of them in the second half, the second-highest half total ever behind Wilt Chamberlain's 59; in his final game on 13 April 2016 he scored 60 points on 22-of-50 shooting in a comeback win over Utah.",
+  "kobe-bryant.achievement.3":
+    "He scored 33,643 career points, was an 18-time All-Star, made the All-NBA First Team eleven times and the All-Defensive First Team nine times, and won Olympic gold with the United States in 2008 and 2012, according to the Hall of Fame and Olympedia.",
+  "kobe-bryant.moment.1":
+    "In summer 2009, at 31, he emailed Hakeem Olajuwon about working together and flew to Olajuwon's ranch in Texas, where for four hours he repeated the same post moves (the drop step, the fallaway and the Dream Shake) while Olajuwon broke each one down; Olajuwon says he was awkward at first but fluid by the end, and that he picked the moves up faster than others Olajuwon has taught, including Dwight Howard, Yao Ming and LeBron James.",
+  "kobe-bryant.interpretation.moment.1":
+    "This is consistent with a veteran who seeks out a specific master to improve a specific skill and drills it with unusual persistence, though the account comes mainly from one feature that relies on Bryant's and Olajuwon's recollections.",
+  "kobe-bryant.moment.2":
+    "With the 2008 US Olympic team he set a tone, NBA.com says, by defending, diving for 50/50 balls and outworking everyone with 5 a.m. weight-room sessions; Mike Krzyzewski says Bryant knew he had to show the others he was all-in and chose defence to do it, and Jerry Colangelo recalls him diving head-first for loose balls in the first scrimmage.",
+  "kobe-bryant.interpretation.moment.2":
+    "This is consistent with leading by visible effort rather than by words, although the accounts are retrospective and partly drawn from a documentary.",
+  "kobe-bryant.turning_point.1":
+    "According to Phil Jackson's account, at a February 2000 team meeting Shaquille O'Neal said Bryant was playing too selfishly and no teammate defended him; Jackson then told him in front of the team that his play was hurting it, and answered his wish to be captain 'tomorrow' by saying a captain needs followers. Jackson says Bryant then began to fit himself into the triangle offence and to socialise with teammates, and the Lakers went 27-1 and finished 67-15; Olympedia lists 2000 as the first of his five titles.",
+  "kobe-bryant.interpretation.turning_point.1":
+    "This is consistent with a stubborn player who changed his approach after direct confrontation, although the account is the coach's own and gives Bryant's side only through Jackson.",
+  /* ---------------------------------------------------------- michael-phelps (Roster50) */
+  "michael-phelps.achievement.1":
+    "He competed at five Olympics from 2000 to 2016 and won 28 medals, 23 of them gold; Olympedia lists these as the Olympic best marks, and the International Swimming Hall of Fame puts them 10 medals and 14 golds ahead of the next-best totals.",
+  "michael-phelps.achievement.2":
+    "At the 2008 Beijing Games he entered eight events and won all eight, setting seven world records and passing Mark Spitz's 1972 total of seven golds at one Games; the 100 m butterfly was decided by one hundredth of a second.",
+  "michael-phelps.achievement.3":
+    "Over his career he set 39 world records, and at Rio 2016 he won the 200 m individual medley for a fourth straight Games, which Swimming World describes as a first for any swimmer, male or female, in a single event.",
+  "michael-phelps.moment.1":
+    "In the 2008 Olympic 200 m butterfly his goggles filled with water on the dive, leaving him to swim with limited vision, and he still won in world-record time. Swimming World says this fitted his coach Bob Bowman's practice of giving him unforeseen problems to solve, and the Reuters profile recalls Bowman letting him race one of his first national junior meets without goggles.",
+  "michael-phelps.interpretation.moment.1":
+    "This is consistent with an athlete who adjusts to an unplanned problem mid-race, although the sources credit the coach's deliberate preparation as much as the swimmer's own response.",
+  "michael-phelps.moment.2":
+    "In Beijing, Bowman made sure Phelps knew of Milorad Cavic's remark that it would be bad for the sport if he won eight golds. In the 100 m butterfly Cavic led with about ten metres left; Phelps took an extra half-stroke into the wall and won 50.58 to 50.59, keeping the eight-gold bid alive.",
+  "michael-phelps.interpretation.moment.2":
+    "This is consistent with a competitor who answers a rival's challenge with a sharper effort, though the sources credit much of the prompting to the coach.",
+  "michael-phelps.turning_point.1":
+    "After finishing fifth in the 200 m butterfly at the 2000 Olympics with no medal, he was handed a workout sheet from Bowman marked 'Austin, WR'; at the 2001 Spring Nationals he set the 200 m butterfly world record (1:54.92) while still 15, and he won his first world title that summer.",
+  "michael-phelps.interpretation.turning_point.1":
+    "This is consistent with turning an early setback into a concrete, quickly met target, with the coach setting the target and Phelps saying he redoubled his efforts.",
+  /* ---------------------------------------------------------- peter-higgs (Roster50) */
+  "peter-higgs.achievement.1":
+    "In two short papers written at the University of Edinburgh in 1964, Higgs showed how a spontaneously broken gauge symmetry can give mass to vector bosons without leaving the massless Goldstone particles that had seemed to block the idea, and his second paper stated explicitly that the model implies a massive scalar particle, later called the Higgs boson. François Englert and Robert Brout, and separately Gerald Guralnik, Carl Hagen and Tom Kibble, reached the mechanism independently the same year.",
+  "peter-higgs.achievement.2":
+    "The mechanism became a central part of the Standard Model of particle physics. On 4 July 2012 the ATLAS and CMS experiments at CERN's Large Hadron Collider announced the discovery of a new particle with the properties expected of the Higgs boson, and in 2013 Higgs and Englert shared the Nobel Prize in Physics for the theoretical discovery of the mechanism.",
+  "peter-higgs.achievement.3":
+    "A longer paper published in 1966, developed during a sabbatical at the University of North Carolina, worked out scattering processes and showed that the scalar particle's coupling to the massive vector bosons is proportional to their squared mass. The 1964 and 1966 papers drew little attention for several years; Steven Weinberg and Abdus Salam incorporated the mechanism into the electroweak theory in 1967 and 1968.",
+  "peter-higgs.moment.1":
+    "In July 1964 Higgs read Walter Gilbert's argument that the Anderson-Nambu route to massive vector bosons could not work in a relativistic theory. According to Science News, reporting a 2001 talk by Higgs, his first reaction was 'Oh yes you could', and the Nobel Academy's history records that in the paper he submitted shortly afterwards he pointed out that Gilbert's criticism does not apply in a gauge theory.",
+  "peter-higgs.interpretation.moment.1":
+    "This is consistent with reaching his own conclusion against a published argument.",
+  "peter-higgs.moment.2":
+    "On 8 October 2013, the day the Nobel Prize in Physics was announced, Higgs left home before the expected announcement and had lunch at a bar in Leith, so the Swedish Academy could not reach him for over an hour and announced the prize without speaking to him. According to Frank Close and his colleague Alan Walker, a woman who stopped her car to congratulate him on his walk home told him of the award; in February 2013 he had said he might 'maybe not be around, or be around, but elsewhere' that day.",
+  "peter-higgs.interpretation.moment.2":
+    "This is consistent with avoiding publicity rather than seeking it.",
+  "peter-higgs.turning_point.1":
+    "Physics Letters accepted Higgs's first 1964 paper but rejected his second, a model in which a vector boson gains mass; King's College London quotes the verdict as 'of no obvious relevance to physics'. According to Science News, which reported his own account, he revised the paper to say that an essential feature of the theory was the prediction of incomplete multiplets of scalar and vector bosons and sent it to Physical Review Letters, where it was published on 19 October 1964; Higgs told the journalist that without the rejection he 'might never have mentioned it'.",
+  "peter-higgs.interpretation.turning_point.1":
+    "This is consistent with continuing after a setback and revising the work to show its testable consequence.",
+  /* ---------------------------------------------------------- rita-levi-montalcini (Roster50) */
+  "rita-levi-montalcini.achievement.1":
+    "In 1952, working in Viktor Hamburger's laboratory in St. Louis, Levi-Montalcini showed that mouse tumours transplanted into chick embryos make sensory and sympathetic nerves grow without direct contact, and concluded that the tumours release a diffusible nerve growth-promoting factor. She developed the culture assay used to measure it and, with the biochemist Stanley Cohen, who joined the group in 1953 and purified it, discovered nerve growth factor (NGF), which the Nobel Assembly describes as one of the first of many growth-regulating signal substances to be discovered and characterized.",
+  "rita-levi-montalcini.achievement.2":
+    "She and Cohen shared the 1986 Nobel Prize in Physiology or Medicine for their discoveries of growth factors, the same year they received the Lasker Foundation's Basic Medical Research Award. The Nobel Assembly said the discoveries opened new fields in basic science and that all research groups that later found new growth factors had followed in the tracks of Levi-Montalcini and Cohen.",
+  "rita-levi-montalcini.achievement.3":
+    "Her embryology work indicated that developing nerve cells depend on their target tissues. In Turin in the early 1940s she found that after limb removal nerve cells formed and then died, she extended this with Hamburger in 1949, and in 1960 she and Barbara Booker showed that an antiserum to NGF destroyed most of the sympathetic nervous system in newborn mice. The Nobel Assembly describes the resulting picture, in which excess nerve cells are produced and only those that reach a target producing NGF survive, an idea known as the neurotrophic hypothesis.",
+  "rita-levi-montalcini.moment.1":
+    "In Turin in the early 1940s, in a small laboratory she had set up in her bedroom, with a makeshift incubator, instruments made from sewing needles and fertilised eggs bought from farms, Levi-Montalcini repeated Viktor Hamburger's experiments in which a limb bud is removed from a chick embryo. Examining the embryos over a range of time intervals, she saw that the nerve cells first multiplied and then died, and she concluded that the missing limb had withheld a factor needed to maintain the cells rather than one that made them form, a different reading from Hamburger's.",
+  "rita-levi-montalcini.interpretation.moment.1":
+    "This is consistent with testing a published conclusion against finer-grained data and following the data to a different explanation.",
+  "rita-levi-montalcini.moment.2":
+    "In 1952, after injecting tumour extracts into chick embryos failed to reproduce the nerve growth that grafted mouse tumours produced, Levi-Montalcini flew to Rio de Janeiro with two tumour-bearing mice in her handbag to work in Hertha Meyer's tissue-culture laboratory, because her own facilities lacked that capacity. After several negative results, chick nerve tissue cultured next to a tumour fragment without touching it put out a dense halo of nerve fibres within about ten hours.",
+  "rita-levi-montalcini.interpretation.moment.2":
+    "This is consistent with finding the means for an experiment elsewhere when her own laboratory lacked them.",
+  "rita-levi-montalcini.turning_point.1":
+    "In 1946 Viktor Hamburger, who had read her wartime papers on limb removal in chick embryos, invited Levi-Montalcini to Washington University in St. Louis for a semester so that they could reconcile their differing findings. She arrived in 1947, the semester became about thirty years, and the 1949 paper by Hamburger and Levi-Montalcini and the later nerve growth factor work followed from it.",
+  "rita-levi-montalcini.interpretation.turning_point.1":
+    "This is consistent with resolving a disagreement over the same data through joint experiments with the researcher who held the competing interpretation.",
+  /* ---------------------------------------------------------- tim-cook (Roster50) */
+  "tim-cook.achievement.1":
+    "He became Apple's CEO on 24 August 2011 after Steve Jobs resigned and recommended him, and held the post for fifteen years; in April 2026 Apple announced that John Ternus would succeed him on 1 September and that he would become executive chairman.",
+  "tim-cook.achievement.2":
+    "During his tenure Apple grew from a device maker into a multi-business company, adding the Apple Watch (2015), AirPods (2016) and services such as iCloud, Apple Music and Apple TV+ and, Apple says, moving to Apple-designed silicon; CNN reported in 2021 that its market value had grown around 600% over his first decade.",
+  "tim-cook.achievement.3":
+    "As senior vice president for worldwide operations from 1998, he overhauled Apple's supply chain, closing factories and warehouses and moving manufacturing to contract manufacturers, which brought inventory down from months to days.",
+  "tim-cook.moment.1":
+    "In September 2012, after Apple's new Maps app drew complaints, Cook published a letter saying Apple had fallen short, apologising and suggesting customers try rival map apps while it improved the service; Reuters called this unusual for Apple.",
+  "tim-cook.interpretation.moment.1":
+    "This is consistent with a leader who admits a product failure openly and changes course instead of defending it.",
+  "tim-cook.moment.2":
+    "Fortune reported that in 2005 Cook's operations team forecast strong demand for the iPod Nano and prepaid $1.25 billion to flash-memory suppliers such as Samsung and Hynix, which it said effectively cornered the market in that memory through 2010.",
+  "tim-cook.interpretation.moment.2":
+    "This is consistent with turning a demand forecast into a committed supply plan years ahead.",
+  "tim-cook.turning_point.1":
+    "On 29 October 2012 Apple announced the departure of software chief Scott Forstall and retail chief John Browett, with Jony Ive, Eddy Cue, Craig Federighi and Bob Mansfield taking wider responsibilities; Cook said the aim was more collaboration across hardware, software and services, and Fortune called it the biggest management shake-up since 1997.",
+  "tim-cook.interpretation.turning_point.1":
+    "This is consistent with an attempt to tie Apple's hardware, software and services teams more closely together, though commentators disagreed about how firmly he was in control.",
+  /* ---------------------------------------------------------- titian (Roster50) */
+  "titian.achievement.1":
+    "He made himself the dominant painter of Venice. The National Gallery says his Assunta for the Frari, displayed in 1518, was a revolutionary watershed in Venetian altarpiece design and calls him the greatest painter of 16th-century Venice, and the National Gallery of Art says he was regarded from his own lifetime as the supreme master of colour.",
+  "titian.achievement.2":
+    "The National Gallery says he was the first painter to have a mainly international clientele. He painted portraits of emperors, popes, doges and princes, became Charles V's principal painter after their 1530 meeting, painted mythologies for Alfonso d'Este at Ferrara and, from about 1551, the six Ovid mythologies he called 'poesie' for Philip II of Spain.",
+  "titian.achievement.3":
+    "In his last decades he developed a much freer use of the brush, which the National Gallery says pushed his art to the edge of abstraction in works such as The Death of Actaeon and the Pieta intended for his own tomb. The National Gallery of Art says Rubens, Van Dyck and Velazquez were deeply indebted to his example.",
+  "titian.moment.1":
+    "In a letter of 22 September 1559 Titian told Philip II that the two Diana pictures had taken him more than three years because he was never satisfied with his efforts and always sought to polish and enhance them. A letter from the Spanish ambassador in Venice that August had said he would bring them to perfection within twenty days because he wanted to resolve 'a few little things that others wouldn't notice'.",
+  "titian.interpretation.moment.1":
+    "This is consistent with reworking a picture repeatedly until it met his own standard.",
+  "titian.moment.2":
+    "Modern scholars describe a family-based workshop in Venice in which assistants completed barely sketched canvases and replicated Titian's successful compositions. The 17th-century biographer Carlo Ridolfi, quoted by Antonio Paolucci, says Titian would leave the keys in the studio so that disciples could copy his finest works and would finish the copies 'by his hand' on his return, and the National Gallery of Art says his involvement at the start and end of such work makes it hard to separate autograph from workshop.",
+  "titian.interpretation.moment.2":
+    "This is consistent with delegating repeated work to assistants while keeping his own hand at the start and the finish.",
+  "titian.turning_point.1":
+    "From the late 1550s Titian radically revised his style and technique, the National Gallery says, developing a much freer use of the brush and a less descriptive representation of reality. By the late 1560s and early 1570s he had pushed his art to the edge of abstraction; in The Death of Actaeon, painted mostly when he was in his mid-eighties, he added scumbled touches sometimes with his fingers and left parts in different states of completion.",
+  "titian.interpretation.turning_point.1":
+    "This is consistent with a willingness to keep changing his technique late in life.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -15047,6 +15332,291 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1898년 그는 자신의 결정 연구를 제쳐 두고 피치블렌드 속 미지의 방사성 물질을 찾던 마리 퀴리의 연구에 합류했고, 이는 폴로늄과 라듐의 발견으로 이어졌다.",
   "pierre-curie.interpretation.turning_point.1":
     "이는 유망한 문제를 함께 풀기 위해 자신의 연구 방향을 바꾸는 태도와 부합한다.",
+  /* ---------------------------------------------------------- alan-shepard (Roster50) */
+  "alan-shepard.achievement.1":
+    "1961년 5월 5일 레드스톤 로켓에 실린 프리덤 7호를 타고 약 15분 동안 고도 약 116마일(약 187km)까지 오르는 준궤도 비행을 해 최초의 미국인 우주비행사가 되었다. 그는 1959년 4월 선발된 머큐리 우주비행사 7인 중 한 명이었다.",
+  "alan-shepard.achievement.2":
+    "1971년 아폴로 14호 선장으로 세 번째 유인 달 착륙을 이끌어 에드거 미첼과 함께 프라 마우로 고지에 착륙했다. 두 사람은 약 33시간 동안 달 표면에 머물며 100파운드에 가까운 월석 시료를 가져왔고, 셰퍼드는 두 번째 달 표면 활동을 골프공을 치는 것으로 마무리했다.",
+  "alan-shepard.achievement.3":
+    "1963년부터, 그리고 1971년부터 1974년 퇴역할 때까지 NASA 우주비행사실장으로서 우주비행사의 조정·일정·훈련을 총괄했고, 데크 슬레이턴과 함께 제미니·아폴로 승무원 선발에도 관여했다.",
+  "alan-shepard.moment.1":
+    "달 착륙선과의 도킹이 거듭 실패하자 셰퍼드는 승무원이 우주복을 입고 탐침을 들여와 살펴보자고 제안했다. 휴스턴이 대신 추력을 유지한 채 탐침을 접어 넣는 절차를 내놓자 그는 계획을 휴스턴에 되풀이해 확인한 뒤 접어 넣기 스위치를 눌렀고, 우주선은 발사 약 4시간 57분 만에 완전 결합(하드 도킹)에 성공했다고 아폴로 14호 비행 일지는 기록한다.",
+  "alan-shepard.interpretation.moment.1":
+    "대안을 내놓는 동시에 지상에서 제안한 해법을 꼼꼼히 수행하며 문제를 끝까지 풀어 가는 끈기와 일치한다.",
+  "alan-shepard.moment.2":
+    "아폴로 13호 승무원을 정할 때 셰퍼드는 스튜어트 루사, 에드거 미첼과 함께 자신을 선장으로 추천했다. 본부가 반대하자 며칠간 협의가 이어졌고, 결국 짐 러벌의 승무원과 임무를 맞바꿔 셰퍼드가 아폴로 14호를 맡게 되었다고 셰퍼드, 미첼, 러벌은 각자 회고한다.",
+  "alan-shepard.interpretation.moment.2":
+    "원하는 임무를 내부 협상으로 밀어붙이되 타협안은 받아들이는 모습과 일치한다.",
+  "alan-shepard.turning_point.1":
+    "1961년 초 머큐리 계획 책임자 로버트 길루스는 일곱 우주비행사에게 셰퍼드가 첫 비행을, 거스 그리섬이 두 번째 비행을 맡고 존 글렌이 두 비행의 예비 조종사가 된다고 알렸다. 셰퍼드는 처음에는 더없이 기뻤다가 곧 동료들이 안쓰러웠다고 회고하며, 그의 비행은 유리 가가린의 지구 궤도 비행 몇 주 뒤인 5월 5일에 이루어졌다.",
+  "alan-shepard.interpretation.turning_point.1":
+    "동료들과 셰퍼드 본인이 묘사한 첫 비행을 둘러싼 치열한 경쟁과 일치한다.",
+  /* ---------------------------------------------------------- aretha-franklin (Roster50) */
+  "aretha-franklin.achievement.1":
+    "1966년 애틀랜틱 레코드로 옮긴 그는 1967년 「I Never Loved a Man (The Way I Love You)」와 오티스 레딩의 곡을 새롭게 해석한 「Respect」를 녹음했다. 「Respect」는 팝 차트 1위에 올랐고 그에게 첫 그래미상 두 개를 안겼다. 같은 해 「Chain of Fools」와 「(You Make Me Feel Like) A Natural Woman」도 차트에 올랐고, 그는 '소울의 여왕(Queen of Soul)'으로 불리게 되었다.",
+  "aretha-franklin.achievement.2":
+    "1972년 로스앤젤레스의 뉴 템플 미셔너리 침례교회에서 이틀 밤에 걸쳐 라이브 가스펠 앨범 『Amazing Grace』를 녹음했다. 제임스 클리블랜드 목사와 서던 캘리포니아 커뮤니티 합창단이 함께했으며, NPR은 이 앨범이 역대 가장 많이 팔린 라이브 가스펠 앨범이 되었다고 전하고 브리태니커는 어느 시대의 가스펠 앨범과 견주어도 손꼽히는 명반으로 평가한다.",
+  "aretha-franklin.achievement.3":
+    "1987년 여성 최초로 로큰롤 명예의 전당에 헌액되었다. 그래미상을 18차례 받았고 1991년 그래미 레전드상과 1994년 평생공로상도 받았으며, 그의 녹음 다섯 곡이 그래미 명예의 전당에 올라 있다.",
+  "aretha-franklin.moment.1":
+    "1967년 2월 14일 애틀랜틱의 뉴욕 스튜디오에서 그는 자매 캐럴린과 함께 피아노 앞에 앉아 오티스 레딩의 「Respect」를 손보기 시작했다. 템포와 프레이징을 바꿔 가며 새 브리지와 'sock it to me' 후렴을 더했다. 프로듀서 제리 웩슬러는 훗날 그 후렴이 프랭클린의 아이디어였다고 말했고, 레딩이 믹스를 듣고 \"저 어린 아가씨가 내 노래를 가져가 버렸군\" 하고 말했다고도 전했다.",
+  "aretha-franklin.interpretation.moment.1":
+    "빌려 온 곡을 그대로 재현하기보다 자신의 편곡으로 다시 만드는 습관과 일치한다.",
+  "aretha-franklin.moment.2":
+    "1998년 그래미 시상식에서 루치아노 파바로티가 출연 직전에 빠지게 되자, 제작자 켄 얼릭은 이틀 전 헌정 행사에서 같은 아리아를 불렀던 프랭클린에게 대신 무대에 서 달라고 부탁했다. 그는 먼저 조성(키)을 물었고 파바로티의 지휘자와 카세트 녹음을 들으며 맞춰 본 뒤 생방송으로 「네순 도르마(Nessun dorma)」를 불렀다. 그가 받은 시간은 기록마다 달라서, 스미스소니언은 20분이라고 쓰고 제작자는 키를 맞추는 데 약 45분이 걸렸다고 회고한다.",
+  "aretha-franklin.interpretation.moment.2":
+    "짧은 준비 시간에도 아는 곡을 낯선 조건에 맞춰 바꿔 낼 수 있었던 모습과 일치한다.",
+  "aretha-franklin.turning_point.1":
+    "1966년 그는 1961~66년 사이 앨범 아홉 장을 내고도 돌파구를 찾지 못한 컬럼비아를 떠나 애틀랜틱으로 옮겼다. 1967년 1월 앨라배마주 머슬 쇼울스의 페임 스튜디오에서 프로듀서 제리 웩슬러는 그가 이전 음반에서는 앞세우지 않았던 피아노를 직접 치며 스튜디오 리듬 섹션과 함께 노래하도록 했고, 브리태니커에 따르면 그는 백보컬도 직접 구상했다. 그 세션의 싱글 「I Never Loved a Man (The Way I Love You)」는 그의 첫 밀리언셀러가 되었다.",
+  "aretha-franklin.interpretation.turning_point.1":
+    "새 방식이 그의 피아노 연주와 백보컬 구상을 중심에 놓았다는 점에서, 자기 사운드를 직접 빚으려는 성향과 일치한다.",
+  /* ---------------------------------------------------------- donald-knuth (Roster50) */
+  "donald-knuth.achievement.1":
+    "1962년 『컴퓨터 프로그래밍의 예술(The Art of Computer Programming)』을 쓰기 시작해 1968·1969·1973년에 처음 세 권을 펴냈고, 1974년 알고리즘 분석과 프로그래밍 언어 설계에 대한 공로, 특히 이 연작에 대한 공로로 튜링상을 받았다. 스탠퍼드 기록보관소는 그의 연구가 알고리즘 분석을 하나의 학문 분야로 자리 잡게 했다고 설명한다.",
+  "donald-knuth.achievement.2":
+    "1977년 자신의 책 새 권에 제안된 조판 품질에 불만을 느껴 조판 시스템 TeX와 글꼴 설계 시스템 METAFONT를 개발하기 시작했고, 이 우회에는 약 10년이 걸렸다. 컴퓨터역사박물관은 TeX를 기술 출판의 세계적 표준이라 소개하며, 그는 두 프로그램을 누구나 쓸 수 있게 공개했다.",
+  "donald-knuth.achievement.3":
+    "그는 프로그램을 사람이 읽는 문서로 쓰는 '문학적 프로그래밍(literate programming)'을 발전시켜 WEB 시스템을 만들고 1984년 같은 제목의 논문을 발표했다. 교토상 공적 설명은 이 착상이 정보과학 전 분야에 영향을 주었다고 평가한다.",
+  "donald-knuth.moment.1":
+    "커누스는 자신의 책에서 오류를 찾아낸 사람에게 '16진수 1달러'(2.56달러)를 준다. 살롱은 1999년 이 수표가 1만 달러를 넘었다고 전했고, 스탠퍼드 매거진은 2006년 2만 달러를 넘었으며 받은 사람 대부분이 현금으로 바꾸지 않는다고 보도했다.",
+  "donald-knuth.interpretation.moment.1":
+    "이미 출간된 저작에도 계속해서 정확성의 기준을 적용하는 태도와 일치한다.",
+  "donald-knuth.moment.2":
+    "1986년 존 벤틀리의 요청으로 커누스는 글에서 가장 자주 나오는 단어를 찾는 문학적 프로그램을 썼다. 해시 트라이 자료구조를 중심에 둔 정교한 WEB 프로그램이었고, 더그 매킬로이는 공개된 서평에서 그 엄격함은 높이 평가하되 지나치게 공들였다고 보면서 여섯 단계의 유닉스 파이프라인으로도 같은 문제가 풀린다는 것을 보여 주었다.",
+  "donald-knuth.interpretation.moment.2":
+    "모든 부분을 극도로 공들여 만드는 장인의 기준과 일치하며, 당시 한 비평가는 그 대가를 문제 삼았다.",
+  "donald-knuth.turning_point.1":
+    "1990년 휴직한 커누스는 1993년 스탠퍼드 교수직에서 물러나 『컴퓨터 프로그래밍의 예술』 완성에 전념했다. 그는 이 일에 최소 20년의 전일 작업이 필요하다고 판단했다고 퀀타 매거진과 본인의 스탠퍼드 웹페이지는 전한다.",
+  "donald-knuth.interpretation.turning_point.1":
+    "하나의 긴 프로젝트에 방해받지 않고 몰두하도록 작업 생활을 짜는 태도와 일치한다.",
+  /* ---------------------------------------------------------- francis-ford-coppola (Roster50) */
+  "francis-ford-coppola.achievement.1":
+    "그는 『대부』(1972)를 연출하고 마리오 푸조와 함께 각색했다. 이 영화는 작품상, 남우주연상, 각색상을 받았으며 각색상은 코폴라와 푸조가 공동 수상했다. 속편 『대부 2』(1974)는 오스카 6개 부문을 받았고, 그중 세 개는 제작자, 감독, 공동 각본가로서 코폴라의 몫이었다. 1970년 『패튼』의 각본상까지 더해 그는 아카데미상을 다섯 번 받았다.",
+  "francis-ford-coppola.achievement.2":
+    "1974년에는 감시 전문가를 다룬 『컨버세이션』으로 칸 영화제 황금종려상을 받았다. 1979년에는 조지프 콘래드의 『어둠의 심연』을 베트남전으로 옮겨 온 『지옥의 묵시록』을 내놓았다. 촬영에 238일이 걸린 이 영화도 황금종려상을 공동 수상했으며, 브리태니커는 이 작품을 대체로 '결함 있는 걸작'으로 평가한다고 쓴다.",
+  "francis-ford-coppola.achievement.3":
+    "1969년 조지 루커스와 함께 아메리칸 조에트로프를 세웠다. 젊고 이름 없는 창작자들이 개인적인 영화를 만들도록 북돋는 회사였다. 브리태니커는 1970년대 그의 활동을 할리우드의 제작·배급 방식에 맞서는 대안을 만들려던 시도로 설명하며, 아카데미는 2010년 아메리칸 조에트로프를 세우고 『블랙 스탤리언』에서 『굿 셰퍼드』에 이르는 영화를 후원한 공로로 그에게 어빙 G. 솔버그 기념상을 수여했다.",
+  "francis-ford-coppola.moment.1":
+    "『지옥의 묵시록』의 제작비가 계획했던 1,200만 달러에서 3,150만 달러 가까이로 불어나자, 코폴라는 자신의 부동산을 담보로 대출을 받아 초과분을 메웠다. AFI 카탈로그가 당시 보도를 정리해 전하는 내용이다. 프레미엄 임페리얼 수상자 소개에는 아무도 도와주려 하지 않아 번 돈과 가진 재산을 모두 들고 은행에 갔다는 그의 말이 실려 있다.",
+  "francis-ford-coppola.interpretation.moment.1":
+    "외부 지원이 모자랄 때 자기 재산을 걸고서라도 작품을 밀고 가려는 태도와 일치한다.",
+  "francis-ford-coppola.moment.2":
+    "월터 머치에 따르면 코폴라는 『대부』의 결혼식 장면이나 『컨버세이션』의 첫 장면 같은 대목을 다큐멘터리처럼 찍었다. 배우들을 장면 속으로 던져 넣고, 때로는 즉흥을 허락하며, 카메라 여러 대로 담았다. 『컨버세이션』을 비롯한 작품들에서는 테이크를 15번, 20번까지 이어 가며, 뻔한 연기를 지나친 배우들에게서 다른 데 없는 무언가가 나오기를 기다렸다.",
+  "francis-ford-coppola.interpretation.moment.2":
+    "촬영 범위를 미리 못 박기보다 우연한 발견의 여지를 남겨 두는 작업 방식과 일치한다.",
+  "francis-ford-coppola.turning_point.1":
+    "1981년 코폴라는 할리우드에 있던 자신의 조에트로프 스튜디오 스테이지에서 『원 프롬 더 하트』를 찍었다. 그가 '전자 영화(electronic cinema)'라 부른 방식을 썼고, 해외 투자자들이 빠지자 사비를 투입했다. 1982년 1월 파라마운트가 개봉을 막자 그는 조에트로프가 파라마운트와의 관계를 끝낸다고 밝히고 직접 배급을 추진했다. 약 2,500만 달러가 든 이 영화가 1,000만 달러도 벌지 못하면서 조에트로프는 파산했다.",
+  "francis-ford-coppola.interpretation.turning_point.1":
+    "스튜디오의 재정이 걸려 있는 상황에서도 제작과 배급의 통제권을 쥐려는 성향과 일치한다.",
+  /* ---------------------------------------------------------- hans-christian-orsted (Roster50) */
+  "hans-christian-orsted.achievement.1":
+    "1820년 강의 중의 시연에서 처음 희미한 현상을 관찰한 외르스테드는 그해 7월 훨씬 강한 전지로 실험을 되풀이해, 도선에 흐르는 전류가 가까이 둔 나침반 바늘을 움직인다는 것을 보였고 그 결과를 1820년 7월 21일자 4쪽짜리 라틴어 소책자로 발표했다. 몇 달 안에 파리의 아라고, 앙페르, 비오와 사바르가 이를 재현하고 확장했으며, 이후 패러데이와 맥스웰의 연구도 이 발견이 밝힌 전기와 자기의 연결 위에서 이루어졌다.",
+  "hans-christian-orsted.achievement.2":
+    "그는 덴마크의 과학 교육을 세우는 데에도 기여했다. 1824년 자연과학보급협회를 세워 세상을 떠날 때까지 이끌었고, 1829년에는 오늘날 덴마크 공과대학교(DTU)가 된 폴리테크닉 학교의 설립에 참여해 1851년까지 초대 원장을 맡았다.",
+  "hans-christian-orsted.achievement.3":
+    "화학에서는 1820년 후추에서 알칼로이드인 피페린을 얻었고 1825년에는 금속 알루미늄을 만들었다. 또한 1817년부터 1845년까지 액체와 기체의 압축을 측정했는데, 용기 안팎의 압력이 같아지도록 설계를 고친 압축계(피에조미터)를 사용했으며, 물질의 상태가 바뀌기 전까지는 압축이 가해진 힘에 비례한다고 결론지었다.",
+  "hans-christian-orsted.moment.1":
+    "강의 중 바늘이 희미하게 움직인 뒤 외르스테드는 약 석 달 동안 이 현상을 다시 실험하지 않았다. 3인칭으로 쓴 그의 글은 그 이유로 효과가 미약하고 혼란스러웠던 점과, 친구 리터를 비롯한 앞선 철학자들의 오류에 대한 기억을 들 수 있다고 적는다. 1820년 7월 그는 훨씬 큰 전지로 실험을 재개해 여섯 명의 관찰자를 증인으로 세우고, 도선의 거리와 방향이 바늘의 편향에 미치는 영향을 길게 측정한 뒤에야 결과를 발표했다.",
+  "hans-christian-orsted.interpretation.moment.1":
+    "미약한 결과를 발표하기 전에 신중하게 검증하는 태도와 일치한다.",
+  "hans-christian-orsted.moment.2":
+    "1823년 영국에서 돌아오는 길에, 장인과 노동자에게 자연과학을 가르치는 기관들을 둘러본 외르스테드는 장인, 농민, 산업 종사자와 경영자에게 자연과학 지식을 퍼뜨릴 덴마크의 협회를 세우겠다는 계획을 세웠다. 그는 1824년 자연과학보급협회를 세웠고, 덴마크 인명사전에 따르면 죽을 때까지 이 협회를 이끌며 많은 시간을 쏟았다. 미국물리학회는 그가 과학을 대중이 접할 수 있게 하는 일을 매우 중요하게 여겼다고 덧붙인다.",
+  "hans-christian-orsted.interpretation.moment.2":
+    "연구실 밖의 사람들에게 과학을 전하려는 동기와 일치한다.",
+  "hans-christian-orsted.turning_point.1":
+    "1802~1804년 파리 유학 중 독일 자연철학자들을 열렬히 따르던 외르스테드는 친구 요한 리터를 나폴레옹이 내건 갈바니 전기 분야의 발견상 후보로 밀었지만, 그 발견은 끝내 입증되지 못했다. 그는 프랑스 학술지에서 혹독한 비판을 받았고, 코펜하겐에 돌아왔을 때는 판단보다 열정이 앞서는 사람이라는 평판이 따라다녔다. 덴마크 인명사전에 따르면 그는 리터의 결과 상당수가 상상의 산물임을 깨달았고, 그 뒤로는 적어도 어느 정도의 증거가 생길 때까지 자신의 철학적 생각을 억제했다.",
+  "hans-christian-orsted.interpretation.turning_point.1":
+    "공개적인 실패 뒤에 증거의 기준을 높이는 태도와 일치한다.",
+  /* ---------------------------------------------------------- i-m-pei (Roster50) */
+  "i-m-pei.achievement.1":
+    "그는 그랑 루브르 사업에서 유리 피라미드와 그 아래 지하 로비를 설계해, 루브르 박물관의 세 개 동을 곧장 잇는 중앙 출입구를 만들었다. 거센 비판 속에서 1989년 3월 29일 문을 연 이 피라미드는 지금은 박물관의 상징이 되었다.",
+  "i-m-pei.achievement.2":
+    "그는 워싱턴 국립미술관 동관(1978년 개관)을 설계했다. 불규칙한 부지를 두 개의 삼각형으로 나누어 푼 건물이다. 폴 골드버거에 따르면 『뉴욕 타임스』 건축 비평가 에이다 루이스 헉스터블은 이 건물을 그 시대에 가장 중요한 건물이라고 평했고, 페이 자신도 이를 가장 중요한 작품 중 하나로 꼽았다.",
+  "i-m-pei.achievement.3":
+    "그는 1955년 I. M. 페이 앤드 어소시에이츠(훗날 페이 콥 프리드 앤드 파트너스)를 세워 케네디 도서관(1979), 홍콩 중국은행 타워(1989), 도하 이슬람 미술관(2008) 등 50개가 넘는 프로젝트를 설계했다. 브리태니커는 그의 양식을 대담한 기하학적 구성과 대비가 풍부한 재료가 특징인 국제주의 양식의 확장으로 설명하며, 그는 1983년 프리츠커 건축상을 받았다.",
+  "i-m-pei.moment.1":
+    "루브르 피라미드를 설계하면서 페이는 처음에는 반사율이 약간 있는 유리를 검토했으나, 옛 건물들의 색이 달라 보이지 않도록 유리를 최대한 투명하게 만들기로 했다. 건축가 마이클 플린에 따르면 그는 금속 프레임도 주변 지붕의 색에 맞추기를 원했고, 그래서 주변 건물에 쓰인 11가지 회색 가운데 어느 것을 고를지를 두고 팀이 여러 차례 논의했다. 루브르 박물관은 이 초투명 유리를 개발하는 데 2년의 연구가 필요했다고 설명한다.",
+  "i-m-pei.interpretation.moment.1":
+    "재료의 투명도와 색 같은 세밀한 시각적 요소에 세심하게 주의를 기울인 태도와 일치한다.",
+  "i-m-pei.moment.2":
+    "클리블랜드의 로큰롤 명예의 전당 설계를 의뢰받았을 때 록 팬이 아니었던 페이는 처음에는 일을 거절했다. 마음을 바꾼 뒤에는 『롤링 스톤』 발행인과 함께 록 콘서트를 찾아다니며 준비했다고 『뉴욕 타임스』는 전한다. AP는 그가 이제 막 비틀스를 따라잡는 중이라고 털어놓았고 로큰롤의 뿌리를 조사했다고 보도한다.",
+  "i-m-pei.interpretation.moment.2":
+    "낯선 주제를 설계하기 전에 먼저 배워 두는 습관과 일치한다.",
+  "i-m-pei.turning_point.1":
+    "1964년 재클린 케네디는 그의 사무실을 찾았다가 감명을 받아, 루이스 칸 등이 후보에 오른 가운데 페이에게 케네디 도서관을 맡겼다. 골드버거는 이 일이 그를 미국 건축가들의 선두로 끌어올렸다고 쓴다. 이후 케임브리지 부지를 둘러싼 정치적 반대로 사업은 수년간 지연되었고, 1976년 컬럼비아 포인트로 부지를 옮긴 뒤 페이와 동료는 설계를 '처음부터 다시' 시작했다. 도서관은 1979년 10월 20일 헌정되었다.",
+  "i-m-pei.interpretation.turning_point.1":
+    "부지 변경과 재설계를 거치면서도 오래 걸리고 얽힌 사업을 끝까지 이끌어 간 태도와 일치한다.",
+  /* ---------------------------------------------------------- igor-stravinsky (Roster50) */
+  "igor-stravinsky.achievement.1":
+    "그는 파리에서 세르게이 댜길레프의 발레 뤼스를 위해 「불새」(1910), 「페트루시카」(1911), 「봄의 제전」(1913)을 작곡했다. 브리태니커는 끊임없이 바뀌는 대담한 리듬과 해결되지 않는 불협화음이 두드러지는 「봄의 제전」을 초기 모더니즘의 이정표로 꼽으며, 1913년 5월 29일의 초연은 큰 소동을 일으켰다.",
+  "igor-stravinsky.achievement.2":
+    "제1차 세계 대전 이후 그는 신고전주의로 방향을 틀어, 이전 시대의 음악을 자신만의 어법으로 다시 빚어낸 「풀치넬라」(1920), 「오이디푸스 왕」(1927), 「시편 교향곡」(1930), 그리고 그의 유일한 장편 오페라인 「난봉꾼의 인생역정」(1951)을 썼다.",
+  "igor-stravinsky.achievement.3":
+    "1950년대에 그는 그전까지 외면하던 음렬 기법을 받아들여, 칸타타와 조지 발란신이 안무한 발레 「아곤」(1957), 「트레니」(1958), 「레퀴엠 칸티클스」(1966) 등을 내놓았다. 부지 앤드 호크스는 「아곤」을 현대 음악에서 가장 예상 밖의 양식 전환 가운데 하나로 평한다.",
+  "igor-stravinsky.moment.1":
+    "조지 발란신과 새 발레를 작업하던 중, 스트라빈스키는 춤 하나가 얼마나 길어야 하느냐고 물었다. 발란신이 '2분 반쯤'이라고 답하자 그는 '대략'이라는 말은 없다며 정확한 시간을 알려 달라고 했다. 가능한 한 그 시간에 맞추겠다는 것이었다. 이 일화는 찰스 조지프가 두 사람의 협업을 다룬 책에 대한 제니퍼 호먼스의 서평에 실려 있으며, 서평은 발란신이 훗날 두 사람의 작업이 이런 시간 협상을 중심으로 돌아갔다고 말했다고 덧붙인다.",
+  "igor-stravinsky.interpretation.moment.1":
+    "대략적인 지정보다 정확한 지정을 선호하는 태도와 일치한다.",
+  "igor-stravinsky.moment.2":
+    "발레 「아곤」을 작곡하기 전, 스트라빈스키는 링컨 커스틴에게서 17세기 무용 이론서인 프랑수아 드 로지의 『무용의 변론(Apologie de la danse)』 현대판을 받았다. 이 판본에는 마랭 메르센의 주석과 발췌문이 붙어 있었다. 찰스 조지프의 연구를 요약한 제니퍼 호먼스에 따르면 스트라빈스키는 이 책에 빼곡히 표시를 해 두고 작곡하는 동안 로지와 메르센을 참고했다. 부지 앤드 호크스는 그가 1952년부터 베베른의 음악을 집중적으로 공부하기 시작했다고 전한다.",
+  "igor-stravinsky.interpretation.moment.2":
+    "작곡하는 동안 옛 이론서와 음악을 폭넓게 참고하는 습관과 함께 놓고 볼 수 있다.",
+  "igor-stravinsky.turning_point.1":
+    "부지 앤드 호크스에 따르면 스트라빈스키는 1952년 베베른의 음악을 집중적으로 공부하기 시작하기 전까지 쇤베르크식 음렬 기법을 외면해 왔다. 브리태니커는 칸타타, 칠중주, 「딜런 토머스를 추모하며」 같은 '조심스러운 실험작'이 먼저 나온 뒤 「아곤」(1957년 완성)과 「트레니」(1958)가 나왔고, 1966년 「레퀴엠 칸티클스」로 이어졌다고 설명한다. IRCAM은 그가 로버트 크래프트의 조언에 따라 이 길에 들어섰다고 전한다.",
+  "igor-stravinsky.interpretation.turning_point.1":
+    "긴 경력의 후반에 쇤베르크 학파와 연결된 기법을 들여와 이미 확립된 양식을 고쳐 쓴 한 사례로 볼 수 있다.",
+  /* ---------------------------------------------------------- jony-ive (Roster50) */
+  "jony-ive.achievement.1":
+    "그는 1990년대 중반부터 애플의 산업 디자인 팀을 이끌었고, 스티브 잡스와 긴밀히 협력해 1998년 아이맥(iMac)을 개발했다. 반투명한 컬러 데스크톱 컴퓨터였던 아이맥은 출시 첫해에 200만 대 넘게 팔렸으며, 디자인 박물관(Design Museum)은 이 제품이 칙칙하던 컴퓨터의 세계에 색과 빛을 들여왔다고 평가한다. 브리태니커는 그의 작업이 개인용 컴퓨터의 매력을 좌우하는 데 디자인이 기술 성능만큼 중요한 요소가 되도록 하는 데 기여했다고 설명한다.",
+  "jony-ive.achievement.2":
+    "그의 팀은 이후 아이팟(2001), 아이폰(2007), 아이패드(2010), 맥북을 디자인했다. 영국 왕립공학한림원(Royal Academy of Engineering)은 아이팟 디자인의 공로로 2005년 그에게 회장 메달을 수여했고, 디자인 박물관은 2003년 그를 첫 '올해의 디자이너'로 선정했다.",
+  "jony-ive.achievement.3":
+    "2011년 스티브 잡스가 세상을 떠난 뒤 그의 역할은 넓어졌다. 그는 2015년 출시된 애플 워치의 개발을 시작했고, 2012년에는 하드웨어에 더해 소프트웨어 디자인인 휴먼 인터페이스(Human Interface)까지 맡아 iOS 7 개편을 총괄했으며, 포스터 앤드 파트너스(Foster + Partners)와 함께 애플 파크 캠퍼스 설계에도 참여했다.",
+  "jony-ive.moment.1":
+    "애플 워치를 개발하는 동안 소프트웨어 팀과 인터페이스 팀은 전화 수신 같은 알림의 소리와 촉감을 매주 점검했다. 와이어드는 아이브가 최종 결정을 내리는 사람이었고 만족시키기 어려운 사람이었다고 전한다. 그는 어떤 버전은 너무 금속성이고 충분히 유기적이지 않다며 물리쳤고, 마음에 드는 소리와 진동이 나오기까지 1년 넘게 걸렸다.",
+  "jony-ive.interpretation.moment.1":
+    "감각적인 세부 요소에 매우 엄격한 기준을 적용하는 태도와 일치한다.",
+  "jony-ive.moment.2":
+    "2011년 말 무렵 스튜디오에는 훗날 아이폰 6가 될 시제품들이 화면 크기를 0.1인치 단위로 달리해 4인치부터 6인치를 훌쩍 넘는 크기까지 줄지어 있었다. 뉴요커에 따르면 아이브와 동료들은 시제품을 며칠씩 들고 다니며 평가했고, 처음에는 좋게 느껴졌던 5.7인치 모델이 하룻밤 지나 보니 너무 크게 느껴졌다. 팀 쿡은 최종 크기들이 아무렇게나 정해진 것이 아니라고 말했다.",
+  "jony-ive.interpretation.moment.2":
+    "첫인상에 의존하지 않고 실물 시제품으로 며칠에 걸쳐 설계 판단을 확인하는 습관을 보여 준다.",
+  "jony-ive.turning_point.1":
+    "런던 시절 동료의 말로는 1990년대 중반 아이브는 애플을 떠날 뻔했고, 뉴요커에 따르면 1997년 스티브 잡스가 최고경영자로 복귀했을 때 그의 주머니에는 사직서가 들어 있었다. 잡스는 디자인 스튜디오를 찾아왔고, 아이브는 그날부터 훗날 아이맥이 될 작업을 함께 시작했다고 말한다. 아이맥은 아이브가 팀을 맡은 지 약 2년 반이 지난 1998년 여름에 출시됐다.",
+  "jony-ive.interpretation.turning_point.1":
+    "자신의 작업이 제대로 평가받지 못하던 시기를 견뎌 낸 뒤, 회사의 우선순위가 바뀌자 긴밀한 협업 속에서 일하게 된 모습과 일치한다.",
+  /* ---------------------------------------------------------- katalin-kariko (Roster50) */
+  "katalin-kariko.achievement.1":
+    "커리코는 면역학자 드루 와이스먼과 함께, 합성 mRNA의 기본 구성 요소를 슈도우리딘 같은 변형 뉴클레오사이드로 바꾸면 mRNA가 일으키는 염증 반응이 크게 줄어든다는 것을 보였다. 2005년의 이 논문에 이어 2008년과 2010년의 연구는 같은 변형이 단백질 생산도 늘린다는 것을 보여 주었고, 노벨위원회는 이 성과가 mRNA를 임상에 쓰는 데 걸림돌이던 핵심 장애물을 없앴다고 설명한다.",
+  "katalin-kariko.achievement.2":
+    "화이자-바이오엔테크와 모더나의 mRNA 코로나19 백신 두 가지는 이렇게 변형된 mRNA를 토대로 만들어져 2020년 12월에 처음 승인되었고, 약 95퍼센트의 예방 효과가 보고되었다. 이 발견의 공로로 커리코는 2021년 래스커-드베이키 임상의학연구상에 이어 2023년 와이스먼과 함께 노벨 생리의학상을 받았다.",
+  "katalin-kariko.achievement.3":
+    "그녀는 수십 년 동안 mRNA를 의약품으로 만드는 일에 매달렸다. 노벨위원회에 따르면 1989년부터 2013년까지 일한 펜실베이니아 대학교에서 연구비 지원 기관을 설득하는 데 어려움을 겪으면서도 연구를 이어 갔고, 2013년에는 독일의 바이오엔테크로 옮겼다. 바이오엔테크가 화이자와 함께 만든 백신은 처음 승인된 mRNA 코로나19 백신 두 가지 가운데 하나였다.",
+  "katalin-kariko.moment.1":
+    "합성 mRNA가 왜 염증을 일으키는지 알아내기 위해 커리코와 와이스먼은 먼저 출처가 다른 RNA들을 비교했다. 세균 RNA는 수지상세포에서 강한 반응을, 포유류 RNA는 약한 반응을 일으켰고, 포유류 운반 RNA는 아무 반응도 일으키지 않았다. 운반 RNA에는 변형 뉴클레오사이드가 많다는 점에서, 두 사람은 변형 뉴클레오사이드를 하나씩 넣은 mRNA를 여러 종류 만들어 수지상세포에 투여하고 세포의 성숙 정도와 두 가지 RNA 감지 수용체의 활성화를 측정했다. 이 실험의 순서는 래스커 재단의 설명에 따른 것이다.",
+  "katalin-kariko.interpretation.moment.1":
+    "가설을 단계적으로, 비교를 통해 시험하는 방식과 일치한다.",
+  "katalin-kariko.moment.2":
+    "1990년대 중반 커리코는 펜실베이니아 대학교에서 정년 트랙을 벗어나 새로 만들어진 선임 연구원 자리로 옮겨졌고, STAT에 글을 쓴 스튜어트 벅은 mRNA 연구로 NIH 연구비를 한 번도 받지 못한 것이 그 배경이라고 적는다. 펜실베이니아 가제트에 따르면 그녀는 1997년 신경외과 연구실로 옮긴 뒤에도 논문을 계속 냈고, 1999년에는 유로키나제 수용체 단백질을 이용해 시험관에서 만든 mRNA가 살아 있는 세포에서 잘 발현된다는 것을 보인 논문을 발표했다.",
+  "katalin-kariko.interpretation.moment.2":
+    "제도적 좌절을 겪는 동안에도 연구 계획을 이어 간 모습과 일치한다.",
+  "katalin-kariko.turning_point.1":
+    "1997년 커리코는 펜실베이니아 대학교에 막 부임한 면역학자 드루 와이스먼을 복사기 앞에서 만났다. 래스커 재단에 따르면 커리코는 와이스먼이 HIV 백신 실험에 필요로 하던 mRNA를 만들어 주겠다고 제안했고, 와이스먼이 이를 받아들이면서 2005년 뉴클레오사이드 변형 논문으로 이어진 협업이 시작되었다. 와이스먼은 이후 20년 넘게 함께 일했다고 말했다.",
+  "katalin-kariko.interpretation.turning_point.1":
+    "서로 보완되는 전문성을 가진 협력자를 찾아 나서고 자신의 기술을 먼저 내놓는 태도와 일치한다.",
+  /* ---------------------------------------------------------- kobe-bryant (Roster50) */
+  "kobe-bryant.achievement.1":
+    "20년 선수 생활 내내 LA 레이커스에서만 뛰며 NBA 우승 5회(샤킬 오닐과 함께한 2000·2001·2002년, 그리고 2009·2010년), 파이널 MVP 2회, 2008년 NBA MVP를 차지했다. 네이스미스 농구 명예의 전당과 올림피디아의 기록이다.",
+  "kobe-bryant.achievement.2":
+    "2006년 1월 22일 토론토 랩터스를 상대로 81득점을 올렸다. NBA 사무국 사이트는 이를 리그 역사상 최고의 경기력 중 하나로 꼽으며, 이 중 55점을 후반에 몰아쳐 윌트 체임벌린의 59점에 이어 NBA 역사상 한 경기 후반 최다 득점 2위를 기록했다. 2016년 4월 13일 마지막 경기에서는 유타를 상대로 슛 50개 중 22개를 넣어 60득점을 올리며 역전승을 이끌었다.",
+  "kobe-bryant.achievement.3":
+    "통산 33,643득점을 기록했고, 올스타에 18번 선발됐으며, 올-NBA 퍼스트팀에 11번, 올-디펜시브 퍼스트팀에 9번 뽑혔다. 2008년과 2012년에는 미국 대표팀으로 올림픽 금메달을 땄다.",
+  "kobe-bryant.moment.1":
+    "2009년 여름, 서른한 살의 그는 하킴 올라주원에게 함께 훈련하고 싶다고 이메일을 보내 텍사스에 있는 그의 목장으로 날아갔다. 그곳에서 네 시간 동안 드롭 스텝, 페이드어웨이, 드림 셰이크 같은 포스트 동작을 반복했고, 올라주원이 동작을 하나씩 나누어 가르쳤다. 올라주원은 처음에는 어색해 했지만 끝날 무렵에는 아주 부드러워졌으며, 드와이트 하워드·야오밍·르브론 제임스 등 자신이 가르친 선수들보다 빨리 익혔다고 말한다.",
+  "kobe-bryant.interpretation.moment.1":
+    "특정 기술을 보완하려고 그 분야의 대가를 직접 찾아가 집요하게 반복 연습하는 베테랑의 모습과 일치하지만, 이 이야기는 주로 코비와 올라주원의 회상에 의존한 하나의 기사에서 나온다.",
+  "kobe-bryant.moment.2":
+    "2008년 올림픽 대표팀에서 그는 수비에 나서고 50대50 볼에 몸을 던지며 새벽 5시 웨이트룸 훈련으로 누구보다 많이 노력해 팀의 분위기를 잡았다고 NBA 사무국 사이트는 전한다. 마이크 슈셉스키 감독은 코비가 동료들에게 모든 것을 걸었음을 보여 주려고 수비를 택했다고 말하고, 제리 콜란젤로는 첫 연습경기에서 그가 루즈볼을 향해 머리부터 몸을 던졌다고 회상한다.",
+  "kobe-bryant.interpretation.moment.2":
+    "말보다 눈에 보이는 노력으로 이끄는 방식과 일치하지만, 이 이야기들은 회고이며 일부는 다큐멘터리에서 가져온 것이다.",
+  "kobe-bryant.turning_point.1":
+    "필 잭슨의 기록에 따르면 2000년 2월 팀 미팅에서 샤킬 오닐이 코비가 너무 이기적으로 뛴다고 말했고 아무도 그를 옹호하지 않았다. 잭슨은 팀원들 앞에서 그의 플레이가 팀에 해가 된다고 직설적으로 말했고, 당장 주장이 되고 싶다는 그에게 따르는 사람이 없으면 주장이 될 수 없다고 답했다. 잭슨은 이후 코비가 트라이앵글 오펜스에 자신을 맞추고 동료들과 어울리기 시작했으며 팀이 27승 1패를 거두고 67승 15패로 시즌을 마쳤다고 전한다. 올림피디아는 2000년을 그의 우승 5회 중 첫 번째로 기록한다.",
+  "kobe-bryant.interpretation.turning_point.1":
+    "직접적인 대립을 겪은 뒤에야 방식을 바꾼 고집 센 선수의 모습과 일치하지만, 이는 코치 본인의 기록이며 코비의 입장은 잭슨을 통해서만 전해진다.",
+  /* ---------------------------------------------------------- michael-phelps (Roster50) */
+  "michael-phelps.achievement.1":
+    "2000년부터 2016년까지 올림픽에 다섯 번 출전해 메달 28개(금메달 23개)를 땄다. 올림피디아는 이를 올림픽 최다 기록으로 올려 놓고 있으며, 국제수영명예의전당은 2위 기록보다 메달이 10개, 금메달이 14개 많다고 밝힌다.",
+  "michael-phelps.achievement.2":
+    "2008년 베이징 올림픽에서 8개 종목에 출전해 모두 금메달을 땄고 세계 신기록을 7번 세웠으며, 한 대회 금메달 7개라는 1972년 마크 스피츠의 기록을 넘어섰다. 접영 100m는 100분의 1초 차이로 승부가 갈렸다.",
+  "michael-phelps.achievement.3":
+    "선수 생활 동안 세계 신기록 39개를 세웠고, 2016년 리우 올림픽에서는 개인혼영 200m를 4개 대회 연속 우승했다. 스위밍 월드는 이를 남녀를 통틀어 한 종목에서 올림픽 4연패를 이룬 첫 수영 선수의 사례로 전한다.",
+  "michael-phelps.moment.1":
+    "2008년 올림픽 접영 200m에서 다이빙 직후 고글에 물이 차 시야가 제한된 채로 레이스를 치렀지만 세계 신기록으로 우승했다. 스위밍 월드는 이것이 코치 밥 바우먼이 예상 밖의 문제를 풀어 보게 하던 방식과 맞닿아 있다고 전하며, 로이터 인물기는 바우먼이 어린 펠프스를 초기 전국 주니어 대회에서 고글 없이 뛰게 한 일을 소개한다.",
+  "michael-phelps.interpretation.moment.1":
+    "계획에 없던 문제가 생겨도 경기 도중 대응해 내는 선수와 일치하지만, 자료는 선수 본인의 반응만큼이나 코치의 의도적인 준비를 강조한다.",
+  "michael-phelps.moment.2":
+    "베이징에서 바우먼은 밀로라드 차비치가 펠프스의 금메달 8개는 스포츠에 좋지 않다고 말한 사실을 펠프스가 알도록 했다. 접영 100m에서 남은 10m 지점까지 차비치가 앞서 있었지만, 펠프스는 마지막에 반 스트로크를 더 뻗어 50초58 대 50초59로 이기며 8관왕 도전을 이어 갔다.",
+  "michael-phelps.interpretation.moment.2":
+    "라이벌의 도발에 더 날카로운 경기력으로 응답하는 경쟁자의 모습과 일치하지만, 자료는 그 자극의 상당 부분을 코치의 역할로 돌린다.",
+  "michael-phelps.turning_point.1":
+    "2000년 올림픽 접영 200m에서 메달 없이 5위에 그친 뒤, 바우먼은 '오스틴, 세계 신기록'이라고 적은 훈련표를 건넸다. 그는 2001년 봄 전국선수권에서 만 15세의 나이로 접영 200m 세계 신기록(1분54초92)을 세웠고, 그해 여름 생애 첫 세계선수권 우승을 차지했다.",
+  "michael-phelps.interpretation.turning_point.1":
+    "초반의 좌절을 구체적이고 빠르게 달성한 목표로 바꾼 모습과 일치하며, 목표는 코치가 제시했고 펠프스 본인은 노력을 배가했다고 말한다.",
+  /* ---------------------------------------------------------- peter-higgs (Roster50) */
+  "peter-higgs.achievement.1":
+    "1964년 에든버러 대학교에서 쓴 두 편의 짧은 논문에서 힉스는 자발적으로 깨진 게이지 대칭이 벡터 보손에 질량을 줄 수 있으며, 이 아이디어를 가로막는 듯 보였던 질량 없는 골드스톤 입자가 남지 않는다는 것을 보였다. 두 번째 논문은 이 모형이 질량을 가진 스칼라 입자, 훗날 힉스 보손이라 불리게 될 입자의 존재를 함의한다고 분명히 밝혔다. 프랑수아 앙글레르와 로버트 브라우트, 그리고 따로 제럴드 구럴닉, 칼 하겐, 톰 키블도 같은 해에 같은 메커니즘에 독립적으로 도달했다.",
+  "peter-higgs.achievement.2":
+    "이 메커니즘은 입자물리학 표준모형의 핵심 부분이 되었다. 2012년 7월 4일 CERN 대형 강입자 충돌기의 ATLAS와 CMS 실험은 힉스 보손에서 기대되는 성질을 지닌 새 입자의 발견을 발표했고, 2013년 힉스는 앙글레르와 함께 이 메커니즘의 이론적 발견으로 노벨 물리학상을 받았다.",
+  "peter-higgs.achievement.3":
+    "노스캐롤라이나 대학교 연구년 동안 발전시켜 1966년에 발표한 더 긴 논문에서 힉스는 산란 과정을 계산했고, 스칼라 입자가 질량을 가진 벡터 보손과 결합하는 세기가 그 벡터 보손 질량의 제곱에 비례함을 보였다. 1964년과 1966년의 논문은 몇 해 동안 큰 관심을 받지 못했고, 1967~68년에 스티븐 와인버그와 압두스 살람이 이 메커니즘을 전약 이론에 도입했다.",
+  "peter-higgs.moment.1":
+    "1964년 7월 힉스는 앤더슨-난부 방식으로는 상대론적 이론에서 질량을 가진 벡터 보손을 얻을 수 없다는 월터 길버트의 주장을 읽었다. 힉스의 2001년 강연을 전한 사이언스 뉴스에 따르면 그의 첫 반응은 '아니, 가능하다'였고, 노벨 위원회의 역사 서술은 그가 곧이어 제출한 논문에서 길버트의 비판이 게이지 이론에는 적용되지 않는다고 지적했다고 기록한다.",
+  "peter-higgs.interpretation.moment.1":
+    "이미 발표된 반론에 맞서 스스로 결론에 이르는 태도와 일치한다.",
+  "peter-higgs.moment.2":
+    "2013년 10월 8일 노벨 물리학상이 발표되던 날, 힉스는 발표 예정 시각 전에 집을 나서 리스의 한 술집에서 점심을 먹었고, 스웨덴 왕립과학원은 한 시간 넘게 그와 연락이 닿지 않자 그와 통화하지 못한 채 수상자를 발표했다. 프랭크 클로즈와 동료 앨런 워커에 따르면 집으로 걸어가던 그에게 차를 세우고 축하를 건넨 한 여성이 수상 소식을 알려 주었다. 같은 해 2월 힉스는 그날 '아마 자리를 비우거나, 있더라도 다른 곳에 있을지 모른다'고 말한 바 있다.",
+  "peter-higgs.interpretation.moment.2":
+    "주목받는 일을 찾기보다 피하려는 태도와 일치한다.",
+  "peter-higgs.turning_point.1":
+    "피지컬 레터스(Physics Letters)는 힉스의 1964년 첫 논문은 실었지만, 벡터 보손이 질량을 얻는 모형을 담은 두 번째 논문은 거절했다. 킹스 칼리지 런던은 그 사유를 '물리학과 뚜렷한 관련이 없다'는 평가였다고 소개한다. 힉스 본인의 설명을 전한 사이언스 뉴스에 따르면, 그는 이 이론의 본질적 특징이 스칼라 및 벡터 보손의 불완전 다중항에 대한 예측이라는 내용을 논문에 보태 수정한 뒤 피지컬 리뷰 레터스에 보냈고, 논문은 1964년 10월 19일 그곳에 실렸다. 힉스는 거절이 없었다면 그 입자를 '언급하지 않았을지도 모른다'고 기자에게 말했다.",
+  "peter-higgs.interpretation.turning_point.1":
+    "좌절을 겪은 뒤에도 작업을 이어 가며 검증 가능한 결과가 드러나도록 수정하는 태도와 일치한다.",
+  /* ---------------------------------------------------------- rita-levi-montalcini (Roster50) */
+  "rita-levi-montalcini.achievement.1":
+    "1952년 세인트루이스의 빅토어 함부르거 연구실에서 레비몬탈치니는 생쥐 종양을 닭 배아에 이식하면 종양과 직접 닿지 않아도 감각신경과 교감신경이 자란다는 것을 보였고, 종양이 주변으로 퍼져 나가는 신경 성장 촉진 인자를 내놓는다고 결론지었다. 그녀는 이 인자를 측정하는 배양 검정법을 개발했으며, 1953년 연구진에 합류해 이를 정제한 생화학자 스탠리 코언과 함께 신경 성장 인자(NGF)를 발견했다. 노벨 총회는 NGF를 이후 잇따라 발견된 성장 조절 신호 물질들 가운데 맨 처음 발견되어 규명된 것의 하나로 설명한다.",
+  "rita-levi-montalcini.achievement.2":
+    "이 성장 인자 발견의 공로로 레비몬탈치니와 코언은 1986년 노벨 생리의학상을 공동으로 받았고, 같은 해 앨버트 래스커 기초의학연구상도 함께 받았다. 노벨 총회는 이 발견이 기초과학에 새로운 분야를 열었으며, 이후 새로운 성장 인자를 찾아낸 모든 연구 집단이 두 사람이 낸 길을 따라간 것이라고 밝혔다.",
+  "rita-levi-montalcini.achievement.3":
+    "그녀의 발생학 연구는 발달 중인 신경세포가 표적 조직에 의존한다는 점을 시사했다. 1940년대 초 토리노에서 사지를 제거하면 신경세포가 생겼다가 죽는다는 것을 알아냈고, 1949년 함부르거와 함께 이를 넓혔으며, 1960년에는 바버라 부커와 함께 NGF 항혈청이 신생 생쥐의 교감신경계 대부분을 파괴한다는 것을 보였다. 노벨 총회는 발달 과정에서 신경세포가 넘치게 만들어지고 NGF를 내는 표적에 닿은 것만 살아남는다고 설명하는데, 이 생각은 신경영양 가설로 알려져 있다.",
+  "rita-levi-montalcini.moment.1":
+    "1940년대 초 토리노에서 레비몬탈치니는 침실에 차린 작은 실험실에서, 임시로 만든 부란기와 바느질 바늘로 만든 수술 도구, 농장에서 사 온 수정란으로 빅토어 함부르거가 했던 닭 배아의 사지 싹 제거 실험을 되풀이했다. 그녀는 여러 시점에 걸쳐 배아를 살펴 신경세포가 처음에는 늘어나다가 나중에 죽는다는 것을 확인했고, 사라진 사지가 신경세포가 형성되도록 하는 인자가 아니라 이미 생긴 세포를 유지하는 데 필요한 인자를 내놓지 못한 것이라고 결론지었는데, 이는 함부르거와 다른 해석이었다.",
+  "rita-levi-montalcini.interpretation.moment.1":
+    "발표된 결론을 더 촘촘한 자료로 다시 시험하고, 자료를 따라 다른 설명에 이르는 방식과 일치한다.",
+  "rita-levi-montalcini.moment.2":
+    "1952년 종양 추출물을 닭 배아에 주사하는 방법으로는 이식한 생쥐 종양이 일으키던 신경 성장을 재현하지 못하자, 레비몬탈치니는 종양이 생긴 생쥐 두 마리를 핸드백에 넣고 리우데자네이루로 날아가 헤르타 마이어의 조직 배양 실험실에서 연구했다. 자신의 연구 시설에는 그럴 만한 설비가 없었기 때문이다. 여러 차례 부정적인 결과가 나온 뒤, 종양 조각에 닿지 않게 곁에 둔 닭 배아 신경 조직에서 약 10시간 만에 신경 섬유가 빽빽한 후광 모양으로 뻗어 나왔다.",
+  "rita-levi-montalcini.interpretation.moment.2":
+    "자신의 연구실에 없는 수단을 다른 곳에서 찾아내 실험을 해내는 모습과 일치한다.",
+  "rita-levi-montalcini.turning_point.1":
+    "1946년 빅토어 함부르거는 전쟁 중에 발표된 레비몬탈치니의 닭 배아 사지 제거 연구 논문을 읽고, 서로 다르게 나온 결과를 함께 따져 보자며 그녀를 세인트루이스의 워싱턴 대학교로 한 학기 동안 초청했다. 그녀는 1947년에 도착했고, 한 학기는 약 30년으로 이어졌으며, 함부르거와 함께 낸 1949년 논문과 이후의 신경 성장 인자 연구가 이곳에서 나왔다.",
+  "rita-levi-montalcini.interpretation.turning_point.1":
+    "같은 자료를 두고 해석이 갈릴 때, 다른 해석을 가진 연구자와 함께 실험하며 결론을 가리려는 모습과 일치한다.",
+  /* ---------------------------------------------------------- tim-cook (Roster50) */
+  "tim-cook.achievement.1":
+    "2011년 8월 24일 스티브 잡스가 사임하며 그를 후임으로 추천해 애플의 CEO가 되었고, 15년간 그 자리를 맡았다. 2026년 4월 애플은 9월 1일 존 터너스가 후임 CEO가 되고 쿡은 이사회 집행의장을 맡는다고 발표했다.",
+  "tim-cook.achievement.2":
+    "그의 재임 기간에 애플은 기기 제조사에서 여러 사업을 거느린 기업으로 커졌다. 애플워치(2015)와 에어팟(2016), 아이클라우드·애플 뮤직·애플 TV+ 같은 서비스가 더해졌고, 애플의 설명으로는 자체 설계 칩으로도 전환했으며, CNN은 2021년 그의 첫 10년간 시가총액이 약 600% 늘었다고 보도했다.",
+  "tim-cook.achievement.3":
+    "1998년 애플에 합류해 전 세계 운영 담당 수석부사장을 맡은 그는 공장과 창고를 닫고 제조를 위탁 생산업체로 옮겨 공급망을 재편했고, 재고는 몇 달 치에서 며칠 치로 줄었다.",
+  "tim-cook.moment.1":
+    "2012년 9월 애플의 새 지도 앱에 불만이 쏟아지자, 쿡은 애플이 기대에 못 미쳤다고 사과하고 서비스를 개선하는 동안 경쟁사의 지도 앱을 써 보라고 안내하는 공개서한을 올렸다. 로이터는 이를 애플로서는 이례적인 일이라고 보도했다.",
+  "tim-cook.interpretation.moment.1":
+    "제품의 실패를 변명하기보다 공개적으로 인정하고 방향을 바꾸려는 리더의 태도와 일치한다.",
+  "tim-cook.moment.2":
+    "포천에 따르면 2005년 쿡의 운영팀은 아이팟 나노의 수요가 클 것이라고 예측하고 삼성·하이닉스 같은 플래시 메모리 공급업체에 12억 5천만 달러를 선지급했으며, 이로써 해당 메모리 시장을 2010년까지 사실상 확보했다.",
+  "tim-cook.interpretation.moment.2":
+    "수요 예측을 몇 년 앞선 공급 계획으로 연결하는 방식과 일치한다.",
+  "tim-cook.turning_point.1":
+    "2012년 10월 29일 애플은 소프트웨어 책임자 스콧 포스톨과 소매 책임자 존 브라우엣의 퇴임을 발표하고 조니 아이브, 에디 큐, 크레이그 페더리기, 밥 맨스필드의 역할을 넓혔다. 쿡은 하드웨어·소프트웨어·서비스 간 협업을 늘리려는 조치라고 밝혔고, 포천은 1997년 이후 최대 규모의 경영진 개편이라고 평가했다.",
+  "tim-cook.interpretation.turning_point.1":
+    "애플의 하드웨어·소프트웨어·서비스 팀을 더 긴밀히 묶으려는 시도와 일치하지만, 당시 그가 얼마나 확고히 장악하고 있었는지에 대해서는 평가가 갈렸다.",
+  /* ---------------------------------------------------------- titian (Roster50) */
+  "titian.achievement.1":
+    "그는 베네치아 화단을 대표하는 화가로 자리 잡았다. 영국 내셔널 갤러리는 1518년 공개된 프라리 성당의 『성모 승천』이 베네치아 제단화 설계의 혁명적인 분수령이었다고 설명하며 그를 16세기 베네치아에서 가장 위대한 화가로 꼽는다. 워싱턴 내셔널 갤러리 오브 아트는 그가 생전부터 색채의 최고 거장으로 여겨졌다고 말한다.",
+  "titian.achievement.2":
+    "영국 내셔널 갤러리는 그가 고객이 주로 국제적이었던 최초의 화가라고 설명한다. 그는 황제와 교황, 총독, 군주의 초상화를 그렸고, 1530년 카를 5세와 만난 뒤 그의 수석 화가가 되었으며, 페라라의 알폰소 데스테를 위해 신화화를 그렸다. 1551년경부터는 스페인의 펠리페 2세를 위해 '포에지(시)'라 부른 오비디우스 신화 연작 여섯 점을 그렸다.",
+  "titian.achievement.3":
+    "말년의 수십 년 동안 그는 훨씬 자유로운 붓질을 발전시켰고, 영국 내셔널 갤러리는 『악타이온의 죽음』과 원래 자신의 무덤에 두려던 『피에타』 같은 작품에서 그가 회화를 추상의 가장자리까지 밀고 갔다고 설명한다. 워싱턴 내셔널 갤러리 오브 아트는 루벤스와 반 다이크, 벨라스케스가 그의 본보기에 깊이 빚지고 있다고 본다.",
+  "titian.moment.1":
+    "1559년 9월 22일 티치아노는 펠리페 2세에게 보낸 편지에서, 두 점의 『디아나』 그림에 3년이 넘게 걸린 것은 자신이 자신의 노력에 결코 만족하지 못하고 언제나 더 다듬고 끌어올리려 하기 때문이라고 설명했다. 그해 8월 베네치아 주재 스페인 대사는 왕에게 보낸 편지에서, 티치아노가 '남들은 알아차리지 못할 사소한 부분들'을 해결하고 싶어 20일 안에 두 그림을 완성할 것이라고 전했다.",
+  "titian.interpretation.moment.1":
+    "그림이 스스로 정한 기준에 이를 때까지 거듭 손보는 태도와 일치한다.",
+  "titian.moment.2":
+    "현대 학자들은 베네치아에 가족 중심의 공방이 있었고, 조수들이 겨우 스케치만 된 캔버스를 완성하거나 티치아노의 성공작 구도를 복제했다고 설명한다. 안토니오 파올루치가 인용한 17세기 전기 작가 카를로 리돌피에 따르면 티치아노는 제자들이 가장 훌륭한 작품을 베낄 수 있도록 열쇠를 작업실에 두고 외출했고, 돌아와서는 그 복제품을 '자기 손으로' 마무리했다. 워싱턴 내셔널 갤러리 오브 아트는 이런 작업의 처음과 끝에 그가 관여해 직접 그린 것과 공방 작업을 가르기 어렵다고 설명한다.",
+  "titian.interpretation.moment.2":
+    "반복되는 작업은 조수에게 맡기되 시작과 마무리에는 자신의 손길을 남긴 방식과 일치한다.",
+  "titian.turning_point.1":
+    "영국 내셔널 갤러리에 따르면 티치아노는 1550년대 후반부터 자신의 양식과 기법을 근본적으로 고쳐, 훨씬 자유로운 붓질과 덜 묘사적인 현실 표현을 발전시켰다. 1560년대 말에서 1570년대 초에는 예술을 추상의 가장자리까지 밀고 나갔다. 대부분 그가 여든 중반일 때 그려진 『악타이온의 죽음』에서는 때로는 손가락으로 문지른 덧칠을 더하고, 화면의 여러 부분을 서로 다른 완성 단계로 남겨 두었다.",
+  "titian.interpretation.turning_point.1":
+    "말년에도 자신의 기법을 계속 바꾸려는 자세와 일치한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {
