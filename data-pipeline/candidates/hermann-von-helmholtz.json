@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hermann-von-helmholtz",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hermann von Helmholtz",
+    "aliases": [
+      "Hermann Ludwig Ferdinand von Helmholtz",
+      "Hermann Helmholtz"
+    ],
+    "wikidataId": "Q60024",
+    "birthYear": 1821,
+    "deathYear": 1894,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "scientist"
+    ],
+    "fieldIds": [
+      "physics",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical",
+      "historical"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_helmholtz_wikidata",
+      "kind": "wikidata",
+      "title": "Hermann von Helmholtz (Q60024) -- verified live via the Wikidata API (2026-10-16): English label 'Hermann von Helmholtz', description 'German physicist and physiologist (1821-1894)', Korean label present, instance of human, born 31 August 1821 (Potsdam), died 8 September 1894, citizenship Kingdom of Prussia, German Empire and Germany. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q60024"
+    },
+    {
+      "id": "src_helmholtz_dsb",
+      "kind": "biography",
+      "title": "'Helmholtz, Hermann von', Complete Dictionary of Scientific Biography (as reproduced on Encyclopedia.com; the page shows no author credit; its topic line reads 'energetics, physiological acoustics, physiological optics, epistemology, hydrodynamics, electrodynamics') -- CANONICAL SIGNIFICANCE SOURCE: a scholarly biographical entry that treats the 1847 memoir 'Über die Erhaltung der Kraft' as setting out the mathematical principles of the conservation of energy, his invention of the ophthalmoscope in 1851, the three-volume Handbuch der physiologischen Optik, Die Lehre von den Tonempfindungen, the 1858 hydrodynamics of vortex motion, his critical assessment of competing electrodynamic theories (which first brought Maxwell's field theory to Continental physicists and inspired his pupil Heinrich Hertz), the 1882 free-energy memoir, his unsuccessful late attempt to ground all physics on the principle of least action, and his career from Potsdam army surgeon through Königsberg, Bonn and Heidelberg to the Berlin physics chair (1871) and the presidency of the Physikalisch-Technische Reichsanstalt. Independent scholarly biography; its passages on his family, wives, health and the political significance of his call to Berlin were not used. Read the biographical, energetics and physiological-optics sections in full and the remaining sections in summary paragraphs and by keyword.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/hermann-ludwig-ferdinand-von-helmholtz#2830901927"
+    },
+    {
+      "id": "src_helmholtz_iess",
+      "kind": "biography",
+      "title": "'Helmholtz, Hermann von', International Encyclopedia of the Social Sciences (as reproduced on Encyclopedia.com; no author shown on the page; it cites Koenigsberger and Boring) -- a second, independent entry written from the standpoint of psychology and the social sciences: posterity sees his most significant contributions in sensory physiology and psychology, where he laid foundations for the experimental study of hearing and vision; his measurement of the speed of the nerve impulse (about 27 metres per second in a frog, 50-60 in humans) against the physiologists Müller's and von Humboldt's initial disbelief; the ophthalmoscope and ophthalmometer, accommodation, colour mixture, the doctrine of unconscious inference, summation tones, vowel theory and the Tonempfindungen; his empirical epistemology and challenge to Kant on space; and over 200 papers and books. Scholarly summary, admiring in tone; its passages on his family, his father's philosophy, his 1893 journey and his death were not used. Read in full.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/hermann-ludwig-ferdinand-von-helmholtz#3045000508"
+    },
+    {
+      "id": "src_helmholtz_ndb",
+      "kind": "biography",
+      "title": "Walther Gerlach, 'Helmholtz, Hermann von', Neue Deutsche Biographie 8 (1969), p. 499 ff. (online at Deutsche Biographie; in German) -- a physicist's scholarly entry: his work on nerve conduction and the 'Helmholtz pendulum', the energy-conservation lecture and pamphlet of 1847 (with the note that Robert Mayer had stated the principle earlier, that most physicists and physiologists were reserved or hostile 'to Helmholtz's surprise' and that Poggendorff refused it for the Annalen), the optical work from the ophthalmoscope of 1850-51 to the Handbuch, the eight-year work behind the Tonempfindungen, vortex theorems, electrodynamics and the principle of least action, the remark that his life's work cannot be divided into periods and that he was 'always what the problem demanded', that he had little success with his lectures ('we felt that he was at least as bored as we were', in Max Planck's words) and that he held to a mechanical and continuum picture that the discoveries following his death contradicted. Independent scholarly biography; its closing remarks on school reform and popularisation were not needed. Read the whole biographical text.",
+      "url": "https://www.deutsche-biographie.de/gnd11854893X.html"
+    },
+    {
+      "id": "src_helmholtz_koenigsberger",
+      "kind": "biography",
+      "title": "Leo Koenigsberger, 'Hermann von Helmholtz', translated by Frances A. Welby with a preface by Lord Kelvin (Oxford: Clarendon Press, 1906; abridged English translation of the three-volume German life of 1902-03; Internet Archive copy from the University of California Libraries) -- the contemporary life-and-letters biography by a mathematician who knew him, quoting his letters to his father and to Du Bois-Reymond and his own recollections: the 1847 memoir and the reservations of Magnus and Poggendorff, who advised an independent publication; the Robert Mayer priority question and his repeated crediting of Mayer; the discovery of the ophthalmoscope in December 1850 (his letter of 17 December 1850 and his 1891 account of making it from spectacle lenses and cover-glasses and persevering for about eight days); Kelvin's preface calling him a master and leader in mathematics, biology and physics. Admiring and described by the modern biographer David Cahan as hagiographical; used for documented episodes and quotations, with Helmholtz's own words as self evidence only. The full OCR text was downloaded; read the preface and the passages on 1847, the priority question and the ophthalmoscope, and searched the rest by keyword.",
+      "url": "https://archive.org/details/hermannvonhelmho00koenrich"
+    },
+    {
+      "id": "src_helmholtz_joyner",
+      "kind": "press",
+      "title": "Richard Joyner (emeritus professor of chemistry, Nottingham Trent University), review of David Cahan's 'Helmholtz: A Life in Science' (University of Chicago Press, 2018), Times Higher Education, 25 October 2018 -- an independent, partly critical review: Helmholtz's contributions 'rarely equalled' in breadth and depth; the ophthalmoscope, energy conservation, colour vision, music physiology and the Handbuch; his rise through competing state appointments; his being a workaholic who networked well with other leading scientists whose opinions 'rarely altered his own', his involvement in priority disputes 'to an extent that is now unusual', his laboratory as a magnet for young scientists, and Planck's remark that his lectures were never properly prepared; and Joyner's complaint that the biography says too little about his scientific thinking. Counter-voice on conduct and teaching; its remarks on his health, on his Anglophilia and Francophobia and on antisemitism in Berlin were not used (health, private life and politics). Read in full.",
+      "url": "https://www.timeshighereducation.com/books/book-of-the-week-helmholtz-life-science-david-cahan-university-chicago-press"
+    },
+    {
+      "id": "src_helmholtz_smb",
+      "kind": "institution",
+      "title": "Staatliche Museen zu Berlin, Sammlungen online, record 'Der Physiker Hermann von Helmholtz' (Alte Nationalgalerie, inventory A I 314, ObjID obj:958941; Ludwig Knaus (1829-1910); 1881; oil on panel, 120 x 85 cm; acquired 1881 by purchase after a commission for the portrait collection; photograph credit 'Staatliche Museen zu Berlin, Alte Nationalgalerie / Andres Kilger' with the Public Domain Mark 1.0) -- checked for the portrait's rights and identification; the museum's catalogue text says Knaus painted Helmholtz and Mommsen in 1881 on an order for the National Gallery, showing Helmholtz lecturing and explaining the ophthalmoscope with optical and acoustic instruments on the table. No conflicting notice was found. Not used for any scoring.",
+      "url": "https://id.smb.museum/object/958941"
+    },
+    {
+      "id": "src_helmholtz_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Ludwig Knaus - Der Physiker Hermann von Helmholtz (1881).jpg' -- checked through the Commons API for the file used: the Google Art Project reproduction of the Alte Nationalgalerie painting (accession A I 314), 2311 x 3303 pixels, signed 'L. Knaus. 1881', tagged PD-Art and public domain on the basis of the painter's death in 1910; the page links the SMB record above. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Ludwig_Knaus_-_Der_Physiker_Hermann_von_Helmholtz_(1881).jpg"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_helmholtz_dsb, src_helmholtz_iess, src_helmholtz_ndb, src_helmholtz_koenigsberger, src_helmholtz_joyner | 1843-1894 | scholarly dictionary entries + contemporary biography + independent review] The Dictionary of Scientific Biography lists his fields as energetics, physiological acoustics, physiological optics, epistemology, hydrodynamics and electrodynamics and records his move from physiology to physics in 1871 after he wrote in 1868 that physiology had grown too great for any one person; the social-sciences entry credits him with fundamental contributions to anatomy, medicine, physics, physiology and psychology; Gerlach writes that his life's work cannot be divided into periods of physiological, physical or mathematical research because he moved between main problems and was always what the problem demanded; Lord Kelvin's preface calls him a master and leader in mathematics, biology and physics; Joyner, an independent reviewer, says his contributions have rarely been equalled in breadth and depth. Distinct documented fields and several moves between them, reported independently by five writers over a century with no contrary evidence, but most of the writers are admiring and Koenigsberger's life has been called hagiographical. SELF-CALIBRATION (agent): first-pass 86 / 0.70 lowered to 84 / 0.66 for admiring-source concentration (a hagiographical biography and dictionary entries) and retrospective praise. LEAD REVIEW CORRECTION (Roster51, before eligibility, downward only): the evidence is a few scholarly dictionary entries and an admiring contemporary biography (Koenigsberger), with the modern biography reached only through a review; score and confidence lowered."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_helmholtz_dsb, src_helmholtz_koenigsberger, src_helmholtz_ndb, src_helmholtz_iess | 1847-1882 | scholarly entries + contemporary biography] The DSB says his generation brought an 'undeviating reliance on mathematics and mechanism' and that the 1847 memoir drew on Carnot, Clapeyron, Holtzmann and Joule but was far more comprehensive; Koenigsberger records that Helmholtz described the work as one of 'pure criticism and arrangement', testing earlier inductive conclusions on newly assembled material, and that it showed by 'rigid mathematical proof' what follows when forces depend on time and velocity; Gerlach calls the mathematical formulation of experimental problems characteristic of his thinking; the social-sciences entry credits his skill in assembling, sifting and logically interrelating large quantities of information and says the Handbuch of physiological optics was still scientifically pertinent a century later; the DSB also records that in 1855 he acknowledged an experimental error in his 1852 colour paper after Grassmann's attack. Concrete documented instances across independent writers, but the rigour judgements are admiring and some come through Koenigsberger. SELF-CALIBRATION (agent): first-pass 82 / 0.64 lowered to 80 / 0.60 for admiring-source concentration. LEAD REVIEW CORRECTION (Roster51, before eligibility, downward only): the evidence is a few scholarly dictionary entries and an admiring contemporary biography (Koenigsberger), with the modern biography reached only through a review; score and confidence lowered."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_helmholtz_iess, src_helmholtz_dsb, src_helmholtz_ndb, src_helmholtz_koenigsberger | 1845-1856 | encyclopedia entries + contemporary biography] The social-sciences entry records that at Königsberg he stimulated a frog's nerve near to and far from the muscle, timed the contraction and obtained about 27 metres per second when Müller had called the speed unmeasurable, and devised a reaction-time experiment for humans giving 50-60 metres per second; the DSB records the 1852 spectrum experiments in which blue and yellow lights gave a green-tinted white, leading to the distinction between additive and subtractive colour mixture; Koenigsberger quotes his letters on his thermal experiments on muscle ('waited impatiently for the spring and the frogs') and his own account of making the first ophthalmoscope from spectacle lenses and microscope cover-glasses; Gerlach lists the methods he developed to measure very small times (the 'Helmholtz pendulum'), the Helmholtz resonator and the siren. Several distinct, documented experimental programmes, but most details come from encyclopedia summaries and a biography built on his letters. SELF-CALIBRATION (agent): first-pass 78 / 0.62 lowered to 76 / 0.58 for single-biographer dependence (Koenigsberger for the letters and the ophthalmoscope) and admiring-source concentration. LEAD REVIEW CORRECTION (Roster51, before eligibility, downward only): the evidence is a few scholarly dictionary entries and an admiring contemporary biography (Koenigsberger), with the modern biography reached only through a review; score and confidence lowered."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_helmholtz_dsb, src_helmholtz_ndb, src_helmholtz_koenigsberger | 1847-1894 | scholarly entries + contemporary biography] The DSB records that the 1847 memoir drew on earlier work but was far more comprehensive, setting out the philosophical and physical basis of energy conservation across physiology and physics, and that in his last decade he tried unsuccessfully to found not only mechanics but all of physics on the single principle of least action; Gerlach says his work always sought the most general, mathematically formulated treatment, that the late least-action studies resemble his youthful energy memoir and that he looked for a formulation valid for all processes; Koenigsberger quotes Helmholtz that a law meant to hold throughout the universe for the whole complex of natural processes needed evidence enough to enforce conviction. Two documented attempts at unifying principles decades apart, one of which failed, but the sources interpret his aims from the outcomes and none gives a first-hand account of how he reasoned. SELF-CALIBRATION (agent): first-pass 76 / 0.56 lowered to 74 / 0.54 for interpretation stronger than behaviour (unifying aims read from results) and admiring-source concentration."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_helmholtz_koenigsberger, src_helmholtz_ndb, src_helmholtz_iess, src_helmholtz_dsb, src_helmholtz_joyner | 1847-1868 | contemporary biography + scholarly entries + review] Koenigsberger records that Magnus warned him against partiality for mathematics, that Poggendorff declined the 1847 memoir as not experimental enough, and that Helmholtz did not let the older physicists' reservations destroy his satisfaction in the work and revised its introduction to emphasise his position further; Gerlach adds that most physicists and physiologists were reserved or hostile, to Helmholtz's surprise, because they feared a relapse into nature-philosophy; the social-sciences entry records that Müller and von Humboldt at first refused to believe his nerve-impulse measurement until Du Bois-Reymond argued it through, and that he questioned Kant's account of space and argued that the geometric axioms are products of experience; the DSB records his 1852 attack on Brewster's colour theory. Several documented cases of holding a result or position against senior authorities, but the 1847 account rests on his admiring biographer and on Du Bois-Reymond's partisan letters, and Joyner reports that other leading scientists' opinions rarely altered his own. SELF-CALIBRATION (agent): first-pass 78 / 0.60 lowered to 74 / 0.56 for single-biographer dependence (the 1847 episode) and admiring-source concentration."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_helmholtz_koenigsberger, src_helmholtz_ndb, src_helmholtz_dsb, src_helmholtz_iess | 1847-1894 | contemporary biography + scholarly entries] In his 1891 recollection (quoted by Koenigsberger) he said he might not have persevered with the first ophthalmoscope, which was at first very difficult to use, but for his conviction that it must succeed, and that after about eight days he saw a living human retina; Gerlach calls the Tonempfindungen the fruit of eight years' work, carried on in the middle of his most intensive work on the physiology of the eye (the social-sciences entry says he began on acoustics while still preparing the optics volumes); the DSB records that he gave his last decade to an unsuccessful attempt to ground all of physics on the principle of least action; and Koenigsberger records that he pressed on with the 1847 memoir after Poggendorff's refusal. Several documented long or difficult efforts, but the ophthalmoscope account is his own recollection (Koenigsberger says the invention was not as simple as Helmholtz described) and the other episodes are described briefly. SELF-CALIBRATION (agent): first-pass 74 / 0.56 lowered to 72 / 0.54 for self-quotation (the 1891 recollection) and single-biographer dependence."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_helmholtz_dsb, src_helmholtz_koenigsberger, src_helmholtz_joyner, src_helmholtz_ndb | 1852-1894 | scholarly entries + contemporary biography + review] The DSB records that his 1852 colour experiments led him to reject Newton's theory of complementary colours, that Grassmann attacked the result at once, and that in 1855 Helmholtz acknowledged the experimental error and announced new experiments giving the complementary colours Newton's theory requires; that he revived Young's three-receptor theory in 1852 only to refute it and by 1858 had become its foremost advocate, amending it to meet his earlier objections; Koenigsberger records that after learning of Robert Mayer's writings Helmholtz took every opportunity to credit Mayer with first stating the principle of energy conservation, as at the 1868 Innsbruck meeting and again in a later letter to Tait. Against this, Joyner reports that other leading scientists' opinions rarely altered his own, and Gerlach notes that he held to a mechanical and continuum picture that the discoveries after his death contradicted. Several documented public corrections, mainly from one scholarly entry and one admiring biography, so strong inference at a modest confidence. SELF-CALIBRATION (agent): first-pass 68 / 0.54 lowered to 64 / 0.50 for single-source dependence (the DSB for the colour episodes) and admiring-source concentration (Koenigsberger on Mayer)."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_helmholtz_joyner, src_helmholtz_dsb, src_helmholtz_koenigsberger | 1847-1884 | review + scholarly entry + contemporary biography] Joyner writes that Helmholtz was involved in priority disputes to an extent that is now unusual; the DSB records minor priority conflicts with Franz Neumann at Königsberg, his 1852 attack on Brewster's theory, his angry dismissal of reports that his anatomy lectures at Bonn were incompetent as the grumblings of medical traditionalists, and his 1884 answer to an attack by Clausius, in which he stated that his paper was no mechanical derivation of the second law; Koenigsberger records that Du Bois-Reymond reacted angrily on his behalf to the reservations of Poggendorff and Magnus while Helmholtz himself revised his introduction. The disputes are documented in outline and none in detail, and Joyner's characterisation is one reviewer's, so the row stays at inference with a moderate score. SELF-CALIBRATION (agent): first-pass 66 / 0.48 lowered to 62 / 0.46 for single-source dependence (the DSB gives each dispute a line) and interpretation stronger than behaviour."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "헤르만 폰 헬름홀츠"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hermann-von-helmholtz-knaus-1881.jpg",
+    "width": 1097,
+    "height": 1200,
+    "source": "Staatliche Museen zu Berlin, Alte Nationalgalerie, inventory A I 314 (ObjID obj:958941; https://id.smb.museum/object/958941): Ludwig Knaus (1829-1910), 'Der Physiker Hermann von Helmholtz', 1881, oil on panel, 120 x 85 cm, acquired 1881 by purchase after a commission for the National Gallery's portrait collection; the museum's photograph credit reads 'Staatliche Museen zu Berlin, Alte Nationalgalerie / Andres Kilger' with the Public Domain Mark 1.0. The file used is the Google Art Project reproduction on Wikimedia Commons ('Ludwig Knaus - Der Physiker Hermann von Helmholtz (1881).jpg', 2311 x 3303 pixels), cropped to the upper body (1600 x 1750 pixels at original scale) and then downscaled once to 1097 x 1200; never upscaled. Rights: the painter died in 1910, the painting is a commissioned portrait of the living sitter, and the museum's own record states the Public Domain Mark; no conflicting copyright notice was found on its page. It shows him seated in evening dress with an optical instrument in his hand (the museum says he is explaining the ophthalmoscope) and optical and acoustic apparatus on the table beside him.",
+    "license": "Public Domain Mark 1.0 (Staatliche Museen zu Berlin; painter Ludwig Knaus died 1910)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Ludwig Knaus, 'Der Physiker Hermann von Helmholtz', 1881, Alte Nationalgalerie, Staatliche Museen zu Berlin (A I 314); photograph credit Staatliche Museen zu Berlin / Andres Kilger, Public Domain Mark 1.0; the file is cropped and downscaled from the Google Art Project reproduction",
+    "attributionUrl": "https://id.smb.museum/object/958941",
+    "creator": "Ludwig Knaus (1829-1910)",
+    "date": "1881",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ludwig_Knaus_-_Der_Physiker_Hermann_von_Helmholtz_(1881).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q60024 returned en label 'Hermann von Helmholtz', description 'German physicist and physiologist (1821-1894)', born 1821-08-31 in Potsdam, died 1894-09-08, citizenship Kingdom of Prussia, German Empire and Germany, ko label '헤르만 폰 헬름홀츠'; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug hermann-von-helmholtz or QID Q60024 in the roster51 worktree (data-pipeline/candidates, src/data/people, src/core); his name appears only inside other people's source text (for example Boltzmann's). REGION: central_europe, as the lead assigned; note that the roster places Boltzmann and Schrödinger in central_europe but Planck, Hertz, Heisenberg and Einstein in western_europe. VOCABULARY: occupations physicist and scientist, fields physics and natural_science (both existing; physiology and psychology were not added as fields because no existing id fits and none was invented), impact domains scientific, medical and historical, tags cross_disciplinary and systematic_thinker and archetypes scientific_explorer and cross_disciplinary_generalist are existing ids used by other candidates (Gauss, Maxwell, Kelvin and Faraday use physicist, scientist, physics, natural_science, systematic_thinker and the archetypes). PREFLIGHT RESULT: zero-politics, two or more independent perspectives, substantive non-self behavioural sources, a canonical significance source and a rights-clear portrait were all obtainable before deep research; the evidence is sparser than for modern subjects (five content sources, no direct witness testimony beyond his biographer's letters), which is accepted for a field-famous historical profile. ZERO POLITICS: no political, state, military or diplomatic material is scored; his presidency of the Physikalisch-Technische Reichsanstalt (late 1880s) is treated only as an institutional role in a card and not scored, and his Prussian army-surgeon obligation, the political significance of his call to Berlin and his negotiation of its terms, appointments played between governments (Joyner), the Pour le Mérite order and other honours, his Anglophilia and Francophobia and his refusal to condemn antisemitism in 1870s Berlin (Joyner) are unscored. DECEASED SUBJECT (1894): only documented public professional behaviour is scored. Excluded entirely: family and private life (his father's philosophical influence and their strained correspondence, two marriages and his first wife's illness and death, his children), health (migraine, depression, his fall on the 1893 voyage, his stroke and death), and any inference from these. CANONICAL SIGNIFICANCE SOURCE: the Complete Dictionary of Scientific Biography entry on Helmholtz as reproduced on Encyclopedia.com (https://www.encyclopedia.com/people/science-and-technology/physics-biographies/hermann-ludwig-ferdinand-von-helmholtz), read for its biographical, energetics and physiological-optics sections: it names energetics, physiological acoustics and optics, epistemology, hydrodynamics and electrodynamics as his fields, the 1847 conservation-of-energy memoir, the ophthalmoscope of 1851 and the Berlin physics chair; supported by the International Encyclopedia of the Social Sciences entry, Gerlach's NDB entry and Koenigsberger's biography. READ (5 cited content sources plus the portrait-rights records): the DSB entry; the social-sciences entry; the NDB entry (in German); Koenigsberger's biography (OCR text downloaded and read in the passages named in its source note); Joyner's review. All were downloaded as full text and read directly, not through a summarising tool. PERSPECTIVES: a scholarly dictionary of scientific biography; a psychology-oriented encyclopedia entry; a physicist's German biographical dictionary entry (Gerlach); a contemporary colleague's life-and-letters biography with Lord Kelvin's preface and quotations of Du Bois-Reymond and of Helmholtz's own letters (self evidence, never sole support); and a modern independent reviewer who is partly critical. COUNTER-VOICES recorded in the rows: Magnus's and Poggendorff's reservations about the 1847 memoir, the older physiologists' and Müller's and von Humboldt's disbelief of the nerve-speed result, Grassmann's attack on his 1852 colour conclusion, Clausius's 1884 attack, the claim that he borrowed the energy principle from Mayer (answered by his repeated crediting of Mayer), and Joyner's points that he was drawn into priority disputes, rarely changed his opinions in discussion and, in Planck's words, lectured badly. CALIBRATION: the evidence is rich on his scientific work and thin on conduct as seen by independent witnesses; most behavioural detail comes through Koenigsberger (called hagiographical by the modern biographer David Cahan, as Joyner quotes him) and two encyclopedia entries, so no score exceeds 84 and no confidence exceeds 0.66. Eight rows are kept; none is padded. SELF-CALIBRATION (agent): all eight rows were lowered once after a re-read of the strongest rows (cross-domain range 86/0.70 to 84/0.66, analytical rigor 82/0.64 to 80/0.60, experimentation 78/0.62 to 76/0.58, systems abstraction 76/0.56 to 74/0.54, independent thinking 78/0.60 to 74/0.56, persistence 74/0.56 to 72/0.54, belief updating 68/0.54 to 64/0.50, conflict tolerance 66/0.48 to 62/0.46) for admiring-source concentration, single-biographer dependence (Koenigsberger and the DSB), retrospective praise, self-quotation and interpretation stronger than behaviour; each row's rationale ends with its own note. TRAITS NOT SCORED: curiosity and mastery orientation (breadth is carried by cross-domain range and persistence), discipline and deep focus (the 'tireless labour' and 'workaholic' remarks are characterisations, and Joyner's version is tied to his health), collaboration (his Berlin circle, his laboratory as a magnet for young scientists and Rowland's experiments there are documented only in outline, and the other leading scientists' regard is not behaviour), persuasiveness and teaching (Planck's remark and Joyner say his lectures were poor, and his popular lectures are not described), achievement drive and autonomy need (his demands for a new institute under his full control come with state-political context and are not scored), leadership drive (his institutional roles are not scored), risk tolerance, decisiveness, execution speed, planning orientation, perfectionism, aesthetic sensitivity and intuitive synthesis (no evidence read beyond outputs). FACT CONFLICTS RECORDED: (1) the Reichsanstalt presidency is dated 1887 in the DSB entry and Easter 1888 in Gerlach's, so the card says only the late 1880s; (2) the Tonempfindungen is dated 1862 in the DSB and social-sciences entries and 1863 in Gerlach's, so the card says 1862-63; (3) the ophthalmoscope is dated 1850 (his letter, Gerlach, the museum's text) and 1851 (the DSB and social-sciences entry, for the publication), so the cards say 1850-51; (4) the DSB says the 1847 memoir set out the mathematical principles of energy conservation while Gerlach and Koenigsberger say Robert Mayer had stated the principle in 1842 and Helmholtz credited him, so the card states both without any first or only claim; (5) Koenigsberger says Poggendorff advised an independent publication (and Du Bois-Reymond suggested the Berlin publisher Reimer) while Gerlach calls the printed pamphlet 'die Broschüre', so the card says it appeared as a separate pamphlet. NOT OPENED: David Cahan's biography 'Helmholtz: A Life in Science' (read only through Joyner's review; Mitchell Ash's essay review at the Max Planck repository returned HTTP 403, the British Journal for the History of Science review is paywalled and the Mathematical Association of America review returned HTTP 521), Helmholtz's own Handbuch, Tonempfindungen and 1847 memoir (known only through the sources), Du Bois-Reymond's memorial address of 1897, Kuhn's and Elkana's papers on energy conservation, the 1894 obituaries (a scanned PMC copy has no text, and the Heidelberg University Library compilation is behind bot protection), Britannica, and the Helmholtz Association, Royal Society and Leopoldina pages (the guessed Helmholtz Association URLs returned HTTP 404). Opened but not cited: none. PORTRAIT: Ludwig Knaus's 1881 portrait in the Alte Nationalgalerie (A I 314), whose museum record states the Public Domain Mark 1.0 for its photograph, with the painter dead since 1910 and the work a commissioned portrait of the living sitter, hence kind likeness; the Commons file used is the Google Art Project reproduction of 2311 x 3303 pixels (the SMB image itself sits behind a JavaScript application and was not downloaded), saved as public/portraits/hermann-von-helmholtz-knaus-1881.jpg (verified to open as a JPEG, 1097 x 1200, cropped to the upper body without scaling and downscaled once, never upscaled). Considered and not chosen: the 1884 carte-de-visite photograph by Julius Cornelius Schaarwächter (Commons, public domain on the photographer's death date but a private scan with no institutional page and a profile pose) and the Heidelberg University Library's albumen photograph of 1858-71 (HeidICON 33471, CC BY-SA 4.0, unidentified photographer, whose record page is a JavaScript application that could not be read). RESIDUAL RIGHTS NOTE: the basis is the museum's Public Domain Mark for its own photograph of a painting whose author died in 1910, applied to a different photograph (Google's) of the same painting; the museum's page does not mention that reproduction. LEAD REVIEW (Roster51): 3 row(s) lowered before eligibility (the evidence is a few scholarly dictionary entries and an admiring contemporary biography (Koenigsberger), with the modern biography reached only through a review)."
+  }
+}

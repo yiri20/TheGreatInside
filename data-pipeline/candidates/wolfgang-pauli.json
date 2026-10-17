@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wolfgang-pauli",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Wolfgang Pauli",
+    "aliases": [
+      "Wolfgang Ernst Pauli"
+    ],
+    "wikidataId": "Q65989",
+    "birthYear": 1900,
+    "deathYear": 1958,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AT",
+      "CH",
+      "US"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "theorist",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pauli_wikidata",
+      "kind": "wikidata",
+      "title": "Wolfgang Pauli (Q65989) -- verified live via the Wikidata API (2026-10-16): English label 'Wolfgang Pauli', description 'physicist, Nobel prize winner (1900-1958)', Korean label present, instance of human, born 25 April 1900 (Vienna), died 15 December 1958, citizenship United States, Switzerland and Austria. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q65989"
+    },
+    {
+      "id": "src_pauli_nobel",
+      "kind": "award_body",
+      "title": "Nobel Foundation (NobelPrize.org), 'Wolfgang Pauli - Facts' and 'Wolfgang Pauli - Biographical', Nobel Prize in Physics 1945 (the biographical text is from Nobel Lectures, Physics 1942-1962, Elsevier, 1964) -- CANONICAL SIGNIFICANCE SOURCE: the prize motivation 'for the discovery of the Exclusion Principle, also called the Pauli Principle'; the Foundation's summary that in 1925 he introduced two new quantum numbers and formulated the principle that no two electrons in an atom can have identical sets of quantum numbers (later found to apply to the particles of the nucleus too); and its biography, which names his student-age exposition of relativity, the exclusion principle, his being 'the first to recognize the existence of the neutrino', his part in the foundations of quantum field theory, his proof of the relation between spin and statistics, his Handbuch der Physik articles and his Zürich chair. Award-body prose, admiring by genre and silent on conduct. Read in full.",
+      "url": "https://www.nobelprize.org/prizes/physics/1945/pauli/biographical/"
+    },
+    {
+      "id": "src_pauli_ndb",
+      "kind": "biography",
+      "title": "Karl von Meyenn, 'Pauli, Wolfgang Ernst Friedrich', Neue Deutsche Biographie 20 (2001), pp. 118-121 (online at Deutsche Biographie) -- a scholarly biographical-dictionary entry, in German, by the editor of Pauli's collected correspondence: his early prominence (a relativity paper in 1918 and a widely praised survey in 1921), his posts under Born, Lenz and Bohr, the exclusion principle, his deliberate renunciation of model pictures that experience could not test, his matrix-mechanical calculation of the hydrogen atom and the Pauli matrices, the neutrino postulate and its detection by Cowan and Reines in 1956, his ETH Zürich chair from 1928 where he built one of the world's most important centres of theoretical physics, his students, and the remark that he communicated many results only orally or by letter. Independent scholarly biography; its sentences on his marriage and on Jung were not used. Read the whole biographical text.",
+      "url": "https://www.deutsche-biographie.de/sfz94214.html"
+    },
+    {
+      "id": "src_pauli_giulini",
+      "kind": "institution",
+      "title": "Domenico Giulini (Max Planck Institute for Gravitational Physics, Albert Einstein Institute), 'Concepts of Symmetry in the Work of Wolfgang Pauli', arXiv:0802.4341, 29 February 2008 (a talk at the conference 'Wolfgang Pauli's Philosophical Ideas and Contemporary Science', Monte Verita, May 2007) -- a physicist-historian's survey of Pauli's work through the idea of symmetry, quoting his letters from the published correspondence and the editors of his collected papers (Kronig and Weisskopf: his works are distinguished by mathematical rigour and 'a thorough and honest appraisal of the validity of assumptions and conclusions', he tried 'by example and sharp criticism' to keep a high standard in others' work and was often called the living conscience of theoretical physicists); the January-February 1957 episodes in which he offered to bet that parity would be conserved, learned of the Wu experiment and reacted in letters to Wu and Weisskopf; and his sharply mocking reply to Markus Fierz, which he essentially conceded within about a week. Independent scholarly secondary source with Pauli's own letters as quoted self evidence; the paper's passages giving Pauli's own psychological explanation of that quarrel were not used, and its mathematical sections were searched by keyword only. Read the introduction, the parity passages and the Fierz exchange in full.",
+      "url": "https://arxiv.org/abs/0802.4341"
+    },
+    {
+      "id": "src_pauli_telegdi",
+      "kind": "press",
+      "title": "Valentine Telegdi, review of Charles P. Enz, 'No Time to Be Brief: A Scientific Biography of Wolfgang Pauli' (Oxford University Press, 2002), Physics Today, November 2003, p. 67 -- a review by a physicist who knew Pauli (Pauli was the external examiner of Telegdi's Zürich thesis and they stayed in close touch): Pauli as child prodigy, 'acerbic but much sought critic by age 20' and signer of letters as 'the scourge of God'; his roughly 2,600 published letters; the exclusion principle, the path from 'neutron' to neutrino and his ultimate rejection of a non-abelian gauge theory; the breadth shown by his last paper. Independent peer witness reviewing a biography by Pauli's last assistant. The review's passages on his mother, his marriages, depression and analysis by Jung, and on ETH's wartime handling of his appointment and naturalisation, were not used (private life, psychology and administrative politics, all unscored). Read in full.",
+      "url": "https://physicstoday.aip.org/reviews/no-time-to-be-brief-a-scientific-biography-of-wolfgang-pauli"
+    },
+    {
+      "id": "src_pauli_aitchison",
+      "kind": "press",
+      "title": "Ian Aitchison (Professor of Physics, University of Oxford), 'Foolish child won greatest praise' (review of Enz's 'No Time to Be Brief'), Times Higher Education, 30 May 2003 -- a physicist's review: the genesis of the exclusion principle (the 'two-valuedness', Stoner's shell numbers, Pauli's admission that he could not give a reason for the rule and his Nobel-lecture regret over 'the shadow of some incompleteness'), Einstein's nomination, the 'sharpness' of his critical judgements of nearly all his distinguished contemporaries ('the conscience and criterion of truth' and 'God's scourge'), his brushing aside of Kronig's spin idea in 1925 and his provision of the Pauli matrices two years later, the December 1930 letter and the three years before the neutrino appeared in print, and its detection in 1956. Independent scholarly review; its passages on his marriage, his mother, analysis by Jung and a remark about 'the crisis of my life' were not used. Read in full.",
+      "url": "https://www.timeshighereducation.com/books/foolish-child-won-greatest-praise/177121.article"
+    },
+    {
+      "id": "src_pauli_meyer",
+      "kind": "press",
+      "title": "Horst Meyer (Duke University), 'Reminiscence of Wolfgang Pauli', letter to Physics Today, 1 June 2004 -- a physicist's eyewitness memory of Zürich in 1949-53, when he was a graduate student: Pauli usually sat in the first row at the ETH physics colloquia, Meyer 'witnessed his strong objections' during a colloquium by Ralph Kronig and Pauli's approving nods during one by Victor Weisskopf, and was relieved that Pauli did not shake his head, criticise him or walk out during his own two colloquia. A short first-hand recollection (about 250 words), with an admiring-and-wary tone; its remarks about Pauli's father were not used. Read in full.",
+      "url": "https://physicstoday.aip.org/letters/reminiscence-of-wolfgang-pauli"
+    },
+    {
+      "id": "src_pauli_cern_kronig",
+      "kind": "archive",
+      "title": "CERN Archives (archives.web.cern.ch), page on Pauli's appointment in Zürich, with a photograph of Ralph Kronig (from the holdings of the Wolfgang Pauli Archive at CERN) -- states that Pauli took up his ETH chair at the end of April 1928, that before accepting it he insisted on the appointment of an assistant, and quotes his letter of 22 November to Kronig: the task would be 'Every time I say something, to contradict me with detailed arguments' and 'To animate somewhat the scientific activity with modern ideas'; it adds Kronig's later remark that the Zürich years were among the most instructive and exhilarating of his life. A short archive entry quoting Pauli's own letter (self evidence) and a colleague's recollection; the year of the letter is not stated on the page (it precedes April 1928). Read in full (two short paragraphs); the aside about ice cream was not used.",
+      "url": "https://archives.web.cern.ch/?p=552"
+    },
+    {
+      "id": "src_pauli_letter",
+      "kind": "archive",
+      "title": "Wolfgang Pauli, open letter 'Dear Radioactive Ladies and Gentlemen' to the radioactive group at the Tübingen meeting, Zürich, 4 December 1930 -- English translation by Kurt Riesselmann (Fermilab) of a machine-typed copy (the original is in the CERN Pauli Archive), as a PDF hosted by the mathematics department of the University of Utah: a 'desperate remedy' for the 'wrong' statistics of the N-14 and Li-6 nuclei and the continuous beta spectrum, namely an electrically neutral spin-1/2 particle that obeys the exclusion principle and is emitted with the electron so that the sum of their energies is constant; Pauli writes that so far he does not dare to publish anything about the idea, asks the experimentalists how likely it would be to find such a particle, admits his remedy 'may seem almost improbable' but says 'nothing ventured, nothing gained', and asks them to 'scrutinize and judge'. Primary document in his own words (self evidence, used only alongside the independent accounts above); the hosting page is a convenience copy, not the archive of record. Read in full.",
+      "url": "https://www2.math.utah.edu/~beebe/talks/2018/qtm/pdf/pauli-1930-ltc.pdf"
+    },
+    {
+      "id": "src_pauli_eth_terms",
+      "kind": "institution",
+      "title": "ETH-Bibliothek Zürich, 'Nutzungsbedingungen des Bildarchivs der ETH-Bibliothek' (terms of use of its E-Pics image archive) -- checked for the portrait's rights: images are either public domain (copyright expired, marked with the Public Domain Mark), licensed under Creative Commons BY-SA 4.0 where the usage rights lie entirely with the ETH-Bibliothek (all uses allowed with credit, share-alike for changes), or of restricted use (not downloadable); the credit must give at least 'ETH-Bibliothek Zürich, Bildarchiv'. The image's own E-Pics record (DOI 10.3932/ethz-a-000045505) is a JavaScript application whose text could not be retrieved. Not used for any scoring.",
+      "url": "https://www.e-pics.ethz.ch/de/ba_nutzungsbedingungen/"
+    },
+    {
+      "id": "src_pauli_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'ETH-BIB-Pauli, Wolfgang (1900-1958)-Portr 01042.tif' -- checked through the Commons API for the portrait's file and licence: uploaded on 22 February 2021 by the account ETH-Bibliothek as part of its cooperation with Wikimedia CH; photographer Bettina Katzenstein; date circa 1946; silver gelatin print, 12.5 x 18 cm; accession number ETH-Bibliothek_Portr_01042; source the E-Pics DOI above; 2556 x 3643 pixels; licence CC BY-SA 4.0. It is the photograph from which the image Wikidata uses for Pauli is extracted. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Pauli,_Wolfgang_(1900-1958)-Portr_01042.tif"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pauli_cern_kronig, src_pauli_giulini, src_pauli_meyer, src_pauli_aitchison, src_pauli_telegdi | 1925-1957 | archive page + scholarly paper + eyewitness letter + two physicists' reviews] Before taking the ETH chair he asked Kronig to be his assistant with the task 'Every time I say something, to contradict me with detailed arguments' (CERN Archives, his own letter); Giulini, quoting Pauli's letters, records that in February 1957 he answered a letter from his former assistant Markus Fierz by calling it the biggest blunder of Fierz's life and by shaking with laughter after reading only its first paragraph, that the quarrel ran about a week through several letters and a phone call, and that Pauli finally essentially conceded Fierz's point; Meyer witnessed his strong objections during a colloquium by Kronig; Aitchison writes that he was known for the sharpness of his critical judgements of nearly all his distinguished contemporaries and was called 'God's scourge', and records that he brushed aside Kronig's 1925 spin idea as a 'witty idea but having no connection with reality', after which Kronig did not publish it; Telegdi calls him an 'acerbic but much sought' critic who signed letters 'the scourge of God'; the editors of his collected papers (as quoted by Giulini) say that by example and sharp criticism he tried to keep a high standard in other physicists' work. A pattern of seeking and delivering disagreement documented by archive, scholarly, eyewitness and review sources, but the vivid labels are retrospective and the most striking quotations are Pauli's own letters. SELF-CALIBRATION (agent): first-pass 80 / 0.62 lowered to 78 / 0.60 for retrospective praise and characterisation (the 'scourge' labels, the editors' tribute) and self-quotation through shared profiles (the Kronig and Fierz letters). LEAD REVIEW CORRECTION (Roster51, before eligibility, downward only): the strongest rows rest on his own letters relayed by scholars and on editors' and reviewers' retrospective praise, with Giulini and Aitchison carrying much of the weight; score and confidence lowered."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pauli_giulini, src_pauli_aitchison, src_pauli_ndb, src_pauli_nobel | 1920-1957 | scholarly paper + review + biographical entry + award-body biography] The editors of his collected papers (as quoted by Giulini) say his works are distinguished by mathematical rigour and 'a thorough and honest appraisal of the validity of assumptions and conclusions'; Aitchison records that in the exclusion-principle paper Pauli admitted he could not give a reason for the rule and that in his Nobel lecture he still regretted 'the shadow of some incompleteness'; the NDB entry says he deliberately gave up model pictures that experience could not test and carried out a model calculation of the hydrogen atom in matrix mechanics that helped the new mechanics break through; the Nobel biography names a student-age exposition of relativity and a proof of the relation between spin and statistics; Giulini adds that in 1955 he wrote out the most general four-fermion interaction, parity-violating terms included, as 'a mathematical play' although he did not believe it described nature. Concrete documented instances from independent sources, but the 'rigour' verdicts are close colleagues' and award-body judgements written after the fact. SELF-CALIBRATION (agent): first-pass 80 / 0.60 lowered to 78 / 0.58 for admiring-source concentration (colleagues' editorial tribute, Nobel biography) and retrospective praise. LEAD REVIEW CORRECTION (Roster51, before eligibility, downward only): the strongest rows rest on his own letters relayed by scholars and on editors' and reviewers' retrospective praise, with Giulini and Aitchison carrying much of the weight; score and confidence lowered."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pauli_nobel, src_pauli_aitchison, src_pauli_ndb, src_pauli_letter, src_pauli_giulini | 1924-1955 | award-body biography + review + biographical entry + primary letter + scholarly paper] Aitchison describes how in late 1924 Pauli proposed that the spectroscopic data could be understood only by a 'peculiar, not classically describable two-valuedness' of the valence electron, extended it to all electrons as a fourth quantum number and arrived at the exclusion rule without offering a physical picture; the 1930 letter proposes a neutral spin-1/2 particle as a 'desperate remedy' (self evidence); the NDB entry credits him with the Pauli matrices for the spinning electron; Giulini lists the spin-statistics theorem of 1940 and the CPT theorem of 1955 among his contributions; the Nobel Foundation names the exclusion principle as the discovery for which he was honoured. Several distinct, well-documented original proposals, but the sources describe results and later honours more than the act of conceiving them, and he first brushed aside the spin idea that others proposed. SELF-CALIBRATION (agent): first-pass 80 / 0.60 lowered to 76 / 0.55 for retrospective praise (award-body and review prose on outputs) and interpretation stronger than behaviour (verdicts on results, not described creative acts)."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_pauli_giulini, src_pauli_ndb | 1918-1957 | scholarly paper + biographical entry] The editors of his collected papers (as quoted by Giulini) say his work has one common denominator, a striving for symmetry and invariance, the invariants being for him 'the symbols of ultimate truth'; Giulini's survey lists relativity and Weyl's extension, the hydrogen atom in matrix mechanics, the exclusion principle, spin, the neutrino hypothesis, Kaluza-Klein theory, spin-statistics, the CPT theorem and parity among works resting on symmetry and group-theoretic ideas, and the NDB entry notes his positivist renunciation of untestable atomic models. A consistent, scholarly-documented pattern of working through general structural principles, but it rests chiefly on one survey and the editors' tribute, and it characterises a body of work rather than described conduct. SELF-CALIBRATION (agent): first-pass 72 / 0.52 lowered to 64 / 0.46 and relabelled inference for single-source dependence (Giulini and the editors he quotes) and interpretation stronger than behaviour."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pauli_aitchison, src_pauli_giulini | 1925-1957 | review + scholarly paper] Aitchison writes that Pauli's reaction to any new idea, even his own, was often sharply hostile but that he was always prepared to change his mind, and gives the case of Kronig's 1925 spin proposal, brushed aside and followed two years later by Pauli's own mathematical description of spin; Giulini records that on 17 January 1957 he wrote that he did not believe 'God is a weak left-hander' and was prepared to bet a high amount that the experiment would show mirror symmetry, that by 19 January he wrote to Wu that the asymmetry was 'empirically so well established', that on 27-28 January he told Weisskopf he was shocked and was already speculating how symmetry might be restored, and that in February 1957 he conceded Fierz's point after a week of sharp exchanges. Several documented reversals, but each came only after a firm initial rejection (and Giulini notes he had written down the parity-violating interaction in 1955 without believing it), and three of the four episodes come from one paper. SELF-CALIBRATION (agent): first-pass 66 / 0.54 lowered to 62 / 0.50 for single-source dependence (Giulini carries three episodes) and interpretation stronger than behaviour (the reversals are partial and 'always prepared to change his mind' is a reviewer's characterisation)."
+    },
+    "perfectionism": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pauli_aitchison, src_pauli_letter, src_pauli_ndb, src_pauli_giulini | 1925-1958 | review + primary letter + biographical entry + scholarly paper] Aitchison says Pauli had almost not published his note on the two-valuedness, that the 'cautious' Pauli let three years pass before his neutrino speculation appeared in print, and that his reaction to any new idea, even his own, was often sharply hostile; the December 1930 letter has him saying he does not yet dare to publish the idea and admitting it 'may seem almost improbable'; the NDB entry notes that he communicated many results only orally or by letter, and Giulini adds that two of his lines of work were never published in journals and can be followed only through his letters and manuscripts; the editors of his collected papers (as quoted by Giulini) say he tried by sharp criticism to hold other physicists to a high standard. A documented pattern of holding back unfinished ideas and demanding standards of himself and others, at the cost of results known only through letters, but it rests on a reviewer's characterisations, his own letter and a single editorial tribute. SELF-CALIBRATION (agent): first-pass 72 / 0.52 lowered to 68 / 0.50 for single-source dependence (Aitchison carries the 'almost not published' and 'cautious' claims) and self-quotation (the 1930 letter)."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_pauli_aitchison, src_pauli_nobel, src_pauli_giulini | 1922-1940 | review + award-body biography + scholarly paper] Aitchison records that in Copenhagen from October 1922 he struggled for more than a year with a nagging experimental anomaly in atomic spectroscopy before his first real breakthrough, and that for years afterwards he and others kept trying to deduce the exclusion rule from quantum mechanics and quantum field theory, reaching only a 'negative' result; the Nobel biography records that he later gave a proof of the relation between spin and statistics, which Giulini dates to 1940, fifteen years after the principle. Two documented long efforts, but the sources give them a sentence each and no account of setbacks he overcame, so the row stays at inference. SELF-CALIBRATION (agent): first-pass 64 / 0.50 lowered to 60 / 0.48 and relabelled inference for interpretation stronger than behaviour (long programmes read as persistence) and single-reviewer dependence (Aitchison)."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "볼프강 파울리"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/wolfgang-pauli-katzenstein-1946.jpg",
+    "width": 834,
+    "height": 1200,
+    "source": "ETH-Bibliothek Zürich, Bildarchiv, Portr_01042 (E-Pics Bildarchiv, DOI 10.3932/ethz-a-000045505): portrait photograph of Wolfgang Pauli by Bettina Katzenstein, circa 1946, silver gelatin print 12.5 x 18 cm, as published by the ETH-Bibliothek itself on Wikimedia Commons ('ETH-BIB-Pauli, Wolfgang (1900-1958)-Portr 01042.tif', uploaded 22 February 2021 by the account ETH-Bibliothek, 2556 x 3643 pixels, the largest file available; it is also the source of Wikidata's image for him). Rights: the file carries CC BY-SA 4.0 as released by the ETH-Bibliothek, and the ETH-Bibliothek's image-archive terms of use say that images under CC BY-SA 4.0 are those whose usage rights lie entirely with the ETH-Bibliothek, may be used for all purposes with credit, and must be passed on under the same terms if changed. The image's own E-Pics record could not be read (a JavaScript application), so no conflicting notice there could be checked; none appears on the terms page or the Commons page. The print's white border was removed by cropping (2470 x 3555 pixels from the original) and the result downscaled once to 834 x 1200 (never upscaled); the photographer's signature on the print remains visible at lower right. It shows him in a dark suit and tie with a direct, serious gaze.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Bettina Katzenstein, circa 1946, ETH-Bibliothek Zürich, Bildarchiv, Portr_01042, CC BY-SA 4.0 (cropped and downscaled; changes passed on under the same licence)",
+    "attributionUrl": "http://doi.org/10.3932/ethz-a-000045505",
+    "creator": "Bettina Katzenstein",
+    "date": "circa 1946",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Pauli,_Wolfgang_(1900-1958)-Portr_01042.tif"
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q65989 returned en label 'Wolfgang Pauli', description 'physicist, Nobel prize winner (1900-1958)', born 1900-04-25 in Vienna, died 1958-12-15, citizenship United States, Switzerland and Austria, ko label '볼프강 파울리'; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug wolfgang-pauli or QID Q65989 in the roster51 worktree (data-pipeline/candidates, src/data/people, src/core); his name appears only inside other people's source text (for example Dirac's). REGION: central_europe, as the lead assigned (Austrian origin, career in Zürich); note that the roster places Boltzmann and Schrödinger in central_europe but Planck, Heisenberg and Einstein in western_europe. VOCABULARY: occupation physicist, field physics, impact domains scientific and historical, tags nobel_laureate, theorist and prodigy and archetypes scientific_explorer and scholarly_specialist are existing ids used by other candidates (Dirac, Schrödinger and Planck use physicist, physics, nobel_laureate, theorist and scientific_explorer; Dirac uses scholarly_specialist). PREFLIGHT RESULT: zero-politics, two or more independent perspectives, substantive non-self behavioural sources, a canonical significance source and a rights-clear portrait were all obtainable before deep research. ZERO POLITICS: no political, military or diplomatic material is scored; ETH's wartime handling of his appointment and naturalisation and the anti-Semitic remarks in that official correspondence (Telegdi), his wartime posts, and Einstein's nomination as an event are unscored administrative or political matter. DECEASED SUBJECT (1958): only documented public professional behaviour is scored. Excluded entirely: private life (his mother's death, his marriages and divorce), the Jungian analysis and everything about psychology, depression, anxiety or dreams (including Pauli's own psychological explanation of his 1957 quarrel with Fierz, quoted in Giulini), health and the circumstances of his death (named in the 1959 memorial page), his father, the habit of eating ice cream recalled by Kronig, honours as trait evidence, and any inference from these. The 'Pauli effect' (the jocular belief that his presence made apparatus fail) was deliberately not researched or used: it is anecdotal folklore, and no 'not even wrong'-type remark is quoted because none of the sources read documents one. CANONICAL SIGNIFICANCE SOURCE: Nobel Foundation, 'Wolfgang Pauli - Facts' and 'Wolfgang Pauli - Biographical' (https://www.nobelprize.org/prizes/physics/1945/pauli/biographical/), read in full: the prize was awarded 'for the discovery of the Exclusion Principle, also called the Pauli Principle'; the biography also names the neutrino, quantum field theory and the proof of the relation between spin and statistics; supported by the Neue Deutsche Biographie entry, Aitchison's and Telegdi's reviews and Giulini's survey. READ (8 cited content sources plus the portrait-rights records): the Nobel pages; the NDB entry (in German); Giulini's arXiv survey (introduction, parity passages and the Fierz exchange); Telegdi's Physics Today review; Aitchison's Times Higher Education review; Meyer's Physics Today letter; the CERN Archives page on Pauli and Kronig; the English translation of the 1930 letter. All were downloaded as full text (PDFs converted with pdftotext) and read directly, not through a summarising tool. PERSPECTIVES: an award body's biography; a scholarly biographical dictionary by the editor of his correspondence; a physicist-historian's survey quoting his letters and the editors of his papers; two physicists' reviews of Enz's biography, one by a physicist Pauli examined and kept in touch with (Telegdi) and one by an Oxford professor (Aitchison); an eyewitness graduate student's memory of his colloquium behaviour (Meyer); an archive entry quoting his own letter and a colleague (Kronig); and Pauli's own letter of 1930 as self evidence, never sole support for a row. COUNTER-VOICES recorded in the rows: the cost of his sharpness (Kronig did not publish his spin idea after Pauli's dismissal; Meyer's relief that Pauli did not criticise or walk out of his talks), his errors of judgement (the 1957 bet that parity would hold; the reply to Fierz that he conceded after a week), and the fact that he left results unpublished (NDB, Giulini). CALIBRATION: the evidence is rich on his scientific work and on his critical style but thin on routine behaviour, comes largely from colleagues, reviewers of one biography (Enz's, read only through two reviews) and one survey, and much of the vivid material is Pauli's own letters, so no score exceeds 78 and no confidence exceeds 0.60. Seven rows are kept; none is padded. SELF-CALIBRATION (agent): all seven rows were lowered once after a re-read of the strongest rows (conflict tolerance 80/0.62 to 78/0.60, analytical rigor 80/0.60 to 78/0.58, creative originality 80/0.60 to 76/0.55, systems abstraction 72/0.52 to 64/0.46 and relabelled inference, belief updating 66/0.54 to 62/0.50, perfectionism 72/0.52 to 68/0.50, persistence 64/0.50 to 60/0.48 and relabelled inference) for retrospective praise, admiring-source concentration, single-source dependence (Giulini and Aitchison), self-quotation through shared profiles (his letters) and interpretation stronger than behaviour; each row's rationale ends with its own note. TRAITS NOT SCORED: collaboration (his joint work with Heisenberg in 1928-30 and 1957-58 and his assistants are documented only in outline, and the second collaboration ended with Heisenberg publishing without his consent), independent thinking (the positivist stance was shared by his school, and the sources read do not set the neutrino proposal against alternatives), social assertiveness (overlaps conflict tolerance), curiosity and mastery orientation (no breadth beyond a last paper's topic is documented in the sources read), risk tolerance (the 1957 bet and the cautious publication cut in opposite directions, and no stakes are described), deep focus and discipline (a remark on his concentration appears only inside a passage on his depression and is not used; no routine is documented), leadership drive (the ETH centre and his students are documented, but no source describes him seeking leadership), execution speed, planning orientation, persuasiveness and aesthetic sensitivity (no evidence read). FACT CONFLICTS RECORDED: (1) the exclusion principle is dated 1924 in the NDB entry and Aitchison's review and 1925 in the Nobel Foundation's summary and the NDB bibliography, so cards say 1925, the Foundation's date for the formulation; (2) the relativity article is dated 1920 in the Nobel biography's list of works and 1921 in the NDB entry and Aitchison, so cards give no year; (3) the Nobel biography calls him the first to recognise the neutrino, while the letter itself names the particle 'neutron' and Aitchison says it became known as the neutrino, so cards say he proposed a neutral particle later called the neutrino; (4) the English letter is a translation of a typed copy dated in 1956, with the original in the CERN Pauli Archive, and the CERN page gives the date of the letter to Kronig as 22 November without the year, which precedes April 1928; (5) Aitchison writes that Pauli 'made it to Stockholm in 1946', the year of the Nobel lecture for the 1945 prize, so cards use 1945 for the prize. NOT OPENED: Enz's biography 'No Time to Be Brief' (read only through two reviews), Pais's, Casimir's, Heisenberg's and Rosenfeld's accounts and the AIP oral histories (a search found but did not open them), Pauli's Nobel lecture and the Pauli-Heisenberg letters (read only as quoted), Britannica, the Royal Society and Leopoldina pages, Europhysics News 2000 on Pauli's assistants (HTTP 403), and the full text of the 1959 Physics Today memorial addresses by Fierz and Weisskopf (only the page's introduction appeared). Opened but not cited: the Physics Today 1959 commemoration page and a CERN Archives note on the 'Dear Radioactive Ladies and Gentlemen' letter (Pauli's later remark to Reines and Cowan that 'Everything comes to him who knows how to wait'). PORTRAIT: ETH-Bibliothek Zürich photograph by Bettina Katzenstein, circa 1946, CC BY-SA 4.0 as released by the ETH-Bibliothek on Wikimedia Commons (uploaded 22 February 2021 by the institution's own account), with the ETH image archive's terms of use read for the meaning of that licence tier; the Commons file is 2556 x 3643 pixels; saved as public/portraits/wolfgang-pauli-katzenstein-1946.jpg (verified to open as a JPEG, 834 x 1200, cropped without scaling to remove the print border and downscaled once, never upscaled). Considered and not chosen: the Commons files 'Pauli 7.tif' (circa 1928, tagged public domain, author unknown; no institutional page checked) and 'Pauli 2.tif' (1955, Björn Erik Lindroos, CC BY-SA 4.0), and Wikidata's own crop of the chosen photograph. RESIDUAL RIGHTS NOTE: the ETH image record could not be read, so the basis is the institution's own Commons release under CC BY-SA 4.0 and its terms-of-use page; share-alike applies to the cropped and downscaled file. LEAD REVIEW (Roster51): 2 row(s) lowered before eligibility (the strongest rows rest on his own letters relayed by scholars and on editors' and reviewers' retrospective praise, with Giulini and Aitchison carrying much of the weight)."
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bong-joon-ho",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Bong Joon-ho",
+    "aliases": [
+      "Bong Joon Ho"
+    ],
+    "wikidataId": "Q495980",
+    "birthYear": 1969,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "KR"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "film_director"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bong_wikidata",
+      "kind": "wikidata",
+      "title": "Bong Joon-ho (Q495980) -- verified live via the Wikidata API (2026-10-16): English label 'Bong Joon-ho', description 'South Korean filmmaker (born 1969)', born 14 September 1969, no date of death, citizenship South Korea, Korean label present, English alias 'Bong Joon Ho'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q495980"
+    },
+    {
+      "id": "src_bong_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Bong Joon-Ho' (article by Patricia Bauer, fact-checked by Britannica's editors; page last updated 31 August 2026) -- encyclopaedia biography read in full except for the page's AI-generated answer boxes, which were not used: a South Korean filmmaker known for meticulous directing, social critique, genre blending and quick tonal shifts, many of whose films he also co-wrote; Barking Dogs Never Bite (2000) with positive reviews but little notice; Memories of Murder (2003), a major hit based on a play about real unsolved murders; a 2004 short mockumentary shot entirely on closed-circuit security cameras; The Host (2006), which set box-office records in South Korea and was praised at Cannes; Mother (2009); Snowpiercer (2013), an English-language film that won large international audiences as well as critical praise; Okja (2017), which opened at Cannes where it competed for the top award; Parasite (2019), which won the Palme d'Or and became the first foreign-language film to receive the Best Picture Oscar, with Oscars for Bong's directing and co-writing and for best international feature; and Mickey 17 (2025) as his third English-language feature. CANONICAL SIGNIFICANCE SOURCE (encyclopaedic assessment of his primary contribution; factual but honouring in tone, used for the achievement cards and orientation and never alone for a behavioural row). The passages on his family, student cartoons and military service were not used.",
+      "url": "https://www.britannica.com/biography/Bong-Joon-Ho"
+    },
+    {
+      "id": "src_bong_academy",
+      "kind": "award_body",
+      "title": "Academy of Motion Picture Arts and Sciences, '92nd Academy Awards | 2020' ceremony page (oscars.org) -- the Academy's own winners record: Parasite won four awards on 9 February 2020 at the Dolby Theatre: Best Picture (producers Kwak Sin Ae and Bong Joon Ho), Directing (Bong Joon Ho), Writing (Original Screenplay) (Bong Joon Ho and Han Jin Won for the screenplay, Bong Joon Ho for the story) and International Feature Film (South Korea). Institutional record of the result only; no trait row rests on it. NOTE: read through the harness's web-extraction tool, which returns summaries and short excerpts; the facts used are plain credits that also match Britannica.",
+      "url": "https://www.oscars.org/oscars/ceremonies/2020"
+    },
+    {
+      "id": "src_bong_dezeen",
+      "kind": "press",
+      "title": "Bridget Goldberg, 'Parasite house designed from simple floor plan sketched by Bong Joon-Ho', Dezeen, 16 April 2020 -- question-and-answer interview with Parasite's production designer Lee Ha Jun (questions by Bridget Cogley): Bong showed him a simple floor plan he had sketched while writing the script and left the architectural style to him, stressing that the front garden was essential; Bong's script is always meticulous and precise and describes the movements of every actor, so blocking was the key factor; the window wall was built in the 2.35:1 ratio; the furniture was made with Korean furniture designers from the concept stage to suit the director's intention and recognisable brands were avoided; and the descent from the kitchen to the underground bunker was built as one set because Bong wanted to film it without stopping so the actors' breathing could be captured. First-hand collaborator's account, admiring but specific; the passages on architectural inspirations and on the semi-basement set were skimmed and not used. Read in full.",
+      "url": "https://www.dezeen.com/2020/04/16/parasite-film-set-design-interview-lee-ha-jun-bong-joon-ho/"
+    },
+    {
+      "id": "src_bong_senses",
+      "kind": "press",
+      "title": "Nandana Bose, 'Cinematic Comrades: Bong Joon-ho's Auteurism and Song Kang-ho's Performance', Senses of Cinema, issue 98 (May 2021) -- film-journal feature on the Bong and Song Kang-ho partnership across Memories of Murder, The Host, Snowpiercer and Parasite: Bong writes with Song in mind and becomes bolder as a writer, Song tends to agree to his projects without reading the script, and Bong's detailed storyboards, which he closely follows, serve the technical crew he controls 'quite fastidiously' while he gives actors freedom (no coverage, little talking on set, few rehearsals); Bong's remark that Song's joining Memories of Murder helped finance it is also reported. Independent critical analysis, admiring in tone and drawing largely on Bong's own published interviews (self) and on other critics; the sections on Song's acting technique and early career were not used. Read the passages on Bong's method and the collaboration in full.",
+      "url": "https://www.sensesofcinema.com/2021/feature-articles/cinematic-comrades-bong-joon-hos-auteurism-and-song-kang-hos-performance/"
+    },
+    {
+      "id": "src_bong_slash_storyboards",
+      "kind": "press",
+      "title": "Hoai-Tran Bui, '7 Things We Learned From The Parasite Storyboards Graphic Novel', /Film (Slashfilm), 19 May 2020 -- press preview of the book 'Parasite: A Graphic Novel in Storyboards' (with a foreword by Bong): says Bong storyboards all of his films before shooting, that Okja actor Steven Yeun described receiving the storyboards as fully bound books like manga, that the storyboards draw out how stunts will play and what the camera set-up will be, that three alternate endings are drawn, and that the writer ties the film's tight 77-day schedule to the storyboards. A press preview that promotes the book, so admiring and dependent on the book's own contents; the passages on deleted jokes and K-pop references were not used. Read in full.",
+      "url": "https://www.slashfilm.com/574219/7-things-we-learned-parasite-graphic-novel/"
+    },
+    {
+      "id": "src_bong_another_han",
+      "kind": "press",
+      "title": "'Parasite Screenwriter Han Jin Won: This Could Be Our Story', AnOther magazine, 5 February 2020 (author not shown in the page text) -- profile of co-writer Han Jin Won: a production assistant on Snowpiercer, he was handed a half-finished treatment by Bong while Bong was shooting Okja, was asked to research for what began as three months, interviewed housekeepers, tutors and chauffeurs and visited semi-basements, wrote three versions of the story shaped by Bong's feedback, and after Okja finished the second half of the script with him in a short burst; he calls Bong like a teacher to him. Collaborator's account, admiring; the passages on his reaction to the credit and on the film's themes were not used. Read in full.",
+      "url": "https://anothermag.com/design-living/12226/parasite-screenwriter-han-jin-won-this-could-be-our-story-bong-joon-ho"
+    },
+    {
+      "id": "src_bong_ebert_interview",
+      "kind": "press",
+      "title": "Tomris Laffly, 'Bong Joon-ho on the Themes and Crafts of His Must-See Film, Parasite', RogerEbert.com, 14 October 2019 -- trade-press interview with Bong (self): the rich house, the poor house and the neighbourhoods were all designed and built as sets with movement and blocking as the priority; the living-room window wall was built in the CinemaScope ratio on purpose; the family's cheap beer later becomes an expensive one, a detail Korean audiences caught; and he says he does not rehearse emotion but does rehearse technical movements and just shoots the rehearsals. Bong's own account (self), relayed by a critic; the passages on class, recipes and the awards campaign were not used. Read in full.",
+      "url": "https://www.rogerebert.com/interviews/bong-joon-ho-on-the-themes-and-crafts-of-his-must-see-film-parasite"
+    },
+    {
+      "id": "src_bong_awardsdaily_song",
+      "kind": "press",
+      "title": "Awards Daily, 'Interview: Song Kang Ho and Park So Dam On Parasite and Becoming A Family', October 2019 (URL dated 25 October 2019) -- short Q&A with two of the film's actors (the interviewer counts four films together): Song says he and Bong began working together over twenty years ago and are now friends, that Bong's storyboards make life easier for both cast and crew, and that the ensemble spent a lot of time together; Park So Dam describes reading the script and the cast's closeness. Actors' accounts, admiring and brief; the passages on Park's casting and on the flooded-apartment scene were not used. Read in full.",
+      "url": "https://www.awardsdaily.com/2019/10/25/interview-song-kang-ho-and-park-so-dam-on-parasite-and-becoming-a-family"
+    },
+    {
+      "id": "src_bong_slant_okja",
+      "kind": "press",
+      "title": "Sam C. Mac, 'Cannes Film Festival 2017: Bong Joon-ho's Okja', Slant Magazine, 19 May 2017 -- independent critic's review: credits Bong with proven ability to unite varied tonal ambitions with razor-sharp satire and impeccable craftsmanship, but finds Okja jarringly disorganized and rudderless for much of its running time, partly derivative of his earlier set pieces and tonally dissonant (especially in the English-language comedy scenes), and suggests that the sarcastic humor of his best films does not translate as well. Critical counter-voice on the cost of his genre-blending approach in one film; the plot summary and the passages on the supporting cast were not used. Read in full.",
+      "url": "https://www.slantmagazine.com/film/cannes-film-review-okja"
+    },
+    {
+      "id": "src_bong_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Bong Joon Ho at the Busan Film Festival in 2025.jpg' -- checked for the portrait's licence: photograph by Jay Dixit, 'Own work' uploaded by the photographer on 23 September 2025 under CC BY-SA 4.0 (licence template naming the uploader's own work), with the recorded capture time 23 September 2025 and the category 'WikiPortraits at 2025 Busan International Film Festival'; no restriction template. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Bong_Joon_Ho_at_the_Busan_Film_Festival_in_2025.jpg"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bong_slash_storyboards, src_bong_senses, src_bong_dezeen, src_bong_awardsdaily_song, src_bong_ebert_interview | 2019-2021 | press preview of the storyboard book + film-journal critic + production designer's interview + actor's interview + Bong's own interview] /Film's 2020 preview of the Parasite storyboard book says Bong storyboards all of his films before shooting, that his storyboards draw out how stunts will play and what the camera set-up will be, that three alternate endings are drawn, and that the film was shot on a tight 77-day schedule the writer ties to them, and notes Okja actor Steven Yeun's description of receiving bound storyboards like manga; film scholar Nandana Bose calls the storyboards a fundamental part of his style that he closely follows; production designer Lee Ha Jun says Bong sketched a simple floor plan of the Park house while writing the script and that his scripts describe every actor's movements, so blocking drove the design; Song Kang-ho says the storyboards make life easier for cast and crew; Bong says he designed the house around how the characters would move and checks technical positions in advance (self). Four independent perspectives agree on a documented habit of detailed advance visual planning, with no contrary evidence, but all are admiring and two lean on a book-promotion piece or on Bong's own words, so documented at a moderate confidence. SELF-CALIBRATION (agent): first-pass 80 / 0.64 lowered to 76 / 0.58 for admiring-source concentration and for dependence on a book-promotion piece and Bong's own words."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bong_dezeen, src_bong_senses, src_bong_ebert_interview, src_bong_britannica | 2019-2026 | production designer's interview + film-journal critic + Bong's own interview + encyclopaedia] Lee Ha Jun says Bong's script is always meticulous and precise, that Bong stressed the front garden as essential, that the furniture was made with Korean designers from the concept stage to suit the director's intention, and that recognisable brands were avoided so audiences would stay in the story; Bose says Bong controls the technical crew 'quite fastidiously' around his detailed storyboards; Bong says the living-room window wall was built in the CinemaScope ratio on purpose and points to small touches such as the family's cheap beer later becoming an expensive one, which Korean audiences caught (self); Britannica calls his directing meticulous. Specific design details are documented by a collaborator and by Bong himself, but two of the four sources are summarising adjectives and the same planning evidence supports the planning row, so strong inference at a modest confidence. SELF-CALIBRATION (agent): first-pass 74 / 0.58 lowered to 70 / 0.52 for interpretation stronger than behaviour (Britannica's 'meticulous' and Bose's 'fastidiously' are summaries) and self-quotation."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bong_awardsdaily_song, src_bong_senses, src_bong_another_han, src_bong_dezeen, src_bong_britannica | 2019-2026 | actor's interview + film-journal critic + co-writer's interview + production designer's interview + encyclopaedia] Song Kang-ho says he and Bong began working together over twenty years ago and are now friends (the interviewer and Bose count four films together); Bose reports that Bong writes roles for Song, that Song tends to agree to his projects without reading the script, and that Bong deliberately leaves actors room to improvise and speaks as little as possible on set (largely from Bong's own interviews); co-writer Han Jin Won says Bong handed him, then a production assistant, a half-finished treatment, had him research for what began as three months, shaped three drafts with feedback and finished the second half of the script with him after Okja; Lee says Bong left the house's architectural style to him and that the furniture was made with Korean designers from the concept stage; Britannica notes Bong's usual cast of Korean performers. Several independent collaborator accounts of delegation, trust and repeat pairings, but every account is admiring, so documented at a moderate confidence. SELF-CALIBRATION (agent): first-pass 76 / 0.62 lowered to 72 / 0.56 for admiring-source concentration (no dissenting collaborator was found within the source budget) and because part of the critic's account restates Bong's own interviews."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bong_britannica, src_bong_dezeen, src_bong_senses, src_bong_slash_storyboards, src_bong_slant_okja | 2004-2020 | encyclopaedia + production designer's interview + film-journal critic + press preview + critic's review] Britannica says his films blend genres with quick tonal shifts and that in 2004 he made a short mockumentary shot entirely on closed-circuit security cameras; Lee says the descent from the kitchen to the underground bunker was built as one giant set because Bong wanted to film it without stopping so the actors' breathing could be captured; Bose says he does not shoot coverage, leaving actors free to improvise, and /Film notes that three alternate endings are drawn in his storyboards; against this, Slant's Sam C. Mac wrote in 2017 that Okja felt jarringly disorganized for much of its length while granting Bong impeccable craftsmanship, so the tonal and formal risks did not always land. Documented method choices plus a critic's account of one such risk failing give strong inference at a modest confidence, dual-edged. SELF-CALIBRATION (agent): first-pass 72 / 0.55 lowered to 68 / 0.50 for interpretation stronger than behaviour (the genre-blending characterisation is the encyclopaedia's and critics', and the specific method instances are few)."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "봉준호"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bong-joon-ho-dixit-2025.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Bong Joon Ho at the Busan Film Festival in 2025.jpg' -- photograph by Jay Dixit, 'Own work' uploaded by the photographer on 23 September 2025 (recorded capture time 23 September 2025, 09:11) with the description 'Bong Joon Ho at the Busan Film Festival in 2025' and the categories Bong Joon-ho and 'WikiPortraits at 2025 Busan International Film Festival'; published by the photographer under CC BY-SA 4.0 (licence template naming his own work) with no restriction template. Original 2400 x 3000 pixels; a 1760 x 2200 region around his head and shoulders was cropped from it and downscaled once to 960 x 1200 (never upscaled).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Jay Dixit, 23 September 2025, CC BY-SA 4.0, cropped and downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Bong_Joon_Ho_at_the_Busan_Film_Festival_in_2025.jpg",
+    "creator": "Jay Dixit",
+    "date": "2025-09-23",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bong_Joon_Ho_at_the_Busan_Film_Festival_in_2025.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q495980 returned en label 'Bong Joon-ho', description 'South Korean filmmaker (born 1969)', born 1969-09-14, no death date, citizenship South Korea (Q884), ko label (the conventional display name), alias 'Bong Joon Ho'; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug bong-joon-ho or QID Q495980 in the roster51 worktree (data-pipeline/candidates, src/data/people, src/core). REGION: east_asia (valid controlled value), nationalityCodes KR. VOCABULARY: occupationId film_director, fieldId film, impact domains artistic and cultural, tags craft_focused and detail_oriented, and archetype creative_creator are existing ids used by other candidates (as for Kurosawa, Ray and Miyazaki). ZERO POLITICS: no political material is scored (Britannica's mention of his student cartoons for the pro-democracy movement, the class and capitalism themes of his films, remarks about Korea's economy in interviews and the blacklist episode named in the brief are unscored; the themes are subject matter, not behaviour). LIVING SUBJECT: only documented public professional behaviour is scored (storyboarding, script and set planning, working methods as described by collaborators, critics and press). Excluded: family (parents, grandfather, children), military service, health, private life, any allegation or rumour, personal wealth, any inferred motive or psychology. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Bong Joon-Ho' (https://www.britannica.com/biography/Bong-Joon-Ho), read in full (updated 31 August 2026): it presents him as a filmmaker known for meticulous directing, social critique, genre blending and quick tonal shifts, with Memories of Murder and The Host as the Korean breakthrough, Snowpiercer and Okja as the English-language crossover, and Parasite as the Palme d'Or winner and first foreign-language Best Picture winner; supported by the Academy's own 2020 winners record (honouring in tone, used for the cards and orientation only). READ (9 cited non-Wikidata sources plus the Commons page): Britannica; the Academy's 92nd Awards page (through the harness's web-extraction tool, summary-level); Dezeen's interview with production designer Lee Ha Jun; Nandana Bose's Senses of Cinema article on Bong and Song Kang-ho (the passages on method and collaboration read in full); /Film's preview of the Parasite storyboard book; AnOther's interview with co-writer Han Jin Won; Tomris Laffly's RogerEbert.com interview with Bong; Awards Daily's interview with Song Kang-ho and Park So Dam; Sam C. Mac's Slant Magazine review of Okja (all read in full unless stated). Opened but not cited: The Ringer's 2019 interview with Bong (themes, his remark that he makes films for his own joy, and his writing the end-credits song lyrics; self only and about themes, so not used), The Playlist's 2014 interview on Snowpiercer's US release (Bong says he did not have final cut, that such negotiations are normal in the US industry and that reports of a rift were wrong, while press accounts of the dispute diverge, so conflict tolerance and autonomy were not scored), and Brian Tallerico's RogerEbert.com review of Parasite (admiring; nothing used). PERSPECTIVES: the production designer (Lee Ha Jun), the co-writer (Han Jin Won), the lead actor (Song Kang-ho, with Park So Dam), a film scholar and critic (Bose), an independent critic (Sam C. Mac), press (Bui, Laffly), an encyclopaedia, the Academy's record and Bong's own statements (self; never sole support for a row). The brief's other suggested collaborators, Kim Ji-yong and Jeffrey Yang, could not be matched to an accessible interview within the source budget and are not used. CALIBRATION: the behavioural evidence is specific and consistent but comes almost entirely from admiring collaborators, a critic who draws on Bong's own interviews and a book-promotion preview, with one critical review as the counter-voice, and the Academy page was read only as a summary, so no score exceeds 76 and no confidence exceeds 0.58; four rows are kept and none is padded. SELF-CALIBRATION (agent): all four rows were lowered once after a re-read of the strongest rows (planning orientation 80/0.64 to 76/0.58, detail orientation 74/0.58 to 70/0.52, collaboration 76/0.62 to 72/0.56, experimentation 72/0.55 to 68/0.50), for admiring-source concentration, interpretation stronger than behaviour, self-quotation and reliance on a book-promotion piece; each row's rationale ends with its own note. TRAITS NOT SCORED: persistence (long-gestating projects such as Snowpiercer, which reached the screen nine years after he first read the graphic novel according to one interview, show commitment but no documented obstacle overcome), autonomy need and conflict tolerance (the Snowpiercer distribution episode rests on Bong's own account and diverging press reports), creative originality (rests on critics' and encyclopaedic praise and overlaps experimentation), perfectionism (the same evidence as detail orientation), adaptability, resourcefulness and decisiveness (single anecdotes only), and any trait inferred from his films' themes. FACT CONFLICTS RECORDED: the 77-day schedule is a journalist's figure from a book preview and is attributed to /Film in the row rather than stated in a card; a search-result summary of one Britannica facts page gave a different birth day (4 September) from the main article and Wikidata (14 September), so no birth date or birthplace spelling (Taegu or Daegu) appears in any card. NOT OPENED: the Cannes Film Festival's own Palme d'Or record, Korean Film Council pages, Variety, Hollywood Reporter, New Yorker and Guardian profiles, the original Deadline reports on the Snowpiercer release, interviews with cinematographer Hong Kyung-pyo, editor Yang Jin-mo and composer Jung Jae-il, and Karen Han's book on Bong. KOREAN NAME: 봉준호, the conventional name and the Wikidata Korean label. PORTRAIT: Wikimedia Commons file 'Bong Joon Ho at the Busan Film Festival in 2025.jpg' by Jay Dixit, own work, CC BY-SA 4.0 (the uploader is the photographer; the file is in the WikiPortraits category for the festival and carries no restriction template); original 2400 x 3000, cropped to a 1760 x 2200 region and downscaled once to 960 x 1200 (verified to open as a JPEG, never upscaled), saved as public/portraits/bong-joon-ho-dixit-2025.jpg; the ShareAlike licence requires the credit and licence to be shown with the portrait and a note that it was cropped; the festival's own accreditation or photo terms were not opened, so the rights basis is the photographer's own licence on the file page (next step if challenged: check the festival's photo policy). Considered and not chosen: Kevin Paul's 'Bong Joon Ho - Okja.jpg' (CC BY 4.0, own work, 1600 x 2000, a closer portrait, but the file's recorded timestamp of March 2025 does not match the Okja-era panel it describes, so its date is unreliable) and Ilya Hirschberg's 'Bong Joon-ho FilmFest Muenchen 04Jul2019.jpg' (CC BY-SA 4.0, own work, 1440 x 1440, a square crop)."
+  }
+}

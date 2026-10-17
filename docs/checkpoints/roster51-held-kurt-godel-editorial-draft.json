@@ -1,0 +1,92 @@
+{
+  "slug": "kurt-godel",
+  "koName": "쿠르트 괴델",
+  "review": {
+    "primaryContribution": "Austrian-born logician and mathematician who proved the completeness theorem for first-order logic (1929 dissertation), the incompleteness theorems (1931) and the consistency of the axiom of choice and the continuum hypothesis with Zermelo-Fraenkel set theory (results of 1935 and 1937, announced 1938-39, monograph 1940), and who, at the Institute for Advanced Study, defended mathematical Platonism and worked on relativity; the Stanford Encyclopedia of Philosophy calls him one of the principal founders of the modern, metamathematical era in mathematical logic and counts his incompleteness theorems among the handful of landmark theorems of twentieth-century mathematics.",
+    "topOmission": "None identified after correction. The first pass left out the completeness theorem of his 1929 dissertation (Britannica ranks it among the most important logical results of the century); it is now in card 1. A reader may expect the Dialectica interpretation, the translation of classical arithmetic into intuitionistic arithmetic, the ontological-proof manuscript or his letter to von Neumann about what is now called the P versus NP problem; none is a defining contribution beside the three cards, and the letter's 1955 date rests on one review.",
+    "displayedAchievements": [
+      "One of the principal founders of the modern, metamathematical era of mathematical logic: his 1929 thesis proved the completeness theorem for first-order logic, and in 1931 he published the incompleteness theorems (an arithmetic statement true yet neither provable nor refutable in Peano arithmetic; the consistency of arithmetic cannot be proved within arithmetic), which the Stanford Encyclopedia counts among the handful of landmark theorems of twentieth-century mathematics",
+      "Proved that the axiom of choice and the continuum hypothesis are consistent with Zermelo-Fraenkel set theory by building the inner model of constructible sets (results of 1935 and 1937, announced 1938-39, monograph 1940); the Stanford Encyclopedia calls the continuum-hypothesis proof a tour de force and arguably the greatest achievement of his mathematical life, and Paul Cohen's results of the early 1960s then showed the hypothesis independent",
+      "At the Institute for Advanced Study (from 1940; professor from 1953) he formulated and defended mathematical Platonism and laid the foundation for the programme of conceptual analysis within set theory, anticipating the importance of large cardinals; in 1949 he also published a rotating-universe solution of Einstein's field equations, which R. Penrose, as relayed by Kleene's National Academy memoir, judged highly original and in the long run quite influential"
+    ],
+    "primaryCheck": "PASS (first pass)",
+    "topOmissionCheck": "FAIL (first pass)",
+    "identityCheck": "PASS (first pass)",
+    "significanceOverNoveltyCheck": "FAIL (first pass)",
+    "sideProjectCheck": "FAIL (first pass)",
+    "correctedBySelfGate": [
+      "Added the 1929 completeness theorem to card 1: the first-pass plan, which followed the brief's list (incompleteness, continuum hypothesis, relativity), carried only the 1931 incompleteness theorems, although the Stanford Encyclopedia names the completeness theorem as the main theorem of his dissertation and Britannica ranks it among the most important logical results of the century; a logician would notice its absence at once.",
+      "Re-ordered card 3 so that the Platonist philosophy and the set-theoretic programme (conceptual analysis, large cardinals), which the Stanford Encyclopedia puts in its opening paragraph, lead, with the 1949 rotating-universe solution as the second sentence: the first pass led with the rotating universe and the walks with Einstein, which are vivid but secondary (Kleene counts three short relativity articles worked on in 1947-50, and the Stanford Encyclopedia leaves physics to a sequel), so a short side episode and an anecdote were displacing the central later work. The Einstein friendship moved to the turning point.",
+      "Dated the continuum-hypothesis work from the sources (results of 1935 and 1937 in the Stanford Encyclopedia; announced in 1938-39 and set out in the 1940 monograph in Kleene's bibliography) in place of the brief's single 1938-40 window, and kept the encyclopedia's hedged 'arguably the greatest achievement' as its own wording rather than a flat claim; the card also says Cohen's results came in the early 1960s because the sources give 1961, 1963 and 1964 for different steps."
+    ],
+    "notes": "First pass: card 1 the 1931 incompleteness theorems, card 2 the consistency of the continuum hypothesis, card 3 the Institute years led by the rotating-universe solution and the friendship with Einstein. With the name hidden, the first-pass cards already explained why he belongs (landmark limits of formal systems, a set-theory proof Cohen later completed, and a physics and philosophy turn at Princeton), hence the passing primary and identity checks. Claims were traced to a source that states them: the 'principal founders' wording, the handful of landmark theorems, the infeasibility of the Hilbert programme as defined by consistency and completeness, the completeness theorem of the 1929 dissertation, the results of 1935 and 1937, the tour de force and arguably the greatest achievement, the machinery invented from scratch, Platonism, conceptual analysis and large cardinals, and the 1947 sentence on the continuum hypothesis (Stanford Encyclopedia); the two first papers before age twenty-five, the 1938-39 announcements and 1940 monograph, Cohen's results, the 1947-50 relativity articles and Penrose's relayed judgment, the Königsberg announcement, the November 1930 submission and the Institute appointments (Kleene); the 1940 monograph that Cohen built on (MacTutor); the incompleteness theorem as possibly the most important mathematical result of the century and the completeness theorem as one of the most important logical results (Britannica); the joining of the Institute in 1940, the 1953 Faculty appointment, the walks with Einstein, von Neumann's course and the rotating-universe model (Institute page). No card calls him the first or the only at anything on a source's authority beyond those named, and none gives a sales, ranking or honours claim. The Institute's conflicting dates for his permanent membership (1940 against 1946 and 1947) are avoided by saying he joined in 1940 and became a professor in 1953. Excluded throughout: his health, the end of his life, family and private life, the naturalisation interview and the circumstances of leaving Austria. Significance over novelty: the vivid Einstein walks and rotating universe are confined to the second sentence of card 3 and the turning point. Side projects: his ontological-proof manuscript, the Dialectica interpretation and the P versus NP letter are not carded. Self-calibration: six of nine scored rows were lowered before return (creative originality, analytical rigor, independent thinking, curiosity, cross-domain range, persistence). Portrait is held (see the candidate file)."
+  },
+  "achievements": [
+    {
+      "en": "Gödel is counted among the principal founders of the modern, metamathematical era of mathematical logic. His 1929 doctoral thesis proved the completeness theorem for first-order logic, and in 1931 he published the incompleteness theorems: an arithmetic statement that is true yet neither provable nor refutable in Peano arithmetic, and the result that the consistency of arithmetic cannot be proved within arithmetic itself. The Stanford Encyclopedia of Philosophy counts the theorems among the handful of landmark theorems of twentieth-century mathematics and says they showed Hilbert's programme, as defined by consistency and completeness, to be infeasible.",
+      "ko": "괴델은 현대 수리논리학의 '메타수학' 시대를 연 주요 창시자 가운데 한 사람으로 꼽힌다. 1929년 박사 논문에서 1계 논리의 완전성 정리를 증명했고, 1931년에는 불완전성 정리를 발표했다. 페아노 산술에서 참이면서도 증명도 반증도 되지 않는 산술 명제가 존재한다는 것, 그리고 산술의 무모순성은 산술 안에서 증명할 수 없다는 것이다. 스탠퍼드 철학 백과사전은 이 정리를 20세기 수학의 손꼽히는 획기적 정리 가운데 하나로 소개하며, 이 정리로 무모순성과 완전성을 요구하는 힐베르트 프로그램은 실현 불가능함이 드러났다고 설명한다.",
+      "sourceIds": [
+        "src_godel_sep",
+        "src_godel_kleene",
+        "src_godel_britannica"
+      ]
+    },
+    {
+      "en": "Gödel proved that the axiom of choice and the continuum hypothesis are consistent with the axioms of Zermelo-Fraenkel set theory (assuming those axioms are themselves consistent), by building the inner model of constructible sets. He obtained the results in 1935 and 1937, announced them in 1938-39 and set them out in a 1940 monograph. The Stanford Encyclopedia calls the continuum-hypothesis proof a tour de force and arguably the greatest achievement of his mathematical life, since apart from the arithmetization nearly all its technical machinery had to be invented from scratch. Paul Cohen's results in the early 1960s showed that the negation is consistent too, so the hypothesis is independent of the axioms of set theory.",
+      "ko": "괴델은 선택 공리와 연속체 가설이 체르멜로-프렝켈 집합론의 공리와 모순되지 않음을(집합론 자체가 무모순이라는 가정 아래) 증명했다. '구성 가능 집합'으로 이루어진 내부 모형을 만드는 방법이었고, 결과는 각각 1935년과 1937년에 얻어 1938~39년에 발표했으며 1940년 단행본으로 정리했다. 스탠퍼드 철학 백과사전은 연속체 가설의 증명을 산술화를 제외한 거의 모든 기술적 도구를 처음부터 새로 만들어야 했던 역작이자 아마도 그의 수학 인생에서 가장 큰 업적이라고 평가한다. 1960년대 초 폴 코언의 결과로 그 부정 또한 모순되지 않음이 밝혀지면서, 연속체 가설은 집합론의 공리로부터 독립적임이 드러났다.",
+      "sourceIds": [
+        "src_godel_sep",
+        "src_godel_kleene",
+        "src_godel_mactutor"
+      ]
+    },
+    {
+      "en": "At the Institute for Advanced Study, which he joined in 1940 and where he became a professor in 1953, Gödel formulated and defended mathematical Platonism, the view that mathematical truth is objective. On that basis, the Stanford Encyclopedia says, he laid the foundation for the programme of conceptual analysis within set theory, anticipating the importance of large cardinals before it became clear. In 1949 he also published a rotating-universe solution of Einstein's field equations, which R. Penrose, as relayed in Stephen Kleene's National Academy memoir, judged highly original and in the long run quite influential.",
+      "ko": "괴델은 1940년 프린스턴 고등연구소에 합류해 1953년 교수가 되었고, 그곳에서 수학적 진리가 객관적이라는 수학적 플라톤주의를 정립하고 옹호했다. 스탠퍼드 철학 백과사전에 따르면 그는 이를 바탕으로 집합론 안에서 개념 분석을 추진하는 프로그램의 토대를 놓았으며, 큰 기수의 중요성이 분명해지기 전에 그 중요성을 내다보았다. 1949년에는 아인슈타인 장 방정식의 새로운 유형의 해인 회전하는 우주 모형도 발표했는데, 스티븐 클레이니의 미국 국립과학원 추모록은 R. 펜로즈의 평가를 전하며 이 상대성 이론 논문들이 매우 독창적이었고 장기적으로 상당한 영향을 미쳤다고 소개한다.",
+      "sourceIds": [
+        "src_godel_sep",
+        "src_godel_ias_inst",
+        "src_godel_kleene"
+      ]
+    }
+  ],
+  "moments": [
+    {
+      "en": "In the summer of 1930 Gödel began to study the consistency problem of classical analysis. In an account he later wrote at Hao Wang's request, he describes trying to reduce it to the consistency of arithmetic and enumerating the symbols, sentences and proofs of the system; he saw that truth for arithmetic cannot be defined in arithmetic, whereas provability can, which led to the first incompleteness theorem. He announced undecidable propositions at a meeting at Königsberg in September 1930 and had the paper completed and sent off in November. John von Neumann, who took a lively interest at the meeting, later cancelled the rest of a course on Hilbert's work to lecture on the paper.",
+      "ko": "1930년 여름 괴델은 고전 해석학의 무모순성 문제를 연구하기 시작했다. 훗날 하오 왕의 요청으로 쓴 글에서 그는 이 문제를 산술의 무모순성 문제로 환원하려 했고, 체계 안의 기호와 문장과 증명에 번호를 매겼으며, 산술의 '참'은 산술 안에서 정의할 수 없지만 '증명 가능성'은 정의할 수 있음을 알게 되었다고 설명한다. 이것이 제1불완전성 정리로 이어졌다. 그는 1930년 9월 쾨니히스베르크 학회에서 결정 불가능한 명제의 존재를 발표했고, 11월에 논문을 완성해 학술지에 보냈다. 이 학회에서 큰 관심을 보였던 존 폰 노이만은 훗날 힐베르트의 연구를 다루던 강의의 남은 부분을 취소하고 이 논문을 강의했다.",
+      "interpretationEn": "This is consistent with a thinker who recast a foundational question about whole formal systems as a precise argument inside one of them, though the account of his route was written long afterwards, and the Stanford Encyclopedia says only that his contemporary letters to Bernays and Zermelo give essentially the same description.",
+      "interpretationKo": "기초 수학의 근본 문제를 형식 체계 하나 안의 정밀한 논증으로 바꿔 놓은 사고방식과 일치하지만, 이 경로에 대한 설명은 한참 뒤에 쓰인 것이며, 스탠퍼드 철학 백과사전은 당시 베르나이스와 체르멜로에게 보낸 편지에도 본질적으로 같은 설명이 있다고만 전한다.",
+      "attributeId": "systems_abstraction",
+      "sourceIds": [
+        "src_godel_sep",
+        "src_godel_kleene",
+        "src_godel_ias_inst"
+      ]
+    },
+    {
+      "en": "Gödel proved in 1937 that the continuum hypothesis is consistent with set theory, yet at the end of his 1947 article 'What is Cantor's Continuum Hypothesis?' he called it very suspicious that many plausible propositions imply its negation while no plausible proposition is known that would imply the hypothesis, and he conjectured that it would prove independent. Paul Cohen's results of the early 1960s bore the conjecture out. The Stanford Encyclopedia notes that Gödel's 1938 wording on the axiom of constructibility seemed to say something different, and it does not say what changed his mind.",
+      "ko": "괴델은 1937년 연속체 가설이 집합론과 모순되지 않음을 보였지만, 1947년 논문 〈칸토어의 연속체 가설이란 무엇인가?〉의 끝부분에서는 연속체 가설의 부정을 함의하는 그럴듯한 명제는 많은데 가설 자체를 함의하는 그럴듯한 명제는 하나도 알려져 있지 않다는 점이 매우 의심스럽다고 썼고, 이 가설이 독립적임이 밝혀질 것이라고 추측했다. 1960년대 초 폴 코언의 결과가 이 추측을 뒷받침했다. 스탠퍼드 철학 백과사전은 구성 가능성 공리에 관한 괴델의 1938년 표현은 이와 달라 보인다고 지적하지만, 무엇이 그의 생각을 바꾸었는지는 말하지 않는다.",
+      "interpretationEn": "This is consistent with a mathematician who did not treat his own theorem as settling the truth of the question, though the sources do not explain what changed between the 1938 and 1947 wording, and the encyclopedia says the earlier phrase may mean less than it seems.",
+      "interpretationKo": "자신이 증명한 정리가 문제의 답을 결정한다고 보지 않은 수학자의 모습과 일치하지만, 1938년과 1947년의 표현 사이에 무엇이 달라졌는지는 자료에 설명되어 있지 않으며 백과사전도 앞선 표현의 뜻이 겉보기보다 작을 수 있다고 말한다.",
+      "attributeId": "independent_thinking",
+      "sourceIds": [
+        "src_godel_sep",
+        "src_godel_kleene"
+      ]
+    }
+  ],
+  "turningPoints": [
+    {
+      "en": "After the set-theory results and his move to Princeton, Gödel's work changed direction. At the Institute in the 1940s he formed close friendships with Albert Einstein and John von Neumann, and he and Einstein were often seen conversing in German on their walks to and from the Institute, including about relativity and his rotating-universe model. From about 1943 he concentrated almost exclusively on the philosophy of mathematics, and from 1947 to 1950 or 1951, because of an interest in Kant's philosophy of space and time, he worked on general relativity.",
+      "ko": "집합론 결과들을 낸 뒤 프린스턴으로 옮기면서 괴델의 작업은 방향을 바꾸었다. 1940년대 고등연구소에서 그는 알베르트 아인슈타인, 존 폰 노이만과 가까운 친구가 되었고, 아인슈타인과 독일어로 이야기를 나누며 연구소를 오가는 모습이 자주 눈에 띄었다. 두 사람의 대화에는 상대성 이론과 괴델의 회전하는 우주 모형도 포함되어 있었다. 괴델은 1943년경부터 수학철학에 거의 전적으로 몰두하기 시작했고, 칸트의 시간·공간 철학에 대한 관심에서 비롯되어 1947년부터 1950년 또는 1951년까지 일반 상대성 이론을 연구했다.",
+      "interpretationEn": "This is consistent with a thinker widening from technical logic into philosophy and physics, though the Stanford Encyclopedia presents his mathematics and philosophy as one fifty-year project under a single heading, and Kleene's account of the relativity work covers only three short articles.",
+      "interpretationKo": "기술적인 논리학에서 철학과 물리학으로 관심을 넓혀 간 사상가의 모습과 일치하지만, 스탠퍼드 철학 백과사전은 그의 수학과 철학을 하나의 표제 아래 놓인 50년의 연구 과제로 소개하며, 클레이니가 전하는 상대성 이론 연구도 짧은 논문 세 편에 그친다.",
+      "attributeId": "cross_domain_range",
+      "sourceIds": [
+        "src_godel_sep",
+        "src_godel_kleene",
+        "src_godel_ias_inst"
+      ]
+    }
+  ]
+}

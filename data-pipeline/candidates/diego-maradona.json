@@ -1,0 +1,271 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "diego-maradona",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Diego Maradona",
+    "aliases": [
+      "Diego Armando Maradona",
+      "El Diego"
+    ],
+    "wikidataId": "Q17515",
+    "birthYear": 1960,
+    "deathYear": 2020,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "AR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_maradona_wikidata",
+      "kind": "wikidata",
+      "title": "Diego Maradona (Q17515) -- verified live via the Wikidata API (2026-10-16): English label 'Diego Maradona', description 'Argentine football player and manager (1960-2020)', born 30 October 1960, died 25 November 2020, citizenship Argentina, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q17515"
+    },
+    {
+      "id": "src_maradona_fifa_mexico86",
+      "kind": "institution",
+      "title": "FIFA.com, 'Relive Maradona's Mexico '86 magic', 30 October 2023 -- the world federation's short tribute: one of the greatest players in the history of the game, who scored five times as he inspired Argentina's 1986 World Cup title, including the double against England in the quarter-final ('Hand of God' and 'Goal of the Century'), with a link to the adidas Golden Ball award. CANONICAL SIGNIFICANCE SOURCE (second; the FIFA Museum timeline is the first). Short and celebratory; used for the significance statement and the achievement cards, never for a behavioural row. Read in full through the built-in browser (the page is script-rendered).",
+      "url": "https://www.fifa.com/en/news/articles/relive-diego-maradona-world-cup-mexico-1986-magic-argentina"
+    },
+    {
+      "id": "src_maradona_fifa_eng86",
+      "kind": "institution",
+      "title": "FIFA.com, 'Watch: Cosmic Diego's extraterrestrial exhibition', published 12 July 2026 -- FIFA's match page for Argentina 2-1 England, Estadio Azteca, 22 June 1986: Carlos Bilardo's plan to get the ball to the number 10, Maradona drawing six fouls before half-time, the two goals four minutes apart, his own account of the first goal ('a little with the head of Maradona and a little with the hand of God') and of shouting at team-mates to come and hug him so the referee would not disallow it, quotations from John Barnes, Jorge Valdano and Gary Lineker, and the trivia of the shirt he picked the day before ('We'll beat England in that'). Institutional and celebratory; the passages on the political background and on his 1978 omission and 1982 sending-off were read but only the sporting facts are used. Read in full through the built-in browser (the page is script-rendered).",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/diego-maradona-argentina-england"
+    },
+    {
+      "id": "src_maradona_fifa_dash",
+      "kind": "institution",
+      "title": "FIFA.com, 'Maradona's immortal 11-second dash' (page dated 22 June 2016, text saying '25 years ago today') -- FIFA's account of the second goal against England: the 11-second run from his own half, the radio commentary of Victor Hugo Morales, a similar run at Wembley in a 1980 friendly, and the reactions of England coach Bobby Robson and striker Gary Lineker and of Jorge Valdano, who says Maradona apologised in the dressing room for not passing to him and still had time to see him during the run. Institutional and celebratory, with Maradona's own autobiography quoted; the page date and the '25 years' wording do not agree, so no date is taken from it. Read in full.",
+      "url": "https://inside.fifa.com/en/tournaments/mens/worldcup/1986mexico/news/maradona-s-immortal-11-second-dash-2802747"
+    },
+    {
+      "id": "src_maradona_fifa_burruchaga",
+      "kind": "institution",
+      "title": "FIFA.com, 'Burruchaga's Azteca ecstasy' (8 June 2017) -- FIFA's account of the 1986 final from the scorer's side: Jorge Burruchaga turning to Maradona after Germany's two goals to say 'Right, let's go and win this thing', Maradona's defence-splitting pass three minutes later, and Burruchaga's 2007 recollection that Maradona never heard his shout and 'used to play like he had eyes in the back of his head'. A team-mate's retrospective as relayed by the federation; admiring. Read in full.",
+      "url": "https://inside.fifa.com/news/burruchagas-jubel-im-aztekenstadion-2893360"
+    },
+    {
+      "id": "src_maradona_fifa_napoli87",
+      "kind": "institution",
+      "title": "FIFA.com (French edition), '10 mai 1987 : Maradona et Naples au paradis', 10 May 2021 -- FIFA's history of Napoli's first Serie A title: the club's world-record signing of Maradona in 1984, a mid-table first season and a third place in the second, his declaration before 1986-87 that it would be Napoli's year, the 1-1 draw with Fiorentina on 10 May 1987 that clinched the title, Ciro Ferrara's and Ottavio Bianchi's recollections of the tense second half, and Maradona's remark that the title was worth more to him than a World Cup. Read in French; institutional and celebratory.",
+      "url": "https://inside.fifa.com/fr/news/mai-1987-maradona-naples-paradis-1628885"
+    },
+    {
+      "id": "src_maradona_guardian_obit",
+      "kind": "press",
+      "title": "Julie Welch, 'Diego Maradona obituary', The Guardian, 25 November 2020 -- the newspaper's full obituary and career overview: debut for Argentinos Juniors in 1976, the 1979 World Youth Championship, Boca Juniors and the 1982 league title, Barcelona and the 1984 Copa del Rey final brawl, Napoli's 1987 and 1990 league titles and 1989 UEFA Cup, five of Argentina's 14 goals and the captaincy in 1986, the Golden Ball and FIFA's 2002 Goal of the Century award, 91 caps and 34 goals. Independent and critical; the passages on drug use, health, family, the Camorra, the 1994 expulsion and his later coaching were read and are NOT used. Read in full.",
+      "url": "https://www.theguardian.com/football/2020/nov/25/diego-maradona-obituary"
+    },
+    {
+      "id": "src_maradona_kuper_espn",
+      "kind": "press",
+      "title": "Simon Kuper, 'Maradona's shadow looms over Messi', ESPN, 13 July 2014 (read as syndicated on ABC13) -- column comparing Argentina's 1986 and 2014 teams: Bilardo letting his star stay up late with his entourage ('there's Maradona and there's the rest of the team', as told to biographer Jimmy Burns), Valdano's account of teasing Maradona in the dressing room after the England goal and Hector Enrique's joke about his pass, and Kuper's reading that Maradona towered over his team-mates yet felt as one with them and led the 1986 team. Independent columnist with named team-mates; the passage on painkilling injections was read and is not used. Read in full.",
+      "url": "https://abc13.com/post/maradonas-shadow-looms-over-messi/187132/"
+    },
+    {
+      "id": "src_maradona_tft_burruchaga",
+      "kind": "press",
+      "title": "These Football Times, 'Jorge Burruchaga and the tears of World Cup joy', 13 March 2018 -- long-form feature on the 1986 campaign from Burruchaga's side: a squad of 'big personalities, jealousies, cliques', Bilardo's plan for the final if Maradona were man-marked, Burruchaga as the player who linked best with him, Maradona's 98 touches in the semi-final, Burruchaga's El Gráfico remark that 'we all helped Diego become what he did', and the final's winning pass. Independent football writing partly built on Burruchaga's own recollections, so retrospective and admiring; some match narrative has no cited source. Read in full.",
+      "url": "https://thesefootballtimes.co/2018/03/13/jorge-burruchaga-and-the-tears-of-world-cup-joy/"
+    },
+    {
+      "id": "src_maradona_prothomalo_burruchaga",
+      "kind": "press",
+      "title": "Rashedul Islam, 'The man who scored the World Cup winning goal for Argentina', Prothom Alo, 29 June 2022 -- interview with Jorge Burruchaga (answers given in Spanish and translated into English by a third party): that Maradona was the team's leader whom every player followed, that his behaviour towards the others did not change after the title, that he and Burruchaga practised the through pass in training and that Maradona used to try to score such goals in practice, and Burruchaga's view that Maradona could not have won the World Cup without the team's support. A team-mate's retrospective in a translated interview; admiring. Read in full.",
+      "url": "https://en.prothomalo.com/sports/football/the-man-who-scored-the-world-cup-winning-goal-for-argentina"
+    },
+    {
+      "id": "src_maradona_valdano_guardian",
+      "kind": "press",
+      "title": "Jorge Valdano, 'Maradona the footballer had no flaws; Maradona the man was a victim', The Guardian, 26 November 2020 (first published in El Pais, translated by Sid Lowe) -- Valdano's farewell column the day after the death: the juggling-in-the-lift story told by Bilardo in Berlin, Maradona dominating the stage 'like a rock star' yet being 'generous with his teammates, committed to them' and 'as competitive as a starving man', and the 1986 England match as a goal of beauty and one in which 'he cheated'. A 1986 team-mate's tribute written after the death, so retrospective and admiring; its passages on his life, addiction and later years are NOT used. Read in full.",
+      "url": "https://www.theguardian.com/football/2020/nov/26/maradona-the-footballer-had-no-flaws-maradona-the-man-was-a-victim"
+    },
+    {
+      "id": "src_maradona_ronay_robbed",
+      "kind": "press",
+      "title": "Barney Ronay, 'World Cup questions: Were England robbed by Argentina at Mexico 86?', The Guardian, 26 April 2020 -- a column that re-watches the whole quarter-final from the FIFA archive film: Maradona beating Sansom twice and being fouled by Fenwick, the 'Hand of God' sequence (Hodge's mis-hit back towards Shilton, Maradona running forward and punching the ball in), the 11-second second goal past the England players, the late tie-breaking gamesmanship, his remarks about finding the right tempo in Italy, and the writer's verdict that England were cheated but not robbed. Independent and first-hand viewing, with a critical edge. Read in full.",
+      "url": "https://www.theguardian.com/football/2020/apr/26/world-cup-questions-were-england-robbed-by-argentina-at-mexico-86"
+    },
+    {
+      "id": "src_maradona_shilton_guardian",
+      "kind": "press",
+      "title": "Donald McRae, 'Peter Shilton: Maradona's the greatest player in history but I don't respect him', The Guardian, 15 January 2020 -- interview in which England's goalkeeper in 1986 says Maradona 'cheated' with the first goal, did not apologise or show remorse, that he will not shake his hand, and that the second goal was legal and sumptuous; Shilton also calls him the greatest player in history. An opposing player's adversarial view, thirty-four years later; the interview's passages on Shilton's own life were not used. Read in full.",
+      "url": "https://www.theguardian.com/football/2020/jan/15/peter-shilton-respect-diego-maradona-england-hand-of-god"
+    },
+    {
+      "id": "src_maradona_unwin_bilbao",
+      "kind": "press",
+      "title": "Will Unwin, 'Kung-fu kicks and riot police: the day Maradona got Barca brawling', The Guardian, 17 April 2021 -- account of the 1984 Copa del Rey final: Maradona returning to play against Athletic Bilbao after the previous season's ankle injury, Barcelona's 1-0 defeat, and the mass brawl at the final whistle in which he attacked Athletic players, kneeing an unused substitute in the face, followed by a three-month ban and his sale to Napoli that summer. Independent retrospective of a documented on-pitch incident; its passages on the earlier injury are not used. Read in full.",
+      "url": "https://www.theguardian.com/football/2021/apr/17/kung-fu-kicks-riot-police-maradona-barcelona-brawl-athletic-bilbao-copa-del-rey"
+    },
+    {
+      "id": "src_maradona_gates_milan88",
+      "kind": "press",
+      "title": "Emmet Gates (The Gentleman Ultra), 'Napoli v Milan: the Serie A title decider that still rankles to this day', The Guardian, 3 March 2022 -- history of the 1 May 1988 Napoli-Milan match that decided the 1987-88 title race: Maradona's pre-match words about the San Paolo, his free-kick that Sacchi says Maradona told him was aimed at Gullit's hair, a rabona pass to Careca, and the later dispute in which four Napoli players wrote to demand coach Ottavio Bianchi's removal, with the writer's remark that Maradona sided with them though he did not sign. The passages on injections, the Camorra and betting rumours were read and are NOT used. Read in full.",
+      "url": "https://www.theguardian.com/football/the-gentleman-ultra/2022/mar/03/napoli-milan-serie-a-title-decider-1988"
+    },
+    {
+      "id": "src_maradona_bell_fiorentina",
+      "kind": "press",
+      "title": "Henry Bell (The Gentleman Ultra), 'Fiorentina v Napoli: when Roberto Baggio faced Diego Maradona', The Guardian, 2 October 2021 -- match analysis of Napoli 3-2 Fiorentina, 17 September 1989, in which Napoli came back from 2-0 down after Maradona came on at half-time: his penalty miss, the cross, corner routine and passing that set up goals for Careca and Corradini, and the writer's view that he gave instructions and helped others reach their potential. Independent football analysis; Baggio-related passages not used. Read in full.",
+      "url": "https://www.theguardian.com/football/the-gentleman-ultra/2021/oct/02/fiorentina-napoli-roberto-baggio-diego-maradona-serie-a-italy"
+    },
+    {
+      "id": "src_maradona_lisi_uefa89",
+      "kind": "press",
+      "title": "Clemente Lisi, 'The Diego Maradona magic that helped Napoli lift the 1989 UEFA Cup', These Football Times, 29 April 2019 -- season history of Napoli's 1988-89 UEFA Cup: the players' petition against coach Bianchi and Maradona's public remark about it, Fernando De Napoli's recollection that Maradona gave the team confidence before big matches, the pre-match dribbling show in Munich and the lemon juggling in the dressing room, the semi-final against Bayern, the final against Stuttgart in which Maradona's hand-assisted penalty and passes for Careca are described, and Bianchi's measured manner. Independent football feature; no sourcing for some match details, and the paragraph on the penalty is internally muddled, so it is used only for the petition and the teammate quotation. Read in full.",
+      "url": "https://thesefootballtimes.co/2019/04/29/the-diego-maradona-magic-that-helped-napoli-lift-the-1989-uefa-cup/"
+    },
+    {
+      "id": "src_maradona_commons_divakaran",
+      "kind": "institution",
+      "title": "Wikimedia Commons file 'Diego Maradona 2012 2.jpg' and its Flickr source page (Flickr account Doha Stadium Plus Qatar, photo 7448907672, picture by Vinod Divakaran, taken 30 May 2012; licence shown as Creative Commons Attribution 2.0) -- opened to check the portrait's licence. Not used for any scoring.",
+      "url": "https://www.flickr.com/photos/66463488@N06/7448907672"
+    },
+    {
+      "id": "src_maradona_fifamuseum_legend",
+      "kind": "institution",
+      "title": "FIFA Museum, 'Maradona' (The Legend of Football), digital.fifamuseum.com -- the museum's illustrated timeline: professional debut ten days short of his 16th birthday on 20 October 1976 as the youngest player in the history of the Argentine Primera Division, the 1979 FIFA World Youth Championship won with the Golden Ball, the 1982 red card against Brazil, the 1983 ovation at the Bernabeu, the world-record transfers to Barcelona (1982) and Napoli (1984), the 1986 World Cup Golden Ball (the first player to win it at youth and senior level), captaining Napoli to its first Serie A title in 1987 and the top-scorer award in 1987-88, the 1989 UEFA Cup (a penalty and three assists against Stuttgart), the 1990 assist for Claudio Caniggia against Brazil, and the joint 'Player of the Century' recognition of 2000 decided by public poll. CANONICAL SIGNIFICANCE SOURCE (the world federation's museum). Institutional and celebratory; its collection notes on the 1986 quarter-final ticket were read for the match description. Read in full.",
+      "url": "https://digital.fifamuseum.com/maradona"
+    },
+    {
+      "id": "src_maradona_fifamuseum_blog",
+      "kind": "institution",
+      "title": "FIFA Museum blog, 'Diego Armando Maradona: The King of Soccer' (published after his death in late 2020, undated on the page) -- the museum's career essay: debut at 15, the 1978 omission by Menotti ('I cried my eyes out'), the 1979 World Youth Championship Golden Ball, trouble with Barcelona's officials and the mass brawl at the 1984 Copa del Rey final that led to his sale to Napoli, Napoli's first league title and Coppa Italia in 1987, the 1989 UEFA Cup and the 1989-90 title, and the 1986 final in which he was involved in all three Argentine goals and as captain lifted the trophy. Institutional; the death announcement and the closing tribute are not used. Read in full.",
+      "url": "https://www.fifamuseum.com/en/explore/fifamuseumplus/blog/Diego-Armando-Marado"
+    },
+    {
+      "id": "src_maradona_fifa_annualreport",
+      "kind": "institution",
+      "title": "FIFA Annual Report 2020, 'Obituaries' section -- FIFA's paragraph on Diego Armando Maradona (1960-2020): captained Argentina to two World Cup finals and won in 1986 with the Golden Ball and the goal later named FIFA's Goal of the Century (2002), debut at 15, world-record fees from Barcelona and Napoli, Napoli as the first southern club to win Serie A (1987), the 1989 UEFA Cup and a second title in 1990, and the retired number 10 shirt. Institutional; its passages on the doping ban and later life are NOT used. Read in full.",
+      "url": "https://publications.fifa.com/en/annual-report-2020/obituaries-20/"
+    },
+    {
+      "id": "src_maradona_murray_guardian",
+      "kind": "press",
+      "title": "Scott Murray, 'The best and worst moments of Diego Maradona's turbulent career', The Guardian, 26 November 2020 -- list article: the 1979 World Youth Championship (Menotti's remark in 1978 that Maradona was too young that time but would be captain in 1982; player of the tournament with six goals including a free-kick in the final), Mexico 86, Napoli's titles, Italia 90 (a hand used to foil a header against the USSR and the pass for Caniggia's winner against Brazil) and the 1982 sending-off and 1984 brawl. Independent but anecdotal; its passages on the failed drug test, the air-rifle episode and other off-pitch matters are NOT used. Read in full.",
+      "url": "https://www.theguardian.com/football/blog/2020/nov/26/the-best-and-worst-moments-of-diego-maradona-turbulent-career"
+    },
+    {
+      "id": "src_maradona_mora_guardian",
+      "kind": "press",
+      "title": "Marcela Mora y Araujo, 'Diego Maradona: the achingly human superstar who embodied Argentina', The Guardian, 25 November 2020 -- essay by an Argentine writer; the passage used says he was often regarded as a prima donna for turning up late to training yet was extremely hard working in his own terms, and that Cesar Menotti always said Maradona stayed at training longer than anyone and practised what he felt he was weak at over and over until he mastered it. Retrospective and admiring, with Menotti's view relayed second-hand; the essay's passages on his private life, addictions and health are NOT used. Read in full.",
+      "url": "https://www.theguardian.com/football/2020/nov/25/diego-maradona-the-achingly-human-superstar-who-embodied-argentina"
+    },
+    {
+      "id": "src_maradona_signorini_guardian",
+      "kind": "press",
+      "title": "Guardian staff, 'How a wind-up convinced Maradona he could win World Cup on his own', The Guardian, 7 April 2023 -- extract from 'Inside Diego' by his personal fitness trainer Fernando Signorini on the 1986 pre-tournament camp: the trainer's staged provocation, Maradona's lively press conference the next day and a newspaper headline quoting him that he would be the star of the World Cup. An insider's memoir, so partial and self-interested; used only for the public-statement fact and never alone, and its passages on weight, injuries and conditioning are NOT used. Read in full.",
+      "url": "https://www.theguardian.com/football/2023/apr/07/diego-maradona-win-world-cup-on-his-own-mexico-86"
+    },
+    {
+      "id": "src_maradona_careca_yahoo",
+      "kind": "press",
+      "title": "Marcus Alves, 'The Maradona I knew', Yahoo Sport, 26 November 2020 -- tribute compilation of recollections by Napoli team-mate Careca and others; the one passage used is Careca's remark that Maradona was a team player who would demand that the kit men got the same prize money as the players after wins. A day-after-death tribute, so retrospective and admiring; its passages on private life and addiction are NOT used. Read in full.",
+      "url": "https://uk.sports.yahoo.com/news/maradona-knew-were-always-lot-090518610.html"
+    },
+    {
+      "id": "src_maradona_wilson_guardian",
+      "kind": "press",
+      "title": "Jonathan Wilson, 'Child genius Diego Maradona became the fulfilment of a prophecy', The Guardian, 25 November 2020 -- obituary essay; the one passage used says his 1986 handball was the first of three in high-profile games, followed by a penalty won after handling in the 1989 UEFA Cup final and a hand clearance against the USSR in 1990, and that rules remained something to be got around on the pitch. Independent and critical; its passages on childhood, drugs, tax, politics and character labels were read and are NOT used. Read in full.",
+      "url": "https://www.theguardian.com/football/blog/2020/nov/25/diego-maradona-argentina-child-genius-who-became-the-fulfilment-of-a-prophecy"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 82,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_maradona_gates_milan88, src_maradona_unwin_bilbao, src_maradona_fifamuseum_legend, src_maradona_fifa_eng86, src_maradona_ronay_robbed, src_maradona_shilton_guardian, src_maradona_valdano_guardian, src_maradona_wilson_guardian, src_maradona_murray_guardian, src_maradona_fifa_napoli87 | 1982-1990 | match-history feature + Guardian incident retrospective + FIFA Museum + FIFA match page + match analysis + opposing goalkeeper + team-mate tribute + critical essay + best-moments list + FIFA club history] Before the 1 May 1988 title decider against Milan he said the San Paolo should be all blue and that Milan 'must die' there, and Sacchi later said Maradona told him he had aimed a free-kick at Gullit's hair because he could; the FIFA Museum records a red-card offence against Brazil in 1982, and the Guardian's retrospective describes him squaring up to an opponent and joining the mass brawl after the 1984 Copa del Rey final, for which he received a three-month ban; in 1986 he scored with his hand against England and, in FIFA's quotation of his own account, shouted at team-mates to come and hug him 'or the referee isn't going to allow it', Ronay has him kicking the ball away at an England free-kick late on, Shilton says he cheated and never apologised, and Valdano calls it a goal in which 'he cheated' while describing him as 'as competitive as a starving man'; Wilson lists a handball penalty in the 1989 UEFA Cup final and a hand clearance against the USSR in 1990 as the same pattern (Murray describes the 1990 incident), and after the 1987 title FIFA quotes him calling it worth more to him than a World Cup. Many independent episodes across nine years from critics as well as admirers, so documented and dual-edged, but most accounts are retrospective and several come from one newspaper's features. SELF-CALIBRATION (agent): lowered from 85/0.68 to 82/0.64 (retrospective praise and concentration of the evidence in Guardian features and FIFA's celebratory pages)."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_maradona_fifamuseum_legend, src_maradona_murray_guardian, src_maradona_prothomalo_burruchaga, src_maradona_lisi_uefa89, src_maradona_kuper_espn, src_maradona_bell_fiorentina, src_maradona_valdano_guardian | 1979-1989 | FIFA Museum + best-moments list + team-mate interview + Napoli season feature + ESPN column + match analysis + team-mate tribute] The FIFA Museum records him captaining Argentina to the 1986 title and Napoli to its first Serie A title in 1987 and says he propelled Argentina to the 1979 World Youth Championship (Murray: player of the tournament with six goals); Burruchaga says every player followed him and 'Diego was our leader', Fernando De Napoli says he gave the team confidence before big matches, Kuper writes that he led Argentina's 1986 team, the Guardian's analysis of a 1989 comeback has him arriving at half-time and giving instructions that his team-mates followed, and Valdano describes a Napoleonic personality. Several voices over a decade agree, but the sources describe him as the team's leader rather than documenting how he sought the role, so strong inference at a moderate confidence. SELF-CALIBRATION (agent): lowered from 78/0.62 to 74/0.58 (admiring team-mate concentration: Burruchaga, De Napoli and Valdano are all retrospective voices, and two others are columnists writing in hindsight)."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_maradona_unwin_bilbao, src_maradona_guardian_obit, src_maradona_fifamuseum_blog, src_maradona_lisi_uefa89, src_maradona_gates_milan88 | 1983-1989 | Guardian incident retrospective + Guardian obituary + FIFA Museum essay + Napoli season feature + match-history feature] After Barcelona lost the 1984 Copa del Rey final he squared up to an opponent and then joined a mass brawl, and both the Guardian obituary and the FIFA Museum record disputes with Barcelona's officials before his sale to Napoli; in 1988 four Napoli players wrote demanding coach Ottavio Bianchi's removal, Maradona told reporters that 'the entire team had put together a petition' against him, and Bianchi replied that Maradona was neither the club's president, vice-president nor manager (Gates adds that he sided with the four who signed, though he did not sign himself). Open disputes with officials and a coach are documented at two clubs, but the president dispute is a single line in the obituary, the petition accounts differ on his part, and a brawl is aggression more than staying in disagreement, so strong inference rather than documented and dual-edged. SELF-CALIBRATION (agent): lowered from 78/0.60 to 74/0.56 (interpretation stronger than the behaviour described: a brawl and a petition show confrontation, not necessarily comfort with open disagreement)."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_maradona_kuper_espn, src_maradona_fifa_burruchaga, src_maradona_fifamuseum_blog, src_maradona_fifamuseum_legend, src_maradona_tft_burruchaga, src_maradona_valdano_guardian, src_maradona_fifa_eng86, src_maradona_careca_yahoo | 1986-1989 | ESPN column + FIFA team-mate account + FIFA Museum essay and timeline + football feature + team-mate tribute + FIFA match page + Napoli team-mate tribute] Kuper credits him with five goals and five assists at the 1986 World Cup and writes that he towered over his team-mates yet felt one with them while expecting them to feed him the ball; the FIFA Museum says he was involved in all three goals in the final and Burruchaga describes the pass for his winner, and the Museum counts a penalty and three assists in the 1989 UEFA Cup final; Burruchaga told El Grafico that 'we all helped Diego become what he did' and Valdano calls him generous and committed to team-mates, yet Valdano also says the second England goal 'had nothing to do with the team' and that he stood apart like a soloist; Careca recalls him insisting that the kit staff get the same prize money as the players. His play combined partnership with chosen team-mates and solo brilliance, and the supportive accounts are friendly team-mates' retrospectives, so a middling score with a dual-edged impact."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_maradona_gates_milan88, src_maradona_fifa_eng86, src_maradona_signorini_guardian, src_maradona_kuper_espn, src_maradona_valdano_guardian | 1986-1988 | match-history feature + FIFA match page + trainer's book excerpt + ESPN column + team-mate tribute] Ahead of the 1988 decider he told the press how he wanted the San Paolo to look and what Milan should feel there; on the eve of the England quarter-final he walked in on the staff choosing replacement shirts, pointed to one and said 'We'll beat England in that', and Argentina wore it (FIFA); his trainer's book excerpt reproduces a newspaper headline quoting him before the 1986 tournament that he would be the star of the World Cup, although that is an insider's retelling; Kuper writes that he made himself a central character of every World Cup he played in, and Valdano that he could dominate the stage like a rock star. Public statements and interventions in different years point the same way, but the quotation set is short, one source is a memoir by his trainer, and nothing shows how he behaved in quieter group settings, so a moderate score and confidence; dual-edged because the same sources show his words sharpening rivalries."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_maradona_mora_guardian, src_maradona_valdano_guardian, src_maradona_prothomalo_burruchaga, src_maradona_ronay_robbed, src_maradona_lisi_uefa89 | 1979-1989 | Argentine columnist relaying Menotti + team-mate tribute + team-mate interview + match analysis + Napoli season feature] Marcela Mora y Araujo writes that Menotti always said Maradona stayed at training longer than anyone and practised what he felt he was weak at over and over until he mastered it, while also noting that he was often regarded as a prima donna for turning up late to training; Valdano says that in training he would send the ball high into the air and do exercises beneath it, and tells how Maradona juggled the ball from his room to the lift to the dining room after Bilardo insisted on living with the ball at one's feet; Burruchaga says Maradona tried such goals in practice and that the two rehearsed the through pass; Ronay reports his own account of working out in Italy the tempo at which to play, and Lisi has him juggling a lemon in the dressing room. The pieces point to constant ball work and practice, but the strongest line is a coach's saying relayed second-hand, much of the rest is playful display rather than improvement, and the same essay records late arrivals, so a moderate score."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "디에고 마라도나"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT (done before deep reading): QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q17515 returned en label 'Diego Maradona', description 'Argentine football player and manager (1960-2020)', born 1960-10-30, died 2020-11-25, citizenship Argentina (Q414), instance of human, ko label '디에고 마라도나'; the lead's QID hint was correct. SLUG/QID CHECK: no existing candidate file, production roster entry or QID collision anywhere in the roster51 worktree for slug diego-maradona or Q17515. Region latin_america is a valid controlled value. Zero politics: nothing political is scored. At least two independent perspectives and many substantive non-self behavioural sources were identified; a canonical significance source (FIFA Museum) and a rights-clear portrait were found. CANONICAL SIGNIFICANCE SOURCE: FIFA Museum, 'Maradona' (The Legend of Football) timeline (https://digital.fifamuseum.com/maradona), read in full and supported by the FIFA Museum career essay, the FIFA Annual Report 2020 obituary, FIFA.com's 1986 and 1987 articles and the Guardian obituary. The official AFA and SSC Napoli websites were searched for but no usable page was found, so FIFA is the institutional anchor. DECEASED SUBJECT (died 2020): only documented public professional football conduct is scored -- match and training behaviour, relations with team-mates, coaches and club officials, and public statements around matches, as described by team-mates, coaches, opponents, FIFA and reporters. Excluded entirely: drug use, doping bans, addiction, health, injuries and medical detail (including painkilling injections), legal and tax matters, family and private life, the Camorra, politics (including the Falklands War framing of the 1986 England match, which several sources use and which is not scored), his 1978 omission's emotional aftermath, his later coaching career, character labels without a cited instance, and anything about his death; several sources carry such passages (the Guardian obituary, Wilson's essay, Ronay's column, the Valdano tribute, the Yahoo tribute, the Signorini excerpt) and they are used only for sporting facts. Nothing is inferred from illness or death. READ (24 substantive sources, plus Wikidata and Commons/Flickr for identity and portrait only): FIFA Museum timeline; FIFA Museum essay; FIFA Annual Report 2020 obituary; FIFA.com 'Relive Maradona's Mexico '86 magic', the England match page, 'Maradona's immortal 11-second dash', 'Burruchaga's Azteca ecstasy' and the French-language '10 mai 1987' history; the Guardian's obituary (Julie Welch), Valdano's column (translated from El Pais), Barney Ronay's re-watch of the England match, Donald McRae's Peter Shilton interview, Will Unwin on the 1984 Copa del Rey brawl, The Gentleman Ultra pieces by Emmet Gates (Napoli-Milan 1988) and Henry Bell (Napoli-Fiorentina 1989), Scott Murray's best-and-worst list, Marcela Mora y Araujo's essay, Jonathan Wilson's essay and the Signorini excerpt; ESPN's Simon Kuper; These Football Times (Burruchaga feature, 1989 UEFA Cup feature by Clemente Lisi); Prothom Alo's Burruchaga interview; Yahoo Sport's Careca tribute. Several of the FIFA pages are script-rendered and were read through the built-in browser; the rest were read as downloaded page text. Read but not cited: a syndicated Ghanaian Times feature on the 1986 tournament (original author not credited on the page), the Guardian's Joy of Six, Ronay's 'Brave, intelligent' column, Tim Lewis's Observer piece on Napoli's 1988 collapse (mostly Camorra rumours), the Guardian's 2026 World Cup pieces on the Azteca and the semi-final (political framing), and La Nacion's account of the first title. PERSPECTIVES: FIFA and its museum (institutional, celebratory); team-mates Burruchaga, Valdano, Hector Enrique, Fernando De Napoli, Careca and Ferrara (via FIFA, ESPN, TFT, Prothom Alo, the Guardian and Yahoo, all retrospective and mostly admiring); coaches Bilardo (as quoted to biographer Jimmy Burns and in Valdano's column), Menotti (as relayed by Mora y Araujo, Murray and FIFA) and Bianchi (as quoted by FIFA, TFT and the Guardian); opponents and critics Shilton, Lineker, Robson and Barnes (FIFA, the Guardian); independent columnists and match analysts (Kuper, Ronay, Wilson, Welch, Unwin, Bell, Gates, Murray); an insider memoir extract by his trainer Fernando Signorini; and Maradona's own words as quoted by FIFA and others, marked as self and never the sole support for a row. CALIBRATION: six rows are supportable and the sparseness is deliberate; the highest score is competitiveness at 82 and the highest confidence is 0.64, because the sources are mostly retrospective, from inside his circle or from celebratory institutional pages, with real critical voices (Shilton, Valdano on the handball, Ronay, Unwin, the obituaries) and heavy concentration in Guardian features. Persistence, discipline, risk tolerance, adaptability, intuitive synthesis, achievement drive, autonomy need and persuasiveness were considered and not scored because they rest on one retelling, on skill rather than disposition, or on material (lifestyle, health, drug testing) that is excluded. SELF-CALIBRATION (agent): three rows were lowered before return -- competitiveness 85/0.68 to 82/0.64 (retrospective praise and Guardian/FIFA source concentration), leadership drive 78/0.62 to 74/0.58 (admiring team-mate concentration) and conflict tolerance 78/0.60 to 74/0.56 (interpretation stronger than the behaviour described); the other rows were not changed. DISAGREEMENTS NOTED: the FIFA 'immortal dash' page is dated 2016 while its text says '25 years ago today', so no date is taken from it; the FIFA Museum essay gives 22 goals in 36 games at Barcelona while FIFA's annual report and the Guardian give 38 goals, and fees quoted for the two world-record transfers differ by source, so no goal total or fee figure is used; Burruchaga's words to Maradona before the winning pass differ between the FIFA and TFT accounts, so only the gist is used; Maradona told reporters the whole team signed a petition against Bianchi while Gates says four players signed and Maradona did not; the 1989 UEFA Cup final hand incident is described muddily by TFT and briefly by Wilson, so it is cited only as part of Wilson's list; the second England goal is timed at 11 seconds by FIFA and at 10.8 seconds by the Guardian obituary, so no duration is stated in the cards. NOT OPENED: Jimmy Burns's biography 'Hand of God', Maradona's autobiographies, Signorini's book beyond the excerpt, Asif Kapadia's documentary, Marca, El Pais and Sky Italia originals, and The Athletic and New York Times coverage. PORTRAIT: Commons 'Diego Maradona 2012 2.jpg', a Flickr upload (3 October 2013, licence confirmed by Commons user Ureinwohner) of photograph 7448907672 whose description credits Vinod Divakaran, whose EXIF Artist field reads 'Vinod Divakaran' (Canon EOS 7D) and which was published by the Flickr account Doha Stadium Plus Qatar; taken 30 May 2012 at Al Wasl's GCC Champions League semi-final, so it shows him at 51 as a coach, not in his playing years; Commons licence CC BY 2.0, the live Flickr page opened on 2026-10-16 shows licence id 4 (CC BY 2.0, 'Some rights reserved') and no All Rights Reserved notice, and the embedded metadata carries no conflicting copyright statement; downloaded at 1800 x 2221, cropped to a 1312 x 1640 head-and-shoulders area (club badges excluded) and downscaled once to 960 x 1200, never upscaled. Anefo/Nationaal Archief checked: Commons searches returned no Maradona photograph there. Rejected: El Grafico and other Argentine press photographs of 1976-1995 (tagged public domain under an Argentine photograph rule with unknown authors, a generic tag that does not establish United States status for post-1976 images), Gerd Eichmann's CC BY-SA 4.0 slides of Napoli v Argentina on 29 March 1986 (wide stadium shots in which no face is discernible), Donna Hilton's 2006 Soccer Aid shot (CC BY-SA 3.0, face too small at 1024 x 937), Armando Tovar's 2006 photograph (800 x 533, too small), government photographs showing him with Argentine presidents (political setting), and fan photographs with third parties; Neogeolegend's CC BY 2.0 portrait from the 2012 GCC final (a good fallback by a Commons handle rather than a named person)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/diego-maradona-divakaran-2012.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Diego Maradona 2012 2.jpg' -- Flickr upload of Flickr photograph 7448907672 (title 'Diego Maradona', Flickr account Doha Stadium Plus Qatar) whose description credits 'Picture by Vinod Divakaran' and whose original EXIF Artist field reads 'Vinod Divakaran' (Canon EOS 7D), taken 30 May 2012 at Al Wasl's GCC Champions League semi-final against Al Khor, when Maradona was Al Wasl's coach; uploaded to Commons by the Flickr upload bot on 3 October 2013 with the licence confirmed by Commons user Ureinwohner as CC BY 2.0; the live Flickr page (opened 2026-10-16) shows licence id 4 (CC BY 2.0, 'Some rights reserved') and no 'All rights reserved' notice, and the file's embedded metadata carries no conflicting copyright statement; original 1800 x 2221 pixels, cropped to a 1312 x 1640 head-and-shoulders area and downscaled once to 960 x 1200 (never upscaled).",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Vinod Divakaran (Doha Stadium Plus Qatar), 30 May 2012, CC BY 2.0, cropped and downscaled from the original",
+    "attributionUrl": "https://www.flickr.com/photos/66463488@N06/7448907672",
+    "creator": "Vinod Divakaran (Doha Stadium Plus Qatar)",
+    "date": "2012-05-30",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Diego_Maradona_2012_2.jpg"
+  }
+}

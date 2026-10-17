@@ -83,7 +83,7 @@ test("people directory: default (unfiltered) view shows the current live Directo
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
-  await expect(page.getByText(/^477 people$/)).toBeVisible();
+  await expect(page.getByText(/^490 people$/)).toBeVisible();
 });
 
 test("people directory: heading hierarchy still holds with an active search filter (en-US)", async ({ page }) => {
@@ -668,7 +668,13 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // Jony Ive and Katalin Kariko each cross BOTH the curiosity and collaboration
   // thresholds on their own evidence (verified on the rendered Directory result
   // list).
-  expect(bodyText).toMatch(/전체\s*478명\s*중\s*16명/);
+  // Total updated again 478->491 (Roster51, 2026-10-17, docs/checkpoints/
+  // roster51.md: 13 new people, all freshly researched, zero backlog reuse, two
+  // portrait holds). Unlike Roster50 the cross-facet count did NOT move: none of
+  // the 13 crosses BOTH the curiosity and collaboration thresholds, so the
+  // filtered count stays 16 and only the "out of N" total moves (verified on the
+  // rendered Directory result list).
+  expect(bodyText).toMatch(/전체\s*491명\s*중\s*16명/);
   expect(bodyText).toContain("제니퍼 다우드나");
   expect(bodyText).toContain("리타 레비몬탈치니");
   expect(bodyText).toContain("조너선 아이브");
