@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-franklin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John Franklin",
+    "aliases": [
+      "Sir John Franklin"
+    ],
+    "wikidataId": "Q2655",
+    "birthYear": 1786,
+    "deathYear": 1847,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_franklin_wikidata",
+      "kind": "wikidata",
+      "title": "John Franklin (Q2655) -- verified live via the Wikidata API (2026-10-16): English label 'John Franklin', description 'British naval officer and explorer (1786-1847)', born 16 April 1786 at Spilsby, died 11 June 1847 on King William Island, citizenship United Kingdom, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2655"
+    },
+    {
+      "id": "src_franklin_dcb",
+      "kind": "biography",
+      "title": "Janice Cavell, 'Franklin, Sir John', Dictionary of Canadian Biography, vol. 7 (University of Toronto / Universite Laval; entry revised 2019) -- CANONICAL SIGNIFICANCE SOURCE: the scholarly biography in Canada's national biographical dictionary. It covers his survey training under Flinders and the 1818 Spitsbergen voyage; the hastily planned 1819-22 overland expedition (promised company supplies not forthcoming, the Coppermine descent, over 600 miles of coast traced, eleven of twenty men dead, and 'failure to turn back soon enough' as the main criticism of his leadership, with his orders and Barrow's expectations as mitigating factors); the carefully planned 1825-27 expedition (more than 1,200 miles of coast charted, knighted 1829); the 1845 expedition and its loss (Victory Point record, the searches, the wrecks found in 2014 and 2016); the 19th-century hero image and the late-20th-century fall in his reputation, including the hostile readings of Stefansson, Berton, McGoogan and Fleming and her rebuttals; and her verdict that his contribution to the knowledge of Canada's coasts was second only to Vancouver's. Independent scholarly voice, balanced, but a single biographer stands behind most of the rows; its passages on his family, marriages, religion, naval battles, Mediterranean command and the Van Diemen's Land governorship were read and are not used for scoring. Read in full.",
+      "url": "https://www.biographi.ca/en/bio/franklin_john_7E.html"
+    },
+    {
+      "id": "src_franklin_davis1985",
+      "kind": "biography",
+      "title": "Richard C. Davis, 'John Franklin (1786-1847)', Arctic Profiles, Arctic (Arctic Institute of North America), vol. 38 no. 4 (December 1985), pp. 338-339 -- independent scholarly profile by the editor of Franklin's journals: his reputation obscured by the last expedition; the Coppermine journey (the advanced season and a mutinous crew forcing him back at Point Turnagain, then a 500 km compass-bearing crossing to Fort Enterprise); the 1825-27 expedition (boats in place of bark canoes, Fort Franklin on Great Bear Lake, and turning back at Return Reef rather than repeat the experience of five years earlier); over 2,800 km of previously unknown coast put on the map by parties under his command; and the view that the 1845 expedition itself added nothing direct to the geographical unfolding of the Arctic, though the searches mapped much of it. Short independent profile with a different framing from the dictionary (it gives his birth as 15 April and a coast total that differs from the dictionary's); its remarks on his marriages are not used. Read in full.",
+      "url": "https://journalhosting.ucalgary.ca/index.php/arctic/article/view/65206"
+    },
+    {
+      "id": "src_franklin_richardson1856",
+      "kind": "biography",
+      "title": "John Richardson, 'Franklin, Sir John', Encyclopaedia Britannica, 8th edition (1856), reproduced on Britannica.com as 'Sir John Richardson on Sir John Franklin' -- tribute by the surgeon-naturalist who served under him on both overland expeditions and led a search in 1848-49 (Britannica's editors call it an unabashed tribute, and Richardson himself says it may read as eulogy): his surveying training; the 1818 voyage and his request to continue alone; the 1819-22 and 1825-27 expeditions (5,550 miles travelled by the first party, the coast traced to nearly the 150th meridian); his 'prudent conduct and conciliating manners' with the rival fur companies; the calmness, resourcefulness and credit to subordinates that Richardson attributes to him; and a conjecture on the 1845 expedition's fate. Admiring eyewitness, used as one voice only and never as sole support; its sailing date (26 May) differs from the 19 May given by three modern sources, and its long passages on the Van Diemen's Land governorship, Greece and family were read and are not used. Read in full.",
+      "url": "https://www.britannica.com/topic/Sir-John-Richardson-on-Sir-John-Franklin-1994314"
+    },
+    {
+      "id": "src_franklin_parks_who",
+      "kind": "institution",
+      "title": "Parks Canada, 'Who's who in the Franklin expedition', Wrecks of HMS Erebus and HMS Terror National Historic Site -- institutional sketches: Franklin's career and overland expeditions (in 1819-22 he and his men 'lacked the experience and skills to survive on the land' and 11 of 19 died; for 1825-27, 'learning from the mistakes of his last expedition, he planned a more self-sufficient effort' with supplies sent ahead to Hudson's Bay Company posts and nearly 2,000 km of coast charted from the Mackenzie), his 1845 command at 58, the Victory Point note giving his death on 11 June 1847, and the entries for Crozier, Fitzjames, John Rae (Inuit testimony reported to the Admiralty), McClintock (the 1859 note) and Lady Franklin. Government heritage-agency summary that relies on the secondary literature (its count of 19 men differs from the dictionary's 20). Read the Franklin, Rae, McClintock and Lady Franklin entries in full; the remaining crew entries were skimmed and not used.",
+      "url": "https://parks.canada.ca/lhn-nhs/nu/epaveswrecks/culture/histoire-history/qui-who"
+    },
+    {
+      "id": "src_franklin_parks_search",
+      "kind": "institution",
+      "title": "Parks Canada, 'Searching for Franklin's lost ships', Wrecks of HMS Erebus and HMS Terror National Historic Site -- the agency's account of its 2008-2016 search: consultation with Inuit whose oral histories encompass Franklin and his ships, the 1992 national-historic-site designation and 1997 memorandum with Britain, the 2010 finding of the search ship HMS Investigator, the finding of HMS Erebus on 2 September 2014 and of HMS Terror in 2016 after a tip from Gjoa Haven Inuk Samy Kogvik, and the statement that the search for Franklin helped map the Canadian Arctic. Institutional account of the search and the wrecks rather than of Franklin's own conduct; used only for the card on the expedition's aftermath. Read in full.",
+      "url": "https://parks.canada.ca/lhn-nhs/nu/epaveswrecks/culture/archeologie-archeology/recherche-search"
+    },
+    {
+      "id": "src_franklin_rmg_story",
+      "kind": "institution",
+      "title": "Royal Museums Greenwich, 'What happened to the crew of Erebus and Terror?' (National Maritime Museum story page) -- museum account of the 1845 expedition: two ships and 129 men, 'the worst disaster in the history of British polar exploration', Franklin as an explorer who had made two earlier attempts and was keen to claim the prize of the Northwest Passage, the ships' preparation, the route to Beechey Island and King William Island, the Victory Point note (Franklin died on 11 June 1847; the ships were abandoned on 22 April 1848), more than 30 search expeditions between 1847 and 1880, Rae's report of Inuit testimony, the lead-poisoning hypothesis, and the finding of the wrecks in 2014 and 2016. Museum overview, authoritative on the objects and cautious about the causes of death; the sections on shipboard life and animals were not used. Read in full.",
+      "url": "https://www.rmg.co.uk/stories/maritime-history/what-happened-to-erebus-terror-crew-true-story"
+    },
+    {
+      "id": "src_franklin_rmg_archive",
+      "kind": "archive",
+      "title": "Royal Museums Greenwich, archive catalogue record 'Franklin, Sir John, Rear-Admiral, 1786-1847' (collection FRN, a volume of his letters of 1819-1845 to a niece and to Lieutenant Kendall) -- the museum's biographical note: the Flinders survey, the 1818 Spitsbergen expedition, command of an expedition down the Coppermine River in 1819-22 and of a second down the Mackenzie in 1825-27, the 1845 command and his death on board Erebus. Short catalogue note, used only to corroborate dates and the outline of his Arctic career; the letters themselves were not opened. Read in full.",
+      "url": "https://www.rmg.co.uk/collections/archive/rmgc-object-491754"
+    },
+    {
+      "id": "src_franklin_tce",
+      "kind": "institution",
+      "title": "Leslie H. Neatby and Keith Mercer, 'Sir John Franklin', The Canadian Encyclopedia (Historica Canada; published 2008, last edited 25 September 2026) -- encyclopedia overview: the Coppermine and Mackenzie expeditions that mapped large stretches of coast, the 1845 expedition's provisions, strengthened bows, auxiliary steam engines and desalinators, its loss, the search expeditions, the wrecks found in 2014 and 2016, and a legacy line ranking his additions to the map of Canada's coasts behind only Vancouver's. Public-education reference work that draws on the same literature as the dictionary entry (its legacy line repeats the dictionary's), so not an independent voice. Read in full.",
+      "url": "https://www.thecanadianencyclopedia.ca/en/article/sir-john-franklin"
+    },
+    {
+      "id": "src_franklin_spri",
+      "kind": "institution",
+      "title": "Scott Polar Research Institute, Polar Museum tour, entry 'Sir John Franklin' -- short institutional statement that he is best remembered for his Arctic surveys and that the museum holds maps of his routes, silver spoons from the expedition and 1845 daguerreotypes of its members. Its figure of over 3,000 miles of coastline is not used (other sources give about 2,800 km or 1,200 miles). Orientation and corroboration only. Read the Franklin entry in full; the tour's other sections were skimmed and not used.",
+      "url": "https://www.spri.cam.ac.uk/museum/tour/"
+    },
+    {
+      "id": "src_franklin_csm2000",
+      "kind": "press",
+      "title": "Ben Arnoldy, 'The good (c)old days of exploration', The Christian Science Monitor, 24 February 2000 -- short review of Fergus Fleming's 'Barrow's Boys', which has a chapter on Franklin: the popular critical reading of Franklin as a man who bumbled into northern Canada and of the Admiralty missions as marked by inexperienced leadership and poor planning. Used only as the popular counter-voice that the dictionary entry rebuts; a reviewer's gloss on another author's book, so no behavioural weight. Read in full.",
+      "url": "https://www.csmonitor.com/2000/0224/p20s1.html"
+    },
+    {
+      "id": "src_franklin_carnavalet",
+      "kind": "institution",
+      "title": "Paris Musees Collections, Musee Carnavalet record S1873, 'Portrait de Sir John Franklin (1786-1847), marin et explorateur anglais' (bronze medallion by Pierre-Jean David d'Angers, cast by Louis Richard, signed 'DAVID / 1829', 12.5 cm in diameter, inscribed 'Captain / Franklin R.N.', acquired 1882), with the museum's own CC0 statement and download option, and the Wikimedia Commons file of the museum's photograph (photographer Eric Emo, 2942 x 3000 pixels, CC0) -- opened to check the portrait's licence, creator and date. Not used for any scoring.",
+      "url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/portrait-de-sir-john-franklin-1786-1847-marin-et-explorateur-anglais"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_franklin_dcb, src_franklin_richardson1856, src_franklin_davis1985, src_franklin_parks_who, src_franklin_tce | 1818-1845 | scholarly dictionary biography + admiring eyewitness tribute + independent scholarly profile + heritage-agency page + encyclopedia] In 1818, after the Dorothea was damaged in the ice, Franklin asked to take the Trent on alone to carry out the voyage, which his commander refused (the dictionary and Richardson agree); in 1821 he began the northern journey with inadequate provisions, the dictionary notes that his orders did not say when he could turn back, and he pushed the coastal survey eastward until 21 August, by which time the party could not return by its outward route (Davis says the advanced season and a mutinous crew forced him back at Point Turnagain); eleven of the twenty men died before the survivors were rescued, and the dictionary's main criticism of his leadership is that he did not turn back soon enough; after that disaster he led a second expedition in 1825-27 (Parks Canada, Davis), and at nearly sixty he pursued the 1845 command 'with great tenacity' (the dictionary; the encyclopedia says he campaigned hard). Several documented episodes of continuing toward an objective across four decades, but the 1845 pursuit and the 1821 push rest mainly on one biographer's reading, much of the early episode is told through his orders and the fur companies' failures, and the same trait carried a heavy cost, so strong inference at a moderate confidence with a dual-edged impact. SELF-CALIBRATION (agent): lowered from 76/0.60 to 70/0.54 (single-biographer dependence: the 1845 tenacity and the 1821 push rest on one scholar's reading; interpretation of motive stronger than the behaviour described)."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_franklin_dcb, src_franklin_richardson1856, src_franklin_tce | 1816-1845 | scholarly dictionary biography + admiring eyewitness tribute + encyclopedia] Without a post after the war, Franklin applied for the planned 1816 Congo expedition (the dictionary, from his own letters), then refreshed his surveying skills and, using his connections and his brother's Admiralty contacts, won the backing of Sir Joseph Banks for the 1818 Arctic voyage (the dictionary; Richardson says he made his wishes known to Banks and set himself to refresh his surveying); after that voyage he put forward his own plan for a boat-sledge expedition over the polar ice, which the Admiralty rejected but which the dictionary says later became the basis of Parry's 1827 attempt, and early in 1819 he was appointed to the overland command; and in 1844-45 the dictionary says he pursued the 1845 command with great tenacity (the encyclopedia: he campaigned hard). Repeated self-started moves to obtain exploring commands, documented by a scholar and corroborated on the 1818 episode by an eyewitness, but the reasons come from his own letters and the dictionary's reading, and patronage-seeking was conventional in his service, so strong inference at a moderate confidence. SELF-CALIBRATION (agent): lowered from 74/0.56 to 70/0.52 (single-biographer dependence and self-quotation: the 1816 and 1817-18 moves come from his letters as quoted by one scholar)."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_franklin_dcb, src_franklin_davis1985, src_franklin_richardson1856, src_franklin_parks_who | 1818-1826 | scholarly dictionary biography + independent scholarly profile + admiring eyewitness tribute + heritage-agency page] In 1818 he asked to continue a storm-damaged ice voyage alone (the dictionary; Richardson); in 1819-21 he accepted an overland command whose orders carried no conditions for abandoning the mission and began the northern journey with inadequate provisions, planning to live by hunting and by food from the Inuit, a venture that the dictionary and Parks Canada record as ending with eleven men dead; in 1845 he accepted the command although, the dictionary says, he knew the ships would meet heavy ice. Against this, on 16 August 1826 he judged that the point beyond which perseverance would be rashness had been reached and turned the party back (the dictionary; Davis), so the evidence shows a readiness to accept danger together with a limit he came to set. Documented acceptance of hazardous commands by several sources, but much of the danger came with Admiralty orders and company support that failed, and the 1826 decision cuts the other way, so a moderate score with a dual-edged impact. SELF-CALIBRATION (agent): lowered from 66/0.52 to 62/0.50 (interpretation stronger than behaviour: orders and failed supplies, not only his own choices, created much of the risk)."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_franklin_dcb, src_franklin_parks_who, src_franklin_davis1985, src_franklin_tce | 1819-1845 | scholarly dictionary biography + heritage-agency page + independent scholarly profile + encyclopedia] The dictionary calls the 1819 expedition hastily planned, with few supplies of its own and reliance on promised company help that did not arrive; for 1825-27 it credits his careful planning, Parks Canada says he planned a more self-sufficient effort after the mistakes of the last one, making preparations well in advance and sending supplies ahead to Hudson's Bay Company posts, Davis describes four sturdy boats rowed by seamen in place of bark canoes and a winter base at Fort Franklin, and the encyclopedia calls the expedition well organised; for 1845 the dictionary says he insisted that the ships carry auxiliary steam engines, advised taking pemmican and intended to supplement rations with game. A clear improvement in advance preparation across expeditions, documented by several sources; but the first expedition was poorly planned, the 1845 preparations were largely the Admiralty's and only partly attributed to him, and the second-expedition sources overlap, so a moderate score with a dual-edged impact. SELF-CALIBRATION (agent): lowered from 64/0.52 to 60/0.50 (derivative institutional sources repeating one narrative: Parks Canada, the encyclopedia and the dictionary overlap)."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_franklin_dcb, src_franklin_davis1985 | 1820-1826 | scholarly dictionary biography + independent scholarly profile] On 16 August 1826, with ice and fog delaying his boats, he remembered the 1821 catastrophe, concluded that the point beyond which perseverance would be rashness had been reached, and turned back with all his men safe (the dictionary quotes the phrase without naming its source, so it reads as his own words; Davis, independently, says he did not want to repeat the experience of five years earlier and turned the party back at Return Reef); the dictionary adds that in 1820 he wrote of adapting to the new diet faster than he expected, that it was on his advice that pemmican was taken on later ship expeditions, and that Stefansson's claim that he stubbornly refused to hunt as the Inuit did is wrong. A documented change of limit between two expeditions with two independent scholars agreeing, but one decision carries the row, the decisive phrase appears to be Franklin's own, the 1845 expedition shows no comparable documented change, and the turn-back meant missing the supporting ship, so a moderate score. SELF-CALIBRATION (agent): lowered from 64/0.52 to 60/0.50 (self-quotation through the dictionary and dependence on a single decisive episode)."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_franklin_dcb, src_franklin_richardson1856 | 1801-1818 | scholarly dictionary biography + admiring eyewitness tribute] As a midshipman on Flinders's survey voyage he learned astronomy and surveying from Flinders and earned the nickname 'Mr. Tycho Brahe' for his diligence, and Flinders wrote that he could learn everything they could show him (the dictionary, which also quotes Franklin's own letters of studying navigation, geography, French and Latin); Richardson says he acquired from Flinders a correctness of astronomical observation and a skill in surveying that proved of eminent use; after the war he refreshed his surveying skills before seeking an Arctic post (the dictionary; Richardson says he set himself to it sedulously). Two periods of deliberate skill-building documented by a scholar and an acquaintance, but the account of his study rests on his own letters and an admiring tribute, and the skills served a career, so inference-level at a modest confidence. SELF-CALIBRATION (agent): lowered from 62/0.50 to 58/0.48 (self-quotation through the dictionary and admiring-source concentration)."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 프랭클린"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT (done before deep reading): QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q2655 returned en label 'John Franklin', description 'British naval officer and explorer (1786-1847)', born 1786-04-16 (Spilsby), died 1847-06-11 (King William Island), instance of human, ko label '존 프랭클린'; the lead's hint was correct. SLUG/QID CHECK: no existing candidate file, production roster entry or QID collision in the roster51 worktree for slug john-franklin or Q2655 (aretha-franklin is a different person). Region western_europe is a valid controlled value; era 19th_century (Dalton 1766-1844 is the precedent for a person spanning the 18th and 19th centuries). Vocabulary: occupation explorer, field exploration, tag explorer, archetype scientific_explorer and impact domains historical and scientific already exist and are used by other explorer candidates (David Livingstone, Ernest Shackleton and others); naval_commander and military_leader were deliberately not used. Zero politics: his naval service (Copenhagen, Trafalgar, New Orleans, the HMS Rainbow command and Patras) and the Van Diemen's Land lieutenant-governorship are incidental and unscored; command of the Arctic expeditions is treated as exploration leadership, but no leadership or conflict row was scored because the dictionary's evidence on his leadership comes from naval service and admiring subordinates. At least two independent perspectives and several substantive non-self behavioural sources were identified; a canonical significance source and a rights-clear portrait were found. CANONICAL SIGNIFICANCE SOURCE: Janice Cavell, 'Franklin, Sir John', Dictionary of Canadian Biography, vol. 7 (https://www.biographi.ca/en/bio/franklin_john_7E.html), a university-published scholarly biography; second significance statements are Richard C. Davis's Arctic Profile (https://journalhosting.ucalgary.ca/index.php/arctic/article/view/65206), the Royal Museums Greenwich story page (https://www.rmg.co.uk/stories/maritime-history/what-happened-to-erebus-terror-crew-true-story), Parks Canada's pages on the wrecks site and the Scott Polar Research Institute's Polar Museum entry. READ (10 cited non-Wikidata sources, six of them substantive and four short or derivative, plus the Paris Musees and Commons pages for the portrait only): the dictionary entry; Davis's two-page profile; Richardson's 1856 tribute as reproduced by Britannica; Parks Canada's 'Who's who' page (Franklin, Rae, McClintock and Lady Franklin entries) and its search page; the Royal Museums Greenwich story page and its archive catalogue record (the museum's portrait record BHC2695 and its short page on HMS Terror were also opened, the former for the portrait check); The Canadian Encyclopedia article; the Polar Museum tour entry; and a Christian Science Monitor review of Fergus Fleming's book. Read but not cited: a Hakai Magazine review of Russell Potter's 'Finding Franklin' (nothing about Franklin's own conduct) and a Cambridge Core preview of Janice Cavell's review of Andrew Lambert's biography (paywalled; only the preview and references were visible). PERSPECTIVES: a scholarly dictionary biographer who rebuts the hostile readings (Cavell); an independent scholar and editor of Franklin's journals with a different framing (Davis); an admiring eyewitness and subordinate (Richardson, 1856, one voice only); museum and heritage-agency accounts (Royal Museums Greenwich, Parks Canada, the Scott Polar Research Institute, The Canadian Encyclopedia); the late-twentieth-century critical readings (Stefansson, Berton, McGoogan, Fleming) seen only through the dictionary and one review; and Franklin's own words and letters as quoted by Cavell (self; never sole support). CALIBRATION: six rows are supportable and the sparseness is deliberate; the highest score is 70 (persistence, proactive agency) and the highest confidence 0.54, because a single scholarly biographer carries most rows, the institutional pages repeat one narrative, Richardson is admiring, and several key statements are Franklin's own words as quoted by that scholar. Traits considered and not scored: leadership drive and conflict tolerance (the evidence is naval command and admiring subordinates), collaboration (the voyageur and Dene relationships are described through the expedition's disasters), achievement drive (his ambition is inferred from his letters by one scholar and the dictionary itself says it faded after 1822), resourcefulness and curiosity (characterisation by Cavell and Richardson with little independent behaviour), persuasiveness (one episode with Akaitcho), decisiveness and detail orientation. SELF-CALIBRATION (agent): all six rows were lowered before return -- persistence 76/0.60 to 70/0.54 (single-biographer dependence; interpretation of motive), proactive agency 74/0.56 to 70/0.52 (single-biographer dependence; self-quotation), risk tolerance 66/0.52 to 62/0.50 (interpretation stronger than behaviour), planning orientation 64/0.52 to 60/0.50 (derivative sources repeating one narrative), belief updating 64/0.52 to 60/0.50 (self-quotation through the dictionary; one decisive episode) and mastery orientation 62/0.50 to 58/0.48 (self-quotation; admiring-source concentration). EXCLUDED: his family and private life (marriages, his daughter, his first wife's illness and death, his religion), his naval battles and ship commands, the Mediterranean service, the Van Diemen's Land governorship (including the dispute with Montagu and Lord Stanley's despatch), the cannibalism and murder reports and the lead-poisoning and health theories as personality evidence (only that men died is used), Lady Franklin's campaign and the Dickens-Rae controversy, and memorials and fiction. DISAGREEMENTS NOTED: his birth is 15 April in Davis and 16 April in the dictionary, Parks Canada and Wikidata (no card gives a day); the first party was 20 men (the dictionary) or 19 (Parks Canada), so the cards give eleven deaths without a denominator; the expedition sailed on 19 May (the dictionary, Parks Canada and the encyclopedia) or 26 May (Richardson); coast charted is over 1,200 miles (the dictionary), over 2,800 km (Davis), nearly 2,000 km from the Mackenzie (Parks Canada) or over 3,000 miles (the Polar Museum), so card 1 attributes the 2,800 km figure to Davis and the Polar Museum figure is not used; in 1821 the dictionary says he pushed forward until 21 August while Davis says the season and a mutinous crew forced him back at Point Turnagain, which the moment states as a difference; whether the 1845 expedition completed the last link of the Northwest Passage is contested (the museum says it is thought the party reached Cape Herschel and filled the gap, the encyclopedia says survivors reached the Adelaide Peninsula, Richardson says it is certain, and Davis says the expedition itself added nothing direct), so no card claims he or his men discovered the passage; the number of search expeditions (more than 30 in 1847-1880 per the museum, which also counts 39 missions; some 30 in 1847-1859 per the encyclopedia), so the card says more than 30 and cites the museum. NOT OPENED: Franklin's own Narratives of 1823 and 1828, the journals of Back, Hood and Richardson, Hepburn's account and Franklin's published correspondence (edited by Davis), the Oxford Dictionary of National Biography entry (paywalled), Rae's and McClintock's reports in their own words (only as summarised by Parks Canada and the museum), the books by Lambert, Fleming, Berton, McGoogan, Potter and Wilson (only through reviews or the dictionary), and the Wikipedia article. PORTRAIT: bronze medallion by Pierre-Jean David d'Angers, signed 'DAVID / 1829' and inscribed 'Captain / Franklin R.N.', cast by Louis Richard, 12.5 cm in diameter, Musee Carnavalet inventory S1873 (purchased 1882); the museum's own record on Paris Musees Collections carries 'CC0 Paris Musees / Musee Carnavalet - Histoire de Paris' with a download option and no conflicting restriction, and the Commons file (photographer Eric Emo, uploaded 20 April 2023) is tagged CC0; original 2942 x 3000 pixels, cropped only to remove the white margin and downscaled once to 1200 x 1183 (never upscaled). The record does not say that Franklin sat for it, so it is classified as a historical depiction, not a likeness. Considered and not used: the Royal Museums Greenwich copy after Thomas Phillips (BHC2695), whose page offers only a licensing button and no public-domain statement, the Commons file 'Sir John Franklin by Thomas Phillips' (its credit line says third parties have made copyright claims against Commons for the work; the holding museum's page was not opened), the 1845 Beard daguerreotypes (the Commons file credits only an auction page), and Library of Congress, Wellcome and British Museum prints (not needed once a CC0 museum image was found)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-franklin-david-1829.jpg",
+    "width": 1200,
+    "height": 1183,
+    "source": "Musee Carnavalet - Histoire de Paris (Paris Musees Collections), record S1873, 'Portrait de Sir John Franklin (1786-1847), marin et explorateur anglais': bronze medallion by Pierre-Jean David d'Angers (1788-1856), signed 'DAVID / 1829' and inscribed 'Captain / Franklin R.N.', cast by Louis Richard, 12.5 cm in diameter, purchased by the museum in 1882; the museum's own record states 'CC0 Paris Musees / Musee Carnavalet - Histoire de Paris' and offers the image for download, with no conflicting restriction, and the Wikimedia Commons file of the museum's photograph (photographer Eric Emo, original 2942 x 3000 pixels) is tagged CC0. The record does not say whether Franklin sat for the medallion. The photograph was cropped only to remove the white margin and downscaled once to 1200 x 1183 (never upscaled).",
+    "license": "CC0 1.0 (Paris Musees / Musee Carnavalet record states CC0; 1829 bronze medallion by a sculptor who died in 1856)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Pierre-Jean David d'Angers, bronze medallion of Captain Franklin, 1829 (cast by Louis Richard); Musee Carnavalet - Histoire de Paris (S1873); photograph Eric Emo / Paris Musees, CC0, cropped and downscaled from the original",
+    "attributionUrl": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/portrait-de-sir-john-franklin-1786-1847-marin-et-explorateur-anglais",
+    "creator": "Pierre-Jean David d'Angers",
+    "date": "1829",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_de_Sir_John_Franklin_(1786-1847),_marin_et_explorateur_anglais,_S1873.jpg"
+  }
+}

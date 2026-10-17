@@ -1,0 +1,245 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "demis-hassabis",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Demis Hassabis",
+    "wikidataId": "Q3022141",
+    "birthYear": 1976,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist",
+      "scientist",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "computing",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "nobel_laureate",
+      "prodigy",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hassabis_wikidata",
+      "kind": "wikidata",
+      "title": "Demis Hassabis (Q3022141) -- verified live via the Wikidata API (2026-10-16): English label 'Demis Hassabis', description 'British artificial intelligence researcher (born 1976)', instance of human, born 27 July 1976 in London, no date of death, citizenship United Kingdom, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q3022141"
+    },
+    {
+      "id": "src_hassabis_wikipedia",
+      "kind": "wikipedia",
+      "title": "Demis Hassabis -- English Wikipedia article, opened for orientation and to cross-check dates (Bullfrog, Cambridge, Elixir 1998-2005, UCL PhD 2009, DeepMind 2010, Google 2014, the 2023 merger, the 2024 Nobel Prize, the 2026 change of role) and his honours. Orientation only; not used as support for any trait row, and its statements about his views were not relied on.",
+      "url": "https://en.wikipedia.org/wiki/Demis_Hassabis"
+    },
+    {
+      "id": "src_hassabis_nobel_pr",
+      "kind": "award_body",
+      "title": "The Royal Swedish Academy of Sciences, press release 'The Nobel Prize in Chemistry 2024', 9 October 2024 (NobelPrize.org) -- half of the prize to David Baker 'for computational protein design' and half jointly to Demis Hassabis and John Jumper of Google DeepMind 'for protein structure prediction'; the Academy says that in 2020 they presented AlphaFold2, which has predicted the structure of virtually all of the 200 million known proteins and has been used by more than two million people in 190 countries. CANONICAL SIGNIFICANCE SOURCE. Read in full. Award-body prose, admiring and retrospective, used for the achievement cards and orientation, never alone for a behavioural row.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/"
+    },
+    {
+      "id": "src_hassabis_nobel_pop",
+      "kind": "award_body",
+      "title": "The Royal Swedish Academy of Sciences, 'The Nobel Prize in Chemistry 2024: Popular information' (NobelPrize.org, October 2024) -- the Academy's narrative of the prize: Hassabis's path from chess master at 13 through games development and neuroscience to DeepMind (2010), the sale to Google (2014) and AlphaGo (2016), his decision to enter the CASP13 competition in 2018, AlphaFold's roughly 60 percent accuracy and plateau, John Jumper's promotion and co-leadership with Hassabis of the rebuilt AlphaFold2, the use of transformer networks, and the public release of the code. Read in full. Award-body prose, admiring and retrospective; it is the only source here that tells the AlphaFold project's internal story.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2024/popular-information/"
+    },
+    {
+      "id": "src_hassabis_time2023",
+      "kind": "press",
+      "title": "Billy Perrigo, 'DeepMind's CEO Helped Take AI Mainstream. Now He's Urging Caution', Time, 12 January 2023 -- interview-based profile at DeepMind's London headquarters with named voices (Peter Molyneux of Bullfrog, Google's Alan Eustace, DeepMind's Lila Ibrahim, a critic): his entry to Bullfrog at 15, his 'chess, video games, neuroscience' path in his own words, the 2013 Breakout demonstration that won over Google, the 2014 acquisition and a declined Facebook offer, AlphaGo's 2016 win over Lee Sedol, and the later competition with OpenAI. Independent but built around interviews with him; read in full. Its long passages on AI risk, ethics boards, wealth redistribution and corporate politics are deliberately not scored, and its chronology puts Theme Park after Cambridge, which other sources contradict.",
+      "url": "https://time.com/6246119/demis-hassabis-deepmind-interview/"
+    },
+    {
+      "id": "src_hassabis_time2024",
+      "kind": "press",
+      "title": "Tharin Pillay, 'Demis Hassabis', TIME100 AI 2024 (Time, 5 September 2024) -- short profile note: a twenty-year plan culminating in AGI when he co-founded DeepMind, the lab's 'deep reinforcement learning', Go, protein folding and Gemini, and his own words on AI. Short and partly self-quoted; read in full; used only for the plan and Gemini facts.",
+      "url": "https://time.com/7012767/demis-hassabis/"
+    },
+    {
+      "id": "src_hassabis_time2025",
+      "kind": "press",
+      "title": "Billy Perrigo, 'Demis Hassabis Is Preparing for AI's Endgame', Time, 15 April 2025 (2025 TIME100 profile) -- interview-based profile around the Nobel Prize: his identification as 'a scientist first and foremost', the release of AlphaFold for free, his AGI timeline, and a critical section on military contracts, AI risk and geopolitics. Independent and mixed in tone; read in full. The political, military and AI-safety passages are deliberately not scored.",
+      "url": "https://time.com/7277608/demis-hassabis-interview-time100-2025/"
+    },
+    {
+      "id": "src_hassabis_wired2016",
+      "kind": "press",
+      "title": "Cade Metz, 'In Two Moves, AlphaGo and Lee Sedol Redefined the Future', Wired, 16 March 2016 -- reporter's account from Seoul of the AlphaGo match: Move 37 and Lee Sedol's Move 78, David Silver as lead researcher on AlphaGo, and Hassabis as the head of DeepMind and 'very much the face of AlphaGo' during the match, with his account of the one-in-ten-thousand symmetry and of Lee Sedol's reaction. Independent reporting; read in full.",
+      "url": "https://www.wired.com/2016/03/two-moves-alphago-lee-sedol-redefined-future/"
+    },
+    {
+      "id": "src_hassabis_atlantic2026",
+      "kind": "press",
+      "title": "Sebastian Mallaby, 'The Man Who Thought He Could Keep AI Safe', The Atlantic, 29 March 2026 (adapted from Mallaby's book The Infinity Machine) -- long-form essay by an author who met Hassabis regularly for almost three years: how he met Shane Legg and Peter Thiel, impressed Elon Musk, the 2014 conditions on the Google sale, the 2015 meeting that led to OpenAI, his 'wartime' remark of early 2023 and Mallaby's description of him as 'the most furiously competitive person I have known'. Independent but heavily based on access to Hassabis; read in full. Its central argument concerns AI safety governance, which is deliberately not scored.",
+      "url": "https://www.theatlantic.com/ideas/2026/03/ai-google-deep-mind-hassabis/686527/"
+    },
+    {
+      "id": "src_hassabis_guardian2026",
+      "kind": "press",
+      "title": "Dan Milmo and Aisha Down, 'Google DeepMind enters a new era as co-founder Demis Hassabis shifts AI role', The Guardian, 8 August 2026 -- news report that Hassabis is giving up day-to-day duties as chief executive to become chair of Google DeepMind and chief scientist of Alphabet, that Koray Kavukcuoglu takes over its running, and that DeepMind and Google Brain were merged into Google DeepMind under his leadership three years earlier. Independent news report; read in full. Its anonymous sourcing, commentary on Pentagon work, a former employee's legal challenge, unionisation and Gemini's competitiveness are not used.",
+      "url": "https://www.theguardian.com/technology/2026/aug/08/google-demis-hassabis-deepmind-shifts-role"
+    },
+    {
+      "id": "src_hassabis_mittr2021",
+      "kind": "press",
+      "title": "Will Douglas Heaven, 'DeepMind says it will release the structure of every protein known to science', MIT Technology Review, 22 July 2021 -- report that DeepMind had published AlphaFold's full details and released its source code, then released predicted structures for the human proteome and 20 other organisms and promised more than 100 million further structures; Hassabis calls protein folding a problem he had 'had my eye on for more than 20 years' and the biggest thing DeepMind had done; David Baker, Tom Ellis and Mohammed AlQuraishi comment, with a caution that most predictions were not yet lab-verified. Independent reporting with outside experts; read in full.",
+      "url": "https://www.technologyreview.com/2021/07/22/1029973/deepmind-alphafold-protein-folding-biology-disease-drugs-proteome/"
+    },
+    {
+      "id": "src_hassabis_bbc2020",
+      "kind": "press",
+      "title": "Helen Briggs, 'One of biology's biggest mysteries 'largely solved' by AI', BBC News, 30 November 2020 -- BBC science report on the CASP14 announcement: AlphaFold determined about two thirds of the target proteins with accuracy comparable to laboratory methods, in the judgement of the independent organisers, with comments from UCL's Andrew Martin and EMBL-EBI's Janet Thornton. Independent journalism about the system rather than about Hassabis personally; read in full.",
+      "url": "https://www.bbc.com/news/science-environment-55133972"
+    },
+    {
+      "id": "src_hassabis_casp14",
+      "kind": "institution",
+      "title": "CASP14 organisers (Moult, Fidelis, Kryshtafovych, Schwede, Topf), press release 'Artificial intelligence solution to a 50-year-old science challenge could revolutionise medical research', 30 November 2020 -- the competition organisers' announcement that AlphaFold determined the shape of about two thirds of the CASP14 proteins to laboratory-comparable accuracy, calling it 'a win for DeepMind' and also 'a triumph for team science' that builds on many teams' earlier work, with a comment from EMBL-EBI's Dame Janet Thornton (not affiliated with CASP or DeepMind). Independent institutional statement about the result, not about Hassabis; read in full.",
+      "url": "https://predictioncenter.org/casp14/doc/CASP14_press_release.html"
+    },
+    {
+      "id": "src_hassabis_gamedev2005",
+      "kind": "press",
+      "title": "Game Developer (Gamasutra), 'Elixir Studios To Close Doors', 28 April 2005 -- trade-press report that Elixir, founded seven years earlier by Demis Hassabis, was ceasing operations and selling its assets and IP: neither Republic: The Revolution nor Evil Genius was a major financial success, a main project was cancelled for its perceived high risk, and Hassabis said the games industry no longer had room for small independent developers working on original ideas, which the studio could never compromise on by going down the licensing route. Independent contemporaneous trade reporting with his own quoted statement; read in full.",
+      "url": "https://www.gamedeveloper.com/pc/elixir-studios-to-close-doors"
+    },
+    {
+      "id": "src_hassabis_nature2007",
+      "kind": "press",
+      "title": "Kerri Smith, 'I can't imagine...', Nature News, 15 January 2007 (read as archived by BioEd Online) -- news report on the UCL study showing that patients with hippocampal amnesia cannot imagine new experiences, led by Eleanor Maguire; Hassabis appears only as first author in the paper's reference. Independent science reporting; short; read in full; it credits Maguire's team and is used only to confirm that the study was reported.",
+      "url": "https://www.bioedonline.org/news/nature-news-archive/i-cant-imagine/"
+    },
+    {
+      "id": "src_hassabis_achievement",
+      "kind": "institution",
+      "title": "American Academy of Achievement, 'Demis Hassabis' biography page (inducted 2017) -- institutional biography: chess from age four and master level at 13; Bullfrog at 17 (Syndicate and Theme Park); Cambridge computer science; Lionhead and Elixir (1998-2005); Mind Sports Olympiad titles; UCL PhD (2009), Harvard and MIT postdoctoral work; the Science top-ten listing of his 2007 imagination research; DeepMind, DQN, the Google sale, AlphaGo, AlphaFold's CASP13 win (December 2018), the July 2021 release of AlphaFold's code and the database with EMBL-EBI, and Isomorphic Labs (November 2021). Read in full. Admiring and compiled from his own account, with typographical errors (a price of '$6500 million'), so used only for dated facts and cross-checks.",
+      "url": "https://achievement.org/achiever/demis-hassabis-ph-d/"
+    },
+    {
+      "id": "src_hassabis_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Demis Hassabis' (biography article by Erik Gregersen) -- reference biography: chess master at 13, lead developer of Theme Park at 17, Cambridge computer science (1997), lead AI programmer at Lionhead, Elixir Studios (founded 1998, holdings sold 2005), UCL PhD in cognitive neuroscience (2009) and postdoctoral work at Harvard and MIT, DeepMind, AlphaGo, AlphaFold2 and the 2024 Nobel Prize. Read in full. Reference-style and derivative of other accounts; it dates DeepMind's founding to 2011 while the Nobel Academy and Wikipedia say 2010; its family and ancestry passages were not used.",
+      "url": "https://www.britannica.com/biography/Demis-Hassabis"
+    },
+    {
+      "id": "src_hassabis_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Demis Hassabis, 2024 Nobel Prize Laureate in Chemistry 7 (cropped).jpg' and its parent 'Demis Hassabis, 2024 Nobel Prize Laureate in Chemistry 7.jpg' -- checked for the portrait's licence: photograph by John Sears (uploader Johnsearsmedia, WikiPortraits at the 2024 Nobel Prizes), taken 7 December 2024 in Stockholm, released by him as copyright holder under CC BY-SA 4.0, no restriction or personality-rights template and no permission ticket on either page; the parent is 7952 x 5304, and the 2458 x 3275 crop was made on Commons by another user on 9 August 2025. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_7_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hassabis_nobel_pop, src_hassabis_britannica, src_hassabis_achievement, src_hassabis_time2023, src_hassabis_nature2007 | 1988-2024 | award-body background + reference biography + institutional biography + news magazine + Nature News] The Nobel Academy's background summarises a path through chess (master level at 13), games development (Theme Park's lead programmer at 17, later his own studio), a neuroscience PhD at UCL (2009) whose lessons about the brain he used to design better neural networks, and then DeepMind; Britannica and the Academy of Achievement add Cambridge computer science (1997), lead AI programming at Lionhead and postdoctoral work at Harvard and MIT, and Nature News reported the 2007 UCL amnesia-and-imagination study (the Academy of Achievement says Science listed it among its year's top ten breakthroughs); Time quotes him that he 'used every single scrap of that experience'. Each field produced dated, real output. SELF-CALIBRATION (agent): lowered from 82/0.68 to 78/0.62 because the profiles retell one life story, much of it his own, and the Academy's prose is retrospective praise."
+    },
+    "competitiveness": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hassabis_time2023, src_hassabis_atlantic2026, src_hassabis_achievement | 1990s-2023 | news magazine + long-form journalist + institutional biography] Peter Molyneux, who took him on at Bullfrog, tells Time he is 'an incredibly competitive person' and recalls Hassabis beating him 35 times in a row at a card game they invented; Sebastian Mallaby, who met him regularly for almost three years, calls him the most furiously competitive person he has known and recalls his 'This is wartime' remark in early 2023 after ChatGPT appeared; the Academy of Achievement lists repeated Pentamind titles at the Mind Sports Olympiad and a Diplomacy world team title. Two named observers and a competition record. SELF-CALIBRATION (agent): lowered from 82/0.64 to 76/0.58 because both observers are close or admiring (a mentor-friend and an author with access), the characterisations are anecdotal, and the titles come from an admiring institutional biography."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hassabis_time2023, src_hassabis_gamedev2005, src_hassabis_britannica, src_hassabis_nobel_pop, src_hassabis_achievement | 1991-2021 | news magazine + trade press + reference biography + award body + institutional biography] At 15 he entered a games-magazine competition, placing second, which won him a week's work experience at Bullfrog (Time); he founded the independent studio Elixir in 1998 (Britannica; Game Developer reported in 2005 that it was founded seven years earlier); he co-founded DeepMind in 2010 and, after AlphaGo, registered the lab for the 2018 CASP13 protein-structure competition (Nobel Academy); in November 2021 he added the chief executive role at the new Isomorphic Labs (Academy of Achievement). Self-started ventures across three decades, independently dated, though the earliest anecdote is his own telling. SELF-CALIBRATION (agent): lowered from 78/0.62 to 74/0.58 because the earliest anecdote is his own telling and several of the ventures rest on a single clause in the award body's narrative."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hassabis_nobel_pop, src_hassabis_time2023, src_hassabis_mittr2021 | 2013-2021 | award body + news magazine + MIT Technology Review] Time reports that the prototype that learned the game Breakout by reinforcement learning, a technique Google was not then using, won Google over in 2013; the Nobel Academy says that for Hassabis Go was a means and not the goal and that after it he turned the team to protein structure, entering CASP13 in 2018; MIT Technology Review quotes him that protein folding was a problem he had 'had my eye on for more than 20 years'. A reasoned choice of problems and timing, but the pivot story is told by the award body and by his own words. SELF-CALIBRATION (agent): lowered from 74/0.55 to 70/0.50 because the pivot narrative is retrospective award-body prose and self-quotation."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hassabis_time2023, src_hassabis_atlantic2026 | 2010-2014 | news magazine + long-form journalist] Time reports that Google executives flew to London in 2013 and that Hassabis impressed them with the Breakout prototype ('I loved them immediately', says Alan Eustace, who led the trip), that Google bought DeepMind in 2014 for about $500 million, and that he turned down a bigger offer from Facebook; Mallaby adds that he buttonholed Peter Thiel, his first financial backer, at a Singularity summit and impressed Elon Musk with an argument about space colonisation. Several accounts of winning backers and an acquirer, but they rest on his own recollections inside two journalists' pieces, one adapted from a book. SELF-CALIBRATION (agent): lowered from 74/0.52 to 70/0.48 because of that self-sourcing and the single-journalist dependence of each anecdote."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hassabis_gamedev2005, src_hassabis_britannica, src_hassabis_time2023, src_hassabis_time2024 | 1998-2014 | trade press + reference biography + news magazines] He founded an independent studio on ambitious original designs; Game Developer reported in April 2005 that neither Republic nor Evil Genius had been a major financial success and a cancelled project ended the company, and quotes his statement that going down the licensing route was something it could never compromise on; he then left games for a neuroscience PhD (Britannica), co-founded DeepMind with a plan Time says ran twenty years, and turned down a larger Facebook offer for Google (Time 2023). Large bets with mixed results, so dual-edged. SELF-CALIBRATION (agent): lowered from 72/0.52 to 68/0.48 because the documented choices fit conviction as well as risk tolerance and the twenty-year plan is his own statement."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hassabis_britannica, src_hassabis_nobel_pop, src_hassabis_guardian2026, src_hassabis_time2023 | 2005-2026 | reference biography + award body + newspaper + news magazine] After the studio closed in 2005 he sold its holdings and retrained in neuroscience (Britannica, Game Developer); the Nobel narrative describes DeepMind moving from game-playing to protein structure after Go and the team adopting transformer networks for AlphaFold2; the Guardian reports that DeepMind and Google Brain were merged into Google DeepMind under his leadership in 2023 and that in August 2026 he handed day-to-day running to Koray Kavukcuoglu to become chair and Alphabet's chief scientist; Time describes DeepMind competing in the chatbot race that OpenAI began. Several documented changes of direction and role, but they are organisational as much as personal. SELF-CALIBRATION (agent): lowered from 72/0.55 to 68/0.50 because of that overlap with opportunity sensing and reliance on retrospective award-body prose."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hassabis_nobel_pop, src_hassabis_wired2016, src_hassabis_casp14, src_hassabis_guardian2026 | 2010-2023 | award body + Wired + competition organisers + newspaper] The Nobel narrative says Hassabis and John Jumper co-led the rebuilding of AlphaFold and that Jumper, a newer employee with decisive ideas, was promoted when the first system plateaued; Wired (2016) names David Silver as lead researcher on AlphaGo while Hassabis was its public face; the CASP organisers called the AlphaFold result a win for DeepMind and also a 'triumph for team science' built on many teams' earlier work; the Guardian says the DeepMind and Google Brain merger took place under his leadership. A pattern of sharing credit and delegating technical leadership, but described mainly by the award body and the organisers, not by close observers of his working relationships."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hassabis_mittr2021, src_hassabis_nobel_pop, src_hassabis_time2025, src_hassabis_achievement | 2020-2025 | MIT Technology Review + award body + news magazine + institutional biography] DeepMind published AlphaFold's full details and source code and released predicted structures through a public database with EMBL-EBI (MIT Technology Review 2021; Academy of Achievement), and the Nobel Academy reports more than two million users in 190 countries by October 2024; Hassabis tells Time in 2025 that he is a scientist first and that the 'whole reason' for what he has done is the pursuit of knowledge, while Time notes that releasing costly tools for free is not obviously a long-term profitable strategy for Google. The release is a documented decision attributed to DeepMind, with his own part inferred from his seniority and statements, so a modest score and confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "데미스 허사비스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/demis-hassabis-sears-2024.jpg",
+    "width": 901,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Demis Hassabis, 2024 Nobel Prize Laureate in Chemistry 7 (cropped).jpg' -- a Commons crop (made 9 August 2025 by another editor) of 'Demis Hassabis, 2024 Nobel Prize Laureate in Chemistry 7.jpg', a photograph by John Sears (uploaded by him as own work on 11 December 2024) taken on 7 December 2024 at the Nobel Prize week in Stockholm as part of the WikiPortraits initiative; the page states that the copyright holder publishes it under CC BY-SA 4.0 and shows no restriction or personality-rights template or permission ticket; Commons crop 2458 x 3275 pixels from the 7952 x 5304 original, downscaled once to 901 x 1200 (never upscaled).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: John Sears (WikiPortraits), 7 December 2024, CC BY-SA 4.0, cropped and downscaled from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_7.jpg",
+    "creator": "John Sears",
+    "date": "2024-12-07",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_7_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q3022141 returned en label 'Demis Hassabis', description 'British artificial intelligence researcher (born 1976)', born 1976-07-27 (London), no death date, citizenship United Kingdom, ko label present, P18 image a 2024 Nobel Prize Laureate in Chemistry photograph; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug demis-hassabis or QID Q3022141 in the roster51 worktree (the only text hit is a mention of his name inside the Sergey Brin candidate's source title). REGION: western_europe (born in London, British; his DeepMind and Isomorphic Labs work is based in London). ERA contemporary; LIVING SUBJECT: only documented public professional behaviour is scored. CLASSIFICATION: occupations computer scientist, scientist and entrepreneur; fields computing and biology (both exist): biology was added because AlphaFold's subject is protein structure, his doctorate is in cognitive neuroscience, and the existing precedent for a Nobel chemistry laureate whose work is biological (Jennifer Doudna) is biology and natural science; chemistry was considered, since the Nobel Prize is in chemistry, and not added, because his own research programme is classed as artificial intelligence and neuroscience; tags founder, Nobel laureate, prodigy (chess master at 13) and cross-disciplinary; archetypes scientific explorer and technical innovator. CURRENT ROLE: the Nobel Academy (October 2024) calls him CEO of Google DeepMind; the Guardian reports that in August 2026 he gave up day-to-day duties as chief executive to become chair of Google DeepMind and Alphabet's chief scientist (Wikipedia also lists him as chief executive of Isomorphic Labs), so the cards use dated roles and never a present-tense chief-executive claim. ZERO POLITICS AND EXCLUSIONS: nothing political is scored; excluded as trait evidence are family, ancestry and private life; AI-safety advocacy, ethics-board and governance debates, regulatory and summit activity, wealth-redistribution views, the 2014 sale conditions and the later removal of the military-use red line, Pentagon and Israeli-government contracts, unionisation and employee disputes, a former employee's legal challenge, and Mustafa Suleyman's departure and accounts (used nowhere, since the only access was second-hand and contested); commercial rivalry with OpenAI and Gemini's market position are used only as facts about competition, never as evidence of intent. CANONICAL SIGNIFICANCE SOURCE: The Royal Swedish Academy of Sciences, press release 'The Nobel Prize in Chemistry 2024' (https://www.nobelprize.org/prizes/chemistry/2024/press-release/), read in full, supported by the Academy's popular information, the CASP14 organisers' announcement, BBC News and MIT Technology Review. READ (sources opened and read): the two Nobel pages, Time (Perrigo 2023 and 2025; Pillay 2024), Wired (Metz 2016), The Atlantic (Mallaby 2026), The Guardian (August 2026 report), MIT Technology Review (2021), BBC News (2020), the CASP14 release, Game Developer (2005), Nature News (2007, via BioEd Online), the Academy of Achievement biography and Britannica; Wikipedia was opened for orientation. PERSPECTIVES: (1) award body: the Nobel Academy; (2) independent journalism: Time, Wired, The Atlantic, The Guardian, MIT Technology Review, BBC News, Game Developer, Nature News; (3) competition organisers and outside experts: CASP14 organisers, Janet Thornton, David Baker, Tom Ellis, Mohammed AlQuraishi (as quoted); (4) colleague and mentor voices: Peter Molyneux, Alan Eustace and Lila Ibrahim (via Time) and an unnamed DeepMind researcher (via The Atlantic); (5) critical or sceptical: a Time interviewee, Time 2025's questioning of his idealism and the Guardian's anonymous observers, which concern politics and governance and are not scored; (6) SELF: his own words relayed through Time, MIT Technology Review, The Atlantic and Wired (self-quotation through shared profiles, flagged in the rows; never sole support). CALIBRATION: the behavioural evidence is thin and heavily mediated: the main independent narratives (Time 2023, The Atlantic 2026) are interview-based and built around his own recollections, the AlphaFold story comes mostly from the award body, and the AlphaFold, AlphaGo and Google DeepMind results are team and organisational outcomes whose attribution to him personally is partly inferred, so no score exceeds 78 and no confidence exceeds 0.62, and nine rows are scored, not more. SELF-CALIBRATION (agent): the strongest rows were re-read once and seven were lowered before return (cross-domain range 82/0.68 to 78/0.62; competitiveness 82/0.64 to 76/0.58; proactive agency 78/0.62 to 74/0.58; opportunity sensing 74/0.55 to 70/0.50; persuasiveness 74/0.52 to 70/0.48; risk tolerance 72/0.52 to 68/0.48; adaptability 72/0.55 to 68/0.50); reasons: retrospective award-body prose, self-quotation through shared profiles, single-journalist dependence, organisational outcomes attributed to the individual, and overlap between rows. The collaboration and impact motivation rows were first set at their stored values. CONFLICTS RECORDED: (a) DeepMind's founding year is 2010 (Nobel Academy, Wikipedia) versus 2011 (Britannica, Academy of Achievement), and 2010 is used; (b) Time 2023 places Theme Park after Cambridge, whereas Britannica, the Academy of Achievement and Wikipedia date it to 1994 when he was 17, and the latter are used; (c) the Academy of Achievement gives the Google price as 'over $6500 million' (a typo) and Time gives about $500 million, and no price is used in the cards; (d) Britannica and Wikipedia differ on his Lionhead and Elixir dates and the cards avoid those details. NOT OPENED: Mallaby's book The Infinity Machine (only the Atlantic adaptation), the New Yorker and Guardian profiles of Hassabis (the search tool cannot search those domains and no accessible copy was found), the Nature and Science news articles on AlphaFold (Nature's lead paragraphs only; Science returned HTTP 403), the AlphaFold2 and AlphaGo papers, DeepMind and Google's own pages (self), the Pentamind and Mind Sports records, Hassabis's autobiographical and podcast interviews, The Thinking Game documentary, and the Economist profile (HTTP 403). PORTRAIT: John Sears's photograph (WikiPortraits at the 2024 Nobel Prizes), CC BY-SA 4.0, named photographer and copyright holder; the parent file's own Commons page (uploaded by the photographer on 11 December 2024) carries the licence and no restriction or permission template; the cropped derivative used here was made by another Commons editor (9 August 2025) from that parent; the Commons category page for the project names no restriction, and the WikiPortraits project page describes credentialed volunteer photographers who release their own work. No institutional page asserting a conflicting copyright was found (the only copyright notice read on the Nobel press release concerns the Academy's own illustrations, not this independent volunteer photograph). Downloaded the Commons crop (2458 x 3275), confirmed it opens as an RGB JPEG, and downscaled it once with Lanczos resampling to 901 x 1200 (never upscaled), saved as public/portraits/demis-hassabis-sears-2024.jpg. Rejected: Duncan Hull's Royal Society photograph of 2018 (CC BY-SA 4.0, only 576 x 864, a clean fallback), Christopher Michel's 2025 photograph (CC BY-SA 4.0, 5464 x 8192; not needed because the John Sears photograph passed every check, and not inspected further), Alain Herzog's EPFL photograph (institutional repository, 1024 x 683), Arthur Petron's and Jay Dixit's Nobel-week photographs (CC BY-SA 4.0 but flagged with a personality-rights template), the PhotonQ 2014 photograph (CC BY-SA 2.0, 386 x 612) and Nobel Prize Outreach or Google press images (rights basis not verified)."
+  }
+}

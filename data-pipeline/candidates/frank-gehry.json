@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "frank-gehry",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Frank Gehry",
+    "aliases": [
+      "Frank Owen Gehry",
+      "Frank O. Gehry"
+    ],
+    "wikidataId": "Q180374",
+    "birthYear": 1929,
+    "deathYear": 2025,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "CA",
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect"
+    ],
+    "fieldIds": [
+      "architecture"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "nonconformist",
+      "founder"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gehry_wikidata",
+      "kind": "wikidata",
+      "title": "Frank Gehry (Q180374) -- verified live via the Wikidata API (2026-10-16): English label 'Frank Gehry', description 'Canadian and American architect (1929-2025)', Korean label present, instance of human, born 28 February 1929 (Toronto), died 5 December 2025, citizenship United States and Canada. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q180374"
+    },
+    {
+      "id": "src_gehry_pritzker",
+      "kind": "award_body",
+      "title": "The Pritzker Architecture Prize, 'Frank Gehry' (1989 laureate page: announcement, formal jury citation, biography and selected works) -- CANONICAL SIGNIFICANCE SOURCE: the Hyatt Foundation's announcement of the twelfth laureate and the jury's citation read by Bill Lacy, which honours a 'refreshingly original' architecture of 'a highly refined, sophisticated and adventurous aesthetic that emphasizes the art of architecture', likens it to jazz 'replete with improvisation', says it resists being bound by critical acceptance or his successes and calls his buildings 'juxtaposed collages of spaces and materials'; the page also records his path (a Los Angeles firm of his own from 1962, the Danziger Studio/Residence of 1964, work in chain-link, corrugated metal and cardboard, the Walt Disney Concert Hall commission) and shows Bilbao (1997) among its selected works. Award-body prose written in 1989, before Bilbao and Disney Hall were built, by a jury of critics, architects and patrons; admiring by genre. Read in full.",
+      "url": "https://www.pritzkerprize.com/laureates/1989"
+    },
+    {
+      "id": "src_gehry_enr",
+      "kind": "press",
+      "title": "Bryan Gottlieb, Debra K. Rubin and Jeff Yoders, 'Frank Gehry, 96, Was Architect Who Pushed Construction Into the Digital Era', Engineering News-Record (ENR), 9 December 2025 (obituary) -- a construction-trade obituary built on ENR's decades of coverage: his adoption of CATIA and his insistence that the digital model, not 2D drawings, be the authoritative record; Experience Music Project (2000) and Walt Disney Concert Hall (2003) as proving grounds for contractors, with the contractor Mortenson's account (including the off-site ceiling panels Gehry agreed to); Gehry Technologies and its Digital Project platform (Trimble acquired it in 2014); his 2011 alliance of architects and builders; and an ENR editor's remark that his projects were acclaimed but often struggled to keep costs in line. Trade-press obituary with contractors' quotations, admiring in tone but candid on costs; its passages on his death and honours and on clients who replaced his firm on two later projects were not used for scoring. Read in full.",
+      "url": "https://www.enr.com/articles/62112-frank-gehry-96-was-architect-who-pushed-construction-into-the-digital-era"
+    },
+    {
+      "id": "src_gehry_dean",
+      "kind": "institution",
+      "title": "Penelope Dean (University of Illinois at Chicago), 'Practice Nouveau', Proceedings of the ACSA (Association of Collegiate Schools of Architecture) 97th Annual Meeting, 'The Value of Design', pp. 307-317 (the PDF shows no date and cites sources to 2006) -- a scholarly paper on how CATIA entered Gehry's practice in 1991 at the instigation of partner James Glymph (partner from January 1990 to December 2005), first on the Barcelona fish sculpture and then on the Guggenheim Bilbao (called the first major building designed with it) and Walt Disney Concert Hall; the 'master model' as a shared platform for architect, engineer and contractor; the hybrid of hand-made physical models and digitised ones; and remarks by Gehry and Glymph, quoted from other publications, on regaining the architect's authority, budgeting jobs early and the 'master builder'. Independent scholarly interpretation, with Gehry's own words as self evidence (never sole support); a quoted Gehry remark about how builders treated architects, which the author herself calls gendered, was not used. Read in full.",
+      "url": "https://www.acsa-arch.org/proceedings/Annual%20Meeting%20Proceedings/ACSA.AM.97/ACSA.AM.97.39.pdf"
+    },
+    {
+      "id": "src_gehry_metropolis",
+      "kind": "press",
+      "title": "Laurie Manfra, 'Rick Smith Joins Frank Gehry -- 1991', Metropolis, 1 April 2006 -- a magazine profile of the IBM consultant who brought CATIA into Gehry's office: Glymph's partnership with Gehry from 1989 and his search for a way to build Walt Disney Concert Hall, his call to Smith, the practice's drafters and model-makers reluctant to adopt the software ('There was a lot of reluctance'), Smith's method of digitising physical massing models with a mechanical probe and handing printed sections to the model-builders, Gehry reviewing and adjusting by hand, Gehry's boast that he did not know how to turn a computer on, and Bilbao as the first successful large-scale use of CATIA in architecture. A colleague's recollections (Smith's) through a design-magazine writer. Read in full.",
+      "url": "https://metropolismag.com/programs/rick-smith-joins-frank-gehry-1991/"
+    },
+    {
+      "id": "src_gehry_moore",
+      "kind": "press",
+      "title": "Rowan Moore, 'The Bilbao effect: how Frank Gehry's Guggenheim started a global craze', The Guardian, 1 October 2017 -- the Observer architecture critic's article for the museum's 20th anniversary, with interviews of Gehry and the museum's director Juan Ignacio Vidarte: the competition Gehry won against two other architects, the Basque authorities' and the Guggenheim's aims, Gehry's office pioneering CATIA and building Bilbao within its $100 million budget (as Gehry himself points out), the most sustained critique (Hal Foster, in Sydney Pollack's film, that the building trumps the art), Gehry's pushback, his distance from the 'Bilbao effect' and its imitators, and Moore's own verdict that the museum cannot be copied. An independent critic's mixed verdict; Gehry's remarks are self evidence. Read in full.",
+      "url": "https://www.theguardian.com/artanddesign/2017/oct/01/bilbao-effect-frank-gehry-guggenheim-global-craze"
+    },
+    {
+      "id": "src_gehry_milroy",
+      "kind": "press",
+      "title": "Sarah Milroy, 'The Bilbao effect', The Globe and Mail, 24 January 2004 -- a Canadian critic's essay written as Gehry's plans for the Art Gallery of Ontario were about to be unveiled, weighing the 'Bilbao effect': his sensual way with materials and shapes and the investment in ambitious architecture he set off, against critics who see him as an enemy to art (the architecture upstaging the museum's content), Witold Rybczynski's 'show-dog architecture', modernists who see a box dressed in cladding, and Milroy's own reply that this blames Gehry for the shortcomings of the Guggenheim's director. The counter-voice read, with a critic's own mixed verdict; its speculation about the Toronto design was not used. Read in full.",
+      "url": "https://www.theglobeandmail.com/arts/the-bilbao-effect/article4086475/"
+    },
+    {
+      "id": "src_gehry_webb",
+      "kind": "press",
+      "title": "Michael Webb, 'A hall for Los Angeles' (online as 'When the Walt Disney Concert Hall redefined the landscape of downtown Los Angeles'), Domus no. 863, October 2003 (republished online 28 February 2023) -- an architecture writer's history of the hall: Lillian Disney's 1987 gift, the 1987-88 competition among four finalists, Gehry's winning scheme, the acoustician's selection and the compromise over the hall's plan, about 40 scale models and consultation with musicians, the 1993 'final design' shelved for four years, the project shut down in November 1994 and revived, the attempt to sideline Gehry in 1997, the switch from stone to stainless-steel cladding, and the estimated cost rising from $100 million to $265 million (final $274 million). The fullest independent account of one project, by a critic admiring of the result; its characterisations of other people's motives (for example 'vindictive') were not used. Read in full.",
+      "url": "https://www.domusweb.it/en/architecture/2003/09/30/a-hall-for-los-angeles.html"
+    },
+    {
+      "id": "src_gehry_newsweek",
+      "kind": "press",
+      "title": "Cathleen McGuigan, 'A Mighty Monument to Music', Newsweek, 18 August 2003 -- a magazine profile written before the opening of Walt Disney Concert Hall, built around Esa-Pekka Salonen's account of the first full-orchestra rehearsal and a late-night visit to the unfinished hall, with Gehry on the acoustician Yasuhisa Toyota, the 16-year history (cost estimate of $100 million against $274 million in the end, the five-year construction stop, his near-resignation in 1997), his reliance on cardboard or wooden models and the Gehry Technologies program, and the writer's own characterisation of his 'fierce discipline and perfectionism'. A journalist's profile with a conductor's quoted recollection; the paragraphs on his diet, daily routine, marriage and a friend's death were not used. Read in full.",
+      "url": "https://www.newsweek.com/mighty-monument-music-135875"
+    },
+    {
+      "id": "src_gehry_pbs",
+      "kind": "press",
+      "title": "Jeffrey Kaye, 'Birth of an Icon', PBS NewsHour, 17 October 2003 (broadcast report with transcript) -- a report shortly before the opening of Walt Disney Concert Hall: the Los Angeles Philharmonic's executive director Deborah Borda on the building as a civic landmark, Gehry on his 'language of motion with inert materials' and on aerospace software letting the hall be built without breaking the budget, the vineyard-style auditorium he designed with the acoustician Yasuhisa Toyota, musicians' reactions, the 1987 gift and the 1990s delays, the $274 million final cost, and the local planning critic Sam Hall Kaplan's dissent that it does not reach out to the city. Broadcast reporting with a client's praise and one local critic's counter-voice; Gehry's remark on the politics of the time was not used. Read in full.",
+      "url": "https://www.pbs.org/newshour/show/birth-of-an-icon"
+    },
+    {
+      "id": "src_gehry_toronto_archives",
+      "kind": "archive",
+      "title": "City of Toronto Archives, finding-aid record 'Frank Gehry, Viljo Revell Centenary reception: Council Chamber, City Hall' (Fonds 219 > Series 2311 > File 2969 > Item 89; 1 colour JPG photograph; statement of responsibility Jose San Juan; date of creation 13 September 2010) and the Archives' Copyright page -- checked for the portrait's rights: the record gives Access Conditions 'OPEN - No restrictions on these government records' and Copyright 'held by the City of Toronto'; the Archives' Copyright page code G-CC ('Government Records - City owns copyright') reads 'Copyright is held by the City of Toronto. You do not need permission to use the work for any purpose.' The series is the City's Protocol Services photographs taken by its own staff photographers, Jose San Juan among them. Not used for any scoring.",
+      "url": "https://7078.sydneyplus.com/archive/final/Portal/Default.aspx?component=AABC&record=ed39a719-8e0c-4905-b30f-fe946910569e"
+    },
+    {
+      "id": "src_gehry_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Frank Gehry, Viljo Revell Centenary reception, 2010 (S2311 fl2969 it0089).jpg' -- checked through the Commons API for the file's metadata: author 'City of Toronto / Jose San Juan', date 2010-09-13, 1080 x 718 pixels, uploaded 6 December 2025, source and permission text copied from the City of Toronto Archives ('OPEN - No restrictions ... You do not need permission to use the work for any purpose'), tagged with an attribution-only template that says it does not itself indicate copyright status; the page cites the archival citation as 'Fonds 200' where the Archives' own record reads 'Fonds 219'. It is the image Wikidata uses for him. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Frank_Gehry,_Viljo_Revell_Centenary_reception,_2010_(S2311_fl2969_it0089).jpg"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_gehry_pritzker, src_gehry_webb, src_gehry_metropolis, src_gehry_newsweek, src_gehry_dean | 1962-2003 | award-body page + critic's account + magazine profile + news profile + scholarly paper] The Pritzker announcement says he used chain-link fencing, cardboard and corrugated metal in unorthodox ways and its jury calls him 'always open to experimentation'; Webb records that models are his preferred design tool on every job and that after the Disney Hall win his team made about 40 scale models of existing auditoriums and alternative plans while the architects sought advice from musicians; Metropolis describes an office strewn with tattered half-built models in paper, cardboard, wood and plastic; Newsweek says he exhaustively re-works each scheme with cardboard or wooden models; Dean notes that he relied on hand-made physical models for schematic design and had CATIA translate them. Distinct documented practices (materials, models, software) from five independent writers, but the award-body text is admiring and the 40-model count rests on Webb alone. SELF-CALIBRATION (agent): first-pass 78 / 0.62 lowered to 76 / 0.58 for admiring-source concentration (the jury's wording) and single-source dependence (Webb's model count)."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gehry_pritzker, src_gehry_webb, src_gehry_moore, src_gehry_milroy, src_gehry_newsweek, src_gehry_enr | 1989-2025 | award-body citation + critics + news profile + trade-press obituary] The 1989 jury calls his work 'refreshingly original' and 'adventurous'; Newsweek (2003) says he juxtaposed cheap materials in 'completely original' ways; Webb traces a change in his language during the Disney Hall years from clustered orthogonal blocks to spaces layered with curvilinear planes and notes that the steel sails came from a radical redesign of the competition scheme; Moore calls Bilbao a 'convulsive, majestic' assembly of titanium and stone and the most influential building of modern times; Milroy says it is impossible not to be swayed by his sensual way with materials and shapes while setting out critics who call him an enemy to art or to architecture; an ENR editor emerita calls his a truly new architectural vocabulary. Independent writers over three decades agree on the novelty of his forms, and even his critics (Foster on Bilbao overwhelming the art, Rybczynski's 'show-dog architecture' as reported by Milroy) dispute its consequences rather than its novelty; but nearly all of it is retrospective praise of buildings, with few described acts of creation. SELF-CALIBRATION (agent): first-pass 80 / 0.62 lowered to 76 / 0.56 for retrospective praise and interpretation stronger than behaviour (verdicts on buildings, not described creative acts) and admiring-source concentration (jury, obituary)."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_gehry_webb, src_gehry_newsweek, src_gehry_pritzker, src_gehry_enr, src_gehry_dean, src_gehry_metropolis | 1989-2003 | critic's account + news profile + award-body page + trade-press obituary + scholarly paper + magazine profile] Webb records that after the Disney Hall win the architects sought comment and advice from a wide range of musicians, invited Salonen and visiting conductors to share opinions, and compromised with the acousticians on the width of the hall; Newsweek has Gehry working closely with the acoustician Yasuhisa Toyota, who also worked with him on the Bard College hall, and quotes Salonen on a late-evening call to meet at the unfinished hall; the Pritzker page says he often collaborates with artists and shows the Chiat/Day building's entrance binoculars designed by Oldenburg and his wife Coosje van Bruggen; Dean records him bringing contractors into the digital master model early; ENR relays the contractor Mortenson's account that Gehry 'absolutely agreed' to off-site fabrication of ceiling panels; Metropolis has Glymph and the consultant Rick Smith integrating CATIA with the model-makers. Against this, Webb and Newsweek record a dispute with the building committee and a point in 1997 when Gehry nearly quit. Concrete working arrangements are documented by several writers, but the most vivid accounts come from collaborators (a conductor, a contractor, a colleague). SELF-CALIBRATION (agent): first-pass 72 / 0.58 lowered to 68 / 0.54 for admiring-source concentration (collaborators' recollections and an obituary)."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gehry_pritzker, src_gehry_newsweek, src_gehry_webb, src_gehry_moore, src_gehry_dean, src_gehry_enr | 1962-2003 | award-body page + news profile + critic's account + critic's article + scholarly paper + trade-press obituary] The Pritzker page quotes him on chain-link fencing ('If you can't beat 'em, join 'em') and lists cardboard furniture and corrugated-metal projects; Newsweek describes his Santa Monica house as a juxtaposition of cheap materials; Webb records the switch from stone to metal cladding at Disney Hall to save an estimated $10 million, followed by a refinement of the shapes; Moore (relaying Gehry) says CATIA let him build Bilbao within its $100 million budget; Dean quotes him on using the software to budget jobs early by sorting flat, singly curved and warped surfaces; ENR says he was willing to restructure his practice to develop better tools. Several distinct episodes of making constrained means work, but the chain-link and budget remarks are Gehry's own words and the software was brought in by his partner Glymph. SELF-CALIBRATION (agent): first-pass 66 / 0.52 lowered to 64 / 0.50 for self-quotation through shared profiles (the budget and chain-link remarks) and interpretation stronger than behaviour (credit for the software is Glymph's)."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gehry_webb, src_gehry_newsweek, src_gehry_pbs, src_gehry_pritzker | 1964-2003 | critic's account + news profile + broadcast report + award-body page] Webb dates the Disney Hall process across 16 years: a 'final design' of 1993 shelved for four years and revised, construction shut down in November 1994, Gehry's office resuming work in July 1997 and in the end realizing his entire vision; Newsweek says he reworked the design again and again and that in 1997, faced with losing control over the details, he nearly quit but stayed; PBS says building was delayed for most of the 1990s; the Pritzker page shows a career launched with the Danziger Studio in 1964 and wide fame arriving only in the years before the 1989 prize, at sixty. Several documented episodes of continuing through setbacks, but the sources credit donors, the Disney family and civic leaders for the project's survival more than any act of Gehry's. SELF-CALIBRATION (agent): first-pass 66 / 0.52 lowered to 62 / 0.50 for interpretation stronger than behaviour (the project's survival is not his personal conduct) and single-source dependence (Webb and Newsweek carry the account)."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gehry_webb, src_gehry_pritzker, src_gehry_moore, src_gehry_dean, src_gehry_milroy, src_gehry_enr | 1962-2017 | critic's account + award-body citation + critic's article + scholarly paper + critic's essay + trade-press obituary] Webb says the Los Angeles establishment still derided him as an iconoclast working in plywood and chain link and thought him an absurd choice for a major public commission; the Pritzker jury says his work resists being bound by critical acceptance or by his own successes; Milroy sets out critics who call him an enemy to art or to architecture, and Moore reports his reply that artists wanted an important building, not a neutral one, which he sets against his earlier view that architects should make neutral spaces for art; Dean and ENR relay his stance that the master-builder era was better and that the digital model, not 2D drawings, should be the authoritative record. Distinct, independently reported instances of holding an unconventional position under criticism, but several rest on his own quoted words and on award-body prose. SELF-CALIBRATION (agent): first-pass 70 / 0.52 lowered to 68 / 0.50 for self-quotation through shared profiles (the master-builder and neutral-space remarks) and admiring award-body prose."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gehry_pritzker, src_gehry_newsweek, src_gehry_enr, src_gehry_dean | 1962-2011 | award-body page + news profile + trade-press obituary + scholarly paper] The Pritzker page records that after a year in Paris he returned to Los Angeles in 1962 and set up his own firm; Newsweek (2003) says he and his partners were launching Gehry Technologies to sell the program they developed for his irregular forms; ENR says he organized a 2011 alliance of architects and construction professionals (among them Childs, Hadid, Lynn, Safdie, van Berkel and Wurman) to promote technology integration, and that the practice later created Gehry Technologies as its consulting and software arm (Trimble acquired it in 2014); Dean reads the move to CATIA as an attempt to regain the architect's lost authority over construction. Three distinct documented initiatives, but the software venture was shared with partners and the 2011 alliance rests on one obituary. SELF-CALIBRATION (agent): first-pass 64 / 0.52 lowered to 60 / 0.50 for single-source dependence (the 2011 alliance) and interpretation stronger than behaviour (initiative shared with partners)."
+    },
+    "perfectionism": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_gehry_newsweek, src_gehry_webb, src_gehry_moore | 1988-2003 | news profile + critic's account + critic's article] McGuigan's profile says he 'harbors a fierce discipline and perfectionism' beneath a casual demeanor, exhaustively re-works each scheme with models, runs his office as 'a tight ship' and, in his own words, can 'be a control freak and still deliver the passion'; Webb quotes his project designer Craig Webb that the steel redesign took longer than any other building 'and it shows' and says the delays gave the architects abundant time to perfect every detail of the hall; Moore (relaying Gehry) says he spent a lot of time making Bilbao relate to the 19th-century street module. The characterisation is one journalist's, backed by the documented volume of model-making and revision but not by any account of him rejecting an acceptable result, so inference. SELF-CALIBRATION (agent): first-pass 62 / 0.46 lowered to 60 / 0.44 for single-source dependence (one journalist's label) and self-quotation (the 'control freak' remark)."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gehry_webb, src_gehry_metropolis, src_gehry_dean, src_gehry_enr, src_gehry_moore | 1991-2003 | critic's account + magazine profile + scholarly paper + trade-press obituary + critic's article] Webb says the 1993 Disney Hall design was shelved and revised with Craig Webb as project designer, and that the move from stone to steel, a difficult decision for Gehry, became an occasion to make the curves 'stronger, less complex and more refined'; Metropolis records the practice's drafters resisting CATIA and Rick Smith working around them by giving the model-builders printed sections, with Gehry reviewing and adjusting by hand, and Dean describes a hybrid practice of hand-made and digitised models; ENR relays the contractor's account that Gehry agreed to off-site fabrication of ceiling panels and says he was willing to restructure his practice; Moore relays his change of view on neutral gallery spaces. Several changes of method or design in response to constraints, but the stone-to-steel account rests on one writer and others are partly self-report. SELF-CALIBRATION (agent): first-pass 66 / 0.52 lowered to 62 / 0.50 for single-source dependence (Webb) and self-quotation (the neutral-space remark)."
+    },
+    "aesthetic_sensitivity": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gehry_webb, src_gehry_pritzker, src_gehry_milroy, src_gehry_moore | 1988-2017 | critic's account + award-body citation + critic's essay + critic's article] Webb records his reasoning that stone would have greater dignity and take the light better, especially at night when metal can turn black, and the choice of a Japanese stainless steel wire-brushed to pick up the light; the Pritzker jury calls his aesthetic 'highly refined, sophisticated and adventurous' and the page quotes him saying that Brancusi has had more influence on his work than most architects; Milroy writes that it is impossible not to be swayed by his sensual way with materials and shapes; Moore (relaying Gehry) says he spent a lot of time relating Bilbao to the 19th-century street module and the river. One documented deliberation about light and material, supported by consistent critical description, but most of the evidence is praise of results, and the critics' counter-charge (Foster, as quoted by Moore) is that the visual spectacle overwhelms the art. SELF-CALIBRATION (agent): first-pass 72 / 0.52 lowered to 68 / 0.50 for retrospective praise and interpretation stronger than behaviour (an artist's field; the evidence is largely descriptions of results)."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프랭크 게리"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/frank-gehry-san-juan-2010.jpg",
+    "width": 574,
+    "height": 718,
+    "source": "City of Toronto Archives, Fonds 219 > Series 2311 > File 2969 > Item 89, 'Frank Gehry, Viljo Revell Centenary reception: Council Chamber, City Hall' (1 colour JPG; photographer Jose San Juan, City of Toronto Protocol Services Photo/Video Section; 13 September 2010), original 1080 x 718 pixels as served by Wikimedia Commons ('Frank Gehry, Viljo Revell Centenary reception, 2010 (S2311 fl2969 it0089).jpg', uploaded 6 December 2025, the image Wikidata uses for him). Rights: the Archives' record gives Access Conditions 'OPEN - No restrictions on these government records' and Copyright 'held by the City of Toronto', and its Copyright page (code G-CC) reads 'Copyright is held by the City of Toronto. You do not need permission to use the work for any purpose.' No conflicting notice was found on the Archives' page. The frame was cropped to a 574 x 718 portrait region around his face at original pixel scale (offset 10 px from the left edge); no resampling, never upscaled. It shows him speaking at a lectern in a dark jacket, with a Toronto flag and sign behind him.",
+    "license": "City of Toronto Archives: copyright held by the City of Toronto; no permission needed to use the work for any purpose",
+    "licenseUrl": "https://7078.sydneyplus.com/archive/final/Portal/Copyright.aspx?lang=en-US",
+    "attribution": "Photo: Jose San Juan / City of Toronto, 13 September 2010, City of Toronto Archives, Fonds 219, Series 2311, File 2969, Item 89 (cropped from the original)",
+    "attributionUrl": "https://7078.sydneyplus.com/archive/final/Portal/Default.aspx?component=AABC&record=ed39a719-8e0c-4905-b30f-fe946910569e",
+    "creator": "Jose San Juan (City of Toronto Protocol Services Photo/Video Section)",
+    "date": "2010-09-13",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Frank_Gehry,_Viljo_Revell_Centenary_reception,_2010_(S2311_fl2969_it0089).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q180374 returned en label 'Frank Gehry', description 'Canadian and American architect (1929-2025)', born 1929-02-28, died 2025-12-05, citizenship United States and Canada, ko label '프랭크 게리'; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug frank-gehry or QID Q180374 in the roster51 worktree (data-pipeline/candidates, src/data/people, src/core); the only repository mention of his name is an unrelated raw-notes file for another architect. REGION: north_america (Canadian-born, United States citizen from 1950 per the Pritzker page, career in Los Angeles). VOCABULARY: occupation architect, field architecture, impact domains artistic, cultural and innovation, tags innovator, nonconformist and founder and archetypes creative_creator and technical_innovator are existing ids used by other candidates (Frank Lloyd Wright, Alvar Aalto, Zaha Hadid and Oscar Niemeyer use architect, architecture and creative_creator; innovator, nonconformist and founder are used across the roster). PREFLIGHT RESULT: zero-politics, two or more independent perspectives, substantive non-self behavioural sources, a canonical significance source and a rights-clear portrait were all obtainable before deep research. ZERO POLITICS: no political, military or diplomatic material is scored; Gehry's remark on the politics of the time (PBS), the Basque separatist-terrorism context of Bilbao (Moore) and any public-funding or civic-politics disputes over Disney Hall (the 1997 attempt to sideline him, committee politics) are unscored and appear in no row; the Eisenhower Memorial controversy was deliberately not researched. DECEASED SUBJECT (2025): only documented public professional behaviour is scored. Excluded: family and private life (Newsweek's passages on his diet, routine, marriage and a friend's death), health and the circumstances of his death (named in the ENR obituary), honours as trait evidence, finances, cost and delay controversies except as documented professional episodes (the Disney Hall budget and schedule appear only as context in rows on persistence and adaptability, never as a verdict on him; ENR's remark that his projects often struggled to keep costs in line and its mention of clients replacing his firm on a Brooklyn arena and a Jerusalem museum are recorded here and not scored), and any inferred motive or psychology. CANONICAL SIGNIFICANCE SOURCE: The Pritzker Architecture Prize, 1989 laureate page and jury citation (https://www.pritzkerprize.com/laureates/1989), read in full: the jury honours an architecture it calls refreshingly original, 'a highly refined, sophisticated and adventurous aesthetic that emphasizes the art of architecture', likened to jazz; it predates Bilbao (1997) and Disney Hall (2003), so the later landmarks and the digital method are carried by the ENR obituary, Dean's paper, Moore's article and the 2003 Disney Hall coverage. READ (9 cited content sources plus the portrait-rights records): the Pritzker page; ENR's obituary; Dean's ACSA paper; Manfra's Metropolis profile of Rick Smith; Moore's Guardian article; Milroy's Globe and Mail essay; Webb's Domus history of Disney Hall; McGuigan's Newsweek profile; Kaye's PBS NewsHour report. All were downloaded as full text (PDF converted with pdftotext) and read directly, not through a summarising tool. PERSPECTIVES: an award body's jury; a scholarly paper on practice and software; a construction-trade obituary with contractors' voices; a design-magazine profile of a colleague and the CATIA consultant; three critics (Moore, Milroy and Webb) with mixed or admiring verdicts; a news-magazine profile with a conductor's recollection; a broadcast report with a client (Borda), musicians and a local dissenting critic (Kaplan); and Gehry's own words only as quoted by others (self evidence, never sole support for a row). COUNTER-VOICES recorded in the rows: Hal Foster (as quoted by Moore) that Bilbao trumps the art it serves, Witold Rybczynski's 'show-dog architecture' and the modernist objection to cladding (via Milroy), Sam Hall Kaplan's dissent on Disney Hall (PBS), the staff reluctance over CATIA (Metropolis), the cost and schedule overruns (Webb, Newsweek, PBS, ENR). CALIBRATION: the evidence is rich on his practice and processes but comes largely from critics, trade and design-press writers and collaborators who admire the results, and the behavioural detail rests on a few accounts (Webb on Disney Hall; Dean and Metropolis on CATIA), so no score exceeds 76 and no confidence exceeds 0.58. Ten rows are kept; none is padded. SELF-CALIBRATION (agent): all ten rows were lowered once after a re-read of the strongest rows (experimentation 78/0.62 to 76/0.58, creative originality 80/0.62 to 76/0.56, collaboration 72/0.58 to 68/0.54, resourcefulness 66/0.52 to 64/0.50, persistence 66/0.52 to 62/0.50, independent thinking 70/0.52 to 68/0.50, proactive agency 64/0.52 to 60/0.50, perfectionism 62/0.46 to 60/0.44, adaptability 66/0.52 to 62/0.50, aesthetic sensitivity 72/0.52 to 68/0.50) for admiring-source concentration, single-source dependence, retrospective praise, interpretation stronger than behaviour and self-quotation through shared profiles; each row's rationale ends with its own note. TRAITS NOT SCORED: risk tolerance (the CATIA bet and the Gehry Technologies venture look bold but no source describes the stakes or his weighing; ENR says owners, not he, took the risks), conflict tolerance (the committee dispute and his pushback on critics are documented only in outline), leadership drive and decisiveness (the 120-person office run as a tight ship is his own metaphor via one journalist; the stone-to-steel decision is described as difficult and long-considered), curiosity, mastery orientation and systems abstraction (the digital 'master model' thinking is credited to Glymph and the scholar's interpretation), persuasiveness, discipline and deep focus (no routine documented beyond a journalist's label), cross-domain range (his furniture, exhibitions, jewellery and watches are design work close to his field and are not scored, and no cards are built on them), belief updating (the neutral-space remark is self-report) and execution speed (Disney Hall took 16 years). FACT CONFLICTS RECORDED: (1) the start of Glymph's partnership is 1989 in Metropolis and January 1990 in Dean's paper, so the cards say only that CATIA was introduced in 1991; (2) Dean and Metropolis credit Glymph (and the consultant Rick Smith) with bringing CATIA into the office, while ENR credits Gehry's decision, so cards and rows describe the practice adopting it with Glymph's instigation; (3) Webb says the acoustician chosen in 1989 was Minoru Nagata while Newsweek and PBS say Gehry worked with Yasuhisa Toyota (of the same firm), so cards name Toyota only as Newsweek and PBS do and state no division of credit; (4) ENR cites case studies calling Experience Music Project the first US building to rely on CATIA from design through fabrication, which is not repeated; (5) the hall's opening is described in the sources as set for 23 October 2003 (PBS, Newsweek, written beforehand) and as completed in 2003 (ENR, Webb), so cards say completed in 2003; (6) the Disney Hall estimate of $100 million rose to $265 million (Webb) or a final cost of $274 million (Webb, Newsweek, PBS), and no card gives a cost; (7) Commons' archival citation for the portrait says Fonds 200 while the Archives' own record says Fonds 219, so the Archives' citation is used. NOT OPENED: Paul Goldberger's biography 'Building Art' and Barbara Isenberg's 'Conversations with Frank Gehry' (books), any New York Times, Los Angeles Times or Guardian obituary (those domains are closed to the search tool and no obituary from them was located or fetched), Hal Foster's own texts and the Sydney Pollack film 'Sketches of Frank Gehry' (Foster is read only as quoted by Moore), Alex Marshall's 2001 New York Times Magazine and Michael Schrage's 2000 Fortune pieces (read only as quoted by Dean), the Guggenheim Bilbao and Los Angeles Philharmonic institutional pages, the AECbytes and AISC case studies (read only as cited by ENR). Opened but not cited: the ArtsJournal blurb page for Moore's article (an excerpt only, superseded by the Guardian original). PORTRAIT: City of Toronto Archives photograph by Jose San Juan, 13 September 2010 (the same image Wikidata uses): the Archives' own record and Copyright page (code G-CC) say copyright is held by the City of Toronto and no permission is needed to use the work for any purpose, with no conflicting notice, so the rights basis is the holder's own statement rather than a Creative Commons licence; the Commons file is 1080 x 718 pixels, uploaded 6 December 2025 from the Archives' record, and no larger original was found; saved as a 574 x 718 crop at native pixel scale (verified to open as a JPEG, never upscaled) as public/portraits/frank-gehry-san-juan-2010.jpg; he is shown smiling slightly, in glasses and a dark jacket. Considered and not chosen: Eric Richardson's 24 April 2006 snapshot at Disney Hall (Commons 'Frank Gehry 2006.jpg', CC BY 2.0, 960 x 1280; a crowded profile shot taken with a phone camera and not a usable likeness) and the Forgemind ArchiMedia photograph of 7 August 2010 beside a model at Arles (Commons, CC BY 2.0, 956 x 640; a stronger setting but his face covers only about a ninth of the frame). RESIDUAL RIGHTS NOTE: the basis is the City's statement for its own staff photographer's work, not a licence from the individual photographer; publicity rights are not addressed by it."
+  }
+}

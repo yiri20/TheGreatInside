@@ -1,0 +1,311 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "andy-grove",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Andy Grove",
+    "aliases": [
+      "Andrew Grove",
+      "Andrew S. Grove",
+      "András Gróf"
+    ],
+    "wikidataId": "Q432929",
+    "birthYear": 1936,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "executive",
+      "engineer"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial"
+    ],
+    "tagIds": [
+      "leader",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_grove_wikidata",
+      "kind": "wikidata",
+      "title": "Andrew Grove (Q432929) -- verified live via the Wikidata API (2026-10-16): English label 'Andrew Grove', description 'Hungarian-born American businessman, engineer and author (1936-2016)', instance of human, born 2 September 1936, died 21 March 2016, citizenship United States and Hungary, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q432929"
+    },
+    {
+      "id": "src_grove_wikipedia",
+      "kind": "wikipedia",
+      "title": "Andrew Grove -- English Wikipedia article, opened for orientation and to cross-check dates and offices (president 1979, chief executive 1987, chairman 1997), the Doerr-at-Intel lineage of the objectives-based management later called OKRs, and his list of books. Orientation only; not used as support for any trait row, and its statements about his character were not relied on.",
+      "url": "https://en.wikipedia.org/wiki/Andrew_Grove"
+    },
+    {
+      "id": "src_grove_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, David C. Brock, 'Remembering Andy S. Grove', CHM Blog, 21 March 2016 -- museum historian's tribute and career summary: hired by Moore at Fairchild in 1963 and tackling the MOS problem with his group; Intel's inside, operational force; president, then chief executive from 1987 to 1998 and chairman from 1997 to 2005; Intel's dominance in PC microprocessors ('Wintel'); constructive confrontation, the 'late list' and highly quantitative management by objectives; his management books. CANONICAL SIGNIFICANCE SOURCE. Read in full. Institutional and admiring, written on his death; it lists Strategy Is Destiny as written 'with' Burgelman although Stanford lists Burgelman as sole author, and its passages on his early life, health and philanthropy were not used.",
+      "url": "https://computerhistory.org/blog/remembering-andy-s-grove/"
+    },
+    {
+      "id": "src_grove_calhof",
+      "kind": "award_body",
+      "title": "California Museum, California Hall of Fame, 'Andrew S. Grove' inductee page (class of 2009; biography current as of induction) -- hall-of-fame summary: president 1979, later chief executive and chairman; Intel's profitability and share of PC microprocessors; Time's Man of the Year citation; his semiconductor textbook and his teaching at Berkeley and the Stanford business school; medical philanthropy (not used). Award-body prose and admiring; read in full.",
+      "url": "https://californiamuseum.org/inductee/andrew-s-grove/"
+    },
+    {
+      "id": "src_grove_intel2016",
+      "kind": "institution",
+      "title": "Intel Corporation, 'Andrew S. Grove 1936 - 2016' (Business Wire release on the company's investor site, 21 March 2016) -- the company's own obituary statement: offices held, a 'critical role in the decision to move Intel's focus from memory chips to microprocessors', the 386 and Pentium, revenue growth under him, his management books, and a tribute from chairman Andy Bryant. Self-published and promotional, so used only to cross-check dates and offices; it dates Only the Paranoid Survive to 1999, which every other source contradicts (1996). Read in full.",
+      "url": "https://www.intc.com/news-events/press-releases/detail/284/andrew-s-grove-2016"
+    },
+    {
+      "id": "src_grove_time_isaacson",
+      "kind": "press",
+      "title": "Walter Isaacson, 'Andrew Grove: Man Of The Year', Time, 29 December 1997 -- the managing editor's cover essay naming Grove 1997 Man of the Year as 'the person most responsible for the amazing growth in the power and innovative potential of microchips': Intel's market value and profits in 1997, the traits Time sees in him (paranoia, entrepreneurial optimism, 'a sharpness tinged with arrogance'), his term 'strategic inflection points', and the new economy the microchip drove. Independent journalism but an admiring, award-style essay; read in full (free archive text).",
+      "url": "https://time.com/4267448/andrew-grove-man-of-the-year/"
+    },
+    {
+      "id": "src_grove_time_ramo",
+      "kind": "press",
+      "title": "Joshua Cooper Ramo, 'Andrew Grove: A Survivor's Tale', Time, 29 December 1997 (reporting with Daniel Eisenberg) -- the Man of the Year profile, built on interviews with Grove and named associates (venture capitalists John Doerr and Arthur Rock, AMD chief executive Jerry Sanders, analysts, former teachers): the sodium finding at Fairchild, Intel's cubicle culture, discipline and Grove's temper, the 1981 '125% solution', the 1994 Pentium flaw and reversal, his twice-yearly strategy reports to the board, and a rival's complaint. Independent but favourable and an occasion piece; read in full. The childhood, family, health, wealth and philanthropy passages were not used.",
+      "url": "https://time.com/archive/6732025/andrew-grove-a-survivors-tale/"
+    },
+    {
+      "id": "src_grove_fortune1995",
+      "kind": "press",
+      "title": "Brent Schlender, 'Why Andy Grove can't stop', Fortune, 10 July 1995 -- cover profile of Grove as chief executive pushing a PC platform standard (Intel Architecture Labs, native signal processing, motherboards, cable modems) and the resulting tension with Microsoft and PC makers; quotes Gordon Moore, Craig Barrett, Paul Otellini, former Intel vice president Jack Carsten and analyst Michael Slater; describes his earlier scepticism about PCs and the 1994 Pentium episode. Independent business journalism, mixed in tone; read in full. Its passages on his youth and family were not used.",
+      "url": "https://fortune.com/1995/07/10/why-andy-grove-cant-stop/"
+    },
+    {
+      "id": "src_grove_fortune2005",
+      "kind": "press",
+      "title": "Richard S. Tedlow, 'The education of Andy Grove', Fortune, 19 December 2005 -- essay by the Harvard Business School historian who then wrote Grove's biography, drawing on interviews and unpublished documents including Grove's notebooks: his self-education as a manager from 1969, the mid-1980s exit from memory chips, the 386 sole-source decision, the 1990 'Intel Inside' pitch, the 1991 RISC episode and 'helpful Cassandras', the 1994 Pentium recall, and his board-governance work as chairman. Substantive, but written by an author who has said he came to admire Grove, and much of it relays Grove's own accounts; read in full. The childhood and cancer passages were not used.",
+      "url": "https://fortune.com/article/andy-grove-fortune-classic/"
+    },
+    {
+      "id": "src_grove_nyt_obit",
+      "kind": "press",
+      "title": "The New York Times obituary 'Andrew S. Grove, Longtime Chief of Intel, Dies at 79', 21 March 2016 (read as republished by CNBC, whose copy carries the byline Jonathan Kandell and the label 'More from the New York Times') -- long obituary: Harvard's David Yoffie, an Intel director, on his influence and 'creative confrontation'; Craig Barrett's 2004 'two-by-four' remark; the Wall Street Journal's 2002 description of confrontation at Intel and Fortune's 1984 'toughest bosses' listing; the unpaid-overtime response to cheap Japanese memory chips; the i432 miss and his 2001 Wired remark about the microprocessor; the Pentium reversal at $475 million; AMD's Jerry Sanders on Intel. Independent and fairly balanced; read in full. Its private-life and health passages were not used.",
+      "url": "https://www.cnbc.com/2016/03/21/andrew-s-grove-longtime-chief-of-intel-dies-at-79.html"
+    },
+    {
+      "id": "src_grove_kqed",
+      "kind": "press",
+      "title": "KQED, 'Former Intel CEO Andy Grove Dies at Age 79', 21 March 2016 (report that credits material from former Associated Press technology writer Jordan Robertson) -- obituary report: the 'bet-the-company gamble' of moving from memory chips to microprocessors in the mid-1980s; Stanford's Robert Burgelman calling him 'one of the most incisive thinkers' and saying Intel would not have been Intel without him; the description of him as combative and vindictive to those who crossed him; the Pentium handling and the later no-questions-asked exchange; offices held and books. Independent news report; read in full. Biographical and health passages not used.",
+      "url": "https://www.kqed.org/news/10904449/intel-ceo-andy-grove-dies-at-age-79"
+    },
+    {
+      "id": "src_grove_npr2016",
+      "kind": "press",
+      "title": "Laura Sydell, 'Digital Pioneer Andrew Grove Led Intel's Shift From Chips To Microprocessors', NPR Morning Edition, 22 March 2016 (transcript read as carried on the Public Radio East site; NPR's own page timed out) -- radio obituary: Gordon Moore recalling that Grove said 'I want to come too' in 1968, Stanford historian Leslie Berlin on Grove as the person who made day-to-day operations work, and archived audio of Grove and Moore on the question of what a new CEO would do about memory chips. Independent journalism; short; read in full. Its correction note calls Grove 'Intel's first employee', which other sources dispute.",
+      "url": "https://www.publicradioeast.org/2016-03-22/digital-pioneer-andrew-grove-led-intels-shift-from-chips-to-microprocessors"
+    },
+    {
+      "id": "src_grove_hbswk",
+      "kind": "institution",
+      "title": "Sean Silverthorne, 'The History and Influence of Andy Grove' (interview with Richard S. Tedlow), HBS Working Knowledge, 29 October 2006 -- the biographer on Grove's self-education as a manager, the Intel culture ('knowledge power' over 'position power', arguing about issues rather than people), the 'pressure cooker', his notebooks and self-criticism, and the Pentium floating-point failure. Institutional and admiring: Tedlow says his admiration and affection 'must have colored the account to some degree'. Read in full; the early-life interpretation was not used.",
+      "url": "https://hbswk.hbs.edu/item/the-history-and-influence-of-andy-grove"
+    },
+    {
+      "id": "src_grove_gsb_dram",
+      "kind": "institution",
+      "title": "Stanford Graduate School of Business, case study 'Intel Corporation (A): The DRAM Decision' by Robert Burgelman -- catalogue abstract of the teaching case on the decision Intel's top management faced at the end of 1984 on whether to exit the DRAM business, the shift of Intel's core business from memory to microprocessor-based logic products, and top management's capacity for 'strategic recognition'. Institutional abstract only (the case text is sold by the school and was not opened); Burgelman is a long-time collaborator of Grove's, so this is not a fully independent voice. Read in full.",
+      "url": "https://www.gsb.stanford.edu/faculty-research/case-studies/intel-corporation-dram-decision"
+    },
+    {
+      "id": "src_grove_gsb_fading",
+      "kind": "institution",
+      "title": "Stanford Graduate School of Business, abstract of Robert A. Burgelman, 'Fading Memories: A Process Theory of Strategic Business Exit in Dynamic Environments' (March 1994) -- research abstract: Intel's internal selection environment shifted scarce manufacturing resources from memory to microprocessors before official corporate strategy changed, because of inertial forces and the actions of middle-level managers. Institutional abstract only (the article itself was not opened); it shows the pivot was not only a top-management act.",
+      "url": "https://www.gsb.stanford.edu/faculty-research/publications/fading-memories-process-theory-strategic-business-exit-dynamic"
+    },
+    {
+      "id": "src_grove_gsb_insights",
+      "kind": "institution",
+      "title": "Stanford GSB Staff, 'What Do You Do When Industry Dynamics Fundamentally Change?', Stanford GSB Insights, 1 June 1996 -- school summary of Burgelman and Grove's paper 'Strategic Dissonance', using the Pentium flaw and the mid-1980s DRAM exit as examples: Intel's initial reluctance to replace flawed chips, the Intel Inside campaign (April 1991) that changed customers' expectations, the no-questions-asked exchange announced several weeks after the crisis began, the managers returning from Japan who first signalled the memory problem, and that the two had researched together since 1989 and taught together since 1992. Institutional summary of a paper Grove co-wrote, so partly self; read in full.",
+      "url": "https://www.gsb.stanford.edu/insights/what-do-you-do-when-industry-dynamics-fundamentally-change"
+    },
+    {
+      "id": "src_grove_gsb_book",
+      "kind": "institution",
+      "title": "Stanford Graduate School of Business, book page for Robert A. Burgelman, 'Strategy is Destiny: How Strategy-making Shapes a Company's Future' -- publisher-style summary: a twelve-year study inside Intel made possible by his teaching collaboration with Grove since 1988, the role of mid-level managers in turning Intel from a memory company into a microprocessor company in the late 1970s and early 1980s, the decision to abandon the founding business, and Grove's orchestration of strategy during the PC boom. Read in full; used to see how close Burgelman was to Grove and to attribute authorship (Burgelman alone).",
+      "url": "https://www.gsb.stanford.edu/faculty-research/books/strategy-destiny-how-strategy-making-shapes-companys-future"
+    },
+    {
+      "id": "src_grove_chm_386",
+      "kind": "institution",
+      "title": "Computer History Museum, event page 'Richard S. Tedlow, Harvard Business School Professor and Historian, Leads the Intel 386 Case' (26 January 2009) -- museum event description: under Grove and Moore the personal computer market changed with the October 1985 launch of the Intel 80386, and Intel's decision to be the sole source of the 386, ending 'second-sourcing', is described as risky and unorthodox. Institutional event copy rather than an analysis; read in full.",
+      "url": "https://computerhistory.org/events/richard-tedlow-leads-intel-386-case/"
+    },
+    {
+      "id": "src_grove_kirkus_jackson",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of Tim Jackson's 'Inside Intel: Andrew Grove and the Rise of the World's Most Powerful Chip Company' (issue of 15 August 1997) -- trade review of a critical outside account written with minimal company cooperation: Intel under Grove playing rough with defecting employees and rivals, using litigation to keep an edge, and trying to stonewall the 1994 Pentium disclosure, while praising its technical and capital-investment strengths. Secondary and about a book, not first-hand; used as the adversarial perspective. Read in full; the book itself was not opened.",
+      "url": "https://www.kirkusreviews.com/book-reviews/tim-jackson/inside-intel/"
+    },
+    {
+      "id": "src_grove_kirkus_tedlow",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of Richard S. Tedlow's 'Andy Grove: The Life and Times of an American' (issue of 15 September 2006) -- trade review calling the biography 'ultimately unsurprising', noting that Tedlow criticises Grove's stock-option stance yet is clearly an admirer, and that the central idea is Grove's willingness to adapt and change. Used only to calibrate how admiring the main biographer is. Read in full; the book itself was not opened.",
+      "url": "https://www.kirkusreviews.com/book-reviews/richard-s-tedlow/andy-grove/"
+    },
+    {
+      "id": "src_grove_chf2004",
+      "kind": "archive",
+      "title": "Andrew S. Grove, interviews by Arnold Thackray and David C. Brock, Los Altos, 14 July and 1 September 2004 (Chemical Heritage Foundation oral history transcript no. 0293, Science History Institute PDF) -- SELF account: the Fairchild research collaboration with Bruce Deal, Edward Snow and Desmond Fitzgerald, how he reshaped his role at Fairchild in 1967, his determination not to build another Fairchild at Intel, his reading of Drucker's 'ideal chief executive' as an outside man, a man of thought and a man of action (Noyce, Moore and himself), and his view of microprocessor strategy as 'strategic recognition'. Read the abstract and the Fairchild and Intel sections (about pages 18 to 34); the education sections were skimmed and not used. Self-testimony, never sole support for a row.",
+      "url": "https://digital.sciencehistory.org/downloads/orig/pdf/3aas7sq"
+    },
+    {
+      "id": "src_grove_jones_chf2006",
+      "kind": "archive",
+      "title": "Jean C. Jones, interviews by David C. Brock by telephone, 8 March, 5 April and 15 June 2006 (Chemical Heritage Foundation oral history, Science History Institute PDF) -- COLLEAGUE first-hand account by Gordon Moore's long-time assistant: Grove's sense of command and rough, businesslike style in Intel's first year, his monthly progress reports, his deference to Moore, his confrontations with Noyce, and Moore's confidence in Grove's direction when Intel left memory chips. Read the passages on Grove, Moore and Noyce; she labels some interpretations as supposition and those were weighed lightly, and passages on colleagues' private lives and on Grove's hearing were not used.",
+      "url": "https://digital.sciencehistory.org/downloads/orig/pdf/3197xn21d"
+    },
+    {
+      "id": "src_grove_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Intel Inside (3607903903) (cropped).jpg' (with its parent file 'Intel Inside (3607903903).jpg' and the photographer's Flickr page 'Intel Inside') -- checked for the portrait's licence: photograph by Steve Jurvetson, taken 7 June 2009 and uploaded to Flickr on 8 June 2009, released by him under CC BY 2.0 with no further copyright notice; the Commons parent file carries a Flickr-licence review pass and neither page has a restriction or personality-rights template; the Commons crop (770 x 1027) was extracted from the 3518 x 2823 original at its native resolution. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Intel_Inside_(3607903903)_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_grove_time_ramo, src_grove_nyt_obit, src_grove_chm, src_grove_time_isaacson, src_grove_fortune2005 | 1963-1997 | news magazines + obituary + museum + biographer] Time and the New York Times obituary report that at Fairchild he and colleagues traced much of the instability in MOS silicon devices to sodium contamination, and the museum describes that work as opening the way for silicon MOS technology; Time's managing editor describes in him an engineer's analytic coldness; Time says that twice a year he gave Intel's directors a half-day 'state of the industry' analysis and then faced questions led by Arthur Rock and Gordon Moore; Tedlow describes an Intel culture in which an idea needed data behind it ('prove it'). Three independent outlets agree on the research result, but it was a team result and most of the 'analytic' labels are admiring characterisations, so documented at a moderate confidence. SELF-CALIBRATION (agent): lowered from 78/0.64 to 76/0.62 because the one specific instance is shared team science and the rest is admiring characterisation or Tedlow's description of the culture."
+    },
+    "belief_updating": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_grove_time_ramo, src_grove_fortune1995, src_grove_gsb_insights, src_grove_fortune2005, src_grove_npr2016 | 1985-1995 | news magazines + university summary + biographer's essay + radio report] On the 1994 Pentium flaw, Fortune (1995) says he first denied that typical users would be affected and, after a hailstorm of criticism, backed down and offered replacements; Time says that after a weekend with his advisers he changed course and Intel agreed within days to spend $475 million on replacements, and Stanford's summary says the exchange offer came several weeks into the crisis. Tedlow adds that he let two executives argue him out of moving Intel's flagship line to the RISC design, and recounts from Grove's own book the mid-1980s exchange in which he asked Moore what a new CEO would do about memory chips (NPR carries Moore and Grove recalling it). The pattern is real but not quick: the Pentium reversal followed public pressure and Tedlow calls the apology 'not very gracious'. SELF-CALIBRATION (agent): lowered from 74/0.62 to 70/0.58 because most of the reversals are told through Grove's own accounts relayed by one biographer, and the best independent instance (Pentium) shows a delayed rather than prompt update."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_grove_fortune2005, src_grove_hbswk, src_grove_fortune1995, src_grove_chm | 1968-2005 | biographer's essay + interview + magazine profile + museum] Several documented changes of role or stance: a researcher who became head of operations and had to teach himself management (Tedlow, the museum); a long-time sceptic of personal computers who began using one daily after Intel adopted company-wide e-mail in 1989 and then championed the PC as a communications machine (Fortune 1995); a chief executive who embraced consumer branding at an engineering company (Tedlow); and a former chief executive who, as chairman, set out to reform the board's governance (Tedlow). Distinct episodes from two authors, but three of the four come from Tedlow and the row overlaps with belief updating. SELF-CALIBRATION (agent): lowered from 72/0.58 to 68/0.52 because of that overlap and the single-biographer dependence."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_grove_gsb_dram, src_grove_kqed, src_grove_fortune2005, src_grove_chm_386, src_grove_fortune1995, src_grove_time_ramo | 1984-1995 | university case abstract + obituary + biographer's essay + museum + magazine profiles] Stanford's case describes the decision Intel's top management faced at the end of 1984 over exiting memory chips, and KQED calls the move to microprocessors a bet-the-company gamble; Tedlow says that in 1985 Intel refused to license the 386 to other chipmakers despite its dependence on IBM, which the museum's event page calls risky and unorthodox, and that in 1990 he approved the 'Intel Inside' consumer brand when most of his executives thought it 'nuts'; Fortune (1995) says his push for a PC standard risked alienating key customers and partners; Time quotes him that 'the risk of omission is greater than the risk of commission'. Dual-edged because the Pentium episode and the Microsoft tension show the costs. SELF-CALIBRATION (agent): lowered from 76/0.64 to 72/0.60 because the 'bet-the-company' phrasing is retrospective and Burgelman's research describes the memory exit as a process in which middle managers had already shifted resources, and because much of the rest is one biographer's account."
+    },
+    "discipline": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_grove_time_ramo, src_grove_chm, src_grove_jones_chf2006, src_grove_hbswk, src_grove_fortune2005 | 1968-1997 | news magazine + museum + colleague oral history + biographer] John Doerr, who worked at Intel in the 1970s, told Time that discipline was among its most important values and that Grove had no tolerance for lateness or meetings without a purpose; Time also describes his cubicle still lit after 8 p.m. and his personal mail codes for clearing his inbox; the museum names the 'late list' sign-in among his practices; Jean Jones recalls that from Intel's first year he wanted a monthly written progress report from every direct report and was very organised; Tedlow says the notebooks he began in 1969 show a man harder on himself than on others. Several independent sources agree. SELF-CALIBRATION (agent): lowered from 82/0.68 to 78/0.64 because the claim that he was harder on himself rests on one admiring biographer and Doerr is an admiring former colleague. LEAD REVIEW CORRECTION (Roster51, before eligibility, downward only): the strongest rows still rest on a short list of admiring or institutional voices (Time and Fortune retrospectives, one biographer family, the museum tribute) plus Grove's own written regrets; the agent had already self-lowered 8 rows; score and confidence lowered."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_grove_fortune1995, src_grove_time_ramo, src_grove_jones_chf2006 | 1968-1997 | magazine profiles + colleague oral history] Fortune (1995) calls him a notoriously hands-on manager who for more than twenty years ruled product development and manufacturing, quotes Paul Otellini on his continuing obsession with marketing details, and quotes Moore that he always asked why a project could not be done faster and cheaper; Time describes his tightly managed inbox routine and Jones recalls him as very organised. Descriptions and quotations rather than specific checkable episodes, so strong inference at a modest confidence."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_grove_time_ramo, src_grove_nyt_obit, src_grove_chm, src_grove_jones_chf2006, src_grove_fortune2005, src_grove_kqed | 1968-2005 | news magazine + obituaries + museum + colleague oral history + biographer] Time (1997) says that for years he enforced Intel's standards with a quick, genuine temper, that Fortune named him one of America's toughest bosses in 1984, and quotes his own written regret that an apology could not repair the damage to a hurt manager; the New York Times obituary relays the Wall Street Journal's 2002 description of 'creative confrontation' as shouting matches, adds that most of the shouting was Grove's, and quotes Craig Barrett's remark that his style was to hit you over the head with a two-by-four; the museum names constructive confrontation of problems as a signature Intel practice; Jean Jones remembers him as rough and businesslike with everyone, raising his voice, and often confrontational with Noyce; Tedlow describes a 'prove it' argument culture in which two executives won an argument with him over RISC; KQED calls him combative and vindictive to those who crossed him. Dual-edged because the same forcefulness was credited with Intel's problem-solving culture and was also said to have hurt valued colleagues. SELF-CALIBRATION (agent): lowered from 84/0.70 to 80/0.66 because the temper and 'toughest boss' material recurs across Time, the obituary and KQED (partly one chain of retelling) and several culture claims are retrospective praise. LEAD REVIEW CORRECTION (Roster51, before eligibility, downward only): the strongest rows still rest on a short list of admiring or institutional voices (Time and Fortune retrospectives, one biographer family, the museum tribute) plus Grove's own written regrets; the agent had already self-lowered 8 rows; score and confidence lowered."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_grove_chm, src_grove_jones_chf2006, src_grove_time_ramo, src_grove_gsb_insights, src_grove_fortune1995 | 1963-1998 | museum + colleague oral history + magazines + university summary] The museum describes a working partnership with Moore lasting three decades; Jones says Grove and Moore were usually on the same plan, that Moore was the only person Grove deferred to, and that Noyce and Grove were often confrontational; Time says that at Fairchild he began working with two colleagues he met in the cafeteria, Bruce Deal and Edward Snow, on the MOS problem; Stanford says he and Burgelman researched together from 1989 and co-taught from 1992; Fortune (1995) quotes Barrett saying 'Andy does what he wants, and I get to do everything else'. Real, long partnerships, but selective and often hierarchical, so a moderate score and confidence."
+    },
+    "competitiveness": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_grove_time_ramo, src_grove_nyt_obit, src_grove_fortune1995, src_grove_fortune2005, src_grove_kirkus_jackson | 1981-1997 | news magazines + obituary + biographer's essay + book review] Time says that if he was tough on people inside Intel he was brutal with competitors, quotes AMD chief executive Jerry Sanders that Intel went 'right to the edge' to exclude rivals from big customers, and quotes Arthur Rock that he would hate to compete with Intel; the New York Times calls him a manager who cowed rivals and records his response to cheap Japanese memory chips (extra unpaid hours rather than layoffs); Fortune (1995) says he was not content with a near-monopoly and wanted to set the hardware agenda for the whole PC industry; Tedlow quotes him on keeping the 386 proprietary, that losing was better than 'losing by compromising your advantages away'; Kirkus's review of Tim Jackson's critical book says Intel under him used litigation to keep its edge. Rival complaints are allegations, not findings. SELF-CALIBRATION (agent): lowered from 80/0.64 to 76/0.58 because much of the evidence describes Intel's corporate strategy rather than his personal competitiveness, the adversarial voices are allegations, and the book-review source is secondary."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_grove_fortune2005, src_grove_hbswk, src_grove_chm, src_grove_calhof, src_grove_time_ramo | 1967-2005 | biographer's essay + interview + museum + hall-of-fame biography + news magazine] Tedlow says that on 4 July 1969, newly in charge of operations, Grove began a notebook headed 'My job description?' and kept journals for years to teach himself management, and calls him the 'ultimate autodidact'; the museum says he turned from technical pursuits to a deep engagement with management theory and practice and published influential books; the California Hall of Fame notes his semiconductor textbook, used at leading universities, and his teaching at Berkeley and the Stanford business school; Time says his Stanford course was an annual sellout. SELF-CALIBRATION (agent): lowered from 76/0.60 to 72/0.56 because the notebook evidence comes from one admiring biographer who had access to the journals, and the other sources are admiring summaries."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_grove_time_isaacson, src_grove_gsb_insights, src_grove_fortune1995, src_grove_fortune2005 | 1991-1997 | news magazines + university summary + biographer] Time notes his term 'strategic inflection points', moments when new circumstances change how an industry works; Stanford's summary describes the 'strategic inflection point' and 'strategic dissonance' framework he developed with Burgelman and applied to the Pentium crisis; Fortune (1995) describes him reasoning across the PC, television, telephone and cable industries and building Intel Architecture Labs and a PC platform standard to shape the surrounding ecosystem; Tedlow reports a graphic he used of Intel as a castle, with the 386 at its centre, under siege. The frameworks are partly his own writing and the ecosystem moves are described by journalists, so strong inference at a moderate confidence."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_grove_chm_386, src_grove_fortune2005, src_grove_time_ramo, src_grove_nyt_obit | 1985-1997 | museum event page + biographer + news magazine + obituary] The museum's page says Intel's decision to be the sole source of the 386 ended the 'second-sourcing' that had always been done; Tedlow adds that Grove insisted on it although IBM had long required licensing, and that he approved 'Intel Inside' when his colleagues thought it 'nuts'; Time and the New York Times describe an egalitarian office design in which the chief executive sat in the same kind of cubicle as everyone else, which Harvard's David Yoffie credits to Intel as a pioneer of open, non-hierarchical offices. A pattern of decisions against industry convention, but the decisions were partly collective and the main narrator is one biographer."
+    },
+    "opportunity_sensing": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_grove_fortune2005, src_grove_chm, src_grove_nyt_obit, src_grove_fortune1995, src_grove_gsb_fading | 1985-1997 | biographer + museum + obituary + magazine + university abstract] Hits: approving the 'Intel Inside' brand when colleagues doubted it (Tedlow) and an early strategic interest in the Internet (the museum; the obituary quotes his 1997 'Internet time' remark). Misses: the obituary quotes him conceding in a 2001 Wired interview that he had seen the microprocessor as a 'bloody nuisance' while running a memory-chip assembly line, Fortune (1995) lists among his musings how he and Gates were blindsided by the Internet's popularity, and Burgelman's research says middle managers had moved Intel's resources toward microprocessors before top management formally changed strategy. A mixed record, hence a middling score and a low confidence."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_grove_npr2016, src_grove_fortune1995, src_grove_fortune2005, src_grove_chm | 1968-2005 | radio report + magazine + biographer + museum] Moore told NPR that when he said he was leaving Fairchild, Grove replied 'I want to come too', and Fortune (1995) says Grove was the first to volunteer to join Moore and Noyce; Fortune (1995) reports that he set up Intel Architecture Labs and in 1993 decided Intel had to 'throw its weight around' to define a PC platform rather than wait for Microsoft or the PC makers; Tedlow says that as chairman he took on reforming the board's governance. Several self-started initiatives across decades, but the 1968 story is relayed by Moore and Grove long afterwards and the later initiatives are single-source descriptions."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "앤디 그로브"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/andy-grove-jurvetson-2009.jpg",
+    "width": 770,
+    "height": 1027,
+    "source": "Wikimedia Commons, 'Intel Inside (3607903903) (cropped).jpg' -- a crop (made on Commons) of the photograph 'Intel Inside' by Steve Jurvetson, taken 7 June 2009 aboard an airship approaching Intel's headquarters (caption: 'Approaching Intel HQ by zeppelin with Andy Grove'), uploaded by him to Flickr on 8 June 2009 under CC BY 2.0; the Flickr page shows no other copyright notice; Commons crop 770 x 1027 pixels, extracted at native resolution from the 3518 x 2823 original and saved unchanged (never upscaled).",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Steve Jurvetson, 7 June 2009, CC BY 2.0, cropped from the original on Wikimedia Commons",
+    "attributionUrl": "https://www.flickr.com/photos/jurvetson/3607903903/",
+    "creator": "Steve Jurvetson",
+    "date": "2009-06-07",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_Inside_(3607903903)_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q432929 returned en label 'Andrew Grove', description 'Hungarian-born American businessman, engineer and author (1936-2016)', born 1936-09-02, died 2016-03-21, citizenship United States and Hungary, Korean label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug andy-grove or QID Q432929 in the roster51 worktree. REGION: north_america by career region (his whole documented career, at Fairchild and Intel, was in California), following the Sergey Brin precedent (Russia-born, region north_america); Wikidata lists United States and Hungarian citizenship, and nationalityCodes records US only because every source describes him as an American executive. ERA: 20th_century, as for Gordon Moore and Robert Noyce. CLASSIFICATION: occupations executive and engineer, fields business and technology (both exist as field.business and field.technology), tags leader and strategist, archetype organisational leader, following the Satya Nadella precedent; no founder tag, because sources disagree on his status (the museum says first recruit, Intel says first hire and 'present at the founding', KQED says third employee though Intel considers him a founder, NPR's correction says first employee and not a co-founder, Tedlow says employee number three), so no ordinal or founder claim is made anywhere. ZERO POLITICS: nothing political is scored; his public-policy advocacy (including the 'prominent public issues' in Intel's statement), the Washington lobbying mentioned in Fortune 1995 and his oral history, and the regulatory probes mentioned in Time are unscored, and competitors' allegations (Sanders; Kirkus on Jackson) are used only as quoted complaints. DECEASED SUBJECT, SAME DISCIPLINE: excluded as trait evidence are private life (marriage, children, colleagues' private lives mentioned in the Jones oral history), health (childhood illness, hearing loss and its treatment, prostate cancer, Parkinson's disease), the Holocaust-survival and escape biography (read in Time, KQED, Tedlow and the museum page; used only as identity context and never as personality inference), personal wealth, philanthropy and the Grove Foundation; no diagnosis or mental-state inference is made. CANONICAL SIGNIFICANCE SOURCE: Computer History Museum, David C. Brock, 'Remembering Andy S. Grove' (https://computerhistory.org/blog/remembering-andy-s-grove/), read in full: it says his best-known contributions were made at Intel as its operational force and then president, chief executive (1987-1998) and chairman, building Intel's dominance in PC microprocessors and a culture of constructive confrontation and quantitative management by objectives, and writing influential management books; corroborated by Time's 1997 Man of the Year essay, Stanford's Burgelman case on the DRAM decision, and the New York Times and KQED obituaries. READ (21 sources opened and read besides Wikidata and Wikipedia; 12 are substantive full texts, namely Time twice, Fortune twice, the Times obituary, KQED, NPR, the HBS interview, the museum's tribute, the Stanford 1996 summary and the two oral histories, and the rest are short institutional pages, abstracts, reviews and the licence page): Time (Ramo and Isaacson, December 1997), Fortune (Schlender 1995; Tedlow 2005), the New York Times obituary (via CNBC), KQED, NPR (via Public Radio East), HBS Working Knowledge (Tedlow interview), the museum's tribute and 386 event page, Stanford GSB (the DRAM-decision case abstract, the Fading Memories abstract, the 1996 Insights summary and the Strategy Is Destiny book page), the California Hall of Fame page, Intel's own statement, two Kirkus reviews, Grove's 2004 oral history (Fairchild and Intel sections) and Jean Jones's 2006 oral history; English Wikipedia was opened for orientation. PERSPECTIVES: (1) independent journalism: Time, Fortune 1995, the Times obituary, KQED, NPR; (2) biographer and institutions: Tedlow (admitted admiration, one author in Fortune 2005 and the HBS interview, so not two perspectives), the museum, Stanford GSB (Burgelman is a long-time collaborator, so partly insider), the hall of fame; (3) colleague and board accounts: Jean Jones, and John Doerr, Arthur Rock, Craig Barrett, Gordon Moore, Dennis Carter, Jack Carsten, Paul Otellini and Leslie Berlin as quoted in Time, Fortune, the Times and NPR; (4) critical or adversarial: Jerry Sanders (AMD) as quoted, KQED's 'combative and vindictive', Kirkus on Jackson's critical book; (5) SELF: his 2004 oral history and his own words relayed through Time, Fortune, the Times and NPR (self-quotation through shared profiles, flagged in the rows; never sole support). CALIBRATION: the behavioural evidence is dominated by favourable profiles written around his Man of the Year award and his death, a single biographer (Tedlow, in two of the sources) carries the self-education, RISC and memory-exit episodes, and the temper material recurs across Time, the Times and KQED, so no score exceeds 80 and no confidence exceeds 0.66. SELF-CALIBRATION (agent): the strongest rows were re-read once and eight were lowered before return (conflict tolerance 84/0.70 to 80/0.66; discipline 82/0.68 to 78/0.64; analytical rigor 78/0.64 to 76/0.62; risk tolerance 76/0.64 to 72/0.60; belief updating 74/0.62 to 70/0.58; competitiveness 80/0.64 to 76/0.58; mastery orientation 76/0.60 to 72/0.56; adaptability 72/0.58 to 68/0.52); reasons: admiring-source concentration, single-biographer dependence, retrospective praise, self-quotation through shared profiles, evidence about the company rather than the person, and overlap with another row. The other six rows were first set at or below their stored values and were not changed. CONFLICTS RECORDED: (a) first employee versus third employee versus first recruit, see above; (b) the museum lists Strategy Is Destiny as written 'with' Burgelman whereas Stanford lists Burgelman alone, and the Stanford attribution is used; (c) Intel's statement dates Only the Paranoid Survive to 1999 and every other source to 1996, and 1996 is used; (d) layoff counts differ between sources and are not used; (e) the Time-derived '1984 toughest bosses' listing and the Barrett and Sanders quotations are used as relayed, because Fortune 1984, the 2004 Times story and the 1997 Time interview with Sanders were not opened. NOT OPENED: Grove's books (High Output Management, Only the Paranoid Survive, Swimming Across), Tedlow's biography, Malone's The Intel Trinity, Jackson's Inside Intel and Burgelman's Strategy Is Destiny and the case text itself (only abstracts or reviews), Doerr's Measure What Matters (a promotional OKR page was read and deliberately not relied on), the 2001 Wired interview and the 2002 Wall Street Journal and 2004 New York Times pieces (only as quoted in the Times obituary), Fortune's 1996, 1997 and 2004 articles, Craig Barrett's oral history (only its front matter and index were available), Intel's 1994 filing, and the Working Knowledge excerpt 'The Education of Andy Grove' (the page returned no text). PORTRAIT: Commons crop of Steve Jurvetson's CC BY 2.0 photograph of 7 June 2009; the photographer's own Flickr page (opened 2026-10-16) shows owner Steve Jurvetson, taken 7 June 2009, uploaded 8 June 2009, licence CC BY 2.0 ('Some rights reserved') and no further copyright notice; the Commons parent file carries a Flickr-licence review pass (review of 2024-12-14, licence cc-by-2.0) and neither Commons page shows a restriction or personality-rights template; no institutional page claims the photograph (the photographer is a private individual and the licence is his own). Downloaded the Commons crop at 770 x 1027, which is the native-resolution region of the 3518 x 2823 original, confirmed it opens as an RGB JPEG, and saved it unchanged as public/portraits/andy-grove-jurvetson-2009.jpg (no resampling, never upscaled). A sliver of an unidentified bystander's hair appears at the lower left edge and was judged incidental. Rejected: the Intel Free Press 'Former Intel CEO Andy Grove in 2003' (CC BY-SA 2.0, 1024 x 768 landscape with his face at the left edge, corporate author whose Flickr profile says Intel owns the copyright and invites re-use with credit; it would need a tight crop of about 450 pixels width), the World Economic Forum 1997 photograph (CC BY-SA 2.0, only 306 x 378), Intel Free Press archive photographs of the 1960s and 1970s (corporate author, low resolution), and press or museum images whose rights basis was not verified. LEAD REVIEW (Roster51): 2 row(s) lowered before eligibility (the strongest rows still rest on a short list of admiring or institutional voices (Time and Fortune retrospectives, one biographer family, the museum tribute) plus Grove's own written regrets; the agent had already self-lowered 8 rows)."
+  }
+}

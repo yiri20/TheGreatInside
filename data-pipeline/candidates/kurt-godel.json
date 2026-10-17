@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kurt-godel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kurt Gödel",
+    "aliases": [
+      "Kurt Friedrich Gödel",
+      "Kurt Godel"
+    ],
+    "wikidataId": "Q41390",
+    "birthYear": 1906,
+    "deathYear": 1978,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AT",
+      "US"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "theorist",
+      "philosopher",
+      "independent"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_godel_wikidata",
+      "kind": "wikidata",
+      "title": "Kurt Gödel (Q41390) -- verified live via the Wikidata API (2026-10-16): English label 'Kurt Gödel', description 'Austrian-American logician, mathematician, and philosopher of mathematics (1906-1978)', born 28 April 1906, died 14 January 1978, Korean label present, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q41390"
+    },
+    {
+      "id": "src_godel_sep",
+      "kind": "biography",
+      "title": "Juliette Kennedy, 'Kurt Gödel', Stanford Encyclopedia of Philosophy (first published 13 February 2007; substantive revision 10 September 2025) -- CANONICAL SIGNIFICANCE SOURCE: the encyclopedia calls him one of the principal founders of the modern, metamathematical era in mathematical logic, whose Incompleteness Theorems are among the handful of landmark theorems of twentieth-century mathematics, who formulated and defended mathematical Platonism and who anticipated the importance of large cardinals before it became clear. The entry gives his career (Vienna, then the Institute for Advanced Study from 1940), the completeness theorem of his 1929 dissertation, the incompleteness theorems with his own account of how he reached them, the consistency of the axiom of choice (1935) and the continuum hypothesis (1937) with Zermelo-Fraenkel set theory (called a tour de force and arguably the greatest achievement of his mathematical life), his later view that the axiom of constructibility is implausible, the philosophical manuscripts he did not publish (the 1951 Gibbs lecture and the paper for the Carnap volume worked on from 1953 to 1959) and his realism and rationalism. Scholarly encyclopedia entry that leans on Hao Wang's and John Dawson's work; read the biographical sketch, the sections on the completeness theorem, the incompleteness theorems and set theory, and the opening of the philosophy section in full; the sections on speed-up theorems and intuitionistic logic and the technical proofs were searched by keyword only. Physics is expressly outside this entry. The sentence in its biographical sketch on his death certificate was not used.",
+      "url": "https://plato.stanford.edu/entries/goedel/"
+    },
+    {
+      "id": "src_godel_ias_inst",
+      "kind": "institution",
+      "title": "Institute for Advanced Study, 'Kurt Gödel and the Institute' (institutional history page, undated) -- the Institute's own account: among its first Members in 1933-34, with two further stays in the 1930s, a Member from 1940 and a Faculty member from 1953; a somewhat solitary existence while publishing numerous papers, among them the continuum-hypothesis consistency paper and papers on cosmological solutions and rotating universes; close friendships in the 1940s with Einstein and von Neumann; von Neumann cancelling the rest of a course on Hilbert's work to lecture on Gödel's 1931 paper; Gödel and Einstein walking to and from the Institute and discussing relativity including the rotating-universe model; and Einstein suggesting Gödel for the 1951 Einstein Award, shared with Julian Schwinger. Host institution's page, admiring and promotional in tone. Read in full; the clause giving Einstein's motive for the nomination (a reference to Gödel's health) and the quoted 1971 recollection of Oskar Morgenstern on Gödel's 1948 naturalisation interview (a citizenship and constitutional-law episode, politics-adjacent) were not used and are not scored.",
+      "url": "https://www.ias.edu/kurt-g%C3%B6del-and-institute"
+    },
+    {
+      "id": "src_godel_ias_letter",
+      "kind": "institution",
+      "title": "Institute for Advanced Study, 'The Gödelian Challenge' (Ideas section; published in The Institute Letter, Winter 2007) -- excerpts from the Institute's 17 November 2006 centenary program: John von Neumann's tribute when presenting Gödel with the 1951 Einstein Award, calling his achievement in modern logic singular and monumental; Karl Sigmund on the Institute's help in 1939-40; John Burgess on the 'Gödelian challenge' that our concept of set has content not exhausted by formal conventions; Solomon Feferman's memory of visiting Gödel's office in 1959-60 (appointments arranged by telephone, discussion without a blackboard, questions and suggestions very much to the point); Avi Wigderson on the limits of knowledge; and John Dawson on Gödel's view of mathematical intuition and his attributing some of his success to his philosophical outlook, which let him pose questions others would not consider meaningful. Institutional centenary tribute made of short quotations by admiring scholars (Feferman edited and Dawson wrote the standard biography of Gödel). Read in full; the passage on the wartime departure from the Third Reich and the clause in Feferman's memory that refers to Gödel's medicine were not used; the excerpt's odd adjective 'pleonastic' in the Dawson passage looks like a misprint and is not repeated.",
+      "url": "https://www.ias.edu/ideas/2007/godelian-challenge"
+    },
+    {
+      "id": "src_godel_kleene",
+      "kind": "institution",
+      "title": "Stephen C. Kleene, 'Kurt Gödel, 1906-1978', Biographical Memoirs, National Academy of Sciences (1987; pages 135-166 as paginated in the PDF) -- memoir by a leading logician who knew him, drawing on Kreisel's Royal Society memoir and Hao Wang's accounts: two papers written before he was twenty-five (1930, 1931) establishing him as second to none among modern logicians; the announcement of undecidable propositions at the September 1930 Königsberg meeting and von Neumann's interest; the 1933-34 lectures at the Institute for Advanced Study; the consistency results for choice and the continuum hypothesis (announced 1938-39, full account 1940) and Cohen's later results; the Institute years (annual appointments from 1940-41, professor in 1953); his interest in Kant's philosophy of space and time leading to general relativity in 1947-50 and three short articles, with R. Penrose's judgment relayed through Kreisel; his turn to philosophy; the papers he left unpublished and almost 5,000 pages of notes; and the remark that he was rather retiring but kind and responsive to qualified interlocutors who took the initiative. Peer memoir, technical and admiring. Read the biographical sections and the Princeton section in full; the long mathematical exposition of the theorems was skimmed, and its remarks on his family, health and the end of his life were not used.",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/gdel-kurt.pdf"
+    },
+    {
+      "id": "src_godel_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Kurt Gödel', MacTutor History of Mathematics archive, University of St Andrews (last updated October 2003) -- secondary biography built on Kreisel's, Wang's and other memoirs: his schooling and studies at Vienna, the 1931 incompleteness paper and its effect on Hilbert's formalism, the 1940 choice and continuum-hypothesis monograph that Cohen built on in 1963, the Institute years, his friendship with Einstein, the 1951 Einstein Award, the Princeton chair held on a contract with no lecturing duties, and that he had no doctoral students. Scholarly popular biography, used only to corroborate dates and those two details. It says he belonged to the school of logical positivism until 1938, which the Stanford Encyclopedia and Kleene contradict (both say he attended the Vienna Circle without being a positivist), so that statement is not used. Read in full; its passages on his health, mental state, family, marriage, honours he refused and the end of his life were not used.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Godel/"
+    },
+    {
+      "id": "src_godel_britannica",
+      "kind": "biography",
+      "title": "Mark Balaguer, 'Kurt Gödel', Encyclopaedia Britannica (online biography) -- a philosopher's encyclopedia article: calls the incompleteness theorem what may be the most important mathematical result of the twentieth century and says it made him one of the greatest logicians since Aristotle; describes the completeness theorem of his thesis, the 1931 theorem, the 1940 choice and continuum-hypothesis consistency paper and Cohen's 1963 result, the 1949 contribution to relativity and his turn to Platonism and the faculty of mathematical intuition; its closing assessment is a counter-voice, that his philosophical views have not been widely accepted and few believe the incompleteness theorem establishes Platonism. Independent encyclopedic perspective. Read in full; the passages on his health, mental state, suspicion about food and the end of his life were not used, and its statement that he set out to prove incompleteness in order to establish Platonism is not used because the Stanford Encyclopedia gives his own account of a different route (the consistency problem for analysis).",
+      "url": "https://www.britannica.com/biography/Kurt-Godel"
+    },
+    {
+      "id": "src_godel_lambek",
+      "kind": "press",
+      "title": "J. Lambek, review of John W. Dawson Jr., 'Logical Dilemmas: The Life and Work of Kurt Gödel' (new paperback edition), CMS Notes (Canadian Mathematical Society), vol. 38 no. 6, October 2006, pp. 5-6 -- independent review by a McGill mathematician who attended Gödel's 1950 International Congress lecture on a periodic solution of Einstein's field equations: a summary of the completeness, incompleteness, constructibility and Dialectica results; his generosity in urging Paul Cohen to publish his proof immediately and not claiming priority; his hesitation to publish an ontological proof for fear that a belief in God would be ascribed to him; and the reviewer's own critical views (he is not impressed by the second incompleteness theorem and argues that the usual statement of the first presumes truth in a Platonic universe). Independent counter-voice, partly the reviewer's own mathematical opinion. Read in full; the date he gives for a letter to von Neumann was not used, and his closing remarks on Gödel's mental state and the end of his life, with Dawson's speculation quoted there, were not used.",
+      "url": "https://www.math.mcgill.ca/rags/JAC/124/Lambek-on-Dawson.pdf"
+    },
+    {
+      "id": "src_godel_takeuti",
+      "kind": "biography",
+      "title": "Gaisi Takeuti, 'Foreword', in Matthias Baaz, Christos H. Papadimitriou, Hilary W. Putnam, Dana S. Scott and Charles L. Harper Jr. (eds.), Kurt Gödel and the Foundations of Mathematics: Horizons of Truth (Cambridge University Press, 2011), pp. xiii-xiv -- the Japanese logician's personal memory, from the publisher's summary of the chapter (about 270 words; the full text is behind access), of meeting Gödel at the Institute for Advanced Study in January 1959: Gödel taught him about nonstandard models and large cardinals, led him to the library and showed him the page of a book where a pertinent theorem stood, advised him on which books to read and that he should improve his English to communicate with other mathematicians, and showed keen interest in the cut-elimination problem he was working on. Admiring first-hand recollection of professional behaviour by a visiting colleague. Only the summary was read, not the full foreword. A web-search summary had misattributed this foreword to Freeman Dyson; the page itself names Takeuti, and no text by Dyson was read.",
+      "url": "https://www.cambridge.org/core/books/abs/kurt-godel-and-the-foundations-of-mathematics/foreword/835AB3D72DCB613B637CB3670CC5947B"
+    },
+    {
+      "id": "src_godel_plus",
+      "kind": "press",
+      "title": "Rachel Thomas, review of John W. Dawson Jr., 'Logical Dilemmas: The Life and Work of Kurt Gödel', Plus Magazine (maths.org, University of Cambridge), 1 June 2006 -- a short lay review of the standard biography: it notes that Dawson builds his portrait from Gödel's own papers (the Nachlass, in which the biographer used Gödel's library request slips to date the start of his work on the incompleteness theorem), gives the mathematics equal weight with the life, and that Gödel's relationships with peers were important to his professional success. Secondary and brief; used only for the biography's source base and as a second reading of Dawson. Read in full; its paragraphs on his health, mental state, marriage and family were not used.",
+      "url": "https://plus.maths.org/content/logical-dilemmas"
+    },
+    {
+      "id": "src_godel_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages for the portraits of Gödel in the category 'Kurt Gödel' ('Young Kurt Gödel as a student in 1925.jpg', 674 x 893 pixels; '1925 kurt gödel.png', 397 x 514; 'kurt gödel.jpg', 212 x 270) -- checked through the Commons API and the file page for licence and source: each is an anonymous photograph dated between 1924 and 1927, tagged public domain as an anonymous work (PD-anon-70-EU) with no first-publication date, country of origin or United States status stated; the largest is credited to the Kurt Gödel Papers at the Shelby White and Leon Levy Archives Center of the Institute for Advanced Study, the 1925 PNG to a family album as reproduced in a German-language book on Gödel, and the small file to a Bonn museum web page. Not used for any scoring; the portrait is held.",
+      "url": "https://commons.wikimedia.org/wiki/File:Young_Kurt_G%C3%B6del_as_a_student_in_1925.jpg"
+    },
+    {
+      "id": "src_godel_ias_photos",
+      "kind": "archive",
+      "title": "Institute for Advanced Study, Shelby White and Leon Levy Archives Center, Albert repository (albert.ias.edu), records for photographs of Gödel (for example handles 20.500.12111/4233, /4249, /4299, /4838, /10226, /1193 and /1183) -- checked for portrait rights: each record carries a rightsstatements.org notice, either 'In Copyright - Rights-holder(s) Unlocatable or Unidentifiable' (researchers may use the item as the applicable law permits) or a named holder (the Eisenstaedt portrait: The Picture Collection LLC and People Inc.; the Oskar Morgenstern photograph of Einstein and Gödel: the Morgenstern family, with permission needed for other uses); none gives a licence. Not used for any scoring.",
+      "url": "https://albert.ias.edu/20.500.12111/4233"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_godel_sep, src_godel_kleene, src_godel_britannica, src_godel_ias_letter, src_godel_lambek | 1929-1950 | encyclopedia + peer memoir + encyclopedia + institutional tribute + independent review] The Stanford Encyclopedia says that, apart from the arithmetization, virtually all the technical machinery of his continuum-hypothesis consistency proof (the inner model of constructible sets) had to be invented from scratch, calls the proof a tour de force and arguably the greatest achievement of his mathematical life, and says he anticipated the importance of large cardinals before it became clear; Kleene writes that two papers written before he was twenty-five established him as second to none among modern logicians and relays R. Penrose's judgment, through Kreisel, that his 1949-50 relativity articles were highly original and in the long run quite influential; Britannica calls the incompleteness theorem possibly the most important mathematical result of the century; the Institute reprints von Neumann's 1951 award tribute. Against this, Lambek is not impressed by the second incompleteness theorem and argues that the usual statement of the first presumes Platonic truth, and Britannica says few accept that the theorem establishes Platonism. Different kinds of source describe the originality of the results consistently, but most of the praise is retrospective, an award tribute or an encyclopedia's summary of outcomes. SELF-CALIBRATION (agent): first-pass 84 / 0.66 lowered to 82 / 0.62 for retrospective praise (the 1951 tribute and encyclopedic superlatives) and single-source dependence (Penrose's judgment reaches us through Kreisel and Kleene). LEAD REVIEW CORRECTION (Roster51, before eligibility): the strongest rows rest on encyclopaedic, memoir and institutional retrospective prose about the results, with the biography reached only through reviews; claim strength lowered."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_godel_sep, src_godel_kleene, src_godel_lambek | 1930-1940 | encyclopedia + peer memoir + review] In the account Gödel wrote for Hao Wang (quoted in the Stanford Encyclopedia, which says he read and approved it) he reached the incompleteness theorems by trying to reduce the consistency of analysis to that of arithmetic: enumerating symbols, sentences and proofs inside the system, he saw that truth for arithmetic cannot be defined in arithmetic while provability can; the same entry describes the continuum-hypothesis proof as an inner model of constructible sets inside the universe of sets, and Kleene shows how the argument restricts every quantifier to that model; Lambek says he had to re-invent the theory of primitive recursive functions to carry out his proof. The sources describe structures built to reason about whole formal systems from the inside, but they describe finished arguments and one retrospective self-account, not the process of working, so strong inference at a moderate confidence. LEAD REVIEW CORRECTION (Roster51, before eligibility): the strongest rows rest on encyclopaedic, memoir and institutional retrospective prose about the results, with the biography reached only through reviews; claim strength lowered."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_godel_sep, src_godel_ias_letter, src_godel_kleene | 1939-1960 | encyclopedia + colleague recollection + peer memoir] The Stanford Encyclopedia notes that his 1939 paper on the continuum hypothesis lacked many details (the absoluteness arguments and the check that the set-theory axioms hold in the model) and that the 1940 monograph gave a completely detailed proof, in contrast with the Second Incompleteness Theorem, for which no later fully detailed proof by him is mentioned; it quotes his 1951 Gibbs lecture saying that his arguments for Platonism fall short of a real proof, and records his aim of bringing philosophical argument close to the rigour of mathematical proof; Feferman remembers that what he said in conversation was very much to the point; Kleene calls him conscientious in work for the Institute, especially in evaluating applicants. Concrete instances of completing a proof and of marking the limit of an argument, from one main source and two colleagues. SELF-CALIBRATION (agent): first-pass 80 / 0.62 lowered to 76 / 0.56 for single-source dependence (the encyclopedia carries the specific instances) and self-quotation through a shared profile (the Gibbs lecture and the philosophical-viewpoint list are read only through the encyclopedia)."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_godel_sep, src_godel_kleene, src_godel_britannica, src_godel_ias_letter | 1926-1960s | encyclopedia + peer memoir + encyclopedia + commemorative talk] The Stanford Encyclopedia says he attended the Vienna Circle's meetings, a formative influence, without being a logical positivist, and Kleene says he went to many meetings without subscribing to all their doctrines; Britannica says his own philosophical views, Platonism among them, could not have been more different from the positivists'; having proved the continuum hypothesis consistent with set theory, he wrote in 1947 that it is very suspicious that no plausible proposition is known that would imply it while many imply its negation, and he conjectured that it would prove independent (the encyclopedia notes that his 1938 wording seemed to say otherwise, so the shift is recorded but its reasons are not); Dawson says Gödel attributed some of his success to a philosophical outlook that let him pose questions others would not consider meaningful. Against this, Britannica says his philosophical views have not been widely accepted. Concrete, repeated departures from the prevailing view of colleagues and from his own earlier result, but the Dawson statement is a paraphrase at a commemorative event, and the impact is dual-edged because the sources record limited acceptance of the philosophy. SELF-CALIBRATION (agent): first-pass 82 / 0.64 lowered to 80 / 0.62 for retrospective praise (a commemorative paraphrase) and self-quotation through shared profiles (the 1947 sentence is read only through the encyclopedia). LEAD REVIEW CORRECTION (Roster51, before eligibility): the strongest rows rest on encyclopaedic, memoir and institutional retrospective prose about the results, with the biography reached only through reviews; claim strength lowered."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_godel_kleene, src_godel_sep, src_godel_takeuti, src_godel_ias_letter | 1924-1960 | peer memoir + encyclopedia + visiting logician's recollection + colleague recollection] Kleene writes that his interest in Kant's philosophy of space and time led him to general relativity, on which he worked in 1947-50 and which produced three short articles; the Stanford Encyclopedia says he began university with physics lectures, studied Leibniz intensively in 1943-46 and developed a serious interest in phenomenology by about 1959; Takeuti remembers that Gödel took keen interest in the cut-elimination problem he was working on and showed him the right page in the library; Feferman says that in conversation he raised questions and made suggestions. Several documented moves into new areas, but one memoir states the link between philosophy and relativity, the interest in others' problems comes from two admiring recollections, and the sources do not describe how he read or explored. SELF-CALIBRATION (agent): first-pass 72 / 0.56 lowered to 68 / 0.52 for interpretation stronger than behaviour (topic changes read as curiosity) and admiring-source concentration (Takeuti's and Feferman's recollections)."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_godel_sep, src_godel_ias_inst, src_godel_kleene, src_godel_lambek, src_godel_britannica | 1929-1970 | encyclopedia + institution + peer memoir + review + encyclopedia] The Stanford Encyclopedia says his work touched every field of mathematical logic, adds modal and intuitionistic logic, then the philosophy of mathematics, and ends with a continuum-value manuscript and an ontological proof; the Institute lists papers on set theory, cosmological solutions and rotating universes; Kleene records three relativity articles and a turn to philosophy; Lambek heard his 1950 Congress lecture on Einstein's field equations; Britannica describes the turn to philosophy. Against breadth, the encyclopedia treats the mathematics and the philosophy as one fifty-year project under a single heading, and the relativity work was a short episode, so the range is real but narrower than the label suggests. SELF-CALIBRATION (agent): first-pass 68 / 0.58 lowered to 64 / 0.54 for interpretation stronger than behaviour (a unified project read as breadth) and admiring-source concentration (institutional descriptions)."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_godel_sep, src_godel_lambek, src_godel_kleene | 1938-1970 | encyclopedia + review + peer memoir] Lambek says he tried very hard to prove the independence of the continuum hypothesis and did not succeed; the Stanford Encyclopedia lists late manuscripts arguing that the power of the continuum is aleph-2, describes a fifty-year involvement with mathematics and philosophy and a submission for the Carnap volume worked on from 1953 to 1959; Kleene reports that he left almost 5,000 pages of notes and several unpublished papers. Long-running efforts on the same questions, but no source describes an obstacle he met and kept going through, and several of the efforts ended unpublished. Strong inference at a low-moderate confidence. SELF-CALIBRATION (agent): first-pass 64 / 0.50 lowered to 60 / 0.46 for interpretation stronger than behaviour (duration read as persistence in the face of difficulty) and single-source dependence (Lambek's remark is the only statement of his attempts on independence)."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_godel_ias_inst, src_godel_kleene, src_godel_mactutor, src_godel_sep | 1940-1976 | institution + peer memoir + biography + encyclopedia] The Institute says he kept a somewhat solitary existence while publishing numerous papers; Kleene calls him rather retiring but responsive to qualified interlocutors who took the initiative, so that views of his reached print through others' writings with his permission; MacTutor records a Princeton chair held on a contract that explicitly gave him no lecturing duties and that he had no doctoral students; the Stanford Encyclopedia shows him pursuing an independent philosophical programme and leaving two important manuscripts unpublished. Consistent descriptions of working alone and on his own terms from four sources, but they are institutional or colleague characterisations and none observes his choices. Dual-edged because the pattern coincides with unpublished work and no doctoral students; no source states that he sought the solitude."
+    },
+    "collaboration": {
+      "score": 48,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_godel_ias_inst, src_godel_takeuti, src_godel_kleene, src_godel_lambek, src_godel_ias_letter, src_godel_plus | 1930-1960s | institution + visiting logician + peer memoir + review + colleague recollection + lay review] The Institute describes close friendships in the 1940s with Einstein and von Neumann, with Gödel and Einstein walking to and from the Institute in conversation about relativity, and von Neumann lecturing on Gödel's 1931 paper; Kleene says von Neumann discussed the Königsberg results with him at the meeting and by letter; Takeuti recalls that Gödel taught him, found him a book page in the library and advised him on reading and English; Feferman recalls short appointments in his office, without a blackboard, with suggestions to the point; Lambek says he urged Paul Cohen to publish immediately and did not claim priority; a Plus Magazine reviewer of Dawson's biography says his relationships with peers were important to his professional success (a reviewer's summary, not a described joint effort). Against this, none of the sources read describes a joint project or co-authored paper, MacTutor records no doctoral students and Kleene calls him rather retiring. A mixed pattern of generous but reactive exchanges and no shared projects, so the row sits just below the midpoint with a dual-edged impact."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "쿠르트 괴델"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait was found, after checking the two possible families of sources. (1) Wikimedia Commons: the category 'Kurt Gödel' holds only three portraits, all anonymous photographs from about 1924-27: 'Young Kurt Gödel as a student in 1925.jpg' (674 x 893, credited to the Kurt Gödel Papers at the Institute for Advanced Study's Shelby White and Leon Levy Archives Center), '1925 kurt gödel.png' (397 x 514, a scan from a family album as reproduced in a German-language book) and 'kurt gödel.jpg' (212 x 270, from a Bonn museum web page, too small). Each carries only the generic anonymous-work tag PD-anon-70-EU, which presumes the picture was first made available to the public more than 70 years ago; the file pages state no first-publication date, country of origin or United States status, and a family-album photograph of this kind was probably first published decades later, so the tag does not settle the term. (2) The Institute's own archive (Albert repository, Shelby White and Leon Levy Archives Center) holds several better portraits and snapshots of Gödel, but every record carries a rightsstatements.org 'In Copyright' notice: 'Rights-holder(s) Unlocatable or Unidentifiable' for the unidentified-photographer portraits (undated, 1967) and the 1973 A. G. Wightman portrait, which merely lets researchers use the item as the applicable law permits and is not a licence; The Picture Collection LLC and People Inc. for the Alfred Eisenstaedt portrait; and the Morgenstern family (permission needed) for Oskar Morgenstern's photograph of Einstein and Gödel; the Richard Arens photograph of Einstein and Gödel (early 1950s) has a named photographer and the same unlocatable-holder notice. No United States government photograph was found (the National Science Foundation's National Medal of Science page for him shows no portrait), and the Commons searches for Gödel with Einstein, with Morgenstern and at Princeton returned no other photograph of him. Nothing was downloaded to public/portraits. Next step: ask the Institute's Archives Center (archives@ias.edu) or the custodian of the Gödel Papers at Princeton University Library for the provenance, first-publication date and a written rights statement for the 1925 student photograph; or obtain written permission from the Morgenstern family, from Richard Arens's heirs or from the Institute; or locate a pre-1930 publication of an anonymous portrait."
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q41390 returned en label 'Kurt Gödel', description 'Austrian-American logician, mathematician, and philosopher of mathematics (1906-1978)', born 1906-04-28, died 1978-01-14, citizenships including the United States and Austria, ko label '쿠르트 괴델'; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug kurt-godel or QID Q41390 in the roster51 worktree (data-pipeline/candidates, src). REGION: central_europe (born in Brünn, then Austria-Hungary, now Brno; German-speaking and Austrian by culture, studied and taught in Vienna until 1939; precedent John von Neumann). VOCABULARY: occupations mathematician and philosopher (no 'logician' id exists, so none was invented), fields mathematics and philosophy (philosophy is supported by the Stanford Encyclopedia's philosophy section and by Kleene and Britannica), impact domains scientific and historical, tags theorist, philosopher and independent, archetypes scholarly_specialist and scientific_explorer are existing ids used by other candidates. PREFLIGHT RESULT: zero-politics, two or more independent perspectives, a substantive non-self behavioural source and a canonical significance source were all obtainable before deep research; a rights-clear portrait was NOT (see PORTRAIT). ZERO POLITICS: no political, military or diplomatic material is scored or carded; the 1948 naturalisation interview and Morgenstern's recollection of it (quoted on the Institute's page), his leaving Austria in 1939-40 under the Third Reich, the conscription question, the Austrian honours he refused and the 1930s university-title changes are unscored and appear in no row, card or moment. DECEASED SUBJECT (1978): only documented public professional behaviour is scored. Excluded entirely, with no inference from them: his health and any illness or breakdown, the diet and mistrust about food, the manner and cause of his death (including the death-certificate sentence in the Stanford Encyclopedia), the physician-brother's testimony and the family, marriage and mother correspondence, Einstein's morale motive on the Institute's page, Feferman's reference to his medicine, Dawson's speculation quoted by Lambek, the Britannica and Plus paragraphs on mental state, and any psychological explanation of his publication choices. CANONICAL SIGNIFICANCE SOURCE: Juliette Kennedy, 'Kurt Gödel', Stanford Encyclopedia of Philosophy (https://plato.stanford.edu/entries/goedel/), read in full where it matters: one of the principal founders of modern mathematical logic, with landmark incompleteness theorems, a continuum-hypothesis proof described as arguably the greatest achievement of his mathematical life, mathematical Platonism and the large-cardinal programme; supported by Britannica, Kleene's National Academy memoir, the Institute pages and MacTutor. READ (9 substantive sources plus orientation and portrait checks): the Stanford Encyclopedia entry; the Institute for Advanced Study's history page and its Institute Letter excerpts; Kleene's National Academy memoir (full PDF text); MacTutor; Britannica; Lambek's review of Dawson's biography; Plus Magazine's review of the same book; the visible summary of Takeuti's foreword. All were downloaded as full text and read directly, not through a summarising tool, except the Takeuti page (summary only). PERSPECTIVES: a scholarly encyclopedia built on Wang's and Dawson's work (Stanford); a philosopher's encyclopedia article that adds a counter-voice on the philosophy (Britannica); the host institution's admiring page and centenary excerpts, including a colleague's recollection of visiting him (Feferman) and the biographer's paraphrase of his method (Dawson); a peer logician's National Academy memoir (Kleene); an independent mathematician's critical review that attended one of his lectures (Lambek); a visiting logician's recollection (Takeuti, partial); and a university history-of-mathematics site (MacTutor). The behavioural evidence rests on a small number of underlying accounts (Wang, Kreisel, Dawson and Feferman reach us only through these summaries), so no score exceeds 82 and no confidence exceeds 0.62. CALIBRATION: nine rows are kept; the strongest are creative originality, independent thinking, systems abstraction and analytical rigor; collaboration, persistence and autonomy need are deliberately modest. SELF-CALIBRATION (agent): six of the nine rows were lowered once after a re-read of the strongest rows (creative originality 84/0.66 to 82/0.62, analytical rigor 80/0.62 to 76/0.56, independent thinking 82/0.64 to 80/0.62, curiosity 72/0.56 to 68/0.52, cross-domain range 68/0.58 to 64/0.54, persistence 64/0.50 to 60/0.46) for retrospective praise, single-source dependence, interpretation stronger than behaviour, admiring-source concentration and self-quotation through shared profiles; systems abstraction (78/0.58), autonomy need (70/0.52) and collaboration (48/0.48) were not changed; each row's rationale ends with its own note where it was lowered. TRAITS NOT SCORED: perfectionism and detail orientation (the unpublished manuscripts and the Nachlass could suggest high standards, but no source read states his reasons, and Lambek and the encyclopedia offer different possible explanations); belief updating (the move from the 1938 wording to the 1947 view on constructibility is recorded in the independent-thinking row but its reasons are not documented, and his reaction to Scott's 1961 result against his 1940 conjecture is not described); deep focus, discipline and mastery orientation (no routine or study habit is documented; 'concentrating almost exclusively' on philosophy is a choice of field); risk tolerance, decisiveness, conflict tolerance, social assertiveness, persuasiveness and leadership drive (nothing beyond the 1930 announcement is described); achievement drive and impact motivation (motives appear only in his own later philosophical statements); aesthetic sensitivity (his belief that mathematics and reality are beautiful is a quoted view, not a described behaviour). FACT CONFLICTS RECORDED: (1) when he became a permanent member of the Institute: the Institute's page says 1940, Kleene 1947, the Stanford Encyclopedia 1946, so the cards say only that he joined in 1940 and became a professor in 1953; (2) MacTutor says he belonged to the school of logical positivism until 1938, while the Stanford Encyclopedia and Kleene say he attended its meetings without being a positivist, so the latter is used; (3) the dates of the choice and continuum-hypothesis work: results obtained in 1935 and 1937 (Stanford), announced in 1938-39 and set out in the 1940 monograph (Kleene's bibliography), and the cards give both; (4) Britannica says he proved incompleteness in order to establish Platonism, while Gödel's own account in the Stanford Encyclopedia describes the consistency problem for analysis, so the former is not used; (5) a web-search summary credited the Cambridge foreword to Freeman Dyson, but the page names Gaisi Takeuti, so Dyson is not cited; (6) Lambek dates Gödel's letter to von Neumann on what is now called the P versus NP problem to 1955, a date that could not be checked in a second source read, so the letter is not used; (7) R. Penrose's judgment of the relativity articles is read only second hand through Kreisel and Kleene. NOT OPENED: John Dawson's biography, Hao Wang's books, Kreisel's Royal Society memoir, Rebecca Goldstein's and Jim Holt's books and Holt's New Yorker article (the old URL returned HTTP 404), Oskar Morgenstern's own account beyond the passage quoted on the Institute's page, Solomon Feferman's essays 'Kurt Gödel: Conviction and Caution' and 'Gödel's Life and Work' (paywalled; the one open PDF host had an expired TLS certificate and was not bypassed), Samuel Buss's review of Dawson (the UCSD host failed the TLS handshake), the Princeton University Library finding aid for the Gödel Papers (a bot-check page), the Falter newspaper piece quoting Dyson (paywalled after the lead) and the Discover article by David Berlinski (paywalled after its opening, which also characterises his health). No text by Dyson was read. PORTRAIT: HELD (see portrait.reason for the exact blocker and next step); nothing was saved to public/portraits. LEAD REVIEW (Roster51): 3 row(s) lowered before eligibility (the strongest rows rest on encyclopaedic, memoir and institutional retrospective prose about the results, with the biography reached only through reviews)."
+  }
+}

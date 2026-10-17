@@ -10461,4 +10461,186 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "titian-turning-point-1", textKey: "titian.turning_point.1", interpretationKey: "titian.interpretation.turning_point.1", attributeId: "experimentation", sourceIds: ["src_titian_ng_artist", "src_titian_ng_actaeon", "src_titian_nga_artist"] },
     ],
   },
+  "andy-grove": {
+    achievements: [
+      { id: "andy-grove-achievement-1", textKey: "andy-grove.achievement.1", sourceIds: ["src_grove_chm", "src_grove_time_isaacson", "src_grove_kqed", "src_grove_intel2016", "src_grove_calhof", "src_grove_gsb_dram"] },
+      { id: "andy-grove-achievement-2", textKey: "andy-grove.achievement.2", sourceIds: ["src_grove_fortune2005", "src_grove_chm_386", "src_grove_gsb_insights", "src_grove_chm"] },
+      { id: "andy-grove-achievement-3", textKey: "andy-grove.achievement.3", sourceIds: ["src_grove_chm", "src_grove_fortune2005", "src_grove_calhof", "src_grove_wikipedia"] },
+    ],
+    moments: [
+      { id: "andy-grove-moment-1", textKey: "andy-grove.moment.1", interpretationKey: "andy-grove.interpretation.moment.1", attributeId: "belief_updating", sourceIds: ["src_grove_time_ramo", "src_grove_fortune1995", "src_grove_gsb_insights", "src_grove_fortune2005", "src_grove_kqed"] },
+      { id: "andy-grove-moment-2", textKey: "andy-grove.moment.2", interpretationKey: "andy-grove.interpretation.moment.2", attributeId: "conflict_tolerance", sourceIds: ["src_grove_fortune2005", "src_grove_hbswk"] },
+    ],
+    turningPoints: [
+      { id: "andy-grove-turning-point-1", textKey: "andy-grove.turning_point.1", interpretationKey: "andy-grove.interpretation.turning_point.1", attributeId: "risk_tolerance", sourceIds: ["src_grove_gsb_dram", "src_grove_gsb_fading", "src_grove_fortune2005", "src_grove_npr2016", "src_grove_kqed"] },
+    ],
+  },
+  "bong-joon-ho": {
+    achievements: [
+      { id: "bong-joon-ho-achievement-1", textKey: "bong-joon-ho.achievement.1", sourceIds: ["src_bong_britannica", "src_bong_academy"] },
+      { id: "bong-joon-ho-achievement-2", textKey: "bong-joon-ho.achievement.2", sourceIds: ["src_bong_britannica"] },
+      { id: "bong-joon-ho-achievement-3", textKey: "bong-joon-ho.achievement.3", sourceIds: ["src_bong_britannica"] },
+    ],
+    moments: [
+      { id: "bong-joon-ho-moment-1", textKey: "bong-joon-ho.moment.1", interpretationKey: "bong-joon-ho.interpretation.moment.1", attributeId: "planning_orientation", sourceIds: ["src_bong_dezeen"] },
+      { id: "bong-joon-ho-moment-2", textKey: "bong-joon-ho.moment.2", interpretationKey: "bong-joon-ho.interpretation.moment.2", attributeId: "collaboration", sourceIds: ["src_bong_another_han"] },
+    ],
+    turningPoints: [
+      { id: "bong-joon-ho-turning-point-1", textKey: "bong-joon-ho.turning_point.1", interpretationKey: "bong-joon-ho.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_bong_britannica", "src_bong_senses", "src_bong_awardsdaily_song"] },
+    ],
+  },
+  "christopher-nolan": {
+    achievements: [
+      { id: "christopher-nolan-achievement-1", textKey: "christopher-nolan.achievement.1", sourceIds: ["src_nolan_britannica"] },
+      { id: "christopher-nolan-achievement-2", textKey: "christopher-nolan.achievement.2", sourceIds: ["src_nolan_britannica"] },
+      { id: "christopher-nolan-achievement-3", textKey: "christopher-nolan.achievement.3", sourceIds: ["src_nolan_academy", "src_nolan_britannica"] },
+    ],
+    moments: [
+      { id: "christopher-nolan-moment-1", textKey: "christopher-nolan.moment.1", interpretationKey: "christopher-nolan.interpretation.moment.1", attributeId: "planning_orientation", sourceIds: ["src_nolan_wrap_dejong"] },
+      { id: "christopher-nolan-moment-2", textKey: "christopher-nolan.moment.2", interpretationKey: "christopher-nolan.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_nolan_slash_sound"] },
+    ],
+    turningPoints: [
+      { id: "christopher-nolan-turning-point-1", textKey: "christopher-nolan.turning_point.1", interpretationKey: "christopher-nolan.interpretation.turning_point.1", attributeId: "experimentation", sourceIds: ["src_nolan_britannica"] },
+    ],
+  },
+  "demis-hassabis": {
+    achievements: [
+      { id: "demis-hassabis-achievement-1", textKey: "demis-hassabis.achievement.1", sourceIds: ["src_hassabis_nobel_pr", "src_hassabis_nobel_pop", "src_hassabis_casp14", "src_hassabis_mittr2021"] },
+      { id: "demis-hassabis-achievement-2", textKey: "demis-hassabis.achievement.2", sourceIds: ["src_hassabis_nobel_pop", "src_hassabis_britannica", "src_hassabis_time2023", "src_hassabis_time2024", "src_hassabis_guardian2026", "src_hassabis_wired2016"] },
+      { id: "demis-hassabis-achievement-3", textKey: "demis-hassabis.achievement.3", sourceIds: ["src_hassabis_nobel_pop", "src_hassabis_britannica", "src_hassabis_achievement", "src_hassabis_nature2007"] },
+    ],
+    moments: [
+      { id: "demis-hassabis-moment-1", textKey: "demis-hassabis.moment.1", interpretationKey: "demis-hassabis.interpretation.moment.1", attributeId: "persuasiveness", sourceIds: ["src_hassabis_time2023", "src_hassabis_nobel_pop"] },
+      { id: "demis-hassabis-moment-2", textKey: "demis-hassabis.moment.2", interpretationKey: "demis-hassabis.interpretation.moment.2", attributeId: "risk_tolerance", sourceIds: ["src_hassabis_gamedev2005", "src_hassabis_britannica"] },
+    ],
+    turningPoints: [
+      { id: "demis-hassabis-turning-point-1", textKey: "demis-hassabis.turning_point.1", interpretationKey: "demis-hassabis.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_hassabis_nobel_pop", "src_hassabis_achievement", "src_hassabis_casp14", "src_hassabis_mittr2021"] },
+    ],
+  },
+  "diego-maradona": {
+    achievements: [
+      { id: "diego-maradona-achievement-1", textKey: "diego-maradona.achievement.1", sourceIds: ["src_maradona_fifamuseum_legend", "src_maradona_fifamuseum_blog", "src_maradona_fifa_mexico86", "src_maradona_fifa_dash", "src_maradona_fifa_annualreport", "src_maradona_kuper_espn"] },
+      { id: "diego-maradona-achievement-2", textKey: "diego-maradona.achievement.2", sourceIds: ["src_maradona_fifamuseum_legend", "src_maradona_fifa_annualreport", "src_maradona_fifa_napoli87", "src_maradona_guardian_obit"] },
+      { id: "diego-maradona-achievement-3", textKey: "diego-maradona.achievement.3", sourceIds: ["src_maradona_fifamuseum_legend", "src_maradona_guardian_obit", "src_maradona_fifa_annualreport"] },
+    ],
+    moments: [
+      { id: "diego-maradona-moment-1", textKey: "diego-maradona.moment.1", interpretationKey: "diego-maradona.interpretation.moment.1", attributeId: "collaboration", sourceIds: ["src_maradona_fifa_burruchaga", "src_maradona_tft_burruchaga", "src_maradona_fifamuseum_blog"] },
+      { id: "diego-maradona-moment-2", textKey: "diego-maradona.moment.2", interpretationKey: "diego-maradona.interpretation.moment.2", attributeId: "conflict_tolerance", sourceIds: ["src_maradona_lisi_uefa89", "src_maradona_gates_milan88"] },
+    ],
+    turningPoints: [
+      { id: "diego-maradona-turning-point-1", textKey: "diego-maradona.turning_point.1", interpretationKey: "diego-maradona.interpretation.turning_point.1", attributeId: "leadership_drive", sourceIds: ["src_maradona_unwin_bilbao", "src_maradona_fifa_napoli87", "src_maradona_fifamuseum_legend"] },
+    ],
+  },
+  "f-scott-fitzgerald": {
+    achievements: [
+      { id: "f-scott-fitzgerald-achievement-1", textKey: "f-scott-fitzgerald.achievement.1", sourceIds: ["src_fitzgerald_britannica", "src_fitzgerald_princeton_gatsby", "src_fitzgerald_uscpress_trimalchio", "src_fitzgerald_usc_life"] },
+      { id: "f-scott-fitzgerald-achievement-2", textKey: "f-scott-fitzgerald.achievement.2", sourceIds: ["src_fitzgerald_britannica", "src_fitzgerald_usc_life"] },
+      { id: "f-scott-fitzgerald-achievement-3", textKey: "f-scott-fitzgerald.achievement.3", sourceIds: ["src_fitzgerald_britannica", "src_fitzgerald_usc_life"] },
+    ],
+    moments: [
+      { id: "f-scott-fitzgerald-moment-1", textKey: "f-scott-fitzgerald.moment.1", interpretationKey: "f-scott-fitzgerald.interpretation.moment.1", attributeId: "perfectionism", sourceIds: ["src_fitzgerald_princeton_gatsby", "src_fitzgerald_uscpress_trimalchio", "src_fitzgerald_usc_life"] },
+      { id: "f-scott-fitzgerald-moment-2", textKey: "f-scott-fitzgerald.moment.2", interpretationKey: "f-scott-fitzgerald.interpretation.moment.2", attributeId: "autonomy_need", sourceIds: ["src_fitzgerald_usc_screenplays"] },
+    ],
+    turningPoints: [
+      { id: "f-scott-fitzgerald-turning-point-1", textKey: "f-scott-fitzgerald.turning_point.1", interpretationKey: "f-scott-fitzgerald.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_fitzgerald_usc_life", "src_fitzgerald_britannica", "src_fitzgerald_loa_head"] },
+    ],
+  },
+  "frank-gehry": {
+    achievements: [
+      { id: "frank-gehry-achievement-1", textKey: "frank-gehry.achievement.1", sourceIds: ["src_gehry_pritzker", "src_gehry_moore", "src_gehry_newsweek"] },
+      { id: "frank-gehry-achievement-2", textKey: "frank-gehry.achievement.2", sourceIds: ["src_gehry_webb", "src_gehry_newsweek", "src_gehry_pbs"] },
+      { id: "frank-gehry-achievement-3", textKey: "frank-gehry.achievement.3", sourceIds: ["src_gehry_dean", "src_gehry_metropolis", "src_gehry_enr"] },
+    ],
+    moments: [
+      { id: "frank-gehry-moment-1", textKey: "frank-gehry.moment.1", interpretationKey: "frank-gehry.interpretation.moment.1", attributeId: "experimentation", sourceIds: ["src_gehry_webb"] },
+      { id: "frank-gehry-moment-2", textKey: "frank-gehry.moment.2", interpretationKey: "frank-gehry.interpretation.moment.2", attributeId: "collaboration", sourceIds: ["src_gehry_newsweek"] },
+    ],
+    turningPoints: [
+      { id: "frank-gehry-turning-point-1", textKey: "frank-gehry.turning_point.1", interpretationKey: "frank-gehry.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_gehry_dean", "src_gehry_metropolis", "src_gehry_webb"] },
+    ],
+  },
+  "george-gershwin": {
+    achievements: [
+      { id: "george-gershwin-achievement-1", textKey: "george-gershwin.achievement.1", sourceIds: ["src_gershwin_loc_nrr", "src_gershwin_umich_freeze", "src_gershwin_kennedy"] },
+      { id: "george-gershwin-achievement-2", textKey: "george-gershwin.achievement.2", sourceIds: ["src_gershwin_loc_white", "src_gershwin_umich_news", "src_gershwin_kennedy"] },
+      { id: "george-gershwin-achievement-3", textKey: "george-gershwin.achievement.3", sourceIds: ["src_gershwin_smithsonian", "src_gershwin_umich_freeze", "src_gershwin_ellington", "src_gershwin_kennedy"] },
+    ],
+    moments: [
+      { id: "george-gershwin-moment-1", textKey: "george-gershwin.moment.1", interpretationKey: "george-gershwin.interpretation.moment.1", attributeId: "execution_speed", sourceIds: ["src_gershwin_loc_nrr"] },
+      { id: "george-gershwin-moment-2", textKey: "george-gershwin.moment.2", interpretationKey: "george-gershwin.interpretation.moment.2", attributeId: "curiosity", sourceIds: ["src_gershwin_smithsonian", "src_gershwin_ellington"] },
+    ],
+    turningPoints: [
+      { id: "george-gershwin-turning-point-1", textKey: "george-gershwin.turning_point.1", interpretationKey: "george-gershwin.interpretation.turning_point.1", attributeId: "mastery_orientation", sourceIds: ["src_gershwin_umich_freeze", "src_gershwin_loc_nrr"] },
+    ],
+  },
+  "hermann-von-helmholtz": {
+    achievements: [
+      { id: "hermann-von-helmholtz-achievement-1", textKey: "hermann-von-helmholtz.achievement.1", sourceIds: ["src_helmholtz_dsb", "src_helmholtz_koenigsberger", "src_helmholtz_ndb"] },
+      { id: "hermann-von-helmholtz-achievement-2", textKey: "hermann-von-helmholtz.achievement.2", sourceIds: ["src_helmholtz_iess", "src_helmholtz_dsb", "src_helmholtz_ndb"] },
+      { id: "hermann-von-helmholtz-achievement-3", textKey: "hermann-von-helmholtz.achievement.3", sourceIds: ["src_helmholtz_dsb", "src_helmholtz_ndb"] },
+    ],
+    moments: [
+      { id: "hermann-von-helmholtz-moment-1", textKey: "hermann-von-helmholtz.moment.1", interpretationKey: "hermann-von-helmholtz.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_helmholtz_koenigsberger", "src_helmholtz_dsb"] },
+      { id: "hermann-von-helmholtz-moment-2", textKey: "hermann-von-helmholtz.moment.2", interpretationKey: "hermann-von-helmholtz.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_helmholtz_dsb", "src_helmholtz_joyner"] },
+    ],
+    turningPoints: [
+      { id: "hermann-von-helmholtz-turning-point-1", textKey: "hermann-von-helmholtz.turning_point.1", interpretationKey: "hermann-von-helmholtz.interpretation.turning_point.1", attributeId: "cross_domain_range", sourceIds: ["src_helmholtz_dsb", "src_helmholtz_ndb"] },
+    ],
+  },
+  "james-dyson": {
+    achievements: [
+      { id: "james-dyson-achievement-1", textKey: "james-dyson.achievement.1", sourceIds: ["src_dyson_britannica", "src_dyson_designmuseum", "src_dyson_success2013"] },
+      { id: "james-dyson-achievement-2", textKey: "james-dyson.achievement.2", sourceIds: ["src_dyson_britannica", "src_dyson_siegle2011", "src_dyson_younge2005", "src_dyson_cooperhewitt"] },
+      { id: "james-dyson-achievement-3", textKey: "james-dyson.achievement.3", sourceIds: ["src_dyson_rdi", "src_dyson_royalsociety", "src_dyson_designmuseum", "src_dyson_sciencemuseum", "src_dyson_cooperhewitt"] },
+    ],
+    moments: [
+      { id: "james-dyson-moment-1", textKey: "james-dyson.moment.1", interpretationKey: "james-dyson.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_dyson_cadwalladr2014", "src_dyson_guardian2016"] },
+      { id: "james-dyson-moment-2", textKey: "james-dyson.moment.2", interpretationKey: "james-dyson.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_dyson_davies2019"] },
+    ],
+    turningPoints: [
+      { id: "james-dyson-turning-point-1", textKey: "james-dyson.turning_point.1", interpretationKey: "james-dyson.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_dyson_designmuseum", "src_dyson_success2013", "src_dyson_britannica"] },
+    ],
+  },
+  "john-franklin": {
+    achievements: [
+      { id: "john-franklin-achievement-1", textKey: "john-franklin.achievement.1", sourceIds: ["src_franklin_dcb", "src_franklin_davis1985", "src_franklin_rmg_archive", "src_franklin_parks_who"] },
+      { id: "john-franklin-achievement-2", textKey: "john-franklin.achievement.2", sourceIds: ["src_franklin_rmg_story", "src_franklin_parks_who", "src_franklin_parks_search", "src_franklin_dcb"] },
+      { id: "john-franklin-achievement-3", textKey: "john-franklin.achievement.3", sourceIds: ["src_franklin_dcb", "src_franklin_richardson1856"] },
+    ],
+    moments: [
+      { id: "john-franklin-moment-1", textKey: "john-franklin.moment.1", interpretationKey: "john-franklin.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_franklin_dcb", "src_franklin_davis1985", "src_franklin_parks_who"] },
+      { id: "john-franklin-moment-2", textKey: "john-franklin.moment.2", interpretationKey: "john-franklin.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_franklin_dcb", "src_franklin_davis1985"] },
+    ],
+    turningPoints: [
+      { id: "john-franklin-turning-point-1", textKey: "john-franklin.turning_point.1", interpretationKey: "john-franklin.interpretation.turning_point.1", attributeId: "planning_orientation", sourceIds: ["src_franklin_dcb", "src_franklin_parks_who", "src_franklin_davis1985"] },
+    ],
+  },
+  "john-harrison": {
+    achievements: [
+      { id: "john-harrison-achievement-1", textKey: "john-harrison.achievement.1", sourceIds: ["src_harrison_rmg_story", "src_harrison_rmg_h4", "src_harrison_rmg_attr", "src_harrison_schaffer2014"] },
+      { id: "john-harrison-achievement-2", textKey: "john-harrison.achievement.2", sourceIds: ["src_harrison_rmg_story", "src_harrison_rmg_h3", "src_harrison_smg_person"] },
+      { id: "john-harrison-achievement-3", textKey: "john-harrison.achievement.3", sourceIds: ["src_harrison_cul_rgo14", "src_harrison_lindahall"] },
+    ],
+    moments: [
+      { id: "john-harrison-moment-1", textKey: "john-harrison.moment.1", interpretationKey: "john-harrison.interpretation.moment.1", attributeId: "perfectionism", sourceIds: ["src_harrison_rmg_story", "src_harrison_rmg_h3"] },
+      { id: "john-harrison-moment-2", textKey: "john-harrison.moment.2", interpretationKey: "john-harrison.interpretation.moment.2", attributeId: "conflict_tolerance", sourceIds: ["src_harrison_cudl_sandwich", "src_harrison_rmg_story", "src_harrison_rmg_maskelyne"] },
+    ],
+    turningPoints: [
+      { id: "john-harrison-turning-point-1", textKey: "john-harrison.turning_point.1", interpretationKey: "john-harrison.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_harrison_rmg_h4", "src_harrison_rmg_h3", "src_harrison_rmg_story"] },
+    ],
+  },
+  "wolfgang-pauli": {
+    achievements: [
+      { id: "wolfgang-pauli-achievement-1", textKey: "wolfgang-pauli.achievement.1", sourceIds: ["src_pauli_nobel", "src_pauli_aitchison", "src_pauli_ndb"] },
+      { id: "wolfgang-pauli-achievement-2", textKey: "wolfgang-pauli.achievement.2", sourceIds: ["src_pauli_letter", "src_pauli_nobel", "src_pauli_aitchison", "src_pauli_ndb"] },
+      { id: "wolfgang-pauli-achievement-3", textKey: "wolfgang-pauli.achievement.3", sourceIds: ["src_pauli_aitchison", "src_pauli_nobel", "src_pauli_ndb"] },
+    ],
+    moments: [
+      { id: "wolfgang-pauli-moment-1", textKey: "wolfgang-pauli.moment.1", interpretationKey: "wolfgang-pauli.interpretation.moment.1", attributeId: "perfectionism", sourceIds: ["src_pauli_letter", "src_pauli_aitchison"] },
+      { id: "wolfgang-pauli-moment-2", textKey: "wolfgang-pauli.moment.2", interpretationKey: "wolfgang-pauli.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_pauli_giulini"] },
+    ],
+    turningPoints: [
+      { id: "wolfgang-pauli-turning-point-1", textKey: "wolfgang-pauli.turning_point.1", interpretationKey: "wolfgang-pauli.interpretation.turning_point.1", attributeId: "conflict_tolerance", sourceIds: ["src_pauli_cern_kronig", "src_pauli_ndb", "src_pauli_meyer"] },
+    ],
+  },
 };

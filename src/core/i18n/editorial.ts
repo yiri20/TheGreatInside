@@ -7882,6 +7882,253 @@ export const EDITORIAL_EN: Record<string, string> = {
     "From the late 1550s Titian radically revised his style and technique, the National Gallery says, developing a much freer use of the brush and a less descriptive representation of reality. By the late 1560s and early 1570s he had pushed his art to the edge of abstraction; in The Death of Actaeon, painted mostly when he was in his mid-eighties, he added scumbled touches sometimes with his fingers and left parts in different states of completion.",
   "titian.interpretation.turning_point.1":
     "This is consistent with a willingness to keep changing his technique late in life.",
+  /* ---------------------------------------------------------- andy-grove (Roster51) */
+  "andy-grove.achievement.1":
+    "Grove was Intel's president from 1979, chief executive from 1987 to 1998 and chairman from 1997 to 2005. As president he was central to the mid-1980s exit from DRAM memory chips and the concentration on microprocessors; as chief executive he led Intel to a dominant position in PC microprocessors. Time named him 1997 Man of the Year as the person most responsible for the growth in the power and innovative potential of microchips.",
+  "andy-grove.achievement.2":
+    "In 1985 Grove decided that Intel would not license its new 386 microprocessor to other chipmakers, making Intel its sole source, a move the museum calls risky and unorthodox. In 1991 Intel launched the 'Intel Inside' campaign proposed by marketing chief Dennis Carter, making a component a consumer brand, and Intel processors with Microsoft software became known as 'Wintel'.",
+  "andy-grove.achievement.3":
+    "At Intel he built a management culture around the constructive confrontation of problems and highly quantitative management by objectives, an approach that John Doerr, who learned it there, later popularised as OKRs. His ideas are set out in High Output Management (1983) and Only the Paranoid Survive (1996), whose phrase 'strategic inflection point' entered business vocabulary, and he lectured at Stanford's business school.",
+  "andy-grove.moment.1":
+    "In late 1994, after a flaw in Intel's Pentium chip became public, Intel at first replaced chips only for customers who could show they needed one, and Grove denied that typical users were affected. After IBM suspended shipments of Pentium-based PCs and criticism grew, Intel announced a no-questions-asked exchange and set aside $475 million; Time says Grove changed course after a weekend with his advisers.",
+  "andy-grove.interpretation.moment.1":
+    "This is consistent with a leader who reverses a publicly defended position once customers' reaction makes it untenable, though here the reversal came only after a delay.",
+  "andy-grove.moment.2":
+    "Tedlow reports that when Intel was promoting a RISC chip, with Grove himself in a promotional video, two of his executives, including marketing chief Dennis Carter, told him 'Andy, you can't do this': abandoning Intel's mainstream design would sacrifice one of its most profitable franchises. They won the argument, and Grove later said he had almost walked away from that franchise.",
+  "andy-grove.interpretation.moment.2":
+    "This is consistent with a management style that invited blunt argument from subordinates and could be overruled by it, as told by Tedlow from Grove's own account.",
+  "andy-grove.turning_point.1":
+    "As Japanese makers cut memory-chip prices, Intel's profit fell from $198 million in 1984 to under $2 million in 1985, and Stanford's case describes the decision its top management faced at the end of 1984 over leaving DRAMs. Intel then exited DRAMs and concentrated on microprocessors; Burgelman finds that middle managers and manufacturing allocations had already shifted before official strategy changed, and Grove, then president, later said he and Moore decided by asking what a new CEO would do.",
+  "andy-grove.interpretation.turning_point.1":
+    "This is consistent with a willingness to stake the company's future on a new business while the old one was still part of its identity, though the shift was also driven from below.",
+  /* ---------------------------------------------------------- bong-joon-ho (Roster51) */
+  "bong-joon-ho.achievement.1":
+    "Parasite (2019) won the Palme d'Or at Cannes and, Britannica notes, became the first foreign-language film to win the Academy Award for Best Picture. At the 2020 ceremony it took four Oscars: Best Picture (producers Kwak Sin Ae and Bong), Directing (Bong), Original Screenplay (Bong and Han Jin Won) and International Feature Film (South Korea).",
+  "bong-joon-ho.achievement.2":
+    "Memories of Murder (2003), based on a play about real unsolved murders of the mid-1980s, was a major hit and won awards in several Korean film competitions. The Host (2006), a monster film set on the Han River, set box-office records in South Korea and was praised at Cannes, according to Britannica.",
+  "bong-joon-ho.achievement.3":
+    "He moved into English-language filmmaking with Snowpiercer (2013), an adaptation of a French graphic novel that, Britannica says, won large international audiences as well as critical praise, and Okja (2017), which opened at Cannes and competed for the top award. Mickey 17 (2025) was his third English-language feature.",
+  "bong-joon-ho.moment.1":
+    "Production designer Lee Ha Jun told Dezeen that Bong showed him a simple floor plan he had sketched while writing the Parasite script, left the architectural style to him and stressed that the front garden was essential. Lee said Bong's scripts describe every actor's movements, so blocking came first in the design, and that the descent from the kitchen to the underground bunker was built as one set because Bong wanted to film it without stopping, to capture the actors' breathing.",
+  "bong-joon-ho.interpretation.moment.1":
+    "This is consistent with planning a film's spaces and camera movements before the shoot begins.",
+  "bong-joon-ho.moment.2":
+    "Co-writer Han Jin Won told AnOther that he was a production assistant on Snowpiercer when Bong, then shooting Okja, handed him a half-finished treatment and asked him to research it, at first for three months. Han interviewed housekeepers, tutors and chauffeurs, wrote three versions of the story shaped by Bong's feedback, and after Okja the two finished the second half of the script together; Han described Bong as being like a teacher to him.",
+  "bong-joon-ho.interpretation.moment.2":
+    "This is consistent with sharing real creative work with junior collaborators and guiding it through feedback.",
+  "bong-joon-ho.turning_point.1":
+    "Bong's first feature, Barking Dogs Never Bite (2000), received positive reviews but little notice, according to Britannica. His next, Memories of Murder (2003), was a major hit; Senses of Cinema reports Bong saying that Song Kang-ho's joining the cast helped finance it, and counts Parasite as the fourth film the two have made together.",
+  "bong-joon-ho.interpretation.turning_point.1":
+    "This is consistent with building his projects around a trusted collaborator.",
+  /* ---------------------------------------------------------- christopher-nolan (Roster51) */
+  "christopher-nolan.achievement.1":
+    "He broke through with Memento (2000), a thriller told in reverse order that earned an Oscar nomination for original screenplay, and went on to direct the Batman trilogy (2005-2012). Britannica calls Batman Begins a forerunner of a move toward realism in superhero films and says The Dark Knight became one of the highest-grossing movies of all time.",
+  "christopher-nolan.achievement.2":
+    "He wrote and directed the large-scale, conceptually ambitious films Inception (2010), Interstellar (2014), Dunkirk (2017) and Tenet (2020). Britannica calls him a noted advocate of analog film technologies over digital formats and says The Odyssey (2026) is the first feature shot entirely on IMAX film.",
+  "christopher-nolan.achievement.3":
+    "Oppenheimer (2023), about J. Robert Oppenheimer's role in developing the atomic bomb, won seven Academy Awards in 2024. Best Picture was credited to producers Emma Thomas, Charles Roven and Nolan, and Best Director to Nolan; Britannica counts these as his two Oscars, from eight nominations in all.",
+  "christopher-nolan.moment.1":
+    "Production designer Ruth De Jong told the Team Deakins podcast, as reported by TheWrap in 2023, that Nolan shortened Oppenheimer's shoot from a planned 85 days to 55 and that the money saved paid for rebuilding Los Alamos as a physical set rather than relying on visual effects. She said the first budget for building the town was $20 million and had to be scaled back significantly.",
+  "christopher-nolan.interpretation.moment.1":
+    "This is consistent with arranging the schedule and budget around a settled view of how the film should be built.",
+  "christopher-nolan.moment.2":
+    "After audiences in several cities complained that dialogue in Interstellar was drowned out by music and effects, Nolan told The Hollywood Reporter, as relayed by Slashfilm in 2014, that the mix was a considered choice. He said he did not agree that clarity can come only through dialogue, that he had treated dialogue as a sound effect in places, and that he usually visits six or seven theaters to hear his films where audiences will.",
+  "christopher-nolan.interpretation.moment.2":
+    "This is consistent with holding to a considered creative decision in the face of audience complaints.",
+  "christopher-nolan.turning_point.1":
+    "In 2003, after Memento and Insomnia, Warner Bros. enlisted Nolan to direct a new Batman film, the first since the poorly received Batman & Robin (1997). Britannica says Batman Begins (2005) gave the character's origins a grimmer, more realistic setting and tone than earlier Batman films and became a forerunner of a trend in superhero films toward realism.",
+  "christopher-nolan.interpretation.turning_point.1":
+    "This is consistent with a willingness to rework the conventions of an established genre.",
+  /* ---------------------------------------------------------- demis-hassabis (Roster51) */
+  "demis-hassabis.achievement.1":
+    "Hassabis and John Jumper co-led DeepMind's AlphaFold. It won the 2018 CASP13 protein-structure competition and, as AlphaFold2 in 2020, determined about two thirds of the CASP14 targets to laboratory-comparable accuracy, according to the independent organisers. DeepMind then released the code and predicted structures for nearly all of the roughly 200 million known proteins, and in 2024 the two shared half of the Nobel Prize in Chemistry 'for protein structure prediction'.",
+  "demis-hassabis.achievement.2":
+    "He co-founded DeepMind in 2010 with Shane Legg and Mustafa Suleyman, and Google bought it in 2014. Its AlphaGo beat Lee Sedol four games to one in March 2016, a milestone forecasters had not expected for about a decade. DeepMind and Google Brain were merged into Google DeepMind in 2023 under his leadership, and the lab released the Gemini models; he ran it as chief executive until August 2026, when he became its chair and Alphabet's chief scientist.",
+  "demis-hassabis.achievement.3":
+    "Before DeepMind he was a chess master at 13, the lead programmer of the game Theme Park at 17 and the founder of the games studio Elixir (1998 to 2005), then took a PhD in cognitive neuroscience at UCL (2009) and used what he learned about the brain to design better neural networks. A 2007 UCL study of which he was first author, showing that patients with hippocampal amnesia cannot imagine new experiences, was reported by Nature News and, the Academy of Achievement says, listed among Science's top ten breakthroughs of the year.",
+  "demis-hassabis.moment.1":
+    "In 2013 a team of Google executives flew to London, and Hassabis impressed them with a prototype that had learned to play Breakout by reinforcement learning, a technique Google was not then using. Google bought DeepMind the following year for about $500 million, and, Time reports, he turned down a larger offer from Facebook.",
+  "demis-hassabis.interpretation.moment.1":
+    "This is consistent with an ability to win over a buyer by showing a working demonstration of his lab's approach, though the account rests on his own recollections.",
+  "demis-hassabis.moment.2":
+    "In April 2005 Elixir Studios, the games company he had founded in 1998, ceased operations and sold its assets after its main project was cancelled as too risky; Game Developer reported that neither of its two released games had been a major financial success. Hassabis said that going down the licensing route was something the studio could never compromise on.",
+  "demis-hassabis.interpretation.moment.2":
+    "This is consistent with a preference for original, high-risk work over safer licensed projects, at the cost of the company.",
+  "demis-hassabis.turning_point.1":
+    "After AlphaGo's 2016 win, which the Nobel Academy says Hassabis saw as a means and not the goal, DeepMind put a small team on protein structure prediction and entered the 2018 CASP13 competition. AlphaFold won with about 60 percent accuracy, short of the 90 percent needed, and the team stalled; John Jumper's ideas and a transformer-based design led to AlphaFold2, which in 2020 CASP's organisers said had largely solved the problem for single proteins.",
+  "demis-hassabis.interpretation.turning_point.1":
+    "This is consistent with a willingness to turn a lab built around games toward a harder scientific problem and to share leadership of the rebuilt system with a newer colleague.",
+  /* ---------------------------------------------------------- diego-maradona (Roster51) */
+  "diego-maradona.achievement.1":
+    "Captaining Argentina to the 1986 World Cup, he scored five goals and set up five more, including both goals in the 2-1 quarter-final win over England (the 'Hand of God' handball and a solo run later voted FIFA's World Cup Goal of the Century), won the Golden Ball, and was involved in all three goals of the 3-2 final against West Germany, according to FIFA, the FIFA Museum and ESPN.",
+  "diego-maradona.achievement.2":
+    "Signed by Napoli in 1984 for a world-record fee, he captained a club that had never won the league to its first Serie A title in 1987 (the first for a southern club), was the league's top scorer in 1987-88, and led Napoli to the 1989 UEFA Cup, its first European trophy, and a second league title in 1990, according to FIFA and the FIFA Museum.",
+  "diego-maradona.achievement.3":
+    "He made his professional debut in 1976, ten days short of his 16th birthday and the youngest player in the history of the Argentine Primera Division, won the Golden Ball at the 1979 World Youth Championship, captained Argentina to a second World Cup final in 1990, scored 34 goals in 91 appearances, and in 2000 shared the 'Player of the Century' recognition with Pele, his award decided by public poll, according to the FIFA Museum and the Guardian.",
+  "diego-maradona.moment.1":
+    "Late in the 1986 final, after West Germany had pulled back from 2-0 down to 2-2, Jorge Burruchaga says he turned to Maradona and said they would go and win it, and about three minutes later Maradona's pass through the German defence put Burruchaga clear for the winning goal. Burruchaga recalls that he shouted for the ball but that Maradona, with his back almost turned, had not heard him and played the pass anyway: 'Diego used to play like he had eyes in the back of his head.'",
+  "diego-maradona.interpretation.moment.1":
+    "This is consistent with a player who combined individual brilliance with precise, well-timed service to a team-mate at a decisive moment, though the account rests on the scorer's retrospective recollection.",
+  "diego-maradona.moment.2":
+    "After Napoli lost its lead in the 1987-88 title race, the players said in a press release that there was a problem with coach Ottavio Bianchi, and four squad members signed a letter demanding his removal. Maradona told reporters that 'the entire team had put together a petition against Bianchi', and Bianchi replied that Maradona was not the club's president, vice-president or manager; one account says Maradona sided with the four without signing. The owner kept Bianchi and sold the players who had opposed him.",
+  "diego-maradona.interpretation.moment.2":
+    "This is consistent with a player willing to side openly with colleagues against a coach, although the sources differ on how many players signed and on his own part, and the outcome shows the limits of his influence at the club.",
+  "diego-maradona.turning_point.1":
+    "After Barcelona lost the 1984 Copa del Rey final to Athletic Bilbao and a mass brawl followed, Maradona was sold to Napoli that summer, a move the Guardian's retrospective describes as a better option than serving the three-month ban he had been given. According to FIFA, Napoli finished mid-table in his first season and third in his second, and in 1987 he captained the club to the first Serie A title in its history.",
+  "diego-maradona.interpretation.turning_point.1":
+    "This is consistent with a player whose most sustained work came when a club was built around him, though the sources do not show how much of the change came from his own choices.",
+  /* ---------------------------------------------------------- f-scott-fitzgerald (Roster51) */
+  "f-scott-fitzgerald.achievement.1":
+    "Fitzgerald's The Great Gatsby (1925), which Britannica says is today widely considered the great American novel, was planned from June 1922, restarted in 1924 after an earlier version was abandoned, finished in manuscript by September 1924 and then extensively revised and rewritten in galley proof in early 1925. The University of South Carolina Libraries call it a striking advance in his technique, with a complex structure and a controlled narrative point of view, though its first sales were disappointing.",
+  "f-scott-fitzgerald.achievement.2":
+    "His first novel, This Side of Paradise (1920), made the 24-year-old Fitzgerald famous almost overnight and, Britannica says, was a revelation of the new morality of the young. He completed four novels in all, including The Beautiful and Damned (1922) and Tender Is the Night (1934), and Britannica describes him as famous for his depictions of the Jazz Age and a key figure of the Lost Generation.",
+  "f-scott-fitzgerald.achievement.3":
+    "Fitzgerald also wrote more than 150 short stories. Working through his agent Harold Ober from the autumn of 1919, he wrote popular stories for mass-circulation magazines, and the University of South Carolina Libraries call the Saturday Evening Post his best story market and say his early commercial stories introduced a fresh character, the independent, determined young American woman. Britannica names 'The Rich Boy' and 'Absolution', in All the Sad Young Men (1926), among his finest stories.",
+  "f-scott-fitzgerald.moment.1":
+    "Fitzgerald sent the typescript of Gatsby to his editor Maxwell Perkins in November 1924. When the typeset galleys reached him in Rome he spent the first two months of 1925 correcting them in pencil and pasting in long typed additions, and Princeton's curators, citing the scholar James L. W. West III, note that the galley text was not the same novel as the published one. Even after publication he corrected a personal copy of the first edition for later printings.",
+  "f-scott-fitzgerald.interpretation.moment.1":
+    "This is consistent with a writer who held his work to a high standard through repeated revision, though heavy revision is common among novelists and the sources trace back largely to one scholarly lineage.",
+  "f-scott-fitzgerald.moment.2":
+    "At MGM in September 1937 Fitzgerald asked the producer Joseph Mankiewicz to let him work alone on his Three Comrades revisions, and Mankiewicz replied that what he had submitted was 'simply swell'. The studio nevertheless assigned E. E. Paramore as collaborator, and Fitzgerald wrote to him in October that he preferred to keep responsibility for the script as a whole. After six revisions Mankiewicz heavily revised the final script, and Fitzgerald noted in his shooting script that the shadows and rhythm of his pages had been removed.",
+  "f-scott-fitzgerald.interpretation.moment.2":
+    "This is consistent with a writer who wanted control of his own work, though the account comes from a library's acquisition page that gives Fitzgerald's side far more fully than the studio's.",
+  "f-scott-fitzgerald.turning_point.1":
+    "After Scribner's twice turned down his first novel, Fitzgerald quit his job in July 1919, went home to St. Paul and rewrote it as This Side of Paradise, which Maxwell Perkins accepted in September; published on 26 March 1920, it made him famous almost overnight. In the same autumn and winter he began writing stories for mass-circulation magazines through the agent Harold Ober, and his first Saturday Evening Post story, 'Head and Shoulders', sold for $400.",
+  "f-scott-fitzgerald.interpretation.turning_point.1":
+    "This is consistent with a writer who rebuilt a rejected project rather than giving up on it, though the sources are institutional narratives that give no detail of what he changed.",
+  /* ---------------------------------------------------------- frank-gehry (Roster51) */
+  "frank-gehry.achievement.1":
+    "Gehry first drew wide attention for buildings made of unorthodox materials such as chain-link fencing and corrugated metal, notably his own house in Santa Monica, and in 1989 won the Pritzker Prize, whose jury called his architecture 'refreshingly original'. The Guggenheim Museum Bilbao (1997), which he won in a competition against two other architects, made him internationally famous; the critic Rowan Moore calls it the most influential building of modern times.",
+  "frank-gehry.achievement.2":
+    "Walt Disney Concert Hall in Los Angeles, the home of the Los Angeles Philharmonic, began with a 1987 gift from Lillian Disney. Gehry won the design competition in 1988, and the stainless-steel hall was completed in 2003 after a 16-year process. He designed its vineyard-style auditorium with the Japanese acoustician Yasuhisa Toyota; the orchestra's executive director called the building an iconic landmark, while the Los Angeles planning critic Sam Hall Kaplan faulted it for not reaching out to the city.",
+  "frank-gehry.achievement.3":
+    "Gehry's practice made digital modeling the basis for building his curved forms. From 1991 his office used CATIA, aerospace software brought in at the instigation of his partner James Glymph, to turn physical study models into digital surfaces, and a scholarly paper calls Bilbao the first major building designed with it. The practice later created Gehry Technologies, whose CATIA-based Digital Project platform was used on projects beyond his own commissions, and Engineering News-Record's obituary says his buildings pushed contractors and fabricators toward model-driven delivery.",
+  "frank-gehry.moment.1":
+    "After winning the Walt Disney Concert Hall competition, the architects sought advice from a wide range of musicians, and Gehry's team made about 40 scale models of existing auditoriums and alternative plans, which gave the office a better grasp of the technical issues and built trust with the acoustician Minoru Nagata. Nagata argued that older shoebox halls such as the Concertgebouw and the Musikverein were better models than the Berlin Philharmonie that the winning scheme resembled, and in the end the acousticians and architects compromised on the width of the hall.",
+  "frank-gehry.interpretation.moment.1":
+    "This is consistent with a designer who works by making and comparing many physical models, though the account is a critic's retelling of the office's process and the models were built by his team.",
+  "frank-gehry.moment.2":
+    "Some months before Walt Disney Concert Hall's first full-orchestra rehearsal in June 2003, Gehry called the conductor Esa-Pekka Salonen at home one evening and asked to meet right away at the unfinished hall; Salonen asked the concertmaster to bring his violin, and the concertmaster played some Bach for them. At the June rehearsal, Salonen stopped after the opening bars of Mozart's Jupiter Symphony and told him, 'Frank, we'll keep it.'",
+  "frank-gehry.interpretation.moment.2":
+    "This is consistent with a designer who tested the hall's sound with the musicians who would play in it, though the account is Salonen's as relayed in a Newsweek profile, and the acoustic design was shared with the acoustician Yasuhisa Toyota.",
+  "frank-gehry.turning_point.1":
+    "According to Rick Smith, contractors who looked at Gehry's physical models and two-dimensional drawings often said his designs could not be built. In 1991 his office began using CATIA, brought in by partner James Glymph through the IBM consultant Rick Smith, who met strong reluctance among the drafters and model-makers ('There was a lot of reluctance') and worked around it by handing the model-builders printed sections of the digital model to build from, with Gehry reviewing and adjusting the results by hand. Bilbao, designed with it, proved the first successful large-scale application of CATIA in architecture, according to Metropolis.",
+  "frank-gehry.interpretation.turning_point.1":
+    "This is consistent with a practice leader willing to rebuild how his office worked around a tool he did not operate himself, though the sources credit Glymph and Smith with bringing the software in.",
+  /* ---------------------------------------------------------- george-gershwin (Roster51) */
+  "george-gershwin.achievement.1":
+    "Gershwin brought jazz idioms into the concert hall. Rhapsody in Blue premiered at Aeolian Hall on 12 February 1924 in Paul Whiteman's 'An Experiment in Modern Music', with Gershwin at the piano and Ferde Grofe orchestrating, and a Library of Congress essay calls it arguably the most famous piece of American classical music ever written. For Walter Damrosch's New York Symphony Society he then wrote and orchestrated the Concerto in F himself (Carnegie Hall, 3 December 1925), and An American in Paris followed in 1928.",
+  "george-gershwin.achievement.2":
+    "Alongside the concert works, Gershwin was a leading Broadway songwriter. With his brother Ira and other lyricists he wrote songs such as 'I Got Rhythm', 'Embraceable You' and 'The Man I Love', and the Library of Congress curator says the brothers wrote many of the finest American popular songs. The University of Michigan, which is preparing the first critical edition of their works, lists scores for more than two dozen Broadway and Hollywood musicals that they wrote together.",
+  "george-gershwin.achievement.3":
+    "Porgy and Bess (1935) is his opera on DuBose Heyward's story of a Black community in Charleston, with a libretto by DuBose and Dorothy Heyward and, the Michigan editors say, crucial contributions from Ira. Gershwin wrote it after fieldwork around Charleston in 1933 and 1934, including visits to the Gullah community of James Island, and orchestrated it himself. Critics were divided at its first run, it entered the Metropolitan Opera repertory in 1985, and its treatment of race has been debated from its first season, including in Duke Ellington's 1935 criticism of its music.",
+  "george-gershwin.moment.1":
+    "In early January 1924 the New York Tribune ran a small item announcing that Gershwin was writing a 'jazz concerto' for Paul Whiteman's concert of 12 February. Whiteman had asked him months earlier, and the commission had slipped his mind while he worked on a Broadway musical. He composed the piece as a two-piano score, and Whiteman's arranger Ferde Grofe orchestrated it page by page as each was finished.",
+  "george-gershwin.interpretation.moment.1":
+    "This is consistent with composing quickly to a fixed deadline, though the orchestration was Grofe's and the essay says the commission had slipped Gershwin's mind, so the pace partly reflects a late start.",
+  "george-gershwin.moment.2":
+    "In June 1934 Gershwin went to Folly Island near Charleston to work on Porgy and Bess. DuBose Heyward, who had insisted on fieldwork, took him to the Gullah community on neighbouring James Island, where they visited schools and churches and listened to spirituals and to the dance called shouting. Heyward later wrote that for Gershwin it was more like a homecoming than an exploration.",
+  "george-gershwin.interpretation.moment.2":
+    "This is consistent with a composer who studied the music he meant to draw on at first hand, though the trip was Heyward's condition for the collaboration and Duke Ellington criticised the finished opera in 1935 for not using the Negro musical idiom.",
+  "george-gershwin.turning_point.1":
+    "In his earlier music Gershwin had supplied only the basic musical shape for singers, arrangers and producers to adapt, and Rhapsody in Blue had been orchestrated by Ferde Grofe. In April 1925 Walter Damrosch commissioned him to compose, orchestrate and perform a piano concerto for the New York Symphony Society. The Concerto in F, premiered at Carnegie Hall on 3 December 1925, was the first major work he orchestrated, as he did all his later concert works and Porgy and Bess.",
+  "george-gershwin.interpretation.turning_point.1":
+    "This is consistent with a composer taking on a craft he had previously delegated, though the same editors find that his manuscripts show impatience with notating fine detail.",
+  /* ---------------------------------------------------------- hermann-von-helmholtz (Roster51) */
+  "hermann-von-helmholtz.achievement.1":
+    "In July 1847, while still a Prussian army surgeon, Helmholtz read his memoir 'Über die Erhaltung der Kraft' to the Berlin Physical Society, setting out the mathematical principles of the conservation of energy. Poggendorff declined to print it in his Annalen der Physik und Chemie as not experimental enough, so it appeared as a separate pamphlet; Helmholtz later credited Robert Mayer with having stated the principle earlier.",
+  "hermann-von-helmholtz.achievement.2":
+    "In 1850-51 Helmholtz built the ophthalmoscope, which let doctors see the living retina, and in the following years he laid the experimental foundations of the physiology of vision and hearing in his three-volume Handbuch der physiologischen Optik (1856-67) and Die Lehre von den Tonempfindungen (1862-63). They contain his doctrine of unconscious inference in perception, his theory of pitch perception and his account of vowel quality, and a social-sciences encyclopedia says that posterity sees sensory physiology and psychology as his most significant contributions.",
+  "hermann-von-helmholtz.achievement.3":
+    "Alongside the physiology, Helmholtz did major work in physics: a 1858 paper on the hydrodynamics of vortex motion, a critical survey of competing electrodynamic theories after he took the Berlin chair of physics in 1871, which the Dictionary of Scientific Biography says first brought Maxwell's field theory to Continental physicists and inspired his pupil Heinrich Hertz, and an 1882 memoir distinguishing free from bound energy in chemical reactions. In the late 1880s he became president of the newly founded Physikalisch-Technische Reichsanstalt.",
+  "hermann-von-helmholtz.moment.1":
+    "In late 1850, preparing a lecture on Brücke's finding that animal eyes shine with reflected light, Helmholtz asked what image the reflected rays form, and built an instrument from spectacle lenses and microscope cover-glasses to find out. It was very hard to use, and he said later that he might not have persevered without his conviction that it must succeed; after about eight days he saw a living human retina. On 17 December 1850 he wrote to his father that the idea was so obvious that it seemed almost ludicrous that he and others had been so slow to see it.",
+  "hermann-von-helmholtz.interpretation.moment.1":
+    "This is consistent with persistence in getting a new instrument to work, though the account is largely Helmholtz's own words and his biographer notes that the invention was less simple than he made it sound.",
+  "hermann-von-helmholtz.moment.2":
+    "In 1852 Helmholtz's colour experiments led him to reject Newton's account of complementary colours, and he revived Thomas Young's three-receptor theory only to refute it. Grassmann attacked the first conclusion at once; in 1855 Helmholtz acknowledged the experimental error and announced new experiments giving the complementary colours that Newton's theory requires, and by 1858 he had become the foremost advocate of Young's theory, amended to meet his own earlier objections.",
+  "hermann-von-helmholtz.interpretation.moment.2":
+    "This is consistent with a researcher who corrected his own published conclusions, though the account comes from one dictionary entry and a later reviewer says other leading scientists' opinions rarely altered his own.",
+  "hermann-von-helmholtz.turning_point.1":
+    "By 1866 Helmholtz had finished his great treatises on sensory physiology and was thinking of leaving physiology for physics; in 1868 he wrote that physiology had grown too great for any individual to encompass, while German physics lacked well-trained young recruits. When the Berlin chair of physics fell vacant in 1870 he accepted it in early 1871, once the building of a new physics institute was promised, and in Berlin he turned to electrodynamics, thermochemistry and, later, the principle of least action.",
+  "hermann-von-helmholtz.interpretation.turning_point.1":
+    "This is consistent with a researcher who changed fields when he judged the old one too large for one mind and the new one short of recruits, though the sources know his reasons mainly from his own 1868 statement.",
+  /* ---------------------------------------------------------- james-dyson (Roster51) */
+  "james-dyson.achievement.1":
+    "In 1978 he adapted the cyclone collectors used in sawmills to a household vacuum cleaner, testing more than 5,000 prototypes over about five years, according to Britannica. After established makers showed no interest he sold the design in Japan as the G-Force, which the Design Museum says funded his own DC01, made in Wiltshire from 1993 and, Britannica says, Britain's top-selling vacuum cleaner within two years despite a higher price.",
+  "james-dyson.achievement.2":
+    "He built Dyson beyond the vacuum cleaner: Britannica records the Air Multiplier bladeless fan of 2009, an Observer interview describes the company's Airblade hand dryer, and the Guardian reported in 2005 that, about two years after entering the American market, Dyson had become the most popular vacuum cleaner there, a claim the company announced; Cooper Hewitt dates the US launch of the DC07 to 2002.",
+  "james-dyson.achievement.3":
+    "The Royal Designers for Industry list him under Engineering Design (2005), and the Royal Society, which elected him a Fellow in 2015, says he holds 1,138 patents and funds 50 research projects at UK universities; his G-Force, DC01 and DC07 cleaners are held by the Design Museum, the Science Museum Group and Cooper Hewitt.",
+  "james-dyson.moment.1":
+    "When Dyson's team began selling the cleaner with a see-through bin, retailers were appalled and said people would not want to see the dirt, and market research agreed. Dyson says he could not prove people would buy it but kept the design, and his design director Peter Gammack says colleagues were uncomfortable with the idea but that 'he stuck to his guns'; Dyson adds that other makers now use clear bins too.",
+  "james-dyson.interpretation.moment.1":
+    "This is consistent with a designer who backs his own judgement over market research, though both accounts come from Dyson and his own design director and are told after the product succeeded.",
+  "james-dyson.moment.2":
+    "On 10 October 2019 Dyson emailed staff that his team had built a 'fantastic car' but that 'we simply can no longer see a way to make it commercially viable'. He said he had tried to sell the division without finding a buyer, that this was not 'a product failure, or a failure of the team', and the company said it hoped to find other roles for most of the 523 people involved, 498 of them in the UK. A business-school professor told the Guardian the project had never stacked up commercially and looked like a vanity project.",
+  "james-dyson.interpretation.moment.2":
+    "This is consistent with a founder who stops a very large project when its economics do not work, though the decision came after he had confirmed a £2.5bn investment plan covering the car and an outside critic read the project as a vanity project.",
+  "james-dyson.turning_point.1":
+    "Unable to find support for his bagless design in the UK, and with the established manufacturers uninterested, Dyson licensed it in Japan, where the G-Force went on sale in 1986 and, the Design Museum says, succeeded well enough to fund his own production of the DC01. He opened his own plant in North Wiltshire in 1993, and Britannica says the Dual Cyclone was Britain's top-selling vacuum cleaner within two years.",
+  "james-dyson.interpretation.turning_point.1":
+    "This is consistent with someone who built his own route to market when the existing ones were closed, though most details of the earlier rejections come from his own account.",
+  /* ---------------------------------------------------------- john-franklin (Roster51) */
+  "john-franklin.achievement.1":
+    "Franklin led two overland expeditions that charted Canada's northern coast: from 1819 to 1822 down the Coppermine River and eastward along the Arctic shore, and from 1825 to 1827 down the Mackenzie River, with one party going west and another east to the Coppermine. Richard Davis credits parties under his command with more than 2,800 km of previously unknown coastline, and the Dictionary of Canadian Biography ranks his contribution to knowledge of Canada's coasts second only to George Vancouver's.",
+  "john-franklin.achievement.2":
+    "In 1845 he commanded HMS Erebus and HMS Terror in a renewed attempt to chart the Northwest Passage. Both ships were lost and all 129 men died, which Royal Museums Greenwich calls the worst disaster in the history of British polar exploration, and the Victory Point note records Franklin's death on 11 June 1847. More than 30 search expeditions followed, which Parks Canada says helped map the Canadian Arctic; working with Inuit oral history, Parks Canada found Erebus in 2014 and Terror in 2016.",
+  "john-franklin.achievement.3":
+    "The account of the first expedition, published to great acclaim in 1823, made him a public hero, and geographers and scientists judged the second expedition an unqualified success, with important magnetic, geological and zoological observations among its results. He was elected a Fellow of the Royal Society, knighted in 1829, and given an honorary degree by Oxford and the gold medal of the Societe de Geographie de Paris.",
+  "john-franklin.moment.1":
+    "Franklin began the northern journey to the Coppermine in July 1821 with inadequate provisions and, according to the Dictionary of Canadian Biography, pushed on along the coast until 21 August, when it was too late to return by the same route; eleven of the twenty men died before the survivors were rescued. The dictionary names his failure to turn back soon enough as the main point on which his leadership merits criticism, noting that his orders set no conditions for abandoning the mission, while Davis writes that the advanced season and a mutinous crew forced him back at Point Turnagain.",
+  "john-franklin.interpretation.moment.1":
+    "This is consistent with an expedition leader who kept pressing toward the objective under orders that gave no point of retreat, at a heavy cost, though the two scholars differ on how far the decision was his own.",
+  "john-franklin.moment.2":
+    "On 16 August 1826, with his boats delayed by ice and fog and the supporting ship Blossom not yet met, Franklin concluded, remembering the catastrophe of 1821, that the point beyond which perseverance would be rashness had been reached, and ordered the party back; everyone reached Fort Franklin safely. He later learned that a boat sent out from the Blossom had been about 160 miles away.",
+  "john-franklin.interpretation.moment.2":
+    "This is consistent with a leader who revised his own limit for risk after 1821, though the same decision meant missing a meeting with Beechey's party.",
+  "john-franklin.turning_point.1":
+    "After the 1819-22 disaster, Franklin prepared the second expedition differently: the Dictionary of Canadian Biography credits his careful planning and boats specially built for the Mackenzie journey, Parks Canada says he made preparations well in advance and sent supplies ahead to Hudson's Bay Company posts, and Davis describes four sturdy boats rowed by seamen in place of the frail bark canoes of the first expedition. No serious hardships occurred, and geographers and scientists judged it an unqualified success.",
+  "john-franklin.interpretation.turning_point.1":
+    "This is consistent with a leader who changed his method after a failure, though the dictionary also credits the support of the now-merged Hudson's Bay Company as part of the difference.",
+  /* ---------------------------------------------------------- john-harrison (Roster51) */
+  "john-harrison.achievement.1":
+    "Harrison, a carpenter who taught himself clockmaking, built a series of marine timekeepers to find longitude at sea: H1 between 1730 and 1735, then H2, H3 and, in 1759, the watch-sized H4. In the 1764 Barbados trial H4 kept time within the most stringent limits of the 1714 Longitude Act, and Royal Museums Greenwich says his timekeepers are arguably the most important ever made.",
+  "john-harrison.achievement.2":
+    "In the mid-1720s he designed precision longcase clocks that Royal Museums Greenwich says kept time to within a second a month, and his H3 introduced the bimetallic strip and the caged roller bearing, which the museum says are still in use in thermostats and in mechanical engineering. The Science Museum Group's timeline records that the Royal Society awarded him its Copley gold medal in 1749 for his experimental work.",
+  "john-harrison.achievement.3":
+    "After the 1764 trial the Board of Longitude paid only half of the top reward and, according to Cambridge University Library, on condition that he disclose how H4 was made and that copies be built; Harrison appealed to King George III, and most of the remainder was paid in 1773. The first copy of H4, made by Larcum Kendall, sailed with Captain Cook on his second voyage and, the Board's archive says, proved exceptionally accurate, with praise from Cook and his astronomer William Wales.",
+  "john-harrison.moment.1":
+    "Harrison finished H2 within the two years he had promised after the Lisbon trial, but he discovered a fundamental flaw in it and never allowed it to be tested at sea. He then began H3 in 1740 and worked on it for nearly 19 years, making many changes and adjustments, because he could not persuade its two large balances to keep time well enough.",
+  "john-harrison.interpretation.moment.1":
+    "This is consistent with an inventor who held his own work to a high standard, though both episodes come from one museum and the difficulty of the problem may explain the length of the work.",
+  "john-harrison.moment.2":
+    "In 1767 Harrison published 'The Case of Mr. John Harrison' against the Board and a pamphlet attacking Nevil Maskelyne, whom he suspected of jeopardising his reward to promote the lunar method; a Cambridge scholar calls the pamphlet vitriolic. Maskelyne had published the negative results of his Greenwich test of H4 that year, and his own letter to Lord Sandwich shows that the attacks affected him and that he dropped a reply, thinking such abuse needed no refutation.",
+  "john-harrison.interpretation.moment.2":
+    "This is consistent with a man willing to contest the commissioners and a rival in public over a long period, though the sources show both a grievance Harrison plainly felt and a Board and Astronomer Royal with reasons of their own.",
+  "john-harrison.turning_point.1":
+    "By the early 1750s Harrison had spent over a decade on H3 without getting its large balances to keep time well enough. A pocket watch made to his design by John Jefferys, which the museum dates to about 1751-53, went so well that he realised the solution lay in smaller watches; he began H4 in 1755 and completed it in 1759, and it went on trial to Jamaica in 1761.",
+  "john-harrison.interpretation.turning_point.1":
+    "This is consistent with an inventor who changed the form of his solution after years invested in another, though the account comes from one museum and the Harrisons later held firmly to their own reading of the Board's terms.",
+  /* ---------------------------------------------------------- wolfgang-pauli (Roster51) */
+  "wolfgang-pauli.achievement.1":
+    "In 1925 Pauli formulated the exclusion principle: no two electrons in an atom can have identical sets of quantum numbers, a rule that needed a new, two-valued quantum number and explains the shell structure of atoms. The Nobel Foundation awarded him the 1945 Nobel Prize in Physics 'for the discovery of the Exclusion Principle', and an Oxford physicist calls the rule crucial to understanding both the periodic table and the stability of matter, although Pauli himself admitted he could not say why it holds.",
+  "wolfgang-pauli.achievement.2":
+    "In December 1930, in an open letter 'Dear Radioactive Ladies and Gentlemen' to physicists meeting in Tübingen, Pauli proposed a 'desperate remedy' for the continuous energy spectrum of beta decay: an electrically neutral particle of spin 1/2 emitted along with the electron, which would save the conservation of energy. The Nobel Foundation's biography calls him the first to recognise the neutrino, as the particle came to be called; he held back a published account for about three years, and neutrinos were detected in 1956 by Cowan and Reines.",
+  "wolfgang-pauli.achievement.3":
+    "Pauli gave the mathematical description of electron spin in the Pauli matrices, which one reviewer says every physics undergraduate knows, and proved the relation between spin and statistics, which consolidated quantum field theory. As a student he wrote an exposition of relativity that Einstein praised in a review, and from 1928 he built at ETH Zürich one of the leading centres of theoretical physics in the world.",
+  "wolfgang-pauli.moment.1":
+    "In December 1930 Pauli put forward the neutrino idea not in a journal but in a letter to the experimentalists meeting in Tübingen. He wrote that so far he did not dare to publish anything about it, admitted that his remedy 'may seem almost improbable', and asked them to 'scrutinize and judge'. About three years passed before the speculation appeared in print.",
+  "wolfgang-pauli.interpretation.moment.1":
+    "This is consistent with a theorist who held an unfinished idea back until others had tested it, though the letter is Pauli's own account and the three-year delay is a reviewer's reading.",
+  "wolfgang-pauli.moment.2":
+    "On 17 January 1957 Pauli wrote that he did not believe 'God is a weak left-hander' and was prepared to bet a high amount that the beta-decay experiment would show a symmetric angular distribution of the electrons. Then John Blatt wrote him of the 'sudden death of parity'; on 19 January Pauli wrote to Chien-Shiung Wu that the asymmetry was 'empirically so well established', and on 27-28 January he told Victor Weisskopf that he was shocked and was already speculating on how symmetry might be restored.",
+  "wolfgang-pauli.interpretation.moment.2":
+    "This is consistent with a theorist who held a firm expectation but accepted the experimental result within days, though he went on looking for a way to restore the symmetry, and the account rests on one scholar's reading of his letters.",
+  "wolfgang-pauli.turning_point.1":
+    "Before accepting the ETH Zürich chair, which he took up at the end of April 1928, Pauli insisted on an assistant and wrote to Ralph Kronig that the task would be 'Every time I say something, to contradict me with detailed arguments' and to animate the scientific activity with modern ideas. At Zürich he built one of the world's leading centres of theoretical physics, and a graduate student of the early 1950s remembered witnessing his strong objections at a colloquium.",
+  "wolfgang-pauli.interpretation.turning_point.1":
+    "This is consistent with a physicist who built disagreement into his working environment, though he was also known for sharp objections that some listeners found daunting.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -15617,6 +15864,253 @@ export const EDITORIAL_KO: Record<string, string> = {
     "영국 내셔널 갤러리에 따르면 티치아노는 1550년대 후반부터 자신의 양식과 기법을 근본적으로 고쳐, 훨씬 자유로운 붓질과 덜 묘사적인 현실 표현을 발전시켰다. 1560년대 말에서 1570년대 초에는 예술을 추상의 가장자리까지 밀고 나갔다. 대부분 그가 여든 중반일 때 그려진 『악타이온의 죽음』에서는 때로는 손가락으로 문지른 덧칠을 더하고, 화면의 여러 부분을 서로 다른 완성 단계로 남겨 두었다.",
   "titian.interpretation.turning_point.1":
     "말년에도 자신의 기법을 계속 바꾸려는 자세와 일치한다.",
+  /* ---------------------------------------------------------- andy-grove (Roster51) */
+  "andy-grove.achievement.1":
+    "그로브는 1979년부터 인텔 사장, 1987년부터 1998년까지 최고경영자(CEO), 1997년부터 2005년까지 이사회 의장을 지냈다. 사장 시절에는 1980년대 중반 인텔이 D램 메모리 사업에서 철수하고 마이크로프로세서에 집중한 결정의 중심에 있었고, CEO로서는 인텔을 PC용 마이크로프로세서의 지배적 업체로 이끌었다. 《타임》은 1997년 마이크로칩의 성능과 혁신 가능성이 놀랍도록 커지는 데 가장 큰 책임이 있는 사람으로 그를 꼽아 '올해의 인물'로 선정했다.",
+  "andy-grove.achievement.2":
+    "1985년 그로브는 새로 내놓은 386 마이크로프로세서를 다른 칩 업체에 라이선스하지 않기로 해 인텔을 이 칩의 유일한 공급처로 만들었고, 컴퓨터역사박물관은 이를 위험하고 비정통적인 결정이라고 설명한다. 인텔은 1991년 마케팅 책임자 데니스 카터가 제안한 '인텔 인사이드' 캠페인을 시작해 부품을 소비자가 아는 브랜드로 만들었고, 인텔 프로세서와 마이크로소프트 소프트웨어의 조합은 '윈텔'로 불리게 되었다.",
+  "andy-grove.achievement.3":
+    "그로브는 인텔에서 문제를 정면으로 따지는 '건설적 대립'과 매우 계량적인 목표관리를 중심으로 경영 문화를 만들었다. 이 방식은 인텔에서 이를 배운 존 도어가 훗날 OKR이라는 이름으로 널리 퍼뜨렸다. 그의 생각은 『하이 아웃풋 매니지먼트』(1983)와 『편집광만이 살아남는다』(1996)에 담겼고, 후자의 '전략적 변곡점'이라는 표현은 경영 용어가 되었다. 그는 스탠퍼드대 경영대학원에서도 강의했다.",
+  "andy-grove.moment.1":
+    "1994년 말 펜티엄 칩의 결함이 알려지자 인텔은 처음에는 교체가 필요하다는 점을 입증한 고객에게만 새 칩을 주었고, 그로브는 일반 사용자에게는 영향이 없다고 주장했다. IBM이 펜티엄 PC 출하를 중단하고 비판이 커지자 인텔은 조건 없는 교환을 발표하고 4억 7,500만 달러를 따로 떼어 두었다. 《타임》은 그로브가 주말 동안 참모들과 상의한 끝에 방침을 바꾸었다고 전한다.",
+  "andy-grove.interpretation.moment.1":
+    "공개적으로 옹호하던 입장을 고객 반응 때문에 지키기 어려워지자 뒤집는 리더의 모습과 일치하지만, 이번 전환은 한동안 지체된 뒤에야 이루어졌다.",
+  "andy-grove.moment.2":
+    "테들로에 따르면 인텔이 RISC 칩을 내세우고 그로브 자신도 홍보 영상에 출연하던 때, 마케팅 책임자 데니스 카터를 비롯한 임원 두 사람이 '앤디, 그렇게 하시면 안 됩니다'라며 주력 설계를 버리면 가장 수익성 높은 사업 가운데 하나를 잘라 내게 된다고 맞섰다. 이들이 논쟁에서 이겼고, 그로브는 훗날 자신이 그 사업에서 거의 손을 뗄 뻔했다고 말했다.",
+  "andy-grove.interpretation.moment.2":
+    "부하 직원의 직설적인 반박을 받아들이고 그 논쟁에서 설득당할 수 있었던 경영 방식과 일치하며, 이는 테들로가 그로브 본인의 이야기를 바탕으로 전한 내용이다.",
+  "andy-grove.turning_point.1":
+    "일본 업체들이 메모리 칩 가격을 낮추면서 인텔의 이익은 1984년 1억 9,800만 달러에서 1985년 200만 달러 미만으로 줄었고, 스탠퍼드의 사례 연구는 1984년 말 인텔 최고경영진이 D램을 접을지 결정해야 했던 상황을 다룬다. 인텔은 이후 D램에서 철수해 마이크로프로세서에 집중했다. 버겔먼의 연구는 공식 전략이 바뀌기 전에 이미 중간 관리자들과 제조 자원 배분이 마이크로프로세서 쪽으로 옮겨 가 있었다고 밝히며, 당시 사장이던 그로브는 훗날 자신과 무어가 '새 CEO라면 무엇을 하겠느냐'를 따져 본 끝에 결정했다고 말했다.",
+  "andy-grove.interpretation.turning_point.1":
+    "창업 사업이 여전히 회사의 정체성이던 때 새로운 사업에 회사의 미래를 걸 의지와 일치하지만, 이 전환은 아래에서부터도 추진되었다.",
+  /* ---------------------------------------------------------- bong-joon-ho (Roster51) */
+  "bong-joon-ho.achievement.1":
+    "『기생충』(2019)은 칸 영화제 황금종려상을 받았고, 브리태니커에 따르면 외국어 영화로는 처음으로 아카데미 작품상을 받았다. 2020년 시상식에서 이 영화는 작품상(제작자 곽신애와 봉준호), 감독상(봉준호), 각본상(봉준호와 한진원), 국제영화상(대한민국) 등 네 개 부문을 받았다.",
+  "bong-joon-ho.achievement.2":
+    "1980년대 중반의 실제 미제 살인 사건을 다룬 연극을 바탕으로 한 『살인의 추억』(2003)은 크게 흥행했고 국내 여러 영화상을 받았다. 한강에 나타난 괴물을 그린 『괴물』(2006)은 브리태니커에 따르면 한국 박스오피스 기록을 세웠고 칸 영화제에서 호평을 받았다.",
+  "bong-joon-ho.achievement.3":
+    "그는 프랑스 그래픽 노블을 원작으로 한 영어 영화 『설국열차』(2013)로 영어권 영화에 발을 들였다. 브리태니커는 이 영화가 폭넓은 국제 관객과 평단의 호평을 얻었다고 쓴다. 『옥자』(2017)는 칸 영화제에서 상영되며 최고상을 두고 경쟁했고, 『미키 17』(2025)은 그의 세 번째 영어 장편이다.",
+  "bong-joon-ho.moment.1":
+    "프로덕션 디자이너 이하준은 디진(Dezeen)에서 봉준호가 『기생충』 각본을 쓰며 그려 둔 간단한 평면도를 보여 주었고, 건축 양식은 자신에게 맡기되 앞마당만은 꼭 있어야 한다고 강조했다고 말했다. 이하준은 봉준호의 각본이 장면 속 모든 배우의 움직임을 적어 두기 때문에 설계에서 동선(블로킹)이 우선이었고, 주방에서 지하 벙커로 내려가는 구간은 배우들의 숨결을 담기 위해 끊지 않고 찍고 싶다는 감독의 뜻에 따라 하나의 세트로 지었다고 설명했다.",
+  "bong-joon-ho.interpretation.moment.1":
+    "촬영에 들어가기 전에 영화의 공간과 카메라 움직임을 미리 설계하는 태도와 일치한다.",
+  "bong-joon-ho.moment.2":
+    "공동 각본가 한진원은 AnOther와의 인터뷰에서, 『설국열차』의 제작부 스태프였던 자신에게 『옥자』를 찍던 봉준호가 쓰다 만 트리트먼트를 건네며 처음에는 석 달 동안 조사해 달라고 했다고 말했다. 한진원은 가사도우미, 과외 교사, 운전기사를 만나 이야기를 들었고, 봉준호의 피드백을 반영해 이야기를 세 가지 버전으로 썼으며, 『옥자』 이후 두 사람이 각본의 후반부를 함께 마무리했다. 그는 봉준호가 자신에게 선생님 같은 사람이었다고 표현했다.",
+  "bong-joon-ho.interpretation.moment.2":
+    "경험이 적은 협업자에게 실질적인 창작 작업을 맡기고 피드백으로 이끌어 가는 태도와 일치한다.",
+  "bong-joon-ho.turning_point.1":
+    "브리태니커에 따르면 봉준호의 첫 장편 『플란다스의 개』(2000)는 호평을 받았지만 크게 주목받지는 못했다. 다음 작품 『살인의 추억』(2003)은 큰 흥행을 거두었다. 센스 오브 시네마는 봉준호가 송강호의 출연이 이 영화의 제작비 마련에 도움이 되었다고 말한 것으로 전하며, 『기생충』을 두 사람이 함께한 네 번째 영화로 꼽는다.",
+  "bong-joon-ho.interpretation.turning_point.1":
+    "믿을 수 있는 협업자를 중심으로 작품을 꾸려 가는 태도와 일치한다.",
+  /* ---------------------------------------------------------- christopher-nolan (Roster51) */
+  "christopher-nolan.achievement.1":
+    "그는 이야기를 거꾸로 풀어 가는 스릴러 『메멘토』(2000)로 이름을 알렸고, 이 작품으로 아카데미 각본상 후보에 올랐다. 이어 배트맨 3부작(2005~2012)을 연출했다. 브리태니커는 『배트맨 비긴즈』를 슈퍼히어로 영화가 사실성 쪽으로 옮겨 가는 흐름의 선구로 평하고, 『다크 나이트』는 역대 최고 흥행작 중 하나가 되었다고 쓴다.",
+  "christopher-nolan.achievement.2":
+    "그는 규모가 크고 개념적으로 야심 찬 영화 『인셉션』(2010), 『인터스텔라』(2014), 『덩케르크』(2017), 『테넷』(2020)을 쓰고 연출했다. 브리태니커는 그를 디지털 방식보다 아날로그 필름 기술을 앞장서 옹호하는 인물로 소개하며, 『오디세이』(2026)가 아이맥스 필름으로만 촬영한 최초의 장편이라고 쓴다.",
+  "christopher-nolan.achievement.3":
+    "J. 로버트 오펜하이머가 원자폭탄 개발에서 맡은 역할을 다룬 『오펜하이머』(2023)는 2024년 아카데미상 7개 부문을 받았다. 작품상은 제작자 에마 토머스, 찰스 로벤, 놀란에게, 감독상은 놀란에게 돌아갔다. 브리태니커는 이를 후보 여덟 번 끝에 얻은 그의 오스카 두 개로 센다.",
+  "christopher-nolan.moment.1":
+    "프로덕션 디자이너 루스 드 종은 팟캐스트 '팀 디킨스'에서 놀란이 『오펜하이머』의 촬영 일정을 계획했던 85일에서 55일로 줄였고, 아낀 돈으로 로스앨러모스를 시각효과에 기대지 않고 실제 세트로 지을 수 있었다고 말했다. TheWrap이 2023년 이를 전했다. 마을을 짓는 데 처음 잡은 예산은 2천만 달러였으나 크게 줄여야 했다고 한다.",
+  "christopher-nolan.interpretation.moment.1":
+    "영화를 어떻게 만들어야 하는지에 대한 확고한 구상에 맞춰 일정과 예산을 짜는 태도와 일치한다.",
+  "christopher-nolan.moment.2":
+    "여러 도시의 관객이 『인터스텔라』의 대사가 음악과 효과음에 묻힌다고 불평하자, 놀란은 『할리우드 리포터』에 이 믹스가 숙고한 선택이라고 밝혔고, 슬래시필름이 2014년 이를 전했다. 그는 명료함이 대사로만 얻어진다고 생각하지 않으며, 몇몇 대목에서는 대사를 효과음처럼 다뤘고, 보통 여섯 곳이나 일곱 곳의 극장을 찾아 관객이 듣는 그대로 영화를 확인한다고 말했다.",
+  "christopher-nolan.interpretation.moment.2":
+    "관객의 불만 앞에서도 숙고한 창작상의 결정을 지켜 내려는 태도와 일치한다.",
+  "christopher-nolan.turning_point.1":
+    "2003년 『메멘토』와 『인썸니아』 이후 워너브라더스는 놀란에게 새 배트맨 영화를 맡겼다. 혹평을 받은 『배트맨 앤 로빈』(1997) 이후 처음 나오는 배트맨 영화였다. 브리태니커에 따르면 2005년 『배트맨 비긴즈』는 주인공의 기원을 이전 배트맨 영화보다 어둡고 현실적인 배경과 분위기로 그렸고, 슈퍼히어로 영화가 사실성 쪽으로 옮겨 가는 흐름의 선구가 되었다.",
+  "christopher-nolan.interpretation.turning_point.1":
+    "이미 자리 잡은 장르의 관습을 다시 짜는 일을 마다하지 않는 태도와 일치한다.",
+  /* ---------------------------------------------------------- demis-hassabis (Roster51) */
+  "demis-hassabis.achievement.1":
+    "허사비스는 존 점퍼와 함께 딥마인드의 알파폴드를 이끌었다. 알파폴드는 2018년 CASP13 단백질 구조 예측 대회에서 우승했고, 2020년 알파폴드2는 독립적인 대회 주최 측에 따르면 CASP14 대상 단백질의 약 3분의 2에서 실험에 견줄 정확도로 구조를 결정했다. 딥마인드는 이후 코드를 공개하고 알려진 약 2억 개 단백질 거의 전부의 구조를 예측해 내놓았으며, 2024년 두 사람은 '단백질 구조 예측'으로 노벨 화학상의 절반을 공동 수상했다.",
+  "demis-hassabis.achievement.2":
+    "그는 2010년 셰인 레그, 무스타파 술레이만과 함께 딥마인드를 공동 창업했고, 구글이 2014년 이 회사를 인수했다. 딥마인드의 알파고는 2016년 3월 이세돌 9단을 4대 1로 꺾었는데, 예측 전문가들은 이 일이 약 10년 뒤에나 일어나리라 보았다. 2023년 딥마인드와 구글 브레인이 그의 지휘 아래 '구글 딥마인드'로 합쳐졌고 이 연구소는 제미나이 모델을 내놓았다. 그는 최고경영자로 이끌다 2026년 8월 이사회 의장 겸 알파벳 최고과학자가 되었다.",
+  "demis-hassabis.achievement.3":
+    "딥마인드 이전에 그는 13세에 체스 마스터가 되었고, 17세에 게임 〈테마 파크〉의 수석 프로그래머를 맡았으며, 1998년부터 2005년까지 게임 회사 엘릭서 스튜디오를 운영했다. 이후 UCL에서 인지신경과학 박사 학위(2009년)를 받았고 뇌에서 배운 것을 더 나은 신경망을 설계하는 데 썼다. 그가 제1저자로 참여해 해마가 손상된 기억상실 환자는 새로운 경험을 상상하지 못한다는 점을 보인 2007년 UCL 연구는 《네이처》 뉴스에 보도되었고, 미국 성취 아카데미에 따르면 《사이언스》가 꼽은 그해의 10대 성과에 올랐다.",
+  "demis-hassabis.moment.1":
+    "2013년 구글 임원진이 런던으로 날아왔고, 허사비스는 강화학습으로 스스로 〈브레이크아웃〉을 익힌 프로토타입을 보여 주어 인상을 남겼다. 당시 구글이 쓰지 않던 기법이었다. 이듬해 구글은 딥마인드를 약 5억 달러에 인수했고, 《타임》에 따르면 허사비스는 페이스북의 더 큰 제안을 거절했다.",
+  "demis-hassabis.interpretation.moment.1":
+    "작동하는 시연으로 인수자를 설득하는 능력과 일치하지만, 이 이야기는 본인의 회상에 기대고 있다.",
+  "demis-hassabis.moment.2":
+    "2005년 4월 그가 1998년에 세운 게임사 엘릭서 스튜디오는 주력 프로젝트가 위험이 크다는 이유로 취소되자 영업을 중단하고 자산을 매각했다. 《게임 디벨로퍼》는 출시된 두 게임 모두 큰 재정적 성공을 거두지 못했다고 보도했다. 허사비스는 라이선스 사업으로 가는 것은 스튜디오가 결코 타협할 수 없는 일이었다고 말했다.",
+  "demis-hassabis.interpretation.moment.2":
+    "더 안전한 라이선스 작업보다 독창적이고 위험이 큰 작업을 택하는 성향과 일치하며, 그 대가는 회사의 폐업이었다.",
+  "demis-hassabis.turning_point.1":
+    "2016년 알파고의 승리 뒤, 노벨 위원회에 따르면 허사비스에게 바둑은 목표가 아니라 수단이었고 딥마인드는 작은 팀을 꾸려 단백질 구조 예측에 뛰어들어 2018년 CASP13에 참가했다. 알파폴드는 약 60퍼센트의 정확도로 우승했지만 필요한 90퍼센트에는 못 미쳤고 팀은 한계에 부딪혔다. 존 점퍼의 아이디어와 트랜스포머 기반 설계로 만든 알파폴드2에 대해 CASP 주최 측은 2020년 단일 단백질 문제가 대체로 풀렸다고 밝혔다.",
+  "demis-hassabis.interpretation.turning_point.1":
+    "게임에 맞춰진 연구소를 더 어려운 과학 문제로 돌리고, 다시 만든 시스템의 주도권을 새 동료와 나누려는 태도와 일치한다.",
+  /* ---------------------------------------------------------- diego-maradona (Roster51) */
+  "diego-maradona.achievement.1":
+    "1986년 월드컵에서 아르헨티나 주장으로 우승을 이끌며 5골을 넣고 5개의 도움을 기록했다. 잉글랜드와의 8강전(2-1)에서는 '신의 손' 핸드볼 골과 훗날 FIFA가 '세기의 골'로 선정한 단독 드리블 골을 모두 넣었고, 골든볼을 받았으며, 서독을 3-2로 꺾은 결승에서는 세 골 모두에 관여했다. FIFA, FIFA 박물관, ESPN의 기록이다.",
+  "diego-maradona.achievement.2":
+    "1984년 당시 세계 최고 이적료 기록으로 나폴리에 입단해, 리그 우승 경험이 없던 클럽을 1987년 구단 사상 첫 세리에 A 우승(남부 클럽으로는 처음)으로 이끌었다. 1987-88시즌에는 리그 득점왕에 올랐고, 1989년에는 구단 첫 유럽 대회 우승인 UEFA컵을, 1990년에는 두 번째 리그 우승을 차지했다. FIFA와 FIFA 박물관의 기록이다.",
+  "diego-maradona.achievement.3":
+    "1976년 16세 생일을 열흘 앞두고 아르헨티나 1부 리그 역사상 최연소 선수로 프로 무대에 데뷔했다. 1979년 세계 청소년 선수권에서 골든볼을 받았고, 주장으로서 1990년 월드컵 결승(서독에 0-1 패)에 올랐으며 국가대표 91경기에서 34골을 넣었다. 2000년에는 펠레와 함께 '세기의 선수'로 공동 인정받았는데, 마라도나의 선정은 대중 투표로 결정되었다. FIFA 박물관과 가디언의 기록이다.",
+  "diego-maradona.moment.1":
+    "1986년 결승 막판, 서독이 0-2에서 2-2로 따라붙자 호르헤 부루차가는 마라도나에게 '가서 이기자'고 말했다고 회상한다. 약 3분 뒤 마라도나가 서독 수비진 사이로 찔러 준 패스가 부루차가를 골문 앞으로 보냈고 결승골이 되었다. 부루차가는 자신이 공을 달라고 소리쳤지만 등을 거의 돌리고 있던 마라도나는 그 소리를 듣지 못했는데도 패스를 내주었다며, '디에고는 뒤통수에 눈이 달린 것처럼 뛰곤 했다'고 말한다.",
+  "diego-maradona.interpretation.moment.1":
+    "결정적인 순간에 개인 기량과 동료를 향한 정확하고 시의적절한 패스를 함께 보여 준 선수의 모습과 일치하지만, 이 이야기는 득점자의 회상에 의존한다.",
+  "diego-maradona.moment.2":
+    "1987-88시즌 나폴리가 우승 경쟁에서 앞서 있다가 무너진 뒤, 선수단은 오타비오 비안키 감독에게 문제가 있다는 성명을 냈고 선수 4명은 감독 교체를 요구하는 서한에 서명했다. 마라도나는 기자들에게 '팀 전체가 비안키에 반대하는 탄원서를 냈다'고 말했고, 비안키는 마라도나가 구단 회장도, 부회장도, 감독도 아니라고 맞받았다. 한 기록에 따르면 마라도나는 서명하지는 않았지만 이 네 명의 편에 섰다. 구단주는 비안키를 유임하고 반대했던 선수들을 팔았다.",
+  "diego-maradona.interpretation.moment.2":
+    "공개적으로 감독에 맞서 동료들의 편에 서는 선수의 모습과 일치하지만, 서명한 선수의 수와 마라도나 본인의 역할은 자료마다 다르고, 결과는 구단 안에서 그의 영향력에 한계가 있었음을 보여 준다.",
+  "diego-maradona.turning_point.1":
+    "1984년 코파 델 레이 결승에서 FC 바르셀로나가 아틀레틱 빌바오에 패한 뒤 집단 난투극이 벌어졌고, 마라도나는 그해 여름 나폴리로 팔려 갔다. 가디언의 회고 기사는 이를 3개월 출전 정지를 치르며 남아 있는 것보다 나은 선택으로 설명한다. FIFA에 따르면 나폴리는 그의 첫 시즌을 중위권, 둘째 시즌을 3위로 마쳤고, 1987년 그는 구단 사상 첫 세리에 A 우승을 주장으로서 이끌었다.",
+  "diego-maradona.interpretation.turning_point.1":
+    "한 클럽이 자신을 중심으로 꾸려졌을 때 가장 꾸준한 성과를 낸 선수의 모습과 일치하지만, 그 변화에서 그 자신의 선택이 얼마나 컸는지는 자료로 알 수 없다.",
+  /* ---------------------------------------------------------- f-scott-fitzgerald (Roster51) */
+  "f-scott-fitzgerald.achievement.1":
+    "피츠제럴드의 『위대한 개츠비』(1925)는 브리태니커가 오늘날 '위대한 미국 소설'로 널리 평가받는다고 소개하는 작품이다. 그는 1922년 6월부터 이 소설을 구상했고, 앞서 쓰던 원고를 버린 뒤 1924년에 다시 시작해 그해 9월까지 원고를 마쳤으며, 1925년 초 교정쇄 단계에서 본문을 대폭 고치고 다시 썼다. 사우스캐롤라이나 대학 도서관은 이 작품을 복잡한 구조와 절제된 서술 시점을 갖춘, 그의 기법에서 두드러진 진전으로 평가하지만 출간 직후 판매는 부진했다.",
+  "f-scott-fitzgerald.achievement.2":
+    "첫 장편 『낙원의 이쪽』(1920)으로 스물네 살의 피츠제럴드는 하루아침에 유명해졌고, 브리태니커는 이 작품을 젊은 세대의 새로운 도덕을 드러낸 책이라고 설명한다. 그는 『아름답고 저주받은 사람들』(1922)과 『밤은 부드러워』(1934)를 포함해 모두 네 편의 장편을 완성했으며, 브리태니커는 그를 재즈 시대를 그린 것으로 유명한 작가이자 '잃어버린 세대'의 핵심 인물로 소개한다.",
+  "f-scott-fitzgerald.achievement.3":
+    "피츠제럴드는 150편이 넘는 단편도 썼다. 1919년 가을부터 에이전트 해럴드 오버를 통해 대중 잡지에 실을 통속 단편을 썼는데, 사우스캐롤라이나 대학 도서관은 『새터데이 이브닝 포스트』가 그의 가장 좋은 단편 시장이었다고 설명하고, 그의 초기 상업 단편이 독립적이고 당찬 젊은 미국 여성이라는 새로운 인물형을 선보였다고 평가한다. 브리태니커는 『모든 슬픈 젊은이들』(1926)에 실린 「부잣집 소년(The Rich Boy)」과 「사면(Absolution)」을 그의 뛰어난 단편으로 꼽는다.",
+  "f-scott-fitzgerald.moment.1":
+    "피츠제럴드는 1924년 11월 『위대한 개츠비』의 타자 원고를 편집자 맥스웰 퍼킨스에게 보냈다. 로마에서 조판된 교정쇄를 받은 그는 1925년 첫 두 달 동안 연필로 고치고 긴 타자 원고를 덧붙였으며, 프린스턴 대학 도서관 큐레이터들은 학자 제임스 L. W. 웨스트 3세를 인용해 교정쇄의 본문이 출간된 소설과 같은 작품이 아니었다고 설명한다. 출간 뒤에도 그는 이후 쇄를 위해 초판본 한 권에 계속 수정을 적어 넣었다.",
+  "f-scott-fitzgerald.interpretation.moment.1":
+    "반복된 수정으로 자기 작품에 높은 기준을 적용한 작가의 모습과 일치하지만, 대폭적인 수정은 소설가들 사이에서 흔한 일이며 자료 대부분이 한 학문적 계보에서 나왔다.",
+  "f-scott-fitzgerald.moment.2":
+    "1937년 9월 MGM에서 피츠제럴드는 제작자 조지프 맨키위츠에게 『세 친구』 수정 작업을 혼자 하게 해 달라고 요청했고, 맨키위츠는 제출된 원고가 '아주 멋지다'고 답했다. 그러나 스튜디오는 E. E. 패러모어를 공동 작업자로 붙였고, 피츠제럴드는 10월에 그에게 대본 전체에 대한 책임은 자신이 지고 싶다고 썼다. 여섯 차례의 수정 뒤 맨키위츠가 최종 대본을 크게 고쳤고, 피츠제럴드는 자신의 촬영 대본에 자기 글의 그림자와 리듬이 모두 지워졌다고 적어 두었다.",
+  "f-scott-fitzgerald.interpretation.moment.2":
+    "자기 작업에 대한 통제권을 원한 작가의 모습과 일치하지만, 이 설명은 도서관의 자료 인수 안내문에서 나온 것이어서 스튜디오 쪽보다 피츠제럴드 쪽 사정이 훨씬 자세히 담겨 있다.",
+  "f-scott-fitzgerald.turning_point.1":
+    "스크리브너 출판사가 첫 장편을 두 번 거절한 뒤, 피츠제럴드는 1919년 7월 직장을 그만두고 고향 세인트폴로 돌아가 이를 『낙원의 이쪽』으로 다시 썼고, 편집자 맥스웰 퍼킨스가 그해 9월 원고를 받아들였다. 1920년 3월 26일 출간된 이 책으로 그는 하루아침에 유명해졌다. 같은 해 가을과 겨울부터 그는 에이전트 해럴드 오버를 통해 대중 잡지에 실을 단편을 쓰기 시작했고, 첫 『새터데이 이브닝 포스트』 게재작 「머리와 어깨(Head and Shoulders)」는 400달러에 팔렸다.",
+  "f-scott-fitzgerald.interpretation.turning_point.1":
+    "거절된 작품을 포기하지 않고 다시 쓴 작가의 모습과 일치하지만, 자료는 기관의 서술이어서 그가 무엇을 고쳤는지는 알려 주지 않는다.",
+  /* ---------------------------------------------------------- frank-gehry (Roster51) */
+  "frank-gehry.achievement.1":
+    "게리는 체인링크 울타리와 골함석 같은 파격적인 재료로 지은 건물들, 특히 산타모니카에 있는 자신의 집으로 먼저 널리 주목받았고, 1989년에는 프리츠커상을 받았다. 심사위원단은 그의 건축을 '신선할 만큼 독창적'이라고 평했다. 다른 건축가 두 명과 겨룬 설계 경쟁에서 따낸 빌바오 구겐하임 미술관(1997)은 그를 세계적인 인물로 만들었고, 비평가 로언 무어는 이 건물을 현대에 가장 큰 영향을 미친 건물이라고 부른다.",
+  "frank-gehry.achievement.2":
+    "로스앤젤레스 필하모닉의 본거지인 월트 디즈니 콘서트 홀은 1987년 릴리언 디즈니의 기부로 시작되었다. 게리는 1988년 설계 경쟁에서 당선되었고, 스테인리스 스틸로 마감한 이 홀은 16년에 걸친 과정 끝에 2003년에 완공되었다. 그는 일본인 음향 설계자 도요타 야스히사와 함께 포도밭형 객석 구조의 연주홀을 설계했다. LA 필하모닉의 사무총장은 이 건물을 상징적인 명소라고 평했지만, 로스앤젤레스의 도시계획 평론가 샘 홀 캐플런은 도시를 향해 열려 있지 않다고 비판했다.",
+  "frank-gehry.achievement.3":
+    "게리의 사무소는 곡면 형태를 실제로 지어내는 기반으로 디지털 모델링을 도입했다. 1991년부터 동업자 제임스 글림프의 제안으로 항공우주 소프트웨어 CATIA를 들여와 물리적 스터디 모델을 디지털 곡면으로 옮겼고, 한 학술 논문은 빌바오를 이 소프트웨어로 설계한 최초의 주요 건물이라고 평한다. 이후 사무소는 CATIA를 기반으로 한 '디지털 프로젝트' 플랫폼을 내놓은 게리 테크놀로지스를 세웠고, 이 플랫폼은 그의 설계 작품 밖의 프로젝트에도 쓰였다. 건설 전문지 엔지니어링 뉴스-레코드의 부고는 그의 건물이 시공사와 제작업체를 모델 기반의 시공 방식으로 이끌었다고 전한다.",
+  "frank-gehry.moment.1":
+    "월트 디즈니 콘서트 홀 설계 경쟁에서 당선된 뒤 건축가들은 다양한 음악가들에게 조언을 구했고, 게리의 팀은 기존 공연장과 대안 평면을 본뜬 축척 모델을 약 40개 만들었다. 이는 사무소가 기술적 쟁점을 더 잘 이해하게 하고 음향 설계자 나가타 미노루와 신뢰를 쌓는 데 도움이 되었다. 나가타는 당선안이 닮은 베를린 필하모니보다 콘세르트헤바우나 무지크페라인 같은 오래된 직사각형(슈박스) 홀이 더 나은 모델이라고 주장했고, 결국 음향 설계자들과 건축가들은 홀의 폭을 두고 절충했다.",
+  "frank-gehry.interpretation.moment.1":
+    "여러 개의 실물 모델을 만들어 비교하며 작업하는 설계자의 모습과 일치하지만, 이 기록은 한 비평가가 사무소의 작업 과정을 전한 것이며 모델은 그의 팀이 만들었다.",
+  "frank-gehry.moment.2":
+    "2003년 6월 월트 디즈니 콘서트 홀에서 첫 전체 오케스트라 리허설이 열리기 몇 달 전, 게리는 어느 저녁 지휘자 에사페카 살로넨에게 집으로 전화를 걸어 아직 완공되지 않은 홀에서 당장 만나자고 청했다. 살로넨은 악장에게 바이올린을 가져오라고 했고, 악장은 두 사람 앞에서 바흐를 조금 연주했다. 6월 리허설에서 살로넨은 모차르트 '주피터' 교향곡의 첫 소절을 지휘하다 멈추고 그에게 '프랭크, 이대로 갑시다'라고 말했다.",
+  "frank-gehry.interpretation.moment.2":
+    "완성되기 전의 홀에서 그곳에서 연주할 음악가들과 함께 소리를 확인한 설계자의 모습과 일치하지만, 이 일화는 살로넨의 증언을 뉴스위크 인물 기사가 전한 것이며 음향 설계는 음향 설계자 도요타 야스히사와 함께 진행되었다.",
+  "frank-gehry.turning_point.1":
+    "릭 스미스에 따르면 게리의 실물 모델과 2차원 도면을 본 시공업자들은 이 설계는 지을 수 없다고 말하는 경우가 많았다. 1991년 그의 사무소는 동업자 제임스 글림프가 IBM 컨설턴트 릭 스미스를 통해 들여온 CATIA를 쓰기 시작했는데, 제도사와 모델 제작자들의 반발이 컸다('저항이 아주 많았다'). 스미스는 디지털 모델에서 뽑은 단면 출력물을 모델 제작자들에게 건네 이를 바탕으로 모형을 만들게 하는 방식으로 이를 우회했고, 게리는 결과물을 직접 검토해 손으로 수정했다. 이 소프트웨어로 설계된 빌바오는 건축에서 CATIA를 대규모로 성공시킨 첫 사례였다고 메트로폴리스는 전한다.",
+  "frank-gehry.interpretation.turning_point.1":
+    "직접 다루지 않는 도구를 중심으로 사무소의 작업 방식을 다시 짠 대표자의 모습과 일치하지만, 자료들은 소프트웨어를 들여온 공을 글림프와 스미스에게 돌린다.",
+  /* ---------------------------------------------------------- george-gershwin (Roster51) */
+  "george-gershwin.achievement.1":
+    "거슈윈은 재즈의 어법을 연주회장으로 가져왔다. 〈랩소디 인 블루〉는 1924년 2월 12일 에올리언 홀에서 폴 화이트먼의 '현대 음악의 실험' 공연으로 초연되었고, 거슈윈이 직접 피아노를 쳤으며 관현악 편곡은 퍼디 그로페가 맡았다. 미국 의회도서관 국립녹음등재부(National Recording Registry)에 실린 해설은 이 곡을 어쩌면 지금까지 쓰인 가장 유명한 미국 클래식 작품일 것이라고 소개한다. 이어 그는 월터 담로시의 뉴욕 심포니 협회를 위해 〈피아노 협주곡 바장조〉를 작곡하고 관현악 편곡까지 직접 했으며(1925년 12월 3일 카네기 홀 초연), 1928년에는 〈파리의 아메리카인〉이 뒤를 이었다.",
+  "george-gershwin.achievement.2":
+    "연주회용 작품과 나란히 거슈윈은 브로드웨이를 대표하는 작곡가이기도 했다. 그는 형 아이라 거슈윈과 다른 작사가들과 함께 〈I Got Rhythm〉, 〈Embraceable You〉, 〈The Man I Love〉 같은 노래를 만들었고, 미국 의회도서관 큐레이터는 두 형제가 미국 대중가요의 가장 훌륭한 곡들 가운데 상당수를 썼다고 말한다. 두 사람의 작품을 처음으로 학술 비평판으로 만들고 있는 미시간 대학교는 이들이 함께 쓴 브로드웨이·할리우드 뮤지컬 스코어가 스물네 편이 넘는다고 소개한다.",
+  "george-gershwin.achievement.3":
+    "〈포기와 베스〉(1935)는 찰스턴의 흑인 공동체를 그린 듀보스 헤이워드의 이야기를 바탕으로 한 그의 오페라로, 대본은 듀보스와 도로시 헤이워드가 썼고 미시간 대학교 편집진에 따르면 아이라도 중요한 기여를 했다. 거슈윈은 1933~1934년 찰스턴 일대에서 현지 조사를 했는데 여기에는 제임스 아일랜드의 걸라(Gullah) 공동체 방문도 포함되어 있었고, 이를 바탕으로 작품을 쓴 뒤 관현악 편곡도 직접 했다. 초연 당시 평단의 반응은 엇갈렸지만 1985년 메트로폴리탄 오페라의 레퍼토리에 올랐으며, 흑인의 삶을 다룬 방식은 첫 시즌부터 논쟁이 되어 1935년 듀크 엘링턴도 이 작품의 음악을 비판했다.",
+  "george-gershwin.moment.1":
+    "1924년 1월 초 뉴욕 트리뷴은 거슈윈이 2월 12일 폴 화이트먼의 연주회를 위해 '재즈 협주곡'을 쓰고 있다는 짧은 기사를 실었다. 화이트먼은 몇 달 전에 이미 작곡을 부탁했지만, 거슈윈은 브로드웨이 뮤지컬 작업에 몰두하느라 이 의뢰를 잊고 있었다. 그는 이 곡을 두 대의 피아노를 위한 악보로 작곡했고, 화이트먼 악단의 편곡자 퍼디 그로페가 한 쪽씩 완성되는 대로 관현악으로 편곡했다.",
+  "george-gershwin.interpretation.moment.1":
+    "정해진 마감에 맞춰 빠르게 작업한 모습과 일치하지만, 관현악 편곡은 그로페가 맡았고 해설문도 거슈윈이 이 의뢰를 잊고 있었다고 전하므로 작업 속도에는 늦은 출발이 일부 반영되어 있다.",
+  "george-gershwin.moment.2":
+    "1934년 6월 거슈윈은 〈포기와 베스〉 작업을 위해 찰스턴 인근의 폴리 아일랜드로 갔다. 현지 조사를 고집했던 듀보스 헤이워드는 그를 이웃한 제임스 아일랜드의 걸라 공동체로 데려갔고, 두 사람은 학교와 교회를 찾아다니며 흑인 영가와 '샤우팅'(shouting)이라 불리는 춤을 들었다. 헤이워드는 훗날 거슈윈에게 그것이 탐험이라기보다 귀향에 가까웠다고 적었다.",
+  "george-gershwin.interpretation.moment.2":
+    "자신이 끌어다 쓰려는 음악을 현장에서 직접 접하려 한 작곡가의 모습과 일치하지만, 이 여행은 헤이워드가 공동 작업의 조건으로 요구한 것이었고 완성된 오페라에 대해 듀크 엘링턴은 1935년에 흑인 음악의 어법을 쓰지 않았다고 비판했다.",
+  "george-gershwin.turning_point.1":
+    "초기 음악에서 거슈윈은 가수, 편곡자, 제작자가 각자 손볼 수 있도록 기본적인 음악의 뼈대만 내놓았고, 〈랩소디 인 블루〉의 관현악 편곡도 퍼디 그로페가 맡았다. 1925년 4월 월터 담로시는 뉴욕 심포니 협회를 위해 피아노 협주곡을 작곡하고 관현악 편곡과 연주까지 맡아 달라고 의뢰했다. 1925년 12월 3일 카네기 홀에서 초연된 〈피아노 협주곡 바장조〉는 그가 처음으로 직접 관현악 편곡을 한 대규모 작품이었고, 이후의 연주회용 작품들과 〈포기와 베스〉도 그가 직접 편곡했다.",
+  "george-gershwin.interpretation.turning_point.1":
+    "이전에는 남에게 맡기던 기술을 스스로 맡기 시작한 작곡가의 모습과 일치하지만, 같은 편집진은 그의 자필 악보에서 세부 표기를 꼼꼼히 적는 일에 대한 조급함도 발견한다.",
+  /* ---------------------------------------------------------- hermann-von-helmholtz (Roster51) */
+  "hermann-von-helmholtz.achievement.1":
+    "1847년 7월, 아직 프로이센 군의관이던 헬름홀츠는 베를린 물리학회에서 논문 「힘의 보존에 대하여」를 발표해 에너지 보존의 수학적 원리를 제시했다. 포겐도르프는 실험적 성격이 부족하다며 자신이 편집하는 『물리학 및 화학 연보』에 이 논문을 싣기를 거절했고, 논문은 별도의 소책자로 나왔다. 헬름홀츠는 훗날 로베르트 마이어가 그 원리를 먼저 밝혔다고 인정했다.",
+  "hermann-von-helmholtz.achievement.2":
+    "1850~51년 헬름홀츠는 의사들이 살아 있는 망막을 볼 수 있게 한 검안경을 만들었고, 이어 세 권짜리 『생리광학 편람』(1856~67)과 『음감각론』(1862~63)으로 시각과 청각 생리학의 실험적 토대를 놓았다. 이 저작에는 지각에서의 무의식적 추론 이론, 음높이 지각 이론, 모음 음색 설명이 들어 있으며, 한 사회과학 백과사전은 후대의 관점에서 그의 가장 중요한 공헌이 감각 생리학과 심리학에 있다고 평한다.",
+  "hermann-von-helmholtz.achievement.3":
+    "생리학과 나란히 헬름홀츠는 물리학에서도 큰 업적을 남겼다. 1858년의 소용돌이 운동 유체역학 논문, 1871년 베를린 대학 물리학 교수가 된 뒤 서로 경쟁하는 전기역학 이론들을 비판적으로 검토한 연구(『과학 인명 사전』은 이 연구가 맥스웰의 장 이론을 유럽 대륙의 물리학자들에게 처음 알렸고 제자 하인리히 헤르츠에게 영감을 주었다고 말한다), 그리고 화학 반응에서 자유 에너지와 속박 에너지를 구분한 1882년의 논문이 그것이다. 1880년대 후반에는 새로 설립된 물리기술제국연구소의 소장이 되었다.",
+  "hermann-von-helmholtz.moment.1":
+    "1850년 말 헬름홀츠는 동물의 눈이 반사된 빛으로 빛난다는 브뤼케의 발견을 강의하려고 준비하다가 반사된 광선이 어떤 상을 맺는지를 물었고, 안경 렌즈와 현미경용 커버글라스로 기구를 만들어 이를 확인하려 했다. 이 기구는 쓰기가 몹시 어려웠고, 그는 훗날 반드시 성공하리라는 확신이 없었다면 끈기 있게 계속하지 못했을 것이라고 말했다. 약 여드레 뒤 그는 살아 있는 사람의 망막을 보았다. 1850년 12월 17일 그는 아버지에게 이 착상이 너무나 뻔해서 자신과 다른 사람들이 그렇게 늦게야 알아본 것이 거의 우스꽝스러울 지경이라고 편지에 썼다.",
+  "hermann-von-helmholtz.interpretation.moment.1":
+    "새 기구를 끝내 작동시킨 끈기와 일치하지만, 이 기록은 주로 헬름홀츠 자신의 말이며 전기 작가는 이 발명이 그가 말한 것만큼 단순하지는 않았다고 지적한다.",
+  "hermann-von-helmholtz.moment.2":
+    "1852년 헬름홀츠는 색 실험을 바탕으로 보색에 관한 뉴턴의 설명을 부정했고, 토머스 영의 3색 수용기설을 되살렸다가 곧바로 반박했다. 그라스만은 앞의 결론을 즉시 공격했고, 1855년 헬름홀츠는 실험상의 오류를 인정하며 뉴턴 이론이 요구하는 보색이 나오는 새 실험을 발표했다. 1858년에는 자신이 이전에 제기한 반론을 받아들이도록 고친 영의 이론을 가장 앞장서서 옹호하는 사람이 되어 있었다.",
+  "hermann-von-helmholtz.interpretation.moment.2":
+    "자신이 발표한 결론을 스스로 바로잡은 연구자의 모습과 일치하지만, 이 기록은 하나의 사전 항목에 의존하며 후대의 한 서평자는 다른 일류 과학자들의 의견이 그의 생각을 좀처럼 바꾸지 못했다고 말한다.",
+  "hermann-von-helmholtz.turning_point.1":
+    "1866년 무렵 헬름홀츠는 감각 생리학에 관한 대작들을 마치고 생리학을 떠나 물리학으로 옮길 생각을 하고 있었다. 1868년에는 생리학이 한 사람이 다 아우르기에는 너무 커졌고, 독일 물리학은 잘 훈련된 젊은 인력이 부족하다고 썼다. 1870년 베를린 대학의 물리학 교수 자리가 비자 그는 새 물리학 연구소 건립을 약속받은 뒤 1871년 초에 이를 수락했고, 베를린에서는 전기역학과 열화학, 이후에는 최소 작용의 원리로 관심을 돌렸다.",
+  "hermann-von-helmholtz.interpretation.turning_point.1":
+    "한 사람이 다루기에 옛 분야는 너무 커졌고 새 분야는 인력이 부족하다고 판단해 분야를 옮긴 연구자의 모습과 일치하지만, 그 이유는 주로 그 자신의 1868년 진술을 통해서만 알려져 있다.",
+  /* ---------------------------------------------------------- james-dyson (Roster51) */
+  "james-dyson.achievement.1":
+    "1978년 제재소에서 쓰던 사이클론 집진 장치를 가정용 청소기에 응용한 그는 약 5년 동안 5,000개가 넘는 시제품을 시험했다고 브리태니커는 전한다. 기존 제조사들이 관심을 보이지 않자 일본에 설계를 팔아 'G-포스'로 출시했고, 디자인 박물관에 따르면 그 성공이 자체 DC01 생산 자금이 되었다. 1993년부터 윌트셔에서 만든 DC01은 더 비싼 가격에도 2년 안에 영국 판매 1위 청소기가 되었다고 브리태니커는 기록한다.",
+  "james-dyson.achievement.2":
+    "그는 청소기에 그치지 않고 회사를 키웠다. 브리태니커는 2009년의 날개 없는 선풍기 '에어 멀티플라이어'를 기록하고, 옵서버 인터뷰는 이 회사의 핸드 드라이어 '에어블레이드'를 소개한다. 가디언은 2005년 다이슨이 미국 시장에 진출한 지 약 2년 만에 미국에서 가장 인기 있는 청소기가 되었다고 보도했는데, 이는 회사가 발표한 내용이다. 쿠퍼 휴잇 박물관은 DC07의 미국 출시를 2002년으로 기록한다.",
+  "james-dyson.achievement.3":
+    "왕립산업디자이너(RDI)는 그를 2005년 엔지니어링 디자인 분야 회원으로 올렸고, 2015년 그를 석학회원으로 선출한 영국 왕립학회는 그가 특허 1,138건을 보유하고 영국 대학의 연구 프로젝트 50건을 지원한다고 밝힌다. 그의 G-포스, DC01, DC07 청소기는 디자인 박물관, 과학박물관 그룹, 쿠퍼 휴잇 박물관이 소장하고 있다.",
+  "james-dyson.moment.1":
+    "다이슨 팀이 투명 먼지통이 달린 청소기를 팔기 시작하자 소매업체들은 질색하며 사람들이 먼지를 보고 싶어 하지 않을 것이라고 했고, 시장조사도 같은 결과를 보였다. 다이슨은 사람들이 살 것이라고 증명할 수 없었지만 디자인을 지켰다고 말한다. 디자인 총괄 피터 가맥은 동료들이 이 발상을 불편해했지만 '그가 뜻을 굽히지 않았다'고 전하며, 다이슨은 이제 다른 제조사들도 투명 먼지통을 쓴다고 덧붙인다.",
+  "james-dyson.interpretation.moment.1":
+    "시장조사보다 자신의 판단을 믿는 디자이너의 모습과 일치하지만, 두 기록 모두 다이슨과 그의 디자인 총괄에게서 나왔고 제품이 성공한 뒤에 전해진 것이다.",
+  "james-dyson.moment.2":
+    "2019년 10월 10일 다이슨은 직원들에게 보낸 이메일에서 팀이 '환상적인 자동차'를 만들었지만 '상업적으로 성립시킬 방법을 더는 찾을 수 없다'고 밝혔다. 그는 사업부를 팔려 했으나 인수자를 찾지 못했고 이것이 '제품의 실패도, 팀의 실패도 아니다'라고 말했으며, 회사는 관련 직원 523명(영국 498명) 대부분의 다른 일자리를 찾아 주겠다고 했다. 한 경영대학원 교수는 가디언에 이 사업이 애초에 수지가 맞지 않았고 허영 프로젝트처럼 보였다고 말했다.",
+  "james-dyson.interpretation.moment.2":
+    "프로젝트의 수지가 맞지 않을 때 대규모 사업을 접는 창업자의 모습과 일치하지만, 이 결정은 그가 자동차를 포함한 25억 파운드 투자 계획을 확정한 뒤에 나왔고 외부 비평가는 이를 허영 프로젝트로 보았다.",
+  "james-dyson.turning_point.1":
+    "영국에서 무봉투 청소기 설계를 후원해 줄 곳도, 관심을 보이는 기존 제조사도 찾지 못한 다이슨은 일본에 설계를 라이선스했고, G-포스는 1986년 판매에 들어가 디자인 박물관의 설명대로 자신의 DC01 생산 자금을 댈 만큼 성공했다. 그는 1993년 노스 윌트셔에 자체 공장을 열었고, 브리태니커에 따르면 듀얼 사이클론은 2년 안에 영국 판매 1위 청소기가 되었다.",
+  "james-dyson.interpretation.turning_point.1":
+    "기존 경로가 막히자 스스로 시장에 가는 길을 만든 사람의 모습과 일치하지만, 앞선 거절에 관한 세부 내용 대부분은 그 자신의 설명에서 나온 것이다.",
+  /* ---------------------------------------------------------- john-franklin (Roster51) */
+  "john-franklin.achievement.1":
+    "프랭클린은 캐나다 북부 해안을 측량한 두 차례의 육로 탐험을 이끌었다. 1819년부터 1822년까지는 커퍼마인강을 따라 내려가 북극 해안을 동쪽으로 따라갔고, 1825년부터 1827년까지는 매켄지강을 따라 내려가 한 팀은 서쪽으로, 다른 팀은 동쪽으로 커퍼마인강 어귀까지 해안을 측량했다. 리처드 데이비스는 그의 지휘를 받은 탐사대가 알려지지 않았던 해안선 2,800km 이상을 지도에 올렸다고 보며, 『캐나다 인명사전』은 캐나다 해안에 대한 지식에 기여한 정도가 조지 밴쿠버 다음이라고 평가한다.",
+  "john-franklin.achievement.2":
+    "1845년 그는 에레버스호와 테러호를 지휘해 북서항로를 다시 측량하러 떠났다. 두 척의 배를 모두 잃고 129명 전원이 숨졌으며, 그리니치 왕립박물관은 이를 영국 극지 탐험 역사상 최악의 참사라고 부른다. 빅토리 포인트 기록은 프랭클린이 1847년 6월 11일에 사망했다고 전한다. 이후 30차례가 넘는 수색 원정이 이어졌고 파크스 캐나다는 이 수색이 캐나다 북극 지도를 채우는 데 도움이 되었다고 설명하며, 파크스 캐나다는 이누이트의 구전 지식을 바탕으로 2014년에 에레버스호를, 2016년에 테러호를 찾아냈다.",
+  "john-franklin.achievement.3":
+    "첫 탐험을 기록한 책이 1823년 큰 호평 속에 출간되면서 그는 대중의 영웅이 되었고, 지리학자와 과학자들은 두 번째 탐험을 완전한 성공으로 평가했으며 그 성과에는 자기(磁氣), 지질, 동물에 관한 중요한 관측이 포함되었다. 그는 왕립학회 회원으로 선출되었고, 1829년에 기사 작위를 받았으며, 옥스퍼드 대학의 명예 학위와 파리 지리학회의 금메달을 받았다.",
+  "john-franklin.moment.1":
+    "프랭클린은 1821년 7월 부족한 식량을 안은 채 커퍼마인강을 향한 북쪽 여정을 시작했고, 『캐나다 인명사전』에 따르면 8월 21일까지 해안을 따라 계속 나아가 같은 길로 돌아오기에는 이미 늦은 때였다. 생존자들이 구조되기 전에 일행 스무 명 가운데 열한 명이 숨졌다. 인명사전은 그가 제때 돌아서지 않은 것을 지휘력에 대한 가장 중요한 비판점으로 꼽으면서도 그의 명령서에 임무를 포기할 조건이 없었다고 지적하고, 데이비스는 늦어진 계절과 반항하는 대원들 때문에 포인트 터너게인에서 되돌아설 수밖에 없었다고 쓴다.",
+  "john-franklin.interpretation.moment.1":
+    "철수 조건이 없는 명령 아래 목표를 향해 계속 나아간 탐험 지휘관의 모습과 일치하지만, 그 결정이 어디까지 그 자신의 선택이었는지에 대해서는 두 학자의 설명이 다르다.",
+  "john-franklin.moment.2":
+    "1826년 8월 16일, 얼음과 안개로 보트가 지연되고 지원선 블로섬호와 아직 만나지 못한 상황에서 프랭클린은 1821년의 참사를 떠올리며 끈기가 무모함이 되는 한계에 이르렀다고 판단하고 되돌아가라고 명령했다. 일행은 모두 무사히 포트 프랭클린에 도착했다. 훗날 그는 블로섬호에서 내보낸 보트가 당시 약 160마일(약 260km) 거리까지 와 있었다는 사실을 알게 되었다.",
+  "john-franklin.interpretation.moment.2":
+    "1821년 이후 위험의 한계선을 스스로 고쳐 잡은 지휘관의 모습과 일치하지만, 같은 결정 때문에 비치 일행과 만날 기회를 놓치기도 했다.",
+  "john-franklin.turning_point.1":
+    "1819~1822년의 참사 이후 프랭클린은 두 번째 탐험을 전혀 다르게 준비했다. 『캐나다 인명사전』은 그의 세심한 계획과 매켄지강 항해를 위해 특별히 만든 보트를 꼽고, 파크스 캐나다는 그가 오래전부터 준비를 갖추고 허드슨 베이 회사 교역소들에 보급품을 미리 보냈다고 전하며, 데이비스는 첫 탐험의 약한 나무껍질 카누 대신 선원들이 젓는 튼튼한 보트 네 척을 썼다고 설명한다. 큰 고난은 없었고 지리학자와 과학자들은 이 탐험을 완전한 성공으로 평가했다.",
+  "john-franklin.interpretation.turning_point.1":
+    "실패 뒤에 방식을 바꾼 지휘관의 모습과 일치하지만, 인명사전은 이제 합병된 허드슨 베이 회사의 지원도 차이를 만든 요인으로 든다.",
+  /* ---------------------------------------------------------- john-harrison (Roster51) */
+  "john-harrison.achievement.1":
+    "목수 출신으로 독학으로 시계 제작을 익힌 해리슨은 바다에서 경도를 알아내기 위한 해상 시계를 잇달아 만들었다. 1730년부터 1735년 사이에 H1을 만들었고, 이어 H2와 H3를, 1759년에는 회중시계 크기의 H4를 완성했다. 1764년 바베이도스 항해 시험에서 H4는 1714년 경도법이 정한 가장 엄격한 오차 범위 안에서 시간을 유지했고, 그리니치 왕립박물관은 그의 해상 시계들이 어쩌면 지금까지 만들어진 가장 중요한 시계일 것이라고 소개한다.",
+  "john-harrison.achievement.2":
+    "1720년대 중반 그는 정밀한 롱케이스 시계를 설계했는데, 그리니치 왕립박물관은 이 시계들이 한 달에 1초 이내의 정확도를 냈다고 설명한다. 또 H3에는 바이메탈과 케이지 롤러 베어링이 들어갔는데, 박물관은 이 둘이 지금도 온도조절기와 기계공학에 쓰인다고 말한다. 과학박물관 그룹의 연표에 따르면 왕립학회는 1749년 그의 실험적 연구에 코플리 금메달을 수여했다.",
+  "john-harrison.achievement.3":
+    "1764년의 시험 뒤 경도위원회는 최고 보상금의 절반만 지급했고, 케임브리지 대학 도서관의 설명에 따르면 H4의 제작 방법을 공개하고 복제품을 만들어야 한다는 조건이 붙었다. 해리슨은 국왕 조지 3세에게 호소했고 나머지 대부분은 1773년에 지급되었다. 라컴 켄들이 만든 H4의 첫 복제품은 제임스 쿡 선장의 두 번째 항해에 실렸고, 위원회 문서는 이 복제품이 매우 정확했으며 쿡과 그의 천문학자 윌리엄 웨일스가 극찬했다고 전한다.",
+  "john-harrison.moment.1":
+    "해리슨은 리스본 시험 뒤 약속한 2년 안에 H2를 완성했지만, 근본적인 결함을 발견하고 바다에서 시험하는 것을 끝내 허락하지 않았다. 그 뒤 1740년에 H3를 시작해 거의 19년 동안 수많은 수정과 조정을 거듭했는데, 두 개의 커다란 균형바퀴가 시간을 충분히 정확하게 유지하도록 만들 수 없었기 때문이다.",
+  "john-harrison.interpretation.moment.1":
+    "자기 작업에 높은 기준을 적용한 발명가의 모습과 일치하지만, 두 일화 모두 한 박물관의 설명이고 문제 자체의 난이도가 작업이 길어진 이유일 수도 있다.",
+  "john-harrison.moment.2":
+    "1767년 해리슨은 위원회를 겨냥한 『존 해리슨 씨의 사례』를 펴내고, 달 거리법을 밀기 위해 자신의 보상금을 위태롭게 만든다고 의심한 네빌 매스켈린을 공격하는 소책자도 냈는데, 케임브리지의 한 학자는 이 소책자를 독설에 가깝다고 평한다. 같은 해 매스켈린은 그리니치 시험에서 H4에 불리했던 결과를 공표했고, 샌드위치 경에게 보낸 그의 편지에는 그 공격이 자신에게 영향을 주었으며 그런 모욕은 반박할 가치가 없다고 보아 답변을 내지 않기로 했다는 내용이 있다.",
+  "john-harrison.interpretation.moment.2":
+    "긴 기간 위원회와 경쟁자를 상대로 공개적으로 맞선 인물의 모습과 일치하지만, 자료에는 해리슨이 분명히 느낀 억울함과 함께 위원회와 천문대장 쪽의 나름의 이유도 함께 나타난다.",
+  "john-harrison.turning_point.1":
+    "1750년대 초 해리슨은 이미 10년 넘게 H3에 매달렸지만 두 개의 큰 균형바퀴를 충분히 정확하게 만들지 못했다. 박물관이 1751~1753년경으로 추정하는 시기에 존 제프리스가 해리슨의 설계로 만든 회중시계가 매우 잘 작동하자, 그는 해법이 더 작은 시계에 있음을 깨달았다. 그는 1755년 H4에 착수해 1759년에 완성했고, H4는 1761년 자메이카 항해 시험에 올랐다.",
+  "john-harrison.interpretation.turning_point.1":
+    "수년을 들인 형태를 버리고 해법의 형태를 바꾼 발명가의 모습과 일치하지만, 이 설명은 한 박물관에서 나왔고 해리슨 부자는 이후 위원회의 조건에 대해서는 자신들의 해석을 굳게 지켰다.",
+  /* ---------------------------------------------------------- wolfgang-pauli (Roster51) */
+  "wolfgang-pauli.achievement.1":
+    "1925년 파울리는 배타 원리를 정립했다. 원자 속의 어떤 두 전자도 같은 양자수 조합을 가질 수 없다는 이 규칙에는 새로운 이중값 양자수가 필요했고, 이 규칙은 원자의 전자껍질 구조를 설명해 준다. 노벨재단은 '배타 원리의 발견'으로 그에게 1945년 노벨 물리학상을 수여했고, 옥스퍼드의 한 물리학자는 이 규칙이 주기율표와 물질의 안정성을 이해하는 데 결정적이라고 평한다. 다만 파울리 자신은 이 규칙이 왜 성립하는지 설명할 수 없다고 인정했다.",
+  "wolfgang-pauli.achievement.2":
+    "1930년 12월 파울리는 튀빙겐에 모인 물리학자들에게 보낸 공개 편지('친애하는 방사능 신사 숙녀 여러분')에서 베타 붕괴의 연속적인 에너지 스펙트럼을 설명할 '필사적인 해결책'을 제안했다. 전자와 함께 방출되는 전기적으로 중성이고 스핀이 1/2인 입자를 가정해 에너지 보존 법칙을 지키자는 것이었다. 노벨재단의 약력은 그를 훗날 중성미자라고 불리게 된 이 입자의 존재를 처음 인식한 사람으로 소개한다. 그는 이 생각의 발표를 약 3년간 미뤘고, 중성미자는 1956년 클라이드 코원과 프레더릭 라이네스가 검출했다.",
+  "wolfgang-pauli.achievement.3":
+    "파울리는 전자 스핀을 수학적으로 기술한 '파울리 행렬'을 내놓았는데, 한 서평자는 이를 물리학과 학부생이라면 누구나 안다고 말한다. 또 스핀과 통계의 관계를 증명해 양자장론을 공고히 했다. 학생 시절에는 아인슈타인이 서평에서 극찬한 상대성이론 해설서를 썼고, 1928년부터는 취리히 연방공과대학(ETH)에서 세계적인 이론물리학 연구 중심지의 하나를 일구었다.",
+  "wolfgang-pauli.moment.1":
+    "1930년 12월 파울리는 중성미자 아이디어를 학술지가 아니라 튀빙겐에 모인 실험물리학자들에게 보내는 편지로 알렸다. 그는 이 생각에 대해 아직은 감히 아무것도 발표하지 못하겠다고 쓰고, 자신의 해결책이 '거의 있을 법하지 않아 보일 수 있다'고 인정하며 그들에게 '면밀히 살펴보고 판단해 달라'고 청했다. 이 추측이 인쇄물로 나오기까지는 약 3년이 더 걸렸다.",
+  "wolfgang-pauli.interpretation.moment.1":
+    "아직 다듬어지지 않은 생각을 다른 이들이 검토해 보기 전에는 내놓지 않으려 한 이론가의 모습과 일치하지만, 이 편지는 파울리 자신의 서술이며 3년의 지연은 서평자의 해석이다.",
+  "wolfgang-pauli.moment.2":
+    "1957년 1월 17일 파울리는 '신이 약한 왼손잡이라고는 믿지 않는다'며, 베타 붕괴 실험이 전자의 대칭적인 각분포를 보여 줄 것이라는 쪽에 큰돈을 걸 용의가 있다고 썼다. 그 뒤 존 블랫이 '패리티의 급작스러운 죽음'을 알리는 편지를 보냈고, 1월 19일 파울리는 우젠슝에게 그 비대칭이 '경험적으로 아주 확립되어 있다'고 썼으며, 1월 27~28일에는 빅터 바이스코프에게 충격을 받았다고 하면서 이미 대칭을 되살릴 방법을 궁리하고 있었다.",
+  "wolfgang-pauli.interpretation.moment.2":
+    "확고한 기대를 품고 있었지만 며칠 만에 실험 결과를 받아들인 이론가의 모습과 일치하지만, 그는 이후에도 대칭을 되살릴 방법을 찾았고, 이 기록은 한 학자가 그의 편지를 읽은 해석에 의존한다.",
+  "wolfgang-pauli.turning_point.1":
+    "1928년 4월 말 취리히 연방공과대학(ETH) 교수직을 맡기 전, 파울리는 조교를 두는 것을 조건으로 내걸고 랄프 크로니히에게 그 일이 '내가 무슨 말을 할 때마다 상세한 논거로 반박하는 것'이며 현대적인 착상으로 학문 활동에 활기를 불어넣는 것이라고 편지를 썼다. 그는 취리히에서 세계적인 이론물리학 연구 중심지의 하나를 일구었고, 1950년대 초의 한 대학원생은 한 콜로키움에서 그가 강하게 반박하는 것을 직접 보았다고 회상했다.",
+  "wolfgang-pauli.interpretation.turning_point.1":
+    "의견 충돌을 작업 환경에 아예 심어 둔 물리학자의 모습과 일치하지만, 그는 일부 청중이 위축될 만큼 날카롭게 반박하는 것으로도 알려져 있었다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

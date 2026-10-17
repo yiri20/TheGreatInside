@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "christopher-nolan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Christopher Nolan",
+    "wikidataId": "Q25191",
+    "birthYear": 1970,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB",
+      "US"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "film_director"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nolan_wikidata",
+      "kind": "wikidata",
+      "title": "Christopher Nolan (Q25191) -- verified live via the Wikidata API (2026-10-16): English label 'Christopher Nolan', description 'English and American filmmaker (born 1970)', born 30 July 1970, no date of death, citizenship United Kingdom and United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q25191"
+    },
+    {
+      "id": "src_nolan_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Christopher Nolan' (article by Melissa Albert, fact-checked by Britannica's editors; page last updated 22 September 2026) -- encyclopaedia biography read in full, all sections: a British film director and writer known for a noirish visual aesthetic and unconventional, often highly conceptual narratives; Memento (2000) as his breakthrough (a reverse-order storyline adapted from his brother Jonathan's short story, nominated for the original-screenplay Oscar); Batman Begins (2005) as a grimmer, more realistic film that became a forerunner of a move toward realism in superhero films; The Dark Knight (2008) as one of the highest-grossing movies of all time; Inception, Interstellar, Dunkirk and Tenet; Oppenheimer (2023) winning Best Picture and Best Director, his two Academy Awards from eight nominations; and the statement that he is a noted advocate of analog film technologies rather than digital formats, with The Odyssey (2026) the first feature shot entirely on IMAX film. CANONICAL SIGNIFICANCE SOURCE (encyclopaedic assessment of his primary contribution; honouring but factual in tone, used for the achievement cards and orientation and never alone for a behavioural row). Passages on his family and schooling were not used.",
+      "url": "https://www.britannica.com/biography/Christopher-Nolan-British-director"
+    },
+    {
+      "id": "src_nolan_academy",
+      "kind": "award_body",
+      "title": "Academy of Motion Picture Arts and Sciences, '96th Academy Awards | 2024' ceremony page (oscars.org) -- the Academy's own winners record: Oppenheimer won seven awards on 10 March 2024 at the Dolby Theatre (Best Picture, Directing, Actor in a Leading Role, Actor in a Supporting Role, Cinematography, Film Editing and Music (Original Score)), with Best Picture credited to producers Emma Thomas, Charles Roven and Christopher Nolan and Directing to Christopher Nolan. Institutional record of the result only; the page contains no statements by Nolan and supports no trait row. NOTE: read through the harness's web-extraction tool, which returns summaries and short excerpts; the facts used (the seven categories, the credited names, the date) are stated plainly and match Britannica.",
+      "url": "https://www.oscars.org/oscars/ceremonies/2024"
+    },
+    {
+      "id": "src_nolan_asc_oppenheimer",
+      "kind": "press",
+      "title": "Iain Marcks, 'Christopher Nolan on Oppenheimer', American Cinematographer (October 2023 issue; web page posted 4 October 2023) -- trade-magazine Q&A with Nolan (self): his stated rule of choosing the best tools for image quality and for drawing the audience in, which for him means photochemical film and especially 65mm IMAX; keeping his main team (cinematographer Hoyte van Hoytema, visual-effects supervisor Andrew Jackson, special-effects supervisor Scott Fisher and production designer Ruth De Jong) in constant contact and seeing his role as keeping their conversation going; the camera-placement idea of 'following the ball'; the first run of 65mm black-and-white Double-X stock developed with Kodak, FotoKem and van Hoytema's team; and his recollection that The Dark Knight was the first Hollywood feature shot in IMAX (a recollection that is not used in any card). Self material, used only as supporting evidence beside independent sources. NOTE: read through the harness's web-extraction tool, which returns summaries and short excerpts, so only paraphrases are used; passages on the Trinity-test effects and lighting were not used.",
+      "url": "https://theasc.com/articles/christopher-nolan-on-oppenheimer"
+    },
+    {
+      "id": "src_nolan_wrap_dejong",
+      "kind": "press",
+      "title": "Eileen AJ Connelly, 'Christopher Nolan Cut 30 Days From Oppenheimer Filming to Boost Budget for Los Alamos Set', TheWrap, 29 August 2023 -- trade-press report of production designer Ruth De Jong's account on the Team Deakins podcast: Nolan shortened the shoot from a planned 85 days to 55 so that the savings could pay for rebuilding Los Alamos without relying on visual effects; the first budget for building the town was $20 million and was scaled back significantly; she made every building in 360 degrees so the cameras could shoot from many angles; she watched the dailies every night and checked with Nolan and van Hoytema that no changes were needed; and she says Nolan knows exactly what he wants and how he wants to do it, and that she respects that. A collaborator's account relayed by a trade outlet, admiring but specific; the passages on the White House rooms and the presidential-library arrangement were not used and one quotation comparing Nolan with other directors was not used because its published wording is ambiguous. Read in full.",
+      "url": "https://www.thewrap.com/oppenheimer-los-alamos-set-budget-christopher-nolan-interview/"
+    },
+    {
+      "id": "src_nolan_pvc_smith",
+      "kind": "press",
+      "title": "Steve Hullfish, 'Art of the Cut with Lee Smith, ACE, on Dunkirk', ProVideo Coalition, 4 August 2017 -- editor-to-editor interview with Nolan's editor (whose introduction lists Batman Begins, The Prestige, The Dark Knight, Inception, The Dark Knight Rises and Interstellar among their films together): the Dunkirk score built on Nolan's idea of using his ticking stopwatch, with Zimmer's original material and a modified Elgar piece as the only temp music; a silent first assembly because the IMAX cameras' noise made sync sound useless; the Stuka siren and the underwater torpedo scene reworked many times; the plan to exhaust practical methods before computer-generated help (about 96 percent real photography, no green screen for the planes); a script that was a strong blueprint with some modifiable areas, no reshoots 'as usual with Chris', Nolan's saying that there are a thousand ways to cut a scene but only one right way; the modified Elgar idea; and the editorial team's own music editors working with composer Hans Zimmer. First-hand collaborator's account, admiring but specific and including the strain of the process; passages on Smith's own editing habits and on other films were skimmed and not used. Read the passages on Nolan in full.",
+      "url": "https://www.provideocoalition.com/art-cut-oscar-nominated-editor-lee-smith-ace-dunkirk/"
+    },
+    {
+      "id": "src_nolan_asc_inception",
+      "kind": "press",
+      "title": "David Heuring, 'Dream Thieves: Wally Pfister, ASC and Christopher Nolan on Inception', American Cinematographer (July 2010 issue; web page dated 13 July 2025) -- trade-magazine feature on the film's photography: Nolan's and Pfister's aim of photographic realism for the dream worlds; 35mm anamorphic chosen as the main format for its controllability, light cameras and the crew's experience, with the extensive handheld work Nolan wanted ruling out IMAX (Pfister operated handheld himself), 65mm for large set pieces and VistaVision for aerials; formats considered and set aside (Pfister found Super Dimension 70 had an almost hyper-HD quality they could not get around); the Cardington hangar used as a base for preparation and a stable crew; the hotel hallway built twice (a rotating version and a vertical one) and other in-camera builds; Nolan's reasons for choosing film and for rarely using high-speed photography; and the physical difficulties for actors and the safety measures. Collaborator's account alongside Nolan's own statements (self); the article contains no explicit criticism of the production. NOTE: read through the harness's web-extraction tool, which returns summaries and short excerpts, so only paraphrases are used and only as supporting evidence; passages on lenses, exposure and individual stunts were not used.",
+      "url": "https://theasc.com/article/inception-cinematography-pfister-nolan/"
+    },
+    {
+      "id": "src_nolan_slash_sound",
+      "kind": "press",
+      "title": "Germain Lussier, 'Christopher Nolan Finally Responds To Interstellar Sound Controversy', /Film (Slashfilm), 16 November 2014 -- trade-press report that audiences in several cities complained that dialogue in Interstellar was blown out by effects and music, that no one would comment at first, and then Nolan's response to The Hollywood Reporter (quoted): he has always loved impressionistic sound, does not agree that clarity comes only through dialogue, treated dialogue as a sound effect in places, usually visits six or seven theaters to hear his film where audiences will, and expects an unconventional mix to catch some people off guard; the mix took months. A report that sets audience complaints beside Nolan's own statements (self); the original Hollywood Reporter interview was not opened. Read in full.",
+      "url": "https://www.slashfilm.com/534906/christopher-nolan-interstellar-sound-problems"
+    },
+    {
+      "id": "src_nolan_ebert_dunkirk",
+      "kind": "press",
+      "title": "Matt Zoller Seitz, review of 'Dunkirk', RogerEbert.com, 21 July 2017 -- independent critic's review: calls the film lean, ambitious and unsentimental and says it shows both the best and the worst of Nolan's tendencies; notes scenes that play for minutes without audible dialogue, a rarity in Nolan's own films, which tend to clarify narrative through exposition; describes the 70mm IMAX presentation, longer-held shots, the cross-cutting of a week, a day and an hour by editor Lee Smith (who, he says, has edited Nolan's films since Batman Begins) and the ticking-clock backbone of Hans Zimmer's score; and criticises the characters' anonymity, the overuse of the score and an over-intellectualised treatment of a simple story. Independent critic's assessment of the work rather than of private behaviour; the passages on individual actors were not used. Read the review's main text in full.",
+      "url": "https://www.rogerebert.com/reviews/dunkirk-2017"
+    },
+    {
+      "id": "src_nolan_slash_kodak",
+      "kind": "press",
+      "title": "Russ Fischer, 'J.J. Abrams, Christopher Nolan And Quentin Tarantino Help Keep Film Stock In Production', /Film (Slashfilm), 30 July 2014 -- trade-press summary of a Wall Street Journal report: Kodak was close to closing its Rochester plant as film sales collapsed, studios agreed to buy set quantities of film each year, and Tarantino, Nolan, Abrams and Judd Apatow lobbied studio executives to make the deal. A secondary retelling of the Wall Street Journal report, which was not opened; Nolan's role is stated in a single sentence and the article's quotations (whose speaker is ambiguous in the text) were not used. Read in full.",
+      "url": "https://www.slashfilm.com/533075/nolan-film-deal"
+    },
+    {
+      "id": "src_nolan_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Christopher Nolan, London, 2013.jpg' -- checked for the portrait's licence: photograph by Richard Goldschmidt (piqtured.com), described as Nolan at the European premiere of Man of Steel in Leicester Square, London; published under CC BY 3.0 with the licence template naming the author; the author's permission is recorded under a Wikimedia volunteer-response (VRTS) ticket, and the file sits in the 'Items with VRTS permission confirmed' category; no restriction template beyond the generic personality-rights notice; the recorded date (16 May 2013) is inconsistent with the film's premieres, so only the year is used. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Christopher_Nolan,_London,_2013.jpg"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nolan_pvc_smith, src_nolan_asc_inception, src_nolan_asc_oppenheimer, src_nolan_ebert_dunkirk, src_nolan_britannica | 2000-2023 | editor's interview + cinematographer feature + Nolan's own Q&A + independent critic + encyclopaedia] Editor Lee Smith says the Dunkirk score grew from Nolan's idea of using his ticking stopwatch as a near-continuous rhythm, that the cut used Zimmer's original material rather than a borrowed temp score, and that Nolan wanted to test whether a manipulated version of an Elgar piece would carry the emotion he was after; American Cinematographer's 2010 Inception feature describes the hotel hallway built twice (a rotating version and a vertical one), several camera formats considered and some not used (Super Dimension 70 for an almost hyper-HD quality), and high-speed photography used for narrative reasons; in the 2023 Q&A Nolan credits Kodak, FotoKem and cinematographer Hoyte van Hoytema's team with the first run of 65mm black-and-white Double-X film (self); Matt Zoller Seitz's 2017 review describes Dunkirk's intercut week, day and hour and long dialogue-free stretches that are unusual for Nolan's own films; Britannica describes Memento's reverse-order storyline and his unconventional narratives. Repeated method and structure experiments across two decades are documented by a collaborator, a cinematographer's feature, a critic and an encyclopaedia, and the costs are on record too (Seitz's criticisms of the score and the characters' anonymity, the Interstellar sound complaints), so documented at a moderate confidence. SELF-CALIBRATION (agent): first-pass 78 / 0.62 lowered to 74 / 0.58 for admiring-source concentration (the collaborator accounts are uniformly admiring) and self-quotation through shared profiles (the new-stock and format claims are relayed through Nolan's own Q&A)."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nolan_pvc_smith, src_nolan_asc_inception, src_nolan_wrap_dejong, src_nolan_asc_oppenheimer, src_nolan_ebert_dunkirk, src_nolan_britannica | 2010-2023 | editor's interview + cinematographer feature + production designer via trade press + Nolan's own Q&A + independent critic + encyclopaedia] Lee Smith says the film's own music editors work alongside the editorial team so that the music reaches the cutting room directly, that the Elgar idea came from Nolan while composer Hans Zimmer returned slowed-down versions in a back-and-forth, and that Nolan 'collaborates with all of us'; the 2010 American Cinematographer feature describes a stable camera, lighting and grip crew around cinematographer Wally Pfister, who operated handheld himself, and a shared formula for covering action; production designer Ruth De Jong says she watched the dailies every night and checked with Nolan and van Hoytema that no changes were needed, and that Nolan knows exactly what he wants and how, which she respects; in the 2023 Q&A Nolan describes keeping his department heads in constant contact and sees his role as keeping their conversation going (self); Seitz notes in 2017 that Smith has edited Nolan's films since Batman Begins and Britannica that Nolan cast Cillian Murphy, with whom he had worked before. Specific working arrangements from three collaborators plus independent confirmation of repeat pairings, but every collaborator account is admiring and the same accounts describe a director who also holds firm views, so documented at a moderate confidence. SELF-CALIBRATION (agent): first-pass 74 / 0.60 lowered to 70 / 0.55 for admiring-source concentration (no dissenting collaborator voice was found within the source budget; the independent critic corroborates only the repeat pairings)."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nolan_pvc_smith, src_nolan_wrap_dejong, src_nolan_asc_inception | 2010-2023 | editor's interview + production designer via trade press + cinematographer feature] Lee Smith calls Dunkirk's script 'a very, very strong blueprint' (with some modifiable areas, such as where the story lines converge) and says there were no reshoots, 'as usual with Chris'; De Jong says Nolan cut Oppenheimer's shoot from a planned 85 days to 55 to pay for rebuilding Los Alamos without relying on visual effects, and that he knows exactly what he wants and how he wants to do it; the 2010 American Cinematographer feature describes the Cardington hangar used as a base for preparation, a general formula for covering action, and camera formats weighed in advance. Three independent collaborator accounts point to advance planning, but they are mostly collaborators' summaries rather than described process, Smith himself says the story-line convergence was reworked over several screenings, and Pfister operated handheld to adapt in the moment, so strong inference at a modest confidence. SELF-CALIBRATION (agent): first-pass 70 / 0.55 lowered to 66 / 0.50 for interpretation stronger than behaviour (the 'knows exactly what he wants' remark is a collaborator's summary and the evidence of reworking in the edit cuts the other way)."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nolan_pvc_smith, src_nolan_slash_sound, src_nolan_asc_inception | 2010-2017 | editor's interview + trade-press report of Nolan's own response + cinematographer feature] Lee Smith says the Stuka dive-bomber siren in Dunkirk went through very many variations before Nolan was happy with it, that the sound of the scene after the torpedoing went 'around the house' five to eight times and was stripped of stock underwater effects, and that 'nothing gets by' in a process that spends 700 or 800 hours on a sound stage; Nolan told The Hollywood Reporter (as relayed by Slashfilm in 2014) that the Interstellar mix took months and that he usually visits six or seven theaters to hear his film where audiences will (self); the 2010 American Cinematographer feature records camera formats considered and one set aside for its look. Care over sound and presentation details is documented for two films by an editor and by Nolan's own account, but most of the detail work described is in sound and comes through one collaborator, so strong inference at a modest confidence. SELF-CALIBRATION (agent): first-pass 72 / 0.56 lowered to 68 / 0.50 for single-collaborator dependence (Smith) and self-quotation (the months-long mix and the theater visits are Nolan's own words relayed by one outlet)."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_nolan_slash_sound, src_nolan_britannica, src_nolan_slash_kodak, src_nolan_pvc_smith | 2014-2026 | trade-press reports + encyclopaedia + editor's interview] Slashfilm reported in 2014 that audiences in several cities complained that Interstellar's dialogue was blown out by effects and music, and quoted Nolan telling The Hollywood Reporter that the mix was a considered choice, that he does not agree that clarity can only come through dialogue, and that an unconventional mix is bound to catch some people off guard (self); Britannica calls him a noted advocate of analog film technologies as opposed to modern digital formats; Slashfilm's 2014 summary of a Wall Street Journal report says Nolan, with Quentin Tarantino, J.J. Abrams and Judd Apatow, lobbied studio executives to commit to buying Kodak film; Smith says the Dunkirk cut used no borrowed temp score, only Zimmer's original material and a modified Elgar piece, and that the team's plan was to exhaust practical methods before computer-generated help. Repeated, publicly defended positions against prevailing industry practice are documented by trade-press, encyclopaedic and collaborator sources, but the best-documented defence is in his own words and the sound-mix episode drew real audience complaints, so dual-edged at a modest confidence. SELF-CALIBRATION (agent): first-pass 72 / 0.55 lowered to 68 / 0.50 for interpretation stronger than behaviour (a pattern of stance-taking is read as independence of thinking) and self-quotation (the sound-mix defence is Nolan's own account through one outlet)."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "크리스토퍼 놀란"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/christopher-nolan-goldschmidt-2013.jpg",
+    "width": 667,
+    "height": 1000,
+    "source": "Wikimedia Commons, 'Christopher Nolan, London, 2013.jpg' -- photograph by Richard Goldschmidt (piqtured.com), described on the file page as Christopher Nolan at the European premiere of Man of Steel in Leicester Square, London (uploaded 13 June 2013; the file page records 16 May 2013, a timestamp that precedes the film's 10 June 2013 world premiere and is therefore treated as unreliable, so only the year 2013 is used); the author publishes it under CC BY 3.0 (licence template naming Richard Goldschmidt) and his permission is recorded under a Wikimedia volunteer-response (VRTS) ticket, with the file in the 'Items with VRTS permission confirmed' category; no restriction template beyond the generic personality-rights notice. Original 667 x 1000 pixels, saved byte for byte unmodified (no crop, no resize, never upscaled).",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Photo: Richard Goldschmidt (piqtured.com), 2013, CC BY 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Christopher_Nolan,_London,_2013.jpg",
+    "creator": "Richard Goldschmidt",
+    "date": "2013",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Christopher_Nolan,_London,_2013.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q25191 returned en label 'Christopher Nolan', description 'English and American filmmaker (born 1970)', born 1970-07-30, no death date, citizenship United Kingdom (Q145) and United States (Q30), ko label present; the lead's hint was correct. SLUG/QID CHECK: no existing production or candidate file for slug christopher-nolan or QID Q25191 in the roster51 worktree (data-pipeline/candidates, src/data/people, src/core). REGION: western_europe, by origin (born in London and first career base; Britannica calls him a British film director raised in London and Chicago), with nationalityCodes GB and US, following the Hitchcock and Chaplin precedent of using the origin region for dual-nationality filmmakers who worked mostly in the United States. VOCABULARY: occupationId film_director, fieldId film, impact domains artistic and cultural, tags craft_focused and detail_oriented, and archetype creative_creator are existing ids used by other candidates (film_director and film as for Scorsese, Spielberg and Kubrick; detail_oriented as for Kubrick; craft_focused as for Ray and Miyazaki). ZERO POLITICS: no political material is scored (Oppenheimer's subject, the wartime project and the later security hearing, is the film's historical subject and is unscored). LIVING SUBJECT: only documented public professional behaviour is scored (working methods, format and sound decisions as described by collaborators, critics and trade press). Excluded: family and private life (his marriage and children), his brother Jonathan Nolan beyond a professional co-writing credit mentioned in a source, health, any allegation or rumour, personal wealth, any inferred motive or psychology, and studio disputes (the 2020 Warner Bros. streaming episode and the move to Universal were not read and are not scored). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Christopher Nolan' (https://www.britannica.com/biography/Christopher-Nolan-British-director), read in full (updated 22 September 2026): it presents him as a director and writer known for a noirish visual aesthetic and unconventional narratives, with the Batman trilogy as a forerunner of a realism trend, the original conceptual films, the Oscars for Oppenheimer and the advocacy of analog film and IMAX; supported by the Academy's own 2024 winners record (honouring in tone, used for the cards and orientation only). READ (10 cited non-Wikidata sources plus the Commons page): Britannica; the Academy's 96th Awards page (through the harness's web-extraction tool, summary-level); Nolan's own American Cinematographer Q&A on Oppenheimer (through the same tool, summary-level; self); TheWrap's report of production designer Ruth De Jong's podcast account; the ProVideo Coalition interview with editor Lee Smith on Dunkirk (read in full on the Nolan passages); American Cinematographer's 2010 Inception feature on Wally Pfister and Nolan (through the same tool, summary-level); Slashfilm's 2014 report on the Interstellar sound controversy (read in full); Matt Zoller Seitz's Dunkirk review on RogerEbert.com (read in full); Slashfilm's 2014 summary of the Wall Street Journal report on the film-stock deal (read in full). Opened but not cited: the American Cinematographer 'Clubhouse Conversations' page for the Oppenheimer cinematography interview (a video page with a summary and no transcript), Roger Ebert's Interstellar review (searched for mentions of sound only, not used), Wikipedia's Man of Steel page (read only to check the premiere date for the portrait), and Korean press results (checked only for the usage of the Korean name). PERSPECTIVES: the editor (Smith), the cinematographer (Pfister, through the 2010 feature), the production designer (De Jong), an independent critic (Seitz), trade press reporting audience complaints (Lussier) and an industry lobbying episode (Fischer), an encyclopaedia, the Academy's record, and Nolan's own statements (self; never sole support for a row). CALIBRATION: the behavioural evidence is specific but comes mostly from admiring collaborators and Nolan's own interviews, the strongest independent voices are one critic and the trade-press reports of audience complaints, and the two American Cinematographer pages were read only as summaries, so no score exceeds 74 and no confidence exceeds 0.58; five rows are kept and none is padded. SELF-CALIBRATION (agent): all five rows were lowered once after a re-read of the strongest rows (experimentation 78/0.62 to 74/0.58, collaboration 74/0.60 to 70/0.55, detail orientation 72/0.56 to 68/0.50, planning orientation 70/0.55 to 66/0.50, independent thinking 72/0.55 to 68/0.50), for admiring-source concentration, single-collaborator dependence, interpretation stronger than behaviour and self-quotation through shared profiles; each row's rationale ends with its own note. TRAITS NOT SCORED: perfectionism (the same evidence as detail orientation, mostly one collaborator), persistence (long-gestation projects such as the decade-old Inception script show commitment but no documented obstacle overcome), proactive agency (the film-stock lobbying rests on a secondary retelling and the first-in-IMAX claim on Nolan's own recollection), autonomy need and conflict tolerance (the only strong episode is the sound-mix defence, already used; the studio change was not read), risk tolerance (creative bets with no documented stakes), creative originality (overlaps experimentation and rests on critics' and encyclopaedic praise), decisiveness, leadership drive and mastery orientation (collaborators' generalisations only, or occupation-as-trait). FACT CONFLICTS RECORDED: Wikidata calls him English and American, Britannica British; the cards say 'Nolan' and avoid nationality labels. Shoot length is reported as 55 days by TheWrap and 57 in another outlet's account (not opened), so only TheWrap's figure is used and it is attributed to De Jong. Slashfilm's quotation of Nolan's film-versus-digital remarks is ambiguous about the speaker, so it is not used. NOT OPENED: the Hollywood Reporter's making-of feature on Oppenheimer (redirected to a publisher access gateway), British Cinematographer's and Filmmaker Magazine's interviews with Hoyte van Hoytema (HTTP 403), the BFI Sight and Sound September 2026 cover feature (a print issue; only its teaser appeared in search), the original Hollywood Reporter interview on the Interstellar sound mix, the original Wall Street Journal film-stock report, Tom Shone's The Nolan Variations, DGA and trade interviews with Hans Zimmer and Nathan Crowley (not reached within the source budget, so no row rests on them) and Britannica's linked explainer on controversies about The Odyssey. KOREAN NAME: 크리스토퍼 놀란 is the form used by Korean film press and marketing (Vogue Korea, Marie Claire Korea and Daum results in a check), while the standard-orthography form 놀런 (used by Wikidata and by some papers) is a variant; the former is used as the display name. PORTRAIT: Wikimedia Commons file 'Christopher Nolan, London, 2013.jpg' by Richard Goldschmidt (piqtured.com), CC BY 3.0 under a VRTS-confirmed permission; original and saved size 667 x 1000, verified to open as a JPEG, unmodified, saved as public/portraits/christopher-nolan-goldschmidt-2013.jpg; the photographer's own site and Flickr stream were not opened, so the rights basis is the file page's licence template and VRTS permission category; the file page's date (16 May 2013) is internally inconsistent with the described Man of Steel premiere (the film's world premiere was on 10 June 2013 per Wikipedia), so only the year is recorded and the event is quoted as the file page describes it. Considered and not chosen: Georges Biard's 'Christopher Nolan Cannes 2018.jpg' (CC BY-SA 4.0, own work, 678 x 960, May 2018; a clean fallback with no date problem but a smiling three-quarter profile) and the Korean government's August 2026 photograph on Commons (CC BY-SA 4.0 but credited to 'Republic of Korea' rather than a named author, with a Flickr-sourced licence that was not re-checked)."
+  }
+}

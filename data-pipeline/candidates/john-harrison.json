@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-harrison",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John Harrison",
+    "aliases": [
+      "John Harrison (clockmaker)"
+    ],
+    "wikidataId": "Q314335",
+    "birthYear": 1693,
+    "deathYear": 1776,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "engineer"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "engineering",
+      "innovation"
+    ],
+    "tagIds": [
+      "self_taught",
+      "craft_focused",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_harrison_wikidata",
+      "kind": "wikidata",
+      "title": "John Harrison (Q314335) -- verified live via the Wikidata API (2026-10-16): English label 'John Harrison', description 'British clockworker', born 24 March 1693 at Foulby (Yorkshire), died 24 March 1776 in London, citizenship Kingdom of Great Britain, occupations including clockmaker, watchmaker, inventor and designer, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q314335"
+    },
+    {
+      "id": "src_harrison_rmg_story",
+      "kind": "institution",
+      "title": "Royal Museums Greenwich, 'Longitude found: the story of Harrison's timekeepers' (Royal Observatory story page) -- CANONICAL SIGNIFICANCE SOURCE: the museum's account of Harrison as a carpenter self-taught in clockmaking who designed precision longcase clocks in the mid-1720s said to reach an accuracy of a second in a month; his aim of a portable clock within three seconds a day; his approach to Halley and George Graham; H1 (built at Barrow upon Humber, shown in London in 1735, tried on the 1736 Lisbon voyage, with the Commissioners' 1737 award of 500 pounds); H2 (never tested because he found a fundamental flaw) and H3 (19 years of work and many adjustments); the watch with a new balance made by John Jefferys and H4; the 1761 Jamaica trial; the Board's decision that the test was not sufficient and his supporters' campaign of newspaper articles and pamphlets; the 1764 Barbados trial, the 1765 recommendation of 10,000 pounds with the other half conditional on others being able to make similar timekeepers, and the Harrisons' view that the rules had been changed; Maskelyne's ten-month Greenwich test of 1766-67 and Harrison's challenge to its results; the commissioners' wish to publish against Harrison's wish to protect his methods; and the compensation eventually granted by Parliament. Sympathetic museum narrative that nevertheless gives the Board's reasons (rival lunar and Jupiter methods, the need to show the watch was not a one-off); the shop and gallery promotion was not used. Read in full.",
+      "url": "https://www.rmg.co.uk/stories/time/harrisons-clocks-longitude-problem"
+    },
+    {
+      "id": "src_harrison_rmg_attr",
+      "kind": "institution",
+      "title": "Royal Museums Greenwich, 'John Harrison's marine timekeepers' (Royal Observatory attraction page) -- short promotional statement that the timekeepers are arguably the most important ever made, that they let ships determine longitude at sea, that H1 to H4 were developed over his lifetime and that they compensate for temperature and run without lubrication through anti-friction devices. Promotional museum copy, used only for the card's attributed 'arguably' statement. Read in full.",
+      "url": "https://www.rmg.co.uk/royal-observatory/attractions/john-harrisons-marine-timekeepers"
+    },
+    {
+      "id": "src_harrison_rmg_h3",
+      "kind": "institution",
+      "title": "Royal Museums Greenwich, collection record 'H3' (marine timekeeper, ZAA0036) -- the museum's statement that H3 was started in 1740, took nearly 19 years to build and adjust, did not win the prize because Harrison could not persuade its two large heavy circular balances to keep time well enough, and nevertheless incorporated the bimetallic strip and the caged roller bearing, both still relevant today. Short admiring catalogue entry. Read in full.",
+      "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-79141"
+    },
+    {
+      "id": "src_harrison_rmg_h4",
+      "kind": "institution",
+      "title": "Royal Museums Greenwich, collection record 'H4' (marine timekeeper, ZAA0037) -- 'Harrison's prize-winning longitude watch, completed in 1759': he had been improving watches as a sideline to H3, a pocket watch made to his design by John Jefferys in 1753 went so well that he realised the longitude solution lay in smaller watches, and work on H4 began in 1755, with a very stable high-frequency balance. Short catalogue entry (the museum's story page dates the Jefferys commission to about 1751-52). Read in full.",
+      "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-79142"
+    },
+    {
+      "id": "src_harrison_smg_person",
+      "kind": "institution",
+      "title": "Science Museum Group Collection, people record 'John Harrison 1693-1776' (horologist and clock-maker) -- institutional timeline: 1713 earliest extant clock, 1726 first heard of the 1714 Longitude Act, 1735 H1, 1736 Lisbon voyage, 1739 H2 after the Board's 500 pounds, 1749 awarded the Royal Society's Copley gold medal for his experimental work, 1759 H3, 1760 H4 and the 1761 Jamaica trial. Short timeline whose dates for H3 and H4 differ from the Royal Museums Greenwich records; used only for the 1749 Copley medal. Read in full.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/ap21350/harrison-john"
+    },
+    {
+      "id": "src_harrison_clockmakers",
+      "kind": "institution",
+      "title": "Worshipful Company of Clockmakers, Museum Collection page, entry 'Marine Timekeeper known as H5 by John Harrison and Son 1770' -- the Company's statement that H5 is mechanically very similar to the prize-winning H4, is the fifth and last timekeeper he produced as part of the Longitude Reward, was completed when he was 77, and was personally tested by King George III at his observatory in Richmond, which helped secure him the last part of his prize money. Short museum-collection text by the livery company whose museum holds H5. Read in full.",
+      "url": "https://www.clockmakers.org/museum-archive/museum-collection"
+    },
+    {
+      "id": "src_harrison_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library, 'Scientist of the Day: John Harrison' (William B. Ashworth Jr., 24 March 2017) -- independent library biography: the 1714 reward of up to 20,000 pounds, a series of clocks that kept time on long voyages, H4's 1761 Jamaica trial (5 seconds slow on arrival) after which the Board claimed a fluke and demanded a second trial, the 1764 Barbados result, a partial payment of 10,000 pounds on top of 4,315 pounds of advances, the demand that he hand over his clocks and the Board's publication of 'The Principles of Mr. Harrison's Timekeeper' (1767), the appeal to King George III and the final payment of 8,750 pounds by Parliament in 1773, and the remark that the official prize was never awarded. Short independent library biography, admiring but factual. Read in full.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/john-harrison"
+    },
+    {
+      "id": "src_harrison_cul_rgo14",
+      "kind": "archive",
+      "title": "Cambridge University Library, ArchiveSearch, 'Papers of the Board of Longitude, 1605-1830' (RGO 14), scope note and historical background -- archival description of the 1714 Act and the Board, the strict sliding scale of rewards, the Board's first recorded meeting in 1737 with its award of 250 pounds to Harrison after the Lisbon trial, further payments that let him continue, the 1761-62 Jamaica and 1764 Barbados trials of H4 and the Board's refusal to accept either as sufficient, the payment of only half the reward on condition that he disclose the construction and that copies be made, Larcum Kendall's copy K1 taken on Captain Cook's second voyage and praised by Cook and William Wales, Harrison's appeal to King George III before the majority of the rest was agreed in 1773, and the observation that the dispute eclipsed much of the Board's other work while the lunar method developed as the serious rival. Authoritative archival description from a university library, read to the end of the Harrison narrative (the later paragraphs on the Board's post-1774 work were skimmed and not used).",
+      "url": "https://archivesearch.lib.cam.ac.uk/repositories/2/archival_objects/97326"
+    },
+    {
+      "id": "src_harrison_cudl_sandwich",
+      "kind": "archive",
+      "title": "Cambridge Digital Library, 'National Maritime Museum Manuscripts: Sandwich Papers', commentary by Katy Barrett (University of Cambridge) on letters of the 1770s -- scholarly commentary on how the Board of Longitude's commissioners dealt with Harrison: that by the 1770s H4 had been found to meet the 1714 Act's limits but the commissioners wanted proof it could be replicated, Harrison's 1767 publication 'The Case of Mr. John Harrison' and his 'vitriolic' pamphlet against Maskelyne, his letters to Lord Sandwich saying he was old and unjustly treated, that more watches were unnecessary and that he was denied access to H4, his conviction that Maskelyne was jeopardising his reward to promote the lunar method, Maskelyne's 1767 publications of the watch's principles and of the negative Greenwich results, and Maskelyne's own letter showing he was affected by the attacks and had dropped a reply. Scholarly archival commentary giving both sides; Harrison's own words reach it only as described and quoted by the author, so they count as self. Read in full.",
+      "url": "https://cudl.lib.cam.ac.uk/view/MS-SAN-F-00002"
+    },
+    {
+      "id": "src_harrison_schaffer2014",
+      "kind": "press",
+      "title": "Simon Schaffer, 'Chronometers, charts, charisma: on histories of longitude', Science Museum Group Journal, Autumn 2014 (published 8 October 2014; DOI 10.15180/140203) -- essay by a Cambridge professor of the history of science: Harrison's sea clocks as now widely reckoned the most important timekeepers ever constructed, the 'comforting plot' of lone heroism victimised by authority and the need to add the wider craft, administrative and trade networks, Jonathan Betts's 2008-09 repair of H1 showing that parts were made by other skilled artisans, that relations between Harrison and the Board were warm and supportive until the 1760s, Rebekah Higgitt's finding that there was no 'Longitude Prize' as such in the 18th century, that astronomical and horological methods were treated as complementary, and that Harrison received the largest single share of the Board's rewards, about a third of its spending in all. Independent scholarly framing, sceptical of the heroic story; it is a discussion essay about the museum's research project, not a biography, and was read in full.",
+      "url": "https://journal.sciencemuseum.ac.uk/article/chronometers/"
+    },
+    {
+      "id": "src_harrison_rmg_maskelyne",
+      "kind": "institution",
+      "title": "Royal Museums Greenwich, 'Longitude found: Nevil Maskelyne and the lunar method' (story page) -- the museum's counter-voice: Harrison long portrayed as the plucky underdog, which has tarnished the reputation of Maskelyne; the lunar-distance method (Mayer's tables, John Bird's sextant, Maskelyne's 1761 St Helena test and his Nautical Almanac) as the other route to longitude, and that marine timekeepers stayed rare and expensive for decades while navigators used all methods. Short museum story, read in full.",
+      "url": "https://www.rmg.co.uk/stories/topics/longitude-found-nevil-maskelyne-lunar-method"
+    },
+    {
+      "id": "src_harrison_europeana_kul",
+      "kind": "institution",
+      "title": "Europeana record for the KU Leuven Libraries (Catholic University of Leuven) print 'John Harrison' -- etching by Burnet Reading, published by John Sewell in London on 1 September 1788 (the European Magazine), image 126 x 97 mm, inscribed 'JOHN HARRISON Esqr. / Inventor of the Time Keeper'; the record supplied by KU Leuven states the Public Domain Mark 1.0. Read through Europeana's public record API (the web page itself returns HTTP 403 to non-browser requests) together with KU Leuven's own library catalogue record and the Wikimedia Commons file 'John Harrison, PA07931.jpg'; opened to check the portrait's licence, creator and date. Not used for any scoring.",
+      "url": "https://data.europeana.eu/en/item/2024903/photography_ProvidedCHO_KU_Leuven_9983674930101488"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_harrison_rmg_story, src_harrison_rmg_h3, src_harrison_cul_rgo14, src_harrison_lindahall, src_harrison_clockmakers | 1730-1773 | museum story + museum record + university-library archive description + library biography + livery-company museum page] The museum records H1 built between 1730 and 1735, H2 withheld after a flaw, H3 begun in 1740 and worked on for nearly 19 years without winning the prize, and H4 completed in 1759; after the 1761 and 1764 trials the Board asked for further tests and conditions (the Cambridge archive description says only half the reward was paid, on condition that he disclose the construction and that copies be made), and Harrison appealed to King George III before most of the remainder was paid in 1773 (the Cambridge description and the Linda Hall biography agree); the Clockmakers' Company says he completed a fifth timekeeper, H5, at 77. Decades of sustained work through a design that failed to meet the standard, repeated trials, changed conditions and a long dispute, documented by three independent institutions; the sources are institutional and the museum narrative is sympathetic, so a clear but not extreme confidence. SELF-CALIBRATION (agent): lowered from 82/0.64 to 78/0.60 (admiring-source concentration in the museum's account of the early decades; the later dispute is independently corroborated by the Cambridge archive and the library biography, so the row was not lowered further)."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_harrison_rmg_story, src_harrison_rmg_h3, src_harrison_rmg_h4, src_harrison_smg_person, src_harrison_rmg_attr | 1730-1759 | museum story + two museum records + museum-group timeline + museum page] The museum's account runs through successive designs: H1 with two interconnected swinging balances, H2 withheld from sea trial after he found a flaw, H3 with large circular balances, the bimetallic strip and the caged roller bearing, and H4 with a radically new, fast-beating balance first tried in a pocket watch made by John Jefferys; the museum says he worked on watches as a sideline to H3 and, seeing the Jefferys watch perform, realised that the answer lay in smaller watches; the Science Museum Group's timeline records the Royal Society's Copley gold medal of 1749 for his experimental work. A documented sequence of distinct designs built, tested and replaced over three decades, but the design history comes mainly from one museum's catalogue and story, so strong inference at a moderate confidence. SELF-CALIBRATION (agent): lowered from 78/0.58 to 74/0.54 (admiring-source concentration: one museum's catalogue entries carry the design history)."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_harrison_rmg_story, src_harrison_rmg_h3, src_harrison_rmg_h4, src_harrison_rmg_attr, src_harrison_schaffer2014 | 1720s-1759 | museum story + museum records + museum page + university historian's essay] The museum says that in the mid-1720s the self-taught carpenter designed precision longcase clocks accurate to a second in a month, far better than any clocks of the time; that H1 was unaffected by a ship's motion because of its two interconnected balances; that H3 contained the bimetallic strip and the caged roller bearing, still used in thermostats and mechanical engineering; and that H4 used a radically new balance; its attraction page calls the timekeepers arguably the most important ever made, and Schaffer reports that they are now widely reckoned the most important ever constructed while warning against the lone-hero story and noting that the 2008-09 repair of H1 showed that parts of it were made by other skilled artisans. Specific new mechanisms are documented by the museum, but the praise is retrospective, no source read examines priority for the inventions, and part of the work was shared with others, so strong inference at a modest confidence. SELF-CALIBRATION (agent): lowered from 76/0.56 to 70/0.50 (retrospective praise and admiring-source concentration; interpretation stronger than behaviour, since the sources attribute some of the work to collaborators)."
+    },
+    "perfectionism": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_harrison_rmg_story, src_harrison_rmg_h3, src_harrison_cudl_sandwich | 1737-1771 | museum story + museum record + Cambridge commentary] The museum says H2 was finished within the two promised years but never went to trial because Harrison had discovered a fundamental flaw, and that he worked on H3 for 19 years, making many changes and adjustments when it would not keep time to the desired accuracy; the H3 record says he could not persuade its two large balances to keep time well enough. Withholding a finished timekeeper over a flaw and years of refinement point to a high personal standard, but both episodes come from one museum, the difficulty of the problem is an equally plausible reason for the length of the work, and the 1760s evidence runs the other way (the Cambridge commentary says he held that H4 had already proved itself and that more watches were unnecessary), so inference-level at a modest confidence with a dual-edged impact. SELF-CALIBRATION (agent): lowered from 70/0.50 to 62/0.46 (interpretation stronger than behaviour; single-institution dependence)."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_harrison_rmg_story, src_harrison_rmg_h4, src_harrison_rmg_h3 | 1739-1759 | museum story + museum records] After finding a flaw in H2 he did not put it to sea, and after the large H3 would not keep time well enough for the prize, the museum says that a pocket watch made to his design by John Jefferys performed so well that he realised the solution lay in smaller watches, and he built H4 on that design (the story page dates the commission to about 1751-52 and the H4 record to 1753). A documented change of approach after years invested in a different form, but one museum's account, a single decisive pivot, and in the 1760s the Harrisons held to their reading of the 1714 Act and rejected the Board's changed conditions, so inference-level at a modest confidence. SELF-CALIBRATION (agent): lowered from 66/0.50 to 60/0.46 (single-institution dependence; one decisive episode)."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_harrison_rmg_story, src_harrison_cudl_sandwich, src_harrison_cul_rgo14, src_harrison_lindahall, src_harrison_rmg_maskelyne | 1761-1773 | museum story + Cambridge Digital Library commentary + university-library archive description + library biography + museum page on Maskelyne] After the Board judged the 1761 trial insufficient the museum says Harrison's friends and supporters began a campaign of newspaper articles, broadsheets and pamphlets; the Cambridge commentary says that in 1767 he published 'The Case of Mr. John Harrison' against the Board and a pamphlet attacking Maskelyne that the author calls vitriolic, and that in the 1770s he wrote to Lord Sandwich that he had been unjustly treated, that more watches were unnecessary and that he was denied access to H4, naming Maskelyne as the man from whom he could least expect candour, while Maskelyne's own letter shows he was affected and had dropped a published reply; the Cambridge archive description and the Linda Hall biography say he had to appeal to the King before the remainder was paid in 1773. A decade-long openly contested dispute documented by several independent institutions, but it shows a man who felt wronged alongside a Board with its own reasons (the museum's page on Maskelyne argues that Harrison's underdog image has tarnished Maskelyne), and the pamphlets are described rather than read, so strong inference at a moderate confidence with a dual-edged impact. SELF-CALIBRATION (agent): lowered from 70/0.52 to 66/0.50 (self-quotation through the commentary: Harrison's own words reach us through one scholar's description)."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 해리슨"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT (done before deep reading): QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q314335 returned en label 'John Harrison', description 'British clockworker', born 1693-03-24 at Foulby, died 1776-03-24 in London, instance of human, citizenship Kingdom of Great Britain, occupations clockmaker, watchmaker, inventor, designer and astronomer, ko label '존 해리슨'; this is the Yorkshire-born clockmaker of the marine timekeepers (the museum and library sources give the same dates and the 24 March birth and death), not another John Harrison. SLUG/QID CHECK: no existing candidate file, production roster entry or QID collision in the roster51 worktree for slug john-harrison or Q314335. Region western_europe valid; era early_modern (James Watt and James Cook are the precedents). Vocabulary: occupations inventor and engineer, fields engineering and technology, tags self_taught, craft_focused and innovator, archetype technical_innovator and impact domains technological, engineering and innovation are existing ids used by James Watt, George Stephenson and other candidates. Zero politics: nothing political is scored; the Board of Longitude dispute is a technical and administrative reward dispute and is treated only as work behaviour. Long-tail historical profile: the evidence is overwhelmingly institutional and about his work, so sparse rows are deliberate. CANONICAL SIGNIFICANCE SOURCE: Royal Museums Greenwich, 'Longitude found: the story of Harrison's timekeepers' (https://www.rmg.co.uk/stories/time/harrisons-clocks-longitude-problem), with the Cambridge University Library archive description of the Board of Longitude papers (https://archivesearch.lib.cam.ac.uk/repositories/2/archival_objects/97326), the Science Museum Group's people record and the Worshipful Company of Clockmakers' museum page as further institutional statements of why he matters. READ (11 cited non-Wikidata sources, six of them substantive and five short records, plus the Europeana, KU Leuven and Commons records for the portrait only): the museum story page; the museum's attraction page and its collection records for H3 and H4 (the records for H1 and H2 were also read: H1 is called the first relatively successful marine timekeeper of any kind and H2 added a remontoire and was kept running at his house until the Astronomer Royal took it in 1766, but neither is cited); the Science Museum Group timeline; the Clockmakers' Company museum page (its history page has one sentence on him and was not cited); the Linda Hall Library biography; the Cambridge University Library description of the Board's papers; the Cambridge Digital Library commentary by Katy Barrett; Simon Schaffer's 2014 essay; and the museum's page on Maskelyne and the lunar method. PERSPECTIVES: a sympathetic museum narrative that still gives the Board's reasons (Royal Museums Greenwich); archival scholarship from Cambridge that documents both Harrison's and Maskelyne's sides (Barrett; the library's description of the Board's papers); a revisionist university essay that questions the lone-hero story and notes that parts of H1 were made by other artisans (Schaffer); the museum's own counter-voice on Maskelyne; an independent library biography (Linda Hall); a livery-company museum; and Harrison's own words and pamphlets only as described by Barrett (self; never sole support). CALIBRATION: six rows are supportable and the sparseness is deliberate; the highest score is 78 (persistence, documented at 0.60, with independent corroboration of the later dispute) and the highest confidence 0.60; the other rows are 74/0.54 or lower because the design history rests mainly on one museum's catalogue and story, the praise is retrospective and the sources themselves note that others contributed to the work. Traits considered and not scored: independent thinking (his choice of a mechanical method against the astronomers' preference is documented only indirectly), autonomy need and secrecy (his wish to protect his methods is a one-sentence museum characterisation that may simply reflect the reward), collaboration (the sources describe a system of divided labour and help from his brother, his son and John Jefferys, not his disposition), proactive agency, risk tolerance, detail orientation, deep focus and discipline. SELF-CALIBRATION (agent): all six rows were lowered before return -- persistence 82/0.64 to 78/0.60 (admiring-source concentration in the early decades), experimentation 78/0.58 to 74/0.54 (admiring-source concentration), creative originality 76/0.56 to 70/0.50 (retrospective praise; interpretation stronger than behaviour), perfectionism 70/0.50 to 62/0.46 (interpretation stronger than behaviour; single institution), belief updating 66/0.50 to 60/0.46 (single institution; one episode) and conflict tolerance 70/0.52 to 66/0.50 (self-quotation through one commentary). EXCLUDED: his private life and family beyond professional collaboration (his brother James, his son William and the trials they made), his religion, music and other interests, his death, and any inferred motive; the Sobel book and the 2000 film were not used. DISAGREEMENTS NOTED: the museum's story dates the commission of the Jefferys watch to about 1751-52 while its H4 record says 1753 and that work on H4 began in 1755; the Science Museum Group timeline dates H4 to 1760 and H3 to 1759 against the museum's 1759 for H4; the final payment is 8,750 pounds paid by Parliament in 1773 (Linda Hall), while the Cambridge description says the Board agreed that year to pay the majority of the rest, so the card says most of the remainder was paid in 1773; the Board's 1737 award is 500 pounds paid in two halves in the museum's story but 250 pounds in the Cambridge description of that meeting, so no card gives the 1737 sum; the museum's story says the Board's 1765 recommendation was 10,000 pounds with the other half conditional and the Cambridge description says only half the reward was paid, which agree; Schaffer (citing Higgitt) says there was no 'Longitude Prize' as such in the 18th century, so the cards say reward; the museum's 'arguably the most important ever made' is attributed to the museum, and the first-ever and earliest-clock claims in other records were not used. NOT OPENED: Harrison's own publications (The Case of Mr. John Harrison, Remarks on a Pamphlet lately published by the Rev. Mr. Maskelyne, the 1767 Principles) and Maskelyne's 1767 account in their own words, the Board's minutes, Gould's 'The Marine Chronometer' and 'John Harrison and his timekeepers', Quill's biography, Betts's 'Time Restored' (only through Schaffer's essay; no formal review was found), Sobel's 'Longitude', Higgitt's 'Maskelyne: Astronomer Royal', the American Scientist article on the Harrison-Maskelyne affair (the server returned HTTP 503), the Oxford Dictionary of National Biography entry (paywalled) and the Wikipedia article. PORTRAIT: the lead's first choice, Thomas King's 1767 oil portrait, and its 1768 Tassaert mezzotint were checked and set aside because the owning institutions state conflicting terms: the Science Museum Group's page for the mezzotint (1903-163) shows 'CC BY-NC-SA 4.0' and the Board of Trustees of the Science Museum copyright line, the Royal Museums Greenwich record of the painting (LOA1575, credit Science Museum Group) offers only a licensing button, and a search found the British Museum's mezzotint record with a Trustees copyright line; a generic public-domain tag on Commons does not override these. The portrait used is the etching 'John Harrison' by Burnet Reading, published by John Sewell in the European Magazine on 1 September 1788, inscribed 'JOHN HARRISON Esqr. / Inventor of the Time Keeper', image 126 x 97 mm, held by KU Leuven Libraries (catalogue record 9983674930101488); KU Leuven's record in Europeana states Public Domain Mark 1.0, the display fields of KU Leuven's own catalogue record (read through its public API) show no copyright or reuse statement, the work dates from 1788 by an engraver who died in 1838, and the Commons file 'John Harrison, PA07931.jpg' (original 1220 x 1931 pixels, uploaded 22 May 2025) carries the same public-domain mark. The print does not say which portrait it follows and was made twelve years after his death, so it is classified as a historical depiction, not a likeness. It was cropped to the oval portrait (1000 x 1200, no resizing and never upscaled). LEAD REVIEW (Roster51): none yet."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-harrison-reading-1788.jpg",
+    "width": 1000,
+    "height": 1200,
+    "source": "KU Leuven Libraries (Catholic University of Leuven), print 'John Harrison' (catalogue record 9983674930101488; Europeana item 2024903/photography_ProvidedCHO_KU_Leuven_9983674930101488): etching by Burnet Reading (1749/50-1838), published by John Sewell, Cornhill, on 1 September 1788 for the European Magazine, inscribed 'JOHN HARRISON Esqr. / Inventor of the Time Keeper', image 126 x 97 mm; the record supplied by KU Leuven in Europeana states the Public Domain Mark 1.0, the display fields of KU Leuven's own catalogue record show no copyright or reuse statement, and the Wikimedia Commons file 'John Harrison, PA07931.jpg' (original 1220 x 1931 pixels, uploaded 22 May 2025) is tagged public domain with the same mark. The print does not name the portrait it follows and was made twelve years after Harrison's death. Cropped to the oval portrait (1000 x 1200 pixels), not resized and never upscaled.",
+    "license": "Public Domain Mark 1.0 (KU Leuven record via Europeana; 1788 etching by an engraver who died in 1838)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Burnet Reading, etching of John Harrison, 1788 (European Magazine, published by John Sewell); KU Leuven Libraries, Public Domain Mark 1.0, cropped from the original",
+    "attributionUrl": "https://data.europeana.eu/en/item/2024903/photography_ProvidedCHO_KU_Leuven_9983674930101488",
+    "creator": "Burnet Reading",
+    "date": "1788-09-01",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:John_Harrison,_PA07931.jpg"
+  }
+}

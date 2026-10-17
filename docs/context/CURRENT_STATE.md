@@ -4,53 +4,59 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
-**Minimal update, 2026-10-16 (Roster50)**: the paragraph and Product-section
-headline below this note are stale (they predate Roster17-50 and describe a
+**Minimal update, 2026-10-17 (Roster51)**: the paragraph and Product-section
+headline below this note are stale (they predate Roster17-51 and describe a
 125-person/124-match-eligible state). Current mechanically-verified truth,
 recorded here rather than by rewriting the outdated narrative that
-follows (see `docs/checkpoints/roster50.md` for the full record):
+follows (see `docs/checkpoints/roster51.md` for the full record):
 
-- Production: **478** people. Directory-visible: **477**. Match-eligible:
-  **114** (unchanged since Legacy Integrity Batch 1; eighteenth consecutive
+- Production: **491** people. Directory-visible: **490**. Match-eligible:
+  **114** (unchanged since Legacy Integrity Batch 1; nineteenth consecutive
   new-candidate cycle at 114, the diagnostic-confirmed expected pattern, see
   `docs/checkpoints/recent-cohort-matching-architecture.md`). *(These are the
-  numbers on the unmerged `feat/roster50` branch, PR pending; `main` is at
-  463/462/114 until it merges.)*
-- Latest merged `main` SHA: `5a0b7d3c1c736d6215303dd2a99500488f2c7fc8`
-  (PR #61, Roster49 merge).
-- Latest roster: **Roster50 (fifteenth fresh cycle after the diagnostic: 15
-  frozen, 15 shipped, 0 held**; Robert Hooke (no authenticated likeness: a
-  product-model question), Erwin Schrodinger, Ferruccio Lamborghini, Caravaggio,
-  Henry Royce, Louis Sullivan and Beatrix Potter stay portrait-held), zero
-  backlog reuse (2026-10-16; shipped 6 building_discovery / 6 arts_culture / 5
-  science_knowledge by directory taxonomy deltas; building mix kept broad: two
-  sport profiles of six). Combined Roster33-50: 253 new-candidate people
-  shipped, 0 match-eligible - recorded, not re-investigated.
+  numbers on the unmerged `feat/roster51` branch, PR pending; `main` is at
+  478/477/114 until it merges.)*
+- Latest merged `main` SHA: `7aa323fdc7912d3f670ca13fc607dadb47bcd3ff`
+  (PR #62, Roster50 merge).
+- Latest roster: **Roster51 (sixteenth fresh cycle after the diagnostic: 15
+  frozen, 13 shipped, 2 held** - Kurt Godel and Maryam Mirzakhani,
+  evidence_approved, portrait rights unresolved; Robert Hooke (no authenticated
+  likeness: a product-model question), Erwin Schrodinger, Ferruccio Lamborghini,
+  Caravaggio, Henry Royce, Louis Sullivan and Beatrix Potter stay
+  portrait-held), zero backlog reuse (2026-10-17; shipped 6 building_discovery
+  / 6 arts_culture / 5 science_knowledge by directory taxonomy deltas; building
+  stayed broad: one sport profile of six). Combined Roster33-51: 266
+  new-candidate people shipped, 0 match-eligible - recorded, not
+  re-investigated.
 - **Direction**: continue the 250 -> 500 expansion lane; next scale checkpoint
-  around 500 production people (now 478, i.e. **22 to go**; not started). A
-  15-candidate Roster51 reaches at most 493, so **Roster52 is the first roster
-  that can cross 500**; the first roster whose final production count reaches
-  or exceeds 500 stops after its PR is merged and hands off to the 500-person
-  checkpoint.
+  around 500 production people (now 491, i.e. **9 to go**; not started).
+  **Roster52 is expected to be the first roster that crosses 500** (any 9 or
+  more shipped from a 15-person freeze); that roster completes and merges
+  normally, then roster expansion stops and hands off to the 500-person
+  checkpoint. Do not run the checkpoint before the crossing is real.
 - **Portrait rule (since Roster44)**: a generic Commons PD template is not
   enough when the authoritative institutional page shows a conflicting live
   copyright notice, or author and source are unknown; reconcile with concrete
   facts, choose another image, or hold.
 - **Editorial significance standard active** (`docs/editorial-content.md`
-  Major Achievement Selection Standard); Roster50 was its ninth cycle and the
-  second with the mandatory CANONICAL SIGNIFICANCE SOURCE plus agent-level
-  self-gate (now also checking significance-over-novelty and side-project
-  dominance): 15/15 PASS; agents caught 5 first-pass top-omission failures
-  (plus one novelty/side-project flag), the lead found 0 new failures. Known
-  non-blocking editorial debt: henry-ford, vincent-van-gogh, stephen-hawking
-  (older control-sample failures) and raw internal ids in Rembrandt/Kubrick
-  public source notes.
-- Next recommended task: **Roster51** (same discipline and gates, workflow
-  unchanged; leadership_society lowest priority; building_discovery 147 still
-  the thinnest published category vs. arts_culture 173 / science_knowledge 199;
+  Major Achievement Selection Standard); Roster51 was its tenth cycle and the
+  third with the mandatory CANONICAL SIGNIFICANCE SOURCE plus agent-level
+  self-gate: 15/15 PASS; agents caught 5 first-pass top-omission failures plus
+  3 novelty and 3 side-project flags, the lead found 0 new failures. New this
+  cycle: an agent-level high-row self-calibration pass (agents lowered 97 of
+  118 rows, close to a blanket cap, so keep it selective next cycle) and a
+  brief cost cap (6-9 sources per candidate). Known non-blocking editorial
+  debt: henry-ford, vincent-van-gogh, stephen-hawking (older control-sample
+  failures) and raw internal ids in Rembrandt/Kubrick public source notes.
+- Next recommended task: **Roster52** (same discipline and gates, workflow
+  unchanged; leadership_society lowest priority; building_discovery 153 still
+  the thinnest published category vs. arts_culture 179 / science_knowledge 204;
   Oceania nationals remain blocked by the missing region bucket). Legacy
   Integrity Batch 6 not started. Do not repeat the recent-cohort matching
   diagnostic without genuinely new evidence.
+
+Superseded Roster50-era note (kept short for continuity): Roster50 shipped
+15 (478/477/114), see `docs/checkpoints/roster50.md`.
 
 Superseded Roster49-era note (kept short for continuity): Roster49 shipped
 14 (463/462/114), see `docs/checkpoints/roster49.md`.

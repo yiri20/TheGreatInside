@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "james-dyson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "James Dyson",
+    "aliases": [
+      "Sir James Dyson",
+      "James Dyson"
+    ],
+    "wikidataId": "Q1346101",
+    "birthYear": 1947,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "product_designer",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "business",
+      "technology",
+      "engineering",
+      "design"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator",
+      "perfectionist"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dyson_wikidata",
+      "kind": "wikidata",
+      "title": "James Dyson (Q1346101) -- verified live via the Wikidata API (2026-10-16): English label 'James Dyson', description 'British inventor, industrial designer and founder of the Dyson company (born 1947)', born 2 May 1947, no date of death, citizenship United Kingdom, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1346101"
+    },
+    {
+      "id": "src_dyson_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica (Britannica Money), 'James Dyson', by the Editors -- encyclopedia biography: the Royal College of Art, the Sea Truck landing craft for Rotork (1970), the Ballbarrow company (1974), the 1978 idea of adapting the cyclone collectors of industrial plants such as sawmills to a household cleaner, five years and more than 5,000 prototypes, the established makers' lack of interest, the G-Force sold in Japan, the 1993 plant in North Wiltshire and the Dual Cyclone becoming Britain's top-selling vacuum cleaner within two years despite its price, the 2009 Air Multiplier bladeless fan, and his campaigning for engineering. CANONICAL SIGNIFICANCE SOURCE (a reference work's overview of his contribution). Independent, though it follows his own account in places; its CBE year (1998) conflicts with the Royal Society and Royal Designers for Industry (1996), so no honours date is taken from it, and its passages on policy reports are not used. Read in full.",
+      "url": "https://www.britannica.com/biography/James-Dyson"
+    },
+    {
+      "id": "src_dyson_royalsociety",
+      "kind": "institution",
+      "title": "The Royal Society, 'Sir James Dyson CBE FREng FRS' Fellow profile (elected 2015) -- the Society's statement that he is a renowned inventor, entrepreneur, philanthropist and supporter of science and engineering who holds 1,138 patents, funds 50 research projects at UK universities and conducts further R&D at his own facility, with subject groups in engineering and materials science. CANONICAL SIGNIFICANCE SOURCE (second; the Society's own statement of why he was elected). Institutional; the patent and funding figures were supplied at election and are not independently checked, and the word 'outspoken advocate' is not used for scoring. Read in full.",
+      "url": "https://royalsociety.org/people/11372/"
+    },
+    {
+      "id": "src_dyson_rdi",
+      "kind": "institution",
+      "title": "Royal Designers for Industry (the Royal Society of Arts faculty of distinguished designers), profile of James Dyson, Engineering Design, 2005 -- the faculty's entry and biography: founder of Dyson, six thousand engineers and scientists, technology sold in 83 markets, works listed (DC01 1993, V11 Animal 2019, Supersonic hair dryer 2019), honours and charitable giving. Institutional listing with company-supplied figures, used for the recognition card only and never for scoring. Read in full.",
+      "url": "https://royaldesignersforindustry.org/rdi/41/james-dyson"
+    },
+    {
+      "id": "src_dyson_designmuseum",
+      "kind": "institution",
+      "title": "Design Museum (London), 'Dyson G-Force' object page (Adopt an Object) -- the museum's note that, unable to find support for his invention in the UK, Dyson licensed his first design for a bagless vacuum cleaner in Japan, and that the G-Force's form, colours and cyclone feature were a success that funded his production of the DC01. Short institutional statement. Read in full.",
+      "url": "https://designmuseum.org/adopt/move/dyson-g-force"
+    },
+    {
+      "id": "src_dyson_cooperhewitt",
+      "kind": "institution",
+      "title": "Cooper Hewitt, Smithsonian Design Museum blog, 'James Dyson: Designing Out Annoyances' by Rebecca McNamara (first posted 1 May 2013, reposted 17 May 2018) -- curator's note on the DC07: his habit of treating the shortcomings of appliances as opportunities, the DC01's development through more than five thousand prototypes with one aspect changed at a time, the adaptation of industrial cyclone technology to the home, and the 2002 US launch of the DC07. Institutional blog that partly relies on his autobiography. Read in full.",
+      "url": "https://www.cooperhewitt.org/2018/05/17/james-dyson-designing-out-annoyances-2/"
+    },
+    {
+      "id": "src_dyson_foundation",
+      "kind": "institution",
+      "title": "James Dyson Foundation, 'Our Story' page -- the account published by the Dyson-supported charity: the 1978 sawmill idea and rough cardboard prototype, five years and 5,127 prototypes to the DC01, the company's growth into a global technology enterprise, and the Foundation's founding in 2002. Self-published by a Dyson-funded charity, so used only for orientation and as the origin of the prototype count, and its 'world's first bagless vacuum cleaner' wording is not used. Read in full.",
+      "url": "https://www.jamesdysonfoundation.com/who-we-are/our-story"
+    },
+    {
+      "id": "src_dyson_younge2005",
+      "kind": "press",
+      "title": "Gary Younge, 'Gold dust', The Guardian (G2), 28 February 2005 -- profile written in New York after the company's American success: his critical eye for design flaws (even in a hotel suite), the origin of the cyclone idea at a sawmill, the US launch and retailers' initial reluctance, his remark comparing his success with the Beatles and the writer's view that it was boastful, his 2004 resignation as chairman of the Design Museum over style versus substance, and the 2002 move of production to Malaysia with 800 redundancies and his account of it. Independent profile with a critical edge; its passages on wealth, dividends, taxation, the euro and litigation were read and are not used as evidence. Read in full.",
+      "url": "https://www.theguardian.com/business/2005/feb/28/science.g2"
+    },
+    {
+      "id": "src_dyson_siegle2011",
+      "kind": "press",
+      "title": "Lucy Siegle, 'James Dyson: Reinventing Britain', The Observer, 1 May 2011 (online 30 April) -- interview at the Malmesbury headquarters: his statement that he made 5,126 failed prototypes before number 5,127, the failed Contrarotator washing machine kept in his office, his refusal to design down to a cost and his dismissal of brands, the first business 'betrayal' over the Ballbarrow, the interviewer pressing him on the 2002 move abroad and his distinction between assembly and manufacturing, and his admission that he could not do three-quarters of the work in the building. Independent interview with named challenge; its passages on copying, universities and policy were read and are not used. Read in full.",
+      "url": "https://www.theguardian.com/technology/2011/may/01/reinventing-britain-james-dyson-interview"
+    },
+    {
+      "id": "src_dyson_cadwalladr2014",
+      "kind": "press",
+      "title": "Carole Cadwalladr, 'James Dyson interview: Vacuums are already smarter than people', The Guardian/Observer, 9 May 2014 -- interview: his remark that rejection by the big manufacturers revealed an opportunity, his preference for learning from failure, the clear-bin decision made against retailers' objections and market research, his reasons for keeping Dyson private and doubling research spending every two years, and the company's robotics work. Independent interviewer; much of the content is Dyson's own account, and the passages on education policy, immigration and wealth are not used. Read in full.",
+      "url": "https://www.theguardian.com/technology/2014/may/09/james-dyson-interview-engineering-education"
+    },
+    {
+      "id": "src_dyson_davies2019",
+      "kind": "press",
+      "title": "Rob Davies, 'James Dyson scraps plans to build electric car', The Guardian, 10 October 2019 -- news report on his email to staff that the electric-car project could not be made commercially viable, his statement that he had tried to sell the division and found no buyer and that it was not a product failure or a failure of the team, the 523 staff affected, and a business-school professor's comment that it never stacked up and looked like a vanity project. Independent report with an outside critic; the references to Brexit and the choice of Singapore for the factory are not used. Read in full.",
+      "url": "https://www.theguardian.com/technology/2019/oct/10/james-dyson-scraps-plans-to-build-electric-car"
+    },
+    {
+      "id": "src_dyson_islam2003",
+      "kind": "press",
+      "title": "Faisal Islam, 'Britain no longer wants to make it', The Observer, 24 August 2003 -- report on the move of the contra-rotating washing machine's production to Malaysia a year after the vacuum cleaners', with 65 further UK jobs lost on top of 800 and his reasoning that it would protect more than 1,200 design, research and engineering jobs, set inside a discussion of manufacturing policy. Independent reporting; its policy and statistics sections are not used. Read in full.",
+      "url": "https://www.theguardian.com/business/2003/aug/24/manufacturing.observerbusiness"
+    },
+    {
+      "id": "src_dyson_success2013",
+      "kind": "press",
+      "title": "Patty Onderko, 'James Dyson: The Ever-Tinkering Engineer', SUCCESS, November 2013 (page later updated) -- magazine profile: the 1978 insight and cardboard-and-duct-tape cyclone, fifteen years of rejections, lawsuits and near-bankruptcy, the G-Force in Japan in 1986 and the DC01 in 1993, his rule that engineers build and test their own prototypes while he spends his days breaking them, former design manager Marcus Hartley on his charisma and approachability, his refusal to sell the technology or go public, and his description of the 2002 move abroad as painful but recommended by his chief executive. Independent but largely favourable; the passage on his wife and household is not used. Read in full.",
+      "url": "https://www.success.com/james-dyson-the-ever-tinkering-engineer"
+    },
+    {
+      "id": "src_dyson_guardian2016",
+      "kind": "press",
+      "title": "James Dyson and Peter Gammack, 'How we made the Dyson vacuum cleaner', The Guardian, 24 May 2016 -- first-person account by Dyson and his director of design: the Hoover Junior's clogging bag, the sawmill cyclone and cardboard prototype, fifteen years and about 5,000 prototypes, the Japanese G-Force deal, the clear bin that colleagues hesitated over, the DC02 built in two years, and the investment in the company's own motors. Self plus an employee's account, so used only as one voice and never as sole support; its '22 months later' timing of the DC01 is not used. Read in full.",
+      "url": "https://www.theguardian.com/culture/2016/may/24/interview-james-dyson-vacuum-cleaner"
+    },
+    {
+      "id": "src_dyson_entrepreneur2014",
+      "kind": "press",
+      "title": "Nina Zipkin, 'James Dyson: Never Be Afraid to Fail', Entrepreneur.com via NBC News, 12 June 2014 -- short interview: the 5,127-prototype count, unreleased inventions such as the 2001 Halo headset, and Dyson's own account of an early licensing deal whose terms changed, the manufacturer making the product without him and the fraud suit he had to fight to recover his drawings. Almost entirely Dyson's own account (self), used only to corroborate other sources and never alone. Read in full.",
+      "url": "https://www.nbcnews.com/news/amp/wbna55396218"
+    },
+    {
+      "id": "src_dyson_commons_rowe",
+      "kind": "institution",
+      "title": "Wikimedia Commons file 'Sir James Dyson CBE FREng FRS.jpg' and the Royal Society Picture Library record for 'Portrait of James Dyson' (creator Debbie Rowe, taken at the Society's Admissions Day ceremony in July 2015) -- opened to check the portrait's licence: the Commons page shows a Royal Society release under CC BY-SA 4.0 and CC BY-SA 3.0 with a VRTS permission ticket, and the Library record credits CC BY-SA 3.0. Not used for any scoring.",
+      "url": "https://pictures.royalsociety.org/image-rs-18523"
+    },
+    {
+      "id": "src_dyson_sciencemuseum",
+      "kind": "institution",
+      "title": "Science Museum Group Collection, 'Dyson DC01 dual cyclone vacuum cleaner' (object 1996-160) -- catalogue record of a 1995 DC01 modified to show the vortex effect, made by Dyson Appliances Limited at Chippenham and linked to James Dyson as related person. A bare catalogue record with no interpretive text, used only to show that the museum holds the object. Read in full.",
+      "url": "https://collection.sciencemuseum.org.uk/objects/co409945/dyson-dc01-dual-cyclone-vacuum-cleaner-vacuum-cleaner"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dyson_britannica, src_dyson_designmuseum, src_dyson_success2013, src_dyson_cadwalladr2014, src_dyson_cooperhewitt, src_dyson_siegle2011, src_dyson_guardian2016 | 1978-1993 | encyclopedia biography + Design Museum + magazine profile + Observer interviews + Cooper Hewitt + his own account] Britannica says that after the 1978 idea he worked for five years, testing more than 5,000 prototypes, that the established makers showed no interest and that he sold the design to a Japanese company before opening his own plant in 1993; the Design Museum says he could not find support in the UK and licensed the G-Force in Japan, whose success funded the DC01; Success describes fifteen years of rejections, lawsuits and near-bankruptcy and dozens of near-deals that fell through (drawing on his autobiography); Cadwalladr quotes him on 'rejection after rejection', Siegle on 5,126 failed prototypes before number 5,127, and Cooper Hewitt on more than five thousand prototypes; he himself says he was heavily in debt (Guardian 2016). The sequence of rejection, licensing abroad and eventual launch is independently documented, but the prototype count and the hardship details originate in his own telling and are repeated through the same few profiles, and the span differs by source (five years to a working design, fifteen to market). SELF-CALIBRATION (agent): lowered from 84/0.68 to 80/0.62 (self-quotation through shared profiles and dependence on one narrative). LEAD REVIEW CORRECTION (Roster51, before eligibility, downward only): the prototype story that carries the row is Dyson's own account relayed through Britannica and interviews (the count and span are his claim), with few independent behavioural witnesses; score, confidence and evidenceType lowered."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dyson_cooperhewitt, src_dyson_siegle2011, src_dyson_islam2003, src_dyson_entrepreneur2014, src_dyson_cadwalladr2014, src_dyson_davies2019, src_dyson_success2013, src_dyson_britannica | 1978-2019 | museum blog + Observer interview + Observer report + Entrepreneur interview + Guardian interview + Guardian report + magazine profile + encyclopedia] Cooper Hewitt says the DC01 emerged from changing one aspect at a time across thousands of prototypes; Siegle sees the failed Contrarotator double-drum washing machine in his office and quotes him that he has failures 'all day long' (Islam reports its launch about three years before the 2003 move of its production to Malaysia); Britannica dates the Air Multiplier bladeless fan to 2009; Entrepreneur lists a 2001 headset prototype and an engine that filtered toxins, which it says never reached market; Cadwalladr has him describing fifteen years of robot development; Davies reports a battery-car project cancelled in 2019; Success says his engineers must build and test their own prototypes. Many new product categories tried over four decades, described by independent writers, but several are company projects rather than his own bench work and the failures are largely told by him, so strong inference. SELF-CALIBRATION (agent): lowered from 80/0.62 to 76/0.58 (interpretation stronger than the behaviour described: a company's product list is not the same as his own experimenting)."
+    },
+    "perfectionism": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dyson_cooperhewitt, src_dyson_younge2005, src_dyson_success2013, src_dyson_siegle2011 | 1990s-2013 | museum blog + Guardian profile + magazine profile + Observer interview] Cooper Hewitt's curator writes that he strives for perfection and changed one aspect at a time; Younge, interviewing him in a Manhattan hotel suite, records him dissecting its chairs, sofa, table and carpet ('it doesn't quite work'); Success reports that he spends his days breaking his engineers' prototypes and challenging them to go further and quotes him that if you never feel satisfied it is probably a good thing; Siegle quotes his refusal to 'design down to a cost'. Several observers describe an unusually high standard, but the strongest lines are a curator's characterisation and his own quoted statements, with one observed instance of fault-finding. SELF-CALIBRATION (agent): lowered from 78/0.58 to 72/0.54 (interpretation stronger than behaviour: one observed instance, the rest characterisation and self-quotation)."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dyson_cadwalladr2014, src_dyson_guardian2016, src_dyson_britannica, src_dyson_designmuseum, src_dyson_younge2005, src_dyson_siegle2011 | 1978-2014 | Guardian interview + his own and his design director's account + encyclopedia + Design Museum + Guardian profile + Observer interview] He kept the see-through bin although retailers said nobody would buy it and market research agreed ('I couldn't prove that people would buy it'; Cadwalladr), and design director Peter Gammack says colleagues were uncomfortable with the idea but 'he stuck to his guns'; Britannica and the Design Museum record that the established makers rejected the bagless design and that UK backing was not found, yet he went ahead; Younge reports that in 2004 he resigned as chairman of the Design Museum because he felt it was championing style over substance; Siegle quotes his refusal to design down to a cost. Independent sources corroborate the rejections and the resignation, but the clear-bin story is told by Dyson and his own employee and is a success story in hindsight. SELF-CALIBRATION (agent): lowered from 80/0.60 to 76/0.56 (retrospective success narrative and reliance on his own and an employee's telling)."
+    },
+    "autonomy_need": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_dyson_britannica, src_dyson_designmuseum, src_dyson_success2013, src_dyson_cadwalladr2014, src_dyson_siegle2011, src_dyson_entrepreneur2014 | 1974-2014 | encyclopedia + Design Museum + magazine profile + Guardian interview + Observer interview + Entrepreneur interview] After the established makers refused the bagless design he licensed it in Japan and then made the DC01 himself from 1993 (Design Museum; Britannica adds that the refusals left him with a lasting antipathy to conventional businesses); Success says he would not sell his technology or take the company public ('I'm never tempted to do an IPO') and Cadwalladr has him saying the company stays private so it can double research spending every two years; Siegle recounts the Ballbarrow partners who became majority shareholders and sold the invention without him, and Dyson's own reflection (Entrepreneur) is that he should have made the machine himself rather than keep seeking others. Decisions to control manufacture, finance and technology are documented by several independent sources, but the motives are largely his own statements and the same control also produced bitter disputes, so strong inference and dual-edged. SELF-CALIBRATION (agent): lowered from 80/0.60 to 78/0.58 (self-quotation through shared profiles)."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_dyson_success2013, src_dyson_guardian2016, src_dyson_siegle2011, src_dyson_cadwalladr2014, src_dyson_davies2019, src_dyson_younge2005 | 1978-2019 | magazine profile + his own account + Observer interview + Guardian interview + Guardian report + Guardian profile] Success describes years of near-bankruptcy while he developed the cleaner, Dyson says he was heavily in debt (Guardian 2016) and describes inventing as years of one's life and a remortgaged house (Siegle); he says that backing the clear bin against research meant being brave and risking a lot of money (Cadwalladr); Davies reports that in 2017 he confirmed a £2.5bn plan to invest in technologies including an electric car, which he cancelled in 2019, with an outside professor calling it a vanity project; against this, Younge quotes him saying the company was 'extremely cautious' about entering the American market. Willingness to commit large sums to uncertain projects is documented, but the personal-risk details are his own statements, the American entry is described as cautious, and the electric-car loss is reported with a critic's judgement, so a moderate score with a dual-edged impact."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dyson_britannica, src_dyson_designmuseum, src_dyson_success2013, src_dyson_younge2005, src_dyson_cooperhewitt | 1978-2005 | encyclopedia + Design Museum + magazine profile + Guardian profile + museum blog] After building his own cyclone prototype at home he sold the design in Japan when British makers refused and then opened his own plant (Britannica, Design Museum, Success); Younge reports that American retailers at first would not stock the product and that, after a Best Buy buyer took one home, Dysons were the best-selling floor cleaners in the country within two years of his entering the market (a claim Dyson announced), and Cooper Hewitt dates the US launch of the DC07 to 2002. Several documented instances of creating his own channels when the existing ones refused, but the American episode is one profile's retelling of company claims, so strong inference at a moderate confidence."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_dyson_davies2019, src_dyson_younge2005, src_dyson_success2013, src_dyson_siegle2011, src_dyson_cadwalladr2014 | 2002-2019 | Guardian report + Guardian profile + magazine profile + Observer interview + Guardian interview] In October 2019 he told staff that the electric-car team had built a 'fantastic car' but that 'we simply can no longer see a way to make it commercially viable', after trying and failing to sell the division (Davies); in 2002 he moved production to Malaysia against his earlier stance as a champion of British manufacturing, telling Younge it hurt to admit he could not manufacture in Britain but that it was 'the right thing to do', and telling Success that his chief executive recommended it and 'was right'; he also says he learns more from failure than from success (Cadwalladr). On the other side Siegle records him insisting 'I moved my assembly' when challenged about the 2002 move, and he kept the clear bin against market research, so the evidence points both ways. Two documented changes of course in large decisions, set against visible resistance when challenged, give a middling score with a dual-edged impact."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "제임스 다이슨"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT (done before deep reading): QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q1346101 returned en label 'James Dyson', description 'British inventor, industrial designer and founder of the Dyson company (born 1947)', born 1947-05-02, no death date, citizenship United Kingdom (Q145), instance of human, ko label '제임스 다이슨'; the lead's QID hint was correct. SLUG/QID CHECK: no existing candidate file, production roster entry or QID collision anywhere in the roster51 worktree for slug james-dyson or Q1346101 (freeman-dyson is a different person and slug). Region western_europe is a valid controlled value. FIELDS: business and technology exist and are used; engineering and design also exist and are used by other candidates, and were added because the Royal Society files him under engineering and materials science, the Royal Designers for Industry under Engineering Design, and Britannica and Wikidata call him an industrial designer. Zero politics: nothing political is scored. At least two independent perspectives and several substantive non-self behavioural sources were identified; a canonical significance source and a rights-clear portrait were found. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica (Britannica Money), 'James Dyson' (https://www.britannica.com/biography/James-Dyson), with the Royal Society's Fellow profile (https://royalsociety.org/people/11372/) and the Design Museum's G-Force page (https://designmuseum.org/adopt/move/dyson-g-force) as institutional statements of why he matters; a Royal Academy of Engineering fellow page was searched for and not found, and the Dyson Institute of Engineering and Technology, the James Dyson Foundation and the James Dyson Award are treated as incidental. LIVING SUBJECT: only documented public professional behaviour is used -- how he developed, manufactured and sold his products, his decisions about company structure, offshoring and the electric-car project, and how colleagues and interviewers describe his working methods. Excluded entirely: private life and family (including his childhood, his wife and his father), wealth, dividends and tax, litigation and patent suits as personality evidence (the Hoover case, later suits against rivals, a libel claim and a suit against a former chief executive), Brexit and all political lobbying (including the 2021 text-message affair and the 2020 ventilator episode), opinions on education, immigration and public policy, the Singapore relocation, workplace and Covid orders, and product-claim controversies; nothing is inferred about motives beyond what a source states. READ (15 sources, one of them a bare catalogue record, plus Wikidata and the Commons/Royal Society picture-library pages for identity and portrait only): Britannica; the Royal Society Fellow profile; the Royal Designers for Industry profile; the Design Museum G-Force page; the Cooper Hewitt blog; the Science Museum Group record; the James Dyson Foundation 'Our Story' page; Gary Younge's 2005 Guardian profile; Lucy Siegle's 2011 Observer interview; Carole Cadwalladr's 2014 interview; Rob Davies's 2019 report on the electric car; Faisal Islam's 2003 Observer report on the move to Malaysia; Patty Onderko's 2013 SUCCESS profile; the 2016 Guardian 'How we made' piece by Dyson and his design director; and Nina Zipkin's 2014 Entrepreneur interview via NBC News. Read but not cited: an ASME 2011 profile (it says '5,127 patents' where the prototypes are meant, a factual slip), a blog's excerpt of Wired UK's 2011 profile (excerpt only), Gizmodo's relay of Dyson's own Wired column (self), the Guardian's 2021 interview (private-life content), the Guardian's 2000 reports on the Hoover patent case (legal), and several podcast, transcript and AI-summary pages (unreliable). PERSPECTIVES: a reference-work biography; institutional statements (Royal Society, Royal Designers for Industry, Design Museum, Cooper Hewitt, Science Museum Group), some with company-supplied figures; journalists with their own interviews and critical edges (Younge on his boastfulness and the Design Museum resignation, Siegle challenging him on the 2002 move, Cadwalladr, Onderko, Islam on the offshoring, Davies with an outside business-school critic who called the electric car a vanity project); employee voices (design director Peter Gammack, former design manager Marcus Hartley); and Dyson's own words (Entrepreneur interview, the 2016 piece, the Foundation page and quotations inside interviews), marked as self and never the sole support for a row. CALIBRATION: eight rows are supportable and the sparseness is deliberate; the highest score is 80 (persistence) and the highest confidence 0.62, because the story of the prototypes, rejections and the clear bin originates in his own telling and is repeated through the same few profiles, the independent corroboration is mostly of outcomes (the Japanese licence, the 1993 plant, the 2002 and 2019 decisions, the Design Museum resignation) rather than of private hardships, and most interviewers were favourable. Belief updating is deliberately middling and dual-edged because the sources point both ways. Opportunity sensing (one documented insight, the rest self-claims), detail orientation, leadership drive, social assertiveness (his outspokenness is mostly about policy), conflict tolerance, impact motivation (advocacy overlaps with policy and with the incidental Foundation and Institute), resourcefulness and discipline were considered and not scored. SELF-CALIBRATION (agent): five rows were lowered before return -- persistence 84/0.68 to 80/0.62 (self-quotation through shared profiles and one narrative), experimentation 80/0.62 to 76/0.58 (interpretation stronger than behaviour), perfectionism 78/0.58 to 72/0.54 (interpretation stronger than behaviour), independent thinking 80/0.60 to 76/0.56 (retrospective success narrative) and autonomy need 80/0.60 to 78/0.58 (self-quotation through shared profiles); the other three rows were not changed. DISAGREEMENTS NOTED: the prototype count and span differ -- 5,127 over five years (the Foundation page and the Entrepreneur interview, both self), 'more than 5,000' over five years (Britannica, Cooper Hewitt), 'about 5,000' over fifteen years (Guardian 2016, self), three years in a workshop (Younge) and 5,126 failures before number 5,127 (Siegle, quoting him) -- so the cards use Britannica's wording and the number is treated as his own claim; Britannica dates his CBE to 1998 while the Royal Society and Royal Designers for Industry say 1996, so no honours year other than the 2005 and 2015 elections and the 2007 knighthood is used; the 2016 piece says the DC01 came 22 months after the 1986 G-Force, which conflicts with the 1993 launch, so that timing is not used; Dyson told Siegle he 'moved assembly', not manufacturing, in 2002 while the press reported 800 manufacturing jobs lost; the Design Museum states the funding of the DC01 loosely as '1993'; the Foundation's 'world's first bagless vacuum cleaner' is a claim by a company charity and is not used. NOT OPENED: Dyson's autobiographies 'Against the Odds' (1997) and 'Invention: A Life' (2021), Telegraph, Fortune, Financial Times, BBC and Wired UK originals, the Royal Academy of Engineering fellow page, the Tim Ferriss interview transcript (self) and trade-press product tests. PORTRAIT: Commons 'Sir James Dyson CBE FREng FRS.jpg' -- a studio photograph by Debbie Rowe (named as creator on the Royal Society Picture Library record RS.18523, 'Portrait of James Dyson', taken at the Society's Admissions Day ceremony in July 2015; EXIF Canon EOS 5D Mark III, 10 July 2015), uploaded to Commons by the Royal Society's own account under a VRTS permission ticket; the Commons page shows CC BY-SA 4.0 and CC BY-SA 3.0 (a featured picture) and the Royal Society's picture-library record credits CC BY-SA 3.0, which is the licence recorded here; no conflicting restriction or copyright notice was found on either page or in the file's embedded metadata; downloaded at 3724 x 5586, cropped to a 3100 x 3875 head-and-shoulders area and downscaled once to 960 x 1200, never upscaled. Rejected: Nobuyuki Hayashi's 2011 CC BY 2.0 event photograph (a usable fallback, but a small face in a full-length pose), Eva Rinaldi's 2013 Sydney product-launch photographs (CC BY-SA 2.0, 1000 px wide), Michiel Hendryckx's 2012 monochrome portrait holding a product (CC BY-SA 3.0), and a Dyson LLC publicity portrait (company-supplied, basis not verified). LEAD REVIEW (Roster51): 1 row(s) lowered before eligibility (the prototype story that carries the row is Dyson's own account relayed through Britannica and interviews (the count and span are his claim), with few independent behavioural witnesses)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/james-dyson-rowe-2015.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Sir James Dyson CBE FREng FRS.jpg' -- studio photograph by Debbie Rowe (named as creator on the Royal Society Picture Library record 'Portrait of James Dyson', image RS.18523) taken at the Royal Society's Admissions Day ceremony in July 2015 (EXIF Canon EOS 5D Mark III, 10 July 2015), uploaded to Commons by the Royal Society's uploader account under a VRTS permission ticket (2014062710019796); the Commons page (a featured picture) offers CC BY-SA 4.0 and CC BY-SA 3.0 and the Royal Society's own library record credits CC BY-SA 3.0 with no conflicting restriction, and the file's embedded metadata carries no conflicting copyright notice; original 3724 x 5586 pixels, cropped to a 3100 x 3875 head-and-shoulders area and downscaled once to 960 x 1200 (never upscaled).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Debbie Rowe for the Royal Society, 10 July 2015, CC BY-SA 3.0, cropped and downscaled from the original",
+    "attributionUrl": "https://pictures.royalsociety.org/image-rs-18523",
+    "creator": "Debbie Rowe (for the Royal Society)",
+    "date": "2015-07-10",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sir_James_Dyson_CBE_FREng_FRS.jpg"
+  }
+}

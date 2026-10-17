@@ -767,6 +767,19 @@ describe("confidence and missing data", () => {
       "rita-levi-montalcini",
       "tim-cook",
       "titian",
+      "andy-grove",
+      "bong-joon-ho",
+      "christopher-nolan",
+      "demis-hassabis",
+      "diego-maradona",
+      "f-scott-fitzgerald",
+      "frank-gehry",
+      "george-gershwin",
+      "hermann-von-helmholtz",
+      "james-dyson",
+      "john-franklin",
+      "john-harrison",
+      "wolfgang-pauli",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
@@ -1474,6 +1487,19 @@ describe("eligibility_v2 (Roster-1000 session 10)", () => {
       "rita-levi-montalcini",
       "tim-cook",
       "titian",
+      "andy-grove",
+      "bong-joon-ho",
+      "christopher-nolan",
+      "demis-hassabis",
+      "diego-maradona",
+      "f-scott-fitzgerald",
+      "frank-gehry",
+      "george-gershwin",
+      "hermann-von-helmholtz",
+      "james-dyson",
+      "john-franklin",
+      "john-harrison",
+      "wolfgang-pauli",
     ]);
     for (const p of SEED_PEOPLE) {
       if (knownNonEligible.has(p.slug)) {
