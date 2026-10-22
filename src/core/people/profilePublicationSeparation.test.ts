@@ -662,6 +662,18 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "rita-levi-montalcini",
     "tim-cook",
     "titian",
+    "billie-holiday",
+    "bjorn-borg",
+    "george-washington-carver",
+    "joseph-bazalgette",
+    "mae-jemison",
+    "michael-collins-astronaut",
+    "quentin-tarantino",
+    "roger-penrose",
+    "shigeru-miyamoto",
+    "sundar-pichai",
+    "walt-whitman",
+    "wassily-kandinsky",
     "andy-grove",
     "bong-joon-ho",
     "christopher-nolan",
@@ -677,17 +689,17 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "wolfgang-pauli",
   ]);
 
-  it("still exactly 491 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(491);
-    expect(PEOPLE_INDEX).toHaveLength(491);
+  it("still exactly 503 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(503);
+    expect(PEOPLE_INDEX).toHaveLength(503);
   });
 
-  it("still exactly 490 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 502 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(490);
+    expect(visible).toHaveLength(502);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/40/41/42/43/44/45/46/47/48/49/50/51 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/40/41/42/43/44/45/46/47/48/49/50/51/52 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

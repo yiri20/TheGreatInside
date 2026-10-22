@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wassily-kandinsky",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Wassily Kandinsky",
+    "aliases": [
+      "Vasily Kandinsky",
+      "Vassily Kandinsky",
+      "Wassily Wassilyevich Kandinsky"
+    ],
+    "wikidataId": "Q61064",
+    "birthYear": 1866,
+    "deathYear": 1944,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "RU",
+      "DE",
+      "FR"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "artist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "art",
+      "education"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "innovator",
+      "theorist",
+      "career_changer"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kandinsky_wikidata",
+      "kind": "wikidata",
+      "title": "Wassily Kandinsky (Q61064) -- verified live via the Wikidata API (2026-10-22): English label 'Wassily Kandinsky', description 'avant-garde painter of Russian origin (1866-1944)', born 1866 (4 December Julian / 22 November as recorded), died 13 December 1944, instance of human, citizenship Russia and others. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q61064"
+    },
+    {
+      "id": "src_kandinsky_britannica",
+      "kind": "biography",
+      "title": "Roy Donald McMullen, 'Wassily Kandinsky', Encyclopaedia Britannica (last updated 17 October 2026) -- reference biography. CANONICAL SIGNIFICANCE SOURCE. Read the freely served part (introduction, Early years, Munich period up to the founding of the Blue Rider); the later sections (Russian interlude, Bauhaus, Paris) are behind the subscription wall and were NOT read. Independent art-historian voice that also qualifies the 'founder of abstraction' claim.",
+      "url": "https://www.britannica.com/biography/Wassily-Kandinsky"
+    },
+    {
+      "id": "src_kandinsky_moma_almanac",
+      "kind": "institution",
+      "title": "Museum of Modern Art, catalogue entry for 'Der Blaue Reiter (The Blue Rider)', 1912 almanac edited by Kandinsky and Franz Marc -- museum text on how the almanac was proposed (June 1911), what it contained, its publisher and its guarantor. Read in full.",
+      "url": "https://www.moma.org/collection/works/9401"
+    },
+    {
+      "id": "src_kandinsky_pompidou_russia",
+      "kind": "institution",
+      "title": "Centre Pompidou on Google Arts & Culture, 'Back to Russia' -- museum story on Kandinsky's 1914-1921 years in Switzerland and Moscow: his museum and institute posts, the 1920 INKhUK programme and the Constructivist opposition to it. Read in full via a web-fetch summary of the story text (the fetch tool would not reproduce the full text).",
+      "url": "https://artsandculture.google.com/story/wgUBewBDOWMWyw"
+    },
+    {
+      "id": "src_kandinsky_pompidou_teacher",
+      "kind": "institution",
+      "title": "Centre Pompidou on Google Arts & Culture, 'Kandinsky, Artist and Teacher' -- museum story on his Bauhaus teaching, lesson notes, the 1927 free-painting seminar with Paul Klee and his archive. Read in full via a web-fetch summary of the story text.",
+      "url": "https://artsandculture.google.com/story/9wXhkULiB5FEZA"
+    },
+    {
+      "id": "src_kandinsky_bk_classes",
+      "kind": "institution",
+      "title": "Bauhaus Kooperation Berlin Dessau Weimar, 'Classes by Wassily Kandinsky' -- Bauhaus institutional account of his preliminary-course and colour teaching, the colour-form survey among Bauhaus members, the critics of that system (Oskar Schlemmer) and his free-painting classes. Read in full.",
+      "url": "https://bauhauskooperation.de/en/knowledge/the-bauhaus/training/curriculum/classes-by-wassily-kandinsky"
+    },
+    {
+      "id": "src_kandinsky_bk_bio",
+      "kind": "institution",
+      "title": "Bauhaus Kooperation Berlin Dessau Weimar, biography entry 'Wassily Kandinsky' -- dated list of his Bauhaus posts (Weimar 1922, Dessau, Berlin), the 1926 Bauhaus book 'Point and Line to Plane', the Blue Four of 1924 and the 1933 closure. Read in full via a web-fetch summary.",
+      "url": "https://bauhauskooperation.de/en/wissen/das-bauhaus/koepfe/biografien/biografie-detail/person-594"
+    },
+    {
+      "id": "src_kandinsky_tate_glew",
+      "kind": "institution",
+      "title": "Adrian Glew, 'Every work of art is the child of its time, often it is the mother of our emotions', Tate Etc. issue 7, 1 May 2006 -- Tate magazine article on the British reception of 'Concerning the Spiritual in Art' (1912 English edition 1914), with early reviews by Edward Wadsworth and Wyndham Lewis and a visitor's 1912 account of Kandinsky at Murnau. Read in full via a web-fetch summary.",
+      "url": "https://www.tate.org.uk/tate-etc/issue-7-summer-2006/every-work-art-child-its-time-often-it-mother-our-emotions"
+    },
+    {
+      "id": "src_kandinsky_schoenberg",
+      "kind": "institution",
+      "title": "Arnold Schoenberg Center Vienna, 'Schoenberg, Kandinsky, Blauer Reiter and the Russian Avantgarde' (Christian Meyer, exhibition concept) -- institutional account of Kandinsky's 1911 approach to Schoenberg, their exchange, the gifts and invitations that followed and the Weimar school suggestion. Read in full.",
+      "url": "https://schoenberg.at/en/exhibitions/past-exhibitions/schoenberg-kandinsky-blauer-reiter-und-die-russische-avantgarde-e"
+    },
+    {
+      "id": "src_kandinsky_pompidou_erfurth",
+      "kind": "archive",
+      "title": "Centre Pompidou, Musee national d'art moderne, catalogue record AM 81-65-1094 'Vassily Kandinsky' by Hugo Erfurth, 1923 (bequest of Nina Kandinsky, 1981) -- collection record for a print inscribed 'HUGO ERFURTH 1923' in the lower right of the image. Used only for portrait provenance, not as trait evidence. Read.",
+      "url": "https://www.centrepompidou.fr/en/ressources/oeuvre/cxgLpd"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kandinsky_britannica, src_kandinsky_schoenberg, src_kandinsky_moma_almanac | 1908-1913 | reference biography + institutional exhibition account + museum catalogue text] Britannica describes him as one of the first creators of pure abstraction, whose Blue Mountain, Improvisation XIV and Encircled show his move away from any recognisable starting point, and it states he wanted colours, lines and shapes to work as a visual 'language' like music; it also states that he cannot be called the only founder of non-figurative painting. The Schoenberg Center places his left-behind representational art next to Schoenberg's free tonality in 1911, and MoMA shows him building the Blue Rider almanac across the arts. Independent institutions agree on formal originality while Britannica's qualification keeps the score below 80, and the evidence is of the work, not of his working process. Self-gate note: no 'first' or 'founder' claim is relied on. SELF-CALIBRATION (agent): reviewed as a high-risk row (highest score) and left unchanged, because three independent institutions plus Britannica's own caveat support it."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_kandinsky_bk_classes, src_kandinsky_pompidou_teacher, src_kandinsky_pompidou_russia, src_kandinsky_bk_bio | 1920-1926 | Bauhaus institutional account + museum stories] At the Bauhaus he taught a form and colour theory, assigned red, yellow and blue to the square, triangle and circle on the basis of a survey he ran among Bauhaus members, wrote extensive lesson notes aimed at a 'science of art', and published 'Point and Line to Plane' (1926). In Moscow in 1920 his institute programme proposed a science of the arts and their effect on the psyche, and he proposed reorganising a museum by formal categories instead of chronology. Bauhaus Kooperation also records that his findings, presented as scientific, were acquired through introspection and that Oskar Schlemmer criticised the classification, so the systematising is documented while its rigour is contested. SELF-CALIBRATION (agent): reviewed as a high-risk row (retrospective institutional framing) and lowered from 74 to 72 because the Bauhaus source itself says the 'scientific' findings rested on introspection and drew a contemporary critic."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kandinsky_moma_almanac, src_kandinsky_schoenberg, src_kandinsky_britannica | 1911-1913 | museum catalogue text + institutional account + reference biography] MoMA says the almanac reflected his wish to break down walls between the visual arts and music, theatre, folk art, children's art and ethnography, and that it carried his stage composition 'The Yellow Sound' and music by Schoenberg and Berg; the Schoenberg Center calls him a painter with a close artistic dialogue with a composer; Britannica adds an early law and economics doctorate-level education, amateur piano and cello playing, and an 1889 ethnographic mission to Vologda. The range is documented as editorial and creative practice, not as expertise in each field, so the score stays moderate."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kandinsky_moma_almanac, src_kandinsky_schoenberg, src_kandinsky_britannica, src_kandinsky_bk_bio | 1909-1924 | museum text + institutional accounts + reference biography] He helped found the New Artists' Association in 1909 and, after a disagreement there, the Blue Rider in 1911 with Franz Marc (Britannica); MoMA records that he proposed the joint almanac to Marc in June 1911; the Schoenberg Center records that he opened the correspondence with Schoenberg in January 1911, made him a Blue Rider member, arranged a guest performance in St Petersburg and later suggested him for the Weimar music school; he co-founded the Blue Four in 1924 (Bauhaus Kooperation). Several independent institutions document repeated self-started initiatives. SELF-CALIBRATION (agent): reviewed as a high-risk row (only four of the sources are about this and two repeat the Blue Rider story) and left unchanged, since the Schoenberg and Bauhaus accounts are independent of MoMA's."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kandinsky_moma_almanac, src_kandinsky_pompidou_teacher, src_kandinsky_schoenberg, src_kandinsky_tate_glew | 1911-1927 | museum text + museum story + institutional account + museum magazine] He co-edited the almanac with Marc and drew essays from German and Russian artists (MoMA), set up a free-painting seminar with Paul Klee in 1927 (Pompidou), kept a close exchange of ideas with Schoenberg for three years (Schoenberg Center), and kept a long friendly correspondence with the British collectors Sadler and Sadleir (Tate). The sources show a pattern of partnerships rather than a measured collaborative style, and MoMA notes that the relationship with the publisher was at times volatile, so the score is moderate."
+    },
+    "persuasiveness": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_kandinsky_bk_classes, src_kandinsky_britannica, src_kandinsky_tate_glew | 1922-1930 | Bauhaus institutional account + reference biography + museum magazine] Bauhaus Kooperation reports that the majority of respondents to his colour-form survey agreed with his reasoning, that his colour-form assignment became a Bauhaus trademark, and that artists such as Max Bill attended his free-painting classes because of his reputation, while Schlemmer and others were critics; Britannica describes an authoritative bearing that helped him as a teacher; Tate records British artists taking up his ideas after the English translation. The influence is documented, but the survey was run among his own school and dissenters are named, so the evidence is partial."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kandinsky_britannica, src_kandinsky_pompidou_russia, src_kandinsky_bk_bio, src_kandinsky_pompidou_teacher | 1896-1933 | reference biography + museum stories + Bauhaus biography] Britannica (relying in part on his reminiscences) says he gave up a law and economics career and a professorship offer at about 30 to study painting in Munich; the Pompidou story says he began notes for his second theoretical essay while in Switzerland in 1914-15; he kept teaching at the Bauhaus from 1922 until it closed in 1933 and left lesson notes covering that period. The pattern is of long continuation across relocations, but part of the early evidence is his own recollection and the later moves were forced by outside events, which are not read as personality evidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "바실리 칸딘스키"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-22T00:00:00Z",
+    "updatedAt": "2026-10-22T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-22) for Q61064 returned en label 'Wassily Kandinsky', description 'avant-garde painter of Russian origin (1866-1944)', birth 1866, death 13 Dec 1944, instance of human, citizenship Russia, Germany, France and others; the lead's hint was correct. SLUG/QID CHECK: no file or reference for slug wassily-kandinsky or QID Q61064 in data-pipeline or src of the roster52 worktree. REGION: central_europe per the repository taxonomy for Russians (lead's instruction); he worked in Munich and the Bauhaus. VOCABULARY: painter, artist, teacher, art, education, artistic, cultural, educational, innovator, theorist, career_changer, creative_creator are ids already used by other candidates. ZERO POLITICS: nothing political is scored; the Constructivist dispute in Moscow is used only as an art-theory disagreement, his exile and the Nazi-era closure of the Bauhaus are not scored and no adaptability row was written from them. EXCLUDED: private life (partners, marriages, a child's death), health, finances, any inferred motives or mental state. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Wassily Kandinsky' (https://www.britannica.com/biography/Wassily-Kandinsky): primary historical contribution is pioneering abstract painting, the Blue Rider, and (via the Bauhaus sources) the form and colour theory he taught. READ (9 cited non-Wikidata sources): Britannica (free part only; the Russian-interlude, Bauhaus and Paris sections are paywalled and not read), MoMA almanac entry, two Centre Pompidou Google Arts stories and the Bauhaus Kooperation biography (read through the web-fetch tool, which summarises rather than reproduces; the lead should know these were read as summaries), Bauhaus Kooperation 'Classes by Wassily Kandinsky', the Tate Etc article (also a fetch summary), the Arnold Schoenberg Center exhibition text, and the Centre Pompidou Erfurth record. NOT OPENED: the Guggenheim biography (the page is script-rendered and returned only a cookie notice), the Metropolitan Museum essay (rate-limited, HTTP 429), the Getty finding aid for his papers (page returned no text), Kandinsky's own books (self material, not needed). PERSPECTIVES: reference biographer (Britannica), museum curators (MoMA, Centre Pompidou, Tate), Bauhaus school archive, Schoenberg Center (the composer's institution), British contemporaries via Tate. COUNTER-VOICES: Britannica says he is not the only founder of non-figurative painting; Bauhaus Kooperation names Oskar Schlemmer as a critic of his colour-form system and says his scientific claims rested on introspection; Centre Pompidou records violent attacks by the Constructivists on his 1920 programme. Non-self behavioural sources: MoMA, Schoenberg Center, Bauhaus Kooperation, Pompidou. No row depends on a single source and no self-account is the sole support. PORTRAIT: Wikimedia Commons file 'Wassily Kandinsky 1923 by Hugo Erfurth.jpg' (page opened through the Commons API: author Hugo Erfurth, date 1923, tagged PD-old-auto-expired with deathyear 1948, source the zwitscher-maschine article on Klee and Kandinsky, description notes Kandinsky's handwritten dedication to Paul Klee). Original is 467 x 638 pixels, 85,301 bytes, SHA-1 ef057de4eb62552e87bcabb1eb0c4673a37288d8, downloaded and confirmed identical in the file I saved; the image visibly carries the printed signature 'Hugo Erfurth 1923' and the handwritten dedication. RIGHTS BASIS (concrete): Hugo Erfurth (1874-1948; birth and death years confirmed on the Centre Pompidou record) died more than 70 years ago, so German and EU term life+70 expired at the end of 2018; the photograph was made in 1923, so it is also in the US public domain by the pre-1931 publication rule (95 years) and, if it was never published, by life+70 expiry in 2018. Institutional check: the Centre Pompidou holds a print inscribed 'HUGO ERFURTH 1923' (AM 81-65-1094, bequest of Nina Kandinsky, 1981); its record shows only a reproduction credit for its own digital image ('Centre Pompidou, MNAM-CCI / Georges Meguerditchian / Dist. GrandPalaisRmn') and no copyright statement on the underlying photograph; that Pompidou digital file is NOT used, only the Commons scan of a different print. Residual risk for the lead: the Commons scan was reproduced from a web article, not an archive, and the visible handwriting is a dedication from Kandinsky to Klee (not cropped, not altered). The alternative 1922 Erfurth file was also opened (617 x 800, source a Pinterest pin) and rejected because its source is an unattributed web pin. SELF-CALIBRATION PASS: rows reviewed: creative_originality, systems_abstraction, proactive_agency; lowered: systems_abstraction 74 to 72 (Bauhaus source says the 'scientific' findings rested on introspection and names a contemporary critic); no other row lowered; no broad scoring problem found. A risk_tolerance row was drafted and dropped because its only support was Britannica relaying his own reminiscence."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/wassily-kandinsky-erfurth-1923.jpg",
+    "width": 467,
+    "height": 638,
+    "source": "Wikimedia Commons, 'Wassily Kandinsky 1923 by Hugo Erfurth.jpg' -- photograph by Hugo Erfurth (1874-1948), 1923, bearing Kandinsky's handwritten dedication to Paul Klee; original 467 x 638 pixels, used unchanged and not resized or cropped. Rights basis: author died 1948 (life+70 expired end of 2018), 1923 work so also US public domain by the pre-1931 rule. The Centre Pompidou's own print record (AM 81-65-1094, inscribed 'HUGO ERFURTH 1923') names no copyright statement on the underlying photograph; its digital file was not used.",
+    "license": "Public domain (author died 1948; Commons tag PD-old-auto-expired)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-auto-expired",
+    "attribution": "Photo: Hugo Erfurth, 1923, public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Wassily_Kandinsky_1923_by_Hugo_Erfurth.jpg",
+    "creator": "Hugo Erfurth",
+    "date": "1923",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Wassily_Kandinsky_1923_by_Hugo_Erfurth.jpg"
+  }
+}

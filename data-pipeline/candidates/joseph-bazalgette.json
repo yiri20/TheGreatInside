@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "joseph-bazalgette",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Joseph Bazalgette",
+    "aliases": [
+      "Sir Joseph Bazalgette",
+      "Joseph William Bazalgette"
+    ],
+    "wikidataId": "Q981915",
+    "birthYear": 1819,
+    "deathYear": 1891,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer"
+    ],
+    "fieldIds": [
+      "engineering"
+    ],
+    "impactDomains": [
+      "engineering",
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bazalgette_wikidata",
+      "kind": "wikidata",
+      "title": "Joseph Bazalgette (Q981915) -- verified live via the Wikidata API (2026-10-22): English label 'Joseph Bazalgette', description 'British civil engineer (1819-1891)', born 28 March 1819, died 15 March 1891, instance of human, citizenship United Kingdom. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q981915"
+    },
+    {
+      "id": "src_bazalgette_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Sir Joseph William Bazalgette' -- short reference biography: chief engineer of the Metropolitan Board of Works, designer of London's main drainage system (83 miles of intercepting sewers, opened 1865, completed 1875), the Victoria, Albert and Chelsea embankments, Northumberland Avenue and the Putney and Battersea bridges; notes financial problems and consultant conflicts that delayed the work until 1859. CANONICAL SIGNIFICANCE SOURCE. Read in full.",
+      "url": "https://www.britannica.com/biography/Joseph-William-Bazalgette"
+    },
+    {
+      "id": "src_bazalgette_londonmuseum",
+      "kind": "institution",
+      "title": "Alwyn Collinson, 'How Bazalgette built London's first super-sewer', London Museum -- museum article on the 1858 Great Stink, the scale of the network (about 1,100 miles of drains, 82 miles of sewers, 318 million bricks), his insistence on Portland cement, oversized tunnels, hands-on plan review, and the 1878 Princess Alice disaster beside the outfalls. Read in full via a web-fetch summary (the fetch tool summarises rather than reproduces).",
+      "url": "https://londonmuseum.org.uk/collections/london-stories/how-bazalgette-built-londons-first-super-sewer/"
+    },
+    {
+      "id": "src_bazalgette_ice",
+      "kind": "institution",
+      "title": "Institution of Civil Engineers, 'Sir Joseph Bazalgette: Pioneer of Modern Sewage Systems' (profile dated 19 August 2025) -- professional-body profile: appointments from 1849, engineer to the Metropolitan Board of Works from 1856 until 1889, the sewer, pumping-station and embankment works, the 1888 report that led to the purchase of toll bridges, new streets, and his 1884 ICE presidency. A health episode and family details in the profile were not used. Read in full.",
+      "url": "https://www.ice.org.uk/what-is-civil-engineering/civil-engineer-profiles/sir-joseph-bazalgette"
+    },
+    {
+      "id": "src_bazalgette_thameswater",
+      "kind": "institution",
+      "title": "Thames Water, 'History of London's sewer system' -- utility's account of the 1859-1875 network, the intentional oversizing for about four million people, the gravity-and-pumping design, later extensions and the modern Tideway tunnel. A retrospective corporate account by the operator of the surviving system. Read in full.",
+      "url": "https://www.thameswater.co.uk/about-us/community/days-out/riverside-spaces/history-of-london-sewer-system"
+    },
+    {
+      "id": "src_bazalgette_victorianweb",
+      "kind": "biography",
+      "title": "Jacqueline Banerjee, 'Sir Joseph Bazalgette (1819-1891)', The Victorian Web (last modified 2011) -- scholarly web biography quoting the 1861 Observer and Roger Ellis's Who's Who in Victorian Britain; covers the 1856 appointment, the Embankment housing the sewers and the thoroughfares he designed. Family details not used. Read in full.",
+      "url": "https://victorianweb.org/technology/engineers/bazalgette.html"
+    },
+    {
+      "id": "src_bazalgette_gracesguide",
+      "kind": "archive",
+      "title": "Grace's Guide to British Industrial History, 'Joseph William Bazalgette' -- biography compiled largely from The Engineer of 15 February 1889 (the page's 1891 obituary section is empty): his sizing of the sewers with a doubled diameter against 'the unforeseen', the pumping stations, and the editor's criticisms of untreated discharge and of the cost of the embankment. Read in full via a web-fetch summary; the page's own commentary is unattributed and not used for scoring.",
+      "url": "https://www.gracesguide.co.uk/Joseph_William_Bazalgette"
+    },
+    {
+      "id": "src_bazalgette_historypolicy",
+      "kind": "institution",
+      "title": "John Davis (Emeritus Fellow in History, The Queen's College, Oxford), 'Why Thames Water is top of Sue Gray's risk register', History & Policy -- historian's policy paper that calls Bazalgette's work heroic but argues his outfall siting (about twelve miles below London Bridge, chosen for speed and cost) and the rejection of separate rainwater drainage left lasting problems, citing the 1884 Royal Commission on Metropolitan Sewage Discharge. Independent and critical. Read in full via a web-fetch summary.",
+      "url": "https://historyandpolicy.org/policy-papers/papers/why-thames-water-is-top-of-sue-grays-risk-register/"
+    },
+    {
+      "id": "src_bazalgette_sciencemuseum",
+      "kind": "institution",
+      "title": "Science Museum Group Collection, 'Joseph William Bazalgette (1819-1891)' -- museum biography: chief engineer of the Metropolitan Board of Works, his choice of wide egg-shaped brick tunnels over the narrow pipes favoured by Edwin Chadwick, and the limit that the system still discharged raw sewage near where the Princess Alice sank in 1878. Read in full via a web-fetch summary.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/cp110961/joseph-william-bazalgette"
+    },
+    {
+      "id": "src_bazalgette_rijks",
+      "kind": "archive",
+      "title": "Rijksmuseum, object record RP-F-2001-7-349-80 'Portret van Joseph Bazalgette' by Ernest Edwards (named on the object), albumen print, c. 1853 - in or before 1867, a page from a volume of portraits with a facing biographical text -- collection record whose own Copyright field reads 'Public domain'. Used only for portrait provenance, not as trait evidence. Read.",
+      "url": "https://www.rijksmuseum.nl/en/collection/RP-F-2001-7-349-80"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_bazalgette_thameswater, src_bazalgette_sciencemuseum, src_bazalgette_gracesguide, src_bazalgette_londonmuseum, src_bazalgette_historypolicy | 1850s-1870s | operator account + museum biography + trade-press compilation + museum article + historian] Thames Water says he sized the sewers for about four million people and 'believed London would only build it once'; the Science Museum says he chose wide egg-shaped brick tunnels over narrow pipes so that the system could take later increases in volume; Grace's Guide (drawing on The Engineer, 1889) reports he doubled the pipe diameter because there is 'always the unforeseen'; the London Museum agrees the tunnels were much larger than needed at the time. The historian John Davis qualifies this: speed and cost led to outfalls about twelve miles below London Bridge, and the 1884 Royal Commission found sewage drifting back upriver, and separate rainwater drains were rejected on cost. Foresight on capacity is documented by four sources; foresight on discharge is contested, hence dual-edged and moderate confidence. SELF-CALIBRATION (agent): reviewed as a high-risk row (highest score; two sources are retrospective institutional praise) and left unchanged, because the Science Museum and Grace's Guide are independent of Thames Water and Davis supplies a counter-voice already priced in."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bazalgette_ice, src_bazalgette_victorianweb, src_bazalgette_londonmuseum, src_bazalgette_britannica | 1855-1875 | professional body + scholarly biography + museum article + reference biography] The sources describe one connected network rather than separate works: street drains feeding 82-83 miles of intercepting sewers, pumping stations at Deptford, Crossness, Abbey Mills and Pimlico, outfalls downstream, and embankments built to carry the sewers along the river (Victorian Web notes the Victoria Embankment avoided routing the sewer under the Strand, Fleet Street and Ludgate Hill; ICE says the embankments housed the sewers). The evidence is of the engineering design as a whole, not of a recorded method of abstraction, and the same system's outfall flaws (see the historian in the planning row) limit how much of it is credited to him personally as chief engineer of a board, so the score is moderate."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bazalgette_londonmuseum | 1859-1875 | museum article] The London Museum describes him as a meticulous manager who reviewed every plan, personally signed drainage plans, inspected every interchange for leaks and insisted on strong, water-resistant Portland cement. This rests on one museum article, with no second source describing his working habits, so the score and confidence are held low. SELF-CALIBRATION (agent): reviewed as a high-risk row (one-source dependence) and lowered from 64 to 58 because no other source read describes his review or inspection habits."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bazalgette_britannica, src_bazalgette_ice, src_bazalgette_thameswater | 1856-1889 | reference biography + professional body + operator account] Britannica says financial problems and consultant conflicts held the drainage work back until 1859, after which the system opened in 1865 and was completed in 1875; ICE records that he stayed engineer to the Metropolitan Board of Works from 1856 until its replacement in 1889, and that in 1888 he wrote the report that led to the purchase of 12 toll bridges and then designed replacements for three of them; Thames Water dates construction 1859-1875. The pattern is a long continuation through delays and a long tenure in one post, but none of the sources describes his own response to the obstacles, so this is inference from the timeline."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조지프 배절제트"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-22T00:00:00Z",
+    "updatedAt": "2026-10-22T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-22) for Q981915 returned en label 'Joseph Bazalgette', description 'British civil engineer (1819-1891)', born 28 Mar 1819, died 15 Mar 1891, instance of human, citizenship United Kingdom; the lead's hint was correct. SLUG/QID CHECK: no file or reference for slug joseph-bazalgette or QID Q981915 in data-pipeline or src of the roster52 worktree. REGION: western_europe (UK precedent: Brunel, George Stephenson). VOCABULARY: engineer, engineering, engineering/social/historical impact domains, systematic_thinker and organizational_leader are ids already used by other candidates. ZERO POLITICS: the Metropolitan Board of Works is treated as an engineering employer; nothing political is scored. EXCLUDED: family and private life, a health episode in the 1840s (ICE, Grace's Guide and Victorian Web mention it; not used, and no personality inference is drawn from it), honours as trait evidence, and the unattributed commentary on Grace's Guide. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Sir Joseph William Bazalgette' (https://www.britannica.com/biography/Joseph-William-Bazalgette; read in full): primary historical contribution is designing and building London's main drainage system (opened 1865, completed 1875), with the Thames embankments as part of that scheme. READ (9 cited non-Wikidata sources): Britannica, ICE profile, Thames Water, Victorian Web (all downloaded and read in full), and the London Museum article, Grace's Guide, John Davis's History & Policy paper and the Science Museum Group biography (read through the web-fetch tool, which summarises rather than reproduces; the lead should know these four were read as summaries), plus the Rijksmuseum record. NOT OPENED: the National Portrait Gallery pages (Cloudflare bot-verification blocked direct fetch and the browser pane; the verification was not attempted), the Oxford Dictionary of National Biography (subscription), Stephen Halliday's books, the 1884 Royal Commission report itself (relied on through Davis). PERSPECTIVES: reference biographer, museum curators (London Museum, Science Museum), professional body (ICE), the operating utility (Thames Water), a trade-press compilation (The Engineer 1889 via Grace's Guide), an independent historian (Davis). COUNTER-VOICES: Davis (outfall siting and rainwater drainage), Grace's Guide (untreated discharge, embankment cost), London Museum and Science Museum (Princess Alice disaster beside the outfalls). DISCREPANCY NOTED: the London Museum says he reviewed 137 proposals and Grace's Guide says the Commission reviewed 116 schemes, so neither number is used; the ICE and Victorian Web give 52 acres reclaimed, the London Museum 22 acres, so no figure is used. Non-self behavioural sources: ICE, London Museum, Science Museum, Grace's Guide; no row depends on a self-account (none was used). PORTRAIT: first lead was the National Portrait Gallery's Woodburytype by Lock & Whitfield, which Wikimedia Commons tags as PD-old (photographers died 1881 and 1917). The NPG's own page, which would carry its rights statement, could NOT be opened (bot-verification wall), so the conflict check between the NPG statement and the generic Commons tag could not be completed; the NPG image was therefore NOT used, rather than defaulting to the permissive Commons tag. REPLACEMENT: Wikimedia Commons file 'Portret van Joseph Bazalgette, RP-F-2001-7-349-80.jpg' (opened through the Commons API: Rijksmuseum scan, CC0 tag, source hdl.handle.net/10934/RM0001.COLLECT.620270), a spread from a book showing an albumen print by Ernest Edwards, 'Photographed by Ernest Edwards, 20 Baker Street W.' printed under the plate, dated by the Rijksmuseum c. 1853 - in or before 1867 (Commons category: Portraits of Men of Eminence, 1864). Original scan 5822 x 3686 pixels, 2,186,222 bytes, SHA-1 58bba5fb698b42aae1d1949fabf1bc89895c6c65, downloaded and hash confirmed. The Rijksmuseum's own record page (opened) states in its Copyright field 'Public domain' (Public Domain Mark), so the institutional statement and the Commons tag agree. Rights basis: a mid-19th-century (pre-1867) photograph published in a book, far beyond any copyright term (the photographer is named on the object). Identification: the facing biography page in the same spread is headed 'Joseph William Bazalgette, Esq., C.E.'. Edit made: the print was cropped out of the book-spread scan (1070 x 1425 pixels, from the original pixels at full resolution, no resizing or upscaling), and nothing else was changed. SELF-CALIBRATION PASS: rows reviewed: planning_orientation, detail_orientation, systems_abstraction/persistence considered and not reviewed further; lowered: detail_orientation 64 to 58 (one-source dependence on the London Museum article); planning_orientation unchanged; no broad scoring problem, but the profile is sparse (4 rows) because the sources describe the engineering outputs far more than his working behaviour; that is flagged rather than padded."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/joseph-bazalgette-edwards-1864.jpg",
+    "width": 1070,
+    "height": 1425,
+    "source": "Wikimedia Commons, 'Portret van Joseph Bazalgette, RP-F-2001-7-349-80.jpg' -- Rijksmuseum scan of an albumen print by Ernest Edwards (named on the object), c. 1853 - in or before 1867, a plate from a volume of portraits with a facing biography headed 'Joseph William Bazalgette, Esq., C.E.'. Cropped from the 5822 x 3686 book-spread scan to the print alone (1070 x 1425 pixels, original resolution, not resized). The Rijksmuseum record states Copyright: Public domain. The NPG Lock & Whitfield portrait was not used because the NPG's own rights page could not be opened.",
+    "license": "Public domain (Rijksmuseum Public Domain Mark; pre-1867 photograph)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photo: Ernest Edwards, c. 1864; Rijksmuseum, Amsterdam (RP-F-2001-7-349-80), public domain; cropped from the museum scan",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-F-2001-7-349-80",
+    "creator": "Ernest Edwards",
+    "date": "c. 1864 (Rijksmuseum: c. 1853 - in or before 1867)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portret_van_Joseph_Bazalgette,_RP-F-2001-7-349-80.jpg"
+  }
+}

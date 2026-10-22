@@ -1,0 +1,197 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "walt-whitman",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Walt Whitman",
+    "aliases": [
+      "Walter Whitman"
+    ],
+    "wikidataId": "Q81438",
+    "birthYear": 1819,
+    "deathYear": 1892,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer",
+      "editor"
+    ],
+    "fieldIds": [
+      "literature",
+      "journalism"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "nonconformist",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_whitman_wikidata",
+      "kind": "wikidata",
+      "title": "Walt Whitman (Q81438) -- verified live via the Wikidata API (2026-10-22): English label 'Walt Whitman', description 'American poet, essayist and journalist (1819-1892)', born 31 May 1819, died 26 March 1892, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q81438"
+    },
+    {
+      "id": "src_whitman_poetryfound",
+      "kind": "institution",
+      "title": "Poetry Foundation, 'Walt Whitman' (biography page, poetryfoundation.org) -- read in full: Leaves of Grass (1855, 1891-2) as his monumental work, regarded with Emily Dickinson as one of America's most significant nineteenth-century poets, an influence on later poets including Ezra Pound, William Carlos Williams and Allen Ginsberg; self-published first edition of twelve poems that underwent eight subsequent editions as he expanded and revised it; Emerson's 'most extraordinary piece of wit and wisdom' verdict; his own enthusiastic review; critics' unease at style and subject (citing The Longman Anthology of Poetry on abandoning regular metre and rhyme); dismissal from the Department of the Interior after publication; warmer reception in England; Civil War clerking and hospital visits leading to Drum-Taps (1865) with the Lincoln elegy. CANONICAL SIGNIFICANCE SOURCE (his primary historical contribution). Institutional, admiring in tone; the 'first writer of a truly American poetry' line was not used as a card claim.",
+      "url": "https://www.poetryfoundation.org/poets/walt-whitman"
+    },
+    {
+      "id": "src_whitman_britannica",
+      "kind": "biography",
+      "title": "Britannica, 'Walt Whitman' by Alexander Norman Jeffares (last updated 8 September 2026) -- read in full: printer, schoolteacher, journalist and editor before 1855; sentimental early stories and poems that 'showed almost no literary promise'; unable to find a publisher, he sold a house and printed the first Leaves of Grass at his own expense with no author or publisher name on the title page; the financial failure of the 1856 edition; the greatly enlarged 1860 edition from a Boston publisher bankrupted by the Civil War; Civil War hospital visiting; his June 1865 dismissal from the Interior Department because the Secretary thought the book indecent; and its verdict that the book is a landmark of American literature written in a new form of free verse. Independent reference biography; the passage on the 1860 Calamus poems' private meaning was not used.",
+      "url": "https://www.britannica.com/biography/Walt-Whitman"
+    },
+    {
+      "id": "src_whitman_wa_leavesdroppings",
+      "kind": "institution",
+      "title": "Walt Whitman Archive (University of Nebraska-Lincoln), encyclopedia entry ''Leaves-Droppings' [1856]' by John Reitz -- read in full (via an Internet Archive copy, because whitmanarchive.org refuses automated requests): the appendix to the 1856 edition that printed Emerson's private letter without his permission, followed by Whitman's own 3,800-word reply that 'baldly exaggerates' the first edition's popular success; nine reviews of the 1855 book of which two (from the Brooklyn Daily Times and the American Phrenological Journal) were written, though unsigned, by Whitman himself; his inclusion of puzzled, mixed and flatly negative reviews; and the scholar's judgement that it shows the 'shamelessness and skill' of his early promotion. Scholarly encyclopedia entry; critical as well as factual.",
+      "url": "https://whitmanarchive.org/item/encyclopedia_entry28"
+    },
+    {
+      "id": "src_whitman_wa_rome",
+      "kind": "institution",
+      "title": "Walt Whitman Archive, encyclopedia entry 'Rome Brothers, The' by Jan Whitt -- read in full (via an Internet Archive copy): as a printer and editor Whitman placed high demands on those who worked in publishing and had assessed Brooklyn printers three years earlier; the Rome brothers printed 800 copies of the 1855 edition while letting him supervise, consult on typeface, ink, paper and layout, and set about ten pages of type himself; he selected a typeface from Scotland (12 pages of Preface in 10-point, 83 pages of poems in 12-point), came to the shop most mornings that spring to work on proofs, and wrote the Preface there. Scholarly encyclopedia entry built on standard biographies.",
+      "url": "https://whitmanarchive.org/item/encyclopedia_entry47"
+    },
+    {
+      "id": "src_whitman_wa_lg1891",
+      "kind": "institution",
+      "title": "Walt Whitman Archive, encyclopedia entry 'Leaves of Grass, 1891-92 edition' by R. W. French -- read in full for the editions record (via an Internet Archive copy): the authentic editions Whitman compiled were 1855, 1856, 1860, 1867, 1871 and 1881; the 1891-92 'Deathbed edition' is strictly an impression reprinting the 1881 text with twenty-three minor revisions (spelling, punctuation) and annexes; in 1881 the 293 poems, seventeen of them new, were given their final order and the 'clusters' extensively revised since the 1860 edition were fixed; later poems were issued as annexes (Sands at Seventy, Good-Bye my Fancy) rather than integrated. Scholarly bibliographic account; it corrects the common 'deathbed edition' framing.",
+      "url": "https://whitmanarchive.org/item/encyclopedia_entry27"
+    },
+    {
+      "id": "src_whitman_griswold",
+      "kind": "archive",
+      "title": "[Rufus W. Griswold, unsigned], review of Leaves of Grass (1855), The Criterion, 10 November 1855, as transcribed by the Walt Whitman Archive (anc.00016; via an Internet Archive copy) -- read in full: a hostile contemporary review that calls the book 'a mass of stupid filth' and deplores its disregard of 'decencies'. Hostile counter-voice used only to show how strongly the work was resisted; its insults and allegations about the author were not used for any row.",
+      "url": "https://whitmanarchive.org/criticism/reviews/lg1855/anc.00016.html"
+    },
+    {
+      "id": "src_whitman_norton",
+      "kind": "archive",
+      "title": "[Charles Eliot Norton, unsigned], review of Leaves of Grass (1855), Putnam's Monthly, September 1855, as transcribed by the Walt Whitman Archive (anc.00011; via an Internet Archive copy) -- read: a sceptical contemporary review calling the poems 'a curious and lawless collection', 'neither in rhyme nor blank verse, but in a sort of excited prose broken into lines', with slang and 'terms never before heard or seen', while quoting the Preface so that 'the writer' states his own theory. Independent critical voice that nevertheless documents the formal novelty.",
+      "url": "https://whitmanarchive.org/criticism/reviews/lg1855/anc.00011.html"
+    },
+    {
+      "id": "src_whitman_selfreview",
+      "kind": "archive",
+      "title": "[Walt Whitman, unsigned], 'Walt Whitman and His Poems', The United States Review, September 1855, as transcribed by the Walt Whitman Archive (anc.00176; via an Internet Archive copy) -- opening read: an unsigned review of his own book that opens 'An American bard at last!' and presents the author as 'one of the roughs'; the Archive lists it under Whitman's name with the note 'unsigned in original'. Self-authored promotion, used only as direct evidence of the promotional behaviour, never as evidence of the poems' quality.",
+      "url": "https://whitmanarchive.org/criticism/reviews/lg1855/anc.00176.html"
+    },
+    {
+      "id": "src_whitman_eliot",
+      "kind": "archive",
+      "title": "[George Eliot, unsigned], 'Transatlantic Latter-Day Poetry', The Leader, 7 June 1856, as transcribed by the Walt Whitman Archive (anc.00027; via an Internet Archive copy) -- opening read: a British review of the 1855 book that calls the author 'one of the most amazing, one of the most startling, one of the most perplexing, creations of the modern American mind', says he is 'no fool' though 'abundantly eccentric', and observes that the book contains much that can be fairly ridiculed. Independent, mixed contemporary voice.",
+      "url": "https://whitmanarchive.org/criticism/reviews/lg1855/anc.00027.html"
+    },
+    {
+      "id": "src_whitman_pbs",
+      "kind": "press",
+      "title": "PBS American Experience, 'Walt Whitman and the Civil War' -- read in full: Whitman went to Washington in December 1862 looking for his wounded brother; made hospital rounds as a volunteer with small gifts and by listening, soliciting donations and funding them partly from his clerk's salary; published newspaper pieces on the hospitals; finished Drum-Taps in 1865 and added the Lincoln poem and then 'When Lilacs Last in the Dooryard Bloom'd'; the hospital years gave him purpose and new inspiration for his art. Public-television history feature; admiring in tone. Used only for the Drum-Taps background, not for any behavioural row (the hospital visits are care work, not scored).",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/walt-whitman-and-civil-war"
+    },
+    {
+      "id": "src_whitman_brown",
+      "kind": "press",
+      "title": "Brown Alumni Magazine, 'Song of Himself' (2007) -- read in full: Brown's John Hay Library holds Whitman's own copy of the 1855 Leaves of Grass with anonymous galley-proof reviews pasted in ('An American bard at last!'), which scholars believe he wrote, and a broadside of Emerson's letter printed in the New York Tribune without Emerson's permission; Brown owns one copy of each of the nine lifetime editions. Short magazine item citing a librarian's belief, so it only corroborates the Archive.",
+      "url": "https://brownalumnimagazine.com/articles/2007-04-21/song-of-himself"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_whitman_poetryfound, src_whitman_britannica, src_whitman_norton, src_whitman_eliot, src_whitman_griswold | 1855-1856 | institutional biography + reference biography + two sceptical contemporary reviewers + one hostile reviewer] Poetry Foundation (citing the Longman Anthology) says he abandoned the regular metre and rhyme of his contemporaries for long cadences, and Britannica calls the 1855 poems a new form of free verse after earlier work that 'showed almost no literary promise'; the sceptical contemporary Putnam's reviewer independently describes the poems as 'neither in rhyme nor blank verse', with 'terms never before heard or seen'; the Leader review calls him 'one of the most startling' creations of the American mind; even the hostile Criterion review treats the book as the bold result of a new kind of thinking. Formal novelty is documented by admirers and by opponents alike, which supports a high score at moderate confidence; the score stays under 85 because much of the rest is retrospective institutional praise. Self-gate note: no superlative or 'first' claim is made."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_whitman_poetryfound, src_whitman_britannica, src_whitman_griswold, src_whitman_norton, src_whitman_eliot | 1855-1865 | institutional biography + reference biography + hostile and sceptical reviewers] He published without a publisher's name or his own, in a form critics found 'lawless', and kept the book intact when it brought hostile reviews and, per Britannica, his June 1865 dismissal from the Interior Department because the Secretary thought it indecent; the Leader review calls him 'abundantly eccentric' but 'no fool'. The pattern of holding to his own approach against convention is well supported, but the sources describe the result (style and reception) more than a specific deliberated decision, so strong inference; dual-edged because the stance cost him acclaim and a government post."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_whitman_poetryfound, src_whitman_britannica, src_whitman_wa_lg1891, src_whitman_brown | 1855-1892 | institutional biography + reference biography + scholarly editions record + library item] Britannica records the financial failure of the 1856 edition and the 1860 edition's publisher being bankrupted by the Civil War; the Archive's editions record shows six true editions (1855, 1856, 1860, 1867, 1871, 1881) and later impressions with annexes, with the 293 poems given their final arrangement in 1881 and 23 minor revisions to the 1891-92 impression; Poetry Foundation and Brown count eight or nine volumes in his lifetime. Decades of returning to one book despite hostile reviews and setbacks is directly documented; score held below 80 because the sources show the revisions as a timeline rather than quoting his own account of the effort."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_whitman_britannica, src_whitman_wa_rome, src_whitman_wa_leavesdroppings, src_whitman_brown | 1855-1856 | reference biography + scholarly entries + library item] Unable to find a publisher, he sold a house and printed the first Leaves of Grass at his own expense (Britannica); he chose the printers, typeface, paper and layout, set about ten pages of type himself and was at the shop most mornings that spring (Rome Brothers entry); he then arranged the 1856 appendix of reviews and Emerson's letter and wrote some of the reviews himself (Leaves-Droppings entry; Brown item). Making his own route into print when none existed is documented by independent scholarly entries."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_whitman_wa_leavesdroppings, src_whitman_selfreview, src_whitman_brown, src_whitman_poetryfound | 1855-1856 | scholarly entry + the unsigned self-review itself + library item + institutional biography] The Archive says two of the nine reviews he reprinted in 1856 were his own unsigned writing, that he printed Emerson's private letter without permission, and that his reply 'baldly exaggerates' the book's success; the unsigned United States Review piece opens 'An American bard at last!'. The promotional effort is documented, but the sources show limited persuasive effect (Poetry Foundation: little public acclaim in his lifetime) and an angry Emerson, so the row is dual-edged and kept moderate. SELF-CALIBRATION (agent): lowered from 70/0.60 to 62/0.55 because the documented behaviour is promotional effort, while the same sources show the persuasion mostly did not land in his lifetime, so the trait claim was stronger than the documented outcome."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_whitman_wa_rome, src_whitman_wa_lg1891 | 1855, 1881-1892 | two scholarly entries] The Rome Brothers entry records that he specified typeface, ink, paper and layout, selected a typeface from Scotland, split Preface and poems into 10-point and 12-point type, and worked on page proofs most mornings; the editions entry records the 1881 arrangement of poems into fixed clusters and 23 small corrections of spelling and punctuation in the 1891-92 impression. The behaviour is specific, but both entries are secondary scholarly summaries, so strong inference rather than documented."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_whitman_wa_leavesdroppings, src_whitman_griswold, src_whitman_britannica, src_whitman_poetryfound | 1855-1865 | scholarly entry + hostile review + reference biography + institutional biography] He placed puzzled, mixed and flatly negative reviews in the 1856 appendix beside the praise (Archive entry), kept publishing and revising a book that drew the Criterion's 'stupid filth' verdict and that the sources say cost him his Interior Department post, and continued to print new editions. Willingness to stay in public controversy over his work is supported, but nothing read shows how he reacted personally to any one attack, so moderate and strong inference."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "월트 휘트먼"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/walt-whitman-cox-1887.jpg",
+    "width": 954,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Walt Whitman by George C. Cox cph.3b20763.jpg' -- photograph of Walt Whitman by George C. Cox, 1887, the Library of Congress Prints and Photographs record cph.3b20763 (Commons source field {{LOC-image|id=cph.3b20763}}). Uploaded to Commons 6 February 2013 (SHA-1 15638c65 matches the downloaded file). Original 1188 x 1494 pixels (grayscale scan, 760,410 bytes); saved here downscaled once to 954 x 1200 pixels, no crop, never upscaled. The unrestored LOC scan was chosen over the featured restoration so that no restorer attribution applies.",
+    "license": "Public domain (published 1887 in the United States, before 1930; photographer George C. Cox died in 1903, so the term of life plus 70 years has also expired)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-70-1923",
+    "attribution": "Photo: George C. Cox, 1887, Library of Congress Prints and Photographs Division (public domain)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_by_George_C._Cox_cph.3b20763.jpg",
+    "creator": "George C. Cox",
+    "date": "1887",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_by_George_C._Cox_cph.3b20763.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-22T00:00:00Z",
+    "updatedAt": "2026-10-22T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-22) for Q81438 returned en label 'Walt Whitman', description 'American poet, essayist and journalist (1819-1892)', born 1819-05-31, died 1892-03-26, citizenship United States (Q30), ko label '월트 휘트먼'; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug walt-whitman or QID Q81438 in the roster52 worktree (data-pipeline/candidates, src, public/portraits). REGION: north_america (born West Hills, Long Island, New York), nationalityCodes US, era 19th_century (as for Poe and Dickinson). VOCABULARY: occupationIds poet, writer, editor; fieldIds literature, journalism; impact domains literary, cultural; tags innovator, nonconformist, independent; archetypes creative_creator, independent_creator are all existing ids used by other candidates (the Dickinson and Poe candidates use the same literary archetypes). ZERO POLITICS: nothing political is scored; Free Soil politics, the Civil War stance and the Interior Department dismissal appear only as non-scored context (the dismissal is cited as a reaction to the book's perceived indecency, not as political behaviour). EXCLUDED: sexuality and private-life inference of every kind (the Calamus poems' personal meaning in Britannica, Griswold's allegations about the author, family, health, the 1873 stroke and his death were read or seen and left unscored), and the Civil War hospital volunteering, which is care/service rather than any trait row. PERSPECTIVES (>=2 independent): (1) institutional and scholarly (Poetry Foundation, Britannica, Walt Whitman Archive encyclopedia entries, PBS); (2) hostile contemporary critics (Griswold in the Criterion, Norton in Putnam's Monthly); (3) a sympathetic-but-mixed independent British review (George Eliot in the Leader); (4) self-authored material (the unsigned self-review), used only as direct evidence of the promotional behaviour and never as sole support. SUBSTANTIVE NON-SELF BEHAVIOURAL SOURCES: the Rome Brothers, Leaves-Droppings and 1891-92 edition entries of the Walt Whitman Archive. CANONICAL SIGNIFICANCE SOURCE: Poetry Foundation, 'Walt Whitman' (https://www.poetryfoundation.org/poets/walt-whitman), read in full, supported by Britannica. READ (11 cited non-Wikidata sources plus the Commons file page): all cited sources were read as saved text, and the Walt Whitman Archive pages (whitmanarchive.org and loc.gov return HTTP 403 to automated clients) were read through Internet Archive copies of the same pages; the Archive's own 1855 review index was read to confirm the byline list. NOT OPENED: Whitman's own letters and notebooks, Kaplan's and Reynolds's biographies (lending or paywalled), the Archive's full Civil War material, the Library of Congress item pages (Cloudflare-blocked). SOURCE DISCREPANCIES: Poetry Foundation counts eight editions after the first and Britannica and Brown count nine lifetime editions, whereas the Archive's bibliographic entry says only six are true editions and the 1891-92 'deathbed' volume is an impression, so the cards say 'nine volumes titled Leaves of Grass, of which the Archive counts six as true editions' only. The reviews attributed to Whitman rest on the Archive entry's statement (two of nine) and on a librarian's belief in the Brown item. PORTRAIT: Commons file 'Walt Whitman by George C. Cox cph.3b20763.jpg' (1887, Library of Congress cph.3b20763, Commons tag PD-old-70-1923); the loc.gov item page is Cloudflare-bot-checked so the Commons wikitext's LOC reference was the documented basis; the rights basis is independent of the LOC page's wording: an 1887 US publication (Kaplan, quoted on the sibling Commons file, says Cox put copies of his portraits on sale in 1887) is public domain in the United States by date, and Cox's death in 1903 (taken from the sibling restoration's PD-old-100-expired tag) puts it in the public domain by life plus 70 years elsewhere. No conflicting institutional notice was reachable, which is stated here rather than assumed away. SELF-CALIBRATION: reviewed creative_originality (80, retrospective praise risk; kept because hostile and sceptical contemporaries independently document the formal novelty), persistence (76, timeline-based evidence; kept) and persuasiveness (lowered, see row). SCOPE FLAG: the profile has seven rows; no padding, and no row for care, compassion or sexuality."
+  }
+}

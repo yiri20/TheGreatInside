@@ -4,6 +4,15 @@
 is the source of truth, not this file's cached number. Re-run the tool if
 the task depends on an exact current figure.
 
+**Top summary, 2026-10-22 (Roster52, milestone reached)**: production
+**503** (directory-visible 502, match-eligible 114 unchanged) on the unmerged
+`feat/roster52` branch (PR pending; `main` is at 491/490/114 until it
+merges). The **500-person milestone was reached** (12 frozen, 12 shipped, 0
+held, 0 eligible; cumulative Roster33-52: 278 shipped, 0 eligible).
+**Roster expansion is paused.** Next task: merge the Roster52 PR, then run the
+500-person scale checkpoint (not started; no benchmark yet). Full record:
+`docs/checkpoints/roster52.md`. The 2026-10-17 block below is the Roster51 state.
+
 **Minimal update, 2026-10-17 (Roster51)**: the paragraph and Product-section
 headline below this note are stale (they predate Roster17-51 and describe a
 125-person/124-match-eligible state). Current mechanically-verified truth,

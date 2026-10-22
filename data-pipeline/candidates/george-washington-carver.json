@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "george-washington-carver",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "George Washington Carver",
+    "aliases": [
+      "George W. Carver",
+      "Dr. George Washington Carver"
+    ],
+    "wikidataId": "Q296898",
+    "birthYear": 1864,
+    "deathYear": 1943,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "agronomist",
+      "scientist",
+      "educator"
+    ],
+    "fieldIds": [
+      "agriculture",
+      "chemistry",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "social"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "mentor",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_carver_wikidata",
+      "kind": "wikidata",
+      "title": "George Washington Carver (Q296898) -- verified live via the Wikidata API (2026-10-22): English label 'George Washington Carver', description 'African American botanist and inventor (1864-1943)', born 1864 (year only), died 1943-01-05, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q296898"
+    },
+    {
+      "id": "src_carver_acs",
+      "kind": "institution",
+      "title": "American Chemical Society, National Historic Chemical Landmarks, 'George Washington Carver: Chemist, Teacher, Symbol' (landmark designated 27 January 2005 at Tuskegee University; web version of the 2007 commemorative booklet) -- read in full: his early life and training (Simpson College, Iowa State, master's degree 1896 under the mycologist L. H. Pammel); Booker T. Washington's 1896 call to Tuskegee; the friction over his salary, his two dormitory rooms, his wish for a laboratory of his own and relief from teaching and committee work, and his running feud with a subordinate; the 10-acre experiment station, where legume rotation took a half-acre sweet potato plot from 40 to 266 bushels without commercial fertilizer; the products from sweet potatoes and peanuts (more than 300 from the peanut); the 1906 Jessup wagon; the 44 bulletins of 1898-1943 written, edited and typed by Carver in a one-man, underfunded station; the 1921 House Ways and Means testimony; the 1930s peanut-oil massage claims ('a bit of the charlatan', yet he never took payment); his role as teacher and mentor; and the closing verdict that he was a scientist 'not one who always used the most rigorous methods' whom many groups adopted as a symbol. Balanced institutional account that names both achievements and weaknesses. CANONICAL SIGNIFICANCE SOURCE (his primary historical contribution: agricultural research, soil-restoring rotation and extension teaching for poor Southern farmers, and crop-product development).",
+      "url": "https://www.acs.org/education/whatischemistry/landmarks/carver.html"
+    },
+    {
+      "id": "src_carver_eoa",
+      "kind": "institution",
+      "title": "Encyclopedia of Alabama, 'George Washington Carver' (encyclopediaofalabama.org) -- read in full: recruited in 1896 to head Tuskegee's new school of agriculture and experiment station, arriving in October 1896 meaning to stay a few years; early friction over salary and his demand for a room to paint; an experiment station funded far below the nearby all-white Auburn station; research aimed at the 'man fartherest down' with low-cost substitutes needing no commercial fertilizer, and sweet potatoes, cowpeas and peanuts as soil-replenishing, protein-giving alternatives to cotton; 'cookstove chemistry'; two-day conferences at fairs and short courses fitted to sharecroppers' time and literacy; the Movable School run for decades by his former student Thomas Monroe Campbell; the 1921 peanut tariff testimony that made him the 'Peanut Man'; the struggling Carver Products Company of the 1920s; and the verdict that 'Much of his fame was based upon myth, but his real contributions were significant.' Independent state reference work, admiring of the work and openly critical of the myth; it does not use the term crop rotation.",
+      "url": "https://encyclopediaofalabama.org/article/george-washington-carver/"
+    },
+    {
+      "id": "src_carver_nps",
+      "kind": "institution",
+      "title": "National Park Service, George Washington Carver National Monument, 'George Washington Carver' article (nps.gov/articles/gwcarver.htm) -- read in full: born into slavery in Missouri; education at Simpson College and Iowa State (Bachelor of Agriculture 1894, Master of Agriculture 1896); Booker T. Washington's 1896 invitation to head Tuskegee's Agriculture Department, where Carver taught for 47 years; his stated aim 'to be the greatest good to the greatest number of my people'; research on alternatives to cotton, more than 100 uses for the sweet potato and more than 300 for the peanut; and the movable school named for its backer Morris K. Jesup. Official park-service biography, admiring and brief; it does not mention patents, bulletins or myths.",
+      "url": "https://www.nps.gov/articles/gwcarver.htm"
+    },
+    {
+      "id": "src_carver_biography",
+      "kind": "press",
+      "title": "Biography.com, 'George Washington Carver: Beyond Peanuts' -- read in full: he did not invent peanut butter; the 1921 House Ways and Means testimony after the United Peanut Association of America asked him to speak, after which the 'Peanut Man' association stuck; the 1930s peanut-oil massage treatment of polio patients with 'no scientific evidence it helped'; the 1916 bulletin on growing and preparing peanuts; his refusal to keep a fixed list of his products; the correspondence with John Harvey Kellogg (1919-26) and the friendship with Henry Ford; weeds and wild plants promoted as food, with a former student's 1948 complaint that the dishes tasted terrible; and that he filed only three patents ('it would take so much time I would get nothing else done'). Popular-press profile that corrects the peanut-butter myth; it does not discuss rotation, teaching or the Jesup wagon.",
+      "url": "https://www.biography.com/scientists/a70226323/george-washington-carver-beyond-peanuts"
+    },
+    {
+      "id": "src_carver_nihf",
+      "kind": "institution",
+      "title": "National Inventors Hall of Fame, inductee profile 'George Washington Carver' (invent.org) -- read in full: two U.S. patents listed (Nos. 1,522,176 and 1,541,478, the page does not say what they cover); 325 uses credited for the peanut and flour, vinegar, ink, dyes and paints from the sweet potato; soil studies at Tuskegee; teaching farmers to rotate cotton with legumes and sweet potatoes; the 1921 testimony; the ranking of peanuts among leading U.S. crops by 1940; his life savings left to a research institute at Tuskegee; and the 2005 ACS landmark. A promotional hall-of-fame profile whose claims are not independently sourced; the page and Biography.com disagree on the number of patents (two against three), so no patent count is used here.",
+      "url": "https://invent.org/inductees/george-washington-carver"
+    },
+    {
+      "id": "src_carver_nal_bulletins",
+      "kind": "institution",
+      "title": "USDA National Agricultural Library, 'George Washington Carver's Tuskegee Institute Experiment Station Bulletins' (exhibit by Emily Marsh) -- read in full: 38 Carver bulletins of 1898-1942 held by the library, in six topic groups (crop development, farm management, homemaking, livestock, rural schools, soil productivity); bulletins written for the 'poor tenant farmer with a one-horse equipment', rural schoolteachers and housewives; Carver as author of all but four of about 25 station bulletins in the 15 years after 1905 (citing Hersey 2006); plain, list-based instruction mixed with moralising; the 1898 'Feeding Acorns' opening that promises work 'of direct benefit to every farmer'; sweet potato yields, soil bulletins building on Liebig, cotton breeding, alfalfa on sandy soil, 1918 and 1922 sweet potato product bulletins and 1942 wartime wild-greens guidance; and the exhibit's own caveats that some claims are unsubstantiated and the information dated. Library exhibit read for the content of the bulletins themselves, descriptive rather than evaluative.",
+      "url": "https://www.nal.usda.gov/exhibits/ipd/carver/exhibits/show/bulletins"
+    },
+    {
+      "id": "src_carver_tuskegee_jesup",
+      "kind": "archive",
+      "title": "Tuskegee University Archives, digital repository record 'Jesup Agricultural Wagon' (archive.tuskegee.edu) -- read in full: Carver's hand-drawn illustration of the wagon (circa 1906), described as his means of conducting extension work in rural Alabama, named for the northern banker Morris Jesup who funded it, the first vehicle of Tuskegee's Movable School and, in the archive's words, the model for the U.S. Department of Agriculture's extension service. A short institutional archive description; the claim about the USDA model is the archive's own and is not repeated here as fact, the ACS booklet saying only that the wagon was made part of the Department's outreach.",
+      "url": "https://archive.tuskegee.edu/repository/jesup-wagon/"
+    },
+    {
+      "id": "src_carver_uga_hersey",
+      "kind": "press",
+      "title": "University of Georgia Press, publisher's description of Mark D. Hersey, 'My Work Is That of Conservation: An Environmental Biography of George Washington Carver' (2011) -- read in full with the quoted reviewer: the scholarly biography argues that Carver, widely and reductively remembered as the scientist who found many uses for the peanut, developed his most important agricultural and environmental thinking at Tuskegee among the depleted soils, poverty and institutional racism of Alabama's Black Belt, and that Progressive Era agronomy was 'greener' than commonly assumed. Publisher's blurb for an independent historian's monograph (the book itself was not opened); used only for the independent historian's framing of how his legacy has been narrowed.",
+      "url": "https://ugapress.org/book/9780820330884/my-work-is-that-of-conservation"
+    },
+    {
+      "id": "src_carver_loc_portrait",
+      "kind": "archive",
+      "title": "Library of Congress Prints and Photographs Division, 'George Washington Carver, full-length portrait, standing in field, probably at Tuskegee, holding piece of soil' (photograph by Frances Benjamin Johnston, 1906; LCCN 95507555, reproduction number LC-J694-520, digital id cph.3c14302, Booker T. Washington Collection), as reproduced on its Wikimedia Commons file page -- checked for the portrait's rights only; the Library's own web page returned HTTP 403 (bot challenge) to every fetch, so the record was read through Commons, which reproduces the Library's rights line 'No known restrictions on publication'. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:George_Washington_Carver,_full-length_portrait,_standing_in_field,_probably_at_Tuskegee,_holding_piece_of_soil_LCCN95507555.jpg"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_carver_acs, src_carver_eoa, src_carver_nal_bulletins, src_carver_biography, src_carver_nps | 1896-1943 | institutional booklet + state reference + library exhibit + popular profile + park service] The ACS booklet quotes his 1896 acceptance letter ('the greatest good to the greatest number of my people') but also documents conduct that fits it: research aimed at what 'a poor tenant farmer with a one-horse equipment' could afford, legume rotation that raised yields without commercial fertilizer, clay-based paints because poor farmers could not buy commercial ones, and massage treatments for which he 'never took payment'; the Encyclopedia of Alabama describes research aimed at the 'man fartherest down' and extension fitted to sharecroppers' time and literacy; the National Agricultural Library exhibit shows bulletins written for tenant farmers, schoolteachers and housewives and opening with a promise of work 'of direct benefit to every farmer'; Biography.com records that he filed only a few patents because patenting would consume his time. The stated purpose is his own, but several unrelated sources document choices of subject, audience and format that match it over decades, so documented at a good confidence; the sources are admiring and the Hersey blurb adds that he was reduced in memory to the peanut."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_carver_acs, src_carver_eoa, src_carver_nal_bulletins | 1896-1920s | institutional booklet + state reference + library exhibit] The ACS booklet documents a one-man experiment station on 10 acres with no stenographer and no printing press, whose bulletins he wrote, edited and typed himself and printed at the school's often penniless printing office, with Carver begging for money for production costs; the Encyclopedia of Alabama says the station received far less funding than the all-white Auburn station and describes 'cookstove chemistry', hundreds of products from peanuts, sweet potatoes and native clays meant to replace goods farmers had to buy; the library exhibit shows bulletins on cooking with wild plums, wild greens and local clay colour washes. Achievements under documented shortage and with local materials come from three independent institutions; the product count (more than 300 for the peanut) is quoted loosely across sources, and the Encyclopedia notes that such substitutes 'could hardly succeed commercially', so the trait is documented but the outcomes mixed."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_carver_acs, src_carver_eoa, src_carver_biography, src_carver_nihf | 1921-1930s | institutional booklet + state reference + popular profile + hall of fame] The ACS booklet says his 1921 testimony before the House Ways and Means Committee began badly (shabby dress, fumbling with samples) but his time was repeatedly extended, he received a standing ovation and, in his biographer's words relayed there, 'won a tariff for the peanut industry'; the Encyclopedia of Alabama says the testimony launched his 'Peanut Man' image and that he dazzled lecture audiences with peanut products; Biography.com says the committee at first doubted him because he was Black and that he won them over; the booklet also calls him a showman with a high-pitched voice who used drama and humour, and the National Inventors Hall of Fame says the testimony earned the tariff. The episode is described consistently, but the sources are retellings of one hearing rather than independent observations, the tariff effect is stated only in summary, and a showman's reputation is not evidence of persuading farmers. SELF-CALIBRATION (agent): first-pass 72 / 0.60 lowered to 68 / 0.56 because the central episode rests on one biographer's account retold by the other sources and the tariff outcome is never detailed."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_carver_acs, src_carver_nps, src_carver_eoa | 1896-1943 | institutional booklet + park service + state reference] The ACS booklet documents that Carver, rejected by one Kansas college because of his race, went on to Simpson and Iowa State, then ran a 'one-man operation' that issued 44 bulletins between 1898 and 1943 'laboring against impossible odds' with chronic underfunding; the National Park Service says he taught at Tuskegee for 47 years, and the Encyclopedia of Alabama says he arrived planning to stay only a few years and stayed for the rest of his career. A long, documented record of continuing work under shortage and obstruction, but the sources give summary counts and dates rather than worked episodes, and part of the later output was the lecture circuit and the products company rather than sustained research, so a moderate score and confidence."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_carver_acs, src_carver_eoa | 1896-1915 | institutional booklet + state reference] The ACS booklet documents that he insisted on a laboratory for his exclusive use and relief from teaching, demanded and was given two dormitory rooms (one for his plant specimens), often refused Booker T. Washington's suggestions, which Washington admitted were 'a polite way of giving orders', and wanted 'freedom to tinker in his laboratory'; it adds that Washington refused to let him stop teaching and that his successor Robert Moton relieved him of all teaching except summer school; the Encyclopedia of Alabama independently records his unusual demands, including a room for painting, and the faculty friction they caused. Two independent institutional accounts document the same pattern of bargaining for room to work in his own way, which helped his research but strained his standing at the school and his administrative duties; the ACS booklet is the detailed source and the biographers behind it are not named."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_carver_acs, src_carver_nal_bulletins, src_carver_eoa | 1898-1920s | institutional booklet + library exhibit + state reference] The ACS booklet reports that on the station's 10 acres he used cultivation practices and legume rotation to lift a half-acre sweet potato plot from 40 to 266 bushels and showed that cotton planted after legumes yielded more; the library exhibit describes bulletins reporting yield trials for sweet potatoes, cotton breeding, alfalfa on sandy soil and product bulletins on flour and starch from the sweet potato; the Encyclopedia of Alabama describes him testing substitutes in what it calls 'cookstove chemistry'. Repeated field trials are documented in several places, but the same booklet concludes he was 'not one who always used the most rigorous methods', the bulletins mix findings with moralising, and the peanut-oil polio claims were unsupported, so this is strong inference of an experimental habit, not of rigorous method, at a modest confidence."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_carver_acs, src_carver_eoa, src_carver_nal_bulletins | 1890-1940s | institutional booklet + state reference + library exhibit] The ACS booklet records that he enrolled at Simpson as an art major, switched to botany and agriculture on his painting teacher's advice, worked under a mycologist on plant diseases, then at Tuskegee combined soil work, plant products, chemistry and teaching; the Encyclopedia of Alabama notes he asked for a room to paint at Tuskegee; the library exhibit lists bulletins on soils, cotton breeding, livestock, cooking, canning, ornamental plants, a fungus study and nature study for rural schools. Breadth across art, plant science, agricultural chemistry, home economics and teaching is documented by three sources, but most of it sits within one applied purpose (farm and household improvement) and the painting is a one-line mention here, so strong inference at a modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조지 워싱턴 카버"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/george-washington-carver-johnston-1906.jpg",
+    "width": 959,
+    "height": 1200,
+    "source": "Library of Congress, Prints and Photographs Division, LCCN 95507555 (LC-J694-520; cph.3c14302; Booker T. Washington Collection): 'George Washington Carver, full-length portrait, standing in field, probably at Tuskegee, holding piece of soil', photograph by Frances Benjamin Johnston (1864-1952), 1906. The image is the Library's own scan as mirrored on Wikimedia Commons (3282 x 4096 pixels, 839,321 bytes, SHA-1 33ff2bd0d46beca115967024d243377facca83d8, checked against the Library's 821 x 1024 pixel download at cdn.loc.gov: mean grey-level difference about 2 of 255, the same photograph); the Commons record carries the Library's rights line 'No known restrictions on publication' and the Library credit. It is the unrestored Library scan, not a third-party restoration. Saved as a crop of the figure's upper body (about 1999 x 2499 pixels of the original) downscaled once to 959 x 1200 (never upscaled).",
+    "license": "Public Domain (published 1906; photographer died 1952; Library of Congress: no known restrictions on publication)",
+    "licenseUrl": "https://www.loc.gov/rr/print/195_copr.html",
+    "attribution": "Frances Benjamin Johnston, 1906, Library of Congress Prints and Photographs Division (LC-J694-520)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:George_Washington_Carver,_full-length_portrait,_standing_in_field,_probably_at_Tuskegee,_holding_piece_of_soil_LCCN95507555.jpg",
+    "creator": "Frances Benjamin Johnston",
+    "date": "1906",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.loc.gov/pictures/item/95507555/"
+  },
+  "provenance": {
+    "createdAt": "2026-10-22T00:00:00Z",
+    "updatedAt": "2026-10-22T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-22) for Q296898 returned en label 'George Washington Carver', description 'African American botanist and inventor (1864-1943)', born 1864 (year precision only), died 1943-01-05, citizenship United States (Q30), ko label present; the lead's hint was correct. SLUG/QID CHECK: no file or reference for slug george-washington-carver or QID Q296898 in data-pipeline or src in the roster52 worktree. REGION: north_america (born Missouri, worked in Alabama). BIRTH YEAR: Wikidata gives 1864, while the ACS booklet says he was 'probably' born in spring 1865 and that Carver himself never fixed the date; 1864 follows Wikidata and the ACS statement is recorded here. VOCABULARY: occupations agronomist, scientist, educator; fields agriculture, chemistry, education; tags field_researcher, mentor, overcame_adversity; archetypes scientific_explorer and social_influencer; impact domains scientific, educational, social are all ids already used by other candidates. ZERO POLITICS: nothing political is scored (the Booker T. Washington accommodation philosophy, segregationist and interracial-cooperation uses of his image, and the Ford and chemurgy movement are context only; his tariff testimony is scored only as a persuasion episode, not as political activity). CANONICAL SIGNIFICANCE SOURCE: American Chemical Society, 'George Washington Carver: Chemist, Teacher, Symbol' (https://www.acs.org/education/whatischemistry/landmarks/carver.html; read in full), supported by the Encyclopedia of Alabama, the National Park Service and the National Agricultural Library bulletin exhibit. It gives the institutional assessment: a Tuskegee agricultural scientist and teacher whose real contribution was soil-restoring legume rotation, extension teaching and affordable crop products for poor Southern farmers, not the popular peanut-inventor story. READ (9 cited non-Wikidata sources): ACS landmark booklet page (in full, from local text); Encyclopedia of Alabama; NPS article; Biography.com; National Inventors Hall of Fame; NAL bulletins exhibit and the NAL landing page (only the exhibit is cited, its summary being the substantive part); Tuskegee Archives Jesup wagon record; the UGA Press blurb for Hersey's biography; Commons file page for the portrait. PERSPECTIVES: the ACS (chemists' institution, balanced and critical in parts), a state reference work (names the myth), the National Park Service and a hall of fame (admiring), a library exhibit of the bulletins themselves (his own written output), a popular-press profile that corrects the peanut-butter myth and notes the unsupported polio claims, a university-press blurb for an independent historian, and Carver's own words relayed by the ACS and NAL (self, never sole support). COUNTER-VOICES: the ACS ('a bit of the charlatan', 'not one who always used the most rigorous methods'), the Encyclopedia of Alabama ('much of his fame was based upon myth'; distracted by the 1920s products company), and Biography.com (no evidence the peanut-oil massages helped). MYTH CHECK: peanut butter was not invented by him (Biography.com; also a general web search listing earlier inventors, not opened); he did not invent crop rotation (the sources describe him as teaching and popularising rotation of cotton with legumes, the Encyclopedia of Alabama not using the term); the 'more than 300 peanut products' figure is the ACS's and varies by source (NIHF says 325, Biography.com declines to list), and a web search summary said historians consider many of his suggested uses not wholly original, which no source opened here states, so no originality row is scored; the Tuskegee archive's claim that the Jesup wagon was the model for the USDA extension service is the archive's own and unrepeated; the patent count differs (two at NIHF, three at Biography.com) so none is used. CALIBRATION: sources are authoritative on his work and admiring in tone with two sources critical; they describe outcomes and episodes more than day-to-day behaviour; no score exceeds 80, no confidence exceeds 0.66, and seven rows are kept. SELF-CALIBRATION (agent): the three highest-risk rows were reviewed (impact motivation, persuasiveness, resourcefulness); one lowered and two unchanged. Lowered: persuasiveness 72/0.60 to 68/0.56 (the central 1921 episode is one biographer's account retold by four sources and the tariff effect is never detailed). Unchanged: impact motivation 78/0.66 (the stated aim is self-quoted but several unrelated sources document subject, audience and format choices consistent with it, and the ACS also documents a self-image he guarded) and resourcefulness 74/0.62 (three independent institutions describe shortage and local-material work). TRAITS NOT SCORED: creative originality (the originality of his product uses is contested and no source opened assesses it), analytical rigor and belief updating (the ACS calls his methods not always rigorous and the polio claims are unsupported, but no source documents how he reasoned or whether he revised claims, so a low or high score would be unsupported), collaboration and mastery orientation (his mentoring of 'his boys' and Thomas Campbell is documented but is carded as teaching, not scored as a trait), discipline and planning orientation (the ACS calls him disorganised and administratively sloppy, yet the bulletin shortfall is explained by one-man underfunding), curiosity (a boyhood plant interest from the ACS is self-sourced), risk tolerance, deep focus, adaptability. FACT CONFLICTS RECORDED: birth year (1864 Wikidata against probably 1865 in the ACS); number of bulletins (44 in the ACS, 38 held by the NAL, so the cards say 'dozens' or attribute the figure); patents (two against three); the Iowa State 'first African American student' claim differs across sources and is not used. KOREAN NAME: 조지 워싱턴 카버 is the Wikidata Korean label; Korean-press usage was not separately checked. PORTRAIT: Frances Benjamin Johnston, 1906, Library of Congress LCCN 95507555. Rights basis: published 1906 and the photographer died in 1952, so US and life-plus-70 terms have run; the Library's rights line, as reproduced on the Commons record, is 'No known restrictions on publication'. The Library's own item page and JSON API returned HTTP 403 to every fetch (bot challenge), so the institutional notice was read only through Commons (a generic Commons tag alone would not override a conflicting notice, but no conflicting notice was found: the National Park Service virtual-exhibit page that shows the same image carries no credit or restriction line). Alternatives checked and not used: Commons 'George Washington Carver c1910.jpg' (Tuskegee University Archives, author 'not listed', tagged PD-US-expired with no documented publication, so the rights basis is weaker) and Adam Cuerden's restoration of another 1906 Johnston image (a third-party restoration). The file was opened and shows Carver in a cap, jacket and bow tie holding a clump of soil in a field. NOT OPENED: Linda McMurry's and Hersey's books, the Tuskegee bulletins' full text, the ACS commemorative booklet PDF (the web version was read), the Smithsonian and Iowa State pages (certificate or search-only), Library of Congress item page (403)."
+  }
+}

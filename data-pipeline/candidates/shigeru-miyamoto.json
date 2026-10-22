@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "shigeru-miyamoto",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Shigeru Miyamoto",
+    "aliases": [
+      "Miyamoto Shigeru"
+    ],
+    "wikidataId": "Q12382",
+    "birthYear": 1952,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "product_designer"
+    ],
+    "fieldIds": [
+      "design",
+      "technology"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "craft_focused",
+      "product_leader"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_miyamoto_wikidata",
+      "kind": "wikidata",
+      "title": "Shigeru Miyamoto (Q12382) -- verified live via the Wikidata API (2026-10-22): English label 'Shigeru Miyamoto', description 'Japanese video game designer (born 1952)', born 16 November 1952, no date of death, citizenship Japan, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q12382"
+    },
+    {
+      "id": "src_miyamoto_asturias",
+      "kind": "award_body",
+      "title": "Princess of Asturias Foundation, 'Shigeru Miyamoto', 2012 Princess of Asturias Award for Communication and Humanities (fpa.es laureate page) -- the foundation's own announcement, read in full (it carries only the jury's announcement paragraph; the separate minutes were not opened): the jury, meeting in Oviedo on 23 May 2012 and chaired by Adela Cortina Orts, granted the award to Miyamoto and calls him the 'main architect of the revolution' in educational and constructive video games, notes that he is known for excluding violence from his creations, and describes his games as 'virtual dreams' that let millions of people interact across ideological, ethnic and geographic boundaries. Institutional statement of significance only; supports no trait row. CANONICAL SIGNIFICANCE SOURCE (with the Japanese ministry list below).",
+      "url": "https://fpa.es/en/princess-of-asturias-awards/laureates/2012-shigeru-miyamoto/?texto=acta"
+    },
+    {
+      "id": "src_miyamoto_mext",
+      "kind": "institution",
+      "title": "Ministry of Education, Culture, Sports, Science and Technology (Japan), list of the 2019 Persons of Cultural Merit (Reiwa 1; mext.go.jp press release attachment, read in full from the Internet Archive copy of 28 July 2024 because the live page now returns 404) -- the ministry's own list names Shigeru Miyamoto, 'representative director and fellow, Nintendo Co., Ltd.', in the field 'media arts (games)'. Institutional record of the honour only; supports no trait row. CANONICAL SIGNIFICANCE SOURCE (with the Asturias page).",
+      "url": "http://web.archive.org/web/20240728125426/https://www.mext.go.jp/b_menu/houdou/31/11/attach/1422025.htm"
+    },
+    {
+      "id": "src_miyamoto_gale",
+      "kind": "biography",
+      "title": "Encyclopedia.com (Gale, Contemporary Authors / Newsmakers style entry), 'Miyamoto, Shigeru' -- biographical reference entry compiling press coverage, read in full and used for career facts and press assessments only: joined Nintendo in 1977 as a design artist; Donkey Kong (1981) as his first major assignment, giving Mario his early look; Super Mario Bros., The Legend of Zelda, Super Mario 64 (the move from 2-D to 3-D), Ocarina of Time, Pikmin and others; press descriptions quoted from Time, Wired, the New York Times, Newsweek and others (a 'Steven Spielberg of video games'; an 'instantly recognizable aesthetic'; 'creative longevity is unmatched'). Admiring compilation; its passages on family, pay and royalties, boyhood and hobbies, and one unsupported 'first' claim about music were deliberately not used.",
+      "url": "https://www.encyclopedia.com/arts/culture-magazines/miyamoto-shigeru"
+    },
+    {
+      "id": "src_miyamoto_iwata_galaxy",
+      "kind": "institution",
+      "title": "Nintendo, 'Iwata Asks: Super Mario Galaxy, Volume 4: Shigeru Miyamoto' (iwataasks.nintendo.com, pages 2 and 3, read in full) -- company-published interview by Nintendo's then president Satoru Iwata (SELF plus company voice; never sole support for a row): Miyamoto describes choosing gravity and a spherical field as the distinct feature of a 3-D Mario, the staff's objections ('Can we really call something like that a game?'; 'is Mario going Sci-Fi now?'), earlier unsuccessful attempts to use a rolled or spherical field in Paper Mario and in Mario 128, his attempt to build it into Doshin the Giant, his role as producer rather than director on Galaxy with the team about 400 km away in Tokyo and review meetings by video conference, playing each course in front of the staff and telling them what he could and could not tolerate, and his email to everyone involved defining the 'essence of Mario'; Iwata relays that director Koizumi compared his playing to sampling the team's first dishes. Page 1 (a short cooperative-play segment) was fetched but its content was not used. Self-reported and company-friendly.",
+      "url": "https://iwataasks.nintendo.com/interviews/wii/super_mario_galaxy/3/2"
+    },
+    {
+      "id": "src_miyamoto_gameinformer_sf2",
+      "kind": "press",
+      "title": "Game Informer, 'The Inside Story On The Star Fox Sequel That Took More Than 20 Years To Release', 30 September 2017 -- magazine feature, read in full: the Star Fox 2 team worked under the watchful wing of Nintendo designers Shigeru Miyamoto and Katsuya Eguchi on open dogfight environments, a strategic galaxy map and a transforming Arwing; programmer Dylan Cuthbert (an outside collaborator from Argonaut) is quoted that 'Miyamoto has always said Star Fox is an experimental platform' and that everyone was willing to experiment; the game was cancelled in 1995 after the industry moved to polygon consoles, with a 2011 Iwata Asks quotation from Miyamoto about why ('We didn't think we could catch up even if we stuck this expensive chip in the cartridge, so we rethought it'); it finally shipped with the SNES Classic in 2017. Independent press feature built partly on one outside collaborator and partly on Miyamoto's own words.",
+      "url": "https://gameinformer.com/b/features/archive/2017/09/30/the-inside-story-on-the-star-fox-sequel-that-took-more-than-20-years-to-release"
+    },
+    {
+      "id": "src_miyamoto_timeext_cuthbert",
+      "kind": "press",
+      "title": "Time Extension, 'Star Fox Programmer Dylan Cuthbert Reflects On Its 30-Year Legacy' (timeextension.com interview), read in full from the saved page -- interview with the British programmer who worked on Star Fox in Kyoto and later founded Q-Games: at an early meeting Miyamoto said he wanted the plane rendered in polygons because drawing all its frames took too much time, which led to Argonaut's work on the Super FX chip; Nintendo staff turned the game cuter and more cartoon-like (Cuthbert says he 'heard' Miyamoto liked Thunderbirds, which is hearsay and is not used); years later Miyamoto asked Q-Games to make Star Fox for the DS, said of its first demo that it was good but 'we really want you to push it even further' and did not want to copy the original, and, after Q-Games pitched two prototypes, signed up both and then chose DigiDrive. Independent outside-collaborator account, friendly in tone; Cuthbert's statements about what Miyamoto 'realized' are inference and were not used.",
+      "url": "https://timeextension.com/features/interview-star-fox-programmer-dylan-cuthbert-reflects-on-its-30-year-legacy"
+    },
+    {
+      "id": "src_miyamoto_gamedev_migs",
+      "kind": "press",
+      "title": "Mathew Kumar and Leigh Alexander, 'MIGS 2007: Retro Studios On The Journey Of Metroid Prime', Game Developer (Gamasutra), 27 November 2007 -- conference report, read in full: Retro Studios chief Michael Kelbaugh and game director Mark Pacini recall Miyamoto and Iwata's first visit to the young Texas studio (teams came out saying 'he hates everything'; Miyamoto asked 'why would you put guns on cars?' of a car-combat concept, and Pacini says one lead afterwards called him 'ridiculous', which Pacini took as a problem because a team that cannot take criticism is in trouble), Miyamoto being 'heavily involved' in Metroid Prime and feeling third-person shooting was not intuitive, his first directive that the morph ball-to-first-person transition be seamless or 'we can't do this game' (the team took a few months and he then said 'okay'), and Nintendo repeatedly saying 'there's something missing' late in development and supplying the scan visor idea, which the team found boring at the time. Independent outside-studio account with candid, partly critical remarks; the scan visor passages speak of 'Nintendo' collectively, not Miyamoto personally.",
+      "url": "https://www.gamedeveloper.com/game-platforms/migs-2007-retro-studios-on-the-journey-of-i-metroid-prime-i-"
+    },
+    {
+      "id": "src_miyamoto_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Shigeru Miyamoto 20150610.jpg' (with the Commons API record) plus the Ministry of Education, Culture, Sports, Science and Technology website terms of use (mext.go.jp/b_menu/1351168.htm) -- checked for the portrait's licence: author given as the ministry's Minister's Secretariat Personnel Division, source the ministry's Person of Cultural Merit page, licence CC BY 4.0 via the ministry's Government Standard Terms, licence-reviewed on Commons by a user on 15 January 2020. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Shigeru_Miyamoto_20150610.jpg"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_miyamoto_iwata_galaxy, src_miyamoto_timeext_cuthbert, src_miyamoto_gameinformer_sf2 | 1995-2007 | company interview (self) + outside collaborator interview + magazine feature] In the Iwata Asks interview Miyamoto says he chose gravity and a spherical field as the defining idea of Super Mario Galaxy over staff objections, that he had tried rolled or spherical fields in Paper Mario and Mario 128 and shelved them when they did not work as expected, and that he tried to build the idea into Doshin the Giant (self); Cuthbert says that when Q-Games showed a first Star Fox DS demo Miyamoto called it good but asked them to push further and not copy the original, and Game Informer quotes Cuthbert that Miyamoto 'has always said Star Fox is an experimental platform' and quotes Miyamoto on rethinking Star Fox 2 when polygon consoles arrived. Repeated attempts at new structures are described across three sources, but the evidence concentrates on Mario Galaxy and the Star Fox series and the strongest passages are his own account, so strong inference at a modest confidence. SELF-CALIBRATION (agent): first-pass 70 / 0.56 lowered to 66 / 0.52 because the evidence is one self-account plus one franchise, which does not show experimentation as a career-wide pattern."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_miyamoto_gamedev_migs, src_miyamoto_iwata_galaxy | 1999-2007 | outside-studio conference report + company interview (self)] Retro's Mark Pacini says Miyamoto's first directive on Metroid Prime was that the transition between the morph ball and first-person view be seamless, otherwise the game could not go ahead, and that the team needed a few months to get it right before he approved; Retro's Michael Kelbaugh says Nintendo kept saying 'there's something missing' late in development (a collective 'Nintendo', not Miyamoto personally); in the Iwata Asks interview Miyamoto says he played every Super Mario Galaxy course in front of the staff, told them what he could and could not accept and sent everyone an email setting out the fundamentals, and that he wanted the DS stylus and the held Wii Remote shown in product photographs so people would understand how to use them (self). Specific insistence on small interaction details is documented by one outside source and his own account, so strong inference at a modest confidence."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_miyamoto_gamedev_migs, src_miyamoto_iwata_galaxy | 1999-2007 | outside-studio conference report + company interview (self)] Pacini recalls that on his first visit to Retro Studios Miyamoto asked 'why would you put guns on cars?' of a car-combat concept and that teams came out saying 'he hates everything', while one lead called him 'ridiculous' afterwards; in the Iwata Asks interview Miyamoto says staff doubted the gravity idea and he held to it ('if I were to make a game that was not fun, I would much rather make something that was not a game') and that he told the Galaxy team plainly what he could not tolerate (self). Direct, unsoftened criticism of other teams' ideas is described, but the outside account is one conference anecdote about a single visit and the rest is his own, so strong inference at a low confidence, dual-edged because the same account shows it provoking resentment. SELF-CALIBRATION (agent): first-pass 62 / 0.46 lowered to 58 / 0.42 because the outside evidence depends on one retold anecdote from one meeting."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_miyamoto_timeext_cuthbert, src_miyamoto_gameinformer_sf2, src_miyamoto_iwata_galaxy, src_miyamoto_gamedev_migs | 1990-2007 | outside collaborator interview + magazine feature + company interview (self) + conference report] Cuthbert says Miyamoto asked at an early meeting for the plane to be rendered in polygons, which led to Argonaut's Super Fox chip work, and that years later Miyamoto asked his studio to make Star Fox for the DS and signed up both of Q-Games' pitched prototypes; Game Informer describes the Star Fox 2 team working under Miyamoto and Eguchi; Pacini describes Miyamoto as heavily involved in Retro's Metroid Prime; in the Iwata Asks interview Miyamoto says he worked as producer rather than director on Galaxy, kept in contact with the Tokyo team by email and video conference and let the development leads work through reviews of new builds (self). Repeated work with outside studios and teams run by others is documented by several sources, but all are recollections told in a friendly register and say little about how disagreements were resolved, so strong inference at a modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "미야모토 시게루"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/shigeru-miyamoto-mext-2015.jpg",
+    "width": 1200,
+    "height": 1002,
+    "source": "Wikimedia Commons, 'Shigeru Miyamoto 20150610.jpg' -- portrait photograph by the Minister's Secretariat Personnel Division of Japan's Ministry of Education, Culture, Sports, Science and Technology, published on the ministry's Person of Cultural Merit page. Original 2000 x 1670 pixels (SHA-1 c3cc612b, matches the Commons record); saved here downscaled once to 1200 x 1002 pixels (no crop, never upscaled). Lead review: photograph date unresolved - the Commons EXIF/description say 10 June 2015 but the credited ministry page is the 2019 honours list (Wikipedia gives the Person of Cultural Merit as 2019); both dates are recorded and the file does not depend on the date for its CC BY 4.0 basis.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Photo: Ministry of Education, Culture, Sports, Science and Technology (Japan), Minister's Secretariat Personnel Division, CC BY 4.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Shigeru_Miyamoto_20150610.jpg",
+    "creator": "Ministry of Education, Culture, Sports, Science and Technology (Japan), Minister's Secretariat Personnel Division",
+    "date": "2019 (ministry honours-list page); Commons EXIF 2015-06-10",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Shigeru_Miyamoto_20150610.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-22T00:00:00Z",
+    "updatedAt": "2026-10-22T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-22) for Q12382 returned en label 'Shigeru Miyamoto', description 'Japanese video game designer (born 1952)', born 1952-11-16, no death date, citizenship Japan (Q17), ko label '미야모토 시게루'; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug shigeru-miyamoto or QID Q12382 in the roster52 worktree (grep over data-pipeline, src/data/people and src/core found only unrelated longer QIDs that contain the digits, e.g. Q123829). REGION: east_asia, nationalityCodes JP. VOCABULARY: occupationId product_designer (as for Jony Ive, James Dyson, Alvar Aalto), fieldIds design and technology, tags innovator, craft_focused and product_leader, archetype creative_creator are existing ids (no game-designer id exists; none invented). ZERO POLITICS: nothing political scored or carded. LIVING SUBJECT: only documented public professional behaviour is scored. EXCLUDED deliberately: family and private life, boyhood and hobbies, pay and royalties, health, any allegation or rumour, inferred motives (including Cuthbert's statements about what Miyamoto 'realized' and the hearsay that he liked Thunderbirds), Nintendo corporate strategy and sales figures as trait evidence, and the Wikipedia/Wikidata pages (orientation only). CANONICAL SIGNIFICANCE SOURCE: Princess of Asturias Foundation 2012 laureate page for Miyamoto (https://fpa.es/en/princess-of-asturias-awards/laureates/2012-shigeru-miyamoto/?texto=acta) and the Japanese ministry's 2019 Person of Cultural Merit list (Internet Archive copy), supported by the Encyclopedia.com biographical entry; the lead's preferred encyclopedia (Britannica) was not attempted because earlier cycles found it blocked. READ (8 cited non-Wikidata sources plus the Commons page): Asturias page (read in full; summary-level extraction through the harness tool, minutes not opened); MEXT list (read from the archive copy; live URL 404); Encyclopedia.com entry (read in full); Iwata Asks Galaxy pages 2 and 3 (read in full; page 1 fetched, not used); Game Informer Star Fox 2 feature (read in full); Time Extension Cuthbert interview (read in full from saved text); Game Developer MIGS 2007 report (read through the Metroid Prime 2 section; the remainder concerns later games and not Miyamoto). PERSPECTIVES: institutional honours (Asturias jury, Japanese ministry), reference-work compilation of press coverage (Gale), Miyamoto's own interview words (self, company-published; never sole support), an outside programmer-turned-studio-founder (Cuthbert, two outlets, ONE perspective), and Retro Studios leadership (Kelbaugh and Pacini, candid and partly critical). COUNTER-VOICE: Retro's account that teams left Miyamoto's visit saying 'he hates everything' and that one lead called him 'ridiculous', plus Game Informer's report that Star Fox 2 was cancelled after being nearly finished; the Gale entry is admiring throughout. CALIBRATION: every row rests on a small number of recollections, much of it his own account or collaborators' friendly retellings, so the highest score is 68 and the highest confidence 0.52; four rows kept and none padded. SELF-CALIBRATION (agent): the three highest-risk rows were reviewed (experimentation, social assertiveness, detail orientation); experimentation lowered 70/0.56 to 66/0.52 (one self-account plus one franchise); social assertiveness lowered 62/0.46 to 58/0.42 (one retold anecdote from one meeting); detail orientation left unchanged (specific outside directive plus self account of concrete practices). TRAITS NOT SCORED: creative originality and aesthetic sensitivity (support is press superlatives about the finished games or hearsay about design intent, not documented behaviour), persistence, perfectionism (same evidence as detail orientation), belief updating and adaptability (the Star Fox 2 reassessment and the producer-versus-director remark are his own words), leadership drive, mastery orientation, systems abstraction (the 'essence of Mario' principles are only his own account), and anything about business results. FACT CONFLICTS RECORDED: the Gale entry dates The Legend of Zelda to 1987 and credits Miyamoto with an original score as a first in video games; neither is relied on (cards avoid the Zelda year and any 'first' music claim). The Commons description says Miyamoto received the honour in 2015, while the ministry list read here is the 2019 list; the card states only what the ministry list shows. Cards use only first/only claims stated by a source read (none). NOT OPENED: Britannica, Wired and New York Times profiles (known only as quotations inside the Gale entry), Time 100 write-up, Nintendo corporate pages, David Sheff's book, the 1986 interview in which he is said to have discussed programmers' workload (known only from a search summary). KOREAN NAME: 미야모토 시게루 is the Wikidata ko label. PORTRAIT: Commons 'File:Shigeru_Miyamoto_20150610.jpg' (https://commons.wikimedia.org/wiki/File:Shigeru_Miyamoto_20150610.jpg), opened through the Commons API: Author 'Minister's Secretariat Personnel Division' (大臣官房人事課) of the Ministry of Education, Culture, Sports, Science and Technology, Source the ministry's Person of Cultural Merit page, Permission template Government of Japan Standard Terms 2.0 with attribution 'MEXT website', CC BY 4.0, LicenseReview on Commons by user Leoboudv on 2020-01-15, Personality-rights notice present, EXIF 2015-06-10 13:32, original 2000 x 1670, SHA-1 c3cc612bcf08b1b5559af8645e5506b9d1180323 (downloaded with curl and verified identical). INSTITUTIONAL NOTICE CHECK: the ministry's current website terms (https://www.mext.go.jp/b_menu/1351168.htm, last amended 17 August 2026) allow free reuse including commercial use and state compatibility with CC BY 4.0, with the usual caution that third-party rights (e.g. portrait and publicity rights in photographs) are the user's responsibility unless cleared; the original source page is now 404 live but the Internet Archive copy shows it is the ministry's own honours page listing Miyamoto, and I found no conflicting notice. Residual risk: the ministry's terms exclude third-party-owned content and the Commons tag asserts ministry authorship without a visible photographer credit, and the date discrepancy (EXIF 2015 versus 2019 list) was not resolved; both are recorded for the lead. Image viewed: a clean head-and-shoulders studio portrait of Miyamoto in a dark suit on a grey background. Saved as public/portraits/shigeru-miyamoto-mext-2015.jpg at 1200 x 1002 by a single downscale (LANCZOS), no crop."
+  }
+}
