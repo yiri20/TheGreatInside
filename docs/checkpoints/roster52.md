@@ -248,7 +248,16 @@ extended to `5[0-2]`.
 
 ## Post-commit scoring lock
 
-Recorded in the docs-only follow-up commit.
+Run after implementation commit `726b807` (literal output):
+
+```
+Checked 577 previously-committed candidate file(s) against HEAD. 0 flagged.
+This is a warning tool, not a hard gate -- review flags by hand, per the A/B/C/D policy.
+
+Legacy scoring lock: 22 pre-pipeline production people covered, 0 flagged.
+```
+
+Committed candidate JSON count 577 = on-disk candidate JSON count 577 = checked count 577. Legacy baseline 22 / 0 flagged.
 
 ## Legacy
 
