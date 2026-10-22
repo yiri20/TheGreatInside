@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bjorn-borg",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Björn Borg",
+    "aliases": [
+      "Bjorn Borg",
+      "Bjorn Rune Borg"
+    ],
+    "wikidataId": "Q104506",
+    "birthYear": 1956,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "SE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "prodigy",
+      "competitor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_borg_wikidata",
+      "kind": "wikidata",
+      "title": "Björn Borg (Q104506) -- verified live via the Wikidata API (2026-10-22): English label 'Björn Borg', description 'Swedish tennis player (born 1956)', born 6 June 1956, no date of death, citizenship Sweden, Korean label '비에른 보리', English and Korean Wikipedia sitelinks present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q104506"
+    },
+    {
+      "id": "src_borg_ithf",
+      "kind": "institution",
+      "title": "International Tennis Hall of Fame, 'Björn Borg' (Class of 1987) biography page (tennisfame.com), read in full: 11 major singles titles in 1974-81, six French Open titles (four in a row, 1978-81) and five straight Wimbledon titles (1976-80), a 1975 Davis Cup win for Sweden, the 1974 French Open title at 18 after losing the first two sets to Manuel Orantes, the 1980 Wimbledon final against John McEnroe, the 1981 final loss to McEnroe, four losing US Open finals, and his retirement announced on 23 January 1983 at age 26; descriptions of his controlled on-court demeanour ('ice man'), heavy-topspin style that many players tried to copy, racquets strung tighter than anyone else's, and coach Lennart Bergelin; quotations from McEnroe, Ilie Nastase and Borg himself about his on-court composure. Institutional hall-of-fame narrative, admiring. CANONICAL SIGNIFICANCE SOURCE (with Britannica). Its passages on burnout, fame, fans and personal friends were not used.",
+      "url": "https://www.tennisfame.com/hall-of-famers/inductees/bjorn-borg"
+    },
+    {
+      "id": "src_borg_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Björn Borg' (britannica.com, revised August 2026) -- short reference biography, read in full: born 6 June 1956 in Stockholm; Wimbledon singles champion five years in a row (1976-80) until his 1981 loss to McEnroe; French Open champion six times (1974-75, 1978-81), four in a row; 1975 Davis Cup win for Sweden with a record singles streak; never won the US Open or Australian Open; abrupt retirement in January 1983 and a short-lived comeback in 1991; inducted into the International Tennis Hall of Fame in 1987. CANONICAL SIGNIFICANCE SOURCE (with the Hall of Fame page). Brief and uncritical; the entry's statement that he joined the professional circuit at 14 conflicts with the Hall of Fame page and the ATP biography (professional debut in 1973) and was not used; its sportswear-business sentence was not used.",
+      "url": "https://www.britannica.com/biography/Bjorn-Borg"
+    },
+    {
+      "id": "src_borg_atp74",
+      "kind": "press",
+      "title": "ATP Tour, 'Bjorn Borg: 1974 Roland Garros Title, 50 Years On' (atptour.com feature, 2024), read in full: Borg's route to his first French Open title at 18 (a deciding set from 1-4 down in round one, then the final won after losing the first two sets to Orantes) and a series of accounts from people who played against or worked with him -- Brian Gottfried (his groundstrokes' depth, his first-serve percentage under pressure, 'he didn't appear to have a nerve in his body'), Stan Smith (in 1973 Borg 'made too many mistakes' going for big shots, in 1974 he had become a 'human ball machine' who did not need to), Orantes, coach Lennart Bergelin (preparing 'even if a threat is not there, we see a threat'), former coach Percy Rosberg, and Borg himself (self; not used alone); details of racquets flown from Stockholm and superstitions at tournaments. Tour-published retrospective with several outside voices; friendly in tone.",
+      "url": "https://www.atptour.com/en/news/bjorn-borg-roland-garros-1974-50th-anniversary"
+    },
+    {
+      "id": "src_borg_atpbio",
+      "kind": "institution",
+      "title": "ATP Tour, 'Bjorn Borg' player biography page (atptour.com), first section read: precocious results (youngest Italian and French champion at the time, a Davis Cup singles-winning streak, the 1975 Cup), his 1972 Davis Cup debut at 16, a professional career that was 'so brief and bright' (retired before 26), and a description of his unorthodox, topspin-heavy style, strength and endurance. Institutional career summary; used only to confirm career facts, no trait row rests on it.",
+      "url": "https://www.atptour.com/en/players/-/b058/bio"
+    },
+    {
+      "id": "src_borg_csm81",
+      "kind": "press",
+      "title": "Phil Elderkin, 'Tennis champion Borg plays like an inspired robot', The Christian Science Monitor, 24 June 1981, read in full -- contemporaneous newspaper profile on the eve of Wimbledon: argues he is more than a 'machine' because of his drive, preparation and handling of adverse situations; praises his consistency, stamina and touch, his returns and calm when coming from behind; says he sometimes struggles to find his groove in early rounds; reports that after losses in March and April 1981 there were rumours he had lost determination, followed by his five-set French Open win over Ivan Lendl; says he is largely self-taught, 'always listened politely' to those wanting to change his grip and two-handed backhand but 'refused to tamper' with a method that worked, and 'continually pays dues' with early-morning workouts and topspin practice; quotes Harold Solomon (via Time) that playing him was like a good high-school team facing the Pittsburgh Steelers. Independent contemporaneous press, admiring; the closing lines on his money and homes were not used.",
+      "url": "https://www.csmonitor.com/1981/0624/062437.html"
+    },
+    {
+      "id": "src_borg_ap80",
+      "kind": "press",
+      "title": "Geoffrey Miller (Associated Press), 'AP Was There: McEnroe wins tiebreaker, Borg wins Wimbledon' (AP report of 5 July 1980, republished 12 July 2020 on news4jax.com), read in full -- wire report of the 1980 Wimbledon final: Borg won 1-6, 7-5, 6-3, 6-7, 8-6 after McEnroe saved seven match points and won the fourth-set tiebreaker 18-16; Borg says he had never been so disappointed on a court as when he lost that set, and then 'served like a master' in the fifth, dropping three points in seven service games; McEnroe says he thought Borg might give up after the long tiebreaker and Borg instead came back stronger; Borg calls it his hardest and best Wimbledon match. Contemporaneous wire report; its passage about his fiancee was not used.",
+      "url": "https://www.news4jax.com/sports/2020/07/12/ap-was-there-mcenroe-wins-tiebreaker-borg-wins-wimbledon/"
+    },
+    {
+      "id": "src_borg_comeback91",
+      "kind": "press",
+      "title": "Michael Graham, 'Tennis Tales: The disastrous Monte Carlo comeback of the original King of Clay, Bjorn Borg', Tennis365, 24 April 2018, together with Alexandre Sokolowski, 'April 23, 1991: The day Bjorn Borg came back on the Tour with his wooden racquet', Tennis Majors, 23 April 2025 -- two retrospective features on the 1991 Monte Carlo comeback, both read in full and treated as ONE perspective: Borg, after about eight years away, took a wild card and lost to world No 52 Jordi Arrese 6-2, 6-3, using ten old wooden racquets shipped to London (Tennis365) while the game had moved to larger graphite frames; Boris Becker says 'he hits with no power', John McEnroe and Stefan Edberg call it hard to understand and sad; Borg says in 2007 that he knew he was not playing well and 'I knew that if I wanted to do well I had to use another racket but I thought, you know: why change?'; Tennis Majors says he lost the following matches and retired for good in 1993. The tennis-only facts and remarks are used; the Tennis365 passages on his finances, burnout, businesses and rumours were deliberately excluded. Critical counter-voice on his professional judgement; later-dated retrospectives.",
+      "url": "https://www.tennis365.com/atp-tour/tennis-tales-the-disastrous-monte-carlo-comeback-of-the-original-king-of-clay-bjorn-borg"
+    },
+    {
+      "id": "src_borg_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Bjorn Borg en 2014.jpg' (with the Commons API record and file history) -- checked for the portrait's licence: photograph by Michaël Bemelmans, taken 10 May 2014, source 'Own work', uploaded by the photographer on 7 May 2016 and published under CC BY-SA 4.0; later page edits are category and structured-data changes only. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Bjorn_Borg_en_2014.jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_borg_ithf, src_borg_atp74, src_borg_ap80, src_borg_csm81 | 1974-1981 | hall-of-fame page + tour retrospective + wire report + contemporaneous profile] At the 1974 French Open Borg dug out of a 1-4 deciding set in round one and then won the final after losing the first two sets to Orantes (ITHF, ATP); in the 1980 Wimbledon final he lost the fourth set after McEnroe saved seven match points and a 34-point tiebreaker, yet the AP report says he 'came back the stronger' and served 'like a master' in the fifth, winning 8-6, and McEnroe said he thought Borg might give up; the Christian Science Monitor in 1981 notes his calm when he must come from behind and his five-set French Open win over Lendl after a run of spring losses and rumours. Repeated, dated recoveries within major finals are described by four sources including a contemporaneous wire report and an opponent's remark, so documented at a moderate confidence (the profile and retrospective sources are admiring)."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_borg_csm81, src_borg_atp74, src_borg_ithf | 1974-1981 | contemporaneous profile + tour retrospective + hall-of-fame page] The Christian Science Monitor says he 'continually pays dues' with early-morning workouts and practises his topspin until he can make the shots in his sleep; the ATP retrospective reports that coach Bergelin pushed him to 'leave nothing to chance' and quickly turned attention to the next tournament after titles (Borg, self), and that he had 40 newly strung racquets flown from his Stockholm stringer to tournaments; the Hall of Fame says no one strung racquets as tightly as he did and that he said 'I want to win every single point from the first minute to the last' (self). A consistent preparation routine is described by three sources, but the practice evidence is a general characterisation in one 1981 profile rather than a dated, specific record, and the rest is partly his own account, so strong inference at a modest confidence. SELF-CALIBRATION (agent): first-pass 68 / 0.55 lowered to 64 / 0.50 because the core support is a generic characterisation in one profile rather than specific documented instances."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_borg_csm81, src_borg_ithf, src_borg_comeback91 | 1981-1991 | contemporaneous profile + hall-of-fame page + retrospective features] The Christian Science Monitor says he 'always listened politely' to those wanting to change his style, grip and two-handed backhand but 'refused to tamper' with a method that felt comfortable and worked, and calls him largely self-taught with a game 'uniquely his own'; the Hall of Fame describes an unorthodox western grip used on both sides and heavy topspin on every shot that others tried and failed to copy; in 1991 he returned with old wooden racquets, and Becker, McEnroe and Edberg all questioned the choice, while Borg said in 2007 that he knew he needed another racquet to do well 'but I thought, you know: why change?'. Holding to his own method against advice is documented in 1981 and again, with costly results, in 1991, so strong inference at a modest confidence, dual-edged because the same stance that served him at his peak is the one that critics saw as the problem in the comeback."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_borg_atp74, src_borg_ithf | 1973-1980 | tour retrospective + hall-of-fame page] Stan Smith says that in 1973 Borg 'made too many mistakes' going for big shots, and that by 1974 he had become a 'human ball machine' who realised he did not need to; Gottfried and Smith say his serve improved dramatically over the decade and he added a heavier slice approach; Borg says he and Bergelin discussed mixing up his tactics and coming in at times; the Hall of Fame says grass was not a natural surface for him when he first played Wimbledon in 1973 'but he adapted quickly' and won it five years running. Changes in tactics, serve and surface are described by opponents and the institutional page, but the accounts are retrospective and the 1991 retrospectives record a refusal to change equipment, so strong inference at a modest confidence, dual-edged."
+    },
+    "deep_focus": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_borg_ithf, src_borg_atp74, src_borg_csm81 | 1974-1981 | hall-of-fame page + tour retrospective + contemporaneous profile] The Hall of Fame quotes McEnroe on Borg's 'aura' and Borg that opponents never knew his feelings because he kept them to himself, quotes Borg 'When I am playing, I am 100 percent serious', and calls his focus 'steely'; Gottfried says 'he didn't appear to have a nerve in his body' and that his first-serve percentage under pressure was amazing; the Christian Science Monitor praises his consistency and says he shows no pressure when coming from behind, while also noting he can take time to find his groove in early rounds. Outward composure and sustained attention in matches are described by an opponent, a profile and the institutional page, but they describe how he appeared rather than a documented concentration practice, and the strongest quotations are his own, so strong inference at a low-to-modest confidence. SELF-CALIBRATION (agent): first-pass 66 / 0.50 lowered to 62 / 0.46 because the sources document outward composure, which is a weaker claim to concentration than the trait row implies."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "비에른 보리"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bjorn-borg-bemelmans-2014.jpg",
+    "width": 622,
+    "height": 934,
+    "source": "Wikimedia Commons, 'Bjorn Borg en 2014.jpg' -- photograph by Michaël Bemelmans, taken 10 May 2014 and uploaded to Commons by the photographer himself ('Own work', 7 May 2016) under CC BY-SA 4.0. Original 622 x 934 pixels (SHA-1 f6a4ed5b, matches the Commons record); saved unchanged at its original size, never upscaled.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Michaël Bemelmans, 2014, CC BY-SA 4.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Bjorn_Borg_en_2014.jpg",
+    "creator": "Michaël Bemelmans",
+    "date": "2014",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bjorn_Borg_en_2014.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-22T00:00:00Z",
+    "updatedAt": "2026-10-22T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-22) for Q104506 returned en label 'Björn Borg', description 'Swedish tennis player (born 1956)', born 1956-06-06, no death date, citizenship Sweden (Q34), enwiki 'Björn Borg' and kowiki '비에른 보리', P18 'Bjorn Borg en 2014.jpg'; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug bjorn-borg or QID Q104506 in the roster52 worktree (grep over data-pipeline, src/data/people, src/core). REGION: western_europe (Sweden is not otherwise listed among the allowed regions; no northern-Europe region exists), nationalityCodes SE. VOCABULARY: occupationId athlete, fieldId sport, impact domains athletic and cultural, tags prodigy and competitor and archetype competitive_performer are existing ids (as for Lionel Messi and other athlete candidates). ZERO POLITICS: nothing political scored or carded. LIVING SUBJECT: only documented on-court and professional behaviour is scored. EXCLUDED deliberately, although some appears in sources read: private life, marriages and relationships, family, finances and business ventures, the auction and bankruptcy stories, rumours and allegations of any kind (Tennis365 and BNP Paribas pages repeat several), burnout and any mental-state or motive inference (the Hall of Fame page and Tennis Majors attribute his retirement to burnout; not used), his 1991-93 results beyond the first match, memoir and book material, and the Wikipedia/Wikidata pages (orientation only). CANONICAL SIGNIFICANCE SOURCE: International Tennis Hall of Fame biography page (https://www.tennisfame.com/hall-of-famers/inductees/bjorn-borg; read in full) and Encyclopaedia Britannica (https://www.britannica.com/biography/Bjorn-Borg; read in full, short), supported by the ATP Tour biography page (first section). READ (8 cited non-Wikidata sources plus the Commons page): ITHF page (full), Britannica (full), ATP 1974 feature (full), ATP bio page (first section), Christian Science Monitor 1981 profile (full), AP 1980 final report (full), Tennis365 and Tennis Majors comeback features (both full; counted as ONE perspective). Opened but not cited: the BNP Paribas 'We Are Tennis' comeback article (mostly private-life and rumour material). Sports Illustrated's 1981 Wimbledon preview could not be retrieved (404). PERSPECTIVES: the Hall of Fame and Britannica (institutional records), opponents and colleagues quoted by the ATP (Gottfried, Smith, Orantes, Bergelin, Rosberg), a contemporaneous newspaper profile (Christian Science Monitor, with a Solomon quote), a contemporaneous wire report (AP, with McEnroe's remark), later retrospectives on the 1991 comeback (with Becker, McEnroe and Edberg as critical voices), and Borg's own remarks (self; relayed by the ATP, Hall of Fame and Tennis365; never sole support). COUNTER-VOICE: the 1991 comeback retrospectives (critical of his equipment choice) and the CSM note that spring-1981 losses drew rumours of lost determination. CALIBRATION: behavioural evidence is specific for his Wimbledon and French Open matches but thin on training; much comes from admiring or retrospective accounts; so the highest score is 70 and the highest confidence 0.58; five rows kept, none padded. SELF-CALIBRATION (agent): the three highest-risk rows were reviewed (persistence, discipline, deep focus); persistence left unchanged (dated, corroborated by a contemporaneous wire report, an opponent's remark and three other sources); discipline lowered 68/0.55 to 64/0.50 (generic characterisation in one profile rather than specific instances); deep focus lowered 66/0.50 to 62/0.46 (the sources document outward composure rather than concentration). TRAITS NOT SCORED: competitiveness (match results and records are excluded as evidence; Borg's own statements about wanting to win are self-reports), achievement drive and mastery orientation (outcome- and quote-based), conflict tolerance and social assertiveness (no documented episodes), risk tolerance (the 1991 comeback is the only episode and is used under independent thinking, with the motive excluded), resilience facet (covered by persistence), collaboration (the coach relationship is described only by Bergelin and Rosberg and in friendly generalities), and anything about his retirement. FACT CONFLICTS RECORDED: Britannica says he joined the professional circuit at 14, while the Hall of Fame and ATP biography give a 1973 professional debut at Wimbledon (and Tennis Majors says he turned professional in 1973); the cards avoid the age. The AP report says McEnroe saved seven match points while the Hall of Fame page counts five match points saved in the tiebreak (and six set points for Borg); the cards use only the AP report's 'seven match points' for the fourth set and the final score. Britannica's record claims ('first man since Laurie Doherty') are not repeated; the cards use the Hall of Fame's own wording only where quoted. KOREAN NAME: 비에른 보리 is the Wikidata ko label and Korean Wikipedia article title. PORTRAIT: Commons 'File:Bjorn_Borg_en_2014.jpg' (https://commons.wikimedia.org/wiki/File:Bjorn_Borg_en_2014.jpg), read through the Commons API: Author Michaël Bemelmans, Credit 'Own work', date 2014-05-10, licence CC BY-SA 4.0 ({{self|cc-by-sa-4.0}}), uploaded by the author on 2016-05-07, original 622 x 934, SHA-1 f6a4ed5b01f3349e0e789477463a836a40b8d9ec; the file was downloaded with curl, the hash and dimensions verified identical to Commons, and saved unmodified as public/portraits/bjorn-borg-bemelmans-2014.jpg (it is below the 1200-pixel limit, so no resize or upscale). The image was viewed: Borg smiling and signing a tennis ball outdoors, face clearly visible, a lettering on a booklet partly visible at the bottom right. An autograph-signing photograph, so there is no institutional page that could carry a conflicting notice; the licence is share-alike and requires attribution. A Commons structured-data statement and the category 'Photographs by Michaël Bemelmans' confirm depiction of Borg; no alternative portrait was considered. NOT OPENED: Sports Illustrated Vault 1981 article (404), BNP Paribas article (opened, not cited), Borg's memoir, HBO and film documentaries, Matt Cronin's Tennisplayer.net excerpt (404), New York Times archives."
+  }
+}

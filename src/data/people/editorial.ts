@@ -10643,4 +10643,172 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "wolfgang-pauli-turning-point-1", textKey: "wolfgang-pauli.turning_point.1", interpretationKey: "wolfgang-pauli.interpretation.turning_point.1", attributeId: "conflict_tolerance", sourceIds: ["src_pauli_cern_kronig", "src_pauli_ndb", "src_pauli_meyer"] },
     ],
   },
+  "billie-holiday": {
+    achievements: [
+      { id: "billie-holiday-achievement-1", textKey: "billie-holiday.achievement.1", sourceIds: ["src_holiday_britannica", "src_holiday_jazzcom"] },
+      { id: "billie-holiday-achievement-2", textKey: "billie-holiday.achievement.2", sourceIds: ["src_holiday_smithsonian", "src_holiday_popmatters"] },
+      { id: "billie-holiday-achievement-3", textKey: "billie-holiday.achievement.3", sourceIds: ["src_holiday_loc", "src_holiday_smithsonian", "src_holiday_wisc"] },
+    ],
+    moments: [
+      { id: "billie-holiday-moment-1", textKey: "billie-holiday.moment.1", interpretationKey: "billie-holiday.interpretation.moment.1", attributeId: "creative_originality", sourceIds: ["src_holiday_smithsonian"] },
+      { id: "billie-holiday-moment-2", textKey: "billie-holiday.moment.2", interpretationKey: "billie-holiday.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_holiday_popmatters"] },
+    ],
+    turningPoints: [
+      { id: "billie-holiday-turning-point-1", textKey: "billie-holiday.turning_point.1", interpretationKey: "billie-holiday.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_holiday_britannica", "src_holiday_jazzcom"] },
+    ],
+  },
+  "bjorn-borg": {
+    achievements: [
+      { id: "bjorn-borg-achievement-1", textKey: "bjorn-borg.achievement.1", sourceIds: ["src_borg_ithf", "src_borg_britannica", "src_borg_ap80"] },
+      { id: "bjorn-borg-achievement-2", textKey: "bjorn-borg.achievement.2", sourceIds: ["src_borg_ithf", "src_borg_britannica", "src_borg_atp74"] },
+      { id: "bjorn-borg-achievement-3", textKey: "bjorn-borg.achievement.3", sourceIds: ["src_borg_ithf", "src_borg_britannica"] },
+    ],
+    moments: [
+      { id: "bjorn-borg-moment-1", textKey: "bjorn-borg.moment.1", interpretationKey: "bjorn-borg.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_borg_ithf", "src_borg_atp74"] },
+      { id: "bjorn-borg-moment-2", textKey: "bjorn-borg.moment.2", interpretationKey: "bjorn-borg.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_borg_csm81"] },
+    ],
+    turningPoints: [
+      { id: "bjorn-borg-turning-point-1", textKey: "bjorn-borg.turning_point.1", interpretationKey: "bjorn-borg.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_borg_atp74"] },
+    ],
+  },
+  "george-washington-carver": {
+    achievements: [
+      { id: "george-washington-carver-achievement-1", textKey: "george-washington-carver.achievement.1", sourceIds: ["src_carver_acs", "src_carver_eoa", "src_carver_nps"] },
+      { id: "george-washington-carver-achievement-2", textKey: "george-washington-carver.achievement.2", sourceIds: ["src_carver_acs", "src_carver_nal_bulletins", "src_carver_tuskegee_jesup"] },
+      { id: "george-washington-carver-achievement-3", textKey: "george-washington-carver.achievement.3", sourceIds: ["src_carver_acs", "src_carver_biography", "src_carver_eoa"] },
+    ],
+    moments: [
+      { id: "george-washington-carver-moment-1", textKey: "george-washington-carver.moment.1", interpretationKey: "george-washington-carver.interpretation.moment.1", attributeId: "persuasiveness", sourceIds: ["src_carver_acs", "src_carver_biography"] },
+      { id: "george-washington-carver-moment-2", textKey: "george-washington-carver.moment.2", interpretationKey: "george-washington-carver.interpretation.moment.2", attributeId: "autonomy_need", sourceIds: ["src_carver_acs", "src_carver_eoa"] },
+    ],
+    turningPoints: [
+      { id: "george-washington-carver-turning-point-1", textKey: "george-washington-carver.turning_point.1", interpretationKey: "george-washington-carver.interpretation.turning_point.1", attributeId: "impact_motivation", sourceIds: ["src_carver_acs", "src_carver_eoa", "src_carver_nps"] },
+    ],
+  },
+  "joseph-bazalgette": {
+    achievements: [
+      { id: "joseph-bazalgette-achievement-1", textKey: "joseph-bazalgette.achievement.1", sourceIds: ["src_bazalgette_britannica", "src_bazalgette_thameswater", "src_bazalgette_ice"] },
+      { id: "joseph-bazalgette-achievement-2", textKey: "joseph-bazalgette.achievement.2", sourceIds: ["src_bazalgette_britannica", "src_bazalgette_ice", "src_bazalgette_victorianweb"] },
+      { id: "joseph-bazalgette-achievement-3", textKey: "joseph-bazalgette.achievement.3", sourceIds: ["src_bazalgette_thameswater", "src_bazalgette_sciencemuseum", "src_bazalgette_historypolicy"] },
+    ],
+    moments: [
+      { id: "joseph-bazalgette-moment-1", textKey: "joseph-bazalgette.moment.1", interpretationKey: "joseph-bazalgette.interpretation.moment.1", attributeId: "detail_orientation", sourceIds: ["src_bazalgette_londonmuseum"] },
+      { id: "joseph-bazalgette-moment-2", textKey: "joseph-bazalgette.moment.2", interpretationKey: "joseph-bazalgette.interpretation.moment.2", attributeId: "planning_orientation", sourceIds: ["src_bazalgette_gracesguide", "src_bazalgette_sciencemuseum", "src_bazalgette_thameswater"] },
+    ],
+    turningPoints: [
+      { id: "joseph-bazalgette-turning-point-1", textKey: "joseph-bazalgette.turning_point.1", interpretationKey: "joseph-bazalgette.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_bazalgette_britannica", "src_bazalgette_ice", "src_bazalgette_thameswater"] },
+    ],
+  },
+  "mae-jemison": {
+    achievements: [
+      { id: "mae-jemison-achievement-1", textKey: "mae-jemison.achievement.1", sourceIds: ["src_jemison_nasabio", "src_jemison_presskit", "src_jemison_nwhm"] },
+      { id: "mae-jemison-achievement-2", textKey: "mae-jemison.achievement.2", sourceIds: ["src_jemison_nasabio", "src_jemison_nwhm", "src_jemison_americaspace"] },
+      { id: "mae-jemison-achievement-3", textKey: "mae-jemison.achievement.3", sourceIds: ["src_jemison_nasabio", "src_jemison_nwhm"] },
+    ],
+    moments: [
+      { id: "mae-jemison-moment-1", textKey: "mae-jemison.moment.1", interpretationKey: "mae-jemison.interpretation.moment.1", attributeId: "collaboration", sourceIds: ["src_jemison_status", "src_jemison_presskit"] },
+      { id: "mae-jemison-moment-2", textKey: "mae-jemison.moment.2", interpretationKey: "mae-jemison.interpretation.moment.2", attributeId: "cross_domain_range", sourceIds: ["src_jemison_status", "src_jemison_nasabio"] },
+    ],
+    turningPoints: [
+      { id: "mae-jemison-turning-point-1", textKey: "mae-jemison.turning_point.1", interpretationKey: "mae-jemison.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_jemison_nwhm", "src_jemison_nasabio"] },
+    ],
+  },
+  "michael-collins-astronaut": {
+    achievements: [
+      { id: "michael-collins-astronaut-achievement-1", textKey: "michael-collins-astronaut.achievement.1", sourceIds: ["src_collins_nasabio", "src_collins_natgeo", "src_collins_afj_docking"] },
+      { id: "michael-collins-astronaut-achievement-2", textKey: "michael-collins-astronaut.achievement.2", sourceIds: ["src_collins_nasabio", "src_collins_gemini_history", "src_collins_nasm_remembrance"] },
+      { id: "michael-collins-astronaut-achievement-3", textKey: "michael-collins-astronaut.achievement.3", sourceIds: ["src_collins_nasm_remembrance", "src_collins_natgeo", "src_collins_nasm_archives"] },
+    ],
+    moments: [
+      { id: "michael-collins-astronaut-moment-1", textKey: "michael-collins-astronaut.moment.1", interpretationKey: "michael-collins-astronaut.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_collins_gemini_history", "src_collins_natgeo"] },
+      { id: "michael-collins-astronaut-moment-2", textKey: "michael-collins-astronaut.moment.2", interpretationKey: "michael-collins-astronaut.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_collins_afj_docking"] },
+    ],
+    turningPoints: [
+      { id: "michael-collins-astronaut-turning-point-1", textKey: "michael-collins-astronaut.turning_point.1", interpretationKey: "michael-collins-astronaut.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_collins_natgeo", "src_collins_cbs_obit", "src_collins_nasabio"] },
+    ],
+  },
+  "quentin-tarantino": {
+    achievements: [
+      { id: "quentin-tarantino-achievement-1", textKey: "quentin-tarantino.achievement.1", sourceIds: ["src_tarantino_biography", "src_tarantino_sundance_menke"] },
+      { id: "quentin-tarantino-achievement-2", textKey: "quentin-tarantino.achievement.2", sourceIds: ["src_tarantino_cannes", "src_tarantino_academy_1995", "src_tarantino_rosenbaum_pulp"] },
+      { id: "quentin-tarantino-achievement-3", textKey: "quentin-tarantino.achievement.3", sourceIds: ["src_tarantino_biography", "src_tarantino_academy_2013", "src_tarantino_asc_hateful8"] },
+    ],
+    moments: [
+      { id: "quentin-tarantino-moment-1", textKey: "quentin-tarantino.moment.1", interpretationKey: "quentin-tarantino.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_tarantino_asc_hateful8", "src_tarantino_bordwell_h8"] },
+      { id: "quentin-tarantino-moment-2", textKey: "quentin-tarantino.moment.2", interpretationKey: "quentin-tarantino.interpretation.moment.2", attributeId: "detail_orientation", sourceIds: ["src_tarantino_slash_writing"] },
+    ],
+    turningPoints: [
+      { id: "quentin-tarantino-turning-point-1", textKey: "quentin-tarantino.turning_point.1", interpretationKey: "quentin-tarantino.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_tarantino_biography", "src_tarantino_sundance_menke"] },
+    ],
+  },
+  "roger-penrose": {
+    achievements: [
+      { id: "roger-penrose-achievement-1", textKey: "roger-penrose.achievement.1", sourceIds: ["src_penrose_nobel_press", "src_penrose_nobel_scientific"] },
+      { id: "roger-penrose-achievement-2", textKey: "roger-penrose.achievement.2", sourceIds: ["src_penrose_nobel_scientific", "src_penrose_royalsociety", "src_penrose_mactutor"] },
+      { id: "roger-penrose-achievement-3", textKey: "roger-penrose.achievement.3", sourceIds: ["src_penrose_royalsociety", "src_penrose_mactutor"] },
+    ],
+    moments: [
+      { id: "roger-penrose-moment-1", textKey: "roger-penrose.moment.1", interpretationKey: "roger-penrose.interpretation.moment.1", attributeId: "creative_originality", sourceIds: ["src_penrose_nobel_popular", "src_penrose_nobel_scientific"] },
+      { id: "roger-penrose-moment-2", textKey: "roger-penrose.moment.2", interpretationKey: "roger-penrose.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_penrose_mactutor"] },
+    ],
+    turningPoints: [
+      { id: "roger-penrose-turning-point-1", textKey: "roger-penrose.turning_point.1", interpretationKey: "roger-penrose.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_penrose_sep", "src_penrose_mactutor", "src_penrose_royalsociety"] },
+    ],
+  },
+  "shigeru-miyamoto": {
+    achievements: [
+      { id: "shigeru-miyamoto-achievement-1", textKey: "shigeru-miyamoto.achievement.1", sourceIds: ["src_miyamoto_gale"] },
+      { id: "shigeru-miyamoto-achievement-2", textKey: "shigeru-miyamoto.achievement.2", sourceIds: ["src_miyamoto_gale", "src_miyamoto_iwata_galaxy"] },
+      { id: "shigeru-miyamoto-achievement-3", textKey: "shigeru-miyamoto.achievement.3", sourceIds: ["src_miyamoto_asturias", "src_miyamoto_mext"] },
+    ],
+    moments: [
+      { id: "shigeru-miyamoto-moment-1", textKey: "shigeru-miyamoto.moment.1", interpretationKey: "shigeru-miyamoto.interpretation.moment.1", attributeId: "experimentation", sourceIds: ["src_miyamoto_iwata_galaxy"] },
+      { id: "shigeru-miyamoto-moment-2", textKey: "shigeru-miyamoto.moment.2", interpretationKey: "shigeru-miyamoto.interpretation.moment.2", attributeId: "detail_orientation", sourceIds: ["src_miyamoto_gamedev_migs"] },
+    ],
+    turningPoints: [
+      { id: "shigeru-miyamoto-turning-point-1", textKey: "shigeru-miyamoto.turning_point.1", interpretationKey: "shigeru-miyamoto.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_miyamoto_iwata_galaxy"] },
+    ],
+  },
+  "sundar-pichai": {
+    achievements: [
+      { id: "sundar-pichai-achievement-1", textKey: "sundar-pichai.achievement.1", sourceIds: ["src_pichai_britannica", "src_pichai_fortune"] },
+      { id: "sundar-pichai-achievement-2", textKey: "sundar-pichai.achievement.2", sourceIds: ["src_pichai_britannica", "src_pichai_fortune"] },
+      { id: "sundar-pichai-achievement-3", textKey: "sundar-pichai.achievement.3", sourceIds: ["src_pichai_britannica", "src_pichai_reuters"] },
+    ],
+    moments: [
+      { id: "sundar-pichai-moment-1", textKey: "sundar-pichai.moment.1", interpretationKey: "sundar-pichai.interpretation.moment.1", attributeId: "persuasiveness", sourceIds: ["src_pichai_fortune", "src_pichai_reuters"] },
+      { id: "sundar-pichai-moment-2", textKey: "sundar-pichai.moment.2", interpretationKey: "sundar-pichai.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_pichai_engadget"] },
+    ],
+    turningPoints: [
+      { id: "sundar-pichai-turning-point-1", textKey: "sundar-pichai.turning_point.1", interpretationKey: "sundar-pichai.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_pichai_reuters", "src_pichai_britannica", "src_pichai_nextgov"] },
+    ],
+  },
+  "walt-whitman": {
+    achievements: [
+      { id: "walt-whitman-achievement-1", textKey: "walt-whitman.achievement.1", sourceIds: ["src_whitman_britannica", "src_whitman_poetryfound"] },
+      { id: "walt-whitman-achievement-2", textKey: "walt-whitman.achievement.2", sourceIds: ["src_whitman_wa_lg1891", "src_whitman_poetryfound", "src_whitman_brown"] },
+      { id: "walt-whitman-achievement-3", textKey: "walt-whitman.achievement.3", sourceIds: ["src_whitman_pbs", "src_whitman_poetryfound"] },
+    ],
+    moments: [
+      { id: "walt-whitman-moment-1", textKey: "walt-whitman.moment.1", interpretationKey: "walt-whitman.interpretation.moment.1", attributeId: "proactive_agency", sourceIds: ["src_whitman_britannica", "src_whitman_wa_rome"] },
+      { id: "walt-whitman-moment-2", textKey: "walt-whitman.moment.2", interpretationKey: "walt-whitman.interpretation.moment.2", attributeId: "persuasiveness", sourceIds: ["src_whitman_wa_leavesdroppings", "src_whitman_selfreview", "src_whitman_brown"] },
+    ],
+    turningPoints: [
+      { id: "walt-whitman-turning-point-1", textKey: "walt-whitman.turning_point.1", interpretationKey: "walt-whitman.interpretation.turning_point.1", attributeId: "creative_originality", sourceIds: ["src_whitman_britannica", "src_whitman_poetryfound"] },
+    ],
+  },
+  "wassily-kandinsky": {
+    achievements: [
+      { id: "wassily-kandinsky-achievement-1", textKey: "wassily-kandinsky.achievement.1", sourceIds: ["src_kandinsky_britannica"] },
+      { id: "wassily-kandinsky-achievement-2", textKey: "wassily-kandinsky.achievement.2", sourceIds: ["src_kandinsky_moma_almanac", "src_kandinsky_britannica"] },
+      { id: "wassily-kandinsky-achievement-3", textKey: "wassily-kandinsky.achievement.3", sourceIds: ["src_kandinsky_bk_classes", "src_kandinsky_bk_bio", "src_kandinsky_tate_glew"] },
+    ],
+    moments: [
+      { id: "wassily-kandinsky-moment-1", textKey: "wassily-kandinsky.moment.1", interpretationKey: "wassily-kandinsky.interpretation.moment.1", attributeId: "proactive_agency", sourceIds: ["src_kandinsky_schoenberg", "src_kandinsky_moma_almanac"] },
+      { id: "wassily-kandinsky-moment-2", textKey: "wassily-kandinsky.moment.2", interpretationKey: "wassily-kandinsky.interpretation.moment.2", attributeId: "systems_abstraction", sourceIds: ["src_kandinsky_bk_classes", "src_kandinsky_pompidou_teacher"] },
+    ],
+    turningPoints: [
+      { id: "wassily-kandinsky-turning-point-1", textKey: "wassily-kandinsky.turning_point.1", interpretationKey: "wassily-kandinsky.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_kandinsky_britannica"] },
+    ],
+  },
 };

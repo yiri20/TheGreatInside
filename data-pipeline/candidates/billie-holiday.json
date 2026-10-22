@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "billie-holiday",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Billie Holiday",
+    "aliases": [
+      "Lady Day",
+      "Eleanora Fagan"
+    ],
+    "wikidataId": "Q104358",
+    "birthYear": 1915,
+    "deathYear": 1959,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer",
+      "songwriter",
+      "musician"
+    ],
+    "fieldIds": [
+      "music",
+      "jazz"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_holiday_wikidata",
+      "kind": "wikidata",
+      "title": "Billie Holiday (Q104358) -- verified live via the Wikidata API (2026-10-22): English label 'Billie Holiday', description 'American jazz singer (1915-1959)', born 7 April 1915, died 17 July 1959, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q104358"
+    },
+    {
+      "id": "src_holiday_britannica",
+      "kind": "biography",
+      "title": "Britannica, 'Billie Holiday' (encyclopedia biography) -- read in full: American jazz singer 'one of the greatest from the 1930s to the '50s'; no formal musical training but an instinctive sense of musical structure and a singing style that was 'deeply moving and individual'; first recordings in 1933 with Benny Goodman; the 1935 series with Teddy Wilson and members of Count Basie's band that brought wider recognition and 'launched her career as the leading jazz singer of her time'; touring with Basie and Artie Shaw in 1937-38; opening at Cafe Society in 1938; exclusive cabaret and concert work from about 1940; her 1936-1942 recordings as her peak years, often with Lester Young, whose interplay with her voice is described as among the best of vocal line and instrumental obbligato; the songs identified with her; and the 1956 autobiography Lady Sings the Blues. CANONICAL SIGNIFICANCE SOURCE (her primary historical contribution). The passages on parentage, arrests, addiction and health were read and not used.",
+      "url": "https://www.britannica.com/biography/Billie-Holiday"
+    },
+    {
+      "id": "src_holiday_smithsonian",
+      "kind": "institution",
+      "title": "Smithsonian magazine, 'Happy Birthday, Billie!' -- a question-and-answer with John Edward Hasse, curator of American music at the Smithsonian's National Museum of American History, read in full: she 'made songs her own' with 'distinctive horn-like phrasing'; like Louis Armstrong she influenced other singers to take familiar songs and make them their own by changing melodies and rhythms; she 'practiced an instrumental approach to singing', ranging freely over the beat, flattening the melodic contours of tunes and 're-composing' songs to suit her range and style; her voice was 'physically limited' but she achieved nuance 'by sliding along the thin line separating speech and song'; a close reading of 'Mean to Me' (she recomposes the melody of the A section, flattens parts of it, sings the original bridge melody with her own rhythm and phrasing, leans on the beat and then catches up) within her partnership with Lester Young and Teddy Wilson; and the 'God Bless the Child' million-seller. Museum-curator interview, admiring but specific. The passages on her death and finances were not used.",
+      "url": "https://www.smithsonianmag.com/smithsonian-institution/happy-birthday-billie-177424660/"
+    },
+    {
+      "id": "src_holiday_loc",
+      "kind": "archive",
+      "title": "Library of Congress National Recording Registry essay '\"Strange Fruit\" -- Billie Holiday (1939), added to the National Registry 2002' by Cary O'Dell (loc.gov PDF) -- read in full: after Hammond introduced her to Benny Goodman she cut her first record on 27 November 1933; she played the Apollo in 1935 and toured with the Basie and Shaw bands and recorded for Brunswick; not everyone 'cottoned to the emotional, heavy-with-feeling delivery' and she was sometimes fired from clubs after one night; she booked a nine-month engagement at the new Cafe Society in December 1938; the 1939 Commodore recording of 'Strange Fruit' became the best-selling record of her career (number 16 on the charts); and later hits including 'God Bless the Child' and 'Lover Man'. Archive essay by a Library staff member; the song's subject matter, her protest role, and the essay's passages on her family, addiction and relationships were read and not scored.",
+      "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/StrangeFruit.pdf"
+    },
+    {
+      "id": "src_holiday_nmaahc",
+      "kind": "institution",
+      "title": "National Museum of African American History and Culture (Smithsonian), 'Billie Holiday' profile -- read in full: singer, songwriter and actress; her first record at eighteen with a studio group led by Benny Goodman; recordings with Teddy Wilson and a long partnership with Lester Young, who gave her the nickname Lady Day; Artie Shaw's 1938 invitation to headline his orchestra; the 1956 autobiography. Short museum profile; the claims it makes about 'first' status and her private life were not used.",
+      "url": "https://nmaahc.si.edu/billie-holiday"
+    },
+    {
+      "id": "src_holiday_wisc",
+      "kind": "institution",
+      "title": "University of Wisconsin course site 'Learn the Legends: Musical Performers of the Early 20th Century', 'Billie Holiday' -- read in full: self-taught from records of Bessie Smith and Louis Armstrong; as a teenage club singer she would move from table to table improvising a different melody on each chorus; her recordings are said to 'sing like a jazz musician, singing behind the beat, recomposing melodies' and adding colours and inflections, often holding part of a phrase and catching up in the next beats; work with Basie, Shaw and Armstrong; and a quoted remark attributed to her ('If I'm going to sing like someone else, then I don't need to sing at all') that has no source on the page. University teaching page; the quotation is unsourced and is used only as flagged self-statement. The passages on her childhood, addiction and prison were not used.",
+      "url": "https://courses.dcs.wisc.edu/wp/musicalperformers/billie-holiday/"
+    },
+    {
+      "id": "src_holiday_popmatters",
+      "kind": "press",
+      "title": "PopMatters, review of 'Billie Holiday: The Essential Brunswick Collection' (three-disc set of her 1935-1939 Brunswick recordings) -- read in full: calls the consensus of musical opinion that she is among the greatest singers while stating plainly that she did not have the largest range, sweetest timbre or most resonant vibrato; says in 1935 she 'discovers how to match her voice to the technology, how to sound distinctive (despite record company pressure to imitate the prevailing women singers), and how to jam vocally with great players such as pianist Teddy Wilson and tenor saxophonist Lester Young'; and that she made hit songs of the time her own with idiosyncratic intonation and precise phrasing. Critic's review, admiring but with an explicit limitation note; the reviewer's remarks about her later voice were not used.",
+      "url": "https://www.popmatters.com/181279-billie-holidaythe-essential-brunswick-collection-2495664508.html"
+    },
+    {
+      "id": "src_holiday_jazzcom",
+      "kind": "press",
+      "title": "Jazz.com, note on 'Teddy Wilson (featuring Billie Holiday): What a Little Moonlight Can Do' (a liner-style paragraph) -- read in full: in June 1935 John Hammond secured Brunswick's 12-month contract for one session a month built around Teddy Wilson, produced for the coin-operated music-machine market; the first session assembled an all-star ensemble including Benny Goodman, after whose chalumeau chorus comes 'Billie's suave vocal'; Wilson later said of that session that it 'was never, never surpassed'. Short web liner note, used only for the 1935 session context and Wilson's quoted appraisal.",
+      "url": "https://jazz.com/music/teddy-wilson-featuring-billie-holiday-what-a-little-moonlight-can-do"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_holiday_smithsonian, src_holiday_wisc, src_holiday_popmatters, src_holiday_britannica | 1930s-1940s | museum curator + university page + critic + reference biography] The Smithsonian curator describes her recomposing the melody of 'Mean to Me' (flattening part of the A section, re-rhythming the bridge) and ranging freely over the beat, and says she influenced other singers to remake familiar songs; the Wisconsin page and PopMatters independently describe her singing behind the beat, recomposing melodies and making popular songs her own with idiosyncratic intonation and phrasing; Britannica calls the style 'deeply moving and individual' without formal training. Specific musical behaviour is documented by four unrelated writers, but all are retrospective admiration and no contemporary or adversarial voice is in the set. SELF-CALIBRATION (agent): lowered from 82/0.68 to 76/0.62 because every source is retrospective admiration, so the unusually high score was not matched by any adversarial or contemporary corroboration."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_holiday_smithsonian, src_holiday_britannica, src_holiday_popmatters | 1935-1942 | museum curator + reference biography + critic] Hasse credits her with shadings, nuance, colour and variety 'by sliding along the thin line separating speech and song', and treats bar lines and note values as 'guideposts, not fences'; Britannica says her dramatic intensity rendered the most banal lyric profound; PopMatters credits precise phrasing and intonation that 'conveys joy and heartache'. A consistent pattern of refined attention to tone and phrasing across independent writers, but it is read from recordings by later commentators rather than from her own account, so strong inference."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_holiday_britannica, src_holiday_smithsonian, src_holiday_popmatters, src_holiday_jazzcom, src_holiday_nmaahc | 1933-1942 | reference biography + museum curator + critic + liner note + museum profile] Britannica records the 1935 Teddy Wilson recordings that launched her career and her 1936-42 association with Lester Young, whose interplay with her voice it ranks among the best of vocal line and instrumental obbligato; the Smithsonian curator describes the Young-Wilson-Clayton arrangement of 'Mean to Me' and calls Young a musical soulmate; PopMatters says she learned 'to jam vocally' with Wilson and Young; she also toured and worked with the Basie, Shaw and Armstrong bands. A durable pattern of ensemble work is documented, but sources describe the results more than how she worked with the others, so strong inference."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_holiday_popmatters, src_holiday_wisc, src_holiday_britannica | 1935-1940 | critic + university page + reference biography] PopMatters says that, despite record-company pressure to imitate the prevailing women singers, she developed a distinctive sound; Britannica notes she had no formal musical training and developed an individual style; the Wisconsin page attributes to her, without a source, a remark that she would not sing like someone else. A single critic's sentence plus an unsourced quotation is thin support for a stronger score. SELF-CALIBRATION (agent): lowered from 68/0.52 to 62/0.48 because the row rests on one critic's sentence and one unsourced quotation rather than a documented decision by her."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "빌리 홀리데이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/billie-holiday-gottlieb-1947.jpg",
+    "width": 1150,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Billie Holiday, Downbeat, New York, N.Y., ca. Feb. 1947 (William P. Gottlieb 04251).jpg' -- photograph by William P. Gottlieb at the Downbeat club, New York, about February 1947, Library of Congress William P. Gottlieb Collection item gottlieb.04251 (Commons source field {{LOC-image|id=gottlieb.04251|division=music}}); uploaded to Commons 13 June 2018 (SHA-1 0dc1f0af matches the downloaded file). Original 4936 x 5152 pixels (6,235,422 bytes, grayscale); saved here downscaled once to 1150 x 1200 pixels, no crop, never upscaled.",
+    "license": "Public domain: released by the photographer; Library of Congress Gottlieb Collection 'Rights and Access' page states that 'in accordance with the wishes of William Gottlieb, the photographs in this collection entered into the public domain on February 16, 2010, but rights of privacy and publicity may apply'",
+    "licenseUrl": "https://www.loc.gov/collections/jazz-photography-of-william-p-gottlieb/about-this-collection/rights-and-access/",
+    "attribution": "Photo: William P. Gottlieb, ca. 1947, Library of Congress Music Division, William P. Gottlieb Collection (public domain by the photographer's release; credit as a courtesy)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Billie_Holiday,_Downbeat,_New_York,_N.Y.,_ca._Feb._1947_(William_P._Gottlieb_04251).jpg",
+    "creator": "William P. Gottlieb",
+    "date": "1947",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Billie_Holiday,_Downbeat,_New_York,_N.Y.,_ca._Feb._1947_(William_P._Gottlieb_04251).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-22T00:00:00Z",
+    "updatedAt": "2026-10-22T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-22) for Q104358 returned en label 'Billie Holiday', description 'American jazz singer (1915-1959)', born 1915-04-07, died 1959-07-17, citizenship United States (Q30), ko label '빌리 홀리데이'; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug billie-holiday or QID Q104358 in the roster52 worktree (data-pipeline/candidates, src, public/portraits). REGION: north_america (born in Philadelphia per Britannica), nationalityCodes US, era 20th_century. VOCABULARY: occupationIds singer, songwriter, musician; fieldIds music, jazz; impact domains artistic, cultural; tags innovator, craft_focused; archetypes creative_creator, independent_creator are existing ids used by other candidates. ZERO POLITICS: nothing political is scored. 'Strange Fruit' appears only as a recording and sales fact (Commodore, 1939) in a card; its subject, any protest role and the label-refusal accounts (which differ across sources) are not scored. HARD EXCLUSIONS FOR THIS SUBJECT: addiction, arrests, health, her voice's later condition, childhood hardship and trauma, relationships, her autobiography's accounts and the film depictions were read where they appeared and not used for any row; no trait is inferred from them (for example no persistence, resilience or risk row is claimed because the evidence in the set for such rows is entangled with those topics). Only documented professional musical behaviour is scored: phrasing and melody recomposition, ensemble work, and developing a distinctive sound. PERSPECTIVES (>=2 independent): (1) museum and archive (Smithsonian curator interview, NMAAHC, Library of Congress registry essay); (2) reference biography (Britannica); (3) a critic's review (PopMatters) and a university teaching page; (4) liner-style jazz note quoting Teddy Wilson (musician testimony at one remove). COUNTER-VOICES: the Library of Congress essay says not everyone liked her emotional delivery and she was sometimes fired from clubs after one night; PopMatters and the Smithsonian curator both state plainly that she did not have a large or conventionally strong voice. SUBSTANTIVE NON-SELF BEHAVIOURAL SOURCE: the Smithsonian curator's close reading of 'Mean to Me' and the Library of Congress essay. Self material: only an unsourced quotation on the Wisconsin page, flagged and not used alone. CANONICAL SIGNIFICANCE SOURCE: Britannica, 'Billie Holiday' (https://www.britannica.com/biography/Billie-Holiday), read in full, supported by the Smithsonian interview. READ (8 cited non-Wikidata sources plus the Commons file page and the LOC rights page): all as saved text or extracted PDF text. NOT OPENED: Lady Sings the Blues (self-narrated, ghostwritten, and widely noted as unreliable), the Rock & Roll Hall of Fame full essay (only a teaser was reachable), John Szwed's and Margolick's books (lending or paywalled), recordings themselves. PORTRAIT: Commons file for LOC gottlieb.04251, photographed at the Downbeat club about February 1947 by William P. Gottlieb. RIGHTS: the loc.gov item page is Cloudflare-blocked, so the authoritative basis was the Library's Gottlieb Collection 'Rights and Access' page (read through an Internet Archive copy), which states the photographs entered the public domain on 16 February 2010 in accordance with Gottlieb's wishes, with a note that privacy and publicity rights may apply; no conflicting copyright notice was found; Commons tags it PD-Gottlieb citing the same page. The publicity-rights caveat is recorded here as a residual consideration for a deceased subject, not a copyright restriction. SELF-CALIBRATION: reviewed creative_originality (lowered, see row), independent_thinking (lowered, see row) and collaboration (kept: five independent sources, though describing outcomes rather than process). SCOPE FLAG: four rows only; sparse by design because most behavioural evidence for her is bound up with excluded topics; no padding."
+  }
+}

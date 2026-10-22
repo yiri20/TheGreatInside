@@ -8129,6 +8129,234 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Before accepting the ETH Zürich chair, which he took up at the end of April 1928, Pauli insisted on an assistant and wrote to Ralph Kronig that the task would be 'Every time I say something, to contradict me with detailed arguments' and to animate the scientific activity with modern ideas. At Zürich he built one of the world's leading centres of theoretical physics, and a graduate student of the early 1950s remembered witnessing his strong objections at a colloquium.",
   "wolfgang-pauli.interpretation.turning_point.1":
     "This is consistent with a physicist who built disagreement into his working environment, though he was also known for sharp objections that some listeners found daunting.",
+  /* ---------------------------------------------------------- billie-holiday (Roster52) */
+  "billie-holiday.achievement.1":
+    "Her 1935 recordings with pianist Teddy Wilson and members of Count Basie's band launched her as the leading jazz singer of her time, Britannica says. Her 1936 to 1942 recordings, often with saxophonist Lester Young, were her peak years.",
+  "billie-holiday.achievement.2":
+    "She sang like an instrumentalist, behind the beat, recomposing melodies to suit her range and style. A Smithsonian curator says she influenced other singers to make familiar songs their own.",
+  "billie-holiday.achievement.3":
+    "Her 1939 Commodore recording of \"Strange Fruit\" became the best-selling record of her career and entered the Library of Congress National Recording Registry in 2002. \"God Bless the Child\" sold over a million copies, and she was inducted into the Rock & Roll Hall of Fame in 2000.",
+  "billie-holiday.moment.1":
+    "In \"Mean to Me\", with Teddy Wilson, Lester Young and Buck Clayton, a Smithsonian curator describes her recomposing the melody of the first section, flattening parts of it, and singing the bridge with her own rhythm and phrasing.",
+  "billie-holiday.interpretation.moment.1":
+    "Consistent with a singer whose originality lay in reshaping an existing song's melody and rhythm rather than in the material itself.",
+  "billie-holiday.moment.2":
+    "A critic says that in 1935, despite record-company pressure to imitate the prevailing women singers, she found a distinctive sound and learned to jam vocally with Teddy Wilson and Lester Young.",
+  "billie-holiday.interpretation.moment.2":
+    "Consistent with a performer who held to her own approach under commercial pressure and thrived in close ensemble work, though this rests on one critic's account.",
+  "billie-holiday.turning_point.1":
+    "In June 1935 John Hammond secured a Brunswick contract for monthly sessions built around Teddy Wilson; the resulting recordings with Wilson and members of Basie's band brought her wider recognition and launched her career as the leading jazz singer of her time.",
+  "billie-holiday.interpretation.turning_point.1":
+    "Consistent with a career that took off through close studio collaboration with strong instrumentalists.",
+  /* ---------------------------------------------------------- bjorn-borg (Roster52) */
+  "bjorn-borg.achievement.1":
+    "Borg won the Wimbledon singles title five years in a row, from 1976 to 1980. The Hall of Fame names his 1976 final over Ilie Nastase as the first and his 1980 five-set final against John McEnroe as one of the greatest matches in history; the Associated Press report of the 1980 final records the score as 1-6, 7-5, 6-3, 6-7, 8-6.",
+  "bjorn-borg.achievement.2":
+    "At 18 Borg won the 1974 French Open after losing the first two sets of the final to Manuel Orantes, becoming the tournament's youngest champion to that date. He won it six times in all, including four in a row from 1978 to 1981, according to both the Hall of Fame and Britannica.",
+  "bjorn-borg.achievement.3":
+    "Borg won 11 major singles titles in the eight years from 1974 to 1981 and led Sweden to the 1975 Davis Cup. The Hall of Fame says his heavy-topspin forehand and two-handed backhand became the craze, with players at every level trying to copy his style and his controlled court demeanor. He announced his retirement on 23 January 1983, at 26.",
+  "bjorn-borg.moment.1":
+    "In the 1974 French Open final, 18-year-old Borg lost the first two sets to Manuel Orantes, 2-6 and 6-7, then won the next three 6-0, 6-1, 6-1. Earlier in the tournament, the ATP reports, he had recovered from 1-4 down in the deciding set of his first-round match.",
+  "bjorn-borg.interpretation.moment.1":
+    "This is consistent with staying in a match after falling well behind.",
+  "bjorn-borg.moment.2":
+    "The Christian Science Monitor wrote in 1981 that Borg, largely self-taught, had always listened politely to people who wanted to change his grip and two-handed backhand but refused to tamper with a method that felt comfortable and worked. The paper added that he kept up early-morning workouts and practiced his topspin shots 'until he can make them in his sleep'.",
+  "bjorn-borg.interpretation.moment.2":
+    "This is consistent with trusting his own method over outside advice while continuing to practice it.",
+  "bjorn-borg.turning_point.1":
+    "Stan Smith recalled to the ATP that when he beat the 17-year-old Borg in 1973 Borg 'made too many mistakes' going for big shots, but that by 1974 Borg had become a 'human ball machine' who realised he did not need to. Borg won the French Open that June, his first major title.",
+  "bjorn-borg.interpretation.turning_point.1":
+    "This is consistent with changing his tactical approach from one season to the next.",
+  /* ---------------------------------------------------------- george-washington-carver (Roster52) */
+  "george-washington-carver.achievement.1":
+    "In 1896 George Washington Carver went to Tuskegee Institute in Alabama to head its new school of agriculture and experiment station, and for the rest of his career he worked on helping poor Southern farmers escape cotton-depleted soil. The American Chemical Society reports that by rotating cotton land with soil-enriching legumes such as cowpeas and beans he raised yields without commercial fertilizer, taking a half-acre sweet potato plot from 40 to 266 bushels in a few years. He taught at Tuskegee for 47 years.",
+  "george-washington-carver.achievement.2":
+    "Carver took the knowledge to the farmers. The American Chemical Society says the Jessup wagon, a travelling school that opened on 24 May 1906 with funding from the banker Morris K. Jesup (also spelled Jessup) and the Slater Fund, was designed by Carver, though he never drove it, and was soon made part of the U.S. Department of Agriculture's outreach. As director of the experiment station he also wrote bulletins for tenant farmers, teachers and housewives, 44 of them between 1898 and 1943 by the ACS's count, and the National Agricultural Library describes them as plain instructions for the 'poor tenant farmer with a one-horse equipment'.",
+  "george-washington-carver.achievement.3":
+    "To give farmers a market for the crops that rebuilt their soil, Carver developed uses for peanuts, sweet potatoes and native clay, more than 300 from the peanut alone by the American Chemical Society's count. His 1921 testimony before a House committee on a peanut tariff made him the public 'Peanut Man'. Historians caution that the popular image overstates him: Biography.com notes that he did not invent peanut butter, and the Encyclopedia of Alabama says much of his fame was based on myth though his real contributions were significant.",
+  "george-washington-carver.moment.1":
+    "In 1921 Carver appeared before the House Ways and Means Committee as an expert witness for the peanut industry. The American Chemical Society says he began badly, shabbily dressed and fumbling with his samples, but as he displayed and described product after product his time was repeatedly extended, and the committee gave him a standing ovation. Biography.com adds that the members had at first doubted him because he was Black.",
+  "george-washington-carver.interpretation.moment.1":
+    "This is consistent with persuading a sceptical audience through concrete demonstration rather than polished delivery.",
+  "george-washington-carver.moment.2":
+    "At Tuskegee Carver repeatedly pressed for room to do research on his own terms. The American Chemical Society says he insisted on a laboratory for his exclusive use and relief from teaching, often refused Booker T. Washington's suggestions (which Washington called 'a polite way of giving orders'), and was given two dormitory rooms, one for his plant specimens; Washington would not let him stop teaching altogether, and his successor Robert Moton later relieved him of all teaching except summer school.",
+  "george-washington-carver.interpretation.moment.2":
+    "This is consistent with a strong need to control the conditions of his own work, at some cost to his relations with the school's leadership.",
+  "george-washington-carver.turning_point.1":
+    "In April 1896, with a master's degree from Iowa State, Carver chose Booker T. Washington's offer of a new agricultural school at Tuskegee over an Alcorn faculty post and a place on the Iowa State faculty. The American Chemical Society quotes his acceptance letter: it had always been the one great ideal of his life, he wrote, to be of the greatest good to the greatest number of 'my people', and the Encyclopedia of Alabama says he arrived intending to stay only a few years before a doctorate; he stayed until his death in 1943.",
+  "george-washington-carver.interpretation.turning_point.1":
+    "This is consistent with choosing a post for the people it could serve over more prestigious or secure alternatives.",
+  /* ---------------------------------------------------------- joseph-bazalgette (Roster52) */
+  "joseph-bazalgette.achievement.1":
+    "After the Great Stink of 1858 he designed London's main drainage system: intercepting sewers, roughly 82 miles of them, fed by over 1,100 miles of street drains and carrying sewage east by gravity and pumping stations. It opened in 1865 and was completed in 1875.",
+  "joseph-bazalgette.achievement.2":
+    "He built the Victoria, Albert and Chelsea embankments along the Thames. They housed the intercepting sewers in central London, and Victorian Web notes the Victoria Embankment spared the north-bank sewer a route under the Strand and Fleet Street.",
+  "joseph-bazalgette.achievement.3":
+    "He sized the system well above the needs of his day, for about four million people according to Thames Water, which is one reason much of it still works. The historian John Davis adds that outfalls sited about twelve miles below London Bridge left problems until treatment works followed an 1884 Royal Commission.",
+  "joseph-bazalgette.moment.1":
+    "The London Museum describes him reviewing every plan, personally signing drainage plans and inspecting every interchange for leaks, and insisting on strong, water-resistant Portland cement.",
+  "joseph-bazalgette.interpretation.moment.1":
+    "Consistent with a manager who checked the build closely, though this rests on a single museum article.",
+  "joseph-bazalgette.moment.2":
+    "Sizing the pipes for the densest population and the most generous sewage output, he reportedly then doubled their diameter because 'there's always the unforeseen'; the Science Museum says he chose wide egg-shaped tunnels over narrow pipes.",
+  "joseph-bazalgette.interpretation.moment.2":
+    "Consistent with someone who built in margin for growth and for what could not be foreseen.",
+  "joseph-bazalgette.turning_point.1":
+    "Financial problems and conflicts among consultants held up the drainage plans until 1859, a year after the Great Stink; he had been engineer to the Metropolitan Board of Works since 1856, and the network was then built between 1859 and 1875.",
+  "joseph-bazalgette.interpretation.turning_point.1":
+    "Consistent with someone who stayed with a long project through delay until it could be built, though the sources do not describe his own response to the delays.",
+  /* ---------------------------------------------------------- mae-jemison (Roster52) */
+  "mae-jemison.achievement.1":
+    "On 12 September 1992 Jemison flew on Space Shuttle Endeavour's STS-47 mission as the Spacelab-J science mission specialist, a joint NASA-Japan flight of about eight days and 127 orbits that carried 44 life-science and materials-processing experiments; she was co-investigator on a bone cell research experiment. NASA's press kit identifies her as the first African American woman to fly in space.",
+  "mae-jemison.achievement.2":
+    "She trained as both an engineer and a physician, with a chemical engineering degree from Stanford (1977) and a medical degree from Cornell (1981). From January 1983 to June 1985 she was Area Peace Corps Medical Officer for Sierra Leone and Liberia, managing health care for Peace Corps and embassy personnel, writing self-care manuals and taking part in hepatitis B vaccine, schistosomiasis and rabies research with the National Institutes of Health and the CDC.",
+  "mae-jemison.achievement.3":
+    "She left NASA in March 1993 and later founded the technology consulting company the Jemison Group and an international science camp, The Earth We Share.",
+  "mae-jemison.moment.1":
+    "Early in the Spacelab-J mission Jemison spent most of a Blue Team shift on the Frog Embryology Experiment. She moved fertilized eggs into the sealed workstation and watched them under a video microscope, and the experiment's principal investigator, Kenneth Souza, speaking from Marshall Space Flight Center's operations area, said he and his team agreed with her choice of the two best egg-donor frogs of the four aboard. When the workstation door stuck, she spoke with the experiment's payload manager, who approved a plan from Jemison and Jan Davis to free it, and it worked.",
+  "mae-jemison.interpretation.moment.1":
+    "This is consistent with working a problem in step with ground investigators and a crewmate rather than alone, though the report records the outcome in a single sentence.",
+  "mae-jemison.moment.2":
+    "In NASA's status reports for the first days of the mission (12 to 17 September 1992), Jemison appears in both of Spacelab-J's research areas. In materials science she ran the Gas Evaporation Facility, which vaporized metal filaments in glass bulbs, and the Liquid Drop Facility, levitating a drop of mineral oil with sound waves (a Japanese co-investigator thanked her for her hard work although the results were not completely successful). In life science she injected frogs to induce ovulation, fertilized and later fixed the eggs, and rotated chicken eggs each shift.",
+  "mae-jemison.interpretation.moment.2":
+    "This is consistent with a background spanning engineering and medicine being put to work across the mission's two research areas, though the assignments were also set by the shift plan.",
+  "mae-jemison.turning_point.1":
+    "Jemison, a physician, applied to NASA's astronaut program in 1985. When selection was paused after the Challenger accident in 1986 she reapplied, and in June 1987 she was chosen as one of 15 candidates from over 2,000 applicants. NASA's biography says she was working as a general practitioner and attending graduate engineering classes when she was selected.",
+  "mae-jemison.interpretation.turning_point.1":
+    "This is consistent with someone who went after a new career path herself and tried again when the first attempt was overtaken by events, though the account of the application rests mainly on a museum biography.",
+  /* ---------------------------------------------------------- michael-collins-astronaut (Roster52) */
+  "michael-collins-astronaut.achievement.1":
+    "Collins was command module pilot of Apollo 11 (16-24 July 1969), the first lunar landing mission. He stayed in lunar orbit aboard Columbia, alone for more than 21 hours, while Neil Armstrong and Buzz Aldrin descended to the Moon in Eagle, and after their ascent from the surface he performed the final docking manoeuvres that rejoined the crew for the return to Earth.",
+  "michael-collins-astronaut.achievement.2":
+    "In July 1966 he piloted Gemini 10 with John Young, a three-day flight that rendezvoused and docked with one Agena target vehicle and then, using that Agena's engine, rendezvoused with a second Agena left in orbit. Collins made two periods of extravehicular activity, a stand-up in the open hatch and a tethered spacewalk in which he retrieved a micrometeorite experiment from the second Agena; the National Air and Space Museum describes him as the first person to perform two spacewalks on one mission.",
+  "michael-collins-astronaut.achievement.3":
+    "After leaving NASA he directed the Smithsonian's National Air and Space Museum from 1971 to 1978. The building was approved but unfunded when he arrived; he secured the funding with Senator Barry Goldwater's support, broke ground in 1972 and led the team that opened the museum on the National Mall on 1 July 1976. The museum says his 1974 memoir Carrying the Fire is still regarded by many as the best astronaut memoir ever written.",
+  "michael-collins-astronaut.moment.1":
+    "On the second Gemini 10 spacewalk Collins pushed off toward the second Agena, lost his grip on the smooth rim of its docking cone and drifted away from the experiment package. About five metres from the spacecraft he had to decide quickly between pulling on the coiling umbilical and using the hand-held gun; he chose the gun, used a series of squirts to reach the spacecraft and then the Agena again, and retrieved the micrometeorite package. He gave up installing the replacement for fear of losing the one he held, and afterwards needed Young's help to get untangled from the umbilical.",
+  "michael-collins-astronaut.interpretation.moment.1":
+    "This is consistent with improvising a workable fix when the planned approach failed, though the task took longer than planned and the umbilical later tangled around him.",
+  "michael-collins-astronaut.moment.2":
+    "After Eagle's ascent and rendezvous, Collins docked Columbia to it under autopilot control, making the final adjustments after Armstrong's rough alignment. When he fired the bottle that retracts the docking probe, a yaw oscillation built between the two vehicles; he took manual control, thought he might have to let the lunar module go and try again, and the latches fired six to eight seconds after the bottle. In the 1969 technical debrief he said he had never given the oscillations a fair chance to develop and that waiting before firing might be better, but added that he was not sure he would do it differently, since it depended on what caused them; Armstrong's debrief describes the same moments from inside the lunar module.",
+  "michael-collins-astronaut.interpretation.moment.2":
+    "This is consistent with a pilot who reviewed his own docking practice candidly after the fact while saying the cause was unclear, though the account is his own debrief.",
+  "michael-collins-astronaut.turning_point.1":
+    "Collins's first application to become a NASA astronaut was rejected in 1962; the letter said he did not meet the special requirements of the astronaut program, as he later recalled it. He applied again the next year and was selected in October 1963 with NASA's third group of astronauts, which put him on the path to Gemini 10 and Apollo 11.",
+  "michael-collins-astronaut.interpretation.turning_point.1":
+    "This is consistent with a candidate who treated a rejection as a reason to apply again, though both news accounts rest on his own memoir.",
+  /* ---------------------------------------------------------- quentin-tarantino (Roster52) */
+  "quentin-tarantino.achievement.1":
+    "After writing screenplays while working at a video store, among them True Romance, Tarantino made his directing debut with Reservoir Dogs (1992), a low-budget crime film he also wrote. Biography.com says producer Lawrence Bender helped him secure the funding and Harvey Keitel signed on as actor and producer; Sundance says the film took the world by storm when it screened at the 1992 Sundance Film Festival.",
+  "quentin-tarantino.achievement.2":
+    "Pulp Fiction (1994), which he directed and wrote (with a story credit shared with Roger Avary), won the Palme d'Or at the 1994 Cannes Film Festival and the Academy Award for writing (screenplay written directly for the screen). Cannes summarizes it as three stories, about two thugs and their boss's girlfriend, a boxer and his father's watch, and a dead body in a blood-soaked car; critic Jonathan Rosenbaum called it a chronologically scrambled collection of interlocking crime stories with an ingenious structure.",
+  "quentin-tarantino.achievement.3":
+    "His later features include Jackie Brown (1997), Kill Bill Vol. 1 and Vol. 2 (2003-2004), Inglourious Basterds (2009), Django Unchained (2012), The Hateful Eight (2015) and Once Upon a Time... in Hollywood (2019). Django Unchained won him a second Academy Award for original screenplay, and The Hateful Eight was shot in Ultra Panavision 70 for a planned 70mm roadshow release.",
+  "quentin-tarantino.moment.1":
+    "Preparing The Hateful Eight (2015), Tarantino told American Cinematographer that he thought he could 'shoot it in a format that would demand that they release it on film'. With cinematographer Robert Richardson he revived Ultra Panavision 70, and the film was planned as a two-week 70mm presentation, with overture and intermission, in about 100 theaters. Film scholar David Bordwell reported that this meant finding, refurbishing and installing more than 100 projectors.",
+  "quentin-tarantino.interpretation.moment.1":
+    "This is consistent with holding to a preference for large-format film and arranging production and exhibition around it.",
+  "quentin-tarantino.moment.2":
+    "In a 2009 interview with Filmmaker magazine, quoted by Slashfilm, Tarantino said he writes his scripts by hand and then retypes the whole manuscript with one finger on a word processor, a method he said he had used since Reservoir Dogs. He called the retyping 'a really good filter' for overwriting, and said a Reservoir Dogs scene in which the characters argue over code-name colors arose while he was retyping.",
+  "quentin-tarantino.interpretation.moment.2":
+    "This is consistent with a deliberate, hands-on editing pass on his own writing.",
+  "quentin-tarantino.turning_point.1":
+    "In 1992 Tarantino moved from writing screenplays to directing his own with Reservoir Dogs. Biography.com says producer Lawrence Bender helped him secure funding and Harvey Keitel signed on as actor and producer; Sundance says the editor he found for the low-budget film, Sally Menke, wanted the job after reading the script and went on to cut his films through Inglourious Basterds (2009).",
+  "quentin-tarantino.interpretation.turning_point.1":
+    "This is consistent with building a lasting circle of collaborators around a first film.",
+  /* ---------------------------------------------------------- roger-penrose (Roster52) */
+  "roger-penrose.achievement.1":
+    "In January 1965 Roger Penrose published a proof that black holes can really form. Without assuming spherical symmetry, he introduced the concept of a trapped surface and, using topological methods, showed that once one has formed, collapse to a singularity cannot be prevented within general relativity. The Royal Swedish Academy of Sciences says the paper is still regarded as the most important contribution to the general theory of relativity since Einstein, and in 2020 it awarded Penrose half of the Nobel Prize in Physics.",
+  "roger-penrose.achievement.2":
+    "With Stephen Hawking, Penrose extended the result to cosmology. The Nobel Committee for Physics says their 1970 work showed that, under reasonable assumptions, a past singularity is inevitable in the Big Bang model, and MacTutor reports that the two shared the Wolf Prize in Physics, which the Royal Society cites for showing the necessity of cosmological singularities. The Committee also credits Penrose with the diagrams that bear his name, which use conformal transformations to fit infinite space and time into a finite picture and are indispensable in the study of curved space-times.",
+  "roger-penrose.achievement.3":
+    "Penrose also invented twistor theory, which the Royal Society calls a key tool in quantum theory, and discovered a non-periodic form of tiling that bears his name. MacTutor says that after years of work he found non-periodic tilings that need only two tiles, and the Royal Society notes that Penrose tiling has since been observed experimentally in quasicrystals.",
+  "roger-penrose.moment.1":
+    "In the Nobel Committee's retelling of his own recollection, the key to showing that black holes can form came to Penrose in autumn 1964, on a walk with a colleague in London. When they stopped talking to cross a side street, an idea flashed into his mind, and later that afternoon he searched for it in his memory; the idea, which he called trapped surfaces, was the key he had unconsciously been searching for. The Committee notes that Penrose tells the story himself in two books.",
+  "roger-penrose.interpretation.moment.1":
+    "This is consistent with solving a problem by inventing a new concept rather than extending a standard calculation.",
+  "roger-penrose.moment.2":
+    "In 1994 Penrose and Stephen Hawking debated at the Isaac Newton Institute in Cambridge, and the debate was published in 1996 as The Nature of Space and Time. MacTutor quotes Penrose's own contribution: Hawking said he is a positivist, whereas Penrose calls himself a realist, and he compared the exchange to the debate between Bohr and Einstein, with Hawking in Bohr's role and himself in Einstein's.",
+  "roger-penrose.interpretation.moment.2":
+    "This is consistent with defending a philosophical position of his own even against a close scientific collaborator.",
+  "roger-penrose.turning_point.1":
+    "From 1989 Penrose added a second, contested line of work on the mind. His books The Emperor's New Mind (1989) and Shadows of the Mind (1994) argued that conscious acts are not computable, and with the anaesthesiologist Stuart Hameroff he proposed that they arise from gravitation-induced collapses of quantum states in microtubules. The Stanford Encyclopedia of Philosophy reports influential criticism, including Max Tegmark's estimate that such states would decohere in under a trillionth of a second, and a published exchange with Grush and Churchland in 1995, while concluding that the proposal should be neither celebrated too quickly nor dismissed offhandedly.",
+  "roger-penrose.interpretation.turning_point.1":
+    "This is consistent with sustaining a long-running, contested line of work while answering critics in print.",
+  /* ---------------------------------------------------------- shigeru-miyamoto (Roster52) */
+  "shigeru-miyamoto.achievement.1":
+    "Miyamoto joined Nintendo in 1977 as a design artist, and his first major assignment was a new arcade game for unsold Radarscope cabinets. The result, Donkey Kong (1981), introduced the character who became Mario. Encyclopedia.com's biographical entry says the character's early look, including the cap and moustache, came from the pixel limits of the hardware.",
+  "shigeru-miyamoto.achievement.2":
+    "He went on to design Super Mario Bros. and The Legend of Zelda, and in Super Mario 64 (1996) brought the series from 2-D to 3-D; Iwata Asks identifies him as the director of Super Mario 64. His later credits include Ocarina of Time (1998), Pikmin and Star Fox, with Mario Galaxy made with him as producer rather than director.",
+  "shigeru-miyamoto.achievement.3":
+    "In 2012 the Princess of Asturias Foundation gave him its Award for Communication and Humanities, with a jury calling him the main architect of the revolution in educational and constructive video games. Japan's education ministry listed him among the 2019 Persons of Cultural Merit, in the field of media arts (games), identifying him as a Nintendo representative director and fellow.",
+  "shigeru-miyamoto.moment.1":
+    "For Super Mario Galaxy, Miyamoto told Iwata Asks that he chose gravity and a spherical field as the distinct feature of a 3-D Mario. The staff objected ('Can we really call something like that a game?'), and he recalled having tried rolled or spherical fields in Paper Mario and Mario 128 before shelving them.",
+  "shigeru-miyamoto.interpretation.moment.1":
+    "This is consistent with returning to an earlier idea, in his own account, and testing it in new projects until it worked.",
+  "shigeru-miyamoto.moment.2":
+    "Retro Studios' Mark Pacini recalled that when the Texas studio began Metroid Prime, Miyamoto's first directive was that the switch between the morph ball and the first-person view be seamless, or 'we can't do this game'. The team needed a few months to achieve it, and Miyamoto then said 'okay'.",
+  "shigeru-miyamoto.interpretation.moment.2":
+    "This is consistent with insisting on a precise detail of how a game feels before letting a project proceed.",
+  "shigeru-miyamoto.turning_point.1":
+    "By Super Mario Galaxy, Miyamoto was working as producer instead of director, as he had been on Super Mario 64. He told Iwata Asks that he did not think the game could have been made had he directed, and that he stayed in Kyoto while the team worked in Tokyo, reviewing new builds by email and video conference.",
+  "shigeru-miyamoto.interpretation.turning_point.1":
+    "This is consistent with a shift from directing a game himself to guiding teams led by others.",
+  /* ---------------------------------------------------------- sundar-pichai (Roster52) */
+  "sundar-pichai.achievement.1":
+    "Sundar Pichai joined Google in 2004 as head of product management and development and worked first on the Google Toolbar, which made it easy to reach Google search from Internet Explorer and Firefox. Britannica says he was then directly involved in developing Google's own browser, Chrome, released in 2008, and Fortune reports that his argument that Microsoft could threaten the toolbar came shortly before Google approved Chrome, though it gives him no clear role in pitching it.",
+  "sundar-pichai.achievement.2":
+    "After Chrome's launch Pichai climbed through Google's product organisation. Britannica says he became vice president of product development in 2008, a senior vice president by 2012, and in 2014 product chief over both Google and Android. Fortune adds that he oversaw apps such as Gmail, took charge of Android when its founder Andy Rubin moved to Google's robotics work, and was then put in charge of most of the company's products apart from units such as YouTube.",
+  "sundar-pichai.achievement.3":
+    "When Larry Page and Sergey Brin created the holding company Alphabet in August 2015, Pichai was named CEO of Google, and in December 2019 he also became CEO of Alphabet. Britannica credits him with strongly supporting Alphabet's artificial intelligence initiatives, including Waymo and Google's Gemini chatbot, and says he oversaw products from the Pixel phones to Google Workspace and Google Cloud.",
+  "sundar-pichai.moment.1":
+    "Fortune reports that in tense 2006 talks with senior Google leaders, Pichai, then director of product management for the toolbar, argued that Microsoft could change Internet Explorer to block it and threaten a large part of Google's business; two unnamed executives described the stakes as severe, and Google approved Chrome shortly afterwards. Reuters quotes a former colleague saying he advanced his agenda through quiet advocacy rather than seeking attention.",
+  "sundar-pichai.interpretation.moment.1":
+    "This is consistent with arguing for a position inside the company through reasoned advocacy rather than public display.",
+  "sundar-pichai.moment.2":
+    "In February 2024, after Google's Gemini chatbot produced historically inaccurate images, Pichai told staff in a memo, published by Semafor, that the problems were unacceptable. Engadget reports that he said image generation would stay paused until a fix was developed and listed the changes needed first, including updated product guidelines, improved launch processes and more thorough testing and red-teaming.",
+  "sundar-pichai.interpretation.moment.2":
+    "This is consistent with publicly acknowledging an error and committing to process changes, although the evidence is his own memo.",
+  "sundar-pichai.turning_point.1":
+    "In August 2015, when Larry Page and Sergey Brin announced the creation of Alphabet, Pichai was named CEO of Google. Reuters reports that colleagues said he had never seemed destined for the top job, with other executives mentioned as possible chiefs, and that he rose from the toolbar through Chrome, Gmail and Android; Britannica says it came as no surprise to industry insiders.",
+  "sundar-pichai.interpretation.turning_point.1":
+    "This is consistent with a rise built on working relationships and results across roles rather than on a long-signalled path to the top.",
+  /* ---------------------------------------------------------- walt-whitman (Roster52) */
+  "walt-whitman.achievement.1":
+    "In 1855, with no publisher willing, he paid to print the twelve-poem first Leaves of Grass, in a new unrhymed free-verse style. Emerson called it \"the most extraordinary piece of wit and wisdom\" America had yet contributed, and Britannica calls it a landmark of American literature.",
+  "walt-whitman.achievement.2":
+    "He kept revising and enlarging the book for the rest of his life: nine volumes titled Leaves of Grass, six of them true editions by the Whitman Archive's count. The 1881 edition fixed the final order of its 293 poems.",
+  "walt-whitman.achievement.3":
+    "Drum-Taps (1865), written during his Civil War years in Washington, includes the Lincoln elegy \"When Lilacs Last in the Dooryard Bloom'd\". The Poetry Foundation lists Pound, Williams and Ginsberg among the poets he later influenced.",
+  "walt-whitman.moment.1":
+    "In 1855 he sold a house to pay for the first Leaves of Grass, chose the typeface and layout with the Rome brothers, set about ten pages of type himself, and came to the Brooklyn print shop most mornings to work on proofs.",
+  "walt-whitman.interpretation.moment.1":
+    "Consistent with a self-starter who made his own route into print when no publisher offered one, and who cared about how the book was physically made.",
+  "walt-whitman.moment.2":
+    "For the 1856 edition he printed Emerson's private letter without asking him, and added nine reviews of the first edition, two of them his own unsigned writing, alongside puzzled and negative ones.",
+  "walt-whitman.interpretation.moment.2":
+    "Consistent with an energetic self-promoter whose publicity cost him goodwill, since Emerson was reported angry, while his willingness to print hostile reviews shows a tolerance for open controversy.",
+  "walt-whitman.turning_point.1":
+    "Before 1855 he had worked as a printer, teacher, journalist and editor, publishing sentimental stories and poems that showed almost no literary promise; in the spring of 1855 he printed the first Leaves of Grass in a new style instead.",
+  "walt-whitman.interpretation.turning_point.1":
+    "Consistent with a creative break in which he abandoned the conventional verse of his earlier writing for a form of his own.",
+  /* ---------------------------------------------------------- wassily-kandinsky (Roster52) */
+  "wassily-kandinsky.achievement.1":
+    "Between about 1908 and 1913 he moved from landscapes toward painting with no recognisable subject, hoping colours, lines and shapes could work as a visual language like music. Britannica calls him one of the first creators of pure abstraction, while noting he was not its only founder.",
+  "wassily-kandinsky.achievement.2":
+    "In June 1911 he proposed to Franz Marc an almanac, \"the document of our modern art\". It became the Blue Rider book, two exhibitions and a loose group of artists, mixing painting with music, theatre, folk art, children's art and ethnography.",
+  "wassily-kandinsky.achievement.3":
+    "He set out a theory of colour and form in Concerning the Spiritual in Art and taught it at the Bauhaus from 1922 to 1933. His Weimar survey underlay the Bauhaus pairing of red, yellow and blue with the square, triangle and circle, and Point and Line to Plane appeared in 1926.",
+  "wassily-kandinsky.moment.1":
+    "After hearing a Schoenberg concert in Munich on 2 January 1911 he wrote to the composer on 18 January; he later gave Schoenberg a set of woodcuts, made him a Blue Rider member and arranged a guest performance in St Petersburg.",
+  "wassily-kandinsky.interpretation.moment.1":
+    "Consistent with someone who reached out to people whose work he admired and turned contact into joint projects.",
+  "wassily-kandinsky.moment.2":
+    "At the Weimar Bauhaus he ran a survey on which colours people matched to which forms; most respondents agreed with his reasoning and the result became a school trademark, though Oskar Schlemmer was among the critics and the source says his 'scientific' findings came from introspection.",
+  "wassily-kandinsky.interpretation.moment.2":
+    "Consistent with a drive to turn intuitions about colour and form into a teachable system, with the limits of that system openly contested.",
+  "wassily-kandinsky.turning_point.1":
+    "In 1896, near his thirtieth birthday, he turned down a law professorship at Dorpat and went to Munich to become a painter, after studying law and economics and working in a printing house; Britannica draws partly on his own later recollection.",
+  "wassily-kandinsky.interpretation.turning_point.1":
+    "Consistent with a willingness to change course late and stay with a new path, though the evidence rests partly on his own recollection.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -16111,6 +16339,234 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1928년 4월 말 취리히 연방공과대학(ETH) 교수직을 맡기 전, 파울리는 조교를 두는 것을 조건으로 내걸고 랄프 크로니히에게 그 일이 '내가 무슨 말을 할 때마다 상세한 논거로 반박하는 것'이며 현대적인 착상으로 학문 활동에 활기를 불어넣는 것이라고 편지를 썼다. 그는 취리히에서 세계적인 이론물리학 연구 중심지의 하나를 일구었고, 1950년대 초의 한 대학원생은 한 콜로키움에서 그가 강하게 반박하는 것을 직접 보았다고 회상했다.",
   "wolfgang-pauli.interpretation.turning_point.1":
     "의견 충돌을 작업 환경에 아예 심어 둔 물리학자의 모습과 일치하지만, 그는 일부 청중이 위축될 만큼 날카롭게 반박하는 것으로도 알려져 있었다.",
+  /* ---------------------------------------------------------- billie-holiday (Roster52) */
+  "billie-holiday.achievement.1":
+    "브리태니커에 따르면 1935년 피아니스트 테디 윌슨, 카운트 베이시 악단 단원들과 한 녹음이 그녀를 당대 최고의 재즈 가수로 떠오르게 했습니다. 1936년부터 1942년까지의 녹음, 특히 색소폰 연주자 레스터 영과 함께한 작업이 전성기로 꼽힙니다.",
+  "billie-holiday.achievement.2":
+    "그녀는 연주자처럼 노래했습니다. 박자보다 살짝 뒤에서 부르고, 자신의 음역과 스타일에 맞게 선율을 다시 지었습니다. 스미소니언 큐레이터는 그녀가 다른 가수들에게 익숙한 노래를 자기 것으로 만드는 길을 열어 주었다고 말합니다.",
+  "billie-holiday.achievement.3":
+    "1939년 코모도어 레이블에서 녹음한 「Strange Fruit」는 그녀의 생애 최다 판매 음반이 되었고 2002년 미국 의회도서관 국립녹음등록부에 올랐습니다. 「God Bless the Child」는 100만 장 넘게 팔렸으며, 그녀는 2000년 로큰롤 명예의 전당에 헌액되었습니다.",
+  "billie-holiday.moment.1":
+    "「Mean to Me」에서 테디 윌슨, 레스터 영, 벅 클레이턴과 함께한 그녀는 첫 대목의 선율을 다시 짓고 일부를 평평하게 펴며, 브리지는 자기만의 리듬과 프레이징으로 불렀다고 스미소니언 큐레이터는 설명합니다.",
+  "billie-holiday.interpretation.moment.1":
+    "곡 자체보다 기존 노래의 선율과 리듬을 새롭게 빚어내는 데서 독창성이 드러난 가수였음과 부합합니다.",
+  "billie-holiday.moment.2":
+    "한 평론가는 1935년 음반사가 당시 인기 여성 가수들을 흉내 내라고 압박했지만, 그녀가 자신만의 독특한 소리를 찾았고 테디 윌슨, 레스터 영과 어울려 목소리로 즉흥 연주하는 법을 익혔다고 말합니다.",
+  "billie-holiday.interpretation.moment.2":
+    "상업적 압박 속에서도 자기 방식을 지키고 긴밀한 앙상블 작업에서 빛났음과 부합하지만, 한 평론가의 서술에 의존합니다.",
+  "billie-holiday.turning_point.1":
+    "1935년 6월 존 해먼드는 테디 윌슨을 중심으로 한 월 1회 녹음 계약을 브런즈윅과 맺었습니다. 윌슨과 베이시 악단 단원들과 한 이 녹음들이 그녀에게 더 넓은 인지도를 안겨 주었고 당대 최고의 재즈 가수로서의 경력이 시작되었습니다.",
+  "billie-holiday.interpretation.turning_point.1":
+    "뛰어난 연주자들과의 긴밀한 스튜디오 협업을 통해 경력이 도약했음과 부합합니다.",
+  /* ---------------------------------------------------------- bjorn-borg (Roster52) */
+  "bjorn-borg.achievement.1":
+    "보리는 1976년부터 1980년까지 5년 연속 윔블던 남자 단식 정상에 올랐다. 국제 테니스 명예의 전당은 1976년 일리 나스타세와의 결승을 첫 우승으로, 1980년 존 매켄로와의 5세트 결승을 역사상 최고의 경기 중 하나로 꼽는다. AP 통신은 1980년 결승 스코어를 1-6, 7-5, 6-3, 6-7, 8-6으로 전했다.",
+  "bjorn-borg.achievement.2":
+    "보리는 18세에 1974년 프랑스 오픈 결승에서 마누엘 오란테스에게 첫 두 세트를 내주고도 우승해 당시 이 대회 최연소 챔피언이 되었다. 국제 테니스 명예의 전당과 브리태니커는 그가 이 대회에서 통산 여섯 번, 1978년부터 1981년까지 4연속을 포함해 우승했다고 적는다.",
+  "bjorn-borg.achievement.3":
+    "보리는 1974년부터 1981년까지 8년 동안 메이저 단식 11승을 거두었고 1975년 스웨덴의 데이비스컵 우승을 이끌었다. 국제 테니스 명예의 전당은 그의 강한 톱스핀 포핸드와 양손 백핸드가 유행이 되어 모든 수준의 선수가 그의 스타일과 절제된 코트 태도를 따라 하려 했다고 쓴다. 그는 1983년 1월 23일 26세로 은퇴를 발표했다.",
+  "bjorn-borg.moment.1":
+    "1974년 프랑스 오픈 결승에서 18세의 보리는 마누엘 오란테스에게 첫 두 세트를 2-6, 6-7로 내주었지만 이어진 세 세트를 6-0, 6-1, 6-1로 따냈다. ATP에 따르면 그는 대회 1회전 마지막 세트에서도 1-4 열세를 뒤집은 적이 있었다.",
+  "bjorn-borg.interpretation.moment.1":
+    "크게 뒤진 뒤에도 경기를 포기하지 않는 태도와 일치한다.",
+  "bjorn-borg.moment.2":
+    "크리스천 사이언스 모니터는 1981년 독학에 가까운 보리가 그립과 양손 백핸드를 바꾸라는 사람들의 말을 늘 공손히 들었지만, 자신에게 편하고 통하는 방식에는 손대기를 거부했다고 썼다. 이 신문은 그가 이른 아침 훈련을 계속하고 톱스핀 샷을 자면서도 칠 수 있을 때까지 연습한다고도 덧붙였다.",
+  "bjorn-borg.interpretation.moment.2":
+    "외부 조언보다 자신의 방식을 믿고 그것을 꾸준히 연마하는 태도와 일치한다.",
+  "bjorn-borg.turning_point.1":
+    "스탠 스미스는 ATP에 1973년 17세의 보리를 이겼을 때 그가 큰 샷을 노리다 실수를 너무 많이 했지만, 1974년에는 그럴 필요가 없다는 것을 깨달은 '인간 볼 머신'이 되어 있었다고 회상했다. 보리는 그해 6월 프랑스 오픈에서 자신의 첫 메이저 타이틀을 땄다.",
+  "bjorn-borg.interpretation.turning_point.1":
+    "한 시즌에서 다음 시즌으로 넘어가며 전술적 접근을 바꾼 것과 일치한다.",
+  /* ---------------------------------------------------------- george-washington-carver (Roster52) */
+  "george-washington-carver.achievement.1":
+    "1896년 조지 워싱턴 카버는 앨라배마의 터스키기 학원에 새로 생긴 농학부와 농업시험장의 책임자로 부임했고, 이후 평생 목화로 땅심이 다한 남부 가난한 농민들을 돕는 일에 매달렸다. 미국화학회에 따르면 그는 목화밭을 콩과 작물 등 땅을 기름지게 하는 작물과 돌려짓기해 상업 비료 없이도 수확량을 높였고, 반 에이커 규모의 고구마 밭 수확을 몇 해 만에 40부셸에서 266부셸로 늘렸다. 그는 터스키기에서 47년 동안 가르쳤다.",
+  "george-washington-carver.achievement.2":
+    "카버는 지식을 농민에게 직접 가져갔다. 미국화학회에 따르면 은행가 모리스 K. 제섭과 슬레이터 기금의 후원으로 1906년 5월 24일 문을 연 이동 학교인 제섭 마차는 카버가 계획했으며, 그가 직접 몰지는 않았지만 곧 미국 농무부 보급 사업의 일부가 되었다. 그는 농업시험장 책임자로서 소작농과 교사, 주부를 위한 소책자도 썼다. 미국화학회는 1898년부터 1943년까지 44권을 헤아리고, 미국 국립농학도서관은 이를 '말 한 마리 농기구만 가진 가난한 소작농'을 위한 평이한 안내서로 설명한다.",
+  "george-washington-carver.achievement.3":
+    "카버는 농민들이 땅을 되살리는 작물을 팔 시장을 얻도록 땅콩, 고구마, 토종 점토의 쓰임새를 개발했다. 미국화학회는 땅콩 하나에서만 300가지가 넘는 제품을 헤아린다. 1921년 땅콩 관세를 두고 하원 위원회에서 한 증언은 그를 대중에게 '땅콩 박사'로 각인시켰다. 다만 통념은 그를 과장한다. 바이오그래피닷컴은 그가 땅콩버터를 발명하지 않았다고 짚고, 앨라배마 백과사전은 그의 명성 상당 부분이 신화에 바탕을 두었지만 실제 기여는 컸다고 평가한다.",
+  "george-washington-carver.moment.1":
+    "1921년 카버는 땅콩 업계의 전문가 증인으로 하원 세입위원회에 출석했다. 미국화학회에 따르면 그는 허름한 차림으로 견본을 더듬거리며 서툴게 시작했지만, 제품을 하나씩 보여 주고 설명하자 발언 시간이 거듭 연장되었고 위원들은 기립 박수를 보냈다. 바이오그래피닷컴은 위원들이 처음에는 그가 흑인이라는 이유로 그를 의심했다고 덧붙인다.",
+  "george-washington-carver.interpretation.moment.1":
+    "다듬어진 말솜씨보다 구체적인 시연으로 회의적인 청중을 설득하는 방식과 일치한다.",
+  "george-washington-carver.moment.2":
+    "카버는 터스키기에서 자신의 방식대로 연구할 여건을 거듭 요구했다. 미국화학회에 따르면 그는 자기 혼자 쓰는 실험실과 수업 면제를 고집했고, 부커 T. 워싱턴의 제안을 자주 거절했다. 워싱턴은 그 제안이 '명령을 정중하게 말하는 방식'이라고 인정한 바 있다. 카버는 기숙사 방도 둘을 받아 하나를 식물 표본용으로 썼다. 워싱턴은 그가 가르치는 일을 완전히 그만두게 하지 않았고, 후임 로버트 모턴이 나중에 여름학기를 빼고 모든 수업을 면제해 주었다.",
+  "george-washington-carver.interpretation.moment.2":
+    "자기 일의 조건을 스스로 정하려는 강한 욕구와 일치하며, 그 때문에 학교 지도부와의 관계에서 대가를 치렀을 가능성이 있다.",
+  "george-washington-carver.turning_point.1":
+    "1896년 4월 아이오와 주립대에서 석사 학위를 받은 카버는 앨코른 대학 교수직과 아이오와 주립대 교수 자리 대신, 부커 T. 워싱턴이 제안한 터스키기의 새 농업 학교를 택했다. 미국화학회는 그의 수락 편지를 인용한다. '내 사람들'에게 가능한 한 가장 큰 선을 베푸는 것이 평생의 가장 큰 이상이었다고 썼다. 앨라배마 백과사전에 따르면 그는 몇 해만 머문 뒤 박사 과정을 밟을 생각으로 왔지만 1943년 세상을 떠날 때까지 터스키기에 남았다.",
+  "george-washington-carver.interpretation.turning_point.1":
+    "더 명망 있거나 안정적인 자리보다 자신이 도울 수 있는 사람들을 기준으로 일자리를 고르는 태도와 일치한다.",
+  /* ---------------------------------------------------------- joseph-bazalgette (Roster52) */
+  "joseph-bazalgette.achievement.1":
+    "1858년 '대악취' 이후 그는 런던의 주요 하수 시스템을 설계했습니다. 약 82마일의 차단 하수관이 1,100마일이 넘는 가로 배수관에서 오수를 받아 중력과 양수장으로 동쪽으로 보냈고, 이 시스템은 1865년에 개통되어 1875년에 완공되었습니다.",
+  "joseph-bazalgette.achievement.2":
+    "그는 템스강변에 빅토리아, 앨버트, 첼시 제방을 쌓았습니다. 이 제방은 런던 중심부의 차단 하수관을 품었고, 빅토리아 제방 덕분에 북안 하수관이 스트랜드와 플리트 스트리트 아래로 지나지 않아도 되었다고 빅토리안 웹은 설명합니다.",
+  "joseph-bazalgette.achievement.3":
+    "그는 당시 필요를 훨씬 넘는 규모로, 템스 워터에 따르면 약 400만 명을 기준으로 시스템을 설계했고, 그 덕분에 상당 부분이 지금도 쓰입니다. 역사학자 존 데이비스는 런던 브리지 하류 약 12마일 지점에 둔 방류구가 1884년 왕립위원회 이후 처리 시설이 생길 때까지 문제를 남겼다고 덧붙입니다.",
+  "joseph-bazalgette.moment.1":
+    "런던 박물관은 그가 모든 설계도를 검토하고 배수 도면에 직접 서명했으며 모든 합류 지점의 누수를 점검했고, 튼튼하고 방수성이 좋은 포틀랜드 시멘트를 고집했다고 설명합니다.",
+  "joseph-bazalgette.interpretation.moment.1":
+    "공사를 면밀히 확인한 관리자의 모습과 부합하지만, 근거는 박물관 글 하나에 있습니다.",
+  "joseph-bazalgette.moment.2":
+    "그는 인구가 가장 조밀하고 오수 배출이 가장 많은 경우를 기준으로 관 크기를 정한 뒤 \"예기치 못한 일은 늘 있다\"는 이유로 지름을 두 배로 늘렸다고 전해지며, 과학박물관은 그가 좁은 관 대신 넓은 달걀형 터널을 택했다고 설명합니다.",
+  "joseph-bazalgette.interpretation.moment.2":
+    "성장과 예측 불가능한 상황에 대비해 여유를 둔 사람의 면모와 부합합니다.",
+  "joseph-bazalgette.turning_point.1":
+    "재정 문제와 자문가들 사이의 갈등으로 하수 계획은 '대악취' 이듬해인 1859년까지 지연되었습니다. 그는 1856년부터 수도건설위원회의 기사장이었고, 이후 1859년부터 1875년까지 망이 건설되었습니다.",
+  "joseph-bazalgette.interpretation.turning_point.1":
+    "지연 속에서도 오랜 사업을 붙들고 있다가 실행에 옮긴 사람의 면모와 부합하지만, 출처는 지연에 대한 그 자신의 대응을 설명하지 않습니다.",
+  /* ---------------------------------------------------------- mae-jemison (Roster52) */
+  "mae-jemison.achievement.1":
+    "제미슨은 1992년 9월 12일 우주왕복선 엔데버호의 STS-47 임무에 스페이스랩-J의 과학 임무 전문가로 탑승했다. 일본과 공동으로 운영한 이 비행은 약 8일 동안 지구를 127바퀴 돌며 생명과학·재료 가공 실험 44건을 수행했고, 제미슨은 뼈세포 연구 실험의 공동 연구자였다. NASA의 보도자료집은 그를 우주를 비행한 최초의 아프리카계 미국인 여성으로 소개한다.",
+  "mae-jemison.achievement.2":
+    "그는 공학과 의학을 모두 공부해 1977년 스탠퍼드대에서 화학공학 학위를, 1981년 코넬대에서 의학 박사 학위를 받았다. 1983년 1월부터 1985년 6월까지는 시에라리온과 라이베리아를 맡은 평화봉사단 지역 의무관으로 일하며 평화봉사단과 대사관 직원의 의료 체계를 관리했고, 자가 관리 안내서를 쓰고 B형 간염 백신, 주혈흡충증, 광견병 연구에 미국 국립보건원(NIH), 질병통제예방센터(CDC)와 함께 참여했다.",
+  "mae-jemison.achievement.3":
+    "그는 1993년 3월 NASA를 떠났고 이후 기술 컨설팅 회사 제미슨 그룹과 국제 과학 캠프 '디 어스 위 셰어(The Earth We Share)'를 세웠다.",
+  "mae-jemison.moment.1":
+    "스페이스랩-J 임무 초반의 한 블루팀 교대 근무에서 제미슨은 대부분의 시간을 개구리 배아 발생 실험에 썼다. 수정란을 밀폐된 작업대로 옮겨 영상 현미경으로 관찰했고, 마셜 우주비행센터 운영실에서 음성으로 참여한 이 실험의 연구 책임자 케네스 소자는 우주선에 실린 네 마리 가운데 알을 내놓기에 가장 좋은 개구리 두 마리를 고른 제미슨의 선택에 자신과 팀이 동의한다고 말했다. 작업대 문이 걸려 움직이지 않자 그는 이 실험의 탑재체 관리자와 상의했고, 관리자는 제미슨과 얀 데이비스가 낸 해결책을 승인했으며 문은 무사히 풀렸다.",
+  "mae-jemison.interpretation.moment.1":
+    "혼자 해결하기보다 지상의 연구자와 동료와 보조를 맞춰 문제를 풀어 간 모습과 일치하지만, 보고서는 결과를 한 문장으로만 기록한다.",
+  "mae-jemison.moment.2":
+    "임무 초반(1992년 9월 12~17일)의 NASA 상황 보고서에는 제미슨이 스페이스랩-J의 두 연구 분야를 모두 다룬 모습이 기록돼 있다. 재료과학에서는 유리구 안의 금속 필라멘트를 기화시키는 기체 증발 시설 실험과 음파로 광유 방울을 띄우는 액체 방울 시설 실험을 맡았고(결과가 완전히 성공적이지는 않았지만 일본 측 공동 연구자가 그의 노고에 감사를 전했다), 생명과학에서는 개구리에 호르몬을 주사해 배란을 유도하고 알을 수정시킨 뒤 정해진 시기에 고정했으며 교대마다 닭 알을 돌렸다.",
+  "mae-jemison.interpretation.moment.2":
+    "공학과 의학에 걸친 배경이 임무의 두 연구 분야에서 모두 쓰인 모습과 일치하지만, 업무 배정은 교대 근무 계획에도 따른 것이다.",
+  "mae-jemison.turning_point.1":
+    "의사였던 제미슨은 1985년 NASA 우주비행사 프로그램에 지원했다. 1986년 챌린저호 사고로 선발이 중단되자 다시 지원했고, 1987년 6월 2,000명이 넘는 지원자 가운데 선발된 15명 중 한 명이 되었다. NASA의 약력에 따르면 선발될 당시 그는 일반의로 일하면서 대학원 공학 강의를 듣고 있었다.",
+  "mae-jemison.interpretation.turning_point.1":
+    "새로운 진로를 스스로 찾아 나서고 첫 시도가 사건으로 중단되자 다시 지원한 모습과 일치하지만, 지원 과정에 대한 설명은 주로 박물관의 전기에 의존한다.",
+  /* ---------------------------------------------------------- michael-collins-astronaut (Roster52) */
+  "michael-collins-astronaut.achievement.1":
+    "콜린스는 최초의 달 착륙 임무였던 아폴로 11호(1969년 7월 16~24일)의 사령선 조종사였다. 닐 암스트롱과 버즈 올드린이 착륙선 이글을 타고 달 표면으로 내려가는 동안 그는 사령선 컬럼비아호에 남아 21시간 넘게 혼자 달 궤도를 돌았고, 두 사람이 달 표면에서 이륙해 돌아오자 마지막 도킹 기동을 맡아 승무원들이 다시 합류해 지구로 돌아올 수 있게 했다.",
+  "michael-collins-astronaut.achievement.2":
+    "1966년 7월 그는 존 영과 함께 제미니 10호를 조종했다. 사흘간의 이 비행에서는 먼저 아제나 표적 우주선 하나와 랑데부·도킹한 뒤 그 아제나의 엔진을 이용해 궤도에 남아 있던 두 번째 아제나와 다시 랑데부했다. 콜린스는 열린 해치에서 서서 작업한 선외활동과 줄을 달고 나가 두 번째 아제나에서 미소 운석 실험 장치를 회수한 우주 유영까지 두 차례 선외활동을 했으며, 국립항공우주박물관은 그를 한 임무에서 우주 유영을 두 번 한 최초의 사람으로 소개한다.",
+  "michael-collins-astronaut.achievement.3":
+    "NASA를 떠난 뒤 그는 1971년부터 1978년까지 스미소니언 국립항공우주박물관장을 맡았다. 그가 부임했을 때 건물은 승인만 났을 뿐 예산이 확정되지 않은 상태였고, 그는 배리 골드워터 상원의원의 지원으로 예산을 확보해 1972년에 착공했으며, 1976년 7월 1일 워싱턴 내셔널 몰에서 박물관이 문을 열기까지 팀을 이끌었다. 박물관은 그의 1974년 회고록 『Carrying the Fire』를 지금도 많은 사람들이 역대 최고의 우주비행사 회고록으로 꼽는다고 설명한다.",
+  "michael-collins-astronaut.moment.1":
+    "제미니 10호의 두 번째 우주 유영에서 콜린스는 두 번째 아제나를 향해 몸을 밀어 날아갔지만 도킹 콘의 매끈한 가장자리를 붙잡지 못하고 실험 장치에서 멀어졌다. 우주선에서 약 5미터 떨어진 지점에서 그는 감겨 있는 생명줄을 당길지 손에 쥔 추진 건을 쓸지 재빨리 결정해야 했고 추진 건을 택했다. 짧게 여러 번 분사해 우주선으로 갔다가 다시 아제나에 다가가 미소 운석 실험 장치를 회수했다. 손에 쥔 장치를 잃을까 봐 교체용 장치를 설치하는 일은 포기했고, 이후에는 생명줄에 몸이 엉켜 영의 도움으로 풀려나야 했다.",
+  "michael-collins-astronaut.interpretation.moment.1":
+    "계획한 접근이 실패했을 때 즉석에서 쓸 만한 해법을 찾아낸 모습과 일치하지만, 작업은 예상보다 오래 걸렸고 이후 생명줄이 몸에 엉키기도 했다.",
+  "michael-collins-astronaut.moment.2":
+    "이글이 달 표면에서 이륙해 랑데부한 뒤 콜린스는 자동 조종 상태로 컬럼비아호를 이글에 도킹했다. 암스트롱이 대략적인 자세 정렬을 해 두면 콜린스가 마지막 조정을 맡았다. 도킹 프로브를 끌어당기는 가스 장치를 작동시키자 두 우주선 사이에 요 방향 진동이 커졌고, 그는 수동 조종으로 자세를 바로잡으며 착륙선을 놓아 주고 다시 시도해야 할지도 모른다고 생각했지만, 장치를 작동시킨 지 6~8초 뒤 걸쇠가 잠겼다. 1969년 기술 보고에서 그는 진동이 어떻게 될지 충분히 지켜보지 않았고 작동 전에 더 기다리는 편이 나았을 수 있다고 말하면서도, 진동의 원인에 따라 다르기 때문에 다시 해도 달리 할지는 확신하지 못한다고 덧붙였다. 암스트롱의 보고는 같은 순간을 착륙선 안에서 설명한다.",
+  "michael-collins-astronaut.interpretation.moment.2":
+    "도킹을 마친 뒤 자신의 절차를 솔직하게 되짚으면서도 원인이 분명하지 않다고 밝힌 조종사의 모습과 일치하지만, 이 설명은 본인의 기술 보고에 근거한다.",
+  "michael-collins-astronaut.turning_point.1":
+    "콜린스의 첫 번째 NASA 우주비행사 지원은 1962년에 거절되었다. 훗날 그가 회고한 바에 따르면 통지서는 그가 우주비행사 프로그램의 특별한 요건을 충족하지 못한다고 했다. 그는 이듬해 다시 지원했고 1963년 10월 NASA의 세 번째 우주비행사 그룹으로 선발되어 제미니 10호와 아폴로 11호로 가는 길에 올랐다.",
+  "michael-collins-astronaut.interpretation.turning_point.1":
+    "거절을 다시 지원할 이유로 삼은 지원자의 모습과 일치하지만, 두 보도의 설명은 모두 그의 회고록에 바탕을 둔다.",
+  /* ---------------------------------------------------------- quentin-tarantino (Roster52) */
+  "quentin-tarantino.achievement.1":
+    "타란티노는 비디오 가게에서 일하며 『트루 로맨스』 같은 시나리오를 쓰다가, 1992년 자신이 쓴 저예산 범죄 영화 『저수지의 개들』로 감독 데뷔를 했다. 바이오그래피닷컴에 따르면 프로듀서 로렌스 벤더가 제작비 마련을 도왔고 하비 케이틀이 배우 겸 제작자로 합류했으며, 선댄스는 이 영화가 1992년 선댄스영화제에서 상영되자 큰 반향을 일으켰다고 쓴다.",
+  "quentin-tarantino.achievement.2":
+    "『펄프 픽션』(1994)은 그가 연출하고 쓴 영화로(스토리 크레딧은 로저 에이버리와 공동), 1994년 칸영화제 황금종려상과 아카데미 각본상(스크린을 위해 직접 쓴 각본 부문)을 받았다. 칸영화제는 이 영화를 건달 둘과 보스의 여자 친구, 아버지의 시계를 되찾으려는 권투 선수, 시체와 피로 얼룩진 차라는 세 이야기로 소개하고, 비평가 조너선 로즌바움은 시간 순서를 뒤섞은 서로 맞물린 범죄 이야기 모음으로서 구성이 기발하다고 평했다.",
+  "quentin-tarantino.achievement.3":
+    "이후 『재키 브라운』(1997), 『킬 빌』 1·2부(2003~2004), 『바스터즈: 거친 녀석들』(2009), 『장고: 분노의 추적자』(2012), 『헤이트풀8』(2015), 『원스 어폰 어 타임 인 할리우드』(2019)를 내놓았다. 『장고: 분노의 추적자』로 두 번째 아카데미 각본상(오리지널 각본 부문)을 받았고, 『헤이트풀8』은 울트라 파나비전 70으로 촬영해 70mm 로드쇼 개봉을 계획했다.",
+  "quentin-tarantino.moment.1":
+    "『헤이트풀8』(2015)을 준비하던 타란티노는 『아메리칸 시네마토그래퍼』에 필름으로 개봉할 수밖에 없는 포맷으로 촬영할 수 있겠다고 생각했다고 말했다. 그는 촬영감독 로버트 리처드슨과 함께 울트라 파나비전 70을 되살렸고, 영화는 서곡과 인터미션을 갖춘 70mm 상영을 약 100개 극장에서 2주간 하는 것으로 계획되었다. 영화학자 데이비드 보드웰은 이를 위해 영사기 100여 대를 찾아 정비하고 설치해야 했다고 전했다.",
+  "quentin-tarantino.interpretation.moment.1":
+    "대형 필름 포맷에 대한 선호를 지키며 제작과 상영 방식을 그에 맞춰 짜는 태도와 일치한다.",
+  "quentin-tarantino.moment.2":
+    "타란티노는 2009년 『필름메이커』와의 인터뷰에서(슬래시필름이 인용) 시나리오를 손으로 쓴 뒤 워드프로세서에 손가락 하나로 원고 전체를 다시 타이핑한다고 말했다. 『저수지의 개들』 때부터 이어 온 방식이라고 했다. 그는 이 과정을 과하게 쓴 대목을 걸러 내는 '아주 좋은 필터'라고 부르며, 『저수지의 개들』에서 인물들이 암호명 색깔을 두고 말다툼하는 장면은 다시 타이핑하는 중에 생겨났다고 말했다.",
+  "quentin-tarantino.interpretation.moment.2":
+    "자기 글을 직접 손으로 다듬는 의도적인 편집 단계를 두는 태도와 일치한다.",
+  "quentin-tarantino.turning_point.1":
+    "1992년 타란티노는 시나리오를 쓰던 데서 한 걸음 나아가 『저수지의 개들』로 직접 연출에 나섰다. 바이오그래피닷컴에 따르면 프로듀서 로렌스 벤더가 제작비 마련을 도왔고 하비 케이틀이 배우 겸 제작자로 합류했다. 선댄스에 따르면 이 저예산 영화의 편집자 샐리 멩키는 각본을 보고 일을 맡고 싶어 했으며, 이후 『바스터즈: 거친 녀석들』(2009)까지 그의 영화를 편집했다.",
+  "quentin-tarantino.interpretation.turning_point.1":
+    "첫 영화를 중심으로 오래 이어질 협업자 집단을 꾸리는 태도와 일치한다.",
+  /* ---------------------------------------------------------- roger-penrose (Roster52) */
+  "roger-penrose.achievement.1":
+    "1965년 1월 로저 펜로즈는 블랙홀이 실제로 만들어질 수 있음을 증명한 논문을 발표했다. 그는 구대칭을 가정하지 않고 '갇힌 곡면(trapped surface)'이라는 개념을 도입한 뒤 위상수학적 방법을 써서, 일반 상대성 이론 안에서는 갇힌 곡면이 한번 생기면 특이점을 향한 붕괴를 막을 수 없음을 보였다. 스웨덴 왕립과학아카데미는 이 논문이 아인슈타인 이후 일반 상대성 이론에 대한 가장 중요한 기여로 지금도 평가받는다고 밝혔으며, 2020년 펜로즈에게 노벨 물리학상의 절반을 수여했다.",
+  "roger-penrose.achievement.2":
+    "펜로즈는 스티븐 호킹과 함께 이 결과를 우주론으로 넓혔다. 노벨 물리학위원회는 1970년 두 사람의 연구가 합리적인 가정 아래에서 빅뱅 모형에는 과거의 특이점이 불가피함을 보였다고 설명한다. 맥튜터에 따르면 두 사람은 울프 물리학상을 함께 받았고, 왕립학회는 이 상의 사유로 우주론적 특이점의 필연성을 보인 점을 든다. 위원회는 또 무한한 공간과 시간을 유한한 그림 안에 담아내는 등각 변환 기법, 곧 그의 이름이 붙은 펜로즈 도표를 굽은 시공간 연구에 없어서는 안 될 도구로 꼽는다.",
+  "roger-penrose.achievement.3":
+    "펜로즈는 왕립학회가 양자론의 핵심 도구라고 평가하는 트위스터 이론을 창안했고, 자신의 이름이 붙은 비주기적 타일링도 발견했다. 맥튜터에 따르면 그는 여러 해에 걸친 작업 끝에 타일 두 종류만으로 비주기적 타일링을 찾아냈고, 왕립학회는 펜로즈 타일링이 이후 준결정에서 실험적으로 관측되었다고 적는다.",
+  "roger-penrose.moment.1":
+    "노벨 물리학위원회가 전하는 펜로즈 본인의 회상에 따르면, 블랙홀이 만들어질 수 있음을 보이는 열쇠는 1964년 가을 런던에서 동료와 걷다가 떠올랐다. 대화를 멈추고 골목길을 건너던 순간 한 생각이 불쑥 떠올랐고, 그날 오후 늦게 그 생각을 기억 속에서 다시 찾아냈다. 그가 갇힌 곡면이라고 부른 이 생각은 그가 무의식중에 찾고 있던 열쇠였다. 위원회는 펜로즈가 이 이야기를 두 권의 책에서 직접 들려준다고 덧붙인다.",
+  "roger-penrose.interpretation.moment.1":
+    "표준적인 계산을 확장하기보다 새로운 개념을 고안해 문제를 푸는 방식과 일치한다.",
+  "roger-penrose.moment.2":
+    "1994년 펜로즈는 케임브리지의 아이작 뉴턴 연구소에서 스티븐 호킹과 토론을 벌였고, 이 토론은 1996년 『The Nature of Space and Time』이라는 책으로 출간되었다. 맥튜터는 펜로즈의 발언을 인용한다. 호킹은 자신이 실증주의자라고 했고 펜로즈는 자신을 실재론자라고 하며, 이 토론을 보어와 아인슈타인의 논쟁에 견주어 호킹을 보어에, 자신을 아인슈타인에 비유했다.",
+  "roger-penrose.interpretation.moment.2":
+    "가까운 학문적 협력자를 상대로도 자신의 철학적 입장을 내세우는 태도와 일치한다.",
+  "roger-penrose.turning_point.1":
+    "1989년부터 펜로즈는 마음에 관한 또 하나의, 논란이 큰 연구 줄기를 더했다. 『황제의 새 마음』(The Emperor's New Mind, 1989)과 『마음의 그림자』(Shadows of the Mind, 1994)에서 그는 의식 작용이 계산으로 환원될 수 없다고 주장했고, 마취과 의사 스튜어트 해머로프와 함께 의식이 미세소관 속 양자 상태의 중력 유도 붕괴에서 비롯된다는 가설을 내놓았다. 스탠퍼드 철학 백과사전은 이에 대한 영향력 있는 비판을 전한다. 맥스 테그마크는 이런 상태가 1조분의 1초도 못 되어 결어긋남을 일으킨다고 추산했고, 1995년에는 그러시와 처칠랜드와 지상 논쟁이 있었다. 백과사전은 그러면서도 이 가설을 서둘러 찬양하거나 가볍게 일축해서는 안 된다고 결론짓는다.",
+  "roger-penrose.interpretation.turning_point.1":
+    "논란이 큰 장기 연구를 이어 가면서 비판에 지면으로 답하는 태도와 일치한다.",
+  /* ---------------------------------------------------------- shigeru-miyamoto (Roster52) */
+  "shigeru-miyamoto.achievement.1":
+    "미야모토는 1977년 닌텐도에 디자인 담당으로 입사했고, 첫 주요 임무는 팔리지 않은 레이더스코프 기판에 넣을 새 아케이드 게임이었다. 그 결과물인 『동키콩』(1981)에서 훗날 마리오가 되는 캐릭터가 등장했다. 백과사전 사이트 엔사이클로피디아닷컴의 인물 항목은 모자와 콧수염 같은 초기 모습이 당시 하드웨어의 픽셀 제약에서 나왔다고 쓴다.",
+  "shigeru-miyamoto.achievement.2":
+    "그는 『슈퍼 마리오 브라더스』와 『젤다의 전설』을 만들었고, 『슈퍼 마리오 64』(1996)로 시리즈를 2D에서 3D로 옮겼다. 이와타가 묻는다 인터뷰는 그를 『슈퍼 마리오 64』의 감독으로 소개한다. 이후 『시간의 오카리나』(1998), 『피크민』, 『스타폭스』에도 이름을 올렸고, 『슈퍼 마리오 갤럭시』에서는 감독이 아닌 프로듀서로 참여했다.",
+  "shigeru-miyamoto.achievement.3":
+    "2012년 아스투리아스 왕세녀상 재단은 그에게 커뮤니케이션·인문 부문상을 수여했고, 심사위원단은 그를 교육적이고 구성적인 비디오 게임 혁명의 주요 설계자라고 불렀다. 일본 문부과학성은 2019년 문화공로자 명단에 그를 미디어 예술(게임) 분야, 닌텐도 대표이사 펠로로 올렸다.",
+  "shigeru-miyamoto.moment.1":
+    "『슈퍼 마리오 갤럭시』를 두고 미야모토는 이와타가 묻는다 인터뷰에서 중력과 구형 필드를 3D 마리오의 고유한 특징으로 골랐다고 말했다. 직원들은 그런 것을 게임이라 부를 수 있느냐며 반대했고, 그는 『페이퍼 마리오』와 『마리오 128』에서 말린 모양이나 구형 필드를 시도했다가 접어 두었던 일을 떠올렸다.",
+  "shigeru-miyamoto.interpretation.moment.1":
+    "본인의 설명에 따르면, 이전 아이디어를 되살려 여러 프로젝트에서 시험해 보는 태도와 일치한다.",
+  "shigeru-miyamoto.moment.2":
+    "레트로 스튜디오의 마크 파치니는 이 텍사스 스튜디오가 『메트로이드 프라임』을 시작했을 때 미야모토의 첫 지시가 모프볼과 1인칭 시점 사이의 전환을 매끄럽게 하라는 것이었고, 그러지 못하면 이 게임을 만들 수 없다는 말이었다고 회상했다. 팀이 이를 해내는 데 몇 달이 걸렸고, 그제야 미야모토가 승낙했다.",
+  "shigeru-miyamoto.interpretation.moment.2":
+    "프로젝트를 진행시키기 전에 게임 조작감의 구체적인 부분을 끝까지 따지는 태도와 일치한다.",
+  "shigeru-miyamoto.turning_point.1":
+    "『슈퍼 마리오 갤럭시』에 이르러 미야모토는 『슈퍼 마리오 64』 때와 달리 감독이 아닌 프로듀서로 일하고 있었다. 그는 이와타가 묻는다 인터뷰에서 자신이 감독이었다면 이 게임을 만들지 못했을 것 같다고 했고, 팀이 도쿄에 있는 동안 교토에 머물며 이메일과 화상회의로 새 빌드를 검토했다고 말했다.",
+  "shigeru-miyamoto.interpretation.turning_point.1":
+    "게임을 직접 연출하는 데서 다른 사람이 이끄는 팀을 이끌어 주는 쪽으로 옮겨 간 것과 일치한다.",
+  /* ---------------------------------------------------------- sundar-pichai (Roster52) */
+  "sundar-pichai.achievement.1":
+    "순다르 피차이는 2004년 구글에 제품 관리·개발 책임자로 입사해 인터넷 익스플로러와 파이어폭스에서 구글 검색을 쉽게 쓰게 해 주는 구글 툴바 작업부터 맡았다. 브리태니커는 그가 이어서 2008년 공개된 구글의 자체 브라우저 크롬 개발에 직접 관여했다고 설명한다. 포천은 마이크로소프트가 툴바를 위협할 수 있다는 그의 주장이 구글이 크롬을 승인하기 얼마 전에 있었다고 전하지만, 그가 크롬 추진을 이끌었다고 분명히 적지는 않는다.",
+  "sundar-pichai.achievement.2":
+    "크롬 출시 이후 피차이는 구글의 제품 조직에서 빠르게 올라섰다. 브리태니커에 따르면 그는 2008년 제품 개발 부사장이 되었고 2012년에는 수석 부사장이 되었으며, 2014년에는 구글과 안드로이드를 아우르는 제품 총괄이 되었다. 포천은 그가 지메일 같은 앱을 총괄했고, 안드로이드 창업자 앤디 루빈이 구글의 로봇 사업으로 옮기자 안드로이드를 맡았으며, 이후 유튜브 같은 일부 부문을 제외한 회사 대부분의 제품을 맡게 되었다고 덧붙인다.",
+  "sundar-pichai.achievement.3":
+    "2015년 8월 래리 페이지와 세르게이 브린이 지주회사 알파벳을 만들면서 피차이는 구글의 CEO로 지명되었고, 2019년 12월에는 알파벳의 CEO도 맡았다. 브리태니커는 그가 웨이모와 구글의 제미나이 챗봇을 비롯한 알파벳의 인공지능 사업을 적극 지원했고, 픽셀 스마트폰부터 구글 워크스페이스, 구글 클라우드에 이르는 여러 제품을 총괄했다고 설명한다.",
+  "sundar-pichai.moment.1":
+    "포천에 따르면 2006년 구글 고위 경영진과의 긴장된 논의에서 당시 툴바 제품 관리 책임자였던 피차이는 마이크로소프트가 인터넷 익스플로러를 바꿔 툴바를 막을 수 있고 이것이 구글 사업의 상당 부분을 위협할 수 있다고 주장했다. 익명의 임원 두 명은 사안의 심각성을 크다고 설명했고, 구글은 얼마 뒤 크롬을 승인했다. 로이터는 한 전 동료가 그가 주목을 끌기보다 조용한 설득으로 자신의 안을 관철했다고 말한 것을 인용한다.",
+  "sundar-pichai.interpretation.moment.1":
+    "겉으로 드러내기보다 논리적인 설득으로 사내에서 자신의 입장을 관철하려는 방식과 일치한다.",
+  "sundar-pichai.moment.2":
+    "2024년 2월 구글의 제미나이 챗봇이 역사적으로 부정확한 이미지를 만들어 내자, 피차이는 세마포가 공개한 사내 메모에서 직원들에게 그 문제가 용납할 수 없는 일이라고 밝혔다. 엔가젯에 따르면 그는 해결책이 마련될 때까지 이미지 생성 기능을 중단해 두겠다고 말했고, 제품 지침 개정, 출시 절차 개선, 더 철저한 평가와 레드팀 테스트 등 먼저 필요한 변경 사항을 열거했다.",
+  "sundar-pichai.interpretation.moment.2":
+    "오류를 공개적으로 인정하고 절차 개선을 약속하는 태도와 일치하지만, 근거는 그 자신의 메모라는 한계가 있다.",
+  "sundar-pichai.turning_point.1":
+    "2015년 8월 래리 페이지와 세르게이 브린이 알파벳 설립을 발표하면서 피차이는 구글의 CEO로 지명되었다. 로이터는 동료들이 그가 최고경영자 자리가 예정된 인물처럼 보인 적은 없었다고 말했고 다른 임원들도 후보로 거론되었다고 전하며, 그가 툴바에서 크롬, 지메일, 안드로이드를 거쳐 올라왔다고 쓴다. 브리태니커는 업계 관계자들에게는 놀라운 일이 아니었다고 설명한다.",
+  "sundar-pichai.interpretation.turning_point.1":
+    "일찍부터 예정된 경로가 아니라 여러 역할에서 쌓은 관계와 성과로 올라서는 방식과 일치한다.",
+  /* ---------------------------------------------------------- walt-whitman (Roster52) */
+  "walt-whitman.achievement.1":
+    "1855년 출판사를 구하지 못한 그는 자비로 시 열두 편을 담은 『풀잎』 초판을 찍었습니다. 운율과 각운이 없는 새로운 자유시 형식이었고, 에머슨은 이를 미국이 내놓은 \"가장 놀라운 재치와 지혜의 작품\"이라 평했습니다. 브리태니커는 이 시집을 미국 문학사의 이정표로 꼽습니다.",
+  "walt-whitman.achievement.2":
+    "그는 평생 이 시집을 고치고 늘려 나갔습니다. 『풀잎』이라는 제목의 책이 아홉 권 나왔고, 휘트먼 아카이브는 그중 여섯 권을 정식 개정판으로 봅니다. 1881년판에서 시 293편의 최종 순서가 정해졌습니다.",
+  "walt-whitman.achievement.3":
+    "남북전쟁 시기 워싱턴에서 쓴 시를 모은 『북소리』(1865)에는 링컨 추모시 「지난봄 앞뜰에 라일락이 피었을 때」가 실렸습니다. 포에트리 파운데이션은 파운드, 윌리엄스, 긴즈버그를 그의 영향을 받은 후대 시인으로 꼽습니다.",
+  "walt-whitman.moment.1":
+    "1855년 그는 집을 팔아 첫 『풀잎』의 인쇄 비용을 마련했고, 로메 형제와 함께 활자체와 판형을 정했습니다. 직접 열 쪽가량의 활자를 짜 넣었고 그해 봄 대부분의 아침을 브루클린 인쇄소에서 교정쇄를 보며 보냈습니다.",
+  "walt-whitman.interpretation.moment.1":
+    "출판사가 나서지 않자 스스로 길을 만들었고 책이 만들어지는 방식에도 신경 썼던 면모와 부합합니다.",
+  "walt-whitman.moment.2":
+    "1856년판에서 그는 에머슨의 사적인 편지를 허락 없이 실었고, 초판에 대한 서평 아홉 편도 함께 실었습니다. 그중 두 편은 서명 없이 그가 직접 쓴 글이었고, 어리둥절해하거나 부정적인 평도 나란히 실었습니다.",
+  "walt-whitman.interpretation.moment.2":
+    "에너지 넘치는 자기 홍보가였고 그 홍보가 호의를 잃는 대가를 치르기도 했음과 부합하며, 비판적인 평까지 싣는 태도는 공개적 논쟁을 견디는 면모를 보여 줍니다.",
+  "walt-whitman.turning_point.1":
+    "1855년 이전 그는 인쇄공, 교사, 기자, 편집자로 일하며 문학적 가능성이 거의 보이지 않는 감상적인 이야기와 시를 발표했습니다. 1855년 봄 그는 완전히 새로운 문체의 첫 『풀잎』을 찍어 냈습니다.",
+  "walt-whitman.interpretation.turning_point.1":
+    "이전의 관습적인 글쓰기를 버리고 자기만의 형식을 택한 창작상의 전환과 부합합니다.",
+  /* ---------------------------------------------------------- wassily-kandinsky (Roster52) */
+  "wassily-kandinsky.achievement.1":
+    "그는 1908년경부터 1913년경 사이에 풍경화에서 알아볼 수 있는 대상이 없는 그림으로 나아갔고, 색과 선과 형태가 음악처럼 시각적 언어가 될 수 있다고 보았습니다. 브리태니커는 그를 순수 추상을 처음 시도한 화가 가운데 한 사람으로 꼽으면서도 유일한 창시자는 아니라고 덧붙입니다.",
+  "wassily-kandinsky.achievement.2":
+    "1911년 6월 그는 프란츠 마르크에게 \"우리 현대 미술의 기록\"이 될 연감을 만들자고 제안했습니다. 이 제안은 『청기사』 연감, 두 차례의 전시, 느슨한 예술가 모임으로 이어졌고, 연감에는 회화와 함께 음악, 연극, 민속 미술, 아동 미술, 민족지가 실렸습니다.",
+  "wassily-kandinsky.achievement.3":
+    "그는 『예술에서의 영적인 것에 대하여』에서 색과 형태에 관한 이론을 펼쳤고, 1922년부터 1933년까지 바우하우스에서 이를 가르쳤습니다. 바이마르에서 그가 실시한 설문은 빨강, 노랑, 파랑을 정사각형, 삼각형, 원에 짝짓는 바우하우스의 방식에 근거가 되었고, 『점·선·면』은 1926년에 나왔습니다.",
+  "wassily-kandinsky.moment.1":
+    "1911년 1월 2일 뮌헨에서 쇤베르크의 연주회를 들은 그는 1월 18일 작곡가에게 먼저 편지를 썼습니다. 이후 쇤베르크에게 목판화 모음을 선물하고, 그를 청기사 회원으로 맞았으며, 상트페테르부르크 객원 연주를 주선했습니다.",
+  "wassily-kandinsky.interpretation.moment.1":
+    "존경하는 작업을 하는 사람에게 먼저 다가가 그 만남을 공동 작업으로 이어 간 면모와 부합합니다.",
+  "wassily-kandinsky.moment.2":
+    "바이마르 바우하우스에서 그는 어떤 색이 어떤 형태와 어울리는지를 묻는 설문을 했고, 응답자 대다수가 그의 논거에 동의해 그 결과가 학교의 상징이 되었습니다. 다만 오스카 슐레머 같은 비판자도 있었고, 출처는 그가 과학적이라고 내세운 결론이 내면 성찰에서 나왔다고 설명합니다.",
+  "wassily-kandinsky.interpretation.moment.2":
+    "색과 형태에 대한 직관을 가르칠 수 있는 체계로 만들려는 성향과 부합하며, 그 체계의 한계는 당시에도 논쟁거리였습니다.",
+  "wassily-kandinsky.turning_point.1":
+    "1896년, 서른 살을 앞둔 그는 법학·경제학을 공부하고 인쇄소에서 일한 뒤 도르파트 대학의 법학 교수 자리를 거절하고 화가가 되려고 뮌헨으로 갔습니다. 브리태니커는 이 대목에서 그의 후년 회고를 일부 활용합니다.",
+  "wassily-kandinsky.interpretation.turning_point.1":
+    "늦은 나이에 방향을 바꾸고 새 길을 이어 간 태도와 부합하지만, 근거의 일부는 그 자신의 회고에 있습니다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

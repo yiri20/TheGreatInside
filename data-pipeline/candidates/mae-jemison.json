@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mae-jemison",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mae Jemison",
+    "aliases": [
+      "Mae Carol Jemison",
+      "Mae C. Jemison"
+    ],
+    "wikidataId": "Q34091",
+    "birthYear": 1956,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronaut",
+      "physician",
+      "engineer"
+    ],
+    "fieldIds": [
+      "exploration",
+      "medicine",
+      "engineering"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jemison_wikidata",
+      "kind": "wikidata",
+      "title": "Mae Jemison (Q34091) -- verified live via the Wikidata API (2026-10-16): English label 'Mae Jemison', description 'American doctor and NASA astronaut', born 17 October 1956, no date of death recorded, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q34091"
+    },
+    {
+      "id": "src_jemison_nasabio",
+      "kind": "institution",
+      "title": "NASA Johnson Space Center, 'Biographical Data: Mae C. Jemison (M.D.), NASA Astronaut (Former)', March 1993 -- the agency's official biography: a background in both engineering and medical research, with work in computer programming, printed wiring board materials, nuclear magnetic resonance spectroscopy, computer magnetic disc production and reproductive biology; internship and general practice in Los Angeles; Area Peace Corps Medical Officer for Sierra Leone and Liberia from January 1983 to June 1985, managing the health care delivery system for Peace Corps and embassy personnel, developing curriculum and teaching volunteer personal health training, writing self-care manuals, setting public health and safety guidelines for placement and training sites, and taking part in hepatitis B vaccine, schistosomiasis and rabies research with the National Institutes of Health and the CDC; general practice with CIGNA while attending graduate engineering classes until her selection as an astronaut in June 1987; technical assignments in launch support, Shuttle software verification and the Science Support Group; science mission specialist on STS-47 Spacelab-J (12-20 September 1992, 127 orbits, 44 experiments, 190 hours 30 minutes in space) and co-investigator on a bone cell research experiment; left NASA in March 1993; and a list of student-era activities (a health study grant for rural Kenya in 1979, a health and law fair she organised in 1979, work in a Thai refugee camp in 1980). CANONICAL SIGNIFICANCE SOURCE (honouring in tone and compiled from information the astronaut supplied, so used for the achievement cards and for dates and roles only; its personal data, family, hobbies and honours entries were not used). Read in full.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2019/09/jemison_mae.pdf"
+    },
+    {
+      "id": "src_jemison_presskit",
+      "kind": "institution",
+      "title": "NASA, 'STS-47 Press Kit' (Space Shuttle Endeavour, Spacelab-J, September 1992; HTML/PDF edition prepared by Richard W. Orloff in 2001) -- the pre-flight press kit: the first NASA mission devoted primarily to Japan, a crew of seven working paired 12-hour Red and Blue Team shifts (Jemison as Mission Specialist 4 on the Blue Team with Jay Apt and Jan Davis), the description of Jemison alongside Jan Davis as first-time space travellers with Jemison identified as the first African American woman to fly in space, the Spacelab-J experiment programme (materials processing and life sciences including frog and chicken-embryo development and bone cell research) and short crew biographies. Official NASA publication, promotional in tone; its notes on other crew members' private lives were not used. Read the mission overview, crew assignments, life-sciences and experiment lists and the Jemison biography; the engineering sections were skimmed.",
+      "url": "https://nasa.gov/wp-content/uploads/2023/05/sts-047-press-kit.pdf"
+    },
+    {
+      "id": "src_jemison_status",
+      "kind": "archive",
+      "title": "NASA Johnson Space Center and Marshall Space Flight Center, 'STS-47 Mission Control Status Reports' and Spacelab-J payload operations summaries, 12-17 September 1992 (NASA Spacelink daily file collections, preserved on a CD-ROM image on discmaster.textfiles.com) -- contemporaneous public-affairs reports of the Blue Team's shifts: Jemison conducting the Gas Evaporation Facility experiment and the first check of the Space Acceleration Measurement System, injecting four female frogs with a hormone for the Frog Embryology Experiment, selecting with the ground team's agreement the two best egg-donor frogs of the four aboard, moving fertilized eggs into the General Purpose Workstation and observing them under a video microscope, agreeing with the payload manager a plan with Jan Davis to free a stuck workstation door, fixing frog-egg specimens with formaldehyde at set stages and showing the team the tadpoles, running the Liquid Drop Facility experiment (a Japanese co-investigator thanked her for her hard work although the experiments were not completely successful), and rotating chicken eggs each shift. NASA's own operational reporting by public-affairs staff, independent of Jemison's accounts, factual and not hostile; the copies read are third-party archival mirrors of the NASA releases, not NASA-hosted pages. Her participation as an experiment subject in the biofeedback and lower-body-negative-pressure studies, and the physiological-measurement and health-monitoring entries that go with it, were not used. Read the Jemison passages across the 12-17 September files.",
+      "url": "https://discmaster.textfiles.com/view/10606/Space%20and%20Astronomy%20(October%201993).iso/mac/TEXT/DAILY_1/920913.DFC"
+    },
+    {
+      "id": "src_jemison_nwhm",
+      "kind": "institution",
+      "title": "Marisa Mathias, 'Mae Jemison', National Women's History Museum biography, 2024 -- an independent museum biography: the chemical engineering and medical degrees, her summer with a medical-aid organisation in Kenya, the study she led for the American Medical Student Association, her presidency of a Student National Medical Association chapter and work on health fairs, the Thai refugee camp, the Peace Corps medical post (managing a medical office, laboratory, pharmacy and volunteer health training), her 1985 NASA application, the pause in selection after the Challenger accident, her reapplication and 1987 selection as one of 15 from over 2,000 applicants, STS-47, her departure in 1993, and her later science camp, professorship at Dartmouth, consulting company and 100 Year Starship. An educational museum biography built substantially on Jemison's own memoir and Ebony articles (quoted in it), so honouring and partly self-derived; its childhood, family, dance, personal-effects and quoted-memoir passages were not used. Read in full.",
+      "url": "https://www.womenshistory.org/education-resources/biographies/mae-jemison"
+    },
+    {
+      "id": "src_jemison_americaspace",
+      "kind": "press",
+      "title": "Ben Evans, 'Of Marriage, Medaka Fish and Multiculturalism: The Legacy of STS-47', AmericaSpace, 28 October 2012 -- a spaceflight-history feature on the mission: Spacelab-J as a NASA-Japan life and materials science flight on which 'astronauts do the science', Jemison designated NASA's 'science mission specialist' (performing payload-specialist duties, with a university biochemist as her backup, a role the article says was never seen again in the Shuttle era), the Blue and Red Team shift structure, her earlier Peace Corps medical work (care, self-care manuals, help with vaccine research), and the mission's close. Independent space-history journalism drawing on NASA documents and Jemison's recollections; its material on other crew members' marriage, family and divorce, on Jemison's childhood, schooling and experiences of discrimination, and an unsourced Peace Corps medical-evacuation anecdote told without attribution (apparently from her memoir) were not used. Read in full.",
+      "url": "https://www.americaspace.com/2012/10/28/of-marriage-medaka-fish-and-multiculturalism-the-legacy-of-sts-47/"
+    },
+    {
+      "id": "src_jemison_nbc_starship",
+      "kind": "press",
+      "title": "Alan Boyle, 'Skipper chosen for starship effort', NBC News Cosmic Log, 7 January 2012 -- news report on DARPA's 100 Year Starship project: sources saying the team to manage it would be led by Mae Jemison, who had founded several ventures including the Jemison Group (a technology design and consulting company) and the Dorothy Jemison Foundation for Excellence (educational projects) and had played a prominent role in the 2011 100 Year Starship symposium; the $500,000 DARPA seed contract; the BBC's reading of an unreleased DARPA letter; the Tau Zero Foundation, a bidder that did not win, saying the contract was going to a team led by an ex-astronaut and its founder suggesting it would lower its profile; and a partner organisation's director describing the three-way team's different emphases. Independent news reporting that includes a losing bidder's reaction; DARPA had not yet confirmed the selection when it was written. Read in full.",
+      "url": "https://www.nbcnews.com/science/cosmic-log/skipper-chosen-starship-effort-flna6c10402454"
+    },
+    {
+      "id": "src_jemison_nbc_discovery",
+      "kind": "press",
+      "title": "Ian O'Neill (Discovery News), 'Uniting the planet for a journey to another star', carried by NBC News, 30 May 2012 -- follow-up confirming that the Dorothy Jemison Foundation for Excellence, headed by Jemison, would head the multi-partner 100 Year Starship project (with Icarus Interstellar, the Foundation for Enterprise Development and the SETI Institute), that DARPA had awarded $500,000 as seed money, and describing the planned research institute and the project's stated inclusive aims in her words. Independent science journalism with substantial direct quotation of Jemison, so partly her own account; used only to confirm the foundation's role and the award. Read in full.",
+      "url": "https://www.nbcnews.com/id/wbna47617974"
+    },
+    {
+      "id": "src_jemison_register",
+      "kind": "press",
+      "title": "Brid-Aine Parnell, 'Former coder, NASA 'naut to lead DARPA starship dream', The Register, 9 January 2012 -- short technology-news item reporting, from a letter seen by the BBC, that Jemison would head the 100 Year Starship project, describing the plan in a sceptical and irreverent tone as wildly aspirational against an eventual cost of billions and a $500,000 seed contract, and noting her programming work before NASA and her science mission specialist role on STS-47. Independent, lightly sceptical trade-press voice on the later venture; its Star Trek aside was not used. Read in full.",
+      "url": "https://www.theregister.com/offbeat/2012/01/09/former-coder-nasa-naut-to-lead-darpa-starship-dream/1436978"
+    },
+    {
+      "id": "src_jemison_nasaimage",
+      "kind": "institution",
+      "title": "NASA Image and Video Library record S92-40463 (Johnson Space Center), 'Official portrait of STS-47 Mission Specialist Mae C. Jemison in LES' (record date 1 July 1992; description 'Astronaut Mae C. Jemison, M.D., mission specialist'), with NASA's Media Usage Guidelines and the Wikimedia Commons original-file page 'Mae Carol Jemison.jpg' -- checked for the portrait's basis. Not used for any scoring.",
+      "url": "https://images.nasa.gov/details/S92-40463"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jemison_nasabio, src_jemison_nwhm, src_jemison_status, src_jemison_americaspace | 1977-1993 | NASA biography + museum biography + NASA mission status reports + space-history feature] NASA's biography says she has a background in both engineering and medical research and lists work in computer programming, printed wiring board materials, nuclear magnetic resonance spectroscopy, computer magnetic disc production and reproductive biology, followed by general practice, the Peace Corps medical post and astronaut training; the museum biography adds the chemical engineering degree, the medical degree and her later technology consulting company, and the space-history feature describes her Peace Corps care and vaccine-research help before NASA; NASA's STS-47 status reports show her, on the same Blue Team shifts, running materials-science experiments (the Gas Evaporation Facility and the Liquid Drop Facility) and life-science ones (frog embryology and chicken-egg rotation). Several genuinely different fields documented by institutional and independent sources, with the in-orbit range on contemporaneous NASA reports, so strong inference at a moderate-high confidence; the pre-medical engineering jobs rest only on NASA's one-paragraph list, hence no higher."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jemison_nasabio, src_jemison_nwhm, src_jemison_nbc_starship, src_jemison_nbc_discovery | 1979-2012 | NASA biography + museum biography + NBC News] NASA's biography lists a grant for health studies in rural Kenya (1979) and work in a refugee camp in Thailand (1980); the museum biography says she applied to NASA in 1985, reapplied after the Challenger accident paused selection and was chosen in 1987 as one of 15 from over 2,000 applicants, and that after leaving NASA she launched an international science camp and founded a technology consulting company; NBC News reports that she founded several ventures including the Jemison Group and the Dorothy Jemison Foundation for Excellence and that the foundation she headed led the team awarded DARPA's $500,000 100 Year Starship seed contract. Repeated self-started opportunities from student years to 2012, but the early items are one-line entries in NASA's own list and a biography built partly on her memoir, and the later ones are press reports of the ventures rather than accounts of how she ran them, so strong inference at a moderate confidence."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jemison_status, src_jemison_presskit, src_jemison_nbc_starship | 1992, 2012 | NASA mission status reports + STS-47 press kit + NBC News] The status reports show the ground frog-embryology team agreeing with her choice of the two best egg-donor frogs of the four aboard, the payload manager approving a plan by Jemison and Jan Davis to free a stuck workstation door, and a Japanese co-investigator thanking her for her hard work on the Liquid Drop Facility experiment although its results were not completely successful; the press kit describes the paired 12-hour Blue and Red Team shifts built around ground investigators; NBC News quotes a partner organisation's director saying each of the three groups in her 100 Year Starship team brought a different emphasis, hers being education and broader social goals. Documented working partnerships with investigators and partners, but Spacelab flight work is collaborative by design and the 2012 item is a partner's description of a newly formed team, so strong inference at a moderate confidence and a modest score."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_jemison_nwhm, src_jemison_nasabio, src_jemison_nbc_starship, src_jemison_nbc_discovery, src_jemison_register | 1979-2012 | museum biography + NASA biography + NBC News + technology news item] The museum biography says she was president of the Cornell chapter of the Student National Medical Association and helped coordinate regional health fairs, and NASA's biography says she organised a city-wide health and law fair in 1979; NBC News reports that sources named her as leader of the team chosen to run DARPA's 100 Year Starship project, that she played a prominent role in facilitating its 2011 symposium and that she had founded the Jemison Group and the Dorothy Jemison Foundation for Excellence, a later NBC piece confirms the foundation she headed leads the project, and The Register's item likewise has her heading it. Repeated documented leadership of student, project and organisational efforts, but the student items are one-line entries in two honouring biographies and the 2012 reports rest on a leaked letter and a later confirmation, with no account of how she led, so inference at a moderate-low confidence. SELF-CALIBRATION (agent): lowered from 62 / 0.50 strong_inference because the claim of drive is stronger than the documented behaviour, which is founding facts, titles and a leaked-then-confirmed project role with no source describing how she led any of these efforts."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "메이 제미슨"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mae-jemison-nasa-1992.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "NASA Johnson Space Center photograph S92-40463, 'Official portrait of STS-47 Mission Specialist Mae C. Jemison in LES' (NASA record date 1 July 1992; Commons 'Taken on 1 July 1992'), downloaded from the NASA Image and Video Library original (6204 x 7755 pixels, 5,122,051 bytes), the same size as the Wikimedia Commons file 'Mae Carol Jemison.jpg' (author NASA, tagged public domain as a work solely created by NASA; the Commons file's embedded metadata names Adobe Photoshop CS3, but this file was taken from NASA's own asset server, not from Commons). NASA's Media Usage Guidelines say NASA content is generally not subject to copyright in the United States and that third-party copyrighted material is marked with the holder's name; this record carries only a NASA credit, no third-party credit, and the mission patch visible on the suit is part of the official crew portrait. The guidelines also warn that commercial use of an astronaut's likeness must not imply NASA endorsement and that an identifiable person may have publicity rights; this record is for editorial identification of the subject and the lead should decide whether the product counts as commercial use (the same caveat already applies to other living astronauts in the roster). Downscaled once to 960 x 1200 (never upscaled).",
+    "license": "Public Domain (NASA work)",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attribution": "NASA / Johnson Space Center, photo S92-40463, official STS-47 portrait, 1 July 1992, downscaled from the original",
+    "attributionUrl": "https://images.nasa.gov/details/S92-40463",
+    "creator": "NASA (Johnson Space Center)",
+    "date": "1992-07-01",
+    "kind": "likeness",
+    "sourcePageUrl": "https://images.nasa.gov/details/S92-40463"
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q34091 returned en label 'Mae Jemison', description 'American doctor and NASA astronaut', born 1956-10-17, no death date, citizenship United States, ko label '메이 제미슨'; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file, slug or QID matches mae-jemison or Q34091 in the roster52 worktree. Region is the controlled value north_america; era contemporary and isLiving true, following the roster's convention for living people. ZERO-POLITICS AND LIVING-SUBJECT RULES: only public, documented professional behaviour is scored (STS-47 shift work, the Peace Corps medical post, student-era projects, later ventures); excluded from rows and cards are her family, childhood and schooling, dance, hobbies and personal interests, race-related experiences and diversity advocacy (not a primary identity and treated as activism), her health and her participation as a physiological-measurement subject in the mission's biofeedback and lower-body-negative-pressure studies, her honours, board memberships, the Cuba study trip (a thin one-line item in a politically sensitive context), her Star Trek appearance and any inferred motive. CANONICAL SIGNIFICANCE SOURCE: NASA Johnson Space Center, 'Biographical Data: Mae C. Jemison (M.D.)' (March 1993), https://www.nasa.gov/wp-content/uploads/2019/09/jemison_mae.pdf, read in full; it is the agency's own honouring biography compiled from information she supplied, so the cards also rest on NASA's STS-47 reports and press kit, the National Women's History Museum biography and NBC News. READ (8 cited substantive non-Wikidata sources plus the NASA image record): the NASA biography; the STS-47 press kit; NASA's STS-47 mission-control status and Spacelab-J payload-operations reports of 12-17 September 1992 (the Jemison passages); the National Women's History Museum biography; Ben Evans's AmericaSpace feature; Alan Boyle's NBC News Cosmic Log item; Ian O'Neill's Discovery News piece carried by NBC News; Brid-Aine Parnell's item in The Register; the NASA Image Library record and the Commons file page. PERSPECTIVES: NASA's official biography and press kit (institutional); NASA's contemporaneous operational reports on her shifts, which record the investigators' and payload managers' reactions and are independent of her own accounts; an independent museum biography that leans on her memoir; and space-history and news journalism (AmericaSpace, NBC News, Discovery News, The Register). Her own words appear only through quotation in those pieces and are never sole support for a row. COUNTER-VOICE: no hostile or adversarial account of her professional conduct was found; the balancing material is NASA's note that the Liquid Drop Facility results were not completely successful, NBC's caveats that DARPA had not confirmed the 100 Year Starship selection when first reported and the reaction of a losing bidder, and The Register's sceptical tone about the project. CALIBRATION: the early-life items rest on NASA's own list and a memoir-derived biography, the later ventures on press reports of their existence, and the in-orbit work on NASA's own reporting, so no score exceeds 72 and no confidence exceeds 0.62, and the profile is deliberately narrow (4 rows). The discmaster copy of the NASA status reports is a third-party archival mirror of NASA releases and is labelled as such; no NASA-hosted copy of the daily reports was found. NOT OPENED: her memoir Find Where the Wind Goes and the 1992 Ebony articles (quoted in the museum biography), 1992 newspaper coverage (New York Times, Washington Post), NASA's STS-47 mission report and the Spacelab-J results papers, DARPA's own 100 Year Starship announcements, the BBC's original report on the project, Wikipedia (orientation only), the Popular Science article (its URL now redirects to a DARPA category page) and a Gizmodo item (its link did not resolve), any NASA oral history (none found for the STS-47 crew), and any source on BioSentient or her Dartmouth and Cornell posts. ROWS CONSIDERED AND NOT SCORED: persistence (one reapplication episode only), resourcefulness (one minor door-freeing plan plus an unattributed memoir-derived Peace Corps anecdote), decisiveness (the same anecdote), detail_orientation and analytical_rigor (her experiment tasks were assigned protocols), impact_motivation (would rest on stated aims and inferred motives, which the living-subject rule excludes), curiosity (overlaps cross_domain_range) and adaptability (the team-level schedule changes are not attributable to her). PORTRAIT: NASA photograph S92-40463 (official STS-47 portrait in the orange launch-and-entry suit), public domain as a NASA work with a NASA-only credit; downloaded from NASA's asset server at 6204 x 7755 and downscaled once to 960 x 1200; the Commons file page was read and agrees on source, author, date and size. FLAG FOR THE LEAD: NASA's Media Usage Guidelines note that commercial uses of an astronaut's likeness must not imply NASA endorsement and that an identifiable person may have publicity rights; copyright is clear, and the same caveat applies to the other living astronauts in the roster. SELF-CALIBRATION (agent, selective pass): the three highest-risk rows were reviewed, namely leadership_drive (roles and titles from honouring biographies and leak-based press reports, no account of how she led), proactive_agency (early items from NASA's own list and a memoir-derived biography, later items press reports of the ventures) and collaboration (collaborative by design in Spacelab work); leadership_drive was lowered from 62 / 0.50 strong_inference to 58 / 0.45 inference for the one-sentence reason in its rationale; proactive_agency was left unchanged because it rests on several distinct self-started episodes from three source types with the post-NASA ventures reported by independent press, and collaboration was left unchanged because its score is already modest and its evidence is contemporaneous NASA operational records that do not depend on her own account. One of four rows lowered; no broader scoring problem was seen. STATUS: evidence_approved (evidence honest, portrait copyright clear); no eligibility field was set or aimed at."
+  }
+}

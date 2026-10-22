@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "michael-collins-astronaut",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Michael Collins",
+    "aliases": [
+      "Mike Collins",
+      "Michael Collins (astronaut)"
+    ],
+    "wikidataId": "Q104859",
+    "birthYear": 1930,
+    "deathYear": 2021,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronaut",
+      "aviator"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_collins_wikidata",
+      "kind": "wikidata",
+      "title": "Michael Collins (Q104859) -- verified live via the Wikidata API (2026-10-16): English label 'Michael Collins', description 'American astronaut (1930-2021)', born 31 October 1930, died 28 April 2021, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q104859"
+    },
+    {
+      "id": "src_collins_nasabio",
+      "kind": "institution",
+      "title": "NASA Johnson Space Center, 'Biographical Data: Michael Collins (MGEN, USAF, Ret.), NASA Astronaut (Former)', September 2015 -- the agency's official biography: third astronaut group (October 1963); backup pilot for Gemini 7; pilot of the three-day Gemini 10 flight (launched 18 July 1966) with command pilot John Young, a rendezvous and docking with an Agena target vehicle, a second rendezvous with a passive Agena using the first Agena's engine, and two periods of extravehicular activity that included recovering a micrometeorite experiment from the passive Agena; command module pilot of Apollo 11 (16-24 July 1969), the first lunar landing mission, who stayed aboard Columbia in lunar orbit while Armstrong and Aldrin descended in Eagle and who performed the final re-docking manoeuvres; two flights, 266 hours in space, 1 hour 27 minutes of EVA; left NASA in January 1970. CANONICAL SIGNIFICANCE SOURCE (honouring in tone, so used for the achievement cards and for dates and roles only; its personal data, honours and out-of-date directorship line were not used). Read in full.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2016/01/collins-m.pdf"
+    },
+    {
+      "id": "src_collins_gemini_history",
+      "kind": "institution",
+      "title": "Barton C. Hacker and James M. Grimwood, 'On the Shoulders of Titans: A History of Project Gemini' (NASA SP-4203, NASA History Office, 1977), the Gemini X section of 'Charting New Space Lanes' (about pp. 341-351) and the later passages on Gemini XI and XII that mention Collins -- NASA's commissioned official history of the dual-rendezvous flight, built on the mission report, technical debriefs and interviews with Young and Collins: Collins unstowing the sextant and mistaking the airglow for the horizon until he saw stars below the line, the sextant image not matching what he had been taught so that he laid it aside and tried another instrument and the ground's figures were used, a stand-up spacewalk photographing the southern Milky Way (22 frames over a night pass), computing two midcourse corrections for the second rendezvous, the second spacewalk in which he lost his grip on the passive Agena, chose the hand-held gun over the umbilical, retrieved the S-10 micrometeorite package, abandoned installing its replacement for fear of losing it and then had to be untangled from the umbilical by Young, and the later changes for Gemini XI and XII (handholds on the docking cone, better foot restraints, and an umbilical cut from 15 to 9 metres at Collins's and Young's suggestion), with Collins passing his experience to Gemini XI pilot Richard Gordon. Official history by NASA-commissioned historians, factual and not hostile; some of its Gemini X detail rests on the crew's own debriefs and interviews. Read the Gemini X section and the Collins passages in the Gemini XI and XII chapters; the rest of the book was not read.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2023/03/sp-4203.pdf"
+    },
+    {
+      "id": "src_collins_afj_docking",
+      "kind": "archive",
+      "title": "W. David Woods, Kenneth D. MacTaggart and Frank O'Brien (eds.), Apollo Flight Journal, 'Apollo 11 Day 6, part 2: Rendezvous and Docking' (corrected transcript and commentary, updated 2025) -- historian-edited transcript of the ascent-stage rendezvous with Columbia: Collins's VHF-ranging and sextant tracking and his reports when the ranging dropped out, his independent calculation of the terminal phase initiation burn time (127:02:34.50, about 32 seconds later than Aldrin's) and his follow-up calls to confirm the final time, the commentary that he was prepared to fly a mirror-image manoeuvre and start a command-module-active rendezvous if Eagle could not, the commentary that his figure proved nearer the actual burn time, and the 1969 technical debrief passages in which Collins and Armstrong each describe the docking, including the yaw oscillation after the retract bottle was fired, Armstrong's account of the gimbal lock and Collins's own appraisal of how he fired the bottle. Independent scholarly editorial account built on mission transcripts and debriefs, with crewmates describing the same event from both vehicles. Read the commentary in full and the transcript passages on ranging, the TPI calculation and docking; the remaining transcript was skimmed.",
+      "url": "https://apollojournals.org/afj/ap11fj/19day6-rendezvs-dock.html"
+    },
+    {
+      "id": "src_collins_alsj_search",
+      "kind": "archive",
+      "title": "Eric M. Jones (ed.), Apollo Lunar Surface Journal, Apollo 11 'Post-landing Activities' and 'EVA Preparations' pages (annotated transcript and commentary) -- Collins in Columbia during the lunar stay: asking Houston whether another P22 tracking program was wanted, being asked to devote his attention to picking out the LM visually, reporting 'no joy' after keeping his eyes glued to the sextant on one pass, realising that the automatic optics had not been pointing at the coordinates he was given, proposing to run the tracking program while driving the sextant himself because the sextant was his best tool for looking, and later reporting the tracking program still pointing in the wrong place and asking for corrected latitude, longitude and altitude; the editors' notes that Houston's several estimates were up to several kilometres off and that the sextant's field of view was about 3.2 km. Independent editorial commentary on mission records. Read the P22 and sextant-search exchanges across GET 106:11-108:48 and the editors' notes on them; the rest of both pages (the surface EVA and other transcript) was not read.",
+      "url": "https://apollojournals.org/alsj/a11/a11.postland.html"
+    },
+    {
+      "id": "src_collins_nasm_remembrance",
+      "kind": "institution",
+      "title": "Margaret A. Weitekamp, 'Remembering Michael Collins', National Air and Space Museum, 28 April 2021 -- the museum's own memorial: he campaigned for a museum on the National Mall by the 1976 bicentennial and worked tirelessly on both building and exhibits, marshalling curators and designers; in 1971 inquired about becoming the museum's third director when the building was approved but unfunded, secured the funding with Senator Barry Goldwater's support and broke ground in 1972; the building opened on 1 July 1976 and drew a million visitors in its first month; in 1978 he became a Smithsonian undersecretary; Gemini 10 as the first person to perform two spacewalks on the same mission (the museum's statement); Apollo 11 and his rejection of the 'loneliest person' label; Carrying the Fire still regarded by many as the best astronaut memoir ever written; colleagues remembered his wit, intelligence and thoughtfulness. Institutional and honouring in tone, written by the museum he led; its family and honours passages were not used. Read in full.",
+      "url": "https://airandspace.si.edu/stories/editorial/remembering-michael-collins"
+    },
+    {
+      "id": "src_collins_nasm_archives",
+      "kind": "archive",
+      "title": "Sarah LeClaire, 'Carrying the Fire: An Astronaut's Journeys Manuscript' (NASM.XXXX.0399), finding aid with biographical note and 'A Chronology of Major General Michael Collins' Life', National Air and Space Museum Archives, 2023 -- the archive's chronology of his NASA application and Deke Slayton's call, the Gemini 10 and Apollo 11 entries, the pre-flight press-conference remark that going 99.9 percent of the way suited him fine, and the museum years (the 1971 appointment, lobbying for funding, the $40 million allocated, the 1976 opening described as under budget and three days ahead of schedule thanks to his leadership, and the undersecretary post held until 1980). Institutional archivist's chronology, honouring in places; its count of solo lunar orbits conflicts with the Flight Journal's revolution numbering and was not used, and its personal-life, family, health and surgery, and State Department entries were not used. Read the biographical note and chronology in full.",
+      "url": "https://sirismm.si.edu/EADpdfs/NASM.XXXX.0399.pdf"
+    },
+    {
+      "id": "src_collins_cbs_obit",
+      "kind": "press",
+      "title": "William Harwood, 'Apollo 11 astronaut Mike Collins dies at 90', written for CBS News and reproduced by Spaceflight Now, 28 April 2021 -- news obituary: orbited the Moon alone while Armstrong and Aldrin landed; Gemini 10 dual rendezvous with two Agena targets and two spacewalks; his first application to NASA rejected and a second one accepted in 1963; his 2019 CBS interview on the 'daisy chain' of events and the single ascent engine; biographer Andrew Chaikin's characterisation of him as perceptive, balanced, a fine writer who did not enjoy fame and kept out of the limelight; the later career at the Smithsonian's museum. Independent news summary quoting an outside biographer and Collins's own words; its cause-of-death and family passages were not used. Read in full.",
+      "url": "https://spaceflightnow.com/2021/04/28/apollo-11-astronaut-mike-collins-dies-at-90/"
+    },
+    {
+      "id": "src_collins_natgeo",
+      "kind": "press",
+      "title": "Jay Bennett, 'The enduring legacy of Michael Collins, astronaut and chronicler of Apollo 11', National Geographic, 28 April 2021 -- news profile: alone for more than 21 hours in Columbia; the 1962 rejection of his first astronaut application, quoting Carrying the Fire on the rejection letter and on deciding to reapply, and his selection with the third group; his own 2019 recollection of drifting away from the Agena on a long umbilical during Gemini 10; his Apollo 8 capsule-communicator role; his service as the museum's director from 1971 to 1978 overseeing the opening of the main building; his later advocacy of Mars exploration; the book as perhaps his most important legacy. Independent journalism, partly built on Collins's own words from his memoir and a 2019 interview; its cause-of-death, family and sidebar passages were not used. Read in full.",
+      "url": "https://www.nationalgeographic.com/science/article/the-literary-legacy-of-michael-collins-the-forgotten-astronaut-of-apollo-11"
+    },
+    {
+      "id": "src_collins_nasaimage",
+      "kind": "institution",
+      "title": "NASA Image and Video Library record S69-31742 (Johnson Space Center), 'APOLLO XI - PRIME CREW PORTRAIT' (record date 16 April 1969; description 'Astronaut Michael Collins'), with NASA's Media Usage Guidelines and the Wikimedia Commons original-file page 'Michael Collins (S69-31742).jpg' -- checked for the portrait's basis. Not used for any scoring.",
+      "url": "https://images.nasa.gov/details/S69-31742"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_collins_natgeo, src_collins_cbs_obit, src_collins_gemini_history, src_collins_alsj_search | 1962-1969 | National Geographic + CBS News obituary + NASA Gemini history + Apollo Lunar Surface Journal] National Geographic and the CBS News obituary both report that his first application to become an astronaut was rejected (National Geographic dates it 1962) and that he applied again and was selected with the 1963 group (National Geographic quotes his memoir on the rejection letter and on deciding to try again, so both accounts ultimately rest on his own telling); NASA's Gemini history says that on the second Gemini 10 spacewalk he lost his grip on the Agena's docking cone and drifted away from it, then got back to the package and retrieved it; the Surface Journal shows him searching for Eagle through the sextant on several passes during the lunar stay, each time from a new set of coordinates from Houston and each time without finding it. Three episodes from 1962 to 1969, but the first is self-originated and the third produced no result, so strong inference at a moderate confidence and a score below the top band. SELF-CALIBRATION (agent): lowered from 68 / 0.58 because the Gemini 10 grip-and-retrieve episode is already counted under resourcefulness and the 1962 rejection rests on his own memoir as retold by two outlets, leaving only the sextant search as independent transcript evidence, which produced no result."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_collins_gemini_history, src_collins_alsj_search | 1966-1969 | NASA Gemini history + Apollo Lunar Surface Journal] The Gemini history says that when the sextant image did not match what he had been taught he laid it aside and tried another instrument, and that on the second spacewalk, drifting about five metres from the spacecraft, he had to decide quickly between pulling on the umbilical and using the hand-held gun, chose the gun, used a series of squirts to get to the spacecraft and then back to the Agena, grasped the package, and gave up installing the replacement for fear of losing the one he held; the Surface Journal has him proposing to let the tracking program run while he drove the sextant himself, since the sextant was his best tool for looking, with Houston agreeing. Several improvised workarounds across two missions, but the Gemini accounts rest partly on crew debrief material and the Apollo one is a small procedural choice, so strong inference at a moderate confidence."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_collins_gemini_history, src_collins_afj_docking, src_collins_alsj_search | 1966-1969 | NASA Gemini history + Apollo Flight Journal + Apollo Lunar Surface Journal] The Gemini history says he realised he was using the wrong reference when he saw stars below the line, having mistaken the airglow for the horizon, and corrected it; in the 1969 technical debrief quoted by the Flight Journal he judged that he had fired the retract bottle as soon as the docked vehicles looked static and never gave the oscillations a fair chance to develop, suggesting that waiting might be better, while adding that he was not sure he would do it differently and that it depended on what caused the oscillations; in the Surface Journal he tells Houston he was looking in the wrong place on the previous pass because the automatic optics had not been pointing at the coordinates given, and asks for corrected figures. Three small instances of recognising an error or weighing a procedure, one of them his own debrief, so strong inference at a moderate confidence and a score near the lower edge of a clear lean."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_collins_afj_docking, src_collins_alsj_search | 1969 | Apollo Flight Journal + Apollo Lunar Surface Journal] In the transcript he calculates his own terminal phase initiation burn time from the ranging data (127:02:34.50), compares it with Aldrin's (about 32 seconds earlier), calls back to confirm the LM's figure and asks to be told the final time because, to stay on his timeline, he needed it within a couple of minutes; the editors note that the burn was in the event made at 127:03:52 and that his figure was nearer to it than the LM's first solution; in the 1969 debrief he describes the docking precisely (contact about dead centre at a closure velocity he put slightly above 0.1 ft/s, the switch positions, six to eight seconds from firing the bottle to hard dock); in the Surface Journal he notices that the tracking program is still pointing in the wrong place and asks Houston for latitude, longitude and altitude to correct it. Repeated checking of numbers and settings across two transcripts, but the debrief is his own account, so strong inference at a moderate confidence."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_collins_gemini_history, src_collins_afj_docking | 1966-1969 | NASA Gemini history + Apollo Flight Journal] The Gemini history has him computing the figures for the two midcourse corrections while Young flew the closure, Young helping to unwind him from the umbilical, Collins and Young jointly suggesting that the umbilical be cut from 15 to 9 metres (accepted by the Gemini Program Office), McDonnell making the spacecraft changes Collins had suggested, and Collins further emphasising his EVA experience to Gemini XI pilot Richard Gordon after Cernan had briefed both; the Flight Journal has Armstrong and Collins each describing the same docking from their own vehicle, with Armstrong making the crude alignments and Collins the final adjustments, and Collins cross-checking burn times with Aldrin. Distinct episodes of shared work and passing on lessons, but crewed flight requires teamwork and the Apollo material is mostly routine exchange, so strong inference at a moderate confidence and a modest score."
+    },
+    "leadership_drive": {
+      "score": 56,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_collins_nasm_remembrance, src_collins_nasm_archives, src_collins_natgeo | 1971-1978 | museum memorial + museum archives chronology + National Geographic] The National Air and Space Museum's memorial says that in 1971 he inquired about becoming the museum's third director when its building was approved but not funded, that he secured the funding with Senator Goldwater's support and broke ground in 1972, that he campaigned for a museum on the Mall by the bicentennial and marshalled curators and designers to meet it, and that it opened on 1 July 1976; the museum's archive chronology adds that he lobbied for the funding and describes the opening as under budget and three days ahead of schedule; National Geographic independently confirms only that he directed the museum from 1971 to 1978 and oversaw the opening of the main building. A sought-out leadership role with documented milestones, but the detail comes from the museum he led, in an honouring tone, and no outside account of how he ran it was read, so inference at a moderate-low confidence. SELF-CALIBRATION (agent): lowered from 60 / 0.50 strong_inference because every behavioural detail (the inquiry, the funding, the team-marshalling, the under-budget opening) comes from the Smithsonian's own honouring pages and only the tenure itself is independently confirmed."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마이클 콜린스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/michael-collins-astronaut-nasa-1969.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "NASA Johnson Space Center photograph S69-31742, 'APOLLO XI - PRIME CREW PORTRAIT' (Astronaut Michael Collins; NASA record date 16 April 1969, although the record's caption text begins '(July 1969)'), downloaded from the NASA Image and Video Library original (6461 x 8076 pixels, 5,464,797 bytes), the same size as the Wikimedia Commons file 'Michael Collins (S69-31742).jpg' (author NASA, tagged public domain as a NASA work, with only the standard personality-rights warning). This is the NASA original, NOT the Commons restoration 'Michael Collins (S69-31742, restoration).jpg' (a third-party digital restoration of the same photograph). NASA's Media Usage Guidelines say NASA content is generally not subject to copyright in the United States and that third-party copyrighted material is marked with the holder's name; this record carries no third-party credit and no logo. Downscaled once to 960 x 1200 (never upscaled).",
+    "license": "Public Domain (NASA work)",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attribution": "NASA / Johnson Space Center, photo S69-31742, Apollo 11 prime crew portrait, 16 April 1969, downscaled from the original",
+    "attributionUrl": "https://images.nasa.gov/details/S69-31742",
+    "creator": "NASA (Johnson Space Center)",
+    "date": "1969-04-16",
+    "kind": "likeness",
+    "sourcePageUrl": "https://images.nasa.gov/details/S69-31742"
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q104859 returned en label 'Michael Collins', description 'American astronaut (1930-2021)', born 1930-10-31, died 2021-04-28, citizenship United States, ko label present; the lead's hint was correct and this is NOT the Irish revolutionary. SLUG/QID CHECK: no production or candidate file, slug or QID matches michael-collins, michael-collins-astronaut or Q104859 in the roster52 worktree. Region is the controlled value north_america. ZERO-POLITICS: only astronaut work (Gemini 10, Apollo 11) and his museum directorship as an institutional role are scored. SUBJECT AND EXCLUSIONS: excluded from rows and cards: his Assistant Secretary of State for Public Affairs post (1970-71) and any government dealing, military service and rank as such, family, marriage and children, the death of family members, his medical history (the 1968 spinal surgery and the resulting crew change appear in some sources and were not used), his cause of death and any inference from it, his later business and consulting posts, honours as such, and the Apollo 11 mission-patch design (secondary and described only in the museum memorial). CANONICAL SIGNIFICANCE SOURCE: NASA Johnson Space Center, 'Biographical Data: Michael Collins' (September 2015), https://www.nasa.gov/wp-content/uploads/2016/01/collins-m.pdf, read in full; it is the agency's own honouring biography, so the cards also rest on NASA's Gemini history, the Apollo 11 journals, the museum's memorial and two news pieces. READ (8 cited substantive non-Wikidata sources plus the NASA image record): the NASA biography; the Gemini X section and the Gemini XI and XII passages on Collins in NASA SP-4203; the Apollo 11 Flight Journal Day 6 part 2 page (commentary in full, relevant transcript); the Apollo Lunar Surface Journal post-landing and EVA preparation pages (the sextant-search passages); the museum's memorial for Collins; the museum archives' finding aid and chronology; William Harwood's CBS News obituary; Jay Bennett's National Geographic profile; the NASA Image Library record and Commons file page. PERSPECTIVES: NASA's official biography and Gemini history (institutional), historian-edited mission journals quoting 1969 technical debriefs by Collins, Armstrong and Aldrin (the same docking from both vehicles), the Smithsonian museum and its archives (institutional, honouring), two independent journalists, and biographer Andrew Chaikin's remarks as quoted by CBS News. Collins's own words appear only through debriefs, transcripts and press quotations and are never sole support for a row. COUNTER-VOICE: no hostile or adversarial account of his professional conduct was found; the balancing material is NASA's own record of Gemini 10 difficulties (the airglow mistake, the sextant problems, the lost grip and the tangled umbilical), his debrief self-appraisal and Armstrong's different description of the docking, the Surface Journal's note that Houston's coordinates were the problem in the search for Eagle, and the CBS piece's note that he disliked fame. CALIBRATION: the Gemini accounts rest partly on the crew's own debriefs and interviews, the 1962 rejection comes only through his memoir as retold by two outlets, and the museum-years evidence is all from the Smithsonian's own honouring pages, so no score exceeds 66 and no confidence exceeds 0.58 after the self-calibration pass below. NOT OPENED: Carrying the Fire itself (used only through quotations in the press pieces and the finding aid), Chaikin's A Man on the Moon (only Chaikin's remarks as quoted by CBS News), the New York Times, Guardian and Washington Post obituaries (the first two could not be fetched by the research tool, the third was not tried), JSC oral histories of Collins or his crewmates, the Apollo 11 Mission Report and Technical Crew Debriefing PDFs (debrief text read only as quoted by the Flight Journal), James Hansen's First Man, and the Apollo 11 Flight Journal pages other than Day 6 part 2. ROWS CONSIDERED AND NOT SCORED: decisiveness (the same Gemini 10 gun decision is already used under resourcefulness), planning_orientation (the rendezvous contingency was a mission plan and the bicentennial deadline is known only from the museum's own pages), risk_tolerance (would rest on occupation), creative_originality and aesthetic_sensitivity (his writing and painting are praised only retrospectively and the book is self-evidence), impact_motivation and adaptability (no independent behavioural evidence beyond what is already used). PORTRAIT: NASA photograph S69-31742 (Apollo 11 prime-crew portrait in a spacesuit with a Moon backdrop), public domain as a NASA work; downloaded at 6461 x 8076 and downscaled once to 960 x 1200; the Commons restoration was not used. SELF-CALIBRATION (agent, selective pass): the three highest-risk rows were reviewed, namely leadership_drive (all behavioural detail from the Smithsonian's own honouring pages), persistence (highest score; one episode self-originated and one shared with another row) and resourcefulness (two of three items from one official history); leadership_drive was lowered from 60 / 0.50 strong_inference to 56 / 0.45 inference and persistence from 68 / 0.58 to 64 / 0.52, each for the one-sentence reason in its rationale; resourcefulness was left unchanged because its two Gemini items are specific, attributable decisions in NASA's official history and its Apollo item is separately transcribed. Two of six rows lowered; no broader scoring problem was seen. STATUS: evidence_approved (evidence honest, portrait rights clear); no eligibility field was set or aimed at."
+  }
+}

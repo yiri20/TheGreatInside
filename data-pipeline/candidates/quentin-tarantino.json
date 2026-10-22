@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "quentin-tarantino",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Quentin Tarantino",
+    "wikidataId": "Q3772",
+    "birthYear": 1963,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "film_director"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tarantino_wikidata",
+      "kind": "wikidata",
+      "title": "Quentin Tarantino (Q3772) -- verified live via the Wikidata API (2026-10-16): English label 'Quentin Tarantino', description 'American filmmaker and actor (born 1963)', born 27 March 1963, no date of death, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q3772"
+    },
+    {
+      "id": "src_tarantino_cannes",
+      "kind": "award_body",
+      "title": "Festival de Cannes, official-selection page for 'Pulp Fiction' (1994, In Competition, marked 'Palme d'or 1994'; festival-cannes.com) -- the festival's own record for the film: directed by Quentin Tarantino, United States, 149 minutes, screenplay credited to Roger Avary and Quentin Tarantino, cinematography by Andrzej Sekula, editing by Sally Menke, production design by David Wasco, with its cast list and a three-story synopsis (two hired men keeping their boss's girlfriend from overdosing, a boxer risking his life to recover his father's watch, and the problem of disposing of a dead body and a blood-soaked car). Institutional record of the prize and credits only; no statement about anyone's behaviour and no trait row rests on it. Read in full. CANONICAL SIGNIFICANCE SOURCE (with the Academy records below; see provenance notes).",
+      "url": "https://www.festival-cannes.com/en/f/pulp-fiction/"
+    },
+    {
+      "id": "src_tarantino_academy_1995",
+      "kind": "award_body",
+      "title": "Academy of Motion Picture Arts and Sciences, '67th Academy Awards | 1995' ceremony page (oscars.org) -- the Academy's own winners record: Pulp Fiction listed with seven nominations and one win, the win being Writing (Screenplay Written Directly for the Screen), credited 'Screenplay by Quentin Tarantino; Stories by Quentin Tarantino & Roger Avary', with nominations also for Best Picture (Lawrence Bender, producer), Directing (Quentin Tarantino), Actor in a Leading Role (John Travolta), Actor in a Supporting Role (Samuel L. Jackson), Actress in a Supporting Role (Uma Thurman) and Film Editing (Sally Menke). Institutional record of the result only; supports no trait row. NOTE: read through the harness's web-extraction tool, which returns summaries and short excerpts (direct fetching of oscars.org was refused), so only the plainly stated winner, credit wording and nomination list are used. CANONICAL SIGNIFICANCE SOURCE (with the Cannes record above).",
+      "url": "https://www.oscars.org/oscars/ceremonies/1995"
+    },
+    {
+      "id": "src_tarantino_academy_2013",
+      "kind": "award_body",
+      "title": "Academy of Motion Picture Arts and Sciences, '85th Academy Awards | 2013' ceremony page (oscars.org) -- the Academy's own winners record: Django Unchained listed with five nominations and two wins, the Writing (Original Screenplay) award credited 'Written by Quentin Tarantino' and the Supporting Actor award to Christoph Waltz, with the other nominations for Best Picture, Cinematography (Robert Richardson) and Sound Editing. Institutional record of the result only; supports no trait row. NOTE: read through the harness's web-extraction tool (summary-level), as for the 1995 page; only the plainly stated winner, credit wording and nomination list are used.",
+      "url": "https://www.oscars.org/oscars/ceremonies/2013"
+    },
+    {
+      "id": "src_tarantino_sundance_menke",
+      "kind": "institution",
+      "title": "Sundance Institute, 'Who Was... Sally Menke?' (sundance.org blog) -- institutional profile of Tarantino's editor, read in full: she cut every Tarantino film until her death in 2010 (21 films in all), starting with Reservoir Dogs, which 'took the world by storm' when it screened at the 1992 Sundance Film Festival; Tarantino, a first-time director with a low-budget film, was looking for an editor who would work cheaply and she took the job for the script and for Harvey Keitel's involvement; Tarantino's remark on the Grindhouse DVD that with Menke he does not remember 'what was her idea, what was my idea' (self); her 2009 remark that they 'differ creatively enough so there's always growth'; a description of their style (heavy dialogue, bursts of extreme violence, slow motion to heighten tension, action in sync with obscure music tracks); and editor Joan Sobel's tribute, quoted from the Los Angeles Times obituary, that she 'cut for the actor's performance'. Admiring institutional tribute; the passages on her death, family and the memorial fellowship were not used for any claim about Tarantino.",
+      "url": "https://www.sundance.org/blogs/who-was-sally-menke/"
+    },
+    {
+      "id": "src_tarantino_screendaily_menke",
+      "kind": "press",
+      "title": "Jeremy Kay, 'Sally Menke, Editor, Inglourious Basterds', Screen International (Screen Daily), 3 December 2009 -- awards-season Q&A with Tarantino's editor, read in full: the Western's influence on the film and how tension is drawn out in the opening scene, her four months cutting in Berlin and her having 'every line of every take' translated because the dialogue was in French and German, and her account of 18 years with Tarantino ('Quentin said he didn't know where his ideas begin and mine end, and vice versa'; 'we differ creatively enough so there's always a growth'; he 'pushes me into new genres and pushes me deeper into subject matter and characters'). First-hand collaborator's account, admiring but specific; no criticism of the process appears.",
+      "url": "https://www.screendaily.com/editing/5008796.article"
+    },
+    {
+      "id": "src_tarantino_asc_hateful8",
+      "kind": "press",
+      "title": "Michael Goldman, 'Wide Wide West: The Hateful Eight', American Cinematographer (December 2015 issue; web page dated 28 June 2023) -- trade-magazine production feature quoting both Tarantino (self) and cinematographer Robert Richardson (collaborator): Tarantino's reasoning that he could shoot in 'a format that would demand that they release it on film'; the revival of Ultra Panavision 70 with Richardson and Panavision (original lenses found unused at Panavision, restored and supplemented, tested in several rounds, with Kodak 65mm stocks and photochemical lab work); Richardson's statement that Tarantino 'has very specific ideas about where the camera goes' and made sure the movie was 'extraordinarily well-rehearsed' in positioning the characters, and his recollection of one adjustment of lenses and camera to remove someone from the background; the writer's note that Tarantino studied It's a Mad, Mad, Mad, Mad World for framing several leads on wide lenses in a small room; Tarantino calling the loss of zoom lenses his 'biggest loss' but 'a fun challenge' and saying Richardson has steered him toward the crane; and the planned roadshow (a 70mm presentation with program, overture and intermission, for two weeks in about 100 theaters). No criticism of the production appears. NOTE: read through the harness's web-extraction tool (direct fetching was refused with a server error), once for a full account and once as a verbatim cross-check of the key quotations; passages on lenses, lighting, rigging and projection hardware were not used. The article gives no count of features Tarantino and Richardson made together, so none is used.",
+      "url": "https://theasc.com/articles/wide-wide-west-the-hateful-eight"
+    },
+    {
+      "id": "src_tarantino_bordwell_h8",
+      "kind": "press",
+      "title": "David Bordwell, 'THE HATEFUL EIGHT: The boys behind the booth', Observations on Film Art (davidbordwell.net), 5 December 2015 -- independent film scholar's blog entry, read in full: notes that the film was shot on film in Ultra Panavision 70 (a 2.76 projected aspect ratio) and that its revival is detailed in American Cinematographer; relays exhibition specialist Chapin Cutler's account of finding, refurbishing, testing and installing more than 100 projectors and shipping more than 100 prints, work he describes as requiring 'nearly military precision necessary to fulfill Tarantino's mandate'; records 'a couple of problematic press screenings'; and judges that, whatever one thinks of Tarantino as a filmmaker ('I like him'), he deserves credit for exposing a new generation to the roadshow. Independent expert voice on exhibition, sympathetic to the effort; it says little about Tarantino's own working method.",
+      "url": "https://www.davidbordwell.net/blog/2015/12/05/the-hateful-eight-the-boys-behind-the-booth/"
+    },
+    {
+      "id": "src_tarantino_rosenbaum_pulp",
+      "kind": "press",
+      "title": "Jonathan Rosenbaum, capsule review of 'Pulp Fiction', Chicago Reader, 13 October 1994 -- independent critic's contemporary assessment, read in full: calls the film highly clever and immensely entertaining, a chronologically scrambled collection of interlocking crime stories with an ingenious structure and a charm in its allusions to other movies and TV shows, and says Tarantino's command of his smart-alecky mode is so sure that it sparkles with canny twists; but argues that its true agenda is to make the media-savvy viewer the hero, that it replaces real life and real people with generic teases and hommages, and that 'punchy, flamboyant surface is all there is'. Critical counter-voice on the work (not on private conduct); the passages describing the film's language and content were not used.",
+      "url": "https://chicagoreader.com/film/pulp-fiction/"
+    },
+    {
+      "id": "src_tarantino_latimes_newbev",
+      "kind": "press",
+      "title": "Jen Yamato, 'It's like Cheers for movie lovers: An inside look at Quentin Tarantino's New Beverly Cinema' (print title 'A loving home for films'), Los Angeles Times, 2 June 2017 -- newspaper feature, read in full through the repost on Cinema Treasures (the New Beverly's own blog confirms the article and its date but carries only an excerpt, and the original latimes.com page was not opened): after founder Sherman Torgan's death in 2007 Tarantino became the theater's landlord, saving the building from developers; in 2014 he took over programming, keeping the double-feature format, with every feature, trailer and cartoon projected on 35mm film; more than half the films come from his own collection and, per the operations director, he fills out each month's lineup by hand on calendar printouts while staff borrow rarities from collectors, studios and archives; his team rebuilt the projection equipment and lowered the booth portholes for a straight path to the screen; prices were not raised. Warm-toned feature built on an operations director's account; used for the film-archive activity only, which is a side activity and not a card.",
+      "url": "https://cinematreasures.org/blog/2017/6/7/los-angeles-ca-its-like-cheers-for-movie-lovers-an-inside-look-at-quentin-tarantinos-new-beverly-cinema"
+    },
+    {
+      "id": "src_tarantino_abc7_jackson",
+      "kind": "press",
+      "title": "ABC7 Los Angeles (KABC), ''The Hateful Eight': Samuel L. Jackson and Quentin Tarantino team up for 6th time', 22 December 2015 -- local-television interview feature, read in full: reports that Jackson has been part of six of Tarantino's first eight films 'in one way or another'; Jackson says Tarantino 'knows how to write for actors who aren't afraid to dive off the Tarantino cliff' into his words, that a Tarantino script is 'six-eighths dialogue' while most scripts are two-thirds things the actors will be doing, that the stage was refrigerated to about 30 degrees so breath shows 'because Quentin don't believe in CGI', and that Tarantino made the film in 70mm so people can see it as in old-time movies. Actor-collaborator's account in a promotional interview, admiring and unchallenged.",
+      "url": "https://abc7.com/1131325/"
+    },
+    {
+      "id": "src_tarantino_slash_writing",
+      "kind": "press",
+      "title": "Slashfilm, 'Planning Doesn't Play A Large Part In Quentin Tarantino's Scriptwriting Process', 16 December 2022 -- trade-press feature, read in full, quoting at length from Tarantino's 2009 Filmmaker magazine interview (self): he works without an outline and 'never knows the end'; he writes a handwritten manuscript and retypes it with one finger on a word processor, a method he has used since Reservoir Dogs and calls 'a really good filter' for overwriting ('if it's not Shakespeare, it's got to go'); and a Reservoir Dogs scene (the characters' argument over code-name colours) that arose only during retyping. A secondary retelling of self-reported method; the original Filmmaker magazine interview was not opened.",
+      "url": "https://slashfilm.com/1140208/planning-doesnt-play-a-large-part-in-quentin-tarantinos-scriptwriting-process"
+    },
+    {
+      "id": "src_tarantino_biography",
+      "kind": "biography",
+      "title": "Biography.com (A&E Television Networks), 'Quentin Tarantino' (updated 23 September 2020) -- popular biography, read in full and used for career and filmography facts only: a video-store job during which he wrote screenplays including True Romance and Natural Born Killers; Reservoir Dogs (1992) made with producer Lawrence Bender, Harvey Keitel signing on as actor and producer, and shown at Sundance; Pulp Fiction (1994) with the Palme d'Or and the Best Original Screenplay Oscar shared with Roger Avary; Jackie Brown (1997), Kill Bill Vol. 1 and Vol. 2 (2003-2004), Grindhouse (2007), Inglourious Basterds (2009), Django Unchained (2012, a second screenplay Oscar), The Hateful Eight (2015) and Once Upon a Time... in Hollywood (2019); and, for Kill Bill, that he had to 'learn on the fly' how to make a kung fu film. Popular secondary source: every award fact used is confirmed by the Academy or Cannes pages, and its passages on private life, disputes with other filmmakers, allegations and his statements about them were deliberately not used.",
+      "url": "https://www.biography.com/movies-tv/quentin-tarantino"
+    },
+    {
+      "id": "src_tarantino_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Quentin Tarantino by Gage Skidmore.jpg' (with its file history and the Commons API record) -- checked for the portrait's licence: photograph by Gage Skidmore, taken 11 July 2015 at the San Diego Comic-Con International (The Hateful Eight panel), source 'Own work', uploaded by the photographer on 15 July 2015 and published under CC BY-SA 3.0 with a request to attribute Gage Skidmore; two later edited versions by other users were reverted, so the current file is byte-identical to his original upload (SHA-1 838f504f). Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Quentin_Tarantino_by_Gage_Skidmore.jpg"
+    }
+  ],
+  "rows": {
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_tarantino_screendaily_menke, src_tarantino_sundance_menke, src_tarantino_asc_hateful8, src_tarantino_abc7_jackson, src_tarantino_cannes | 1992-2015 | editor's Q&A + institutional profile + trade-magazine feature + television interview + festival credits] Editor Sally Menke told Screen International in 2009 that she and Tarantino had worked together for 18 years, that he had said he did not know where his ideas begin and hers end, that they 'differ creatively enough so there's always a growth' and that he pushes her into new genres and deeper into subject matter and characters; Sundance says she cut every Tarantino film until her death, beginning with Reservoir Dogs, and relays his Grindhouse DVD remark that he does not remember which idea was hers and which his (self); the Cannes record credits her as editor of Pulp Fiction beside a screenplay credited to Roger Avary and Tarantino; Robert Richardson says in American Cinematographer that Tarantino made sure the film was 'extraordinarily well-rehearsed' in positioning the characters, and Tarantino says Richardson has steered him toward the crane (self); ABC7 notes that Samuel L. Jackson has been part of six of his first eight films. A long editing partnership and repeat pairings are independently verifiable from credits, but every account of how the partnership worked is admiring and most come from Menke herself or from Tarantino's own words, so documented at a moderate confidence."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tarantino_asc_hateful8, src_tarantino_latimes_newbev, src_tarantino_slash_writing | 1992-2017 | trade-magazine feature + newspaper feature + trade-press report of his own interview] Richardson says Tarantino 'has very specific ideas about where the camera goes' and made sure the movie was 'extraordinarily well-rehearsed' in positioning the characters, and recalls one moment when lenses and camera were adjusted to remove someone from the background; the article adds that Tarantino studied It's a Mad, Mad, Mad, Mad World to see how several leads could be framed with wide lenses in a small room; the Los Angeles Times reports that he fills out each month's New Beverly lineup by hand on calendar printouts, that staff then track down each print, and that his team rebuilt the projectors' picture and sound heads and lowered the booth portholes so the picture has a straight path to the screen; Tarantino told Filmmaker (relayed by Slashfilm in 2022) that he retypes his handwritten scripts with one finger as a filter against overwriting (self). Care over staging, framing and presentation is documented in three separate settings, but the staging evidence is one collaborator's summary in one article, the theater evidence concerns a side activity and the writing evidence is his own account, so strong inference at a modest confidence."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tarantino_asc_hateful8, src_tarantino_bordwell_h8, src_tarantino_latimes_newbev, src_tarantino_abc7_jackson | 2015-2017 | trade-magazine feature + independent film scholar + newspaper feature + television interview] Tarantino told American Cinematographer that he thought he could 'shoot it in a format that would demand that they release it on film', and the film was planned as a two-week 70mm presentation with overture and intermission in about 100 theaters (self); Bordwell reports that this meant finding, refurbishing and installing more than 100 projectors, credits Tarantino with exposing a new generation to the roadshow, and notes a couple of problematic press screenings; the Los Angeles Times calls the New Beverly, which he programs, the last pure bastion for 35mm film in Los Angeles, with every feature, trailer and cartoon shown on film; ABC7 quotes Jackson that the stage was refrigerated so breath would show because Tarantino does not 'believe in CGI'. Holding to a film-first position and organising production and exhibition around it is described by four sources, but the strongest statement of the reasoning is his own, the sources are sympathetic, and the stance carried real logistical costs (including the problematic press screenings Bordwell records), so strong inference at a modest confidence, dual-edged. SELF-CALIBRATION (agent): first-pass 70 / 0.54 documented lowered to 66 / 0.50 strong inference because all four strands concern one film-versus-digital preference, so a documented label overstated the breadth of evidence for a general trait."
+    },
+    "aesthetic_sensitivity": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tarantino_sundance_menke, src_tarantino_asc_hateful8, src_tarantino_abc7_jackson, src_tarantino_rosenbaum_pulp | 1994-2015 | institutional profile + trade-magazine feature + television interview + independent critic] Sundance describes the Tarantino-Menke style as heavy dialogue, bursts of extreme violence, slow motion to heighten tension and action in sync with obscure music tracks; Richardson says Ultra Panavision 70 works well for close-ups and captures the 'landscape' of a face, and Tarantino calls it the widest format there is outside three-screen Cinerama, studied how to compose several leads in a small room and accepted the loss of zoom lenses as 'a fun challenge' (self); Jackson says the 70mm image is 'beautiful' compared with digital (a collaborator's taste, not Tarantino's statement); Jonathan Rosenbaum's 1994 review argues that 'punchy, flamboyant surface is all there is'. Strong attention to image, sound and format as expressive choices is described by an institution, a cinematographer and a critic, but one source is an actor's opinion, another is a hostile reading of the same style, and most of it describes finished style rather than process, so strong inference at a modest confidence; dual-edged because the critic reads the surface as the substance. SELF-CALIBRATION (agent): first-pass 72 / 0.50 lowered to 68 / 0.50 because the trait claim outran the documented behaviour (apart from the 70mm choice, the evidence is mostly descriptions of the finished style and a collaborator's taste rather than decisions documented as his)."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tarantino_screendaily_menke, src_tarantino_rosenbaum_pulp, src_tarantino_asc_hateful8, src_tarantino_biography | 1994-2015 | editor's Q&A + independent critic + trade-magazine feature + popular biography] Menke says Tarantino 'pushes me into new genres' and that on every film there is an inspiration he is drawing on, citing the Western's influence on Inglourious Basterds; Rosenbaum describes Pulp Fiction as a chronologically scrambled collection of interlocking crime stories with an ingenious structure; American Cinematographer records that shooting The Hateful Eight meant reviving a long-unused format and forgoing zoom lenses, which Tarantino calls 'a fun challenge' (self); Biography.com lists a run of different genres (crime, blaxploitation tribute, martial arts, grindhouse, war, Western) and says he had to 'learn on the fly' how to make a kung fu film for Kill Bill. Repeated shifts of genre, structure and format are documented across four sources, but the genre pattern rests on a filmography list and a collaborator's remark, and Rosenbaum reads the genre play as pastiche rather than invention, so strong inference at a modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "쿠엔틴 타란티노"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/quentin-tarantino-skidmore-2015.jpg",
+    "width": 898,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Quentin Tarantino by Gage Skidmore.jpg' -- photograph by Gage Skidmore, taken 11 July 2015 at the San Diego Comic-Con International (The Hateful Eight panel) and uploaded to Commons by the photographer himself ('Own work', 15 July 2015); the current file version is byte-identical (SHA-1 838f504f) to his original upload, two later edited versions by other users having been reverted. Original 2256 x 3016 pixels, Canon EOS 5D Mark II; saved here downscaled once to 898 x 1200 pixels (no crop, never upscaled).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Gage Skidmore, 2015, CC BY-SA 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Quentin_Tarantino_by_Gage_Skidmore.jpg",
+    "creator": "Gage Skidmore",
+    "date": "2015",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Quentin_Tarantino_by_Gage_Skidmore.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q3772 returned en label 'Quentin Tarantino', description 'American filmmaker and actor (born 1963)', born 1963-03-27, no death date, citizenship United States (Q30), ko label present; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug quentin-tarantino or QID Q3772 in the roster52 worktree (data-pipeline/candidates, src/data/people, src/core); the name appears only as an incidental mention inside the Christopher Nolan candidate and seed. REGION: north_america (Biography.com gives birth in Knoxville, Tennessee and a move to California at four; Wikidata citizenship United States), nationalityCodes US. VOCABULARY: occupationId film_director, fieldId film, impact domains artistic and cultural, tags craft_focused and detail_oriented and archetype creative_creator are existing ids used by other candidates (film_director and film as for Scorsese, Spielberg, Coppola, Kubrick and Nolan; craft_focused and detail_oriented as for Bong Joon-ho and Nolan). ZERO POLITICS: nothing political is scored or carded (the historical settings of Inglourious Basterds and Django Unchained are film subjects and are unscored). LIVING SUBJECT: only documented public professional behaviour is scored. EXCLUDED deliberately, although some of it appears in sources that were read: private life, family and relationships; the Weinstein relationship and any statement about it; allegations, rumours and the accounts of the Kill Bill set (so Uma Thurman's accounts were not used at all, being bound up with that episode); disputes over credit and authorship and public disagreements with other filmmakers (Biography.com summarises several); criticism of his language and content; his 1998 stage acting and television work; personal wealth; and any inferred motive or psychology. CANONICAL SIGNIFICANCE SOURCE: Festival de Cannes official-selection page for Pulp Fiction (https://www.festival-cannes.com/en/f/pulp-fiction/; Palme d'or 1994; read in full) together with the Academy's 67th Awards page (https://www.oscars.org/oscars/ceremonies/1995; Pulp Fiction's one win, Writing (Screenplay Written Directly for the Screen), credited 'Screenplay by Quentin Tarantino; Stories by Quentin Tarantino & Roger Avary') and the 85th Awards page for Django Unchained, supported by the Biography.com career overview; these are institutional records of his defining work rather than an essay assessing it. Encyclopaedia Britannica (the lead's preferred orientation page) could NOT be opened: britannica.com returned a Cloudflare 'Just a moment' bot challenge (HTTP 403) to curl and to the web-fetch tool, and Britannica Kids returned 403; no workaround was attempted and no Britannica content was used. Consequence: no card claims that Tarantino shaped independent American cinema, because no source read states it. READ (11 cited non-Wikidata sources plus the Commons page): the Cannes page (read in full); the Academy 1995 and 2013 pages (through the harness's web-extraction tool, summary-level); the Sundance Institute profile of Sally Menke (read in full); Screen International's Q&A with Menke (read in full); American Cinematographer's Hateful Eight feature (through the extraction tool, summary-level, with a second verbatim cross-check of the key quotations); David Bordwell's blog entry (read in full); Jonathan Rosenbaum's Chicago Reader review (read in full); Jen Yamato's Los Angeles Times feature on the New Beverly (full text via the Cinema Treasures repost); ABC7's interview with Samuel L. Jackson (read in full); Slashfilm's retelling of the 2009 Filmmaker magazine interview (read in full); Biography.com (read in full). Opened but not cited: the Chicago Reader's 1998 review of a stage adaptation of Reservoir Dogs (not about the film), the New Beverly's About page (not needed) and its blog post (an excerpt only). PERSPECTIVES: the festival and the Academy (institutional records), editor Menke (Screen International and Sundance), cinematographer Richardson (through American Cinematographer), actor Jackson (ABC7), an independent film scholar (Bordwell), an independent critic with a critical reading (Rosenbaum), newspaper reportage on the New Beverly (Los Angeles Times), and Tarantino's own statements (self; relayed by American Cinematographer, Sundance and Slashfilm; never sole support for a row). CALIBRATION: the behavioural evidence is specific but comes mostly from admiring collaborators and his own interviews; the only critical voice is a 1994 review of one film; the two Academy pages and the trade-magazine feature were read through an extraction tool; so no score exceeds 68 and no confidence exceeds 0.56, and five rows are kept with none padded. SELF-CALIBRATION (agent): the three highest-risk rows were reviewed (independent thinking, aesthetic sensitivity, collaboration); two were lowered and one left unchanged. Lowered: independent thinking 70/0.54 documented to 66/0.50 strong inference (all four strands concern one film-versus-digital preference, so a documented label overstated the breadth of evidence for a general trait); aesthetic sensitivity 72/0.50 to 68/0.50 (the trait claim outran the documented behaviour: mostly descriptions of the finished style and a collaborator's taste). Collaboration 68/0.56 was reviewed and left unchanged because the 18-year editing partnership and the repeat casting are verifiable from credits and the accounts come from three different collaborators. TRAITS NOT SCORED: creative originality (the central critical dispute, ingenious structure versus hommage, rests on critics' opinions rather than documented behaviour, and prizes are not trait evidence), proactive agency (the New Beverly rescue rests on one press source and overlaps the format evidence already used under independent thinking), persistence (the long gestation of Kill Bill and Inglourious Basterds is told only in one popular biography), perfectionism (same evidence as detail orientation, mostly self-reported), persuasiveness (the pitch for a 70mm roadshow is a single sentence of the writer's), risk tolerance, conflict tolerance and autonomy need (the relevant episodes involve the excluded disputes), mastery orientation (his film knowledge is asserted by popular sources and his own statements, not documented as practice), discipline and deep focus (no observed working day). FACT CONFLICTS RECORDED: the Academy's 1995 category is 'Writing (Screenplay Written Directly for the Screen)' while Biography.com calls it Best Original Screenplay, so the cards use the Academy's wording; Biography.com also calls Pulp Fiction the first independent film to pass a US box-office figure, a record claim no other source read confirms, so it is not used. KOREAN NAME: 쿠엔틴 타란티노 is the Wikidata Korean label and the form in the title of a Korean interview book surfaced by a search (summary-level check); the variant 퀜틴 타란티노 is not used. PORTRAIT: Wikimedia Commons file 'Quentin Tarantino by Gage Skidmore.jpg' (https://commons.wikimedia.org/wiki/File:Quentin_Tarantino_by_Gage_Skidmore.jpg): the file page and the Commons API record Source 'Own work', Author Gage Skidmore, date 11 July 2015, description 'The Hateful Eight panel' at the 2015 San Diego Comic-Con International, licence CC BY-SA 3.0 Unported, permission 'Must attribute to Gage Skidmore'; the file history shows his own upload on 15 July 2015, a colour-corrected version by another user (3 August 2015), an 'optimized' version (15 November 2020) and a revert on 2 February 2021 to the original, so the current file's SHA-1 (838f504f) equals the original's; the original was downloaded (6,978,781 bytes, 2256 x 3016, Canon EOS 5D Mark II), verified to match that hash, and saved as public/portraits/quentin-tarantino-skidmore-2015.jpg at 898 x 1200 pixels by a single bicubic downscale (never upscaled, no crop); the saved file was opened and shows Tarantino smiling at a microphone in a plaid shirt, about 52 at the time. FLICKR CHECK: the Commons page names no Flickr origin ('Own work', uploaded by the photographer), but a Flickr photo titled 'Quentin Tarantino' by Gage Skidmore (https://www.flickr.com/photos/gageskidmore/19108154333, read through the web-extraction tool) records the same panel, taken 11 July 2015 and uploaded 15 July 2015 (the same day as his Commons upload), under CC BY-SA 2.0 with the request 'Please attribute to Gage Skidmore if used elsewhere'; that it is the identical frame as the Commons file was not confirmed, and the licence recorded here is the Commons file page's own grant by the author (CC BY-SA 3.0), so the rights basis is that licence template plus the uploader being the author; as a Comic-Con panel photograph it has no institutional page that could carry a conflicting notice; the licence is share-alike and requires attribution. No alternative portrait was considered because this was the lead's named and verified choice. NOT OPENED: Encyclopaedia Britannica (blocked), the original Filmmaker magazine interview, the original Los Angeles Times page, Menke's 2009 Guardian interview (mentioned by Sundance, not found in a search), book-length interviews and biographies, and Senses of Cinema and Sight and Sound pieces (a Senses of Cinema feature on The Hateful Eight was seen only as a listing)."
+  }
+}

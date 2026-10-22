@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "roger-penrose",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Roger Penrose",
+    "aliases": [
+      "Sir Roger Penrose"
+    ],
+    "wikidataId": "Q193803",
+    "birthYear": 1931,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "physics",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "theorist",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_penrose_wikidata",
+      "kind": "wikidata",
+      "title": "Roger Penrose (Q193803) -- verified live via the Wikidata API (2026-10-16): English label 'Roger Penrose', description 'English mathematical physicist, recreational mathematician and philosopher', born 8 August 1931, no date of death, citizenship United Kingdom, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q193803"
+    },
+    {
+      "id": "src_penrose_nobel_press",
+      "kind": "award_body",
+      "title": "Royal Swedish Academy of Sciences, press release 'The Nobel Prize in Physics 2020' (6 October 2020; nobelprize.org) -- read in full: the prize 'for the discovery that black hole formation is a robust prediction of the general theory of relativity', one half to Roger Penrose and the other half jointly to Reinhard Genzel and Andrea Ghez; Penrose 'used ingenious mathematical methods' in a proof that black holes are a direct consequence of general relativity; in January 1965 he proved that black holes really can form and described them in detail, with a singularity at their heart; and his article 'is still regarded as the most important contribution to the general theory of relativity since Einstein'; plus laureate data (born 1931 in Colchester, Ph.D. 1957 at Cambridge, professor at Oxford). Institutional award-body evaluation, admiring and factual in tone. CANONICAL SIGNIFICANCE SOURCE (his primary historical contribution; used for the cards and orientation and never alone for a behavioural row).",
+      "url": "https://www.nobelprize.org/prizes/physics/2020/press-release/"
+    },
+    {
+      "id": "src_penrose_nobel_popular",
+      "kind": "award_body",
+      "title": "Nobel Committee for Physics (Royal Swedish Academy of Sciences), 'Popular science background: Black holes and the Milky Way's darkest secret' (6 October 2020; nobelprize.org) -- read in full: to prove that black hole formation is stable Penrose needed to expand the methods used to study relativity with new mathematical concepts; the Committee's retelling of his own recollection that the answer came in autumn 1964 on a walk with a colleague in London, when, stopping to cross a side street, an idea flashed into his mind that he later searched for in his memory, the idea he called trapped surfaces; and that the topological methods he introduced are now invaluable. Institutional account; the anecdote is the Committee's relay of his recollection, so it is self-sourced at one remove. The passages on the other two laureates and on the Milky Way were not used.",
+      "url": "https://www.nobelprize.org/prizes/physics/2020/popular-information/"
+    },
+    {
+      "id": "src_penrose_nobel_scientific",
+      "kind": "award_body",
+      "title": "Nobel Committee for Physics, 'Scientific Background on the Nobel Prize in Physics 2020: Theoretical foundation for black holes and the supermassive compact object at the galactic centre' (6 October 2020; 21-page PDF on nobelprize.org) -- the Penrose sections (pp. 4-7) read in full: Wheeler discussed gravitational collapse with Penrose after the quasar discoveries and Penrose began to think about it in late 1964; he set out to analyse collapse without assuming spherical symmetry, assuming only a positive energy density, and 'had to invent new mathematical methods and make use of topology'; the key concept was the trapped surface (a closed surface from which all orthogonal light rays converge toward the future); once one has formed, collapse to a singularity cannot be prevented (1965); Penrose diagrams, which use conformal transformations to bring infinite regions into a finite picture, are 'indispensable tools'; the result is 'heralded as the first post-Einsteinian result in general relativity'; Penrose with Hawking later showed that a past singularity is inevitable in the Big Bang model under reasonable assumptions (Hawking 1965; Hawking and Penrose 1970); and the name 'black hole' stuck after his discoveries. The observational sections on the other two laureates were not used. Authoritative technical account by the prize committee; no criticism of Penrose appears.",
+      "url": "https://www.nobelprize.org/uploads/2020/10/advanced-physicsprize2020.pdf"
+    },
+    {
+      "id": "src_penrose_royalsociety",
+      "kind": "institution",
+      "title": "Royal Society, Fellows Directory entry 'Sir Roger Penrose OM FRS' (royalsociety.org; elected 1972) -- institutional profile read in full: outstanding research in pure mathematics and theoretical physics; his work on singularities and black holes; contributions exploring possible connections between physics and consciousness, set out in best-selling books such as The Emperor's New Mind (1989); his invention of twistor theory, 'a key tool in quantum theory'; the cosmic censorship hypothesis; Penrose tiling, 'since observed experimentally in quasicrystals'; past President of the International Society on General Relativity and Gravitation; knighted 1994, Order of Merit 2000; and the citations of his Copley Medal ('beautiful and original insights into many areas of mathematics and mathematical physics'), Royal Medal, Wolf Prize ('the necessity for cosmological singularities') and Nobel Prize. Brief, admiring institutional profile in a Fellowship directory; the page gives no years for the medals, so none is used here.",
+      "url": "https://royalsociety.org/people/roger-penrose-12076"
+    },
+    {
+      "id": "src_penrose_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Roger Penrose', MacTutor History of Mathematics archive, University of St Andrews (page last updated September 2009, with a later note on the 2020 Nobel Prize) -- scholarly biography read in full for career and work: early papers on generalised matrix inverses, semigroups and the embedding of manifolds; relativity and cosmology from 1959; the 1965 theorem proved by topological methods; twistor theory and the Spinors and Space-time volumes with Wolfgang Rindler (1984, 1986); The Emperor's New Mind (1989) and Shadows of the Mind (1994); the 1994 debate with Hawking at the Isaac Newton Institute, in which Penrose calls himself a realist and Hawking a positivist; non-periodic tilings taken up as a Cambridge graduate student and pursued over many years from a large set of tiles to six and finally two; posts at Birkbeck College (1964-73) and as Rouse Ball Professor at Oxford (1973-98); and award citations including President Martin Rees's statement that Penrose 'has been producing original and important scientific ideas for half a century'. Secondary biography built on interviews and citations, admiring in tone; its passages on family and marriage were not used, and its year for the Copley Medal (2005) conflicts with a web-search result (2008), so no Copley year is used.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Penrose/"
+    },
+    {
+      "id": "src_penrose_smc",
+      "kind": "press",
+      "title": "Science Media Centre (London), 'expert reaction to Nobel prize for physics', 6 October 2020 -- roundup of reactions from UK physicists, read in full: Martin Rees ('amazingly original and inventive', with 'creative insights for more than 60 years'; Penrose, more than anyone else, triggered the renaissance in relativity in the 1960s through new mathematical techniques, and with Hawking did more than anyone since Einstein to deepen knowledge of gravity); David Wands ('a brilliant and original thinker' with 'unique geometrical insight'); Jerome Gauntlett ('a highly original and profound development' that introduced new mathematical methods); Toby Wiseman ('beautiful mathematics'); and Marco Bruni and Laura Nuttall on his influence. Independent expert tributes on the day of the award: several named physicists at different universities, admiring in tone and specific about the work rather than about his working habits.",
+      "url": "https://www.sciencemediacentre.org/expert-reaction-to-nobel-prize-for-physics/"
+    },
+    {
+      "id": "src_penrose_sep",
+      "kind": "institution",
+      "title": "Harald Atmanspacher, 'Quantum Approaches to Consciousness', Stanford Encyclopedia of Philosophy (first published 30 November 2004; substantive revision 13 May 2024) -- scholarly reference article read for the section on Penrose and Hameroff and the surrounding discussion: Penrose's proposal, developed in two books (1989, 1994), that elementary conscious acts are non-computable and tied to gravitation-induced reductions of quantum states, with Hameroff's microtubule proposal (Hameroff and Penrose 1996); influential criticism by Tegmark (2000), who estimated that superpositions in microtubules would decohere in under a trillionth of a second, and the response by Hagan and colleagues; a 'heated debate' with Grush and Churchland (1995) and the reply by Penrose and Hameroff; the verdict that the scenario 'should neither be too quickly celebrated nor offhandedly dismissed'; and that three decades on it has inspired work across research groups. Independent scholarly voice, neutral to sceptical on the consciousness proposals and silent on his mathematical physics; the experimental papers it lists were not opened.",
+      "url": "https://plato.stanford.edu/entries/qt-consciousness/"
+    },
+    {
+      "id": "src_penrose_woit",
+      "kind": "press",
+      "title": "Peter Woit, 'Penrose at The Portal', Not Even Wrong (blog by a Columbia University mathematician), 6 March 2020 -- an independent mathematician's post, read in full: calls Penrose one of the great figures of theoretical physics whose work 'has not followed fashion but exhibited a striking degree of originality', sets out the basic idea of twistors, and relays Penrose's own podcast account of how he found twistors in 1963 while being driven from San Antonio to Austin by a quiet colleague (a written version is cited from Penrose's own article). Strongly admiring of twistor theory and critical of string-theory fashion; a self account relayed by an admirer, used only for the 'not fashion' characterisation and the twistor origin; the podcast itself was not heard.",
+      "url": "https://www.math.columbia.edu/~woit/wordpress/?p=11630"
+    },
+    {
+      "id": "src_penrose_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Roger Penrose 9558.JPG' (with the Commons API record and the category listing of the photographer's other Penrose files) -- checked for the portrait's licence: photograph by Biswarup Ganguly, taken 7 January 2011, source 'Own work', uploaded by the photographer on 10 January 2011 as a single version, published under CC BY 3.0 (originally also GFDL) with attribution required; no restriction template. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Roger_Penrose_9558.JPG"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_penrose_nobel_scientific, src_penrose_nobel_press, src_penrose_smc, src_penrose_royalsociety, src_penrose_mactutor, src_penrose_woit | 1964-2020 | award-body technical account + award-body press release + named physicists' reactions + Fellowship directory + biography + independent mathematician] The Nobel Committee says that, to analyse collapse without spherical symmetry, Penrose 'had to invent new mathematical methods and make use of topology', with the trapped surface as the key concept, and the press release calls his methods ingenious; Martin Rees calls him 'amazingly original and inventive', with creative insights for more than 60 years, and Wands, Gauntlett and Wiseman separately describe his methods as original, profound or beautiful; the Royal Society's Copley citation praises 'beautiful and original insights into many areas of mathematics and mathematical physics' and its profile credits twistor theory and a non-periodic tiling later seen in quasicrystals; MacTutor records the tilings being pushed from many tiles to six to two over many years; Woit calls his work unfashionable and strikingly original. New concepts and methods are documented in several areas by several unrelated experts, but nearly all of it is admiring tribute and the only dissent in the sources concerns the consciousness proposals, not originality, so documented at a moderate confidence. LEAD REVIEW CORRECTION (Roster52, before eligibility, downward only): the strongest row rests on award-body technical prose and fellowship-directory praise written retrospectively (Nobel Committee, Royal Society), with only one independent mathematician as a counter-weight; score and confidence lowered."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_penrose_nobel_scientific, src_penrose_royalsociety, src_penrose_woit, src_penrose_smc, src_penrose_mactutor | 1963-1986 | award-body technical account + Fellowship directory + independent mathematician + named physicists + biography] The Nobel Committee describes a topological formulation of collapse (the trapped surface, a closed surface from which all orthogonal light rays converge toward the future) that does not depend on symmetry, and Penrose diagrams, which use conformal transformations to bring infinite regions of space-time into a finite picture and which it calls indispensable tools; the Royal Society credits twistor theory as a key tool in quantum theory; Woit summarises twistors as replacing space-time points by planes in a complex four-dimensional space; Wands credits 'unique geometrical insight' and Rees (quoted in MacTutor) 'exceptional geometrical and physical insight'; MacTutor calls twistor theory a combination of powerful algebraic and geometric methods and records two volumes with Wolfgang Rindler (1984, 1986). Three distinct, documented abstractions (trapped surfaces, conformal diagrams, twistors) point the same way, but the sources describe the constructs rather than how he reasoned and Woit's account of twistors is an enthusiast's, so strong inference at a modest confidence. SELF-CALIBRATION (agent): first-pass 78 / 0.58 lowered to 72 / 0.54 because the trait is inferred from the products of his thinking rather than from documented reasoning behaviour, and the trapped-surface evidence also underlies the originality row."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_penrose_mactutor, src_penrose_royalsociety, src_penrose_sep, src_penrose_smc | 1955-1996 | biography + Fellowship directory + encyclopedia + named physicists] MacTutor lists early papers on generalised matrix inverses and inverse semigroups (1955-56), a 1961 paper on embedding manifolds with Whitehead and Zeeman, relativity and spinor work from 1959, the 1965 singularity theorem, twistor theory, non-periodic tilings taken up as a graduate student and two books on mind and consciousness; the Royal Society describes outstanding research in pure mathematics and theoretical physics and contributions on connections between physics and consciousness; the Stanford Encyclopedia notes that his consciousness argument draws on creativity, mathematical insight, Gödel's incompleteness theorems, quantum gravity and a Platonist view of mathematics; Rees (quoted in MacTutor) adds that even his recreations, the 'impossible figures' popularised in Escher's artwork and the tilings, have had intellectual impact. Sustained, documented work across pure mathematics, relativity, recreational geometry and philosophy of mind is described by four independent sources, but the fields are close neighbours (geometry runs through most of them) and the philosophical work is contested, so strong inference at a modest confidence."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_penrose_sep, src_penrose_mactutor, src_penrose_woit, src_penrose_royalsociety | 1989-2020 | encyclopedia + biography + independent mathematician + Fellowship directory] The Stanford Encyclopedia describes his proposal, developed in two books and with Hameroff, that conscious acts are non-computable and arise from gravitation-induced collapse of quantum states in microtubules, notes influential criticism (Tegmark's decoherence estimate, a 'heated debate' with Grush and Churchland in 1995 and Penrose and Hameroff's reply) and concludes that it should be neither celebrated too quickly nor dismissed offhandedly; MacTutor quotes his own account of a 1994 debate with Hawking in which he calls himself a realist and Hawking a positivist, casting them as Einstein and Bohr; Woit says his work 'has not followed fashion'; the Royal Society nonetheless counts the consciousness work among his important contributions. A long record of defending positions outside the mainstream, in print and against a close collaborator, is documented by four sources, but the most contested part rests on proposals that critics regard as unsupported, the Einstein and Bohr framing is his own, and the sources are mostly sympathetic, so dual-edged at a moderate confidence."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_penrose_mactutor, src_penrose_sep, src_penrose_woit | 1955-2020 | biography + encyclopedia + independent mathematician] MacTutor records that he took up non-periodic tilings as a graduate student and, over many years, reduced the number of tiles from a large set to six and finally two; the Stanford Encyclopedia dates his consciousness programme to two books in 1989 and 1994 and says that more than three decades after its inception it continues, with a published exchange with critics in 1995 and a 2014 review article by Hameroff and Penrose; MacTutor places the twistor volumes with Rindler in 1984 and 1986, two decades after the idea (Woit relays his account of finding twistors in 1963), and Woit's 2020 post shows twistors still under discussion. Three long-running programmes are documented across three sources, but the dates and durations are given in summary rather than as worked episodes, the twistor chronology is inferred from publication dates, and the persistence of the consciousness programme is of the contested kind, so strong inference at a modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로저 펜로즈"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/roger-penrose-ganguly-2011.jpg",
+    "width": 797,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Roger Penrose 9558.JPG' -- photograph by Biswarup Ganguly, taken 7 January 2011 (the photographer's sibling files of that date are named for Science City, Kolkata) and uploaded to Commons by the photographer himself ('Own work', 10 January 2011, a single file version, Nikon D90); published under CC BY 3.0 (originally also GFDL) with attribution required. Original 2848 x 4288 pixels (6,455,603 bytes; the downloaded file's SHA-1 1719fc78 matches the Commons record); saved here downscaled once to 797 x 1200 pixels (no crop, never upscaled).",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Photo: Biswarup Ganguly, 2011, CC BY 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Roger_Penrose_9558.JPG",
+    "creator": "Biswarup Ganguly",
+    "date": "2011",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Roger_Penrose_9558.JPG"
+  },
+  "provenance": {
+    "createdAt": "2026-10-16T00:00:00Z",
+    "updatedAt": "2026-10-16T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-16) for Q193803 returned en label 'Roger Penrose', description 'English mathematical physicist, recreational mathematician and philosopher', born 1931-08-08, no death date, citizenship United Kingdom (Q145), ko label present; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug roger-penrose or QID Q193803 in the roster52 worktree (data-pipeline/candidates, src/data/people, src/core); the name appears only inside other profiles' text (for example the Stephen Hawking and Kurt Godel candidates). REGION: western_europe (born in Colchester, Essex, per the Nobel Foundation and MacTutor; Wikidata citizenship United Kingdom), nationalityCodes GB. VOCABULARY: occupationIds physicist and mathematician, fieldIds physics and mathematics, impact domains scientific and educational, tags nobel_laureate, theorist and cross_disciplinary and archetypes scientific_explorer and scholarly_specialist are existing ids used by other candidates (physicist, mathematician, scholarly_specialist and scientific_explorer as for Dirac; nobel_laureate as for Dirac and Bohr, theorist as for Dirac and Einstein, cross_disciplinary as used by many other candidates). ZERO POLITICS: not applicable, nothing political is scored. LIVING SUBJECT: only documented public professional behaviour is scored. EXCLUDED: private life (family, marriage, parents), health, age, personal wealth, and any inferred motive or psychology; MacTutor's passages on his parents and marriage were read and left unused. CANONICAL SIGNIFICANCE SOURCE: the Royal Swedish Academy of Sciences' press release 'The Nobel Prize in Physics 2020' (https://www.nobelprize.org/prizes/physics/2020/press-release/; read in full), supported by the Nobel Committee's popular science and scientific backgrounds and the Royal Society's Fellows Directory entry, which together give the institutional assessment of his primary contribution (the 1965 singularity theorem built on trapped surfaces, with the Hawking-Penrose theorems, Penrose diagrams, twistor theory and tilings as the rest of the central work) and show the consciousness work as a further, contested strand. READ (9 cited non-Wikidata sources plus the Commons page): the Nobel press release and popular science background (read in full from locally extracted text); the Nobel Committee's scientific background (PDF text extracted locally with PyMuPDF; the Penrose sections read in full); the Royal Society profile (read in full); MacTutor (read in full); the Science Media Centre roundup (read in full); the Stanford Encyclopedia article (the Penrose and Hameroff section and its surrounding discussion read; the rest not used); Woit's blog post (read in full). Opened but not cited: Physics World's 2024 recollection of interviewing Penrose in 2015 (an anecdote about his hand-drawn transparencies and his patience during a delayed interview, too thin to support a row), the Nobel facts and advanced-information landing pages, and the Oxford Mathematical Institute's one-sentence Copley Medal item. PERSPECTIVES: the Nobel Committee and Royal Swedish Academy (award body), the Royal Society (Fellowship directory), a scholarly biographer (MacTutor, quoting Martin Rees's evaluation), several named physicists (Science Media Centre), an independent mathematician (Woit), an encyclopedic reference that is neutral to sceptical on the consciousness proposals (Stanford Encyclopedia of Philosophy, the counter-voice), and Penrose's own recollections relayed by the Committee, MacTutor and Woit (self; never sole support for a row). CALIBRATION: the evidence is authoritative on the work but speaks mostly to his results rather than his working behaviour, nearly all voices are admiring, and the one sceptical voice concerns the consciousness proposals only, so no score exceeds 80, no confidence exceeds 0.62, and five rows are kept with none padded. SELF-CALIBRATION (agent): the three highest-risk rows were reviewed (creative originality, systems abstraction, independent thinking); one was lowered and two left unchanged. Lowered: systems abstraction 78/0.58 to 72/0.54 (inferred from the products of his thinking rather than documented reasoning, and the trapped-surface evidence overlaps the originality row). Left unchanged: creative originality 80/0.62 (the Nobel Committee's technical account documents the invention of new methods specifically and several unrelated experts corroborate it) and independent thinking 74/0.56 (the contested consciousness programme and the Hawking debate are documented by a critical encyclopedic source and the biographer's quotation of his own words). TRAITS NOT SCORED: analytical rigor (same evidence as the theorem already used under originality and abstraction; the sources describe results, not reasoning), curiosity (no specific documented behaviour beyond the breadth already scored), collaboration (co-authorships with Hawking, Rindler, Newman, Whitehead and Zeeman and Hameroff are documented, but no source describes how they worked together), intuitive synthesis (the 1964 insight and the 1963 twistor idea are both his own recollections relayed at one remove, so no independent source), aesthetic sensitivity (tilings and impossible figures are one-line mentions and the hand-drawn transparencies a single anecdote), persuasiveness (best-selling books and lectures are mentioned by Rees and the Royal Society but not documented as behaviour), belief updating (a search summary said criticism led him to withdraw from consciousness work for a time, but the page that would show it, Graham Farmelo's, could not be opened), conflict tolerance (the Hawking debate and the replies to critics are scholarly exchanges), leadership drive (his past presidency of the International Society on General Relativity and Gravitation is one line), risk tolerance, mastery orientation, discipline and deep focus (no observed working day). FACT CONFLICTS RECORDED: MacTutor gives the Copley Medal as 2005 while a web-search result gave 2008 and the Royal Society page gives no year, so no Copley year is used; the Nobel popular background calls him professor of mathematics at Birkbeck in 1964 while MacTutor says Reader in 1964 and Professor from 1966, so no 1964 title is used; the Nobel facts page says he proposed his tools in 1964 while the press release dates the article to January 1965, so the cards follow the press release; the Committee's own 'first' evaluations (the first realistic solution for collapsing matter; the first post-Einsteinian result) are not repeated as record claims, only the Academy's 'most important contribution since Einstein' is used and attributed; the Royal Society's Wolf Prize citation does not name Hawking while MacTutor says the prize was joint with him. KOREAN NAME: 로저 펜로즈 is the Wikidata Korean label; Korean-press usage was not separately checked. PORTRAIT: Wikimedia Commons file 'Roger Penrose 9558.JPG' (https://commons.wikimedia.org/wiki/File:Roger_Penrose_9558.JPG): the file page and API record Author Biswarup Ganguly, Source 'Own work', date 2011-01-07, uploaded by the photographer (user Gangulybiswarup) on 2011-01-10 as a single version, licence CC BY 3.0 with attribution required (a redundant GFDL template is also present), Restrictions empty, Nikon D90; the photographer's sibling files of that date are named for Science City, Kolkata, which is the only evidence for the setting. The original was downloaded (6,455,603 bytes, 2848 x 4288, SHA-1 matching the Commons record) and saved as public/portraits/roger-penrose-ganguly-2011.jpg at 797 x 1200 pixels by a single bicubic downscale (never upscaled, no crop); the saved file was opened and shows a frontal head-and-shoulders portrait of Penrose in glasses and a dark jacket at about 79. Chosen for its frontal view among the photographer's frames from the session (six other frames were previewed as thumbnails: three-quarter views, a hand-on-cheek close-up and two stage shots); other named-author files in the category were listed but not opened (Andrej Bauer 2007 CC BY-SA 2.5 SI, David Monniaux 2012 CC BY-SA 3.0, Festival della Scienza 2005 and 2011 CC BY-SA 2.0, Victor R. Ruiz 2016 CC BY 2.0). There is no institutional page that could carry a conflicting notice (an individual's photograph at a lecture visit), and the photographer's own site was not opened; the licence is attribution-only. NOT OPENED: Graham Farmelo's essay on Penrose (HTTP 404 to curl and to the web-fetch tool), the Guardian's science podcast interview (audio) and the Closer to Truth video series, Penrose's own books and papers, the Oxford University news item (HTTP 403), the Annals of Mathematics and Philosophy interview, and the experimental and critical papers on Orch OR that the Stanford Encyclopedia cites (Tegmark 2000; Hagan, Hameroff and Tuszynski 2002; Grush and Churchland 1995). LEAD REVIEW (Roster52): 1 row(s) lowered before eligibility (the strongest row rests on award-body technical prose and fellowship-directory praise written retrospectively (Nobel Committee, Royal Society), with only one independent mathematician as a counter-weight)."
+  }
+}
