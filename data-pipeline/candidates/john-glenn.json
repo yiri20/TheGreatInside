@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-glenn",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John Glenn",
+    "aliases": [
+      "John Herschel Glenn Jr.",
+      "John H. Glenn Jr."
+    ],
+    "wikidataId": "Q182642",
+    "birthYear": 1921,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronaut",
+      "aviator"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_glenn_wikidata",
+      "kind": "wikidata",
+      "title": "John Glenn (Q182642) -- verified live via the Wikidata API (2026-10-23): English label 'John Glenn', description 'American astronaut and politician (1921-2016)', born 18 July 1921, died 8 December 2016, Korean label '존 글렌', P18 images 'John Glenn Low Res crop.jpg' and 'John Glenn Mercury (small).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q182642"
+    },
+    {
+      "id": "src_glenn_nasm",
+      "kind": "institution",
+      "title": "Michael Neufeld, 'Remembering Senator John Herschel Glenn Jr.', National Air and Space Museum (Smithsonian), 8 December 2016, read in full: Marine fighter pilot with 59 combat missions in the Pacific, two Korean War combat tours and three MiG-15 victories; Navy test pilot from 1956; selected for the astronaut team in 1959; first American to orbit the Earth in Friendship 7 on 20 February 1962 ('performed superbly in the face of worrying problems'); payload specialist on Space Shuttle STS-95 (29 October to 7 November 1998), researching the effects of spaceflight on the aging body, still the oldest person to have flown in space per the museum. CANONICAL SIGNIFICANCE SOURCE. Its passages on his Senate career, honours and the museum lecture were not used.",
+      "url": "https://airandspace.si.edu/stories/editorial/remembering-senator-john-herschel-glenn-jr"
+    },
+    {
+      "id": "src_glenn_nara",
+      "kind": "archive",
+      "title": "'Astronaut John Glenn and the Friendship 7 Mission', U.S. National Archives featured document page, read in full: orbital flight of 20 February 1962 (three orbits, about five hours); the automatic control function failed and Glenn piloted the spacecraft manually; Mission Control received a signal that the heat shield was loose and ordered him to retain the retropack; huge chunks flew past the window during re-entry and he wondered whether it was the retropack or the heat shield breaking up; the heat shield held and his worst injury was scraped knuckles; archival excerpt of the official flight transcript is shown. Institutional/archive account, admiring in tone.",
+      "url": "https://www.archives.gov/exhibits/featured-documents/friendship-7-transcript"
+    },
+    {
+      "id": "src_glenn_nasmcap",
+      "kind": "institution",
+      "title": "Smithsonian National Air and Space Museum collection record, 'Capsule, Mercury, MA-6' (Friendship 7 hatch), read in full: the original Mercury hatch was bolted on by pad technicians; the astronauts pushed through a redesign adding a window and an explosively ejected hatch; after Gus Grissom's hatch blew off accidentally in July 1961 and his capsule sank, Glenn decided not to eject the hatch until Friendship 7 had been lifted onto the destroyer Noa's deck. Museum object record.",
+      "url": "https://airandspace.si.edu/collection-objects/capsule-mercury-ma-6"
+    },
+    {
+      "id": "src_glenn_thisday",
+      "kind": "press",
+      "title": "'16 July 1957', This Day in Aviation (thisdayinaviation.com), read in full: Major John H. Glenn Jr., USMC, flew a Vought F8U-1P Crusader from NAS Los Alamitos to Floyd Bennett Field in 3 hours 23 minutes (2,360 miles, 725.25 mph average), described there as the first supersonic transcontinental flight; Project Bullet's stated purpose was to test the sustained capability of the F8U at near maximum power over a long distance; the route needed three aerial refuellings with Savage tankers; Pratt & Whitney tore down the engine afterwards and lifted power limitations; Glenn was Navy/Marine Corps project officer for the Crusader and flew the XF8U-1 prototype on 4 May 1956. Aviation-history website; independent of Glenn.",
+      "url": "https://www.thisdayinaviation.com/?p=3901"
+    },
+    {
+      "id": "src_glenn_am_m1",
+      "kind": "press",
+      "title": "'Zero-G and I Feel Fine': Remembering John Glenn's Mercury Flight (Part 1), AmericaSpace, 18 February 2017, read in full: the December 1961 date slipped to February 1962 through repeated delays; Glenn alone on top of an Atlas with a lukewarm success record and a pulse of 60 to 80; he bought a $45 Minolta camera in Cocoa Beach, NASA adapted it, and he photographed through the flight; he ran attitude-control checks, exertion tests and a vision chart in orbit, and reported 'fireflies' (later attributed to ice crystals); the landing-bag signal led Mercury Control to ask him about the switch; quotes Gene Kranz that Mission Control saw 'John Glenn's life was in peril'. Spaceflight-history press; draws heavily on Glenn's memoir, so memoir-derived lines are self-account and were never the sole support for a row.",
+      "url": "https://www.americaspace.com/2017/02/18/zero-g-and-i-feel-fine-remembering-john-glenns-mercury-flight-part-1/"
+    },
+    {
+      "id": "src_glenn_am_m2",
+      "kind": "press",
+      "title": "'Just a Normal Day': Remembering John Glenn's Mercury Flight (Part 2), AmericaSpace, 19 February 2017, read in full: Glenn told to keep the retropack on through re-entry (overriding the 0.05 G switch and retracting the periscope manually); Max Faget agreed but noted the plan's own risk, and Flight Director Chris Kraft feared the retropack could cause a tumble and later resolved never to agree to such an exercise again; Glenn switched from manual to fly-by-wire control, damped capsule oscillations by hand during blackout, and kept trying to contact Al Shepard; he later said he was irritated at being kept in the dark; the false landing-bag signal was traced to a loose switch stem; splashdown 45 miles off target because retrofire calculations had not allowed for consumables used; he opened the hatch only after being lifted aboard the Noa. Spaceflight-history press with named counter-views from Kraft and Faget.",
+      "url": "https://www.americaspace.com/2017/02/19/just-a-normal-day-remembering-john-glenns-mercury-flight-part-2/"
+    },
+    {
+      "id": "src_glenn_am_sts",
+      "kind": "press",
+      "title": "'A Chart Jumped Out at Me' and 'The Single Data Point': Remembering John Glenn's Return to Space (Parts 1 and 2), AmericaSpace, 29-30 October 2016, both read in full: how STS-95 came about (Glenn proposed an older-person study in late 1995; NASA Administrator Dan Goldin set two conditions, scientific value and passing the active-duty astronaut exams; Glenn was reported as the most persistent man Goldin had met, a line from Glenn's memoir; training followed the Senate calendar); the critics' views, including the 'publicity stunt' charge, a 'single data point' objection which Glenn answered with 'You've got to start somewhere', and astronaut Story Musgrave's remark that 'we are flying a legislative passenger'; the mission's crew reactions. The political-support and election passages of the articles were not used. Spaceflight-history press with named critics.",
+      "url": "https://www.americaspace.com/2016/10/30/the-single-data-point-remembering-john-glenns-return-to-space-part-2/"
+    },
+    {
+      "id": "src_glenn_smithmag",
+      "kind": "press",
+      "title": "Ben Panko, 'For a Larger-Than-Life Space Icon, John Glenn Was Remarkably Down-to-Earth', Smithsonian Magazine, December 2016, read in full: museum colleagues and a co-author describe his curiosity about anything scientific or medical, his habit of collecting sunsets in photographs, and his approachability at museum events. Admiring friends' remembrances at his death (retrospective); used only for one low-weight row. Family, political and charity passages not used.",
+      "url": "https://www.smithsonianmag.com/science-nature/larger-life-space-icon-john-glenn-managed-stay-remarkably-down-earth-180961393/"
+    },
+    {
+      "id": "src_glenn_nasaimg",
+      "kind": "archive",
+      "title": "NASA Image and Video Library record S62-05540, 'Official portrait - astronaut Glenn, John H., Jr. - MSC' (December 1962, Photo credit: NASA), with its metadata; portrait rights check only. Not used for any scoring.",
+      "url": "https://images.nasa.gov/details/S62-05540"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_glenn_nara, src_glenn_am_m2, src_glenn_nasm | 20 Feb 1962 | national archive + spaceflight-history press + museum] The National Archives says that when the autopilot failed Glenn piloted Friendship 7 manually, and the AmericaSpace account describes him switching between manual and fly-by-wire control, damping the capsule's oscillations by hand through the re-entry communications blackout and handling an unexpected instruction to keep the retropack on while overriding the 0.05 G switch and retracting the periscope manually; the Museum says he 'performed superbly in the face of worrying problems'. A concrete, multi-source record of changing method when the automatic systems did not work, with the archive and museum accounts admiring in tone, so documented at a moderate confidence."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_glenn_thisday, src_glenn_am_m1, src_glenn_am_sts | 1957-1998 | aviation-history press + spaceflight-history press] This Day in Aviation describes the 1957 Project Bullet flight, a near-maximum-power transcontinental run needing three aerial refuellings; AmericaSpace describes him strapped atop an Atlas with a lukewarm success record in 1962 and, at 77, flying STS-95 between the Challenger and Columbia disasters, with critics calling the flight rash. He repeatedly took on flights that carried substantial professional danger, in settings where the risk was managed by engineering and procedure rather than gambled, so documented at a moderate confidence."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_glenn_am_m2, src_glenn_nara, src_glenn_am_m1 | 20 Feb 1962 | spaceflight-history press + archive] While uncertain landing-bag and heat-shield signals were being assessed, Glenn kept working his procedures, per AmericaSpace, and the Archives says he watched chunks pass the window without knowing whether they were retropack or heat shield; the account also says he was given only 'the judgement of Cape Flight' when he asked why, and that Kraft and Faget disagreed about the plan. His continued procedural work under real uncertainty is documented, but detail on his inner approach comes largely from his own later accounts, so documented at a moderate confidence."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_glenn_nasm, src_glenn_thisday, src_glenn_am_sts | 1956-1959 | museum + aviation-history press + spaceflight-history press] The Museum says he became a Navy test pilot in 1956; This Day in Aviation says he was Navy/Marine Corps project officer for the Crusader, flew the prototype on 4 May 1956, and that the engine teardown after his flight led to power limits being lifted; AmericaSpace says the Mercury astronauts' test-piloting and engineering expertise was drawn on in spacecraft development and cites the astronaut selection requirements. A career spent in test flying and project work is documented, but the sources describe the assignments more than his own pursuit of craft, so strong inference at a modest confidence."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_glenn_am_sts, src_glenn_nasm | 1995-1998 | spaceflight-history press + museum] AmericaSpace says he first approached NASA's Administrator in late 1995 with the older-astronaut proposal, completed the required medical and proficiency conditions, and was called 'the most persistent man I've ever met' by the Administrator (a line taken from Glenn's own memoir); the Museum confirms the STS-95 flight and its aging-research purpose. Critics in the same articles (the 'publicity stunt' charge, Musgrave's 'legislative passenger' remark, the 'single data point' objection) dispute the flight's justification, so this reflects determination about getting the flight, not the merit of the science; strong inference, kept at a modest confidence because the key quote is self-reported. SELF-CALIBRATION (agent): reviewed; kept at 58 / 0.44 because the score already reflects the memoir-sourced quote and the critics."
+    },
+    "curiosity": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_glenn_am_m1, src_glenn_smithmag | 1962-2016 | spaceflight-history press + magazine remembrance] AmericaSpace says he bought a $45 camera, had it adapted and photographed through the flight, ran vision and exertion checks in orbit and reported the 'fireflies' he saw; Smithsonian colleagues and a co-author, writing after his death, describe curiosity about anything scientific or medical. The in-flight observing is documented behaviour; the broader characterisation comes from admiring friends' retrospective accounts. SELF-CALIBRATION (agent): first-pass 60 / 0.48 lowered to 54 / 0.42 because the general trait claim rests on one outlet's flight narrative plus retrospective, admiring remembrances at his death."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 글렌"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-glenn-nasa-1962.jpg",
+    "width": 943,
+    "height": 1200,
+    "source": "NASA Image and Video Library record S62-05540, 'Official portrait of astronaut John H. Glenn Jr., the first American to orbit Earth in a Project Mercury spacecraft' (December 1962, Photo credit: NASA, JSC), downloaded from the NASA original (2358 x 3000 pixels); NASA's Media Usage Guidelines say NASA content is generally not subject to copyright in the United States; the record carries only a NASA credit. Downscaled once to 943 x 1200 (never upscaled). The Commons Senate Historical Office portrait ('John Glenn Low Res crop.jpg', 1488 x 1984) was checked as an alternative and not used: it is an undated derivative file with a thin provenance record and shows him in a political-office setting.",
+    "license": "Public Domain (NASA work)",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "attribution": "NASA / Johnson Space Center, photo S62-05540, December 1962, downscaled from the original",
+    "attributionUrl": "https://images.nasa.gov/details/S62-05540",
+    "creator": "NASA (Johnson Space Center)",
+    "date": "1962-12",
+    "kind": "likeness",
+    "sourcePageUrl": "https://images.nasa.gov/details/S62-05540"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q182642 returned en label 'John Glenn', description 'American astronaut and politician (1921-2016)', born 1921-07-18, died 2016-12-08, ko label '존 글렌', P18 'John Glenn Low Res crop.jpg' and 'John Glenn Mercury (small).jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate file or src reference for slug john-glenn or QID Q182642 in the roster53 worktree. REGION north_america, nationality US. VOCABULARY: occupations astronaut and aviator, field exploration, impact domains historical/scientific/cultural, tags explorer and sustained_excellence, archetype scientific_explorer are existing ids (cf. Alan Shepard, Buzz Aldrin). ZERO POLITICS: Glenn's US Senate career, 1984 presidential run, election and political-support passages in the sources were not scored or carded; his Senate service is mentioned nowhere in rows or achievements. Military service is likewise only used for flying and test-pilot conduct (Project Bullet), not for combat or command scoring. EXCLUDED: family, health, wealth, honours, the Clinton-support passage in AmericaSpace, the Annie Glenn/LBJ episode (history.com, read but not used), Wikipedia/Wikidata. CANONICAL SIGNIFICANCE SOURCE: National Air and Space Museum, 'Remembering Senator John Herschel Glenn Jr.' (Neufeld), https://airandspace.si.edu/stories/editorial/remembering-senator-john-herschel-glenn-jr. READ (8 cited non-Wikidata sources + portrait records): NASM remembrance, National Archives Friendship 7 page, NASM Friendship 7 hatch record, This Day in Aviation 16 July 1957, AmericaSpace Mercury flight Parts 1 and 2, AmericaSpace STS-95 Parts 1 and 2, Smithsonian Magazine remembrance; also read but not cited: history.com '7 things' and the start of the JFK Library JFK35 episode transcript. NOT opened: NASA SP-4201 'This New Ocean' (URL not found), the NASA/JSC oral histories, Glenn's memoirs (only as quoted in AmericaSpace), Wolfe 'The Right Stuff', the full Friendship 7 flight transcript. PERSPECTIVES: museum/archive institutions (NASM, National Archives); spaceflight-history press with named contemporaries (Kranz, Kraft, Faget; Musgrave and the 'publicity stunt' critics on STS-95); aviation-history website (Project Bullet); admiring friends' remembrance (Smithsonian Magazine); Glenn's own memoir only as quoted and never sole support. COUNTER-VOICES: Kraft's reservations about the retropack plan, the critics of STS-95 (not an assessment of his conduct in itself). CALIBRATION: sources are largely admiring or retrospective, with no deeply adversarial source read, so the highest score is 68 and highest confidence 0.56; six rows, no padding. SELF-CALIBRATION (agent): reviewed persistence (kept; already modest), curiosity (lowered 60/0.48 to 54/0.42) and adaptability (kept: manual flight is documented by both the Archives and press, though admiring in tone). BROAD FLAG: all sources lean admiring; consider this profile low-evidence-depth for adversarial corroboration. PORTRAIT: NASA official portrait S62-05540 (Dec 1962), public domain NASA work, no third-party credit; downscaled only."
+  }
+}

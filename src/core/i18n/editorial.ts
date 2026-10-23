@@ -8357,6 +8357,287 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1896, near his thirtieth birthday, he turned down a law professorship at Dorpat and went to Munich to become a painter, after studying law and economics and working in a printing house; Britannica draws partly on his own later recollection.",
   "wassily-kandinsky.interpretation.turning_point.1":
     "Consistent with a willingness to change course late and stay with a new path, though the evidence rests partly on his own recollection.",
+  /* ---------------------------------------------------------- a-r-rahman (Roster53) */
+  "a-r-rahman.achievement.1":
+    "Rahman scored Mani Ratnam's 1992 Tamil film Roja, his debut as a film composer, and won the National Film Award for music direction. The Fukuoka Prize profile notes that Time later rated the soundtrack among its all-time top ten.",
+  "a-r-rahman.achievement.2":
+    "He composed the score and songs for Slumdog Millionaire (2008) and won two Academy Awards in 2009, for Best Original Score and Best Original Song, plus a BAFTA, a Golden Globe and two Grammys.",
+  "a-r-rahman.achievement.3":
+    "Rahman became music director for over 50 films, including work for Mani Ratnam and other Indian directors, wrote the stage musical Bombay Dreams with Andrew Lloyd Webber, and founded the KM Music Conservatory in Chennai in 2008.",
+  "a-r-rahman.moment.1":
+    "For Slumdog Millionaire's Jai Ho sequence, filmed to a different song, Rahman wrote an original track to fit the footage, and when Danny Boyle asked for more strings he reportedly arranged them and played them back the same day.",
+  "a-r-rahman.interpretation.moment.1":
+    "This account, which is Rahman's own, is consistent with a collaborator who works fast and adjusts to a director's notes.",
+  "a-r-rahman.moment.2":
+    "After his 2010 Commonwealth Games theme drew widespread criticism, he rearranged the song days before the event, according to a 2022 retrospective.",
+  "a-r-rahman.interpretation.moment.2":
+    "The episode is consistent with a composer who reworks a piece under criticism, though the reception of such work was uneven.",
+  "a-r-rahman.turning_point.1":
+    "After Mani Ratnam visited his studio and then stayed silent for months, he offered Rahman Thiruda Thiruda and then Roja; Roja became a national phenomenon and his film debut.",
+  "a-r-rahman.interpretation.turning_point.1":
+    "The sequence is consistent with a jingle composer whose self-built studio and body of work created the opening for his film career.",
+  /* ---------------------------------------------------------- alan-kay (Roster53) */
+  "alan-kay.achievement.1":
+    "Proposed the Dynabook, a portable, networked personal computer that anyone, including children, could use, at a time when computers were getting larger; Britannica notes he never built it, but its ideas later appeared in laptops and tablets.",
+  "alan-kay.achievement.2":
+    "Led Xerox PARC's Learning Research Group, which with Dan Ingalls, Adele Goldberg and others developed Smalltalk from 1972, an object-oriented programming and authoring environment that fed into graphical personal computing.",
+  "alan-kay.achievement.3":
+    "Received the 2003 ACM Turing Award for object-oriented programming languages and personal computing, and later founded Viewpoints Research Institute, a non-profit for children and learning.",
+  "alan-kay.moment.1":
+    "After Jerry Elkind criticised his 1972 proposal and Bill English advised him to write research plans and budgets, Kay drafted a detailed plan for a smaller first step and won a $230,000 appropriation, according to Hiltzik.",
+  "alan-kay.interpretation.moment.1":
+    "This is consistent with revising his approach in response to criticism while keeping his larger goal.",
+  "alan-kay.moment.2":
+    "Learning Research Group colleagues recalled that Kay had programmers play recorders, violas and ukuleles so they would understand what it was like to be a beginner.",
+  "alan-kay.interpretation.moment.2":
+    "This is consistent with a team-building style aimed at keeping systems usable by non-experts.",
+  "alan-kay.turning_point.1":
+    "In 1972 Kay joined Xerox PARC and worked on Smalltalk for educational applications, moving his earlier FLEX and Dynabook ideas into a team-built working system.",
+  "alan-kay.interpretation.turning_point.1":
+    "This is consistent with a shift from individual concept work toward team-based implementation aimed at learners.",
+  /* ---------------------------------------------------------- antonio-vivaldi (Roster53) */
+  "antonio-vivaldi.achievement.1":
+    "Composed hundreds of concertos and is credited with standardising ritornello form and the fast-slow-fast concerto.",
+  "antonio-vivaldi.achievement.2":
+    "Published landmark concerto collections such as L'estro armonico and Il cimento dell'armonia e dell'inventione, which includes The Four Seasons.",
+  "antonio-vivaldi.achievement.3":
+    "Taught violin and wrote for the Ospedale della Pieta in Venice, whose orchestra gained an international reputation under him.",
+  "antonio-vivaldi.moment.1":
+    "Hired by the Pieta in 1703, he wrote concertos tailored to named players there and, by one account, two concertos a month for its orchestra.",
+  "antonio-vivaldi.interpretation.moment.1":
+    "This is consistent with fast, steady working output fitted closely to the performers at hand.",
+  "antonio-vivaldi.moment.2":
+    "In Goldoni's retelling, Vivaldi insisted his singer could perform any aria, demanded a replacement aria on the spot, then embraced the librettist when it pleased him.",
+  "antonio-vivaldi.interpretation.moment.2":
+    "Consistent with a forceful, hands-on style in working with collaborators, though the account is a later and dramatised one.",
+  "antonio-vivaldi.turning_point.1":
+    "After the governors voted 7 to 6 against keeping him in 1709, he was reinstated in 1711 and went on to become the Pieta's music director.",
+  "antonio-vivaldi.interpretation.turning_point.1":
+    "Consistent with a career that recovered quickly from an institutional setback and then grew in responsibility.",
+  /* ---------------------------------------------------------- astor-piazzolla (Roster53) */
+  "astor-piazzolla.achievement.1":
+    "Reinvented the Argentine tango as 'nuevo tango', blending it with jazz and classical composition and writing tangos to be listened to rather than danced.",
+  "astor-piazzolla.achievement.2":
+    "Studied composition with Alberto Ginastera and Nadia Boulanger, then built his own groups, from the Octeto Buenos Aires to the Quintet, around his tango and the bandoneon as a virtuoso solo instrument.",
+  "astor-piazzolla.achievement.3":
+    "Wrote landmark works including 'Adios Nonino', the tango-opera 'Maria de Buenos Aires' and 'Five Tango Sensations', and gained wide recognition abroad in the 1980s.",
+  "astor-piazzolla.moment.1":
+    "In a 1954 magazine interview he answered critics by calling his music contemporary music of Buenos Aires and saying he was an enemy only of the tango that traditionalists still believed in.",
+  "astor-piazzolla.interpretation.moment.1":
+    "Consistent with a willingness to defend his own musical direction in public against the established tango world.",
+  "astor-piazzolla.moment.2":
+    "His 1968 tango-opera 'Maria de Buenos Aires', written with Horacio Ferrer, was ambitious and controversial and nearly bankrupted him; he is quoted saying it was better to be broke with it than flush with garbage.",
+  "astor-piazzolla.interpretation.moment.2":
+    "Consistent with accepting financial risk for an artistic goal.",
+  "astor-piazzolla.turning_point.1":
+    "In Paris in 1954-55 Nadia Boulanger found his concert works skilful but lacking feeling and recognised his tango 'Triunfal' as 'the true Piazzolla', after which he combined tango with classical music in his own groups.",
+  "astor-piazzolla.interpretation.turning_point.1":
+    "Consistent with a creative direction found by joining his tango background to formal training rather than leaving one for the other.",
+  /* ---------------------------------------------------------- edward-o-wilson (Roster53) */
+  "edward-o-wilson.achievement.1":
+    "Wilson earned his Harvard doctorate in 1955 on the ant genus Lasius and became the leading authority on ants; according to National Geographic and Nature he catalogued hundreds of new species and, from fieldwork in Melanesia and the Caribbean, proposed the taxon cycle of range expansion and restriction.",
+  "edward-o-wilson.achievement.2":
+    "With Robert MacArthur he published The Theory of Island Biogeography (1967), linking an island's size to the number of species it supports; National Geographic says the idea was later applied to mainland reserves and became a cornerstone of conservation biology.",
+  "edward-o-wilson.achievement.3":
+    "His 1975 book Sociobiology: The New Synthesis set out to study the evolution of social behavior across species and drew sharp criticism for its final chapter on humans; Nature credits later books including Biophilia and the Pulitzer-winning The Ants (1990) with bringing biodiversity into the mainstream.",
+  "edward-o-wilson.moment.1":
+    "After the 1975 letter from Gould, Lewontin and others linked Sociobiology to biological determinism, Wilson answered with the more provocative On Human Nature (1978) rather than retreating, according to Nature and to critical historians in the New York Review of Books.",
+  "edward-o-wilson.interpretation.moment.1":
+    "This episode is consistent with a willingness to hold a contested position under sustained public opposition, which his critics read as hardening and his collaborator as intellectual courage.",
+  "edward-o-wilson.moment.2":
+    "In 2010, working with mathematicians, Wilson disavowed a central tenet of his earlier work on how genetic relatedness drives insect societies; the Harvard Gazette says this sparked a debate in Nature, and his co-author Bert Holldobler says he himself disagreed with the change.",
+  "edward-o-wilson.interpretation.moment.2":
+    "This is consistent with a readiness to revise a theory he had helped establish, though colleagues who knew his work disputed the revision itself.",
+  "edward-o-wilson.turning_point.1":
+    "The 1975 publication of Sociobiology: The New Synthesis moved Wilson from ant specialist to a public figure at the center of a debate over biology and human behavior, and his later books reached general readers.",
+  "edward-o-wilson.interpretation.turning_point.1":
+    "The shift is consistent with a drive to extend detailed specialist knowledge into a unifying account for wider audiences.",
+  /* ---------------------------------------------------------- eliud-kipchoge (Roster53) */
+  "eliud-kipchoge.achievement.1":
+    "Kipchoge won ten consecutive major marathons between 2014 and 2019, according to Outside, and ran a world record of 2:01:39 at the 2018 Berlin Marathon, the year World Athletics named him its male athlete of the year.",
+  "eliud-kipchoge.achievement.2":
+    "Kipchoge won the 2003 world 5000 m title, then Olympic 5000 m bronze in 2004 and silver in 2008, and moved to the marathon after missing the 2012 Olympics, winning Olympic marathon gold in 2016 in 2:08:44.",
+  "eliud-kipchoge.achievement.3":
+    "On 12 October 2019 in Vienna, Kipchoge ran 1:59:40.2 in the INEOS 1:59 Challenge, the first marathon distance under two hours; it did not count as a world record because pacemakers rotated and a pace car guided him, CBS Sports reported, and his 2017 Monza attempt of 2:00:25 did not count either.",
+  "eliud-kipchoge.moment.1":
+    "Outside reports that before every race Kipchoge spends about four months in Kaptagat on slight variations of the same workouts, that he wakes at 5:45 a.m. and is in bed by 9 p.m., and that since 2003 he has logged each run's time, distance, massage, exercises and shoes in notebooks, 18 of which he now keeps.",
+  "eliud-kipchoge.interpretation.moment.1":
+    "This is consistent with sustained adherence to a fixed training routine.",
+  "eliud-kipchoge.moment.2":
+    "People Daily reports that on the treatment table the day after his 1:59:40 run in Vienna, which was not a world record because of rotating pacemakers, Kipchoge told his physiotherapist: 'Now, the next thing. Make it official.'",
+  "eliud-kipchoge.interpretation.moment.2":
+    "This is consistent with turning an unofficial result straight into the next goal.",
+  "eliud-kipchoge.turning_point.1":
+    "People Daily reports that Kipchoge failed to qualify for the 2012 London Olympics as a track athlete and moved to the marathon, winning the Rio 2016 Olympic marathon four years later and, per the same profile, 11 of his first 12 marathons.",
+  "eliud-kipchoge.interpretation.turning_point.1":
+    "This is consistent with redirecting his career after a setback rather than leaving the sport.",
+  /* ---------------------------------------------------------- geoffrey-hinton (Roster53) */
+  "geoffrey-hinton.achievement.1":
+    "Shared the 2024 Nobel Prize in Physics with John Hopfield for foundational discoveries enabling machine learning with artificial neural networks; he built the Boltzmann machine on Hopfield's network.",
+  "geoffrey-hinton.achievement.2":
+    "Co-authored the 1986 backpropagation paper with Rumelhart and Williams that popularised the method, and shared the 2019 Turing Award with LeCun and Bengio.",
+  "geoffrey-hinton.achievement.3":
+    "Kept neural-network research going through the 1990s when interest waned; in 2012 his Toronto lab's AlexNet, built by his students Sutskever and Krizhevsky, led researchers to adopt neural networks widely.",
+  "geoffrey-hinton.moment.1":
+    "In 2017 he published two papers introducing capsule networks, an approach described as decades in the making and meant to recognise objects with less data.",
+  "geoffrey-hinton.interpretation.moment.1":
+    "Consistent with a habit of proposing new network architectures rather than only refining existing ones.",
+  "geoffrey-hinton.moment.2":
+    "Former students recall that in meetings Hinton shared his own latest ideas and results to inspire them, and worked to remove barriers for them.",
+  "geoffrey-hinton.interpretation.moment.2":
+    "Consistent with a supervisory style built on shared work rather than progress checks, as his alumni describe it.",
+  "geoffrey-hinton.turning_point.1":
+    "In 2012 Hinton and his students Sutskever and Krizhevsky entered the ImageNet contest with a convolutional network trained on GPUs; their paper became among the most cited ever, and before it few researchers used neural networks and afterwards almost all did.",
+  "geoffrey-hinton.interpretation.turning_point.1":
+    "Consistent with long-sustained work on neural networks meeting the data and hardware that let it succeed.",
+  /* ---------------------------------------------------------- jimi-hendrix (Roster53) */
+  "jimi-hendrix.achievement.1":
+    "With bassist Noel Redding and drummer Mitch Mitchell as the Jimi Hendrix Experience, he recorded Are You Experienced and Axis: Bold as Love in 1967 and Electric Ladyland in 1968. The Library of Congress added the first album to the National Recording Registry in 2005.",
+  "jimi-hendrix.achievement.2":
+    "Hendrix turned feedback and distortion into expressive parts of electric guitar playing, blending blues with extended improvisation and psychedelic sound. Smithsonian magazine calls the idea that feedback could be as useful as a clean note radical at the time.",
+  "jimi-hendrix.achievement.3":
+    "His 1967 Monterey Pop set was his breakout in the United States. The Rock Hall says the band embraced studio technology such as panning, backmasking and phasing, inducted the Experience in 1992, and credits it with influencing funk, glam and metal.",
+  "jimi-hendrix.moment.1":
+    "The Watchtower sessions took about 27 takes; Hendrix cut Brian Jones's piano part after a couple of takes ('No, I don't think so, Brian') and pressed Dave Mason on the second rhythm guitar part until it was right, according to engineer Eddie Kramer.",
+  "jimi-hendrix.interpretation.moment.1":
+    "This account by one engineer is consistent with a musician who held out for the sound he wanted at the cost of session time.",
+  "jimi-hendrix.moment.2":
+    "On Electric Ladyland, Kramer placed microphones around the room and recorded Hendrix singing live as he played, so the room's resonance is audible on Voodoo Child.",
+  "jimi-hendrix.interpretation.moment.2":
+    "The engineer's account is consistent with studio work that tried unconventional recording set-ups rather than a standard layout.",
+  "jimi-hendrix.turning_point.1":
+    "At the Monterey International Pop Festival in June 1967, his first major US appearance, a crowd that mostly did not know him heard a breakout set that opened with Killing Floor and closed with Wild Thing.",
+  "jimi-hendrix.interpretation.turning_point.1":
+    "The set is consistent with a technically assured guitarist whose developing style reached a large audience at once.",
+  /* ---------------------------------------------------------- john-glenn (Roster53) */
+  "john-glenn.achievement.1":
+    "On 20 February 1962 flew Friendship 7 on three orbits of the Earth, becoming the first American to orbit the planet, after the autopilot failed and he flew manually.",
+  "john-glenn.achievement.2":
+    "A Marine fighter pilot in World War II and Korea who became a Navy test pilot, in 1957 flew a Crusader from Los Angeles to New York in 3 hours 23 minutes (Project Bullet), described as the first supersonic transcontinental flight.",
+  "john-glenn.achievement.3":
+    "In October-November 1998 flew on Space Shuttle STS-95 at age 77, a mission studying the effects of spaceflight on the aging body; the museum says he remains the oldest person to have flown in space.",
+  "john-glenn.moment.1":
+    "During re-entry of Friendship 7, told to keep the retropack on over a possibly loose heat shield, Glenn damped the capsule's oscillations by hand through the communications blackout while debris streamed past the window.",
+  "john-glenn.interpretation.moment.1":
+    "This is consistent with an ability to adjust method and keep working when automatic systems and plans were uncertain.",
+  "john-glenn.turning_point.1":
+    "After years as a Marine and Navy test pilot, including the 1957 Project Bullet flight, Glenn was selected by NASA in 1959 as one of the original Mercury astronauts.",
+  "john-glenn.interpretation.turning_point.1":
+    "This is consistent with a career built around test flying and technical project work that led into spaceflight.",
+  /* ---------------------------------------------------------- kazuo-ishiguro (Roster53) */
+  "kazuo-ishiguro.achievement.1":
+    "Wrote restrained, memory-driven novels including An Artist of the Floating World, The Remains of the Day, Never Let Me Go and The Buried Giant.",
+  "kazuo-ishiguro.achievement.2":
+    "Won the 1989 Booker Prize for The Remains of the Day, a novel narrated by an English butler.",
+  "kazuo-ishiguro.achievement.3":
+    "Awarded the 2017 Nobel Prize in Literature for novels 'of great emotional force' that uncovered 'the abyss beneath our illusory sense of connection with the world'.",
+  "kazuo-ishiguro.moment.1":
+    "He began Never Let Me Go as a 1950s lounge-singer story, then switched to a cloning premise after a dinner conversation and a year later abandoned the original setting.",
+  "kazuo-ishiguro.interpretation.moment.1":
+    "This is consistent with a willingness to change course on a project when a stronger framework appears.",
+  "kazuo-ishiguro.moment.2":
+    "His archive at the Harry Ransom Center holds thousands of preparatory notes and drafts for each novel, kept by a writer described as working slowly.",
+  "kazuo-ishiguro.interpretation.moment.2":
+    "Consistent with a slow, repeated reworking of each book before publication.",
+  "kazuo-ishiguro.turning_point.1":
+    "In Never Let Me Go he moved away from the guarded narrators of his earlier books, a shift the profile calls his most radical stylistic departure.",
+  "kazuo-ishiguro.interpretation.turning_point.1":
+    "Consistent with a readiness to change his own established formal approach rather than repeat it.",
+  /* ---------------------------------------------------------- lynn-margulis (Roster53) */
+  "lynn-margulis.achievement.1":
+    "In a 1967 paper in the Journal of Theoretical Biology, Margulis argued that mitochondria and chloroplasts descend from bacteria taken into host cells, reviving a symbiosis idea that Konstantin Merezhkovsky had proposed in 1905. Knoll and EBSCO both report that some fifteen journals rejected the paper before it was published; EBSCO says she later drew 'enormous hostility' for it.",
+  "lynn-margulis.achievement.2":
+    "Knoll writes that she restated the idea in cell and molecular terms, which made it testable, and that later work showed both organelles are membrane-enclosed and carry their own DNA, with chloroplast genes grouping with free-living cyanobacteria and mitochondria nesting within the proteobacteria. He counts it among the great advances of 20th-century science. She was elected to the National Academy of Sciences in 1983 and received the National Medal of Science in 1999.",
+  "lynn-margulis.achievement.3":
+    "Margulis backed James Lovelock's Gaia hypothesis and tied it to an alternative biology built on cooperation, arguing that symbiosis drives the origin of new species. Knoll says most biologists now accept a larger role for cooperation but few agree that symbiosis drives speciation, and that her claim that flagella arose from symbiotic bacteria never gained strong support; THE reports that Richard Dawkins was openly hostile and most scientists regarded Gaia as unnecessary.",
+  "lynn-margulis.moment.1":
+    "Margulis's 1967 endosymbiosis paper was rejected by some fifteen journals before it appeared in the Journal of Theoretical Biology, and EBSCO says she continued to travel widely to present and defend the theory despite hostility from the scientific community.",
+  "lynn-margulis.interpretation.moment.1":
+    "This is consistent with sustained effort to keep a rejected idea alive over many years.",
+  "lynn-margulis.moment.2":
+    "Knoll writes that she rejected basic tenets of evolutionary theory in building an alternative biology around cooperation and symbiosis, and that her claim that flagella arose from symbiotic bacteria never gained strong support; in her last interview, he reports, she said she did not consider her ideas controversial but right.",
+  "lynn-margulis.interpretation.moment.2":
+    "This is consistent with holding to her own view of evolution against most of her field, with mixed results.",
+  "lynn-margulis.turning_point.1":
+    "Margulis's 1967 paper was followed by her 1970 book Origin of Eukaryotic Cells and her 1981 Symbiosis in Cell Evolution, while later chloroplast and mitochondrial gene sequences, in Knoll's account, placed the organelles among bacterial lineages. The idea moved from a rejected proposal to, in Nature's words, a widely accepted crucial step in the evolution of complex cells.",
+  "lynn-margulis.interpretation.turning_point.1":
+    "This is consistent with an idea moving from rejection to acceptance as testable evidence accumulated around it.",
+  /* ---------------------------------------------------------- oliver-sacks (Roster53) */
+  "oliver-sacks.achievement.1":
+    "As consulting neurologist at Beth Abraham Hospital in the Bronx, Sacks treated postencephalitic patients, many frozen for decades after the 1916-1927 sleeping-sickness epidemic, with L-dopa from spring 1969. Many recovered dramatically but often only for a time. His book Awakenings (1973) set out twenty case histories, and a 1987 edition added an epilogue updating them; the 1990 film adaptation was nominated for three Oscars including Best Picture.",
+  "oliver-sacks.achievement.2":
+    "Sacks wrote clinical case histories as narrative, beginning with Migraine (1970) and continuing with The Man Who Mistook His Wife for a Hat, An Anthropologist on Mars and Musicophilia, covering conditions such as Tourette's syndrome, aphasia and autism. The Oliver Sacks Foundation says his approach looked at how each individual coped and adapted rather than fitting patients into a diagnostic category, and that he is often credited as a forerunner of the neurodiversity movement.",
+  "oliver-sacks.achievement.3":
+    "Sacks was a professor of clinical neurology at Albert Einstein College of Medicine, then a professor at Columbia University Medical Center (2007-2012, where the Foundation says he was its first 'Columbia University Artist') and at NYU School of Medicine (2012-2015). A regular contributor to The New Yorker and The New York Review of Books, he received Rockefeller University's Lewis Thomas Prize in 2002.",
+  "oliver-sacks.moment.1":
+    "For Awakenings Sacks kept detailed notes, encouraged patients to keep journals and wrote twenty biographical case histories of postencephalitic patients on L-dopa. EBSCO notes that a 1987 edition added an epilogue updating those cases since 1973.",
+  "oliver-sacks.interpretation.moment.1":
+    "This is consistent with sustained, long-running attention to the same patients.",
+  "oliver-sacks.moment.2":
+    "Commentators summarising Rachel Aviv's December 2025 New Yorker article say Sacks's journals and letters suggest that the Rilke 'caged panther' image he attributed to the patient Leonard in Awakenings was his own, and that the recovery he reported for 'Rebecca' in The Man Who Mistook His Wife for a Hat is contradicted by his journals. Colin McGinn says he had raised embellishment in his 1986 London Review of Books review.",
+  "oliver-sacks.interpretation.moment.2":
+    "This is consistent with narrative appeal outweighing fidelity to what was observed in some early case histories, which the commentators read as confabulation rather than deliberate lying.",
+  "oliver-sacks.turning_point.1":
+    "About a year out of residency in 1969, Sacks began giving L-dopa to postencephalitic patients at Beth Abraham. His first book, Migraine, followed in 1970 and Awakenings in 1973, after which he wrote for general readers alongside clinical practice and teaching.",
+  "oliver-sacks.interpretation.turning_point.1":
+    "This is consistent with a widening of his work from clinical practice into writing for general readers.",
+  /* ---------------------------------------------------------- phil-knight (Roster53) */
+  "phil-knight.achievement.1":
+    "Co-founded Blue Ribbon Sports in 1964 with his Oregon track coach Bill Bowerman, starting by importing Onitsuka Tiger running shoes.",
+  "phil-knight.achievement.2":
+    "Renamed the company Nike in 1971, took it public in 1980, and led it as CEO until 2004 and chair until 2016.",
+  "phil-knight.achievement.3":
+    "Signed Michael Jordan in 1984, a deal Britannica says transformed sports marketing and launched the Air Jordan line.",
+  "phil-knight.moment.1":
+    "In the 1970s the young company wrote checks against insufficient funds and relied on 'the float' until its bank ended the relationship and Nissho Iwai rescued it, according to a review of an unauthorised book.",
+  "phil-knight.interpretation.moment.1":
+    "This is consistent with a high tolerance for financial risk during the company's early growth.",
+  "phil-knight.moment.2":
+    "After the Stanford class paper, Knight went to Japan in 1962 and, per a review of Swoosh, presented himself as an American importer to win a meeting with Onitsuka.",
+  "phil-knight.interpretation.moment.2":
+    "This is consistent with acting quickly on a market gap he had identified.",
+  "phil-knight.turning_point.1":
+    "In 1969 Knight left his accounting and teaching jobs to focus on the company, and in 1971 it split from Onitsuka and became Nike.",
+  "phil-knight.interpretation.turning_point.1":
+    "This is consistent with a willingness to stake his own career on the venture.",
+  /* ---------------------------------------------------------- sylvia-earle (Roster53) */
+  "sylvia-earle.achievement.1":
+    "For her 1966 Duke doctorate Earle collected more than 20,000 algae samples to catalogue Gulf of Mexico plant life, one of the first scientists to use SCUBA to study marine life directly, according to the National Women's History Museum; Britannica describes her as celebrated for research on marine algae.",
+  "sylvia-earle.achievement.2":
+    "In 1970 Earle led the first all-female team of aquanauts in the Tektite II underwater-habitat experiment off the US Virgin Islands, and on 19 September 1979 she descended to 381 m in a pressurized Jim suit, which Britannica and Guinness describe as the deepest untethered dive.",
+  "sylvia-earle.achievement.3":
+    "Earle and engineer Graham Hawkes founded Deep Ocean Engineering in the early 1980s and designed the Deep Rover submersible; she served as NOAA chief scientist in 1990-92, the first woman in the post, and in 2009 founded Mission Blue, whose Hope Spots network seeks protection for ocean areas, though a recent feature notes Hope Spot status is not legal protection.",
+  "sylvia-earle.moment.1":
+    "The Mariners' Museum records that Earle's 1970 Tektite II crew documented 154 marine plant species, 26 of them not previously recorded in the Virgin Islands, and that on a 1964 expedition she named a newly found plant Humbrella after her mentor.",
+  "sylvia-earle.interpretation.moment.1":
+    "This is consistent with an exploratory, cataloguing curiosity about the natural world.",
+  "sylvia-earle.moment.2":
+    "Duke's profile says Earle reached 3,281 feet in 1986 aboard Deep Rover, the submersible she helped design, and that it remains the deepest solo dive by a woman; the National Women's History Museum says she detached from a submersible in a pressurized suit in 1979 and explored the sea floor for two and a half hours.",
+  "sylvia-earle.interpretation.moment.2":
+    "This is consistent with accepting substantial physical risk in pursuit of exploration, using purpose-built equipment.",
+  "sylvia-earle.turning_point.1":
+    "Encyclopedia.com reports that when SCUBA's depth limits constrained her work, Earle and engineer Graham Hawkes founded Deep Ocean Technology and Deep Ocean Engineering in 1981 and sketched the Deep Rover design on a paper napkin.",
+  "sylvia-earle.interpretation.turning_point.1":
+    "This is consistent with building her own tools when existing equipment limited her research.",
+  /* ---------------------------------------------------------- tadao-ando (Roster53) */
+  "tadao-ando.achievement.1":
+    "Self-taught without formal architectural training, he built an architecture of smooth poured concrete, simple geometry and natural light.",
+  "tadao-ando.achievement.2":
+    "Won the Pritzker Architecture Prize in 1995; the jury praised work that 'both serve[s] and inspire[s]' and a 'powerful inner vision'.",
+  "tadao-ando.achievement.3":
+    "Designed landmark works such as the Row House in Sumiyoshi, the Church of the Light, and the Chichu Art Museum on Naoshima.",
+  "tadao-ando.moment.1":
+    "For the Chichu Art Museum on Naoshima, the building was largely sunk into the hillside, with every artwork to be lit by natural light.",
+  "tadao-ando.interpretation.moment.1":
+    "This is consistent with a sustained sensitivity to light and spatial atmosphere.",
+  "tadao-ando.moment.2":
+    "In the Row House in Sumiyoshi (1976), a windowless concrete front hid a roofless courtyard that residents had to cross to move between rooms.",
+  "tadao-ando.interpretation.moment.2":
+    "This is consistent with a willingness to put an original idea ahead of conventional convenience.",
+  "tadao-ando.turning_point.1":
+    "In 1969, at 28, he opened his own practice in Osaka rather than Tokyo, and the Row House in Sumiyoshi (1976) then brought him wide recognition.",
+  "tadao-ando.interpretation.turning_point.1":
+    "This is consistent with a self-directed career path built outside the usual route.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -16567,6 +16848,287 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1896년, 서른 살을 앞둔 그는 법학·경제학을 공부하고 인쇄소에서 일한 뒤 도르파트 대학의 법학 교수 자리를 거절하고 화가가 되려고 뮌헨으로 갔습니다. 브리태니커는 이 대목에서 그의 후년 회고를 일부 활용합니다.",
   "wassily-kandinsky.interpretation.turning_point.1":
     "늦은 나이에 방향을 바꾸고 새 길을 이어 간 태도와 부합하지만, 근거의 일부는 그 자신의 회고에 있습니다.",
+  /* ---------------------------------------------------------- a-r-rahman (Roster53) */
+  "a-r-rahman.achievement.1":
+    "라만은 1992년 마니 라트남 감독의 타밀 영화 「로자」의 음악으로 영화음악가로 데뷔해 국가영화상 음악감독상을 받았다. 후쿠오카상 소개문은 이 사운드트랙이 훗날 타임지의 역대 영화 사운드트랙 10선에 꼽혔다고 전한다.",
+  "a-r-rahman.achievement.2":
+    "그는 영화 「슬럼독 밀리어네어」(2008)의 음악을 맡아 2009년 아카데미 작곡상과 주제가상을 받았고, BAFTA, 골든글로브, 그래미상 2개도 수상했다.",
+  "a-r-rahman.achievement.3":
+    "라만은 마니 라트남을 비롯한 여러 인도 감독의 영화 50편 이상에서 음악감독을 맡았고, 앤드루 로이드 웨버와 뮤지컬 「봄베이 드림스」를 작업했으며, 2008년 첸나이에 KM 음악원을 설립했다.",
+  "a-r-rahman.moment.1":
+    "다른 곡에 맞춰 이미 촬영된 「슬럼독 밀리어네어」의 '자이 호' 장면을 위해 라만은 영상에 맞는 새 곡을 썼고, 대니 보일이 현악을 더 요청하자 같은 날 편곡해 들려준 것으로 전해진다.",
+  "a-r-rahman.interpretation.moment.1":
+    "라만 본인의 이 설명은 감독의 의견에 맞춰 빠르게 작업을 조정하는 협업자의 모습과 부합한다.",
+  "a-r-rahman.moment.2":
+    "2010년 영연방경기대회 주제곡이 널리 비판받자, 2022년 회고 기사에 따르면 그는 대회 며칠 전에 곡을 다시 편곡했다.",
+  "a-r-rahman.interpretation.moment.2":
+    "이 일화는 비판을 받은 곡을 다시 손보는 작곡가의 면모와 부합하지만, 이런 작업에 대한 평가는 엇갈렸다.",
+  "a-r-rahman.turning_point.1":
+    "마니 라트남이 그의 스튜디오를 찾은 뒤 몇 달 동안 연락이 없다가 「티루다 티루다」에 이어 「로자」를 맡기면서, 「로자」는 전국적 현상이 되었고 그의 영화 데뷔작이 되었다.",
+  "a-r-rahman.interpretation.turning_point.1":
+    "이 흐름은 스스로 갖춘 스튜디오와 작업물이 영화음악 경력의 기회를 만든 광고 음악가의 모습과 부합한다.",
+  /* ---------------------------------------------------------- alan-kay (Roster53) */
+  "alan-kay.achievement.1":
+    "컴퓨터가 점점 커지던 시기에 어린이를 포함한 누구나 쓸 수 있는 휴대용 네트워크 개인용 컴퓨터 '다이나북'을 구상했다. 브리태니커는 그가 직접 만들지는 않았지만 그 아이디어가 이후 노트북과 태블릿으로 이어졌다고 설명한다.",
+  "alan-kay.achievement.2":
+    "제록스 PARC의 러닝 리서치 그룹을 이끌며 댄 잉걸스, 아델 골드버그 등과 함께 1972년부터 객체지향 프로그래밍·저작 환경 스몰토크를 개발했고, 이는 그래픽 기반 개인용 컴퓨팅으로 이어졌다.",
+  "alan-kay.achievement.3":
+    "객체지향 프로그래밍 언어와 개인용 컴퓨팅에 대한 공로로 2003년 ACM 튜링상을 받았고, 이후 어린이와 학습을 위한 비영리 연구소 뷰포인츠 리서치 인스티튜트를 세웠다.",
+  "alan-kay.moment.1":
+    "히르칙에 따르면, 제리 엘킨드가 1972년 그의 제안을 비판하고 빌 잉글리시가 연구 계획서와 예산을 쓰라고 조언하자, 케이는 더 작은 첫 단계의 상세 계획을 작성해 23만 달러의 예산을 확보했다.",
+  "alan-kay.interpretation.moment.1":
+    "이는 더 큰 목표를 유지하면서도 비판에 맞춰 접근법을 수정하는 태도와 일치한다.",
+  "alan-kay.moment.2":
+    "러닝 리서치 그룹 동료들은 케이가 프로그래머들에게 리코더, 비올라, 우쿨렐레를 연주하게 해 초심자가 어떤 느낌인지 이해하도록 했다고 회상했다.",
+  "alan-kay.interpretation.moment.2":
+    "이는 비전문가도 쓸 수 있는 시스템을 지향하는 팀 운영 방식과 일치한다.",
+  "alan-kay.turning_point.1":
+    "1972년 제록스 PARC에 합류해 교육용 스몰토크 작업을 하면서, 앞서 구상한 플렉스와 다이나북 아이디어를 팀이 만드는 실제 시스템으로 옮겼다.",
+  "alan-kay.interpretation.turning_point.1":
+    "이는 개인 구상 단계에서 학습자를 겨냥한 팀 기반 구현으로 옮겨 간 흐름과 일치한다.",
+  /* ---------------------------------------------------------- antonio-vivaldi (Roster53) */
+  "antonio-vivaldi.achievement.1":
+    "수백 곡의 협주곡을 작곡했으며, 리토르넬로 형식과 빠름-느림-빠름의 협주곡 구조를 정착시킨 인물로 평가받는다.",
+  "antonio-vivaldi.achievement.2":
+    "《조화의 영감》과 《화성과 창의에의 시도》 등 대표 협주곡집을 출판했으며, 후자에 《사계》가 수록되어 있다.",
+  "antonio-vivaldi.achievement.3":
+    "베네치아 피에타 고아원에서 바이올린을 가르치고 작곡했으며, 그의 지도 아래 이 악단은 국제적 명성을 얻었다.",
+  "antonio-vivaldi.moment.1":
+    "1703년 피에타에 고용된 그는 그곳의 특정 연주자들을 위한 협주곡을 썼고, 한 설명에 따르면 악단을 위해 한 달에 두 곡씩 협주곡을 썼다.",
+  "antonio-vivaldi.interpretation.moment.1":
+    "이는 눈앞의 연주자에 맞춘 빠르고 꾸준한 작업 방식과 일치한다.",
+  "antonio-vivaldi.moment.2":
+    "골도니의 회고에 따르면 비발디는 자신의 가수가 어떤 아리아도 부를 수 있다고 주장하며 그 자리에서 새 아리아를 요구했고, 마음에 들자 대본가를 얼싸안았다.",
+  "antonio-vivaldi.interpretation.moment.2":
+    "협업자를 대하는 단호하고 직접적인 방식과 일치하지만, 이 기록은 나중에 극적으로 쓰인 것이다.",
+  "antonio-vivaldi.turning_point.1":
+    "1709년 운영진이 7대 6으로 그의 재임용을 부결했으나, 1711년 복직되어 이후 피에타의 음악 책임자 자리에 올랐다.",
+  "antonio-vivaldi.interpretation.turning_point.1":
+    "제도적 좌절에서 빠르게 회복한 뒤 책임이 커진 경력과 일치한다.",
+  /* ---------------------------------------------------------- astor-piazzolla (Roster53) */
+  "astor-piazzolla.achievement.1":
+    "아르헨티나 탱고를 재즈와 클래식 작곡 기법과 결합한 '누에보 탱고'로 새롭게 만들고, 춤이 아닌 감상을 위한 탱고를 썼다.",
+  "astor-piazzolla.achievement.2":
+    "알베르토 히나스테라와 나디아 불랑제에게 작곡을 배운 뒤, 옥테토 부에노스아이레스에서 퀸텟에 이르기까지 자신의 탱고와 독주 악기로서의 반도네온을 중심으로 직접 악단을 꾸렸다.",
+  "astor-piazzolla.achievement.3":
+    "'아디오스 노니노', 탱고 오페라 '부에노스아이레스의 마리아', '탱고의 다섯 가지 감각' 등 대표작을 남겼고 1980년대에 해외에서 널리 인정받았다.",
+  "astor-piazzolla.moment.1":
+    "1954년 잡지 인터뷰에서 그는 비판자들에게 자신의 음악은 부에노스아이레스의 동시대 음악이며, 자신은 전통주의자들이 믿는 탱고의 적일 뿐이라고 답했다.",
+  "astor-piazzolla.interpretation.moment.1":
+    "탱고 주류에 맞서 자신의 음악적 방향을 공개적으로 옹호하려는 태도와 일치한다.",
+  "astor-piazzolla.moment.2":
+    "호라시오 페레르와 함께 쓴 1968년의 탱고 오페라 '부에노스아이레스의 마리아'는 야심차고 논쟁적이었으며 그를 파산 직전까지 몰았다. 그는 쓰레기 같은 작품으로 부유한 것보다 이 작품으로 빈털터리가 되는 편이 낫다고 말했다고 한다.",
+  "astor-piazzolla.interpretation.moment.2":
+    "예술적 목표를 위해 재정적 위험을 감수하는 태도와 일치한다.",
+  "astor-piazzolla.turning_point.1":
+    "1954~55년 파리에서 나디아 불랑제는 그의 연주회용 작품이 기교는 좋으나 감정이 부족하다고 보았고, 탱고 '트리운팔'을 '진짜 피아졸라'라고 평했다. 이후 그는 자신의 악단에서 탱고와 클래식을 결합했다.",
+  "astor-piazzolla.interpretation.turning_point.1":
+    "탱고라는 배경을 버리지 않고 정규 교육과 결합함으로써 창작의 방향을 찾았음과 일치한다.",
+  /* ---------------------------------------------------------- edward-o-wilson (Roster53) */
+  "edward-o-wilson.achievement.1":
+    "윌슨은 1955년 하버드에서 개미속 라시우스(Lasius) 연구로 박사학위를 받았고 개미 분야의 선도적 권위자가 되었다. 내셔널지오그래픽과 네이처에 따르면 그는 수백 종의 새로운 개미를 기재했으며 멜라네시아와 카리브해 현장 연구를 바탕으로 분포가 넓어졌다 좁아졌다 하는 '분류군 순환'을 제안했다.",
+  "edward-o-wilson.achievement.2":
+    "그는 로버트 맥아더와 함께 섬의 크기가 그곳에서 유지되는 종의 수와 연결된다는 내용의 《섬 생물지리학 이론》(1967)을 펴냈다. 내셔널지오그래픽은 이 아이디어가 이후 개발에 둘러싸인 육지의 보호구역에 적용되어 보전생물학의 초석이 되었다고 전한다.",
+  "edward-o-wilson.achievement.3":
+    "1975년 저서 《사회생물학: 새로운 종합》은 여러 종에 걸친 사회적 행동의 진화를 다루었고 인간을 다룬 마지막 장으로 거센 비판을 받았다. 네이처는 《바이오필리아》와 퓰리처상을 받은 《개미》(1990) 등 이후의 책들이 생물다양성 개념을 대중에게 알렸다고 평가한다.",
+  "edward-o-wilson.moment.1":
+    "굴드와 르원틴 등이 1975년 서한으로 《사회생물학》을 생물학적 결정론과 연결했을 때, 윌슨은 물러서지 않고 더 도발적인 《인간 본성에 대하여》(1978)로 답했다고 네이처와 뉴욕 리뷰 오브 북스의 비판적 역사학자들은 전한다.",
+  "edward-o-wilson.interpretation.moment.1":
+    "이 일화는 지속적인 공개 반대 속에서도 논쟁적인 입장을 유지하려는 태도와 부합하며, 비판자들은 이를 고집으로, 공동 연구자는 지적 용기로 읽는다.",
+  "edward-o-wilson.moment.2":
+    "2010년 윌슨은 수학자들과 함께 유전적 근연도가 곤충 사회를 이끈다는 자신의 초기 연구의 핵심 전제를 철회했다. 하버드 가제트는 이것이 네이처 지상의 논쟁으로 이어졌다고 전하며, 공동 저자 베르트 횔도블러는 자신이 이 변화에 동의하지 않았다고 밝힌다.",
+  "edward-o-wilson.interpretation.moment.2":
+    "이는 스스로 확립에 기여한 이론을 수정할 용의가 있었음과 부합하지만, 그의 연구를 잘 아는 동료들은 수정 내용 자체에는 이의를 제기했다.",
+  "edward-o-wilson.turning_point.1":
+    "1975년 《사회생물학: 새로운 종합》의 출간으로 윌슨은 개미 전문가에서 생물학과 인간 행동을 둘러싼 논쟁의 중심에 선 공적 인물이 되었고, 이후의 저서들은 일반 독자에게까지 닿았다.",
+  "edward-o-wilson.interpretation.turning_point.1":
+    "이 변화는 세밀한 전문 지식을 더 넓은 독자를 위한 통합적 설명으로 확장하려는 의지와 부합한다.",
+  /* ---------------------------------------------------------- eliud-kipchoge (Roster53) */
+  "eliud-kipchoge.achievement.1":
+    "킵초게는 아웃사이드에 따르면 2014년부터 2019년까지 메이저 마라톤 10개 대회를 연속으로 우승했고, 2018년 베를린 마라톤에서 2시간 1분 39초의 세계 기록을 세웠다. 그해 세계육상연맹은 그를 올해의 남자 선수로 선정했다.",
+  "eliud-kipchoge.achievement.2":
+    "킵초게는 2003년 세계선수권 5000미터에서 우승했고 2004년 올림픽 5000미터 동메달, 2008년 은메달을 땄다. 2012년 올림픽 출전이 무산된 뒤 마라톤으로 전향했으며 2016년 올림픽 마라톤에서 2시간 8분 44초로 금메달을 땄다.",
+  "eliud-kipchoge.achievement.3":
+    "킵초게는 2019년 10월 12일 빈에서 열린 INEOS 1:59 챌린지에서 1시간 59분 40초 2를 기록해 마라톤 거리를 2시간 안에 처음 주파했다. CBS 스포츠에 따르면 페이스메이커가 교대로 뛰고 페이스 카가 길을 안내해 세계 기록으로는 인정되지 않았으며, 2017년 몬차 도전의 2시간 0분 25초도 마찬가지였다.",
+  "eliud-kipchoge.moment.1":
+    "아웃사이드는 킵초게가 매 대회 전 약 4개월간 카프타갓에서 거의 같은 훈련을 조금씩 바꿔 반복하고, 새벽 5시 45분에 일어나 밤 9시에는 잠자리에 들며, 2003년부터 매 훈련의 시간과 거리, 마사지, 운동, 신발을 공책에 기록해 지금 18권을 보관한다고 전한다.",
+  "eliud-kipchoge.interpretation.moment.1":
+    "정해진 훈련 일과를 꾸준히 지키는 태도와 일치한다.",
+  "eliud-kipchoge.moment.2":
+    "피플 데일리는 빈에서 1시간 59분 40초를 달린 이튿날, 교대 페이스메이커 때문에 세계 기록으로 인정되지 않았던 그 기록 뒤에 킵초게가 마사지 테이블에서 물리치료사에게 '이제 다음 일이다. 공식 기록으로 만들자'고 말했다고 전한다.",
+  "eliud-kipchoge.interpretation.moment.2":
+    "비공식 결과를 곧바로 다음 목표로 연결하는 태도와 일치한다.",
+  "eliud-kipchoge.turning_point.1":
+    "피플 데일리는 킵초게가 트랙 선수로 2012년 런던 올림픽 출전권을 얻지 못한 뒤 마라톤으로 옮겼고, 4년 뒤 리우 2016 올림픽 마라톤에서 우승했으며 같은 기사에 따르면 처음 12번의 마라톤 중 11번을 우승했다고 전한다.",
+  "eliud-kipchoge.interpretation.turning_point.1":
+    "좌절 뒤에 경력을 접지 않고 방향을 바꾸는 태도와 일치한다.",
+  /* ---------------------------------------------------------- geoffrey-hinton (Roster53) */
+  "geoffrey-hinton.achievement.1":
+    "존 홉필드와 함께 인공신경망 기반 머신러닝을 가능하게 한 기초적 발견으로 2024년 노벨 물리학상을 공동 수상했으며, 홉필드 네트워크를 토대로 볼츠만 머신을 만들었다.",
+  "geoffrey-hinton.achievement.2":
+    "러멜하트, 윌리엄스와 함께 1986년 역전파 논문을 공저해 이 방법을 널리 알렸고, 르쿤·벤지오와 함께 2019년 튜링상을 공동 수상했다.",
+  "geoffrey-hinton.achievement.3":
+    "신경망에 대한 관심이 시들던 1990년대에도 연구를 이어갔고, 2012년 그의 토론토 연구실에서 제자 수츠케버와 크리제프스키가 만든 알렉스넷이 신경망의 폭넓은 채택을 이끌었다.",
+  "geoffrey-hinton.moment.1":
+    "2017년 그는 수십 년에 걸쳐 구상해 온 것으로 소개된, 더 적은 데이터로 사물을 인식하도록 설계된 캡슐 네트워크를 다룬 논문 두 편을 발표했다.",
+  "geoffrey-hinton.interpretation.moment.1":
+    "기존 구조를 다듬는 데 그치지 않고 새로운 신경망 구조를 제안해 온 성향과 일치한다.",
+  "geoffrey-hinton.moment.2":
+    "제자들은 힌턴이 면담에서 자신의 최신 아이디어와 결과를 공유해 영감을 주고, 학생들의 걸림돌을 없애 주려 애썼다고 회상한다.",
+  "geoffrey-hinton.interpretation.moment.2":
+    "제자들의 설명처럼 진도 점검보다 공동 작업을 중심에 둔 지도 방식과 일치한다.",
+  "geoffrey-hinton.turning_point.1":
+    "2012년 힌턴과 제자 수츠케버, 크리제프스키는 GPU로 학습한 합성곱 신경망으로 이미지넷 대회에 참가했다. 이 논문은 역대 가장 많이 인용된 논문 중 하나가 되었고, 그 전에는 신경망을 쓰는 연구자가 드물었으나 이후에는 거의 모두가 썼다.",
+  "geoffrey-hinton.interpretation.turning_point.1":
+    "오래 지속한 신경망 연구가 성공을 가능케 한 데이터와 하드웨어를 만난 것과 일치한다.",
+  /* ---------------------------------------------------------- jimi-hendrix (Roster53) */
+  "jimi-hendrix.achievement.1":
+    "그는 베이시스트 노엘 레딩, 드러머 미치 미첼과 함께 지미 헨드릭스 익스피리언스로 1967년 「Are You Experienced」와 「Axis: Bold as Love」, 1968년 「Electric Ladyland」를 녹음했다. 미국 의회도서관은 첫 앨범을 2005년 국립녹음등록부에 올렸다.",
+  "jimi-hendrix.achievement.2":
+    "헨드릭스는 피드백과 디스토션을 전기기타 연주의 표현 수단으로 끌어올려 블루스에 즉흥 연주와 사이키델릭 사운드를 결합했다. 스미소니언 매거진은 피드백이 깨끗한 음만큼 쓸모 있다는 생각이 당시에는 급진적이었다고 평가한다.",
+  "jimi-hendrix.achievement.3":
+    "1967년 몬터레이 팝 페스티벌 무대는 그가 미국에서 이름을 알린 계기였다. 록 명예의 전당은 이 밴드가 패닝, 백마스킹, 페이징 같은 스튜디오 기술을 받아들였다고 설명하며, 1992년 익스피리언스를 헌액하고 펑크, 글램, 메탈에 영향을 미쳤다고 평가한다.",
+  "jimi-hendrix.moment.1":
+    "「All Along the Watchtower」 녹음은 27테이크 안팎이 걸렸고, 엔지니어 에디 크레이머에 따르면 헨드릭스는 브라이언 존스의 피아노를 몇 테이크 만에 접게 했으며 데이브 메이슨의 리듬 기타 파트도 맞을 때까지 다그쳤다.",
+  "jimi-hendrix.interpretation.moment.1":
+    "한 엔지니어의 이 증언은 원하는 소리를 얻기 위해 세션 시간을 아끼지 않은 음악가의 모습과 부합한다.",
+  "jimi-hendrix.moment.2":
+    "「Electric Ladyland」 녹음에서 크레이머는 방 곳곳에 마이크를 두고 헨드릭스가 연주하며 노래하는 소리를 함께 담아, 「Voodoo Child」에서 공간의 울림이 들린다.",
+  "jimi-hendrix.interpretation.moment.2":
+    "엔지니어의 이 설명은 표준적인 배치 대신 새로운 녹음 방식을 시도한 스튜디오 작업과 부합한다.",
+  "jimi-hendrix.turning_point.1":
+    "1967년 6월 몬터레이 국제 팝 페스티벌은 그의 첫 대규모 미국 무대였고, 그를 잘 몰랐던 관객 앞에서 「Killing Floor」로 시작해 「Wild Thing」으로 끝난 이 공연이 그의 도약이 되었다.",
+  "jimi-hendrix.interpretation.turning_point.1":
+    "이 공연은 기술이 탄탄한 기타리스트의 형성 중이던 스타일이 한꺼번에 많은 관객에게 닿은 순간과 부합한다.",
+  /* ---------------------------------------------------------- john-glenn (Roster53) */
+  "john-glenn.achievement.1":
+    "1962년 2월 20일 프렌드십 7호로 지구를 세 바퀴 돌며 미국인 최초로 지구 궤도를 비행했고, 자동조종장치가 고장 나자 수동으로 우주선을 조종했다.",
+  "john-glenn.achievement.2":
+    "제2차 세계대전과 한국전쟁에서 싸운 해병대 전투기 조종사로 해군 시험비행사가 되었고, 1957년 크루세이더 전투기로 로스앤젤레스에서 뉴욕까지 3시간 23분에 날았다(프로젝트 불릿). 초음속 대륙횡단 비행으로는 최초라고 기록된다.",
+  "john-glenn.achievement.3":
+    "1998년 10~11월 77세의 나이로 우주왕복선 STS-95에 탑승해 우주 비행이 노화한 몸에 미치는 영향을 연구했으며, 박물관은 그가 지금도 우주를 비행한 최고령자라고 전한다.",
+  "john-glenn.moment.1":
+    "프렌드십 7호 재진입 때 열 차폐판이 느슨할 수 있다는 이유로 역추진 로켓 묶음을 달고 있으라는 지시를 받은 글렌은, 파편이 창밖으로 흩날리는 가운데 통신 두절 구간 내내 수동으로 캡슐의 흔들림을 잡았다.",
+  "john-glenn.interpretation.moment.1":
+    "이는 자동 시스템과 계획이 불확실한 상황에서도 방법을 바꿔 가며 작업을 계속하는 능력과 일치한다.",
+  "john-glenn.turning_point.1":
+    "해병대 및 해군 시험비행사로 수년간 일하며 1957년 프로젝트 불릿 비행까지 마친 글렌은 1959년 NASA의 최초 머큐리 우주비행사 중 한 명으로 선발되었다.",
+  "john-glenn.interpretation.turning_point.1":
+    "이는 시험비행과 기술 프로젝트를 중심으로 쌓은 경력이 우주 비행으로 이어진 흐름과 일치한다.",
+  /* ---------------------------------------------------------- kazuo-ishiguro (Roster53) */
+  "kazuo-ishiguro.achievement.1":
+    "《부유하는 세상의 화가》, 《남아 있는 나날》, 《나를 보내지 마》, 《파묻힌 거인》 등 절제된 문체와 기억을 다룬 장편소설을 썼다.",
+  "kazuo-ishiguro.achievement.2":
+    "영국인 집사가 화자인 소설 《남아 있는 나날》로 1989년 부커상을 받았다.",
+  "kazuo-ishiguro.achievement.3":
+    "2017년 노벨 문학상을 받았다. 스웨덴 아카데미는 그의 소설이 '강한 감정의 힘'으로 세계와 이어져 있다는 환상 아래의 심연을 드러냈다고 평가했다.",
+  "kazuo-ishiguro.moment.1":
+    "그는 《나를 보내지 마》를 1950년대 라운지 가수 이야기로 시작했으나, 저녁 식사 중의 대화 이후 복제 설정으로 바꾸고 1년 뒤에는 원래 배경을 버렸다.",
+  "kazuo-ishiguro.interpretation.moment.1":
+    "이는 더 강한 틀이 나타나면 작업의 방향을 바꾸는 태도와 일치한다.",
+  "kazuo-ishiguro.moment.2":
+    "해리 랜섬 센터의 그의 아카이브에는 느리게 작업하는 작가로 소개되는 그가 각 소설마다 남긴 수천 장의 준비 메모와 초고가 있다.",
+  "kazuo-ishiguro.interpretation.moment.2":
+    "이는 출간 전 각 작품을 느리게 거듭 다듬는 작업 방식과 일치한다.",
+  "kazuo-ishiguro.turning_point.1":
+    "《나를 보내지 마》에서 그는 이전 작품의 경계심 많은 화자에서 벗어났으며, 프로필 기사는 이를 그의 가장 급진적인 문체상의 변화라고 불렀다.",
+  "kazuo-ishiguro.interpretation.turning_point.1":
+    "이는 자신이 확립한 형식을 반복하지 않고 바꾸려는 태도와 일치한다.",
+  /* ---------------------------------------------------------- lynn-margulis (Roster53) */
+  "lynn-margulis.achievement.1":
+    "마굴리스는 1967년 『이론생물학 저널』에 실린 논문에서 미토콘드리아와 엽록체가 숙주 세포에 흡수된 세균에서 유래했다고 주장해, 1905년 콘스탄틴 메레시콥스키가 제안했던 공생설을 되살렸다. 크놀과 EBSCO는 이 논문이 게재되기 전 약 15개 학술지에서 거절당했다고 전하며, EBSCO는 그가 이 일로 '엄청난 적대'를 겪었다고 쓴다.",
+  "lynn-margulis.achievement.2":
+    "크놀은 그가 이 아이디어를 세포·분자 차원으로 다시 서술해 검증 가능하게 만들었고, 이후 연구가 두 세포 소기관 모두 막으로 싸여 있고 자체 DNA를 지닌다는 점을 보여 주었다고 쓴다. 엽록체 유전자는 자유 생활 시아노박테리아와, 미토콘드리아는 프로테오박테리아 안쪽 계통과 묶인다. 크놀은 이를 20세기 과학의 큰 진전으로 꼽는다. 그는 1983년 미국 국립과학원 회원으로 선출되었고 1999년 국가과학메달을 받았다.",
+  "lynn-margulis.achievement.3":
+    "마굴리스는 제임스 러브록의 가이아 가설을 지지하고 이를 협력에 기반한 대안 생물학과 엮어, 공생이 새로운 종의 기원을 이끈다고 주장했다. 크놀은 대다수 생물학자가 이제 협력의 더 큰 역할을 인정하지만 공생이 종분화를 이끈다는 데 동의하는 이는 드물고, 편모가 공생 세균에서 유래했다는 그의 주장은 강한 지지를 얻지 못했다고 쓴다. 『타임스 하이어 에듀케이션』은 리처드 도킨스가 공개적으로 적대적이었고 대부분의 과학자가 가이아를 불필요하다고 보았다고 전한다.",
+  "lynn-margulis.moment.1":
+    "마굴리스의 1967년 공생 기원 논문은 『이론생물학 저널』에 실리기 전 약 15개 학술지에서 거절당했고, EBSCO에 따르면 그는 과학계의 적대에도 불구하고 이 이론을 발표하고 옹호하기 위해 널리 다녔다.",
+  "lynn-margulis.interpretation.moment.1":
+    "거절당한 아이디어를 여러 해 동안 꾸준히 살려 낸 노력과 일치한다.",
+  "lynn-margulis.moment.2":
+    "크놀은 마굴리스가 협력과 공생을 중심으로 한 대안 생물학을 세우며 진화론의 기본 전제 일부를 거부했고, 편모가 공생 세균에서 유래했다는 주장은 강한 지지를 얻지 못했다고 쓴다. 그는 마지막 인터뷰에서 자신의 생각이 논란적이라기보다 옳다고 말했다고 한다.",
+  "lynn-margulis.interpretation.moment.2":
+    "분야 대부분에 맞서 진화에 대한 자기 관점을 고수한 태도, 그리고 엇갈린 결과와 일치한다.",
+  "lynn-margulis.turning_point.1":
+    "1967년 논문 뒤 마굴리스는 1970년 『진핵세포의 기원』과 1981년 『세포 진화에서의 공생』을 냈고, 크놀의 설명에 따르면 이후 엽록체와 미토콘드리아의 유전자 서열이 이 소기관들을 세균 계통 안에 자리매김했다. 이 아이디어는 거절당한 제안에서 『네이처』의 표현대로 복잡한 세포 진화의 결정적 단계로 널리 받아들여지는 이론이 되었다.",
+  "lynn-margulis.interpretation.turning_point.1":
+    "검증 가능한 증거가 쌓이면서 아이디어가 거절에서 수용으로 옮겨 간 흐름과 일치한다.",
+  /* ---------------------------------------------------------- oliver-sacks (Roster53) */
+  "oliver-sacks.achievement.1":
+    "색스는 브롱크스의 베스 에이브러햄 병원에서 자문 신경과 의사로 일하며 1916~1927년 수면병 유행 이후 수십 년간 굳어 있던 뇌염후 환자들에게 1969년 봄부터 엘도파를 투여했다. 많은 환자가 극적으로 회복했으나 대개 일시적이었다. 그의 책 『깨어남』(1973)은 스무 편의 사례 기록을 담았고, 1987년판은 후속 경과를 보태는 맺음말을 더했다. 1990년 영화판은 작품상을 포함해 아카데미 3개 부문 후보에 올랐다.",
+  "oliver-sacks.achievement.2":
+    "색스는 『편두통』(1970)을 시작으로 『아내를 모자로 착각한 남자』 『화성의 인류학자』 『뮤지코필리아』 등에서 투렛 증후군, 실어증, 자폐증 같은 질환을 서사로 쓴 임상 사례 기록을 이어 갔다. 올리버 색스 재단은 그의 접근이 환자를 진단 범주에 끼워 맞추기보다 각 개인이 어떻게 대처하고 적응하는지를 살폈으며, 그가 신경다양성 운동의 선구로 자주 거론된다고 설명한다.",
+  "oliver-sacks.achievement.3":
+    "색스는 앨버트 아인슈타인 의과대학 임상신경학 교수를 지낸 뒤 컬럼비아대 의료원(2007~2012년, 재단에 따르면 이 대학의 첫 '컬럼비아 대학 아티스트')과 뉴욕대 의과대학(2012~2015년)의 교수로 일했다. 『뉴요커』와 『뉴욕 리뷰 오브 북스』에 꾸준히 기고했으며 2002년 록펠러대학교의 루이스 토머스 상을 받았다.",
+  "oliver-sacks.moment.1":
+    "색스는 『깨어남』을 위해 상세한 기록을 남기고 환자들에게 일기를 쓰도록 권했으며, L-도파를 투여받은 뇌염후 환자 스무 명의 전기적 사례 기록을 썼다. EBSCO에 따르면 1987년판은 1973년 이후의 경과를 갱신한 맺음말을 더했다.",
+  "oliver-sacks.interpretation.moment.1":
+    "같은 환자들에게 오래 이어진 꾸준한 관심과 일치한다.",
+  "oliver-sacks.moment.2":
+    "레이철 에이비브의 2025년 12월 『뉴요커』 기사를 요약한 논평자들은, 색스가 『깨어남』에서 환자 레너드의 말로 옮긴 릴케의 '우리 속 표범' 이미지가 사실은 색스 자신의 것으로 보이며 『아내를 모자로 착각한 남자』의 '레베카'가 회복했다는 서술은 그의 일기와 어긋난다고 전한다. 콜린 맥긴은 1986년 『런던 리뷰 오브 북스』 서평에서 이미 과장을 제기했다고 말한다.",
+  "oliver-sacks.interpretation.moment.2":
+    "일부 초기 사례 기록에서 관찰한 사실에 대한 충실성보다 서사적 매력이 앞섰음과 일치하며, 논평자들은 이를 고의적 거짓말보다 작화로 해석한다.",
+  "oliver-sacks.turning_point.1":
+    "레지던트 과정을 마친 지 약 1년 뒤인 1969년 색스는 베스 에이브러햄 병원에서 뇌염후 환자들에게 엘도파를 투여하기 시작했다. 1970년 첫 책 『편두통』, 1973년 『깨어남』이 이어졌고, 이후 그는 임상과 강의를 병행하며 일반 독자를 위한 글을 썼다.",
+  "oliver-sacks.interpretation.turning_point.1":
+    "임상 진료에서 일반 독자를 위한 글쓰기로 활동 영역이 넓어진 것과 일치한다.",
+  /* ---------------------------------------------------------- phil-knight (Roster53) */
+  "phil-knight.achievement.1":
+    "1964년 오리건대 육상 코치 빌 바우어만과 함께 블루리본스포츠를 공동 창업해, 오니쓰카 타이거 러닝화를 수입하며 사업을 시작했다.",
+  "phil-knight.achievement.2":
+    "1971년 회사 이름을 나이키로 바꾸고 1980년 상장했으며, 2004년까지 CEO, 2016년까지 회장으로 회사를 이끌었다.",
+  "phil-knight.achievement.3":
+    "1984년 마이클 조던과 계약했으며, 이 계약은 스포츠 마케팅을 바꾸고 에어 조던 라인을 탄생시켰다고 평가된다.",
+  "phil-knight.moment.1":
+    "한 비공인 저서의 서평에 따르면, 1970년대 초기 회사는 잔고가 부족한 수표를 발행하며 '플로트'에 의존했고, 은행이 거래를 끊자 닛쇼이와이가 구제했다.",
+  "phil-knight.interpretation.moment.1":
+    "이는 회사 성장 초기에 재무적 위험을 크게 감수한 태도와 일치한다.",
+  "phil-knight.moment.2":
+    "스탠퍼드 수업 과제 이후 1962년 일본으로 건너가, 『스우시』 서평에 따르면 미국 수입업자를 자처해 오니쓰카와 면담을 얻어냈다.",
+  "phil-knight.interpretation.moment.2":
+    "이는 스스로 발견한 시장의 빈틈에 신속히 움직인 태도와 일치한다.",
+  "phil-knight.turning_point.1":
+    "1969년 회계사와 강사 일을 그만두고 회사에 전념했으며, 1971년 오니쓰카와 결별하고 나이키로 거듭났다.",
+  "phil-knight.interpretation.turning_point.1":
+    "이는 자신의 경력을 사업에 거는 것을 마다하지 않은 태도와 일치한다.",
+  /* ---------------------------------------------------------- sylvia-earle (Roster53) */
+  "sylvia-earle.achievement.1":
+    "얼은 1966년 듀크대학교 박사 과정에서 멕시코만의 해양 식물상을 조사하기 위해 2만 개가 넘는 조류 표본을 채집했다. 미국 국립여성역사박물관은 그가 스쿠버를 이용해 해양 생물을 직접 연구한 초기 과학자 가운데 한 명이었다고 설명하고, 브리태니커는 그를 해양 조류 연구로 알려진 인물로 소개한다.",
+  "sylvia-earle.achievement.2":
+    "얼은 1970년 미국령 버진아일랜드 앞바다의 해저 거주시설 실험 텍타이트 II에서 최초의 여성 아쿠아넛 팀을 이끌었고, 1979년 9월 19일에는 가압 짐 슈트를 입고 381미터까지 내려갔다. 브리태니커와 기네스는 이를 잠수정과 연결 없이 이룬 가장 깊은 잠수라고 소개한다.",
+  "sylvia-earle.achievement.3":
+    "얼은 1980년대 초 엔지니어 그레이엄 호크스와 함께 딥 오션 엔지니어링을 세워 딥 로버 잠수정을 설계했고, 1990~92년 여성 최초로 미국 해양대기청 수석과학자를 지냈으며, 2009년에는 해양 보호 구역 확대를 추진하는 호프 스팟 네트워크의 미션 블루를 창립했다. 다만 한 매체는 호프 스팟 지정 자체가 법적 보호는 아니라고 짚는다.",
+  "sylvia-earle.moment.1":
+    "미리너스 박물관은 1970년 텍타이트 II 팀이 해양 식물 154종을 기록했고 그중 26종이 버진아일랜드에서 이전에 기록되지 않은 종이었으며, 1964년 탐사에서 그가 새로 발견한 식물에 스승의 이름을 따 험브렐라라는 이름을 붙였다고 전한다.",
+  "sylvia-earle.interpretation.moment.1":
+    "자연 세계에 대한 탐구적이고 기록하는 호기심과 일치한다.",
+  "sylvia-earle.moment.2":
+    "듀크대학교는 얼이 직접 설계에 참여한 딥 로버로 1986년 3,281피트에 도달했고 이는 여성의 최심 단독 잠수로 남아 있다고 전하며, 국립여성역사박물관은 그가 1979년 가압 슈트를 입고 잠수정에서 분리되어 두 시간 반 동안 해저를 탐사했다고 적는다.",
+  "sylvia-earle.interpretation.moment.2":
+    "탐사를 위해 특수 제작된 장비를 활용하며 상당한 신체적 위험을 감수하는 태도와 일치한다.",
+  "sylvia-earle.turning_point.1":
+    "encyclopedia.com은 스쿠버의 수심 한계가 연구를 제약하자 얼이 엔지니어 그레이엄 호크스와 함께 1981년 딥 오션 테크놀로지와 딥 오션 엔지니어링을 세우고 딥 로버의 설계를 종이 냅킨에 스케치했다고 전한다.",
+  "sylvia-earle.interpretation.turning_point.1":
+    "기존 장비가 연구를 제한할 때 스스로 도구를 만들어 내는 태도와 일치한다.",
+  /* ---------------------------------------------------------- tadao-ando (Roster53) */
+  "tadao-ando.achievement.1":
+    "정규 건축 교육 없이 독학으로 건축을 익혀, 매끈한 노출 콘크리트와 단순한 기하학, 자연광을 중심으로 한 건축을 만들었다.",
+  "tadao-ando.achievement.2":
+    "1995년 프리츠커 건축상을 수상했으며, 심사위원단은 그의 작업이 '쓰임과 영감을 함께 준다'고 평가했다.",
+  "tadao-ando.achievement.3":
+    "스미요시 연립주택, 빛의 교회, 나오시마의 지추 미술관 등 대표작을 설계했다.",
+  "tadao-ando.moment.1":
+    "나오시마의 지추 미술관은 건물 대부분을 언덕 속에 묻고, 모든 작품을 자연광으로 비추도록 설계되었다.",
+  "tadao-ando.interpretation.moment.1":
+    "이는 빛과 공간의 분위기에 대한 지속적인 감수성과 일치한다.",
+  "tadao-ando.moment.2":
+    "스미요시 연립주택(1976)은 창 없는 콘크리트 전면 뒤에 지붕 없는 중정을 두어, 거주자가 방을 오가려면 마당을 가로지르게 했다.",
+  "tadao-ando.interpretation.moment.2":
+    "이는 편의보다 독창적인 발상을 앞세우는 태도와 일치한다.",
+  "tadao-ando.turning_point.1":
+    "1969년 28세에 도쿄가 아닌 오사카에 자신의 사무소를 열었고, 스미요시 연립주택(1976)으로 널리 이름을 알렸다.",
+  "tadao-ando.interpretation.turning_point.1":
+    "이는 통상적인 경로 밖에서 스스로 길을 만들어 간 경력과 일치한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

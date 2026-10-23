@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sylvia-earle",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sylvia Earle",
+    "aliases": [
+      "Sylvia A. Earle",
+      "Sylvia Alice Earle"
+    ],
+    "wikidataId": "Q439046",
+    "birthYear": 1935,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_earle_wikidata",
+      "kind": "wikidata",
+      "title": "Sylvia A. Earle (Q439046) -- verified live via the Wikidata API (2026-10-23): English label 'Sylvia A. Earle', description 'American oceanographer', born 30 August 1935, no date of death, citizenship United States, Korean label '실비아 얼', English Wikipedia sitelink (no Korean Wikipedia article). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q439046"
+    },
+    {
+      "id": "src_earle_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Sylvia Earle' (britannica.com biography), read in full via a saved copy of the page: oceanographer and explorer known for research on marine algae; 20,000-plus algae samples for her doctorate; 1968 discovery of undersea dunes off the Bahamas; leading the all-female Tektite II team in 1970 and observing pollution effects on coral reefs; the 19 September 1979 untethered dive to 381 m; founding Deep Ocean Engineering and Deep Ocean Technology with Graham Hawkes and designing the Deep Rover submersible; NOAA chief scientist 1990-92, first woman in the post; National Geographic explorer in residence from 1998; over 100 scientific papers. CANONICAL SIGNIFICANCE SOURCE (with the National Women's History Museum biography). Uncritical reference entry; its family and marriage sentences were not used.",
+      "url": "https://www.britannica.com/biography/Sylvia-Earle"
+    },
+    {
+      "id": "src_earle_nwhm",
+      "kind": "institution",
+      "title": "Mariana Brandman, 'Sylvia Earle', National Women's History Museum biography (womenshistory.org, 2021), read in full via a saved copy: her six-week 1964 Indian Ocean expedition as the only woman, a doctoral dissertation built on more than 20,000 algae samples collected with SCUBA, the 1968 Man-in-Sea submersible-to-habitat descent, the 1969 Tektite II application and officials' preference not to mix men and women in the habitat (so she led an all-female team in 1970), expeditions with photographer Al Giddings, the 1979 untethered dive, the two companies with Graham Hawkes, NOAA chief scientist 1990-92 and her return to deep-ocean engineering, more than 100 expeditions and 200 publications, and the Mission Blue Hope Spots network. CANONICAL SIGNIFICANCE SOURCE (with Britannica). Museum biography, admiring; the passages on marriages, children and her pregnancy were not used.",
+      "url": "https://www.womenshistory.org/education-resources/biographies/sylvia-earle"
+    },
+    {
+      "id": "src_earle_duke",
+      "kind": "institution",
+      "title": "Duke University Graduate School, 'Sylvia Earle, \"Face of Marine Biology,\" Receives Distinguished Alumni Award' (gradschool.duke.edu), read in full: alumni profile listing the 1953 arrival of the Aqua-Lung in the US and her early scuba use, the Tektite II team, the 1979 Jim-suit dive to 1,250 feet, Deep Rover and her 1986 descent to 3,281 feet, the 1992 company Deep Ocean Exploration and Research whose manipulator arm and tested parts were used on the 2012 deepest-point submersible, 100-plus expeditions and over 7,000 hours underwater, and gender barriers she met as a graduate student and on her first 1964 expedition. University alumni-award profile, admiring.",
+      "url": "https://gradschool.duke.edu/about/news/sylvia-earle-face-marine-biology-receives-distinguished-alumni-award/"
+    },
+    {
+      "id": "src_earle_encyc",
+      "kind": "biography",
+      "title": "'Earle, Sylvia A. (1935- )', encyclopedia.com biographical entry (encyclopedia.com), read in full: her Gulf of Mexico algae baseline of more than 20,000 samples, direct observation of underwater habitats after SCUBA and identification of many new species, the 1970 fourteen-day Tektite II stay, the 1,250-foot free dive, the 1981 founding of Deep Ocean Technology and Deep Ocean Engineering with Graham Hawkes and the Deep Rover design sketched on a napkin, NOAA chief scientist from 1990 and her departure after eighteen months saying she could do more independently, her public criticism of US underfunding of deep-sea research, the Ocean Everest plan and her publications. Reference biography; some of the quotation is her own words. The entry does not mention the Tektite rejection.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/sylvia-earle"
+    },
+    {
+      "id": "src_earle_guinness",
+      "kind": "press",
+      "title": "Guinness World Records Hall of Fame, 'Sylvia Earle: Her Deepness' (guinnessworldrecords.com), read in full via a saved copy: profile of her early diving and algae study, the 1964 NSF Indian Ocean expedition, the 1968 Deep Diver descent, the all-female Tektite II mission and its White House honour, work with Al Giddings on sperm-whale expeditions, the 19 September 1979 dive to 381 m, the 1985 Deep Rover descent, NOAA chief scientist 1990-92 including monitoring of the Kuwaiti oil-fire damage, and the 1998 Time 'Hero of the Planet' naming. Records body profile; promotional, admiring; the records claims are cited as that source's wording only and are not independently verified here. Family sentences not used.",
+      "url": "https://www.guinnessworldrecords.com/records/hall-of-fame/sylvia-earle-her-deepness"
+    },
+    {
+      "id": "src_earle_mariners",
+      "kind": "institution",
+      "title": "The Mariners' Museum and Park, 'Sylvia Earle' (exploration.marinersmuseum.org, The Ages of Exploration), read in full: dated episodes including the 1964 International Indian Ocean Expedition aboard the Anton Bruun on which she was the only woman among about 70 crew and named a newly found plant Humbrella after her mentor, the 1970 Tektite II 'Mission 6' all-female crew that documented 154 marine plant species of which 26 were not previously recorded in the Virgin Islands, the 1979 dive off Oahu and her 1998 National Geographic post. Museum reference page; no outside quotations.",
+      "url": "https://exploration.marinersmuseum.org/?p=1261"
+    },
+    {
+      "id": "src_earle_upi92",
+      "kind": "press",
+      "title": "UPI, 'NOAA scientist resigns' (upi.com archive, 18 January 1992), read: contemporaneous wire report that NOAA chief scientist Sylvia Earle would step down on 31 January 1992, saying she wanted more time for Persian Gulf research and for her family (a stated reason only), that she had held the post since October 1990 and had been asked to advise NOAA on the Persian Gulf War's environmental effects, that she announced it at a Houston dive-equipment show the weekend she spoke at the designation of Flower Garden Banks as a national marine sanctuary, and that her deputy would act as chief scientist. Short contemporaneous wire item; independent of the biographies. The family reason is her own statement and is not used.",
+      "url": "https://www.upi.com/Archives/1992/01/18/NOAA-scientist-resigns/4277695710800/"
+    },
+    {
+      "id": "src_earle_rtbc",
+      "kind": "press",
+      "title": "'Sylvia Earle's Hope Spots' feature, Reasons to Be Cheerful (reasonstobecheerful.world), read in full: how Earle founded Mission Blue in 2009 with 19 Hope Spots (158 at the time of writing), how the public nomination process opened after the 2014 documentary, a committee reviewing up to about 100 requests a year, case studies (Cabo Pulmo, Palmahim Slide, Shinnecock Bay) with Mission Blue's Hope Spot manager Shannon Rake and Global Fishing Watch, and the limits it records: under 3 percent of the ocean protected, Hope Spot status not being legal protection, and policies being reversible. Independent online magazine; positive in tone, with limits stated mainly by Mission Blue staff.",
+      "url": "https://reasonstobecheerful.world/sylvia-earle-hope-spots-ocean-conservation/"
+    },
+    {
+      "id": "src_earle_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Sylvia Earle-nur07563.jpg' (with the Commons wikitext and API record) -- checked for the portrait's licence: NOAA Photo Library image 'Dr. Sylvia Earle prepares to dive in a JIM suit', author credit OAR/National Undersea Research Program (NURP), template PD-USGov-NOAA, undated. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Sylvia_Earle-nur07563.jpg"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_earle_britannica, src_earle_duke, src_earle_nwhm, src_earle_guinness | 1979-1986 | biography + university profile + museum biography + records profile] On 19 September 1979 she wore a pressurised Jim suit, was carried to 381 m (1,250 ft) off Oahu, detached from the submersible and explored the sea floor for about two and a half hours (NWHM, Guinness); in 1986 she piloted Deep Rover, which she helped design, to 3,281 ft, described by Duke as the deepest solo dive by a woman. Two separate dated deep descents are described by four sources, but the sources are admiring, mostly retell the same 1979 episode, and the equipment was an engineered one-atmosphere suit and a purpose-built submersible, so the risk was managed rather than reckless; documented at moderate confidence. SELF-CALIBRATION (agent): first-pass 72 / 0.58 lowered to 68 / 0.55 because the four sources are largely retellings of one dive and describe an engineered, mitigated risk, not open-ended risk-taking."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_earle_mariners, src_earle_britannica, src_earle_encyc | 1964-1970 | museum reference page + biography + encyclopedia entry] She collected more than 20,000 algae samples (Britannica, Encyc), used SCUBA to observe underwater habitats directly and identified many new species (Encyc), found and named a new pink plant on a 1964 Indian Ocean dive (Mariners), discovered undersea dunes off the Bahamas in 1968 (Britannica), and her 1970 Tektite II team documented 154 marine plant species, 26 not previously recorded in the Virgin Islands (Mariners). A pattern of exploration and cataloguing is documented across three sources, but each is a short summary, so strong inference at a moderate confidence."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_earle_nwhm, src_earle_encyc, src_earle_duke, src_earle_britannica | 1953-1970 | museum biography + encyclopedia entry + university profile + biography] Her Gulf of Mexico algae work began with a master's thesis in 1956 and became a more than 20,000-sample doctoral study that she still treats as a long-term baseline (Encyc, NWHM); the NWHM and Duke profiles describe her completing coursework, expeditions and her dissertation in parallel and meeting barriers such as a denied assistantship, and NWHM records that after officials did not want mixed crews she led an all-female Tektite II team. Long-running work through obstacles is documented by four sources, but the obstacle accounts are retrospective and sympathetic and no specific adversary or critic is quoted, so strong inference at a moderate confidence."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_earle_encyc, src_earle_britannica, src_earle_duke | 1981-2012 | encyclopedia entry + biography + university profile] When SCUBA's depth limits stopped her work she and engineer Graham Hawkes founded Deep Ocean Technology and Deep Ocean Engineering in 1981 (Encyc) and designed the Deep Rover submersible (Britannica, Encyc); Duke says her later 1992 company developed a manipulator arm and tested parts for the submersible used for the 2012 deepest-point dive. Building the tools she needed is described by three sources, but they give little engineering detail and the company role is partly shared with Hawkes, so strong inference at a moderate confidence."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_earle_rtbc, src_earle_britannica, src_earle_encyc, src_earle_nwhm | 1992-2021 | magazine feature + biography + encyclopedia entry + museum biography] She founded Mission Blue in 2009 with 19 Hope Spots, opened public nominations after the 2014 documentary and leads a committee reviewing up to about 100 requests a year (RTBC); Britannica and NWHM describe books, documentaries and lectures in more than 80 countries aimed at ocean threats, and Encyc records her publicly criticising US underfunding of deep-sea research and developing the Ocean Everest plan. A sustained, organised effort is documented by four sources; the RTBC feature itself notes that Hope Spot status is not legal protection and that only about 3 percent of the ocean is protected, which limits what outcome can be attributed to her. Documented at a moderate confidence; the trait is about motivation to affect the world, not about results."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_earle_nwhm, src_earle_guinness, src_earle_rtbc, src_earle_britannica | 1970-2021 | museum biography + records profile + magazine feature + biography] She led a five-person Tektite II team (Britannica, NWHM), worked with photographer Al Giddings on expeditions and a book (NWHM, Guinness), built vehicles with engineer Graham Hawkes (Britannica), and Mission Blue works with scientists, local fishing cooperatives and more than 200 conservation groups (RTBC). Repeated partnerships are documented in several sources, but none describe how she handled disagreement or shared credit, so strong inference at a lower-moderate confidence."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_earle_nwhm, src_earle_britannica, src_earle_duke, src_earle_upi92 | 1970-2012 | museum biography + biography + university profile + wire report] She led the all-female Tektite II team in 1970 and, NWHM says, often served as chief scientist on expeditions, led more than 100 expeditions (Duke, NWHM), held the NOAA chief scientist post from October 1990 (UPI, Britannica), and presides over the Mission Blue organisation (NWHM). Repeated leadership roles are documented by independent sources including a wire report, but they record titles rather than how she led, so strong inference at a lower-moderate confidence. Scientific-organisation leadership only; no political role is scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "실비아 얼"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sylvia-earle-noaa-nurp-undated.jpg",
+    "width": 650,
+    "height": 700,
+    "source": "Wikimedia Commons 'File:Sylvia Earle-nur07563.jpg' = NOAA Photo Library image nur07563, 'Dr. Sylvia Earle prepares to dive in a JIM suit', credit OAR/National Undersea Research Program (NURP), Commons template PD-USGov-NOAA, undated. Original 1816 x 1208 (SHA-1 ad58692b matches the Commons record); cropped to 650 x 700 around her face inside the suit window (crop only, never upscaled). NOAA's own digital-library page could not be opened (CAPTCHA), so no institutional notice could be read directly; no conflicting notice was observed.",
+    "license": "Public domain (US Government work, NOAA/NURP)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-NOAA",
+    "attribution": "Photo: OAR/National Undersea Research Program (NURP), NOAA Photo Library, public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Sylvia_Earle-nur07563.jpg",
+    "creator": "OAR/National Undersea Research Program (NURP), NOAA",
+    "date": "undated",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sylvia_Earle-nur07563.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q439046 returned en label 'Sylvia A. Earle', description 'American oceanographer', born 1935-08-30, no death date, citizenship United States, ko label '실비아 얼', enwiki sitelink only, P18 'SylviaEarle.jpg' (the lead's hint 'SylvieEarle.jpg' does not exist; the real file is SylviaEarle.jpg, 364 x 616, CC BY 3.0 own work 2009). SLUG/QID CHECK: no production or candidate file for slug sylvia-earle or QID Q439046 in the roster53 worktree (grep over data-pipeline and src/data). REGION: north_america (US). VOCABULARY: occupationIds scientist and explorer, fieldIds exploration and natural_science, tags explorer, field_researcher and advocate, archetype scientific_explorer are existing ids with labels; 'oceanographer' (used by the Jacques Cousteau candidate) has no occupation.* EN/KO label in src/core/i18n, so it was NOT used -- lead may want to add one. ZERO POLITICS: nothing political scored; her NOAA chief-scientist post is scored only as a scientific-organisation leadership role, and her ocean-protection advocacy is scored as impact motivation, not political activism. LIVING SUBJECT: only documented public professional behaviour is scored; private life (marriages, children, a pregnancy at the time of a 1968 descent), health and motives were excluded even where sources mention them. CANONICAL SIGNIFICANCE SOURCE: National Women's History Museum biography (https://www.womenshistory.org/education-resources/biographies/sylvia-earle; read in full) and Encyclopaedia Britannica (https://www.britannica.com/biography/Sylvia-Earle; read in full via a saved copy). READ (8 cited non-Wikidata sources plus the Commons page): Britannica, NWHM, Duke alumni profile, encyclopedia.com entry, Guinness Hall of Fame profile, Mariners' Museum page, UPI 1992 wire item, Reasons to Be Cheerful Hope Spots feature. Also opened but not cited: Wikipedia (orientation only; page text truncated), a Lab Manager article (the page body did not load), the Gulf of Maine Times 1998 page (certificate error), NOAA Sustainable Seas pages (search snippets only). NOT OPENED: The New Yorker 1989 'Her Deepness' profile (fetch blocked), Time 1998 profile, Scientific American 1992, the National Geographic and TED material, her own books and talks. PERSPECTIVES: (1) museum and university biographies (NWHM, Duke, Mariners' Museum), (2) reference works (Britannica, encyclopedia.com), (3) a records-body profile (Guinness), (4) a contemporaneous wire report (UPI 1992), (5) a recent independent magazine feature with Mission Blue staff and partners (RTBC). The substantive non-self behavioural sources are the museum, university and encyclopedia accounts and the UPI report; her own words appear in the encyclopedia entry (not sole support). COUNTER-VOICE: none found. A targeted search for criticism of Earle's professional work returned no documented critic; the closest independent limiting statements are the RTBC feature's record that Hope Spot status is not legal protection and that under 3 percent of the ocean is protected, the encyclopedia entry's report that she left NOAA after eighteen months, and the UPI item giving a different (stated) reason; the profile is therefore predominantly admiring and this caps confidence. CALIBRATION: highest score 72 and highest confidence 0.56, no row above 0.58; seven rows kept, none padded. SELF-CALIBRATION (agent): the three highest-risk rows were reviewed (risk tolerance, impact motivation, leadership drive); risk tolerance lowered 72/0.58 to 68/0.55 (four sources largely retell one 1979 dive and describe an engineered, mitigated risk); impact motivation left unchanged (documented by independent organisational detail, and its rationale already states that outcomes are not attributed); leadership drive left unchanged (already at 62/0.50 and the rationale says it records titles, not style). TRAITS NOT SCORED: collaboration conflict handling, persuasiveness (rests on awards and lecture counts), independent thinking and conflict tolerance (her NOAA departure and funding criticism are partly her own account), planning orientation, mastery orientation and achievement drive (record and award based), resilience (a facet, covered by persistence), and anything about private life. FACT CONFLICTS RECORDED: Britannica dates the Deep Ocean Engineering founding to the early 1980s and encyclopedia.com says 1981, while Wikipedia says the Deep Rover was designed and built in 1985 -- the cards use only 'early 1980s' for the companies and the 1986 Duke date for the Deep Rover dive; Britannica says a Deep Rover depth of 914 m (3,000 ft) while Duke says 3,281 ft (1,000 m) as the depth she reached -- the cards give no Deep Rover depth other than 'to 1,000 m' attributed to Duke; the Mariners' Museum names the Tektite II crew as 'Mission 6' while Britannica says Tektite II (consistent); the 'deepest untethered dive' record wording is repeated by Britannica, Guinness and Duke and stated as their claim only. The first-woman claim for the NOAA chief scientist post is stated by Britannica, NWHM, Duke and Guinness and are used as attributed. KOREAN NAME: 실비아 얼 is the Wikidata ko label. PORTRAIT: Commons P18 'SylviaEarle.jpg' (364 x 616, CC BY 3.0, Veni Markovski 2009) was set aside because a clearer public-domain US-government image exists. Checked alternatives: Commons 'Dr. Sylvia Earle talks to an albatross nesting among marine debris.jpg' (USFWS Pacific / NOAA ONMS, 2012, Commons says PD-USGov-FWS and CC BY 2.0) was REJECTED because the Flickr page now shows CC BY-NC 2.0, a conflicting notice, and its photographer's federal-employee status was not independently confirmed. Chosen: NOAA Photo Library nur07563 via Commons (PD-USGov-NOAA, author OAR/NURP, undated; other NURP images in the same series from the Tektite II project are 1970). The file was downloaded with curl, SHA-1 matched Commons, cropped to the face region (650 x 700, no upscaling) and viewed: Earle smiling inside the viewport of a JIM suit, face clearly visible. Date is unknown; the image is described as a likeness. Residual risk: NOAA's own library page was behind a CAPTCHA, so no institutional notice was read directly."
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jimi-hendrix",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jimi Hendrix",
+    "aliases": [
+      "James Marshall Hendrix"
+    ],
+    "wikidataId": "Q5928",
+    "birthYear": 1942,
+    "deathYear": 1970,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jh_wikidata",
+      "kind": "wikidata",
+      "title": "Jimi Hendrix (Q5928) -- verified live via the Wikidata API (2026-10-23): English label 'Jimi Hendrix', description 'American guitarist (1942-1970)', Korean label '지미 헨드릭스', born 27 November 1942, died 18 September 1970, citizenship United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q5928"
+    },
+    {
+      "id": "src_jh_rockhall",
+      "kind": "institution",
+      "title": "Rock and Roll Hall of Fame, 'The Jimi Hendrix Experience' inductee biography (rockhall.com), read in full: inducted 1992 in the Performer category, Neil Young as inductor; the trio of Hendrix, Noel Redding and Mitch Mitchell; the group expanded blues with feedback, extended improvisation and a fluid technique, blending roots music with avant-garde and psychedelic elements; it embraced studio technology (panning, backmasking, phasing); the albums Are You Experienced? (1967), Axis: Bold as Love (1967) and Electric Ladyland (1968); a prototype of the 'Purple Haze' lyrics, with Chas Chandler helping edit it; influences named (Muddy Waters, Sister Rosetta Tharpe, Curtis Mayfield, Bob Dylan, B.B. King and others) and artists influenced; quotations from Neil Young and critic David Fricke. CANONICAL SIGNIFICANCE SOURCE (with the Library of Congress essay). Hall-of-fame narrative, admiring; its dream-origin account of 'Purple Haze' is Hendrix's own and was not used.",
+      "url": "https://www.rockhall.com/inductees/jimi-hendrix-experience"
+    },
+    {
+      "id": "src_jh_loc",
+      "kind": "archive",
+      "title": "Bill Hart, ''Are You Experienced' -- The Jimi Hendrix Experience (1967)', essay for the Library of Congress National Recording Registry (album added 2005; guest essay, PDF on loc.gov), read in full: some reviewers at release recognised that Hendrix was changing the language of popular music; his lead style described as incendiary, jazzy and complex, inflected with distortion and nuance, delivered with casual ease, and a psychedelic edge tempered by three-minute pop songs; the power-trio format (with Noel Redding and Mitch Mitchell, assembled by Chas Chandler, who produced and managed) was not new, but Hendrix brought something extra; differing UK and US track lists; his 1967 Monterey Pop and later Woodstock appearances. CANONICAL SIGNIFICANCE SOURCE (with the Rock Hall page). Archive essay by an outside writer (the page states his views are not those of the Library); admiring and retrospective; its remarks on his early life and his sleeping habits were not used.",
+      "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/AreYouExperienced.pdf"
+    },
+    {
+      "id": "src_jh_psw",
+      "kind": "press",
+      "title": "Bobby Owsinski, 'Eddie Kramer On Recording Jimi Hendrix', ProSoundWeb, 19 June 2017 (excerpt from The Recording Engineer's Handbook), read in full: engineer Eddie Kramer on the All Along the Watchtower sessions (many takes, with take 27 the master; Brian Jones on piano around take 20-21, ended by Hendrix with 'No, I don't think so, Brian'), a live-in-the-room approach on Electric Ladyland (microphones everywhere, room resonance audible on Voodoo Child, Hendrix singing live as he played), bounce-down methods under four-track limits, stereo drums on Axis: Bold as Love, no time for rehearsal so arrangements were learned in the studio, and Hendrix directing the band directly (instructing Mitchell on the rhythm part and pressing Dave Mason on a second rhythm guitar part until it was right). Engineer's own account (admiring, one voice); used with the other Kramer pieces as a single perspective.",
+      "url": "https://www.prosoundweb.com/eddie-kramer-on-recording-jimi-hendrix/"
+    },
+    {
+      "id": "src_jh_sos",
+      "kind": "press",
+      "title": "Richard Buskin, 'Classic Tracks: Jimi Hendrix Experience -- All Along The Watchtower', Sound On Sound, November 2005, read in full (quotes only Eddie Kramer): the track began as Hendrix on acoustic guitar, Dave Mason on 12-string and Mitch Mitchell on drums at Olympic Studios in London, taking about 27 takes; Hendrix played bass himself after Noel Redding left; he loved Dylan's lyrics and carried Dylan's songbook, and his version with four guitar solos is far more dramatic than Dylan's sparer original, which Dylan later adopted; vocals and percussion overdubbed in New York, Kramer and Hendrix mixing together; Kramer says Hendrix hated being looked at while singing and often asked for more retakes, and that Chas Chandler's strictness about wasted time clashed with Hendrix's looser approach. Trade-press feature built on one engineer's testimony.",
+      "url": "https://www.soundonsound.com/techniques/classic-tracks-jimi-hendrix-experience-all-along-watchtower"
+    },
+    {
+      "id": "src_jh_sage",
+      "kind": "press",
+      "title": "Sage Audio, 'Eddie Kramer Provides a History of Electric Lady Studios' (sageaudio.com, undated, citing an interview with Mix magazine's website), read in full: Hendrix and his manager bought the property in 1970 and it nearly became a music club; Kramer, who had worked on every Hendrix album to that point, argued for a purely recording studio and worked with the architect on acoustics using London's Olympic Studios as the reference; two custom consoles modelled on the Record Plant console Hendrix used; Electric Ladyland was recorded before the studio existed. Engineer's retelling (one voice, undated, no named author); used for the studio's founding facts only.",
+      "url": "https://www.sageaudio.com/articles/eddie-kramer-provides-history-electric-lady-studios"
+    },
+    {
+      "id": "src_jh_smag",
+      "kind": "press",
+      "title": "Amanda Petrusich, 'The Exotic Vest That Introduced America to Jimi Hendrix', Smithsonian magazine, December 2020, read in full: Hendrix's breakout set at the Monterey International Pop Festival in June 1967, his first major US appearance (booked on Paul McCartney's recommendation, with few in the crowd knowing him); his developing musical grammar built on tone-altering pedals and the then-radical idea that feedback and distortion could be as useful as a cleanly played note; the set opened with Killing Floor and closed with Wild Thing, with a critic quoted (David Fricke) and historian Holly George-Warren; quotes from a 1967 radio interview about dress and from a September 1970 interview (Keith Altman) in which he says he felt he was 'too loud visually' and wanted people to come to listen (self). Independent magazine feature with outside voices; the passage on his death and its cause was not used.",
+      "url": "https://www.smithsonianmag.com/smithsonian-institution/exotic-vest-introduced-america-jimi-hendrix-180976236/"
+    },
+    {
+      "id": "src_jh_redding",
+      "kind": "press",
+      "title": "Jordan Potter, 'Noel Redding explains why it was very hard to work with Jimi Hendrix', Far Out Magazine, 10 July 2024 (quoting a Rolling Stone interview with the bass player, original undated), read in full: Redding calls Hendrix a genius guitarist and writer but says he was hard to work with, describes studio sessions as 'chaos' and gigs as getting ridiculous, says audiences wanted the old standards while Hendrix wanted to play new material, and says he left after Hendrix told a reporter he planned to expand the trio without consulting the bandmates. Bandmate's critical account relayed by a music website; one-sided and retrospective; the 'split personality' remark and money passages were not used (mental-state characterisation and finances).",
+      "url": "https://faroutmagazine.co.uk/noel-redding-very-hard-jimi-hendrix/"
+    },
+    {
+      "id": "src_jh_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'HendrixHoepla1967-2.jpg' (with the Commons API record) and the Netherlands Institute for Sound and Vision wiki file page for the source image (wiki.beeldengeluid.nl, 'Bestand:67455081-15 pos.png') -- checked for the portrait: photograph by A. Vente (VPRO) on the set of the Dutch television programme Hoepla, studio Vitus, Bussum, 10 November 1967; Commons licence CC BY-SA 3.0 with a Beeld en Geluid wiki own-source tag; the institution's wiki states its content is available under Creative Commons Attribution-ShareAlike unless otherwise stated and shows no conflicting copyright notice. Rights-basis pages; no person-specific claim rests on them.",
+      "url": "https://commons.wikimedia.org/wiki/File:HendrixHoepla1967-2.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jh_rockhall, src_jh_loc, src_jh_smag, src_jh_sos | 1966-1968 | hall-of-fame biography + Library of Congress essay + magazine feature + trade-press feature] The Rock Hall says the Experience expanded blues with feedback, extended improvisation and a fluid technique and used studio effects such as panning, backmasking and phasing; the Library of Congress essay says reviewers at release recognised that he was changing the language of popular music and calls his lead style incendiary, jazzy and complex yet casual; Smithsonian magazine describes a musical grammar built on tone-altering pedals and the then-radical idea that feedback and distortion could be as useful as a clean note; Sound On Sound's engineer says his Watchtower, with four guitar solos, is far more dramatic than Dylan's sparer original, which Dylan later adopted. Four independent institutional and press sources describe a distinctive sound and reworking of others' material, but all are admiring or retrospective and none is adversarial, so documented at a moderate confidence. SELF-CALIBRATION (agent): first-pass 74 / 0.60 lowered to 70 / 0.56 because the support is retrospective and institutional praise rather than dated, specific behaviour."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jh_rockhall, src_jh_loc, src_jh_smag, src_jh_sos | 1966-1968 | hall-of-fame biography + Library of Congress essay + magazine feature + trade-press feature] The Rock Hall calls the singles and album pieces a showcase for his guitar mastery and lists a wide range of influences from Muddy Waters and Sister Rosetta Tharpe to Curtis Mayfield and Dylan; the Library of Congress essay says his playing spoke to technical mastery delivered with casual ease and that guitar players still look to it as a model; Smithsonian magazine reports he was already developing his own grammar by Monterey; the engineer says he carried Dylan's songbook and could take others' material and make it his own. Deep skill and a broad study of sources are documented by several institutions, but the behavioural detail (practice, study) is thin and the praise retrospective, so documented at a moderate confidence."
+    },
+    "perfectionism": {
+      "score": 64,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jh_psw, src_jh_sos, src_jh_redding | 1968-1969 | engineer's accounts (two articles, one voice) + bandmate's critical account] Eddie Kramer says the Watchtower sessions ran to about 27 takes with the master chosen from them, that Hendrix pressed Dave Mason on the second rhythm part until it was right, and that he often asked for more vocal retakes; he also says Chas Chandler's strictness about wasted time clashed with Hendrix's looser approach and that 'you don't mind if it takes 30 takes'; Noel Redding calls the studio sessions 'chaos'. Repeated demand for retakes is described by one engineer in two articles and a bandmate adds the cost to the working atmosphere, so strong inference at a modest confidence, dual-edged because the same insistence strained session time and relations."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jh_psw, src_jh_rockhall, src_jh_sos | 1967-1968 | engineer's account + hall-of-fame biography + trade-press feature] Kramer says that on Electric Ladyland he placed microphones throughout the room so its resonance is audible on Voodoo Child, recorded Hendrix singing live as he played, used bounce-down methods under four-track limits and moved to stereo drums on Axis: Bold as Love; Sound On Sound adds that Hendrix and Kramer mixed together, using offbeat reverb; the Rock Hall says the band embraced studio technology, including panning, backmasking and phasing. Specific, dated studio practices are described by an engineer who was present and corroborated in general by the Hall, but the detailed account comes from one voice, so documented at a moderate confidence."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jh_psw, src_jh_sos, src_jh_redding, src_jh_smag | 1968-1970 | engineer's accounts + bandmate's critical account + magazine feature] Kramer says Hendrix directed the band directly (telling Mitchell the rhythm and pressing Mason on a part), played bass himself after Redding left, wanted to cut Watchtower with a particular acoustic line-up and had no time for rehearsal; Redding says audiences wanted the old standards while Hendrix wanted new material and that he left after Hendrix told a reporter he would expand the trio without consulting the bandmates; Smithsonian magazine quotes a 1970 interview (his own words) in which he says he felt he was too loud visually and wanted people to come to listen. A pattern of steering his own musical direction is described by an engineer, a bandmate and a magazine, but the bandmate's account is one-sided and the engineer admiring, so strong inference at a modest confidence, dual-edged because it cost him relationships with bandmates and his manager."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "지미 헨드릭스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jimi-hendrix-vente-1967.jpg",
+    "width": 746,
+    "height": 1206,
+    "source": "Wikimedia Commons, 'HendrixHoepla1967-2.jpg' -- photograph by A. Vente (VPRO) of Jimi Hendrix performing on the Dutch television programme Hoepla, studio Vitus, Bussum, 10 November 1967, taken from the Netherlands Institute for Sound and Vision (Beeld en Geluid) wiki gallery and uploaded to Commons by User:Vysotsky on 12 October 2020 under CC BY-SA 3.0. Original 746 x 1206 pixels (SHA-1 18c61abbd710fae9999a3f25145102048b7ca1f7, 142791 bytes, matches the downloaded file); saved unchanged, never upscaled. Note: the institution's wiki page for the source image shows a 500 x 509 pixel version only, so the larger Commons crop's own derivation is not independently documented; the institution's wiki states its content is CC BY-SA unless otherwise stated and carries no conflicting notice. A Dutch Nationaal Archief / Anefo CC0 photograph of Hendrix was looked for in a Commons search and none was found.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: A. Vente (VPRO) / Beeld en Geluid, 1967, CC BY-SA 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:HendrixHoepla1967-2.jpg",
+    "creator": "A. Vente (VPRO)",
+    "date": "1967-11-10",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:HendrixHoepla1967-2.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q5928 returned en label 'Jimi Hendrix', description 'American guitarist (1942-1970)', ko label '지미 헨드릭스', born 1942-11-27, died 1970-09-18, citizenship United States, P18 'HendrixHoepla1967-2.jpg' and a cropped 1967 file; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug jimi-hendrix or QID Q5928 in the roster53 worktree (grep over data-pipeline, src/data, src/core). REGION: north_america, nationalityCodes US. VOCABULARY: occupation musician, field music, impact domains artistic and cultural, tags innovator and craft_focused, archetype creative_creator are existing ids with labels; no 'guitarist' occupation label exists in en.ts so musician is used. ZERO POLITICS: nothing political scored or carded. DECEASED SUBJECT: no inference from drugs, death, mental state or private life; the Smithsonian magazine passage on his death and its cause, Redding's 'split personality' remark and money passages, relationships and military service were excluded. CANONICAL SIGNIFICANCE SOURCE: Rock and Roll Hall of Fame biography (https://www.rockhall.com/inductees/jimi-hendrix-experience; read in full) and the Library of Congress National Recording Registry essay on Are You Experienced (https://www.loc.gov/static/programs/national-recording-preservation-board/documents/AreYouExperienced.pdf; read in full). READ (8 cited non-Wikidata sources plus the Commons pages): Rock Hall, Library of Congress essay, ProSoundWeb (Kramer), Sound On Sound (Kramer), Sage Audio (Kramer), Smithsonian magazine (Petrusich), Far Out (Redding), plus the Commons and Beeld en Geluid pages. Blocked or failed: Smithsonian Insider and a NMAAHC page (403, the magazine article was read via a browser-style fetch), MoPOP (403), Met museum (429), NPR transcript (timeout), the Rock Hall page for 'jimi-hendrix' alone (404). Not opened: books, Chandler and Mitchell memoirs, the Mix original. PERSPECTIVES: the Rock Hall and Library of Congress (institutional records), an engineer who recorded him (Kramer; three pieces counted as ONE perspective), a bandmate's critical account (Redding), and a magazine feature with historian and critic voices plus Hendrix's own remarks (self; never sole support). COUNTER-VOICE: Redding on chaotic sessions and an unconsulted decision, and Kramer's note of Chandler's clash over wasted time. LIMITATIONS: behavioural detail rests heavily on one engineer and on retrospective praise; nothing of his practice routine, early development or business dealings was read; so no row exceeds 70 or 0.56. SELF-CALIBRATION (agent): the rows reviewed were creative originality (retrospective praise; lowered 74/0.60 to 70/0.56), mastery orientation (several institutions agree; left unchanged) and perfectionism (one engineer's voice, already modest at 64/0.50; left unchanged). No broad scoring problem flagged. PORTRAIT: Commons page and API read; A. Vente (VPRO), Hoepla, 10 Nov 1967, CC BY-SA 3.0; institutional wiki shows no conflicting notice but only displays a smaller 500x509 version of the image, which is flagged as a residual provenance gap (rights basis is the Commons licence plus the institution's blanket CC BY-SA statement)."
+  }
+}
