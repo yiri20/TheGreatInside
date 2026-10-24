@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "david-attenborough",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "David Attenborough",
+    "aliases": [
+      "Sir David Attenborough",
+      "David Frederick Attenborough"
+    ],
+    "wikidataId": "Q183337",
+    "birthYear": 1926,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "naturalist",
+      "writer",
+      "media_executive"
+    ],
+    "fieldIds": [
+      "film",
+      "education"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "communicator",
+      "explorer",
+      "prolific",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_attenborough_wikidata",
+      "kind": "wikidata",
+      "title": "David Attenborough (Q183337) -- verified live via the Wikidata API (2026-10-23): English label 'David Attenborough', description 'British broadcaster and naturalist (born 1926)', born 8 May 1926, no date of death, Korean label '데이비드 애튼버러', P18 image 'David Attenborough in 2025.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q183337"
+    },
+    {
+      "id": "src_attenborough_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'David Attenborough' (britannica.com; read via an Internet Archive copy because the live page returns 403 to automated clients), read in full: English broadcaster, writer and naturalist noted for educational television, especially the nine-part Life series; BBC training 1952 and producer; Zoo Quest originated in 1954 with reptile curator Jack Lester; controller of BBC-2 from 1965, helping launch The Forsyte Saga, Bronowski's The Ascent of Man, Clark's Civilisation and Monty Python's Flying Circus; director of programming 1968-72 before resigning to write and produce freelance; the Life series from Life on Earth (1979) to Life in Cold Blood (2008), The Blue Planet (2001), Blue Planet II narrated but not written; Peabody 2014, several BAFTAs, knighted 1985. CANONICAL SIGNIFICANCE SOURCE. Encyclopaedic and uncritical.",
+      "url": "https://www.britannica.com/biography/David-Attenborough"
+    },
+    {
+      "id": "src_attenborough_scotsman",
+      "kind": "press",
+      "title": "Peter Ross, 'Profile: Sir David Attenborough', The Scotsman, 30 October 2011, read in full: Cambridge geology and zoology, BBC from 1952; controller of BBC2 from 1965 commissioning programmes including Monty Python's Flying Circus and The Old Grey Whistle Test, introducing televised snooker to exploit colour and commissioning Kenneth Clark's Civilisation, which the writer calls the blueprint for his later authored documentaries; Frozen Planet's first episode drew 6.82 million viewers; he has never appeared in an advert and took a long time to endorse the climate-change argument; he describes himself as basically a journalist and not a professional scientist. Admiring newspaper profile written at the time of Frozen Planet.",
+      "url": "https://www.scotsman.com/news/profile-sir-david-attenborough-1655808"
+    },
+    {
+      "id": "src_attenborough_csm",
+      "kind": "press",
+      "title": "Kathy Stephen, 'PROFILE/Natural treasures of Britain's Sir David Attenborough', The Christian Science Monitor, 22 August 1985, read in full: for each episode of his major series he wrote a 30-40 page script specifying camera movements and his words before filming, with a researcher checking it and consulting experts, which let questions be asked in one place and answered in another; he credits the cameraman, recordist, director and the BBC Natural History Unit's resources; at least three months a year filming; his Life on Earth book sold over a million copies; BAFTA special award; trustee roles in conservation bodies (not scored). Admiring profile built largely on his own statements, with no colleague quotes and no criticism; family and private details deliberately ignored.",
+      "url": "https://www.csmonitor.com/1985/0822/ilife-f.html"
+    },
+    {
+      "id": "src_attenborough_broadcast",
+      "kind": "press",
+      "title": "Michael Rosser, 'Attenborough: BBC has an incomparable responsibility', Broadcast, 14 June 2016, read in full: report of a Sheffield Doc/Fest on-stage conversation: as BBC2 controller (1965-73 in this report) he had freedom to fail, introduced hour-long documentary strands including Civilisation and The Ascent of Man, returned to filmmaking and pitched Life on Earth (1979) because he feared someone else would think of a history-of-life series first, which he calls the proudest production and says set a pattern for natural history programmes. His own account at a public event; used only with the independent sources, never as sole support. The article's tenure dates (1965-73) differ from Britannica and Scientific American (director of programming 1968-72); Britannica is followed.",
+      "url": "https://www.broadcastnow.co.uk/attenborough-bbc-has-an-incomparable-responsibility/5104875.article"
+    },
+    {
+      "id": "src_attenborough_hdtdi",
+      "kind": "press",
+      "title": "Ashley Coates, 'Interview: Alastair Fothergill, Planet Earth', How Did They Do It?, 14 May 2013, read in full (via the site's page): the Natural History Unit producer describes producing Planet Earth (about 71 camera operators, roughly 2,000 field days, 204 locations in 62 countries; budgets must allow for failure, with two eight-week snow leopard shoots producing nothing usable), working with Attenborough on The Trials of Life, Life in the Freezer and Frozen Planet, and recreating a Shackleton-era glacier photograph with him in shot. Producer's account of his own team's method with limited direct description of Attenborough; used for working context only.",
+      "url": "https://howdidtheydoit.net/creative/alastair-fothergill-producer-planet-earth/"
+    },
+    {
+      "id": "src_attenborough_sciam",
+      "kind": "press",
+      "title": "Tanya Lewis, 'David Attenborough celebrates his 100th birthday', Scientific American, 8 May 2026, read in full: director of television programming 1968-72, considered for director general and resigned to write and produce; cinematographer Gavin Thurston calls him a normal, down-to-earth bloke who would never be outspoken unless he could categorically argue it scientifically; Keith Scholey, who worked with him for more than 45 years, describes a phenomenal work ethic and high expectations of those around him, says he was criticised in earlier years for not speaking more on environmental issues because he wanted to be certain first, and (with Thurston) calls him imposing and demanding at times without giving an incident. Named-colleague journalism, admiring in tone but includes critical remarks.",
+      "url": "https://www.scientificamerican.com/article/david-attenborough-celebrates-his-100th-birthday/"
+    },
+    {
+      "id": "src_attenborough_abc",
+      "kind": "press",
+      "title": "ABC News, 'Polar Bear Video Lands BBC in Hot Water' (abcnews.go.com, December 2011), read in full: Frozen Planet's polar bear den sequence was filmed with captive bears in a Dutch zoo rather than in the Arctic; the BBC said the commentary was carefully worded and the filming method explained on the programme website; producer Katherine Jeffs said a wild den could not be filmed; Attenborough said a camera in a wild den would mean the mother killing the cub or the cameraman; Commons committee chairman John Whittingdale called it hugely disappointing and said few viewers would find the website explanation. Counter-voice on a documented professional controversy.",
+      "url": "https://abcnews.go.com/blogs/headlines/2011/12/fakery-or-bending-the-truth"
+    },
+    {
+      "id": "src_attenborough_conservationjobs",
+      "kind": "press",
+      "title": "Caroline Dunn, 'Frozen planet: Does it Really Matter Where the Scenes are Shot?', Conservation Jobs guest blog, 19 December 2011, read in full: opinion piece that largely defends the production, noting that some reporters treated the staging as a cover-up and that Attenborough argued stating the location on screen would spoil the atmosphere; his position is reported second-hand, and the blog is opinion rather than investigation, so it is used only as context for the controversy.",
+      "url": "https://www.conservationjobs.co.uk/articles/frozen-planet-does-it-really-matter-where-the-scenes-are-shot"
+    },
+    {
+      "id": "src_attenborough_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Sir David Attenborough (4770349105).jpg' and the Foreign and Commonwealth Office Flickr photo page, checked for the portrait's licence: FCO photograph of 6 July 2010 (photo-level licence CC BY 2.0; Commons FCDO licence tag with a VRT permission ticket)",
+      "url": "https://commons.wikimedia.org/wiki/File:Sir_David_Attenborough_(4770349105).jpg"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_attenborough_csm, src_attenborough_sciam, src_attenborough_broadcast | 1979-2026 | press profile + named-colleague journalism + public conversation] The 1985 Monitor profile reports that for each major series episode he wrote a 30-40 page script specifying camera movements and his words before filming, checked by a researcher and experts, so a question could be asked in the Himalayas and answered in the Amazon; the 2016 Broadcast report has him describing writing the Life on Earth plan as a whole before filming; Scientific American quotes colleagues on his demanding work standards. The scripting method is stated mainly by Attenborough himself in 1985 and 2016, with only general colleague confirmation, so documented at a moderate confidence. SELF-CALIBRATION (agent): first-pass 74 / 0.58 lowered to 70 / 0.52 because the specific script practice rests on his own statements and colleague corroboration is general."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_attenborough_sciam, src_attenborough_csm, src_attenborough_scotsman | 1985-2026 | named-colleague journalism + press profiles] Keith Scholey, who worked with him for more than 45 years, calls his work ethic phenomenal and says he expects the best of those around him; the Monitor reports at least three months a year spent filming in the wild; the Scotsman notes he travelled to minus 35 degrees Celsius for Frozen Planet at 85. A sustained, multi-decade working pattern is documented by journalists, but the colleague evidence is one admiring long-time partner plus profile description, so a moderate confidence."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_attenborough_csm, src_attenborough_sciam, src_attenborough_hdtdi, src_attenborough_broadcast | 1985-2026 | press profiles + named-colleague journalism + producer interview] He credits the cameraman, recordist, director and the Natural History Unit's staff and resources in 1985; Scholey worked with him for more than 45 years and Thurston says he is down-to-earth and offers to carry crew members' bags; Fothergill worked with him on three series; Broadcast notes he relied on the unit to execute Life on Earth. Long working partnerships with Natural History Unit teams are documented, with the same sources also calling him imposing and demanding at times, so a moderate confidence with a mixed picture."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_attenborough_britannica, src_attenborough_scotsman, src_attenborough_broadcast | 1965-1979 | encyclopaedia + press profile + public conversation] As BBC2 controller he commissioned or launched Civilisation, The Ascent of Man, Monty Python's Flying Circus and televised snooker (Britannica, Scotsman); by his own account at Sheffield he left administration and pitched Life on Earth because he feared someone else would think of a history-of-life series first, and Scientific American reports he resigned after being considered for director general to write and produce. Initiative at channel and programme level is independently documented, but the motive for the Life on Earth pitch is his own account, so a moderate confidence."
+    },
+    "analytical_rigor": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_attenborough_sciam, src_attenborough_scotsman, src_attenborough_abc, src_attenborough_csm | 1985-2026 | named-colleague journalism + press profiles + news report] Thurston says he would never be outspoken unless he could argue it scientifically, and Scholey says he wanted to be certain before speaking on environmental issues, for which some criticised him; the Scotsman says he took a long time to endorse the climate-change argument and the Monitor says scripts were checked by researchers and experts. Against that, the Frozen Planet zoo-den sequence drew criticism from John Whittingdale that the programme should have said on screen that it was not filmed in the wild. A consistent caution about factual claims with a documented disclosure dispute; strong inference at a low-to-moderate confidence, dual-edged."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_attenborough_broadcast, src_attenborough_csm, src_attenborough_britannica | 1965-2016 | public conversation + press profile + encyclopaedia] At Sheffield he said the BBC should cover as wide a spectrum of human interests as it can and that he commissioned hour-long documentary strands when none existed; in 1985 he described himself as a teacher whose audience is his class; Britannica calls his programmes innovative educational television. The orientation toward public understanding of the natural world and the arts is consistent, but the framing mostly comes from his own statements and an encyclopaedia, so strong inference at a low confidence. Conservation advocacy is deliberately not scored."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_attenborough_scotsman, src_attenborough_csm, src_attenborough_abc | 1985-2011 | press profiles + news report] The Scotsman says public trust in him rests on an integrity detected in his work and that he never appeared in an advert; his Life on Earth book sold over a million copies (Monitor); Frozen Planet's first episode drew 6.82 million viewers (Scotsman) and the BBC reported about 8 million viewers for the series in the polar bear dispute (ABC). Large audience trust is documented, but it measures broadcast communication rather than persuasion of individuals and the writers are admiring, so strong inference at a low confidence. SELF-CALIBRATION (agent): first-pass 68 / 0.48 lowered to 62 / 0.42 because audience size and admiring profiles are indirect evidence of persuasiveness."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_attenborough_britannica, src_attenborough_scotsman | 1950s-2000s | encyclopaedia + press profile] Studied geology and zoology at Cambridge, worked in publishing then television, and as channel controller commissioned drama (The Forsyte Saga), art history (Civilisation), science and anthropology series, comedy (Monty Python's Flying Circus), live music (The Old Grey Whistle Test) and snooker; he then returned to natural history and anthropology programmes. A documented breadth across subjects as a commissioner, though much of it is institutional commissioning rather than personal work, so a moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "데이비드 애튼버러"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/david-attenborough-fco-2010.jpg",
+    "width": 1200,
+    "height": 800,
+    "source": "Wikimedia Commons 'Sir David Attenborough (4770349105).jpg', from the Foreign and Commonwealth Office Flickr stream (photo 4770349105): FCO photograph of Sir David Attenborough speaking at an FCO event for Henderson Island World Heritage Site, 6 July 2010 (name card and slide visible in the frame). The live Flickr page shows photo-level licence Attribution (CC BY 2.0); the Commons file carries the FCDO licence tag with a VRT permission ticket (2013061310007371) for the FCDO Flickr stream under the Open Government Licence; the two permissive licences do not conflict. Original 2136 x 1424, downscaled only to 1200 x 800 (no upscaling). Supersedes the earlier file david-attenborough-dawson-2025.jpg (Flickr licence conflict) - lead to remove the old file.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Foreign and Commonwealth Office, 2010, CC BY 2.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Sir_David_Attenborough_(4770349105).jpg",
+    "creator": "Foreign and Commonwealth Office",
+    "date": "2010-07-06",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sir_David_Attenborough_(4770349105).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q183337 returned en label 'David Attenborough', description 'British broadcaster and naturalist (born 1926)', born 1926-05-08, no death date, ko label '데이비드 애튼버러', P18 'David Attenborough in 2025.jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate file, src or data-pipeline reference for slug david-attenborough or Q183337 in the roster54 worktree. REGION western_europe, nationality GB. VOCABULARY: occupations naturalist, writer and media_executive, fields film and education, impact domains cultural and educational, tags communicator/explorer/prolific/sustained_excellence and archetype social_influencer are existing ids with EN+KO labels; no scientist occupation is used because Attenborough describes himself as a journalist rather than a scientist (Scotsman); no 'broadcaster' or 'producer' occupation label exists, so media_executive (BBC2 controller/director of programming) and naturalist/writer are used and the gap is reported to the lead. ZERO POLITICS / LIVING SUBJECT: only documented public professional behaviour is scored; conservation advocacy and climate statements are not scored (one factual mention only: the caution about speaking out is used under analytical rigor as a cautious-claims behaviour, and no card is made of advocacy). EXCLUDED: family and the death of his wife, health, age, private life, his brother, trustee and campaign roles as advocacy, Wikipedia/Wikidata. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'David Attenborough' (https://www.britannica.com/biography/David-Attenborough), read via an Internet Archive copy. READ (8 cited non-Wikidata sources + portrait records): Britannica, Scotsman 2011 profile, Christian Science Monitor 1985 profile, Broadcast 2016 conversation report, How Did They Do It interview with Alastair Fothergill, Scientific American 2026 (Thurston and Scholey), ABC News and Conservation Jobs on the Frozen Planet polar bear sequence. NOT opened: the New Statesman (403), UCL's centenary article (403), the BBC's own oral-history transcripts (self material), BBC Natural History Unit documents, the Telegraph, Attenborough's memoir Life on Air. Claims about Keith Scholey and Mike Gunton in earlier search snippets were not used unless the page was read. PERSPECTIVES: encyclopaedia (Britannica); newspaper profiles (Scotsman, Monitor); named long-time colleagues (Scholey, Thurston in Scientific American; Fothergill on Planet Earth team method); public self-account (Broadcast); counter-voice on professional conduct (Whittingdale and others on the Frozen Planet zoo-den disclosure, ABC News, Conservation Jobs). Self material is never sole support. CALIBRATION: most evidence is admiring and retrospective and the single critical episode is about disclosure rather than a personal trait, so the highest score is 70 and the highest confidence 0.52; eight rows, no padding. SELF-CALIBRATION (agent): reviewed planning_orientation (lowered 74/0.58 to 70/0.52: script practice largely self-stated), persuasiveness (lowered 68/0.48 to 62/0.42: audience size is indirect) and proactive_agency (kept: BBC2 commissioning is independently documented, Life on Earth pitch motive self-reported and flagged). No broad scoring problem found. PORTRAIT: Simon Dawson / No 10 photo of 4 June 2025 clearly shows him; OGL v3 basis from the UK Government Flickr account statement; caveat that the Flickr photo-level licence field is CC BY-NC-ND 2.0 (the lead should decide if the account-level OGL statement is sufficient; Crown copyright photographer was working for No 10). Saved downscaled from 3000x4000 to 900x1200."
+  }
+}

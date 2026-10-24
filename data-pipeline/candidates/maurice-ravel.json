@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "maurice-ravel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Maurice Ravel",
+    "aliases": ["Maurice Joseph Ravel"],
+    "wikidataId": "Q1178",
+    "birthYear": 1875,
+    "deathYear": 1937,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["FR"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["composer", "musician"],
+    "fieldIds": ["music"],
+    "impactDomains": ["artistic", "cultural"],
+    "tagIds": ["innovator", "independent", "perfectionist"],
+    "archetypeIds": ["creative_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ravel_wikidata",
+      "kind": "wikidata",
+      "title": "Maurice Ravel (Q1178) -- verified live via the Wikidata API (2026-10-23): English label 'Maurice Ravel', description 'French composer (1875-1937)', born 1875-03-07, died 1937-12-28, citizenship France, P18 image 'Maurice Ravel 1925.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1178"
+    },
+    {
+      "id": "src_ravel_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'Maurice Ravel' (encyclopedia.com), page read in full as raw text; it reproduces three reference entries: a Contemporary Musicians profile (Carol Brennan), an Oxford Dictionary of Music entry and the Encyclopedia of Modern Europe entry. Together they say Ravel was one of the most original figures in early twentieth-century French music who created his own musical idiom very early; that scholars deem him one of the century's best orchestrators; that his Jeux d'eau opened a new world of piano sonorities (a quoted essay in Composers Since 1900); his four or five Prix de Rome attempts, the 1905 'Ravel affair' and the resignation of Dubois; his co-founding of the Societe Musicale Independante in 1909 and of the Apaches circle; his Diaghilev ballet Daphnis et Chloe; his 1913 work with Stravinsky on a Mussorgsky orchestration; his 1920 refusal of the Legion d'honneur, described as the act of an 'independent spirit'; Stravinsky's 'Swiss clock-maker' remark and the later rejection of his formal perfection by the younger generation; Pierre Lalo's 1907 plagiarism charge; and the Ida Rubinstein commission of Bolero (1928). CANONICAL SIGNIFICANCE SOURCE. Reference compilation; the entries disagree on the number of Prix de Rome attempts (four versus a fifth) and contain colour about private habits that was not used.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/maurice-ravel"
+    },
+    {
+      "id": "src_ravel_worldhistory",
+      "kind": "biography",
+      "title": "Mark Cartwright, 'Maurice Ravel', World History Encyclopedia (worldhistory.org, 26 February 2024), read via two page extractions: Ravel entered the Prix de Rome four times without winning and was eliminated in 1905; the Conservatoire director resigned; the Societe Musicale Independante was founded in 1909; Bolero was written at Ida Rubinstein's request and premiered in 1928; Stravinsky called him a 'Swiss watchmaker' and Griffiths wrote that Ravel's imagination 'had to be confirmed by calculation'; he wrote 'relatively very little' and said 'I did my work slowly, drop by drop'; he orchestrated Mussorgsky's Pictures from an Exhibition; Diaghilev never staged La valse and in 1925 Ravel refused to shake his hand, provoking a challenge to a duel; the Ravel-Debussy rivalry was largely a press invention; and Ravel's remark that a woman who called Bolero mad 'obviously understood the piece'. Secondary popular-history synthesis; Diaghilev's link to Daphnis is not stated here.",
+      "url": "https://worldhistory.org/Maurice_Ravel"
+    },
+    {
+      "id": "src_ravel_classiquenews",
+      "kind": "press",
+      "title": "Classiquenews, 'Maurice Ravel (1875-1937) biographie' (classiquenews.com), read via a page extraction: began piano at six; entered the Conservatoire at thirteen and befriended the pianist Ricardo Vines; lessons with Faure from 1897; four unsuccessful Prix de Rome attempts (1901, 1902, 1903, 1905) causing controversy between modernists and conservatives; Daphnis et Chloe with Michel Fokine received a mixed reception in 1912 and the audience's indifference hurt him; La Valse written for Diaghilev; the 1922 re-orchestration of Mussorgsky's Pictures at an Exhibition; Ida Rubinstein's Bolero commission premiered on 22 December 1928; he reportedly called it 'empty of music'; after the war he composed roughly one work a year; he declined the Legion d'honneur in 1920; critics called L'heure espagnole 'pornographie', received Daphnis lukewarmly and L'enfant et les sortileges coldly. NOTE: the source's date of the Bolero premiere (22 December) conflicts with other accounts (November), so it is not used for dates. Music-press biography; its health passages were excluded.",
+      "url": "https://www.classiquenews.com/maurice-ravel-1875-1937biographie/"
+    },
+    {
+      "id": "src_ravel_interlude",
+      "kind": "press",
+      "title": "Siri Livingston, 'Maurice Ravel at the Turn of the Century', Interlude (interlude.hk, 20 June 2025), read via a detailed page extraction: Ravel's 1905 Prix de Rome exclusion, the possible role of his contrarian handling of the cantata Myrrha (citing biographer David Burnett James) and of a reputation Cortot described as sarcastic and aloof; protests in Le Temps, Le Matin and Le Mercure de France; Romain Rolland's letter defending him as an established composer; Dubois's resignation and Faure's appointment; Ravel's public silence and never applying again; the Apaches (Vines, Calvocoressi, Falla) as his supporters; Pierre Lalo attacking and then defending him; Debussy's reported praise of his quartet; his own remark that the quartet's structure was imperfect. Independent music-journalism account with several named critics.",
+      "url": "https://interlude.hk/maurice-ravel-at-the-turn-of-the-century/"
+    },
+    {
+      "id": "src_ravel_bso",
+      "kind": "institution",
+      "title": "Boston Symphony Orchestra, 'Koussevitzky and French Composers' (bso.org), read via a page extraction: in 1922 Serge Koussevitzky commissioned Ravel to orchestrate Mussorgsky's Pictures at an Exhibition; a few years later the BSO trustees sought a piano concerto for the 1930-31 anniversary season, which did not arrive in time, and Ravel finished the Piano Concerto in G, premiered in the US on 22 April 1932; the original programme notes record that Ravel was dissatisfied with the work; Koussevitzky conducted La Valse over sixty times and admired Ravel personally and professionally. Orchestra-institution page, promotional but specific on commissions and dates.",
+      "url": "https://bso.org/stories/koussevitzky-and-french-composers"
+    },
+    {
+      "id": "src_ravel_gallica",
+      "kind": "archive",
+      "title": "Bibliotheque nationale de France, Gallica OAI record for 'Maurice Ravel / Henri Manuel' (gallica.bnf.fr, ark:/12148/btv1b8423961b), read via the OAI record service: creator 'Manuel, Henri (1874-1947). Photographe', date 1925, positive photograph 16.5 x 11.5 cm, Bibliotheque nationale de France, departement Musique, Est. Ravel M. 018, rights statement 'domaine public / public domain'. Used only for the portrait's rights, not for scoring.",
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b8423961b"
+    },
+    {
+      "id": "src_ravel_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Ravel 1925 (2).jpg' (wikitext and API record): portrait of Maurice Ravel by Henri Manuel around 1925 from the Bibliotheque nationale de France (ark btv1b8423961b), uploaded by Kokin on 8 July 2011, tagged PD-old-auto-expired (1947); original 421 x 616 pixels. Used only for the portrait record.",
+      "url": "https://commons.wikimedia.org/wiki/File:Ravel_1925_(2).jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ravel_encyclopedia, src_ravel_worldhistory, src_ravel_classiquenews | 1901-1928 | reference + popular history + music press] The Encyclopedia of Modern Europe entry calls him one of the most original figures in early twentieth-century French music who made his own idiom very early, and an essay quoted in Composers Since 1900 says Jeux d'eau opened a new world of piano sonorities that Debussy took up; Cartwright notes that Jeux d'eau predates Debussy's innovations, and Bolero is a single repeated theme carried by a crescendo, in Ravel's own words uniform in melody, harmony and rhythm. The same sources also place him with Debussy as part of a shared French idiom and the praise is retrospective, so documented at moderate-to-good confidence and not above the mid-70s."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ravel_encyclopedia, src_ravel_classiquenews, src_ravel_worldhistory | 1909-1928 | reference + music press + popular history] Scholars quoted in the encyclopedia entry rank him among the century's best orchestrators for creating a kaleidoscopic array of orchestral sound; the Encyclopedia.com entry quotes a description of Daphnis et Chloe using rarely-used instruments (alto flute, E-flat clarinet) and a wordless chorus blended into the orchestra; classiquenews describes his orchestral writing as meticulous and refined; Ravel himself said Bolero's only variety is the orchestral crescendo. Strong, mutually consistent description of a fine sense of timbre, though mostly secondary retrospective assessment."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ravel_worldhistory, src_ravel_encyclopedia, src_ravel_classiquenews | 1910s-1930 | popular history + reference + music press] Cartwright quotes Ravel saying he worked 'slowly, drop by drop' and that he wrote relatively little, quotes Griffiths that his imagination 'had to be confirmed by calculation', and links Stravinsky's 'Swiss watchmaker' quip to his orchestration; the Oxford Dictionary entry in Encyclopedia.com repeats the clock-maker remark and ties it to the clarity of his scoring; classiquenews calls his writing concise and carefully crafted and says he composed about one work a year after the war. The 'clockmaker' remark is one quip repeated in two places, not two independent observations, and no source records a specific revision episode. SELF-CALIBRATION (agent): reviewed as a higher-risk row because it leans on a single quip and a quoted scholar; first-pass 74/0.60 lowered to 70/0.56 because the quip is repeated rather than independently corroborated, although his own 'drop by drop' remark and the slow output keep it a documented lean."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ravel_encyclopedia, src_ravel_interlude, src_ravel_classiquenews | 1905-1920 | reference + music journalism + music press] Documented behaviour: in 1909 he co-founded the Societe Musicale Independante, a counterweight to the conservative Societe Nationale; he declined the Legion d'honneur in 1920; he kept an unconventional harmonic language that offended academic ears and was quickly labelled a 'Debussyste' (classiquenews), and Cartwright says he wrote that he always went in a direction opposite to Debussy's symbolism. The encyclopedia entry's phrase 'ever an independent spirit' is an editor's characterisation and no source reports his reasons for declining the honour. SELF-CALIBRATION (agent): reviewed as a higher-risk row because the label is editorial and the motives are not documented; first-pass 70/0.55 lowered to 66/0.52 for that reason."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ravel_encyclopedia, src_ravel_classiquenews, src_ravel_interlude | 1901-1905 | reference + music press + music journalism] The sources agree he entered the Prix de Rome repeatedly (four times per two sources, a fifth per Interlude) between 1901 and 1905, was eliminated in the first round in 1905 and then stopped applying; classiquenews adds that the audience's indifference to Daphnis hurt him yet he kept composing about one work a year after the war. Repeated entries show persistence in seeking official recognition, but the attempt count differs by source, no source states his reasons, and he ended the effort after 1905, so only a modest lean."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ravel_encyclopedia, src_ravel_bso, src_ravel_interlude, src_ravel_worldhistory | 1900-1932 | reference + orchestra institution + music journalism + popular history] He was a founding member of the Apaches circle (Interlude says it supported him through the Prix de Rome conflict; Vines premiered Miroirs), worked with Fokine on Daphnis, worked with Stravinsky on the 1913 Mussorgsky orchestration, accepted professional commissions from Diaghilev, Koussevitzky (Pictures at an Exhibition, 1922) and Ida Rubinstein (Bolero, 1928), and the BSO record notes the piano concerto commission. Against this, Cartwright reports he refused Diaghilev's handshake in 1925 after La valse went unstaged, and the BSO notes the concerto came late, so the picture is of many successful professional partnerships and some breaks."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "모리스 라벨"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/maurice-ravel-henri-manuel-1925.jpg",
+    "width": 421,
+    "height": 616,
+    "source": "Photograph of Maurice Ravel by Henri Manuel (1874-1947), dated 1925, positive print 16.5 x 11.5 cm, Bibliotheque nationale de France, departement Musique, Est. Ravel M. 018 (Gallica ark:/12148/btv1b8423961b); the Gallica OAI record names Henri Manuel as creator and states 'domaine public / public domain'. Obtained from Wikimedia Commons 'Ravel 1925 (2).jpg' (uploaded 2011-07-08 by Kokin, tagged PD-old-auto-expired 1947), original 421 x 616 pixels, SHA-1 cf9d38c6f5637f2364b63768883e9167061b5502 (matches the downloaded file); saved unchanged, never resized or upscaled. Rights basis: creator died in 1947 (life plus 70 years expired in 2017, the EU/France term) and the photograph was made in 1925 (before 1931, so public domain in the United States if published); BnF's own record states public domain, so there is no conflicting institutional notice. The wikidata P18 file 'Maurice Ravel 1925.jpg' (2880 x 3840) was examined and NOT used: its Commons page names no photographer ('author unknown'), gives the date as 'assumed published in 1925' and carries a to-be-checked Gallica tag, i.e. a generic basis only. The higher-resolution Gallica download itself was blocked to automated access (403), so the 421 x 616 Commons copy of the same Gallica item is used.",
+    "license": "Public domain (photograph by Henri Manuel, 1925, d. 1947; BnF Gallica states public domain; Commons tag PD-old-auto-expired 1947)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ravel_1925_(2).jpg",
+    "attribution": "Henri Manuel, c. 1925, Bibliotheque nationale de France (Gallica), public domain",
+    "attributionUrl": "https://gallica.bnf.fr/ark:/12148/btv1b8423961b",
+    "creator": "Henri Manuel",
+    "date": "1925",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ravel_1925_(2).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q1178 returned en label 'Maurice Ravel', description 'French composer (1875-1937)', born 1875-03-07, died 1937-12-28, citizenship France, P18 'Maurice Ravel 1925.jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate, production or src reference for slug maurice-ravel or QID Q1178 in the roster54 worktree. REGION western_europe, nationality FR. VOCABULARY: composer, musician, field music, impact domains artistic/cultural, tags innovator, independent, perfectionist, archetype creative_creator are existing ids with EN+KO labels (cf. Claude Debussy). ZERO POLITICS: nothing political scored; his wartime service and Legion d'honneur refusal are used only as a professional-honour episode. DECEASED SUBJECT: no inference from his late neurological illness, sexuality, bachelorhood, family or private habits; Cortot's personality remark, the pastel-shirt and cat passages and all death/illness passages were excluded. CANONICAL SIGNIFICANCE SOURCE: Encyclopedia.com 'Maurice Ravel' (https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/maurice-ravel), read in full; it reproduces the Encyclopedia of Modern Europe, Oxford Dictionary of Music and Contemporary Musicians entries. Britannica was blocked (403). READ (6 cited non-Wikidata content sources plus the Gallica and Commons rights records): Encyclopedia.com, World History Encyclopedia, Classiquenews, Interlude, Boston Symphony Orchestra page, and a Classic FM overview (short, orientation only, not cited). Not opened: Orenstein 'Ravel: Man and Musician' (known only through publisher and review blurbs from a search), the Cambridge chapter on the Pictures orchestration (paywalled), Carus blog and Gramophone pages, a Christian Science Monitor 1983 record comparison (read, not relevant to behaviour). PERSPECTIVES: scholarly reference entries, popular-history synthesis, music-press/journalism with named critics, and an orchestra institution. COUNTER-VOICES: Stravinsky's 'Swiss clock-maker' jibe, Pierre Lalo's plagiarism charge and later defence, critics' hostile reception of L'heure espagnole and Daphnis, the younger generation's rejection of his formal perfection, the Diaghilev rift. LIMITATIONS: much behavioural detail comes from secondary syntheses; Ravel's letters and Orenstein's interviews were not opened; Prix de Rome attempt counts and the Bolero premiere date differ between sources and are not relied on; so no row exceeds 76 or 0.62. SELF-CALIBRATION (agent): the rows reviewed were detail orientation (lowered 74/0.60 to 70/0.56: one quip repeated rather than independent), independent thinking (lowered 70/0.55 to 66/0.52: editorial label, motive undocumented) and creative originality (retrospective praise but supported by a quoted period essay and Cartwright's dating; left unchanged). No broad scoring problem flagged. PORTRAIT: Gallica OAI record and Commons wikitext read; Henri Manuel (d. 1947), 1925, BnF, public domain; the P18 file 'Maurice Ravel 1925.jpg' (author unknown, 'assumed published in 1925') was rejected for its generic basis."
+  }
+}

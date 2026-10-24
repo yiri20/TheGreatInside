@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "madonna",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Madonna",
+    "aliases": [
+      "Madonna Louise Ciccone"
+    ],
+    "wikidataId": "Q1744",
+    "birthYear": 1958,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer",
+      "musician",
+      "composer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "sustained_excellence",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_md_wikidata",
+      "kind": "wikidata",
+      "title": "Madonna (Q1744) -- verified live via the Wikidata API (2026-10-23): English label 'Madonna', description 'American singer, songwriter, and actress (born 1958)', Korean label '마돈나', born 16 August 1958, no date of death, citizenship United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1744"
+    },
+    {
+      "id": "src_md_rockhall",
+      "kind": "institution",
+      "title": "Rock and Roll Hall of Fame, 'Madonna' inductee biography (rockhall.com): inducted 2008 in the Performer category (inductor Justin Timberlake); credits her with reshaping pop and redefining the rock star image by combining dance music with fashion and video and taking on taboo subjects while staying commercially successful; describes her sound moving from 1980s synth-pop through R&B, rock and ballads, then house, electronica and industrial textures in the 1990s and EDM in the 2000s; lists albums and singles (Like a Virgin, Like a Prayer, Vogue, Ray of Light, Music); quotations from Elton John and Jim Farber; artists she influenced and was influenced by. CANONICAL SIGNIFICANCE SOURCE (with the Guinness World Records entry). Hall-of-fame narrative, admiring. Read through a page-extraction tool (a model summary, not verbatim text).",
+      "url": "https://www.rockhall.com/inductees/madonna"
+    },
+    {
+      "id": "src_md_guinness",
+      "kind": "award_body",
+      "title": "Guinness World Records, 'Best-selling female recording artist' (record entry dated 15 September 2023): lists Madonna as holder at 400 million records sold, a figure that Guinness states comes from her own claim on a US television programme in August 2022 (albums, singles and digital releases), notes that its own estimates generally fall between 300 and 400 million, that precise sales figures are difficult to obtain and often disputed, and that only the Beatles, Elvis Presley and Michael Jackson are widely thought to have sold more. CANONICAL SIGNIFICANCE SOURCE (record standing). Award-body record page; sales basis is self-reported and disputed by its own caveat, so no sales figure is used as a scored fact. Read through a page-extraction tool.",
+      "url": "https://www.guinnessworldrecords.com/world-records/best-selling-female-recording-artist"
+    },
+    {
+      "id": "src_md_mr_rol",
+      "kind": "press",
+      "title": "Andy Price, 'The story of how Madonna and William Orbit united and crafted a euphoric electronic pop classic' (Ray of Light feature, MusicRadar, 2024), read in full: Madonna turning in 1997 toward electronic dance music after having held a dim view of techno (her own explanation to Spin quoted); producer William Orbit's account (quoted from Keyboard magazine 1998, The Guardian and other interviews) of receiving her call within five days of sending a demo tape and her already writing to it, her adjusting the lyric and arrangement of the title track, his pushing her voice a semitone higher so that she 'got frustrated', his gear and sessions at Larrabee North, her description of working with a disorganised producer by 'cracking the whip', and Orbit's statement that 'she's a fabulous producer' and 'as responsible as me'; the album's 1998 reception (four Grammy Awards, highest first-week sales for a female artist as stated by the magazine). Retelling by a trade writer of quotations from original interviews that were not opened; admiring in tone. The producer's remarks on his own family and health, her spiritual interests and her statement about her own motherhood were not used.",
+      "url": "https://www.musicradar.com/artists/picture-madonna-the-biggest-pop-star-in-the-world-playing-with-this-retro-gear-that-you-could-buy-for-usd50-in-the-recycler-the-story-of-how-madonna-and-william-orbit-united-and-crafted-a-euphoric-electronic-pop-classic"
+    },
+    {
+      "id": "src_md_mr_lap",
+      "kind": "press",
+      "title": "Andy Price, 'How Madonna transitioned from pop to the profound with the Vatican-enraging Like a Prayer' (MusicRadar), read in full: sessions with producers Stephen Bray and Patrick Leonard beginning September 1988; Leonard's quoted account (to Billboard, The Guardian and Music Business Worldwide) that five songs were written in two weeks, nothing took more than four hours and she sang the album's vocals once with no retakes; his statement that he brought the music and gospel influence and she added the words, that he first objected to a chorus line until she explained her intent, and Madonna's own account (to SongTalk) of devising the acapella-and-organ bridge and choir idea; bassist Guy Pratt's recollection of her pushing him for 'more'; Prince's uncredited guitar at the start of the title track as told by Leonard; the video's religious and racial imagery, the Vatican's criticism and boycott call, and Pepsi pulling a $5 million advertising partnership. Retelling by a trade writer of quotations from original interviews that were not opened; the collaborator accounts are admiring. The passages on her marriage and her mother were not used.",
+      "url": "https://www.musicradar.com/artists/when-you-start-like-a-prayer-the-guitar-that-you-hear-before-the-door-slams-thats-prince-how-madonna-transitioned-from-pop-to-the-profound-with-a-vatican-enraging-classic"
+    },
+    {
+      "id": "src_md_attitude",
+      "kind": "press",
+      "title": "Attitude magazine, 'Pharrell Williams recalls studio scuffle with Madonna' (attitude.co.uk, dated 7 September 2017): producer Pharrell Williams says that while co-producing Hard Candy (2008) he and Madonna repeated one take, she grew frustrated and replied 'I got it!', he objected to being spoken to that way, and after an argument they 'hugged it out'; the piece draws on a radio interview and gives no direct quote from Madonna. One collaborator's story in an entertainment-news item; thin on method. Read through a page-extraction tool.",
+      "url": "https://attitude.co.uk/news/world/pharrell-williams-recalls-studio-scuffle-with-madonna-279922"
+    },
+    {
+      "id": "src_md_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'MadonnaO2171023 (97 of 133) (53269593787) (cropped).jpg' and its source file 'MadonnaO2171023 (97 of 133) (53269593787).jpg' (with the Commons API record) -- checked for the portrait: photograph by Raph_PH, The O2 Arena, London, 17 October 2023; CC BY 2.0; the source file carries a FlickreviewR pass dated 19 October 2023.",
+      "url": "https://commons.wikimedia.org/wiki/File:MadonnaO2171023_(97_of_133)_(53269593787)_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_md_rockhall, src_md_mr_rol, src_md_mr_lap | 1985-2000s | hall-of-fame biography + two trade-press features] The Rock Hall describes her sound moving from 1980s synth-pop through R&B, rock and ballads to house, electronica and industrial textures in the 1990s and EDM in the 2000s; the Ray of Light feature records that in 1997 she moved toward electronic dance music after having held a dim view of techno, explaining to Spin that the style had 'developed into something else'; the Like a Prayer feature describes her moving in 1988-89 away from writing for a teenage audience. A change of style across decades is documented by an institution and two features, but the quotations are retold and admiring, so a moderate confidence."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_md_mr_rol, src_md_mr_lap, src_md_attitude | 1988-2008 | two trade-press features + entertainment-news item] Producer William Orbit says 'she's as responsible as me' for the Ray of Light production; Patrick Leonard says he brought the music and she added the words, and Madonna herself says they devised the bridge and choir idea together; the bassist describes her urging him on for 'more'; Pharrell Williams recounts a heated disagreement over repeated takes that was resolved. Several named collaborators describe working partnerships and a shared producer credit, and one describes friction, but all are retold interviews and mostly admiring, so a moderate confidence."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_md_mr_rol, src_md_mr_lap | 1988-1997 | two trade-press features] Madonna says she handles an uptight collaborator by loosening things up and a chaotic one by 'cracking the whip' and becoming more focused, and Orbit agrees that he 'flourishes under that'; Leonard says he first objected to a lyric line and relented once she explained her vision; the Like a Prayer feature describes her setting the album's direction with her producers. One collaborator corroborates her own account of setting the tone in sessions, but the evidence is thin and relayed, so a moderate confidence."
+    },
+    "execution_speed": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_md_mr_lap | 1988-1989 | trade-press feature quoting one producer] Patrick Leonard says the album's first five songs were written in two weeks with nothing taking more than four hours, that she wrote her lyric for the title song in about three hours and that she sang each song on Like a Prayer once with no retakes, which he calls 'extraordinary'; the Ray of Light feature, by contrast, describes a long album process with a slower collaborator. The fast pace on one album rests on one producer's retold account. SELF-CALIBRATION (agent): first-pass 76 / 0.58 lowered to 72 / 0.52 because the whole row depends on a single collaborator's recollection relayed through a magazine and a different album shows a slower process."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_md_mr_lap, src_md_rockhall | 1989 | trade-press feature + hall-of-fame biography] The Like a Prayer feature records that the video's religious imagery drew public criticism from the Vatican, including a call to boycott her tour and her commercial partners, and that Pepsi pulled a $5 million advertising partnership (later reaffirming support); the Rock Hall says she took on taboo subjects while remaining commercially successful. Treated as a professional episode in her creative work only; no political stance is scored. A single episode and one admiring biography, so a moderate-low confidence."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_md_rockhall, src_md_mr_lap, src_md_mr_rol | 1985-1998 | hall-of-fame biography + two trade-press features] The Rock Hall says she combined dance music with fashion and video, the Like a Prayer feature describes a controversial music video as a central part of the song's impact, and the Ray of Light feature mentions the 1992 book Sex released alongside the album Erotica; her work across music, image and video is documented in summary, but no source examines her practice in each domain, so the row stays a modest inference."
+    },
+    "creative_originality": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_md_rockhall, src_md_mr_lap, src_md_mr_rol | 1985-1998 | hall-of-fame biography + two trade-press features] The Rock Hall credits her with reshaping pop and the rock star image, and critic Jim Farber is quoted calling 'Madonna the music maker' a deep and enduring role; the Like a Prayer feature credits her with the lyric, the acapella-and-organ bridge idea and the choir concept while the producer says he supplied the music and gospel influence; the Ray of Light feature describes her bringing in an electronic producer rather than inventing the sound. Co-authorship and borrowing from collaborators are documented alongside her own contributions, so a moderate-low score and confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마돈나"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/madonna-raph-ph-2023.jpg",
+    "width": 750,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'MadonnaO2171023 (97 of 133) (53269593787) (cropped).jpg' -- photograph by Raph_PH of Madonna at The O2 Arena, London, 17 October 2023 (Flickr photo 53269593787), a crop of 'MadonnaO2171023 (97 of 133) (53269593787).jpg', uploaded to Commons and cropped by User:Hohum on 5 November 2023; CC BY 2.0. The source file carries a FlickreviewR pass (19 October 2023, cc-by-2.0). Original of the cropped file 1500 x 2400 pixels (1,199,961 bytes; SHA-1 c2fe4441f19f1d801d00fd905a585f5777e6f560 matches the downloaded file); the stored file was downscaled only (750 x 1200), never upscaled. Caveats: the Flickr page itself was not opened separately, so the licence rests on the Commons page and its 2023 Flickr review record; the sitter is a living person photographed at a public concert.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Raph_PH, 2023, CC BY 2.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:MadonnaO2171023_(97_of_133)_(53269593787)_(cropped).jpg",
+    "creator": "Raph_PH",
+    "date": "2023-10-17",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:MadonnaO2171023_(97_of_133)_(53269593787)_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q1744 returned en label 'Madonna', description 'American singer, songwriter, and actress (born 1958)', ko label '마돈나', born 1958-08-16, no date of death, citizenship United States, P18 'MadonnaO2171023 (97 of 133) (53269593787) (cropped).jpg'; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug madonna or QID Q1744 in the roster54 worktree (grep over data-pipeline, src/data, src/core). REGION: north_america, nationalityCodes US. VOCABULARY: occupations singer, musician, composer; field music; tags sustained_excellence and communicator; archetypes creative_creator and social_influencer are existing ids with EN labels (songwriter, actress/actor-as-occupation and guitarist were not used). ZERO POLITICS: nothing political scored or carded; the Like a Prayer video controversy is recorded factually as a professional episode and informs only one risk-tolerance row. LIVING SUBJECT: public documented professional behaviour only; her marriage, mother, spiritual interests, motherhood, family and any health or private matters in the sources were excluded, as were the producer's own family and health remarks. CANONICAL SIGNIFICANCE SOURCES: Rock and Roll Hall of Fame biography (https://www.rockhall.com/inductees/madonna) and the Guinness World Records entry for best-selling female recording artist (https://www.guinnessworldrecords.com/world-records/best-selling-female-recording-artist); both read through a page-extraction tool (a model summary, not verbatim text), so only facts the tool reproduced are used. READ (6 cited non-Wikidata sources plus Commons): Rock Hall, Guinness World Records, two MusicRadar features (read in full from the saved page text), Attitude magazine, and the Commons pages. Blocked or not opened: the BMI Like a Virgin making-of page (403), the Hollywood Reporter excerpt of Nile Rodgers's memoir (paywalled redirect), the Patrick Leonard Telegraph/inkl item (403), a Queerty songwriter item (403), Vice's Stuart Price interview (host not resolvable), Slant's Leonard interview, original Spin, Keyboard, Guardian, Billboard and SongTalk interviews that MusicRadar quotes. A Loudwire piece on Maverick signing Deftones and Wikipedia's Maverick page were read for orientation and not cited: they did not support a scored row, and Maverick (the business venture) is deliberately not scored or carded as a side venture. PERSPECTIVES: institutional records (Rock Hall, Guinness); a producer collaborator (William Orbit on Ray of Light); a songwriting-producer collaborator and others (Leonard, Bray, Pratt on Like a Prayer, relayed through MusicRadar); a producer (Pharrell Williams on Hard Candy). COUNTER-VOICES: Orbit's and Madonna's own description of a disorganised producer and her 'cracking the whip', Orbit's note that she made him reach beyond his range, Leonard's initial objection to a lyric line and his claim of having built the record, Pharrell Williams's account of a studio argument, Pepsi and Vatican reactions to the video, and Guinness's caveat that the sales figure is self-reported and disputed. Not independent: the two MusicRadar features share one author and one retelling style, and the Madonna and Orbit quotations come from the same interview set. SELF-CALIBRATION: reviewed execution_speed (lowered, see row), creative_originality (kept: already scored low-moderate with co-authorship priced in) and leadership_drive (kept: Orbit independently agrees with her own description). Broad flag for the lead: the profile is sparse (7 rows) and rests heavily on retold collaborator quotations; no row exceeds 72 / 0.58. PORTRAIT: Commons file by Raph_PH, 17 October 2023, CC BY 2.0, Flickr review pass on the source file; saved downscaled to 750 x 1200 from 1500 x 2400; the alternative P18 (Rebel Heart Tour 2015, Stockholm) was not opened because the primary was clear."
+  }
+}

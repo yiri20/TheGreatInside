@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "irene-joliot-curie",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Irène Joliot-Curie",
+    "aliases": [
+      "Irène Curie"
+    ],
+    "wikidataId": "Q7504",
+    "birthYear": 1897,
+    "deathYear": 1956,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "physicist"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_irene_wikidata",
+      "kind": "wikidata",
+      "title": "Irène Joliot-Curie (Q7504) -- verified live via the Wikidata API (2026-10-23): English label 'Irène Joliot-Curie', description 'French chemist and physicist (1897-1956)', born 1897-09-12, died 1956-03-17, citizenship France, Korean label '이렌 졸리오퀴리', P18 image 'Joliot-curie.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7504"
+    },
+    {
+      "id": "src_irene_nobel_bio",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Irène Joliot-Curie - Biographical' (nobelprize.org), read in full: daughter of Pierre and Marie Curie; nurse radiographer in the First World War; Doctor of Science in 1925 with a thesis on the alpha rays of polonium; important work, alone or with her husband, on natural and artificial radioactivity, transmutation and nuclear physics; shared the 1935 Chemistry prize for the synthesis of new radioactive elements; her 1938 research on neutron action on heavy elements was 'an important step in the discovery of uranium fission'; lecturer in 1932, professor in the Paris Faculty of Science in 1937, Director of the Radium Institute in 1946; took part in creating the first French atomic pile (1948) and worked out plans for the Orsay nuclear physics centre. The biography also lists political and women's-organisation memberships and a 1936 government post; none of that is scored. CANONICAL SIGNIFICANCE SOURCE. Award-body biography, partly retrospective and admiring.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1935/joliot-curie/biographical/"
+    },
+    {
+      "id": "src_irene_nobel_speech",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Presentation Speech' by W. Palmaer for the 1935 Nobel Prize in Chemistry (nobelprize.org), read in full: describes how aluminium bombarded with polonium alpha particles went on emitting positrons after the bombardment stopped, how chemical treatment of the irradiated aluminium showed the activity followed the gas, consistent with radio-phosphorus, further new radio-elements from boron and magnesium, that the discovery was communicated to the Academy on 15 January 1934, that the laureates themselves suggested protons, deuterons and neutrons as projectiles while Fermi used neutrons with great success, and that the prize rewarded their synthesis of new radioactive elements 'carried out in partnership'. Contemporary prize-giving speech; celebratory by nature.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1935/ceremony-speech/"
+    },
+    {
+      "id": "src_irene_aip",
+      "kind": "institution",
+      "title": "American Institute of Physics, 'Jean-Frederic and Irene Curie' (History of Physics exhibit 'Marie Curie and the Science of Radioactivity', history.aip.org), read in full: the couple worked as a scientific partnership at the Radium Institute; Irène held a doctorate on polonium alpha rays before Frédéric joined the laboratory in 1925 as a junior assistant; papers co-signed from 1928; 'they first missed the discoveries of the neutron and the positron'; January 1934 artificial radioactivity; after the prize they worked separately and took on administrative duties; her 1938 uranium work produced puzzling results that led German scientists to the discovery of fission. Also records that cynics claimed Frédéric pursued Irène for career reasons (private-life gossip, not used). CANONICAL SIGNIFICANCE SOURCE (second). Institutional exhibit; brief and secondary.",
+      "url": "https://history.aip.org/exhibits/curie/2ndgen1.htm"
+    },
+    {
+      "id": "src_irene_scihist",
+      "kind": "institution",
+      "title": "Science History Institute, 'Irène Joliot-Curie and Frédéric Joliot' (sciencehistory.org scientific biographies), read in full: attended the cooperative school her mother and colleagues organised; worked with her mother in the First World War radiography corps; assisted her mother at the Radium Institute while finishing her doctorate; the couple shared the 1935 Chemistry Nobel for creating new radioactive elements by alpha-particle bombardment and interpreted continued positron emission after bombardment as radioactive isotopes; the method made radioactive isotopes relatively cheap, with biomedical and nuclear-physics uses. Thin on how they divided tasks. Institutional museum biography.",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/irene-joliot-curie/"
+    },
+    {
+      "id": "src_irene_leone",
+      "kind": "press",
+      "title": "Matteo Leone and Nadia Robotti, 'Frédéric Joliot, Irène Curie and the early history of the positron (1932-33)', European Journal of Physics 31 (2010) 975-987 (author manuscript from the University of Turin repository, read in full): a history-of-physics paper using primary sources. Shows the April 1932 cloud-chamber and ionization-chamber experiments with a polonium-beryllium source in a magnetic field and lead filters; their note of 11 April 1932 reporting tracks curving in the opposite sense; their letters to Rutherford and Bohr; Bohr's suggestion that the tracks came from the chamber walls and their reply that the tracks were too energetic for that; that they did not then pursue the question and did not mention it in their June 1932 Nature letter; that Anderson announced the positron in 1932; that Meitner and Philipp (Berlin) and Chadwick, Blackett and Occhialini (Cambridge) reported opposite-curvature tracks from a similar set-up in March 1933; and that in April 1933 Joliot and Curie showed the positrons came from gamma-ray interaction with lead, identified electron-positron pair production, and measured energies, an achievement the authors say was poorly acknowledged. Independent scholarly account with a critical stance on the missed discovery; it names the pair 'Joliot and Curie' jointly, so credit is not split between them.",
+      "url": "https://iris.unito.it/bitstream/2318/131281/2/686408_MATTEO-LEONE_Frederic%20Joliot%2C%20Irene%20Curie%20and%20the%20early%20history%20of%20the%20positron.pdf"
+    },
+    {
+      "id": "src_irene_lindau",
+      "kind": "institution",
+      "title": "Luisa Bonolis, 'Irène Joliot-Curie > Research Profile' (Lindau Nobel Laureate Meetings Mediatheque, mediatheque.lindau-nobel.org), read in full: electron-positron pair creation (1933); the 1932 results on penetrating radiation from beryllium credited as the decisive clue for Chadwick's neutron; the 1934 artificial radioactivity; later work with Halban and Preiswerk on thorium; her 1938 work with Pavel Savitch on a 3.5-hour activity in irradiated uranium described as close to the fission finding later reported by Hahn and Strassmann; names the Berlin team of Hahn, Strassmann and Meitner. Scholarly institutional profile with a bibliography; the page's summary is brief.",
+      "url": "https://www.mediatheque.lindau-nobel.org/research-profile/laureate-joliot-curie"
+    },
+    {
+      "id": "src_irene_epn",
+      "kind": "press",
+      "title": "Pierre Radvanyi, 'Frédéric Joliot-Curie and the first French atomic reactor', Europhysics News 40(6), 2009 (europhysicsnews.org), read in full: written by an Orsay physicist about Joliot; reports that in Paris Frédéric and Irène produced small, very intense polonium sources, observed in early 1932 that the penetrating radiation ejected recoil protons from hydrogenated sheets (the start of Chadwick's neutron identification), discovered artificial radioactivity in January 1934 (radioactive phosphorus from aluminium), and that early 1938 Irène Joliot-Curie and Paul Savitch opened a new way of studying neutron-irradiated uranium, with Hahn and Strassmann resuming separations after Meitner fled in July 1938 and finding barium just before Christmas 1938. Focused on Frédéric, so Irène's own role is covered only in passing; independent of the Nobel and Curie-family sources.",
+      "url": "https://www.europhysicsnews.org/articles/epn/pdf/2009/06/epn20096p20.pdf"
+    },
+    {
+      "id": "src_irene_assoc",
+      "kind": "institution",
+      "title": "Association Curie et Joliot-Curie, 'Irène Joliot-Curie' (curie-joliotcurie.fr), read in full: earned a radiological nursing diploma in March 1915 and helped her mother set up X-ray equipment in field hospitals; physical sciences degree in 1920 and work at the Curie Laboratory of the Radium Institute; thesis on polonium alpha rays defended in 1925; worked jointly with Joliot from 1928 to 1935; artificial radioactivity announced January 1934; lecturer then professor at the Paris Faculty of Science; director of the Curie Laboratory in 1946; in 1955 obtained a new laboratory at Orsay equipped with a synchrocyclotron. Heritage-association page with no named author, so partisan toward its subject. Her political career, her illness and her family life on the page are not scored.",
+      "url": "https://curie-joliotcurie.fr/?p=865"
+    },
+    {
+      "id": "src_irene_royalsoc",
+      "kind": "press",
+      "title": "Kip Heath, 'Irène Joliot-Curie: coming out of her parents' shadow' (Royal Society blog, 11 February 2026, royalsociety.org), read in full: popular science-communication piece reporting that at 18 she travelled alone to Amiens and Ypres to set up X-ray equipment in military hospitals and taught surgeons to use X-rays to locate shrapnel; defended her doctorate on polonium alpha rays in March 1925; that in 1933 the couple presented neutron-mass work at the Seventh Solvay Conference; the 1934 aluminium experiment; second woman science Nobel laureate; and that her achievements were often overshadowed by her mother's. The blog's feminist-campaign and political passages and the leukaemia passage are not scored. Secondary popular source; used only for the wartime radiology detail, with confidence capped.",
+      "url": "https://royalsociety.org/blog/2026/02/irene-joliot-curie/"
+    },
+    {
+      "id": "src_irene_commons",
+      "kind": "institution",
+      "title": "Portrait rights check (2026-10-23): Wikimedia Commons raw wikitext of 'File:Joliot-curie.jpg' (a redirect to 'File:Irène Joliot-Curie (1897-1956) in 1932.jpg', photograph by K. G. D. Horovitz, tagged PD-Sweden-photo, now carrying a deletion request dated 13 October 2026 for 'Not public domain yet'), the Smithsonian Institution Archives 1921 photograph (Flickr 'no known copyright restrictions' versus the archive's own record), the Library of Congress print LCCN 92509319, and the Studio Harcourt Wellcome Collection record p6ynhbj7. No portrait was saved. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/Category:Ir%C3%A8ne_Joliot-Curie"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_irene_leone, src_irene_nobel_speech, src_irene_epn, src_irene_lindau | 1932-1934 | scholarly history + prize speech + physicist's account + institutional profile] Leone and Robotti document, from primary sources, the pair's April 1932 sequence of cloud-chamber runs in a magnetic field and ionization-chamber absorption runs with lead filters, then in 1933 a modified set-up with a 1.8 cm lead screen against an aluminium layer that located the origin of the positrons and led to the pair-production explanation; the Nobel speech describes the 1934 chemical tests on irradiated aluminium (activity following the gas, consistent with radio-phosphorus) and the extension to boron and magnesium. The behaviour is repeated, varied and controlled experiment. Credit is for the partnership ('Joliot and Curie'), not Irène alone, and the 1932 set-up also missed the positron, so this is kept below the top band. SELF-CALIBRATION (agent): reviewed, kept at 76; the three independent scholarly and prize-body sources agree on the method."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_irene_aip, src_irene_nobel_speech, src_irene_lindau, src_irene_leone | 1928-1938 | exhibit + prize speech + profile + scholarly paper] Papers were co-signed from 1928; the Nobel speech credits a synthesis 'carried out in partnership'; the Lindau profile lists later joint work with Halban and Preiswerk on thorium and with Pavel Savitch on irradiated uranium; Leone and Robotti treat the 1932-33 results as joint work and show them seeking outside advice from Rutherford and Bohr. The evidence for the working relationship is mostly retrospective and institutional, none of the sources shows how tasks were divided, and the partner was her spouse, so it is moderate. SELF-CALIBRATION (agent): first-pass 72, lowered to 68 because credit-splitting is not documented and the support is largely admiring prize and heritage language."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_irene_leone, src_irene_nobel_speech | 1932-1934 | scholarly history + prize speech] In 1932 the pair estimated electron energies from track curvature, reasoned from the lead-absorption curves that the radiation was a mixture of neutrons and gamma rays, and in reply to Bohr argued that the energy of the tracks excluded wall effects; in 1934 chemical evidence was used to show that the new activity was an isotope of phosphorus. The same 1932 reasoning still missed the positron and the neutron, which Leone and Robotti call understandable given the electron-like tracks. Careful quantitative reasoning that did not always reach the right reading; kept at a moderate score and confidence."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_irene_leone, src_irene_lindau, src_irene_assoc | 1925-1938 | scholarly history + profile + heritage page] A thesis on polonium alpha rays, then a run of polonium-based experiments from 1932 to 1934, repeated after Bohr's objections (a higher-field repeat and a May 1932 reply defending the data), and a later multi-year thorium and uranium programme with collaborators. The documents show a long consistent research line but say nothing directly about the effort or setbacks involved, so the trait is an inference from the sustained programme."
+    },
+    "belief_updating": {
+      "score": 52,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_irene_leone, src_irene_aip, src_irene_nobel_speech | 1932-1934 | scholarly history + exhibit + prize speech] Leone and Robotti report that in 1932 the pair stuck to a nuclear-disintegration explanation for the backward-curving tracks despite Bohr's alternative, did not connect Anderson's positron announcement to their own photographs, and did not pursue the issue for months; AIP says they 'first missed' the neutron and positron. In 1933, after the Berlin and Cambridge reports, they re-ran the experiment within days and showed the positrons came from gamma-ray pair production, and in 1934 they read the persisting positron emission as a new radioactive isotope. A mixed record of slow then decisive revision, hence a dual-edged middle score."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_irene_epn, src_irene_nobel_speech | 1930s | physicist's account + prize speech] Radvanyi says Frédéric and Irène produced small, very intense polonium sources in Paris; Palmaer's speech notes polonium was chosen because it gave alpha particles in greater numbers and at higher speed than radium and was obtainable in reasonable quantity. Only these two sources bear on it, one of which centres on Frédéric, so confidence is moderate."
+    },
+    "proactive_agency": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_irene_assoc, src_irene_royalsoc, src_irene_scihist | 1914-1918 | heritage page + popular blog + museum biography] She trained in radiological nursing (diploma March 1915 per the association), worked in the radiography corps with her mother, and, per the Royal Society blog, travelled at 18 to hospitals at Amiens and Ypres to set up X-ray equipment and show surgeons how to locate shrapnel. The specific detail comes from one popular secondary source and the family context makes it hard to separate her own initiative from her mother's programme, so confidence is capped low. SELF-CALIBRATION (agent): reviewed, kept at 55 because it is already low and the corroborated core (diploma and field-hospital X-ray work) is stated by two sources."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이렌 졸리오퀴리"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear likeness could be established concretely. (1) The Wikidata P18 file 'Joliot-curie.jpg' redirects to the Commons file of a 1932 photograph by K. G. D. Horovitz (1894-1959) tagged PD-Sweden-photo, and that file page carries a deletion request dated 13 October 2026 ('Not public domain yet'); Horovitz died in 1959 so life+70 has not expired in the EU, and the Swedish tag is not a concrete basis. (2) The best alternative, the 1921 Smithsonian Institution Archives photograph by James Stokley (original 2800 x 2196, clean frontal portrait in academic dress, Commons file 'Irène Joliot-Curie (1897-1956), 1921.jpg'), is labelled 'no known copyright restrictions' on the Smithsonian Flickr account, but the Archives' own record reportedly lists 'Copyright Not Evaluated' (that record page returned 403 to automated fetches and was read only through a search summary), Stokley died in 1989/1990, and no 1921 publication is documented, so a US public-domain basis is not proven. (3) The Library of Congress print LCCN 92509319 (c1921, 'No known restrictions on publication', U.S. Copyright Office registration note J249635) is cleanly licensed but shows a profile view beside another man in a dark scene, the Commons copy of the file is corrupt (blank image), and it is not a usable portrait. (4) The 1935 Studio Harcourt photograph (Wellcome Collection record p6ynhbj7) has no digital item or item-level licence, only a site-wide CC BY 4.0 statement, and Commons' PD-France tag is not backed by a documented basis. NEXT STEP: ask the Smithsonian Institution Archives (photos@si.edu) or check the Science Service press-distribution record to confirm whether the Stokley photograph was published in 1921; if so it is public domain in the US and can be used (downscaled from 2800 x 2196 only), otherwise find a CC0/PD alternative (e.g. an archive-held 1920s Agence Rol or Nationaal Archief image)."
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q7504 returned en label 'Irène Joliot-Curie', description 'French chemist and physicist (1897-1956)', born 1897-09-12, died 1956-03-17, citizenship France, ko label '이렌 졸리오퀴리' (the Wikidata ko description '프랑스의 과학자' was not used), P18 'Joliot-curie.jpg'; the lead's hint was correct. SLUG/QID CHECK: no existing candidate file or src/data-pipeline reference for slug irene-joliot-curie or QID Q7504 in the roster54 worktree (pierre-curie and marie-curie exist as separate people). REGION western_europe, nationality FR (career base Paris), era 20th_century. VOCABULARY: occupations chemist and physicist, fields chemistry and physics, impactDomains scientific/historical, tags nobel_laureate and systematic_thinker, archetype scientific_explorer are existing ids with EN+KO labels (cf. pierre-curie, dorothy-hodgkin). ZERO POLITICS: her 1936 government post, committee and peace-council memberships, communist-affiliated positions and women's-rights activism are incidental and unscored; primary identity is scientist. EXCLUDED deliberately: her illness and death (no inference from radiation exposure), family relations and her marriage as private life (the Marie Curie relationship appears only as institutional context for the Radium Institute and the 1921 portrait), the AIP gossip about the marriage, the political and Ellis Island passages in Encyclopedia.com, any personality adjectives from popular pages (blunt, haughty) that rested on unnamed contemporaries, Wikipedia. CANONICAL SIGNIFICANCE SOURCE: Nobel Foundation, 'Irène Joliot-Curie - Biographical' (https://www.nobelprize.org/prizes/chemistry/1935/joliot-curie/biographical/); second orientation source AIP exhibit. READ (9 cited non-Wikidata sources): Nobel biographical (via a direct page copy), Nobel 1935 presentation speech, AIP exhibit, Science History Institute biography, Leone and Robotti (EJP 2010, full text), Lindau/Bonolis research profile, Radvanyi (Europhysics News 2009), Association Curie et Joliot-Curie page, Royal Society blog. PERSPECTIVES: award-body (Nobel), scholarly history of physics (Leone and Robotti, a critical voice on the 1932 misses), physicist-historian (Radvanyi, Lindau/Bonolis), heritage/museum institutions, popular science communication. NOT OPENED OR BLOCKED: Britannica (403), the Science History Institute page is brief on task division, Encyclopedia.com's Karin Haag entry was read but NOT cited because it contains claims that conflict with other sources (a 1934 directorship and a '1939 fission demonstration'), Rayner-Canham/Pycior/Noordenbos and Quinn books and the Curie-Savitch Comptes Rendus papers were not opened, no colleague reminiscences about daily lab culture were obtained, and the Reflets de la physique 2016 article returned an HTML block page. CAVEATS: nearly all sources describe the pair's joint work, so individual attribution within the Irène/Frédéric partnership is not separable and rows describe the partnership behaviour; Hahn, Meitner and Fermi appear only as factual context for the neutron, positron and fission episodes. PORTRAIT: HELD (see portrait.reason): K. G. D. Horovitz 1932 file is under a Commons deletion request; Smithsonian 1921 Stokley photograph is the best lead but its rights basis is not concrete. SELF-CALIBRATION PASS: rows reviewed were experimentation (76, kept), collaboration (72 lowered to 68 for undocumented credit split and admiring-only support) and proactive_agency (55, kept). No broad scoring problem flagged; the profile is sparse (7 rows) by design."
+  }
+}

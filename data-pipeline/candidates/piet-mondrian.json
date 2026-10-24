@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "piet-mondrian",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Piet Mondrian",
+    "aliases": ["Piet Mondriaan", "Pieter Cornelis Mondriaan"],
+    "wikidataId": "Q151803",
+    "birthYear": 1872,
+    "deathYear": 1944,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["NL"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["painter", "artist"],
+    "fieldIds": ["art"],
+    "impactDomains": ["artistic", "cultural"],
+    "tagIds": ["innovator", "perfectionist", "theorist"],
+    "archetypeIds": ["creative_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mondrian_wikidata",
+      "kind": "wikidata",
+      "title": "Piet Mondrian (Q151803) -- verified live via the Wikidata API (2026-10-23): English label 'Piet Mondrian', description 'Dutch painter (1872-1944)', born 1872-03-07, died 1944-02-01, citizenship Netherlands, P18 image 'Piet Mondriaan.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q151803"
+    },
+    {
+      "id": "src_mondrian_tate_neoplasticism",
+      "kind": "institution",
+      "title": "Tate, 'Neo-plasticism' art term (tate.org.uk), read in full: neo-plasticism is the term adopted by the Dutch pioneer of abstract art Piet Mondrian for his abstract painting using only horizontal and vertical lines and primary colours; applied also to the De Stijl circle up to Mondrian's secession (Tate dates it 1923); quotes his essay 'Neo-Plasticism in Pictorial Art', published in the first eleven issues of De Stijl, on art expressing itself in abstraction of form and colour, 'the straight line and the clearly defined primary colour'; states he had a profound influence on later art and is now seen as one of the greatest of all modern artists. CANONICAL SIGNIFICANCE SOURCE. Institutional, retrospective and admiring.",
+      "url": "https://www.tate.org.uk/art/art-terms/n/neo-plasticism"
+    },
+    {
+      "id": "src_mondrian_tate_destijl",
+      "kind": "institution",
+      "title": "Tate, 'De Stijl' art term (tate.org.uk), read via a page extraction: De Stijl was founded in 1917 as a publication by Mondrian and Theo van Doesburg; in its first year's issues Mondrian set out his aims in a series of articles and used the term neo-plasticism, possibly for the first time; the circle included van der Leck, Vantongerloo, Rietveld and Oud; Mondrian withdrew in 1923 (Tate's date) after van Doesburg's use of diagonal elements; van Doesburg kept the journal going to 1931. Institutional; the page gives no further detail on the dispute and its 1923 date differs from other sources' 1925.",
+      "url": "https://www.tate.org.uk/art/art-terms/d/de-stijl"
+    },
+    {
+      "id": "src_mondrian_thyssen",
+      "kind": "institution",
+      "title": "Museo Nacional Thyssen-Bornemisza, 'Piet Mondrian' artist biography (museothyssen.org), read via a page extraction: trained as a drawing teacher, entered the Rijksakademie in 1892; early muted landscapes, brighter colour after Jan Toorop's influence in 1908; Paris from 1912 where he adopted Cubism and gradually turned towards abstraction; kept in the Netherlands by the First World War where he met van der Leck and van Doesburg; co-founded De Stijl in 1917; left the group permanently in 1925 over van Doesburg's diagonals; worked with Cercle et Carre (1929) and Abstraction-Creation (1931); London 1938, New York from autumn 1940 on Harry Holtzman's invitation where his style 'lost its previous rigidity' and gained a livelier rhythm. Museum biography, brief; does not cover theosophy or method.",
+      "url": "https://museothyssen.org/en/node/14763"
+    },
+    {
+      "id": "src_mondrian_golding_nyrb",
+      "kind": "press",
+      "title": "John Golding, 'Mysteries of Mondrian', The New York Review of Books, 22 June 1995 (nybooks.com), read via a detailed page extraction: a critical review of the 1995 Hague/Washington/MoMA retrospective catalogue and several monographs by a painter and art historian. Reports that Mondrian failed the 1898 Prix de Rome entrance exam on figure drawing, was a slow starter, was transformed by the Domburg circle in 1908 and by Cubism in 1911-12; borrowed Analytic Cubist grids but never adopted multiple viewpoints; worked in series but often reworked earlier pieces; tested conclusions by rotating the canvas into the lozenge format from 1918; was helped by Bart van der Leck to remove the last Cubist syntax; found his 'New Plastic in Painting' theory turgid and largely a justification of conclusions reached intuitively; attributes the break with van Doesburg to personal disputes and Mondrian's resentment that architecture was given priority over painting; reports his Theosophical reading from about 1908, a move away from it around 1919 and disenchantment with Schoenmaekers; notes the New York work with coloured tape and that the retrospective dispelled the image of a cold perfectionist; concludes his art is about process and experiment. Independent critical voice; disagrees with the catalogue on several points.",
+      "url": "https://www.nybooks.com/articles/1995/06/22/mysteries-of-mondrian/"
+    },
+    {
+      "id": "src_mondrian_believer",
+      "kind": "press",
+      "title": "The Believer, feature on Mondrian's Victory Boogie Woogie (thebeliever.net), read via a detailed page extraction: reports that in New York he used coloured industrial adhesive tape to test ideas without committing paint and repeatedly reworked paintings even after exhibiting them; Hans Janssen calls his work intuitive; in January 1943 he was working on Victory Boogie Woogie alone and said it mattered 'to have one picture right'; the 2006-2013 museum/RCE/MOLAB investigation found large fields fixed early, smaller areas still adjusted, up to eight layers of tape in places, and last changes that erased black lines and broke symmetry; critics disagreed on whether it was finished; quotes Greenberg and Motherwell on a mechanical, dehumanised quality and Rothko calling him 'a sensualist'; Vantongerloo's 1922-23 measurement of his paintings, which Mondrian resented, though they stayed friends. NOTE: the extraction attributes the essay 'Neo-Plasticism in Pictorial Art' to van Doesburg, which conflicts with Tate (Mondrian), so that point is not used. Independent journalism with named critics and conservators.",
+      "url": "https://thebeliever.net/?p=33257"
+    },
+    {
+      "id": "src_mondrian_moma_press",
+      "kind": "institution",
+      "title": "Museum of Modern Art press release page for the exhibition 'Mondrian' (press.moma.org), read via a page extraction: presents his four New York years before his 1944 death as the focus of the first major survey of that work, naming Broadway Boogie Woogie (1942-43) and the unfinished Victory Boogie Woogie (1942-44, on loan via Kunstmuseum Den Haag), and linking his arrival in New York with the spread of boogie-woogie music. Institutional promotional text for a forthcoming exhibition, used only for the late-work framing.",
+      "url": "https://press.moma.org/exhibition/mondrian/"
+    },
+    {
+      "id": "src_mondrian_trust_chronology",
+      "kind": "institution",
+      "title": "Mondrian Trust, 'Chronology' photo-and-works timeline (mondriantrust.com), read via a page extraction: an image-caption timeline of studios in Amsterdam, Paris and New York, designs such as the 1926 Bienert library-studio, the 1942 'Masters of Abstract Art' show and the works Broadway Boogie Woogie and the unfinished Victory Boogie Woogie, with several works recorded as 'first state' or 'second state'. The extraction itself flags caption/date inconsistencies, so it is used only to corroborate the reworking of paintings and the studio-design activity, never for a date.",
+      "url": "https://www.mondriantrust.com/chronology/"
+    },
+    {
+      "id": "src_mondrian_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Piet Mondrian 2.jpg' (wikitext and API record), checked for the portrait's rights: photograph from De Stijl vol. 5, no. 12 (December 1922), p. 179, anonymous photographer, via the 1968 De Stijl complete reprint; tagged PD-1923 and PD-anon-70-EU; original 926 x 942 pixels. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian_2.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mondrian_tate_neoplasticism, src_mondrian_tate_destijl, src_mondrian_golding_nyrb | 1912-1920s | museum + critical review] Tate calls him a pioneer of abstract art whose neo-plasticism restricted painting to straight horizontal and vertical lines and primary colours, with a profound influence on later art; Golding documents how this was reached stepwise (Analytic Cubist grids without multiple viewpoints, the 1914 'plus and minus' works, van der Leck's help in dropping the last Cubist syntax) and that his theory justified conclusions reached intuitively. The originality is widely recognised, but Tate's language is retrospective and admiring and the path drew on Cubism and contemporaries, so documented at moderate-to-good confidence and not above the mid-70s."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mondrian_golding_nyrb, src_mondrian_believer, src_mondrian_trust_chronology | 1918-1944 | critical review + journalism + museum timeline] Golding says he tested conclusions by rotating the canvas into the lozenge format from 1918, worked in series, and concludes his art is essentially about process and experiment; The Believer reports that in New York he used newly available coloured adhesive tape to test ideas on the canvas without committing paint, and the 2006-2013 investigation found layered tape and late adjustments; the Mondrian Trust timeline records first and second states of works. Several independent sources agree on a testing-by-trial habit; stops short of the 80s because the evidence is concentrated on method rather than a broad documented range of tests."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mondrian_believer, src_mondrian_golding_nyrb, src_mondrian_thyssen | 1908-1944 | journalism + critical review + museum biography] The Believer reports he limited his palette to red, blue, yellow, black and white yet explored many shades within it; Golding notes his Paris studios, with painted cardboard rectangles and crate furniture, mirrored his pictorial concerns, that red became a full colour only around 1920, and that the retrospective showed the 1930s work to be far from a cold, mechanical exercise (Rothko's 'sensualist' remark is quoted by The Believer against Greenberg's 'ruled precision'); Thyssen records the brighter colour after 1908. Strong, mutually consistent documentation of a fine colour and spatial sense, though the sources are partly retrospective critical judgment."
+    },
+    "perfectionism": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mondrian_believer, src_mondrian_golding_nyrb, src_mondrian_trust_chronology | 1930s-1944 | journalism + critical review + timeline] The Believer reports he repeatedly reworked paintings even after exhibiting them as finished and, in January 1943, said it was important 'to have one picture right'; Golding says each canvas in a series superseded the last and he often reworked earlier pieces; the conservation study found up to eight layers of tape and adjustments to small areas up to his last weeks, and Victory Boogie Woogie remained unfinished (critics split on whether it could be finished). Rework is well documented, but Golding explicitly warns against the 'cold perfectionist' image, and the reworking is also experimentation, so scored as a moderate lean with dual-edged impact. SELF-CALIBRATION (agent): reviewed as a higher-risk row because it overlaps experimentation and a source argues against the cold-perfectionist reading; first-pass 72/0.58 lowered to 68/0.55 because the rework evidence also fits trial-and-error exploration and not only a drive for exactness."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mondrian_tate_destijl, src_mondrian_thyssen, src_mondrian_golding_nyrb | 1923-1925 | museum + critical review] Tate and the Thyssen biography both say he left the De Stijl group he co-founded after van Doesburg introduced diagonals, keeping to his strictly horizontal-vertical system; Golding documents that his theory was reached intuitively and finds it contradictory in places. The sources disagree on the date (Tate 1923, Thyssen 1925) and on the cause (Golding stresses personal disputes and resentment that architecture was prioritised over painting), so the clear documented behaviour is holding to his own formal rule against a co-founder's change, while the motive is contested. SELF-CALIBRATION (agent): reviewed as a higher-risk row because motive is contested and the evidence is thin on specific behaviour; first-pass 70/0.55 lowered to 66/0.50 because the sources disagree on why and when he left and no source reads his own account of the dispute."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mondrian_thyssen, src_mondrian_golding_nyrb, src_mondrian_believer | 1911-1944 | museum + critical review + journalism] Documented changes of approach: a move from muted landscapes to brighter colour after 1908, adoption of Cubism after the 1911 exhibition and the 1912 move to Paris, shedding the last Cubist syntax with van der Leck's influence, and in New York an acknowledged loosening of his earlier rigidity into a livelier rhythm with small broken colour blocks and altered lines. These show major stylistic revisions, but they are inferred from stylistic change and none of the sources records him explaining a changed mind, and he also held firmly to the no-diagonal rule, so only a moderate lean."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mondrian_tate_destijl, src_mondrian_thyssen, src_mondrian_believer | 1917-1931 | museum + journalism] He co-founded De Stijl with van Doesburg and published his theory in its journal, later worked with Cercle et Carre and joined Abstraction-Creation, and The Believer reports he stayed friends with Vantongerloo despite resenting his mathematical analysis of his paintings; but he left De Stijl after a dispute and Golding describes him as private and keeping friends at a careful distance, which is observation of working relationships only. A mixed picture, so a modest score with low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "피트 몬드리안"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/piet-mondrian-anonymous-1922.jpg",
+    "width": 926,
+    "height": 942,
+    "source": "Wikimedia Commons 'Piet Mondrian 2.jpg': a photograph of Piet Mondrian by an anonymous photographer, published in the Dutch journal De Stijl vol. 5, no. 12 (December 1922), p. 179 (scan from the 1968 De Stijl complete reprint, Athenaeum/Bert Bakker/Polak & Van Gennep, vol. 2, p. 304), uploaded by Vincent Steenberg on 11 November 2008 and tagged PD-1923 and PD-anon-70-EU. Original 926 x 942 pixels, SHA-1 d4ea8e4aa3c8d9904441a860d1ae1c88a80b1600 (matches the downloaded file); saved unchanged, never resized or upscaled. Rights basis: first publication in a Dutch periodical in 1922 (anonymous, so EU 70 years after publication expired in 1992; published before 1931 so public domain in the United States). The photographer is unknown, which is the residual weakness. A 1899 anonymous portrait from the Gemeentemuseum Den Haag ('Piet Mondriaan.jpg', 618 x 826) was examined and rejected as the main choice because its Commons page gives only a creation date and a generic tag, not a documented first publication. No conflicting institutional copyright notice was found for the 1922 De Stijl publication.",
+    "license": "Public domain (anonymous photograph published in De Stijl, December 1922; Commons tags PD-1923 and PD-anon-70-EU)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian_2.jpg",
+    "attribution": "Anonymous photographer, published in De Stijl, December 1922 (public domain)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian_2.jpg",
+    "creator": "Anonymous",
+    "date": "1922-12",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Piet_Mondrian_2.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q151803 returned en label 'Piet Mondrian', description 'Dutch painter (1872-1944)', born 1872-03-07, died 1944-02-01, citizenship Netherlands, P18 'Piet Mondriaan.jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate, production or src reference for slug piet-mondrian or QID Q151803 in the roster54 worktree. REGION western_europe, nationality NL. VOCABULARY: painter, artist, field art, impact domains artistic/cultural, tags innovator, perfectionist, theorist, archetype creative_creator are existing ids with EN+KO labels (cf. Claude Monet, Wassily Kandinsky). ZERO POLITICS: nothing political is scored or carded; his wartime relocations are not used. DECEASED SUBJECT: no inference from private life, relationships, health or death; Theosophy appears only as a documented reading influence in Golding and is not used as belief inference or as a row; Golding's remarks on his lack of lovers and the Believer's mention of a companion were excluded. CANONICAL SIGNIFICANCE SOURCE: Tate 'Neo-plasticism' (https://www.tate.org.uk/art/art-terms/n/neo-plasticism), read in full, plus Tate 'De Stijl'. READ (8 cited non-Wikidata sources plus the Commons record): Tate x2, Thyssen, Golding in the NYRB, The Believer, MoMA press page, Mondrian Trust chronology. Britannica, MoMA artist page, Met essay (403/429), Guggenheim (JS-only page) and Artforum (paywalled) could not be read; several pages were read through WebFetch extractions rather than raw text, which is stated in each source title. PERSPECTIVES: institutional (Tate, Thyssen, MoMA, Mondrian Trust), a critical art-historian review (Golding), and journalism with conservators and named critics (The Believer). COUNTER-VOICES: Golding's criticism of the theory as turgid and the catalogue's omissions, Greenberg and Motherwell on a mechanical quality, and the conflicting 1923 versus 1925 dates and causes for the De Stijl break. LIMITATIONS: Mondrian's own letters and the Bois catalogue were not opened; no source gives his own account of the van Doesburg dispute; the Believer article had a likely attribution error (not used). No row exceeds 76 or 0.62. SELF-CALIBRATION (agent): the rows reviewed were perfectionism (lowered 72/0.58 to 68/0.55: rework also fits trial-and-error and Golding disputes the cold-perfectionist image), independent thinking (lowered 70/0.55 to 66/0.50: motive and date are contested) and creative originality (retrospective praise but multiple sources document its derivation; left unchanged). No broad scoring problem flagged. PORTRAIT: Commons page and API read; anonymous photograph first published in De Stijl December 1922, PD-1923 and PD-anon-70-EU, 926 x 942 original, saved unchanged; the 1899 Gemeentemuseum-held anonymous portrait (618 x 826) was rejected because only a creation date and a generic tag support it; the photographer is unknown, flagged as the residual gap."
+  }
+}

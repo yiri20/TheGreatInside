@@ -8638,6 +8638,253 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1969, at 28, he opened his own practice in Osaka rather than Tokyo, and the Row House in Sumiyoshi (1976) then brought him wide recognition.",
   "tadao-ando.interpretation.turning_point.1":
     "This is consistent with a self-directed career path built outside the usual route.",
+  /* ---------------------------------------------------------- bjarne-stroustrup (Roster54) */
+  "bjarne-stroustrup.achievement.1":
+    "Designed and implemented C++ at Bell Labs after joining in 1979, building on C and inspired by Simula, to give flexible abstraction mechanisms that map directly and efficiently onto hardware.",
+  "bjarne-stroustrup.achievement.2":
+    "Guided the evolution of C++ for decades through its ISO standardisation, his books and papers; the Computer History Museum says it enabled object-oriented, generic and resource-management techniques to be used at scale.",
+  "bjarne-stroustrup.achievement.3":
+    "Received the 2018 Charles Stark Draper Prize for conceptualizing and developing C++ and was elected to the US National Academy of Engineering in 2004.",
+  "bjarne-stroustrup.moment.1":
+    "In 2018 he sent the ISO C++ committee a letter, 'Remember the Vasa!', warning that 43 individually sensible proposals together risked endangering the language's future.",
+  "bjarne-stroustrup.interpretation.moment.1":
+    "This is consistent with a willingness to challenge colleagues in a shared standards process over where the language was heading.",
+  "bjarne-stroustrup.moment.2":
+    "In February 2025 he wrote the committee a note calling for urgent action on memory safety and urging support for his Profiles framework, which critics such as Sean Baxter said would not work.",
+  "bjarne-stroustrup.interpretation.moment.2":
+    "This is consistent with acting on a perceived threat to the language by proposing his own remedy, even against technical sceptics.",
+  "bjarne-stroustrup.turning_point.1":
+    "Joining Bell Labs' Computer Science Research Center in 1979, after his Cambridge PhD, he began designing and implementing C++ there.",
+  "bjarne-stroustrup.interpretation.turning_point.1":
+    "This is consistent with moving into an industrial research setting where he could turn a language design idea into a working tool.",
+  /* ---------------------------------------------------------- david-attenborough (Roster54) */
+  "david-attenborough.achievement.1":
+    "Wrote and presented Life on Earth (1979) for the BBC, a 13-part series on the history of life, and went on to the Life series that Britannica calls his most notable work, from The Living Planet to Life in Cold Blood.",
+  "david-attenborough.achievement.2":
+    "As controller of BBC2 from 1965, helped launch Kenneth Clark's Civilisation, Jacob Bronowski's The Ascent of Man and Monty Python's Flying Circus, and introduced televised snooker to make use of colour; he was BBC director of programming from 1968 to 1972.",
+  "david-attenborough.achievement.3":
+    "Began as a BBC producer in 1952 and originated Zoo Quest in 1954; later wrote and narrated The Blue Planet and Planet Earth with the BBC Natural History Unit, won a Peabody Award in 2014 and was knighted in 1985.",
+  "david-attenborough.moment.1":
+    "For each episode of his major series he wrote a 30-40 page script before filming, specifying camera movements and his words, which he said let him ask a question in the Himalayas and answer it in the Amazon.",
+  "david-attenborough.interpretation.moment.1":
+    "This is consistent with a planning-first way of making documentaries rather than filming and waiting for something to happen.",
+  "david-attenborough.moment.2":
+    "When Frozen Planet's polar bear den scene was revealed to have been filmed with captive bears in a zoo, the BBC pointed to its website explanation and Attenborough said a wild den could not be filmed without the mother killing the cub or the cameraman, while MP John Whittingdale said the commentary should have made it clear.",
+  "david-attenborough.interpretation.moment.2":
+    "This is consistent with a documented dispute over how openly a factual programme discloses its filming methods, rather than a settled judgement about his own care for accuracy.",
+  "david-attenborough.turning_point.1":
+    "After years in BBC management he resigned in 1972 to write and produce full-time, and by his own account pitched Life on Earth, the 1979 series that began his Life programmes, because he feared someone else would think of a history-of-life series first.",
+  "david-attenborough.interpretation.turning_point.1":
+    "This is consistent with a deliberate move from channel management back to authored programme-making.",
+  /* ---------------------------------------------------------- fei-fei-li (Roster54) */
+  "fei-fei-li.achievement.1":
+    "Led the creation of ImageNet, a dataset begun at Princeton in 2007 that pairs WordNet noun categories with annotated images; it held more than 14 million images by 2010.",
+  "fei-fei-li.achievement.2":
+    "Launched the ImageNet challenge in 2010; Toronto's AlexNet win in 2012 is described as the moment people began to believe deep learning models actually worked.",
+  "fei-fei-li.achievement.3":
+    "Co-directs Stanford's Institute for Human-Centered AI, launched in 2019, and co-started the high-school programme that became AI4ALL.",
+  "fei-fei-li.moment.1":
+    "At Princeton she built her project on WordNet's categories and committed to years of image collection when most peers did not see a dataset as an interesting research contribution.",
+  "fei-fei-li.interpretation.moment.1":
+    "This is consistent with a willingness to stay with a long, unfashionable project.",
+  "fei-fei-li.moment.2":
+    "Asked about ImageNet's flaws, she told Wired that the team knew far less when it began and that things not done well have to be fixed.",
+  "fei-fei-li.interpretation.moment.2":
+    "This is consistent with a readiness to revise her view of earlier work, though the statement is her own.",
+  "fei-fei-li.turning_point.1":
+    "After the dataset's success she turned to inclusion and human-centred AI, helping start the SAILORS programme in 2015 and co-directing Stanford HAI from 2019.",
+  "fei-fei-li.interpretation.turning_point.1":
+    "This is consistent with a shift from building a benchmark toward shaping who builds AI and to what end.",
+  /* ---------------------------------------------------------- friedrich-nietzsche (Roster54) */
+  "friedrich-nietzsche.achievement.1":
+    "Appointed professor of classical philology at Basel in 1869 at age 24, the youngest ever appointed to such a post according to the Stanford Encyclopedia, and published The Birth of Tragedy (1872), a controversial book that classical scholars largely rejected.",
+  "friedrich-nietzsche.achievement.2":
+    "After leaving Basel in 1879 he published almost a book a year, including Thus Spoke Zarathustra, Beyond Good and Evil and On the Genealogy of Morality, which challenge Christianity and traditional morality and include the 'God is dead' pronouncement.",
+  "friedrich-nietzsche.achievement.3":
+    "His unmasking of the motives behind religion, morality and philosophy deeply affected later theologians, philosophers, psychologists, poets, novelists and playwrights, although Zarathustra drew little attention in his lifetime.",
+  "friedrich-nietzsche.moment.1":
+    "Nietzsche's first book, The Birth of Tragedy, was a speculative polemic rather than careful scholarship; it was mocked as 'Future Philology' by Wilamowitz-Moellendorff, and Nietzsche then had difficulty attracting students.",
+  "friedrich-nietzsche.interpretation.moment.1":
+    "This is consistent with a willingness to depart from scholarly convention at a cost to his academic standing.",
+  "friedrich-nietzsche.moment.2":
+    "Part IV of Thus Spoke Zarathustra was printed privately in 1885 in forty copies, of which only seven were distributed among friends, and he went on publishing a new book nearly every year.",
+  "friedrich-nietzsche.interpretation.moment.2":
+    "This is consistent with continuing to write and publish despite a very small readership.",
+  "friedrich-nietzsche.turning_point.1":
+    "In 1879 Nietzsche resigned his Basel chair with a pension and afterwards lived as an itinerant independent author, spending winters on the Mediterranean and summers in Sils Maria, in search of solitude for his work.",
+  "friedrich-nietzsche.interpretation.turning_point.1":
+    "This is consistent with organising his working life around independent writing rather than an academic post.",
+  /* ---------------------------------------------------------- george-lucas (Roster54) */
+  "george-lucas.achievement.1":
+    "Wrote and directed Star Wars (1977), a space opera built from vintage swashbucklers, Westerns and Joseph Campbell's myth ideas that Britannica says became the top-grossing film in history at the time and set off a wave of effects-driven science fiction.",
+  "george-lucas.achievement.2":
+    "Founded Lucasfilm (1971) and Industrial Light & Magic (1975), the effects workshop built for Star Wars, whose computer-controlled camera system and later digital work helped shape modern film effects; the Lucasfilm group also grew to include sound and THX divisions.",
+  "george-lucas.achievement.3":
+    "Created Indiana Jones and executive-produced Raiders of the Lost Ark and the Star Wars sequels; negotiated sequel and merchandising rights for Star Wars, which the Academy of Achievement credits with starting the modern film toy tie-in model.",
+  "george-lucas.moment.1":
+    "Returning from the 1976 London shoot, Lucas found only about three effects shots finished at ILM's new Van Nuys warehouse and was frustrated that the team seemed absorbed in building tools rather than producing shots.",
+  "george-lucas.interpretation.moment.1":
+    "This is consistent with a demanding focus on finished shots over tools, though the source is a catalogue summary of press reports.",
+  "george-lucas.moment.2":
+    "Dealing with Fox on Star Wars, Lucas pressed for sequel and merchandising rights and said he expected to earn from the toys rather than his salary.",
+  "george-lucas.interpretation.moment.2":
+    "This is consistent with an eye for commercial openings that studios were not pricing in, though part of the account is his own statement.",
+  "george-lucas.turning_point.1":
+    "After THX 1138 (1971) made through Coppola's American Zoetrope, Lucas formed his own company, Lucasfilm; the success of American Graffiti (1973) then enabled him to finance Star Wars.",
+  "george-lucas.interpretation.turning_point.1":
+    "This is consistent with a preference for building a company of his own over working inside a studio.",
+  /* ---------------------------------------------------------- konosuke-matsushita (Roster54) */
+  "konosuke-matsushita.achievement.1":
+    "Founded Matsushita Electric in 1918, starting from an electric plug he designed after leaving the Osaka Electric Light Company, and reorganised it in 1935 as Matsushita Electric Industrial Co.",
+  "konosuke-matsushita.achievement.2":
+    "Built the firm into what Britannica calls the world's largest maker of consumer electric appliances, with washing machines, refrigerators and televisions for Japanese homes in the 1950s and brands such as Panasonic, Quasar and National.",
+  "konosuke-matsushita.achievement.3":
+    "Developed a management approach built on abundant, low-priced goods: a divisional system from 1933 to develop managers, an in-house training institute from 1932, and a decision in the 1929 depression to dismiss no workers.",
+  "konosuke-matsushita.moment.1":
+    "When retailers distrusted his battery bicycle lamp and sales stalled, Matsushita placed lit lamps in their shops to show they would burn for thirty hours, and orders followed.",
+  "konosuke-matsushita.interpretation.moment.1":
+    "This is consistent with a founder who found a practical, low-cost way around a sales obstacle.",
+  "konosuke-matsushita.moment.2":
+    "After the 1964 Atami meeting with about 170 distributor presidents, Matsushita said the company was at fault, then personally took over the sales headquarters and introduced new sales systems from February 1965; the account is largely company-derived.",
+  "konosuke-matsushita.interpretation.moment.2":
+    "This is consistent with a leader who took direct action to repair a conflict with his sales network.",
+  "konosuke-matsushita.turning_point.1":
+    "In December 1929, with Japanese firms laying off workers in the depression, Matsushita decided his company would dismiss no one, and EBSCO says the company revived and built two new factories in 1930.",
+  "konosuke-matsushita.interpretation.turning_point.1":
+    "This is consistent with a mission-driven leader willing to carry cost to protect his workforce, per an admiring biography.",
+  /* ---------------------------------------------------------- madonna (Roster54) */
+  "madonna.achievement.1":
+    "She reshaped pop and redefined the rock star image, in the Rock Hall's words, by combining dance music with fashion and video through hits from Like a Virgin (1985) to Vogue and Ray of Light. The Rock Hall inducted her in 2008.",
+  "madonna.achievement.2":
+    "Like a Prayer (1989) moved her from teen-oriented pop toward more personal songwriting, and Ray of Light (1998), made with producer William Orbit, turned her toward electronic dance music. MusicRadar notes the album won four Grammy Awards.",
+  "madonna.achievement.3":
+    "Guinness World Records lists her as the best-selling female recording artist, citing her own 2022 claim of 400 million records sold and noting that its estimates range from 300 to 400 million and that such figures are often disputed.",
+  "madonna.moment.1":
+    "Producer Patrick Leonard says the Like a Prayer songs were written in a rush of sessions with nothing taking more than four hours, and that she sang each song on the album once, with no retakes.",
+  "madonna.interpretation.moment.1":
+    "This is consistent with a fast, decisive way of working in the studio on that album.",
+  "madonna.moment.2":
+    "After the Like a Prayer video drew public criticism from the Vatican and a boycott call, Pepsi pulled a $5 million advertising partnership with her, though it later reaffirmed support.",
+  "madonna.interpretation.moment.2":
+    "This is consistent with a willingness to accept professional risk for a creative statement.",
+  "madonna.turning_point.1":
+    "In 1997 she turned toward electronic dance music, a style she had once viewed dimly, and began Ray of Light with producer William Orbit, who had sent a demo tape that she was already writing to within five days.",
+  "madonna.interpretation.turning_point.1":
+    "This is consistent with an ability to change musical direction and take on a new collaborator.",
+  /* ---------------------------------------------------------- maurice-ravel (Roster54) */
+  "maurice-ravel.achievement.1":
+    "Developed an original musical idiom very early; Jeux d'eau (1901) was credited with opening a new world of piano sound, and the ballet Daphnis et Chloe is counted among the major French symphonic works of the century.",
+  "maurice-ravel.achievement.2":
+    "Ranked by scholars among the century's best orchestrators; in 1922 he orchestrated Mussorgsky's Pictures at an Exhibition on a commission from conductor Serge Koussevitzky.",
+  "maurice-ravel.achievement.3":
+    "Wrote Bolero for dancer Ida Rubinstein, a single repeated theme built up by an orchestral crescendo, which premiered in Paris in 1928 and became one of his most widely performed works.",
+  "maurice-ravel.moment.1":
+    "Ravel entered the Prix de Rome competition repeatedly between 1901 and 1905 and was eliminated in the first round in 1905; the resulting press outcry led to the Conservatoire director's resignation, while Ravel stayed publicly silent and never applied again.",
+  "maurice-ravel.interpretation.moment.1":
+    "This is consistent with persistence in seeking official recognition, though the sources give differing attempt counts and no reasons of his own.",
+  "maurice-ravel.moment.2":
+    "At the 1928 premiere of Bolero a woman reportedly shouted that the composer was mad, and Ravel is said to have replied that she had understood the piece; he himself described it as uniform in melody, harmony and rhythm, its only variety the orchestral crescendo.",
+  "maurice-ravel.interpretation.moment.2":
+    "This is consistent with a composer deliberately testing an extreme, single-idea form, though the anecdote comes from a secondary synthesis.",
+  "maurice-ravel.turning_point.1":
+    "After the 1905 Prix de Rome affair, Ravel was famous; in 1909 he co-founded the Societe Musicale Independante as an alternative to the conservative Societe Nationale and, in 1920, declined the Legion d'honneur.",
+  "maurice-ravel.interpretation.turning_point.1":
+    "This is consistent with a pattern of positioning himself outside the musical establishment, although his reasons are not recorded in the sources read.",
+  /* ---------------------------------------------------------- piet-mondrian (Roster54) */
+  "piet-mondrian.achievement.1":
+    "Developed Neo-Plasticism, a pioneering form of abstract painting using only horizontal and vertical lines and primary colours; Tate says he had a profound influence on later art.",
+  "piet-mondrian.achievement.2":
+    "Co-founded the De Stijl journal with Theo van Doesburg in 1917 and set out his aims in its first issues, in the essay 'Neo-Plasticism in Pictorial Art'.",
+  "piet-mondrian.achievement.3":
+    "In New York from 1940 he loosened his strict grid into the livelier, jazz-linked Broadway Boogie Woogie and the unfinished Victory Boogie Woogie, testing ideas with coloured tape.",
+  "piet-mondrian.moment.1":
+    "After Theo van Doesburg introduced diagonal lines into his compositions, Mondrian left the De Stijl group he had co-founded and kept to horizontals and verticals only.",
+  "piet-mondrian.interpretation.moment.1":
+    "This is consistent with a willingness to hold to his own formal rule even at the cost of a long working partnership, though sources differ on the date and the reasons.",
+  "piet-mondrian.moment.2":
+    "In New York he used newly available coloured adhesive tape to move colour blocks around the canvas before committing paint, and kept adjusting Victory Boogie Woogie until his last weeks.",
+  "piet-mondrian.interpretation.moment.2":
+    "This is consistent with a working method built on testing and revising ideas directly on the canvas.",
+  "piet-mondrian.turning_point.1":
+    "After seeing Cubist work in Amsterdam in 1911, he moved to Paris in 1912, adopted Cubism and gradually turned from it toward abstraction.",
+  "piet-mondrian.interpretation.turning_point.1":
+    "This is consistent with a painter willing to rework his approach substantially in response to new work he encountered.",
+  /* ---------------------------------------------------------- prince (Roster54) */
+  "prince.achievement.1":
+    "With the Revolution he made Purple Rain (1984): the album spent 12 weeks at number one with five top-ten singles, the film won an Academy Award for Best Song Score, and the Library of Congress essay says it launched the Minneapolis Sound. The album entered the National Recording Registry in 2011.",
+  "prince.achievement.2":
+    "A composer and performer who, in the Rock Hall's words, mastered multiple instruments and styles and blended rock, funk, soul, pop and jazz. He wrote, played and recorded much of his own music, and the Rock Hall inducted him in 2004.",
+  "prince.achievement.3":
+    "After disbanding the Revolution in October 1986 he completed Sign o' the Times (1987) as a largely solo record. From 1993 he fought Warner Bros. over control of his work, changing his name to a symbol until his contract expired in 2000.",
+  "prince.moment.1":
+    "Between March 1983 and March 1984 he recorded more than three dozen songs, some for other acts he was producing, and only part of them were meant for Purple Rain.",
+  "prince.interpretation.moment.1":
+    "This is consistent with a very fast, high-volume way of working.",
+  "prince.moment.2":
+    "In rehearsals, Revolution keyboardist Lisa Coleman recalls, the band could play one groove for hours while he walked in and out calling 'Don't stop! Nobody move!'",
+  "prince.interpretation.moment.2":
+    "This is consistent with a demanding, endurance-based rehearsal discipline.",
+  "prince.turning_point.1":
+    "In 1993, at the peak of his dispute with Warner Bros. over who owned the copyright to his name, he legally changed his name to a symbol and appeared with 'SLAVE' on his face; the contract expired in 2000.",
+  "prince.interpretation.turning_point.1":
+    "This is consistent with a strong need for control over his own work, accepted even at a cost in sales.",
+  /* ---------------------------------------------------------- ray-kroc (Roster54) */
+  "ray-kroc.achievement.1":
+    "After visiting the McDonald brothers' San Bernardino restaurant in 1954, he took the franchising rights and opened the Des Plaines, Illinois restaurant in 1955; by his death in 1984 the chain had 7,500 outlets in 32 countries, three-quarters franchised.",
+  "ray-kroc.achievement.2":
+    "Made franchises uniform through written manuals, exact food specifications and training, later at Hamburger University, under the creed of quality, service, cleanliness and value.",
+  "ray-kroc.achievement.3":
+    "Bought the McDonald brothers' rights to the system in 1961 for $2.7 million; the self-service restaurant concept he scaled was the brothers' own, and they disputed his later claim to be the founder.",
+  "ray-kroc.moment.1":
+    "His obituary describes him constantly checking his restaurants for cleanliness and banning fillers from the hamburgers.",
+  "ray-kroc.interpretation.moment.1":
+    "This is consistent with close attention to operating detail as a basis for brand consistency.",
+  "ray-kroc.moment.2":
+    "After the 1961 buyout the brothers kept their original restaurant; Kroc told TIME he had run them out of business, and Dick McDonald replied that he had been joking.",
+  "ray-kroc.interpretation.moment.2":
+    "This is consistent with a hard-driving partnership style, though the accounts conflict and cannot be settled from these sources.",
+  "ray-kroc.turning_point.1":
+    "In 1954, at 52, he went from selling Multimixers to franchising McDonald's after seeing the brothers' restaurant ordering so many machines.",
+  "ray-kroc.interpretation.turning_point.1":
+    "This is consistent with an eye for an opening that others around him had not scaled.",
+  /* ---------------------------------------------------------- robert-ballard (Roster54) */
+  "robert-ballard.achievement.1":
+    "Led the team that found the wreck of the Titanic on 1 September 1985, working with the French institute IFREMER and the Argo video sled; he later located the Bismarck, John F. Kennedy's PT-109 and other wrecks, helping establish deep-sea archaeology.",
+  "robert-ballard.achievement.2":
+    "Took part in the 1977 Galapagos Rift and 1979 East Pacific expeditions that found hydrothermal vents and black smokers, and the life around them that revealed chemosynthesis; the URI profile says he prefers to be known for this work.",
+  "robert-ballard.achievement.3":
+    "Developed the Argo and Jason remotely operated systems, started the JASON Project in 1989 to send live expedition video to students, and founded the Ocean Exploration Trust, which operates the research ship Nautilus.",
+  "robert-ballard.moment.1":
+    "His 1977 attempt to find the Titanic ended when the pipe string carrying borrowed sonar and cameras collapsed to the seabed; he built the Argo-Jason system and returned with a grid search that located the wreck in 1985.",
+  "robert-ballard.interpretation.moment.1":
+    "This is consistent with a pattern of coming back to a goal after a costly setback with a better method.",
+  "robert-ballard.moment.2":
+    "The Navy agreed to fund Argo development if he first surveyed the wrecks of the Thresher and Scorpion; he used the weeks left afterwards to search for the Titanic, and the 1985 Navy spokesman attributed the project only to equipment testing.",
+  "robert-ballard.interpretation.moment.2":
+    "This is consistent with finding a funding route that served both a sponsor's needs and his own exploration goal.",
+  "robert-ballard.turning_point.1":
+    "After a fire on a French submersible with him aboard, Alvin lodging in a fissure and a bathyscaph striking a rock wall, he began to favour camera-carrying robots over crewed dives, leading to Argo, Jason and later telepresence.",
+  "robert-ballard.interpretation.turning_point.1":
+    "This is consistent with revising his method when evidence showed the old approach was limited and dangerous.",
+  /* ---------------------------------------------------------- sachin-tendulkar (Roster54) */
+  "sachin-tendulkar.achievement.1":
+    "Became India's youngest Test cricketer at 16 years 205 days on his November 1989 debut against Pakistan in Karachi, and went on to play international cricket for 24 years.",
+  "sachin-tendulkar.achievement.2":
+    "Retired in 2013 holding the records for most international runs (34,357) and most Test runs (15,921), and in 2012 became the first cricketer to score 100 international centuries (51 in Tests, 49 in one-day internationals), according to Britannica.",
+  "sachin-tendulkar.achievement.3":
+    "Scored the first double century in one-day international cricket, per Britannica, and was named player of the 2003 World Cup, where he averaged 60.2; honoured with the Bharat Ratna in 2014 and inducted into the ICC Hall of Fame in 2019.",
+  "sachin-tendulkar.moment.1":
+    "In the 2004 Sydney Test, after a series in which he kept being dismissed by balls outside off stump, Tendulkar decided not to play the cover drive at all and made 241 not out off 436 balls; Steve Waugh called it incredible fortitude, mental strength and discipline.",
+  "sachin-tendulkar.interpretation.moment.1":
+    "This is consistent with a disciplined batsman who could deliberately restrict his own game to meet a plan.",
+  "sachin-tendulkar.moment.2":
+    "Coach Gary Kirsten, who threw more net balls to him than to anyone, said Tendulkar never takes one ball for granted in practice, and teammate VVS Laxman said that even after 21 years he practised as if it were his first Test.",
+  "sachin-tendulkar.interpretation.moment.2":
+    "This is consistent with a strong orientation toward mastery of his craft, according to two admiring close observers.",
+  "sachin-tendulkar.turning_point.1":
+    "In August 1996, at 23, Tendulkar succeeded Mohammad Azharuddin as India's captain; Wisden's Mike Selvey wrote he had not pursued the post with passion, and Partab Ramchand later judged him not yet ready in 1996-97, though improving by 1999.",
+  "sachin-tendulkar.interpretation.turning_point.1":
+    "This is consistent with a player given the captaincy rather than one who sought it, whose leadership took time to develop.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -17129,6 +17376,253 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1969년 28세에 도쿄가 아닌 오사카에 자신의 사무소를 열었고, 스미요시 연립주택(1976)으로 널리 이름을 알렸다.",
   "tadao-ando.interpretation.turning_point.1":
     "이는 통상적인 경로 밖에서 스스로 길을 만들어 간 경력과 일치한다.",
+  /* ---------------------------------------------------------- bjarne-stroustrup (Roster54) */
+  "bjarne-stroustrup.achievement.1":
+    "1979년 벨 연구소에 합류한 뒤 C를 토대로 시뮬라에서 영감을 받아 C++를 설계·구현했으며, 하드웨어에 직접적이고 효율적으로 대응하는 유연한 추상화 수단을 제공했다.",
+  "bjarne-stroustrup.achievement.2":
+    "수십 년 동안 ISO 표준화 작업과 저서, 논문을 통해 C++의 발전을 이끌었다. 컴퓨터역사박물관은 C++가 객체지향, 제네릭, 자원 관리 기법을 대규모로 쓸 수 있게 했다고 설명한다.",
+  "bjarne-stroustrup.achievement.3":
+    "C++를 구상하고 개발한 공로로 2018년 찰스 스타크 드레이퍼상을 받았고 2004년 미국 공학한림원 회원으로 선출되었다.",
+  "bjarne-stroustrup.moment.1":
+    "2018년 그는 ISO C++ 위원회에 '바사호를 기억하라!'는 서한을 보내, 하나하나는 타당한 43건의 제안이 합쳐지면 언어의 미래를 위협할 수 있다고 경고했다.",
+  "bjarne-stroustrup.interpretation.moment.1":
+    "공동 표준화 과정에서 언어의 방향을 두고 동료들에게 이의를 제기하는 태도와 일치한다.",
+  "bjarne-stroustrup.moment.2":
+    "2025년 2월 그는 메모리 안전성에 대한 긴급 대응을 촉구하며 자신의 프로파일 프레임워크 지지를 요청하는 글을 위원회에 보냈고, 숀 백스터 등 비판자들은 그것이 작동하지 않을 것이라고 주장했다.",
+  "bjarne-stroustrup.interpretation.moment.2":
+    "언어에 대한 위협을 느끼면 기술적 회의론에도 불구하고 자신의 해법을 제안해 대응하는 경향과 일치한다.",
+  "bjarne-stroustrup.turning_point.1":
+    "1979년 케임브리지 박사 학위를 받은 뒤 벨 연구소 컴퓨터 과학 연구 센터에 합류해 그곳에서 C++의 설계와 구현을 시작했다.",
+  "bjarne-stroustrup.interpretation.turning_point.1":
+    "언어 설계 아이디어를 실제 도구로 만들 수 있는 산업 연구 환경으로 옮겨 간 선택과 일치한다.",
+  /* ---------------------------------------------------------- david-attenborough (Roster54) */
+  "david-attenborough.achievement.1":
+    "1979년 BBC에서 생명의 역사를 다룬 13부작 「Life on Earth」를 직접 쓰고 진행했으며, 브리태니커가 대표작으로 꼽는 「The Living Planet」부터 「Life in Cold Blood」까지 이어지는 Life 시리즈를 만들었다.",
+  "david-attenborough.achievement.2":
+    "1965년부터 BBC2 채널 총괄을 맡아 케네스 클라크의 「Civilisation」, 제이컵 브로노프스키의 「The Ascent of Man」, 「Monty Python's Flying Circus」의 방송을 도왔고 컬러 방송을 살리려 스누커 중계를 도입했으며, 1968~1972년에는 BBC 편성 총괄을 지냈다.",
+  "david-attenborough.achievement.3":
+    "1952년 BBC 프로듀서로 출발해 1954년 「Zoo Quest」를 만들었고, 이후 BBC 자연사 제작부와 함께 「The Blue Planet」과 「Planet Earth」를 쓰고 내레이션했으며 2014년 피보디상을 받고 1985년 기사 작위를 받았다.",
+  "david-attenborough.moment.1":
+    "그는 주요 시리즈의 매 회마다 촬영 전에 카메라 움직임과 자신의 대사를 지정한 30~40쪽 분량의 대본을 썼고, 이 덕분에 히말라야에서 던진 질문을 아마존에서 답할 수 있었다고 말했다.",
+  "david-attenborough.interpretation.moment.1":
+    "이는 촬영하며 무언가 일어나기를 기다리기보다 사전 계획을 앞세우는 다큐멘터리 제작 방식과 일치한다.",
+  "david-attenborough.moment.2":
+    "「Frozen Planet」의 북극곰 굴 장면이 동물원 곰으로 촬영된 것으로 밝혀지자, BBC는 웹사이트 설명을 내세웠고 애튼버러는 야생 굴에서는 어미가 새끼나 촬영자를 죽일 수 있어 촬영이 불가능하다고 말했으며, 존 휘팅데일 의원은 해설에서 분명히 밝혔어야 한다고 말했다.",
+  "david-attenborough.interpretation.moment.2":
+    "이는 사실 프로그램이 촬영 방식을 얼마나 공개해야 하는지를 둘러싼 논쟁이 있었음을 보여 주며, 정확성에 대한 그의 태도를 확정하는 것은 아니다.",
+  "david-attenborough.turning_point.1":
+    "수년간 BBC 경영직을 맡은 뒤 1972년 사임하고 전업으로 집필·제작에 나섰으며, 본인 설명에 따르면 누군가 먼저 생명의 역사 시리즈를 떠올릴까 우려해 그의 Life 시리즈의 시작이 된 1979년작 「Life on Earth」를 제안했다.",
+  "david-attenborough.interpretation.turning_point.1":
+    "이는 채널 경영에서 다시 직접 프로그램을 만드는 쪽으로 의도적으로 옮겨 간 흐름과 일치한다.",
+  /* ---------------------------------------------------------- fei-fei-li (Roster54) */
+  "fei-fei-li.achievement.1":
+    "2007년 프린스턴에서 시작해 워드넷 명사 범주에 주석 달린 이미지를 짝지은 데이터셋 이미지넷 구축을 이끌었으며, 2010년까지 1,400만 장이 넘는 이미지가 모였다.",
+  "fei-fei-li.achievement.2":
+    "2010년 이미지넷 대회를 시작했고, 2012년 토론토 연구진의 알렉스넷 우승은 사람들이 딥러닝이 실제로 작동한다고 믿기 시작한 순간으로 묘사된다.",
+  "fei-fei-li.achievement.3":
+    "2019년 출범한 스탠퍼드 인간중심 AI 연구소를 공동으로 이끌고 있으며, AI4ALL로 이어진 고등학생 프로그램을 공동으로 시작했다.",
+  "fei-fei-li.moment.1":
+    "프린스턴에서 그녀는 워드넷 범주를 토대로 프로젝트를 세우고, 대부분의 동료가 데이터셋을 흥미로운 연구로 보지 않던 때에 수년간의 이미지 수집에 몰두했다.",
+  "fei-fei-li.interpretation.moment.1":
+    "이는 오랫동안 유행에서 벗어난 프로젝트를 붙드는 태도와 부합한다.",
+  "fei-fei-li.moment.2":
+    "이미지넷의 결함에 대해 그녀는 와이어드에 시작 당시 팀이 아는 것이 훨씬 적었으며 잘못된 부분은 바로잡아야 한다고 말했다.",
+  "fei-fei-li.interpretation.moment.2":
+    "이는 이전 작업에 대한 견해를 수정할 준비가 되어 있음과 부합하지만, 이 발언은 본인의 말이다.",
+  "fei-fei-li.turning_point.1":
+    "데이터셋의 성공 이후 그녀는 포용과 인간중심 AI로 방향을 넓혀 2015년 세일러스 프로그램을 함께 시작하고 2019년부터 스탠퍼드 HAI를 공동으로 이끌었다.",
+  "fei-fei-li.interpretation.turning_point.1":
+    "이는 벤치마크를 만드는 일에서 누가, 어떤 목적으로 AI를 만드는가를 다루는 쪽으로의 전환과 부합한다.",
+  /* ---------------------------------------------------------- friedrich-nietzsche (Roster54) */
+  "friedrich-nietzsche.achievement.1":
+    "1869년 24세에 바젤 대학 고전문헌학 교수로 임용되었다. 스탠퍼드 철학 백과사전은 이런 자리에 임용된 최연소자라고 설명한다. 1872년에는 고전학계 대부분이 거부한 논쟁적인 책 '비극의 탄생'을 펴냈다.",
+  "friedrich-nietzsche.achievement.2":
+    "1879년 바젤을 떠난 뒤 거의 매년 한 권씩 책을 펴냈다. '차라투스트라는 이렇게 말했다', '선악의 저편', '도덕의 계보' 등은 기독교와 전통 도덕을 비판하며 '신은 죽었다'는 선언을 담고 있다.",
+  "friedrich-nietzsche.achievement.3":
+    "종교와 도덕, 철학의 동기를 폭로한 그의 작업은 이후 신학자, 철학자, 심리학자, 시인, 소설가, 극작가에게 깊은 영향을 주었다. 다만 '차라투스트라'는 생전에는 거의 주목받지 못했다.",
+  "friedrich-nietzsche.moment.1":
+    "첫 책 '비극의 탄생'은 꼼꼼한 학술서가 아니라 사변적인 논쟁서였고, 빌라모비츠묄렌도르프는 이를 '미래 문헌학'이라고 조롱했다. 이후 니체는 학생을 모으기 어려웠다.",
+  "friedrich-nietzsche.interpretation.moment.1":
+    "이는 학계 관행에서 벗어나는 일을 학문적 평판을 잃으면서까지 감수하는 태도와 부합한다.",
+  "friedrich-nietzsche.moment.2":
+    "'차라투스트라' 4부는 1885년 40부만 사적으로 인쇄되었고 그중 7부만 친구들에게 배포되었으며, 그 뒤에도 그는 거의 매년 새 책을 냈다.",
+  "friedrich-nietzsche.interpretation.moment.2":
+    "이는 독자가 아주 적은 상황에서도 계속 쓰고 출판한 지속성과 부합한다.",
+  "friedrich-nietzsche.turning_point.1":
+    "1879년 니체는 연금을 받으며 바젤 교수직을 사임했고, 이후 겨울에는 지중해에서, 여름에는 질스마리아에서 지내며 작업할 고독을 찾아 떠도는 독립 저술가로 살았다.",
+  "friedrich-nietzsche.interpretation.turning_point.1":
+    "이는 학술 직위보다 독립적인 저술을 중심으로 작업 생활을 꾸린 것과 부합한다.",
+  /* ---------------------------------------------------------- george-lucas (Roster54) */
+  "george-lucas.achievement.1":
+    "빈티지 모험극과 서부극, 조지프 캠벨의 신화 이론을 엮은 스페이스 오페라 '스타워즈'(1977)를 쓰고 연출했다. 브리태니커는 이 영화가 당시 역대 최고 흥행작이 되었고 특수효과 중심 SF의 물결을 낳았다고 설명한다.",
+  "george-lucas.achievement.2":
+    "루카스필름(1971)과 '스타워즈'를 위해 만든 특수효과 공방 인더스트리얼 라이트 앤 매직(1975)을 세웠다. 컴퓨터 제어 카메라 시스템과 이후의 디지털 작업은 현대 영화 특수효과의 토대가 되었고, 루카스필름 그룹은 사운드와 THX 부문으로도 확장되었다.",
+  "george-lucas.achievement.3":
+    "인디아나 존스를 창조하고 '레이더스'와 스타워즈 속편의 총괄 제작을 맡았다. 스타워즈의 속편·상품화 권리를 협상했으며, 업적아카데미는 이것이 영화 캐릭터 완구 연계 모델의 출발이 되었다고 평가한다.",
+  "george-lucas.moment.1":
+    "1976년 런던 촬영을 마치고 돌아온 루카스는 ILM의 새 밴나이스 창고에서 완성된 특수효과 컷이 세 개 정도뿐이고 팀이 컷 제작보다 장비 제작에 몰두하고 있다는 점에 불만을 가졌다.",
+  "george-lucas.interpretation.moment.1":
+    "이는 장비보다 완성된 컷을 중시하는 까다로운 태도와 부합하지만, 출처는 당시 보도를 요약한 카탈로그 기록이다.",
+  "george-lucas.moment.2":
+    "폭스와 스타워즈 계약을 하면서 루카스는 속편·상품화 권리를 요구했고, 수익은 급여가 아니라 완구에서 나올 것이라고 말했다.",
+  "george-lucas.interpretation.moment.2":
+    "이는 스튜디오들이 가격에 반영하지 않던 상업적 기회를 알아보는 안목과 부합하지만, 일부는 본인의 발언에 근거한다.",
+  "george-lucas.turning_point.1":
+    "코폴라의 아메리칸 조에트로프에서 만든 'THX 1138'(1971) 이후 루카스는 자신의 회사 루카스필름을 세웠고, '청춘 낙서'(1973)의 성공으로 스타워즈를 추진할 수 있었다.",
+  "george-lucas.interpretation.turning_point.1":
+    "이는 스튜디오 안에서 일하기보다 자신의 회사를 세우려는 성향과 부합한다.",
+  /* ---------------------------------------------------------- konosuke-matsushita (Roster54) */
+  "konosuke-matsushita.achievement.1":
+    "오사카 전등회사를 떠나 직접 설계한 전기 플러그로 사업을 시작해 1918년 마쓰시타전기를 세웠고, 1935년 마쓰시타전기산업으로 개편했다.",
+  "konosuke-matsushita.achievement.2":
+    "브리태니커가 세계 최대의 소비자용 전기제품 제조업체라고 부른 회사로 키웠으며, 1950년대에는 일본 가정용 세탁기·냉장고·텔레비전의 주요 제조사가 되었고 파나소닉, 퀘이사, 내셔널 등의 브랜드를 갖게 되었다.",
+  "konosuke-matsushita.achievement.3":
+    "풍부하고 저렴한 상품 공급이라는 철학 아래 1933년 사업부제로 관리자를 키우고, 1932년 사내 교육기관을 두었으며, 1929년 불황 속에서도 직원을 해고하지 않기로 결정하는 경영 방식을 만들었다.",
+  "konosuke-matsushita.moment.1":
+    "소매상들이 건전지 자전거 램프를 믿지 못해 판매가 부진하자, 마쓰시타는 가게마다 불을 켠 램프를 두어 30시간 간다는 것을 직접 보여 주었고 주문이 이어졌다.",
+  "konosuke-matsushita.interpretation.moment.1":
+    "판매 장벽을 실용적이고 비용이 적게 드는 방법으로 돌파한 창업자의 모습과 부합한다.",
+  "konosuke-matsushita.moment.2":
+    "1964년 약 170개 판매회사 사장들과 연 아타미 회의 뒤 마쓰시타는 회사에 잘못이 있었다고 말했고, 직접 영업본부를 맡아 1965년 2월부터 새 판매 제도를 시행했다. 이 설명은 대체로 회사 측 자료에서 나온 것이다.",
+  "konosuke-matsushita.interpretation.moment.2":
+    "판매망과의 갈등을 바로잡기 위해 직접 행동에 나선 지도자의 모습과 부합한다.",
+  "konosuke-matsushita.turning_point.1":
+    "1929년 12월, 불황 속에서 일본 기업들이 감원에 나서던 때 마쓰시타는 자기 회사에서는 아무도 해고하지 않기로 결정했고, EBSCO는 회사가 되살아나 1930년에 공장 두 곳을 새로 지었다고 전한다.",
+  "konosuke-matsushita.interpretation.turning_point.1":
+    "우호적인 전기에 따르면 직원을 지키기 위해 비용을 감수한 사명 중심 지도자의 모습과 부합한다.",
+  /* ---------------------------------------------------------- madonna (Roster54) */
+  "madonna.achievement.1":
+    "로큰롤 명예의 전당의 표현대로 그녀는 댄스 음악에 패션과 영상을 결합해 팝을 재편하고 록스타의 이미지를 새롭게 정의했다. 「Like a Virgin」(1985)부터 「Vogue」, 「Ray of Light」까지 이어진 히트곡이 그 바탕이며, 2008년 로큰롤 명예의 전당에 헌액되었다.",
+  "madonna.achievement.2":
+    "「Like a Prayer」(1989)는 십대 취향의 팝에서 더 개인적인 작사로 나아간 앨범이었고, 프로듀서 윌리엄 오르비트와 만든 「Ray of Light」(1998)는 전자 댄스 음악으로 방향을 틀었다. 뮤직레이더는 이 앨범이 그래미상 4개를 받았다고 전한다.",
+  "madonna.achievement.3":
+    "기네스 세계 기록은 그녀를 역대 가장 많이 팔린 여성 음반 아티스트로 올렸다. 근거는 2022년 본인이 밝힌 4억 장 판매 주장이며, 기네스는 자체 추정치가 3억~4억 장이고 이런 수치는 논란이 되는 경우가 많다고 덧붙였다.",
+  "madonna.moment.1":
+    "프로듀서 패트릭 레너드는 「Like a Prayer」의 곡들이 어느 것도 네 시간을 넘기지 않는 짧은 작업으로 쓰였고, 그녀가 앨범의 각 곡을 한 번만 불러 재녹음이 없었다고 말한다.",
+  "madonna.interpretation.moment.1":
+    "이는 그 앨범에서 스튜디오 작업을 빠르고 단호하게 진행하는 방식과 부합한다.",
+  "madonna.moment.2":
+    "「Like a Prayer」 뮤직비디오가 바티칸의 공개 비판과 불매 호소를 불러오자 펩시는 500만 달러 규모의 광고 제휴를 철회했다가 나중에 다시 지지 입장을 밝혔다.",
+  "madonna.interpretation.moment.2":
+    "이는 창작상의 선언을 위해 직업적 위험을 감수하려는 태도와 부합한다.",
+  "madonna.turning_point.1":
+    "1997년 그녀는 한때 부정적으로 보던 전자 댄스 음악으로 방향을 틀어 프로듀서 윌리엄 오르비트와 「Ray of Light」 작업을 시작했다. 오르비트가 보낸 데모 테이프에 그녀는 닷새 안에 이미 곡을 쓰기 시작했다.",
+  "madonna.interpretation.turning_point.1":
+    "이는 음악적 방향을 바꾸고 새로운 협업자를 받아들이는 능력과 부합한다.",
+  /* ---------------------------------------------------------- maurice-ravel (Roster54) */
+  "maurice-ravel.achievement.1":
+    "일찍부터 독창적인 음악 어법을 확립했다. 「물의 유희」(1901)는 피아노 음향의 새로운 세계를 열었다는 평가를 받았고, 발레 「다프니스와 클로에」는 20세기 프랑스의 주요 관현악 작품으로 꼽힌다.",
+  "maurice-ravel.achievement.2":
+    "학자들은 그를 20세기 최고의 관현악 편곡가 중 한 사람으로 꼽는다. 1922년 지휘자 쿠세비츠키의 의뢰로 무소륵스키의 「전람회의 그림」을 관현악으로 편곡했다.",
+  "maurice-ravel.achievement.3":
+    "무용가 이다 루빈시테인의 요청으로 하나의 주제를 관현악 크레셴도로 쌓아 올린 「볼레로」를 작곡했고, 1928년 파리에서 초연된 이 곡은 그의 가장 널리 연주되는 작품이 되었다.",
+  "maurice-ravel.moment.1":
+    "라벨은 1901년부터 1905년까지 여러 차례 로마 대상에 도전했고 1905년 예선에서 탈락했다. 이후 언론의 항의로 음악원장이 사임했지만 라벨 본인은 공개적으로 침묵했고 다시는 응시하지 않았다.",
+  "maurice-ravel.interpretation.moment.1":
+    "이는 공식적 인정을 받으려는 끈기와 부합하지만, 자료마다 응시 횟수가 다르고 그 자신의 설명은 전해지지 않는다.",
+  "maurice-ravel.moment.2":
+    "1928년 「볼레로」 초연에서 한 여성이 작곡가가 미쳤다고 외쳤고, 라벨은 그 사람이 곡을 이해했다고 답했다고 전해진다. 그는 이 곡을 선율, 화성, 리듬이 균일하고 관현악 크레셴도만이 변화를 주는 작품이라고 설명했다.",
+  "maurice-ravel.interpretation.moment.2":
+    "이는 하나의 아이디어로 극단적인 형식을 의도적으로 시험한 작곡가의 모습과 부합하지만, 이 일화는 2차 종합 자료에 의존한다.",
+  "maurice-ravel.turning_point.1":
+    "1905년 로마 대상 사건 이후 라벨은 널리 이름을 알렸다. 1909년에는 보수적인 국민음악협회의 대안으로 독립음악협회를 공동 창립했고, 1920년에는 레지옹 도뇌르 수훈을 거절했다.",
+  "maurice-ravel.interpretation.turning_point.1":
+    "이는 음악계 주류 바깥에 자신의 자리를 두려는 경향과 부합하지만, 읽은 자료에는 그 이유가 기록되어 있지 않다.",
+  /* ---------------------------------------------------------- piet-mondrian (Roster54) */
+  "piet-mondrian.achievement.1":
+    "수평선과 수직선, 삼원색만으로 그리는 추상회화 '신조형주의'를 발전시켰다. 테이트는 그가 이후 미술에 깊은 영향을 미쳤다고 설명한다.",
+  "piet-mondrian.achievement.2":
+    "1917년 테오 판 두스뷔르흐와 함께 잡지 '데 스테일'을 창간하고, 초기 호에 연재한 글 '회화에서의 신조형주의'에서 자신의 목표를 밝혔다.",
+  "piet-mondrian.achievement.3":
+    "1940년 뉴욕으로 건너가 엄격한 격자를 풀고, 색 테이프로 구성을 시험하며 재즈와 이어진 '브로드웨이 부기우기'와 미완성작 '빅토리 부기우기'를 그렸다.",
+  "piet-mondrian.moment.1":
+    "테오 판 두스뷔르흐가 작품에 대각선을 도입하자, 몬드리안은 공동 창립했던 데 스테일 그룹을 떠나 수평과 수직만을 고수했다.",
+  "piet-mondrian.interpretation.moment.1":
+    "이는 오랜 협업 관계를 잃더라도 자신의 조형 원칙을 지키려 한 태도와 부합하지만, 시기와 이유에 대해서는 자료마다 견해가 다르다.",
+  "piet-mondrian.moment.2":
+    "뉴욕에서 그는 새로 나온 색 접착테이프로 물감을 쓰기 전에 색면을 옮겨 보며 구성을 시험했고, 마지막 몇 주까지 '빅토리 부기우기'를 계속 고쳤다.",
+  "piet-mondrian.interpretation.moment.2":
+    "이는 캔버스 위에서 직접 시험하고 고쳐 가는 작업 방식과 부합한다.",
+  "piet-mondrian.turning_point.1":
+    "1911년 암스테르담에서 입체주의 작품을 본 뒤 1912년 파리로 옮겨 입체주의를 받아들였고, 점차 추상으로 나아갔다.",
+  "piet-mondrian.interpretation.turning_point.1":
+    "이는 새로 접한 작업에 반응해 자신의 방식을 크게 고쳐 나가는 화가의 면모와 부합한다.",
+  /* ---------------------------------------------------------- prince (Roster54) */
+  "prince.achievement.1":
+    "그는 밴드 레볼루션과 함께 「Purple Rain」(1984)을 만들었다. 이 앨범은 12주간 1위를 지켰고 톱10 싱글 다섯 곡을 냈으며, 영화는 아카데미 주제가·음악상을 받았다. 미국 의회도서관 에세이는 이 작품이 미니애폴리스 사운드를 열었다고 평가하며, 앨범은 2011년 국립녹음등록부에 올랐다.",
+  "prince.achievement.2":
+    "그는 로큰롤 명예의 전당의 표현대로 여러 악기와 장르를 익힌 작곡가이자 연주자로, 록, 펑크, 소울, 팝, 재즈를 결합했다. 자신의 음악 상당 부분을 직접 쓰고 연주하고 녹음했으며, 2004년 로큰롤 명예의 전당에 헌액되었다.",
+  "prince.achievement.3":
+    "1986년 10월 레볼루션을 해체한 뒤 그는 「Sign o' the Times」(1987)를 사실상 솔로 작업으로 완성했다. 1993년부터는 워너 브라더스와 작품 통제권을 두고 다투며 이름을 기호로 바꿨고, 계약은 2000년에 끝났다.",
+  "prince.moment.1":
+    "1983년 3월부터 1984년 3월 사이 그는 서른여섯 곡이 넘는 노래를 녹음했는데, 일부는 그가 제작하던 다른 팀을 위한 곡이었고 「Purple Rain」에 들어갈 곡은 그중 일부였다.",
+  "prince.interpretation.moment.1":
+    "이는 매우 빠르고 많은 양을 쏟아내는 작업 방식과 부합한다.",
+  "prince.moment.2":
+    "레볼루션의 키보디스트 리사 콜먼은 리허설에서 밴드가 한 그루브를 몇 시간씩 연주했고 그가 드나들며 '멈추지 마! 아무도 움직이지 마!'라고 외쳤다고 회상한다.",
+  "prince.interpretation.moment.2":
+    "이는 혹독하고 지구력을 요구하는 리허설 규율과 부합한다.",
+  "prince.turning_point.1":
+    "1993년 이름의 저작권을 누가 갖는가를 두고 워너 브라더스와의 분쟁이 정점에 달했을 때, 그는 이름을 기호로 법적으로 바꾸고 얼굴에 '노예'라는 글자를 쓴 채 무대에 섰으며, 계약은 2000년에 끝났다.",
+  "prince.interpretation.turning_point.1":
+    "이는 판매 감소를 감수하면서까지 자신의 작품에 대한 통제권을 지키려는 강한 욕구와 부합한다.",
+  /* ---------------------------------------------------------- ray-kroc (Roster54) */
+  "ray-kroc.achievement.1":
+    "1954년 맥도날드 형제의 샌버너디노 식당을 찾은 뒤 프랜차이즈 권리를 얻어 1955년 일리노이주 데스플레인스에 매장을 열었고, 1984년 그가 세상을 떠날 때 이 체인은 32개국 7,500개 매장, 그중 4분의 3이 프랜차이즈였다.",
+  "ray-kroc.achievement.2":
+    "문서화된 운영 지침, 정확한 식재료 규격, 이후 햄버거 대학에서의 교육으로 가맹점을 균일하게 만들었으며, 품질·서비스·청결·가치를 신조로 삼았다.",
+  "ray-kroc.achievement.3":
+    "1961년 270만 달러에 맥도날드 형제의 시스템 권리를 사들였으며, 그가 키운 셀프서비스 식당 개념은 형제의 것이었고 형제는 그가 훗날 창업자를 자처한 것에 이의를 제기했다.",
+  "ray-kroc.moment.1":
+    "부고는 그가 매장의 청결을 끊임없이 살폈고 햄버거에 증량재를 쓰지 못하게 했다고 전한다.",
+  "ray-kroc.interpretation.moment.1":
+    "이는 브랜드 일관성의 바탕으로서 운영 세부에 기울이는 세심한 주의와 부합한다.",
+  "ray-kroc.moment.2":
+    "1961년 인수 뒤 형제가 원래 식당을 유지했는데, 크로크는 타임에 그들을 몰아냈다고 말했고 딕 맥도날드는 그것이 농담이었다고 답했다.",
+  "ray-kroc.interpretation.moment.2":
+    "이는 거친 추진력의 동업 방식과 부합하지만, 설명이 엇갈려 이 자료만으로는 결론 내릴 수 없다.",
+  "ray-kroc.turning_point.1":
+    "1954년, 52세의 그는 맥도날드 형제의 식당이 믹서기를 그토록 많이 주문하는 것을 보고 멀티믹서 판매원에서 맥도날드 프랜차이즈 사업가로 방향을 바꿨다.",
+  "ray-kroc.interpretation.turning_point.1":
+    "이는 주변 사람들이 확장하지 못한 기회를 알아보는 안목과 부합한다.",
+  /* ---------------------------------------------------------- robert-ballard (Roster54) */
+  "robert-ballard.achievement.1":
+    "프랑스 해양연구소 IFREMER와 함께 아르고 영상 썰매를 이용해 1985년 9월 1일 타이태닉호 잔해를 찾아낸 팀을 이끌었다. 이후 비스마르크호와 존 F. 케네디의 PT-109 등 여러 침몰선을 찾아 심해 고고학의 토대를 닦았다.",
+  "robert-ballard.achievement.2":
+    "1977년 갈라파고스 해저 균열 탐사와 1979년 동태평양 탐사에 참여해 열수 분출구와 블랙 스모커, 그리고 화학합성 생물 군집을 발견했다. 그는 타이태닉보다 이 업적으로 기억되기를 선호한다고 로드아일랜드대 소개문은 전한다.",
+  "robert-ballard.achievement.3":
+    "원격 조종 시스템 아르고와 제이슨을 개발했고, 1989년 학생들에게 탐사 영상을 생중계하는 JASON 프로젝트를 시작했으며 연구선 노틸러스를 운영하는 오션 익스플로레이션 트러스트를 세웠다.",
+  "robert-ballard.moment.1":
+    "1977년 첫 타이태닉 탐색은 빌린 소나와 카메라를 단 파이프 줄이 무너져 내리며 끝났지만, 그는 아르고-제이슨 시스템을 만들어 격자 탐색으로 1985년 잔해를 찾아냈다.",
+  "robert-ballard.interpretation.moment.1":
+    "비용이 큰 실패 뒤에도 더 나은 방법으로 목표에 다시 도전하는 경향과 일치한다.",
+  "robert-ballard.moment.2":
+    "해군은 먼저 스레셔호와 스콜피온호 잔해를 조사한다는 조건으로 아르고 개발을 지원했고, 그는 그 뒤 남은 기간에 타이태닉을 수색했다. 1985년 당시 해군 대변인은 이 사업을 장비 시험이라고만 설명했다.",
+  "robert-ballard.interpretation.moment.2":
+    "후원자의 필요와 자신의 탐사 목표를 함께 충족하는 자금 경로를 찾아내는 경향과 일치한다.",
+  "robert-ballard.turning_point.1":
+    "탑승 중이던 프랑스 잠수정의 화재, 앨빈호의 균열 끼임, 바티스카프의 암벽 충돌을 겪은 뒤 그는 유인 잠수 대신 카메라를 단 로봇을 선호하게 되었고, 이는 아르고와 제이슨, 이후 원격 현장감 탐사로 이어졌다.",
+  "robert-ballard.interpretation.turning_point.1":
+    "기존 방식의 한계와 위험이 드러나자 방법을 바꾸는 경향과 일치한다.",
+  /* ---------------------------------------------------------- sachin-tendulkar (Roster54) */
+  "sachin-tendulkar.achievement.1":
+    "1989년 11월 카라치에서 파키스탄을 상대로 16세 205일에 인도 최연소 테스트 크리켓 선수로 데뷔했고, 이후 24년 동안 국제 무대에서 뛰었다.",
+  "sachin-tendulkar.achievement.2":
+    "2013년 은퇴할 때 국제 경기 최다 득점(3만 4,357점)과 테스트 최다 득점(1만 5,921점) 기록을 보유했고, 2012년에는 국제 경기 100번째 센추리(테스트 51회, 일일 경기 49회)를 달성한 첫 크리켓 선수가 되었다고 브리태니커는 전한다.",
+  "sachin-tendulkar.achievement.3":
+    "브리태니커에 따르면 일일 국제경기 사상 첫 더블 센추리를 기록했고, 평균 60.2점을 올린 2003년 월드컵에서 대회 최우수 선수로 뽑혔다. 2014년 바라트 라트나를 받았고 2019년 ICC 명예의 전당에 올랐다.",
+  "sachin-tendulkar.moment.1":
+    "2004년 시드니 테스트에서 오프스텀프 바깥 공에 연달아 아웃되던 텐둘카르는 커버 드라이브를 아예 치지 않기로 하고 436개 공에서 241점 무패를 기록했다. 스티브 워는 이를 놀라운 인내와 정신력, 절제라고 평했다.",
+  "sachin-tendulkar.interpretation.moment.1":
+    "계획에 맞춰 자신의 플레이를 의도적으로 제한할 수 있는 절제력 있는 타자라는 점과 부합한다.",
+  "sachin-tendulkar.moment.2":
+    "누구보다 많은 공을 그에게 던져 준 게리 커스틴 코치는 텐둘카르가 연습에서 공 하나도 소홀히 하지 않는다고 말했고, 팀 동료 VVS 락슈만은 21년이 지난 뒤에도 첫 테스트를 앞둔 것처럼 연습한다고 말했다.",
+  "sachin-tendulkar.interpretation.moment.2":
+    "가까이서 지켜본 두 사람의 증언으로 보아 기량 숙달을 향한 강한 지향과 부합한다.",
+  "sachin-tendulkar.turning_point.1":
+    "1996년 8월, 23세의 텐둘카르는 아자루딘의 뒤를 이어 인도 대표팀 주장이 되었다. 와이즈던의 마이크 셀비는 그가 이 자리를 열정적으로 좇지는 않았다고 썼고, 파르탑 람찬드는 1996~97년에는 아직 준비가 덜 되었으나 1999년에는 나아지고 있다고 평가했다.",
+  "sachin-tendulkar.interpretation.turning_point.1":
+    "주장직을 스스로 좇았다기보다 맡게 된 선수였고 리더십은 시간이 걸려 다듬어졌다는 점과 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

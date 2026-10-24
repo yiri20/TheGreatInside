@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bjarne-stroustrup",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Bjarne Stroustrup",
+    "aliases": ["Bjarne Stroustroup"],
+    "wikidataId": "Q92620",
+    "birthYear": 1950,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["DK", "US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["computer_scientist", "engineer", "inventor"],
+    "fieldIds": ["computing", "technology"],
+    "impactDomains": ["technological", "innovation", "scientific"],
+    "tagIds": ["innovator", "early_computing"],
+    "archetypeIds": ["technical_innovator"],
+    "newTagProposals": []
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "비야네 스트롭스트룹"
+    }
+  },
+  "sources": [
+    {
+      "id": "src_stroustrup_wikidata",
+      "kind": "wikidata",
+      "title": "Bjarne Stroustrup (Q92620) -- verified live via the Wikidata API (2026-10-23): English label 'Bjarne Stroustrup', description 'Danish computer scientist, creator of C++ (born 1950)', born 30 December 1950, no date of death, citizenship Denmark and United States, Korean label '비야네 스트롭스트룹', P18 images 'BjarneStroustrup.jpg' and 'Bjarne Stroustrup (2013).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q92620"
+    },
+    {
+      "id": "src_stroustrup_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, 'Bjarne Stroustrup' Fellow profile (2015 Fellow, 'for his invention of the C++ programming language'), read in full: born in Aarhus in 1950, master's in mathematics from Aarhus University (1975) and PhD in computer science from Cambridge (1979); joined Bell Labs' Computer Science Research Center and designed and implemented C++, based on C and inspired by Simula, with abstraction mechanisms that map directly and efficiently onto hardware; says C++ enabled object-oriented, generic and resource-management techniques to be used at scale; he guided its evolution through the ISO standards effort, his books and papers; later roles at Morgan Stanley, Columbia and Texas A&M; honours including the ACM Grace Murray Hopper Award (1993) and election to the National Academy of Engineering (2004). CANONICAL SIGNIFICANCE SOURCE. Institutional profile with retrospective, admiring tone.",
+      "url": "https://computerhistory.org/profile/bjarne-stroustrup/"
+    },
+    {
+      "id": "src_stroustrup_draper",
+      "kind": "award_body",
+      "title": "Draper Prize release, 'Draper Prize for Engineering Rewards C++ Pioneer' (draper.com, 22 January 2018), read in full: the National Academy of Engineering's 2018 Charles Stark Draper Prize goes to Stroustrup 'for conceptualizing and developing the C++ programming language'; the release lists uses of C++ (Google search, smartphones, film tools, Mars rover software, machine-learning libraries) and quotes Draper's president that he 'bridged the gap between a problem and its computing elements, making programming more accessible to more people'; notes his Morgan Stanley and Columbia roles. The National Academies news page carrying the one-line citation was also opened. Award-body promotional language, retrospective.",
+      "url": "https://www.draper.com/media-center/news-releases/detail/23250/draper-prize-for-engineering-rewards-c-pioneer"
+    },
+    {
+      "id": "src_stroustrup_reg2018",
+      "kind": "press",
+      "title": "Thomas Claburn, 'What's all the C Plus Fuss? Bjarne Stroustrup warns of dangerous future plans for his C++', The Register, 18 June 2018 (theregister.com), read in full: an interview built around his March 2018 'Remember the Vasa!' letter to the ISO C++ committee in which, citing 43 proposals, he wrote that individually many make sense but 'together they are insanity to the point of endangering the future of C++'; he tells the reporter the committee mixes over-enthusiasm for new features with perfectionism, that 160 people attended the latest meeting, that experts tend to design for themselves, and points to the C++ Core Guidelines and his book as aids for newcomers. Journalist-framed interview, so the answers are partly self-account while the choice of topic and framing are the reporter's.",
+      "url": "https://www.theregister.com/2018/06/18/bjarne_stroustrup_c_plus_plus/"
+    },
+    {
+      "id": "src_stroustrup_reg2025",
+      "kind": "press",
+      "title": "Thomas Claburn, 'C++ creator calls for help to defend programming language from serious attacks', The Register, 2 March 2025 (theregister.com), read in full: reports his 7 February 2025 note to the ISO C++ committee in support of the Profiles memory-safety framework ('a call to urgent action'), his 13 February message to the security study group citing a US agency memory-safety roadmap requirement as a credible threat, his 2022 reply to a Microsoft executive's call to use Rust for new projects, and quotes sceptics including the TrapC project lead who doubts Profiles will arrive in time or be practical; notes that he is 'not known for Torvaldsian invective'. Independent trade journalism with critic voices; the reporter says Stroustrup declined to elaborate further.",
+      "url": "https://www.theregister.com/2025/03/02/c_creator_calls_for_action/"
+    },
+    {
+      "id": "src_stroustrup_reg2025b",
+      "kind": "press",
+      "title": "The Register, 'Safe C++ proposal ditched' (theregister.com, 16 September 2025), read in full: reports that the Safe C++ effort was discontinued within ISO after a study-group poll favouring Profiles, quotes its author Sean Baxter that Profiles 'won the argument' yet will 'not ever work' and that the standard library is unsafe, quotes Stroustrup that the committee 'did not guarantee' Profiles for C++26, and notes critics who say Profiles lack a working implementation. Independent trade journalism with an adversarial technical voice.",
+      "url": "https://theregister.com/2025/09/16/safe_c_proposal_ditched"
+    },
+    {
+      "id": "src_stroustrup_lwn",
+      "kind": "archive",
+      "title": "LWN.net archive of Linus Torvalds's 6 September 2007 git mailing-list reply, 'Re: [RFC] Convert builtin-mailinfo.c to use The Better String Library' (lwn.net), read in full: Torvalds calls C++ 'a horrible language', argues that its library abstractions such as STL and Boost cause portability pain and inefficient models, and says C keeps out programmers he would prefer not to work with. A critic's polemic about the language and its programmers, not about Stroustrup personally; used only as the counter-voice on the language's design trade-offs.",
+      "url": "https://lwn.net/Articles/249460/"
+    },
+    {
+      "id": "src_stroustrup_infoworld",
+      "kind": "press",
+      "title": "Paul Krill, 'C++ founder champions profiles for memory safety', InfoWorld, 5 March 2025 (infoworld.com), read in full: summarises his February 2025 note urging support for initial Profiles in C++26, his argument that profiles are backward-compatible and fit a long evolutionary tradition, and the existence of rival efforts TrapC and Safe C++. Short trade news item, largely paraphrasing his note.",
+      "url": "https://www.infoworld.com/article/3839386/c-plus-plus-founder-champions-profiles-for-memory-safety.html"
+    },
+    {
+      "id": "src_stroustrup_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Bjarne Stroustrup (2013).jpg' (wikitext and API record), the Flickr photo page 'DSC_5591' by the ICPC News account, and the older file 'BjarneStroustrup.jpg' (wikitext), checked for the portrait: the 2013 photograph by Victor Zavyalov (ICPC News), 1 July 2013, tagged CC BY 2.0 with a FlickreviewR 'passed' record dated 20 July 2024, 917 x 798; the Flickr page shows Creative Commons Attribution 2.0. The older file (432 x 324) has no named author and is licensed GFDL by an e-mailed permission from the subject, a weaker basis, so it was not used. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Bjarne_Stroustrup_(2013).jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_stroustrup_chm, src_stroustrup_draper | 1979-2018 | museum profile + award body] The Computer History Museum says he designed and implemented C++ at Bell Labs, building on C and Simula, to give flexible abstraction mechanisms that map efficiently onto hardware, and that it let object-oriented, generic and resource-management techniques be used at scale; the Draper Prize cites him for conceptualizing and developing the language. The invention is widely credited and long-lived, but both sources are retrospective award or museum language, the language builds openly on C and Simula, and the one critic read (Torvalds) disputes its design merits, so confidence is moderate."
+    },
+    "systems_abstraction": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_stroustrup_chm, src_stroustrup_draper, src_stroustrup_reg2018, src_stroustrup_lwn | 1979-2018 | museum profile + award body + trade interview + critic archive] The museum describes a design that layers general abstraction mechanisms over direct hardware access, and the Draper president says he bridged the gap between a problem and its computing elements; in the 2018 interview he explains a long-term plan of type-safe and resource-safe programming through language features, libraries and guidelines together. Torvalds argues that such abstractions produce inefficient, hard-to-fix models, so the value of the abstractions is contested although the abstracting behaviour itself is documented. SELF-CALIBRATION (agent): lowered from 74 / 0.60 because both supporting sources are retrospective praise and the one independent critic disputes the outcome."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_stroustrup_chm, src_stroustrup_reg2018, src_stroustrup_reg2025 | 1979-2025 | museum profile + trade interview + trade news] The museum says he guided C++ through its ISO standards effort, books and papers over decades; The Register shows him still arguing in the standards process in 2018 and 2025 and writing urgent notes to the committee, and the 2022 reply to Microsoft's call to use Rust shows continued defence of the language. The long engagement is documented by independent journalists, but those accounts show him pressing his own priorities and not necessarily sustained effort through setbacks, so the score is moderate."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_stroustrup_reg2018, src_stroustrup_reg2025 | 2018-2025 | trade interview + trade news] He circulated 'Remember the Vasa!' to the C++ standards committee in 2018 saying the combined proposals were 'insanity to the point of endangering the future of C++', and in 2025 wrote that the committee should act and be seen to act; The Register says he is not known for Torvaldsian invective and that this was the last comparable emphasis since 2018. He openly challenged colleagues in a shared process, which is documented, but the language is measured and the same reporter describes it as unusual for him, so the score is moderate and the impact is dual-edged since critics say his preferred Profiles lack an implementation."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_stroustrup_reg2018, src_stroustrup_reg2025, src_stroustrup_infoworld | 2018-2025 | trade interview + trade news + trade news] Beyond criticising the committee he points to the C++ Core Guidelines and his Profiles framework as his own responses, and in 2025 he wrote a note proposing initial Profiles for C++26 in reaction to government memory-safety guidance. Acting on perceived threats is documented in three trade pieces, but two of them largely repeat his own notes and the proposals did not secure a place in C++26 per The Register, so confidence is moderate."
+    },
+    "persuasiveness": {
+      "score": 56,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_stroustrup_reg2025b, src_stroustrup_reg2025 | 2025 | trade news] The Register reports that a study-group poll favoured Profiles over Safe C++ and that the rival effort was dropped, but also that the committee did not guarantee Profiles for C++26 and that Baxter and the TrapC lead consider them unworkable. His arguments carried part of the committee yet did not secure an adopted outcome, and no source shows how he made the case beyond his published notes, so the claim is an inference with limited confidence and a dual-edged impact."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bjarne-stroustrup-zavyalov-2013.jpg",
+    "width": 917,
+    "height": 798,
+    "source": "Wikimedia Commons 'Bjarne Stroustrup (2013).jpg', photograph by Victor Zavyalov published by the ICPC News Flickr account, 1 July 2013 (ICPC finals, St Petersburg per the Commons location data), originally from Flickr photo 26094092004 ('DSC_5591'), tagged CC BY 2.0 with a FlickreviewR 'passed' record (20 July 2024); the live Flickr page shows CC BY 2.0. Saved at the original size of 917 x 798 pixels with no resizing. Identification as Stroustrup rests on the Commons categorisation and the Wikidata P18 link (the Flickr title does not name him), an acknowledged moderate limit. The older 'BjarneStroustrup.jpg' (432 x 324, GFDL via e-mailed permission, no named author) was considered and rejected for its weaker rights basis.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Victor Zavyalov / ICPC News, 2013, CC BY 2.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Bjarne_Stroustrup_(2013).jpg",
+    "creator": "Victor Zavyalov (ICPC News)",
+    "date": "2013-07-01",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bjarne_Stroustrup_(2013).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q92620 returned en label 'Bjarne Stroustrup', description 'Danish computer scientist, creator of C++ (born 1950)', born 1950-12-30, no death date, citizenship Denmark and United States, ko label '비야네 스트롭스트룹', P18 'BjarneStroustrup.jpg' and 'Bjarne Stroustrup (2013).jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate file or src reference for slug bjarne-stroustrup or QID Q92620 in the roster54 worktree. REGION: north_america, nationalities DK and US. Reasoning: Danish-born but his whole career since 1979 is in the US (Bell Labs in New Jersey, Texas A&M, Morgan Stanley and Columbia in New York); this follows the repo precedent for Linus Torvalds (FI/US, north_america) by career base. VOCABULARY: occupations computer_scientist, engineer, inventor; fields computing and technology; impact domains technological/innovation/scientific; tags innovator and early_computing; archetype technical_innovator are existing ids with EN+KO labels (cf. dennis-ritchie, linus-torvalds). ZERO POLITICS: the ISO standards committee and a 2024 US government memory-safety statement appear only as context for a technical-process dispute; no political stance is scored. LIVING SUBJECT: only documented public professional behaviour is scored; no private life. CANONICAL SIGNIFICANCE SOURCE: Computer History Museum 'Bjarne Stroustrup' Fellow profile (https://computerhistory.org/profile/bjarne-stroustrup/). READ (7 cited non-Wikidata sources): CHM profile, Draper Prize release, The Register 2018 interview, The Register March 2025, The Register September 2025, LWN archive of Torvalds's 2007 message, InfoWorld March 2025. PERSPECTIVES: museum and award-body retrospective credit; trade journalism (The Register, InfoWorld) with Stroustrup's own notes and quotes; critic voices (Torvalds on the language, Baxter and the TrapC lead on Profiles). Counter-voice limit: Torvalds's polemic targets the language and its programmers, not Stroustrup, and the Profiles critics are quoted second-hand by the press. NOT OPENED: the full 'Remember the Vasa!' paper P0977 and the February 2025 note (known through press quotes), the CHM 2015 oral-history transcript and Stroustrup's own books/FAQ (self-account, not used as support), Britannica's C++ article (blocked; the Bjarne Stroustrup page is a stub), the National Academies page (only a one-line citation), the Columbia news page (blocked). Wikipedia not used. EXCLUDED deliberately: family and private life, any health information, speculation about motives, the C++ 'is it too complex' debate beyond what was reported. SELF-CALIBRATION (agent): rows reviewed were systems_abstraction (retrospective praise on both sources plus a critic), creative_originality (same retrospective-sources pattern) and persuasiveness (outcome-based inference); systems_abstraction lowered 74/0.60 to 70/0.55 because both supporting sources are retrospective praise and the critic disputes the outcome; creative_originality left unchanged because the invention itself is independently credited by two bodies and I already held it at moderate confidence; persuasiveness already written as a low inference. FLAG for lead: evidence is thin on behaviour in the 1980s-2000s language-design years (nothing independent was read about how C++ was designed in practice beyond the museum summary); a future pass could add an independent history such as the CHM oral-history transcript. PORTRAIT: Commons file, Flickr page and review record checked; creator Victor Zavyalov / ICPC News; CC BY 2.0; not resized."
+  }
+}

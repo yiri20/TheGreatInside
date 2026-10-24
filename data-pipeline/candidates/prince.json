@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "prince",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Prince",
+    "aliases": [
+      "Prince Rogers Nelson"
+    ],
+    "wikidataId": "Q7542",
+    "birthYear": 1958,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "musician",
+      "singer",
+      "composer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "prolific",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pr_wikidata",
+      "kind": "wikidata",
+      "title": "Prince (Q7542) -- verified live via the Wikidata API (2026-10-23): English label 'Prince', description 'American musician (1958-2016)', Korean label '프린스', born 7 June 1958, died 21 April 2016, citizenship United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7542"
+    },
+    {
+      "id": "src_pr_rockhall",
+      "kind": "institution",
+      "title": "Rock and Roll Hall of Fame, 'Prince' inductee biography (rockhall.com): inducted 2004 in the Performer category (inductors Outkast and Alicia Keys); describes him as a composer and performer who mastered multiple instruments and styles, blending rock, funk, soul, pop and jazz; lists the Cloud guitar built for the film Purple Rain; names artists who influenced him (James Brown, Parliament-Funkadelic, Sly and the Family Stone, Joni Mitchell, Jimi Hendrix Experience, Stevie Wonder and others) and artists he influenced; quotations from Alicia Keys and Rob Bowman. CANONICAL SIGNIFICANCE SOURCE (with the Library of Congress essay). Hall-of-fame narrative, admiring. Read through a page-extraction tool (not a verbatim reading); its 'Nothing Compares 2 U' dating is inconsistent and was not used.",
+      "url": "https://www.rockhall.com/inductees/prince"
+    },
+    {
+      "id": "src_pr_loc",
+      "kind": "archive",
+      "title": "Eddie Santiago, 'Purple Rain -- Prince (1984)', guest essay for the Library of Congress National Recording Registry (album added 2011; PDF on loc.gov), read in full: recording sessions March 1983 to March 1984 yielded more than three dozen songs, some for other acts he was producing; the instruments used (Oberheim and Yamaha synthesizers, Linn drum machine, Hohner Telecaster); the Revolution played on five of nine tracks and the basic tracks for three songs came from an August 1983 First Avenue performance, while the essay says he could make a track such as 'When Doves Cry' entirely alone; album 12 weeks at number one, five top-ten singles, nine million US copies by 1985; the film grossed $70 million and won an Academy Award for Best Song Score; he disbanded the Revolution in October 1986 and Sign o' the Times became a solo album; strained relationships with several former associates. CANONICAL SIGNIFICANCE SOURCE (with the Rock Hall page). Guest essay by an outside author (the page states the views are not the Library's); admiring and retrospective; its remarks on his religious beliefs, relationships and death were not used.",
+      "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/PurpleRain.pdf"
+    },
+    {
+      "id": "src_pr_redbull",
+      "kind": "press",
+      "title": "Torsten Schmidt, 'Susan Rogers on Working with Prince', Red Bull Music Academy Daily, 7 June 2017 (interview based on Rogers's 2016 lecture): engineer Susan Rogers on joining in 1983; sessions of 16 to 24 hours, overdubbing and mixing as he went, never wanting to return to a song; his saying 'we go fast, we make mistakes'; her view that he was 'not a perfectionist'; an instrument always in his hand; recording the band live in a rehearsal warehouse; preferring few people and recording vocals alone; the hot console setting on 'If I Was Your Girlfriend' that he kept; the long soundchecks on tour. Engineer's own recollection (admiring but candid, one voice); counted as ONE perspective with the two other Rogers pieces. Health and drug remarks were not used. Read through a page-extraction tool.",
+      "url": "https://daily.redbullmusicacademy.com/2017/06/susan-rogers-working-with-prince"
+    },
+    {
+      "id": "src_pr_current",
+      "kind": "press",
+      "title": "Andrea Swensson, 'Susan Rogers on working with Prince in the studio', The Current (Minnesota Public Radio), 20 April 2018: Rogers on his speed (a song a day at times, more in a week than most bands in a month), basic tracks cut with the band at rehearsal and finished at home, working alone when on tour or in Los Angeles because playing every part was faster than directing others, lead vocal first and then building harmonies, innovation arising from speed rather than a hunt for new technology, a consistent set of older tools, and not chasing rap or outside producers. Public-radio feature built on one engineer's testimony; the interview details on his personal preferences were not used. Read through a page-extraction tool.",
+      "url": "https://www.thecurrent.org/feature/2018/04/susan-rogers-on-working-with-prince-in-the-studio-the-man-i-knew-was-so-human/"
+    },
+    {
+      "id": "src_pr_waxpoetics",
+      "kind": "press",
+      "title": "Chris Williams, interview with Susan Rogers on Sign o' the Times, Wax Poetics (online 18 April 2021, from issue 67): the album grew out of the shelved projects Camille, Dream Factory and Crystal Ball; Warner Bros. was unwilling to release a three-record set; sessions of 18 to 24 hours between his home studio and Sunset Sound; drums first, then bass, keys and guitar, lead vocals alone in the control room; mixing alongside overdubs; 'U Got the Look' reworked for days, unusual for him; backwards drums on 'Starfish and Coffee'; older vault tracks used to complete the record; Rogers's own critical remarks (she thought 'The Cross' drums were sloppy but he was satisfied). Engineer's account (one voice, with the other Rogers pieces). Read through a page-extraction tool.",
+      "url": "https://magazine.waxpoetics.com/article/susan-rogers-on-sign-o-the-times-the-epic"
+    },
+    {
+      "id": "src_pr_musicradar",
+      "kind": "press",
+      "title": "Andy Price, 'Lisa Coleman on how Prince insisted on perfection from his Revolution bandmates', MusicRadar (undated page quoting a 2019 interview), read in full: Revolution keyboardist Lisa Coleman on rehearsals from about ten in the morning until night, playing one groove for hours while he called 'Don't stop! Nobody move!', hand signals and a handkerchief cue during shows, a setlist that changed nightly, parts handed out at rehearsal on some days and 'groove in E' on others, his turning a preset synth patch brighter, and the Revolution being one of the only times he drew from other people's sound. Bandmate's account (admiring, retrospective); the magazine's own framing of 'relentless practice' is the editor's and was not used as evidence.",
+      "url": "https://www.musicradar.com/artists/we-could-play-the-same-groove-for-a-number-of-hours-prince-would-walk-in-and-out-of-the-room-saying-dont-stop-nobody-move-lisa-coleman-on-how-prince-insisted-on-perfection-from-his-revolution-bandmates"
+    },
+    {
+      "id": "src_pr_buzzfeed",
+      "kind": "press",
+      "title": "Nicolas Medina Mora, 'How Prince Pioneered The Fight For Independence From Record Labels', BuzzFeed News, 21 April 2016: a contentious relationship with Warner Bros. peaking in 1993; his anger that the label owned the copyright to his name and his legal change of name to a symbol; performing with 'SLAVE' on his face; releasing albums of previously recorded material to leave the contract sooner while Warner argued he was saturating the market; The Gold Experience (1995) selling under 500,000 copies against more than 13 million for Purple Rain; the contract expiring in 2000 and the name reverting. Journalist's piece that largely follows his account, with Warner's market-saturation argument as the only counter-view; masters ownership and NPG Records are not covered. Read through a page-extraction tool.",
+      "url": "https://www.buzzfeednews.com/article/nicolasmedinamora/how-prince-pioneered-the-fight-for-independence-from-record"
+    },
+    {
+      "id": "src_pr_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Prince Brussels 1986 (retouched).jpg' and 'Prince Brussels 1986.jpg' (with the Commons API record and the Flickr source page) -- checked for the portrait: photograph by Yves Lorson, Forest National, Brussels, 1986; CC BY 2.0; the base file carries a Flickr licence-review pass dated 6 June 2008.",
+      "url": "https://commons.wikimedia.org/wiki/File:Prince_Brussels_1986_(retouched).jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pr_rockhall, src_pr_loc, src_pr_waxpoetics | 1978-1987 | hall-of-fame biography + Library of Congress guest essay + engineer interview] The Rock Hall describes a composer and performer who blended rock, funk, soul, pop and jazz and moved from synthesizer-heavy experiments to big-band soul; the Library of Congress essay says he pushed past limits of genre, gender roles and religious symbolism with each album while drawing on named influences, and that the Revolution's own sound helped shape the music; the engineer describes backwards drums on 'Starfish and Coffee' and building a record from shelved projects. Institutional praise is retrospective and the engineer notes his originality came from speed and ideas, not new technology, so documented at a moderate confidence."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pr_loc, src_pr_rockhall, src_pr_current | 1985-1987 | guest essay + hall-of-fame biography + public-radio feature] The Library of Congress essay calls Around the World in a Day (1985) and Parade (1986) sonic rebellions exploring psychedelic pop, Middle Eastern sounds and avant-garde funk and jazz, and says he never tried to replicate Purple Rain; the Rock Hall lists synthesizer experiments and jazz-inflected piano ballads; the engineer says he kept a consistent set of older tools and did not follow rap, so stylistic range rather than technological experiment is what is documented. Moderate confidence because the evidence is mostly summary praise."
+    },
+    "execution_speed": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pr_loc, src_pr_redbull, src_pr_current, src_pr_waxpoetics, src_pr_buzzfeed | 1983-1987, 1990s | guest essay + three engineer pieces + journalist feature] The Library of Congress essay counts more than three dozen songs recorded between March 1983 and March 1984; the engineer says sessions ran 16 to 24 hours with overdubs and mixing done as he went, that he never wanted to return to a song, and that at times he wrote and recorded a song a day; BuzzFeed reports he released albums of previously recorded material in quick succession in the 1990s. The pace is well documented but the behavioural detail comes largely from one engineer (counted as one perspective). SELF-CALIBRATION (agent): first-pass 82 / 0.66 lowered to 78 / 0.60 because most specifics rest on one engineer's recollection and only the one-year song count is independently stated."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pr_rockhall, src_pr_redbull, src_pr_musicradar, src_pr_loc | 1978-1986 | hall-of-fame biography + engineer interview + bandmate interview + guest essay] The Rock Hall says he mastered multiple instruments and styles; the engineer says that whenever he was awake and not eating, sleeping or on business calls he had an instrument in his hand; the keyboardist describes day-long rehearsals in which he made the band repeat one groove for hours; the Library of Congress essay lists him playing guitar, synthesizers, electric piano and drum machine on the 1984 album. Skill and constant practice are documented by a hall of fame, an engineer and a bandmate, but self-directed study is not documented in detail, so a moderate confidence."
+    },
+    "discipline": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pr_redbull, src_pr_musicradar, src_pr_current | 1983-1986 | engineer interviews + bandmate interview] The engineer describes 16 to 24 hour sessions, sleeping a few hours and starting the next song, and tour soundchecks from about 2 to 6 PM before a 9 PM show; the keyboardist says the Revolution rehearsed from about 10 in the morning until night and 'we were like marathon runners', and that the live shows were tightly drilled around hand signals; the engineer adds that full-band basic tracks were cut at rehearsals. Two independent insiders (engineer and bandmate) describe a demanding routine, but both are admiring and retrospective."
+    },
+    "perfectionism": {
+      "score": 48,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pr_redbull, src_pr_waxpoetics, src_pr_musicradar | 1983-1987 | engineer interviews + bandmate interview] Engineer Susan Rogers says he was 'not a perfectionist', could not wait on perfection, kept a distorted vocal on 'If I Was Your Girlfriend', and was satisfied with a track whose drums she thought sloppy; against that, the keyboardist describes making the band play one groove for hours in rehearsal and the magazine headline frames it as insisting on perfection, and 'U Got the Look' took days of changes. Moderate-low score because recording behaviour favours speed over polish while band rehearsal was exacting; the mixed accounts keep confidence modest."
+    },
+    "autonomy_need": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pr_loc, src_pr_current, src_pr_redbull, src_pr_buzzfeed | 1983-2000 | guest essay + engineer interviews + journalist feature] The Library of Congress essay says he did not need the Revolution in the studio and could make 'When Doves Cry' alone, and that Sign o' the Times became a solo album after he disbanded the band in October 1986; the engineer says he often recorded vocals alone, worked alone on tour or in Los Angeles because playing every part was faster, and did not use outside producers; BuzzFeed reports his fight with Warner Bros. over the ownership of his name and his moves to leave the contract. Independent essay, engineer and journalist agree on a strong preference for control, with costs in strained relationships and falling sales, hence dual-edged."
+    },
+    "collaboration": {
+      "score": 45,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pr_loc, src_pr_musicradar, src_pr_redbull, src_pr_current | 1983-1986 | guest essay + bandmate interview + engineer interviews] The Library of Congress essay says the Revolution played on five of nine tracks, helped flesh out songs in rehearsal and that he called the band 'Mount Rushmore', but also that several associates had left his circle before the film and that he disbanded the band in October 1986; the keyboardist says the Revolution was one of the only times he really drew from other people's sound; the engineer says he did not like to work with too many people and rarely relied on the band before recording. Real, productive band collaboration is documented but within a strongly self-directed way of working, so a below-midpoint score with moderate confidence."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pr_buzzfeed, src_pr_waxpoetics, src_pr_loc | 1986-2000 | journalist feature + engineer interview + guest essay] BuzzFeed reports a long, public contract dispute with Warner Bros. that peaked in 1993, with the name change, 'SLAVE' on his face and rapid releases to exit the deal, ending when the contract expired in 2000, while The Gold Experience (1995) sold under 500,000 copies; the engineer notes Warner's refusal of a three-record set in 1986-87 left him unhappy but he regrouped and made the double album. Professional dispute over ownership only; the BuzzFeed piece largely follows his own account and the label's side is represented only by its saturation argument, so a moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프린스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/prince-lorson-1986.jpg",
+    "width": 768,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Prince Brussels 1986 (retouched).jpg' -- photograph by Yves Lorson of Prince in concert at Forest National, Brussels, 1986 (Flickr photo 182644791), a retouched crop of 'Prince Brussels 1986.jpg'; CC BY 2.0. The base Commons file carries a FlickreviewR pass (6 June 2008, cc-by-2.0). Original of the retouched file 3603 x 5629 pixels (15,336,207 bytes, SHA-1 of the downloaded file computed locally: c9214329befbcb2511ee0b9f2838b9b2bc8f7d6f via sha1sum on the original download); the stored file was downscaled only (768 x 1200), never upscaled. Caveats: the retouching is described on Commons only as a cleaned version of a scanned print (uploader history shows the crop and retouched upload); the Flickr page itself could not be rendered by the fetch (HTTP 404 at check time), so the licence rests on the 2008 Flickr review record on Commons.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Yves Lorson, 1986, CC BY 2.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Prince_Brussels_1986_(retouched).jpg",
+    "creator": "Yves Lorson",
+    "date": "1986",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Prince_Brussels_1986_(retouched).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q7542 returned en label 'Prince', description 'American musician (1958-2016)', ko label '프린스', born 1958-06-07, died 2016-04-21, citizenship United States, P18 'Prince Brussels 1986 (retouched).jpg'; the lead's hint was correct and the nobility item Q2747456 was not used. Madonna's QID Q1744 was also fetched but belongs to a different candidate. SLUG/QID CHECK: no production or candidate file for slug prince or QID Q7542 in the roster54 worktree (grep over data-pipeline, src/data, src/core). REGION: north_america, nationalityCodes US. VOCABULARY: occupations musician, singer, composer; field music; tags innovator, prolific, independent; archetypes creative_creator, independent_creator are existing ids with EN labels (songwriter and guitarist have no labels and were not used). ZERO POLITICS: nothing political scored or carded; the Warner Bros. contract dispute is treated as a professional ownership episode. DECEASED SUBJECT: no inference from his death, health, drugs, religion, relationships or private life; the Paisley Park vault (reported through the death investigation), religious remarks, personal preferences and drug/health comments in the sources were excluded. CANONICAL SIGNIFICANCE SOURCES: Rock and Roll Hall of Fame biography (https://www.rockhall.com/inductees/prince; read through a page-extraction tool) and the Library of Congress National Recording Registry essay on Purple Rain (https://www.loc.gov/static/programs/national-recording-preservation-board/documents/PurpleRain.pdf; read in full via local text extraction). READ (7 cited non-Wikidata sources plus Commons): Rock Hall, Library of Congress essay, Red Bull Music Academy Daily, The Current, Wax Poetics, MusicRadar, BuzzFeed News; five of the seven were read through a page-extraction tool that returns a model summary, not verbatim text, so quotations were taken only where the tool reproduced them. Blocked or not opened: the Tape Op Rogers interview (Prince portion paywalled), New York Times obituary (fetch blocked), Rolling Stone Sign o' the Times article (402 paywall), Star Tribune and Minnesota Historical Society pages (a MPR/Fox page on Society acquisitions was seen only as a search snippet and is not cited), Digital Music News vault article (read but not cited, death-investigation context). PERSPECTIVES: institutional records (Rock Hall, Library of Congress essay by an outside author); the studio engineer Susan Rogers (three pieces counted as ONE perspective); a bandmate (Lisa Coleman via MusicRadar); a journalist on the Warner dispute (BuzzFeed). COUNTER-VOICES: Rogers's own criticism ('sloppy' drums, a hot console setting) and her statement that he was not a perfectionist, Coleman's gruelling-rehearsal account, Warner's market-saturation argument and the 1995 sales fall, and the Library essay's note of strained relationships and the 1986 band breakup. Self-only evidence: none used as sole support. Not independent: the three Rogers pieces. SELF-CALIBRATION: reviewed execution_speed (lowered, see row), autonomy_need (kept: the Library essay, an engineer and a journalist agree) and creative_originality (kept: engineer's caveat that innovation came from speed already priced in). PORTRAIT: Commons file 'Prince Brussels 1986 (retouched).jpg', Yves Lorson, 1986, CC BY 2.0, Flickr review pass on the base file; saved downscaled to 768 x 1200 from 3603 x 5629; see portrait.source for caveats. Portrait alternative (promo picture 1988 cropped/retouched) not opened because the primary was clear."
+  }
+}
