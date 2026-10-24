@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "friedrich-nietzsche",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Friedrich Nietzsche",
+    "aliases": [
+      "Friedrich Wilhelm Nietzsche"
+    ],
+    "wikidataId": "Q9358",
+    "birthYear": 1844,
+    "deathYear": 1900,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "scholar",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "literature"
+    ],
+    "impactDomains": [
+      "historical",
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "philosopher",
+      "independent",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nietzsche_wikidata",
+      "kind": "wikidata",
+      "title": "Friedrich Nietzsche (Q9358) -- verified live via the Wikidata API (2026-10-23): English label 'Friedrich Nietzsche', description 'German philosopher (1844-1900)', born 15 October 1844, died 25 August 1900, P18 images 'Nietzsche187a.jpg' and 'Friedrich Nietzsche - 1864.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q9358"
+    },
+    {
+      "id": "src_nietzsche_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Friedrich Nietzsche' by Bernd Magnus (britannica.com), first page read through an Internet Archive copy (the live site blocks automated access; the later 'Years of wandering' pages were not retrieved): German classical scholar, philosopher and critic of culture whose attempts to unmask the motives underlying Western religion, morality and philosophy deeply affected generations of theologians, philosophers, psychologists, poets, novelists and playwrights; Ritschl's praise and the 1869 Basel appointment with no doctoral thesis, promotion to ordinary professor in 1870; The Birth of Tragedy (1872) 'marked his emancipation from the trappings of classical scholarship', speculative rather than exegetical, greeted by stony silence then controversy, praised by F. M. Cornford in 1912; Human, All-Too-Human (1878) in aphoristic form; resignation on 14 June 1879 with a pension; Thus Spake Zarathustra (1883-85) received little attention in his lifetime. CANONICAL SIGNIFICANCE SOURCE. All health, military-service, family and Wagner-relationship passages were deliberately not used for scoring; the note that fascists later invoked his name was not used.",
+      "url": "https://www.britannica.com/biography/Friedrich-Nietzsche"
+    },
+    {
+      "id": "src_nietzsche_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy, 'Friedrich Nietzsche' (plato.stanford.edu, revised edition), biography and works sections read in full: youngest ever appointed to a chair of classical philology (Basel, 1869, aged 24) on Ritschl's reference; The Birth of Tragedy (1872) was a controversial polemic, generally ill-received within classical studies and savagely reviewed by Wilamowitz-Moellendorff, despite striking interpretive insights; the Untimely Meditations as essays for a wide public; Human, All-too-human (1878) introducing short numbered aphorisms, a naturalistic critique of morality, and the break with the Wagners; after resigning in 1879 he published nearly a book a year (Daybreak, Gay Science, Zarathustra, Beyond Good and Evil, Genealogy, Twilight of the Idols and later-published Antichrist and Ecce Homo); his place in the German aphoristic tradition from Lichtenberg; his insistence on bringing multiple perspectives to bear. The entry's passages on illness, the 1889 collapse, relationships and his sister's editing were not used for any row or card.",
+      "url": "https://plato.stanford.edu/entries/nietzsche/"
+    },
+    {
+      "id": "src_nietzsche_sep_life",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy, 'Nietzsche's Life and Works' (plato.stanford.edu, substantive revision 2021), read in full: 1869 start at Basel; limited satisfaction among philology colleagues and closer intellectual ties to the historians Franz Overbeck and Jacob Burckhardt, whose lectures he attended; Basel period and the Untimely Meditations; the post-1879 'nomadic years' (Nice and Genoa in winter, Sils-Maria in summer, never residing anywhere longer than several months) during which most main works were written; 'During his creative years, Nietzsche struggled to bring his writings into print and never doubted that his books would have a lasting cultural effect'; he learned he was the subject of Georg Brandes's 1888 Copenhagen lectures; the Zarathustra, Beyond Good and Evil and Genealogy summaries. The entry's discussion of the collapse, diagnoses, family and Salome episode was not used for any row, card or interpretation.",
+      "url": "https://plato.stanford.edu/entries/nietzsche-life-works/"
+    },
+    {
+      "id": "src_nietzsche_iep",
+      "kind": "institution",
+      "title": "Internet Encyclopedia of Philosophy, 'Friedrich Nietzsche' (iep.utm.edu), biography and works sections read in full: Basel professor of classical philology at 24 on Ritschl's praise despite no dissertation; The Birth of Tragedy mocked as 'Zukunfts-Philologie' ('Future Philology') by Wilamowitz-Moellendorff and called megalomania even by Ritschl, so that, the entry says, Nietzsche's academic reputation as a philologist was effectively destroyed and he had difficulty attracting students; an unsuccessful attempt to move to the philosophy department; after leaving Basel he never stayed in one place long, moving with the seasons in search of solitude for his work and reasonable living conditions on a modest budget, summers in Sils Maria and winters on the Mediterranean; Thus Spoke Zarathustra Book IV 'printed and distributed privately' (1885). The entry's discussion of ailments, his sister's editing and politics was not used.",
+      "url": "https://iep.utm.edu/nietzsch/"
+    },
+    {
+      "id": "src_nietzsche_chronology",
+      "kind": "institution",
+      "title": "Middle Tennessee State University (Prof. J. Comas), 'Friedrich Nietzsche - Chronology' (capone.mtsu.edu), based on Walter Kaufmann's chronology in The Portable Nietzsche (1954) with additions, read in full through an Internet Archive copy (the live page returns 403 to automated access): his winter 1872-73 Basel lecture course on Greek eloquence 'attended by only two students'; a 1873-74 rhetoric course not offered 'because of lack of student interest'; leave from the university in 1876; resignation with pension in 1879; 'for the next ten years a new book is printed every year'; from the early 1880s summers in Sils Maria and winters in Nice with moves between Genoa, Rapallo and Turin; the Zarathustra parts written in short winter and summer spells and published separately in 1883-84; Part IV of Zarathustra (1885) printed privately in forty copies of which 'only seven' were distributed among friends; 'the beginning of fame' with Brandes's 1888 Copenhagen lectures. University-hosted chronology built on Kaufmann; its entries on illness, relationships and the 1889 collapse were not used.",
+      "url": "https://capone.mtsu.edu/jcomas/nietzsche/chronology.html"
+    },
+    {
+      "id": "src_nietzsche_benne",
+      "kind": "press",
+      "title": "Christian Benne, review of Georg Brandes and Harald Hoffding, 'The Great Debate' (trans. and ed. William Banks, 2024), Critical Inquiry online, 1 March 2024 (criticalinquiry.uchicago.edu), read in full: Brandes gave the first university lectures on Nietzsche, in Copenhagen in 1888, and the essay compiled from them, 'Aristocratic Radicalism', became a main reference for understanding Nietzsche; the reviewer adds that Nietzsche's early reception was more complex than the common belief that Brandes discovered him. Used only for the documented reception episode (1888 lectures); the political content of the debate is NOT scored. Scholarly book review, independent of the encyclopaedia entries.",
+      "url": "http://criticalinquiry.uchicago.edu/christian_benne_reviews_the_great_debate/"
+    },
+    {
+      "id": "src_nietzsche_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Nietzsche1882.jpg' (wikitext and API record), checked for the portrait's rights: photograph by Gustav-Adolf Schultze of Naumburg (died 1897), one of five profile photographs taken in early September 1882, scan from Walter Kaufmann's 'Nietzsche' (Princeton Paperbacks) processed 2005; tagged PD-old-100 and PD-US-expired; original 1274 x 1700. The P18 lead 'Nietzsche187a.jpg' (Friedrich Hartmann, c. 1875) was checked and not used because its Commons source is a Pinterest image link. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Nietzsche1882.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nietzsche_britannica, src_nietzsche_sep, src_nietzsche_iep | 1872-1888 | encyclopaedia + two scholarly encyclopaedia entries] Britannica says The Birth of Tragedy marked his emancipation from classical scholarship and quotes Cornford calling it a work of profound imaginative insight; SEP calls it a controversial polemic with striking interpretive insights (for example the role of the chorus) and describes his turn to a pithy aphoristic style and a naturalistic critique of morality; Britannica says his project of unmasking the motives of religion, morality and philosophy deeply affected later thinkers. The originality is well documented, but the praise is largely retrospective and classical scholars of his own time rejected the first book, so confidence stays moderate. SELF-CALIBRATION (agent): reviewed and kept at 78 / 0.64 (independent encyclopaedia entries converge and the hostile contemporary reception is already reflected in the confidence). RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.64 to 74 / 0.58 because the claim rests on encyclopedia summaries of his reception and method, with no full biography read."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_nietzsche_sep, src_nietzsche_iep, src_nietzsche_britannica | 1872-1879 | two scholarly entries + encyclopaedia] SEP describes The Birth of Tragedy as not the careful scholarship the field expected; IEP records that it was mocked as 'Future Philology' by Wilamowitz-Moellendorff and called megalomania even by Ritschl and that Nietzsche then had difficulty attracting students; Britannica says the book broke from the trappings of classical scholarship and that the Wagner breach was final by 1878; SEP records that his 1878 book ended the intellectual association with the Wagners. Departures from patron, teacher and discipline are documented professional-intellectual episodes from independent entries. The cost to his academic standing is explicit in the sources, hence dual-edged. The Wagner friendship is used only as a documented professional-intellectual episode, not for inference about personality. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 80 / 0.66 to 76 / 0.6 because every row in this profile rests on encyclopedia and chronology summaries with no full biography or primary account read."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nietzsche_chronology, src_nietzsche_sep_life, src_nietzsche_sep, src_nietzsche_britannica | 1878-1888 | university chronology + two scholarly entries + encyclopaedia] The Kaufmann-based chronology records that from 1878 a new book was printed every year for ten years and that Part IV of Zarathustra was printed privately in forty copies of which only seven were distributed; SEP says he published a book almost every year after 1879 and that he 'struggled to bring his writings into print'; Britannica says Zarathustra received little attention in his lifetime. Continued publication with little readership is documented. No health or hardship narrative is used to support this row, so the score is moderate."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_nietzsche_iep, src_nietzsche_sep, src_nietzsche_chronology | 1879-1888 | two scholarly entries + university chronology] After resigning his chair in 1879 with a pension, Nietzsche lived an itinerant writing life, wintering on the Mediterranean and summering in Sils Maria, moving with the seasons in search of solitude for his work on a modest budget (IEP), and SEP says he was thereby 'freed to write and to develop the style that suited him'. The pattern of organising life around independent authorship is documented, but the sources' reasons for the resignation are connected to his health, which is deliberately not used here, so the motive is only inferred from the documented way he arranged his working life. SELF-CALIBRATION (agent): first-pass 74 / 0.58 lowered to 70 / 0.52 because the resignation's stated reason cannot be used and the autonomy reading rests on the later arrangement of his work."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nietzsche_britannica, src_nietzsche_sep, src_nietzsche_sep_life | 1865-1888 | encyclopaedia + two scholarly entries] Britannica describes him as classical scholar, philosopher and critic of culture and records his musical compositions in his student years; SEP records his philology career alongside a planned second doctorate in philosophy, his essays for a wide public (Untimely Meditations) and a critique of morality drawing on psychology; he moved between philology, philosophy, cultural criticism, music and aphoristic and poetic writing. Documented range of fields, though the sources treat philosophy as the main line of work, so confidence is moderate."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_nietzsche_sep, src_nietzsche_iep, src_nietzsche_britannica | 1872-1878 | two scholarly entries + encyclopaedia] SEP records that after the savage reception of The Birth of Tragedy Nietzsche continued to seek to influence German intellectual culture with the Untimely Meditations, including essays on David Strauss and on Wagner, and a naturalistic critique of conventional pieties; IEP records the Wilamowitz attack and Ritschl's criticism; Britannica notes the book was greeted by stony silence and then controversy. He kept publishing polemical work that provoked professional opposition, documented across entries; the sources are not about his conduct in direct disputes, so confidence is moderate. Dual-edged because it cost him academic standing."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nietzsche_sep, src_nietzsche_britannica, src_nietzsche_sep_life | 1872-1888 | two scholarly entries + encyclopaedia] SEP places him in the German aphoristic tradition from Lichtenberg and says Human, All-too-human introduced a style of short numbered paragraphs and pithy aphorisms to which he often returned; his later works range from the poetic, episodic Zarathustra to genealogical argument and autobiography; Britannica calls The Birth of Tragedy a speculative rather than exegetical work. A repeated, documented trying-out of literary form across books; the sources do not narrate his drafting process, so confidence is moderate."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nietzsche_sep, src_nietzsche_britannica, src_nietzsche_iep | 1869-1879 | two scholarly entries + encyclopaedia] SEP records a move from the Schopenhauerian and Wagnerian enthusiasms of the early work to the naturalistic critique of morality in Human, All-too-human; Britannica says Wagner's later direction was more than he could bear; IEP describes his early admiration of Schopenhauer and Burckhardt's lectures and his later change of course. The documented outcome is a visible change of intellectual position within a few years, but the sources frame it as development rather than showing how he weighed evidence, so strong_inference at modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프리드리히 니체"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/friedrich-nietzsche-schultze-1882.jpg",
+    "width": 960,
+    "height": 1281,
+    "source": "Wikimedia Commons 'Nietzsche1882.jpg': early-September 1882 photograph of Friedrich Nietzsche by Gustav-Adolf Schultze of Naumburg (died 1897; one of five profile photographs), scanned from Walter Kaufmann's 'Nietzsche' (Princeton Paperbacks) and processed in 2005; the Commons page tags it PD-old-100 and PD-US-expired. A contemporaneous photograph by a photographer dead for more than 70 years, so public domain by age; the book scan is a flat reproduction. Original file 1274 x 1700; saved from the Commons thumbnail at 960 x 1281 (downscaled only, no upscaling).",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nietzsche1882.jpg",
+    "attribution": "Photo: Gustav-Adolf Schultze, 1882, public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Nietzsche1882.jpg",
+    "creator": "Gustav-Adolf Schultze",
+    "date": "1882-09",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nietzsche1882.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q9358 returned en label 'Friedrich Nietzsche', description 'German philosopher (1844-1900)', born 1844-10-15, died 1900-08-25; the lead's hint was correct. SLUG/QID CHECK: no existing candidate, production file or src reference for slug friedrich-nietzsche or QID Q9358 in the roster54 worktree. REGION: western_europe, nationality DE. The repo is mixed for German nationals (about 34 of 41 DE candidates are western_europe, including Kant, Leibniz, Humboldt and Einstein; central_europe is used for Goethe, Beethoven, Helmholtz, Mies and Kandinsky), so the majority precedent for a German philosopher (Kant) was followed; the lead may flip it to central_europe if preferred. VOCABULARY: occupations philosopher, scholar, writer; fields philosophy and literature; impact domains historical/literary/cultural; tags philosopher, independent, late_recognition; archetype independent_creator are existing ids with EN+KO labels. ZERO POLITICS and STRICT EXCLUSIONS: no row, card, moment or interpretation uses the 1889 collapse, any diagnosis or cause theory (syphilis, tumour, CADASIL, medication), headaches or other symptoms, the military service illness, his relationships (Lou Salome, Paul Ree, Cosima Wagner, his sister), his sister's editing, or political reception (Brandes's 'aristocratic radicalism' debate, fascist misuse); the resignation of 1879 is used only as a documented work-life fact and NOT linked to its health reason; the Wagner friendship appears only as a documented professional-intellectual break. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Friedrich Nietzsche' (https://www.britannica.com/biography/Friedrich-Nietzsche), page 1 read via an Internet Archive copy (the later Britannica pages were not retrieved). READ (7 cited non-Wikidata sources + portrait record): Britannica, Stanford Encyclopedia 'Friedrich Nietzsche', Stanford 'Nietzsche's Life and Works', Internet Encyclopedia of Philosophy, MTSU/Kaufmann-based chronology (via Internet Archive), Benne's Critical Inquiry review of Brandes and Hoffding. NOT opened: Kaufmann, Safranski, Hayman, Young and other biographies (only a Kaufmann-based chronology), Nietzsche's own works and letters, primary Wilamowitz pamphlet, Brandes's essay; WebFetch of the MTSU live page returned 403 so the Wayback copy was used. PERSPECTIVES: general encyclopaedia, two scholarly philosophy encyclopaedias, a university chronology derived from Kaufmann, a scholarly book review on reception. COUNTER-VOICES: Wilamowitz-Moellendorff's attack and Ritschl's 'megalomania' (IEP), the poor reception of The Birth of Tragedy in classical studies (SEP/IEP), the Basel courses with two students and lack of student interest (chronology), stony silence for his early work and little attention for Zarathustra (Britannica). CALIBRATION: evidence is a handful of encyclopaedia-level behavioural episodes about his work, no direct biography read, so the highest score is 80 and the highest confidence 0.66; eight rows, no padding. SELF-CALIBRATION (agent): reviewed independent_thinking (kept at 80 / 0.66: three independent entries on the break with discipline and patron, cost explicit), creative_originality (kept: retrospective praise but SEP and Britannica converge) and autonomy_need (lowered 74/0.58 to 70/0.52: motive for leaving Basel cannot be used). BROAD FLAG: all rows rest on encyclopaedia and chronology summaries rather than a full biography; the lead may want a Safranski or Kaufmann read before relying on persistence or belief_updating. PORTRAIT: Schultze 1882 photograph (PD by age, photographer died 1897), on Commons with a book-scan source (Kaufmann); no institutional conflicting notice was found; kind set to likeness because it is a lifetime photograph. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 80 / 0.66 to 76 / 0.6 because every row in this profile rests on encyclopedia and chronology summaries with no full biography or primary account read. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.64 to 74 / 0.58 because the claim rests on encyclopedia summaries of his reception and method, with no full biography read."
+  }
+}

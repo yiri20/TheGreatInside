@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "robert-ballard",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Robert Ballard",
+    "aliases": ["Robert Duane Ballard", "Bob Ballard"],
+    "wikidataId": "Q312867",
+    "birthYear": 1942,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["explorer", "scientist", "inventor"],
+    "fieldIds": ["exploration", "natural_science"],
+    "impactDomains": ["scientific", "technological", "cultural"],
+    "tagIds": ["explorer", "field_researcher", "communicator"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로버트 밸러드"
+    }
+  },
+  "sources": [
+    {
+      "id": "src_ballard_wikidata",
+      "kind": "wikidata",
+      "title": "Robert Ballard (Q312867) -- verified live via the Wikidata API (2026-10-23): English label 'Robert Ballard', description 'United States Navy officer, oceanographer and underwater archaeologist', born 30 June 1942, no date of death, citizenship United States, Korean label '로버트 밸러드', P18 image 'Dr. Ballard visit 2023 (52976464273) (cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q312867"
+    },
+    {
+      "id": "src_ballard_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Robert Ballard' (britannica.com), read in full: American oceanographer and marine geologist whose pioneering use of deep-diving submersibles laid the foundations for deep-sea archaeology, best known for discovering the wreck of the Titanic in 1985; helped develop the Alvin submersible; took part in the 1977 and 1979 expeditions that found hydrothermal vents at the Galapagos Rift and led to the discovery of chemosynthesis; designed the Argo video sled and called the remote-viewing approach 'telepresence'; found the Titanic on 1 September 1985 with IFREMER aboard the Navy research ship Knorr; founded the JASON project in 1989, the Institute for Exploration in 1997 and the Ocean Exploration Trust in 2008; wrecks including the Bismarck and John F. Kennedy's PT-109. CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.britannica.com/biography/Robert-Ballard-American-oceanographer"
+    },
+    {
+      "id": "src_ballard_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Robert D. Ballard' (ebsco.com), read in full: reference biography covering his Navy and Woods Hole years, his doctoral Alvin dives in support of plate tectonics, Project FAMOUS, the 1977 Galapagos vents and 1979 black smokers, founding the Woods Hole Deep Submergence Laboratory in 1982 and developing Argo and Jason, the joint French-American Titanic search (the French surveyed five weeks without success before Ballard's team narrowed the area and found the ship on the night of 31 August 1985), the 1986 return with Jason, the JASON Project (over a million students a year), the 1990s Bismarck, Lusitania, Guadalcanal and Roman-era wrecks, Midway 1998, PT-109 in 2002, the Black Sea work with George Bass, the Ocean Exploration Trust and the 2019 Nikumaroro search. Neutral reference summary; admiring tone in its Significance section.",
+      "url": "https://www.ebsco.com/research-starters/biography/robert-d-ballard/"
+    },
+    {
+      "id": "src_ballard_uri",
+      "kind": "institution",
+      "title": "University of Rhode Island Graduate School of Oceanography, 'Robert D. Ballard' faculty profile (web.uri.edu/gso), read in full: emeritus professor; notes that Ballard prefers to be known for the 1977 hydrothermal vents and 1979 black smokers rather than the Titanic; describes the Center for Ocean Exploration, the Inner Space Center telepresence hub linking ships to shore, and the Ocean Exploration Trust operating E/V Nautilus; lists the 1996 Hubbard Medal and 2003 National Humanities Medal and 18 books. Institutional profile, self-supplied and promotional in tone.",
+      "url": "https://web.uri.edu/gso/robert-d-ballard/"
+    },
+    {
+      "id": "src_ballard_natgeo",
+      "kind": "press",
+      "title": "Rachel Hartigan, 'He Found the Titanic, but for Robert Ballard the Search Never Ends', National Geographic magazine, 15 April 2021 (nationalgeographic.com), read in full: a staff-written profile (National Geographic has funded his expeditions for decades and published his memoir, so it is not fully independent) covering the 1977 Seaprobe pipe-string collapse during an early Titanic attempt, near-accidents in crewed submersibles that pushed him toward robots, the Navy funding Argo in return for secret Thresher and Scorpion wreck surveys in 1984-85 and the grid-search 'mowing the lawn' method, partnering with the French sonar team, academic colleagues' scorn at his media work, the JASON Project, acquiring a ship for the Corps of Exploration, the 2019 Earhart search that found nothing. Family and health passages in the piece were deliberately not used.",
+      "url": "https://www.nationalgeographic.com/magazine/article/he-found-the-titanic-but-for-robert-ballard-the-search-never-ends-feature"
+    },
+    {
+      "id": "src_ballard_upi",
+      "kind": "press",
+      "title": "UPI Archives, 'Researchers: Leave Titanic alone', 24 July 1987 (upi.com), read in full: contemporary wire report in which Woods Hole engineer Dana Yoerger and Titanic Historical Society figures Charles Haas and Edward Kamuda criticise the French salvage expedition as insensitive to victims' families; reports that the 1985 discovery team decided not to salvage out of respect for the dead and that Ballard, unavailable for comment, had said he would be 'shocked' if the French attempted salvage. Independent contemporary journalism; voices of site-protection advocates, not of Ballard's critics as such.",
+      "url": "https://www.upi.com/Archives/1987/07/24/Researchers-Leave-Titanic-alone/7663554097600/"
+    },
+    {
+      "id": "src_ballard_cnn",
+      "kind": "press",
+      "title": "CNN report syndicated on WPTV, 'Inside the secret US military mission that located the Titanic' (wptv.com, December 2018), read in full: Ballard tells CNN that the 1985 Titanic search was cover for a then-secret Navy mission to survey the sunken nuclear submarines Thresher and Scorpion, that the Navy funding depended on the submarine work, that the Titanic search had about 12 days left, that a 1985 Navy spokesman and a Woods Hole department head told the New York Times there was nothing classified, and that he could not discuss other Navy missions. The account of the cover story is Ballard's own statement; the 1985 denials are the contemporaneous counter-record. The New York Times article itself was not opened.",
+      "url": "https://www.wptv.com/news/national/inside-the-secret-us-military-mission-that-located-the-titanic"
+    },
+    {
+      "id": "src_ballard_livescience",
+      "kind": "press",
+      "title": "Live Science, 'The Man Who Found the Titanic Just Ended His Search for Amelia Earhart's Lost Plane' (livescience.com, October 2019), read in full: reports that two weeks of sonar, drone and robot searches around Nikumaroro found no sign of the aircraft; TIGHAR founder Richard Gillespie says the result does not surprise him and that he wants to review Ballard's data; anthropologist Richard Jantz, not on the expedition, says the island remains the only hypothesis with tangible evidence but that a hypothesis must be testable. Independent science journalism with outside expert voices.",
+      "url": "https://livescience.com/robert-ballard-does-not-find-amelia-earhart-plane.html"
+    },
+    {
+      "id": "src_ballard_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Dr. Ballard visit 2023 (52976464273) (cropped).jpg' and parent 'Dr. Ballard visit 2023 (52976464273).jpg' (wikitext and API record) plus the live Flickr photo page, checked for the portrait's licence: photograph by Titanic Belfast, 30 March 2023, tagged CC BY 2.0 with a FlickreviewR 'passed' record dated 24 March 2024 on the parent file; the Flickr page shows Creative Commons Attribution 2.0; cropped derivative 2948 x 3927. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Dr._Ballard_visit_2023_(52976464273)_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ballard_natgeo, src_ballard_ebsco, src_ballard_livescience | 1977-2019 | staff-written profile + reference biography + science journalism] National Geographic reports that his 1977 attempt to find the Titanic ended when the Seaprobe pipe string collapsed and most of the borrowed equipment was lost, that he then built the Argo-Jason system and returned in 1985 with a systematic grid search, and that the Bismarck took two expeditions; EBSCO adds the French team's five unsuccessful weeks before his own search narrowed to the right area. The 2019 Earhart search covered the island five times by ship and found nothing, and he moved on. The repeated returns are documented by two sources, but the dogged self-description comes from Ballard himself, so confidence stays moderate."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ballard_natgeo, src_ballard_cnn, src_ballard_ebsco | 1982-2008 | staff-written profile + syndicated news + reference biography] To fund a Titanic search he secured Navy backing for Argo in return for secret Thresher and Scorpion wreck surveys, founded the Deep Submergence Laboratory in 1982, partnered with a French sonar group when time and money were short, and later turned an offered research ship into the Nautilus with its own crew. The Navy-linked funding route is documented by National Geographic and CNN (via Ballard's own words), while the ship gift rests on National Geographic's account alone, so the score is solid but not top-band."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ballard_britannica, src_ballard_natgeo, src_ballard_ebsco | 1970s-1990s | encyclopaedia + staff-written profile + reference biography] Britannica credits him with designing Argo, a towed video sled whose live pictures he called telepresence, and National Geographic says he reasoned from the submarine wreck surveys that debris spreads in a comet-shaped field and used that to size the Titanic search; EBSCO records the Argo-Jason pairing that let crews steer cameras from the ship. The tools and the debris-field insight are credited to him, but he built them with a Woods Hole laboratory team and the live-video approach rests on a wider engineering effort, so confidence is moderate."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ballard_natgeo, src_ballard_ebsco | 1970s-2000s | staff-written profile + reference biography] National Geographic reports that after a fire on a French submersible with him aboard, Alvin stuck in a fissure and a bathyscaph hit a rock wall, he began to wonder whether camera-carrying robots would do the exploring better, and EBSCO shows the move from crewed dives to Argo and Jason and later to telepresence and ship-based programmes. The change of method is documented; the motive reported in the profile is his own recollection, and he still dived in Alvin in 1986, so the score stays moderate."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ballard_ebsco, src_ballard_britannica, src_ballard_natgeo | 1985-2008 | reference biography + encyclopaedia + staff-written profile] The 1985 find was a joint expedition with France's IFREMER, whose sonar survey narrowed the search; he worked with archaeologist George Bass in the Black Sea and built a standing Corps of Exploration for the Nautilus. The partnerships are documented, but sources describe them from his side and say little about how he shared credit or handled disagreement, and the popular framing centres on him alone as the man who found the Titanic, so the score is moderate with limited confidence."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ballard_ebsco, src_ballard_natgeo, src_ballard_uri, src_ballard_britannica | 1989-2021 | reference biography + staff-written profile + university profile + encyclopaedia] He founded the JASON Project in 1989 to send live expedition video to students, which EBSCO says reached more than a million students a year, and later built the Inner Space Center and Ocean Exploration Trust telepresence programmes; National Geographic reports that he kept up the outreach despite academic colleagues' scorn, citing his wish to show the public the deep ocean. The programmes are documented across independent summaries, but reach figures and motives come from supportive profiles, so confidence is moderate."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ballard_natgeo, src_ballard_ebsco | 1970s-2020s | staff-written profile + reference biography] He won Navy and National Geographic backing for decades of expeditions, drew a school audience of over a million students a year and became a television and public-speaking figure, according to National Geographic and EBSCO. These show sustained ability to win sponsors and audiences, but no source records an independent account of how he argued a case, and the evidence is admiring and outcome-based. SELF-CALIBRATION (agent): lowered from 70 / 0.58 because the evidence documents funding and audience reach rather than the persuasive behaviour itself, and it comes from supportive profiles."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ballard_natgeo, src_ballard_livescience | 1970s-2019 | staff-written profile + science journalism] National Geographic reports a fire on a French submersible with him aboard, Alvin lodging in a fissure and a bathyscaph rupturing a gas tank on a Cayman Trough dive, and that his first Titanic attempt cost the borrowed sonar and camera package; he publicly announced before the 2019 Earhart search that he would find the plane, and found nothing, per Live Science. Taking deep-dive and public-promise risks is documented, but the dangers were inherent to the field and the accounts are his recollections, so the score is moderate and the impact is dual-edged."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/robert-ballard-titanic-belfast-2023.jpg",
+    "width": 900,
+    "height": 1199,
+    "source": "Wikimedia Commons 'Dr. Ballard visit 2023 (52976464273) (cropped).jpg' (derivative of 'Dr. Ballard visit 2023 (52976464273).jpg'), photograph by Titanic Belfast, 30 March 2023 at the launch of the Titanic Belfast Reimagined galleries, originally from Flickr (photo 52976464273), tagged CC BY 2.0 with a FlickreviewR 'passed' record (24 March 2024) on the parent file; the live Flickr page shows CC BY 2.0. The image was viewed and shows an older man in a tweed jacket matching the description of Ballard at the launch. Downscaled only, from the Commons cropped size 2948 x 3927 to 900 x 1199 pixels; no upscaling.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Titanic Belfast, 2023, CC BY 2.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Dr._Ballard_visit_2023_(52976464273)_(cropped).jpg",
+    "creator": "Titanic Belfast",
+    "date": "2023-03-30",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Dr._Ballard_visit_2023_(52976464273)_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q312867 returned en label 'Robert Ballard', description 'United States Navy officer, oceanographer and underwater archaeologist', born 1942-06-30, no death date, citizenship United States, ko label '로버트 밸러드', P18 'Dr. Ballard visit 2023 (52976464273) (cropped).jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate file or src reference for slug robert-ballard or QID Q312867 in the roster54 worktree. REGION north_america (US-born, US career at Woods Hole and URI). VOCABULARY: occupations explorer, scientist, inventor; fields exploration and natural_science; tags explorer, field_researcher, communicator; archetype scientific_explorer are existing ids with EN+KO labels (occupation oceanographer has no label and was not used). ZERO POLITICS: his 1985 Navy-funded survey of two sunken submarines and the cover story are treated as a documented episode of how the expedition was funded and run; no political or military position is scored. LIVING SUBJECT: only documented public professional behaviour is scored. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Robert Ballard' (https://www.britannica.com/biography/Robert-Ballard-American-oceanographer). READ (7 cited non-Wikidata sources): Britannica, EBSCO Research Starters, URI GSO profile, National Geographic 2021 profile (Hartigan), UPI 1987 wire report, CNN/WPTV 2018 report, Live Science 2019 report. PERSPECTIVES: encyclopaedic/reference, university self-profile, National Geographic (a long-time funder and publisher, so partly institution-aligned), contemporary wire journalism with site-protection voices (Yoerger, Haas, Kamuda), and outside-expert voices on the Earhart search (Gillespie, Jantz). Counter-voices are limited: site-protection advocates in 1987 (criticising the French salvage, not Ballard) and the 1985 Navy and Woods Hole denials set against his later account. NOT OPENED: the New York Times 1985 article (known only through the CNN report), Tampa Bay Times 1996 (paywalled), Ballard's own books and memoir (self-account, not used as support), Kirkus memoir review (read, only a plot summary, not cited). EXCLUDED deliberately: family, bereavement, schooling and dyslexia passages in the National Geographic profile, forum posts alleging hypocrisy on salvage (unverified), claims about other Navy missions (undeclassified and unsourced), Wikipedia. SELF-CALIBRATION (agent): rows reviewed were persuasiveness (outcome-based admiring evidence), impact_motivation (reach figure from supportive profiles) and resourcefulness (partly one-source gift episode); persuasiveness lowered 70/0.58 to 64/0.50 because evidence shows funding and audience reach not persuasive behaviour; impact_motivation and resourcefulness left unchanged because each has two or more independent sources. PORTRAIT: Commons page, Flickr page and review record checked; creator Titanic Belfast; CC BY 2.0; no conflicting institutional notice found; Titanic Belfast is the Flickr account holder; the cropped file was downscaled from 2948x3927 to 900x1199."
+  }
+}

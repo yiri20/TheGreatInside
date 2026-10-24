@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "konosuke-matsushita",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Konosuke Matsushita",
+    "aliases": [
+      "Matsushita Konosuke",
+      "Kōnosuke Matsushita",
+      "松下幸之助"
+    ],
+    "wikidataId": "Q252785",
+    "birthYear": 1894,
+    "deathYear": 1989,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "industrial",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "founder"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마쓰시타 고노스케"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/konosuke-matsushita-unknown-1929.jpg",
+    "width": 533,
+    "height": 731,
+    "source": "Wikimedia Commons 'Formal Portrait of Kōnosuke Matsushita in 1929 (cropped).jpg' (crop of 'Formal Portrait of Kōnosuke Matsushita in 1929.jpg', 533 x 753), a studio photograph dated 1929 whose photographer is unknown; the file page tags it PD-Japan-oldphoto (a photograph made before 1957 in Japan, whose Japanese term had expired before the 1996 URAA date, so it was not restored in the United States) and cites the Sumitomo Mitsui Trust Realty 'town archives' Hirakata page as its source. The same pose appears as 'Matsushita Kōnosuke in middle age.jpg', taken from the 1935 book Kansai Meishi Shashinroku (Kokusei Kyokai, National Diet Library digital collection ID 1111970), which gives the photograph a concrete publication date of 1935. The Wikidata P18 lead 'Konosuke Matsushita 01.jpg' (420 x 650, from the 15 August 1961 issue of the magazine Photo) was REJECTED because its Commons page carries Not-PD-US-URAA, i.e. it is not public domain in the United States. The cited realty-company page has no copyright notice about the photograph; no Panasonic page was reachable (holdings.panasonic returns 403 to automated requests), so the absence of a conflicting Panasonic notice is not confirmed. Saved at the Commons cropped size with no resizing or upscaling.",
+    "license": "Public domain (Japan, pre-1957 photograph, photographer unknown; not restored in the US)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto",
+    "attribution": "Photograph by an unknown photographer, 1929 (public domain); via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Formal_Portrait_of_K%C5%8Dnosuke_Matsushita_in_1929_(cropped).jpg",
+    "creator": "Unknown photographer",
+    "date": "1929",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Formal_Portrait_of_K%C5%8Dnosuke_Matsushita_in_1929_(cropped).jpg"
+  },
+  "sources": [
+    {
+      "id": "src_matsushita_wikidata",
+      "kind": "wikidata",
+      "title": "Kōnosuke Matsushita (Q252785) -- verified live via the Wikidata API (2026-10-23): English label 'Kōnosuke Matsushita', description 'Founder of Panasonic (1894-1989)', born 27 November 1894, died 27 April 1989, Korean label '마쓰시타 고노스케', citizenship Japan and Empire of Japan, several P18 images. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q252785"
+    },
+    {
+      "id": "src_matsushita_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Matsushita Konosuke' (britannica.com), read in full via an Internet Archive copy because the live site blocks bots: Japanese industrialist who founded Matsushita Electric Industrial Co., Ltd., then the largest manufacturer of consumer electric appliances in the world; orphaned and an errand boy at 9; joined the Osaka Electric Light Company at 16 and quit at 23 to sell his own electric plug design; inventive marketing helped growth; reorganised the firm in 1935; prevented the post-war occupation authorities from breaking the company up; chief maker of washing machines, refrigerators and televisions for Japanese homes by the 1950s; brands Panasonic, Quasar and National; president to 1961 and then chairman; his business philosophy of producing essential consumer goods in abundance at the lowest prices was widely adopted. CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.britannica.com/biography/Matsushita-Konosuke"
+    },
+    {
+      "id": "src_matsushita_ebsco",
+      "kind": "biography",
+      "title": "Won Z. Yoon, 'Konosuke Matsushita' (EBSCO Research Starters, History, 2024; text derived from a reference-work biography), read in full: his apprenticeships from age ten; the 1917 plug venture on about one hundred dollars whose first experiment failed; the 1918 founding; the 1923 bicycle-lamp whose sales stalled until he lit lamps in sceptical retailers' shops to show they lasted thirty hours; the December 1929 decision, during the depression, that the company would dismiss no worker; a 1932 mission to serve society by supplying useful goods and an in-house training institute; the 1933 divisional management system to evaluate divisions and develop managers; wartime military production; occupation-era designation as a zaibatsu until October 1950, which the company and its union contested; the 1961 move to chairman. Contains marriage and family detail that was excluded. Its bibliography draws on Matsushita's own autobiography and PHP publications, so its account is partly self-sourced, and its 'first' claims were not used. Encyclopaedic, admiring.",
+      "url": "https://www.ebsco.com/research-starters/history/konosuke-matsushita/"
+    },
+    {
+      "id": "src_matsushita_kirkus",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of John P. Kotter, 'Matsushita Leadership' (Free Press, 1997; review posted 2010), read in full: calls the book 'a singularly uncritical and sketchy briefing' that verges on hagiography, notes it largely ignores the company's contribution to Japan's wartime effort and the factors behind postwar growth (decentralised management, calculated risks, protection of domestic outlets, R&D) and seldom comes to grips with the personal qualities of the 'competitive and demanding entrepreneur'. Used only as a counter-voice on how uncritically the Matsushita story is told; the Kotter book itself was NOT opened.",
+      "url": "https://www.kirkusreviews.com/book-reviews/john-p-kotter/matsushita/"
+    },
+    {
+      "id": "src_matsushita_jri",
+      "kind": "press",
+      "title": "Yuji Takeuchi, 'Matsushita Kōnosuke to Nakauchi Isao no shinnen' (Konosuke Matsushita and Isao Nakauchi's convictions), Japan Research Institute management column (24 July 2006, jri.co.jp), read in full in Japanese: a think-tank researcher's account that in 1964 Matsushita gathered distributors' presidents at Atami, pointed out their complacency but also admitted Matsushita Electric's own fault, apologised and gave them the calligraphy 'coexistence and mutual prosperity'; that Matsushita Electric and the discount retailer Daiei then fought a roughly 30-year dispute over discounting (shipment stoppage, an antitrust complaint, and Matsushita's 1975 invitation asking Nakauchi to give up the 'way of might'); and the author's view that the clash set Matsushita's belief in list-price sales and distributor loyalty against Nakauchi's belief in consumer price sovereignty. Independent of Panasonic; a counter-voice because it treats Matsushita's pricing stance as one side of a genuine conflict. Details of the Atami meeting rely on the company's own accounts.",
+      "url": "https://www.jri.co.jp/column/kokoro/detail/855/"
+    },
+    {
+      "id": "src_matsushita_shashi_profile",
+      "kind": "press",
+      "title": "The Shashi, 'Konosuke Matsushita: Panasonic Holdings CEO 1935-1961' (the-shashi.com, a Japanese company-president data and analysis site), read in full: tenure December 1935 to January 1961, revenue rising from 18.9 to 105.4 billion yen between FY1955 and FY1960, move to Kadoma and divisional system in 1933, post-war 'restricted company' designation and his own designation under the military-production purge, a campaign by the company union (15,000 employees collecting signatures) that helped get his purge designation reduced and later lifted, the 1952 Philips technical tie-up, the 1956 five-year plan from 22 billion to 80 billion yen that was exceeded (105 billion), the 1957 National Shop Association. Secondary compilation of Japanese sources that does not name its documents; treated as moderate-reliability and not independent of corporate histories.",
+      "url": "https://the-shashi.com/en/tse/6752/matsushita-konosuke/"
+    },
+    {
+      "id": "src_matsushita_shashi_atami",
+      "kind": "press",
+      "title": "Yutaka Sugiura, 'Rebuilding relations with distributors by admitting Matsushita was at fault' (Atami conference, 1964), The Shashi Japanese-language case page, read in full: 170 company presidents were invited to Atami in July 1964 without a fixed agenda after the first fall in half-year sales and profits since 1950, Matsushita on the third day said the company was in the wrong and apologised, then took over the sales headquarters himself in August 1964 and introduced the one-region-one-distributor, divisional direct-sales and new monthly-payment systems from February 1965, accepting lower profit for three years; the analyst adds that the keiretsu distribution structure later became a burden for his successors. Analyst commentary whose references are mainly Panasonic's own company histories and Matsushita's own 'Watashi no rirekisho' memoir, so it corroborates the JRI column only in part.",
+      "url": "https://the-shashi.com/tse/6752/decisions/atami-conference-1964/"
+    },
+    {
+      "id": "src_matsushita_toyo",
+      "kind": "press",
+      "title": "Toyo Keizai Online, 'Matsushita Konosuke: excessive competition poisons the Japanese economy' (republication, 30 December 2019, of a 24 May 1958 Weekly Toyo Keizai interview), only the free introduction and the first answer were read because the rest is behind a paywall: the editors describe him as opposing discount selling at the time of a price war and the Fair Trade Commission's scrutiny, quote him wanting makers' designated prices respected, and he says in the first answer that excessive competition is a matter of industry self-restraint. Mostly self-quotation framed by the magazine; partial read, used only as context for the pricing stance in the JRI column.",
+      "url": "https://toyokeizai.net/articles/-/570169"
+    },
+    {
+      "id": "src_matsushita_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Formal Portrait of Kōnosuke Matsushita in 1929.jpg' and its cropped derivative, 'Konosuke Matsushita 01.jpg' (rejected), 'Matsushita Kōnosuke in middle age.jpg' and the realty-company page cited by the 1929 file, checked for the portrait's rights basis. Not used for scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Formal_Portrait_of_K%C5%8Dnosuke_Matsushita_in_1929_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_matsushita_ebsco, src_matsushita_britannica | 1917-1923 | encyclopaedic biography + encyclopaedia] He started the plug venture with about one hundred dollars after leaving his job, persisted after the first experiment failed, and when retailers distrusted his dry-cell bicycle lamp he put lit lamps in their shops to show they lasted thirty hours, after which orders arrived; Britannica credits inventive marketing for the firm's growth. Concrete episodes of getting results from scarce means, but from admiring encyclopaedic accounts partly derived from his own memoir, so moderate confidence."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_matsushita_ebsco, src_matsushita_shashi_atami, src_matsushita_jri | 1917-1965 | encyclopaedic biography + analyst case + think-tank column] He left a job to build his own product, took the lamp to retailers himself, and in 1964, after the Atami meeting and while chairman, took over the sales headquarters personally and brought in the new sales systems the next February; the JRI column independently reports the Atami meeting that preceded it. Self-initiated action at several career stages, but the 1964 detail rests mainly on company-derived accounts, so moderate confidence."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_matsushita_ebsco, src_matsushita_britannica | 1918-1950s | encyclopaedic biography + encyclopaedia] EBSCO says he chose a battery lamp for commuting cyclists forced to ride unlit roads, priced his plugs below competitors, and diversified into appliances for post-war households; Britannica says the company became the chief maker of washing machines, refrigerators and televisions for Japanese homes in the 1950s. The market judgements are documented but the sources mostly report outcomes and are admiring, so low-moderate confidence."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_matsushita_ebsco, src_matsushita_jri, src_matsushita_shashi_atami | 1923, 1964 | encyclopaedic biography + think-tank column + analyst case] He won over sceptical lamp retailers by demonstration, and after a heated three-day meeting of about 170 distributor presidents in 1964 he turned the dispute into agreement by admitting fault and handing out the 'coexistence and mutual prosperity' calligraphy. Two persuasion episodes from three sources, but the second is told largely from company-derived accounts, and in the Daiei dispute his appeals did not persuade Nakauchi (JRI), so moderate-low confidence."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_matsushita_jri, src_matsushita_shashi_atami, src_matsushita_toyo | 1958-1975 | think-tank column + analyst case + magazine interview] He convened distributors with no fixed agenda and let a three-day confrontation run, then took responsibility; he also held a firm line in the roughly 30-year dispute with Daiei, stopping shipments over discounting, and opposed price-cutting in his 1958 interview. He engaged conflict directly rather than avoiding it, but the firm-line side was criticised as one side of a real clash (JRI) and the detail is partly company-derived, so moderate-low confidence and dual-edged impact."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_matsushita_britannica, src_matsushita_ebsco, src_matsushita_jri | 1929-1960s | encyclopaedia + encyclopaedic biography + think-tank column] Britannica says his philosophy called for essential consumer goods in abundance at the lowest prices; EBSCO says he took the December 1929 depression decision to dismiss no worker, set up an in-house training institute in 1932 and defined his mission as improving living conditions; JRI describes his 'tap water' view of an industrialist's mission as overcoming poverty. The stated mission is well documented and actions such as no layoffs are consistent with it, but the evidence is largely his own philosophy retold admiringly, and Kirkus calls the standard telling hagiographic, so moderate confidence."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_matsushita_shashi_profile, src_matsushita_ebsco, src_matsushita_kirkus | 1918-1964 | analyst profile + encyclopaedic biography + review] He founded the firm, served as president from December 1935 to January 1961, built a divisional system to develop managers, returned in 1964 to run the sales headquarters himself, and, per the Shashi profile, the company union campaigned for him to stay as president in the post-war purge. Kirkus calls him a competitive and demanding entrepreneur while noting the standard telling is uncritical. A long record of leading, but the sources are secondary or admiring, so moderate confidence."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_matsushita_shashi_profile, src_matsushita_ebsco | 1933-1956 | analyst profile + encyclopaedic biography] The Shashi profile records a January 1956 five-year plan to raise sales from 22 billion to 80 billion yen that was met (105 billion yen by 1961), and EBSCO records a 1933 divisional structure designed to measure each division and train managers. Plans and structures are documented, but the plan figures come from a secondary compilation without named documents, so low-moderate confidence."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q252785 returned label 'Kōnosuke Matsushita', description 'Founder of Panasonic (1894-1989)', born 1894-11-27, died 1989-04-27, ko label '마쓰시타 고노스케'; the lead's hint was correct. SLUG/QID CHECK: no candidate file, src/data person, or QID reference for konosuke-matsushita or Q252785 in the roster54 worktree. REGION east_asia, nationality JP. VOCABULARY: entrepreneur and executive, business, industrial/entrepreneurial impact domains, founder tag and entrepreneurial_builder archetype are existing ids with EN+KO labels (cf. soichiro-honda, henry-ford). ZERO POLITICS: the Matsushita Institute of Government and Management and the PHP Institute are educational/philanthropic side items, not carded or scored; wartime military production, the occupation zaibatsu and purge designations and the later political-school work are context only, unscored, and no row rests on them. EXCLUDED deliberately: marriage and family, adoption of his son-in-law, illness, the Daiei dispute as a character judgement beyond the documented shipment stoppage, his 'first employer' claims in EBSCO (unverified firsts), Wikipedia/Wikidata. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Matsushita Konosuke' (https://www.britannica.com/biography/Matsushita-Konosuke), read via an Internet Archive copy because the live site blocks bots. READ (7 cited non-Wikidata sources plus portrait pages): Britannica, EBSCO Research Starters biography, Kirkus review of Kotter, Japan Research Institute column on Matsushita and Daiei, The Shashi CEO profile, The Shashi Atami case page, and the free portion of the 1958 Toyo Keizai interview. PERSPECTIVES: encyclopaedic/scholarly (Britannica, EBSCO), a critical book reviewer (Kirkus), an independent think-tank column (JRI, with the Daiei counter-voice), a company-data analyst (Shashi), a contemporary magazine (Toyo Keizai, partial). Kotter's 'Matsushita Leadership', the Harvard Business School materials, Time's 1962 article, Pascale and Athos, the NYT obituary (404 on archive), Panasonic's corporate history and Matsushita's own memoirs were NOT opened (paywalled, blocked or lending-only); Panasonic and PHP material was sought but unavailable, so corporate hagiography is represented only through the EBSCO/Shashi accounts derived from it. The Atami episode, though reported by JRI and Shashi, derives from company-side accounts and is capped accordingly. No independent adversarial source on his management behaviour beyond JRI/Kirkus was found; scores therefore stay at or below 76 and confidence at or below 0.5. Row count is 8 of 34, sparse by design; no row was padded to approach eligibility. PORTRAIT: see portrait record: the Wikidata lead 'Konosuke Matsushita 01.jpg' was rejected because Commons itself marks it Not-PD-US-URAA; the 1929 studio photograph, with an unknown photographer and a 1935 published reproduction in a National Diet Library digitised book, was used instead. SELF-CALIBRATION (agent): rows reviewed were leadership_drive (highest score), impact_motivation (retold-philosophy dependence) and proactive_agency (company-derived 1964 detail); none was lowered because each already sits at moderate confidence with named caveats and a counter-voice, and none is a one-source row. No broad scoring problem flagged beyond the structural lack of independent behavioural sources, which is noted above."
+  }
+}

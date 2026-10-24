@@ -11020,4 +11020,186 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "tadao-ando-turning-point-1", textKey: "tadao-ando.turning_point.1", interpretationKey: "tadao-ando.interpretation.turning_point.1", attributeId: "independent_thinking", sourceIds: ["src_ando_gale", "src_ando_gac"] },
     ],
   },
+  "bjarne-stroustrup": {
+    achievements: [
+      { id: "bjarne-stroustrup-achievement-1", textKey: "bjarne-stroustrup.achievement.1", sourceIds: ["src_stroustrup_chm"] },
+      { id: "bjarne-stroustrup-achievement-2", textKey: "bjarne-stroustrup.achievement.2", sourceIds: ["src_stroustrup_chm", "src_stroustrup_reg2018"] },
+      { id: "bjarne-stroustrup-achievement-3", textKey: "bjarne-stroustrup.achievement.3", sourceIds: ["src_stroustrup_draper", "src_stroustrup_chm"] },
+    ],
+    moments: [
+      { id: "bjarne-stroustrup-moment-1", textKey: "bjarne-stroustrup.moment.1", interpretationKey: "bjarne-stroustrup.interpretation.moment.1", attributeId: "conflict_tolerance", sourceIds: ["src_stroustrup_reg2018"] },
+      { id: "bjarne-stroustrup-moment-2", textKey: "bjarne-stroustrup.moment.2", interpretationKey: "bjarne-stroustrup.interpretation.moment.2", attributeId: "proactive_agency", sourceIds: ["src_stroustrup_reg2025", "src_stroustrup_reg2025b"] },
+    ],
+    turningPoints: [
+      { id: "bjarne-stroustrup-turning-point-1", textKey: "bjarne-stroustrup.turning_point.1", interpretationKey: "bjarne-stroustrup.interpretation.turning_point.1", attributeId: "systems_abstraction", sourceIds: ["src_stroustrup_chm"] },
+    ],
+  },
+  "david-attenborough": {
+    achievements: [
+      { id: "david-attenborough-achievement-1", textKey: "david-attenborough.achievement.1", sourceIds: ["src_attenborough_britannica", "src_attenborough_broadcast"] },
+      { id: "david-attenborough-achievement-2", textKey: "david-attenborough.achievement.2", sourceIds: ["src_attenborough_britannica", "src_attenborough_scotsman"] },
+      { id: "david-attenborough-achievement-3", textKey: "david-attenborough.achievement.3", sourceIds: ["src_attenborough_britannica", "src_attenborough_sciam"] },
+    ],
+    moments: [
+      { id: "david-attenborough-moment-1", textKey: "david-attenborough.moment.1", interpretationKey: "david-attenborough.interpretation.moment.1", attributeId: "planning_orientation", sourceIds: ["src_attenborough_csm"] },
+      { id: "david-attenborough-moment-2", textKey: "david-attenborough.moment.2", interpretationKey: "david-attenborough.interpretation.moment.2", attributeId: "analytical_rigor", sourceIds: ["src_attenborough_abc", "src_attenborough_conservationjobs"] },
+    ],
+    turningPoints: [
+      { id: "david-attenborough-turning-point-1", textKey: "david-attenborough.turning_point.1", interpretationKey: "david-attenborough.interpretation.turning_point.1", attributeId: "proactive_agency", sourceIds: ["src_attenborough_britannica", "src_attenborough_broadcast", "src_attenborough_sciam"] },
+    ],
+  },
+  "fei-fei-li": {
+    achievements: [
+      { id: "fei-fei-li-achievement-1", textKey: "fei-fei-li.achievement.1", sourceIds: ["src_feifeili_princeton"] },
+      { id: "fei-fei-li-achievement-2", textKey: "fei-fei-li.achievement.2", sourceIds: ["src_feifeili_princeton", "src_feifeili_wired"] },
+      { id: "fei-fei-li-achievement-3", textKey: "fei-fei-li.achievement.3", sourceIds: ["src_feifeili_synced", "src_feifeili_bair"] },
+    ],
+    moments: [
+      { id: "fei-fei-li-moment-1", textKey: "fei-fei-li.moment.1", interpretationKey: "fei-fei-li.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_feifeili_princeton", "src_feifeili_wired"] },
+      { id: "fei-fei-li-moment-2", textKey: "fei-fei-li.moment.2", interpretationKey: "fei-fei-li.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_feifeili_wired", "src_feifeili_excavating"] },
+    ],
+    turningPoints: [
+      { id: "fei-fei-li-turning-point-1", textKey: "fei-fei-li.turning_point.1", interpretationKey: "fei-fei-li.interpretation.turning_point.1", attributeId: "impact_motivation", sourceIds: ["src_feifeili_bair", "src_feifeili_synced", "src_feifeili_wired"] },
+    ],
+  },
+  "friedrich-nietzsche": {
+    achievements: [
+      { id: "friedrich-nietzsche-achievement-1", textKey: "friedrich-nietzsche.achievement.1", sourceIds: ["src_nietzsche_sep", "src_nietzsche_iep"] },
+      { id: "friedrich-nietzsche-achievement-2", textKey: "friedrich-nietzsche.achievement.2", sourceIds: ["src_nietzsche_sep", "src_nietzsche_chronology"] },
+      { id: "friedrich-nietzsche-achievement-3", textKey: "friedrich-nietzsche.achievement.3", sourceIds: ["src_nietzsche_britannica"] },
+    ],
+    moments: [
+      { id: "friedrich-nietzsche-moment-1", textKey: "friedrich-nietzsche.moment.1", interpretationKey: "friedrich-nietzsche.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_nietzsche_sep", "src_nietzsche_iep"] },
+      { id: "friedrich-nietzsche-moment-2", textKey: "friedrich-nietzsche.moment.2", interpretationKey: "friedrich-nietzsche.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_nietzsche_chronology", "src_nietzsche_sep_life"] },
+    ],
+    turningPoints: [
+      { id: "friedrich-nietzsche-turning-point-1", textKey: "friedrich-nietzsche.turning_point.1", interpretationKey: "friedrich-nietzsche.interpretation.turning_point.1", attributeId: "autonomy_need", sourceIds: ["src_nietzsche_britannica", "src_nietzsche_iep"] },
+    ],
+  },
+  "george-lucas": {
+    achievements: [
+      { id: "george-lucas-achievement-1", textKey: "george-lucas.achievement.1", sourceIds: ["src_lucas_britannica", "src_lucas_loc_seitz"] },
+      { id: "george-lucas-achievement-2", textKey: "george-lucas.achievement.2", sourceIds: ["src_lucas_britannica", "src_lucas_asc_dykstra", "src_lucas_achievement"] },
+      { id: "george-lucas-achievement-3", textKey: "george-lucas.achievement.3", sourceIds: ["src_lucas_britannica", "src_lucas_achievement"] },
+    ],
+    moments: [
+      { id: "george-lucas-moment-1", textKey: "george-lucas.moment.1", interpretationKey: "george-lucas.interpretation.moment.1", attributeId: "detail_orientation", sourceIds: ["src_lucas_afi"] },
+      { id: "george-lucas-moment-2", textKey: "george-lucas.moment.2", interpretationKey: "george-lucas.interpretation.moment.2", attributeId: "opportunity_sensing", sourceIds: ["src_lucas_afi", "src_lucas_achievement"] },
+    ],
+    turningPoints: [
+      { id: "george-lucas-turning-point-1", textKey: "george-lucas.turning_point.1", interpretationKey: "george-lucas.interpretation.turning_point.1", attributeId: "autonomy_need", sourceIds: ["src_lucas_britannica", "src_lucas_asc_thx"] },
+    ],
+  },
+  "konosuke-matsushita": {
+    achievements: [
+      { id: "konosuke-matsushita-achievement-1", textKey: "konosuke-matsushita.achievement.1", sourceIds: ["src_matsushita_britannica", "src_matsushita_ebsco"] },
+      { id: "konosuke-matsushita-achievement-2", textKey: "konosuke-matsushita.achievement.2", sourceIds: ["src_matsushita_britannica"] },
+      { id: "konosuke-matsushita-achievement-3", textKey: "konosuke-matsushita.achievement.3", sourceIds: ["src_matsushita_ebsco", "src_matsushita_britannica"] },
+    ],
+    moments: [
+      { id: "konosuke-matsushita-moment-1", textKey: "konosuke-matsushita.moment.1", interpretationKey: "konosuke-matsushita.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_matsushita_ebsco"] },
+      { id: "konosuke-matsushita-moment-2", textKey: "konosuke-matsushita.moment.2", interpretationKey: "konosuke-matsushita.interpretation.moment.2", attributeId: "proactive_agency", sourceIds: ["src_matsushita_jri", "src_matsushita_shashi_atami"] },
+    ],
+    turningPoints: [
+      { id: "konosuke-matsushita-turning-point-1", textKey: "konosuke-matsushita.turning_point.1", interpretationKey: "konosuke-matsushita.interpretation.turning_point.1", attributeId: "impact_motivation", sourceIds: ["src_matsushita_ebsco"] },
+    ],
+  },
+  "madonna": {
+    achievements: [
+      { id: "madonna-achievement-1", textKey: "madonna.achievement.1", sourceIds: ["src_md_rockhall"] },
+      { id: "madonna-achievement-2", textKey: "madonna.achievement.2", sourceIds: ["src_md_mr_lap", "src_md_mr_rol"] },
+      { id: "madonna-achievement-3", textKey: "madonna.achievement.3", sourceIds: ["src_md_guinness"] },
+    ],
+    moments: [
+      { id: "madonna-moment-1", textKey: "madonna.moment.1", interpretationKey: "madonna.interpretation.moment.1", attributeId: "execution_speed", sourceIds: ["src_md_mr_lap"] },
+      { id: "madonna-moment-2", textKey: "madonna.moment.2", interpretationKey: "madonna.interpretation.moment.2", attributeId: "risk_tolerance", sourceIds: ["src_md_mr_lap"] },
+    ],
+    turningPoints: [
+      { id: "madonna-turning-point-1", textKey: "madonna.turning_point.1", interpretationKey: "madonna.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_md_mr_rol"] },
+    ],
+  },
+  "maurice-ravel": {
+    achievements: [
+      { id: "maurice-ravel-achievement-1", textKey: "maurice-ravel.achievement.1", sourceIds: ["src_ravel_encyclopedia", "src_ravel_worldhistory"] },
+      { id: "maurice-ravel-achievement-2", textKey: "maurice-ravel.achievement.2", sourceIds: ["src_ravel_encyclopedia", "src_ravel_bso", "src_ravel_classiquenews"] },
+      { id: "maurice-ravel-achievement-3", textKey: "maurice-ravel.achievement.3", sourceIds: ["src_ravel_encyclopedia", "src_ravel_worldhistory"] },
+    ],
+    moments: [
+      { id: "maurice-ravel-moment-1", textKey: "maurice-ravel.moment.1", interpretationKey: "maurice-ravel.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_ravel_encyclopedia", "src_ravel_interlude", "src_ravel_classiquenews"] },
+      { id: "maurice-ravel-moment-2", textKey: "maurice-ravel.moment.2", interpretationKey: "maurice-ravel.interpretation.moment.2", attributeId: "creative_originality", sourceIds: ["src_ravel_worldhistory", "src_ravel_encyclopedia"] },
+    ],
+    turningPoints: [
+      { id: "maurice-ravel-turning-point-1", textKey: "maurice-ravel.turning_point.1", interpretationKey: "maurice-ravel.interpretation.turning_point.1", attributeId: "independent_thinking", sourceIds: ["src_ravel_encyclopedia", "src_ravel_interlude", "src_ravel_classiquenews"] },
+    ],
+  },
+  "piet-mondrian": {
+    achievements: [
+      { id: "piet-mondrian-achievement-1", textKey: "piet-mondrian.achievement.1", sourceIds: ["src_mondrian_tate_neoplasticism", "src_mondrian_thyssen"] },
+      { id: "piet-mondrian-achievement-2", textKey: "piet-mondrian.achievement.2", sourceIds: ["src_mondrian_tate_destijl", "src_mondrian_tate_neoplasticism"] },
+      { id: "piet-mondrian-achievement-3", textKey: "piet-mondrian.achievement.3", sourceIds: ["src_mondrian_thyssen", "src_mondrian_moma_press", "src_mondrian_believer"] },
+    ],
+    moments: [
+      { id: "piet-mondrian-moment-1", textKey: "piet-mondrian.moment.1", interpretationKey: "piet-mondrian.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_mondrian_tate_destijl", "src_mondrian_thyssen", "src_mondrian_golding_nyrb"] },
+      { id: "piet-mondrian-moment-2", textKey: "piet-mondrian.moment.2", interpretationKey: "piet-mondrian.interpretation.moment.2", attributeId: "experimentation", sourceIds: ["src_mondrian_believer", "src_mondrian_golding_nyrb"] },
+    ],
+    turningPoints: [
+      { id: "piet-mondrian-turning-point-1", textKey: "piet-mondrian.turning_point.1", interpretationKey: "piet-mondrian.interpretation.turning_point.1", attributeId: "belief_updating", sourceIds: ["src_mondrian_thyssen", "src_mondrian_golding_nyrb"] },
+    ],
+  },
+  "prince": {
+    achievements: [
+      { id: "prince-achievement-1", textKey: "prince.achievement.1", sourceIds: ["src_pr_loc"] },
+      { id: "prince-achievement-2", textKey: "prince.achievement.2", sourceIds: ["src_pr_rockhall", "src_pr_loc", "src_pr_current"] },
+      { id: "prince-achievement-3", textKey: "prince.achievement.3", sourceIds: ["src_pr_loc", "src_pr_waxpoetics", "src_pr_buzzfeed"] },
+    ],
+    moments: [
+      { id: "prince-moment-1", textKey: "prince.moment.1", interpretationKey: "prince.interpretation.moment.1", attributeId: "execution_speed", sourceIds: ["src_pr_loc"] },
+      { id: "prince-moment-2", textKey: "prince.moment.2", interpretationKey: "prince.interpretation.moment.2", attributeId: "discipline", sourceIds: ["src_pr_musicradar"] },
+    ],
+    turningPoints: [
+      { id: "prince-turning-point-1", textKey: "prince.turning_point.1", interpretationKey: "prince.interpretation.turning_point.1", attributeId: "autonomy_need", sourceIds: ["src_pr_buzzfeed"] },
+    ],
+  },
+  "ray-kroc": {
+    achievements: [
+      { id: "ray-kroc-achievement-1", textKey: "ray-kroc.achievement.1", sourceIds: ["src_kroc_nyt_obit", "src_kroc_ebsco", "src_kroc_hotelonline"] },
+      { id: "ray-kroc-achievement-2", textKey: "ray-kroc.achievement.2", sourceIds: ["src_kroc_ebsco", "src_kroc_encyclopedia"] },
+      { id: "ray-kroc-achievement-3", textKey: "ray-kroc.achievement.3", sourceIds: ["src_kroc_horatioalger", "src_kroc_hotelonline", "src_kroc_money"] },
+    ],
+    moments: [
+      { id: "ray-kroc-moment-1", textKey: "ray-kroc.moment.1", interpretationKey: "ray-kroc.interpretation.moment.1", attributeId: "detail_orientation", sourceIds: ["src_kroc_nyt_obit"] },
+      { id: "ray-kroc-moment-2", textKey: "ray-kroc.moment.2", interpretationKey: "ray-kroc.interpretation.moment.2", attributeId: "collaboration", sourceIds: ["src_kroc_money", "src_kroc_hotelonline"] },
+    ],
+    turningPoints: [
+      { id: "ray-kroc-turning-point-1", textKey: "ray-kroc.turning_point.1", interpretationKey: "ray-kroc.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_kroc_ebsco", "src_kroc_encyclopedia", "src_kroc_money"] },
+    ],
+  },
+  "robert-ballard": {
+    achievements: [
+      { id: "robert-ballard-achievement-1", textKey: "robert-ballard.achievement.1", sourceIds: ["src_ballard_britannica", "src_ballard_ebsco"] },
+      { id: "robert-ballard-achievement-2", textKey: "robert-ballard.achievement.2", sourceIds: ["src_ballard_britannica", "src_ballard_uri", "src_ballard_natgeo"] },
+      { id: "robert-ballard-achievement-3", textKey: "robert-ballard.achievement.3", sourceIds: ["src_ballard_britannica", "src_ballard_ebsco", "src_ballard_uri"] },
+    ],
+    moments: [
+      { id: "robert-ballard-moment-1", textKey: "robert-ballard.moment.1", interpretationKey: "robert-ballard.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_ballard_natgeo", "src_ballard_ebsco"] },
+      { id: "robert-ballard-moment-2", textKey: "robert-ballard.moment.2", interpretationKey: "robert-ballard.interpretation.moment.2", attributeId: "resourcefulness", sourceIds: ["src_ballard_cnn", "src_ballard_natgeo"] },
+    ],
+    turningPoints: [
+      { id: "robert-ballard-turning-point-1", textKey: "robert-ballard.turning_point.1", interpretationKey: "robert-ballard.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_ballard_natgeo", "src_ballard_ebsco"] },
+    ],
+  },
+  "sachin-tendulkar": {
+    achievements: [
+      { id: "sachin-tendulkar-achievement-1", textKey: "sachin-tendulkar.achievement.1", sourceIds: ["src_sachin_britannica", "src_sachin_wisden97"] },
+      { id: "sachin-tendulkar-achievement-2", textKey: "sachin-tendulkar.achievement.2", sourceIds: ["src_sachin_britannica"] },
+      { id: "sachin-tendulkar-achievement-3", textKey: "sachin-tendulkar.achievement.3", sourceIds: ["src_sachin_britannica"] },
+    ],
+    moments: [
+      { id: "sachin-tendulkar-moment-1", textKey: "sachin-tendulkar.moment.1", interpretationKey: "sachin-tendulkar.interpretation.moment.1", attributeId: "discipline", sourceIds: ["src_sachin_scroll"] },
+      { id: "sachin-tendulkar-moment-2", textKey: "sachin-tendulkar.moment.2", interpretationKey: "sachin-tendulkar.interpretation.moment.2", attributeId: "mastery_orientation", sourceIds: ["src_sachin_kirsten", "src_sachin_laxman"] },
+    ],
+    turningPoints: [
+      { id: "sachin-tendulkar-turning-point-1", textKey: "sachin-tendulkar.turning_point.1", interpretationKey: "sachin-tendulkar.interpretation.turning_point.1", attributeId: "leadership_drive", sourceIds: ["src_sachin_wisden97", "src_sachin_ramchand"] },
+    ],
+  },
 };

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fei-fei-li",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Fei-Fei Li",
+    "aliases": [
+      "Li Fei-Fei"
+    ],
+    "wikidataId": "Q18686107",
+    "birthYear": 1976,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist"
+    ],
+    "fieldIds": [
+      "computing"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_feifeili_wikidata",
+      "kind": "wikidata",
+      "title": "Fei-Fei Li (Q18686107) -- verified live via the Wikidata API (2026-10-23): English label 'Fei-Fei Li', description 'American computer scientist', born 1976-07-03, no death date, citizenship United States, occupations include computer scientist, Korean label present, P18 'Fei-Fei Li at AI for Good 2017.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q18686107"
+    },
+    {
+      "id": "src_feifeili_princeton",
+      "kind": "institution",
+      "title": "Julia Schwarz, 'In the hallways of Princeton, a fascination with the human mind unlocked the power of deep learning', Princeton University Department of Computer Science, 22 September 2025, read in full: Li arrived at Princeton as an assistant professor in January 2007 and was given an office next to linguist Christiane Fellbaum, who had spent about 20 years on WordNet; their conversations led Li to name her project after WordNet and to use its roughly 20,000 noun categories as the scaffold for a visual map, pairing each category with about a thousand annotated images; the hypothesis (from her Caltech graduate years) was that a vision system, like a child, needs many examples before it recognises a category; as a junior faculty member she had limited resources, Kai Li (distributed systems) championed the project when few did, and his student Jia Deng became lead author of the first ImageNet paper (2009) with Olga Russakovsky also involved; Russakovsky says 'most people wondered why collecting a dataset would be intellectually interesting' and Deng calls it 'a very bold hypothesis'; peers were largely sceptical because prestige came from building models; by 2010 more than 14 million annotated images existed and a competition launched that year; Toronto's 2012 AlexNet win is described as AI's 'Big Bang moment' and Russakovsky recalls 'this was the moment when people started to believe that deep learning models actually worked'; Li later co-founded AI4ALL with Russakovsky. CANONICAL SIGNIFICANCE SOURCE. Departmental institutional feature (Princeton has an interest in the story), quotations from collaborators and former students; admiring but specific and dated.",
+      "url": "https://www.cs.princeton.edu/news/hallways-princeton-fascination-human-mind-unlocked-power-deep-learning"
+    },
+    {
+      "id": "src_feifeili_wired",
+      "kind": "press",
+      "title": "Steven Levy, 'Fei-Fei Li Started an AI Revolution by Seeing Like an Algorithm', WIRED (Plaintext), 10 November 2023, read in full: reviews her memoir The Worlds I See; ImageNet was a project started in 2006 that classified millions of images, requiring at least 1,000 examples for each of a sprawling list of categories; she recounts defying colleagues who doubted it was possible, with Amazon's Mechanical Turk helping; she completed ImageNet in 2009 and launched a contest, and the 2012 winner AlexNet from Hinton's Toronto lab posted a huge leap; she reports a 'twinge of culpability' when Google mislabelled Black people as gorillas, says the internet's picture of everyday life being 'predominantly white, Western, and often male' leaves technology struggling with everyone, was 'prompted to launch' AI4All, and says 'if there are things we didn't do well; we have to fix them'; also director of the Stanford AI Lab, chief scientist of AI and machine learning at Google Cloud, founding codirector of Stanford HAI. Reputable tech-press profile built on an interview and the memoir (so substantially her own account relayed by a sympathetic journalist); its paragraphs on her meeting with the US president, executive-order and public-funding advocacy, her parents and immigration story were not used.",
+      "url": "https://www.wired.com/story/plaintext-fei-fei-li-ai-revolution-seeing-imagenet-algorithm/"
+    },
+    {
+      "id": "src_feifeili_excavating",
+      "kind": "press",
+      "title": "Kate Crawford and Trevor Paglen, 'Excavating AI: The Politics of Images in Machine Learning Training Sets', excavating.ai (AI Now Institute), 19 September 2019, read in full via fetch summary: critiques ImageNet's 'person' branch (2,833 subcategories sorting people by race, nationality, profession, behaviour, character and morality, many offensive), the WordNet inheritance, Mechanical Turk labelling at roughly 50 images per minute, scraping of people's photographs without consent, and the flattening of concrete and judgemental nouns into single labels; notes the person category went offline in January 2019 (about 1.2 million images) and that removal does not undo the dataset's influence; quotes Li saying the goal was to 'map out the entire world of objects'. CRITICAL COUNTER-VOICE from outside researchers/artists who are themselves advocates; criticises the dataset's design as a team product, not Li individually; the authors' wider claims about other datasets were not used.",
+      "url": "https://excavating.ai/"
+    },
+    {
+      "id": "src_feifeili_artforum",
+      "kind": "press",
+      "title": "News Desk, 'Image Database Purges 600K Photos After Trevor Paglen Project Reveals Biases', Artforum, 24 September 2019, read in full: ImageNet (14 million images, created by Stanford and Princeton researchers using about fifty thousand low-paid Mechanical Turk workers) announced removal of 438 people categories and 600,040 images labelled 'unsafe' days after the ImageNet Roulette art project went viral; ImageNet did not cite the project as the reason; its statement says fairness in AI systems has become an important scientific question and promises a way for users to report offensive terms; Crawford and Paglen took the project offline saying it had made its point. Independent arts-press report; the statement is attributed to ImageNet, not to Li personally.",
+      "url": "https://www.artforum.com/news/image-database-purges-600k-photos-after-trevor-paglen-project-reveals-biases-80829"
+    },
+    {
+      "id": "src_feifeili_synced",
+      "kind": "press",
+      "title": "Synced, 'Stanford University Launches Human-Centered AI Institute Led by John Etchemendy & Fei-Fei Li' (14 March 2019), read in full: Stanford HAI launched with a mission to advance AI research, education, policy and practice to improve the human condition; Etchemendy (philosopher, former provost) and Li (computer science professor, former chief of Google Cloud AI) co-direct an 80-person faculty team; says Li coined the concept of human-centered AI in a March 2018 New York Times op-ed ('There is nothing artificial about this technology'); three research focuses and fifteen announced courses. Trade-press report largely relaying Stanford's launch material; the Gates and Newsom speaker details were not used.",
+      "url": "https://syncedreview.com/2019/03/14/stanford-university-launches-human-centered-ai-institute-led-by-john-etchemendy-fei-fei-li/"
+    },
+    {
+      "id": "src_feifeili_bair",
+      "kind": "institution",
+      "title": "Sophia Stiles, 'AI4ALL at Berkeley', Berkeley Artificial Intelligence Research (BAIR) blog, 16 August 2020, read in full: AI4ALL began in early 2015 with Olga Russakovsky (then a Stanford PhD student), Fei-Fei Li and Rick Sommer of Stanford Pre-Collegiate Studies, who founded SAILORS, a summer outreach programme for high school girls teaching human-centered AI, which later became AI4ALL, a nonprofit for diversity and inclusion in AI education; Anca Dragan started the Berkeley camp in 2016. Guest post by a participant on a university lab blog, an independent unit that adopted the programme; it says nothing of Li's role after the start.",
+      "url": "https://bair.berkeley.edu/blog/2020/08/16/ai4all"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_feifeili_princeton, src_feifeili_wired | 2006-2012 | university feature + trade-press profile] Li committed from 2006-2007 to a dataset project that would take years, on limited junior-faculty resources, when peers were largely sceptical that collecting a dataset was intellectually interesting (Princeton), and Wired relays her account of defying colleagues who thought labelling millions of images impossible; the dataset reached more than 14 million images by 2010 and the benchmark contest ran from 2010. The multi-year build through doubt is dated and corroborated by a collaborator's account, but the sources are admiring and the Wired account is substantially her own, so the score and confidence stay moderate."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_feifeili_princeton | 2007-2010 | university feature] A junior faculty member bet her early years on building a dataset at a time when prestige came from building models, which her student Jia Deng calls 'a very bold hypothesis' and a collaborator says many peers questioned; Princeton's culture of encouraging junior faculty to think big is mentioned as the enabling context. The bet is documented but the characterisation of it as risk-taking comes from collaborators and the university's retelling rather than from any independent adversarial account, so it is an inference at moderate confidence."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_feifeili_princeton, src_feifeili_bair, src_feifeili_synced | 2007-2019 | university feature + lab blog + trade press] ImageNet drew on Christiane Fellbaum's WordNet framework, Kai Li's systems support and students Jia Deng and Olga Russakovsky; the SAILORS/AI4ALL programme was started with Russakovsky and Rick Sommer; and she co-directs Stanford HAI with Etchemendy. Repeated joint ventures across disciplines are documented, but the sources are institutional retellings that praise rather than examine her working style, so this is a strong inference at moderate confidence."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_feifeili_wired, src_feifeili_excavating, src_feifeili_artforum | 2018-2023 | trade-press profile + outside critique + arts press] Li tells Wired that when ImageNet began 'we didn't know nearly as much as we know today' and that where things were not done well 'we have to fix them', and reports a 'twinge of culpability' over the mislabelling of Black people by another company's system; outside critics document offensive person categories in the dataset, and the ImageNet team announced in 2019 the removal of 438 categories and 600,040 images, though that statement is institutional and does not name her. The acknowledgement is her own words and the removal was not shown to be her decision, so the trait is inferred cautiously and shown as dual-edged because the flaws existed for years."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_feifeili_wired, src_feifeili_bair, src_feifeili_synced | 2015-2023 | trade-press profile + lab blog + trade press] She co-started the SAILORS/AI4ALL programme for high school girls in 2015, coined 'human-centered AI' in a 2018 op-ed (per Synced) and co-directs a university institute whose stated mission is to improve the human condition; Wired says the bias problems she saw prompted her to launch AI4All. The programmes are documented, but the motive is largely her own and the institute's stated purpose, so it is an inference limited to documented professional activity."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "페이페이 리"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/fei-fei-li-itu-pictures-2017.jpg",
+    "width": 909,
+    "height": 1350,
+    "source": "Wikimedia Commons, 'Fei-Fei Li at AI for Good 2017.jpg' -- photograph by ITU Pictures (International Telecommunication Union Flickr stream), taken 8 June 2017 at the AI for Good Global Summit, licensed CC BY 2.0 on the original Flickr page (verified) and Flickr-reviewed on Commons by Leoboudv on 2018-06-03. Original 909 x 1350 pixels (SHA-1 52d6448d..., matches the Commons record); used at original size, never upscaled.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: ITU Pictures, 2017, CC BY 2.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg",
+    "creator": "ITU Pictures",
+    "date": "2017",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: the lead's earlier search hit Q112239642 (an empty item) was rejected; Wikidata wbgetentities (2026-10-23) for Q18686107 returned en label 'Fei-Fei Li', description 'American computer scientist', born 1976-07-03, no death date, citizenship United States, Korean label present, P18 'Fei-Fei Li at AI for Good 2017.jpg'. SLUG/QID CHECK: no production or candidate file for slug fei-fei-li or QID Q18686107 (grep over src, data-pipeline). REGION: north_america, nationalityCodes US only. Reasoning: Wikidata gives US citizenship; the Wired profile (read) says she came to the US at 16, and her entire documented research career (Princeton, Stanford, Google Cloud) is in the US; this matches the repo precedents that place people by career base (sundar-pichai, satya-nadella, geoffrey-hinton are north_america); birth in China was not taken from a source read in this session and no Chinese nationality code was asserted. VOCABULARY: occupation computer_scientist, field computing, impact domains scientific and technological, tag innovator and archetype technical_innovator exist with labels. ZERO POLITICS / LIVING SUBJECT: only documented research, programme-building and institute-leadership behaviour is scored; her AI-policy testimony and advocacy, the meeting with the US president, executive-order commentary, any Google Cloud defence-contract controversy, family, parents, immigration hardship, health and private life, and motive inference are excluded from rows and cards. The 2023 memoir The Worlds I See and her talks are self material and were not read directly; Wired relays them. CANONICAL SIGNIFICANCE SOURCE: Princeton CS feature 'In the hallways of Princeton...' (read in full). READ (6 cited non-Wikidata sources): Princeton CS feature, WIRED/Levy profile, Excavating AI (Crawford & Paglen), Artforum report, Synced on Stanford HAI, BAIR blog on AI4ALL. PERSPECTIVES: institutional (Princeton, BAIR), tech press (Wired, Synced), outside critics (Crawford/Paglen, Artforum). Behavioural non-self evidence: Princeton collaborators' accounts and Synced; Wired is largely her own account relayed by a journalist. Counter-voice: Excavating AI and Artforum, which criticise the dataset's design and labelling by the team, not Li personally. NOT OPENED: the original Quartz 2017 ImageNet article (Cloudflare block), the ACM CACM mirror (HTTP 403), news.stanford.edu HAI launch (403), the 2018 Wired/HAI article body (page showed only the headline), the ImageNet papers and 'Towards Fairer Datasets', and the memoir; the Excavating AI text was read through a fetch summary and the Wired/Levy text was read in full. EXCLUSIONS: a blog and Chinese-language profile sites claiming family and early-career details were ignored as low reliability. SELF-CALIBRATION (agent): the three highest-risk rows reviewed were persistence (70, partly her own account), risk tolerance (66, characterisation by collaborators) and belief updating (58, based on her own words); persistence was kept because Princeton's collaborators independently describe the sceptical environment, risk tolerance was kept because it is already a strong inference at 0.52, and belief updating was already set low with a dual-edged impact; no row lowered. PORTRAIT: P18 file verified on Commons (author ITU Pictures, date 2017-06-08, CC BY 2.0, Flickr review by Leoboudv), the original Flickr page (flickr.com/photos/itupictures/35011409612) shows the Creative Commons Attribution 2.0 licence; no conflicting institutional notice found (ITU stream is published for reuse under this licence); downloaded with curl, opens as 909 x 1350 JPEG, not resized. SCORE ENVELOPE: five rows, scores 58-70, confidence 0.45-0.58."
+  }
+}

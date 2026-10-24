@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sachin-tendulkar",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sachin Tendulkar",
+    "aliases": [
+      "Sachin Ramesh Tendulkar"
+    ],
+    "wikidataId": "Q9488",
+    "birthYear": 1973,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "sustained_excellence",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사친 텐둘카르"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sachin-tendulkar-blnguyen-2008.jpg",
+    "width": 1265,
+    "height": 1273,
+    "source": "Wikimedia Commons 'Sachin Tendulkar cropped.jpg' (own-work photograph by Commons user Blnguyen, dated 2008-02-14 on the file page, cropped from his own 'Sachin Tendulkar.jpg'; the file page says the subject is Sachin Tendulkar at Adelaide Oval). Saved at the Commons size of 1265 x 1273 pixels with no resizing or upscaling. The file page states GFDL plus CC BY-SA 2.5/2.0/1.0 (relicensed by the author); the author is a Wikimedia contributor, there is no third-party copyright notice on the page, and the camera EXIF (Fujifilm FinePix E550, 2008:02:14) is consistent with an amateur's own photograph. Caveats: the subject's identity rests on the uploader's description (the photo has been in long use as the Wikipedia lead image); the Commons page carries no separate licence-review tag because it is an own-work upload. The Wikidata lead 'Sachin at Castrol Golden Spanner Awards (crop).jpg' (CC BY 3.0, Bollywood Hungama, only 190 x 260) was rejected as too small; the larger Wikimedia-user photographs 'Sachin Tendulkar 3.jpg' and 'Sachin Tendulkar 1.jpg' were rejected because the subject is distant or partly blocked by another person.",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "attribution": "Photo: Blnguyen, 2008, CC BY-SA 2.5 / GFDL (cropped)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Sachin_Tendulkar_cropped.jpg",
+    "creator": "Blnguyen",
+    "date": "2008-02-14",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sachin_Tendulkar_cropped.jpg"
+  },
+  "sources": [
+    {
+      "id": "src_sachin_wikidata",
+      "kind": "wikidata",
+      "title": "Sachin Tendulkar (Q9488) -- verified live via the Wikidata API (2026-10-23): multilingual label 'Sachin Tendulkar', English description 'Indian cricket player (born 1973)', born 24 April 1973, no death date, Korean label '사친 텐둘카르', P18 image 'Sachin at Castrol Golden Spanner Awards (crop).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q9488"
+    },
+    {
+      "id": "src_sachin_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Sachin Tendulkar' (britannica.com), read in full via an Internet Archive copy because the live site returns 403 to automated requests: Indian batsman born 24 April 1973 in Bombay, India's youngest Test cricketer at 16 years 205 days on his November 1989 debut against Pakistan, Test and ODI centuries from 1989 to 2012 including the 100th international century in March 2012, Test retirement in 2013 with records for the most international runs (34,357) and Test runs (15,921), captain from August 1996 though India lost heavily in 1999, 2003 World Cup player of the tournament, Khel Ratna 1998, Bharat Ratna 2014, ICC Hall of Fame 2019; likened to Bradman for single-minded dedication to scoring runs. Mentions his 2012-2018 Rajya Sabha nomination, which is incidental and not scored. CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.britannica.com/biography/Sachin-Tendulkar"
+    },
+    {
+      "id": "src_sachin_wisden97",
+      "kind": "press",
+      "title": "Mike Selvey, 'Tendulkar in England, 1996: The summer India's premier batter refined his growing reputation' (Wisden Cricketers' Almanack 1997, republished at wisden.com), read in full: Cricketer of the Year profile calling him a focused technician and the supreme right-hander if not quite the finest batsman, noting the Edgbaston 122 out of 219 as a display of skill under pressure, his unsuccessful single season at Yorkshire (a mistake in hindsight) and that he succeeded Azharuddin as captain at 23, a post that Selvey says he had not craved or pursued with passion. The profile also discusses endorsements and his wedding, which are private-life and commercial material and were excluded. Contemporary independent journalism; admiring but with explicit reservations.",
+      "url": "https://www.wisden.com/wisden-cricketers-almanack/tendulkar-in-england-1996-the-summer-indias-premier-batter-refined-his-growing-reputation-wisden-almanack"
+    },
+    {
+      "id": "src_sachin_ramchand",
+      "kind": "press",
+      "title": "Partab Ramchand, 'Tendulkar - confident captain, undisputed leader' (Cricinfo, 27 October 1999, archived Cricinfo page), read in full: a cricket historian's assessment, written after his first win in a second stint as India captain, that in 1996-97 Tendulkar had not been ready for the captaincy, that he had detractors who thought he should concentrate on batting, and that a greater say in selection and strategy and a close captain-coach relationship were helping him. Contemporary, independent, mixed-to-critical on his first captaincy.",
+      "url": "https://i.imgci.com/link_to_database/ARCHIVE/CRICKET_NEWS/1999/OCT/007118_CI_27OCT1999.html"
+    },
+    {
+      "id": "src_sachin_scroll",
+      "kind": "press",
+      "title": "Scroll.in, 'Pause, rewind, play: Sachin Tendulkar's Sydney masterclass in 2004 - a story of determination', read in full: the 241 not out off 436 balls and 613 minutes at the SCG in January 2004 after a poor series (82 runs in the first three Tests, 2003 his worst Test average), with no cover drive; quotes Tendulkar (via ESPNcricinfo) saying he had been out to balls outside off stump so decided not to play the stroke and to maintain discipline throughout, Steve Waugh (via cricket.com.au) calling it 'incredible fortitude, mental strength and discipline', Sourav Ganguly and Brian Lara praising it; includes Tendulkar's own autobiographical account of a bet with his brother and a superstition about the restaurant, treated as self-account and not used for scoring. Journalism quoting opponents and a captain; one episode.",
+      "url": "https://scroll.in/field/963405/pause-rewind-play-sachin-tendulkars-sydney-masterclass-in-2004-when-will-overshadowed-skill"
+    },
+    {
+      "id": "src_sachin_wisden14",
+      "kind": "press",
+      "title": "Wisden, 'Tendulkar was India's first player to be held in awe by other sides - and even feared' (essay from the 2014 Wisden Cricketers' Almanack on his retirement, republished at wisden.com), read in full: calls him cricket's most complete batsman arguably, notes the strain of 200 Tests and 463 ODIs, the Chennai 1999 innings of 136 played in pain after his out chasing 17 more runs for victory, the 2003 World Cup six off Shoaib Akhtar, quotes Allan Donald ('hungrier batsman') and Merv Hughes, says he was a team-player and mentor but that many felt he lingered in Tests for two years after the 2011 World Cup, possibly obsessed with 200 Tests, averaging about 32 in 23 Tests afterwards against nearly 57 before, and that he was a technician rather than a thinker who took no public stand on social issues. Also discusses his family 'cocoon' and spouse, which was excluded as private life. Independent, mixed: admiring and critical. Not the same item as the 1997 profile.",
+      "url": "https://www.wisden.com/wisden-cricketers-almanack/sachin-tendulkar-indias-divine-phenomenon-almanack"
+    },
+    {
+      "id": "src_sachin_kirsten",
+      "kind": "institution",
+      "title": "BCCI.tv, 'For Sachin, a Test is a 7-day affair' (20 December 2010), read in full: interview with Gary Kirsten, India's South African coach and former opponent, saying he threw more balls to Tendulkar in the nets than anyone, that Tendulkar never takes one ball for granted in practice and is never seen playing a loose shot in a net session, that he treats every cricketing day with humility and respect, is focused on big contributions in important situations, and fights for his team. Published by the cricket board and a coach's retrospective praise, so an admiring perspective from someone who observed him daily.",
+      "url": "https://www.bcci.tv/news/article/for-sachin-a-test-is-a-7-day-affair"
+    },
+    {
+      "id": "src_sachin_laxman",
+      "kind": "institution",
+      "title": "BCCI.tv, 'Honour to play with Sachin: VVS' (16 November 2010), read in full: a press-conference excerpt in which teammate VVS Laxman says Tendulkar remains humble after 21 years and, even now, practices as if it is his first Test. Short, admiring and board-published; a teammate perspective.",
+      "url": "https://www.bcci.tv/news/article/honour-to-play-with-sachin-vvs"
+    },
+    {
+      "id": "src_sachin_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Sachin Tendulkar cropped.jpg' (wikitext and image), plus the file pages of rejected alternatives 'Sachin Tendulkar 3.jpg', 'Sachin Tendulkar 1.jpg' and a Flickr-reviewed Flying Cloud photograph, checked for the portrait's licence: own-work photograph by Blnguyen dated 2008-02-14, 1265 x 1273, licence GFDL plus CC BY-SA 2.5/2.0/1.0. Not used for scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Sachin_Tendulkar_cropped.jpg"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sachin_scroll, src_sachin_kirsten, src_sachin_wisden14 | 2004 and 2010 | journalism quoting opponents + coach interview + Wisden essay] After being dismissed repeatedly by balls outside off stump in the 2003-04 series he decided before the Sydney Test not to play the cover drive and to leave those balls, and he batted 613 minutes for 241 not out; the Australian captain Steve Waugh called this 'incredible fortitude, mental strength and discipline', and Kirsten says he never takes a net ball for granted or plays a loose shot in practice. A deliberate, documented self-restriction corroborated by an opponent and a coach, but the clearest episode is a single innings and the praise is retrospective, so documented at moderate-high confidence. RUBRIC_CORRECTION (lead review, before eligibility): discipline lowered from 78 / 0.65 to 74 / 0.58 because the strongest support is two testimonials hosted by the Indian cricket board (a former coach and a teammate) plus a retirement essay, an admiring retrospective register."
+    },
+    "deep_focus": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sachin_scroll, src_sachin_wisden14, src_sachin_kirsten | 1999-2010 | journalism + Wisden essay + coach] The Sydney 241 not out lasted 436 balls and 613 minutes over three days; the Wisden essay says he batted at Chennai in 1999 in great pain with a back brace after three injections; Kirsten says he tries to hit every practice ball perfectly. Long, sustained concentration is documented but the evidence is mostly innings length plus admiring testimony and overlaps with his discipline row, so moderate confidence."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sachin_kirsten, src_sachin_laxman, src_sachin_wisden14 | 2010-2013 | coach + teammate + Wisden essay] Kirsten says he works extremely hard on his game and treats every net ball as important; Laxman says that after 21 years he still practices as if it is his first Test; the Wisden essay quotes Allan Donald calling him the hungriest batsman he had seen. Coach and teammate sources are both board-published and admiring, but they are consistent with each other and with an opponent's remark, so moderate confidence. RUBRIC_CORRECTION (lead review, before eligibility): mastery_orientation lowered from 78 / 0.6 to 74 / 0.55 because the depth-building claim rests on the same board-hosted testimonials and retrospective praise."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_sachin_wisden14, src_sachin_kirsten, src_sachin_britannica | 1989-2013 | Wisden essay + coach + encyclopaedia] He played 24 years to records of 15,921 Test runs and 100 international centuries (Britannica); Donald says he had never seen a hungrier batsman; Kirsten says he is determined in every innings to make big contributions. The Wisden essay also argues that the hunger shaded into greed, that he lingered for two years after the 2011 World Cup, and that a personal landmark of 200 Tests may have clouded his judgment, so the drive is real and documented but with a critical counter-reading and dual-edged impact. RUBRIC_CORRECTION (lead review, before eligibility): achievement_drive lowered from 80 / 0.58 to 76 / 0.54 because the score is stated from admiring retrospective sources and the dual-edged reading (lingering for 200 Tests) is a single critical essay."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sachin_scroll, src_sachin_wisden14, src_sachin_britannica | 1989-2013 | journalism + Wisden essay + encyclopaedia] After the worst Test year of his career (2003, average 17.00) he returned in 2004 to his best (average 91.50 including 248 not out), per Scroll's tabulation; the Wisden essay records the pain-hindered 136 at Chennai and a 24-year career; Britannica credits a 16-year-old debut and a 2013 retirement. Sustained return to form is documented, but the same Wisden essay says his late-career output fell to an average of about 32, so confidence is moderate."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sachin_scroll, src_sachin_wisden97, src_sachin_wisden14 | 2003-2004, 2011-2013 | journalism quoting Tendulkar + Wisden essay] Tendulkar is quoted (via ESPNcricinfo in Scroll) saying that having been out to balls outside off stump in the series he chose in Sydney to stop playing the cover drive; Selvey's 1997 profile also notes his Yorkshire season was in hindsight a mistake. One concrete, documented adjustment of method after dismissals; Wisden's late-career criticism of staying on at No. 4 for two years (average about 32) tempers it, and the main quote reaches us via a journalist's quotation of his own words, so low-moderate confidence."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sachin_kirsten, src_sachin_wisden14, src_sachin_laxman | 2010-2013 | coach + Wisden essay + teammate] Kirsten calls him a fantastic team man who gets emotionally involved when the team does well and fights for his side; the Wisden essay describes him as an individual genius who is also a team-player and mentor to younger colleagues, quoting Virat Kohli on carrying him on shoulders after the 2011 World Cup; Laxman calls him humble and an inspiration. The same Wisden essay questions whether he put a personal milestone ahead of the team by staying on, and the praise is retrospective, so moderate-low confidence."
+    },
+    "competitiveness": {
+      "score": 72,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sachin_wisden14, src_sachin_kirsten, src_sachin_scroll | 1992-2013 | Wisden essay + coach + journalism] The Wisden essay says he was the first Indian player held in awe by other sides, quotes Allan Donald calling him the hungriest batsman he had seen and Merv Hughes predicting at his Perth debut series that he would outscore Border; Kirsten says he fights for his team and is determined to make runs in important situations; Waugh's remarks on the Sydney innings show him setting out to deny the Australian attack. Opponents' remarks are second-hand reminiscences in a retirement essay, so moderate-low confidence."
+    },
+    "leadership_drive": {
+      "score": 42,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "[src_sachin_wisden97, src_sachin_ramchand, src_sachin_britannica | 1996-1999 | Wisden profile + Cricinfo history + encyclopaedia] Selvey wrote in 1997 that, had he craved and pursued the captaincy with passion, he would surely have got it earlier; it was held in abeyance until he was made captain at 23. Ramchand says that in 1996-97 he was not yet ready and had detractors who thought he should concentrate on batting, though by 1999 he was improving; Britannica notes India lost heavily in series that year. The picture is of a leader appointed rather than pursuing leadership, from two contemporary journalists, so a below-midpoint score with low-moderate confidence and neutral impact."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q9488 returned multilingual label 'Sachin Tendulkar', en description 'Indian cricket player (born 1973)', born 1973-04-24, no death date, ko label '사친 텐둘카르', P27 India; the lead's hint was correct. SLUG/QID CHECK: no candidate file, src/data person, or QID reference for sachin-tendulkar or Q9488 in the roster54 worktree. REGION south_asia, nationality IN. VOCABULARY: athlete, sport, athletic/cultural impact domains, tags sustained_excellence and prodigy and archetype competitive_performer are existing ids with EN+KO labels (as for lionel-messi). ZERO POLITICS: his 2012-2018 Rajya Sabha nomination (Britannica) is incidental and unscored; Wisden notes he took no public stand on social issues, also unscored. LIVING SUBJECT: only documented public professional cricket behaviour is scored; excluded: marriage, spouse and family, his school and family 'cocoon', endorsements and earnings, his autobiography's superstition and brother-bet anecdotes beyond one self-quoted plan, health beyond the back-brace innings, and the criticism of speech and language skills in the 2014 essay (a personality judgement not scored). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Sachin Tendulkar' (https://www.britannica.com/biography/Sachin-Tendulkar), read via an Internet Archive copy because the live site blocks bots. READ (7 cited non-Wikidata sources plus portrait pages): Britannica, Wisden 1997 profile (Selvey), Cricinfo 1999 Ramchand assessment of his captaincy, Scroll's Sydney 2004 piece (quoting Waugh, Ganguly, Lara and Tendulkar), Wisden's 2014 retirement essay (a counter-voice on lingering in Tests), BCCI interview with coach Gary Kirsten, BCCI press-conference excerpt with VVS Laxman. PERSPECTIVES: independent journalism (Selvey, Ramchand, Scroll, Wisden 2014), opponents quoted second-hand (Waugh, Donald, Hughes, Lara), a coach who was a former opponent (Kirsten), a teammate (Laxman); counter-voices: Ramchand on captaincy, Wisden 2014 on lingering and milestone fixation. NOT OPENED: ESPNcricinfo (403), his autobiography Playing It My Way and ICC/BCCI Hall of Fame pages (404). Coach and teammate items are on the cricket board's own site, so are treated as an admiring, institutional perspective; the Sydney quotes of Waugh and Ganguly are second-hand via Scroll. Row count is 9 of 34 attributes, which is sparse by design; no row was padded to approach eligibility. PORTRAIT: see portrait record; the Wikidata P18 lead was only 190 x 260 so a larger own-work Commons photograph with creator and licence on the file page was used; identity rests on the uploader's description. SELF-CALIBRATION (agent): rows reviewed were discipline, mastery_orientation and achievement_drive (admiring-source and single-episode dependence); none was lowered because discipline is corroborated by an opponent and a coach, mastery is corroborated by three perspectives, and achievement_drive already has a critical counter-reading and dual-edged impact. No broad scoring problem flagged. RUBRIC_CORRECTION (lead review, before eligibility): discipline lowered from 78 / 0.65 to 74 / 0.58 because the strongest support is two testimonials hosted by the Indian cricket board (a former coach and a teammate) plus a retirement essay, an admiring retrospective register. RUBRIC_CORRECTION (lead review, before eligibility): mastery_orientation lowered from 78 / 0.6 to 74 / 0.55 because the depth-building claim rests on the same board-hosted testimonials and retrospective praise. RUBRIC_CORRECTION (lead review, before eligibility): achievement_drive lowered from 80 / 0.58 to 76 / 0.54 because the score is stated from admiring retrospective sources and the dual-edged reading (lingering for 200 Tests) is a single critical essay."
+  }
+}

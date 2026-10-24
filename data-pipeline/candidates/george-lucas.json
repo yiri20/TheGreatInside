@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "george-lucas",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "George Lucas",
+    "aliases": [
+      "George Walton Lucas Jr."
+    ],
+    "wikidataId": "Q38222",
+    "birthYear": 1944,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "film_director",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "film",
+      "technology"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "technological"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lucas_wikidata",
+      "kind": "wikidata",
+      "title": "George Lucas (Q38222) -- verified live via the Wikidata API (2026-10-23): English label 'George Lucas', description 'American filmmaker and philanthropist (born 1944)', born 14 May 1944, no date of death, P18 images 'George Lucas cropped 2009.jpg', 'George Lucas 2024.jpg', 'George Lucas by Gage Skidmore.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q38222"
+    },
+    {
+      "id": "src_lucas_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'George Lucas' by Michael Barson (britannica.com), read in full through an Internet Archive copy (the live site blocks automated access): USC film degree 1966; 1967 Warner Bros. internship assisting Coppola; THX 1138 (1971) made through Coppola's American Zoetrope, respectful reviews but a debt to Orwell and a deliberate pace; formed Lucasfilm Ltd. in 1971, later containing Industrial Light & Magic (1975), regarded as the most prestigious special-effects workshop in American film; American Graffiti (1973) shot in under a month for well under a million dollars; Star Wars (1977) chose space opera over then-current dystopian science fiction, borrowed heavily from Joseph Campbell and Kurosawa's The Hidden Fortress, became the top-grossing film in history and its special-effects technologies spawned a host of imitators; after it Lucas announced he would retire from directing and make Lucasfilm an incubator for films directed by others; executive producer of Empire, Jedi and Raiders; mixed 1980s results (Willow minor success, Howard the Duck a spectacular failure); Young Indiana Jones Chronicles was a ratings failure but let ILM experiment with effects; 1997 he added new computerized effects to the Star Wars films and 'critics were less enthusiastic'; returned to direct the prequels 1999-2005; sold Lucasfilm to Disney for $4 billion in 2012; Kennedy Center honoree 2015. CANONICAL SIGNIFICANCE SOURCE. Childhood and a car crash passage in the article were not used.",
+      "url": "https://www.britannica.com/biography/George-Lucas"
+    },
+    {
+      "id": "src_lucas_achievement",
+      "kind": "institution",
+      "title": "American Academy of Achievement, 'George Lucas' biographical profile with excerpts from a 1999 Academy interview (achievement.org), read in full: USC student short, 1967 Warner Bros. scholarship and work as Coppola's assistant, co-founding American Zoetrope (1969) and forming Lucasfilm (1971); American Graffiti and Star Wars credits; several studios turned Star Wars down because science fiction was seen as a poor box-office genre; Lucas negotiated sequel and merchandising rights, which the page credits with starting the modern film toy tie-in model; Lucasfilm divisions (ILM, Skywalker Sound, THX, LucasArts, licensing) and the 2012 sale to Disney; 1992 Thalberg Award. Lucas's work-method statements (perseverance, independence, ignoring critics, crediting helping peers) are his own words and are treated as SELF-ACCOUNT only, never as sole support for a row.",
+      "url": "https://achievement.org/achiever/george-lucas/"
+    },
+    {
+      "id": "src_lucas_asc_thx",
+      "kind": "press",
+      "title": "American Cinematographer (1971), 'THX 1138' production article republished by the American Society of Cinematographers (theasc.com), read in full: Warner Bros. financed and released the film but American Zoetrope produced it; Lucas, then 25, directed, co-wrote with Walter Murch and edited it, with Coppola as executive producer; about 22 Bay Area locations and only one built interior set; Lucas wanted a documentary 'cinema verite' look with no makeup and almost entirely available light, pushed film and Techniscope for faster lenses; cinematographer Albert Kihn says Lucas, with strong visual instincts, controlled the style. Contemporary trade-press account by crew members; the article does not cover Warner's reaction to the finished film.",
+      "url": "https://theasc.com/article/thx-1138"
+    },
+    {
+      "id": "src_lucas_afi",
+      "kind": "archive",
+      "title": "American Film Institute Catalog, 'Star Wars (1977)' production notes (catalog.afi.com), read in full: Lucas developed the project with Gary Kurtz from 1971; Universal ended its contract when he asked for more money; Alan Ladd Jr. optioned the script for about $10,000 despite doubts from other Fox executives; Fox would not pay more than $7 million, objected to killing off Obi-Wan and declined to fund cantina reshoots (Ladd approved $20,000 for second-unit work); budget cut from $16 million to about $8-9.5 million; filming from March 1976 in Tunisia and London; at ILM's new Van Nuys warehouse only about three shots were finished when Lucas returned, and he was frustrated that staff were focused on tools rather than shots; he worked on four script drafts at once, kept Anthony Daniels' voice for C-3PO, targeted '14- and 15-year-olds' and said 'If I make money, it will be from the toys'; 43 theaters on 25 May 1977. Archive catalogue compiled from named press reports of the time; some of its figures conflict between its own sources.",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/55187"
+    },
+    {
+      "id": "src_lucas_loc_seitz",
+      "kind": "institution",
+      "title": "Library of Congress National Film Registry essay 'Star Wars' by Matt Zoller Seitz (reprinted from 'The A List: The National Society of Film Critics' 100 Essential Films', 2002), read in full through an Internet Archive copy of the loc.gov PDF: calls Lucas an intense, detail-oriented film-school graduate who wanted to make Star Wars for years while the major studios kept turning him away; nearly every composition storyboarded in advance; new visual-effects and sound technology that changed how films were produced; the film's success pushed studios toward blockbuster economics and spawned a merchandising industry; detractors and historians blamed Lucas and Spielberg for ending the adventurous Hollywood of the late 1960s (a Time Out quote and David Thomson's 1997 Esquire piece 'Who Killed the Movies?'); Lucas built Marin County-based Lucasfilm as a privately owned studio, retired from direction for two decades while producing, and, the essay says, seemed torn about his responsibility, with PR documents offered during the Phantom Menace tour arguing more independent films were made after Star Wars. COUNTER-VOICE source. The essay carries a disclaimer that its views are the author's, not the Library's.",
+      "url": "https://www.loc.gov/static/programs/national-film-preservation-board/documents/star_wars.pdf"
+    },
+    {
+      "id": "src_lucas_sound",
+      "kind": "press",
+      "title": "J. W. Rinzler (author of 'The Sounds of Star Wars', 2010), 'The Sounds of Star Wars' interview feature, The World / PRX (Here and Now), 15 August 2013 (theworld.org), read in full: Lucas wanted organic, original sounds rather than a silver-suit science-fiction sound, gave sound designer Ben Burtt latitude while working closely with him, and treated sound as a major creative element; Burtt built the lightsaber hum, Chewbacca's voice and Vader's breathing from everyday sources on a very small budget. Author-interview radio feature; not independent of Rinzler's book, which was not opened.",
+      "url": "https://theworld.org/stories/2013/08/15/stub-2529"
+    },
+    {
+      "id": "src_lucas_asc_dykstra",
+      "kind": "press",
+      "title": "Joe Fordham, 'John Dykstra, ASC: Finding Joy in the Process', American Cinematographer / theasc.com, 14 July 2023, read in full: Douglas Trumbull referred Dykstra to Lucas and Gary Kurtz, who were looking for a way to film space battles at the fledgling Industrial Light & Magic; the computer-controlled Dykstraflex (seven-axis dolly and head with a VistaVision camera, repeatable moves allowing composites) earned Dykstra a shared Academy Scientific and Engineering Award; Dykstra credits the original crew's collaboration; he founded Apogee in 1978. Independent craft-press profile of Lucas's effects collaborator; says nothing about Lucas's own working style or about ILM's later move.",
+      "url": "https://theasc.com/?p=11187"
+    },
+    {
+      "id": "src_lucas_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'George Lucas 2024.jpg' (wikitext and API record), checked for the portrait's licence: photograph by Kevin Payravi (WikiPortraits), taken at the 2024 Cannes Film Festival session 'An encounter with George Lucas' on 24 May 2024, uploaded as own work under CC BY-SA 4.0 (attribution 'Kevin Payravi / WikiPortraits'), original 2385 x 3182. The earlier lead 'George Lucas cropped 2009.jpg' was not used. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:George_Lucas_2024.jpg"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lucas_afi, src_lucas_loc_seitz, src_lucas_achievement, src_lucas_britannica | 1969-1977 | archive catalogue + essay + institutional profile + encyclopaedia] Lucas co-founded American Zoetrope and then formed his own Lucasfilm in 1971; the AFI notes show him pressing Universal and Fox for more money and rights rather than accepting a capped deal, and Seitz describes Marin County-based Lucasfilm as a privately owned studio built so that executives would not stand between him and his projects; the Academy of Achievement credits his sequel and merchandising rights deals. The pattern is documented from independent sources, but the 'pact with myself' and 'funded my independence' framing is partly Lucas's own account, and Lucasfilm was sold to Disney in 2012, so confidence stays moderate. SELF-CALIBRATION (agent): first-pass 80 / 0.68 lowered to 76 / 0.62 because the stated motive (independence from studios) rests partly on his own interview statements in the Academy profile."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lucas_loc_seitz, src_lucas_afi, src_lucas_britannica | 1971-1977 | essay + archive catalogue + encyclopaedia] Seitz says the major studios kept turning Lucas away on Star Wars for years, the AFI catalogue records that Universal ended its contract and that he developed the project with Kurtz from 1971 through repeated script drafts, and Fox offered less money than he said the film needed; Britannica notes the project was dear to him for some time. The film reached the screen, but the long-hours and rejection narrative in the Academy of Achievement page is his own account and is not used for scoring. Documented with moderate confidence."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lucas_britannica, src_lucas_afi, src_lucas_achievement | 1973-1986 | encyclopaedia + archive catalogue + institutional profile] Britannica says science fiction had traditionally been a poor box-office performer and Lucas made a space opera anyway; the AFI catalogue records that he took a reported $100,000 salary while saying he expected to earn from the toys, and that he invested in a toy company; the Academy profile says he negotiated for sequel and merchandising rights. Britannica also records producer-era failures including Howard the Duck. The pattern of unconventional bets is well documented but sources do not describe financial exposure in detail, so strong_inference at moderate confidence, dual-edged."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lucas_loc_seitz, src_lucas_afi, src_lucas_asc_thx | 1971-1977 | essay + archive catalogue + trade press] Seitz calls Lucas an intense, detail-oriented film-school graduate and says nearly every Star Wars composition was storyboarded in advance; the AFI catalogue records that on returning to ILM he found only about three shots finished and was frustrated that the team was focused on tools rather than shots; the 1971 American Cinematographer article describes a deliberately specified visual style for THX 1138 (no makeup, available light, pushed film). Specific and multi-source, but much is a critic's characterisation rather than a named process, so confidence stays moderate."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lucas_loc_seitz, src_lucas_achievement, src_lucas_afi | 1973-1977 | essay + institutional profile + archive catalogue] Seitz says the film spawned a tie-in merchandising industry worth, at the time of her essay's figures, $1 billion alongside its box office; the Academy of Achievement says Lucas negotiated for merchandising and sequel rights, a rare move at the time, and the AFI catalogue quotes his pre-release statement targeting 14- and 15-year-olds and expecting to earn from toys. The spotting of the commercial opening is documented, but the intent behind it is partly his own statement and the Academy page is the only source for the claim that the deal was unusual."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lucas_britannica, src_lucas_asc_dykstra, src_lucas_afi, src_lucas_achievement | 1971-1980s | encyclopaedia + craft press + archive catalogue + institutional profile] Rather than wait for a studio to supply effects, Lucas established Industrial Light & Magic in 1975 so that Star Wars could be made; the ASC profile confirms Trumbull referred Dykstra to Lucas and Kurtz at 'the fledgling Industrial Light & Magic'; the AFI catalogue records the Van Nuys warehouse start-up; Britannica and the Academy profile describe the wider Lucasfilm group (ILM, sound, THX, games). Self-starting institution building is documented across independent sources; confidence is capped by the fact that most of the later group-building detail comes from Lucasfilm-friendly summaries."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lucas_sound, src_lucas_afi, src_lucas_asc_thx, src_lucas_britannica | 1971-1980s | author interview feature + archive catalogue + trade press + encyclopaedia] The Rinzler feature says Lucas gave sound designer Ben Burtt latitude while working closely with him; the AFI catalogue records him reshaping C-3PO around Anthony Daniels' voice and the Fox-opposed decision to kill off Obi-Wan after outside advice; the 1971 article shows him co-writing THX 1138 with Walter Murch with Coppola as executive producer; Britannica says he planned Lucasfilm as an incubator for films directed by others. Against this, the AFI notes record frustration with ILM staff. Mixed but converging, so strong_inference at modest confidence."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lucas_britannica, src_lucas_asc_dykstra, src_lucas_asc_thx, src_lucas_loc_seitz | 1971-1997 | encyclopaedia + craft press + trade press + essay] The 1971 article records Lucas choosing Techniscope, pushed film and available light for a documentary-style future in THX 1138; the ASC profile documents the computer-controlled, repeatable-motion Dykstraflex built for ILM; Britannica says the Young Indiana Jones series, though a ratings failure, let ILM experiment with new techniques, and that in 1997 he added new computerized effects to the Star Wars films; Seitz credits new effects and sound technology. Documented technical risk-taking; the 1997 changes drew critics' disapproval, which is why the row is not higher."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lucas_britannica, src_lucas_loc_seitz, src_lucas_sound | 1977 | encyclopaedia + essay + author interview feature] Britannica says Lucas chose a space opera synthesised from vintage swashbucklers and frontier adventures over the dystopian science fiction then current, while also noting that Star Wars 'borrowed heavily' from Joseph Campbell and Kurosawa's The Hidden Fortress; Seitz describes the screenplay's ideas as taken from Campbell and the film as 'a subliminal history of movies'; Rinzler reports the push for organic, original sound. Originality of synthesis and world-building is widely recognised but the same critics describe it as largely derivative, so a moderate score, dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조지 루카스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/george-lucas-payravi-2024.jpg",
+    "width": 960,
+    "height": 1281,
+    "source": "Wikimedia Commons 'George Lucas 2024.jpg': photograph by Kevin Payravi (WikiPortraits) of George Lucas at the 'An encounter with George Lucas' session, 2024 Cannes Film Festival, 24 May 2024, uploaded as own work under CC BY-SA 4.0 (attribution 'Kevin Payravi / WikiPortraits'). Original 2385 x 3182; saved from the Commons 900-pixel-wide thumbnail at 960 x 1281 (downscaled only, no upscaling; 960 px is the stored thumbnail width actually served).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Kevin Payravi / WikiPortraits, 2024, CC BY-SA 4.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:George_Lucas_2024.jpg",
+    "creator": "Kevin Payravi / WikiPortraits",
+    "date": "2024-05-24",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:George_Lucas_2024.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q38222 returned en label 'George Lucas', description 'American filmmaker and philanthropist (born 1944)', born 1944-05-14, no death date; the lead's hint was correct. SLUG/QID CHECK: no existing candidate, production file or src reference for slug george-lucas or QID Q38222 in the roster54 worktree. REGION north_america, nationality US. VOCABULARY: film_director and entrepreneur occupations, film and technology fields, impact domains artistic/cultural/technological, tags innovator and founder, archetype creative_creator all exist with EN+KO labels (cf. Steven Spielberg). ZERO POLITICS: nothing political is scored; the Reagan 'Star Wars' missile-defence name and Spielberg/Lucas politics-of-film remarks in Seitz were not used. LIVING SUBJECT: only documented public professional behaviour is scored; EXCLUDED deliberately: family and marriage (including Marcia Lucas's personal relationship and the 1980s divorce), health, the teenage car crash, philanthropy and Giving Pledge, Disney sale motives, any inferred inner states, Wikipedia/Wikidata. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'George Lucas' (https://www.britannica.com/biography/George-Lucas), read via an Internet Archive copy. READ (7 cited non-Wikidata sources + portrait record): Britannica, Academy of Achievement profile (partly Lucas's own interview words, self-account only), 1971 American Cinematographer THX 1138 article (via ASC), AFI Catalog Star Wars production notes, Library of Congress National Film Registry essay by Matt Zoller Seitz (via Internet Archive copy of the loc.gov PDF), The World/PRX Rinzler sound feature, ASC 2023 John Dykstra profile. NOT opened: Rinzler's 'The Making of Star Wars' and 'The Sounds of Star Wars' (only the interview feature), Pollock's biography, Kennedy Center page (403), Roger Ebert and NYT Special Edition coverage (blocked; the 1997 Special Edition is therefore only supported by Britannica's one-line 'critics were less enthusiastic' and Seitz's date mention, not detailed or scored beyond experimentation), the Directors Guild and Smithsonian pages. PERSPECTIVES: encyclopaedia, award/educational institution profile with his own words, trade press by crew (1971), archive catalogue compiled from contemporary press, a critic's national-registry essay (counter-voice: blamed for ending adventurous 1970s Hollywood and for dumbing-down), craft press from an effects collaborator (ASC/Dykstra), an author-interview radio feature. COUNTER-VOICES: Seitz (Time Out, Thomson's 'Who Killed the Movies?'), Britannica on Howard the Duck and critics' reaction to the 1997 edits, AFI notes on his frustration with ILM progress and Fox's objections. CALIBRATION: behavioural evidence is strongest for 1971-1977 and for institution building; later decades (prequels, Special Edition dispute, Lucasfilm sale) are thinly read, so the highest score is 76 and the highest confidence 0.62; nine rows, no padding. SELF-CALIBRATION (agent): reviewed autonomy_need (lowered 80/0.68 to 76/0.62: stated independence motive partly his own interview words), persistence (kept: rejection by multiple studios documented by Seitz and AFI, long-hours claim excluded) and opportunity_sensing (kept at 70/0.56: Academy profile is the sole source of the 'rare at the time' claim, already noted in the rationale). BROAD FLAG: none beyond the thin coverage of post-1983 behaviour; no Special Edition source was readable, so belief_updating, perfectionism and conflict_tolerance were deliberately not scored. PORTRAIT: the P18 lead 'George Lucas cropped 2009.jpg' (nicolas genin, CC BY-SA 2.0, Flickr-reviewed 2010) was checked; its Flickr source page now returns 404 so the Flickr licence could not be re-verified live and the Date field on its Commons page appears to be a day/month swap. It was therefore not used. 'George Lucas 2024.jpg' by Kevin Payravi (WikiPortraits) is uploaded as own work under CC BY-SA 4.0 directly on Commons with no third-party source dependency; no Lucasfilm promotional images were used. The Gage Skidmore 2025 photo (CC BY-SA 3.0 with an attribution condition) was the other alternative and was not opened further."
+  }
+}
