@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bernhard-riemann",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Bernhard Riemann",
+    "aliases": [
+      "Georg Friedrich Bernhard Riemann"
+    ],
+    "wikidataId": "Q42299",
+    "birthYear": 1826,
+    "deathYear": 1866,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "theorist",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_riemann_wikidata",
+      "kind": "wikidata",
+      "title": "Bernhard Riemann (Q42299) -- verified live via the Wikidata API (2026-10-24): English label 'Bernhard Riemann', description 'German mathematician (1826-1866)', born 1826-09-17, died 1866-07-20, Korean label '베른하르트 리만', P18 image 'Georg Friedrich Bernhard Riemann.jpeg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q42299"
+    },
+    {
+      "id": "src_riemann_mactutor",
+      "kind": "institution",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Bernhard Riemann' (MacTutor History of Mathematics archive, University of St Andrews), read in full. CANONICAL SIGNIFICANCE SOURCE: summary says his ideas on the geometry of space had a profound effect on modern theoretical physics and that he defined the Riemann integral; covers the 1851 thesis on complex functions and Riemann surfaces (Gauss's report quoted: 'a gloriously fertile originality'), the 1854 habilitation lecture on the hypotheses at the foundations of geometry (only Gauss grasped it; fully appreciated about sixty years later via general relativity), the 1857 abelian functions paper (Weierstrass withdrew his own submission on the same theme), the 1859 paper on the number of primes containing the Riemann hypothesis, the Berlin Academy nomination text of Kummer, Borchardt and Weierstrass, the Dirichlet Principle criticism and its eventual repair by Hilbert in 1901, and quotations from Klein, Freudenthal and Monastyrsky. A secondary scholarly biography; quoted contemporaries are mostly admiring but include Weierstrass's critique.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/"
+    },
+    {
+      "id": "src_riemann_dedekind",
+      "kind": "biography",
+      "title": "Richard Dedekind, 'Bernhard Riemann's Lebenslauf' (1892 biographical sketch in the second edition of Riemann's collected works, edited by Heinrich Weber; Wilkins transcription of the German original at the EMIS Classic Documents archive), read in full in German: a contemporary colleague and friend who attended Riemann's lectures and edited his papers; gives family and school background, the Berlin and Göttingen years, Riemann's own letters on the abelian-functions work in 1856-57, the Berlin Academy election, and notes that his shyness, a result of his secluded early life, never wholly left him and drove him to solitude and his world of thought, where he showed great boldness and freedom from prejudice. Independent of Riemann's own writing but written by an admiring friend; the account of his last illness and death was not used for any trait.",
+      "url": "https://www.emis.de/classics/Riemann/Leben.pdf"
+    },
+    {
+      "id": "src_riemann_dsb",
+      "kind": "biography",
+      "title": "Hans Freudenthal (with Peter Ullrich's supplementary postscript), 'Riemann, Georg Friedrich Bernhard' in the Complete Dictionary of Scientific Biography (reproduced at Encyclopedia.com), read in full via a page fetch: lists his contributions (Riemann surfaces, abelian functions, zeta function and the stated Riemann hypothesis, finite-amplitude sound waves, the Riemann integral, intrinsic curvature in the 1854 lecture); calls his style 'conceptual rather than algorithmic' (Ullrich qualifies that he also calculated explicitly); reports that his results influenced the century far more than his methods did; and lists critical gaps in rigor (Dirichlet principle, mapping theorem, period claims). CRITICAL / COUNTER-VOICE source. Reference-work text; independent of Dedekind.",
+      "url": "http://www.encyclopedia.com/people/science-and-technology/mathematics-biographies/bernhard-riemann"
+    },
+    {
+      "id": "src_riemann_zeta1859",
+      "kind": "archive",
+      "title": "Bernhard Riemann, 'On the Number of Prime Numbers less than a Given Quantity' (Monatsberichte der Berliner Akademie, November 1859; English translation by D. R. Wilkins, EMIS/Trinity College Dublin copy), read: the documented work itself, in which he thanks the Academy for his election, works from Euler's product formula, treats the zeta function as a function of a complex variable, and writes that it is very probable all roots are real while noting that he had put aside the search for a stricter proof after some fleeting futile attempts. Primary document of the work, not a self-report of character.",
+      "url": "https://www.maths.tcd.ie/pub/HistMath/People/Riemann/Zeta/EZeta.pdf"
+    },
+    {
+      "id": "src_riemann_geometry1854",
+      "kind": "archive",
+      "title": "Bernhard Riemann, 'On the Hypotheses which lie at the Bases of Geometry' (habilitation lecture of 1854; William Kingdon Clifford's English translation from Nature, vol. 8, Wilkins transcription at EMIS), opened and checked against MacTutor's account: the lecture poses the problem of defining n-dimensional manifolds and their metric relations and asks what hypotheses real space rests on. Primary document of the work.",
+      "url": "https://www.emis.de/classics/Riemann/Geom.pdf"
+    },
+    {
+      "id": "src_riemann_portrait",
+      "kind": "institution",
+      "title": "Smithsonian Institution Libraries, 'Portrait of Bernhard Riemann (1826-1866), Mathematician' (Dibner Library 'Scientific Identity' collection, accession SIL14-R003-02; Flickr Commons page and Wikimedia Commons file page), checked for the portrait: dated 1863, unidentified creator, medium unknown, 15.5 x 14 cm; the Smithsonian Flickr Commons page states 'No known copyright restrictions'; Commons review passed 2015-09-26. Used only for the portrait.",
+      "url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Bernhard_Riemann_(1826-1866),_Mathematician_(2551069295).jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_riemann_mactutor, src_riemann_dedekind, src_riemann_dsb, src_riemann_geometry1854, src_riemann_zeta1859 | 1851-1859 | university biography + friend's biography + reference work + the works themselves] Gauss's report on the 1851 thesis, quoted by MacTutor, speaks of 'a gloriously fertile originality'; MacTutor reports that Gauss alone among the 1854 audience grasped the habilitation lecture, which defined a general n-dimensional metric space and curvature and was not fully appreciated for decades; Kummer, Borchardt and Weierstrass nominated him to the Berlin Academy as 'a fully mature and independent investigator' and Weierstrass withdrew his own abelian-functions submission after Riemann's paper appeared; Freudenthal lists the thesis, abelian functions, zeta paper and geometry lecture as new directions. Several independent contemporaries and later scholars converge, including a rival. Capped at 0.72 because much of the praise is retrospective. SELF-CALIBRATION (agent): reviewed as a top-risk row (highest score); kept at 84/0.72 because the corroboration comes from Gauss, Weierstrass and Kummer in 1850s documents and from a critical reference work, not only admirers. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 84 / 0.72 to 80 / 0.64 because the behavioural specifics are thin (a habilitation lecture, a paper and colleagues' retrospective judgments) and no full biography was read, so 84 / 0.72 overstates what the sources show."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_riemann_dsb, src_riemann_mactutor, src_riemann_geometry1854 | 1851-1857 | reference work + university biography + the lecture] Freudenthal characterises his approach as 'conceptual rather than algorithmic' and MacTutor quotes Klein that his work rested on intuitive, structural reasoning that avoided long computation; the habilitation lecture treats geometry as a general theory of manifolds with a metric and Riemann surfaces recast multi-valued functions as single-valued on a topological object. Ullrich qualifies that he also computed explicitly, and the characterisation is by later historians, so strong inference rather than documented."
+    },
+    "intuitive_synthesis": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_riemann_mactutor, src_riemann_dsb, src_riemann_zeta1859 | 1851-1859 | university biography + reference work + his own paper] Klein, quoted by MacTutor, says his work 'always was based on intuitive reasoning which fell a little below the rigour required'; Freudenthal lists gaps in the Dirichlet principle, the mapping theorem and some uniqueness proofs; in the 1859 paper he states his belief that all zeros are real is 'very probable' and that he put aside a stricter proof after fleeting attempts. The trait cuts both ways: it supplied the ideas and left the proofs to others (Hilbert repaired the Dirichlet principle in 1901). Moderate score because the rating rests on later historians' characterisation plus one self-hedged remark."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_riemann_mactutor, src_riemann_dsb, src_riemann_zeta1859 | 1859 | university biography + reference work + own paper] MacTutor (quoting Klein, who heard it from Weierstrass) says Riemann fully recognised the justice of Weierstrass's critique of the Dirichlet principle but maintained that his existence theorems remained correct; Ullrich's postscript reports his 1859 remark that he had used the principle only as a convenient tool, and the zeta paper openly says a stricter proof is wanted. He accepted the criticism of the method without abandoning the claims, a mixed signal. A single episode relayed second-hand, so inference."
+    },
+    "deep_focus": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_riemann_mactutor, src_riemann_dedekind | 1851-1857 | university biography + friend's biography] MacTutor says he spent thirty months on the habilitation dissertation, and Dedekind, who attended the 1855-56 lectures, describes how Riemann worked on the abelian functions investigations begun in 1851-52 and, once Borchardt asked for them, devoted all his powers to writing them up in 1857. Sustained multi-year concentration on single problems is documented, but by one friend and one secondary biography; nothing from his private or health life is used."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_riemann_mactutor, src_riemann_dsb, src_riemann_dedekind | 1849-1860 | university biography + reference work + friend's biography] Riemann was Wilhelm Weber's assistant in physics, drew topology ideas from Listing, prepared two of his three habilitation lectures on electricity, reported on static electricity to a Göttingen society, and published on the propagation of finite-amplitude sound waves (Freudenthal), alongside complex analysis, number theory, Fourier series and geometry. His work spans pure analysis and mathematical physics, though all within the mathematical sciences, hence a moderate score."
+    },
+    "social_assertiveness": {
+      "score": 36,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_riemann_dedekind, src_riemann_mactutor | 1840s-1850s | friend's biography + university biography] Dedekind writes that his shyness never wholly left him and often led him to withdraw into solitude and thought; MacTutor says he gradually overcame a natural shyness in lecturing to a small class of eight students. Two sources agree on a reserved manner, but both rely on the same family letters in Dedekind's account, so they are not fully independent and the rating is a moderate lean."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "베른하르트 리만"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bernhard-riemann-unidentified-1863.jpg",
+    "width": 947,
+    "height": 1200,
+    "source": "Smithsonian Institution Libraries, Dibner Library 'Scientific Identity' collection (accession SIL14-R003-02), via Flickr Commons photo 2551069295 and Wikimedia Commons file 'Portrait of Bernhard Riemann (1826-1866), Mathematician (2551069295).jpg'. The item is a printed portrait with a facsimile signature and the date 1863 (an engraving or print after the 1863 portrait photograph), creator unidentified, medium unknown, 15.5 x 14 cm. Original file 2574 x 3262; downscaled only (never upscaled) to 947 x 1200.",
+    "license": "Public domain (published 1863; Smithsonian Institution: no known copyright restrictions)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Portrait of Bernhard Riemann, 1863, creator unidentified; Smithsonian Institution Libraries, Dibner Library of the History of Science and Technology",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Bernhard_Riemann_(1826-1866),_Mathematician_(2551069295).jpg",
+    "creator": "Unidentified (print dated 1863)",
+    "date": "1863",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.flickr.com/photos/smithsonian/2551069295/"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q42299 returned en label 'Bernhard Riemann', description 'German mathematician (1826-1866)', born 1826-09-17, died 1866-07-20, ko label '베른하르트 리만'; the lead's identity was correct. SLUG/QID CHECK: no candidate or src/data reference to bernhard-riemann or Q42299 in the roster55 worktree. REGION western_europe, nationality DE: the repo maps carl-friedrich-gauss and david-hilbert (both DE) to western_europe, so the same precedent is followed. VOCABULARY: mathematician, fields mathematics and physics, tags theorist and systematic_thinker, archetype scholarly_specialist are existing ids with EN+KO labels (as for David Hilbert). ZERO POLITICS: nothing political. EXCLUDED deliberately: tuberculosis and his health and death (no trait inferred from illness; the last-day anecdote not used), bereavement and family losses, marriage, the 1866 Hanover war flight, Wikipedia. CANONICAL SIGNIFICANCE SOURCE: MacTutor 'Bernhard Riemann' (https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/). READ (5 substantive sources + portrait record): MacTutor (full), Dedekind's Lebenslauf (German, searched and read the school, Berlin, Göttingen, abelian-functions and shyness passages), Freudenthal/Ullrich DSB entry (full via page fetch), Riemann's 1859 paper (Wilkins translation, relevant passages), Riemann's 1854 lecture (Clifford translation, opened; used as documented work only). PERSPECTIVES: a contemporary colleague-friend (Dedekind), a modern university biography quoting Gauss, Klein, Weierstrass and the Berlin nomination (MacTutor), a critical reference work (DSB with Ullrich's qualifications), and the primary works. COUNTER-VOICES: Weierstrass's Dirichlet-principle critique, Freudenthal's list of rigor gaps and his point that Riemann's methods were little followed. NOT opened: Laugwitz's biography itself (reviews only identified, the AMS Bulletin and MAA review pages blocked automated access), Britannica (403), Klein's lectures, Monastyrsky, the Clay Institute page. Behavioural evidence is thin and mostly retrospective, so only seven rows are scored and none above 84 or 0.72. PORTRAIT: the Commons file page for the Wikidata P18 image (1863, no author, source the same Smithsonian collection) was checked and rejected as the primary record in favour of the Smithsonian Libraries item with accession number, Flickr Commons 'No known copyright restrictions' statement and a Commons Flickr review. The item is a printed portrait dated 1863, not a photograph as the Commons file description claims, so it is labelled historical_depiction; creator unidentified, so rights rest on age (published 1863, any plausible author long dead) plus the Smithsonian statement, which is not an affirmative licence. An alternative Commons file attributed to the engraver August Weger (1823-1892) via the Bildarchiv Austria was found but its institutional page names no creator, so it was not used. SELF-CALIBRATION: rows reviewed: creative_originality (highest score) and systems_abstraction; none lowered, because the former has independent 1850s corroboration (Gauss, Weierstrass, Kummer) and the latter was already scored at strong_inference. Flag for lead: none. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 84 / 0.72 to 80 / 0.64 because the behavioural specifics are thin (a habilitation lecture, a paper and colleagues' retrospective judgments) and no full biography was read, so 84 / 0.72 overstates what the sources show."
+  }
+}

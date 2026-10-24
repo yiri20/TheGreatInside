@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "henry-dunant",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Henry Dunant",
+    "aliases": [
+      "Henri Dunant",
+      "Jean Henri Dunant"
+    ],
+    "wikidataId": "Q12091",
+    "birthYear": 1828,
+    "deathYear": 1910,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "CH"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "writer"
+    ],
+    "fieldIds": [
+      "social_reform",
+      "business"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dunant_wikidata",
+      "kind": "wikidata",
+      "title": "Henry Dunant (Q12091) -- verified live via the Wikidata API (2026-10-24): English label 'Henry Dunant', description 'Swiss businessman and co-founder of the Red Cross (1828-1910)', Korean label '앙리 뒤낭', born 1828-05-08, died 1910-10-30, P18 'Jean Henri Dunant.jpg' and 'Henry Dunant-young.jpg' (both rejected for portrait use, see the portrait record). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q12091"
+    },
+    {
+      "id": "src_dunant_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Henri Dunant' (britannica.com; the live site was read through an Internet Archive copy, full short article): Swiss humanitarian, founder of the Red Cross and of the World Alliance of Young Men's Christian Associations, cowinner with Frederic Passy of the first Nobel Peace Prize in 1901; eyewitness of the Battle of Solferino (24 June 1859) where he organised emergency aid for Austrian and French wounded; in Un Souvenir de Solferino (1862) he proposed voluntary relief societies in all countries 'without distinction of race or creed' and an international agreement covering the war wounded; founded the International Committee for the Relief of the Wounded in 1863, with the first national societies and the first Geneva Convention in 1864; bankruptcy and departure from Geneva in 1867, 'because he neglected his business affairs'; later promotion of prisoners-of-war treatment, abolition of slavery, arbitration and disarmament; 'rediscovered' by a journalist in Heiden in 1895. CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.britannica.com/biography/Henri-Dunant"
+    },
+    {
+      "id": "src_dunant_nobel",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Henry Dunant - Biographical' (Nobel Peace Prize 1901; a biography written at the time of the award), read in full: a life of contrasts, 'passionate humanitarianism was the one constant'; YMCA work and business apprenticeship in Sétif; the 'daring financial scheme' of the Mons-Gémila Mills company in Algeria and his journey to Napoleon III's headquarters near Solferino to plead for water rights; the three themes of A Memory of Solferino including the plan for national relief societies; the February 1863 committee of five and the October 1863 conference (thirty-nine delegates from sixteen nations); the Geneva Convention signed on 22 August 1864 by twelve nations; his later schemes (a neutral colony in Palestine, an 'International and Universal Library', the 1872 conference on prisoners of war and arbitration); the 1867 bankruptcy (water rights not granted, company mismanaged in North Africa, his attention on humanitarian pursuits); his withdrawal from 1875, rediscovery and the prize; he spent none of the prize money and left bequests to local and philanthropic causes. Institutional and laudatory in tone; the 'bitter testament', the 'like a dog' burial and the account of his later life in poverty were not used for any row.",
+      "url": "https://www.nobelprize.org/prizes/peace/1901/dunant/biographical/"
+    },
+    {
+      "id": "src_dunant_icrc_history",
+      "kind": "institution",
+      "title": "International Committee of the Red Cross, 'Our history' (icrc.org/en/our-history), opening section read: in February 1863 what was to become the ICRC met for the first time in Geneva, and 'among its five founding members was a local man named Henry Dunant' whose 1862 book A Memory of Solferino called for better care of wounded soldiers; by the end of the year the committee had brought government representatives to agree to Dunant's proposal for national relief societies, and in August 1864 persuaded governments to adopt the original Geneva Convention; National Societies followed, the first in Wurttemberg in November 1863. Used to keep the card wording at 'co-founder'. The later sections on the ICRC's wars-era work were not used.",
+      "url": "https://www.icrc.org/en/our-history"
+    },
+    {
+      "id": "src_dunant_bugnion",
+      "kind": "institution",
+      "title": "Francois Bugnion, 'Birth of an idea: the founding of the International Committee of the Red Cross and of the International Red Cross and Red Crescent Movement: from Solferino to the original Geneva Convention (1859-1864)', International Review of the Red Cross, vol. 94 no. 888 (Winter 2012), ICRC historian and former ICRC director, based on archival documents (icrc.org PDF, read: the Solferino, book, Committee and Berlin sections and the conclusion, about 108,000 characters of text extracted, the later 1864 conference sections skimmed): Dunant was at Solferino pursuing his Algerian water-rights business; he spent three days and nights tending the wounded, sent his coachman to Brescia for supplies, mobilised volunteers, mostly women, urged them to treat all wounded alike and wrote to Geneva for relief funds; the account long rested on his own telling but four letters in the ICRC archives corroborate it; the book was followed by a 'cleverly orchestrated promotion campaign' and letters from sovereigns; in the Committee Dunant pressed alone for the legal protection of medical personnel (a 'first source of friction'); in September 1863 he had a new circular printed in Berlin on behalf of the Committee without consulting his colleagues, was told by Moynier 'We thought you were asking the impossible', then toured German capitals where 'his book opened every door'; he was the primary founder of the French Red Cross; the conclusion says neither idea would have come to anything without the help of the four fellow citizens. A scholarly institutional history with a critical edge on Dunant's methods.",
+      "url": "https://www.icrc.org/sites/default/files/external/doc/en/assets/files/review/2013/irrc-888-bugnion.pdf"
+    },
+    {
+      "id": "src_dunant_hektoen",
+      "kind": "press",
+      "title": "Stephen Kosnar, 'Humanitarian for all: The life of Henry Dunant', Hektoen International: A Journal of Medical Humanities (hekint.org, 29 January 2020), read in full: his Algerian company and the water-rights problem, his bold journey to find Napoleon III, tending the wounded at Castiglione and recruiting local women, the writing of A Memory of Solferino and the five-person committee, the neglected Algerian business and the 1867 bankruptcy of a Geneva bank on whose board he sat, his withdrawal from Geneva and later rediscovery, the Nobel statement credited to the committee. A medical-humanities magazine article compiled from the Nobel biography and Boissier; used only as a second, popular account of the Solferino episode and the bankruptcy. Its remarks on his religion, later poverty and burial were not used.",
+      "url": "https://hekint.org/2020/01/29/humanitarian-for-all-the-life-of-henry-dunant/"
+    },
+    {
+      "id": "src_dunant_kirkus",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of Caroline Moorehead, 'Dunant's Dream: War, Switzerland and the History of the Red Cross' (kirkusreviews.com), read in full (two paragraphs): a history of the Red Cross from its inception to its present status, noting Dunant at Solferino at age 31 and the 1862 book, and describing Moorehead as the first researcher allowed to explore the ICRC archives and her account as 'both compassionate and critical'. Used only to show that an independent, archive-based history exists; the book was not opened, so no row relies on it.",
+      "url": "https://www.kirkusreviews.com/book-reviews/caroline-moorehead/dunants-dream/"
+    },
+    {
+      "id": "src_dunant_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Henry Dunant. Photograph. Wellcome M0017054.jpg' (wikitext and API record), Wellcome Collection work page yw7ea3rf, Commons file 'Die Gartenlaube (1896) 0675.jpg' and the German Wikisource transcription of Max Wauer, 'Henri Dunant, der Begrunder der Genfer Konvention', Die Gartenlaube 1896: the Wellcome glass-plate negative is the same portrait that Die Gartenlaube printed in 1896 with the caption 'Nach einer Aufnahme von Otto Rietmann in St. Gallen' (checked by viewing both images); Wellcome's own page shows the Public Domain Mark and a glass-plate negative without creator or date; Otto Rietmann, Swiss photographer (Wikidata Q18511563, 1856-1942). Checked for the portrait's rights; not used for scoring.",
+      "url": "https://wellcomecollection.org/works/yw7ea3rf"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dunant_britannica, src_dunant_nobel, src_dunant_bugnion | 1859-1864 | encyclopaedia + Nobel biography + ICRC historian] Britannica and the Nobel biography say his 1862 book proposed voluntary relief societies in every country and an international agreement protecting the war wounded; Bugnion says that at Solferino he discovered the principle of neutrality of medical action that became the cornerstone of the original Geneva Convention and that he turned the experience into 'two ideas with an exceptional future', the Red Cross and the Geneva Convention. The originality of the proposal is well documented in three independent accounts, but Bugnion also credits the four fellow committee members with making the ideas workable, and the praise is largely retrospective, so confidence stays moderate."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_dunant_bugnion, src_dunant_nobel, src_dunant_britannica | 1859-1863 | ICRC historian + Nobel biography + encyclopaedia] Bugnion says Dunant was 'not satisfied by merely testifying to the horrors of war' and ended his book with appeals, then, with no mandate, had a circular printed in Berlin at his own expense on behalf of the Committee; the Nobel biography says that after the Geneva committee of five formed he travelled over most of Europe obtaining promises from governments to send delegates; Britannica says he proposed and then founded the committee. He repeatedly started and pushed forward action without waiting to be asked. Dual-edged because Bugnion documents that his unilateral circular displeased his colleagues."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dunant_bugnion, src_dunant_hektoen, src_dunant_britannica | 1859 | ICRC historian + magazine article + encyclopaedia] Bugnion says that at Castiglione, a civilian with no medical role, he spent three days tending the wounded, sent his coachman to Brescia for cloth, dressings and provisions, mobilised volunteers, mostly women and girls, and wrote to Geneva asking for a subscription to buy relief supplies; Hektoen repeats the recruitment of local women; Britannica says he organised emergency aid for Austrian and French wounded. Bugnion notes that for a long time the account came from Dunant himself and that four letters in the ICRC archives corroborate it, so the episode is documented but narrow (one battle)."
+    },
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dunant_bugnion, src_dunant_nobel, src_dunant_icrc_history | 1862-1864 | ICRC historian + Nobel biography + ICRC history page] Bugnion describes a 'cleverly orchestrated promotion campaign' for the book, letters of support from sovereigns and ministers, and a tour of German capitals where 'his book opened every door' as he pleaded for the neutrality of medical services; the Nobel biography says he obtained promises from governments to send representatives and that the 1863 conference drew thirty-nine delegates from sixteen nations and the 1864 treaty twelve signatory nations; the ICRC says the committee persuaded governments to adopt the Geneva Convention. The campaign is documented, but the sources credit the whole committee with the final treaty and Bugnion records that some of his own claims of support were uncertain, so the score stays moderate."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dunant_nobel, src_dunant_bugnion, src_dunant_hektoen, src_dunant_britannica | 1859-1910 | Nobel biography + ICRC historian + magazine article + encyclopaedia] The Nobel biography says his 'passionate humanitarianism was the one constant' in his life, that he poured his money and time into the cause, and that he left prize money unspent with legacies to a local hospital bed and philanthropic enterprises; Bugnion records that he printed circulars at his own expense; Hektoen says he travelled at his own expense for humanitarian work; Britannica says that after bankruptcy he kept promoting care of prisoners of war, abolition of slavery and arbitration. Documented sustained effort and personal expense for relief of suffering, from independent sources; the late-life poverty and the manner of his burial are not used as evidence. SELF-CALIBRATION (agent): reviewed and kept (four sources converge on dated personal expenditure and continued causes)."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_dunant_nobel, src_dunant_hektoen, src_dunant_britannica | 1858-1867 | Nobel biography + magazine article + encyclopaedia] The Nobel biography calls his Algerian mills scheme 'daring', capitalised at 100,000,000 francs, and says he took his plea for water rights directly to Napoleon III in the field; Hektoen calls the journey to find the emperor 'a bold move'; Britannica and the Nobel biography record the company's failure and his 1867 bankruptcy. A documented willingness to stake a large venture and go to extraordinary lengths for it, with the cost documented; the sources are short on his own reasoning, so the score is moderate."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dunant_nobel, src_dunant_britannica | 1867-1872 | Nobel biography + encyclopaedia] The Nobel biography records that after the 1867 bankruptcy he kept producing proposals, including the 1872 conference on prisoners of war and arbitration; Britannica says he continued to promote prisoner-of-war treatment, abolition of slavery, arbitration and disarmament. Continued work on his causes after losing his standing in Geneva is documented in two sources, but both are brief and the later years are mostly obscure, so confidence is only moderate."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_dunant_bugnion, src_dunant_icrc_history, src_dunant_nobel | 1863 | ICRC historian + ICRC history page + Nobel biography] He took part in the five-member committee that organised the 1863 conference (ICRC, Nobel), and Bugnion says the ideas would have come to nothing without the other four; but Bugnion also records that on legal protection for medical staff Dunant 'was on his own', calls this the first source of friction, and says that in September 1863 he had a circular printed in Berlin for the Committee 'without having consulted his colleagues' and Moynier told him they thought he was 'asking the impossible'. Genuinely mixed evidence from one detailed source, so the score sits near the middle with low confidence."
+    },
+    "planning_orientation": {
+      "score": 42,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_dunant_britannica, src_dunant_nobel | 1858-1867 | encyclopaedia + Nobel biography] Britannica says he went bankrupt 'because he neglected his business affairs' and the Nobel biography says the water rights were not granted, the company was mismanaged in North Africa and he had been concentrating on humanitarian pursuits. The outcome of a large undertaking left without the needed administration is documented, but the cause is given in a sentence or two and the sources do not describe his planning of the humanitarian work, so this is a low-confidence strong inference. SELF-CALIBRATION (agent): first-pass 38 / 0.45 raised to 42 / 0.40 because the causal claim rests on two brief statements and says nothing about his planning of the Red Cross work."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "앙리 뒤낭"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/henry-dunant-rietmann-1896.jpg",
+    "width": 882,
+    "height": 1200,
+    "source": "Wellcome Collection M0017054 (glass-plate negative, 12 x 16.5 cm; Wellcome's own work page shows the Public Domain Mark), opened via Wikimedia Commons 'Henry Dunant. Photograph. Wellcome M0017054.jpg'. The same portrait was printed in Die Gartenlaube 1896, p. 675, in Max Wauer's article, with the caption 'Nach einer Aufnahme von Otto Rietmann in St. Gallen' (verified by viewing both images), so it is a lifetime photograph by Otto Rietmann (Swiss photographer, 1856-1942) published in 1896: public domain by age (published before 1931; photographer dead more than 70 years). Wellcome's page itself gives no creator or date; the attribution rests on the match with the 1896 print. The Commons file page still carries an older CC-BY-4.0 tag, which is superseded by Wellcome's Public Domain Mark and is less restrictive in any case. Original file 2953 x 4017 (oval print on white); saved downscaled only to 882 x 1200, not cropped.",
+    "license": "Public Domain",
+    "licenseUrl": "https://wellcomecollection.org/works/yw7ea3rf",
+    "attribution": "Photo: Otto Rietmann, St. Gallen, before 1896 (Wellcome Collection, Public Domain Mark)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Henry_Dunant._Photograph._Wellcome_M0017054.jpg",
+    "creator": "Otto Rietmann",
+    "date": "before 1896",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Henry_Dunant._Photograph._Wellcome_M0017054.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q12091 returned en label 'Henry Dunant', description 'Swiss businessman and co-founder of the Red Cross (1828-1910)', ko label '앙리 뒤낭', born 1828-05-08, died 1910-10-30; the lead's slug matches. SLUG/QID CHECK: no existing candidate, production file or src reference for slug henry-dunant or Q12091 in the roster55 worktree. REGION: western_europe, nationality CH; repo precedent for Swiss people (Piaget, Jung, Einstein, Rousseau, Euler, Federer) is western_europe, with only Klee and Pauli central_europe, so the majority precedent was followed. ZERO-POLITICS REASONING: Dunant's primary identity is humanitarian relief: an eyewitness and writer who proposed voluntary medical relief societies and a founder of the committee that became the ICRC. The Geneva Convention was negotiated by governments at the 1864 diplomatic conference and the ICRC's committee presided by Dufour and Moynier; Dunant did not hold office, lead a state, fight or negotiate for a state, and his late campaigns (arbitration, disarmament, a Jewish colony in Palestine) are not scored. I judge him humanitarian (relief and writing), not diplomatic or political; the lead may overrule. No row, card, moment or interpretation scores diplomacy, treaty-making or political advocacy. EXCLUSIONS: no inference from his later poverty, isolation, the 'like a dog' burial request, bitterness or religious change; the bankruptcy appears only as a documented business outcome with the cause as stated by Britannica and the Nobel biography; no allegation of fraud or the charge mentioned by one magazine source is used. VOCABULARY: occupations entrepreneur, writer; fields social_reform, business; impact domains social/historical; tags founder, nobel_laureate; archetype social_influencer are existing ids with EN+KO labels. GAP FLAGGED: there is no labelled 'humanitarian' occupation or field; 'social_reform' (field) is the nearest and reads slightly more activist than relief-oriented, so the lead may prefer another field. 'educator'-type gaps do not apply. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Henri Dunant' (https://www.britannica.com/biography/Henri-Dunant), full article read through an Internet Archive copy. READ (7 cited non-Wikidata sources): Britannica; NobelPrize.org biography; ICRC 'Our history'; Bugnion's ICRC historical article (International Review of the Red Cross, 2012; the principal substantive source); Hektoen International article; Kirkus review of Moorehead's Dunant's Dream; Commons/Wellcome/Gartenlaube records for the portrait. NOT opened: A Memory of Solferino itself (self-authored; available as an Internet Archive/Gutenberg text but not read), Boissier's and Gumpert's biographies, Moorehead's book, Chaponniere's 2010 biography, Durand's work, the Historical Dictionary of Switzerland (403), Moynier's writings, the ICRC minutes (read only through Bugnion's quotations). PERSPECTIVES: general encyclopaedia; Nobel institution biography (laudatory); an ICRC historian working from archives with a critical edge on Dunant's methods; a medical-humanities magazine article; a trade review of an independent archive-based history. COUNTER-VOICES: Bugnion's account of friction with Moynier and the Committee (alone on legal protection; the unconsulted Berlin circular; 'asking the impossible'; his claimed military-doctor support 'not certain'; the Solferino account long resting on his own telling) and the bankruptcy and its stated causes (Britannica, Nobel, Hektoen). At least one substantive non-self behavioural source: Bugnion (archival), supported by the Nobel biography. The self-authored book is not used as support for any row. CALIBRATION: nine rows, none above 76 or 0.62; the strongest rows (impact_motivation, proactive_agency, persuasiveness) rest on three or four converging sources; collaboration and planning_orientation are deliberately middling/low and low-confidence because the evidence is mixed or thin. No personality inference from poverty or isolation. SELF-CALIBRATION (agent): rows reviewed: impact_motivation (kept: four sources converge on dated personal expenditure and continued causes), planning_orientation (adjusted 38/0.45 to 42/0.40: the causal claim rests on two brief statements and the score should not look like a verdict on his character), persuasiveness (kept: concrete conference and treaty figures from two sources, offset by Bugnion's doubts already in the rationale). BROAD FLAG: none beyond the point that the evidence for the later decades is thin and the only deep source is one article. PORTRAIT: Wikidata P18 leads were rejected: 'Jean Henri Dunant.jpg' states a Time Life/Library of Congress source with call number LC-USW33-042485, an author 'Time Life Pictures' and a date of 1901 while its own categories say 1896 and Otto Rietmann, so its facts contradict each other; 'Henry Dunant-young.jpg' names Frederic Boissonnas as author but dates it only 'probably' 1850-1860 'based on his appearance', a speculative attribution. The chosen file is Wellcome Collection M0017054: Wellcome's page gives a Public Domain Mark; the creator is documented by matching the portrait to the Die Gartenlaube 1896 print captioned as a photograph by Otto Rietmann (images compared visually), so the basis is a lifetime photograph published in 1896 by a photographer who died in 1942. Residual caveat: Wellcome itself does not name the creator, so the attribution rests on the match with the 1896 print, and the Commons CC-BY-4.0 tag is outdated. Image downscaled from 2953 x 4017 to 882 x 1200 (no upscaling), viewed: an elderly bearded man in a cap and heavy coat, oval print on white. Kind set to likeness (lifetime photograph)."
+  }
+}

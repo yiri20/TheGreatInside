@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "dante-alighieri",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Dante Alighieri",
+    "aliases": [
+      "Dante"
+    ],
+    "wikidataId": "Q1067",
+    "birthYear": 1265,
+    "deathYear": 1321,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_da_wikidata",
+      "kind": "wikidata",
+      "title": "Dante Alighieri (Q1067) -- verified live via the Wikidata API (2026-10-24): English label 'Dante Alighieri', description 'Florentine poet, writer, and philosopher (c. 1265-1321)', Korean label '단테 알리기에리', born 1265 (precision year; one statement 30 May 1265), died 13/14 September 1321. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1067"
+    },
+    {
+      "id": "src_da_poetryfound",
+      "kind": "institution",
+      "title": "Poetry Foundation, biography of Dante Alighieri (poetryfoundation.org), read in full: the Commedia as a masterpiece and an encyclopedic overview of the medieval world; his apprenticeship with the vernacular writer Brunetto Latini and friendship with Guido Cavalcanti; the Vita Nuova (c. 1292-94) with its innovative 'sweet new style' love poetry; the Convivio (c. 1304), an unfinished Latin De Vulgari Eloquentia on the origin of Italian dialects and literary language, and the Latin De Monarchia; the Commedia (c. 1307-21) with its ordered Hell, Purgatory and Paradise; banishment from Florence in 1301 and completion of the major works in exile; settling in Ravenna, death in 1321; the poem's immediate sensation in his lifetime, waning fame in the Renaissance and revival in the 19th and 20th centuries. CANONICAL SIGNIFICANCE SOURCE (with the Stanford Encyclopedia entry). Poetry institution's biography, admiring; the political-alliance and family passages were not used for scoring.",
+      "url": "https://www.poetryfoundation.org/poets/dante-alighieri"
+    },
+    {
+      "id": "src_da_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy, 'Dante Alighieri' (plato.stanford.edu; first published 2001, revised 2026; the first 100,000 of about 123,000 characters were read, as extracted), read: the biography is hard to reconstruct without interpreting Dante's own writings; early lyric poetry and the Vita nuova in the dolce stil novo shaped by Cavalcanti; the Convivio (c. 1304-1307), planned as fourteen treatises but only four completed and defending writing in the vernacular; the Latin De vulgari eloquentia on the origins of language and an 'illustrious' Italian vernacular for poetry, abandoned around 1307; the Monarchia (probably after 1314); the Commedia as an encyclopedic major poem, with Paradiso completed in Ravenna; a warning that his self-presentation (for example descent from the knight Cacciaguida) complicates the evidence. CANONICAL SIGNIFICANCE SOURCE (with the Poetry Foundation). Scholarly encyclopedia hosted by a university; the final part of the entry was not read.",
+      "url": "https://plato.stanford.edu/entries/dante/"
+    },
+    {
+      "id": "src_da_princeton",
+      "kind": "institution",
+      "title": "Princeton Dante Project, 'Biography' (dante.princeton.edu), an excerpt from Paget Toynbee's Dante Dictionary, read in full: birth in Florence in 1265; guild membership and priorate in 1300; banishment after the 1301-02 sentences; years moving through Italian cities; the works in Italian (Vita Nuova, Convivio, Rime, Divina Commedia) and in Latin (De vulgari eloquentia, Monarchia, epistles, two Eclogues); and two contemporary characterisations (Giovanni Villani: honourable and learned but somewhat presumptuous and aloof and poor at conversing with laymen; Giovanni Boccaccio: devoted to study, modest in eating and drinking, rarely speaking unless asked). University digital-humanities project reproducing an early-twentieth-century dictionary; the political, family and amnesty passages were not used for scoring and the contemporary personality remarks were not scored.",
+      "url": "https://dante.princeton.edu/pdp/biography.html"
+    },
+    {
+      "id": "src_da_treccani_dve",
+      "kind": "institution",
+      "title": "Pier Giorgio Ricci and Pier Vincenzo Mengaldo, 'De vulgari eloquentia', Enciclopedia Dantesca (Istituto della Enciclopedia Italiana, Treccani, 1970; treccani.it), read as extracted (first 100,000 of about 122,000 characters): the treatise postdates the exile and was begun around 1303, underway before February 1305; Book I (19 chapters) on the origin of language and the search for a unitary 'illustrious' Italian vernacular; Book II on poetry in it; the work breaks off in the middle of Book II chapter XIV, probably abandoned abruptly, possibly linked to the turn to the Commedia but the entry says this cannot be proved; Dante presents the vernacular as humanity's natural speech, nobler than the artificial Latin grammar, while using Latin's regularity as a model; the theory of the illustrious vernacular sits uneasily with the theory of lower styles. National encyclopedia entry in Italian; scholarly and not uncritical.",
+      "url": "https://www.treccani.it/enciclopedia/de-vulgari-eloquentia_(Enciclopedia-Dantesca)/"
+    },
+    {
+      "id": "src_da_treccani_bio",
+      "kind": "institution",
+      "title": "'Dante Alighieri', Enciclopedia Italiana (Treccani, treccani.it), read as extracted in Italian (about 30,000 characters): in the exile years the Convivio and De vulgari eloquentia (c. 1304-07) were written to raise his fame as a scholar beyond love poetry and were left unfinished when around 1307 he began the Commedia, or perhaps took up older drafts; at Ravenna the poet Giovanni del Virgilio urged him to write in Latin rather than in the vernacular and invited him to Bologna, and Dante replied with two Eclogues declining, although the entry notes that some doubt the authenticity of the Eclogues and of the Questio de aqua et terra; no autograph survives. Italian national encyclopedia; the political-thought passages were not used.",
+      "url": "https://www.treccani.it/enciclopedia/dante-alighieri/"
+    },
+    {
+      "id": "src_da_christhist",
+      "kind": "press",
+      "title": "'Dante's Turbulent World: Christian History Timeline', Christian History magazine issue 70 (Christianity Today, 2001; no named author), read in full: dated sequence of his life and works -- Vita Nuova 1292, De Vulgari Eloquentia and the Convivio from about 1304, the Commedia probably begun in 1306 and interrupting the Convivio, Inferno in circulation 1314, work on Purgatorio and Paradiso at Verona in 1315, move to Ravenna in 1319, the Comedy finished in 1321, death 13 or 14 September 1321. Popular church-history magazine timeline; dates are given as approximate and sometimes differ from the encyclopedias (it says 1306, Treccani says 1307); the political and personal entries were not used.",
+      "url": "https://christianitytoday.com/history/issues/issue-70/dantes-turbulent-world-christian-history-timeline.html"
+    },
+    {
+      "id": "src_da_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages for Botticelli's 'Portrait of Dante' (Fondation Martin Bodmer, Cologny; files 'Sandro Botticelli - Portrait of Dante - WGA02802.jpg', 'Portrait of Dante by Botticelli.jpg', 'Sandro Botticelli - Ritratto di Dante Alighieri.jpg' and 'Anonyme - Dante Alighieri - Fondation Martin Bodmer.jpg') -- wikitext and API records read to assess a portrait; the Commons tag is PD-Art (the painting is about 1495 or a later copy) but the Web Gallery of Art terms and the foundation's own image terms could not be opened, and the Commons sources conflict (a Web Gallery of Art copy, a Flickr copy tagged CC BY-SA 2.0, and a separately catalogued anonymous copy after Botticelli). Rights-basis pages; no person-specific claim rests on them.",
+      "url": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_Portrait_of_Dante_-_WGA02802.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_da_poetryfound, src_da_sep, src_da_treccani_dve | c. 1292-1321 | poetry-institution biography + university encyclopedia + national encyclopedia] The Poetry Foundation says the Vita Nuova used a fresh, innovative approach to love poetry and calls the Commedia an encyclopedic overview of the medieval world that has been scrutinised by critics and philosophers for its formal and semantic richness; the Stanford entry calls the Commedia encyclopedic in scope and describes the Latin treatise's search for an 'illustrious' Italian vernacular for poetry; the Treccani entry on De vulgari eloquentia describes a systematic argument for a unitary Italian literary language. Original forms and projects are documented by three institutional sources, but all are admiring, retrospective scholarly summaries, so documented at a moderate-high confidence and below the top of the scale. SELF-CALIBRATION (agent): reviewed as the highest-scoring row; kept because three institutional scholarly sources describe specific works and a specific argument rather than general praise."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_da_treccani_bio, src_da_treccani_dve, src_da_sep | c. 1304-1320 | national encyclopedia (two entries) + university encyclopedia] The Convivio defends writing in the vernacular (Stanford) and the Latin treatise argues that the vernacular is humanity's natural speech, nobler than the artificial Latin grammar (Treccani), and Treccani records that at Ravenna Giovanni del Virgilio urged him to write in Latin rather than the vernacular and Dante replied with two Eclogues declining. He built a reasoned case for, and kept writing the major poem in, the vernacular against a contemporary's advice, but the exchange with del Virgilio rests on the Eclogues whose authenticity the entry says some doubt, so documented at a modest confidence. SELF-CALIBRATION (agent): first-pass 72 / 0.60 lowered to 68 / 0.52 because the clearest behavioural episode (declining del Virgilio's invitation) rests on texts whose authenticity is doubted by some scholars."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_da_princeton, src_da_poetryfound, src_da_sep | c. 1292-1321 | university project + poetry-institution biography + university encyclopedia] The Princeton listing shows works in Italian (love poetry in the Vita Nuova, a philosophical commentary in the Convivio, lyric Rime, the Commedia) and in Latin (a treatise on language, a treatise on universal monarchy, epistles, two Eclogues); the Poetry Foundation describes the Commedia as rich in science, astronomy and philosophy; the Stanford entry calls the Convivio his fullest philosophical prose work on ethics, politics and metaphysics. Work across poetry, philosophy, language theory and political theory is documented across three sources, though some attributions (the Questio de aqua et terra) are questioned, so documented at a moderate confidence."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_da_christhist, src_da_poetryfound, src_da_treccani_bio, src_da_sep | 1306-1321 | magazine timeline + poetry-institution biography + national encyclopedia + university encyclopedia] The Commedia is dated from about 1306-07 to 1321 (the timeline has Purgatorio and Paradiso worked on in Verona in 1315 and the whole finished in 1321, Stanford says Paradiso was completed in Ravenna), and Poetry Foundation and Treccani say it was written in exile; the same encyclopedias note that the Convivio (four of fourteen planned treatises) and De vulgari eloquentia were left unfinished. A long sustained effort to complete one large poem is documented, while two other large projects were dropped, and the dating differs by source, so strong inference at a modest confidence, dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "단테 알리기에리"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "BLOCKER: no historical depiction with a fully resolved rights basis was found within the bounded check. The best candidate is Botticelli's 'Portrait of Dante' (tempera on canvas, about 1495, Fondation Martin Bodmer, Cologny), Commons 'Sandro Botticelli - Portrait of Dante - WGA02802.jpg' (730 x 1092 px, PD-Art by age), but (1) its file page sources the Web Gallery of Art, whose terms of use could not be opened (the old pages redirect to a moved site), and Commons also carries a Flickr copy tagged CC BY-SA 2.0 of the same image, so the facts on Commons conflict at the layer of the reproduction; (2) the Fondation Martin Bodmer's own image-use terms could not be opened (fondationbodmer.org returned nothing); and (3) the Commons page for a separate Bodmer item catalogues a version as an anonymous copy after Botticelli, so the attribution and which Bodmer object is meant is unsettled. Next step: open the Fondation Martin Bodmer or Wikidata item Q28497200 page and the Web Gallery of Art terms; if the foundation states no restriction on reproductions of this public-domain painting, download the Commons original (SHA-1 65c855a01cb80fef08b0981fbb164759080d8f69, 730 x 1092) and record it as kind historical_depiction (Botticelli, c. 1495, after-the-sitter portrait); otherwise choose a Commons scan from a national-library manuscript. No portrait file was saved."
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q1067 returned en label 'Dante Alighieri', description 'Florentine poet, writer, and philosopher (c. 1265-1321)', ko label '단테 알리기에리', born 1265, died 1321-09-13/14, kowiki sitelink present; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug dante-alighieri or QID Q1067 in the roster55 worktree. REGION: southern_europe, nationalityCodes IT (Republic of Florence, historical polity; no historicalPolityKey set because the schema's allowed values were not checked). ERA: medieval. VOCABULARY: occupations poet and writer, field literature, tag innovator, archetype creative_creator, impact domains artistic and cultural are existing labelled ids. ZERO POLITICS: his priorate, factional alliances, banishment and the Monarchia are documented facts and appear only as context; exile is mentioned as the place where works were written, and no political activity, amnesty refusal or political treatise content is scored or carded. DECEASED SUBJECT (medieval): no inference from private life, Beatrice, marriage or death; contemporaries' personality remarks (Villani, Boccaccio) were not scored. CANONICAL SIGNIFICANCE SOURCE: Poetry Foundation biography (https://www.poetryfoundation.org/poets/dante-alighieri) and the Stanford Encyclopedia of Philosophy entry (https://plato.stanford.edu/entries/dante/). READ (7 cited non-Wikidata sources including the Commons pages): Poetry Foundation (full), Stanford Encyclopedia (first 100,000 of ~123,000 characters), Princeton Dante Project biography, Treccani De vulgari eloquentia entry (first 100,000 of ~122,000 characters), Treccani Dante entry (Italian, ~30,000 characters, read via keyword passages), Christian History timeline. Blocked or not opened: Britannica (403), the Treccani Vita nuova entry (downloaded but not read), Dante Society of America, the primary works themselves, Boccaccio's and Villani's texts; the Commedia text and any manuscripts were not opened. PERSPECTIVES: poetry institution, university encyclopedia, university digital-humanities project, national encyclopedia (two entries; counted as one perspective), popular church-history magazine. COUNTER-VOICES: Villani's characterisation of him as aloof and presumptuous (not scored), the Treccani doubts on the authenticity of the Eclogues and Questio, the Stanford warning about his self-presentation, and the Poetry Foundation note on waning Renaissance fame. LIMITATIONS: for a 700-year-old subject, behavioural evidence is the documented works and their dating, which differ by source (Commedia begun 1306 or 1307; Vita Nuova 1292-95); no source read gives working habits; sources are retrospective scholarly summaries; hence only four rows, none above 78 or 0.66. SELF-CALIBRATION (agent): the rows reviewed were creative originality (highest score; kept), independent thinking (lowered 72/0.60 to 68/0.52 because its clearest episode depends on texts whose authenticity is doubted) and persistence (already modest at 64/0.50 and dual-edged; left unchanged). One row lowered. No broad scoring problem flagged. PORTRAIT: held; blocker and next step recorded in portrait.reason."
+  }
+}

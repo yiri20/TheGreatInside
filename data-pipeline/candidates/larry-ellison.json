@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "larry-ellison",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Larry Ellison",
+    "aliases": [
+      "Lawrence J. Ellison"
+    ],
+    "wikidataId": "Q92759",
+    "birthYear": 1944,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "technological",
+      "industrial"
+    ],
+    "tagIds": [
+      "founder",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_le_wikidata",
+      "kind": "wikidata",
+      "title": "Larry Ellison (Q92759) -- verified live via the Wikidata API (2026-10-24): English label 'Larry Ellison', description 'American internet entrepreneur and businessman (born 1944)', Korean label '래리 엘리슨', born 17 August 1944, no death date, citizenship United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q92759"
+    },
+    {
+      "id": "src_le_nrc",
+      "kind": "institution",
+      "title": "National Research Council, 'The Rise of Relational Databases', chapter 6 of Funding a Revolution: Government Support for Computing Research (National Academy Press, 1999): the relational database industry as a combination of industrial research, government-funded academic work and commercial competition; IBM's System R and its SQL, Berkeley's Ingres and QUEL; 'Oracle, founded by Larry Ellison, developed and began selling an SQL-compatible product even before IBM had an SQL product in the market', Ellison having learned of SQL through the System R team's publications; IBM compelled to ship SQL/DS by competing vendors; SQL's standardisation over QUEL. CANONICAL SIGNIFICANCE SOURCE. Institutional history of the field written by an outside committee; names Ellison in one passage, so it supports the significance of Oracle's early commercial move rather than any trait beyond it; read in full via local text extraction.",
+      "url": "https://www.nationalacademies.org/read/6323/chapter/8"
+    },
+    {
+      "id": "src_le_commoncog",
+      "kind": "press",
+      "title": "Commoncog Case Library, 'When Databases Were a Hot Technology: The Rise of Oracle' (updated after September 2025, read in full): Ellison's path through Amdahl, Ampex and Omex; the 1977 founding of Software Development Laboratories with Bob Miner and Ed Oates and the 60/20/20 equity split Ellison proposed; the Oates/Miner/Bruce Scott team; a $400,000 bid at a third of the next lowest; the decision to build a relational database from IBM's System R papers for minicomputers; first customer the CIA and the 1979 renaming to Relational Software; cash running short while government payment took six to nine months and salaries being stopped; the rewrite of the database in C (version 3 in 1983) pushed by Scott and backed by Ellison, with feature work frozen for years; building a sales force; competitors Cullinet, Ingres (faster growth in 1984), Sybase (client/server lead, later unforced errors); SQL's adoption as ANSI standard in 1986; the 1986 IPO and Ellison's claim the company would double revenue every year ('a propensity for grandiosity and a penchant for hyperbole'). Analytical business-history essay that states it draws mostly on Matthew Symonds's authorised biography Softwar (so partly Ellison's own account) -- counted as ONE perspective with the Philstar and CBS self-account pieces for behavioural claims; its competitor narrative is the counter-voice.",
+      "url": "https://commoncog.com/c/cases/rise-of-oracle/"
+    },
+    {
+      "id": "src_le_philstar",
+      "kind": "press",
+      "title": "Philippine Star, 'Ellison recounts early days of Oracle', 26 November 2007 (report of Ellison's Oracle OpenWorld keynote): Ellison's own account of the early company -- Ampex and Precision Instruments, the SDL bid, the $48,000 first sale to the CIA and installing it himself, a nine-month wait for payment, the decision to move from consulting to product, and why there was no Version 1. Journalist's report of the subject's own keynote (self-account); the passage in which he says the founders 'made up numbers' on a first balance sheet for a bank loan was read but NOT used for any row (self-told anecdote about financial statements, not independently documented).",
+      "url": "https://www.philstar.com/business/technology/2007/11/26/29693/ellison-recounts-early-days-oracle"
+    },
+    {
+      "id": "src_le_cbs",
+      "kind": "press",
+      "title": "Charlie Rose, 'The World's Most Competitive Man', CBS News 60 Minutes (2003): Ellison on the America's Cup, Oracle as the world's second-biggest software maker behind Microsoft, saying 'I'm addicted to winning', his remark that Microsoft was 'three times bigger than we are', the competition creed he said he took from a Japanese executive ('anything less than 100 percent market share was not enough'), and his account of reading IBM's research and deciding 'we can beat IBM to market with IBM's own technology'. Television news profile built largely on the subject's own interview answers; the family and private-life passages and the yacht-racing and real-estate material were not used (a hobby and a private matter, not documented professional conduct).",
+      "url": "https://www.cbsnews.com/news/the-worlds-most-competitive-man/"
+    },
+    {
+      "id": "src_le_techcrunch",
+      "kind": "press",
+      "title": "TechCrunch, '$45 Billion Later, Larry Ellison Says No Major Acquisitions For Next Few Years', 2 October 2012 (read in full): Oracle spending at least $45 billion on acquisitions since 2004 by the article's count (citing Wikipedia for the figures), the 2004 PeopleSoft purchase for $10.3 billion after a bitter takeover contest that began with a $13 billion bid in 2003, the US Justice Department's suit to block it rejected by a federal judge and the European Commission declining to block it, Ellison reportedly cutting half of PeopleSoft's workforce a month after the deal (per Wikipedia, as the article itself says), later Siebel, Hyperion, BEA, Sun Microsystems, RightNow and Taleo deals, the journalist's remark that the Sun deal led to dismantling its open-source heritage, and Ellison saying on CNBC there would be no major acquisitions for a few years. Tech-press roundup; its figures are second-hand from Wikipedia and its judgments are the writer's; litigation involving Oracle is context only and unscored.",
+      "url": "https://techcrunch.com/2012/10/02/45-billion-later-larry-ellison-says-no-major-acquisitions-for-next-few-years"
+    },
+    {
+      "id": "src_le_ciocloud",
+      "kind": "press",
+      "title": "CIO Insight staff, 'Larry Ellison Sounds Off on Cloud Computing', 26 September 2008: Ellison's remarks at an Oracle financial-analyst meeting that 'we've redefined cloud computing to include everything we currently do', that the industry is 'more fashion-driven than women's fashion' and that cloud talk is 'complete gibberish'. Short news item quoting him verbatim; read in full.",
+      "url": "https://www.cioinsight.com/enterprise-apps/larry-ellison-sounds-off-on-cloud-computing"
+    },
+    {
+      "id": "src_le_dmaverick",
+      "kind": "press",
+      "title": "Sipho Hlongwane, 'Oracle leaps into the cloud game too', Daily Maverick, 7 October 2011: Ellison announcing Oracle's public cloud service at OpenWorld not three years after calling the term 'complete gibberish', describing Oracle's cloud as both platform and application service built on industry standards, and criticising rival cloud providers (calling Salesforce a 'roach motel'); the writer calls him 'famously tactless'. Short South African business-press commentary; a critical reading of the reversal, read in full.",
+      "url": "https://www.dailymaverick.co.za/article/2011-10-07-oracle-leaps-into-the-cloud-game-too/"
+    },
+    {
+      "id": "src_le_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Larry Ellison 2013 (9887589546).jpg' and the Flickr photo page of the Oracle PR account (live check 2026-10-24) -- checked for the portrait: photograph by Oracle PR, taken 23 September 2013, CC BY 2.0.",
+      "url": "https://commons.wikimedia.org/wiki/File:Larry_Ellison_2013_(9887589546).jpg"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_le_nrc, src_le_commoncog, src_le_cbs | 1977-1986 | institutional history + business-history essay + television interview] The National Research Council history says Oracle developed and began selling an SQL-compatible product before IBM had an SQL product on the market, Ellison having learned of SQL from the System R publications; the business-history essay describes the choice to build a commercial relational database for minicomputers where IBM was least entrenched and notes the CIA as first buyer; Ellison himself says he saw that 'we can beat IBM to market with IBM's own technology'. An independent institutional statement and an analytic essay agree on the timing, while the motive comes from his own account, so documented at a moderate confidence."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_le_commoncog, src_le_nrc, src_le_philstar | 1977-1983 | business-history essay + institutional history + keynote report] The essay says co-founder Miner thought the relational strategy risky and left the decision to Ellison, that Oracle took a loan rather than venture equity and chose to rewrite the database in C over about five years, pausing new features, and that most pundits doubted relational databases were fast enough; the National Research Council places Oracle's SQL product ahead of IBM's. The bets are documented, but the rewrite and equity decisions and Ellison's explanation come largely from his own biography, so a moderate confidence."
+    },
+    "competitiveness": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_le_cbs, src_le_techcrunch, src_le_dmaverick, src_le_commoncog | 1980s-2011 | television interview + tech press + business-history essay] Ellison told 60 Minutes 'I'm addicted to winning' and described a market-share creed of '100 percent'; the tech press recounts the contested 2003-2004 PeopleSoft bid and a series of later acquisitions (about $45 billion since 2004 by that article's count) and the cloud-unveiling jibes at Salesforce; the essay notes the database contest with Cullinet, Ingres and Sybase. Documented rivalry but the key statements are his own and the PeopleSoft details are second-hand, and the style drew critical comment, hence dual-edged. SELF-CALIBRATION (agent): first-pass 72 / 0.55 lowered to 66 / 0.48 because the strongest quotes are self-description and the acquisition facts reach this source only through a TechCrunch summary of Wikipedia."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_le_commoncog, src_le_techcrunch, src_le_cbs | 1977-2012 | business-history essay + tech press + television interview] The essay describes Ellison as president from the start, proposing the 60/20/20 equity split, acting as chief evangelist and building a sales force as the company grew; the tech press describes him running the company through a decade of large acquisitions; 60 Minutes calls Oracle the world's second biggest software maker. Sustained executive control is documented, but the sources do not describe how he led people, and the equity-split and sales-force details derive from his authorised biography, so a moderate-low confidence."
+    },
+    "adaptability": {
+      "score": 50,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_le_ciocloud, src_le_dmaverick, src_le_commoncog | 1983-2011 | news items + business-history essay] In September 2008 he called cloud computing 'complete gibberish' and said Oracle would change little beyond some advertising wording; in October 2011 he announced Oracle's own public cloud service, which the Daily Maverick writer notes came not three years later; the essay records an earlier shift when the database was rewritten for portability and when the company moved from consulting to product. A real course change with a late start, shown by two news items and a critical commentary, hence a mid score with dual-edged impact and low confidence."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_le_commoncog, src_le_philstar | 1977-1980 | business-history essay + keynote report] The essay says SDL won a subcontract with a bid a third of the next lowest, funded itself without venture equity, and stopped paying some salaries, starting with Ellison's, when government payment lagged six to nine months; Ellison's keynote repeats the first CIA sale and the nine-month wait. Both sources trace to Ellison's own account (the essay draws on his authorised biography), so one perspective; confidence capped accordingly."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "래리 엘리슨"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/larry-ellison-oracle-pr-2013.jpg",
+    "width": 1200,
+    "height": 797,
+    "source": "Wikimedia Commons, 'Larry Ellison 2013 (9887589546).jpg' -- photograph of Larry Ellison on stage, published by the Oracle PR account on Flickr ('Larry Ellison on Stage'), taken 23 September 2013; CC BY 2.0 on both the Flickr page (live check 2026-10-24 shows 'CC BY 2.0', taken 23 September 2013, owner Oracle PR) and the Commons page (flickrreview by File Upload Bot, 10 January 2014). Original 4288 x 2848 pixels (1,848,707 bytes, SHA-1 of the downloaded original d74c89e82c7b035c7c961632359db2c3db7f815e); stored file downscaled once to 1200 x 797, no crop, never upscaled. Caveats: the individual photographer is not named (credit is to the company's PR account, which published it under the licence); the licence rests on the Flickr owner's CC BY 2.0 and the bot review, not on an additional institutional statement. Alternatives not used: the January 2016 'Larry Ellison picture' PNG (Oracle PR Hartmann Studios, Flickr source dated 2010, no licence review on the Commons page) and White House images from 2025 (a politically themed event).",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Oracle PR, 2013, CC BY 2.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Larry_Ellison_2013_(9887589546).jpg",
+    "creator": "Oracle PR",
+    "date": "2013-09-23",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Larry_Ellison_2013_(9887589546).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q92759 returned en label 'Larry Ellison', description 'American internet entrepreneur and businessman (born 1944)', ko label '래리 엘리슨', born 1944-08-17, no death date, citizenship United States, P18 'Larry Ellison picture.png'. SLUG/QID CHECK: no data-pipeline candidate or src file for slug larry-ellison or QID Q92759. REGION: north_america. VOCABULARY: occupations entrepreneur, executive; fields business, technology; tags founder, strategist; archetypes entrepreneurial_builder, organizational_leader are existing labelled ids. ZERO POLITICS: political donations, surveillance/national-ID advocacy (seen in a Gizmodo piece, which was read and deliberately NOT cited), government-relations and any campaign involvement are not scored or carded; the CIA is mentioned only as Oracle's first customer. LIVING SUBJECT: public documented business conduct only. Excluded: marriages and family, health, the yacht-racing and real-estate hobbies and spending, philanthropy, the 1990 revenue-recognition restatement and SEC settlement (a company matter reported only through low-quality summaries, not opened), litigation including Oracle v. Google (context only), the founders' 'made up numbers' anecdote. CANONICAL SIGNIFICANCE SOURCE: National Research Council, Funding a Revolution (1999), chapter 6 (https://www.nationalacademies.org/read/6323/chapter/8; read in full via local text extraction; note it is a brief mention of Ellison inside a field history). READ (8 cited non-Wikidata sources): NRC chapter, Commoncog essay (full), Philstar keynote report (full), CBS 60 Minutes profile (read ~6,500 of 8,800 characters), TechCrunch roundup (full), CIO Insight (cloud quote), Daily Maverick (cloud reversal), plus the Commons/Flickr page for the portrait. All but the NRC and TechCrunch pieces were read as locally extracted text. Not opened or blocked: Mike Wilson's 'The Difference Between God and Larry Ellison', Matthew Symonds's 'Softwar' (reached only through the Commoncog essay, so its authorised-biography account is second-hand), Britannica (403), eWeek (403), the Smithsonian oral history, Computer History Museum (404), Business Insider (read but not cited; summarises other outlets), the Forbes 1999 article (turned out to concern Sybase, not cited). PERSPECTIVES: institutional field history (NRC), business-history analysis (Commoncog), tech and business press (TechCrunch, CIO Insight, Daily Maverick), and Ellison's own account (Philstar keynote, CBS interview). The Commoncog essay, the Philstar report and the CBS interview all trace largely to Ellison's own narration, so they count as ONE perspective for behaviour; the independent behavioural support is the NRC statement on SQL timing, the TechCrunch acquisition record and the 2008/2011 cloud reports. COUNTER-VOICES: Commoncog on competitors (Ingres faster growth, Sybase client/server lead, 'grandiosity and hyperbole'), TechCrunch on a bitter takeover and the dismantling of Sun's open-source heritage, Daily Maverick on the cloud reversal and 'famously tactless'. SELF-CALIBRATION: reviewed competitiveness (lowered, see row), risk_tolerance (kept at 62 / 0.48: already priced for self-sourcing) and leadership_drive (kept: low confidence already). Sparse rows by design; no row on persuasiveness, autonomy or decisiveness because the only support is Ellison's own recollection. PORTRAIT: Oracle PR CC BY 2.0 photograph, see portrait.source."
+  }
+}

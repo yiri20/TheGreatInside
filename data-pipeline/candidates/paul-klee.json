@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "paul-klee",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Paul Klee",
+    "aliases": [],
+    "wikidataId": "Q44007",
+    "birthYear": 1879,
+    "deathYear": 1940,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE",
+      "CH"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "artist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "art",
+      "education"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "innovator",
+      "independent",
+      "theorist"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_klee_wikidata",
+      "kind": "wikidata",
+      "title": "Paul Klee (Q44007) -- verified live via the Wikidata API (2026-10-24): English description 'German-Swiss artist (1879-1940)' (no English label is set; German description 'deutsch-schweizerischer Maler und Grafiker (1879-1940)'), Korean label '파울 클레', born 18 December 1879 (an 18 February value is also recorded), died 29 June 1940 (a 29 May value is also recorded), citizenship Germany and Switzerland, two P18 images. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q44007"
+    },
+    {
+      "id": "src_klee_zpk",
+      "kind": "institution",
+      "title": "'Paul Klee' biography and timeline, Zentrum Paul Klee, Bern (the museum and research centre that holds the largest collection of his work): says he followed the trends of his time with great interest but developed an independent position and never joined any art movement; timeline of study in Munich, the Italian trip and a creative crisis, the Blue Rider circle in 1911, Paris 1912, Tunisia 1914, appointment to the Weimar Bauhaus in October 1920 by Walter Gropius and teaching from 1921, the move to Dessau, Egypt 1928, the 1931 move to the Dusseldorf Academy, 1933 dismissal and return to Bern, and 1253 works registered in 1939. CANONICAL SIGNIFICANCE SOURCE (with Britannica). Read in full from the saved page; the institution's own narrative, admiring; the entries on illness and naturalisation were not used.",
+      "url": "https://www.zpk.org/en/paul-klee-biography"
+    },
+    {
+      "id": "src_klee_peggy",
+      "kind": "institution",
+      "title": "'Paul Klee', artist page, Peggy Guggenheim Collection, Venice: born into a family of musicians, his love of music 'always to remain profoundly important'; studied in Munich 1898-1901; Blue Rider 1912; Paris 1912; 'colour became central to his art only after' the Tunisia trip of 1914; Bauhaus faculty from 1920, teaching at Weimar 1921-26 and Dessau 1926-31, in close contact with Kandinsky and Feininger; the Blue Four of 1924; Dusseldorf from 1931; forced out in 1933. Read in full from the saved page. Museum biography, brief and admiring; it dates his arrival in Bern to 1934 whereas the Zentrum Paul Klee has the end of 1933.",
+      "url": "https://www.guggenheim-venice.it/en/art/artists/paul-klee/"
+    },
+    {
+      "id": "src_klee_britannica",
+      "kind": "biography",
+      "title": "'Paul Klee', Encyclopaedia Britannica (article by Marcel Franciscono, University of Illinois, author of 'Paul Klee, 1879-1940: His Life and Work'), read through an Internet Archive copy that stops before the Bauhaus years: calls him one of the foremost artists of the twentieth century; trained musicians as parents, a gifted violinist who played occasionally in the Bern orchestra 1903-06; diaries kept 1897-1918; his 'sardonic' attitude and gift for caricature; first etchings Inventions 1903-05 and a debut in 1906 that was largely ignored; livelihood from reviews, teaching and illustration while his wife gave piano lessons; learning of modern French art 1905-09; the Blue Rider circle, with 'only limited tolerance' for Kandinsky's mysticism; Cubism and children's art as sources, his taste for the farcical and sublime held together by rigorous composition. CANONICAL SIGNIFICANCE SOURCE (with the Zentrum Paul Klee). Later sections (Bauhaus, legacy) were not in the copy.",
+      "url": "https://www.britannica.com/biography/Paul-Klee"
+    },
+    {
+      "id": "src_klee_ludorff",
+      "kind": "biography",
+      "title": "'Paul Klee: Curriculum vitae', Galerie Ludorff, Dusseldorf (a commercial gallery's detailed chronology, English text), read in full: from 1911 he recorded his works in a handwritten catalogue and 'will keep meticulous records' until shortly before his death; appointed to the Bauhaus on 29 October 1920 and starting on 13 May 1921 as master of form in the bookbinding workshop; head of the metal workshop after Itten in 1922, then the stained-glass workshop; the 1923 essay on ways of studying nature; the Pedagogical Sketchbook of 1925 as Bauhaus Book 2; from 1927 the free painting class and design for the weavers; the 1928 essay 'exact experiments in the realm of art'; Dusseldorf professor from 1 July 1931; loss of the post in January 1933 and emigration on 24 December 1933. Commercial source; chronology rather than analysis, so used for dated facts only.",
+      "url": "https://www.ludorff.com/en/artists/paul-klee/cv"
+    },
+    {
+      "id": "src_klee_artstory",
+      "kind": "press",
+      "title": "Julia Brucker, 'Paul Klee Artist Overview and Analysis', The Art Story (non-profit art-education website, content compiled with a bibliography of scholarly books), read in full from the saved page: Klee as an artist who 'constantly experimented' with technique and colour, applying paint by spraying and stamping at the Bauhaus and painting on burlap, cardboard and muslin; the oil-transfer drawing method of The Twittering Machine (1922); his admiration for children's art; violin practice as a warm-up before painting; Bauhaus workshops in bookbinding and stained glass and his lectures on form theory, in which he compared the visual rhythm of drawings to Bach's counterpoint. Secondary, editor-written overview; the passages on the 1918 revolutionary artists' committee, illness and politics were not used.",
+      "url": "https://www.theartstory.org/artist/klee-paul/"
+    },
+    {
+      "id": "src_klee_tate",
+      "kind": "institution",
+      "title": "'Klee' exhibition note by Rolf Burgi (December 1945 to February 1946), Tate Britain exhibition page: short biographical text by the collector who supported Klee's widow, saying that Klee found no understanding for his work in his early years but 'was not deterred from following his own line', that he was called to the Bauhaus in 1920, moved to Dessau in 1926 and became a professor at Dusseldorf in 1932, and 'resigned' in 1933. Read in full from the saved page. Posthumous exhibition text by a friend; it conflicts with the Zentrum Paul Klee and Ludorff on the Dusseldorf date (1932 against 1931) and on resignation against dismissal, so only the 'own line' remark is used.",
+      "url": "https://www.tate.org.uk/whats-on/tate-britain/paul-klee"
+    },
+    {
+      "id": "src_klee_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Paul Klee by Hugo Erfurth, 1927.jpg', 'Paul Klee by Hugo Erfurth, 1922.jpg', 'Paul Klee 1911.jpg' and 'Paul Klee, 1916.jpg' (read through the Commons API, wikitext and metadata) and the Centre Pompidou's artist page for Klee -- checked for the portrait; no file was adopted, see portrait.reason.",
+      "url": "https://commons.wikimedia.org/wiki/Category:Portraits_of_Paul_Klee"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_klee_zpk, src_klee_britannica, src_klee_artstory | 1903-1930s | museum biography + encyclopedia + art-education overview] The Zentrum Paul Klee says he developed an independent position and never joined a movement; Britannica says his varied influences gave a 'freedom of expression and a willfulness of style equaled by few other artists of the time' and describes a distinctive union of the farcical and the sublime, with letters and signs turned into objects; The Art Story describes the invented use of signs and the oil-transfer drawing method. The judgments are retrospective and admiring, so this is a strong inference at moderate confidence."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_klee_artstory, src_klee_britannica, src_klee_ludorff | 1911-1928 | art-education overview + encyclopedia + gallery chronology] The Art Story documents spraying and stamping paint at the Bauhaus, the oil-transfer technique of The Twittering Machine and painting on burlap, cardboard and muslin; Britannica reports he joined Cubist geometry to children's art; the gallery chronology lists his 1928 essay on 'exact experiments in the realm of art'. The technical specifics rest chiefly on one secondary overview, so confidence is moderate."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_klee_zpk, src_klee_britannica, src_klee_tate | 1906-1912 | museum biography + encyclopedia + exhibition note] The Zentrum Paul Klee says he followed trends with interest yet kept an independent position and joined no movement; Britannica says that within the Blue Rider circle he had only limited tolerance for Kandinsky's mysticism while learning from him how far abstraction could go; the Tate note by a friend says he was not deterred from his own line when his early work found little understanding. Mostly characterisations, with one concrete disagreement with a colleague."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_klee_ludorff, src_klee_zpk | 1911-1940 | gallery chronology + museum biography] The gallery chronology states that from 1911 he recorded each of his works in a handwritten catalogue and kept meticulous records until shortly before his death; the Zentrum Paul Klee's registration of 1253 works for 1939 reflects that record. The practice is documented but the detail rests mainly on a single commercial chronology, so the score is a moderate lean."
+    },
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_klee_britannica, src_klee_peggy, src_klee_ludorff, src_klee_zpk | 1897-1931 | encyclopedia + museum biography + gallery chronology + museum biography] Britannica reports he was a gifted violinist who played in the Bern orchestra for three years, wrote poetry and plays as a youth, kept diaries, wrote exhibition and concert reviews and illustrated books; the Peggy Guggenheim Collection says music remained profoundly important to his work; the gallery chronology lists teaching bookbinding, metalwork, stained glass, free painting and design for weavers at the Bauhaus. Several fields are directly documented."
+    },
+    "curiosity": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_klee_zpk, src_klee_britannica, src_klee_peggy | 1905-1928 | museum biography + encyclopedia + museum biography] Britannica says he set out to remedy his relative ignorance of modern French art in 1905-09 and, from the timeline, visited Paris in 1905 and 1912, Tunisia in 1914 and Egypt in 1928, trips that the Zentrum Paul Klee says deepened abstraction and left their mark on his work. The trips are documented, but no source says what drove them, so the lean is mild and the confidence only 0.5."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_klee_ludorff, src_klee_artstory | 1923-1928 | gallery chronology + art-education overview] The chronology lists his 1923 essay on ways of studying nature, the 1925 Pedagogical Sketchbook and the 1928 essay on exact experiments in art; The Art Story reports Bauhaus lectures on form theory that compared the rhythm of drawings to Bach's counterpoint. SELF-CALIBRATION (agent): first-pass 68 / 0.58 lowered to 64 / 0.50 because the support is publication titles plus one secondary summary of lectures, and no source read describes the content of the teaching notebooks themselves."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "파울 클레"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear lifetime photograph could be confirmed within the bounded retry. Candidates on Commons: (1) 'Paul Klee by Hugo Erfurth, 1927.jpg' (1432 x 1960; creator Hugo Erfurth, who died in 1948, so out of copyright in the EU since 2018; Commons tag PD-old-auto-expired; source cited as the Bauhaus Kooperation 'Koepfe' page for Klee, which could not be opened because its redirect is malformed and the archive copy returned 404); (2) 'Paul Klee by Hugo Erfurth, 1922.jpg' (3150 x 4000; source cited as a blog and the Centre Pompidou's general artist page, which documents no print of the photograph); (3) 'Paul Klee 1911.jpg' (Alexander Eliasberg, died 1924, cited from a 1999 Jena book, page 91; 764 x 1056). Blockers: the creator and date are asserted by the uploader and the cited institutional page could not be read, no institution print record was found, and US publication status of the photographs is not documented. Next step: open the Bauhaus Kooperation page or a Centre Pompidou / Zentrum Paul Klee print record to confirm Erfurth's credit, date and any rights statement, then download the 1927 file (kept below 1200 px on the long side by downscaling only) and set kind 'likeness'; or confirm the Eliasberg 1911 print in the cited book. No image file was saved.",
+    "kind": "likeness"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q44007 returned no English label (en description 'German-Swiss artist (1879-1940)', de description 'deutsch-schweizerischer Maler und Grafiker (1879-1940)'), ko label '파울 클레', born 1879-12-18 (and a 1879-02-18 value), died 1940-06-29 (and a 1940-05-29 value), citizenship Germany and Switzerland, P18 'Paul Klee 1911.jpg' and 'Paul Klee by Hugo Erfurth, 1922.jpg'; the lead's hint was correct and the person is unambiguous. SLUG/QID CHECK: no candidate, production or src file for slug paul-klee or QID Q44007. REGION: central_europe (Kandinsky candidate is central_europe with nationalities RU, DE, FR; Klee's career base was Munich, Weimar, Dessau, Dusseldorf and then Bern; nationalities DE and CH recorded, since the Zentrum Paul Klee and Britannica both describe German nationality by his father's citizenship). ERA 20th_century. VOCABULARY: occupations painter, artist and teacher, fields art and education, tags innovator, independent and theorist, archetype creative_creator are existing ids with EN/KO labels. ZERO POLITICS: nothing political is scored or carded; the 1933 dismissal, the 'degenerate art' labelling, a 1918 revolutionary artists' committee post (The Art Story) and his 1916 military service are excluded from rows. NO ILLNESS INFERENCE: his illness is not used for any row or card; the 1939 output figure appears only as a recorded count, not as a trait claim. DECEASED SUBJECT: marriage, family and religion excluded. CANONICAL SIGNIFICANCE SOURCES: Zentrum Paul Klee biography and Britannica (Franciscono; Internet Archive copy, direct fetch 403, ends before the Bauhaus years). READ: Zentrum Paul Klee, Peggy Guggenheim Collection, Ludorff, The Art Story and the Tate Britain note (all read in full as saved page text), Britannica (partial archive copy). Not opened or blocked: MoMA artist page (403), Tate artist page (404), Metropolitan Museum essay (429), Bauhaus Kooperation / Bauhaus100 page (malformed redirect), National Galleries of Scotland (403), the Zentrum Paul Klee's teaching-notebook pages (not found), Klee's own diaries and Pedagogical Sketchbook (not opened, so the rows describe publications by title only). PERSPECTIVES: a research museum, a second museum, a reference encyclopedia by a Klee specialist, a commercial gallery chronology, an art-education overview, and a friend-collector's posthumous exhibition note. COUNTER-VOICES: Britannica (ignored debut, sardonic caricature judged too idiosyncratic, limited tolerance for Kandinsky), the Tate note's conflict with the other sources on the Dusseldorf date and on resignation versus dismissal, the Peggy Guggenheim page's date for Bern. Non-independence: the gallery chronology and the museum timeline overlap on dates. Self material: none used directly. Sparse by design: seven rows; no row for discipline, perfectionism or conflict handling because the sources read do not document them. SELF-CALIBRATION (agent): reviewed creative_originality (kept 76/0.6: retrospective praise but already a strong inference with three sources), detail_orientation (kept 68/0.52: single-chronology dependence already reflected in the confidence) and systems_abstraction (lowered 68/0.58 to 64/0.50, see row). PORTRAIT: HELD, see portrait.reason."
+  }
+}

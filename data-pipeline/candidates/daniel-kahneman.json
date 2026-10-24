@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "daniel-kahneman",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Daniel Kahneman",
+    "wikidataId": "Q233950",
+    "birthYear": 1934,
+    "deathYear": 2024,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["IL", "US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["scientist", "economist"],
+    "fieldIds": ["psychology"],
+    "impactDomains": ["scientific", "educational"],
+    "tagIds": ["theorist", "nobel_laureate"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kahneman_wikidata",
+      "kind": "wikidata",
+      "title": "Daniel Kahneman (Q233950) -- verified live via the Wikidata API (2026-10-24): English label 'Daniel Kahneman', description 'Israeli-American psychologist and economist (1934-2024)', born 1934-03-05, died 2024-03-27, P18 image 'Daniel Kahneman (3283955327) (cropped).jpg' used only as a portrait lead. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q233950"
+    },
+    {
+      "id": "src_kahneman_nobel_facts",
+      "kind": "award_body",
+      "title": "Nobel Prize Outreach, 'Daniel Kahneman - Facts', Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2002 (nobelprize.org), read in full: born Tel Aviv, British Mandate of Palestine, 5 March 1934; affiliation at the time of the award Princeton University; prize motivation 'for having integrated insights from psychological research into economic science, especially concerning human judgment and decision-making under uncertainty'; PhD University of California 1961; his research from the late 1960s drew on cognitive psychology to understand how people make economic decisions and led to prospect theory. The page's family, marriage and bereavement lines were not used.",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/facts/"
+    },
+    {
+      "id": "src_kahneman_nobel_press",
+      "kind": "award_body",
+      "title": "Royal Swedish Academy of Sciences press release, 9 October 2002, Prize in Economic Sciences 2002 (nobelprize.org), read in full: Kahneman 'integrated insights from psychology into economics, thereby laying the foundation for a new field of research'; showed that human decisions may systematically depart from standard economic theory; with Amos Tversky (deceased 1996) formulated prospect theory; discovered heuristic shortcuts in judgment that depart from basic probability principles; Eugene Higgins Professor of Psychology and Professor of Public Affairs at Princeton since 1993. CANONICAL SIGNIFICANCE SOURCE. Institutional and celebratory by nature.",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/press-release/"
+    },
+    {
+      "id": "src_kahneman_nobel_autobiography",
+      "kind": "award_body",
+      "title": "Daniel Kahneman, Nobel Prize autobiography (nobelprize.org, 'Biographical'), professional passages read in full: 1954-56 psychology-branch work on officer-candidate assessment, where he noted that the group-exercise ratings had negligible predictive validity and coined the 'illusion of validity'; restructuring the recruit-interview system (structured ratings plus a global rating, validity rising from about .10 to about .30); study at Hebrew University (psychology, maths minor) and Berkeley (PhD 1961), reading Freud's chapter 7 with David Rapaport; the origins of the hindsight and intuitive-prediction questions he later studied with Tversky. SELF-TESTIMONY: used only with independent support, never as sole evidence. His account of family, childhood, wartime experience and military-unit service life was not used for scoring.",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/kahneman/biographical/"
+    },
+    {
+      "id": "src_kahneman_ubc",
+      "kind": "institution",
+      "title": "University of British Columbia Department of Psychology, 'In Memoriam: Dr. Daniel Kahneman' (psych.ubc.ca), read in full: joined UBC Psychology in 1978; worked with Amos Tversky and their collaboration led to prospect theory; colleagues credit the work with founding judgment and decision-making as a field and reshaping economics; Peter Suedfeld recalls the couple as popular teachers, mentors and dedicated members of the department and says Kahneman accepted research and teaching as equally important; Jiaying Zhao recalls his sharp critical mind, very high standards for evidence and his frequent 'I still don't believe it' about study results; Luke Clark calls the work 'absolutely foundational' for the psychology of risk and choice; his book Noise discussed at a 2019 UBC colloquium. Departmental tribute: affectionate by nature.",
+      "url": "https://psych.ubc.ca/?p=37875"
+    },
+    {
+      "id": "src_kahneman_undoing_review",
+      "kind": "press",
+      "title": "Gregory Bonn, review of Michael Lewis's 'The Undoing Project', Frontiers in Psychology (Cognition), 2017 (frontiersin.org), read in full: Lewis's account of the Kahneman-Tversky partnership; their work on cognitive biases (availability heuristic, anchoring and adjustment, base-rate fallacy, prospect theory, loss aversion) changed views of rationality underpinning economic and decision theory; Kahneman challenged Tversky's mathematical framing by holding that people decide from impressions, while Tversky pushed him in turn; applications in medicine, policy (Nudge) and finance. Positive scholarly review. The review's remarks about the pair's later personal relationship were not used. The book itself was not opened.",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.02211/full"
+    },
+    {
+      "id": "src_kahneman_nature_letter",
+      "kind": "press",
+      "title": "3 Quarks Daily, repost (5 October 2012) of Ed Yong's Nature news story on Daniel Kahneman's open email to social-priming researchers (3quarksdaily.com), read in full: Kahneman, calling himself a 'general believer' in priming, warned of a 'train wreck looming' from failed replications and fraud cases (Stapel, Smeesters, Sanna), called the field the 'poster child' for doubts about research integrity, and proposed a 'replication ring' in which priming labs would check each other's results. The original Nature article and the letter PDF were not read (the PDF is not machine-readable); this is a repost of a news report, so it is reported rather than first-hand.",
+      "url": "https://3quarksdaily.com/?p=20713"
+    },
+    {
+      "id": "src_kahneman_mindhacks",
+      "kind": "press",
+      "title": "Tom Stafford, 'How replicable are the social priming studies in Thinking, Fast and Slow?', Mind Hacks, 16 February 2017 (mindhacks.com), read in full: Schimmack, Heene and Kesavan's R-Index reanalysis of Chapter 4 reports 11 of 12 cited articles with R-Index below 50 and argue the chapter's studies should not be taken as scientific evidence; Kahneman's reply in the blog's comments says the critique was 'absolutely right' that he 'placed too much faith in underpowered studies' and that he had 'changed my views about the size of behavioral priming effects'. COUNTER-VOICE. The reanalysis itself is from replication-reform advocates and is not independently verified by the post; the original reanalysis and Kahneman's comment were not opened.",
+      "url": "https://mindhacks.com/2017/02/16/how-replicable-are-the-social-priming-studies-in-thinking-fast-and-slow/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kahneman_nobel_press, src_kahneman_ubc, src_kahneman_undoing_review | 1960s-1980s | Nobel committee + departmental tribute + scholarly review] The Academy says he laid the foundation for a new field by showing decisions systematically depart from standard economic theory, and with Tversky formulated prospect theory and the heuristics findings; UBC colleagues call the work foundational for the psychology of risk and choice; the Frontiers review lists availability, anchoring and loss aversion. Originality is well documented by three different kinds of source, but all are admiring, and the priming critique concerns a later chapter, not this body of work."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kahneman_nobel_press, src_kahneman_nobel_facts, src_kahneman_undoing_review | 1970s-2002 | Nobel committee + scholarly review] A psychologist awarded the economics prize 'for having integrated insights from psychological research into economic science'; holder of a Princeton chair in psychology and public affairs; the review lists applications in medicine, policy and finance. Breadth is documented in the prize citation itself, while the applications to other fields are mostly by others building on his work."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kahneman_nobel_press, src_kahneman_ubc, src_kahneman_undoing_review | 1969-1996 | Nobel committee + departmental tribute + scholarly review] The Nobel release credits prospect theory and the heuristics findings to Kahneman together with Tversky; the Frontiers review of Lewis describes a decades-long working partnership in which each challenged the other's framing; UBC records the collaboration at the university and describes him as a dedicated member of the department. The partnership is documented from three directions, but the quality of day-to-day collaboration rests on one book review of a book not opened."
+    },
+    "belief_updating": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kahneman_nature_letter, src_kahneman_mindhacks, src_kahneman_ubc | 2012-2017 | news report + blog post reporting his own words + colleague tribute] In 2012 he wrote to priming researchers warning of a 'train wreck' and urging a replication ring; in 2017 he replied to a critique of Chapter 4 of Thinking, Fast and Slow that it was right that he placed too much faith in underpowered studies and that he had changed his views on the size of priming effects; a UBC colleague recalls his habit of saying 'I still don't believe it' about study results. Both episodes reach us through secondary reports (the Nature piece via a repost, the 2017 comment via a blog), and the 2012 letter also shows continuing partial belief in priming."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_kahneman_ubc, src_kahneman_nobel_autobiography, src_kahneman_mindhacks | 1950s-2017 | departmental tribute + self-account + critical blog] A colleague recalls very high standards for evidence; in his own account he recognised that officer ratings had negligible predictive validity and moved to structured interviewing with higher validity; against this, a reanalysis he himself accepted found the priming chapter relied on underpowered studies. The row is dual-edged and modest because the strongest support is self-testimony and the counter-evidence is a real lapse in a widely read book."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "대니얼 카너먼"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear, identity-verified portrait confirmed. (1) Commons 'Daniel Kahneman (3283955327).jpg' (Flickr account nrkbeta, 27 January 2009, 1280 x 853; Wikidata P18 uses its crop) is tagged CC BY-SA 2.0 and passed FlickreviewR, but the Flickr page's own description states CC BY-SA 3.0 Norway (a version mismatch between the photo text and the review), and the Flickr page does not name the sitter; identity rests on the Commons uploader's categorisation, with only a Britannica Kids page crediting NRKbeta beside a Kahneman image as weak corroboration. (2) Commons 'Prof. Daniel Kahneman and Prof. Maya Bar Hillel.jpg' (own work by Ohadinbar, 12 June 2014, CC BY-SA 3.0, 1392 x 1032) has a clear self-license but is a distant two-person stage shot in which the sitter is small, so it is not a usable portrait. Next step: lead decides whether to accept the nrkbeta photo (both licence statements are CC BY-SA, same creator) after confirming the sitter with the NRKbeta archive, or source an institution-issued portrait with stated terms."
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: the lead's hint was not given for this slug; Wikidata wbsearchentities then wbgetentities (2026-10-24) for Q233950 returned en label 'Daniel Kahneman', description 'Israeli-American psychologist and economist (1934-2024)', born 1934-03-05, died 2024-03-27. SLUG/QID CHECK: no candidate file or src/data/people entry for daniel-kahneman or Q233950 in the roster55 worktree. REGION: north_america, following the career-base precedent (Geoffrey Hinton, Fei-Fei Li; counter-precedent Tesla and von Neumann use birth region): born in Tel Aviv, but he did his PhD at Berkeley, taught at Hebrew University only 1961 to about 1977, then UBC, Berkeley and Princeton, where he held his chair at the time of the prize and lived thereafter; nationalities IL and US. The lead may flip to west_asia. VOCABULARY: occupations scientist and economist, field 'psychology' (used by jean-piaget and others in the repo but with NO field.psychology label in src/core/i18n/en.ts or ko.ts, so this is a REPORTED GAP, not an invented id; no occupation psychologist label exists either), impact domains scientific/educational, tags theorist and nobel_laureate, archetype scientific_explorer exist with labels. ZERO POLITICS: not applicable. STRICT EXCLUSIONS: no inference from family, bereavement, childhood wartime experience, marriages, his 1950s military-unit service life (only the psychology-branch assessment work is used, as professional work), or the circumstances of his death, none of which is used in any row, card or moment. CANONICAL SIGNIFICANCE SOURCE: Royal Swedish Academy of Sciences press release 2002 (nobelprize.org). READ (7 cited non-Wikidata sources): Nobel Facts, Nobel press release, Nobel autobiography (self), UBC In Memoriam, Frontiers review of Lewis's The Undoing Project, 3QD repost of Nature news story on the 2012 priming letter, Mind Hacks post on the 2017 priming reanalysis. PERSPECTIVES: Nobel committee, university colleagues, scholarly book review, replication-reform critique, his own words as reported. NOT opened: The Undoing Project itself, Thinking Fast and Slow, the Nature article and letter PDF, the Schimmack reanalysis, Gigerenzer-style critiques of the heuristics-and-biases programme, Princeton and NYT obituaries (403/Cloudflare). Counter-voice: the priming reanalysis and Kahneman's reply. PORTRAIT: HELD, see portrait.reason. SELF-CALIBRATION (agent): reviewed creative_originality 80/0.66, belief_updating 76/0.6 and analytical_rigor 68/0.56 as the highest-risk rows; no row lowered, because belief_updating is already capped by its secondary-report dependence and analytical_rigor is already dual-edged and modest; creative_originality is corroborated by three source types."
+  }
+}

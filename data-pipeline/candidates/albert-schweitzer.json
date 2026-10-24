@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "albert-schweitzer",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Albert Schweitzer",
+    "wikidataId": "Q49325",
+    "birthYear": 1875,
+    "deathYear": 1965,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR",
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "theologian",
+      "philosopher",
+      "musician"
+    ],
+    "fieldIds": [
+      "medicine",
+      "religion",
+      "philosophy",
+      "music"
+    ],
+    "impactDomains": [
+      "medical",
+      "social",
+      "cultural"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "polymath",
+      "career_changer"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_schweitzer_wikidata",
+      "kind": "wikidata",
+      "title": "Albert Schweitzer (Q49325) -- verified live via the Wikidata API (2026-10-24): English label 'Albert Schweitzer', description 'French-German physician, theologian, musician, and philosopher (1875-1965)', born 1875-01-14, died 1965-09-04, nationalities Germany and France, Korean label '알베르트 슈바이처'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q49325"
+    },
+    {
+      "id": "src_schweitzer_nobel",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Albert Schweitzer - Biographical' (nobelprize.org, written at the time of the 1952 Peace Prize award), read in full: Alsatian family of ministers, teachers and organists; doctorate in philosophy 1899 (Kant) and theology licentiate 1900 at Strasbourg; The Quest of the Historical Jesus (1906) on which 'much of his fame as a theological scholar rests'; internationally recognised concert organist who funded his medical schooling and hospital with his engagements; a Bach biography (1905, rewritten in German 1908) and a book on organ building (1906); MD 1913 and founding of the Lambaréné hospital; internment 1917-18; return in 1924, hospital expanded to seventy buildings and over 500 patients; the prize money (withheld in 1952, presented December 1953) used to start a leprosarium. CANONICAL SIGNIFICANCE SOURCE. Award-body biography, admiring and contemporary.",
+      "url": "https://www.nobelprize.org/prizes/peace/1952/schweitzer/biographical/"
+    },
+    {
+      "id": "src_schweitzer_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'Schweitzer, Albert (1875-1965)' (reference entry on philosopher, theologian, musicologist and humanitarian physician, with a companion entry on his ethics), read in full: ability to excel in philosophy, theology and music before choosing medicine; his Quest of the Historical Jesus 'devastated the reputation of many predecessors' by arguing that earlier lives of Jesus projected their own liberal ideals, and found a permanent place in biblical criticism; the reverence-for-life idea that came to him on the Ogooué river in 1915; the hospital administration described as 'often arbitrary, patriarchal, and paternalistic' and his attitude toward Africans as condescending to the point of being called racist by critics, yet he gained and held credentials by serving the suffering; points to the Marshall and Poling and Brabazon biographies, which were NOT opened. Independent reference writing, mixed in tone.",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/protestant-christianity-biographies/albert-schweitzer"
+    },
+    {
+      "id": "src_schweitzer_centre_organist",
+      "kind": "institution",
+      "title": "Albert Schweitzer Centre (Maison Albert Schweitzer, Günsbach), 'The organist' timeline page (schweitzer.org, text by Benoit Wirrmann, Les Saisons d'Alsace, February 2013), read in full: teachers Eugene and Ernest Munch, Charles-Marie Widor and Marie Jaell; the 450-page 1905 Bach book 'J.S. Bach, le musicien-poete' and the almost twice-as-long 1908 German rewrite; the annual 28 July Bach memorial concert at St Thomas Strasbourg from 1909; the eight-volume Schirmer edition of Bach's organ works begun in 1912 and finished fifty years later with Edouard Nies-Berger; his 1906 organ-building treatise and role in the 1909 Vienna organ congress; the Silbermann organ campaign and advice that was often ignored; taking a pedal piano to Gabon to practise for fund-raising concerts; and the note that he is criticised today for slow organ tempi (Nabokov's Volkswagen-to-Porsche remark). Institution run by his admirers, but it records criticism.",
+      "url": "https://schweitzer.org/en/discover/timeline/the-organist"
+    },
+    {
+      "id": "src_schweitzer_dacb",
+      "kind": "biography",
+      "title": "Dictionary of African Christian Biography, 'Schweitzer, Albert' (dacb.org; reproduced from An African Biographical Dictionary, ed. Norbert C. Brockman, 1994), read in full: Strasbourg doctorates, the 1905 Bach book and 1906 Quest; the 1905 turn to medicine; the 1913 departure to Gabon under the Paris Mission; 1917-18 internment; return in 1924 to a hospital 'decayed and partially reclaimed by the jungle' and its rebuilding upstream; a simple hospital in which families lived with patients, which he saw as early appropriate technology; staff of 30-40 doctors supported partly from his Bach recordings and recitals; his approach described as autocratic and paternalistic with a low expectation of Africans' intellectual capability, yet respectful to patients and workers; reverence for life 'not absolute' and his 1950s nuclear-testing opposition framed by effects on plant and animal life. Reference work on African Christianity; the most direct treatment of his mission-field conduct among the sources read.",
+      "url": "https://dacb.org/stories/gabon/schweitzer1-albert/"
+    },
+    {
+      "id": "src_schweitzer_nyrb_obrien",
+      "kind": "press",
+      "title": "Conor Cruise O'Brien, 'The Schweitzer Legend' (The New York Review of Books, 20 August 1964; review of Gerald McKnight's 'Verdict on Schweitzer'), read in full: reports that educated Africans and Afro-Americans, with few exceptions, saw in Schweitzer paternalism, condescension and resistance to change; Dr Davidson Nicol (Principal of Fourah Bay College) criticising Schweitzer's writings on Africa in Ghana; claims that he kept Lambaréné unmodernised because he believed 'simple people' would not come to a modern hospital, a view O'Brien says was disproved by other African hospitals; also sharply criticises McKnight's own hostile method and innuendo about his private life, which was not used. Contemporary critical review; counter-voice, with the reviewer's own bias stated in the text.",
+      "url": "https://www.nybooks.com/articles/1964/08/20/the-schweitzer-legend/"
+    },
+    {
+      "id": "src_schweitzer_harris",
+      "kind": "press",
+      "title": "Ruth Harris (New College, Oxford), 'Schweitzer and Africa' (The Historical Journal 59(4), 2016), abstract and footnotes read; the article body was behind the publisher's reader and was NOT opened. Abstract: Schweitzer was 'strangely indifferent' to African culture and never learned native languages; his service was grounded in a Nietzschean rejection of European conventionalities and a desire to develop his 'ethical personality'; his village-hospital, where the sick came with their families, treated people effectively but after the First World War became more hierarchical and de-personalised; the experiment was 'radical and conformist, daring and self-protectively conservative'; he stands out less for therapeutic innovations than for his later reverence-for-life ethics. Footnotes cite staff accounts of the authoritarian running of the hospital. Scholarly critical historian; abstract-level only.",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/895A2FEE5E93A2B9F188921789B61597/S0018246X16000078a.pdf/schweitzer_and_africa.pdf"
+    },
+    {
+      "id": "src_schweitzer_bern",
+      "kind": "institution",
+      "title": "University of Bern, Institute for the History of Medicine, 'Lambarene Hospital 1913-1965' research project page and project summary (Swiss National Science Foundation project 2013-2019; investigators Hubert Steinke and Hines Mabika), read in full: a first thorough historical study based on thousands of patient records, correspondence, notebooks and photographs; questions the 'alleged stagnation of medical and hygienic standards' and the role of religion and authority; examines Schweitzer's promotional strategy; aims to be a counterweight to the popular perception of him as a humanitarian giant or a paternalistic racist; lists Tizian Zumthurm's 2020 Brill volume (NOT opened: the open-access PDF was blocked by a bot check). Academic project description rather than findings.",
+      "url": "https://img.unibe.ch/forschung/lambarene_hospital_1913_1965/index_ger.html"
+    },
+    {
+      "id": "src_schweitzer_pbs",
+      "kind": "press",
+      "title": "Howard Markel (University of Michigan Center for the History of Medicine), 'Dr. Albert Schweitzer, a renowned medical missionary with a complicated history' (PBS NewsHour, 14 January 2016), read in full: summary of his life and hospital growth (more than 2,000 patients in nine months, 70 buildings by his death); his 1950s joint appeals with Einstein, Hahn, Russell and others against nuclear weapons; quoted remarks such as 'The African is indeed my brother, but my junior brother' that the author calls paternalistic and a contradiction of his reverence for life, while noting that remarks like these were common in the colonial era and that he devoted more than half a century to patients few colleagues would serve. Some dates differ from the Nobel biography, so the column is used only for the critical framing and quotations. Journalism by a medical historian.",
+      "url": "https://www.pbs.org/newshour/health/dr-albert-schweitzer-a-renowned-medical-missionary-with-a-complicated-history"
+    },
+    {
+      "id": "src_schweitzer_pmc",
+      "kind": "biography",
+      "title": "Singapore Medical Journal (PubMed Central), 'Albert Schweitzer (1875-1965): A reverence for life' biographical article, read in full: his turn to medicine after reading a Paris Mission article about the need for physicians in Gabon, financing his medical studies with concerts and lectures, the mission society's initial rejection and his agreement to raise his own two years of funds, internment in 1917, return in 1924; the account of his temper and demand for obedience among staff; detractors' criticism of autocratic management, outdated methods, unsanitary conditions and the free-roaming animals; Norman Cousins' admiring assessment. Medical-journal biography, largely admiring but records criticisms.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4291958/"
+    },
+    {
+      "id": "src_schweitzer_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page and API record 'Bundesarchiv Bild 183-D0116-0041-019, Albert Schweitzer.jpg' (wikitext and image info), checked for the portrait's licence: Bundesarchiv (German Federal Archive) Zentralbild photograph, photographer unknown, 1955, supplied by the Bundesarchiv under the CC BY-SA 3.0 DE licence with the attribution line 'Bundesarchiv, Bild 183-D0116-0041-019 / CC-BY-SA 3.0'; original size 539 x 800. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-D0116-0041-019,_Albert_Schweitzer.jpg"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schweitzer_nobel, src_schweitzer_encyclopedia, src_schweitzer_centre_organist, src_schweitzer_dacb | 1893-1913 and after | award body + reference entry + museum-style centre + biographical dictionary] The Nobel biography records a Strasbourg doctorate in philosophy (1899), a theology licentiate (1900), a Bach biography and organ-building book, and an MD in 1913; the encyclopedia entry says he excelled in philosophy, theology and music before turning to medicine, and the organist page documents the concert, scholarship and organ-reform strands. Independent reference writers agree on the breadth, and the Quest of the Historical Jesus is described as lasting biblical criticism, so documented at good confidence; the breadth is the best-corroborated strand of the profile. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.7 to 76 / 0.62 because none of the behavioural biographies could be opened, so the breadth (physician, theologian, organist, philosopher) rests on reference-work summaries."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schweitzer_encyclopedia, src_schweitzer_nobel, src_schweitzer_dacb | 1906 and 1905-1913 | reference entry + award body + biographical dictionary] The encyclopedia entry says the Quest of the Historical Jesus 'devastated the reputation of many predecessors' by arguing that liberal lives of Jesus had stopped short and projected their own ideals, reaching an apocalyptic Jesus alien to moderns; the Nobel and DACB entries record his turning from a successful academic and organist career to medicine. Harris adds a Nietzschean rejection of European conventionalities. A real record of independent conclusions, but largely retrospective reference-work summary of the theological argument, so a moderate-to-good confidence."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schweitzer_nobel, src_schweitzer_pmc, src_schweitzer_dacb, src_schweitzer_harris | 1905-1965 | award body + medical-journal biography + biographical dictionary + scholarly abstract] He began medical school at 30 to serve in Africa, financed it with concerts, raised his own first two years of costs when the mission society hesitated, spent about fifty years at Lambaréné and put his Nobel prize money into a leprosarium; the biographical dictionary notes his respect for patients and workers while criticising his paternalism, and Harris frames part of the motive as the cultivation of his own 'ethical personality'. A long, sustained orientation toward serving others is well documented, but much of the praise is admiring and his motives are described partly in his own ethical vocabulary, so moderate confidence. RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 78 / 0.62 to 74 / 0.56 because purpose language rests on admirers' centre pages and reference summaries; the African critics are known only through one review."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schweitzer_dacb, src_schweitzer_nobel, src_schweitzer_pmc, src_schweitzer_pbs | 1913-1924 | biographical dictionary + award body + medical-journal biography + journalism] After internment as a German citizen in 1917-18, he returned to Lambaréné in 1924 to find the hospital decayed and partly reclaimed by the jungle, rebuilt it upstream and kept expanding it for four decades to over 500 beds' worth of buildings, funding it through concerts and royalties. Several independent sources agree on the rebuilding and the duration; some (Nobel, PMC) are admiring, so documented at a moderate confidence."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schweitzer_nobel, src_schweitzer_centre_organist, src_schweitzer_dacb | 1905-1960s | award body + centre page + biographical dictionary] He paid for medical school and the hospital through concert engagements, lectures, royalties and Bach recordings, took a pedal piano to Gabon to keep practising for fund-raising tours, and drew benefactors who supported a staff of 30-40 doctors at the hospital's height. Concrete and cross-checked by three sources, though the funding detail comes largely from admiring or institutional accounts."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schweitzer_centre_organist, src_schweitzer_nobel | 1890s-1960s | centre page + award body] He trained with Widor and Marie Jaell on technique, wrote a 450-page Bach study and rewrote it at nearly double the length in German, spent fifty years on a complete Bach organ edition, and remained a recognised concert organist into his eighties; the same centre page records that his organ tempi are criticised today as slow. Documented sustained pursuit of craft, but the main account is from his own memorial centre, hence modest confidence."
+    },
+    "aesthetic_sensitivity": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schweitzer_centre_organist, src_schweitzer_dacb | 1890s-1909 | centre page + biographical dictionary] The centre page documents his work on Bach's musical language and performance practice, his 1906 organ-building treatise and advocacy for historic organs (the Silbermann organ), and the dictionary presents Bach as a religious mystic in his reading; his slow tempi were later criticised. Real musical sensibility is documented, but the sources mostly come from his admirers and show interpretation rather than independent critique, so moderate confidence."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schweitzer_dacb, src_schweitzer_nobel, src_schweitzer_pbs | 1913-1960s | biographical dictionary + award body + journalism] The dictionary calls him a popular, witty and charismatic preacher with a devoted following, and he drew volunteers, Mellon family and church benefactors, and funding from lectures and concerts; Markel records him joining Einstein and others in appeals about nuclear weapons. Fundraising and recruiting success is documented; specific persuasion episodes are thin, so moderate confidence."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_schweitzer_dacb, src_schweitzer_encyclopedia, src_schweitzer_nobel, src_schweitzer_pmc | 1913-1965 | biographical dictionary + reference entry + award body + medical-journal biography] He founded and ran the hospital for five decades as doctor, pastor and village administrator, recruiting volunteers worldwide; the same sources describe his management as autocratic, arbitrary and paternalistic and say staff learned that contradicting his orders provoked his temper. Strong and long leadership drive, with a documented cost, hence dual-edged at moderate confidence."
+    },
+    "collaboration": {
+      "score": 40,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_schweitzer_harris, src_schweitzer_dacb, src_schweitzer_pmc, src_schweitzer_nyrb_obrien | 1920s-1960s | scholarly abstract + biographical dictionary + medical-journal biography + contemporary review] Harris says the hospital became more hierarchical and de-personalised after the First World War, the dictionary calls his approach autocratic with a low expectation of Africans, and critics note his refusal to share control or modernise; against that, he worked alongside African labourers, kept families with patients, and attracted and kept volunteers and the Nies-Berger Bach edition partner for decades. Collaboration was real but hierarchical; strong inference from descriptive accounts, partly from the abstract only, so low-to-moderate confidence."
+    },
+    "belief_updating": {
+      "score": 38,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_schweitzer_nyrb_obrien, src_schweitzer_pmc, src_schweitzer_harris | 1950s-1960s | contemporary review + medical-journal biography + scholarly abstract] O'Brien reports that educated Africans saw in him resistance to change and that he kept Lambaréné unmodernised on the belief that 'simple people' would not come to a modern hospital, a view O'Brien says other African hospitals disproved; the medical-journal biography lists lack of updated methods among the detractors' criticisms, and Harris calls the experiment 'self-protectively conservative'. The evidence is critical commentary rather than a documented dated episode, and the DACB entry says he left instructions that the hospital be modernised after his death, so low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알베르트 슈바이처"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/albert-schweitzer-bundesarchiv-1955.jpg",
+    "width": 539,
+    "height": 800,
+    "source": "Wikimedia Commons 'Bundesarchiv Bild 183-D0116-0041-019, Albert Schweitzer.jpg': Zentralbild press photograph, photographer unknown, 1955, supplied to Commons by the German Federal Archive (Bundesarchiv) under CC BY-SA 3.0 DE. Saved at the original 539 x 800 pixels with no resizing or upscaling.",
+    "license": "CC BY-SA 3.0 DE",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "attribution": "Bundesarchiv, Bild 183-D0116-0041-019 / CC-BY-SA 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-D0116-0041-019,_Albert_Schweitzer.jpg",
+    "creator": "Unknown photographer (Zentralbild); provided by the Bundesarchiv",
+    "date": "1955",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-D0116-0041-019,_Albert_Schweitzer.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q49325 returned en label 'Albert Schweitzer', description 'French-German physician, theologian, musician, and philosopher (1875-1965)', born 1875-01-14, died 1965-09-04, ko label '알베르트 슈바이처', nationalities Germany and France; the lead's hint was correct. SLUG/QID CHECK: no candidate file or src/data reference for slug albert-schweitzer or QID Q49325 in the roster55 worktree. REGION western_europe (Alsace, born under German rule, later French; repo precedent: David Livingstone and Albert Einstein are western_europe; career base at Lambaréné in Gabon was a missionary posting from Europe, so origin region is used). ZERO POLITICS: his primary identity is physician-missionary, theologian and musician; his 1950s anti-nuclear appeals and the Nobel Peace Prize are secondary and unscored. VOCABULARY: physician, theologian, philosopher, musician; fields medicine, religion, philosophy, music; tags nobel_laureate, polymath, career_changer; archetype cross_disciplinary_generalist are existing ids with EN+KO labels (organist and missionary have no labels and were not used). CANONICAL SIGNIFICANCE SOURCE: Nobel Foundation 'Albert Schweitzer - Biographical' (https://www.nobelprize.org/prizes/peace/1952/schweitzer/biographical/). READ (9 non-Wikidata sources): Nobel biography, Encyclopedia.com entry, Schweitzer Centre organist page, DACB (African Biographical Dictionary), O'Brien's 1964 NYRB review of McKnight, Harris's Historical Journal article (abstract and footnotes only), Bern University project page and summary, Markel PBS column, Singapore Medical Journal biography. NOT opened: Brabazon and Marshall & Poling biographies (only cited by the encyclopedia entry), McKnight's 'Verdict on Schweitzer' itself, Zumthurm's open-access Brill book (blocked by a bot check), the body of Harris's article (paywalled), Britannica (bot-blocked), Schweitzer's own books and the Bach scores/recordings. PERSPECTIVES: award body; reference/biographical dictionaries; admirers' memorial centre; critical contemporary reviewer (O'Brien reporting African critics); academic historians (Harris, Bern project); medical journalism. COUNTER-VOICES: Davidson Nicol and 'educated Africans' via O'Brien, Harris on hierarchy and indifference to African culture, DACB and encyclopedia on paternalism, PMC on sanitary criticisms, centre page on slow tempi. EXCLUDED deliberately: marriage, family and health of his wife, sexual or private-life innuendo in McKnight (rejected by O'Brien), the Nobel prize itself as a score, and the contested question of his racism beyond what sources document as conduct. CALIBRATION: behavioural episodes are mostly summarised by reference works, so the highest score is 80 and highest confidence 0.70; collaboration and belief_updating are low-to-moderate, honest critical rows. Eleven rows, no padding. SELF-CALIBRATION (agent): reviewed cross_domain_range (kept 80/0.70: independent references agree and the breadth is documented), belief_updating (kept 38/0.45: the support is critical commentary and the DACB notes his modernisation instruction, so confidence already low) and impact_motivation (kept at 78/0.62: admiring sources but Harris and DACB add critical nuance); no rows lowered. BROAD FLAG: no behavioural biography (Brabazon, Marshall & Poling, Zumthurm) could be opened, so day-to-day conduct rests on reference summaries; the lead may want one direct read before relying on collaboration, belief_updating or leadership_drive. PORTRAIT: Bundesarchiv press photo (Zentralbild, 1955), CC BY-SA 3.0 DE as supplied by the Bundesarchiv to Commons; photographer unknown, so attribution is to the Bundesarchiv; no conflicting institutional notice seen (the Bundesarchiv page itself was not separately opened); used at the original 539 x 800 size. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.7 to 76 / 0.62 because none of the behavioural biographies could be opened, so the breadth (physician, theologian, organist, philosopher) rests on reference-work summaries. RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 78 / 0.62 to 74 / 0.56 because purpose language rests on admirers' centre pages and reference summaries; the African critics are known only through one review."
+  }
+}

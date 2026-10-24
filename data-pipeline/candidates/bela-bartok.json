@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bela-bartok",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Béla Bartók",
+    "aliases": ["Bela Bartok", "Bartók Béla"],
+    "wikidataId": "Q83326",
+    "birthYear": 1881,
+    "deathYear": 1945,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["HU"],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": ["composer", "musician", "scholar"],
+    "fieldIds": ["music"],
+    "impactDomains": ["artistic", "cultural", "scientific"],
+    "tagIds": ["innovator", "field_researcher", "cross_disciplinary", "craft_focused"],
+    "archetypeIds": ["creative_creator", "cross_disciplinary_generalist"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bb_wikidata",
+      "kind": "wikidata",
+      "title": "Béla Bartók (Q83326) -- verified live via the Wikidata API (2026-10-24): English label 'Béla Bartók', description 'Hungarian composer and pianist (1881–1945)', Korean label '버르토크 벨러', born 25 March 1881, died 26 September 1945. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q83326"
+    },
+    {
+      "id": "src_bb_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'Béla Bartók' (encyclopedia.com), page read in full as raw text; it reproduces three reference entries (the Encyclopedia of World Biography, an Oxford-attributed dictionary entry and a short music-dictionary entry). They describe him as composer, pianist and ethnomusicologist who from 1905 collected and systematised Hungarian peasant music and published studies of Hungarian, Romanian, Slovak, Turkish and North African Arab music; whose mature style rested on assimilating the essence of that music; who was professor of piano at the Budapest Academy 1907-34 but never taught composition; whose Mikrokosmos, six string quartets, Music for Strings, Percussion and Celesta and Concerto for Orchestra are the central works; that appreciation lagged in his lifetime; and that in 1934 the Hungarian Academy of Sciences gave him a salaried post to prepare his folk-song collection. CANONICAL SIGNIFICANCE SOURCE. Reference compilation, admiring and retrospective; its remarks on his health, family, religion and emigration were not used.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/bela-bartok"
+    },
+    {
+      "id": "src_bb_zti_richter",
+      "kind": "institution",
+      "title": "Pál Richter, 'Béla Bartók, the Ethnomusicologist: Béla Bartók's Significance in Hungarian Folk Music Research', Bartók's Folk Music Collections website of the HUN-REN Research Centre for the Humanities, Institute for Musicology (bartok-gyujtesek.zti.hu), read in full: first substantial collecting in 1906 (more than 1,000 Hungarian songs and about 300 Slovak songs in one year), Romanian collecting from 1909, fieldwork in Algeria 1913 and Turkey 1936, a collection of about 10,000 tunes; his use of the phonograph from the start and slowed playback for 'microscopically detailed' transcription; comparative research on neighbouring peoples and his classification of Hungarian, Romanian and Slovak repertoires (old-style, new-style and mixed melody classes); the 1934 Academy of Sciences project; his posthumously published Romanian and Slovak volumes; quotations from Bartók's own essays and from Kodály's 'Bartók the Folklorist'; his hobby of insect and plant collecting. Academic institutional account by a Hungarian ethnomusicologist writing for the national institute that holds his legacy (admiring, with the authority of the discipline); Kodály's remarks are a collaborator's retrospective.",
+      "url": "https://bartok-gyujtesek.zti.hu/en"
+    },
+    {
+      "id": "src_bb_ebsco",
+      "kind": "biography",
+      "title": "Frederick E. Danker, 'Bartók and Kodály Collect Hungarian Folk Songs', EBSCO Research Starters (2021), read in full: Bartók's 1904 encounter with a young woman's Transylvanian songs; his 1905 state-grant application and cylinder recording; his partnership with Kodály (introduced to Vikár's cylinders, joint 1906 collection of twenty arranged songs, travels sometimes together, often separately); their view that urban 'Gypsy' and nineteenth-century nationalist settings were watered-down versions; their method (collect everything in an enclave, transcribe with extended notation, classify, analyse) described as the norm in the field; the shock to concertgoers; the post-1918 synthesis with Baroque counterpoint; Mikrokosmos and the 44 Duos as teaching works; the 1920s onward balance of touring and research. Secondary academic synthesis for general readers with a bibliography; its 'unique accomplishment' framing is the author's.",
+      "url": "https://www.ebsco.com/research-starters/history/bartok-and-kodaly-collect-hungarian-folk-songs"
+    },
+    {
+      "id": "src_bb_eurozine",
+      "kind": "press",
+      "title": "John Moseley, 'Remembering Bartók: John Moseley talks with Elisabeth Klein', Eurozine (10 January 2011, with an introduction and notes by Bartók scholar László Vikárius), read in full: a private piano pupil's candid recollection of Bartók's lessons in his home from 1934 (memorised repertoire, play-until-the-first-mistake rule, few comments, strict tempo, no pedal for Bach), her critique that he was a limited teacher with little imagination for the individual and 'rather frightening', his edition of Bach's Well-Tempered Clavier done partly for income, his interest in moulding pianists and the Hungarian Quartet to play his music as he wanted, days of rehearsal of the Fifth Quartet from 8:00 to 2:00, and the point that in rehearsal he was at ease. COUNTER-VOICE and non-self behavioural source (single pupil, remembered in old age; Vikárius notes some confusions and corrects them). Her remarks on his moods, politics, family, income and on colleagues' fates were not used.",
+      "url": "https://eurozine.com/remembering-bartok"
+    },
+    {
+      "id": "src_bb_aspen",
+      "kind": "institution",
+      "title": "Steven Ledbetter, program note 'Béla Bartók: Concerto for Orchestra', Aspen Music Festival and School (aspenmusicfestival.com), read in full: the spring 1943 Koussevitzky Foundation commission (arranged after violinist Joseph Szigeti described Bartók's situation and warned against anything resembling charity), $1,000 and a guaranteed Boston Symphony performance; composed 15 August to 8 October 1943 in about eight weeks; first performed 1-2 December 1944; Bartók's own rarely written program note; the symmetrical movement design; the 'Intermezzo interrotto' in which, according to his son Péter, he burlesqued a Shostakovich theme he had heard on the radio; Koussevitzky's enthusiasm and Agatha Fassett's recollection; the work's role in broad recognition. Programme-note scholarship by a respected writer, admiring; relies on his son's and Fassett's accounts. All remarks on his illness were not used.",
+      "url": "https://www.aspenmusicfestival.com/program_notes/view/bartok-concerto-for-orchestra"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bb_encyclopedia, src_bb_zti_richter, src_bb_ebsco | 1904-1945 | reference + institutional scholarship + academic synthesis] Three independent reference/scholarly accounts describe him as simultaneously international concert pianist, composer, piano professor and a founding figure of comparative ethnomusicology; the Institute for Musicology page documents fieldwork, classification and instrument studies as a body of scientific work, and Danker calls his double career unique. The description is retrospective and admiring, but the dual career is itself a documented fact (Academy of Sciences post for folk-song work in 1934 alongside composing)."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bb_zti_richter, src_bb_ebsco, src_bb_encyclopedia | 1906-1945 | institutional scholarship + academic synthesis + reference] Richter documents his comparative method (transcribe, classify by musical criteria, compare Hungarian, Slovak and Romanian repertoires, define old-style, new-style and mixed melody classes and dialect areas), and his stated aim, quoted from his own 1936 essay, of eliminating the subjective element; Danker says the method remains the norm in the discipline. Institutional praise from the home discipline, so documented but not above the mid-70s."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bb_zti_richter, src_bb_eurozine | 1906-1936, 1934-1940s | institutional scholarship + pupil memoir] The Institute account traces decades of refinement of a 'microscopically detailed' transcription notation (slowed playback, every ornament and rhythmic relation notated, metronome marks by performance style), with Kodály's remark that his notations reached the limit of the human ear; the pupil Klein independently remembers exact-tempo demands and being stopped at the first mistake. SELF-CALIBRATION (agent): reviewed as a high-risk row (first-pass 78/0.64) because the strongest wording is Kodály's retrospective admiration relayed by an institutional account and the behavioural corroboration is one pupil; lowered to 74/0.62."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.60,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bb_zti_richter, src_bb_ebsco | 1904-1936 | institutional scholarship + academic synthesis] He extended collecting from Hungarian songs to Slovak and Romanian music, to Algeria (1913) and Turkey (1936), compared repertoires across peoples, and documented instruments and dances; Kodály, quoted by Richter, says the novelty of foreign material attracted him ('novarum rerum cupidus'), and Richter notes a lifelong insect and plant collecting hobby. Danker adds his aim to trace Eastern European styles to Asian ones. Kodály's characterisation is a close collaborator's retrospective, hence moderate confidence."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.60,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bb_zti_richter, src_bb_ebsco, src_bb_encyclopedia | 1905-1945 | institutional scholarship + academic synthesis + reference] Collecting was sustained every year to 1914, resumed as a salaried Academy of Sciences project from 1934, and the Romanian volumes were completed (two by end of 1942, the third in March 1945) after he took the collection to the United States; Danker describes the research as intensifying until his death. Persistence of the scholarly programme is well documented; the sources do not isolate resistance to specific setbacks in the research itself."
+    },
+    "creative_originality": {
+      "score": 77,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bb_encyclopedia, src_bb_ebsco, src_bb_aspen | 1908-1944 | reference + academic synthesis + programme note] Reference entries credit a highly personal style built from assimilated peasant music rather than quotation (his own 1931 essay distinguishes quoted, imitated and fully absorbed folk material), Danker describes pentatonic, modal and dance-rhythm innovations after 1908, and the Aspen note describes the Concerto for Orchestra's original pairing structure and its Shostakovich burlesque. Critical retrospective praise, with a documented hostile early reception in Hungary and the United States; scored as an advantage."
+    },
+    "mastery_orientation": {
+      "score": 73,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bb_zti_richter, src_bb_eurozine, src_bb_ebsco | 1906-1930s | institutional scholarship + pupil memoir + academic synthesis] He refined transcription technique over decades, studied Baroque counterpoint in the 1920s, wrote graded teaching collections (Mikrokosmos, 44 Duos) and demanded strictly memorised, precise playing of pupils (Klein). The drive toward depth in each of his fields is consistent across sources, but no source states his motive, so it is an inference from sustained craft behaviour."
+    },
+    "perfectionism": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bb_eurozine, src_bb_zti_richter | 1930s | pupil memoir + institutional scholarship] Klein recalls lessons halted at the first mistake and days of 8:00-2:00 rehearsal of the Fifth Quartet to get the performance 'exactly as he wanted', and that he was unhappy with an earlier performance; Richter documents his exacting notation. One pupil's account is the only behavioural source for exacting performance standards, and she links it to a limited, inflexible teaching style (dual-edged). SELF-CALIBRATION (agent): reviewed as a high-risk row (first-pass 66/0.50) because it rests on a single elderly witness; lowered to 64/0.48."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bb_ebsco, src_bb_zti_richter, src_bb_eurozine | 1905-1936 | academic synthesis + institutional scholarship + pupil memoir] Documented partnership with Kodály (the joint 1906 volume of twenty arranged songs, a shared method, introduction to Vikár's cylinders) and long rehearsals with the Hungarian Quartet; but Klein says he wanted to mould pupils and players to his own interpretation and gave few comments, and Danker notes they often collected separately. The pattern is productive collaboration on shared scholarship alongside directive working methods, so a moderate dual-edged score."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bb_encyclopedia, src_bb_ebsco, src_bb_eurozine | 1903-1930s | reference + academic synthesis + pupil memoir] Reference entries describe his early Strauss- and Liszt-influenced style (Kossuth, 1903) giving way after the 1904-06 folk-song discoveries to a new basis for his aesthetics; Klein describes him moving away from the romantic rubato of his virtuoso training toward a stricter, more ascetic manner. Direction of change is documented, but the evidence for how he revised specific views is thin, so a modest inference."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "벨라 바르토크"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear single-subject likeness resolved after a bounded search of the Commons 'Portrait photographs of Béla Bartók' category. Rejected: 'Béla Bartók 1943.jpg' (RIA Novosti, CC BY-SA 3.0) because its stated date 9 Sept 1943 and Hungarian setting conflict with the known facts of his life (in the United States by 1940), so the template facts contradict each other; 'Béla Bartók WDL11594.png' (UN Geneva League of Nations archive, 1922, 1024x1383) because the Commons page gives no photographer and a generic PD-old-70 tag, and the stated date does not match the 1931 League committee invitation described in its own text; 'Bartók Béla 1927.jpg' (411x379, author unknown, Max Planck website source) and 'Bartók Béla-1.jpg' (newspaper, author unknown) because they have no identifiable creator or basis beyond a generic tag; 'Bartók Béla Csík megyei vándorútján.jpg' (credited to photographer István Kováts, 1881-1942, PD-old-auto-1923) because the cited source is a Transylvanian history book page that does not obviously support either the credit or the c.1903 date; Aladár Székely group photographs of Bartók with Kodály (1905) and the Waldbauer Quartet (1910) because they are not single-subject portraits and their source is a blog or Flickr page. Next step: obtain a dated, creator-credited portrait directly from an institution that states its terms (for example the Hungarian Academy's Bartók Archives, the Hungarian National Museum, or a Library of Congress item with a named photographer), or confirm the Kováts attribution from the original publication."
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q83326 returned en label 'Béla Bartók', description 'Hungarian composer and pianist (1881–1945)', born 1881-03-25, died 1945-09-26, ko label '버르토크 벨러', P18 'Béla Bartók 1943.jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate or production reference for slug bela-bartok or QID Q83326 in the roster55 worktree. REGION central_europe, nationality HU, following how other Hungarians (Franz Liszt, John von Neumann, Paul Erdős, Ignaz Semmelweis, Katalin Karikó) are mapped. VOCABULARY: composer, musician, scholar, field music, impact domains artistic/cultural/scientific, tags innovator, field_researcher, cross_disciplinary, craft_focused, archetypes creative_creator and cross_disciplinary_generalist are existing ids with EN+KO labels ('ethnomusicologist' has no label, so scholar is used). ZERO POLITICS: nothing political scored; his 1940 emigration, Klein's remarks on his politics, his refusals of state honours and the Jewish-colleague passage were excluded; no inference from his illness or death or his family. CANONICAL SIGNIFICANCE SOURCE: Encyclopedia.com 'Béla Bartók' (https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/bela-bartok), read in full. READ (5 cited non-Wikidata sources): Encyclopedia.com, Institute for Musicology/Richter, EBSCO Research Starter, Eurozine/Klein interview, Aspen Music Festival program note. Also opened but not cited: Boosey & Hawkes composer page (catalogue navigation only), Bartók Archives history page (navigation and short summary). Britannica, Kennedy Center, CPR and the Minnesota Orchestra note blocked (403). Not opened: Halsey Stevens, Suchoff, Griffiths, Bartók Remembered (print/paywalled), Fassett's 'The Naked Face of Genius' (lending-only), the Library of Congress or Carnegie Hall notes. PERSPECTIVES: reference compilation, national institute of musicology (home discipline), academic synthesis, a critical private pupil, a programme-note scholar. COUNTER-VOICES: Klein's critique of his teaching and inflexibility; Danker and the encyclopedia note shocked audiences and delayed appreciation. LIMITATIONS: much behavioural detail comes from one pupil and from admiring institutional and collaborator-derived accounts; no source records letters or rehearsal notes directly; so no row exceeds 78 or 0.66. SELF-CALIBRATION (agent): rows reviewed were detail orientation (lowered 78/0.64 to 74/0.62: Kodály retrospective and single-pupil corroboration), perfectionism (lowered 66/0.50 to 64/0.48: one elderly witness) and cross-domain range (strongly corroborated across three accounts; left unchanged). No broad scoring problem flagged. PORTRAIT HELD: see portrait.reason for the exact blockers and next step."
+  }
+}
