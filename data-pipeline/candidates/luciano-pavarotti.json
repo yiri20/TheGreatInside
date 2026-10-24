@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "luciano-pavarotti",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Luciano Pavarotti",
+    "aliases": ["Luciano Pavarotti (tenor)"],
+    "wikidataId": "Q37615",
+    "birthYear": 1935,
+    "deathYear": 2007,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["IT"],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": ["singer", "musician"],
+    "fieldIds": ["music"],
+    "impactDomains": ["artistic", "cultural"],
+    "tagIds": ["sustained_excellence", "communicator"],
+    "archetypeIds": ["creative_creator", "social_influencer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pv_wikidata",
+      "kind": "wikidata",
+      "title": "Luciano Pavarotti (Q37615) -- verified live via the Wikidata API (2026-10-24): Korean label '루치아노 파바로티', English description 'Italian operatic tenor (1935–2006)', but the structured dates are born 12 October 1935 and died 6 September 2007 (the English description's end year is a Wikidata error; the press sources read agree on 2007). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q37615"
+    },
+    {
+      "id": "src_pv_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'Luciano Pavarotti' (encyclopedia.com), page read in full as raw text; it reproduces two reference entries (a Contemporary Musicians-style profile and a longer biographical dictionary entry). They say he was considered by many the greatest male singer since Caruso and in the mid-1970s probably the century's best lyric tenor; trained for years with two teachers (Arrigo Pola and Ettore Campogalliani) while working as a teacher and insurance salesman; made his professional debut as Rodolfo in 1961, stepped in for Giuseppe Di Stefano at Covent Garden in 1963, sang with Joan Sutherland under Richard Bonynge in a partnership of nearly thirty years, sang the nine high Cs of Tonio in La Fille du Regiment at the Met in 1972 and became 'King of the High Cs', moved into recitals, arenas, television and film, joined Carreras and Domingo as the Three Tenors in 1990 and organised the Pavarotti & Friends concerts; quotes Pavarotti ('I want to be famous everywhere') and records criticism: that his appeal outside opera drew chastisement, that in the 1990s his voice waned and he depended on amplification, that cancellations became frequent, and a reviewer's likening of a Met recital to 'a well-made mummy'. The two entries disagree on his U.S. debut year (1965 versus 1967) and on the leading soprano of the first Live from the Met telecast, so those details were not used. CANONICAL SIGNIFICANCE SOURCE. Reference compilation, partly drawn from magazine interviews; his family, tax and illness passages were not used.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/luciano-pavarotti"
+    },
+    {
+      "id": "src_pv_ap2004",
+      "kind": "press",
+      "title": "Associated Press, 'Pavarotti bids adieu to opera with Tosca', Deseret News (14 March 2004), read in full: his decision that the March 2004 Tosca at the Metropolitan Opera was his last night of staged opera anywhere; his 379 scheduled Met performances compared with 140 at La Scala, 100 at Covent Garden and fewer elsewhere; reviewers who found him nearly immobile and the voice lacking the bloom of youth though with moments of the distinctive sound; his own candid remarks ('in the last 10 years there are a lot of performances that are not super') and that he needed to be lighter on stage; his account of the 1977 Live from the Met telecast and his decision to 'devote myself to television'; 19 Met television broadcasts and 31 Three Tenors concerts; the two famous May 2002 Tosca cancellations. Wire-service journalism built partly on an interview; the self-quotations are his own retrospective.",
+      "url": "https://www.deseret.com/2004/3/14/19817494/pavarotti-bids-adieu-to-opera-with-tosca"
+    },
+    {
+      "id": "src_pv_apobit",
+      "kind": "press",
+      "title": "Associated Press obituary, 'Luciano Pavarotti, world renowned tenor, dies aged 71', Taipei Times (7 September 2007), read in full: his career milestones (1961 debut, Covent Garden 1963, La Scala 1965, San Francisco 1967, the Met 1968), the mid-1970s turn to television commercials and stadium mega-concerts and pop collaborations, the 1990 Three Tenors concert, Placido Domingo's tribute to his voice, the verdict that for serious fans the beauty and urgency of his voice made him the ideal interpreter of the Italian lyric repertory, and that his last public performance was 'Nessun dorma' at the 2006 Turin Olympics. Standard wire obituary, admiring; its coverage of his marriages and illness was not used.",
+      "url": "https://www.taipeitimes.com/News/front/archives/2007/09/07/2003377551"
+    },
+    {
+      "id": "src_pv_biography",
+      "kind": "biography",
+      "title": "Biography.com, 'Pavarotti Once Quit Singing, Then Came Back and Became an Opera Legend' (biography.com), read in full: his years of study with Arrigo Pola and Ettore Campogalliani and a decision (told in his autobiography) to quit singing before his voice settled; the 17 curtain calls after the 17 February 1972 Fille du Regiment at the Met; the 1977 Live from the Met broadcast and almost 400 Met performances; the Three Tenors and Pavarotti & Friends; soprano Shirley Verrett's tribute; and the unattributed summary that he was criticised for poor music-reading, was unpopular with conductors for insisting on tempos, had his professionalism questioned late in his career over cancellations, and in 1989 was banned from the Lyric Opera of Chicago after cancelling 26 performances over a decade. Popular-history article; the criticisms are not sourced in the piece, so they were used only at reduced confidence and the music-reading claim was not scored.",
+      "url": "https://www.biography.com/news/pavarotti-nodule-quit-singing"
+    },
+    {
+      "id": "src_pv_lvsun",
+      "kind": "press",
+      "title": "Las Vegas Sun, 'The one tenor' (9 April 1999), read in full: his concert promoter Tibor Rudas on seventeen years and some 200 arena shows with Pavarotti, the packaging of the Three Tenors, Pavarotti's refusal to sing in 1,200-seat casino showrooms as too small for his voice, the 1982 first booking, and critics' reactions: Norman Lebrecht's description (as quoted) of the arena shows as 'a travesty of the art', the Fort Worth critic Wayne Lee Gay's comparison with opera, the German author Jurgen Kesting's view that Pavarotti had become a trademark, and the Los Angeles Times critic Mark Swed's view that the concerts address a different audience. Local-newspaper feature; the promoter is a partial and admiring voice, the critics supply the counter-view.",
+      "url": "https://lasvegassun.com/news/1999/apr/09/the-one-tenor/"
+    },
+    {
+      "id": "src_pv_npr",
+      "kind": "press",
+      "title": "NPR (Sylvia Poggioli), 'Pavarotti's Death Gets Little Attention in Italy', All Things Considered (7 September 2007; transcript), read in full: Italian opera lyricist Gianluigi Melega's view that the 1990 Three Tenors concerts 'cheapened' opera mystique, a young scholar's view that Italian critics never forgave the crossover, the absence of musicologists and opera critics from Italian airwaves after his death, and Pavarotti's own dismissal of such criticism and wish to be remembered as an opera singer. COUNTER-VOICE. Radio report; its remarks on his marriage and the tax matter were not used.",
+      "url": "https://www.npr.org/transcripts/14218129"
+    },
+    {
+      "id": "src_pv_time",
+      "kind": "press",
+      "title": "Time (Associated Press-credited obituary), 'Luciano Pavarotti dies' (6 September 2007; content.time.com), read in full: tributes from Domingo and Italy's culture minister; Italian critic Mario Luzzato Fegiz's description of him as a tenor 'without pretensions' close to the people; the description of him as both a perfectionist and a born showman; the Pavarotti & Friends duets that some opera purists never forgave, which he acknowledged in a 2006 interview; his 1965 Miami stand-in beside Joan Sutherland followed by La Scala. Magazine obituary, admiring with a purist counter-quote; its remarks on tax and marriage were not used.",
+      "url": "https://content.time.com/time/arts/article/0,8599,1659378,00.html"
+    }
+  ],
+  "rows": {
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pv_encyclopedia, src_pv_ap2004, src_pv_time | 1963-2003 | reference + wire journalism + magazine obituary] The reference entry documents a nearly thirty-year partnership with Joan Sutherland under conductor Richard Bonynge, the Time and AP pieces record the Sutherland stand-in of 1965 and 31 Three Tenors concerts with Domingo and Carreras, and the encyclopedia lists his Pavarotti & Friends duets with pop and rock artists. Long-running partnerships are well documented; the sources describe the pairing mostly through outcomes and tributes, not working-process detail, so moderate confidence."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.50,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pv_encyclopedia, src_pv_ap2004 | 1961-2004 | reference + wire journalism] He moved from teacher and insurance salesman to a four-decade international career, and is quoted in the reference entry as saying 'I want to be famous everywhere' and that signing autographs is never long enough; the AP piece shows him pushing his career into television and arenas. The drive is real but the strongest wording is his own interview quotation, and it is dual-edged because critics tie the same hunger for visibility to commercialism. SELF-CALIBRATION (agent): reviewed as a high-risk row (first-pass 72/0.56) because the strongest evidence is one self-quotation; lowered to 68/0.50."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pv_ap2004, src_pv_lvsun, src_pv_encyclopedia | 1963-1999 | wire journalism + local press + reference] After the March 1977 Live from the Met broadcast he says he realised the power of television and chose to 'devote myself to television'; the promoter Rudas describes building arena concerts out of a 1982 booking; the reference entry records his 1963 Covent Garden stand-in for Di Stefano that led to television exposure. The televised-opera and stadium strategy is documented, but the key interpretation is his own retrospective telling. SELF-CALIBRATION (agent): reviewed as a high-risk row (first-pass 70/0.58) because the central evidence is his own account plus an interested promoter; lowered to 66/0.52."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.50,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pv_encyclopedia, src_pv_npr, src_pv_lvsun, src_pv_time | 1982-2006 | reference + radio + local press + magazine obituary] He launched a competition for young singers in 1982 that gave winners a stage with him, and is quoted that going 'to the people' is worth it if it brings the 'little world of opera' a larger audience; the reference entry says he did more to promote interest in opera than any singer. Critics (Lebrecht, Kesting, Melega, purists in the Time piece) argue the crossover cheapened the art, so the motive is documented and the net effect contested."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pv_encyclopedia, src_pv_apobit, src_pv_lvsun | 1970s-1990s | reference + wire obituary + local press] Across sources he extends a stage career into recitals, television commercials, film, stadium concerts, the Three Tenors and pop duets, and the reference entry records the growing reliance on amplification as his voice changed; the promoter notes he declined rooms too small for his voice. A documented range of formats, with the same sources noting the cost to his standing among purists."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pv_encyclopedia, src_pv_biography, src_pv_ap2004 | 1950s-2004 | reference + popular biography + wire journalism] He spent about six years of lessons with Pola and Campogalliani before his 1961 debut, expanded from bel canto into heavier Verdi and Puccini roles and, per the reference entry, added Otello and Canio late in his career; in 2004 he candidly judged many of his later performances 'not super'. No source documents his practice routines, so this is an inference from sustained craft and self-assessment, and the later pattern is also described as commercial rather than artistic."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pv_encyclopedia, src_pv_biography | 1954-1963 | reference + popular biography] Six years of training with few results while he worked as a schoolteacher and insurance salesman, and the Biography.com account (from his own autobiography) of deciding to quit before his voice improved. The slow route to a professional debut is documented; the quitting episode is self-reported and the obstacle he credits is a vocal-cord problem, so it is not treated as a character judgement."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pv_encyclopedia, src_pv_ap2004, src_pv_lvsun | 1963-2004 | reference + wire journalism + local press] He sang the exposed run of nine high Cs in La Fille du Regiment, stepped in for Di Stefano at Covent Garden in 1963, sang a first act of Otello on stage in 1993 and took his career into amplified stadium concerts that risked his standing with purists. These are documented high-exposure choices, but no source describes how he weighed them, so a modest inference."
+    },
+    "discipline": {
+      "score": 44,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_pv_encyclopedia, src_pv_biography, src_pv_ap2004 | 1980s-2004 | reference + popular biography + wire journalism] The reference entry says cancellations became frequent as he turned to amplified venues, Biography.com (unattributed) reports a 1989 Chicago ban after 26 cancelled performances over a decade, and the AP piece records two high-profile 2002 Met cancellations and his own admission that many performances were 'not super'. Reliability as a working professional is therefore documented as uneven, but cancellations are not attributed to motive and some followed illness, so they are not treated as a character verdict; the Chicago figure rests on one unsourced summary."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루치아노 파바로티"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/luciano-pavarotti-john-mathew-smith-2001.jpg",
+    "width": 1029,
+    "height": 1470,
+    "source": "Photograph of Luciano Pavarotti by John Mathew Smith (www.celebrity-photos.com), Flickr 'Luciano Pavorotti' (photo 5139163179, scanned and uploaded 2010-11-02), licensed by the rights-holder on the photo itself as CC BY-SA 2.0 (live Flickr page JSON-LD and licence badge checked 2026-10-24); Commons file 'Luciano Pavarotti 2004.jpg' carries cc-by-sa-2.0 with a FlickreviewR 'passed' result (reviewed 2018-11-30 against a web.archive.org capture of 2020-05-25, i.e. the licence was stable, not newly changed). Original 1029 x 1470 pixels, SHA-1 caafc6a8480e81185f7dbf9ff40a2e5931818a6c (matches the downloaded file); saved unchanged, never resized or upscaled. CAVEATS: the Flickr description says only 'From Wash D.C.'; the Commons text adds 'Kennedy center honors 2001' while the Commons file name says 2004, so the exact date is uncertain (Pavarotti was a 2001 Kennedy Center honoree; the filename year is treated as an error and 2001 is used with that uncertainty); the photographer's account-level licence policy was not checked beyond this photo's own licence. Rejected alternatives: Library of Congress 'Luciano Pavarotti, opera star' (Bernard Gotfryd, 1979-1983, 3161 x 4647) because the Commons PD-Gotfryd tag rests on 'no known restrictions' and its own note says Gotfryd's photographs were restricted during his lifetime and may carry privacy/publicity limits, which is not a rights basis I could resolve; other Commons images are amateur or YouTube screenshots.",
+    "license": "CC BY-SA 2.0 (photo-level licence by John Mathew Smith on Flickr; Commons FlickreviewR passed)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "John Mathew Smith / www.celebrity-photos.com, CC BY-SA 2.0, via Wikimedia Commons",
+    "attributionUrl": "https://www.flickr.com/photos/kingkongphoto/5139163179/",
+    "creator": "John Mathew Smith (Kingkongphoto / www.celebrity-photos.com)",
+    "date": "c. 2001 (uncertain; Commons text says Kennedy Center Honors 2001, file name says 2004)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Luciano_Pavarotti_2004.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q37615 returned ko label '루치아노 파바로티', P569 1935-10-12, P570 2007-09-06, P18 'Luciano Pavarotti 2004.jpg'; the English description says '1935–2006' (a Wikidata description error; dates verified from the structured claims and the press sources). SLUG/QID CHECK: no candidate or production reference for slug luciano-pavarotti or QID Q37615 in the roster55 worktree. REGION southern_europe, nationality IT. VOCABULARY: singer, musician, field music, impact domains artistic/cultural, tags sustained_excellence and communicator, archetypes creative_creator and social_influencer are existing ids with EN+KO labels. ZERO POLITICS: nothing political scored; the Bosnia charity concerts and Mostar centre are not scored. EXCLUSIONS: tax episode, marriages and private life, the childhood illness, the 2006 cancer and death, the 2006 Olympics recording question (Leone Magiera's memoir claim reached only a search summary, not a read source) and the music-reading claim (unsourced popular summary). No inference from illness or death. CANONICAL SIGNIFICANCE SOURCE: Encyclopedia.com 'Luciano Pavarotti' (https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/luciano-pavarotti), read in full. READ (7 cited non-Wikidata sources): Encyclopedia.com, AP/Deseret 2004, AP/Taipei Times 2007, Biography.com, Las Vegas Sun 1999, NPR 2007 transcript, Time 2007. Also opened but not cited: ArtsJournal archive page (intro only), PBS/SCETV Great Performances 1992 programme page (programme blurb and glossary). Blocked or unreadable: Britannica (403), New York Times obituary (403), the Metropolitan Opera archive note 'Pavarotti at the Met' (JavaScript wall/queue), Guardian obituary (404), Limelight Bonynge interview (403). Not opened: Bonynge interviews, PBS 'A Life in Seven Arias' materials, Jurgen Kesting's book, New Yorker and Opera News profiles. PERSPECTIVES: reference compilation, wire journalism, magazine obituary, promoter (partial), named critics via a local feature, Italian opera lyricist via NPR. COUNTER-VOICES: Lebrecht, Gay, Kesting, Swed, Melega and the Waleson 'mummy' review; the Biography.com cancellation summary. LIMITATIONS: no colleague or conductor interview was read directly, so working-process traits are scored only from outcomes and self-statements; no row exceeds 68 or 0.58. SELF-CALIBRATION (agent): rows reviewed were achievement drive (lowered 72/0.56 to 68/0.50: one self-quotation), opportunity sensing (lowered 70/0.58 to 66/0.52: his own retrospective plus an interested promoter) and discipline (kept at 44/0.42, already conservative and flagged as resting on an unsourced Chicago figure). No broad scoring problem flagged. PORTRAIT: see portrait.source for rights basis and caveats (date uncertainty is the open item)."
+  }
+}

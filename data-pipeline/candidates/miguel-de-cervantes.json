@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "miguel-de-cervantes",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Miguel de Cervantes",
+    "aliases": [
+      "Miguel de Cervantes Saavedra"
+    ],
+    "wikidataId": "Q5682",
+    "birthYear": 1547,
+    "deathYear": 1616,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "poet"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "late_recognition",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cervantes_wikidata",
+      "kind": "wikidata",
+      "title": "Miguel de Cervantes (Q5682) -- verified live via the Wikidata API (2026-10-24): English label 'Miguel de Cervantes', description 'Spanish novelist, poet, and playwright (1547-1616)', Korean label '미겔 데 세르반테스', born 1547 (29 September 1547 recorded, plus a year-only value), died 1616 (22 April, 23 April and year-only values), citizenship Spain. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q5682"
+    },
+    {
+      "id": "src_cervantes_canavaggio",
+      "kind": "biography",
+      "title": "Jean Canavaggio, 'Biografia de Miguel de Cervantes Saavedra' (three pages), Biblioteca Virtual Miguel de Cervantes, Universidad de Alicante, read in full in Spanish: documented-record limits (many gaps, 1597-1604 especially, and little known of motives); Lepanto 1571 and the wounds; four escape attempts from Algiers in which he always sought to take sole responsibility, the 1580 ransom of 500 ducados by the Trinitarians; the failed bid for an Indies post in 1590 ('Busque por aca en que se le haga merced'); his years as supply commissary and the 1592 and 1594-1597 jailings; the 1585 Galatea; his claim, in the 1615 prologue to Ocho comedias, to have cut plays from five acts to three, then the rise of Lope de Vega and his decision to print rather than stage plays; Don Quixote Part I (end of 1604, quickly pirated and reprinted); the 1614 Avellaneda continuation, its insulting prologue, and his reply in the 1615 Part II (writing 23 chapters in about two months in summer 1614, a rebuttal in the prologue, the book Don Quijote leafs through, the character don Alvaro Tarfe); the unfulfilled Lemos hopes; finishing Persiles four days before he died. CANONICAL SIGNIFICANCE SOURCE (with Britannica). Specialist scholar's narrative; balanced, notes that many 'known' anecdotes are unproven; his remarks on religion, family and illness were not used.",
+      "url": "https://www.cervantesvirtual.com/portales/miguel_de_cervantes/autor_biografia/"
+    },
+    {
+      "id": "src_cervantes_britannica",
+      "kind": "biography",
+      "title": "'Miguel de Cervantes', Encyclopaedia Britannica (articles by Anne J. Cruz, University of Miami, and Edward C. Riley, University of Edinburgh), read through an Internet Archive copy that is cut off after the Algiers captivity section: calls him the creator of Don Quixote and the most important figure in Spanish literature; Don Quixote translated into more than 60 languages; 'a great experimenter' who tried every major genre except the epic; the Exemplary Stories as close to the novel's level in miniature; no university education; independent accounts of his courage at Lepanto; four escape bids from Algiers; made little money from his writing; worked as royal messenger, Armada commissary and tax collector. CANONICAL SIGNIFICANCE SOURCE. Later sections (publication of Don Quixote, critical traditions, influence) were not in the copy that could be opened.",
+      "url": "https://www.britannica.com/biography/Miguel-de-Cervantes"
+    },
+    {
+      "id": "src_cervantes_poets",
+      "kind": "institution",
+      "title": "'Miguel de Cervantes', Academy of American Poets (poets.org) biography: Don Quixote (Part I about 1605, Part II 1615) as one of the most significant works of world literature and, in the view of many scholars, the first modern novel; Galatea 1585; Exemplary Stories 1613, which he called the first novellas in Castilian (the page says scholars think the claim likely true); Journey to Parnassus 1614 as his best-known verse; recurring financial trouble and little gain from Don Quixote; he reportedly rated a play above his novel. Read through a page-extraction tool that returns a summary. Reference-level and admiring; its mention of a Valladolid stabbing and a duel was not used (Canavaggio shows he was a bystander in the 1605 Ezpeleta case).",
+      "url": "https://poets.org/poet/miguel-de-cervantes"
+    },
+    {
+      "id": "src_cervantes_martinjimenez",
+      "kind": "biography",
+      "title": "Alfonso Martin-Jimenez (University of Valladolid), 'Cervantes and Avellaneda, the mysterious author of the sequel to Don Quixote' (English article on the author's academic blog): argues that Part II is a corrective, satirical reworking of Avellaneda's 1614 continuation and that Cervantes knew the author was the Aragonese soldier Jeronimo de Pasamonte; points to Part II chapters 59, 61 and 70 and the final chapter's request that the false author not continue. Read through a page-extraction tool. One scholar's confident, contested thesis; the Pasamonte identification is NOT accepted here, and only the uncontroversial point that Cervantes answered the false sequel inside Part II is used (Canavaggio independently reports the same and notes the identification lacks decisive proof).",
+      "url": "https://alfonsomartinjimenez.blogs.uva.es/publicaciones-en-internet/article-cervantes-and-avellaneda-the-mysterious-author-of-the-sequel-to-don-quixote/"
+    },
+    {
+      "id": "src_cervantes_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Cervantes Jauregui.jpg' (wikitext and rendered page) and the Biblioteca Virtual Miguel de Cervantes image page 'Retrato de Miguel de Cervantes (?) de Juan de Jauregui' -- checked for the portrait: Commons titles it a 'supposed portrait', oil on panel about 1600, attributed to Juan de Jauregui (died 1641), held by the Real Academia de la Historia, tagged PD-Art with PD-old-auto-expired; the Commons text states that modern scholarship does not accept this or any other image as an authentic likeness of Cervantes and that no document shows Jauregui painted it; the painted names are centuries later than the panel. The Biblioteca Virtual itself captions the image with a question mark.",
+      "url": "https://commons.wikimedia.org/wiki/File:Cervantes_J%C3%A1uregui.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cervantes_britannica, src_cervantes_canavaggio, src_cervantes_poets | 1585-1615 | encyclopedia + specialist biography + poetry-institution biography] Britannica names him the creator of Don Quixote, translated into more than 60 languages, and a great experimenter; the poets.org biography reports the scholarly view that it is the first modern novel and his claim, judged likely true, that the Exemplary Stories were the first Castilian novellas; Canavaggio says Part II took the novel to perfection and records his claim to have been first to stage the hidden thoughts of the soul. These are retrospective assessments and two firsts are his own or summarised claims, so the row is a strong inference at moderate confidence, not a documented extreme."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cervantes_britannica, src_cervantes_canavaggio, src_cervantes_poets | 1569-1616 | encyclopedia + specialist biography + poetry-institution biography] Britannica says he tried every major literary genre except the epic; Canavaggio and poets.org list the pastoral romance La Galatea (1585), plays and interludes, the Exemplary Stories (1613), the verse Journey to Parnassus (1614), Don Quixote and the Greek-style romance Persiles. The breadth is directly documented across the genres; quality across them is uneven (his plays were overshadowed by Lope de Vega), which is why the score stays in the clear-pattern band rather than higher."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cervantes_britannica, src_cervantes_canavaggio | 1585-1615 | encyclopedia + specialist biography] Britannica calls him a great experimenter across genres; Canavaggio reports his claim to have cut plays from five acts to three, and his 1614-1615 decision to publish eight plays and interludes in print for readers, never performed, reversing the usual route, as well as the invention in Part II of a Don Quixote who meets readers of the false sequel. The plays claim comes from his own prologue and the rest is scholar's description, so confidence is moderate."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cervantes_canavaggio, src_cervantes_britannica | 1575-1616 | specialist biography + encyclopedia] Both sources report four attempts to escape Algiers over five years of captivity; Canavaggio says he took sole responsibility each time. After years of setbacks (a refused Indies post in 1590, jailings in 1592 and 1594-97, a failed stage career) he returned to writing, published Don Quixote at about 57, and finished Persiles four days before he died. Captivity and military service are biography, not traits, so the row leans on the return to letters and the late completion. No source reports his motives, hence strong inference with a moderate confidence."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cervantes_canavaggio, src_cervantes_britannica | 1585-1615 | specialist biography + encyclopedia] Canavaggio shows him moving from the stage to print when Lope de Vega came to dominate the theatre, and answering the 1614 false sequel by writing it into Part II (Don Quijote leafs through the book and meets one of its characters, don Alvaro Tarfe); Britannica lists his turns between soldier, commissary, tax collector and writer. Much of this is career circumstance, and motives are unknown, so the lean is mild and the confidence below 0.5."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "미겔 데 세르반테스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/miguel-de-cervantes-jauregui-attributed-c1600.jpg",
+    "width": 915,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Cervantes Jauregui.jpg' -- oil on panel, about 1600, held by the Real Academia de la Historia (Madrid), attributed to Juan de Jauregui (died 1641); Commons credits the Biblioteca Virtual Miguel de Cervantes and Bridgeman Art Library object 119216, tagged PD-Art / PD-old-auto-expired. IMPORTANT: this is NOT a documented likeness. Commons and the Biblioteca Virtual (which captions it 'Cervantes (?)') state that no authentic portrait of Cervantes exists, that modern scholarship does not accept this image as authentic, that no document shows Jauregui painted it, and that the painted names are centuries later. It is shown only as the traditional, presumed portrait (a historical depiction). Original 1443 x 1893 pixels, 423,402 bytes (SHA-1 of the download fd1e1a67a565acf0a7e4110a14baa733d9c9ec95); stored copy downscaled only to 915 x 1200. Rights basis: a c.1600 painting by a painter who died in 1641, so out of copyright everywhere relevant; the file is a faithful photographic reproduction of a flat work. Residual caveat: the specific photograph's own rights are not stated on Commons beyond the PD-Art assertion; no conflicting notice was found on the Biblioteca Virtual image page (its legal page was not opened).",
+    "license": "Public domain (painting c.1600; Commons PD-Art, PD-old-auto-expired)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Art",
+    "attribution": "Attributed to Juan de Jauregui, c.1600, Real Academia de la Historia (traditional, unverified portrait of Cervantes), public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Cervantes_J%C3%A1uregui.jpg",
+    "creator": "Attributed to Juan de Jauregui",
+    "date": "c. 1600",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Cervantes_J%C3%A1uregui.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q5682 returned en label 'Miguel de Cervantes', description 'Spanish novelist, poet, and playwright (1547-1616)', ko label '미겔 데 세르반테스', born 1547-09-29 (and year-only), died 1616-04-22/23, citizenship Spain, P18 'Cervantes Jauregui.jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate, production or src file for slug miguel-de-cervantes or QID Q5682. REGION: southern_europe (Spain), nationalityCodes ES. ERA early_modern (Bach precedent). VOCABULARY: occupations writer and poet, field literature, tags innovator, late_recognition and overcame_adversity, archetype creative_creator are existing ids with EN/KO labels (novelist and playwright have no labels and were not used). ZERO POLITICS: nothing political or military is scored or carded; Lepanto and the Algiers captivity are treated as biography and are not used for any trait other than the persistence row's cautious reading, which leans on the later return to writing. DECEASED SUBJECT: no inference from illness, religion, family or private life; Canavaggio's remarks on those were excluded. CANONICAL SIGNIFICANCE SOURCES: Canavaggio's biography (Biblioteca Virtual Miguel de Cervantes) and the Britannica article (https://www.britannica.com/biography/Miguel-de-Cervantes; direct fetch returned 403 so an Internet Archive copy was read, which stops after the captivity section). READ: Canavaggio (full text via local extraction), Britannica (archive copy, partial), poets.org and Martin-Jimenez (both through a page-extraction tool that returns a summary). Not opened or blocked: Real Academia de la Historia biography (redirects to a landing page), Instituto Cervantes biography page (404), Johns Hopkins Hub interview with William Egginton (403), a Cambridge-published psychiatric-journal article on Cervantes (opened but not cited because its focus is a psychiatric reading), Cervantes's own prologues (only as quoted in Canavaggio). PERSPECTIVES: a specialist scholar's biography; a reference encyclopedia by two professors; a poetry institution's biography; one academic's contested thesis on the false sequel (used only for the uncontested point). COUNTER-VOICES: Canavaggio's caution that motives are unknown and many anecdotes are unreliable, the failed stage career against Lope de Vega, the refused posts and jailings, and Martin-Jimenez's thesis that Part II leans heavily on Avellaneda. Self material (Cervantes's prologues) appears only as quoted by Canavaggio and is never sole support. Sparse by design: five rows; no row covers conflict handling, discipline or planning because no source documents them. SELF-CALIBRATION (agent): reviewed creative_originality (kept 76/0.58: already a strong inference resting on retrospective praise, with the two 'first' claims noted as self-reported or summarised), adaptability (kept 58/0.45: indirect inference already near the floor of a mild lean) and persistence (kept 72/0.58: the captivity is deliberately not the main support). No row lowered. PORTRAIT: attributed Jauregui panel, kind historical_depiction, shown with an explicit disputed-identity caveat; see portrait.source."
+  }
+}

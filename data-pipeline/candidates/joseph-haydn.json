@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "joseph-haydn",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Joseph Haydn",
+    "aliases": [
+      "Franz Joseph Haydn"
+    ],
+    "wikidataId": "Q7349",
+    "birthYear": 1732,
+    "deathYear": 1809,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "AT"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "prolific",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_haydn_wikidata",
+      "kind": "wikidata",
+      "title": "Joseph Haydn (Q7349) -- verified live via the Wikidata API (2026-10-24): English label 'Joseph Haydn', description 'Austrian composer (1732-1809)', Korean label '요제프 하이든', born 31 March 1732 (1 April also recorded), died 31 May 1809, citizenship Archduchy of Austria and Austria. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7349"
+    },
+    {
+      "id": "src_haydn_britannica",
+      "kind": "biography",
+      "title": "'Joseph Haydn', Encyclopaedia Britannica (articles by Karl Geiringer, H. C. Robbins Landon and Raymond L. Knapp), read through an Internet Archive copy (direct fetch returned 403) that stops in the 1780s before the London years: calls him one of the most important figures in the development of the Classical style, who helped establish the forms of the string quartet and the symphony; humble origins; chorister at St Stephen's, Vienna, expelled when his voice broke, then self-taught from C. P. E. Bach and theory manuals; engaged by Count Morzin in 1758 and by the Esterhazy family from 1761 (director from 1766); almost daily rehearsals, composing most of the music, more than 150 pieces for the prince's baryton; tact and good nature in dealing with people; close friendship with Mozart, who dedicated six quartets to him; 'flexible and receptive to new ideas'; the 1784 revision of Il ritorno di Tobia; the Opus 33 quartets and the Paris symphonies. CANONICAL SIGNIFICANCE SOURCE (with the Austria-Forum biography). Specialist authors; its remarks on his marriage and affairs were not used.",
+      "url": "https://www.britannica.com/biography/Joseph-Haydn"
+    },
+    {
+      "id": "src_haydn_austriaforum",
+      "kind": "biography",
+      "title": "'Haydn, Joseph', Austria-Forum biography (Austria-Forum, Graz University of Technology; chronology credited to Guido P. Saner; text drawing on AEIOU and 'Grosse Oesterreicher'), summarised through a page-extraction tool: vice-Kapellmeister 1761 and Kapellmeister 1766 under the Esterhazys at Eisenstadt and Eszterhaza, the chapel growing from 10-15 to 20-25 musicians; output of 104 symphonies, 83 string quartets, 52 piano sonatas, about 30 operas, 14 masses and 4 oratorios; chapel dissolved in 1790 with salary and title kept, re-established 1795 with an annual mass owed; two London trips (1791/92 and 1794/95) at Salomon's urging and the Oxford honorary doctorate; Beethoven his pupil between the trips; Creation and Seasons after studying Handel; says the nickname 'Papa Haydn' misrepresents him and that contemporaries found him sharp-tongued, critical and sometimes sarcastic. CANONICAL SIGNIFICANCE SOURCE (with Britannica). Compact reference text; summary-tool reading, so figures are quoted as the tool reported them.",
+      "url": "https://austria-forum.org/af/Biographien/Haydn,_Joseph"
+    },
+    {
+      "id": "src_haydn_historytoday",
+      "kind": "press",
+      "title": "Richard Cavendish, 'Joseph Haydn arrives in England', History Today, vol. 66 issue 1 (January 2016), read in full through an Internet Archive copy: a new Prince Esterhazy cut spending including Haydn's salary in 1790; the impresario Johann Peter Salomon proposed concerts in England; at 58 he reached London on 1 January 1791 speaking no English and promptly took English lessons; Charles Burney's report of the first concert; second series of concerts 1794-95; he declined George III's offer of lodging at Windsor to stay; twelve symphonies written in England. Short magazine anniversary piece, admiring; its remarks on an affair and on the theft of his skull were not used. (The page says the Esterhazy cut reduced his salary, whereas the Austria-Forum text says he kept it; the conflict is noted, and the row relies on neither detail.)",
+      "url": "https://www.historytoday.com/archive/joseph-haydn-arrives-england"
+    },
+    {
+      "id": "src_haydn_beethovenhaus",
+      "kind": "archive",
+      "title": "Beethoven-Haus Bonn digital archive, item description for the autograph sketch leaf Hess 246 (Sammlung H. C. Bodmer, HCB Mh 61), read through a page-extraction tool: Beethoven went to Vienna in 1792 to take lessons from Haydn, found his methods 'too dry' for his taste, and was 'not very sorry' when Haydn left for England in January 1794 and the lessons broke off; he then studied counterpoint with Albrechtsberger. Institutional archive text; the page gives no progress report from Haydn and does not say that Haydn recommended Albrechtsberger. Used only as the independent, mildly critical view of Haydn as a teacher.",
+      "url": "https://www.beethoven.de/en/media/view/5294665553149952"
+    },
+    {
+      "id": "src_haydn_bbc",
+      "kind": "press",
+      "title": "'The Creation: how Haydn came to compose the greatest triumph of his career', BBC Music Magazine (published on classical-music.com, 18 September 2024), summarised through a page-extraction tool: the 1791 Handel festival at Westminster Abbey (more than 1,000 performers) and his wish to write a large biblical work; an English libretto given to him by Salomon in 1795; Baron van Swieten's translation and adaptation, his suggestions for fugues and tone painting, some adopted and some rejected by Haydn; first private performance in April 1798 and public premiere 19 March 1799; the Catholic Church's objection to its 'secularity' and Romantic critics such as Berlioz mocking its tone painting; the composer reported by the early biographers Griesinger and Carpani as devout and as having begun his studies anew after hearing Handel (reported anecdote, not independently documented). Music-magazine feature; the devotion and Carpani remarks are treated as tradition and carry little weight.",
+      "url": "https://www.classical-music.com/features/works/haydn-creation-3"
+    },
+    {
+      "id": "src_haydn_wiley",
+      "kind": "archive",
+      "title": "Christopher Wiley, 'Mythological Motifs in the Biographical Accounts of Haydn's Later Life', in R. Chesser and D. Wyn (eds), The Land of Opportunity: Joseph Haydn and Britain (British Library, 2013), pp. 195-211, accepted manuscript on City St George's, University of London open access repository, read in text form: a historiographic critique showing how stories of Haydn's late years (the 1808 Creation homage, the Rohrau monument visit, Beethoven's presence) were shaped by biographical conventions and that Beethoven is not placed at the 1808 concert by Griesinger, Dies or Carpani. Used as a counter-voice: anecdotes of late-life reverence are not used as behavioural evidence.",
+      "url": "https://openaccess.city.ac.uk/id/eprint/18473/"
+    },
+    {
+      "id": "src_haydn_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Thomas Hardy - Joseph Haydn - PPHC000001 - Royal College of Music.jpg' (with its API upload record), Art UK's page for the painting (read through an Internet Archive copy), Google Arts & Culture's page for the painting (Royal College of Music as provider) and two other Commons files of the same painting -- checked for the portrait: oil on canvas, 1791, 76.5 x 63.5 cm, by Thomas Hardy (1757-1804), Royal College of Music, London (accession PPHC000001, gift of Arthur F. Hill 1933), painted during Haydn's first London visit and probably commissioned by the publisher John Bland; Hardy later engraved it and Bland published the engraving.",
+      "url": "https://commons.wikimedia.org/wiki/File:Thomas_Hardy_(1757-1804)_-_Joseph_Haydn_(1732%E2%80%931809)_-_PPHC000001_-_Royal_College_of_Music.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_haydn_britannica, src_haydn_austriaforum, src_haydn_bbc | 1760s-1798 | encyclopedia + biography + music-magazine feature] Britannica says he was one of the most important figures in developing the Classical style and helped establish the forms of the string quartet and the symphony, that the Opus 33 quartets set a new standard and the Paris symphonies were a landmark; Austria-Forum says the isolation of the Esterhazy estates helped him develop a personal style. The assessments are retrospective and the range of his influence is asserted rather than shown by a specific episode, and Romantic critics such as Berlioz mocked the tone painting of The Creation (BBC), so a strong inference at moderate confidence."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_haydn_britannica, src_haydn_austriaforum, src_haydn_bbc | 1749-1796 | encyclopedia + biography + music-magazine feature] Britannica reports that after being expelled from the choir school at 17 with little theory he undertook an arduous course of self-instruction from C. P. E. Bach's works and theory manuals; Austria-Forum says he studied Handel's oratorios before writing The Creation. The BBC feature adds Carpani's report that he began his studies afresh after Handel, which is treated as a reported tradition. Two documented episodes plus an anecdote."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_haydn_britannica, src_haydn_austriaforum | 1761-1790 | encyclopedia + biography] Britannica describes almost daily rehearsals, composing most of the music the court required and supplying more than 150 pieces for the prince's baryton over about thirty years of service; Austria-Forum counts 104 symphonies, 83 quartets, 52 piano sonatas and many other works. The documented volume and routine support steady working discipline; no source describes his personal work schedule, so the score stays in the clear-lean band."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_haydn_austriaforum, src_haydn_britannica | 1760s-1801 | biography + encyclopedia] Austria-Forum lists symphonies, string quartets, piano sonatas, about thirty operas, fourteen masses, four oratorios and divertimenti; Britannica adds baryton music, church music and operas for the court. The range of genres is directly documented; the quality across them (the operas especially) is not assessed by the sources, so the score is not raised."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_haydn_historytoday, src_haydn_britannica, src_haydn_austriaforum | 1784-1795 | magazine piece + encyclopedia + biography] When the Esterhazy cuts of 1790 came, he accepted Salomon's invitation and went to London at 58 without English, and promptly began English lessons; Britannica says he revised Il ritorno di Tobia in 1784 in awareness of changing sensibilities and calls him flexible and receptive to new ideas; Austria-Forum says the chapel's 1795 re-establishment brought him back to a new duty. The sources disagree on whether his salary was cut, and none states his reasons, so the lean is a strong inference."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_haydn_britannica, src_haydn_bbc | 1780s-1798 | encyclopedia + music-magazine feature] Britannica says Mozart's music left its mark on his own and that the mature composer was by no means set in his ways; the BBC feature reports Carpani's anecdote that hearing Handel made him start his studies over, and that he adopted some but not all of van Swieten's suggestions for The Creation. The anecdote is tradition, and the rest is general characterisation, so confidence stays below 0.5."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_haydn_britannica, src_haydn_austriaforum, src_haydn_beethovenhaus | 1761-1794 | encyclopedia + biography + archive item] Britannica reports tact, good nature and skill in dealing with people as director of the court's musicians, and a mutual friendship with Mozart who dedicated six quartets to him; the BBC feature shows him working with van Swieten on The Creation. Against that, Austria-Forum reports contemporaries found him sharp-tongued and sometimes sarcastic and the Beethoven-Haus archive says Beethoven found his teaching too dry. A mild positive lean with counter-evidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "요제프 하이든"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/joseph-haydn-hardy-1791.jpg",
+    "width": 976,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Thomas Hardy (1757-1804) - Joseph Haydn (1732-1809) - PPHC000001 - Royal College of Music.jpg' -- Thomas Hardy, oil on canvas, 1791, Royal College of Music, London (PPHC000001, gift of Arthur F. Hill 1933); a contemporaneous portrait made in London during Haydn's first visit (Art UK and Google Arts & Culture, both naming the Royal College of Music; probably commissioned by the publisher John Bland). Neither source states explicitly that Haydn sat for it, so 'painted from life' is an inference from the date, place and commission, and the kind 'likeness' rests on this being a contemporary portrait by a working London portraitist. Commons file uploaded 6 May 2025 by BotMultichillT from the Royal College of Music's own image server (WMRII_RCMU_PPHC000001-001.jpg), 976 x 1200 pixels, 84,494 bytes (SHA-1 of the download 72fb5810ff478a87b9eb38215f724805d12af751); stored unchanged, never resized or upscaled. Rights basis: the painting dates from 1791 and Hardy died in 1804, so it is out of copyright everywhere relevant; the file is a faithful photographic reproduction of a flat work (Commons PD-Art, PD-old-auto-expired, deathyear 1804, which matches Art UK's 1757-1804). Caveats recorded honestly: (1) Art UK's page carries its generic 'how you can use this image' notice (non-commercial research or private study under UK exceptions, other uses to be cleared with the rights holders) and credits the image to the Royal College of Music; this is boilerplate guidance and does not claim copyright in the painting, but it is a conflicting institutional statement about the photograph that the lead should weigh; (2) two other Commons files of the same painting carry PD-Art tags with wrong death years (1928, 1805) and were not used; (3) the Commons page for the chosen file has an empty Artwork template (no description or source lines). If the lead judges the Art UK notice disqualifying, the next step is to ask the Royal College of Music Museum for a written reproduction statement. LEAD REVIEW RECONCILIATION: Art UK carries a generic non-commercial-use notice for its photograph of this painting and credits the Royal College of Music, but makes no claim of copyright in the 1791 painting itself, which is public domain worldwide by age; a faithful photographic reproduction of a public-domain two-dimensional work does not create a new copyright in the US, and the Commons file was uploaded from the RCM's own image server. Because no source read states that Haydn sat for Hardy, the portrait is classed as a historical depiction rather than a likeness.",
+    "license": "Public domain (painting of 1791; Commons PD-Art, PD-old-auto-expired)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Art",
+    "attribution": "Thomas Hardy, 1791, Royal College of Music, London, public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Hardy_(1757-1804)_-_Joseph_Haydn_(1732%E2%80%931809)_-_PPHC000001_-_Royal_College_of_Music.jpg",
+    "creator": "Thomas Hardy",
+    "date": "1791",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Hardy_(1757-1804)_-_Joseph_Haydn_(1732%E2%80%931809)_-_PPHC000001_-_Royal_College_of_Music.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q7349 returned en label 'Joseph Haydn', description 'Austrian composer (1732-1809)', ko label '요제프 하이든', born 1732-03-31 (and 1732-04-01), died 1809-05-31, citizenship Archduchy of Austria and Austria, P18 a Hardy painting file; the lead's hint was correct. SLUG/QID CHECK: no candidate, production or src file for slug joseph-haydn or QID Q7349. REGION: central_europe (Beethoven and Schubert candidates are mapped to central_europe), nationalityCodes AT (Schubert precedent). ERA early_modern (born 1732; Bach, Handel and Goya precedents). VOCABULARY: occupations composer and musician, field music, tags innovator, prolific and craft_focused, archetype creative_creator are existing ids with EN/KO labels (conductor has no label and was not used). ZERO POLITICS: nothing political scored or carded; the 'Emperor's Hymn' (later an anthem) is not mentioned in any card or row. DECEASED SUBJECT: no inference from his marriage, affairs, health, religion or death; those passages in Britannica, History Today and the BBC feature were excluded. CANONICAL SIGNIFICANCE SOURCES: Britannica (Geiringer, Landon, Knapp) and the Austria-Forum biography. READ: Britannica (Internet Archive copy, full text locally extracted but stops before the London years), Austria-Forum, Beethoven-Haus item and BBC Music Magazine feature (all three through a page-extraction tool that returns a summary), History Today (archive copy, full short text), Wiley chapter (PDF text read by keyword search and section skim, not cover to cover). Not opened or blocked: Grove/Oxford Music Online (paywalled), Griesinger and Dies 1810 biographies (only as quoted by other writers), Haydn-Institut Koeln (landing page only), History Today direct page (403, archive copy used), Hektoen International article (not opened). PERSPECTIVES: reference encyclopedia by specialist musicologists; an Austrian national biography site; a general-history magazine; an institutional archive on Beethoven's lessons; a music magazine on The Creation; an academic historiography chapter. COUNTER-VOICES: Beethoven-Haus (teaching too dry), Austria-Forum (sharp-tongued, 'Papa Haydn' misleading), BBC (church objection, Berlioz), Wiley (late-life anecdotes shaped by biographical convention), and the Britannica/History Today/Austria-Forum disagreement over his salary in 1790. Self material: none used. Non-independence: the Carpani/Griesinger reports reach us only through the BBC feature and Wiley, and are given low weight. SELF-CALIBRATION (agent): reviewed creative_originality (kept 74/0.6: retrospective praise, but already a strong inference with the Berlioz counter-view named), belief_updating (kept 64/0.48: rests partly on the Carpani anecdote, already below 0.5 and not the only support) and collaboration (kept 64/0.52: counter-evidence is already in the rationale and score). No row lowered. PORTRAIT: Hardy 1791 at the Royal College of Music, kind likeness (contemporary portrait; sittings inferred not stated), with the Art UK notice recorded as a caveat; see portrait.source. Lead review: portrait classed as a historical depiction and the Art UK notice reconciled as described in portrait.source."
+  }
+}

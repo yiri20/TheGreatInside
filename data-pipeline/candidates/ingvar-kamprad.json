@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ingvar-kamprad",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ingvar Kamprad",
+    "aliases": [
+      "Feodor Ingvar Kamprad"
+    ],
+    "wikidataId": "Q216932",
+    "birthYear": 1926,
+    "deathYear": 2018,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "SE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "business",
+      "design"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ik_wikidata",
+      "kind": "wikidata",
+      "title": "Ingvar Kamprad (Q216932) -- verified live via the Wikidata API (2026-10-24): English label 'Ingvar Kamprad', description 'Swedish business magnate (1926-2018)', Korean label '잉그바르 캄프라트', born 30 March 1926, died 27 January 2018, citizenship Sweden. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q216932"
+    },
+    {
+      "id": "src_ik_museum_price",
+      "kind": "institution",
+      "title": "IKEA Museum (Älmhult), 'Price wars' (ikeamuseum.com), read in full: in 1950 Kamprad showed at the S:t Eriksmässan trade fair in Stockholm, advertised the fair and marked consumer prices on his goods, which other exhibitors saw as against fair norms, and the organisers later barred IKEA; from 1952 the furniture retailers' association threatened suppliers that sold to IKEA; in 1954 he reportedly got into the Gothenburg furniture fair hidden in a car boot; sales rose from one to six million kronor in three years but the boycott left IKEA short of products; the Swedish pricing and cartel authority documented the episode in a 1957 publication; Kamprad rented his own premises on Drottninggatan in Stockholm, visited factories himself, paid invoices promptly, set up the purchasing company Ikano to get round the boycott, and later called the period a 'non-crisis'; the boycott pushed IKEA to design its own furniture. Museum run by the IKEA group's own heritage side, so a company-curated narrative, though it cites a dated official Swedish report; not independent of IKEA.",
+      "url": "https://www.ikeamuseum.com/en/explore/the-story-of-ikea/price-wars/"
+    },
+    {
+      "id": "src_ik_museum_poland",
+      "kind": "institution",
+      "title": "IKEA Museum (Älmhult), 'IKEA's Turn to Poland (1960-1966)' (ikeamuseum.com), read in full: during the mid-1950s boycott most Swedish suppliers stopped supplying IKEA; in 1959 Kamprad, until then the only person in purchasing, hired Ragnar Sterte; after a small Danish supplier network proved too small, Kamprad wrote in 1960 to Poland's foreign trade minister, who invited him, and in January 1961 he travelled to Warsaw with his father, Sterte and designer Bengt Ruda (initially refused factory access, then admitted via a Polish manager and a visit to a chair factory in Radomsko); IKEA bought chairs, tables and fabrics, the ODGLA chair among the first; the page says suppliers trusted IKEA because decisions were made by one person without lengthy negotiations, that IKEA gave long-term contracts, introduced new technology and worked with suppliers to cut costs, and that Polish prices were almost 50% below equivalent Swedish manufacturing costs. Company-affiliated museum text; the reasons suppliers gave are the museum's own account.",
+      "url": "https://ikeamuseum.com/en/explore/the-story-of-ikea/czesc-polsko/"
+    },
+    {
+      "id": "src_ik_dezeen",
+      "kind": "press",
+      "title": "Dezeen (design magazine), 'IKEA founder Ingvar Kamprad dies aged 91', 28 January 2018, read in full as extracted: IKEA grew from a mail-order start to the world's largest furniture retailer (about 36 billion euro sales in 49 countries in 2016); the article credits it with bringing contemporary design to the masses and reshaping product design, manufacturing and distribution; first store in Almhult in 1958; self-assembly furniture began with a side table designed by employee Gillis Lundgren in 1956; stores spread abroad from the 1960s and beyond Europe from the 1980s; the 1996 British 'Chuck out your Chintz' campaign; criticism of a dull cheap image and of exploitation accusations, with more recent focus on quality and sustainability. CANONICAL SIGNIFICANCE SOURCE (with the Irish Times and AP obituaries). Design-press obituary, broadly admiring; it gives his age at founding as 18 where others say 17, and dates differ across sources for flat-pack, so no flat-pack date or first-claim is made here.",
+      "url": "https://www.dezeen.com/2018/01/28/ikea-founder-ingvar-kamprad-dies-aged-91-obituary/"
+    },
+    {
+      "id": "src_ik_ap",
+      "kind": "press",
+      "title": "Associated Press obituary, 'Ikea founder Ingvar Kamprad dies at 91', PBS NewsHour, 28 January 2018, read in full as extracted: born 30 March 1926; launched IKEA at 17 selling goods by mail; added furniture around 1950; first store 1958; a flat-pack design invented by an employee in 1956 made home-assembled items easier to ship; he flew economy, drove an older Volvo and built stores on cheap land, often outside cities; stepped down as CEO in 1988 and as chairman of Inter IKEA Group in 2013; IKEA is owned by a foundation he created whose statute requires profits to be reinvested or given to philanthropic causes; he moved to Switzerland in the 1970s for tax reasons and returned in 2011; wire-service account of the youthful far-right affiliation, which he said he 'bitterly regret[ted]' (not scored or carded). CANONICAL SIGNIFICANCE SOURCE (with Dezeen and the Irish Times). Wire obituary; short; mixed admiration and criticism.",
+      "url": "https://www.pbs.org/newshour/world/ikea-founder-ingvar-kamprad-dies-at-91"
+    },
+    {
+      "id": "src_ik_irish",
+      "kind": "press",
+      "title": "The Irish Times, obituary 'Ikea billionaire who turned small Swedish business into behemoth', 3 February 2018 (no named author), read in full as extracted: registered IKEA in 1943 as a mail-order business; first million kronor by 1951; first store 1958; after a 1971 fire at the Kungens Kurva store the reopened store introduced self-service; production moved to Poland and later other countries to cut costs; he undercut rivals on price, angering competitors; the 1950s-60s boycott by producers and retailers under the furniture dealers' association and his bar from fairs; Habitat bought in 1992 and sold in 2009; a 1986 move to franchising; accusations of design copying, of tax avoidance through a complex corporate structure (EU investigation January 2018) and criticism of cheap disposable goods; his quote 'no one has had as many fiascos as I have'; frugal habits including flea-market clothes. Critical-leaning independent obituary; the passage on his Nazi-era associations was not used for scoring.",
+      "url": "https://www.irishtimes.com/opinion/ikea-billionaire-who-turned-small-swedish-business-into-behemoth-1.3375471"
+    },
+    {
+      "id": "src_ik_boh",
+      "kind": "press",
+      "title": "Katherine Burns Olson, 'IKEA founder Ingvar Kamprad passes at age 91', Business of Home, 1 February 2018, read in full as extracted: he launched a first furniture line in 1950 made by manufacturers near his home; the business centred on low-priced flat-pack furniture assembled by customers; after rivals got him banned from trade fairs he started his own trade fair; his 1976 manifesto 'The Testament of a Furniture Dealer' set out principles of simple living, courtesy and humility and creating 'a better everyday life for the many people'; he reportedly planned the company's direction for the century after his death; the furniture dealers' boycott and the bar from fairs. Trade-press obituary, partly relaying IKEA's own narrative; passages on his youthful political affiliation were not used.",
+      "url": "https://businessofhome.com/articles/ikea-founder-ingvar-kamprad-passes-at-age-91"
+    },
+    {
+      "id": "src_ik_torekull",
+      "kind": "biography",
+      "title": "Encyclopedia.com entry 'Torekull, Bertil 1931-' (Contemporary Authors), read in full, with its summary of Torekull's authorised biography 'Leading by Design: The IKEA Story' (1998; based on IKEA documents and long conversations with Kamprad) and its quoted reviews: James R. Hagerty in the Wall Street Journal found the author 'too chummy' with Kamprad and too awed by his energy and the translation clumsy; Booklist said it reads like a memoir with long first-person passages in Kamprad's voice; Inc. said it was too much about Kamprad and too little about the business; Library Journal called it a vivid and insightful view of the company and its founder. Used only as an assessment of how reliable the authorised biography is as a source; the biography itself and the reviews' full texts were not opened.",
+      "url": "https://encyclopedia.com/arts/educational-magazines/torekull-bertil-1931"
+    },
+    {
+      "id": "src_ik_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Ingvar Kamprad Haparanda June 2010.jpg' (wikitext and API record) and the original Flickr photo page 'Haparanda Midnight Ministerial June 2010' (flickr.com/photos/haparanda/4708804470) -- checked for the portrait: photograph credited 'Foto: Naringsdepartementet/Sandra Baqirjazid' (Swedish Ministry of Enterprise, Energy and Communications) at the Haparanda 'Midnight Ministerial' meeting, 16 June 2010; Flickr page shows Creative Commons Attribution 2.0 and no other copyright statement; Commons carries CC BY 2.0 with a Flickr-review stamp by a Commons reviewer on 8 May 2013. Rights-basis pages; no person-specific claim rests on them.",
+      "url": "https://commons.wikimedia.org/wiki/File:Ingvar_Kamprad_Haparanda_June_2010.jpg"
+    }
+  ],
+  "rows": {
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ik_museum_price, src_ik_museum_poland, src_ik_irish, src_ik_boh, src_ik_ap | 1950-1961 | company museum (two pages, dated and citing an official Swedish report) + three press obituaries] When Swedish retailers barred IKEA from trade fairs and threatened suppliers, Kamprad rented his own premises in Stockholm, visited factories himself, set up the purchasing company Ikano to get round the boycott and, per Business of Home, started a trade fair of his own; when Swedish and Danish supply proved too small he wrote to Poland's foreign trade minister and travelled to Warsaw in January 1961 to buy chairs, tables and fabrics at prices the museum says were nearly 50% below Swedish manufacturing costs; the Irish Times confirms the boycott and the move of production to Poland, and the AP notes his preference for cheap sites and simple, self-assembled furniture. Specific, dated workarounds are documented by the museum and corroborated in outline by independent press, so documented at a fairly high confidence; the detailed narrative is the company museum's. SELF-CALIBRATION (agent): reviewed as the highest-scoring row; kept because the boycott and the Polish sourcing are independently confirmed by the Irish Times and an official 1957 Swedish report cited by the museum."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.60,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ik_museum_price, src_ik_museum_poland, src_ik_boh, src_ik_irish | 1943-1961 | company museum (two pages) + trade press + press obituary] He registered IKEA at 17, advertised IKEA's presence at the 1950 Stockholm fair and displayed consumer prices openly despite trade norms, hired a first purchasing lead in 1959 after doing the job alone, wrote unprompted in 1960 to a visiting foreign minister after reading of his Stockholm visit, and, per the Irish Times, introduced self-service after the 1971 store fire; Business of Home adds the trade fair of his own. A pattern of initiating rather than waiting is described by the museum and echoed in two press pieces, but much of the detail is the company's own narrative, so documented at a moderate confidence."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ik_museum_poland, src_ik_irish, src_ik_ap, src_ik_dezeen | 1950-1992 | company museum + three press obituaries] The museum says that, short of suppliers, he saw that Polish factories could offer long-term capacity and lower prices and turned the supply problem into a price advantage Swedish retailers could not match; the Irish Times and AP describe offering furniture that customers assemble themselves at lower prices, building stores on cheap land outside cities and moving production to cheaper countries; Dezeen credits the company with bringing contemporary design to the masses and notes expansion beyond Europe from the 1980s. Consistent across several sources about the business model, but the sources describe the company's moves rather than his own reasoning, and flat-pack credit is attributed to an employee, so documented at a moderate confidence."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ik_museum_price, src_ik_irish, src_ik_boh | 1950-1961 | company museum + press obituary + trade press] The museum describes years of exclusion from fairs and supplier threats from 1950 to the late 1950s, during which sales still rose from one to six million kronor, with Kamprad calling it a 'non-crisis'; the Irish Times confirms the boycott and bar from fairs and quotes him that 'no one has had as many fiascos as I have'; Business of Home confirms the bar and his own fair. He kept building through a sustained boycott, but the 'non-crisis' framing and the fiasco quote are his own, and the boycott evidence is largely from one company-curated account, so strong inference at a modest confidence."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ik_irish, src_ik_museum_price, src_ik_boh | 1950-1960s | press obituary + company museum + trade press] The Irish Times says he undercut rivals on price, angering competitors, and the boycott by the furniture dealers' association followed; the museum documents the 1950 price-labelling dispute at the Stockholm fair and the rival bars on IKEA; Business of Home notes the fair ban. A willingness to take on established rivals on price is described by independent press and the museum, but the rivals' side is only seen through the museum and obituaries, so strong inference at a modest confidence, dual-edged because it provoked a decade of boycott."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ik_boh, src_ik_dezeen, src_ik_ap | 1976-2018 | trade press + design press + wire obituary] Business of Home quotes his 1976 manifesto's aim of 'creating a better everyday life for the many people'; Dezeen credits the company with bringing contemporary design to the masses; the AP says the foundation he created requires profits to be reinvested in the company or given to philanthropic causes. The stated aim is his own, with press echoing it and one structural fact consistent with it; critical coverage (cheap disposable goods, tax arrangements) cuts the other way, so strong inference at a low confidence."
+    },
+    "decisiveness": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ik_museum_poland, src_ik_irish | 1960-1986 | company museum + press obituary] The museum says Polish suppliers trusted IKEA because decisions were made by one person without lengthy negotiations, and the Irish Times notes self-service at the store reopened after the 1971 fire and the 1986 move to franchising, without saying who decided. Quick personal decisions are asserted by a company-affiliated museum and only loosely echoed in press, so strong inference at a low confidence. SELF-CALIBRATION (agent): first-pass 62 / 0.46 lowered to 56 / 0.38 because the central claim rests on one company-museum sentence about what suppliers valued."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "잉그바르 캄프라트"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ingvar-kamprad-baqirjazid-2010.jpg",
+    "width": 468,
+    "height": 631,
+    "source": "Wikimedia Commons, 'Ingvar Kamprad Haparanda June 2010.jpg' -- photograph by Sandra Baqirjazid for the Swedish Ministry of Enterprise, Energy and Communications at the Haparanda 'Midnight Ministerial' meeting, 16 June 2010, published on the ministry's Flickr photostream 'Haparanda Midnight Ministerial June 2010' under CC BY 2.0 and imported to Commons with a Flickr-review stamp (8 May 2013, uploaded by Commons user Kaiketsu). The Flickr page was opened and shows CC BY 2.0 and the credit 'Foto: Naringsdepartementet/Sandra Baqirjazid' with no conflicting copyright notice. Original 468 x 631 pixels (SHA-1 7176673094ea227ce94352d1c4e4c08b9736ac2e, 92455 bytes, matches the downloaded file); saved unchanged, never upscaled. Rejected: the Commons 'Ingvar Kamprad (cropped).jpg' (the Wikidata P18 file), tagged only 'Copyrighted free use' with no named licence or creator and sourced to a university press page statement. Residual gap: the Flickr account is a ministry event album; the Swedish government site's own photo terms were not separately opened.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Sandra Baqirjazid / Ministry of Enterprise, Energy and Communications of Sweden, 2010, CC BY 2.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Ingvar_Kamprad_Haparanda_June_2010.jpg",
+    "creator": "Sandra Baqirjazid / Ministry of Enterprise, Energy and Communications of Sweden",
+    "date": "2010-06-16",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ingvar_Kamprad_Haparanda_June_2010.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q216932 returned en label 'Ingvar Kamprad', description 'Swedish business magnate (1926-2018)', ko label '잉그바르 캄프라트', born 1926-03-30, died 2018-01-27, citizenship Sweden; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug ingvar-kamprad or QID Q216932 in the roster55 worktree. REGION: western_europe (Sweden-based; he lived in Denmark and Switzerland for tax reasons for decades, but the company and career base are Swedish). ERA: 20th_century (career 1943-1988 as active leader; existing candidates born 1915-1935 use both 20th_century and contemporary). VOCABULARY: occupation entrepreneur, fields business and design, tags founder and innovator, archetype entrepreneurial_builder, impact domains entrepreneurial, industrial, cultural are existing labelled ids. ZERO POLITICS: his youthful far-right affiliation, which he disavowed and which every obituary mentions, is a documented historical fact but is not scored, carded or used as trait evidence; the tax-exile arrangements and the EU tax inquiry were likewise not scored. DECEASED SUBJECT: no inference from private life, illness, family or death. CANONICAL SIGNIFICANCE SOURCE: Dezeen obituary (https://www.dezeen.com/2018/01/28/ikea-founder-ingvar-kamprad-dies-aged-91-obituary/), AP obituary via PBS (https://www.pbs.org/newshour/world/ikea-founder-ingvar-kamprad-dies-at-91) and Irish Times obituary (https://www.irishtimes.com/opinion/ikea-billionaire-who-turned-small-swedish-business-into-behemoth-1.3375471); all read in full as extracted. READ (8 cited non-Wikidata sources plus the Commons/Flickr pages): IKEA Museum 'Price wars' and 'Turn to Poland', Dezeen, AP/PBS, Irish Times, Business of Home, Encyclopedia.com Torekull entry (reviews of the authorised biography). Blocked or not opened: Britannica (403), Swedish Radio (403), Guardian, NYT, BBC, Economist (fetch not permitted), Khaleej Times/AFP read but not cited (thin), the Torekull biography, the Testament of a Furniture Dealer, Swedish-language sources, the 1957 Swedish pricing authority report. PERSPECTIVES: company-affiliated museum (dated, citing an official report), three independent press obituaries (design, wire, Irish daily), trade press, and critical reviews of the authorised biography (WSJ, Inc., Booklist). COUNTER-VOICES: Irish Times (copying accusations, tax structure, disposable goods), the WSJ reviewer on the authorised biography's closeness to its subject, rivals' boycott as seen in the museum and obituaries. LIMITATIONS: the most detailed behavioural evidence is the IKEA Museum's company narrative; independent press is obituary-level and broad; no source read gives day-to-day working habits, design involvement or management practice in depth; flat-pack origin dates differ across sources (1952, 1955, 1956), so no origin claim is made and credit is attributed to an employee only as the AP and Dezeen state; hence no row exceeds 74 or 0.64. SELF-CALIBRATION (agent): the rows reviewed were resourcefulness (highest score; kept, boycott independently confirmed), proactive agency (kept at 72/0.60) and decisiveness (one company-museum sentence; lowered 62/0.46 to 56/0.38). One row lowered. Flag for lead: Kamprad's evidence is thin on independent behavioural detail, so the profile is deliberately modest. PORTRAIT: Commons wikitext, API record and the Flickr page read; Sandra Baqirjazid / Swedish Ministry, 16 June 2010, CC BY 2.0, Flickr-reviewed on Commons; the Wikidata P18 file 'Ingvar Kamprad (cropped).jpg' was rejected (tag 'Copyrighted free use', no creator, university press-page statement only)."
+  }
+}

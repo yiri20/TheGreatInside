@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "karl-popper",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Karl Popper",
+    "aliases": [
+      "Sir Karl Raimund Popper"
+    ],
+    "wikidataId": "Q81244",
+    "birthYear": 1902,
+    "deathYear": 1994,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AT",
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "scholar",
+      "teacher"
+    ],
+    "fieldIds": [
+      "philosophy"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational",
+      "scientific"
+    ],
+    "tagIds": [
+      "philosopher",
+      "theorist",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_popper_wikidata",
+      "kind": "wikidata",
+      "title": "Karl Popper (Q81244) -- verified live via the Wikidata API (2026-10-24): English label 'Karl Popper', born 28 July 1902, died 17 September 1994, P18 image 'Karl Popper.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q81244"
+    },
+    {
+      "id": "src_popper_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Karl Popper' (britannica.com), read through an Internet Archive copy because the live site blocks automated access: Austrian-born British philosopher of natural and social science; Logik der Forschung (1934) published by the Vienna Circle though he rejected their inductive empiricism; studied mathematics, physics and psychology at Vienna; Canterbury University College, New Zealand (1937-45); reader then professor of logic and scientific method at the London School of Economics (1945/1949-69); the falsifiability criterion and the exclusion of astrology, Marxist history and Freudian psychoanalysis from empirical science; The Open Society and Its Enemies (1945), The Poverty of Historicism (1957), Postscript (1981-82); knighted 1965; related-article note that his views 'probably had more influence on practicing scientists than those of any other philosopher'. CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.britannica.com/biography/Karl-Popper"
+    },
+    {
+      "id": "src_popper_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy, 'Karl Popper' (plato.stanford.edu), introduction, 'Life' and 'Critical Evaluation' sections read: lauded by Russell, taught Lakatos, Feyerabend and Soros at the LSE, with admirers among scientists (Medawar, Eccles, Bondi); trained as a cabinetmaker, teaching diploma 1925, qualified to teach mathematics and physics 1929; doctorate in psychology under Karl Buhler (1928) with a switch of topic from memory research to the methodology of cognitive psychology; saw Einstein's testable theory against the confirmation-only theories of Marx, Freud and Adler; Canterbury 1937, LSE 1946; later criticism and Kuhn's socio-historical approach; his account of basic statements as a form of conventionalism (Lakatos quoted); 'he took criticism of his theories very seriously'. The sections on political and social thought and his marriage were not used for scoring.",
+      "url": "https://plato.stanford.edu/entries/popper/"
+    },
+    {
+      "id": "src_popper_iep",
+      "kind": "institution",
+      "title": "Internet Encyclopedia of Philosophy, 'Karl Popper: Philosophy of Science' (iep.utm.edu, read through an Internet Archive copy), the criticism section read: summary of objections to falsificationism and alternatives (Kuhn, Salmon, Lakatos, Putnam, Feyerabend, Hacking and others), including the theory-laden character of observation. Scholarly counter-voice on the method; used for the dispute, not for any trait.",
+      "url": "https://iep.utm.edu/pop-sci/"
+    },
+    {
+      "id": "src_popper_completereview",
+      "kind": "press",
+      "title": "The Complete Review, review of Malachi Haim Hacohen, 'Karl Popper: The Formative Years, 1902-1945' (complete-review.com), read in full: Popper's carpentry apprenticeship and teacher qualification, volunteer work with Alfred Adler in 1919, the difficulty of getting Logik der Forschung published (860 copies printed, about 449 sold by August 1939, stock lost to bombing), difficulty finding a post, exile in New Zealand, his 'iron hand' over clarity in the Tuesday evening seminar at the LSE, complicated relations with students including Feyerabend and Lakatos, and Hacohen's finding that Popper's own recollections are selective. Review of a biography the agent did not read; the biography's claims are therefore second-hand.",
+      "url": "https://complete-review.com/reviews/popperk/hacohen.htm"
+    },
+    {
+      "id": "src_popper_choice",
+      "kind": "press",
+      "title": "Hans Oberdiek, review of Hacohen's 'Karl Popper: The Formative Years' in Choice, April 2001 (Swarthmore College repository), read in full: the book is 'superbly researched', convincingly argues Popper imposed the telos of his mature philosophy on his development, is 'a bit too appreciative' of The Open Society, and few scholars think Popper's account of Plato and Hegel fair or accurate; notes Popper's difficult relations with his disciples. Independent scholarly counter-voice.",
+      "url": "https://works.swarthmore.edu/fac-philosophy/436"
+    },
+    {
+      "id": "src_popper_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Karl Popper.jpg' (LSE Library photograph by Franz Barta, c.1980, Flickr Commons 'no known copyright restrictions', category marked for deletion requests) and 'Karl Raimund Popper - Alien Registration File' (Archives New Zealand, CC BY-SA 2.0 via Flickr; a 6795 x 3556 scan of a 1940s registration document) and 'Karl Popper1990.jpg' (Lucinda Douglas-Menzies, 'no known copyright restrictions'), checked for the portrait's rights. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Karl_Popper.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_popper_britannica, src_popper_sep, src_popper_iep | 1934-1959 | encyclopaedia + two scholarly entries] Britannica credits him with the falsifiability criterion as a rejection of induction as the method of the empirical sciences and says his views probably influenced practising scientists more than any other philosopher's; SEP reports admiration from Russell, Medawar, Eccles and Bondi; IEP records that many philosophers have since rejected his falsificationist methodology. A distinctive, much-discussed contribution is documented, but the praise is largely retrospective and the contribution is contested, so confidence stays moderate. SELF-CALIBRATION (agent): reviewed and kept (retrospective praise is balanced by the IEP counter-voice already reflected in the confidence)."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_popper_britannica, src_popper_sep, src_popper_choice | 1920s-1950s | encyclopaedia + scholarly entry + biography review] Britannica notes his first book was published by the Vienna Circle even though he rejected their inductive empiricism; SEP says he judged the confirmation-only theories of Marx, Freud and Adler against Einstein's testable theory and concluded they were not science; Oberdiek notes few scholars think his account of Plato and Hegel fair, and the Complete Review quotes Hacohen that Popper's own recollections are selective. Departure from the dominant group of his time is well documented; the cost and the contestability are why the impact is dual-edged. SELF-CALIBRATION (agent): reviewed the 0.58 confidence (up from the 0.55 first draft) and kept it: two scholarly encyclopaedias and a biography review converge on the break with the Circle."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_popper_britannica, src_popper_sep, src_popper_completereview | 1928-1969 | encyclopaedia + scholarly entry + review of biography] Britannica and SEP describe a career devoted to logic and method (doctorate on the methodology of cognitive psychology, the falsifiability criterion, professor of logic and scientific method); the Complete Review quotes Hacohen that in his Tuesday evening seminar he 'enforced clarity of ideas and simplicity of speech with an iron hand'; SEP notes that criticism of his own account of basic statements as a form of conventionalism remains. Rigour of method is the documented centre of his work; the seminar detail is second-hand through a review, so confidence is moderate."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_popper_completereview, src_popper_sep | 1934-1945 | review of biography + scholarly entry] The Complete Review reports (from Hacohen) that Logik der Forschung was hard to publish, that of 860 copies only about 449 had sold by August 1939, that he struggled to find a post and went to New Zealand; SEP says he wrote his major later works there and continued to write prolifically after moving to the LSE. A documented long stretch of continued work despite poor sales and weak job prospects, known only through a review of the biography and an encyclopaedia, hence moderate confidence."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_popper_sep, src_popper_britannica, src_popper_completereview | 1919-1957 | scholarly entry + encyclopaedia + review of biography] SEP records that he trained as a cabinetmaker, qualified as a primary teacher and as a mathematics and physics teacher, studied psychology for his doctorate and treated music as an inspiration for his thinking; Britannica says he studied mathematics, physics and psychology and wrote on natural and social science; the Complete Review notes his volunteer work with Adler and his persisting interest in psychology and evolutionary biology. Documented breadth of training and subject matter, with the later work concentrated in philosophy of science."
+    },
+    "social_assertiveness": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_popper_completereview, src_popper_choice, src_popper_sep | 1946-1969 | reviews of a biography + scholarly entry] The Complete Review quotes Hacohen that Popper enforced clarity 'with an iron hand' in his seminar, that he was 'a complex person to deal with' and ultimately broke with many of his students; Oberdiek notes his 'difficult relations with his disciples'; SEP says that while he was not modest he took criticism very seriously. The pattern of forceful control of discussion is documented only through two reviews of a biography the agent did not read, so strong_inference at low confidence and dual-edged."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_popper_sep, src_popper_completereview, src_popper_iep | 1934-1983 | scholarly entry + review of biography + scholarly entry] SEP says he took criticism very seriously and spent much of his later years answering it ('Replies to My Critics', 1974); the Complete Review quotes Hacohen that Popper's recollections diverge from the documentary record ('this is not the way things really happened') and Oberdiek that Hacohen shows Popper imposed the telos of his mature philosophy on his development; IEP records that critics such as Kuhn and Lakatos judged the method unsatisfactory. Documented engagement with criticism but no clear case of revising a position, so a modest score with low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "칼 포퍼"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved after the bounded retry. Wikidata P18 'Karl Popper.jpg' is an LSE Library photograph by Franz Barta (c.1980) carried on Commons under a Flickr Commons 'no known copyright restrictions' template (a statement of no known restrictions, not a licence, for a photograph by a named photographer who died after 1990-era publication) and its Commons page sits in a deletion-request category; 'Karl Popper1990.jpg' (Lucinda Douglas-Menzies, same template) is likewise 'no known restrictions'. The Archives New Zealand 'Alien Registration File' scans (CC BY-SA 2.0 on the archive's Flickr account) are 1940s immigration document scans containing identity data, not a portrait, and the photographer of the embedded ID photo is unknown. Next step: obtain a licence or explicit public-domain statement from LSE Library/Barta's estate or Douglas-Menzies, or a pre-1930 portrait with a verifiable creator.",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Karl_Popper.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q81244 returned en label 'Karl Popper', born 1902-07-28, died 1994-09-17, P18 'Karl Popper.jpg'. SLUG/QID CHECK: no existing candidate, production file or src reference for slug karl-popper or QID Q81244 in the roster55 worktree. REGION: western_europe, nationalities AT and GB, following the repo precedents for Austrian-British philosophers (Wittgenstein AT/GB and Freud AT are western_europe); career base was New Zealand then London. VOCABULARY: occupations philosopher, scholar, teacher; field philosophy; impact domains historical/educational/scientific; tags philosopher, theorist, systematic_thinker; archetype scholarly_specialist, all existing labelled ids. ZERO POLITICS: The Open Society and Its Enemies and The Poverty of Historicism are treated as scholarship and no card or row scores political views or activism; his youthful Marxism and left-wing involvement, marriage, and Jewish-origin passages were deliberately not used. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Karl Popper' (https://www.britannica.com/biography/Karl-Popper), read via an Internet Archive copy. READ (6 cited non-Wikidata sources): Britannica, Stanford Encyclopedia (intro, life, critical evaluation), Internet Encyclopedia of Philosophy (criticism section), Complete Review of Hacohen, Choice review of Hacohen, Commons file pages. PERSPECTIVES: encyclopaedia; scholarly philosophy encyclopaedias; two reviews of the Hacohen biography; counter-voices: IEP survey of objections (Kuhn, Lakatos, Feyerabend, others), Oberdiek on the Plato/Hegel reading, and Lakatos quoted in SEP. NOT OPENED: Hacohen's biography itself (second-hand through two reviews, so rows resting on it are capped at 0.52 or below), Unended Quest (self), Kuhn/Lakatos/Feyerabend primary texts, LSE archive pages. The Kuhn-Lakatos-Feyerabend debate is used only as intellectual context. SELF-CALIBRATION pass reviewed independent_thinking (highest score), creative_originality (retrospective praise) and social_assertiveness (second-hand review dependence); none lowered."
+  }
+}

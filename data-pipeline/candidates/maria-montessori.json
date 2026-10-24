@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "maria-montessori",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Maria Montessori",
+    "aliases": [],
+    "wikidataId": "Q131117",
+    "birthYear": 1870,
+    "deathYear": 1952,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "teacher",
+      "writer"
+    ],
+    "fieldIds": [
+      "education",
+      "medicine"
+    ],
+    "impactDomains": [
+      "educational",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_montessori_wikidata",
+      "kind": "wikidata",
+      "title": "Maria Montessori (Q131117) -- verified live via the Wikidata API (2026-10-24): English label 'Maria Montessori', description 'Italian physician and educator (1870-1952)', Korean label, born 1870-08-31, died 1952-05-06, P18 'Maria Montessori (portrait).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q131117"
+    },
+    {
+      "id": "src_montessori_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Maria Montessori' (britannica.com, article text read in full; the AI-generated summary boxes on the page were ignored): Italian educator and originator of the Montessori system, based on belief in the creative potential of children, their drive to learn and the right of each child to be treated as an individual; medicine degree at the University of Rome 1896; assistant doctor at the psychiatric clinic, interest in intellectually disabled children; director of the State Orthophrenic School of Rome 1899-1901 where her methods 'proved extremely successful'; lectured in pedagogy at Rome 1900-07 and held a chair in anthropology 1904-08; first Casa dei Bambini opened 1907 in the San Lorenzo slum for children aged three to six; for forty years travelled through Europe, India and the United States lecturing, writing and establishing teacher-training programmes; the didactic materials (graduated beads, slabs for left-to-right movement, graduated cylinders) and 'periods of sensitivity'; books from Il metodo della pedagogia scientifica (1909; The Montessori Method, 1912) to The Absorbent Mind (1949). CANONICAL SIGNIFICANCE SOURCE. The passages on her 1922 inspector appointment and her 1934 departure from Fascist Italy are political context and were not used for any row.",
+      "url": "https://www.britannica.com/biography/Maria-Montessori"
+    },
+    {
+      "id": "src_montessori_ami",
+      "kind": "institution",
+      "title": "Association Montessori Internationale, 'Biography of Maria Montessori' (montessori-ami.org), read in full: schooling and the technical institute she entered intending to become an engineer; opposition from her father and a refusal at the medical school ('I know I shall become a doctor'), scholarships and private tuition, dissections alone because mixed classes were not allowed; 1897-98 papers to the National Medical Congress and the National Pedagogical Congress urging medical-pedagogical institutes and training for teachers of children with learning difficulties; her reading of Itard and Seguin and translation of Seguin's book into Italian after visiting Bicetre in 1899; co-director of the Orthophrenic School, 'a shift in her professional identity from physician to educator'; the Casa dei Bambini opened 6 January 1907; five Children's Houses by autumn 1908; first training course in 1909 for about 100 students; The Montessori Method reached the US in 1912 and was later translated into 20 languages; three trips to America; the AMI set up in 1929. Written by the organisation she founded, so admiring and affiliated; private-life and war-exile passages were not used for any row.",
+      "url": "https://montessori-ami.org/resource-library/facts/biography-maria-montessori"
+    },
+    {
+      "id": "src_montessori_ams",
+      "kind": "institution",
+      "title": "American Montessori Society, 'About Dr. Maria Montessori' (amshq.org), read in full: Casa dei Bambini opened 6 January 1907 in Rome; entered an all-boys technical institute at 13 to study engineering and then medicine, initially rejected by the University of Rome medical programme but admitted after additional courses, graduating 1896; co-director in 1900 of a new institute for special-education teachers using scientific observation and experimentation; the San Lorenzo centre for underserved children; first American Montessori school at Tarrytown, NY, 1911; extensive lecturing, writing and a teacher-training programme. Affiliated professional society (admiring); its remarks on feminism, peace education and wartime exile were not used for scoring.",
+      "url": "https://amshq.org/about-montessori/history-of-montessori/who-was-maria-montessori/"
+    },
+    {
+      "id": "src_montessori_seldin",
+      "kind": "biography",
+      "title": "Timothy David Seldin, 'Montessori, Maria (1870-1952)', in Encyclopedia of Education (Gale; via encyclopedia.com, read in full): her scientific approach drawn from Itard and Seguin, the 1900 Orthophrenic School reforms (dismissing caretakers who treated the children with contempt and teaching less-disturbed children to care for themselves and others), 1900-01 search of Western European medical libraries, the first Children's House (fifty children, one untrained caregiver), child-sized furniture and the replacement of a locked cabinet by open low shelves after children took materials themselves (an account derived from Montessori's own writing), over 1,000 US Montessori schools by 1925 and near disappearance by 1940, revival from the 1960s, and the author's argument that Kilpatrick's critique was largely unfounded. The author is a Montessori-movement educator and the entry is advocacy-leaning; the Kilpatrick book is mis-titled and mis-dated there (1922 'Montessori Reexamined') and that detail was not used.",
+      "url": "https://www.encyclopedia.com/people/social-sciences-and-law/education-biographies/maria-montessori"
+    },
+    {
+      "id": "src_montessori_biola",
+      "kind": "institution",
+      "title": "Biola University Talbot School of Theology, 'Maria Montessori', Database: Christian Educators of the 20th Century (biola.edu), read in full: her theory as developed through observation and experimentation; the schools' freedom and 'active discipline'; first US trip in 1913 (received by Edison and Helen Keller) and the 1915 San Francisco exposition glass classroom; her 1915 Carnegie Hall lecture introduced by John Dewey although he opposed her approach; the Association Montessori Internationale founded in Amsterdam in 1929; critiques: Dewey (1916) and W. H. Kilpatrick (1914) judged the method over-individual, rigid and adult-directed with pre-made materials, her disdain for fantasy play, and that children who could not 'normalize' were excluded; Elkind's comparison with Piaget. A university reference work that deliberately sets her critics alongside her defenders; its discussion of her religious views and her dealings with Church and state were not used for scoring.",
+      "url": "https://www.biola.edu/talbot/ce20/database/maria-montessori"
+    },
+    {
+      "id": "src_montessori_kilpatrick",
+      "kind": "archive",
+      "title": "William Heard Kilpatrick, 'The Montessori System Examined' (Houghton Mifflin, 1914), Internet Archive scan of the Berkeley copy: editor's introduction, preface, chapter outline and the concluding chapter read (the middle chapters were skimmed by outline only): a contemporary Columbia Teachers College critique after a visit to Rome; her debt to Seguin, 'insufficiency of her science', education as unfolding 'neither novel nor correct', reemphasis of freedom 'highly commendable', didactic apparatus and sense-training largely rejected, and the judgment that 'the Casa dei Bambini is after all her greatest contribution' and her greatest service the emphasis on a scientific conception of education and the practical use of liberty. Adversarial, contemporary, independent primary critique.",
+      "url": "https://archive.org/details/montessorisystem00kilprich"
+    },
+    {
+      "id": "src_montessori_kirkus",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of Marie Tennent Shephard's (1996) young-adult biography 'Maria Montessori' (kirkusreviews.com, URL under the slug rita-kramer as served, which returns this Shephard review), read in full (short): 'brilliant woman devoted to work, whose iron determination overcame all obstacles'; deals with problems as well as triumphs, including 'her own ego and inflexibility' interfering with the spread of her movement. A trade review of a biography, so second-hand; used only for one hedged row. Kramer's 1976 biography was not opened (only cited through AMI and Biola).",
+      "url": "https://www.kirkusreviews.com/book-reviews/rita-kramer/maria-montessori/"
+    },
+    {
+      "id": "src_montessori_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Maria Montessori LCCN2014694934.jpg' (wikitext and API record) and the Library of Congress Flickr Commons record 4606574700 (both opened; loc.gov itself is bot-blocked, 403): Bain News Service glass negative, 'between ca. 1910 and ca. 1915', George Grantham Bain Collection, LC-B2-2925-9, rights note 'No known restrictions on publication'; Commons tags PD-Bain and PD-old-70-1923; original 5779 x 4209. Checked for the portrait's rights; not used for scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Maria_Montessori_LCCN2014694934.jpg"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_montessori_ami, src_montessori_seldin | 1899-1901 | affiliated biography + encyclopedia entry] AMI says she visited Bicetre in Paris in 1899 and was so keen to understand Seguin's work that she translated his book into Italian; Seldin says that in 1900-01 she combed the medical libraries of western Europe for earlier work on educating children with disabilities and found Itard and Seguin. Two sources describe the same directed search for prior knowledge before she designed her own method. Scored moderate because both sources are admiring and the search served a defined practical goal."
+    },
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_montessori_britannica, src_montessori_seldin, src_montessori_kilpatrick, src_montessori_ami | 1900-1912 | encyclopaedia + encyclopedia entry + 1914 critique + affiliated biography] Britannica describes her self-correcting didactic materials and the 'periods of sensitivity' as the basis of a distinct system, and Seldin says child-sized furniture and low open shelves 'contradicted all educational practice' of the period; but AMI and Seldin trace the materials to Itard and Seguin, and Kilpatrick (1914) says the ideas of auto-education and liberty were old and that her largest original contribution was the Casa dei Bambini itself. The originality is real but lies in adapting and applying earlier special-education work to ordinary young children. SELF-CALIBRATION (agent): first-pass 70 / 0.60 lowered to 66 / 0.58 because Kilpatrick, the one non-admiring source, denies theoretical novelty and the materials are credited to predecessors."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_montessori_ami, src_montessori_ams, src_montessori_seldin | 1890-1907 | two professional-society pages + encyclopedia entry] AMI records that her father opposed medical school, that the medical-school head refused her at first, that she worked alone on dissections because mixed classes were not allowed, and that she paid for most of her studies through scholarships and tutoring; AMS records the initial rejection and her admission after extra courses; Seldin adds that the Italian Ministry of Education did not welcome her ideas and denied her access to school-aged children, after which she took the 1907 day-care opportunity. Three sources agree on dated obstacles and her continuing; all three are friendly, so confidence is moderate."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_montessori_ami, src_montessori_ams, src_montessori_seldin, src_montessori_biola | 1900-1912 | two societies + encyclopedia entry + university reference] AMS and AMI describe the Orthophrenic School as a place where she refined Itard's and Seguin's materials through scientific observation and experimentation; Seldin says she evolved the method by trial and error, kept only the materials the children used, and replaced locked cupboards with open shelves after seeing the children choose work themselves; Biola says her theory 'developed through observation and experimentation', while also noting that children who could not 'normalize' were excluded so her experiments were controlled. Repeated documented trying-out of materials and settings; the cupboard episode comes from her own account as retold in one entry."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_montessori_britannica, src_montessori_kilpatrick, src_montessori_biola, src_montessori_seldin | 1907-1916 | encyclopaedia + 1914 critique + university reference + encyclopedia entry] Britannica quotes her scorn for conventional classrooms where children are 'fastened each to his place' like mounted butterflies; Biola records that her view of the child as able to build itself was criticised from the traditional Catholic view and that Dewey and Kilpatrick judged her system too rigid and individualistic; Seldin records that the Ministry would not accept her ideas. She built a method against the schooling of her day and held to it under critique; the critics' objections (rigid materials, little fantasy play) are why the impact is dual-edged."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_montessori_britannica, src_montessori_ami | 1886-1908 | encyclopaedia + affiliated biography] AMI records that she entered a technical institute intending to become an engineer, studied physics, mathematics and natural sciences before medicine, and then moved from physician to educator; Britannica records a chair in hygiene at a women's college, lectures in pedagogy and a chair in anthropology at Rome while she studied philosophy, psychology and education. A documented movement across engineering, medicine, anthropology and pedagogy, though the sources treat education as the main line of work."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_montessori_ami, src_montessori_ams, src_montessori_britannica, src_montessori_seldin | 1897-1907 | two societies + encyclopaedia + encyclopedia entry] AMI records her 1897-98 papers arguing that inadequate provision for children with mental and emotional disorders contributed to delinquency and asking for medical-pedagogical institutes and special teacher training; Britannica and AMS record that her first Casa dei Bambini was for children of the San Lorenzo slum district; Seldin describes her dismissing contemptuous caretakers at the Orthophrenic School and describes the first Children's House as serving working-class children. The documented focus is on improving educational provision for poor and disabled children. Her political activity (feminism, peace advocacy, relations with Church and state) is not scored."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_montessori_ami, src_montessori_britannica, src_montessori_biola, src_montessori_seldin | 1909-1915 | affiliated biography + encyclopaedia + university reference + encyclopedia entry] AMI reports a first training course for about 100 students in 1909, a US edition that reached second place on the non-fiction bestseller list and later translations into 20 languages; Britannica says she spent forty years lecturing, writing and establishing teacher-training programmes across Europe, India and the United States; Biola says she was received like a celebrity in the US in 1915 and demonstrated her classroom in a glass room at the San Francisco exposition; Seldin says thousands of visitors came after the first Children's House and over 1,000 US schools existed by 1925. Documented success in winning adherents; the schools' later decline and the critics (Kilpatrick, Dewey) show that she did not persuade the professional mainstream, so the score stays moderate. SELF-CALIBRATION (agent): reviewed and kept (four sources converge, with concrete numbers and dates)."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_montessori_ami, src_montessori_britannica, src_montessori_kirkus | 1909-1929 | affiliated biography + encyclopaedia + trade review] AMI says she founded the Association Montessori Internationale in 1929 to maintain her work and Britannica says she built teacher-training programmes in several countries; Kirkus's review of a biography says her ego and inflexibility sometimes interfered with the spread of her movement. The organisation-building is documented, but the critical half reaches us only through a short trade review of a book that was not opened. SELF-CALIBRATION (agent): first-pass 66 / 0.50 lowered to 62 / 0.46 because the dual-edged claim rests on a second-hand review sentence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마리아 몬테소리"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/maria-montessori-bain-1910s.jpg",
+    "width": 1200,
+    "height": 874,
+    "source": "Library of Congress, George Grantham Bain Collection, glass negative 'Maria Montessori' (LC-B2-2925-9, LCCN 2014694934), publisher Bain News Service, dated by the LoC 'between ca. 1910 and ca. 1915'; opened through Wikimedia Commons 'Maria Montessori LCCN2014694934.jpg' (PD-Bain, PD-old-70-1923) and the LoC's own Flickr Commons record (rights note 'No known restrictions on publication'). Original file 5779 x 4209; saved downscaled only to 1200 x 874. The negative also shows an unidentified man blurred at left; the image was not cropped.",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Maria_Montessori_LCCN2014694934.jpg",
+    "attribution": "Photo: Bain News Service, c. 1910-1915, Library of Congress, public domain",
+    "attributionUrl": "https://www.flickr.com/photos/library_of_congress/4606574700",
+    "creator": "Bain News Service",
+    "date": "c. 1910-1915",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Maria_Montessori_LCCN2014694934.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q131117 returned en label 'Maria Montessori', description 'Italian physician and educator (1870-1952)', ko label, born 1870-08-31, died 1952-05-06; the lead's slug matches. SLUG/QID CHECK: no existing candidate, production file or src reference for slug maria-montessori or Q131117 in the roster55 worktree. REGION: southern_europe, nationality IT (born Chiaravalle, Italy). ZERO POLITICS: primary identity is physician and educator, not a political figure; her feminist and peace advocacy, her relations with the Fascist regime (refusal to join the youth movement, the 1934 and 1936 closures, her 1922 inspector role) and the Church are political or religious context and are NOT scored. VOCABULARY: occupations physician, teacher, writer; fields education, medicine; impact domains educational/social; tags founder, nonconformist; archetypes social_influencer, independent_creator are existing ids with EN+KO labels ('educator' is unlabeled and was not used; 'scientist' was deliberately not used because Kilpatrick disputes the adequacy of her science). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Maria Montessori' (https://www.britannica.com/biography/Maria-Montessori), article text read in full. READ (8 cited non-Wikidata sources): Britannica; Association Montessori Internationale biography; American Montessori Society biography; Seldin in the Encyclopedia of Education (via encyclopedia.com); Biola University Talbot database entry; Kilpatrick's 1914 'The Montessori System Examined' (Internet Archive scan; preface, editor's introduction, outline and concluding chapter read, middle chapters only by outline); Kirkus review of Shephard's biography (short); Commons/LoC Flickr records for the portrait. NOT opened: Rita Kramer's 1976 biography, E. M. Standing's biography, Montessori's own books (read only through quotations in AMS/AMI/Biola), BBC Great Lives episode, the UNESCO Prospects portrait (URL returned 404), the Nebraska PDF (403), loc.gov pages (403 bot block; the LoC data was read through its Flickr Commons record and the Commons page). PERSPECTIVES: general encyclopaedia (Britannica); two Montessori professional societies (affiliated and admiring); an advocacy-leaning encyclopedia entry; a university reference that sets critics beside defenders; a contemporary adversarial scholarly critique (Kilpatrick 1914, also citing Dewey's 1916 objection through Biola); a trade review noting her inflexibility. COUNTER-VOICES: Kilpatrick denies theoretical novelty and rejects the apparatus and sense-training; Biola reports Dewey's and others' charge of rigidity and individualism, disdain for fantasy play, and exclusion of children who could not 'normalize'; Kirkus mentions ego and inflexibility. At least one substantive non-self behavioural source: Kilpatrick (visited Rome and observed the schools), Biola, and Seldin. CALIBRATION: nine rows, none above 72 or 0.62, because the behavioural sources are largely friendly society pages and encyclopedia entries and no full biography was read. No personal-life material (the 1898 birth of her son, her relationships, her mother's death, her faith journey, wartime internment) is used for any row, card or interpretation. The Seldin entry's claim that she was 'the first' to build child-sized furniture and its 'first woman physician' phrasing were not repeated because other sources say 'one of the first'. SELF-CALIBRATION (agent): rows reviewed: creative_originality (lowered 70/0.60 to 66/0.58: Kilpatrick denies theoretical novelty and the materials are credited to Itard and Seguin), leadership_drive (lowered 66/0.50 to 62/0.46: the dual-edged half rests on one second-hand trade-review sentence), persuasiveness (kept: four sources converge with concrete numbers and dates, and the mixed US reception is already in the rationale). BROAD FLAG: none beyond the general point that no full biography was read, so the lead may prefer a Kramer or Standing read before raising any row. PORTRAIT: Bain News Service glass negative (LoC LC-B2-2925-9) dated by the LoC 'between ca. 1910 and ca. 1915', a lifetime photograph of Montessori taken in her forties; Commons tags PD-Bain and PD-old-70-1923, and the LoC's Flickr Commons record says 'No known restrictions on publication'. The basis understood: a US news-agency photograph made and distributed in the 1910s, so public domain in the US by age (published before 1931); the individual photographer is not named (corporate creator). The loc.gov rights guide statement for the Bain collection is rendered by script and could not be read, and loc.gov blocks automated access, so no institution-level conflicting notice could be checked directly; the Flickr Commons record is the LoC's own and shows no restriction. The P18 lead 'Maria Montessori (portrait).jpg' (Nationaal Archief, author unknown, date unknown) was rejected because neither creator nor date is documented. Image downscaled from 5779 x 4209 to 1200 x 874 (no upscaling), not cropped, and viewed: a woman in a hat and fur-collared coat labelled 'Maria Montessori' on the negative, with a blurred unidentified man at left. Kind set to likeness (lifetime photograph)."
+  }
+}

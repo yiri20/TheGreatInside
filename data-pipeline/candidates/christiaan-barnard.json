@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "christiaan-barnard",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Christiaan Barnard",
+    "aliases": [
+      "Chris Barnard",
+      "Christiaan Neethling Barnard"
+    ],
+    "wikidataId": "Q188803",
+    "birthYear": 1922,
+    "deathYear": 2001,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "ZA"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_barnard_wikidata",
+      "kind": "wikidata",
+      "title": "Christiaan Barnard (Q188803) -- verified live via the Wikidata API (2026-10-24): English label 'Christiaan Barnard', description 'South African cardiac surgeon', born 1922-11-08, died 2001-09-02, Korean label '크리스천 버나드', P18 images from Anefo/Wikimedia Commons. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q188803"
+    },
+    {
+      "id": "src_barnard_saho",
+      "kind": "institution",
+      "title": "South African History Online, 'Christiaan Neethling Barnard' (biography record B-0007829), read in full. CANONICAL SIGNIFICANCE SOURCE: describes the 3 December 1967 Groote Schuur transplant of Denise Darvall's heart into Louis Washkansky as the first human-to-human heart transplantation operation by a team of about thirty, Washkansky's death from pneumonia 18 days later, the second transplant into Philip Blaiberg in January 1968, the 1974 double heart transplant, his Minnesota training from 1956, the introduction of open-heart surgery in Cape Town, his valve prostheses, and criticism from medical critics that the work was premature given high fatality rates and limited knowledge of rejection. Heritage-institution biography; the page does not discuss apartheid or Hamilton Naki, and its personal-life passages were not used.",
+      "url": "https://www.sahistory.org.za/people/christiaan-neethling-barnard"
+    },
+    {
+      "id": "src_barnard_brink",
+      "kind": "biography",
+      "title": "Johan G. Brink and Joannis Hassoulas, 'The first human heart transplant and further advances in cardiac transplantation at Groote Schuur Hospital and the University of Cape Town' (Cardiovascular Journal of Africa, 2009; PMC open access), read in full via a page fetch: insider account from the Chris Barnard Division of Cardiothoracic Surgery; no brain-death law existed in 1967 and Barnard had the State forensic pathologist witness the donor's ventilation being stopped; Washkansky was far from an ideal recipient and the team treated lung infiltrates as rejection, which the authors call a lethal error; the modified atrial technique used for Blaiberg, who left hospital but whose autopsy showed transplant coronary disease; the piggy-back heterotopic transplant after a 1973 failure, hypothermic donor-heart storage, two 1977 xenotransplants that failed and were abandoned; quotes critics calling transplantation unethical palliation and describes Barnard's 'unqualified, almost nasty' opposition to a proposed US ethics commission. Institutional and admiring, but candid about errors; Naki is not mentioned.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4200566/"
+    },
+    {
+      "id": "src_barnard_uct_archive",
+      "kind": "archive",
+      "title": "University of Cape Town Libraries, AtoM@UCT authority record 'Barnard, Christiaan Neethling' (1922-2001), read in full: Dutch Reformed minister's son from Beaufort West; qualified MB ChB at UCT in 1946; general practice in Ceres; Registrar at Groote Schuur; Dazian Foundation bursary to Minnesota in 1956, where under Professor Owen Wangensteen he earned an MS and PhD in about two years and nine months, which the record calls a university record; returned in 1958; professor from 1969; retired 1983; lists his books. An archive record compiled by the university library.",
+      "url": "https://atom.lib.uct.ac.za/index.php/chris-barnard"
+    },
+    {
+      "id": "src_barnard_naki_oxford",
+      "kind": "institution",
+      "title": "Conor Hennessy, Elisha Ngetich and Devon Brameier, 'Hamilton Naki: From gardening to greatness' (Surgeon Profile Series, Journal of the Nuffield Department of Surgical Sciences, University of Oxford), read in full from the PDF: describes Naki's laboratory role in Cape Town's cardiac research and teaching; says evidence suggests he had no part in the actual 1967 surgery, that 2005 obituaries overstated his involvement and several outlets later issued corrections, that Marius Barnard denied his involvement, and quotes UCT surgeon David Dent in the BMJ on 'a fiction'. COUNTER-VOICE and factual correction source on credit; it concerns Naki more than Barnard.",
+      "url": "https://www.tropicalmedicine.ox.ac.uk/news/hamilton-naki-from-gardening-to-greatness"
+    },
+    {
+      "id": "src_barnard_economist_naki",
+      "kind": "press",
+      "title": "The Economist obituary of Hamilton Naki (June 2005; copy hosted by the University of Texas Africa Access project), read in full: reports that Naki took part in the 1967 transplant and was recorded as a gardener, and that Barnard wanted him on the team. READ AS A CONTESTED CLAIM ONLY: the Oxford surgical journal profile says such 2005 obituary claims were later corrected, so this source is not used to support any row.",
+      "url": "https://www.laits.utexas.edu/africa/ads/808.html"
+    },
+    {
+      "id": "src_barnard_portrait",
+      "kind": "archive",
+      "title": "Nationaal Archief (Dutch National Archives), Fotocollectie Anefo, 'Aankomst Dr. Chris Barnard op Schiphol. Hier tijdens persconferentie', 8 May 1968, photographer Ron Kroon, black-and-white negative, file 921-3308 (access 2.24.01.05), with the Wikimedia Commons file page (template CC0, rights holder Nationaal Archief); checked for the portrait only.",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab40021e-d0b4-102d-bcf8-003048976d84"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_barnard_brink, src_barnard_saho | 1967-1977 | insider journal account + heritage biography] Brink and Hassoulas say the first transplant took 'immense courage' in a country with no brain-death or transplant law, although Barnard had the state forensic pathologist witness the donor's death; the recipient was far from ideal; SAHO reports that medical critics called the work premature given high fatality rates; he went on to two 1977 xenotransplants that both failed. The willingness to operate before the field was ready is documented from an admiring insider and a neutral biography, while the cost (poor early survival, patient deaths) is reported by the same sources, hence dual-edged. SELF-CALIBRATION (agent): reviewed as a top-risk row (highest score, insider-dependent); kept because SAHO independently reports the criticism of prematurity and the failed xenotransplants, and the legal caution is documented too."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_barnard_brink | 1967-1977 | insider journal account] The article reports that after Washkansky's death the team recognised that treating lung infiltrates as rejection was a lethal error, that Blaiberg's operation modified the atrial technique to protect the sinus node (later widely adopted), that a 1973 failure led to the piggy-back heterotopic transplant, and that the 1977 xenotransplants were abandoned after both patients died. Several documented adjustments after failures, but from one insider account that is not independently corroborated here and does not attribute each decision to Barnard personally."
+    },
+    "creative_originality": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_barnard_saho, src_barnard_brink | 1960s-1970s | heritage biography + insider journal account] SAHO credits him with developing UCT mitral and aortic valve prostheses from 1962 and the first double heart transplant in 1974; Brink and Hassoulas describe the piggy-back method, hypothermic donor-heart storage and brain-death research from his programme. The first transplant itself followed earlier animal-transplant work by others, and the sources credit a team and the programme rather than Barnard alone, so the originality rating is moderate and low confidence."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_barnard_brink, src_barnard_saho | 1968-1970 | insider journal account + heritage biography] Brink and Hassoulas describe his opposition to a proposed US commission on the ethics of medical advances as 'unqualified, almost nasty' and his 1970 statement arguing strongly for continuing transplantation; SAHO says the media sought him out for his 'forthright views' and that he spoke out on end-of-life decisions against his professional body's official line. Assertive public advocacy in several episodes, but the characterisations are second-hand and the sources are partly admiring."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_barnard_uct_archive, src_barnard_saho | 1953-1962 | university archive record + heritage biography] The UCT archive record says he earned an MS and PhD at Minnesota in about two years and nine months, described as a university record, after M.Med. and M.D. degrees at UCT in 1953; SAHO adds a 1960 bursary-funded trip to study heart and head transplant techniques in dogs and that he introduced open-heart surgery and intensive-care nursing to Cape Town. A pattern of fast, purposeful training steps, but described by biographical records without independent testimony on motive, so moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "크리스천 버나드"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/christiaan-barnard-kroon-1968.jpg",
+    "width": 785,
+    "height": 1200,
+    "source": "Nationaal Archief (Dutch National Archives), Fotocollectie Anefo, file 921-3308 'Aankomst Dr. Chris Barnard op Schiphol. Hier tijdens persconferentie', 8 May 1968, photographer Ron Kroon / Anefo, rights holder Nationaal Archief, black-and-white negative; via Wikimedia Commons (file page carries the Nationaal Archief template and CC0). Original 2413 x 3691; downscaled only (never upscaled) to 785 x 1200.",
+    "license": "CC0 1.0 (Nationaal Archief, via Wikimedia Commons)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Ron Kroon / Anefo, 8 May 1968, Nationaal Archief, CC0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Aankomst_Dr._Chris_Barnard_op_Schiphol._Hier_tijdens_persconferentie,_Bestanddeelnr_921-3308.jpg",
+    "creator": "Ron Kroon / Anefo",
+    "date": "1968-05-08",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab40021e-d0b4-102d-bcf8-003048976d84"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q188803 returned en label 'Christiaan Barnard', description 'South African cardiac surgeon', born 1922-11-08, died 2001-09-02, ko label '크리스천 버나드'; the lead's identity was correct. SLUG/QID CHECK: no candidate or src/data reference to christiaan-barnard or Q188803 in the roster55 worktree. REGION sub_saharan_africa, nationality ZA. VOCABULARY: physician and field medicine are existing labelled ids; there is no 'surgeon' occupation label in src/core/i18n, so physician is used (flag for lead: a 'surgeon' or 'cardiac_surgeon' occupation label does not exist). Tag innovator and archetype technical_innovator are labelled. ZERO POLITICS: his work is medical; apartheid-era context, his political commentary, his role as an unofficial national ambassador, his desegregation of hospital patients as a policy matter and any nationalist exploitation of the transplant are unscored. EXCLUDED: marriages and family, his 1983 retirement due to arthritis and his death (no inference from illness), euthanasia advocacy, novels, publicity-seeking judgements, Wikipedia. CANONICAL SIGNIFICANCE SOURCE: South African History Online 'Christiaan Neethling Barnard' (https://www.sahistory.org.za/people/christiaan-neethling-barnard). READ (5 substantive sources + portrait record): SAHO, Brink and Hassoulas 2009 (PMC, via page fetch), UCT AtoM authority record, Oxford surgical journal Naki profile (PDF text), The Economist Naki obituary (UT Austin copy; contested claim only). PERSPECTIVES: heritage biography, an insider department article that is candid about errors, a university archive record, an independent Oxford profile that corrects the credit story. COUNTER-VOICES: SAHO and Brink on critics who called the work premature or unethical; the Oxford profile on Hamilton Naki, which says evidence suggests he did not take part in the 1967 operation and that Marius Barnard denied it; the 'Hamilton Naki directly involved' claim in The Economist is explicitly treated as corrected, not as fact. NOT opened: Barnard's own autobiography One Life, Cooper and Hawthorne books, the BMJ Dent editorial (known only via the Oxford profile), Africa Check (403), Britannica (403), the Maltese editorial (read, rejected as an uncritical retelling that repeats the Naki claim). KNOWN LIMITS: the heart-transplant work was a team and programme effort and predecessors worked on the technique, which is why creative_originality is moderate; behavioural evidence is thin and mostly from institutional accounts, so only five rows are scored, none above 74. PORTRAIT: Wikidata P18 offers four Barnard images; the Anefo photo by Ron Kroon was chosen because Commons records photographer, date, archive file number and the Nationaal Archief as rights holder under CC0. The Nationaal Archief's own record page is script-rendered and its rights wording could not be read by automated fetch, so the institutional statement was not directly confirmed, only the Commons record and the archive's known open-data release of the Anefo collection; no conflicting notice was found. SELF-CALIBRATION: rows reviewed: risk_tolerance (highest score) and belief_updating (single insider source); none lowered, the first because SAHO independently reports criticism and failures, the second because it was already set at 0.55. Flag for lead: occupation label gap; portrait institutional page unreadable."
+  }
+}

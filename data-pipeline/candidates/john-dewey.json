@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-dewey",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John Dewey",
+    "aliases": [],
+    "wikidataId": "Q131805",
+    "birthYear": 1859,
+    "deathYear": 1952,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "scholar",
+      "teacher"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "education"
+    ],
+    "impactDomains": [
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "theorist"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dewey_wikidata",
+      "kind": "wikidata",
+      "title": "John Dewey (Q131805) -- verified live via the Wikidata API (2026-10-24): English label 'John Dewey', description 'American philosopher, psychologist, and educational reformer (1859-1952)', Korean label '존 듀이', born 1859-10-20, died 1952-06-01, P18 'John Dewey in 1902.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q131805"
+    },
+    {
+      "id": "src_dewey_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'John Dewey' (britannica.com; the live site returns 403, so the article was read through an Internet Archive copy, introduction, career and philosophy sections; the AI summary boxes were ignored): American philosopher and educator, cofounder of pragmatism, pioneer of functional psychology, innovative theorist of democracy and leader of the progressive movement in education; shift at Michigan from Hegel toward the new experimental psychology of Hall and James; 1894 move to Chicago where he developed his pedagogy in the Laboratory Schools; 1904 move to Columbia where most of his career and Experience and Nature (1925) fall; later writing on aesthetics, politics and religion; the common theme of a democratic society of informed and engaged inquirers; his critique of the Western tradition of changeless being and his account of nature, experience and 'the construction of good'. CANONICAL SIGNIFICANCE SOURCE. The political-activism material is not used for scoring.",
+      "url": "https://www.britannica.com/biography/John-Dewey"
+    },
+    {
+      "id": "src_dewey_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy, 'John Dewey' (David L. Hildebrand, plato.stanford.edu), life, chronology, philosophy-of-education and reception passages read; logic, ethics and aesthetics sections skimmed: Hegelian beginnings and the move to experimental psychology; 1894 invitation to lead philosophy, psychology and pedagogy at Chicago and the 'Chicago School' of functionalism with Mead and Angell; the Laboratory School 'to test psychological and educational theories' with Alice Dewey as principal 1896-1904; 1904 resignation after conflicts over the Laboratory School and move to Columbia and Teachers College; Democracy and Education (1916) as the fullest statement of his philosophy; his reconstruction of philosophy as 'the general theory of education'; critics' charges that his account of experience could not yield a metaphysics (Bernstein) and Rorty's later attack on the term 'experience'. Entry passages on marriages, bereavements, religion and political activism were not used.",
+      "url": "https://plato.stanford.edu/entries/dewey/"
+    },
+    {
+      "id": "src_dewey_iep",
+      "kind": "institution",
+      "title": "Internet Encyclopedia of Philosophy, 'John Dewey' (iep.utm.edu), biography and theory-of-knowledge sections read, remainder skimmed: founded and directed a laboratory school at Chicago that gave material for The School and Society (1899); 'disagreements with the administration over the status of the Laboratory School' led to his 1904 resignation; Studies in Logical Theory (1903) with Chicago colleagues and students; How We Think (1910) and Democracy and Education (1916); the pragmatic theory of truth met strong opposition, notably from Bertrand Russell, and Dewey later preferred 'warranted assertibility'; Logic: The Theory of Inquiry (1938), Art as Experience (1934), Knowing and the Known (1949, with Arthur Bentley). Passages on the Trotsky commission and public life were not used for scoring.",
+      "url": "https://iep.utm.edu/john-dewey/"
+    },
+    {
+      "id": "src_dewey_bernstein",
+      "kind": "biography",
+      "title": "Richard J. Bernstein, 'Dewey, John', in Encyclopedia of Philosophy (1967 edition, via encyclopedia.com), read in part (the experience, nature, art, inquiry and critique sections): Dewey's project of a new empiricism combining Greek naturalism with experimental method, 'The Reflex Arc Concept in Psychology' (1896), critics who questioned the status of experience within nature and charged anthropomorphism, Dewey's attempt to answer them in Experience and Nature (1925), Art as Experience (1934) as a surprise to readers who thought his philosophy left no place for art, his 'instrumentalism' described as at least an overstatement, and the charge that his analyses of moral judgment were not wholly consistent. A scholarly, sympathetic but critical contemporary-to-1960s assessment by a Dewey specialist.",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/philosophy-biographies/john-dewey"
+    },
+    {
+      "id": "src_dewey_zilversmit",
+      "kind": "biography",
+      "title": "Arthur Zilversmit, 'Dewey, John (1859-1952)', in Encyclopedia of Children and Childhood in History and Society (Gale, via encyclopedia.com), read in full: Dewey as a founder and leading philosopher of Progressive education; founding the Chicago Laboratory School 'to test scientifically his ideas'; The School and Society (1899) and the four natural interests of children; his insistence that teachers guide rather than merely free children and that the curriculum be built from both interests and subject matter; his followers, notably Kilpatrick, emphasised the child's interests at the expense of subject matter, which Dewey himself warned against in quoted passages; the postwar reaction against Progressive education, the 1950s blame for academic shortcomings and the waning of his reputation. The author is a historian of progressive education (Changing Schools, 1993), so this is an independent, critical-historical perspective.",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/philosophy-biographies/john-dewey"
+    },
+    {
+      "id": "src_dewey_soltis",
+      "kind": "biography",
+      "title": "Jonas F. Soltis, 'Dewey, John (1859-1952)', in Encyclopedia of Education (Gale, via encyclopedia.com), read in full: Johns Hopkins doctorate and Michigan; 1894 Chicago chairmanship of philosophy, psychology and pedagogy; the Laboratory School 'where he scientifically tested, modified, and developed' his ideas; The School and Society and The Child and the Curriculum as lectures given to raise money and support for the school; President Harper merging the laboratory school with the university training school without consulting Dewey, so that he resigned in 1904; Columbia and Teachers College for twenty-six years and the dispersion of his ideas by disciples; Experience and Education (1938), in which he 'recognized and rebuked the many excesses' of the Progressive movement; Knowing and the Known (1949). Educational philosopher's entry, sympathetic and detailed on the school episodes.",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/philosophy-biographies/john-dewey"
+    },
+    {
+      "id": "src_dewey_kirkus",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of Robert B. Westbrook, 'John Dewey and American Democracy' (Cornell University Press, 1991) (kirkusreviews.com), read in full (one paragraph): a comprehensive intellectual biography tracing Dewey's roughly seventy-year career with emphasis on philosophy and politics, mentioning life circumstances only as they influenced his writings. Used only to show that a modern full biography exists and what it emphasises; the biography itself was not opened, so no row relies on it.",
+      "url": "https://www.kirkusreviews.com/book-reviews/robert-b-westbrook/john-dewey-and-american-democracy/"
+    },
+    {
+      "id": "src_dewey_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'John Dewey in 1902.jpg' (wikitext and API record) and creator record 'Creator:Eva Watson-Schutze' with Wikidata Q433566 (American photographer and painter, 1867-1935, checked live): photograph by Eva Watson-Schutze, 1902, scanned from Louis Menand, The Metaphysical Club (2001), p. 317, original photograph in the John Dewey Photograph Collection, Special Collections Research Center, Morris Library, Southern Illinois University Carbondale; tagged PD-old; 1001 x 1309. The SIU Center for Dewey Studies page was opened and gives no photograph rights statement. Checked for the portrait's rights; not used for scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:John_Dewey_in_1902.jpg"
+    }
+  ],
+  "rows": {
+    "belief_updating": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dewey_britannica, src_dewey_iep, src_dewey_bernstein, src_dewey_soltis | 1884-1938 | encyclopaedia + scholarly entries] Britannica says his interests shifted from Hegel to the new experimental psychology of Hall and James; IEP says he later suspected that 'truth' and 'knowledge' were obscured by inherited meanings and replaced them with 'warranted assertibility'; Bernstein says that, sensitive to critics of his account of experience, he tried to answer them in Experience and Nature (1925); Soltis says that in Experience and Education (1938) he rebuked the excesses of the Progressive movement he had inspired. Several documented, dated revisions of position across a long career, from independent entries."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dewey_britannica, src_dewey_sep, src_dewey_bernstein, src_dewey_zilversmit | 1896-1934 | encyclopaedia + scholarly entries] Britannica calls him a cofounder of pragmatism, a pioneer of functional psychology and a leader of progressive education; SEP credits him with the 'Reflex Arc' paper and with recasting philosophy as the general theory of education; Bernstein describes his new empiricism and the surprise of Art as Experience for readers who thought he had no place for art. The originality is well documented, but praise is largely retrospective, Bernstein and others list unresolved difficulties in the theory, and Zilversmit notes that much of what followed in his name distorted it, so confidence stays moderate. SELF-CALIBRATION (agent): reviewed and kept (independent entries converge and the critics are already reflected in the confidence)."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dewey_sep, src_dewey_iep, src_dewey_soltis, src_dewey_zilversmit | 1896-1904 | scholarly entries + encyclopedia entries] SEP says he founded the Laboratory School 'a site to test psychological and educational theories'; Soltis says he 'scientifically tested, modified, and developed' his ideas there and that The School and Society and The Child and the Curriculum grew from it; Zilversmit says he founded it 'to test scientifically his ideas for improving schooling'; IEP says the school let him apply his developing ideas on pedagogical method directly. Four sources describe the same documented experimental school, treated as one episode with one main shared account; the sources do not describe the school's day-to-day revisions, so confidence is moderate."
+    },
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dewey_britannica, src_dewey_sep, src_dewey_iep, src_dewey_bernstein | 1887-1949 | encyclopaedia + scholarly entries] Britannica calls him philosopher, psychologist, theorist of democracy and educator, with later writing on aesthetics, politics and religion; SEP records his presidency of the American Psychological Association and the American Philosophical Association, his founding of the Laboratory School and his later books on art and religion; IEP lists logic (1938), art (1934), valuation (1939) and Knowing and the Known; Bernstein discusses his art theory and his metaphysics. Documented work of recognised weight in philosophy, psychology and education, with writing in aesthetics and religion as well, from independent entries."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dewey_britannica, src_dewey_sep, src_dewey_iep, src_dewey_bernstein | 1896-1925 | encyclopaedia + scholarly entries] Britannica says he rejected the Western assumption of changeless true being and the dualism between being and experience; SEP says he criticised the dualisms of mind and body, nature and culture, self and society, and developed his view against the traditional 'spectator' picture; IEP and Bernstein record that the pragmatic theory of truth met strong opposition, notably from Bertrand Russell, and that critics questioned the status of experience. He built and kept a position against the dominant tradition and its leading opponents; the cost is in the confidence rather than the impact because the entries do not show him paying a professional price for it."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dewey_sep, src_dewey_iep, src_dewey_soltis | 1894-1904 | scholarly entries + encyclopedia entry] SEP says he accepted the Chicago chair to put philosophy, psychology and pedagogy 'into active collaboration', hired George Herbert Mead and James Rowland Angell, and with them and others developed psychological functionalism, which William James dubbed the 'Chicago School'; IEP says Studies in Logical Theory (1903) collected essays by his Chicago colleagues and students; Soltis records the Laboratory School's running with his wife as principal and Teachers College ties. A documented pattern of building a working group, but the entries describe it in a few sentences without behavioural detail, so this is a strong inference at modest confidence."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dewey_sep, src_dewey_soltis, src_dewey_zilversmit, src_dewey_britannica | 1896-1916 | scholarly entries + encyclopedia entries] SEP says he treated philosophy as 'the general theory of education' and wrote Democracy and Education as the fullest statement of his philosophy; Soltis says The School and Society and The Child and the Curriculum were lectures given to raise money and support for the Laboratory School; Zilversmit says he sought a curriculum built on children's interests and on subject matter, and Britannica says the theme of his work was promoting human interests through a democratic society of informed inquirers. His political activism is not scored here; the evidence is his sustained work on schooling and the public case for it."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_dewey_soltis, src_dewey_zilversmit, src_dewey_iep | 1904-1938 | encyclopedia entries + scholarly entry] Soltis says that in 1938 he 'recognized and rebuked' the excesses of the Progressive movement and challenged those calling themselves Progressives; Zilversmit quotes him warning that the new education was in danger of taking development 'in altogether too formal and empty a way' and records that his followers, notably Kilpatrick, emphasised the child's interests at the expense of subject matter; IEP and Soltis record that disagreement with the Chicago administration over the school led him to resign in 1904, and IEP notes his philosophy's strong opposition from Russell. He was willing to criticise allies and to leave a post over a dispute; the sources do not describe how he handled the disputes face to face, hence moderate confidence. The 1904 episode is also scored in the turning point only as a career change."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dewey_britannica, src_dewey_sep, src_dewey_bernstein | 1896-1925 | encyclopaedia + scholarly entries] SEP describes a career-long quest to integrate experience as dynamic wholes and says he reconstructed mind and body, nature and culture, self and society as parts of larger continuities; Britannica describes his rejection of the being-versus-experience dualism and his account of nature as processes; Bernstein describes his 'transaction' model of natural levels. These are descriptions of the structure of his theory by commentators rather than documented episodes of his working method, so the trait is inferred from the theory. SELF-CALIBRATION (agent): first-pass 72 / 0.58 lowered to 66 / 0.50 because the claim rests on commentators' summaries of doctrine, not on behaviour, and Bernstein records that critics found unresolved tensions in the system."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 듀이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-dewey-watson-schutze-1902.jpg",
+    "width": 1001,
+    "height": 1309,
+    "source": "Wikimedia Commons 'John Dewey in 1902.jpg': photograph of John Dewey at the University of Chicago, 1902, by Eva Watson-Schutze (American photographer and painter, 1867-1935, Wikidata Q433566), scanned by the uploader from Louis Menand's The Metaphysical Club (2001), p. 317, original photograph in the John Dewey Photograph Collection, Special Collections Research Center, Morris Library, Southern Illinois University Carbondale; Commons tag PD-old. A lifetime photograph by a photographer who died in 1935, so public domain by age; the book scan is a flat reproduction. Original file 1001 x 1309, used unchanged (no resizing, no upscaling).",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Dewey_in_1902.jpg",
+    "attribution": "Photo: Eva Watson-Schutze, 1902, public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:John_Dewey_in_1902.jpg",
+    "creator": "Eva Watson-Schutze",
+    "date": "1902",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:John_Dewey_in_1902.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q131805 returned en label 'John Dewey', description 'American philosopher, psychologist, and educational reformer (1859-1952)', ko label '존 듀이', born 1859-10-20, died 1952-06-01; the lead's slug matches. SLUG/QID CHECK: no existing candidate, production file or src reference for slug john-dewey or Q131805 in the roster55 worktree. REGION: north_america, nationality US. ZERO POLITICS: primary identity is philosopher and educator (pragmatism, psychology, philosophy of education); his political activism (League for Independent Political Action, Trotsky commission, civil-liberties and academic-freedom organisations, travel to the USSR, support for progressive politics) is NOT scored and appears in no card, moment or interpretation; 'democracy' appears only as Britannica's philosophical theme tied to education. Westbrook's biography foregrounds democracy and politics, so the lead may judge the political share; my reading of Britannica, SEP, IEP and the education encyclopedias is that philosophy and education are primary. VOCABULARY: occupations philosopher, scholar, teacher; fields philosophy, education; impact domains educational/historical; tags philosopher, theorist; archetypes scholarly_specialist, social_influencer are existing ids with EN+KO labels ('educator', 'professor' and 'psychologist' are unlabeled; psychology as a field has no label, so it is not listed although Britannica calls him a pioneer of functional psychology). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'John Dewey' (https://www.britannica.com/biography/John-Dewey), introduction and career/philosophy sections read through an Internet Archive copy (live site 403). READ (8 cited non-Wikidata sources): Britannica; Stanford Encyclopedia of Philosophy (Hildebrand); Internet Encyclopedia of Philosophy; Bernstein in the Encyclopedia of Philosophy (1967); Zilversmit in the Encyclopedia of Children and Childhood; Soltis in the Encyclopedia of Education (the last three via encyclopedia.com); Kirkus review of Westbrook's biography (one paragraph); Commons/creator records for the portrait. NOT opened: Westbrook's John Dewey and American Democracy, Alan Ryan's biography, Mayhew and Edwards's The Dewey School, Dewey's own books and letters (cited only through the entries), Hirsch/Ravitch critiques of progressive education, the University of Chicago Laboratory Schools history page (403). PERSPECTIVES: general encyclopaedia, two scholarly philosophy encyclopaedias, a specialist critical-sympathetic philosophy entry (Bernstein), a historian of progressive education (Zilversmit), an educational philosopher (Soltis), and a trade review of a modern full biography. COUNTER-VOICES: Russell's opposition to the pragmatic theory of truth (IEP), critics of the status of experience and of unresolved tensions (SEP, Bernstein), the charge of confusing descriptive and prescriptive statements (Bernstein), Rorty's later attack on his term 'experience' (SEP), the distortions of progressive education by his followers and the postwar reaction (Zilversmit), his own 1938 rebuke of the Progressives (Soltis). At least one substantive non-self behavioural source: Soltis and Zilversmit on the Laboratory School, the 1904 resignation and the 1938 rebuke; no row depends on Dewey's own writing. CALIBRATION: nine rows, none above 74 or 0.62; all evidence is encyclopaedia-level because no full biography was read, and the behavioural episodes are few (the Laboratory School, the 1904 resignation, the 1938 rebuke, changes of position). Personal life (his marriages, children, bereavements, religious views) and the political activities are excluded. SELF-CALIBRATION (agent): rows reviewed: systems_abstraction (lowered 72/0.58 to 66/0.50: it describes the structure of his theory, not documented behaviour, and critics found tensions), creative_originality (kept: independent entries converge, with retrospective praise offset by documented critics), cross_domain_range (kept: documented offices and books in philosophy, psychology, education, art). BROAD FLAG: none beyond the general point that no full biography was read; the lead may want a Westbrook or Ryan read before relying on collaboration or conflict_tolerance. PORTRAIT: Eva Watson-Schutze's 1902 photograph (Commons file 'John Dewey in 1902.jpg'): creator, date and source (a scan from Menand's The Metaphysical Club of a print in the SIU Morris Library John Dewey Photograph Collection) are on the file page; the creator's Wikidata record gives 1867-1935, so public domain by age (life plus 70 expired). The SIU Center for Dewey Studies page was opened and states no photograph rights terms, and the SIU photograph-collection page itself could not be reached, so no institution-level restriction could be checked directly; no conflicting notice was found. File downloaded (431 KB), opens as a 1001 x 1309 JPEG, used unchanged; viewed: a half-length portrait of a man with a moustache in academic gown, hand on a cane. Kind set to likeness (lifetime photograph)."
+  }
+}

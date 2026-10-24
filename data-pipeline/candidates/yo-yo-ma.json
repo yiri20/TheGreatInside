@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "yo-yo-ma",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Yo-Yo Ma",
+    "aliases": [
+      "Yo Yo Ma"
+    ],
+    "wikidataId": "Q234891",
+    "birthYear": 1955,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US",
+      "FR"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "communicator",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ym_wikidata",
+      "kind": "wikidata",
+      "title": "Yo-Yo Ma (Q234891) -- verified live via the Wikidata API (2026-10-24): English label 'Yo-Yo Ma', description 'American cellist (born 1955)', Korean label '요요 마', born 7 October 1955, no death date, P18 'Yo-Yo Ma in 2018 (cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q234891"
+    },
+    {
+      "id": "src_ym_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'Yo-Yo Ma' (encyclopedia.com), page read in full as raw text; it reproduces two reference entries (a Contemporary Musicians-style profile and a longer biographical entry written in the late 1990s). They describe a world-famous cellist who has recorded most of the solo cello repertoire; his Avery Fisher Prize (1978), ten Grammy awards between 1984 and 1997 including Bach's unaccompanied suites, and more than 45 albums; his long partnership with pianist Emanuel Ax and collaborations with artists from Isaac Stern to Bobby McFerrin, Mark O'Connor and Edgar Meyer; commissions and premieres of works by American composers; the MIT hypercello (1991); the 1990s Bach suite films with choreographer Mark Morris, a Kabuki artist, a garden designer and others; the Piazzolla project, for which he studied a Rostropovich rehearsal tape and toured Buenos Aires tango clubs; and educational outreach in his touring. A reviewer-style comment notes his tone is silkier than some rivals'. CANONICAL SIGNIFICANCE SOURCE. Reference compilation drawn largely from interviews and promotional material, admiring; its passages on his childhood, family, surgery and personal life were not used.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/yo-yo-ma"
+    },
+    {
+      "id": "src_ym_silkroad",
+      "kind": "institution",
+      "title": "Silkroad, 'About' page (silkroad.org), read in full: the organisation's own account that Yo-Yo Ma conceived Silkroad in 1998, convened musicians from the lands of the Silk Road to co-create new music from the question 'What happens when strangers meet?', and that it now runs as both a touring Grammy-winning ensemble and a nonprofit with educational partnerships, commissions of new music and social-impact programmes under artistic director Rhiannon Giddens. Organisation's self-description (promotional, SELF-SOURCE); used only to establish what the project is and when it began, never as sole support for a trait.",
+      "url": "https://www.silkroad.org/about"
+    },
+    {
+      "id": "src_ym_straight",
+      "kind": "press",
+      "title": "Georgia Straight (Vancouver) profile of Yo-Yo Ma ahead of a Silk Road Ensemble concert (straight.com, c. 2010), read in full: his willingness to accompany non-classical performers and play across genres (with Bobby McFerrin, Bela Fleck and Jake Shimabukuro), the Silk Road Ensemble described as a loose collective of about 60 musicians, his account that he finds talented 'standard-bearers' of their traditions through connected people, commissions and creates works with them and learns their traditions, and his remark that a professional 'aspires toward the condition of the amateur'. Interview-based press profile; the writer's praise of his 'selflessness' is the journalist's own framing and the self-descriptions are his own. Remarks about political figures he has accompanied were not used.",
+      "url": "https://www.straight.com/node/26571"
+    },
+    {
+      "id": "src_ym_mwfj",
+      "kind": "press",
+      "title": "Midwest Film Journal, 'The Music of Strangers: Yo-Yo Ma and the Silk Road' (6 July 2015), read in full: review of Morgan Neville's documentary describing the Silk Road Project as colleagues learning from one another across traditions over sixteen years (six albums, 33 nations), Ma shown as 'ready pupil rather than a protean titan', unguarded backstage moments, a performance in which his Bach Suite No. 1 prelude becomes the underscore for a Chinese-language ballad, and the critique, which the film lets stand, that the project's 'cultural tourism' is meant to monetise a wide audience. Film review by an outside writer built on a documentary the project cooperated in; admiring but names the commercialism objection.",
+      "url": "https://midwestfilmjournal.com/2015/07/06/the-music-of-strangers-yo-yo-ma-and-the-silk-road/"
+    },
+    {
+      "id": "src_ym_rich",
+      "kind": "press",
+      "title": "Alan Rich, 'The Slick Road Project', So I've Heard (13 November 2002), read in full: a veteran critic's review of a Silk Road Project concert at UCLA's Royce Hall, saying Ma plays Bach and Beethoven as well as anyone, that the project's program was 'a curiously unsatisfying' sampling of too much in too little time though with strong performances (Kayhan Kalhor, Sandeep Das, Wu Man, Khongorzul Ganbaatar), that he wishes Ma would play the Bach suites more often and dislikes the 'sexy videos' made around them, and that Ma sells out halls like no other cellist. COUNTER-VOICE (critical, 2002, one critic's blog-hosted review reprinted from a newspaper-style column).",
+      "url": "https://soiveheard.com/2002/11/the-slick-road-project/"
+    }
+  ],
+  "rows": {
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ym_encyclopedia, src_ym_straight, src_ym_mwfj, src_ym_rich | 1976-2015 | reference + press profile + film review + critic] The reference entry documents decades of named partnerships (Emanuel Ax, Isaac Stern, Bobby McFerrin, Mark O'Connor and Edgar Meyer, a piano trio and quartet); the Straight and the film review describe an ensemble of dozens of musicians from different traditions in which he is shown listening and learning, and the critic Rich, while unimpressed with the programme, singles out collaborators' performances. Strongly corroborated by independent writers; the organisation's own account is not needed for the score. RUBRIC_CORRECTION (lead review, before eligibility): collaboration lowered from 78 / 0.64 to 72 / 0.56 because the base is the Silkroad self-source, a profile, a cooperative documentary review and one critic; 78 / 0.64 overstates the independent evidence."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ym_encyclopedia, src_ym_straight, src_ym_rich | 1983-2010 | reference + press profile + critic] The reference entry records Bach and Brahms alongside tango, Appalachian fiddle music, a film score, the hypercello and Bach suite films made with a choreographer, a Kabuki artist, a garden designer and ice dancers; the Straight lists bluegrass, ukulele and jazz-vocal collaborators; the critic Rich notes the same breadth ('Appalachians-for-a-day', tango, Silk Road) and disputes only its depth. A documented spread across genres and media. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 78 / 0.64 to 72 / 0.56 because same self-source and promotional-film concentration."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ym_encyclopedia, src_ym_straight, src_ym_mwfj | 1990s-2015 | reference + press profile + film review] For the Piazzolla project he studied a Rostropovich rehearsal tape and travelled to Buenos Aires tango clubs; the reference entry says he learns several new pieces each year; the film review shows him learning from collaborators' traditions. Interest in the Silk Road is explained mainly by his own interview comments, so the motive rests on his account while the behaviour is independently documented. SELF-CALIBRATION (agent): reviewed as a high-risk row (first-pass 76/0.62) because the 'deep interest in people and culture' wording is self-reported and the film is a cooperative documentary; lowered to 74/0.60."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ym_silkroad, src_ym_straight, src_ym_encyclopedia, src_ym_rich | 1991-2002 | organisation account + press profile + reference + critic] He initiated Silkroad in 1998 (the organisation's own account, corroborated by the Straight, the film review and Rich's contemporaneous 2002 review of its concert), commissioned and premiered works by composers such as Kirchner, Knussen, Bolcom and Corigliano (reference entry) and commissioned a MIT hypercello piece. The founding is confirmed by independent press; the organisation's mission wording is self-promotional and was not relied on."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ym_encyclopedia, src_ym_rich | 1978-2002 | reference + critic] The reference entry says he has recorded most of the solo cello repertoire, learns several new pieces a year, and won ten Grammys between 1984 and 1997; Rich concedes he plays Bach and Beethoven 'as well as anyone'. Sustained high standards are documented; no source records his practice habits, so the row is an inference from output and critical standing."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ym_encyclopedia, src_ym_mwfj, src_ym_rich | 1991-2015 | reference + film review + critic] He tried the MIT hypercello (1991), multimedia Bach films and genre crossovers, and in the film re-voices his Bach prelude as the accompaniment to a ballad. Critics are divided: Rich judges the Silk Road programme a hasty sampling and the film review records the 'cultural tourism' objection, so the exploration is documented and its depth contested."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ym_silkroad, src_ym_encyclopedia, src_ym_straight, src_ym_mwfj | 1998-2015 | organisation account + reference + press profile + film review] He built Silkroad into a nonprofit with education and community programmes and includes master classes and student outreach in his touring (reference entry); the film review records critics' objection that the project is meant to monetise a wide audience. The mission wording is the organisation's own and his explanation is interview self-report, so the motive is documented but its balance with commerce is contested. SELF-CALIBRATION (agent): reviewed as a high-risk row (first-pass 70/0.56) because most of the purpose language is self-authored; lowered to 66/0.52."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "요요 마"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/yo-yo-ma-sam-felder-2002.jpg",
+    "width": 361,
+    "height": 591,
+    "source": "Photograph of Yo-Yo Ma by Sam Felder, taken 29 June 2002 at the Smithsonian Folklife Festival, Washington, D.C. (Flickr photo 231060669 'Yo Yo Ma at the folklife festival'); the live Flickr photo page shows the licence CC BY-SA 2.0 and date taken 2002-06-29 (checked 2026-10-24, consistent with the Commons page); Commons file 'Yo-Yo Ma.jpg' is a crop of that photo, tagged cc-by-sa-2.0 with a FlickreviewR pass (8 January 2007) and carries a personality-rights notice. Commons file dimensions 361 x 591 pixels, SHA-1 11d10a6751f4f02ec10e75258b30b10a6248dbd7 (matches the downloaded file); saved unchanged, never resized or upscaled. CAVEATS: low resolution, and parts of other people appear at the picture edges. Rejected: the Wikidata P18 file 'Yo-Yo Ma in 2018 (cropped).jpg' (Joi Ito, CC BY 2.0, 2141 x 2333) because its Flickr source page (photo 43965848294) returned an error page on 2026-10-24, so the licence could not be re-verified live and the only record is the Commons review of 2020 without an archive capture; next step if a better image is wanted: re-check that page or obtain an archive capture.",
+    "license": "CC BY-SA 2.0 (photo-level licence on Flickr by Sam Felder; Commons FlickreviewR passed)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Sam Felder, CC BY-SA 2.0, via Wikimedia Commons",
+    "attributionUrl": "https://www.flickr.com/photos/samfelder/231060669/",
+    "creator": "Sam Felder",
+    "date": "2002-06-29",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Yo-Yo_Ma.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q234891 returned en label 'Yo-Yo Ma', description 'American cellist (born 1955)', born 1955-10-07, no death date, ko label '요요 마'; the lead's hint was correct. SLUG/QID CHECK: no candidate or production reference for slug yo-yo-ma or QID Q234891 in the roster55 worktree. REGION north_america, nationality US and FR: he was born in Paris to Chinese parents but his education and entire performing career are US-based and Wikidata gives US citizenship; following the repo precedent of career base (cf. Maria Callas, mapped by career base with dual nationality codes). VOCABULARY: musician, field music, impact domains artistic/cultural/educational, tags cross_disciplinary, communicator, prodigy, archetypes creative_creator and cross_disciplinary_generalist are existing ids with EN+KO labels (cellist and instrumentalist have no label, so musician is used). LIVING SUBJECT: documented public professional behaviour only; no family, health (including his surgery), childhood-home material, or inference of motives; his performances with political figures and his honours are not scored; zero politics. CANONICAL SIGNIFICANCE SOURCE: Encyclopedia.com 'Yo-Yo Ma' (https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/yo-yo-ma), read in full. READ (5 cited non-Wikidata sources): Encyclopedia.com, Silkroad About page (self-source), Georgia Straight profile, Midwest Film Journal review, Alan Rich review. Blocked or unreadable: Britannica (403), China Digital Times reprint of the New York Times Silk Road essay (403), Harvard Gazette (404), Christianity Today dispatch (404), Connolly Music page (404). Not opened: Bach Six Evolutions reviews (the Britannica claim of 1983 and 1998 recordings reached me only through a search summary and is not used), New Yorker/Guardian profiles, the documentary itself. PERSPECTIVES: reference compilation, press profile (interview-based), film critic, a sceptical veteran critic, plus the project's own account. COUNTER-VOICES: Rich's 'hasty sampling' and commercialism complaint, the film review's 'cultural tourism' objection. LIMITATIONS: no direct collaborator testimony was read; much behavioural evidence is from interviews, a cooperative documentary and a 1990s reference entry, so no row exceeds 78 or 0.64 and no row concerns his Bach interpretation quality, which was not read independently. SELF-CALIBRATION (agent): rows reviewed were impact motivation (lowered 70/0.56 to 66/0.52: mostly self-authored purpose language), curiosity (lowered 76/0.62 to 74/0.60: self-reported motive, cooperative film) and collaboration (independently corroborated by four writers; left unchanged). No broad scoring problem flagged. PORTRAIT: see portrait.source (Sam Felder, CC BY-SA 2.0, low resolution). RUBRIC_CORRECTION (lead review, before eligibility): collaboration lowered from 78 / 0.64 to 72 / 0.56 because the base is the Silkroad self-source, a profile, a cooperative documentary review and one critic; 78 / 0.64 overstates the independent evidence. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 78 / 0.64 to 72 / 0.56 because same self-source and promotional-film concentration."
+  }
+}

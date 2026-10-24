@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "marvin-minsky",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Marvin Minsky",
+    "aliases": [
+      "Marvin Lee Minsky"
+    ],
+    "wikidataId": "Q204815",
+    "birthYear": 1927,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist",
+      "mathematician",
+      "inventor"
+    ],
+    "fieldIds": [
+      "computing",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "early_computing",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_minsky_wikidata",
+      "kind": "wikidata",
+      "title": "Marvin Minsky (Q204815) -- verified live via the Wikidata API (2026-10-24): English label 'Marvin Minsky', description 'American cognitive scientist (1927-2016)', born 1927-08-09, died 2016-01-24, citizenship United States, Korean label '마빈 민스키', P18 image 'Marvin Minsky at OLPCb (3x4 cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q204815"
+    },
+    {
+      "id": "src_minsky_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, 'Marvin Minsky' Fellow profile (2006 Fellow; computerhistory.org), read in full: cited 'for co-founding the field of artificial intelligence, creating early neural networks and robots, and developing theories of human and machine cognition'; with John McCarthy established the MIT AI Lab in 1959; work straddling computer science and psychology; designed some of the first mechanical hands with tactile sensors and visual scanners; inventor of the confocal scanning microscope; honours include the 1969 Turing Award, 1990 Japan Prize and 2001 Benjamin Franklin Medal. CANONICAL SIGNIFICANCE SOURCE. Institutional profile, retrospective.",
+      "url": "https://computerhistory.org/profile/marvin-minsky/"
+    },
+    {
+      "id": "src_minsky_mitnews",
+      "kind": "institution",
+      "title": "MIT News, 'Marvin Minsky, father of artificial intelligence, dies at 88' (news.mit.edu, 25 January 2016), read in full: built the first neural network simulator in 1951, joined MIT in 1958 and co-founded the AI Laboratory (now CSAIL) the following year, a founding member of the Media Lab in 1985; built robotic hands and programming frameworks; The Society of Mind (1985) and The Emotion Machine (2006); inventor of the earliest confocal scanning microscope and involved in the first LOGO turtle with Papert and the Muse synthesizer with Fredkin; tributes from L. Rafael Reif, Nicholas Negroponte and Daniela Rus. Official university obituary; admiring and retrospective. Personal and family passages not used.",
+      "url": "https://news.mit.edu/2016/marvin-minsky-obituary-0125"
+    },
+    {
+      "id": "src_minsky_winston",
+      "kind": "biography",
+      "title": "Patrick Winston, 'Marvin Minsky' obituary tribute and BBVA Frontiers of Knowledge nomination letter (people.csail.mit.edu/phw/obituary.html, 24 January 2016), read in full: a student-turned-successor's account of Minsky's confocal microscope while a Harvard Junior Fellow, the 1961 paper 'Steps toward Artificial Intelligence', the founding of the MIT AI Group with McCarthy (Project MAC 1963, AI Laboratory 1970), his robot hands and telepresence ideas, Perceptrons with Seymour Papert (reprinted with a new chapter dedicated to Frank Rosenblatt), the Theory of Frames, K-lines, The Society of Mind and The Emotion Machine. Colleague and mentee, admiring; used for the work record, not for scoring character alone.",
+      "url": "https://people.csail.mit.edu/phw/obituary.html"
+    },
+    {
+      "id": "src_minsky_ieee",
+      "kind": "institution",
+      "title": "IEEE Computer Society, 'Marvin Lee Minsky' in Computer Pioneers (J.A.N. Lee; history.computer.org), read in full: with McCarthy established the basic concepts of AI; with Papert in 1969 defined the computational limits of Rosenblatt's Perceptron and then gave up that field of study, while neural nets later regained attention; frames and early work on knowledge engineering; robotic devices with vision in the early 1970s; AI Group director 1968-1970 and AI Laboratory director 1970-1972. A short pioneer profile, written in 1995 and used for chronology.",
+      "url": "https://history.computer.org/pioneers/minsky.html"
+    },
+    {
+      "id": "src_minsky_crevier",
+      "kind": "press",
+      "title": "Daniel Crevier, 'AI: The Tumultuous History of the Search for Artificial Intelligence' (Basic Books, 1993), the Minsky passages read in full from a full-text copy of the book (pdf.stafforini.com): his Harvard undergraduate wandering between physics, zoology and psychology laboratories and asking scientists what they did; building the SNARC neural-net machine in 1951 with Dean Edmonds ('why not build one?'); von Neumann's remark on his thesis; the confocal microscope as a Junior Fellow; the Minsky-and-McCarthy partnership and its drift as McCarthy stayed with logic while Minsky became the champion of the antilogic branch; Minsky and Papert's strong disparagement of earlier perceptron work in Perceptrons, which Crevier says brought US neural-network research to a virtual halt, Papert's later view that it was partly a mistake, Minsky calling it an 'overkill', David Waltz saying as a student he saw no vendetta, and neural-net researchers who 'still hold a grudge'; the 1975 frames paper, its many converts, Minsky boasting of not repeating the Perceptrons error, and Herbert Simon's objections; Minsky's trip to Japan with Carl Hewitt urging colleagues in vain to reconsider PROLOG. Journalistic history from interviews with participants, partly Minsky's own recollections, independent of MIT's tributes and containing critics. Military-service, family and the Tufts-department episode not used.",
+      "url": "https://pdf.stafforini.com/crevier-1995-aitumultuous-history.pdf"
+    },
+    {
+      "id": "src_minsky_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Marvin Minsky (1).jpg' (wikitext and API record) plus the live Flickr photo page (flickr.com/photos/joi/7641726266), checked for the portrait's licence: photograph by Joi (Joichi Ito), taken 19 July 2012, tagged CC BY 2.0 with a FlickreviewR pass dated 26 January 2013; the live Flickr page shows licence code 4 (Attribution, CC BY 2.0); original 4680 x 3120. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Marvin_Minsky_(1).jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_minsky_crevier, src_minsky_winston, src_minsky_chm, src_minsky_mitnews | 1951-1985 | journalistic history + colleague tribute + museum + university] Crevier documents the 1951 neural-net machine, the 1955 confocal microscope and the 1975 frames paper that 'made many converts'; the museum cites early neural networks and robots, and Winston describes the Theory of Frames, K-lines and The Society of Mind as seminal. Originality is documented across independent and institutional sources, but much of the praise is retrospective and Crevier reports Simon's objections to frames, so confidence stays moderate. SELF-CALIBRATION (agent): reviewed, kept: Crevier is an independent source and the work record (SNARC, microscope, frames, Perceptrons) is concrete. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 80 / 0.66 to 76 / 0.6 because the only independent behavioural source is one book (Crevier) plus a museum profile and memorial pieces, so 80 / 0.66 is above what the sources support."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_minsky_crevier, src_minsky_chm, src_minsky_winston, src_minsky_mitnews | 1940s-2000s | journalistic history + museum + colleague tribute + university] Crevier describes him as an undergraduate working in physics, zoology and psychology laboratories and then mathematics, and the museum, MIT and Winston record contributions to optics (the confocal microscope), robotics, mathematics, cognitive psychology, music and education tools such as the LOGO turtle. Breadth with real outputs in several fields is documented. SELF-CALIBRATION (agent): first-pass 84 / 0.68 lowered to 80 / 0.64 because Crevier's undergraduate account partly rests on Minsky's own recollection and the later breadth is shown mainly by admiring obituaries. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.64 to 76 / 0.58 because the undergraduate-breadth story is partly Minsky's own recollection and the remainder rests on the same single independent source."
+    },
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_minsky_crevier, src_minsky_mitnews | 1940s-2000s | journalistic history + university obituary] Crevier reports, partly in Minsky's own words, that he walked into laboratories and asked scientists what they did, and then pursued learning machines after reading early neural-network papers; MIT's president is quoted calling his curiosity 'ravenous'. SELF-CALIBRATION (agent): first-pass 78 / 0.62 lowered to 74 / 0.58 and set to strong inference because the best anecdote is self-recounted and the adjective is a retrospective tribute."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_minsky_crevier, src_minsky_winston, src_minsky_mitnews | 1951-1970s | journalistic history + colleague tribute + university] Crevier documents that rather than study neural networks in the abstract he and Dean Edmonds built a forty-neuron learning machine from surplus parts in 1951; Winston and MIT record that he designed and built robot hands and a multi-joint arm in the AI Laboratory. Building working devices is documented in several projects."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_minsky_winston, src_minsky_crevier, src_minsky_mitnews | 1975-2006 | colleague tribute + journalistic history + university] Winston summarises frames as slots and defaults inherited through class hierarchies and The Society of Mind as intelligence emerging from many cooperating non-intelligent agents; Crevier says frames crystallised an idea whose time had come and that Minsky believed in structured, non-logical representations. Well documented as a way of thinking, though Crevier also notes the frames paper offered few concrete implementation suggestions."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_minsky_crevier, src_minsky_ieee | 1960s-1980s | journalistic history + pioneer profile] Crevier says Minsky became the champion of the antilogic branch of AI while McCarthy held to formal logic, and that he travelled to Japan with Carl Hewitt to urge colleagues, in vain, to reconsider adopting PROLOG; Crevier also reports neural-net researchers' grudge over Perceptrons. A documented willingness to hold a minority position against field trends, with a cost to parts of the field, hence dual-edged."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_minsky_crevier, src_minsky_winston | 1960s-1980s | journalistic history + colleague tribute] Crevier says the frames paper, with its sweeping portrait of thought, 'made many converts', and that Minsky and Papert's authority was such that Perceptrons brought US neural-network research to a virtual halt; but his Japan trip to dissuade PROLOG adoption failed and Simon was unpersuaded about frames. Real influence on peers, mixed on direct persuasion."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_minsky_crevier | 1969-1975 | journalistic history] Crevier quotes Minsky and Papert dismissing most earlier perceptron writing as 'without scientific value', and reports that many neural-network investigators still blamed them for delaying the field; David Waltz, a student at the time, says he saw no vendetta and that they did not deliberately mislead. One principal source, so only a moderate score and confidence."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_minsky_crevier, src_minsky_mitnews, src_minsky_winston | 1950s-1980s | journalistic history + university + colleague tribute] He co-founded the MIT AI Group with McCarthy ('Minsky-and-McCarthy', before the pair diverged), wrote Perceptrons and later developed theories of intelligence with Seymour Papert, co-invented the Muse synthesizer with Ed Fredkin, and was a mentor to generations of students according to the university and Winston. The collaborations are documented; the portrayal of him as a mentor is from admiring tributes, hence strong inference."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_minsky_crevier, src_minsky_ieee, src_minsky_winston | 1954-1988 | journalistic history + pioneer profile + colleague tribute] Crevier reports that after his thesis he judged he could not build networks large enough and turned to other approaches, that he later called Perceptrons an 'overkill', and the IEEE profile says he gave up perceptron study; Winston says the later reprint added a chapter on neural developments and a dedication to Rosenblatt. He admitted a flaw in one case, but he remained opposed to logic-based AI, so the evidence is mixed."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_minsky_chm, src_minsky_mitnews, src_minsky_ieee, src_minsky_crevier | 1958-1985 | museum + university + pioneer profile + journalistic history] Co-established the MIT AI Group and AI Laboratory with McCarthy in 1958-1959, directed the AI Group and then the Laboratory (1968-1972 per IEEE), and became a founding member of the Media Lab in 1985; Crevier describes his move to MIT to join McCarthy. Documented initiative-taking in building institutions."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/marvin-minsky-ito-2012.jpg",
+    "width": 1200,
+    "height": 800,
+    "source": "Wikimedia Commons 'Marvin Minsky (1).jpg', photograph by Joi (Joichi Ito), 19 July 2012, from Flickr (photo 7641726266), tagged CC BY 2.0 with a FlickreviewR pass dated 26 January 2013; the live Flickr photo page currently shows licence code 4 (Attribution, CC BY 2.0). Original 4680 x 3120, downscaled once to 1200 x 800 (no upscaling). The Wikidata P18 image (uploader-asserted CC BY 3.0 copied from English Wikipedia, no Flickr or institutional origin) was not used for lack of a verifiable origin; the MIT News photograph (Bachrach) is under a non-commercial no-derivatives licence and was not used. The Commons page does not carry a sitter caption beyond 'Marvin Minsky' by the photographer; the person looks consistent with other dated photographs of Minsky.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Joi (Joichi Ito), 2012, CC BY 2.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Marvin_Minsky_(1).jpg",
+    "creator": "Joi (Joichi Ito)",
+    "date": "2012-07-19",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Marvin_Minsky_(1).jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마빈 민스키"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID found via wbsearchentities and verified live (Wikidata wbgetentities 2026-10-24): Q204815, en label 'Marvin Minsky', description 'American cognitive scientist (1927-2016)', born 1927-08-09, died 2016-01-24, ko label '마빈 민스키'. No existing candidate file or src reference for slug marvin-minsky or QID Q204815. Region north_america (US). Vocabulary: computer_scientist, mathematician, inventor, fields computing and mathematics, tags innovator, early_computing and cross_disciplinary, archetype technical_innovator are existing labelled ids. ZERO POLITICS: nothing political scored. EXCLUDED deliberately: any legal or private-life episode and anything touching the Epstein-related allegations (not searched, not used, not inferred), family and health passages, military service, the Tufts-department episode, music-as-hobby characterisations except as listed work. Deceased subject; no private-life inference. CANONICAL SIGNIFICANCE SOURCE: Computer History Museum Fellow profile (https://computerhistory.org/profile/marvin-minsky/). READ (5 cited non-Wikidata sources plus portrait record): CHM profile, MIT News obituary, Winston's tribute and nomination letter, IEEE Computer Pioneers profile, Crevier's book (Minsky passages, full-text copy; several sections: Harvard/Princeton, SNARC, Perceptrons, frames, PROLOG, MIT/McCarthy). NOT OPENED: NYT, Washington Post, Boston Globe obituaries (blocked or not found), ACM Turing Award page (bot-blocked), Kyoto/Japan Prize page (404), the Perceptrons book and The Society of Mind themselves (self material), Wikipedia. PERSPECTIVES: museum (CHM), university (MIT News), colleague/successor (Winston), professional society (IEEE), journalistic history from participant interviews (Crevier, independent, includes critics: neural-net researchers' grudge, Simon on frames, Waltz defending). COUNTER-VOICES: Crevier's accounts of the Perceptrons backlash and Simon's criticism of frames, the unmet PROLOG persuasion. CALIBRATION: eleven rows, highest score 80 and highest confidence 0.66; behavioural depth rests largely on Crevier plus admiring tributes, so no extreme values. SELF-CALIBRATION (agent): rows reviewed: creative_originality, cross_domain_range, curiosity. Lowered: cross_domain_range (84/0.68 to 80/0.64: self-recounted undergraduate story, admiring tributes) and curiosity (78/0.62 to 74/0.58, evidence type to strong inference: self-recounted anecdote, retrospective adjective). Kept: creative_originality (concrete, independently documented work). BROAD FLAG: Crevier is the only independent behavioural source; a read of a critical biography or neural-network historian (e.g. Olazaran on the perceptron controversy) would deepen conflict_tolerance and independent_thinking. PORTRAIT: Joichi Ito photo, CC BY 2.0, Flickr licence rechecked live, 4680x3120 downscaled to 1200x800. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 80 / 0.66 to 76 / 0.6 because the only independent behavioural source is one book (Crevier) plus a museum profile and memorial pieces, so 80 / 0.66 is above what the sources support. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.64 to 76 / 0.58 because the undergraduate-breadth story is partly Minsky's own recollection and the remainder rests on the same single independent source."
+  }
+}

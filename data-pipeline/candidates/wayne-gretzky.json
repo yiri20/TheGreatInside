@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wayne-gretzky",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Wayne Gretzky",
+    "aliases": [
+      "The Great One"
+    ],
+    "wikidataId": "Q209518",
+    "birthYear": 1961,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "CA"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "prodigy",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_wg_wikidata",
+      "kind": "wikidata",
+      "title": "Wayne Gretzky (Q209518) -- verified live via the Wikidata API (2026-10-24): English label 'Wayne Gretzky', description 'Canadian ice hockey player and coach (born 1961)', Korean label '웨인 그레츠키', born 26 January 1961, no death date, citizenship Canada and United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q209518"
+    },
+    {
+      "id": "src_wg_hhof",
+      "kind": "institution",
+      "title": "Hockey Hall of Fame, 1999 Induction Showcase biography of Wayne Gretzky (hhof.com archive page): childhood skating under his father's guidance, junior hockey with Peterborough and Sault Ste. Marie, turning professional at 17 with the Indianapolis Racers of the WHA and moving to the Edmonton Oilers after eight games, trade to the Los Angeles Kings after 1987-88 and the 1993 Stanley Cup Final, then St. Louis and three seasons with the New York Rangers, retirement after the 1998-99 season; more than 60 NHL records, nine Hart Trophies, seven scoring titles (as the page counts them), four Stanley Cups with the Oilers, Pearson and Lady Byng trophies; induction on 22 November 1999; also describes him as a 'hockey humanitarian'. CANONICAL SIGNIFICANCE SOURCE (with the Maclean's retirement piece). Hall-of-fame narrative, celebratory in tone; read through a page-extraction tool (a summary, not verbatim); the companion showcase landing page (ind99wg1) was also read for the 802nd-goal and artefact details but is not cited for any row.",
+      "url": "https://www.hhof.com/induction_archives/ind99wg2.shtml"
+    },
+    {
+      "id": "src_wg_csm81",
+      "kind": "press",
+      "title": "Nick Seitz, 'Unspectacular hockey whiz', The Christian Science Monitor, 7 April 1981 (read in full, verbatim): Gretzky at 20 in his second NHL season, having won the Hart and Lady Byng trophies the year before, passing Phil Esposito's 152-point and Bobby Orr's 102-assist records (109 assists, 55 goals that year) while hounded by the opponents' best defender and sometimes two; Flyers captain Bobby Clarke conceding the team should have put someone on him; the writer's view that his principal strength is anticipation ('half a play ahead of everyone else'), that he prefers to set up plays from behind the opposing net and is 'an absolutely superb passer'; Gretzky's own statements that it is 'practice, not instinct', that his father taught him to figure where the puck was going, that he developed his passing when double-teamed in junior hockey and gets as big a kick out of setting up a goal as scoring one; coach Glen Sather on his youth. Contemporaneous journalism with the subject's own quotes; admiring and written when he was 20.",
+      "url": "https://proof.csmonitor.com/1981/0407/040724.html"
+    },
+    {
+      "id": "src_wg_maclean",
+      "kind": "press",
+      "title": "James Deacon, 'Gretzky retires', Maclean's, 26 April 1999 (reproduced by The Canadian Encyclopedia): the retirement framed as a loss to the league, fans and Canadians; career totals as of 1999 (894 goals, 1,962 assists, 2,856 points; 92 goals in 1981-82; 215 points in 1985-86; 382 playoff points; nine Hart and ten Art Ross trophies; four Stanley Cups; 61 league records held or shared); reactions from Oilers teammates Mark Messier, Paul Coffey, Kevin Lowe, Grant Fuhr and Jari Kurri and Rangers teammates Adam Graves and Brian Leetch; Mario Lemieux saying Gretzky taught him how to win at the Canada Cup; Gretzky deflecting praise and crediting teammates and staff. CANONICAL SIGNIFICANCE SOURCE (with the Hall of Fame biography). Mainstream news-magazine retrospective, admiring and written at the retirement; read through a page-extraction tool (curl is blocked by the host).",
+      "url": "https://www.thecanadianencyclopedia.ca/en/article/gretzky-retires"
+    },
+    {
+      "id": "src_wg_nbc88",
+      "kind": "press",
+      "title": "NBC Sports, '25 years ago: Wayne Gretzky was traded' (NBCSports.com NHL): on 9 August 1988 the Oilers traded Gretzky, Mike Krushelnyski and Marty McSorley to the Los Angeles Kings for Jimmy Carson, Martin Gelinas, three first-round picks and $15 million; coach and general manager Glen Sather opposed the trade but owner Peter Pocklington forced it, and Sather's remark 'you could say hockey won'; NHL commissioner Gary Bettman calling it a huge step for hockey's credibility; the article saying Gretzky helped show hockey could succeed in non-traditional markets; Gretzky never won a Cup with the Kings and Edmonton won once more without him. Retrospective sports-news article; read through a page-extraction tool.",
+      "url": "https://www.nbcsports.com/nhl/news/25-years-ago-wayne-gretzky-was-traded"
+    },
+    {
+      "id": "src_wg_espnkr",
+      "kind": "press",
+      "title": "ESPN, 'NHL Viewers Club: Kings Ransom' (documentary review, ESPN Africa mirror of ESPN.com, 2020): Greg Wyshynski and Emily Kaplan on the 1988 trade as portrayed in the 30 for 30 film -- Gretzky overhearing owner Peter Pocklington talk himself into the trade on a speakerphone in Kings owner Bruce McNall's office, Sather's fury and offer to resign, McNall's threat to sue, Pocklington's disputed remarks about Gretzky's tears at the farewell, and the reviewers' note that McNall later pleaded guilty to defrauding banks. Contested accounts of one episode; used only as a counter-voice and context for the trade, with contradictions noted rather than resolved; read through a page-extraction tool.",
+      "url": "https://africa.espn.com/nhl/story/_/id/29106361/nhl-viewers-club-kings-ransom"
+    },
+    {
+      "id": "src_wg_hwcoffey",
+      "kind": "press",
+      "title": "Eric Friesen, 'Paul Coffey interview on how the Oilers continued their dynasty', The Hockey Writers, 22 May 2020 (reporting Coffey's April 2020 interview on Sportsnet's Ask 31): Coffey saying 'what the fans probably didn't get to see with Wayne was his work ethic', his commitment and respect for the game, leadership 'more so on the ice than in the dressing room', and 'when your best player is your hardest worker, it's easy to follow suit'. Teammate's retrospective recollection relayed by a hockey blog (admiring, one voice, 2020); the blogger's own descriptions of practice habits are not used.",
+      "url": "https://thehockeywriters.com/paul-coffey-interview-oilers-continued-dynasty/"
+    },
+    {
+      "id": "src_wg_nhlkurri",
+      "kind": "press",
+      "title": "NHL.com, 'Jari Kurri: 100 Greatest NHL Players' (2017 NHL100 series): the Gretzky-Kurri partnership -- Gretzky assisting on 364 of Kurri's NHL goals and Kurri on 196 of Gretzky's, their danger on 2-on-1 rushes, Gretzky saying that wherever he put the puck Kurri would 'snap it' and that they believed they could score nine times out of ten, goaltender Grant Fuhr saying Kurri did much of the defensive work that let Gretzky focus on offence, and the later Kings reunion in which Kurri was not always his linemate. League-run promotional profile (admiring) containing a teammate's counter-framing of the credit; read through a page-extraction tool.",
+      "url": "https://www.nhl.com/news/topic/nhl-100-greatest-players/jari-kurri-100-greatest-nhl-hockey-players-284832700"
+    },
+    {
+      "id": "src_wg_thn",
+      "kind": "press",
+      "title": "The Hockey News, 'The story of Wayne Gretzky's coaching career with the Coyotes': head coach of the Phoenix Coyotes from 2005 to 2009 with a 143-161-24 record and no playoff appearance in four seasons (never above fourth in the Pacific Division); Gretzky saying he spent countless hours in the video room preparing; Commissioner Gary Bettman crediting his 'vital role in the youth movement'; the club's 2009 bankruptcy and Gretzky stepping down after saying neither remaining bidder had a place for him; his father Walter saying critics would blame Wayne whatever happened. Sports-news retrospective; used as the counter-voice (documented professional coaching results only; the ownership, bankruptcy and any legal matters were not read for or scored); read through a page-extraction tool.",
+      "url": "https://thehockeynews.com/nhl/utah/analysis/the-story-of-wayne-gretzkys-coaching-career-with-coyotes"
+    },
+    {
+      "id": "src_wg_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Andrew Scheer with Wayne Gretzky (48055697168) (cropped).jpg' and the original 'Andrew Scheer with Wayne Gretzky (48055697168).jpg', plus the Flickr photo page (live check 2026-10-24) -- checked for the portrait: photograph credited to Andre Forget on the Flickr stream of Andrew Scheer, taken 11 June 2019, dedicated CC0.",
+      "url": "https://commons.wikimedia.org/wiki/File:Andrew_Scheer_with_Wayne_Gretzky_(48055697168)_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wg_hwcoffey, src_wg_csm81, src_wg_hhof | 1979-1988 | teammate recollection + contemporaneous magazine interview + hall-of-fame biography] Teammate Paul Coffey says the fans did not see Gretzky's work ethic, that he worked at his craft more than anyone and that when the best player is the hardest worker it is easy to follow; at 20 Gretzky himself told a reporter that his anticipation was 'practice, not instinct' and that his father taught him to size up situations; the Hall of Fame bio describes a skilled child on a coached path. Consistent across a teammate and the subject, but the work-ethic claim rests on one retrospective teammate plus self-report, so a moderate confidence. SELF-CALIBRATION (agent): first-pass 70 / 0.58 lowered to 66 / 0.52 because the only third-party behavioural statement is one admiring teammate recalled decades later."
+    },
+    "intuitive_synthesis": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wg_csm81, src_wg_nhlkurri | 1981-1980s | contemporaneous column + league profile] The 1981 column says his principal strength is anticipation, operating half a play ahead and finding openings before others expect them, and that he sets up plays from behind the net with a view of all nine other skaters; the NHL.com profile quotes Gretzky saying wherever he put the puck on Kurri's stick the linemate would snap it, with a pair that was dangerous on 2-on-1 rushes and assists on 364 of Kurri's goals. Reading play in advance is well described by an observer and a partner, but it is largely an observer's characterisation and he himself attributes it to practice, so a moderate confidence."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wg_csm81, src_wg_nhlkurri, src_wg_maclean | 1980s-1999 | contemporaneous column + league profile + retirement feature] At 20 he said he developed his passing in junior hockey when double-teamed and got as big a kick out of setting up a goal as scoring one; he assisted on 364 of Kurri's goals, with goaltender Fuhr saying Kurri's defensive work freed Gretzky for offence (a counter-framing of whose contribution created the output); the retirement feature has him crediting teammates and locker-room staff and Lemieux saying he learned how to win from him. Documented playmaking and credit-sharing, with the Fuhr remark and admiring tone limiting confidence."
+    },
+    "leadership_drive": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wg_hwcoffey, src_wg_maclean | 1980s-1999 | teammate recollection + retirement feature] Coffey calls his leadership 'more so on the ice than in the dressing room' and says his effort made it easy to follow; Mario Lemieux says Gretzky taught him how to win at the Canada Cup. Leadership by example is stated by two voices but is not described as a sought-after role, and the coaching record (143-161-24 with no playoffs, src_wg_thn) shows the same standing did not carry over behind the bench, so a modest score with low confidence."
+    },
+    "adaptability": {
+      "score": 52,
+      "confidence": 0.36,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wg_hhof, src_wg_nbc88, src_wg_espnkr | 1988-1993 | hall-of-fame biography + sports-news retrospective + documentary review] After the 1988 trade the Hall of Fame bio says he led the Kings to the 1993 Stanley Cup Final and NBC says he helped show hockey could work in a non-traditional market; the documentary review shows the trade itself was contested and not of his choosing in every telling. The move and later success are documented but how he adjusted is inferred from results, so strong inference with low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "웨인 그레츠키"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/wayne-gretzky-forget-2019.jpg",
+    "width": 978,
+    "height": 1303,
+    "source": "Wikimedia Commons, 'Andrew Scheer with Wayne Gretzky (48055697168) (cropped).jpg' -- a crop (by Commons user Indopug) of a photograph credited on Commons to Andre Forget and published on the Flickr stream of Andrew Scheer, taken 11 June 2019; dedicated CC0 on Flickr (live Flickr page check 2026-10-24 shows 'CC0 (Public Domain Dedication)', taken 11 June 2019) and carrying a FlickreviewR pass (15 June 2019, cc-zero) on the original Commons file (3554 x 2604 pixels). The crop removes the other person in the frame and is 978 x 1303 pixels (SHA-1 of the stored file: 1fd02c43de1dccf67b51623932944c6175b3875d); saved as downloaded, never upscaled. Caveats: the photographer credit to Andre Forget comes from the Commons record, not the Flickr page itself, which names only the account owner; no institution page beyond Flickr was found. Alternatives rejected: 'Wgretz (cropped3).jpg' (CC BY-SA 3.0 on an uploader's assertion with no photographer or source) and a 2017 Pebble Beach photo (US Army garrison Flickr account, public domain mark, but no named photographer or employment basis).",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photo: Andre Forget (Andrew Scheer's Flickr stream), 2019, CC0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Andrew_Scheer_with_Wayne_Gretzky_(48055697168)_(cropped).jpg",
+    "creator": "Andre Forget",
+    "date": "2019-06-11",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Andrew_Scheer_with_Wayne_Gretzky_(48055697168)_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q209518 returned en label 'Wayne Gretzky', description 'Canadian ice hockey player and coach (born 1961)', ko label '웨인 그레츠키', born 1961-01-26, no death date, citizenship Canada and United States, P18 'Wgretz (cropped3).jpg' (rejected, see portrait). The lead's hint was correct (search also returned video-game items only). SLUG/QID CHECK: no data-pipeline candidate or src file for slug wayne-gretzky or QID Q209518. REGION: north_america (Canada; dual Canadian-US citizenship per Wikidata, career base Canada and the US, nationalityCodes CA). VOCABULARY: occupation athlete, field sport, tags prodigy and sustained_excellence, archetype competitive_performer are existing labelled ids (no coach label exists, so coaching is not an occupation id). ZERO POLITICS: nothing political; the Scheer photograph source is a politician's Flickr stream, the other person was cropped out and no political content is used. LIVING SUBJECT: public documented on-ice and coaching behaviour only; family life, finances, the Coyotes ownership/bankruptcy and any gambling-related matters, charity affairs and private life were not read for rows or scored. CANONICAL SIGNIFICANCE SOURCES: Hockey Hall of Fame 1999 induction biography (https://www.hhof.com/induction_archives/ind99wg2.shtml) and Maclean's retirement feature (https://www.thecanadianencyclopedia.ca/en/article/gretzky-retires). READ (8 cited non-Wikidata sources): Hall of Fame bio, CSM 1981 column (verbatim), Maclean's 1999, NBC Sports trade retrospective, ESPN Kings Ransom review, Hockey Writers Coffey interview, NHL.com Kurri profile, Hockey News coaching story; six of eight were read through a page-extraction tool (summaries, not verbatim text), so quotations are used only where the tool reproduced them. Not opened: the SI Vault 1981 and 1990 articles (404), Britannica (403), the Hall of Fame official player page, Gretzky's autobiographies, Messier's memoir, books and interviews behind paywalls. PERSPECTIVES: institutional (Hall of Fame, NHL.com), contemporaneous journalism (CSM 1981, Maclean's 1999), teammates (Coffey, Kurri via Gretzky and Fuhr, Lemieux and Messier via Maclean's), and retrospective sports media (NBC, ESPN, Hockey News). COUNTER-VOICES: Fuhr's remark that Kurri's defensive work freed Gretzky, contested accounts of the 1988 trade (Sather vs Pocklington vs documentary framing), the 143-161-24 coaching record with no playoff berth, and the admiring tone of nearly every source. Self-only evidence: Gretzky's own 'practice not instinct' statement is never the sole support. Not independent: the NBC and ESPN pieces both retell the 1988 trade. SELF-CALIBRATION: reviewed mastery_orientation (lowered, see row), intuitive_synthesis (kept: a contemporaneous column and a linemate's anecdote agree, caveat priced in) and adaptability (kept at a low 52 / 0.36, already marked strong_inference). Sparse rows by design: no row was written for competitiveness, discipline or persistence because no source read documents the behaviour. PORTRAIT: Scheer-stream CC0 photograph, see portrait.source."
+  }
+}

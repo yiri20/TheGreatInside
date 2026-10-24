@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ranulph-fiennes",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ranulph Fiennes",
+    "aliases": [
+      "Sir Ranulph Twisleton-Wykeham-Fiennes"
+    ],
+    "wikidataId": "Q1331624",
+    "birthYear": 1944,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "athletic"
+    ],
+    "tagIds": [
+      "explorer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_rf_wikidata",
+      "kind": "wikidata",
+      "title": "Ranulph Fiennes (Q1331624) -- verified live via the Wikidata API (2026-10-24): English label 'Ranulph Fiennes', description 'British explorer (born 1944)', born 7 March 1944, citizenship United Kingdom; no Korean label and no Korean Wikipedia article. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1331624"
+    },
+    {
+      "id": "src_rf_rgs",
+      "kind": "archive",
+      "title": "AIM25 archive record for the Royal Geographical Society collection 'Twisleton-Wykeham-Fiennes, Sir Ranulph' (atom.aim25.com), read in full: biographical history (Eton, Royal Scots Greys, attachment to 22 SAS, service with the Sultan of Muscat's forces, Fellow of the Royal Geographical Society from 1970, RGS Founder's Medal 1984), the list of expeditions he led (White Nile 1969, Jostedalsbre glacier 1970, Headless Valley 1971, a 1977 approach toward the North Pole, the Transglobe Expedition 1979-1982 described as the first journey around the world along its polar axis by surface transport only, unsupported North Polar expeditions in 1986 and 1990, and a South Polar expedition 1992-1993), and the scope of the single box of Transglobe papers he donated in 1985 (stores book with planned sledge loads and hut plans, photographs of the polar training camp and the expedition ship, a sledge load plan, a photocopy of his navigation notebook, maps, a book typescript, press cuttings; incomplete set of expedition newsletters Dec 1979-Oct 1982). CANONICAL SIGNIFICANCE SOURCE (with the Bristol citation). Archive catalogue entry for the RGS; the record's biographical text is a short summary without named author; the papers themselves were not opened.",
+      "url": "https://atom.aim25.com/index.php/twisleton-wykeham-fiennes-sir-ranulph-2"
+    },
+    {
+      "id": "src_rf_spri",
+      "kind": "institution",
+      "title": "'Biography of Fiennes, Sir Ranulph', Freeze Frame (Scott Polar Research Institute, University of Cambridge; freezeframe.ac.uk), read in full: Transglobe Expedition 1979-1982 with Charles Burton (reportedly the first to reach both Poles overland), unsupported North Pole attempts 1986-1990 that failed, the 1993 unaided Antarctic crossing attempt with Mike Stroud that ended after about 90 days with a call for help, a 2000 solo unsupported North Pole attempt that was turned back, the 2003 seven marathons in seven days for the British Heart Foundation, OBE 1993 and Polar Medal 1995, authorship of memoirs and a biography of Robert Falcon Scott, and a dispute in which Fiennes criticised a rival's North Pole claim, which the page says damaged his reputation. Institutional polar-research biography with a candid note on failed attempts and on the dispute; the dispute itself is not scored; the health, family and army-discipline passages were not used.",
+      "url": "https://www.freezeframe.ac.uk/resources/iography-of-fiennes-sir-ranulph"
+    },
+    {
+      "id": "src_rf_bristol",
+      "kind": "institution",
+      "title": "University of Bristol, honorary degree citation for Sir Ranulph Fiennes (presented by Professor Gianni Angelini, 20 July 2018; bristol.ac.uk), read in full: described as often called Britain's greatest living explorer; with Charles Burton the first to reach both Poles, to cross the Antarctic and Arctic Oceans and the first (and still only) expedition to circumnavigate the world along its polar axis; the 1992 team that found the lost city of Ubar; the first unsupported crossing of the Antarctic continent with Mike Stroud (1992-93), described as the longest unsupported polar journey in history; the first 7x7x7 in 2003; Everest summit in May 2009 as the oldest Briton, after attempts in 2005 and 2008 that ended below the summit; the Eiger North Face in 2007; Marathon des Sables in 2015; charity fundraising for heart disease and cancer. CANONICAL SIGNIFICANCE SOURCE (with the RGS archive record). University citation: celebratory in genre and its 'first' claims are the university's wording, repeated here only as attributed; health and family passages were not used.",
+      "url": "https://www.bristol.ac.uk/alumni/our-alumni/honorary-degrees/honorary-graduates/2018/ranulph-fiennes/"
+    },
+    {
+      "id": "src_rf_lrb",
+      "kind": "press",
+      "title": "E.S. Turner, 'High Spirits', London Review of Books, vol. 10 no. 6, 17 March 1988 (review of Fiennes's Living Dangerously, Macmillan 1987, with two other books), read in full as extracted: Fiennes relied on sponsors and media deals for expeditions, arranged a televised team parachute drop for a Norwegian glacier survey, was criticised for his leadership by BBC crew members on a British Columbia traverse, and showed a talent for winning official backing (Ministry of Defence, an RAF Hercules flight, an army Land Rover); the Transglobe Expedition took seven years of preparation and three of travel, and Fiennes looked for people who were 'good-natured, patient and fit' and had the Territorial Army train them free; the reviewer calls him restless and 'not one for self-analysis', says he has a 'singular talent' for getting others to fund his desires, and that BBC films left viewers thinking him a 'cruel and incompetent publicity-seeker'. Sceptical, amused independent review (the best counter-voice read); written in 1988 so silent on later expeditions; its remarks on schooling and early life were not used.",
+      "url": "https://www.lrb.co.uk/the-paper/v10/n06/e.s.-turner/high-spirits"
+    },
+    {
+      "id": "src_rf_pw",
+      "kind": "press",
+      "title": "Publishers Weekly review of Mike Stroud, 'Shadows on the Wasteland: Crossing Antarctica with Ranulph Fiennes' (Overlook Press, 192 pp.; publishersweekly.com), read in full: Stroud, a physician and nutritionist who had already tried with Fiennes to reach the North Pole from Siberia, was invited by Fiennes to join a planned unsupported Antarctic crossing; they flew from Punta Arenas and started in November 1992, each hauling a sleigh of nearly 500 pounds with skis and wind sails, planning to cross the floating Ross Ice Shelf in about 90 days with no animals, machines or other people; personality clashes during the day faded at night, the main disagreement was pace (Fiennes favoured a slow 'polar plod', Stroud wanted to go faster); by day 95 they were too weak to continue and the expedition ended short of its goal. Short trade review of the expedition partner's own book; one voice but not Fiennes's own, and not uncritical of the pace; the book itself was not opened.",
+      "url": "https://publishersweekly.com/978-0-87951-543-0"
+    },
+    {
+      "id": "src_rf_aljaz",
+      "kind": "press",
+      "title": "'Marathon man ends marathon feat', Al Jazeera, 3 November 2003, read in full: the Land Rover 7x7x7 Challenge with Dr Mike Stroud as running partner throughout, runs in the Falkland Islands, Santiago, Sydney, Singapore, London, Cairo and New York, about 300 km in a week; Singapore heat and humidity was the biggest challenge; in Cairo they had about four hours of sleep and chose to run through the night rather than wait for daylight; Fiennes finished New York in just over five hours 20 minutes; all money raised went to the British Heart Foundation. News report; the passages on his heart condition were not used.",
+      "url": "https://www.aljazeera.com/news/2003/11/3/marathon-man-ends-marathon-feat"
+    },
+    {
+      "id": "src_rf_csm",
+      "kind": "press",
+      "title": "Danica Kirka (Associated Press), 'Ranulph Fiennes pulls out of Coldest Journey expedition', Christian Science Monitor, 25 February 2013, read in full: the plan to cross roughly 4,000 km of Antarctica in the winter, when temperatures can reach about minus 70 C and winter flights are impossible, using 20-ton tractors pulling sledges with living quarters; the expedition was raising $10 million for the charity Seeing is Believing; Fiennes withdrew before the winter set in, in the expedition's words 'very reluctantly' while it was still possible, and said before departure 'This will be my greatest challenge to date'; polar adventurer David Hempleman-Adams is quoted that it would be the first winter crossing as far as he knew. Wire-service report; the medical reason and evacuation were not used for any trait.",
+      "url": "https://www.csmonitor.com/Science/2013/0225/Ranulph-Fiennes-pulls-out-of-Coldest-Journey-expedition"
+    },
+    {
+      "id": "src_rf_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Ranulph fiennes.jpg' (wikitext and API record) -- checked for the portrait: own work by Commons user B Milnes, taken before a presentation at the Department of Engineering, Cambridge University (Cambridge Enterprise event), 18 January 2011, licence CC BY-SA 3.0. A file 'Ranulph Fiennes 2014.jpg' was rejected (rights rest on an emailed permission ticket); a Foreign Office Flickr file was not used. Rights-basis page; no person-specific claim rests on it.",
+      "url": "https://commons.wikimedia.org/wiki/File:Ranulph_fiennes.jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rf_rgs, src_rf_spri, src_rf_bristol, src_rf_pw, src_rf_lrb | 1977-2009 | archive record + polar-institute biography + university citation + book review + magazine review] The RGS record lists a run of long expeditions from 1977 to 1993, the Transglobe Expedition taking seven years of preparation and three of travel (London Review of Books); Publishers Weekly says that in 1992-93 each man hauled a sleigh of nearly 500 pounds and kept going until day 95, when they were too weak to continue; the polar-research biography records unsupported North Pole attempts in 1986, 1990 and 2000 that failed, and Bristol records Everest attempts in 2005 and 2008 before the 2009 summit. Repeated return after failed or curtailed attempts is documented by an archive, two institutions and two press pieces, including a sceptical one, so documented at a fairly high confidence. SELF-CALIBRATION (agent): reviewed as the highest-scoring row; kept because five independent sources agree on the pattern of repeated attempts and none disputes it."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_rf_csm, src_rf_pw, src_rf_spri, src_rf_rgs | 1986-2013 | wire report + book review + polar-institute biography + archive record] The Associated Press describes the 2013 plan to cross about 4,000 km of Antarctica in winter, at around minus 70 C when winter rescue flights are impossible; Publishers Weekly describes the planned unsupported 1992-93 crossing without animals, machines or other people, which ended with both men too weak to go on; the polar-research biography records unsupported North Pole attempts in 1986, 1990 and 2000. He repeatedly chose expedition formats with little margin for rescue, documented in four sources; the evidence is about the format of the undertakings rather than his own stated attitude to danger, so documented at a moderate confidence, dual-edged because several of the attempts ended short of their goals."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rf_rgs, src_rf_lrb | 1977-1982 | archive record + magazine review] The RGS record lists a 1977 preliminary approach toward the North Pole before the Transglobe Expedition, and the papers he donated include a stores book of planned sledge loads and hut plans, a sledge load plan, a navigation notebook and a planning map for the North West Passage; the London Review of Books review says preparation took seven years, that he picked people for good nature, patience and fitness and had the Territorial Army train them in the needed skills, and that he secured Ministry of Defence support. Two independent sources show long, staged preparation, but the archive entry is a catalogue summary and the review is secondhand on the planning detail, so documented at a moderate confidence."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_rf_lrb, src_rf_rgs, src_rf_csm | 1969-2013 | magazine review + archive record + wire report] The London Review of Books review describes expeditions financed through sponsors and media rights, a televised parachute drop for a Norwegian glacier survey, free training from the Territorial Army and military help including an RAF Hercules flight and an army Land Rover, and calls his talent for getting others to fund his ventures 'singular'; the RGS record lists the Transglobe papers and newsletters; the Associated Press report shows the 2013 expedition raising $10 million for a charity. Documented across decades by a sceptical reviewer and a wire report, dual-edged because the same reviewer says the BBC films left viewers thinking him a publicity-seeker and the dependence on sponsors drew criticism; moderate confidence because the fullest detail is from a single 1988 review."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rf_rgs, src_rf_lrb, src_rf_pw | 1969-1993 | archive record + magazine review + book review] The RGS record lists him as leader of the expeditions from the White Nile in 1969 through the Transglobe Expedition, and Publishers Weekly says he launched the plan for the Antarctic crossing and invited Stroud to join; the London Review of Books review says BBC crew members criticised his leadership on a British Columbia traverse, and Publishers Weekly notes a disagreement with Stroud over pace. A consistent pattern of taking the lead on expeditions, with some documented friction, but the friction accounts are thin and one-sided, so strong inference at a modest confidence, dual-edged."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_rf_bristol, src_rf_aljaz, src_rf_csm | 2003-2018 | university citation + news report + wire report] The Bristol citation says he has raised large sums for heart disease and cancer charities including the British Heart Foundation and Marie Curie; Al Jazeera reports that all the money raised by the 2003 seven-marathon challenge went to the British Heart Foundation; the Associated Press reports the 2013 expedition was raising $10 million for Seeing is Believing. Repeated charity-linked undertakings are documented by three sources, but they say little about his own stated motives and the fundraising accompanied the sporting aim, so documented at a moderate confidence with a modest score."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rf_aljaz, src_rf_pw, src_rf_rgs | 1982-2003 | news report + book review + archive record] Al Jazeera reports about 300 km run in a week across seven cities including an overnight run in Cairo on about four hours of sleep, chosen over waiting for daylight; Publishers Weekly describes his preference for a slow, steady 'polar plod' on the Antarctic crossing; the RGS record lists dated stores and sledge-load planning papers. Steady pacing and sustained routines are consistent across three sources, but none describes a daily training regime or working habits directly, so strong inference at a modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "랜널프 파인스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ranulph-fiennes-milnes-2011.jpg",
+    "width": 630,
+    "height": 718,
+    "source": "Wikimedia Commons, 'Ranulph fiennes.jpg' -- photograph of Sir Ranulph before a presentation at the Department of Engineering, Cambridge University (Cambridge Enterprise event), 18 January 2011, own work of Commons user B Milnes (account has no user page), uploaded 18 January 2011 under CC BY-SA 3.0 with no separate permission field. Original 630 x 718 pixels (SHA-1 743d96a85197b7af20751eb5c914c7baf9a530fa, 189641 bytes, matches the downloaded file); saved unchanged, never upscaled. Rejected alternatives: 'Ranulph Fiennes 2014.jpg' (David Ward; rights rest on an emailed permission ticket, which is not acceptable alone) and the Foreign Office Flickr file (FCDO template; Flickr photo licence not independently confirmed). Residual gap: the uploader is a pseudonymous Commons user and the author claim cannot be independently confirmed beyond the upload record.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: B Milnes, 2011, CC BY-SA 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Ranulph_fiennes.jpg",
+    "creator": "B Milnes",
+    "date": "2011-01-18",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ranulph_fiennes.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q1331624 returned en label 'Ranulph Fiennes', description 'British explorer (born 1944)', born 1944-03-07, citizenship United Kingdom, no kowiki sitelink; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug ranulph-fiennes or QID Q1331624 in the roster55 worktree (grep over data-pipeline, src/data). REGION: western_europe, nationalityCodes GB. VOCABULARY: occupation explorer, field exploration, tag explorer, archetype scientific_explorer, impact domains historical and athletic are existing ids with EN and KO labels (precedent: edmund-hillary). KOREAN NAME: no Wikidata Korean label or Korean Wikipedia article, so no established Korean name was found; '랜널프 파인스' is an agent transliteration and should be reviewed by the lead. ZERO POLITICS: military service in Oman, SAS and environmental/army-discipline episodes were not scored or carded. LIVING SUBJECT: professional expedition behaviour only; his heart condition, frostbite and injuries, family, the death of his first wife and the sourced dispute with a rival explorer were deliberately excluded from every row and card; the 2013 withdrawal is used only as evidence of the planned expedition format, not of his decisions. CANONICAL SIGNIFICANCE SOURCE: RGS collection record on AIM25 (https://atom.aim25.com/index.php/twisleton-wykeham-fiennes-sir-ranulph-2) and the University of Bristol honorary degree citation (https://www.bristol.ac.uk/alumni/our-alumni/honorary-degrees/honorary-graduates/2018/ranulph-fiennes/); both read in full. READ (8 cited non-Wikidata sources plus the Commons page): AIM25/RGS record, Freeze Frame (Scott Polar Research Institute), Bristol citation, London Review of Books review, Publishers Weekly review of Stroud's book, Al Jazeera 2003, Associated Press via Christian Science Monitor 2013. Blocked or not opened: Britannica (403), Yorkshire Post (403), Spectator 1993 archive page (empty), IMechE page (no relevant content), the LBC/IRN 1993 interview (login-only audio; catalogue entry only), trekandmountain (no Fiennes content); Stroud's book, Fiennes's memoirs, Guinness records and the Transglobe papers themselves were not opened; the CNN 2011 interview was seen only through a search snippet and not used. PERSPECTIVES: institutional (RGS archive, Scott Polar Research Institute, Bristol citation), a sceptical independent reviewer (LRB), the expedition partner as relayed by a trade reviewer (Stroud, via Publishers Weekly), and news reports (Al Jazeera, Associated Press). COUNTER-VOICES: Turner's 1988 review (publicity-seeker remark, sponsor dependence, BBC crew criticism), the SPRI note that failed attempts and a dispute damaged his reputation, and Stroud's pace disagreement. LIMITATIONS: very little specific working-habit detail (training regime, daily routine) is available from independent sources, and the strongest behavioural source (Turner) pre-dates the 1990s expeditions; the 'first' claims in the Bristol citation and RGS record are institutional wording, and sources differ on whether the 1992-93 crossing completed the continent (the RGS record and Bristol citation call it the first crossing; Publishers Weekly says it ended short of its goal; a search snippet of Britannica, not opened, said they stopped just short of the far shore), so cards avoid asserting completion; hence no row exceeds 76 or 0.66. SELF-CALIBRATION (agent): the rows reviewed were persistence (highest score; kept, five independent sources agree), resourcefulness (rests mainly on one sceptical 1988 review; already modest at 68/0.56 and dual-edged; left unchanged) and risk tolerance (inferred from expedition formats rather than stated attitude; already modest at 70/0.58; left unchanged). Zero rows lowered. No broad scoring problem flagged. PORTRAIT: Commons wikitext and API read; B Milnes, own work, 18 January 2011, CC BY-SA 3.0; pseudonymous uploader is the residual provenance gap; the 2014 David Ward file (emailed permission) and the FCDO Flickr file were rejected."
+  }
+}

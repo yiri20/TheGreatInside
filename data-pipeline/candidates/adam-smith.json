@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "adam-smith",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Adam Smith",
+    "aliases": [],
+    "wikidataId": "Q9381",
+    "birthYear": 1723,
+    "deathYear": 1790,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "economist",
+      "scholar"
+    ],
+    "fieldIds": [
+      "philosophy"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational",
+      "cultural"
+    ],
+    "tagIds": [
+      "theorist",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_asmith_wikidata",
+      "kind": "wikidata",
+      "title": "Adam Smith (Q9381) -- verified live via the Wikidata API (2026-10-24): English label 'Adam Smith', description 'Scottish moral philosopher and political economist (1723-1790)', born June 1723, died 17 July 1790, P18 image 'AdamSmith.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q9381"
+    },
+    {
+      "id": "src_asmith_glasgow",
+      "kind": "institution",
+      "title": "University of Glasgow, 'Adam Smith: Smith at Glasgow' (gla.ac.uk, Adam Smith 300 pages), read in full: enrolled 1737 at 14, Snell Scholarship to Balliol College Oxford in 1740, never formally graduated; returned in 1751 as Professor of Logic and quickly became Professor of Moral Philosophy; lectured also on literature, language and history; students came from Switzerland, Russia and the American colonies; pacing method inherited from Hutcheson abandoned for the lectern; disliked 'scribblers'; Quaestor 1758-60 (buying library books), Dean of Faculty 1760-62, Vice Rector 1763. CANONICAL SIGNIFICANCE SOURCE (university institutional biography). Institutional, somewhat celebratory (tercentenary site).",
+      "url": "https://www.gla.ac.uk/explore/adamsmith300/lifeworkandlegacy/glasgow/"
+    },
+    {
+      "id": "src_asmith_econlib",
+      "kind": "institution",
+      "title": "Library of Economics and Liberty, 'Adam Smith' (Concise Encyclopedia of Economics biography, econlib.org), read in full: Glasgow chairs of logic (1751) and moral philosophy (1752), left in 1764 to tutor the Duke of Buccleuch and travelled in France and Switzerland meeting Voltaire, Rousseau, Quesnay and Turgot, retired to Kirkcaldy on a pension to write The Wealth of Nations (1776), Commissioner of Customs from 1778; Millar's report that his Glasgow lectures ran natural theology, ethics, jurisprudence, economics; the division-of-labour argument and pin example; compensating wage differentials; the note that the equal-returns idea was not original to him (Turgot, 1766). Reference article, favourable in tone.",
+      "url": "https://www.econlib.org/library/Enc/bios/Smith.html"
+    },
+    {
+      "id": "src_asmith_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy, 'Adam Smith's Moral and Political Philosophy' (plato.stanford.edu, substantive revision May 2025), introduction and methodology section read: Theory of Moral Sentiments (1759) as a distinctive moral sentimentalism built from ordinary moral judgments rather than a foundationalist standpoint; Smith as anti-reductionist against Hutcheson's proto-utilitarianism and against Clarke, Wollaston and Shaftesbury; divergent scholarly reactions (Kant reportedly favoured it, others called it unsystematic or derivative of Hume); his 'History of Astronomy'. Later sections on objections and political philosophy were not read in full and political content is not scored.",
+      "url": "https://plato.stanford.edu/entries/smith-moral-political/"
+    },
+    {
+      "id": "src_asmith_rae",
+      "kind": "biography",
+      "title": "John Rae, 'Life of Adam Smith' (London: Macmillan, 1895; public-domain text at econlib.org), chapters on the Kirkcaldy years, the publication of The Wealth of Nations, the Customs post and the final years read in part (chapters 16, 18, 20, 21 and 22; the rest not read): eleven years at Kirkcaldy immersed in study; the book 'took twelve years to write'; Pulteney's East India negotiations and the delay (via Professor Rogers); Hume's letter of 1 April 1776 praising 'depth and solidity and acuteness' while disputing Smith's view of rent and seignorage; sales and thin reviews; appointment as Commissioner of Customs and his 'uncommon diligence'; his willingness to receive Lord Kames's planned critique of his theory; his later removal of an allusion to La Rochefoucauld. Nineteenth-century admiring biography built on Smith's letters, Glasgow records and the Hume correspondence; anecdotes of absent-mindedness and the Hume deathbed account were not used.",
+      "url": "https://www.econlib.org/library/YPDBooks/Rae/raeLS.html"
+    },
+    {
+      "id": "src_asmith_ngs",
+      "kind": "institution",
+      "title": "National Galleries of Scotland catalogue page 'Adam Smith, 1723 - 1790. Political economist' (Muir portrait, PG 1472; read through an Internet Archive copy because the live site blocks automated access): unknown artist, about 1795, oil on canvas, given by J. H. Romanes 1945, probably painted posthumously from a medallion by James Tassie; the page labels the image 'Creative Commons CC by NC'. Checked for the portrait's rights only.",
+      "url": "https://www.nationalgalleries.org/art-and-artists/3787/adam-smith-1723-1790-political-economist"
+    },
+    {
+      "id": "src_asmith_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Adam Smith The Muir portrait.jpg' (wikitext and image record), checked for rights: unknown author, circa 1800, National Gallery of Scotland PG 1472, tagged PD-Art-100-expired; original 1893 x 2307; the file page quotes A. L. Macfie (1952) that there is no absolute proof the picture is Smith. Also checked: 'AdamSmith.jpg' (etching after Tassie with an ambiguous author attribution, 1811/1828/1872). Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Adam_Smith_The_Muir_portrait.jpg"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_asmith_glasgow, src_asmith_econlib, src_asmith_sep | 1752-1776 | university page + reference biography + scholarly entry] Glasgow says that besides philosophy and jurisprudence Smith lectured on literature, language and history; Econlib reports Millar's list of his Glasgow lecture subjects as natural theology, ethics, jurisprudence and economics; SEP notes his 'History of Astronomy' alongside the moral and economic works. Documented spread of subjects taught and written on, though the sources themselves note that disciplinary boundaries were looser in the period. SELF-CALIBRATION (agent): reviewed and kept (three independent source types agree; the period caveat is already in the confidence)."
+    },
+    "systems_abstraction": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_asmith_econlib, src_asmith_sep | 1759-1776 | reference biography + scholarly entry] Econlib summarises The Wealth of Nations as tracing national prosperity to the division of labour and as deriving equal returns across uses of a resource and compensating wage differentials from a few general principles; SEP describes the Theory of Moral Sentiments as an attempt to map the whole workings of moral judgment from within while resisting reduction to a single principle. Documented outcomes of building general frameworks from many particulars; both sources are summaries of the works, not accounts of his working method, hence strong_inference at moderate confidence."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_asmith_rae, src_asmith_econlib, src_asmith_sep | 1776 | biography + reference + scholarly entry] Hume's letter of 1 April 1776 (quoted by Rae) credits the book with 'depth and solidity and acuteness' and illustration by curious facts, while also disputing Smith on rent and on the French seignorage figure; Econlib describes his use of numerate argument, such as the cost of the colonial monopoly; SEP records that some philosophers judge the Theory of Moral Sentiments to lack systematic argument. A contemporary friend's praise with named disagreements and a scholarly counter-view, so moderate confidence."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_asmith_rae, src_asmith_econlib | 1767-1776 | biography + reference biography] Rae writes that The Wealth of Nations took twelve years to write after being promised in 1759, that Smith spent about eleven years at Kirkcaldy with his work engaging his mind 'late and early', and that he wrote to Hume that he was immersed in study and never happier; Econlib has him retiring to Kirkcaldy on a pension to write it. A long, documented sustained effort; Rae's account is a single admiring biography drawing on letters, so confidence is moderate."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_asmith_rae | 1778-1790 | biography] Rae records that Smith left the allusion to La Rochefoucauld unchanged in the 1781 edition of the Theory of Moral Sentiments, but after the Duc's complaint later asked Dugald Stewart (Paris, 1789) to express regret and had the allusion suppressed in the final edition, and that he answered Lord Kames's proposed published objections to his theory politely and without opposing publication. One documented correction and one receptive reply, from a single biography, so modest score and confidence."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_asmith_sep, src_asmith_glasgow | 1740-1776 | scholarly entry + university page] SEP describes Smith as setting himself against foundationalist philosophy, against his teacher Hutcheson's proto-utilitarianism, and against the overstress on propriety in earlier moral-sense systems, in favour of his own pluralist view; Glasgow notes he abandoned the pacing method inherited from Hutcheson for his own lectern style and discouraged note-copying. The departures are documented in scholarship but are positions in argument rather than episodes of dissent with named costs, so strong_inference at moderate confidence."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_asmith_rae, src_asmith_glasgow | 1758-1790 | biography + university page] Glasgow records that Smith took on Quaestor (1758-60), Dean of Faculty (1760-62) and Vice Rector (1763) duties beyond teaching; Rae reports that as Commissioner of Customs he attended to the Board's routine business with uncommon diligence, quoting his own 1787 letter that he was so regular at the Custom House he could take the play for a week at any time, while noting he may have been slower than a trained clerk. A documented record of sustained administrative work from two sources, with the self-report partly Smith's own words."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "애덤 스미스"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. Best candidate: the 'Muir portrait' (unknown artist, about 1795-1800, oil on canvas, National Galleries of Scotland PG 1472, probably painted posthumously from James Tassie's 1787 medallion; Commons file 'Adam Smith The Muir portrait.jpg', original 1893 x 2307, tagged PD-Art-100-expired). Blocker: the authoritative institutional page labels the digital image 'Creative Commons CC by NC', which conflicts with the generic Commons public-domain tag and is not compatible with an unrestricted licence; per the portrait rules a generic Commons PD tag does not override an institutional statement. The alternative 'AdamSmith.jpg' (etching after Tassie) has an ambiguous author and three possible dates (1811/1828/1872). Next step: obtain an engraving or medallion image from a source that states its own public-domain terms (for example a Tassie medallion or period engraving from a library that releases it as public domain), or ask National Galleries of Scotland whether the CC BY-NC label applies to the underlying public-domain painting. Kind, if resolved, would be historical_depiction (the Muir portrait is posthumous).",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Adam_Smith_The_Muir_portrait.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q9381 returned en label 'Adam Smith', description 'Scottish moral philosopher and political economist (1723-1790)', born June 1723, died 17 July 1790; the lead's hint was correct. SLUG/QID CHECK: no existing candidate, production file or src reference for slug adam-smith or QID Q9381 in the roster55 worktree. REGION: western_europe, nationality GB (Scottish), following Isaac Newton and other British precedents. VOCABULARY: occupations philosopher, economist, scholar; field philosophy (no labelled economics field exists, so economics is expressed through the economist occupation); impact domains historical/educational/cultural; tags theorist, systematic_thinker; archetype scholarly_specialist, all existing labelled ids. ZERO POLITICS: Smith's free-trade/colonial positions and his customs post as an arm of government are treated as scholarship/administration; no row scores political leadership, activism or policy advocacy; the Customs post is used only as a documented work-behaviour (diligent attendance). CANONICAL SIGNIFICANCE SOURCE: University of Glasgow, 'Adam Smith: Smith at Glasgow' (https://www.gla.ac.uk/explore/adamsmith300/lifeworkandlegacy/glasgow/), plus Library of Economics and Liberty biography. READ (6 cited non-Wikidata sources): Glasgow, Econlib, SEP (intro and methodology), Rae 1895 biography (five chapters, with letters from Hume, Strahan, Kames, Smith), National Galleries of Scotland page (archived copy), Commons file page. PERSPECTIVES: university institution; reference/economics encyclopaedia; scholarly philosophy encyclopaedia; nineteenth-century biography with contemporary letters; counter-voices: Hume's disagreement on rent and seignorage, Lord Kames's planned critique, Mickle's unpublished satire (Rae), SEP's note that some philosophers find the Moral Sentiments unsystematic. NOT OPENED: Britannica (Cloudflare block), University of Glasgow Story (403), Dugald Stewart's 1793 memoir (archive.org text saved but not read beyond a search), Ross's 'Life of Adam Smith' (not freely available; Rae used instead), Rothschild and Phillipson scholarship (not accessed). All of Smith's absent-mindedness anecdotes, his relationship with his mother, his death and the Hume deathbed controversy were deliberately not used. Source weakness: three of the sources are institutional/admiring and the only full biography is from 1895, so confidences are capped around 0.5-0.64. SELF-CALIBRATION pass reviewed cross_domain_range, persistence and discipline (the three highest-risk rows); none lowered."
+  }
+}
