@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "astor-piazzolla",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Astor Piazzolla",
+    "aliases": [
+      "Ástor Piazzolla",
+      "Astor Pantaleón Piazzolla"
+    ],
+    "wikidataId": "Q172505",
+    "birthYear": 1921,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_piazzolla_wikidata",
+      "kind": "wikidata",
+      "title": "Astor Piazzolla (Q172505) -- verified live via the Wikidata API (2026-10-23): English label 'Astor Piazzolla', description 'Argentine tango composer, bandoneon player and arranger', born 1921-03-11, died 1992-07-04 (a second statement gives 5 July), citizenship Argentina, Korean label present, English and Korean Wikipedia sitelinks present, P18 'Astor Piazzolla.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q172505"
+    },
+    {
+      "id": "src_piazzolla_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Astor Piazzolla' (ebsco.com), read in full as a structured summary: birth in Mar del Plata in 1921, childhood in New York and a bandoneon from 1929, joining Anibal Troilo's orchestra in Buenos Aires, six years of composition study with Alberto Ginastera from 1941, the 1953 Fabien Sevitzky Prize for 'Buenos Aires, tres movimientos sinfonicos' and the French scholarship, the Paris study with Nadia Boulanger (she respected his classical works but found them lacking feeling and recognised his tango 'Triunfal' as 'the true Piazzolla'), his ensembles (Octeto Buenos Aires 1955-58, the Quintet 1960-70 and 1978-88, Octeto Electronico 1974-77), tangos written for listening not dancing and resisted by traditional tango musicians, 'Adios Nonino' (1959), the 1968 tango-opera 'Maria de Buenos Aires' with Horacio Ferrer (ambitious, controversial, nearly bankrupted him; he is quoted saying it was better to be broke with it than flush with 'some garbage'), worldwide recognition in the 1980s, and Yo-Yo Ma's and Don Heckman's comparison of his role for tango to Gershwin's and Ellington's for jazz. CANONICAL SIGNIFICANCE SOURCE (with the Alabama Symphony biography). Reference-style biography, broadly admiring but it records resistance and mixed reviews. Its passages on his childhood leg condition, his family, his 1988 heart problems and his 1990 stroke were not used.",
+      "url": "https://ebsco.com/research-starters/history/astor-piazzolla"
+    },
+    {
+      "id": "src_piazzolla_aso",
+      "kind": "institution",
+      "title": "Alabama Symphony Orchestra, 'Astor Piazzolla' artist biography page (aso.org), read in full: Argentine-born to Italian parents, a childhood in New York with jazz and Bach, the 1953 'Buenos Aires Symphony' that won a French grant to study with Nadia Boulanger, the nuevo tango that 'transformed traditional tango' with jazz and classical elements, the Octeto Buenos Aires formed after his 1955 return, the 1985 Almeida Theatre concert and the 1987 Central Park concert of his Quinteto Tango Nuevo, and the later custodians of his style (Pablo Ziegler, Marcelo Nisinman). CANONICAL SIGNIFICANCE SOURCE (with EBSCO). Programme-note style institutional summary; says nothing on traditionalist reception, which is why it was paired with other sources.",
+      "url": "https://www.aso.org/artists/detail/astor-piazzolla"
+    },
+    {
+      "id": "src_piazzolla_cuyo",
+      "kind": "press",
+      "title": "Redaccion Diario de Cuyo, 'El recuerdo del Gran Astor' (diariodecuyo.com.ar, 4 July 2012, 20th anniversary of his death), read in full in Spanish: his early meeting with Carlos Gardel in New York, work in Troilo's orchestra, more than 300 tangos and scores for about 40 films, heavy criticism in the 1950s-60s from the orthodox 'Guardia Vieja' who called him 'el asesino del tango', the claim that his works were not played on radio and record labels did not dare release them, and his 1954 Revista Antena interview (he answers that his music is 'contemporary music of Buenos Aires' and that he is an 'enemy' only of the tango the traditionalists believe in, 'they still believe in the compadrito; I don't'). Argentine press retrospective; this is the counter-voice (the traditionalist hostility) and the best Argentine-side behavioural source, though the radio and record-label claims are the paper's own unreferenced statements and its Gardel anecdote is not scored.",
+      "url": "https://www.diariodecuyo.com.ar/noticias/el-recuerdo-del-gran-astor-796387.html"
+    },
+    {
+      "id": "src_piazzolla_apm",
+      "kind": "press",
+      "title": "American Public Media, Saint Paul Sunday featured-artist page for the Assad Duo (saintpaulsunday.publicradio.org, programme of 23 July 2000), read in full for its Piazzolla background paragraphs: detractors charged that he was trying to 'kill' tango with his mix of styles, the ruling military junta reportedly called his new tango 'too avant-garde', enthusiastic young Argentine audiences, European concerts in the 1970s-80s, his aim of restoring tango's emotional force, his remark that 'if I do a fugue in the manner of Bach, it will always be tanguificated', his insistence that his music was carefully studied and 'very elaborate', and the introduction of cello and electric guitar while dropping singers and dancers from his ensembles. Public-radio programme note, independent of the Argentine paper; the junta remark is incidental politics and is not scored.",
+      "url": "https://saintpaulsunday.publicradio.org/featured_artists/assad.html"
+    },
+    {
+      "id": "src_piazzolla_freshair",
+      "kind": "archive",
+      "title": "Fresh Air archive, 'Remembering the Assassin of Tango' (freshairarchive.org; Terry Gross's 19 April 1988 interview, rebroadcast 6 July 1992 after his death), read as the programme page only (the transcript is marked unavailable): describes his tangos as a hybrid of classical music, jazz and rock, groups he led from the early 1960s linking the Argentine form with European and American innovations, his classical training and study with Boulanger, his 1970s years in France writing film scores, and that his changes to tango earned him the 'enmity of Argentinians'. Used only to corroborate the traditionalist opposition and the hybrid style; the audio itself was not heard.",
+      "url": "https://freshairarchive.org/segments/remembering-assassin-tango"
+    },
+    {
+      "id": "src_piazzolla_yourclassical",
+      "kind": "press",
+      "title": "Composers Datebook, 'Piazzolla passes' (yourclassical.org, American Public Media, 5 July 2014 episode), read in full (short radio note): bandoneon virtuoso, scholarship to study with Boulanger who encouraged him to explore the music he knew best, a 'reinvented' tango called nuevo tango that was 'dark and brooding', and his remark shortly before death that tango is 'sad and dramatic, but not pessimistic'. Short radio note; used for corroboration only and the age/date of death (it says 5 July where other sources say 4 July, which is why no death-date detail is used).",
+      "url": "https://yourclassical.org/episode/2014/07/05/piazzolla-passes"
+    },
+    {
+      "id": "src_piazzolla_kronos",
+      "kind": "institution",
+      "title": "Kronos Quartet, recording page for 'Astor Piazzolla: Five Tango Sensations' (kronosquartet.org), read in full: the 1989 suite for bandoneon and string quartet recorded with Piazzolla (album issued 1991); violinist David Harrington's account (reproduced from a WOMEX interview, undated) that Piazzolla's 'willpower was extraordinary', that 'he just pulled the music out of everybody including himself', and that the recording took about two hours, which the quartet had never matched; an AllMusic reviewer's line that Piazzolla 'plays his heart out'. Collaborator account (admiring, retrospective, self-interested in promoting the recording): only one perspective on studio conduct, so it supports no trait row alone.",
+      "url": "https://kronosquartet.org/recordings/detail/astor-piazzolla-five-tango-sensations/"
+    },
+    {
+      "id": "src_piazzolla_constantini",
+      "kind": "press",
+      "title": "Claudio Constantini, 'Astor and Nadia' (newsletter, constantinimusic.beehiiv.com, 12 March 2024), read in full: an Argentine bandoneonist's retelling of the Paris meeting in which Boulanger found Piazzolla's concert works skilful but impersonal, asked what he played at home, and told him of a tango he played for her 'This is the real Astor'. Cites no sources and gives no dates; a musician's blog retelling of a standard anecdote, used only as a duplicate of the Boulanger story already in the EBSCO biography (not an independent perspective and no trait row rests on it).",
+      "url": "https://constantinimusic.beehiiv.com/p/astor-nadia"
+    },
+    {
+      "id": "src_piazzolla_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Astor Piazzola - Composer & Bandoneonist (60228686).jpg' (with the Commons API record, wikitext and FlickreviewR record) -- checked for the portrait: author Carlos Ebert (Sao Paulo), Flickr id 60228686, licence CC BY 2.0, Flickr licence review passed 2020-09-21, original 1272 x 1832 pixels. Rights record only; no trait row rests on it.",
+      "url": "https://commons.wikimedia.org/wiki/File:Astor_Piazzola_-_Composer_%26_Bandoneonist_(60228686).jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_piazzolla_ebsco, src_piazzolla_aso, src_piazzolla_apm, src_piazzolla_yourclassical | 1955-1989 | reference biography + symphony-orchestra biography + public-radio notes] EBSCO records that after Boulanger's advice he fused tango with classical music, treated the bandoneon as a virtuoso solo instrument and wrote tangos for listening rather than dancing; the Alabama Symphony biography says his work 'transformed traditional tango' with jazz and classical elements; Public Radio notes that he added cello and electric guitar and dropped singers and dancers, and his own remark that even a fugue in Bach's manner would remain 'tanguificated'; Composers Datebook calls the result a 'reinvented' tango. Four unrelated summaries agree on a distinct new idiom with named ensembles and dates, so documented at a fairly high confidence; held below the top of the scale because the sources are overviews rather than close musicological analysis."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_piazzolla_cuyo, src_piazzolla_apm, src_piazzolla_freshair, src_piazzolla_ebsco | 1954-1960s | Argentine press retrospective + public-radio notes + broadcast archive + reference biography] In a 1954 interview he answered his critics by calling his music contemporary music of Buenos Aires and saying he was an enemy only of the tango that traditionalists believed in ('they still believe in the compadrito; I don't'); he kept writing for listening rather than dancing although EBSCO says traditional tango musicians resisted it, and Public Radio and the Fresh Air page both describe lasting opposition. The pattern of holding his own musical course against the field's norm is reported by four sources, one of them Argentine and one a direct quotation, so documented at a good confidence. The Argentine paper's statements about radio and record labels are unreferenced and were not leaned on."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_piazzolla_cuyo, src_piazzolla_apm, src_piazzolla_ebsco | 1950s-1980s | Argentine press retrospective + public-radio notes + reference biography] The orthodox 'Guardia Vieja' called him the 'assassin of tango' through the 1950s and 1960s, Public Radio reports detractors charging that he was trying to 'kill' tango, and EBSCO says traditional musicians resisted him and 'Maria de Buenos Aires' drew controversy; he answered in public in 1954 with a reasoned rebuttal and continued with the same project, gaining wide recognition only in the 1980s. Sustained, openly hostile reception is documented, but his emotional response to it is not, so the trait is a strong inference about staying in public disagreement rather than an observed reaction; dual-edged because the confrontation also cost him audiences and money."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_piazzolla_ebsco, src_piazzolla_cuyo | 1955-1968 | reference biography + Argentine press retrospective] EBSCO reports that the 1968 tango-opera 'Maria de Buenos Aires' was his most ambitious and controversial work, nearly bankrupted him, and that he said it was 'much more important to be broke' with it than to be flush after producing 'some garbage' (his own words, relayed by the biography); it also says he treated financial risk as a price worth paying for artistic goals, and the Argentine paper says his early new-style works lacked radio play and record releases. One biography carries the specific evidence and the quotation is his own, so strong inference at a modest confidence; dual-edged because the same stance produced both his best-known work and financial strain."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_piazzolla_ebsco, src_piazzolla_apm, src_piazzolla_aso | 1941-1955 | reference biography + public-radio notes + symphony-orchestra biography] EBSCO records six years of composition study with Ginastera from 1941 (harmony, counterpoint, rhythm, orchestration), a 1953 prize-winning symphonic work and a year of study in Paris with Boulanger; Public Radio quotes him insisting that his music was carefully studied and 'very elaborate', not just noisy modernism, and the symphony biography confirms the 1953 competition win and Paris study. Sustained formal training plus a stated commitment to craft is documented across three sources, though none gives close detail of daily practice, so a moderate confidence."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_piazzolla_ebsco, src_piazzolla_apm, src_piazzolla_aso, src_piazzolla_freshair | 1955-1980s | reference biography + public-radio notes + symphony-orchestra biography + broadcast archive] EBSCO says he tested new ideas with bandmates after hours and moved through a succession of formats (Octeto Buenos Aires 1955-58, the Quintet, the Octeto Electronico 1974-77); Public Radio says he brought in cello and electric guitar; the Fresh Air page describes groups from the early 1960s connecting tango to European and American innovations and a hybrid of classical, jazz and rock. Repeated, dated changes of ensemble and instrumentation across four sources, but the after-hours testing rests on one biography, so documented at a moderate confidence."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_piazzolla_ebsco, src_piazzolla_freshair, src_piazzolla_aso, src_piazzolla_kronos | 1953-1989 | reference biography + broadcast archive + symphony-orchestra biography + collaborator page] He combined tango with the classical tradition (Ginastera, Boulanger, a prize-winning symphonic work, a tango-opera, a suite for string quartet recorded with Kronos in 1989) and with jazz and rock elements, and also wrote film scores in France during the 1970s (Fresh Air). Work across concert, popular and film settings is documented by several sources; the range is between musical idioms rather than unrelated fields, so a moderate score and confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아스토르 피아졸라"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/astor-piazzolla-ebert-undated.jpg",
+    "width": 833,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Astor Piazzola - Composer & Bandoneonist (60228686).jpg' -- black-and-white head-and-shoulders photograph of Astor Piazzolla published on Flickr by Carlos Ebert (Sao Paulo), who describes himself as co-director and director of photography of a documentary made on Piazzolla in Buenos Aires and Mar del Plata, under CC BY 2.0; the Commons file was imported 2020-09-21 and passed the FlickreviewR licence check. Original 1272 x 1832 pixels (SHA-1 28d566b6, matches the Commons record); saved downscaled only (never upscaled) to 833 x 1200. The date of the photograph is not stated (the Flickr/Commons date 2005-11-05 is the upload time; Piazzolla died in 1992).",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Carlos Ebert, CC BY 2.0 (via Flickr and Wikimedia Commons)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Astor_Piazzola_-_Composer_%26_Bandoneonist_(60228686).jpg",
+    "creator": "Carlos Ebert",
+    "date": "undated (before 1992; uploaded to Flickr 2005)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Astor_Piazzola_-_Composer_%26_Bandoneonist_(60228686).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q172505 returned en label 'Astor Piazzolla', description 'Argentine tango composer, bandoneon player and arranger', born 1921-03-11, died 1992-07-04 (second statement 1992-07-05), citizenship Argentina (Q414), enwiki and kowiki sitelinks, P18 'Astor Piazzolla.jpg'; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug astor-piazzolla or QID Q172505 (grep over data-pipeline, src/data, src/core). REGION: latin_america (Argentina). VOCABULARY: occupationIds composer and musician, fieldId music, impact domains artistic and cultural, tags innovator and nonconformist, archetype creative_creator all exist and have labels (grep of src/core/i18n/en.ts). ZERO POLITICS: the junta remark and the Argentine regime context are incidental and unscored; nothing political carded. NO PRIVATE-LIFE INFERENCE: his childhood leg condition, family, marriages, 1988 heart problems and 1990 stroke appear in EBSCO/Fresh Air and were deliberately not used; no personality inference from illness or death. CANONICAL SIGNIFICANCE SOURCES: EBSCO Research Starters 'Astor Piazzolla' and the Alabama Symphony Orchestra biography (both read; Britannica returned HTTP 403 to the fetch tool and was not read). READ (8 cited non-Wikidata sources plus the Commons page): EBSCO (full), ASO page (full), Diario de Cuyo 2012 (full, Spanish), APM Saint Paul Sunday page (Piazzolla paragraphs), Fresh Air archive page (programme page only, transcript unavailable), Composers Datebook (short), Kronos Quartet recording page (full), Constantini newsletter (full; duplicate of the Boulanger anecdote, not independent). PERSPECTIVES: reference biography (EBSCO), institutional summaries (ASO, Kronos), Argentine press retrospective with the traditionalist counter-voice and Piazzolla's own 1954 reply (Cuyo; self statement relayed by a third party), US public-radio notes (APM, Composers Datebook, Fresh Air), and one collaborator account (Harrington, admiring, used for no row). COUNTER-VOICE: the Guardia Vieja's 'assassin of tango' charge and the resistance of traditional musicians (Cuyo, APM, EBSCO, Fresh Air); mixed reviews of 'Maria de Buenos Aires' (EBSCO). NOT OPENED: Britannica (403), NPR 1996 'Tango innovator' page (two timeouts), Wikipedia (orientation only), the New York Times 1992 obituary, Azzi and Collier's biography 'Le Grand Tango' (book), Gidon Kremer or Nonesuch accounts beyond search snippets (Kremer collaborator material was therefore not used), Fresh Air audio. LIMITS: much of the evidence is retrospective overview material; there is no close musicological source or contemporaneous review in the set, so scores peak at 76 and confidence at 0.64 and no collaboration or persistence row was claimed (collaboration would rest on one admiring account). SELF-CALIBRATION (agent): the three highest-risk rows reviewed were creative originality (highest score), independent thinking, and risk tolerance (one-biography dependence); creative originality and independent thinking were left unchanged (four agreeing sources each, one a direct 1954 quotation) and risk tolerance was left at 64 / 0.50 already set as a strong inference; no row lowered. PORTRAIT: the lead's P18 file 'Astor Piazzolla.jpg' was REJECTED: its Commons page says only 'Copyright by Pupeto Mastropasqua', taken from the piazzolla.org website in 1971, tagged PD-AR-Photo with a Not-PD-US-URAA warning (US status 'unclear'), so the public-domain basis is not concrete. 'Piazzolla retrato.jpg' (circa 1950, scanned from Clarin magazine, unknown author, PD-AR-Photo) was seen in the same category listing but not adopted, for the same reason. ADOPTED: Carlos Ebert's CC BY 2.0 photograph (page, wikitext and API record read; licence set by the claimed photographer and passed FlickreviewR; no institutional page with a conflicting notice exists). Caveats for the lead: the photograph is an undated scan-like black-and-white print, so the exact date and whether Ebert shot it himself (as the Flickr description implies) rest on his claim; the Flickr page itself did not load usable licence text for this check. The file was downloaded with curl, SHA-1 matched Commons, viewed (clear frontal face, dark sweater, consistent with other photographs of the elderly bearded Piazzolla), and downscaled with LANCZOS to 833 x 1200; never upscaled."
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "geoffrey-hinton",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Geoffrey Hinton",
+    "aliases": [
+      "Geoffrey E. Hinton",
+      "Geoffrey Everest Hinton",
+      "Geoff Hinton"
+    ],
+    "wikidataId": "Q92894",
+    "birthYear": 1947,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB",
+      "CA"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist"
+    ],
+    "fieldIds": [
+      "computing"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological"
+    ],
+    "tagIds": [
+      "innovator",
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hinton_wikidata",
+      "kind": "wikidata",
+      "title": "Geoffrey Hinton (Q92894) -- verified live via the Wikidata API (2026-10-23): English label 'Geoffrey Hinton', description 'British-Canadian computer scientist and psychologist', born 1947-12-06, no date of death, citizenship United Kingdom and Canada, Korean label present, English and Korean Wikipedia sitelinks present, P18 'Geoffrey Hinton in 2026.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q92894"
+    },
+    {
+      "id": "src_hinton_uoft_nobel",
+      "kind": "institution",
+      "title": "R. Kalvapalle, 'Geoffrey Hinton wins Nobel Prize in Physics', U of T News, University of Toronto, 8 October 2024, read in full: shared the 2024 Nobel Prize in Physics with John Hopfield for foundational discoveries enabling machine learning with artificial neural networks; Hinton built on Hopfield's network to create the Boltzmann machine, which can learn to recognise elements within data and generate new examples, and he and his graduate students later built on it; the Royal Swedish Academy of Sciences noted that he kept researching in the 1990s when interest in neural networks waned and that his work 'helped start the new explosion of exciting results' in the 2000s; at Toronto since 1987, University Professor 2006, co-founder and chief scientific adviser of the Vector Institute, an early CIFAR-supported researcher, 2019 Turing Award with LeCun and Bengio; Hinton says his work drew on statistical physics although he is not a physicist. CANONICAL SIGNIFICANCE SOURCE (it relays the Nobel committee's rationale because nobelprize.org returned HTTP 403 to the fetch tool). Employer-university news release, admiring; its paragraphs on his 2023 departure from Google and his AI-safety advocacy were not used.",
+      "url": "https://www.utoronto.ca/news/geoffrey-hinton-wins-nobel-prize"
+    },
+    {
+      "id": "src_hinton_uoft_alexnet",
+      "kind": "institution",
+      "title": "University of Toronto News, 'Neural net behind Geoffrey Hinton's Nobel Prize to be preserved by Computer History Museum' (21 March 2025), read in full: graduate students in Hinton's lab began using GPUs for neural networks in the early 2000s; Ilya Sutskever believed performance would scale with data and, after ImageNet appeared in 2009, persuaded Alex Krizhevsky in 2011 to train a convolutional network on it, with Hinton as principal investigator; Krizhevsky spent about a year adjusting and retraining it on two NVIDIA cards until it beat competitors; the 2012 paper by the three is among the most cited ever and before AlexNet few machine-learning researchers used neural networks, afterwards almost all did; Hinton's summary: 'Ilya thought we should do it, Alex made it work and I got the Nobel Prize'; Jeff Dean of Google says the code underlies the landmark paper. CANONICAL SIGNIFICANCE SOURCE (with the Nobel news release). Institutional, admiring; it credits students' work and shows Hinton's role as supervisor, not the author of the training work.",
+      "url": "https://www.utoronto.ca/news/neural-net-behind-geoffrey-hinton-s-nobel-prize-be-preserved-computer-history-museum"
+    },
+    {
+      "id": "src_hinton_uoft_congrats",
+      "kind": "institution",
+      "title": "University of Toronto News, 'Congratulations pour in for Geoffrey Hinton after Nobel win' (8 October 2024), read in full: remarks from colleagues and current and former students -- Yoshua Bengio, Raquel Urtasun, Eyal de Lara, Leah Cowen, Chris Maddison ('a fantastic adviser' who 'worked really, really hard to remove the barriers for his students'), Nick Frosst (learned most of what he knows about doing science from Hinton, especially his 'curiosity and playfulness'), Kevin Swersky (meetings were not typical check-ins; Hinton shared his own latest ideas and results to inspire students), Ujan Sen (Hinton 'didn't really care too much about pedigree', 'almost childlike playfulness'), Tina Behrouzi ('always goes with what he believes, not what the flow is'). Admiring, celebratory, all from his own institution and former students; used only for behavioural descriptions of research and mentoring, with confidence capped. Maddison's remark about his own health challenges and Hinton's response, and all praise of general stature, were not used.",
+      "url": "https://www.utoronto.ca/news/congratulations-pour-geoffrey-hinton-after-nobel-win"
+    },
+    {
+      "id": "src_hinton_uoft_sixdegrees",
+      "kind": "institution",
+      "title": "University of Toronto News, 'Six degrees of separation: how U of T's Geoffrey Hinton is connected to top AI researchers around the world' (28 March 2017), read in full: says he supervised more than 30 doctoral students and many postdocs, master's students and undergraduates, and names former students and postdocs (Brendan Frey, Yann LeCun as a postdoc, Ruslan Salakhutdinov, Richard Zemel, Ilya Sutskever, Alex Krizhevsky) with their later careers, and the 2012 image-recognition entry and the DNNresearch company acquired by Google. Institutional listing; no quotation from Hinton; supports only the extent of his supervision.",
+      "url": "https://www.utoronto.ca/news/six-degrees-separation-how-u-t-s-geoffrey-hinton-connected-top-ai-researchers-around-world"
+    },
+    {
+      "id": "src_hinton_synced",
+      "kind": "press",
+      "title": "Synced Review, 'Who invented backpropagation? Hinton says he didn't, but his work made it popular' (23 April 2020), read in full: Juergen Schmidhuber's April 2020 critique of the Honda Prize press release ('six false and/or misleading attributions of credit to Dr. Hinton'), Hinton's Reddit reply ('I have never claimed that I invented backpropagation'; David Rumelhart invented it independently; his group did not know the history when they first published and failed to cite earlier inventors; his real claim is that he was the person to clearly demonstrate that backpropagation could learn interesting internal representations; a rare case of an academic receiving too much credit), the 2015 Nature review background, and a Google DeepMind researcher's remark that science should credit ideas rather than people; notes the 1986 Nature paper with Rumelhart and Williams that popularised it. Independent trade press; CRITICAL COUNTER-VOICE on credit attribution; Hinton's reply is his own statement (self) reported alongside the opposing claim.",
+      "url": "https://syncedreview.com/2020/04/23/who-invented-backpropagation-hinton-says-he-didnt-but-his-work-made-it-popular/"
+    },
+    {
+      "id": "src_hinton_marcus",
+      "kind": "press",
+      "title": "Gary Marcus, 'Two Nobel Prizes for AI, and Two Paths Forward' (Substack, October 2024), read in full for its research-related content: argues the prize citation credits Hinton with inventing backpropagation although Paul Werbos developed its modern form in a 1974 thesis and David Parker rediscovered it in 1982 (citing Stephen Grossberg: 'good marketing does not imply priority'), quotes a Hinton defender that the committee 'didn't know the neural network history very well', and says Hinton has long championed backpropagation and neural networks while dismissing neurosymbolic AI, contrasting him with Demis Hassabis. Critical outside commentator who is himself a long-time opponent of pure deep-learning approaches; used only as the counter-voice on credit and on research style. Its other passages (policy, AI-safety debate, any remarks on Hinton's later statements) were not used.",
+      "url": "https://garymarcus.substack.com/p/two-nobel-prizes-for-ai-and-two-paths"
+    },
+    {
+      "id": "src_hinton_mittr",
+      "kind": "press",
+      "title": "Jamie Condliffe, 'Google Researchers Have a New Alternative to Traditional Neural Networks', MIT Technology Review, 1 November 2017, read in full: Hinton's two papers (arXiv and OpenReview) introducing capsule networks, groups of neurons organised in layers where agreeing capsules activate one at a higher level; approach said to have been 'in the making for decades' and expected to recognise objects in new situations with less data; results matched regular networks on handwritten characters and made fewer errors on toys seen from new angles; caveats that capsule networks were still slower and results limited to a few tasks; no outside expert quoted. Short trade-press report; its remarks on his worries about AI's future were not used.",
+      "url": "https://www.technologyreview.com/2017/11/01/148028/google-researchers-have-a-new-alternative-to-traditional-neural-networks/"
+    },
+    {
+      "id": "src_hinton_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Geoffrey Hinton in 2026.jpg' (with the Commons API record and wikitext) -- checked for the portrait: author and uploader Cmichel67 (Christopher Michel), photograph dated 2026-05-13, licence CC BY-SA 4.0 ('own work'), original 4131 x 5784 pixels. Rights record only; no trait row rests on it.",
+      "url": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hinton_uoft_nobel, src_hinton_uoft_congrats, src_hinton_mittr | 1990s-2017 | university news release relaying the Nobel committee + student remarks + trade press] The Royal Swedish Academy of Sciences is reported to have noted that Hinton kept researching in the 1990s when interest in neural networks waned and that his work later helped start the 'explosion of exciting results'; a current PhD student says he 'always goes with what he believes, not what the flow is', and Chris Maddison, a former student, describes his 'determination'; MIT Technology Review calls the capsule-network idea 'in the making for decades'. A long, dated stretch of unfashionable work is attributed to him by the committee and corroborated by the trade-press description of a decades-long project, so documented at a good confidence; held below the top of the scale because the committee statement is relayed secondhand and the other support is celebratory."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hinton_uoft_nobel, src_hinton_mittr, src_hinton_synced, src_hinton_marcus | 1983-2017 | university news release + trade press + critical commentary] Hinton built on Hopfield's network to create the Boltzmann machine, which can learn to recognise elements in data and generate new examples (Nobel news release); in 2017 he published capsule networks as a different arrangement of neurons meant to recognise objects with less data, with results that matched or beat regular networks on two small tests but a speed drawback (MIT Technology Review); on backpropagation, his own statement and the critics agree that he did not invent it and that his contribution was demonstrating it could learn useful internal representations (Synced), and Marcus says the credit for the method itself belongs to Werbos and others. New architectures are documented, but the priority disputes and unproven capsule results keep the score and confidence moderate."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hinton_uoft_congrats, src_hinton_uoft_nobel, src_hinton_marcus | 1990s-2024 | student remarks + university news release + critical commentary] A graduate student says he 'always goes with what he believes, not what the flow is' and another that he 'didn't really care too much about pedigree'; the committee remark relayed by Toronto says he persisted in neural-network research when the field lost interest; Marcus, an opponent, says Hinton long championed neural networks and dismissed neurosymbolic combinations, which he regards as dogmatic. Support is largely admiring student description plus one critical characterisation of a research stance, so a strong inference rather than a directly documented episode; dual-edged because the same commitment is praised by the committee and criticised by Marcus."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hinton_uoft_congrats, src_hinton_uoft_alexnet, src_hinton_uoft_sixdegrees | 2011-2024 | student remarks + university news releases] Former students say he 'worked really, really hard to remove the barriers for his students', shared his own latest ideas and results in meetings to inspire them rather than only checking progress, and cared about ideas more than pedigree; the 2012 ImageNet work was done with students Sutskever and Krizhevsky, with Hinton as principal investigator and his own summary giving them credit for proposing and building it; Toronto says he supervised more than 30 doctoral students. The behaviour is described only by admiring alumni and his own university, with no neutral or critical account of his supervision, so strong inference at a modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "제프리 힌턴"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/geoffrey-hinton-michel-2026.jpg",
+    "width": 857,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Geoffrey Hinton in 2026.jpg' -- portrait photograph by Christopher Michel, dated 13 May 2026 and uploaded to Commons by the photographer himself (account Cmichel67, 'Own work') under CC BY-SA 4.0. Original 4131 x 5784 pixels (SHA-1 4f67d2b0, matches the Commons record); saved downscaled only (never upscaled) to 857 x 1200.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Christopher Michel, 2026, CC BY-SA 4.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg",
+    "creator": "Christopher Michel",
+    "date": "2026",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q92894 returned en label 'Geoffrey Hinton', description 'British-Canadian computer scientist and psychologist', born 1947-12-06, no death date, citizenship United Kingdom (Q145) and Canada (Q16), enwiki and kowiki sitelinks, P18 'Geoffrey Hinton in 2026.jpg'; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug geoffrey-hinton or QID Q92894 (grep over data-pipeline, src/data, src/core). REGION: north_america, nationalityCodes GB and CA. Reasoning: he was born in England but has held his professional base in Canada (University of Toronto since 1987 per the Toronto news release, Vector Institute co-founder), and the repo's precedents (sundar-pichai and satya-nadella, both US plus IN, mapped north_america) place a dual-nationality person by where the career was built rather than the country of birth; western_europe would reflect only the birthplace. VOCABULARY: occupationId computer_scientist, fieldId computing, impact domains scientific and technological, tags innovator and nobel_laureate, archetype technical_innovator all exist with labels (grep of src/core/i18n/en.ts); occupation ids professor and educator have NO label in en.ts and were not used. ZERO POLITICS / LIVING SUBJECT: only documented research and professional behaviour is scored; his 2023 departure from Google, AI-safety and policy advocacy and public statements about AI risk are deliberately excluded from rows and cards, as are family, health (including a student's remark about health challenges in the congratulations piece), private life and motive inference. CANONICAL SIGNIFICANCE SOURCE: U of T News 'Geoffrey Hinton wins Nobel Prize in Physics' (read in full; relays the Nobel committee's rationale) and U of T News on AlexNet (read in full); the nobelprize.org press release, popular information and advanced background and the ACM Turing Award pages all returned HTTP 403 to the fetch tool and were not read, so the Nobel citation is cited only through Toronto's release. READ (7 cited non-Wikidata sources plus the Commons page): U of T Nobel release, U of T AlexNet release, U of T congratulations page, U of T six-degrees page, Synced Review 2020, Gary Marcus Substack 2024, MIT Technology Review 2017. PERSPECTIVES: employer-university institutional releases (three, one source family), current and former students and colleagues quoted therein (admiring), independent trade press (Synced, MIT Technology Review), and a hostile outside commentator (Marcus) plus Schmidhuber's critique as reported by Synced. COUNTER-VOICE: Schmidhuber's attribution critique and Hinton's own reply (Synced); Marcus on backpropagation credit and neurosymbolic dismissal. NOT OPENED: the full Toronto Computer Science article 'From AI to Atari' (only its teaser was visible), Hinton's Nobel lecture, the original Wired capsule article (reached only via MIT Technology Review's report), the Schmidhuber blog post itself, Cade Metz's 'Genius Makers', Google/DeepMind material, Wikipedia (orientation only). LIMITS: almost all behavioural evidence about supervision comes from Toronto and its alumni, so the collaboration row is capped at 64 / 0.48; the AlexNet account credits Sutskever and Krizhevsky for the training work, so no execution or mastery row is claimed for Hinton himself; no row for belief updating although his reply in Synced acknowledges that his group did not know the earlier history, because it is his own statement alone. SELF-CALIBRATION (agent): the three highest-risk rows reviewed were persistence (highest score, secondhand committee statement), creative originality (credit disputes) and collaboration (admiring-only, one family of sources); persistence was left at 72 / 0.60 because the committee statement and the 'decades' trade-press line corroborate independently of the alumni praise, creative originality was left at 70 / 0.58 because the priority disputes are already priced in and the Boltzmann machine and capsule documents are specific, and collaboration was already set at 64 / 0.48 as a strong inference; no row lowered. PORTRAIT: the lead's P18 file 'Geoffrey Hinton in 2026.jpg' was verified: Commons wikitext shows author Cmichel67, own work, taken 2026-05-13, licence self CC BY-SA 4.0, category 'Portrait photographs by Christopher Michel'; the uploader is the photographer, no institution holds a conflicting notice (the Nobel Prize and university photographs are separate files and were not used). The file was downloaded with curl, SHA-1 matched Commons, viewed (clear frontal portrait of an older man with grey hair, blue collar under a dark sweater, hand at cheek), and downscaled with LANCZOS to 857 x 1200; never upscaled."
+  }
+}

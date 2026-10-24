@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "eliud-kipchoge",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Eliud Kipchoge",
+    "wikidataId": "Q9124",
+    "birthYear": 1984,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "KE"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kipchoge_wikidata",
+      "kind": "wikidata",
+      "title": "Eliud Kipchoge (Q9124) -- verified live via the Wikidata API (2026-10-23): English label 'Eliud Kipchoge', description 'Kenyan long-distance runner', born 5 November 1984, no date of death, citizenship Kenya, Korean label '엘리우드 킵초게', English and Korean Wikipedia sitelinks present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q9124"
+    },
+    {
+      "id": "src_kipchoge_wa18",
+      "kind": "award_body",
+      "title": "World Athletics, 'Sixteen years in the making, Kipchoge now confirmed as the best in the world' (worldathletics.org, December 2018), read in full via a saved copy: feature published when he was named IAAF Male Athlete of the Year for 2018 -- his 2003 world under-20 cross-country title and senior world 5000 m title, his switch to the marathon, the Rio 2016 Olympic marathon win (2:08:44) and Berlin 2018 world record of 2:01:39, the 25-second miss in the Monza Breaking2 experiment, his working relationship with coach Patrick Sang and the NN Running group (largely in his own words), and the statement that he had won all but one of his 11 marathons to date. CANONICAL SIGNIFICANCE SOURCE. Governing-body feature; admiring; most quotations are Kipchoge's own, so no behavioural row rests on it alone.",
+      "url": "https://worldathletics.org/competitions/awards/news/eliud-kipchoge-world-athlete-year-2018-kenya"
+    },
+    {
+      "id": "src_kipchoge_outside",
+      "kind": "press",
+      "title": "'The Surprisingly Simple Training of the World's Fastest Marathoner' (Outside Online), read in full via a saved copy: a journalist's three-day visit to the NN Running Team camp at Kaptagat after the Tokyo Olympics -- a repeated four-month build-up of slight variations on the same workouts, the hard-easy weekly pattern (track, long run and intervals at about 80 percent effort, easy days at about 50), weekly mileage of 124 to 136 miles, the twice-weekly strength and mobility session overseen by physiotherapist Marc Roig, a 5:45 a.m. start and 9 p.m. bedtime, a training log he has kept in notebooks since 2003 (18 volumes) listing times, kilometres, massage, exercises and shoes, comments by physiotherapist Peter Nduhiu and coach Patrick Sang (who says the usual marathoner's mistake is not listening to the body), and the statement that he won ten consecutive major marathons between 2014 and 2019. Independent journalist's on-site report arranged by the team; sympathetic. His own quotations (the 80/50 split, the log) are self-report; the physio and coach remarks and the journalist's observation are the non-self material.",
+      "url": "https://www.outsideonline.com/health/running/eliud-kipchoge-marathon-workout-training-principles"
+    },
+    {
+      "id": "src_kipchoge_pd",
+      "kind": "press",
+      "title": "'Eliud Kipchoge: The humble home life in rural Kenya behind remarkable athletic success' (People Daily Digital, republished feature from the 2020 visit to the Kaptagat camp), read in full via a saved copy: reporter's visit including the camp's fixed timetable (track Tuesdays, long run Thursdays, intervals Saturdays), shared chores and a camp president elected by residents, teammate Geoffrey Kamworor on the camp's single focus, coach Sang saying Kipchoge 'has never missed a session' (an unverifiable absolute), physiotherapist Nduhiu on his prompt reporting of niggles, the long run at which about 100 runners were whittled to five, his Olympic record (2004 5000 m bronze, 2008 silver, 2016 marathon gold, not qualifying for London 2012) and the sentence that 'now the next thing, make it official' was said on the table the day after Vienna. Independent reporter's profile; admiring. Its passages on his wife, children, home, church, money and animals were not used.",
+      "url": "https://peopledaily.digital/news/eliud-kipchoge-the-humble-home-life-in-rural-kenya-behind-remarkable-athletic-success"
+    },
+    {
+      "id": "src_kipchoge_cbs19",
+      "kind": "press",
+      "title": "CBS Sports, 'Eliud Kipchoge becomes first athlete to run marathon in less than two hours, but it's not a world record' (cbssports.com, 12 October 2019), read in full via a saved copy: report of the INEOS 1:59 Challenge in Vienna -- 1:59:40.2, supported by 36 pacemakers and a pace car projecting a laser line, not counted as an official record (his official world record being 2:01:39 from Berlin 2018), his remarks that after Roger Bannister's mile it took 65 years and that he wants to inspire people that no human is limited. News report; its event details are used and the pacing set-up is the critical caveat on the achievement.",
+      "url": "https://www.cbssports.com/olympics/news/eliud-kipchoge-becomes-first-athlete-to-run-marathon-in-less-than-two-hours-but-its-not-a-world-record"
+    },
+    {
+      "id": "src_kipchoge_si19",
+      "kind": "press",
+      "title": "Sports Illustrated, 'Eliud Kipchoge to Attempt Sub-Two-Hour Marathon in Vienna in October' (si.com, 27 June 2019), read in full: announcement of the Vienna attempt with the Prater course description, a reminder that the 2017 Monza Breaking2 run of 2:00:25 did not count as a record because of alternating pacemakers, and his London Marathon win in 2:02:37 earlier in 2019. Short news item; no quotations from Sang or critics.",
+      "url": "https://www.si.com/olympics/2019/06/27/eliud-kipchoge-sub-two-hour-marathon-attempt-ineos-159-challenge-vienna-course-location"
+    },
+    {
+      "id": "src_kipchoge_mhb",
+      "kind": "press",
+      "title": "Marathon Handbook, 'Eliud Kipchoge Opens Up About Historic First DNF at the 2024 Paris Olympic Marathon' (marathonhandbook.com, August 2024), read in full: report that Kipchoge did not finish the Paris 2024 Olympic marathon, his first DNF, that spectators walked alongside him as he left the course, his own statement 'I have never done a DNF... That's life' listing earlier second, eighth, tenth and fifth places, the winners' names and times, and his statement that it was his final Olympic Games. Independent running-news report; used only as a counter-voice showing that his record was not unbroken; the injury explanation given in the article is his own account and was not used.",
+      "url": "https://marathonhandbook.com/eliud-kipchoge-olympic-dnf/"
+    },
+    {
+      "id": "src_kipchoge_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Berlin-Marathon 2015 Runners 1.jpg' (with the Commons wikitext and API record) -- checked for the portrait's licence: photograph by Denis Barthel, taken 27 September 2015 at the Berlin Marathon, captioned 'Kipchoge, Eliud (KEN)', own work published under CC BY-SA 4.0, 1774 x 2298. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin-Marathon_2015_Runners_1.jpg"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kipchoge_outside, src_kipchoge_pd | 2020-2021 | two journalists' camp visits + physiotherapist and coach remarks + teammate remark] Outside reports four months of near-identical workouts before every race, a fixed 5:45 a.m. start and 9 p.m. bedtime, and a training log he has kept since 2003; People Daily describes a fixed weekly timetable and a camp where he lives in the dormitory during the week, does his share of cleaning and, per teammate Kamworor, trains with a single focus; physiotherapist Nduhiu says he follows the coach exactly and reports niggles immediately, and coach Sang says he has never missed a session. Two independent observers and three insiders describe the same routine, but both visits were arranged through his team's camp and the 'never missed' claim is an unverifiable absolute, so documented at a moderate-high confidence. SELF-CALIBRATION (agent): first-pass 78 / 0.65 lowered to 74 / 0.60 because both visits were hosted at the team's own camp and the strongest statement is one insider's absolute."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kipchoge_outside, src_kipchoge_pd, src_kipchoge_wa18 | 2018-2021 | journalist visits + award-body feature] Outside describes marathon blocks of typically about 16 weeks (as short as three months, as long as seven), a planned phase after each race with weeks of complete rest then a preparatory phase, track repetitions set by Sang to gauge fitness on arrival, and a standard week with named sessions; People Daily describes a training diary 'set in stone' and a fixed weekday structure; World Athletics says he plans his race calendar with Sang's team each January. Structured, advance planning is described by three sources, but the planning is shared with a coach and the account is of a routine rather than of decisions he made, so strong inference at a moderate confidence."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kipchoge_pd, src_kipchoge_si19, src_kipchoge_cbs19, src_kipchoge_wa18 | 2012-2019 | journalist profile + news reports + award-body feature] People Daily records that after failing to qualify for the 2012 Olympics he moved to the marathon, and he then won the Rio 2016 Olympic marathon; SI and CBS record that after Monza 2017 (2:00:25, outside two hours) he returned to the sub-two-hour attempt in Vienna in 2019 and finished in 1:59:40.2, and People Daily reports he told his physiotherapist the day after, 'Now, the next thing. Make it official.' A multi-year return to a target he had missed is documented by four sources, but the sources are admiring, the second attempt was a heavily staged event, and the quotations are mostly his own, so strong inference at a moderate confidence."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_kipchoge_si19, src_kipchoge_cbs19, src_kipchoge_wa18 | 2017-2019 | news reports + award-body feature] He took part in two publicly announced attempts at a time most considered out of reach -- Monza 2017, which World Athletics says finished 25 seconds outside two hours, and Vienna 2019, where CBS records the pacemaker and pace-car support and that the run was not an official record. Accepting a public attempt that could be judged a failure is documented, but both attempts were heavily engineered and supported, which reduces the risk actually run; strong inference at a moderate confidence, dual-edged because the unofficial status was the criticism of the result."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kipchoge_pd, src_kipchoge_outside, src_kipchoge_wa18 | 2018-2021 | journalist profile + journalist visit + award-body feature] People Daily describes a camp of up to 30 athletes with a president voted by residents and shared chores in which Kipchoge does his own share and says he prefers being a leader to a boss; Outside shows him training in a group with a team physiotherapist and coach; World Athletics quotes him describing NN Running as a team and wishing marathons had team rankings. Shared living and team practice are described by three sources, but the strongest statements about teamwork are his own, so strong inference at a lower-moderate confidence."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kipchoge_outside, src_kipchoge_pd | 2020-2021 | journalist visits] Outside reports that he logs the time, kilometres, massage, exercises and the shoes he wears and how they felt in notebooks since 2003, and that he reviews them in the off-season; People Daily reports that he reports niggles to his physiotherapist straight after a run. The log is described by one journalist largely from Kipchoge's own account, so strong inference at a low-moderate confidence. SELF-CALIBRATION (agent): first-pass 62 / 0.50 lowered to 58 / 0.45 because the central evidence is one journalist relaying his own description of the notebooks."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "엘리우드 킵초게"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/eliud-kipchoge-barthel-2015.jpg",
+    "width": 926,
+    "height": 1200,
+    "source": "Wikimedia Commons 'File:Berlin-Marathon 2015 Runners 1.jpg' -- photograph by Denis Barthel, taken 27 September 2015 at the Berlin Marathon (Commons description 'Kipchoge, Eliud (KEN)'), own work published under CC BY-SA 4.0 ({{self|cc-by-sa-4.0}}). Original 1774 x 2298 pixels (SHA-1 960eb612 matches the Commons record); downscaled to 926 x 1200 (no upscaling, no crop).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Denis Barthel, 2015, CC BY-SA 4.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Berlin-Marathon_2015_Runners_1.jpg",
+    "creator": "Denis Barthel",
+    "date": "2015",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Berlin-Marathon_2015_Runners_1.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q9124 returned en label 'Eliud Kipchoge', description 'Kenyan long-distance runner', born 1984-11-05, no death date, citizenship Kenya (Q114), ko label '엘리우드 킵초게', enwiki and kowiki sitelinks, P18 'Berlin-Marathon 2015 Runners 1.jpg'; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug eliud-kipchoge or QID Q9124 in the roster53 worktree (grep over data-pipeline and src/data). REGION: sub_saharan_africa (Kenya). VOCABULARY: occupationId athlete, fieldId sport, impact domains athletic and cultural, tags competitor and sustained_excellence, archetype competitive_performer are existing ids with labels. ZERO POLITICS: nothing political scored or carded (the presidential phone call mentioned by CBS was not used). LIVING SUBJECT: only documented training and competition behaviour is scored; excluded even where sources mention them: wife, children, home life, church, farm and animals, money and sponsorship income, health and the cause of any injury (the Paris 2024 article's back-pain explanation is his own account and was not used or inferred from), motives. CANONICAL SIGNIFICANCE SOURCE: World Athletics feature (https://worldathletics.org/competitions/awards/news/eliud-kipchoge-world-athlete-year-2018-kenya; read in full). Britannica, Olympics.com and the World Marathon Majors pages were blocked or unavailable to the fetcher (403/empty) and were not read; Britannica's snippet was seen in a search result only and is not cited. READ (7 cited non-Wikidata sources plus the Commons page): World Athletics 2018 feature, Outside Online camp visit, People Daily camp visit, CBS Sports 2019, Sports Illustrated 2019, Marathon Handbook 2024. That is 6 substantive sources, within the cost cap's 6-9 range and with a canonical source. PERSPECTIVES: governing-body feature (World Athletics), two independent reporters' on-site visits with physiotherapist, coach and teammate remarks (Outside, People Daily), two news reports on the sub-two-hour attempts (CBS, SI), and a running-news report on the 2024 DNF (Marathon Handbook); Kipchoge's own words appear throughout and are never sole support. COUNTER-VOICE: CBS's caveat that the 1:59:40 run was not a record because of rotating pacemakers and a pace car, the SI note that Monza 2017 also did not count, the Marathon Handbook account of his first DNF, and Sang's 'never missed a session' being an absolute from an insider. No named critic of his methods was found. CALIBRATION: highest score 74 and highest confidence 0.60; six rows kept; results and records are not used as trait evidence (competitiveness and achievement drive left unscored); most behavioural detail comes from two hosted camp visits, which caps confidence. SELF-CALIBRATION (agent): highest-risk rows reviewed were discipline, detail orientation and persistence; discipline lowered 78/0.65 to 74/0.60 (both visits hosted by his team's camp; the strongest claim is one insider's absolute); detail orientation lowered 62/0.50 to 58/0.45 (one journalist relaying his own description of the notebooks); persistence left unchanged (four sources, already moderate). TRAITS NOT SCORED: competitiveness and achievement drive (results and records excluded as evidence; the 'I cannot say I am unbeatable' quotation is self-report), deep focus (only a reporter's one-line description of his face on a run), leadership drive (only his own 'leader not boss' remark), mastery orientation, adaptability, resilience (a facet, covered by persistence), and anything about private life. FACT CONFLICTS RECORDED: the cards use 'two-time Olympic marathon champion' only as Outside's wording; the exact number of marathon wins differs by date of source (WA 2018: all but one of 11; PD 2020: 11 of 12; Outside: ten consecutive majors 2014-19), so the cards give the date-bound statement of each source; Marathon Handbook calls him a 'two-time defending Olympic champion' while its injury account is not used; Wikipedia-derived search summaries wrongly gave Rio 2016 as silver, but World Athletics and People Daily both say gold. Berlin 2022 world record and Tokyo 2020 details were seen only in search snippets and are not carded. PORTRAIT: Commons P18 'Berlin-Marathon 2015 Runners 1.jpg' (https://commons.wikimedia.org/wiki/File:Berlin-Marathon_2015_Runners_1.jpg), read through the Commons wikitext and API: Author Denis Barthel, Credit own work, date 2015-09-27, licence CC BY-SA 4.0, original 1774 x 2298, SHA-1 960eb6127b8f13c0ca421d2598e9a8d0f3200ce6; the file was downloaded with curl, hash and dimensions verified identical to Commons, and saved downscaled (no crop) to 926 x 1200 as public/portraits/eliud-kipchoge-barthel-2015.jpg. The image was viewed: a single runner in a Berlin Marathon vest with the bib 'KIPCHOGE' clearly legible, face clearly visible in profile. A race photograph by an independent photographer, so no institutional notice applies; the licence is share-alike and requires attribution. No alternative portrait was considered. NOT OPENED: Olympics.com articles (fetch blocked or timed out), Britannica (403), his own book/interviews, NN Running Team's own site, Runner's World and NYT/Guardian features, Berlin 2022 and Tokyo 2020 race reports."
+  }
+}

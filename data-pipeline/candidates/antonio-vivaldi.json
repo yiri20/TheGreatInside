@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "antonio-vivaldi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Antonio Vivaldi",
+    "aliases": [
+      "Antonio Lucio Vivaldi",
+      "The Red Priest",
+      "Il Prete Rosso"
+    ],
+    "wikidataId": "Q1340",
+    "birthYear": 1678,
+    "deathYear": 1741,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician",
+      "teacher"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_vivaldi_wikidata",
+      "kind": "wikidata",
+      "title": "Antonio Vivaldi (Q1340) -- verified live via the Wikidata API (2026-10-23): English label 'Antonio Vivaldi', description 'Italian composer and violinist (1678-1741)', born 1678-03-04, died 1741-07-28, citizenship Q4948 (Republic of Venice), Korean label '안토니오 비발디', P18 image of the Bologna portrait. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1340"
+    },
+    {
+      "id": "src_vivaldi_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com compilation of reference entries 'Antonio Vivaldi' (Oxford and Gale music-biography entries), read in full: born in Venice, ordained in 1703 and soon giving up Mass for a chest ailment, violin teacher at the Pio Ospedale della Pieta from 1703 (dismissed February 1709, rehired 1711, maestro de' concerti 1716, last departure 1740), the concertos as his greatest contribution (L'estro armonico, La stravaganza, Il cimento dell'armonia e dell'inventione with The Four Seasons, La cetra), credit for standardising ritornello form and the fast-slow-fast concerto, his first opera in 1713 and impresario work, travel to Mantua, Rome, Vienna, Prague and Amsterdam, the 1737 Ferrara block, a pauper's funeral in Vienna, differing output estimates between entries, the criticism of his vocal writing as perfunctory, Bach's transcriptions, and the twentieth-century revival. CANONICAL SIGNIFICANCE SOURCE (independent reference compilation with critical notes). Entries disagree on some counts and dates, so only broadly shared facts are used.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/antonio-vivaldi"
+    },
+    {
+      "id": "src_vivaldi_exploreclassical",
+      "kind": "press",
+      "title": "'Vivaldi and La Pieta', Explore Classical Music (exploreclassicalmusic.com), read in full: the Pieta as one of Venice's four ospedali grandi with nearly 1,000 students and the girls' choirs and orchestra performing behind grills, Vivaldi's 1703 hiring, the annual governors' vote that went against him 7 to 6 in 1709 and his 1711 reinstatement and later promotion, his rehearsing and writing two concertos a month, concertos written for named players (Anna Maria della Pieta, an oboist called Pelegrina), Juditha triumphans as his only surviving oratorio, quotations from Rousseau and de Brosses on the performances, and the author's note of Talbot's view that he was a 'perfectly orthodox' though indiscreet priest. Independent educational/popular music-history site, secondary and admiring in tone; the quotations from Rousseau and de Brosses were not checked against their originals.",
+      "url": "https://www.exploreclassicalmusic.com/vivaldi-and-the-ospedale-della-piet"
+    },
+    {
+      "id": "src_vivaldi_goldoni",
+      "kind": "archive",
+      "title": "Web page 'Carlo Goldoni and Vivaldi in Venice' (visit-venice-italy.com), read in full: a close summary of Goldoni's Memoirs (vol. I, Paris, 1787) on his visit to Vivaldi on behalf of the Grimani theatre to revise an opera for the fair -- Vivaldi at first curt and sceptical, reciting from his breviary while looking for the libretto, insisting his pupil Anna Giraud could sing any aria, demanding that Goldoni write the replacement aria at once, then delighted by it and embracing him. Contemporary first-hand account by a collaborator, transmitted through a tourism web page whose own gloss misdescribes the aria length; no translator is named and the passage is read only as paraphrased there, not in a scanned edition. Goldoni wrote decades later and for effect, so the episode is treated as one flavourful witness, not as established fact.",
+      "url": "https://www.visit-venice-italy.com/litterature/carlo-goldoni-and-vivaldi-venice.html"
+    },
+    {
+      "id": "src_vivaldi_pincherle",
+      "kind": "press",
+      "title": "Review of Marc Pincherle's 'Vivaldi, Genius of the Baroque' signed J.A.R.J., The Press (Christchurch, New Zealand), 24 January 1959 (Papers Past), read in full: Vivaldi as an ordained 'Red Priest' who clashed with the papal nuncio and the Inquisition (Pincherle correcting legends), writing as many concertos as Schubert wrote songs, the critics' charge that he wrote one concerto 'six hundred times over' and Pincherle's rejection of Dallapiccola's view, Pincherle's stress on variety (concertos for flute, oboe, clarinet, bassoon, piccolo, mandolin, trumpet and chalumeau), his admission of rare stylistic lapses, and key-choice statistics. Independent mid-century critical review of a scholar's defence; shows both the detractors and the defender.",
+      "url": "https://paperspast.natlib.govt.nz/newspapers/CHP19590124.2.9"
+    },
+    {
+      "id": "src_vivaldi_musicweb",
+      "kind": "press",
+      "title": "Marc Rochester, review of Naive OP30585 'Concerti per violino VIII Il teatro' (Julien Chauvin, Le Concert de la Loge), MusicWeb International, June 2020, read in full: Stravinsky's remark to Robert Craft that Vivaldi was 'greatly overrated -- a dull fellow who could compose the same form so many times over', the reviewer's rebuttal that the repetition and sequence devices are fresh enough to flourish, his view that Vivaldi remains largely undervalued, and the six violin concertos on the disc. Counter-voice source: a critic's defence set against an eminent composer's put-down; opinions about the music, not behavioural facts.",
+      "url": "https://musicweb-international.com/classrev/2020/Jun/Vivaldi_VCs_v8_OP30585.htm"
+    },
+    {
+      "id": "src_vivaldi_giro",
+      "kind": "press",
+      "title": "Georg Predota, 'Muses and Musings: Anna, the Red Priest', Interlude (interlude.hk, 2016), read in full: Vivaldi taking Anna Giro as a student in Mantua, writing roles for her from 1723 (for example Dorilla in Tempe, 1726), his 16 November 1737 letter to Marchese Bentivoglio that the opera could not be performed without her, saying he had not celebrated Mass in twenty-five years because of a chest ailment, the cardinal's bar on his entering Ferrara, and the author's conclusion that no evidence shows more than friendship, fatherly care and professional collaboration. The letter is Vivaldi's own self-defence (interested account); the article does not name its sources for the rumours and mis-dates the Ferrara refusal; the household and rumour material is recorded here only as a caveat and is NOT scored or used to infer anything about his private life.",
+      "url": "https://interlude.hk/muse-musing-anna-red-priest-anna-giro-antonio-vivaldi/"
+    },
+    {
+      "id": "src_vivaldi_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page for the Bologna portrait of Antonio Vivaldi (file name beginning 'Onbekend - Antonio Vivaldi - Bologna Museo Internationale e biblioteca della musica di bologna', page text and API record) -- checked for the portrait's rights: author 'Unknown author', painting categorised as a 1723 painting in Bologna, photograph taken 28 April 2012 by Paul Hermans who publishes it under CC BY-SA 4.0 with a Public Domain Mark for the two-dimensional work; original 2048 x 2719 pixels; the museum's own site was not opened and the page names no institutional notice. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Onbekend_-_Antonio_Vivaldi_-_Bologna_Museo_Internationale_e_biblioteca_della_musica_di_bologna_28-04-2012_9-21-050.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vivaldi_encyclopedia, src_vivaldi_pincherle, src_vivaldi_musicweb | 1711-1730s | reference compilation + critical review + counter-voice] The reference entries credit him with standardising ritornello form and the fast-slow-fast concerto and name collections such as L'estro armonico and Il cimento dell'armonia e dell'inventione; Pincherle (as reported in 1959) stresses variety of melody, texture and orchestral colour, while Stravinsky's put-down (quoted by MusicWeb) and the 'one concerto 600 times' charge are the counter-voice. Scored below the top range because the source set is secondary and contested: the originality claim rests on later scholarship, not on a contemporary document read here."
+    },
+    "execution_speed": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vivaldi_exploreclassical, src_vivaldi_pincherle, src_vivaldi_encyclopedia | 1703-1735 | educational site + critical review + reference] He rehearsed the Pieta orchestra and wrote two concertos a month for it (Explore Classical Music), Pincherle's reviewer says he composed 'prodigiously and quickly' and wrote as many concertos as Schubert wrote songs, and the entries give output counts in the hundreds of concertos (estimates differ). The monthly-quota detail comes from one popular source and the counts are contested, so confidence is held moderate."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vivaldi_pincherle, src_vivaldi_exploreclassical, src_vivaldi_encyclopedia | 1710s-1730s | critical review + educational site + reference] Pincherle points to concertos for flute, oboe, clarinet, bassoon, piccolo, mandolin, trumpet and chalumeau, and the Pieta material records mandolin and oboe concertos written for named players; the reference entries list the varied concerto sets and a sacred oratorio and operas. The breadth of instrumental formats is documented secondhand; whether each was a deliberate experiment or commissioned by circumstance is not established, hence the moderate score."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vivaldi_encyclopedia, src_vivaldi_exploreclassical | 1703-1740 | reference compilation + educational site] He was hired as a violin master on the strength of his playing and drilled the Pieta orchestra, which the entries say gained an international reputation under him; he wrote dozens of concertos tailored to a particular violinist and mandolinist. This supports sustained craft investment in violin writing and ensemble training, but no source read documents his practice habits or his own standards, so it is an inference from role and output."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vivaldi_encyclopedia, src_vivaldi_giro | 1713-1738 | reference compilation + article] He moved into opera as composer and impresario, travelled to Vienna, Prague and several Italian cities to supervise productions, visited Amsterdam where his music had been published since 1711, and later sought court patronage in Vienna (reference entries); he pressed to keep his chosen singer for the Ferrara opera (his own letter, read via the article). These are self-directed career moves; the Vienna patronage bid largely failed and the motives are not documented, so only the actions are scored."
+    },
+    "social_assertiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_vivaldi_goldoni, src_vivaldi_giro, src_vivaldi_exploreclassical | 1735, 1737 | collaborator memoir + article + educational site] In Goldoni's Memoirs he is curt, insists on his singer's abilities and demands the replacement aria at once, and in his 1737 letter he insists the opera cannot go ahead without her and defends the company's modesty; the Pieta source calls him strong-willed. Goldoni's account is decades later and written for effect, and the letter is self-interested, so the row stays hedged. SELF-CALIBRATION (agent): reviewed as a highest-risk row (single dramatised memoir plus self-interested letter) and left unchanged because the score and confidence are already modest and a second independent source calls him strong-willed."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vivaldi_exploreclassical, src_vivaldi_goldoni | 1710s-1735 | educational site + collaborator memoir] He shaped concertos to the abilities of particular Pieta players and, in Goldoni's account, ended by accepting Goldoni's aria and revising a libretto to suit his singer's voice (the Griselda collaboration, 1735). Both cases show fitting the music to the performer; the Goldoni episode is a single retrospective anecdote and the Pieta customisation is reported secondhand."
+    }
+  },
+  "externalIdentity": {
+    "wikidataId": "Q1340"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/antonio-vivaldi-unknown-1723.jpg",
+    "width": 904,
+    "height": 1200,
+    "source": "Wikimedia Commons file page for the Bologna portrait of Antonio Vivaldi -- a photograph (28 April 2012, Paul Hermans) of an anonymous oil painting dated 1723 in the Museo internazionale e biblioteca della musica di Bologna. Commons lists the painter as 'Unknown author' (an attribution to Francois Morellon la Cave exists in the literature but was NOT verified here and is not claimed). A posthumous-style depiction, not a documented from-life sitting; shown as a historical depiction. Original 2048 x 2719 pixels, downscaled only (never upscaled) to 904 x 1200.",
+    "license": "Public domain (two-dimensional painting of 1723); reproduction photograph by Paul Hermans released under CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Anonymous portrait (dated 1723), Museo internazionale e biblioteca della musica di Bologna; photograph by Paul Hermans, 2012, CC BY-SA 4.0 (resized)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Onbekend_-_Antonio_Vivaldi_-_Bologna_Museo_Internationale_e_biblioteca_della_musica_di_bologna_28-04-2012_9-21-050.jpg",
+    "creator": "Unknown painter (portrait); Paul Hermans (photograph)",
+    "date": "1723 (painting); 2012 (photograph)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Onbekend_-_Antonio_Vivaldi_-_Bologna_Museo_Internationale_e_biblioteca_della_musica_di_bologna_28-04-2012_9-21-050.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "안토니오 비발디"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: wbgetentities (2026-10-23) for Q1340 returned en label 'Antonio Vivaldi', description 'Italian composer and violinist (1678-1741)', born 1678-03-04, died 1741-07-28, citizenship Republic of Venice, ko label '안토니오 비발디'; the lead's hint is correct (the earlier mismatch was a search issue, not the QID). SLUG/QID CHECK: grep of data-pipeline and src found no existing candidate or person for slug antonio-vivaldi or QID Q1340. REGION: southern_europe (Venice), nationality IT, era early_modern (Handel/Bach precedent). ZERO POLITICS passes (composer/teacher; the Pieta is a charitable music school, the Ferrara episode is an ecclesiastical ban recorded only as a career event). VOCABULARY: occupations composer, musician, teacher; field music; tags prolific, innovator; archetype creative_creator (all used by existing candidates). CANONICAL SIGNIFICANCE SOURCE: Encyclopedia.com 'Antonio Vivaldi' (https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/antonio-vivaldi). EVIDENCE READ: 6 substantive sources (Encyclopedia.com reference compilation; Explore Classical Music on the Pieta; a web page summarising Goldoni's Memoirs; the 1959 Press review of Pincherle; the 2020 MusicWeb review quoting Stravinsky; Predota's 2016 article on Anna Giro and the Ferrara letter), plus Wikidata and a Commons file page as orientation. PERSPECTIVES: reference scholarship (summarised; Heller and Talbot appear only secondhand), a contemporary collaborator (Goldoni, via a summarising web page), a mid-century critic defending against Dallapiccola, a modern reviewer rebutting Stravinsky (counter-voice on the music), Vivaldi's own 1737 letter (self, counted once and flagged as self-interested), and Rousseau/de Brosses quoted secondhand (not counted). Non-self behavioural source: the Pieta article, the reference entries and Goldoni. NOT OPENED or failed: Britannica (403), the Cini Foundation page (403), the Christian Century/AP Ferrara report (403), the Pinchgut Griselda page (404), the University of Minnesota program PDF (binary, unreadable), Quantz's autobiography and de Brosses's letters (only reported by search summaries, not read, so Quantz and de Brosses are not cited), Talbot's and Heller's books themselves, the museum's own page for the portrait. EXCLUSIONS: Girò household and rumours (caveat only, no private-life inference; the one source concludes no evidence beyond friendship and collaboration), health (asthma) not used for any trait, financial decline and pauper's funeral not scored, music quality and fame not used as trait evidence, Four Seasons programme claims not scored, Bach transcriptions only as influence. THIN ROWS: seven rows only; collaboration, persistence, risk_tolerance, discipline and conflict_tolerance were considered and left unscored because the evidence read was thin or would repeat the same episode (the 1709 vote, the Ferrara ban). PORTRAIT: Commons page checked (author unknown, painting dated 1723, photo by Paul Hermans 2012, CC BY-SA 4.0 for the photograph, Public Domain Mark for the 2D work, original 2048x2719, API LicenseShortName 'Public domain', no institutional notice shown on Commons); the museum's own page was not opened, so a museum-side restriction on reuse of photographs was not ruled out, which is the residual risk; the Bologna portrait is the sitter's standard image and is shown honestly as a historical depiction (the painter is unknown and no sitting is documented). The file was downscaled from 2048x2719 to 904x1200 (JPEG q88) and inspected. SELF-CALIBRATION PASS: reviewed the three highest-risk rows (creative_originality 74, execution_speed 72, social_assertiveness 62 for single-memoir dependence); lowered none; the profile's top score is 74 and top confidence is 0.62. No eligibility or match output was used in scoring."
+  }
+}

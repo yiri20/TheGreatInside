@@ -139,7 +139,7 @@ describe("Roster35: held candidates were genuinely not promoted", () => {
 });
 
 describe("Roster35: cross-target identity integrity", () => {
-  it("no duplicate ids, slugs, or Wikidata QIDs across all 503 production people", () => {
+  it("no duplicate ids, slugs, or Wikidata QIDs across all 518 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
     const qids = SEED_PEOPLE.map((p) => p.externalIdentity?.wikidataId).filter((x): x is string => !!x);
@@ -157,9 +157,9 @@ describe("Roster35: cross-target identity integrity", () => {
     }
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 503 people, all 11 Roster35 targets present in both", () => {
-    expect(SEED_PEOPLE).toHaveLength(503);
-    expect(PEOPLE_INDEX).toHaveLength(503);
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 518 people, all 11 Roster35 targets present in both", () => {
+    expect(SEED_PEOPLE).toHaveLength(518);
+    expect(PEOPLE_INDEX).toHaveLength(518);
     for (const slug of TARGETS) {
       expect(SEED_PEOPLE.filter((p) => p.slug === slug)).toHaveLength(1);
       expect(PEOPLE_INDEX.filter((p) => p.slug === slug)).toHaveLength(1);

@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alan-kay",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alan Kay",
+    "aliases": [
+      "Alan Curtis Kay"
+    ],
+    "wikidataId": "Q92742",
+    "birthYear": 1940,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist",
+      "inventor"
+    ],
+    "fieldIds": [
+      "computing",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "early_computing"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kay_wikidata",
+      "kind": "wikidata",
+      "title": "Alan Kay (Q92742) -- verified live via the Wikidata API (2026-10-23): English label 'Alan Kay', description 'American computer scientist (born 1940)', born 17 May 1940, no date of death, Korean label '앨런 케이', P18 image 'Alan Kay (3097597186) (cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q92742"
+    },
+    {
+      "id": "src_kay_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Alan Kay' (britannica.com), read in full: winner of the 2003 A.M. Turing Award for contributions to object-oriented programming languages including Smalltalk and to personal computing; work on the FLEX machine and the influence of Douglas Engelbart led him to devise the Dynabook, which Britannica says he never built although its ideas later found fruition in laptops and tablets; interest in how children could use computers; joined Xerox PARC in 1972 and worked on Smalltalk for educational applications; left Xerox in 1983, Apple Fellow from 1984, Disney fellow 1996-2001, Hewlett-Packard 2002-05; shared the 2004 Draper Prize with Lampson, Taylor and Thacker. CANONICAL SIGNIFICANCE SOURCE. Britannica's credit to his interface design for Mac OS and Windows was not carded.",
+      "url": "https://www.britannica.com/biography/Alan-Kay"
+    },
+    {
+      "id": "src_kay_chm_fellow",
+      "kind": "institution",
+      "title": "Computer History Museum, 'Alan Kay' Fellow profile (1999 Fellow), read in full: quotes the ACM Turing Award citation ('for pioneering many of the ideas at the root of contemporary object-oriented programming languages, leading the team that developed Smalltalk, and for fundamental contributions to personal computing'), the Draper Prize citation and the Kyoto Prize citation; states that the work was done 'in the rich context of ARPA and Xerox PARC with many talented colleagues'; lists his roles at Utah, PARC, Atari, Apple, Disney and HP, and the 2001 founding of Viewpoints Research Institute, a non-profit dedicated to children and learning. The profile is in part supplied by Kay himself, so its self-description is treated as self-account. Institutional profile; the ACM citation page itself was blocked from automated access.",
+      "url": "https://computerhistory.org/profile/alan-kay/"
+    },
+    {
+      "id": "src_kay_kyoto",
+      "kind": "award_body",
+      "title": "Inamori Foundation, '2004 Kyoto Prize Laureates: Alan Curtis Kay' (kyotoprize.org), achievement digest and citation read in full: in the second half of the 1960s he proposed the personal computer as a tool for individuals' intellectual work; the Dynabook concept (portable, networked, usable by children); principal designer contribution to the Alto at Xerox PARC including overlapping windows; led the invention of Smalltalk; much of his work dedicated to computer education for children; 'more than 30 years of personal dedication' to the vision. Award-body citation, retrospective and admiring.",
+      "url": "https://www.kyotoprize.org/en/laureates/alan_curtis_kay/"
+    },
+    {
+      "id": "src_kay_chm_smalltalk",
+      "kind": "institution",
+      "title": "Computer History Museum, 'Smalltalk at 50' (computerhistory.org blog on the 1 September 2022 'Making Smalltalk' reunion and public programme), read in full: Smalltalk was pioneered in 1972 by Kay, Dan Ingalls, Adele Goldberg and other Learning Research Group members; members recall the group culture of play and trust; Ted Kaehler recalls Kay making programmers play recorders, violas and ukuleles so they would understand what it was like to be a beginner; Dan Ingalls and Ted Kaehler implemented the early Smalltalk versions; Adele Goldberg explored how children used Smalltalk and expanded the programme into a local school; some 1970s scientists thought Kay crazy and others wanted to order a Dynabook as if it were a shipping product; the team struggled to find a workable business model. Museum event report; participants' recollections are retrospective and friendly.",
+      "url": "https://computerhistory.org/?p=25988"
+    },
+    {
+      "id": "src_kay_hiltzik",
+      "kind": "press",
+      "title": "Michael Hiltzik, 'Dealers of Lightning: Xerox PARC and the Dawn of the Computer Age' (1999), read only through one reader's chapter-by-chapter notes that reproduce long verbatim passages (github.com/maryrosecook/book-notes), the Kay passages read in full; the book itself was NOT opened. Reports: his 1969 FLEX thesis, Bob Taylor's view of him as a 'soulmate and a profound thinker' and that computer scientists were split between thinking him a crackpot and a visionary; Kay as 'a compulsive promoter' of the personal computer in articles and abstracts; his 1972 miniCom pitch picked apart by Jerry Elkind as speculative and outside PARC's mandate; Bill English's advice that PARC management saw him as a dreamer lacking credibility and that he should write research plans and budgets, which Kay took to heart, winning a $230,000 appropriation; Lampson and Thacker's Alto becoming his 'interim Dynabook'; Lampson regularly out-arguing him; the Pendery Papers forecast of flat-screen displays by 1980 as 'perhaps wishfully' early. Journalistic history with named colleagues and critics; independent of Kay.",
+      "url": "https://github.com/maryrosecook/book-notes/blob/master/dealers-of-lightning-michael-hiltzik.md"
+    },
+    {
+      "id": "src_kay_iprog",
+      "kind": "press",
+      "title": "I Programmer, 'Alan Kay' (i-programmer.info history of people), read in full: a critical, popular-history profile arguing that it is hard to separate what Kay did from what he inspired others to do, that Adele Goldberg figures large in Smalltalk and Thacker and Lampson in the Alto, that Kay took Smalltalk to children in classrooms, and that the Dynabook concept 'looks misguided' from today's perspective as too tied to improving on paper. NOTE: the page contains factual errors on his birth year and birthplace, so it is used ONLY as a counter-view on credit and concept, never for dates or support of any score.",
+      "url": "https://www.i-programmer.info/history/people/438-alan-kay.html"
+    },
+    {
+      "id": "src_kay_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Alan Kay (3097597186) (cropped).jpg' and its parent 'Alan Kay (3097597186).jpg' (wikitext and API record), plus the live Flickr photo page, checked for the portrait's licence: photograph by Marcin Wichary, 9 December 2008, original 4752 x 3164, tagged CC BY 2.0 with a Flickr licence review by the File Upload Bot (Magnus Manske) dated 5 February 2009; the Flickr page currently shows licence code 4 (Attribution, CC BY 2.0); the cropped derivative is 851 x 1180. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Alan_Kay_(3097597186)_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kay_kyoto, src_kay_chm_fellow, src_kay_britannica, src_kay_hiltzik | 1960s-1970s | award body + museum profile + encyclopaedia + journalistic history] The Kyoto Prize citation says that when computers were getting larger he proposed the personal computer as a tool for individuals and the Dynabook, a portable, networked machine usable by children; the Turing citation as quoted by the Computer History Museum credits ideas at the root of object-oriented languages and leading the team that developed Smalltalk; Hiltzik reports that computer scientists familiar with his ideas were split between 'crackpot' and 'visionary'. The concepts are original and widely recognised, but the praise is largely retrospective award language, he built the Alto concept with others, and Britannica says the Dynabook itself was never built, so documented at a moderate-to-good confidence. SELF-CALIBRATION (agent): first-pass 76 / 0.66 lowered to 72 / 0.60 because the strongest evidence is retrospective award citations and credit is shared with Goldberg, Ingalls, Lampson, Thacker and others."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kay_kyoto, src_kay_chm_smalltalk, src_kay_chm_fellow, src_kay_britannica | 1970s-2000s | award body + museum event report + museum profile + encyclopaedia] The Kyoto citation says much of his work was dedicated to computer education for children and records more than 30 years of dedication to the vision; the Computer History Museum reports that he believed personal computers would transform education for children and adults, that Adele Goldberg took Smalltalk into a local school, and that in 2001 he founded a non-profit dedicated to children and learning; Britannica says he became interested in how children could use computers. A sustained, documented orientation toward making computing usable and educational for ordinary people and children, recorded by several institutions; partly retrospective and partly self-described, so a moderate confidence."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kay_hiltzik, src_kay_iprog | 1972 | journalistic history + popular profile] After Jerry Elkind picked his 1972 miniCom proposal apart and Bill English told him management saw him as a dreamer, Hiltzik says Kay took the advice to heart, drafted a detailed research plan for a smaller step using Novas, won a $230,000 appropriation, and later accepted the Alto as an 'interim Dynabook'. One concrete episode of changing approach after criticism, from a single book (read through reader's notes) with Kay's own recollection part of the account, so documented at a low-to-moderate confidence."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kay_chm_smalltalk, src_kay_hiltzik, src_kay_chm_fellow, src_kay_iprog | 1970s | museum event report + journalistic history + museum profile + popular profile] Learning Research Group members recalled to the Computer History Museum a culture of play, trust and freedom to try anything, and Ted Kaehler described Kay making programmers play instruments so they would understand being a beginner; Hiltzik quotes him comparing a small group to a basketball team in which everybody should be able to play the whole game; Kay's own profile says the work was done with many talented colleagues, while I Programmer argues the credit for Smalltalk and the Alto is entangled with Goldberg, Ingalls, Lampson and Thacker. A real team-building role is documented, mainly through colleagues' friendly retrospective accounts and Kay's own words, so a moderate confidence."
+    },
+    "persuasiveness": {
+      "score": 55,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_kay_hiltzik, src_kay_chm_smalltalk | 1970s | journalistic history + museum event report] Hiltzik calls him 'a compulsive promoter' who produced a steady stream of articles and abstracts, often illustrated with his own drawings, to proclaim the personal computer, yet his 1972 pitch to the lab was dismantled by Elkind and management saw him as lacking credibility; the museum report says some scientists thought him crazy while others wanted to order a Dynabook as if it were a product. Effective in drawing attention and recruits, less so with management at first; strong inference at a low-to-moderate confidence, dual-edged."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kay_hiltzik, src_kay_kyoto, src_kay_iprog | 1960s-1970s | journalistic history + award body + popular profile] Hiltzik says that where other PARC engineers asked what to build next, Kay 'turned the question inside out' to decide where to go first, and that scientists were split on whether he was a crackpot or a visionary; the Kyoto citation says his personal-computer concept ran against the trend toward ever larger machines; I Programmer calls his Dynabook principles of improving on paper limiting in hindsight. A consistent record of working from first principles against the mainstream, with praise largely retrospective, so strong inference at a modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "앨런 케이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alan-kay-wichary-2008.jpg",
+    "width": 851,
+    "height": 1180,
+    "source": "Wikimedia Commons 'Alan Kay (3097597186) (cropped).jpg' (derivative of 'Alan Kay (3097597186).jpg'), photograph by Marcin Wichary, 9 December 2008, originally from Flickr (photo 3097597186), tagged CC BY 2.0 and Flickr-reviewed by the File Upload Bot on 5 February 2009; the live Flickr page currently shows the Attribution licence (CC BY 2.0). Saved at the Commons cropped size of 851 x 1180 pixels with no resizing or upscaling; the uncropped original is 4752 x 3164.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Marcin Wichary, 2008, CC BY 2.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Alan_Kay_(3097597186)_(cropped).jpg",
+    "creator": "Marcin Wichary",
+    "date": "2008-12-09",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Alan_Kay_(3097597186)_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q92742 returned en label 'Alan Kay', description 'American computer scientist (born 1940)', born 1940-05-17, no death date, ko label '앨런 케이' (the Korean description is a different-person mismatch, 'chemist, educator, musician', and was not used), P18 'Alan Kay (3097597186) (cropped).jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate file or src reference for slug alan-kay or QID Q92742 in the roster53 worktree. REGION north_america, nationality US. VOCABULARY: computer_scientist and inventor, fields computing and education, impact domains scientific/technological/innovation, tags innovator and early_computing, archetype technical_innovator are existing ids with EN+KO labels (cf. Claude Shannon). ZERO POLITICS: nothing political is involved. LIVING SUBJECT: only documented public professional behaviour is scored. EXCLUDED deliberately: family, health and school-illness passage in Hiltzik, any reported emotional reaction to criticism, his pipe organ and music as private life, Warnock's anecdote about universities, Kay's unreviewed later talks and forum controversies about STEPS, OLPC assessments, Wikipedia/Wikidata. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Alan Kay' (https://www.britannica.com/biography/Alan-Kay). READ (7 cited non-Wikidata sources + portrait records): Britannica, CHM Fellow profile (with the quoted ACM/Draper/Kyoto citations), Kyoto Prize citation, CHM 'Smalltalk at 50', Hiltzik 'Dealers of Lightning' (Kay passages via a GitHub reader's notes file containing verbatim excerpts; the book itself not opened), I Programmer profile (error-prone, counter-view only). NOT opened: the ACM Turing Award page (Cloudflare block), Smith and Alexander 'Fumbling the Future', the Draper Prize pages, Kay's own 'Early History of Smalltalk' and talks (self material), any Viewpoints/STEPS technical reports. PERSPECTIVES: award bodies (Kyoto, ACM/NAE citations quoted by CHM); museum (CHM profile and event report with Goldberg/Ingalls/Kaehler recollections); journalistic history with named colleagues and critics (Hiltzik: Taylor, English, Elkind, Lampson); encyclopaedia (Britannica); a popular critical profile (I Programmer). Kay's own words appear only inside those sources and never as sole support. COUNTER-VOICES: Elkind's critique and English's advice (Hiltzik), I Programmer on credit and the Dynabook concept, Britannica noting the Dynabook was never built. CALIBRATION: behavioural evidence is thin and concentrated on 1969-1972 (one book) plus retrospective praise, so the highest score is 72 and the highest confidence 0.60; six rows, no padding. SELF-CALIBRATION (agent): reviewed creative_originality (lowered 76/0.66 to 72/0.60: retrospective award language, shared credit), belief_updating (kept low at 58/0.44: single-book dependence) and impact_motivation (kept: multiple institutions, but partly self-described). BROAD FLAG: behavioural depth rests largely on Hiltzik via secondary notes; the lead may want a direct Hiltzik or Smith/Alexander read before relying on belief_updating, persuasiveness or independent_thinking. PORTRAIT: Marcin Wichary photo, CC BY 2.0, Flickr-reviewed, no conflicting institutional notice; used at the Commons crop size."
+  }
+}

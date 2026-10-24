@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edward-o-wilson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Edward O. Wilson",
+    "aliases": [
+      "E. O. Wilson",
+      "Edward Osborne Wilson"
+    ],
+    "wikidataId": "Q211029",
+    "birthYear": 1929,
+    "deathYear": 2021,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "biologist",
+      "naturalist",
+      "writer"
+    ],
+    "fieldIds": [
+      "biology",
+      "natural_science",
+      "environmental_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "cross_disciplinary",
+      "theorist",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_wilson_wikidata",
+      "kind": "wikidata",
+      "title": "Edward O. Wilson (Q211029) -- verified live via the Wikidata API (2026-10-23): English label 'Edward O. Wilson', description 'American biologist, naturalist, and writer (1929-2021)', born 10 June 1929, died 26 December 2021, citizenship United States, Korean label with sitelink to Korean Wikipedia present, P18 image 'Edward O. Wilson, 2003 (cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q211029"
+    },
+    {
+      "id": "src_wilson_harvard_gazette",
+      "kind": "institution",
+      "title": "Harvard Gazette, memorial minute for Edward Osborne Wilson (Faculty of Arts and Sciences memorial minute by colleagues Brian Farrell, Gonzalo Giribet and Naomi Pierce), read in full: Alabama degrees, Harvard PhD 1955, Society of Fellows and a year of Melanesian ant fieldwork, character displacement with William Brown (1956), taxon cycle (1961), The Theory of Island Biogeography with Robert MacArthur (1967), The Insect Societies (1971), Sociobiology (1975) and its human chapter's reception including protesters pouring water on him at an anthropology meeting, two Pulitzer Prizes, Pheidole in the New World (818 pages, 341 new species), the Encyclopedia of Life (2007), the Half-Earth proposal, his 2010 disavowal with mathematicians of a central tenet of his earlier kin-selection work, 'gracious and often deferential' in person and 'fearless' in print, students flocking to his lectures. CANONICAL SIGNIFICANCE SOURCE (with the Nature obituary). Institutional memorial minute: admiring in register; its family sentences were not used.",
+      "url": "https://news.harvard.edu/gazette/story/2023/05/edward-osborne-wilson-92/"
+    },
+    {
+      "id": "src_wilson_nature_obit",
+      "kind": "press",
+      "title": "Nature, 'Edward O. Wilson (1929-2021)', obituary by long-time collaborator Bert Holldobler, vol. 601, 20 January 2022, p. 317, read in full from a PDF copy hosted by a University of Tours social-insect site (not the nature.com page): ant systematics, biogeography and chemical communication, the taxon cycle and Florida Keys tests with Daniel Simberloff, The Theory of Island Biogeography, The Insect Societies, Sociobiology as the first book to address the evolution of societies from bacteria to humans, the 1975 NYRB letter from Gould, Lewontin and others, On Human Nature, Biophilia, Consilience ('mixed response'), The Ants, Half-Earth; states Wilson 'was not a team builder', preferred to work alone, thrived on controversy, rejected inclusive fitness in recent decades and that the author opposed some of his views yet stayed a friend. CANONICAL SIGNIFICANCE SOURCE. Collaborator's obituary: close, partly admiring, but candid about disagreement.",
+      "url": "https://insectes-sociaux.univ-tours.fr/dictionnaire-amoureux-des-fourmis/Noms%20propres/W/E.O.%20Wilson/Holld-Wilson-Nature22janv2022.pdf"
+    },
+    {
+      "id": "src_wilson_natgeo_obit",
+      "kind": "press",
+      "title": "National Geographic obituary, E.O. Wilson, Darwin's natural heir, dies at age 92, read in full: Alabama childhood and the effect of an eye injury, Harvard doctorate 1955, fieldwork in Cuba, Mexico and the South Pacific, curator of insects at the Museum of Comparative Zoology, pheromone work with William Bossert, island biogeography with MacArthur, sociobiology and Gould's criticism and the water-dousing, quoted colleagues Peter Raven and Thomas Lovejoy, Wilson's later acknowledgement of political naivete, books, the 2011 Gorongosa bioblitz, the Half-Earth idea and E.O. Wilson Biodiversity Foundation. Journalistic obituary.",
+      "url": "https://www.nationalgeographic.com/culture/article/eo-wilson-darwins-natural-heir-dies-at-age-92"
+    },
+    {
+      "id": "src_wilson_crimson_obit",
+      "kind": "press",
+      "title": "The Harvard Crimson obituary of Edward O. Wilson, 31 December 2021, read in full: 46 years on the Harvard faculty, island biogeography with MacArthur and the Simberloff Florida Keys fumigation test, more than 430 scientific papers, two Pulitzers, and student and colleague recollections (Sulloway, Keith, Moffett, Moreau, Hrdy, Naskrecki, Ehrlich) on his lecturing, correspondence with students and willingness to take a last graduate student after emeritus status. Campus newspaper obituary, admiring; some dates conflict with other sources and were not relied upon.",
+      "url": "https://www.thecrimson.com/article/2021/12/31/edward-wilson-obit/"
+    },
+    {
+      "id": "src_wilson_nyrb_1975_letter",
+      "kind": "archive",
+      "title": "'Against Sociobiology', letter to the editors of The New York Review of Books, vol. 22, no. 18, 13 November 1975, signed by sixteen Boston-area academics and others including Stephen Jay Gould and Richard Lewontin, read in full via a libcom.org reposting (not the NYRB original): seven numbered objections to Wilson's Sociobiology (biological-determinism history, thin link from insects to humans, circular adaptation reasoning, speculative human prehistory). Contemporary critics' own words; a position statement, so used only for the existence and content of the objection, never as trait evidence.",
+      "url": "https://libcom.org/article/against-sociobiology"
+    },
+    {
+      "id": "src_wilson_nyrb_2022_critique",
+      "kind": "press",
+      "title": "The New York Review of Books, 'Ideology as Biology' by historians of science Mark Borrello and David Sepkoski, 5 February 2022, read in full: a critical reassessment drawing on Wilson's archived correspondence, summarising the sociobiology controversy, his decision to publish On Human Nature (1978) rather than retreat, and arguing that his private correspondence with psychologist J. Philippe Rushton was more supportive than his public stance. The authors' claims are theirs alone and are attributed as such; the article was not used to score any row beyond showing that his conduct was disputed.",
+      "url": "https://www.nybooks.com/online/2022/02/05/ideology-as-biology/"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wilson_harvard_gazette, src_wilson_nature_obit, src_wilson_natgeo_obit | 1954-2021 | university minute + collaborator obituary + press obituary] He spent a year studying ants across Melanesia as a graduate student (Gazette; Nature dates the trip to 1954), did fieldwork in Cuba, Mexico and the South Pacific (NatGeo), described hundreds of new ant species, extended ant work into chemical communication and then social evolution (Nature), and was still planning expeditions to Cuba and Brazil weeks before his death (Gazette). Three sources describe sustained exploratory range across decades, though each is a summary and all are largely admiring, so strong inference at moderate confidence. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 76 / 0.62 to 72 / 0.54 because a broad trait claim stated from three obituary summaries with no dated primary behavioural account."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wilson_nature_obit, src_wilson_harvard_gazette, src_wilson_natgeo_obit | 1956-2016 | collaborator obituary + university minute + press] Beyond ant taxonomy he contributed to biogeography (taxon cycle, island biogeography with MacArthur), animal chemical communication (with William Bossert), social evolution (The Insect Societies, Sociobiology) and a book-length argument for unifying knowledge (Consilience), which Nature records got a mixed response. Three independent-register sources document the breadth; the limit is that Consilience's reach was contested, so confidence stays moderate. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.66 to 76 / 0.6 because the breadth is documented, but all three sources are obituaries or a memorial minute from one admiring register, and Nature itself records the mixed reception of Consilience."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_wilson_nature_obit, src_wilson_nyrb_1975_letter, src_wilson_harvard_gazette | 1967-1975 | collaborator obituary + critics' letter + university minute] Nature calls him 'a congenital synthesizer' (quoting his autobiography) and describes Sociobiology as the first book to address the evolution of societies from colonial bacteria to humans; the island-biogeography equilibrium model is recorded by Gazette and Nature. The 1975 critics' letter attacks exactly the leap from insect models to humans as unsupported, so the abstraction capacity is documented but its human extension was contested; strong inference, dual-edged."
+    },
+    "independent_thinking": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_wilson_nature_obit, src_wilson_natgeo_obit, src_wilson_nyrb_2022_critique, src_wilson_harvard_gazette | 1975-2010 | collaborator obituary + press + critical historians + minute] Nature says he enjoyed challenging dogma; after the 1975 attacks he published the more provocative On Human Nature rather than retreat (Nature; NYRB 2022 says he refused to back down); Gazette and NatGeo record his later rejection of kin selection. Sources on both the admiring and critical side agree he held positions against strong opposition; dual-edged because critics treat the same stance as a hardening against objection."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_wilson_harvard_gazette, src_wilson_nature_obit, src_wilson_natgeo_obit | 2010 | university minute + collaborator obituary + press] In 2010, with mathematicians, he disavowed a central tenet of his earlier work on genetic relatedness in insect societies, which Gazette says led to a debate in Nature; Holldobler states that Wilson rejected inclusive fitness he once propagated, that this led to heated debates and that he himself disagreed. NatGeo adds he later acknowledged political naivete about 1975. The revision is documented by three sources, but its correctness was disputed by colleagues, and the changes concern one theory and one public stance, so moderate."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_wilson_nature_obit, src_wilson_harvard_gazette, src_wilson_natgeo_obit, src_wilson_nyrb_1975_letter | 1975-1978 | collaborator obituary + minute + press + critics' letter] The 1975 letter from Harvard colleagues linked his work to racism; Holldobler says he 'responded with elegance and humour' and 'thrived on controversy'; Gazette and NatGeo record he was doused with water at a scientific meeting and continued. Sources describe a sustained public conflict handled without withdrawal; the same disputes show cost, so dual-edged. Holldobler's 'elegance and humour' is a retrospective friendly view."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wilson_crimson_obit, src_wilson_natgeo_obit, src_wilson_harvard_gazette | 1978-2021 | campus press + press obituary + minute] Former students describe his lectures as 'incredible performances' and his language as poetry (Crimson), Thomas Lovejoy credits his writing with raising biodiversity's public profile (NatGeo), and Gazette says students flocked to his lectures and he reached out to public figures about biodiversity. Evidence is mostly admiring retrospective testimony plus book prizes. SELF-CALIBRATION (agent): first-pass 74 / 0.55 lowered to 70 / 0.50 because it rests on admiring recollections and prize/profile claims, with no independent measure of persuasion."
+    },
+    "mastery_orientation": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wilson_harvard_gazette, src_wilson_crimson_obit, src_wilson_nature_obit | 1955-2003 | university minute + campus press + collaborator obituary] Gazette records the 818-page Pheidole in the New World monograph describing 341 new ant species with his own illustrations; Crimson counts over 430 scientific papers; Nature notes The Ants, produced over years with Holldobler, and his systematics work as a lasting mission. Three sources document decades of depth-building in one field; admiring register, so moderate. RUBRIC_CORRECTION (lead review, before eligibility): mastery_orientation lowered from 78 / 0.62 to 74 / 0.56 because all three sources are obituary or memorial summaries in an admiring register; the output counts are documented but the depth-building inference is retrospective."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wilson_harvard_gazette, src_wilson_natgeo_obit, src_wilson_nature_obit, src_wilson_crimson_obit | 1984-2021 | minute + press + collaborator obituary + campus press] Biophilia (1984), founding the Encyclopedia of Life (2007), helping restore Gorongosa National Park, the E.O. Wilson Biodiversity Foundation and the Half-Earth project (co-founded 2016 per Crimson) are recorded by several sources as a late-career direction towards public biodiversity work. Scored only as a motivation to widen the impact of his science; the Half-Earth policy proposal itself is not scored and no political leadership is scored. Press sources are admiring."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_wilson_nature_obit, src_wilson_crimson_obit, src_wilson_harvard_gazette | 1956-2009 | collaborator obituary + campus press + minute] Holldobler says Wilson 'was not a team builder', preferred to work alone and found a few complementary colleagues; yet the record shows lasting co-authorships (Brown 1956, MacArthur 1967, Simberloff, Bossert, Holldobler on The Ants and The Superorganism) and students who describe his generous correspondence and blurbs (Crimson). Evidence cuts both ways, hence a mid score with dual-edged impact."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/edward-o-wilson-jim-harrison-2003.jpg",
+    "width": 420,
+    "height": 594,
+    "source": "Wikimedia Commons 'File:Edward O. Wilson, 2003 (cropped).jpg' (Wikidata P18), extracted from 'Plos wilson.jpg', source credited as the PLoS download plos_wilson.pdf; author Jim Harrison, dated 2003-02, licence tag cc-by-2.5, category Media from PLOS journals / Open Access File of the Day. Commons record: 420 x 594 (downloaded file confirmed 420 x 594). A wider uncropped original 'Plos wilson.jpg' exists at 1240 x 1054 but was not used (different framing, not checked further; no upscaling anywhere). The PLoS institutional page was not opened; PLoS journals publish under CC BY, consistent with the tag, and no conflicting notice was observed.",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "attribution": "Photo: Jim Harrison / PLoS, CC BY 2.5",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Edward_O._Wilson,_2003_(cropped).jpg",
+    "creator": "Jim Harrison",
+    "date": "2003-02",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Edward_O._Wilson,_2003_(cropped).jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에드워드 O. 윌슨"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q211029 returned en label 'Edward O. Wilson', description 'American biologist, naturalist, and writer (1929-2021)', born 1929-06-10, died 2021-12-26, citizenship United States, ko label present, P18 'Edward O. Wilson, 2003 (cropped).jpg'. SLUG/QID CHECK: no production or candidate file for slug edward-o-wilson or QID Q211029 in the roster53 worktree (grep over data-pipeline and src/data). REGION: north_america. VOCABULARY: occupations biologist, naturalist, writer; fields biology, natural_science, environmental_science; tags field_researcher, cross_disciplinary, theorist, communicator; archetype scientific_explorer are all existing ids with EN and KO labels (checked in src/core/i18n/en.ts; ko.ts spot-checked for biologist, biology, field_researcher, cross_disciplinary, theorist, communicator). ZERO POLITICS: the 1975 sociobiology controversy is treated as a documented professional/scientific dispute and is scored only through how he handled opposition (independent thinking, conflict tolerance, belief updating); no row scores political, ideological or race-related views, and the contested claims about his private correspondence (NYRB 2022) are attributed to the authors and not scored. Half-Earth/Gorongosa are one motivation row (impact motivation), unscored as politics. DECEASED SUBJECT: private life (marriage, family, eye injury, death) excluded from scoring. CANONICAL SIGNIFICANCE SOURCE: Harvard Gazette memorial minute and Nature obituary by Holldobler (both read in full). READ (6 cited non-Wikidata sources): Harvard Gazette, Nature obituary (PDF copy saved from a university mirror, text extracted with pdftotext), National Geographic, Harvard Crimson, NYRB 1975 letter (libcom repost, not the NYRB original), NYRB 2022 'Ideology as Biology'. PERSPECTIVES: (1) institutional/university memorial; (2) close collaborator, partly critical of his later science; (3) contemporary critics (1975 letter, Gould/Lewontin) and (4) later critical historians (2022); (5) general press and student recollections. NOT OPENED: Britannica (403), New York Times obituary (blocked), NPR (connection reset), Boston Globe, Wilson's own books (Naturalist, Sociobiology), Richard Rhodes' biography, Crafoord Prize pages (laureate page had no citation), the NAS memoir (none found). Pulitzer dates conflict across sources (1978 vs 1979 for On Human Nature; 1990 vs 1991 for The Ants) and are not stated as exact in editorial; Nature and Gazette give 1990 for The Ants. LIMITS: nearly all sources are obituaries (admiring register); behavioural depth for collaboration and persuasiveness is thin; the Wilson reply letter of Nov 1975 and the 1978 AAAS event were known only through secondary mentions (the water-dousing is described in Gazette and NatGeo only as happening at a scientific or anthropology meeting; the 'Sociobiology Study Group' name and the 1978 AAAS attribution were not confirmed by any source read and are not used). SELF-CALIBRATION (agent): reviewed persuasiveness (lowered 74/0.55 to 70/0.50: admiring recollections), cross_domain_range (kept: three sources, high score but breadth is unusually well documented) and independent_thinking (kept: both admiring and critical sources agree on the behaviour; dual-edged impact recorded). BROAD FLAG: all rows rest on obituaries and memorial minutes; a direct read of Naturalist or the Rhodes biography would strengthen collaboration and belief updating. PORTRAIT: Jim Harrison/PLoS photo, CC BY 2.5, 420 x 594, small but rights-clear; the top edge has a dark wedge from the original crop. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.66 to 76 / 0.6 because the breadth is documented, but all three sources are obituaries or a memorial minute from one admiring register, and Nature itself records the mixed reception of Consilience. RUBRIC_CORRECTION (lead review, before eligibility): mastery_orientation lowered from 78 / 0.62 to 74 / 0.56 because all three sources are obituary or memorial summaries in an admiring register; the output counts are documented but the depth-building inference is retrospective. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 76 / 0.62 to 72 / 0.54 because a broad trait claim stated from three obituary summaries with no dated primary behavioural account."
+  }
+}

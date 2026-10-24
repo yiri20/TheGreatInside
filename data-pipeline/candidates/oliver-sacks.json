@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "oliver-sacks",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Oliver Sacks",
+    "aliases": [
+      "Oliver Wolf Sacks"
+    ],
+    "wikidataId": "Q258662",
+    "birthYear": 1933,
+    "deathYear": 2015,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB",
+      "US"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "writer"
+    ],
+    "fieldIds": [
+      "medicine",
+      "literature"
+    ],
+    "impactDomains": [
+      "medical",
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "communicator",
+      "prolific",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sacks_wikidata",
+      "kind": "wikidata",
+      "title": "Oliver Sacks (Q258662) -- verified live via the Wikidata API (2026-10-23): English label 'Oliver Sacks', description 'British neurologist and writer (1933-2015)', born 9 July 1933, died 30 August 2015, citizenship United Kingdom, Korean label '올리버 색스', English and Korean Wikipedia sitelinks present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q258662"
+    },
+    {
+      "id": "src_sacks_foundation",
+      "kind": "institution",
+      "title": "Oliver Sacks Foundation, 'Oliver Sacks Author | Biography, Life and Books by Neurologist' (oliversacks.com), read in full: trained at Oxford, residencies in San Francisco and at UCLA, moved to New York in 1965, consulting neurologist at Beth Abraham Hospital in the Bronx from 1966, professor at Columbia (2007-12, its first 'Columbia University Artist') and NYU School of Medicine (2012-15); book list (Awakenings, Migraine, The Man Who Mistook His Wife for a Hat, An Anthropologist on Mars, Musicophilia and others); Lewis Thomas Prize 2002; the 1990 Awakenings film; his approach of looking at how each individual coped rather than fitting patients to a category; 'often credited' as a forerunner of the neurodiversity movement. CANONICAL SIGNIFICANCE SOURCE. Estate-run foundation page, so admiring and not independent; used for career facts and significance orientation, never as sole support for a trait row. Its passages on private life were not used.",
+      "url": "https://www.oliversacks.com/about-oliver-sacks/"
+    },
+    {
+      "id": "src_sacks_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Awakenings by Oliver Sacks' (ebsco.com), read in full: Sacks about a year out of residency in 1969; L-dopa given from spring 1969 to postencephalitic patients, many catatonic for decades; dramatic but often temporary recoveries, adverse reactions that forced dose reductions; the book's departure from the conventional case history (detailed notes, patients encouraged to keep journals, biographical accounts); twenty case histories, a 1987 edition with epilogue updating them; first book Migraine (1970); Einstein College of Medicine professor of clinical neurology and private practice; the book's setting based on Beth Abraham; reviews listed but not summarised. Reference overview, largely favourable.",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/awakenings-oliver-sacks"
+    },
+    {
+      "id": "src_sacks_bmj",
+      "kind": "press",
+      "title": "Charlotte Allan, 'Awakenings' (BMJ 'Medical Classic' essay, 2 June 2007; PubMed Central), read in full: levodopa hailed as a 'miracle drug' in 1969, unpredictable effects even with slow titration; the patients Miriam H, Leonard L, Miron V and Rose R and how they responded; argues that Sacks treated patients as people and that his long-term relationship with them was crucial; psychological and environmental factors seemed to affect the drug's effect. Medical-journal essay by a junior doctor; it does not describe his methods or colleagues' reception.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1885331/"
+    },
+    {
+      "id": "src_sacks_truthdig",
+      "kind": "press",
+      "title": "Truthdig (Kasia Anderson), 'Oliver Sacks, Neurological Innovator and \"Awakenings\" Author, Dies at 82' (31 August 2015), read in full: obituary round-up that quotes a Guardian tribute describing his clinical tales as literature (a musician with visual agnosia, Tourette's syndrome, deaf people who 'see' voices, an autistic boy with a gift for drawing) in the lineage of Freud's case histories and Luria's 'neurographies'; Variety's praise for explaining brain science to general readers; the Awakenings film's three Oscar nominations. Contemporaneous obituary material at second hand; no criticism and no institutional detail; its cause-of-death passage was not used.",
+      "url": "https://www.truthdig.com/articles/oliver-sacks-neurological-innovator-and-awakenings-author-dies-at-82/"
+    },
+    {
+      "id": "src_sacks_nautilus",
+      "kind": "press",
+      "title": "Pria Anand, 'The Confabulations of Oliver Sacks' (Nautilus), read in full through the fetch tool: a neurologist's essay summarising Rachel Aviv's 15 December 2025 New Yorker article built on Sacks's journals and letters -- the 'caged panther' Rilke image attributed to the patient Leonard in Awakenings that Sacks's own letters suggest was his own, the patient 'Rebecca' in The Man Who Mistook His Wife for a Hat whose reported recovery his journals contradict, Sacks calling the book 'fairy tales' and 'confabulations' in a letter to his brother, and the reading that this was confabulation rather than deliberate lying. Secondary summary (the New Yorker article itself was not opened); its passages on his hidden identity and psychological interpretation were not used. COUNTER-VOICE (factual).",
+      "url": "https://nautil.us/the-confabulations-of-oliver-sacks-1262447"
+    },
+    {
+      "id": "src_sacks_horgan",
+      "kind": "press",
+      "title": "John Horgan, 'Oliver Sacks Fudged Facts. Does That Bother Me?' (Cross-Check column, johnhorgan.org), read in full: responds to the same New Yorker article -- Leonard portrayed as bookish and the Rilke panther quotation, the invented number-swapping scene in 'The Twins', Aviv's report that Sacks kept to facts in An Anthropologist on Mars (1995) and later books; Horgan defends the narrative, anti-reductionist method and notes Sacks never used case studies to prove a pet theory; critics in his postscript (George Johnson, Michael Brooks, Faye Flam) call embellished case histories dishonest, with Flam noting that a critical investigator would have tested the twins with non-prime numbers. Opinion column, partly admiring and partly critical. COUNTER-VOICE (factual). Treated with the Nautilus essay as ONE underlying perspective for the fabrication findings, since both rest on Aviv.",
+      "url": "https://johnhorgan.org/cross-check/oliver-sacks-fudged-facts-does-that-bother-me"
+    },
+    {
+      "id": "src_sacks_mcginn",
+      "kind": "press",
+      "title": "Colin McGinn, 'Oliver Sacks' Fabrications' (colinmcginn.net blog post, after the December 2025 New Yorker article), read in full: says he raised the question of fabrication -- 'exaggeration, embellishment, gilding the lily' -- in his 1986 London Review of Books review of The Man Who Mistook His Wife for a Hat; says Sacks never admitted the criticism was justified but did not deny it; says Musicophilia and On the Move lacked comparable inaccuracies. Independent critic with a personal stake in the matter (he says his own reputation was damaged); his claims about the 1986 review are used only as his own report. COUNTER-VOICE.",
+      "url": "https://colinmcginn.net/oliver-sacks-fabrications/"
+    },
+    {
+      "id": "src_sacks_psychtimes",
+      "kind": "press",
+      "title": "H. Steven Moffic, 'In Memoriam Epilogue: The Psychiatrist Who Mistook Oliver Sacks for a Psychiatrist Confesses' (Psychiatric Times, 13 January 2026), read in full: a psychiatrist retracts his 2015 eulogy, reporting that he had credited Sacks with careful, humane evaluations of unusual patients and now thinks the literary presentation was beautiful but medically misleading after the New Yorker report on invented case material; mentions Sacks's own journal wording about 'lies, falsifications'. Opinion column by a colleague-observer; its speculation about Sacks's psychotherapy and psychology was not used. Retrospective critical voice.",
+      "url": "https://www.psychiatrictimes.com/view/in-memoriam-epilogue-the-psychiatrist-who-mistook-oliver-sacks-for-a-psychiatrist-confesses"
+    },
+    {
+      "id": "src_sacks_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page '9.13.09OliverSacksByLuigiNovi (cropped).jpg' (and the parent file page), checked for the portrait's licence: photograph by Luigi Novi at the Brooklyn Book Festival, 13 September 2009, own work, CC BY 3.0 with a credit-line request; the crop is 780 x 1131. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:9.13.09OliverSacksByLuigiNovi_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sacks_ebsco, src_sacks_foundation, src_sacks_truthdig, src_sacks_horgan | 1970-1985 | reference overview + foundation page + obituary tribute + opinion column] EBSCO says Sacks found conventional clinical case histories too limited, kept detailed notes, encouraged patients to keep journals and built biographical case histories (Awakenings, 1973); the Guardian tribute quoted by Truthdig places his tales in a lineage from Freud and Luria and calls them literature; Horgan describes a narrative, anti-reductionist method that put the human subject back at the centre of the case history and distinguishes him from Freud's use of cases to support a theory. A distinctive form that outside writers describe as his own, but most of the praise is retrospective, the foundation page is not independent, and the same method is the one critics say blurred fact and invention, so strong inference at a moderate confidence."
+    },
+    "analytical_rigor": {
+      "score": 44,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "[src_sacks_nautilus, src_sacks_horgan, src_sacks_mcginn, src_sacks_psychtimes | 1973-1985, reported 2025-2026 | commentary on a journalistic investigation + opinion column + 1986 reviewer + colleague column] The Nautilus essay and Horgan both report Aviv's finding that Sacks's journals and letters show invented or altered details in published case histories (the Rilke caged-panther image given to the patient Leonard, the patient 'Rebecca' in The Man Who Mistook His Wife for a Hat, the number-swapping scene in 'The Twins'); Horgan notes Faye Flam's point that the twins were never tested with non-prime numbers; McGinn says he raised exaggeration and embellishment in his 1986 London Review of Books review; Moffic retracts his 2015 praise of the clinical evaluations. The fabrication claim rests on one underlying investigation (not opened directly) plus an independent 1986 critic, and the same sources say Sacks kept to the facts in An Anthropologist on Mars and later books, so a below-average rating on checking and fidelity to observation in his early case writing at a moderate confidence, risk impact, with confabulation rather than intent as the sources' own reading. RUBRIC_CORRECTION (lead review, before eligibility): re-based from 40 / 0.52 strong_inference to 44 / 0.44 inference (confidence and evidence type lowered; score moved toward neutral because the evidence is weaker, not stronger). The fabrication finding reaches this profile only through three commentaries on a journalistic investigation that was not opened directly, so the primary evidence is second-hand; the independent 1986 critique supports embellishment in general, not the specific findings."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sacks_foundation, src_sacks_ebsco, src_sacks_bmj | 1966-1987 | foundation page + reference overview + medical-journal essay] Sacks was consulting neurologist at Beth Abraham from 1966 and followed the postencephalitic patients through the 1969 L-dopa trial, its relapses and dose reductions into the 1987 edition of Awakenings, whose epilogue updates the twenty case histories; the BMJ essay argues that his long-term relationship with the patients was crucial for them and their families. A long, sustained clinical and documentary commitment is described by three sources, but they are favourable overviews and the span of his own presence is partly inferred from publication dates, so strong inference at a modest confidence."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sacks_foundation, src_sacks_ebsco, src_sacks_truthdig | 1966-2015 | foundation page + reference overview + obituary tribute] He practised and taught clinical neurology (Albert Einstein College of Medicine, Columbia, NYU) while writing for The New Yorker and the New York Review of Books; Columbia made him its first 'Columbia University Artist'; the Guardian tribute and Variety, quoted by Truthdig, describe him as writing clinical stories as literature and explaining brain science to general readers; EBSCO places him in a tradition of physician-authors. Sustained work across medicine and literature is recorded by the institution, a reference work and an obituary, and no source disputes it, so documented at a moderate confidence (the foundation page is not independent)."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sacks_ebsco, src_sacks_foundation, src_sacks_horgan, src_sacks_mcginn | 1973-1986 | reference overview + foundation page + opinion column + 1986 reviewer] EBSCO says he criticised the dry, impersonal style of medical journals and chose the biographical case history instead; the foundation page says he looked at how each individual coped rather than fitting patients into a diagnostic category; Horgan calls him an anti-theorist who insisted on seeing each patient as an individual; McGinn's account of his 1986 critique shows that the chosen form drew a sceptical reviewer. A self-chosen method that departed from the field's convention is documented by four sources, but the tenor is largely admiring and the description of his reasons comes mostly from retrospective summaries, so strong inference at a modest confidence, dual-edged because the same departure from convention is what critics say loosened fact-checking."
+    },
+    "belief_updating": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sacks_ebsco, src_sacks_horgan, src_sacks_mcginn | 1987-2015 | reference overview + opinion column + critic] EBSCO records a 1987 edition of Awakenings with a new foreword and an epilogue updating the twenty cases since 1973; Horgan (reporting Aviv) and McGinn say that An Anthropologist on Mars, Musicophilia and On the Move kept closer to the facts, while McGinn says Sacks never admitted that the 1986 criticism was justified but did not deny it. The updated edition is documented, but the later shift in practice is reported at second hand and the reasons for it are not stated by any source, so inference at a low confidence, dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "올리버 색스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/oliver-sacks-novi-2009.jpg",
+    "width": 780,
+    "height": 1131,
+    "source": "Wikimedia Commons, '9.13.09OliverSacksByLuigiNovi (cropped).jpg' (crop of '9.13.09OliverSacksByLuigiNovi.jpg', 1610 x 1412) -- photograph by Luigi Novi taken 13 September 2009 at the Brooklyn Book Festival, own work, uploaded by the photographer under CC BY 3.0 with a request for a visible credit line. Crop original 780 x 1131 pixels (SHA-1 51175822e69f, matches the Commons record); saved unchanged, never upscaled.",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Photo: Luigi Novi / Wikimedia Commons, 2009, CC BY 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:9.13.09OliverSacksByLuigiNovi_(cropped).jpg",
+    "creator": "Luigi Novi",
+    "date": "2009",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:9.13.09OliverSacksByLuigiNovi_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-23T00:00:00Z",
+    "updatedAt": "2026-10-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-23) for Q258662 returned en label 'Oliver Sacks', description 'British neurologist and writer (1933-2015)', born 1933-07-09, died 2015-08-30, citizenship United Kingdom, enwiki and kowiki sitelinks, ko label '올리버 색스', P18 'Oliversacks.jpg' and '9.13.09OliverSacksByLuigiNovi.jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate file, production person or src reference for slug oliver-sacks or QID Q258662 in the roster53 worktree. REGION: western_europe with nationalityCodes GB and US, following the existing dual-nationality precedents of England-born figures whose careers were mostly in the US (Freeman Dyson, born in England with a US career, is GB+US with western_europe; Hitchcock and Chaplin likewise); Sacks was born and educated in England and his professional career from the early 1960s was in the US, but no source read here states his US naturalisation, so the US code rests on his documented US career (Foundation page) rather than a stated naturalisation and is flagged for the lead (GB alone with western_europe is the conservative alternative). VOCABULARY: occupations physician and writer, fields medicine and literature, impact domains medical/literary/cultural, tags communicator/prolific/cross_disciplinary, archetype cross_disciplinary_generalist are existing ids with EN+KO labels. ZERO POLITICS: nothing political. NO INFERENCE from illness, drug use, sexuality or private life: only documented professional and writing behaviour is scored; the Nautilus and Psychiatric Times pieces' psychological interpretations (identity, psychotherapy, journals about inner states) were deliberately excluded, and only the factual finding that published details were invented or altered is used. CANONICAL SIGNIFICANCE SOURCE: Oliver Sacks Foundation biography page (https://www.oliversacks.com/about-oliver-sacks/; read in full), with the EBSCO Awakenings overview. Britannica and the NYT obituary were blocked (403 and fetch refusal). READ (8 cited non-Wikidata sources plus Commons): Foundation page (full), EBSCO (full), BMJ Allan essay (full), Truthdig obituary (full; quotes the Guardian tribute at second hand, the Guardian original was not accessible), Nautilus Anand essay (full), Horgan column (full), McGinn post (full), Psychiatric Times Moffic column (full). Not opened: the Rachel Aviv New Yorker article itself (the fabrication findings come through Nautilus, Horgan and Moffic and count as ONE underlying perspective), McGinn's 1986 LRB review, the CBC early-career piece (403), King's College London Parkinson exhibit (403), Sacks's own books and memoirs (self material). PERSPECTIVES: institution (foundation, admiring), reference/medical-journal overviews (EBSCO, BMJ), obituary tribute (Guardian via Truthdig), later critical commentary resting on Aviv (Nautilus, Horgan with Johnson/Brooks/Flam, Moffic), and an independent 1986 reviewer (McGinn). COUNTER-VOICE: factual findings that published case histories contained invented or altered details, the 1986 criticism of embellishment, and critics' view that this undermines non-fiction science writing; the sources' own reading is confabulation rather than deliberate fraud and some defend the narrative method. FACT CONFLICTS RECORDED: sources differ on the hospital name in the L-dopa story (BMJ essay says Mount Carmel, the fictionalised name used in the book; EBSCO says the book's 'Mount Carmel' is based on Beth Abraham Hospital in the Bronx); cards use Beth Abraham from the Foundation and EBSCO. The Foundation says Beth Abraham from 1966; EBSCO says about a year out of residency in 1969 (residency ended around 1966-67 by implication); the cards avoid precise residency dates. CALIBRATION: behavioural depth is thin on day-to-day work and heavily retrospective; the fabrication evidence is strong but single-origin; the highest score is 70 and highest confidence 0.58; six rows kept, none padded. SELF-CALIBRATION (agent): reviewed analytical_rigor, cross_domain_range and independent_thinking as the highest-risk rows; analytical_rigor left at 40/0.52 (an independent 1986 critic corroborates the Aviv finding, and a low score is supported by the sources' own wording), cross_domain_range left at 70/0.58 (documented across institution, reference work and obituary, nothing disputes it), independent_thinking left at 64/0.50 (four sources, already marked modest). No row lowered. TRAITS NOT SCORED: collaboration (no documented colleague episode), empathy toward patients (not an attribute; BMJ and foundation statements are admiring generalities), risk tolerance and any drug or personal-life matter, anything about his sexuality, health or death. PORTRAIT: the lead's candidate 'Oliversacks.jpg' (434 x 580, by Maria Popova) was rejected: its Commons page names a Brain Pickings blog as the source with no permission statement and a bare CC BY-SA 3.0 tag, so the licence basis cannot be confirmed. Alternative: Luigi Novi's cropped 2009 Brooklyn Book Festival photograph ('Own work', CC BY 3.0, 780 x 1131, SHA-1 matches the Commons record), downloaded with curl, opened and viewed (face clear, double-helix tie), saved unmodified as public/portraits/oliver-sacks-novi-2009.jpg; the uploader's permission box asks for a visible credit linking to the file page, which the attribution field reproduces. An event photo, so no institutional page can carry a conflicting notice. KOREAN NAME: 올리버 색스 is the Wikidata ko label. RUBRIC_CORRECTION (lead review, before eligibility): re-based from 40 / 0.52 strong_inference to 44 / 0.44 inference (confidence and evidence type lowered; score moved toward neutral because the evidence is weaker, not stronger). The fabrication finding reaches this profile only through three commentaries on a journalistic investigation that was not opened directly, so the primary evidence is second-hand; the independent 1986 critique supports embellishment in general, not the specific findings."
+  }
+}
