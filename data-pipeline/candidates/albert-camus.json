@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "albert-camus",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Albert Camus",
+    "wikidataId": "Q34670",
+    "birthYear": 1913,
+    "deathYear": 1960,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["FR"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["writer", "philosopher"],
+    "fieldIds": ["literature", "philosophy", "journalism"],
+    "impactDomains": ["literary", "cultural", "historical"],
+    "tagIds": ["philosopher", "nobel_laureate", "nonconformist", "independent"],
+    "archetypeIds": ["independent_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_camus_wikidata",
+      "kind": "wikidata",
+      "title": "Albert Camus (Q34670) -- verified live via the Wikidata API (2026-10-24): English label 'Albert Camus', description 'French philosopher, author, and journalist (1913-1960)', born 1913-11-07, died 1960-01-04, citizenship France, P18 image used only as a portrait lead. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q34670"
+    },
+    {
+      "id": "src_camus_nobel_facts",
+      "kind": "award_body",
+      "title": "Nobel Prize Outreach, 'Albert Camus - Facts', Nobel Prize in Literature 1957 (nobelprize.org), read in full: prize motivation 'for his important literary production, which with clear-sighted earnestness illuminates the problems of the human conscience in our times'; debut 1937, breakthrough with L'Etranger (1942) on the absurdity of life, also the philosophical work The Myth of Sisyphus; worked as playwright and journalist (Alger Republicain); labelled an existentialist through his friendship with Sartre but 'preferred not to be linked with any ideology'; La Chute (1956); the unfinished The First Man published posthumously. CANONICAL SIGNIFICANCE SOURCE. The page's personal-life and death lines were not used.",
+      "url": "https://www.nobelprize.org/prizes/literature/1957/camus/facts/"
+    },
+    {
+      "id": "src_camus_nobel_presentation",
+      "kind": "award_body",
+      "title": "Swedish Academy presentation speech by Anders Osterling, Nobel Prize in Literature 1957 (nobelprize.org, from Nobel Lectures, Literature 1901-1967), read in full: Camus's rise from a poor student who worked at all sorts of jobs, reaching France at 25 as a journalist; the 'absurd' as a leitmotif; Sisyphus as a symbol; L'Etranger (1942), La Peste (1947) and La Chute (1956) praised for 'complete classical purity of style' and intense concentration, letting characters and action carry the ideas without authorial commentary; a humanist who has moved beyond nihilism. Contemporary institutional praise, so it is celebratory by nature.",
+      "url": "https://www.nobelprize.org/prizes/literature/1957/ceremony-speech/"
+    },
+    {
+      "id": "src_camus_nobel_banquet",
+      "kind": "award_body",
+      "title": "Albert Camus, banquet speech at the Nobel Banquet, Stockholm City Hall, 10 December 1957 (nobelprize.org), read in full: his own account of the writer's role (service of truth and of liberty, refusal to lie, to side not with those who make history but those who suffer it), of art as inseparable from fellow men, and his remark that he is 'a man almost young, rich only in his doubts and with his work still in progress'. Self-testimony; used only as context for the stance he publicly took, never as sole support for any row.",
+      "url": "https://www.nobelprize.org/prizes/literature/1957/camus/speech/"
+    },
+    {
+      "id": "src_camus_sep",
+      "kind": "institution",
+      "title": "Stanford Encyclopedia of Philosophy, 'Albert Camus' (plato.stanford.edu), read through the sections on life, the absurd, refusal of existentialism and the break with Sartre: 1936 Algiers thesis on Plotinus and Augustine; Nuptials (1938); the planned 'absurd' triptych of The Stranger (June 1942), The Myth of Sisyphus (October 1942) and Caligula; The Plague (1947), The Rebel, The Fall; Camus repeatedly rejected the label 'philosopher' ('did not believe enough in reason to build a system', 1945 interview) and criticised Kierkegaard, Shestov, Jaspers, Heidegger and Husserl for turning to transcendence; critics note he often argues by metaphor and image; The Rebel marked the rupture with Sartre, critics note it focuses on Communism and largely omits colonialism and the Holocaust. The entry's political history (Communist Party membership and expulsion, Alger republicain reporting, wartime pacifism, Combat editorship, death-penalty and nuclear protests, Algeria) and all health and personal-life passages were read but NOT scored.",
+      "url": "https://plato.stanford.edu/entries/camus/"
+    },
+    {
+      "id": "src_camus_iep",
+      "kind": "institution",
+      "title": "Internet Encyclopedia of Philosophy, 'Albert Camus' (iep.utm.edu), read in full: 1936 co-founding of the Theatre du Travail (Camus as actor, director and playwright; later renamed Theatre de l'Equipe, shifting toward classic drama); journalism at Alger Republicain from 1938; the plays Caligula, The Misunderstanding, State of Siege and The Just Assassins; The Stranger praised by Sartre in a long review; Camus denied being an existentialist and preferred to be called a writer, rejected the claim that existence precedes essence; The Rebel led to the falling-out with Sartre; Sartre called him a writer of philosophical tales in Voltaire's tradition, more moralist than systematic thinker; critics (Said and others) faulted the near-absence of Arab characters in The Stranger; Kamel Daoud's The Meursault Investigation is cited as a fictional answer; Camus felt Malraux more deserving of the Nobel. Health, marriages and death passages not used.",
+      "url": "https://iep.utm.edu/camus/"
+    },
+    {
+      "id": "src_camus_todd_review",
+      "kind": "press",
+      "title": "Washington Examiner magazine, 'The stranger in a strange land' (review of Olivier Todd's Albert Camus: A Life, abridged English edition), read in full: Todd's authorised biography judged authoritative on The Fall and The Rebel; the Gallimards took Camus on as an editor, a job he kept for the rest of his life (he published Jean-Francois Revel and, posthumously, Simone Weil); The Stranger the bestselling novel of the war; the reviewer's own verdict that Camus's journalism rarely rose above the ordinary, his plays are weak and his small fiction output hardly sustains his reputation; the Sartre feud beginning over Merleau-Ponty and deepening with The Rebel (1951), Sartre commissioning a hostile review. Hostile, partisan counter-voice; its many personal-life judgments were NOT used and the Todd biography itself was not opened (known only through this review).",
+      "url": "https://www.washingtonexaminer.com/magazine/1671648/the-stranger-in-a-strange-land/"
+    },
+    {
+      "id": "src_camus_stanford_anotherlook",
+      "kind": "institution",
+      "title": "Stanford University 'Another Look' blog, 'The Camus-Sartre spat and a unique dissident voice' (anotherlook.stanford.edu), read: The Rebel published autumn 1951; Les Temps Modernes received proofs in September 1951; Sartre had the young collaborator Francis Jeanson review it, and Jeanson's 'Albert Camus or the Soul in Revolt' attacked the book so harshly that it became the defining break; Jeanson had earlier (1947) called The Myth of Sisyphus a 'negation of all philosophy'; the 1946 Neither Victims nor Executioners (not scored). Framed as a postwar French intellectual debate; the pro-Jeanson framing makes it a partial but independent account of the quarrel.",
+      "url": "https://anotherlook.stanford.edu/?p=2391"
+    },
+    {
+      "id": "src_camus_commons_ref",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages for the Camus portrait candidates (UPI/Library of Congress 1957; Studio Harcourt 1945; a PUF book-cover photo by Ervin Marton), checked for rights; none accepted, so the portrait is HELD. See provenance notes.",
+      "url": "https://commons.wikimedia.org/wiki/Category:Portraits_of_Albert_Camus"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_camus_nobel_presentation, src_camus_sep, src_camus_nobel_facts | 1937-1956 | institutional praise + encyclopaedia] The Swedish Academy praises 'complete classical purity of style' and the way The Stranger, The Plague and The Fall embody the absurd through character and action; SEP describes the planned 'absurd' triptych of novel, essay and play. Much of the praise is institutional and retrospective, and the Examiner reviewer disputes the plays and the small fiction output, so confidence stays moderate."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_camus_sep, src_camus_iep, src_camus_nobel_facts | 1942-1952 | two encyclopaedia entries + Nobel Foundation] He rejected the labels 'philosopher' and 'existentialist' (SEP quotes a 1945 interview), criticised major existentialists in The Myth of Sisyphus for turning to transcendence, and 'preferred not to be linked with any ideology' (Nobel Foundation). The cost was the public break with Sartre's circle after The Rebel. Only the intellectual positioning is scored; his party membership and political activity are not."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_camus_stanford_anotherlook, src_camus_todd_review, src_camus_sep | 1951-1952 | institutional blog + hostile press review + encyclopaedia] He published The Rebel knowing it criticised the circle around Les Temps Modernes, and the 1952 exchange with Jeanson and Sartre was sharp, after which he is reported to have avoided his old Left Bank haunts. Documented as a professional-intellectual quarrel only; the episode is told mostly by Sartre-side and hostile sources, so the row is modest."
+    },
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_camus_iep, src_camus_sep, src_camus_todd_review, src_camus_nobel_facts | 1936-1957 | encyclopaedias + biography review + Nobel Foundation] Novels, philosophical essays, plays, journalism, theatre direction and acting (Theatre du Travail), and a lifelong editorial post at Gallimard are all documented. A critic doubts the quality of some strands, but the breadth itself is not in dispute."
+    },
+    "aesthetic_sensitivity": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_camus_nobel_presentation, src_camus_iep | 1938-1956 | Nobel presentation speech + encyclopaedia] The Academy cites his classical purity of style and the Mediterranean 'worship of Greek proportion and beauty'; IEP describes early essays celebrating the Mediterranean and the senses. Largely praise-based, with one hostile reviewer dismissing his journalism and plays, so confidence is kept at 0.5."
+    },
+    "systems_abstraction": {
+      "score": 38,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_camus_sep, src_camus_iep | 1945-1951 | two encyclopaedia entries] SEP quotes his 1945 statement that he did not believe enough in reason to build a system and notes critics say he argues by metaphor and image; IEP records Sartre's description of him as a moralist rather than a systematic thinker and his limited interest in metaphysics and ontology. A low score reflects documented reluctance to build systems, not lack of ability."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알베르 카뮈"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear lifetime portrait found. (1) Commons 'Albert Camus, gagnant de prix Nobel, portrait en buste ...cigarette de tabagisme.jpg' (UPI photograph, 1957, Library of Congress New York World-Telegram and the Sun collection, 719 x 863, tagged PD-US) carries its own Commons warning that it may not be public domain outside the United States and the LoC item/rights pages were not reachable (loc.gov blocks automated access), so the US-status basis could not be confirmed; (2) Commons 'Camus Harcourt 1945.jpg' (Studio Harcourt via RMN, 486 x 650, tagged PD-France on a 'collective work' theory plus a VRT ticket whose content is not public) rests on a legal theory while the image is distributed commercially by the French state agency RMN; (3) 'Albert Camus by Ervin Marton.jpg' is a photograph of a 1964 book cover claimed as own work with CC BY-SA, which cannot be valid for a third party's photograph. Henri Cartier-Bresson and Gisele Freund photographs are copyrighted. Next step: obtain an explicit rights statement from LoC (UPI/NYWTS collection, e.g. loc.gov item 93507512 rights field) or the Nobel Foundation, or a Commons image with a documented creator death date more than 70 years ago."
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q34670 returned en label 'Albert Camus', description 'French philosopher, author, and journalist (1913-1960)', born 1913-11-07, died 1960-01-04, citizenship France; the lead's hint was correct. SLUG/QID CHECK: no candidate file, production roster entry or src reference for slug albert-camus or QID Q34670 in the roster55 worktree. REGION: western_europe (born in French Algeria, French citizen, career in France; same as other French-based writers; Algeria is not a controlled region). VOCABULARY: occupations writer and philosopher, fields literature, philosophy and journalism, impact domains literary/cultural/historical, tags philosopher/nobel_laureate/nonconformist/independent and archetype independent_creator all have EN+KO labels in src/core/i18n (occupation journalist does not exist, so was not used). ZERO POLITICS: primary identity is writer; Combat editorship, Resistance activity, Communist Party membership/expulsion, positions on Algeria, the death penalty, nuclear weapons, Neither Victims nor Executioners and the Cold War reading of The Rebel are context only and unscored; the Sartre quarrel is used solely as a factual professional-intellectual episode (conflict_tolerance, independent_thinking). STRICT EXCLUSIONS: no tuberculosis or health inference, no marriages/affairs/private-life material (the Examiner review's personal-life judgments were deliberately ignored), no inference from his father's death or poverty, no inference from his death. CANONICAL SIGNIFICANCE SOURCE: Nobel Prize Outreach 'Albert Camus - Facts' plus the Swedish Academy presentation speech (nobelprize.org). READ (7 cited non-Wikidata sources): Nobel Facts, Nobel presentation speech, Nobel banquet speech (self), SEP, IEP, Washington Examiner review of Todd's biography (hostile counter-voice), Stanford Another Look blog on the Sartre quarrel. PERSPECTIVES: Nobel institutional/celebratory; two scholarly encyclopaedias; a hostile press reviewer; a Sartre/Jeanson-side account of the quarrel; his own banquet speech (self, not sole support). NOT opened: Todd's biography itself (known only via the review), Aronson's Camus & Sartre, Cambridge Companion, primary Jeanson/Sartre/Camus 1952 texts, Britannica (Cloudflare block), Commentary and Eureka Street articles (403). Several pages were read through the WebFetch summariser, so the row rationales stay modest. PORTRAIT: HELD, see portrait.reason. SELF-CALIBRATION (agent): reviewed creative_originality 78/0.62, cross_domain_range 80/0.64 and independent_thinking 76/0.62 as the highest-risk rows (institutional/retrospective praise; encyclopaedia-only); no row lowered, because the confidences already sit at or below 0.64 and a hostile source is included."
+  }
+}

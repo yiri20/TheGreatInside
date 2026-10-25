@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "b-f-skinner",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "B. F. Skinner",
+    "aliases": [
+      "Burrhus Frederic Skinner"
+    ],
+    "wikidataId": "Q213195",
+    "birthYear": 1904,
+    "deathYear": 1990,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "inventor",
+      "scholar"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "theorist",
+      "innovator",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bfs_wikidata",
+      "kind": "wikidata",
+      "title": "B.F. Skinner (Q213195) -- verified live via the Wikidata API (2026-10-24): English label 'B.F. Skinner', description 'American behaviorist (1904-1990)', born 20 March 1904, died 18 August 1990, P18 image 'B.F. Skinner at Harvard circa 1950 (cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q213195"
+    },
+    {
+      "id": "src_bfs_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'B.F. Skinner' (britannica.com, revised by M. Petruzzello), read through an Internet Archive copy because the live site blocks automated access: American psychologist and influential exponent of behaviourism; Ph.D. Harvard 1931, researcher there to 1936; Minnesota (The Behavior of Organisms, 1938); Indiana 1945-48; Walden Two (1948); Harvard professor from 1948 (emeritus 1974); trained animals to perform complex actions with experimental equipment he devised, including pigeons playing table tennis; the Skinner box; principles of programmed learning and teaching machines; Science and Human Behavior (1953), Verbal Behavior (1957), Technology of Teaching (1968), Beyond Freedom and Dignity (1971), a three-part autobiography. CANONICAL SIGNIFICANCE SOURCE. The Air Crib passage involves his child and was not used.",
+      "url": "https://www.britannica.com/biography/B-F-Skinner"
+    },
+    {
+      "id": "src_bfs_foundation",
+      "kind": "biography",
+      "title": "'Brief biography of B.F. Skinner' (course reading hosted at Appalachian State University, apparently derived from the B. F. Skinner Foundation's biography), read in full: boyhood inventions; Harvard graduate student at 24 under William Crozier, encouraged to experiment; building 'apparatus after apparatus' as his rats' behaviour suggested changes, inventing the cumulative recorder and discovering that response rate depended on what followed the response; naming operant behaviour; The Behavior of Organisms (1938); Project Pigeon (1944) discontinued, after which he never again worked with rats; Walden Two written fast. Admiring, foundation-flavoured source; the family and rumour passages were not used.",
+      "url": "https://www.appstate.edu/~steelekm/classes/psy3214/Documents/Brief_biography_of_B.F._Skinner.pdf"
+    },
+    {
+      "id": "src_bfs_nsf",
+      "kind": "award_body",
+      "title": "U.S. National Science Foundation, National Medal of Science recipient page 'B. Frederick Skinner' (nsf.gov), read in full: 1968 medal in Biology, Professor of Psychology, Harvard University, citation 'For basic and imaginative contributions to the study of behavior which have had profound influence upon all of psychology and many related areas', presented 17 January 1969.",
+      "url": "https://www.nsf.gov/honorary-awards/national-medal-science/recipients/b-frederick-skinner"
+    },
+    {
+      "id": "src_bfs_crimson",
+      "kind": "press",
+      "title": "Gregory A. Briker, 'B.F. Skinner at Harvard', The Harvard Crimson magazine, 16 October 2014 (thecrimson.com), read in full: the 1948 Harvard Pigeon Lab in the basement of Memorial Hall; graduate-school regimen and working 'entirely without supervision'; invention of the operant conditioning chamber as a graduate student; Edgar Pierce Professor 1958 to 1974; colleagues Jerome Kagan and Steven Pinker on behaviourism and Skinner (Kagan: 'a hunter'); the observation that his legacy 'remains ambiguous' with many theories criticised and eclipsed. Independent campus journalism built on colleague interviews and Skinner's autobiography.",
+      "url": "https://www.thecrimson.com/article/2014/10/16/bf-skinner-at-harvard/"
+    },
+    {
+      "id": "src_bfs_taskpurpose",
+      "kind": "press",
+      "title": "Task & Purpose, 'That time the Army tried to make a missile guided by pigeons' (taskandpurpose.com), read in full: Skinner began experimenting with pigeons in 1940 at Minnesota; the military was at first uninterested; a small OSRD contract through General Mills in June 1943; three pigeons per 'Pelican' missile nose cone; 1944 demonstration then cancellation with a quoted rejection letter; Navy revival as Project Orcon in 1948, ended 1953; Skinner's own quote calling it 'a crackpot idea'. Military-history journalism; secondary account.",
+      "url": "https://taskandpurpose.com/history/project-pigeon-missiles-ww2/"
+    },
+    {
+      "id": "src_bfs_smithsonian",
+      "kind": "press",
+      "title": "Marina Koren, 'B.F. Skinner: The Man Who Taught Pigeons to Play Ping-Pong and Rats to Pull Levers', Smithsonian Magazine (smithsonianmag.com), read in full: operant conditioning and reinforcement; the Skinner box; Project Pigeon (a bird trained to peck a spot more than 10,000 times in 45 minutes); the teaching machine (did not stick in schools but resembles later computer-based self-instruction); the Verbal Summator, which he quickly abandoned. The article's passage on a personality-scale study and its air-crib passage were deliberately not used.",
+      "url": "https://www.smithsonianmag.com/science-nature/bf-skinner-the-man-who-taught-pigeons-to-play-ping-pong-and-rats-to-pull-levers-5363946/"
+    },
+    {
+      "id": "src_bfs_chomsky",
+      "kind": "archive",
+      "title": "Noam Chomsky, 'A Review of B. F. Skinner's Verbal Behavior' (Language, 1959; reprinted 1967 with a new preface, chomsky.info), introduction and central argument read: the critique that extending the laboratory concept of the operant to ordinary verbal behaviour leaves no principled way to identify units or response strength; Chomsky's 1967 preface calling Skinner's book the most careful presentation of behaviourist speculation about language and saying it works as a reductio of behaviourist assumptions. Scholarly counter-voice, used only for the intellectual dispute, not for any claim about Skinner as a person.",
+      "url": "https://chomsky.info/1967____/"
+    },
+    {
+      "id": "src_bfs_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'B.F. Skinner at Harvard circa 1950.jpg' (and its cropped version), 'B.F. Skinner.jpg' and 'B.F. Skinner and Robert Epstein.jpg' (wikitext), checked for the portrait's rights: the first is described as 'self-made' by an uploader (GFDL/CC BY 3.0) although it is a c.1950 photograph; the other two are uploader 'own work' CC BY-SA 4.0 claims with no photographer or archive provenance. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:B.F._Skinner_at_Harvard_circa_1950.jpg"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bfs_foundation, src_bfs_britannica, src_bfs_crimson | 1928-1953 | biography + encyclopaedia + campus press] The biography says Skinner built apparatus after apparatus as his rats' behaviour suggested changes, a dozen pieces before inventing the cumulative recorder; Britannica says he used various kinds of experimental equipment he devised to train animals to perform complex actions; the Crimson describes the Harvard Pigeon Lab and his invention of the operant chamber as a graduate student. Repeated, documented building and trying of new experimental set-ups from three source types, though the fullest account is a foundation-style biography, hence moderate confidence. SELF-CALIBRATION (agent): reviewed and kept (the claim is the most directly documented one in the profile and Britannica plus the Crimson are independent of the foundation text)."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bfs_foundation, src_bfs_nsf, src_bfs_britannica, src_bfs_chomsky | 1930-1959 | biography + award body + encyclopaedia + critic] The biography says he found that response rate depended on what followed the response rather than on a preceding stimulus and named it operant behaviour, unlike the reflexes Pavlov studied; the National Medal of Science citation calls his contributions 'basic and imaginative'; Britannica credits him with the Skinner box and programmed learning; Chomsky, a sharp critic, still calls Verbal Behavior the most careful presentation of the behaviourist view. Original methods and concepts are documented; the praise comes partly from admirers and the originality of the broader theory is disputed, so confidence stays moderate. SELF-CALIBRATION (agent): reviewed and kept (the award citation and the critic's acknowledgement are independent of the foundation biography)."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bfs_crimson, src_bfs_foundation, src_bfs_chomsky | 1928-1959 | campus press + biography + critic] The Crimson quotes his autobiography that he worked 'entirely without supervision', never learned to read the psychology literature and was 'doing exactly as I pleased', and the biography says the department and physiology each assumed the other supervised him; Chomsky's review treats his behaviourist position as the product of assumptions he held against a rationalist alternative, and the Crimson notes many of his theories were later criticised and eclipsed. Independence of approach is documented but much of it rests on his own recollections, and it cost him in the language dispute, so inference-level evidence at moderate-low confidence."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bfs_taskpurpose, src_bfs_foundation, src_bfs_smithsonian | 1940-1944 | military-history press + biography + magazine] Task & Purpose says he began experimenting with guiding pigeons in 1940, the military was at first uninterested, a small contract came only in June 1943, and the project was cancelled after the 1944 demonstration (the Navy later revived it as Orcon); the biography records that he sought funding and worked intently on it; Smithsonian reports one bird trained to peck a spot more than 10,000 times in 45 minutes. A documented multi-year effort pursued through initial disinterest, from secondary retellings that largely repeat one history, hence moderate confidence."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bfs_britannica, src_bfs_chomsky, src_bfs_smithsonian | 1938-1971 | encyclopaedia + critic + magazine] Britannica describes his move from animal experiments to a general account of human behaviour in Science and Human Behavior, Verbal Behavior and Beyond Freedom and Dignity and to programmed learning and teaching machines; Smithsonian says the teaching machine broke material into steps with reinforcement; Chomsky argues the extrapolation of the laboratory operant to ordinary language is unjustified. The attempt to extend one framework across domains is documented; its success is contested by the critic, hence dual-edged and strong_inference at moderate confidence."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bfs_britannica, src_bfs_crimson, src_bfs_smithsonian | 1938-1989 | encyclopaedia + campus press + magazine] Britannica records experimental psychology, invention of apparatus, a utopian novel (Walden Two), programmed learning and teaching machines, a language book and a philosophical-social book; the Crimson says he contributed to linguistics, philosophy and education beyond psychology; Smithsonian adds the Verbal Summator, quickly abandoned. Documented spread across research, invention, fiction and education, though most of it is extension of one behavioural framework rather than separate disciplines, so moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "B. F. 스키너"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved after the bounded retry. Wikidata P18 'B.F. Skinner at Harvard circa 1950 (cropped).jpg' (and its uncropped original) is described on Commons as 'self-made' by a uploader (licence GFDL/CC BY 3.0) although it is a c.1950 photograph that the uploader cannot have taken, so authorship and licence are an uploader assertion with doubtful provenance. 'B.F. Skinner.jpg' (CC BY-SA 4.0, 2015, 'own') and 'B.F. Skinner and Robert Epstein.jpg' (CC BY-SA 4.0, 'own', 1980s) are likewise bare uploader claims with no photographer or archive. A mirror mentions a 'Skinner.jpg' from PsychArt tagged as expired copyright, which was not verified and rests on a speculative expiry theory; LIFE (Nina Leen, 1964) photographs are Time Inc. copyright. Next step: identify the original photographer/archive of a Harvard c.1950 or Library of Congress/NARA image, or obtain a licence from the B. F. Skinner Foundation or Harvard University Archives.",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:B.F._Skinner_at_Harvard_circa_1950.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q213195 returned en label 'B.F. Skinner', description 'American behaviorist (1904-1990)', born 1904-03-20, died 1990-08-18; the lead's slug was kept. SLUG/QID CHECK: no existing candidate, production file or src reference for slug b-f-skinner or QID Q213195 in the roster55 worktree. REGION: north_america, nationality US. VOCABULARY: occupations scientist, inventor, scholar; fields natural_science and education (the labelled 'psychology' field does not exist in src/core/i18n although Piaget's candidate uses it, so it was avoided; GAP reported to lead); impact domains scientific/educational/historical; tags theorist, innovator, prolific; archetypes scientific_explorer, technical_innovator, all existing labelled ids. ZERO POLITICS: Walden Two and Beyond Freedom and Dignity are treated as scholarship/fiction, not scored politically; Project Pigeon is a wartime research episode used only for persistence, not for military activity. STRICT EXCLUSIONS: the air-crib/baby tender (involves his child), his children and marriage, the rumours about his daughter, the Smithsonian's personality-scale study, and any inference of motive from private life. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'B.F. Skinner' (https://www.britannica.com/biography/B-F-Skinner), read via an Internet Archive copy. READ (8 cited non-Wikidata sources): Britannica, foundation-style biography, NSF National Medal of Science page, Harvard Crimson feature, Task & Purpose, Smithsonian Magazine, Chomsky's review (introduction and central argument; sections on the rest were skimmed only), Commons file pages. PERSPECTIVES: encyclopaedia; foundation/admirer biography; award body; independent campus journalism with colleague interviews (Kagan, Pinker); military-history journalism; scholarly critic (Chomsky). NOT OPENED: Bjork's 'B. F. Skinner: A Life' (not freely available), APA obituary/Harvard memorial minute (not found), Skinner's own 'Pigeons in a Pelican' and 'A Case History in Scientific Method' (self material, only seen quoted), the Harvard University Archives. Source weakness: no full independent biography was read, so confidence is capped at 0.6. SELF-CALIBRATION pass reviewed experimentation and creative_originality (highest score/confidence) and independent_thinking (self-recollection dependence); none lowered, independent_thinking was already set low and dual-edged."
+  }
+}

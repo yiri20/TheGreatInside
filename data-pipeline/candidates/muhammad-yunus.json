@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "muhammad-yunus",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Muhammad Yunus",
+    "wikidataId": "Q43969",
+    "birthYear": 1940,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "BD"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "economist",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "business",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "entrepreneurial",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator",
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yunus_wikidata",
+      "kind": "wikidata",
+      "title": "Muhammad Yunus (Q43969) -- verified live via the Wikidata API (2026-10-24): English label 'Muhammad Yunus', description 'Bangladeshi banker, Nobel Peace Prize recipient and the former Chief Adviser of Bangladesh', born 1940-06-28, no date of death, citizenship Bangladesh, Korean label '무함마드 유누스'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q43969"
+    },
+    {
+      "id": "src_yunus_nobel_bio",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Muhammad Yunus - Biographical' (nobelprize.org, written at the time of the 2006 Peace Prize award), read in full: he established the Grameen Bank in Bangladesh in 1983 on the belief that credit is a fundamental human right, aiming to help poor people escape poverty with loans on suitable terms; the model began with his personal loans to destitute basket-weavers in the mid-1970s and has been replicated in more than 100 countries; schooling in Chittagong and Dhaka, Fulbright study and a Vanderbilt economics PhD in 1969, then teaching; UN advisory roles on women and finance; list of prizes. CANONICAL SIGNIFICANCE SOURCE. Award-body biography, admiring and contemporary with the prize.",
+      "url": "https://www.nobelprize.org/prizes/peace/2006/yunus/biographical/"
+    },
+    {
+      "id": "src_yunus_nobel_speech",
+      "kind": "award_body",
+      "title": "Nobel Foundation, Award Ceremony Speech for the 2006 Nobel Peace Prize by the Nobel Committee chairman (nobelprize.org), read in full: Yunus returned to Bangladesh in 1972, was shaken by the 1974 famine and asked what the point of economic theory was while people starved, lent 27 dollars to 42 craftsmen in 1976 and then decided an institutional solution was needed; Grameen Bank since 1983 lent almost six billion dollars to nearly seven million borrowers, over 95 per cent of them women, with a high repayment rate; the committee cites female empowerment, development from below and replication in nearly a hundred countries; and a quoted Yunus phrase 'Lend the poor money in amounts which suit them'. Committee statement, retrospective and admiring.",
+      "url": "https://www.nobelprize.org/prizes/peace/2006/ceremony-speech/"
+    },
+    {
+      "id": "src_yunus_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com (Gale), 'Grameen Bank' company-history entry, read in full: the 1976 loan of under 27 dollars to 42 villagers of Jobra; the months of wrangling to obtain a Janata Bank loan with Yunus as guarantor; the iterative design of the lending method (daily payments soon changed to weekly, one-year terms, a group of five, a group fund); the 1978 Krishi Bank arrangement and the 1979-1982 expansion designed to prove the bank did not depend on his charisma; 1983 independent bank; the Sixteen Decisions; housing loans; the Grameen Trust, GrameenPhone with Telenor, Grameen Shakti; setbacks (1991 loan-forgiveness policy and cyclone, 1998 floods); and the notes that critics reported some borrowers take out additional loans to repay and that the bank had to watch 'pipelining' of women's loans to husbands. Business-reference history with a critical aside.",
+      "url": "https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/money-banking-and-investment/grameen-bank-bhaban"
+    },
+    {
+      "id": "src_yunus_mandela_foundation",
+      "kind": "institution",
+      "title": "Nelson Mandela Foundation, 'Professor Muhammad Yunus' biography page (nelsonmandela.org; Yunus was a founding member of The Elders), read in full: family and education, Fulbright and Vanderbilt PhD, teaching at Middle Tennessee State, return in 1972, the Rural Economics Programme and 1975 three-share farm project, the 1976 Jobra loans and December 1976 Janata Bank credit line, the 1983 conversion to Grameen Bank, 7.5 million borrowers (97 percent women) by May 2008, the Grameen group of companies and Grameen Trust, and awards. Institutional biography, admiring and based on Yunus-side information.",
+      "url": "https://www.nelsonmandela.org/muhammad-yunus-bio"
+    },
+    {
+      "id": "src_yunus_banerjee_rct",
+      "kind": "institution",
+      "title": "Abhijit Banerjee, Esther Duflo, Rachel Glennerster and Cynthia Kinnan, 'The miracle of microfinance? Evidence from a randomized evaluation' (MIT Department of Economics / J-PAL working paper, June 2010, later published in American Economic Journal: Applied Economics 2015), abstract and introduction read: the first randomized evaluation of introducing microcredit in a new market (104 Hyderabad slums, Spandana, not Grameen Bank); 15-18 months on, no effect on average monthly expenditure per capita, more durable-goods spending, new businesses up by one third, and no impact on health, education or women's decision-making. Independent academic evidence on microcredit in general, used as a counter-voice to claims about poverty reduction, not as evidence of Yunus's own conduct.",
+      "url": "https://conference.nber.org/confer/2010/BREAD/Banerjee_Duflo_Glennerster_Kinnan.pdf"
+    },
+    {
+      "id": "src_yunus_bateman",
+      "kind": "press",
+      "title": "Milford Bateman, 'Has the microfinance bubble really burst?' (Oxfam 'From Poverty to Power' blog, c. 2011), read in full: a critic's case that independent, rigorous evaluations have been unable to show meaningful poverty reduction from microfinance, that much lending goes to consumption at high interest rates, that Bangladesh and Jobra village remain poor, and that microenterprise failure can leave clients poorer; also notes the then-current dispute over Yunus's leadership of Grameen Bank, which was NOT scored. Critic's position, partisan in tone; targets the industry more than Yunus's own conduct.",
+      "url": "https://frompoverty.oxfam.org.uk/?p=5161"
+    },
+    {
+      "id": "src_yunus_roodman",
+      "kind": "press",
+      "title": "David Roodman, 'Why Doesn't Microfinance Work?' reply post on the Center for Global Development blog (cgdev.org), read in full: Roodman's response to a defence of Bateman's book, standing by his criticism that Bateman is careless with evidence and offering examples (for instance that Grameen's mandatory savings requirement was 5 per cent from the start rather than a 2001 change); notes that GrameenPhone's marginal returns to additional 'phone ladies' fell as they multiplied; and stresses he is not claiming Yunus never self-aggrandized or that evaluators always see clearly. Independent expert commentary that critiques both advocates and a critic.",
+      "url": "https://www.cgdev.org/node/3074463"
+    },
+    {
+      "id": "src_yunus_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Muhammad Yunus (cropped).jpg' (wikitext and API record) and the live Flickr photo page 'Professor Muhammad Yunus: Building Social Business Summit' by the University of Salford account, checked for the portrait's licence: photographed 18 May 2013 at a University of Salford summit, uploaded to Flickr by the University of Salford Press Office, tagged CC BY 2.0 with a Flickr licence review dated 5 September 2024; the live Flickr page shows the Attribution 2.0 licence; the cropped derivative is 3000 x 3148. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Muhammad_Yunus_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yunus_nobel_speech, src_yunus_nobel_bio, src_yunus_encyclopedia, src_yunus_mandela_foundation | 1974-2006 | award body + award body + business reference + institution] The Nobel speech records that the 1974 famine shook him and made him ask what economic theory was for, and that in 1976 he lent 27 dollars from his own pocket to 42 craftsmen and then built an institution; the Nobel biography and encyclopedia entry document three decades of building the bank and its replication. The orientation is consistently documented, but the accounts are admiring and partly built on his own telling, and the evaluation evidence (Banerjee et al., Bateman) shows the poverty-reduction outcome of microcredit is contested, so motivation is scored at moderate confidence and the outcome is not scored. RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 78 / 0.62 to 74 / 0.54 because all post-1983 behavioural detail comes from admiring institutional pages (Nobel, Mandela Foundation, Grameen histories) with no independent behavioural narrative."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yunus_encyclopedia, src_yunus_nobel_speech, src_yunus_nobel_bio, src_yunus_banerjee_rct | 1976-1990s | business reference + award body + award body + academic study] The entry documents a collateral-free lending design (group of five, a group fund, weekly payments, a majority-women clientele); the Nobel committee says loans to the poor without security had appeared impossible and that Grameen became a source of models for institutions worldwide; the academic study shows later microcredit models spread widely, though with mixed results. Original and widely copied, but credit for the wider microfinance field is shared and the committee language is retrospective, so a moderate confidence."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yunus_encyclopedia, src_yunus_mandela_foundation, src_yunus_nobel_speech | 1976-1983 | business reference + institution + award body] After seeing the Jobra villagers' debts he lent them money personally, then spent months pressing traditional banks that did not consider the poor creditworthy until Janata Bank agreed with him as guarantor, and later turned the pilot into an independent bank in 1983. Three sources agree on the sequence; the episode is concrete and cross-checked, though two of them draw on Yunus-side accounts. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 78 / 0.62 to 74 / 0.54 because same institutional-praise concentration; the origin story is partly his own account."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yunus_encyclopedia, src_yunus_mandela_foundation | 1976-1998 | business reference + institution] The entry describes months of wrangling to obtain the first bank loan, signing personally as guarantor for loans until 1978, continued growth after the 1991 government loan-forgiveness policy and cyclone, and his scramble for outside support after the 1998 floods that destroyed half of borrowers' shelters. Sustained effort through setbacks is documented by two sources, mainly institutional and friendly, so moderate confidence."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yunus_encyclopedia, src_yunus_mandela_foundation | 1976-1984 | business reference + institution] The entry says he designed a lending method for his clients, with minuscule daily payments soon changed to weekly to reduce accounting load, a group-of-five structure, a 1978 arrangement with Krishi Bank, and a 1979-1982 five-district expansion built to prove the bank did not depend on his personal charisma, followed by housing loans and new products; the Mandela Foundation page confirms the staged pilot-to-bank path. Iterative testing of a method is concretely documented; the sources are admiring and do not give evaluation data, so moderate confidence."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_yunus_encyclopedia, src_yunus_mandela_foundation, src_yunus_roodman | 1997-2000s | business reference + institution + expert commentary] He moved from lending into businesses such as GrameenPhone with Telenor (village phones sold by borrowers), Grameen Shakti and Grameen Trust to extend the model; Roodman notes the marginal return to additional 'phone ladies' fell as their numbers grew, and the entry describes the phone venture as a way for borrowers to resell airtime in their villages. Documented pattern of extending the model into new ventures with mixed results, so dual-edged at a low-to-moderate confidence."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_yunus_encyclopedia, src_yunus_nobel_speech, src_yunus_bateman, src_yunus_banerjee_rct | 1986-2006 | business reference + award body + critic + academic study] The entry records Clinton's request to set up a similar programme in Arkansas, his 1987 congressional testimony, funding from the MacArthur and Soros foundations and the IFAD loan, and the committee cites replication in nearly a hundred countries; Bateman and the Hyderabad study argue that the promotional case for microcredit outran the evidence. Documented success in winning backers, with the dual edge that critics say the claims were stronger than the evaluations, so dual-edged at moderate confidence."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yunus_encyclopedia, src_yunus_nobel_speech, src_yunus_mandela_foundation | 1983-2006 | business reference + award body + institution] He led Grameen from a pilot to a bank with nearly seven million borrowers and more than 2,500 branches by 2008 and set up the Grameen Trust and a family of companies, and the Nobel chairman calls him a leader who turned visions into practical action. Scale and sustained leadership are well documented; organisational governance disputes after 2006 are outside this profile's scope and are not scored, and the sources are admiring, hence moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "무함마드 유누스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/muhammad-yunus-salford-2013.jpg",
+    "width": 1144,
+    "height": 1200,
+    "source": "Wikimedia Commons 'Muhammad Yunus (cropped).jpg' (derivative of 'Professor Muhammad Yunus- Building Social Business Summit (8758300102).jpg'), photograph by the University of Salford Press Office, 18 May 2013, from the University of Salford Flickr account (photo 8758300102), tagged CC BY 2.0 and Flickr-reviewed on Commons on 5 September 2024; the live Flickr page shows the Attribution 2.0 licence. The Commons crop is 3000 x 3148 and was downscaled only (never upscaled) to 1144 x 1200.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: University of Salford Press Office, 2013, CC BY 2.0",
+    "attributionUrl": "https://www.flickr.com/photos/salforduniversity/8758300102/",
+    "creator": "University of Salford Press Office",
+    "date": "2013-05-18",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Muhammad_Yunus_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q43969 returned en label 'Muhammad Yunus', description 'Bangladeshi banker, Nobel Peace Prize recipient and the former Chief Adviser of Bangladesh', born 1940-06-28, no death date, ko label '무함마드 유누스', citizenship Bangladesh; other 'Muhammad Yunus' entities (Indonesian politicians) rejected. SLUG/QID CHECK: no candidate file or src/data reference for slug muhammad-yunus or QID Q43969 in the roster55 worktree. REGION south_asia, nationality BD. ZERO POLITICS: the primary identity is economist and founder of Grameen Bank (microcredit); the Wikidata description now leads with banker, Nobel laureate and former Chief Adviser, but the 2007 party attempt and the 2024-2026 interim government role are POLITICAL and unscored, noted as context only; his later legal disputes and the Grameen leadership dispute are outside scope. The Nobel Peace Prize is a secondary honour (and shared with Grameen Bank). LIVING SUBJECT: only public documented professional behaviour in 1974-2006 is scored; no family, health, allegations, motives. VOCABULARY: economist, entrepreneur; fields business, social_reform; tags founder, innovator, nobel_laureate; archetype entrepreneurial_builder are existing ids with EN+KO labels (banker, microfinance, social entrepreneur have no labels and were not used). CANONICAL SIGNIFICANCE SOURCE: Nobel Foundation 'Muhammad Yunus - Biographical' (https://www.nobelprize.org/prizes/peace/2006/yunus/biographical/). READ (8 non-Wikidata sources): Nobel biography, Nobel ceremony speech, Encyclopedia.com Grameen Bank history, Nelson Mandela Foundation biography, Banerjee/Duflo/Glennerster/Kinnan randomized study (abstract and introduction), Bateman's Oxfam blog, Roodman's CGD reply post. NOT opened: Yunus's own books and Nobel lecture (self material, a lecture page was fetched but not used), Karnani's SSIR article (paywalled, only a fragment seen), Roodman's 'Due Diligence' and the Bateman book itself, Morduch and Rahman papers (cited only by a secondary review and so not used), any independent biography. PERSPECTIVES: award body; business reference history; institution; academic evaluation; critic (Bateman); expert counter-critic (Roodman). COUNTER-VOICES: Bateman and the Hyderabad study on microcredit's weak poverty evidence, the encyclopedia's note on re-borrowing and pipelining, Roodman on phone-lady returns. EXCLUDED: Grameen leadership dispute and legal matters, the 2007 party and 2024 government role, the 1971 liberation-war activism noted in two sources (political), family, health. CALIBRATION: behavioural evidence is institutional and admiring with thin independent behavioural coverage after 1983, so the highest score is 78 and the highest confidence 0.62; eight rows, no padding. SELF-CALIBRATION (agent): reviewed impact_motivation (kept 78/0.62: three sources agree, outcome not scored), proactive_agency (kept 78/0.62: concrete cross-checked 1976-83 sequence) and persuasiveness (kept 70/0.52, already dual-edged); no rows lowered. BROAD FLAG: all behavioural detail after 1983 comes from admiring institutional pages; the lead may want an independent narrative source (for example a scholarly Grameen history) before relying on leadership_drive or opportunity_sensing. PORTRAIT: University of Salford Press Office photo, CC BY 2.0, Flickr page live-checked and Commons-reviewed, no conflicting account-level notice seen; downscaled from 3000 x 3148. RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 78 / 0.62 to 74 / 0.54 because all post-1983 behavioural detail comes from admiring institutional pages (Nobel, Mandela Foundation, Grameen histories) with no independent behavioural narrative. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 78 / 0.62 to 74 / 0.54 because same institutional-praise concentration; the origin story is partly his own account."
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-mccarthy",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John McCarthy",
+    "aliases": [
+      "John McCarthy (computer scientist)"
+    ],
+    "wikidataId": "Q92739",
+    "birthYear": 1927,
+    "deathYear": 2011,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "computing",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "early_computing"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mccarthy_wikidata",
+      "kind": "wikidata",
+      "title": "John McCarthy (Q92739) -- verified live via the Wikidata API (2026-10-24): English label 'John McCarthy', description 'American computer scientist and cognitive scientist (1927-2011)', born 1927-09-04, died 2011-10-24, citizenship United States, Korean label '존 매카시', P18 image 'John McCarthy Stanford.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q92739"
+    },
+    {
+      "id": "src_mccarthy_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, 'John McCarthy' Fellow profile (computerhistory.org), read in full: the museum's summary of the 1971 Turing Award citation field (artificial intelligence and timesharing systems), that he coined 'AI' in 1955 for a proposed Dartmouth summer workshop, invented the Lisp programming language in 1958, proposed timesharing at MIT, became founding director of the Stanford Artificial Intelligence Laboratory in 1965, and played in computer chess events including the 1967 Stanford-ITEP match; also records a computer-chess bet with David Levy that Levy won. CANONICAL SIGNIFICANCE SOURCE. Institutional profile, retrospective.",
+      "url": "https://computerhistory.org/profile/john-mccarthy/"
+    },
+    {
+      "id": "src_mccarthy_kyoto",
+      "kind": "award_body",
+      "title": "Inamori Foundation, '1988 Kyoto Prize Laureates: John McCarthy' (kyotoprize.org), achievement digest and citation read in full: 'the Father of Artificial Intelligence'; Lisp, a language for symbolic processing, called the greatest invention of the century in computer science; his foremost achievement the study of common-sense reasoning, formalizing a logic of inference for machines; proposed the basic concept of time sharing; established the first AI research project at MIT in 1958 and the AI laboratory at Stanford; president of AAAI from 1983. Award-body citation, retrospective and admiring.",
+      "url": "https://www.kyotoprize.org/en/laureates/john_mccarthy/"
+    },
+    {
+      "id": "src_mccarthy_stanford",
+      "kind": "institution",
+      "title": "Stanford Report, 'Stanford's John McCarthy, seminal figure of artificial intelligence, dies at 84' (news.stanford.edu, 25 October 2011), read in full: the 1955 Dartmouth proposal (first publication use of 'artificial intelligence'); LISP in 1958; time-sharing; the 1966 telegraph chess matches against Soviet rivals (two lost, two drawn); Les Earnest on time-sharing ('nobody except John'), on his intense focus and habit of turning away from uninteresting topics; Ed Feigenbaum, recruited by him, on his bluntness, kindness to students and focus on inventing; Bill Gosper on why he revived an interstellar-travel paper; his wish to bring scientific rigor to every aspect of life; director of the Stanford AI Lab 1965-1980. University obituary, written with colleague quotations; admiring. Family and personal-life passages deliberately not used.",
+      "url": "https://news.stanford.edu/2011/10/25/stanfords-john-mccarthy-seminal-figure-artificial-intelligence-dies-84/"
+    },
+    {
+      "id": "src_mccarthy_ieee",
+      "kind": "institution",
+      "title": "IEEE Computer Society, 'John McCarthy (1927-2011)' (history.computer.org), read in full: career chronology (Caltech, Princeton, Dartmouth, MIT, Stanford; director of the Stanford AI Laboratory 1965-1980), honours (1971 Turing Award, 1985 IJCAI Research Excellence Award, 1988 Kyoto Prize, 1990 National Medal of Science), his focus on formalizing common-sense knowledge, circumscription from 1978, and program-correctness work from the early 1960s. A factual pioneer profile with no behavioural detail; used only for chronology and research themes.",
+      "url": "https://history.computer.org/mccarthy.html"
+    },
+    {
+      "id": "src_mccarthy_techreview",
+      "kind": "press",
+      "title": "MIT Technology Review, 'Computing Pioneer Dies' (technologyreview.com, 25 October 2011), read in full: the 1955 proposal with Minsky, Rochester and Shannon, Lisp's programs-and-data-in-one-notation design, Project MAC and time-sharing as a step toward utility computing, Minsky on the speed-up from time-sharing and on McCarthy pushing to get more people using fewer computers, Fernando Corbato on his articulate explanation of interactive computing and 'sharp and incisive mind', and McCarthy's 2006 slides admitting human-level AI was harder than it seemed in 1955. Journalistic obituary with named colleagues; admiring.",
+      "url": "https://www.technologyreview.com/2011/10/25/190300/computing-pioneer-dies/"
+    },
+    {
+      "id": "src_mccarthy_crevier",
+      "kind": "press",
+      "title": "Daniel Crevier, 'AI: The Tumultuous History of the Search for Artificial Intelligence' (Basic Books, 1993), McCarthy profile and the Dartmouth, LISP, time-sharing, MIT/Stanford and frame-problem passages read in full from a full-text copy of the book (pdf.stafforini.com): colleagues' view of his concentration; his long silences and Hans Moravec's comment that he communicates well mainly with graduate students in his areas; his high standards and short publication list; that the Dartmouth conference deeply disappointed him as organizer; that he persuaded participants to adopt the name 'artificial intelligence' over Samuel's and Newell and Simon's objections while laying no claim to coining the phrase; LISP drawing on IPL; years spent with Corbato convincing manufacturers to take time-sharing seriously; his faithfulness to formal logic as Minsky became the champion of the antilogic branch; his 1962 departure to head his own AI laboratory at Stanford; the founding goal of building a fully intelligent machine in a decade that Crevier says was not met. Journalistic history based on interviews with participants, independent of McCarthy; includes critical remarks. Political and family passages deliberately not used.",
+      "url": "https://pdf.stafforini.com/crevier-1995-aitumultuous-history.pdf"
+    },
+    {
+      "id": "src_mccarthy_weizenbaum",
+      "kind": "archive",
+      "title": "Joseph Weizenbaum, 'A Response to John McCarthy' (16 April 1976, SAILDART archive copy of the Stanford AI Lab file WEIZEN.ANS), read in full: Weizenbaum's reply to McCarthy's review of his book 'Computer Power and Human Reason', accusing the review of misreading the book's main points, of attributing it to 'new left' ideology and of irrelevant political association, and disagreeing about machine-administered psychotherapy. An adversarial, partisan primary reply used only as the counter-voice on McCarthy's polemical manner in debate; McCarthy's own review text was NOT opened, so what it said is known only through this reply and Kuipers.",
+      "url": "https://www.saildart.org/WEIZEN.ANS[PUB,JMC]"
+    },
+    {
+      "id": "src_mccarthy_kuipers",
+      "kind": "archive",
+      "title": "Benjamin Kuipers, 'Reactions to Weizenbaum's Book' (web.eecs.umich.edu/~kuipers/opinions/Weizenbaum.html, written 1976 as an MIT AI Lab graduate student, annotated 2023), read in full: says the ACM SIGART Newsletter (June 1976) published his reaction with a 'much more negative review by John McCarthy' and a reply from Weizenbaum, and himself finds Weizenbaum's attacks on the AI community shrill while valuing some of his concerns. Third-party, neutral-to-critical on both sides; used only to corroborate that McCarthy's review was strongly negative.",
+      "url": "https://web.eecs.umich.edu/~kuipers/opinions/Weizenbaum.html"
+    },
+    {
+      "id": "src_mccarthy_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'John McCarthy 2006.jpg' (wikitext and API record), checked for the portrait's licence: photograph by Tom Varco ('Own' work), taken 21 April 2006 after a lecture at the University at Buffalo, CC BY-SA 3.0 with attribution to 'Tom Varco' required; original 1600 x 1200. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:John_McCarthy_2006.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mccarthy_kyoto, src_mccarthy_chm, src_mccarthy_crevier, src_mccarthy_techreview | 1955-1965 | award body + museum + journalistic history + obituary] The Kyoto citation credits him with Lisp and a formal logic of common-sense reasoning, the museum credits Lisp, timesharing and the AI workshop, and Crevier independently describes Lisp and time-sharing as two major breakthroughs within about five years. The ideas were original and are widely recognised, but the praise is largely retrospective, Crevier says Lisp drew partly on the IPL language and Crevier credits time-sharing to McCarthy together with Corbato. SELF-CALIBRATION (agent): first-pass 82 / 0.70 lowered to 78 / 0.64 because credit for Lisp's inspiration and for time-sharing is explicitly shared and the strongest wording is retrospective award language."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mccarthy_techreview, src_mccarthy_kyoto, src_mccarthy_crevier, src_mccarthy_ieee | 1958-1980s | obituary + award body + journalistic history + chronology] Lisp let programs and data share one notation so programs could process other programs; Kyoto describes a language for symbolic processing; his long programme was to formalize common-sense knowledge in logic (circumscription from 1978) and to prove programs meet specifications. The pattern of building general formal frameworks is well documented, though no source describes his abstraction habits behaviourally, hence strong inference."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mccarthy_stanford, src_mccarthy_kyoto, src_mccarthy_ieee, src_mccarthy_crevier | 1950s-2000s | university obituary + award body + chronology + journalistic history] Stanford says he wanted to bring scientific rigor to every aspect of life; Kyoto and the IEEE profile describe his formal-logic treatment of common sense and program correctness; Crevier ties his high intellectual standards to his short publication list and dissatisfaction with others' work. Consistent across independent sources, but the 'rigor to every aspect' line is a colleague's retrospective characterisation."
+    },
+    "deep_focus": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_mccarthy_stanford, src_mccarthy_crevier | 1960s-1980s | colleague quotations in a university obituary + journalistic history from interviews] Les Earnest said he was very focused and would sometimes turn away silently from topics he was not interested in; Crevier reports his ability to dive into a problem through sheer concentration as legendary, together with long silences in conversation and Hans Moravec's remark that he communicated well mainly with graduate students in his areas. Two independent sources converge; the cost in communication makes it dual-edged."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mccarthy_crevier, src_mccarthy_kyoto, src_mccarthy_ieee, src_mccarthy_techreview | 1958-2000s | journalistic history + award body + chronology + obituary] Crevier says he remained faithful to his initial conviction that formal logic was the way to AI while others moved to other approaches, and it took him and Corbato years to convince manufacturers to take time-sharing seriously; the IEEE and Kyoto sources show common-sense reasoning as a decades-long programme, and his 2006 slides concede that human-level AI was harder than expected. Long-run pattern documented across sources; dual-edged because Crevier also reports the founding goal of a fully intelligent machine in a decade was not met."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mccarthy_crevier, src_mccarthy_techreview | 1950s-1970s | journalistic history + obituary] Crevier says that when others were overly enthusiastic about imminent AI he kept a cool head and predicted difficulties (common sense and language understanding), and that he stayed with logic-based AI as Minsky championed the antilogic branch. Indicates intellectual independence from field fashion, but the evidence is a historian's characterisation plus the choice of method rather than a documented decision episode."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mccarthy_crevier, src_mccarthy_chm, src_mccarthy_kyoto, src_mccarthy_stanford | 1955-1965 | journalistic history + museum + award body + university] Crevier reports that with Minsky he persuaded the Rockefeller Foundation to fund the 1956 Dartmouth workshop he organised; the museum, Kyoto and Stanford sources show him starting the first AI research project at MIT in 1958 and founding the Stanford AI Laboratory, which he directed 1965-1980, and Earnest says he alone made general-purpose time-sharing work. Consistent initiative-taking across independent sources."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mccarthy_crevier, src_mccarthy_techreview | 1956-1963 | journalistic history + obituary] Crevier says he persuaded the Dartmouth majority to adopt the name 'artificial intelligence' over objections by Samuel and by Newell and Simon, and spent years with Corbato convincing manufacturers; Corbato praised his articulate explanation of the interactive-computing vision. Moravec's remark that he communicates poorly outside his own area limits the score to a good rather than strong level."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mccarthy_crevier, src_mccarthy_techreview, src_mccarthy_stanford | 1958-1980 | journalistic history + obituary + university] He worked closely with Minsky at MIT (the pair was called 'Minsky-and-McCarthy') and with Corbato on time-sharing, recruited colleagues such as Feigenbaum to Stanford, and Feigenbaum calls him kind and generous with students; against this, the two MIT leaders drifted apart, and Crevier and Moravec describe long silences and difficulty communicating outside his specialty. Mixed evidence, hence a modest score."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mccarthy_weizenbaum, src_mccarthy_kuipers, src_mccarthy_stanford | 1976 | adversary's reply + third-party note + colleague quotation] Weizenbaum's reply describes McCarthy's review of his book as attributing its positions to 'new left' ideology and misreading its main points, and Kuipers independently calls McCarthy's review much more negative than his own; Feigenbaum says McCarthy could be blunt. McCarthy's own review text was not opened and the main account is from his adversary, so the evidence is partial and confidence is low. SELF-CALIBRATION (agent): first-pass 66 / 0.52 lowered to 62 / 0.46 because the specific content of the review is known only through its critic and a brief third-party note."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-mccarthy-varco-2006.jpg",
+    "width": 1200,
+    "height": 900,
+    "source": "Wikimedia Commons 'John McCarthy 2006.jpg': photograph by Tom Varco (own work uploaded by the author), taken 21 April 2006 after a lecture at the University at Buffalo; licence CC BY-SA 3.0 stated by the author with attribution to 'Tom Varco' required (a notification request is not a condition). Original 1600 x 1200; downscaled once to 1200 x 900 (no upscaling). The Wikidata P18 image (Flickr 'null0', CC BY-SA 2.0) was NOT used: its Flickr source page now returns 404, so the licence could not be re-checked at the origin, and the author-uploaded file was legally clearer.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Tom Varco, 2006, CC BY-SA 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:John_McCarthy_2006.jpg",
+    "creator": "Tom Varco",
+    "date": "2006-04-21",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:John_McCarthy_2006.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 매카시"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID verified live (Wikidata wbgetentities 2026-10-24): Q92739, en label 'John McCarthy', description 'American computer scientist and cognitive scientist (1927-2011)', born 1927-09-04, died 2011-10-24, ko label '존 매카시'; lead's hint not given, QID found via wbsearchentities and checked. No existing candidate file or src reference for slug john-mccarthy or QID Q92739. Region north_america (US). Vocabulary: computer_scientist, mathematician, fields computing and mathematics, tags innovator and early_computing, archetype technical_innovator are existing labelled ids (cf. Alan Kay). ZERO POLITICS: nothing political scored; Crevier's passages on his family's and his own political affiliations, the 1966 privacy proposal and cold-war remarks, and Stanford's family details are deliberately excluded. Deceased, so ordinary historical evidence rules apply, no health or private life used. CANONICAL SIGNIFICANCE SOURCE: Computer History Museum Fellow profile (https://computerhistory.org/profile/john-mccarthy/), cross-checked against the Kyoto Prize citation. READ (9 cited non-Wikidata sources plus portrait record): CHM profile, Kyoto Prize citation, Stanford Report obituary, IEEE Computer Society profile, MIT Technology Review obituary, Crevier's book passages (full-text copy), Weizenbaum's 1976 reply, Kuipers' note. NOT OPENED: ACM Turing Award page (blocked by bot protection), New York Times obituary (blocked), Britannica (403), McCarthy's own 1976 review of Weizenbaum and his own papers/website (self material, deliberately not used as support), Wikipedia. PERSPECTIVES: award body (Kyoto), museum and professional society (CHM, IEEE), university obituary with colleague quotations (Stanford), journalistic history from participant interviews (Crevier, independent), press obituary (Technology Review), adversary and third-party voices (Weizenbaum, Kuipers). COUNTER-VOICES: Crevier on communication difficulty and the unmet decade goal, Moravec's quoted remark, Weizenbaum's attack on his review, Kuipers' note. CALIBRATION: ten rows, highest score 78 and highest confidence 0.66; evidence about daily behaviour is concentrated in two colleague/historian accounts, so no extreme scores. SELF-CALIBRATION (agent): rows reviewed: creative_originality, deep_focus, conflict_tolerance. Lowered: creative_originality (82/0.70 to 78/0.64: shared credit and retrospective award language) and conflict_tolerance (66/0.52 to 62/0.46: McCarthy's review known only via its critic). Kept: deep_focus (two independent sources). BROAD FLAG: behavioural evidence for everyday working style comes mainly from Crevier and the Stanford obituary; a read of Earnest's or McCarthy's students' accounts would deepen it. PORTRAIT: Tom Varco photo, author-uploaded, CC BY-SA 3.0, 1600x1200 downscaled to 1200x900; Wikidata's P18 not used because its Flickr origin is gone."
+  }
+}

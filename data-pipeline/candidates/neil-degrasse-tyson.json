@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "neil-degrasse-tyson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Neil deGrasse Tyson",
+    "wikidataId": "Q310903",
+    "birthYear": 1958,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["astrophysicist", "writer"],
+    "fieldIds": ["natural_science", "physics"],
+    "impactDomains": ["scientific", "educational", "cultural"],
+    "tagIds": ["communicator"],
+    "archetypeIds": ["scientific_explorer", "social_influencer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tyson_wikidata",
+      "kind": "wikidata",
+      "title": "Neil deGrasse Tyson (Q310903) -- verified live via the Wikidata API (2026-10-24): English label 'Neil deGrasse Tyson', description 'American astrophysicist and science communicator', born 1958-10-05, no death date, P18 image 'Neil deGrasse Tyson in June 2017 (cropped).jpg' used as the portrait. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q310903"
+    },
+    {
+      "id": "src_tyson_amacad",
+      "kind": "institution",
+      "title": "American Academy of Arts and Sciences, member biography 'Neil deGrasse Tyson' (amacad.org), read in full: Frederick P. Rose Director of the Hayden Planetarium and research associate in astrophysics at the American Museum of Natural History; BA physics Harvard, PhD astrophysics Columbia; elected to the Academy in 2015; monthly essays for Natural History magazine 1995-2005 and about 15 books; host of Origins (2004), NOVA ScienceNOW (five seasons from 2006), Cosmos (2014) and Cosmos: Possible Worlds (2020); creator of StarTalk; Cosmos (2014) won four Emmys and a Peabody; 21 honorary doctorates, NASA Distinguished Public Service Medal. CANONICAL SIGNIFICANCE SOURCE. The page's government-commission and personal-honour entries were not scored.",
+      "url": "https://www.amacad.org/person/neil-degrasse-tyson"
+    },
+    {
+      "id": "src_tyson_biography",
+      "kind": "biography",
+      "title": "Biography.com, 'Neil deGrasse Tyson' (biography.com), read in full: Harvard physics and Columbia astrophysics doctorate (1991); Hayden Planetarium from 1996, director, leading a $210 million renovation completed in 2000 that involved design work and fundraising; the Pluto exhibit decision and public objections, with the IAU dwarf-planet classification in 2006; NOVA ScienceNow 2006-2011; Cosmos 2014 as host and executive editor; StarTalk since 2009 and its TV spin-offs; books. Popular biography, read for orientation and behaviour; the government-service lines were not scored.",
+      "url": "https://www.biography.com/scientists/neil-degrasse-tyson"
+    },
+    {
+      "id": "src_tyson_calacademy",
+      "kind": "institution",
+      "title": "California Academy of Sciences speaker biography 'Neil deGrasse Tyson' (calacademy.org), read in full: Frederick P. Rose Director of the Hayden Planetarium and research associate in astrophysics at the American Museum of Natural History; NOVA ScienceNow 2006-2011, frequent guest on late-night and talk programmes, StarTalk radio since 2009, Cosmos: A Spacetime Odyssey from 2014. Institutional speaker bio, promotional by nature.",
+      "url": "https://www.calacademy.org/speaker/neil-degrasse-tyson"
+    },
+    {
+      "id": "src_tyson_pluto_review",
+      "kind": "press",
+      "title": "Times Higher Education, review of 'The Pluto Files' (timeshighereducation.com), read in full: a January 2001 New York Times article noted Pluto missing from the Rose Centre exhibit; Tyson became a public face of the controversy; the reviewer, an astronomer who attended the 2006 IAU meeting, calls him 'not a humble man' but a gifted speaker, writer and popularizer of astronomy, and suspects his part was sometimes overstated; the book is judged entertaining but less a scientific explanation than a look at the cultural reaction. Independent professional reviewer; the 'not a humble man' remark is a personality judgment and was not scored.",
+      "url": "https://www.timeshighereducation.com/node/81570"
+    },
+    {
+      "id": "src_tyson_pluto_preface",
+      "kind": "institution",
+      "title": "Neil deGrasse Tyson's own preface to 'The Pluto Files' (neildegrassetyson.com, 2009), read in full: the Rose Center opened in February 2000 with exhibits grouping objects by shared properties, placing Pluto with icy outer-solar-system objects; Tyson chaired the committee that designed the exhibits and as planetarium director became the most visible spokesperson; a front-page New York Times story about a year after opening; he was 'branded a public enemy of Pluto lovers', says the committee shared accountability; the August 2006 IAU vote moved attention away from the Rose Center. SELF-TESTIMONY: used only alongside the independent review.",
+      "url": "https://neildegrassetyson.com/book/2009-01-pluto-files-preface/"
+    },
+    {
+      "id": "src_tyson_pigliucci",
+      "kind": "press",
+      "title": "Massimo Pigliucci, 'Neil deGrasse Tyson and the value of philosophy' (Scientia Salon, 12 May 2014), read only as the introductory excerpt reposted by 3 Quarks Daily (3quarksdaily.com): Pigliucci, a philosopher and scientist who calls Tyson 'my friend', writes that Tyson dismissed philosophy as a useless enterprise and advised bright students to stay away from it, calls this egregious for such a visible science communicator and says he had told Tyson not to make such comments several times. COUNTER-VOICE on public statements only; the full essay and Tyson's own remarks were not opened, so the rows rely on it only for a caution.",
+      "url": "https://3quarksdaily.com/?p=14931"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_tyson_pluto_review, src_tyson_amacad, src_tyson_biography | 1995-2020 | astronomer's book review + Academy bio + biography] The reviewing astronomer calls him a gifted speaker, writer and popularizer of astronomy; the Academy bio records monthly essays 1995-2005, about 15 books, several television series and a Peabody-winning Cosmos. The reach is well documented; the quality judgment rests on one reviewer plus awards, and a critic disputes some of his public statements, so confidence is moderate."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_tyson_amacad, src_tyson_biography, src_tyson_calacademy | 1995-2020 | Academy bio + biography + museum-linked speaker bio] Sustained public-facing science work over decades: Natural History essays, NOVA ScienceNOW, StarTalk since 2009, Cosmos in 2014 and 2020, and leading the planetarium renovation. Documented by three institutional or biographical sources that are partly promotional, and none states his motives, so only the pattern of sustained public-oriented output is scored."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_tyson_pluto_review, src_tyson_pluto_preface, src_tyson_biography | 2000-2009 | astronomer's review + his own preface + biography] The Rose Center exhibit he oversaw left Pluto out of the planet displays; after the 2001 press story he became its public face, faced public objections and later wrote The Pluto Files about it. The episode shows professional exposure to public criticism, but the reviewer thinks his role may be overstated and the response is mostly known from his own account, so the row is modest."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_tyson_amacad, src_tyson_calacademy, src_tyson_pigliucci | 1995-2020 | Academy bio + speaker bio + critical essay excerpt] Astrophysics research and museum leadership combined with writing, broadcasting and comedy-programme appearances; a philosopher critic says he dismissed philosophy as useless in public remarks, a caution against crediting breadth beyond science and media. The critique is known only from an introductory excerpt, so the score is held mid-range."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "닐 디그래스 타이슨"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/neil-degrasse-tyson-nielsen-2017.jpg",
+    "width": 831,
+    "height": 1200,
+    "source": "Wikimedia Commons 'Neil deGrasse Tyson in June 2017 (cropped).jpg': photograph by Thor Nielsen / NTNU (Norwegian University of Science and Technology) at the Starmus IV Stephen Hawking Science Medal ceremony, Trondheim, 20 June 2017, published on NTNU's official Flickr account under CC BY-SA 2.0 (Commons FlickreviewR passed 2017-12-11; a Wayback copy of the Flickr page captured 2020-06-02 shows the CC BY-SA 2.0 licence and NTNU's caption naming Tyson; the live Flickr page now returns 404). Crop of the Commons original; file 1752 x 2531, saved downscaled only to 831 x 1200.",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Photo: Thor Nielsen / NTNU, 2017, CC BY-SA 2.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Neil_deGrasse_Tyson_in_June_2017_(cropped).jpg",
+    "creator": "Thor Nielsen / NTNU",
+    "date": "2017-06-20",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Neil_deGrasse_Tyson_in_June_2017_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: the lead's hint was not provided; Wikidata wbsearchentities then wbgetentities (2026-10-24) for Q310903 returned en label 'Neil deGrasse Tyson', description 'American astrophysicist and science communicator', born 1958-10-05, no death date. SLUG/QID CHECK: no candidate file or src/data/people entry for neil-degrasse-tyson or Q310903 in the roster55 worktree. REGION: north_america (US). VOCABULARY: occupations astrophysicist and writer, fields natural_science and physics, tag communicator, archetypes scientific_explorer and social_influencer have labels; occupation science_communicator (used by carl-sagan) has NO label in src/core/i18n/en.ts or ko.ts and was not used (REPORTED GAP). LIVING SUBJECT: public documented professional behaviour only. EXCLUDED: the 2018 allegations and any personal-conduct matter were deliberately not researched, used or inferred; no family, private life or health material; his government advisory commissions are political context and unscored; the reviewer's 'not a humble man' personality remark was not scored. CANONICAL SIGNIFICANCE SOURCE: American Academy of Arts and Sciences member biography. READ (6 cited non-Wikidata sources): AAAS bio, Biography.com, California Academy of Sciences speaker bio, Times Higher Education review of The Pluto Files, Tyson's own Pluto Files preface (self), Pigliucci critique (excerpt only via 3QD). PERSPECTIVES: academy/museum institutions, popular biography, an astronomer-reviewer, a philosopher-critic, his own account. NOT opened: Britannica and AMNH pages (403), Cosmos reviews, the full Pigliucci essay, New York Times 2001 article, Tyson's actual remarks on philosophy; the research record is thin on adversarial evidence, so confidences stay at or below 0.58. PORTRAIT: found, CC BY-SA 2.0 by an institutional photographer with caption naming the sitter; the live Flickr page is gone, the Wayback copy was relied on. SELF-CALIBRATION (agent): reviewed persuasiveness 74/0.58, impact_motivation 72/0.55 and cross_domain_range 60/0.48 as the highest-risk rows (promotional sources, one-reviewer judgment); no row lowered, because confidences already sit at or below 0.58 and the profile is deliberately sparse."
+  }
+}

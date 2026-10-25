@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ellen-macarthur",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ellen MacArthur",
+    "aliases": [
+      "Dame Ellen MacArthur",
+      "Ellen Patricia MacArthur"
+    ],
+    "wikidataId": "Q262259",
+    "birthYear": 1976,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete",
+      "navigator"
+    ],
+    "fieldIds": [
+      "sport",
+      "exploration"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "explorer"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_macarthur_wikidata",
+      "kind": "wikidata",
+      "title": "Ellen MacArthur (Q262259) -- verified live via the Wikidata API (2026-10-24): English label 'Ellen MacArthur', description 'long-distance yachtswoman', born 1976-07-08, no date of death, citizenship United Kingdom, Korean label '엘런 맥아더', P18 image 'Ellen MacArthur, 2010 (cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q262259"
+    },
+    {
+      "id": "src_macarthur_enc",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'MacArthur, Ellen' (Gale biographical reference entry; encyclopedia.com), read in full: career summary (1995 British Isles solo sail, 1997 transatlantic race 17th, 1998 Route du Rhum class win, second in the 2000-01 Vendee Globe, 2003 Jules Verne attempt ended by a broken mast, 2005 solo circumnavigation record in 71 days 14 hours 18 minutes 33 seconds on the 75-foot multihull B&Q, MBE 2002, made a dame 2005), her preparation for the Vendee Globe, and diary extracts from the record voyage. CANONICAL SIGNIFICANCE SOURCE. Reference biography; its early-life and illness passages were not used.",
+      "url": "https://www.encyclopedia.com/books/culture-magazines/macarthur-ellen"
+    },
+    {
+      "id": "src_macarthur_gwr",
+      "kind": "award_body",
+      "title": "Guinness World Records, 'Fastest circumnavigation sailing solo (female)' (guinnessworldrecords.com), read in full: Ellen MacArthur (UK) sailed solo and non-stop around the world in 71 days 14 hr 18 min 33 sec from 28 November 2004 to 7 February 2005 in the trimaran B&Q, from Ushant via the Cape of Good Hope, south of Australia and Cape Horn. Record-keeper's entry, not an independent verification of the sailing; the World Sailing Speed Record Council ratification page was not opened.",
+      "url": "https://guinnessworldrecords.com/world-records/fastest-circumnavigation-sailing-solo-(female)"
+    },
+    {
+      "id": "src_macarthur_lat",
+      "kind": "press",
+      "title": "Marjorie Miller, 'A 60-Foot Boat, a 5-Foot-2 Woman, a 94-Day Race to Fame' (Los Angeles Times, 5 March 2001), read in full: the 2000-01 Vendee Globe account including her Mini-Transat completion, 2,500 sponsorship letters with two replies, the Kingfisher sponsorship, mast climbs to repair sails, a detour to help another racer, the collision with a submerged container and the broken forestay, finishing second about 20 hours behind Michel Desjoyeaux, Bob Fisher's remark on her weather judgement, and a printed correction of the paper's own 'youngest/first woman' claims. Journalism relying heavily on her e-mail diary and interviews; includes a correction and a note from her manager.",
+      "url": "https://www.latimes.com/archives/la-xpm-2001-mar-05-mn-33660-story.html"
+    },
+    {
+      "id": "src_macarthur_bbc",
+      "kind": "press",
+      "title": "BBC Sport, 'Why the French embraced Ellen' (news.bbc.co.uk, 12 February 2001), read in full: Yachting World's James Boyd on her popularity in France, that she had been known there since 1997, made the effort to learn French and has many French friends in sailing and the media, and found it easier at first to get sponsors in France than in Britain. Sports-journalism commentary from a named outside editor; admiring.",
+      "url": "http://news.bbc.co.uk/sport2/hi/in_depth/2001/vendee_globe/1165923.stm"
+    },
+    {
+      "id": "src_macarthur_worldsailing",
+      "kind": "institution",
+      "title": "World Sailing (then ISAF), 'Mac Arthur Returns To A Hero's Welcome' (sailing.org, 15 February 2001), read in full: finish of the 2000-01 Vendee Globe in second place after 94 days, her account of the mast climbs, being behind race winner Michel Desjoyeaux, and her statements crediting the shore team (about 95 percent of the result) and wanting to race again. Governing-body report with her own quotations, so self-account.",
+      "url": "https://www.sailing.org/2001/02/15/mac-arthur-returns-to-a-heros-welcome/"
+    },
+    {
+      "id": "src_macarthur_guardian",
+      "kind": "press",
+      "title": "Bob Fisher, 'MacArthur sails into the record books' (The Guardian, 19 November 2001), read in full: she and co-skipper Alain Gautier finished second in the Transat Jacques Vabre after a rigging problem and broken bowsprit, which was enough points to make her the FICO-Lacoste world champion for skippers (first woman and youngest, per the report), and a Vendee Globe finish counted toward the title; she won the EDS Transatlantic Challenge against Roland Jourdain. Specialist sailing correspondent's report.",
+      "url": "https://www.theguardian.com/sport/2001/nov/20/sailing.theguardian"
+    },
+    {
+      "id": "src_macarthur_nbc",
+      "kind": "press",
+      "title": "Dennis Murphy, 'Ellen MacArthur's journey' (NBC News Dateline, 28 May 2006), read in full: the November 2004 to February 2005 record attempt on the 75-foot trimaran, her business partner Mark Turner's estimate of 50/50 odds of finishing and one-in-three or four of breaking the record, the generator failure on day 14 and her cooling workaround, the Southern Ocean passage and Cape Horn. Television feature using her video diary and interview, so mostly self-report with one partner's quote; no private-life passages used.",
+      "url": "https://www.nbcnews.com/id/wbna13004704"
+    },
+    {
+      "id": "src_macarthur_ap",
+      "kind": "press",
+      "title": "Alyson Brodsy and Krystyna Rudzki, 'Around the world in 71 days and 14 hours' (Indiana Daily Student, 7 February 2005, wire report), read in full: finish time against Francis Joyon's February 2004 mark, congratulations from Sir Robin Knox-Johnston, twice climbing the mast to repair the mainsail, a day behind Joyon at one point, the 2003 failed attempt when her mast broke, the June 2004 transatlantic attempt that fell 75 minutes short, and that only five multihull circumnavigation attempts had been made and one succeeded. Wire-service news report.",
+      "url": "https://idsnews.com/article/2005/02/around-the-world-in-71-days-and-14-hours"
+    },
+    {
+      "id": "src_macarthur_sail",
+      "kind": "press",
+      "title": "Megan McSweeney, 'Women's History Spotlight: Dame Ellen MacArthur' (SAIL Magazine, 25 March 2022), read in full: career chronology including the Mini Transat, the 2000-01 Vendee Globe, Kingfisher 2's broken mast, the B&Q/Castorama trimaran, the November 2004 start and the record, retirement from competitive sailing in 2009 and the founding of the Ellen MacArthur Foundation in 2010 promoting a circular economy. Specialist magazine overview; used for chronology only.",
+      "url": "https://sailmagazine.com/?p=3584"
+    },
+    {
+      "id": "src_macarthur_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Ellen MacArthur 2011.jpg' (wikitext and API record), checked for the portrait's licence: photograph by Nicolas Richoffer, own work, taken 14 March 2011 in Paris, CC BY-SA 4.0; original 4256 x 2832. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Ellen_MacArthur_2011.jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_macarthur_ap, src_macarthur_lat, src_macarthur_enc, src_macarthur_gwr | 2001-2005 | wire report + journalism + reference biography + record-keeper] After striking a submerged container and breaking the forestay in the 2000-01 Vendee Globe she slowed, repaired and finished second; her 2003 round-the-world attempt ended with a broken mast and in June 2004 she fell 75 minutes short of a transatlantic record, yet in November 2004 she started again and completed the circumnavigation in 71 days 14 hours (record-keeper's entry). Repeated documented returns after failures, from several outlets, although the day-to-day accounts rely partly on her own diaries."
+    },
+    "risk_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_macarthur_nbc, src_macarthur_ap, src_macarthur_lat | 2000-2005 | television feature + wire report + journalism] She chose to attempt a solo circumnavigation in a 75-foot multihull that, per Dateline, is fast but unforgiving and stays upside down if it capsizes; her partner Mark Turner put the odds of finishing at 50/50; AP notes only five multihull attempts had been made and one had succeeded; she twice climbed the 98-foot mast alone to repair the mainsail. Deliberate acceptance of serious physical danger is documented; dual-edged because the same exposure led to the broken mast in 2003 and the 2000-01 collision."
+    },
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_macarthur_nbc, src_macarthur_lat, src_macarthur_ap | 2000-2005 | television feature + journalism + wire report] Dateline reports that when the generator overheated on day 14 she routed cold outside air into the cabin to keep it running; the Los Angeles Times reports her sewing a ripped sail and repairing the dagger board after the container strike while racing on; AP reports two mast climbs to repair the mainsail. SELF-CALIBRATION (agent): first-pass 80 / 0.66 lowered to 76 / 0.60 because the generator and dagger-board details come from her own diary or interview as relayed by the press, with only the mast-repair fact in a wire report."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_macarthur_lat, src_macarthur_bbc, src_macarthur_sail | 1990s-2000 | journalism + sports commentary + magazine overview] The Los Angeles Times reports she sent about 2,500 letters seeking sponsors and received two replies, then completed the Mini-Transat solo and won Kingfisher's backing; Sail Magazine reports she fitted out her Mini herself while living in a French boatyard; the BBC commentator says she learned French and built contacts to find sponsors in France. Consistent self-driven route into professional sailing."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_macarthur_bbc, src_macarthur_sail, src_macarthur_enc | 1997-2005 | sports commentary + magazine overview + reference biography] When British sponsorship was hard to find she worked in France, learned French and built a French network (BBC); she moved from monohull Vendee Globe racing and a catamaran attempt to a custom 75-foot trimaran for the record (Sail, Encyclopedia.com). The pattern of changing setting and boat type is documented but described mainly in outside commentary and chronology."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_macarthur_ap, src_macarthur_sail, src_macarthur_worldsailing, src_macarthur_gwr | 2001-2005 | wire report + magazine overview + governing body + record-keeper] After her second place in the Vendee Globe she said she would be on the start line again immediately, then pursued a circumnavigation attempt on Kingfisher 2 (mast broke), a transatlantic record attempt (75 minutes short), and finally the 2004-05 solo record. A documented sequence of escalating record attempts; her stated motivation is partly from her own statements."
+    },
+    "competitiveness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_macarthur_ap, src_macarthur_nbc, src_macarthur_guardian | 2001-2005 | wire report + television feature + sailing correspondent] She raced directly against Francis Joyon's elapsed-time mark, falling a day behind and later taking the lead (AP), took the 2001 EDS Transatlantic Challenge against Roland Jourdain and chased the Transat Jacques Vabre lead with Gautier (Guardian), and Dateline presents the record as a deliberate bid to beat the existing time. Competitive intent is evident in the structure of her campaigns, but few sources describe it directly."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_macarthur_worldsailing, src_macarthur_nbc, src_macarthur_lat | 2001-2005 | governing-body report + television feature + journalism] She publicly credited her shore team with about 95 percent of the Vendee Globe result and has worked with business partner and manager Mark Turner for nine years (per Dateline); LA Times quotes her manager. The team credit is her own statement and no outside source describes how the team worked, so the row is a modest, low-confidence reading. Her co-skippered Transat Jacques Vabre race with Gautier is documented in the Guardian but with no detail on working style."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ellen-macarthur-richoffer-2011.jpg",
+    "width": 1200,
+    "height": 799,
+    "source": "Wikimedia Commons 'Ellen MacArthur 2011.jpg': photograph by Nicolas Richoffer (own work uploaded by the author), taken 14 March 2011 in Paris, licence CC BY-SA 4.0 stated by the author. Original 4256 x 2832, downscaled once to 1200 x 799 (no upscaling). The Wikidata P18 image (Flickr 'Amplified2010', CC BY 2.0, uploaded by a third party) was not used because the author-uploaded file has a clearer basis and Flickr was not rechecked; no conflicting institutional notice found.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Nicolas Richoffer, 2011, CC BY-SA 4.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Ellen_MacArthur_2011.jpg",
+    "creator": "Nicolas Richoffer",
+    "date": "2011-03-14",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ellen_MacArthur_2011.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "엘런 맥아더"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID found via wbsearchentities and verified live (Wikidata wbgetentities 2026-10-24): Q262259, en label 'Ellen MacArthur', description 'long-distance yachtswoman', born 1976-07-08, no death date, ko label '엘런 맥아더'. No existing candidate file or src reference for slug ellen-macarthur or QID Q262259. Region western_europe (UK). Vocabulary: athlete and navigator, fields sport and exploration, impact domains athletic and cultural, tags competitor and explorer, archetype competitive_performer are existing labelled ids (cf. Eliud Kipchoge, Thor Heyerdahl; 'sailor' has no label so athlete/navigator used). ZERO POLITICS: nothing political. LIVING SUBJECT: only documented public professional behaviour in races and record attempts is scored. EXCLUDED deliberately: childhood and family, her illness as a teenager (Encyclopedia.com), health, burns and injuries, expressions of fear, distress or tears in her diaries (no mental-state inference), the cancer charity as personal motive, Wikipedia. CANONICAL SIGNIFICANCE SOURCE: Encyclopedia.com 'MacArthur, Ellen' (https://www.encyclopedia.com/books/culture-magazines/macarthur-ellen), cross-checked against the Guinness World Records entry. READ (9 cited non-Wikidata sources plus portrait record): Encyclopedia.com biography, Guinness record entry, LA Times 2001, BBC Sport 2001, World Sailing 2001, Guardian 2001, NBC Dateline 2006, AP wire 2005, SAIL Magazine 2022. NOT OPENED: World Sailing Speed Record Council records list (not located), Britannica (blocked), her own books and the Ellen MacArthur Foundation site (self material, not needed for trait support), Wikipedia, race crew memoirs. PERSPECTIVES: record body (Guinness), governing body (World Sailing), outside journalism and sailing correspondents (LA Times, Guardian, NBC, AP, BBC's Yachting World editor), reference biography. COUNTER-VOICES/LIMITS: the 2003 mast failure and 75-minutes-short attempt, the LA Times correction of its own 'youngest/first woman' claims after her manager's briefing, the second-place finish. IMPORTANT LIMIT: most day-to-day detail comes from her own diaries, e-mails and interviews as relayed by journalists; independent behavioural evidence is thinner (AP, LA Times narrative, BBC commentary), so no score above 78 and no confidence above 0.66. Eight rows, no padding. SELF-CALIBRATION (agent): rows reviewed: persistence, risk_tolerance, resourcefulness. Lowered: resourcefulness (80/0.66 to 76/0.60: self-reported diary details relayed by press). Kept: persistence (outcomes verified by record-keeper and wire report across several failures) and risk_tolerance (equipment, odds and attempt statistics from independent reports). BROAD FLAG: the whole profile leans on her own diary as quoted in press; a crew or rival's independent account would strengthen it. PORTRAIT: Nicolas Richoffer own-work photo, CC BY-SA 4.0, 4256x2832 downscaled to 1200x799."
+  }
+}

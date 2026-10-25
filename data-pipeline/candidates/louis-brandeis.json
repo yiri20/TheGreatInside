@@ -1,0 +1,198 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "louis-brandeis",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Louis Brandeis",
+    "aliases": [
+      "Louis Dembitz Brandeis",
+      "Louis D. Brandeis"
+    ],
+    "wikidataId": "Q520840",
+    "birthYear": 1856,
+    "deathYear": 1941,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "lawyer",
+      "jurist"
+    ],
+    "fieldIds": [
+      "law"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "advocate",
+      "independent",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_brandeis_wikidata",
+      "kind": "wikidata",
+      "title": "Louis Brandeis (Q520840) -- verified live via the Wikidata API (2026-10-24): English label 'Louis Brandeis', description 'American Supreme Court Justice (1856-1941)', born 1856-11-13, died 1941-10-05, citizenship United States, Korean label '루이스 브랜다이스'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q520840"
+    },
+    {
+      "id": "src_brandeis_university",
+      "kind": "institution",
+      "title": "Brandeis University, 'Louis Brandeis' biographical page (brandeis.edu), read in full: describes him as a legal and judicial figure instrumental in shaping modern American jurisprudence; the 'people's attorney' known for pro bono public-interest work and support for workers' rights; his 1916 appointment by Woodrow Wilson 'in a bitterly contested process' tinged with anti-Semitism, as the first Jew on the Court; per biographer Philippa Strum, the 'Brandeis Brief' using fact-based evidence as a staple of American constitutional law; the 1890 Harvard Law Review article on privacy and the 'right to be let alone' phrase repeated in his 1928 dissent; and his 1927 free-speech opinion. CANONICAL SIGNIFICANCE SOURCE. University named for him, admiring; relays Strum (whose book itself was NOT opened).",
+      "url": "https://www.brandeis.edu/about/louis-brandeis.html"
+    },
+    {
+      "id": "src_brandeis_ebsco_bio",
+      "kind": "biography",
+      "title": "EBSCO Research Starters (Salem Press), 'Louis D. Brandeis', read in full: Harvard Law School 1875-77 with the highest grades in the school's history; early corporate clients, then from the 1890s public-interest work, working without fee and paying his firm so partners would not suffer; 1904 Boston gas sliding-scale plan; 1906 resignation from the United Shoe board over monopoly methods; savings-bank life insurance; the New Haven Railroad fight (1905-1914) with personal and anti-Semitic attacks; 'Other People's Money' (1914), whose recommendations were largely ignored until the bank failures of the 1930s; the Muller v. Oregon brief; the 1916 confirmation fight with opposition from Taft, the Boston establishment and the ABA; Zionism and political advising (noted only as context and not scored). Reference-work biography, generally admiring.",
+      "url": "https://ebsco.com/research-starters/history/louis-d-brandeis"
+    },
+    {
+      "id": "src_brandeis_muller",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Muller v. Oregon impact', read in full: Brandeis was hired by Florence Kelley and Josephine Goldmark of the National Consumers League to defend Oregon's ten-hour law for women; his brief gave two pages to legal precedent and over one hundred to evidence on health and welfare, research done in large part by Kelley and Goldmark; the Court upheld the law; the approach, called sociological jurisprudence, was cited as a model in later cases such as Brown v. Board of Education, and critics of judicial activism see it as a usurpation of legislative power; the brief's argument rested on claimed physiological differences between men and women. Reference-work account that records both praise and the critics' view.",
+      "url": "https://ebsco.com/research-starters/history/muller-v-oregon-impact"
+    },
+    {
+      "id": "src_brandeis_olmstead",
+      "kind": "archive",
+      "title": "Cornell Legal Information Institute, Olmstead v. United States, 277 U.S. 438 (1928), including Brandeis's dissent (law.cornell.edu), the dissent text read: argues that the makers of the Constitution 'conferred, as against the government, the right to be let alone' and that every unjustifiable government intrusion on privacy, whatever the means, violates the Fourth Amendment. Primary court text hosted by a university law library; used for what he argued, not for how it was received.",
+      "url": "https://www.law.cornell.edu/supremecourt/text/277/438"
+    },
+    {
+      "id": "src_brandeis_mtsu",
+      "kind": "institution",
+      "title": "Middle Tennessee State University, First Amendment Encyclopedia, 'Whitney v. California' (firstamendment.mtsu.edu), read in full: the Court upheld the conviction of Charlotte Anita Whitney under California's criminal syndicalism law while Brandeis, concurring in an opinion originally written as a dissent in a companion case, gave a forceful defence of free speech that became a milestone of First Amendment jurisprudence; the majority had relied on the 'bad tendency' approach. University reference entry, independent of Brandeis's admirers.",
+      "url": "https://firstamendment.mtsu.edu/article/whitney-v-california/"
+    },
+    {
+      "id": "src_brandeis_jrb",
+      "kind": "press",
+      "title": "Jewish Review of Books, 'Old Isaiah' (review of Jeffrey Rosen's 'Louis D. Brandeis: American Prophet', c. 2016), read in full: the four-month 1916 Senate confirmation fight, with Wickersham, Lowell's 55-signature petition, Fitzgerald and Taft (who called him a muckraker and socialist) opposed, partly with anti-Semitism and partly not; Brandeis's role in Olmstead; the reviewer's criticism that Brandeis acted with 'questionable judicial propriety' by secretly using Felix Frankfurter to publicise his views and by sending a back-channel warning to Roosevelt's circle after the 1935 decisions. The political and Zionist passages were not scored. Reviewer's perspective on a favourable biography; Rosen's book itself NOT opened.",
+      "url": "https://jewishreviewofbooks.com/?p=2150"
+    },
+    {
+      "id": "src_brandeis_nehs",
+      "kind": "press",
+      "title": "New England Historical Society, 'Brahmin Anti-Semites Fight the Brandeis Nomination to the Supreme Court', read in full: the 1916 nomination fight, in which Brahmin financiers, the Wall Street Journal, seven past ABA presidents and Harvard president Lowell opposed him, charges of unethical conduct as counsel to the Interstate Commerce Commission were made and answered by defenders, and Brandeis did not personally defend himself, in line with custom. Popular history of the opposition; used for the conflict episode only.",
+      "url": "https://newenglandhistoricalsociety.com/brahmin-anti-semites-fight-the-brandeis-nomination-to-the-supreme-court/"
+    },
+    {
+      "id": "src_brandeis_federalism",
+      "kind": "biography",
+      "title": "Center for the Study of Federalism, 'Brandeis, Louis D.' encyclopedia entry (federalism.org), read in full: birth in Louisville, Harvard Law and the Warren partnership, pro bono work, the Brandeis brief in Muller v. Oregon, his help formulating Wilson's antitrust programme, the 1916 confirmation, his dissenting position with Holmes against the majority on speech cases, and the Olmstead dissent on surveillance and the Fourth Amendment keeping pace with technology. Short reference entry.",
+      "url": "https://federalism.org/encyclopedia/historical-figures/brandeis-louis-d/"
+    },
+    {
+      "id": "src_brandeis_loc",
+      "kind": "archive",
+      "title": "Library of Congress, Prints and Photographs Division: catalog record 2004673443 '[Louis Brandeis, head-and-shoulders studio portrait, facing front]' by Harris & Ewing, dated '[1916?]' (read through an Internet Archive copy, since loc.gov blocked direct access), and the Library's 'Harris & Ewing Photographs: Rights and Restrictions' page (Internet Archive copy), and the Wikimedia Commons file page for the digital file (original 4498 x 6103): the Library states there are no known restrictions on Harris & Ewing photographs, that the firm gave its negatives to the Library in 1955 under gift restrictions that have now expired, and that copyrights placed on prints acquired from other sources have expired; publication permitted, credit line requested. Not used for scoring.",
+      "url": "https://www.loc.gov/pictures/item/2004673443/"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brandeis_olmstead, src_brandeis_mtsu, src_brandeis_federalism, src_brandeis_university | 1927-1928 | court text + university encyclopedia + reference entry + university page] In Olmstead he dissented from a majority that allowed wiretapping, arguing that every unjustifiable government intrusion on privacy violates the Fourth Amendment whatever the means; in Whitney his concurrence, originally written as a dissent, defended free speech against the majority's bad-tendency approach; the reference entry notes he and Holmes often dissented on speech cases against a more conservative Court. Independent sources (not only admirers) document the positions and that the majority differed; positions later became law, which is retrospective, so documented at good but not top confidence. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 78 / 0.66 to 74 / 0.6 because same reference-work and primary-text concentration; no biography-level behavioural account was read."
+    },
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brandeis_muller, src_brandeis_ebsco_bio, src_brandeis_university | 1877-1908 | reference entries + university page] Graduated Harvard Law with the highest grades in the school's history; in Muller v. Oregon his brief gave two pages to precedent and over a hundred to evidence, with statistics from American and foreign sources, researched with Kelley and Goldmark; the Boston gas sliding-scale plan and savings-bank insurance were evidence-based designs whose results were measured. Several reference works agree on the method, though most are admiring and the brief's physiological premises are the sort later critics question, so a good but capped confidence. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 80 / 0.68 to 76 / 0.62 because support is reference summaries and the court texts, with no full biography opened; the score was above the specific behaviour documented."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brandeis_ebsco_bio, src_brandeis_muller, src_brandeis_university, src_brandeis_olmstead | 1890-1928 | reference entries + university page + court text] The 1890 'Right to Privacy' article with Samuel Warren helped create a new legal concept that he later supported from the bench; the Brandeis brief introduced extensive social science into court argument (Strum, as quoted by the university); the Boston gas sliding scale and savings-bank life insurance were new institutional designs. The originality is widely recognised by reference works, though much is retrospective and shared with co-authors and the Consumers League researchers."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brandeis_ebsco_bio, src_brandeis_university, src_brandeis_jrb | 1892-1916 | reference entry + university page + book review] From the 1890s he took public-interest cases for free or small fees, paid his firm so partners would not suffer, and gave away about $1.5 million between 1905 and 1939 according to the reference entry; the university page and review call him the 'people's attorney'. A long documented pattern, but the figures come from one admiring reference entry and the label from supporters, so moderate confidence."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brandeis_ebsco_bio, src_brandeis_nehs | 1905-1914 | reference entry + popular history] He led a coalition against the New Haven Railroad's attempt to monopolise New England rail traffic from 1905 until the Wilson administration forced a divestiture in 1914, through personal attacks in newspapers; his Other People's Money recommendations went unheeded until the 1930s. A sustained, cross-checked campaign, though the outcome owed much to others (the administration), so moderate confidence."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_brandeis_nehs, src_brandeis_jrb, src_brandeis_ebsco_bio | 1906-1916 | popular history + book review + reference entry] He resigned from the United Shoe board over monopoly tactics, testified against it later, endured press attacks over the New Haven fight and a four-month confirmation battle in which opponents called him a muckraker and socialist and charged unethical conduct, without personally defending himself according to custom. Willing to bear sustained hostility; the cost is dual-edged, since his opponents' charges (answered by defenders) shaped the fight. Cross-checked by three sources, partly relying on a reviewer's relay of Rosen."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_brandeis_muller, src_brandeis_ebsco_bio, src_brandeis_federalism | 1904-1910 | reference entries] The Supreme Court unanimously upheld the Oregon law and took the unusual step of noting the brief; in 1904 he persuaded Boston officials and the gas company to adopt the sliding scale; in 1910 he mediated a New York garment strike. Concrete persuasion episodes recorded by reference works, but the Court's reasoning and the other parties' motives are only summarised, so moderate confidence."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_brandeis_ebsco_bio | 1892 | reference entry] The reference entry quotes Brandeis saying the Homestead conflict first set him thinking seriously about the labor problem and turned his mind to a searching study of labor and industry, after early years representing railroads and manufacturers, followed by years of reform work. One quoted self-account inside a single secondary source, so strong inference at a low confidence; no row for later periods."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_brandeis_muller, src_brandeis_ebsco_bio, src_brandeis_jrb | 1908-1930s | reference entries + book review] The Muller brief was researched largely by Florence Kelley and Josephine Goldmark and built with the Consumers League; he led coalitions of businesspeople and reformers against monopolies; the reviewer of Rosen's biography also reports that he used Felix Frankfurter to publish his views under Frankfurter's name, which the reviewer calls questionable propriety. Real coalition-building is documented, with an episode of one-directional use of an ally, so strong inference at a low-to-moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루이스 브랜다이스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/louis-brandeis-harris-ewing-1916.jpg",
+    "width": 884,
+    "height": 1200,
+    "source": "Library of Congress Prints and Photographs Division, Harris & Ewing, '[Louis Brandeis, head-and-shoulders studio portrait, facing front]', dated [1916?], reproduction number LC-DIG-ppmsca-06024, via Wikimedia Commons file 'Louis Brandeis, head-and-shoulders studio portrait, facing front LCCN2004673443.jpg' (original digital file 4498 x 6103). Downscaled only (never upscaled) to 884 x 1200. The Library's Harris & Ewing rights page states there are no known restrictions, that the firm's gift restrictions have expired and that copyrights on acquired prints have expired.",
+    "license": "Public domain (Library of Congress: no known restrictions; Harris & Ewing)",
+    "licenseUrl": "https://www.loc.gov/rr/print/res/140_harr.html",
+    "attribution": "Harris & Ewing, c. 1916, Library of Congress Prints & Photographs Division, LC-DIG-ppmsca-06024",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2004673443/",
+    "creator": "Harris & Ewing",
+    "date": "c. 1916",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Louis_Brandeis,_head-and-shoulders_studio_portrait,_facing_front_LCCN2004673443.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q520840 returned en label 'Louis Brandeis', description 'American Supreme Court Justice (1856-1941)', born 1856-11-13, died 1941-10-05, ko label '루이스 브랜다이스', citizenship US; the lead's hint (none given) was matched via wbsearchentities, other 'Louis Brandeis' entities (Holocaust victim, painting, nomination) rejected. SLUG/QID CHECK: no candidate file or src/data reference for slug louis-brandeis or QID Q520840 in the roster55 worktree. REGION north_america. ZERO POLITICS: primary identity is lawyer and jurist. His Zionist leadership, advising of Wilson and Roosevelt-era political contacts and the 1916 confirmation politics are context only and unscored; the Frankfurter back-channel appears only in the collaboration rationale as a documented working-relationship fact, not as a political score. VOCABULARY: lawyer and jurist, field law, tags advocate/independent/systematic_thinker, archetype scholarly_specialist are existing ids with EN+KO labels (checked in en.ts); impactDomains social/historical/cultural. CANONICAL SIGNIFICANCE SOURCE: Brandeis University 'Louis Brandeis' biographical page (https://www.brandeis.edu/about/louis-brandeis.html), quoting Strum. READ (9 non-Wikidata sources plus the LoC rights record): Brandeis University page, EBSCO Salem biography, EBSCO Muller v. Oregon entry, Olmstead dissent text, MTSU Whitney entry, Jewish Review of Books review of Rosen, New England Historical Society nomination article, Federalism encyclopedia entry (Center for the Study of Federalism). NOT opened: Strum's biography, Rosen's biography, Mason's biography, 'Other People's Money' itself, the Muller brief itself, Harvard and Louisville archives (louisville.edu special-collections pages were only landing pages; loc.gov and Britannica were bot-blocked). PERSPECTIVES: university/institutional (Brandeis University, MTSU), reference encyclopedias (EBSCO/Salem, Federalism), primary court text (Olmstead), critical book review (JRB on Rosen), popular history (NEHS). COUNTER-VOICES: Taft, Lowell, ABA and Boston establishment opponents (as relayed by JRB and NEHS), reviewer's judicial-propriety criticism, critics of judicial activism and the physiological premises of the Muller brief (EBSCO). EXCLUDED: marriage and family, Zionism and Palestine politics, New Deal-era political advice, antitrust-programme politics beyond the legal-reform episodes, the anti-Semitic attacks as a character trait. CALIBRATION: reference-work behavioural detail is summary, so the highest score is 80 and highest confidence 0.68; nine rows, no padding. SELF-CALIBRATION (agent): reviewed analytical_rigor (kept 80/0.68: multiple reference works agree, the 100-page brief is documented), independent_thinking (kept 78/0.66: independent MTSU and court text), impact_motivation (kept 78/0.62: single entry for the money figures, but several sources on the pattern); no rows lowered. BROAD FLAG: no full biography (Strum, Rosen, Urofsky) was opened, so episode specificity is thin; belief_updating rests on a single quoted passage. PORTRAIT: LoC Harris & Ewing original (not the Commons restored derivative), rights basis taken from the LoC Harris & Ewing rights page (gift restrictions and copyrights expired), date '[1916?]' is uncertain; downscaled from 4498 x 6103 to 884 x 1200. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 80 / 0.68 to 76 / 0.62 because support is reference summaries and the court texts, with no full biography opened; the score was above the specific behaviour documented. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 78 / 0.66 to 74 / 0.6 because same reference-work and primary-text concentration; no biography-level behavioural account was read."
+  }
+}

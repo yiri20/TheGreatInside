@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "terence-tao",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Terence Tao",
+    "aliases": [
+      "Terry Tao",
+      "Terence Chi-Shen Tao"
+    ],
+    "wikidataId": "Q295981",
+    "birthYear": 1975,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "AU",
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician"
+    ],
+    "fieldIds": [
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "theorist",
+      "prolific",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tao_wikidata",
+      "kind": "wikidata",
+      "title": "Terence Tao (Q295981) -- verified live via the Wikidata API (2026-10-24): English label 'Terence Tao', description 'Australian-American mathematician', born 1975-07-17, no date of death, Korean label '테런스 타오', P18 image 'Terence Tao at IPAM's Fireside Chat 2026 (50m16s) (cropped).jpg' (not used). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q295981"
+    },
+    {
+      "id": "src_tao_imu",
+      "kind": "award_body",
+      "title": "International Mathematical Union, '2006 Fields Medal: Terence Tao' citation and laudation (IMU medals archive, EMIS mirror), read in full. CANONICAL SIGNIFICANCE SOURCE: citation 'for his contributions to partial differential equations, combinatorics, harmonic analysis and additive number theory'; describes the Green-Tao theorem that the primes contain arithmetic progressions of any length, his work on the Kakeya problem, wave maps and nonlinear Schroedinger equations (with the 'I-team' of Colliander, Keel, Staffilani and Takaoka), and the Horn conjecture work with Allen Knutson; quotes Tao's own Clay interview on collaboration and on viewing mathematics as a unified subject. An award-body laudation: admiring and retrospective, with Tao's own words only as quoted self-account.",
+      "url": "https://www.maths.tcd.ie/EMIS/mirror/IMU/medals/2006/TaoENG.pdf"
+    },
+    {
+      "id": "src_tao_clay",
+      "kind": "institution",
+      "title": "Clay Mathematics Institute Annual Report 2006, 'Recognizing Achievement: Fields Medal Winner Terence Tao', read in full: former Clay Research Fellow; more than 140 papers, about three-quarters written with one or more of fifty collaborators; work ranging from harmonic analysis and partial differential equations to combinatorics, number theory and compressed sensing; the 2004 Green-Tao paper answering a long-standing conjecture; and the observation that he is unusual in the attention he gives to exposition (online lecture notes, textbook, a new blog). Institutional profile from a body that funded him; admiring.",
+      "url": "https://www.claymath.org/library/annual_report/ar2006/06report_tao.pdf"
+    },
+    {
+      "id": "src_tao_paw",
+      "kind": "press",
+      "title": "Mark F. Bernstein, 'Mind of a Mathematician' (Princeton Alumni Weekly, 4 November 2019), read in full: profile with interviews of Charles Fefferman and others; the Green-Tao work built on Szemeredi's theorems, the twin-prime and prime-gap effort, the 2015 Erdos discrepancy proof triggered by a blog comment from Uwe Stroinski, the compressed-sensing collaboration with Emmanuel Candes (retold from Smithsonian magazine), his remarks that insight comes from hard work, trial and error and walking, and that he rejects being called a genius. An alumni magazine: friendly and partly based on Tao's own account. The family, childhood and personal passages were read but excluded from scoring.",
+      "url": "https://paw.princeton.edu/article/mind-mathematician"
+    },
+    {
+      "id": "src_tao_quanta_primegaps",
+      "kind": "press",
+      "title": "Erica Klarreich, 'Together and Alone, Closing the Prime Gap' (Quanta Magazine, 19 November 2013), read via a page fetch: Tao created the Polymath project on bounded prime gaps on 4 June 2013 after Yitang Zhang's 70 million bound; the work was split into modular steps, public and fast ('at times, the bound was going down every thirty minutes'); Zhang worked alone and James Maynard independently reached a bound of 600; Tao says it is important to have people who work in isolation and buck conventional wisdom. Journalistic account with independent voices (Zhang, Maynard, Sutherland, Morrison).",
+      "url": "https://www.quantamagazine.org/mathematicians-team-up-on-twin-primes-conjecture-20131119/"
+    },
+    {
+      "id": "src_tao_quanta_ai",
+      "kind": "press",
+      "title": "Kevin Hartnett, 'How Terry Tao Became an Evangelist for AI in Math' (Quanta Magazine, 8 June 2026, adapted from his book), read via a page fetch: Polymath's open-forum model and its limits; Tao announcing in October 2023 that he was learning the Lean proof language; the Lean formalization of the Tao-Green-Gowers-Manners PFR proof in about three weeks with many volunteers; the 2024 Equational Theories project; his view of language models as overconfident undergraduates. Includes critics: Johan Commelin questions whether the lessons generalise given the project's high profile, John Baez calls Equational Theories 'a colossal waste of time', Kevin Buzzard finds the mathematics elementary. COUNTER-VOICE source; secondary and recent, so the AI-policy parts were not used.",
+      "url": "https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608/"
+    },
+    {
+      "id": "src_tao_sciam",
+      "kind": "press",
+      "title": "Chris Cesare, 'Math Whiz Solves a Master's Riddle' (Nature news, reprinted by Scientific American, 25 September 2015), read in full: Tao's September 2015 arXiv proof of the Erdos discrepancy conjecture after years of failed attempts including the PolyMath effort and a computer proof of a special case; he credited commenter Uwe Stroinski; Gil Kalai said he was completely confident of the proof; Tao says he first thought the connection was only superficial. News report with an independent expert.",
+      "url": "https://www.scientificamerican.com/article/math-whiz-solves-a-master-s-riddle"
+    },
+    {
+      "id": "src_tao_portrait",
+      "kind": "archive",
+      "title": "Oberwolfach Photo Collection (Mathematisches Forschungsinstitut Oberwolfach), photo 17061 'Terence C. Tao' by Ivonne Vetter, 2012, with the collection's Terms of Use and the Wikimedia Commons file page 'Terence C. Tao Oberwolfach 2012.jpg' (licence template CC BY-SA 2.0 DE), checked for the portrait only.",
+      "url": "https://opc.mfo.de/detail?photo_id=17061"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_tao_imu, src_tao_clay, src_tao_sciam, src_tao_paw | 2004-2015 | award body + institution + news + magazine] The Fields laudation says the Green-Tao result on arithmetic progressions in the primes 'shows great originality and insight' and describes work on Kakeya, wave maps and the Horn conjecture in an area far from his own; the Clay report calls his work astonishing in depth and originality; in 2015 he proved the Erdos discrepancy conjecture after years of failed attempts by others and Gil Kalai said he was completely confident of it. The strongest praise is from award bodies and friendly profiles, but the outcome (accepted proofs of long-open problems) is independently verifiable. SELF-CALIBRATION (agent): reviewed as a top-risk row; kept, since the 2015 result has an independent expert's confirmation, not only citation language."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_tao_imu, src_tao_clay, src_tao_paw | 2000-2019 | award body + institution + magazine] The laudation lists work in harmonic analysis, nonlinear partial differential equations, combinatorics and additive number theory, and notes the Horn conjecture result (compared to a novelist suddenly producing the definitive novel in another language); the Clay report counts more than 140 papers ranging from dynamical systems to representation theory, algebraic geometry and compressed sensing; PAW adds compressed sensing in imaging and Navier-Stokes. All within mathematics, but unusually wide, and consistently reported across institutional and press sources. SELF-CALIBRATION (agent): reviewed as a top-risk row; kept because three independent descriptions list specific different fields and results. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 82 / 0.7 to 78 / 0.62 because same award-citation and press-profile concentration; the breadth is documented but the stated score and confidence were above the evidence."
+    },
+    "collaboration": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_tao_imu, src_tao_clay, src_tao_quanta_primegaps, src_tao_quanta_ai, src_tao_paw | 2004-2024 | award body + institution + two Quanta articles + magazine] The Clay report says about three-quarters of his 140 papers were co-written with one or more of fifty collaborators; the laudation names the 'I-team' and the long Green partnership; in 2013 he created and organised the Polymath prime-gaps project (Klarreich quotes participants and Tao on its modular, public structure) and in 2023 launched and broke into small lemmas the Lean formalization of the PFR proof, completed in about three weeks with many volunteers. Counter-voice: Commelin says the project had help because of its high profile and Tao himself says solitary mathematicians matter too. Independent sources converge on specific actions; capped under 85 because the strongest wording comes from award and profile pieces and Tao's own statement on collaboration is self-report. SELF-CALIBRATION (agent): reviewed as a top-risk row (highest score); kept because the organising role in Polymath and the PFR formalization is documented by independent journalists with named participants. RUBRIC_CORRECTION (lead review, before eligibility): collaboration lowered from 84 / 0.7 to 80 / 0.64 because the strongest wording comes from an award-body laudation and admiring press profiles of a living subject; independent corroboration is real but 84 / 0.70 is higher than the documented behaviour supports."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tao_quanta_ai, src_tao_sciam | 2015-2024 | magazine + news] Hartnett reports that Tao announced in October 2023 that he was learning the Lean proof language with AI help, completed a first formalization in about a month and then led the PFR formalization; the 2015 Erdos discrepancy proof came after he moved off a different problem when a blog comment suggested a link. Two instances from one author and one news report, so a moderate lean."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tao_imu, src_tao_quanta_primegaps, src_tao_quanta_ai | 2006-2024 | award body + two Quanta articles] The laudation quotes Tao viewing mathematics as a unified subject and praises a 'startlingly natural point of view'; Klarreich reports he parallelised the prime-gaps project because Zhang's proof was modular, and Hartnett that he decomposed the PFR proof into thousands of tiny lemmas. The decomposition behaviour is documented, but the abstraction claim rests on a laudation and Tao's own statement."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tao_sciam, src_tao_paw, src_tao_quanta_primegaps | 2013-2015 | news + magazine + Quanta] Tao says that at first he thought the blog commenter's connection to the Elliott conjecture was only superficial, then within two weeks used it to prove the Erdos discrepancy conjecture and thanked the commenter; PAW (retelling Smithsonian) says he first told Candes a problem was unsolvable and a few minutes later allowed that Candes might be on to something. The Candes story is second-hand and the first is Tao's own account, so a moderate lean at moderate confidence."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tao_paw, src_tao_sciam, src_tao_quanta_primegaps | 2010-2019 | magazine + news + Quanta] The Erdos discrepancy effort ran from the 2010 PolyMath project to his 2015 proof; PAW reports that he is still trying to push the twin-prime gap from 246 down to 2 ('that's the one I would most love to have') and has approached Navier-Stokes from an unusual angle without solving it. Documented long-running efforts, but with self-reported ambition and no direct account of setbacks beyond the failed attempts, hence moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "테런스 타오"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/terence-tao-vetter-2012.jpg",
+    "width": 400,
+    "height": 266,
+    "source": "Oberwolfach Photo Collection (Archives of the Mathematisches Forschungsinstitut Oberwolfach), photo ID 17061, taken by Ivonne Vetter in 2012 at the Arbeitsgemeinschaft on Ergodic Theory and Combinatorial Number Theory (Tao annotated as organiser); Wikimedia Commons file 'Terence C. Tao Oberwolfach 2012.jpg'. The MFO Terms of Use (clause 4) allow its reduced-resolution watermarked images, where MFO owns the copyright, to be used under CC BY-SA 2.0 Germany; the collection page lists Copyright: MFO and Author: Vetter, Ivonne. Saved at the Commons size of 400 x 266 with its small MFO watermark, no resizing.",
+    "license": "CC BY-SA 2.0 DE",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "attribution": "Ivonne Vetter, Archives of the Mathematisches Forschungsinstitut Oberwolfach, 2012, CC BY-SA 2.0 DE",
+    "attributionUrl": "https://opc.mfo.de/detail?photo_id=17061",
+    "creator": "Ivonne Vetter",
+    "date": "2012",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Terence_C._Tao_Oberwolfach_2012.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q295981 returned en label 'Terence Tao', description 'Australian-American mathematician', born 1975-07-17, no death date, ko label '테런스 타오'; the lead's identity was correct (other Tao entities were a biologist and articles). SLUG/QID CHECK: no candidate or src/data reference to terence-tao or Q295981 in the roster55 worktree. REGION DECISION: Australia/Oceania has no taxonomy region; he was born in Adelaide but has held his professorship at UCLA since the late 1990s and was trained at Princeton, so the career base north_america is used (per the repo's career-base precedent); nationalityCodes lists AU and US. This is a judgement call and is flagged to the lead. VOCABULARY: mathematician, field mathematics, tags theorist, prolific and cross_disciplinary, archetype cross_disciplinary_generalist are existing ids with EN+KO labels. ZERO POLITICS: nothing political; his 2024 PCAST AI working-group role and AI-policy views were excluded. LIVING SUBJECT: only documented public professional behaviour is scored; excluded: family, childhood and parenting passages in the PAW profile, health, personal life, his blog as self-report (only referenced as a channel through which a commenter's tip arrived), Wikipedia. CANONICAL SIGNIFICANCE SOURCE: IMU 2006 Fields Medal laudation (https://www.maths.tcd.ie/EMIS/mirror/IMU/medals/2006/TaoENG.pdf). READ (7 cited non-Wikidata sources): IMU laudation, Clay 2006 report, PAW profile, Quanta 2013 prime-gaps article, Quanta 2026 Hartnett profile (via page fetch), Nature/Scientific American 2015 news, portrait records. PERSPECTIVES: award body and funding institution (admiring), alumni magazine, independent journalism with named independent mathematicians (Zhang, Maynard, Kalai), and critics (Commelin, Baez, Buzzard). COUNTER-VOICES: Commelin on generalisability, Baez on Equational Theories, Tao himself on the value of solitary workers. NOT opened: Tao's blog and papers (self material), Britannica (403), Smithsonian magazine original, the Green-Tao paper, Quanta's 2015 Erdos article. PORTRAIT: the Wikidata P18 file (a 2026 YouTube screenshot under a YouTube CC-BY template) was not used because the template depends on the channel's licence at upload; the Oberwolfach photo was chosen because MFO states its own terms and copyright holder; limitation: the file is only 400 x 266 and carries a watermark, and the CC BY-SA licence applies only if MFO holds the copyright, which the collection page asserts (Copyright: MFO). Low resolution may need replacing later. SELF-CALIBRATION: rows reviewed: collaboration (84), cross_domain_range (82), creative_originality (80); none lowered, because each has independent journalistic or expert corroboration beyond the laudation. Flag for lead: region choice; portrait small. RUBRIC_CORRECTION (lead review, before eligibility): collaboration lowered from 84 / 0.7 to 80 / 0.64 because the strongest wording comes from an award-body laudation and admiring press profiles of a living subject; independent corroboration is real but 84 / 0.70 is higher than the documented behaviour supports. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 82 / 0.7 to 78 / 0.62 because same award-citation and press-profile concentration; the breadth is documented but the stated score and confidence were above the evidence."
+  }
+}

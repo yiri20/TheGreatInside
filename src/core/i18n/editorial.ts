@@ -8885,6 +8885,424 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In August 1996, at 23, Tendulkar succeeded Mohammad Azharuddin as India's captain; Wisden's Mike Selvey wrote he had not pursued the post with passion, and Partab Ramchand later judged him not yet ready in 1996-97, though improving by 1999.",
   "sachin-tendulkar.interpretation.turning_point.1":
     "This is consistent with a player given the captaincy rather than one who sought it, whose leadership took time to develop.",
+  /* ---------------------------------------------------------- albert-schweitzer (Roster55) */
+  "albert-schweitzer.achievement.1":
+    "Founded a hospital at Lambaréné in Gabon in 1913 after earning a medical degree, and spent most of the rest of his life expanding it to about seventy buildings; the Nobel Foundation notes he used his Nobel Peace Prize money to start a leprosarium there.",
+  "albert-schweitzer.achievement.2":
+    "Wrote The Quest of the Historical Jesus (1906), which argued that earlier lives of Jesus had projected their authors' liberal ideals and became a lasting work of biblical criticism, and later set out his 'reverence for life' ethic.",
+  "albert-schweitzer.achievement.3":
+    "Was an internationally known concert organist and Bach scholar, writing a Bach biography (1905) and a book on organ building (1906) and beginning an eight-volume edition of Bach's organ works; his engagements helped pay for his medical studies and hospital.",
+  "albert-schweitzer.moment.1":
+    "Returning to Lambaréné in 1924 after internment as a German citizen, Schweitzer found the hospital decayed and partly reclaimed by the jungle and rebuilt it upstream.",
+  "albert-schweitzer.interpretation.moment.1":
+    "This is consistent with sustained effort to continue a project through setbacks.",
+  "albert-schweitzer.moment.2":
+    "In a 1964 review, Conor Cruise O'Brien reported that educated Africans saw resistance to change in Schweitzer and, relaying Gerald McKnight's account, that he kept Lambaréné unmodernised because he believed 'simple people' would not come to a modern hospital.",
+  "albert-schweitzer.interpretation.moment.2":
+    "This is consistent with a documented critique that he was slow to change his methods, though it is critical commentary rather than a dated episode.",
+  "albert-schweitzer.turning_point.1":
+    "In 1905 Schweitzer, already a theology teacher, preacher and organist, began studying medicine at Strasbourg to serve in Africa, financing the studies with concerts and lectures.",
+  "albert-schweitzer.interpretation.turning_point.1":
+    "This is consistent with a deliberate change of career toward service.",
+  /* ---------------------------------------------------------- bernhard-riemann (Roster55) */
+  "bernhard-riemann.achievement.1":
+    "His 1854 habilitation lecture defined n-dimensional curved spaces with an intrinsic metric, the basis of Riemannian geometry that Einstein later used for general relativity.",
+  "bernhard-riemann.achievement.2":
+    "His 1859 paper on the number of primes treated the zeta function as a complex function, established its functional equation and stated the Riemann hypothesis, which remains unsolved.",
+  "bernhard-riemann.achievement.3":
+    "He introduced Riemann surfaces and topological methods into complex analysis (1851 thesis, 1857 abelian functions) and defined the Riemann integral.",
+  "bernhard-riemann.moment.1":
+    "For his 1854 habilitation lecture Riemann prepared three topics; Gauss chose the geometry one, and according to MacTutor only Gauss in the audience appreciated its depth.",
+  "bernhard-riemann.interpretation.moment.1":
+    "This is consistent with an originality that ran ahead of the field's ability to follow it.",
+  "bernhard-riemann.moment.2":
+    "In the 1859 paper he wrote that it was very probable all the zeta zeros are real, but that he had put aside a stricter proof after some fleeting futile attempts.",
+  "bernhard-riemann.interpretation.moment.2":
+    "This is consistent with a mind that advanced on intuition and openly left the rigorous proof for others.",
+  "bernhard-riemann.turning_point.1":
+    "In 1859 Dirichlet died and Riemann succeeded him to the Göttingen chair; days later he was elected to the Berlin Academy on a nomination calling him a mature and independent investigator, and his prime-number paper followed.",
+  "bernhard-riemann.interpretation.turning_point.1":
+    "This is consistent with a move from near-unknown young investigator to the centre of German mathematics.",
+  /* ---------------------------------------------------------- christiaan-barnard (Roster55) */
+  "christiaan-barnard.achievement.1":
+    "On 3 December 1967 he led the Groote Schuur team that transplanted Denise Darvall's heart into Louis Washkansky, described as the first human-to-human heart transplant.",
+  "christiaan-barnard.achievement.2":
+    "His Cape Town programme refined the operation after Washkansky's death, including a modified technique for Philip Blaiberg and the piggy-back heterotopic transplant.",
+  "christiaan-barnard.achievement.3":
+    "Returning from Minnesota in 1958, he introduced open-heart surgery to Cape Town and later developed valve prostheses for the mitral and aortic valves.",
+  "christiaan-barnard.moment.1":
+    "With no brain-death law in South Africa in 1967, Barnard invited the State forensic pathologist to witness the donor's ventilation being stopped before the heart was removed.",
+  "christiaan-barnard.interpretation.moment.1":
+    "This is consistent with a willingness to take a legally uncharted step while seeking outside verification.",
+  "christiaan-barnard.moment.2":
+    "After the 1973 failure, the Cape Town team developed the piggy-back heterotopic heart transplant, and 49 consecutive cases followed from 1974 to 1983.",
+  "christiaan-barnard.interpretation.moment.2":
+    "This is consistent with adjusting the method in response to setbacks.",
+  "christiaan-barnard.turning_point.1":
+    "In 1956 he left general practice work and a registrar post for Minnesota to train in cardio-thoracic surgery, returning in 1958 to run surgical research and open-heart surgery at Groote Schuur.",
+  "christiaan-barnard.interpretation.turning_point.1":
+    "This is consistent with a deliberate redirection toward the frontier of cardiac surgery.",
+  /* ---------------------------------------------------------- ellen-macarthur (Roster55) */
+  "ellen-macarthur.achievement.1":
+    "On 7 February 2005 she completed a solo, non-stop circumnavigation in 71 days 14 hours 18 minutes 33 seconds on the 75-foot trimaran B&Q, beating Francis Joyon's February 2004 time of 72 days 22 hours 54 minutes.",
+  "ellen-macarthur.achievement.2":
+    "She finished second in the 2000-01 Vendee Globe solo round-the-world race in 94 days, about 20 hours behind the winner, after a collision with a submerged container and a broken forestay.",
+  "ellen-macarthur.achievement.3":
+    "After retiring from competitive sailing in 2009, she founded the Ellen MacArthur Foundation in 2010 to promote a circular economy.",
+  "ellen-macarthur.moment.1":
+    "Dateline reports that when her generator overheated on day 14 of the 2004-05 record attempt, she routed cold outside air into the cabin to cool it and carried on.",
+  "ellen-macarthur.interpretation.moment.1":
+    "This is consistent with improvising practical fixes alone at sea.",
+  "ellen-macarthur.moment.2":
+    "In the 2000-01 Vendee Globe, after hitting a submerged container and then breaking her main forestay, she repaired what she could, slowed to protect the mast and still finished second, according to the Los Angeles Times.",
+  "ellen-macarthur.interpretation.moment.2":
+    "This is consistent with continuing a race through repeated equipment failures.",
+  "ellen-macarthur.turning_point.1":
+    "After finishing second in the Vendee Globe she moved on to round-the-world record attempts, first with the catamaran Kingfisher 2 (mast broken) and then a purpose-built trimaran that took the record in 2005.",
+  "ellen-macarthur.interpretation.turning_point.1":
+    "This is consistent with a shift from racing others to chasing an elapsed-time record with escalating attempts.",
+  /* ---------------------------------------------------------- henry-dunant (Roster55) */
+  "henry-dunant.achievement.1":
+    "An eyewitness of the Battle of Solferino in 1859, he helped tend the wounded of both sides and wrote A Memory of Solferino (1862), proposing voluntary relief societies in every country and an international agreement protecting the war wounded.",
+  "henry-dunant.achievement.2":
+    "One of the five founders of the Geneva committee, set up in 1863 and now the ICRC, which held the 1863 conference on national relief societies and helped bring about the first Geneva Convention in 1864.",
+  "henry-dunant.achievement.3":
+    "He shared the first Nobel Peace Prize in 1901 with Frederic Passy, decades after going bankrupt in 1867 and leaving Geneva.",
+  "henry-dunant.moment.1":
+    "At Castiglione after Solferino, with no medical role, he spent three days tending the wounded, sent his coachman to Brescia for dressings and provisions, and mobilised volunteers, mostly women, to treat all wounded alike.",
+  "henry-dunant.interpretation.moment.1":
+    "This is consistent with improvising practical relief from whatever was at hand.",
+  "henry-dunant.moment.2":
+    "In September 1863 Dunant had a new circular printed in Berlin on behalf of the Geneva Committee, extending the agenda to neutrality for medical services, without consulting his colleagues; Moynier told him they thought he was asking the impossible.",
+  "henry-dunant.interpretation.moment.2":
+    "This is consistent with pushing his own priorities ahead of agreement with colleagues.",
+  "henry-dunant.turning_point.1":
+    "In June 1859 Dunant, a businessman seeking water rights for his Algerian mills from Napoleon III, arrived at Solferino and instead spent days tending the wounded; he afterwards wrote the book that led to the Red Cross.",
+  "henry-dunant.interpretation.turning_point.1":
+    "This is consistent with redirecting his energy and resources from business toward relief work once he had seen the need.",
+  /* ---------------------------------------------------------- ingvar-kamprad (Roster55) */
+  "ingvar-kamprad.achievement.1":
+    "He registered IKEA in 1943 as a mail-order business and opened its first store in Almhult in 1958. Dezeen reports it became the world's largest furniture retailer, with about 36 billion euros in sales across 49 countries in 2016; he stepped down as chairman of Inter IKEA in 2013, and the AP says a foundation he created owns IKEA.",
+  "ingvar-kamprad.achievement.2":
+    "He built the company on low prices: furniture that customers assemble themselves, self-service stores, cheap sites outside cities and production moved to cheaper countries. Dezeen credits IKEA with bringing contemporary design to the masses.",
+  "ingvar-kamprad.achievement.3":
+    "In the 1950s Swedish furniture dealers barred IKEA from trade fairs and pressured its suppliers. Kamprad set up his own premises, a separate purchasing company and, from 1961, supply from Poland at prices the IKEA Museum says were almost 50% below Swedish manufacturing costs.",
+  "ingvar-kamprad.moment.1":
+    "After reading that Poland's foreign trade minister would visit Stockholm, Kamprad wrote to him in 1960 and in January 1961 travelled to Warsaw, where he was first refused factory access and then bought chairs, tables and fabrics.",
+  "ingvar-kamprad.interpretation.moment.1":
+    "This is consistent with acting on his own initiative to solve a supply problem.",
+  "ingvar-kamprad.moment.2":
+    "Barred from the Stockholm fairs, he rented his own premises on Drottninggatan, visited factories himself and set up the purchasing company Ikano to get round the supplier boycott.",
+  "ingvar-kamprad.interpretation.moment.2":
+    "This is consistent with finding practical workarounds when blocked.",
+  "ingvar-kamprad.turning_point.1":
+    "The 1950s boycott left IKEA short of products and pushed it to design its own furniture and to look abroad for suppliers, a shift that turned Poland from 1961 into a key source and gave IKEA a price advantage rivals did not match.",
+  "ingvar-kamprad.interpretation.turning_point.1":
+    "This is consistent with turning an outside constraint into a lasting business advantage.",
+  /* ---------------------------------------------------------- john-dewey (Roster55) */
+  "john-dewey.achievement.1":
+    "Britannica calls him a cofounder of the philosophy of pragmatism, alongside Peirce and James in Zilversmit's account, and a pioneer of functional psychology; he rejected the idea of changeless being and wrote Experience and Nature (1925).",
+  "john-dewey.achievement.2":
+    "At the University of Chicago he founded the Laboratory School to test his educational ideas, and set out his philosophy of education in The School and Society (1899) and Democracy and Education (1916).",
+  "john-dewey.achievement.3":
+    "From Columbia and Teachers College his ideas spread through disciples and became identified with Progressive education; in Experience and Education (1938) he rebuked the movement's excesses, and his reputation later waned after the 1950s.",
+  "john-dewey.moment.1":
+    "In 1938 Dewey, in Experience and Education, recognised and rebuked the excesses of the Progressive education movement, chastising Progressives for discarding traditional content without offering something worthwhile in its place.",
+  "john-dewey.interpretation.moment.1":
+    "This is consistent with a willingness to criticise a movement he had inspired when he thought it had gone wrong.",
+  "john-dewey.moment.2":
+    "At the University of Chicago he founded the Laboratory School as a place to test psychological and educational theories, and used the experience as the material for The School and Society.",
+  "john-dewey.interpretation.moment.2":
+    "This is consistent with testing theory in a working school rather than only arguing it on paper.",
+  "john-dewey.turning_point.1":
+    "At the University of Michigan Dewey's interests gradually shifted from Hegel's philosophy toward the new experimental psychology of G. Stanley Hall and William James, which led to child psychology and his philosophy of education.",
+  "john-dewey.interpretation.turning_point.1":
+    "This is consistent with revising his intellectual starting point in response to a new line of empirical work.",
+  /* ---------------------------------------------------------- john-mccarthy (Roster55) */
+  "john-mccarthy.achievement.1":
+    "Wrote the 1955 proposal for the 1956 Dartmouth summer workshop that put the name 'artificial intelligence' into use, and spent decades on the logic-based approach to common-sense reasoning that the Kyoto Prize named his foremost achievement.",
+  "john-mccarthy.achievement.2":
+    "Invented the Lisp programming language in 1958, in which programs and data share one notation; it became widely adopted for AI research.",
+  "john-mccarthy.achievement.3":
+    "Proposed time-sharing at MIT (working with Fernando Corbato), founded the Stanford Artificial Intelligence Laboratory and directed it from 1965 to 1980, and received the 1971 Turing Award.",
+  "john-mccarthy.moment.1":
+    "Crevier reports that the Dartmouth conference deeply disappointed its organizer, yet McCarthy persuaded most participants to adopt the name 'artificial intelligence' despite objections from Arthur Samuel and from Newell and Simon.",
+  "john-mccarthy.interpretation.moment.1":
+    "This is consistent with persuading peers toward a shared framing even when the event itself fell short of his hopes.",
+  "john-mccarthy.moment.2":
+    "Stanford colleague Les Earnest said McCarthy was so focused on his work that if engaged on a topic he was not interested in, he would sometimes turn away without saying a thing.",
+  "john-mccarthy.interpretation.moment.2":
+    "This is consistent with very intense concentration that sometimes came at the cost of ease in conversation.",
+  "john-mccarthy.turning_point.1":
+    "In 1962 McCarthy left MIT, where he and Marvin Minsky had started the AI group, to head his own AI laboratory at Stanford, and he directed the Stanford AI Lab from 1965 to 1980.",
+  "john-mccarthy.interpretation.turning_point.1":
+    "This is consistent with a move from co-leading a shared group toward building his own laboratory around his preferred logic-based approach.",
+  /* ---------------------------------------------------------- joseph-haydn (Roster55) */
+  "joseph-haydn.achievement.1":
+    "One of the most important figures in the development of the Classical style, who helped establish the forms of the string quartet and the symphony; one reference count credits him with 104 symphonies and 83 string quartets.",
+  "joseph-haydn.achievement.2":
+    "Led the Esterhazy family's court music for about thirty years, from 1761; became a close friend of Mozart, who dedicated six quartets to him, and taught the young Beethoven in Vienna in 1792-94.",
+  "joseph-haydn.achievement.3":
+    "Wrote the symphonies of his two London visits (1791-92, 1794-95) for Salomon's concerts, and later the oratorios The Creation (1798) and The Seasons (1801).",
+  "joseph-haydn.moment.1":
+    "Expelled from the St Stephen's choir school at 17 with little training in theory, he taught himself from C. P. E. Bach's music and standard theory manuals.",
+  "joseph-haydn.interpretation.moment.1":
+    "This is consistent with a musician who built his craft by deliberate self-study.",
+  "joseph-haydn.moment.2":
+    "For The Creation, Baron van Swieten adapted the libretto and annotated it with suggestions for fugues and tone painting; Haydn adopted some and rejected others.",
+  "joseph-haydn.interpretation.moment.2":
+    "This is consistent with working closely with a collaborator while keeping the final musical decisions.",
+  "joseph-haydn.turning_point.1":
+    "After cuts at the Esterhazy court in 1790, he accepted Salomon's invitation and travelled to London at 58, speaking no English, and began English lessons on arrival.",
+  "joseph-haydn.interpretation.turning_point.1":
+    "This is consistent with a willingness to change his working setting late in a long career.",
+  /* ---------------------------------------------------------- larry-ellison (Roster55) */
+  "larry-ellison.achievement.1":
+    "He co-founded Software Development Laboratories in 1977 with Bob Miner and Ed Oates, the company that became Oracle, and took the lead as president in building a database business out of a consulting start.",
+  "larry-ellison.achievement.2":
+    "Oracle developed and began selling an SQL-compatible relational database before IBM had an SQL product on the market, according to the National Research Council. Version 3, rewritten in C in 1983, let it run across many computer makers.",
+  "larry-ellison.achievement.3":
+    "Oracle later grew through acquisitions, about $45 billion since 2004 by TechCrunch's count, including PeopleSoft for $10.3 billion and Sun Microsystems for $7.4 billion, and Ellison announced its public cloud service in 2011.",
+  "larry-ellison.moment.1":
+    "To make the database portable, the company rewrote it in the then-new C language over several years and froze new features meanwhile; the essay says engineer Bruce Scott pushed for it and Ellison backed him against co-founder Miner's preference for a quicker VAX port.",
+  "larry-ellison.interpretation.moment.1":
+    "This is consistent with a willingness to accept a long, costly technical bet.",
+  "larry-ellison.moment.2":
+    "In September 2008 he told analysts cloud computing was 'complete gibberish' and that Oracle would change little beyond some ad wording; in October 2011 he announced Oracle's own public cloud service.",
+  "larry-ellison.interpretation.moment.2":
+    "This is consistent with a late change of direction after an initially dismissive stance.",
+  "larry-ellison.turning_point.1":
+    "After the first years as a contract-software consultancy, the founders stopped consulting and turned to a relational database product built from IBM's published System R work, and the CIA became the first customer.",
+  "larry-ellison.interpretation.turning_point.1":
+    "This is consistent with an ability to see a commercial opening in work that a larger company had not yet shipped.",
+  /* ---------------------------------------------------------- louis-brandeis (Roster55) */
+  "louis-brandeis.achievement.1":
+    "Argued Muller v. Oregon (1908) with a brief that gave two pages to precedent and over a hundred to evidence on women's working conditions; a unanimous Court upheld the law and the 'Brandeis brief' became a model for fact-based argument.",
+  "louis-brandeis.achievement.2":
+    "Served on the U.S. Supreme Court from 1916 to 1939; his Olmstead v. United States dissent (1928) argued that government wiretapping violated the Fourth Amendment's protection of the 'right to be let alone', and his Whitney v. California concurrence became a milestone of free-speech law.",
+  "louis-brandeis.achievement.3":
+    "Co-wrote the 1890 Harvard Law Review article 'The Right to Privacy' with Samuel Warren and published 'Other People's Money and How the Bankers Use It' (1914), whose banking reforms were largely adopted only after the bank failures of the 1930s.",
+  "louis-brandeis.moment.1":
+    "In 1906 Brandeis resigned from the board of the United Shoe Manufacturing Company when it tried to monopolise the industry, and later testified against it at public hearings.",
+  "louis-brandeis.interpretation.moment.1":
+    "This is consistent with acting on principle at a cost to a client relationship.",
+  "louis-brandeis.moment.2":
+    "In Olmstead v. United States (1928), Brandeis dissented from the majority that allowed wiretapping, arguing that the framers conferred 'the right to be let alone' against the government.",
+  "louis-brandeis.interpretation.moment.2":
+    "This is consistent with reasoning independently of the majority, extending older principles to new technology.",
+  "louis-brandeis.turning_point.1":
+    "From about 1892 Brandeis, who had started with railroad and manufacturing clients, increasingly took public-interest cases for little or no fee, later paying his firm so his partners would not suffer.",
+  "louis-brandeis.interpretation.turning_point.1":
+    "This is consistent with a shift in motivation from private practice toward public-interest work.",
+  /* ---------------------------------------------------------- luciano-pavarotti (Roster55) */
+  "luciano-pavarotti.achievement.1":
+    "He became the leading lyric tenor of the mid-1970s, famed for a voice of sweetness and power in bel canto and Italian repertory; his nine high Cs as Tonio in La Fille du regiment at the Met in 1972 earned him the nickname 'King of the High Cs'.",
+  "luciano-pavarotti.achievement.2":
+    "He sang about 379 performances at the Metropolitan Opera over 36 years, more than at any other house, and starred in the 1977 Live from the Met telecast of La Boheme that brought opera to a wide television audience.",
+  "luciano-pavarotti.achievement.3":
+    "He took opera to mass audiences through television, stadium concerts, pop duets and the 1990 Three Tenors concert with Domingo and Carreras, an effort that drew huge crowds and also criticism from opera purists who thought it cheapened the art.",
+  "luciano-pavarotti.moment.1":
+    "At the Met in 1972 he sang all the high Cs of Tonio's aria in La Fille du regiment, an exposed passage that made him a worldwide name and led to a Tonight Show appearance.",
+  "luciano-pavarotti.interpretation.moment.1":
+    "This is consistent with a willingness to take on a famously exposed passage in public.",
+  "luciano-pavarotti.moment.2":
+    "After the 1977 Live from the Met telecast of La Boheme he said he realised the power of television and decided to devote himself to it, going on to 19 Met television broadcasts.",
+  "luciano-pavarotti.interpretation.moment.2":
+    "This is consistent with an eye for a new channel through which to widen his audience.",
+  "luciano-pavarotti.turning_point.1":
+    "From the mid-1970s he added recitals, television, stadium concerts and, from 1990, the Three Tenors to his opera career, widening his audience while drawing criticism that it cheapened opera.",
+  "luciano-pavarotti.interpretation.turning_point.1":
+    "This is consistent with a readiness to change formats to reach a wider public, at a cost to his standing among purists.",
+  /* ---------------------------------------------------------- maria-montessori (Roster55) */
+  "maria-montessori.achievement.1":
+    "A physician who moved into education: she directed the State Orthophrenic School of Rome (1899-1901), where she built on the work of Itard and Seguin and reported success with children then regarded as intellectually disabled.",
+  "maria-montessori.achievement.2":
+    "In 1907 she opened the first Casa dei Bambini in Rome's San Lorenzo slum district and developed the Montessori method of self-directed work with specially designed materials, described in The Montessori Method (1909; English 1912).",
+  "maria-montessori.achievement.3":
+    "Through teacher-training courses, lecture tours, books and the Association Montessori Internationale (founded 1929) the method spread to schools across Europe, the United States and India, although Dewey and Kilpatrick criticised it as rigid and over-individual.",
+  "maria-montessori.moment.1":
+    "At the first Children's House, according to a retelling of her own account, children found a cupboard of materials left unlocked and began working with them; she replaced the locked cabinet with low open shelves so the materials were always available.",
+  "maria-montessori.interpretation.moment.1":
+    "This is consistent with revising a classroom arrangement after observing what the children actually did.",
+  "maria-montessori.moment.2":
+    "Initially refused entry to the University of Rome's medical programme, and opposed by her father, she was admitted after additional courses and graduated in 1896, working alone on dissections because mixed classes were not allowed.",
+  "maria-montessori.interpretation.moment.2":
+    "This is consistent with continuing toward a goal despite repeated institutional and family obstacles.",
+  "maria-montessori.turning_point.1":
+    "Her work as co-director of the Orthophrenic School from 1900 marked, in AMI's words, a shift in her professional identity from physician to educator, as she began testing her ideas on teaching children in practice.",
+  "maria-montessori.interpretation.turning_point.1":
+    "This is consistent with moving across fields when practical work opened a new line of inquiry.",
+  /* ---------------------------------------------------------- marvin-minsky (Roster55) */
+  "marvin-minsky.achievement.1":
+    "With John McCarthy established the AI Group at MIT in the late 1950s, which became the MIT AI Laboratory (now CSAIL), and later became a founding member of the MIT Media Lab.",
+  "marvin-minsky.achievement.2":
+    "Developed the Theory of Frames, in which knowledge is stored as slots with default values, and The Society of Mind (1985), which proposed that intelligence emerges from many simple cooperating agents.",
+  "marvin-minsky.achievement.3":
+    "Built an early neural-network learning machine in 1951, wrote Perceptrons with Seymour Papert analysing what simple perceptrons can and cannot compute, and received the 1969 ACM Turing Award.",
+  "marvin-minsky.moment.1":
+    "Crevier reports that rather than study neural networks in the abstract, Minsky and fellow student Dean Edmonds built a forty-neuron machine from surplus parts in the summer of 1951.",
+  "marvin-minsky.interpretation.moment.1":
+    "This is consistent with a preference for testing ideas by building working machines.",
+  "marvin-minsky.moment.2":
+    "Crevier recounts that Minsky travelled to Japan with Carl Hewitt to urge colleagues to reconsider adopting PROLOG, in vain, since he did not believe logic was a basic attribute of intelligence.",
+  "marvin-minsky.interpretation.moment.2":
+    "This is consistent with holding a minority view against the field's direction and arguing for it directly.",
+  "marvin-minsky.turning_point.1":
+    "After his 1954 Princeton thesis, Minsky concluded that networks big enough to reason would need thousands or millions of neurons that he could not build, and he looked for other ways to make machines think.",
+  "marvin-minsky.interpretation.turning_point.1":
+    "This is consistent with changing approach when the practical limits of an earlier method became clear.",
+  /* ---------------------------------------------------------- miguel-de-cervantes (Roster55) */
+  "miguel-de-cervantes.achievement.1":
+    "Wrote Don Quixote (Part I 1605, Part II 1615), which many scholars regard as the first modern novel; Britannica calls him the most important and celebrated figure in Spanish literature, and the book has been translated into more than 60 languages.",
+  "miguel-de-cervantes.achievement.2":
+    "Worked in nearly every major genre: the pastoral romance La Galatea (1585), plays and interludes, the Exemplary Stories (1613), the verse Journey to Parnassus (1614) and the romance Persiles, published after his death.",
+  "miguel-de-cervantes.achievement.3":
+    "After a rival's false sequel appeared in 1614, he finished and published the real Part II in 1615, answering the imitation inside the story and carrying Don Quixote's adventures to their end.",
+  "miguel-de-cervantes.moment.1":
+    "When a false continuation of Don Quixote appeared in 1614, he wrote its existence into his own Part II: Don Quixote leafs through the false book and meets one of its characters, who confirms the real hero.",
+  "miguel-de-cervantes.interpretation.moment.1":
+    "This is consistent with an author who answered a rival by reworking his own project rather than ignoring it.",
+  "miguel-de-cervantes.moment.2":
+    "He completed Persiles and Sigismunda, a romance promised in several earlier prefaces, four days before his death in 1616; it was published after he died.",
+  "miguel-de-cervantes.interpretation.moment.2":
+    "This is consistent with a writer who kept working toward a long-promised book to the end of his life.",
+  "miguel-de-cervantes.turning_point.1":
+    "After Lope de Vega came to dominate the Madrid stage, he set his plays aside and in 1615 published them in print as eight comedies and eight interludes never performed, a break from the usual route to an audience.",
+  "miguel-de-cervantes.interpretation.turning_point.1":
+    "This is consistent with a writer who changed channel when the usual one closed to him.",
+  /* ---------------------------------------------------------- muhammad-yunus (Roster55) */
+  "muhammad-yunus.achievement.1":
+    "In 1976 lent 27 dollars of his own money to 42 villagers in Jobra, then built an institutional solution; the project became the independent Grameen Bank in 1983.",
+  "muhammad-yunus.achievement.2":
+    "Developed Grameen's collateral-free lending method (small group loans with weekly repayments, a group fund and a majority of women borrowers), which the Nobel Foundation says has been replicated in more than 100 countries.",
+  "muhammad-yunus.achievement.3":
+    "Shared the 2006 Nobel Peace Prize with Grameen Bank for efforts to create economic and social development from below, and extended the model through Grameen Trust and related ventures such as GrameenPhone.",
+  "muhammad-yunus.moment.1":
+    "After months of failing to persuade traditional banks to lend to the poor, Yunus obtained a Janata Bank credit line in 1976-77 by signing as guarantor himself.",
+  "muhammad-yunus.interpretation.moment.1":
+    "This is consistent with taking personal responsibility to get a venture started when institutions resisted.",
+  "muhammad-yunus.moment.2":
+    "Grameen first set minuscule daily payments, soon changed to weekly to cut the accounting load, and from 1979 expanded across five isolated districts to show the bank did not depend on Yunus's personal charisma.",
+  "muhammad-yunus.interpretation.moment.2":
+    "This is consistent with an iterative, test-and-adjust approach to building the lending model.",
+  "muhammad-yunus.turning_point.1":
+    "The 1974 famine shook Yunus, then an economics professor, who asked what the point of economic theory was when people around him were dying of hunger; by 1976 he was lending to villagers.",
+  "muhammad-yunus.interpretation.turning_point.1":
+    "This is consistent with a shift from academic economics toward hands-on poverty work.",
+  /* ---------------------------------------------------------- neil-degrasse-tyson (Roster55) */
+  "neil-degrasse-tyson.achievement.1":
+    "Became Frederick P. Rose Director of the Hayden Planetarium at the American Museum of Natural History and led its $210 million renovation, completed in 2000.",
+  "neil-degrasse-tyson.achievement.2":
+    "Brought astronomy to wide audiences through monthly Natural History essays, about 15 books, NOVA ScienceNOW and the StarTalk radio show, podcast and television programmes.",
+  "neil-degrasse-tyson.achievement.3":
+    "Hosted Cosmos: A Spacetime Odyssey (2014), the continuation of Carl Sagan's series, which won four Emmys and a Peabody, and later Cosmos: Possible Worlds (2020).",
+  "neil-degrasse-tyson.moment.1":
+    "After the Rose Center exhibits omitted Pluto from the planet displays, Tyson, who chaired the committee that designed them, became the public face of the controversy and later wrote The Pluto Files about it.",
+  "neil-degrasse-tyson.interpretation.moment.1":
+    "This is consistent with a willingness to stand publicly behind a contested professional decision.",
+  "neil-degrasse-tyson.moment.2":
+    "He wrote monthly essays for Natural History from 1995 to 2005 and began the StarTalk radio show in 2009, which later grew into television programmes.",
+  "neil-degrasse-tyson.interpretation.moment.2":
+    "This is consistent with sustained, long-running effort to reach public audiences.",
+  "neil-degrasse-tyson.turning_point.1":
+    "Moving from research associate work in astrophysics into the planetarium directorship in the mid-1990s, he shifted his career toward public science education and later broadcasting.",
+  "neil-degrasse-tyson.interpretation.turning_point.1":
+    "This is consistent with a career whose centre of gravity moved from research toward public communication.",
+  /* ---------------------------------------------------------- ranulph-fiennes (Roster55) */
+  "ranulph-fiennes.achievement.1":
+    "He led the Transglobe Expedition (1979-82), which the Royal Geographical Society's archive record describes as the first journey around the world along its polar axis using only surface transport. Preparation took seven years and the journey three.",
+  "ranulph-fiennes.achievement.2":
+    "In 1992-93 he and Mike Stroud set out to cross Antarctica on foot with no animals, machines or outside help, each hauling a sled of nearly 500 pounds. Bristol's citation calls it the longest unsupported polar journey in history; a review of Stroud's book says it ended short of its goal.",
+  "ranulph-fiennes.achievement.3":
+    "He received the Royal Geographical Society's Founder's Medal (1984), an OBE (1993) and the Polar Medal (1995). Later challenges include seven marathons in seven days in 2003 and the Everest summit in 2009, with fundraising for charities.",
+  "ranulph-fiennes.moment.1":
+    "For the Transglobe Expedition he looked for people who were 'good-natured, patient and fit' and had the Territorial Army train them free, and won an RAF Hercules flight and an army Land Rover from the Ministry of Defence.",
+  "ranulph-fiennes.interpretation.moment.1":
+    "This is consistent with a talent for assembling outside help for expeditions.",
+  "ranulph-fiennes.moment.2":
+    "On the 1992-93 Antarctic crossing the two men disagreed over pace: Fiennes favoured a slow 'polar plod' while Stroud wanted to go faster, and by day 95 both were too weak to continue.",
+  "ranulph-fiennes.interpretation.moment.2":
+    "This is consistent with a steady, endurance-first approach to long hauls.",
+  "ranulph-fiennes.turning_point.1":
+    "After a 1977 approach toward the North Pole and seven years of preparation, he led the Transglobe Expedition (1979-82), moving from sponsored regional expeditions to world-scale polar journeys.",
+  "ranulph-fiennes.interpretation.turning_point.1":
+    "This is consistent with a deliberate, staged build-up to larger expeditions.",
+  /* ---------------------------------------------------------- satoru-iwata (Roster55) */
+  "satoru-iwata.achievement.1":
+    "He started as a programmer at HAL Laboratory, became its president in 1993, joined Nintendo in 2000 and was named its president in 2002, the first person outside the founding Yamauchi family to hold the post, according to The Register.",
+  "satoru-iwata.achievement.2":
+    "Under his leadership Nintendo developed the DS and the Wii, which The Register calls the home console of choice for casual gamers; in 2006 he described Brain Training as a DS software line meant to reach players who did not already play games.",
+  "satoru-iwata.achievement.3":
+    "He kept programming as an executive. As HAL's president he rebuilt the Pokemon battle system for Pokemon Stadium on the N64 from the Game Boy source in about a week, which Game Freak programmer Shigeki Morimoto found astonishing.",
+  "satoru-iwata.moment.1":
+    "Game Freak programmer Shigeki Morimoto said that when he heard Iwata had ported his Pokemon battle program in about a week, working only from the source code, he thought: 'What kind of company president is this!?'",
+  "satoru-iwata.interpretation.moment.1":
+    "This is consistent with a deep, hands-on command of programming craft.",
+  "satoru-iwata.moment.2":
+    "At the 2006 Game Developers Conference he gave every attendee a copy of Brain Age and had Will Wright and others play it on stage, after saying Nintendo had made Japanese retailers try the game before ordering it.",
+  "satoru-iwata.interpretation.moment.2":
+    "This is consistent with a preference for persuading by letting people try the product.",
+  "satoru-iwata.turning_point.1":
+    "After years in which Nintendo kept its games on its own hardware, the company announced a partnership with DeNA in May 2015 to bring games to smartphones and tablets, a move the Globe and Mail says reversed its earlier resistance.",
+  "satoru-iwata.interpretation.turning_point.1":
+    "This is consistent with a late shift in strategy after sustained pressure on the company.",
+  /* ---------------------------------------------------------- terence-tao (Roster55) */
+  "terence-tao.achievement.1":
+    "With Ben Green he proved in 2004 that the prime numbers contain arithmetic progressions of any length, a long-standing question.",
+  "terence-tao.achievement.2":
+    "He received the 2006 Fields Medal for contributions to partial differential equations, combinatorics, harmonic analysis and additive number theory, with work ranging from the Kakeya problem to wave maps.",
+  "terence-tao.achievement.3":
+    "He worked with Emmanuel Candes on compressed sensing, used in image reconstruction, and organised the open online Polymath project on prime gaps in 2013.",
+  "terence-tao.moment.1":
+    "In 2015 Tao proved the Erdos discrepancy conjecture, weeks after a blog commenter suggested a link to the Elliott conjecture, and thanked the commenter in the paper.",
+  "terence-tao.interpretation.moment.1":
+    "This is consistent with a willingness to revise a first impression and build on others' ideas.",
+  "terence-tao.moment.2":
+    "In June 2013 he created the Polymath project on bounded prime gaps, splitting Zhang's modular proof among participants; at times the bound fell every thirty minutes.",
+  "terence-tao.interpretation.moment.2":
+    "This is consistent with a collaborative, modular way of attacking a problem in public.",
+  "terence-tao.turning_point.1":
+    "In October 2023 he announced he was learning the Lean proof language with AI help, and in November led the formalization of the PFR proof with many volunteers, completed in about three weeks.",
+  "terence-tao.interpretation.turning_point.1":
+    "This is consistent with a mid-career shift toward formal verification and large-scale collaboration.",
+  /* ---------------------------------------------------------- wayne-gretzky (Roster55) */
+  "wayne-gretzky.achievement.1":
+    "He won nine Hart Trophies as league MVP and four Stanley Cups with the Edmonton Oilers. Maclean's counted 894 goals, 1,962 assists, 2,856 points and 61 league records held or shared when he retired in 1999, and the Hockey Hall of Fame inducted him that November.",
+  "wayne-gretzky.achievement.2":
+    "He was above all a playmaker. A 1981 profile said he operated half a play ahead of everyone else and set up plays from behind the opposing net, and he assisted on 364 of linemate Jari Kurri's NHL goals, according to NHL.com.",
+  "wayne-gretzky.achievement.3":
+    "Traded to the Los Angeles Kings in August 1988, he led them to the 1993 Stanley Cup Final. NBC Sports says he helped show that hockey could succeed in non-traditional markets, though he never won a Cup with the Kings.",
+  "wayne-gretzky.moment.1":
+    "At 20, after breaking Esposito's points and Orr's assists records, he told a reporter his anticipation was not instinct but practice, and that his father had taught him to figure where the puck was going to go rather than follow it.",
+  "wayne-gretzky.interpretation.moment.1":
+    "This is consistent with a view of skill as something built through deliberate practice.",
+  "wayne-gretzky.moment.2":
+    "He told the Monitor in 1981 that he developed his passing in junior hockey when two defenders checked him, learning to dish the puck to the open man, and that he got as big a kick out of setting up a goal as scoring one.",
+  "wayne-gretzky.interpretation.moment.2":
+    "This is consistent with a playing style built around feeding teammates rather than only scoring.",
+  "wayne-gretzky.turning_point.1":
+    "On 9 August 1988 the Oilers traded him, with Marty McSorley and Mike Krushelnyski, to the Los Angeles Kings for two players, three first-round picks and $15 million; Oilers coach Glen Sather opposed the deal but owner Peter Pocklington forced it.",
+  "wayne-gretzky.interpretation.turning_point.1":
+    "This is consistent with a career carried into a new team and market after a major change.",
+  /* ---------------------------------------------------------- yo-yo-ma (Roster55) */
+  "yo-yo-ma.achievement.1":
+    "He became one of the leading cellists of his generation, recording most of the solo cello repertoire and winning ten Grammy awards between 1984 and 1997, and he commissioned and premiered works by contemporary American composers.",
+  "yo-yo-ma.achievement.2":
+    "He made Bach's unaccompanied cello suites a signature repertoire, winning a Grammy for his recording in 1984 and presenting a 1990s series of films that set the suites alongside dance, architecture, garden design and other arts.",
+  "yo-yo-ma.achievement.3":
+    "In 1998 he conceived Silkroad, bringing musicians from the lands of the Silk Road together as an ensemble and later a nonprofit that commissions new music and runs education programmes; critics have both praised its collaboration and questioned its depth.",
+  "yo-yo-ma.moment.1":
+    "For his tango album Soul of the Tango he studied a recording of Rostropovich rehearsing Piazzolla's Le Grand Tango and travelled to Buenos Aires to visit tango clubs.",
+  "yo-yo-ma.interpretation.moment.1":
+    "This is consistent with a habit of immersing himself in an unfamiliar tradition before performing it.",
+  "yo-yo-ma.moment.2":
+    "In the 1990s he presented films of Bach's cello suites with choreographer Mark Morris, a Kabuki artist, a garden designer, ice dancers and a film director.",
+  "yo-yo-ma.interpretation.moment.2":
+    "This is consistent with a readiness to test a core work against other art forms through partnerships.",
+  "yo-yo-ma.turning_point.1":
+    "In 1998 he began Silkroad, moving from solo and chamber performance to convening and commissioning with musicians from many traditions.",
+  "yo-yo-ma.interpretation.turning_point.1":
+    "This is consistent with a readiness to start and lead a long-running initiative beyond his solo career.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -17623,6 +18041,424 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1996년 8월, 23세의 텐둘카르는 아자루딘의 뒤를 이어 인도 대표팀 주장이 되었다. 와이즈던의 마이크 셀비는 그가 이 자리를 열정적으로 좇지는 않았다고 썼고, 파르탑 람찬드는 1996~97년에는 아직 준비가 덜 되었으나 1999년에는 나아지고 있다고 평가했다.",
   "sachin-tendulkar.interpretation.turning_point.1":
     "주장직을 스스로 좇았다기보다 맡게 된 선수였고 리더십은 시간이 걸려 다듬어졌다는 점과 부합한다.",
+  /* ---------------------------------------------------------- albert-schweitzer (Roster55) */
+  "albert-schweitzer.achievement.1":
+    "의학 학위를 받은 뒤 1913년 가봉 랑바레네에 병원을 세워 평생 대부분을 그곳에서 보내며 약 70동 규모로 키웠다. 노벨재단에 따르면 그는 노벨 평화상 상금으로 그곳에 나병 요양 시설을 세웠다.",
+  "albert-schweitzer.achievement.2":
+    "1906년 『역사적 예수의 탐구』(The Quest of the Historical Jesus)에서 기존의 예수 전기들이 저자들의 자유주의적 이상을 투영했다고 논증해 성서 비평의 대표 저작을 남겼고, 이후 '생명에 대한 경외' 윤리를 정립했다.",
+  "albert-schweitzer.achievement.3":
+    "국제적으로 알려진 오르가니스트이자 바흐 연구자로서 바흐 전기(1905)와 오르간 제작·연주에 관한 책(1906)을 썼고 바흐 오르간 작품 전 8권 편집에 착수했다. 연주 활동은 의학 공부와 병원 운영 자금에 보탬이 되었다.",
+  "albert-schweitzer.moment.1":
+    "독일 국적자로 억류되었다가 1924년 랑바레네로 돌아온 슈바이처는 병원이 낡고 일부가 밀림에 잠식된 것을 보고 상류에 새로 지었다.",
+  "albert-schweitzer.interpretation.moment.1":
+    "이는 차질을 겪고도 사업을 이어 가려는 꾸준한 노력과 일치한다.",
+  "albert-schweitzer.moment.2":
+    "1964년 서평에서 코너 크루즈 오브라이언은 교육받은 아프리카인들이 슈바이처에게서 변화에 대한 저항을 보았다고 전했고, 제럴드 맥나이트의 설명을 빌려 그가 '소박한 사람들'이 현대적 병원에 오지 않으리라 믿어 랑바레네를 현대화하지 않았다고 소개했다.",
+  "albert-schweitzer.interpretation.moment.2":
+    "이는 그가 방식을 바꾸는 데 더뎠다는 비판과 일치하지만, 날짜가 특정된 사건이 아니라 비판적 논평이다.",
+  "albert-schweitzer.turning_point.1":
+    "1905년 이미 신학 교사·설교자·오르가니스트였던 슈바이처는 아프리카에서 봉사하기 위해 스트라스부르에서 의학 공부를 시작했고, 연주회와 강연으로 학비를 마련했다.",
+  "albert-schweitzer.interpretation.turning_point.1":
+    "이는 봉사를 향한 의도적인 진로 전환과 일치한다.",
+  /* ---------------------------------------------------------- bernhard-riemann (Roster55) */
+  "bernhard-riemann.achievement.1":
+    "1854년 교수자격 강연에서 고유 계량을 가진 n차원 곡률 공간을 정의해 리만 기하학의 토대를 놓았고, 이는 훗날 아인슈타인이 일반상대성이론에 활용했다.",
+  "bernhard-riemann.achievement.2":
+    "1859년 소수 개수에 관한 논문에서 제타 함수를 복소함수로 다루어 함수방정식을 확립하고 리만 가설을 제시했으며, 이 가설은 지금도 미해결로 남아 있다.",
+  "bernhard-riemann.achievement.3":
+    "리만 곡면과 위상수학적 방법을 복소해석학에 도입했고(1851년 학위논문, 1857년 아벨 함수 논문), 리만 적분을 정의했다.",
+  "bernhard-riemann.moment.1":
+    "1854년 교수자격 강연을 위해 리만은 세 가지 주제를 준비했고 가우스가 기하학 주제를 골랐으며, MacTutor에 따르면 청중 중 가우스만이 그 깊이를 이해했다.",
+  "bernhard-riemann.interpretation.moment.1":
+    "이는 학계가 따라오기 어려울 만큼 앞서 나간 독창성과 부합한다.",
+  "bernhard-riemann.moment.2":
+    "1859년 논문에서 그는 제타 함수의 모든 영점이 실수일 가능성이 매우 높다고 쓰면서도, 몇 차례 덧없는 시도 끝에 더 엄밀한 증명은 잠시 접어 두었다고 밝혔다.",
+  "bernhard-riemann.interpretation.moment.2":
+    "이는 직관으로 앞서 나가며 엄밀한 증명은 공개적으로 후대에 남겨 둔 사고방식과 부합한다.",
+  "bernhard-riemann.turning_point.1":
+    "1859년 디리클레가 사망하자 리만이 괴팅겐 대학 교수직을 이어받았고, 며칠 뒤 성숙하고 독립적인 연구자라는 추천문과 함께 베를린 학술원 회원으로 선출되었으며 소수 논문이 이어졌다.",
+  "bernhard-riemann.interpretation.turning_point.1":
+    "이는 거의 무명이던 젊은 연구자에서 독일 수학의 중심으로 옮겨 간 흐름과 부합한다.",
+  /* ---------------------------------------------------------- christiaan-barnard (Roster55) */
+  "christiaan-barnard.achievement.1":
+    "1967년 12월 3일 그루트 슈어 병원 팀을 이끌어 데니스 다바일의 심장을 루이스 와시칸스키에게 이식했으며, 이는 최초의 인간 간 심장 이식으로 알려져 있다.",
+  "christiaan-barnard.achievement.2":
+    "와시칸스키의 사망 이후 케이프타운 프로그램은 필립 블레이버그를 위한 변형 기법과 보조 심장(피기백) 이식법 등으로 수술을 개선해 나갔다.",
+  "christiaan-barnard.achievement.3":
+    "1958년 미네소타에서 돌아와 케이프타운에 개심술을 도입했고, 이후 승모판과 대동맥판 인공판막을 개발했다.",
+  "christiaan-barnard.moment.1":
+    "1967년 남아공에는 뇌사 관련 법이 없었기에, 버나드는 심장 적출 전에 국가 법의학자를 초청해 기증자의 인공호흡 중단을 참관하게 했다.",
+  "christiaan-barnard.interpretation.moment.1":
+    "이는 법적으로 전례 없는 일을 감행하되 외부 검증을 구한 태도와 부합한다.",
+  "christiaan-barnard.moment.2":
+    "1973년의 실패 이후 케이프타운 팀은 피기백 보조 심장 이식법을 개발했고, 1974년부터 1983년까지 연속 49건이 이어졌다.",
+  "christiaan-barnard.interpretation.moment.2":
+    "이는 실패에 대응해 방법을 고쳐 나간 태도와 부합한다.",
+  "christiaan-barnard.turning_point.1":
+    "1956년 그는 개업의와 전공의 경력을 뒤로하고 심장흉부외과를 배우러 미네소타로 갔고, 1958년 돌아와 그루트 슈어 병원에서 외과 연구와 개심술을 이끌었다.",
+  "christiaan-barnard.interpretation.turning_point.1":
+    "이는 심장외과의 최전선을 향해 의도적으로 방향을 바꾼 흐름과 부합한다.",
+  /* ---------------------------------------------------------- ellen-macarthur (Roster55) */
+  "ellen-macarthur.achievement.1":
+    "2005년 2월 7일 75피트 트라이머랜 B&Q로 단독 무기항 세계일주를 71일 14시간 18분 33초에 마쳐, 2004년 2월 프랑시스 조이옹의 72일 22시간 54분 기록을 앞섰다.",
+  "ellen-macarthur.achievement.2":
+    "2000-01 방데 글로브 단독 세계일주 경기에서 수중 컨테이너 충돌과 포스테이 파손을 겪고도 94일 만에 우승자보다 약 20시간 늦은 2위로 완주했다.",
+  "ellen-macarthur.achievement.3":
+    "2009년 경쟁 항해에서 은퇴한 뒤 2010년 순환경제를 알리는 엘런 맥아더 재단을 세웠다.",
+  "ellen-macarthur.moment.1":
+    "데이트라인에 따르면 2004-05 기록 도전 14일째에 발전기가 과열되자 그녀는 바깥의 찬 공기를 선실로 끌어들여 식혔고 항해를 이어갔다.",
+  "ellen-macarthur.interpretation.moment.1":
+    "이는 바다 위에서 혼자 실용적인 해결책을 즉석에서 찾아내는 모습과 일치한다.",
+  "ellen-macarthur.moment.2":
+    "로스앤젤레스 타임스에 따르면 2000-01 방데 글로브에서 그녀는 수중 컨테이너에 부딪히고 메인 포스테이까지 끊어진 뒤에도 고칠 수 있는 것을 고치고 돛대를 지키려 속도를 늦추며 2위로 완주했다.",
+  "ellen-macarthur.interpretation.moment.2":
+    "이는 반복되는 장비 고장 속에서도 경기를 끝까지 이어 가는 태도와 일치한다.",
+  "ellen-macarthur.turning_point.1":
+    "방데 글로브 2위 이후 그녀는 세계일주 기록 도전으로 옮겨 가, 먼저 카타마란 킹피셔 2(돛대 파손)로, 이후 특별 제작한 트라이머랜으로 2005년 기록을 세웠다.",
+  "ellen-macarthur.interpretation.turning_point.1":
+    "이는 다른 선수와의 경주에서 시간 기록을 향한 점진적 도전으로 옮겨 간 흐름과 일치한다.",
+  /* ---------------------------------------------------------- henry-dunant (Roster55) */
+  "henry-dunant.achievement.1":
+    "1859년 솔페리노 전투를 직접 목격하고 양쪽 부상병을 돌보았으며, '솔페리노의 기억'(1862)에서 모든 나라에 자원 구호 단체를 두고 전쟁 부상자를 보호하는 국제 협약을 맺자고 제안했다.",
+  "henry-dunant.achievement.2":
+    "1863년 제네바에서 발족해 오늘날 국제적십자위원회가 된 5인 위원회의 창립자 다섯 명 중 한 명으로, 1863년 국가별 구호 단체 회의를 열고 1864년 최초의 제네바 협약이 채택되는 데 기여했다.",
+  "henry-dunant.achievement.3":
+    "1867년 파산해 제네바를 떠난 지 수십 년 뒤인 1901년, 프레데리크 파시와 함께 최초의 노벨 평화상을 공동 수상했다.",
+  "henry-dunant.moment.1":
+    "솔페리노 전투 뒤 카스틸리오네에서 의료 직책이 없던 그는 사흘 동안 부상병을 돌보고, 마부를 브레시아로 보내 붕대와 물자를 사 오게 했으며, 대부분 여성이던 자원봉사자들을 모아 모든 부상병을 똑같이 돌보게 했다.",
+  "henry-dunant.interpretation.moment.1":
+    "이는 주어진 수단으로 실질적인 구호를 즉석에서 꾸려 낸 모습과 부합한다.",
+  "henry-dunant.moment.2":
+    "1863년 9월 뒤낭은 동료들과 상의하지 않고 베를린에서 제네바 위원회 명의로 의료 중립 문제까지 의제를 넓힌 새 회람장을 인쇄했고, 모이니에는 불가능한 것을 요구한다고 생각했다고 말했다.",
+  "henry-dunant.interpretation.moment.2":
+    "이는 동료들과의 합의보다 자신의 우선순위를 앞세워 밀어붙이는 면과 부합한다.",
+  "henry-dunant.turning_point.1":
+    "1859년 6월 알제리 제분 사업의 물 사용권을 얻으려 나폴레옹 3세를 찾아 나선 사업가 뒤낭은 솔페리노에 도착해 오히려 며칠 동안 부상병을 돌보았고, 이후 적십자로 이어진 책을 썼다.",
+  "henry-dunant.interpretation.turning_point.1":
+    "이는 필요를 직접 본 뒤 자신의 에너지와 자원을 사업에서 구호 활동으로 돌린 모습과 부합한다.",
+  /* ---------------------------------------------------------- ingvar-kamprad (Roster55) */
+  "ingvar-kamprad.achievement.1":
+    "그는 1943년 IKEA를 우편 주문 사업으로 등록했고 1958년 엘름훌트에 첫 매장을 열었다. 디진은 IKEA가 2016년 49개국에서 약 360억 유로의 매출을 올린 세계 최대 가구 소매업체가 되었다고 전한다. 그는 2013년 인터 IKEA 회장직에서 물러났으며, AP는 그가 만든 재단이 IKEA를 소유한다고 보도한다.",
+  "ingvar-kamprad.achievement.2":
+    "그는 낮은 가격을 중심으로 회사를 키웠다. 고객이 직접 조립하는 가구, 셀프서비스 매장, 도시 밖의 저렴한 부지, 더 싼 나라로 옮긴 생산이 그 바탕이었다. 디진은 IKEA가 현대 디자인을 대중에게 가져왔다고 평가한다.",
+  "ingvar-kamprad.achievement.3":
+    "1950년대 스웨덴 가구 상인들은 IKEA를 박람회에서 배제하고 공급업체를 압박했다. 캄프라트는 자체 공간과 별도 구매 회사를 세웠고, 1961년부터는 폴란드에서 조달했는데, IKEA 박물관은 그 가격이 스웨덴 제조비보다 거의 50% 낮았다고 설명한다.",
+  "ingvar-kamprad.moment.1":
+    "폴란드 대외무역장관의 스톡홀름 방문 소식을 읽은 캄프라트는 1960년 그에게 편지를 보냈고, 1961년 1월 바르샤바로 가서 처음에는 공장 출입을 거절당했지만 결국 의자, 탁자, 직물을 구매했다.",
+  "ingvar-kamprad.interpretation.moment.1":
+    "이는 공급 문제를 스스로 나서서 해결하려는 주도성과 부합한다.",
+  "ingvar-kamprad.moment.2":
+    "스톡홀름 박람회에서 배제되자 그는 드로트닝가탄에 자신의 공간을 빌리고, 직접 공장을 찾아다녔으며, 공급업체 보이콧을 우회하기 위해 구매 회사 이카노를 세웠다.",
+  "ingvar-kamprad.interpretation.moment.2":
+    "이는 막혔을 때 현실적인 우회로를 찾아내는 면모와 부합한다.",
+  "ingvar-kamprad.turning_point.1":
+    "1950년대 보이콧으로 제품이 부족해지자 IKEA는 자체 가구를 디자인하고 해외 공급처를 찾게 되었고, 1961년부터 폴란드가 핵심 조달처가 되어 경쟁사가 따라오지 못한 가격 우위를 얻었다.",
+  "ingvar-kamprad.interpretation.turning_point.1":
+    "이는 외부의 제약을 지속적인 사업 강점으로 바꾸는 면모와 부합한다.",
+  /* ---------------------------------------------------------- john-dewey (Roster55) */
+  "john-dewey.achievement.1":
+    "브리태니커 등은 그를 퍼스, 제임스와 함께 미국 실용주의 철학을 연 인물이자 기능주의 심리학의 선구자로 설명한다. 그는 불변하는 존재라는 관념을 거부하고 '경험과 자연'(1925)을 썼다.",
+  "john-dewey.achievement.2":
+    "시카고 대학에서 자신의 교육 이론을 시험하기 위해 실험학교를 세웠고, '학교와 사회'(1899)와 '민주주의와 교육'(1916)에서 교육철학을 펼쳤다.",
+  "john-dewey.achievement.3":
+    "컬럼비아 대학과 교육대학에서 그의 사상은 제자들을 통해 퍼져 진보주의 교육과 동일시되었다. 1938년 '경험과 교육'에서는 그 운동의 지나친 면을 비판했으며, 그의 평판은 1950년대 이후 약해졌다.",
+  "john-dewey.moment.1":
+    "1938년 듀이는 '경험과 교육'에서 진보주의 교육 운동의 지나친 면을 인정하고 비판했다. 전통적 내용을 버리면서 그 자리를 채울 가치 있는 것을 내놓지 못했다고 진보주의자들을 꾸짖었다.",
+  "john-dewey.interpretation.moment.1":
+    "이는 자신이 영감을 준 운동이라도 잘못 가고 있다고 판단하면 비판하는 태도와 부합한다.",
+  "john-dewey.moment.2":
+    "시카고에 온 지 2년 뒤 그는 심리학과 교육 이론을 시험하는 곳으로 실험학교를 세웠고, 그 경험을 '학교와 사회'의 소재로 삼았다.",
+  "john-dewey.interpretation.moment.2":
+    "이는 이론을 지면에서 논증하는 데 그치지 않고 실제 학교에서 시험한 태도와 부합한다.",
+  "john-dewey.turning_point.1":
+    "미시간 대학에서 듀이의 관심은 헤겔 철학에서 홀과 제임스의 새로운 실험심리학으로 점차 옮겨 갔고, 이는 아동 심리 연구와 교육철학으로 이어졌다.",
+  "john-dewey.interpretation.turning_point.1":
+    "이는 새로운 경험적 연구를 만나 자신의 지적 출발점을 고쳐 나간 모습과 부합한다.",
+  /* ---------------------------------------------------------- john-mccarthy (Roster55) */
+  "john-mccarthy.achievement.1":
+    "1956년 다트머스 여름 워크숍을 제안한 1955년 문서를 써서 '인공지능'이라는 이름이 쓰이게 했고, 교토상이 그의 으뜸가는 업적으로 꼽은 논리 기반 상식 추론 연구를 수십 년간 이어갔다.",
+  "john-mccarthy.achievement.2":
+    "1958년 프로그램과 데이터가 같은 표기를 쓰는 프로그래밍 언어 리스프를 만들었고, 이는 인공지능 연구에 널리 쓰이게 되었다.",
+  "john-mccarthy.achievement.3":
+    "MIT에서 페르난도 코르바토와 함께 시분할 컴퓨팅을 추진했고, 스탠퍼드 인공지능 연구소를 세워 1965년부터 1980년까지 이끌었으며, 1971년 튜링상을 받았다.",
+  "john-mccarthy.moment.1":
+    "크레비에는 다트머스 회의가 주최자인 매카시를 크게 실망시켰지만, 그가 아서 새뮤얼과 뉴웰·사이먼의 반대에도 참가자 대다수를 설득해 '인공지능'이라는 이름을 채택하게 했다고 전한다.",
+  "john-mccarthy.interpretation.moment.1":
+    "이는 행사 자체가 기대에 못 미쳤더라도 동료들을 설득해 공통된 틀을 세우는 모습과 일치한다.",
+  "john-mccarthy.moment.2":
+    "스탠퍼드 동료 레스 언스트는 매카시가 자기 일에 몹시 집중해서 관심 없는 주제로 말을 걸면 말없이 돌아서기도 했다고 회상했다.",
+  "john-mccarthy.interpretation.moment.2":
+    "이는 대화의 편안함을 때로 희생하는 매우 강한 집중력과 일치한다.",
+  "john-mccarthy.turning_point.1":
+    "1962년 매카시는 민스키와 함께 인공지능 그룹을 시작했던 MIT를 떠나 스탠퍼드에서 자신의 인공지능 연구소를 이끌게 되었고, 1965년부터 1980년까지 스탠퍼드 인공지능 연구소를 지휘했다.",
+  "john-mccarthy.interpretation.turning_point.1":
+    "이는 공동 운영하던 그룹에서 벗어나 자신이 선호한 논리 기반 접근을 중심으로 연구소를 꾸리려는 흐름과 일치한다.",
+  /* ---------------------------------------------------------- joseph-haydn (Roster55) */
+  "joseph-haydn.achievement.1":
+    "고전주의 양식의 발전에서 가장 중요한 인물 중 한 사람으로, 현악 사중주와 교향곡의 형식을 확립하는 데 기여했다. 한 참고 자료는 그의 교향곡을 104곡, 현악 사중주를 83곡으로 센다.",
+  "joseph-haydn.achievement.2":
+    "1761년부터 약 30년간 에스테르하지 가문의 궁정 음악을 이끌었다. 모차르트와 가까운 친구가 되어 모차르트가 그에게 현악 사중주 여섯 곡을 헌정했고, 1792~94년 빈에서 젊은 베토벤을 가르쳤다.",
+  "joseph-haydn.achievement.3":
+    "두 차례의 런던 방문(1791~92, 1794~95) 동안 잘로몬의 연주회를 위해 교향곡들을 썼고, 이후 오라토리오 '천지창조'(1798)와 '사계'(1801)를 남겼다.",
+  "joseph-haydn.moment.1":
+    "17세에 변성기로 성 슈테판 성가대 학교에서 쫓겨난 뒤, 이론 교육을 거의 받지 못한 채 C. P. E. 바흐의 음악과 이론서로 독학했다.",
+  "joseph-haydn.interpretation.moment.1":
+    "이는 의도적인 독학으로 기량을 쌓은 음악가의 면모와 부합한다.",
+  "joseph-haydn.moment.2":
+    "'천지창조'를 위해 판 스비텐 남작이 대본을 각색하며 푸가와 음화 기법에 대한 제안을 적어 넣었고, 하이든은 일부는 받아들이고 일부는 물리쳤다.",
+  "joseph-haydn.interpretation.moment.2":
+    "이는 협력자와 긴밀히 작업하면서도 최종 음악적 판단은 스스로 내린 모습과 부합한다.",
+  "joseph-haydn.turning_point.1":
+    "1790년 에스테르하지 궁정이 지출을 줄이자 그는 잘로몬의 초청을 받아들여 58세에 영어를 못한 채 런던으로 건너갔고, 도착하자마자 영어 공부를 시작했다.",
+  "joseph-haydn.interpretation.turning_point.1":
+    "이는 긴 경력의 후반에 활동 무대를 바꾸는 것을 마다하지 않은 면모와 부합한다.",
+  /* ---------------------------------------------------------- larry-ellison (Roster55) */
+  "larry-ellison.achievement.1":
+    "그는 1977년 밥 마이너, 에드 오츠와 함께 소프트웨어 디벨롭먼트 래버러토리스를 공동 창업했다. 이 회사가 훗날 오라클이 되었고, 그는 사장으로서 컨설팅에서 출발한 회사를 데이터베이스 사업으로 키웠다.",
+  "larry-ellison.achievement.2":
+    "미국 국가연구회의에 따르면 오라클은 IBM이 SQL 제품을 시장에 내놓기 전에 SQL 호환 관계형 데이터베이스를 개발해 팔기 시작했다. 1983년 C 언어로 다시 쓴 버전 3은 여러 컴퓨터 제조사의 기종에서 돌아가게 해 주었다.",
+  "larry-ellison.achievement.3":
+    "오라클은 이후 인수로 성장했다. 테크크런치 집계로 2004년 이후 약 450억 달러를 썼고, 여기에는 103억 달러의 피플소프트와 74억 달러의 선 마이크로시스템스가 포함된다. 엘리슨은 2011년 오라클의 퍼블릭 클라우드 서비스를 발표했다.",
+  "larry-ellison.moment.1":
+    "데이터베이스를 이식 가능하게 만들기 위해 회사는 당시 새 언어였던 C로 수년에 걸쳐 다시 썼고 그동안 새 기능 개발을 멈췄다. 해당 글에 따르면 엔지니어 브루스 스콧이 이를 밀었고 엘리슨은 더 빠른 VAX 이식을 원한 공동 창업자 마이너 대신 스콧을 지지했다.",
+  "larry-ellison.interpretation.moment.1":
+    "이는 길고 비용이 큰 기술적 도박을 받아들이려는 태도와 부합한다.",
+  "larry-ellison.moment.2":
+    "2008년 9월 그는 애널리스트들에게 클라우드 컴퓨팅이 '완전한 헛소리'이며 오라클은 광고 문구 정도만 바꾸면 된다고 말했다. 2011년 10월 그는 오라클의 자체 퍼블릭 클라우드 서비스를 발표했다.",
+  "larry-ellison.interpretation.moment.2":
+    "이는 처음에 일축하던 입장에서 뒤늦게 방향을 바꾼 것과 부합한다.",
+  "larry-ellison.turning_point.1":
+    "초기 몇 해 동안 계약 소프트웨어 컨설팅 회사였던 창업자들은 컨설팅을 접고 IBM이 발표한 시스템 R 연구를 바탕으로 관계형 데이터베이스 제품을 만드는 쪽으로 돌아섰고, 첫 고객은 CIA였다.",
+  "larry-ellison.interpretation.turning_point.1":
+    "이는 더 큰 회사가 아직 내놓지 않은 연구에서 상업적 기회를 포착하는 능력과 부합한다.",
+  /* ---------------------------------------------------------- louis-brandeis (Roster55) */
+  "louis-brandeis.achievement.1":
+    "1908년 뮬러 대 오리건 사건에서 선례에는 두 쪽, 여성 노동 환경에 대한 증거에는 백 쪽 이상을 할애한 변론서를 제출했고, 대법원은 만장일치로 해당 법을 합헌으로 인정했다. 이 '브랜다이스 변론서'는 사실에 기반한 법적 논증의 모범이 되었다.",
+  "louis-brandeis.achievement.2":
+    "1916년부터 1939년까지 연방대법원 대법관으로 일했다. 올름스테드 대 미국 사건(1928)의 반대의견에서 정부 도청이 '혼자 있을 권리'를 보호하는 수정헌법 제4조를 침해한다고 주장했고, 휘트니 대 캘리포니아 사건의 보충의견은 표현의 자유 법리의 이정표가 되었다.",
+  "louis-brandeis.achievement.3":
+    "새뮤얼 워런과 함께 1890년 하버드 로 리뷰에 '프라이버시의 권리'를 발표했고, 1914년 『타인의 돈과 은행가들의 사용법』을 출간했다. 이 책이 제안한 은행 개혁은 1930년대 은행 파산 이후에야 대체로 채택되었다.",
+  "louis-brandeis.moment.1":
+    "1906년 브랜다이스는 유나이티드 슈 제조회사가 업계 독점을 시도하자 이사직을 사임했고, 이후 공청회에서 이 회사에 불리하게 증언했다.",
+  "louis-brandeis.interpretation.moment.1":
+    "이는 고객 관계의 손실을 감수하고 원칙에 따라 행동하는 태도와 일치한다.",
+  "louis-brandeis.moment.2":
+    "올름스테드 대 미국 사건(1928)에서 브랜다이스는 도청을 허용한 다수의견에 반대하며, 헌법 제정자들이 정부에 대해 '혼자 있을 권리'를 부여했다고 주장했다.",
+  "louis-brandeis.interpretation.moment.2":
+    "이는 다수의견과 별개로 사고하며 오래된 원칙을 새로운 기술에 확장하는 태도와 일치한다.",
+  "louis-brandeis.turning_point.1":
+    "철도·제조업 의뢰인으로 시작한 브랜다이스는 1892년경부터 무료 또는 소액 수임료의 공익 사건을 점점 더 많이 맡았고, 나중에는 동업자들이 손해 보지 않도록 자신이 사무소에 돈을 내기도 했다.",
+  "louis-brandeis.interpretation.turning_point.1":
+    "이는 민간 의뢰 중심에서 공익 활동 중심으로 동기가 옮겨 간 흐름과 일치한다.",
+  /* ---------------------------------------------------------- luciano-pavarotti (Roster55) */
+  "luciano-pavarotti.achievement.1":
+    "1970년대 중반 최고의 서정 테너로 꼽혔다. 부드러움과 힘을 겸비한 목소리로 벨칸토와 이탈리아 레퍼토리에서 명성을 얻었고, 1972년 메트로폴리탄 오페라 「연대의 딸」의 토니오 역에서 아홉 개의 하이 C를 소화해 '하이 C의 제왕'이라는 별명을 얻었다.",
+  "luciano-pavarotti.achievement.2":
+    "36년에 걸쳐 메트로폴리탄 오페라에서 약 379회 무대에 올라 어느 극장보다 많이 출연했고, 1977년 「라 보엠」으로 방송된 '라이브 프롬 더 메트' 중계에 출연해 오페라를 폭넓은 텔레비전 시청자에게 알렸다.",
+  "luciano-pavarotti.achievement.3":
+    "텔레비전, 스타디움 공연, 팝 가수와의 듀엣, 도밍고·카레라스와 함께한 1990년 '3대 테너' 공연으로 오페라를 대중에게 가져갔다. 이는 수많은 관객을 모았지만 오페라의 격을 떨어뜨렸다고 보는 순수주의자들의 비판도 받았다.",
+  "luciano-pavarotti.moment.1":
+    "1972년 메트로폴리탄 오페라에서 「연대의 딸」 토니오의 아리아에 나오는 하이 C를 모두 소화했다. 이 이름난 고음 구간은 그를 세계적인 이름으로 만들었고 '투나잇 쇼' 출연으로 이어졌다.",
+  "luciano-pavarotti.interpretation.moment.1":
+    "이는 유명한 고난도 구간을 공개 무대에서 감당하려는 태도와 부합한다.",
+  "luciano-pavarotti.moment.2":
+    "1977년 「라 보엠」 방송 뒤 그는 텔레비전의 힘을 깨달았고 이를 위해 힘쓰기로 했다고 말했으며, 이후 메트 텔레비전 방송에 19차례 출연했다.",
+  "luciano-pavarotti.interpretation.moment.2":
+    "이는 청중을 넓힐 새로운 매체를 알아보는 안목과 부합한다.",
+  "luciano-pavarotti.turning_point.1":
+    "1970년대 중반부터 오페라 활동에 리사이틀, 텔레비전, 스타디움 공연을, 1990년부터는 3대 테너 공연을 더해 청중을 넓혔지만 오페라의 격을 떨어뜨린다는 비판도 받았다.",
+  "luciano-pavarotti.interpretation.turning_point.1":
+    "이는 더 많은 대중에 닿기 위해 형식을 바꾸는 유연함과, 그에 따른 순수주의자 사이의 평판 하락 가능성과 부합한다.",
+  /* ---------------------------------------------------------- maria-montessori (Roster55) */
+  "maria-montessori.achievement.1":
+    "의사 출신으로 교육의 길에 들어섰다. 1899~1901년 로마 국립 정신지체아 학교를 이끌며 이타르와 세갱의 연구를 토대로 당시 지적장애로 분류되던 아이들을 가르쳐 성과를 거두었다.",
+  "maria-montessori.achievement.2":
+    "1907년 로마 산로렌초 빈민가에 첫 '어린이집(카사 데이 밤비니)'을 열고, 특별히 고안한 교구로 아이가 스스로 활동하는 몬테소리 교육법을 발전시켰다. 이 방법은 '몬테소리 교육법'(1909, 영어판 1912)에 담겼다.",
+  "maria-montessori.achievement.3":
+    "교사 양성 과정과 강연 순회, 저서, 1929년 창설한 국제몬테소리협회를 통해 이 교육법은 유럽, 미국, 인도의 학교로 퍼졌다. 다만 듀이와 킬패트릭은 지나치게 경직되고 개인 중심적이라고 비판했다.",
+  "maria-montessori.moment.1":
+    "첫 어린이집에서, 그녀 자신의 기록을 옮긴 설명에 따르면 교구장이 잠기지 않은 것을 발견한 아이들이 스스로 교구를 꺼내 작업했고, 그녀는 잠긴 장을 없애고 언제든 쓸 수 있는 낮은 개방형 선반으로 바꾸었다.",
+  "maria-montessori.interpretation.moment.1":
+    "이는 아이들이 실제로 한 행동을 관찰한 뒤 교실 환경을 고친 태도와 부합한다.",
+  "maria-montessori.moment.2":
+    "로마 대학 의학과 입학을 처음에는 거절당하고 아버지의 반대도 있었지만, 추가 과정을 거쳐 입학해 1896년에 졸업했다. 남녀 혼합 수업이 허용되지 않아 해부 실습은 혼자 했다.",
+  "maria-montessori.interpretation.moment.2":
+    "이는 제도적, 가족적 장애물이 거듭되어도 목표를 향해 계속 나아간 태도와 부합한다.",
+  "maria-montessori.turning_point.1":
+    "1900년 정신지체아 학교 공동 책임자로 일한 것은 국제몬테소리협회의 표현대로 의사에서 교육자로 정체성이 바뀐 계기였고, 그녀는 자신의 생각을 실제 교육에서 시험하기 시작했다.",
+  "maria-montessori.interpretation.turning_point.1":
+    "이는 실제 작업이 새로운 탐구의 길을 열어 주었을 때 분야를 넘나든 모습과 부합한다.",
+  /* ---------------------------------------------------------- marvin-minsky (Roster55) */
+  "marvin-minsky.achievement.1":
+    "1950년대 말 존 매카시와 함께 MIT 인공지능 그룹을 세웠고, 이는 MIT 인공지능 연구소(현 CSAIL)로 이어졌으며, 이후 MIT 미디어랩의 창립 구성원이 되었다.",
+  "marvin-minsky.achievement.2":
+    "지식을 기본값이 있는 슬롯으로 저장하는 프레임 이론을 제시했고, 1985년 『마음의 사회』에서 지능이 서로 협력하는 수많은 단순한 행위자들에서 나온다고 주장했다.",
+  "marvin-minsky.achievement.3":
+    "1951년 초기 신경망 학습 기계를 만들었고, 시모어 페퍼트와 함께 단순 퍼셉트론이 계산할 수 있는 것과 없는 것을 분석한 『퍼셉트론』을 썼으며, 1969년 ACM 튜링상을 받았다.",
+  "marvin-minsky.moment.1":
+    "크레비에에 따르면, 민스키는 신경망을 추상적으로 연구하는 대신 동료 대학원생 딘 에드먼즈와 함께 1951년 여름 남는 부품으로 40개 뉴런짜리 기계를 만들었다.",
+  "marvin-minsky.interpretation.moment.1":
+    "이는 아이디어를 실제 기계를 만들어 시험해 보려는 성향과 일치한다.",
+  "marvin-minsky.moment.2":
+    "크레비에는 민스키가 논리가 지능의 기본 속성이라고 믿지 않았기 때문에 칼 휴잇과 함께 일본을 찾아가 프롤로그 채택을 재고하라고 설득했지만 소용없었다고 전한다.",
+  "marvin-minsky.interpretation.moment.2":
+    "이는 분야의 흐름에 맞서 소수 의견을 유지하고 직접 설득하려는 태도와 일치한다.",
+  "marvin-minsky.turning_point.1":
+    "1954년 프린스턴 박사 학위 뒤 민스키는 추론할 만큼 큰 신경망에는 자신이 만들 수 없는 수천~수백만 개의 뉴런이 필요하다고 판단하고, 기계가 생각하게 하는 다른 방법을 찾기 시작했다.",
+  "marvin-minsky.interpretation.turning_point.1":
+    "이는 이전 방법의 실질적 한계가 드러나자 접근법을 바꾸는 태도와 일치한다.",
+  /* ---------------------------------------------------------- miguel-de-cervantes (Roster55) */
+  "miguel-de-cervantes.achievement.1":
+    "'돈키호테'(1부 1605년, 2부 1615년)를 썼다. 많은 학자들은 이를 최초의 근대 소설로 보며, 브리태니커는 그를 스페인 문학에서 가장 중요하고 유명한 인물로 꼽는다. 이 작품은 60개가 넘는 언어로 번역되었다.",
+  "miguel-de-cervantes.achievement.2":
+    "거의 모든 주요 장르에서 작업했다. 목가 로맨스 '라 갈라테아'(1585), 희곡과 막간극, '모범 소설집'(1613), 시 '파르나소 여행'(1614), 사후에 출간된 '페르실레스'가 그 예다.",
+  "miguel-de-cervantes.achievement.3":
+    "1614년 다른 사람이 쓴 가짜 속편이 나오자, 1615년 진짜 2부를 완성해 출간했다. 이야기 속에서 그 모방작에 답하며 돈키호테의 모험을 끝까지 이끌었다.",
+  "miguel-de-cervantes.moment.1":
+    "1614년 가짜 속편이 나오자, 그는 이를 자신의 2부 안에 끌어들였다. 돈키호테가 가짜 책을 넘겨 보고 그 책의 등장인물을 만나 진짜 주인공임을 확인받는다.",
+  "miguel-de-cervantes.interpretation.moment.1":
+    "이는 경쟁자를 무시하기보다 자신의 작품을 고쳐 짜서 대응한 작가의 면모와 부합한다.",
+  "miguel-de-cervantes.moment.2":
+    "여러 서문에서 거듭 예고했던 로맨스 '페르실레스와 시히스문다'를 1616년 사망 나흘 전에 완성했고, 작품은 그의 사후에 출간되었다.",
+  "miguel-de-cervantes.interpretation.moment.2":
+    "이는 오래 약속했던 책을 생의 마지막까지 이어 쓴 작가의 면모와 부합한다.",
+  "miguel-de-cervantes.turning_point.1":
+    "로페 데 베가가 마드리드 무대를 장악하자 그는 희곡을 접어 두었다가, 1615년 상연된 적 없는 희곡 여덟 편과 막간극 여덟 편을 인쇄본으로 먼저 내놓았다. 관객에게 닿는 통상의 길과 달랐다.",
+  "miguel-de-cervantes.interpretation.turning_point.1":
+    "이는 통상의 길이 막히자 경로를 바꾼 작가의 면모와 부합한다.",
+  /* ---------------------------------------------------------- muhammad-yunus (Roster55) */
+  "muhammad-yunus.achievement.1":
+    "1976년 자신의 돈 27달러를 조브라 마을 주민 42명에게 빌려준 뒤 제도적 해법을 마련했고, 이 사업은 1983년 독립 은행인 그라민 은행이 되었다.",
+  "muhammad-yunus.achievement.2":
+    "담보 없는 소액 집단 대출(주간 상환, 그룹 기금, 여성 중심 대출)이라는 그라민 방식을 개발했고, 노벨재단은 이 모델이 100개국 이상에서 되풀이되었다고 밝힌다.",
+  "muhammad-yunus.achievement.3":
+    "아래로부터의 경제·사회 발전을 위한 노력으로 그라민 은행과 함께 2006년 노벨 평화상을 공동 수상했고, 그라민 트러스트와 그라민폰 같은 관련 사업으로 모델을 확장했다.",
+  "muhammad-yunus.moment.1":
+    "전통적인 은행들에 가난한 이들에게 대출해 달라고 설득하는 데 몇 달간 실패한 끝에, 유누스는 자신이 보증인으로 서명해 1976~77년 자나타 은행의 대출 한도를 얻었다.",
+  "muhammad-yunus.interpretation.moment.1":
+    "이는 기관들이 거부할 때 직접 책임을 지고 사업을 시작하려는 태도와 일치한다.",
+  "muhammad-yunus.moment.2":
+    "그라민은 처음에 아주 작은 일일 상환을 정했다가 회계 부담을 줄이려 곧 주간 상환으로 바꿨고, 1979년부터는 서로 떨어진 다섯 지역으로 확장해 은행이 유누스 개인의 카리스마에 의존하지 않음을 보이려 했다.",
+  "muhammad-yunus.interpretation.moment.2":
+    "이는 대출 모델을 시험하고 조정해 가며 만들어 간 접근과 일치한다.",
+  "muhammad-yunus.turning_point.1":
+    "1974년 기근은 당시 경제학 교수였던 유누스에게 충격을 주었고, 그는 주변 사람들이 굶어 죽는데 경제 이론이 무슨 소용이냐고 자문했으며 1976년에는 마을 주민에게 돈을 빌려주고 있었다.",
+  "muhammad-yunus.interpretation.turning_point.1":
+    "이는 학문적 경제학에서 현장 빈곤 해결 활동으로 옮겨 간 흐름과 일치한다.",
+  /* ---------------------------------------------------------- neil-degrasse-tyson (Roster55) */
+  "neil-degrasse-tyson.achievement.1":
+    "미국 자연사박물관 헤이든 천문관의 프레더릭 P. 로즈 관장이 되어 2000년에 완공된 2억 1천만 달러 규모의 재건축을 이끌었다.",
+  "neil-degrasse-tyson.achievement.2":
+    "'내추럴 히스토리'지 월간 칼럼, 약 15권의 책, 'NOVA 사이언스나우', 라디오·팟캐스트·TV 프로그램 '스타토크'를 통해 천문학을 대중에게 알렸다.",
+  "neil-degrasse-tyson.achievement.3":
+    "칼 세이건 시리즈를 잇는 '코스모스: 시공간의 오디세이'(2014)를 진행했으며 이 프로그램은 에미상 4개와 피바디상을 받았고, 이후 '코스모스: 가능한 세계들'(2020)도 진행했다.",
+  "neil-degrasse-tyson.moment.1":
+    "로즈 센터 전시에서 명왕성이 행성 전시에서 빠지자, 전시 위원회를 이끈 타이슨은 논란의 얼굴이 되었고 이후 이를 다룬 '명왕성 파일'을 썼다.",
+  "neil-degrasse-tyson.interpretation.moment.1":
+    "이는 논란이 된 전문적 결정을 공개적으로 감수하는 태도와 부합한다.",
+  "neil-degrasse-tyson.moment.2":
+    "1995년부터 2005년까지 '내추럴 히스토리'에 월간 칼럼을 썼고, 2009년 라디오 '스타토크'를 시작했으며 이는 이후 TV 프로그램으로 확장되었다.",
+  "neil-degrasse-tyson.interpretation.moment.2":
+    "이는 대중에게 다가가려는 지속적이고 장기적인 노력과 부합한다.",
+  "neil-degrasse-tyson.turning_point.1":
+    "1990년대 중반 천체물리학 연구 활동에서 천문관 관장직으로 옮기면서 경력의 중심이 대중 과학 교육과 이후 방송으로 이동했다.",
+  "neil-degrasse-tyson.interpretation.turning_point.1":
+    "이는 경력의 중심이 연구에서 대중 소통으로 옮겨간 모습과 부합한다.",
+  /* ---------------------------------------------------------- ranulph-fiennes (Roster55) */
+  "ranulph-fiennes.achievement.1":
+    "그는 1979~82년 트랜스글로브 원정대를 이끌었다. 왕립지리학회 기록은 이를 지구의 극축을 따라 오직 지상 수단만으로 세계를 일주한 첫 여행으로 설명한다. 준비에 7년, 여행에 3년이 걸렸다.",
+  "ranulph-fiennes.achievement.2":
+    "1992~93년 그는 마이크 스트라우드와 함께 동물도 기계도 외부 도움도 없이 남극 대륙을 걸어서 횡단하려 했고, 각자 약 500파운드의 썰매를 끌었다. 브리스톨 대학은 이를 역사상 가장 긴 무지원 극지 여행으로 소개하지만, 스트라우드의 책에 대한 서평은 목표에 못 미친 채 끝났다고 전한다.",
+  "ranulph-fiennes.achievement.3":
+    "그는 왕립지리학회 창립자 메달(1984), OBE(1993), 극지 훈장(1995)을 받았다. 이후 2003년 7일간 7개 마라톤과 2009년 에베레스트 등정에 도전했고, 자선단체 모금도 이어갔다.",
+  "ranulph-fiennes.moment.1":
+    "트랜스글로브 원정을 위해 그는 '성격이 좋고 참을성 있고 체력이 좋은' 사람들을 찾아 영국 예비군에게 무료로 훈련시키게 했고, 국방부로부터 공군 허큘리스 수송기와 군용 랜드로버 지원도 얻었다.",
+  "ranulph-fiennes.interpretation.moment.1":
+    "이는 원정을 위해 외부의 도움을 끌어모으는 재능과 부합한다.",
+  "ranulph-fiennes.moment.2":
+    "1992~93년 남극 횡단에서 두 사람은 속도를 두고 의견이 갈렸다. 파인스는 느린 '극지 터벅걸음'을, 스트라우드는 더 빠른 속도를 원했고, 95일째에는 둘 다 더 나아갈 수 없을 만큼 쇠약해졌다.",
+  "ranulph-fiennes.interpretation.moment.2":
+    "이는 긴 장정에서 꾸준함과 지구력을 앞세우는 접근과 부합한다.",
+  "ranulph-fiennes.turning_point.1":
+    "1977년 북극 접근 시도와 7년의 준비를 거쳐 그는 트랜스글로브 원정(1979~82)을 이끌었고, 후원받는 지역 원정에서 세계 규모의 극지 여행으로 나아갔다.",
+  "ranulph-fiennes.interpretation.turning_point.1":
+    "이는 더 큰 원정을 향한 의도적이고 단계적인 준비와 부합한다.",
+  /* ---------------------------------------------------------- satoru-iwata (Roster55) */
+  "satoru-iwata.achievement.1":
+    "그는 HAL 연구소의 프로그래머로 출발해 1993년 사장이 되었고, 2000년 닌텐도에 합류해 2002년 사장에 올랐다. 더 레지스터에 따르면 창업자 야마우치 가문 밖에서 그 자리에 오른 첫 인물이었다.",
+  "satoru-iwata.achievement.2":
+    "그의 지휘 아래 닌텐도는 DS와 Wii를 개발했다. 더 레지스터는 Wii를 캐주얼 게이머의 가정용 게임기로 꼽았고, 그는 2006년 두뇌 트레이닝을 게임을 하지 않던 사람들에게 다가가려는 DS 소프트웨어 라인이라고 설명했다.",
+  "satoru-iwata.achievement.3":
+    "그는 경영자가 된 뒤에도 프로그래밍을 계속했다. HAL 사장 시절 게임보이 소스 코드만으로 N64용 포켓몬 스타디움의 배틀 시스템을 약 일주일 만에 다시 만들었고, 게임프리크 프로그래머 모리모토 시게키는 이를 놀라워했다.",
+  "satoru-iwata.moment.1":
+    "게임프리크 프로그래머 모리모토 시게키는 이와타가 소스 코드만 보고 자신의 포켓몬 배틀 프로그램을 약 일주일 만에 옮겼다는 말을 듣고 '이 회사 사장은 대체 뭐 하는 사람이지?'라고 생각했다고 말했다.",
+  "satoru-iwata.interpretation.moment.1":
+    "이는 프로그래밍 기술에 대한 깊은 실무적 숙달과 부합한다.",
+  "satoru-iwata.moment.2":
+    "2006년 게임 개발자 콘퍼런스에서 그는 닌텐도가 일본 소매점에 게임을 직접 해 보게 한 뒤에야 주문을 받았다고 말하며, 참석자 모두에게 「Brain Age」를 한 장씩 주고 윌 라이트 등이 무대에서 직접 해 보게 했다.",
+  "satoru-iwata.interpretation.moment.2":
+    "이는 사람들이 제품을 직접 써 보게 해 설득하는 방식을 선호했음과 부합한다.",
+  "satoru-iwata.turning_point.1":
+    "닌텐도가 자사 게임을 자체 기기에서만 내놓던 몇 해가 지난 뒤, 2015년 5월 DeNA와 제휴해 스마트폰과 태블릿에 게임을 내놓겠다고 발표했다. 글로브 앤 메일은 이를 이전의 저항을 뒤집은 결정이라고 전한다.",
+  "satoru-iwata.interpretation.turning_point.1":
+    "이는 회사에 대한 압박이 이어진 뒤 뒤늦게 전략을 바꾼 것과 부합한다.",
+  /* ---------------------------------------------------------- terence-tao (Roster55) */
+  "terence-tao.achievement.1":
+    "벤 그린과 함께 2004년에 소수가 임의의 길이의 등차수열을 포함한다는 것을 증명했는데, 이는 오랫동안 풀리지 않던 문제였다.",
+  "terence-tao.achievement.2":
+    "편미분방정식, 조합론, 조화해석학, 가법적 수론에 대한 기여로 2006년 필즈상을 받았으며, 카케야 문제에서 파동 사상에 이르기까지 폭넓게 연구했다.",
+  "terence-tao.achievement.3":
+    "이미지 복원에 쓰이는 압축 센싱을 에마뉘엘 캉데스와 함께 연구했고, 2013년에는 소수 간격에 관한 온라인 공개 협업 폴리매스 프로젝트를 조직했다.",
+  "terence-tao.moment.1":
+    "2015년 한 블로그 댓글이 엘리엇 추측과의 연관을 제안한 지 몇 주 만에 타오는 에르되시 불일치 추측을 증명했고, 논문에서 그 댓글 작성자에게 감사를 표했다.",
+  "terence-tao.interpretation.moment.1":
+    "이는 첫인상을 고치고 다른 사람의 아이디어 위에 쌓아 가는 태도와 부합한다.",
+  "terence-tao.moment.2":
+    "2013년 6월 그는 소수 간격 유계성에 관한 폴리매스 프로젝트를 만들어 장이탕의 모듈식 증명을 참여자들에게 나누었고, 때로는 30분마다 상한이 낮아졌다.",
+  "terence-tao.interpretation.moment.2":
+    "이는 문제를 공개적으로 모듈 단위로 나누어 협업하는 방식과 부합한다.",
+  "terence-tao.turning_point.1":
+    "2023년 10월 그는 AI의 도움을 받아 린(Lean) 증명 언어를 배우고 있다고 밝혔고, 11월에는 많은 자원봉사자와 함께 PFR 증명의 형식화를 이끌어 약 3주 만에 마쳤다.",
+  "terence-tao.interpretation.turning_point.1":
+    "이는 경력 중반에 형식 검증과 대규모 협업으로 방향을 넓힌 흐름과 부합한다.",
+  /* ---------------------------------------------------------- wayne-gretzky (Roster55) */
+  "wayne-gretzky.achievement.1":
+    "그는 NHL 최우수선수상인 하트 트로피를 아홉 번 받았고 에드먼턴 오일러스에서 스탠리컵 네 번을 우승했다. 1999년 은퇴 당시 매클린스는 통산 894골, 1,962어시스트, 2,856포인트와 보유 또는 공동 보유한 리그 기록 61개를 집계했고, 그해 11월 하키 명예의 전당에 헌액되었다.",
+  "wayne-gretzky.achievement.2":
+    "그는 무엇보다 플레이메이커였다. 1981년 인물 기사는 그가 다른 선수들보다 반 박자 앞서 움직이며 상대 골대 뒤에서 공격을 만들어 낸다고 썼고, NHL 공식 사이트에 따르면 그는 동료 야리 쿠리의 NHL 골 364개에 어시스트를 기록했다.",
+  "wayne-gretzky.achievement.3":
+    "1988년 8월 로스앤젤레스 킹스로 트레이드된 그는 1993년 스탠리컵 결승으로 팀을 이끌었다. NBC 스포츠는 그가 하키가 전통적이지 않은 시장에서도 성공할 수 있음을 보여 주는 데 기여했다고 전하지만, 그는 킹스에서 스탠리컵을 우승하지는 못했다.",
+  "wayne-gretzky.moment.1":
+    "스무 살에 에스포지토의 포인트 기록과 오어의 어시스트 기록을 넘어선 뒤 그는 기자에게 자신의 예측력은 본능이 아니라 연습이며, 아버지가 퍽을 따라가지 말고 퍽이 갈 곳을 헤아리도록 가르쳤다고 말했다.",
+  "wayne-gretzky.interpretation.moment.1":
+    "이는 기량을 의도적인 연습으로 쌓아 가는 것으로 보는 관점과 부합한다.",
+  "wayne-gretzky.moment.2":
+    "1981년 그는 주니어 시절 수비수 두 명에게 막히면서 열려 있는 동료에게 퍽을 내주는 법을 익혀 패스 능력을 키웠고, 골을 만들어 주는 것도 직접 넣는 것만큼 즐겁다고 말했다.",
+  "wayne-gretzky.interpretation.moment.2":
+    "이는 득점뿐 아니라 동료에게 기회를 만들어 주는 데 바탕을 둔 플레이 방식과 부합한다.",
+  "wayne-gretzky.turning_point.1":
+    "1988년 8월 9일 오일러스는 그를 마티 맥소얼리, 마이크 크루셸니스키와 함께 선수 두 명, 1라운드 지명권 세 장, 1,500만 달러를 받고 로스앤젤레스 킹스로 보냈다. 오일러스 감독 글렌 새더는 반대했지만 구단주 피터 포클링턴이 밀어붙였다.",
+  "wayne-gretzky.interpretation.turning_point.1":
+    "이는 큰 변화 뒤 새로운 팀과 시장으로 경력을 옮겨 간 흐름과 부합한다.",
+  /* ---------------------------------------------------------- yo-yo-ma (Roster55) */
+  "yo-yo-ma.achievement.1":
+    "그의 세대를 대표하는 첼리스트의 한 사람이 되어 독주 첼로 레퍼토리 대부분을 녹음했고, 1984년부터 1997년 사이에 그래미상을 열 차례 받았다. 또한 동시대 미국 작곡가들의 작품을 위촉하고 초연했다.",
+  "yo-yo-ma.achievement.2":
+    "바흐의 무반주 첼로 모음곡을 대표 레퍼토리로 삼았다. 1984년 이 녹음으로 그래미상을 받았고, 1990년대에는 춤, 건축, 정원 디자인 등 다른 예술과 모음곡을 결합한 영상 시리즈를 선보였다.",
+  "yo-yo-ma.achievement.3":
+    "1998년 실크로드 지역 출신 음악가들을 모아 '실크로드'를 구상했다. 이 프로젝트는 앙상블이자 새 음악을 위촉하고 교육 프로그램을 운영하는 비영리 단체로 발전했으며, 비평가들은 그 협업을 칭찬하는 한편 깊이에는 의문을 제기했다.",
+  "yo-yo-ma.moment.1":
+    "탱고 음반 「소울 오브 더 탱고」를 위해 로스트로포비치가 피아졸라의 「르 그랑 탱고」를 리허설하는 녹음을 연구하고 부에노스아이레스로 가 탱고 클럽을 찾아다녔다.",
+  "yo-yo-ma.interpretation.moment.1":
+    "이는 낯선 전통을 연주하기 전에 그 안에 몰입하는 습관과 부합한다.",
+  "yo-yo-ma.moment.2":
+    "1990년대에 안무가 마크 모리스, 가부키 예술가, 정원 디자이너, 아이스 댄서, 영화감독 등과 함께 바흐 첼로 모음곡의 영상 작품을 선보였다.",
+  "yo-yo-ma.interpretation.moment.2":
+    "이는 핵심 작품을 다른 예술 형식과의 협업으로 시험해 보려는 태도와 부합한다.",
+  "yo-yo-ma.turning_point.1":
+    "1998년 실크로드를 시작하면서 독주와 실내악 연주에서 여러 전통의 음악가들을 모아 함께 작품을 만들고 위촉하는 활동으로 영역을 넓혔다.",
+  "yo-yo-ma.interpretation.turning_point.1":
+    "이는 독주자로서의 경력을 넘어 장기 프로젝트를 시작하고 이끄는 주도성과 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {
