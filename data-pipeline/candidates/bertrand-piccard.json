@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bertrand-piccard",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Bertrand Piccard",
+    "aliases": [],
+    "wikidataId": "Q366255",
+    "birthYear": 1958,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "CH"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "aviator"
+    ],
+    "fieldIds": [
+      "exploration",
+      "technology"
+    ],
+    "impactDomains": [
+      "technological",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer",
+      "innovator",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_piccard_wikidata",
+      "kind": "wikidata",
+      "title": "Bertrand Piccard (Q366255) -- verified live via the Wikidata API (2026-10-24): English label 'Bertrand Piccard', description 'Swiss balloonist and psychiatrist', born March 1958, no date of death, Korean label present, P18 image 'Bertrand Piccard 2015.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q366255"
+    },
+    {
+      "id": "src_piccard_nasm",
+      "kind": "institution",
+      "title": "Smithsonian National Air and Space Museum, object record 'Gondola, Breitling Orbiter 3' (Gift of the Breitling Watch Company), read in full. CANONICAL SIGNIFICANCE SOURCE: describes Breitling Orbiter 3 as the first balloon to fly around the world non-stop, flown by Bertrand Piccard and Bryan (elsewhere Brian) Jones from Chateau d'Oex on 1 March 1999 to a landing in Egypt on 21 March, 19 days 21 hours 55 minutes; the two earlier attempts of 1997 and 1998 with Wim Verstraeten and the lessons that fed Orbiter 3; the extra propane containers added before take-off; the crew routine; and Piccard's use of self-hypnosis to fight depression and sleep. Museum text with a Breitling-donation credit line; admiring and partly built on Piccard's own post-flight quotes.",
+      "url": "https://si.edu/object/gondola-breitling-orbiter-3:nasm_A19990257000"
+    },
+    {
+      "id": "src_piccard_natgeo2016",
+      "kind": "press",
+      "title": "Christina Nunez, 'Historic Solar Flight Shows Promise and Challenge of Clean Energy' (National Geographic, 26 July 2016), read in full: Solar Impulse 2's 17-month, 17-stop circumnavigation flown by Piccard and Andre Borschberg; Piccard's 2004 remark that clean energy lacked dynamic promotional marketing impetus (the plane as an airborne mascot); engineering expert Craig Steeves calls it an impressive technical achievement but says commercial solar flight is not feasible in his lifetime; ABB and Masdar speak for the technology; the ICCT's Dan Rutherford sees it as a good emissary for awareness. News report with named independent experts, partly critical of practicality.",
+      "url": "https://www.nationalgeographic.com/adventure/article/solar-impulse-completes-trip-around-world-abu-dhabi-solar-power-airplane"
+    },
+    {
+      "id": "src_piccard_airspace",
+      "kind": "press",
+      "title": "Zach Rosenberg, 'Solar Impulse 2 Finishes Its Epic Round-the-World Trip' (Smithsonian Air & Space magazine, 27 July 2016), read in full: first round-the-world flight by an electrically powered aircraft; a 15-year, 170 million dollar project meant to demonstrate the practicality of clean propulsion; about 23 days in the air over 17 months; a 117-hour leg from Japan to Hawaii followed by nine months grounded after severe battery damage; the author's view that it also shows how impractical electric flight still is at about 50 mph average, and that electric aircraft stay niche until battery energy density improves. COUNTER-VOICE source on practicality.",
+      "url": "https://www.smithsonianmag.com/air-space-magazine/around-world-without-drop-fuel-180959922/"
+    },
+    {
+      "id": "src_piccard_geekwire",
+      "kind": "press",
+      "title": "Alan Boyle, ''Impossible Flight' reveals the turmoil and tech of solar plane's trek' (GeekWire, 31 January 2018), read in full: report on the NOVA documentary with direct quotes from Piccard, Borschberg and the filmmakers; the debate on whether to continue the Pacific crossing with a faulty autopilot monitoring system, Piccard arguing strongly to press on over engineers' objections, Borschberg also favouring continuing; battery overheating, a nine-month pause and Piccard's Hawaii-California leg in April 2016; the two pilots as co-founders who 'worked together like brothers'; Piccard's later World Alliance for Effective Solutions. Journalism relaying an insider documentary and interviews; much is Piccard's and Borschberg's own account.",
+      "url": "https://www.geekwire.com/2018/impossible-flight-reveals-turmoil-technology-solar-planes-global-trek/"
+    },
+    {
+      "id": "src_piccard_natgeo2015",
+      "kind": "press",
+      "title": "Fitz Cahall, 'Solar Pilots Andre Borschberg and Bertrand Piccard' (National Geographic Adventurers of the Year 2016, published 13 November 2015), read in full: account of the 118-hour Japan-to-Hawaii flight flown by Borschberg while Piccard supported from mission control in Monaco, the alarm malfunction and go/no-go decision, the battery damage found afterwards, and interview answers from both men in which Piccard credits Borschberg's record and describes the clean-technology aim. Magazine profile; interview material is self-report and admiring.",
+      "url": "https://www.nationalgeographic.com/adventure/article/bertrand-piccard-andre-borschberg"
+    },
+    {
+      "id": "src_piccard_swissinfo",
+      "kind": "press",
+      "title": "swissinfo.ch, 'Solar \"lab\" flies through the night' (July 2010), read in full: first 26-hour day-and-night flight of Solar Impulse's first prototype flown by Borschberg, the seven-year, 100 million franc project with about 80 partners, mostly Swiss, Piccard's account of going to the United States for aircraft and solar expertise, and Piccard's caution that a two-seater non-stop round-the-world flight would need a huge technological leap. Swiss public-broadcaster news report; quotes from Piccard.",
+      "url": "https://www.swissinfo.ch/eng/solar--lab--flies-through-the-night/9126896"
+    },
+    {
+      "id": "src_piccard_portrait",
+      "kind": "archive",
+      "title": "Flickr photo page 'Journee de l'Action ou Action Day - COP21' by COP PARIS (the official COP21 account, taken 5 December 2015, licence shown on the page: CC0 / Public Domain Dedication) and the Wikimedia Commons file page 'Bertrand Piccard 2015.jpg' (verified by the upload wizard), checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Bertrand_Piccard_2015.jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_piccard_nasm, src_piccard_airspace, src_piccard_geekwire, src_piccard_natgeo2015 | 1997-2016 | museum + magazine + news] Piccard made two unsuccessful balloon attempts in 1997 and 1998 before Orbiter 3 succeeded in 1999 (museum record, which says the earlier flights provided the foundation for the third); Solar Impulse ran about 15 years, was grounded nine months in Hawaii after battery damage and resumed in April 2016 with Piccard flying the Hawaii-California leg. Documented by a museum and independent press; the project was a team and sponsor effort, and Borschberg shared the Solar Impulse persistence, hence not higher. SELF-CALIBRATION (agent): reviewed as a top-risk row (highest score); kept, since the three-attempt balloon history is documented by the museum independently of Piccard's own accounts. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 78 / 0.66 to 74 / 0.6 because the Pacific-crossing and flight-attempt details rest partly on Piccard's own account and the project documentary."
+    },
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_piccard_nasm, src_piccard_geekwire, src_piccard_natgeo2015, src_piccard_airspace | 1999-2016 | museum + news + magazine] A near three-week sealed-cabin balloon flight at altitudes up to about 11,400 m; on the Pacific leg of Solar Impulse 2 he argued strongly for continuing with a faulty autopilot alarm over engineers' objections (reported in GeekWire with Borschberg also favouring continuing), and the flight ended with overheated batteries and a nine-month grounding. The GeekWire account of the debate relies on Piccard's and the documentary's telling; the outcome and cost are independently reported. Marked dual-edged because the risk had a documented cost."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_piccard_swissinfo, src_piccard_natgeo2016, src_piccard_geekwire | 2003-2018 | news + news + news] Piccard and Borschberg launched Solar Impulse in 2003 on their own initiative; Piccard went to the United States to look for aircraft-construction and solar expertise, and the project assembled about 80 partners over seven years before the first night flight; later he started the World Alliance for Effective Solutions. Initiative is documented, but the narrative of how it began is largely Piccard's own and the press reports repeat it."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_piccard_natgeo2016, src_piccard_natgeo2015, src_piccard_geekwire, src_piccard_swissinfo | 2004-2018 | news + magazine] Piccard's stated aim was to use the aircraft to promote clean technologies (a 2004 remark that clean energy lacked dynamic promotional marketing impetus; later the Solar Impulse Foundation and World Alliance for Effective Solutions); National Geographic's own framing calls the plane an airborne mascot for the technologies. Counter-voices (Air & Space; Steeves) say the flight shows impracticality rather than a commercial path, so the effect is contested. The goal is documented but largely stated by Piccard himself."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_piccard_swissinfo, src_piccard_nasm, src_piccard_geekwire | 1997-2018 | news + museum + news] A seven-year, 100 million franc project with about 80 partners, and Breitling support for the three balloon attempts (the museum names Breitling as supporter and later donor); in the Pacific debate he won the argument over the engineers. Funding and persuasion of partners is shown only by outcomes, not by an independent account of how he persuaded them, so a moderate score."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_piccard_geekwire, src_piccard_natgeo2015, src_piccard_nasm, src_piccard_swissinfo | 1999-2016 | news + magazine + museum] He flew the 1999 balloon with Brian Jones in a shared three-shift routine, and co-founded and co-flew Solar Impulse with Borschberg, the two taking turns in the single seat; Borschberg flew the 2010 night flight and the record Pacific leg while Piccard supported from Monaco. Both quote a complementary partnership ('one plus one equals three'), which is self-report in an admiring documentary context, so confidence is moderate. Credit for the Solar Impulse work is explicitly joint."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_piccard_geekwire, src_piccard_natgeo2015 | 2015 | news + magazine] In the Pacific go/no-go debate Piccard argued strongly to press on despite engineers who were 'begging him to stop'; GeekWire and the documentary show the two founders also argued 'like brothers'. One episode, told largely in Piccard's own words, so a moderate lean."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_piccard_nasm, src_piccard_geekwire | 1997-2016 | museum + news] The museum says the lessons of Orbiters 1 and 2 shaped the technical systems and strategy of Orbiter 3, and the team added propane containers before take-off, which proved necessary; during Solar Impulse the programme resumed after the Hawaii battery failure with revised plans. Learning from failure is documented for the balloon; evidence for the solar project is thinner."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "베르트랑 피카르"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bertrand-piccard-cop-paris-2015.jpg",
+    "width": 368,
+    "height": 495,
+    "source": "Official COP21 Flickr account (COP PARIS), 'Journee de l'Action ou Action Day - COP21', taken 5 December 2015 at Le Bourget, released under CC0 on the Flickr photo page; Wikimedia Commons file 'Bertrand Piccard 2015.jpg' (upload-wizard verified). Saved at its original 368 x 495 pixels, no resizing.",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "COP PARIS (COP21), 5 December 2015, CC0",
+    "attributionUrl": "https://www.flickr.com/photos/cop21/23516636956/",
+    "creator": "COP PARIS",
+    "date": "2015-12-05",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bertrand_Piccard_2015.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q366255: en label 'Bertrand Piccard', description 'Swiss balloonist and psychiatrist', born March 1958, no death date. SLUG/QID CHECK: no existing candidate or src/data reference to bertrand-piccard or Q366255 in the roster56 worktree. REGION: Swiss people in the repo (Einstein, Jung, Dunant) use western_europe; same here. VOCABULARY: occupations explorer and aviator, fields exploration and technology, tags explorer, innovator, communicator and archetype scientific_explorer all exist with EN+KO labels; his profession as a psychiatrist has no labelled occupation id and is not what he is chiefly known for. ZERO POLITICS: passes; his later clean-technology advocacy and policy-facing foundations (World Alliance for Effective Solutions) were excluded from scoring except as the stated aim of Solar Impulse. LIVING SUBJECT: only documented public professional behaviour scored; excluded: family (grandfather's and father's feats noted by the museum are context only, not scored), his psychiatric practice and hypnosis work beyond the museum's one-line note on self-hypnosis in flight, health and mental-state inferences (the museum's mention of depression in flight is not scored). ATTRIBUTION: Solar Impulse was co-founded and co-flown with Andre Borschberg; rows and cards describe joint work and give him credit only for his own legs and roles (Borschberg flew the 2010 night flight and the 118-hour Pacific leg). CANONICAL SIGNIFICANCE SOURCE: Smithsonian National Air and Space Museum object record 'Gondola, Breitling Orbiter 3' (https://si.edu/object/gondola-breitling-orbiter-3:nasm_A19990257000). READ (6 substantive sources + portrait records): NASM record, National Geographic 2016, Air & Space 2016, GeekWire 2018, National Geographic 2015, swissinfo 2010. PERSPECTIVES: museum, independent engineering experts (Steeves, Rutherford), industry (ABB, Masdar), critical/practicality voice (Air & Space), documentary-based journalism, Swiss public broadcaster. COUNTER-VOICES: Air & Space and Steeves on practicality; the crew engineers who wanted to stop the Pacific leg. NOT opened: Britannica (403), Wikipedia (orientation only), FAI record database, the NOVA documentary itself, Piccard's own books and Solar Impulse website (self material), WIPO article and Malay Mail piece (skimmed only, not cited). PORTRAIT PREFLIGHT AND RESULT: the Wikidata P18 file is the Commons photo from the official COP21 Flickr account; the Flickr page itself shows CC0 (photo-level and account-level agree: the account is the conference's own), taken 5 December 2015 (Commons metadata date reads 2013, a Flickr/camera-date typo that the Flickr page and EXIF 2015 contradict). Identity check: the visible uniform name patch reads 'B. PICCARD' with a Solar Impulse badge; the picture is small (368 x 495) and not upscaled. SELF-CALIBRATION: rows reviewed: persistence (78), risk_tolerance (74), proactive_agency (72); none lowered, because persistence and risk are corroborated by the museum and independent press, and proactive_agency is already marked strong inference at 0.58. Flag for lead: Solar Impulse attribution is joint; GeekWire/NatGeo accounts of the Pacific decision rely partly on Piccard's and the documentary's telling. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 78 / 0.66 to 74 / 0.6 because the Pacific-crossing and flight-attempt details rest partly on Piccard's own account and the project documentary."
+  }
+}

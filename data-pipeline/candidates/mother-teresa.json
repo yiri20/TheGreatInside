@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mother-teresa",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mother Teresa",
+    "aliases": [
+      "Teresa of Calcutta",
+      "Agnes Gonxha Bojaxhiu",
+      "Saint Teresa of Calcutta"
+    ],
+    "wikidataId": "Q30547",
+    "birthYear": 1910,
+    "deathYear": 1997,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN",
+      "AL"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader"
+    ],
+    "fieldIds": [
+      "religion",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder",
+      "ascetic",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_teresa_wikidata",
+      "kind": "wikidata",
+      "title": "Mother Teresa (Q30547), verified live via the Wikidata API (2026-10-24): label 'Mother Teresa', description 'Albanian-Indian Catholic nun and missionary (1910-1997)', born 1910-08-26, died 1997-09-05, Korean label in Hangul. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q30547"
+    },
+    {
+      "id": "src_teresa_nobelspeech",
+      "kind": "award_body",
+      "title": "Nobel Peace Prize 1979, Presentation Speech by Professor John Sanness, Chairman of the Norwegian Nobel Committee (NobelPrize.org), read in full. CANONICAL SIGNIFICANCE SOURCE: summarises her vocation, leaving the Loreto school in 1948 for the slums of Calcutta after a nursing course, the Missionaries of Charity with a fourth vow of wholehearted free service to the poorest, papal-congregation status in 1965, and the order's slum schools, orphanages, mobile clinics, leprosy centres, hostels for the dying and food kitchens. Award-body speech: admiring, and framed around the committee's own peace theme.",
+      "url": "https://www.nobelprize.org/prizes/peace/1979/ceremony-speech/"
+    },
+    {
+      "id": "src_teresa_nobelbio",
+      "kind": "award_body",
+      "title": "Mother Teresa, Biographical (NobelPrize.org, written at the time of the 1979 award), read in full: teaching at St. Mary's in Calcutta 1931-1948, permission in 1948 to work in the slums, an open-air school for slum children, Holy See permission on 7 October 1950 to found the Missionaries of Charity, the 1965 decree, later branches (1963, 1976, 1979, 1984), Co-Workers, and the awards received. Official biography; factual and admiring.",
+      "url": "https://www.nobelprize.org/prizes/peace/1979/teresa/biographical/"
+    },
+    {
+      "id": "src_teresa_vatican",
+      "kind": "institution",
+      "title": "Vatican biography 'Mother Teresa of Calcutta (1910-1997)' (vatican.va, published for the 2003 beatification), read in full: the Loreto years and principalship, nearly two years of discernment before permission to leave, the first days in the slums, the founding of the Missionaries of Charity, expansion to 610 foundations in 123 countries by 1997 and houses in communist countries from 1980, and the Co-Workers. A hagiographic institutional source. Its passages on her interior spiritual life and the 'darkness' were read but deliberately excluded from scoring.",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20031019_madre-teresa_en.html"
+    },
+    {
+      "id": "src_teresa_gale",
+      "kind": "biography",
+      "title": "'Mother Teresa', Prejudice in the Modern World Reference Library (Gale, via Encyclopedia.com), read in full: the Loreto years, the 1946 call, the two-year wait for permission, medical training at Holy Family Hospital, the open-air school, Nirmal Hriday home for the dying (1952), the Mother House (1953), Shishu Bhavan orphanage (1955), Shanti Nagar leprosy colony (1965), the branches she founded, her ability to attract support, awards, and a Controversy section on her opposition to birth control and abortion, her remarks during India's Emergency, financial-management criticism and disputed figures. General reference account that includes criticism.",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/roman-catholic-and-orthodox-churches-general-biographies/mother-teresa"
+    },
+    {
+      "id": "src_teresa_hitchens",
+      "kind": "press",
+      "title": "Christopher Hitchens, 'Mommie Dearest' (Slate, October 2003, republished 2016), read in full. COUNTER-VOICE: a polemical critical essay arguing that the beatification process was rushed, that the order refused to publish an audit, that she accepted donations from controversial donors, that the Calcutta hospice remained primitive, and that she opposed reform of Catholic doctrine. A strongly adversarial opinion piece: used only as the critical counter-voice and to flag disputed points, not as a source of facts about her inner motives. Its claims about doctrine, politics and the beatification miracle are excluded from scoring.",
+      "url": "https://www.slate.com/articles/news_and_politics/fighting_words/2003/10/mommie_dearest.html"
+    },
+    {
+      "id": "src_teresa_larivee",
+      "kind": "press",
+      "title": "ScienceBlog / University of Montreal press release 'Mother Teresa: Far from Saintly' (2013), read in full, summarising Serge Larivee, Genevieve Chenard and Carole Senechal, 'Mother Teresa: Anything but a saint' (Studies in Religion / Sciences religieuses, 2013): a review of 287 published documents; reports visiting doctors' observations of poor hygiene, lack of painkillers and little actual care in some Calcutta homes for the dying, finances kept in undisclosed accounts, and an image built with media help. The article itself was NOT opened (SAGE blocked), so this is a secondhand summary of a critical academic review that relies heavily on Hitchens; no row depends on it alone.",
+      "url": "https://scienceblog.com/60730/mother-teresa-anything-but-a-saint/"
+    },
+    {
+      "id": "src_teresa_portrait",
+      "kind": "archive",
+      "title": "Nationaal Archief, Fotocollectie Anefo, photograph 'Bijeenkomst Contact Rooms Katholieken in Utrecht; Moeder Teresa en mgr. Bar' by Rob Croes, 11 June 1988, file number 934-2638, and its Wikimedia Commons file page (Nationaal Archief template and CC0 tag), checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Bijeenkomst_Contact_Rooms_Katholieken_in_Utrecht_Moeder_Teresa_en_mgr._Bar,_Bestanddeelnr_934-2638.jpg"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_teresa_nobelspeech, src_teresa_nobelbio, src_teresa_gale, src_teresa_vatican | 1946-1965 | award body + reference + institution] After more than a decade teaching, she asked her superiors to be released to work in the slums, trained briefly in nursing and medicine, left the convent school in 1948, started an open-air school with no funds, and in 1952 asked Indian officials for a place for the dying and was given a disused temple building for the Nirmal Hriday home (Gale); the Nobel biography dates Holy See permission for her own order to 1950. Self-started work is documented by independent reference and official sources; the central claims are not disputed by the critical sources, which attack outcomes rather than initiative. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 78 / 0.66 to 74 / 0.58 because the strongest wording comes from the Nobel committee and the Vatican biography (admiring register), with the critical sources contesting the effect rather than the initiative."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_teresa_gale, src_teresa_vatican, src_teresa_nobelbio | 1946-1950 | reference + institution + award body] Gale says she waited about two years for permission to leave the convent and found a new congregation, and the Vatican biography describes nearly two years of testing and discernment before permission; she then carried the work through the 1950s and the expansion that followed. The wait is documented but the sources describing it are friendly and the behaviour is partly constrained by religious obedience, so this is a moderate inference."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_teresa_nobelspeech, src_teresa_gale, src_teresa_vatican, src_teresa_hitchens, src_teresa_larivee | 1948-1997 | award body + reference + institution + critics] Across five decades she devoted her working life to the dying, abandoned and sick poor, adding a vow of free service to the poorest (Nobel speech), orphanages, leprosy and hospice work (Gale), and working with people of several faiths. The critics (Hitchens; the 2013 Montreal review as summarised) dispute the quality of care and the use of money, not that this was her declared and sustained aim, so the dual-edged impact reflects disputed outcomes. SELF-CALIBRATION (agent): reviewed as a top-risk row (mainly admiring sources); lowered from 80 / 0.66 to 76 / 0.60 because the strongest wording comes from the Nobel committee and the Vatican, and the only critical academic review was read only through a press summary."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_teresa_nobelbio, src_teresa_gale, src_teresa_vatican, src_teresa_hitchens | 1948-1960s | award body + reference + institution + critic] Without funding she started an open-air school, begged for food for children while still at Loreto (Gale), obtained a mobile medical clinic and used donated buildings; the Nobel biography says volunteers and financial support came forward. Critics (Hitchens) say the money raised was not accounted for and that conditions stayed primitive, which is why the impact is dual-edged and confidence moderate."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_teresa_nobelbio, src_teresa_gale, src_teresa_vatican, src_teresa_hitchens | 1950-1997 | award body + reference + institution + critic] She founded the Missionaries of Charity and later added Brothers (1963), contemplative Sisters (1976), contemplative Brothers (1979) and Fathers (1984) and an association of Co-Workers; the Vatican biography counts about 4,000 Sisters in 610 foundations in 123 countries by 1997, and Gale calls her in effect the chief executive of a large and growing organisation. The expansion is documented in several places, although the totals come from an admiring Vatican source and critics (Hitchens) dispute the order's transparency. SELF-CALIBRATION (agent): reviewed as a top-risk row (admiring-source figures); lowered from 74 / 0.60 to 70 / 0.56 because the headline membership and foundation counts rest on the Vatican biography and her own claims as reported by a critic."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_teresa_gale, src_teresa_nobelbio, src_teresa_larivee | 1950s-1980s | reference + award body + critical review] Gale says she had the ability to gain attention and support from ordinary citizens and world leaders and that donations let her open branches worldwide; the Nobel biography notes that over a million Co-Workers in more than 40 countries assisted by the 1990s; the critical academic review (as summarised) argues that a 1969 documentary and media attention built her image. The pattern is documented from several angles, but the media-campaign claim is a secondhand critic's account."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_teresa_nobelspeech, src_teresa_gale | 1948 | award body + reference] The Nobel speech describes her leaving the sheltered world of the convent and the fashionable girls' school for the slums, and Gale says she left the convent to work alone in the slums without funding. Giving up an established position and security is documented, but the risk is described in admiring terms, and religious vocation and Church permission are part of the context, so the reading stays moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "테레사 수녀"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mother-teresa-croes-1988.jpg",
+    "width": 720,
+    "height": 1200,
+    "source": "Black-and-white press photograph of Mother Teresa taken by Rob Croes (Anefo) at a Catholic meeting in Utrecht, the Netherlands, on 11 June 1988 (Nationaal Archief, Fotocollectie Anefo, file number 934-2638, originally photographed with a bishop, Philippe Bar, standing at her left). Cropped from the 3739 x 2481 original to the right-hand part showing only her, then downscaled to 720 x 1200; no upscaling. Rights basis: the Commons record quotes the archive record naming Nationaal Archief as rightsholder and carries the Nationaal Archief template with a CC0 tag, consistent with the archive's open release of the Anefo collection. Caveat: the archive's own page (proxy.handle.net record) is rendered by JavaScript and its licence text could not be read directly here, so the CC0 statement is taken from the Commons transcription of the archive record.",
+    "license": "CC0 1.0 (Nationaal Archief, Anefo collection)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Rob Croes / Anefo, Nationaal Archief, 11 June 1988, CC0",
+    "attributionUrl": "http://proxy.handle.net/10648/ad6b14e8-d0b4-102d-bcf8-003048976d84",
+    "creator": "Rob Croes (Anefo)",
+    "date": "1988",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bijeenkomst_Contact_Rooms_Katholieken_in_Utrecht_Moeder_Teresa_en_mgr._Bar,_Bestanddeelnr_934-2638.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q30547: label 'Mother Teresa', description 'Albanian-Indian Catholic nun and missionary (1910-1997)', born 1910-08-26, died 1997-09-05, Korean label in Hangul; matches the lead's identity. SLUG/QID CHECK: no existing candidate or src/data reference to mother-teresa or Q30547. REGION DECISION: south_asia, following the repo's career-base precedent: she lived in Calcutta from 1929 to her death, took Indian citizenship, and the Missionaries of Charity were founded and headquartered there; the alternative southern_europe (Skopje, Albanian family) reflects origin only and is flagged to the lead as a judgement call. nationalityCodes IN and AL. VOCABULARY: religious_leader, fields religion and social_reform, tags founder, ascetic and organizer, archetypes organizational_leader and social_influencer all have EN+KO labels; 'missionary' and 'philanthropist' are unlabelled and were not used. ZERO POLITICS: primary identity is religious and charitable; her positions on abortion, contraception and divorce, the 1996 Irish referendum remarks, remarks during India's Emergency, her contacts with the Duvalier government and the Nobel Peace Prize framing were read in Gale, Hitchens and the Montreal summary but are NOT scored. EXCLUDED: her private spiritual doubts or 'darkness' (published letters, described in the Vatican biography; the safest course was not to infer any trait), health and death, family, the beatification miracle, and the canonisation. PORTRAIT PREFLIGHT: Commons has several Anefo CC0 photos from her 1988 Utrecht visit; the one chosen shows her alone after cropping and the Anefo record names photographer, date and rightsholder; other Commons images (Staatsarchiv Freiburg, Flickr) were not examined. CANONICAL SIGNIFICANCE SOURCE: Nobel Peace Prize 1979 Presentation Speech (https://www.nobelprize.org/prizes/peace/1979/ceremony-speech/). READ (7 substantive sources beyond Wikidata and the portrait record): Nobel presentation speech, Nobel biography, Vatican biography, Gale reference biography, Hitchens essay, ScienceBlog press-release summary of Larivee et al. 2013. NOT opened: Larivee, Chenard and Senechal 2013 article itself (SAGE blocked, known only via press summary, no row depends on it alone), Kolodiejchuk and Spink biographies (admiring, not accessed), Chatterjee's 'The Missionary Position' (not accessed), Britannica (blocked), Nobel lecture (self material). PERSPECTIVES: award committee and official Nobel biography (admiring), Vatican (hagiographic), a general reference with a Controversy section (balanced), Hitchens (polemic critic), and an academic critical synthesis via a press summary. COUNTER-VOICES: Hitchens and Larivee on finances, care quality, publicity and the beatification; disputed points are recorded as dual-edged impact and lower confidence, and claims that only appear in one critic's polemic are not scored. SELF-CALIBRATION (agent): rows reviewed as highest-risk: impact_motivation (80/0.66 lowered to 76/0.60, admiring-source dependence), leadership_drive (74/0.60 lowered to 70/0.56, headline figures from the Vatican biography), proactive_agency (78, kept: independently documented in Gale and the Nobel sources and not disputed by critics). Rows lowered: impact_motivation and leadership_drive. FLAGS: 7 rows only; the critical literature was accessed only via a polemic essay and a press summary; region judgement call; portrait CC0 statement taken from Commons transcription of the archive record. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 78 / 0.66 to 74 / 0.58 because the strongest wording comes from the Nobel committee and the Vatican biography (admiring register), with the critical sources contesting the effect rather than the initiative."
+  }
+}

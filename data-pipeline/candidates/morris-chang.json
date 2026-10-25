@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "morris-chang",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Morris Chang",
+    "aliases": ["Chang Chung-mou", "Zhang Zhongmou"],
+    "wikidataId": "Q4745214",
+    "birthYear": 1931,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["TW"],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": ["executive", "engineer", "entrepreneur"],
+    "fieldIds": ["business", "technology", "engineering"],
+    "impactDomains": ["technological", "innovation", "industrial"],
+    "tagIds": ["founder", "innovator"],
+    "archetypeIds": ["entrepreneurial_builder"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_chang_wikidata",
+      "kind": "wikidata",
+      "title": "Morris Chang (Q4745214) -- verified live via the Wikidata API (2026-10-24): English label 'Morris Chang', description 'Taiwanese businessman and electrical engineer (born 1931)', born 10 July 1931, no date of death, Korean label present, P18 image 'Morris Chang 2021APEC.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q4745214"
+    },
+    {
+      "id": "src_chang_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, 'Morris Chang' 2007 Fellow profile (computerhistory.org), read in full: Fellow citation 'for dramatically accelerating the production of semiconductor-based devices and systems by developing an independent semiconductor manufacturing foundry'; born in Ningbo in 1931; MIT mechanical engineering degrees and a Stanford PhD in electrical engineering (1964); 1958 to 1983 at Texas Instruments, rising to group vice president for its worldwide semiconductor business; 1983 president and chief operating officer of General Instrument; recruited in 1984 by the Taiwanese government to lead the Industrial Technology Research Institute, where he founded TSMC in 1987 as a dedicated silicon foundry open to anyone; member of the US National Academy of Engineering. CANONICAL SIGNIFICANCE SOURCE. Institutional and admiring.",
+      "url": "https://computerhistory.org/profile/morris-chang/"
+    },
+    {
+      "id": "src_chang_ieee",
+      "kind": "press",
+      "title": "Tekla S. Perry, 'Morris Chang: Foundry Father' (IEEE Spectrum, 19 April 2011), read in full: a 13-minute magazine profile written by a technology journalist on his 2011 IEEE Medal of Honor, built on a visit to TSMC and an interview: his early yield-improvement work at Sylvania and Texas Instruments (the transistor line whose yield rose from near zero to more than 20 percent after months of process experiments); his pricing-ahead-of-the-cost-curve strategy at TI; the 1978 move to run TI's consumer business, which he says was a mistake, and his departure in 1983; one year at General Instrument; the 1985 ITRI presidency, where he introduced a review that put the lowest 2 percent of performers on probation, drew hate mail to legislators and was feared by staff; the 'pure play' foundry idea and TSMC's 1987 opening with $220 million of capital; tributes from Stanford's engineering dean, an Nvidia chief executive, a Marvell executive and a former TSMC chief technology officer (who says he 'does not tolerate fools'). Family and wealth details were NOT used. Independent journalism with named third-party voices, though much of the biography is Chang's own recollection.",
+      "url": "https://spectrum.ieee.org/morris-chang-foundry-father"
+    },
+    {
+      "id": "src_chang_taipeitimes",
+      "kind": "press",
+      "title": "Kevin Chen, 'ANALYSIS: TSMC leadership change fuels questions about future' (Taipei Times, 15 June 2009), read in full: news analysis of Chang's surprise move to replace CEO Rick Tsai while remaining chairman; analysts from Daiwa and Credit Suisse question the layoff-and-rehire episode and the succession plan; reports that on 20 May 2009 Chang told employees in a televised speech that laid-off workers would be welcomed back and apologised for the company's mishandled annual appraisals. COUNTER-VOICE / critical independent business press with named analysts; speculation about motives was not used.",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2009/06/15/2003446254"
+    },
+    {
+      "id": "src_chang_eetimes",
+      "kind": "press",
+      "title": "Mark LaPedus, 'TSMC CEO change: What other analysts are saying' (EE Times, 22 June 2009), read through a page-summarising tool rather than the raw page: Chang returned as chief executive effective 12 June 2009 while remaining chairman, replacing Rick Tsai; analysts Joanne Itow (Semico) and Dean Freeman (Gartner) say his return restores customer confidence and note TSMC's 40nm yield trouble, rising R&D needs and the competing IBM alliance. Independent trade press; read second-hand through a summariser, so only its broad claims are used.",
+      "url": "https://www.eetimes.com/?p=1171225"
+    },
+    {
+      "id": "src_chang_chiphistory",
+      "kind": "institution",
+      "title": "TechInsights Chip History Center, 'Morris Chang - HoF' (chiphistory.org), read in full: short Hall of Fame summary stating that he is the father of the semiconductor foundry industry, that TSMC was architected to be trusted and would never compete with its customers, that before TSMC foundry services were a side business of competitors, and that he saw how electronic design automation's separation of design and process made it possible to split the industry into fabless and foundry. Brief institutional digest; admiring.",
+      "url": "https://www.chiphistory.org/564-morris-chang"
+    },
+    {
+      "id": "src_chang_digitimes",
+      "kind": "press",
+      "title": "Colley Hwang, 'Morris Chang: A banquet that marks the conclusion of an era' (DIGITIMES, 20 June 2018), read in full through a page-summarising tool plus the opening text: a commentary on a farewell banquet by the president of DIGITIMES, who discloses that Chang was a major investor in and early board member of his company; reports TSMC's chief financial officer saying Chang repeated that executives should be modest when listening and confident when deciding. DISCLOSED CONFLICT AND ADMIRING; cited for context only and not used to support any row; his remarks on China were NOT used (politics).",
+      "url": "https://digitimes.com/news/a20180614PD210.html"
+    },
+    {
+      "id": "src_chang_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Morris Chang 2021APEC.jpg' (wikitext and API record) and the live Flickr photo page of the Taiwan Presidential Office, checked for the portrait's licence: official photograph by Wang Yu Ching, Office of the President, 16 July 2021, original 2048 x 1365; the Flickr page shows Attribution (CC BY 2.0) and Commons records a passed Flickr licence review dated 1 November 2022. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Morris_Chang_2021APEC.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chang_ieee, src_chang_chm, src_chang_chiphistory | 1985-1987 | independent magazine profile + museum profile + hall-of-fame digest] IEEE Spectrum reports that after weeks of thinking about Taiwan's strengths and weaknesses he devised the 'pure play' foundry model, a chip manufacturer that would not compete with design firms or push them behind its own products, and credits him with pioneering the foundry concept; the Computer History Museum's Fellow citation and the Chip History digest describe the independent foundry in the same terms, and Spectrum quotes Stanford's engineering dean, Nvidia's chief executive and Marvell's manufacturing vice president on its effect on start-ups. Independent corroboration of both the idea and its impact, but the invention story rests partly on his own recollection and the praise is retrospective. SELF-CALIBRATION (agent): reviewed as a high-score row; kept at 72 / 0.60 because independent journalism and third-party customers corroborate the idea and effect."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chang_ieee, src_chang_chm | 1958-1987 | journalism built on his own recollection + museum profile] The Computer History Museum records his rise from Texas Instruments production to group vice president for the worldwide semiconductor business and then to the ITRI and TSMC leadership; IEEE Spectrum, mostly from his recollection, says he loved management, aspired to run TI and then to be chief executive of a major US company, and kept taking on larger organisations. The career path is documented; the stated ambitions are self-account. SELF-CALIBRATION (agent): first-pass 72 / 0.55 lowered to 66 / 0.50 because the ambition itself is reported mainly in his own words."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_chang_ieee, src_chang_taipeitimes | 1985-2009 | independent profile + critical business press] At ITRI he introduced a review that put the lowest 2 percent of performers on probation despite staff hate mail to legislators, and former TSMC chief technology officer Chenming Hu says he does not tolerate fools, which brings both respect and fear; in 2009 he took back the chief executive role from Rick Tsai in the face of analyst questions about the layoffs and succession, and apologised publicly for the mishandled appraisals. Shows willingness to impose unpopular changes and absorb criticism, with costs noted by analysts; evidence is from two episodes."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chang_ieee, src_chang_chm | 1978-1987 | independent profile + museum profile] IEEE Spectrum reports that he accepted the ITRI job against the advice of nearly everyone he knew, then launched TSMC with $220 million half-funded by the government while Taiwan's process technology was about two generations behind, with no plan of competing head-on with the established giants; at TI he had pioneered the then controversial idea of pricing ahead of the cost curve. Documented bets with uncertain odds, but Spectrum also reports he felt he had little to lose and the foundry model reduced exposure, so moderate confidence."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chang_ieee, src_chang_chm | 1983-1987 | independent profile + museum profile] After leaving TI in 1983 and General Instrument a year later, he took a government research-institute job in Taiwan and then redesigned his plan for the company the government wanted around Taiwan's manufacturing strengths rather than the design and marketing it lacked, as IEEE Spectrum reports; the Computer History Museum confirms the sequence of posts. Documented change of setting and strategy; the reasoning is his own account."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chang_taipeitimes, src_chang_ieee | 1978-2009 | critical business press + independent profile] Taipei Times reports that in a May 2009 televised speech he said laid-off workers would be welcomed back and apologised for the mishandled appraisals that had led to the layoffs; IEEE Spectrum records his own judgement that the 1978 move into TI's consumer business was a mistake. One reported reversal plus a retrospective self-assessment, so low-moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "모리스 창"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/morris-chang-wang-2021.jpg",
+    "width": 1000,
+    "height": 1197,
+    "source": "Wikimedia Commons 'Morris Chang 2021APEC.jpg': official photograph by Wang Yu Ching for the Office of the President of the Republic of China (Taiwan), 16 July 2021, published on the Office's Flickr account under CC BY 2.0 and Flickr-reviewed on Commons (FlickreviewR, passed 1 November 2022). Cropped to a head-and-shoulders portrait region of the 2048 x 1365 original and downscaled to 1000 x 1197 (never upscaled). The Office's English website pages checked (privacy policy page) carry no conflicting copyright statement; the photograph's own Flickr licence is the basis.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Wang Yu Ching / Office of the President, Republic of China (Taiwan), 2021, CC BY 2.0, cropped",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Morris_Chang_2021APEC.jpg",
+    "creator": "Wang Yu Ching, Office of the President (Taiwan)",
+    "date": "2021-07-16",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Morris_Chang_2021APEC.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE (Wikidata wbgetentities, 2026-10-24) Q4745214 = 'Morris Chang', 'Taiwanese businessman and electrical engineer (born 1931)', born 1931-07-10, no death date; an unrelated item Q98877565 'Morris Chang' with no description was ignored. SLUG/QID CHECK: no existing candidate or src reference to morris-chang or Q4745214. REGION: east_asia (Taiwan): he was born in Ningbo, spent 1949-1985 in the United States (Harvard, MIT, Sylvania, Texas Instruments, Stanford, General Instrument), but the work that defines him (ITRI from 1985, founding and leading TSMC from 1987, retired 2018) is in Taiwan, following the repo career-base precedents (Taiwan career base, as for Stroustrup and Torvalds in the United States). NATIONALITY: TW only; Wikidata lists P27 as United States and no source read states his citizenship, so none is asserted beyond TW. VOCABULARY: executive, engineer, entrepreneur; business, technology, engineering; founder, innovator; entrepreneurial_builder; impact domain industrial are existing ids with EN+KO labels. ZERO POLITICS: his later APEC envoy role, comments on China and any trade or industrial-policy statements are unscored and unused; the profile scores only business and engineering behaviour. LIVING SUBJECT: documented professional conduct only; excluded marriages, family, wealth, health, and speculation about motives for the 2009 change. PORTRAIT PREFLIGHT: Taiwan Presidential Office photo; the Flickr page shows CC BY 2.0 for this photo and Commons review passed; Wikidata's licence description (CC BY 2.0) is confirmed rather than a CC BY 4.0 open-data basis; I could not locate an Office-level copyright or open-data notice on the English website's privacy page, so the photo-level licence set by the Office itself on its own Flickr account is the basis, and no conflicting account-level licence was found; image viewed: it shows an elderly man at a desk matching the caption (seated, video-link meeting); identity relies on the Office's caption. CANONICAL SIGNIFICANCE SOURCE: Computer History Museum 'Morris Chang' Fellow profile (https://computerhistory.org/profile/morris-chang/). READ (6 cited non-Wikidata sources): CHM profile, IEEE Spectrum profile, Taipei Times analysis, EE Times analysis (via summariser), Chip History digest, DIGITIMES commentary (via summariser, conflict disclosed, not used for any row). PERSPECTIVES: museum, independent magazine journalism with named third parties, critical business press with analysts, trade press, admiring conflicted commentary. NOT OPENED: Britannica and The Economist (bot-blocked), Bloomberg, Nikkei, Chip War, Chang's autobiography and oral histories, Stanford page (404). EXCLUSIONS: Wikipedia, reader comments. CAVEAT: the biography of the early career is largely Chang's own recollection inside IEEE Spectrum; independent behavioural evidence is limited to ITRI/TSMC coverage and 2009; scores top out at 72 and confidence at 0.60."
+  }
+}

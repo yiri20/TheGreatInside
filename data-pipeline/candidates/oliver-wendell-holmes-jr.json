@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "oliver-wendell-holmes-jr",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Oliver Wendell Holmes Jr.",
+    "aliases": [
+      "Oliver Wendell Holmes",
+      "Justice Holmes",
+      "The Great Dissenter"
+    ],
+    "wikidataId": "Q360574",
+    "birthYear": 1841,
+    "deathYear": 1935,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "jurist",
+      "lawyer"
+    ],
+    "fieldIds": [
+      "law"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "independent",
+      "theorist",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_holmes_wikidata",
+      "kind": "wikidata",
+      "title": "Oliver Wendell Holmes (Q360574) -- verified live via the Wikidata API (2026-10-24): English label 'Oliver Wendell Holmes', description 'American jurist (1841-1935); US Supreme Court justice from 1902 to 1932', born 1841-03-08, died 1935-03-06, citizenship United States, Korean label '올리버 웬들 홈스 2세', P18 image 'Oliver Wendell Holmes Jr circa 1930.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q360574"
+    },
+    {
+      "id": "src_holmes_oyez",
+      "kind": "institution",
+      "title": "Oyez (Chicago-Kent College of Law / Cornell LII / Justia), biography of Justice Oliver Wendell Holmes Jr. (via the Oyez people API), read in full: Harvard class poet, Massachusetts infantry officer wounded three times, Harvard Law, teaching and writing, The Common Law published at 40, twenty years on the Massachusetts Supreme Court, 1902 nomination by Theodore Roosevelt confirmed without objection, service on the Fuller, White, Taft and Hughes Courts, a pragmatic view of law balanced against scepticism of human nature, short opinions studded with vivid phrases, a daily walk of about two and a half miles to Court, and missed no session in 25 of his 29 years. CANONICAL SIGNIFICANCE SOURCE. Institutional biography, admiring in tone.",
+      "url": "https://www.oyez.org/justices/oliver_w_holmes_jr"
+    },
+    {
+      "id": "src_holmes_cotter",
+      "kind": "press",
+      "title": "Daniel A. Cotter, 'Justice Oliver Wendell Holmes, Jr. (1841-1935): The Oldest Justice at Retirement from the Supreme Court' (Constituting America, 2017), read in full: The Common Law (1881) describing common law as evolving with society and rejecting formalist theories, The Path of the Law (1897), appointment to the Massachusetts court and Harvard friction, Otis v. Parker as his first Supreme Court opinion, Schenck (1919), 'Great Dissenter' with only 72 separate dissents against almost 900 majority opinions, the Lochner and Abrams dissents, the 1904 Northern Securities dissent that permanently strained his relationship with President Roosevelt, more opinions for the Court than any other justice of his era, a deference to states as arenas of experiment that produced apparent inconsistency between Schenck and Abrams, and the Buck v. Bell opinion described as harsh and infamous. Lawyer-author's essay combining praise and criticism, written for a civic-education site; the author states the opinions are his own.",
+      "url": "https://constitutingamerica.org/?p=13238"
+    },
+    {
+      "id": "src_holmes_bio",
+      "kind": "press",
+      "title": "Biography.com, 'Oliver Wendell Holmes Jr.' (biography.com), read in full: Civil War service, Harvard Law, American Law Review editorship 1870-1873, The Common Law in 1881, Massachusetts Supreme Court from 1883 and chief justice from 1899, appointment in 1902, 'the Great Dissenter' for opposing his fellow justices, Lochner dissent, Schenck and the 'clear and present danger' test, the Abrams dissent and the 'free trade in ideas' passage, and retirement in January 1932. Contains an inconsistent retirement year (1931 in its summary, January 1932 in its body); the body date, which agrees with Oyez-linked and other sources, is used. General-audience biography.",
+      "url": "https://www.biography.com/legal-figures/oliver-wendell-holmes-jr"
+    },
+    {
+      "id": "src_holmes_gazette",
+      "kind": "press",
+      "title": "Harvard Gazette, 'Lessons in an unappealing law' (news.harvard.edu, October 2013), read in full: a Harvard seminar led by Professor Noah Feldman on Buck v. Bell (1927), calling Holmes 'one of the greatest justices of all time' but the case 'not a case about which to be terribly proud', noting that only the constitutional question and not the facts were before the Court, the 8-1 decision, Holmes's almost humorous tone and 'a confidence in his own superiority', the contemporary view of eugenics as progressive, and the decision never having been overturned. University news report on a scholar's assessment; used only to document the Buck v. Bell episode and its critical reception, not to score any trait.",
+      "url": "https://news.harvard.edu/gazette/story/2013/10/lessons-in-an-unappealing-law/"
+    },
+    {
+      "id": "src_holmes_illaw",
+      "kind": "press",
+      "title": "University of Illinois Law Review Online, 'Disenchanting Justice Holmes' (2021, 2021 U. Ill. L. Rev. Online 330), read in full: a law-student author's advocacy essay arguing the Buck v. Bell opinion was legally unsupported (five paragraphs, one case cited, disregard of earlier state-court decisions striking sterilisation laws, the vaccination analogy to Jacobson v. Massachusetts, mistaken facts about Carrie Buck and her family) and urging institutions to stop venerating Holmes, relying on scholarship by Nourse, Siegel and Lombardo. Adversarial, one-sided and evaluative; used only as the counter-voice on the Buck v. Bell opinion, never as a source of personality claims.",
+      "url": "https://illinoislawreview.org/online/disenchanting-justice-holmes/"
+    },
+    {
+      "id": "src_holmes_lochner",
+      "kind": "archive",
+      "title": "Lochner v. New York, 198 U.S. 45 (1905), text of the Court's opinion and Justice Holmes's dissent (Cornell Legal Information Institute), dissent read in full: that the case 'is decided upon an economic theory which a large part of the country does not entertain', that his 'agreement or disagreement has nothing to do with the right of a majority to embody their opinions in law', and that 'the 14th Amendment does not enact Mr. Herbert Spencer's Social Statics'. A primary legal text: the documented judicial work, not an outside account of his behaviour.",
+      "url": "https://www.law.cornell.edu/supremecourt/text/198/45"
+    },
+    {
+      "id": "src_holmes_abrams",
+      "kind": "archive",
+      "title": "Abrams v. United States, 250 U.S. 616 (1919), Justice Holmes's dissent (Cornell Legal Information Institute), dissent passages read: that the ultimate good is better reached by 'free trade in ideas', that the Constitution is 'an experiment, as all life is an experiment', that courts should be 'eternally vigilant against attempts to check the expression of opinions that we loathe' unless they imminently threaten immediate interference with the lawful purposes of the law, and his reading of the Sedition Act history. A primary legal text; documented judicial work.",
+      "url": "https://www.law.cornell.edu/supremecourt/text/250/616"
+    },
+    {
+      "id": "src_holmes_bell",
+      "kind": "archive",
+      "title": "Buck v. Bell, 274 U.S. 200 (1927), opinion of the Court by Justice Holmes (Cornell Legal Information Institute), read in full (five short paragraphs): upholding a Virginia compulsory sterilisation statute against due process and equal protection challenges by reference to the statute's procedural safeguards and the compulsory vaccination precedent Jacobson v. Massachusetts, ending with the sentence 'Three generations of imbeciles are enough.' A primary legal text, documented as a controversial episode; it is NOT used as evidence for any trait row (see provenance notes).",
+      "url": "https://www.law.cornell.edu/supremecourt/text/274/200"
+    },
+    {
+      "id": "src_holmes_common",
+      "kind": "archive",
+      "title": "Oliver Wendell Holmes Jr., 'The Common Law' (1881), Project Gutenberg eBook 2449, opening passages of Lecture I read: the statement that 'the life of the law has not been logic: it has been experience', with the felt necessities of the time and judges' own prejudices said to shape the law more than the syllogism, and the argument that law embodies a nation's development and cannot be treated like mathematics. His own published work: documented authorship, used for the scope of the book and not as outside corroboration of his character.",
+      "url": "https://www.gutenberg.org/ebooks/2449"
+    },
+    {
+      "id": "src_holmes_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Justice O.W. Holmes LCCN2014685760.jpg' (wikitext and image record), checked for the portrait: Library of Congress, Prints and Photographs Division, George Grantham Bain Collection glass negative captioned 'Justice O.W. Holmes', publisher Bain News Service, photographer not credited, no date recorded; the file page quotes the Library's statement of no known restrictions on publication. Original 4147 x 5766. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Justice_O.W._Holmes_LCCN2014685760.jpg"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_holmes_lochner, src_holmes_abrams, src_holmes_cotter, src_holmes_bio, src_holmes_common | 1881-1919 | his dissenting opinions as documented work + lawyer-author essay + general biography] The Lochner dissent says the case rests on an economic theory the country does not share and that his own agreement is irrelevant to a majority's right to legislate; the Abrams dissent argues against the Court's reading of the Espionage Act cases of the same year; Cotter reports that his first written dissent, in Northern Securities (1904), strained his relationship with the president who appointed him; The Common Law rejects the formalist view of law. Britannica-type summaries and Cotter say several of these dissents later became the Court's position, but that is retrospective. Cotter's count (72 separate dissents against almost 900 majority opinions) shows the 'Great Dissenter' label overstates how often he dissented, so the evidence is the quality and independence of specific dissents, not their number. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 80 / 0.66 to 78 / 0.62 because the behaviour is documented in his own opinions, but the evaluative sources are two essays and a news report and the major biographies (White, Posner) were not accessible."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_holmes_common, src_holmes_lochner, src_holmes_cotter, src_holmes_oyez | 1881-1905 | his own published work + opinion text + essay + institutional biography] The Common Law builds its argument from the history of legal doctrine, the Lochner dissent argues by listing earlier decisions that already allowed comparable regulation (Sunday and usury laws, the vaccination law, mining hours), and Cotter says his dissents are known for forcefulness and logic. Oyez says his opinions endure partly because they are short. The evidence is mostly his own reasoning plus two evaluative summaries, with no outside account of his analytical method, so strong inference."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_holmes_common, src_holmes_abrams, src_holmes_cotter, src_holmes_oyez | 1881-1919 | his own work + essay + institutional biography] The Common Law presents law as a growth of experience rather than logic, the Abrams dissent offers the 'free trade in ideas' image, and Oyez says he studded short opinions with vivid phrases. Cotter reports the book describes common law as evolving with society. Both the phrases and the book's thesis are documented as his; how novel the legal idea was is known here only through summaries and retrospective praise, not a historian of legal thought, so score and confidence stay moderate."
+    },
+    "discipline": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_holmes_oyez, src_holmes_cotter | 1902-1932 | institutional biography + lawyer-author essay] Oyez says he missed no session of the Court in 25 of his 29 years and walked about two and a half miles to Court each day; Cotter says he wrote more opinions for the Court than any other justice of his era over almost thirty years. The attendance and output facts are concrete, but they come from two sources and Oyez's version is admiring. SELF-CALIBRATION (agent): first-pass 78 / 0.64 lowered to 72 / 0.58 because the attendance and walking claim rests on one admiring institutional summary, and output volume is a single sentence in Cotter, not an independent account of his working habits."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_holmes_bio, src_holmes_cotter, src_holmes_oyez | 1864-1897 | general biography + essay + institutional biography] After Harvard Law he wrote and lectured on the law, edited the American Law Review (1870-1873), prepared a new edition of Kent's Commentaries, published The Common Law at 40 and later The Path of the Law; Oyez says he found academic life incomplete and moved to the bench. The sustained scholarly output is documented in three sources, but none describes his own aims, so the 'mastery' reading is an inference from the record of work."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_holmes_cotter, src_holmes_lochner | 1904-1905 | lawyer-author essay + opinion text] Cotter says his 1904 Northern Securities dissent permanently strained his relationship with Roosevelt, who had nominated him, and he again dissented in Lochner against the majority of his Court. Cotter also reports friction with the Harvard faculty after he resigned his professorship without notice for the Massachusetts bench. The pieces are documented but come largely from one essay, and the cost to relationships makes the effect dual-edged."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_holmes_cotter, src_holmes_bio, src_holmes_oyez | 1902-1932 | essay + general biography + institutional biography] Cotter and Biography.com present his dissents and quotable phrasing as influential, and Cotter says that in substantive due process and free speech his dissents eventually became the Court's positions; Oyez says his opinions endure because they are short and vivid. This is influence documented in hindsight and does not show him persuading colleagues at the time, since he was in the minority in those cases, so the row stays moderate."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/oliver-wendell-holmes-jr-bain-news-service.jpg",
+    "width": 863,
+    "height": 1200,
+    "source": "Library of Congress, Prints and Photographs Division, George Grantham Bain Collection, glass negative captioned 'Justice O.W. Holmes', digitised as ggbain.05767 and hosted on Wikimedia Commons: publisher Bain News Service, photographer not credited, no date recorded; the Bain collection runs from about 1900 to the early 1920s, so the negative predates 1925 and shows Holmes during his Supreme Court service. The Library states no known restrictions on publication for the Bain collection and the Commons page quotes that statement; the Library's own item page could not be opened (bot protection, HTTP 403), so the statement was verified through Commons. Original 4147 x 5766; downscaled once to 863 x 1200 (no upscaling). The Wikidata image (Harris & Ewing, c. 1930, edited copy of a Library of Congress film negative) was not used because the Bain image has a clearer pre-1925 basis.",
+    "license": "Public domain (US); Library of Congress: no known restrictions on publication",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Justice_O.W._Holmes_LCCN2014685760.jpg",
+    "attribution": "Bain News Service, Library of Congress, George Grantham Bain Collection (ggbain.05767); photographer not credited; date not recorded (before the mid-1920s)",
+    "attributionUrl": "https://lccn.loc.gov/2014685760",
+    "creator": "Bain News Service (photographer not credited)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Justice_O.W._Holmes_LCCN2014685760.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "올리버 웬들 홈스 2세"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID Q360574 verified live (wbgetentities 2026-10-24): label 'Oliver Wendell Holmes' (the Jr.; his father is a different item), description 'American jurist (1841-1935); US Supreme Court justice from 1902 to 1932', 1841-03-08 to 1935-03-06, ko label 올리버 웬들 홈스 2세. No existing candidate or src reference for slug oliver-wendell-holmes-jr or the QID. Region north_america (US). ZERO POLITICS: primary identity jurist; judicial work is the subject, no partisan or political-leadership material is scored; Civil War service is biography only and not scored; the Northern Securities and Roosevelt material is used only as a documented dissent and its effect on a working relationship. Vocabulary: jurist and lawyer (labelled), field law, tags independent/theorist/sustained_excellence, archetype scholarly_specialist, all existing and used by Brandeis. CANONICAL SIGNIFICANCE SOURCE: Oyez biography (https://www.oyez.org/justices/oliver_w_holmes_jr, via its people API), cross-checked with Cotter's essay and Biography.com. PORTRAIT PREFLIGHT: Bain/Library of Congress negative with a quoted no-known-restrictions statement, accepted by repo precedent (Rutherford). READ (10 cited non-Wikidata items): Oyez biography, Cotter essay, Biography.com, Harvard Gazette report, Illinois Law Review essay, Lochner opinion and dissent, Abrams dissent passages, Buck v. Bell opinion, The Common Law opening, Commons record. PERSPECTIVES: institutional biography, lawyer-author evaluative essay, general biography, university-news report on a scholar's assessment, adversarial law-student advocacy essay, and Holmes's own opinions and book as documented work. NOT OPENED: Britannica article body (served only a summary box, 403 on print), G. Edward White's 'Law and the Inner Self' and Posner scholarship (no accessible text), Supreme Court Historical Society page (script-rendered), loc.gov item pages (403), Holmes's private letters (self material), Wikipedia. BUCK v. BELL HANDLING: treated as a documented controversial judicial episode. No row cites the opinion; nothing about his character, beliefs or motives is inferred from the eugenics reasoning. Sources record only what the opinion says (deference to the legislature on the vaccination analogy, Gazette: facts not before the Court) and how critics assessed it; Feldman's remark about tone is an assessment by one scholar and is not scored. It is recorded in source titles and this note so the profile is not silently flattering, and the lead may wish to decide whether a neutral editorial note is added. COUNTER-VOICES: Illinois Law Review, Feldman in the Gazette, Cotter on the harsh opinions and apparent inconsistency. CALIBRATION: seven rows, highest score 80 (independent_thinking) and highest confidence 0.66; much of the behavioural evidence is his own opinions and book plus two evaluative essays, so no row exceeds 80 and several are inference. SELF-CALIBRATION (agent): rows reviewed: independent_thinking, discipline, mastery_orientation. Lowered: discipline (78/0.64 to 72/0.58: single admiring institutional summary for attendance and walking). independent_thinking left unchanged: several independent documents (opinion texts, Cotter's account of the strain with Roosevelt) agree and Cotter's count tempers the nickname. mastery_orientation left unchanged: three sources document the output; it is capped as inference. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 80 / 0.66 to 78 / 0.62 because the behaviour is documented in his own opinions, but the evaluative sources are two essays and a news report and the major biographies (White, Posner) were not accessible."
+  }
+}

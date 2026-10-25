@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "oswaldo-cruz",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Oswaldo Cruz",
+    "aliases": [
+      "Oswaldo Gonçalves Cruz"
+    ],
+    "wikidataId": "Q979554",
+    "birthYear": 1872,
+    "deathYear": 1917,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cruz_wikidata",
+      "kind": "wikidata",
+      "title": "Oswaldo Cruz (Q979554) -- verified live via the Wikidata API (2026-10-24): English label 'Oswaldo Cruz', description 'Brazilian physician and bacteriologist (1872-1917)', born 1872-08-05, died 1917-01-11 (Wikidata) while Brazilian sources give 11 February 1917, Korean label, P18 image 'Oswcruz.jpg' (not used). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q979554"
+    },
+    {
+      "id": "src_cruz_fiocruz",
+      "kind": "institution",
+      "title": "Fiocruz (Oswaldo Cruz Foundation), 'Oswaldo Cruz' biography page on the Fiocruz portal (fiocruz.br), read in full: son of a physician, entered medical school at fifteen and published two microbiology articles before graduating (1892); specialised in bacteriology at the Pasteur Institute from 1896; technical director of the Federal Seropathy Institute at Manguinhos from 1900 and director from 1902; Director-General of Public Health from 1903; believed the mosquito transmits yellow fever, so replaced disinfection with brigades eliminating breeding sites; the 1904 mass-vaccination attempt met a press campaign, a League against Obligatory Vaccination and the Vaccine Revolt, after which compulsory vaccination was suspended; yellow fever eradicated in Rio by 1907; gold medal at the 1907 Berlin hygiene congress; from 1909 devoted himself to the Manguinhos institute, which was renamed for him, launching expeditions and the Amazon and Madeira-Mamoré sanitation work; elected to the Brazilian Academy of Letters in 1913; died 1917 aged 44. CANONICAL SIGNIFICANCE SOURCE. Written by the institution that bears his name, so admiring and institutional.",
+      "url": "https://fiocruz.br/node/19059"
+    },
+    {
+      "id": "src_cruz_jbpml",
+      "kind": "institution",
+      "title": "Journal Brasileiro de Patologia e Medicina Laboratorial (Brazilian Society of Clinical Pathology), 'Oswaldo Cruz' cover note (J. Bras. Patol. Med. Lab. 38(2), 2002), read in full: calls him founder of experimental medicine in Brazil; fascinated by Pasteur and Koch's microscopic world rather than clinical practice; Pasteur Institute training; assembled a young research team that made the institute a vaccine and experimental-medicine centre; named Director-General of Public Health in 1902 per this note; faced opposition from positivists, politicians and newspapers such as Correio da Manhã that caricatured him; held firm with the support of President Rodrigues Alves; yellow fever cases 39 in 1906, 4 in 1907, none in 1908. Professional-society note, partly overlapping with the Fiocruz account and differing on some dates (appointment year, death date).",
+      "url": "https://www.scielo.br/j/jbpml/a/MrD9FbtrrPBQd6fMCkrV3Kj/?lang=pt"
+    },
+    {
+      "id": "src_cruz_pmc",
+      "kind": "biography",
+      "title": "Cláudio Tadeu Daniel-Ribeiro and Ana Luce Girão Soares de Lima, 'Oswaldo Gonçalves Cruz: the character, the scientist, the academician', Revista da Sociedade Brasileira de Medicina Tropical 53 (suppl. 1), 2020 (open access, PubMed Central), read in full: Pasteur Institute microbiology course 1897-98; the Institute's template role; his Finlay-based mosquito strategy against the miasma view and the Academy of Medicine's scepticism; his offer to resign at the peak of the 1904 riot and the President's refusal; the authors' caveat that Carlos Chagas's claim that he created experimental medicine in Brazil is 'too generous' because Ribas, Lutz and others laid earlier foundations; the 'mosquito killer' corps limited to 85 men against an ideal 1,200; rat-bounty scheme that prompted people to breed rats; Carlos Chagas's testimony of tolerant but authoritative leadership at Manguinhos; Amazon and Madeira-Mamoré malaria missions in 1911. Authors are Fiocruz-affiliated (admiring) but include explicit qualifications.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7540701/"
+    },
+    {
+      "id": "src_cruz_aev",
+      "kind": "institution",
+      "title": "Asociación Española de Vacunología, 'Historias de la vacunología: La Revolta da Vacina en Río (1904)' (vacunas.org, 2006; pages 1-5 read), a Spanish vaccinology society history: describes Cruz's yellow-fever campaign as organised in a military-authoritarian style with ten districts, inspection house by house, fines and demolition orders alongside persuasive leaflets; the poor were evicted from demolished tenements; reports the 1904 vaccination law, the Liga Contra la Vacunação Obrigatória, the revolt and the failed military uprising; notes interpretations (official 'ignorant masses' view versus later social readings); describes Cruz's caricature as 'Nero of hygiene', the institute's research on malaria and other diseases, the Berlin gold medal, Chagas's discovery, and his transformation from controversial figure to national scientific symbol. Independent of Fiocruz; critical of the social side of the campaign. The political and military parts of the episode are context only and are not scored.",
+      "url": "https://vacunas.org/historias-de-la-vacunologia-la-revolta-da-vacina-en-rio-1900-histp/"
+    },
+    {
+      "id": "src_cruz_transversal",
+      "kind": "biography",
+      "title": "Eduardo Henrique Barbosa de Vasconcelos, 'On the Writing of History of Science in Brazil in the Second Half of the 20th Century', Transversal: International Journal for the Historiography of Science 11 (2021) (open access PDF), the relevant passage read: reports that Nancy Leys Stepan's 1976 book argued that the creation of the Federal Serum Therapy Institute (now Fiocruz) marked the beginning of academic science in Brazil, and that Fiocruz itself arranged the Portuguese translation. Stepan's book was NOT opened; this is a secondary historiographic account used only for the significance of the institute and for noting Fiocruz's own role in promoting that reading.",
+      "url": "https://periodicos.ufmg.br/index.php/transversal/article/download/37638/29308/116310"
+    },
+    {
+      "id": "src_cruz_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Retrato de Oswaldo Cruz sentado, Casa de Oswaldo Cruz (BR RJCOC FO-01-02-08).jpg' (wikitext and API record) and the Commons licence template for the Casa de Oswaldo Cruz partnership, checked for the portrait's rights: Casa de Oswaldo Cruz (Fiocruz) archive photograph, author unknown, dated approximately 1910-1919, licence tag Public domain, original 1134 x 1500. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Retrato_de_Oswaldo_Cruz_sentado,_Casa_de_Oswaldo_Cruz_(BR_RJCOC_FO-01-02-08).jpg"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cruz_fiocruz, src_cruz_pmc, src_cruz_aev | 1903-1907 | institution + biographical article + vaccinology society history] Fiocruz and the biographical article report that he adopted the mosquito-transmission theory of yellow fever (Finlay's) when much of the medical profession and public believed in contact with sufferers' clothing and secretions, stopped traditional disinfection and sent brigades to remove breeding sites; the article notes the Academy of Medicine's scepticism and adds that his being right may partly reflect chance, and that others (Ribas) had also suggested a vector. The Spanish society history says Cruz modelled the campaign on the Havana experience. A real choice against the prevailing view, backed by foreign evidence, so documented at a moderate confidence; mostly institution-friendly sources. SELF-CALIBRATION (agent): first-pass 70 / 0.60 lowered to 66 / 0.54 because the idea was Finlay's and Reed's, not originated by him, and the sources are largely from the institution that bears his name."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cruz_pmc, src_cruz_jbpml, src_cruz_fiocruz, src_cruz_aev | 1904-1908 | biographical article + society note + institution + vaccinology society history] Through press caricature, a League against Obligatory Vaccination and the November 1904 riot he continued the sanitation campaigns: the biographical article quotes his resignation offer at the height of the unrest and the President's reply that the measures were wanted; the society note says he did not yield in the face of popular dislike; yellow fever fell from 39 cases in 1906 to none in 1908; he later undertook Amazon missions in unhealthy conditions. Sustained effort is well documented, but the President's backing carried the campaign as much as his own stamina, and the motto sources are self-expressed. SELF-CALIBRATION (agent): first-pass 72 / 0.60 lowered to 68 / 0.56 because the resignation offer and the government's decision to keep the measures show the persistence was not his alone."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_cruz_aev, src_cruz_pmc, src_cruz_fiocruz | 1903-1904 | vaccinology society history + biographical article + institution] The Spanish society history describes a systematic organisation: the city divided into ten districts, brigades inspecting building by building, recording cases and producing maps and statistics, notifying tenants, fining non-compliers and ordering demolitions, with leaflets as a persuasive supplement; the biographical article notes he estimated an ideal 1,200 sanitary agents but could enrol 85. Methodical and structured work is clear, but the same account stresses its military-authoritarian style and the hardship of evicted residents, so the effect was mixed (dual-edged) and the rating moderate."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cruz_jbpml, src_cruz_aev, src_cruz_pmc | 1903-1907 | society note + vaccinology society history + biographical article] Positivists, politicians and newspapers opposed him and caricatured him as 'Nero of hygiene'; he kept the sanitation measures in place, and Fiocruz reports that when smallpox returned in 1908 the population went to the vaccination posts. His tolerance of hostility is clear, but the sources do not document how he handled disagreement in person, and the episode includes the suspension of compulsory vaccination, so a strong inference at a modest confidence, dual-edged."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_cruz_jbpml, src_cruz_pmc, src_cruz_aev, src_cruz_transversal | 1900-1915 | society note + biographical article + vaccinology society history + historiography] The society note says he assembled a young research team that raised the institute to a high level; the biographical article quotes Carlos Chagas's retrospective account of a tolerant but authoritative leadership at Manguinhos and records that he fostered foreign exchange (the Spanish history) and that Stepan, as reported, saw the institute as the start of academic science in Brazil. The institution-building is well attested, but the leadership testimony is retrospective and friendly, and the authors qualify Chagas's claim about founding experimental medicine. Scientific and administrative leadership only; political office is not scored. SELF-CALIBRATION (agent): first-pass 66 / 0.50 lowered to 62 / 0.46 because the best behavioural evidence on his leadership is an admiring colleague's retrospective tribute."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cruz_fiocruz, src_cruz_pmc, src_cruz_aev | 1907-1913 | institution + biographical article + vaccinology society history] After leaving the public-health directorate he devoted himself to the institute, launched expeditions that exposed the health situation of the interior, took part in the Amazon sanitation campaign and the Madeira-Mamoré railway malaria mission (1911, per the article), and the Spanish history says the reports moved political forces to modernise health services. The orientation toward public-health problems is evident, but the motivation is inferred from the work rather than stated in neutral sources."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오즈와우두 크루스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/oswaldo-cruz-coc-1910s.jpg",
+    "width": 1134,
+    "height": 1500,
+    "source": "Wikimedia Commons file 'Retrato de Oswaldo Cruz sentado, Casa de Oswaldo Cruz (BR RJCOC FO-01-02-08).jpg', an archive photograph from the Casa de Oswaldo Cruz (Fiocruz) collection, photographer unknown, dated approximately 1910-1919 (the sitter died in 1917), seated portrait. The file carries the Casa de Oswaldo Cruz partnership licence tag stating the item is a faithful reproduction of public domain material, with a Wikimedia permission ticket recorded on the template; a pre-1923 photograph by an unknown author is in the public domain. Saved at the original Commons size of 1134 x 1500 pixels with no resizing or upscaling. The Fiocruz page itself was not found to carry a conflicting copyright notice.",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
+    "attribution": "Photographer unknown, c. 1910-1919; Casa de Oswaldo Cruz / Fiocruz (public domain)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_Oswaldo_Cruz_sentado,_Casa_de_Oswaldo_Cruz_(BR_RJCOC_FO-01-02-08).jpg",
+    "creator": "Unknown photographer (Casa de Oswaldo Cruz archive)",
+    "date": "c. 1910-1919",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_Oswaldo_Cruz_sentado,_Casa_de_Oswaldo_Cruz_(BR_RJCOC_FO-01-02-08).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q979554 returned en label 'Oswaldo Cruz', description 'Brazilian physician and bacteriologist (1872-1917)', born 1872-08-05, died 1917-01-11 per Wikidata (Brazilian sources say 11 February 1917; only the years are recorded here), ko label present, P18 'Oswcruz.jpg'. SLUG/QID CHECK: no candidate file, src/data reference or collision for slug oswaldo-cruz or QID Q979554 in the roster56 worktree. REGION latin_america, nationality BR. VOCABULARY: physician, medical_researcher, fields medicine and biology, impact domains medical and scientific, tags founder and innovator, archetype scientific_explorer are existing labelled ids. ZERO POLITICS: his post as Director-General of Public Health, the 1904 Vaccine Revolt (with its political and military uprising), and his brief mayoralty of Petrópolis are context only; no political leadership or activism is scored; rows rest on the sanitation method, the research institute and his behaviour under criticism. PORTRAIT PREFLIGHT: Commons has a Casa de Oswaldo Cruz archive portrait (c. 1910-1919, unknown author, 1134 x 1500) under the partnership public-domain template; the Commons 'Oswcruz.jpg' (330 x 395, source a bishopmuseum dipterists page, no creator/date) was rejected for weak provenance and the 'aos 29 anos' photo (227 x 300) rejected as too small. CANONICAL SIGNIFICANCE SOURCE: Fiocruz portal biography (https://fiocruz.br/node/19059). READ (6 cited non-Wikidata sources): Fiocruz biography; JBPML cover note; Daniel-Ribeiro and Lima biographical article (PMC); Spanish Association of Vaccinology history of the Vaccine Revolt (pages 1-5); Transversal historiography article (Stepan passage). PERSPECTIVES: the institution that bears his name (Fiocruz) and its affiliated authors; a professional pathology society; an independent vaccinology society with a socially critical account; a historiography of science article. COUNTER-VOICES: the authors' qualification of Chagas's 'founder of experimental medicine' claim and of the role of chance; the AEV account of coercive, military-style enforcement, demolitions and evictions; Academy of Medicine scepticism; note that Fiocruz itself promoted Stepan's reading. NOT opened: Nancy Stepan's book and its reviews (Cambridge Core page returned only bibliographic data), Sevcenko's 'A Revolta da Vacina' and Needell/Meade articles (seen only as citations in search results), the Britannica article (URL not retrievable), Egydio Sales Guerra's biography, Cruz's own writings. EXCLUDED: family, marriage, health and renal illness, religion at end of life, the death-date discrepancy between sources, and the 1904 political/military uprising beyond context. CALIBRATION: sources are largely institutional and retrospective, so top score is 68 and top confidence 0.56; six rows, no padding. SELF-CALIBRATION (agent): reviewed independent_thinking (lowered 70/0.60 to 66/0.54: Finlay's theory, institutional sources), persistence (lowered 72/0.60 to 68/0.56: backing of the President) and leadership_drive (lowered 66/0.50 to 62/0.46: retrospective friendly testimony). BROAD FLAG: no source that is both fully independent of Fiocruz and behaviourally detailed was opened (AEV is the closest); a direct read of Stepan or Benchimol would deepen planning_orientation and conflict_tolerance. PORTRAIT: unknown-author archive photograph, public domain by age, via the Casa de Oswaldo Cruz partnership."
+  }
+}

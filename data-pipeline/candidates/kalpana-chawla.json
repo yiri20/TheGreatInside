@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kalpana-chawla",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kalpana Chawla",
+    "aliases": [],
+    "wikidataId": "Q237879",
+    "birthYear": 1962,
+    "deathYear": 2003,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US",
+      "IN"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronaut",
+      "engineer"
+    ],
+    "fieldIds": [
+      "exploration",
+      "engineering"
+    ],
+    "impactDomains": [
+      "engineering",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kc_wikidata",
+      "kind": "wikidata",
+      "title": "Kalpana Chawla (Q237879) -- verified live via the Wikidata API (2026-10-24): English label 'Kalpana Chawla', description 'American astronaut', Korean label '칼파나 촐라', born 17 March 1962, died 1 February 2003, citizenship United States and India. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q237879"
+    },
+    {
+      "id": "src_kc_nasabio",
+      "kind": "institution",
+      "title": "NASA Johnson Space Center, 'Kalpana Chawla (Ph.D.), NASA Astronaut (Deceased)' biographical data sheet (May 2004, read in full): degrees from Punjab Engineering College (1982), the University of Texas (1984) and the University of Colorado (1988); research at NASA Ames on powered-lift computational fluid dynamics from 1988; vice president and research scientist at Overset Methods from 1993; selection as an astronaut candidate in December 1994; assignment as prime robotic arm operator on STS-87; later crew-systems and habitability lead; STS-87 and STS-107 flights totalling 30 days 14 hours 54 minutes; her pilot and flight-instructor ratings. CANONICAL SIGNIFICANCE SOURCE. Official institutional biography; no trait claims, and its passage on her death is not used for any row.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2020/09/chawla_kalpana.pdf"
+    },
+    {
+      "id": "src_kc_nasacrew",
+      "kind": "institution",
+      "title": "NASA, 'Remembering Columbia: STS-107 crew biographies' page, Kalpana Chawla entry (read for the mission-role passage only): flight engineer and Mission Specialist 2 for STS-107, a Red Team member responsible with the commander for maneuvering Columbia in support of payload-bay experiments, and the list of experiments she worked with (including the Combustion Module with its water-mist and flame-ball experiments, protein crystal growth and biotechnology units). Official mission record; the accident material on the page was not used.",
+      "url": "https://www.nasa.gov/remembering-columbia-sts-107"
+    },
+    {
+      "id": "src_kc_sts87",
+      "kind": "archive",
+      "title": "NASA Johnson Space Center, 'STS-87 Space Shuttle Mission Report' (read in the sections on mission summary, robotic arm operations and the Spartan payload): the 19 November to 5 December 1997 Columbia mission, the Spartan 201-04 deployment, a failed re-grapple attempt and the manual capture by the spacewalking crew a day later, and a statement that a formal investigation board was convened. Official mission record without individual attribution; the board's findings were not found and not read, so no row or card rests on the Spartan episode.",
+      "url": "https://ibiblio.org/apollo/Shuttle/Reports/Mission%20Reports/STS-87%20Space%20Shuttle%20Mission%20Report.pdf"
+    },
+    {
+      "id": "src_kc_ntrs",
+      "kind": "archive",
+      "title": "Overset Methods, Inc., 'Overset Grid Applications on Distributed Memory MIMD Computers', progress report for NASA Grant NCC 2-806 to NASA Ames Research Center, 30 June 1994 (NASA Technical Reports Server NASA-CR-196081; Principal Investigator Dr. Kalpana Chawla; read through its abstract, objectives and structure): a study of implementing an overset-grid implicit flow solver on 128-node and 208-node Intel parallel computers, with performance data for two composite grid configurations. Research record co-authored with Sisira Weeratunga; read at abstract and outline level, not for the numerical detail.",
+      "url": "https://ntrs.nasa.gov/api/citations/19940031890/downloads/19940031890.pdf"
+    },
+    {
+      "id": "src_kc_uta",
+      "kind": "institution",
+      "title": "University of Texas at Arlington College of Engineering, 'UTA Remembers Kalpana Chawla, Columbia Crew 15 Years Later', 1 February 2018 (read in full): her UTA master's degree in 1984 and research on a cross-flow fan propulsion system, her professor Don Wilson recalling her as 'highly-motivated' with 'a burning desire to excel', Astronaut Office chief Kent Rominger saying she was admired 'for her strive for perfection', and her work at Ames and Overset Methods. Alumni-office tribute with admiring recollections; counted as retrospective praise, not as independent behavioural evidence, and the presidential memorial quotation was not used.",
+      "url": "https://www.uta.edu/academics/schools-colleges/engineering/about/news/2018/02/01/02-chawla-15-years"
+    },
+    {
+      "id": "src_kc_nsf",
+      "kind": "press",
+      "title": "NASASpaceFlight.com, 'STS-107: Remembering the accomplishments of the Columbia crew', 2013 (read in full, in the flight-day account): the red and blue crew shifts of the 16-day science mission, the failure of a vacuum pump in the water-mist experiment and the ground team's fix, and the statement that Kalpana Chawla offered to give up her off-duty time on flight day 13 to carry out the repair, which in the end took five astronauts and two days. Space-press retrospective built from NASA mission reports; the entry and accident passages were not used.",
+      "url": "https://www.nasaspaceflight.com/2013/02/sts-107-remembering-columbia-crew/"
+    },
+    {
+      "id": "src_kc_commons",
+      "kind": "institution",
+      "title": "NASA Image and Video Library record KSC-02pd1127 ('Official portrait of astronaut Kalpana Chawla, mission specialist', 8 March 2002), NASA media usage guidelines and the Wikimedia Commons file page 'Kalpana Chawla, NASA photo portrait in orange suit.jpg' (live check 2026-10-24) -- checked for the portrait.",
+      "url": "https://commons.wikimedia.org/wiki/File:Kalpana_Chawla,_NASA_photo_portrait_in_orange_suit.jpg"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kc_ntrs, src_kc_nasabio | 1988-1994 | NASA research record + NASA biography] She was principal investigator on a 1994 NASA grant study of a parallel overset-grid flow solver tested on 128-node and 208-node computers, after research at Ames on powered-lift flow simulation and a doctorate in aerospace engineering. Technically demanding research is documented at first hand, but the report is joint work read here at abstract and outline level, so a modest score at low confidence. SELF-CALIBRATION (agent): first-pass 62 / 0.5 lowered to 58 / 0.45 because the report was read only at abstract and outline level and is co-authored."
+    },
+    "proactive_agency": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kc_nsf, src_kc_nasacrew | 2003 | space-press flight-day account + NASA crew record] During the STS-107 science mission she offered to give up her off-duty time on flight day 13 to repair the water-mist combustion experiment after a vacuum-pump problem, a repair the account says took five astronauts and two days. One volunteered act in one secondary account, so a modest score at low confidence."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kc_nasabio, src_kc_uta | 1982-1998 | NASA biography + university tribute] The NASA biography records three degrees in aerospace engineering from 1982 to 1988, research and company roles in aerodynamics, a flight-instructor certificate with airplane and glider ratings, several commercial pilot licences and aerobatic flying, and later work as lead of the Astronaut Office's crew systems and habitability section. A long record of formal skill-building is documented; the UTA tribute's praise for striving to excel is retrospective and admiring, so it adds little confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "칼파나 촐라"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kalpana-chawla-nasa-2002.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "NASA official portrait of astronaut Kalpana Chawla, mission specialist, taken 8 March 2002 at Johnson Space Center (NASA photo IDs JSC2002-E-25323 and KSC-02PD-1127). Verified on the NASA Image and Video Library record KSC-02pd1127 (description 'Official portrait of astronaut Kalpana Chawla, mission specialist', dated 2002-03-08) and on the Wikimedia Commons file page, which tags it public domain as a work solely created by NASA. NASA's media usage guidelines (nasa.gov/multimedia/guidelines) state that NASA content is generally not subject to copyright in the United States; no conflicting copyright notice was found on the NASA record. Original downloaded from NASA's image library: 2400 x 3000 pixels, SHA-1 a05f97e4dbb6fa517445cf7b9217092eeddfd349; stored file downscaled once to 960 x 1200, no crop, never upscaled. Caveat: the depicted person's likeness may carry personality rights in some uses, as the Commons page notes.",
+    "license": "Public Domain (NASA work, generally not subject to copyright in the United States)",
+    "licenseUrl": "https://www.nasa.gov/multimedia/guidelines/index.html",
+    "attribution": "Photo: NASA, 2002",
+    "attributionUrl": "https://images.nasa.gov/details/KSC-02pd1127",
+    "creator": "NASA",
+    "date": "2002-03-08",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kalpana_Chawla,_NASA_photo_portrait_in_orange_suit.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q237879 returned en label 'Kalpana Chawla', description 'American astronaut', ko label '칼파나 촐라', born 1962-03-17, died 2003-02-01, citizenship United States and India. SLUG/QID CHECK: no data-pipeline candidate or src file for slug kalpana-chawla or QID Q237879. REGION: north_america, chosen for career base (all her professional work from graduate study on was in the United States: UTA, Colorado, NASA Ames, Overset Methods, NASA Johnson Space Center). Repo precedents for dual-heritage people are mixed (Sundar Pichai and Satya Nadella are north_america; Subrahmanyan Chandrasekhar and Har Gobind Khorana are south_asia); the career-base rule used for the first pair applies here because her US citizenship and entire astronaut career are American, with Indian birth and degree recorded in nationalityCodes. VOCABULARY: occupations astronaut, engineer; fields exploration, engineering; impact domains engineering, historical; tag explorer; archetype scientific_explorer are existing labelled ids. ZERO POLITICS: memorial speeches and any national symbolism are not scored. DECEASED SUBJECT: NO inference from the Columbia accident or her death; the STS-107 accident, the Columbia Accident Investigation Board and any cause or blame were deliberately not used; entry-day passages in sources were skipped. Excluded: marriage and family, the birth-date discrepancy in some sources, honours awarded after her death, the STS-87 Spartan satellite episode as a trait row (the mission report records a failed deployment and a formal board but the board's findings were not found, so attributing the failure to anyone would be unsupported), the student-influenced 'inspiration' narratives. PORTRAIT PREFLIGHT: NASA official portrait, found; see portrait.source. CANONICAL SIGNIFICANCE SOURCE: NASA Johnson Space Center biographical data sheet (read in full). READ (7 cited non-Wikidata sources): NASA biography, NASA STS-107 crew page (role passage), STS-87 mission report (summary and Spartan sections), NASA technical report NASA-CR-196081 (abstract and outline), UTA tribute, NASASpaceFlight retrospective, plus the NASA image record and Commons page. Not opened or blocked: the Columbia Accident Investigation Board report, the STS-87 Spartan failure board report, NASA's own oral-history interviews, books on the Columbia crew, newspaper obituaries (Tribune India item found but not opened), the nasa.gov Images page (blocked, API record used). PERSPECTIVES: official institutional record (NASA biography and crew page), technical research record (NASA technical report), mission documentation (STS-87 report), university tribute (admiring, retrospective) and space-press mission account. Independent behavioural support: the NASA technical report and the NASASpaceFlight flight-day account; the UTA tribute is admiring recollection. NO COUNTER-VOICE FOUND: no source read criticises her professional conduct, and the only adverse mission event (Spartan 2 in 1997) was not scored; the profile is therefore sparse by design, with three rows at low confidence. SELF-CALIBRATION: reviewed analytical_rigor (lowered, see row), proactive_agency (kept at 55 / 0.42: single episode but score and confidence already low) and mastery_orientation (kept at 60 / 0.42: credentials are documented first-hand by NASA; praise quotes add nothing). No rows for perfectionism, collaboration or persistence because the support is retrospective praise alone. PORTRAIT: see portrait.source."
+  }
+}

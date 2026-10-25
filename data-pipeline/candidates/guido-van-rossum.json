@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "guido-van-rossum",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Guido van Rossum",
+    "aliases": [],
+    "wikidataId": "Q30942",
+    "birthYear": 1956,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["NL"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["computer_scientist", "engineer"],
+    "fieldIds": ["computing", "technology"],
+    "impactDomains": ["technological", "innovation"],
+    "tagIds": ["innovator", "early_computing"],
+    "archetypeIds": ["technical_innovator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_guido_wikidata",
+      "kind": "wikidata",
+      "title": "Guido van Rossum (Q30942) -- verified live via the Wikidata API (2026-10-24): English label 'Guido van Rossum', description 'Dutch programmer and creator of Python', born 31 January 1956, no date of death, Korean label present, four P18 image values. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q30942"
+    },
+    {
+      "id": "src_guido_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, 'Guido van Rossum' 2018 Fellow profile (computerhistory.org), read in full: Fellow citation 'for the creation and evolution of the Python programming language and for leadership of its community'; Python first released in 1991 and in use at companies, NASA and universities; his 1999 report listing goals (easy and intuitive, as powerful as major competitors, open source, readable like plain English, suited to everyday tasks with short development times); the community's title of Benevolent Dictator For Life, in which he helps mediate disputes over the language's development; career from the 1982 University of Amsterdam master's degree through the Netherlands, then NIST and CNRI, Google, and Dropbox from January 2013; ACM Distinguished Engineer 2006. CANONICAL SIGNIFICANCE SOURCE. Institutional and admiring; partly built from his own statements.",
+      "url": "https://computerhistory.org/profile/guido-van-rossum/"
+    },
+    {
+      "id": "src_guido_lwn_resign",
+      "kind": "press",
+      "title": "LWN.net, 'Guido van Rossum resigns as Python leader' (lwn.net, 12 July 2018), read in full: reproduces his 'Transfer of power' message to the python-committers list, written after the PEP 572 discussion: he says he no longer wants to fight so hard for a proposal and find that so many people despise his decisions, will remain an ordinary core developer and mentor, will not appoint a successor, and leaves the core developers to decide how PEPs are decided and how core developers are inducted. The message's remarks about fatigue and medical issues were NOT used. Trade-press report quoting the primary message, plus reader comments (not used).",
+      "url": "https://lwn.net/Articles/759654/"
+    },
+    {
+      "id": "src_guido_lwn_572",
+      "kind": "press",
+      "title": "Jake Edge, 'PEP 572 and decision-making in Python' (LWN.net, 20 June 2018), read in full: report of a 2018 Python Language Summit session he led on the contentious assignment-expression proposal: he summarised the controversy, said he had tried C-style assignment to see how far it would go, said the proposal's bundled comprehension fix should become its own PEP and a new poll was needed, said Python is not a democracy and that colleagues generally agree with his decisions except when he rejects their favourite change; colleagues Lukasz Langa ('dictators should dictate'), Nick Coghlan, Victor Stinner, Brett Cannon, Barry Warsaw and others offered process suggestions; he said he is generally conflict-averse and prefers not to use his BDFL powers to shut down a discussion, and that he stopped reading the threads. Independent trade-press account with named colleagues; a few of the statements are his own reported words.",
+      "url": "https://lwn.net/Articles/757713/"
+    },
+    {
+      "id": "src_guido_lwn_gov",
+      "kind": "press",
+      "title": "Jake Edge, 'Python gets a new governance model' (LWN.net, 18 December 2018), read in full: after his resignation the core developers debated voting systems and chose, by a Condorcet vote of 62 of 94 eligible voters, the Steering Council model (PEP 8016) in which five people elected by the core team replace a single dictator. Independent trade-press account of the post-BDFL process; it describes the community's response and says little about him personally.",
+      "url": "https://lwn.net/Articles/775105/"
+    },
+    {
+      "id": "src_guido_artima",
+      "kind": "press",
+      "title": "Bill Venners, 'The Making of Python: A Conversation with Guido van Rossum, Part I' (Artima Developer, 13 January 2003), read in full: he describes working as an implementer on the ABC language team at CWI in the early 1980s, says he is indebted to ABC and its designers, and took ABC's ingredients and shuffled them; he describes adding namespaces as modules after experience with Modula-2 and Modula-3, allowing modules written in C so that colleagues and users wrote extension modules. Interviewer-led but largely his own account, so treated as self-account.",
+      "url": "https://www.artima.com/articles/the-making-of-python"
+    },
+    {
+      "id": "src_guido_pep3000",
+      "kind": "institution",
+      "title": "Guido van Rossum, 'PEP 3000 -- Python 3000' (peps.python.org), read: the process document for the backward-incompatible Python 3.0, in which he states that Python 3.0 will break backwards compatibility with Python 2.x, expects parallel 2.x and 3.x releases for some time, and sets numbering and naming conventions. Primary project document written by him; used only to establish that he led the decision, not for any trait claim about motives.",
+      "url": "https://peps.python.org/pep-3000/"
+    },
+    {
+      "id": "src_guido_pysunset",
+      "kind": "institution",
+      "title": "Python Software Foundation (python.org), 'Sunsetting Python 2', read in full: the project says Python 3.0 was started in 2006 because big changes were needed, that many people did not upgrade, that in 2008 it announced a 2015 sunset for Python 2, and that in 2014 it extended the sunset to 1 January 2020, which has since passed. Institutional project statement written as 'we'; shows the long transition timescale, not an individual's behaviour.",
+      "url": "https://www.python.org/doc/sunset-python-2/"
+    },
+    {
+      "id": "src_guido_zedshaw",
+      "kind": "press",
+      "title": "Zed A. Shaw, 'The Case Against Python 3' (Learn Python the Hard Way, 22 November 2016), read: an author-educator's critical essay arguing beginners should avoid Python 3, claiming (in his words) that the language's adoption was only about 30 percent and that the Python project had taken an 'arrogant stance'. COUNTER-VOICE on the Python 3 transition; it criticises the Python project collectively and does not name van Rossum as an individual, and its adoption figures were not verified, so it is used only to record that the transition was contested.",
+      "url": "https://learnpythonthehardway.org/book/nopython3.html"
+    },
+    {
+      "id": "src_guido_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Guido van Rossum in PyConUS24.jpg' and its cropped derivative (wikitext and API record), checked for the portrait's licence: photograph by Kushal Das, taken 15 May 2024 at PyCon US, uploaded by the photographer as own work under CC BY-SA 4.0; original 3992 x 5976, cropped derivative 1721 x 2293. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Guido_van_Rossum_in_PyConUS24_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_guido_artima, src_guido_chm | 1980s-1991 | self-account interview + museum profile] In the Artima interview he describes designing Python's module system after working with Modula-2 and Modula-3, with modules writable in Python or entirely in C so that new types and objects could be added, and says colleagues and users immediately began writing extension modules; the Computer History Museum credits the resulting language and its ecosystem of libraries. The design reasoning is largely his own account and the museum praise is retrospective, so documented at moderate confidence. SELF-CALIBRATION (agent): first-pass 70 / 0.55 lowered to 66 / 0.50 because the design detail rests mainly on his own interview and no independent technical review was read."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_guido_chm, src_guido_artima | 1980s-1999 | museum profile + self-account] The museum records the goals he stated in a 1999 report: an easy and intuitive language as powerful as the major competitors, open source so that anyone can contribute, readable like plain English, and suited to everyday tasks with short development times; in the interview he says ABC was aimed at intelligent users who were not professional programmers. Consistent with a motivation to make programming broadly usable; the goals are his own stated aims and retrospective praise supports them, so moderate confidence."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_guido_artima, src_guido_lwn_resign, src_guido_lwn_gov | 1980s-2018 | self-account + trade press] He credits the ABC team and says Python's C extension modules let colleagues and users build their own extensions; in 2018 he said he would remain as a mentor, declined to appoint a successor and left the core developers to design the next decision process, which they did through a new Steering Council model. The independent coverage describes the community process, not his personal conduct, and the credit is mostly self-reported, so low-to-moderate confidence."
+    },
+    "conflict_tolerance": {
+      "score": 36,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_guido_lwn_572, src_guido_lwn_resign | 2018 | trade press, partly his reported words] At the 2018 Language Summit he said he is generally conflict-averse and prefers not to use his BDFL powers to shut down a discussion, stopped reading the threads, and colleague Lukasz Langa suggested that 'dictators should dictate'; weeks later he resigned, saying he did not want to fight so hard for a proposal and have so many people despise his decisions. Behaviour matches the stated preference, and the independent summit report with named colleagues corroborates it, but it is one episode (PEP 572). SELF-CALIBRATION (agent): reviewed because it depends partly on his own statement; kept at 36 / 0.50 since the colleague suggestion and the resignation episode independently show the same pattern."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_guido_pep3000, src_guido_pysunset, src_guido_zedshaw | 2006-2020 | primary project document + institutional statement + critic] He wrote the Python 3000 process document stating that Python 3.0 would break backwards compatibility with Python 2.x; the Python Software Foundation says many people did not upgrade and the Python 2 sunset was extended from 2015 to 2020, and an outside critic argued in 2016 that adoption was low and the project arrogant. Shows willingness to accept a costly compatibility break that was contested, but the critic does not name him and the later outcome is judged by others, so only moderate-low confidence."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_guido_lwn_572, src_guido_pep3000 | 2006-2018 | trade press + primary project document] At the 2018 summit he agreed that a poll on PEP 572 was muddied by the bundled comprehension fix, said the fix should be split into its own PEP and a new poll taken, and supported the idea of a senior co-author or working group for contentious PEPs; in PEP 3000 he expects parallel 2.x releases to continue and to depend on community demand. Single main episode and mostly procedural adjustments, so low-moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "귀도 반 로섬"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/guido-van-rossum-das-2024.jpg",
+    "width": 901,
+    "height": 1200,
+    "source": "Wikimedia Commons 'Guido van Rossum in PyConUS24 (cropped).jpg' (derivative of 'Guido van Rossum in PyConUS24.jpg'): photograph by Kushal Das taken 15 May 2024 at PyCon US, uploaded by the photographer as own work under CC BY-SA 4.0. Original 3992 x 5976; the cropped derivative is 1721 x 2293 and was downscaled to 901 x 1200 (never upscaled).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Kushal Das, 2024, CC BY-SA 4.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Guido_van_Rossum_in_PyConUS24_(cropped).jpg",
+    "creator": "Kushal Das",
+    "date": "2024-05-15",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Guido_van_Rossum_in_PyConUS24_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE (Wikidata wbgetentities, 2026-10-24) Q30942 = 'Guido van Rossum', 'Dutch programmer and creator of Python', born 1956-01-31, no death date; the name search first returned a podcast episode (Q110189165) and two articles, which are different items. SLUG/QID CHECK: no existing candidate or src reference for slug guido-van-rossum or Q30942. REGION: north_america, nationality code NL only (US citizenship is not stated in any source read, so it is not asserted), following the repo career-base precedents for Bjarne Stroustrup and Linus Torvalds (both north_america): Dutch-born, but his career since NIST/CNRI, Google, Dropbox is in the United States. VOCABULARY: computer_scientist, engineer, computing, technology, innovator, early_computing, technical_innovator all have EN+KO labels (same set as Stroustrup/Torvalds). ZERO POLITICS: nothing political involved; the 'governance' of Python is project governance, scored only as collaboration/conflict behaviour. LIVING SUBJECT: only documented public professional behaviour; excluded the fatigue and medical remarks in his resignation message, family, and any motive inference. PORTRAIT PREFLIGHT: Commons file by Kushal Das, own work uploaded by the photographer, CC BY-SA 4.0, 2024 PyCon US; image checked visually (a conference lanyard is visible, consistent with the stated event); alternatives (Daniel Stroud 2014 retouched, Alessio Bragadini 2008 Flickr) not needed. CANONICAL SIGNIFICANCE SOURCE: Computer History Museum 'Guido van Rossum' Fellow profile (https://computerhistory.org/profile/guido-van-rossum/). READ (8 cited non-Wikidata sources): CHM profile, three LWN.net articles (resignation message, PEP 572 summit session, new governance), Artima interview, PEP 3000, python.org Sunsetting Python 2, Zed Shaw critique. PERSPECTIVES: museum, independent trade press with named colleagues, self-account (Artima interview, PEP 3000, resignation message), counter-voice (Zed Shaw on Python 3). NOT OPENED: Britannica (bot-blocked), The Register article (404 at the guessed URL), Lex Fridman podcast, Dr Dobb's and the Python History blog (self-account, not needed). EXCLUSIONS: reader comments, Wikipedia. CAVEATS: independent behavioural evidence is concentrated on the 2018 PEP 572 episode and Python 3 transition, so only six rows are scored, none above 66, and confidence is at most 0.5."
+  }
+}

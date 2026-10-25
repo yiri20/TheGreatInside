@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mary-leakey",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mary Leakey",
+    "aliases": [
+      "Mary Douglas Leakey",
+      "Mary Douglas Nicol"
+    ],
+    "wikidataId": "Q231111",
+    "birthYear": 1913,
+    "deathYear": 1996,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "scholar"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mleakey_wikidata",
+      "kind": "wikidata",
+      "title": "Mary Leakey (Q231111) -- verified live via the Wikidata API (2026-10-24): English label 'Mary Leakey', description 'British paleoanthropologist (1913-1996)', born 1913-02-06, died 1996-12-09, citizenship United Kingdom, P18 image 'Mary Leakey.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q231111"
+    },
+    {
+      "id": "src_mleakey_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Mary Douglas Leakey' (britannica.com, revised 2 February 2026), read in full: English-born archaeologist and paleoanthropologist whose finds were important for understanding human evolution; her early finds were interpreted and publicised by her husband Louis Leakey; skilled at making reproduction-quality drawings of stone tools; worked alongside Louis for some 30 years overseeing excavations in Kenya, where her skill at painstaking excavation surpassed his, while his brilliance lay in interpreting and publicising finds; in 1948 discovered the Proconsul africanus skull on Rusinga Island; in 1959 discovered at Olduvai Gorge a hominin skull that Louis named Zinjanthropus, now regarded as Paranthropus; after his death in 1972 continued working; in 1978 discovered the Laetoli footprints about 3.5 million years old indicating upright walking; books Olduvai Gorge: My Search for Early Man (1979) and Disclosing the Past (1984). CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.britannica.com/biography/Mary-Douglas-Leakey"
+    },
+    {
+      "id": "src_mleakey_sciam",
+      "kind": "press",
+      "title": "Marguerite Holloway, 'Mary Leakey: Unearthing History', Scientific American (profile from October 1994, republished 16 December 1996 with an editors' note on her death), read in full: interview-based profile in which she says 'I never felt interpretation was my job' and that she wanted to be 'on solid ground'; reports that she introduced modern archaeological techniques to African fieldwork, that her sites were carefully plotted and dated, that she recorded how Oldowan tools changed over time, and that the Smithsonian's Rick Potts says archaeology should be grateful she was in charge at Olduvai; her son Richard Leakey says her commitment to detail and perfection 'made my father's career'; relates the 1948 Proconsul find, the 1959 skull found when Louis was sick and the National Geographic Society funding that followed, the 1978 Laetoli footprints and their later deterioration; notes a feud with Donald Johanson about relations between Ethiopian and Laetoli hominins and Tim White's claim that one track was made with a tool during excavation, which she called 'a nonsense'. Independent journalism with a named critic and colleagues; her own words are a minority and never sole support. Private-life and pet passages were not used.",
+      "url": "https://www.scientificamerican.com/article/mary-leakey-unearthing-hi"
+    },
+    {
+      "id": "src_mleakey_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library, 'Scientist of the Day: Mary Leakey' (lindahall.org, 6 February 2024), read in full: says she never enrolled in a university but took archaeology and drawing courses; on 2 October 1948 found fragments of a Proconsul skull on Rusinga Island and assembled about 30 fragments; notes that in most photographs of Mary and Louis together Louis places himself in the foreground; after Louis died in 1972 she carried on alone, began working Laetoli in 1976, first prints seen in 1976 were not hominin, and by 1978 she had uncovered trails of bipedal footprints, with a team photographed by John Reader; the post says Lucy was announced in the same year and that Lucy's relatives made the tracks. Library blog; the private-relationship passage was not used.",
+      "url": "https://lindahall.org/about/news/scientist-of-the-day/mary-leakey"
+    },
+    {
+      "id": "src_mleakey_davidson",
+      "kind": "institution",
+      "title": "Yonat Eshchar, 'The Woman Who Shed Light on the Origin of Man', Davidson Institute of Science Education (Weizmann Institute), 6 February 2022, read in full: says everyone who worked with her realised she was much more than Mrs Louis Leakey; she did not only join but conducted the excavations, while Louis was the man of theories, site selection, hypotheses and publicity, and she introduced accurate excavation methods and meticulous documentation; the Laetoli footprints were uncovered in 1978-79 in the account's framing and helped settle the debate about upright walking preceding larger brains. Partly derived from the Scientific American profile, so it is not counted as independent of it; the relationship passage was not used.",
+      "url": "https://davidson.org.il/read-experience/en/sciencehistory-en/woman-who-shed-light-origin-man/"
+    },
+    {
+      "id": "src_mleakey_ebsco",
+      "kind": "biography",
+      "title": "Jane Carter Webb, 'Mary Leakey', EBSCO Research Starters (2024), read in full: reference biography stating that she worked on her own dig north of Nairobi by 1937 with careful, disciplined work, modern excavation techniques and cautious dating; that the Leakeys endured poverty, isolation and professional rejection of Louis's dating claims at Olduvai; that in 1959 she found the hominid fossil called Zinjanthropus while her ailing husband remained in his tent, and that Zinjanthropus was dropped from Louis's 'true man' list in 1960 after Homo habilis was found; and that, unlike her husband, she 'only wished to discover what was there'. Encyclopedic reference text with some evaluative judgements; family and marriage passages were not used.",
+      "url": "https://www.ebsco.com/research-starters/history/mary-leakey/"
+    },
+    {
+      "id": "src_mleakey_nature",
+      "kind": "institution",
+      "title": "Nature, 'Pliocene footprints in the Laetolil Beds at Laetoli, northern Tanzania' (Nature 278, 1979; Leakey and Hay), article page and abstract only (the full text is behind a subscription and was not opened): confirms the published footprint report on excavated tuffs at Laetolil Beds, jointly authored with the geologist R. L. Hay, and a cited earlier 1976 Nature paper; used only to confirm joint scientific authorship of the Laetoli work.",
+      "url": "https://www.nature.com/articles/278317a0"
+    },
+    {
+      "id": "src_mleakey_portrait_records",
+      "kind": "archive",
+      "title": "Portrait rights records checked and not used: National Library of Medicine Images from the History of Medicine record 'Mary Leakey's early man lecture' (1977, NLM image A016794; copyright field: 'The National Library of Medicine believes this item to be in the public domain'; photographer not named) and the Smithsonian Institution Archives photograph via Flickr Commons (National Geographic Society creator, Science Service records, 'No known copyright restrictions'). Neither gives a documented creator and rights basis, so no portrait is used.",
+      "url": "https://resource.nlm.nih.gov/101445352"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mleakey_sciam, src_mleakey_britannica, src_mleakey_ebsco, src_mleakey_davidson | 1930s-1980s | journalism + encyclopaedia + reference biography + science-education institute] Scientific American reports her sites were carefully plotted and dated with rigorously maintained stratigraphy and that a Smithsonian anthropologist said archaeology should be grateful she was in charge at Olduvai; her son Richard says her commitment to detail and perfection made his father's career; Britannica says she made reproduction-quality drawings of stone tools and that her painstaking excavation surpassed Louis's; the reference biography adds careful, cautious dating. Several sources converge on meticulousness, but the two firmest quotes are from a colleague and her son and the Davidson text derives from Scientific American. SELF-CALIBRATION (agent): first-pass 76 / 0.62 lowered to 72 / 0.56 because the strongest testimony is a family member's and a colleague's retrospective praise and one source is derivative."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mleakey_sciam, src_mleakey_ebsco, src_mleakey_lindahall | 1935-1978 | journalism + reference biography + library blog] Scientific American says success was sparse from 1935 until 1948 and funds stayed short until 1959, with harsh bush conditions; the reference biography says the Leakeys endured poverty, isolation and professional rejection of Louis's dating claims and that she was patient and able to endure privations; the library blog and Britannica record that she continued alone after 1972 and uncovered the footprint trails at Laetoli in 1978. Long, documented field persistence, though shared with Louis for much of it and described mostly in retrospective profiles. SELF-CALIBRATION (agent): first-pass 70 / 0.56 lowered to 66 / 0.52 because the hardships were shared with her husband and the sources are retrospective summaries."
+    },
+    "analytical_rigor": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mleakey_sciam, src_mleakey_ebsco, src_mleakey_britannica | 1950s-1994 | journalism + reference biography + encyclopaedia] She recorded how Oldowan stone tools changed over time and established a Developed Oldowan phase, rigorously dated her sites, and declined to speculate about human-evolution theories, saying she wanted to be on solid ground; the reference biography says she was cautious in dating and wished only to discover what was there. The care is clear, but the refusal to interpret is partly self-reported and meant others (Louis, later Richard) supplied the theories, and a rival's claim about one Laetoli track is a counter-voice she dismissed. Strong inference at a modest confidence, dual-edged. SELF-CALIBRATION (agent): first-pass 68 / 0.52 lowered to 64 / 0.46 because the stance on interpretation rests mostly on her own interview statements and the Laetoli controversy is unresolved in the sources."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mleakey_sciam, src_mleakey_ebsco | 1937-1984 | journalism + reference biography] Her son describes her as very low profile and very hard working; the reference biography says that by 1937 she ran her own dig with disciplined work, and that she did not lessen her dedication to the work after the births of her children (a work-pattern remark only); Scientific American notes she retired from Olduvai in 1984 and then worked to finish a final volume on the Olduvai discoveries. Consistent, but with few concrete episodes beyond the general descriptions."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mleakey_britannica, src_mleakey_davidson, src_mleakey_nature, src_mleakey_sciam | 1930s-1979 | encyclopaedia + science institute + journal page + journalism] Britannica and the Davidson article describe a 30-year working partnership in which she led the excavations while Louis supplied theories and publicity; Scientific American places her within a feud-prone field in which Johanson and White disputed her results; the Nature record shows the Laetoli report jointly authored with a geologist. A real, effective working partnership is documented, but the credit disputes and little first-hand evidence on how she worked with her field crew keep this moderate."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mleakey_britannica, src_mleakey_lindahall, src_mleakey_sciam | 1930s-1950s | encyclopaedia + library blog + journalism] Britannica says she became skilled at reproduction-quality drawing of stone tools while still taking part in excavations as a young woman, the library blog says she took archaeology and drawing courses and found a niche as an archaeological artist, and Scientific American says she attended lectures at the London Museum and University College London without enrolling in a degree. A pattern of building expert craft skill outside formal education; inferred from a few biographical statements."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "메리 리키"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait found after one bounded retry. (1) The Commons files 'Mary Leakey.jpg' (330 x 340) and 'Mary Leakey (1977) cropped.jpg' (212 x 308) are crops of a 1977 print at the National Library of Medicine (image A016794, 1536 x 1248, three people); Commons tags it as a US government NIH work with no author named, but the NLM record itself says only that NLM 'believes this item to be in the public domain' and names no photographer or NIH staff attribution, which is a belief rather than a documented basis; the crops are also very small. (2) The Smithsonian Institution Archives photograph of Mary and Louis Leakey at Olduvai (credited to the National Geographic Society, Science Service records, c. 1960s) is shared via Flickr Commons as 'No known copyright restrictions' with no creator named, and shows two people. NEXT STEP: confirm NIH staff authorship of the 1977 photograph (for example through the 1977 NIH Clinical Center annual report or an NLM rights inquiry), or find a photograph with a named creator and a stated licence (Nationaal Archief, NASA, or a National Geographic Society or Leakey Foundation page stating terms).",
+    "kind": "likeness"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q231111 returned en label 'Mary Leakey', description 'British paleoanthropologist (1913-1996)', born 1913-02-06, died 1996-12-09, citizenship Q145 (United Kingdom), P18 'Mary Leakey.jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate file or src/data reference for slug mary-leakey or QID Q231111 in the roster56 worktree. REGION western_europe, nationality GB: repo precedents place Jane Goodall and David Livingstone (British nationals whose careers were based in Africa) in western_europe by nationality; Leakey was born in London, held British citizenship per Wikidata, and her career base was East Africa (Kenya/Tanzania, died in Nairobi), so sub_saharan_africa is arguable, but the precedent is followed for consistency and the lead can override. VOCABULARY: 'scientist' and 'scholar' occupations (no labelled paleoanthropologist, archaeologist or anthropologist occupation exists), fields natural_science and biology, impact domains scientific and historical, tags field_researcher and self_taught, archetype scientific_explorer are existing labelled ids. ZERO POLITICS: nothing political is scored; the Mau Mau-period danger and Kenyan politics are excluded. PORTRAIT PREFLIGHT: Commons offered an NIH-tagged 1977 print (unknown author, NLM only 'believes' it public domain, crops under 400 px) and a Smithsonian Archives/Flickr Commons photograph with 'No known copyright restrictions' and no named creator; neither meets the strict rule, so the portrait is HELD (reason recorded in portrait.reason). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Mary Douglas Leakey' (https://www.britannica.com/biography/Mary-Douglas-Leakey). READ (6 cited non-Wikidata sources fully, 1 abstract only): Britannica, Scientific American profile, Linda Hall Library post, Davidson Institute article (derivative of Scientific American), EBSCO Research Starters, Nature article page (abstract only; paywalled). PERSPECTIVES: encyclopaedia; independent journalism with a colleague (Potts), her son (Richard Leakey) and named critics (Johanson, White); a science library; a science-education institute; reference biography. COUNTER-VOICES: Tim White's claim about one Laetoli track and the Johanson feud (Scientific American), credit entanglement with Louis (Britannica, Davidson), Zinjanthropus's later reclassification, the later deterioration of the footprints. NOT opened: Virginia Morell 'Ancestral Passions' (1995) and its reviews, Mary Leakey's 'Disclosing the Past' (self material), the Nature papers beyond the abstract, National Geographic Society and Leakey Foundation pages (not retrieved), obituaries in the New York Times and Nature. EXCLUDED: marriage, the relationship with Louis before marriage, affairs, children, her father's death and any personality inference from bereavement, pets and smoking habits, the Mau Mau-period threats, Wikipedia/Wikidata. CALIBRATION: behavioural evidence is thin and mostly from one profile plus retrospective biographies, so the highest score is 72 and highest confidence 0.56; six rows, no padding, and no row on persuasiveness or leadership because the sources describe Louis, not her, as the publicist and do not document her leadership of the crew. SELF-CALIBRATION (agent): reviewed detail_orientation (lowered 76/0.62 to 72/0.56: family and colleague praise, derivative source), persistence (lowered 70/0.56 to 66/0.52: hardships shared with Louis) and analytical_rigor (lowered 68/0.52 to 64/0.46: self-reported stance). BROAD FLAG: the independent behavioural evidence rests on one Scientific American profile; a read of Morell's biography or a major obituary would be needed to deepen collaboration or add any leadership evidence."
+  }
+}

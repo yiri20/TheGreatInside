@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alexander-pushkin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alexander Pushkin",
+    "aliases": [
+      "Aleksandr Pushkin",
+      "Aleksandr Sergeyevich Pushkin"
+    ],
+    "wikidataId": "Q7200",
+    "birthYear": 1799,
+    "deathYear": 1837,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pushkin_wikidata",
+      "kind": "wikidata",
+      "title": "Alexander Pushkin (Q7200) -- verified live via the Wikidata API (2026-10-24): English label 'Alexander Pushkin', description 'Russian poet, playwright, and novelist (1799-1837)', Korean label '알렉산드르 푸시킨', P18 image 'Kiprensky Pushkin.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7200"
+    },
+    {
+      "id": "src_pushkin_pf",
+      "kind": "institution",
+      "title": "Poetry Foundation, 'Alexander Pushkin' biography, read in full. CANONICAL SIGNIFICANCE SOURCE: Russia's most famous poet; the verse novel Eugene Onegin begun at the end of 1823, written over seven years and published in full in 1833, in which he invented a new stanza; the mock epic Ruslan and Liudmila (1820) broke with prevailing verse traditions; exile from 1820, later release by Nicholas I with his work still frequently censored and his letters intercepted; statue unveiling in 1880 with speeches by Dostoevsky and Turgenev. Institutional, admiring and retrospective; the duel and the marriage passages were read and left unscored.",
+      "url": "https://www.poetryfoundation.org/poets/alexander-pushkin"
+    },
+    {
+      "id": "src_pushkin_poets",
+      "kind": "institution",
+      "title": "Academy of American Poets, 'About Alexander Pushkin' (poets.org), read in full: short biography naming Eugene Onegin, the closet drama Boris Godunov (1831) and the short story 'The Queen of Spades' (1834) as his major works and calling him a major figure of modern Russian literature. Brief institutional orientation, independent of the Poetry Foundation text.",
+      "url": "https://poets.org/poet/alexander-pushkin"
+    },
+    {
+      "id": "src_pushkin_the",
+      "kind": "press",
+      "title": "Times Higher Education review of T. J. Binyon's biography 'Pushkin' ('Untimely ebb of an ocean of talent', 14 November 2003), read in full: Binyon's stated aim to free the man from the heroic myth; Nicholas I appointing himself Pushkin's personal censor and failing to grasp the formal innovation of Boris Godunov; surveillance of the poet after exile; a dissolute St Petersburg youth; the reviewer's limits (no new sources, little discussion of the works). Review of a biography, read instead of the book itself; a sceptical, demythologising voice.",
+      "url": "https://www.timeshighereducation.com/books/untimely-ebb-of-an-ocean-of-talent/181185.article"
+    },
+    {
+      "id": "src_pushkin_hist",
+      "kind": "press",
+      "title": "History Extra / History Hit feature 'Splendid isolation: great minds who triumphed in lockdown' (history.co.uk), Pushkin section read: the three months at the family estate at Boldino in autumn 1830, stranded by a cholera outbreak, the most productive period of his career, with the last chapters of Eugene Onegin and over thirty poems, and a strict routine described in a letter. Popular history article; quotes a letter of Pushkin's.",
+      "url": "https://www.history.co.uk/article/splendid-isolation-great-minds-who-triumphed-in-lockdown"
+    },
+    {
+      "id": "src_pushkin_open",
+      "kind": "press",
+      "title": "Open magazine column 'Love and Literature in the Time of Cholera' (openthemagazine.com), read in full: Pushkin at Boldino in 1830, taking only three books, turning to prose that he had previously disliked, the Belkin stories and the last chapters of Onegin, with Nabokov quoted on the number of masterpieces produced there. Popular column; some detail repeats the History Extra feature, so the two are not counted as independent for the Boldino episode.",
+      "url": "https://openthemagazine.com/columns/guest-column/love-literature-time-cholera"
+    },
+    {
+      "id": "src_pushkin_nwe",
+      "kind": "biography",
+      "title": "New World Encyclopedia, 'Alexander Pushkin' (read in full): founder of modern Russian literature; before him there was no commonly accepted literary language, and he synthesised European traditions with Russian folklore; pardon by Nicholas I in 1826 and subsequent strict censorship; Eugene Onegin, Boris Godunov, the Belkin tales and the Little Tragedies; the court rank of Junior Chamberlain; his dissolute youth. A general, derivative encyclopedia entry, used for orientation on literary significance and as a second description of his style innovations.",
+      "url": "https://www.newworldencyclopedia.org/entry/Alexander_Pushkin"
+    },
+    {
+      "id": "src_pushkin_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Kiprensky Pushkin.jpg' (Orest Kiprensky, 1827, oil on canvas, Tretyakov Gallery, Moscow; licence tags Public domain and Creative Commons Public Domain Mark 1.0), checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Kiprensky_Pushkin.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pushkin_pf, src_pushkin_nwe, src_pushkin_the | 1820-1833 | institution + encyclopedia + press] The Poetry Foundation records that he invented a new stanza for Eugene Onegin, that Ruslan and Liudmila broke with prevailing verse traditions, and that the Onegin text is notable for inventive language; the encyclopedia says he synthesised European traditions and Russian folklore into a new literary language and style, and the Binyon review says Nicholas I failed to grasp the formal innovation of Boris Godunov. All sources are admiring or retrospective, but the formal inventions are specific and concrete. SELF-CALIBRATION (agent): reviewed as a top-risk row (high score, retrospective praise); kept, since the new stanza and the contemporary non-comprehension of Boris Godunov are specific, not adjectival. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 82 / 0.68 to 78 / 0.6 because the support is poetry-institution profiles, a sceptical biography review and popular articles; no full biography was read, so 82 / 0.68 overstates the documented behaviour."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pushkin_pf, src_pushkin_open, src_pushkin_the | 1820-1831 | institution + press] He broke with verse convention in the mock epic of 1820, moved from narrative verse to the closet drama Boris Godunov, and in 1830 turned to prose (the Belkin stories), a form he had previously disliked, as the Open column reports. Documented shifts of genre and form; the Boldino account is popular press, so confidence stays moderate."
+    },
+    "execution_speed": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pushkin_hist, src_pushkin_open | autumn 1830 | press] In about three months at Boldino he finished the last chapters of Eugene Onegin, wrote the Belkin stories and over thirty poems, and kept a strict routine described in his own letter. Both accounts are popular press and partly repeat each other, and Onegin as a whole took seven years (Poetry Foundation), so this is read as the pace of a single productive period rather than a lifelong trait. SELF-CALIBRATION (agent): reviewed as a top-risk row (one episode, popular secondary sources); score and confidence were set modestly for this reason, no further change."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pushkin_poets, src_pushkin_nwe, src_pushkin_pf | 1820-1836 | institution + encyclopedia] Works named across verse novel, mock epic, lyric, closet drama, short stories, and the Little Tragedies and fairy tales. The range is within literature, so it is scored as a moderate lean."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pushkin_the, src_pushkin_open | 1826-1831 | press] After exile he initially welcomed the tsar acting as his personal censor as a way round the formal censorship bureaucracy, and at Boldino he took up prose despite earlier distaste. These are two documented adjustments, but they come from press summaries and the censorship arrangement ultimately constrained him, so the lean is small and dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알렉산드르 푸시킨"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alexander-pushkin-kiprensky-1827.jpg",
+    "width": 960,
+    "height": 1118,
+    "source": "Portrait of Alexander Pushkin by Orest Kiprensky, 1827, oil on canvas, Tretyakov Gallery, Moscow, via Wikimedia Commons file 'Kiprensky Pushkin.jpg' (original 1759 x 2048; the 960 x 1118 Commons rendition is saved, not enlarged). The painter died in 1836, so the work is in the public domain; a faithful reproduction of a two-dimensional public-domain work adds no new copyright.",
+    "license": "Public domain (painter Orest Kiprensky died 1836)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Orest Kiprensky, portrait of Alexander Pushkin, 1827, Tretyakov Gallery (public domain)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Kiprensky_Pushkin.jpg",
+    "creator": "Orest Kiprensky",
+    "date": "1827",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kiprensky_Pushkin.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q7200 returned en label 'Alexander Pushkin', description 'Russian poet, playwright, and novelist (1799-1837)', ko label '알렉산드르 푸시킨', several birth/death date claims (Old/New Style variants); the lead's hint was correct. SLUG/QID CHECK: no candidate or src/data reference to alexander-pushkin or Q7200 in the roster56 worktree. REGION: central_europe, following the repo's Russian-writer precedents (anton-chekhov, fyodor-dostoevsky, leo-tolstoy all use central_europe with nationality RU). VOCABULARY: occupations poet and writer, field literature, impact domains literary and cultural, tags innovator and prolific, archetype creative_creator are existing ids with EN+KO labels (dramatist/playwright/novelist have no labels and were not used). ZERO POLITICS: nothing political is scored; the exile, Decembrist links, his stance towards the autocracy and the Nicholas I relationship appear only as unscored factual context (the censorship arrangement is cited only as a professional constraint). The duel and his death were not used for any trait inference; marriage and private life excluded. CANONICAL SIGNIFICANCE SOURCE: Poetry Foundation, 'Alexander Pushkin' (https://www.poetryfoundation.org/poets/alexander-pushkin). READ (7 cited non-Wikidata sources, read as saved text): Poetry Foundation, Academy of American Poets, Times Higher Education review of Binyon's biography, History Extra Boldino feature, Open magazine column, New World Encyclopedia, Commons file page. PERSPECTIVES: poetry institutions (admiring), a biography review (sceptical, demythologising: Binyon's aim to free the man from the Soviet/Russian myth; the reviewer's own limits), popular press, a derivative encyclopedia. COUNTER-VOICE: the Times Higher Education review (dissolute youth, surveillance, the tsar's incomprehension, criticism that the biography sheds little new). NOT OPENED: Binyon's and Feinstein's biographies themselves (lending or paywalled; Binyon known only through the review), Nabokov's Onegin commentary, Britannica (HTTP 403 and 404), Pushkin House and Institute of Russian Literature pages, Cambridge Companion to Pushkin (abstract only), Prlib.ru article (bot check). The two Boldino press pieces overlap and are treated as one perspective. SOURCE-DEPTH CAVEAT: all behavioural evidence reaches this file through secondary summaries, so confidence is capped at 0.68 and no row exceeds 82. PORTRAIT PREFLIGHT AND RESULT: Commons 'Kiprensky Pushkin.jpg', Orest Kiprensky, 1827, oil on canvas 63 x 54 cm, Tretyakov Gallery; Kiprensky died in 1836 so the painting is public domain worldwide by life plus 70 years; the Commons page says a faithful reproduction of a two-dimensional public-domain work is public domain; no conflicting institutional notice was reachable (tretyakovgallery.ru not opened). Original file 1759 x 2048; the 960 x 1118 Commons rendition was downloaded, no upscaling. KIND: set to a historical depiction because no source I read states that Pushkin sat for it from life (the Delvig commission appeared only in a search snippet); the lead may upgrade the kind to likeness if from-life sittings are documented. SELF-CALIBRATION: top-risk rows creative_originality (kept) and execution_speed (set modestly); no rows lowered. SCOPE FLAG: five rows; sparse because the evidence is mostly institutional and secondary. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 82 / 0.68 to 78 / 0.6 because the support is poetry-institution profiles, a sceptical biography review and popular articles; no full biography was read, so 82 / 0.68 overstates the documented behaviour."
+  }
+}

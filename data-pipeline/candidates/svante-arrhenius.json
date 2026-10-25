@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "svante-arrhenius",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Svante Arrhenius",
+    "aliases": [
+      "Svante August Arrhenius"
+    ],
+    "wikidataId": "Q80956",
+    "birthYear": 1859,
+    "deathYear": 1927,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "SE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "physicist"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "theorist",
+      "nobel_laureate",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_arrhenius_wikidata",
+      "kind": "wikidata",
+      "title": "Svante Arrhenius (Q80956), verified live via the Wikidata API (2026-10-24): label 'Svante August Arrhenius', description 'Swedish astronomer, chemist and physicist (1859-1927)', born 1859-02-19, died 1927-10-02, Korean label in Hangul. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q80956"
+    },
+    {
+      "id": "src_arrhenius_nobelspeech",
+      "kind": "award_body",
+      "title": "Nobel Prize in Chemistry 1903, Award Ceremony Speech by Dr. H.R. Tornebladh, President of the Royal Swedish Academy of Sciences (NobelPrize.org), read in full. CANONICAL SIGNIFICANCE SOURCE: explains that Arrhenius's electrolytic dissociation theory (salts split into charged ions in solution) put the relation between electricity and chemical affinity on a quantitative footing, that it was little understood at his 1884 doctorate, that acceptance took a struggle of more than ten years and many experiments, and that van't Hoff's theory depended on his. Award-body speech: admiring and retrospective.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1903/ceremony-speech/"
+    },
+    {
+      "id": "src_arrhenius_nobelbio",
+      "kind": "award_body",
+      "title": "Svante Arrhenius, Biographical (NobelPrize.org, 1903 Nobel Prize in Chemistry), read in full: education and thesis (1884), reception by the Uppsala faculty versus Pettersson and Ostwald, the first docentship in physical chemistry in Sweden, study visits with Ostwald, Kohlrausch, Boltzmann and van't Hoff, declining a Giessen chair in 1891, professorship and rectorship at Stockholm, the Nobel Institute for Physical Chemistry from 1905, textbooks and popular books, interests in the CO2 climate effect, panspermia and the northern lights, Royal Society election and medals. Official biography; factual and admiring.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1903/arrhenius/biographical/"
+    },
+    {
+      "id": "src_arrhenius_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Arrhenius, Svante August' (Encyclopedia.com), read in full: the original entry by H. A. M. Snelders (thesis, the 1889 paper on the temperature dependence of the inversion of cane sugar and the activation-energy idea, cosmic physics, the 1896 carbonic acid memoir) and the new supplement by Sverker Sorlin, which draws on Elisabeth Crawford's 1996 biography and is more critical: describes his career worries, the modest Uppsala assessment of his dissertation, Ostwald and van't Hoff rescuing his career, a later 'countermyth' of undiscovered genius, his expansive and polemical style, the quarrels with Nernst and Ehrlich, the short-lived or whimsical ideas such as panspermia, and the almost nil reception of the greenhouse paper until 1938. Independent historians; includes critical judgements. Private-life passages (marriages, divorce, custody) were read but excluded.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/arrhenius-svante-august-0"
+    },
+    {
+      "id": "src_arrhenius_ewb",
+      "kind": "biography",
+      "title": "'Svante August Arrhenius', Encyclopedia of World Biography (Gale, via Encyclopedia.com), read in full: thesis granted the lowest passing grade, Ostwald and others as supporters, election to the Swedish Academy of Sciences 'with strong opposition' and professorship 'over strong objections', first Swede to win the chemistry Nobel Prize, the Debye-Hueckel modification of his strong-electrolyte views in 1923, and his spread into immunochemistry, cosmic physics and a proposed universal language. General reference biography.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/svante-august-arrhenius"
+    },
+    {
+      "id": "src_arrhenius_aip",
+      "kind": "institution",
+      "title": "Spencer Weart, 'The Discovery of Global Warming: The Carbon Dioxide Greenhouse Effect', section on Arrhenius and Chamberlin (AIP Center for History of Physics), read: Arrhenius's 1896 laborious numerical computation (halving CO2 could lower European temperature by 4-5 C; doubling would raise it 5-6 C), his reliance on Hogbom's estimates, his view that warming was not a problem and far from his main point about the ice ages, the 1908 book revision, and the reasons contemporary experts dismissed the calculation as oversimplified. Institutional history of science; critical of both the model and the claim that he discovered global warming.",
+      "url": "https://history.aip.org/climate/co2.htm"
+    },
+    {
+      "id": "src_arrhenius_portrait",
+      "kind": "archive",
+      "title": "Albert Kahn Museum, Archives of the Planet (Hauts-de-Seine departmental collections), autochrome record 'Monsieur Svante Arrhenius', inventory A31436, operator Auguste Leon, 10 May 1922, with the collection page's licence line 'freely reusable (CC-00), public domain', and the Wikimedia Commons file '1922 Svante Arrhenius.jpg', checked for the portrait only.",
+      "url": "https://collections.albert-kahn.hauts-de-seine.fr/document/proprit-d-albert-kahn-boulogne-france-monsieur-svante-arrhenius/617a7a44cf8b8968b3385ca2"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_arrhenius_nobelspeech, src_arrhenius_nobelbio, src_arrhenius_dsb, src_arrhenius_aip | 1884-1908 | award body + historians + institution] In 1884 he proposed that salts dissociate into ions in solution, a view that conflicted with prevailing ideas and put an old electrochemical idea on a quantitative basis (Nobel speech); in 1889 he proposed activated molecules to explain the temperature dependence of reaction rate (DSB); in 1896 he made a numerical estimate of the climatic effect of atmospheric CO2 (AIP). The historians also note that several of his later ideas were short-lived or whimsical and that his strong-electrolyte picture was modified later, so the originality is documented but not uniformly vindicated. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.66 to 74 / 0.58 because same award-body and reference-work concentration; the greenhouse calculation was dismissed by experts of the time (Weart), so originality is documented while its reception was mixed."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_arrhenius_nobelbio, src_arrhenius_dsb, src_arrhenius_ewb, src_arrhenius_aip | 1884-1918 | award body + historians + institution] Across his career he moved from electrolyte chemistry to immunochemistry and serum therapy, cosmic physics (a thousand-page 1903 textbook, aurora, comets), the CO2 climate effect, panspermia and a proposed universal language; Sorlin notes his easy moves between chemistry, biology and physiology using physical chemistry and that some of these ideas were marginal or whimsical. The breadth is documented by several independent sources; the dual-edged impact reflects the quarrels and short-lived ideas that came with it. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.68 to 76 / 0.6 because the breadth is documented through the Nobel biography and reference entries, but the Crawford biography was not read and the sources are award-body and encyclopedia concentrated."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_arrhenius_nobelspeech, src_arrhenius_dsb, src_arrhenius_ewb | 1884-1900s | award body + historians] After the doctoral committee gave his thesis the lowest passing grade he had it printed and sent to Clausius, van't Hoff and Ostwald; the Academy's speech says acceptance of his theory required a struggle of more than ten years and many experiments, and Sorlin describes him thriving in controversy with fourteen-hour working days over months and years. Persistence is documented; the long-day detail comes from a single historian."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_arrhenius_dsb, src_arrhenius_nobelspeech | 1884-1921 | historians + award body] Sorlin says he seemed to thrive in battle, wrote vitriolic polemics, quarrelled incessantly with Ehrlich and continued to contest Nernst's 1920 Nobel Prize until that was no longer possible; the Academy's speech describes the long battle over his dissociation theory. The pattern is documented by one critical historian and the award speech, and its effect on his standing was mixed. SELF-CALIBRATION (agent): reviewed as a top-risk row (one-source dependence); lowered from 70 / 0.58 to 64 / 0.52 because the quarrels with Ehrlich and Nernst are asserted by a single historian's summary, not in separate accounts of the incidents."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_arrhenius_nobelbio, src_arrhenius_dsb, src_arrhenius_ewb | 1881-1910s | award body + historians] He left Uppsala physics to do doctoral research in Stockholm under Edlund, defended a thesis that his Uppsala faculty did not understand, kept reservations about Ostwald's energeticism while working with him, and declined chairs in Giessen (1891) and Berlin (1905) to stay in Sweden. Independence from local and senior opinion is documented; some of the outcomes (panspermia) were not accepted."
+    },
+    "systems_abstraction": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_arrhenius_nobelspeech, src_arrhenius_dsb, src_arrhenius_aip | 1884-1896 | award body + historians + institution] Weart describes his argument that CO2 acted as a regulator of water vapour and so set long-term temperature, supported by a laborious numerical calculation; Snelders describes the activated-molecule explanation of the temperature dependence of reaction rate; the Nobel speech notes that he gave the electrical view of chemistry a quantitative basis that could be treated mathematically. Building simple quantitative models of a coupled system is documented in several works; the models were criticised as oversimplified, so confidence stays moderate."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_arrhenius_nobelbio, src_arrhenius_dsb, src_arrhenius_aip | 1886-1927 | award body + historians + institution] He worked in the laboratories of Ostwald, Kohlrausch, Boltzmann and van't Hoff in 1886-88, took students and junior colleagues and built a European network (Sorlin), investigated lunar and atmospheric electricity with the meteorologist Ekholm, relied on Hogbom's CO2 estimates, and as head of the Nobel Institute attracted collaborators from Sweden and abroad (Nobel biography, admiring). Documented working relationships, but his quarrels and the largely individual authorship of his main theories keep this moderate."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_arrhenius_nobelbio, src_arrhenius_dsb | 1881-1905 | award body + historian] He moved his doctoral work out of the Uppsala department, stayed at the private Stockholm Hogskola which Sorlin says he cherished for its freedom from regulation, and declined chairs at Giessen and Berlin; the Nobel Institute was created for him in 1905. The pattern is documented, but motives are described only by one historian, so the trait reading is an inference."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "스반테 아레니우스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/svante-arrhenius-leon-1922.jpg",
+    "width": 900,
+    "height": 1200,
+    "source": "Autochrome photograph of Svante Arrhenius taken by Auguste Leon on 10 May 1922 at Albert Kahn's property in Boulogne, France (Archives of the Planet, Albert Kahn Museum, Hauts-de-Seine departmental collections, inventory A31436). The collection page states the licence as freely reusable (CC-00, public domain), the operator and the date; the Commons file '1922 Svante Arrhenius.jpg' carries a public-domain tag. Original download 1186 x 1582, reduced (downscaled only) to 900 x 1200. Caveat: the collection title names him 'Monsieur Svante Arrhenius' but the on-plate note spells the name differently; identity rests on the museum's own title.",
+    "license": "Public domain (CC-00, Albert Kahn Museum)",
+    "licenseUrl": "https://collections.albert-kahn.hauts-de-seine.fr/document/proprit-d-albert-kahn-boulogne-france-monsieur-svante-arrhenius/617a7a44cf8b8968b3385ca2",
+    "attribution": "Auguste Leon, Albert Kahn Museum, Archives of the Planet, 10 May 1922, public domain (CC-00)",
+    "attributionUrl": "https://collections.albert-kahn.hauts-de-seine.fr/document/proprit-d-albert-kahn-boulogne-france-monsieur-svante-arrhenius/617a7a44cf8b8968b3385ca2",
+    "creator": "Auguste Leon",
+    "date": "1922",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:1922_Svante_Arrhenius.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q80956: label 'Svante August Arrhenius', description 'Swedish astronomer, chemist and physicist (1859-1927)', born 1859-02-19, died 1927-10-02, Korean label in Hangul; matches the lead's identity. SLUG/QID CHECK: no existing candidate or src/data reference to svante-arrhenius or Q80956. REGION: western_europe (Sweden; Uppsala and Stockholm career). ERA: 19th_century chosen because the dissociation thesis (1884) and the greenhouse memoir (1896) fall there, although he lived to 1927 and won the Nobel Prize in 1903 (judgement call, flagged). VOCABULARY: chemist, physicist, fields chemistry and physics, tags theorist, nobel_laureate, cross_disciplinary and archetype scientific_explorer all exist with EN+KO labels. ZERO POLITICS / EXCLUDED CONTROVERSY: Arrhenius was a board member of the Swedish Society for Racial Hygiene (founded 1909); this was known to me only from Wikipedia orientation, was NOT found in the primary sources read, and is a documented controversy that is deliberately NOT scored, NOT carded and NOT used to infer any trait: it was excluded as outside the exact scoring rows, not hidden. His political views (liberal, supported Norwegian secession), first marriage and divorce, and health at death were also excluded. PORTRAIT PREFLIGHT: Commons P18 file (1909 photogravure, unknown photographer) and Nobel Foundation file (PD-Sweden-photo template, rejected) were less clear; the Smithsonian Libraries Transocean photo was rejected under the 'no known restrictions' rule; the Albert Kahn Museum autochrome has creator, exact date, inventory number and an explicit CC-00 public-domain licence on the institution's own page, and was chosen. CANONICAL SIGNIFICANCE SOURCE: Nobel Prize in Chemistry 1903 Award Ceremony Speech (https://www.nobelprize.org/prizes/chemistry/1903/ceremony-speech/). READ (6 substantive sources beyond Wikidata and portrait record): Nobel speech, Nobel biography, Complete Dictionary of Scientific Biography (Snelders plus Sorlin supplement), Encyclopedia of World Biography, Weart's AIP history of the CO2 greenhouse effect. NOT opened: Crawford's biography 'Arrhenius: From Ionic Theory to the Greenhouse Effect' and its reviews (known only through the Sorlin supplement, which cites it as the central authority; no row depends on Crawford directly), Britannica and Science History Institute pages (blocked), his own 1896 paper and Worlds in the Making (self material), the Royal Society materials. PERSPECTIVES: award body (admiring), historians of science (Snelders, Sorlin, with critical judgement), an institutional history of climate science (critical of the model and of 'discovered global warming'), and a reference encyclopedia. COUNTER-VOICES: Sorlin on the modest Uppsala assessment, the self-created 'countermyth', polemical quarrels with Nernst and Ehrlich and the whimsical panspermia idea; Weart on why experts dismissed the greenhouse calculation and that he had 'not quite discovered global warming'; Gale on Debye-Hueckel's 1923 modification. The Uppsala doctoral episode is treated as a documented professional episode. SELF-CALIBRATION (agent): rows reviewed as highest-risk: cross_domain_range (80/0.68, kept: four independent descriptions of specific different fields), conflict_tolerance (70/0.58 lowered to 64/0.52, single historian), creative_originality (78, kept: documented specific theories plus critical sources). Rows lowered: conflict_tolerance only. FLAGS: 8 rows only; historians' quarrel material is summarised not itemised; era judgement. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.68 to 76 / 0.6 because the breadth is documented through the Nobel biography and reference entries, but the Crawford biography was not read and the sources are award-body and encyclopedia concentrated. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.66 to 74 / 0.58 because same award-body and reference-work concentration; the greenhouse calculation was dismissed by experts of the time (Weart), so originality is documented while its reception was mixed."
+  }
+}

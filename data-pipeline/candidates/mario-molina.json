@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mario-molina",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mario Molina",
+    "aliases": [
+      "Mario J. Molina",
+      "Mario Jose Molina-Pasquel Henriquez"
+    ],
+    "wikidataId": "Q19045",
+    "birthYear": 1943,
+    "deathYear": 2020,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "MX",
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "environmental_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "mentor",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_molina_wikidata",
+      "kind": "wikidata",
+      "title": "Mario Molina (Q19045) -- verified live via the Wikidata API (2026-10-24): English label 'Mario Molina', description 'Mexican chemical engineer (1943-2020)', born 1943-03-19, died 2020-10-07, citizenship Mexico and United States, Korean label '마리오 J. 몰리나', P18 image 'Mario Molina 1c389 8387.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q19045"
+    },
+    {
+      "id": "src_molina_mit",
+      "kind": "institution",
+      "title": "MIT News obituary, 'Institute Professor Emeritus Mario Molina, environmental leader and Nobel laureate, dies at 77' (9 October 2020), read in full. CANONICAL SIGNIFICANCE SOURCE: his computer modelling and laboratory work showed CFCs could destroy ozone in the stratosphere; the 1974 Nature paper with F. Sherwood Rowland and the joint call for a ban at an American Chemical Society meeting; initial dispute by industry, review by the National Academy of Sciences in 1976, the Antarctic ozone hole reported in 1985; the Montreal Protocol; the 1995 Nobel Prize in Chemistry shared with Rowland and Paul Crutzen; later work on air pollution in Mexico City, the Mario Molina Center, and fellowships funded from his prize money. Institutional, admiring; colleague tributes by Ronald Prinn and Susan Solomon.",
+      "url": "https://news.mit.edu/2020/mario-molina-environmental-dies-1009"
+    },
+    {
+      "id": "src_molina_nobel",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Mario J. Molina - Biographical' (1995 Nobel Prize in Chemistry), read in full. Molina's own account written for the Nobel Foundation: his move into Rowland's group in 1973, how he and Rowland developed the CFC-ozone depletion theory, the search for loss processes in the lower atmosphere, publication in Nature on 28 June 1974, the decision to communicate to policy makers and the news media, his move to the Jet Propulsion Laboratory in 1982 and work on polar stratospheric cloud chemistry after 1985. Self-authored, used only where independent sources corroborate it, never as sole support.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1995/molina/biographical/"
+    },
+    {
+      "id": "src_molina_aip",
+      "kind": "institution",
+      "title": "Renyi Zhang, 'Mario J. Molina' obituary (Physics Today, 1 February 2021, American Institute of Physics), read in full: his demonstration that CFCs release chlorine atoms in the stratosphere leading to catalytic ozone destruction, the 1974 paper with Rowland, research between 1974 and 1995 on stratospheric chemistry, later shift to urban air pollution, his reputation as a mentor, and a favourite quotation that solutions to environmental problems belong to society as a whole. Written by a former student and collaborator: admiring, with first-hand knowledge. COVID-19 advocacy and political remarks in the obituary were excluded.",
+      "url": "https://physicstoday.aip.org/obituaries/mario-j-molina"
+    },
+    {
+      "id": "src_molina_uchi",
+      "kind": "press",
+      "title": "'Clean-up Hitter' (The University of Chicago Magazine, August 1997), the feature on F. Sherwood Rowland, read in full: Rowland and Molina investigating the atmospheric fate of CFCs, ruling out rain and other removal routes, the shared realisation in December 1973 and their search for flaws, submission to Nature in January 1974 and eight months' delay, the September 1974 American Chemical Society meeting, confirmation by Paul Crutzen and others, and the industry response that ozone depletion was only a hypothesis, including a remark in an interview that the two might be KGB agents. A profile of Rowland, so Molina appears as the co-author; independent of Molina's own account and of the obituaries. Counter-voice material.",
+      "url": "https://magazine.uchicago.edu/9708/9708FeatRowland2.html"
+    },
+    {
+      "id": "src_molina_eia",
+      "kind": "press",
+      "title": "Alasdair Cameron, 'The man who helped alert the world to a looming disaster' (Environmental Investigation Agency blog, 16 March 2012), read in full: after Rowland's death, an NGO campaigner recounts the 1975 DuPont full-page advertisement ('Before a valuable industry is hypothesized out of existence, more facts are needed'), a DuPont official's 'pure science fiction' remark, and an Aerosol Age article implying Rowland and Molina were KGB agents (via the New York Times). An advocacy organisation's blog: partisan, and the quotations are cited second-hand; used only to document the industry challenge.",
+      "url": "https://eia-international.org/the-man-who-helped-alert-the-world-to-a-looming-disaster/"
+    },
+    {
+      "id": "src_molina_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Mario Molina 1c389 8387.jpg' (photograph by Janwikifoto at the Nobel Laureate Global Symposium, Royal Swedish Academy of Sciences, Stockholm, 17 May 2011; multi-licensed GFDL and Creative Commons Attribution-ShareAlike 3.0/2.5/2.0/1.0) and the uploader's Commons user page (identity verified through the Wikimedia volunteer response team), checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Mario_Molina_1c389_8387.jpg"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_molina_uchi, src_molina_nobel, src_molina_aip | 1973-1974 | press + Nobel autobiography + obituary] The Chicago magazine profile describes Rowland and Molina ruling out rain-out and other removal mechanisms for CFCs and checking the calculation for flaws before they published; Molina's Nobel account describes a systematic search for processes that could destroy CFCs in the lower atmosphere and comparing industrial CFC amounts with natural nitrogen oxides; the obituary calls his thinking exploring 'not only the obvious but also the invisible'. The profile is about Rowland so it speaks about the pair, and the Nobel account is self-authored. JOINT ATTRIBUTION: credit is shared with Rowland."
+    },
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_molina_mit, src_molina_nobel, src_molina_uchi | 1973-1974 | institution + Nobel autobiography + press] Rowland offered Molina a list of projects and Molina took the CFC question; together they reached the CFC-ozone depletion theory, with Crutzen's earlier work on nitrogen-oxide catalysis as a basis (Nobel account) and Lovelock's CFC measurements as the starting data (Chicago profile). The idea is jointly attributed and built on others' findings, so the originality is real but shared, and the score is held in the middle-high band."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_molina_nobel, src_molina_mit, src_molina_aip | 1973-2004 | Nobel autobiography + institution + obituary] He moved from chemical lasers at Berkeley to atmospheric chemistry in Rowland's group, then to Jet Propulsion Laboratory work on chemistry in polar stratospheric clouds after the Antarctic ozone hole was reported, and later to urban air pollution in Mexico City. The first and second moves are described in his own account and corroborated by the MIT and AIP obituaries; the pattern across several shifts supports a strong inference rather than a single documented instance."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_molina_aip, src_molina_mit, src_molina_nobel, src_molina_uchi | 1973-2020 | obituaries + Nobel autobiography + press] Two obituaries (MIT colleagues Prinn and Solomon; his former student Zhang) call him a respectful, generous mentor, the Nobel account credits Rowland and Pimentel as mentors and the Chicago profile shows the pair working as a team through the 1974-75 communication campaign. The tributes are admiring and written after his death, and the Rowland partnership is the single documented long collaboration, so confidence stays moderate. JOINT ATTRIBUTION: the discovery is credited to Molina and Rowland together."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_molina_nobel, src_molina_mit, src_molina_uchi, src_molina_aip | 1974-2004 | Nobel autobiography + institution + press + obituary] After the 1974 paper he and Rowland chose to take the findings to policy makers and the news media rather than leave them in the journals (Nobel account, Chicago profile); MIT reports a donation of a substantial part of his Nobel prize money to create fellowships for scientists from developing countries, and the Mario Molina Center was set up in 2004 to link science to energy and environment questions. This is science communication and applied purpose, not a political-leadership or activism score. SELF-CALIBRATION (agent): reviewed as a top-risk row (policy-adjacent, partly self-account); kept, since the prize-money donation and the press/testimony campaign are corroborated by MIT and the independent Chicago profile."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_molina_mit, src_molina_aip, src_molina_uchi | 1974-1995 | institution + obituary + press] After industry challenged the CFC hypothesis, he kept researching stratospheric chemistry for two decades (1974-1995) and published a series of articles on the mechanisms, until the National Academy review in 1976 and the Antarctic hole in 1985 gave support. The pressure documented in the Chicago profile fell mainly on Rowland, so Molina's own response is inferred from his continuing output."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마리오 몰리나"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mario-molina-janwikifoto-2011.jpg",
+    "width": 900,
+    "height": 1200,
+    "source": "Photograph of Mario Molina at the Nobel Laureate Global Symposium, Royal Swedish Academy of Sciences, Stockholm, 17 May 2011, by Janwikifoto, via Wikimedia Commons file 'Mario Molina 1c389 8387.jpg' (original 2683 x 3577, downscaled to 900 x 1200, not enlarged). Published by the photographer under multiple free licences.",
+    "license": "CC BY-SA 3.0 (also GFDL and other Creative Commons versions)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Janwikifoto, 2011, CC BY-SA 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Mario_Molina_1c389_8387.jpg",
+    "creator": "Janwikifoto",
+    "date": "2011-05-17",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Mario_Molina_1c389_8387.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q19045 returned en label 'Mario Molina', description 'Mexican chemical engineer (1943-2020)', born 1943-03-19, died 2020-10-07, citizenship Mexico and United States, ko label '마리오 J. 몰리나'; the lead's hint was correct. SLUG/QID CHECK: no candidate or src/data reference to mario-molina or Q19045 in the roster56 worktree. REGION: north_america, by career base (Mexican-born, studied at UNAM and Freiburg, but PhD at Berkeley 1972 and a career at Irvine, JPL, MIT and UC San Diego), following the Terence Tao precedent; nationalityCodes MX and US; flagged to the lead as a judgement call, since Latin America is the alternative. ERA: contemporary (as for Hawking, Jobs, Lennon, who also died after 1980). VOCABULARY: occupation chemist, fields chemistry and environmental_science, impact domains scientific and educational, tags nobel_laureate, mentor and communicator, archetype scientific_explorer: all existing ids with EN+KO labels. ZERO POLITICS: his PCAST service, Presidential Medal of Freedom, COVID-19 letters and mask remarks, and the climate-policy advocacy in the obituary were not scored; policy appears only in the impact_motivation row as science communication (testimony and press outreach) and in the third achievement card as a factual note about the Montreal Protocol. LIVING/PRIVATE: he is deceased; marriages, family and health excluded. CANONICAL SIGNIFICANCE SOURCE: MIT News obituary (https://news.mit.edu/2020/mario-molina-environmental-dies-1009), with the Nobel biography. READ (6 cited non-Wikidata sources plus the Commons page): MIT News, NobelPrize.org biography, Physics Today obituary, University of Chicago Magazine 1997 Rowland profile, EIA blog, Commons file page. PERSPECTIVES: institutional obituaries (MIT, AIP; colleagues and a former student), self-account (Nobel), independent journalism about the pair (Chicago magazine), an NGO campaigner (partisan). COUNTER-VOICE / INDUSTRY CHALLENGE: the Chicago profile quotes the industry position that CFC depletion was only a hypothesis and mentions the KGB remark; the EIA blog gives the 1975 DuPont advertisement and 'science fiction' remark second-hand, and its attribution of the remark to a 'senior DuPont official' differs from other accounts, so no DuPont quote is used in any card. JOINT ATTRIBUTION: every row involving the discovery credits Rowland as co-author. NOT OPENED: the 1974 Nature paper, MIT Technology Review and New York Times obituaries, UCSD obituary, the Visionlearning article, the Royal Society of Chemistry pages, books on the ozone controversy (Roan, Dotto and Schiff), Molina's interviews. SOURCE-DEPTH CAVEAT: the sources are mostly tributes and a self-account, so scores stay at or below 76 and confidence at 0.64. PORTRAIT: Commons 'Mario Molina 1c389 8387.jpg', photographed 17 May 2011 at the Nobel Laureate Global Symposium (Royal Swedish Academy of Sciences, Stockholm) by Janwikifoto and published by the photographer under GFDL and CC BY-SA 3.0/2.5/2.0/1.0 (the uploader's identity is verified through the Wikimedia volunteer response team); no institutional notice conflicts. The Wikidata P18 file is only a lead and was accepted after this check; the alternatives (MIT Creative Commons Non-Commercial No Derivatives images, Nobel Media portrait) were rejected on licence grounds. Original 2683 x 3577 downscaled to 900 x 1200. SELF-CALIBRATION: reviewed analytical_rigor, impact_motivation and collaboration; no rows lowered. SCOPE FLAG: six rows."
+  }
+}

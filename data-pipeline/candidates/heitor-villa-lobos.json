@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "heitor-villa-lobos",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Heitor Villa-Lobos",
+    "aliases": [
+      "Heitor Villa Lobos"
+    ],
+    "wikidataId": "Q203514",
+    "birthYear": 1887,
+    "deathYear": 1959,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "self_taught",
+      "prolific",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_villalobos_wikidata",
+      "kind": "wikidata",
+      "title": "Heitor Villa-Lobos (Q203514) -- verified live via the Wikidata API (2026-10-24): English label 'Heitor Villa-Lobos', description 'Brazilian composer', born 5 March 1887, died 17 November 1959, Korean label present, P18 image 'Heitor Villa-Lobos (c. 1922).jpg' (not used; see portrait notes). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q203514"
+    },
+    {
+      "id": "src_villalobos_baker",
+      "kind": "biography",
+      "title": "Nicolas Slonimsky, Laura Kuhn and Dennis McIntire, entry 'Villa-Lobos, Heitor' in Baker's Biographical Dictionary of Musicians (via Encyclopedia.com), read in full. CANONICAL SIGNIFICANCE SOURCE: calls him a remarkable Brazilian composer of great originality and unique ability to recreate native melodic and rhythmic elements in large instrumental and choral forms; Paris on a Brazilian government grant from 1923; return in 1930 to music education, a Ministry of Education conservatory in 1942, the Guia pratico of choral arrangements and the 'orpheonic concentrations' of schoolchildren; the Brazilian Academy of Music in 1945 (president from 1947); lack of formal training that he turned into an idiosyncratic technique; the nine Bachianas Brasileiras treating Brazilian melorhythms in Bachian counterpoint; the graphic method of composing from drawings. A standard reference work; admiring and partly rooted in earlier biography, which later scholarship (Peppercorn) corrected on his youthful travels, so those passages were not used.",
+      "url": "https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/villa-lobos-heitor"
+    },
+    {
+      "id": "src_villalobos_ebiografia",
+      "kind": "biography",
+      "title": "eBiografia, 'Heitor Villa-Lobos' (Portuguese-language popular biography), read in full: 1922 Week of Modern Art debut in Sao Paulo where his modern music was booed, the 1923 trip to Paris financed by the government and a 1927 return financed by a patron, conducting his works with major European orchestras, the 1930s peak with the nine Bachianas Brasileiras, and his later role as head of music education organising choral concentrations in stadiums. Popular biography, partly built on traditional accounts; childhood and personal passages were read but not scored.",
+      "url": "https://www.ebiografia.com/heitor_villa_lobos/"
+    },
+    {
+      "id": "src_villalobos_brasiliana",
+      "kind": "press",
+      "title": "Kenneth David Jackson, review of Ricardo Averbach, 'Villa-Lobos and Modernism: The Apotheosis of Cannibal Music' (Brasiliana: Journal for Brazilian Studies, vol. 12 no. 1, 2023), read in full: describes how his extravagant personality and exaggerated tales (the 1927 Paris interview claiming cannibals tied him to a tree) did little to aid scholars; quotes Mario de Andrade calling him an intuitive musician lacking refined technique and Rubinstein's memoir calling his orchestral poems vast improvisations compensated by immense invention; Averbach's counter-argument that he had real technique and a modernist hybridity (Paris friendships with Oswald de Andrade and Tarsila do Amaral). Scholarly book review; includes the main critics (COUNTER-VOICE).",
+      "url": "https://tidsskrift.dk/bras/article/download/135623/185206"
+    },
+    {
+      "id": "src_villalobos_musicweb",
+      "kind": "press",
+      "title": "MusicWeb International, review of 'Villa-Lobos: His Letters' translated and edited by Lisa M. Peppercorn (Toccata Press; review dated May 1999), read in full: describes the letters as brief and awkward, tells of his anxiety to be recognised and constant need to make money; the reviewer's view that he is 'probably not a great composer' and that many of his large output are not of top quality, though likeable. Critic's review of a biographer's edition (an indirect window onto Peppercorn's work, which was not itself opened). Health and marriage passages were excluded.",
+      "url": "https://www.musicweb-international.com/classrev/jun99/villalobos.htm"
+    },
+    {
+      "id": "src_villalobos_cwr",
+      "kind": "press",
+      "title": "Catholic World Report, 'Villa-Lobos: The Clown Turned Devout' (16 August 2014), read in full: an opinion essay saying Vargas's patronage let Villa-Lobos flourish, that the composer inflated his own biography (jungle cannibal stories) and that Lisa Peppercorn's 1980s research dispelled them, quoting her that at 45 he 'had for the first time a salaried position' at the music education agency. Opinion essay; its political commentary on Vargas was not used and its claims about Peppercorn are secondhand.",
+      "url": "https://www.catholicworldreport.com/2014/08/16/villa-lobos-the-clown-turned-devout/"
+    },
+    {
+      "id": "src_villalobos_amato",
+      "kind": "press",
+      "title": "Rita de Cassia Fucci Amato, 'Momento brasileiro: reflexoes sobre o nacionalismo, a educacao musical e o canto orfeonico em Villa-Lobos' (Revista Electronica Complutense de Investigacion en Educacion Musical, 2008, UNESP), read in full: in 1932 he was charged with organising and directing SEMA (Superintendencia de Educacao Musical e Artistica) for music teaching at all school levels, with teacher-training courses, youth concerts and rural educational concerts; the 1942 National Conservatory of Orpheonic Singing; the choral Guia (1940, 1951); a 40,000-voice orpheonic concentration in 1940; antecedents by other Brazilian choral teachers and a comparison with Kodaly; and the nationalist and Vargas-era ideological content of the repertoire. Scholarly article. The state-affiliated and ideological aspects are treated as context only; politics is not scored.",
+      "url": "https://revistas.ucm.es/index.php/RECI/article/download/RECI0808110002A/8699/9626"
+    },
+    {
+      "id": "src_villalobos_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file pages for 'Heitor Villa-Lobos (c. 1922).jpg' (Biblioteca Nacional via Commons, unknown author, 219 x 413), 'Heitor Villa-lobos, 1936.tif' (Arquivo Nacional, Fundo Correio da Manhã, unknown photographer) and 'Heitor Villa-lobos TA.jpg' (Government Press Office of Israel, Fritz Cohen, 1952), checked for the portrait only; none adopted.",
+      "url": "https://commons.wikimedia.org/wiki/File:Heitor_Villa-Lobos_(c._1922).jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_villalobos_baker, src_villalobos_ebiografia, src_villalobos_brasiliana, src_villalobos_musicweb | 1920-1945 | reference work + biography + scholarly review + critic] Baker's calls him a composer of great originality who recreated Brazilian melodic and rhythmic elements in large forms, with the Bachianas Brasileiras treating Brazilian melorhythms in Bachian counterpoint and a graphic method of composing from contours; Averbach/Jackson read his hybrid style as modernist; but Mario de Andrade and Rubinstein criticise lack of formal technique and form, and MusicWeb says much of the large output is not of top quality. Originality is documented by independent sources, the debate is about technique, not novelty. SELF-CALIBRATION (agent): reviewed as top-risk row (highest score); kept because the critics who fault his technique still grant inventiveness (Andrade, Rubinstein quoted in the review), so the claim does not rest only on admiring sources."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_villalobos_baker, src_villalobos_ebiografia, src_villalobos_brasiliana | 1915-1940 | reference work + biography + scholarly review] Baker's describes a radical technical idiom at his 1915 concert and a graphic composition method; eBiografia says his modern music was booed at the 1922 Week of Modern Art; Averbach argues for modernist techniques (cubism, futurism) in his early works. The experiments are documented, and the booing and critics' response show that the results were contested."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_villalobos_baker, src_villalobos_ebiografia, src_villalobos_brasiliana | 1900s-1930 | reference work + biography + scholarly review] Baker's says he lacked formal academic training and evolved an idiosyncratic technique; eBiografia says he enrolled in a harmony course at the National Institute of Music but did not adapt to its discipline; Rubinstein's memoir (quoted in the review) speaks of his refusal of discipline. Consistent across sources, but the early-life detail in older reference works derives partly from his own accounts, which later scholarship corrected. SELF-CALIBRATION (agent): reviewed as top-risk row (retrospective biography partly from his own stories); lowered from 66 / 0.55 to 62 / 0.5 because the early-life account is the part later scholarship found embellished."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_villalobos_baker, src_villalobos_brasiliana, src_villalobos_musicweb | 1917-1950 | reference work + scholarly review + critic] Baker's and the Brasiliana review describe combining popular, folk, indigenous and classical materials (Averbach notes exposure to popular choro, folk and classical sources); MusicWeb lists symphonies, concertos, quartets, Choros and Bachianas. Range is within music, and Averbach agrees with Behague that he used very little actual folk music, so this is a moderate inference."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_villalobos_amato, src_villalobos_baker | 1932-1945 | scholarly article + reference work] In 1932 he organised and directed SEMA with a plan for teacher training courses, youth concerts and rural concerts, then the 1942 National Conservatory of Orpheonic Singing and a two-volume choral guide; Baker's adds the Brazilian Academy of Music (1945). Organisational building is documented; the work was inside state structures, and the political and ideological content is not scored. Amato notes earlier Brazilian choral teachers, so the programme was not entirely his invention."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_villalobos_ebiografia, src_villalobos_musicweb, src_villalobos_baker | 1915-1930 | biography + critic + reference work] After a hostile reception at the 1922 Week of Modern Art, and criticism of his innovations before it, he continued composing and went to Paris in 1923; MusicWeb describes letters full of anxiety to be recognised and constant financial trouble. No direct account of setbacks in his own working beyond these; health references excluded."
+    },
+    "persuasiveness": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_villalobos_brasiliana, src_villalobos_cwr, src_villalobos_ebiografia | 1923-1930 | scholarly review + opinion essay + biography] Jackson says his exaggerated tales (the 1927 Paris cannibal interview) were aimed at promoting his avant-garde primitivism, and he gained patrons and government support for Paris trips; the Catholic World Report essay adds that Peppercorn's research dispelled the myths, but that is a secondhand claim and Peppercorn's own work was not opened. Dual-edged because the self-presentation helped him and later hindered scholarship; a moderate-low inference. SELF-CALIBRATION (agent): reviewed as a weak-evidence row; already scored low and marked secondhand, so not lowered further."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에이토르 빌라로부스"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No portrait with a concrete, defensible rights basis found. Leads checked: (1) the Wikidata image 'Heitor Villa-Lobos (c. 1922).jpg' is tagged public domain on Commons under a Brazilian media template with author unknown, sourced to a Biblioteca Nacional web page (old URL), and is only 219 x 413 pixels; the basis (unknown author, c. 1922) is not documented with a publication fact and no institutional terms were found. (2) 'Heitor Villa-lobos, 1936.tif' from the Arquivo Nacional (Correio da Manhã collection, photographer unknown, 4427 x 6586) uses a Brazilian template that depends on classing the photograph as non-artistic and published before 1998; the statute year (1936) is on the boundary of the 'completed before 1936' rule, so the basis is a judgement call, not a documented fact. (3) 'Heitor Villa-lobos TA.jpg' (Israel Government Press Office, Fritz Cohen, 1 June 1952) is tagged only as public domain in Israel; a 1952 work would still have restored US protection under the URAA, which that template does not address. Next step: obtain from the Arquivo Nacional or the Biblioteca Nacional a written statement of terms for a named image, or find a photograph by a named photographer who died before 1955, or a licensed (CC BY-SA/CC0) portrait."
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q203514: en label 'Heitor Villa-Lobos', description 'Brazilian composer', born 1887-03-05, died 1959-11-17. SLUG/QID CHECK: no candidate or src/data reference to heitor-villa-lobos or Q203514 in the roster56 worktree. REGION: latin_america (Brazil). VOCABULARY: composer, musician, field music, tags self_taught, prolific, innovator and archetype creative_creator all have EN+KO labels. ZERO POLITICS: his role directing SEMA and the Conservatory of Orpheonic Singing under the Vargas governments is treated as professional work (organising music education); the nationalist and ideological content of the choral repertoire and the Vargas-era propaganda aspects are excluded and unscored; only the organisational behaviour (planning_orientation) is scored. DECEASED SUBJECT: personal life, marriage, health and the family passages in the MusicWeb review and eBiografia were read but excluded. UNREAD-SOURCE DISCIPLINE: the claims that Peppercorn's research dispelled his invented jungle tales reach this profile only through the Catholic World Report essay and the Brasiliana review; Peppercorn's biography itself was not opened; the 1905-1912 folk-collecting expeditions (reported in Baker's and eBiografia) were NOT used as evidence because of that dispute. CANONICAL SIGNIFICANCE SOURCE: Baker's Biographical Dictionary of Musicians entry (https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/villa-lobos-heitor). READ (6 substantive sources + portrait records): Baker's, eBiografia, Brasiliana review of Averbach, MusicWeb review of Peppercorn's letters, Catholic World Report essay, Amato 2008 article. PERSPECTIVES: standard reference work, popular biography, scholarly book review with critics (Andrade, Rubinstein) and a defender (Averbach), a music critic, an opinion essay, an education-studies article. COUNTER-VOICES: Andrade and Rubinstein on technique, MusicWeb on quality, Amato noting precursors in Brazilian choral teaching. NOT opened: Britannica full entry (403; only its summary snippet was seen), Grove, Peppercorn biography and collected studies, Museu Villa-Lobos, Brazilian Academy of Music page (not fetched), NYT archive. PORTRAIT PREFLIGHT AND RESULT: HELD after one bounded retry (three Commons candidates examined; see portrait.reason for the exact blockers and next step). SELF-CALIBRATION: rows reviewed: creative_originality (74, kept: critics who fault technique still grant inventiveness), independent_thinking (lowered 66/0.55 to 62/0.5 because early-life accounts are the part later scholarship found embellished), persuasiveness (56/0.4, already low; secondhand). Flag for lead: holds a portrait; Paris-years evidence rests on reference and popular biography only (no independent Paris-press source opened); guitar works (Etudes, Preludes) not sourced from a read source, so omitted from cards."
+  }
+}

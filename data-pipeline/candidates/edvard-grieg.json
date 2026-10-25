@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "edvard-grieg",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Edvard Grieg",
+    "aliases": [
+      "Edvard Hagerup Grieg"
+    ],
+    "wikidataId": "Q80621",
+    "birthYear": 1843,
+    "deathYear": 1907,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "NO"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_eg_wikidata",
+      "kind": "wikidata",
+      "title": "Edvard Grieg (Q80621) -- verified live via the Wikidata API (2026-10-24): English label 'Edvard Grieg', description 'Norwegian composer and pianist (1843-1907)', Korean label present, born 15 June 1843, died 4 September 1907, citizenship Norway (the person, not the Bergen statue item). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q80621"
+    },
+    {
+      "id": "src_eg_worldhistory",
+      "kind": "biography",
+      "title": "Mark Cartwright, 'Edvard Grieg', World History Encyclopedia (published 19 May 2023, modified 16 June 2023), read in full via a text fetch: Leipzig Conservatory from 1858 and Copenhagen study under Niels Gade; a symphony of his early years that he barred from public performance (not heard again until 1981); the Piano Concerto in A minor (1868), which Liszt received favourably in 1869 and Grieg kept revising for three decades; Ibsen's request for Peer Gynt music (premiere in Christiania, February 1876) and the two orchestral suites; 66 Lyric Pieces (1867-1901) and the miniaturist label; Slatter (1897) from Hardanger fiddle tunes and the view that he rarely quoted folk melodies directly; Troldhaugen villa and composing cabin from 1885; conducting and touring, his 1898 decision to bring the Concertgebouw Orchestra to the Bergen Festival, which led the organising committee to resign; an unsuccessful 1867 attempt to found a Norwegian music academy; mentoring of younger musicians such as Percy Grainger and Frederick Delius; criticism section (Debussy's 'bonbons wrapped in snow' remark, the view that his output is narrow in scope, folk influence possibly overstated, decline in reputation after his lifetime peak). CANONICAL SIGNIFICANCE SOURCE (with the Bergen Public Library Grieg Archives page). Encyclopedia-style biography by a named historian; the passages on his health and family were not used.",
+      "url": "https://www.worldhistory.org/Edvard_Grieg/"
+    },
+    {
+      "id": "src_eg_blain",
+      "kind": "press",
+      "title": "Terry Blain, 'Peer Gynt: a guide to Edvard Grieg's popular masterpiece', classical-music.com (11 December 2025), read in full via a text fetch: Ibsen's invitation of January 1874; Grieg hesitated after poor first impressions of Ibsen and agreed after being offered a half-share of the fee; he found the play's shifting episodic structure hard to set and called it the most unmusical of subjects; Ibsen made specific suggestions (a wedding dance, 'devilry' for the herd girls, birdsong and bells for the Boyg) of which Grieg took some; 26 numbers sent to the Christiania Theatre in July 1875; premiere 24 February 1876 praised for dramatic contribution and originality; Grieg thought there was too much music, some of it verging on caricature, and was harsh about 'In the Hall of the Mountain King'; a substantially revised and reorchestrated version for Copenhagen in 1886 with four new movements, which he attended and conducted; Suite Op. 46 (1888) and Op. 55 (1893); he never published the complete score in his lifetime. Music-press feature by a named critic; the passage on his parents' deaths was not used.",
+      "url": "https://www.classical-music.com/features/works/peer-gynt"
+    },
+    {
+      "id": "src_eg_bergenlib",
+      "kind": "institution",
+      "title": "Bergen Public Library, history of the Grieg Archives (bergenbibliotek.no/grieg, English pages), read in full via a text fetch: the 1906 codicil by which Edvard and Nina Grieg left his manuscripts, letters, printed music and books to the library on condition that they be kept and made accessible; Troldhaugen sold in 1919 and opened to the public in 1928; the archive's manuscripts (for example the Quartet Op. 27 and Den bergtekne Op. 32, and Nordraak's sketchbook with a draft of the national anthem); a 20-volume critical edition begun in 1962 and completed in 1995; Grieg conducted Harmonien in 1880 and 1881; at the 1898 Bergen festival he brought in the Concertgebouw Orchestra rather than use the local orchestra, which the page presents as a catalyst for a later professional orchestra; the early symphony marked 'Must never be performed' and a 1978 dispute over a performance. CANONICAL SIGNIFICANCE SOURCE (with the World History Encyclopedia biography). Library institutional history of the bequest, not a full biography; the page says little on his composing habits.",
+      "url": "https://bergenbibliotek.no/grieg/english/grieg-grieg-eng"
+    },
+    {
+      "id": "src_eg_troldhaugen",
+      "kind": "institution",
+      "title": "KODE Bergen, 'The collection at Troldhaugen' (kodebergen.no), read in full via a text fetch: the villa opened as a museum in 1928; Grieg's Steinway grand (placed in the villa in 1892) is still used for concerts; the couple's collection of industrial, folk and visual art including Werenskiold's Children Playing (1892) and a silver epergne designed by Gerhard Munthe reflecting an interest in Norwegian folk culture; travel objects and letters; manuscripts largely given to Bergen Public Library in 1906; the page describes frequent travel and international collaboration but not his composing routines. Museum collection page; it documents collecting, not working method.",
+      "url": "https://www.kodebergen.no/en/collections/the-collection-at-troldhaugen"
+    },
+    {
+      "id": "src_eg_musicweb",
+      "kind": "press",
+      "title": "Stephen Barber, review of Paul Crossley's selection of Grieg's Lyric Pieces (CRD 3525), MusicWeb International (filed June 2017), read in full via a text fetch: calls Grieg an 'absolute master of the miniature' whose pieces are simple 'in the way that Mozart can be simple' yet demand subtle shaping; hears Schumann's cycles as a model without Schumann's intensity, plus Norwegian folk music and anticipations of Prokofiev and early Scriabin; the ten books span roughly 1866 to 1901, Book I (Op. 12) from the mid-1860s and Book X (Op. 71) from 1901; compares Crossley with Gilels. Independent critic's recording review; admiring of the music, with its reservations about the performances.",
+      "url": "https://www.musicweb-international.com/classrev/2017/Jun/Grieg_lyric_3525.htm"
+    },
+    {
+      "id": "src_eg_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Edvard Grieg (1888) by Elliot and Fry.jpg' (with its derivative '... - 02.jpg' and the Commons API records) -- checked for the portrait: cabinet-card portrait of Grieg taken during his London trip in March 1888 by the studio Elliott & Fry (printed studio imprint, 55 Baker Street, London, on the card), published in The Leisure Hour (1889) and engraved for The Century (1894), with Grieg ordering a dozen copies according to Lionel Carley's book; Commons licence tag: public domain because the author is a studio and more than 70 years have passed (PD-old-70-1923); original 999 x 1508 pixels. Rights-basis page; no person-specific claim rests on it. The Commons Wikidata lead (a c.1903 photograph from Bergen Public Library, artist unknown, Flickr 'no known copyright restrictions') was rejected because the creator is unknown.",
+      "url": "https://commons.wikimedia.org/wiki/File:Edvard_Grieg_(1888)_by_Elliot_and_Fry.jpg"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_eg_worldhistory, src_eg_bergenlib, src_eg_blain | 1860s-1890s | biography + library history + music-press feature] He barred his early symphony from public performance (the library page records it marked 'Must never be performed'), kept revising the Piano Concerto over three decades, substantially revised and reorchestrated the Peer Gynt music for 1886 and never published the complete score in his lifetime, and judged his own Peer Gynt score as having too much music and parts verging on caricature. Three sources describe repeated self-critical reworking and withholding, though two are overviews and the Peer Gynt detail rests on one feature; dual-edged because the same standard left works unheard or unpublished."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_eg_worldhistory, src_eg_blain, src_eg_musicweb | 1868-1901 | biography + music-press feature + critic review] The Peer Gynt premiere was praised for its originality (Blain); the biography and a reviewer describe a distinctive style built on Norwegian folk idiom (Slatter from Hardanger fiddle tunes) and a gift for the miniature, while also noting that critics call his range narrow, quote Debussy's 'bonbons wrapped in snow' and say the folk borrowing may be overstated. SELF-CALIBRATION (agent): first-pass 66 / 0.55 lowered to 62 / 0.50 because the originality claims are retrospective and contested within the sources themselves."
+    },
+    "aesthetic_sensitivity": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_eg_musicweb, src_eg_troldhaugen, src_eg_blain | 1860s-1900 | critic review + museum collection page + music-press feature] A reviewer calls him an absolute master of the miniature whose pieces demand subtle melodic shaping and characterization; the museum records that he and his wife collected folk and visual art (a Werenskiold painting, a Munthe-designed epergne) and the Peer Gynt feature records his attention to the sound world requested by Ibsen (birdsong, bells). The signals are indirect and one is a modern recording review. SELF-CALIBRATION (agent): first-pass 68 / 0.55 lowered to 64 / 0.50 because the art-collecting evidence is indirect and the craft claim rests on one reviewer."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_eg_worldhistory, src_eg_bergenlib | 1867-1906 | biography + library history] He tried without success to found a Norwegian music academy in 1867, mentored younger musicians such as Percy Grainger and Frederick Delius, brought the Concertgebouw Orchestra to the 1898 Bergen Festival in place of the local orchestra (which the library presents as a catalyst for a professional Bergen orchestra), and left his manuscripts and letters to the public library on condition that they be accessible. Documented actions aimed at public musical institutions, but the sources give his purposes only in outline, so a strong inference at a moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에드바르 그리그"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/edvard-grieg-elliott-and-fry-1888.jpg",
+    "width": 795,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Edvard Grieg (1888) by Elliot and Fry.jpg' -- cabinet-card photograph of Edvard Grieg taken in London in March 1888 by the studio Elliott & Fry (studio imprint printed on the card), published in The Leisure Hour in 1889; public domain because it is a studio photograph published more than 70 years ago. Original 999 x 1508 pixels, downscaled to 795 x 1200 (never upscaled).",
+    "license": "Public domain (studio photograph published 1889)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-70-1923",
+    "attribution": "Photo: Elliott & Fry, London, 1888 (public domain)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Edvard_Grieg_(1888)_by_Elliot_and_Fry.jpg",
+    "creator": "Elliott & Fry",
+    "date": "1888-03",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Edvard_Grieg_(1888)_by_Elliot_and_Fry.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q80621 returned en label 'Edvard Grieg', description 'Norwegian composer and pianist (1843-1907)', ko label present, born 1843-06-15, died 1907-09-04, citizenship Norway, P18 a c.1903 Bergen Public Library photograph; the lead's QID was correct (the earlier statue-item mix-up does not apply to Q80621). SLUG/QID CHECK: no production or candidate file for slug edvard-grieg or QID Q80621 in the roster56 worktree. REGION: western_europe, nationality NO (precedent: edvard-munch, fridtjof-nansen). VOCABULARY: occupations composer and musician (no 'pianist' label), field music, tags perfectionist and craft_focused, archetype creative_creator, impact domains artistic and cultural all exist with EN+KO labels. ZERO POLITICS: his role in Norwegian musical nationalism is treated as musical idiom only; nothing political scored. DECEASED SUBJECT: no inference from lung illness, bereavement or death; the passages on his health, marriage and the death of his daughter and parents were excluded. PORTRAIT PREFLIGHT: Elliott & Fry studio cabinet card of March 1888 published in 1889; viable (see PORTRAIT note). CANONICAL SIGNIFICANCE SOURCE: World History Encyclopedia biography by Mark Cartwright (https://www.worldhistory.org/Edvard_Grieg/) and the Bergen Public Library history of the Grieg Archives (https://bergenbibliotek.no/grieg/english/grieg-grieg-eng). READ (6 cited non-Wikidata sources including the Commons page): World History Encyclopedia, Terry Blain's Peer Gynt feature, Bergen Public Library page, KODE Troldhaugen collection page, MusicWeb International review, Commons pages. Blocked or failed: Britannica (403), Gramophone (403), classicalm.com (bot wall), the Grieg Archives intro page (not opened separately). Not opened: Benestad and Schjelderup-Ebbe biography (no accessible text), Grove, Norwegian Biographical Lexicon, letters in the archive, writings by Shaw or Delius (a search found none readable, so the 'Delius/Shaw' counter-voice was not obtained). All text fetches used a summarising reader, so quotations are limited to short phrases. PERSPECTIVES: (1) a historian's biography and a library's institutional history, (2) a music-press feature on one work, (3) an independent recording review, (4) a museum collection page. COUNTER-VOICE: the biography's criticism section (Debussy, narrow range, overstated folk use) and Grieg's own harsh view of parts of Peer Gynt; no hostile contemporary critic was read. LIMITATIONS: sources are overviews and one-work features; almost no first-person letters were read; behaviour is mostly dated actions, not described habits; so only four rows are scored and none exceeds 72 or 0.62. SELF-CALIBRATION (agent): rows reviewed were creative originality (lowered 66/0.55 to 62/0.50: retrospective and contested), aesthetic sensitivity (lowered 68/0.55 to 64/0.50: indirect evidence, one reviewer) and perfectionism (three sources agree; left unchanged at 72/0.62). No broad scoring problem flagged; the profile is sparse. PORTRAIT: Commons 'Edvard Grieg (1888) by Elliot and Fry.jpg', cabinet card by the London studio Elliott & Fry, March 1888, published in The Leisure Hour in 1889; PD by age (studio author, more than 70 years); the card's own printed imprint names the studio and the Commons description cites the 1889 publication and Lionel Carley's book; original 999 x 1508, saved downscaled to 795 x 1200 (never upscaled). Residual note: the Commons source is an auction-site listing (icollector) of the physical card, not a library catalogue, but the 1889 publication date independently fixes the image as published over 130 years ago."
+  }
+}

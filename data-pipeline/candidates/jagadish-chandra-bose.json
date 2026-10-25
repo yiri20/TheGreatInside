@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jagadish-chandra-bose",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jagadish Chandra Bose",
+    "aliases": [
+      "Jagadis Chandra Bose",
+      "J. C. Bose",
+      "Jagdish Chandra Bose"
+    ],
+    "wikidataId": "Q314267",
+    "birthYear": 1858,
+    "deathYear": 1937,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "scientist"
+    ],
+    "fieldIds": [
+      "physics",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological"
+    ],
+    "tagIds": [
+      "polymath",
+      "cross_disciplinary",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bose_wikidata",
+      "kind": "wikidata",
+      "title": "Jagadish Chandra Bose (Q314267) -- verified live via the Wikidata API (2026-10-24): English label 'Jagadish Chandra Bose', description 'Bengali polymath, physicist, and biologist (1858-1937)', born 1858-11-30, died 1937-11-23, Korean label '자가디시 찬드라 보스', P18 image '1920 Jagadish Chandra Bose.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q314267"
+    },
+    {
+      "id": "src_bose_ieee",
+      "kind": "institution",
+      "title": "IEEE Milestone page 'First Millimeter-wave Communication Experiments by J.C. Bose, 1894-96' (Engineering and Technology History Wiki; dedicated 2012 in Kolkata), read in full. CANONICAL SIGNIFICANCE SOURCE: in 1895 at Presidency College, Calcutta, Bose demonstrated transmission and reception of 60 GHz waves over about 23 metres through two walls, ringing a bell and detonating gunpowder, and developed spark transmitter, coherer, dielectric lens, polarizer, horn antenna and diffraction grating. A professional-society honour: celebratory, with no discussion of priority disputes.",
+      "url": "https://ethw.org/Milestones:First_Millimeter-wave_Communication_Experiments_by_J.C._Bose,_1894-96"
+    },
+    {
+      "id": "src_bose_ijpp",
+      "kind": "press",
+      "title": "Book review of Subrata Dasgupta, 'Jagadis Chandra Bose and the Indian Response to Western Science' (Oxford University Press, 1999), Indian Journal of Physiology and Pharmacology 44(4), 2000, pp. 513-516, read in full from the journal PDF. Summarises Dasgupta's three-phase assessment: the 'early Bose' as mainstream physicist (priority claims over radio telegraphy reflect parochial passions), the 'middle Bose' whose unity-of-life-and-nonlife thesis rested on a questionable assumption and was dismissed, and the 'late Bose' plant physiologist whose instruments won recognition but whose explanations went far beyond his data; some papers were 'archived' (rejected) by the Royal Society. Review of a biography, read instead of the book itself; a critical scholarly voice, partly sympathetic.",
+      "url": "https://ijpp.com/IJPP%20archives/2000_44_4/513-516.pdf"
+    },
+    {
+      "id": "src_bose_scroll",
+      "kind": "press",
+      "title": "Kapil Subramanian, 'Why JC Bose made George Bernard Shaw weep and inspired Tagore to call him Acharya' (Scroll.in, historian-of-science essay drawing on Dasgupta), read in full: Bose's 1895 Calcutta demonstration and Lodge's earlier proof of concept, the US patent for a galena coherer, a radio company asking him to hold papers until a patent deal, his move into physiology, priority disputes with Augustus Waller, disciplinary 'turf' resistance, speculation and spiritualist readings that discomforted scientists, and funding arranged by Tagore and R. C. Dutt through the Maharaja of Tripura. COUNTER-VOICE source: describes him as a figure on the margins of mainstream science.",
+      "url": "https://scroll.in/magazine/858505/why-jc-bose-is-feted-in-india-although-he-was-mostly-a-marginal-scientific-figure-in-his-lifetime"
+    },
+    {
+      "id": "src_bose_live",
+      "kind": "press",
+      "title": "Kalyan Chatterjee, 'Jagadish Chandra Bose: Champion of East and West' (Live History India, 31 July 2021), read in full: Cambridge and London training, the 1894 turn to research with an untrained tinsmith and no laboratory (quoting Patrick Geddes's 1920 biography), millimetre waves and the spiral spring coherer, the Paris 1900 lecture on the line between living and non-living, optical pulse recorder and crescograph, hostility from physiologists, and the no-patent rule at the Bose Institute. Popular historical feature, admiring.",
+      "url": "https://livehistoryindia.com/story/cover-story/jagadish-chandra-bose"
+    },
+    {
+      "id": "src_bose_nwe",
+      "kind": "biography",
+      "title": "New World Encyclopedia, 'Jagdish Chandra Bose' (read in full): papers communicated to the Royal Society by Lord Rayleigh in 1895, the coherer shown publicly without secrecy, his US patent of 1904 and later reluctance to patent, the unpublished Royal Society manuscript on the continuity of living and non-living matter and the resistance it met, the crescograph, the Bose Institute inaugurated in 1917, knighthood 1916 and Fellowship of the Royal Society 1920. Derivative encyclopedia entry with some celebratory wording; used for dates and the patent facts.",
+      "url": "https://newworldencyclopedia.org/entry/Jagdish_Chandra_Bose"
+    },
+    {
+      "id": "src_bose_portrait",
+      "kind": "archive",
+      "title": "Musee Albert-Kahn (Departement des Hauts-de-Seine) collection record for the autochrome 'Jagadish Chandra Bose', inventory A22267, operator Georges Chevalier, 15 July 1920, licence stated as freely reusable (CC-BY-4.0), and the Wikimedia Commons file page '1920 Jagadish Chandra Bose.jpg', checked for the portrait only.",
+      "url": "https://collections.albert-kahn.hauts-de-seine.fr/document/proprit-d-albert-kahn-boulogne-france-jagadish-chandra-bose/617a7a44cf8b8968b33830eb"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bose_scroll, src_bose_ijpp, src_bose_live | 1894-1937 | press x3] Three accounts describe the same career shift: after about a decade of teaching he researched electromagnetic waves (the IEEE Milestone covers the physics), then in 1900-1903 moved to the response of metals, muscle and finally plants, building instruments for both; Live History India says neither a pure physicist nor a pure physiologist could have done it, while the Scroll and Dasgupta review show the move was resisted as a crossing of disciplinary turf. The pivot was driven partly by detector problems, so the range is deep rather than diffuse. SELF-CALIBRATION (agent): reviewed as a top-risk row (high score); kept, because three sources agree on specifics, including the critical ones. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.68 to 76 / 0.6 because all behavioural evidence is secondary and leans on one biographer (Dasgupta) reached only through a review; no primary or Royal Society source was read."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bose_ieee, src_bose_ijpp, src_bose_live | 1894-1910s | institution + review + press] The IEEE Milestone lists the full set of millimetre-wave components he built; Live History India (quoting Geddes) says he made new apparatus within three months with an untrained tinsmith, and later the optical pulse recorder and crescograph; the Dasgupta review names his capacity to design delicate instruments as his strength. The sources are mostly admiring, but the instruments are concrete and attested by an engineering society. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 78 / 0.66 to 74 / 0.58 because same single-biographer concentration; the Marconi and Lodge priority questions are known only through essays and a review."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_bose_ieee, src_bose_ijpp, src_bose_scroll | 1895-1920s | institution + review + press] Original components and the idea that no sharp boundary divides living and non-living response; the Dasgupta review nevertheless calls the early radio priority claims parochial and the middle-phase thesis based on a questionable assumption, and the Scroll notes Lodge's earlier demonstration, so the originality is real but uneven and partly rejected."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bose_ijpp, src_bose_scroll, src_bose_live | 1900-1920 | review + press] After physiologists resisted and some papers were 'archived' by the Royal Society, he was 'undeterred by criticism and isolation', wrote a series of books instead of papers, and kept up plant physiology for about three decades; Live History India says hostility strengthened his resolve. Read from reviews and popular features, not from his own papers, so strong inference."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_bose_live, src_bose_ijpp, src_bose_scroll | 1900-1920 | press + review] He argued explicitly in Paris in 1900 that lines between the physical and the physiological were arbitrary, against the physiology of his day, and the Scroll says his interpretations even contradicted Darwin's natural selection. Reviewers present this as both his boldness and a weakness, hence dual-edged."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bose_live, src_bose_scroll, src_bose_ijpp | 1894-1917 | press + review] He built his first apparatus with no laboratory and a tinsmith, enlisted Lord Rayleigh to communicate his papers to the Royal Society, obtained funding through Tagore and R. C. Dutt from the Maharaja of Tripura when official support ran out, and used his reputation to 'enlist more and more support' culminating in the Bose Institute of 1917. The review also calls his demands 'insatiable' and 'exasperating'. The funding networks are reported by two independent sources."
+    },
+    "belief_updating": {
+      "score": 32,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_bose_ijpp, src_bose_scroll | 1900-1930s | review + press] The Dasgupta review says that even in his late phase he was 'unable to abandon or reshape a metaphysical position' at odds with the facts and that his explanations went far beyond his data; the Scroll says he interpreted electrical response as a sufficient rather than necessary condition of life. Both lean on Dasgupta, so they are not fully independent, and neither names a single decisive episode; scored low-moderate with moderate confidence. SELF-CALIBRATION (agent): reviewed as a risky low-score row (one underlying scholar); kept, since the Royal Society's rejection and the reviewer's own wording corroborate the pattern."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "자가디시 찬드라 보스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jagadish-chandra-bose-chevalier-1920.jpg",
+    "width": 901,
+    "height": 1200,
+    "source": "Autochrome portrait of Jagadish Chandra Bose taken on 15 July 1920 at the Albert Kahn property in Boulogne by Georges Chevalier; collection of the Departement des Hauts-de-Seine, musee Albert-Kahn, inventory A22267, whose record states the image is freely reusable under CC-BY-4.0; also on Wikimedia Commons as '1920 Jagadish Chandra Bose.jpg' (tagged CC BY-SA 4.0). Original 1254 x 1671 downscaled to 901 x 1200, colour-corrected by the Commons uploader.",
+    "license": "CC BY 4.0 (as stated by the Albert-Kahn museum; Commons tags CC BY-SA 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Georges Chevalier, 1920, Musee Albert-Kahn / Departement des Hauts-de-Seine, CC BY 4.0",
+    "attributionUrl": "https://collections.albert-kahn.hauts-de-seine.fr/document/proprit-d-albert-kahn-boulogne-france-jagadish-chandra-bose/617a7a44cf8b8968b33830eb",
+    "creator": "Georges Chevalier",
+    "date": "1920",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:1920_Jagadish_Chandra_Bose.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q314267 returned en label 'Jagadish Chandra Bose', description 'Bengali polymath, physicist, and biologist (1858-1937)', born 1858-11-30, died 1937-11-23, ko label '자가디시 찬드라 보스'; the lead's hint was correct. SLUG/QID CHECK: no candidate or src/data reference to jagadish-chandra-bose or Q314267 in the roster56 worktree (subhas-chandra-bose is a different person). REGION: south_asia, nationality IN (born in Bengal in British India, now Bangladesh; career in Calcutta). ERA: 19th_century by birth, as for Tesla (b. 1856) and Pierre Curie. VOCABULARY: occupations physicist and scientist, fields physics and biology, impact domains scientific and technological, tags polymath, cross_disciplinary and innovator, archetype scientific_explorer, all existing ids with EN+KO labels (botanist and botany have no labels and were not used). ZERO POLITICS: colonial-era context (pay discrimination, nationalist framing by Tagore and others, Indian pride) is unscored; the three-year unpaid-salary protest in the encyclopedia entry was left out as political protest. CANONICAL SIGNIFICANCE SOURCE: IEEE Milestone page (https://ethw.org/Milestones:First_Millimeter-wave_Communication_Experiments_by_J.C._Bose,_1894-96). READ (6 cited non-Wikidata sources plus the museum record): IEEE Milestone page, Dasgupta book review in the Indian Journal of Physiology and Pharmacology, Scroll.in essay, Live History India feature, New World Encyclopedia, Albert-Kahn collection record and Commons file page. PERSPECTIVES: engineering society (celebratory), scholarly book review of Dasgupta (critical), a historian-of-science essay (sceptical about marginality and the 'Boseian myth'), popular press (admiring), encyclopedia. COUNTER-VOICES / MARCONI DISPUTE: the Scroll and the IJPP review treat radio priority claims as exaggerated (Lodge's earlier demonstration; Bose contributed to the prehistory of radiotelegraphy as many others did) and record the Waller priority dispute and the Royal Society 'archiving' of his later papers. NOT OPENED: Dasgupta's book and Geddes's 1920 biography (only via reviews and quotations), Nature and Royal Society obituaries, Bose Institute site (connection failed), Shepherd's 2008 biography, Britannica. SOURCE-DEPTH CAVEAT: behavioural evidence is secondary and heavily dependent on Dasgupta, so confidence is capped at 0.68 and the belief-updating and persistence rows are explicitly inference-based. PORTRAIT: autochrome of 15 July 1920 by Georges Chevalier (1882-1967), operator at the Albert-Kahn collection, now owned by the Departement des Hauts-de-Seine (musee Albert-Kahn). Chevalier died in 1967, so the work is not public domain by age; the rights basis is the institution's own collection record, which states 'Librement reutilisable (CC-BY-4.0)' with rights 'soumis au droit d'auteur operateur - salarie' (employee-operator copyright held by the owner), inventory A22267. The Commons file page tags it CC BY-SA 4.0, which differs from the institutional licence (CC BY 4.0); the institutional CC BY 4.0 is used here as the stated basis and the lead may wish to confirm the share-alike wording. Original 1254 x 1671, downscaled to 901 x 1200 (no upscaling). SELF-CALIBRATION: reviewed cross_domain_range, belief_updating; no rows lowered. SCOPE FLAG: seven rows; Marconi priority is not a card. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.68 to 76 / 0.6 because all behavioural evidence is secondary and leans on one biographer (Dasgupta) reached only through a review; no primary or Royal Society source was read. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 78 / 0.66 to 74 / 0.58 because same single-biographer concentration; the Marconi and Lodge priority questions are known only through essays and a review."
+  }
+}
