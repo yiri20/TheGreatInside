@@ -272,4 +272,13 @@ Legacy remains paused (22 / 0); Legacy Batch 6 not started; Roster57 not started
 
 ## Post-commit scoring lock
 
-Recorded in the docs-only follow-up commit.
+Run after implementation commit `df4f2b6` (literal output):
+
+```
+Checked 667 previously-committed candidate file(s) against HEAD. 0 flagged.
+This is a warning tool, not a hard gate -- review flags by hand, per the A/B/C/D policy.
+
+Legacy scoring lock: 22 pre-pipeline production people covered, 0 flagged.
+```
+
+Committed candidate JSON count 667 = on-disk candidate JSON count 667 = checked count 667. Legacy baseline 22 / 0 flagged. After the final Barton card reorder, `tsc` stayed clean and the full Vitest suite passed again (86 files, 4,885 tests); the build and Playwright results above are from the build immediately before that reorder (card order only, no data or count change).
