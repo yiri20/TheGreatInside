@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rudolf-nureyev",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Rudolf Nureyev",
+    "aliases": [
+      "Rudolf Hametovich Nureyev",
+      "Rudolph Nureyev"
+    ],
+    "wikidataId": "Q84217",
+    "birthYear": 1938,
+    "deathYear": 1993,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "RU",
+      "AT"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "dancer"
+    ],
+    "fieldIds": [
+      "dance"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "nonconformist",
+      "sustained_excellence",
+      "mentor"
+    ],
+    "newTagProposals": [],
+    "archetypeIds": [
+      "creative_creator",
+      "competitive_performer"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_nureyev_wikidata",
+      "kind": "wikidata",
+      "title": "Rudolf Nureyev (Q84217) -- verified live via the Wikidata API (2026-10-26): English label 'Rudolf Nureyev', description 'Soviet ballet dancer and choreographer (1938-1993)', born 1938-03-17, died 1993-01-06, Korean label, P18 images 'Nureyev 9 Allan Warren.jpg' and 'Nureyev Allan Warren.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q84217"
+    },
+    {
+      "id": "src_nureyev_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Rudolf Nureyev' (britannica.com print article, revised 2026), read in full: Soviet-born dancer whose suspended leaps and fast turns were compared to Nijinsky's; revived the prominence of male ballet roles and significantly widened the audience for ballet; Leningrad ballet school under Aleksandr Pushkin, Kirov soloist from 1958; asylum request in Paris in June 1961; Grand Ballet du Marquis de Cuevas, American debut 1962, permanent guest artist of the Royal Ballet but never a member of a major troupe in the West; Fonteyn's favourite partner (Giselle, Marguerite and Armand, Swan Lake); reworked Swan Lake (Vienna 1964) giving the dominant role to the male dancer; Romeo and Juliet (1977), Manfred (1979), Nutcracker (Berlin 1980), La Scala Romeo and Juliet (1981); modern repertoire with Graham, Louis and Taylor; Don Quixote film co-directed with Helpmann (1973); Austrian citizen 1982; artistic director of the Paris Opera Ballet 1983-89. CANONICAL SIGNIFICANCE SOURCE. The 1961 asylum request is recorded only as a biographical event and is not scored.",
+      "url": "https://www.britannica.com/biography/Rudolf-Nureyev-Russian-dancer"
+    },
+    {
+      "id": "src_nureyev_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Rudolf Nureyev' (Allene Phy-Olsen, 2024), read in full: Nureyev elevated the classical male dancer to a status equal to the ballerina and drew a large popular audience; trained under Pushkin, often in trouble for bending company rules, rough in technique but strong in communication and jumps; Fonteyn partnership from 1962 in which critics felt he gave passion to her dancing and she gave poetry to his; chief of choreography at the Vienna State Opera 1964-88, with Don Quixote perhaps his most notable achievement; at Vienna and Paris discovered and developed dancers and mentored young artists; film acting did not translate well; over his career worked across classical and modern dance; bibliography notes Kavanagh's 800-page study. Reference-style encyclopedia entry with an assessment section; the political and health passages were not used.",
+      "url": "https://www.ebsco.com/research-starters/history/rudolf-nureyev/"
+    },
+    {
+      "id": "src_nureyev_uxl",
+      "kind": "biography",
+      "title": "UXL Encyclopedia of World Biography, 'Rudolf Nureyev' (via encyclopedia.com), read in full: trained at the Leningrad school under Pushkin, Kirov soloist in full-length roles; Fonteyn partnership from 1961-62; Ashton created Marguerite and Armand for him (March 1963); first own production, last act of La Bayadere for the Royal Ballet (Nov 1963) and Raymonda reconstruction (June 1964); modern dance with Graham, Louis and Taylor; directing debut with Don Quixote in Melbourne; over ninety roles and appearances with more than thirty companies; three-year directorship of the Paris Opera Ballet from 1983 (Britannica gives 1983-89). Encyclopedia entry for students; used as a cross-check on repertoire and workload.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/nureyev-rudolf"
+    },
+    {
+      "id": "src_nureyev_kavanagh_fonteyn",
+      "kind": "institution",
+      "title": "Julie Kavanagh, 'Nureyev and Fonteyn: A Taming of Sorts' (Rudolf Nureyev Foundation website, extract of her authorised biography), read in full: Fonteyn feared becoming a back number and agreed to experimental Swan Lakes away from London critics; Nureyev taught her Russian bravura and Vaganova phrasing while she helped him polish a 'ragged' placing and 'hit-and-miss' technique, a transformation one critic called an 'English Nureyev'; Violette Verdy called it 'a taming of sorts'; their February 1962 Giselle launched the partnership; Ashton's Marguerite and Armand was made for them; Ashton felt hurt by Nureyev's treatment of Fonteyn during rehearsals; rehearsal clashes and a constructive exchange of styles. The Foundation supported the biography, so this is an admiring, institutional source; the speculation about the couple's private relationship was deliberately not used.",
+      "url": "https://nureyev.org/rudolf-nureyev-biography/perfect-partnership-margot-fonteyn/"
+    },
+    {
+      "id": "src_nureyev_nation",
+      "kind": "press",
+      "title": "Marina Harss, 'Pointe Work' (The Nation, review of Julie Kavanagh's 'Nureyev: The Life', 10 December 2007 issue), read in full: Nureyev's innovations (soft arms and expressive torso modelled on ballerinas, higher legs in attitude and arabesque, high demi-pointe stance, tights without baggy trunks after a 1960 Kirov Don Quixote costume row) are now mainstream; he was a virtuoso but rough, with thumpy landings and messy performances (Black Swan at his London debut), and observers noted he struggled to bind steps into musical phrases; he worked compulsively to correct limits and improved, Ninette de Valois saying that by 25 his dancing was virtually perfect; sceptics included Robbins, Kirstein, Balanchine (did not come backstage) and critic John Martin, who accused him of taking all the plums; his restagings put himself front and centre and his choreography was mostly unsuccessful, florid and over-fiddly (Acocella quoted); modern dance forays limited by touring; behaviour toward colleagues could be brutal, including cruelty to Fonteyn; at the Paris Opera Ballet he made few friends but brought in new ballet masters, promoted young dancers such as Sylvie Guillem and invited choreographers such as Forsythe; as a mentor Kavanagh argues he surpassed Baryshnikov. Independent critical review with named counter-voices; private-life and health passages were not used.",
+      "url": "https://www.thenation.com/article/archive/pointe-work/tnamp/"
+    },
+    {
+      "id": "src_nureyev_seattle",
+      "kind": "press",
+      "title": "Moira Macdonald, '\"Nureyev: The Life\" | Legendary dancer' (The Seattle Times, 7 October 2007), read in full: the biography is meticulously researched but never quite finds the man behind the mystique; authorised by the Nureyev Foundation and similar to Diane Solway's 1998 biography; Nureyev never known as a consummate technician, fame came from passion and leaps; modelled his technique on ballerinas; Fonteyn partnership created sensation with fans queuing for days; career ended in a slow fading away rather than dignified retirement; fascination with Balanchine; Kavanagh notes he was the first Russian dance artist to defect (her claim, reported by the reviewer, not repeated in the cards). Independent newspaper critic's review.",
+      "url": "https://archive.seattletimes.com/archive/20071007/nureyev07/nureyev-the-life--legendary-dancer"
+    },
+    {
+      "id": "src_nureyev_stagenoise",
+      "kind": "press",
+      "title": "Caroline Baum, 'Rudolf Nureyev' (Stage Noise, review of Julie Kavanagh's biography, 10 November 2007), read in full: ten years of research with access to papers and letters, essentially authorised but still honest; Kavanagh does not hide his arrogance and unreasonable demands; fair account of the Royal Ballet's resentment when Fonteyn and Nureyev's billing eclipsed others, as in the casting of Macmillan's Romeo and Juliet; his 'absolute hunger to learn, to embrace the new and to take risks'; 'his legacy as a choreographer may be questionable, despite some significant triumphs'; Don Quixote film made in Melbourne with Robert Helpmann with insistence on authenticity and a three-week deadline; he could behave like a brute one minute and an angel the next. Independent critic's review (Australian); personal-life and health passages not used.",
+      "url": "https://www.stagenoise.com/review/2007/rudolf-nureyev"
+    },
+    {
+      "id": "src_nureyev_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Nureyev 9 Allan Warren.jpg' (wikitext and API record), checked for the portrait's licence: photograph by Allan Warren, 1973, Nureyev in his dressing room at the Royal Ballet School, Talgarth Road, London; source 'own work' by the photographer's Commons account; licence CC BY-SA 3.0 (and GFDL); original 3587 x 4401 pixels. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Nureyev_9_Allan_Warren.jpg"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nureyev_nation, src_nureyev_kavanagh_fonteyn, src_nureyev_stagenoise, src_nureyev_ebsco | 1955-1960s | independent critic + authorised-biography extract + reviews] The Nation review, drawing on Kavanagh, says he was intensely aware of his limits after a late start, worked compulsively to correct them, absorbed what he could from Fonteyn, Bruhn and teachers, and improved to the point where Ninette de Valois judged his dancing near perfect by 25; Kavanagh's Foundation extract describes him learning English placing from Fonteyn; Baum notes his hunger to learn. Consistent with a strong mastery orientation, tempered because the quotes are retrospective and partly from an authorised biography."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nureyev_nation, src_nureyev_britannica, src_nureyev_ebsco | 1960s-1980s | independent critic + encyclopaedias] The Nation reports that his soft arms and torso modelled on ballerinas, higher extension and costume change (tights without baggy trunks) were shocking at first and are now mainstream; Britannica says his Swan Lake reworking gave the dominant role to the male dancer. The same review calls his own choreography mostly unsuccessful and florid and Baum calls his choreographic legacy questionable, so originality in performance style is well documented while originality as a choreographer is contested; scored moderately."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nureyev_britannica, src_nureyev_uxl, src_nureyev_ebsco, src_nureyev_nation | 1960s-1980s | encyclopaedias + critical review] He moved into modern dance with Graham, Louis and Taylor, directed and starred in a Don Quixote film, acted in films and a stage musical and briefly conducted. The Nation says the modern-dance forays were never very successful and his conducting mediocre, EBSCO that film acting did not translate, so the willingness to try is documented while results were mixed."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nureyev_stagenoise, src_nureyev_nation, src_nureyev_seattle | 1950s-1960s | reviews of Kavanagh's biography] Baum highlights his 'absolute hunger to learn, to embrace the new and to take risks'; The Nation reports his fascination with Danish style via film of Erik Bruhn and with Balanchine; Macdonald notes his fascination with Balanchine's work. Reviewers' summaries of one biography, so moderate confidence."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nureyev_britannica, src_nureyev_kavanagh_fonteyn | 1960s-1980s | encyclopaedia + authorised-biography extract] Britannica records that he never joined a major Western company and instead worked with many companies on a temporary basis; the UXL entry counts over ninety roles and more than thirty companies; Kavanagh's Foundation extract describes him absorbing English schooling from Fonteyn and being transformed into 'an English Nureyev'. Consistent with adjusting style to different companies and traditions."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_nureyev_britannica, src_nureyev_ebsco, src_nureyev_nation | 1958-1980s | encyclopaedias + critical review] Britannica notes he preferred to work with companies on a temporary basis rather than join one; EBSCO says he was frequently in trouble for bending or ignoring company rules; The Nation reports the 1960 Kirov costume dispute. Consistent with a strong need to control his own working terms, which cost him goodwill with managers and colleagues."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_nureyev_kavanagh_fonteyn, src_nureyev_nation, src_nureyev_stagenoise | 1960s-1980s | authorised-biography extract + critical review + reviewer] Kavanagh's extract records rehearsal clashes with Fonteyn and Ashton's hurt at his abusive treatment of her; The Nation reports he made few friends as Paris Opera Ballet director and was sometimes brutal to colleagues; Baum cites rows with partners and the Royal Ballet's resentment. Documented repeatedly across reviewers, though all rely on one biography's material."
+    },
+    "collaboration": {
+      "score": 55,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_nureyev_kavanagh_fonteyn, src_nureyev_ebsco, src_nureyev_nation, src_nureyev_stagenoise | 1962-1980s | mixed] The Fonteyn partnership is described as a constructive exchange of styles with mutual respect and EBSCO says critics felt each completed the other; against this, The Nation cites John Martin's complaint that he gave himself all the plums and his restagings centred himself, and Baum describes resentment inside the Royal Ballet when their billing eclipsed others. Strong partnership at the centre, ego-driven conduct toward the wider company."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_nureyev_britannica, src_nureyev_nation, src_nureyev_ebsco | 1964-1989 | encyclopaedias + critical review] Britannica records his 1983-89 artistic directorship of the Paris Opera Ballet and EBSCO his long Vienna post; The Nation reports he brought in new ballet masters, rapidly promoted young dancers and invited challenging choreographers, but also that the tenure was fraught and he made few friends."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nureyev_ebsco, src_nureyev_nation | 1960s-1980s | encyclopaedia + critical review] EBSCO says he discovered and developed dancers with international careers and was a generous mentor to young artists; The Nation reports Kavanagh's argument that he surpassed Baryshnikov as mentor and promoted young dancers at the Paris Opera. Reasonable inference of investment in the art form beyond his own performances, but only two sources and no detailed episodes."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nureyev_uxl, src_nureyev_ebsco, src_nureyev_seattle | 1960s-1980s | encyclopaedias + reviewer] The UXL entry reports over ninety roles with more than thirty companies and a performing schedule equalled in its pace only by Anna Pavlova; EBSCO describes tireless service to ballet; Macdonald describes his career as ending not in dignified retirement but a slow fading while still performing. Documented sustained drive to perform; no evidence on motives."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_nureyev_nation, src_nureyev_stagenoise | 1960s | critical review + reviewer] The Nation quotes Verdy that he did not believe in covering up his difficulties and describes him fighting through virtuoso steps and landing badly at his London debut; Baum credits his hunger to take risks. Consistent with accepting visible artistic risk on stage, scored modestly because the sources are two reviews of one biography."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/rudolf-nureyev-warren-1973.jpg",
+    "width": 978,
+    "height": 1200,
+    "source": "Wikimedia Commons file 'Nureyev 9 Allan Warren.jpg': photograph by Allan Warren, 1973, Nureyev in his dressing room at the Royal Ballet School, London; uploaded by the photographer as his own work under CC BY-SA 3.0 and GFDL. The original is 3587 x 4401 pixels and was reduced (downscaled only, never enlarged) to 978 x 1200 pixels.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Allan Warren, 1973, CC BY-SA 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Nureyev_9_Allan_Warren.jpg",
+    "creator": "Allan Warren",
+    "date": "1973",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nureyev_9_Allan_Warren.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루돌프 누레예프"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26",
+    "updatedAt": "2026-10-26",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-26) for Q84217 returned en label 'Rudolf Nureyev', description 'Soviet ballet dancer and choreographer (1938-1993)', born 1938-03-17, died 1993-01-06, P18 'Nureyev 9 Allan Warren.jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate or src file for slug rudolf-nureyev or QID Q84217. REGION central_europe: repo precedent is Anna Pavlova (Russian, central_europe); nationality RU plus AT (Austrian citizen from 1982 per Britannica); his career base was Western Europe and North America, but the repo's Russian-born dancer precedent and the Kirov formative years are followed. VOCABULARY: occupation dancer, field dance, tags craft_focused/nonconformist/sustained_excellence/mentor, archetypes creative_creator/competitive_performer all have EN+KO labels; choreographer has no label so is not used. ZERO POLITICS: primary identity is dancer-choreographer; the 1961 asylum request is recorded only as a biographical event and nothing political is scored. EXCLUDED deliberately: sexuality and relationships, illness and death, wealth and lifestyle, family, any inference from them. PORTRAIT PREFLIGHT: portrait_preflight: plausible (lead) / confirmed: Commons page states author Allan Warren, date 1973, source own work, CC BY-SA 3.0 + GFDL; location data and description consistent with Nureyev at the Royal Ballet School; no conflicting institutional notice sought because the photographer is the uploader. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Rudolf Nureyev' (https://www.britannica.com/biography/Rudolf-Nureyev-Russian-dancer). READ (7 cited non-Wikidata sources): Britannica, EBSCO Research Starters, UXL/encyclopedia.com, Kavanagh's Foundation extract, The Nation (Harss), Seattle Times (Macdonald), Stage Noise (Baum). Perspectives: encyclopaedias, authorised-biographer extract, three independent reviewers of Kavanagh's biography. COUNTER-VOICES: The Nation (critics Martin, Robbins, Kirstein, Balanchine; Acocella on choreography; technique flaws; brutal conduct), Seattle Times (never finds the man), Baum (choreographic legacy questionable). NOT opened: Kavanagh's full book, Solway's biography, NYT/Guardian obituaries and reviews (blocked or not found), Literary Review (paywalled), performance films. CALIBRATION: nearly all behavioural evidence comes through reviews of one authorised biography plus encyclopaedias, so the highest score is 78 and highest confidence 0.60; twelve rows, no padding. SELF-CALIBRATION (agent): reviewed mastery_orientation (kept at 78/0.60: Nation, Foundation extract and Baum all agree though all derive from Kavanagh), autonomy_need (kept: Britannica and EBSCO independently note temporary engagements and rule-bending) and creative_originality (already set at 70 because choreography is contested); no rows lowered. BROAD FLAG: single-biography dependence across behavioural rows."
+  }
+}

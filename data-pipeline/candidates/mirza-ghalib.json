@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mirza-ghalib",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mirza Ghalib",
+    "aliases": [
+      "Mirza Asadullah Khan Ghalib",
+      "Asad"
+    ],
+    "wikidataId": "Q107000",
+    "birthYear": 1797,
+    "deathYear": 1869,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "late_recognition"
+    ],
+    "newTagProposals": [],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ]
+  },
+  "sources": [
+    {
+      "id": "src_ghalib_wikidata",
+      "kind": "wikidata",
+      "title": "Mirza Ghalib (Q107000) -- verified live via the Wikidata API (2026-10-26): English label 'Mirza Ghalib', description 'Indian poet (1797-1869)', born 1797-12-27, died 1869-02-15, Korean label, P18 'Mirza Ghalib photograph 3.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q107000"
+    },
+    {
+      "id": "src_ghalib_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Mirza Ghalib' (britannica.com, updated September 2026), read in full: preeminent Indian poet of his time who composed major works in Persian and Urdu at the end of the Mughal era, reinvigorating traditional forms with philosophical depth and linguistic innovation; Divan-e-Ghalib; his letters redefined Urdu prose by writing in a conversational style instead of the formal mursala tradition; Dastanbu, his Persian diary of 1857; worked across ghazal, masnavi, qasidah and qit'ah and was one of the last notable proponents of the Persian style Sabk-i Hindi; early divan compiled before he was 20 and later largely rejected or revised; his inherited stipend largely lost or withheld, he travelled to Calcutta in the 1820s to plead his case and returned without restoring it; commissioned in 1850 to write a Persian history of the Mughal dynasty, completing the first volume published in 1854; became ustad of the Mughal king and poet laureate after Zauq's death; his legacy fully appreciated only by later generations. CANONICAL SIGNIFICANCE SOURCE. Family bereavements, health and imprisonment passages and the 1857 political content were not used for scoring.",
+      "url": "https://www.britannica.com/biography/Mirza-Ghalib"
+    },
+    {
+      "id": "src_ghalib_columbia_timeline",
+      "kind": "institution",
+      "title": "Frances W. Pritchett (Columbia University), 'A Desertful of Roses: Ghalib timeline' (franpritchett.com/00ghalib/about/txt_timeline.html), read in full: dated chronology of the poet's life from the Columbia University Ghalib site, covering successive compilations of his Urdu divan (1816, 1821, 1825, 1833 and the printed editions of 1841 and 1847), his pursuit of the full family pension from 1825 through meetings and journeys to Firozpur Jhirka, Bharatpur, Kanpur, Lucknow, Banda and Calcutta (arrival 20 February 1828), the June 1828 reply to linguistic objections raised by pupils of Qatil in a conciliatory masnavi insisting that Indian Persian writers are not authoritative for usage, the Company government directing him in June 1828 to petition in Delhi, honours at the Governor General's durbar in 1829, the dismissal of his pension claim in January 1831, and his 1840 refusal of an interview for a Persian professorship at Delhi College. Scholarly chronology compiled from secondary and primary sources; dates only, no assessment. The legal, debt and arrest entries and family events were not used.",
+      "url": "https://franpritchett.com/00ghalib/about/txt_timeline.html"
+    },
+    {
+      "id": "src_ghalib_dawn",
+      "kind": "press",
+      "title": "Faheem Sikandar, 'The Inconsolable Ghalib' (Dawn, 16 May 2021), read in full: argues that Ghalib wanted to be celebrated as a Persian poet and complained that nobody enjoyed the Persian odes he prided himself on, citing a letter quoted by Hali in 'Yadgar-e-Ghalib' and translated by Ralph Russell; describes the 1852 wedding sehra for the crown prince in which Ghalib claimed no one could write a better one, the king's displeasure and Ghalib's equivocal apology; Zauq's death in 1854 and Ghalib's appointment as the king's tutor in poetry (without the laureateship, per this account); calls the poet a master of prosody who knew he was the ace and attracted enemies; the pension affair took him to Calcutta without success. Essay-style newspaper feature that is partly critical (the writer calls him narcissistic), with a novelistic tone; the passages on drinking, courtesans and family bereavement were not used.",
+      "url": "https://www.dawn.com/news/1623919"
+    },
+    {
+      "id": "src_ghalib_aljazeera",
+      "kind": "press",
+      "title": "Al Jazeera, 'Mirza Ghalib: Legendary poet of the Urdu language' (27 December 2017), read in full: prodigious poet writing at 11, known in Persian and Urdu and influential among Urdu masters; financially dependent on royal patronage; best poems in the ghazal, masnavi and qasidah, with the ghazal turned from an expression of anguish in love to philosophies of life; critics accused him of an ornamental Persian style incomprehensible to the masses while his legacy rests chiefly on his Urdu ghazals; letters paved the way to simpler Urdu prose; awarded the titles Dabir-ul-Mulk and Najm ud-Daulah by the Mughal emperor in 1850; quotes William Dalrymple's 'The Last Mughal' for one of his verses. Popular feature (Google doodle occasion); the personal-bereavement passages were not used.",
+      "url": "https://www.aljazeera.com/amp/features/2017/12/27/mirza-ghalib-legendary-poet-of-the-urdu-language"
+    },
+    {
+      "id": "src_ghalib_vagabond",
+      "kind": "press",
+      "title": "Indian Vagabond, 'When Mirza Ghalib Came To Kolkata' (blog feature, 28 August 2017), read in full: travel essay on Ghalib's stay in Calcutta; says his reason for the journey was to appeal to the East India Company to restore a family pension that had been halved, after earlier appeals in Delhi, Firozpur, Bharatpur, Kanpur and Lucknow, and that he pawned his pen to fund the journey; reproduces a timeline attributed to Columbia University material. Personal blog by a bookseller, used only as a secondary retelling that agrees with the scholarly timeline, never as sole support.",
+      "url": "https://indianvagabond.com/2017/08/28/when-mirza-ghalib-came-to-kolkata/"
+    },
+    {
+      "id": "src_ghalib_naw",
+      "kind": "press",
+      "title": "New Asian Writing, 'The rivalry between Mirza Ghalib and Zauq' (online literary magazine), read in full: describes the poet as a maverick whose entry as court poet was delayed by the rival Zauq; recounts the anecdote in which, challenged over the line about being a king's companion, he recited the full ghazal on the spot; says much of his fame came posthumously. Popular retelling of a well-known anecdote; the anecdote's details are traditional and vary across tellers, so it is used only as a cross-check for the rivalry itself.",
+      "url": "https://new-asian-writing.com/the-rivalry-of-mirza-ghalib-and-zauq/"
+    },
+    {
+      "id": "src_ghalib_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Mirza Ghalib photograph 3.jpg' and 'Mirza Ghalib (circa 1860-1869).jpg' (wikitext and API records), plus Frances Pritchett's Ghalib portraits page (franpritchett.com), checked for the portrait: the Commons pages give author unknown and an old-photograph public-domain tag; the Columbia portraits page says the print was 'apparently the only photo taken of Ghalib, in 1868' and came from a private collection in Allahabad. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Mirza_Ghalib_photograph_3.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ghalib_britannica, src_ghalib_aljazeera, src_ghalib_dawn | 1810s-1860s | encyclopaedia + features] Britannica says he reinvigorated Persian and Urdu forms with philosophical depth and linguistic innovation and redefined Urdu prose with conversational letters; Al Jazeera says he turned the ghazal from anguish in love to philosophies of life; Dawn describes a master of prosody. Against this, Al Jazeera notes critics found his Persian style ornamental and incomprehensible to the masses. Strongly documented as original, with the praise largely retrospective."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ghalib_columbia_timeline, src_ghalib_britannica, src_ghalib_vagabond | 1825-1831 | scholarly chronology + encyclopaedia + blog] The Columbia timeline records him pursuing restoration of the full family pension from 1825 through Firozpur Jhirka, Bharatpur, Kanpur, Lucknow, Banda and Calcutta (arriving 1828) until the claim was dismissed in 1831; Britannica confirms the Calcutta journey and failure. This is a professional-economic dispute, not scored politically. The effort was sustained for years but did not succeed, so dual-edged."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ghalib_britannica, src_ghalib_columbia_timeline | 1828-1850s | encyclopaedia + scholarly chronology] Britannica says he broke sharply from the formal mursala letter tradition by writing as if in conversation; the Columbia timeline records him answering objections to his Persian in 1828 while insisting that Indian Persian writers are not authoritative for usage and idiom. Consistent with holding his own view against convention, though the 1828 episode is a single line in a chronology."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ghalib_dawn, src_ghalib_naw, src_ghalib_columbia_timeline | 1828-1854 | feature + magazine + chronology] Dawn describes his rivalry with Zauq and the 1852 sehra whose boast displeased the king and required an apology; New Asian Writing recounts the on-the-spot ghazal anecdote; the Columbia timeline records the 1828 linguistic dispute answered in a conciliatory masnavi. The anecdotes are traditional and retold in popular pieces, so a moderate score and confidence."
+    },
+    "competitiveness": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ghalib_dawn, src_ghalib_naw | 1850s | feature + magazine] Dawn says the couplet in his 1852 sehra claimed no other poet could write a better one and that he was acutely aware of being the best, making enemies; both pieces describe the rivalry with Zauq for the king's favour. Rests on popular retellings of one episode, so scored modestly."
+    },
+    "perfectionism": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ghalib_britannica, src_ghalib_columbia_timeline | 1816-1847 | encyclopaedia + scholarly chronology] Britannica says he compiled a divan before he was twenty and later rejected or revised much of that early material; the Columbia timeline lists successive Urdu divan compilations in 1816, 1821, 1825 and 1833 that kept most earlier ghazals while adding new ones, and later printings in 1841 and 1847. Consistent with repeated selection and revision of his own work."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "neutral",
+      "rationale": "[src_ghalib_britannica, src_ghalib_aljazeera | 1810s-1860s | encyclopaedia + feature] Britannica notes major work in both Persian and Urdu across ghazal, masnavi, qasidah and qit'ah, plus conversational letters, the Persian diary Dastanbu and a Persian history of the Mughal dynasty; Al Jazeera adds his letter-writing. Range within literature rather than across unrelated fields, so a moderate score."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ghalib_britannica, src_ghalib_aljazeera, src_ghalib_vagabond | 1847-1854 | encyclopaedia + features + blog] Britannica says he lived on loans and patronage and, after his release in 1847, built connections that led to the Mughal court, the 1850 commission for a Persian history, a stipend from the king of Awadh and the roles of ustad and poet laureate; Al Jazeera records his titles of 1850; the blog says he pawned his pen to fund the Calcutta journey. Documented ways of securing support without a regular income; the legal episode was not used."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "Rights basis not concretely resolved. The Commons file 'Mirza Ghalib photograph 3.jpg' (290 x 462; a cropped, decolourised version of 'Mirza Ghalib (circa 1860-1869).jpg', 521 x 827) gives author 'unknown', a date of 'before 1869' and an old-photograph public-domain tag, with the 2016 uploader's 'own work' source field. The only provenance found (Frances Pritchett's Columbia University Ghalib site) says the print was 'apparently the only photo taken of Ghalib, in 1868', belonged to a great-granddaughter of a friend of the poet and is now in a private collection in Allahabad, so the original owner, photographer and first publication are undocumented, and a public-domain-by-age claim for an unpublished or first-published-later photograph in India rests on a theory not stated on the page. Identity also rests on an 'apparently' qualifier. Next step: find the first publication (date and publisher) of the photograph from a museum, archive or scholarly source, or obtain a documented institutional image with stated terms; kind would then be likeness only if confirmed as a photograph from life.",
+    "kind": "likeness"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "갈리브"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26",
+    "updatedAt": "2026-10-26",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-26) for Q107000 returned en label 'Mirza Ghalib', description 'Indian poet (1797-1869)', born 1797-12-27, died 1869-02-15, P18 'Mirza Ghalib photograph 3.jpg'; the lead's hint was correct. SLUG/QID CHECK: no candidate or src file for slug mirza-ghalib or QID Q107000. REGION south_asia, nationality IN (born Agra). VOCABULARY: poet, writer, field literature, impact domains literary/cultural, tags craft_focused/late_recognition, archetypes creative_creator/independent_creator have EN+KO labels (cf. Rabindranath Tagore); no historicalPolityKey set because no existing polity label fits Mughal Delhi under the East India Company. ZERO POLITICS: primary identity is poet; the pension dispute with the East India Company is treated as a professional-economic episode only, and his 1857 diary, loyalty petitions and views on the rebellion are not scored. EXCLUDED deliberately: family bereavements, drinking and personal habits, health, the gambling arrest and debt episodes, any inference from them, Wikipedia/Wikidata. PORTRAIT PREFLIGHT: portrait_preflight: plausible (lead) / downgraded to HELD: author unknown, first publication and original owner undocumented, uploader 'own work' field on a 19th-century photograph; see portrait.reason. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Mirza Ghalib' (https://www.britannica.com/biography/Mirza-Ghalib). READ (6 cited non-Wikidata sources): Britannica, Columbia University Ghalib timeline (Pritchett), Dawn essay, Al Jazeera feature, Indian Vagabond blog, New Asian Writing. Perspectives: encyclopaedia, university-hosted scholarly chronology, two news features including a critical essay, two popular retellings. COUNTER-VOICES: Al Jazeera (critics found his Persian ornamental and incomprehensible), Dawn (narcissism, Persian-versus-Urdu pride, enemies made), Britannica (he rejected or revised early work; legacy appreciated posthumously). NOT read: Russell and Islam 'Ghalib: Life and Letters' (the chapters are scanned PDFs on Pritchett's site with no text layer; only the frontispiece was viewed), Pavan Varma's biography and any reviews (none found), Hali's 'Yadgar-e-Ghalib', the Wire article on the law case (page text unavailable), Sahitya Akademi and Ghalib Institute pages (not obtained), Ghalib's own letters (self material). The poet's letters are a valuable primary source but no letter was read directly, so no row rests on self-report. CALIBRATION: only secondary survey sources were read and several are popular, so the highest score is 76 and the highest confidence 0.60; eight rows, no padding. SELF-CALIBRATION (agent): reviewed creative_originality (kept 76/0.60: Britannica, Al Jazeera and Dawn agree though retrospective), persistence (kept at 70/0.55: scholarly timeline documents the multi-year pursuit) and competitiveness (kept low at 64/0.42: popular retellings of one episode); no rows lowered. BROAD FLAG: no book-length scholarly biography was actually read, so confidence is capped for the whole profile."
+  }
+}

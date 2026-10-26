@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "octavia-hill",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Octavia Hill",
+    "aliases": [],
+    "wikidataId": "Q437462",
+    "birthYear": 1838,
+    "deathYear": 1912,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["GB"],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": ["activist", "conservationist"],
+    "fieldIds": ["social_reform"],
+    "impactDomains": ["social", "cultural", "historical"],
+    "tagIds": ["founder", "organizer", "administrator"],
+    "archetypeIds": ["organizational_leader", "social_influencer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hill_wikidata",
+      "kind": "wikidata",
+      "title": "Octavia Hill (Q437462) -- verified live via the Wikidata API (2026-10-26): English label 'Octavia Hill', description 'English social reformer (1838-1912)', born 1838-12-03, died 1912-08-13, citizenship United Kingdom, P18 image 'Sargent - Octavia Hill.jpg'; no Korean label on the item. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q437462"
+    },
+    {
+      "id": "src_hill_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Octavia Hill' (britannica.com/biography/Octavia-Hill), read in full: leader of the British open-space movement that led to the 1895 foundation of the National Trust; housing reformer whose management methods were imitated in Britain, on the Continent and in the United States; influenced by Ruskin, whom she met in 1853; first housing project in St Marylebone from 1864 with money lent by Ruskin; 1884 Ecclesiastical Commissioners put her in charge of their Southwark property where she trained other women as managers; 1869 co-founded the Charity Organisation Society with Edward Denison; assisted by her sisters, especially Miranda. CANONICAL SIGNIFICANCE SOURCE. Concise, neutral reference entry.",
+      "url": "https://www.britannica.com/biography/Octavia-Hill"
+    },
+    {
+      "id": "src_hill_dnb",
+      "kind": "biography",
+      "title": "Helen Bosanquet, 'Hill, Octavia', Dictionary of National Biography, 1927 supplement (Wikisource transcription), read in full: training under Ruskin and F. D. Maurice's Christian Socialist circle, the 1864-65 purchase of the first houses with Ruskin's money, his advice to put the work on a 5 per cent business footing, the 1884 Ecclesiastical Commissioners appointment, her insistence on developing responsibility in her assistants, the spread of her system to America and Berlin, her support of the Charity Organization Society, the Kyrle Society, the Commons Preservation Society and the National Trust (1895), her preference for voluntary work and reluctance to take part in political measures (she refused the 1889 housing commission), and the quoted description of her management duties. Written by a Charity Organisation Society colleague, so sympathetic; its sections on her health and family are not used.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1927_supplement/Hill,_Octavia"
+    },
+    {
+      "id": "src_hill_ebsco",
+      "kind": "biography",
+      "title": "John Ranlett, 'Octavia Hill' (EBSCO Research Starters, History, 2024), read in full: leadership in an all-female household, her management system of personal contact and rent collection as social occasions, eviction of tenants who fell behind after grace periods, preference for rehabilitating small existing dwellings over large new projects, the Kyrle Society (1875), the Swiss Cottage Fields defeat, open-space campaigns, the 1881-82 Smoke Abatement Exhibition, the National Trust (1895), her seats on the Royal Commissions on the Aged Poor and Poor Laws where she supported private initiative against state involvement and clashed with Beatrice Webb, and a Significance section saying later observers find her approach 'distastefully patronizing', that her system housed only a small fraction of London's poor, that it is argued her publicity delayed an effective overall attack on housing, and that Wohl finds her contribution important but not altogether admirable. A modern encyclopaedic overview that names the criticism; the engagement and breakdown passages are deliberately not used.",
+      "url": "https://www.ebsco.com/research-starters/history/octavia-hill/"
+    },
+    {
+      "id": "src_hill_maurice",
+      "kind": "biography",
+      "title": "C. Edmund Maurice (ed.), 'Life of Octavia Hill as told in her letters' (Macmillan, 1913; Internet Archive full text), read selectively: her letters about her work for and visits to Ruskin, Ruskin's 1876 letters to her expressing a growing sense of separation 'in essential principles' and asking whether amelioration only encourages the 'great Evil Doers', and the editor's account of the 'misunderstanding with Ruskin', saying Ruskin regretted his hasty words, later made the houses over to her, and that her admiration never wavered. The authorised biography by her brother-in-law, based on her own letters, therefore friendly and partly self-testimony; used for the documented Ruskin episode and the letters quoted, not for character praise. Her health and private matters are not used.",
+      "url": "https://archive.org/details/lifeofoctaviahil00hilluoft"
+    },
+    {
+      "id": "src_hill_birthplace",
+      "kind": "institution",
+      "title": "Octavia Hill Birthplace House (octaviahill.org), pages 'Social Housing', 'Co-Founder of the National Trust' and 'John Ruskin', read in full: the 1864 purchase of three houses in Paradise Place ('Little Hell') that she managed, the volunteer 'Fellow Workers' as the foundation of housing management, articles later published as 'Homes of the London Poor' that attracted patrons including Princess Alice, spread of her methods abroad, the 1885-95 collaboration with Robert Hunter and Hardwicke Rawnsley that led to the National Trust, and the statement that Ruskin and she had 'a bitter quarrel in the 1870s' and did not meet again. The memorial museum's self-description of its subject: admiring, used for chronology only.",
+      "url": "https://octaviahill.org/social-housing/"
+    },
+    {
+      "id": "src_hill_ouvry",
+      "kind": "press",
+      "title": "Jonathan G. Ouvry, review of Gillian Darley's 'Octavia Hill: A Life' (Constable, 1989), George Eliot Fellowship Review no. 21, 1990, pp. 50-51, read in full via the George Eliot Review Online PDF: calls the book the definitive life; summarises Hill's method of regular personal contact with tenants and a commercial return to owners, notes that non-payers were evicted 'with a rapidity' that now seems almost brutal and that those at the very bottom were not her concern, and that her methods spread to Europe and America. The reviewer discloses he is Hill's great-great-nephew and has been involved with the housing association bearing her name, so this is a family-affiliated review of the biography, not a reading of the biography itself.",
+      "url": "https://georgeeliotreview.org/items/show/302"
+    },
+    {
+      "id": "src_hill_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Sargent - Octavia Hill.jpg' (wikitext and image record), checked for the portrait: artist John Singer Sargent, dated 1898, National Portrait Gallery London accession NPG 1746, tagged public domain (reproduction of a work whose author died in 1925); original 399 x 500. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Sargent_-_Octavia_Hill.jpg"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hill_dnb, src_hill_ebsco, src_hill_britannica, src_hill_birthplace | 1864-1912 | biography + overview + reference + memorial institution] Across five decades her work was organised around improving the living conditions of the London poor, first as housing manager, then through the Kyrle Society, open-space campaigns, smoke abatement and the National Trust; the DNB entry says few efforts to raise the very poor failed to attract her interest, and Ranlett describes her aim as showing that decent housing could yield a modest return while uplifting tenants. Four sources of different tone agree on the purpose; the critical overview disputes the effect (small reach, patronising), not the motivation."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hill_ebsco, src_hill_dnb, src_hill_birthplace | 1864-1895 | overview + biography + memorial institution] She turned her Marylebone observations into a housing scheme in 1864 (the memorial museum says at her persuasion Ruskin bought the first houses), founded the Kyrle Society in 1875, organised the 1881-82 Smoke Abatement Exhibition and co-founded the National Trust, per Ranlett. The starting capital in 1864 came from Ruskin, and part of the evidence is memorial-institution wording. SELF-CALIBRATION (agent): proactive_agency lowered from 76 / 0.58 to 72 / 0.55 because the first project depended on Ruskin's money and initiative as much as her own, and the strongest wording is from the admiring memorial museum."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hill_ebsco, src_hill_dnb, src_hill_britannica | 1850s-1912 | overview + biography + reference] Ranlett describes her becoming the recognised leader of her sisters and, at fourteen, managing a workshop of ragged-school girls; she later ran a growing network of volunteer lady managers (Fellow Workers), took charge of the Ecclesiastical Commissioners' Southwark property in 1884 and trained other women as managers (Britannica). The DNB adds that she developed responsibility and initiative in her assistants. Consistent across sources but mostly sympathetic."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hill_ebsco, src_hill_dnb | 1864-1912 | overview + biography] She continued housing management for nearly fifty years, kept raising money to save open spaces after the failed fight for Swiss Cottage Fields (1873), and, per the DNB, served loyally on the 1905 Poor Law Commission with 'little expectation of useful results'. Documented over decades but the incident detail is thin and sympathetic."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hill_birthplace, src_hill_ebsco, src_hill_dnb | 1865-1895 | memorial institution + overview + biography] She placed articles in influential magazines that drew patrons (later 'Homes of the London Poor'), persuaded Ruskin to buy the first houses, drew owners and donors to place houses and money in her hands, and, per Ranlett, raised money for open spaces through her personal network. Mostly supportive sources; the fundraising claims are general rather than dated episodes."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hill_dnb, src_hill_ebsco | 1865-1899 | biography + overview] Her own quoted account of good management lists prompt repairs, references taken up, cleaning supervised, overcrowding ended, ready-money rent and strictly kept accounts, plus knowledge of rates, taxes and leases; Ranlett describes close supervision of the buildings and tenants. The checklist is her own words reported by a colleague, so this is moderate."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_hill_dnb, src_hill_birthplace, src_hill_ebsco | 1860s-1900s | biography + memorial institution + overview] She worked with her sisters, the volunteer Fellow Workers, Ruskin, Maurice's circle, Hunter and Rawnsley (National Trust), and the Charity Organisation Society; the DNB says the rapid extension of the work was largely due to a spirit of co-operation. The same overview notes a personal network she used for fundraising and a willingness to abandon tenants who would not follow her rules, so the collaborative style is bounded to like-minded allies."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_hill_maurice, src_hill_birthplace, src_hill_ebsco | 1876-1909 | authorised biography + memorial institution + overview] Ruskin's 1876 letters and the memorial museum's 'bitter quarrel' record a serious break with her mentor over principles that she did not resolve in his lifetime, and Ranlett says she clashed with Beatrice Webb on the Poor Law Commission while upholding the Charity Organisation line. The causes of the Ruskin break are given only in outline, so this is a moderate, partly inferential reading of tolerance for open disagreement."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/octavia-hill-sargent-1898.jpg",
+    "width": 399,
+    "height": 500,
+    "source": "Portrait of Octavia Hill by John Singer Sargent, dated 1898, oil on canvas, National Portrait Gallery London NPG 1746, commissioned by her friends and given to her on her sixtieth birthday (Victorian Web quoting the gallery; Britannica dates the painting 1899). Sargent died in 1925, so the painting is in the public domain in the UK and US; Commons tags it public domain as a faithful reproduction of a two-dimensional work. The gallery's own item page could not be opened (HTTP 403 bot protection), so any gallery terms on its own digital images were not read. Original 399 x 500; used as is, no resizing.",
+    "license": "Public domain (artwork by John Singer Sargent, died 1925)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sargent_-_Octavia_Hill.jpg",
+    "attribution": "John Singer Sargent, Octavia Hill, 1898, National Portrait Gallery, London (NPG 1746)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Sargent_-_Octavia_Hill.jpg",
+    "creator": "John Singer Sargent",
+    "date": "1898",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sargent_-_Octavia_Hill.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "옥타비아 힐"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID Q437462 verified live (wbgetentities 2026-10-26): 'Octavia Hill', 'English social reformer (1838-1912)', 1838-12-03 to 1912-08-13, citizenship UK; no ko label on the item. No existing candidate, production file or src reference for slug octavia-hill or the QID. Region western_europe (England). ZERO POLITICS: primary identity is housing manager and open-space/conservation organiser; her opposition to state housing, Charity Organisation Society doctrine and Royal Commission positions are noted only as factual counter-voice and are not scored as ideology. Vocabulary: occupations activist and conservationist, field social_reform, tags founder/organizer/administrator, archetypes organizational_leader and social_influencer all exist with EN and KO labels; 'philanthropist', 'educator' and 'social_reformer' are not labelled and not used. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica entry 'Octavia Hill', cross-checked with the DNB and Ranlett. PORTRAIT PREFLIGHT: portrait_preflight: strong (lead) / confirmed as Sargent 1898 NPG 1746, a commissioned portrait of a living sitter, PD by artist death 1925; caveat that the NPG item page returned 403 so its own terms were not read, and Commons PD-Art reproduction tag was relied on for the faithful reproduction; the 399 x 500 file is small but not upscaled. READ (7 cited non-Wikidata items): Britannica, DNB (Bosanquet), Ranlett overview, Maurice's letters (selected passages, Ruskin episode), Octavia Hill Birthplace House pages, Ouvry's review of Darley, Commons record. PERSPECTIVES: neutral reference, COS-colleague biography, modern balanced overview that names the criticism, authorised biography from her letters, memorial museum, family-affiliated book review. COUNTER-VOICES: Ranlett (patronising, small reach, may have delayed state action, Wohl 'not altogether admirable'), Ouvry (rapid evictions), Ruskin's own 1876 letters, the Webb clash. NOT OPENED: Darley's biography itself (known via Ouvry only, so no row rests on it), Moberly Bell 1942, Wohl 'The Eternal Slum', Hindes and Chung 2012 (abstract only), National Trust and NPG pages (403/404/bot-blocked). EXCLUSIONS: her engagement, health and breakdown, family, the cause of the Ruskin rift (not documented in sources read). CALIBRATION: eight rows, highest score 78, highest confidence 0.62; no adversarial primary source on traits, so confidence kept moderate. SELF-CALIBRATION (agent): rows reviewed: impact_motivation, proactive_agency, leadership_drive. Lowered: proactive_agency (76/0.58 to 72/0.55: first project relied on Ruskin's money and the strongest wording is memorial-museum). impact_motivation and leadership_drive unchanged: corroborated by four and three sources of differing tone."
+  }
+}

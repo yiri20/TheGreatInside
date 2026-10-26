@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "li-ka-shing",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Li Ka-shing",
+    "aliases": [
+      "Sir Li Ka-shing",
+      "Li Ka Shing"
+    ],
+    "wikidataId": "Q20151",
+    "birthYear": 1928,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "HK"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "investor",
+      "executive"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "wealth_creation"
+    ],
+    "tagIds": [
+      "founder"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lks_wikidata",
+      "kind": "wikidata",
+      "title": "Li Ka-shing (Q20151) -- verified live via the Wikidata API (2026-10-25): English label 'Li Ka-shing', description 'Hong Kong billionaire and entrepreneur', born 1928-06-13, no death date, P18 image 'Li Ka Shing.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q20151"
+    },
+    {
+      "id": "src_lks_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica (Britannica Money), 'Li Ka-shing', read in full: describes him as a Chinese entrepreneur and philanthropist, widely considered one of the most influential businessmen in Asia, with companies in real estate, ports and infrastructure; fled to Hong Kong in 1940; began as a salesman and founded a plastics company, Cheung Kong; artificial-flower exports in the 1950s; became Hong Kong's leading private developer by the late 1970s; in 1979 bought a controlling interest in Hutchison Whampoa; Hutchison became the world's largest independent port operator; the Orange mobile-phone sale for 8.83 billion pounds; characterises his approach as identifying promising technologies before they become lucrative, investing, and selling at peak value; also records criticism of his ties with officials and a backlash to a threat over a development. CANONICAL SIGNIFICANCE SOURCE. Reference-institution biography, retrospective; family and political passages deliberately not used.",
+      "url": "https://www.britannica.com/money/Li-Ka-shing"
+    },
+    {
+      "id": "src_lks_bloomberg_money",
+      "kind": "press",
+      "title": "Bloomberg News wire profile reproduced by Money, 'The Richest Man in Hong Kong, an 89-Year-Old Wartime Refugee Worth $34 Billion, Is Retiring' (money.com, 2018), read in full: his retirement from CK Hutchison and CK Asset with son Victor taking over; Joseph Fan (Chinese University of Hong Kong, family-business researcher) on the retirement as the end of an era and on succession being prepared for decades; 'Superman' nickname and the portrait of him as both admired dealmaker and symbol of inequality and market dominance; teenage factory work of 16-hour days; plastic flowers first, then buying the site of his factory when the lease could not be renewed; buying Hong Kong property during the 1967 downturn; the 1979 purchase of Hutchison from HSBC at under half book value; the 15 billion dollar profit on selling Orange to Mannesmann in 1999; startup stakes in Facebook, Spotify and Siri; the 2015 restructuring into two companies and the 2017 Duet takeover. Business-wire journalism with a named academic and critical framing; mainland-government and Basic Law passages and family passages deliberately not used.",
+      "url": "https://money.com/the-richest-man-in-hong-kong-an-89-year-old-wartime-refugee-worth-34-billion-is-retiring/"
+    },
+    {
+      "id": "src_lks_encyclopedia",
+      "kind": "biography",
+      "title": "'Hutchison Whampoa Limited' company history (International Directory of Company Histories, reproduced on encyclopedia.com), read in full: Hutchison International and Hongkong and Whampoa Dock origins; the 1975 rescue by the Hongkong and Shanghai Bank and Wyllie's 1976-77 disposals and merger; the 1979 sale of the bank's 22.8 percent stake to Li's Cheung Kong at roughly half its worth and his chairmanship from 1981; later diversification into telecommunications, ports (Felixstowe), retail, utilities and energy; the Orange plc flotation in 1996; the March 1997 restructuring that made Hutchison the umbrella holding company; profits on the Mannesmann, Vodafone and VoiceStream stakes. Independent corporate-history account compiled from business press; reports setbacks as well as gains; Hong Kong-China transition passages not scored.",
+      "url": "https://www.encyclopedia.com/books/politics-and-business-magazines/hutchison-whampoa-limited"
+    },
+    {
+      "id": "src_lks_forbes",
+      "kind": "press",
+      "title": "Forbes profile page 'Li Ka-shing' (forbes.com/profile/li-ka-shing), read in full: nicknamed Superman and regarded as one of the most influential businessmen in Asia; retired as chairman of CK Hutchison and CK Asset in 2018 and remains senior adviser; the group has more than 300,000 employees in more than 50 nations; Cheung Kong Plastics started in 1950 with 6,500 dollars of savings and loans from relatives; the Li Ka Shing Foundation has donated more than 3.8 billion dollars with over 80 percent to Greater China; Li says it took him five minutes in 2007 to decide to invest in Facebook, and he also invested in Siri and Spotify. A magazine profile summary; the decision-time detail is his own account.",
+      "url": "https://www.forbes.com/profile/li-ka-shing/"
+    },
+    {
+      "id": "src_lks_scmp",
+      "kind": "press",
+      "title": "South China Morning Post, 'Hutchison to sell stake in Orange for $113b' (scmp.com, 1999), read: Mannesmann buying the London-listed Orange for 19.8 billion pounds, paying Hutchison 16.29 pounds a share for its 44.81 percent stake, a 21.65 percent premium to the pre-talks closing price. Contemporaneous Hong Kong press report of the transaction terms; figures only.",
+      "url": "https://www.scmp.com/article/297434/hutchison-sell-stake-orange-113b"
+    },
+    {
+      "id": "src_lks_hkfp",
+      "kind": "press",
+      "title": "Hong Kong Free Press (AFP), 'Hong Kong billionaire Li Ka-Shing overhauls business by merging utilities firms' (hongkongfp.com, 8 September 2015), read in full: the January 2015 reorganisation into Cheung Kong Hutchison Holdings and CK Property, and the September 2015 offer of 11.6 billion dollars for the remaining shares of Power Assets by Cheung Kong Infrastructure to build a larger infrastructure platform, as the second reshuffle in a year; the company's statement of its stated rationale. Independent news-agency report of corporate actions.",
+      "url": "https://hongkongfp.com/2015/09/08/hong-kongs-li-overhauls-business-by-merging-utilities-firms/"
+    },
+    {
+      "id": "src_lks_rfa",
+      "kind": "press",
+      "title": "Radio Free Asia, 'Hong Kong Tycoon Li Ka-shing's China Withdrawal Highlights Broader Problems: Analysts' (rfa.org, 22 September 2015), read in full: reports that his group sold five office and shopping-mall projects in Shanghai, Beijing, Nanjing and Guangzhou in recent years and was selling assets on the mainland and in Hong Kong, a critical state-media editorial attacking him over it, and a Hong Kong academic's view that he had reasons for caution. A counter-voice: used only to corroborate the pattern of asset sales as business behaviour; its political framing is deliberately NOT scored.",
+      "url": "https://www.rfa.org/english/news/china/hong-kong-tycoon-li-ka-shings-china-withdrawal-highlights-broader-problems-analysts-09222015121817.html"
+    },
+    {
+      "id": "src_lks_stanford",
+      "kind": "institution",
+      "title": "Stanford Medicine news, 'Li Ka-shing talks of Stanford's special place in his heart' (med.stanford.edu, September 2010), read in full: a Q&A with Li at the 29 September 2010 dedication of the Li Ka Shing Center for Learning and Knowledge: his pledge of one-third of his assets to philanthropy, more than 1.45 billion dollars given to projects worldwide by his foundation and other charities at that date, and his own account of valuing education. SELF MATERIAL from a university communications office: used only for the documented fact of the gifts and as identity context for the portrait photo; never as sole support for any row.",
+      "url": "https://med.stanford.edu/news/all-news/2010/09/li-ka-shing-talks-of-stanfords-special-place-in-his-heart.html"
+    },
+    {
+      "id": "src_lks_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Li Ka Shing.jpg' (wikitext and API record) and the linked Flickr photo page, checked for the portrait: photograph IMG_5485 by the account 'EdTech Stanford University School of Medicine', 29 September 2010, uploaded to Commons by the Flickr upload bot on 20 January 2013 and licence-reviewed by a Commons reviewer, CC BY 2.0; the Flickr page itself shows 'Some rights reserved' with a CC BY 2.0 licence link today; original 1500 x 1900. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Li_Ka_Shing.jpg"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 75,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lks_bloomberg_money, src_lks_britannica, src_lks_encyclopedia, src_lks_scmp | 1950s-2010s | business-wire profile + reference biography + company history + contemporaneous press] Bloomberg records him buying Hong Kong property in the 1967 downturn when others sold and negotiating the 1979 Hutchison stake from HSBC at under half book value; Britannica characterises his method as spotting technologies before they become lucrative and selling at the peak, citing Orange; SCMP gives the terms of the 1999 Orange sale at a 21.65 percent premium; Bloomberg and Forbes list early startup stakes (Facebook, Spotify, Siri). Independent sources agree on the pattern. SELF-CALIBRATION (agent): first-pass 78 / 0.66 lowered to 75 / 0.62 because the success narrative is largely retrospective business-press framing, the five-minute Facebook decision is his own account, and the Bloomberg and RFA pieces note that some of his advantages came from connections rather than pure market sensing."
+    },
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lks_britannica, src_lks_bloomberg_money, src_lks_encyclopedia | 1950s-2010s | reference biography + business-wire profile + company history] Britannica and Bloomberg trace a path from plastics and artificial flowers to property, then ports, telecommunications, retail, energy and technology stakes; the company history shows Hutchison's ports, telecommunications and utility diversification under him and the 1997 and 2015 restructurings reorganised the group to fit changing conditions. Consistent across independent sources; credit for individual units is shared with managers, so a good rather than extreme score."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lks_bloomberg_money, src_lks_forbes, src_lks_encyclopedia, src_lks_britannica | 1940s-1960s | business-wire profile + magazine profile + company history + reference biography] Bloomberg, Forbes and Britannica agree that he left school as a refugee, worked long factory hours, started his own plastics firm with small savings and relatives' loans in 1950 and, when his factory lease could not be renewed, bought the site, which Bloomberg dates as the start of his property career. The origin story is documented by several outlets but is a widely retold narrative, so confidence is moderate."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lks_bloomberg_money, src_lks_forbes, src_lks_encyclopedia | 1940s-2018 | business-wire profile + magazine profile + company history] Bloomberg reports teenage 16-hour working days and a career spanning more than half a century until his 2018 retirement at 89, Forbes notes he stayed on as adviser, and the company history shows him continuing to expand through setbacks such as the loss-making early telecom units. Long-run commitment is well documented, but no source describes specific episodes of effort under setback, so it is strong inference."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lks_bloomberg_money, src_lks_britannica, src_lks_encyclopedia | 1967-2000s | business-wire profile + reference biography + company history] Bloomberg describes buying property during the 1967 downturn; Britannica says Hutchison first invested in a money-losing UK phone operation before launching Orange; the company history notes start-up European 3G losses as an expected cost and a buyout of a profitable hotel lease to redevelop the land. Willingness to take large calculated positions is documented, but these were also hedged by selling at peaks, and no source gives his own risk reasoning independently, so confidence is moderate."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lks_bloomberg_money, src_lks_encyclopedia, src_lks_hkfp | 1997-2018 | business-wire profile + company history + news-agency report] Bloomberg quotes academic Joseph Fan that he had prepared his son for succession for decades and the retirement was announced on a high note with strong results; the company history describes the March 1997 restructuring he engineered, and AFP reports the 2015 reorganisation and utilities merger as steps to improve future expansion. Structured, forward-looking corporate steps are documented; the motive for each is the companies' stated rationale plus an academic's reading, hence strong inference."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lks_bloomberg_money, src_lks_encyclopedia, src_lks_rfa | 1967-2015 | business-wire profile + company history + critical news report] Bloomberg describes buying property in the 1967 downturn as others sold, and the company history and RFA record him selling assets when others expected expansion; Bloomberg and the RFA-reported editorial also note critics' view that part of his success rested on connections. Contrarian positioning is documented but its independence of mind is inferred from behaviour and partly contested, hence modest confidence."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lks_forbes, src_lks_britannica, src_lks_stanford | 1980-2010s | magazine profile + reference biography + university communications] Forbes reports more than 3.8 billion dollars donated by his foundation, over 80 percent to Greater China; Britannica dates the foundation to 1980 and notes gifts to universities and hospitals; Stanford records a pledge of one-third of his assets and gifts of more than 1.45 billion dollars by 2010. The giving is documented, but the motive statements come from Li himself or the recipient's communications office, and critics frame his dominance differently, so this is a modest strong-inference row."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/li-ka-shing-edtech-stanford-2010.jpg",
+    "width": 947,
+    "height": 1200,
+    "source": "Wikimedia Commons 'Li Ka Shing.jpg', imported from the Flickr account 'EdTech Stanford University School of Medicine' (photo IMG_5485, 29 September 2010) by the Flickr upload bot and licence-reviewed by a Commons reviewer; CC BY 2.0; the Flickr page itself currently shows the CC BY 2.0 licence. Original 1500 x 1900; downscaled once to 947 x 1200 (no upscaling). Identity: the Flickr title is only a file number, so identity rests on the Commons description and is corroborated by the date: Li Ka-shing attended the dedication of the Li Ka Shing Center at Stanford School of Medicine on 29 September 2010 (Stanford Medicine news; his own foundation), and the man pictured matches his documented appearance. A different file from the same shoot, 'Li Ka Shing 2010.jpg', has the same licence trail.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: EdTech Stanford University School of Medicine, 2010, CC BY 2.0, resized from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Li_Ka_Shing.jpg",
+    "creator": "EdTech Stanford University School of Medicine",
+    "date": "2010-09-29",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Li_Ka_Shing.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "리카싱"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-25T00:00:00Z",
+    "updatedAt": "2026-10-25T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID verified live (Wikidata wbgetentities 2026-10-25): Q20151, en label 'Li Ka-shing', description 'Hong Kong billionaire and entrepreneur', born 1928-06-13 (Bloomberg gives a July date; only the year is used), no death date, living. The lead's Wikidata name search returned university-faculty items first; the person item was found as Q20151 and checked. No existing candidate or src reference to slug li-ka-shing or QID Q20151. Region east_asia (Hong Kong career base), nationality code HK following the repository's HK usage. Vocabulary: entrepreneur, investor, executive, field business, tag founder, archetype entrepreneurial_builder, impact domains entrepreneurial, industrial and wealth_creation all exist with EN and KO labels; occupation industrialist and philanthropist were NOT used (no labels). ZERO POLITICS: nothing political or diplomatic is scored; Hong Kong and mainland political ties, the Basic Law committee, the handover advisory role, the 1996 kidnapping and the threatened-development backlash in Britannica, the state-media attack in RFA, and all family details are deliberately excluded. LIVING SUBJECT: only documented public professional behaviour; no health, family or private life. portrait_preflight: risky (lead) / resolved: a Flickr-origin CC BY 2.0 photo, reviewed on Commons and confirmed on the Flickr page, identity corroborated by the dedication date. CANONICAL SIGNIFICANCE SOURCE: Britannica Money biography (https://www.britannica.com/money/Li-Ka-shing), cross-checked against the Bloomberg wire profile and the Hutchison company history. READ (8 cited non-Wikidata sources plus the portrait record): Britannica, Bloomberg-via-Money profile, Hutchison Whampoa company history, Forbes profile page, SCMP 1999 Orange report, Hong Kong Free Press 2015 report, Radio Free Asia 2015 report, Stanford Medicine Q&A. NOT OPENED: Anthony Chan's biography 'Li Ka-shing: Hong Kong's Elusive Billionaire' (no access), Bloomberg Billionaires profile (blocked), the Far Eastern Economic Review analysis of the Orange sale cited by the company history (not found), Financial Times and Economist pieces (paywalled or not located), Hutchison and CK Hutchison corporate milestone pages (opened but list only recent announcements), Wikipedia. PERSPECTIVES: reference-institution biography, Bloomberg business-wire journalism with an academic voice, independent company history, magazine profile, contemporaneous Hong Kong press, news-agency report, a critical outside report (RFA) and a subject-side communications piece. COUNTER-VOICES: Bloomberg's inequality and market-dominance framing, Britannica's note of criticism, and the RFA-reported editorial accusing him of benefiting from connections. EVIDENCE LIMITS: behavioural evidence is almost all about deal-making and corporate structure rather than day-to-day working style; there is no independent account of his interactions with colleagues, so no collaboration, leadership or conflict rows are scored. CALIBRATION: eight rows, highest score 75 and highest confidence 0.62. SELF-CALIBRATION (agent): rows reviewed: opportunity_sensing, impact_motivation, adaptability. Lowered: opportunity_sensing (78/0.66 to 75/0.62: retrospective framing, self-reported Facebook decision, connections noted by critics). Kept: impact_motivation (already scored low at 58/0.48 because motives are self-reported) and adaptability (three independent sources). BROAD FLAG: sparse, deal-centred evidence; a read of Chan's biography or Fortune/Economist profiles would allow behavioural rows. Korean name: used 리카싱 (the form in common Korean press use); Wikidata's Korean label is 리자청, flagged for the lead. PORTRAIT: EdTech Stanford University School of Medicine photo, CC BY 2.0, 1500x1900 downscaled to 947x1200."
+  }
+}

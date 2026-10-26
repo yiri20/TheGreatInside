@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mary-mcleod-bethune",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mary McLeod Bethune",
+    "aliases": [
+      "Mary Jane McLeod Bethune",
+      "Mary Jane McLeod"
+    ],
+    "wikidataId": "Q291068",
+    "birthYear": 1875,
+    "deathYear": 1955,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher"
+    ],
+    "fieldIds": [
+      "education"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bethune_wikidata",
+      "kind": "wikidata",
+      "title": "Mary McLeod Bethune (Q291068), verified live via the Wikidata API (2026-10-26): label 'Mary McLeod Bethune', description 'American educator and civil rights leader (1875-1955)', born 1875-07-10, died 1955-05-18; no Korean label. The name search also returned a painting item (Q47510364), which was not used. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q291068"
+    },
+    {
+      "id": "src_bethune_nps",
+      "kind": "institution",
+      "title": "National Park Service, 'Mary McLeod Bethune' biography page (nps.gov/people, with Smithsonian NMAH credit), read in full. CANONICAL SIGNIFICANCE SOURCE: covers her education, the Palatka mission school, the 1904 founding of the school in Daytona that became Bethune-Cookman College (merger with Cookman Institute in 1923), the hospital she ran 1911 to 1927, the Tomoka mission schools, presidencies of women's and teachers' organisations, the 1924 presidency of the National Association of Colored Women, the 1935 founding of the National Council of Negro Women, and her later federal advisory work. Celebratory institutional account; its government-service and civil-rights sections are political context that is read but not scored. A second NPS page (Council House site) was read for the NCNW founding and leadership dates.",
+      "url": "https://www.nps.gov/people/mary-mcleod-bethune.htm"
+    },
+    {
+      "id": "src_bethune_sce",
+      "kind": "biography",
+      "title": "'Bethune, Mary McLeod', South Carolina Encyclopedia (University of South Carolina), read in full: calls her an expert fundraiser and eloquent speaker among wealthy northerners at Daytona Beach, gives the 1904 school, more than one hundred students by 1910, the McLeod Hospital founded in 1911, the 1923 merger and 1929 renaming, and her presidency of women's clubs and of the National Council of Negro Women. Reference account; admiring and brief.",
+      "url": "https://www.scencyclopedia.org/sce/?p=6348"
+    },
+    {
+      "id": "src_bethune_mccluskey",
+      "kind": "biography",
+      "title": "Audrey Thomas McCluskey, 'Ringing Up a School: Mary McLeod Bethune's Impact on Daytona' (Florida Historical Quarterly 73, 1994), read in full from the University of Central Florida repository PDF. Scholarly article that draws on the Bethune papers and records of the school: why she chose Daytona (tourists, railroad, failed earlier effort in Palatka), the 1904 start in a rented house, flexible tuition paid in produce, the land bought for $250, her recruitment of experienced teachers, the curriculum and early criticism of its domestic-science emphasis, and the Klan march in 1920. Several anecdotes (the $1.50, the fire-engine bell) are reported as folklore or from her own later accounts, and McCluskey is a scholar sympathetic to her subject.",
+      "url": "https://stars.library.ucf.edu/fhq/vol73/iss2/6"
+    },
+    {
+      "id": "src_bethune_hall",
+      "kind": "biography",
+      "title": "Ben Hall, 'Segregation and the Politics of Race: Mary McLeod Bethune and the National Youth Administration, 1935-1943' (MA thesis, College of William and Mary, 1996), introduction read (about 60 lines of the first chapter). COUNTER-VOICE: reports that historians including Joyce Ross, Elaine Smith and Paula Giddings judged her support of voluntary segregation in a federal programme to have achieved little and possibly to have harmed civil rights, against Harvard Sitkoff and Susan Ware's view that her main success was as a visible symbol, and the thesis's own view that she combined accommodation and protest. Used only for the contested-legacy context; her federal service is political context and is not scored.",
+      "url": "https://scholarworks.wm.edu/server/api/core/bitstreams/8ba47fc2-de12-4c0e-8685-33f6c17a059f/content"
+    },
+    {
+      "id": "src_bethune_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page for the Harris & Ewing photograph 'Mary Bethune, in charge of the Colored Section NYA' (1938, Library of Congress, LCCN 2016873301, Harris & Ewing Collection) and the Commons Harris & Ewing rights tag, checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Mary_Bethune,_in_charge_of_the_Colored_Section_NYA_LCCN2016873301.jpg"
+    }
+  ],
+  "rows": {
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bethune_mccluskey, src_bethune_nps, src_bethune_sce | 1904-1910 | scholarly article + institution + encyclopedia] McCluskey reports the school opened in a rented house with six students, accepted chickens, eggs and produce for tuition, bought a dump site for $250 with a $5 down payment and built Faith Hall largely from surplus supplies and volunteer labour; NPS and the South Carolina Encyclopedia confirm the small start and rapid growth. Several details come from her own later accounts or folklore, and McCluskey notes alternate versions, so the pattern is strong but the individual anecdotes are not equally firm. SELF-CALIBRATION (agent): reviewed as a top-risk row (anecdotes from her own account and folklore); lowered from 80 / 0.66 to 76 / 0.58 because the vivid episodes rest on her 1941 reminiscence and school folklore as reported by one scholar."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bethune_sce, src_bethune_mccluskey, src_bethune_nps | 1904-1920s | encyclopedia + scholarly article + institution] The South Carolina Encyclopedia calls her an expert fundraiser and eloquent speaker among wealthy northerners; McCluskey says she won local white club women and officials as backers and trustees, attracted experienced teachers to the 'Bethune family' with her vision, and NPS names wealthy donors who supported the school. Friendly sources and her use of white patronage within segregation drew criticism, so impact is dual-edged. SELF-CALIBRATION (agent): reviewed as a top-risk row (retrospective praise of fundraising skill); lowered from 76 / 0.62 to 72 / 0.56 because 'expert fundraiser' is a summary characterisation and only McCluskey gives specific cases."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bethune_nps, src_bethune_mccluskey, src_bethune_sce | 1899-1935 | institution + scholarly article + encyclopedia] Having already set up a mission school in Palatka, she started the Daytona school in 1904 on her own initiative, then added a hospital (1911, operated to 1927), outreach mission schools and later a new national women's council; NPS and the Encyclopedia describe these as self-started institutions rather than assigned posts. The sources are celebratory, but the initiatives themselves are documented and not contested."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bethune_mccluskey | 1904 | scholarly article] McCluskey says the failure of her Palatka effort made her realise passion was not enough, and that Daytona attracted her because of the winter community of wealthy northerners, a new railroad and the prospect of black workers' families, and she cites Bethune's own statement of the need there. One scholarly source and some inference about motive, so a moderate reading."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bethune_nps, src_bethune_sce | 1917-1949 | institution + encyclopedia] NPS lists her presidencies of state and regional women's clubs, a national teachers' association and, from 1924, the National Association of Colored Women, where she revised its constitution, improved its periodical, and secured a national headquarters, and then her 1935 founding of the National Council of Negro Women; she served as its first president until 1949. The record is documented, but both sources are celebratory and organisational advocacy overlaps with political context, so only the organising behaviour is read."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bethune_mccluskey, src_bethune_nps | 1899-1920 | scholarly article + institution] After a Palatka effort that McCluskey calls a failure, she began again in Daytona with six students and built the school over decades despite a Klan march on it in 1920 (McCluskey) and a 1920 voter-registration drive in spite of threats (NPS). Documented difficulty and continued work, but the sources give the outline rather than a detailed account of setbacks."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bethune_mccluskey, src_bethune_nps | 1904-1932 | scholarly article + institution] McCluskey reports that early criticism of the domestic-science emphasis faded as the curriculum expanded to business and liberal arts courses and that she broadened her view of education's purpose, and NPS records the move from elementary school to high school, merger and junior college. The change in the school is documented; how far it reflects her own revised judgment rather than institutional growth is an inference."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "메리 매클라우드 베순"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "The only candidate image is Harris & Ewing, 1938 (Library of Congress LCCN 2016873301). It was made after 1930, so there is no age-based public-domain basis, and the sole stated basis is the Library's 'no known restrictions' wording, which is not a rights clearance (loc.gov could not be read directly). The Reyneau painting (NARA) and the Commons P18 photograph (unknown creator) were rejected. Next step: find a pre-1931 published photograph or a work with a documented open licence.",
+    "kind": "likeness"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE (2026-10-26): Q291068 label 'Mary McLeod Bethune', description 'American educator and civil rights leader (1875-1955)', born 1875-07-10, died 1955-05-18 (the lead's alternative painting item Q47510364 was not used). No existing candidate or src/data reference to mary-mcleod-bethune or Q291068. REGION north_america. VOCABULARY: teacher, field education, tags founder, organizer, advocate, archetypes organizational_leader and social_influencer have EN and KO labels; 'educator' is unlabelled and was not used. ZERO POLITICS: primary identity is educator and college founder (NPS and the Encyclopedia both build her story around the Daytona school); her Black Cabinet and Roosevelt-administration role, her National Youth Administration post, voter-registration drive and civil-rights advocacy are political context, read in NPS and Hall but NOT scored or carded as defining. portrait_preflight: plausible (lead) / the lead's Reyneau painting (NARA 559194, Harmon Foundation, Commons tagged as US-government work) was not used because the painter died in 1964 and the ownership basis for the painting was not established; the Commons P18 photograph (c.1910, unknown author, UCLA Miriam Matthews collection) was rejected because the creator is unknown; chose the Harris & Ewing 1938 photograph (creator and Library record documented) with the same LoC basis as other Harris & Ewing portraits; LoC pages blocked, basis taken from the Commons record and a search summary of the LoC collection page; flagged. CANONICAL SIGNIFICANCE SOURCE: National Park Service biography (https://www.nps.gov/people/mary-mcleod-bethune.htm). READ: NPS biography (and a second NPS page for NCNW), South Carolina Encyclopedia, McCluskey 1994 (full), Hall 1996 thesis (introduction only). NOT opened: McCluskey and Smith's documentary volume, Hanson's 'Mary McLeod Bethune and Black Women's Political Activism' (Project MUSE blocked), Holt's older biography, Britannica (blocked), her own writings (self material, quoted only through McCluskey). PERSPECTIVES: institutional and encyclopedic (admiring), a scholarly article on the school, and a thesis recording historians' critical assessment of her accommodation to segregation. Only 4 substantive behavioural sources (two admiring reference accounts, one scholarly article, one counter-voice thesis introduction), fewer than the 6-9 target because usage limits, so the profile is deliberately sparse (7 rows, none above 76). EXCLUSIONS: childhood, marriage, separation, health and death are not scored; her federal advisory role is unscored context. DATE CAVEATS: sources differ on the school's naming and the college renaming (1929 or 1931) and on whether she was the first African American woman college president; none of those claims is used. SELF-CALIBRATION (agent): top-risk rows reviewed: resourcefulness (80/0.66 lowered to 76/0.58, anecdotes from her own account and folklore), persuasiveness (76/0.62 lowered to 72/0.56, summary praise of fundraising), proactive_agency (kept, documented in three sources). FLAGS: thin independent-behaviour evidence; the critical literature (Giddings, Ross, Smith, Sitkoff, Ware) known only through Hall's summary."
+  }
+}

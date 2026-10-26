@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "emil-von-behring",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Emil von Behring",
+    "aliases": [
+      "Emil Adolf von Behring",
+      "Emil Behring",
+      "Emil Adolf Behring"
+    ],
+    "wikidataId": "Q76425",
+    "birthYear": 1854,
+    "deathYear": 1917,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_behring_wikidata",
+      "kind": "wikidata",
+      "title": "Emil von Behring (Q76425) -- verified live via the Wikidata API (2026-10-26): English label 'Emil von Behring', description 'German physiologist who received the first Nobel Prize in Physiology or Medicine 1901 for his discovery of a diphtheria antitoxin', Korean label '에밀 아돌프 폰 베링' (kowiki title the same), born 1854-03-15, died 1917-03-31, P18 image 'Emil Behring 1896 Neapel.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q76425"
+    },
+    {
+      "id": "src_behring_nobel_bio",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Emil von Behring - Biographical' (from Nobel Lectures, Physiology or Medicine 1901-1921, Elsevier, 1967), read in full. CANONICAL SIGNIFICANCE SOURCE: army-medical training, the 1881-83 iodoform work suggesting antitoxic action, work under Koch from 1888-89, the 1890 publication with Kitasato that graduated doses of diphtheria or tetanus culture made animals produce toxin-neutralising substances transferable to other animals, the 1898 toxin-antitoxin finding with Wernicke and the 1913 toxin-antitoxin mixture he saw as the crowning success of his work, the turn to tuberculosis, the commercial firm that built him laboratories at Marburg and the Behringwerke, and the first Nobel Prize in Physiology or Medicine in 1901. Award-body biography: authoritative on chronology, admiring in tone, silent on the priority disputes. Family and health passages were read but not scored.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1901/behring/biographical/"
+    },
+    {
+      "id": "src_behring_kaufmann_2017",
+      "kind": "press",
+      "title": "Stefan H. E. Kaufmann, 'Remembering Emil von Behring: from Tetanus Treatment to Antibody Cooperation with Phagocytes' (mBio editorial, 2017), read in full: the 1890 Behring-Kitasato paper and Behring's single-author diphtheria paper a week later, the first human trial of serum therapy in January 1892 and its limited success until Ehrlich's standardisation and larger animals, the 1892 contract with Hoechst, the priority and compensation disputes with Ehrlich, the patent clashes with Koch, Behring's own quoted remark that he had defended his intellectual property with all ruthlessness at his disposal, the manoeuvring over the Marburg chair, the abandoned tuberculosis programme (1908), the 1913 toxin-antitoxin vaccine, the Behringwerke, and the observation that he was abrasive toward Ehrlich and Koch but relatively friendly with Metchnikoff. Specialist historian-immunologist; balanced and the most critical source read. Passages on frustration and depression, personal life and the Monte Carlo anecdote were excluded.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5347343/"
+    },
+    {
+      "id": "src_behring_kaufmann_2019",
+      "kind": "press",
+      "title": "Stefan H. E. Kaufmann, 'Immunology's Coming of Age' (Frontiers in Immunology, 3 April 2019), read in the sections on Behring, Ehrlich and Metchnikoff: the first Nobel Prize in Medicine awarded in 1901 to Behring for serum therapy, Behring and Ehrlich as young independent researchers at Koch's institute identifying antibodies, the Behring-Kitasato tetanus paper and the separate diphtheria paper, Behring's joining forces with industry, his roughly twenty years to reach active vaccination, and the statement that Ehrlich's work made large-scale production of antisera of reproducible quality possible. Independent specialist review; complements the 2017 editorial.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6456699/"
+    },
+    {
+      "id": "src_behring_marquardt_1949",
+      "kind": "biography",
+      "title": "Martha Marquardt, 'Paul Ehrlich' (London: William Heinemann Medical Books, 1949), Internet Archive OCR text, the chapter on research with Koch and von Behring (Ehrlich's collaboration with Behring, the standardisation of diphtheria serum, Ehrlich's long 1 November 1906 letter to Friedrich Althoff, the contract dispute, tuberculosis and test-toxin disagreements) read in full; other chapters not read. ADVERSARIAL BUT PARTISAN: written by Ehrlich's secretary and quoting Ehrlich's own bitter account of Behring; useful as the opposing side of the priority dispute, not as neutral fact. Claims in it are cited only as Ehrlich's account.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.63962"
+    },
+    {
+      "id": "src_behring_okui_2024",
+      "kind": "press",
+      "title": "Nobuyuki Okui, 'Shibasaburo Kitasato (1853-1931): Pioneer of Japanese Medicine and Global Immunology Innovator' (Cureus, 2024), read in full for the joint attribution: the 1890 Behring-Kitasato paper 'On the development of diphtheria immunity and tetanus immunity in animals' as the foundation of serum therapy, the statement that the first Nobel Prize in Physiology or Medicine went to von Behring in 1901 while Kitasato's crucial role was widely acknowledged. Admiring profile of Kitasato by a Japanese medical historian; the independent voice on the Kitasato side.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11365020/"
+    },
+    {
+      "id": "src_behring_grandiere_2025",
+      "kind": "press",
+      "title": "Laure Grandiere Perez and Sylvain Brisse, 'Diphtheria antitoxin treatment: from pioneer to neglected' (clinical history and review, 2025), read in the sections on the discovery of diphtheria antitoxin and the early clinical trials: von Behring's 1890 immunisation experiments, the 1891 treatment of a seriously ill girl, the 1892 contract with Hoechst, Ehrlich's 1893 standardisation, and the 1894 Berlin series of 220 children with 76% survival but no control group. Modern clinical-historical review; supplies the methodological caveat on the early trials.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11752783/"
+    },
+    {
+      "id": "src_behring_portrait",
+      "kind": "archive",
+      "title": "Wellcome Collection work 'Emil von Behring. Photograph.' (reference 12328i, library reference ICV No 26468, photo L0019097; catalogue API lists a Public Domain Mark licence on the image) and the Wikimedia Commons file page 'Emil von Behring. Photograph. Wellcome L0019097.jpg', checked for the portrait only.",
+      "url": "https://wellcomecollection.org/works/u99gq3sj"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_behring_nobel_bio, src_behring_kaufmann_2017, src_behring_kaufmann_2019 | 1890-1913 | award body + specialist reviews] After the first human diphtheria trial in January 1892 had only limited success because of poor serum quality, serum production was pursued with larger animals and standardisation until results were reliable; he then spent about twenty years seeking an active vaccine, announcing the toxin-antitoxin mixture in 1913 which he regarded as the crowning success of his work. Counter-evidence: he abandoned his tuberculosis programme in 1908 without a significant contribution, so the persistence was strongest on diphtheria and tetanus. Bereavement-free and health-free reading; passages on frustration and depression excluded."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_behring_kaufmann_2017, src_behring_nobel_bio | 1892-1904 | specialist review + award body] Kaufmann describes him as an ambitious character who negotiated the 1892 Hoechst contract, pressed ministry officials until he obtained the Marburg chair of hygiene after faculty resistance, and moved on to found a company; the Nobel biography lists the honours, the title Excellency and the Behringwerke. Ambition produced results but also friction with colleagues, hence dual-edged. The detail of the Marburg appointment rests on one specialist account."
+    },
+    "competitiveness": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_behring_kaufmann_2017, src_behring_marquardt_1949, src_behring_grandiere_2025 | 1892-1906 | specialist review + adversarial biography + clinical review] Kaufmann documents disputes with Ehrlich over priority and financial compensation, patent clashes with Koch over tuberculosis preparations, and Behring's own remark that he defended his intellectual property with all ruthlessness at his disposal; Marquardt relays Ehrlich's 1906 letter accusing Behring of taking credit and of pursuing a rival serum plan. The latter is Ehrlich's partisan account, so the dispute is scored from Kaufmann's balanced description and the quoted remark, with Ehrlich's side only as corroboration of a real conflict. SELF-CALIBRATION (agent): reviewed as a top-risk row; kept at 80 since Kaufmann and Marquardt independently describe the same rivalry from different sides and Behring's own quote is in Kaufmann. RUBRIC_CORRECTION (lead review, before eligibility): competitiveness lowered from 80 / 0.66 to 76 / 0.6 because the priority dispute with Ehrlich is read mainly through one balanced review and one partisan source for the other side; the Nobel biography is silent on it."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_behring_kaufmann_2017, src_behring_marquardt_1949 | 1892-1906 | specialist review + adversarial biography] He carried on open disputes with his mentor Koch and his colleague Ehrlich (Kaufmann: abrasive toward both) and pressed demands for free control work from Ehrlich's institute on the Prussian ministry (Ehrlich's account via Marquardt, partisan); by contrast his relationship with Metchnikoff stayed relatively friendly, with visits and godparent ties, so the pattern was sustained confrontation with some colleagues rather than with everyone. Cost to collaborations is the dual-edged part."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_behring_kaufmann_2017, src_behring_okui_2024, src_behring_nobel_bio, src_behring_marquardt_1949 | 1890-1898 | specialist review + Kitasato profile + award body + adversarial biography] Mixed evidence, kept mid-range: he co-authored the 1890 paper with Kitasato (and the 1898 toxin-antitoxin work with Wernicke) and worked with Ehrlich on serum standardisation, yet the Ehrlich collaboration ended in disputes over priority and money, and he published his diphtheria results in a separate single-author paper a week after the joint tetanus paper. Kitasato's own later profile treats the partnership as productive and his role as widely acknowledged."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_behring_nobel_bio, src_behring_kaufmann_2019, src_behring_okui_2024 | 1881-1890 | award body + specialist reviews] From the 1881-83 iodoform work (neutralising microbial poisons rather than killing microbes) he reached the idea that animals could be made to produce transferable toxin-neutralising substances, the basis of serum therapy; Kaufmann credits Behring and Ehrlich with identifying antibodies against toxins. Attribution is shared: the 1890 tetanus paper was joint with Kitasato, Roux and Yersin had characterised diphtheria toxin, Brieger and Fraenkel had immunised guinea pigs, and Theobald Smith anticipated toxin-antitoxin vaccination, so originality is scored as substantial but not extraordinary. SELF-CALIBRATION (agent): lowered from 76 / 0.62 to 72 / 0.6 because shared authorship with Kitasato and parallel work by Roux, Yersin, Brieger, Fraenkel and Smith limit how much of the conceptual step can be attributed to Behring alone."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_behring_nobel_bio, src_behring_kaufmann_2017, src_behring_grandiere_2025 | 1881-1894 | award body + specialist review + clinical review] He ran systematic animal series: iodoform and disinfectant-treated material, graduated doses of diphtheria and tetanus cultures, transfer of immune serum between animals and cure of animals already showing symptoms (Nobel biography); guinea pigs and rats in 1890, a first human treatment in 1891 and a 220-child series in 1894 (Grandiere Perez). The clinical series had no control group, which tempers the rigour but not the experimental output."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_behring_kaufmann_2017, src_behring_nobel_bio, src_behring_kaufmann_2019 | 1892-1917 | specialist reviews + award body] Kaufmann calls him an excellent translational researcher who took serum therapy from bench to bedside and joined industry to produce antisera at scale, and notes that diphtheria and tetanus serum was later used in wartime on a large scale; the Nobel biography says he saw the toxin-antitoxin mixture as a route to eradicating diphtheria. Commercial interest accompanied the medical aim, but the sustained pursuit of therapies and vaccines is documented."
+    },
+    "opportunity_sensing": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_behring_kaufmann_2017, src_behring_nobel_bio, src_behring_grandiere_2025 | 1892-1914 | specialist review + award body + clinical review] On Koch's recommendation he signed a 1892 contract with Hoechst to produce antitoxins, applied for patents on antitoxin and toxin production, was funded by a commercial firm that built laboratories at Marburg, and founded the Behringwerke for sera and vaccines; Kaufmann calls him an early proponent of public-private partnerships. The business side is documented work, not a side project, but the commercial dates differ between the Nobel biography and Kaufmann."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_behring_kaufmann_2017, src_behring_nobel_bio | 1889-1913 | specialist review + award body] Kaufmann reports that at Koch's institute he shifted from non-specific serum resistance to specific immunity against bacterial toxins, and he gave up the tuberculosis programme in 1908; against that, he assumed tuberculosis could be reduced to a single toxin neutralised by an antiserum (an oversimplification) and regarded his serum as innocuous despite the first signs of adverse reactions. Evidence points both ways, so the score stays near the middle."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에밀 폰 베링"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/emil-von-behring-unknown-1909.jpg",
+    "width": 936,
+    "height": 1200,
+    "source": "Studio photograph of Emil von Behring dated 1909 on the print, photographer not identified; held by the Wellcome Collection (reference 12328i, photo L0019097), whose catalogue marks it with a Public Domain Mark; Wikimedia Commons file 'Emil von Behring. Photograph. Wellcome L0019097.jpg' (original 1215 x 1557, which Commons labels CC BY 4.0 from the older Wellcome statement). Downscaled only, to 936 x 1200, with the printed edge captions left uncropped.",
+    "license": "Public domain (Wellcome Collection Public Domain Mark)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photographer unknown, Emil von Behring, photograph dated 1909; Wellcome Collection, London (reference 12328i); Public Domain Mark.",
+    "attributionUrl": "https://wellcomecollection.org/works/u99gq3sj",
+    "creator": "Unknown studio photographer",
+    "date": "1909",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Emil_von_Behring._Photograph._Wellcome_L0019097.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-26) Q76425: en label 'Emil von Behring', description 'German physiologist who received the first Nobel Prize in Physiology or Medicine 1901 for his discovery of a diphtheria antitoxin', ko label '에밀 아돌프 폰 베링', born 1854-03-15, died 1917-03-31 (the lead gave no QID; found via wbsearchentities). SLUG/QID CHECK: no candidate or src/data file contains Q76425 or emil-von-behring. REGION: western_europe, following the German-nationality majority (paul-ehrlich, robert-koch, and others are western_europe); he worked in Berlin, Marburg. VOCABULARY: physician, medical_researcher, fields medicine and biology, tags nobel_laureate and innovator, archetype scientific_explorer are all existing ids with EN+KO labels (immunologist unlabeled). ZERO POLITICS: nothing scored; the military-medicine context (army medical college, soldiers' tetanus) is background. DEAD SUBJECT RULES: family, health and the passages on frustration and depression were read but excluded. JOINT ATTRIBUTION: the 1890 discovery was published with Kitasato (tetanus paper), Behring's diphtheria paper followed separately a week later, Ehrlich standardised the serum, and Roux and Yersin (diphtheria toxin) and Brieger and Fraenkel preceded; the Behring-Ehrlich priority dispute is scored as professional behaviour in competitiveness and conflict_tolerance only from Kaufmann's balanced account and Behring's own quoted remark, with Ehrlich's side marked partisan. CANONICAL SIGNIFICANCE SOURCE: NobelPrize.org biographical page (https://www.nobelprize.org/prizes/medicine/1901/behring/biographical/). READ (6 substantive sources): Nobel biography, Kaufmann 2017 mBio editorial, Kaufmann 2019, Marquardt 1949 chapter on Behring, Okui 2024 on Kitasato, Grandiere Perez and Brisse 2025. PERSPECTIVES: award body; specialist historian-immunologist (balanced and critical); Ehrlich's side via his secretary (adversarial, partisan); the Kitasato-side profile; modern clinical-historical review. COUNTER-VOICES: Ehrlich (via Marquardt), Kaufmann on abrasiveness, the TB failure and the unrecognised adverse reactions, Grandiere Perez on the lack of a control group. NOT OPENED: Linton, 'Emil von Behring: Infectious Disease, Immunology, Serum Therapy' (2005) and Kaufmann's Nature Reviews Immunology piece (not available open), Robert Koch Institute and Behring-Werke company histories, Behring's own papers and Nobel lecture (self material), Wikipedia. DISCREPANCY NOTED: the Nobel biography dates the Behringwerke to 1914 while Kaufmann 2017 says 1904; the year is therefore not stated in any row. portrait_preflight: strong (lead, lifetime photograph PD by age) / finding: the lead's route was not usable as stated. The Wikidata P18 file 'Emil Behring 1896 Neapel.jpg' is a lifetime photograph by L. Lamarra of Naples from the Marburg Behring-Nachlass, but the Commons PD-old-70-expired tag has no recorded death date for Lamarra, so it was not used. The Library of Congress Bain item (LCCN 2014687752) turned out to be a reproduction of a signed drawing, not a photograph, so was rejected. Chosen: Wellcome Collection photo L0019097, the print itself dated 1909; the Wellcome catalogue API lists the image with a Public Domain Mark; Commons labels it CC BY 4.0 (an older Wellcome statement) which is not a restriction contradicting the current mark. Caveats: photographer unidentified (a studio mark and a 'copyright' edge caption appear on the print), and the Wellcome work page itself was only readable as a stub, so the licence rests on the catalogue API. A print dated 1909 is more than a century old; the edge captions are retained. Original 1215 x 1557 viewed; downscaled to 936 x 1200 only. SELF-CALIBRATION: rows reviewed: competitiveness (80), creative_originality (76), achievement_drive (76). Lowered: creative_originality 76 -> 72 and confidence 0.62 -> 0.6, because joint authorship with Kitasato and parallel work by Roux, Yersin, Brieger, Fraenkel and Smith limit the share attributable to Behring alone. Competitiveness kept (independent descriptions from both sides plus his own quote); achievement_drive kept (single specialist account, already at 0.6). FLAG for lead: no Behring-friendly insider source (e.g. Behring-Werke or Marburg institute history) was read, so the profile leans on one balanced historian (Kaufmann) for most behavioural rows; confidence capped at 0.66. RUBRIC_CORRECTION (lead review, before eligibility): competitiveness lowered from 80 / 0.66 to 76 / 0.6 because the priority dispute with Ehrlich is read mainly through one balanced review and one partisan source for the other side; the Nobel biography is silent on it."
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ilya-mechnikov",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ilya Mechnikov",
+    "aliases": [
+      "Élie Metchnikoff",
+      "Elie Metchnikoff",
+      "Ilya Ilyich Mechnikov"
+    ],
+    "wikidataId": "Q172254",
+    "birthYear": 1845,
+    "deathYear": 1916,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "RU",
+      "FR"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "biologist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "biology",
+      "medicine"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mechnikov_wikidata",
+      "kind": "wikidata",
+      "title": "Elie Metchnikoff (Q172254) -- verified live via the Wikidata API (2026-10-26): English label 'Elie Metchnikoff', description 'Russian-French immunologist, embryologist, biologist (1845-1916)', Korean label '엘리 메치니코프', born 1845-05-03 (Julian; 15/16 May Gregorian variants listed), died 1916-07-02 (Julian) in Paris, citizenship Russia and France, P18 image 'Ilya Mechnikov nobel.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q172254"
+    },
+    {
+      "id": "src_mechnikov_nobel_bio",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Ilya Mechnikov - Biographical' (from Nobel Lectures, Physiology or Medicine 1901-1921, Elsevier, 1967), read in full. CANONICAL SIGNIFICANCE SOURCE: describes the discovery of phagocytosis at Messina (thorns in starfish larvae), the term 'phagocyte' suggested by Claus, the 1883 first paper, the hostility the cellular theory met, his move to the Pasteur Institute in 1888, work with Roux on syphilis in monkeys, the intestinal flora and fermented-milk diet, and the 1908 Nobel Prize shared with Paul Ehrlich. An award-body biography written for the Nobel Foundation: authoritative on the chronology but admiring, and partly based on Mechnikov's own submitted biography; its passages on bereavement, suicide attempts and health were read but excluded from scoring.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1908/mechnikov/biographical/"
+    },
+    {
+      "id": "src_mechnikov_olga_1921",
+      "kind": "biography",
+      "title": "Olga Metchnikoff, 'Life of Elie Metchnikoff, 1845-1916' (Boston and New York: Houghton Mifflin, 1921), Project Gutenberg text, chapters XVIII (Messina and the origin of the phagocyte theory), XXI (Vienna, Paris and Pasteur, Koch's cool reception, decision to leave Russia), XXIII (opposition to the phagocyte theory, the 1891 London Congress, Behring and antitoxins), XXIV (cholera experiments) and XXXI (1911 Kalmuk expedition) read in full; other chapters read only by heading. INSIDER AND PARTISAN: written by his widow, with long passages quoted from his own recollections and a letter from Emile Roux; the opponents' positions (Koch, Behring, Emmerich, Baumgarten) reach us only through her account. Weak independence; used for specific documented episodes, not for the family or private-life chapters.",
+      "url": "https://www.gutenberg.org/ebooks/44194"
+    },
+    {
+      "id": "src_mechnikov_gordon_2024",
+      "kind": "press",
+      "title": "Siamon Gordon, Annabell Roberti and Stefan H. E. Kaufmann, 'Mononuclear Phagocytes, Cellular Immunity, and Nobel Prizes: A Historic Perspective' (Cells, 19 August 2024), read in the sections on Metchnikoff, Ehrlich and the 1908 award: Metchnikoff as grandfather of macrophage research, the Messina starfish observations, the cellular versus humoral schools (Pasteur Institute colleagues versus Behring and Ehrlich), the observation that he overlooked the lymphocyte, his yoghurt and microbiome ideas and his coining of 'gerontology', and the lasting admiration of Rene Dubos. Peer-reviewed historical review by specialist immunologists; admiring of Metchnikoff but historically balanced on the cellular-humoral dispute.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11352343/"
+    },
+    {
+      "id": "src_mechnikov_kaufmann_2019",
+      "kind": "press",
+      "title": "Stefan H. E. Kaufmann, 'Immunology's Coming of Age' (Frontiers in Immunology, 3 April 2019), read in the sections on Metchnikoff, Behring, Ehrlich and the 1908 prize: Pasteur and Koch largely overlooked host defence, Metchnikoff identified the role of phagocytosis and intracellular killing from 1888 at the Pasteur Institute, turned from zoology to pathology, analysed phagocytes in anthrax, sepsis and tuberculosis, and shared the 1908 Nobel Prize with Ehrlich. Independent specialist historical review; no personal acquaintance.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6456699/"
+    },
+    {
+      "id": "src_mechnikov_mackowiak_2013",
+      "kind": "press",
+      "title": "Philip A. Mackowiak, 'Recycling Metchnikoff: Probiotics, the Intestinal Microbiome and the Quest for Long Life' (Frontiers in Public Health, 13 November 2013), read in full. COUNTER-VOICE: reviews the autointoxication theory of senility, the fermented-milk regimen, and states that the efficacy of his treatment in retarding senility was never validated scientifically and that the idea drifted to the fringe of medicine before returning in the 1990s; also credits him with anticipating bacterial translocation and links between inflammation and ageing disorders. Critical-but-fair modern medical review.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3859987/"
+    },
+    {
+      "id": "src_mechnikov_stark_2018",
+      "kind": "press",
+      "title": "James F. Stark, '\"Replace them by Salads and Vegetables\": Dietary Innovation, Youthfulness, and Authority, 1900-1939' (Global Food History, 2018), read in the passages on Metchnikoff: his role in the early twentieth-century longevity movement, his proposal that yogurt-derived bacteria counter intestinal toxins, and how his advice was folded into existing narratives of simple diet and later reinterpreted in the vitamin era, placed beside the rejuvenation work of Steinach and Voronoff. Independent cultural-history article; reception evidence, not behavioural evidence on Mechnikov himself.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6743713/"
+    },
+    {
+      "id": "src_mechnikov_gordon_2021",
+      "kind": "press",
+      "title": "Siamon Gordon, 'Remembering Metchnikoff in the time of COVID-19' (Journal of Leukocyte Biology, 25 February 2021), read in full: Metchnikoff's move from embryology to comparative pathology, the 1908 prize as an attempt to resolve the cellular-humoral dispute, his move to the newly founded Pasteur Institute by personal invitation, and his legacy through Rene Dubos and the Rockefeller macrophage laboratories. Admiring tribute essay by a specialist; used only as corroboration of reception and legacy.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8014620/"
+    },
+    {
+      "id": "src_mechnikov_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Ilya Mechnikov nobel.jpg' (creator credited as Nadar, circa 1908, published 1909 in Les Prix Nobel 1908; tagged public domain by age), the NobelPrize.org facts page for the 1908 prize (photo credit 'Nadar. Nobel Foundation archive') and the Internet Archive scan of Les Prix Nobel 1908 (Stockholm, 1909), checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Ilya_Mechnikov_nobel.jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mechnikov_olga_1921, src_mechnikov_nobel_bio, src_mechnikov_kaufmann_2019 | 1883-1908 | widow's biography + award body + specialist review] After the 1883 paper he defended the phagocyte theory for roughly 25 years against attacks from Emmerich, Baumgarten, Behring and Koch, answering each objection with a new experiment (rouget of pigs, anthrax of pigeons and rats, the 1891 comparative-pathology lectures on inflammation); the Nobel biography independently says the theory met considerable hostility and Kaufmann dates the Pasteur Institute work from 1888. The detail of each exchange comes from his widow, so the pattern rests partly on a partisan source, but the length of the campaign and the 1908 outcome are independently attested. Bereavement, illness and suicide-attempt passages excluded. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 80 / 0.68 to 76 / 0.62 because the working-life detail leans on the widow's partisan biography and one specialist history; the other scientists in his story reach us only through her."
+    },
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mechnikov_nobel_bio, src_mechnikov_olga_1921, src_mechnikov_kaufmann_2019 | 1883-1911 | award body + widow's biography + review] He tested the defence-cell idea directly by placing thorns in transparent starfish larvae, then compared virulent and less virulent anthrax strains (Nobel biography), ran counter-experiments for each opponent, and in 1911 organised a Kalmuk-steppe expedition to test a natural-vaccination hypothesis for tuberculosis with the Pirquet skin test (widow's biography). Kaufmann independently notes the Messina starfish-larva experiments of 1883. The starfish experiment is partly retold from his own later recollection. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 80 / 0.68 to 76 / 0.62 because same dependence on the widow's biography and a small number of specialist histories."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mechnikov_kaufmann_2019, src_mechnikov_gordon_2024, src_mechnikov_nobel_bio | 1883-1908 | specialist reviews + award body] Kaufmann notes that Pasteur and Koch largely overlooked host defence, and that the paradigm shift in which the host is an active defender was initiated by Metchnikoff (with Behring and Ehrlich); Gordon, Roberti and Kaufmann call him the grandfather of macrophage research and credit him with anticipating the microbiome and coining 'gerontology'. The Nobel biography describes the step from invertebrate digestive cells to a theory of immunity. Praise is retrospective and from specialists who build on his tradition, but the conceptual shift itself is independently described by several authors. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 80 / 0.68 to 76 / 0.62 because the Nobel committee wording is canonical but the yogurt and longevity theories are criticised by the counter-voice sources, so originality is documented with a mixed reception."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mechnikov_nobel_bio, src_mechnikov_kaufmann_2019, src_mechnikov_mackowiak_2013, src_mechnikov_gordon_2024 | 1865-1916 | award body + reviews] He began in invertebrate embryology and zoology, moved to pathology and immunology after the 1883 observations, studied tuberculosis, anthrax, syphilis and cholera, and in later years turned to the intestinal flora and ageing (Nobel biography; Kaufmann: 'changed his scientific interests from zoology to pathology'; Mackowiak and Gordon on the gut-flora and ageing work). The range is wide and consistently reported, but all within biology and medicine."
+    },
+    "intuitive_synthesis": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mechnikov_nobel_bio, src_mechnikov_olga_1921, src_mechnikov_gordon_2024 | 1883-1892 | award body + widow's biography + review] The Nobel biography and his own recollection (quoted by his widow) describe the leap from mobile cells in a starfish larva to leucocytes consuming bacteria in inflammation, and he then generalised it across the animal scale in the 1891 lectures on comparative pathology. The sudden-insight account is his own retelling, so this is capped as strong inference rather than documented."
+    },
+    "belief_updating": {
+      "score": 52,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mechnikov_olga_1921, src_mechnikov_gordon_2024, src_mechnikov_mackowiak_2013 | 1892-1913 | widow's biography + reviews] Mixed evidence, so kept near the middle: he took Behring's antitoxin discovery seriously enough to run new experiments and argued that phagocytes probably produce antitoxins (a defence of his theory rather than a concession); after his 1892 cholera trials he stopped doubting the cholera vibrio's specificity; Gordon and colleagues note he overlooked the lymphocyte, and Mackowiak says his ageing therapy was never scientifically validated. No clear documented case of abandoning a core claim."
+    },
+    "independent_thinking": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mechnikov_olga_1921, src_mechnikov_kaufmann_2019, src_mechnikov_gordon_2024 | 1883-1908 | widow's biography + specialist reviews] Virchow told him that the accepted theory of inflammation held the opposite (that leucocytes spread microbes), and he proceeded anyway; Koch's coolness and German opposition did not change his course and he chose Paris over Wiesbaden and Munich (widow's biography). Kaufmann independently states that Pasteur and Koch favoured the idea of a defenceless host while Metchnikoff showed otherwise, and Gordon describes the cellular school as opposed by the humoral school. The Virchow and Koch exchanges are sourced only to the widow's account."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mechnikov_olga_1921, src_mechnikov_gordon_2024, src_mechnikov_gordon_2021 | 1887-1908 | widow's biography + reviews] He sought out his critics (travelled to Munich to confront Emmerich, showed specimens to Koch in Berlin), and argued the cellular case at the 1891 London Congress against the humoral papers of Buchner; reviews describe the cellular-humoral dispute as bitter enough that the 1908 joint prize was an attempt to resolve it. The detailed encounters are from his widow; the scale of the dispute is independently described. Whether confrontation was a strength or cost is mixed, hence dual-edged."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_mechnikov_olga_1921 | 1892-1893 | widow's biography] In 1892 he swallowed a culture of cholera vibrios to test whether the organism was the specific cause, repeated the test with a laboratory worker, then gave an aged culture to a young volunteer who developed severe cholera symptoms and later gave choleriform bacilli to others, one of whom became ill; the account says his eagerness silenced other considerations. Single, partisan source for the episode, so confidence stays low; the 1880 self-inoculation, which the Nobel biography frames around a suicide attempt, is excluded. Impact dual-edged because others bore some of the risk. SELF-CALIBRATION (agent): reviewed as a one-source row; left at 72 / 0.5 since confidence already reflects the single source."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mechnikov_nobel_bio, src_mechnikov_olga_1921, src_mechnikov_gordon_2024 | 1888-1913 | award body + widow's biography + review] With Emile Roux he showed syphilis could be transmitted to monkeys (Nobel biography); the 1891 London experiments were run with Roux and students and a Roux letter shows close alliance (widow's biography); Gordon and colleagues list Roux and others among his collaborators and successors at the Pasteur Institute, and Dubos's lab kept his portrait. Evidence of working teams and mentoring is real but not detailed."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mechnikov_nobel_bio, src_mechnikov_olga_1921, src_mechnikov_kaufmann_2019 | 1882-1888 | award body + widow's biography + review] After difficulties at Odessa he resigned in 1882, set up a private laboratory at Messina, retrained from zoologist to pathologist, then in 1888 moved to Paris to work in a Pasteur Institute laboratory (Nobel biography), and the widow's account shows he weighed several German laboratories before choosing Paris. Career shifts were substantial and well documented; some were prompted by political and institutional conditions that are not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "일리야 메치니코프"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ilya-mechnikov-nadar-1908.jpg",
+    "width": 992,
+    "height": 1488,
+    "source": "Studio portrait credited to Nadar (Paris), circa 1908, reproduced in Les Prix Nobel 1908 (Stockholm, 1909) and on NobelPrize.org ('Photo: Nadar. Nobel Foundation archive'); Wikimedia Commons file 'Ilya Mechnikov nobel.jpg', original 992 x 1488, saved unchanged with no resizing or upscaling.",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Nadar, Ilya Mechnikov, photograph, circa 1908; published in Les Prix Nobel 1908 (Stockholm, 1909); NobelPrize.org notes the Nobel Foundation's copyright has expired. Public domain by age.",
+    "attributionUrl": "https://www.nobelprize.org/prizes/medicine/1908/mechnikov/facts/",
+    "creator": "Nadar (Paris portrait studio)",
+    "date": "circa 1908",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ilya_Mechnikov_nobel.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-26) Q172254 returned en label 'Elie Metchnikoff', description 'Russian-French immunologist, embryologist, biologist (1845-1916)', ko label '엘리 메치니코프', dates 1845-05-03 (Julian) to 1916-07-02 (Julian); lead's hint correct. SLUG/QID CHECK: no candidate or src/data file contains Q172254 or ilya-mechnikov. REGION DECISION: central_europe. Every Russian-nationality precedent in the repo (Pavlov, Mendeleev, Stravinsky RU/FR/US, Kandinsky RU/DE/FR, Rachmaninoff, Nureyev, Sakharov, Kovalevskaya RU/SE) is central_europe, including emigres, and there is no precedent placing a Russian in western_europe; his Paris career argues for western_europe, but following the Russian-nationality precedent and the taxonomy (no Eastern Europe region) gives central_europe, with nationalityCodes RU and FR. Judgement call flagged to the lead. VOCABULARY: occupations biologist and medical_researcher (immunologist and microbiologist have no labels), fields biology and medicine, tag nobel_laureate and cross_disciplinary, archetype scientific_explorer: all existing with EN+KO labels. ZERO POLITICS: nothing scored; his departure from Odessa was linked to a reactionary period, mentioned only as context. DEAD SUBJECT RULES: bereavement, two suicide attempts, relapsing-fever self-inoculation framed around one, eyesight and heart illness, marriages and family were read but excluded; no trait is inferred from them. CANONICAL SIGNIFICANCE SOURCE: NobelPrize.org biographical page (https://www.nobelprize.org/prizes/medicine/1908/mechnikov/biographical/). READ (7 substantive sources): Nobel biography, Olga Metchnikoff's biography (chapters XVIII, XXI, XXIII, XXIV, XXXI), Gordon-Roberti-Kaufmann 2024, Kaufmann 2019, Mackowiak 2013, Stark 2018, Gordon 2021. PERSPECTIVES: award body; insider biography by his widow (partisan); specialist historians of immunology (admiring but balanced on the cellular-humoral dispute and the lymphocyte omission); medical critic (Mackowiak) and cultural historian (Stark) on the longevity theory. COUNTER-VOICES: Mackowiak (ageing therapy never validated, drifted to the fringe), Gordon and colleagues (overlooked lymphocyte), Koch/Behring/Emmerich/Baumgarten positions (only via the widow's account, flagged in row rationales). NOT OPENED: Tauber and Chernyak 'Metchnikoff and the Origins of Immunology' (1991) and Vikhanski 'Immunity' (2016) (books, not available open; mentioned only as cited in the reviews), Pasteur Institute archive pages (pasteur.fr history URL returned 404), Britannica, his own Nobel lecture and 'Forty Years of Search for a Rational Conception of Life' (self material), Kaufmann 2008 Nature Immunology (paywalled). SOURCE-DIVERSITY NOTE: the Ehrlich-Behring humoral side is represented only through specialist historians and the widow, not through the opponents' own writings. portrait_preflight: strong (lead) / confirmed: Commons file page credits Nadar, circa 1908, published 1909 in Les Prix Nobel 1908 (Stockholm), tag public domain by age; NobelPrize.org facts page credits 'Photo: Nadar. Nobel Foundation archive' and the biography page states the Nobel Foundation's copyright has expired; no conflicting institutional notice found. Caveat: Nadar was by 1908 a studio name (Gaspard-Felix Tournachon died 1910; Paul Nadar died 1939), so the individual photographer is not pinned down, but both lives ended more than 70 years ago and the photograph was published in 1909 (US public domain by publication date); the Gallica record cited on Commons returned 403 to a bot fetch and was not opened. Downloaded file confirmed 992 x 1488 JPEG (viewed). SELF-CALIBRATION: rows reviewed: risk_tolerance (single partisan source), experimentation (80), independent_thinking (78, Olga-dependent exchanges). None lowered: risk_tolerance already carries 0.5 confidence for single-source evidence; experimentation and independent_thinking each have an independent award-body or specialist-review corroboration of the core pattern. FLAG for lead: rows are mostly resting on one partisan biography plus admiring specialist reviews; no adversarial contemporary source (Koch, Behring, Ehrlich) was read directly, so confidence is deliberately capped at 0.68. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 80 / 0.68 to 76 / 0.62 because the working-life detail leans on the widow's partisan biography and one specialist history; the other scientists in his story reach us only through her. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 80 / 0.68 to 76 / 0.62 because same dependence on the widow's biography and a small number of specialist histories. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 80 / 0.68 to 76 / 0.62 because the Nobel committee wording is canonical but the yogurt and longevity theories are criticised by the counter-voice sources, so originality is documented with a mixed reception."
+  }
+}

@@ -9766,6 +9766,424 @@ export const EDITORIAL_EN: Record<string, string> = {
     "At the end of 1970 his assistant Li Bihu found a wild male-sterile rice plant in Hainan that Yuan named 'YeBai'; from it the first male-sterile and maintainer lines were produced in 1972, the restorer line followed in 1973, and hybrid rice was in widespread production by 1976.",
   "yuan-longping.interpretation.turning_point.1":
     "This is consistent with a long-running programme reaching practical scale once a key plant was found and a team built the full breeding system.",
+  /* ---------------------------------------------------------- abdus-salam (Roster57) */
+  "abdus-salam.achievement.1":
+    "He shared the 1979 Nobel Prize in Physics with Sheldon Glashow and Steven Weinberg for the theory unifying the weak and electromagnetic interactions, each having developed it in separate work.",
+  "abdus-salam.achievement.2":
+    "In 1964 he founded the International Centre for Theoretical Physics in Trieste and directed it for three decades, creating associateships for young physicists from developing countries.",
+  "abdus-salam.achievement.3":
+    "At Imperial College he built a leading theoretical physics group, identified the SU(2) x U(1) symmetry with John Ward in 1964, and proposed a grand unified model with Jogesh Pati in 1973.",
+  "abdus-salam.moment.1":
+    "In 1956 he proposed that a massless left-handed neutrino fits parity violation; after Pauli rejected the idea, his paper appeared only after the experimental results.",
+  "abdus-salam.interpretation.moment.1":
+    "This is consistent with an unorthodox idea that was held back by deference to an authority.",
+  "abdus-salam.moment.2":
+    "In 1984, after the Green-Schwarz preprint, he had his ICTP group examine consistency in lower-dimensional models and submitted a 6-dimensional model less than ten weeks later.",
+  "abdus-salam.interpretation.moment.2":
+    "This is consistent with a habit of moving quickly into new research areas.",
+  "abdus-salam.turning_point.1":
+    "After returning to Pakistan in 1951 he concluded that research in theoretical physics was impossible there, left in 1954, and later proposed the ICTP so others would not face that choice.",
+  "abdus-salam.interpretation.turning_point.1":
+    "This is consistent with turning a personal setback into an institution-building project.",
+  /* ---------------------------------------------------------- anne-sullivan (Roster57) */
+  "anne-sullivan.achievement.1":
+    "From 1887 taught the deafblind child Helen Keller language by fingerspelling into her hand, dropping the formal lesson schedule modelled on Samuel Gridley Howe's teaching of Laura Bridgman to talk with her as with any child; Perkins counts her child-centred methods as the core of its deafblind programme.",
+  "anne-sullivan.achievement.2":
+    "Stayed at Keller's side through the Wright-Humason School and Radcliffe College, where Keller graduated in 1904, spending hours each day reading and spelling lectures and books to her.",
+  "anne-sullivan.achievement.3":
+    "Continued as Keller's teacher, editor and companion in lecture tours and work with the American Foundation for the Blind, and received a Teacher's Medal alongside Keller at the 1915 Panama-Pacific Exposition.",
+  "anne-sullivan.moment.1":
+    "In 1887 she wrote that time spent digging out of a child what has been learned, to check it has taken root, is wasted, and she dropped the formal drill for constant conversation by fingerspelling.",
+  "anne-sullivan.interpretation.moment.1":
+    "This is consistent with a willingness to revise her teaching method when it did not fit the pupil, though the reasoning is documented mainly in her own letters.",
+  "anne-sullivan.moment.2":
+    "After the 1891 'Frost King' plagiarism accusation she was asked to leave while Keller was questioned, and she later wrote her own account to the Volta Bureau of how much language her pupil had absorbed from books.",
+  "anne-sullivan.interpretation.moment.2":
+    "This is consistent with revising her own understanding of her pupil's learning after a public dispute, though the detail comes largely from Keller's and Sullivan's own accounts.",
+  "anne-sullivan.turning_point.1":
+    "In March 1887, weeks after studying Howe's reports on Laura Bridgman, she went to Tuscumbia, Alabama, as Keller's teacher, and her career became bound to Keller's education for the next five decades.",
+  "anne-sullivan.interpretation.turning_point.1":
+    "This is consistent with a career defined by one long teaching commitment, though the choice was shaped by the opportunity Perkins offered.",
+  /* ---------------------------------------------------------- carlos-finlay (Roster57) */
+  "carlos-finlay.achievement.1":
+    "In 1881 proposed that yellow fever is transmitted by a mosquito, later identified as Aedes aegypti, at a time when the medical community met the idea with disbelief.",
+  "carlos-finlay.achievement.2":
+    "Tested the mosquito hypothesis with about 102 experimental inoculations of volunteers between 1881 and 1900 and published experimental evidence in 1886, though his experiments remained inconclusive.",
+  "carlos-finlay.achievement.3":
+    "His hypothesis was confirmed in 1900 by the US Army Yellow Fever Commission led by Walter Reed, which refined his procedures; mosquito control then helped end yellow fever in Havana, and he served as Cuba's chief sanitary officer from 1902 to 1909.",
+  "carlos-finlay.moment.1":
+    "When he read his mosquito paper to the Havana Academy in August 1881, the Cuban tribute reports that no academician commented and the paper was left on the table, yet he spent the next years continuing his experiments and explaining his theory to anyone who asked.",
+  "carlos-finlay.interpretation.moment.1":
+    "This is consistent with a researcher who persisted with an unpopular hypothesis despite a silent reception.",
+  "carlos-finlay.moment.2":
+    "The Carter article notes that his 102 volunteer inoculations did not isolate volunteers, apply mosquitoes consistently in the first days of illness or allow for an incubation period in the mosquito, so the experiments could not settle the question.",
+  "carlos-finlay.interpretation.moment.2":
+    "This is consistent with a real attempt at experimental proof that was limited by the design of the tests.",
+  "carlos-finlay.turning_point.1":
+    "In 1900, when the US Army commission arrived in Havana, he shared his publications and mosquito eggs with it, and Reed's team went on to confirm his hypothesis, after which his idea moved from neglected theory to basis of mosquito control.",
+  "carlos-finlay.interpretation.turning_point.1":
+    "This is consistent with a researcher who prioritised getting the idea tested over controlling the credit.",
+  /* ---------------------------------------------------------- carlos-slim (Roster57) */
+  "carlos-slim.achievement.1":
+    "Built the Grupo Carso conglomerate; after Mexico's 1982 crash he bought controlling interests in companies at low prices and managed them so effectively that, Britannica says, their aggregate value soared within a decade.",
+  "carlos-slim.achievement.2":
+    "Led the group, with SBC and France Telecom, that bought a controlling interest in the state telephone company Telmex in 1990 for US$1.76 billion, and committed to invest up to US$10 billion in its network over five years.",
+  "carlos-slim.achievement.3":
+    "America Movil, the mobile arm separated from Telmex in 2001, grew into one of the world's largest telecom companies; Mexico's regulator has treated it as the dominant telecom player since 2014, and critics blame its market share for high prices.",
+  "carlos-slim.moment.1":
+    "After the 1982 default, when Britannica says government bank nationalisations were scaring investors away, he bought controlling stakes in a range of Mexican companies at low prices and then restored them.",
+  "carlos-slim.interpretation.moment.1":
+    "This is consistent with buying against the flow of capital when assets were cheap, though the sources do not state his own reasoning.",
+  "carlos-slim.moment.2":
+    "He put about US$2 billion into the US retailer CompUSA from 1999; it was wound down in 2007, and Britannica calls it a rare misstep after he misjudged his ability to turn it around.",
+  "carlos-slim.interpretation.moment.2":
+    "This is consistent with willingness to commit very large sums to a turnaround, including one that did not work.",
+  "carlos-slim.turning_point.1":
+    "In December 1990 a group led by his Grupo Carso, with SBC and France Telecom, bought a controlling interest in Telmex from the government, turning a diversified conglomerate into a telecommunications company.",
+  "carlos-slim.interpretation.turning_point.1":
+    "This is consistent with recognising a large, underserved market and committing capital to it.",
+  /* ---------------------------------------------------------- elizabeth-fry (Roster57) */
+  "elizabeth-fry.achievement.1":
+    "In 1817 she founded an association of Quaker women to improve conditions for female prisoners at Newgate, starting a school for the children and a workshop for the women.",
+  "elizabeth-fry.achievement.2":
+    "In 1818 she gave evidence to a House of Commons committee, arguing for women's prisons staffed by women and for useful work for inmates; the committee's report credited the change she had made at Newgate.",
+  "elizabeth-fry.achievement.3":
+    "Her ladies' committees spread across Britain and her tours of France, Germany and Holland (1838-43) promoted prison reform; critics such as the Edinburgh Review argued her methods would not stop crime.",
+  "elizabeth-fry.moment.1":
+    "In 1817, believing the national reform society would be too slow, she returned to Newgate and set up a school for the child inmates and then a workshop for the women.",
+  "elizabeth-fry.interpretation.moment.1":
+    "This is consistent with starting practical work herself rather than waiting for wider reform.",
+  "elizabeth-fry.moment.2":
+    "In 1817 she wrote a memorandum on the purpose of a prison, listing segregation of women, regular work, cleanliness, a matron and rewards for good conduct, while noting she still needed to consult people who knew well-run prisons.",
+  "elizabeth-fry.interpretation.moment.2":
+    "This is consistent with setting out a plan while recognising the need for more information.",
+  "elizabeth-fry.turning_point.1":
+    "Setting up the Newgate school and workshop in 1817 led her from working alone to organising a committee of women, and she later came to describe reform as the work of a movement.",
+  "elizabeth-fry.interpretation.turning_point.1":
+    "This is consistent with moving from solo charity to collective organising, though she was at first reluctant to share control.",
+  /* ---------------------------------------------------------- emil-von-behring (Roster57) */
+  "emil-von-behring.achievement.1":
+    "In 1890 he and Shibasaburo Kitasato showed that animals given graduated doses of diphtheria or tetanus cultures make substances that neutralise the toxins and can protect or cure other animals, the basis of serum therapy.",
+  "emil-von-behring.achievement.2":
+    "He brought diphtheria antiserum to human treatment in the early 1890s, working with Hoechst and with Paul Ehrlich's standardisation of the serum, and in 1901 received the first Nobel Prize in Physiology or Medicine for serum therapy.",
+  "emil-von-behring.achievement.3":
+    "In 1913 he announced a toxin-antitoxin mixture for protective immunisation against diphtheria, which he regarded as the crowning success of his work and which later vaccines refined.",
+  "emil-von-behring.moment.1":
+    "After his first human diphtheria trial in January 1892 gave only limited results because the serum was too weak, serum production moved to larger animals and Ehrlich's standardisation, and clinical use followed.",
+  "emil-von-behring.interpretation.moment.1":
+    "This is consistent with persistence in turning a laboratory finding into a usable treatment.",
+  "emil-von-behring.moment.2":
+    "In his dispute with Koch over tuberculosis preparations he fought relentlessly and later said he had defended his intellectual property with all the ruthlessness at his disposal.",
+  "emil-von-behring.interpretation.moment.2":
+    "This is consistent with a combative approach to protecting his priority and rights.",
+  "emil-von-behring.turning_point.1":
+    "In 1892 he signed a contract with the Hoechst company on the advice of Robert Koch to produce antitoxins for large-scale serum therapy, moving his work from the laboratory to industrial production.",
+  "emil-von-behring.interpretation.turning_point.1":
+    "This is consistent with an eye for turning scientific results into scaled products.",
+  /* ---------------------------------------------------------- felix-mendelssohn (Roster57) */
+  "felix-mendelssohn.achievement.1":
+    "Conducted the first performance since Bach's death of the St. Matthew Passion in Berlin in 1829, an event Britannica says inaugurated the 19th-century Bach revival.",
+  "felix-mendelssohn.achievement.2":
+    "Composed works that remain in the repertoire, including the String Octet, the Midsummer Night's Dream overture, the Hebrides overture, the Italian and Scottish symphonies, the Violin Concerto and the oratorio Elijah.",
+  "felix-mendelssohn.achievement.3":
+    "As Gewandhaus conductor in Leipzig from 1835 he raised the orchestra's standard and widened its repertoire, and in 1843 he founded the Leipzig Conservatory, described as the first of its kind in Germany.",
+  "felix-mendelssohn.moment.1":
+    "Driver, citing Eduard Devrient's recollection of his 'awful reverence for print', reports that Mendelssohn kept revising pieces such as the Hebrides overture for years before releasing them, and wrote that he was subject to a 'dreadful disease of altering'.",
+  "felix-mendelssohn.interpretation.moment.1":
+    "This is consistent with a perfectionism that raised the quality of his work but delayed its release.",
+  "felix-mendelssohn.moment.2":
+    "He programmed Wagner's early symphony, excerpts from Rienzi and the Tannhauser overture at Leipzig, even though Wagner later wrote privately and publicly against him.",
+  "felix-mendelssohn.interpretation.moment.2":
+    "This is consistent with a willingness to promote colleagues' new work regardless of personal friction.",
+  "felix-mendelssohn.turning_point.1":
+    "After a trying post in Dusseldorf, he took the Gewandhaus directorship in Leipzig in 1835 and over the next years built the orchestra's repertoire and, in 1843, a conservatory.",
+  "felix-mendelssohn.interpretation.turning_point.1":
+    "This is consistent with a shift from performer and composer toward institution builder.",
+  /* ---------------------------------------------------------- gabriela-mistral (Roster57) */
+  "gabriela-mistral.achievement.1":
+    "Published the poetry collections Desolacion (1922), Ternura (1924), Tala (1938) and Lagar (1954), lyric verse on grief, love, childhood and nature that made her one of the leading poets of Latin America.",
+  "gabriela-mistral.achievement.2":
+    "Won the 1945 Nobel Prize in Literature for lyric poetry that made her name a symbol of the idealistic aspirations of the Latin American world, the first Latin American writer to receive it.",
+  "gabriela-mistral.achievement.3":
+    "A self-taught teacher who became principal of girls' schools in Punta Arenas and Temuco, and in 1922 was invited to Mexico to help plan rural education reform and popular libraries.",
+  "gabriela-mistral.moment.1":
+    "Refused entry to the Normal School in La Serena after her newspaper writing, she prepared on her own and obtained her teaching certificate in 1910.",
+  "gabriela-mistral.interpretation.moment.1":
+    "This is consistent with continuing toward a goal by her own means after an institutional refusal.",
+  "gabriela-mistral.moment.2":
+    "As principal in Punta Arenas she added evening classes for workers who had no other way to be educated, according to the Poetry Foundation biography.",
+  "gabriela-mistral.interpretation.moment.2":
+    "This is consistent with a motivation to extend education to people excluded from it.",
+  "gabriela-mistral.turning_point.1":
+    "In 1922 Desolacion was published in New York at the insistence of American teachers of Spanish, giving her book-length international recognition while she was working in Mexico.",
+  "gabriela-mistral.interpretation.turning_point.1":
+    "This is consistent with a body of original poetry that gained a readership beyond Chile.",
+  /* ---------------------------------------------------------- henrik-ibsen (Roster57) */
+  "henrik-ibsen.achievement.1":
+    "He was a major Norwegian playwright who introduced to the European stage realistic contemporary plays that set a new kind of moral analysis against a middle-class background.",
+  "henrik-ibsen.achievement.2":
+    "A Doll's House (1879) brought him his international breakthrough, and Ghosts (1881) and An Enemy of the People (1882) followed in the same vein.",
+  "henrik-ibsen.achievement.3":
+    "He wrote 26 dramatic works and about 300 poems, including the verse dramas Brand (1866) and Peer Gynt (1867).",
+  "henrik-ibsen.moment.1":
+    "He structured his days around a fixed routine of writing, meals, a walk to the cafe and the papers, and produced a new play about every two years.",
+  "henrik-ibsen.interpretation.moment.1":
+    "This is consistent with a highly regular working discipline.",
+  "henrik-ibsen.moment.2":
+    "After A Doll's House and Ghosts, critics denounced him, and he answered with An Enemy of the People, whose hero is declared an enemy of the people for speaking an unwelcome truth.",
+  "henrik-ibsen.interpretation.moment.2":
+    "This is consistent with continuing to write contested work rather than retreating from criticism.",
+  "henrik-ibsen.turning_point.1":
+    "After the Christiania theatre went bankrupt in 1862, he left Norway in 1864 for Italy and spent 27 years abroad, writing Brand and Peer Gynt in Rome and most of his best work.",
+  "henrik-ibsen.interpretation.turning_point.1":
+    "This is consistent with persistence and a need to work on his own terms after a professional setback.",
+  /* ---------------------------------------------------------- ilya-mechnikov (Roster57) */
+  "ilya-mechnikov.achievement.1":
+    "Observing mobile cells in starfish larvae at Messina in 1883, he proposed that such cells defend the body by engulfing intruders and named the process phagocytosis, founding the cellular theory of immunity.",
+  "ilya-mechnikov.achievement.2":
+    "From 1888 he worked at the Pasteur Institute in Paris, where he defended the cellular theory against the humoral school of Behring and Ehrlich, and with Emile Roux showed that syphilis can be transmitted to monkeys; in 1908 he shared the Nobel Prize in Physiology or Medicine with Ehrlich.",
+  "ilya-mechnikov.achievement.3":
+    "In later years he studied the intestinal flora and proposed that fermented milk could slow senility; the effect was never validated, but reviewers see the idea as a forerunner of probiotics and microbiome research.",
+  "ilya-mechnikov.moment.1":
+    "To test his idea that mobile cells defend the body, he pushed thorns from a tangerine tree into transparent starfish larvae and found them surrounded by cells the next morning.",
+  "ilya-mechnikov.interpretation.moment.1":
+    "This is consistent with a habit of turning an idea into a direct, simple experiment.",
+  "ilya-mechnikov.moment.2":
+    "Virchow, after seeing his preparations at Messina, warned him that the accepted theory of inflammation was the opposite of his; he kept developing the phagocyte theory and defended it against Koch, Behring and others for about twenty-five years.",
+  "ilya-mechnikov.interpretation.moment.2":
+    "This is consistent with sticking to an evidence-based view against the prevailing consensus.",
+  "ilya-mechnikov.turning_point.1":
+    "After resigning from the University of Odessa in 1882 he worked in a private laboratory at Messina, where his observations moved him from zoology and embryology to pathology and immunity.",
+  "ilya-mechnikov.interpretation.turning_point.1":
+    "This is consistent with an ability to redirect a career into a new field when a discovery opens it.",
+  /* ---------------------------------------------------------- jim-lovell (Roster57) */
+  "jim-lovell.achievement.1":
+    "Commanded Apollo 13 in April 1970; after an oxygen-tank explosion ended the Moon landing, he and crewmates Swigert and Haise, working with Houston controllers, used the lunar module as a lifeboat and returned safely to Earth.",
+  "jim-lovell.achievement.2":
+    "Flew on Apollo 8 in 1968, the first crew to leave Earth's gravitational influence and circle the Moon, a flight the AP and a Smithsonian historian describe as pivotal for the later lunar landing.",
+  "jim-lovell.achievement.3":
+    "Flew four missions (Gemini 7, Gemini 12, Apollo 8, Apollo 13), including the two-week Gemini 7 flight, and held the record of 715 hours in space until the Skylab missions.",
+  "jim-lovell.moment.1":
+    "In the hours after the Apollo 13 explosion, the transcript shows Lovell acknowledging each instruction from Mission Control and reading back each step of the shortened lunar module activation checklist, which Swigert relayed through the tunnel.",
+  "jim-lovell.interpretation.moment.1":
+    "This is consistent with a procedure-minded, orderly way of working under pressure.",
+  "jim-lovell.moment.2":
+    "When Apollo 8 was changed from an Earth-orbit lunar module test to a flight around the Moon, Lovell was in the crew that flew the new mission; Smithsonian notes the later Apollo 13 course correction used a technique he had practised on it.",
+  "jim-lovell.interpretation.moment.2":
+    "This is consistent with an ability to adjust to a changed mission and carry the skills across.",
+  "jim-lovell.turning_point.1":
+    "Not chosen in NASA's first astronaut group, Lovell was selected in the second group in September 1962, the start of the career that led to four spaceflights.",
+  "jim-lovell.interpretation.turning_point.1":
+    "This is consistent with keeping to a goal after an initial setback, as one museum curator characterises it.",
+  /* ---------------------------------------------------------- john-bardeen (Roster57) */
+  "john-bardeen.achievement.1":
+    "At Bell Labs he and Walter Brattain discovered the transistor effect in the late 1940s; he shared the 1956 Nobel Prize in Physics with Brattain and William Shockley.",
+  "john-bardeen.achievement.2":
+    "In 1957 he, Leon Cooper and Robert Schrieffer proposed the first successful explanation of superconductivity, the BCS theory, which earned the three the 1972 Nobel Prize in Physics.",
+  "john-bardeen.achievement.3":
+    "He is described as the only winner of two Nobel Prizes in Physics, and at the University of Illinois from 1951 he founded a semiconductor laboratory and a theory group.",
+  "john-bardeen.moment.1":
+    "When Shockley said in January 1948 that he intended to be the only name on the transistor patent, Brattain protested aloud while Bardeen said little and left the room; Bell's lawyers then filed on the Bardeen-Brattain device.",
+  "john-bardeen.interpretation.moment.1":
+    "This is consistent with a quiet reluctance to confront a dispute openly.",
+  "john-bardeen.moment.2":
+    "Leading the superconductivity effort at Illinois, he gave postdoc Cooper and student Schrieffer freedom to pursue their ideas and later sent them to announce the BCS theory at an American Physical Society meeting.",
+  "john-bardeen.interpretation.moment.2":
+    "This is consistent with a collaborative style that shares credit with junior colleagues.",
+  "john-bardeen.turning_point.1":
+    "In 1951, after the rift with Shockley at Bell Labs, he became Professor of Electrical Engineering and Physics at the University of Illinois, where he turned to superconductivity theory.",
+  "john-bardeen.interpretation.turning_point.1":
+    "This is consistent with seeking room to direct his own research.",
+  /* ---------------------------------------------------------- ken-thompson (Roster57) */
+  "ken-thompson.achievement.1":
+    "In 1969 wrote the first version of the Unix operating system at Bell Labs, designing its file system and process model with Dennis Ritchie and colleagues, and created the language B, the precursor of C.",
+  "ken-thompson.achievement.2":
+    "With Rob Pike designed the UTF-8 text encoding in 1992 for Plan 9, and from 2007 helped create the Go programming language with Pike and Robert Griesemer.",
+  "ken-thompson.achievement.3":
+    "Shared the 1983 Turing Award with Dennis Ritchie for Unix, and with Joseph Condon built the Belle chess-playing machine that was for several years the top computer chess player.",
+  "ken-thompson.moment.1":
+    "Pike recalls that after an X/Open call in September 1992 he and Thompson went to dinner, Thompson worked out the bit-packing of a new encoding, and that night he wrote the packing code so Plan 9 was running only UTF-8 within days.",
+  "ken-thompson.interpretation.moment.1":
+    "This is consistent with a habit of turning a design idea into working code very quickly.",
+  "ken-thompson.moment.2":
+    "Wired reported that Thompson rewrote a colleague's sprawling audio-compression code into a version that ran in real time, and the colleague, Jim Johnston, said Thompson 'assassinated the whole mess'.",
+  "ken-thompson.interpretation.moment.2":
+    "This is consistent with a drive to simplify complex systems into compact working form.",
+  "ken-thompson.turning_point.1":
+    "After Bell Labs withdrew from Multics in 1969 and requests for a new machine were turned down, Thompson found a little-used PDP-7 and began building his own operating system, which became Unix.",
+  "ken-thompson.interpretation.turning_point.1":
+    "This is consistent with starting his own project when the institutional path closed.",
+  /* ---------------------------------------------------------- lata-mangeshkar (Roster57) */
+  "lata-mangeshkar.achievement.1":
+    "She was a Hindi-film playback singer whose career spanned eight decades and who recorded songs for the soundtracks of more than 2,000 Indian films.",
+  "lata-mangeshkar.achievement.2":
+    "Her 1949 song 'Aayega Aanewala' from Mahal drew callers to All India Radio asking whose voice it was; she went on to record for all the major Bollywood music directors.",
+  "lata-mangeshkar.achievement.3":
+    "The Guinness Book of Records named her the most recorded artist in 1974, and she received the Dadasaheb Phalke Award (1989) and the Bharat Ratna (2001).",
+  "lata-mangeshkar.moment.1":
+    "She wrote out each song by hand before recording, and in concerts kept her eyes on a notebook of lyrics, saying that the words matter as much as the music.",
+  "lata-mangeshkar.interpretation.moment.1":
+    "This is consistent with close attention to the words of a song.",
+  "lata-mangeshkar.moment.2":
+    "She was not shy about taking a stand on her fees or on a share of the royalties from her songs; one account says the dispute over royalties with Mohammed Rafi halted their duets for a time.",
+  "lata-mangeshkar.interpretation.moment.2":
+    "This is consistent with a willingness to press a professional position even at some cost to a working relationship.",
+  "lata-mangeshkar.turning_point.1":
+    "After early difficulty establishing herself against the prevailing voices, a break from the music director Ghulam Haider led to her first hit in 1949 with Mahal and Andaz.",
+  "lata-mangeshkar.interpretation.turning_point.1":
+    "This is consistent with persistence through an uncertain start before the breakthrough.",
+  /* ---------------------------------------------------------- li-ka-shing (Roster57) */
+  "li-ka-shing.achievement.1":
+    "Founded Cheung Kong in 1950 as a plastics maker and built it into Hong Kong's leading private property developer by the late 1970s.",
+  "li-ka-shing.achievement.2":
+    "In 1979 bought a controlling interest in the British-founded trading house Hutchison Whampoa, which Britannica calls a first for a Chinese businessman, and expanded it into a conglomerate.",
+  "li-ka-shing.achievement.3":
+    "Under his leadership Hutchison became the world's largest independent port operator and expanded into mobile telecommunications, including the 1999 sale of its Orange stake to Mannesmann.",
+  "li-ka-shing.moment.1":
+    "In 1979 he quietly negotiated with the Hongkong and Shanghai Bank to buy its stake in Hutchison for less than half its book value, taking control of one of the colony's British-founded trading houses.",
+  "li-ka-shing.interpretation.moment.1":
+    "This episode is consistent with a developed sense for spotting underpriced opportunities.",
+  "li-ka-shing.moment.2":
+    "When he could not renew the lease on his plastics factory in the late 1950s, he bought the site itself, which Bloomberg describes as the start of his property career.",
+  "li-ka-shing.interpretation.moment.2":
+    "This is consistent with making use of whatever means were at hand to turn a setback into a new business line.",
+  "li-ka-shing.turning_point.1":
+    "In March 1997 he restructured his Hong Kong holdings, making Hutchison Whampoa the umbrella company for the group's infrastructure and telecommunications interests, and in 2015 reorganised the group into CK Hutchison Holdings and a separate property company.",
+  "li-ka-shing.interpretation.turning_point.1":
+    "These reorganisations are consistent with a deliberate, structure-minded approach to managing a very large group over decades.",
+  /* ---------------------------------------------------------- masayoshi-son (Roster57) */
+  "masayoshi-son.achievement.1":
+    "Founded SoftBank in 1981 with the proceeds of a sound-translation device he sold to Sharp, and led it from software distribution into Yahoo Japan, broadband and, with the 2006 Vodafone Japan purchase, mobile telecoms.",
+  "masayoshi-son.achievement.2":
+    "Made an early investment in Alibaba, US$20 million in 2000 according to Reuters, which Britannica calls among his most consequential early investments; by 2019 Reuters said SoftBank's 26 percent stake was worth more than SoftBank's own market capitalisation.",
+  "masayoshi-son.achievement.3":
+    "Launched the SoftBank Vision Fund in 2017, a US$100 billion technology fund that took large stakes in dozens of startups and, Reuters and CNBC reported, lost about US$18 billion in the year to March 2020 as WeWork and Uber fell.",
+  "masayoshi-son.moment.1":
+    "He called the US$20 billion, mostly debt-funded 2006 purchase of Vodafone Japan a 'crazy bet' made while SoftBank was losing about US$1 billion a year, saying 'sometimes craziness gives a good return.'",
+  "masayoshi-son.interpretation.moment.1":
+    "This is consistent with committing very large, leveraged sums to a bet he himself described as crazy.",
+  "masayoshi-son.moment.2":
+    "At the May 2020 earnings presentation he said, 'I've been admitting that several times I was foolish' about investing in WeWork, as SoftBank valued it at US$2.9 billion against US$47 billion a year earlier.",
+  "masayoshi-son.interpretation.moment.2":
+    "This is consistent with publicly acknowledging a costly mistake, though he continued to emphasise his instinct-led approach.",
+  "masayoshi-son.turning_point.1":
+    "In 2017 SoftBank set up the Vision Fund, shifting the group toward global technology investing, which Britannica says made Son one of the most closely scrutinised figures in technology finance.",
+  "masayoshi-son.interpretation.turning_point.1":
+    "This is consistent with reshaping the group's strategy around a new, much larger kind of bet.",
+  /* ---------------------------------------------------------- octavia-hill (Roster57) */
+  "octavia-hill.achievement.1":
+    "From 1864 managed London slum houses bought with Ruskin's money, combining repairs, regular personal visits and a commercial return, and trained women volunteers as managers; from 1884 she ran the Ecclesiastical Commissioners' Southwark property, and her methods were imitated in Britain, on the Continent and in the United States.",
+  "octavia-hill.achievement.2":
+    "Led campaigns to keep London's open spaces from building, founding the Kyrle Society in 1875 to bring beauty and green space to the poor and raising funds to save sites such as Parliament Hill and Hilly Fields.",
+  "octavia-hill.achievement.3":
+    "Co-founded the National Trust in 1895 with Robert Hunter and Hardwicke Rawnsley to hold land and buildings for the public, and helped found the Charity Organisation Society in 1869 with Edward Denison.",
+  "octavia-hill.moment.1":
+    "Her 1876 letters show Ruskin writing of a growing sense of separation from her 'in essential principles' and asking whether such amelioration only encouraged great evil-doers; the break was never fully mended, though she wrote of him with reverence at his death.",
+  "octavia-hill.interpretation.moment.1":
+    "This is consistent with a willingness to hold to her own approach against a mentor's objections, though the sources outline the dispute only briefly.",
+  "octavia-hill.moment.2":
+    "Her system rested on regular personal visits, with rent collection as a social occasion, but tenants who fell behind after grace periods were evicted, and later observers have called the approach patronising.",
+  "octavia-hill.interpretation.moment.2":
+    "This is consistent with a hands-on, detail-focused management style that also carried a strict, rule-based edge.",
+  "octavia-hill.turning_point.1":
+    "In 1864 Ruskin bought three houses in Paradise Place, Marylebone, and handed them to her to manage, turning her from art copyist and teacher into a housing manager.",
+  "octavia-hill.interpretation.turning_point.1":
+    "This is consistent with a person who turned a mentor's backing into a lifelong practical vocation.",
+  /* ---------------------------------------------------------- ousmane-sembene (Roster57) */
+  "ousmane-sembene.achievement.1":
+    "Often called the 'father of African cinema', the Senegalese writer and director made La Noire de... (Black Girl, 1966), regarded as the first major film by an African filmmaker.",
+  "ousmane-sembene.achievement.2":
+    "Having concluded that books reach few people where illiteracy prevails, he turned to film, and with Mandabi (1968) he made the decision to film in the Wolof language.",
+  "ousmane-sembene.achievement.3":
+    "He was also a novelist, from Le Docker noir (1956) to God's Bits of Wood (1960), and his later films include Ceddo, Camp de Thiaroye and Moolaade, which won the Un Certain Regard prize at Cannes.",
+  "ousmane-sembene.moment.1":
+    "After returning from Moscow he toured remote villages with a projector, setting up chairs and holding discussions late into the night.",
+  "ousmane-sembene.interpretation.moment.1":
+    "This is consistent with a self-started effort to reach his audience directly.",
+  "ousmane-sembene.moment.2":
+    "Ceddo (1977) was banned in Senegal, officially over the spelling of its title according to some accounts; he then made no film for nearly a decade before Camp de Thiaroye (1988).",
+  "ousmane-sembene.interpretation.moment.2":
+    "This is consistent with a willingness to keep making contested films despite a heavy cost to his output.",
+  "ousmane-sembene.turning_point.1":
+    "Around 1960, after establishing himself as a novelist, he turned to cinema in order to reach the African audience that could not read French, and studied in Moscow.",
+  "ousmane-sembene.interpretation.turning_point.1":
+    "This is consistent with a motivation to reach a wider audience shaping his choice of medium.",
+  /* ---------------------------------------------------------- rudolf-nureyev (Roster57) */
+  "rudolf-nureyev.achievement.1":
+    "Became one of the most famous ballet dancers of the 20th century; Britannica credits him with reviving the prominence of male ballet roles and significantly widening the audience for ballet.",
+  "rudolf-nureyev.achievement.2":
+    "Danced with Margot Fonteyn at the Royal Ballet from their February 1962 Giselle; Ashton made Marguerite and Armand for the pair, and each is described as changing the other's style.",
+  "rudolf-nureyev.achievement.3":
+    "Restaged classics such as Swan Lake (Vienna, 1964) with the male lead dominant, co-directed a Don Quixote film (1973) and led the Paris Opera Ballet from 1983 to 1989, though critics debate the value of his choreography.",
+  "rudolf-nureyev.moment.1":
+    "After a 1960 tantrum over his baggy costume at the Kirov, he began dancing in tights without the covering trunks, a look and a ballerina-inspired upper-body style that The Nation says are now mainstream.",
+  "rudolf-nureyev.interpretation.moment.1":
+    "This is consistent with a performer who pushed his own stage style against convention in ways that later became standard.",
+  "rudolf-nureyev.moment.2":
+    "Rough in technique at his London debut, he worked compulsively to correct his limits, learning English placing from Fonteyn; Ninette de Valois judged his dancing virtually perfect by the age of 25.",
+  "rudolf-nureyev.interpretation.moment.2":
+    "This is consistent with a strong drive to master his craft by absorbing what others could teach him.",
+  "rudolf-nureyev.turning_point.1":
+    "Beginning in 1962, partnership with Fonteyn at the Royal Ballet brought him a more refined, English-schooled style while her dancing gained a new intensity, and made him an international star.",
+  "rudolf-nureyev.interpretation.turning_point.1":
+    "This is consistent with a performer who adapted his style to a new tradition while keeping his own force.",
+  /* ---------------------------------------------------------- shinya-yamanaka (Roster57) */
+  "shinya-yamanaka.achievement.1":
+    "In 2006, with Kazutoshi Takahashi, he showed that introducing just four genes turns mature mouse cells into pluripotent stem cells, which he named iPS cells.",
+  "shinya-yamanaka.achievement.2":
+    "He shared the 2012 Nobel Prize in Physiology or Medicine with John Gurdon for the discovery that mature cells can be reprogrammed to become pluripotent.",
+  "shinya-yamanaka.achievement.3":
+    "In 2007 his lab reported human iPS cells, on the same day as James Thomson's lab with a different gene set, and from 2008 he led Kyoto University's Center for iPS Cell Research and Application toward clinical use.",
+  "shinya-yamanaka.moment.1":
+    "He introduced all 24 candidate ES-cell genes into skin cells at once; colonies appeared only with the full mixture, and Takahashi then narrowed them to four factors.",
+  "shinya-yamanaka.interpretation.moment.1":
+    "This is consistent with a willingness to run a bold, all-at-once experiment on a long-shot idea.",
+  "shinya-yamanaka.moment.2":
+    "In June 2011 he presented data from ten embryonic and fifty iPS cell lines to answer critics, conceding that some iPS lines do differ from embryonic stem cells.",
+  "shinya-yamanaka.interpretation.moment.2":
+    "This is consistent with answering criticism with data rather than denial.",
+  "shinya-yamanaka.turning_point.1":
+    "After residency as an orthopaedic surgeon he left surgery for a pharmacology PhD in 1989 and a mouse-genetics postdoc in San Francisco, a path that led to stem-cell research.",
+  "shinya-yamanaka.interpretation.turning_point.1":
+    "This is consistent with a willingness to change fields when he judged he could do more good elsewhere.",
+  /* ---------------------------------------------------------- teresa-of-avila (Roster57) */
+  "teresa-of-avila.achievement.1":
+    "In 1562 she founded the convent of St Joseph at Avila, amid strong local hostility and without an endowment, beginning the Discalced Carmelite Reform, which returned the order to a contemplative, austere life.",
+  "teresa-of-avila.achievement.2":
+    "Over the following years she founded some seventeen convents across Spain, and in 1580 the reformed Carmelites were given independent standing with the support of Philip II.",
+  "teresa-of-avila.achievement.3":
+    "Her writings, including the Way of Perfection, the Book of Foundations and the Interior Castle, on prayer and the soul's journey to God made her a major spiritual author; she was named a doctor of the church in 1970.",
+  "teresa-of-avila.moment.1":
+    "In 1562 she opened San Jose with no endowment, insisting on subsistence from public alms despite hostility from townspeople and religious figures.",
+  "teresa-of-avila.interpretation.moment.1":
+    "This is consistent with holding to a demanding standard under outside pressure.",
+  "teresa-of-avila.moment.2":
+    "Journeying in a cart through Andalusia at nearly sixty, she kept founding houses even though the nuncio later called her a restless, disobedient woman.",
+  "teresa-of-avila.interpretation.moment.2":
+    "This is consistent with persisting in the work despite criticism of how she did it.",
+  "teresa-of-avila.turning_point.1":
+    "In 1560 she and a small group of nuns at the Convent of the Incarnation vowed to follow the stricter original Carmelite Rule, which led her to leave and found a reformed convent two years later.",
+  "teresa-of-avila.interpretation.turning_point.1":
+    "This is consistent with taking the initiative to change an institution rather than waiting to be directed.",
+  /* ---------------------------------------------------------- yao-ming (Roster57) */
+  "yao-ming.achievement.1":
+    "Taken first overall by the Houston Rockets in 2002 after starting in the Chinese league, he played nine NBA seasons as a center and was an eight-time All-Star averaging 19.0 points, 9.2 rebounds and 1.9 blocks.",
+  "yao-ming.achievement.2":
+    "Is given much of the credit for bringing the NBA to China, where merchandise sales and television ratings grew during his career and a 2007 game he played in was watched by more than 200 million people.",
+  "yao-ming.achievement.3":
+    "Elected to the Naismith Memorial Basketball Hall of Fame and had his No. 11 retired by the Rockets, even though foot and ankle injuries ended his playing career in 2011.",
+  "yao-ming.moment.1":
+    "Van Gundy describes Yao's routine before every practice: weight-room work, film study with assistant coach Tom Thibodeau and an individual workout, so that he had been at the facility for a couple of hours by the time practice began.",
+  "yao-ming.interpretation.moment.1":
+    "This account is consistent with a steady, routine-based approach to preparation.",
+  "yao-ming.moment.2":
+    "Van Gundy recalls that Yao stood and cheered from the bench on teammates' good plays and was first off the bench to greet them at timeouts.",
+  "yao-ming.interpretation.moment.2":
+    "This is consistent with a team-first, supportive way of relating to teammates.",
+  "yao-ming.turning_point.1":
+    "In 2002 he moved from the Chinese league, where he had just won a title with the Shanghai Sharks, to the NBA as the first overall pick, opening a nine-season career in Houston.",
+  "yao-ming.interpretation.turning_point.1":
+    "This move is consistent with an ability to adjust to a new league and environment, as his rookie-year results suggest.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -19385,6 +19803,424 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1970년 말 조수 리비후가 하이난에서 야생 웅성불임 벼를 찾았고 위안룽핑이 '예바이'라고 이름 붙였다. 이를 바탕으로 1972년 첫 웅성불임계와 유지계가 만들어지고 1973년 회복계가 확보되어 1976년에는 교잡 벼가 널리 생산되었다.",
   "yuan-longping.interpretation.turning_point.1":
     "이는 핵심 개체가 발견되고 팀이 전체 육종 체계를 완성하면서 오래 이어온 연구가 실용 규모에 이른 전환과 부합한다.",
+  /* ---------------------------------------------------------- abdus-salam (Roster57) */
+  "abdus-salam.achievement.1":
+    "셸던 글래쇼, 스티븐 와인버그와 함께 약한 상호작용과 전자기 상호작용을 통합한 이론으로 1979년 노벨 물리학상을 공동 수상했으며, 세 사람은 각자 별도의 연구로 이 이론을 발전시켰다.",
+  "abdus-salam.achievement.2":
+    "1964년 이탈리아 트리에스테에 국제이론물리센터(ICTP)를 설립해 수십 년간 이끌었고, 개발도상국 젊은 물리학자를 위한 연구 지원 프로그램을 만들었다.",
+  "abdus-salam.achievement.3":
+    "임페리얼 칼리지에서 일류 이론물리 그룹을 키웠고, 1964년 존 워드와 SU(2) x U(1) 대칭성을 규명했으며, 1973년 조게시 파티와 대통일 모형을 제안했다.",
+  "abdus-salam.moment.1":
+    "1956년 그는 질량 없는 왼손잡이 중성미자가 패리티 위반과 잘 맞는다고 제안했지만 파울리가 이를 일축했고, 그의 논문은 실험 결과가 나온 뒤에야 발표되었다.",
+  "abdus-salam.interpretation.moment.1":
+    "이는 권위 있는 인물에 대한 존중 때문에 비정통적인 아이디어가 미뤄진 모습과 부합한다.",
+  "abdus-salam.moment.2":
+    "1984년 그린-슈워츠 프리프린트가 나온 뒤 그는 ICTP 연구진에게 저차원 모형의 일관성을 검토하게 했고 10주도 되지 않아 6차원 모형을 제출했다.",
+  "abdus-salam.interpretation.moment.2":
+    "이는 새로운 연구 분야로 빠르게 뛰어드는 습관과 부합한다.",
+  "abdus-salam.turning_point.1":
+    "1951년 파키스탄으로 돌아온 그는 그곳에서 이론물리 연구가 불가능하다고 판단해 1954년 떠났고, 훗날 다른 이들이 같은 선택을 하지 않도록 ICTP 설립을 제안했다.",
+  "abdus-salam.interpretation.turning_point.1":
+    "이는 개인적 좌절을 기관 설립 사업으로 바꾼 흐름과 부합한다.",
+  /* ---------------------------------------------------------- anne-sullivan (Roster57) */
+  "anne-sullivan.achievement.1":
+    "1887년부터 시청각 장애 아동 헬렌 켈러에게 손에 글자를 짚어 주는 지문자로 언어를 가르쳤고, 새뮤얼 그리들리 하우가 로라 브리지먼을 가르친 방식을 본뜬 정형화된 수업표를 버리고 여느 아이에게 말하듯 대화했다. 퍼킨스는 그의 아동 중심 교육 방식을 시청각장애 교육의 핵심으로 꼽는다.",
+  "anne-sullivan.achievement.2":
+    "켈러가 1904년 졸업한 라이트-휴메이슨 학교와 래드클리프 대학까지 곁을 지키며 하루 몇 시간씩 책과 강의를 읽어 주고 손에 전했다.",
+  "anne-sullivan.achievement.3":
+    "켈러의 교사이자 편집자, 동반자로 강연 여행과 미국맹인재단 활동을 이어 갔고, 1915년 파나마-태평양 박람회에서 켈러와 함께 교사 메달을 받았다.",
+  "anne-sullivan.moment.1":
+    "1887년 그는 아이가 배운 것을 뿌리내렸는지 캐내어 확인하는 데 쓰는 시간은 낭비라고 쓰고, 정형화된 반복 수업 대신 지문자로 끊임없이 대화하는 방식으로 바꾸었다.",
+  "anne-sullivan.interpretation.moment.1":
+    "이는 방식이 학생에게 맞지 않으면 교수법을 고치려는 태도와 일치하지만, 그 이유는 주로 본인의 편지에 근거한다.",
+  "anne-sullivan.moment.2":
+    "1891년 '서리 왕' 표절 의혹 때 켈러가 심문받는 동안 퇴장을 요구받았고, 그는 훗날 학생이 책에서 얼마나 많은 언어를 흡수했는지를 볼타 국에 직접 설명하는 글을 보냈다.",
+  "anne-sullivan.interpretation.moment.2":
+    "이는 공개적 논란 뒤 학생의 학습에 대한 자신의 이해를 고쳐 가는 모습과 일치하지만, 세부는 대체로 켈러와 본인의 기록에서 나온다.",
+  "anne-sullivan.turning_point.1":
+    "1887년 3월, 하우의 로라 브리지먼 교육 보고서를 몇 달간 공부한 뒤 켈러의 교사로 앨라배마 터스컴비아에 갔고, 이후 반세기 동안 그의 경력은 켈러의 교육과 이어졌다.",
+  "anne-sullivan.interpretation.turning_point.1":
+    "이는 하나의 긴 교육적 헌신으로 규정된 경력과 일치하지만, 그 선택은 퍼킨스가 제공한 기회에 의해 형성되었다.",
+  /* ---------------------------------------------------------- carlos-finlay (Roster57) */
+  "carlos-finlay.achievement.1":
+    "1881년 황열병이 모기(이후 이집트숲모기로 확인)를 통해 전파된다고 제안했으나, 당시 의학계는 이를 믿지 않았다.",
+  "carlos-finlay.achievement.2":
+    "1881년부터 1900년까지 약 102건의 자원자 접종 실험으로 모기 가설을 시험했고 1886년에 실험 결과를 발표했지만, 실험은 결정적인 증거에 이르지 못했다.",
+  "carlos-finlay.achievement.3":
+    "그의 가설은 1900년 월터 리드가 이끈 미 육군 황열병 위원회가 그의 방법을 다듬어 확인했고, 이후 모기 방제로 아바나의 황열병이 통제되었으며, 그는 1902~1909년 쿠바 위생 책임자를 지냈다.",
+  "carlos-finlay.moment.1":
+    "1881년 8월 아바나 학술원에서 모기 논문을 발표했을 때 어느 회원도 논평하지 않아 논문이 그대로 책상 위에 남았다고 쿠바 측 추모문은 전하며, 그는 이후에도 실험을 이어가고 묻는 이에게 이론을 설명했다.",
+  "carlos-finlay.interpretation.moment.1":
+    "이는 냉담한 반응에도 인기 없는 가설을 계속 밀고 나간 연구자의 모습과 일치한다.",
+  "carlos-finlay.moment.2":
+    "카터 관련 논문은 그의 102건 자원자 접종이 피험자를 격리하지 않았고 발병 초기 며칠에 일관되게 모기를 적용하지 않았으며 모기 안의 잠복기를 고려하지 않아 문제를 매듭짓지 못했다고 지적한다.",
+  "carlos-finlay.interpretation.moment.2":
+    "이는 실험 설계의 한계 때문에 결정적이지 못했던, 진지한 실험적 증명 시도와 일치한다.",
+  "carlos-finlay.turning_point.1":
+    "1900년 미 육군 위원회가 아바나에 오자 그는 자신의 출판물과 모기 알을 공유했고, 리드 팀이 그의 가설을 확인하면서 그의 생각은 외면받던 이론에서 모기 방제의 토대로 바뀌었다.",
+  "carlos-finlay.interpretation.turning_point.1":
+    "이는 공로를 쥐는 것보다 아이디어가 검증되는 것을 우선한 연구자의 태도와 일치한다.",
+  /* ---------------------------------------------------------- carlos-slim (Roster57) */
+  "carlos-slim.achievement.1":
+    "그루포 카르소 복합기업을 일궜다. 1982년 멕시코 경제 위기 뒤 여러 기업의 지배 지분을 싼값에 사들여 운영했고, 브리태니커는 10년 안에 그 총가치가 크게 뛰었다고 설명한다.",
+  "carlos-slim.achievement.2":
+    "1990년 SBC, 프랑스 텔레콤과 함께 국영 전화회사 텔멕스의 경영권 지분을 17억 6천만 달러에 인수한 컨소시엄을 이끌었고, 5년간 최대 100억 달러를 통신망에 투자하기로 약속했다.",
+  "carlos-slim.achievement.3":
+    "2001년 텔멕스에서 분리된 이동통신 부문 아메리카 모빌은 세계 최대 규모의 통신사 중 하나로 성장했다. 멕시코 규제기관은 2014년부터 이 회사를 지배적 사업자로 보고 있으며, 비판자들은 높은 점유율이 비싼 요금의 원인이라고 지적한다.",
+  "carlos-slim.moment.1":
+    "1982년 채무 불이행 뒤 브리태니커가 정부의 은행 국유화로 투자자들이 떠나던 시기라고 설명하는 가운데, 그는 여러 멕시코 기업의 지배 지분을 싼값에 사들이고 정상화했다.",
+  "carlos-slim.interpretation.moment.1":
+    "이는 자산이 쌀 때 자금 흐름과 반대로 사들이는 태도와 일치하지만, 출처가 그의 판단 근거를 밝히지는 않는다.",
+  "carlos-slim.moment.2":
+    "1999년부터 미국 소매업체 컴유에스에이에 약 20억 달러를 투입했으나 2007년 정리 절차에 들어갔고, 브리태니커는 그가 회생 능력을 잘못 판단한 드문 실책이라고 평가한다.",
+  "carlos-slim.interpretation.moment.2":
+    "이는 성공하지 못한 경우까지 포함해 회생에 막대한 자금을 거는 태도와 일치한다.",
+  "carlos-slim.turning_point.1":
+    "1990년 12월 그의 그루포 카르소가 이끄는 컨소시엄이 SBC, 프랑스 텔레콤과 함께 정부로부터 텔멕스의 경영권 지분을 사들이면서 다각화된 복합기업이 통신 기업으로 바뀌었다.",
+  "carlos-slim.interpretation.turning_point.1":
+    "이는 서비스가 부족한 큰 시장을 알아보고 그곳에 자본을 투입한 태도와 일치한다.",
+  /* ---------------------------------------------------------- elizabeth-fry (Roster57) */
+  "elizabeth-fry.achievement.1":
+    "1817년 그녀는 뉴게이트 감옥의 여성 수감자들의 환경을 개선하기 위해 퀘이커 여성들의 협회를 세우고, 아이들을 위한 학교와 여성들을 위한 작업장을 열었다.",
+  "elizabeth-fry.achievement.2":
+    "1818년 그녀는 하원 위원회에서 증언하며 여성이 관리하는 여성 전용 감옥과 수감자의 유익한 노동을 주장했고, 위원회 보고서는 그녀가 뉴게이트에서 이룬 변화를 인정했다.",
+  "elizabeth-fry.achievement.3":
+    "그녀의 여성 위원회는 영국 전역으로 퍼졌고 1838~43년 프랑스, 독일, 네덜란드 순회로 감옥 개혁을 알렸으나, 에든버러 리뷰 같은 비판자들은 그녀의 방식으로는 범죄를 막을 수 없다고 주장했다.",
+  "elizabeth-fry.moment.1":
+    "1817년 전국적인 개혁 단체는 너무 느리다고 판단한 그녀는 뉴게이트로 돌아가 수감된 아이들을 위한 학교를, 이어 여성들을 위한 작업장을 세웠다.",
+  "elizabeth-fry.interpretation.moment.1":
+    "이는 더 넓은 개혁을 기다리기보다 스스로 실질적인 일을 시작하는 태도와 부합한다.",
+  "elizabeth-fry.moment.2":
+    "1817년 그녀는 감옥의 목적에 관한 메모를 작성해 여성 분리, 규칙적인 노동, 청결, 여성 관리인과 선행에 대한 보상을 열거하면서도, 잘 운영되는 감옥을 아는 사람들에게 더 자문해야 한다고 적었다.",
+  "elizabeth-fry.interpretation.moment.2":
+    "이는 계획을 세우면서도 더 많은 정보가 필요함을 인정하는 태도와 부합한다.",
+  "elizabeth-fry.turning_point.1":
+    "1817년 뉴게이트의 학교와 작업장을 세우면서 그녀는 혼자 하던 일에서 여성 위원회를 조직하는 일로 나아갔고, 이후 개혁을 하나의 운동의 일로 보게 되었다.",
+  "elizabeth-fry.interpretation.turning_point.1":
+    "이는 개인적 자선에서 집단적 조직 활동으로 옮겨 간 것과 부합하지만, 처음에는 주도권을 나누는 데 주저했다.",
+  /* ---------------------------------------------------------- emil-von-behring (Roster57) */
+  "emil-von-behring.achievement.1":
+    "1890년 그는 시바사부로 기타사토와 함께, 디프테리아나 파상풍 배양액을 단계적으로 투여한 동물이 독소를 중화하는 물질을 만들고 이 물질이 다른 동물을 보호하거나 치료할 수 있음을 보여 혈청 요법의 토대를 놓았다.",
+  "emil-von-behring.achievement.2":
+    "1890년대 초 그는 획스트사, 그리고 파울 에를리히의 혈청 표준화 작업과 함께 디프테리아 항혈청을 사람 치료에 도입했고, 1901년 혈청 요법으로 최초의 노벨 생리의학상을 받았다.",
+  "emil-von-behring.achievement.3":
+    "1913년 그는 디프테리아 예방 면역을 위한 독소-항독소 혼합제를 발표했는데, 그는 이를 자신의 필생 연구의 정점으로 여겼고 이후의 백신들이 이를 개량했다.",
+  "emil-von-behring.moment.1":
+    "1892년 1월 첫 사람 대상 디프테리아 시험이 혈청의 질 부족으로 제한적인 성과에 그치자, 혈청 생산은 더 큰 동물과 에를리히의 표준화 방식으로 옮겨 갔고 이후 임상 사용이 이어졌다.",
+  "emil-von-behring.interpretation.moment.1":
+    "이는 실험실의 발견을 쓸 수 있는 치료법으로 만들어 내려는 끈기와 부합한다.",
+  "emil-von-behring.moment.2":
+    "결핵 제제를 둘러싼 코흐와의 분쟁에서 그는 끈질기게 싸웠고, 나중에 자신은 자신의 지적 재산을 가능한 모든 냉혹함으로 지켰을 뿐이라고 말했다.",
+  "emil-von-behring.interpretation.moment.2":
+    "이는 자신의 우선권과 권리를 지키는 데 호전적으로 임하는 태도와 부합한다.",
+  "emil-von-behring.turning_point.1":
+    "1892년 그는 로베르트 코흐의 권고에 따라 획스트사와 대규모 혈청 요법용 항독소 생산 계약을 맺어 연구를 실험실에서 산업적 생산으로 옮겼다.",
+  "emil-von-behring.interpretation.turning_point.1":
+    "이는 과학적 성과를 대규모 제품으로 전환하는 안목과 부합한다.",
+  /* ---------------------------------------------------------- felix-mendelssohn (Roster57) */
+  "felix-mendelssohn.achievement.1":
+    "1829년 베를린에서 바흐 사후 처음으로 마태 수난곡을 지휘했으며, 브리태니커는 이 공연이 19세기 바흐 부흥의 출발점이 되었다고 설명한다.",
+  "felix-mendelssohn.achievement.2":
+    "현악 팔중주, 한여름 밤의 꿈 서곡, 헤브리디스 서곡, 이탈리아·스코틀랜드 교향곡, 바이올린 협주곡, 오라토리오 엘리야 등 지금도 연주되는 작품을 남겼다.",
+  "felix-mendelssohn.achievement.3":
+    "1835년부터 라이프치히 게반트하우스 관현악단을 이끌며 연주 수준과 레퍼토리를 넓혔고, 1843년 독일 최초로 평가되는 라이프치히 음악원을 세웠다.",
+  "felix-mendelssohn.moment.1":
+    "드라이버는 에두아르트 데브리엔트가 그의 '인쇄에 대한 지독한 경외심'을 회고했다고 전하며, 멘델스존이 헤브리디스 서곡 등을 수년간 고쳐 쓰고서야 출판했고 스스로를 '고치는 지독한 병'에 걸렸다고 썼다고 전한다.",
+  "felix-mendelssohn.interpretation.moment.1":
+    "이는 작품의 완성도를 높였지만 출간을 늦추게 한 완벽주의와 일치한다.",
+  "felix-mendelssohn.moment.2":
+    "그는 바그너가 훗날 그를 사적·공적으로 비난했음에도 라이프치히에서 바그너의 초기 교향곡과 리엔치 발췌, 탄호이저 서곡을 연주회에 올렸다.",
+  "felix-mendelssohn.interpretation.moment.2":
+    "이는 개인적 마찰과 상관없이 동료의 새 작품을 소개하려는 태도와 일치한다.",
+  "felix-mendelssohn.turning_point.1":
+    "뒤셀도르프에서의 힘든 직책을 거친 뒤 1835년 라이프치히 게반트하우스 지휘를 맡았고, 이후 레퍼토리를 넓히며 1843년 음악원을 세웠다.",
+  "felix-mendelssohn.interpretation.turning_point.1":
+    "이는 연주자·작곡가에서 기관을 세우는 사람으로 역할이 넓어진 흐름과 일치한다.",
+  /* ---------------------------------------------------------- gabriela-mistral (Roster57) */
+  "gabriela-mistral.achievement.1":
+    "『황폐(Desolacion)』(1922), 『애정(Ternura)』(1924), 『벌목(Tala)』(1938), 『포도압착기(Lagar)』(1954) 등의 시집을 펴냈으며, 비탄과 사랑, 어린 시절과 자연을 노래한 서정시로 라틴아메리카를 대표하는 시인이 되었다.",
+  "gabriela-mistral.achievement.2":
+    "1945년 노벨 문학상을 받았다. 그의 서정시는 라틴아메리카 세계의 이상적 열망의 상징이 되었다는 평가를 받았으며, 라틴아메리카 작가로는 처음 수상했다.",
+  "gabriela-mistral.achievement.3":
+    "독학으로 교사가 되어 푼타아레나스와 테무코의 여학교 교장을 지냈고, 1922년 멕시코의 초청을 받아 농촌 교육 개혁과 대중 도서관 계획을 도왔다.",
+  "gabriela-mistral.moment.1":
+    "신문 기고 때문에 라세레나 사범학교 입학을 거부당한 뒤, 혼자 준비해 1910년 교사 자격을 얻었다.",
+  "gabriela-mistral.interpretation.moment.1":
+    "이는 제도적 거부 이후에도 스스로의 방법으로 목표를 향해 나아가는 태도와 맞는다.",
+  "gabriela-mistral.moment.2":
+    "시인재단의 전기에 따르면 그는 푼타아레나스 교장 시절 달리 배울 길이 없던 노동자들을 위한 야간 수업을 열었다.",
+  "gabriela-mistral.interpretation.moment.2":
+    "이는 교육에서 소외된 사람들에게 교육을 넓히려는 동기와 맞는다.",
+  "gabriela-mistral.turning_point.1":
+    "1922년 미국의 스페인어 교사들의 요청으로 『황폐』가 뉴욕에서 출간되어, 멕시코에서 일하던 그에게 국제적 명성을 안겨 주었다.",
+  "gabriela-mistral.interpretation.turning_point.1":
+    "이는 칠레를 넘어 독자를 얻은 독창적인 시 세계와 맞는다.",
+  /* ---------------------------------------------------------- henrik-ibsen (Roster57) */
+  "henrik-ibsen.achievement.1":
+    "그는 중산층 배경 속에 새로운 도덕적 분석을 담은 사실주의적 현대극을 유럽 무대에 선보인 노르웨이의 주요 극작가였다.",
+  "henrik-ibsen.achievement.2":
+    "「인형의 집」(1879)으로 국제적 돌파구를 마련했고, 「유령」(1881)과 「민중의 적」(1882)이 같은 흐름으로 이어졌다.",
+  "henrik-ibsen.achievement.3":
+    "그는 희곡 26편과 시 약 300편을 썼으며, 운문극 「브란」(1866)과 「페르 귄트」(1867)도 그 가운데 있다.",
+  "henrik-ibsen.moment.1":
+    "그는 글쓰기, 식사, 카페까지의 산책과 신문 읽기로 이루어진 일과를 정해 두고 지냈으며, 대략 2년에 한 편씩 새 희곡을 냈다.",
+  "henrik-ibsen.interpretation.moment.1":
+    "이는 매우 규칙적인 작업 규율과 부합한다.",
+  "henrik-ibsen.moment.2":
+    "「인형의 집」과 「유령」 이후 비평가들이 그를 맹비난했고, 그는 불편한 진실을 말해 '민중의 적'으로 선포되는 주인공을 그린 「민중의 적」으로 응수했다.",
+  "henrik-ibsen.interpretation.moment.2":
+    "이는 비판 앞에서 물러서기보다 논쟁적인 작품을 계속 쓰는 태도와 부합한다.",
+  "henrik-ibsen.turning_point.1":
+    "1862년 크리스티아니아의 극장이 파산한 뒤 1864년 노르웨이를 떠나 이탈리아로 갔고, 27년을 해외에서 보내며 로마에서 「브란」과 「페르 귄트」를, 이후 대표작 대부분을 썼다.",
+  "henrik-ibsen.interpretation.turning_point.1":
+    "이는 직업적 좌절 뒤에도 자신의 방식으로 작업을 이어가려는 지속성 및 자율성 욕구와 부합한다.",
+  /* ---------------------------------------------------------- ilya-mechnikov (Roster57) */
+  "ilya-mechnikov.achievement.1":
+    "1883년 메시나에서 불가사리 유생의 이동성 세포를 관찰한 그는 이런 세포가 침입자를 삼켜 몸을 지킨다고 제안하고 이를 식세포 작용이라 불러 세포성 면역 이론의 토대를 놓았다.",
+  "ilya-mechnikov.achievement.2":
+    "1888년부터 파리 파스퇴르 연구소에서 일하며 베링과 에를리히의 체액성 면역 학파에 맞서 세포성 이론을 옹호했고, 에밀 루와 함께 매독이 원숭이에게 전염됨을 보였으며, 1908년 에를리히와 함께 노벨 생리의학상을 받았다.",
+  "ilya-mechnikov.achievement.3":
+    "만년에는 장내 세균총을 연구하며 발효유가 노화를 늦출 수 있다고 제안했는데, 그 효과는 입증되지 않았지만 후대 연구자들은 이를 프로바이오틱스와 마이크로바이옴 연구의 선구로 본다.",
+  "ilya-mechnikov.moment.1":
+    "이동성 세포가 몸을 방어한다는 생각을 시험하려고 그는 귤나무 가시를 투명한 불가사리 유생에 찔러 넣었고, 이튿날 아침 가시가 세포들에 둘러싸인 것을 확인했다.",
+  "ilya-mechnikov.interpretation.moment.1":
+    "이는 생각을 곧바로 단순하고 직접적인 실험으로 옮기는 습관과 부합한다.",
+  "ilya-mechnikov.moment.2":
+    "메시나에서 그의 표본을 본 피르호는 당시 받아들여지던 염증 이론이 그와 정반대라고 경고했지만, 그는 식세포 이론을 계속 발전시켰고 코흐와 베링 등에 맞서 약 25년간 옹호했다.",
+  "ilya-mechnikov.interpretation.moment.2":
+    "이는 지배적인 통설에 맞서 증거에 근거한 견해를 지켜 가는 태도와 부합한다.",
+  "ilya-mechnikov.turning_point.1":
+    "1882년 오데사 대학에 사직서를 낸 뒤 그는 메시나의 사설 실험실에서 연구했고, 그곳에서의 관찰이 그를 동물학과 발생학에서 병리학과 면역 연구로 옮겨 놓았다.",
+  "ilya-mechnikov.interpretation.turning_point.1":
+    "이는 발견이 새 길을 열었을 때 경력의 방향을 바꾸는 능력과 부합한다.",
+  /* ---------------------------------------------------------- jim-lovell (Roster57) */
+  "jim-lovell.achievement.1":
+    "1970년 4월 아폴로 13호의 사령관으로서, 산소 탱크 폭발로 달 착륙이 무산된 뒤 동료 스위거트, 헤이즈와 함께 휴스턴 관제팀과 협력해 달 착륙선을 구명정으로 삼아 무사히 지구로 귀환했다.",
+  "jim-lovell.achievement.2":
+    "1968년 아폴로 8호에 탑승해 지구 중력권을 처음 벗어나 달 궤도를 선회한 승무원이 되었으며, AP와 스미소니언 역사학자는 이 비행이 이후 달 착륙의 토대가 되었다고 평가한다.",
+  "jim-lovell.achievement.3":
+    "제미니 7호, 제미니 12호, 아폴로 8호, 아폴로 13호 등 네 차례 비행했으며, 2주간의 제미니 7호 비행을 포함해 스카이랩 이전까지 715시간의 우주 체류 기록을 보유했다.",
+  "jim-lovell.moment.1":
+    "아폴로 13호 폭발 직후 몇 시간 동안, 교신 기록에는 러벨이 관제센터의 지시를 하나하나 확인하고, 스위거트가 터널을 통해 전달한 단축 달 착륙선 가동 절차를 단계별로 복창하는 모습이 담겨 있다.",
+  "jim-lovell.interpretation.moment.1":
+    "이는 압박 속에서도 절차를 중시하고 질서 있게 일하는 방식과 부합한다.",
+  "jim-lovell.moment.2":
+    "아폴로 8호가 지구 궤도 달 착륙선 시험에서 달 선회 비행으로 바뀌었을 때 러벨은 새 임무를 수행한 승무원이었으며, 스미소니언은 이후 아폴로 13호의 궤도 수정에 그가 이때 연습한 기법이 쓰였다고 전한다.",
+  "jim-lovell.interpretation.moment.2":
+    "이는 바뀐 임무에 적응하고 기술을 이어서 활용하는 능력과 부합한다.",
+  "jim-lovell.turning_point.1":
+    "NASA의 첫 우주비행사 선발에서 뽑히지 못한 러벨은 1962년 9월 두 번째 그룹에 선발되었고, 이것이 네 차례 우주비행으로 이어진 경력의 출발점이 되었다.",
+  "jim-lovell.interpretation.turning_point.1":
+    "이는 한 박물관 큐레이터의 평가처럼 초기의 좌절 이후에도 목표를 이어가는 태도와 부합한다.",
+  /* ---------------------------------------------------------- john-bardeen (Roster57) */
+  "john-bardeen.achievement.1":
+    "1940년대 후반 벨 연구소에서 월터 브래튼과 함께 트랜지스터 효과를 발견했고, 1956년 브래튼, 윌리엄 쇼클리와 함께 노벨 물리학상을 공동 수상했다.",
+  "john-bardeen.achievement.2":
+    "1957년 리언 쿠퍼, 로버트 슈리퍼와 함께 초전도 현상에 대한 최초의 성공적 설명인 BCS 이론을 제안했으며, 세 사람은 1972년 노벨 물리학상을 받았다.",
+  "john-bardeen.achievement.3":
+    "물리학상을 두 번 받은 유일한 인물로 소개되며, 1951년부터 일리노이 대학에서 반도체 연구실과 이론 그룹을 세웠다.",
+  "john-bardeen.moment.1":
+    "1948년 1월 쇼클리가 트랜지스터 특허에 자기 이름만 올리겠다고 하자 브래튼은 큰 소리로 항의했고 바딘은 말없이 자리를 떴으며, 이후 벨의 변호사들은 바딘-브래튼 소자로 특허를 출원했다.",
+  "john-bardeen.interpretation.moment.1":
+    "이는 분쟁을 공개적으로 맞서기보다 조용히 피하는 성향과 부합한다.",
+  "john-bardeen.moment.2":
+    "일리노이에서 초전도 연구를 이끌며 박사후연구원 쿠퍼와 대학원생 슈리퍼에게 자기 아이디어를 추구할 자유를 주었고, 이후 두 사람을 미국물리학회 학회에 보내 BCS 이론을 발표하게 했다.",
+  "john-bardeen.interpretation.moment.2":
+    "이는 후배 동료와 공을 나누는 협력적 방식과 부합한다.",
+  "john-bardeen.turning_point.1":
+    "벨 연구소에서 쇼클리와 갈등을 겪은 뒤인 1951년 그는 일리노이 대학의 전기공학·물리학 교수가 되었고, 그곳에서 초전도 이론에 매진했다.",
+  "john-bardeen.interpretation.turning_point.1":
+    "이는 자신의 연구를 직접 이끌 여지를 찾는 태도와 부합한다.",
+  /* ---------------------------------------------------------- ken-thompson (Roster57) */
+  "ken-thompson.achievement.1":
+    "1969년 벨 연구소에서 데니스 리치 등과 함께 파일 시스템과 프로세스 구조를 설계하며 유닉스 운영체제의 첫 버전을 작성했고, C 언어의 전신인 B 언어를 만들었다.",
+  "ken-thompson.achievement.2":
+    "1992년 롭 파이크와 함께 플랜 9용 UTF-8 문자 인코딩을 설계했고, 2007년부터 파이크, 로버트 그리제머와 함께 Go 프로그래밍 언어를 만들었다.",
+  "ken-thompson.achievement.3":
+    "유닉스로 데니스 리치와 함께 1983년 튜링상을 공동 수상했고, 조지프 콘던과 함께 몇 해 동안 세계 최강의 컴퓨터 체스 기계였던 벨(Belle)을 만들었다.",
+  "ken-thompson.moment.1":
+    "파이크는 1992년 9월 X/Open의 전화를 받은 뒤 두 사람이 저녁을 먹으러 갔고, 톰프슨이 새 인코딩의 비트 배열을 고안해 그날 밤 인코딩 코드를 작성했으며 며칠 만에 플랜 9이 UTF-8만으로 돌아갔다고 회고한다.",
+  "ken-thompson.interpretation.moment.1":
+    "이는 설계 아이디어를 매우 빠르게 동작하는 코드로 옮기는 습관과 맞는다.",
+  "ken-thompson.moment.2":
+    "와이어드는 톰프슨이 동료의 방대한 음향 압축 코드를 실시간으로 돌아가는 버전으로 다시 썼다고 전하며, 그 동료 짐 존스턴은 톰프슨이 그 엉망을 '해치웠다'고 말했다고 인용한다.",
+  "ken-thompson.interpretation.moment.2":
+    "이는 복잡한 시스템을 간결하게 동작하는 형태로 줄이려는 성향과 맞는다.",
+  "ken-thompson.turning_point.1":
+    "1969년 벨 연구소가 멀틱스에서 빠지고 새 기계 구입 요청도 거절되자, 톰프슨은 거의 쓰이지 않던 PDP-7을 찾아 자신의 운영체제를 만들기 시작했고 이것이 유닉스가 되었다.",
+  "ken-thompson.interpretation.turning_point.1":
+    "이는 제도적 경로가 막히자 스스로 프로젝트를 시작하는 성향과 맞는다.",
+  /* ---------------------------------------------------------- lata-mangeshkar (Roster57) */
+  "lata-mangeshkar.achievement.1":
+    "그녀는 80년에 걸쳐 활동한 힌디 영화의 플레이백 가수로, 2,000편이 넘는 인도 영화의 사운드트랙에 노래를 녹음했다.",
+  "lata-mangeshkar.achievement.2":
+    "1949년 영화 「마할」의 '아예가 아네왈라'가 방송되자 청취자들이 올인디아 라디오에 목소리의 주인공을 묻는 전화를 했고, 이후 그녀는 볼리우드의 주요 음악감독 모두를 위해 녹음했다.",
+  "lata-mangeshkar.achievement.3":
+    "기네스북은 1974년 그녀를 가장 많은 녹음을 남긴 아티스트로 기록했고, 그녀는 다다사헵 팔케 상(1989)과 바라트 라트나(2001)를 받았다.",
+  "lata-mangeshkar.moment.1":
+    "그녀는 녹음 전에 모든 노래를 손으로 직접 적었고, 공연에서도 가사 수첩을 보며 노래했으며 가사가 음악만큼 중요하다고 말했다.",
+  "lata-mangeshkar.interpretation.moment.1":
+    "이는 노래의 가사에 세심하게 주의를 기울이는 태도와 부합한다.",
+  "lata-mangeshkar.moment.2":
+    "그녀는 출연료와 노래 수익의 인세 몫을 요구하는 데 주저하지 않았으며, 한 설명에 따르면 인세를 둘러싼 모하메드 라피와의 의견 차이로 한동안 듀엣이 중단되었다.",
+  "lata-mangeshkar.interpretation.moment.2":
+    "이는 업무 관계에 부담이 되더라도 직업적 입장을 밀고 나가려는 태도와 부합한다.",
+  "lata-mangeshkar.turning_point.1":
+    "당시 선호되던 목소리들 사이에서 자리 잡기 어려웠던 초기를 지나, 음악감독 굴람 하이다르의 기회를 계기로 1949년 「마할」과 「안다즈」로 첫 히트를 얻었다.",
+  "lata-mangeshkar.interpretation.turning_point.1":
+    "이는 불확실한 출발 속에서도 버틴 끝에 돌파구를 맞이한 지속성과 부합한다.",
+  /* ---------------------------------------------------------- li-ka-shing (Roster57) */
+  "li-ka-shing.achievement.1":
+    "1950년 플라스틱 제조업체 청쿵을 세워, 1970년대 말 홍콩 최대의 민간 부동산 개발업체로 키워냈다.",
+  "li-ka-shing.achievement.2":
+    "1979년 영국계 무역회사 허치슨 왐포아의 지배 지분을 사들였다. 브리태니커는 이를 중국인 사업가로서는 처음 있는 일이라고 기록하며, 이후 이 회사를 대기업 집단으로 키웠다.",
+  "li-ka-shing.achievement.3":
+    "그의 지휘 아래 허치슨은 세계 최대의 독립 항만 운영사가 되었고 이동통신으로 사업을 넓혔으며, 1999년에는 오렌지 지분을 만네스만에 매각했다.",
+  "li-ka-shing.moment.1":
+    "1979년 그는 홍콩상하이은행과 조용히 협상해 허치슨 지분을 장부가의 절반에도 못 미치는 가격에 사들이며, 영국계 무역회사 가운데 하나의 경영권을 확보했다.",
+  "li-ka-shing.interpretation.moment.1":
+    "이 일화는 저평가된 기회를 알아보는 감각이 발달해 있었음과 부합한다.",
+  "li-ka-shing.moment.2":
+    "1950년대 후반 플라스틱 공장의 임대 계약을 갱신하지 못하게 되자 그는 부지 자체를 사들였고, 블룸버그는 이를 그의 부동산 사업의 출발점으로 서술한다.",
+  "li-ka-shing.interpretation.moment.2":
+    "이는 주어진 수단을 활용해 난관을 새로운 사업 기회로 바꾸는 방식과 부합한다.",
+  "li-ka-shing.turning_point.1":
+    "1997년 3월 그는 홍콩 사업 지배구조를 재편해 허치슨 왐포아를 그룹 인프라·통신 사업의 상위 지주회사로 삼았고, 2015년에는 그룹을 CK 허치슨 홀딩스와 별도 부동산 회사로 다시 개편했다.",
+  "li-ka-shing.interpretation.turning_point.1":
+    "이러한 재편은 매우 큰 그룹을 수십 년에 걸쳐 의도적이고 구조 중심적으로 관리하는 방식과 부합한다.",
+  /* ---------------------------------------------------------- masayoshi-son (Roster57) */
+  "masayoshi-son.achievement.1":
+    "샤프에 판 음성번역 기기의 대금으로 1981년 소프트뱅크를 세웠고, 소프트웨어 유통에서 야후 재팬, 광대역 인터넷을 거쳐 2006년 보다폰 재팬 인수로 이동통신까지 사업을 넓혔다.",
+  "masayoshi-son.achievement.2":
+    "알리바바에 일찍 투자했다. 로이터에 따르면 2000년 2천만 달러였고, 브리태니커는 가장 의미 있는 초기 투자 중 하나로 꼽는다. 로이터는 2019년 소프트뱅크의 알리바바 지분 26%가 소프트뱅크 자체의 시가총액보다 크다고 전했다.",
+  "masayoshi-son.achievement.3":
+    "2017년 1천억 달러 규모의 기술 투자 펀드 소프트뱅크 비전펀드를 출범시켜 수십 개 스타트업에 대규모로 투자했다. 로이터와 CNBC는 위워크와 우버의 부진으로 2020년 3월 마감 회계연도에 약 180억 달러 손실이 났다고 보도했다.",
+  "masayoshi-son.moment.1":
+    "그는 소프트뱅크가 연 약 10억 달러 적자를 내던 시기에 부채로 대부분 조달한 200억 달러 규모의 2006년 보다폰 재팬 인수를 '무모한 도박'이라 부르며 '때로는 무모함이 좋은 수익을 낳는다'고 말했다.",
+  "masayoshi-son.interpretation.moment.1":
+    "이는 스스로 무모하다고 부른 도박에 막대한 차입 자금을 거는 태도와 일치한다.",
+  "masayoshi-son.moment.2":
+    "2020년 5월 실적 발표에서 그는 소프트뱅크가 위워크를 1년 전 470억 달러에서 29억 달러로 평가한 가운데, 위워크 투자에 대해 '내가 어리석었다고 여러 번 인정해 왔다'고 말했다.",
+  "masayoshi-son.interpretation.moment.2":
+    "이는 비싼 실수를 공개적으로 인정한 태도와 일치하지만, 그는 직관에 따르는 방식을 계속 강조했다.",
+  "masayoshi-son.turning_point.1":
+    "2017년 소프트뱅크가 비전펀드를 설립하면서 그룹은 글로벌 기술 투자로 무게를 옮겼고, 브리태니커는 이로써 손정의가 기술 금융에서 가장 면밀히 주목받는 인물 중 하나가 되었다고 설명한다.",
+  "masayoshi-son.interpretation.turning_point.1":
+    "이는 새롭고 훨씬 큰 종류의 투자를 중심으로 그룹 전략을 다시 짠 태도와 일치한다.",
+  /* ---------------------------------------------------------- octavia-hill (Roster57) */
+  "octavia-hill.achievement.1":
+    "1864년부터 러스킨의 자금으로 사들인 런던 빈민가 주택을 수리와 정기 방문, 적정 수익을 결합해 관리했고 여성 자원봉사자를 관리자로 훈련했다. 1884년에는 교회위원회의 사우스워크 부동산을 맡았으며, 그의 방식은 영국과 유럽, 미국에서 모방되었다.",
+  "octavia-hill.achievement.2":
+    "런던의 열린 공간이 개발되지 않도록 캠페인을 이끌었고, 1875년 빈민에게 아름다움과 녹지를 가져다주려는 키를 협회를 세워 팔러먼트 힐, 힐리 필즈 등을 지키는 모금을 했다.",
+  "octavia-hill.achievement.3":
+    "1895년 로버트 헌터, 하드윅 론즐리와 함께 토지와 건물을 공공을 위해 보존하는 내셔널 트러스트를 공동 창립했고, 1869년에는 에드워드 데니슨과 함께 자선조직협회를 세우는 데 참여했다.",
+  "octavia-hill.moment.1":
+    "1876년 러스킨은 그녀에게 '본질적인 원칙'에서 갈라선다는 느낌이 커진다고 쓰고, 그런 개선책이 오히려 큰 악을 부추기는 것은 아닌지 물었다. 두 사람의 사이는 끝내 온전히 회복되지 않았으나 그녀는 그의 죽음에 존경을 담아 글을 남겼다.",
+  "octavia-hill.interpretation.moment.1":
+    "이는 스승의 반대에도 자기 방식을 지키려는 태도와 일치하지만, 자료는 이 갈등을 간략히만 설명한다.",
+  "octavia-hill.moment.2":
+    "그의 방식은 정기적인 개인 방문과 사교의 자리가 된 집세 수금에 기반했으나, 유예 기간 후에도 밀린 세입자는 퇴거당했고 후대 관찰자들은 이를 생색내는 태도라고 평했다.",
+  "octavia-hill.interpretation.moment.2":
+    "이는 세세한 부분까지 직접 챙기는 관리 방식이 엄격한 규칙 중심의 면도 함께 지녔음과 일치한다.",
+  "octavia-hill.turning_point.1":
+    "1864년 러스킨이 메릴본의 패러다이스 플레이스에 있는 집 세 채를 사서 관리를 맡기면서, 그는 모사 화가이자 교사에서 주택 관리자로 방향을 바꾸었다.",
+  "octavia-hill.interpretation.turning_point.1":
+    "이는 스승의 후원을 평생의 실무적 소명으로 바꾼 인물이라는 해석과 일치한다.",
+  /* ---------------------------------------------------------- ousmane-sembene (Roster57) */
+  "ousmane-sembene.achievement.1":
+    "흔히 '아프리카 영화의 아버지'로 불리는 세네갈의 작가이자 감독으로, 아프리카 감독의 첫 주요 영화로 평가받는 「라 누아르 드...」(블랙 걸, 1966)를 만들었다.",
+  "ousmane-sembene.achievement.2":
+    "문맹이 흔한 곳에서는 책이 소수에게만 닿는다고 판단해 영화로 눈을 돌렸고, 「만다비」(1968)에서는 월로프어로 촬영하는 결정을 내렸다.",
+  "ousmane-sembene.achievement.3":
+    "그는 소설가이기도 해서 『검은 부두 노동자』(1956)부터 『신의 나무 조각들』(1960)까지 썼고, 이후 영화로는 「세도」, 「티아로예 수용소」, 칸 영화제 주목할 만한 시선상을 받은 「몰라데」가 있다.",
+  "ousmane-sembene.moment.1":
+    "모스크바에서 돌아온 뒤 그는 영사기를 들고 외딴 마을을 돌며 의자를 놓고 밤늦게까지 토론을 벌였다.",
+  "ousmane-sembene.interpretation.moment.1":
+    "이는 관객에게 직접 다가가려는 자발적 노력과 부합한다.",
+  "ousmane-sembene.moment.2":
+    "「세도」(1977)는 일부 설명에 따르면 제목 철자를 이유로 세네갈에서 상영이 금지되었고, 그는 약 십 년간 영화를 만들지 못하다가 「티아로예 수용소」(1988)로 돌아왔다.",
+  "ousmane-sembene.interpretation.moment.2":
+    "이는 작품 활동에 큰 대가를 치르면서도 논쟁적인 영화를 계속 만들려는 태도와 부합한다.",
+  "ousmane-sembene.turning_point.1":
+    "1960년경 소설가로 자리 잡은 뒤, 프랑스어를 읽지 못하는 아프리카 관객에게 다가가기 위해 영화로 전환했고 모스크바에서 공부했다.",
+  "ousmane-sembene.interpretation.turning_point.1":
+    "이는 더 넓은 관객에게 닿으려는 동기가 매체 선택을 이끌었다는 해석과 부합한다.",
+  /* ---------------------------------------------------------- rudolf-nureyev (Roster57) */
+  "rudolf-nureyev.achievement.1":
+    "20세기에 가장 유명한 발레 무용수 중 한 명이 되었으며, 브리태니커는 그가 발레에서 남성 역할의 비중을 되살리고 발레 관객층을 크게 넓혔다고 평가한다.",
+  "rudolf-nureyev.achievement.2":
+    "1962년 2월 지젤을 시작으로 로열 발레에서 마고 폰테인과 함께 춤췄으며, 애슈턴은 두 사람을 위해 '마르그리트와 아르망'을 만들었고 서로의 스타일에 영향을 주었다고 평가된다.",
+  "rudolf-nureyev.achievement.3":
+    "남성 주역을 중심에 둔 백조의 호수(빈, 1964)를 비롯한 고전 발레를 재안무하고 돈키호테 영화(1973)를 공동 연출했으며 1983~89년 파리 오페라 발레를 이끌었다. 다만 그의 안무의 가치는 비평가들 사이에서 논쟁이 있다.",
+  "rudolf-nureyev.moment.1":
+    "1960년 키로프에서 헐렁한 의상을 두고 소동을 벌인 뒤 덮개 바지 없이 타이츠만 입고 춤추기 시작했고, 이는 발레리나에게서 영감을 얻은 상체 표현과 함께 오늘날 주류가 되었다고 더 네이션은 쓴다.",
+  "rudolf-nureyev.interpretation.moment.1":
+    "관습에 맞서 자신의 무대 스타일을 밀어붙였고 그것이 이후 표준이 된 연주자의 면모와 일치한다.",
+  "rudolf-nureyev.moment.2":
+    "런던 데뷔 때는 기술이 거칠었지만 자신의 한계를 고치기 위해 집요하게 노력했고 폰테인에게서 영국식 자세를 배웠으며, 니넷 드 발루아는 그가 25세 무렵 거의 완벽해졌다고 평가했다.",
+  "rudolf-nureyev.interpretation.moment.2":
+    "다른 이들에게서 배울 수 있는 것을 흡수하며 기량을 완성하려는 강한 의지와 일치한다.",
+  "rudolf-nureyev.turning_point.1":
+    "1962년부터 로열 발레에서 폰테인과 호흡을 맞추며 보다 세련된 영국식 훈련을 받아들였고 그녀의 춤에도 새로운 강렬함이 더해졌으며, 그는 국제적 스타가 되었다.",
+  "rudolf-nureyev.interpretation.turning_point.1":
+    "자신의 힘을 유지하면서도 새로운 전통에 맞춰 스타일을 조정한 연주자의 면모와 일치한다.",
+  /* ---------------------------------------------------------- shinya-yamanaka (Roster57) */
+  "shinya-yamanaka.achievement.1":
+    "2006년 다카하시 가즈토시와 함께 단 네 개의 유전자를 넣는 것만으로 성숙한 생쥐 세포를 만능줄기세포로 되돌릴 수 있음을 보였고, 이를 iPS 세포라고 이름 붙였다.",
+  "shinya-yamanaka.achievement.2":
+    "성숙한 세포를 만능성 세포로 되돌릴 수 있음을 발견한 공로로 2012년 존 거던과 함께 노벨 생리의학상을 공동 수상했다.",
+  "shinya-yamanaka.achievement.3":
+    "2007년 그의 연구실은 사람 iPS 세포를 보고했으며(같은 날 제임스 톰슨 연구실은 다른 유전자 조합으로 보고), 2008년부터 교토대 iPS세포연구소(CiRA)를 이끌며 임상 응용을 추진했다.",
+  "shinya-yamanaka.moment.1":
+    "그는 후보 유전자 24개를 한꺼번에 피부 세포에 넣었고, 전체 혼합물에서만 집락이 나타났으며 다카하시가 이를 네 가지 인자로 좁혔다.",
+  "shinya-yamanaka.interpretation.moment.1":
+    "이는 가능성이 낮은 아이디어에 대담한 일괄 실험을 시도하는 태도와 부합한다.",
+  "shinya-yamanaka.moment.2":
+    "2011년 6월 그는 비판에 답하기 위해 배아줄기세포 10주와 iPS 세포 50주의 데이터를 제시했고, 일부 iPS 세포주가 실제로 배아줄기세포와 다르다는 점을 인정했다.",
+  "shinya-yamanaka.interpretation.moment.2":
+    "이는 비판에 부정이 아니라 데이터로 답하는 태도와 부합한다.",
+  "shinya-yamanaka.turning_point.1":
+    "정형외과 레지던트를 마친 뒤 그는 수술의 길을 떠나 1989년 약리학 박사과정에 들어갔고 샌프란시스코에서 생쥐 유전학 박사후 연구를 했으며, 이 경로가 줄기세포 연구로 이어졌다.",
+  "shinya-yamanaka.interpretation.turning_point.1":
+    "이는 다른 곳에서 더 큰 기여를 할 수 있다고 판단하면 분야를 바꾸는 태도와 부합한다.",
+  /* ---------------------------------------------------------- teresa-of-avila (Roster57) */
+  "teresa-of-avila.achievement.1":
+    "1562년 그녀는 강한 지역의 반발 속에서 재산 기부 없이 아빌라에 성 요셉 수녀원을 세워, 수도회를 관상과 엄격한 생활로 되돌리려는 맨발 가르멜 개혁을 시작했다.",
+  "teresa-of-avila.achievement.2":
+    "이후 그녀는 스페인 곳곳에 약 열일곱 개의 수녀원을 세웠고, 1580년에는 펠리페 2세의 지지 속에 개혁 가르멜회가 독립적인 지위를 인정받았다.",
+  "teresa-of-avila.achievement.3":
+    "기도와 영혼이 하느님께 이르는 여정을 다룬 『완덕의 길』, 『창립의 서』, 『영혼의 성』 등의 저술로 그녀는 중요한 영성 저술가가 되었고 1970년 교회학자로 선포되었다.",
+  "teresa-of-avila.moment.1":
+    "1562년 그녀는 재산 기부 없이 성 요셉 수녀원을 열었고, 시민과 성직자들의 반발에도 공공의 자선만으로 살아간다는 원칙을 고집했다.",
+  "teresa-of-avila.interpretation.moment.1":
+    "이는 외부의 압력 속에서도 높은 기준을 지켜 가는 태도와 부합한다.",
+  "teresa-of-avila.moment.2":
+    "예순에 가까운 나이에 수레를 타고 안달루시아를 가로지르면서도 그녀는 수녀원 설립을 이어 갔고, 훗날 교황 사절은 그녀를 쉴 새 없이 돌아다니는 불순종하는 여자라고 불렀다.",
+  "teresa-of-avila.interpretation.moment.2":
+    "이는 일하는 방식에 대한 비판에도 일을 계속해 나가는 끈기와 부합한다.",
+  "teresa-of-avila.turning_point.1":
+    "1560년 그녀는 강생 수녀원의 소수 수녀들과 함께 더 엄격한 본래의 가르멜 회칙을 따르기로 서약했고, 이는 2년 뒤 그녀가 수녀원을 떠나 개혁 수녀원을 세우는 일로 이어졌다.",
+  "teresa-of-avila.interpretation.turning_point.1":
+    "이는 지시를 기다리기보다 먼저 나서서 제도를 바꾸려는 주도성과 부합한다.",
+  /* ---------------------------------------------------------- yao-ming (Roster57) */
+  "yao-ming.achievement.1":
+    "중국 프로리그에서 뛰다 2002년 휴스턴 로키츠에 전체 1순위로 지명되어 9시즌 동안 센터로 활약했으며, 올스타에 8차례 뽑히고 경기당 평균 19.0점 9.2리바운드 1.9블록을 기록했다.",
+  "yao-ming.achievement.2":
+    "NBA를 중국에 알린 공로를 크게 인정받으며, 그의 재임 기간 중국에서 NBA 상품 판매와 시청률이 크게 늘었고, 그가 출전한 2007년 경기는 2억 명 넘는 중국 시청자가 지켜봤다.",
+  "yao-ming.achievement.3":
+    "발과 발목 부상으로 2011년 선수 생활을 마쳤음에도 네이스미스 농구 명예의 전당에 헌액되었고 로키츠는 그의 11번을 영구결번했다.",
+  "yao-ming.moment.1":
+    "밴 건디는 야오가 매 훈련 전에 웨이트 트레이닝, 토머스 티보도 코치와의 영상 분석, 개인 훈련을 소화해 훈련이 시작될 때쯤이면 이미 몇 시간째 훈련장에 있었다고 설명한다.",
+  "yao-ming.interpretation.moment.1":
+    "이 설명은 꾸준하고 루틴에 기반한 준비 방식과 부합한다.",
+  "yao-ming.moment.2":
+    "밴 건디는 야오가 동료의 좋은 플레이마다 벤치에서 일어나 환호했고, 타임아웃 때면 가장 먼저 달려나가 동료를 맞았다고 회상한다.",
+  "yao-ming.interpretation.moment.2":
+    "이는 팀을 우선하며 동료를 지지하는 태도와 부합한다.",
+  "yao-ming.turning_point.1":
+    "2002년 상하이 샤크스에서 막 우승을 차지한 그는 중국 리그를 떠나 전체 1순위로 NBA에 입성했고, 휴스턴에서 9시즌 경력이 시작되었다.",
+  "yao-ming.interpretation.turning_point.1":
+    "이 이적은 그의 신인 시즌 성적이 보여주듯 새로운 리그와 환경에 적응하는 능력과 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

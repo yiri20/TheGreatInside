@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ousmane-sembene",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ousmane Sembene",
+    "aliases": [
+      "Ousmane Sembène",
+      "Sembene Ousmane"
+    ],
+    "wikidataId": "Q314966",
+    "birthYear": 1923,
+    "deathYear": 2007,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "SN"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "film_director",
+      "writer"
+    ],
+    "fieldIds": [
+      "film",
+      "literature"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sembene_wikidata",
+      "kind": "wikidata",
+      "title": "Ousmane Sembene (Q314966), verified live via the Wikidata API (2026-10-25): label 'Ousmane Sembène', description 'Senegalese film director, producer, screenwriter, actor, and author (1923-2007)', Korean label in Hangul, born 1923-01-01, died 2007-06-09, P18 image by Guenter Prust. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q314966"
+    },
+    {
+      "id": "src_sembene_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Ousmane Sembene', read in full. CANONICAL SIGNIFICANCE SOURCE: Senegalese writer and film director; early work as fisherman, mason and mechanic, service in the Free French forces, years as a docker and trade unionist in Marseille; self-taught in French; novels from Le Docker noir (1956) to God's Bits of Wood (1960); turned to film around 1960 to reach an African audience most of whom could not read French; Moscow film school; La Noire de... (1966) regarded as the first major film by an African filmmaker; Mandabi (1968) in Wolof; Ceddo (1977) banned in Senegal; Camp de Thiaroye, Guelwaar, Moolaade (Cannes Un Certain Regard). Reference entry: factual, admiring.",
+      "url": "https://www.britannica.com/biography/Ousmane-Sembene"
+    },
+    {
+      "id": "src_sembene_afny",
+      "kind": "institution",
+      "title": "African Film Festival (New York), 'Ousmane Sembene' filmmaker page, read in full: his move from father's fishing trade to mechanic, mason and army service, labour-movement militancy, work as a longshoreman in Marseille, the 1956 novel, the decision to become a filmmaker because much of his target audience could not read, study in Moscow, the short Borom Sarret (1963) as the first fiction film by an African distributed outside Africa, and his film list. Festival organisation's biography: factual and admiring; the 'first' claims are quoted as this source states them.",
+      "url": "https://africanfilmny.org/?p=6978"
+    },
+    {
+      "id": "src_sembene_maverick",
+      "kind": "press",
+      "title": "Daily Maverick, 'Iconic African cinema: Ousmane Sembene' (15 June 2021), read in full: his family and schooling, the move into film to reach working-class Africans, the lack of equipment and funding under colonial rule, Borom Sarret made with limited equipment and family help, Prix Jean Vigo for La Noire de..., quotations from the film critic A. O. Scott (2007) on his influence, on his unsparing criticism of African governments that made him controversial, and on his larger audience at foreign festivals than at home, and a Cannes 2004 remark about Africa not being an eternal guest. Popular profile quoting critics; the Scott lines are read through this article only.",
+      "url": "https://www.dailymaverick.co.za/article/2021-06-15-iconic-african-cinema-ousmane-sembene/"
+    },
+    {
+      "id": "src_sembene_austin",
+      "kind": "press",
+      "title": "Marjorie Baumgarten, 'Senegal's Pere du Cinema' (The Austin Chronicle, on the Austin Film Society's Sembene series), read in full: his background, the 1947 railway strike, union and party activity in Marseille, his stated reason for moving from books to film (a book reaches a limited number of people where illiteracy prevails), the first film Borom Sarret (1963), La Noire de... as the first film by a sub-Saharan director seen outside the continent, Mandabi in Wolof, satire running through the later films, and a note that his work is not as widely known as it deserves. Critic's series preview: admiring.",
+      "url": "https://www.austinchronicle.com/screens/senegals-pere-du-cinema-11751103/"
+    },
+    {
+      "id": "src_sembene_jacobin",
+      "kind": "press",
+      "title": "Jacobin (German edition), 'Hundred years of Ousmane Sembene' (2023), read in full. COUNTER-VOICE / independent angle: a left-leaning retrospective that records his reservations about the 'father of African cinema' title, his Moscow training with Mark Donskoi, his projector tours of villages with late-night discussions, his tension between a French industry that financed him but wanted Wolof dubbed and a Senegalese government that tried to censor him, the ban of Ceddo (officially over the spelling of the title) and a near-decade without a film before Camp de Thiaroye, his reliance on European broadcasters in later years, and the later decline of Senegal's cinema infrastructure. Opinionated retrospective; its political framing is not scored.",
+      "url": "https://jacobin.de/artikel/100-jahre-ousmane-sembene-antikolonialismus-afrika-antikapitalismus-tsogo-kupa"
+    },
+    {
+      "id": "src_sembene_aps",
+      "kind": "press",
+      "title": "au-senegal.com, 'Hommage a Sembene Ousmane, militant jusqu'au bout de la cause africaine' (tributes after his death on 9 June 2007), read in full: his path from school expulsion to Marseille, the move to Moscow's Gorky studio where he learned to handle a camera, return to Senegal and screenings in working-class districts, Borom Sarret (1963), La Noire de... prizes, the list of later films, the ban of Ceddo (the stated spelling objection) and the refusal of Camp de Thiaroye at Cannes, and tributes from a fellow writer, a party leader who knew him in Marseille, and a young filmmaker. French-language obituary compilation: warmly admiring; the party leader's remarks are partisan.",
+      "url": "https://au-senegal.com/hommage-a-sembene-ousmane-militant-jusqu-au-bout-de-la-cause-africaine,1347.html"
+    },
+    {
+      "id": "src_sembene_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Ousmane Sembene (1987) by Guenter Prust.jpg' (photograph by Guenter Prust, CC BY 3.0, taken on a visit to Berlin on 18 November 1987), checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Ousmane_Semb%C3%A8ne_(1987)_by_Guenter_Prust.jpg"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sembene_brit, src_sembene_aps, src_sembene_jacobin, src_sembene_maverick | 1960s-2000s | reference + press] He chose to film in Wolof from Mandabi (1968) (Britannica), and the tributes quote him saying he would never kneel and that he wanted to talk with his people openly (au-senegal.com); Jacobin describes him steering between a French industry that wanted Wolof dubbed and a government that tried to censor him, and Daily Maverick notes he told Cannes in 2004 that Africa should not be an eternal guest. The quotations are retrospective tributes and his own statements, so this is read as a strong inference about a need to work on his own terms, with moderate confidence."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sembene_jacobin, src_sembene_aps, src_sembene_brit, src_sembene_maverick | 1963-1988 | press + reference] Daily Maverick says Borom Sarret was made with limited equipment and help from family; Britannica says Ceddo was banned in Senegal, and Jacobin says he was kept from making films for nearly a decade after it before returning with Camp de Thiaroye (1988), which au-senegal.com says was not accepted at Cannes. The sources differ on why Ceddo was banned (spelling of the title versus content), and the gap in output is stated by one source, so confidence is moderate."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sembene_afny, src_sembene_austin, src_sembene_jacobin, src_sembene_brit | 1956-1963 | institution + press + reference] After becoming an established novelist, he concluded in his own words that a book reaches few people where illiteracy prevails (Austin Chronicle), sought film training abroad and studied in Moscow (Britannica, Jacobin), then made Borom Sarret in 1963 and, per Jacobin, toured remote villages with a projector and held discussions. Three independent outlets plus a reference entry describe the same chain of self-initiated steps; the quoted reasoning comes from his own interview statement."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sembene_brit, src_sembene_afny, src_sembene_austin, src_sembene_maverick | 1960s onward | reference + institution + press] Britannica says he took up film to reach an African popular audience, about 80 percent of whom did not know French, and the Austin Chronicle and Daily Maverick report the same aim of reaching working-class Africans who could not read his books. The motive is stated consistently across independent outlets, but it is largely his own account relayed in admiring profiles, so confidence is moderate; only the artistic aim of reaching an audience is scored, not any political position."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sembene_brit, src_sembene_austin, src_sembene_maverick | 1963-1977 | reference + press] Britannica calls Mandabi's Wolof-language film a revolutionary decision and La Noire de... the first major film by an African filmmaker; the Austin Chronicle says the later films mix satire of bureaucracy with grounded cultural detail, and A. O. Scott (quoted by Daily Maverick) calls his importance hard to overstate. This rests on critics' assessments and 'first' claims quoted from sources rather than a close reading of the films, so it is a strong inference with moderate confidence."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sembene_brit, src_sembene_afny, src_sembene_jacobin | 1950s-1980s | reference + institution + press] He published novels and story collections from 1956 and then became a film director, and Jacobin says literature remained his great love and several films began as stories or novels; Britannica notes that Xala was both a novel and one of his best films. Working across two disciplines is documented by independent sources; the sources do not assess the depth of his skill in each, so confidence is moderate."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sembene_maverick, src_sembene_jacobin, src_sembene_aps, src_sembene_brit | 1977-1988 | press + reference] Daily Maverick (quoting A. O. Scott) says his unsparing criticism of African governments made him a controversial figure and that several films were banned at various times; Britannica and Jacobin report Ceddo banned in Senegal and Jacobin a long interruption of his film work, and au-senegal.com says Camp de Thiaroye was not accepted at Cannes. The cost to his output makes this dual-edged; the reasons for the Ceddo ban are reported differently, so the claim is limited to continuing to make contested films despite official pushback. Only the professional consequence is scored, not the political position."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "우스만 셈벤"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ousmane-sembene-prust-1987.jpg",
+    "width": 201,
+    "height": 250,
+    "source": "Wikimedia Commons file 'Ousmane Sembene (1987) by Guenter Prust.jpg': photograph by Guenter Prust of Ousmane Sembene on a visit to Berlin on 18 November 1987, uploaded by the photographer's account in November 2012 with his own statement that the work is his and that credit to him is required. Licensed CC BY 3.0. The original file is 201 x 250 pixels (6 KB); it is saved unchanged, never enlarged. The photographer's page foto-prust.de was not opened. Small but concrete: creator, date, place and licence are all stated on the file page by the photographer himself. A statue photograph in the Commons category (Laurent Mongis, 2017) was rejected because it does not show the person.",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Photo: Guenter Prust, 1987, CC BY 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Ousmane_Semb%C3%A8ne_(1987)_by_Guenter_Prust.jpg",
+    "creator": "Guenter Prust",
+    "date": "1987",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ousmane_Semb%C3%A8ne_(1987)_by_Guenter_Prust.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-25T00:00:00Z",
+    "updatedAt": "2026-10-25T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / photographer-uploaded CC BY 3.0 with the photographer's own on-page credit statement (same basis as other shipped photographer-uploaded portraits); 201x250 accepted at native size; photographer site not reachable. PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-25) for Q314966 returned label 'Ousmane Sembène', description 'Senegalese film director, producer, screenwriter, actor, and author (1923-2007)', born 1923-01-01, died 2007-06-09; the lead's hint was correct. SLUG/QID CHECK: no candidate or src/data reference to ousmane-sembene or Q314966 in the roster57 worktree. REGION: sub_saharan_africa (Senegalese). VOCABULARY: occupations film_director and writer (novelist and screenwriter are unlabeled and not used), fields film and literature, impact domains artistic and cultural, tags innovator and independent, archetypes creative_creator and independent_creator are existing ids with EN+KO labels. ZERO POLITICS: his primary identity is filmmaker and author. The railway strike, trade-union activism, Communist Party membership, wartime service and anti-colonial themes are biography and context only and are not scored; the rows score artistic aims, initiative, endurance and the professional cost of censorship, not any political stance or activism. His own and his sources' political framing (Jacobin, party-leader tribute) is excluded from scoring. HEALTH: the spinal injury and later illness appear in sources only as career facts and nothing is inferred from them. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Ousmane Sembene' (https://www.britannica.com/biography/Ousmane-Sembene). READ (6 cited non-Wikidata sources besides the portrait page, read as saved text): Britannica, African Film Festival New York biography, Daily Maverick, Austin Chronicle, Jacobin (German), au-senegal.com tributes. PERSPECTIVES: reference; film-festival institution; two English-language critics' profiles; a left retrospective with an independent angle on funding, censorship and the later industry (counter-voice); a French-language tribute compilation (admiring, partly partisan). NOT OPENED: Samba Gadjigo's biography (its correct title is 'Ousmane Sembene: The Making of a Militant Artist'; only bibliographic records and the Harrow African Studies Review review preview were reached, the review text is paywalled), Sheila Petty's edited volume, the Guardian and New York Times obituaries (Guardian URL 404, NYT 403; A. O. Scott's lines reach this file only through Daily Maverick), Wikipedia. SOURCE-DEPTH CAVEAT: all behavioural evidence is from encyclopaedia, institution and press profiles; no biography or interview was read directly and several quotations are his own words relayed secondhand, so confidence is capped at 0.56 and no row exceeds 76. The reason Ceddo was banned is reported differently (the title's spelling versus its content) and is stated as disputed. PORTRAIT_PREFLIGHT: risky (lead) / accepted: the Commons page carries the photographer's own statement of authorship, date and place and a CC BY 3.0 licence, so the rights basis is concrete; its remaining weakness is size (201 x 250, no larger original) and that the photographer asks users to keep the original file name, a courtesy request beyond the licence that is noted here and not followed (the file is renamed under the repo convention, with full credit given). The only other likely image in the category is a statue photo, not a likeness. SELF-CALIBRATION: top-risk rows impact_motivation (mostly his own account relayed by admiring profiles; kept at 76 / 0.56 because Britannica, the Austin Chronicle and Daily Maverick state it independently and Jacobin describes the village tours), conflict_tolerance (kept; the political framing is not scored) and persistence (kept; the gap in output depends on one source and is flagged); no rows lowered. SCOPE FLAG: seven rows, sparse and moderate-confidence throughout because no biography was read."
+  }
+}

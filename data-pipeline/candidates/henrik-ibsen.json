@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "henrik-ibsen",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Henrik Ibsen",
+    "aliases": [
+      "Henrik Johan Ibsen"
+    ],
+    "wikidataId": "Q36661",
+    "birthYear": 1828,
+    "deathYear": 1906,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "NO"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "poet"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ibsen_wikidata",
+      "kind": "wikidata",
+      "title": "Henrik Ibsen (Q36661), verified live via the Wikidata API (2026-10-25): label 'Henrik Ibsen', description 'Norwegian playwright and theatre director (1828-1906)', Korean label in Hangul, born 1828-03-20, died 1906-05-23, several P18 images including 'Ibsen by Olrik.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q36661"
+    },
+    {
+      "id": "src_ibsen_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Henrik Ibsen', read in full. CANONICAL SIGNIFICANCE SOURCE: major Norwegian playwright of the late nineteenth century who brought realistic contemporary social drama to the European stage; early theatre work in Bergen and Christiania and the unsuccessful early plays and bankrupt theatre; 27 years abroad from 1864; the verse dramas Brand and Peer Gynt; the prose plays from Pillars of Society to A Doll's House (1879), Ghosts (1881), An Enemy of the People, The Wild Duck and Rosmersholm; the scandalised reaction and the critics who denounced him. Reference entry with interpretive commentary: factual, admiring, and its character readings of the plays are not used as evidence of his own character.",
+      "url": "https://www.britannica.com/biography/Henrik-Ibsen"
+    },
+    {
+      "id": "src_ibsen_uio",
+      "kind": "institution",
+      "title": "University of Oslo, Ibsen Centre, 'Short biography' and 'Chronological survey of Ibsen's life and works' (Ibsen archive and Virtual Ibsen Centre), both read in full: Grimstad apprenticeship, first poem 1849, debut play Catiline 1850 under a pseudonym, six years in Bergen writing and staging six plays and learning the theatre as a director, the bankruptcy of the Christiania theatre in 1862, departure in 1864, publication in Copenhagen from Brand onward, Emperor and Galilean (1873), the contemporary plays from 1877, A Doll's House as the international breakthrough, 26 dramatic works and about 300 poems, and the year-by-year list of writing and first stagings. University research-centre biography: factual and admiring.",
+      "url": "https://www.hf.uio.no/is/english/services/knowledge/ibsen-archive/text/life/biography/"
+    },
+    {
+      "id": "src_ibsen_scandinavica",
+      "kind": "press",
+      "title": "Kirsten Shepherd-Barr, review of Ivo de Figueiredo's 'Henrik Ibsen: The Man and the Mask' (Yale, 2019), Scandinavica vol. 59 no. 1 (2020), read in full. Independent scholarly review of a biography: Ibsen's rigidly methodical daily routine and a new play about every two years, his careful management of his reputation and publication and his distance from movements that sought to claim him, the finding that his early plays were more successful with Nordic and German audiences than the usual story says, and the reviewer's criticisms of the biography's thesis and character-reading. Its closing speculation about his mind and private conduct was read and deliberately excluded from scoring.",
+      "url": "https://www.scandinavica.net/article/24304.pdf"
+    },
+    {
+      "id": "src_ibsen_openletters",
+      "kind": "press",
+      "title": "Steve Donoghue, review of Ivo de Figueiredo's 'Henrik Ibsen: The Man and the Mask', Open Letters Monthly, read in full: calls it the most lauded life of Ibsen since Michael Meyer's, notes the biography's view that he was a poet before he became a dramatist and took longer to master dramatic form. Short, admiring trade-press review of the biography; no behavioural claim relies on it alone.",
+      "url": "https://openlettersreview.com/posts/henrik-ibsen-the-man-amp-the-mask-by-ivo-de-figueiredo"
+    },
+    {
+      "id": "src_ibsen_freebeacon",
+      "kind": "press",
+      "title": "Washington Free Beacon, 'To Shock and Offend', review essay on de Figueiredo's biography, read in full. COUNTER-VOICE: argues that Ibsen has faded as a classic, that his stock of social-problem characters now seems hackneyed, that he wanted his plays to shock and offend and that he constantly solicited medals and decorations from European governments. An opinionated essay: its account of his family and private conduct was read and excluded; the claims about honours and shock are used only as a critical reading, with the honours remark carrying low weight as the reviewer's summary of the biography.",
+      "url": "https://freebeacon.com/culture/to-shock-and-offend/"
+    },
+    {
+      "id": "src_ibsen_portrait",
+      "kind": "archive",
+      "title": "Nasjonalmuseet (National Museum of Art, Architecture and Design, Oslo) collection record NG.M.00355, 'Henrik Olrik, Henrik Ibsen' (oil on canvas, 1879, acquired 1890), and its Wikimedia Commons file page 'Ibsen by Olrik.jpg', checked for the portrait only.",
+      "url": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00355"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ibsen_scandinavica, src_ibsen_uio, src_ibsen_brit | 1850s-1899 | scholarly review + institution + reference] The Scandinavica reviewer, summarising the biography, says he became extremely methodical, rigidly structuring his days around dressing, writing, eating, a walk to the cafe and the papers, and produced a new play about every two years, which is why a departure such as Ghosts startled; the Oslo centre lists 26 dramatic works and about 300 poems and the year-by-year chronology of publications, and Britannica notes that in Bergen he had to write a new play every year. The routine comes through one reviewer's account of a biography I did not read directly, but the output record is independently documented."
+    },
+    "autonomy_need": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ibsen_scandinavica, src_ibsen_brit, src_ibsen_uio | 1862-1890s | scholarly review + reference + institution] The reviewer says he distanced himself from movements, such as feminism or socialism, that tried to align him with their cause so as to maintain his originality and autonomy, and Britannica says that after the Christiania theatre collapsed he wrote for himself without regard for the public; the Oslo centre records that from Brand onward he published through a Copenhagen house rather than in Christiania. The distancing claim rests on one review of a biography, so this is a strong inference with moderate confidence."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ibsen_brit, src_ibsen_uio | 1877-1890 | reference + institution] Britannica says that in A Doll's House he refused the happy ending any contemporary playwright would have supplied and that An Enemy of the People answered his denouncers; the Oslo centre says the contemporary plays addressed inflammatory themes of marriage, hypocrisy and abuse of power. Both are admiring, interpretive accounts of the plays rather than records of how he reasoned, and the critical essay treats the same ideas as dated. SELF-CALIBRATION (agent): first set at 76 / 0.55, lowered to 70 / 0.5 because the claim rests on interpretive commentary about the plays by admiring sources and one-sentence evidence of his own reasoning, so it is stronger than the documented behaviour."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ibsen_brit, src_ibsen_uio, src_ibsen_scandinavica, src_ibsen_freebeacon | 1866-1890 | reference + institution + scholarly review + critic] Britannica says he introduced to the European stage a new order of moral analysis against a realistic middle-class background, and the Oslo centre says his contemporary plays put him at the forefront of the modern breakthrough and laid the foundation for the modern theatre; the Scandinavica reviewer's note on how he managed publication and performances and the critical Free Beacon essay (the stock characters now feel familiar) show the judgement is contested in degree. The claim is by reference and institutional assessment, not by close reading of the plays, so confidence is moderate."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ibsen_brit, src_ibsen_uio, src_ibsen_freebeacon | 1879-1884 | reference + institution + critic] Britannica says that after A Doll's House and Ghosts conventionally minded critics denounced him as if he had desecrated the sacred, and that he answered with An Enemy of the People; the Oslo centre calls the plays inflammatory in theme, and the Free Beacon reviewer says he wanted his plays to shock and offend. He kept writing in the same vein, but the sources do not describe his reaction directly (the reaction is read from the next play), so this is an inference; dual-edged because the confrontation also cost him goodwill at home (Britannica on his bitterness towards Norway)."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ibsen_brit, src_ibsen_uio, src_ibsen_scandinavica | 1850-1864 | reference + institution + scholarly review] Britannica says his early plays were unsuccessful and the theatre he worked for went bankrupt, after which he left for Italy and wrote Brand and Peer Gynt; the Oslo centre records six plays staged in six Bergen years. The Scandinavica reviewer corrects the usual story by saying the early plays were popular with Nordic and German audiences, so the setback narrative is only partly supported and this is a modest inference."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ibsen_brit, src_ibsen_uio, src_ibsen_openletters | 1850s-1880s | reference + institution + trade review] Britannica traces moves from attempts at a national drama to the verse dramas Brand and Peer Gynt, a ten-act historical drama (Emperor and Galilean) and then the prose plays, and says each classic play grows by extension or reversal from its predecessor; the Open Letters reviewer notes he was a poet before he was a dramatist and mastered dramatic form later. The sources describe changes of form in his output, not experiments he described himself, so it is a strong inference with moderate confidence."
+    },
+    "achievement_drive": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ibsen_scandinavica, src_ibsen_freebeacon | 1870s-1890s | scholarly review + critic] The scholarly reviewer says he carefully managed his reputation and the publicity around his plays, and the critical essay says he constantly solicited medals and decorations from European governments. Two reviews of one biography, the second an opinionated summary I could not check against the biography, so this is a low-confidence reading of concern for standing and recognition."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "헨리크 입센"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/henrik-ibsen-olrik-1879.jpg",
+    "width": 937,
+    "height": 1200,
+    "source": "Portrait of Henrik Ibsen by Henrik Olrik, oil on canvas, 55 x 43.5 cm, dated 1879 (the canvas is signed 'H. Olrik, Roma 1879'), Nasjonalmuseet, Oslo, inventory NG.M.00355, acquired 1890, via Wikimedia Commons file 'Ibsen by Olrik.jpg' (original 2342 x 3000). The painter died in 1890, so the work is in the public domain worldwide and in the United States by its pre-1931 date; the Commons page states a faithful reproduction of a two-dimensional public-domain work adds no new copyright. The museum's collection record gives no conflicting copyright notice. The stored file was downscaled only, from a 1280 x 1640 Commons rendition to 937 x 1200 pixels, never enlarged. No source I read states that Ibsen sat for this painting, so it is presented as a painted portrait, not as a photograph; the lead may upgrade the classification if a documented sitting is found.",
+    "license": "Public domain (painter Henrik Olrik died 1890)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Henrik Olrik, portrait of Henrik Ibsen, 1879, Nasjonalmuseet, Oslo (public domain)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Ibsen_by_Olrik.jpg",
+    "creator": "Henrik Olrik",
+    "date": "1879",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ibsen_by_Olrik.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-25T00:00:00Z",
+    "updatedAt": "2026-10-25T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / Olrik 1879 oil portrait, painter died 1890; public domain by age; no documented sitting so historical_depiction. PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-25) for Q36661 returned label 'Henrik Ibsen', description 'Norwegian playwright and theatre director (1828-1906)', born 1828-03-20, died 1906-05-23; the lead's hint was correct. SLUG/QID CHECK: no candidate or src/data reference to henrik-ibsen or Q36661 in the roster57 worktree. REGION: western_europe (Norwegian; lived mainly in Italy and Germany 1864-1891 but the repo treats Scandinavian figures as western_europe). VOCABULARY: occupations writer and poet (playwright and dramatist are unlabeled and not used), field literature, impact domains literary and cultural, tags innovator and prolific, archetype creative_creator are existing ids with EN+KO labels. ZERO POLITICS: nothing political is scored; his distance from political and feminist movements is cited only as a professional fact about managing his reputation. PRIVATE LIFE AND HEALTH: the reviews' material on his marriage, his son, an earlier relationship and child, his drinking, and the Scandinavica reviewer's speculation about a diagnosis or mental condition were read and excluded entirely; nothing is inferred from illness or private conduct. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Henrik Ibsen' (https://www.britannica.com/biography/Henrik-Ibsen). READ (6 cited non-Wikidata sources besides the portrait record, read as saved text): Britannica, University of Oslo Ibsen Centre biography and chronology (counted as one), Scandinavica review, Open Letters review, Free Beacon essay. PERSPECTIVES: reference; university research-centre biography; an independent scholarly review of a biography (critical of the biography's method); a trade-press review (admiring); a critical opinion essay (counter-voice: faded classic, hackneyed characters, shock and honours-seeking). NOT OPENED: de Figueiredo's, Meyer's and Ferguson's biographies themselves (lending or paywalled; known only through the reviews), the Australian Book Review review (connection failed), the Warwick thesis on his English reception (abstract only), Poetry Foundation and National Library of Norway pages (404 at guessed URLs), Wikipedia. SOURCE-DEPTH CAVEAT: no biography or letters were read directly; behavioural claims about routine and reputation management come from one scholarly review, so confidence is capped at 0.6 and no row exceeds 76. PORTRAIT_PREFLIGHT: strong (lead) / confirmed: the museum record (creator, 1879, oil on canvas, acquired 1890) and the Commons file page agree, the creator died in 1890, and the museum page has no conflicting notice; the signature on the canvas reads Rome 1879, when Ibsen lived in Rome, which is consistent with but does not document a sitting, so the kind is set to a painted depiction. SELF-CALIBRATION: top-risk rows creative_originality (kept: reference and institution assessments agree, with a critical counter-view recorded), discipline (kept: the routine rests on one review but the output record is independently documented) and independent_thinking (lowered, see its rationale); one row lowered. SCOPE FLAG: eight rows; moderate confidence overall because reviews, not biographies, were read."
+  }
+}

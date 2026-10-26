@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "teresa-of-avila",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Teresa of Avila",
+    "aliases": [
+      "Teresa of Ávila",
+      "Teresa of Jesus",
+      "Teresa de Jesús",
+      "Saint Teresa of Avila"
+    ],
+    "wikidataId": "Q174880",
+    "birthYear": 1515,
+    "deathYear": 1582,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "writer"
+    ],
+    "fieldIds": [
+      "religion",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "mystic"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_teresa_wikidata",
+      "kind": "wikidata",
+      "title": "Teresa of Avila (Q174880) -- verified live via the Wikidata API (2026-10-26): English label 'Teresa of Ávila', description 'Roman Catholic saint (1515-1582)', Korean label '아빌라의 테레사' (kowiki title '테레사 데 헤수스'), born 1515-03-28, died 1582-10-15 (Gregorian), P18 images 'Santa Teresa de Jesús (Museo del Prado).jpg' and a Rubens painting (neither used). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q174880"
+    },
+    {
+      "id": "src_teresa_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'St. Teresa of Avila' (britannica.com), read in full. CANONICAL SIGNIFICANCE SOURCE: Spanish Carmelite mystic and author of spiritual writings; founded numerous convents and originated the Carmelite Reform that restored a contemplative, austere life; 1562 founding of the convent of St Joseph at Avila amid a storm of hostility, her insistence on poverty and public alms; some sixteen more foundations; the 1580 recognition of the reformed Carmelites with the support of Philip II; the Way of Perfection and Interior Castle; doctor of the church in 1970. Reference biography: authoritative on chronology, admiring, thin on behaviour; passages on illness and mystical states were read but not scored.",
+      "url": "https://www.britannica.com/biography/Saint-Teresa-of-Avila"
+    },
+    {
+      "id": "src_teresa_catholic_enc",
+      "kind": "biography",
+      "title": "The Catholic Encyclopedia (1912), 'St. Teresa of Jesus' (NewAdvent.org), read in full: Life written by herself completed in 1565, the founding of St Joseph's in 1562, foundations from Medina del Campo (1567) to Seville (1575) and Caravaca (1576), the Book of Foundations, the 1580 canonical establishment of the reform with Philip II's support, her death on 4 October 1582. Confessional and hagiographic (a Catholic reference work): used only to corroborate dates and the scale of the foundations; the visions and mystical manifestations it describes were excluded from scoring.",
+      "url": "https://www.newadvent.org/cathen/14515b.htm"
+    },
+    {
+      "id": "src_teresa_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Saint Teresa of Avila' (Salem Press-derived biography), read in full: 1560 vow to follow the unmitigated Rule, the 1562 founding of San Jose and the origin of the name Discalced, objections from monks, nuns and Avila's townspeople who financed religious houses, seventeen convents founded 1567-1576 despite illness and opposition, the 1576-78 crackdown on Discalced leaders, the Inquisition requiring an account of her life and later interrogations, her many letters (458 survive) used to gather support, the 1580 papal separation of Discalced and Calced, canonisation in 1622. Neutral secondary summary; the converso-family and visionary passages were excluded.",
+      "url": "https://www.ebsco.com/research-starters/history/saint-teresa-avila/"
+    },
+    {
+      "id": "src_teresa_graham_1894",
+      "kind": "biography",
+      "title": "Gabriela Cunninghame Graham, 'Santa Teresa: Being Some Account of Her Life and Times, Together with Some Pages from the History of the Reform' (London: A. and C. Black, 1894), Internet Archive texts of both volumes, read in the passages on the Salamanca journey, the Andalusian journey, her administration of the foundations and dowries, the Inquisition's custody of the Life, and the Calced opposition and Nuncio Sega; the rest searched by keyword only. Victorian lay biography, admiring and sometimes polemical, but independent of the Carmelite Order and quoting her letters and contemporaries; letters quoted in it are cited only as her own words.",
+      "url": "https://archive.org/details/santateresabeing02cunn"
+    },
+    {
+      "id": "src_teresa_scross_review",
+      "kind": "press",
+      "title": "Review of Shirley du Boulay's biography of Teresa of Avila (Carmelite-related reviewing site scross.co.za, 2005), read in full. COUNTER-VOICE: quotes the papal nuncio's description of her as 'a restless, gad-about, disobedient and contumacious woman who invented wicked doctrines and called them devotion', and the reviewer notes du Boulay's depiction of strong emotions and a tendency to vacillate between bossiness and humility, her determination, her forthright appeals to Philip II, and the need to conceal raptures from inquisitorial attention. A reviewer's secondary account of a biography whose own text was not opened.",
+      "url": "https://www.scross.co.za/2005/06/teresa-of-avila/"
+    },
+    {
+      "id": "src_teresa_moreno_2013",
+      "kind": "press",
+      "title": "Fernando Moreno Cuadro, 'Origen andaluz de la vera effigies de San Juan de la Cruz y su repercusion en Flandes y Mexico' (Laboratorio de Arte 25, University of Seville, 2013, pp. 347-370), read in the opening pages on the Teresa portrait: a vera effigies must be painted from life; Teresa's portrait, recorded by Pacheco and Palomino, was painted in Seville by Fray Juan de la Miseria in early June 1576 so that the nuns of the new convent would be consoled at her departure (account of the prioress Maria de San Jose, who says Teresa consented to be portrayed, overcome by the Seville sisters' tears), and, according to Gracian, to mortify her; the Seville portrait is regarded as the origin of Teresian portraits. Peer-reviewed art-historical article used for the portrait only.",
+      "url": "https://revistascientificas.us.es/index.php/LAB-ARTE/article/download/19185/16748/71928"
+    },
+    {
+      "id": "src_teresa_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file pages 'Retrato de Santa Teresa de Jesus, fray Juan de la Miseria.jpg' and its cropped version (2022 photograph by Jl FilpoC of the oil painting dated 1576 at the Convento de las Teresas, Seville; licence CC BY-SA 4.0) and a Discalced Carmelite community blog post on the Fray Juan portrait, checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Retrato_de_Santa_Teresa_de_Jes%C3%BAs,_fray_Juan_de_la_Miseria_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_teresa_britannica, src_teresa_ebsco, src_teresa_graham_1894, src_teresa_catholic_enc | 1560-1582 | reference biographies + lay biography] She began the reform in 1560 and founded San Jose in 1562 in the face of hostility from municipal and religious figures, then spent the following years founding further convents across Spain on foot-and-cart journeys of hundreds of miles, kept going through the 1576-78 crackdown on the Discalced and until the 1580 papal separation, and continued founding until the last years of her life. Several independent summaries agree on the sequence; illness is mentioned only as a condition she worked through, not scored. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 82 / 0.7 to 78 / 0.62 because every source read is secondary and mostly admiring, and no modern critical biography was opened, so 82 / 0.70 overstates the evidence."
+    },
+    "proactive_agency": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_teresa_britannica, src_teresa_ebsco, src_teresa_graham_1894 | 1560-1576 | reference biographies + lay biography] She initiated the reform herself (a 1560 vow with a small group of nuns), sought permission and founded San Jose in 1562, and then set out to found convents in other towns, financing them and negotiating with local authorities. The sources describe her as originating the movement rather than responding to orders. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 80 / 0.68 to 76 / 0.6 because same secondary, admiring-register source set with no modern critical biography read."
+    },
+    "discipline": {
+      "score": 78,
+      "confidence": 0.65,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_teresa_britannica, src_teresa_ebsco, src_teresa_graham_1894 | 1562-1580 | reference biographies + lay biography] Her reform required withdrawal, prayer and penance and a return to the unmitigated Rule, with sandals instead of shoes; she insisted on poverty and subsistence from alms, and, per the 1894 biography, applied strict criteria to novices (including later refusing to admit women of high rank). The standards she imposed on her convents are documented; her private regimen is not scored."
+    },
+    "resourcefulness": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_teresa_britannica, src_teresa_graham_1894, src_teresa_ebsco | 1562-1580 | reference biography + lay biography] She established convents without endowments, relying on public alms and on the dowries of entering novices (the 1894 biography quotes her letters on dowries of 8,000 and 9,000 ducats and her keen eye on them), travelled in rough conditions to found houses, wrote many letters to gather patrons and won the support of Philip II. The administrative detail comes mainly from one lay biography quoting her letters."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_teresa_britannica, src_teresa_ebsco, src_teresa_scross_review, src_teresa_graham_1894 | 1562-1580 | reference biographies + review + lay biography] She continued founding despite hostility from townspeople and clergy, an order from the Carmelite general to retire to a convent, repeated Inquisition attention and the papal nuncio's denunciation of her as restless and disobedient; the 1894 biography notes her detractors often became friends on meeting her. Inquisition scrutiny and the nuncio's charge are context and counter-voice: they show the opposition she endured, not a trait inferred from them. Dual-edged because opposition also stalled the reform in 1576-78."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_teresa_britannica, src_teresa_ebsco, src_teresa_catholic_enc | 1562-1582 | reference biographies] She became prioress of San Jose in 1563, directed the founding of some seventeen convents, and the reform she led was given independent standing in 1580. Leadership here is within a religious order and counted as organisational leadership, not political. Evidence for the drive itself (rather than the roles) is thinner."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_teresa_britannica, src_teresa_ebsco, src_teresa_graham_1894 | 1562-1582 | reference biographies + lay biography] Her stated aim for the reform was reparation for the sins of humankind through a prayerful life of the nuns, and she devoted her later years to founding convents and writing guides to prayer (Way of Perfection, Book of Foundations) for them; the 1894 biography quotes her saying that people who criticised her journeys did not know the necessity that spurred her. The purpose is documented but religious, so interpreted as inference about motivation rather than a measured outcome."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_teresa_ebsco, src_teresa_britannica, src_teresa_graham_1894 | 1567-1580 | reference biographies + lay biography] She won the backing of influential patrons including Philip II through letters and personal appeals, and the 1894 biography (admiring, retelling contemporaries) says her harshest critics turned into friends after meeting her; the reform obtained its 1580 recognition. Mostly secondary and admiring, hence capped. SELF-CALIBRATION (agent): reviewed as a hagiography-prone row; kept at 66 / 0.52, which is already conservative."
+    },
+    "social_assertiveness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_teresa_scross_review, src_teresa_ebsco, src_teresa_britannica | 1560-1580 | reviewer + reference biographies] The review of du Boulay notes her forthright appeals to Philip II and a tendency to move between bossiness and humility; sources show her pressing for permission to found houses despite objections and writing to authorities. The characterisation of her manner comes from a single reviewer's account of a biography that was not opened, so the score is moderate."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_teresa_britannica, src_teresa_ebsco, src_teresa_catholic_enc | 1565-1580 | reference biographies] Britannica calls her writings on the soul's journey to God masterpieces and notes that she wrote in Spanish on contemplative prayer, and EBSCO credits her with locating God at the centre of the soul (the interior castle image); the 1894 biography notes the risk of writing on mysticism in the vernacular under the Inquisition. Evidence is retrospective praise and summary, without a close reading of her works or of independent critics (Weber's study was not opened). SELF-CALIBRATION (agent): lowered from 70 / 0.58 to 64 / 0.5 because the support is retrospective praise in encyclopaedic summaries and no independent critical reading of her writing was read."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_teresa_ebsco, src_teresa_britannica, src_teresa_graham_1894 | 1567-1580 | reference biographies + lay biography] She worked with John of the Cross to found two Discalced houses for men, with Jeronimo Gracian as the reform's first leader, and with small groups of nuns who accompanied her on the founding journeys; Philip II's support helped secure recognition. Documented partnerships, but the sources say little about how she worked with them day to day."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아빌라의 테레사"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/teresa-of-avila-juan-de-la-miseria-1576.jpg",
+    "width": 1142,
+    "height": 1200,
+    "source": "Oil portrait of Teresa of Avila by Fray Juan de la Miseria, dated 1576 in its inscription, painted in Seville while she was alive (Moreno Cuadro 2013, citing the prioress Maria de San Jose, Pacheco and Palomino), kept at the Convento de las Teresas, Seville; the 1576 painting is in the public domain by age. The image is a 2022 photograph of the painting by Wikimedia user Jl FilpoC (Commons 'Retrato de Santa Teresa de Jesus, fray Juan de la Miseria (cropped).jpg', original 2222 x 2335), released under CC BY-SA 4.0; saved downscaled only to 1142 x 1200. No convent or museum rights notice was found.",
+    "license": "CC BY-SA 4.0 (photograph of a public-domain painting)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Jl FilpoC, photograph of the portrait of Teresa of Avila by Fray Juan de la Miseria (1576), Convento de las Teresas, Seville, 2022, CC BY-SA 4.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_Santa_Teresa_de_Jes%C3%BAs,_fray_Juan_de_la_Miseria_(cropped).jpg",
+    "creator": "Fray Juan de la Miseria (painter); photograph by Jl FilpoC",
+    "date": "1576",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_Santa_Teresa_de_Jes%C3%BAs,_fray_Juan_de_la_Miseria_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-26) Q174880: en label 'Teresa of Ávila', description 'Roman Catholic saint (1515-1582)', ko label '아빌라의 테레사', kowiki title '테레사 데 헤수스', dates 1515-03-28 to 1582-10-15; lead's hint correct. SLUG/QID CHECK: no candidate or src/data file contains Q174880 or teresa-of-avila (mother-teresa is a different person). REGION: southern_europe (Spain). VOCABULARY: religious_leader and writer (missionary, mystic-as-occupation and nun have no labels), fields religion and literature, tags founder and mystic, archetype organizational_leader, impact domains cultural, literary, historical, era early_modern: all existing ids; tag mystic names her recognised identity and is not used as trait evidence. ZERO POLITICS: primary identity is a religious reformer and writer; her appeals to Philip II and the Calced-Discalced jurisdiction dispute are treated as ecclesiastical organisation and not scored as political or diplomatic leadership. DEAD SUBJECT RULES: visions, raptures, illness, converso family background, the Pastrana/Princess of Eboli episode and her family were read but excluded; no trait is inferred from visions or illness; Inquisition scrutiny and the nuncio's denunciation are documented context only. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'St. Teresa of Avila' (https://www.britannica.com/biography/Saint-Teresa-of-Avila). READ (6 substantive sources plus a portrait article): Britannica, Catholic Encyclopedia, EBSCO Research Starters, Cunninghame Graham 1894 (selected passages in both volumes), the scross.co.za review of du Boulay, Moreno Cuadro 2013 (portrait pages). PERSPECTIVES: reference biography, confessional encyclopedia, neutral summary, independent Victorian lay biography quoting her letters, reviewer with the nuncio's hostile characterisation. COUNTER-VOICES: Nuncio Sega's denunciation (via the review and the 1894 biography), Calced Carmelites and Avila townspeople, Inquisition scrutiny. NOT OPENED: Weber, 'Teresa of Avila and the Rhetoric of Femininity' (only the publisher blurb and review snippets were seen, so it is not counted or cited), Eire's 2019 biography, du Boulay's book itself, Teresa's own Life, Foundations and letters (self material; reached only through quotations in the 1894 biography), Spanish Carmelite scholarship (Teresa de Jesus Works) beyond the Moreno Cuadro article. SOURCE-DIVERSITY NOTE: no modern critical biography was read directly, so every behavioural row is capped at confidence 0.7 and most are strong_inference. portrait_preflight: strong (lead) / confirmed with a change: the lead suggested the Eduardo Balaca painting as a later depiction and the contemporary Fray Juan de la Miseria portrait as better; the latter is used. Documented from life: Moreno Cuadro cites the prioress Maria de San Jose, Pacheco and Palomino for a portrait painted in Seville in June 1576 with Teresa's consent, and the painting's own inscription reads (in Spanish) that the portrait was taken of Mother Teresa of Jesus and painted by Fray Juan de la Miseria in 1576 when she was 61. Rights: the painting is from 1576 (public domain by age); the Commons photograph is the uploader's own work under CC BY-SA 4.0 and attribution is carried in the record. Caveats: the 2022 photograph may carry its own thin copyright, which the CC BY-SA licence covers; no Convento de las Teresas notice was found online; the cropped photograph still shows slight canvas edges; the Commons claim of 'from life' is stronger than a single art-historical article, so kind is likeness with the evidence recorded here. Original 2222 x 2335 viewed; downscaled to 1142 x 1200 only. SELF-CALIBRATION: rows reviewed: persistence (82), creative_originality (70), persuasiveness (66). Lowered: creative_originality 70 -> 64 and confidence 0.58 -> 0.5 because it rested on retrospective praise in encyclopaedic summaries with no independent critical reading of her writing. persistence kept (four independent summaries agree on the sequence); persuasiveness already conservative. FLAG for lead: sources are all secondary and mostly admiring; consider a hold on the creative_originality row's support if a stricter reviewer wants Weber or Eire read directly. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 82 / 0.7 to 78 / 0.62 because every source read is secondary and mostly admiring, and no modern critical biography was opened, so 82 / 0.70 overstates the evidence. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 80 / 0.68 to 76 / 0.6 because same secondary, admiring-register source set with no modern critical biography read."
+  }
+}

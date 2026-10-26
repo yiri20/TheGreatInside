@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-bardeen",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John Bardeen",
+    "aliases": [],
+    "wikidataId": "Q949",
+    "birthYear": 1908,
+    "deathYear": 1991,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "engineer"
+    ],
+    "fieldIds": [
+      "physics",
+      "engineering"
+    ],
+    "impactDomains": [
+      "scientific",
+      "engineering"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "theorist",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bardeen_wikidata",
+      "kind": "wikidata",
+      "title": "John Bardeen (Q949) -- verified live via the Wikidata API (2026-10-26): English label 'John Bardeen', description 'American physicist and engineer (1908-1991)', born 1908-05-23, died 1991-01-30, citizenship United States, P18 image 'Bardeen.jpg' (280 x 396, Nobel Foundation; not used, see notes). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q949"
+    },
+    {
+      "id": "src_bardeen_nobel72",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'The Nobel Prize in Physics 1972' (summary page) and the award ceremony speech by the Royal Swedish Academy of Sciences, both read in full. CANONICAL SIGNIFICANCE SOURCE: the prize was awarded jointly to John Bardeen, Leon Neil Cooper and John Robert Schrieffer 'for their jointly developed theory of superconductivity, usually called the BCS-theory'; the speech describes the 1957 paper as a complete theoretical explanation that predicted new effects and stimulated theoretical and experimental research. Award-body text: authoritative and admiring.",
+      "url": "https://www.nobelprize.org/prizes/physics/1972/summary/"
+    },
+    {
+      "id": "src_bardeen_nobel56",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'The Nobel Prize in Physics 1956' (summary page) and the award ceremony speech by the Royal Swedish Academy of Sciences, read: the prize to William Bradford Shockley, John Bardeen and Walter Houser Brattain 'for their researches on semiconductors and their discovery of the transistor effect'; the speech explains conductors, insulators and semiconductors and says that the discovery of transistor action in 1948 gave Shockley, Bardeen and Brattain the key to the control mechanism. Award-body text, joint credit stated.",
+      "url": "https://www.nobelprize.org/prizes/physics/1956/summary/"
+    },
+    {
+      "id": "src_bardeen_nobelbio",
+      "kind": "biography",
+      "title": "Nobel Foundation, 'John Bardeen - Biographical' (written at the time of the 1956 award, published in 'Les Prix Nobel', with the later 1972 addendum), read in full: Wisconsin electrical engineering degree, geophysical prospecting at Gulf Research Laboratories, mathematical physics at Princeton under Wigner, Harvard Junior Fellowship, Minnesota, wartime Naval Ordnance Laboratory, Bell Telephone Laboratories (1945-51), Professor of Electrical Engineering and Physics at Illinois from 1951, research fields, and the 1957 BCS proposal 'the first successful explanation of superconductivity'. Institutional biography. Family passages were read and excluded.",
+      "url": "https://www.nobelprize.org/prizes/physics/1972/bardeen/biographical/"
+    },
+    {
+      "id": "src_bardeen_pbs",
+      "kind": "institution",
+      "title": "PBS/WGBH 'Transistorized!' site, pages 'Patent Battles' and 'Shockley, Brattain and Bardeen: Clashing Egos to the End', read in full: the January 1948 meetings in which Shockley said he intended to be the only name on the transistor patent; Brattain's and Bardeen's different reactions; Bell Labs lawyers filing on the Bardeen-Brattain device after finding Lilienfeld's earlier patent; Bardeen calling the situation 'intolerable' and later taking a job at the University of Illinois where he could direct his own work; Brattain recalling the staged press photograph. A public-broadcasting history presenting the documented professional rift with Shockley, relying on interviews and archival quotations (Brattain 1974). COUNTER-VOICE on the Bell Labs episode; descriptions of Shockley's later conduct were not used.",
+      "url": "https://www.pbs.org/transistor/album1/addlbios/egos.html"
+    },
+    {
+      "id": "src_bardeen_pw",
+      "kind": "press",
+      "title": "David Pines, 'John Bardeen: genius in action' (Physics World, 1 May 2003, review of Hoddeson and Daitch, 'True Genius'), read in full: Bardeen's modesty, interest in applications and ability to collaborate with experimentalists and theorists; the Bell Labs invention of the transistor with Brattain in 1947; the six years of sustained effort that produced BCS theory with Cooper and Schrieffer, his emphasis on experimental facts, his freedom given to younger colleagues, his consultancy to Xerox on xerography; the review's remark that Shockley was single-handedly responsible for Bardeen leaving Bell Labs in 1951; and the reviewer's criticism that the book covers the Illinois years less well. Review by a former younger colleague: admiring but specific.",
+      "url": "https://physicsworld.com/?p=36904"
+    },
+    {
+      "id": "src_bardeen_pt",
+      "kind": "press",
+      "title": "J. Robert Schrieffer, review of Hoddeson and Daitch, 'True Genius: The Life and Science of John Bardeen, the Only Winner of Two Nobel Prizes in Physics' (Physics Today, February 2003), read in full: Bardeen as a modest, quiet man; Bell Labs work with Brattain on the point-contact triode; Shockley, who led the group, thought he should receive major credit because of an earlier (incorrect) suggestion; the move to Illinois, where he founded a semiconductor laboratory and a theory group; bringing together Cooper and Schrieffer; his teaching students to decompose complex problems into simple pieces. Review by a BCS co-laureate: close, admiring and not independent.",
+      "url": "https://physicstoday.aip.org/reviews/true-genius-the-life-and-science-of-john-bardeen-the-only-winner-of-two-nobel-prizes-in-physics"
+    },
+    {
+      "id": "src_bardeen_fermi",
+      "kind": "press",
+      "title": "Fermilab 'FermiNews' (27 June 2003), feature on Lillian Hoddeson's biography 'True Genius', read in full: Bardeen as unlike the 'mad scientist' stereotype, nicknamed 'Whispering John', sending his students Cooper and Schrieffer to announce the BCS theory at an American Physical Society meeting, learning from Wigner to reduce problems to their essentials, tackling problems persistently, preferring to work in collaboration and seeking problems that would benefit society; quotes Hoddeson and Bardeen's son. Laboratory news feature based on the biographer's account.",
+      "url": "https://fnal.gov/pub/ferminews/ferminews03-06-27/p5.html"
+    },
+    {
+      "id": "src_bardeen_kirkus",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of Hoddeson and Daitch, 'True Genius: The Life and Science of John Bardeen' (15 July 2002), read in full: calls it a serviceable and slow biography; says Bardeen had a gift for decomposing large problems and formulated an elegant theory of surface states that made the transistor practicable; that the transistor material largely duplicates Hoddeson's earlier 'Crystal Fire'; and that the book's ordinary-man emphasis becomes a 'curious disquisition' on genius. Independent trade review; COUNTER-VOICE on the biography's quality, not on the scientist.",
+      "url": "https://www.kirkusreviews.com/book-reviews/lillian-hoddeson/true-genius/"
+    },
+    {
+      "id": "src_bardeen_portrait",
+      "kind": "archive",
+      "title": "AIP Emilio Segre Visual Archives, Segre Collection, 'Portrait of John Bardeen in Lindau' (1961), the Wikimedia Commons file page 'John Bardeen in Lindau.jpg' (AIP copyright-holder statement), the AIP guide 'Determining Copyright and Permissions'; also the Landesarchiv Baden-Wuerttemberg terms of use for a second candidate photograph. Checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:John_Bardeen_in_Lindau.jpg"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bardeen_kirkus, src_bardeen_pw, src_bardeen_fermi, src_bardeen_pt | 1933-1957 | independent trade review + colleague reviews + laboratory feature] An independent reviewer says he had a gift for decomposing large problems and formulated a surface-states theory that made the transistor practicable; Pines says he stressed understanding the experimental facts while pursuing several theoretical scenarios; Hoddeson (via FermiNews) and Schrieffer say he learned from Wigner to reduce a problem to its bare essentials and taught students to do likewise. The independent reviewer and three insider descriptions agree on method."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bardeen_pw, src_bardeen_fermi, src_bardeen_nobelbio | 1951-1957 | colleague review + laboratory feature + institutional biography] Pines describes about six years of sustained effort, with total dedication, before BCS theory solved a riddle that had defeated Landau, Feynman and others; FermiNews quotes Hoddeson that he was more persistent than his mentors and 'bullied' through difficulties, seeking alternatives when a method failed. The Nobel biography independently dates the project from 1951 to the 1957 proposal. SELF-CALIBRATION (agent): reviewed as a top-risk row; kept since the six-year timeline is independently documented."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bardeen_pw, src_bardeen_pbs, src_bardeen_fermi, src_bardeen_pt | 1945-1957 | colleague reviews + public-broadcasting history + laboratory feature] At Bell Labs Brattain ran experiments while Bardeen interpreted the results in a tight-knit pairing; at Illinois he gave Cooper and Schrieffer freedom to pursue their own ideas, shared the credit as three laureates, and sent his students to announce BCS; reviewers say he collaborated easily with experimentalists and theorists. The Shockley rift (a dispute over who deserved credit) is a counter-voice but concerns Shockley's claims, not a collaboration failure on Bardeen's side. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 78 / 0.66 to 72 / 0.58 because most descriptions come from his own younger collaborators (Pines, Schrieffer) and a laboratory feature based on the biographer, with only the PBS history independent of them."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bardeen_nobelbio, src_bardeen_pw, src_bardeen_kirkus | 1928-1972 | institutional biography + colleague review + trade review] His career runs from electrical engineering and geophysical prospecting through solid-state theory, nuclear level density, semiconductors and superconductivity to helium mixtures and xerography consultancy; Pines notes his unusual ability to move from fundamental theory to commercially important applications and that the two Nobel Prizes are in widely different fields. SELF-CALIBRATION (agent): reviewed as a top-risk row; kept since the list is independently given in the Nobel biography and the reviews."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bardeen_pbs, src_bardeen_pw, src_bardeen_nobelbio | 1948-1951 | public-broadcasting history + colleague review + biography] After the Shockley rift he took a job at the University of Illinois (1951) where, per the PBS history, he could concentrate on theory and direct his own work instead of following someone else's lead; Pines says Shockley was single-handedly responsible for his leaving. The motive is the history's interpretation, so confidence is modest."
+    },
+    "conflict_tolerance": {
+      "score": 38,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bardeen_pbs, src_bardeen_pw, src_bardeen_fermi | 1948-1951 | public-broadcasting history + colleague review + laboratory feature] When Shockley announced he would be the only name on the transistor patent, the history says Bardeen 'said little and stormed out' (Brattain protested loudly) and later called the situation intolerable and left Bell Labs; the same sources describe him as quiet ('Whispering John') and not courting media. Taken together this is consistent with avoiding open confrontation, but it is one episode narrated by popular and admiring sources."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bardeen_fermi, src_bardeen_pw | 1945-1960s | laboratory feature + colleague review] FermiNews (summarising Hoddeson) says he sought out physics problems such as the transistor that he believed would directly benefit society, and Pines notes his deep interest in the application of science and his consulting role in xerography. The motive claim is the biographer's characterisation; behaviour (applied work at Bell Labs and Xerox) supports it only indirectly."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-bardeen-aip-segre-1961.jpg",
+    "width": 827,
+    "height": 1200,
+    "source": "'Portrait of John Bardeen in Lindau' (1961), AIP Emilio Segre Visual Archives, Segre Collection, uploaded to Wikimedia Commons as 'John Bardeen in Lindau.jpg' (original 2422 x 3513) with the AIP statement that American Institute of Physics is the copyright holder and freely gives permission to use the image with the credit line, matching the AIP archive's published copyright guide. Identity: the Commons caption comes from the AIP archive, and a conference name tag reading 'Prof. Dr. Bardeen' is visible in this and in a second 1962 photograph from the Staatsarchiv Freiburg. Downscaled to 827 x 1200; no upscaling. CAVEAT: the AIP repository page (repository.aip.org/bardeen-lindau) returned HTTP 403 to automated requests, so the item's own Copyright Holder line could not be seen directly; the basis rests on the Commons page quoting AIP and the AIP guide. If the lead considers that insufficient, hold this portrait.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Segre Collection, AIP Emilio Segre Visual Archives, 1961 (photographer not individually named), reused with AIP's stated permission",
+    "attributionUrl": "https://repository.aip.org/bardeen-lindau",
+    "creator": "AIP Emilio Segre Visual Archives, Segre Collection",
+    "date": "1961",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:John_Bardeen_in_Lindau.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 바딘"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / Segre/AIP photograph via the Commons AIP permission template (same basis as shipped Chandrasekhar); AIP page returns 403 so the holder line was seen only via Commons. PREFLIGHT: QID VERIFIED LIVE (2026-10-26, wbgetentities): Q949 label 'John Bardeen', description 'American physicist and engineer (1908-1991)', born 1908-05-23, died 1991-01-30, citizenship United States; lead's hint correct. SLUG/QID CHECK: no existing candidate or src/data reference to john-bardeen or Q949. REGION: north_america. ZERO POLITICS: pure science and engineering; nothing political. Excluded: family and marriage, sons, golf anecdotes as private life, Shockley's later conduct and views (not the subject), health. VOCABULARY: occupations physicist, engineer; fields physics, engineering; tags nobel_laureate, theorist, cross_disciplinary; archetype scientific_explorer: existing ids with EN+KO labels. CANONICAL SIGNIFICANCE SOURCE: Nobel Prize in Physics 1972 summary and ceremony speech (https://www.nobelprize.org/prizes/physics/1972/summary/). READ (9 cited non-Wikidata sources): Nobel 1972 and 1956 pages and speeches, Nobel biography, PBS Transistorized pages, Physics World (Pines), Physics Today (Schrieffer), FermiNews, Kirkus, portrait pages. PERSPECTIVES: award body, institutional biography, public-broadcasting history, two colleague reviews of Hoddeson and Daitch, an independent trade review, a laboratory news feature. COUNTER-VOICES: the Shockley credit dispute documented by PBS (Shockley's claim to sole credit, the patent outcome, and Bardeen's reaction and departure), Kirkus on the biography's slowness and overlap, Pines on gaps in the Illinois coverage. JOINT ATTRIBUTION: the 1956 Prize is shared with Shockley and Brattain (point-contact transistor by Bardeen and Brattain; Shockley later developed the junction transistor); the 1972 Prize is shared with Cooper and Schrieffer (BCS theory). NOT opened: Hoddeson and Daitch's 'True Genius' itself (known through four reviews/features, so rows say so and carry modest confidence), 'Crystal Fire', Bell Labs primary sources, the April 1992 Physics Today special issue, the BJHS review (paywalled), Wikipedia. PORTRAIT_PREFLIGHT: risky (lead) / the lead's P18 'Bardeen.jpg' (280 x 396, Nobel Foundation, doubtful PD template) was NOT used. Two alternatives checked: (1) Willy Pragher's 1962 photograph from the Staatsarchiv Freiburg (Landesarchiv Baden-Wuerttemberg), Commons licence CC BY 4.0 with a clear single-sitter caption and a name tag; REJECTED for now because the Landesarchiv item page returned HTTP 503 on four tries and its terms of use state that the licence applies per item (the item's own rights note could not be read), and the photo has bystanders in frame; (2) AIP Emilio Segre Visual Archives 1961 Lindau portrait (used, with the caveat above that the AIP item page returned 403). Also seen, not used: Anefo 1962 three-person group (CC0, Nationaal Archief; Bardeen with Rabi and Heisenberg). SELF-CALIBRATION: rows reviewed: collaboration (78 / 0.66), cross_domain_range (72 / 0.62), persistence (72 / 0.62); collaboration lowered to 72 / 0.58 because the evidence is dominated by his own younger collaborators; the others kept."
+  }
+}

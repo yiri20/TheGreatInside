@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "elizabeth-fry",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Elizabeth Fry",
+    "aliases": [
+      "Elizabeth Gurney Fry",
+      "Elizabeth Gurney"
+    ],
+    "wikidataId": "Q271477",
+    "birthYear": 1780,
+    "deathYear": 1845,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist",
+      "religious_leader"
+    ],
+    "fieldIds": [
+      "social_reform",
+      "religion"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "organizer",
+      "advocate",
+      "founder"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_fry_wikidata",
+      "kind": "wikidata",
+      "title": "Elizabeth Fry (Q271477), verified live via the Wikidata API (2026-10-26): label 'Elizabeth Fry', description 'social reformer from England (1780-1845)', born 1780-05-21, died 1845-10-12; no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q271477"
+    },
+    {
+      "id": "src_fry_quakerguide",
+      "kind": "institution",
+      "title": "Library of the Society of Friends (Quakers in Britain), 'Elizabeth Fry' subject guide (2023), read in full. CANONICAL SIGNIFICANCE SOURCE: a short institutional timeline: first Newgate visit in 1813, the 1817 association for female prisoners, evidence to the House of Commons in 1818, the British Ladies' Society (1821), the 1823 Gaol Act described as largely ineffective, later evidence to a House of Lords committee, a training school for nurses (1840), and a list of her own works and archives. Institutional and brief; no behavioural detail beyond dates, and its 1835 attribution to the House of Lords differs from other accounts.",
+      "url": "https://quaker.org.uk/documents/subject-guide-elizabeth-fry-2023"
+    },
+    {
+      "id": "src_fry_boe",
+      "kind": "institution",
+      "title": "Bank of England Museum, 'Historical women on banknotes' page on Elizabeth Fry, read: summarises her Newgate work after 1813 (needlework and knitting for women, schools for children, ladies' committees), night shelters, support for abolition and a school for nurses, and the banknote portrait. Institutional and celebratory; it does not say why she was chosen.",
+      "url": "https://www.bankofengland.co.uk/museum/noteworthy-women/historical-women-on-banknotes"
+    },
+    {
+      "id": "src_fry_gale",
+      "kind": "biography",
+      "title": "'Fry, Elizabeth (1780-1845)', Women in World History: A Biographical Encyclopedia (Gale, via Encyclopedia.com), read in full: the school and sewing work for women at Newgate, the Ladies' Newgate Committee and its conditions for prisoners (stop drinking, attend Bible reading), her 1818 evidence to a House of Commons committee (women's prisons staffed by women, useful employment), her 1827 'Observations', the spread of committees through England, Scotland and Ireland, tours of France, Germany and Holland 1838-43, a nurse training home in 1840, and her admission that she was 'not without critics among people in authority'. General reference account, admiring, with some date differences against other sources. Its passages on her childhood, health, marriage and family were read but not used.",
+      "url": "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/fry-elizabeth-1780-1845"
+    },
+    {
+      "id": "src_fry_matheuszik",
+      "kind": "biography",
+      "title": "Deanna Lynn Matheuszik, 'The angel paradox: Elizabeth Fry and the role of gender and religion in nineteenth-century Britain' (PhD dissertation, Vanderbilt University, 2013), downloaded and read in the chapters on the Newgate workshop and Association, her 1818 testimony and the report that followed, the failed 1818 pardon campaign for a woman convicted of forging a banknote, transportation work, contemporary critics (the Edinburgh Review, H. G. Bennet, Lord Sidmouth) and criticism by Quakers of a late banquet; not every chapter was read. Detailed scholarly study that quotes her journals, letters and the parliamentary report, and is critical of how Victorian biographers recast her. Independent of the Gale and institutional accounts. Its sections on her childhood, religious crises, health and family were read but are not scored.",
+      "url": "https://ir.vanderbilt.edu/handle/1803/11435"
+    },
+    {
+      "id": "src_fry_psj",
+      "kind": "press",
+      "title": "S. E. Lowe, review of John Kent's 'Elizabeth Fry' (Batsford), Prison Service Journal, c. 1962, read in full from a poor-quality scan (about 670 words): summarises Kent's chapters (The Newgate Experiment; A Public Figure; The Rejected Reformer), her belief that Bible reading could change the women's characters, and criticism she received within the Society of Friends for time spent in public work. Short secondhand summary; used only as a corroborating note, and the Kent book was not opened.",
+      "url": "https://www.crimeandjustice.org.uk//sites/default/files/2025-03/PSJ%206%20Elizabeth%20Fry.pdf"
+    },
+    {
+      "id": "src_fry_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Elizabeth Fry by Charles Robert Leslie.jpg' (National Portrait Gallery, London, NPG 898, a copy after Leslie's painting of about 1823) and a search summary of the NPG catalogue entry, checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Elizabeth_Fry_by_Charles_Robert_Leslie.jpg"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_fry_gale, src_fry_matheuszik, src_fry_quakerguide | 1816-1818 | reference + scholarly dissertation + institution] Gale says she judged that the new national prison-reform society would take too long and returned to Newgate to start a school for the child inmates, then formed the Ladies' Newgate Committee; Matheuszik dates the school and workshop to 1817 and quotes her March 1817 letter that she would not feel easy until she had made efforts for the women. The work was self-started rather than assigned, and the critical sources dispute its adequacy, not its initiative."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fry_gale, src_fry_quakerguide, src_fry_matheuszik | 1817-1843 | reference + institution + dissertation] She organised the Newgate ladies' committee, then the British Ladies' Society, and Gale says committees spread across England, Scotland and Ireland; Matheuszik reports she inspected over 100 prisons and, by her own letters, first resisted sharing control with other women and then came to treat reform as a movement. Documented organising, though the extent of her personal control over later local committees is not clear in the sources read."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fry_matheuszik, src_fry_gale, src_fry_quakerguide | 1817-1818 | dissertation + reference + institution] Matheuszik quotes the 1818 committee report acknowledging the 'most gratifying change' produced by her work and a City of London grand jury praising it, and notes that she won over prison officials in 1817 to install a school and workshop; Gale gives her proposals (women's prisons staffed by women, useful employment). Contemporary critics (the Edinburgh Review) said her method would not stop crime, and the same lobbying failed to win a pardon in the 1818 forgery case. SELF-CALIBRATION (agent): reviewed as a top-risk row (praise reported in one dissertation); lowered from 70 / 0.60 to 66 / 0.55 because the strongest support is the committee's own praise of results, which is not the same as showing she persuaded the committee, and the 1818 pardon campaign failed."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fry_gale, src_fry_matheuszik, src_fry_boe, src_fry_psj | 1813-1845 | reference + dissertation + institution + review] Over about three decades she kept returning to prisons, transported women, shelters and a nurse-training home, and the dissertation quotes her statement that she would not feel easy until she had tried to improve the women's plans. Matheuszik also reports that she actively managed her public reputation and the Kent review notes Friends' criticism of her public commitments, so the motive is documented as sustained but not purely modest. SELF-CALIBRATION (agent): reviewed as a top-risk row (admiring biographical sources); lowered from 74 / 0.60 to 70 / 0.55 because Gale and the Bank of England page are celebratory and the sharper independent evidence is a single dissertation."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fry_matheuszik, src_fry_gale | 1817-1827 | dissertation + reference] Matheuszik describes an undated 1817 memorandum in which she set out the object of a prison and listed conditions (segregation of women from men, regular work, supervised visits, cleanliness, a matron and monitors, rewards for good conduct) while noting she still needed to read Howard and consult people who knew well-run prisons; Gale describes the 1827 'Observations' as a handbook for women prison visitors. One documented plan plus a handbook, so a moderate reading."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fry_matheuszik, src_fry_gale | 1817-1830s | dissertation + reference] Matheuszik reports from her letters that she was reluctant at first to work with a larger group of women, partly because she would lose control, and that she came to see reform as the work of a movement; the Association and later committees were largely drawn from fellow Quakers at first. Gale confirms the committee structure. The dual-edged impact reflects the initial reluctance and limited breadth of the first committee."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fry_matheuszik, src_fry_gale, src_fry_quakerguide | 1813-1845 | dissertation + reference + institution] Matheuszik shows her continuing to press for the condemned woman's pardon through the Home Secretary and Bank directors in 1818 despite the displeasure of Lord Sidmouth and the bank, and the sources show decades of prison visits, inspections of over 100 prisons and five continental tours. The 1818 effort failed, which shows persistence without success, and the long record is supported by general accounts rather than detailed episodes."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "엘리자베스 프라이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/elizabeth-fry-leslie-after-1823.jpg",
+    "width": 903,
+    "height": 1200,
+    "source": "Oil-on-panel portrait of Elizabeth Fry in the National Portrait Gallery, London (NPG 898), catalogued as after Charles Robert Leslie (1794-1859); a later copy of Leslie's painting of about 1823, which the NPG catalogue (reached only through a search summary, since the NPG site blocks automated fetching) links to a March 1823 diary entry of Fry about a portrait commission. The Commons file page records the NPG source and tags the photographic reproduction as public domain because the painter died before 1939. Original image 2400 x 3188 pixels, downscaled to 903 x 1200; no upscaling. Shown as a historical depiction (a copy after the original painting), not a photograph of the sitter.",
+    "license": "Public domain (two-dimensional artwork; painter died 1859)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-100",
+    "attribution": "After Charles Robert Leslie, National Portrait Gallery, London, NPG 898",
+    "attributionUrl": "https://www.npg.org.uk/collections/search/portraitExtended/mw02359/Elizabeth-Fry",
+    "creator": "After Charles Robert Leslie",
+    "date": "after 1823",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Elizabeth_Fry_by_Charles_Robert_Leslie.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE (2026-10-26): Q271477 label 'Elizabeth Fry', description 'social reformer from England (1780-1845)', born 1780-05-21, died 1845-10-12; matches the lead; no Korean label on Wikidata. No existing candidate or src/data reference to elizabeth-fry or Q271477. REGION western_europe (England). VOCABULARY: activist, religious_leader, fields social_reform and religion, tags organizer, advocate, founder and archetypes organizational_leader and social_influencer have EN and KO labels (activist is also used by dorothea-dix, chico-mendes). ZERO POLITICS: primary identity is a Quaker minister and prison/social reformer; her lobbying for prison acts and against capital punishment is treated as reform work and not scored as partisan politics; her 1818 capital-case pardon campaign appears only in the persistence row as behaviour. portrait_preflight: strong (lead) / the lead's Leslie painting is a later NPG copy after a c.1823 original made during her life, so kind is historical depiction; the NPG catalogue text was obtained only through a search summary (NPG pages return 403), the Commons page confirms the NPG accession and an artist death date of 1859; flagged. CANONICAL SIGNIFICANCE SOURCE: Library of the Society of Friends, 'Elizabeth Fry' subject guide (https://quaker.org.uk/documents/subject-guide-elizabeth-fry-2023). READ: Gale encyclopedia entry, Matheuszik 2013 dissertation (substantial parts), Bank of England Museum page, Quaker guide, and a short scan of the Prison Service Journal review of Kent. NOT opened: Kent, Davies, Whitney and Lewis biographies, the 1818 parliamentary report itself (seen only through quotations in Matheuszik), Fry's own journals and 1827 'Observations' (self material, not needed), the Project MUSE review (blocked), the Christian History article (read, but dates conflict with other sources and it was not used). PERSPECTIVES: institutional timeline, celebratory reference, a critical scholarly study quoting her letters and contemporary critics, and a short review of a mid-century biography. COUNTER-VOICES: the Edinburgh Review (1822) and H. G. Bennet and Lord Sidmouth, as reported by Matheuszik, on the limits of her methods; Quaker criticism of her public life; the Quaker guide's remark that the 1823 Gaol Act was largely ineffective. EXCLUSIONS: childhood, illness, marriage, bereavement, family finances and children (all read in Gale and Matheuszik) are not scored or inferred; religious conversion narrative not scored. DATE CAVEAT: first Newgate visit 1813 (Quaker guide, Bank of England), Association 1817; Gale puts the organisation in 1816. SELF-CALIBRATION (agent): top-risk rows reviewed: persuasiveness (70/0.60 lowered to 66/0.55), impact_motivation (74/0.60 lowered to 70/0.55), proactive_agency (kept, supported by two independent sources and a quoted letter). FLAGS: 7 rows, none above 74; the key scholarly source is one dissertation; the 1818 report was not read directly."
+  }
+}

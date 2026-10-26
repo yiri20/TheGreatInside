@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "satyendra-nath-bose",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Satyendra Nath Bose",
+    "aliases": ["Satyendranath Bose", "S. N. Bose"],
+    "wikidataId": "Q45789",
+    "birthYear": 1894,
+    "deathYear": 1974,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["IN"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["physicist", "mathematician", "teacher"],
+    "fieldIds": ["physics", "mathematics"],
+    "impactDomains": ["scientific", "educational"],
+    "tagIds": ["theorist", "cross_disciplinary"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bose_wikidata",
+      "kind": "wikidata",
+      "title": "Satyendra Nath Bose (Q45789) -- verified live via the Wikidata API (2026-10-26): English label 'Satyendra Nath Bose', description 'Indian Bengali physicist and polymath (1894-1974)', born 1 January 1894, died 4 February 1974, Korean label '사톈드라 나스 보스', P18 image 'SatyenBose1925.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q45789"
+    },
+    {
+      "id": "src_bose_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Satyendra Nath Bose' (britannica.com), read in full as served (short article): Indian mathematician and physicist noted for his collaboration with Albert Einstein in developing the theory of the gaslike qualities of electromagnetic radiation (Bose-Einstein statistics); graduate of the University of Calcutta, taught at the University of Dacca (1921-45) and then at Calcutta (1945-56); papers from 1918 to 1956 on statistical mechanics, the ionosphere, X-ray crystallography, thermoluminescence and unified field theory; his 1924 paper 'Planck's Law and the Hypothesis of Light Quanta' led Einstein to seek him out for collaboration. CANONICAL SIGNIFICANCE SOURCE. The page links to, but the text read here does not reproduce, the Royal Society memoir.",
+      "url": "https://www.britannica.com/biography/Satyendra-Nath-Bose"
+    },
+    {
+      "id": "src_bose_insa_memoir",
+      "kind": "institution",
+      "title": "Indian National Science Academy, Biographical Memoir of Satyendra Nath Bose (1894-1974), Foundation Fellow 1935 (insaindia.res.in, Biographical Memoirs of Fellows), read at length (about 75,000 characters of OCR text; scan errors present): his Hindu School and Presidency College cohort; the 1917 University College of Science years and Einstein translations with Saha; the Dacca appointment and critical study of Planck, Einstein, Bohr and Sommerfeld; his maxim to students 'Never accept an idea as long as you, yourself, are not satisfied with its consistency'; how Saha's visit prompted his work; the 4 June 1924 letter to Einstein with the manuscript after no acceptance came from Philosophical Magazine; Einstein's postcard and translation with his note that Bose's derivation was an important step forward; a second letter that went unanswered; the study leave granted on the strength of that postcard; the Berlin visit; later facilities he provided for colleagues' research, a personal organic-chemistry research cell, D2-statistics papers (1936-37), ionosphere and Lorentz-group papers. Admiring Academy memoir; used for documented episodes, with its praise discounted.",
+      "url": "https://www.insaindia.res.in/BM/BM7_8307.pdf"
+    },
+    {
+      "id": "src_bose_mactutor",
+      "kind": "biography",
+      "title": "MacTutor History of Mathematics, 'Satyendranath Bose' biography by J. J. O'Connor and E. F. Robertson (mathshistory.st-andrews.ac.uk), read in full: Calcutta schooling and Presidency College; the University College of Science from 1917, where he studied quantum theory and obtained Einstein's permission to translate his papers; Reader at Dacca 1921 and professor from 1927; the 1924 letter to Einstein and the quoted covering note; Einstein's translation and strong recommendation to the Zeitschrift fur Physik and extension of the method to material particles; the two-year European leave beginning 1924, meetings with Langevin and de Broglie and with Einstein in Berlin in October 1925; Dirac's coinage of 'boson'; leadership roles in the Indian Science Congress and the National Institute of Science; election to the Royal Society in 1958; Vice-Chancellor of Visva-Bharati. Sources include Heilbron, Blanpied and Dutta. Independent university-hosted biography.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bose/"
+    },
+    {
+      "id": "src_bose_odnb",
+      "kind": "biography",
+      "title": "Oxford Dictionary of National Biography, 'Bose, Satyendranath [Satyendra Nath] (1894-1974), physicist' by H. W. Thompson, rev. 2004 (as reproduced by MacTutor at mathshistory.st-andrews.ac.uk/DNB/Bose.html), read in full: his translations of Einstein's 1905 and 1916 papers (defective, but described as the first English texts); his learning of French and German; the single great contribution of deriving Planck's formula using Boltzmann statistics; Einstein translating the paper himself and published as 'Plancks Gesetz und Lichtquantenhypothese' in Zeitschrift fur Physik in August 1924; Einstein contesting Bose's hypothesis about the probability of elementary radiative processes in his second paper; the Dacca leave granted after Einstein's letter; his forte in basic science that benefited researchers in other disciplines; his posts and offices. Cites Mehra's Royal Society memoir, Blanpied's American Journal of Physics article and Ray's personality sketch; those were not opened.",
+      "url": "https://mathshistory.st-andrews.ac.uk/DNB/Bose.html"
+    },
+    {
+      "id": "src_bose_nyt",
+      "kind": "press",
+      "title": "'For the Indian Father of the God Particle, a Long Journey from Dhaka', The New York Times India Ink blog, 6 July 2012 (india.blogs.nytimes.com), read in full: Bose's letter to Saha on the neglected condition of Dhaka's laboratories; his motivation as a teacher bothered by an inconsistency in Planck's treatment (quoting Unnikrishnan on 'reverse-engineering' the law and Bose's 1970 interview recalling he wanted to know how to grapple with the difficulty himself); that a referee at Philosophical Magazine first rejected the paper; the cover letter to Einstein; Einstein's translation and note; the leave and the use of Einstein's card for the German visa; Marie Curie preferring that he spend time on the language; Einstein's challenge in Berlin to work out the novelty of his hypothesis; Blanpied's remark that Bose seemed intimidated by Europeans; that he did not publish physics for a long period, wandered into philosophy, anthropology and literature, published again in 1937, and in the early 1950s worked on unified field theories that were 'hardly groundbreaking', and his remark that he was like a comet which came once and never returned. Independent press feature using Mehra interviews; Bose's quoted recollections are self-account.",
+      "url": "https://india.blogs.nytimes.com/2012/07/06/the-man-behind-boson/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bose_odnb, src_bose_mactutor, src_bose_insa_memoir, src_bose_nyt | 1924 | biographical dictionary + university biography + academy memoir + press] The Dictionary of National Biography calls his derivation of Planck's formula using Boltzmann statistics his single great contribution and the first correct treatment of the photon gas; Einstein translated it himself and wrote that it was an important step forward and extended the method to atoms; the Dacca paper was worked out with the treatment of photons as strictly identical particles. The originality is documented by several sources, but it rests on one decisive paper and the same sources note that later work was not groundbreaking, so it is capped at a moderate-to-good level."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bose_insa_memoir, src_bose_nyt, src_bose_odnb | 1921-1924 | academy memoir + press + biographical dictionary] Working at a new and poorly equipped university, Bose studied the original papers of Planck, Einstein, Bohr and Sommerfeld and, per the memoir, told students not to accept an idea until they themselves were satisfied with its consistency; when his own resolution of an inconsistency in Planck's treatment went unacknowledged by an English journal, he sent it to Einstein, and the interview material says he pursued the problem because he wanted to understand it, not because anyone assigned it. Accounts differ on whether the journal rejected or never replied. SELF-CALIBRATION (agent): first-pass 72 / 0.58 lowered to 68 / 0.52 because the maxim and the motive are recollections reaching me through the Academy memoir and the press feature, and the two accounts of the journal episode conflict."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bose_insa_memoir, src_bose_odnb, src_bose_nyt | 1917-1938 | academy memoir + biographical dictionary + press] The memoir describes a period of critical study of the original quantum papers and the identification of why Planck's law needed a derivation without internal difficulties, and later D2-statistics papers praised for skill in mathematical manipulation; the biographical dictionary notes the logical derivation from Boltzmann statistics and that Einstein challenged one of the hypotheses in the second paper; Einstein in Berlin pushed him to work out the details of the novelty. The evidence is mostly the memoir's admiring description of a single line of work, so confidence is moderate."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bose_insa_memoir, src_bose_britannica, src_bose_odnb, src_bose_nyt | 1917-1956 | academy memoir + encyclopaedia + dictionary + press] Britannica lists papers across statistical mechanics, the ionosphere, X-ray crystallography, thermoluminescence and unified field theory; the memoir adds organic-chemistry work at Dacca and statistics papers, the biographical dictionary says researchers in other disciplines benefited from discussions with him, and the press feature says his interests ranged into philosophy, anthropology and literature while his physics output fell off. Range is documented across fields, though the non-physics outputs are described only briefly."
+    },
+    "proactive_agency": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bose_insa_memoir, src_bose_nyt, src_bose_mactutor | 1924-1930s | academy memoir + press + university biography] Without an introduction he mailed a manuscript to Einstein, followed it with a second paper, applied for study leave and then travelled to Paris and Berlin; at Dacca he is described as providing research facilities for colleagues and starting an organic-chemistry research cell. The behaviour is documented but a few episodes are described by admiring sources, and the press feature records that his output fell off after the 1920s, so confidence is modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사티옌드라 나트 보스"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait was found. The lead's candidate, Wikidata P18 'SatyenBose1925.jpg', has an unknown author, cites a website image (siliconeer.com) as its source and carries generic public-domain tags without a documented photographer, publication date or death date, so its basis cannot be verified. The one bounded retry checked the Commons category: 'Satyendra-nath-bose.jpg' (1915, unknown author, courtesy of a project, blog sources), the Indian Statistical Institute commemorative-album photo of 1961 (unknown author), the 1955 photo from the S. N. Bose National Centre archive (unknown author; the Centre's archive page states no reuse terms) and the group photograph with Saha and J. C. Bose (the Commons version is an AI-colourised derivative of the same archive scan). None documents a creator, publication date and licence on an authoritative page. Next step: obtain a photograph with a named photographer or a stated reuse licence from the Royal Society, the S. N. Bose National Centre for Basic Sciences, the Indian Statistical Institute or an archive such as Wellcome or the Nationaal Archief."
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE (Wikidata wbgetentities, 2026-10-26): Q45789, en label 'Satyendra Nath Bose', description 'Indian Bengali physicist and polymath (1894-1974)', born 1894-01-01, died 1974-02-04, ko label '사톈드라 나스 보스' (the more common Korean transliteration 사티옌드라 나트 보스 is used as the display name and should be checked by the lead); lead hint correct. SLUG/QID CHECK: no candidate file satyendra-nath-bose and no QID Q45789 elsewhere in data-pipeline or src (the separate jagadish-chandra-bose and subhas-chandra-bose candidates are different people). REGION south_asia, nationality IN (born in Calcutta, career at Dacca and Calcutta). VOCABULARY: physicist, mathematician, teacher; fields physics and mathematics; tags theorist and cross_disciplinary; archetype scientific_explorer are existing ids with EN+KO labels. ZERO POLITICS: his scientist-patriot and Visva-Bharati/educational roles were not scored; the MacTutor mention of national roles and the INSA passages on the Swadeshi movement and national feeling were not used. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Satyendra Nath Bose' (https://www.britannica.com/biography/Satyendra-Nath-Bose). READ (5 cited non-Wikidata sources + portrait records): Britannica, INSA Biographical Memoir (OCR), MacTutor biography, Oxford DNB entry via MacTutor, NYT India Ink feature. PERSPECTIVES: encyclopaedia; national academy memoir (admiring); university history site; biographical dictionary; independent press feature quoting Mehra interviews. COUNTER-VOICES: Einstein contested Bose's second-paper hypothesis (ODNB); NYT notes the Philosophical Magazine rejection, the long publishing gap, and that his later unified-field work was hardly groundbreaking; Blanpied's remark (via NYT) that he seemed intimidated by Europeans was NOT scored. EXCLUDED deliberately: the Nobel-omission debate (reception history; the web search surfaced only popular items and it is a neutral note only, unscored); family, marriage, health; political and nationalist engagement; the 2012 God-particle media framing. NOT OPENED: the Royal Society memoir by Mehra (403), Blanpied's American Journal of Physics article, Wali's biography 'Satyendra Nath Bose', the EMIS centennial tribute (403), India Science and Technology portal (unreachable). portrait_preflight: risky (lead) / confirmed unresolved: HOLD, see portrait.reason. CALIBRATION: five rows, highest score 72 and highest confidence 0.56; six sources total with only Britannica opened as a canonical significance source. SELF-CALIBRATION (agent): reviewed creative_originality (kept: several independent sources including Einstein's own note, though capped by single-paper dependence), independent_thinking (lowered 72/0.58 to 68/0.52) and analytical_rigor (kept: moderate already). BROAD FLAG: behavioural depth rests on an admiring Academy memoir plus one press feature; the Mehra Royal Society memoir or Wali's biography would strengthen proactive_agency and independent_thinking."
+  }
+}
