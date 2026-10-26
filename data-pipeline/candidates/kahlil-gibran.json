@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kahlil-gibran",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kahlil Gibran",
+    "aliases": ["Gibran Khalil Gibran", "Khalil Gibran"],
+    "wikidataId": "Q47737",
+    "birthYear": 1883,
+    "deathYear": 1931,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["LB", "US"],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": ["writer", "poet", "painter"],
+    "fieldIds": ["literature", "art"],
+    "impactDomains": ["literary", "artistic", "cultural"],
+    "tagIds": ["cross_disciplinary", "innovator"],
+    "archetypeIds": ["creative_creator", "independent_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kg_wikidata",
+      "kind": "wikidata",
+      "title": "Kahlil Gibran (Q47737) -- verified live via the Wikidata API (2026-10-24): English label 'Kahlil Gibran', description 'Lebanese-American writer, poet, and painter (1883-1931)', Korean label '칼릴 지브란', born 6 January 1883, died 10 April 1931, image 'Kahlil Gibran 1913.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q47737"
+    },
+    {
+      "id": "src_kg_poets",
+      "kind": "institution",
+      "title": "Academy of American Poets (poets.org), 'Kahlil Gibran' biography page, read in full: born in Bsharri in Ottoman Syria (now Lebanon); art classes in Boston and a first public exhibit of drawings in 1904 championed by the photographer Fred Holland Day; study at the Academie Julian in Paris in 1908 with Mary Haskell as patron; move to New York in 1911; publisher Alfred Knopf; The Madman (1918) and The Prophet (1923), which was never reviewed by the New York Times and sold about twelve hundred copies in its first year but has sold more than ten million, making him among the best-selling poets in the world; Juan Cole's remark on its appeal in the 1960s; membership of the Arabic-language Pen League; nine books in Arabic and eight in English; Sand and Foam (1926). CANONICAL SIGNIFICANCE SOURCE (with the Mahjar guide). Institutional, admiring, with some detail (the 1885 emigration date and the 'reportedly' Rodin remark) not relied on; family-loss, patron-relationship and health passages were not used.",
+      "url": "https://poets.org/poet/kahlil-gibran"
+    },
+    {
+      "id": "src_kg_mahjar",
+      "kind": "institution",
+      "title": "Academy of American Poets, 'A Brief Guide to the Mahjar' (poets.org, staff, 30 March 2022), read in full: the Mahjar movement of Syrian and Lebanese writers in the Americas as a facet of Arabic Romanticism (nonconformity, love and spirituality, influence of Whitman); the New York Pen League (al-Rabitah al-Qalamiyyah) began to meet in 1916 and was officially founded in April 1920, with Gibran and Ameen Rihani as members and Nasib Arida a founder of the journal al-Funun in which many members published; the Pen League was the most significant Mahjar circle and New York the publishing centre; the page also notes that Gibran spoke out about the wartime famine in Mount Lebanon (political; not used). Institutional overview of a literary movement.",
+      "url": "https://poets.org/text/brief-guide-mahjar"
+    },
+    {
+      "id": "src_kg_qnl",
+      "kind": "institution",
+      "title": "Hadia H. Elkhalifa, 'Arab-American Literature: Poets of Al-Mahjar, the Pen League and the Andalusian League', Qatar National Library blog, 28 November 2021, read in full: the diaspora poets combined Arab culture and life in the diaspora and moved against traditional restrictions; the New York Pen League, formed in 1920 with Gibran, Elia Abu Madi, Mikhail Naimy and Abd al-Masih Haddad as prominent members, aimed to promote the Arabic language and its literature and edited and published diaspora periodicals including the literary magazine al-Funun; its output used simple Arabic, new forms such as free poetry and symbolic writing; the society dissolved with Gibran's death. A national-library editorial seen from an Arab institutional perspective, partly summary.",
+      "url": "https://www.qnl.qa/en/blogs/12396"
+    },
+    {
+      "id": "src_kg_bigthink",
+      "kind": "press",
+      "title": "Gus Mitchell, 'Meet the 3rd bestselling poet in world history', Big Think, 18 October 2023, read in full: The Prophet (Knopf, September 1923) sold its first printing of about twelve hundred copies within a month with little promotion, sales grew year on year, and it is described as the third-bestselling poet's book behind Shakespeare and Lao Tzu; Knopf's remark that he had not met five people who read Gibran; in Arabic he is held to be a crucial modern innovator and a bridge between classical and romantic sensibility, while Western academic and literary opinion treats his concerns and style as anti-modern, overwritten, sentimental (counter-voice); he trained at the Academie Julian in 1908, produced over 700 visual works, saw himself in the poet-artist line of William Blake, and drew on Christian, Islamic and Sufi, Buddhist and Hindu traditions, Blake, Nietzsche, Whitman and the Transcendentalists. Popular-intellectual magazine essay by one writer; its remarks on his drinking and his father were not used.",
+      "url": "https://bigthink.com/high-culture/kahlil-gibran/"
+    },
+    {
+      "id": "src_kg_aljadid",
+      "kind": "press",
+      "title": "D. H. Melhem, 'Gibran's The Prophet Outside the Canon of American Literature', Al Jadid (Arab-American arts and culture magazine), read in full (first ~9,000 characters of 14,000): The Prophet has sold over nine million copies and was in its 136th printing in August 2001, yet Gibran continues to be rejected by mainstream American critics and is absent from the Norton and Heath anthologies, with Grape Leaves (1988) the first major American anthology to feature him; his English books The Madman and Jesus, The Son of Man were better received critically; the writer compares his illustrated, parable-and-prose-poem form to William Blake and finds the book experimental, set against the Eliot-Pound modernist aesthetic. Essay by an Arab-American poet and scholar; sympathetic to Gibran but critical of his exclusion; rest of the article not opened.",
+      "url": "https://aljadid.com/content/gibran%E2%80%99s-%E2%80%98-prophet%E2%80%99-outside-canon-american-literature"
+    },
+    {
+      "id": "src_kg_fac",
+      "kind": "press",
+      "title": "'A Greater Beauty: The Drawings of Kahlil Gibran', Fine Art Connoisseur (exhibition notice for The Drawing Center, New York, through 3 September 2023), read in full: Gibran, best known as the author of The Prophet, viewed himself equally as an artist, producing paintings, watercolours, sketches, illustrations and book covers as a complement to his writing; the notice says he broke with the rigid conventions of traditional Arabic poetry and prose and that his non-sectarian approach combining Christianity, Islam, Buddhism and Jungian psychology was a revelation to Arabic-speaking and immigrant communities, and that his visual art was an idiosyncratic fusion of symbolist pantheism and spiritual mysticism; exhibition curated by Claire Gilman with Anneka Lenssen; works lent by the Telfair Museum and the Gibran Museum. Exhibition press notice, promotional.",
+      "url": "https://fineartconnoisseur.com/2023/07/a-greater-beauty-the-drawings-of-kahlil-gibran/"
+    },
+    {
+      "id": "src_kg_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Kahlil Gibran with Book MET DP114605.jpg' and the Metropolitan Museum of Art collection record for object 267551 (accession 33.43.151, F. Holland Day, 'Kahlil Gibran with Book', 1896, platinum print, Alfred Stieglitz Collection, 1933) -- checked for the portrait: Commons records artist F. Holland Day (American, 1864-1933), institution the Metropolitan Museum of Art, licence tag CC0 from a Metropolitan Museum upload, original 2847 x 3898 pixels, SHA-1 verified against the downloaded file; the Met's own API record lists the object as not flagged public domain, with no image and no rights statement. Also checked: 'Kahlil Gibran 1913.jpg' (unknown author, published in al-Funun in April 1913, 274 x 379 pixels).",
+      "url": "https://commons.wikimedia.org/wiki/File:Kahlil_Gibran_with_Book_MET_DP114605.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kg_qnl, src_kg_fac, src_kg_bigthink, src_kg_aljadid, src_kg_mahjar | 1910s-1926 | national-library editorial + exhibition notice + magazine essay + Arab-American essay + academy guide] The Qatar National Library editorial says Pen League writers used simple Arabic, free poetry and symbolic writing against traditional restrictions; the exhibition notice says Gibran broke with the conventions of traditional Arabic poetry and prose and fused symbolist and mystical elements in his visual art; Big Think says he is held in Arabic to be a crucial modern innovator bridging classical and romantic sensibility; Al Jadid calls The Prophet experimental in its mix of parable, prose poem and illustration. The counter-voice is substantial: Western academic opinion, as Big Think and Al Jadid report, finds the work overwritten, sentimental and anti-modern, so originality is documented as a distinctive and influential form rather than as consensus literary significance."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kg_poets, src_kg_fac, src_kg_bigthink | 1904-1928 | academy biography + exhibition notice + magazine essay] The Academy of American Poets records both his drawings (first public exhibit 1904, study in Paris 1908) and his books, nine in Arabic and eight in English; the exhibition notice says he viewed himself equally as an artist and produced paintings, watercolours, sketches, illustrations and book covers as a complement to his writing; Big Think counts over 700 visual works alongside the Arabic and English books and places him in Blake's poet-artist line. Work in two languages and two arts is documented by three sources, so documented at a moderate confidence, with the quality of the visual work itself not assessed here."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kg_poets, src_kg_bigthink, src_kg_fac | 1904-1923 | academy biography + magazine essay + exhibition notice] The Academy of American Poets records art classes, a Paris study period in 1908 and a long publishing career in two languages; Big Think says he drew on Christian, Islamic and Sufi, Buddhist and Hindu traditions, Blake, Nietzsche, Whitman and the Transcendentalist, Romantic and Symbolist writers, and the exhibition notice describes a sustained fusion of influences. Wide, deliberate study of sources is described, but the sources give little on how he practised or revised, so strong inference at a modest confidence."
+    },
+    "experimentation": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kg_qnl, src_kg_aljadid, src_kg_fac | 1918-1926 | national-library editorial + Arab-American essay + exhibition notice] The editorial describes new poetic forms, free poetry and symbolic writing in the Pen League's output; Al Jadid calls his mixture of paradox, parable, aphorism, prose poetry and visual dimension experimental and unique; the exhibition notice says he took a similar fusion approach in his visual art. Mixed-form, illustrated books are documented, but the evidence concerns the finished works and a movement rather than documented trial and revision, so a modest score."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kg_fac, src_kg_aljadid, src_kg_bigthink | 1918-1931 | exhibition notice + Arab-American essay + magazine essay] The exhibition notice says his non-sectarian approach combining Christianity, Islam, Buddhism and Jungian psychology was a revelation to Arabic-speaking and immigrant communities; Al Jadid describes unorthodox yet deeply religious concerns that evolved from the Bible; Big Think says he combined many traditions and wrote at odds with the modernist taste of 1923. A habit of reaching his own synthesis rather than following an orthodoxy is consistent across sources. SELF-CALIBRATION (agent): first-pass 64 / 0.52 lowered to 58 / 0.46 because the evidence is the content of his writings and later retrospective description, not documented behaviour in his own decisions."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "칼릴 지브란"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kahlil-gibran-holland-day-1896.jpg",
+    "width": 876,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Kahlil Gibran with Book MET DP114605.jpg' -- platinum print photograph 'Kahlil Gibran with Book' by F. Holland Day (American, 1864-1933), dated 1896, Metropolitan Museum of Art, New York (accession 33.43.151, Alfred Stieglitz Collection, 1933; Met object 267551), uploaded to Commons from the Metropolitan Museum's image set with a CC0 tag. Original 2847 x 3898 pixels (SHA-1 84b8eee2... verified against the downloaded file); downscaled once to 876 x 1200 pixels, never upscaled. The sitter is a boy of about thirteen; the identification rests on the Metropolitan Museum's title. Rights basis: the named photographer died in 1933, so the photograph is out of copyright by term in the United States and the European Union. Caveat: the Metropolitan Museum's own collection record currently does not mark the object as open access and shows no image, and carries no rights statement either way; no conflicting copyright notice was found.",
+    "license": "Public domain (photographer F. Holland Day died 1933; CC0 tag on Commons)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photo: F. Holland Day, 1896, Metropolitan Museum of Art (33.43.151)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Kahlil_Gibran_with_Book_MET_DP114605.jpg",
+    "creator": "F. Holland Day",
+    "date": "1896",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kahlil_Gibran_with_Book_MET_DP114605.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE (2026-10-24, wbgetentities): Q47737, en label 'Kahlil Gibran', description 'Lebanese-American writer, poet, and painter (1883-1931)', ko label '칼릴 지브란', born 1883-01-06, died 1931-04-10; the lead's hint (spelling Kahlil) was correct. SLUG/QID CHECK: no production or candidate file for slug kahlil-gibran or QID Q47737 in the roster56 worktree. REGION: west_asia, nationalityCodes LB and US. Reasoning: he left Lebanon as a child and built his whole career in Boston and New York, but his Arabic writing, the Pen League and his reception in the Arab world (and the Mahjar framing used by the cited institutions) tie his significance to the Levantine diaspora, and repo precedents for people born in the region with a career abroad (Edward Said, Zaha Hadid) use west_asia; the alternative north_america is defensible, the lead may override. VOCABULARY: occupations writer, poet, painter, fields literature and art, tags cross_disciplinary and innovator, archetypes creative_creator and independent_creator all have EN+KO labels. ZERO POLITICS: nothing political scored; the Mahjar guide's note on his statements about the wartime famine in Mount Lebanon was not used. DECEASED SUBJECT: no inference from bereavement, family, health, drinking, his death or relationships; the Mail and Guardian article (1998) on Robin Waterfield's biography was read and EXCLUDED entirely because it consists of allegations about private conduct and inferred motives. PORTRAIT PREFLIGHT: positive. Day photograph chosen over the 1913 al-Funun photograph (unknown author, 274 x 379) because it has a named creator, institution, date and sitter title; see portrait.source for the Met record caveat. CANONICAL SIGNIFICANCE SOURCE: Academy of American Poets biography (https://poets.org/poet/kahlil-gibran, read in full) with the Academy's Mahjar guide. READ (6 cited non-Wikidata sources plus the Commons and Met records): Academy biography, Mahjar guide, Qatar National Library editorial, Big Think, Al Jadid (first ~9,000 of 14,000 characters), Fine Art Connoisseur notice. Blocked or not opened: Juan Cole's University of Michigan chronology (bot wall), Telfair Museums collection pages (returned no text), Bonhams and Sotheby's listings, eNotes, Gibran National Committee, Bushrui and Jenkins and Waterfield books (reached only through reviews), Wikipedia. PERSPECTIVES: US literary-institution biography, Arab institutional view (Qatar National Library), a popular-intellectual magazine essay, an Arab-American poet-critic's essay, and an exhibition notice from the art world; COUNTER-VOICE: Western academic and critical rejection (Big Think; Al Jadid; poets.org on the New York Times never reviewing The Prophet). LIMITATIONS: very little behavioural detail on his working method, collaborations or decisions; most evidence concerns his works and reception; his Arabic works and his drawings were not examined; so only five rows and none above 72 or 0.58. SELF-CALIBRATION (agent): rows reviewed were independent_thinking (content-based inference; lowered 64/0.52 to 58/0.46), creative_originality (split reception; left unchanged at 70/0.58 because the Arabic-side and exhibition sources are independent of the Western critics) and cross_domain_range (highest score; left unchanged because three sources document both arts and two languages). Broad flag for the lead: the profile rests on works and reception rather than behaviour, so it is thin by design."
+  }
+}

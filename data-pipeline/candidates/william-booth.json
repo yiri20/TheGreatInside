@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "william-booth",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "William Booth",
+    "aliases": [
+      "General Booth",
+      "General William Booth"
+    ],
+    "wikidataId": "Q309882",
+    "birthYear": 1829,
+    "deathYear": 1912,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader"
+    ],
+    "fieldIds": [
+      "religion",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "leader",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_booth_wikidata",
+      "kind": "wikidata",
+      "title": "William Booth (Q309882) -- verified live via the Wikidata API (2026-10-24): English label 'William Booth', description 'British Methodist preacher (1829-1912)', born 1829-04-10, died 1912-08-20, citizenship United Kingdom, Korean label '윌리엄 부스', P18 image 'William-Booth-c1900.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q309882"
+    },
+    {
+      "id": "src_booth_eb1911",
+      "kind": "archive",
+      "title": "Encyclopaedia Britannica, 11th edition (1911), entry 'Booth, William' (Wikisource transcription), read in full: founder and 'general' of the Salvation Army; Wesleyan local preacher, then Methodist New Connexion minister, left in 1861; organised the East London Christian Mission in 1864 which became the Salvation Army in 1878; methods (open-air meetings, popular tunes, converts as daily witnesses); quasi-military 'Orders and Regulations'; early violent opposition and fines and imprisonment of followers; spread to the United States (1880), Australia (1881) and beyond; In Darkest England and the Way Out (1890) with its ten expedients, money liberally subscribed; later royal and civic recognition. CANONICAL SIGNIFICANCE SOURCE. Contemporary reference entry written in his lifetime, sympathetic.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Booth,_William"
+    },
+    {
+      "id": "src_booth_sa",
+      "kind": "institution",
+      "title": "The Salvation Army UK and Ireland, 'Our history' page (salvationarmy.org.uk), read in full: the movement began in East London in 1865 when William and Catherine Booth took preaching to the streets, the Christian Mission with Booth as General-Superintendent, the 1878 name change and quasi-military structure, the 'soup, soap and salvation' practical doctrine, and the range of social services. Self-description by the organisation he founded; admiring and used only for chronology and the organisation's own account of its work.",
+      "url": "https://www.salvationarmy.org.uk/about-us/our-history"
+    },
+    {
+      "id": "src_booth_edwards",
+      "kind": "biography",
+      "title": "Bruce L. Edwards, 'William Booth' (EBSCO Research Starters, History, 2024), read in full: early life and conversion, the 1865 Whitechapel mission, the military metaphor (general, ranks, uniforms, flags, band), the 1878-1890 growth, the statement that his 'increasingly rigid, authoritarian manner' alienated many within the ranks and that his public power alarmed outsiders, the 1890 manifesto and the controversy and charges of socialism, Huxley as a secularist counterpoint, and an annotated bibliography that characterises Begbie as written as a tribute and Hattersley as more candid about the Booths. A modern encyclopaedic overview that is balanced and names criticism.",
+      "url": "https://www.ebsco.com/research-starters/history/william-booth/"
+    },
+    {
+      "id": "src_booth_begbie",
+      "kind": "biography",
+      "title": "Harold Begbie, 'The Life of General William Booth, the Founder of the Salvation Army' (Macmillan, New York, 1920, two volumes), full-text scans read selectively on the passages cited: the Mile End Waste open-air preaching and a convert's account of him; his 1855-era letters; the origins of the social scheme; the 1890 manifesto and its conflicting reception; the 1892 Committee of Inquiry into the Darkest England fund (about 129,000 pounds subscribed by 1892, doubts about personal benefit and accounts, the committee finding the funds had been spent only on the declared objects); quoted contemporary critics (Randall Davidson on his autocratic control; Huxley's attack; W. T. Stead's reproof to Railton); the motor-car campaigns of his old age. Begbie was a devoted admirer (EBSCO calls the work a tribute); the book is used for documented episodes and quoted documents, not for its praise, and no family or health passages are used.",
+      "url": "https://archive.org/details/lifeofgeneralwil01begb"
+    },
+    {
+      "id": "src_booth_dnb",
+      "kind": "biography",
+      "title": "Edward Harold Begbie, 'Booth, William', Dictionary of National Biography, 1927 supplement (Wikisource transcription), read in full: poverty and pawnbroker apprenticeship, 1844 conversion, break with the Methodist New Connexion in 1861 'rather than submit to the authority of his church', the 1878 'volunteer army' to 'salvation army' change and the military titles he at first resisted, the 1890 book largely written by W. T. Stead, Huxley's attack, and a markedly more critical character assessment than Begbie's biography (a 'timorous administrator' using his autocracy to safeguard spiritual work, hostile to science and sport, willing to court wealthy donors, with Bramwell the real organiser). Same author as the biography so not fully independent; the passages on ancestry and speculation about racial character are deliberately NOT used.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1927_supplement/Booth,_William"
+    },
+    {
+      "id": "src_booth_foote",
+      "kind": "archive",
+      "title": "G. W. Foote, 'Salvation Syrup; or, Light on Darkest England' (1891 freethinker's pamphlet, Project Gutenberg eBook 39120), read in the passages on organisation and finance: a secularist critic's charge that Booth held 'despotic' unchecked control over a body of followers whose daily lives were regulated, that the scheme's proposed farm and over-sea colonies would be despotic rather than co-operative, and that W. T. Stead wrote much of the manifesto. Adversarial, partisan and of its time; used only as the contemporary counter-voice on authority and governance, not for factual claims about his character.",
+      "url": "https://www.gutenberg.org/ebooks/39120"
+    },
+    {
+      "id": "src_booth_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Gen. Booth LCCN2014685085.jpg' (wikitext and image record), checked for the portrait: Library of Congress, Prints and Photographs Division, George Grantham Bain Collection glass negative, publisher Bain News Service, photographer not credited, no date recorded; the file page quotes the Library's statement of no known restrictions on publication. Original 4235 x 5854. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Gen._Booth_LCCN2014685085.jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_booth_eb1911, src_booth_begbie, src_booth_edwards, src_booth_dnb | 1861-1890s | reference entry + admiring biography + modern overview + critical DNB entry] After leaving the Methodist New Connexion in 1861 he kept the open-air mission going through years of violent opposition (a 'Skeleton Army' organised to break up meetings, followers fined and imprisoned for breach of the peace, per EB1911) and through press ridicule; Edwards calls his 'fierce determination' the quality even opponents respected, and the DNB entry says he 'pushed steadily forward'. Four sources of differing tone agree; some of it is retrospective summary rather than dated incident detail. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 80 / 0.66 to 76 / 0.58 because same Begbie and organisation-self-account concentration; the modern overview is balanced but brief."
+    },
+    "leadership_drive": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_booth_eb1911, src_booth_edwards, src_booth_begbie, src_booth_dnb, src_booth_foote | 1865-1912 | reference entry + modern overview + admiring biography + critical DNB entry + adversarial pamphlet] He took the title of General, modelled 'Orders and Regulations' on the army, and led the movement for more than forty years as it spread to the United States, Australia and the Continent. Both friendly and hostile sources describe the same centralised control: Edwards says his rigid, authoritarian manner alienated many within the ranks, Begbie quotes Randall Davidson that Booth was 'determined to keep control, and an autocratic control', and Foote calls it despotic. The DNB entry adds that he used the autocracy mainly to protect spiritual work and relied on his son Bramwell to organise, so the cost side is dual-edged rather than purely a risk. RUBRIC_CORRECTION (lead review, before eligibility): leadership_drive lowered from 82 / 0.68 to 78 / 0.6 because two of the seven sources are by the same admiring biographer (Begbie), the 1892 inquiry finding is known only through him, and the Salvation Army page is a self-account, so the independent corroboration is thinner than 82 / 0.68 implies."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_booth_begbie, src_booth_dnb, src_booth_eb1911, src_booth_edwards | 1865-1905 | admiring biography + critical DNB entry + reference entry + overview] Begbie reports a convert's account of him quieting a jeering Whitechapel crowd with shouting and singing, the DNB says he drew multitudes to the penitent's form and later won the backing of churchmen and wealthy donors, and Edwards says he moved church members to feed and clothe the poor as part of their faith. The pattern of winning audiences and donors is consistent across sources, but the vivid anecdote is a single retrospective witness. SELF-CALIBRATION (agent): first-pass 76 / 0.62 lowered to 72 / 0.58 because the most concrete crowd-persuasion episode rests on one admiring account relayed by Begbie, and donor support is partly attributed by the DNB to his accommodation of wealthy patrons rather than to persuasion alone."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_booth_eb1911, src_booth_begbie, src_booth_edwards, src_booth_foote | 1860s-1890s | reference entry + biography with quoted critics + overview + adversarial pamphlet] He continued preaching in the face of rioting crowds and prosecution of his followers (EB1911), answered Huxley's public attack on the 1890 scheme (Begbie), and Edwards says his public image was never fully rehabilitated after the manifesto's reception. Foote's pamphlet shows the hostility he faced from secularists. Begbie himself says he defended the scheme without answering where social work ended and spiritual work began, and Edwards notes his authoritarian manner alienated insiders, hence dual-edged."
+    },
+    "autonomy_need": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_booth_eb1911, src_booth_dnb, src_booth_begbie | 1849-1878 | reference entry + DNB + biography] He left the Wesleyans over open-air preaching, then left the Methodist New Connexion in 1861 when it would not employ him as a travelling evangelist (the DNB: 'rather than submit to the authority of his church'), and in negotiations with the Church of England clergyman Davidson refused any outside control of the Army. The pattern of leaving or refusing structures that constrained his mission is documented in three sources, though two are by Begbie."
+    },
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_booth_dnb, src_booth_edwards, src_booth_eb1911, src_booth_sa | 1865-1912 | critical DNB + overview + reference entry + organisation page] The DNB, while otherwise critical, calls 'love for souls' the master passion of his life and describes real pity for the distressed poor; Edwards and EB1911 document the shelters, labour exchange and farm-colony proposals of the 1890 scheme as an extension of the mission, and the Salvation Army page lists the social services he oversaw. The motivation is stated by sources rather than shown in a single incident, so strong inference; critics (Huxley, Foote) disputed the scheme's methods and ties to evangelism, not that he sought to help."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_booth_eb1911, src_booth_begbie, src_booth_dnb, src_booth_edwards | 1860s-1905 | reference entry + biography + DNB + overview] Over decades he moved from chapel preaching to tents and outdoor meetings, popular song-tunes, theatres and factories (EB1911), added a social programme from 1890, and in 1905 toured by motor-car in his seventies (Begbie). The DNB says the military naming came about by chance and that he at first resisted the titles and uniform, which supports adopting methods that proved to work. The range is documented but each instance is a method change within one mission, not a change of aim."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_booth_begbie, src_booth_eb1911, src_booth_dnb | 1890-1892 | biography + reference entry + DNB] Begbie reports that about 129,000 pounds had been subscribed to the Darkest England fund by 1892 and that a Committee of Inquiry found the money had gone only to the declared objects and been spent in a business-like way; EB1911 says money was liberally subscribed and much of the scheme carried out; the DNB says he courted bookmakers, millionaires and aristocrats for money for his emigration schemes, shelters and halls. The committee finding is relayed through Begbie, not read in the committee's own report, and the 1892 inquiry followed public doubts about the accounts, which keeps confidence moderate."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/william-booth-bain-news-service.jpg",
+    "width": 868,
+    "height": 1200,
+    "source": "Library of Congress, Prints and Photographs Division, George Grantham Bain Collection, glass negative captioned 'Gen. Booth', digitised as ggbain.05091 and hosted on Wikimedia Commons: publisher Bain News Service, photographer not credited, no date recorded; the Bain collection runs from about 1900 to the early 1920s and Booth died in 1912, so the negative was made within his lifetime. The Library states no known restrictions on publication for the Bain collection and the Commons page quotes that statement; the Library's own item page could not be opened (bot protection, HTTP 403), so the statement was verified through Commons. Original 4235 x 5854; downscaled once to 868 x 1200 (no upscaling). The Wikidata image (Salvation Army website photo, unknown photographer, 200 x 282, rights rationale by inquiry email) was not used.",
+    "license": "Public domain (US); Library of Congress: no known restrictions on publication",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gen._Booth_LCCN2014685085.jpg",
+    "attribution": "Bain News Service, Library of Congress, George Grantham Bain Collection (ggbain.05091); photographer not credited; date not recorded (before 1912)",
+    "attributionUrl": "https://lccn.loc.gov/2014685085",
+    "creator": "Bain News Service (photographer not credited)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Gen._Booth_LCCN2014685085.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "윌리엄 부스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID Q309882 verified live (wbgetentities 2026-10-24): 'William Booth', 'British Methodist preacher (1829-1912)', 1829-04-10 to 1912-08-20, ko label 윌리엄 부스. No existing candidate or src reference for slug william-booth or the QID. Region western_europe (Nottingham/London). ZERO POLITICS: primary identity religious leader and charity founder; In Darkest England is treated as social-reform/charitable programme and its political reception, his early Chartist sympathy in the DNB, and his dealings with royalty and politicians are not scored. Vocabulary: religious_leader (en+ko labels), fields religion and social_reform, tags founder/leader/organizer, archetypes organizational_leader and social_influencer all exist and are labelled; 'missionary' not used. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 11th edition entry 'Booth, William' (Wikisource transcription), cross-checked with Edwards (EBSCO) and the Salvation Army history page. PORTRAIT PREFLIGHT: Bain/Library of Congress glass negative with a quoted no-known-restrictions statement, accepted by repo precedent (Rutherford); date unrecorded but necessarily pre-1912. READ (7 cited non-Wikidata items): EB1911 entry, Salvation Army history page, Edwards overview, Begbie biography (selected passages from full-text scans of both volumes), Begbie's DNB entry, Foote's 1891 pamphlet (selected passages), Commons record. PERSPECTIVES: reference entry from his lifetime, organisation's self-account, modern balanced overview, admiring biography containing quoted critics and the 1892 inquiry result, more critical DNB assessment, and an adversarial secularist pamphlet. NOT OPENED: Walker 'Pulling the Devil's Kingdom Down' (only a paywalled review located), Murdoch 'Origins of the Salvation Army', Hattersley and Collier biographies, the Committee of Inquiry's own report (known only through Begbie, so the finance finding is capped), Huxley's essay itself (known through Begbie and Edwards), Britannica current entry (403), Christianity Today/Christian History pages (404), Wikipedia. COUNTER-VOICES: Foote, Huxley as quoted, Davidson on autocracy, Edwards on alienated insiders, DNB's critical assessment. EXCLUSIONS: family, Catherine's death and Booth's own health and blindness, ancestry and ethnic speculation in the DNB, and Eliza Armstrong case (not read). CALIBRATION: eight rows, highest score 82 (leadership_drive, corroborated by friendly and hostile sources alike) and highest confidence 0.68; two biographies are by the same admiring author, which caps everything. SELF-CALIBRATION (agent): rows reviewed: leadership_drive, persuasiveness, impact_motivation. Lowered: persuasiveness (76/0.62 to 72/0.58: concrete episode is one admiring retrospective witness). leadership_drive and impact_motivation left unchanged: the first is corroborated by hostile sources, the second is stated by the critical DNB entry. RUBRIC_CORRECTION (lead review, before eligibility): leadership_drive lowered from 82 / 0.68 to 78 / 0.6 because two of the seven sources are by the same admiring biographer (Begbie), the 1892 inquiry finding is known only through him, and the Salvation Army page is a self-account, so the independent corroboration is thinner than 82 / 0.68 implies. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 80 / 0.66 to 76 / 0.58 because same Begbie and organisation-self-account concentration; the modern overview is balanced but brief."
+  }
+}

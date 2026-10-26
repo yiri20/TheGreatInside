@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "friedrich-frobel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Friedrich Fröbel",
+    "aliases": [
+      "Friedrich Froebel",
+      "Friedrich Wilhelm August Fröbel",
+      "Friedrich Frobel"
+    ],
+    "wikidataId": "Q76679",
+    "birthYear": 1782,
+    "deathYear": 1852,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "scholar",
+      "inventor"
+    ],
+    "fieldIds": [
+      "education"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_frobel_wikidata",
+      "kind": "wikidata",
+      "title": "Friedrich Froebel (Q76679), verified live via the Wikidata API (2026-10-24): English label 'Friedrich Fröbel', description 'German educator', Korean label 프리드리히 프뢰벨, born 1782-04-21, died 1852-06-21. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q76679"
+    },
+    {
+      "id": "src_frobel_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Friedrich Froebel' by Stanley James Curtis and the editors (britannica.com; read through an Internet Archive copy, full article): German educator, founder of the kindergarten and one of the most influential educational reformers of the nineteenth century; early life, apprenticeship to a forester, Jena, the Frankfurt model school run on Pestalozzi's lines, Yverdon, Gottingen and the 1813 campaign, schools at Griesheim and Keilhau, The Education of Man (1826), Swiss teacher training and the Burgdorf orphanage, the infant school at Blankenburg later renamed the Kindergarten, the publishing firm for play materials and the Mother-Play and Nursery Songs, the 1851 Prussian ban 'because of a confusion with the socialist views of Froebel's nephew', disciples such as Marenholtz-Bulow, Dewey's use of his principles, 'self-activity' and play, the 'gifts' or 'occupations'. CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.britannica.com/biography/Friedrich-Froebel"
+    },
+    {
+      "id": "src_frobel_manning",
+      "kind": "biography",
+      "title": "John P. Manning, 'Rediscovering Froebel: A Call to Re-examine his Life & Gifts', Early Childhood Education Journal 32 (2005), 371-376 (Springer Nature Link; the open article text read, about 22,000 characters): an overview of his life and first ten gifts by an early-childhood scholar; his philosophy as unity of creation, respect for children as individuals and the importance of play; the gifts were 'not new in themselves' but their use in a structured curriculum was; his argument for training women as teachers despite ridicule at a 1847 conference; kindergartens open to all classes and religions between 1848 and 1852; the later commercialisation and the followers' dogma that he would probably have been 'appalled' by; John Dewey's criticism of the Froebelians' metaphysics and his praise of Froebel himself; the present-day criticism of his religious focus. Sympathetic but with explicit criticism of the movement. Contains contested psychological speculation about his childhood that is not used.",
+      "url": "https://link.springer.com/article/10.1007/s10643-005-0004-8"
+    },
+    {
+      "id": "src_frobel_edinburgh",
+      "kind": "institution",
+      "title": "University of Edinburgh, 'Froebel: an introduction', Froebelian Futures project (froebel.ed.ac.uk), read in full: Froebel as founder of the kindergarten; his school at Keilhau; the 1837 infant school at Blankenburg opened 'with male and female colleagues'; the 1851 Prussian ban 'conflating progressives like Froebel with revolutionary socialists like his nephew'; the survival of his work outside Prussia; the principles of unity and connectedness, autonomous learners and 'freedom with guidance'; the remark that his principles 'are not always deeply understood'. An institutional project page by a university research group that promotes Froebelian ideas.",
+      "url": "https://www.froebel.ed.ac.uk/?p=1293"
+    },
+    {
+      "id": "src_frobel_ghdi",
+      "kind": "institution",
+      "title": "German Historical Institute Washington, 'Friedrich Froebel (c. 1840)', German History in Documents and Images (germanhistorydocs.org), abstract read: study at Jena, Gottingen and Berlin, the Frankfurt model school, service with the Lutzow Free Corps in 1813-14, the institute founded in 1816 and moved to Keilhau, The Education of Man (1826), return to Germany in 1836 to devote himself to pre-school children and the design of educational toys, women's teacher-training courses from 1842 in Blankenburg, the August 1851 ban by the Prussian Ministry of Culture ('atheistic and demagogic'), the 1860 reintroduction, the first Froebel Society in 1863 and emigrant students in the United States. A scholarly institute's neutral caption.",
+      "url": "https://germanhistorydocs.org/en/from-vormaerz-to-prussian-dominance-1815-1866/friedrich-froebel-c-1840"
+    },
+    {
+      "id": "src_frobel_commonplay",
+      "kind": "press",
+      "title": "Miriam LeBlanc, 'Friedrich Froebel: His life and influence on education', Community Playthings Learning Library (communityplaythings.co.uk, June 2012), read in full: a trade article from a company whose founders' community was linked to the Keilhau school; Froebel's apprenticeship to a forester, change from architecture to teaching, the Yverdon years, the Berlin mineralogical museum and his reading of crystals, the 1816 decision to decline a professorship of mineralogy in Stockholm and found a school, Keilhau, the 1840 kindergarten at Blankenburg, the gifts and occupations, the 1851 ban and Barop's role in keeping Keilhau going. A popular and partisan source; its date for the kindergarten differs from Britannica's 1837.",
+      "url": "https://www.communityplaythings.co.uk/Learning-Library/Articles/Friedrich-Froebel"
+    },
+    {
+      "id": "src_frobel_liebschner",
+      "kind": "press",
+      "title": "friedrichfroebel.com, 'Prussian Government closes Kindergartens, August 1851' (friedrichfroebel.com/ban.html), read in full: a short web page reproducing Froebel's letter to the King of Prussia and the Prussian government's text citing his nephew Karl Froebel's pamphlet, with the source given as Joachim Liebschner, A Child's Work (1992), p. 30. Used only for the factual context of the 1851 ban (a political decree, unscored); the letter is his own writing and supports no row. Liebschner's book itself was not opened.",
+      "url": "https://www.friedrichfroebel.com/ban.html"
+    },
+    {
+      "id": "src_frobel_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Fr. Fröbel, PA02638.jpg' (wikitext and API record) citing the KU Leuven Libraries catalogue record for the lithograph in the 1861 Brussels edition of L'education de l'homme; also the pages for the Bardeen lithograph (c. 1897, Library of Congress) and other Froebel images, checked for the portrait's rights. Not used for scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Fr._Fr%C3%B6bel,_PA02638.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_frobel_britannica, src_frobel_manning, src_frobel_edinburgh | 1826-1840 | encyclopaedia + education journal + university project] Britannica says he founded the kindergarten and devised circles, spheres and other 'gifts' and 'occupations' to stimulate learning through play with songs and music, and started a publishing firm for play materials; Manning writes that the gifts were 'not new in themselves' but that using them in a structured curriculum for young children was new; the Edinburgh project says he came to see the early years as more than 'preparatory'. A documented new institution and curriculum, but two of the three sources are partly promotional, Manning explicitly limits the novelty to the structured use, and the praise is retrospective, so confidence is moderate."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_frobel_manning, src_frobel_commonplay, src_frobel_britannica | 1816-1840 | education journal + trade article + encyclopaedia] Manning describes a 'structured sequence' of gifts and occupations with step-by-step procedures built on the unity of creation; Community Playthings says his years classifying crystals at the Berlin museum bolstered his belief that fixed laws govern both nature and the child's development, and describes the progression from solids to surfaces, lines and points; Britannica notes his belief in the underlying unity of all things. Consistent with building an ordered system from a general principle, but the crystal link comes from one partisan trade article and the 'unity' idea is a philosophical stance, so the score is modest."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_frobel_britannica, src_frobel_manning, src_frobel_ghdi | 1836-1852 | encyclopaedia + education journal + historical institute] Britannica says he insisted that improving infant education was a vital preliminary to comprehensive educational and social reform; Manning says he argued that women should be trained as teachers despite ridicule at an 1847 conference and that kindergartens between 1848 and 1852 were open to children of all classes and religions; the German Historical Institute records women's teacher-training courses from 1842. Documented sustained commitment to the cause of early education in several sources, but the sources give his aims rather than independent measures of his results."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_frobel_britannica, src_frobel_ghdi, src_frobel_commonplay, src_frobel_edinburgh | 1816-1852 | encyclopaedia + historical institute + trade article + university project] Britannica and the German Historical Institute document the institute founded in 1816 and kept going at Keilhau, followed by the Swiss work and the return to Germany in 1836 to devote himself to young children; the German Historical Institute and the Edinburgh project record the kindergarten and women's training courses continuing until the Prussian ban of 1851, which came a year before his death, and Community Playthings credits co-workers with keeping Keilhau going under pressure. A long line of one purpose through several ventures and a hostile decree, though the sources are brief and several are sympathetic."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_frobel_britannica, src_frobel_commonplay | 1805-1816 | encyclopaedia + trade article] Britannica says he took a teaching post at the Frankfurt model school 'impulsively', and that he was once jailed for an unpaid debt while studying at Jena; Community Playthings says he left architecture for teaching and in 1816 declined an offer of a professorship of mineralogy in Stockholm to found his own school. Consistent with giving up secure options for an uncertain educational venture, but the word 'impulsively' and the debt are single remarks in one encyclopaedia and the Stockholm detail rests on a partisan trade article, so the score and confidence are modest."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_frobel_britannica, src_frobel_edinburgh, src_frobel_commonplay | 1816-1840s | encyclopaedia + university project + trade article] Britannica says the friends Langenthal and Middendorff joined him at the school and that he and his friends and their wives became a kind of educational community at Keilhau; the Edinburgh project says he opened the Blankenburg infant school 'with male and female colleagues'; Community Playthings credits his nephew by marriage Barop with leading Keilhau from 1833. Consistent with building institutions through a circle of co-workers, but the sources are brief and say little about disagreements, so confidence is low."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_frobel_manning, src_frobel_britannica, src_frobel_commonplay | 1816-1851 | education journal + encyclopaedia + trade article] Manning says his argument for training women as teachers was 'unprecedented' and drew ridicule in 1847; Britannica says his theory of self-activity held that the teacher should encourage self-expression rather than drill or indoctrinate; Community Playthings says he rejected the intricate decorated toys of his day. He held to positions against the conventions of his time, but the sources are admiring and the 'unprecedented' claim is Manning's own, so confidence is moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프리드리히 프뢰벨"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/friedrich-frobel-simonau-toovey-1861.jpg",
+    "width": 795,
+    "height": 1200,
+    "source": "Lithograph portrait 'Fr. Frobel' printed by the Belgian firm Simonau & Toovey (lithographers and phototype printers, active about 1847-1899), with a facsimile signature, from the Brussels 1861 edition of Froebel's L'education de l'homme (translated by Baroness de Crombrugghe; F. Claassen, 1861); Leuven University Libraries print record PA02638 (KU Leuven), opened via Wikimedia Commons 'Fr. Frobel, PA02638.jpg'. The print itself is undated and not signed by a named artist; it was published nine years after Froebel's death, so it is treated as a later printed likeness rather than a lifetime portrait. Public domain by age: a printed work published in 1861 by a commercial printing firm. Original file 1404 x 2118; saved downscaled only to 795 x 1200, not cropped.",
+    "license": "Public Domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fr._Fr%C3%B6bel,_PA02638.jpg",
+    "attribution": "Lithograph printed by Simonau & Toovey, Brussels, in the 1861 edition of L'education de l'homme (Leuven University Libraries, public domain)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Fr._Fr%C3%B6bel,_PA02638.jpg",
+    "creator": "Simonau & Toovey (printer-lithographers)",
+    "date": "1861 (printed in the book; the print itself is undated)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fr._Fr%C3%B6bel,_PA02638.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q76679 returned en label 'Friedrich Fröbel', description 'German educator', ko label 프리드리히 프뢰벨, born 1782-04-21, died 1852-06-21; matches the lead's slug. SLUG/QID CHECK: no existing candidate or src reference for friedrich-frobel or Q76679 in the roster56 worktree. REGION: western_europe, nationality DE; of the 20 existing German-national candidates who died before 1900, 17 are western_europe (Kant, Humboldt, Bach, Gauss, Leibniz, Handel, Kepler and others) and only Goethe, Beethoven and Helmholtz are central_europe, so the majority precedent was followed. ZERO-POLITICS REASONING: primary identity is educator-reformer (founder of the kindergarten, the gifts). The 1851 Prussian ban (a political decree, attributed to confusion with his nephew's socialist views), his 1813 service in the Lutzow Free Corps and his letter to the king are context only and unscored. EXCLUSIONS: no inference from his motherless childhood or religiosity, Manning's psychological speculation about his upbringing is not used; no claim about the date of the first kindergarten beyond 'opened an infant school in 1837 that he later called the Kindergarten' (Britannica and Edinburgh; Community Playthings says 1840). VOCABULARY: occupations teacher, scholar, inventor; field education; tags founder, innovator; archetype social_influencer (existing ids with EN+KO labels; educator and professor are unlabelled and not used). PORTRAIT PREFLIGHT: Commons Fröbel images reviewed; the chosen file is a Simonau & Toovey lithograph from a 1861 Brussels book, catalogued by KU Leuven Libraries, with a documented printer and publication, tagged old-work public domain. Rejected: 'Friedrich Fröbel (1782-1852).jpg' (unknown author, 'about 1840', uploader's own reproduction with no source named); 'Froeb.jpg' (copied from a website, no source or date); the Bardeen lithograph (LC-DIG-pga-00127, publisher C.W. Bardeen, Syracuse, c. 1897; clear Library of Congress record but a late commercial copy, kept as the fallback). Caveat: I could not open the KU Leuven Primo catalogue (JavaScript) to read an institutional rights notice; the basis is age and publication, not a Leuven licence statement; the lead may prefer the Bardeen fallback. Image viewed: a clean-shaven man with shoulder-length hair in a dark coat and cravat, signature below. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Friedrich Froebel' (https://www.britannica.com/biography/Friedrich-Froebel), read through an Internet Archive copy. READ (7 cited non-Wikidata sources): Britannica; Manning's journal article (principal substantive and critical source); Edinburgh Froebelian Futures page; German History in Documents and Images; Community Playthings article; friedrichfroebel.com 1851 ban page; Commons/KU Leuven record for the portrait. NOT opened: The Education of Man or any Froebel text, Liebschner's A Child's Work (a web search found only publisher listings), Brosterman's Inventing Kindergarten, the Froebel Trust's biography pages (the site returned only a homepage), Froebel Web (the pages 404), the Catholic Encyclopedia and Pestalozzi-related scholarship. PERSPECTIVES: general encyclopaedia; peer-reviewed education journal; university research project; historical institute; trade article from a firm tied to the Froebel school; a web reproduction of Liebschner's text. COUNTER-VOICES: Manning on the followers' dogma, commercialisation and Dewey's criticism, and on present-day criticism of his religious focus; Britannica on the debt and the 'impulsive' appointment. At least one substantive non-self behavioural source: Manning, Britannica and the German Historical Institute. No self-authored text supports any row. CALIBRATION: seven rows, none above 72 or 0.60. SELF-CALIBRATION (agent): rows reviewed: creative_originality (kept at 72/0.60: the novelty is qualified by Manning in the rationale), risk_tolerance (kept at 60/0.48: already low; rests on short remarks), independent_thinking (kept at 64/0.50: the 'unprecedented' claim is one scholar's). No row lowered. BROAD FLAG: only one deep scholarly source; the profile is based on short biographies and a sympathetic trade article, so rows are deliberately modest and sparse; Keilhau's financial and administrative history was not covered and nothing about management quality is scored."
+  }
+}

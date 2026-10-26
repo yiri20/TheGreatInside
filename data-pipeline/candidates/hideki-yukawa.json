@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hideki-yukawa",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hideki Yukawa",
+    "aliases": [
+      "Yukawa Hideki",
+      "Ogawa Hideki"
+    ],
+    "wikidataId": "Q155777",
+    "birthYear": 1907,
+    "deathYear": 1981,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "theorist",
+      "nobel_laureate",
+      "independent"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yukawa_wikidata",
+      "kind": "wikidata",
+      "title": "Hideki Yukawa (Q155777), verified live via the Wikidata API (2026-10-24): description 'Japanese theoretical physicist (1907-1981)', born 1907-01-23, died 1981-09-08, Korean label 'Yukawa Hideki' in Hangul. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q155777"
+    },
+    {
+      "id": "src_yukawa_nobelspeech",
+      "kind": "award_body",
+      "title": "Nobel Prize in Physics 1949, Award Ceremony Speech by Professor I. Waller of the Nobel Committee for Physics (NobelPrize.org), read in full. CANONICAL SIGNIFICANCE SOURCE: explains that Yukawa in 1934 predicted the existence of mesons from a theoretical study of nuclear forces, modelling the nuclear force on the electromagnetic field, found a relation between the range of the force and the particle mass (about 200 electron masses), pointed to cosmic rays, and was vindicated by the 1937 cosmic-ray observations and Powell's later work; says Yukawa and his Japanese collaborators took the lead in developing the theory. Award-body speech: admiring and retrospective.",
+      "url": "https://www.nobelprize.org/prizes/physics/1949/ceremony-speech/"
+    },
+    {
+      "id": "src_yukawa_nobelbio",
+      "kind": "award_body",
+      "title": "Hideki Yukawa, Biographical (NobelPrize.org, written at the time of the 1949 award), read in full: Kyoto and Osaka university posts, the 1935 paper 'On the Interaction of Elementary Particles. I', encouragement by the 1937 cosmic-ray discovery, work on a nonlocal field theory from 1947, visiting posts at Princeton and Columbia, editing the English-language journal Progress of Theoretical Physics, directorship of the Kyoto research institute, academy memberships and honours. Official biography; factual and admiring.",
+      "url": "https://www.nobelprize.org/prizes/physics/1949/yukawa/biographical/"
+    },
+    {
+      "id": "src_yukawa_dsb",
+      "kind": "biography",
+      "title": "Laurie M. Brown, 'Yukawa, Hideki', Complete Dictionary of Scientific Biography (Charles Scribner's Sons / Encyclopedia.com), read in full: scholarly account of Yukawa's training and independence, the 1933-34 failed attempts, the reaction to the Tamm and Ivanenko papers, the 1935 meson paper, the two years of neglect, the rejected 1937 Nature letter, the Sakata, Taketani and Kobayashi collaborations, the resolution of the two-meson puzzle by Sakata, Inoue and Tanikawa, and Yukawa's later nonlocal-field programme and refusal to accept renormalization, which the author says plays no major role in current physics. Independent historian of physics (author of the Physics Today article on the same subject); includes critical and limiting judgements.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/yukawa-hideki"
+    },
+    {
+      "id": "src_yukawa_nippon",
+      "kind": "press",
+      "title": "'Yukawa Hideki: Nobel Laureate in Physics in the Cause of Peace' (Nippon.com, 5 October 2021, by a physicist who knew him), read in full: schooling in the classics, five years of research without a mentor after graduating, the 1934 meson theory, the 1937 cosmic-ray confirmation and the 1942 Tanikawa-Sakata two-meson proposal, and his wartime uncertainty. The later peace and anti-nuclear activism passages were read but excluded from scoring (political activism). Admiring commentary by a colleague.",
+      "url": "https://www.nippon.com/en/japan-topics/b07221/"
+    },
+    {
+      "id": "src_yukawa_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Yukawa Hideki' (revised 19 January 2026), read in full: career dates, the 1935 U-quantum theory, the 1937 muon observation that established his fame, the later finding that the muon was not the carrier particle, and that meson theory was later supplanted by quantum chromodynamics. Used for the limiting and critical context.",
+      "url": "https://www.britannica.com/biography/Yukawa-Hideki"
+    },
+    {
+      "id": "src_yukawa_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Yukawa Hideki.JPG' (Asahi Graph, 30 November 1955, Asahi Shimbun company) with the Commons old-photograph public-domain notice, checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Yukawa_Hideki.JPG"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yukawa_nobelspeech, src_yukawa_dsb, src_yukawa_britannica | 1934-1937 | award body + historian + reference] In 1934-35 Yukawa proposed that nuclear forces arise from exchange of a new massive field quantum, built by analogy with the electromagnetic field, and derived its mass (about 200 electron masses) from the range of the force; the Nobel Committee calls this pioneering and Brown's scholarly account shows how it departed from the then standard proton-electron picture and from Heisenberg's phenomenological exchange force. The idea was independently vindicated by cosmic-ray observations (1937) and later experiments, although the carrier particle later turned out to be more complicated. The strongest wording is an award speech, but the historian documents the intellectual steps and Britannica notes both the success and later supersession. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 80 / 0.68 to 76 / 0.62 because the strongest wording is the Nobel committee's and one historian's dictionary entry; the primary-literature sources (Physics Today, the Royal Society memoir) were not readable."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yukawa_dsb, src_yukawa_nippon | 1929-1950s | historian + colleague commentary] Brown says that although he learned of the Copenhagen spirit through Nishina, Yukawa 'remained determinedly independent' and sought his own problems, unlike the more practical Tomonaga, and Nippon.com says he spent five years after graduation with no mentor; he also pursued nonlocal-field ideas and never fully accepted renormalization, which Brown says plays no major role in current physics. Independence is documented by one scholarly source plus a colleague's retelling, and its payoff was mixed. SELF-CALIBRATION (agent): reviewed as a top-risk row (one-source dependence); lowered from 72 / 0.60 to 66 / 0.55 because the 'determinedly independent' characterisation rests mainly on a single historian's wording and the mentor-free claim comes from an admiring colleague."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_yukawa_dsb, src_yukawa_nippon | 1933-1950s | historian + colleague commentary] Brown documents several unfinished or abandoned 1933 manuscripts and calculations before the 1934 theory, two years in which the paper had no impact while Yukawa kept applying it (inverse beta-decay with Sakata), a Nature letter in 1937 that was rejected and re-published elsewhere, and a lifelong return to the divergence problem of quantum field theory with the nonlocal-field programme from 1950; the latter did not achieve acceptance, so the impact is dual-edged."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yukawa_dsb | 1933-1938 | historian] Brown shows Yukawa marking his 1933 damped-range solution 'mistaken conjecture' and presenting an undamped one, giving up the idea that the quantum of the nuclear force could be a known particle after reading Tamm and Ivanenko, and accepting Bhabha's point that the meson must decay and computing its lifetime with Sakata. Against this, Brown notes he never accepted renormalization in quantum electrodynamics. Documented revisions but largely single-source and mixed overall."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yukawa_nobelspeech, src_yukawa_dsb, src_yukawa_nippon | 1935-1950 | award body + historian + colleague commentary] After 1935 Yukawa published most of his meson papers with Sakata and then Taketani and Kobayashi (the series 'On the Interaction of Elementary Particles'), and the Nobel speech says Yukawa and his Japanese collaborators took the lead in developing the theory; the 1942 two-meson solution came from Sakata, Inoue and Tanikawa working in his circle and is credited to them, not to Yukawa. Collaboration is documented through co-authorship; his own leadership role within the group is described only in general terms."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yukawa_dsb, src_yukawa_nippon | 1924-1933 | historian + colleague commentary] Brown records that by his second year he spent his spare time in the physics library reading Schroedinger and had read Planck and Bohr, wrote his graduation thesis on Dirac's relativistic electron theory, and prepared a Japanese summary of Heisenberg's papers; Nippon.com says he bought a stream of the latest foreign physics texts. Self-directed study at the research frontier is documented, but mostly through his own later reminiscences (Tabibito) as retold by others."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yukawa_nobelspeech, src_yukawa_dsb | 1933-1935 | award body + historian] The Nobel speech says he used the electromagnetic field as a model and modified it to give a short-range force, and Brown describes how he wanted a formalism analogous to the Heisenberg-Pauli quantum electrodynamics in which field and particle are two representations of one entity and distinguished a strong and a weak nuclear force for the first time. Mapping a new problem onto an existing field-theoretic structure is documented; it is a description of one theoretical step, so confidence stays moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "유카와 히데키"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hideki-yukawa-asahi-1955.jpg",
+    "width": 450,
+    "height": 550,
+    "source": "Photograph of Hideki Yukawa from the Asahi Graph issue of 30 November 1955, credited to the Asahi Shimbun company, scanned and hosted on Wikimedia Commons as 'Yukawa Hideki.JPG'. Rights basis: published in Japan in 1955, before the end of 1956, so public domain in Japan under the Japanese copyright law transitional rule for old photographs and therefore in the public domain in the United States (public domain in the source country on the 1996 URAA date); Commons tags it as an old-photograph public-domain file. Saved at the Commons original size of 450 x 550, no resizing. Caveat: the individual photographer is not named, and the basis depends on the 1955 publication date given on the file page.",
+    "license": "Public domain (Japan, published before 1956)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto",
+    "attribution": "Asahi Shimbun company, Asahi Graph, 30 November 1955, public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Yukawa_Hideki.JPG",
+    "creator": "Asahi Shimbun company (photographer not named)",
+    "date": "1955",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Yukawa_Hideki.JPG"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q155777: description 'Japanese theoretical physicist (1907-1981)', born 1907-01-23, died 1981-09-08, Korean label in Hangul; matches the lead's identity. SLUG/QID CHECK: no existing candidate or src/data reference to hideki-yukawa or Q155777. REGION: east_asia (Japan). VOCABULARY: physicist, field physics, tags theorist, nobel_laureate, independent and archetype scientific_explorer all exist with EN+KO labels. ZERO POLITICS: primary identity is theoretical physics; his post-war peace, anti-nuclear and world-federation activism (Russell-Einstein Manifesto signatory, Pugwash) and his wartime navy-commissioned uranium research consulting were read in the Nippon.com and DSB sources but are NOT scored or carded. PORTRAIT PREFLIGHT: Commons offered several Yukawa photos; the Nobel Foundation file tagged PD-Sweden-photo was rejected because Nobel archive photos are not clearly public domain under that template; Asahi press photos with 'unknown author' and a Getty source were rejected for lack of a dated publication; the 1955 Asahi Graph scan has a dated publication source and was chosen. CANONICAL SIGNIFICANCE SOURCE: Nobel Prize in Physics 1949 Award Ceremony Speech (https://www.nobelprize.org/prizes/physics/1949/ceremony-speech/). READ (5 substantive sources beyond Wikidata/portrait): Nobel award speech, Nobel biography, Brown's Dictionary of Scientific Biography entry, Nippon.com profile, Britannica. NOT read in full: Brown's Physics Today article 'Hideki Yukawa and the Meson Theory' (1986) and Kemmer's Royal Society memoir (abstract/paywall or bot block), Yukawa's autobiography Tabibito and his Nobel lecture (self material, not opened), the Yukawa Institute pages (fetch failed). PERSPECTIVES: award committee (admiring), a scholarly historian of particle physics (independent, with limiting judgements), a Japanese colleague's profile, and a reference encyclopedia noting that meson theory was supplanted. COUNTER-VOICES: Brown on the neglect of the 1935 paper for two years, the rejected Nature letter, the nonlocal-field programme not adopted, and Yukawa's refusal to accept renormalization; Britannica on the muon mismatch and the later supersession by quantum chromodynamics. Bohr and Pauli reception was not documented in the sources read and is not used. Credit for the two-meson solution belongs to Sakata, Inoue and Tanikawa per Brown and is not credited to Yukawa. EXCLUSIONS: family and childhood detail, marriage and adoption, wartime ethical reflection beyond the facts of the project, peace activism, Wikipedia. SELF-CALIBRATION (agent): rows reviewed as highest-risk: creative_originality (80, kept: independently documented outcome and historian corroboration, not only the award speech), independent_thinking (72/0.60 lowered to 66/0.55, single-source characterisation), collaboration (66, kept: documented co-authorship). Rows lowered: independent_thinking only. FLAGS: sparse profile of 7 rows; sources are mostly encyclopaedic and admiring, so confidences are capped; Physics Today and the Royal Society memoir were not accessible. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 80 / 0.68 to 76 / 0.62 because the strongest wording is the Nobel committee's and one historian's dictionary entry; the primary-literature sources (Physics Today, the Royal Society memoir) were not readable."
+  }
+}

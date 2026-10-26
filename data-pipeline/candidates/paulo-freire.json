@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "paulo-freire",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Paulo Freire",
+    "aliases": [
+      "Paulo Reglus Neves Freire"
+    ],
+    "wikidataId": "Q164797",
+    "birthYear": 1921,
+    "deathYear": 1997,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "philosopher",
+      "scholar"
+    ],
+    "fieldIds": [
+      "education",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "theorist",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_freire_wikidata",
+      "kind": "wikidata",
+      "title": "Paulo Freire (Q164797), verified live via the Wikidata API (2026-10-24): English label 'Paulo Freire', description 'lawyer, college teacher, author', Korean label 파울루 프레이리, born 1921, died 1997-05-02. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q164797"
+    },
+    {
+      "id": "src_freire_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Paulo Freire' (britannica.com; read through an Internet Archive copy, short article, last updated 7 November 2024): Brazilian educator whose ideas developed from his experience teaching Brazil's peasants to read; his interactive methods, which encouraged students to question the teacher, often led to literacy in as little as 30 hours; appointed director of the Brazilian National Literacy Program in 1963; jailed after the 1964 military coup, exile, return in 1979; seminal work Pedagogy of the Oppressed (1970). CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.britannica.com/biography/Paulo-Freire"
+    },
+    {
+      "id": "src_freire_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Paulo Freire' by Kim Diaz (iep.utm.edu/freire/), read in full (about 77,000 characters): early hardship and schooling at reduced tuition; ten years at the Social Service of Industry (SESI); the 1959 doctoral dissertation; the 1961 Recife literacy programmes and the renaming of literacy classes as 'cultural circles' with 'coordinators' and 'participants'; the 1963-64 plan for 20,000 circles; arrest and 75 days in jail; exile in Bolivia, Chile, the United States and Switzerland; Pedagogy of the Oppressed written in Chile and published in Spanish in 1968; Harvard Educational Review articles; Guinea-Bissau literacy work; return in 1980; the 1989-91 tenure as Sao Paulo municipal Secretary of Education; the Criticisms section (verbose and difficult writing, male-centred language later revised, doubts about transferability from Brazil, no concrete method, criticism from the left); honours (1980 King Baudouin Prize, 1986 UNESCO Prize for Education for Peace). A scholarly encyclopedia article written by a philosopher; admiring in tone but with an explicit criticisms section. His wife's death and his grief are not used.",
+      "url": "https://iep.utm.edu/freire/"
+    },
+    {
+      "id": "src_freire_jstor",
+      "kind": "press",
+      "title": "Liza Featherstone, 'Paulo Freire's Pedagogy of the Oppressed at Fifty', JSTOR Daily (daily.jstor.org, 30 September 2020), read in full: the anecdote of the Piaget lecture and the worker who asked whether the teacher knew where people lived (taken from an obituary by the adult educator Raff Carmen), the book's international reach (more than a million copies of the English edition), the northeast Brazil context, and the criticisms: that education should centre on subject mastery, that the working class could be given a traditional education, the inaccessible language, and the sexist pronouns that Freire answered respectfully and later translations corrected (as reported by bell hooks and others). Science-journalism essay summarising scholarship; the political commentary about the Bolsonaro government is not used.",
+      "url": "https://daily.jstor.org/paulo-freires-pedagogy-of-the-oppressed-at-fifty"
+    },
+    {
+      "id": "src_freire_itau",
+      "kind": "institution",
+      "title": "Itau Cultural, 'Paulo Freire' (Ocupacao Paulo Freire, itaucultural.org.br; Portuguese; the text and video descriptions read): schooling and teaching career, law degree never practised, the 1962 creation with the rector of the University of Recife's Cultural Extension Service, the 1963 Angicos experience in which 300 people were taught in 40 hours, the account by coordinator Marcos Guerra that Freire set conditions of pedagogical and political independence so the Alliance for Progress stayed out of the arrangement, the earlier experiments in the Popular Culture Movement and the Paraiba popular education campaign, and the 2012 law naming him Patron of Brazilian Education. A cultural-institution biography; part of its account of Angicos rests on coordinators' recollections.",
+      "url": "https://itaucultural.org.br/ocupacao/?p=17852"
+    },
+    {
+      "id": "src_freire_reporterbrasil",
+      "kind": "press",
+      "title": "Marcelle Souza, 'Criticada pelo governo, metodologia de Paulo Freire revolucionou povoado no sertao' (Reporter Brasil, republished by CUT, 1 April 2019; Portuguese), read in full: the 1963 Angicos experience in Rio Grande do Norte in which teachers led by Freire taught 300 adults to read and write in 40 hours, the choice of the town for its high illiteracy, the word-based method (for example the word 'trabalho' leading to discussion of labour rights), the statement that the experiment was funded by the Alliance for Progress, registered voters rising from about 800 to 1,100, the later silence in the town, and recollections from the project coordinator and former students. A news report built largely on participants' memories fifty-six years later; the comments on the later government's education policy are not used.",
+      "url": "https://www.cut.org.br/noticias/criticada-pelo-governo-metodologia-paulo-freire-revolucionou-povoado-no-sertao-ae0b/"
+    },
+    {
+      "id": "src_freire_institute",
+      "kind": "institution",
+      "title": "Freire Institute, 'Who Was Paulo Freire? His Philosophy & Pedagogy' (freire.org/paulo-freire), read in full: the contrast between banking education and problem-posing education, the concepts of the culture of silence and conscientization, the Institute's description of Freirean education as participatory, and its reading recommendations. A promotional page by an organisation that exists to spread his ideas; used only to confirm vocabulary, never for scoring.",
+      "url": "https://www.freire.org/paulo-freire"
+    },
+    {
+      "id": "src_freire_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages for Paulo Freire images (wikitext and API records) checked for the portrait: 'Paulo Freire 1977.jpg', 'Paulo Freire (1963).tif' (Arquivo Nacional, Correio da Manha collection), 'Paulo Freire.png' (a montage). None accepted; see the portrait record. Checked for the portrait's rights; not used for scoring.",
+      "url": "https://commons.wikimedia.org/wiki/Category:Paulo_Freire"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_freire_iep, src_freire_britannica, src_freire_itau, src_freire_jstor | 1947-1970 | philosophy encyclopedia + encyclopaedia + cultural institution + science-journalism essay] The IEP says he replaced literacy classes with 'cultural circles' led by 'coordinators' and 'participants', set aside traditional primers because their content was irrelevant to the learners, and contrasted banking education with problem-posing education; Britannica says his interactive methods that encouraged students to question the teacher often led to literacy in as little as 30 hours; Itau Cultural describes the systematised adult-literacy method at the University of Recife; JSTOR Daily reports the book's wide reach. The newness of the method is documented from several descriptions, but the praise is largely retrospective and the sources do not separate his invention from the earlier popular-education movements he worked within (the Itau page names the Popular Culture Movement and a Paraiba campaign as earlier experiments), so confidence stays moderate."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_freire_iep, src_freire_itau | 1960s-1990s | philosophy encyclopedia + cultural institution] The IEP reports that critics faulted him for not fully espousing Marxism, feminism, Catholicism or a militaristic approach, and that his insistence on dialogue frustrated organisers who wanted ready-made rules, while its influence section lists Hegel, Marx, Dewey, Fanon, Fromm and Gramsci among his sources; Itau Cultural relays the coordinator's account that Freire made his participation in Angicos conditional on pedagogical independence. Together they are consistent with weighing several traditions and keeping his own line, but the independence claim comes mostly from the recollection of one coordinator and from critics' complaints, so the score and confidence stay modest."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_freire_iep, src_freire_jstor | 1970s-1990s | philosophy encyclopedia + science-journalism essay] The IEP says that once Freire was made aware that his early books used male pronouns and male examples, he revised the language of earlier editions and adopted a more gender-neutral style in later books; JSTOR Daily says he responded respectfully to bell hooks's criticism and that later translations were updated. Two sources agree he changed his published practice after criticism, and JSTOR relays his own account (via Raff Carmen's obituary) that a worker's challenge made him see his Piaget lecture as banking pedagogy. The evidence is a single documented revision plus a retrospective anecdote, so the score stays moderate."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_freire_iep, src_freire_britannica | 1964-1980 | philosophy encyclopedia + encyclopaedia] The IEP says that in exile in Chile he adapted his literacy model to Chilean peasants and noticed differences from Brazilian peasants, then worked at Harvard, for the World Council of Churches in Geneva and with Guinea-Bissau's literacy campaign in 1975, travelling on several continents; Britannica notes the exile and return. The same approach was carried into new countries and institutions, documented in one detailed source and one brief one; the IEP's account is admiring and supplies little of his own reasoning, so confidence is moderate."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_freire_iep, src_freire_britannica, src_freire_reporterbrasil | 1961-1991 | philosophy encyclopedia + encyclopaedia + news report] The IEP says that after the 1964 coup stopped the national literacy plan he continued the literacy work in Chile, wrote Education as the Practice of Freedom during 75 days in jail and Pedagogy of the Oppressed in exile, and returned in 1980 to teach until his death; Britannica gives the same arc; Reporter Brasil shows the Angicos experiment halted by the coup. The continued commitment to one line of work over three decades is documented by consistent sources, though all of it is told from the sympathetic side."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_freire_iep, src_freire_itau, src_freire_reporterbrasil | 1947-1991 | philosophy encyclopedia + cultural institution + news report] The IEP says he spent ten years at SESI training teachers and parents toward gentler methods and, by the early 1960s, had chosen work on adult literacy for working-class learners; it also notes that he left the Federal University of Pernambuco post in 1987 to make room for younger professors. Itau Cultural and Reporter Brasil describe the 1963 Angicos work aimed at giving rural workers literacy and, at the time, the right to vote. The sustained orientation toward education for disadvantaged learners is documented across three accounts; the childhood explanation in the IEP is an interpretation and is not used."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_freire_iep, src_freire_itau | 1961-1990 | philosophy encyclopedia + cultural institution] The IEP says the cultural circles deliberately replaced teachers with coordinators and students with participants, required coordinators to be guided by humility, and that he co-wrote We Make the Road by Walking with Myles Horton; Itau Cultural records that the Angicos team worked with a university-led coordinator and student volunteers. But the IEP also says organisers of training events were frustrated by his refusal to provide rules or ready-made solutions, which cuts the other way, and the account is again largely sympathetic, so the score sits in the middle with low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "파울루 프레이리"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved after a bounded check of every Commons Freire image. 'Paulo Freire 1977.jpg' (660 x 833, tagged CC BY-SA 3.0) names its author as 'Slobodan Dimitro' in the file and as 'Slobodan Dimitrov' on derivatives, but it was uploaded by a different user as 'own work', so the uploader's claim contradicts the named author and the photographer's identity and permission cannot be confirmed. 'Paulo Freire (1963).tif' comes from the Arquivo Nacional (Brazil) Correio da Manha collection and carries a Brazilian public-domain-by-1996 template, but the photographer is unknown and the photograph dates from 1963, so the template's facts contradict the tag. 'Paulo Freire.png' is a 2024 university montage derived from a Flickr photograph. No Nationaal Archief / Anefo photograph was found on Commons. Next step: obtain a photograph from the Freire archive (Instituto Paulo Freire), a Brazilian or international institution that states its own terms, or a documented lifetime photograph whose photographer and licence are on the file page."
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q164797 returned en label 'Paulo Freire', description 'lawyer, college teacher, author', ko label 파울루 프레이리, born 1921 (two values, 1921-09-19 and 1921-10-19), died 1997-05-02; matches the lead's slug. SLUG/QID CHECK: no existing candidate or src reference for paulo-freire or Q164797 in the roster56 worktree. REGION: latin_america (Brazil). ZERO-POLITICS REASONING: Freire's primary identity is educator-theorist (adult literacy method, Pedagogy of the Oppressed). His arrest after the 1964 coup, exile, role in founding the Workers' Party, and 1989-91 service as Sao Paulo municipal Secretary of Education are political context and are unscored; no row scores party, office or political advocacy. EXCLUSIONS: no inference from childhood hunger, imprisonment, exile, bereavement or the later political attacks on his legacy; the 'depression and grief' sentence in the IEP is not used. VOCABULARY: occupations teacher, philosopher, scholar; fields education, philosophy; tags theorist, mentor; archetype scholarly_specialist, all with EN+KO labels (educator and professor are unlabelled and not used). PORTRAIT PREFLIGHT: no plausible rights-clear source; see the portrait record; HELD after a bounded check (about 8 calls). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Paulo Freire' (https://www.britannica.com/biography/Paulo-Freire), read through an Internet Archive copy. READ (6 cited non-Wikidata sources): Britannica; IEP biography (principal substantive source); JSTOR Daily essay; Itau Cultural; Reporter Brasil/CUT; Freire Institute (promotional, vocabulary only). NOT opened: Pedagogy of the Oppressed itself, Kirylo's and Collins's biographies, Gadotti's writings, Mayo's book (publisher blurb only), the Harvard Educational Review articles, the Bowers and Hirsch critiques (the web search did not surface them; the counter-voice rests on the critiques reported in the IEP and JSTOR Daily), Brazilian archival records. The Britannica and IEP pages for the Sao Paulo role differ from JSTOR Daily, which says 'state' secretary; the IEP's 'city of Sao Paulo' is followed. PERSPECTIVES: general encyclopaedia; philosophy encyclopedia; science-journalism essay with reception and critics; Brazilian cultural institution; Brazilian news report with participant recollections; an advocacy institute. COUNTER-VOICES: the IEP Criticisms section and the JSTOR Daily critics (difficult language, sexist pronouns, transferability, subject-mastery, no concrete method, impatience from the left). At least one substantive non-self behavioural source: the IEP, Itau Cultural and Reporter Brasil. No self-authored text is used. CALIBRATION: seven rows, none above 72 or 0.60. SELF-CALIBRATION (agent): rows reviewed: creative_originality (kept at 72/0.60: concept documented from four descriptions and the rationale already flags retrospective praise and earlier movements), independent_thinking (kept at 64/0.50: already modest because it rests on critics' remarks and one coordinator's recollection), belief_updating (kept at 60/0.48: one documented revision plus an anecdote). No row lowered. BROAD FLAG: the evidence base is heavily sympathetic and secondary; no archival or critical scholarly source was opened, so I did not score conflict tolerance, risk tolerance or leadership, which would be political."
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fernando-botero",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Fernando Botero",
+    "aliases": ["Fernando Botero Angulo"],
+    "wikidataId": "Q272877",
+    "birthYear": 1932,
+    "deathYear": 2023,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["CO"],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": ["painter", "artist"],
+    "fieldIds": ["art"],
+    "impactDomains": ["artistic", "cultural"],
+    "tagIds": ["prolific", "sustained_excellence"],
+    "archetypeIds": ["creative_creator", "independent_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_fb_wikidata",
+      "kind": "wikidata",
+      "title": "Fernando Botero (Q272877) -- verified live via the Wikidata API (2026-10-24): English label 'Fernando Botero', description 'Colombian painter and sculptor (1932-2023)', Korean label '페르난도 보테로', born 19 April 1932, died 15 September 2023, image 'Fernando Botero (2018).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q272877"
+    },
+    {
+      "id": "src_fb_munal",
+      "kind": "institution",
+      "title": "Museo Nacional de Colombia, 'Botero en el Museo Nacional de Colombia. Donacion 2004 [Cronologia]' (museonacional.gov.co), read through a page-reading tool's summary because the page text could not be saved locally: born Medellin 19 April 1932; first solo show in Bogota 1951; studies of Velazquez and Goya at the Prado (1952) and of the old masters at the Louvre and in Italy (1953-54); in 1956, in Mexico, while painting a still life with a mandolin he discovers a way to increase the volume of forms; a professorship at the Universidad Nacional school of fine arts (1958); Venice Biennale 1958; Guggenheim International Award Colombian prize 1960; MoMA shows 'Mona Lisa at Twelve' (1963); first sculptures after moving to Paris (1973); Reina Sofia retrospective 1987-88; Pushkin Museum and Hermitage shows and monumental sculptures on Park Avenue 1993; donations to the Museo de Antioquia, the Museo Nacional and the Banco de la Republica (2000) and a 2004 gift to the Museo Nacional of a series on violence in Colombia. CANONICAL SIGNIFICANCE SOURCE. Institutional chronology (a national museum that received his gifts); its donation counts differ from the Banco de la Republica's own figures, so no counts are used from it.",
+      "url": "https://www.museonacional.gov.co/sitio/botero/botero04c.html"
+    },
+    {
+      "id": "src_fb_guardian",
+      "kind": "press",
+      "title": "Nick Caistor, 'Fernando Botero obituary', The Guardian, 15 September 2023, read in full: perhaps the most popular Latin American artist of his generation and one of the most commercially successful; for years critics looked down on his 'fat people' as a trademark gimmick while museums and collectors bought them, and 'Boterismo' became a term for the aesthetic; he said every true artist must 'deform reality' and stressed each work was the result of intense imagination and effort; early influence of the Mexican muralists, then two formative years in Florence studying quattrocento painters; MoMA bought his Mona Lisa, Age Twelve in 1961; large bronze sculptures from the 1970s shown in city centres including a 1993 Champs-Elysees exhibition; gifts of more than 100 works to a new Botero Museum in Bogota and of works to the Museum of Antioquia in 2000; the 2004-05 series of around 80 paintings and 100 drawings on torture at Abu Ghraib, which he donated to the University of California, Berkeley library; around 200 solo exhibitions; worked ten hours a day into his 80s. Newspaper obituary by an outside writer, admiring overall but recording the critics' dismissal. Family and private-life passages, the 1995 bombing episode and the luxury-lifestyle passage were not used.",
+      "url": "https://www.theguardian.com/artanddesign/2023/sep/15/fernando-botero-obituary"
+    },
+    {
+      "id": "src_fb_artforum",
+      "kind": "press",
+      "title": "Artforum News Desk, 'Fernando Botero (1932-2023)', Artforum, 15 September 2023, read in full: whimsical ballooning figures that elevated the global profile of Latin American art; signature style ('Boterismo') realised in Mexico City in 1956; sculptures on Park Avenue and the Champs-Elysees; a 1985 Ingrid Sischy interview in which Botero says his first big gallery show was in 1972, that after it the New York press fell silent ('like a leper', one critic could not look at the work) while the public responded the opposite way, and that he did not make art to astonish people because that would become cliche (self-report, used only alongside outside sources); the 2005 Abu Ghraib series that finally drew critical acclaim and humanised people long cast as animals by media and military; his 2000 donation of more than a hundred of his own works and part of his collection. Art-trade obituary; the cause-of-death and personal-life passages were not used.",
+      "url": "https://www.artforum.com/news/fernando-botero-1932-2023-294804/"
+    },
+    {
+      "id": "src_fb_mj",
+      "kind": "press",
+      "title": "'Art of Abu Ghraib', Mother Jones, 2007 (review of the Berkeley opening), read in full: Botero, then 75, described as the most important living Latin American artist; he worked for 14 months after reading Seymour Hersh's May 2004 New Yorker report; American critics had lauded the paintings in Europe but a number of US museums declined to show them before the University of California at Berkeley gave them their first US public exhibition; the reviewer finds the fleshy figures effective in the stark rooms and the subtle injuries striking; Botero's own words that drawing became an obsession for nine months, that abstract or conceptual artists would find such feelings hard to express whereas a figurative artist can, and that 'the greatest art cannot change anything' but helps people remember; he appeared baffled when the audience wanted to cast him as an activist. Magazine review (admiring of the work) quoting the artist; its comments on United States policy are the writer's and were not used.",
+      "url": "https://www.motherjones.com/media/2007/02/art-abu-ghraib/"
+    },
+    {
+      "id": "src_fb_berkeley",
+      "kind": "institution",
+      "title": "UC Berkeley Media Relations (Kathleen Maclay), 'Botero exhibit joined by talk with artist, panels on violence, art, human rights', university press release, 24 January 2007, read in full: exhibition of Botero's Abu Ghraib works at Doe Library from 29 January to 23 March 2007, sponsored by the Center for Latin American Studies; the Center chair says museums across the country had been approached and had declined; art historian Peter Selz calls the work 'extremely important'; Botero in conversation with Robert Hass; Botero described as the most highly regarded contemporary artist from Latin America, with works in 46 museums, and he says the Abu Ghraib work is not for sale and he hopes to donate it. Host-institution announcement (promotional; used for facts of the exhibition only).",
+      "url": "https://newsarchive.berkeley.edu/news/media/releases/2007/01/24_botero.shtml"
+    },
+    {
+      "id": "src_fb_elcol",
+      "kind": "press",
+      "title": "'Conocer a grandes maestros, gracias a Botero' (Revista Generacion, El Colombiano, Medellin, 15 September 2023, Spanish), read in full (about the first 7,500 characters of the article): his gifts to Colombian public museums began before 2000 (a painting to the Museo de Antioquia in 1974, a room in 1977, sculptures in 1984, eighteen paintings to the Museo Nacional in 1984); in 2000 the Banco de la Republica received 123 of his works plus works by other artists for the Museo Botero in Bogota, the Museo de Antioquia 114 of his works plus 23 monumental sculptures in the Plaza Botero in Medellin, later a Via Crucis series (2012), and in 2004 the Museo Nacional the series 'La violencia en Colombia'; the author notes the donations drew debate and opposing views but argues their cultural impact is now widely recognised, with the Museo de Antioquia having the largest public Botero collection. Local-newspaper analysis, partly appreciative; the writer's argument about donations as self-promotion is noted as a counter-possibility and not decided.",
+      "url": "https://www.elcolombiano.com/generacion/edicion-del-mes/botero-importancia-de-las-donaciones-KG17116792"
+    },
+    {
+      "id": "src_fb_fsa",
+      "kind": "press",
+      "title": "'Why are Fernando Botero's figures fat?', Finestre sull'Arte, 23 October 2016, opening paragraph read (rest is behind a subscription wall): Botero is among the contemporary artists with the greatest distance between critics and public; it relays critic Charmaine Picard's 2011 Art in America remark quoting Rosalind Krauss's 1999 verdict that he 'has absolutely nothing to do with contemporary art', Picard's note that detractors call the figures simplistic caricatures, Arthur Danto's view that his sculptures are not serious enough to attract critical scrutiny, and Edward Sullivan's summary that he was called a commercial phenomenon and self-referential, while a good portion of critics appreciate him. Art-magazine editorial relaying other critics; counter-voice only. Rest of the article not opened.",
+      "url": "https://www.finestresullarte.info/en/works-and-artists/why-are-fernando-botero-s-figures-fat"
+    },
+    {
+      "id": "src_fb_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Fernando Botero (2018).jpg' -- checked for the portrait: author Culturespaces, dated 20 April 2018, source a Culturespaces video released under the Creative Commons Attribution licence on YouTube, file licensed CC BY 3.0, reviewed 30 June 2018 by Commons license reviewer Leoboudv, who confirmed it was available under that licence on that date; original 629 x 838 pixels.",
+      "url": "https://commons.wikimedia.org/wiki/File:Fernando_Botero_(2018).jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_fb_munal, src_fb_artforum, src_fb_guardian, src_fb_fsa | 1956-2000s | national-museum chronology + art-trade obituary + newspaper obituary + critic digest] The museum chronology says that in 1956, painting a mandolin still life in Mexico, he found a way to increase the volume of forms; Artforum says his signature style was realised there and that it became known as 'Boterismo'; the Guardian says the aesthetic was so identifiable that his work gave rise to that term and that he argued every true artist must 'deform reality'; he took the same exaggerated volume into monumental sculpture and into reworkings of old masterworks such as the Mona Lisa. The counter-voice is substantial: Krauss, Danto and others (relayed by Finestre sull'Arte and the Guardian) dismiss the style as a gimmick or irrelevant to contemporary art, so originality is documented as a recognisable, self-originated language, dual-edged in reception, not as a consensus judgement of significance."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_fb_munal, src_fb_guardian, src_fb_artforum | 1952-1950s | museum chronology + two obituaries] The chronology records study of Velazquez and Goya at the Prado, the old masters at the Louvre and in Italy, and a university professorship in 1958; the Guardian says the most formative period was two years in Florence studying quattrocento painters such as Masaccio, Uccello and Piero della Francesca, and that the lesson he took was that realistic works are imagined and processed by an individual sensibility. Deliberate, sustained study of earlier masters is documented across independent sources; how he practised day to day is only thinly described, so a moderate confidence."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fb_guardian, src_fb_mj, src_fb_berkeley | 2004-2007 and lifetime | newspaper obituary + magazine review + university release] The Guardian says he worked ten hours a day throughout his 80s and had around 200 solo exhibitions; the Mother Jones review reports that after reading the May 2004 Hersh report he worked for 14 months, and the Berkeley release lists the resulting Abu Ghraib works exhibited by 2007 (the Guardian counts about 80 paintings and 100 drawings). The work-hours claim comes from a single obituary and the 14-month figure from one review, so this is a strong inference about steady, sustained output at a modest confidence."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fb_artforum, src_fb_guardian, src_fb_fsa, src_fb_mj | 1972-2007 | art-trade obituary + newspaper obituary + critic digest + magazine review] The Guardian reports that for years critics looked down on his work as a trademark gimmick; Finestre sull'Arte relays Krauss's and Danto's dismissals; in a 1985 interview quoted by Artforum (self-report) he says the New York press went silent after his 1972 show while he kept exhibiting; Mother Jones reports that a number of US museums declined the Abu Ghraib series, which he nonetheless saw shown at Berkeley and elsewhere. Continuing in the same figurative language through decades of critical neglect, and carrying a rejected project through to exhibition, is consistent with persistence, but the neglect is partly told by himself, so strong inference at a modest confidence."
+    },
+    "experimentation": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fb_munal, src_fb_guardian, src_fb_artforum | 1956-2005 | museum chronology + two obituaries] The chronology says the volume technique was discovered while painting a still life, and that sculpture began in Paris in 1973; Artforum says he first attempted sculpture a decade earlier, could not afford it, and later worked in bronze, marble and cast iron; the Guardian says he moved from private subjects to reworked masterworks, a satirical series of dictators' portraits and, in 2004, paintings of drug-war violence. He extended one formal idea across media and subjects, but the documentation is of a sustained single language rather than varied technical trial, so a middling score."
+    },
+    "impact_motivation": {
+      "score": 56,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fb_elcol, src_fb_guardian, src_fb_mj, src_fb_berkeley | 1974-2007 | local-newspaper analysis + obituary + magazine review + university release] El Colombiano documents a pattern of gifts to Colombian public museums from 1974 through 2012, culminating in the 2000 donations (the Banco de la Republica's Museo Botero in Bogota and the Museo de Antioquia's collection and the Plaza Botero sculptures), and the Guardian adds that he gave the Abu Ghraib series to Berkeley's library, arguing it was too serious to sell to collectors; in Mother Jones he says art cannot change things but helps people remember. The giving is documented; his motive is inferred, and El Colombiano itself notes the debate about whether such gifts are also self-promotion. SELF-CALIBRATION (agent): first-pass 60 / 0.50 lowered to 56 / 0.46 because the giving is documented but the motive is an inference and one source names a self-promotion counter-reading."
+    },
+    "risk_tolerance": {
+      "score": 56,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fb_mj, src_fb_berkeley, src_fb_artforum | 2004-2007 | magazine review + university release + art-trade obituary] Mother Jones and the Berkeley release both say that US museums had been approached and declined to show the Abu Ghraib series, and that Berkeley gave it its first US public exhibition; Artforum says the series was the work that finally earned him critical acclaim. He made and publicly showed a body of work on a charged subject with no sale in mind (the Berkeley release quotes him that it was not for sale), accepting reputational and commercial uncertainty; the subject matter is treated only as artistic content and no political stance is scored. Documented behaviour from two sources but one episode, so a modest score."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "페르난도 보테로"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/fernando-botero-culturespaces-2018.jpg",
+    "width": 629,
+    "height": 838,
+    "source": "Wikimedia Commons, 'Fernando Botero (2018).jpg' -- an image of Fernando Botero by Culturespaces dated 20 April 2018, taken from a Culturespaces video released under the Creative Commons Attribution licence on YouTube; uploaded to Commons on 17 May 2018 and reviewed on 30 June 2018 by license reviewer Leoboudv, who confirmed the stated licence at the source on that date. Original 629 x 838 pixels (254 KB on Commons; downloaded file 259,941 bytes opens as a 629 x 838 JPEG); saved unchanged, never upscaled. Caveat: the Commons page identifies the source as a video on YouTube rather than an institutional photograph page; the licence rests on the reviewer's confirmation of the creator's Creative Commons release, and no conflicting notice was found.",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Image: Culturespaces, 2018, CC BY 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Fernando_Botero_(2018).jpg",
+    "creator": "Culturespaces",
+    "date": "2018-04-20",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fernando_Botero_(2018).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE (2026-10-24, wbgetentities): Q272877, en label 'Fernando Botero', description 'Colombian painter and sculptor (1932-2023)', ko label '페르난도 보테로', born 1932-04-19, died 2023-09-15; the lead's hint was correct. SLUG/QID CHECK: no production or candidate file for slug fernando-botero or QID Q272877 in the roster56 worktree (grep over data-pipeline and src). REGION: latin_america, nationalityCode CO (he lived in Paris, Monaco and elsewhere but his identity and body of work are Colombian; precedent Diego Rivera = latin_america). VOCABULARY: occupations painter and artist, field art, tags prolific and sustained_excellence, archetypes creative_creator and independent_creator all have EN+KO labels; 'sculptor' has no label so it is not used (sculpture is covered in the cards). ZERO POLITICS: the Abu Ghraib, dictator-portrait and violence series are treated as professional artistic episodes; no political position is scored, and a brief note in the sources that his son was a defence minister, the 1995 bombing episode and policy commentary were excluded. DECEASED SUBJECT: no inference from the death of his young son, health, finances, marriages or lifestyle. PORTRAIT PREFLIGHT: the Wikidata image has a Commons page with author, date, licence and a licence-review stamp (see portrait.source for the caveat that the source is a YouTube Creative Commons video); one bounded alternative search was not needed. CANONICAL SIGNIFICANCE SOURCE: Museo Nacional de Colombia chronology (https://www.museonacional.gov.co/sitio/botero/botero04c.html), read via a page-reading tool's summary (the raw page was not saved); supported by the Guardian and Artforum obituaries. READ: Guardian obituary, Artforum obituary, Mother Jones review, UC Berkeley release, El Colombiano analysis (first ~7,500 characters), Finestre sull'Arte (opening paragraph only; remainder subscription-gated), Commons file page, Museo Nacional chronology (via summary). Not opened or blocked: New York Times obituary (bot wall), Britannica (bot wall), MoMA artist page (bot wall), Banco de la Republica encyclopedia (captcha, not bypassed), Museo de Antioquia (page not found), ARTnews (wrong article returned), Roberta Smith's New York Times review (reached only through the Finestre and search summaries, so not cited as a source for any row), books and catalogues. PERSPECTIVES: museum chronology and university release (institutions), two obituaries and a magazine review (press), a local-newspaper analysis, and a critic digest as COUNTER-VOICE (Krauss, Danto, Sullivan on Botero as gimmick/commercial; Guardian on critics' dismissal). Self material (the 1985 Sischy interview quoted by Artforum; Mother Jones quotes) is never sole support. LIMITATIONS: little behavioural detail on daily practice, collaboration or studio methods; no row exceeds 72 or 0.62. SELF-CALIBRATION (agent): rows reviewed were persistence (relies partly on his own 1985 interview; kept at 64/0.52 because the Guardian and the critic digest independently document the dismissal), impact_motivation (motive inferred from documented gifts; lowered 60/0.50 to 56/0.46) and creative_originality (highest score; left unchanged because Museo Nacional, Artforum and Guardian independently describe the style and the counter-voice is already reflected in dual-edged). No broad scoring problem flagged."
+  }
+}

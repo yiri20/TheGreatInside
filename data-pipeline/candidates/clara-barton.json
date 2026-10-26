@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "clara-barton",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Clara Barton",
+    "aliases": [
+      "Clarissa Harlowe Barton"
+    ],
+    "wikidataId": "Q188039",
+    "birthYear": 1821,
+    "deathYear": 1912,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "nurse",
+      "teacher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_barton_wikidata",
+      "kind": "wikidata",
+      "title": "Clara Barton (Q188039), verified live via the Wikidata API (2026-10-24): English label 'Clara Barton', description 'American Civil War nurse (1821-1912)', Korean label 클라라 바턴, born 1821-12-25, died 1912-04-12. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q188039"
+    },
+    {
+      "id": "src_barton_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Clara Barton' (britannica.com; read through an Internet Archive copy, full article): founder of the American Red Cross; teaching from age 15 and the free school at Bordentown, from which she resigned rather than serve under a male principal; the Patent Office; her 'characteristic initiative' at the outbreak of the Civil War in securing supplies and nursing the wounded; the 1864 appointment as superintendent of nurses for the Army of the James; the 1865 bureau of records for missing men; relief work in Europe during the Franco-German War; her successful campaign after 1873 for the United States to sign the Geneva Convention; the 1881 founding of the American Association of the Red Cross and her presidency until 1904; her 'American amendment' extending relief to peacetime calamities; the Spanish-American War work at 77; the charges of authoritarianism from the executive council and the forced resignation in 1904. CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.britannica.com/biography/Clara-Barton"
+    },
+    {
+      "id": "src_barton_redcross",
+      "kind": "institution",
+      "title": "American Red Cross, 'Clara Barton' (redcross.org/about-us/who-we-are/history/clara-barton.html), read in full: the organisation's own biography; early teaching, work at the Patent Office, nursing care and supplies in the Civil War, the 1865 Office of Missing Soldiers that helped reconnect more than 20,000 soldiers with families, the 1869 trip to Switzerland and volunteering with the International Committee in the Franco-Prussian War, the founding on 21 May 1881, her 23-year presidency until 1904, the 'American Amendment' of 1884 enabling peacetime disaster relief, and the 1896 relief mission in Turkey and Armenia. The founder's own organisation, laudatory and silent on the 1904 dispute; her vegetarianism and private life are not used.",
+      "url": "https://www.redcross.org/about-us/who-we-are/history/clara-barton.html"
+    },
+    {
+      "id": "src_barton_nwhm",
+      "kind": "institution",
+      "title": "National Women's History Museum, 'Clara Barton' by Debra Michals (womenshistory.org biography, 2015), read in full: teaching from 18, the free school at Bordentown and her resignation on finding a man hired at twice her salary, her recording-clerk post at the Patent Office and the later reduction of her position, her supply work from 1861, official permission in 1862 to take supplies to battlefields, her 1864 appointment as head nurse for a unit though she had no formal medical training, the postwar search for missing soldiers, her pamphlets, lectures and meeting with President Hayes in building support for an American Red Cross society, the 1881 founding, the 1882 accession, and the National First Aid Association of 1904. A museum biography compiled from standard reference works; the passage on her father's phrenologist and her shyness is not used.",
+      "url": "https://www.womenshistory.org/education-resources/biographies/clara-barton"
+    },
+    {
+      "id": "src_barton_amheritage",
+      "kind": "press",
+      "title": "Geoffrey C. Ward, 'Queen Barton', American Heritage 39:3 (April 1988; americanheritage.com), read in full: a review essay on Elizabeth Brown Pryor's Clara Barton: Professional Angel, based on Barton's 35-volume diary. Credits her courage and resourcefulness at the front (for instance supplying tobacco and whiskey as well as bandages, and holding the operating table steady at Antietam), but reports that she exaggerated her wartime accounts, wrote a flattering biographical sketch of herself, made all decisions and dispensed all funds, was called 'the Queen' and 'the Great I Am' by her own staff, preferred assistants who were 'meek, patient, faithful', and in 1900-1904 faced dissidents led by Mabel Boardman who charged her with being egocentric, capricious and careless with finances; a Senate probe in 1904 'fully exonerated' her. A balanced popular-history review of a critical archival biography. The reviewer's remarks on her family, romance and spiritualism are not used.",
+      "url": "https://www.americanheritage.com/queen-barton"
+    },
+    {
+      "id": "src_barton_csm",
+      "kind": "press",
+      "title": "Linda Simon, 'Biography brings a secular saint down to earth', Christian Science Monitor (13 January 1988), read in full: a review of Pryor's Clara Barton: Professional Angel by a Harvard writing teacher, describing the biography as the first to 'ask sophisticated questions' of Barton and portraying her as steely, egotistical, hard-driving and often contentious, but crediting her masterful organising and fundraising and noting that detractors disputed her fiscal dealings; mentions her efforts to gain publicity for the Red Cross, which exasperated co-workers. The review's account of her depression and breakdowns is not used. Used as the independent critical counter-voice; Pryor's book itself was not opened.",
+      "url": "https://proof.csmonitor.com/1988/0113/dbbart.html"
+    },
+    {
+      "id": "src_barton_ccsu",
+      "kind": "institution",
+      "title": "Central Connecticut State University Library digital-history exhibit, 'The Origins of the Red Cross: National Organization' (library.ccsu.edu, Digital History 511, 2016), read in full: Barton's role as founder of the American Red Cross in 1881 and its leader for 23 years; the progressive-era frustration with her 'egotistical leadership style'; the faction led by Mabel Boardman; the financial accusations and Barton's 1904 resignation; her later National First Aid Association. A graduate-class exhibit; used only as a second, short account of the 1904 dispute.",
+      "url": "https://library.ccsu.edu/dighistFall16/exhibits/show/the-red-cross-and-its-nurses-i/the-origins-of-the-red-cross--"
+    },
+    {
+      "id": "src_barton_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page for the National Portrait Gallery (Smithsonian) photograph 'Clara Barton by Mathew B. Brady, c. 1865, albumen silver print' (NPG.2013.2; wikitext and API record) and the companion Commons record 'NPG 2013 2 Barton.tif'; the NPG object page itself (npg.si.edu/object/npg_NPG.2013.2) is behind a bot-verification wall and could not be opened. Checked for the portrait's rights; not used for scoring.",
+      "url": "https://npg.si.edu/object/npg_NPG.2013.2"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_barton_britannica, src_barton_nwhm, src_barton_amheritage, src_barton_redcross | 1861-1881 | encyclopaedia + museum biography + history review + Red Cross] Britannica says she 'showed characteristic initiative' at the start of the Civil War in organising facilities to recover soldiers' lost baggage and securing medicine and supplies, and then obtained permission to cross the lines; NWHM says she quit her post to take supplies to soldiers and obtained official permission in 1862; the Red Cross says she opened the Office of Missing Soldiers with Lincoln's permission; American Heritage says she was not the first woman to supply Union soldiers but was the best known. Four sources converge on repeatedly starting work without being assigned it; the Red Cross and museum accounts are admiring, so confidence stays at the upper moderate range."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_barton_amheritage, src_barton_britannica, src_barton_redcross | 1861-1865 | history review + encyclopaedia + Red Cross] American Heritage reports that when she learned soldiers valued tobacco and whiskey as much as blankets and bandages she supplied them, and that at Antietam she held the operating table steady when the male assistants had fled (her own later account, relayed by the reviewer); Britannica says she secured medicine and supplies for the wounded at Bull Run and set up a bureau of records in 1865; the Red Cross says the bureau reconnected more than 20,000 soldiers. Documented improvisation across several episodes, but several vivid details rest on her own recollections as reported by one reviewer, and American Heritage itself notes she exaggerated her accounts."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_barton_britannica, src_barton_nwhm, src_barton_redcross | 1869-1904 | encyclopaedia + museum biography + Red Cross] Britannica says that after her return in 1873 she 'campaigned vigorously and successfully' for the United States to sign the Geneva Convention and that she took the field in the Spanish-American War at 77; NWHM says she built support through pamphlets, lectures and a meeting with President Hayes over the years before the 1881 founding and the 1882 accession; the Red Cross notes the 1896 Armenia mission. A long, documented effort of about a decade to reach one goal, then twenty more years of relief work; the sources are concise and mostly favourable."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_barton_nwhm, src_barton_britannica, src_barton_csm | 1873-1882 | museum biography + encyclopaedia + book review] NWHM says she built support for an American Red Cross society by writing pamphlets, lecturing and meeting President Hayes; Britannica says her campaign for the Geneva Convention succeeded and that she solicited contributions; the Monitor review credits her with 'marshaling funds' and her efforts at publicity. Consistent with winning backing for a cause, but no source gives the arguments or the numbers and the Monitor review also notes that her publicity-seeking exasperated colleagues, so the score is moderate."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_barton_britannica, src_barton_redcross, src_barton_amheritage | 1861-1904 | encyclopaedia + Red Cross + history review] Britannica says she devoted herself entirely to the organisation, soliciting contributions and going into the field into old age, and wrote the American amendment extending Red Cross relief beyond war to famines, floods, earthquakes and pestilence; the Red Cross credits the amendment and the Armenia mission; American Heritage lists the Johnstown flood, the Galveston hurricane, famine in Russia and Cuba and says she went to disaster areas herself. Sustained, documented orientation toward relief work; American Heritage also notes that her cause and her own celebrity were 'inextricably linked in her own mind', so motivation was not purely selfless."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_barton_amheritage, src_barton_britannica, src_barton_nwhm | 1862-1898 | history review + encyclopaedia + museum biography] Britannica says she gained permission to pass through the battle lines to distribute supplies and nurse the wounded and worked in Cuba at 77; NWHM says she was at every major battle in Maryland, Virginia and South Carolina; American Heritage says that even her 'harshest critics never plausibly questioned her bravery' and gives Antietam as an example, citing her own recollection. Physical risk accepted for the work is documented, but the specific episodes come largely from her own accounts, and the reviewer states she exaggerated some of them. SELF-CALIBRATION (agent): first-pass 66 / 0.52 lowered to 62 / 0.48 because the most concrete episode (Antietam) rests on her own recollection relayed by one reviewer who also says she embellished her war accounts."
+    },
+    "collaboration": {
+      "score": 40,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "[src_barton_amheritage, src_barton_britannica, src_barton_ccsu, src_barton_csm | 1881-1904 | history review + encyclopaedia + university exhibit + book review] Britannica says she was 'jealous of any interference' and supervised the organisation so closely that members of the executive council brought charges of authoritarianism, and that a rebelling faction forced her resignation in 1904; American Heritage says she 'must attend to all business myself', made all decisions and dispensed all funds, was called 'the Queen' by loyal subordinates and preferred assistants who were 'meek, patient, faithful'; the CCSU exhibit cites an 'egotistical leadership style'; the Monitor review calls her steely and contentious. Four independent accounts agree on her difficulty sharing authority; the Senate probe that exonerated her of wrongdoing concerned finances, not her management style, so the score is low but not extreme."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_barton_britannica, src_barton_nwhm | 1852-1857 | encyclopaedia + museum biography] Britannica says that at Bordentown she resigned 'rather than subordinate herself to a male principal'; NWHM says she resigned on discovering the school had hired a man at twice her salary, 'saying she would never work for less than a man', and that she kept her Patent Office post at the same salary as male clerks until it was reduced. Documented willingness to give up a position over a principle she held, in two accounts that differ slightly on the trigger; limited to a few episodes, so the score is moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "클라라 바턴"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/clara-barton-brady-1865.jpg",
+    "width": 728,
+    "height": 1200,
+    "source": "Albumen silver print of Clara Barton by Mathew B. Brady, about 1865, National Portrait Gallery, Smithsonian Institution (accession NPG.2013.2; credit line 'acquired through the generosity of Elizabeth A. Hylton'), opened via the Wikimedia Commons file page, whose description states that the National Portrait Gallery 'has explicitly released this digital image under the CC0 license' and links the NPG object page. The NPG page itself could not be opened (bot-verification wall), so the CC0 statement is read from Commons quoting the institution; independently the photograph was made about 1865 by a photographer who died in 1896, so it is public domain by age in any case. The companion Commons record for the same object uses a public-domain-by-age tag, so no conflicting notice was found. Original file 2747 x 4529 (tight crop of a carte-de-visite style print with the sitter's name written above); saved downscaled only to 728 x 1200, not cropped. Image viewed: a woman with centre-parted dark hair in a dark silk dress with a lace collar.",
+    "license": "Public Domain",
+    "licenseUrl": "https://npg.si.edu/object/npg_NPG.2013.2",
+    "attribution": "Photo: Mathew B. Brady, about 1865 (National Portrait Gallery, Smithsonian Institution, CC0)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Clara_Barton_by_Mathew_B._Brady,_c._1865,_albumen_silver_print,_from_the_National_Portrait_Gallery_-_NPG-NPG_2013_2Barton-000001.tif",
+    "creator": "Mathew B. Brady",
+    "date": "about 1865",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Clara_Barton_by_Mathew_B._Brady,_c._1865,_albumen_silver_print,_from_the_National_Portrait_Gallery_-_NPG-NPG_2013_2Barton-000001.tif"
+  },
+  "provenance": {
+    "createdAt": "2026-10-25T00:00:00Z",
+    "updatedAt": "2026-10-25T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q188039 returned en label 'Clara Barton', description 'American Civil War nurse (1821-1912)', ko label 클라라 바턴, born 1821-12-25, died 1912-04-12; matches the lead's slug. SLUG/QID CHECK: no existing candidate or src reference for clara-barton or Q188039 in the roster56 worktree. REGION: north_america (US). ZERO-POLITICS REASONING: primary identity is nurse and humanitarian relief organiser (Civil War supply and nursing, the Office of Missing Soldiers, founding of the American Red Cross, disaster relief). Her campaign for US accession to the Geneva Convention and her support for women's suffrage are mentioned only as context and are not scored; the Civil War work was humanitarian and no row scores military, diplomatic or political activity. EXCLUSIONS: nothing from her family, health, depression, romance, spiritualism or vegetarianism; no inference from the 1904 resignation beyond the documented management criticism, and the financial charges are reported as charges that a Senate probe did not sustain (American Heritage); American Heritage and the Monitor describe her as embellishing her own accounts, which limits reliance on her recollections. VOCABULARY: occupations nurse, teacher; fields medicine, social_reform; tags founder, organizer; archetype organizational_leader (existing ids with EN+KO labels; there is no labelled humanitarian id, social_reform is nearest). PORTRAIT PREFLIGHT: good lead from the start; the Brady albumen print at the National Portrait Gallery (NPG.2013.2) was chosen over the Library of Congress war-time Brady print (LCCN93513625, not opened) and the Famous Americans book reproduction (unknown author, 'no later than 1901', rejected as a low-quality reproduction). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Clara Barton' (https://www.britannica.com/biography/Clara-Barton), read through an Internet Archive copy. READ (7 cited non-Wikidata sources): Britannica; American Red Cross; National Women's History Museum; American Heritage essay (Ward) on Pryor's biography; Christian Science Monitor review of Pryor; CCSU exhibit; Commons/NPG record for the portrait. NOT opened: Pryor's Clara Barton: Professional Angel, Oates's Woman of Valor, the Library of Congress Clara Barton Papers (the loc.gov site blocks bots), the NPS Clara Barton National Historic Site pages (no usable content; the NPS exhibit pages return only a template), Barton's own writings, the 1904 Senate hearing records. PERSPECTIVES: general encyclopaedia; the founder's organisation; a women's history museum; two independent book reviews of an archival biography (one balanced, one critical); a university digital-history exhibit. COUNTER-VOICES: American Heritage and the Monitor review on her autocratic style, self-aggrandising accounts and the 1904 revolt; Britannica on charges of authoritarianism; CCSU on 'egotistical leadership'. At least one substantive non-self behavioural source: American Heritage and Britannica; Pryor's findings reach me only through two reviews, so rows relying on them are capped and say so. No self-authored text supports any row. CALIBRATION: eight rows, none above 74 or 0.62; collaboration is deliberately low (40) on four converging independent accounts. SELF-CALIBRATION (agent): rows reviewed: proactive_agency (kept at 74/0.62: four sources converge), risk_tolerance (lowered 66/0.52 to 62/0.48: the vivid Antietam episode is her own recollection relayed by one reviewer who also says she embellished), collaboration (kept at 40/0.55: four independent accounts, offset by the exoneration note). BROAD FLAG: Pryor's biography, the main critical scholarship, was not opened, so every claim drawn from it is second-hand; the profile is otherwise balanced between admiring and critical sources."
+  }
+}

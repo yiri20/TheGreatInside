@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "yuan-longping",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Yuan Longping",
+    "aliases": [
+      "Longping Yuan",
+      "袁隆平"
+    ],
+    "wikidataId": "Q3141326",
+    "birthYear": 1930,
+    "deathYear": 2021,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "agronomist",
+      "scientist"
+    ],
+    "fieldIds": [
+      "agriculture",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yuan_wikidata",
+      "kind": "wikidata",
+      "title": "Yuan Longping (Q3141326) -- verified live via the Wikidata API (2026-10-24): English label 'Yuan Longping', description 'Chinese biologist (1930-2021)', died 2021-05-22, Korean label '위안룽핑', multiple conflicting birth dates (1929 and 1930) so only the year 1930 given by the Wolf Foundation and other read sources is used, P18 image 'Yuan Longping at news conference (cropped).png'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q3141326"
+    },
+    {
+      "id": "src_yuan_wolf",
+      "kind": "award_body",
+      "title": "Wolf Foundation, 'Yuan Longping' Wolf Prize in Agriculture 2004 laureate page (wolffund.org.il), read: citation 'for innovative development of hybrid rice and discovery of the genetic basis of heterosis in this important food staple', shared with Steven Tanksley; says he developed strategies using cytoplasmic male sterility that led to hybrid rice; that under his leadership and after a decade of cooperative research among hundreds of rice scientists from numerous institutes and universities yields rose about 20 percent and China's rice production by 50 percent; that he pioneered 'super hybrids' using inter-specific heterosis; and that he shared knowledge, techniques and breeding materials with scientists worldwide. CANONICAL SIGNIFICANCE SOURCE. Award-body language, retrospective and admiring, but it explicitly credits a large cooperative effort.",
+      "url": "https://wolffund.org.il/yuan-longping/"
+    },
+    {
+      "id": "src_yuan_quinn",
+      "kind": "biography",
+      "title": "Kenneth M. Quinn, 'Yuan Longping, 1930-2021: The Father of Hybrid Rice', Review of Agrarian Studies 11(1), 2021 (ras.org.in), read in full: a tribute by the president emeritus of the World Food Prize Foundation (an acquaintance, so friendly) describing his education from 1949, a research environment that limited genetics, the famine memories behind his motivation, secret reading of Mendel, the hybrid-rice breakthrough as a discovery in a field near Sanya rather than a laboratory, his preference for fieldwork and work clothes, the 1976 scale-up and 20 percent rise in Chinese output, sharing research with IRRI after 1978, building a research centre that drew scientists from over 50 countries, the 2004 World Food Prize shared with Monty Jones, and the 2019 Medal of the Republic (state honour, not scored). Admiring first-hand tribute.",
+      "url": "https://ras.org.in/yuan_longping_1930_2021the_father_of_hybrid_rice"
+    },
+    {
+      "id": "src_yuan_qian",
+      "kind": "biography",
+      "title": "Qian Qian, Fan Zhang and Yeyun Xin, 'Yuan Longping and Hybrid Rice Research', Rice 14:101 (2021, open access, PubMed Central), read in full: colleagues' memorial summary stating that in 1964 he challenged the prevailing view that self-pollinating rice shows no significant heterosis and published 'Male Sterility in Rice'; the 1970s national cooperative research; wild-rice distant hybridisation to make male-sterile lines; the 1972 male-sterile and maintainer lines produced 'together with his assistant', the restorer line in 1973 and the hybrid Nanyou 2; widespread use by 1976 with 20-30 percent yield advantage; his 1986 three-phase strategy (three-line, two-line, one-line); the 1997 super-hybrid project and yield records; salt-tolerant rice; chief consultant to FAO, 30 visits to IRRI and 140 international training courses for 14,000 people from over 80 countries. Written by Chinese colleagues, admiring.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8669059/"
+    },
+    {
+      "id": "src_yuan_bcas",
+      "kind": "institution",
+      "title": "Bulletin of the Chinese Academy of Sciences, 'Towards Next-generation Rice: Following the Footprints of Late Academician YUAN Longping' (bcas.cas.cn, 1 July 2021), the opening passage read: states that at the end of 1970 his assistant Li Bihu discovered the wild male-sterile rice plant near a ditch at Nanhong Farm in Sanya, which Yuan named 'YeBai' and which laid the foundation for the three-line system; says Yuan and his team together with other breeders achieved the hybrid-rice result. Used only for the credit structure of the discovery.",
+      "url": "https://bcas.cas.cn/head/202107/t20210701_273292.html"
+    },
+    {
+      "id": "src_yuan_cdb",
+      "kind": "press",
+      "title": "China Development Brief, 'World mourns Father of Hybrid Rice Yuan Longping' (chinadevelopmentbrief.org, 28 May 2021), read in full: quotes an IRRI scientist placing his hybrid-rice discoveries alongside Borlaug's wheat work in the green revolution; quotes his memoir on witnessing famine and resolving to raise rice production; says he shared major discoveries with scientists worldwide, with about 60 countries and regions running hybrid-rice trials, 14,000 technicians trained for more than 80 developing countries, and hybrids yielding 20 percent more than local breeds on about 7 million hectares abroad. Obituary reporting from an NGO-run outlet; partly sourced to Xinhua.",
+      "url": "https://chinadevelopmentbrief.org/reports/world-mourns-father-of-hybrid-rice-yuan-longping/"
+    },
+    {
+      "id": "src_yuan_scmp",
+      "kind": "press",
+      "title": "Stephen Chen, 'Bid to lift hybrid rice yield to 15 tonnes a hectare slammed', South China Morning Post, 4 December 2012 (republished by GRAIN at grain.org), read in full: reports Yuan's goal of 15 tonnes per hectare by 2015 from a 13.5-tonne record, and critics including an IRRI researcher who said the team spent 10,000-20,000 yuan per mu against a few hundred for a typical farmer so the record was 'unimpressive, if not meaningless', an unnamed Hangzhou rice-institute researcher who said the super-hybrid had little disease, pest and drought resistance and was driven by Yuan's 'personal obsession' with yield, and a seed-company manager who said farmers would find it too expensive; the Hunan Hybrid Rice Research Centre replied that yield was its division-of-labour focus and the target was for experimental fields. Independent critical journalism; the critics' views are their own and partly anonymous.",
+      "url": "https://grain.org/en/article/4629-bid-to-lift-hybrid-rice-yield-to-15-tonnes-a-hectare-slammed"
+    },
+    {
+      "id": "src_yuan_ricetoday",
+      "kind": "institution",
+      "title": "Rice Today (International Rice Research Institute magazine), 'Q&A with the Father of Hybrid Rice' (ricetoday.irri.org), read in full: an interview in which he says a natural hybrid plant with strong heterosis in a farmer's field in 1962 inspired the project, explains how government seed policy and a three-tier seed-production system helped hybrid rice spread in China, and says hybrid yields are about 1.35 tons per hectare higher than ordinary rice (2 tons for super hybrids). Self-account in an institute magazine, used only to confirm his own account of origins and never as sole support.",
+      "url": "https://ricetoday.irri.org/?p=2840"
+    },
+    {
+      "id": "src_yuan_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Yuan Longping at news conference (cropped).png' (wikitext and API record) and the live YouTube watch page of the source video, checked for the portrait's licence: frame from a China News Service video of 5 September 2019 uploaded to the official 'China News Service' YouTube channel under the Creative Commons Attribution licence, with a YouTube licence review on Commons dated 29 September 2023; cropped file 538 x 717 pixels. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Yuan_Longping_at_news_conference_(cropped).png"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yuan_qian, src_yuan_quinn, src_yuan_wolf | 1960s-1970s | colleagues' memorial article + tribute by a World Food Prize leader + award body] The colleagues' article says that in 1964 he broke with the prevailing view that self-pollinating rice could show no significant heterosis and published a paper proposing to use male sterility; the tribute says hybrid vigour in rice was believed unattainable and that he persisted. Pursuing a path most specialists doubted is clearly documented, but all three sources are admiring or retrospective and none quotes sceptics of the time. SELF-CALIBRATION (agent): first-pass 70 / 0.56 lowered to 68 / 0.52 because the support is one-directional (memorial and tribute) and no contemporary sceptic is quoted."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yuan_quinn, src_yuan_qian, src_yuan_wolf, src_yuan_bcas | 1964-2021 | tribute + colleagues' article + award body + academy bulletin] A research programme begun in 1964 ran through a research climate that disrupted sustained work and reached commercial scale in 1976; the colleagues' article lists decades of continuing projects (the two-line system from 1986, super hybrids from 1997, third-generation lines and a 2020 double-cropping project), and the tribute says he was still in a rice field when the fall that preceded his final illness occurred in March 2021. Long, documented continuity of effort across many phases; the sources are friendly, so a moderate confidence."
+    },
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yuan_wolf, src_yuan_qian, src_yuan_bcas | 1964-1976 | award body + colleagues' article + academy bulletin] The Wolf citation credits innovative development of hybrid rice; the colleagues' article credits him with proposing wild-rice distant hybridisation to create male-sterile lines and with the three-phase breeding strategy. The Chinese Academy of Sciences bulletin attributes the key wild male-sterile plant to his assistant Li Bihu, the colleagues' article says the first lines were produced 'together with his assistant', and the Wolf page describes hundreds of cooperating scientists, so his own share is substantial but not exclusive. SELF-CALIBRATION (agent): first-pass 70 / 0.54 lowered to 66 / 0.50 because the key plant was found by his assistant and the work was a large cooperative effort."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yuan_wolf, src_yuan_qian, src_yuan_cdb, src_yuan_quinn | 1970s-2010s | award body + colleagues' article + press + tribute] The Wolf citation notes a decade of cooperative research among hundreds of scientists under his leadership and that he shared breeding materials with scientists worldwide; the colleagues' article reports 140 international training courses reaching 14,000 people from over 80 countries and 30 visits to IRRI; the press report repeats the training figures and the tribute says his centre drew scientists from over 50 countries. Organising and opening up a national and international network is well documented; individual working relationships are not described, so a moderate score and confidence."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yuan_quinn, src_yuan_cdb, src_yuan_qian, src_yuan_wolf | 1960s-2010s | tribute + press + colleagues' article + award body] The tribute and the press report both reproduce his own account of witnessing famine and resolving to raise rice production, and the Wolf citation and colleagues' article show the follow-through: sharing knowledge and breeding materials, training thousands of technicians abroad, and consulting for FAO. The orientation toward feeding people is consistent across independent institutions, but its origin story is largely his own memoir as relayed by admirers. SELF-CALIBRATION (agent): first-pass 76 / 0.60 lowered to 72 / 0.56 because the motivational account rests on his memoir relayed by admirers, although the sharing behaviour is independently documented."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yuan_scmp, src_yuan_qian | 1997-2020 | critical journalism + colleagues' article] The colleagues' article lists successive yield targets (700 to 1,000 kg per mu and later records, and a 2020 double-cropping goal); the 2012 South China Morning Post report records a 15-tonne-per-hectare target and critics who called it impractical because of input costs and weakened resistance, one calling it the researcher's 'personal obsession' with yield, while his centre replied that yield was its assigned focus and the targets were for experimental plots. A strong pursuit of ambitious targets is evident, with disputed practical value, so a strong inference at a modest confidence, dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "위안룽핑"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/yuan-longping-cns-2019.jpg",
+    "width": 538,
+    "height": 717,
+    "source": "Wikimedia Commons 'Yuan Longping at news conference (cropped).png', a frame from a China News Service video of 5 September 2019 (Changsha press interview) uploaded to the official China News Service YouTube channel, which shows the Creative Commons Attribution licence on the live watch page (checked 2026-10-24); the Commons file carries a YouTube licence review dated 29 September 2023. Saved at the Commons cropped size of 538 x 717 pixels (converted from PNG to JPEG with no resizing or upscaling). The licence is the YouTube-stated Creative Commons Attribution licence (CC BY 3.0 in YouTube's terms), a platform-level licence on a single video from the news agency's own channel; no conflicting account-level or institutional notice was found.",
+    "license": "CC BY 3.0 (YouTube Creative Commons Attribution)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Photo: China News Service, 2019, CC BY (YouTube Creative Commons Attribution)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Yuan_Longping_at_news_conference_(cropped).png",
+    "creator": "China News Service (中国新闻社)",
+    "date": "2019-09-05",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Yuan_Longping_at_news_conference_(cropped).png"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-24) for Q3141326 returned en label 'Yuan Longping', description 'Chinese biologist (1930-2021)', death 2021-05-22, ko label '위안룽핑', several conflicting birth dates (1929/1930); the year 1930 is used because the Wolf Foundation and tribute give 1930. SLUG/QID CHECK: no candidate file or src/data reference for slug yuan-longping or QID Q3141326 in the roster56 worktree. REGION east_asia, nationality CN. VOCABULARY: agronomist and scientist (occupations), agriculture and biology (fields), impact domains scientific/technological/innovation, tags innovator and field_researcher, archetype technical_innovator are existing labelled ids. ZERO POLITICS: the Medal of the Republic and other state honours, his membership of academies and political-era context are not scored; the 'Father of Hybrid Rice' title is professional. PORTRAIT PREFLIGHT: Commons category had a lifetime photo set; the China News Service frame (538 x 717) has creator, date, licence and review on the file page and the live YouTube page confirms the Creative Commons Attribution licence on the agency's own channel; other files in the category were not opened (a 1953 and a 1962 photograph have unknown provenance). CANONICAL SIGNIFICANCE SOURCE: Wolf Foundation laureate page (https://wolffund.org.il/yuan-longping/). READ (8 cited non-Wikidata sources): Wolf Foundation page, Quinn tribute, Qian et al. memorial article, CAS bulletin passage, China Development Brief, SCMP/GRAIN critical report, Rice Today interview, plus portrait records. PERSPECTIVES: an award body; a World Food Prize leader's first-hand tribute; Chinese colleagues' memorial; IRRI-linked reporting and an IRRI-magazine interview; independent critical journalism with IRRI and Chinese-institute critics. COUNTER-VOICES: SCMP critics on cost, disease/pest resistance and the meaning of yield records, and the response from his centre; credit for the key wild male-sterile plant going to his assistant Li Bihu (CAS bulletin) and the cooperative effort noted by the Wolf Foundation. NOT opened: the New York Times, Guardian, Nature and Science obituaries (only a Legacy.com stub of the NYT obituary was seen), the World Food Prize laureate page (URL not retrievable), his memoir, GRAIN's reports on seed dependence, any Chinese-language sources. EXCLUDED: family, health and the circumstances of death, Party and state honours as identity, politics, Wikipedia/Wikidata. CALIBRATION: sources are mostly admiring or retrospective, so the highest score is 72 and the highest confidence 0.56; six rows, no padding. SELF-CALIBRATION (agent): reviewed creative_originality (lowered 70/0.54 to 66/0.50: assistant found the key plant, large team), impact_motivation (lowered 76/0.60 to 72/0.56: memoir relayed by admirers) and independent_thinking (lowered 70/0.56 to 68/0.52: one-directional support). BROAD FLAG: only one source (SCMP/GRAIN) is genuinely independent of the Chinese hybrid-rice establishment; a direct Nature/Science obituary read would strengthen the profile. PORTRAIT: CC BY via YouTube, from a news agency's own channel; the lead may want to confirm it is acceptable as a platform-level licence."
+  }
+}

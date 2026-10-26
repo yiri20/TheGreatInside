@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sergei-korolev",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sergei Korolev",
+    "aliases": ["Sergey Pavlovich Korolev", "Sergey Korolyov"],
+    "wikidataId": "Q170842",
+    "birthYear": 1907,
+    "deathYear": 1966,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": ["RU"],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": ["engineer", "scientist"],
+    "fieldIds": ["engineering", "exploration"],
+    "impactDomains": ["engineering", "technological", "historical"],
+    "tagIds": ["innovator", "leader"],
+    "archetypeIds": ["technical_innovator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_korolev_wikidata",
+      "kind": "wikidata",
+      "title": "Sergei Korolev (Q170842) -- verified live via the Wikidata API (2026-10-24): English label 'Sergei Korolev', description 'Soviet rocket engineer and spacecraft designer (1907-1966)', two recorded birth dates (30 December 1906 Old Style and 12 January 1907), died 14 January 1966, Korean label present. The name search also returns a hockey player, a librarian and other items, which are different people. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q170842"
+    },
+    {
+      "id": "src_korolev_esa",
+      "kind": "institution",
+      "title": "European Space Agency, 'Sergei Korolev: Father of the Soviet Union's success in space' (esa.int, 50 years of humans in space), read in full: engineer who led the team behind Sputnik, Vostok and Soyuz while his identity was a state secret; founded the Group for Investigation of Reactive Motion in 1931; in 1944 given three days to propose a Soviet equivalent of the V-2 and met the challenge; chief engineer for the R-1; decided in 1953 to develop an intercontinental missile, the R-7, which was powerful enough to put a satellite into orbit; when the science payload took longer than planned his team designed a 'minimum satellite' for Sputnik 1 (4 October 1957) and designed a second satellite in less than a month; adapted a spy-satellite concept into the Vostok spacecraft that carried Gagarin in 1961; proposed the N-1 rocket and Soyuz; widely criticised by military figures and other designers who said his missiles were poorly designed for a strategic role, and unable to agree with Valentin Glushko on cryogenic propulsion for the N-1. CANONICAL SIGNIFICANCE SOURCE. Independent space-agency history with critics noted. The page's passages on arrest, the Gulag, denunciation and his final illness were NOT used.",
+      "url": "https://www.esa.int/About_Us/ESA_history/50_years_of_humans_in_space/Sergei_Korolev_Father_of_the_Soviet_Union_s_success_in_space"
+    },
+    {
+      "id": "src_korolev_cof",
+      "kind": "institution",
+      "title": "U.S. Centennial of Flight Commission, 'The Soviet Race to the Moon' (centennialofflight.net), read in full: Korolev proposed the N1 booster and circumlunar projects in the early 1960s; the Soviet government approved N1 work in 1962 and the L3 lunar-landing project in 1964; he and engine designer Valentin Glushko could not agree on propellants (Korolev favouring cryogenic liquid oxygen, a 1962 commission siding with him), so he turned to aviation engine designer Nikolay Kuznetsov, 'a huge gamble' since Kuznetsov had almost no rocket-engine experience; infighting with rival designer Vladimir Chelomey; the programme was hampered by Korolev's death in 1966, and the four N1 launches that followed failed. Independent American institutional essay that describes him as 'headstrong'. Its passages on Khrushchev and Soviet politics were NOT used for scoring.",
+      "url": "https://centennialofflight.net/essay/SPACEFLIGHT/soviet_lunar/SP21.htm"
+    },
+    {
+      "id": "src_korolev_chertok",
+      "kind": "archive",
+      "title": "Boris Chertok, 'Rockets and People, Volume I' (NASA History Series SP-2005-4110, English edition 2005, nasa.gov PDF), the Korolev passages read (series editor's introduction by Asif Siddiqi, foreword by astronaut Thomas Stafford, the account of the Council of Chief Designers and the R-7 decision, and the 1945-46 chapters in Germany): a deputy and close colleague of Korolev describes him as the leader of the Council of Chief Designers whom the other Chief Designers recognised as leader; says the R-7 launch was kept to Korolev's motto 'No later than May!' and that the R-7 had to be redesigned after a 1954 change of payload requirements, producing serious conflicts between Korolev and designer Barmin; recalls his first meeting with Korolev in Germany in 1945, his sharp questions, his dispute with Pilyugin over who should organise the work, and his rebuke of a worker for vehicular disorderliness; the series editor quotes Chertok describing Korolev as a realist and calculating, farsighted individual who was 'in his soul, an incorrigible romantic'; Stafford says the Soviet programme could not respond effectively to Gemini and Apollo without Korolev's leadership. Colleague memoir, partly independent (inside view, admiring); only Volume I was opened and only the Korolev passages were read, not the full 20,000-line text, and the later volumes covering Sputnik, Vostok and the N1 were not opened.",
+      "url": "https://www.nasa.gov/pdf/635675main_RocketsPeopleVolume1-ebook.pdf"
+    },
+    {
+      "id": "src_korolev_energia",
+      "kind": "institution",
+      "title": "GlobalSecurity.org, 'Sergey Pavlovich Korolev' (globalsecurity.org, NII-88 / OKB-1 / NPO Energia pages), read in part: an English biography that appears to derive from the Energia corporation's official history, covering his early glider and aircraft designs, the 1931 Jet Propulsion Group (GIRD) with Zander, the 1933 first launch of a liquid-fuel rocket by that group, his 1934 publication 'Rocket flight in the stratosphere', his work as chief designer from 1946, high-altitude research rocket launches from 1949, his 1954 proposal for an artificial satellite using the R-7, and his awards. Corporate-lineage, hagiographic and uncorroborated in places; the denunciation and repression passages contradict other accounts and were NOT used. Used only to confirm early engineering chronology.",
+      "url": "https://www.globalsecurity.org/wmd/world/russia/korolev.htm"
+    },
+    {
+      "id": "src_korolev_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages checked for a portrait: the Wikidata P18 image (a Korolev couple photograph from a Moscow city government news page, author and date unknown, tagged only with a licence template for that website), 'Korolyov (1934).jpg' and 'Korolyov (1927).jpg' (unknown Soviet photographer, sourced from a blog post, tagged public domain by age), and the Moscow Main Archive images tagged CC BY 4.0. No file had a documented, verifiable rights basis, so no portrait was used. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/Category:Sergei_Korolyov"
+    }
+  ],
+  "rows": {
+    "execution_speed": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_korolev_esa, src_korolev_chertok | 1944-1957 | space-agency history + colleague memoir] ESA reports that in 1944 he was given three days to propose a Soviet V-2 equivalent and met the challenge, that his team produced the 'minimum satellite' for Sputnik 1 when the science payload ran late, and designed a second satellite in under a month; Chertok attributes the R-7's first launch date to his motto 'No later than May!'. Consistent institutional and colleague accounts of fast delivery, but the speed also reflected a large state programme and the accounts are retrospective."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_korolev_chertok, src_korolev_esa, src_korolev_cof | 1946-1966 | colleague memoir + space-agency history + American institutional essay] Chertok writes that the Chief Designers of the Council recognised Korolev as their leader, ESA credits him with leading the team behind Sputnik, Vostok and Soyuz, and the American astronaut Thomas Stafford's foreword says the Soviet programme could not respond effectively to Gemini and Apollo without his leadership; the Centennial of Flight essay shows him proposing the N1 and lunar projects. Programme leadership is well documented; the strongest words come from his deputy and from retrospective praise. SELF-CALIBRATION (agent): reviewed as an admiring-insider row; first-pass 74 / 0.58 lowered to 70 / 0.52 because the Council's recognition rests mainly on Chertok and the foreword is retrospective."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_korolev_cof, src_korolev_esa, src_korolev_chertok | 1946-1965 | American institutional essay + space-agency history + colleague memoir] The Centennial of Flight essay calls him headstrong and describes his unresolved dispute with Glushko over propellants and his campaign against rival Chelomey; ESA says he remained undismayed by critics who said his missiles were poorly designed for a strategic role; Chertok recalls serious conflicts with designer Barmin during the R-7 redesign and a sharp exchange with Pilyugin. Willingness to hold positions against strong opposition is documented by independent sources, with costs to the programme noted. Political context was not scored."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_korolev_cof, src_korolev_esa | 1960-1965 | American institutional essay + space-agency history] The Centennial of Flight essay calls his decision to ask aviation engine designer Nikolay Kuznetsov to build the N1 engines 'a huge gamble', and ESA says the N-1 needed 42 small engines after he bypassed Glushko; ESA also reports he turned a spy-satellite concept into the crewed Vostok. High-stakes, contested bets with a poor N1 outcome that came after his death, so the outcome is not attributed to him; moderate confidence."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_korolev_esa, src_korolev_energia | 1944-1961 | space-agency history + corporate-lineage biography] ESA reports that he reused the R-7 missile as the satellite launcher, built a stripped-down 'minimum satellite' when the science payload was delayed, and modified a spy-satellite design into the Vostok crewed capsule; the corporate-lineage biography adds his earlier use of research-rocket launches as a stepping stone. Documented practical reuse of existing hardware, but largely from one institutional narrative plus a hagiographic one."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_korolev_chertok, src_korolev_esa | 1946-1961 | colleague memoir + space-agency history] Chertok describes him as Chief Designer of the rocket system as a whole, coordinating specialist Chief Designers for engines, guidance, radio systems and launch equipment in the Council he led; ESA describes his sequence from V-2 equivalent to the R-7 launcher to the Sputnik and Vostok spacecraft. Documented systems-level coordination, but the Council description is an insider's retrospective and the technical detail is thin, so low-moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "세르게이 코롤료프"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No Commons image has a documented, verifiable rights basis. The Wikidata P18 file is a family photograph of unknown author and date taken from a Moscow city government news page, covered only by that website's licence template; Moscow Main Archive and Museum of Cosmonautics images are tagged CC BY 4.0 by an uploader under the mos.ru licence, but the licensor's copyright title in the original Soviet-era photographer's work is not documented; the 1927 and 1934 images are 'unknown Soviet photographer' pictures sourced from a blog post and tagged public domain by age without an established first publication. A San Diego Air and Space Museum Flickr 'no restrictions' image was also not relied on. Next step: find a Russian or Soviet archive or museum page that states its terms and the photographer's identity, or a NASA or ESA publication of a 1960s photograph with a documented public-domain basis.",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/Category:Sergei_Korolyov"
+  },
+  "provenance": {
+    "createdAt": "2026-10-24T00:00:00Z",
+    "updatedAt": "2026-10-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE (Wikidata wbgetentities, 2026-10-24) Q170842 = 'Sergei Korolev', 'Soviet rocket engineer and spacecraft designer (1907-1966)', died 1966-01-14; two birth dates recorded (30 Dec 1906 Old Style, 12 Jan 1907 New Style), so birthYear 1907 is used; the earlier name search's wrong researcher item (Q112553465, 'Russian librarian') and the hockey player Q9336658 are different. SLUG/QID CHECK: no candidate or src reference for sergei-korolev or Q170842. REGION: central_europe, nationality RU, following the repo mapping of Russians (Yuri Gagarin, Leo Tolstoy, Fyodor Dostoevsky are all central_europe, RU). ZERO POLITICS: primary identity is rocket engineer and Chief Designer; his arrest, imprisonment, the Gulag and the denunciation accounts are documented biographical facts that are deliberately NOT carded and NOT used for any trait inference; Khrushchev and Soviet political context, party membership, awards of state titles and the missile-weapons side of the R-7 are unscored and the profile is built only from engineering and programme-management behaviour. DECEASED SUBJECT: no illness, death or private-life inference (his final illness is excluded). VOCABULARY: engineer, scientist; engineering, exploration; innovator, leader; technical_innovator; impact domains engineering, technological, historical are existing ids with EN+KO labels. PORTRAIT PREFLIGHT: poor. After one bounded check of the Commons category (46 files, listed with licence templates) every candidate failed the strict rule (see portrait.reason), so the portrait is HELD. CANONICAL SIGNIFICANCE SOURCE: European Space Agency 'Sergei Korolev: Father of the Soviet Union's success in space' (https://www.esa.int/About_Us/ESA_history/50_years_of_humans_in_space/Sergei_Korolev_Father_of_the_Soviet_Union_s_success_in_space). READ (4 cited non-Wikidata sources): ESA page, Centennial of Flight essay, Chertok Volume I (targeted Korolev passages, via NASA PDF text extraction), GlobalSecurity/Energia biography (in part). PERSPECTIVES: independent space-agency history, American institutional essay, insider colleague memoir plus American astronaut foreword, corporate-lineage biography; counter-voices: ESA and Centennial of Flight report critics (military figures, other designers, the Glushko and Chelomey disputes). NOT OPENED: Britannica and The Engineer (bot-blocked), Harford 'Korolev', Chertok Volumes 2-4 (Sputnik, Vostok, N1), Smithsonian pages, Wikipedia. CAVEATS: only four substantive sources, all fairly admiring or retrospective, and the Sputnik/Vostok/N1 behaviour rests on ESA and the Centennial essay rather than a primary colleague account; scores top out at 72 and confidence at 0.52; the profile is sparse (six rows)."
+  }
+}

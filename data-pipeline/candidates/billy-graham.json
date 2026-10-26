@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "billy-graham",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Billy Graham",
+    "aliases": [
+      "William Franklin Graham Jr."
+    ],
+    "wikidataId": "Q213550",
+    "birthYear": 1918,
+    "deathYear": 2018,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader"
+    ],
+    "fieldIds": [
+      "religion"
+    ],
+    "impactDomains": [
+      "social",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "communicator",
+      "founder",
+      "leader"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_graham_wikidata",
+      "kind": "wikidata",
+      "title": "Billy Graham (Q213550) -- verified live via the Wikidata API (2026-10-24): English label 'Billy Graham', description 'American Baptist evangelist (1918-2018)', born 1918-11-07, died 2018-02-21, citizenship United States, Korean label '빌리 그레이엄', P18 image 'Billy Graham bw photo, April 11, 1966.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q213550"
+    },
+    {
+      "id": "src_graham_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Billy Graham' (britannica.com), article text read: American evangelist whose large-scale preaching missions called crusades brought him international prominence; 1934 conversion at a Mordecai Ham revival; the fundamentalist-modernist background and his refusal to be sectarian; use of radio and television; the 1949 Los Angeles tent crusade and Hearst's instruction to 'puff Graham'; criticism from Reinhold Niebuhr and from fundamentalists (Bob Jones Sr. and Jr., Carl McIntire, Jack Wyrtzen) who never forgave his cooperation with mainline clergy in the 1957 Madison Square Garden crusade, described as a deliberate strategy and part of an irenic career; his closeness to presidents (political material, not used); concluded his public career with a June 2005 mission in Queens. CANONICAL SIGNIFICANCE SOURCE. Reference article; the entry's political passages are deliberately not used.",
+      "url": "https://www.britannica.com/biography/Billy-graham"
+    },
+    {
+      "id": "src_graham_nchistory",
+      "kind": "institution",
+      "title": "North Carolina History Project, 'Billy Graham (1918-2018)' (northcarolinahistory.org), read in full: Graham as the most recognised evangelist of the twentieth century, schooling, ordination, first full-time evangelist for Youth for Christ, president of Northwestern College at a young age while touring about three months a year, the Hour of Decision radio programme on nearly 800 stations, founding of the evangelistic association in the early 1950s, preaching in communist countries, and critics who said he became too involved in politics and that his message was narrow. State-history encyclopaedia entry; broadly admiring with a short critical note. Family and political-friendship passages not used.",
+      "url": "https://northcarolinahistory.org/encyclopedia/billy-graham-1918/"
+    },
+    {
+      "id": "src_graham_chi",
+      "kind": "biography",
+      "title": "Christian History magazine (Christian History Institute), 'History in the Making: Billy Graham Had a Dream' (issue 47), read in full: setting Graham against earlier evangelists' handling of racism; his 1952 Jackson, Mississippi statement that there is no scriptural basis for segregation and his softening of it under criticism; the 1953 Chattanooga crusade where he personally took down the ropes separating black and white sections; adding Howard O. Jones as a black team member in 1957; saying publicly that anti-segregation legislation might be necessary; abuse from white supporters; and some Southern cities overriding his demands, so that he sometimes accepted the status quo. Evangelical church-history magazine, admiring but candid about early hesitancy and later retreats.",
+      "url": "https://christianhistoryinstitute.org/magazine/article/history-in-the-making-billy-graham-had-a-dream"
+    },
+    {
+      "id": "src_graham_ct",
+      "kind": "press",
+      "title": "Collin Hansen, 'When Billy Graham Went to New York City' (Christianity Today, Christian History, originally 2005, republished August 2008), the passages on the 1957 crusade read: Niebuhr's Life magazine denunciation and Graham's courteous public reply, his declining of earlier New York invitations as unrepresentative, his accepting the invitation of the Protestant Council of the City of New York in 1957, fundamentalists calling that a slap in the face, John R. Rice's warning in The Sword of the Lord that Graham led a drift from strict fundamentalism, his inviting Martin Luther King Jr. to pray at the crusade, and Bob Jones Sr.'s warning against it. The passages on his health are deliberately not used. Evangelical press retrospective quoting critics on both sides.",
+      "url": "https://christianitytoday.com/history/2008/august/one-last-gotham-visit-for-billy-graham.html"
+    },
+    {
+      "id": "src_graham_rns",
+      "kind": "press",
+      "title": "Holly Lebowitz Rossi / Religion News Service, 'Billy Graham leaves a positive interfaith legacy, with a few blemishes' (National Catholic Reporter, 21 February 2018), read in full: Jewish leaders' descriptions of Graham's interfaith work and awards, his 1973 rejection of evangelism aimed specifically at Jews, and the 1972 Oval Office tape released in 2002 on which he made anti-Semitic remarks, the outrage from Rabbi Marvin Hier and historian Martin Marty, his apology, and Rabbi A. James Rudin's disappointment that he did not disagree with the president. Press report quoting Jewish and academic critics and supporters; used only to document the tape controversy factually and unscored.",
+      "url": "https://www.ncronline.org/news/billy-graham-leaves-positive-interfaith-legacy-few-blemishes"
+    },
+    {
+      "id": "src_graham_bgea",
+      "kind": "institution",
+      "title": "Billy Graham Evangelistic Association, 'Ministry Timeline' (billygraham.org), read in full: first citywide crusade in 1947, the 1949 Los Angeles crusade, incorporation of the association in 1950, the Hour of Decision on radio from 1950 and television from 1951, films, the 1957 New York crusade broadcast live, Decision magazine from 1960, satellite broadcasts of crusades from 1985, and the association's figure of nearly 215 million people in live audiences in more than 185 countries and territories. Self-published by the organisation he founded; admiring and used only for chronology and the organisation's own figures, which are not independently audited.",
+      "url": "https://billygraham.org/ministry-timeline"
+    },
+    {
+      "id": "src_graham_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Billy Graham bw photo, April 11, 1966.jpg' and its rights template (wikitext and image record), checked for the portrait: photograph by Warren K. Leffler, U.S. News and World Report staff photographer, dated 11 April 1966, from the Library of Congress U.S. News and World Report Magazine Photograph Collection; the template states the photograph is a work for hire and that, under the deed of gift, the magazine dedicated all its rights in the collection to the public on donation to the Library. Original 2292 x 3156. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Billy_Graham_bw_photo,_April_11,_1966.jpg"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_graham_britannica, src_graham_nchistory, src_graham_bgea | 1949-2005 | reference article + state-history entry + organisation timeline] Britannica reports his Los Angeles crusade lured thousands and brought national attention and that crusades followed around the world; the North Carolina entry says he attracted thousands, spoke 'with eloquence and simplicity' and reached millions by radio; the association says nearly 215 million people attended in more than 185 countries. The sustained ability to draw audiences is consistent across sources, but the audience figures come from the organisation and Britannica credits the early fame partly to Hearst's instruction to puff him and to the tent's curiosity value. SELF-CALIBRATION (agent): first-pass 76 / 0.60 lowered to 72 / 0.56 because the strongest numbers are organisation-reported and not audited, and the one independent explanation of the 1949 breakthrough credits press promotion as well as preaching."
+    },
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_graham_britannica, src_graham_nchistory, src_graham_bgea | 1946-1995 | reference article + state-history entry + organisation timeline] Britannica says he seized on radio and television to reach beyond the stodgy image of fundamentalist preaching; the North Carolina entry describes the Hour of Decision reaching nearly 800 stations; the association timeline records radio in 1950, television in 1951, a live broadcast of the 1957 New York crusade and later satellite relays. The pattern of adopting new media early is well documented, but only one independent source characterises his intent, so strong inference."
+    },
+    "belief_updating": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_graham_chi, src_graham_ct | 1952-1957 | evangelical church-history magazine + evangelical press retrospective] Christian History says that in 1952 he said there was no scriptural basis for segregation, then softened it under criticism, then in 1953 personally took down the ropes at Chattanooga, added a black team member in 1957 and said legislation might be needed; Christianity Today adds that by 1957 he had invited Martin Luther King Jr. to pray at the New York crusade. The shift over several years, with some retreats in cities that overrode him, is documented; both sources are friendly to him and the Chattanooga account is relayed by a magazine rather than a named eyewitness."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_graham_britannica, src_graham_ct, src_graham_chi | 1953-1957 | reference article + evangelical press + church-history magazine, quoting opponents] Britannica and Christianity Today document that fundamentalists such as Jones, McIntire and Rice broke with him over the 1957 New York crusade and that Niebuhr denounced his message; Christian History reports white supporters abused him over integration. He accepted the New York invitation and the King prayer anyway. Hostile voices are quoted in independent publications, so the pattern is well documented; the cost in lost allies and the repeated softening of positions under pressure make it dual-edged."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_graham_britannica, src_graham_ct, src_graham_chi, src_graham_rns | 1954-1973 | reference article + evangelical press + church-history magazine + press report with Jewish leaders] Britannica calls his career marked by an irenic spirit and says he cooperated with the Ministerial Alliance of mainline clergy; Christianity Today describes working with the Protestant Council; Christian History says he worked regularly with African-American churches where crusades were held; Religion News Service reports Jewish leaders praising his interfaith work while noting the 1972 tape as an exception. The evidence is of institutional cooperation across church lines rather than team behaviour inside his own organisation."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_graham_britannica, src_graham_nchistory, src_graham_bgea | 1947-2005 | reference article + state-history entry + organisation timeline] The sources describe a ministry of about six decades, from the first citywide crusade in 1947 to a final mission in 2005, with annual touring while he also led a college (the North Carolina entry). Duration and output are documented, but the sources describe the pace, not obstacles overcome, so strong inference with moderate confidence."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/billy-graham-leffler-1966.jpg",
+    "width": 871,
+    "height": 1200,
+    "source": "Library of Congress, U.S. News and World Report Magazine Photograph Collection, photograph by staff photographer Warren K. Leffler dated 11 April 1966, hosted on Wikimedia Commons. The Commons rights template records that the photograph is a work for hire by a named staff photographer and that, under the deed of gift to the Library, the magazine dedicated to the public all rights it held in the collection. The Library's own item and rights pages could not be opened (bot protection, HTTP 403), so the basis was verified through the Commons file page and template, which is a secondary statement of the Library's position. Original 2292 x 3156; downscaled once to 871 x 1200 (no upscaling).",
+    "license": "Public domain (work for hire dedicated to the public by deed of gift to the Library of Congress)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USNWR",
+    "attribution": "Warren K. Leffler, U.S. News and World Report, 1966, Library of Congress, U.S. News and World Report Magazine Photograph Collection",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Billy_Graham_bw_photo,_April_11,_1966.jpg",
+    "creator": "Warren K. Leffler",
+    "date": "1966-04-11",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Billy_Graham_bw_photo,_April_11,_1966.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "빌리 그레이엄"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-25T00:00:00Z",
+    "updatedAt": "2026-10-25T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID Q213550 verified live (wbgetentities 2026-10-24): 'Billy Graham', 'American Baptist evangelist (1918-2018)', 1918-11-07 to 2018-02-21, ko label 빌리 그레이엄. No existing candidate or src reference for slug billy-graham or the QID (katharine-graham and martha-graham are different slugs). Region north_america (US). ZERO POLITICS: primary identity evangelist; his relationships with presidents, the 1960 Montreux strategy meeting, closeness to Nixon and Watergate-era material appear in Britannica and the North Carolina entry and are political context that is NOT scored or carded. Deceased, so no living-subject restriction applies, but health and family passages are not used. Vocabulary: religious_leader (labelled; 'evangelist' and 'missionary' are unlabeled), field religion, tags communicator/founder/leader, archetype social_influencer, all labelled. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Billy Graham' (https://www.britannica.com/biography/Billy-graham), cross-checked with the North Carolina History Project entry and the association timeline. PORTRAIT PREFLIGHT: Leffler 1966 photograph with a documented dedication-to-the-public basis via the Library of Congress collection deed of gift as quoted by the Commons template; LoC pages themselves unreachable, so recorded as a secondary statement. READ (7 cited non-Wikidata items): Britannica article (text recovered from the page markup), North Carolina History entry, Christian History article, Christianity Today retrospective (1957 passages), Religion News Service/NCR report, association timeline, Commons record. PERSPECTIVES: reference encyclopaedia, state-history entry, evangelical church-history magazine, evangelical press quoting fundamentalist and liberal critics, interfaith press report quoting Jewish leaders and a historian, and the organisation's own timeline. NOT OPENED: William Martin's biography (no accessible text), Billy Graham Center Archives pages at Wheaton (the located archive page was only a short finding-aid stub), Time and other profiles, the Nixon tape or its transcript itself (known through RNS reporting only), the full text of Niebuhr's Life article and Rice's Sword of the Lord article (known through Christianity Today), Wikipedia. NIXON TAPE HANDLING: documented as a controversial 1972 conversation released in 2002 with his apology and the critical reactions of Hier, Marty and Rudin, as reported by RNS; unscored and not carded; no trait row cites it, and no motive or belief is inferred beyond what the report states (that he apologised and that the remarks 'do not reflect my views' per his statement). The lead may want a neutral editorial note. Fundamentalist separatists' criticism and the 1950s integration of crusades are documented professional behaviour and feed belief_updating, conflict_tolerance and collaboration. COUNTER-VOICES: Niebuhr, Jones, McIntire, Rice, Rudin, Marty, the North Carolina entry's note on narrowness and over-involvement in politics. CALIBRATION: six rows, highest score 74 and highest confidence 0.62; the evidence is mostly secondary and partly self-published, so no extreme values. SELF-CALIBRATION (agent): rows reviewed: persuasiveness, belief_updating, opportunity_sensing. Lowered: persuasiveness (76/0.60 to 72/0.56: organisation-reported audience figures and press-promotion explanation for early fame). belief_updating left unchanged: two independent publications describe a multi-year documented shift, with retreats recorded. opportunity_sensing left unchanged: three sources agree on the media adoption."
+  }
+}

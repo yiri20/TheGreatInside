@@ -9303,6 +9303,469 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1998 he began Silkroad, moving from solo and chamber performance to convening and commissioning with musicians from many traditions.",
   "yo-yo-ma.interpretation.turning_point.1":
     "This is consistent with a readiness to start and lead a long-running initiative beyond his solo career.",
+  /* ---------------------------------------------------------- alexander-pushkin (Roster56) */
+  "alexander-pushkin.achievement.1":
+    "He wrote Eugene Onegin, a verse novel begun in 1823 and published in full in 1833, for which he invented a new stanza form.",
+  "alexander-pushkin.achievement.2":
+    "He is regarded as a founder of modern Russian literature: building on European traditions and Russian folklore, he helped create the basis of the modern literary language.",
+  "alexander-pushkin.achievement.3":
+    "Besides his lyrics and the mock epic Ruslan and Liudmila (1820), he wrote the drama Boris Godunov, the Belkin stories and the Little Tragedies.",
+  "alexander-pushkin.moment.1":
+    "In autumn 1830 a cholera quarantine kept him at the Boldino estate for about three months, where he finished the last chapters of Eugene Onegin, wrote the Belkin stories and more than thirty poems.",
+  "alexander-pushkin.interpretation.moment.1":
+    "This is consistent with a capacity for intense, rapid output when working undisturbed.",
+  "alexander-pushkin.turning_point.1":
+    "At Boldino in 1830 he turned to prose, which he had earlier disliked, and the Belkin stories opened a new line in his writing.",
+  "alexander-pushkin.interpretation.turning_point.1":
+    "This is consistent with a willingness to take up a form he had previously avoided.",
+  /* ---------------------------------------------------------- bertrand-piccard (Roster56) */
+  "bertrand-piccard.achievement.1":
+    "In March 1999 he and Brian Jones flew Breitling Orbiter 3, the first balloon to fly around the world non-stop, in just under 20 days after two earlier attempts in 1997 and 1998.",
+  "bertrand-piccard.achievement.2":
+    "With André Borschberg he co-founded Solar Impulse; the two took turns piloting Solar Impulse 2, which completed the first round-the-world flight by an aircraft using no liquid fuel in 2015-2016.",
+  "bertrand-piccard.achievement.3":
+    "He framed Solar Impulse as a demonstration of clean technologies, and later led the World Alliance for Effective Solutions to identify technological solutions to protect the environment.",
+  "bertrand-piccard.moment.1":
+    "During the 2015 Pacific crossing of Solar Impulse 2, with the autopilot alarm faulty, Piccard argued strongly for continuing while engineers urged stopping; Borschberg, who was flying, also favoured continuing.",
+  "bertrand-piccard.interpretation.moment.1":
+    "This is consistent with a high tolerance for risk and a willingness to hold a position against technical colleagues.",
+  "bertrand-piccard.moment.2":
+    "Before the 1999 flight the team added four extra propane containers, and the balloon landed with under a quarter of its fuel left, after two earlier attempts had shaped the plan.",
+  "bertrand-piccard.interpretation.moment.2":
+    "This is consistent with learning from earlier failures and adjusting the plan.",
+  "bertrand-piccard.turning_point.1":
+    "In 2003 Piccard and Borschberg launched Solar Impulse, a project that took seven years to reach its first night flight in 2010 and ran for about 15 years in total.",
+  "bertrand-piccard.interpretation.turning_point.1":
+    "This is consistent with a shift from record-setting adventure toward a long collaborative project with a clean-technology aim.",
+  /* ---------------------------------------------------------- billy-graham (Roster56) */
+  "billy-graham.achievement.1":
+    "Gained national prominence with his 1949 Los Angeles tent crusade and went on to lead evangelistic crusades across the United States and abroad over roughly six decades, ending with a mission in Queens in 2005.",
+  "billy-graham.achievement.2":
+    "Reached wider audiences through the Hour of Decision radio programme and later television, films and satellite broadcasts, run through the evangelistic association he founded in 1950.",
+  "billy-graham.achievement.3":
+    "Took down the ropes separating black and white seating at his 1953 Chattanooga crusade, and in 1957 led the New York crusade with mainline church cooperation, which fundamentalist critics never forgave.",
+  "billy-graham.moment.1":
+    "According to Christian History, before one of the 1953 Chattanooga crusade meetings Graham personally took down the ropes separating the black and white sections after the sponsoring committee had kept the custom.",
+  "billy-graham.interpretation.moment.1":
+    "This is consistent with changing a held position and acting on it publicly after earlier hesitancy.",
+  "billy-graham.moment.2":
+    "In 1957 Graham accepted the Protestant Council of New York's invitation and invited Martin Luther King Jr. to pray at the crusade, even though fundamentalists such as John R. Rice and Bob Jones Sr. objected.",
+  "billy-graham.interpretation.moment.2":
+    "This is consistent with accepting criticism from former allies in order to cooperate across church lines.",
+  "billy-graham.turning_point.1":
+    "In the late 1940s, after fellow evangelist Charles Templeton urged him to attend seminary, Graham decided in 1949 to set aside his intellectual doubts and simply preach the gospel, and his Los Angeles crusade soon brought national attention.",
+  "billy-graham.interpretation.turning_point.1":
+    "This is consistent with choosing to commit fully to preaching rather than further study.",
+  /* ---------------------------------------------------------- chimamanda-ngozi-adichie (Roster56) */
+  "chimamanda-ngozi-adichie.achievement.1":
+    "Her debut novel Purple Hibiscus won the Commonwealth Writers' Prize and the Hurston/Wright Legacy Award; the Baltimore Sun called it one of the best novels to come out of Africa in years.",
+  "chimamanda-ngozi-adichie.achievement.2":
+    "Half of a Yellow Sun, a novel of the Biafran war, won the 2007 Orange Prize, now the Women's Prize for Fiction, and was later named Best of the Best of the prize's second-decade winners.",
+  "chimamanda-ngozi-adichie.achievement.3":
+    "Americanah, about a Nigerian woman's years in the United States, won the National Book Critics Circle Award and was named among the New York Times ten best books of 2013. She is a MacArthur Fellow and published Dear Ijeawele in 2017.",
+  "chimamanda-ngozi-adichie.moment.1":
+    "While writing Half of a Yellow Sun she surrounded herself with more research than she could use, including photographs, and drew on her father's answers to her questions.",
+  "chimamanda-ngozi-adichie.interpretation.moment.1":
+    "This is consistent with thorough preparation before writing about a historical subject.",
+  "chimamanda-ngozi-adichie.moment.2":
+    "In 2007 she was running a free creative writing workshop in Nigeria, choosing thirty participants from more than a hundred entries; an annual ten-day Farafina Trust workshop in Lagos with her as facilitator was still announced in 2016.",
+  "chimamanda-ngozi-adichie.interpretation.moment.2":
+    "This is consistent with a sustained effort to support other writers.",
+  "chimamanda-ngozi-adichie.turning_point.1":
+    "After the Biafran war novel she turned to a contemporary subject in Americanah, saying she wanted to write about a different kind of immigration, of middle-class people seeking choice rather than fleeing war or poverty.",
+  "chimamanda-ngozi-adichie.interpretation.turning_point.1":
+    "This is consistent with taking on a new subject as a writer rather than repeating a successful one.",
+  /* ---------------------------------------------------------- clara-barton (Roster56) */
+  "clara-barton.achievement.1":
+    "At the start of the Civil War she gathered and carried supplies to Union soldiers and nursed the wounded near the front, and in 1864 was appointed superintendent of nurses for the Army of the James.",
+  "clara-barton.achievement.2":
+    "In 1865 she set up, with Lincoln's permission, an office to trace missing soldiers; the Red Cross credits it with reconnecting more than 20,000 soldiers with their families.",
+  "clara-barton.achievement.3":
+    "She founded the American Red Cross in 1881 and led it until 1904, and her 'American amendment' extended Red Cross relief from war to peacetime disasters such as floods and famines.",
+  "clara-barton.moment.1":
+    "As Red Cross president she reportedly made all decisions and dispensed all funds herself, to the point that even loyal staff privately called her 'the Queen', and by 1904 members of the executive council charged her with authoritarianism and forced her resignation.",
+  "clara-barton.interpretation.moment.1":
+    "This is consistent with difficulty sharing authority with colleagues.",
+  "clara-barton.moment.2":
+    "After returning from Europe in 1873 she campaigned for years, with pamphlets, lectures and a meeting with President Hayes, until the American Red Cross was founded in 1881 and the Geneva Convention joined in 1882.",
+  "clara-barton.interpretation.moment.2":
+    "This is consistent with sustained effort toward a single long-term goal.",
+  "clara-barton.turning_point.1":
+    "In 1861, when the Civil War began, she left her Patent Office post to collect and carry supplies to Union soldiers, starting a career in relief work that continued for more than forty years.",
+  "clara-barton.interpretation.turning_point.1":
+    "This is consistent with moving on her own initiative from a clerical post to relief work.",
+  /* ---------------------------------------------------------- edvard-grieg (Roster56) */
+  "edvard-grieg.achievement.1":
+    "At Ibsen's invitation he wrote the incidental music for Peer Gynt, completed in 1875 and premiered in Christiania in February 1876; he later published two orchestral suites from it, Op. 46 in 1888 and Op. 55 in 1893.",
+  "edvard-grieg.achievement.2":
+    "His Piano Concerto in A minor dates from 1868; Franz Liszt received it favourably in 1869, and Grieg kept revising it over the next three decades.",
+  "edvard-grieg.achievement.3":
+    "He wrote 66 Lyric Pieces for piano in ten books between 1867 and 1901, in a style drawing on Norwegian folk idiom, along with roughly 140 songs.",
+  "edvard-grieg.moment.1":
+    "He barred his early symphony from public performance; the Bergen library records it marked 'Must never be performed', and it was not heard again until 1981.",
+  "edvard-grieg.interpretation.moment.1":
+    "This is consistent with holding his own early work to a strict standard.",
+  "edvard-grieg.moment.2":
+    "For the 1898 Bergen Festival he brought in the Amsterdam Concertgebouw Orchestra instead of the local orchestra, and the organising committee resigned; the library presents the episode as a catalyst for a later professional Bergen orchestra.",
+  "edvard-grieg.interpretation.moment.2":
+    "This is consistent with putting the standard of performance ahead of local arrangements.",
+  "edvard-grieg.turning_point.1":
+    "In 1869 Franz Liszt responded favourably to the Piano Concerto and later played it at sight in Weimar, an endorsement the biography says boosted Grieg's confidence.",
+  "edvard-grieg.interpretation.turning_point.1":
+    "This is consistent with a folk-inflected style finding an international audience early in his career.",
+  /* ---------------------------------------------------------- fernando-botero (Roster56) */
+  "fernando-botero.achievement.1":
+    "In 1956, while painting a still life with a mandolin in Mexico, he found a way to enlarge the volume of forms, the basis of the rotund style called Boterismo. The Museum of Modern Art bought his Mona Lisa, Age Twelve in 1961, though critics long disputed the style.",
+  "fernando-botero.achievement.2":
+    "From the 1970s he made large bronze sculptures of rounded figures, animals and hands that were shown in city centres, including a 1993 Champs-Elysees exhibition and Park Avenue.",
+  "fernando-botero.achievement.3":
+    "In 2000 he gave works to the Banco de la Republica for the Museo Botero in Bogota and to the Museo de Antioquia in Medellin, with sculptures in the city's Plaza Botero. His 2004-05 Abu Ghraib series was given to the University of California, Berkeley library.",
+  "fernando-botero.moment.1":
+    "After reading Seymour Hersh's 2004 report on Abu Ghraib, he worked for about 14 months on paintings and drawings of the prison abuses; several US museums declined to show them before the University of California, Berkeley gave them their first US exhibition in 2007.",
+  "fernando-botero.interpretation.moment.1":
+    "This is consistent with a willingness to take a professional and reputational risk on a charged subject without any sale in view.",
+  "fernando-botero.moment.2":
+    "Critics such as Rosalind Krauss and Arthur Danto dismissed his work, and in a 1985 interview he said the New York press went silent after his 1972 show; he kept working in the same figurative language and, by the Guardian's account, worked ten hours a day into his 80s.",
+  "fernando-botero.interpretation.moment.2":
+    "This is consistent with persistence in a chosen idiom despite long critical neglect.",
+  "fernando-botero.turning_point.1":
+    "In 1956, after moving to Mexico, he found while painting a mandolin still life that he could increase the volume of forms; the exaggerated proportions became the basis of his signature style.",
+  "fernando-botero.interpretation.turning_point.1":
+    "This is consistent with an originating step that set the direction of the rest of his work.",
+  /* ---------------------------------------------------------- friedrich-frobel (Roster56) */
+  "friedrich-frobel.achievement.1":
+    "He opened an infant school at Blankenburg in 1837 that he later called the Kindergarten, the 'garden of children', and from 1842 women were trained there as kindergarten teachers.",
+  "friedrich-frobel.achievement.2":
+    "He designed the 'gifts' and 'occupations', play materials such as balls, blocks and shapes with songs and games, to teach young children through self-activity and play.",
+  "friedrich-frobel.achievement.3":
+    "He founded a school at Keilhau in Thuringia and set out his principles in The Education of Man (1826), the work through which his ideas later spread to Britain, the United States and elsewhere.",
+  "friedrich-frobel.moment.1":
+    "He argued that women should be trained as teachers of young children and kept pressing the idea despite the ridicule it drew when he presented it at an all-male conference in 1847; women's training courses had begun at Blankenburg in 1842.",
+  "friedrich-frobel.interpretation.moment.1":
+    "This is consistent with holding to an unconventional position against the prevailing view.",
+  "friedrich-frobel.moment.2":
+    "In 1816 he reportedly declined a professorship of mineralogy in Stockholm to found a school of his own to test his ideas on educating children.",
+  "friedrich-frobel.interpretation.moment.2":
+    "This is consistent with giving up a secure academic path for an uncertain educational venture.",
+  "friedrich-frobel.turning_point.1":
+    "After running schools for older pupils at Keilhau and in Switzerland, he returned to Germany in the mid-1830s to devote himself to pre-school children, designing educational play materials and opening the Blankenburg infant school in 1837.",
+  "friedrich-frobel.interpretation.turning_point.1":
+    "This is consistent with redirecting his effort toward the early years once he judged them the key stage of education.",
+  /* ---------------------------------------------------------- guido-van-rossum (Roster56) */
+  "guido-van-rossum.achievement.1":
+    "Created the Python programming language, first released in 1991 and designed to be easy and intuitive, open source and readable like plain English; the Computer History Museum names Python's use in areas from machine learning to education.",
+  "guido-van-rossum.achievement.2":
+    "Led Python's development and community as its Benevolent Dictator For Life, a title the community gave him, mediating disputes over the language; the Computer History Museum named him a 2018 Fellow for the creation and evolution of Python and for leadership of its community.",
+  "guido-van-rossum.achievement.3":
+    "Set out Python 3 in PEP 3000 as a release that would break backwards compatibility with Python 2; the Python Software Foundation says many people did not upgrade and Python 2 support finally ended on 1 January 2020.",
+  "guido-van-rossum.moment.1":
+    "At the 2018 Python Language Summit he said he is generally conflict-averse and prefers not to use his BDFL powers to shut down a discussion, as the PEP 572 debate sprawled across mailing-list threads.",
+  "guido-van-rossum.interpretation.moment.1":
+    "This is consistent with a leader who preferred letting a debate run over using decisive authority, which his colleagues also questioned.",
+  "guido-van-rossum.moment.2":
+    "In July 2018 he told the core developers he was stepping down as BDFL, would not name a successor, and left them to decide how PEPs are decided and how core developers are inducted; the community later adopted a five-person Steering Council model.",
+  "guido-van-rossum.interpretation.moment.2":
+    "This is consistent with handing project decision-making to the wider team rather than choosing an heir.",
+  "guido-van-rossum.turning_point.1":
+    "In PEP 3000 he committed the project to a Python 3.0 that would break backwards compatibility, expecting Python 2.x releases to continue in parallel for some time.",
+  "guido-van-rossum.interpretation.turning_point.1":
+    "This is consistent with accepting a costly, contested compatibility break for the language's longer-term direction.",
+  /* ---------------------------------------------------------- haile-gebrselassie (Roster56) */
+  "haile-gebrselassie.achievement.1":
+    "He won the Olympic 10,000 metres at Atlanta in 1996 and at Sydney in 2000, and was world champion in 1993, 1995, 1997 and 1999.",
+  "haile-gebrselassie.achievement.2":
+    "He set 27 official and unofficial world records at distances from 2000 metres to the marathon, ending with 2:03:59 in Berlin in 2008, a mark that stood until 2011.",
+  "haile-gebrselassie.achievement.3":
+    "After finishing fifth in the 2004 Olympic 10,000 metres he turned to road racing and won the Berlin Marathon four years in a row, from 2006 to 2009.",
+  "haile-gebrselassie.moment.1":
+    "In the 2000 Sydney 10,000 metres he and Kenya's Paul Tergat left the field behind, and he edged ahead of Tergat only in the last stride; four years earlier in Atlanta he had won the same rivalry by six metres.",
+  "haile-gebrselassie.interpretation.moment.1":
+    "This is consistent with a competitor who stays in close finishes and wins them.",
+  "haile-gebrselassie.moment.2":
+    "In November 2010 he dropped out of the New York Marathon and announced he was stopping; he returned to competition the following April and formally retired in May 2015.",
+  "haile-gebrselassie.interpretation.moment.2":
+    "This is consistent with a reluctance to end a competitive career at the first announced stopping point.",
+  "haile-gebrselassie.turning_point.1":
+    "After the 2004 Athens Olympics, where he finished fifth in the 10,000 metres, he made road racing his main focus, and in 2007 and 2008 set marathon world records in Berlin.",
+  "haile-gebrselassie.interpretation.turning_point.1":
+    "This is consistent with a willingness to change event when a track career had peaked.",
+  /* ---------------------------------------------------------- hideki-yukawa (Roster56) */
+  "hideki-yukawa.achievement.1":
+    "In 1935 he proposed that the force binding the atomic nucleus comes from the exchange of a new, heavier particle, and estimated its mass at about 200 times that of the electron; the particle came to be called the meson.",
+  "hideki-yukawa.achievement.2":
+    "Cosmic-ray particles of about the predicted mass were found in 1937 and the pion was identified in 1947; he received the 1949 Nobel Prize in Physics, recorded as the first for a Japanese physicist.",
+  "hideki-yukawa.achievement.3":
+    "With Sakata, Taketani and Kobayashi he developed meson theory further, and from 1953 he directed Kyoto University's Research Institute for Fundamental Physics while editing the journal Progress of Theoretical Physics.",
+  "hideki-yukawa.moment.1":
+    "In January 1937 he sent Nature a letter suggesting that anomalous cosmic-ray tracks might be mesons; it was rejected, and he published the same note in a Japanese society journal that July.",
+  "hideki-yukawa.interpretation.moment.1":
+    "This is consistent with persisting with an idea after a setback rather than dropping it.",
+  "hideki-yukawa.moment.2":
+    "After the Tamm and Ivanenko calculations appeared in 1934 he resolved not to look among known particles for the quantum of the nuclear force, which led to the meson theory.",
+  "hideki-yukawa.interpretation.moment.2":
+    "This is consistent with revising a working assumption when a competing approach hit a wall.",
+  "hideki-yukawa.turning_point.1":
+    "His 1935 paper was largely ignored for about two years, until 1937 cosmic-ray observations of particles of intermediate mass made him internationally known.",
+  "hideki-yukawa.interpretation.turning_point.1":
+    "This is consistent with a career in which recognition came after an experimental confirmation rather than at first publication.",
+  /* ---------------------------------------------------------- hideo-kojima (Roster56) */
+  "hideo-kojima.achievement.1":
+    "He created and designed Metal Gear in 1987, a war game built around avoiding combat that is credited with helping establish the stealth action genre.",
+  "hideo-kojima.achievement.2":
+    "Metal Gear Solid (1998) on PlayStation was his global breakthrough, with cinematic cutscenes and film-inspired storytelling, and he received the Game Developers Choice Lifetime Achievement Award in 2009.",
+  "hideo-kojima.achievement.3":
+    "In December 2015 he re-formed Kojima Productions as an independent studio and, with Sony as publishing partner, released Death Stranding in 2019, a game critics found by turns bold and divisive.",
+  "hideo-kojima.moment.1":
+    "When his company asked for an arcade Rambo-style war game, Kojima says he was against it and conceived a war game that avoids combat, which became Metal Gear.",
+  "hideo-kojima.interpretation.moment.1":
+    "This is consistent with an inclination to push back on a brief and work from his own idea.",
+  "hideo-kojima.moment.2":
+    "Death Stranding's open world built on delivery and asynchronous connection split critics, with scores from 6 to 10 and reviewers calling it both unusual and tedious.",
+  "hideo-kojima.interpretation.moment.2":
+    "This is consistent with a willingness to experiment with unconventional game design despite a polarising reception.",
+  "hideo-kojima.turning_point.1":
+    "After Konami cancelled the Silent Hills project in 2015, Kojima left to re-form Kojima Productions as an independent studio, starting from four people in December 2015.",
+  "hideo-kojima.interpretation.turning_point.1":
+    "This is consistent with a shift from salaried studio work toward leading his own independent studio.",
+  /* ---------------------------------------------------------- jagadish-chandra-bose (Roster56) */
+  "jagadish-chandra-bose.achievement.1":
+    "In 1895 at Presidency College, Calcutta, he demonstrated millimetre-wave transmission through walls, building a coherer, transmitter, antenna and other components; the work received an IEEE Milestone.",
+  "jagadish-chandra-bose.achievement.2":
+    "Turning from physics to plant physiology, he built sensitive instruments such as the crescograph to record plant growth and responses and argued there is no sharp line between living and non-living response.",
+  "jagadish-chandra-bose.achievement.3":
+    "In 1917 he opened the Bose Institute in Calcutta as a research institution.",
+  "jagadish-chandra-bose.moment.1":
+    "Resolving in 1894 to take up research with no laboratory, he built his first apparatus within about three months with the help of an untrained tinsmith.",
+  "jagadish-chandra-bose.interpretation.moment.1":
+    "This is consistent with making progress through improvised means rather than waiting for facilities.",
+  "jagadish-chandra-bose.turning_point.1":
+    "Around 1900-1903, after finding that metal receivers showed 'fatigue' and recovery like muscle, he moved from radio-wave physics to the study of living tissue and then plants.",
+  "jagadish-chandra-bose.interpretation.turning_point.1":
+    "This is consistent with following an anomaly across disciplinary boundaries.",
+  /* ---------------------------------------------------------- kahlil-gibran (Roster56) */
+  "kahlil-gibran.achievement.1":
+    "His The Prophet, published by Knopf in 1923, sold about twelve hundred copies in its first year and was never reviewed by the New York Times, but has since sold more than ten million copies, according to the Academy of American Poets.",
+  "kahlil-gibran.achievement.2":
+    "He was a prominent member of the New York Pen League, founded in 1920, which promoted Arabic literature with simple language and new forms such as free poetry; he published nine books in Arabic and eight in English.",
+  "kahlil-gibran.achievement.3":
+    "He also produced over 700 paintings and drawings, showed his first drawings in Boston in 1904 and studied in Paris in 1908; The Drawing Center in New York mounted an exhibition of his drawings in 2023.",
+  "kahlil-gibran.moment.1":
+    "By the Academy of American Poets' account he began publishing articles in an Arabic-language newspaper and showed his first drawings in the same year, 1904, and he later wrote in both Arabic and English and drew and painted throughout his career.",
+  "kahlil-gibran.interpretation.moment.1":
+    "This is consistent with a habit of working across two languages and two arts at once.",
+  "kahlil-gibran.moment.2":
+    "As a prominent member of the Pen League, formed in 1920, he took part in writing that used simple Arabic, free poetry and symbolic forms in place of traditional restrictions.",
+  "kahlil-gibran.interpretation.moment.2":
+    "This is consistent with a willingness to try new forms for Arabic writing alongside like-minded writers.",
+  "kahlil-gibran.turning_point.1":
+    "He moved to New York in 1911, met Alfred Knopf there, and went on to publish The Madman (1918) and The Prophet (1923) with him.",
+  "kahlil-gibran.interpretation.turning_point.1":
+    "This is consistent with a move that set up the publishing relationship behind his best-known English work.",
+  /* ---------------------------------------------------------- kalpana-chawla (Roster56) */
+  "kalpana-chawla.achievement.1":
+    "Selected by NASA in December 1994, she flew on Columbia twice, on STS-87 in 1997 and STS-107 in 2003, logging 30 days, 14 hours and 54 minutes in space; the University of Texas at Arlington describes her as the first Indian-born woman to fly in space.",
+  "kalpana-chawla.achievement.2":
+    "On STS-87 she was mission specialist and prime robotic arm operator on a microgravity and solar-observation flight; on STS-107, a 16-day dedicated science mission of about 80 experiments, she worked on the Combustion Module and other experiments and helped maneuver Columbia on the Red Team.",
+  "kalpana-chawla.achievement.3":
+    "Before becoming an astronaut she researched powered-lift aerodynamics at NASA Ames from 1988 and, from 1993, was vice president and research scientist at Overset Methods, after a 1988 doctorate in aerospace engineering.",
+  "kalpana-chawla.moment.1":
+    "On flight day 13 of STS-107 a vacuum-pump problem threatened the water-mist experiment, and she offered to give up her off-duty time to carry out the ground team's fix.",
+  "kalpana-chawla.interpretation.moment.1":
+    "This is consistent with a readiness to volunteer extra effort when an experiment was at risk.",
+  "kalpana-chawla.moment.2":
+    "In 1994, as principal investigator on a NASA grant, she led a study of running an overset-grid flow solver on 128-node and 208-node parallel computers.",
+  "kalpana-chawla.interpretation.moment.2":
+    "This is consistent with comfort with demanding technical analysis before her astronaut career.",
+  "kalpana-chawla.turning_point.1":
+    "In December 1994 NASA selected her as an astronaut candidate, moving her from aerodynamics research to astronaut training and, in November 1996, to a flight assignment as prime robotic arm operator on STS-87.",
+  "kalpana-chawla.interpretation.turning_point.1":
+    "This is consistent with a long-built technical skill set being turned toward spaceflight.",
+  /* ---------------------------------------------------------- mario-molina (Roster56) */
+  "mario-molina.achievement.1":
+    "With F. Sherwood Rowland he published a 1974 paper in Nature showing that chlorofluorocarbons reaching the stratosphere release chlorine atoms that destroy ozone.",
+  "mario-molina.achievement.2":
+    "He shared the 1995 Nobel Prize in Chemistry with Rowland and Paul Crutzen for work on the depletion of the ozone layer.",
+  "mario-molina.achievement.3":
+    "His work helped support the Montreal Protocol on ozone-depleting substances; he later studied polar stratospheric cloud chemistry and urban air pollution, founding a Mexico City energy and environment centre in 2004.",
+  "mario-molina.moment.1":
+    "In December 1973 Rowland and Molina, finding no process that would remove CFCs in the lower atmosphere, searched their calculations for flaws and found none, then submitted the paper and later took the finding to the press and policy makers.",
+  "mario-molina.interpretation.moment.1":
+    "This is consistent with checking a conclusion carefully before presenting it.",
+  "mario-molina.turning_point.1":
+    "In autumn 1973 he left chemical-laser research at Berkeley to join Rowland's group at Irvine and take on the unexamined fate of CFCs, a field he knew little about.",
+  "mario-molina.interpretation.turning_point.1":
+    "This is consistent with a willingness to enter an unfamiliar field for a challenging problem.",
+  /* ---------------------------------------------------------- morris-chang (Roster56) */
+  "morris-chang.achievement.1":
+    "Founded Taiwan Semiconductor Manufacturing Company in 1987 while leading Taiwan's Industrial Technology Research Institute, an independent chip foundry available to any company; the Computer History Museum named him a 2007 Fellow for this.",
+  "morris-chang.achievement.2":
+    "Devised the 'pure play' foundry model, a manufacturer that does not design its own chips or compete with customers, which IEEE Spectrum says let start-ups design chips without the huge cost of building a fabrication plant.",
+  "morris-chang.achievement.3":
+    "Spent 1958 to 1983 at Texas Instruments, rising to group vice president for its worldwide semiconductor business, before leaving for General Instrument and then Taiwan.",
+  "morris-chang.moment.1":
+    "At ITRI in 1985 he introduced a review that put the lowest 2 percent of performers on probation, and staff complained to legislators in hate mail, IEEE Spectrum reports.",
+  "morris-chang.interpretation.moment.1":
+    "This is consistent with a willingness to impose unpopular changes despite staff opposition.",
+  "morris-chang.moment.2":
+    "In a May 2009 televised speech he told TSMC employees that laid-off workers would be welcomed back and apologised for the mishandled appraisals behind the layoffs, according to the Taipei Times.",
+  "morris-chang.interpretation.moment.2":
+    "This is consistent with publicly reversing a decision after it drew criticism.",
+  "morris-chang.turning_point.1":
+    "After leaving Texas Instruments in 1983 and General Instrument a year later, he accepted the Taiwanese government's offer to run ITRI in 1985, against the advice of nearly everyone he knew, which led to TSMC.",
+  "morris-chang.interpretation.turning_point.1":
+    "This is consistent with a willingness to take an uncertain, high-stakes move in a new setting after setbacks.",
+  /* ---------------------------------------------------------- mother-teresa (Roster56) */
+  "mother-teresa.achievement.1":
+    "In 1948 she left the Loreto convent school in Calcutta to work among the poorest, and in 1950 received Holy See permission to found the Missionaries of Charity.",
+  "mother-teresa.achievement.2":
+    "Her order ran homes for the dying, orphanages, mobile clinics and leprosy centres, and by 1997 the Vatican counted about 610 foundations in 123 countries.",
+  "mother-teresa.achievement.3":
+    "She received the 1979 Nobel Peace Prize; critics such as Christopher Hitchens and a 2013 University of Montreal review have questioned the quality of care in some homes and the order's finances.",
+  "mother-teresa.moment.1":
+    "In 1948, after a short medical course, she left the convent with no funds and began an open-air school for slum children, soon joined by former students.",
+  "mother-teresa.interpretation.moment.1":
+    "This is consistent with starting work with very few resources and relying on others joining.",
+  "mother-teresa.moment.2":
+    "In 1952 she asked Indian officials for a place where the dying could be cared for and was given part of an abandoned temple, which she renamed Nirmal Hriday.",
+  "mother-teresa.interpretation.moment.2":
+    "This is consistent with taking the initiative to approach authorities for what the work needed.",
+  "mother-teresa.turning_point.1":
+    "In 1948, after about two years of waiting for permission, she exchanged her teaching life at Loreto for work in the Calcutta slums.",
+  "mother-teresa.interpretation.turning_point.1":
+    "This is consistent with giving up an established position for uncertain work.",
+  /* ---------------------------------------------------------- n-r-narayana-murthy (Roster56) */
+  "n-r-narayana-murthy.achievement.1":
+    "He co-founded Infosys in Bangalore in 1981 with six colleagues, starting with 10,000 rupees, and was its chief executive for two decades until 2002.",
+  "n-r-narayana-murthy.achievement.2":
+    "Infosys developed its Global Delivery Model under his leadership, splitting projects between work done on the client's site and work done at remote development centres in India; revenue grew over 80 percent a year from 1998 to 2001.",
+  "n-r-narayana-murthy.achievement.3":
+    "In March 1999 Infosys became the first India-registered company listed on a US stock exchange, NASDAQ, which also allowed it to offer employee stock options through depositary receipts.",
+  "n-r-narayana-murthy.moment.1":
+    "In the 1980s he made over 200 trips to government offices in Delhi for permits, and the company waited a full year for permission to buy its first computer.",
+  "n-r-narayana-murthy.interpretation.moment.1":
+    "This is consistent with persistence through a slow licensing system.",
+  "n-r-narayana-murthy.moment.2":
+    "In 2017 he and other founders questioned the board over executive pay, a former finance chief's severance and the Panaya acquisition; the board called his campaign misguided, the chief executive resigned, and the board was later reshaped.",
+  "n-r-narayana-murthy.interpretation.moment.2":
+    "This is consistent with a willingness to stay in an open dispute with his own former company, with sources divided on whether it helped.",
+  "n-r-narayana-murthy.turning_point.1":
+    "After a first direct data link to the United States in 1989 and India's early-1990s deregulation, Infosys's early offshore experiments turned into a model that became a competitive advantage.",
+  "n-r-narayana-murthy.interpretation.turning_point.1":
+    "This is consistent with an ability to hold on to an early idea until conditions made it commercially workable.",
+  /* ---------------------------------------------------------- oliver-wendell-holmes-jr (Roster56) */
+  "oliver-wendell-holmes-jr.achievement.1":
+    "Published The Common Law in 1881, arguing that 'the life of the law has not been logic: it has been experience' and that law grows with society rather than following formal axioms.",
+  "oliver-wendell-holmes-jr.achievement.2":
+    "Served about twenty years on the Massachusetts Supreme Judicial Court, then on the US Supreme Court from 1902 to 1932, known for short, quotable opinions and for deference to elected legislatures.",
+  "oliver-wendell-holmes-jr.achievement.3":
+    "Wrote the 1919 Schenck opinion stating the 'clear and present danger' test, and the Lochner (1905) and Abrams (1919) dissents, the latter urging a 'free trade in ideas'.",
+  "oliver-wendell-holmes-jr.moment.1":
+    "In his Lochner dissent Holmes wrote that the case rested on an economic theory the country did not share, and that his own agreement or disagreement had nothing to do with a majority's right to embody its opinions in law.",
+  "oliver-wendell-holmes-jr.interpretation.moment.1":
+    "This is consistent with dissenting from a court majority on a stated principle of judicial method rather than personal preference.",
+  "oliver-wendell-holmes-jr.moment.2":
+    "Cotter reports that Holmes's 1904 Northern Securities dissent, his first written dissent, permanently strained his relationship with Theodore Roosevelt, who had nominated him.",
+  "oliver-wendell-holmes-jr.interpretation.moment.2":
+    "This is consistent with dissenting even when it cost a relationship with the president who appointed him.",
+  "oliver-wendell-holmes-jr.turning_point.1":
+    "In 1882 Holmes left a newly won Harvard Law professorship, without advance notice to the faculty, to accept a seat on the Massachusetts Supreme Judicial Court, a move Oyez links to his finding academic life incomplete.",
+  "oliver-wendell-holmes-jr.interpretation.turning_point.1":
+    "This is consistent with preferring the practice of judging over an academic career.",
+  /* ---------------------------------------------------------- oswaldo-cruz (Roster56) */
+  "oswaldo-cruz.achievement.1":
+    "As Director-General of Public Health, led Rio de Janeiro's campaigns against yellow fever, plague and smallpox, acting on the mosquito theory with brigades that removed breeding sites; recorded yellow fever cases fell from 39 in 1906 to none in 1908.",
+  "oswaldo-cruz.achievement.2":
+    "Directed the Manguinhos serum institute from 1902, turning it from a plague-serum producer into a centre for vaccine production, research and training that was later renamed for him and became Fiocruz.",
+  "oswaldo-cruz.achievement.3":
+    "Won the gold medal at the 1907 International Congress on Hygiene and Demography in Berlin for Rio's sanitation work, and later directed expeditions and sanitation campaigns in the Amazon and on the Madeira-Mamoré railway.",
+  "oswaldo-cruz.moment.1":
+    "At the height of the November 1904 unrest against compulsory smallpox vaccination, Cruz offered his resignation, but President Rodrigues Alves replied that the measures were wanted, and the sanitation work continued.",
+  "oswaldo-cruz.interpretation.moment.1":
+    "This is consistent with a professional who stayed with his public-health measures under intense hostility, with the government's backing playing a large part.",
+  "oswaldo-cruz.moment.2":
+    "For the yellow-fever campaign Cruz divided Rio into ten districts, sent brigades to inspect building by building and record cases, and combined fines and demolition orders with explanatory leaflets, although his hoped-for 1,200 agents became only 85.",
+  "oswaldo-cruz.interpretation.moment.2":
+    "This is consistent with a methodical, structured approach to public health whose coercive style carried social costs.",
+  "oswaldo-cruz.turning_point.1":
+    "In 1909 Cruz left the Director-Generalship of Public Health to concentrate on the Manguinhos institute, which was renamed for him, and from there launched expeditions that documented health conditions in the country's interior.",
+  "oswaldo-cruz.interpretation.turning_point.1":
+    "This is consistent with a shift from managing city campaigns toward building research capacity and investigating national health problems.",
+  /* ---------------------------------------------------------- ryuichi-sakamoto (Roster56) */
+  "ryuichi-sakamoto.achievement.1":
+    "In 1978 he co-founded Yellow Magic Orchestra with Haruomi Hosono and Yukihiro Takahashi, a group built on synthesizers, computers and disco beats. Its 1979 album Solid State Survivor and later records such as Technodelic, with early extensive sampling, were followed by the group's split in 1983.",
+  "ryuichi-sakamoto.achievement.2":
+    "He scored Merry Christmas, Mr. Lawrence (1983), in which he also acted, and shared the Academy Award for Best Original Score for The Last Emperor with David Byrne and Cong Su at the 1988 ceremony. He went on to score further Bertolucci films and The Revenant.",
+  "ryuichi-sakamoto.achievement.3":
+    "His solo and collaborative records include B-2 Unit (1980, with the electro single 'Riot in Lagos'), the insen album made with Carsten Nicolai (Alva Noto) and async (2017), built from field recordings and unusual sound sources.",
+  "ryuichi-sakamoto.moment.1":
+    "For the async shows he and Carsten Nicolai performed inside Philip Johnson's Glass House with contact microphones on the glass, which led to a glass pane being used as an instrument in the live performances.",
+  "ryuichi-sakamoto.interpretation.moment.1":
+    "This is consistent with a willingness to treat unusual objects and places as musical sources.",
+  "ryuichi-sakamoto.moment.2":
+    "On The Last Emperor he was asked after filming to score half the film in about two weeks; he had planned a synthesizer score, but Bertolucci wanted an orchestral sweep and he delivered it.",
+  "ryuichi-sakamoto.interpretation.moment.2":
+    "This is consistent with an ability to change approach quickly to fit a director's needs.",
+  "ryuichi-sakamoto.turning_point.1":
+    "Already a star with Yellow Magic Orchestra, he accepted Nagisa Oshima's offer of a lead role in Merry Christmas, Mr. Lawrence on condition that he also write the score, which opened his career as a film composer.",
+  "ryuichi-sakamoto.interpretation.turning_point.1":
+    "This is consistent with a readiness to move from pop into other fields on his own terms.",
+  /* ---------------------------------------------------------- svante-arrhenius (Roster56) */
+  "svante-arrhenius.achievement.1":
+    "In his 1884 thesis he proposed that salts dissolved in water split into electrically charged ions, a theory the Uppsala faculty did not appreciate and that won him the 1903 Nobel Prize in Chemistry after more than ten years of dispute.",
+  "svante-arrhenius.achievement.2":
+    "In 1889 he studied how temperature changes the speed of a reaction and proposed that only energetically activated molecules react, the idea behind the activation energy and the equation that bears his name.",
+  "svante-arrhenius.achievement.3":
+    "In 1896 he calculated how changes in atmospheric carbon dioxide would alter ground temperature, estimating a 5 to 6 degree rise from a doubling; contemporaries largely dismissed it and it was revived in the later twentieth century.",
+  "svante-arrhenius.moment.1":
+    "After his thesis received the lowest passing grade in 1884, he had it printed and sent it to Clausius, van't Hoff and Ostwald; Ostwald travelled to Uppsala to meet him.",
+  "svante-arrhenius.interpretation.moment.1":
+    "This is consistent with persisting and seeking outside judgement after a dismissive local assessment.",
+  "svante-arrhenius.moment.2":
+    "Over decades he contested Walther Nernst's Nobel Prize and quarrelled with Paul Ehrlich over method, in what a historian describes as polemics he seemed to thrive on.",
+  "svante-arrhenius.interpretation.moment.2":
+    "This is consistent with a high tolerance for open scientific conflict.",
+  "svante-arrhenius.turning_point.1":
+    "In 1905, declining a professorship offered in Berlin, he became director of the new Nobel Institute for Physical Chemistry in Stockholm, where collaborators from Sweden and abroad came to work with him.",
+  "svante-arrhenius.interpretation.turning_point.1":
+    "This is consistent with choosing an independent base at home over a prestigious post abroad.",
+  /* ---------------------------------------------------------- william-booth (Roster56) */
+  "william-booth.achievement.1":
+    "Founded the East London Christian Mission in the mid-1860s with his wife Catherine and, as its General, renamed it the Salvation Army in 1878, giving the movement its military-style ranks, uniforms and regulations.",
+  "william-booth.achievement.2":
+    "Led the Salvation Army as it spread to the United States in 1880, Australia in 1881, continental Europe and India, travelling widely as General until his death in 1912.",
+  "william-booth.achievement.3":
+    "Published In Darkest England and the Way Out in 1890, a ten-part plan for city and farm colonies, rescue homes, a poor man's bank and lawyer, and more; the public subscribed money and much of the scheme was carried out.",
+  "william-booth.moment.1":
+    "Begbie quotes a witness who saw Booth at the Mile End Waste, surrounded by jeering Whitechapel crowds, shout back and lead a hymn until the noise was drowned out.",
+  "william-booth.interpretation.moment.1":
+    "This is consistent with a willingness to preach directly into hostile crowds, though it rests on a single admiring retrospective account.",
+  "william-booth.moment.2":
+    "After public doubts about the Darkest England fund, a Committee of Inquiry reported in December 1892, according to Begbie, that the money had gone only to the declared objects, while critics such as Foote described his control as despotic.",
+  "william-booth.interpretation.moment.2":
+    "This is consistent with a centralised, personally led organisation that accepted outside scrutiny of its accounts under public pressure.",
+  "william-booth.turning_point.1":
+    "In 1861 Booth left the Methodist New Connexion, where he had not been employed as he wished in travelling evangelisation, and in the DNB's words broke with Methodism rather than submit to its authority, becoming an independent revivalist who started the East London mission in 1865.",
+  "william-booth.interpretation.turning_point.1":
+    "This is consistent with preferring an independent mission over remaining inside a body that constrained how he preached.",
+  /* ---------------------------------------------------------- yuan-longping (Roster56) */
+  "yuan-longping.achievement.1":
+    "Developed hybrid rice by using male sterility to produce hybrid seed in a self-pollinating crop, against the view that rice shows no significant hybrid vigour; with colleagues, including his assistant Li Bihu who found the key wild male-sterile plant, he brought hybrids to wide use in China by 1976 at yields 20-30 percent higher.",
+  "yuan-longping.achievement.2":
+    "Led China's national cooperative research on hybrid rice and later proposed and led the two-line and super-hybrid rice programmes that extended the technology.",
+  "yuan-longping.achievement.3":
+    "Shared hybrid rice techniques and breeding materials with scientists abroad, with training for some 14,000 people from over 80 countries, and received the 2004 Wolf Prize in Agriculture.",
+  "yuan-longping.moment.1":
+    "In 1964 he began research on hybrid rice and published 'Male Sterility in Rice', proposing male sterility as the way to use hybrid vigour in a crop where hand emasculation is impractical, despite the prevailing view that rice showed no significant heterosis.",
+  "yuan-longping.interpretation.moment.1":
+    "This is consistent with a researcher willing to work against the prevailing view of his field on the strength of his own reasoning.",
+  "yuan-longping.moment.2":
+    "In 2012 he set a goal of 15 tonnes of super-hybrid rice per hectare by 2015; critics said the record plots cost far more than a farmer could spend and that the rice resisted disease poorly, while his research centre replied that yield was its assigned focus and the plots were experimental.",
+  "yuan-longping.interpretation.moment.2":
+    "This is consistent with a strong drive to push yield records, whose practical value for farmers was disputed.",
+  "yuan-longping.turning_point.1":
+    "At the end of 1970 his assistant Li Bihu found a wild male-sterile rice plant in Hainan that Yuan named 'YeBai'; from it the first male-sterile and maintainer lines were produced in 1972, the restorer line followed in 1973, and hybrid rice was in widespread production by 1976.",
+  "yuan-longping.interpretation.turning_point.1":
+    "This is consistent with a long-running programme reaching practical scale once a key plant was found and a team built the full breeding system.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -18459,6 +18922,469 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1998년 실크로드를 시작하면서 독주와 실내악 연주에서 여러 전통의 음악가들을 모아 함께 작품을 만들고 위촉하는 활동으로 영역을 넓혔다.",
   "yo-yo-ma.interpretation.turning_point.1":
     "이는 독주자로서의 경력을 넘어 장기 프로젝트를 시작하고 이끄는 주도성과 부합한다.",
+  /* ---------------------------------------------------------- alexander-pushkin (Roster56) */
+  "alexander-pushkin.achievement.1":
+    "그는 1823년에 쓰기 시작해 1833년에 전체가 출간된 운문 소설 『예브게니 오네긴』을 썼으며, 이를 위해 새로운 연 형식을 고안했다.",
+  "alexander-pushkin.achievement.2":
+    "그는 현대 러시아 문학의 창시자로 평가받는데, 유럽의 전통과 러시아 민담을 바탕으로 현대 러시아 문학어의 토대를 마련하는 데 기여했다.",
+  "alexander-pushkin.achievement.3":
+    "서정시와 풍자적 서사시 『루슬란과 류드밀라』(1820) 외에도 희곡 『보리스 고두노프』, 『벨킨 이야기』, 『작은 비극들』을 썼다.",
+  "alexander-pushkin.moment.1":
+    "1830년 가을 콜레라 격리로 볼디노 영지에 약 석 달 머물며 『예브게니 오네긴』의 마지막 장들을 끝내고 『벨킨 이야기』와 서른 편이 넘는 시를 썼다.",
+  "alexander-pushkin.interpretation.moment.1":
+    "이는 방해받지 않을 때 집중적이고 빠르게 작업하는 능력과 부합한다.",
+  "alexander-pushkin.turning_point.1":
+    "1830년 볼디노에서 그는 예전에 싫어하던 산문으로 눈을 돌렸고, 『벨킨 이야기』는 그의 글쓰기에 새로운 갈래를 열었다.",
+  "alexander-pushkin.interpretation.turning_point.1":
+    "이는 이전에 피하던 형식을 기꺼이 시도하는 태도와 부합한다.",
+  /* ---------------------------------------------------------- bertrand-piccard (Roster56) */
+  "bertrand-piccard.achievement.1":
+    "1999년 3월 그는 브라이언 존스와 함께 브라이틀링 오비터 3호를 몰아 약 20일 만에 세계를 한 바퀴 도는 최초의 무착륙 기구 비행을 이루었는데, 이에 앞서 1997년과 1998년에 두 차례 시도에 실패한 바 있다.",
+  "bertrand-piccard.achievement.2":
+    "그는 안드레 보르슈베르크와 함께 솔라 임펄스를 공동 설립했고, 두 사람이 번갈아 조종한 솔라 임펄스 2호는 2015~2016년에 액체 연료 없이 세계를 일주한 최초의 비행기가 되었다.",
+  "bertrand-piccard.achievement.3":
+    "그는 솔라 임펄스를 청정 기술을 보여 주는 계기로 삼았고, 이후 환경을 보호하는 기술적 해법을 찾는 '효과적 해법을 위한 세계 연합'에 힘을 쏟았다.",
+  "bertrand-piccard.moment.1":
+    "2015년 솔라 임펄스 2호의 태평양 횡단 중 자동 조종 경보 장치가 고장 나자, 엔지니어들이 중단을 촉구했지만 피카르는 계속 가야 한다고 강하게 주장했고, 조종 중이던 보르슈베르크도 계속하는 쪽이었다.",
+  "bertrand-piccard.interpretation.moment.1":
+    "이는 높은 위험 감수 성향과 기술진에 맞서 자기 입장을 고수하는 태도와 부합한다.",
+  "bertrand-piccard.moment.2":
+    "1999년 비행을 앞두고 팀은 프로판 용기 네 개를 추가했고, 두 차례의 이전 시도가 계획을 다듬은 끝에 기구는 연료가 4분의 1도 남지 않은 상태로 착륙했다.",
+  "bertrand-piccard.interpretation.moment.2":
+    "이는 이전의 실패에서 배워 계획을 조정하는 태도와 부합한다.",
+  "bertrand-piccard.turning_point.1":
+    "2003년 피카르와 보르슈베르크는 솔라 임펄스를 시작했고, 이 프로젝트는 2010년 첫 야간 비행까지 7년이 걸렸으며 전체로는 약 15년간 이어졌다.",
+  "bertrand-piccard.interpretation.turning_point.1":
+    "이는 기록 도전 모험에서 청정 기술을 목표로 한 장기 협업 프로젝트로 옮겨 간 흐름과 부합한다.",
+  /* ---------------------------------------------------------- billy-graham (Roster56) */
+  "billy-graham.achievement.1":
+    "1949년 로스앤젤레스 천막 집회로 전국적 명성을 얻었고, 이후 약 60년 동안 미국과 해외에서 전도 집회를 이끌어 2005년 뉴욕 퀸스 집회로 공개 활동을 마쳤다.",
+  "billy-graham.achievement.2":
+    "1950년에 세운 복음전도협회를 통해 '결단의 시간' 라디오 프로그램과 이후 텔레비전, 영화, 위성 중계로 더 넓은 청중에게 다가갔다.",
+  "billy-graham.achievement.3":
+    "1953년 채터누가 집회에서 흑백 좌석을 가른 줄을 직접 걷어냈고, 1957년 주류 교단과 협력해 뉴욕 집회를 이끌어 근본주의 비판자들의 반발을 샀다.",
+  "billy-graham.moment.1":
+    "크리스천 히스토리에 따르면 1953년 채터누가 집회의 한 모임 전에 그레이엄은 주최 위원회가 관행을 유지하자 흑백 구역을 가른 줄을 직접 걷어냈다.",
+  "billy-graham.interpretation.moment.1":
+    "이는 이전의 망설임 끝에 입장을 바꾸고 그것을 공개적으로 실행에 옮긴 모습과 일치한다.",
+  "billy-graham.moment.2":
+    "1957년 그레이엄은 뉴욕 개신교협의회의 초청을 받아들이고 마틴 루서 킹 목사를 집회 기도에 초청했으며, 존 R. 라이스와 밥 존스 시니어 같은 근본주의자들이 반대했다.",
+  "billy-graham.interpretation.moment.2":
+    "이는 교파를 넘어 협력하기 위해 이전 동료들의 비판을 감수한 모습과 일치한다.",
+  "billy-graham.turning_point.1":
+    "1940년대 후반 동료 전도자 찰스 템플턴이 신학교 진학을 권하자, 그레이엄은 1949년 지적 의문을 접어 두고 복음을 전하기로 결심했고 곧 로스앤젤레스 집회로 전국의 주목을 받았다.",
+  "billy-graham.interpretation.turning_point.1":
+    "이는 추가 학업보다 설교에 전념하기로 선택한 모습과 일치한다.",
+  /* ---------------------------------------------------------- chimamanda-ngozi-adichie (Roster56) */
+  "chimamanda-ngozi-adichie.achievement.1":
+    "데뷔 소설 「보라색 히비스커스」는 영연방 작가상과 허스턴/라이트 레거시상을 받았고, 볼티모어 선은 이를 최근 몇 년간 아프리카에서 나온 최고의 소설 중 하나라고 평했다.",
+  "chimamanda-ngozi-adichie.achievement.2":
+    "비아프라 전쟁을 다룬 소설 「노란 해의 반쪽」은 2007년 오렌지상(현 여성소설상)을 받았고, 이후 이 상의 두 번째 10년 수상작 가운데 '베스트 오브 더 베스트'로 선정되었다.",
+  "chimamanda-ngozi-adichie.achievement.3":
+    "미국에서 지낸 나이지리아 여성을 그린 「아메리카나」는 전미도서비평가협회상을 받았고 2013년 뉴욕타임스 올해의 책 10권에 뽑혔다. 그는 맥아더 펠로이며 2017년 「디어 이제아웨레」를 펴냈다.",
+  "chimamanda-ngozi-adichie.moment.1":
+    "「노란 해의 반쪽」을 쓰는 동안 그는 쓸 수 있는 양보다 많은 자료와 사진을 곁에 두었고, 질문에 대한 아버지의 대답에도 의지했다.",
+  "chimamanda-ngozi-adichie.interpretation.moment.1":
+    "이는 역사적 주제를 쓰기 전에 철저히 준비하는 태도와 일치한다.",
+  "chimamanda-ngozi-adichie.moment.2":
+    "2007년 그는 나이지리아에서 무료 창작 워크숍을 열어 백 명이 넘는 응모자 중 서른 명을 뽑았고, 그가 진행하는 파라피나 재단의 10일 연례 워크숍은 2016년에도 공고되었다.",
+  "chimamanda-ngozi-adichie.interpretation.moment.2":
+    "이는 다른 작가들을 지원하려는 꾸준한 노력과 일치한다.",
+  "chimamanda-ngozi-adichie.turning_point.1":
+    "비아프라 전쟁 소설 이후 그는 「아메리카나」에서 동시대 주제로 옮겨, 전쟁이나 가난을 피해 떠나는 이주가 아니라 선택을 찾아 떠나는 중산층의 이주를 쓰고 싶었다고 말했다.",
+  "chimamanda-ngozi-adichie.interpretation.turning_point.1":
+    "이는 성공한 주제를 되풀이하기보다 작가로서 새로운 주제에 도전하는 태도와 일치한다.",
+  /* ---------------------------------------------------------- clara-barton (Roster56) */
+  "clara-barton.achievement.1":
+    "남북전쟁이 시작되자 북군 병사들을 위한 보급품을 모아 전선으로 나르고 전선 가까이에서 부상병을 간호했으며, 1864년에는 제임스군 간호 감독관으로 임명되었다.",
+  "clara-barton.achievement.2":
+    "1865년 링컨의 허락을 얻어 실종 병사를 찾는 사무소를 세웠으며, 적십자사는 이 사무소가 2만 명이 넘는 병사를 가족과 다시 이어 주었다고 기록한다.",
+  "clara-barton.achievement.3":
+    "1881년 미국 적십자사를 창립해 1904년까지 이끌었으며, 그녀가 쓴 '미국 수정안'은 적십자의 구호를 전쟁에서 홍수·기근 같은 평시 재난으로 넓혔다.",
+  "clara-barton.moment.1":
+    "적십자 회장으로서 그녀는 모든 결정을 직접 내리고 모든 자금을 직접 지출한 것으로 전해지며, 충직한 직원들조차 사석에서 '여왕'이라 불렀다. 1904년 집행위원회 구성원들은 권위주의를 이유로 비판하며 그녀를 사임으로 몰아갔다.",
+  "clara-barton.interpretation.moment.1":
+    "이는 동료들과 권한을 나누는 데 어려움이 있었던 모습과 부합한다.",
+  "clara-barton.moment.2":
+    "1873년 유럽에서 돌아온 뒤 그녀는 팸플릿, 강연, 헤이스 대통령과의 면담으로 수년간 활동했고, 1881년 미국 적십자사가 창립되고 1882년 제네바 협약에 가입했다.",
+  "clara-barton.interpretation.moment.2":
+    "이는 하나의 장기 목표를 향해 꾸준히 노력한 모습과 부합한다.",
+  "clara-barton.turning_point.1":
+    "1861년 남북전쟁이 시작되자 그녀는 특허청 일을 그만두고 북군 병사들을 위한 보급품을 모아 전하기 시작했으며, 이는 40년 넘게 이어진 구호 활동의 출발점이 되었다.",
+  "clara-barton.interpretation.turning_point.1":
+    "이는 사무직을 떠나 스스로 구호 활동에 나선 주도적인 면과 부합한다.",
+  /* ---------------------------------------------------------- edvard-grieg (Roster56) */
+  "edvard-grieg.achievement.1":
+    "그는 입센의 요청으로 「페르 귄트」 부수음악을 1875년에 완성했고 1876년 2월 크리스티아니아에서 초연되었다. 이후 여기서 관현악 모음곡 작품 46(1888)과 작품 55(1893)를 펴냈다.",
+  "edvard-grieg.achievement.2":
+    "그의 피아노 협주곡 가단조는 1868년 작품으로, 1869년 리스트가 호의적으로 평했고 그리그는 이후 30년 동안 계속 고쳤다.",
+  "edvard-grieg.achievement.3":
+    "그는 1867년부터 1901년까지 열 권에 걸쳐 노르웨이 민속 어법을 바탕으로 한 피아노 서정 소품 66곡과 약 140곡의 노래를 썼다.",
+  "edvard-grieg.moment.1":
+    "그는 초기 교향곡의 공개 연주를 금했다. 베르겐 도서관은 이 악보에 '결코 연주해서는 안 됨'이라고 적혀 있다고 기록하며, 이 곡은 1981년에야 다시 연주되었다.",
+  "edvard-grieg.interpretation.moment.1":
+    "이는 자신의 초기 작품에 엄격한 기준을 적용한 태도와 일치한다.",
+  "edvard-grieg.moment.2":
+    "1898년 베르겐 음악제에서 그는 현지 오케스트라 대신 암스테르담 콘세르트헤바우 오케스트라를 불렀고 조직위원회는 사임했다. 도서관은 이 일이 훗날 베르겐 전문 오케스트라의 계기가 되었다고 설명한다.",
+  "edvard-grieg.interpretation.moment.2":
+    "이는 연주 수준을 지역의 기존 관행보다 앞세운 태도와 일치한다.",
+  "edvard-grieg.turning_point.1":
+    "1869년 리스트가 피아노 협주곡에 호의적으로 반응했고 나중에 바이마르에서 초견으로 연주했는데, 이 전기는 그것이 그리그의 자신감을 높였다고 설명한다.",
+  "edvard-grieg.interpretation.turning_point.1":
+    "이는 민속적 색채의 양식이 경력 초기에 국제적 청중을 얻은 것과 일치한다.",
+  /* ---------------------------------------------------------- fernando-botero (Roster56) */
+  "fernando-botero.achievement.1":
+    "1956년 멕시코에서 만돌린 정물화를 그리던 중 형태의 부피를 키우는 방법을 찾았고, 이것이 '보테리스모'라 불리는 풍만한 양식의 바탕이 되었다. 뉴욕현대미술관은 1961년 그의 「열두 살의 모나리자」를 사들였지만, 비평가들은 오랫동안 이 양식을 두고 논쟁했다.",
+  "fernando-botero.achievement.2":
+    "1970년대부터 풍만한 인물과 동물, 손을 본뜬 대형 청동 조각을 만들었고, 1993년 샹젤리제 전시와 뉴욕 파크 애비뉴 등 도심 곳곳에 놓였다.",
+  "fernando-botero.achievement.3":
+    "2000년 보고타 보테로 미술관을 위해 공화국은행에, 메데인 안티오키아 미술관에 작품을 기증했고 메데인 보테로 광장에는 그의 조각이 놓여 있다. 2004~05년 아부 그라이브 연작은 캘리포니아대 버클리 도서관에 기증했다.",
+  "fernando-botero.moment.1":
+    "2004년 시모어 허시의 아부 그라이브 보도를 읽은 뒤 약 14개월 동안 수용소 학대를 그린 회화와 소묘를 작업했고, 여러 미국 미술관이 전시를 거절한 끝에 2007년 캘리포니아대 버클리가 미국 첫 전시를 열었다.",
+  "fernando-botero.interpretation.moment.1":
+    "이는 판매 계획 없이 민감한 주제를 다루는 직업적·평판상의 위험을 감수하려는 태도와 부합한다.",
+  "fernando-botero.moment.2":
+    "로잘린드 크라우스와 아서 단토 같은 평론가들은 그의 작업을 일축했고, 그는 1985년 인터뷰에서 1972년 전시 이후 뉴욕 언론이 침묵했다고 말했다. 그럼에도 같은 구상 언어로 계속 작업했으며 가디언에 따르면 80대에도 하루 열 시간씩 일했다.",
+  "fernando-botero.interpretation.moment.2":
+    "이는 오랜 비평계의 외면 속에서도 택한 표현 언어를 고수한 끈기와 부합한다.",
+  "fernando-botero.turning_point.1":
+    "1956년 멕시코로 옮긴 그는 만돌린 정물화를 그리다가 형태의 부피를 키울 수 있음을 발견했고, 과장된 비례는 그의 대표 양식의 바탕이 되었다.",
+  "fernando-botero.interpretation.turning_point.1":
+    "이는 이후 작업의 방향을 정한 출발점이었음과 부합한다.",
+  /* ---------------------------------------------------------- friedrich-frobel (Roster56) */
+  "friedrich-frobel.achievement.1":
+    "1837년 블랑켄부르크에 유아 학교를 열고 이를 훗날 '아이들의 정원'을 뜻하는 킨더가르텐(유치원)이라 불렀으며, 1842년부터 이곳에서 여성 유치원 교사 양성 과정이 열렸다.",
+  "friedrich-frobel.achievement.2":
+    "공, 블록, 도형 같은 놀이 교구와 노래·놀이로 이루어진 '은물'과 '작업'을 고안해, 자발적 활동과 놀이를 통해 어린아이를 가르치는 방법을 만들었다.",
+  "friedrich-frobel.achievement.3":
+    "튀링겐의 카일하우에 학교를 세우고 『인간의 교육』(1826)에 자신의 원리를 정리했으며, 이 책을 통해 그의 사상은 훗날 영국과 미국 등지로 퍼졌다.",
+  "friedrich-frobel.moment.1":
+    "그는 여성도 어린아이의 교사로 양성되어야 한다고 주장했고, 1847년 남성만 모인 회의에서 조롱을 받았음에도 이 생각을 밀고 나갔다. 블랑켄부르크에서는 이미 1842년부터 여성 양성 과정이 시작되어 있었다.",
+  "friedrich-frobel.interpretation.moment.1":
+    "이는 지배적 견해에 맞서 관례에서 벗어난 입장을 고수한 모습과 부합한다.",
+  "friedrich-frobel.moment.2":
+    "1816년 그는 스톡홀름의 광물학 교수직 제안을 거절하고, 아이들을 가르치는 자신의 구상을 시험해 볼 학교를 직접 세웠다고 전해진다.",
+  "friedrich-frobel.interpretation.moment.2":
+    "이는 안정적인 학계의 길을 버리고 불확실한 교육 사업에 나선 모습과 부합한다.",
+  "friedrich-frobel.turning_point.1":
+    "카일하우와 스위스에서 나이가 더 많은 학생을 위한 학교를 운영한 뒤, 1830년대 중반 독일로 돌아와 취학 전 아동에게 전념하며 교육용 놀이 교구를 설계하고 1837년 블랑켄부르크 유아 학교를 열었다.",
+  "friedrich-frobel.interpretation.turning_point.1":
+    "이는 유아기를 교육의 핵심 단계로 판단하자 노력을 그쪽으로 돌린 모습과 부합한다.",
+  /* ---------------------------------------------------------- guido-van-rossum (Roster56) */
+  "guido-van-rossum.achievement.1":
+    "1991년 처음 공개된 프로그래밍 언어 파이썬을 만들었다. 쉽고 직관적이며 오픈소스이고 평이한 영어처럼 읽히는 것을 목표로 했고, 컴퓨터역사박물관은 머신러닝에서 교육까지 폭넓게 쓰인다고 설명한다.",
+  "guido-van-rossum.achievement.2":
+    "커뮤니티가 붙여 준 '자비로운 종신 독재자(BDFL)'라는 직함으로 파이썬의 개발과 커뮤니티를 이끌며 언어를 둘러싼 분쟁을 조정했다. 컴퓨터역사박물관은 파이썬의 창조와 발전, 커뮤니티 리더십을 이유로 그를 2018년 펠로로 선정했다.",
+  "guido-van-rossum.achievement.3":
+    "PEP 3000에서 파이썬 2와의 하위 호환성을 깨는 파이썬 3의 추진 방침을 밝혔다. 파이썬 소프트웨어 재단은 많은 사용자가 업그레이드하지 않았고 파이썬 2 지원이 2020년 1월 1일에야 끝났다고 설명한다.",
+  "guido-van-rossum.moment.1":
+    "2018년 파이썬 언어 서밋에서 그는 PEP 572 논쟁이 여러 메일링 리스트 글타래로 번지는 동안, 자신은 대체로 갈등을 피하는 편이며 BDFL 권한으로 토론을 끊고 싶지 않다고 말했다.",
+  "guido-van-rossum.interpretation.moment.1":
+    "이는 단호한 권한 행사보다 논의가 이어지도록 두는 쪽을 택한 지도자의 모습과 일치하며, 동료들도 이 점을 문제 삼았다.",
+  "guido-van-rossum.moment.2":
+    "2018년 7월 그는 핵심 개발자들에게 BDFL에서 물러나며 후계자를 지명하지 않겠다고 알리고, PEP 결정 방식과 핵심 개발자 영입 방식을 그들이 정하도록 맡겼다. 커뮤니티는 이후 5인 운영위원회 모델을 채택했다.",
+  "guido-van-rossum.interpretation.moment.2":
+    "이는 후계자를 지목하는 대신 프로젝트 의사결정을 더 넓은 팀에 넘기려는 태도와 일치한다.",
+  "guido-van-rossum.turning_point.1":
+    "PEP 3000에서 그는 하위 호환성을 깨는 파이썬 3.0을 추진하기로 하면서, 한동안 파이썬 2.x 릴리스도 병행될 것으로 내다보았다.",
+  "guido-van-rossum.interpretation.turning_point.1":
+    "이는 언어의 장기 방향을 위해 비용이 크고 논란이 있는 호환성 단절을 감수한 태도와 일치한다.",
+  /* ---------------------------------------------------------- haile-gebrselassie (Roster56) */
+  "haile-gebrselassie.achievement.1":
+    "그는 1996년 애틀랜타와 2000년 시드니 올림픽 1만 미터에서 우승했고, 1993년, 1995년, 1997년, 1999년에는 세계선수권 챔피언이 되었다.",
+  "haile-gebrselassie.achievement.2":
+    "그는 2000미터부터 마라톤까지 공인·비공인 세계기록을 27개 세웠고, 2008년 베를린에서 세운 2시간 3분 59초는 2011년까지 기록으로 남았다.",
+  "haile-gebrselassie.achievement.3":
+    "2004년 올림픽 1만 미터에서 5위를 한 뒤 그는 로드 레이스로 중심을 옮겼고, 2006년부터 2009년까지 베를린 마라톤에서 4년 연속 우승했다.",
+  "haile-gebrselassie.moment.1":
+    "2000년 시드니 1만 미터에서 그와 케냐의 폴 테르가트는 나머지 선수들을 따돌렸고, 그는 마지막 걸음에서야 테르가트를 앞질렀다. 4년 전 애틀랜타에서는 6미터 차이로 같은 라이벌을 꺾었다.",
+  "haile-gebrselassie.interpretation.moment.1":
+    "이는 접전에서 끝까지 버티며 이기는 경쟁자의 모습과 부합한다.",
+  "haile-gebrselassie.moment.2":
+    "2010년 11월 그는 뉴욕 마라톤을 중도 포기하고 은퇴하겠다고 밝혔지만, 이듬해 4월 경쟁 무대로 돌아왔고 2015년 5월에 공식 은퇴했다.",
+  "haile-gebrselassie.interpretation.moment.2":
+    "이는 처음 밝힌 은퇴 시점에서 선수 생활을 끝내기를 꺼리는 태도와 부합한다.",
+  "haile-gebrselassie.turning_point.1":
+    "2004년 아테네 올림픽 1만 미터에서 5위를 한 뒤 그는 로드 레이스를 주력으로 삼았고, 2007년과 2008년 베를린에서 마라톤 세계기록을 세웠다.",
+  "haile-gebrselassie.interpretation.turning_point.1":
+    "이는 트랙 경력이 정점을 지났을 때 종목을 바꾸는 유연함과 부합한다.",
+  /* ---------------------------------------------------------- hideki-yukawa (Roster56) */
+  "hideki-yukawa.achievement.1":
+    "1935년 그는 원자핵을 묶는 힘이 새로운 무거운 입자의 교환에서 나온다고 제안하고 그 질량을 전자의 약 200배로 추정했으며, 이 입자는 훗날 중간자라 불리게 되었다.",
+  "hideki-yukawa.achievement.2":
+    "1937년 예측된 질량에 가까운 입자가 우주선에서 발견되었고 1947년에는 파이온이 확인되었으며, 그는 일본인 물리학자로서 처음으로 1949년 노벨 물리학상을 받았다.",
+  "hideki-yukawa.achievement.3":
+    "사카타, 다케타니, 고바야시와 함께 중간자 이론을 발전시켰고, 1953년부터 교토대학 기초물리학연구소 소장을 지내며 학술지 《Progress of Theoretical Physics》를 편집했다.",
+  "hideki-yukawa.moment.1":
+    "1937년 1월 그는 우주선에서 관측된 이상한 궤적이 중간자일 수 있다는 편지를 《네이처》에 보냈으나 거절당했고, 같은 해 7월 같은 내용을 일본 학회지에 발표했다.",
+  "hideki-yukawa.interpretation.moment.1":
+    "이는 좌절 뒤에도 아이디어를 포기하지 않고 밀고 나가는 태도와 부합한다.",
+  "hideki-yukawa.moment.2":
+    "1934년 탐과 이바넨코의 계산을 본 뒤 그는 핵력의 양자를 이미 알려진 입자들 가운데서 찾지 않기로 결심했고, 이것이 중간자 이론으로 이어졌다.",
+  "hideki-yukawa.interpretation.moment.2":
+    "이는 경쟁 접근법이 벽에 부딪히자 기존 전제를 수정하는 태도와 부합한다.",
+  "hideki-yukawa.turning_point.1":
+    "1935년 논문은 약 2년 동안 거의 주목받지 못하다가, 1937년 중간 질량 입자가 우주선에서 관측되면서 그는 국제적으로 알려졌다.",
+  "hideki-yukawa.interpretation.turning_point.1":
+    "이는 발표 직후가 아니라 실험적 확인 뒤에 인정이 찾아온 경력과 부합한다.",
+  /* ---------------------------------------------------------- hideo-kojima (Roster56) */
+  "hideo-kojima.achievement.1":
+    "그는 1987년 전투를 피하는 것을 중심에 둔 전쟁 게임 〈메탈 기어〉를 만들고 설계했으며, 이 작품은 스텔스 액션 장르의 확립에 기여한 것으로 평가받는다.",
+  "hideo-kojima.achievement.2":
+    "1998년 플레이스테이션용 〈메탈 기어 솔리드〉는 영화적인 컷신과 영화에서 영감을 얻은 서사로 그를 세계적으로 알린 작품이었고, 그는 2009년 게임 개발자 선택상 평생공로상을 받았다.",
+  "hideo-kojima.achievement.3":
+    "2015년 12월 그는 고지마 프로덕션을 독립 스튜디오로 다시 세웠고, 소니를 퍼블리싱 파트너로 삼아 2019년 〈데스 스트랜딩〉을 내놓았는데, 비평가들은 이 작품을 대담하면서도 호불호가 갈리는 게임으로 평가했다.",
+  "hideo-kojima.moment.1":
+    "회사가 아케이드풍 람보식 전쟁 게임을 요구했을 때 고지마는 반대했으며 전투를 피하는 전쟁 게임을 구상했다고 말하는데, 이것이 〈메탈 기어〉가 되었다.",
+  "hideo-kojima.interpretation.moment.1":
+    "이는 주어진 요구에 맞서 자기 아이디어에서 출발하려는 성향과 부합한다.",
+  "hideo-kojima.moment.2":
+    "배달과 비동기적 연결을 축으로 한 〈데스 스트랜딩〉의 오픈 월드는 비평가들의 평가를 갈라 6점에서 10점까지 점수가 나뉘었고, 독특하다는 평과 지루하다는 평이 함께 나왔다.",
+  "hideo-kojima.interpretation.moment.2":
+    "이는 호불호가 갈릴 것을 감수하고 비전형적인 게임 설계를 시도하는 태도와 부합한다.",
+  "hideo-kojima.turning_point.1":
+    "2015년 코나미가 〈사일런트 힐즈〉 프로젝트를 취소한 뒤 고지마는 회사를 떠나 고지마 프로덕션을 독립 스튜디오로 다시 세웠고, 2015년 12월에는 네 명으로 시작했다.",
+  "hideo-kojima.interpretation.turning_point.1":
+    "이는 회사 소속 개발에서 자신의 독립 스튜디오를 이끄는 쪽으로 옮겨 간 흐름과 부합한다.",
+  /* ---------------------------------------------------------- jagadish-chandra-bose (Roster56) */
+  "jagadish-chandra-bose.achievement.1":
+    "1895년 캘커타 프레지던시 칼리지에서 그는 벽을 통과하는 밀리미터파 전송을 시연했고, 코히러·송신기·안테나 등 여러 부품을 직접 제작했다. 이 업적은 IEEE 마일스톤으로 선정되었다.",
+  "jagadish-chandra-bose.achievement.2":
+    "물리학에서 식물생리학으로 옮겨 가 크레스코그래프 같은 정밀 기구로 식물의 생장과 반응을 기록했고, 생물과 무생물의 반응 사이에 뚜렷한 경계가 없다고 주장했다.",
+  "jagadish-chandra-bose.achievement.3":
+    "1917년 그는 캘커타에 연구 기관인 보스 연구소를 열었다.",
+  "jagadish-chandra-bose.moment.1":
+    "1894년 연구를 시작하기로 결심했을 때 실험실이 없었지만, 숙련되지 않은 양철공의 도움을 받아 약 석 달 만에 첫 장비를 만들었다.",
+  "jagadish-chandra-bose.interpretation.moment.1":
+    "이는 시설을 기다리지 않고 임시변통으로 일을 진척시키는 태도와 부합한다.",
+  "jagadish-chandra-bose.turning_point.1":
+    "1900~1903년경 금속 수신기가 근육처럼 '피로'와 회복을 보인다는 것을 발견한 뒤, 그는 전파 물리학에서 생체 조직, 그리고 식물 연구로 옮겨 갔다.",
+  "jagadish-chandra-bose.interpretation.turning_point.1":
+    "이는 이상 현상을 따라 학문 분야의 경계를 넘나드는 태도와 부합한다.",
+  /* ---------------------------------------------------------- kahlil-gibran (Roster56) */
+  "kahlil-gibran.achievement.1":
+    "1923년 크노프 출판사에서 나온 그의 『예언자』는 첫해 약 1,200부가 팔렸고 뉴욕타임스 서평도 받지 못했지만, 미국시인아카데미에 따르면 이후 1천만 부 넘게 팔렸다.",
+  "kahlil-gibran.achievement.2":
+    "1920년 설립된 뉴욕 펜 리그의 대표적 회원으로, 쉬운 언어와 자유시 같은 새로운 형식으로 아랍 문학을 진흥했다. 아랍어로 아홉 권, 영어로 여덟 권의 책을 냈다.",
+  "kahlil-gibran.achievement.3":
+    "700점이 넘는 회화와 소묘도 남겼다. 1904년 보스턴에서 첫 소묘 전시를 열었고 1908년 파리에서 공부했으며, 뉴욕 드로잉 센터는 2023년 그의 소묘전을 열었다.",
+  "kahlil-gibran.moment.1":
+    "미국시인아카데미에 따르면 그는 1904년 아랍어 신문에 글을 발표하기 시작했고 같은 해 첫 소묘 전시도 열었으며, 이후 평생 아랍어와 영어로 글을 쓰고 그림을 그렸다.",
+  "kahlil-gibran.interpretation.moment.1":
+    "이는 두 언어와 두 예술 분야를 동시에 오가며 작업하는 습관과 부합한다.",
+  "kahlil-gibran.moment.2":
+    "1920년 결성된 펜 리그의 대표적 회원으로서, 전통적 제약 대신 쉬운 아랍어와 자유시, 상징적 형식을 쓰는 글쓰기에 참여했다.",
+  "kahlil-gibran.interpretation.moment.2":
+    "이는 뜻을 같이하는 작가들과 함께 아랍어 글쓰기의 새로운 형식을 시도하려는 의지와 부합한다.",
+  "kahlil-gibran.turning_point.1":
+    "1911년 뉴욕으로 옮겨 그곳에서 앨프리드 크노프를 만났고, 이후 그와 함께 『광인』(1918)과 『예언자』(1923)를 출간했다.",
+  "kahlil-gibran.interpretation.turning_point.1":
+    "이는 그의 대표 영어 작품으로 이어진 출판 관계를 마련한 이주와 부합한다.",
+  /* ---------------------------------------------------------- kalpana-chawla (Roster56) */
+  "kalpana-chawla.achievement.1":
+    "1994년 12월 NASA에 선발된 그는 1997년 STS-87과 2003년 STS-107로 컬럼비아호에 두 번 탑승해 우주에서 총 30일 14시간 54분을 보냈다. 텍사스대학교 알링턴 캠퍼스는 그를 우주를 비행한 최초의 인도 출신 여성이라고 소개한다.",
+  "kalpana-chawla.achievement.2":
+    "STS-87에서는 미세중력 실험과 태양 관측 비행의 임무전문가이자 주 로봇팔 조작자였다. 16일간 약 80건의 실험을 수행한 전용 과학 임무 STS-107에서는 연소 모듈 등의 실험을 맡았고 레드팀으로서 컬럼비아호 기동을 도왔다.",
+  "kalpana-chawla.achievement.3":
+    "우주비행사가 되기 전 그는 1988년부터 NASA 에임스 연구센터에서 동력 양력 공기역학을 연구했고, 1993년부터는 오버셋 메소즈의 부사장 겸 연구 과학자로 일했다. 1988년에 항공우주공학 박사 학위를 받았다.",
+  "kalpana-chawla.moment.1":
+    "STS-107 비행 13일째에 진공 펌프 문제로 물안개 실험이 위태로워지자, 그는 지상팀이 마련한 수리를 하기 위해 휴식 시간을 내놓겠다고 자원했다.",
+  "kalpana-chawla.interpretation.moment.1":
+    "이는 실험이 위험에 처했을 때 추가 노력을 자원하는 태도와 부합한다.",
+  "kalpana-chawla.moment.2":
+    "1994년 그는 NASA 연구비 과제의 책임연구자로서 128노드와 208노드 병렬 컴퓨터에서 오버셋 격자 유동 해석기를 돌리는 연구를 이끌었다.",
+  "kalpana-chawla.interpretation.moment.2":
+    "이는 우주비행사가 되기 전부터 까다로운 기술 분석에 익숙했던 것과 부합한다.",
+  "kalpana-chawla.turning_point.1":
+    "1994년 12월 NASA가 그를 우주비행사 후보로 선발하면서 공기역학 연구자에서 우주비행사 훈련생이 되었고, 1996년 11월에는 STS-87의 주 로봇팔 조작자로 비행 임무를 맡았다.",
+  "kalpana-chawla.interpretation.turning_point.1":
+    "이는 오랫동안 쌓은 기술 역량을 우주비행으로 돌린 것과 부합한다.",
+  /* ---------------------------------------------------------- mario-molina (Roster56) */
+  "mario-molina.achievement.1":
+    "1974년 F. 셔우드 롤런드와 함께 『네이처』에 논문을 발표해, 성층권에 닿은 염화불화탄소(프레온)가 염소 원자를 내놓아 오존을 파괴한다는 것을 보였다.",
+  "mario-molina.achievement.2":
+    "1995년 롤런드, 파울 크뤼천과 함께 오존층 파괴에 관한 연구로 노벨 화학상을 공동 수상했다.",
+  "mario-molina.achievement.3":
+    "그의 연구는 오존층 파괴 물질에 관한 몬트리올 의정서를 뒷받침하는 데 기여했으며, 이후 극성층권 구름 화학과 도시 대기오염을 연구하고 2004년 멕시코시티에 에너지·환경 연구 센터를 세웠다.",
+  "mario-molina.moment.1":
+    "1973년 12월 롤런드와 몰리나는 대기 하층에서 프레온을 없애는 과정을 찾지 못한 채 계산의 허점을 찾으려 했으나 발견하지 못했고, 논문을 제출한 뒤 언론과 정책 입안자에게도 이 사실을 알렸다.",
+  "mario-molina.interpretation.moment.1":
+    "이는 결론을 내놓기 전에 꼼꼼히 검증하는 태도와 부합한다.",
+  "mario-molina.turning_point.1":
+    "1973년 가을 그는 버클리의 화학 레이저 연구를 떠나 어바인의 롤런드 연구실에 합류했고, 잘 알지 못하던 분야인 프레온의 대기 중 운명이라는 과제를 맡았다.",
+  "mario-molina.interpretation.turning_point.1":
+    "이는 도전적인 문제를 위해 낯선 분야에 뛰어드는 태도와 부합한다.",
+  /* ---------------------------------------------------------- morris-chang (Roster56) */
+  "morris-chang.achievement.1":
+    "대만 산업기술연구원을 이끌던 1987년 어떤 기업이든 이용할 수 있는 독립 반도체 파운드리인 TSMC를 설립했다. 컴퓨터역사박물관은 이 공로로 그를 2007년 펠로로 선정했다.",
+  "morris-chang.achievement.2":
+    "자체 칩을 설계하지 않고 고객과 경쟁하지 않는 제조 전문 '퓨어 플레이' 파운드리 모델을 고안했다. IEEE 스펙트럼은 이 모델 덕분에 신생 기업이 막대한 비용의 반도체 공장 없이도 칩을 설계할 수 있게 되었다고 설명한다.",
+  "morris-chang.achievement.3":
+    "1958년부터 1983년까지 텍사스 인스트루먼트에서 일하며 세계 반도체 사업 부문을 총괄하는 그룹 부사장까지 올랐고, 이후 제너럴 인스트루먼트를 거쳐 대만으로 옮겼다.",
+  "morris-chang.moment.1":
+    "IEEE 스펙트럼에 따르면, 1985년 산업기술연구원에서 그는 하위 2퍼센트 성과자를 수습 상태에 두는 평가 제도를 도입했고, 직원들은 입법위원들에게 항의 편지를 보냈다.",
+  "morris-chang.interpretation.moment.1":
+    "이는 직원들의 반발에도 인기 없는 변화를 밀어붙이는 태도와 일치한다.",
+  "morris-chang.moment.2":
+    "타이베이 타임스에 따르면, 2009년 5월 TV 연설에서 그는 TSMC 직원들에게 해고된 직원들을 다시 받아들이겠다고 밝히고, 해고의 근거가 된 인사평가를 잘못 처리한 점에 대해 사과했다.",
+  "morris-chang.interpretation.moment.2":
+    "이는 비판을 받은 결정을 공개적으로 되돌리는 태도와 일치한다.",
+  "morris-chang.turning_point.1":
+    "1983년 텍사스 인스트루먼트를, 1년 뒤 제너럴 인스트루먼트를 떠난 뒤, 그는 주변 거의 모두의 만류에도 1985년 대만 정부의 산업기술연구원 원장직 제안을 받아들였고, 이것이 TSMC 설립으로 이어졌다.",
+  "morris-chang.interpretation.turning_point.1":
+    "이는 좌절 이후 새로운 환경에서 불확실하고 부담이 큰 결정을 받아들이는 태도와 일치한다.",
+  /* ---------------------------------------------------------- mother-teresa (Roster56) */
+  "mother-teresa.achievement.1":
+    "1948년 콜카타의 로레토 수녀원 학교를 떠나 가장 가난한 이들 사이에서 일하기 시작했고, 1950년 교황청의 허가를 받아 사랑의 선교회를 세웠다.",
+  "mother-teresa.achievement.2":
+    "그녀의 수도회는 임종자의 집, 고아원, 이동 진료소, 나병 환자 센터를 운영했으며, 바티칸은 1997년까지 123개국에 약 610개의 시설이 있었다고 집계했다.",
+  "mother-teresa.achievement.3":
+    "1979년 노벨 평화상을 받았으나, 크리스토퍼 히친스와 2013년 몬트리올 대학 연구진 등은 일부 시설의 돌봄 수준과 수도회의 재정 운영에 의문을 제기했다.",
+  "mother-teresa.moment.1":
+    "1948년 짧은 의료 과정을 마친 뒤 그녀는 자금 없이 수녀원을 나와 빈민가 아이들을 위한 야외 학교를 시작했고, 곧 예전 제자들이 합류했다.",
+  "mother-teresa.interpretation.moment.1":
+    "이는 매우 적은 자원으로 일을 시작하고 다른 이들의 합류에 의지하는 방식과 부합한다.",
+  "mother-teresa.moment.2":
+    "1952년 그녀는 인도 관리들에게 임종자를 돌볼 장소를 요청해 버려진 사원 건물의 일부를 얻었고 이곳을 '니르말 흐리다이'라 이름 붙였다.",
+  "mother-teresa.interpretation.moment.2":
+    "이는 일에 필요한 것을 얻기 위해 먼저 당국에 나서는 주도적 태도와 부합한다.",
+  "mother-teresa.turning_point.1":
+    "1948년 약 2년의 기다림 끝에 허가를 받아 로레토의 교사 생활을 접고 콜카타 빈민가에서 일하기 시작했다.",
+  "mother-teresa.interpretation.turning_point.1":
+    "이는 안정된 자리를 내려놓고 불확실한 일을 택하는 태도와 부합한다.",
+  /* ---------------------------------------------------------- n-r-narayana-murthy (Roster56) */
+  "n-r-narayana-murthy.achievement.1":
+    "그는 1981년 여섯 명의 동료와 함께 벵갈루루에서 인포시스를 공동 창업했다. 시작 자본은 1만 루피였고, 2002년까지 20년 동안 최고경영자를 맡았다.",
+  "n-r-narayana-murthy.achievement.2":
+    "인포시스는 그의 지휘 아래 글로벌 딜리버리 모델을 발전시켰다. 프로젝트를 고객사 현장 작업과 인도 내 원격 개발센터 작업으로 나누는 방식이었고, 1998년부터 2001년까지 매출이 해마다 80퍼센트 넘게 늘었다.",
+  "n-r-narayana-murthy.achievement.3":
+    "1999년 3월 인포시스는 인도에 등록된 회사로는 처음으로 미국 증권거래소인 나스닥에 상장했고, 이를 계기로 예탁증서를 통한 직원 스톡옵션도 제공할 수 있게 되었다.",
+  "n-r-narayana-murthy.moment.1":
+    "1980년대에 그는 허가를 받으려고 델리의 정부 부처를 200번 넘게 찾아갔고, 회사는 첫 컴퓨터를 사는 데 필요한 허가를 받기까지 꼬박 1년을 기다렸다.",
+  "n-r-narayana-murthy.interpretation.moment.1":
+    "이는 더딘 인허가 제도를 견디는 끈기와 부합한다.",
+  "n-r-narayana-murthy.moment.2":
+    "2017년 그와 다른 창업자들은 경영진 보수, 전 재무책임자의 퇴직금, 파나야 인수를 두고 이사회에 문제를 제기했다. 이사회는 그의 캠페인이 잘못되었다고 했고, 최고경영자는 사임했으며, 이사회는 이후 재편되었다.",
+  "n-r-narayana-murthy.interpretation.moment.2":
+    "이는 자신이 세운 회사와 공개적 갈등을 이어가는 태도와 부합하며, 그것이 도움이 되었는지는 자료마다 엇갈린다.",
+  "n-r-narayana-murthy.turning_point.1":
+    "1989년 미국과의 첫 직접 데이터 회선이 깔리고 1990년대 초 인도가 규제를 풀면서, 인포시스의 초기 오프쇼어 실험은 경쟁력의 원천이 되는 모델로 바뀌었다.",
+  "n-r-narayana-murthy.interpretation.turning_point.1":
+    "이는 초기 구상을 붙들고 있다가 여건이 갖춰지자 상업적으로 실현하는 능력과 부합한다.",
+  /* ---------------------------------------------------------- oliver-wendell-holmes-jr (Roster56) */
+  "oliver-wendell-holmes-jr.achievement.1":
+    "1881년 『보통법』을 펴내 '법의 생명은 논리가 아니라 경험'이라고 주장하며, 법이 형식적 공리가 아니라 사회와 함께 발전한다고 보았다.",
+  "oliver-wendell-holmes-jr.achievement.2":
+    "매사추세츠 대법원에서 약 20년을 근무한 뒤 1902년부터 1932년까지 연방대법원에서 일했으며, 짧고 인용되는 의견과 선출된 입법부에 대한 존중으로 알려졌다.",
+  "oliver-wendell-holmes-jr.achievement.3":
+    "1919년 '명백하고 현존하는 위험' 기준을 밝힌 솅크 판결문과 1905년 로크너, 1919년 에이브럼스 반대의견을 썼으며, 후자에서 '사상의 자유 시장'을 강조했다.",
+  "oliver-wendell-holmes-jr.moment.1":
+    "로크너 반대의견에서 홈스는 이 사건이 나라가 공유하지 않는 경제 이론에 근거했으며, 자신의 동의 여부는 다수가 의견을 법에 담을 권리와 무관하다고 썼다.",
+  "oliver-wendell-holmes-jr.interpretation.moment.1":
+    "이는 개인적 선호가 아니라 재판 방식에 관한 원칙을 내세워 다수 의견에 반대한 모습과 일치한다.",
+  "oliver-wendell-holmes-jr.moment.2":
+    "코터는 홈스의 첫 서면 반대의견인 1904년 노던 시큐리티스 사건 반대의견이 그를 지명한 시어도어 루스벨트와의 관계를 영구히 소원하게 했다고 전한다.",
+  "oliver-wendell-holmes-jr.interpretation.moment.2":
+    "이는 자신을 지명한 대통령과의 관계를 잃더라도 반대의견을 낸 모습과 일치한다.",
+  "oliver-wendell-holmes-jr.turning_point.1":
+    "1882년 홈스는 막 얻은 하버드 법대 교수직을 교수진에 미리 알리지 않고 떠나 매사추세츠 대법원 판사직을 받아들였으며, 오예즈는 이를 학계 생활이 충분하지 않다고 느낀 데 연결한다.",
+  "oliver-wendell-holmes-jr.interpretation.turning_point.1":
+    "이는 학계 경력보다 재판 실무를 택한 모습과 일치한다.",
+  /* ---------------------------------------------------------- oswaldo-cruz (Roster56) */
+  "oswaldo-cruz.achievement.1":
+    "공중보건국장으로서 리우데자네이루의 황열병·페스트·천연두 퇴치 사업을 이끌었고, 모기 매개설에 따라 모기 번식지를 없애는 방역반을 운영했다. 황열병 환자는 1906년 39명에서 1908년 0명으로 줄었다.",
+  "oswaldo-cruz.achievement.2":
+    "1902년부터 마닝뇨스 혈청연구소를 이끌며 페스트 혈청 생산 기관을 백신 생산·연구·인력 양성의 중심으로 키웠고, 이 기관은 훗날 그의 이름을 딴 오스와우두 크루스 연구소와 피오크루스(Fiocruz)가 되었다.",
+  "oswaldo-cruz.achievement.3":
+    "리우의 위생 개선 성과로 1907년 베를린 국제위생·인구학회에서 금메달을 받았고, 이후 아마존과 마데이라-마모레 철도 지역의 탐사와 위생 사업을 이끌었다.",
+  "oswaldo-cruz.moment.1":
+    "1904년 11월 천연두 강제접종에 반대하는 소요가 절정에 달했을 때 크루스는 사직서를 냈지만, 로드리게스 알베스 대통령이 정책 유지를 원한다고 답해 위생 사업은 계속되었다.",
+  "oswaldo-cruz.interpretation.moment.1":
+    "이는 극심한 반발 속에서도 보건 조치를 이어간 전문가의 모습과 부합하지만, 정부의 지지가 큰 역할을 했다.",
+  "oswaldo-cruz.moment.2":
+    "황열병 퇴치를 위해 크루스는 리우를 10개 구역으로 나누고 방역반이 건물마다 점검하며 환자를 기록하게 했으며, 벌금·철거 명령과 설명 책자를 함께 사용했다. 다만 필요하다고 본 1,200명 대신 실제로는 85명만 확보했다.",
+  "oswaldo-cruz.interpretation.moment.2":
+    "이는 체계적이고 조직적인 보건 접근과 부합하지만, 강압적인 방식은 사회적 비용도 낳았다.",
+  "oswaldo-cruz.turning_point.1":
+    "1909년 크루스는 공중보건국장직에서 물러나 마닝뇨스 연구소에 전념했고, 이 기관은 그의 이름을 따 개칭되었다. 그는 이곳에서 내륙 지역의 보건 실태를 조사하는 탐사를 시작했다.",
+  "oswaldo-cruz.interpretation.turning_point.1":
+    "이는 도시 방역 사업의 관리에서 연구 역량 구축과 전국 보건 문제 조사로 무게를 옮긴 변화와 부합한다.",
+  /* ---------------------------------------------------------- ryuichi-sakamoto (Roster56) */
+  "ryuichi-sakamoto.achievement.1":
+    "그는 1978년 호소노 하루오미, 다카하시 유키히로와 함께 신시사이저와 컴퓨터, 디스코 비트를 쓰는 옐로 매직 오케스트라를 결성했다. 1979년 앨범 「Solid State Survivor」와 초기 샘플링을 적극 쓴 「Technodelic」 등을 낸 뒤 1983년 해체했다.",
+  "ryuichi-sakamoto.achievement.2":
+    "그는 직접 출연도 한 「메리 크리스마스 미스터 로렌스」(1983)의 음악을 맡았고, 1988년 시상식에서 데이비드 번, 충 수와 함께 「마지막 황제」로 아카데미 작곡상을 받았다. 이후 베르톨루치의 다른 영화와 「레버넌트」의 음악도 맡았다.",
+  "ryuichi-sakamoto.achievement.3":
+    "솔로와 협업 음반으로는 일렉트로 싱글 'Riot in Lagos'가 실린 「B-2 Unit」(1980), 카르스텐 니콜라이(알바 노토)와 만든 「insen」, 현장 녹음과 독특한 음원으로 만든 「async」(2017)가 있다.",
+  "ryuichi-sakamoto.moment.1":
+    "「async」 공연을 준비하며 그는 카르스텐 니콜라이와 필립 존슨의 글라스 하우스 안에서 유리에 접촉 마이크를 달고 연주했고, 이는 라이브 공연에서 유리판을 악기로 쓰는 것으로 이어졌다.",
+  "ryuichi-sakamoto.interpretation.moment.1":
+    "이는 특이한 사물과 장소를 음악의 재료로 삼으려는 태도와 일치한다.",
+  "ryuichi-sakamoto.moment.2":
+    "「마지막 황제」에서 그는 촬영 후 약 2주 안에 영화 절반의 음악을 써 달라는 요청을 받았다. 신시사이저 음악을 계획했지만 베르톨루치가 오케스트라의 웅장함을 원하자 이를 해냈다.",
+  "ryuichi-sakamoto.interpretation.moment.2":
+    "이는 감독의 요구에 맞춰 접근 방식을 빠르게 바꾸는 능력과 일치한다.",
+  "ryuichi-sakamoto.turning_point.1":
+    "옐로 매직 오케스트라로 이미 스타였던 그는 오시마 나기사의 「메리 크리스마스 미스터 로렌스」 주연 제의를 영화 음악도 맡는다는 조건으로 받아들였고, 이는 영화 작곡가로서의 경력을 열었다.",
+  "ryuichi-sakamoto.interpretation.turning_point.1":
+    "이는 자신의 조건으로 대중음악에서 다른 분야로 옮겨 가려는 태도와 일치한다.",
+  /* ---------------------------------------------------------- svante-arrhenius (Roster56) */
+  "svante-arrhenius.achievement.1":
+    "1884년 박사 논문에서 물에 녹은 염이 전하를 띤 이온으로 분리된다고 제안했으며, 이 이론은 웁살라 교수진에게는 인정받지 못했으나 10년이 넘는 논쟁 끝에 1903년 노벨 화학상을 안겨 주었다.",
+  "svante-arrhenius.achievement.2":
+    "1889년 온도가 반응 속도에 미치는 영향을 연구하여 에너지가 높은 활성화된 분자만 반응한다고 제안했으며, 이것이 활성화 에너지 개념과 그의 이름을 딴 방정식의 바탕이 되었다.",
+  "svante-arrhenius.achievement.3":
+    "1896년 대기 중 이산화탄소 변화가 지표 온도에 미치는 영향을 계산해 두 배 증가 시 5~6도 상승을 추정했으며, 동시대 학자들은 대체로 이를 받아들이지 않았으나 20세기 후반에 다시 주목받았다.",
+  "svante-arrhenius.moment.1":
+    "1884년 논문이 최하 합격 점수를 받자 그는 논문을 인쇄해 클라우지우스, 반트호프, 오스트발트에게 보냈고, 오스트발트는 그를 만나러 웁살라까지 찾아왔다.",
+  "svante-arrhenius.interpretation.moment.1":
+    "이는 학내의 냉담한 평가를 받은 뒤에도 외부의 판단을 구하며 밀고 나가는 태도와 부합한다.",
+  "svante-arrhenius.moment.2":
+    "그는 수십 년간 발터 네른스트의 노벨상에 이의를 제기했고 방법론을 두고 파울 에를리히와 다투었으며, 한 역사가는 그가 논쟁 속에서 오히려 힘을 얻는 것 같았다고 설명한다.",
+  "svante-arrhenius.interpretation.moment.2":
+    "이는 공개적인 학문적 갈등에 대한 높은 내성과 부합한다.",
+  "svante-arrhenius.turning_point.1":
+    "1905년 베를린의 교수직 제안을 거절하고 스톡홀름에 새로 생긴 노벨 물리화학연구소의 소장이 되었으며, 스웨덴 안팎의 연구자들이 그와 함께 일하러 왔다.",
+  "svante-arrhenius.interpretation.turning_point.1":
+    "이는 해외의 명망 높은 자리보다 자국의 독립적인 거점을 택하는 선택과 부합한다.",
+  /* ---------------------------------------------------------- william-booth (Roster56) */
+  "william-booth.achievement.1":
+    "1860년대 중반 아내 캐서린과 함께 런던 동부에 기독교 선교회를 세우고, 총사령관으로서 1878년 이를 구세군으로 개칭해 군대식 계급, 제복, 규율을 갖춘 조직으로 만들었다.",
+  "william-booth.achievement.2":
+    "구세군이 1880년 미국, 1881년 호주, 유럽 대륙과 인도로 퍼져 가는 동안 총사령관으로서 널리 순회하며 1912년 세상을 떠날 때까지 이끌었다.",
+  "william-booth.achievement.3":
+    "1890년 『가장 어두운 잉글랜드와 그 탈출구』를 펴내 도시·농장 식민지, 구제의 집, 빈민 은행과 변호사 등 열 가지 계획을 제시했고, 대중의 기부가 모여 계획의 상당 부분이 실행되었다.",
+  "william-booth.moment.1":
+    "베그비는 마일엔드 웨이스트에서 야유하는 화이트채플 군중에 둘러싸인 부스가 맞서 소리치고 찬송을 이끌어 소란을 잠재웠다는 목격자의 말을 인용한다.",
+  "william-booth.interpretation.moment.1":
+    "이는 적대적인 군중 속에서도 직접 설교하려는 태도와 일치하지만, 호의적인 회고 한 건에 의존한 기록이다.",
+  "william-booth.moment.2":
+    "베그비에 따르면 '가장 어두운 잉글랜드' 기금을 둘러싼 의혹 후 조사위원회가 1892년 12월 자금이 공표된 목적에만 쓰였다고 보고했으며, 푸트 같은 비판자는 그의 통제를 전제적이라 묘사했다.",
+  "william-booth.interpretation.moment.2":
+    "이는 공개적 압박 속에서 회계 조사를 받아들인, 개인이 중심이 되어 이끄는 중앙집권적 조직의 모습과 일치한다.",
+  "william-booth.turning_point.1":
+    "1861년 부스는 순회 전도에 뜻대로 쓰이지 못하던 감리교 신연합을 떠났고, 『영국인명사전』의 표현대로 교단의 권위에 복종하기보다 결별해 독립 부흥사가 되어 1865년 런던 동부 선교를 시작했다.",
+  "william-booth.interpretation.turning_point.1":
+    "이는 설교 방식을 제약하는 교단에 남기보다 독립적인 선교를 택한 모습과 일치한다.",
+  /* ---------------------------------------------------------- yuan-longping (Roster56) */
+  "yuan-longping.achievement.1":
+    "벼는 자가수분 작물이라 뚜렷한 잡종강세가 없다는 통념에 맞서 웅성불임을 이용해 잡종 종자를 만드는 방법으로 교잡 벼를 개발했다. 핵심 야생 웅성불임 개체를 찾은 조수 리비후 등 동료들과 함께 1976년까지 중국에서 널리 보급했고 수량은 20~30% 높았다.",
+  "yuan-longping.achievement.2":
+    "중국의 교잡 벼 국가 공동연구를 이끌었고, 이후 이 기술을 확장한 양계법 및 슈퍼 교잡 벼 사업을 제안하고 주도했다.",
+  "yuan-longping.achievement.3":
+    "교잡 벼 기술과 육종 재료를 해외 과학자들과 나누어 80여 개국 약 1만 4천 명의 교육으로 이어졌고, 2004년 울프 농업상을 받았다.",
+  "yuan-longping.moment.1":
+    "1964년 그는 교잡 벼 연구를 시작해 논문 '벼의 웅성불임'을 발표했다. 손으로 수술을 제거하기 어려운 작물에서 잡종강세를 쓰려면 웅성불임을 이용해야 한다고 제안했는데, 당시에는 벼에 뚜렷한 잡종강세가 없다는 견해가 지배적이었다.",
+  "yuan-longping.interpretation.moment.1":
+    "이는 자신의 추론을 믿고 분야의 통념에 맞서 연구하는 태도와 부합한다.",
+  "yuan-longping.moment.2":
+    "2012년 그는 2015년까지 슈퍼 교잡 벼 헥타르당 15톤 수확이라는 목표를 세웠다. 비판자들은 기록 달성 시험포의 비용이 농민이 감당할 수준이 아니고 병충해 저항성이 약하다고 지적했고, 연구센터는 수량이 맡은 연구 분야이며 시험포용 목표라고 답했다.",
+  "yuan-longping.interpretation.moment.2":
+    "이는 수량 기록을 끝까지 끌어올리려는 강한 의욕과 부합하지만, 농민에게 주는 실질적 가치는 논란이 되었다.",
+  "yuan-longping.turning_point.1":
+    "1970년 말 조수 리비후가 하이난에서 야생 웅성불임 벼를 찾았고 위안룽핑이 '예바이'라고 이름 붙였다. 이를 바탕으로 1972년 첫 웅성불임계와 유지계가 만들어지고 1973년 회복계가 확보되어 1976년에는 교잡 벼가 널리 생산되었다.",
+  "yuan-longping.interpretation.turning_point.1":
+    "이는 핵심 개체가 발견되고 팀이 전체 육종 체계를 완성하면서 오래 이어온 연구가 실용 규모에 이른 전환과 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {
