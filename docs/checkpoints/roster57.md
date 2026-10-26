@@ -323,3 +323,19 @@ recompression, scoring-lock batching, eligible-only quiz index, Directory
 virtualization, generated manifest, shared count refactor, wiring-script check-in).
 No benchmark, no scale checkpoint, no eligibility rescue, no matching diagnostic.
 Legacy remains paused (22 / 0); Legacy Batch 6 not started; Roster58 not started.
+
+## Post-commit scoring lock
+
+Run after implementation commit `4d36323` (literal output):
+
+```
+Checked 697 previously-committed candidate file(s) against HEAD. 0 flagged.
+This is a warning tool, not a hard gate -- review flags by hand, per the A/B/C/D policy.
+
+Legacy scoring lock: 22 pre-pipeline production people covered, 0 flagged.
+```
+
+Committed candidate JSON count 697 = on-disk candidate JSON count 697 = checked
+count 697. Legacy baseline 22 / 0 flagged. No code, data, editorial, portrait or
+index change followed the final build and Playwright run; this follow-up commit is
+documentation only.
