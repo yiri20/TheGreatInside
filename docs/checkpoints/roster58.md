@@ -393,3 +393,19 @@ virtualization, generated manifest, shared count refactor, wiring-script check-i
 No benchmark, no scale checkpoint, no eligibility rescue, no matching diagnostic
 (none triggered). Legacy remains paused (22 / 0); Legacy Batch 6 not started;
 Roster59 not started.
+
+## Post-commit scoring lock
+
+Run after implementation commit `a2505ff` (literal output):
+
+```
+Checked 727 previously-committed candidate file(s) against HEAD. 0 flagged.
+This is a warning tool, not a hard gate -- review flags by hand, per the A/B/C/D policy.
+
+Legacy scoring lock: 22 pre-pipeline production people covered, 0 flagged.
+```
+
+Committed candidate JSON count 727 = on-disk candidate JSON count 727 = checked
+count 727; candidate flags 0; legacy checked 22, legacy flags 0. No code, data,
+editorial, portrait or index change followed the final build and Playwright run; this
+follow-up commit is documentation only.
