@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "felix-mendelssohn",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Felix Mendelssohn",
+    "aliases": ["Felix Mendelssohn Bartholdy", "Jakob Ludwig Felix Mendelssohn Bartholdy"],
+    "wikidataId": "Q46096",
+    "birthYear": 1809,
+    "deathYear": 1847,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["DE"],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": ["composer", "musician", "teacher"],
+    "fieldIds": ["music"],
+    "impactDomains": ["artistic", "cultural"],
+    "tagIds": ["prodigy", "perfectionist"],
+    "archetypeIds": ["creative_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mendelssohn_wikidata",
+      "kind": "wikidata",
+      "title": "Felix Mendelssohn (Q46096) -- verified live via the Wikidata API (2026-10-26): English label 'Felix Mendelssohn', description 'German composer, pianist, organist and conductor of Jewish descent (1809-1847)', born 3 February 1809, died 4 November 1847, Korean label '펠릭스 멘델스존', P18 image 'Felix Mendelssohn Bartholdy by Eduard Magnus (1833).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q46096"
+    },
+    {
+      "id": "src_mendelssohn_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Felix Mendelssohn' (britannica.com), read as served (the free-to-read portion; the late-career and death sections are behind the subscription wall): German composer, pianist, conductor and teacher, one of the most celebrated figures of the early Romantic period; boyhood works including operas and symphonies for string orchestra; the String Octet (1825) and the Overture to A Midsummer Night's Dream as the first works of full stature; on 11 March 1829 at the Berlin Singakademie he conducted the first performance since Bach's death of the St. Matthew Passion, 'thus inaugurating the Bach revival of the 19th century'; ten visits to England and the lasting popularity of Elijah (1846) there, with the note that later generations of English composers revolted against his domination and condemned the sentimentality of his lesser works; as Gewandhaus conductor from 1835 he 'raised the standard of orchestral playing but made Leipzig the musical capital of Germany'; the Berlioz baton exchange. CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.britannica.com/biography/Felix-Mendelssohn"
+    },
+    {
+      "id": "src_mendelssohn_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com entries 'Felix Mendelssohn' (UXL Encyclopedia of World Biography, Gale; and the Encyclopaedia Judaica entry by Dika Newlin, plus the Oxford dictionary summary), read in full: the 1829 St. Matthew Passion performance as the beginning of the revival of Bach's works; he turned down a Berlin university music professorship; in 1835 he became director of the Gewandhaus concerts in Leipzig, featured contemporary works and Schubert's C major symphony 'newly discovered by Robert Schumann'; in 1843 he founded the Leipzig Conservatory, 'the first of its kind in Germany', where he also taught piano and composition; Encyclopaedia Judaica calls it the most renowned institution of its kind in Germany in the 19th century and records that his father added the name Bartholdy while Felix, in 1829, conducted under the name Felix Mendelssohn. Reference-work narrative; the health and bereavement passages were not used.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/felix-mendelssohn"
+    },
+    {
+      "id": "src_mendelssohn_bundesregierung",
+      "kind": "institution",
+      "title": "Claudia Roth (German Federal Government Commissioner for Culture), speech at the 25th anniversary of the Mendelssohn House in Leipzig (bundesregierung.de), read in full in German: Mendelssohn's Berlin revival of Bach's St. Matthew Passion, which the speaker says Bach's later standing owes much to; his shaping of the Gewandhaus orchestra from 1835 into a leading orchestra, his promotion of new works and revival of older music, and the idea and 'chutzpah' to wrest from the Saxon king the founding of the first conservatory in Germany; the failed application to succeed Zelter at the Berlin Singakademie, which witnesses attributed to his origins; Wagner's early admiration and later envy, Wagner's letter disparaging Mendelssohn's 1843 Dresden chorus, and Wagner's 1850 essay 'Judaism in Music' attacking Mendelssohn's alleged lack of depth; the 1850 protest by eleven Leipzig Conservatory professors against the editor; the removal of his Leipzig monument by the Nazi regime in 1936 and the long postwar rehabilitation. A government cultural-policy speech, celebratory but with named, checkable episodes; used for institution building and for reception history (reception history is not scored).",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/mendelssohn-leipzig-2143970"
+    },
+    {
+      "id": "src_mendelssohn_nyrb",
+      "kind": "press",
+      "title": "Lewis Lockwood, 'Which Is the Real Mendelssohn?', The New York Review of Books, 4 November 2004 (review of R. Larry Todd's 'Mendelssohn: A Life in Music' and Clive Brown's 'A Portrait of Mendelssohn'), read in full: calls Todd's book likely to be the standard biography; assesses the Octet, the Midsummer Night's Dream overture, the Hebrides and Elijah as lasting works, while acknowledging the widespread view that many later works and salon pieces are routine; the 1829 Passion revival with Eduard Devrient and Mendelssohn's ironic remark about 'an actor and a Jew-boy'; the scholarly dispute (Sposato versus Botstein and Steinberg) over his religious identity; Wagner's 1850 essay as the template for later negative criticism. Independent scholarly review by a Harvard musicologist; the contested interpretation of his religious identity was NOT scored.",
+      "url": "https://www.nybooks.com/articles/2004/11/04/which-is-the-real-mendelssohn/"
+    },
+    {
+      "id": "src_mendelssohn_lrb",
+      "kind": "press",
+      "title": "Paul Driver, 'The Faster the Better', London Review of Books, vol. 27 no. 3 (3 February 2005) (review of R. Larry Todd's biography), read in full: Todd's book is critiqued as exhaustive but dense; the review draws on contemporaries' recollections: Eduard Devrient's 'awful reverence for print', Mendelssohn's own letter calling himself subject to 'this dreadful disease of altering', years of revision on the Hebrides and Fair Melusine overtures and the Italian Symphony, a perfectionism his father feared would prevent him finding a libretto; his ear and memory (Charles Hallé's and Julius Benedict's recollections, the Tannhauser theme anecdote); his role in the Bach and Schubert 'Great' C major rescue and in historically informed Handel; improvisation; he is called a pivotal figure in the role of the modern conductor. Critical independent review; the book itself was NOT opened.",
+      "url": "https://www.lrb.co.uk/the-paper/v27/n03/paul-driver/the-faster-the-better"
+    },
+    {
+      "id": "src_mendelssohn_classicfm",
+      "kind": "press",
+      "title": "Classic FM, 'The Life Of Mendelssohn: Dusseldorf, Leipzig And Berlin' (classicfm.com), read in full: the Dusseldorf post with its provincial standards and heckling (Mendelssohn once tore up the score of Beethoven's Egmont in mid-rehearsal and left); seven Gewandhaus years that 'set the standard for modern orchestral training and repertoire', expanded repertoire from new works to Bach, Mozart concertos from the keyboard, Schubert's Great C major symphony, Beethoven symphonies; the failed Berlin Singakademie application. Popular-press biography; some claims (e.g. 'world premiere') stated without sources and used cautiously.",
+      "url": "https://classicfm.com/composers/mendelssohn/guides/life-mendelssohn-dusseldorf-leipzig-and-berlin"
+    },
+    {
+      "id": "src_mendelssohn_berlinphil",
+      "kind": "institution",
+      "title": "Berliner Philharmoniker Digital Concert Hall, programme introduction to Abbado's final concert (digitalconcerthall.com, concert 3462), read in full: Mendelssohn's and Berlioz's first meeting in Rome in 1832, Mendelssohn's quoted private criticism of Berlioz's Symphonie fantastique and effusive manner, and the 1843 Leipzig meeting where, after initial distance, the two exchanged batons as mementos. Orchestra programme note; used only for the Berlioz relationship.",
+      "url": "https://www.digitalconcerthall.com/en/concert/3462/programme/introduction"
+    },
+    {
+      "id": "src_mendelssohn_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Felix Mendelssohn Bartholdy - Edward Magnus 1846.jpg' (wikitext and API record) and 'Felix Mendelssohn Bartholdy by Eduard Magnus (1833).jpg', checked for the portrait: oil portrait by Eduard Magnus (1799-1872), dated 1846 on the used file, scan from a 1990 book, tagged public domain for art by an artist dead over 70 years; 634 x 824 pixels. The second file carries an inconsistent 1833 date field alongside a description saying 1846 and cites the Berlin State Library, so the 1846-dated file was used. Not used for scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_-_Edward_Magnus_1846.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mendelssohn_nyrb, src_mendelssohn_britannica, src_mendelssohn_lrb | 1825-1846 | scholarly review + encyclopaedia + critical review] Lockwood judges the 1825 Octet unprecedented in its string sonorities and the Midsummer Night's Dream overture 'brilliant and original', and counts the Hebrides, the Italian and Scottish symphonies, the Violin Concerto and Elijah among lasting works; Britannica calls the Octet and overture evidence of an original composer; Driver notes the unifying will-to-connect (cyclical structures, linked movements). The same sources record that much of the later output is considered routine or salon-like and that later composers revolted against his influence, so the originality is documented but uneven and partly retrospective. Not raised higher because the praise is largely critical consensus rather than contemporaneous behaviour."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mendelssohn_lrb, src_mendelssohn_britannica, src_mendelssohn_classicfm | 1818-1843 | critical review + encyclopaedia + popular biography] Britannica records a broad, schooled education and boyhood works in many genres; Driver relays Hallé's and Benedict's recollections of his memory, ear and command of the repertoire and his precision in hearing each orchestral player; the Gewandhaus years are described as setting standards for orchestral training and repertoire. Much of the evidence is admiring anecdote relayed through a reviewer, so it is held at moderate confidence. SELF-CALIBRATION (agent): first-pass 72 / 0.55 lowered to 68 / 0.50 because the memory and ear anecdotes are admiring recollections reaching me only through one reviewer's reading of a book I did not open."
+    },
+    "perfectionism": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_mendelssohn_lrb, src_mendelssohn_classicfm | 1830s-1846 | critical review citing contemporaries + popular biography] Driver, drawing on Todd, reports that he revised obsessively: Devrient's 'awful reverence for print', his own letter about the 'dreadful disease of altering', years of tweaking the Hebrides and Fair Melusine overtures and the Italian Symphony left unpublished in his lifetime; Classic FM relates that he once tore up the Egmont score in rehearsal in frustration. The trait helped quality but delayed publication, hence dual-edged. SELF-CALIBRATION (agent): first-pass 74 / 0.60 lowered to 70 / 0.55 because the central evidence is one reviewer's summary of Devrient's recollection and one unsourced popular anecdote, with the biography itself unopened."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mendelssohn_britannica, src_mendelssohn_encyclopedia, src_mendelssohn_bundesregierung, src_mendelssohn_nyrb | 1829-1843 | encyclopaedias + government cultural speech + review] He conducted the 1829 Berlin St. Matthew Passion revival (with Devrient), expanded the Gewandhaus repertoire to new works and earlier music, and founded the Leipzig Conservatory in 1843 after, per the Federal Culture Commissioner, winning the Saxon king's agreement. These are self-started institution-building acts documented by several sources. The founding anecdote's framing is celebratory, and political patronage work is incidental and unscored."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mendelssohn_encyclopedia, src_mendelssohn_bundesregierung, src_mendelssohn_berlinphil, src_mendelssohn_nyrb | 1829-1846 | encyclopaedia + speech + orchestra note + review] He mounted the Passion revival jointly with Devrient, programmed Wagner's symphony, Rienzi excerpts and the Tannhauser overture despite their later falling-out, performed Schumann's rediscovered Schubert symphony, drew Moscheles and Schumann into the Conservatory, and moved from private reservation to an exchange of batons with Berlioz. Evidence for how he actually worked with colleagues is thin and mostly favourable; the Wagner and Berlioz tensions show limits."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mendelssohn_britannica, src_mendelssohn_lrb, src_mendelssohn_bundesregierung | 1820s-1840s | encyclopaedia + critical review + speech] Britannica notes early lessons in literature and landscape painting; Driver says he painted and drew, read Homer in Greek and spoke several languages, and drew on literature in his music (Shakespeare, Goethe, Scott-inspired scenery); the culture minister calls him composer, conductor, teacher, manager and mediator of music. The range is documented but the non-musical skills are described briefly by admiring writers, so only moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "펠릭스 멘델스존"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/felix-mendelssohn-magnus-1846.jpg",
+    "width": 634,
+    "height": 824,
+    "source": "Wikimedia Commons file 'Felix Mendelssohn Bartholdy - Edward Magnus 1846.jpg': oil portrait of Mendelssohn by Eduard Magnus (1799-1872), dated 1846 on the file page, scanned from a 1990 book; the work is public domain because the painter died in 1872 (more than 70 years), and the Commons tag states this basis. Saved at the original 634 x 824 pixels without resizing or upscaling. No conflicting institutional notice found; the sibling Commons file of the same painting carries an inconsistent 1833 date and cites a Berlin State Library copy. A sitting for the painting is not documented in the sources read, so it is treated as a historical depiction rather than a documented likeness.",
+    "license": "Public domain (artist died 1872)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_-_Edward_Magnus_1846.jpg",
+    "attribution": "Eduard Magnus, 1846, public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_-_Edward_Magnus_1846.jpg",
+    "creator": "Eduard Magnus",
+    "date": "1846",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_-_Edward_Magnus_1846.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE (Wikidata wbgetentities, 2026-10-26): Q46096, en label 'Felix Mendelssohn', description 'German composer, pianist, organist and conductor of Jewish descent (1809-1847)', born 1809-02-03, died 1847-11-04, ko label '펠릭스 멘델스존'; lead hint correct. SLUG/QID CHECK: no existing candidate file for felix-mendelssohn and no QID Q46096 elsewhere in data-pipeline or src. REGION central_europe, following the Beethoven, Schubert and Liszt precedents (Bach is western_europe in the repo, an outlier); nationality DE. VOCABULARY: composer, musician, teacher, field music, tags prodigy and perfectionist, archetype creative_creator are existing ids with EN+KO labels (conductor and pianist are unlabeled and not used). ZERO POLITICS: primary identity is musical; Prussian court patronage is incidental and unscored. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Felix Mendelssohn' (https://www.britannica.com/biography/Felix-Mendelssohn); the Britannica page was served partly behind a subscription wall so the late-career sections were supplemented by the Encyclopedia.com reference entries. READ (7 cited non-Wikidata sources + portrait records): Britannica, Encyclopedia.com (Gale/Judaica/Oxford), German Federal Government culture speech, NYRB review (Lockwood), LRB review (Driver), Classic FM biography, Berlin Philharmonic programme note. PERSPECTIVES: encyclopaedias; government cultural institution; two independent scholarly/critical book reviews; popular press; orchestra institution. COUNTER-VOICES: Wagner's 1850 antisemitic attack and his 1843 letter (via the speech and NYRB; Wagner's own text was not opened), Berlioz's mutual reservations, Driver's complaint about Todd's stuffy portrait, Lockwood's note that later works are called routine, Britannica on later English revolt against his influence. EXCLUDED deliberately: Nazi-era suppression of his music and statue and postwar rehabilitation (reception history, unscored); disputed religious-identity scholarship (Sposato/Botstein/Steinberg) and his conversion (family decision, contested interpretation); health, bereavement and death (no inference); marriage and family. NOT OPENED: Todd's and Brown's biographies themselves, Grove (paywalled), Library of Congress (blocked), Schumann's and Berlioz's own writings, Wagner's essay text, NYT and Guardian reviews (blocked or 404). portrait_preflight: strong (lead) / confirmed PD (painter d. 1872) on the 1846-dated Commons file, but low-resolution 634 x 824 and the sitting is undocumented in what I read, so kind is historical depiction. CALIBRATION: six rows, highest score 74 and highest confidence 0.58, because the behavioural evidence is retrospective review and encyclopaedia material with no letters or memoirs opened. SELF-CALIBRATION (agent): reviewed perfectionism (lowered 74/0.60 to 70/0.55), mastery_orientation (lowered 72/0.55 to 68/0.50) and creative_originality (kept: three independent sources, and the sources themselves temper the praise). BROAD FLAG: none beyond reliance on two book reviews for behavioural texture; a direct read of Mendelssohn's letters or Devrient would strengthen perfectionism and collaboration."
+  }
+}

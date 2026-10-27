@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "anne-sullivan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Anne Sullivan",
+    "aliases": ["Anne Sullivan Macy", "Annie Sullivan", "Joanna Mansfield Sullivan"],
+    "wikidataId": "Q239135",
+    "birthYear": 1866,
+    "deathYear": 1936,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["US"],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": ["teacher"],
+    "fieldIds": ["education"],
+    "impactDomains": ["social", "historical"],
+    "tagIds": ["mentor", "innovator"],
+    "archetypeIds": ["social_influencer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sullivan_wikidata",
+      "kind": "wikidata",
+      "title": "Anne Sullivan (Q239135) -- verified live via the Wikidata API (2026-10-26): English label 'Anne Sullivan', Korean label 'Anne Sullivan' in Hangul, description 'American teacher (1866-1936)', born 1866-04-04, died 1936-10-20, citizenship United States, P18 image 'AnneSullivanMacy.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q239135"
+    },
+    {
+      "id": "src_sullivan_perkins",
+      "kind": "institution",
+      "title": "Perkins School for the Blind, Perkins History Museum, 'Anne Sullivan' (McGinnity, Seymour-Ford and Andries, 2004; perkins.org), read in full: her 1886 valedictory at Perkins, Anagnos recommending her to the Keller family, months studying Howe's reports on Laura Bridgman, first lessons modelled on Howe's formal schedule, her abandoning that schedule to follow Keller's interests and fingerspell to her constantly (with a quoted 1887 letter on not 'digging out' what the child has learned), 575 words in six months, Anagnos's embellishment of her reports which she hated, the strained relationship with Perkins, the 1891 plagiarism accusation and investigative interviews, and the statement that her child-centred methods are the centrepiece of the Perkins Deafblind School's philosophy. CANONICAL SIGNIFICANCE SOURCE. Written by the school that trained her, so proud of its alumna, but it also names the tensions with Perkins. Passages on her childhood, eyesight and family are not used.",
+      "url": "https://www.perkins.org/history/people/anne-sullivan/"
+    },
+    {
+      "id": "src_sullivan_ebsco",
+      "kind": "biography",
+      "title": "Amy Sisson, 'Anne Sullivan' (EBSCO Research Starters, History, 2024), read in full: study of Howe's Bridgman accounts, arrival at Tuscumbia in March 1887, persuading Keller's father to let the pair work in a garden cottage, the 'water' breakthrough, accompanying Keller to Perkins, the Wright-Humason School and Radcliffe (graduated 1904), hours of daily reading and fingerspelling to her, the Teacher's Medal at the 1915 Panama-Pacific Exposition, the 1920 vaudeville tour, work with the American Foundation for the Blind, and a Significance paragraph that she had little formal training, used and improved on earlier techniques, believed any teacher could have done the same, and that Keller's own abilities let her direct her own education. Bibliography names Henney (1933) as the definitive biography and Lash (1980) as exhaustive. A modern encyclopaedic overview; passages on health, marriage and bereavement are not used.",
+      "url": "https://www.ebsco.com/research-starters/history/anne-sullivan"
+    },
+    {
+      "id": "src_sullivan_perkinsaid",
+      "kind": "archive",
+      "title": "Perkins School for the Blind Archives, finding aid 'Sullivan/Keller/Anagnos correspondence collection' (call number AG19, letters 1886-1933, bulk 1886-1896), read in full: Anagnos selecting Sullivan, a recent graduate, to go to Tuscumbia in March 1887, and her bringing Keller to Perkins in May 1888. Archive catalogue entry only; the letters themselves were not read here.",
+      "url": "https://www.perkins.org/finding-aid/sullivan-keller-anagnos-correspondence-collection/"
+    },
+    {
+      "id": "src_sullivan_story",
+      "kind": "archive",
+      "title": "Helen Keller, 'The Story of My Life' with the supplementary accounts and letters edited by John Macy (Project Gutenberg eBook 2397), read selectively: Keller's description of how Sullivan spoke to her as to a hearing child by fingerspelling and supplied conversation, Keller's account of the 'Frost King' investigation and Anagnos's later statement that he voted in her favour, Macy's editorial passages quoting Sullivan's 1887 letters and reports (including her objection to Anagnos's 'too glowing' language and her note that educators doubted her statements), and Sullivan's own letter to the Volta Bureau on the 'Frost King'. Largely first-person testimony by Keller, Sullivan and an editor close to both, so used only for documented episodes and Sullivan's own method statements, never as sole support and never for character claims.",
+      "url": "https://www.gutenberg.org/ebooks/2397"
+    },
+    {
+      "id": "src_sullivan_pw",
+      "kind": "press",
+      "title": "Publishers Weekly review of Kim E. Nielsen, 'Beyond the Miracle Worker: The Remarkable Life of Anne Sullivan Macy and Her Extraordinary Friendship with Helen Keller' (Beacon Press, 2009), read via a fetched summary of the review (the full text could not be fetched): says Nielsen became convinced Sullivan had been overlooked, calls the book a lightly fictionalised account based on Sullivan's letters and notes, and notes that Sullivan's relationship with Keller dominates both the public perception and her private life. Used only as the modern scholarship counter-voice to the 'savior teacher' story; the book itself was not opened.",
+      "url": "https://publishersweekly.com/9780807050460"
+    },
+    {
+      "id": "src_sullivan_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Helen Keller & Mrs. Macy LCCN2014692493.jpg' (wikitext and image record), checked for the portrait: Library of Congress, George Grantham Bain Collection glass negative captioned 'Helen Keller & Mrs. Macy', publisher Bain News Service, date given as 1913, permission text quoting the Library's 'No known restrictions on publication'; original 4104 x 5728. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Helen_Keller_%26_Mrs._Macy_LCCN2014692493.jpg"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sullivan_perkins, src_sullivan_story, src_sullivan_ebsco | 1887 | institution + her own letters + overview] Her first lessons followed the formal Howe-Bridgman schedule; when that did not suit Keller she dropped the prescribed schedule, followed Keller's interests and fingerspelled to her constantly, explaining the change in a quoted 1887 letter; Sisson says she used and improved on earlier techniques. Concrete and dated, but the reasoning rests on her own letters and one institutional page. SELF-CALIBRATION (agent): adaptability lowered from 74 / 0.60 to 70 / 0.55 because the account of the changed method comes from her own letters and the school's single narrative, with no independent description of the lessons themselves."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sullivan_story, src_sullivan_perkins | 1887-1892 | her own letters and reports + institution] In 1887 she wrote that digging out of the child what she has learned to check it has taken root is time wasted, replacing her earlier drilling approach; after the 'Frost King' affair she wrote to the Volta Bureau that she had not been fully aware how much of her pupil's language came from her favourite authors. Both are first-person statements, with only the first matched by the Perkins account, so confidence is held at 0.5."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sullivan_ebsco, src_sullivan_perkins | 1887-1936 | overview + institution] Sisson describes her working with Keller through the Wright-Humason School and Radcliffe to graduation in 1904, spending several hours a day reading and spelling to her, then continuing as her teacher, editor and companion in lecturing and the American Foundation for the Blind until 1936. Documented over decades; the sources are admiring and say little about setbacks in the work itself."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sullivan_ebsco, src_sullivan_perkins | 1887-1888 | overview + institution] She persuaded Keller's father to let her and Keller work apart in a garden cottage, and later judged Tuscumbia's materials too limited and took Keller to the Perkins school. Two modest, concrete decisions from two sources; they show initiative inside the job rather than founding a larger enterprise."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_sullivan_perkins, src_sullivan_story | 1888-1892 | institution + her own letters] The school's account says she disliked her loss of independence once at Perkins and that her relations with the institution were alternately warm and strained; her letters object to Anagnos's glowing reports. Documented but the main evidence is one institutional page, so this is a moderate reading of how much independence she required."
+    },
+    "conflict_tolerance": {
+      "score": 56,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_sullivan_perkins, src_sullivan_story | 1887-1892 | institution + her own letters and Keller's account] She wrote that Anagnos's language was too glowing and the school's account says she hated the exaggeration; after the 1891 plagiarism inquiry, in which she was asked to leave the room during Keller's questioning, the relationship with Perkins eventually ended and she wrote her own account to the Volta Bureau. How she behaved in the disagreements is known mostly from her own letters and Keller's recollection, so only a moderate score."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/anne-sullivan-bain-news-service-1913.jpg",
+    "width": 1111,
+    "height": 1213,
+    "source": "Library of Congress, Prints and Photographs Division, George Grantham Bain Collection, glass negative captioned 'Helen Keller & Mrs. Macy' (LCCN 2014692493, digitised as ggbain.12476), publisher Bain News Service, photographer not credited, date given as 1913 (the negative's own date note may reflect later publication), within Sullivan's lifetime. In the group photograph Keller is seated and Mrs. Macy stands behind her; this file is a tight crop of the standing woman identified by the Bain caption, from the original 4104 x 5728 file (crop 1111 x 1213 at the original resolution, no resizing). The Library states no known restrictions on publication for the Bain collection and Commons quotes that statement; the Library's own item page could not be opened (bot protection), so the statement was verified through Commons. The Wikidata image (a Perkins website photograph of unknown authorship, Perkins permission required for its collection images) was not used.",
+    "license": "Public domain (US); Library of Congress: no known restrictions on publication",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Helen_Keller_%26_Mrs._Macy_LCCN2014692493.jpg",
+    "attribution": "Bain News Service, Library of Congress, George Grantham Bain Collection (LCCN 2014692493); photographer not credited; cropped",
+    "attributionUrl": "https://lccn.loc.gov/2014692493",
+    "creator": "Bain News Service (photographer not credited)",
+    "date": "1913",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Helen_Keller_%26_Mrs._Macy_LCCN2014692493.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "앤 설리번"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID Q239135 verified live (wbgetentities 2026-10-26): 'Anne Sullivan', 'American teacher (1866-1936)', 1866-04-04 to 1936-10-20, ko label present. No existing candidate, production file or src reference for slug anne-sullivan or the QID. Region north_america. ZERO POLITICS: primary identity teacher; the later AFB advocacy and any political views are not scored. Vocabulary: occupation teacher, field education, tags mentor and innovator, archetype social_influencer all exist with EN and KO labels. SPECIAL RULES FOLLOWED: no inference from Keller's disability, from Sullivan's own eye disease, institutional childhood or bereavement; the Tewksbury and eyesight passages in the sources were not used for any row. Joint credit: card and rows describe Sullivan's method and teaching conduct only; Keller's own learning and later achievements are attributed to Keller (Sisson says Keller directed her own education). CANONICAL SIGNIFICANCE SOURCE: Perkins History Museum 'Anne Sullivan', cross-checked with Sisson (EBSCO). PORTRAIT PREFLIGHT: portrait_preflight: plausible (lead) / confirmed a rights-defensible Bain image but it is a joint photograph with Keller; a tight crop of Sullivan was made from the original with her identity established by the Bain caption and by her standing position beside the seated Keller; the Wikidata Perkins photograph was rejected (permission required, unknown author). Caveat: the caption on the file page notes the negative date may reflect later publication, but it is a Bain-era lifetime image either way. READ (7 cited non-Wikidata items): Perkins museum page, Sisson overview, Perkins finding aid (catalogue only), Keller's Story of My Life with Macy's supplement (selected passages), Publishers Weekly review summary, Commons record. PERSPECTIVES: school history (institution), modern overview, Sullivan's own letters, Keller's recollection, modern scholarship review. COUNTER-VOICES: Anagnos's suspicion and the 1891 inquiry (Perkins page and Keller), educators disputing her claims (Macy), Nielsen's complication of the savior narrative. NOT OPENED: Henney 1933, Lash 1980, Nielsen 2009 itself, Perkins letters, Britannica (Cloudflare), NWHM (404). EXCLUSIONS: childhood, eyesight, health, marriage and its breakdown, bereavement. CALIBRATION: six rows, highest score 70, highest confidence 0.55; no independent adversarial behaviour source, so capped. SELF-CALIBRATION (agent): rows reviewed: adaptability, belief_updating, persistence. Lowered: adaptability (74/0.60 to 70/0.55: her own letters plus one institutional account). belief_updating and persistence unchanged: already moderate and sourced to two sources each."
+  }
+}

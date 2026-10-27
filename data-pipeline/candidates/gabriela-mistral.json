@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gabriela-mistral",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Gabriela Mistral",
+    "aliases": [
+      "Lucila Godoy Alcayaga",
+      "Lucila de Maria del Perpetuo Socorro Godoy Alcayaga"
+    ],
+    "wikidataId": "Q80871",
+    "birthYear": 1889,
+    "deathYear": 1957,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CL"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mistral_wikidata",
+      "kind": "wikidata",
+      "title": "Gabriela Mistral (Q80871) -- verified live via the Wikidata API (2026-10-26): English label 'Gabriela Mistral', description 'Chilean poet, diplomat and educator (1889-1957)', born 1889-04-07, died 1957-01-10, citizenship Chile, Korean label '가브리엘라 미스트랄', P18 image 'Gabriela Mistral 1945.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q80871"
+    },
+    {
+      "id": "src_mistral_memoriachilena",
+      "kind": "institution",
+      "title": "Memoria Chilena (Biblioteca Nacional de Chile), minisite 'Gabriela Mistral (1889-1957)', Presentacion text updated July 2023, read in full: considered one of the main references of Chilean and Spanish-American literature, Nobel Prize 1945 as the Swedish Academy's first recognition of Latin American letters; her start as a school aide around 1905, the failed entry to the Normal School in La Serena (a chaplain found her poems 'somewhat socialist and a bit pagan', per Gonzalez Vera), her regularising of her teaching through special exams in 1910, posts at Traiguen, Punta Arenas, Antofagasta and Temuco; the 1914 Juegos Florales prize for the 'Sonetos de la muerte'; the 1922 invitation to Mexico to help with educational reform and popular libraries; Desolacion (New York, 1922), Lecturas para mujeres (1924), Tala (1938), Lagar (1954); the 1951 national prize. Personal-life passages (bereavements, relationships) deliberately not used. CANONICAL SIGNIFICANCE SOURCE. National-library institutional biography, citing scholarly sources; admiring.",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-3429.html"
+    },
+    {
+      "id": "src_mistral_nobel",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Gabriela Mistral' Facts and Biographical pages (nobelprize.org), read in full: prize motivation 'for her lyric poetry which, inspired by powerful emotions, has made her name a symbol of the idealistic aspirations of the entire Latin American world'; biography written at the time of the award listing Sonetos de la muerte (1914), Desolacion (1922), Ternura (1924), Tala (1938), her teaching of elementary and secondary school, her role in the education systems of Mexico and Chile and her university teaching in the United States and Puerto Rico (consular and League of Nations posts are not scored). Award-body record, contemporary but promotional.",
+      "url": "https://www.nobelprize.org/prizes/literature/1945/mistral/biographical/"
+    },
+    {
+      "id": "src_mistral_presentation",
+      "kind": "award_body",
+      "title": "Hjalmar Gullberg, Swedish Academy, 'Award Ceremony Speech' for the 1945 Nobel Prize in Literature (nobelprize.org; from Nobel Lectures, Elsevier 1969), read in full: places her as a Latin American poet from a village teacher; describes Desolacion (1922, New York), the children's songs of Ternura (1924) and Tala (1938, published in Buenos Aires for the benefit of children victims of the Spanish Civil War) and calls her the great singer of sorrow and motherhood and the 'queen' of Latin American poetry. Contemporary ceremonial praise with legend-like biography; the passage on her private tragedy is not used.",
+      "url": "https://www.nobelprize.org/prizes/literature/1945/ceremony-speech/"
+    },
+    {
+      "id": "src_mistral_banquet",
+      "kind": "award_body",
+      "title": "Gabriela Mistral, 'Banquet speech' (Nobel Prize in Literature 1945, nobelprize.org), read: her own words calling herself, by 'an undeserved stroke of fortune', the direct voice of the poets of her race and indirect voice of the Spanish and Portuguese tongues, and praising Sweden's schools, teachers and workers. Self material; used only as context for her self-description and never as support for a score.",
+      "url": "https://www.nobelprize.org/prizes/literature/1945/mistral/speech/"
+    },
+    {
+      "id": "src_mistral_poetryfoundation",
+      "kind": "biography",
+      "title": "Poetry Foundation, 'Gabriela Mistral' biography (poetryfoundation.org), read in large part (about the first two-thirds of the long scholarly biography): her style marked by disdain for modernist ornament and deliberate breaks of prosodic rules that make some verses harsh to recite; her 1904-06 newspaper writing including a 1906 article urging women's education; refusal of admission to the La Serena Normal School and her self-preparation and 1910 teaching certificate; teaching and administrative posts, evening classes for workers in Punta Arenas, advice to the young Neruda in Temuco; the 1922 Mexican invitation and rural-education work, Lecturas para mujeres, and Desolacion published in New York on the insistence of American Spanish teachers; her letter on writing a new school poetry; prolific prose for newspapers. The final third (later travels, consular work, last years) was not read in detail. Scholarly biography; admiring, with some critical notes on style and the unedited state of her complete works.",
+      "url": "https://www.poetryfoundation.org/poets/gabriela-mistral"
+    },
+    {
+      "id": "src_mistral_poetsorg",
+      "kind": "institution",
+      "title": "Academy of American Poets, 'Gabriela Mistral' biography (poets.org), read in full: teacher and administrator in Mexico and Chile; first Latin American writer to receive the Nobel Prize in Literature (1945) and Chile's national prize (1951); selected books Desolacion, Ternura, Tala, Lagar; university posts in the United States; quotes Ursula K. Le Guin, her translator, that Mistral 'worked constantly, tirelessly, all her life, at her craft' as a self-taught, almost wholly self-made poet. Institutional bio with a translator's retrospective tribute; admiring.",
+      "url": "https://poets.org/poet/gabriela-mistral"
+    },
+    {
+      "id": "src_mistral_desconcierto",
+      "kind": "press",
+      "title": "Carola Sepulveda, 'Gabriela Mistral y el Chile reciente (a 75 anos del Premio Nobel)' (El Desconcierto, Santiago, 10 December 2020), read in full: Chilean academic's opinion column arguing that official memory presented Mistral as a docile 'teacher-mother' and neglected her prose on social and cultural issues, her work as teacher and intellectual concerned with women, children, peasants and workers, and that recent readings find a more complex figure; notes her exclusion from the Normal School after regional newspaper writing and that the Chilean national literature prize came six years after the Nobel. Contemporary revisionist critique of her reception rather than of her work; the column's references to dictatorship-era politics are not used.",
+      "url": "https://eldesconcierto.cl/2020/12/10/a-75-anos-del-premio-nobel-gabriela-mistral-y-el-chile-actual"
+    },
+    {
+      "id": "src_mistral_mcphoto",
+      "kind": "archive",
+      "title": "Memoria Chilena (Biblioteca Nacional de Chile), photograph record 'Gabriela Mistral' (code MC0010812, Archivo del Escritor, Coleccion Gabriela Mistral; publication data 'Punta Arenas, Chile: produccion no identificada, 1922'), checked for the portrait: intellectual-property field 'Patrimonio cultural comun' with the statement that the document belongs to the common cultural heritage and may be used and reproduced freely. Not used for any scoring.",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-69686.html"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mistral_poetryfoundation, src_mistral_nobel, src_mistral_presentation, src_mistral_poetsorg | 1914-1954 | scholarly biography + award body x2 + institutional bio] The Poetry Foundation biography describes an original style marked by disdain for modernist ornament and deliberate prosodic breaks, and her aim of a new school poetry; the Nobel citation and Gullberg's speech praise her lyric poetry. All four sources are admiring and mostly retrospective, with the Academy's praise ceremonial. SELF-CALIBRATION (agent): first-pass 76 / 0.62 lowered to 72 / 0.56 because every source is admiring and no critical or independent-craft assessment was opened."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mistral_poetryfoundation, src_mistral_memoriachilena, src_mistral_desconcierto, src_mistral_poetsorg | 1906-1910 | scholarly biography + national library + critic + institutional bio] After being refused entry to the La Serena Normal School she prepared on her own and obtained her teaching certification in 1910 (Poetry Foundation, Memoria Chilena); the revisionist column also notes she developed tactics for continuing her education; Le Guin says she worked constantly at her craft. Independent sources agree on the sequence; the motive is partly her own later comments."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mistral_poetsorg, src_mistral_poetryfoundation | 1900s-1950s | translator's tribute + scholarly biography] Le Guin's remark that she worked tirelessly at her craft and the Poetry Foundation's description of her prolific prose writing for newspapers alongside teaching suggest steady work habits; no source describes her working routine, and Le Guin's tribute is a brief retrospective quote."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mistral_poetryfoundation, src_mistral_memoriachilena | 1904-1913 | scholarly biography + national library] She sent contributions to regional newspapers from 1904, wrote to Ruben Dario in Paris with a story and poems that appeared in 1913 (her first publication outside Chile), and organised evening classes for workers while a school principal; the national library confirms her regional press writing. The initiatives are documented, though most detail comes from one scholarly biography."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mistral_poetryfoundation, src_mistral_memoriachilena, src_mistral_desconcierto | 1906-1924 | scholarly biography + national library + critic] Poetry Foundation reports a 1906 article urging women's education, evening classes for workers, and her work planning rural education and libraries in Mexico, and the critic stresses her concern with women, children, peasants and workers. The Mexico invitation is corroborated by the national library, but the evening classes and the 'every time she could' characterisation rest on one admiring biography. SELF-CALIBRATION (agent): first-pass 72 / 0.56 lowered to 68 / 0.52 because the strongest behavioural claims come from a single admiring biographer."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mistral_poetryfoundation, src_mistral_memoriachilena, src_mistral_desconcierto | 1906-1924 | scholarly biography + national library + critic] Her early newspaper writing led the Normal School chaplain to label her poems 'somewhat socialist and a bit pagan' (Memoria Chilena, citing Gonzalez Vera), she continued writing and studied on her own, and she wrote that fashionable school poetry did not satisfy her and set out to write a new kind (Poetry Foundation). Three independent sources; the chaplain's remark is reported second-hand."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mistral_nobel, src_mistral_poetryfoundation, src_mistral_memoriachilena | 1900s-1950s | award body + scholarly biography + national library] The sources show poetry, a large body of newspaper prose, school teaching and administration, an educational-reform role in Mexico, and university teaching of Spanish literature in the United States. The breadth is documented; whether it reflects range as a trait rather than a single career in letters and education is inferential."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gabriela-mistral-memoria-chilena-1922.jpg",
+    "width": 511,
+    "height": 735,
+    "source": "Memoria Chilena (Biblioteca Nacional de Chile), photograph record MC0010812 'Gabriela Mistral', Archivo del Escritor, dated 1922 (Punta Arenas; production not identified), reproduced as Wikimedia Commons 'Gabriela Mistral, 1922.jpg' (511 x 735, uploaded under CC0 from the library record). The library's own page states 'Patrimonio cultural comun' and that the document may be used and reproduced freely; the photographer is not identified. File used unchanged, no resampling. The Wikidata image 'Gabriela Mistral 1945.jpg' (Anna Riwkin-Brick, 280 x 396, creator died 1970) was rejected as not public domain by age. A caveat: the creator is unknown, so the rights basis is the institution's stated terms plus the photograph's age.",
+    "license": "Public domain (library statement: patrimonio cultural comun)",
+    "licenseUrl": "https://www.memoriachilena.gob.cl/602/w3-article-69686.html",
+    "attribution": "Photograph, 1922, photographer unidentified; Biblioteca Nacional de Chile, Memoria Chilena, Archivo del Escritor",
+    "attributionUrl": "https://www.memoriachilena.gob.cl/602/w3-article-69686.html",
+    "creator": "Unidentified photographer",
+    "date": "1922",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.memoriachilena.gob.cl/602/w3-article-69686.html"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "가브리엘라 미스트랄"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID verified live (Wikidata wbgetentities 2026-10-26): Q80871, label 'Gabriela Mistral', description 'Chilean poet, diplomat and educator (1889-1957)', born 1889-04-07, died 1957-01-10, ko label '가브리엘라 미스트랄'; lead's hint confirmed. No existing candidate or src reference for slug gabriela-mistral or QID Q80871 (searched data-pipeline, src, docs). Region latin_america (Chile). ZERO POLITICS / IDENTITY CHECK: her primary identity is poet (lyric poetry, Nobel in Literature) with a parallel career as schoolteacher and school administrator; her consular posts, League of Nations work and diplomatic roles are NOT scored, are not carded, and the Mexico episode is used only as educational-reform work; Aguirre Cerda's political career is not used. Deceased: ordinary historical evidence rules, but no inference from bereavement, suicides of friends or relatives, private relationships or illness (all present in Memoria Chilena or the Nobel speech and deliberately excluded). Vocabulary reused from existing candidates (sor-juana, emily-dickinson, alexander-pushkin): poet, writer, literature, literary, cultural, creative_creator; occupation 'educator' has no label so only poet and writer are used; tag 'nobel_laureate' exists and is used. portrait_preflight: risky (lead) / resolved: the P18 Riwkin-Brick photo was rejected (creator d.1970); a Biblioteca Nacional de Chile photograph record dated 1922 carries an explicit 'cultural heritage, free use' statement and a CC0 Commons copy; creator unidentified, flagged as a caveat. CANONICAL SIGNIFICANCE SOURCE: Memoria Chilena minisite (https://www.memoriachilena.gob.cl/602/w3-article-3429.html), cross-checked with the Nobel Foundation pages. READ (8 cited non-Wikidata sources): Memoria Chilena minisite, Nobel facts and biography, Gullberg's presentation speech, her banquet speech (self), Poetry Foundation biography (first two-thirds), poets.org, El Desconcierto column, the Memoria Chilena photo record. NOT OPENED: Horan or Figueroa biographies and reviews, Britannica, Le Guin's introduction and translations, the Nobel lecture page (404), the final third of the Poetry Foundation biography, Wikipedia, Gabriela Mistral ante la critica bibliography. PERSPECTIVES: award body (Nobel Foundation, Swedish Academy), national library (Memoria Chilena), a US scholarly biography (Poetry Foundation), a translator-poet via institutional quote (Le Guin via poets.org), a contemporary Chilean critic (Sepulveda). COUNTER-VOICES: Sepulveda's argument that official memory flattened her image and neglected her prose; the Poetry Foundation's remark that some verses are harsh to recite by design; the chaplain's hostile reading of her early poems; notes that the national prize came six years after the Nobel. LIMITS: no hostile or adversarial biography was read and craft-level criticism is thin, so every source is mostly admiring; no score exceeds 72 and no confidence exceeds 0.58. SELF-CALIBRATION (agent): rows reviewed: creative_originality, impact_motivation, independent_thinking. Lowered: creative_originality (76/0.62 to 72/0.56: all four sources admiring) and impact_motivation (72/0.56 to 68/0.52: strongest claims from one biographer). independent_thinking kept: three independent sources. Sparse (7 rows) by design."
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "carlos-slim",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Carlos Slim",
+    "aliases": [
+      "Carlos Slim Helú"
+    ],
+    "wikidataId": "Q170419",
+    "birthYear": 1940,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "MX"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive",
+      "investor"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial"
+    ],
+    "tagIds": [
+      "founder",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_slim_wikidata",
+      "kind": "wikidata",
+      "title": "Carlos Slim (Q170419) -- verified live via the Wikidata API (2026-10-25): English label 'Carlos Slim', description 'Mexican business magnate and investor', born 28 January 1940, no date of death, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q170419"
+    },
+    {
+      "id": "src_slim_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Carlos Slim Helu' (Britannica Money), updated 29 September 2026 -- reference biography: the Grupo Carso conglomerate, bargain purchases after the 1982 crash, the 1990 Telmex purchase with SBC and France Telecom, the 2001 separation of America Movil, the CompUSA misjudgement and later US holdings. CANONICAL SIGNIFICANCE SOURCE. Read in full as far as 2016; used for chronology and as the orientation to his primary contribution.",
+      "url": "https://www.britannica.com/money/Carlos-Slim-Helu"
+    },
+    {
+      "id": "src_slim_goldman",
+      "kind": "institution",
+      "title": "Goldman Sachs, 'Telmex Privatization is First International Equity Offering from a Mexican Corporation' (firm history page) -- the adviser's account of the state of Mexican telephony before 1990 (waiting periods of up to three years, 4.9 lines per 100 people) and of the December 1990 sale of a controlling interest to a Grupo Carso-led group for US$1.76 billion. Adviser's own account of a deal it worked on; used for facts about the sale, not for trait claims. Read in full.",
+      "url": "https://www.goldmansachs.com/our-firm/history/moments/1990-telmex-privatization"
+    },
+    {
+      "id": "src_slim_gale",
+      "kind": "biography",
+      "title": "International Directory of Business Biographies (Gale), 'Slim, Carlos 1940-', reproduced on Encyclopedia.com -- reference profile built on Financial Times and New York Times reporting (1990-2004): distressed purchases after 1982, the Telmex consortium and its US$10 billion five-year investment commitment, the 1997 competitive response to new long-distance entrants, and the creation of a holding company to buy Telmex stock. Secondary reference summary; the family and health passages were not used. Read in full.",
+      "url": "https://www.encyclopedia.com/people/social-sciences-and-law/business-leaders/carlos-slim"
+    },
+    {
+      "id": "src_slim_scotsman",
+      "kind": "press",
+      "title": "The Scotsman newsroom, 'Profile: Carlos Slim', 13 March 2010 -- newspaper profile written when he overtook Bill Gates on the rich list: counter-cyclical buying of distressed companies, the Telmex purchase and the dispute over how he won it, comments from critic Denise Dresser and from former associate Randall Stephenson, and his command of financial data on telecom companies. Sympathetic-to-neutral press profile with a named critic. The paragraphs about his personal habits, temper and family were not used. Read in full.",
+      "url": "https://www.scotsman.com/news/opinion/letters/profile-carlos-slim-1729954"
+    },
+    {
+      "id": "src_slim_aljazeera",
+      "kind": "press",
+      "title": "Chris Arsenault (Al Jazeera English), 'Monopolies scamming Mexican voters', 29 June 2012 -- feature on market concentration in Mexico, quoting the OECD's January 2012 report on Mexican telecommunications (estimated overcharging of US$13.4 billion a year), Slim's reply that a 70 percent share leaves 30 percent for competitors, the competition regulator dropping a near-US$1 billion fine on America Movil, and critics and a pro-business think-tank. Critical counter-voice. The election-campaign and television-sector passages were not used. Read in full.",
+      "url": "https://www.aljazeera.com/features/2012/6/29/monopolies-scamming-mexican-voters"
+    },
+    {
+      "id": "src_slim_reuters",
+      "kind": "press",
+      "title": "Reuters (via Fortune), 'Mexico May Force Carlos Slim to Prise Open His Company', 1 March 2017 -- wire report that Mexico's telecoms regulator discussed legally separating part of Telmex, that competitors said wholesale rules were not working, and that America Movil's profit margin fell from over 45 to under 30 percent after the 2013-14 reforms. Independent wire report; unnamed sources, outcome unconfirmed. Read in full.",
+      "url": "https://www.fortune.com/2017/03/01/mexico-carlos-slim-telmex-america-movil"
+    },
+    {
+      "id": "src_slim_bloomberglinea",
+      "kind": "press",
+      "title": "Arturo Solis (Bloomberg Linea), 'A Carlos Slim le regalaron Telmex?', 13 February 2024 -- report on his marathon press conference: his own account of Telmex's valuation in 1986, 1989 and 1990 and of the backlog of unfulfilled phone requests at privatisation, his statement that Telmex runs at a loss and will not be sold, and the regulator's 2014 designation of America Movil as a preponderant player. Largely his own statements as reported by a news outlet; used for corroboration only, never as sole support. Read in full.",
+      "url": "https://www.bloomberglinea.com/latinoamerica/mexico/a-carlos-slim-le-regalaron-telmex/"
+    },
+    {
+      "id": "src_slim_infoworld",
+      "kind": "press",
+      "title": "Agam Shah (IDG News Service), 'CompUSA closing shop', InfoWorld, 10 December 2007 -- trade-press report on the wind-down of CompUSA after losses, citing the Wall Street Journal that Slim had put about US$2 billion into the chain since 1999 and had been seeking to sell his stake. Independent, contemporaneous. Read in full.",
+      "url": "https://www.infoworld.com/article/2330991/compusa-closing-shop.html"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_slim_britannica, src_slim_gale, src_slim_scotsman, src_slim_goldman | 1982-1990 | reference biographies, newspaper profile, adviser history] After Mexico's 1982 default and bank nationalisations he bought controlling interests in many companies at low prices and then restored them (Britannica, Gale, Scotsman call it his pattern in recessions); in 1990 he led the group that bought a state telephone monopoly that Goldman Sachs describes as mired in inefficiency, with three-year connection waits. The sources largely retell one account and none states his intent, so the pattern is a strong inference rather than a documented statement of method. SELF-CALIBRATION (agent): lowered from 74/0.62 to 70/0.55 because the supporting reference sources are retellings of the same account, not independent corroboration."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_slim_scotsman, src_slim_britannica, src_slim_gale | 1982-1990 | newspaper profile, reference biographies] The same documented purchases were made when, per Britannica, the government's nationalisations were 'scaring away business investors', i.e. against the prevailing flow of capital. That is a documented pattern, but whether it reflects independent judgement rather than access or capital is not established by these sources, so the score is a modest lean with confidence below 0.5."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_slim_gale, src_slim_goldman, src_slim_infoworld, src_slim_britannica | 1990-2007 | reference biography, adviser history, trade press] His group committed to invest up to US$10 billion over five years in the Telmex network in exchange for takeover protection (Gale); he later put about US$2 billion into the US chain CompUSA from 1999, which was wound down in 2007 after losses (InfoWorld citing the Wall Street Journal; Britannica calls it a rare misstep). Large, concentrated commitments with one documented large loss: advantage in the telecom case, costly in the retail case, hence dual-edged."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_slim_scotsman, src_slim_bloomberglinea | 2010, 2024 | newspaper profile, press-conference report] The Scotsman reports that people who have done business with him speak of his memory and command of figures, that he knows the financial data of the leading telecom companies, and quotes former associate Randall Stephenson calling him probably the most intelligent businessman he has met; at his 2024 press conference he cited Telmex's valuation in 1986, 1989 and 1990 and its connection backlog (Bloomberg Linea, his own figures). The corroboration is one profile's second-hand testimony plus self-presented figures, so moderate score and confidence 0.5."
+    },
+    "competitiveness": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_slim_gale, src_slim_aljazeera, src_slim_reuters, src_slim_bloomberglinea | 1996-2024 | reference biography quoting NYT, critical feature, wire report, press-conference report] When long-distance competition opened in 1997 Telmex ran an aggressive, nationalistic advertising campaign and Slim said that if competitors were aggressive 'we are going to be just as aggressive' (Gale quoting the New York Times); he defends a roughly 70 percent mobile share as leaving room for rivals (Al Jazeera); regulators have repeatedly imposed dominance rules and competitors say wholesale access is inadequate (Reuters, Bloomberg Linea). The documented behaviour is robust defence of market position; claims of unfair conduct are critics' and regulators' characterisations and are not treated as established. Dual-edged because it served shareholders while drawing sustained regulatory and consumer criticism."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_slim_britannica, src_slim_gale | 1990-2007 | reference biographies] The group moved from a conglomerate of mining, manufacturing and tobacco into telecoms, separated the mobile unit as America Movil in 2001 where it expanded rapidly, and exited the US retailer CompUSA in 2007 after judging it could not be turned around. Each step is documented, but the sources describe outcomes rather than how decisions were reached, so a modest score with confidence below 0.5."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/carlos-slim-cultura-cdmx-2018.jpg",
+    "width": 856,
+    "height": 1200,
+    "source": "Wikimedia Commons, 'Carlos Slim (45680472234) (cropped).jpg' -- photograph by Tania Victoria for the Secretaria de Cultura de la Ciudad de Mexico, taken 20 December 2018 at the opening of the Museo Soumaya Casa Guillermo Tovar de Teresa and published on the city culture secretariat's Flickr account under CC BY 2.0; the Flickr page shows CC BY 2.0 and the uncropped Commons file carries a passed Flickr licence review (FlickreviewR 2, 2 March 2020). Cropped file 1456 x 2040 pixels, downscaled to 856 x 1200.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Tania Victoria / Secretaria de Cultura de la Ciudad de Mexico, 20 December 2018, CC BY 2.0, cropped and downscaled",
+    "attributionUrl": "https://www.flickr.com/photos/culturacdmx/45680472234",
+    "creator": "Tania Victoria / Secretaria de Cultura de la Ciudad de Mexico",
+    "date": "2018-12-20",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Carlos_Slim_(45680472234)_(cropped).jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "카를로스 슬림"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-25T00:00:00Z",
+    "updatedAt": "2026-10-25T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID Q170419 verified live (wbgetentities 2026-10-25): label 'Carlos Slim', description 'Mexican business magnate and investor', born 28 Jan 1940, no death date, instance of human. No production or candidate slug/QID collision (grep of data-pipeline/candidates and src/data/people). Region latin_america (Mexico). Zero-politics passes: primary identity is business (Grupo Carso, Telmex, America Movil); his ties to the Salinas government and any election or policy episodes are excluded and not scored. Vocabulary: occupations entrepreneur, executive, investor, tags founder and strategist, field business and archetype entrepreneurial_builder all have EN and KO labels. portrait_preflight: plausible (lead) / confirmed: Commons cropped file carries cc-by-2.0 with the Flickr source, author credited as the city culture secretariat; the uncropped file has a passed FlickreviewR 2 review (2020-03-02); live Flickr page shows CC BY 2.0; photographer credited on the Flickr caption as Tania Victoria. Caveat: the licence is photo-level on an official government account; no conflicting account-level statement was seen. PORTRAIT PREFLIGHT: rights-clear. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Carlos Slim Helu' (https://www.britannica.com/money/Carlos-Slim-Helu) -- the conglomerate built on post-1982 bargain purchases, the 1990 Telmex purchase and the creation of America Movil. LIVING SUBJECT: only public, documented professional behaviour is scored. Excluded: family and succession, health (a 1997 surgery mentioned in one reference), personal habits and temper in the Scotsman profile, philanthropy, art collection, politics, regulatory-politics episodes beyond the commercial dispute, and all allegations about how he won Telmex (the claim that connections won it is a critics' claim that he disputes; recorded here only as an unscored counter-voice). READ (8 substantive sources, plus Wikidata for orientation): Britannica (canonical), Goldman Sachs history page, Gale business biography (FT/NYT-based), Scotsman profile, Al Jazeera feature (OECD report, critics), Reuters via Fortune (regulator), Bloomberg Linea (his 2024 press conference), InfoWorld on CompUSA (citing WSJ). PERSPECTIVES: reference biographies, adviser's institutional account, newspaper profile with a named critic and a named former associate, critical feature quoting an international body, wire report on regulation, trade press, subject's own statements. Counter-voice: Al Jazeera (OECD overcharging estimate, regulator fine dropped) and Reuters (competitors say rules are not working). NOT OPENED: Diego Osorno's biography (no access), Forbes, Economist, FT and New York Times originals (not retrieved; the NYT and FT items appear only through the Gale summary and are flagged in the row rationale), the OECD 2012 report itself (cited via Al Jazeera). A 2008 Time 100 finalists blurb and a CNN/Fortune 2007 page (404) were not used. No adversarial biography was read, and several sources retell one account of the 1982-1990 period, so all scores stay at or below 70 and confidence at or below 0.55; six rows only. SELF-CALIBRATION (agent) pass: reviewed opportunity_sensing, risk_tolerance and competitiveness; lowered opportunity_sensing 74/0.62 to 70/0.55 because its sources retell one account; risk_tolerance and competitiveness left unchanged (distinct, documented episodes from independent sources)."
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "shinya-yamanaka",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Shinya Yamanaka",
+    "aliases": [
+      "Yamanaka Shinya"
+    ],
+    "wikidataId": "Q80917",
+    "birthYear": 1962,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "medical_researcher",
+      "biologist"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "career_changer",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yamanaka_wikidata",
+      "kind": "wikidata",
+      "title": "Shinya Yamanaka (Q80917) -- verified live via the Wikidata API (2026-10-26): English label 'Shinya Yamanaka', description 'Japanese doctor and medical scientist (born 1962)', born 1962-09-04, no date of death, citizenship Japan, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q80917"
+    },
+    {
+      "id": "src_yamanaka_nobel_pr",
+      "kind": "award_body",
+      "title": "Nobel Assembly at Karolinska Institutet, 'The Nobel Prize in Physiology or Medicine 2012 - Press release', read in full. CANONICAL SIGNIFICANCE SOURCE: the prize was awarded jointly to John B. Gurdon and Shinya Yamanaka 'for the discovery that mature cells can be reprogrammed to become pluripotent'; Gurdon showed in 1962 that specialisation is reversible by nuclear transfer in frogs, and Yamanaka discovered more than 40 years later, in 2006, how intact mature mouse cells could be reprogrammed to stem cells by introducing only a few genes. An award-body summary: admiring and retrospective.",
+      "url": "https://www.nobelprize.org/prizes/medicine/2012/press-release/"
+    },
+    {
+      "id": "src_yamanaka_nobel_adv",
+      "kind": "award_body",
+      "title": "Nobel Committee for Physiology or Medicine, 'Scientific Background: Nuclear Reprogramming' (Advanced information, Nobel Prize in Physiology or Medicine 2012), read in full for the Yamanaka section: his earlier Nanog and Eras work, the choice of 24 ES-cell transcription factors tested in one step, narrowing to Myc, Oct3/4, Sox2 and Klf4 (Takahashi and Yamanaka 2006), the absence of germ-line transmission in the first study and its achievement a year later by Yamanaka's group in parallel with the Jaenisch and Hochedlinger groups, and the 2007 human iPS cells from Yamanaka's and James Thomson's laboratories using different factor combinations. A committee text: authoritative, careful about priority and parallel work, admiring in tone.",
+      "url": "https://www.nobelprize.org/prizes/medicine/2012/advanced-information/"
+    },
+    {
+      "id": "src_yamanaka_nobel_bio",
+      "kind": "biography",
+      "title": "Shinya Yamanaka, 'Biographical' (Nobel Prize autobiography written at the time of the 2012 award), read in full: his own account of medical training, switching from orthopaedic surgery to basic science, a pharmacology PhD, the Gladstone postdoc, return to Japan, the Nat1 work that many journals rejected, the 24-gene screen carried out by Kazutoshi Takahashi, the naming of iPS cells, the 2006 and 2007 papers, the same-day human iPS cell reports of his and Thomson's labs, CiRA, and running the 2012 Kyoto Marathon to raise donations. SELF-ACCOUNT: never the sole support for a row. Family, health and emotional passages were read and excluded from scoring.",
+      "url": "https://www.nobelprize.org/prizes/medicine/2012/yamanaka/biographical/"
+    },
+    {
+      "id": "src_yamanaka_naturenews",
+      "kind": "press",
+      "title": "Nature news blog, 'Researchers rebut critiques of stem cells derived from adult cells' (June 2011), read in full: Yamanaka defends iPS cells at the ISSCR meeting in Toronto after a year of publications on gene-expression and epigenetic differences from embryonic stem cells and a report of immune rejection of some iPS transplants; he shows unpublished data from ten embryonic and fifty iPS lines that some but not all iPS lines differ, concludes there is wide heterogeneity, says he cannot tell whether the immunogenicity differences are statistically significant; Rudolf Jaenisch reports a vector-based explanation for a reproducibility discrepancy. COUNTER-VOICE and independent journalism.",
+      "url": "https://blogs.nature.com/blog/researchers_rebut_critiques_of/"
+    },
+    {
+      "id": "src_yamanaka_millennium",
+      "kind": "press",
+      "title": "Millennium Technology Prize, 'Shinya Yamanaka produces first clinical-grade iPS cells' (13 June 2014, interview-based news story), read in full: Yamanaka on beginning GMP-standard iPS cell production, his estimate that general availability will take at least ten years, on the discovery coming 'a combination of good strategy and good luck' from more than 10,000 candidates narrowed to 24, on his collaboration with Masayo Takahashi at RIKEN on a macular degeneration trial, and on the 2014 STAP controversy at RIKEN and a correction he made to a 2000 paper figure (Kyoto University found no problem with the conclusions). Interviewer-written; the controversy passages were used only as context and are unscored.",
+      "url": "https://millenniumprize.org/stories/shinya-yamanaka-produces-first-clinical-grade-ips-cells"
+    },
+    {
+      "id": "src_yamanaka_jsps",
+      "kind": "institution",
+      "title": "Shinya Yamanaka, 'Research that Supports Our Fundamental Understanding of iPS Cells' (Japan Society for the Promotion of Science, Kakenhi essay no. 71), read in full: the Nat1 funding, the argument for sustained basic-research grants, the 2006 and 2007 iPS cell reports, the safety problems of early iPS cells (retroviral integration and the c-Myc oncogene), the later episomal vectors and L-Myc substitution, and CiRA's public donation drive. SELF-ACCOUNT on an institutional site.",
+      "url": "https://www.jsps.go.jp/english/e-grants/kakenhi_essay/data/no71_yamanaka_e.pdf"
+    },
+    {
+      "id": "src_yamanaka_gairdner",
+      "kind": "award_body",
+      "title": "Gairdner Foundation, 'Shinya Yamanaka' (2009 Canada Gairdner International Award winner profile), read in full: dated career chronology (Kobe MD 1987, Osaka City University PhD 1993, Gladstone postdoc 1993-96, Osaka City 1996, Nara Institute of Science and Technology 1999-2003, Kyoto 2004, CiRA director 2008). Chronology source.",
+      "url": "https://gairdner.org/winner/shinya-yamanaka"
+    },
+    {
+      "id": "src_yamanaka_balzan",
+      "kind": "award_body",
+      "title": "International Balzan Prize Foundation, 'Shinya Yamanaka: Bio-bibliographie' (2010 Balzan Prize for Stem Cells), read in full: career positions and a list of his most important papers, including the 2009 Nature Biotechnology study of variation in the safety of iPS cell lines and the 2008 work on iPS cells without viral vectors and without Myc. Chronology and bibliography source.",
+      "url": "https://www.balzan.org/de/preistraeger/shinya-yamanaka/bio-bibliographie"
+    },
+    {
+      "id": "src_yamanaka_portrait",
+      "kind": "archive",
+      "title": "Japan Academy (Nihon Gakushiin) member page for Shinya Yamanaka, the Wikimedia Commons file page 'Shinya Yamanaka 20141226.jpg' (author: Japan Academy; licence CC BY 4.0 via the Government of Japan Standard Terms of Use 2.0), and the Ministry of Education website terms of use (MEXT) which list japan-acad.go.jp among covered sites. Checked for the portrait only.",
+      "url": "https://www.japan-acad.go.jp/japanese/members/7/yamanaka_shinya.html"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yamanaka_nobel_adv, src_yamanaka_nobel_pr, src_yamanaka_millennium | 2004-2007 | award-body committee + interview story] The Nobel committee calls introducing all 24 candidate ES-cell genes in one step 'a strikingly bold experiment' that led to four factors (Myc, Oct3/4, Sox2, Klf4) converting mature cells to pluripotency, and describes the result as a fundamental discovery that opened a new field; Yamanaka himself says it combined strategy and luck and that the same 24 could have been chosen differently. Committee praise is retrospective, but the underlying result was reproduced by other labs (Jaenisch, Hochedlinger, Thomson). Joint-prize note: the Prize is shared with John Gurdon, and the 2006 paper is by Takahashi and Yamanaka and Kazutoshi Takahashi ran the 24-gene screen per Yamanaka's account; the score reflects Yamanaka's own conception of the screen, not the whole field."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yamanaka_naturenews, src_yamanaka_nobel_bio, src_yamanaka_balzan | 2005-2011 | independent journalism + self-account + bibliography] He repeated his experiments before publication so that no one could doubt the result; in 2011 he answered critics of iPS cells with data from ten embryonic and fifty iPS lines, conceded that some iPS lines do differ from embryonic cells, and said he could not tell whether the reported immunogenicity differences were significant; his lab also published a study of variation in the safety of iPS lines. The independent evidence is a single conference report plus a bibliography, so confidence stays moderate."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yamanaka_nobel_bio, src_yamanaka_jsps, src_yamanaka_gairdner | 1996-2006 | self-account + institutional chronology] After postdoc work on Nat1 and ES cells he continued the work in Japan on limited funding while many journals rejected it, and then pursued an iPS goal he says he was unsure could be reached in his lifetime, through the 2004 Kyoto move and about two years of screening to the 2006 paper. The chronology is independently documented; the difficulties are mostly his own report, so confidence is held down."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yamanaka_gairdner, src_yamanaka_nobel_bio, src_yamanaka_balzan | 1987-2012 | institutional chronology + self-account] Documented career path: orthopaedic residency (1987-89), then a pharmacology PhD (1989-93), mouse-genetics postdoc in San Francisco, assistant professor at Osaka City, associate and full professor at Nara and Kyoto; he says he moved to Kyoto in 2004 to work on human ES cells. He later redirected the lab to safer reprogramming methods (no viral vectors, no Myc). The chronology is independently confirmed; the reasons for the changes are his own."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yamanaka_nobel_bio, src_yamanaka_millennium, src_yamanaka_jsps | 2008-2014 | self-account + interview story] He states a vision of developing new cures through basic research, set public ten-year goals for CiRA including clinical studies, ran the 2012 Kyoto Marathon to raise donations, and in 2014 reported starting GMP-standard iPS production while collaborating on a first iPS clinical trial at RIKEN. The actions are documented, but the motive is largely stated by himself. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 72 / 0.62 to 68 / 0.56 because the stated vision is self-reported and independent corroboration is limited to the interview story."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yamanaka_nobel_bio, src_yamanaka_naturenews, src_yamanaka_jsps | 1989-2011 | self-account + independent journalism] He says an early experiment that contradicted his supervisor's hypothesis made him fascinated by basic science, that the Nat1 result changed ES cells from a tool into a research subject, and that early retroviral/c-Myc iPS cells had safety problems that his lab then worked around; in 2011 he acknowledged that some iPS lines differ from embryonic cells. Mostly self-reported, with one independent report of conceding a point."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yamanaka_nobel_bio, src_yamanaka_nobel_adv, src_yamanaka_millennium | 2004-2014 | self-account + committee + interview story] The iPS work is described by the committee and by Yamanaka as a lab effort: Takahashi ran the 24-gene screen and named co-workers made later advances (germline competence, no-Myc, other cell types); the committee notes parallel work by the Jaenisch, Hochedlinger and Thomson groups; in 2014 he describes a strong collaboration with Masayo Takahashi on the first iPS clinical trial. Credit-sharing is largely his own writing."
+    },
+    "competitiveness": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yamanaka_nobel_bio, src_yamanaka_nobel_adv, src_yamanaka_jsps | 2007 | self-account + committee] He says he worked day and night to publish the human iPS cell paper quickly after hearing a rumour of a US submission, and the committee and his own essay both record that his and Thomson's papers appeared the same day; he also records his mentor's advice that scientists compete worldwide. One episode, self-reported, so low confidence."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/shinya-yamanaka-japan-academy-2014.jpg",
+    "width": 800,
+    "height": 1200,
+    "source": "Japan Academy (Nihon Gakushiin) official member photograph of Shinya Yamanaka, taken 26 December 2014 per EXIF, published on the Academy's member page and re-uploaded to Wikimedia Commons as 'Shinya Yamanaka 20141226.jpg' (original 2176 x 3265) under the Government of Japan Standard Terms of Use 2.0, which are compatible with CC BY 4.0. The Academy's site is listed among the sites covered by the Ministry of Education (MEXT) website terms of use, which allow free reuse including commercial use with attribution. Downscaled to 800 x 1200 from the Commons original; no upscaling.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Japan Academy (Ministry of Education, Culture, Sports, Science and Technology, Japan), 2014, CC BY 4.0",
+    "attributionUrl": "https://www.japan-acad.go.jp/japanese/members/7/yamanaka_shinya.html",
+    "creator": "Japan Academy",
+    "date": "2014",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Shinya_Yamanaka_20141226.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "야마나카 신야"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / Japan Academy official photo under Government of Japan Standard Terms 2.0 via MEXT terms; Commons licence review still pending; third-party/portrait-rights caveat on the terms recorded. PREFLIGHT: QID VERIFIED LIVE (2026-10-26, wbgetentities): Q80917 label 'Shinya Yamanaka', description 'Japanese doctor and medical scientist (born 1962)', born 1962-09-04, no death date, citizenship Japan; lead's hint correct. SLUG/QID CHECK: no existing candidate or src/data reference to shinya-yamanaka or Q80917. REGION: east_asia (Japan; career base Kyoto, with a Gladstone Institutes affiliation in San Francisco). ZERO POLITICS: pure biomedical science; his role as a research-funding advocate and CiRA director is institutional and unscored as politics. LIVING SUBJECT: only documented public professional behaviour scored; excluded: family, parents, wife and daughters, his father's death, the emotional-difficulty passage after returning to Japan, health, judo injuries, the April 2014 correction of a 2000 paper figure (read in the Millennium interview; Kyoto University found no problem with the conclusions; treated as context, not scored), Wikipedia. VOCABULARY: occupations medical_researcher, biologist; fields medicine, biology; tags nobel_laureate, career_changer, innovator; archetype scientific_explorer: all existing ids with EN+KO labels. CANONICAL SIGNIFICANCE SOURCE: Nobel Assembly press release 2012 (https://www.nobelprize.org/prizes/medicine/2012/press-release/). READ (8 cited non-Wikidata sources): Nobel press release, Nobel advanced information, Nobel autobiography (self), Nature news blog 2011 (counter-voice), Millennium Prize interview story 2014, JSPS essay (self), Gairdner profile, Balzan profile. PERSPECTIVES: Nobel committee (independent award-body view including priority/parallel work by Jaenisch, Hochedlinger, Thomson), independent journalism (Nature blog, Millennium interviewer), self-accounts (autobiography, JSPS essay), award-body chronologies. COUNTER-VOICES: critiques on iPS cell heterogeneity/epigenetic differences/immunogenicity (reported with Yamanaka's reply in the Nature blog); Jaenisch's reproducibility finding. JOINT CREDIT: the Prize is shared with John Gurdon (nuclear transfer, 1962); the 2006 Cell paper is Takahashi and Yamanaka (Kazutoshi Takahashi ran the screen per the Nobel autobiography; formal co-first authorship was not verified in a source read); human iPS cells were reported the same day by Thomson's lab; achievement cards attribute accordingly. NOT opened: Cell 2006 paper (403), Scudellari 2016 Nature feature and Cyranoski 2012 Nature news (paywalled, only abstracts/snippets seen; not cited), Science news, Japanese-language sources. PORTRAIT_PREFLIGHT: strong/plausible (lead) / Commons page cites the Japan Academy page, author Japan Academy, template Gjstu-2.0 plus CC BY 4.0, but the licence-review tag is still 'review needed' (unreviewed); the authoritative basis was therefore checked at the institution: the MEXT website terms explicitly list japan-acad.go.jp, permit reuse including commercial with attribution, and carry a general caveat about third-party rights including portrait rights unless clearance is stated (the photo is the Academy's own official member photograph, but the sitter's personality/portrait right is not separately stated; flagged for the lead). The Academy page's own image is 320 x 427; the Commons original is 2176 x 3265 (same photograph; confirmed visually as the same sitter); the Commons-size file was downscaled to 800 x 1200. SELF-CALIBRATION: rows reviewed: creative_originality (78 / 0.68), impact_motivation (72 / 0.62), competitiveness (55 / 0.45); impact_motivation lowered to 68 / 0.56 because the vision is self-stated; the other two kept (committee plus other labs' reproduction support the first; the third is already low-confidence)."
+  }
+}

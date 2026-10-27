@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "benjamin-cardozo",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Benjamin N. Cardozo",
+    "aliases": [
+      "Benjamin Nathan Cardozo"
+    ],
+    "wikidataId": "Q817637",
+    "birthYear": 1870,
+    "deathYear": 1938,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "jurist",
+      "lawyer"
+    ],
+    "fieldIds": [
+      "law"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "systematic_thinker",
+      "detail_oriented",
+      "specialist"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cardozo_wikidata",
+      "kind": "wikidata",
+      "title": "Benjamin N. Cardozo (Q817637), verified live via the Wikidata API (2026-10-26): label 'Benjamin N. Cardozo', description 'United States federal judge (1870-1938)', born 1870-05-24, died 1938-07-09. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q817637"
+    },
+    {
+      "id": "src_cardozo_schs",
+      "kind": "institution",
+      "title": "Supreme Court Historical Society, 'Benjamin Nathan Cardozo, 1932-1938' (supremecourthistory.org), read in full. CANONICAL SIGNIFICANCE SOURCE: short institutional biography covering twenty-three years of appellate practice, election to the New York Supreme Court in 1914 and a temporary then full seat on the New York Court of Appeals (full term 1917, Chief Judge 1926 per this source), his writings used as a handbook for lawyers and expanded Yale lectures, and his 1932 nomination to the Supreme Court. Short and admiring; gives no behavioural detail.",
+      "url": "https://supremecourthistory.org/?p=620"
+    },
+    {
+      "id": "src_cardozo_friedman2000",
+      "kind": "biography",
+      "title": "Richard D. Friedman, 'Cardozo the [Small r] realist' (Michigan Law Review 98, 2000), a long review of Andrew L. Kaufman's biography 'Cardozo' (Harvard University Press, 1998), read in full via the University of Michigan repository PDF. Substantive and balanced scholarly review; reports Kaufman's findings on Cardozo's practice years, his opinion-writing and conduct on the New York Court of Appeals and the Supreme Court, with named cases and page references, and notes flaws (vanity, hauteur) as well as admiration. The biography itself was not opened.",
+      "url": "https://repository.law.umich.edu/reviews/11"
+    },
+    {
+      "id": "src_cardozo_kaufman",
+      "kind": "biography",
+      "title": "Andrew L. Kaufman, 'Cardozo and the Art of Biography' (Cardozo Law Review 20, 1999), read in full: the biographer's own account of researching Cardozo, his briefs from twenty-three years of practice (about fifty arguments in the New York Court of Appeals in his last eight years at the bar), the more than 600 memoranda Cardozo wrote to colleagues on the Court of Appeals, and the destruction of most of his personal papers. Author of the standard biography, so admiring of his subject and not independent of Friedman's review; used for work habits and documentary context only.",
+      "url": "https://larc.cardozo.yu.edu/clr/vol20/iss4/5"
+    },
+    {
+      "id": "src_cardozo_friedman1991",
+      "kind": "press",
+      "title": "Richard D. Friedman, 'On Cardozo and Reputation: Legendary Judge, Underrated Justice?' (Cardozo Law Review 12, 1991), a review of Richard A. Posner's 'Cardozo: A Study in Reputation', read in part (opening discussion of Posner's reputation thesis and his case analyses; the Supreme Court section was skimmed by keyword only). Independent scholarly assessment that questions Posner's social-science method.",
+      "url": "https://repository.law.umich.edu/reviews/18"
+    },
+    {
+      "id": "src_cardozo_arkin",
+      "kind": "press",
+      "title": "Marc M. Arkin, 'Judging by Reputation' (Fordham Law Review 60, 1992), a critical review of Posner's 'Cardozo: A Study in Reputation', read in the first half (the critique of 'reputology', citation-count measures of reputation, and Posner's argument that reasoning in MacPherson v. Buick and Ultramares v. Touche is inconsistent). COUNTER-VOICE: sceptical of how Cardozo's reputation is measured and reports Posner's view that some celebrated reasoning is flawed; second half not read.",
+      "url": "https://ir.lawnet.fordham.edu/flr/vol60/iss4/5"
+    },
+    {
+      "id": "src_cardozo_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Benjamin Cardozo.jpg' (Harris & Ewing, about 1932, Library of Congress Prints and Photographs Division, digital ID cph.3a38655) and the Commons Harris & Ewing rights tag, checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Cardozo.jpg"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cardozo_friedman2000, src_cardozo_friedman1991, src_cardozo_arkin | 1916-1937 | biography review + reviews of Posner] Friedman, summarising Kaufman, reports that Cardozo worked through precedent and legal concepts such as duty and consideration, took the limits he stated on doctrines seriously, and kept to doctrine even when the result was unattractive to him (the teachers' pension cases, Allen v. Allen). The counter-voice in Arkin's review reports Posner's view that the reasoning in MacPherson v. Buick and Ultramares v. Touche is inconsistent, so a careful method is documented but not uniformly flawless."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cardozo_kaufman, src_cardozo_friedman2000 | 1890-1930s | biographer + biography review] Kaufman, reading Cardozo's briefs, links his practice years to a constant emphasis on the facts of each case and a usual habit of limiting holdings to those facts; Friedman records the attention to degree and fact in Hynes v. New York Central. Both sources derive from the same biography, so independence is limited."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cardozo_kaufman, src_cardozo_friedman2000 | 1890-1932 | biographer + biography review] Kaufman found about fifty Court of Appeals arguments in Cardozo's last eight years of practice and more than 600 memoranda he wrote to colleagues explaining why cases should be decided without opinion; Friedman, summarising Kaufman, says he was dedicated to routine, comfortable doing familiar things in familiar places. The volume of work is documented, but it comes through one biographer, so the reading stays moderate."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cardozo_friedman2000 | 1935-1936 | biography review] Friedman, summarising Kaufman, reports that Cardozo's draft concurrence in Grosjean v. American Press Co. led Justice Sutherland to rewrite his opinion on a rationale like Cardozo's, that Chief Justice Hughes adopted Cardozo's analogy in the Railroad Retirement Board dissent, and that a draft concurrence was withdrawn after Hughes incorporated much of it. Episodes are specific but all reach us through one review of one biography, and only the junior-justice context is independent. SELF-CALIBRATION (agent): reviewed as a top-risk row (one-source dependence); lowered from 70 / 0.56 to 64 / 0.50 because every episode rests on Friedman's reading of Kaufman and the underlying court papers were not opened."
+    },
+    "aesthetic_sensitivity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cardozo_friedman2000, src_cardozo_arkin | 1920s-1930s | biography review + critical review] Friedman describes a celebrated prose style with archaic expressions and unexpected inversions and Kaufman reports briefs written in a near fully formed style from the start of his career; contemporaries differ, with Jerome Frank (quoted by Friedman) calling the grace 'alien' and Posner (quoted by Friedman) saying he sometimes wrote with an exotic grace. Care for expression is documented, but how it served his decisions is disputed, hence dual-edged. SELF-CALIBRATION (agent): reviewed as a top-risk row (retrospective praise of style); lowered from 70 / 0.55 to 66 / 0.50 because the evidence is critical characterisation of his prose rather than specific working behaviour."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "벤저민 카도조"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "The only candidate image is Harris & Ewing, circa 1932 (Library of Congress cph.3a38655). It was made after 1930, so there is no age-based public-domain basis, and the sole stated basis is the Library's 'no known restrictions' wording, which the Library itself says is not a rights clearance (and loc.gov could not be read directly). Next step: find a pre-1931 published photograph with a stated author or publication, or a work with a documented open licence.",
+    "kind": "likeness"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE (2026-10-26): Q817637 label 'Benjamin N. Cardozo', description 'United States federal judge (1870-1938)', born 1870-05-24, died 1938-07-09; matches the lead. No existing candidate or src/data reference to benjamin-cardozo or Q817637. REGION north_america (New York career). ZERO POLITICS: primary identity is jurist; his votes in New Deal cases and any liberal-wing alignment were read about (Friedman) but are NOT scored. VOCABULARY: jurist, lawyer, law, tags systematic_thinker, detail_oriented, specialist and archetype scholarly_specialist all have EN and KO labels. portrait_preflight: strong (lead) / confirmed the Commons record (Harris & Ewing, circa 1932, LoC cph.3a38655) and the file opens as a clear portrait; LoC item and collection pages could not be fetched directly (blocked), so the basis is the Commons tag plus a search-tool summary of the LoC collection page; flagged to lead. CANONICAL SIGNIFICANCE SOURCE: Supreme Court Historical Society, 'Benjamin Nathan Cardozo, 1932-1938' (https://supremecourthistory.org/?p=620). READ: Friedman 2000 review of Kaufman's biography (substantive), Kaufman 1999 article, Friedman 1991 review of Posner (partial), Arkin 1992 (first half). NOT opened: Kaufman's biography itself, Posner's 'Cardozo: A Study in Reputation', Goldberg's 1999 Stanford review (not retrievable in full), the MacPherson v. Buick opinion (Justia blocked, CourtListener empty), 'The Nature of the Judicial Process' (self material). PERSPECTIVES: institutional biography, a scholarly review of the standard biography, the biographer's own account, two reviews of Posner (one sceptical). Independence is limited because most behavioural episodes come through Kaufman's research; the evidence is reviews rather than primary court papers. EXCLUSIONS: private life, sexuality, family, health and death were read in Friedman's review but are not scored or inferred; the saint reputation is contested by his own clerks and is not scored. SELF-CALIBRATION (agent): top-risk rows reviewed: persuasiveness (70/0.56 lowered to 64/0.50, one-source), aesthetic_sensitivity (70/0.55 lowered to 66/0.50, retrospective praise of style), analytical_rigor (kept, supported by two reviews and a critic). FLAGS: only 5 sparse rows; Roster-wide, reviews substitute for biographies; 'Palko', 'Steward Machine' and 'Palsgraf' appear only in secondary mentions."
+  }
+}

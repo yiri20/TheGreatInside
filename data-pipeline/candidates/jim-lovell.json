@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jim-lovell",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jim Lovell",
+    "aliases": [
+      "James A. Lovell Jr.",
+      "James Lovell"
+    ],
+    "wikidataId": "Q111240",
+    "birthYear": 1928,
+    "deathYear": 2025,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronaut",
+      "aviator"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lovell_wikidata",
+      "kind": "wikidata",
+      "title": "Jim Lovell (Q111240) -- verified live via the Wikidata API (2026-10-25): English label 'Jim Lovell', description 'American astronaut (1928-2025)', born 1928-03-25, died 2025-08-07, citizenship United States, Korean label '짐 러벨', P18 image 'James Lovell.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q111240"
+    },
+    {
+      "id": "src_lovell_nasa_bio",
+      "kind": "institution",
+      "title": "NASA Johnson Space Center, 'Biographical Data: James A. Lovell (Captain, USN, Ret.)' (nasa.gov, December 1994 edition), read in full: education including Test Pilot School at Patuxent River in 1958; four years as a Navy test pilot and Program Manager for the F4H Phantom; selected as an astronaut in September 1962; backup for Gemini 4, backup commander for Gemini 9 and backup to Neil Armstrong for Apollo 11; Gemini 7 with Frank Borman in December 1965, Gemini 12 as commander in November 1966, Apollo 8 as the first humans to leave Earth's gravitational influence, and Apollo 13 as spacecraft commander, where with Swigert and Haise, working closely with Houston controllers, the crew converted the lunar module into a lifeboat; record 715 hours in space until Skylab. CANONICAL SIGNIFICANCE SOURCE (with Smithsonian Magazine). Agency biography, factual and self-supplied in part; later business, council and family passages not used.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2016/01/lovell_james_0.pdf"
+    },
+    {
+      "id": "src_lovell_smithsonian",
+      "kind": "press",
+      "title": "Smithsonian Magazine, 'Jim Lovell, Apollo 13 Commander Who Thrived Under Pressure, Dies at 97' (smithsonianmag.com, August 2025), read in full: curator Teasel Muir-Harmony on his determination and persistence after not being chosen for the first astronaut group and being selected in 1962; the 14-day Gemini 7 flight; Apollo 8 as a late change to a lunar-orbit mission; historian and museum voices (Orwoll, Johnston, Larson) on calm composure in the first hour after the Apollo 13 explosion, the improvised carbon-dioxide canister adapter built from plastic bags, cardboard and tape on instructions from Mission Control, and the manual course correction aligned on the Earth's day-night line, a procedure he had practised on Apollo 8; his book with Jeffrey Kluger and decades of public speaking. Museum-curator-sourced journalistic obituary; admiring and retrospective; childhood, marriage and medical passages deliberately not used.",
+      "url": "https://www.smithsonianmag.com/science-nature/jim-lovell-famed-astronaut-from-apollo-missions-who-thrived-under-pressure-dies-180983150/"
+    },
+    {
+      "id": "src_lovell_ap",
+      "kind": "press",
+      "title": "Associated Press obituary carried by PBS NewsHour, 'James Lovell, commander of harrowing Apollo 13 moon mission, dies at 97' (pbs.org, 8 August 2025), read in full: four flights (Gemini 7, Gemini 12, Apollo 8, Apollo 13); Apollo 8 as the first crew to fly to and circle the Moon; Apollo 13 as the explosion, four days in the lunar module lifeboat and the return; Smithsonian historian Roger Launius on quiet confidence and 'I measure risk', and on Apollo 8's importance; Gene Kranz on Lovell as a pillar of the early programme; his 'Houston, we've had a problem' wording versus the film; his own 1994-1999 interview remarks and his one regret at missing the lunar landing. Wire-service obituary quoting named historians and a flight director; admiring; much of the reflective material is Lovell's own recollection.",
+      "url": "https://www.pbs.org/newshour/science/james-lovell-commander-of-harrowing-apollo-13-moon-mission-dies-at-97"
+    },
+    {
+      "id": "src_lovell_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Jim Lovell', read: naval academy graduate of 1952 who became a test pilot; selected as an astronaut; Gemini 7, Gemini 12, Apollo 8 and Apollo 13; the April 1970 oxygen-tank rupture that forced abandonment of the Moon mission, the swing around the Moon and return, and a total of more than 715 hours of space travel; retirement and later corporate career. Reference biography, used for chronology and as an orientation cross-check.",
+      "url": "https://www.britannica.com/biography/Jim-Lovell"
+    },
+    {
+      "id": "src_lovell_afj_lifeboat",
+      "kind": "archive",
+      "title": "NASA Apollo Flight Journal, 'Day 3, part 2: Lifeboat' (apollojournals.org, corrected air-to-ground transcript with editors' commentary), read for the period after the explosion: Lovell acknowledging and reading back each of Mission Control's instructions, including battery charging and valve resets, and reading back each step of the abbreviated Lunar Module activation checklist (Activation 1, 11, 12 and 13) while Swigert relayed instructions through the tunnel; commentary on the improvised power-up and on the lifeboat decision. Primary record with volunteer editors' commentary; used for the documented read-back behaviour.",
+      "url": "https://www.apollojournals.org/afj/ap13fj/09day3-lifeboat.html"
+    },
+    {
+      "id": "src_lovell_afj_burn",
+      "kind": "archive",
+      "title": "NASA Apollo Flight Journal, 'Day 5, part 3: The Manual Course Correction Burn' (apollojournals.org, corrected transcript with commentary), read: Mission Control's briefing of the crew on the midcourse burn with one abort rule, Haise's reply that he and Lovell had already worked out the Sun angle from the Earth's terminator, the crew's discussion of aligning on the Earth through the optical sight, and the burn pad shut-down instructions. Primary record with commentary; Lovell speaks little in this section, so it is used only for the crew's joint preparation, not for any trait of Lovell alone.",
+      "url": "https://www.apollojournals.org/afj/ap13fj/19day5-themanualcoursecorrection.html"
+    },
+    {
+      "id": "src_lovell_liebergot",
+      "kind": "archive",
+      "title": "NASA Johnson Space Center Oral History Project, interview with Seymour Liebergot (27 April 1998; Apollo 13 EECOM flight controller), read in full: his statement that Swigert said 'We've had a problem' and Lovell repeated it; his view that Apollo 13 was a mission-operations mission and that the crew 'did some great piloting, but they did what we told them to do'; his judgement that the Lovell-Kluger book was well done apart from some systems errors. A flight controller's counter-voice to the heroic-commander narrative; used to temper the independent-initiative and leadership readings. Oral history, personal and partial.",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/08/liebergots-4-27-98.pdf"
+    },
+    {
+      "id": "src_lovell_nasaimage",
+      "kind": "institution",
+      "title": "NASA Image and Video Library record S69-62241 'Portrait - Astronaut James A. Lovell Jr.' (images.nasa.gov, Johnson Space Center, 1969) with the Wikimedia Commons file page 'James Lovell.jpg', checked for the portrait: official NASA portrait of Lovell in a spacesuit beside a lunar globe, with a 'LOVELL' name tag visible; Commons tags it as a public-domain NASA image. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:James_Lovell.jpg"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lovell_afj_lifeboat, src_lovell_liebergot, src_lovell_nasa_bio | 1970 | primary transcript + flight controller oral history + agency biography] In the post-explosion transcript Lovell repeats back each instruction from Mission Control and each step of the shortened lunar module activation procedure, and Liebergot says the crew did what the ground told them to do; the agency biography records years as a test pilot and F4H programme manager. Specific, repeated procedural behaviour is documented in one episode, with a supportive controller's view; it is one mission, so confidence is moderate."
+    },
+    "ambiguity_tolerance": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lovell_smithsonian, src_lovell_ap, src_lovell_afj_lifeboat | 1968-1970 | museum-curator-sourced obituary + wire obituary + transcript] Smithsonian-quoted historian Orwoll says the calmness of the crew in recordings from the first hour after the explosion amazes him, and the AP quotes Launius on his quiet confidence and approach to measured risk; the transcript shows routine, level read-backs while the situation was unresolved. The picture is consistent but rests on retrospective admiring commentary and his own recollection of crisis, not on an independent behavioural account of his decisions. SELF-CALIBRATION (agent): first-pass 70 / 0.56 lowered to 66 / 0.50 because the 'calm' description is retrospective praise and inference from tone and his own interview remarks, while Liebergot notes that the ground directed much of the response."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lovell_smithsonian, src_lovell_nasa_bio, src_lovell_ap | 1968-1970 | museum-sourced obituary + agency biography + wire obituary] Smithsonian describes Apollo 8 being changed from an Earth-orbit lunar module test to a lunar-orbit mission when the lander lagged, and the Apollo 13 crew abandoning the planned Moon landing, moving into the lunar module and improvising a carbon-dioxide filter adapter; NASA records the crew converting the lunar module into a lifeboat. Documented across three sources; credit is shared with the crew and ground team, so a good rather than extreme score."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lovell_smithsonian, src_lovell_nasa_bio, src_lovell_afj_lifeboat | 1970 | museum-sourced obituary + agency biography + transcript] The crew built a carbon-dioxide canister adapter from plastic bags, cardboard and tape on instructions from Mission Control, and powered up the lunar module through a shortened checklist; the commander's own part in each improvisation is not separated from Haise's, Swigert's and the ground team's, so only a modest, shared-credit score."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lovell_nasa_bio, src_lovell_smithsonian, src_lovell_ap | 1950s-1970 | agency biography + museum-sourced obituary + wire obituary] He was a Navy test pilot, flew a 14-day Gemini 7 mission as the longest flight to that date, was part of the first crew to leave Earth's orbit for the Moon, and commanded Apollo 13; Launius quotes his view that there is risk and he measures it. Accepted high-risk assignments are documented, but the quotation is a historian's paraphrase and the evidence concerns assignments, not his own risk reasoning."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lovell_smithsonian, src_lovell_nasa_bio | 1959-1962 | museum-sourced obituary + agency biography] Smithsonian, citing curator Muir-Harmony, says he was not in the first astronaut group and kept going, being selected in the second group in 1962 (NASA confirms the 1962 selection), calling this characteristic of his determination and persistence. One interpretive source for the setback and one for the selection date. SELF-CALIBRATION (agent): first-pass 70 / 0.58 lowered to 66 / 0.50 because the persistence reading depends on a single curator's characterisation in one obituary."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lovell_nasa_bio, src_lovell_afj_lifeboat, src_lovell_ap, src_lovell_liebergot | 1965-1970 | agency biography + transcript + wire obituary + controller oral history] NASA records the Apollo 13 crew working closely with Houston controllers; the transcript shows Lovell, Haise and Swigert dividing tasks and relaying instructions through the tunnel; the AP describes Kranz leading the ground team while Lovell commanded; Liebergot, who stresses the ground's role, still credits the crew's piloting. Close joint work is documented; no source describes his interpersonal behaviour directly, hence strong inference."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jim-lovell-nasa-1969.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "NASA Image and Video Library S69-62241 'Portrait - Astronaut James A. Lovell Jr.' (Johnson Space Center, 1969), as the Wikimedia Commons file 'James Lovell.jpg'; the Commons description dates it December 1969 while the NASA record gives 1969. Public domain as a work of NASA, a US government agency, with no conflicting copyright notice found on the NASA record. Original 6548 x 8185 from the NASA library; downscaled once to 960 x 1200 (no upscaling, no crop). A 'LOVELL' name tag is visible on the suit.",
+    "license": "Public Domain (NASA work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:James_Lovell.jpg",
+    "attribution": "NASA, 1969",
+    "attributionUrl": "https://images.nasa.gov/details/S69-62241",
+    "creator": "NASA",
+    "date": "1969",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:James_Lovell.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "짐 러벨"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-25T00:00:00Z",
+    "updatedAt": "2026-10-25T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID verified live (Wikidata wbgetentities 2026-10-25): Q111240, en label 'Jim Lovell', description 'American astronaut (1928-2025)', born 1928-03-25, died 2025-08-07, ko label '짐 러벨'. NOTE FOR LEAD: he is DECEASED (died 7 August 2025), not living as the assignment guessed; isLiving false and deathYear 2025 set; ordinary historical-evidence rules apply but no inference from his health, bereavement or death, and no private-life material. No existing candidate or src reference to slug jim-lovell or QID Q111240. Region north_america (US). Vocabulary: occupations astronaut and aviator, field exploration, tag explorer, archetype scientific_explorer, impact domains scientific, historical and cultural all exist with labels (test_pilot and field aviation have no labels and were not used; cf. neil-armstrong). ZERO POLITICS: Navy service is treated as biography, not military identity; the Presidential fitness-council role, medals presented by presidents, and cold-war framing are not scored; no family or private life used (marriage, childhood and medical selection details in the Smithsonian and NASA pages deliberately excluded). portrait_preflight: strong (lead) / confirmed: NASA S69-62241 official portrait, public domain, NASA record and Commons both identify it, name tag visible. CANONICAL SIGNIFICANCE SOURCE: NASA JSC biographical data sheet (https://www.nasa.gov/wp-content/uploads/2016/01/lovell_james_0.pdf) with the Smithsonian Magazine obituary built on National Air and Space Museum curator comments. READ (8 cited non-Wikidata sources plus the portrait record): NASA biographical data, Smithsonian Magazine obituary, AP obituary via PBS, Britannica, Apollo Flight Journal lifeboat transcript and burn transcript (corrected transcripts with editors' commentary), Liebergot's NASA oral history, NASA image record. NOT OPENED: Kluger and Lovell's 'Lost Moon' (no access; self-co-authored anyway), Lovell's own NASA oral history transcripts (self material; seen only through quotes in the obituaries), the Apollo 13 Review Board report (about the tank failure, not about Lovell's behaviour), Kranz's 'Failure Is Not an Option', Wikipedia. PERSPECTIVES: agency biography, museum-curator-sourced obituary with named historians, wire obituary with a flight director quotation, reference biography, primary air-ground transcripts, and a flight controller's oral-history counter-view. COUNTER-VOICES: Liebergot's 'they did what we told them to do', and the observation in the AP obituary that Lovell's famous phrase differs from the film. EVIDENCE LIMITS: most behavioural material concerns the first hours of Apollo 13 and Lovell's own recollections via obituaries; his Gemini and Apollo 8 conduct and his thinking are barely documented in independent sources, so only seven rows are scored and none above 70 or 0.58. CALIBRATION: highest score 70, highest confidence 0.58. SELF-CALIBRATION (agent): rows reviewed: ambiguity_tolerance, persistence, discipline. Lowered: ambiguity_tolerance (70/0.56 to 66/0.50: retrospective praise, tone inference, self-recollection) and persistence (70/0.58 to 66/0.50: one curator's characterisation). Kept: discipline (specific documented read-backs plus a controller's corroboration). BROAD FLAG: thin independent behavioural evidence beyond Apollo 13; Chaikin's 'A Man on the Moon' or NASA's Apollo 8 and Gemini oral histories would deepen the profile. PORTRAIT: NASA S69-62241, public domain, 6548x8185 downscaled to 960x1200."
+  }
+}

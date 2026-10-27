@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "aliko-dangote",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Aliko Dangote",
+    "aliases": [
+      "Alhaji Aliko Dangote"
+    ],
+    "wikidataId": "Q1394965",
+    "birthYear": 1957,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "NG"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial"
+    ],
+    "tagIds": [
+      "founder"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dangote_wikidata",
+      "kind": "wikidata",
+      "title": "Aliko Dangote (Q1394965) -- verified live via the Wikidata API (2026-10-25): English label 'Aliko Dangote', description 'Nigerian businessperson (born 1957)', born 10 April 1957, no date of death, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1394965"
+    },
+    {
+      "id": "src_dangote_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Aliko Dangote', last updated 17 October 2026 -- reference biography: the 1977 loan to start a commodity-trading business, the Dangote Group founded by 1981, its expansion into foodstuffs, cement and haulage, the Lagos refinery spearheaded from 2013 and opened in May 2023, and the 2016 Panama Papers scrutiny. CANONICAL SIGNIFICANCE SOURCE. Read in full; the philanthropy, honours and family passages were not used.",
+      "url": "https://www.britannica.com/biography/Aliko-Dangote"
+    },
+    {
+      "id": "src_dangote_dailymaverick",
+      "kind": "press",
+      "title": "Simon Allison (Daily Maverick), 'Cementing Africa's future: The rise and rise of Africa's richest man', 19 June 2014 -- long profile: the move from commodity importing to manufacturing salt, flour, sugar and cement, 'backward integration' as import substitution, planned cement plants across Africa and the then-planned refinery, with analyst comments from Lyal White on micro-management, rapid expansion and legal challenges to the Senegal plant. Independent, partly critical. The sections on political connections, campaign funding, the leaked diplomatic cable and his private life were read but not used as evidence. Read in full.",
+      "url": "https://www.dailymaverick.co.za/article/2014-06-19-cementing-africas-future-the-rise-and-rise-of-africas-richest-man/"
+    },
+    {
+      "id": "src_dangote_cementhistory",
+      "kind": "institution",
+      "title": "Dangote Cement Plc, 'Our History' (company website, accessed 2026-10-25) -- the company's own timeline: Dangote Industries founded in 1981 as a trading business, the 1990s decision to move into integrated manufacturing, acquisition of Benue Cement (2000) and Obajana (2002), construction from 2004 and commissioning in 2007 of the Obajana plant, the 2010 listing, and plants in other African countries through 2026. Company self-description; used for dates and facts only, never for trait claims on its own. Read in full.",
+      "url": "https://cement.dangote.com/?p=1314"
+    },
+    {
+      "id": "src_dangote_ft",
+      "kind": "press",
+      "title": "Financial Times, 'Nigeria's Dangote refinery embroiled in billionaire's spat with regulators', 31 July 2024, as republished by BusinessDay (Lagos) -- report on the refinery's delays and cost overruns, its struggle to secure crude and turn to Brazil and the US, the regulator's monopoly accusation and Dangote's denial, the dropped steel plant, the dispute with the state oil company, and criticism that his cement firm sets high prices. Independent counter-voice; the Dangote group's own comments are attributed to its strategy chief. Read in full.",
+      "url": "https://businessday.ng/news/article/nigerias-dangote-refinery-embroiled-in-billionaires-spat-with-regulators-ft/"
+    },
+    {
+      "id": "src_dangote_bloomberg",
+      "kind": "press",
+      "title": "Bloomberg, 'Dangote to scrap steel investment over allegations of monopoly', 22 July 2024, republished by Engineering News (Johannesburg) -- news report on his media briefing at the refinery: the board's decision not to build a steel plant, his reply to the monopoly accusation and to claims that refinery diesel is inferior, with his own test figures, and output and export details. Wire reporting with his statements attributed; used for the steel-plant episode. Read in full.",
+      "url": "https://www.engineeringnews.co.za/print-version/dangote-to-scrap-steel-investment-over-allegations-of-monopoly-2024-07-22"
+    },
+    {
+      "id": "src_dangote_cnn",
+      "kind": "press",
+      "title": "Jackie Prager (CNN), \"'I don't get scared of anything': Aliko Dangote's mission to build Africa's largest oil refinery\", 5 June 2024, syndicated by KTVZ -- CNN's report and edited interview: construction from 2016, opening in May 2023, a US$19 billion facility, his account of the first 5 million tonne cement plant against national output of 2.1 million tonnes, and his views on imports and the continental trade area. Mostly his own statements in a friendly interview; used for corroboration of the cement and refinery bets only, never as sole support. Read in full.",
+      "url": "https://ktvz.com/news/national-world/cnn-world/2024/06/05/i-dont-get-scared-of-anything-aliko-dangotes-mission-to-build-africas-largest-oil-refinery/"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dangote_dailymaverick, src_dangote_cementhistory, src_dangote_britannica, src_dangote_cnn | 1977-2007 | independent profile, company timeline, reference biography, interview] Starting as an importer of cement, sugar and rice, he moved into local production of salt, flour, sugar and then cement (profile; company history dates the 1990s shift to integrated manufacturing), explained by the profile as noticing why Nigeria imported what it could make; in the interview he says his first plant was 5 million tonnes when national output was 2.1 million. The shift itself is documented by three sources; the 'gap he noticed' framing comes from the profile and his own account. SELF-CALIBRATION (agent): lowered from 72/0.58 to 68/0.52 because the motive for the shift rests on one narrative and his own interview, not independent corroboration."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_dangote_cementhistory, src_dangote_cnn, src_dangote_britannica, src_dangote_ft | 2004-2024 | company timeline, interview, reference biography, FT report] Construction of the first cement plant began in 2004 (company history) and he says he 'risked our capital'; he then led a refinery project, spearheaded from 2013 and completed in 2023 as a roughly US$19-20 billion facility after delays and cost overruns (Britannica, CNN, FT). Very large, concentrated bets on domestic production that paid off in cement and produced cost overruns, crude-supply and regulatory friction in the refinery, so dual-edged."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dangote_britannica, src_dangote_ft, src_dangote_cnn | 2013-2024 | reference biography, FT report, interview] Britannica dates the refinery project to 2013 and its opening to May 2023 'after several years of delays'; the FT describes completion after delays and cost overruns and continuing problems with crude supply, and the CNN piece records construction from 2016 and his saying he has been fighting battles all his life. A decade-long project carried through obstacles is documented; the sources do not describe his own conduct during the setbacks beyond his statements, so a moderate score."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dangote_bloomberg, src_dangote_ft | 2024 | wire report, FT report] When Nigerian crude supply fell short the refinery bought from Brazil and the US (FT, citing the group's strategy chief), and after the monopoly accusation his board decided against a planned steel plant, which he said would draw criticism (Bloomberg, FT). Two documented adjustments in one year from two outlets; neither shows a pattern over time, so moderate score and confidence below 0.5."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_dangote_dailymaverick | 2014 | independent profile] The profile calls him a 'notorious micro-manager, involved in the smallest decisions' and quotes an analyst on whether he can devolve control as the group grows. This is a single analyst's characterisation without a cited instance, so it stays a low-confidence inference near the middle of the scale; dual-edged because the same source ties it to his success and to a scaling limit."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear individual portrait could be resolved. (1) Wikidata P18 file 'Al Shabani at the acquisition of Dangote Cement by ICD in 2014 (cropped).jpg' is a two-person photograph uploaded as 'own work' by a Wikipedia user (Saba Dubai) under CC BY 3.0 with a credit line to the Investment Corporation of Dubai; the uploader's authorship claim is unverified, so it is rejected. (2) 'Aliko Dangote.jpg' (World Economic Forum on Africa, 2011, photographer Matthew Jordaan) is labelled CC BY-SA 2.0 on Commons after a 2011 human Flickr review, but the live Flickr page now shows CC BY-NC-SA 2.0, a conflicting and non-commercial licence, so it is rejected. (3) The US embassy photograph with Bill Gates and governors carries a United States Government Work notice on Flickr but is a seven-person group shot of 1200 x 673 pixels, too small to crop a usable portrait. (4) Remaining Commons files are own-work uploads of group scenes with doubtful provenance. Next step: find a single-subject photograph with a stated open licence at photo level (for example a recent government, multilateral or event photographer upload) or obtain written permission from a rights holder.",
+    "kind": "likeness"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알리코 단고테"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-25T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID Q1394965 verified live (wbgetentities 2026-10-25): label 'Aliko Dangote', description 'Nigerian businessperson (born 1957)', born 10 Apr 1957, no death date, instance of human. No production or candidate slug/QID collision. Region sub_saharan_africa (Nigeria). Zero-politics passes: primary identity is industrial entrepreneur (cement, sugar, flour, refinery); political funding, relationships with presidents and trade-policy lobbying are excluded and unscored. Vocabulary: occupations entrepreneur and executive, tag founder, field business, archetype entrepreneurial_builder all labelled in EN and KO. portrait_preflight: plausible (lead) / HELD: the lead's P18 lead (CC BY 3.0, Saba Dubai) is an uploader 'own work' assertion over an ICD-credited photo, so not rights-clear; see portrait.reason for the full review and the next step. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Aliko Dangote' (https://www.britannica.com/biography/Aliko-Dangote). LIVING SUBJECT: only public, documented professional behaviour is scored. Excluded: family and marriages, philanthropy, wealth rankings, the Panama Papers mention (a scrutiny episode, not conduct), campaign funding and political ties, the leaked diplomatic cable, allegations in the Senegal plant dispute (competitors' claims, not findings), and the monopoly accusations as findings (recorded only as accusations he denies). READ (6 substantive sources, plus Wikidata for orientation): Britannica (canonical), Daily Maverick profile (2014), Dangote Cement history, FT via BusinessDay (2024), Bloomberg via Engineering News (2024), CNN interview (2024). PERSPECTIVES: independent profile with analyst, company timeline, reference biography, FT counter-voice (delays, overruns, monopoly accusation, high cement prices alleged by critics), wire report, friendly interview. NOT OPENED: the original FT article and Bloomberg interviews (read only through republications), How We Made It In Africa profile (page failed to load), Forbes Africa, Economist, Dangote's own books or biographies. No adversarial book was read and the interview and company history are self material, so scores stay at or below 70 and confidence at or below 0.56; five rows only. SELF-CALIBRATION (agent) pass: reviewed opportunity_sensing, risk_tolerance and detail_orientation; lowered opportunity_sensing 72/0.58 to 68/0.52 (motive rests on one narrative and his own account); risk_tolerance left unchanged (four independent-in-part sources); detail_orientation was already scored low-confidence at 58/0.38."
+  }
+}

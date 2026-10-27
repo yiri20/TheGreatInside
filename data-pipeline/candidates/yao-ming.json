@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "yao-ming",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Yao Ming",
+    "aliases": [],
+    "wikidataId": "Q58590",
+    "birthYear": 1980,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yao_wikidata",
+      "kind": "wikidata",
+      "title": "Yao Ming (Q58590) -- verified live via the Wikidata API (2026-10-26): English label 'Yao Ming', description 'Chinese basketball player (born 1980)', Korean label '야오밍', born 1980-09-12, no death date, citizenship China, P18 images including 'YaoMingonoffense2.jpg'. The name search also returns a particle physicist (Q113443345) and several other namesakes, which were rejected. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q58590"
+    },
+    {
+      "id": "src_yao_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Yao Ming', read in full: retired from professional basketball in July 2011 after leg, foot and ankle injuries; led China's team to a respectable 10th-place finish at an Olympic Games; first overall pick of the Houston Rockets in the 2002 NBA draft; fan-voted All-Star starter as a rookie and unanimous All-Rookie team; Rockets improved from 28-54 to 43-39 in his first season; All-Star in each of the next six seasons and five playoff appearances; series of broken bones in his first seven years, a failed-to-heal broken foot in 2008-09, a missed 2009-10 season after surgery, five games in 2010-11 before a stress fracture; Hall of Fame 2016; president and owner of the Shanghai Sharks franchise since 2009 and CBA president from 2017; large Asian broadcast audiences and the NBA's efforts to popularise the league abroad. CANONICAL SIGNIFICANCE SOURCE. Reference biography, retrospective; family passages not used.",
+      "url": "https://www.britannica.com/biography/Yao-Ming"
+    },
+    {
+      "id": "src_yao_espn11",
+      "kind": "press",
+      "title": "ESPN, 'Eleven things to know about Hall of Famer Yao Ming' (espn.com, 2016), read in full: calls him a pivotal figure in the globalisation of basketball who catapulted the NBA's popularity in China; first international player taken first overall without US college basketball; his scoreless 11-minute NBA debut and his remark that he still had a lot to learn; Michael Jordan's comment on his footwork; his blocks against Shaquille O'Neal in their first meeting and Yao's 'like a truck' remark; his 2000-2002 Chinese league seasons (Shanghai championship in 2001-02); and that he later rescued his former team from financial peril by buying it in 2009. Sports-journalism feature with named participants; admiring in tone; personal and family passages not used.",
+      "url": "https://www.espn.com/nba/story/_/id/15111255/yao-ming-11-things-know-soon-basketball-hall-famer"
+    },
+    {
+      "id": "src_yao_espn_hof",
+      "kind": "press",
+      "title": "ESPN, 'Yao Ming to be inducted into Naismith Memorial Basketball Hall of Fame' (espn.com, 2016), read in full: elected to the Hall of Fame; first pick in the 2002 draft and given much of the credit for bringing the NBA to China; NBA merchandise sales and television ratings in China growing during his career; a 2007 game broadcast on 19 networks and watched by more than 200 million people in China; eight-time All-Star averaging 19 points, 9.2 rebounds and 1.9 blocks; retired in 2011 after foot and ankle injuries; 'likable and playful' personality in television ads. News report; factual and admiring.",
+      "url": "https://www.espn.com/nba/story/_/id/15098603/yao-ming-inducted-naismith-memorial-basketball-hall-fame"
+    },
+    {
+      "id": "src_yao_si",
+      "kind": "press",
+      "title": "Sports Illustrated, 'Yao Ming retires from NBA' (si.com, 8 July 2011), read in full: first overall pick in 2002 and pivotal figure in the globalisation of the NBA; career derailed over two years by left foot and ankle injuries, the full 2009-10 season missed after surgery and five games played in 2010-11 before a stress fracture; eight All-Star starts largely due to an enormous Internet vote from China; the 2007 game against Yi Jianlian shown on 19 networks to more than 200 million homes. Contemporaneous sports-news report; factual.",
+      "url": "https://www.si.com/more-sports/2011/07/08/yao-mingretired"
+    },
+    {
+      "id": "src_yao_chron_retire",
+      "kind": "press",
+      "title": "Houston Chronicle, 'Rockets' Yao makes it official, retires from basketball' (chron.com, July 2011), read in full: Yao's Shanghai retirement announcement citing his left foot and ankle injuries, and his statement thanking Houston, his national-team friends and Rockets teammates including Chuck Hayes, Kyle Lowry, Aaron Brooks and Luis Scola; owner Leslie Alexander calling it sad that his career ended so soon and saying he was a sports icon at his peak; NBA commissioner David Stern on his talent, dedication, humanitarian aspirations and sense of humour; Rockets executives' reactions. Local newspaper news report with the subject's own words and several named observers; admiring, with a team owner's regret as a counterweight.",
+      "url": "https://www.chron.com/sports/rockets/article/rockets-yao-makes-it-official-retires-from-2081184.php"
+    },
+    {
+      "id": "src_yao_chron_hof",
+      "kind": "press",
+      "title": "Houston Chronicle, 'On cusp of Hall of Fame induction, Yao Ming has legacy beyond basketball' (houstonchronicle.com, September 2016), read in full: Rudy Tomjanovich on him as a bridge between two countries; Adam Silver on his on-court success as a catalyst for NBA growth; Carroll Dawson on his patience; Tad Brown on the pressure he carried; Jeff Van Gundy on an unparalleled work ethic and enjoyment of others' success and on injuries not diminishing his dominance; his fifth-season scoring average of 25 points and nine rebounds; the Rockets' only playoff series win with Yao in his seventh season, and the note that he never came close to a championship; his own remark that he finds the Hall of Fame beyond his expectations and his description of keeping to a narrow focus. Feature written for a national audience from interviews with former coaches, executives and the subject; admiring; the political-priority and Olympic-flag passages are not used.",
+      "url": "https://www.houstonchronicle.com/sports/rockets/article/On-cusp-of-Hall-of-Fame-induction-Yao-Ming-has-9208952.php"
+    },
+    {
+      "id": "src_yao_vangundy",
+      "kind": "press",
+      "title": "Jeff Van Gundy, 'How to Measure Yao Ming' (The Players' Tribune, 2017, written as Yao's jersey was retired), read in full: his former Rockets coach describes Yao's daily routine (one-on-one weight-room work, film with assistant coach Tom Thibodeau, an individual workout before practice), his behaviour on the bench cheering teammates and greeting them at timeouts, his relationship with Tracy McGrady and Dikembe Mutombo, that he never made excuses after defeats or blamed injuries, and the coach's regret that the team never got past the first round after going up 2-0 in two playoff series. First-person coach testimony; personal, admiring and retrospective; one voice; the hearing anecdote and personal-life passages are deliberately not used.",
+      "url": "https://www.theplayerstribune.com/articles/jeff-van-gundy-yao-ming-rockets-jersey-retirement-china"
+    },
+    {
+      "id": "src_yao_nba_jersey",
+      "kind": "press",
+      "title": "NBA.com / Associated Press, 'Houston Rockets retiring Yao Ming's jersey' (nba.com/news, February 2017), read in full: the Rockets retiring his number 11 as the sixth Rocket so honoured; his 19.0 points, 9.2 rebounds and 1.9 blocks per game, eight All-Star selections and nine seasons in Houston; his retirement in 2011 because of injuries; owner Les Alexander saying the team would have won a couple of championships had he stayed; his appointment as Houston's goodwill ambassador in 2013. Wire report; factual.",
+      "url": "https://www.nba.com/news/houston-rockets-retiring-yao-mings-jersey"
+    },
+    {
+      "id": "src_yao_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file page 'Former NBA Player Yao Ming Looks On as Secretary Kerry and Chinese Vice Premier Liu Deliver Remarks ... in Beijing - 14.jpg' with the U.S. State Department's Flickr photo page, checked for the portrait: photograph by the U.S. Department of State, captioned by the Department as dated 7 June 2016 in Beijing (file timestamp 6 June 2016, 23:37), captioned by the Department as showing 'Former NBA player and Chinese national Yao Ming' and marked 'State Department photo / Public Domain'; Commons tag PD-USGov-DOS with a passed Flickr licence review ('United States Government Work', no restrictions); the Flickr page itself shows the licence as 'United States Government Work'; original 4681 x 3121. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Former_NBA_Player_Yao_Ming_Looks_On_as_Secretary_Kerry_and_Chinese_Vice_Premier_Liu_Deliver_Remarks_at_the_U.S.-China_Consultation_on_People-to-People_Exchange_in_Beijing_-_14.jpg"
+    }
+  ],
+  "rows": {
+    "discipline": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yao_vangundy, src_yao_chron_hof | 2000s | coach testimony in a first-person essay + feature quoting him] Van Gundy describes a fixed daily routine (weight-room work, film study with Thibodeau, an individual workout before practice) and calls it among the best work ethics he has seen; the Chronicle feature quotes the same coach on an unparalleled work ethic and lists work ethic among his gifts. Specific, concrete routine; but both accounts trace to one admiring retrospective source. SELF-CALIBRATION (agent): first-pass 78 / 0.64 lowered to 74 / 0.58 because the two accounts are the same coach's retrospective praise, not independent corroboration."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yao_vangundy, src_yao_chron_retire, src_yao_chron_hof | 2000s-2011 | coach testimony + retirement report + feature] Van Gundy describes him cheering from the bench, first to greet teammates at timeouts, sharing credit and blame with Tracy McGrady, and being as happy for teammates' success as his own; in his retirement statement Yao thanks named former teammates, and Stern and Rockets executives describe a humanitarian, humorous colleague. Observed behaviour is specific but comes from one coach plus the subject's own words. SELF-CALIBRATION (agent): first-pass 72 / 0.55 lowered to 68 / 0.50 because the concrete behavioural account is a single admiring coach."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yao_britannica, src_yao_espn11, src_yao_chron_hof | 2002-2006 | reference biography + sports feature + national feature] He moved from the Chinese league to the NBA at 22 with a scoreless debut and the remark that he had much to learn, was named to the All-Rookie team, lifted the Rockets from 28 to 43 wins, and by his fifth season averaged 25 points; Dawson and Brown describe his handling of unusual attention and pressure. The progression is documented, but how he adjusted is inferred from results and reminiscence, not from an account of his methods."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yao_britannica, src_yao_si, src_yao_vangundy, src_yao_chron_retire | 2008-2011 | reference biography + news report + coach testimony + retirement report] Britannica and SI record repeated fractures, surgery, a missed season and a short return in 2010-11 before retirement; Van Gundy says he never made excuses or blamed his injuries and simply went back to work. The return attempts are documented, but the effort and attitude behind them are described by the one coach, and the outcome was retirement, so a moderate score."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yao_espn11, src_yao_chron_hof, src_yao_vangundy | 2002-2016 | sports feature + national feature + coach testimony] After his debut he said he was still a rookie with a lot to learn, Van Gundy describes the daily preparation that never changed, and the Chronicle quotes him saying the Hall of Fame is beyond what he expected and that he worried a lot. Consistent pointers to continual-improvement habits, but much rests on his own remarks and one coach's retrospective. SELF-CALIBRATION (agent): first-pass 66 / 0.52 lowered to 62 / 0.46 because the humility quotations are his own reflections, not observed behaviour by others."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yao_espn11, src_yao_britannica | 2009 | sports feature + reference biography] ESPN reports that years after leaving, he rescued his former Chinese team from financial peril by buying it in 2009, and Britannica records him as president and owner of the Shanghai Sharks from 2009. The ownership is documented by two sources; the initiative and its motive are inferred from the ESPN description, and no source describes how the purchase was decided, so a modest score."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/yao-ming-state-dept-2016.jpg",
+    "width": 899,
+    "height": 1200,
+    "source": "Photograph by the U.S. Department of State, 7 June 2016, Beijing, from the Department's Flickr photo captioned as showing 'Former NBA player and Chinese national Yao Ming' (Commons file 'Former NBA Player Yao Ming Looks On as Secretary Kerry and Chinese Vice Premier Liu Deliver Remarks ... - 14.jpg'). A US Government work in the public domain (State Department photo marked Public Domain; Flickr licence 'United States Government Work'; passed Commons licence review); no conflicting notice found. Original 4681 x 3121; cropped by the project to the area around Yao (1160 x 1548 pixels at original resolution) and downscaled once to 899 x 1200 (no upscaling). Edges of the crop are out-of-focus foreground from the original composition. Rejected alternatives: the Keith Allison 2006 game photo (permission recorded only as an emailed permission ticket with a relicensing template) and a 2026 conference photo whose subject identification rests on the uploader alone.",
+    "license": "Public Domain (US government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-DOS",
+    "attribution": "Photo: U.S. Department of State, 2016, public domain, cropped and resized from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Former_NBA_Player_Yao_Ming_Looks_On_as_Secretary_Kerry_and_Chinese_Vice_Premier_Liu_Deliver_Remarks_at_the_U.S.-China_Consultation_on_People-to-People_Exchange_in_Beijing_-_14.jpg",
+    "creator": "U.S. Department of State",
+    "date": "2016-06-07",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Former_NBA_Player_Yao_Ming_Looks_On_as_Secretary_Kerry_and_Chinese_Vice_Premier_Liu_Deliver_Remarks_at_the_U.S.-China_Consultation_on_People-to-People_Exchange_in_Beijing_-_14.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "야오밍"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID verified live (Wikidata wbgetentities 2026-10-26): Q58590, en label 'Yao Ming', description 'Chinese basketball player (born 1980)', born 1980-09-12, no death date, ko label '야오밍'; the physicist item Q113443345 and namesake historical items were rejected. No existing candidate or src reference to slug yao-ming or QID Q58590. Region east_asia (China; career base split between Shanghai and Houston, nationality and identity Chinese). Vocabulary: athlete, field sport, archetype competitive_performer, impact domains athletic, cultural and historical all exist with labels; basketball_player has no label and was not used. ZERO POLITICS: his CBA presidency, political-advisory roles, the government's priority on his NBA career, and Olympic flag-bearing are not scored and the corresponding passages in the Chronicle and ESPN pieces are not used. LIVING SUBJECT: only documented public professional behaviour is scored; family, marriage, health (including any hearing anecdote in Van Gundy's essay) and private life are excluded; the career-ending injuries are used only as professional career facts. portrait_preflight: plausible (lead) / resolved with a US-government public-domain photo after rejecting two alternatives (see portrait record); the photo is a crop of a diplomatic-event picture, with the subject identified by the State Department's own caption. CANONICAL SIGNIFICANCE SOURCE: Britannica 'Yao Ming' (https://www.britannica.com/biography/Yao-Ming), cross-checked against ESPN's Hall of Fame report and the Naismith induction coverage. READ (9 cited non-Wikidata sources plus the portrait record): Britannica, ESPN eleven-things feature, ESPN Hall of Fame report, Sports Illustrated retirement report, Houston Chronicle retirement report, Houston Chronicle Hall of Fame feature, Van Gundy's Players' Tribune essay, NBA.com/AP jersey-retirement report. NOT OPENED: Yao's own memoir 'Yao: A Life in Two Worlds' (self, no access), Chinese-language coverage, FIBA Hall of Fame page (loaded without readable text), the New York Times and Sports Illustrated long-form profiles, contemporaneous 2002-2008 game coverage, Wikipedia. PERSPECTIVES: reference biography, national sports journalism, local newspaper reporting with the subject's own words, a former head coach's first-person account, a team owner and executives, the league commissioner, and an opponent and a former opposing great (Jordan, O'Neal) in the ESPN feature. COUNTER-VOICES: the owner's regret that the career ended early and no title was won, Van Gundy's regret over first-round exits, and the Chronicle's note that he never came close to a championship and that media treated him as a curiosity. EVIDENCE LIMITS: almost all behavioural evidence about daily conduct is Van Gundy's retrospective testimony, so six rows are scored, none above 74 or confidence 0.58. CALIBRATION: highest score 74 and highest confidence 0.58. SELF-CALIBRATION (agent): rows reviewed: discipline, collaboration, mastery_orientation. Lowered: discipline (78/0.64 to 74/0.58: both accounts are one coach), collaboration (72/0.55 to 68/0.50: single coach) and mastery_orientation (66/0.52 to 62/0.46: humility is his own remarks). BROAD FLAG: nearly all behavioural material is one coach and the subject's own words; teammates' and opponents' accounts, or Yao's memoir plus a reviewer, would improve the profile. PORTRAIT: US State Department 2016 photograph, public domain, cropped from 4681x3121 to 1160x1548 then downscaled to 899x1200."
+  }
+}

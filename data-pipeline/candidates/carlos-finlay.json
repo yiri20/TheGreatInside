@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "carlos-finlay",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Carlos Finlay",
+    "aliases": ["Carlos Juan Finlay", "Carlos J. Finlay", "Carlos Juan Finlay y de Barrés"],
+    "wikidataId": "Q742233",
+    "birthYear": 1833,
+    "deathYear": 1915,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["CU"],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": ["physician", "medical_researcher"],
+    "fieldIds": ["medicine", "biology"],
+    "impactDomains": ["scientific", "medical"],
+    "tagIds": ["independent", "field_researcher"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_finlay_wikidata",
+      "kind": "wikidata",
+      "title": "Carlos Juan Finlay (Q742233) -- verified live via the Wikidata API (2026-10-26): English label 'Carlos Juan Finlay', description 'Cuban physician discoverer of means of transmission of yellow fever through biological vector (1833-1915)', born 3 December 1833, died 19 or 20 August 1915 (two statements), Korean label '카를로스 핀라이', P18 image 'Finlay Carlos 1833-1915.jpg'. The lead's name search first returned an empty item (Q21155777, no description), which was NOT used. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q742233"
+    },
+    {
+      "id": "src_finlay_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Carlos J. Finlay' (britannica.com), read in full (short article): Cuban epidemiologist who discovered that yellow fever is transmitted from infected to healthy humans by a mosquito; he published experimental evidence in 1886 but his ideas were ignored for 20 years; Jefferson Medical College graduate (1855), practised in Matanzas and Havana; worked with the North American commission from 1879, was Cuban delegate to the 1881 International Sanitary Conference in Washington, where he urged study of yellow fever vectors and afterwards named the mosquito Culex fasciatus (now Aedes aegypti); in 1900 he tried to persuade the skeptical Walter Reed, who investigated and refined Finlay's experimental procedures; chief sanitation officer of Cuba 1902-09; the Finlay Institute created in his honour. CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.britannica.com/biography/Carlos-J-Finlay"
+    },
+    {
+      "id": "src_finlay_aao",
+      "kind": "institution",
+      "title": "American Academy of Ophthalmology Museum of the Eye, biography 'Finlay, Carlos' (aao.org), read in full: born in Cuba, Jefferson Medical College of Philadelphia, ophthalmology training, return to Havana in 1864; public-health interest from a 1867 cholera outbreak; published findings on yellow fever 1872-79; on 14 August 1881 presented a paper theorising that the mosquito (Aedes aegypti) was the vector, which the medical community met with disbelief; spent 19 years trying to convince colleagues; Reed's commission confirmed his experiments in 1900; Chief Sanitary Officer of Cuba 1902-09; General Leonard Wood's tribute. Museum biography, admiring and brief.",
+      "url": "https://aao.org/biographies-detail/carlos-finlay-md"
+    },
+    {
+      "id": "src_finlay_moreno_pmc",
+      "kind": "biography",
+      "title": "Victor Guillermo Ferreira Moreno, 'Evocation to the Dr. Carlos J. Finlay Barres on the centennial of his death', Colombia Medica 47(1):63-66 (2016), open access via PubMed Central, read in full: documentary review of his life and work; his study across ophthalmology, infectious diseases and other fields; the February 1881 Washington proposal and the August 1881 Havana Academy reading that was met with silence; the years until 1900 defending the theory; his willingness to share his data with the US Army commission; Juan Guiteras's role as mediator in the credit dispute between Finlay and members of the US commission; William Gorgas's 1910 note that without Finlay's work the American commission would not have investigated the theory; Nobel nominations 1904-1915. Cuban centennial tribute, strongly admiring; the health and family passages were not used.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4867519/"
+    },
+    {
+      "id": "src_finlay_nlm",
+      "kind": "institution",
+      "title": "National Library of Medicine, Circulating Now, 'Data Science in Politics of Yellow Fever: Discovering the Cause of Yellow Fever' (7 June 2019), read in full: in 1881 Finlay first proposed a link between mosquitoes and yellow fever transmission; two decades later the US Army Yellow Fever Commission led by Reed conducted research that confirmed Finlay's original hypothesis and presented findings in 1900; Gorgas's mosquito-control guidelines followed. Institutional collections blog; brief on Finlay himself.",
+      "url": "https://circulatingnow.nlm.nih.gov/2019/06/07/data-science-in-politics-of-yellow-fever-discovering-the-cause-of-yellow-fever/"
+    },
+    {
+      "id": "src_finlay_carter_pmc",
+      "kind": "biography",
+      "title": "'Henry Rose Carter' (open-access biographical article in PubMed Central, PMC2866391), read in the relevant passages: during 1881-1900 Finlay carried out 102 experimental inoculations of human volunteers; critique that volunteers were not isolated from the general population, results were inconsistent, mosquitoes were not consistently applied during the first three days of illness, and he never considered an extrinsic incubation period; Carter's 1898 epidemiological observation of that period and Reed's 1900 publication citing Finlay's epidemiological reasoning, Ross and the Italian malaria workers, and Carter; mention that J. C. Nott had suggested insects as carriers in 1848. An independent, critical account of Finlay's method and of competing contributions.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2866391/"
+    },
+    {
+      "id": "src_finlay_bmj",
+      "kind": "press",
+      "title": "P. P. Mortimer, 'The other Dr Finlay', BMJ 319:618 (4 September 1999), open access via PubMed Central, read in full: Finlay generally credited with first proposing that yellow fever was spread by mosquitoes (1881); later-1880s volunteer experiments; the relative neglect of his work compared with Ross's Nobel-recognised malaria work, attributed in part to national rivalries and to the suggestion that Finlay borrowed the idea from Manson, which he took no steps to rebut; the 1915 JAMA obituary remark that he lacked the genius for self-exploitation; his 1908 Legion of Honour. Short independent virologist's commentary; the Manson suggestion is reported as an unproven claim.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1116491/"
+    },
+    {
+      "id": "src_finlay_psm",
+      "kind": "press",
+      "title": "L. O. Howard, 'Some Pioneers in Mosquito Sanitation and Other Mosquito Work. II.', The Popular Science Monthly, vol. 87 (1915), portrait plate with caption (read via the Internet Archive scan text): 'Dr. Carlos J. Findlay, president of the Board of Health, Havana, Cuba. Dr. Findlay early announced the carriage of yellow fever by a certain species of mosquito ... but his experiments were not conclusive, and his conclusions were not accepted ... until nearly twenty years later, when the U. S. Army Commission (Reed, Carroll, Lazear and Agramonte) brought about the overwhelming proof'; the plate carries a U.S. Department of Agriculture credit line. Contemporaneous 1915 journal caption by an entomologist; also the source of the portrait.",
+      "url": "https://archive.org/details/popularsciencemo87newy"
+    },
+    {
+      "id": "src_finlay_milmed",
+      "kind": "biography",
+      "title": "Enrique Chaves-Carballo, 'Carlos Finlay and Yellow Fever: Triumph over Adversity', Military Medicine 170(10):881 (2005), abstract only (PubMed 16435764; the full text is behind a paywall and was NOT opened): Finlay proposed the mosquito-vector theory in 1881 and shared his ideas, publications and a sample of mosquito eggs with the US Army Yellow Fever Commission headed by Walter Reed, which used human volunteers to confirm the theory; Gorgas's mosquito control then controlled yellow fever in Havana; Finlay held fast despite incredulity and ridicule. Abstract only, so it is cited as corroboration for two row elements and never as sole support.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16435764/"
+    },
+    {
+      "id": "src_finlay_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file 'PSM V87 D177 Carlos J Findlay.png' (wikitext and API record), checked for the portrait: portrait plate from The Popular Science Monthly, volume 87 (1915), photographer unknown, source the Internet Archive scan; tagged public domain in the United States; original PNG 1396 x 1793. The wikitext of the other Commons file for Finlay ('Finlay Carlos 1833-1915.jpg') names no creator, date or source and was rejected; two Wellcome Collection reproductions were seen (a process print marked Public Domain Mark by Wellcome and a 1952 glass-plate copy of an earlier photograph tagged CC BY 4.0) but lack a documented creator or date for the original photograph. Not used for scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:PSM_V87_D177_Carlos_J_Findlay.png"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_finlay_britannica, src_finlay_aao, src_finlay_carter_pmc, src_finlay_psm, src_finlay_milmed | 1881-1900 | encyclopaedia + museum + critical biographical article + 1915 journal + abstract] Britannica says his ideas were ignored for 20 years after his experimental evidence; the Academy museum describes 19 years spent trying to convince colleagues; the Carter article counts 102 human inoculations between 1881 and 1900; the Howard caption confirms his claim was not accepted for nearly twenty years; the Military Medicine abstract says he held fast despite incredulity. Several independent sources agree on the long defence, though the most vivid narrative of it is the admiring Cuban centennial tribute."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_finlay_britannica, src_finlay_carter_pmc, src_finlay_moreno_pmc, src_finlay_bmj | 1881 | encyclopaedia + critical biographical article + tribute + commentary] Britannica credits him with the finding that a mosquito transmits yellow fever and the Carter article says epidemiological patterns (seasonal and geographic limits) led him to the mosquito theory, which the medical community dismissed; the Havana Academy reading drew only silence. The same sources record that an insect-carrier idea had been suggested by Nott in 1848 and that Finlay was accused of borrowing from Manson, which he did not rebut. SELF-CALIBRATION (agent): first-pass 70 / 0.52 lowered to 66 / 0.48 because the originality of his idea is contested (Nott 1848, the Manson suggestion) and the independent-minded framing comes mainly from admiring sources."
+    },
+    "experimentation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_finlay_carter_pmc, src_finlay_britannica, src_finlay_bmj, src_finlay_milmed | 1881-1886 | critical biographical article + encyclopaedia + commentary + abstract] He tested his hypothesis with 102 experimental inoculations of volunteers and published experimental evidence in 1886, and Reed refined his experimental procedures. The Carter article is explicit that his experiments lacked isolation of volunteers, consistent timing and any extrinsic incubation period, so the experiments were a real attempt at proof that stayed inconclusive, hence dual-edged and only moderate. Modern ethical questions about volunteer exposure are not scored."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_finlay_milmed, src_finlay_britannica, src_finlay_moreno_pmc | 1900 | abstract + encyclopaedia + tribute] The Military Medicine abstract says he shared his ideas, publications and mosquito eggs with the US Army Commission; Britannica says he tried to persuade Reed; the Cuban tribute adds Gorgas's note that the Commission would not have investigated the theory without his work. A priority dispute with some Commission members is recorded as a professional controversy and is not scored. Evidence of day-to-day collaboration is thin and partly admiring, so confidence is modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "카를로스 핀라이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/carlos-finlay-usda-1915.jpg",
+    "width": 934,
+    "height": 1200,
+    "source": "Photographic portrait plate of Dr. Carlos J. Finlay in L. O. Howard, 'Some Pioneers in Mosquito Sanitation and Other Mosquito Work. II.', The Popular Science Monthly, vol. 87 (1915), with a U.S. Department of Agriculture credit line on the plate; Commons file 'PSM V87 D177 Carlos J Findlay.png' (original 1396 x 1793, source the Internet Archive scan). Photographer unknown. Public domain because it was published in the United States in 1915 (before 1931), and for an anonymous work published in 1915 the term has long expired elsewhere. The caption identifying the sitter was read in the Internet Archive text of the volume. Converted to a grayscale JPEG and downscaled from 1396 x 1793 to 934 x 1200 (downscaling only, no upscaling). The Commons page carries a US public-domain tag only, so the basis rests on the 1915 US publication I verified; the Wellcome and other Commons images were rejected for missing creator and date.",
+    "license": "Public domain (published in the United States in 1915)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:PSM_V87_D177_Carlos_J_Findlay.png",
+    "attribution": "Photograph of Carlos J. Finlay, photographer unknown, published in The Popular Science Monthly, vol. 87, 1915, public domain",
+    "attributionUrl": "https://archive.org/details/popularsciencemo87newy",
+    "creator": "Unknown photographer (plate credited to the U.S. Department of Agriculture)",
+    "date": "1915",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:PSM_V87_D177_Carlos_J_Findlay.png"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID VERIFIED LIVE (Wikidata wbgetentities, 2026-10-26): the lead's name-search item Q21155777 is an empty item and was rejected; the correct item is Q742233, en label 'Carlos Juan Finlay', description 'Cuban physician discoverer of means of transmission of yellow fever through biological vector (1833-1915)', born 1833-12-03, died 1915-08-19/20, ko label '카를로스 핀라이', P18 'Finlay Carlos 1833-1915.jpg'. SLUG/QID CHECK: no existing candidate file or reference for carlos-finlay or Q742233. REGION latin_america, nationality CU (Wikidata also lists Spain; born in Camaguey, career in Havana). VOCABULARY: physician and medical_researcher, fields medicine and biology, impact domains scientific and humanitarian, tags independent and field_researcher, archetype scientific_explorer are existing ids with EN+KO labels. ZERO POLITICS: Cuban government sanitary posts were public-health roles and are not scored; the Spanish-American War remark in sources was ignored. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Carlos J. Finlay' (https://www.britannica.com/biography/Carlos-J-Finlay). READ (8 cited non-Wikidata sources, one of them abstract-only): Britannica, AAO museum biography, Cuban centennial tribute (PMC), NLM Circulating Now, PMC biographical article on Henry Rose Carter (Finlay passages), BMJ commentary, 1915 Popular Science Monthly plate and caption, Military Medicine abstract. PERSPECTIVES: encyclopaedia; museum; admiring national tribute; library historical blog; critical independent historical account (Carter); independent virologist commentary; 1915 contemporary caption. COUNTER-VOICES: Carter article's critique of the experimental design and Nott 1848 priority; BMJ's Manson-borrowing suggestion; the Reed Commission credit dispute (Guiteras mediation) as a documented professional controversy, unscored; Howard's 1915 caption calling his experiments not conclusive. EXCLUDED deliberately: health and illness passages in the Cuban tribute (chorea, typhoid, heart disease), family and marriage, Nobel nominations and the omission debate (reception), Spanish-American War framing, ethics of volunteer exposure. NOT OPENED: the full Military Medicine article (paywalled, abstract only), the PAHO feature by Jonathan Leonardo (the repository served a script shell not a PDF), Finlay's own papers. portrait_preflight: plausible (lead) / resolved with a documented basis: the 1915 US-published Popular Science Monthly plate (Commons 'Finlay Carlos 1833-1915.jpg' has no creator/date/source and was rejected; Wellcome copies lack a documented original creator/date). CALIBRATION: four rows, highest score 72 and highest confidence 0.58; the evidence is a long-defended hypothesis with only one independent critical source, so no wider coverage is claimed. SELF-CALIBRATION (agent): reviewed persistence (kept: several independent sources), independent_thinking (lowered 70/0.52 to 66/0.48) and experimentation (set moderately and dual-edged from the start because of the Carter critique). BROAD FLAG: none; a read of the PAHO feature or Chaves-Carballo full text would add behavioural texture on his dealings with the Commission."
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "savitribai-phule",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Savitribai Phule",
+    "aliases": ["Savitri Phule", "Savitribai Jyotirao Phule"],
+    "wikidataId": "Q2645692",
+    "birthYear": 1831,
+    "deathYear": 1897,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["IN"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["teacher", "poet"],
+    "fieldIds": ["education", "social_reform"],
+    "impactDomains": ["social", "cultural", "historical"],
+    "tagIds": ["organizer", "grassroots_organizer"],
+    "archetypeIds": ["social_influencer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_savitribai_wikidata",
+      "kind": "wikidata",
+      "title": "Savitribai Phule (Q2645692) -- verified live via the Wikidata API (2026-10-26): English label 'Savitribai Phule', description 'Indian social reformer (1831-1897)', born 1831-01-03, died 1897-03-10, P18 image of a statue in New Delhi; no Korean label on the item. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2645692"
+    },
+    {
+      "id": "src_savitribai_britannica",
+      "kind": "institution",
+      "title": "Sanat Pai Raikar, 'Savitribai Phule', Encyclopaedia Britannica (britannica.com), read in full: social reformer and pioneer of women's education, one of the first female teachers in India; qualified as a teacher in 1847 after training at missionary institutes; in 1848 she and Jyotirao Phule opened a school for lower-caste girls at Bhidewada, Poona, with six students; an adult school in 1849; hostility including stones, mud and dung thrown at her on the way to school; three schools and more than 150 girls by 1851 and 18 schools in all; stipends to reduce dropout; declared best teacher in the Bombay Presidency by the government in 1852; a shelter for widows in 1854 and a larger shelter in 1864; the Satyashodhak Samaj founded by Jyotirao in 1873, in which she played a key role; leading it after his death in 1890; death from plague in 1897 after setting up a clinic; two poetry collections (1854, 1892) and her editing of his speeches in 1856. CANONICAL SIGNIFICANCE SOURCE. Neutral reference entry; it attributes the school and Samaj to the couple jointly and does not name primary documents.",
+      "url": "https://www.britannica.com/biography/Savitribai-Phule"
+    },
+    {
+      "id": "src_savitribai_zubaan",
+      "kind": "institution",
+      "title": "Zubaan and Malvika Asher, 'Savitribai Phule: The woman who helped set up the first school for girls in India', Google Arts & Culture illustrated story (2016), read in full: teacher training at Ahmednagar and Pune, the 1848 girls' school with Jyotirao, an 1853 education society, the dung thrown at her and her spare sari, shelters in 1854 and 1864, the 1868 well, the 1852 and 1853 government praise, the Satyashodhak Samaj, the 1897 plague clinic. A feminist publisher's illustrated popular account, so admiring and not independent of the commemorative tradition; it gives several dates that differ from other accounts and is used only where it agrees with the reference entry.",
+      "url": "https://artsandculture.google.com/story/mAWBW6eHcTWSLg"
+    },
+    {
+      "id": "src_savitribai_forwardpress",
+      "kind": "press",
+      "title": "'Social revolutionary, feminist and poetess Savitribai Phule', Forward Press (forwardpress.in), read in full: opens by saying that she is little and partially known and mostly identified as Mahatma Phule's wife; gives a school-opening date of 15 May 1848 at Bhide Wada with her as headmistress, 18 schools by 1852, a 1863 refuge for pregnant widows, the 1868 well, the 1873 Samaj with her heading its women's unit, and her speeches in print. An outlet that openly advocates the Phule-Ambedkar tradition, so a partisan commemorative source; it conflicts with Britannica and Google Arts on the shelter date (1863 against 1854 and 1864) and includes anecdotes (the slapped assailant, the quoted reply to hecklers) that are not corroborated and are not used.",
+      "url": "https://www.forwardpress.in/?p=14179"
+    },
+    {
+      "id": "src_savitribai_malik",
+      "kind": "biography",
+      "title": "Archana Malik-Goure, 'Feminist Philosophical Thought in Colonial India', Journal of East-West Thought (open PDF), read in full: describes her published works (Kavya Phule 1854, Bavan Kashi Subodh Ratnakar 1891 or 1892), her three letters to Jyotirao, and treats her poems as a feminist and anti-caste philosophy, citing M. G. Mali's biography ('the mother of modern Marathi poetry'). An academic reading of her writings by a university philosopher, admiring and about her ideas, not her conduct; used only for the existence and dates of her published works. It does not note the thin primary record.",
+      "url": "https://journals.calstate.edu/jet/article/view/2359/2132"
+    },
+    {
+      "id": "src_savitribai_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons image pages checked for a portrait: 'Savitribai Phule 1998 stamp of India.jpg' (India Post design of 1998, 939 x 688, tagged under a government open-data licence from a source website that could not be opened, and marked unreviewed) and 'Savitribai Phule with Fatima Sheikh.jpg' (a photograph printed in a 1980 book, author unknown, tagged public domain by an assumed 60-year rule). Neither rights basis could be verified. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/Category:Savitribai_Phule"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_savitribai_britannica, src_savitribai_zubaan, src_savitribai_forwardpress | 1848-1897 | reference + commemorative publisher + advocacy outlet] Across five decades her recorded activity centred on education for girls and lower-caste students (several schools, an adult school, stipends to keep students enrolled) and on shelters for widows and destitute women, ending with a plague clinic; Britannica and the Google Arts story agree on these lines. Most of this was done jointly with Jyotirao Phule, and the supporting sources are commemorative with few primary documents, so the score is moderate and the confidence low."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_savitribai_britannica, src_savitribai_zubaan | 1848-1852 | reference + commemorative publisher] Both say she was abused with stones, mud and dung on the way to school and kept teaching (the spare-sari detail appears in both), and the schools grew to three by 1851 and 18 in all; the government named her best teacher in the Bombay Presidency in 1852 (Britannica). Two sources agree but both are secondary and commemorative, with no contemporary record read, so the confidence is held below 0.5."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.43,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_savitribai_britannica, src_savitribai_zubaan | 1849-1864 | reference + commemorative publisher] Besides the joint 1848 school she started an adult school in 1849 (Britannica), offered stipends to reduce dropout, opened a widows' shelter in 1854 and a larger one in 1864, and set up a plague clinic in 1897; both sources record these. The sources do not separate her initiative from her husband's, and the shelter dates differ across commemorative accounts, so this is a cautious score."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_savitribai_britannica, src_savitribai_zubaan, src_savitribai_forwardpress | 1848-1897 | reference + commemorative publisher + advocacy outlet] The school, the education society (1853) and the Satyashodhak Samaj were run with Jyotirao Phule, she played a key role in the Samaj and led it after 1890 (Britannica), and Forward Press names Sagunabai and Fatima Sheikh as colleagues (not corroborated by Britannica, and so not relied on). Joint credit is the main finding; the record does not show how work was divided, so only a modest score."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear likeness could be established after one bounded retry. The Wikidata image is a photograph of a modern statue (sculptor and copyright status not documented). The Commons stamp image (India Post, 1998) is tagged as government open data but came from a website that could not be opened, is marked unreviewed on Commons, and is a later design, not a documented likeness. The Commons photograph labelled as Savitribai Phule and Fatima Sheikh comes from a 1980 book, has an unknown author, an unidentified third woman, and a public-domain tag based only on an assumed 60-year rule, which does not meet the portrait standard. Next step: identify a documented lifetime photograph or a later portrait with a stated public-domain basis, for example via the Maharashtra Government publication of her collected writings or a museum or archive page that states its terms, or obtain written reproduction terms for the India Post stamp."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사비트리바이 풀레"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID Q2645692 verified live (wbgetentities 2026-10-26): 'Savitribai Phule', 'Indian social reformer (1831-1897)', 1831-01-03 to 1897-03-10, no ko label (the Korean display name is a transliteration to be confirmed by the lead). No existing candidate, production file or src reference for slug savitribai-phule or the QID. Region south_asia. ZERO POLITICS: primary identity is teacher and poet; caste-reform and anti-Brahmin themes in her poetry and the Satyashodhak Samaj are reported as context and not scored as ideology. Vocabulary: teacher, poet, education, social_reform, organizer, grassroots_organizer and social_influencer all exist with EN and KO labels. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Savitribai Phule'. PORTRAIT PREFLIGHT: portrait_preflight: risky (lead) / confirmed HOLD after one bounded retry (statue photograph, unverifiable stamp licence, unattributed 1980 book photograph); see portrait.reason. READ (6 cited non-Wikidata items incl. Commons): Britannica, Google Arts and Culture story by Zubaan, Forward Press article, Malik-Goure journal paper, Commons pages. PERSPECTIVES: reference entry, feminist publisher, advocacy outlet, academic reading of her writings; INDEPENDENCE IS LOW: every source is secondary and commemorative and none quotes archives, which is itself a finding (the primary record is thin and conflicts on dates, e.g. the shelter in 1854, 1863 or 1864 and the founding date of her school). COUNTER-VOICES: none independent was reachable; the only critical material found was about exam-prep and news debate over co-worker Fatima Sheikh's documentation, which was not opened and is not used. NOT OPENED: O'Hanlon 'Caste, Conflict and Ideology', Rege's papers (EPW abstract only), Mali's biography and the Samagra Vangmay, Mondal and Baugh, The Wire and Indian Express pieces (not retrievable), NCERT lectures. EXCLUSIONS: marriage, family and adoption, health, her poetry's content as a trait source, anecdotes not corroborated (the slapped assailant), Fatima Sheikh as a co-founder (contested). CALIBRATION: four rows, highest score 68, highest confidence 0.48; all rows are shared-credit with Jyotirao Phule and sourced to secondary commemorative material, so sparse by design. SELF-CALIBRATION (agent): rows reviewed: impact_motivation, persistence, proactive_agency. Lowered: none; each was already set at or below 0.5 confidence with the shared-credit and commemorative-source caveats written into the rationale. FLAG FOR LEAD: if the lead judges that commemorative-only sourcing is too thin for evidence_approved, hold this candidate; the profile is sparse and may not reach match eligibility."
+  }
+}

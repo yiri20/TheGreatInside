@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "masayoshi-son",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Masayoshi Son",
+    "aliases": [
+      "Son Masayoshi"
+    ],
+    "wikidataId": "Q717038",
+    "birthYear": 1957,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive",
+      "investor"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "technological"
+    ],
+    "tagIds": [
+      "founder",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_son_wikidata",
+      "kind": "wikidata",
+      "title": "Masayoshi Son (Q717038) -- verified live via the Wikidata API (2026-10-25): English label 'Masayoshi Son', description 'Japanese businessman', born 11 August 1957, no date of death, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q717038"
+    },
+    {
+      "id": "src_son_britannica",
+      "kind": "biography",
+      "title": "Teiji Shimizu, 'Son Masayoshi', Encyclopaedia Britannica (Britannica Money), updated 9 October 2026 -- reference biography: the sound-translation device sold to Sharp and the 1981 founding of SoftBank, 1990s acquisitions financed by bonds, Yahoo Japan, the dot-com losses of 2000, the 2006 Vodafone KK purchase, Alibaba, Sprint, the 2017 Vision Fund and the later focus on AI. CANONICAL SIGNIFICANCE SOURCE. Read in full; the early-life and family passages were not used. Britannica gives his birth date as 31 August 1957 where SoftBank and Wikidata give 11 August; only the year is used here.",
+      "url": "https://www.britannica.com/money/Son-Masayoshi"
+    },
+    {
+      "id": "src_son_cnbc",
+      "kind": "press",
+      "title": "Lauren Feiner (CNBC), 'SoftBank values WeWork at $2.9 billion, down from $47 billion a year ago', 18 May 2020 -- report on SoftBank's earnings presentation: Son calling the WeWork investment foolish, WeWork valuation figures, the Vision Fund's loss of about US$18 billion, and Son's prediction that about 15 of 88 portfolio companies could go bankrupt. Independent business-news report quoting his earnings-call remarks. Read in full.",
+      "url": "https://www.cnbc.com/2020/05/18/softbank-ceo-calls-wework-investment-foolish-valuation-falls-to-2point9-billion.html"
+    },
+    {
+      "id": "src_son_reuters2019",
+      "kind": "press",
+      "title": "Reuters, \"SoftBank boss: 'Losses won't stop me fighting'\", 6 December 2019, as published by Arab News -- wire report of Son's on-stage discussion with Jack Ma at the University of Tokyo: the US$20 million Alibaba investment of 2000 and the stake now worth more than SoftBank's market capitalisation, Son's statement that the decision was driven by gut feeling, Ma's account that Son first tried to invest US$50 million and his remark about Son's 'guts', Son's admission about misjudging WeWork's founder. Wire report built mostly on the two men's own statements; Ma is an ally. Read in full.",
+      "url": "https://www.arabnews.pk/node/1595226"
+    },
+    {
+      "id": "src_son_aljazeera",
+      "kind": "press",
+      "title": "Reuters (via Al Jazeera), 'Softbank posts worst losses ever as Jack Ma departs board', 18 May 2020 -- wire report on SoftBank's record loss, the US$18 billion Vision Fund shortfall including almost US$10 billion at WeWork and Uber, the loan raised against the Alibaba stake, pressure from activist investor Elliott Management over buybacks and governance, and Son's subdued presentation. Independent wire report with a critical angle. Read in full to the point of the portfolio breakdown.",
+      "url": "https://www.aljazeera.com/economy/2020/5/18/softbank-posts-worst-losses-ever-as-jack-ma-departs-board"
+    },
+    {
+      "id": "src_son_mwl",
+      "kind": "press",
+      "title": "Mobile World Live, 'SoftBank CEO sees crazy bet pay off', 4 March 2011 -- trade-press report on a conference talk in which Son called the US$20 billion, mostly debt-funded 2006 Vodafone Japan purchase a 'crazy bet' made while SoftBank was losing about US$1 billion a year after the dot-com collapse, and argued for betting more aggressively than competitors. Trade press relaying his own account with operator statistics; figures for the deal vary between sources (Britannica gives no price) so only his statement is used. Read in full.",
+      "url": "https://www.mobileworldlive.com/softbank/softbank-ceo-sees-crazy-bet-pay-off/"
+    },
+    {
+      "id": "src_son_fstech",
+      "kind": "press",
+      "title": "Peter Walker (FStech), 'Softbank Vision Fund loses $17.7bn as unicorns falter', 19 May 2020 -- trade-press summary of the same earnings briefing: breakdown of Vision Fund losses (Uber about US$5.2 billion, WeWork US$4.6 billion, US$7.5 billion elsewhere), SoftBank's first annual operating loss in 15 years and its plan to sell about US$41 billion of assets. Independent, concise; used to cross-check figures. Read in full.",
+      "url": "https://fstech.co.uk/fst/SoftBank_Vision_Fund_Loses_18bn_Unicorn_Falter.php"
+    },
+    {
+      "id": "src_son_softbank",
+      "kind": "institution",
+      "title": "SoftBank Group Corp., 'Biography: Masayoshi Son' (officer profile, as of 24 June 2026) -- company's own career chronology: founding of Nihon SoftBank in 1981, director of Alibaba.com from 2005, Vodafone K.K. from 2006. Company self-description; used only to cross-check dates, never for trait claims. Read in full.",
+      "url": "https://group.softbank/en/about/officer/son"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_son_mwl, src_son_britannica, src_son_cnbc, src_son_aljazeera, src_son_reuters2019 | 1990s-2020 | trade press, reference biography, business news, wire reports] He financed 1990s acquisitions with bonds (Britannica), bought Vodafone Japan in 2006 in a mostly debt-funded deal he himself called a 'crazy bet' while SoftBank was losing about US$1 billion a year (Mobile World Live), then ran a US$100 billion Vision Fund whose first major write-downs reached about US$18 billion (CNBC, Reuters, FStech); Jack Ma says he has 'probably the biggest guts in the world on doing investment' and Son agrees he has 'too much guts, sometimes I lose a lot of money' (Reuters 2019). Several independent outlets document very large, leveraged commitments with both a payoff (Alibaba, Vodafone Japan) and large losses (WeWork, Uber), so high score, dual-edged. Reviewed under the self-calibration pass and left unchanged: five independently reported episodes. RUBRIC_CORRECTION (lead review, before eligibility): risk_tolerance lowered from 82 / 0.68 to 78 / 0.62 because the leveraged-bet pattern is well documented, but the supporting accounts are press profiles and company-adjacent summaries, and the dual-edged outcomes (large write-downs) are reported unevenly, so 82 / 0.68 overstates the evidence."
+    },
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_son_britannica, src_son_reuters2019, src_son_mwl | 1996-2013 | reference biography, wire report, trade press] He moved SoftBank from software distribution into internet businesses (Yahoo Japan) and then mobile, and made an early Alibaba investment of US$20 million in 2000 that Reuters says is now worth more than SoftBank's market capitalisation; Britannica calls the Alibaba stake among his most consequential early investments. The pattern of early moves into emerging sectors is documented, but the strongest evidence is the Alibaba outcome, which is hindsight-favourable, and the dot-com and Vision Fund losses show that sensing was uneven. Score kept below 75 for outcome bias."
+    },
+    "decisiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_son_reuters2019, src_son_mwl | 2000-2019 | wire report, trade press] Son says the Alibaba decision was driven by a gut feeling after meeting other entrepreneurs who lacked true belief, Ma recalls Son first offering US$50 million (which Ma declined), and Reuters describes this as part of a pattern of offering big cheques to founders that continued with WeWork. The evidence is mostly his own and Ma's account, so moderate confidence; dual-edged because the same fast, instinct-led style produced the WeWork misjudgement. SELF-CALIBRATION (agent): lowered from 72/0.55 to 68/0.50 because the support is his own account and an ally's testimony rather than independent reporting of the decisions."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_son_britannica, src_son_reuters2019, src_son_aljazeera | 2000-2020 | reference biography, wire reports] After the 2000 dot-com collapse cost SoftBank an estimated 75 billion yen, Britannica says Son continued to pursue large technology initiatives (broadband in 2001, Vodafone Japan in 2006); after record losses in 2020 he still presented a plan and said in 2019 'I'm still a challenger and every day I'm still fighting'. Continued commitment after setbacks is documented, but the 2019 line is his own statement and some commentary frames it as stubbornness, so moderate."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_son_britannica, src_son_softbank, src_son_aljazeera | 1981-2020 | reference biography, company chronology, wire report] The business moved from software and publishing distribution to internet portals, broadband and mobile telecoms, then to a global investment group with the 2017 Vision Fund and an AI focus (Britannica, cross-checked with the company's chronology), and in 2020 the group raised cash against its Alibaba stake and planned asset sales as conditions changed (Reuters, FStech). Several documented strategic pivots; the sources describe outcomes rather than how he decided, so strong inference."
+    },
+    "competitiveness": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_son_mwl, src_son_britannica | 1990s-2011 | trade press, reference biography] He told an industry audience that market share rises 'if you bet more aggressively for the future than your competitor' and Britannica describes an aggressive acquisition strategy in the 1990s that departed from conservative Japanese norms, though he called it 'diplomatic warfare' in which both sides benefit. The aggressive-expansion framing is documented in his own words and the biographer's summary; there is little independent reporting of rivalry episodes, so moderate score and confidence below 0.5."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_son_cnbc, src_son_reuters2019, src_son_fstech | 2019-2020 | business news, wire report, trade press] He said publicly that he had been 'foolish' to invest in WeWork and that he had misjudged its founder's character, which is a documented admission of error; but weeks earlier he reiterated his instinct-led style and in 2020 he still planned to keep investing, so the admission is not clearly accompanied by a change in method. Mixed evidence, so a mid-scale score with low confidence."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/masayoshi-son-european-commission-2025.jpg",
+    "width": 847,
+    "height": 1117,
+    "source": "Wikimedia Commons, 'Masayoshi Son (P066533-522034, cropped).jpg' -- photograph by the European Commission Audiovisual Service, taken 12 May 2025 at SoftBank Group headquarters in Tokyo during a visit by Executive Vice-President Henna Virkkunen (EC Audiovisual Service item P-066533/00-07). The Audiovisual Service's conditions-of-use page states that EU-owned content is licensed under CC BY 4.0 unless otherwise indicated; the item page shows no individual notice that overrides it. The Commons file carries an EC Audiovisual Center licence tag (checked by a Commons user on 25 July 2025). Cropped file 847 x 1117 pixels, used at original size with no upscaling.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "© European Union, 2025, licensed under CC BY 4.0. Source: EC - Audiovisual Service. Cropped.",
+    "attributionUrl": "https://audiovisual.ec.europa.eu/en/photo/P-066533~2F00-07",
+    "creator": "European Commission, Audiovisual Service",
+    "date": "2025-05-12",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Masayoshi_Son_(P066533-522034,_cropped).jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "손정의"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-25T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID Q717038 verified live (wbgetentities 2026-10-25): label 'Masayoshi Son', description 'Japanese businessman', born 11 Aug 1957, no death date, instance of human; Wikidata ko label 손정의. No production or candidate slug/QID collision. Region east_asia (Japan; career base is Tokyo; ethnic-Korean family background not used). Zero-politics passes: primary identity is entrepreneur and investor; Saudi state-fund backing of the Vision Fund, US-Japan policy episodes and any political meetings are excluded and unscored. Vocabulary: occupations entrepreneur, executive, investor, fields business and technology, tags founder and strategist, archetype entrepreneurial_builder all labelled in EN and KO. portrait_preflight: strong (lead) / confirmed with caveat: EC Audiovisual conditions-of-use page states CC BY 4.0 for EU-owned content unless otherwise indicated, but excludes personality and image rights of depicted individuals; Son is a public business figure photographed at an official visit, and the item page carries no individual notice. The Commons tag was applied by a user rather than a bot. PORTRAIT PREFLIGHT: rights-clear on copyright; image-rights carve-out noted. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Son Masayoshi' (https://www.britannica.com/money/Son-Masayoshi). LIVING SUBJECT: only public, documented professional behaviour is scored. Excluded: family, ethnic background, health, personal wealth rankings, philanthropy, the WeWork founder's characterisation of a car ride (a 2026 headline seen only as a Britannica news teaser, not read), allegations and litigation, and Saudi funding as a political matter. READ (7 substantive sources, plus Wikidata): Britannica (canonical), CNBC (2020), Reuters via Arab News (2019), Reuters via Al Jazeera (2020), Mobile World Live (2011), FStech (2020), SoftBank's official officer biography (self, dates only). PERSPECTIVES: reference biography, independent business news, wire reports with activist-investor pressure as counter-voice (Elliott, record losses), trade press, his own statements and an ally's (Jack Ma) account, company chronology. Counter-voice: Reuters on Elliott pressure and record losses, CNBC on WeWork valuation collapse. NOT OPENED: Nikkei, Bloomberg, Economist and Forbes profiles, the biography by Lionel Barber or other books (no access), Fortune 2026 piece on WeWork (only a headline teaser), Alibaba and WeWork filings. The Alibaba stake amount and 'gut feeling' claim rest on Reuters' report of the 2019 talk and are flagged as such in rationales. Sources partly retell the same earnings briefing and the two men's own statements, so only risk_tolerance reaches 82; confidence at most 0.68; seven rows. SELF-CALIBRATION (agent) pass: reviewed risk_tolerance, opportunity_sensing and decisiveness; risk_tolerance left unchanged (five independently reported episodes from distinct outlets); opportunity_sensing set at 74 with outcome-bias caveat (no further change); decisiveness lowered 72/0.55 to 68/0.50 because it rests on his own account and an ally's testimony. RUBRIC_CORRECTION (lead review, before eligibility): risk_tolerance lowered from 82 / 0.68 to 78 / 0.62 because the leveraged-bet pattern is well documented, but the supporting accounts are press profiles and company-adjacent summaries, and the dual-edged outcomes (large write-downs) are reported unevenly, so 82 / 0.68 overstates the evidence."
+  }
+}

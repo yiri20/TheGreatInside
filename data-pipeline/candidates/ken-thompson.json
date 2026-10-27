@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ken-thompson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ken Thompson",
+    "aliases": [
+      "Kenneth Lane Thompson",
+      "Ken Thompson (computer scientist)"
+    ],
+    "wikidataId": "Q1107006",
+    "birthYear": 1943,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "computer_scientist"
+    ],
+    "fieldIds": [
+      "computing",
+      "technology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "early_computing"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_thompson_wikidata",
+      "kind": "wikidata",
+      "title": "Ken Thompson (Q1107006) -- verified live via the Wikidata API (2026-10-25): English label 'Ken Thompson', description 'American programmer and computer scientist, co-creator of the Unix operating system (born 1943)', born 1943-02-04, citizenship United States, Korean label '켄 톰프슨'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1107006"
+    },
+    {
+      "id": "src_thompson_chm",
+      "kind": "institution",
+      "title": "Computer History Museum, 'Ken Thompson' Fellow profile (1997 Fellow, computerhistory.org), read in full: honoured for co-creating Unix with Dennis Ritchie and for development of the C language; born New Orleans 1943, BS/MS electrical engineering and computer science at UC Berkeley; Unix created in 1969 at Bell Labs as a scaled-down alternative to Multics for small minicomputers; rewritten in C by Ritchie it became portable; Turing Award 1983, National Medal of Technology 1999 and Japan Prize 2011, all shared with Ritchie. CANONICAL SIGNIFICANCE SOURCE. Institutional profile, retrospective, admiring.",
+      "url": "https://computerhistory.org/profile/ken-thompson/"
+    },
+    {
+      "id": "src_thompson_chmblog",
+      "kind": "institution",
+      "title": "David C. Brock, 'A Computing Legend Speaks: A New Oral History with Ken Thompson' (Computer History Museum blog, 8 October 2025), read in full: museum historian's summary of a 2024-25 ACM-CHM oral history; Doug McIlroy's recollection of Thompson as a 'most amazing' programmer whose code reads 'like a novel'; Thompson's early programming as 'an addiction', his raising of an alligator in his office on joining Bell Labs, his start on his own operating system after Bell Labs left Multics in 1969, the Thompson-Ritchie collaboration that produced C, his own explanation that Bell Labs' unconstrained research environment made Unix and C enduring, and the later Plan 9 and Go work; notes he is 'an intensely private person' (private passages not used). The full 4.5-hour oral history transcript was NOT opened. Museum historian's retelling with a collaborator quotation; admiring.",
+      "url": "https://computerhistory.org/blog/a-computing-legend-speaks/"
+    },
+    {
+      "id": "src_thompson_ritchie",
+      "kind": "archive",
+      "title": "Dennis M. Ritchie, 'The Evolution of the Unix Time-sharing System' (AT&T Bell Laboratories Technical Journal, 1984; Harvard course copy of the PDF), read in full: collaborator's first-hand history of Multics' decline, the 1969 file-system design on blackboards ('most of the design was Thompson's'), Thompson's Space Travel game and move to a PDP-7, his writing of the first file system, process model, shell and assembler, the fork/exec design, and how an intended Fortran became the language B within about a week; Ritchie's statement that 'we' with an unclear antecedent can be read as 'Thompson, with some assistance from me'. Non-self (written by the co-creator, not by Thompson) but admiring and from a close collaborator; Ritchie's own contributions are deliberately not credited to Thompson here.",
+      "url": "https://www.read.seas.harvard.edu/~kohler/class/aosref/ritchie84evolution.pdf"
+    },
+    {
+      "id": "src_thompson_bell1999",
+      "kind": "institution",
+      "title": "Bell Labs news release, 'Ken Thompson Receives Kanai Award for Impact of UNIX System' (25 March 1999; web.archive.org copy of bell-labs.com), read in full: IEEE Computer Society citation for his role creating Unix; Thompson conceived the Unix time-sharing system in spring 1969 and co-developed it with Ritchie and collaborators; his research areas (operating systems, languages, security, computer games, digital music distribution); with Joseph Condon he built the hardware and software of the chess machine Belle; Ravi Sethi on portable C compilers and open systems. Employer press release, retrospective and promotional.",
+      "url": "https://web.archive.org/web/20130326045523/http://www.bell-labs.com/news/1999/march/25/1.html"
+    },
+    {
+      "id": "src_thompson_wired",
+      "kind": "press",
+      "title": "Charles Platt, 'Music on Demand' (Wired, August 1995), read in full: independent magazine profile of Thompson at Bell Labs; his routine of coding in a shared open area from about 1 p.m. to late evening; that he wrote Unix mainly for his own use and 'sometimes listened' to bug reports; the note that critics find Unix terse and unforgiving; his rewrite of the Bell Labs audio-compression code into a real-time program with Sean Dorward, and Jim Johnston's account that Thompson 'assassinated the whole mess' of his earlier Fortran-to-C code; his stated dislike of fussy applications. Personal-life, hobby and travel passages deliberately not used. Journalistic, observational, with a named colleague's frank quotation and a critics' remark.",
+      "url": "https://www.wired.com/1995/08/thompson-4/"
+    },
+    {
+      "id": "src_thompson_pike",
+      "kind": "archive",
+      "title": "Rob Pike, 'UTF-8 history' (email thread of April-June 2003 with Russ Cox's archive search, copy at cl.cam.ac.uk/~mgk25/ucs/utf-8-history.txt), read in full: Pike's first-hand account that UTF-8 was designed at a New Jersey diner in September 1992 with Thompson working out the bit-packing, that Thompson wrote the packing code that night while Pike converted the libraries, and that Plan 9 ran only UTF-8 by the end of the week; it corrects the story that IBM designed it and credits the X/Open people for making the opportunity happen. Cox's file-date evidence supports the timeline. Collaborator's retrospective recollection corrected a decade later; favourable but includes a correction of the record against Thompson's own credit.",
+      "url": "https://www.cl.cam.ac.uk/~mgk25/ucs/utf-8-history.txt"
+    },
+    {
+      "id": "src_thompson_trust",
+      "kind": "archive",
+      "title": "Ken Thompson, 'Reflections on Trusting Trust' (Turing Award lecture, Communications of the ACM, August 1984; PDF copy at cs.cmu.edu), read in full: self-authored primary work demonstrating a self-reproducing compiler Trojan horse; opens by crediting Ritchie ('a thing of beauty') and the many contributors to Unix and saying he continues 'to get undeserved credit for the work of others'; concludes you cannot trust code you did not create yourself and criticizes the press for treating computer intruders as heroes. Self material; used only for the work and his stated crediting, never as sole support of any row.",
+      "url": "https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf"
+    },
+    {
+      "id": "src_thompson_gofaq",
+      "kind": "institution",
+      "title": "The Go Authors, 'Frequently Asked Questions (FAQ)', History of the project section (go.dev/doc/faq), read: Griesemer, Pike and Thompson began sketching goals for a new language on 21 September 2007, Thompson started a compiler by January 2008 'with which to explore ideas', the project became public open source on 10 November 2009. Official project history by the team itself (self-published), used only for dates and roles.",
+      "url": "https://go.dev/doc/faq"
+    },
+    {
+      "id": "src_thompson_esr",
+      "kind": "press",
+      "title": "Eric S. Raymond, 'Plan 9: The Way the Future Was' (The Art of Unix Programming, 2003, catb.org), read in full: independent expert's description of Plan 9, built by the Bell Labs group that built Unix, as an attempt to do Unix over again better (everything-is-a-file taken further, per-process namespaces, UTF-8 invented for it), and his critical verdict that it failed to displace Unix because it was not a compelling enough improvement over a 'good enough' existing codebase; also notes Plan 9 ideas absorbed into FreeBSD and Linux. Independent critical voice; treats the Bell Labs group as a whole, not Thompson individually.",
+      "url": "http://www.catb.org/esr/writings/taoup/html/plan9.html"
+    },
+    {
+      "id": "src_thompson_linfo",
+      "kind": "biography",
+      "title": "The Linux Information Project, 'Ken Thompson Biography' (linfo.org/thompson.html), read in part: reference-site biography saying Thompson was the principal inventor of Unix, wrote Space Travel in 1969, and wrote the first kernel, shell, editor and assembler in about a week each while his family was away. Secondary compilation without cited primary sources for those details; used only to corroborate chronology and never as sole support. Family detail deliberately not used.",
+      "url": "https://www.linfo.org/thompson.html"
+    },
+    {
+      "id": "src_thompson_commons",
+      "kind": "institution",
+      "title": "Wikimedia Commons file pages 'Brian Kernighan and Ken Thompson.jpg' (1280 x 960) and the derived 'Ken Thompson, 2019.jpg' (wikitext and API record), checked for the portrait's licence: photograph by Wikimedia user A.C. Diller (own work), taken 4 May 2019 at Vintage Computer Festival East where Brian Kernighan interviewed Ken Thompson, released CC BY-SA 4.0. Not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Brian_Kernighan_and_Ken_Thompson.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_thompson_chm, src_thompson_ritchie, src_thompson_bell1999, src_thompson_pike | 1969-1992 | museum + collaborator history + employer release + collaborator account] The museum credits him with co-creating Unix, Ritchie says most of the original file-system design was Thompson's and that he defined the language B, and Pike credits him with working out the UTF-8 bit-packing. Original, widely adopted work, but credit is explicitly shared (Ritchie, Canaday, McIlroy and others), Thompson himself says he gets undeserved credit for others' work, and the praise is mostly retrospective. SELF-CALIBRATION (agent): first-pass 78 / 0.64 lowered to 74 / 0.60 because shared credit is stated by the sources and by Thompson himself."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_thompson_ritchie, src_thompson_chm, src_thompson_esr, src_thompson_chmblog | 1969-1990s | collaborator history + museum + independent expert + museum blog] Ritchie describes the file system, process model and fork/exec separation he built into a small coherent system; the museum says the design's longevity reflects its excellence; Raymond describes Plan 9's extension of the file abstraction by the same Bell Labs group and McIlroy calls the original design's clarity 'beautiful'. The design pattern is well documented but attribution within the group is blurred and no source describes his abstraction habits directly, hence strong inference."
+    },
+    "execution_speed": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_thompson_ritchie, src_thompson_pike, src_thompson_linfo | 1969-1992 | collaborator history + collaborator account + reference biography] Ritchie says Thompson turned an intended week-long Fortran effort into the language B and that he built the first file system, shell and assembler on the PDP-7; Pike says Thompson wrote the UTF-8 packing code the night of the diner meeting and Plan 9 ran only UTF-8 within days; the reference biography says the first system took about a month. All three are admiring collaborator recollections or a secondary compilation with exact durations unverified. SELF-CALIBRATION (agent): first-pass 78 / 0.62 lowered to 72 / 0.54 because the speed claims rest on Pike's 2003 recollection and an unsourced reference-site summary rather than dated records."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_thompson_ritchie, src_thompson_chmblog, src_thompson_wired | 1969-1970 | collaborator history + museum blog + press profile] After Bell Labs' withdrawal from Multics and repeated failed requests for a new machine, Ritchie says Thompson found a little-used PDP-7 and built an operating system; the CHM blog and Wired both report he started it on his own initiative and Wired says he wrote Unix mainly for his own use. Consistent across three source types; initiative is documented, though the account of motive partly rests on Thompson's own words."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_thompson_wired, src_thompson_chmblog, src_thompson_ritchie | 1969-1995 | press profile + museum blog + collaborator history] Wired says his career was guided by his own 'quixotic impulses', that he treats his private office as a mail drop, that he said bug reports were sometimes ignored since maintaining Unix was not his job, and that he valued Bell Labs' freedom to do whatever he wanted; the CHM blog quotes him crediting unconstrained research; Ritchie records Space Travel and Unix growing from personal itches. The cost side (users' complaints about terseness, ignored reports) makes it dual-edged; much of the motive comes from his own remarks to one journalist."
+    },
+    "deep_focus": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_thompson_wired, src_thompson_chmblog | 1990s, 2024 oral history | press profile + museum blog] Wired observed him coding from about 1 p.m. until 10 or 11 at night in a shared area, 'oblivious' to colleagues' conversations, and the museum blog reports his own description of early programming as an addiction. One observer plus his own words, so moderate."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_thompson_trust, src_thompson_pike, src_thompson_wired, src_thompson_gofaq | 1969-2009 | self lecture + collaborator account + press profile + team history] He opens his Turing lecture crediting Ritchie and Unix's many contributors, Pike describes designing UTF-8 together over dinner, Wired shows him rewriting audio code with a younger programmer, and the Go history lists him as one of three founders sketching the language. Mostly his own words and a close collaborator's recollection; no independent view of how he worked day to day with colleagues beyond Wired."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_thompson_bell1999, src_thompson_gofaq, src_thompson_ritchie, src_thompson_wired | 1969-2009 | employer release + team history + collaborator history + press profile] Across Space Travel, the Belle chess machine, audio compression and a first Go compiler written 'to explore ideas' he moved between prototypes, and Bell Labs lists operating systems, languages, security, games and digital music among his research. The breadth is well documented; no source describes his experimental method, so the score stays moderate."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_thompson_trust, src_thompson_chmblog, src_thompson_wired | 1984, 2025, 1995 | self lecture + museum blog + press profile] His 1984 lecture works through a self-reproducing compiler Trojan horse stage by stage to argue that source inspection cannot establish trust; McIlroy calls his code clear 'like a novel' and Wired reports he cut a rival algorithm's size by a factor of five. The rigor is inferred from the work product, mainly one self-authored lecture, so confidence is modest."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_thompson_bell1999, src_thompson_chmblog, src_thompson_gofaq, src_thompson_wired | 1969-2009 | employer release + museum blog + team history + press profile] Over four decades the sources show him moving from Multics to Unix, then chess hardware and software, audio compression, Plan 9 and Go. The transitions are documented; whether they show adaptability as a trait rather than curiosity or project luck is inferential, and no source discusses how he handled any individual change."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ken-thompson-diller-2019.jpg",
+    "width": 329,
+    "height": 349,
+    "source": "Wikimedia Commons 'Brian Kernighan and Ken Thompson.jpg' (original 1280 x 960): photograph by A.C. Diller (own work, uploaded by the photographer), taken 4 May 2019 at Vintage Computer Festival East during Brian Kernighan's interview of Ken Thompson; released under CC BY-SA 4.0 on the file page. Cropped to Thompson only at native pixel size (329 x 349), no resampling or upscaling; the same crop exists on Commons as 'Ken Thompson, 2019.jpg'. The Wikidata alternative 'Ken Thompson 02.jpg' (220 x 255) was rejected: its public-domain claim rests only on the file having appeared in the Jargon File, with no author or date. Modest resolution, but legally clearer than the alternatives.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: A.C. Diller, 2019, CC BY-SA 4.0; cropped from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Brian_Kernighan_and_Ken_Thompson.jpg",
+    "creator": "A.C. Diller",
+    "date": "2019-05-04",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Brian_Kernighan_and_Ken_Thompson.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "켄 톰프슨"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-25T00:00:00Z",
+    "updatedAt": "2026-10-25T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "PREFLIGHT: QID verified live (Wikidata wbgetentities 2026-10-25): Q1107006, label 'Ken Thompson', description 'American programmer and computer scientist, co-creator of the Unix operating system (born 1943)', born 1943-02-04, ko label '켄 톰프슨'; found by wbsearchentities. No existing candidate or src reference for slug ken-thompson or QID Q1107006 (dennis-ritchie is a separate existing person, Q45575). Region north_america (US). Zero politics: nothing political scored (his comments on hackers and Congress in the Turing lecture are not scored). LIVING: public documented professional behaviour only; family, hobbies, travel, vehicles, wealth and health passages in Wired, linfo and the CHM blog deliberately excluded. Vocabulary reused from dennis-ritchie/john-mccarthy: computer_scientist, computing, technology, innovator, early_computing, technical_innovator. portrait_preflight: plausible (lead) / confirmed: the Wikidata P18 'Ken Thompson 02.jpg' was rejected (unattributed Jargon File image, tiny), 'Ken Thompson, 2019.jpg' and its 1280 x 960 parent are own-work CC BY-SA 4.0 by A.C. Diller; the portrait is a modest-resolution crop. JOINT CREDIT: Unix, C and the Turing Award, National Medal and Japan Prize are shared with Dennis Ritchie; Ritchie's contributions (C language development, much of the later Unix work) are not attributed to Thompson, and no row relies on 'invented alone'. CANONICAL SIGNIFICANCE SOURCE: Computer History Museum Fellow profile (https://computerhistory.org/profile/ken-thompson/), cross-checked with the Bell Labs Kanai release. READ (10 cited non-Wikidata sources): CHM profile, CHM blog on the oral history, Ritchie's Evolution of Unix, Bell Labs Kanai release, Wired 1995, Pike's UTF-8 email thread, Thompson's Trusting Trust lecture (self), Go FAQ history, Raymond on Plan 9, linfo biography. NOT OPENED: ACM Turing Award page (404 on the guessed URL), the 4.5-hour CHM oral history transcript, Salus 'A Quarter Century of Unix', Mashey, Dr Dobb's interview (archive page empty), Seibel 'Coders at Work', Wikipedia. PERSPECTIVES: museum and award-body histories, a co-creator's first-hand history (Ritchie), a collaborator's UTF-8 account (Pike), independent press profile with a colleague quotation (Wired), independent expert critique of Plan 9 (Raymond), self lecture. COUNTER-VOICES: Wired's note that critics find Unix terse and unforgiving and that Thompson ignored some bug reports; Johnston's blunt remark about his own earlier code; Raymond's verdict that Plan 9 did not displace Unix; Pike correcting the record to credit Thompson more than the usual story. LIMITS: most behavioural detail comes from admiring collaborators or Thompson's own lecture and interviews; only Wired and Raymond are independent of the Bell Labs circle, so no score exceeds 74 and no confidence exceeds 0.6. SELF-CALIBRATION (agent): rows reviewed: creative_originality, execution_speed, autonomy_need. Lowered: creative_originality (78/0.64 to 74/0.60: shared credit stated by sources and Thompson) and execution_speed (78/0.62 to 72/0.54: speed claims rest on a 2003 recollection and an unsourced reference summary). autonomy_need kept: three source types converge. No broad profile problem to flag."
+  }
+}

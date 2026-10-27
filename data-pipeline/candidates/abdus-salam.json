@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "abdus-salam",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Abdus Salam",
+    "aliases": [
+      "Muhammad Abdus Salam",
+      "Mohammed Abdus Salam"
+    ],
+    "wikidataId": "Q28189",
+    "birthYear": 1926,
+    "deathYear": 1996,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "PK"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "theorist",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_salam_wikidata",
+      "kind": "wikidata",
+      "title": "Abdus Salam (Q28189) -- verified live via the Wikidata API (2026-10-26): English label 'Abdus Salam', description 'theoretical physicist, and Nobel Prize in Physics recipient', born 1926-01-29, died 1996-11-21, Korean label present, P18 image 'Abdus Salam 1987 (cropped).jpg' (rejected for the portrait, see notes). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q28189"
+    },
+    {
+      "id": "src_salam_nobel_summary",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'The Nobel Prize in Physics 1979' (prize summary page), read in full. CANONICAL SIGNIFICANCE SOURCE: the prize was awarded jointly to Sheldon Lee Glashow, Abdus Salam and Steven Weinberg, one third each, 'for their contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including, inter alia, the prediction of the weak neutral current'. Award-body statement: authoritative on what was recognised, admiring in nature.",
+      "url": "https://www.nobelprize.org/prizes/physics/1979/summary/"
+    },
+    {
+      "id": "src_salam_nobel_speech",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Award ceremony speech, Nobel Prize in Physics 1979' (presentation by the Royal Swedish Academy of Sciences), read in full: explains that the theory, developed in separate works by the three prizewinners in the 1960s, shows the weak and electromagnetic forces as aspects of one electroweak interaction, that it implies neutral currents, and that experiments in the 1970s fully confirmed that prediction. Explanatory, retrospective, admiring.",
+      "url": "https://www.nobelprize.org/prizes/physics/1979/ceremony-speech/"
+    },
+    {
+      "id": "src_salam_nobel_bio",
+      "kind": "biography",
+      "title": "Nobel Foundation, 'Abdus Salam - Biographical' (written at the time of the award by Miriam Lewis, a former staff member of the ICTP), read in full: schooling and Cambridge degrees, the return to Lahore and departure abroad when research there proved impossible, Professor at Imperial College from 1957, director of the ICTP from 1964, the ICTP Associateships for young physicists from developing countries, and that he spent his Atoms for Peace award and his Nobel share on funds for physicists from developing countries. Insider and admiring; political-adviser roles and personal-life passages were read and excluded from scoring.",
+      "url": "https://www.nobelprize.org/prizes/physics/1979/salam/biographical/"
+    },
+    {
+      "id": "src_salam_ictp",
+      "kind": "institution",
+      "title": "ICTP, 'News from ICTP 82 - Features - Abdus Salam: The Man and the Mission' (1997 newsletter, reminiscences by ICTP physicists Seifallah Randjbar-Daemi and Faheem Hussain), read in full: Salam's range of interests, his work on supersymmetry and superspace with John Strathdee, the speed with which he moved into superstrings after Green and Schwarz in 1984, that some of his speculative ideas 'were great successes' and others 'quite big' failures, why he proposed the ICTP, and Hussain's view that he implanted science in some developing countries 'but not as much as he or others would have liked'. Institutional and affectionate, with some candid critical remarks by colleagues.",
+      "url": "https://home.ictp.it/pio/words/newsletter/backissues/features_Salam.html"
+    },
+    {
+      "id": "src_salam_imperial",
+      "kind": "institution",
+      "title": "Imperial College London, 'Professor Abdus Salam (1926-1996), Nobel Prize in Physics 1979' (Nobel winners page), read: 1957 appointment and build-up of the theoretical physics group with Paul Matthews and Tom Kibble, the 1964 SU(2) x U(1) electroweak symmetry with John Ward, the 1967 incorporation of the Higgs mechanism with unpublished lectures and a 1968 Nobel Symposium publication, comparable work by Weinberg, the 1973 Pati-Salam grand unified model, and the ICTP. Institutional pride page; the Pakistan-government and religion passages were not used.",
+      "url": "https://www.imperial.ac.uk/about/introducing-imperial/our-people/award-winners/nobel-winners/abdus-salam/"
+    },
+    {
+      "id": "src_salam_physicstoday",
+      "kind": "press",
+      "title": "Pervez Hoodbhoy, review of Gordon Fraser's 'Cosmic Anger: Abdus Salam - The First Muslim Nobel Scientist' (Physics Today, August 2009), read in full: Imperial group-theory work and students (Ne'eman, Shaw), Pauli's rejection of Salam's parity/left-handed neutrino proposal, the lack of immediate notice of his 1968 electroweak talk, Salam's three passions, the failure of his Islamic science foundation scheme, and the reviewer's criticism that Fraser's book is partly hagiographic and skips controversial issues. Review by a Pakistani physicist; COUNTER-VOICE. Pakistan-politics, nuclear-programme and religion passages were read and excluded.",
+      "url": "https://physicstoday.aip.org/reviews/cosmic-anger-abdus-salam-the-first-muslim-nobel-scientist"
+    },
+    {
+      "id": "src_salam_alford",
+      "kind": "press",
+      "title": "Mark Alford, 'Review of Cosmic Anger by Gordon Fraser' (Washington University in St. Louis, January 2009), read in full: summary of Fraser's account of the parity-violation and massless-neutrino episode, Salam's 'furious inventiveness', 'tireless traveling and lobbying' to create the ICTP, and Fraser's three-goal verdict: a 'lukewarm verdict' on his fundamental discoveries ('did not help our knowledge move forward any faster than it would have without him'), the ICTP a 'resounding success', and the Islamic-countries goal a failure; the reviewer also disputes Fraser's framing of the publication delay. Independent physicist reader; COUNTER-VOICE. Religion, family and UNESCO-campaign passages read and excluded.",
+      "url": "https://web.physics.wustl.edu/alford/reviews/Salam_book_review.pdf"
+    },
+    {
+      "id": "src_salam_portrait",
+      "kind": "archive",
+      "title": "AIP Emilio Segre Visual Archives, Segre Collection, 'Abdus Salam lecturing at Stanford circa 1979' (photograph by Emilio Segre), the Wikimedia Commons file page 'Abdus Salam lecturing at Stanford.jpg' (licence CC BY 4.0 with an AIP statement), and the AIP guide 'Determining Copyright and Permissions'. Checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Abdus_Salam_lecturing_at_Stanford.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_salam_nobel_summary, src_salam_imperial, src_salam_alford, src_salam_ictp | 1956-1984 | award body + institution + independent reviewer + colleagues] Salam shares the 1979 Nobel Prize for the unified electroweak theory (with Glashow and Weinberg, who developed it in separate works), identified the SU(2) x U(1) symmetry with John Ward in 1964 and brought in the Higgs mechanism in 1967, proposed the Pati-Salam unified model in 1973 and the superspace framework with Strathdee. The independent reviewer reports Fraser's lukewarm verdict that his fundamental contributions did not speed progress beyond what would have happened without him, so the score stays below top range. Joint credit is explicit: the score covers his contribution, not the whole theory. SELF-CALIBRATION (agent): reviewed as a top-risk row; kept since the Nobel committee, the institutional page and the critical reviewer agree on what he did and the score already reflects Fraser's mixed verdict."
+    },
+    "independent_thinking": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_salam_physicstoday, src_salam_alford | 1956-1957 | two independent reviews of Fraser's biography] In 1956 he proposed that parity violation would be natural for a massless left-handed neutrino, against the view of the physics establishment; Pauli dismissed it and Salam's paper was delayed until after the experimental results, which one review calls a major setback in Fraser's telling and the other disputes. The reviews support the unorthodox idea and the deference to Pauli, so the impact is dual-edged and confidence modest. Retold through reviews of a biography I did not open."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_salam_imperial, src_salam_ictp, src_salam_physicstoday, src_salam_nobel_summary | 1957-1990 | institution + colleagues + reviewer + award body] He built the Imperial theoretical physics group with Paul Matthews (with Kibble among early hires), worked with John Ward on electroweak symmetry, Pati on grand unification and Strathdee on superspace, taught students including Ne'eman and Shaw, and shared the Nobel Prize with Glashow and Weinberg for separately developed work; ICTP colleagues describe working closely with him. Mostly institutional and colleague sources."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_salam_nobel_bio, src_salam_ictp, src_salam_alford, src_salam_physicstoday | 1964-1993 | insider biography + colleagues + independent reviewers] He proposed and created the ICTP at Trieste so that physicists from developing countries would not have to choose between research and home, instituted its Associateships, and according to the Nobel biography gave his Atoms for Peace award and Nobel share to funds for developing-country physicists. Alford reports Fraser calling the ICTP a resounding success, while Hussain says science took root in some developing countries but less than hoped. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 76 / 0.64 to 72 / 0.58 because the money-giving claim comes only from an ICTP-staff-written biography and the broader goals were only partly achieved."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_salam_alford, src_salam_ictp, src_salam_nobel_bio | 1954-1964 | independent reviewer + institution + biography] After finding he could not do research in Lahore he left, and from that dilemma proposed the ICTP; Alford (from Fraser) describes his tireless travelling and lobbying to create it, and the centre opened with him as director in 1964. SELF-CALIBRATION (agent): reviewed as a top-risk row; kept, as two independent descriptions and an institutional account agree on the founding."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_salam_physicstoday, src_salam_nobel_bio, src_salam_alford | 1950s-1990s | reviewer + insider biography] Hoodbhoy says he was relentlessly driven by an urge to excel in physics, and the Nobel biography (ICTP-staff written) says he cut out holidays and entertainments and worked harder than his staff; Alford describes the fast tempo of his life. Retrospective and partly insider."
+    },
+    "execution_speed": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_salam_ictp, src_salam_alford | 1984 | colleague recollection + reviewer] ICTP physicist Randjbar-Daemi recalls Salam asking his group to examine consistency problems immediately after the Green-Schwarz preprint, producing a 6-dimensional model submitted less than ten weeks later; Alford (summarising Fraser) describes his 'furious inventiveness'. One colleague's recollection plus a reviewer's phrase, so modest confidence."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_salam_ictp, src_salam_physicstoday, src_salam_imperial | 1950s-1990s | colleagues + reviewer + institution] Hoodbhoy says his research ranged across electroweak unification, proton decay and supersymmetry; Imperial lists grand unification, supersymmetry, supergravity and Kaluza-Klein theories; an ICTP colleague notes a wide range of interests and rapid moves into new fields. All within theoretical particle physics, so only a moderate score."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/abdus-salam-segre-1979.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "Photograph 'Abdus Salam lecturing at Stanford circa 1979' by Emilio Segre, AIP Emilio Segre Visual Archives, Segre Collection (repository item 122245), uploaded to Wikimedia Commons as 'Abdus Salam lecturing at Stanford.jpg' (original 3704 x 2421) with the AIP statement that American Institute of Physics is the copyright holder and freely gives permission to use the image with the credit line, consistent with the AIP archive's published copyright guide. Cropped to the lecturer (region 1600 x 2000 of the original) and downscaled to 960 x 1200; no upscaling. The AIP repository page itself returned HTTP 403 to automated requests, so the 'copyright holder' line could not be seen on the AIP page directly; the basis rests on the Commons page quoting AIP plus the AIP guide.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Photograph by Emilio Segre, courtesy of AIP Emilio Segre Visual Archives, Segre Collection, c. 1979, CC BY 4.0 (cropped)",
+    "attributionUrl": "https://repository.aip.org/node/122245",
+    "creator": "Emilio Segre",
+    "date": "1979",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Abdus_Salam_lecturing_at_Stanford.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "압두스 살람"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / Segre/AIP photograph, Commons CC BY 4.0 plus AIP permission template (same basis as shipped Chandrasekhar); AIP page returns 403 to automated requests so the holder line was seen only via Commons. PREFLIGHT: QID VERIFIED LIVE (2026-10-26, wbgetentities): Q28189 label 'Abdus Salam', description 'theoretical physicist, and Nobel Prize in Physics recipient', born 1926-01-29, died 1996-11-21; lead's hint correct. SLUG/QID CHECK: no existing candidate or src/data reference to abdus-salam or Q28189. REGION: south_asia, flagged judgement call. Pakistan has no exact taxonomy region; existing Pakistani-related candidates (muhammad-ali-jinnah, benazir-bhutto) and other South Asians are mapped to south_asia, and Salam's career base was Imperial College London and Trieste (western/southern Europe), but he is a Pakistani national, so the nationality-based precedent south_asia was chosen; the lead may prefer western_europe by the career-base rule used for Terence Tao. ZERO POLITICS: primary identity is theoretical physicist; his role as Pakistan's chief scientific adviser, Atomic Energy Commission membership, the 1974 Ahmadiyya declaration and resignation, his attempt to be UNESCO director-general, Pakistan's nuclear programme and UN committee work were read as context and are unscored and not carded; religion is not scored. Excluded as private life: family, marriages, burial and gravestone, health. VOCABULARY: occupation physicist, field physics, tags nobel_laureate, theorist, mentor, archetype scientific_explorer: existing ids with EN+KO labels. CANONICAL SIGNIFICANCE SOURCE: Nobel Prize in Physics 1979 summary (https://www.nobelprize.org/prizes/physics/1979/summary/). READ (8 cited non-Wikidata sources): Nobel summary, ceremony speech, Nobel biography (ICTP-staff written), ICTP 1997 newsletter, Imperial page, Physics Today review (Hoodbhoy), Alford review, AIP portrait pages. PERSPECTIVES: award body, institutional (Imperial, ICTP colleagues), two independent reviewers (one a Pakistani physicist) of Fraser's biography. COUNTER-VOICES: Hoodbhoy (hagiographic tinge, skipped controversies, failed Islamic science foundation), Alford (Fraser's lukewarm verdict on discoveries), Hussain (limited success in developing countries), ICTP colleagues on failed speculative ideas. JOINT ATTRIBUTION: Nobel Prize shared equally with Glashow and Weinberg for separately developed work; Ward co-identified the SU(2) x U(1) symmetry; Strathdee superspace; Pati the grand unified model. NOT opened: Fraser's 'Cosmic Anger' itself (known only through the two reviews, so rows citing it say so and carry modest confidence), Royal Society memoir by Kibble, Physics Today obituary (not found), New York Times obituary, Salam's own papers. PORTRAIT_PREFLIGHT: plausible (lead) / the lead's P18 file 'Abdus Salam 1987 (cropped).jpg' was REJECTED: its Commons page cites Nationaal Archief record number 933-9976 under CC BY-SA 3.0 nl, but that record is titled 'Nicolai Basov' at the archive (and a separate Commons file for the same record is named for Basov, CC0), although the photograph visibly shows the bearded man in the Salam files; the archive's own title conflicts with the uploader's identification, so identity cannot be established from the archive and the file was not used. Alternative used: Emilio Segre's c.1979 Stanford lecture photograph from the AIP Emilio Segre Visual Archives, with the Commons AIP 'copyright holder, freely gives permission' statement and the AIP copyright guide; caveat: the AIP repository page was blocked (403) so the item's own Copyright Holder line was not seen; the photo shows a lecturer from some distance (cropped) in poor lighting. Also seen but not used: Abdus Salam 1955.jpg (AIP, Marshak collection, licence template only 'Attribution'). SELF-CALIBRATION: rows reviewed: impact_motivation (76 / 0.64), proactive_agency (72 / 0.6), creative_originality (70 / 0.6); impact_motivation lowered to 72 / 0.58 because the giving claim is insider-sourced; the others kept."
+  }
+}
