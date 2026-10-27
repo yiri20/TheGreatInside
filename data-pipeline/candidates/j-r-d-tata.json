@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "j-r-d-tata",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "JRD Tata",
+    "aliases": [
+      "J. R. D. Tata",
+      "Jehangir Ratanji Dadabhoy Tata"
+    ],
+    "wikidataId": "Q468334",
+    "birthYear": 1904,
+    "deathYear": 1993,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "executive",
+      "entrepreneur",
+      "aviator"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "historical"
+    ],
+    "tagIds": [
+      "leader",
+      "founder"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jrdtata_wikidata",
+      "kind": "wikidata",
+      "title": "JRD Tata (Q468334) -- verified live via the Wikidata API (2026-10-26): English label 'JRD Tata', description 'French-born Indian industrialist (1904-1993)', born 29 July 1904, died 29 November 1993. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q468334"
+    },
+    {
+      "id": "src_jrdtata_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'J.R.D. Tata', updated 16 October 2026 -- reference biography: French-born, returned to India in 1925, director of Tata Sons, a commercial pilot's licence in 1929, Tata Air Mail in 1932, chairman of the Tata Group from 1938, the renaming to Air India in 1946, the 1953 nationalisation after which he stayed as chairman until 1978, diversification of the group, the institutions he supported, and his 1991 step-down. CANONICAL SIGNIFICANCE SOURCE. Read in full; the family-planning, honours and trust passages were not used for scoring.",
+      "url": "https://www.britannica.com/money/J-R-D-Tata"
+    },
+    {
+      "id": "src_jrdtata_airspace",
+      "kind": "press",
+      "title": "Air & Space Magazine (Smithsonian), 'Karachi to Bombay to Calcutta' -- long feature drawing on the Tata Central Archives and interviews with Air India executives: the three-year lobbying of the colonial government for the 1932 airmail contract, the first flight, his partner Nevill Vintcent, the offer of a no-subsidy contract, the 1953 nationalisation and his telegram to Nehru, his memos on coffee and crew hairstyles, the 1978 removal, and a former airline curator's assessment. Independent journalism with admiring staff voices; the 1982 anniversary flight's health aside was read but not used. Read in full.",
+      "url": "https://www.smithsonianmag.com/air-space-magazine/karachi-to-bombay-to-calcutta-77003851/"
+    },
+    {
+      "id": "src_jrdtata_tatacom",
+      "kind": "institution",
+      "title": "Tata Group, 'JRD Tata' heritage page (company website, accessed 2026-10-26) -- the group's own account: unpaid apprentice in 1925, board of Tata Sons at 22, the 1929 licence, the 1932 first flight, opposition to nationalisation, chairmanship from 1938, expansion into chemicals, automobiles, tea and information technology, bringing in professionals instead of relatives, and the later complaint that the federation of companies frayed. Company self-description; used for dates and facts, never as sole support for a trait. Read in full.",
+      "url": "https://www.tata.com/about-us/tata-group-our-heritage/tata-titans/jrd-tata"
+    },
+    {
+      "id": "src_jrdtata_khaleej",
+      "kind": "press",
+      "title": "Joydeep Sengupta (Khaleej Times), 'JRD Tata: The aviator and a perfectionist who founded Air India', 28 January 2022 -- feature on the October 1932 flight, the 1953 nationalisation he opposed, his unpaid chairmanship until his removal in February 1978, and the exchange of letters with Indira Gandhi praising his attention to detail in the airline's decor and uniforms, with his own reply crediting his colleagues. Press feature drawing on a politician's tweet; used for dates and the letter. Read in full.",
+      "url": "https://khaleejtimes.com/long-reads/an-aviator-and-a-perfectionist"
+    },
+    {
+      "id": "src_jrdtata_outlook",
+      "kind": "press",
+      "title": "Outlook Business, 'The Making of a Tata Leader', 2022 -- book extract on how he created the Tata Administrative Service in the 1950s as a cadre of managers modelled on the civil service, after seeing that India had no management schools. Excerpt of a book by Tata Group insiders; read as far as the free page allows.",
+      "url": "https://www.outlookbusiness.com/c'est-la-vie/hardbound/the-making-of-a-tata-leader-6599"
+    },
+    {
+      "id": "src_jrdtata_guha",
+      "kind": "press",
+      "title": "Ramachandra Guha (The Telegraph), 'Gentle Dents in a Worthy Idol' -- historian's column that calls him the most widely admired Indian industrialist because of his commitment to professional excellence and ethical practice, then criticises remarks he made about the 1975 Emergency and discipline. Independent counter-voice; the political remarks are recorded here as the critic's point and are not scored. Read in full.",
+      "url": "https://ramachandraguha.in/?p=1061"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jrdtata_airspace, src_jrdtata_britannica, src_jrdtata_tatacom | 1929-1932 | independent feature, reference biography, company history] After taking his pilot's licence in 1929 he and partner Nevill Vintcent submitted a proposal for a regular airmail service to the colonial government that year, lobbied for roughly three years, and in 1932 launched Tata Air Mail himself; Britannica credits him with creating India's first airline. The initiative came from him and his partner, with the group's chairman persuaded by an executive (company history), so the score stays moderate."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jrdtata_airspace, src_jrdtata_outlook | 1929-1950s | independent feature, book extract] In 1933 he argued to a Bombay Rotary Club that India's climate, distances and thin rail and road links favoured air transport, and the airline's first contract was offered at almost no cost to the government (Air & Space). In the 1950s he noticed that India had no management schools and created the Tata Administrative Service (Outlook Business, an extract of an insider book). Two documented gaps acted on; the framing of the second is the authors' own."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jrdtata_airspace, src_jrdtata_khaleej, src_jrdtata_britannica | 1929-1978 | independent feature, press feature, reference biography] The Air & Space feature records about three years of lobbying before the first mail flight in October 1932 and the later loss of his partner Vintcent in 1940 with the airline continuing; after nationalisation in 1953 he stayed as chairman, unpaid, for 25 years until his removal in 1978 (Khaleej Times, Britannica). Long-run commitment is documented by three sources; the sources give little on setbacks at the group level."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jrdtata_airspace | 1930-1932 | independent feature] He entered a race to fly solo from Karachi to England in 1930, and in 1932 he himself flew the first airmail from Karachi with a second-hand Puss Moth and 120 pounds of mail, at a time when the airline's budget was tiny and the government's contract could be cancelled for unreliable service. A single detailed source supports the personal flying and the thin margin; no source speaks of his own weighing of the risk."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jrdtata_airspace, src_jrdtata_khaleej | 1950s-1978 | archive-based feature, press feature] Air & Space quotes his memos on in-flight coffee and crew hairstyles from the Tata archives and a later managing director's account of letters on when to serve the cheese course; Indira Gandhi's 1978 letter praises his care for the airline's decor and hostess uniforms down to the smallest detail. Archival memos are direct evidence; the rest comes from Air India insiders and a politician's note of praise. SELF-CALIBRATION (agent): lowered from 78/0.62 to 74/0.58 because the corroboration is almost all admiring airline insiders with no adversarial voice."
+    },
+    "perfectionism": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jrdtata_khaleej, src_jrdtata_airspace | 1950s-1980s | press feature, archive-based feature] Khaleej Times quotes his saying that to get excellence one must aim at perfection and that being finicky has drawbacks but is essential; a former Air India managing director in Air & Space says he 'suffered no fools' and would cut an employee down with a caustic remark. Statement plus an insider's account of a sharp manner; dual-edged on that account only."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jrdtata_britannica, src_jrdtata_tatacom, src_jrdtata_airspace | 1938-1991 | reference biography, company history, independent feature] Elected chairman of Tata Sons in 1938 at 34 and held the post until 1991, while also chairing Air India from 1953 to 1978 (Britannica, Air & Space). He sat at the head of the group for over five decades by the sources' own dates; the sources do not separate his own role from the group's institutions, so confidence stays moderate."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jrdtata_britannica, src_jrdtata_tatacom | 1938-1991 | reference biography, company history] Britannica says he strengthened steel, power and hotels and drove the group to diversify into chemicals, automobiles, pharmaceuticals, financial services and information technology; he also flew and ran an airline. Breadth is documented; the individual companies' founding credits are not separated from the group's managers, so the score is held near the middle."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jrdtata_outlook, src_jrdtata_tatacom | 1950s | book extract, company history] In the 1950s he proposed and set up the Tata Administrative Service, recruiting young graduates to be groomed for senior posts across the group (Outlook Business extract of an insider book); company history says he brought in professionals instead of relatives. Long-horizon succession building is documented, but only by group insiders."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jrdtata_tatacom, src_jrdtata_airspace, src_jrdtata_khaleej | 1932-1980s | company history, independent feature, press feature] He worked as a partner with Nevill Vintcent, ran the group as a federation of companies led by professionals, and credited colleagues and staff in his reply to Indira Gandhi (Khaleej Times); the company history itself says the model later frayed as individual company heads gained power, a counter-note from the group's own account. Moderate inference, not a pattern shown across independent sources."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait could be resolved. (1) Wikidata P18 file 'J.R.D. Tata (1955).jpg' (649 x 812 pixels) is a November 1955 Photo Division, Government of India press photograph tagged 'PD-India' on Commons with the old photodivision.gov.in link as source and no named photographer; a 1955 Indian work was still protected in India in 1996, so under the US restoration rules the generic PD tag does not establish a US public-domain basis and the institution's terms are not stated. (2) The Commons images of a 1994 India Post stamp show a copyrighted postal design. (3) The other Commons results are event photographs and buildings, not a documented portrait of JRD Tata. Next step: find a pre-1931 published photograph with a named photographer or publication (for example from his 1929 pilot licence or the 1930 England flight) in an archive that states its terms, or a photo with a stated open licence, or obtain permission from Tata Central Archives.",
+    "kind": "likeness"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "J.R.D. 타타"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed risky: HELD, see portrait.reason. PREFLIGHT: QID Q468334 verified live (wbgetentities 2026-10-26): label 'JRD Tata', description 'French-born Indian industrialist (1904-1993)', born 29 July 1904, died 29 November 1993. No production (prod58.txt) or candidate slug/QID collision (ratan-tata is a different person, Q333460). Region south_asia; nationalityCodes IN only: he surrendered French citizenship in 1929 (Britannica, company history) and spent his career in India; Wikidata also lists French Third Republic and Dominion of India as past citizenships, not used. Zero-politics passes: primary identity is industrialist and aviation founder; political leadership is absent. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'J.R.D. Tata' (https://www.britannica.com/money/J-R-D-Tata). Excluded and unscored: opposition to nationalisation and his policy views, the 1975 Emergency remarks and population-control campaigns (political; Guha's critique is cited only as the independent counter-voice), his removal by the government in 1978 as a political event (only his unpaid long chairmanship is used), philanthropy and trust-building as reputation, honours, marriage and family, and the health aside in the 1982 anniversary flight. Vocabulary: occupations executive, entrepreneur, aviator; field business; tags leader, founder; archetypes entrepreneurial_builder, organizational_leader (all labelled in EN and KO). READ (6 substantive sources, plus Wikidata for orientation): Britannica (canonical), Air & Space Magazine, Tata Group heritage page, Khaleej Times, Outlook Business extract, Guha column. Wikipedia was read for orientation only and not counted. PERSPECTIVES: reference biography, archive-based independent feature, company self-history, press feature, book extract by group insiders, historian's critique. NOT OPENED: R.M. Lala's biography, Moneylife column on 'satraps' (paywalled), The Independent obituary (page failed), Telegraph obituary (access denied), the Hindu essay (404). A Mahabahu article was opened and rejected because it misdates his 1978 removal to a 1979 crash. No adversarial business source was available, and every operational source except Guha is admiring or the company's own, so scores are at or below 74 and confidence at or below 0.6; ten rows. SELF-CALIBRATION (agent) pass: reviewed detail_orientation, proactive_agency and persistence; lowered detail_orientation 78/0.62 to 74/0.58 (corroboration almost all admiring airline insiders); proactive_agency and persistence kept (three-source support and the chairman-persuasion caveat already priced in). HANDBACK58: {\"slug\":\"j-r-d-tata\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":10,\"self_calibrated_rows\":[{\"attribute\":\"detail_orientation\",\"old_score\":78,\"old_confidence\":0.62,\"new_score\":74,\"new_confidence\":0.58,\"reason\":\"corroboration almost all admiring airline insiders, no adversarial voice\"}],\"reviewed_kept\":[\"proactive_agency\",\"persistence\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":10}"
+  }
+}

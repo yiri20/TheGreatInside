@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "abbas-kiarostami",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Abbas Kiarostami",
+    "wikidataId": "Q55210",
+    "birthYear": 1940,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "IR"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "film_director"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kiarostami_wikidata",
+      "kind": "wikidata",
+      "title": "Abbas Kiarostami (Q55210), verified live via the Wikidata API (2026-10-26): label 'Abbas Kiarostami', description 'Iranian film director, screenwriter, photographer and film producer (1940-2016)', born 1940-06-22, died 2016-07-04, citizenship Iran, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q55210"
+    },
+    {
+      "id": "src_kiarostami_britannica",
+      "kind": "biography",
+      "title": "'Abbas Kiarostami', Encyclopaedia Britannica biography, read in full. CANONICAL SIGNIFICANCE SOURCE: an Iranian filmmaker known for experimenting with the boundary between reality and fiction across a four-decade career; hired in 1969 by the Institute for the Intellectual Development of Children and Young Adults to set up its film division; the Koker trilogy and Taste of Cherry (shared Palme d'Or, Cannes 1997) named as the key works. Reference-work summary; evaluative by nature.",
+      "url": "https://www.britannica.com/biography/Abbas-Kiarostami"
+    },
+    {
+      "id": "src_kiarostami_guardian",
+      "kind": "press",
+      "title": "'Abbas Kiarostami obituary', The Guardian, 4 July 2016, read in full: his path from painting, advertising, titles and children's-book illustration to the Institute's film department, summaries of Close-Up, the Koker films, Taste of Cherry, ABC Africa (his first digital-camera film), Ten, Shirin, Certified Copy and Like Someone in Love, and his poetry, photographs and a 2008 opera production. Includes his own quoted remarks on shooting people in cars and on why he preferred video. Independent obituary, admiring in tone; quoted remarks are self-report.",
+      "url": "https://www.theguardian.com/film/2016/jul/04/abbas-kiarostami-obituary"
+    },
+    {
+      "id": "src_kiarostami_ebert",
+      "kind": "press",
+      "title": "Roger Ebert, review of 'Taste of Cherry', Chicago Sun-Times / RogerEbert.com (1998), read in full. COUNTER-VOICE: he judged the film boring and its style an affectation, in disagreement with critics Jonathan Rosenbaum and Dave Kehr who saw a masterpiece; he also records the Cannes premiere, the standing ovations mixed with boos, and the jury's decision to share the Palme d'Or. Independent, adversarial; confirms the austere, withholding method while disputing its worth.",
+      "url": "https://www.rogerebert.com/reviews/taste-of-cherry-1998"
+    },
+    {
+      "id": "src_kiarostami_soc_closeup",
+      "kind": "press",
+      "title": "Jared Rapfogel, 'Close-Up: A Mirror Facing a Mirror', Senses of Cinema (2001), read in full: Close-Up as Kiarostami's fifth feature and the one that blurs fiction and documentary into an unclassifiable hybrid, with Hossain Sabzian and the other real participants (and Kiarostami and Makhmalbaf) playing themselves, and how the approach carried into his next film and wider Iranian cinema. Independent critical essay; admiring but analytical.",
+      "url": "https://www.sensesofcinema.com/2001/abbas-kiarostami-remembered/close_up/"
+    },
+    {
+      "id": "src_kiarostami_soc_obit",
+      "kind": "press",
+      "title": "'In Memory of A.K.', obituary essay, Senses of Cinema issue 81 (2016), translated by Daniel Fairfax, read in full: a critic's account of Kiarostami's founding of the Institute's film department and its twenty years under him, his shift to digital with ABC Africa and Ten, gallery installations, poetry and photography, masterclasses, and films made outside Iran. Independent but retrospective and admiring.",
+      "url": "https://www.sensesofcinema.com/?p=28921"
+    },
+    {
+      "id": "src_kiarostami_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file pages 'Abbas Kiarostami-Murcia.jpg' (original 6000 x 4000) and its crop 'Abbas Kiarostami-Murcia (cropped).jpg' (685 x 791), wikitext and image metadata read, checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Abbas_Kiarostami-Murcia_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kiarostami_soc_closeup, src_kiarostami_britannica, src_kiarostami_guardian, src_kiarostami_ebert | 1990-2002 | critical essay + reference biography + obituary + adversarial review] Rapfogel describes Close-Up as an unclassifiable fiction-documentary hybrid in which the real participants play themselves, and Britannica names the reality/fiction boundary as his lifelong subject. Ebert, a hostile reviewer of Taste of Cherry, does not dispute that the method is distinctive; he disputes its worth. Originality of method is independently documented; the strongest praise is retrospective. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.66 to 74 / 0.58 because the claim rests on admiring obituary and critical-essay judgement of the films; no independent source documents his working method, so 78 / 0.66 overstates a strong inference."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kiarostami_guardian, src_kiarostami_soc_obit, src_kiarostami_britannica | 1990-2012 | obituary + obituary essay + reference biography] The Guardian records ABC Africa as his first digital-camera film, with his own remark that a 35mm camera would have limited the work, then Ten built from long takes in a car; the Senses of Cinema obituary describes a deliberate aesthetic rupture with the move to digital, and Britannica lists his shift to elliptical, less narrative work. Repeated format changes are documented by independent writers; his reasons are partly self-report. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 74 / 0.62 to 70 / 0.55 because inferred from the films' form by critics, with no documented process source."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kiarostami_guardian, src_kiarostami_soc_obit | 1960s-2008 | obituary + obituary essay] Both sources record that he trained in painting and graphic design, worked in commercial art and television advertising, illustrated children's books, and later published poetry, exhibited photographs, directed a 2008 production of Mozart's opera Cosi fan tutte and made gallery film installations. Two independent obituaries agree on the breadth; neither measures depth in each field."
+    },
+    "ambiguity_tolerance": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kiarostami_guardian, src_kiarostami_ebert, src_kiarostami_soc_closeup | 1990-1997 | obituary + adversarial review + critical essay] The Guardian says audiences never know what is real in the Koker films, and that Taste of Cherry never gives the reason for the protagonist's plan; Ebert, who disliked the film, confirms he deliberately let viewers draw wrong inferences and left the character unexplained. Rapfogel calls the stance of withholding story deliberate. The pattern is in the work, and attributing it to a disposition is inference. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.55 to 66 / 0.50 because it infers a trait from the open style of the films."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kiarostami_guardian, src_kiarostami_soc_obit | 2001-2012 | obituary + obituary essay] The Guardian documents a move from 35mm to digital video (with his stated reason) and two features made outside Iran, in Italy with English, French and Italian dialogue and in Japan in Japanese; the Senses of Cinema obituary describes freer creation abroad and continuity of style across the change of medium. Two independent sources agree on the changes; the Guardian also judges the later films slightly diminished away from their roots."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_kiarostami_britannica, src_kiarostami_soc_obit | 1969-2012 | reference biography + obituary essay] Britannica describes a four-decade career beginning with the Institute's film division in 1969, and the Senses of Cinema obituary says he managed the department for twenty years. Long tenure is documented; no source describes the effort or setbacks, so the row stays modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아바스 키아로스타미"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/abbas-kiarostami-pacheco-2013.jpg",
+    "width": 685,
+    "height": 791,
+    "source": "Photograph of Abbas Kiarostami at the opening of the IBAFF film festival in Murcia, Spain, taken 4 March 2013 by Pedro J Pacheco and uploaded to Wikimedia Commons by the photographer as own work in 2015 under the Creative Commons Attribution-ShareAlike 4.0 licence. The file used is the photographer's own crop (685 x 791) of his 6000 x 4000 original; image metadata shows a Sony SLT-A65V camera and the capture date of 2013-03-04, consistent with the stated source. No upscaling.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Pedro J Pacheco, CC BY-SA 4.0, via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Abbas_Kiarostami-Murcia_(cropped).jpg",
+    "creator": "Pedro J Pacheco",
+    "date": "2013-03-04",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Abbas_Kiarostami-Murcia_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / confirmed: Commons wikitext shows author Pedro J Pacheco, own work, CC BY-SA 4.0, taken 2013-03-04 and uploaded 2015 by the same user; EXIF (Sony SLT-A65V) matches the stated capture date; the file is the photographer's own crop of a 6000 x 4000 original; uploader has a category of many own images. Residual caveat: rights rest on the uploader-is-photographer statement plus consistent metadata (no separate review template); no institutional page conflicts. PREFLIGHT: QID VERIFIED LIVE (2026-10-26): Q55210 label 'Abbas Kiarostami', description 'Iranian film director, screenwriter, photographer and film producer (1940-2016)', born 1940-06-22, died 2016-07-04; matches the lead. No production slug or QID collision (prod58.txt searched for the surname token and QID; no candidate file existed). REGION west_asia (Iran: repo precedent maryam-mirzakhani and shirin-ebadi are west_asia). VOCABULARY: film_director, field film, tag innovator, archetype creative_creator exist with EN labels and are used by other candidates. ZERO POLITICS: primary identity is a film director; the Guardian's remarks on censorship and the state-supported Institute are unscored context. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica biography (https://www.britannica.com/biography/Abbas-Kiarostami). READ: Britannica (full), Guardian obituary (full), Ebert Taste of Cherry review (full, counter-voice), Senses of Cinema Close-Up essay (full), Senses of Cinema obituary essay (full), plus the opening of a Senses of Cinema essay on rural space (not cited). Perspectives: reference biography, obituary press, adversarial review, critical film journal. NOT opened: nytimes obituary (blocked), Criterion booklet and Kiarostami's own interviews, books by Rosenbaum, Dabashi, Naficy. EXCLUSIONS: family, health and cause of death, politics and censorship. Korean name: Wikidata ko label is 아바스 키아로스타미, used. SELF-CALIBRATION (agent): top-risk rows reviewed: ambiguity_tolerance (70/0.55 lowered to 66/0.50), creative_originality (kept: independent essay plus reference work agree and the hostile reviewer does not dispute distinctiveness), experimentation (kept: two independent obituaries and a quoted reason). FLAGS: 6 rows, none above 78; most praise is retrospective and little independent evidence exists on his working behaviour (no set-level source read). HANDBACK58: {\"slug\":\"abbas-kiarostami\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"ambiguity_tolerance\",\"old_score\":70,\"old_confidence\":0.55,\"new_score\":66,\"new_confidence\":0.5,\"reason\":\"infers a trait from the open style of the films\"}],\"reviewed_kept\":[\"creative_originality\",\"experimentation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6} RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.66 to 74 / 0.58 because the claim rests on admiring obituary and critical-essay judgement of the films; no independent source documents his working method, so 78 / 0.66 overstates a strong inference. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 74 / 0.62 to 70 / 0.55 because inferred from the films' form by critics, with no documented process source."
+  }
+}

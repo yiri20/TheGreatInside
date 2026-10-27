@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "meghnad-saha",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Meghnad Saha",
+    "aliases": [
+      "M. N. Saha",
+      "Meghnad N. Saha"
+    ],
+    "wikidataId": "Q377898",
+    "birthYear": 1893,
+    "deathYear": 1956,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "astrophysicist",
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer",
+      "theorist"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_saha_wikidata",
+      "kind": "wikidata",
+      "title": "Meghnad Saha (Q377898) -- verified live via the Wikidata API (2026-10-26): English label 'Meghnad Saha', description 'Bengali astrophysicist (1893-1956)', born 6 October 1893, died 16 February 1956. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q377898"
+    },
+    {
+      "id": "src_saha_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Meghnad N. Saha' -- reference biography: Indian astrophysicist noted for the 1920 thermal ionization equation, in the form perfected by Edward A. Milne fundamental to work on stellar atmospheres; professor at Allahabad in 1923, Fellow of the Royal Society in 1927, Calcutta from 1938 where he was instrumental in creating the Institute of Nuclear Physics; founded the journal Science and Culture in 1935; elected to Parliament as an independent in 1951 (politics not scored). CANONICAL SIGNIFICANCE SOURCE. Read in full.",
+      "url": "https://www.britannica.com/biography/Meghnad-N-Saha"
+    },
+    {
+      "id": "src_saha_royal_society_memoir",
+      "kind": "biography",
+      "title": "D. S. Kothari, 'Meghnad Saha' (Biographical Memoirs of Fellows of the Royal Society, vol. 5, February 1960; reprinted by the Indian National Science Academy) -- detailed memoir by one of his former students: the 1920 thermal ionization paper, the Milne and Fowler refinements and criticism of his method, his Allahabad and Calcutta years, the Institute of Nuclear Physics (founded 1948, opened 1950), the Indian Association for the Cultivation of Science, the academies and Science and Culture, flood control, and also his limits (little aptitude for practical work, a 'quaint' solar-corona hypothesis, not recognising the 21-cm hydrogen line). Colleague and admiring, but specific and with dated detail. Read in full except the bibliography.",
+      "url": "https://insaindia.res.in/BM/BM2_7008.pdf"
+    },
+    {
+      "id": "src_saha_dsb",
+      "kind": "biography",
+      "title": "V. V. Raman, 'Saha, Meghnad', Complete Dictionary of Scientific Biography (reprinted on Encyclopedia.com) -- independent scholarly reference entry: his application of thermodynamics and quantum theory to stellar matter, the dispute over where the 1920 paper was written, the note that early enthusiasts applied the equation 'rather rashly' with significant errors, his institutional work and his avoidance of party politics. Read in full.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/meghnad-saha"
+    },
+    {
+      "id": "src_saha_statesman",
+      "kind": "press",
+      "title": "Amitabha Bhattacharya, 'What India owes to Meghnad Saha', The Statesman, 1 March 2019 -- retrospective opinion by a retired civil servant, drawing on Robert Anderson's and G. Venkataraman's studies: his teaching and institution-building, his disagreement with Homi Bhabha and Nehru over setting up the Atomic Energy Commission, his difficulties with bureaucrats, the 'sometimes acrimonious' disagreements between Raman and Saha with personal ego and rivalry, and the point that his 1920 paper was published in a local journal. Admiring overall but with the critical points above. Read in full.",
+      "url": "https://www.thestatesman.com/opinion/india-owes-meghnad-saha-1502735681.html"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_saha_royal_society_memoir, src_saha_dsb, src_saha_britannica | 1919-1921 | colleague memoir, scholarly reference, reference biography] He extended thermodynamics and the kinetic theory to free electrons, treating ionization as a reaction-isobar and adding the ionization potential to an earlier formula, then derived how stellar spectral classes follow from temperature and pressure; the memoir quotes Rosseland and Milne on the importance of the work, and also records that Milne and Fowler later showed his marginal-appearance criterion was less fruitful than maximum line intensity (memoir) and that early applications contained significant errors (DSB). Strong documented reasoning on one central problem; the independent sources are reference works, not close accounts of his method. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 74 / 0.62 to 72 / 0.58 because the strongest wording is a colleague's Royal Society memoir, with only one press retrospective as independent check."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_saha_dsb, src_saha_royal_society_memoir, src_saha_britannica | 1919-1921 | scholarly reference, colleague memoir, reference biography] The DSB says he drew an analogy between chemical dissociation and atomic ionization to derive the formula; the memoir shows it grew from Eggert's 1919 paper and Lindemann's earlier hydrogen suggestion but says only Saha saw it as the key to stellar spectra, and that it explained the absence of rubidium and caesium lines and predicted them in sunspots (Russell then found rubidium). Originality is real but built on prior work, which the sources state, so the score stays moderate."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_saha_royal_society_memoir, src_saha_statesman, src_saha_dsb | 1917-1955 | colleague memoir, press retrospective, scholarly reference] The memoir lists work on relativity, spectra, ionospheric radio propagation, solar corona, beta radioactivity and rock ages, plus a keen interest in ancient history and archaeology, flood control and calendar reform; the Statesman adds the Damodar Valley master plan and river physics. Breadth is well documented; depth outside astrophysics is shown unevenly (the memoir calls his corona hypothesis 'quaint')."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_saha_royal_society_memoir, src_saha_britannica, src_saha_dsb, src_saha_statesman | 1932-1950 | colleague memoir, reference biography, scholarly reference, press retrospective] He is credited with launching Science and Culture, being first president of the Allahabad academy and second of the National Institute of Sciences, pressing for an Institute of Nuclear Physics (founded 1948, opened 1950) and for the expansion of the Indian Association for the Cultivation of Science (memoir; Britannica says 'instrumental'; DSB 'directly or indirectly responsible'; Statesman lists the same bodies and notes the cyclotron). Four sources agree on the institutions; the strongest detail comes from an admiring former student, though the cyclotron itself was built by Nagchaudhuri."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_saha_royal_society_memoir, src_saha_statesman, src_saha_dsb | 1905-1950s | colleague memoir, press retrospective, scholarly reference] The memoir calls him 'fearless and trenchant' in criticising things and men and says it was not in his nature to placate others; the Statesman records his disagreement with Bhabha and Nehru on setting up the Atomic Energy Commission, difficulties with bureaucrats, and 'sometimes acrimonious' disagreements with Raman; the DSB mentions a personality conflict that moved him out of mathematics. Dual-edged: it carried his principles into public arguments but also cost him goodwill with power. The account of the Raman dispute is a single opinion piece."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_saha_royal_society_memoir, src_saha_statesman | 1920-1938 | colleague memoir, press retrospective] After inconclusive caesium-vapour experiments in Berlin he returned to the problem years later at Allahabad with colleagues (memoir), and the Statesman says he kept working in modest laboratories after his Royal Society election. SELF-CALIBRATION (agent): lowered from 68/0.55 to 64/0.5 because the one specific episode is a single return to an experiment and the broader 'untiring energy' comes from the admiring memoir."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_saha_royal_society_memoir, src_saha_statesman | 1934-1950s | colleague memoir, press retrospective] He used his 1934 Science Congress address to press for an all-India academy and a river research laboratory, wrote repeatedly on flood control and planning, worked on refugee problems after 1947 (memoir), and the Statesman describes a lifelong effort to make universities hubs of research. The motive is inferred from sustained work on public scientific problems; no source reports his stated reasons beyond a 1945 Nature statement in the memoir, so confidence stays near 0.5."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/meghnad-saha-lakey-1944.jpg",
+    "width": 1161,
+    "height": 1200,
+    "source": "Library of Congress, Farm Security Administration - Office of War Information Photograph Collection (item LC-DIG-fsa-8d37165), via Wikimedia Commons; cropped from a group photograph of visiting Indian scientists",
+    "license": "Public domain (work of a United States federal government photographer)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-FSA",
+    "attribution": "J. Sherrel Lakey, Office of War Information photographer, December 1944; Library of Congress",
+    "attributionUrl": "https://hdl.loc.gov/loc.pnp/fsa.8d37165",
+    "creator": "J. Sherrel Lakey",
+    "date": "1944-12",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Indian-scientists-visit-fsa-8d37000-8d37100-8d37165a.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "메그나드 사하"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / RESOLVED with an alternative: the Wikidata P18 file 'Dr-Meghnad-Saha.jpg' has author 'unknown', date 'before 1950', source a school website, and only PD-India/PD-Bangladesh tags, so it is rejected (as are other unknown-author Commons scans: 'Meghnad Saha 1934' from The Modern Review, 'SahaInBerlin', the Royal Society memoir plate and a 2007 magazine scan, all with unknown authors and jurisdiction-only PD claims, and the uploader-assertion scan). Accepted instead: a December 1944 Washington group photograph of visiting Indian scientists by J. Sherrel Lakey in the Library of Congress FSA-OWI collection (reproduction LC-DIG-fsa-8d37165), where the Commons page states it is the work of a US federal Farm Security Administration or Office of War Information photographer taken in official duties, so public domain by US federal-employee rule (an affirmative basis, not the collection's generic 'no known restrictions'). Caption order: standing, left to right, Saha, Coan (State Department), Mitra, Bhatnagar; Saha is the far-left standing man and the face matches the other Saha photographs seen. Original 5945 x 6978 grayscale scan; cropped to head and shoulders and downscaled to 1161 x 1200, never upscaled. CAVEATS: the Library of Congress item page itself returned HTTP 403 to automated requests so the catalogue record was not read directly (the caption and credit are quoted by Commons); identification rests on the caption order. PREFLIGHT: QID Q377898 verified live (wbgetentities 2026-10-26): label 'Meghnad Saha', description 'Bengali astrophysicist (1893-1956)', born 6 October 1893, died 16 February 1956. No production (prod58.txt, no surname match) or candidate slug/QID collision. Region south_asia (India, Bengal). Zero-politics passes: primary identity is astrophysicist; his 1951 Lok Sabha seat, the National Planning Committee and AEC advocacy are political context and unscored. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Meghnad N. Saha' (https://www.britannica.com/biography/Meghnad-N-Saha). READ (4 substantive sources, plus Wikidata for orientation): Britannica (canonical), Kothari's Royal Society memoir (INSA reprint), the Dictionary of Scientific Biography entry, and the Statesman 2019 retrospective. Wikipedia was not used. PERSPECTIVES: reference biography, colleague memoir, independent scholarly reference, press retrospective with critical points (Bhabha/Nehru dispute, Raman rivalry, bureaucrats). Below the 6-source target: a Scroll article on Raman (about the Raman-IACS controversy) was only partly read and not cited; the Saha Institute history page returned 404; Robert Anderson's and G. Venkataraman's books, S. N. Sen's commemoration volume, and the Karatoya paper on Saha's letters to Nehru and Bhabha were not opened; Britannica's own statement of the 1951 election is not used. EXCLUSIONS: politics, planning committee, refugee relief as political activity, family, health, caste-discrimination background (not used to infer personality), honours. Seven rows, scores at or below 74 and confidence at or below 0.62. SELF-CALIBRATION (agent) pass: reviewed proactive_agency, conflict_tolerance and persistence; lowered persistence 68/0.55 to 64/0.5 (single return-to-experiment episode plus admiring memoir); proactive_agency kept (four agreeing sources including an independent reference and a critical-leaning retrospective); conflict_tolerance kept (three sources of different kinds, already dual-edged). HANDBACK58: {\"slug\":\"meghnad-saha\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":7,\"self_calibrated_rows\":[{\"attribute\":\"persistence\",\"old_score\":68,\"old_confidence\":0.55,\"new_score\":64,\"new_confidence\":0.5,\"reason\":\"single return-to-experiment episode plus admiring memoir for general energy\"}],\"reviewed_kept\":[\"proactive_agency\",\"conflict_tolerance\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":7} RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 74 / 0.62 to 72 / 0.58 because the strongest wording is a colleague's Royal Society memoir, with only one press retrospective as independent check."
+  }
+}

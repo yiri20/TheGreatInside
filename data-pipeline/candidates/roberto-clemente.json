@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "roberto-clemente",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Roberto Clemente",
+    "aliases": [
+      "Roberto Clemente Walker"
+    ],
+    "wikidataId": "Q684020",
+    "birthYear": 1934,
+    "deathYear": 1972,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "PR",
+      "US"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_clemente_wikidata",
+      "kind": "wikidata",
+      "title": "Roberto Clemente (Q684020), verified live via the Wikidata API (2026-10-26): label 'Roberto Clemente', description 'Puerto Rican baseball player (1934-1972)', born 1934-08-18, died 1972-12-31, Korean label present, P18 image 'Roberto Clemente marines shot.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q684020"
+    },
+    {
+      "id": "src_clemente_hof",
+      "kind": "institution",
+      "title": "National Baseball Hall of Fame, 'Roberto Clemente' (Class of 1973), read in full. CANONICAL SIGNIFICANCE SOURCE: Pittsburgh Pirates right fielder 1955-1972; 1960 World Series title, four National League batting titles, the 1966 NL Most Valuable Player Award, 12 straight Gold Gloves, the 1971 World Series title and Series MVP (.414), his 3,000th hit in 1972 (the 11th player to reach it), and his death on 31 December 1972 on a relief flight to Nicaragua; elected in 1973 in a special election that waived the waiting period. Institutional and celebratory; career statistics listed (.317, 3,000 hits, 240 home runs).",
+      "url": "https://baseballhall.org/hall-of-famers/clemente-roberto"
+    },
+    {
+      "id": "src_clemente_sabr",
+      "kind": "biography",
+      "title": "Stew Thornley, 'Roberto Clemente', SABR Baseball Biography Project (Society for American Baseball Research, 2012), read in full except the endnotes: his Puerto Rican and minor-league years, the 1954 Montreal and Rule 5 draft story (with SABR's corrections of claims in earlier biographies), the Pirates years season by season, injuries and the 'hypochondriac' charge, run-ins with managers and the press, quoted criticism by sportswriter Phil Musick, the 1960, 1966 and 1971 seasons, the 3,000th hit, the Nicaragua relief effort and death, the Hall of Fame election. Detailed society biography, game-checked against Retrosheet, and openly corrects some of Kal Wagenheim's and Bruce Markusen's claims; partly admiring.",
+      "url": "https://sabr.org/bioproject/person/roberto-clemente/"
+    },
+    {
+      "id": "src_clemente_pbs",
+      "kind": "press",
+      "title": "'Roberto Clemente', American Experience (PBS / WGBH, 2008), page with the full film transcript, read in full: interviews with historians (Samuel Regalado, Robert Ruck), writers (George Will, Juan Gonzalez), teammates (Steve Blass, Al Oliver, Manny Sanguillen), friends, family and biographer David Maraniss; covers Jim Crow spring training, the hostile and mocking press, the hypochondria label, the 1960 MVP vote, the 1971 World Series, the clinics, Sports City plan and the Nicaragua relief flight. Independent documentary with many voices, but admiring and built on Maraniss's book (so not independent of him).",
+      "url": "https://www.pbs.org/wgbh/americanexperience/films/roberto-clemente"
+    },
+    {
+      "id": "src_clemente_npr",
+      "kind": "press",
+      "title": "NPR Weekend Edition Sunday, ''Clemente' Tells Story of a True Baseball Hero' (30 April 2006), transcript of Don Gonyea's interview with biographer David Maraniss, read in the portion on Clemente's first years in Pittsburgh, his batting ritual, his decade of growing leadership and the 1971 World Series; the remainder was skimmed. Radio interview with the author of a 2006 biography; favourable, and Maraniss is also the source behind much of the PBS and Smithsonian material.",
+      "url": "https://www.npr.org/transcripts/5369849"
+    },
+    {
+      "id": "src_clemente_smithsonian",
+      "kind": "press",
+      "title": "David Maraniss, 'Roberto Clemente: The King of Beisbol', Smithsonian magazine (April 2012, updated 2018), read in full: his helmet in the National Museum of American History, the Nicaragua flight prompted by diverted earlier aid, his stated principle about making life better for others, his confrontations with sportswriters who ridiculed his accent, the 'perfectionist and hypochondriac' complaints, and a teammate's recollection of smashing helmets in 1955. Magazine essay by his biographer; admiring and the same author as the NPR interview, so not independent of it.",
+      "url": "https://www.smithsonianmag.com/history/roberto-clemente-the-king-of-beisbol-159900779/"
+    },
+    {
+      "id": "src_clemente_heinz",
+      "kind": "institution",
+      "title": "Heinz History Center (Pittsburgh), 'Personal Connections to a Hero Named Roberto Clemente' (blog, 2022), read in full: autographs and fan contact, his habit of giving away equipment, his corrections to popular stories (the origin of uniform number 21, reported by newspapers under wrong names), his post-1972 Eastern Airlines spokesperson role, and his managing Puerto Rico's team at the 1972 Amateur World Series in Nicaragua. Local museum blog; light on detail, admiring, but independent of Maraniss on several points and explicit where popular accounts conflict.",
+      "url": "https://www.heinzhistorycenter.org/blog/personal-connections-to-a-hero-named-roberto-clemente/"
+    },
+    {
+      "id": "src_clemente_nara",
+      "kind": "archive",
+      "title": "National Archives, 'Baseball: The National Pastime in the National Archives' (e-book), pages on Roberto Clemente Walker's Marine Corps Reserve service record (photograph dated 30 September 1958), checked for the portrait: the e-book reproduces his Official Military Personnel File documents and states he reported to Parris Island in September 1958 and received an honorable discharge on 11 September 1964. Not used for any scoring.",
+      "url": "https://www.archives.gov/publications/ebooks/baseball.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clemente_sabr, src_clemente_pbs, src_clemente_smithsonian | 1955-1972 | biography + documentary + essay] SABR records a back injury from a 1954 car accident that hampered him for the rest of his career, a 1960 outfield-wall collision that needed five stitches yet he stayed in the game, repeated recoveries from shoulder, elbow, thigh and heel injuries, and a 1957 report quoting his manager that 'the worse he feels, the better he plays'. PBS and Smithsonian describe the same pattern but add that contemporaries read it as hypochondria; his steady return to play over 18 seasons is documented while the severity of each complaint is disputed. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 76 / 0.65 to 74 / 0.6 because same single-biographer concentration: the injury-and-return accounts are Maraniss-derived, with SABR the only other source."
+    },
+    "achievement_drive": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clemente_sabr, src_clemente_pbs, src_clemente_hof | 1960-1972 | biography + documentary + institution] SABR quotes Clemente that after missing the 1960 MVP he 'made up my mind I'd win the batting title in 1961' and he led the league at .351; the Hall of Fame lists four batting titles, the 1966 MVP and the 3,000th hit, and SABR quotes him in 1971 saying 'I would like to get 3,000 hits' and he reached it in 1972. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 80 / 0.68 to 78 / 0.62 because the central evidence is his own recalled goal and the PBS account of the 1960 slight comes largely through one biographer. RUBRIC_CORRECTION (lead review, before eligibility): achievement_drive lowered from 78 / 0.62 to 76 / 0.58 because the key evidence is his own recalled goal relayed by one biographer; the statistics are documented but show output, not drive."
+    },
+    "competitiveness": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clemente_sabr, src_clemente_pbs, src_clemente_npr | 1960-1971 | biography + documentary + interview] In 1971 he told teammates to 'get on my back' (Maraniss, in PBS and NPR), hit safely in every game of both World Series he played, and SABR reports he sprinted to first on a grounder so hard that the pitcher threw wildly, and ignored his third-base coach's stop signal to score on a 1956 inside-the-park grand slam. PBS also records him taking the 1960 MVP result as a personal slight. Several independent voices (teammates, opponents, writers) agree; reviewed under the self-calibration pass and kept. RUBRIC_CORRECTION (lead review, before eligibility): competitiveness lowered from 80 / 0.66 to 76 / 0.6 because the vivid episodes (the 1960 MVP slight, the batting-title chases) reach us mainly through one biographer, Maraniss, relayed by NPR, Smithsonian and PBS, plus SABR, so they are close to one perspective."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_clemente_sabr, src_clemente_npr, src_clemente_pbs | 1955-1971 | biography + interview + documentary] SABR says he learned the angles of Forbes Field's brick wall to play caroms, and NPR quotes Maraniss describing his studied choice of bats and pre-plate ritual; PBS has a teammate describing his handling of his own body as 'incredible'. Consistent across sources but the craft detail is mostly one biographer's description and no coach's or teammate's first-hand account of practice habits was read."
+    },
+    "social_assertiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_clemente_sabr, src_clemente_pbs, src_clemente_smithsonian | 1955-1972 | biography + documentary + essay] SABR says he 'frequently stood up for himself and his fellow Latin players, speaking out against injustices'; Smithsonian and PBS describe him confronting sportswriters who mocked his accent and refusing to be called 'Bobby'; PBS has a sportswriter saying he flared up if approached wrongly. Dual-edged: SABR cites Phil Musick calling him 'vain, occasionally arrogant, often intolerant', and SABR notes some of his claims of mistreatment were not entirely correct. RUBRIC_CORRECTION (lead review, before eligibility): social_assertiveness lowered from 76 / 0.64 to 72 / 0.58 because the press-conflict and \"hypochondriac\" accounts are relayed through Maraniss and SABR and the dual-edged reading is partly the biographer's interpretation."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_clemente_sabr, src_clemente_pbs | 1956-1972 | biography + documentary] He repeatedly argued with managers and scorers: disobeyed a stop sign in 1956, was fined by Bobby Bragan, reportedly clashed with Danny Murtaugh over injuries, and in 1972 accused official scorers of costing him batting titles after an error ruling (SABR notes he misidentified the scorer). PBS adds his 'Hypochondriacs don't produce. I produce!' reply to critics. He did not avoid disputes, though the record does not show how he resolved them."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_clemente_sabr, src_clemente_pbs, src_clemente_smithsonian, src_clemente_heinz | 1960-1972 | biography + documentary + essay + museum] SABR says he kept playing winter ball in Puerto Rico out of obligation to fans, led baseball clinics for children, planned a Sports City for young people, and after the December 1972 Nicaragua earthquake organised a committee to collect aid and chose to travel with a cargo flight; PBS and Smithsonian add that earlier aid had been diverted and that he said 'If I go, it will reach the people'; Heinz notes his Nicaragua involvement and his giving away equipment. The death itself is not scored. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 80 / 0.66 to 78 / 0.62 because the Smithsonian, NPR and PBS accounts all trace to Maraniss, and SABR's summary is brief on the clinics and Sports City. RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 78 / 0.62 to 74 / 0.58 because the clinics and Sports City evidence is brief in SABR and otherwise Maraniss-derived; his motive is partly inferred from his death on a relief flight, which is not behaviour evidence of motive."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_clemente_sabr, src_clemente_pbs, src_clemente_npr | 1964-1972 | biography + documentary + interview] SABR says that by 1971 'the team leader was still Clemente' even as Willie Stargell starred; he managed San Juan in the Puerto Rican winter league and the Puerto Rican team at the 1972 Amateur World Series; PBS has teammates (Oliver) calling him their leader and Maraniss reporting he vouched for the team before the 1971 Series. Leadership is often retrospective praise from teammates and his formal management roles were in winter ball."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_clemente_sabr, src_clemente_pbs, src_clemente_smithsonian | 1955-1971 | biography + documentary + essay] SABR documents repeated physical risk in the field (crashing into the right-field wall in 1960 and 1971, ignoring a stop signal) and Smithsonian notes he had little use for batting-helmet protection and swung at nearly any pitch he could reach; the cost was frequent injury. The pattern concerns on-field physical and tactical risk rather than financial or career gambles."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_clemente_sabr, src_clemente_npr, src_clemente_pbs | 1954-1966 | biography + interview + documentary] Maraniss (NPR) says the adjustment to Pittsburgh, with no Latin community and a press that mocked his English, 'took a long time for Clemente, but he did it'; SABR notes his walk totals rose in the mid-1960s and describes a 1966 plate appearance in which he laid off three balls and fouled off eight pitches to earn a walk, though he is described as a free swinger for most of his career. Evidence is a mix of one biographer's summary and a few game accounts."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로베르토 클레멘테"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/roberto-clemente-us-marines-1958.jpg",
+    "width": 351,
+    "height": 394,
+    "source": "Service-record photograph of Roberto Clemente Walker taken 30 September 1958 when he enlisted in the US Marine Corps Reserve, from his Official Military Personnel File (Records of the Army Staff, Record Group 319, National Archives at St. Louis), reproduced in the National Archives e-book 'Baseball: The National Pastime in the National Archives'. The Wikimedia Commons file page credits the US Marines as author and tags it as a US government military work. Original image 351 x 394 pixels, not resized or upscaled; low resolution is a limit of the source scan.",
+    "license": "Public domain (US federal government work)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Marines",
+    "attribution": "US Marine Corps, 30 September 1958, via National Archives",
+    "attributionUrl": "https://www.archives.gov/publications/ebooks/baseball.html",
+    "creator": "US Marine Corps",
+    "date": "1958-09-30",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Roberto_Clemente_marines_shot.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / confirmed: Commons page credits author US Marines, date 30 September 1958, PD-USGov-Military-Marines (plus a PD-US-not-renewed tag), source the National Archives e-book which prints the same service-record photo with Record Group 319 / NARA St. Louis credit and no copyright notice; the image is a military personnel file photograph, a US federal government work. Only conflict risk: low resolution (351x394), accepted. PREFLIGHT: QID VERIFIED LIVE (2026-10-26) Q684020 label 'Roberto Clemente', description 'Puerto Rican baseball player (1934-1972)', born 1934-08-18, died 1972-12-31; matches the lead. No existing production or candidate entry for the slug or QID. REGION latin_america: Puerto Rico is not a sovereign state and the repo has no US-territory precedent; Wikidata lists US citizenship, but SABR and PBS present him as the first Latino superstar and the Hall of Fame as the first Latin American inductee, so Puerto Rican identity and Latin American framing are used; nationality codes PR and US. ZERO POLITICS: primary identity is a baseball player; relief work and civil-rights opinions are not scored as politics. VOCABULARY: occupation athlete, field sport, tags competitor and sustained_excellence, archetype competitive_performer all have EN and KO labels (used by lionel-messi). CANONICAL SIGNIFICANCE SOURCE: National Baseball Hall of Fame, 'Roberto Clemente' (https://baseballhall.org/hall-of-famers/clemente-roberto). READ: HOF page, SABR biography (almost in full), PBS American Experience transcript (in full), NPR/Maraniss interview (about two thirds), Smithsonian essay, Heinz History Center blog (first half), NARA e-book (Clemente pages only). PERSPECTIVES: hall-of-fame institution, society biography, documentary with historians, teammates and writers, the biographer's interview and essay, a local museum. COUNTER-VOICES: sportswriter Phil Musick (via SABR) on his vanity and self-pity, press and managers who called him a hypochondriac, SABR's corrections of claims by earlier biographers (hidden-at-Montreal story, quota), Heinz History Center's correction of the uniform-number story. NOT OPENED: Maraniss's book itself, Wagenheim and Markusen biographies, Britannica (bot-blocked), NYT obituary (blocked), Smithsonian National Postal Museum pages (verification wall). Three sources (NPR, Smithsonian, PBS) all depend on Maraniss and are treated as one perspective plus a documentary. EXCLUSIONS: marriage, family, childhood tragedies, health beliefs, his 1969 reported abduction, grief and mortality premonitions, and the circumstances of the crash (cause, pilot, plane condition) are not scored; his comments on civil rights and Martin Luther King read in PBS are not scored. SELF-CALIBRATION (agent): top-risk rows reviewed: achievement_drive (80/0.68 lowered to 78/0.62), impact_motivation (80/0.66 lowered to 78/0.62), competitiveness (kept). FLAGS: ten rows, none above 80; humanitarian behaviour rests mostly on Maraniss-derived accounts and the SABR summary. HANDBACK58: {\"slug\":\"roberto-clemente\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":10,\"self_calibrated_rows\":[{\"attribute\":\"achievement_drive\",\"old_score\":80,\"old_confidence\":0.68,\"new_score\":78,\"new_confidence\":0.62,\"reason\":\"central evidence is his own recalled goal and a PBS account that comes largely through one biographer\"},{\"attribute\":\"impact_motivation\",\"old_score\":80,\"old_confidence\":0.66,\"new_score\":78,\"new_confidence\":0.62,\"reason\":\"Smithsonian, NPR and PBS accounts all trace to Maraniss and SABR is brief on the clinics and Sports City\"}],\"reviewed_kept\":[\"competitiveness\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":10} RUBRIC_CORRECTION (lead review, before eligibility): competitiveness lowered from 80 / 0.66 to 76 / 0.6 because the vivid episodes (the 1960 MVP slight, the batting-title chases) reach us mainly through one biographer, Maraniss, relayed by NPR, Smithsonian and PBS, plus SABR, so they are close to one perspective. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 76 / 0.65 to 74 / 0.6 because same single-biographer concentration: the injury-and-return accounts are Maraniss-derived, with SABR the only other source. RUBRIC_CORRECTION (lead review, before eligibility): social_assertiveness lowered from 76 / 0.64 to 72 / 0.58 because the press-conflict and \"hypochondriac\" accounts are relayed through Maraniss and SABR and the dual-edged reading is partly the biographer's interpretation. RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 78 / 0.62 to 74 / 0.58 because the clinics and Sports City evidence is brief in SABR and otherwise Maraniss-derived; his motive is partly inferred from his death on a relief flight, which is not behaviour evidence of motive. RUBRIC_CORRECTION (lead review, before eligibility): achievement_drive lowered from 78 / 0.62 to 76 / 0.58 because the key evidence is his own recalled goal relayed by one biographer; the statistics are documented but show output, not drive."
+  }
+}

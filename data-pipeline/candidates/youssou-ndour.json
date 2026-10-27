@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "youssou-ndour",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Youssou N'Dour",
+    "aliases": [
+      "Youssou Ndour"
+    ],
+    "wikidataId": "Q210734",
+    "birthYear": 1959,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "SN"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "musician",
+      "singer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ndour_wikidata",
+      "kind": "wikidata",
+      "title": "Youssou N'Dour (Q210734), verified live via the Wikidata API (2026-10-26): label 'Youssou N'Dour', description 'Senegalese singer, composer and politician (born 1959)', born 1959-10-01, no death date, citizenship Senegal, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q210734"
+    },
+    {
+      "id": "src_ndour_britannica",
+      "kind": "biography",
+      "title": "'Youssou N'Dour', Encyclopaedia Britannica biography, read in full. CANONICAL SIGNIFICANCE SOURCE: a Senegalese singer known for his vocal range and for popularizing mbalax internationally; joined the Star Band de Dakar at 16, formed Etoile de Dakar in 1977 (later Super Etoile de Dakar), added sabar drums and spread their rhythms across keyboards and electric guitars, sang on Peter Gabriel's 'In Your Eyes' (1986), won the 2005 Grammy for the album Egypt, and built a studio, label, media group and television station. Reference-work summary.",
+      "url": "https://www.britannica.com/biography/Youssou-NDour"
+    },
+    {
+      "id": "src_ndour_npr",
+      "kind": "press",
+      "title": "Banning Eyre, 'Youssou N'Dour: The Voice of Senegal', NPR (carried by WVIA), 27 December 2010, read in full: a journalist's profile that traces his stylistic shifts from soul to funk, rock, reggae and Islamic religious music, the Gabriel alliance, a disappointing art-rock phase, a million-selling duet with Neneh Cherry, the cool first reception of Egypt in Senegal, and his choice to keep his base in Dakar rather than Paris. COUNTER-VOICE in part: it calls the art-rock phase disappointing and notes that some wonder who he really is. Independent journalism.",
+      "url": "https://www.wvia.org/2010-12-27/youssou-ndour-the-voice-of-senegal"
+    },
+    {
+      "id": "src_ndour_praemium",
+      "kind": "award_body",
+      "title": "Praemium Imperiale laureate profile of Youssou N'Dour (Japan Art Association, 2017), read in full: his start at 12 and early bands, his wish to make a Senegalese sound distinct from the popular Cuban and Latin music, collaborations with Paul Simon, Peter Gabriel and Sting, the Neneh Cherry duet, the Egypt album, a 2007 documentary and tour from Goree Island, his foundation and media businesses. Admiring prize profile; several statements are his own quoted words.",
+      "url": "https://www.praemiumimperiale.org/en/laureate-en/laureates-en/ndour-en"
+    },
+    {
+      "id": "src_ndour_polar",
+      "kind": "award_body",
+      "title": "Polar Music Prize 2013 laureate page for Youssou N'Dour, read in full: the jury citation on maintaining and widening the griot tradition and on his band and solo albums, plus a short biography and the ceremony. Admiring prize page.",
+      "url": "https://www.polarmusicprize.org/laureates/youssou-n-dour/"
+    },
+    {
+      "id": "src_ndour_sharjah",
+      "kind": "institution",
+      "title": "Sharjah Art Foundation people page 'Youssou N'Dour', read in full: summarises his role in spreading mbalax, his early career, work with Gabriel and the 1988 Human Rights Now! tour, a FIFA World Cup anthem, his media businesses, and awards. Institutional summary, close to Britannica in content.",
+      "url": "https://www.sharjahart.org/en/people/details/youssou-ndour"
+    },
+    {
+      "id": "src_ndour_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'YoussouNdour20090913.jpg' (photographer Henryk Kotowski, 13 September 2009, CC BY-SA 3.0 and GFDL), wikitext and image metadata read, checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:YoussouNdour20090913.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ndour_britannica, src_ndour_npr, src_ndour_praemium | 1977-2005 | reference biography + journalist profile + prize profile] Britannica describes him adding sabar drums and distributing their rhythms between keyboards and electric guitars to update mbalax, and the Praemium profile quotes his wish to build his own Senegalese sound rather than the Cuban and Latin music then popular; NPR's journalist says Etoile de Dakar's percussion-driven sound laid out a blueprint for later Senegalese music, while also finding his art-rock phase disappointing. Originality is documented by independent sources; the praise is largely retrospective."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ndour_npr, src_ndour_britannica | 1986-2004 | journalist profile + reference biography] NPR describes a sound that over the years shape-shifted to take in soul, funk, progressive rock, reggae and religious Islamic music, including a failed art-rock phase followed by a recovery with a duet; Britannica records him moving between local Senegalese audiences and international collaborations. The range of styles is documented by an independent critic who also counts some of it as misses."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ndour_britannica, src_ndour_sharjah, src_ndour_praemium, src_ndour_npr | 1980s-2010 | reference biography + institution + prize profile + journalist profile] Britannica, the Sharjah Art Foundation and the Praemium profile list a recording studio, record label, media organisation and a television station he added in 2010 in Senegal, and NPR describes him as a sharp-elbowed entrepreneur who kept his base in Dakar. The existence of the ventures is documented; the sources do not describe how they performed."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ndour_npr, src_ndour_praemium | 2004 | journalist profile + prize profile] NPR reports that the album Egypt, in praise of Senegalese Sufi figures, was at first poorly received in Senegal, where Islamic leaders took offence, before success abroad turned opinion; the Praemium profile calls it a key example of his connection between faith and music. That he released it despite the initial reaction rests on one journalist's account. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.48 to 58 / 0.42 because it depends on a single journalist's report and does not show whether he anticipated the reaction."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ndour_praemium, src_ndour_britannica, src_ndour_npr, src_ndour_sharjah | 1986-1994 | prize profile + reference biography + journalist profile + institution] Four sources document work with Peter Gabriel (the song 'In Your Eyes' and touring as his opening act), Paul Simon, Sting and, in 1994, a million-selling duet with Neneh Cherry. The partnerships are well documented; none describes how he behaved as a collaborator."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "유수 은두르"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/youssou-ndour-kotowski-2009.jpg",
+    "width": 1000,
+    "height": 876,
+    "source": "Photograph of Youssou N'Dour performing at the Cross Culture Festival in Warsaw on 13 September 2009 by Henryk Kotowski, uploaded to Wikimedia Commons by the photographer as own work under CC BY-SA 3.0 and GFDL (file page author line: user Kotoviski, photograph by Henryk Kotowski). Image metadata shows a Nikon D700 and the capture date 2009-09-13, matching the description. The file is the Commons original at its full size (1000 x 876); no upscaling. The file page carries a personality-rights notice and requires attribution and share-alike.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Henryk Kotowski, CC BY-SA 3.0, via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:YoussouNdour20090913.jpg",
+    "creator": "Henryk Kotowski",
+    "date": "2009-09-13",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:YoussouNdour20090913.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / confirmed: Commons wikitext shows own work by Henryk Kotowski (uploader Kotoviski), dated 2009-09-13, licensed CC BY-SA 3.0 and GFDL; EXIF (Nikon D700, 2009-09-13) agrees with the description; residual caveat: rights rest on the uploader-is-photographer statement and consistent metadata (no separate review template), and the file page has a personality-rights notice; no institutional page conflicts. PREFLIGHT: QID VERIFIED LIVE (2026-10-26): Q210734 label 'Youssou N'Dour', description 'Senegalese singer, composer and politician (born 1959)', born 1959-10-01, no death date; matches the lead. No production slug or QID collision (prod58.txt searched for the surname token and QID; no candidate file existed). REGION sub_saharan_africa (Senegal). VOCABULARY: musician, singer, field music, tag innovator, archetype creative_creator exist with labels. ZERO POLITICS: primary identity is a musician; his 2012 presidential bid, ministerial post and political song lyrics are unscored context; no row rests on them. LIVING SUBJECT: public professional behaviour only; family and health not researched or used. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica biography (https://www.britannica.com/biography/Youssou-NDour). READ: Britannica (full), NPR profile by Banning Eyre (full), Praemium Imperiale profile (full), Polar Music Prize page (full), Sharjah Art Foundation page (full). Perspectives: reference biography, independent journalist (partly critical), two award bodies, institution. NOT opened: AllMusic and Guardian pages (blocked or not found), his own interviews, books. Source discrepancy: Praemium Imperiale dates his own band to 1979 while Britannica and Sharjah say 1977; 1977 is used in card text where needed. The Sharjah sentence dating his studio and label to 1984 is garbled in the page text, so no date is used. SELF-CALIBRATION (agent): top-risk rows reviewed: risk_tolerance (62/0.48 lowered to 58/0.42), proactive_agency (kept: four sources agree the ventures exist), collaboration (kept: four sources agree). FLAGS: 5 rows, none above 74; much of the evidence is retrospective prize and reference-work praise and only one independent critical source (NPR) was available. HANDBACK58: {\"slug\":\"youssou-ndour\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"risk_tolerance\",\"old_score\":62,\"old_confidence\":0.48,\"new_score\":58,\"new_confidence\":0.42,\"reason\":\"single journalist report; does not show he anticipated the reaction\"}],\"reviewed_kept\":[\"proactive_agency\",\"collaboration\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}

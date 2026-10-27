@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kazuo-inamori",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kazuo Inamori",
+    "aliases": [
+      "Inamori Kazuo"
+    ],
+    "wikidataId": "Q982623",
+    "birthYear": 1932,
+    "deathYear": 2022,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive",
+      "engineer"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial"
+    ],
+    "tagIds": [
+      "founder",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_inam_wikidata",
+      "kind": "wikidata",
+      "title": "Kazuo Inamori (Q982623) -- verified live via the Wikidata API (2026-10-26): English label 'Kazuo Inamori', description 'Japanese businessman (1932-2022)', born January 1932 (two dates are recorded), died 24 August 2022, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q982623"
+    },
+    {
+      "id": "src_inam_csu",
+      "kind": "institution",
+      "title": "California State University, 'Kazuo Inamori' honorary degree citation (San Diego State University) -- university biography: engineering degree, work on special ceramics, founding of Kyoto Ceramic (Kyocera) at 27, the Kyocera Philosophy, the founding of DDI (later KDDI) in 1984 as the smallest of three challengers to NTT, and the Inamori Foundation and Kyoto Prize. CANONICAL SIGNIFICANCE SOURCE. Read in full; written to honour him, so used for what he built, not for character.",
+      "url": "https://www2.calstate.edu/impact-of-the-csu/alumni/Honorary-Degrees/Pages/kazuo-inamori.aspx"
+    },
+    {
+      "id": "src_inam_asiatimes",
+      "kind": "press",
+      "title": "Asia Times, 'Kyocera founder Kazuo Inamori dead at 90', September 2022 -- obituary: leaving his first employer after a dispute with management, the 1959 founding of Kyoto Ceramic, the 1966 IBM order for alumina substrates, DDI in 1984, the 2010 Japan Airlines chairmanship, and a critical line that large numbers of JAL staff were made redundant, pay and pensions cut and unions broken. Independent obituary with a critical note; Inamori's own words about JAL are quoted. Read in full.",
+      "url": "https://asiatimes.com/2022/09/kyocera-founder-kazuo-inamori-dead-at-90/"
+    },
+    {
+      "id": "src_inam_bloomberg",
+      "kind": "press",
+      "title": "Bloomberg interview feature, 'Multi-billionaire Buddhist priest shares No. 1 management rule' (reprinted by HRD, 9 November 2015) -- 83-year-old Inamori on putting employees before shareholders, taking the JAL chief executive role without pay, the printed book of philosophy for each employee, amoeba management and the cut of roughly a third of the workforce; plus activist fund Oasis Management criticising Kyocera's cross-holdings and returns. Independent business journalism with an activist counter-voice. Read in full.",
+      "url": "https://www.hcamag.com/asia/news/general/multi-billionaire-buddhist-priest-shares-no-1-management-rule/144271"
+    },
+    {
+      "id": "src_inam_cna",
+      "kind": "press",
+      "title": "Channel NewsAsia, 'Inside the Storm: how a Buddhist monk turned CEO revived Japan Airlines from bankruptcy' (reprinted by Vietnam Airlines' Spirit site, 2019) -- documentary-style article on JAL's decline, the government-appointed committee's plan to cut 15,700 jobs with a bailout and debt forgiveness, then Inamori's amoeba management, monthly scrutiny of department figures, unpaid role, the 2012 relisting and his 2013 departure; quotes a JAL executive, former pilots and business-school professors. Independent journalism with insider and academic voices. Read in full.",
+      "url": "https://spirit.vietnamairlines.com/english/how-a-buddhist-monk-turned-ceo-revived-japan-airlines-from-bankruptcy.html"
+    },
+    {
+      "id": "src_inam_kyocera",
+      "kind": "institution",
+      "title": "Kyocera Corporation, Kazuo Inamori Archive: 'Reviving Japan Airlines (2010): Transplanting Kyocera Philosophy and Amoeba Management' and 'Chronology' -- the company's own account of why he accepted the JAL chairmanship despite opposition, the JAL Philosophy and amoeba management, and his 1958 resignation from his first employer after a disagreement over technology policy. Company self-description: used for dates and his stated reasons only, never alone for a trait. Read in full.",
+      "url": "https://global.kyocera.com/inamori/profile/episode/episode10.html"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_inam_csu, src_inam_asiatimes | 1966-1984 | university biography, obituary] He built Kyoto Ceramic on special ceramics and secured a 1966 IBM order for alumina IC substrates, then used the deregulation of Japan's telecoms industry in 1984 to found DDI, which within three years became the only viable long-distance alternative to NTT (CSU, Asia Times). Moves into new sectors at moments of change are documented by two independent accounts, but both are celebratory and give no account of how he judged the openings, so moderate."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_inam_csu, src_inam_cna, src_inam_kyocera | 1984-2010 | university biography, journalism, company archive] DDI began as the smallest of three challengers to the giant NTT (CSU); at 77 he took on Japan Airlines, then bankrupt with the largest debts of any non-financial Japanese firm, with no aviation experience and without pay, despite opposition from those around him according to Kyocera (CNA, Kyocera). The commitments are documented; the claim of strong opposition is the company's own."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_inam_asiatimes, src_inam_bloomberg, src_inam_cna | 1959-2013 | obituary, interview feature, journalism] He led Kyocera for 38 years and, at 77, took the JAL chairmanship and chief executive role, announcing that JAL would exist for the growth of its employees; JAL returned to profit and relisted in September 2012 (Asia Times, Bloomberg, CNA). The Channel NewsAsia article notes the restructuring plan, with 15,700 job cuts, a bailout and debt forgiveness, had been set by a government-appointed committee before he arrived, and Asia Times records redundancies, pay cuts and unions broken, so credit and cost are shared and dual-edged. SELF-CALIBRATION (agent): lowered from 70/0.55 to 66/0.50 because the JAL turnaround rested partly on a restructuring and state support that predated his arrival."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_inam_cna, src_inam_bloomberg, src_inam_csu, src_inam_kyocera | 1960s-2012 | journalism, interview feature, university biography, company archive] He devised amoeba management, which split staff into small units that make their own plans and track hourly efficiency with an original accounting system, and the Kyocera Philosophy, and applied both at JAL (Bloomberg, CNA, CSU); a Singapore Management University professor describes how it makes each person think about their effect on the bottom line (CNA). The method is documented across independent articles, but its success is largely described by the company and admirers, with no independent test of it separate from the JAL outcome. SELF-CALIBRATION (agent): lowered from 66/0.52 to 64/0.48 because the method is company-promoted and its effect cannot be separated from the pre-set JAL restructuring."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_inam_cna | 2010-2012 | journalism] A JAL executive says he was very thorough with figures and scrutinised each department's numbers monthly, asking why if there was no improvement (CNA). This is one admiring colleague's account, with the same pattern implied by the amoeba accounting system but not independently described. SELF-CALIBRATION (agent): lowered from 62/0.48 to 58/0.40 because it rests on a single admiring insider."
+    },
+    "conflict_tolerance": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_inam_asiatimes, src_inam_kyocera, src_inam_bloomberg | 1958-2015 | obituary, company archive, interview feature] He left his first employer in 1958 after a dispute over technology policy and founded his own company the following year (Asia Times, Kyocera); at JAL he accepted large job cuts as part of the restructuring (Bloomberg, Asia Times), and in 2015 he defended refusing shareholders' demands while an activist fund criticised his cross-holdings (Bloomberg). Willingness to face disagreement is documented but thinly, and the accounts of the disputes are brief, so low confidence."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kazuo-inamori-science-history-institute-2011.jpg",
+    "width": 667,
+    "height": 1000,
+    "source": "Wikimedia Commons, 'Kazuo Inamori 2011 Heritage Day HD2011-71.JPG' -- photograph by Conrad Erb for the Chemical Heritage Foundation (now Science History Institute) at its Heritage Day, 8 April 2011, Philadelphia, where Inamori received the Othmer Gold Medal. The Commons page records that the Science History Institute, which holds the copyright as a work for hire, provided the image under a cooperation project (Wikipedian in Residence) and licensed it CC BY-SA 3.0; the Institute's digital collections site was blocked by a bot check, so the Commons wikitext quoting the institution is the basis. Original 667 x 1000 pixels, used at original size with no upscaling.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Conrad Erb / Science History Institute, 2011, CC BY-SA 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Kazuo_Inamori_2011_Heritage_Day_HD2011-71.JPG",
+    "creator": "Conrad Erb (Science History Institute)",
+    "date": "2011-04-08",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Kazuo_Inamori_2011_Heritage_Day_HD2011-71.JPG"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이나모리 가즈오"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / confirmed: Commons file by Conrad Erb for the Science History Institute (Chemical Heritage Foundation), 8 April 2011, copyright held by the Institute as work for hire and released CC BY-SA 3.0 under its Wikipedian-in-Residence cooperation (template Science History Institute-cooperation); 667 x 1000, file opened and is of Inamori. Caveat: the Institute's own digital-collections page could not be opened (bot check), so the institutional statement is read from the Commons wikitext, and CC BY-SA requires share-alike attribution. PREFLIGHT: QID Q982623 verified live (wbgetentities 2026-10-26): label 'Kazuo Inamori', description 'Japanese businessman (1932-2022)', born Jan 1932, died 24 Aug 2022, human. No production or candidate slug/QID collision. Region east_asia (Japan). Zero-politics passes: primary identity is businessman; the request of the transport minister to take the JAL post and government support are context, not scored. Vocabulary: occupations entrepreneur, executive, engineer; fields business, technology; tags founder, strategist; archetype entrepreneurial_builder labelled in EN and KO. CANONICAL SIGNIFICANCE SOURCE: California State University honorary-degree biography, 'Kazuo Inamori' (https://www2.calstate.edu/impact-of-the-csu/alumni/Honorary-Degrees/Pages/kazuo-inamori.aspx); Britannica has no page at the tried URLs. SELF-REPORT-HEAVY: Amoeba Management and the Kyocera Philosophy are company-promoted; the Kyocera archive and his own statements are treated as self-report and all confidences are at most 0.50. READ (6 substantive sources plus Wikidata): CSU citation, Asia Times obituary, Bloomberg feature via HRD, Channel NewsAsia article via Vietnam Airlines site, Kyocera Inamori Archive (two pages, self). Wikipedia not used. PERSPECTIVES: university honour biography, independent obituary with critical note, interview feature with activist-investor counter-voice (Oasis Management), journalism quoting JAL insiders and business-school professors, company archive. NOT OPENED: his own books, Kyocera Philosophy texts, BNN Bloomberg obituary (page returned no article text), NYT obituary (blocked), SMU case study (not accessible), union and employee accounts of JAL job cuts (not found). Exclusions: childhood illness and family, Buddhist ordination as private belief, philanthropy and the Kyoto Prize (unscored context), exact JAL profit figures (sources differ: 186.6 and 188.4 billion yen). Because the JAL success was partly shaped by a prior court-supervised restructuring and state support, credit is shared in the rationales. SELF-CALIBRATION (agent) pass: reviewed leadership_drive (70/0.55 to 66/0.50), systems_abstraction (66/0.52 to 64/0.48), detail_orientation (62/0.48 to 58/0.40); all three lowered with reasons. FLAG for lead: whole profile is self-report and admirer-heavy; 6 rows. HANDBACK58: {\"slug\": \"kazuo-inamori\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"leadership_drive\", \"old_score\": 70, \"old_confidence\": 0.55, \"new_score\": 66, \"new_confidence\": 0.5, \"reason\": \"JAL turnaround rested partly on a restructuring plan and state support set before his arrival\"}, {\"attribute\": \"systems_abstraction\", \"old_score\": 66, \"old_confidence\": 0.52, \"new_score\": 64, \"new_confidence\": 0.48, \"reason\": \"amoeba management is company-promoted and its effect cannot be separated from the pre-set JAL restructuring\"}, {\"attribute\": \"detail_orientation\", \"old_score\": 62, \"old_confidence\": 0.48, \"new_score\": 58, \"new_confidence\": 0.4, \"reason\": \"rests on a single admiring insider account\"}], \"reviewed_kept\": [], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": true, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"top omission: first-draft cards lacked the Amoeba Management / Kyocera Philosophy method; folded into achievement card 1 wording and moments\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6}"
+  }
+}

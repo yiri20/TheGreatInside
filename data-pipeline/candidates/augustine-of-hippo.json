@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "augustine-of-hippo",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Augustine of Hippo",
+    "aliases": [
+      "Saint Augustine",
+      "Aurelius Augustinus",
+      "Augustine"
+    ],
+    "wikidataId": "Q8018",
+    "birthYear": 354,
+    "deathYear": 430,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "north_africa",
+    "historicalPolityKey": "polity.roman_empire"
+  },
+  "classification": {
+    "occupationIds": [
+      "theologian",
+      "writer",
+      "religious_leader",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "religion",
+      "literature",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_augustine_wikidata",
+      "kind": "wikidata",
+      "title": "Augustine of Hippo (Q8018), verified live via the Wikidata API (2026-10-26): label 'Augustine of Hippo', description 'Christian theologian, philosopher, and saint (354-430)', born 354-11-13, died 430-08-28, Korean label present, P18 image 'Saint Augustine by Philippe de Champaigne.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q8018"
+    },
+    {
+      "id": "src_augustine_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Augustine' (life, work and ethics sections read in full, including the passages on the Donatist schism and religious coercion). CANONICAL SIGNIFICANCE SOURCE: gives his life (Thagaste, Milan, conversion 386, baptism 387, priest 391, bishop of Hippo c.396), his output (about 100 books, 300 letters and 600 sermons survive), the five major treatises including the Confessions and City of God, and his role in the controversies with Manicheans, Donatists and Pelagians. Academic reference by a philosophy specialist; it is openly critical of the coercion arguments ('propagandistic defenses of coercion against the Donatists').",
+      "url": "https://plato.stanford.edu/entries/augustine/"
+    },
+    {
+      "id": "src_augustine_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Augustine of Hippo' (life and works sections read in full): reluctant ordination at Hippo, the monastery he founded, the Donatist controversy including the Circumcellions and his endorsement of government force, the Pelagian controversy, the Retractiones, sermons and letters, and the siege of Hippo. It draws on Possidius for several episodes and says Augustine's accounts of Donatism were sometimes polemical.",
+      "url": "https://iep.utm.edu/augustin/"
+    },
+    {
+      "id": "src_augustine_cathenc",
+      "kind": "institution",
+      "title": "Catholic Encyclopedia (1907), 'Life of St. Augustine of Hippo' by E. Portalie, read in full: an admiring Catholic reference article that cites Possidius for the episcopal household at Hippo, the African councils he influenced, his preaching, his change of opinion on force against the Donatists (Letter 93, 408), and the Pelagian controversy. Confessional institutional source, so used with lower confidence.",
+      "url": "https://www.newadvent.org/cathen/02084a.htm"
+    },
+    {
+      "id": "src_augustine_brown64",
+      "kind": "biography",
+      "title": "Peter Brown, 'St Augustine's Attitude to Religious Coercion', Journal of Roman Studies 54 (1964), as shown through the opening excerpt on The Great Thinkers site (about 150 words read; the full article was not opened): says Augustine faced the coercion issue throughout his episcopate, changed his mind on it, reported that change himself, and then justified coercion so thoroughly that liberals called him a persecutor.",
+      "url": "https://thegreatthinkers.org/augustine/commentary/st-augustines-attitude-to-religious-coercion/"
+    },
+    {
+      "id": "src_augustine_stnetwork",
+      "kind": "press",
+      "title": "ST Network (Adventist-affiliated magazine), 'Aurelius Augustine' article on his role in religious persecution, read in full: summarises the Donatist crisis, his early preference for persuasion and his later support for state coercion, and notes the criticism that he legitimised persecution. A popular secondary piece, partly critical, with a confessional publisher.",
+      "url": "https://st.network/?p=15347"
+    },
+    {
+      "id": "src_augustine_ligonier",
+      "kind": "press",
+      "title": "Ligonier Ministries (via learn.ligonier.org), review of Peter Brown's 'Augustine of Hippo: A Biography' (2000 edition), read through a page summary: describes Brown's account of his bishopric at Hippo, the fights with Donatists and Pelagians, newly found letters and sermons, and a quoted letter in which Augustine tells readers not to treat his writings as Scripture. Evangelical review of a scholarly biography; the biography itself was not opened.",
+      "url": "https://learn.ligonier.org/articles/augustine-hippo"
+    },
+    {
+      "id": "src_augustine_lacma",
+      "kind": "institution",
+      "title": "Los Angeles County Museum of Art collection record, Philippe de Champaigne, 'Saint Augustine', circa 1645, accession M.88.177 (checked for the portrait only; not used for any scoring).",
+      "url": "https://collections.lacma.org/node/171584"
+    },
+    {
+      "id": "src_augustine_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Saint Augustine by Philippe de Champaigne.jpg' (checked for the portrait only; not used for any scoring).",
+      "url": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_augustine_sep, src_augustine_iep, src_augustine_cathenc, src_augustine_stnetwork | 391-430 | academic reference + reference + confessional reference + popular press] SEP says that throughout his life as a bishop he was involved in controversies with Manicheans, Donatists, Pelagians and pagans, and that most of his books and letters of that period belong to those disputes; IEP says he 'played his role vigorously' against the Donatists, including endorsing government force, and the Catholic Encyclopedia says Donatist violence nearly cost Possidius his life and attempts were made on Augustine's own. SEP calls the Julian of Aeclanum exchange a 'vitriolic debate'. Dual-edged because the same sources record that his case for religious coercion was criticised as propagandistic and as legitimising persecution. Only his conduct in dispute is scored, not the correctness of either side's doctrine."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_augustine_brown64, src_augustine_cathenc, src_augustine_ligonier, src_augustine_iep | 396-428 | scholarly excerpt + confessional reference + review + reference] Brown (1964, excerpt only) says Augustine changed his mind on religious coercion and told of that change himself; the Catholic Encyclopedia dates the attested change to Letter 93 (408); IEP and Ligonier note that he wrote the Retractiones, a critical review of his own works, and, in a quoted newly found letter, warned readers not to treat his writings as Scripture. The documented behaviour is revising and publicly reviewing his own positions, though the coercion change is reported in his own letter and relayed by sympathetic sources. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.58 to 66 / 0.52 because the coercion 'conversion' is self-reported and Brown's article was read only as an excerpt, and the Ligonier quote reached me through a summary."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_augustine_sep, src_augustine_iep, src_augustine_cathenc | 383-430 | academic reference + reference + confessional reference] SEP says he held a publicly paid chair of rhetoric at Milan and was official panegyrist at the imperial court, that his rhetorical skills equipped him for daily preaching and disputes, and that his writings combine teaching with rhetorical persuasion; IEP records a 297-line song he wrote against Donatism so uneducated churchgoers could remember its errors; the Catholic Encyclopedia says he preached for five days consecutively. These show deliberate, audience-adapted persuasion, but the effect on audiences is described mainly by admiring or doctrinal sources."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_augustine_sep, src_augustine_iep | 396-430 | academic reference + reference] SEP counts about 100 books, 300 letters and 600 sermons surviving, produced alongside pastoral and judicial duties as bishop, and says the Pelagian dispute continued to the end of his life; IEP says De trinitate was many years in the making, was partly stolen, and was finished at the urging of his superior, and that he wrote through the siege of Hippo in his final days (the siege letter being reported through Possidius). The volume and span are well documented, but persistence is inferred from output rather than from independent accounts of his working habits."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_augustine_sep, src_augustine_cathenc, src_augustine_iep | 395-418 | academic reference + confessional reference + reference] SEP says he and his African fellow-bishops managed to have Pelagianism condemned in 418; the Catholic Encyclopedia says he influenced African councils (Carthage 398, 401, 407, 419 and Milevis 416, 418) and that his episcopal house became a community that supplied bishops and monastery founders (via Possidius); IEP says he founded a monastery beside the church. The coordinated action with other bishops is documented, but the sources on the clergy community are admiring and partly Possidius-derived."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아우구스티누스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/augustine-of-hippo-champaigne-1645.jpg",
+    "width": 942,
+    "height": 1200,
+    "source": "Saint Augustine, oil on canvas by Philippe de Champaigne, circa 1645, Los Angeles County Museum of Art, accession M.88.177 (Gift of The Ahmanson Foundation). The painter died in 1674, so the painting is public domain by age, and the museum's collection record flags the image as public domain and offers it for download under its terms for public-domain images. A posthumous imagined image made more than a thousand years after the sitter's death, so shown as a later depiction and not as a likeness. Original museum image 3216 x 4096 pixels, downscaled to 942 x 1200 with no cropping and no upscaling.",
+    "license": "Public domain (artwork by age; museum public-domain image)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Philippe de Champaigne, Saint Augustine, circa 1645, Los Angeles County Museum of Art, M.88.177, Gift of The Ahmanson Foundation",
+    "attributionUrl": "https://collections.lacma.org/node/171584",
+    "creator": "Philippe de Champaigne",
+    "date": "c. 1645",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / confirmed: Philippe de Champaigne's c.1645 painting at the Los Angeles County Museum of Art (accession M.88.177, Gift of The Ahmanson Foundation); the artist died in 1674, so the work is public domain by age; the LACMA collection record carries its own item-level public-domain flag and a download button, and LACMA's terms of use state that images of public-domain works marked as such are free for use without restriction; the credit line 'photo (c) Museum Associates/LACMA' was noted and treated as a credit, not a restriction because of that flag. Downloaded the museum's 3216 x 4096 image and downscaled to 942 x 1200 (no upscaling, no cropping). It is a posthumous imagined image painted over a thousand years after his death, so it is recorded as a later depiction and not a likeness. The Lateran fresco alternative was not needed. PREFLIGHT: QID VERIFIED LIVE (2026-10-26) Q8018 label 'Augustine of Hippo', description 'Christian theologian, philosopher, and saint (354-430)', born 354-11-13, died 430-08-28; matches the lead. No production slug or QID collision (grepped prod58 for augustin, hippo and Q8018) and no existing candidate file. REGION north_africa (born at Thagaste and bishop of Hippo in Roman Africa, as with Hypatia's repo precedent). ERA ancient, following Hypatia (c.350-415) as the nearest repo precedent for a late-antique figure; historical polity Roman Empire. ZERO POLITICS: primary identity is theologian, bishop and writer; the Donatist episode is scored only as conduct in dispute (conflict tolerance, dual-edged) and no doctrine or political position is scored. VOCABULARY: occupations theologian, writer, religious_leader, philosopher; fields religion, literature, philosophy; tags philosopher, communicator; archetype scholarly_specialist all have EN and KO labels (grepped en.ts and ko.ts). CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Augustine' (https://plato.stanford.edu/entries/augustine/). READ: SEP, IEP, Catholic Encyclopedia (full text), ST Network article (full), Ligonier review of Brown's biography (page summary), Brown's 1964 article (opening excerpt only). PERSPECTIVES: academic reference, general reference, confessional Catholic reference, popular press critique, scholarly excerpt on coercion; the Confessions are self-report and were not used as support; the Possidius Life was NOT opened (public-domain text hosts tried returned 404 or lending-only archive.org); Possidius appears only through IEP and Catholic Encyclopedia citations, which is flagged in rows. COUNTER-VOICES: SEP's critique of the coercion arguments, IEP's note that his accounts of Donatism were polemical, ST Network's persecution criticism. NOT OPENED: Peter Brown's biography itself, Brent Shaw's 'Sacred Violence' (only search-result descriptions seen; a CAMWS review PDF could not be decoded and is not cited), the Confessions and City of God themselves, Possidius. Doctrinal positions (grace, original sin, just war, coercion as doctrine) and the conversion narrative are not scored. SPARSE PROFILE: five rows, none above 70, confidence 0.48-0.55. SELF-CALIBRATION (agent): top-risk rows reviewed: belief_updating (70/0.58 lowered to 66/0.52), conflict_tolerance (kept), persuasiveness (kept). HANDBACK58: {\"slug\":\"augustine-of-hippo\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"belief_updating\",\"old_score\":70,\"old_confidence\":0.58,\"new_score\":66,\"new_confidence\":0.52,\"reason\":\"coercion change is self-reported and Brown's article was read only as an excerpt; Ligonier quote reached through a summary\"}],\"reviewed_kept\":[\"conflict_tolerance\",\"persuasiveness\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}

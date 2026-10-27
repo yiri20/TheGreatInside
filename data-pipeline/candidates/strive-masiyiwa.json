@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "strive-masiyiwa",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Strive Masiyiwa",
+    "aliases": [],
+    "wikidataId": "Q7624176",
+    "birthYear": 1961,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "ZW"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive",
+      "engineer"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "technological",
+      "industrial"
+    ],
+    "tagIds": [
+      "founder",
+      "leader"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_masiyiwa_wikidata",
+      "kind": "wikidata",
+      "title": "Strive Masiyiwa (Q7624176) -- verified live via the Wikidata API (2026-10-26): English label 'Strive Masiyiwa', description 'Zimbabwean businessman', born 29 January 1961, no date of death, citizen of Zimbabwe. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7624176"
+    },
+    {
+      "id": "src_masiyiwa_halloffame",
+      "kind": "institution",
+      "title": "Junior Achievement Global Business Hall of Fame, 'Strive Masiyiwa' (2020 laureate profile) -- career summary: engineering degree, work at the state telephone company, the electrical contracting firm Retrofit, founding Econet in 1993, the five-year constitutional legal battle that ended the state telecoms monopoly, the 1998 stock-exchange listing, and the group's later subsidiaries across 28 African countries. Describes the ruling as a milestone in opening African telecoms to private capital. CANONICAL SIGNIFICANCE SOURCE. Hall-of-fame profile (admiring); philanthropy, board seats, awards and the anti-corruption quote were not used.",
+      "url": "https://businesshalloffame.org/strive-masiyiwa"
+    },
+    {
+      "id": "src_masiyiwa_mailguardian",
+      "kind": "press",
+      "title": "Mail & Guardian (South Africa), 'Econet survives bizarre Zimbabwe govt attack', 5 February 2004 -- independent news report on the regulator's faxed order to close Econet's international link, the company's urgent court application and the judge's ruling voiding the regulations, with background on his three-year legal battle for the licence and the 1995 Supreme Court ruling that ended the state telephone monopoly. Reports a bribe demand only as his own allegation, which is not used. Read in full.",
+      "url": "https://mg.co.za/article/2004-02-05-econet-survives-bizarre-zimbabwe-govt-attack/"
+    },
+    {
+      "id": "src_masiyiwa_nyulaw",
+      "kind": "institution",
+      "title": "NYU School of Law, 'Entrepreneur Strive Masiyiwa discusses intersection of business, human rights, and philanthropy', 4 April 2017 -- university news account of his talk: the 1993 mobile-telephony idea, the rejection by the state operator, the first lawsuit lost at the Supreme Court, the second suit on freedom of expression won in 1995, the 1996 ban on private operators and the 1997 Supreme Court licence. His own account as relayed by the university; used for the sequence of events, with court outcomes corroborated by other sources. Read in full.",
+      "url": "https://www.law.nyu.edu/news/Strive-Masiyiwa-Bernstein-Institute-leadership-business-human-rights-philanthropy-Econet-Zimbabwe"
+    },
+    {
+      "id": "src_masiyiwa_nehanda",
+      "kind": "press",
+      "title": "Nyashadzashe Ndoro (Nehanda Radio), 'Billionaire Strive Masiyiwa recalls 1993 rejection and landmark legal battle in Zimbabwe', 27 February 2026 -- Zimbabwean news report of his remarks at the shareholder meeting that voted to delist Econet Wireless Zimbabwe: the 1993 joint-venture proposal to the state operator, the High Court win, the 1994 Supreme Court reversal, the 1995 win on freedom of expression, the 1996 moratorium, the 1997 order and the 1998 launch. His own recollection; used for the sequence only. Read in full.",
+      "url": "https://nehandaradio.com/?p=402844"
+    },
+    {
+      "id": "src_masiyiwa_weetracker",
+      "kind": "press",
+      "title": "Henry Nzekwe (WeeTracker), 'Meet The Zimbabwean Who Went Toe-To-Toe With Mugabe And Now Sits Atop A USD 1.9 Bn Fortune', 25 March 2019 -- business profile: his engineering degree, his job as a principal engineer at the state operator, leaving in 1988 to start Retrofit Engineering on a small loan, its growth into a leading indigenous engineering firm, and the move to mobile telephony. Admiring profile; wealth figures and personal narrative not used. Read in full.",
+      "url": "https://weetracker.com/2019/03/25/zimbabwean-billionaire-strive-masiyiwa/"
+    },
+    {
+      "id": "src_masiyiwa_techcentral",
+      "kind": "press",
+      "title": "Bloomberg via TechCentral, 'Strive Masiyiwa retires from Econet Wireless', 25 February 2022 -- wire report: he stepped back from the Zimbabwean company he founded in 1993 but kept a majority stake, subscribers grew from 32,000 at the 1998 listing to 13.2 million, a four-year legal battle preceded the 1997 licence, and the authorities' 2020 accusations of fuelling black-market currency trading, which the company denies. Independent wire report. Read in full.",
+      "url": "https://techcentral.co.za/?p=208234"
+    },
+    {
+      "id": "src_masiyiwa_techzim",
+      "kind": "press",
+      "title": "Tinashe Nyahasha (Techzim), 'Strive Masiyiwa Exploits Workers And Supports African Dictators For Profit Says Munyaradzi Gwisai', 28 February 2019 -- report of a socialist activist's attack on Masiyiwa's labour practices and political friendships, with the author's rebuttal that Econet's services created work. Counter-voice read for balance; these partisan and political claims are recorded here and are not scored. Read in full.",
+      "url": "https://techzim.co.zw/2019/02/strive-masiyiwa-exploits-workers-and-supports-african-dictators-for-profit-says-munyaradzi-gwisai"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_masiyiwa_halloffame, src_masiyiwa_mailguardian, src_masiyiwa_techcentral, src_masiyiwa_nyulaw | 1993-1998 | hall-of-fame profile, independent news report, wire report, university account] The Hall of Fame calls the fight a five-year constitutional battle, the Mail & Guardian a three-year legal battle that finally got him a licence, and Bloomberg a four-year battle before the 1997 licence; his own telling (NYU, Nehanda Radio) adds a Supreme Court loss in 1994, a win in 1995, a 1996 ban and a 1997 order. Independent sources confirm the length and the outcome; the setbacks along the way come from his own account. SELF-CALIBRATION (agent): lowered from 76/0.62 to 74/0.58 because the details of the setbacks come only from his own retellings."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_masiyiwa_mailguardian, src_masiyiwa_techcentral, src_masiyiwa_halloffame | 1993-2020 | independent news report, wire report, hall-of-fame profile] He took on a state monopoly in court over several years; in February 2004 a regulator faxed an order that Econet 'cease to operate' within hours and the company went to court within days, where a judge voided the regulations (Mail & Guardian, which names the company's chief executive rather than him as the affiant); in 2020 the authorities accused Econet of fuelling black-market trading and the company denied it (Bloomberg). Repeated, documented confrontations with state bodies handled through courts and public denial. RUBRIC_CORRECTION (lead review, before eligibility): conflict_tolerance lowered from 76 / 0.6 to 72 / 0.54 because independent sources confirm only the length of the legal fight and its outcome; the detail of his conduct comes mostly from his own retellings."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_masiyiwa_halloffame, src_masiyiwa_weetracker, src_masiyiwa_nyulaw | 1988-1993 | hall-of-fame profile, business profile, university account] After working as an engineer at the state telephone company he left in 1988 to found Retrofit, which became a leading indigenous engineering firm, then in 1993 proposed a mobile network to the state operator and, when refused, sued (WeeTracker, Hall of Fame, NYU). Self-started ventures are documented by three sources; the details of the 1993 approach come from his own account."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_masiyiwa_nyulaw, src_masiyiwa_weetracker, src_masiyiwa_nehanda | 1993 | university account, business profile, news report] He saw mobile telephony as the next business opportunity when few African countries had such networks, in a country where, by his account, only a tiny share of people had a phone line (NYU, Nehanda Radio, WeeTracker). The market gap is documented; his early foresight is described only by himself and an admiring profile."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_masiyiwa_nyulaw, src_masiyiwa_mailguardian | 1993-1998 | university account, independent news report] He committed a successful contracting firm's resources and years to a licensing fight against the state operator that also acted as regulator, with a 1994 loss and a 1996 ban along the way (his account; the Mail & Guardian confirms the multi-year battle). The size of his stake is not given, so the score stays moderate."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_masiyiwa_nyulaw, src_masiyiwa_nehanda, src_masiyiwa_mailguardian | 1994-1995 | university account, news report, independent news report] After losing the first case on whether mobile telephony fell inside the monopoly, he came back with an argument that the telephone monopoly restricted freedom of expression and won in 1995 (NYU, Nehanda Radio); the Mail & Guardian independently notes the 1995 ruling on the same ground. The change of legal strategy is told only by him and a repeating news piece. SELF-CALIBRATION (agent): lowered from 68/0.52 to 64/0.46 because the strategic reframing rests on his own account, with independent confirmation only of the 1995 outcome."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_masiyiwa_halloffame, src_masiyiwa_techcentral | 1993-2022 | hall-of-fame profile, wire report] Founded Econet in 1993 and led it as chairman; Bloomberg reports he stayed on its board from the founding until 2022 and kept a majority stake after stepping back, and the Hall of Fame describes the group's later spread across 28 African countries. Long tenure at the head of his own company is documented; the sources do not show how he led day to day."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/strive-masiyiwa-frank-jurgen-richter-2017.jpg",
+    "width": 800,
+    "height": 1200,
+    "source": "Wikimedia Commons (from the Horasis Flickr account)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Richter Frank-Jurgen / Horasis (via Flickr)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Strive_Masiwia,_Chairman,_Econet_Wireless_(34345475883).jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "스트라이브 마시이와"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / FOUND: Commons file 'Strive Masiwia, Chairman, Econet Wireless (34345475883).jpg', photographer Richter Frank-Jurgen, taken 28 May 2017 at the Horasis Global Meeting in Cascais, Portugal; Commons licence CC BY-SA 2.0 with a FlickreviewR pass (12 July 2017); the live Flickr page (opened 2026-10-26) still shows CC BY-SA 2.0 on the same photo under the Horasis account, so the photo-level and Commons licences agree and no deletion or change was found; the nameplate on the table in the photograph reads 'MASIWIA', matching the caption. Original 2304 x 3456 pixels, downscaled only to 800 x 1200 and never upscaled; the table nameplate and conference backdrop are visible. PREFLIGHT: QID Q7624176 verified live (wbgetentities 2026-10-26): label 'Strive Masiyiwa', description 'Zimbabwean businessman', born 29 January 1961, no death date, citizen of Zimbabwe. No production (prod58.txt) or candidate slug/QID collision. Region sub_saharan_africa; nationalityCodes ZW only (Wikidata lists Zimbabwe only; he is reported to be London-based, which is residence, not scored). Zero-politics passes: primary identity is a telecoms entrepreneur; the licensing fight is scored only as a court and business conduct, not as political activism. CANONICAL SIGNIFICANCE SOURCE: Junior Achievement Global Business Hall of Fame, 'Strive Masiyiwa' (https://businesshalloffame.org/strive-masiyiwa). LIVING SUBJECT: only public, documented professional behaviour is scored. Excluded and unscored: philanthropy and foundations, board seats and advisory roles, wealth figures, family and wife, his religious faith, awards, the Daily News newspaper stake and any political friendships or funding claims (Moyo and Gwisai allegations are partisan and not findings), the claim that officials demanded a bribe (his own allegation, unverified), claims of death threats or fleeing the country (admiring profile only), labour-practice allegations (partisan, contested), and the pandemic and Ebola envoy roles. Wikipedia was read for orientation only and not counted. READ (7 substantive sources, plus Wikidata for orientation): Hall of Fame profile (canonical), Mail & Guardian 2004, NYU Law news 2017, Nehanda Radio 2026, WeeTracker 2019, Bloomberg via TechCentral 2022, Techzim 2019 (counter-voice). PERSPECTIVES: hall-of-fame profile, independent regional newspaper, university account of his talk, Zimbabwean news report, business profile, wire report, partisan critic with rebuttal. NOT OPENED: the Supreme Court judgment itself, Forbes and Fortune profiles, the Rockefeller Foundation profile, his Facebook essays and the Nehanda Radio serial 'The Strive Masiyiwa Story' (self-authored, not used), SourceWatch (page failed to load), any evaluation of Econet's later business or mobile-money conduct beyond the 2020 accusation. No adversarial business source was read, and the legal-battle details come largely from his own account, so scores are at or below 76 and confidence at or below 0.6; seven rows. SELF-CALIBRATION (agent) pass: reviewed persistence, adaptability and conflict_tolerance; lowered persistence 76/0.62 to 74/0.58 and adaptability 68/0.52 to 64/0.46 (setbacks and reframing rest on his own account); conflict_tolerance kept (independent 2004 and 2022 reporting of state confrontations). HANDBACK58: {\"slug\":\"strive-masiyiwa\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":7,\"self_calibrated_rows\":[{\"attribute\":\"persistence\",\"old_score\":76,\"old_confidence\":0.62,\"new_score\":74,\"new_confidence\":0.58,\"reason\":\"setback details come only from his own retellings\"},{\"attribute\":\"adaptability\",\"old_score\":68,\"old_confidence\":0.52,\"new_score\":64,\"new_confidence\":0.46,\"reason\":\"legal reframing rests on his own account; independent sources confirm only the 1995 outcome\"}],\"reviewed_kept\":[\"conflict_tolerance\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":7} RUBRIC_CORRECTION (lead review, before eligibility): conflict_tolerance lowered from 76 / 0.6 to 72 / 0.54 because independent sources confirm only the length of the legal fight and its outcome; the detail of his conduct comes mostly from his own retellings."
+  }
+}

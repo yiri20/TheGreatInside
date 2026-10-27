@@ -10184,6 +10184,367 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 2002 he moved from the Chinese league, where he had just won a title with the Shanghai Sharks, to the NBA as the first overall pick, opening a nine-season career in Houston.",
   "yao-ming.interpretation.turning_point.1":
     "This move is consistent with an ability to adjust to a new league and environment, as his rookie-year results suggest.",
+  /* ---------------------------------------------------------- abbas-kiarostami (Roster58) */
+  "abbas-kiarostami.achievement.1":
+    "Iranian film director who made the line between fiction and documentary his subject, in Close-Up, in which the real participants play themselves, and in the Koker trilogy.",
+  "abbas-kiarostami.achievement.2":
+    "His film Taste of Cherry shared the Palme d'Or at the Cannes film festival in 1997.",
+  "abbas-kiarostami.achievement.3":
+    "From ABC Africa he shot on digital video, and later made Certified Copy in Italy and Like Someone in Love in Japan, his two features outside Iran.",
+  "abbas-kiarostami.moment.1":
+    "In Close-Up, the man who had posed as a famous director, Hossain Sabzian, and the other real participants play themselves, and Kiarostami himself appears on screen interviewing them.",
+  "abbas-kiarostami.interpretation.moment.1":
+    "This is consistent with a willingness to depart from the conventions of fiction and documentary.",
+  "abbas-kiarostami.moment.2":
+    "He explained that he liked to shoot characters in cars because it allowed natural two-shots and close-ups, and, in his view, a space where women have some freedom; Ten consists of long takes in a car.",
+  "abbas-kiarostami.interpretation.moment.2":
+    "This is consistent, by his own account, with testing a single formal constraint across several films.",
+  "abbas-kiarostami.turning_point.1":
+    "With ABC Africa (2001) he used a digital camera for the first time, saying a 35mm camera would have limited the work, and went on to make Ten on digital video.",
+  "abbas-kiarostami.interpretation.turning_point.1":
+    "This is consistent, by his own account, with changing medium when the old one limited the work.",
+  /* ---------------------------------------------------------- abebe-bikila (Roster58) */
+  "abebe-bikila.achievement.1":
+    "Won the 1960 Olympic marathon in Rome running barefoot in 2:15:16.2, which Britannica records as Ethiopia's first Olympic gold medal.",
+  "abebe-bikila.achievement.2":
+    "Won the 1964 Tokyo marathon in 2:12:11.2, a world-best time, becoming the first athlete to win two Olympic marathons, according to Britannica and Olympedia.",
+  "abebe-bikila.achievement.3":
+    "His 1960 win is described by press retrospectives as launching an era of African distance-running success; a New York Road Runners award for long-distance contributions bears his name.",
+  "abebe-bikila.moment.1":
+    "With no shoes that fitted in Rome, he ran the marathon barefoot, as he usually trained, and won; four years later in Tokyo he wore shoes and won again.",
+  "abebe-bikila.interpretation.moment.1":
+    "This is consistent with competing on whatever footing worked for him, though sources disagree on why he went barefoot.",
+  "abebe-bikila.moment.2":
+    "In Rome he ran beside Rhadi Ben Abdesselam for most of the race, then pulled away late to win by 25 seconds.",
+  "abebe-bikila.interpretation.moment.2":
+    "This is consistent with holding back and then committing to a late break, though accounts differ on exactly when.",
+  "abebe-bikila.turning_point.1":
+    "Added to the 1960 Ethiopian team at a late stage after a teammate fell ill, he had begun marathon running only months earlier and went on to win in Rome.",
+  "abebe-bikila.interpretation.turning_point.1":
+    "This is consistent with making the most of an unexpected opening.",
+  /* ---------------------------------------------------------- augustine-of-hippo (Roster58) */
+  "augustine-of-hippo.achievement.1":
+    "As bishop of Hippo in Roman Africa (c. 396-430) he wrote the Confessions and the City of God, works that made him one of the most influential writers in Western Christian thought.",
+  "augustine-of-hippo.achievement.2":
+    "His surviving output is about 100 books, 300 letters and 600 sermons, and near the end of his life he reviewed his own writings in the Retractiones.",
+  "augustine-of-hippo.achievement.3":
+    "He was a leading voice in the church's disputes with Manicheans, Donatists and Pelagians, and with his fellow African bishops helped secure the condemnation of Pelagianism in 418.",
+  "augustine-of-hippo.moment.1":
+    "In his anti-Donatist campaign he wrote a 297-line song so that uneducated churchgoers could remember what he saw as the schism's errors, and he later defended state force against the Donatists, a position later critics have condemned.",
+  "augustine-of-hippo.interpretation.moment.1":
+    "This is consistent with a willingness to engage in sustained, audience-tailored public dispute, with contested consequences.",
+  "augustine-of-hippo.moment.2":
+    "Late in his career he wrote the Retractiones, a critical review of his writings in chronological order, and in a newly found letter warned readers not to treat his own works as Scripture.",
+  "augustine-of-hippo.interpretation.moment.2":
+    "This is consistent with a habit of publicly revisiting and revising his own positions.",
+  "augustine-of-hippo.turning_point.1":
+    "In 391 he was ordained a priest at Hippo, reportedly against his will, and about 396 he succeeded the local bishop, moving from teacher of rhetoric and philosophical retirement to leading a congregation and its disputes.",
+  "augustine-of-hippo.interpretation.turning_point.1":
+    "This is consistent with a shift from a scholarly life to public pastoral and controversial work.",
+  /* ---------------------------------------------------------- fukuzawa-yukichi (Roster58) */
+  "fukuzawa-yukichi.achievement.1":
+    "He founded the Dutch-studies school in Edo that grew into Keio Gijuku and then Keio University, a private institution that, per Keio, introduced new subjects and brought in overseas professors.",
+  "fukuzawa-yukichi.achievement.2":
+    "After joining shogunate missions to the West, he wrote Seiyo jijo (Conditions in the West) and An Encouragement of Learning, bestselling books that introduced Western institutions and argued for practical education.",
+  "fukuzawa-yukichi.achievement.3":
+    "In 1882 he founded the newspaper Jiji Shimpo, which Britannica says trained liberal politicians and journalists.",
+  "fukuzawa-yukichi.moment.1":
+    "Sent in 1867 as an envoy to the United States, he made his personal aim buying textbooks to take back to Japan, and on his return he set about creating his own school.",
+  "fukuzawa-yukichi.interpretation.moment.1":
+    "This is consistent with self-directed initiative toward a project of his own.",
+  "fukuzawa-yukichi.moment.2":
+    "Offered government posts after the Restoration, he consistently declined, saying Japan needed an independent intellectual community, and stayed a private citizen.",
+  "fukuzawa-yukichi.interpretation.moment.2":
+    "This is consistent with a preference for institutional independence from the state.",
+  "fukuzawa-yukichi.turning_point.1":
+    "After his travels in Europe and America, Keio says he concluded that Japan needed a new education system to stay independent, and he turned from interpreter and envoy to building his own school and writing for the public.",
+  "fukuzawa-yukichi.interpretation.turning_point.1":
+    "This is consistent with a shift toward education as his main vehicle for impact.",
+  /* ---------------------------------------------------------- hugo-grotius (Roster58) */
+  "hugo-grotius.achievement.1":
+    "Published De iure belli ac pacis (On the Law of War and Peace) in Paris in 1625, building a general theory of law among nations on natural law; Britannica calls it one of the greatest contributions to international law.",
+  "hugo-grotius.achievement.2":
+    "Argued that the sea is open to all nations in Mare Liberum (1609), published from a chapter of his commissioned work on prize and booty; the English jurist John Selden published a critical reply.",
+  "hugo-grotius.achievement.3":
+    "Wrote across fields: critical editions of Aratus and Martianus Capella, the play Adamus Exul admired by Milton, a history of the Dutch revolt, and theological works including a widely read defence of Christianity.",
+  "hugo-grotius.moment.1":
+    "In De iure belli ac pacis he argued that natural law would hold even if there were no God, so that it could bind people of any belief, though he then added religious and utility arguments for rulers who would not heed secular ones.",
+  "hugo-grotius.interpretation.moment.1":
+    "This is consistent with grounding law outside confessional authority, though scholars dispute how original the move was.",
+  "hugo-grotius.moment.2":
+    "Asked by the Dutch East India Company to defend the seizure of a Portuguese ship, he wrote a long treatise on prize and booty; one chapter, Mare Liberum, was published and widely reprinted, while the Stanford Encyclopedia notes its partly propagandistic aim.",
+  "hugo-grotius.interpretation.moment.2":
+    "This is consistent with skilled legal advocacy for a client, with the purpose of the work questioned by critics.",
+  "hugo-grotius.turning_point.1":
+    "After leaving the Netherlands in 1621 he settled in Paris, where he wrote and in 1625 published De iure belli ac pacis, the work on which most of his reputation rests.",
+  "hugo-grotius.interpretation.turning_point.1":
+    "This is consistent with continued scholarly output after a major change in circumstances.",
+  /* ---------------------------------------------------------- inazo-nitobe (Roster58) */
+  "inazo-nitobe.achievement.1":
+    "He wrote Bushido: The Soul of Japan in English (1900), explaining samurai-derived values to foreign readers; it was widely read after its 1905 American edition and has been translated into many languages.",
+  "inazo-nitobe.achievement.2":
+    "As headmaster of the First Higher School he put education based on personalism into practice, and in 1918 he became the first president of Tokyo Woman's Christian University.",
+  "inazo-nitobe.achievement.3":
+    "A doctor of agricultural economics who taught at Sapporo, Kyoto and Tokyo, he later served as an Under-Secretary-General of the League of Nations in Geneva (1919-1926 per the National Diet Library).",
+  "inazo-nitobe.moment.1":
+    "He wrote Bushido in English to answer questions from his American wife and a Belgian legal scholar, illustrating each value with parallels from European history and literature for foreign readers.",
+  "inazo-nitobe.interpretation.moment.1":
+    "This is consistent with deliberate adaptation of his message to a foreign audience, although scholars dispute how accurately the book describes samurai ethics.",
+  "inazo-nitobe.moment.2":
+    "At the first graduation ceremony of Tokyo Woman's Christian University he described its aims as valuing insight over knowledge and character over academic ability, and cultivating persons rather than human resources.",
+  "inazo-nitobe.interpretation.moment.2":
+    "This is consistent with an education-centred motivation, as stated by the university's own account.",
+  "inazo-nitobe.turning_point.1":
+    "In 1884 he left the University of Tokyo before graduating and went to study in the United States, where he became a Quaker, before returning to Japan in 1891 to begin his academic career.",
+  "inazo-nitobe.interpretation.turning_point.1":
+    "This is consistent with a willingness to change direction in pursuit of education abroad.",
+  /* ---------------------------------------------------------- john-muir (Roster58) */
+  "john-muir.achievement.1":
+    "Naturalist and writer whose magazine articles led Britannica to call him largely responsible for the 1890 creation of Sequoia and Yosemite national parks; he founded the Sierra Club in 1892 and was its first president.",
+  "john-muir.achievement.2":
+    "Wrote books that remain important in American nature literature, including The Mountains of California (1894), Our National Parks (1901) and The Yosemite (1912), plus posthumous journals such as A Thousand-Mile Walk.",
+  "john-muir.achievement.3":
+    "In 1874-75 attributed Yosemite's formation to glacial erosion, against the then common cataclysm view; Britannica says he was the first to present this theory and that it is now generally accepted.",
+  "john-muir.moment.1":
+    "In the early 1870s he spent his Sunday excursions from a Yosemite sawmill making detailed studies of the valley's geology, plants and animals, including the water ouzel, and worked out the idea that glaciers had shaped the valley.",
+  "john-muir.interpretation.moment.1":
+    "This is consistent with self-directed curiosity, though the detail comes largely from Muir's own journals as retold.",
+  "john-muir.moment.2":
+    "Without formal geological training he argued that glaciers, not a sudden earthquake collapse, had carved Yosemite; Joseph LeConte was impressed enough to encourage his first article, while a later geographers' review says he overstated the glaciers' extent.",
+  "john-muir.interpretation.moment.2":
+    "This is consistent with independent thinking against the prevailing view, with some overreach.",
+  "john-muir.turning_point.1":
+    "In 1867 an industrial accident nearly cost him an eye; he abandoned mechanical inventing and set out on a thousand-mile walk, then went to Yosemite in 1868 to devote his life to nature.",
+  "john-muir.interpretation.turning_point.1":
+    "This is consistent with a self-chosen change of direction toward independent work in nature.",
+  /* ---------------------------------------------------------- kazuo-inamori (Roster58) */
+  "kazuo-inamori.achievement.1":
+    "Founded Kyoto Ceramic, later Kyocera, in 1959 at 27 and built it into a global ceramics and electronics maker, guided by his Kyocera Philosophy and his Amoeba Management accounting system.",
+  "kazuo-inamori.achievement.2":
+    "Founded DDI in 1984 as telecoms were deregulated, a challenger to NTT that merged into KDDI in 2000.",
+  "kazuo-inamori.achievement.3":
+    "At 77 became chairman of bankrupt Japan Airlines in 2010 and applied his management methods; the airline returned to profit and relisted in 2012 under a restructuring that cut about a third of its workforce.",
+  "kazuo-inamori.moment.1":
+    "After the 2010 bankruptcy he took the Japan Airlines chief executive role without pay and told employees the company existed for their growth rather than for shareholders.",
+  "kazuo-inamori.interpretation.moment.1":
+    "This is consistent with leading by example and with a stated belief that staff come before shareholders.",
+  "kazuo-inamori.moment.2":
+    "At JAL he reviewed each department's figures every month and asked why when they did not improve, a JAL executive recalled.",
+  "kazuo-inamori.interpretation.moment.2":
+    "This is consistent with close attention to numbers, though it rests on one insider's recollection.",
+  "kazuo-inamori.turning_point.1":
+    "In 1958 he left his first employer after a disagreement over technology policy and, with backers, founded Kyoto Ceramic the next year.",
+  "kazuo-inamori.interpretation.turning_point.1":
+    "This is consistent with acting on a disagreement by starting his own company.",
+  /* ---------------------------------------------------------- kitasato-shibasaburo (Roster58) */
+  "kitasato-shibasaburo.achievement.1":
+    "In Robert Koch's Berlin laboratory he achieved the first pure culture of the tetanus bacillus in 1889 and, with Emil von Behring, published the 1890 paper on diphtheria and tetanus immunity that became the basis of serum therapy.",
+  "kitasato-shibasaburo.achievement.2":
+    "In 1894 he went to Hong Kong and reported a plague bacillus; Alexandre Yersin reported one within days, and the priority between them remains a documented dispute in which Yersin's findings gained wider acceptance.",
+  "kitasato-shibasaburo.achievement.3":
+    "He founded the Kitasato Institute in 1914, became first dean of the Keio University medical school, and trained researchers at his institute such as Kiyoshi Shiga and Hideyo Noguchi.",
+  "kitasato-shibasaburo.moment.1":
+    "When pure cultures of tetanus were thought impossible, he devised an apparatus that used hydrogen to drive out oxygen and a sealable dish, and in 1889 obtained the first pure culture.",
+  "kitasato-shibasaburo.interpretation.moment.1":
+    "This is consistent with a researcher who built his own apparatus when existing methods failed.",
+  "kitasato-shibasaburo.moment.2":
+    "In Hong Kong in June 1894 he reported a plague bacillus through the physician James Lowson and The Lancet, and a later historian relays that his description differed from Yersin's in four major respects.",
+  "kitasato-shibasaburo.interpretation.moment.2":
+    "This is consistent with a rigorous laboratory worker whose fast field report left a disputed result.",
+  "kitasato-shibasaburo.turning_point.1":
+    "After the government moved his institute to the Ministry of Education in 1914, he founded the Kitasato Institute and most of his team joined him.",
+  "kitasato-shibasaburo.interpretation.turning_point.1":
+    "This is consistent with a scientist who rebuilt a research institution of his own and kept his team around him.",
+  /* ---------------------------------------------------------- magdi-yacoub (Roster58) */
+  "magdi-yacoub.achievement.1":
+    "Built the transplant service at Harefield Hospital into what Alivizatos calls the greatest heart and lung transplant service in the world, with more than 2,500 cases by the end of his career, including Europe's first combined heart and lung transplant in 1983.",
+  "magdi-yacoub.achievement.2":
+    "Pioneered operations for babies born with congenital heart defects, performing the first arterial 'switch' operations in the UK on infants whose main arteries were reversed and introducing a two-stage approach to the repair.",
+  "magdi-yacoub.achievement.3":
+    "Took heart surgery to countries with little access to it, founding the Chain of Hope charity and, with his foundation, the Aswan Heart Centre in Egypt, which the BMA says is now a training centre for doctors across Africa.",
+  "magdi-yacoub.moment.1":
+    "In September 1973 he performed a heart transplant despite a national moratorium; the patient died within hours and he drew criticism from colleagues, but when new drugs arrived he performed three transplants in early 1980.",
+  "magdi-yacoub.interpretation.moment.1":
+    "This is consistent with willingness to take a high-risk course against professional opinion, at real cost to patients and to his standing.",
+  "magdi-yacoub.moment.2":
+    "A colleague recalls him finishing at 3 am, sleeping a couple of hours, then operating at several private hospitals in the evenings, staying calm even after two sleepless nights.",
+  "magdi-yacoub.interpretation.moment.2":
+    "This is consistent with unusual stamina and sustained effort in a demanding practice.",
+  "magdi-yacoub.turning_point.1":
+    "After retiring from NHS surgery in 2001 he founded a science centre at Harefield and went on to help found the Aswan Heart Centre, shifting from operating to research, training and building heart centres abroad.",
+  "magdi-yacoub.interpretation.turning_point.1":
+    "This is consistent with a move from personal surgical work toward building institutions that spread cardiac care.",
+  /* ---------------------------------------------------------- meghnad-saha (Roster58) */
+  "meghnad-saha.achievement.1":
+    "Derived the thermal ionization equation in a 1920 paper, which Britannica says became fundamental to all work on stellar atmospheres: it links a star's spectrum to its temperature and the abundance of its elements.",
+  "meghnad-saha.achievement.2":
+    "Used the theory to explain why rubidium and caesium lines are missing from the Sun's spectrum and to predict that they should appear in cooler sunspots, where H. N. Russell then found the rubidium lines.",
+  "meghnad-saha.achievement.3":
+    "Helped build Indian science institutions: first president of the Allahabad academy, driving force behind the Institute of Nuclear Physics in Calcutta (later named for him), and founder of the journal Science and Culture.",
+  "meghnad-saha.moment.1":
+    "After writing a paper on the Harvard classification of stellar spectra, he withdrew it in London and spent about four months rewriting it with A. Fowler's criticism, publishing it in 1921 as 'On a physical theory of stellar spectra'.",
+  "meghnad-saha.interpretation.moment.1":
+    "This is consistent with openness to expert criticism when improving his own theory.",
+  "meghnad-saha.moment.2":
+    "After independence he opposed setting up the Atomic Energy Commission at that time, arguing that India lacked the industrial base and trained people, and disagreed with Bhabha and Nehru on the approach.",
+  "meghnad-saha.interpretation.moment.2":
+    "This is consistent with willingness to hold a public position against more powerful figures.",
+  "meghnad-saha.turning_point.1":
+    "Awarded the Premchand Roychand Scholarship in 1919, he spent about two years in London and Berlin, where he worked in Fowler's and Nernst's laboratories and published his stellar-spectra theory in 1921.",
+  "meghnad-saha.interpretation.turning_point.1":
+    "This is consistent with a shift from isolated work in Calcutta to an international research network.",
+  /* ---------------------------------------------------------- ngugi-wa-thiongo (Roster58) */
+  "ngugi-wa-thiongo.achievement.1":
+    "Kenyan novelist whose Weep Not, Child (1964) Britannica calls the first major novel in English by an East African, followed by A Grain of Wheat, Petals of Blood and, in 2004, Wizard of the Crow.",
+  "ngugi-wa-thiongo.achievement.2":
+    "In Decolonising the Mind (1986) he argued for African-language literature and then wrote in Gikuyu, including Devil on the Cross and Matigari, a position debated against Chinua Achebe's pragmatic defence of English.",
+  "ngugi-wa-thiongo.achievement.3":
+    "His output spans eight novels, five plays, five memoirs and eleven non-fiction books, and he later held a distinguished professorship of English and comparative writing at the University of California, Irvine.",
+  "ngugi-wa-thiongo.moment.1":
+    "In his third novel, A Grain of Wheat, he replaced a linear plot with multiple narrative lines and viewpoints unfolding at different times and places, a shift the Ngũgĩ wa Thiong'o Foundation describes as a turning point in his formal direction.",
+  "ngugi-wa-thiongo.interpretation.moment.1":
+    "This is consistent with a writer who reworked his narrative form rather than repeating earlier success.",
+  "ngugi-wa-thiongo.moment.2":
+    "Leeds records that he co-created a Gikuyu-language play with the Kamiriithu community in 1976, and Britannica lists plays co-written with Micere Githae Mugo and Ngugi wa Mirii.",
+  "ngugi-wa-thiongo.interpretation.moment.2":
+    "This is consistent with a writer who made theatre together with other authors and a local community.",
+  "ngugi-wa-thiongo.turning_point.1":
+    "From Devil on the Cross (1980) he wrote his fiction first in Gikuyu rather than English, arguing in Decolonising the Mind that African literature should be written in African languages.",
+  "ngugi-wa-thiongo.interpretation.turning_point.1":
+    "This is consistent with a writer willing to give up a large English-language readership to act on his own conviction.",
+  /* ---------------------------------------------------------- orhan-pamuk (Roster58) */
+  "orhan-pamuk.achievement.1":
+    "Turkish novelist awarded the 2006 Nobel Prize in Literature for having, 'in the quest for the melancholic soul of his native city', discovered 'new symbols for the clash and interlacing of cultures'.",
+  "orhan-pamuk.achievement.2":
+    "His novels The Black Book, My Name is Red and Snow turn Istanbul, Ottoman miniaturists and a border town into labyrinths of stories; the Swedish Academy compared his Istanbul to Dostoyevsky's St. Petersburg and Joyce's Dublin.",
+  "orhan-pamuk.achievement.3":
+    "He developed the 2008 novel The Museum of Innocence together with a real museum in Istanbul, opened in 2012 with 83 cabinets he designed, which won the 2014 European Museum of the Year Award.",
+  "orhan-pamuk.moment.1":
+    "From the 1990s he collected everyday objects while writing The Museum of Innocence, and in 2012, four years after the novel, opened a museum whose 83 cabinets he designed himself, some still empty and waiting for the right object.",
+  "orhan-pamuk.interpretation.moment.1":
+    "This is consistent with sustaining a long project across many years.",
+  "orhan-pamuk.moment.2":
+    "In a 2005 interview he said he did not want to follow the previous generation of Turkish authors who, in his words, wasted their talent serving their nation through flat social-realist writing, preferring Faulkner, Woolf and Proust.",
+  "orhan-pamuk.interpretation.moment.2":
+    "This is consistent, by his own account, with choosing his own literary direction over an expected social role.",
+  "orhan-pamuk.turning_point.1":
+    "He says he found his own voice in The Black Book, begun in 1985 while he was a visiting scholar at Columbia University in New York; the Swedish Academy later named it among his major works.",
+  "orhan-pamuk.interpretation.turning_point.1":
+    "This is consistent, by his own account, with a shift toward a more distinctive creative voice.",
+  /* ---------------------------------------------------------- pandita-ramabai (Roster58) */
+  "pandita-ramabai.achievement.1":
+    "In 1889 she opened the Sharada Sadan in Bombay, a residential school offering regular schooling and vocational training to Brahmin widows and girls, funded through the American Ramabai Association she had formed in 1887.",
+  "pandita-ramabai.achievement.2":
+    "In 1882 she testified to the Hunter Education Commission on women's education and in 1887 published The High-Caste Hindu Woman in Philadelphia, which sold 10,000 copies within a year.",
+  "pandita-ramabai.achievement.3":
+    "From 1896 she took famine victims into the Mukti Mission at Kedgaon, which grew to about 2,000 residents with trades training and a printing press, and she spent her last 18 years translating the Bible into Marathi; critics attacked her religious policy and the translation was judged not fluent.",
+  "pandita-ramabai.moment.1":
+    "Faced with the Boston association's inquiry of around 1902 about religious freedom at the Sharada Sadan, she replied that all 123 students had chosen Christianity of their own accord, rather than softening the answer.",
+  "pandita-ramabai.interpretation.moment.1":
+    "This is consistent with answering a challenge directly even when it risked her funding.",
+  "pandita-ramabai.moment.2":
+    "To make the Sharada Sadan self-supporting before the ten-year American funding ended, she bought farmland near Kedgaon and built an orchard, dairy and printing press.",
+  "pandita-ramabai.interpretation.moment.2":
+    "This is consistent with solving a funding problem by building the means to support the community herself.",
+  "pandita-ramabai.turning_point.1":
+    "When famine struck central India in 1896 she visited the affected districts and began bringing children and women to Mukti at Kedgaon, shifting her work from a school for high-caste widows to a large mixed community.",
+  "pandita-ramabai.interpretation.turning_point.1":
+    "This is consistent with expanding her work in response to an emergency rather than staying within the original project.",
+  /* ---------------------------------------------------------- raja-ravi-varma (Roster58) */
+  "raja-ravi-varma.achievement.1":
+    "Largely self-taught, he painted scenes from the Ramayana, Mahabharata and Puranas, and portraits, in European-style oils; Sheikh describes him as giving visual form to legends that had hardly any earlier prototypes.",
+  "raja-ravi-varma.achievement.2":
+    "For the Maharaja of Baroda he painted fourteen Puranic pictures for a new palace, after touring the country to look for a common costume; his Lakshmi and Saraswati became prototypes for later images.",
+  "raja-ravi-varma.achievement.3":
+    "In 1894 he and his brother founded a lithographic press that mass-produced prints of his paintings and helped create a shared popular imagery of the gods; he sold the majority interest in 1901, and critics argue the prints coarsened public taste.",
+  "raja-ravi-varma.moment.1":
+    "In 1863, as a young man, he watched the visiting painter Theodore Jensen at work, and with the Maharaja's help learned the rudiments of oil painting, which he then developed largely on his own.",
+  "raja-ravi-varma.interpretation.moment.1":
+    "This is consistent with a drive to master a new technique through observation and sustained practice.",
+  "raja-ravi-varma.moment.2":
+    "Given the Baroda commission for fourteen Puranic pictures, he toured the country to find a costume that would suit every class, and the 1907 obituary notes that he did not find an old Hindu costume.",
+  "raja-ravi-varma.interpretation.moment.2":
+    "This is consistent with going out to gather material rather than relying on convention.",
+  "raja-ravi-varma.turning_point.1":
+    "After the 1890 Baroda exhibition drew large crowds, and following T. Madhava Rao's earlier advice to have his works oleographed, he founded his own lithographic press in 1894; it lost money and he sold the majority interest in 1901.",
+  "raja-ravi-varma.interpretation.turning_point.1":
+    "This is consistent with acting on a perceived demand for his work, with mixed commercial results.",
+  /* ---------------------------------------------------------- roberto-clemente (Roster58) */
+  "roberto-clemente.achievement.1":
+    "Over 18 seasons with the Pittsburgh Pirates he won four National League batting titles, the 1966 Most Valuable Player Award and 12 straight Gold Gloves, and in 1972 became the 11th player to collect 3,000 hits.",
+  "roberto-clemente.achievement.2":
+    "He helped the Pirates win the 1960 World Series over the Yankees and, at 37, hit .414 with a hit in every game of the 1971 Series against the Orioles, earning Series MVP.",
+  "roberto-clemente.achievement.3":
+    "He died on 31 December 1972 aboard a plane carrying relief supplies to Nicaraguan earthquake survivors, and in 1973 was elected to the Hall of Fame in a special vote, reported by SABR as the first player from Latin America so honoured.",
+  "roberto-clemente.moment.1":
+    "Before the 1971 World Series, with the Pirates facing the favoured Orioles, he told teammates to 'get on my back' and then hit safely in all seven games.",
+  "roberto-clemente.interpretation.moment.1":
+    "This is consistent with a strongly competitive, win-focused approach under pressure.",
+  "roberto-clemente.moment.2":
+    "After finishing eighth in the 1960 MVP vote, he said he resolved to win the batting title in 1961, and led the league at .351.",
+  "roberto-clemente.interpretation.moment.2":
+    "This is consistent with turning a perceived slight into a specific performance goal.",
+  "roberto-clemente.turning_point.1":
+    "After the December 1972 Nicaragua earthquake he spent days organising a committee to gather aid and, learning that earlier supplies had been diverted, decided to travel with the cargo flight himself.",
+  "roberto-clemente.interpretation.turning_point.1":
+    "This is consistent with a strong motivation to put his public standing to work for others.",
+  /* ---------------------------------------------------------- strive-masiyiwa (Roster58) */
+  "strive-masiyiwa.achievement.1":
+    "Founded Econet in 1993 and fought a multi-year constitutional court battle against the state telecoms monopoly, winning a licence in 1997; the Global Business Hall of Fame calls the ruling a milestone in opening African telecoms to private capital.",
+  "strive-masiyiwa.achievement.2":
+    "Built Econet Wireless Zimbabwe, which launched in 1998 and, by Bloomberg's 2022 count, grew from 32,000 subscribers at its listing to 13.2 million and dominates mobile money in the country.",
+  "strive-masiyiwa.achievement.3":
+    "Led Econet's growth into a wider technology group, which the Hall of Fame says includes Liquid Telecom and Cassava Fintech and operations in 28 African countries.",
+  "strive-masiyiwa.moment.1":
+    "In February 2004 a regulator faxed an order that Econet's international link close within hours, and the company went to court, where a judge declared the regulations null and void.",
+  "strive-masiyiwa.interpretation.moment.1":
+    "This is consistent with answering a sudden state action by going to court, though the report names the company's chief executive, not Masiyiwa, as the affiant.",
+  "strive-masiyiwa.moment.2":
+    "By his own account, after losing a first case on whether mobile phones fell inside the state monopoly, he returned to court arguing the monopoly limited freedom of expression and won in 1995.",
+  "strive-masiyiwa.interpretation.moment.2":
+    "This is consistent with changing the legal approach after a defeat, though the reframing is told mainly by him.",
+  "strive-masiyiwa.turning_point.1":
+    "In 1993 the state telephone operator rejected his proposal for a mobile network, and he chose to sue rather than drop the idea, a fight that ended with a licence in 1997.",
+  "strive-masiyiwa.interpretation.turning_point.1":
+    "This is consistent with turning a refusal into a multi-year legal campaign, as recounted by him and confirmed on length and outcome by independent reports.",
+  /* ---------------------------------------------------------- utagawa-hiroshige (Roster58) */
+  "utagawa-hiroshige.achievement.1":
+    "His Fifty-three Stations of the Tokaido (1833-34), prints of the road between Edo and Kyoto, established his fame as a landscape printmaker and was an immediate commercial success.",
+  "utagawa-hiroshige.achievement.2":
+    "He helped make landscape a major ukiyo-e subject, replacing the declining actor and beauty prints with poetic views of weather, seasons and everyday travellers, and followed the Tokaido with series such as the Kiso Road prints.",
+  "utagawa-hiroshige.achievement.3":
+    "His last series, One Hundred Famous Views of Edo (1856-58), was left unfinished at his death and completed by his successor Hiroshige II; auction-house writers credit his prints with influencing European painters such as Van Gogh.",
+  "utagawa-hiroshige.moment.1":
+    "In the Edo series, begun in 1856 after the 1855 earthquake, he often chose minor local sites and used bird's-eye views and sharp near-far contrasts to make them worthy of the name 'famous places'.",
+  "utagawa-hiroshige.interpretation.moment.1":
+    "This is consistent with an original approach to familiar subjects.",
+  "utagawa-hiroshige.moment.2":
+    "Scholars report that he continued working on the Edo series until the last moments of his life.",
+  "utagawa-hiroshige.interpretation.moment.2":
+    "This is consistent with sustained, steady working habits.",
+  "utagawa-hiroshige.turning_point.1":
+    "In the early 1830s, after his teacher Toyohiro's death, he turned seriously to landscape prints; scholars say the exact motives are unclear but the older actor and beauty traditions had stagnated.",
+  "utagawa-hiroshige.interpretation.turning_point.1":
+    "This is consistent with a willingness to move toward a market opening, though his motives are not documented.",
+  /* ---------------------------------------------------------- youssou-ndour (Roster58) */
+  "youssou-ndour.achievement.1":
+    "Senegalese singer who popularised mbalax, blending Wolof traditions with Cuban and Latin American styles, as leader of Super Etoile de Dakar, and who introduced it to international audiences.",
+  "youssou-ndour.achievement.2":
+    "He sang on Peter Gabriel's 'In Your Eyes' (1986) and toured with Gabriel, and his 1994 duet '7 Seconds' with Neneh Cherry reached a global audience.",
+  "youssou-ndour.achievement.3":
+    "His album Egypt, in praise of Senegalese Sufi figures, won the 2005 Grammy for best contemporary world music album.",
+  "youssou-ndour.moment.1":
+    "His album Egypt, in praise of Senegalese Sufi figures, was first poorly received in Senegal, where Islamic leaders took offence, before its success abroad changed the reaction.",
+  "youssou-ndour.interpretation.moment.1":
+    "This is consistent with releasing a project that met resistance at home.",
+  "youssou-ndour.moment.2":
+    "While other African stars settled in Paris, he kept his base in Dakar and, when his international break came, went to London to work with Peter Gabriel.",
+  "youssou-ndour.interpretation.moment.2":
+    "This is consistent with partnering across borders while staying rooted in Senegal.",
+  "youssou-ndour.turning_point.1":
+    "In 1977, after joining the Star Band de Dakar at 16, he and several band members left to form Etoile de Dakar, which promoted a more strongly Africanized version of mbalax sung mostly in Wolof.",
+  "youssou-ndour.interpretation.turning_point.1":
+    "This is consistent with moving from a joined group to leading his own sound.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -20221,6 +20582,367 @@ export const EDITORIAL_KO: Record<string, string> = {
     "2002년 상하이 샤크스에서 막 우승을 차지한 그는 중국 리그를 떠나 전체 1순위로 NBA에 입성했고, 휴스턴에서 9시즌 경력이 시작되었다.",
   "yao-ming.interpretation.turning_point.1":
     "이 이적은 그의 신인 시즌 성적이 보여주듯 새로운 리그와 환경에 적응하는 능력과 부합한다.",
+  /* ---------------------------------------------------------- abbas-kiarostami (Roster58) */
+  "abbas-kiarostami.achievement.1":
+    "이란의 영화감독으로, 실제 당사자들이 자기 자신을 연기한 「클로즈업」과 코케르 3부작에서 허구와 다큐멘터리의 경계를 작품의 주제로 삼았다.",
+  "abbas-kiarostami.achievement.2":
+    "그의 영화 「체리 향기」는 1997년 칸 영화제에서 황금종려상을 공동 수상했다.",
+  "abbas-kiarostami.achievement.3":
+    "「ABC 아프리카」부터 디지털 비디오로 촬영했고, 이후 이란 밖에서 이탈리아의 「사랑을 카피하다」와 일본의 「라이크 섬원 인 러브」를 연출했다.",
+  "abbas-kiarostami.moment.1":
+    "「클로즈업」에서는 유명 감독을 사칭했던 호세인 사브지안과 다른 실제 당사자들이 자기 자신을 연기하고, 키아로스타미 본인도 화면에 등장해 이들을 인터뷰한다.",
+  "abbas-kiarostami.interpretation.moment.1":
+    "이는 허구와 다큐멘터리의 관습에서 벗어나려는 태도와 부합한다.",
+  "abbas-kiarostami.moment.2":
+    "그는 자동차 안에서 인물을 촬영하는 것이 자연스러운 투샷과 클로즈업을 가능하게 하고, 여성에게 어느 정도의 자유가 있는 공간이라고 설명했으며, 「텐」은 차 안에서의 롱테이크로 이루어져 있다.",
+  "abbas-kiarostami.interpretation.moment.2":
+    "이는 그 자신의 설명에 따르면 하나의 형식적 제약을 여러 작품에서 시험해 보는 태도와 부합한다.",
+  "abbas-kiarostami.turning_point.1":
+    "2001년 「ABC 아프리카」에서 그는 처음으로 디지털 카메라를 사용했고, 35mm 카메라는 작업을 제한했을 것이라고 말했으며, 이후 디지털 비디오로 「텐」을 만들었다.",
+  "abbas-kiarostami.interpretation.turning_point.1":
+    "이는 그 자신의 설명에 따르면 기존 매체가 작업을 제한할 때 매체를 바꾸는 태도와 부합한다.",
+  /* ---------------------------------------------------------- abebe-bikila (Roster58) */
+  "abebe-bikila.achievement.1":
+    "1960년 로마 올림픽 마라톤에서 맨발로 2시간 15분 16초 2에 우승했다. 브리태니커는 이를 에티오피아의 첫 올림픽 금메달로 기록한다.",
+  "abebe-bikila.achievement.2":
+    "1964년 도쿄 올림픽 마라톤에서 2시간 12분 11초 2의 세계 최고 기록으로 우승해, 브리태니커와 올림페디아에 따르면 올림픽 마라톤을 두 번 우승한 첫 선수가 되었다.",
+  "abebe-bikila.achievement.3":
+    "그의 1960년 우승은 언론 회고에서 아프리카 장거리 달리기 성공 시대의 출발점으로 평가되며, 뉴욕 로드 러너스는 장거리 달리기 공헌자에게 주는 상에 그의 이름을 붙였다.",
+  "abebe-bikila.moment.1":
+    "로마에서 발에 맞는 신발이 없자 평소 훈련하던 대로 맨발로 마라톤을 뛰어 우승했고, 4년 뒤 도쿄에서는 신발을 신고 다시 우승했다.",
+  "abebe-bikila.interpretation.moment.1":
+    "이는 자신에게 맞는 방식으로 경기에 나서는 태도와 일치하지만, 맨발로 뛴 이유는 자료마다 다르다.",
+  "abebe-bikila.moment.2":
+    "로마에서 그는 레이스 대부분을 라디 벤 압데셀람과 나란히 달리다가 막판에 치고 나가 25초 차로 우승했다.",
+  "abebe-bikila.interpretation.moment.2":
+    "이는 힘을 아끼다 막판에 승부를 거는 경기 운영과 일치하지만, 정확한 시점은 설명마다 다르다.",
+  "abebe-bikila.turning_point.1":
+    "1960년 동료 선수가 아파 막판에 에티오피아 대표팀에 들어간 그는 마라톤을 시작한 지 몇 달 되지 않았는데도 로마에서 우승했다.",
+  "abebe-bikila.interpretation.turning_point.1":
+    "이는 뜻밖에 찾아온 기회를 살리는 태도와 일치한다.",
+  /* ---------------------------------------------------------- augustine-of-hippo (Roster58) */
+  "augustine-of-hippo.achievement.1":
+    "로마령 아프리카 히포의 주교(약 396~430년)로서 『고백록』과 『신국론』을 썼으며, 이는 그를 서방 그리스도교 사상에서 가장 영향력 있는 저술가의 한 사람으로 만들었다.",
+  "augustine-of-hippo.achievement.2":
+    "현존하는 그의 저작은 책 약 100권, 서한 약 300통, 설교 약 600편이며, 만년에는 『재고록』에서 자신의 저술을 직접 검토했다.",
+  "augustine-of-hippo.achievement.3":
+    "마니교도, 도나투스파, 펠라기우스파와의 논쟁에서 중심적인 목소리를 냈고, 아프리카 동료 주교들과 함께 418년 펠라기우스주의 단죄를 이끌어냈다.",
+  "augustine-of-hippo.moment.1":
+    "도나투스파 반박 활동에서 그는 글을 모르는 신자들도 분열의 오류라고 본 점을 외울 수 있도록 297행의 노래를 지었고, 이후 도나투스파에 대한 국가의 강제력을 옹호했는데 후대 비평가들은 이를 비판해 왔다.",
+  "augustine-of-hippo.interpretation.moment.1":
+    "이는 청중에 맞춘 지속적인 공개 논쟁에 기꺼이 나서는 태도와 부합하며, 그 결과는 논란의 여지가 있다.",
+  "augustine-of-hippo.moment.2":
+    "경력 후반에 그는 자신의 저술을 연대순으로 비판적으로 검토한 『재고록』을 썼고, 새로 발견된 서한에서는 자신의 글을 성경처럼 대하지 말라고 독자들에게 경고했다.",
+  "augustine-of-hippo.interpretation.moment.2":
+    "이는 자신의 입장을 공개적으로 되짚고 수정하는 습관과 부합한다.",
+  "augustine-of-hippo.turning_point.1":
+    "391년 히포에서 본인의 뜻과 달리 사제로 서품되었다고 전해지며, 약 396년 그 지역 주교직을 이어받아 수사학 교사와 철학적 은거 생활에서 신자 공동체와 그 논쟁을 이끄는 자리로 옮겨 갔다.",
+  "augustine-of-hippo.interpretation.turning_point.1":
+    "이는 학문적 생활에서 공적인 사목과 논쟁 활동으로의 전환과 부합한다.",
+  /* ---------------------------------------------------------- fukuzawa-yukichi (Roster58) */
+  "fukuzawa-yukichi.achievement.1":
+    "에도에 세운 난학 학교를 게이오기주쿠로, 이후 게이오 대학으로 발전시켰으며, 게이오에 따르면 이 사립 교육기관은 새로운 학문을 도입하고 해외 교수를 초빙했다.",
+  "fukuzawa-yukichi.achievement.2":
+    "막부의 서양 사절단에 참여한 뒤 『서양사정』과 『학문의 권장』을 저술했고, 이 베스트셀러들은 서양의 제도를 소개하고 실용적 교육을 주장했다.",
+  "fukuzawa-yukichi.achievement.3":
+    "1882년 신문 『시사신보』를 창간했으며, 브리태니커는 이 신문이 자유주의 정치인과 언론인을 길러냈다고 설명한다.",
+  "fukuzawa-yukichi.moment.1":
+    "1867년 미국에 사절로 파견되었을 때 그는 일본으로 가져갈 교과서를 사 오는 것을 개인적 목적으로 삼았고, 돌아와서는 자신의 학교를 세우는 일에 나섰다.",
+  "fukuzawa-yukichi.interpretation.moment.1":
+    "이는 자신의 사업을 향한 자발적인 주도성과 부합한다.",
+  "fukuzawa-yukichi.moment.2":
+    "왕정복고 이후 정부 관직을 제안받았지만 일본에 독립적인 지식 공동체가 필요하다며 일관되게 거절하고 민간인으로 남았다.",
+  "fukuzawa-yukichi.interpretation.moment.2":
+    "이는 국가로부터 제도적 독립을 지키려는 선호와 부합한다.",
+  "fukuzawa-yukichi.turning_point.1":
+    "유럽과 미국을 다녀온 뒤 게이오의 설명에 따르면 그는 일본이 독립을 지키려면 새로운 교육 제도가 필요하다고 판단했고, 통역·사절에서 자신의 학교를 세우고 대중을 위해 글을 쓰는 사람으로 바뀌었다.",
+  "fukuzawa-yukichi.interpretation.turning_point.1":
+    "이는 영향력을 발휘하는 주된 수단으로 교육을 택한 전환과 부합한다.",
+  /* ---------------------------------------------------------- hugo-grotius (Roster58) */
+  "hugo-grotius.achievement.1":
+    "1625년 파리에서 『전쟁과 평화의 법』을 출간해 자연법에 바탕을 둔 국가 간 법의 일반 이론을 세웠다. 브리태니커는 이 책을 국제법 발전에 대한 가장 위대한 기여의 하나로 평가한다.",
+  "hugo-grotius.achievement.2":
+    "나포 전리품에 관한 의뢰 저작의 한 장을 따로 낸 『자유해론』(1609)에서 바다는 모든 나라에 열려 있다고 주장했다. 영국의 존 셀던은 이에 비판적으로 답하는 글을 냈다.",
+  "hugo-grotius.achievement.3":
+    "아라토스와 마르티아누스 카펠라의 교감 편집, 밀턴이 높이 평가한 희곡 『추방당한 아담』, 네덜란드 독립 전쟁사, 널리 읽힌 기독교 변호서를 비롯한 신학 저술까지 여러 분야에 걸쳐 글을 썼다.",
+  "hugo-grotius.moment.1":
+    "『전쟁과 평화의 법』에서 신이 없다 해도 자연법은 유효하다고 주장해 어떤 신앙을 가진 사람에게도 적용되게 했으나, 세속적 논거만으로 설득되지 않는 통치자를 위해 종교적 논거와 효용 논거를 덧붙였다.",
+  "hugo-grotius.interpretation.moment.1":
+    "이는 법의 근거를 교파의 권위 밖에서 찾으려는 태도와 일치하지만, 이 시도가 얼마나 독창적이었는지는 학자들 사이에 논쟁이 있다.",
+  "hugo-grotius.moment.2":
+    "네덜란드 동인도회사의 요청으로 포르투갈 선박 나포를 변호하는 긴 논고를 썼고, 그중 한 장이 『자유해론』으로 출간되어 널리 재간행되었다. 스탠퍼드 철학 백과사전은 이 글에 선전의 성격이 있었다고 지적한다.",
+  "hugo-grotius.interpretation.moment.2":
+    "이는 의뢰인을 위한 능숙한 법률 변론과 일치하며, 그 목적에 대해서는 비판도 있다.",
+  "hugo-grotius.turning_point.1":
+    "1621년 네덜란드를 떠나 파리에 정착한 그는 그곳에서 『전쟁과 평화의 법』을 집필해 1625년에 출간했고, 그의 명성은 대부분 이 책에 기대고 있다.",
+  "hugo-grotius.interpretation.turning_point.1":
+    "이는 상황이 크게 바뀐 뒤에도 학문적 작업을 이어 간 것과 일치한다.",
+  /* ---------------------------------------------------------- inazo-nitobe (Roster58) */
+  "inazo-nitobe.achievement.1":
+    "영어로 『무사도: 일본의 혼』(1900)을 써서 사무라이에서 비롯된 가치를 외국 독자에게 설명했으며, 1905년 미국판 이후 널리 읽혔고 여러 언어로 번역되었다.",
+  "inazo-nitobe.achievement.2":
+    "제일고등학교 교장으로서 인격주의에 기반한 교육을 실천했고, 1918년 도쿄여자기독교대학의 초대 학장이 되었다.",
+  "inazo-nitobe.achievement.3":
+    "농업경제학 박사로 삿포로, 교토, 도쿄에서 가르쳤고, 이후 제네바에서 국제연맹 사무차장을 지냈다(국립국회도서관 기준 1919~1926년).",
+  "inazo-nitobe.moment.1":
+    "미국인 아내와 벨기에 법학자의 질문에 답하기 위해 영어로 『무사도』를 썼고, 외국 독자가 이해하도록 각 덕목을 유럽의 역사와 문학의 사례와 나란히 설명했다.",
+  "inazo-nitobe.interpretation.moment.1":
+    "이는 외국 독자에 맞춰 메시지를 의도적으로 조정하는 태도와 부합하지만, 책이 사무라이 윤리를 얼마나 정확히 설명했는지는 학자들 사이에서 논쟁이 있다.",
+  "inazo-nitobe.moment.2":
+    "도쿄여자기독교대학 첫 졸업식에서 그는 지식보다 식견을, 학문보다 인격을 중시하고 인재보다 인물을 기르는 것이 학교의 목표라고 밝혔다.",
+  "inazo-nitobe.interpretation.moment.2":
+    "이는 대학 자체의 기록에 따른 교육 중심의 동기와 부합한다.",
+  "inazo-nitobe.turning_point.1":
+    "1884년 도쿄대학을 졸업 전에 떠나 미국으로 유학했고 그곳에서 퀘이커 교도가 되었으며, 1891년 귀국해 학자의 길을 시작했다.",
+  "inazo-nitobe.interpretation.turning_point.1":
+    "이는 해외에서의 학업을 위해 진로를 바꾸는 태도와 부합한다.",
+  /* ---------------------------------------------------------- john-muir (Roster58) */
+  "john-muir.achievement.1":
+    "자연학자이자 작가로, 잡지에 쓴 글 덕분에 브리태니커는 그가 1890년 세쿼이아와 요세미티 국립공원 설립에 큰 책임이 있다고 평가한다. 1892년 시에라 클럽을 세워 초대 회장을 맡았다.",
+  "john-muir.achievement.2":
+    "『캘리포니아의 산들』(1894), 『우리의 국립공원』(1901), 『요세미티』(1912)와 『천 마일 걷기』 같은 사후 출간 일지 등 미국 자연 문학의 중요한 저작을 남겼다.",
+  "john-muir.achievement.3":
+    "1874~75년 요세미티 계곡이 빙하의 침식으로 만들어졌다고 주장해 당시 널리 퍼진 격변설에 맞섰다. 브리태니커는 그가 이 이론을 처음 제시했으며 지금은 대체로 받아들여진다고 설명한다.",
+  "john-muir.moment.1":
+    "1870년대 초 요세미티의 제재소에서 일하며 일요일마다 계곡의 지질과 식물, 물까마귀를 비롯한 동물을 자세히 관찰했고, 빙하가 계곡을 빚었다는 생각을 다듬어 갔다.",
+  "john-muir.interpretation.moment.1":
+    "이는 스스로 이끌어 간 호기심과 일치하지만, 세부 내용은 대체로 뮤어 본인의 일지를 다시 전한 것이다.",
+  "john-muir.moment.2":
+    "정식 지질학 훈련이 없었던 그는 요세미티가 갑작스러운 지진 붕괴가 아니라 빙하에 의해 깎였다고 주장했고, 조지프 르콩트는 감명받아 첫 기고를 권했다. 다만 후대 지리학자의 서평은 그가 빙하의 범위를 과장했다고 평한다.",
+  "john-muir.interpretation.moment.2":
+    "이는 지배적 견해에 맞선 독립적 사고와 일치하며, 다소 지나친 면도 있었다.",
+  "john-muir.turning_point.1":
+    "1867년 산업 현장 사고로 한쪽 눈을 거의 잃을 뻔한 뒤 기계 발명 일을 접고 천 마일 도보 여행에 나섰으며, 1868년 요세미티로 가서 자연에 평생을 바치기로 했다.",
+  "john-muir.interpretation.turning_point.1":
+    "이는 자연 속에서 독립적으로 일하는 쪽으로 스스로 방향을 바꾼 것과 일치한다.",
+  /* ---------------------------------------------------------- kazuo-inamori (Roster58) */
+  "kazuo-inamori.achievement.1":
+    "1959년 27세에 교토세라믹(후의 교세라)을 세워 세계적인 세라믹·전자 부품 기업으로 키웠고, 교세라 철학과 아메바 경영이라는 관리회계 방식을 바탕으로 삼았다.",
+  "kazuo-inamori.achievement.2":
+    "1984년 통신 자유화 속에서 NTT에 맞서는 DDI를 세웠고, DDI는 2000년 합병을 거쳐 KDDI가 되었다.",
+  "kazuo-inamori.achievement.3":
+    "2010년 77세에 파산한 일본항공의 회장을 맡아 자신의 경영 방식을 적용했고, 직원 약 3분의 1을 줄이는 구조조정 속에서 일본항공은 흑자로 돌아서 2012년 재상장했다.",
+  "kazuo-inamori.moment.1":
+    "2010년 파산 후 그는 무급으로 일본항공 최고경영자를 맡았고, 회사는 주주가 아니라 직원의 성장을 위해 존재한다고 직원들에게 밝혔다.",
+  "kazuo-inamori.interpretation.moment.1":
+    "이는 솔선수범하는 리더십과 직원을 주주보다 앞세운다는 그의 신념과 일치한다.",
+  "kazuo-inamori.moment.2":
+    "일본항공에서 그는 매달 각 부서의 수치를 살펴 개선이 없으면 이유를 물었다고 한 일본항공 임원은 회고했다.",
+  "kazuo-inamori.interpretation.moment.2":
+    "이는 수치를 꼼꼼히 챙기는 태도와 일치하지만, 한 내부자의 회고에 의존한다.",
+  "kazuo-inamori.turning_point.1":
+    "1958년 기술 개발 방침을 둘러싼 의견 충돌로 첫 직장을 떠난 그는 후원자들과 함께 이듬해 교토세라믹을 세웠다.",
+  "kazuo-inamori.interpretation.turning_point.1":
+    "이는 의견 충돌을 계기로 직접 회사를 세우는 행동과 일치한다.",
+  /* ---------------------------------------------------------- kitasato-shibasaburo (Roster58) */
+  "kitasato-shibasaburo.achievement.1":
+    "베를린의 로베르트 코흐 연구소에서 1889년 파상풍균의 첫 순수배양에 성공했고, 1890년 에밀 폰 베링과 함께 디프테리아와 파상풍 면역에 관한 논문을 발표해 혈청요법의 토대를 놓았다.",
+  "kitasato-shibasaburo.achievement.2":
+    "1894년 홍콩에서 페스트균을 보고했으나 알렉상드르 예르생도 며칠 사이에 균을 보고했고, 두 사람의 우선권은 지금도 문서로 남은 논쟁이다. 오늘날 널리 받아들여진 것은 예르생의 발견이었다.",
+  "kitasato-shibasaburo.achievement.3":
+    "1914년 기타사토 연구소를 세우고 게이오대학 의학부의 초대 학장을 지냈으며, 시가 기요시와 노구치 히데요 같은 연구자들이 그의 연구소에서 배웠다.",
+  "kitasato-shibasaburo.moment.1":
+    "파상풍균의 순수배양이 불가능하다고 여겨지던 때, 그는 수소로 산소를 몰아내는 장치와 밀폐 가능한 접시를 고안해 1889년 첫 순수배양에 성공했다.",
+  "kitasato-shibasaburo.interpretation.moment.1":
+    "이는 기존 방법이 통하지 않을 때 직접 장치를 만들어 낸 연구자의 면모와 부합한다.",
+  "kitasato-shibasaburo.moment.2":
+    "1894년 6월 홍콩에서 그는 의사 제임스 로슨과 『랜싯』을 통해 페스트균을 보고했고, 한 역사가는 그의 기술이 예르생의 것과 네 가지 중요한 점에서 달랐다고 전한다.",
+  "kitasato-shibasaburo.interpretation.moment.2":
+    "이는 엄밀한 실험실 연구자였으나 서둘러 낸 현장 보고가 논쟁적 결과를 남긴 모습과 부합한다.",
+  "kitasato-shibasaburo.turning_point.1":
+    "1914년 정부가 그의 연구소를 문부성으로 옮기자, 그는 기타사토 연구소를 세웠고 연구진 대부분이 그와 함께했다.",
+  "kitasato-shibasaburo.interpretation.turning_point.1":
+    "이는 자신의 연구 기관을 다시 세우고 팀을 곁에 둔 과학자의 면모와 부합한다.",
+  /* ---------------------------------------------------------- magdi-yacoub (Roster58) */
+  "magdi-yacoub.achievement.1":
+    "해어필드 병원의 이식 부서를 키워 경력이 끝날 때까지 2,500건이 넘는 심장·폐 이식을 시행한 세계 최대 수준의 서비스로 만들었고, 1983년에는 유럽 최초의 심장·폐 동시 이식을 시행했다.",
+  "magdi-yacoub.achievement.2":
+    "선천성 심장 기형 아기들을 위한 수술을 개척해, 주요 동맥이 뒤바뀐 영아에게 영국 최초의 동맥 스위치 수술을 시행하고 2단계 교정 방식을 도입했다.",
+  "magdi-yacoub.achievement.3":
+    "심장 수술을 접하기 어려운 나라로 확대해, 자선단체 체인 오브 호프를 세우고 재단을 통해 이집트 아스완 심장센터를 열었으며, 이곳은 BMA에 따르면 아프리카 전역 의사들의 연수 기관이 되었다.",
+  "magdi-yacoub.moment.1":
+    "1973년 9월 전국적 이식 유예 조치에도 심장 이식을 시행했고 환자는 몇 시간 만에 숨져 동료들의 비판을 받았지만, 새 약물이 나오자 1980년 초 세 건의 이식을 시행했다.",
+  "magdi-yacoub.interpretation.moment.1":
+    "이는 환자와 자신의 평판에 실제 대가가 따르더라도 전문가 의견에 맞서 위험한 길을 택하려는 태도와 일치한다.",
+  "magdi-yacoub.moment.2":
+    "한 동료는 그가 새벽 3시에 수술을 마치고 두어 시간만 자고 일어나 저녁에는 여러 민간 병원에서 수술했으며, 이틀 밤을 새워도 침착했다고 회상한다.",
+  "magdi-yacoub.interpretation.moment.2":
+    "이는 고된 진료 환경에서의 남다른 체력과 지속적인 노력과 일치한다.",
+  "magdi-yacoub.turning_point.1":
+    "2001년 NHS 수술에서 은퇴한 뒤 해어필드에 과학센터를 세우고 아스완 심장센터 설립에 참여하며, 직접 수술하는 일에서 연구와 교육, 해외 심장센터 건립으로 무게를 옮겼다.",
+  "magdi-yacoub.interpretation.turning_point.1":
+    "이는 개인 수술 중심에서 심장 치료를 확산하는 기관을 세우는 쪽으로의 이동과 일치한다.",
+  /* ---------------------------------------------------------- meghnad-saha (Roster58) */
+  "meghnad-saha.achievement.1":
+    "1920년 열이온화 방정식을 도출했다. 브리태니커는 이 방정식이 항성 대기 연구 전반의 기본이 되었다고 평하며, 별의 스펙트럼을 온도와 원소 함량에 연결해 준다.",
+  "meghnad-saha.achievement.2":
+    "이 이론으로 태양 스펙트럼에 루비듐과 세슘 선이 없는 이유를 설명하고 더 차가운 흑점에서 나타날 것이라 예측했으며, 이후 H. N. 러셀이 루비듐 선을 찾아냈다.",
+  "meghnad-saha.achievement.3":
+    "인도 과학 제도를 세우는 데 기여했다. 알라하바드 과학원의 초대 회장이었고 콜카타 핵물리학연구소 설립을 이끌었으며(훗날 그의 이름이 붙음), 학술지 『과학과 문화』를 창간했다.",
+  "meghnad-saha.moment.1":
+    "항성 스펙트럼의 하버드 분류에 관한 논문을 런던에서 철회하고, A. 파울러의 비판을 받으며 약 넉 달간 다시 써서 1921년 '항성 스펙트럼의 물리 이론'으로 발표했다.",
+  "meghnad-saha.interpretation.moment.1":
+    "이는 자신의 이론을 다듬을 때 전문가의 비판을 받아들이는 태도와 일치한다.",
+  "meghnad-saha.moment.2":
+    "독립 후 그는 산업 기반과 훈련된 인력이 부족하다며 당시 원자력위원회 설립에 반대했고, 이 점에서 바바와 네루와 의견이 갈렸다.",
+  "meghnad-saha.interpretation.moment.2":
+    "이는 더 영향력 있는 인물들에 맞서 공개적으로 입장을 지키려는 태도와 일치한다.",
+  "meghnad-saha.turning_point.1":
+    "1919년 프렘찬드 로이찬드 장학금을 받아 약 2년간 런던과 베를린에서 파울러와 네른스트의 연구실에서 일하며 1921년 항성 스펙트럼 이론을 발표했다.",
+  "meghnad-saha.interpretation.turning_point.1":
+    "이는 콜카타의 고립된 연구에서 국제적 연구 네트워크로 옮겨 간 변화와 일치한다.",
+  /* ---------------------------------------------------------- ngugi-wa-thiongo (Roster58) */
+  "ngugi-wa-thiongo.achievement.1":
+    "케냐의 소설가로, 『울지 마라, 아이야』(1964)는 브리태니커가 동아프리카 작가의 영어 장편으로는 첫 주요 작품이라 평가했으며, 이어 『한 톨의 밀알』, 『피의 꽃잎』, 2004년 『까마귀의 마법사』를 발표했다.",
+  "ngugi-wa-thiongo.achievement.2":
+    "1986년 『정신의 탈식민화』에서 아프리카 언어 문학을 주장했고, 이후 『십자가 위의 악마』와 『마티가리』 등을 기쿠유어로 썼다. 이는 영어를 현실적으로 옹호한 치누아 아체베와의 논쟁 구도로 자주 논의된다.",
+  "ngugi-wa-thiongo.achievement.3":
+    "그의 저작은 장편소설 8편, 희곡 5편, 회고록 5권, 논픽션 11권에 이르며, 이후 캘리포니아대학 어바인에서 영어 및 비교문학 석좌교수를 지냈다.",
+  "ngugi-wa-thiongo.moment.1":
+    "세 번째 소설 『한 톨의 밀알』에서 그는 직선적 줄거리를 버리고 서로 다른 시간과 장소에서 펼쳐지는 여러 서사선과 시점을 도입했다. 응구기 와 시옹오 재단은 이를 그의 형식적 방향의 전환점으로 설명한다.",
+  "ngugi-wa-thiongo.interpretation.moment.1":
+    "이는 이전의 성공을 반복하기보다 서사 형식을 새로 다듬는 작가의 면모와 부합한다.",
+  "ngugi-wa-thiongo.moment.2":
+    "리즈대학은 그가 1976년 카미리이투 공동체와 함께 기쿠유어 연극을 만들었다고 기록하며, 브리태니커는 미케레 기타에 무고, 응구기 와 미리와 공동 집필한 희곡들을 열거한다.",
+  "ngugi-wa-thiongo.interpretation.moment.2":
+    "이는 다른 작가들과 지역 공동체와 함께 연극을 만든 작가의 면모와 부합한다.",
+  "ngugi-wa-thiongo.turning_point.1":
+    "1980년 『십자가 위의 악마』부터 그는 소설을 영어가 아니라 먼저 기쿠유어로 썼고, 『정신의 탈식민화』에서 아프리카 문학은 아프리카 언어로 쓰여야 한다고 주장했다.",
+  "ngugi-wa-thiongo.interpretation.turning_point.1":
+    "이는 자신의 신념을 실천하기 위해 큰 영어 독자층을 포기할 수 있었던 작가의 면모와 부합한다.",
+  /* ---------------------------------------------------------- orhan-pamuk (Roster58) */
+  "orhan-pamuk.achievement.1":
+    "튀르키예의 소설가로, '고향 도시의 우수 어린 영혼을 찾는 여정에서 문화들의 충돌과 얽힘을 위한 새로운 상징들을 발견했다'는 평가와 함께 2006년 노벨 문학상을 받았다.",
+  "orhan-pamuk.achievement.2":
+    "그의 소설 『검은 책』, 『내 이름은 빨강』, 『눈』은 이스탄불과 오스만 세밀화가들, 국경 도시를 이야기의 미로로 바꾸었고, 스웨덴 아카데미는 그의 이스탄불을 도스토옙스키의 상트페테르부르크, 조이스의 더블린에 비견했다.",
+  "orhan-pamuk.achievement.3":
+    "그는 2008년 소설 『순수 박물관』을 이스탄불의 실제 박물관과 나란히 구상했고, 2012년 그가 직접 설계한 83개의 진열장으로 문을 연 이 박물관은 2014년 유럽 올해의 박물관상을 받았다.",
+  "orhan-pamuk.moment.1":
+    "1990년대부터 그는 『순수 박물관』을 쓰며 일상의 물건들을 모았고, 소설이 나온 지 4년 뒤인 2012년 직접 설계한 83개 진열장의 박물관을 열었다. 일부 진열장은 적합한 물건을 기다리며 아직 비어 있다.",
+  "orhan-pamuk.interpretation.moment.1":
+    "이는 여러 해에 걸쳐 긴 프로젝트를 이어가는 태도와 부합한다.",
+  "orhan-pamuk.moment.2":
+    "2005년 인터뷰에서 그는 자신의 표현으로 평면적 사회 사실주의로 민족에 봉사하느라 재능을 낭비한 이전 세대 튀르키예 작가들을 따르고 싶지 않았고, 포크너, 울프, 프루스트를 더 좋아했다고 말했다.",
+  "orhan-pamuk.interpretation.moment.2":
+    "이는 그 자신의 설명에 따르면 기대되는 사회적 역할보다 자신의 문학적 방향을 택하는 태도와 부합한다.",
+  "orhan-pamuk.turning_point.1":
+    "그는 1985년 뉴욕 컬럼비아 대학교 방문 학자로 있을 때 쓰기 시작한 『검은 책』에서 자신만의 목소리를 찾았다고 말하며, 스웨덴 아카데미는 훗날 이 책을 그의 주요 작품으로 꼽았다.",
+  "orhan-pamuk.interpretation.turning_point.1":
+    "이는 그 자신의 설명에 따르면 더 독자적인 창작의 목소리로 나아간 변화와 부합한다.",
+  /* ---------------------------------------------------------- pandita-ramabai (Roster58) */
+  "pandita-ramabai.achievement.1":
+    "1889년 그녀는 뭄바이에 샤라다 사단을 열어 브라만 과부와 소녀들에게 정규 교육과 직업 훈련을 제공했으며, 1887년 결성된 미국 라마바이 협회가 이를 후원했다.",
+  "pandita-ramabai.achievement.2":
+    "1882년 그녀는 헌터 교육위원회에서 여성 교육에 관해 증언했고, 1887년 미국에서 『상류 카스트 힌두 여성』을 펴내 1년 만에 1만 부가 팔렸다.",
+  "pandita-ramabai.achievement.3":
+    "1896년부터 그녀는 기근 피해자를 케드가온의 묵티 선교회로 받아들였고, 이곳은 직업 교육과 인쇄소를 갖춘 약 2천 명의 공동체로 성장했다. 만년 18년은 성경의 마라티어 번역에 바쳤으나, 종교 방침에 대한 비난이 있었고 번역은 유려하지 않다는 평가를 받았다.",
+  "pandita-ramabai.moment.1":
+    "1902년 보스턴 협회가 샤라다 사단의 종교의 자유에 관해 조사했을 때, 그녀는 답을 누그러뜨리지 않고 학생 123명 모두가 스스로 기독교를 택했다고 답했다.",
+  "pandita-ramabai.interpretation.moment.1":
+    "이는 후원이 위태로워질 수 있어도 문제 제기에 직접 답하는 태도와 부합한다.",
+  "pandita-ramabai.moment.2":
+    "미국의 10년 후원이 끝나기 전에 샤라다 사단을 자립시키려고 그녀는 케드가온 인근 농지를 사고 과수원, 낙농장, 인쇄소를 세웠다.",
+  "pandita-ramabai.interpretation.moment.2":
+    "이는 자금 문제를 공동체를 스스로 부양할 수단을 만들어 해결하는 방식과 부합한다.",
+  "pandita-ramabai.turning_point.1":
+    "1896년 중부 인도에 기근이 닥치자 그녀는 피해 지역을 찾아 아이들과 여성들을 케드가온의 묵티로 데려오기 시작했고, 상류 카스트 과부 학교에서 대규모 혼합 공동체로 활동의 무게를 옮겼다.",
+  "pandita-ramabai.interpretation.turning_point.1":
+    "이는 원래 계획에 머물지 않고 위기에 대응해 활동을 넓히는 태도와 부합한다.",
+  /* ---------------------------------------------------------- raja-ravi-varma (Roster58) */
+  "raja-ravi-varma.achievement.1":
+    "독학에 가까웠던 그는 라마야나, 마하바라타, 푸라나의 장면과 초상화를 유럽식 유화로 그렸으며, 셰이크는 그가 이전에 시각적 선례가 거의 없던 전설들에 형상을 부여했다고 설명한다.",
+  "raja-ravi-varma.achievement.2":
+    "그는 바로다 마하라자의 새 궁전을 위해 열네 점의 푸라나 그림을 그렸고, 이를 위해 공통의 의상을 찾아 전국을 돌았다. 그의 락슈미와 사라스와티는 이후 이미지들의 원형이 되었다.",
+  "raja-ravi-varma.achievement.3":
+    "1894년 그는 동생과 함께 석판 인쇄소를 세워 자신의 그림을 대량으로 인쇄했고, 이는 신들에 대한 공통의 대중적 이미지를 만드는 데 기여했다. 그는 1901년 지분 대부분을 팔았으며, 비평가들은 이 인쇄물이 대중의 취향을 거칠게 했다고 비판한다.",
+  "raja-ravi-varma.moment.1":
+    "1863년 젊은 그는 방문 화가 테오도르 옌센이 그림 그리는 모습을 지켜보았고, 마하라자의 도움으로 유화의 기초를 익힌 뒤 이를 대부분 스스로 발전시켰다.",
+  "raja-ravi-varma.interpretation.moment.1":
+    "이는 관찰과 꾸준한 연습으로 새로운 기법을 익히려는 의지와 부합한다.",
+  "raja-ravi-varma.moment.2":
+    "열네 점의 푸라나 그림을 의뢰받은 그는 모든 계층에 어울리는 의상을 찾기 위해 전국을 돌았고, 1907년의 추모문은 그가 옛 힌두 의상을 찾지 못했다고 전한다.",
+  "raja-ravi-varma.interpretation.moment.2":
+    "이는 관습에 의존하기보다 직접 나가서 자료를 모으는 태도와 부합한다.",
+  "raja-ravi-varma.turning_point.1":
+    "1890년 바로다 전시가 많은 관객을 모았고 T. 마다바 라오가 일찍이 작품의 올레오그래프 제작을 권했던 일에 따라, 그는 1894년 자신의 석판 인쇄소를 세웠으나 손실을 보았고 1901년 지분 대부분을 팔았다.",
+  "raja-ravi-varma.interpretation.turning_point.1":
+    "이는 자신의 작품에 대한 수요를 포착해 움직였으나 상업적 결과는 엇갈렸음과 부합한다.",
+  /* ---------------------------------------------------------- roberto-clemente (Roster58) */
+  "roberto-clemente.achievement.1":
+    "피츠버그 파이리츠에서 18시즌을 뛰며 내셔널리그 타격왕 4회, 1966년 최우수선수상, 12년 연속 골드글러브를 차지했고 1972년 통산 3,000안타를 기록한 11번째 선수가 되었다.",
+  "roberto-clemente.achievement.2":
+    "1960년 월드시리즈에서 양키스를 꺾는 데 기여했고, 37세이던 1971년 오리올스와의 월드시리즈에서 매 경기 안타를 치며 타율 0.414로 시리즈 MVP에 올랐다.",
+  "roberto-clemente.achievement.3":
+    "1972년 12월 31일 니카라과 지진 피해자를 위한 구호물자를 실은 비행기에 탑승했다가 사망했으며, 1973년 특별 투표로 명예의 전당에 올라 SABR은 그를 라틴아메리카 출신 최초의 헌액 선수로 전한다.",
+  "roberto-clemente.moment.1":
+    "1971년 월드시리즈를 앞두고 우승 후보 오리올스를 상대하는 동료들에게 '내 등에 업혀라'라고 말한 뒤 일곱 경기 모두에서 안타를 쳤다.",
+  "roberto-clemente.interpretation.moment.1":
+    "이는 압박 속에서도 승리에 집중하는 강한 경쟁심과 부합한다.",
+  "roberto-clemente.moment.2":
+    "1960년 MVP 투표에서 8위에 그친 뒤 1961년에는 타격왕이 되겠다고 마음먹었다고 말했고, 타율 0.351로 리그 1위에 올랐다.",
+  "roberto-clemente.interpretation.moment.2":
+    "이는 서운한 평가를 구체적인 성과 목표로 바꾸는 태도와 부합한다.",
+  "roberto-clemente.turning_point.1":
+    "1972년 12월 니카라과 지진 이후 며칠 동안 구호품 모금 위원회를 꾸렸고, 앞선 구호품이 빼돌려졌다는 소식을 듣고 직접 화물기에 동행하기로 했다.",
+  "roberto-clemente.interpretation.turning_point.1":
+    "이는 자신의 명성을 타인을 위해 쓰려는 강한 동기와 부합한다.",
+  /* ---------------------------------------------------------- strive-masiyiwa (Roster58) */
+  "strive-masiyiwa.achievement.1":
+    "1993년 에코넷을 세우고 국영 통신 독점에 맞선 수년간의 헌법 소송 끝에 1997년 면허를 얻어냈다. 글로벌 비즈니스 명예의 전당은 이 판결을 아프리카 통신의 민간 개방에 이정표가 된 사건으로 평가한다.",
+  "strive-masiyiwa.achievement.2":
+    "1998년 서비스를 시작한 에코넷 와이어리스 짐바브웨를 키웠다. 블룸버그의 2022년 집계로 상장 당시 3만 2천 명이던 가입자가 1,320만 명으로 늘었고, 이 회사는 국내 모바일 머니 시장을 지배한다.",
+  "strive-masiyiwa.achievement.3":
+    "에코넷을 더 넓은 기술 그룹으로 키웠으며, 명예의 전당에 따르면 리퀴드 텔레콤과 카사바 핀테크 등을 포함해 아프리카 28개국에서 사업을 한다.",
+  "strive-masiyiwa.moment.1":
+    "2004년 2월 규제 당국이 몇 시간 안에 에코넷의 국제 회선을 닫으라는 명령을 팩스로 보냈고, 회사는 법원에 갔으며 판사는 해당 규정을 무효라고 선언했다.",
+  "strive-masiyiwa.interpretation.moment.1":
+    "이는 갑작스러운 국가 조치에 법정으로 대응한 태도와 일치하지만, 보도는 진술서를 낸 사람으로 마시이와가 아닌 회사 대표를 지목한다.",
+  "strive-masiyiwa.moment.2":
+    "본인의 설명에 따르면, 휴대전화가 국영 독점에 포함되는지를 다툰 첫 소송에서 진 뒤 독점이 표현의 자유를 제한한다는 논리로 다시 법정에 섰고 1995년에 이겼다.",
+  "strive-masiyiwa.interpretation.moment.2":
+    "이는 패소 뒤 법적 접근을 바꾼 태도와 일치하지만, 이 전환은 주로 본인의 이야기에 의존한다.",
+  "strive-masiyiwa.turning_point.1":
+    "1993년 국영 전화 사업자가 이동통신망 제안을 거절하자 그는 구상을 접지 않고 소송을 택했고, 그 싸움은 1997년 면허로 이어졌다.",
+  "strive-masiyiwa.interpretation.turning_point.1":
+    "이는 거절을 수년간의 법적 투쟁으로 바꾼 태도와 일치하며, 이는 본인의 설명이고 기간과 결과는 독립 보도로 확인된다.",
+  /* ---------------------------------------------------------- utagawa-hiroshige (Roster58) */
+  "utagawa-hiroshige.achievement.1":
+    "에도와 교토를 잇는 길을 그린 《도카이도 53역참》(1833~34)으로 풍경 판화가로서 명성을 얻었고, 이 연작은 곧바로 상업적 성공을 거두었다.",
+  "utagawa-hiroshige.achievement.2":
+    "쇠퇴하던 배우·미인 그림 대신 날씨와 계절, 일상 속 여행자를 시적으로 담은 풍경을 우키요에의 주요 소재로 끌어올렸고, 도카이도 이후 《기소가도 69역참》 같은 연작을 냈다.",
+  "utagawa-hiroshige.achievement.3":
+    "마지막 연작 《명소에도백경》(1856~58)은 그의 사후 후계자 히로시게 2세가 완성했으며, 경매사 해설은 그의 판화가 반 고흐 같은 유럽 화가들에게 영향을 주었다고 전한다.",
+  "utagawa-hiroshige.moment.1":
+    "1855년 지진 이후인 1856년 시작한 에도 연작에서 그는 이름 없는 동네 장소를 자주 골라 조감 시점과 강한 원근 대비로 '명소'다운 그림으로 바꾸어 냈다.",
+  "utagawa-hiroshige.interpretation.moment.1":
+    "이는 익숙한 소재를 독창적으로 다루는 방식과 부합한다.",
+  "utagawa-hiroshige.moment.2":
+    "학자들은 그가 삶의 마지막 순간까지 에도 연작 작업을 이어 갔다고 전한다.",
+  "utagawa-hiroshige.interpretation.moment.2":
+    "이는 꾸준하고 지속적인 작업 습관과 부합한다.",
+  "utagawa-hiroshige.turning_point.1":
+    "스승 도요히로가 세상을 떠난 뒤인 1830년대 초 그는 본격적으로 풍경 판화에 나섰으며, 학자들은 정확한 동기는 분명하지 않지만 기존의 배우·미인 그림 전통이 정체되어 있었다고 설명한다.",
+  "utagawa-hiroshige.interpretation.turning_point.1":
+    "이는 시장의 새로운 기회를 향해 움직이려는 성향과 부합하지만 그의 동기는 기록되어 있지 않다.",
+  /* ---------------------------------------------------------- youssou-ndour (Roster58) */
+  "youssou-ndour.achievement.1":
+    "세네갈의 가수로, 월로프 전통과 쿠바·라틴 아메리카 양식을 결합한 음악 음바랄락스를 슈페르 에투알 드 다카르를 이끌며 대중화하고 국제 청중에게 알렸다.",
+  "youssou-ndour.achievement.2":
+    "그는 1986년 피터 가브리엘의 「In Your Eyes」에서 노래하고 가브리엘과 함께 순회했으며, 1994년 네네 체리와의 듀엣 「7 Seconds」는 전 세계 청중에게 닿았다.",
+  "youssou-ndour.achievement.3":
+    "세네갈 수피 지도자들을 기리는 앨범 『Egypt』로 2005년 그래미 최우수 컨템퍼러리 월드 뮤직 앨범상을 받았다.",
+  "youssou-ndour.moment.1":
+    "세네갈 수피 지도자들을 기리는 앨범 『Egypt』는 처음에는 이슬람 지도자들이 불쾌감을 드러내는 등 세네갈에서 반응이 좋지 않았으나, 해외에서의 성공 이후 반응이 달라졌다.",
+  "youssou-ndour.interpretation.moment.1":
+    "이는 국내에서 저항에 부딪힌 작업을 그대로 발표한 태도와 부합한다.",
+  "youssou-ndour.moment.2":
+    "다른 아프리카 스타들이 파리에 정착하는 동안 그는 다카르를 근거지로 삼았고, 국제적 도약의 기회가 왔을 때는 런던으로 가 피터 가브리엘과 손잡았다.",
+  "youssou-ndour.interpretation.moment.2":
+    "이는 세네갈에 뿌리를 둔 채 국경을 넘어 협업하는 태도와 부합한다.",
+  "youssou-ndour.turning_point.1":
+    "16세에 스타 밴드 드 다카르에 들어간 그는 1977년 몇몇 밴드 동료와 함께 나와 에투알 드 다카르를 결성했고, 이 밴드는 대부분 월로프어로 부르는, 더 아프리카적인 음바랄락스를 내세웠다.",
+  "youssou-ndour.interpretation.turning_point.1":
+    "이는 몸담은 그룹에서 나와 자신의 소리를 이끄는 쪽으로 옮겨간 변화와 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

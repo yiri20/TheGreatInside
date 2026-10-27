@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "verghese-kurien",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Verghese Kurien",
+    "aliases": [
+      "Dr. V. Kurien",
+      "Milkman of India"
+    ],
+    "wikidataId": "Q180385",
+    "birthYear": 1921,
+    "deathYear": 2012,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "executive",
+      "entrepreneur",
+      "engineer"
+    ],
+    "fieldIds": [
+      "business",
+      "agriculture"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "leader"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kurien_wikidata",
+      "kind": "wikidata",
+      "title": "Verghese Kurien (Q180385) -- verified live via the Wikidata API (2026-10-26): English label 'Verghese Kurien', description 'Indian entrepreneur', born 26 November 1921, died 9 September 2012. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q180385"
+    },
+    {
+      "id": "src_kurien_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Verghese Kurien' -- reference biography: engineer and entrepreneur called the architect of India's 'white revolution'; his Michigan State degree, the 1949 posting to the government creamery at Anand, his work for the Kaira cooperative at Tribhuvandas Patel's request, founding the National Dairy Development Board in 1965, Operation Flood from 1970 and the rise in milk output, the Gujarat Co-operative Milk Marketing Federation in 1973, and the Institute of Rural Management Anand in 1979. CANONICAL SIGNIFICANCE SOURCE. Read in full; honours and the film Manthan were not used.",
+      "url": "https://www.britannica.com/biography/Verghese-Kurien"
+    },
+    {
+      "id": "src_kurien_bstandard_edit",
+      "kind": "press",
+      "title": "Business Standard, 'The milkman goes' (editorial), 22 March 2006 -- independent and critical assessment on his leaving the Gujarat milk federation: his disputes with board colleagues, the institute's directors and his chosen successor at the dairy board; the description of him as 'autocratic'; the argument that farmers' cooperatives should be run by farmers; how Operation Flood turned gifted milk-powder imports into financing, its first phase missing most targets, and his staying power. Read in full.",
+      "url": "https://business-standard.com/article/opinion/the-milkman-goes-106032201081_1.html"
+    },
+    {
+      "id": "src_kurien_bstandard_news",
+      "kind": "press",
+      "title": "Business Standard, 'Kurien quits GCMMF', 20 March 2006 -- news report of his press conference at the Institute of Rural Management Anand announcing his resignation after the board decided to oust him, with his statement that he had tried to fulfil farmers' dreams and 'might have antagonised some people'. Read in full.",
+      "url": "https://business-standard.com/article/management/kurien-quits-gcmmf-106032000039_1.html"
+    },
+    {
+      "id": "src_kurien_exchange4media",
+      "kind": "press",
+      "title": "exchange4media, 'Kurien calls it quits, finally', 21 March 2006 -- trade report on the same resignation, with his reason (a Gujarat High Court order on co-opted members), his charge that the dairy board was 'building its own empire', and the dairy board chair Amrita Patel's reply that the board was turning cooperatives into professional entities. Gives the opposing voice. Read in full.",
+      "url": "https://www.exchange4media.com/advertising-news/kurien-calls-it-quitsfinally-20309.html"
+    },
+    {
+      "id": "src_kurien_businesstoday",
+      "kind": "press",
+      "title": "D.P. Bhattacharya and Aditya Menon (Business Today, from Mail Today), 'Verghese Kurien made Amul a force to reckon with', 10 September 2012 -- obituary: Operation Flood, the 1949 start at the Kaira cooperative, the 1973 federation and its later scale, the connection of village women to cooperatives, and an acquaintance's recollection of him as someone 'who never took no for an answer'. Obituary, largely admiring. Read in full.",
+      "url": "https://www.businesstoday.in/management/leadership/story/verghese-kurien-made-amul-a-force-to-reckon-with-32558-2012-09-10"
+    },
+    {
+      "id": "src_kurien_tribune",
+      "kind": "press",
+      "title": "The Tribune (Chandigarh), 'India's Milkman V Kurien is dead' and 'In milk production, Kurien took India to the top of the world', 10 September 2012 -- news obituary with career dates: the 1949 start at the Kaira cooperative, the federation from 1973 to 2006 and the rural management institute from 1979 to 2006. News agency copy, largely admiring. Read in full.",
+      "url": "https://www.tribuneindia.com/2012/20120910/main7.htm"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kurien_britannica, src_kurien_businesstoday, src_kurien_tribune | 1949-1979 | reference biography, obituaries] He joined the Kaira cooperative in 1949 at its chairman's request meaning to stay briefly, then built it into Amul, founded the National Dairy Development Board in 1965 and instituted Operation Flood in 1970, the federation in 1973 and the rural management institute in 1979 (Britannica); Business Today says he 'almost single-handedly spearheaded' the programme. SELF-CALIBRATION (agent): lowered from 76/0.6 to 72/0.56 because 'single-handedly' is obituary praise, while Britannica shows he was asked in and worked with a cooperative chairman and others."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kurien_bstandard_edit, src_kurien_britannica | 1949-1990s | independent editorial, reference biography] Britannica says he fought established systems and bureaucrats often and persevered; the Business Standard editorial records that Operation Flood's first phase did not meet most of its targets, yet he launched a larger second phase that paid off, and calls this a tribute to his 'staying power'. Two sources including an independent one; the editorial does not narrate his day-to-day conduct."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_kurien_bstandard_edit, src_kurien_bstandard_news, src_kurien_exchange4media, src_kurien_britannica | 1990s-2006 | independent editorial, news report, trade report, reference biography] The Business Standard editorial calls him 'never shy of getting into a scrap' and records disputes with board colleagues at the milk federation, with the institute's board (where it says he tried to sack the director) and with his successor at the dairy board; in 2006 he resigned after the federation board moved to oust him and told a press conference that the dairy board was 'building its own empire', which its chair answered. Dual-edged: it protected his principle on cooperatives and ended with a forced exit."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_kurien_bstandard_edit, src_kurien_exchange4media | 2006 | independent editorial, trade report] The editorial calls him 'ever intent on having his own way' and 'as autocratic as they come', while crediting his insistence that farmers, not bureaucrats, run their cooperatives; in 2006 he objected to the dairy board's move to corporatise cooperatives. The characterisation is one editorial's judgement of his later years; the trade report supports only the underlying dispute, so moderate confidence."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kurien_bstandard_edit, src_kurien_britannica | 1960s-1970 | independent editorial, reference biography] Britannica says India imported milk powder to make liquid milk in some areas despite domestic supply, and that he ended this by linking producers directly to consumers; the editorial describes Operation Flood as turning a threat, gifted surplus milk-powder imports that could have depressed the domestic market, into a way to finance the programme. The framing of the gifts as a threat turned into financing is the editorial's reading, with only one other source on the import gap."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kurien_bstandard_edit, src_kurien_bstandard_news, src_kurien_britannica | 1949-2006 | independent editorial, news report, reference biography] The editorial says he was never attracted to personal rewards beyond always wanting his own way and held to the principle that cooperatives belong to farmers; in his resignation statement he said he had tried to fulfil farmers' dreams even at the cost of antagonising some people (his own words, reported by the news agency). Indirect inference from principle and a self-statement, so confidence stays below 0.5."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kurien_britannica, src_kurien_tribune, src_kurien_bstandard_news | 1950s-2006 | reference biography, news obituary, news report] Became general manager of the cooperative that grew into Amul, first chair of the National Dairy Development Board from 1965, and founder-chairman of the milk marketing federation from 1973 until he resigned in 2006 (Britannica, Tribune, Business Standard). Long tenure at the head of several linked bodies; the sources describe the posts more than his conduct in them."
+    },
+    "systems_abstraction": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kurien_britannica, src_kurien_businesstoday | 1949-1973 | reference biography, obituary] He turned a single village cooperative into a model replicated across Gujarat and then a federation of district unions marketing one brand, with a direct link from producers to consumers (Britannica; Business Today on the 1973 federation and its 15 unions). The design is documented, but the sources do not show the reasoning behind it."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait could be resolved. (1) Wikidata P18 file 'Verghese Kurien in 2009 (cropped).jpg' (573 x 753 pixels) is a crop of a 21 February 2009 press photograph of the Union Railways Minister presenting an award, credited on Commons to the Ministry of Railways (India) from the Press Information Bureau photo gallery and tagged with a bot-confirmed Government Open Data Licence - India tag. That tag's own text rests on a general national data-sharing policy; the original release page (pib.nic.in photo 22179) is no longer online, and its 2018 archived copy shows no licence or copyright statement, and the current PIB site pages for terms could not be opened. An open licence that the original release does not state is not established, so the file is rejected. (2) 'Dr. V. kurien.JPG' (3072 x 2304) is an uploader 'own work' CC BY-SA 3.0 photograph of Kurien with students, categorised as blurred, with no independent evidence of authorship, so it is rejected. (3) The remaining Commons files credit personal family collections or an institute with uncertain provenance and were not accepted. Next step: obtain a written GODL or reuse statement from the Press Information Bureau for photo 22179, or find a single-subject photograph with a stated open licence at photo level (for example a World Food Prize or institutional upload) or written permission from the Institute of Rural Management Anand or the dairy board.",
+    "kind": "likeness"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "베르게세 쿠리엔"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / HELD: the GODL-India licence tag cannot be traced to a licence statement on the original PIB release; see portrait.reason. PREFLIGHT: QID Q180385 verified live (wbgetentities 2026-10-26): label 'Verghese Kurien', description 'Indian entrepreneur', born 26 November 1921, died 9 September 2012. No production (prod58.txt) or candidate slug/QID collision. Region south_asia (India). Zero-politics passes: primary identity is dairy engineer and cooperative builder; government posts, party and minister relations are not scored. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Verghese Kurien' (https://www.britannica.com/biography/Verghese-Kurien). Excluded and unscored: honours and prizes, philanthropy, family, the film Manthan, his autobiography as a source, and his relations with ministers and government. READ (6 substantive sources, plus Wikidata for orientation): Britannica (canonical), Business Standard editorial 2006, Business Standard news 2006, exchange4media 2006, Business Today obituary 2012, Tribune obituary 2012. Wikipedia was read for orientation only and not counted. PERSPECTIVES: reference biography, independent critical editorial, two 2006 news and trade reports giving both sides of the resignation dispute, two obituaries. NOT OPENED: Frontline 'Milkman's exit' and 'Dairy war', India Today 2006, Guardian, New York Times and Economist obituaries (not reachable), his autobiography 'I Too Had a Dream', the World Food Prize and Magsaysay citations, and a source on Operation Flood's critics or the World Bank evaluation. Operation Flood is documented here mainly from the reference biography and an editorial; no evaluation study was read. Scores are at or below 78 and confidence at or below 0.62; eight rows. SELF-CALIBRATION (agent) pass: reviewed proactive_agency, conflict_tolerance and impact_motivation; lowered proactive_agency 76/0.6 to 72/0.56 (obituary praise 'single-handedly'); conflict_tolerance kept (four sources including an independent critical editorial and both sides of the 2006 dispute); impact_motivation kept (already scored below 0.5). HANDBACK58: {\"slug\":\"verghese-kurien\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":8,\"self_calibrated_rows\":[{\"attribute\":\"proactive_agency\",\"old_score\":76,\"old_confidence\":0.6,\"new_score\":72,\"new_confidence\":0.56,\"reason\":\"'single-handedly' is obituary praise; Britannica shows he was asked in and worked with others\"}],\"reviewed_kept\":[\"conflict_tolerance\",\"impact_motivation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":8}"
+  }
+}

@@ -240,7 +240,7 @@ describe("Roster57: known backlog blockers remain genuinely absent from producti
   });
 
   it("Uemura and Roddick stay evidence_approved but portrait-blocked; Hillary stays evidence_approved (region-blocked)", () => {
-    for (const slug of ["naomi-uemura", "anita-roddick", "amrita-sher-gil", "heitor-villa-lobos", "mary-leakey", "paulo-freire", "sergei-korolev", "aliko-dangote", "benjamin-cardozo", "mary-kom", "mary-mcleod-bethune", "mirza-ghalib", "satyendra-nath-bose", "savitribai-phule", "youssef-chahine", "aliko-dangote", "benjamin-cardozo", "mary-kom", "mary-mcleod-bethune", "mirza-ghalib", "satyendra-nath-bose", "savitribai-phule", "youssef-chahine"]) {
+    for (const slug of ["naomi-uemura", "anita-roddick", "amrita-sher-gil", "heitor-villa-lobos", "mary-leakey", "paulo-freire", "sergei-korolev", "aliko-dangote", "benjamin-cardozo", "mary-kom", "mary-mcleod-bethune", "mirza-ghalib", "satyendra-nath-bose", "savitribai-phule", "youssef-chahine"]) {
       const c = loadCandidate(slug);
       expect(c.status, slug).toBe("evidence_approved");
       expect(c.portrait?.status, slug).toBe("held");
@@ -295,7 +295,7 @@ describe("Roster57: known backlog blockers remain genuinely absent from producti
   });
 
   it("the Roster54, Roster55, Roster56 and Roster57 portrait holds stay evidence_approved but portrait-held (not promoted)", () => {
-    for (const slug of ["stephen-jay-gould", "irene-joliot-curie", "adam-smith", "albert-camus", "b-f-skinner", "bela-bartok", "daniel-kahneman", "dante-alighieri", "karl-popper", "paul-klee"]) {
+    for (const slug of ["stephen-jay-gould", "irene-joliot-curie", "adam-smith", "albert-camus", "b-f-skinner", "bela-bartok", "daniel-kahneman", "dante-alighieri", "karl-popper", "paul-klee", "amrita-sher-gil", "heitor-villa-lobos", "mary-leakey", "paulo-freire", "sergei-korolev", "aliko-dangote", "benjamin-cardozo", "mary-kom", "mary-mcleod-bethune", "mirza-ghalib", "satyendra-nath-bose", "savitribai-phule", "youssef-chahine"]) {
       const c = loadCandidate(slug);
       expect(c.status, slug).toBe("evidence_approved");
       expect(c.portrait?.status, slug).toBe("held");
@@ -322,7 +322,7 @@ describe("Roster57: known backlog blockers remain genuinely absent from producti
 });
 
 describe("Roster57: cross-target identity integrity", () => {
-  it("no duplicate ids, slugs, or Wikidata QIDs across all 600 production people", () => {
+  it("no duplicate ids, slugs, or Wikidata QIDs across all 619 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
     const qids = SEED_PEOPLE.map((p) => p.externalIdentity?.wikidataId).filter((x): x is string => !!x);
@@ -340,9 +340,9 @@ describe("Roster57: cross-target identity integrity", () => {
     }
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 600 people, all 22 Roster57 targets present in both", () => {
-    expect(SEED_PEOPLE).toHaveLength(600);
-    expect(PEOPLE_INDEX).toHaveLength(600);
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 619 people, all 22 Roster57 targets present in both", () => {
+    expect(SEED_PEOPLE).toHaveLength(619);
+    expect(PEOPLE_INDEX).toHaveLength(619);
     for (const slug of TARGETS) {
       expect(SEED_PEOPLE.filter((p) => p.slug === slug)).toHaveLength(1);
       expect(PEOPLE_INDEX.filter((p) => p.slug === slug)).toHaveLength(1);

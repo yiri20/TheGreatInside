@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "carlos-chagas",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Carlos Chagas",
+    "aliases": [
+      "Carlos Ribeiro Justiniano Chagas"
+    ],
+    "wikidataId": "Q438907",
+    "birthYear": 1879,
+    "deathYear": 1934,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_chagas_wikidata",
+      "kind": "wikidata",
+      "title": "Carlos Chagas (Q438907) -- verified live via the Wikidata API (2026-10-26): English label 'Carlos Chagas', description 'Brazilian doctor and scientist (1878-1934)' while the structured dates are born 1879-07-09 and died 1934-11-08; Korean label present; P18 image 'Carlos chagas 2.jpg' (not used). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q438907"
+    },
+    {
+      "id": "src_chagas_ioc",
+      "kind": "institution",
+      "title": "Instituto Oswaldo Cruz (Fiocruz), 'Carlos Chagas' page in its section on historical personalities (ioc.fiocruz.br), read in full: thesis on malaria at the Federal Serum Therapy Institute, 1905 anti-malaria work at Itatinga, his idea that malaria is transmitted inside houses and should be fought with insecticide against adult mosquitoes, the laboratory in a railway wagon at Lassance, the identification of Trypanosoma cruzi and of the first human case in April 1909 (called a feat without precedent: one researcher identifying vector, parasite and a new disease within a short time), the Schaudinn Prize of 1912, the Harvard honorary doctorate of 1921, the two Nobel nominations (1913, 1921), his directorship of the institute from 1917 to 1934 and the sections, courses and services he created there. CANONICAL SIGNIFICANCE SOURCE. Written by the institution he directed, so admiring and institutional; it gives 9 July 1879 as the birth date.",
+      "url": "https://www.ioc.fiocruz.br/personalidades/carlos-chagas"
+    },
+    {
+      "id": "src_chagas_kropf",
+      "kind": "biography",
+      "title": "Simone Petraglia Kropf and Magali Romero Sa, 'The discovery of Trypanosoma cruzi and Chagas disease (1908-1909): tropical medicine in Brazil', Historia, Ciencias, Saude-Manguinhos 16 (suppl. 1), 2009 (open access, SciELO), read in full: the Lassance laboratory in a railway wagon, the sequence marmoset trypanosome, barbeiro bug, experimental infection at Manguinhos, cat and then child Berenice, the 1910 Academy presentation with film footage and sixteen microscopes, the German protozoologists' influence, the goitre hypothesis that critics rejected, the 1919-1923 controversy (including the Academy committee that confirmed his authorship), the reading by Delaporte that Chagas reordered his account after criticism (and the authors' reply), and Chagas's own statements on tropical disease as a national problem. Authors are historians at the Casa de Oswaldo Cruz (Fiocruz), so institution-affiliated, but the article includes explicit counter-arguments.",
+      "url": "https://www.scielo.br/j/hcsm/a/5CLtpKKWctKjWqFpz78mX9f/?format=html&lang=en&ilang=en"
+    },
+    {
+      "id": "src_chagas_fapesp",
+      "kind": "press",
+      "title": "Neldson Marcolin, 'Chagas', Pesquisa FAPESP (Sao Paulo state research foundation magazine), international issue April 2011 (published September 2009), read in full: arrival in Lassance in June 1907, the identification of the trypanosome in a marmoset and then in the bug and the child, the April 1909 note, Schaudinn Prize and Academy membership, directorship of Manguinhos in 1917, the 1918 influenza service, the 1920 public-health reform, the 1919-1923 criticism (Aragao, Peixoto) and his request for an Academy committee, and the Nobel nominations with interviews of historians Kropf, Dias and Coutinho and biochemist Colli. Science journalism quoting Fiocruz and university historians.",
+      "url": "https://revistapesquisa.fapesp.br/en/chagas-3/"
+    },
+    {
+      "id": "src_chagas_coutinho",
+      "kind": "biography",
+      "title": "Marilia Coutinho, Olival Freire Jr. and Joao Carlos Pinto Dias, 'The Noble Enigma: Chagas' Nominations for the Nobel Prize', Memorias do Instituto Oswaldo Cruz 94 (suppl. I), 1999 (open access, SciELO), read in full: Chagas's 1912 Schaudinn Prize, the 1913 and 1921 nominations, the argument that the discovery was an unusually complete application of the insect-vector theory by one man in a few months, his merit-based appointment as head of service in 1910, the 1916 clash with Rudolf Kraus in Argentina, the opposition of Aragao, Figueiredo de Vasconcellos and Afranio Peixoto, the Academy debate of 1922-1924 and the committee decision in his favour; the authors say they found no documentary proof that local opposition cost him the prize. University and Fiocruz-affiliated authors, largely sympathetic to Chagas, and reliant on Chagas Filho's recollections for some episodes.",
+      "url": "http://www.scielo.br/j/mioc/a/DWL3mJHHN8BwgrQdP7d4vjg/?lang=en"
+    },
+    {
+      "id": "src_chagas_pittella",
+      "kind": "biography",
+      "title": "Jose Eymard Homem Pittella (Federal University of Minas Gerais), 'O processo de avaliacao em ciencia e a indicacao de Carlos Chagas ao premio Nobel de Fisiologia ou Medicina', Revista da Sociedade Brasileira de Medicina Tropical 42(1), 2009 (open access, SciELO; abstract and opening read): an opinion article analysing the Nobel nomination archive for 1901-1951 and arguing that the lack of an award is better explained by who the nominators, nominees and prizewinners were and by the Nobel Committee's relationships than by the negative effect of local opposition. Independent counter-voice to the opposition explanation; only the abstract and introduction were read.",
+      "url": "https://www.scielo.br/j/rsbmt/a/ZdJskkLypRWFHD6sGyYMx8D/?lang=pt"
+    },
+    {
+      "id": "src_chagas_schapachnik",
+      "kind": "biography",
+      "title": "Edgardo Schapachnik and colleagues, 'Dr. Carlos Justiniano Ribeiro das Chagas (1878-1934): a giant of the Third World' (cardiolatina.com PDF, written for the 2009 centenary), read in full (about four pages): admiring biographical sketch of his schooling, the 1905 anti-malaria campaign, Lassance, the 1909 discovery, the 1912 Amazon health survey, the 1918 influenza campaign, the public-health code, the Tropical Diseases chair and honours. Cardiology-society authors from Argentina and Brazil; strongly admiring and used only to corroborate dated facts.",
+      "url": "https://www.cardiolatina.com/wp-content/uploads/2018/10/Chagas-biography-english-version-5.pdf"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chagas_kropf, src_chagas_fapesp, src_chagas_ioc | 1907-1909 | historians' article + science journalism + institution] Sent to Lassance to fight malaria on a railway project, he also collected and examined local fauna out of growing interest in entomology and protozoology; examining a marmoset's blood he found a new trypanosome (T. minasense), and when an engineer told him about the face-biting 'barbeiro' he dissected the bug and followed the flagellates he found. Three independent accounts describe the same line of inquiry beyond the assigned task, so it is documented; all derive from Fiocruz-linked historians or their interviews."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chagas_kropf, src_chagas_fapesp, src_chagas_ioc | 1907-1909 | historians' article + science journalism + institution] Without proper laboratory facilities at Lassance he set up a laboratory and sleeping quarters in a railway wagon, sent bugs to Manguinhos for experimental infection of laboratory marmosets, then returned to look for a domestic animal host (a cat) and human cases. Making a complete discovery under field conditions is clearly documented; the sources are admiring and the infection experiment itself was done by Oswaldo Cruz."
+    },
+    "analytical_rigor": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_chagas_kropf, src_chagas_coutinho | 1908-1923 | historians' article + historians' article] Both articles describe a systematic chain: parasite in the bug, experimental infection, search for vertebrate hosts, the cat, then the human case, followed by a full clinical, epidemiological and diagnostic research programme at the institute; Coutinho and colleagues call it an unusually complete use of the insect-vector theory. Against this, Kropf and Sa report that critics rejected his claim that endemic goitre was caused by the parasite ('parasitic thyroiditis'; abandoned after his lifetime), and relay Delaporte's argument (which the authors dispute, and which was not read directly) that Chagas reordered his own account after criticism. Strong method, but a contested hypothesis, so dual-edged at moderate confidence."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chagas_coutinho, src_chagas_fapesp, src_chagas_kropf | 1909-1934 | historians' article + science journalism + historians' article] After the 1919-1923 challenges to the disease's importance and to his authorship, he asked the Academy for a committee, which ruled in his favour in 1924, and he continued his research until his death in 1934; his institute collaborators kept studying the vector, parasite and clinical picture. Coutinho and colleagues add that the full recognition took another decade after the committee. Long-term commitment to one problem is well documented, though supportive sources dominate."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chagas_coutinho, src_chagas_fapesp, src_chagas_kropf | 1916-1924 | historians' article + science journalism + historians' article] He faced Rudolf Kraus's challenge in Argentina in 1916, colleagues' denial of the disease's importance in 1919, and Afranio Peixoto's 1922 speech mocking the disease and the discovery; his response was to demand a formal Academy committee to judge the disease, the authorship and his ethical procedure, and to await its 1924 verdict. A real willingness to put his work to open judgment, but his reactions are known mainly through Chagas Filho's recollections and an admiring press, and the long hostility within his own institute also reflects the posts he held."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chagas_ioc, src_chagas_coutinho, src_chagas_kropf | 1910-1934 | institution + historians' article + historians' article] The institute's page records that as director from 1917 he created scientific sections by field, extended the training course, diversified biological products, set up a medicines service and a quality-control service; Coutinho and colleagues say he became head of service in 1910 through a merit-based procedure, and Kropf and Sa say he led the research programme that made the new trypanosomiasis the institute's showcase. Scientific and institutional leadership only; his federal public-health post is not scored. SELF-CALIBRATION (agent): first-pass 66 / 0.54 lowered to 62 / 0.50 because the account of his directorship rests mainly on the Fiocruz institution's own page and Fiocruz-affiliated historians."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chagas_kropf, src_chagas_ioc, src_chagas_fapesp | 1909-1926 | historians' article + institution + science journalism] He presented the disease as a major medical and social problem of rural Brazil, led the 1912-1913 Amazon health survey whose report documented medical abandonment, and, per the journalism, kept calling attention to rural sanitary conditions throughout his life; in his 1926 inaugural lecture he told students to study the 'disease of Brazil' and called tropical diseases the most pressing medical and social problems. The orientation toward practical public-health problems is clear in his own words; whether the framing was also strategic is discussed by Kropf and Sa. Scored on his medical and research work, not his political or administrative office."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_chagas_kropf | 1910 | historians' article] At his 1910 Academy presentation he used the new electric lighting to project film footage of patients and bugs from Lassance and had sixteen microscopes available so the audience could see the parasite; the 'spectacle' was widely covered in the press and politicians called for action. Kropf and Sa add that critics later called the picture of a 'diseased country' exaggerated. Effective, documented persuasion, but the evidence is essentially one account by a single article, and it was partly contested. SELF-CALIBRATION (agent): first-pass 68 / 0.55 lowered to 64 / 0.50 because the row rests on a single source."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "카를루스 샤가스"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait could be resolved after one bounded retry. (1) Wikidata P18 'Carlos chagas 2.jpg' (301 x 310) and its siblings 'Carlos chagas 1/3/5/6' and the Einstein group photograph were uploaded in 2007 from the Biblioteca Virtual Carlos Chagas with author 'J. Pinto' or unknown and only a generic public-domain-old tag; no photographer, publication or date is documented (except a 1925 gown photograph with no publication record), which is not a rights basis. (2) The Wellcome Collection image 'Portrait of Carlo Chagas' (M0017997) is a reproduction from a 1932 German book (Olpp, Hervorragende Tropenarzte in Wort und Bild), offered by Wellcome under CC BY 4.0, but that licence covers the digitisation, not the underlying 1932 photograph, whose author and copyright status are not established, and the catalogue records the related glass negative as in copyright. (3) The Arquivo Nacional file 'Carlos Chagas, sem data' (Correio da Manha fund) has an unknown photographer and no date, with only the archive's generic licence tag. (4) 'Carlos Chagas.JPG' (a 1971 Argentine book, Argentine photograph tag) and the Zeiss Flickr image (CC BY-SA 2.0, a promotional crop with no verified source photograph) were rejected. The Casa de Oswaldo Cruz archive photographs on Commons that carry the partnership template are group photographs, not a single-subject portrait. Next step: find a dated, attributable single-subject photograph in the Casa de Oswaldo Cruz / Fiocruz archive under its documented public-domain template, or a pre-1931 publication with a visible date and credit, or written reuse terms from Fiocruz for a named archive item.",
+    "kind": "likeness"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed risky: all candidate single-subject images reviewed lack documented photographer, date or publication; HELD after one bounded retry (see portrait.reason). PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-26) for Q438907 returned en label 'Carlos Chagas', description 'Brazilian doctor and scientist (1878-1934)', born 1879-07-09, died 1934-11-08, ko label, P18 'Carlos chagas 2.jpg'. Birth year conflict: Wikidata, the Instituto Oswaldo Cruz page and Schapachnik give 9 July 1879 (Schapachnik's title says 1878), Kropf and Sa and the Fiocruz dictionary give 1878; 1879 recorded, only the year is stored. SLUG/QID CHECK: no production or candidate collision for slug or QID (prod58 list grep for chagas and Q438907 empty; no candidate file); only Oswaldo Cruz exists as a related candidate and was read for the shared-institute handling (Chagas's institute work is scored from his own documented behaviour, not Cruz's; Cruz is cited only as the mentor who performed the confirming infection experiment). REGION latin_america (BR). VOCABULARY: physician, medical_researcher, fields medicine and biology, impact domains medical and scientific, tags field_researcher and innovator, archetype scientific_explorer, all existing labelled ids. ZERO POLITICS: his directorship of the National Department of Public Health (1920-1926), the 1918 influenza service, the sanitation movement, and his League of Nations committee work are context only and are not scored; rows rest on field research, the institute's scientific management, the Academy dispute and his presentation of the discovery. CANONICAL SIGNIFICANCE SOURCE: Instituto Oswaldo Cruz (Fiocruz) 'Carlos Chagas' page (https://www.ioc.fiocruz.br/personalidades/carlos-chagas), corroborated by Kropf and Sa 2009. READ (6 cited non-Wikidata sources): IOC page; Kropf and Sa (full); Pesquisa FAPESP (full); Coutinho, Freire and Dias 1999 (full); Pittella 2009 (abstract and introduction); Schapachnik and colleagues (full). Also opened but not cited: a Macalester student biography page (secondary, partly derivative), the Fiocruz historical dictionary entry (opening only). PERSPECTIVES: the institution he directed; Fiocruz-affiliated historians; science journalism with outside voices (Dias, Colli); a University of Florida / Bahia / Fiocruz team; an independent UFMG pathologist. COUNTER-VOICES: goitre hypothesis rejected by critics; Delaporte's argument that Chagas reordered his account (only through Kropf and Sa, Delaporte not opened); the 1919-1923 doubts about the disease's importance and about authorship versus Oswaldo Cruz; Pittella's argument against the 'local opposition cost the Nobel' explanation; Coutinho's own statement that no documentary evidence links opposition to the prize. NOT opened: Delaporte, Kropf's book 'Doenca de Chagas, doenca do Brasil', Chagas Filho's biography, Chagas's own papers (carloschagas.ibict.br), Britannica (page not found), ScienceDirect articles on the 1921 prize (CAPTCHA). EXCLUDED: family, marriage, health, death, schooling anecdotes, Nobel-committee speculation beyond the cited articles. CALIBRATION: all behavioural detail comes from Fiocruz-linked or sympathetic sources, so top score 72 and top confidence 0.58; eight rows. SELF-GATE: first-pass primary, top omission, identity, significance-over-novelty and side-project checks all PASS; the three cards cover the 1909 discovery, the institute directorship and the Academy/Nobel episode. SELF-CALIBRATION (agent): reviewed leadership_drive (lowered 66/0.54 to 62/0.50: mostly the institution's own account), persuasiveness (lowered 68/0.55 to 64/0.50: single source) and impact_motivation (kept: stated in his own words and corroborated by three sources). BROAD FLAG: no independent source with detailed behavioural evidence on his day-to-day research or leadership style was available; Delaporte and Kropf's book would help. HANDBACK58: {\"slug\":\"carlos-chagas\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":8,\"self_calibrated_rows\":[{\"attribute\":\"leadership_drive\",\"old_score\":66,\"old_confidence\":0.54,\"new_score\":62,\"new_confidence\":0.5,\"reason\":\"leadership account rests mainly on the Fiocruz institution's own page and affiliated historians\"},{\"attribute\":\"persuasiveness\",\"old_score\":68,\"old_confidence\":0.55,\"new_score\":64,\"new_confidence\":0.5,\"reason\":\"row rests on a single source\"}],\"reviewed_kept\":[\"impact_motivation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":8}"
+  }
+}

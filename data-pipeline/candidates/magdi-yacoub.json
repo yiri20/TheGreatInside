@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "magdi-yacoub",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Magdi Yacoub",
+    "aliases": [
+      "Sir Magdi Yacoub",
+      "Magdi Habib Yacoub"
+    ],
+    "wikidataId": "Q2919015",
+    "birthYear": 1935,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "EG",
+      "GB"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yacoub_wikidata",
+      "kind": "wikidata",
+      "title": "Magdi Yacoub (Q2919015) -- verified live via the Wikidata API (2026-10-26): English label 'Magdi Yacoub', description 'Egyptian surgeon', born 16 November 1935, no death date. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2919015"
+    },
+    {
+      "id": "src_yacoub_bma",
+      "kind": "press",
+      "title": "Seren Boyd, 'Never miss a beat', The Doctor (British Medical Association), 24 January 2024 -- long independent profile written around the authorised biography: arrival in Britain, the Harefield appointment and his aim to raise output from about one open-heart operation a week to ten, the first arterial 'switch' operations in the UK, the 1973 transplant that defied the national moratorium, the 1975 baboon-support case, the 1980 transplants, criticism from colleagues and from Christiaan Barnard over a 1984 infant transplant, the Aswan Heart Centre and Chain of Hope. Includes his own quoted views; the controversies are reported from the biography. CANONICAL SIGNIFICANCE SOURCE (with the Alivizatos profile). Read in full.",
+      "url": "https://thedoctor.bma.org.uk/articles/health-society/never-miss-a-beat/"
+    },
+    {
+      "id": "src_yacoub_alivizatos",
+      "kind": "biography",
+      "title": "Peter A. Alivizatos, 'Sir Magdi H. Yacoub, the Leonardo da Vinci of cardiac surgery', Baylor University Medical Center Proceedings 32(1), January 2019 -- peer-reviewed field profile and personal reminiscence by a transplant surgeon who worked in Yacoub's team at Harefield in 1982-84: his surgical technique and stamina, the pre- and post-cyclosporine transplant results, heterotopic and heart-lung transplantation, the two-stage approach to transposition of the great arteries, his scientific work and honours. Admiring, first-hand colleague account with specific episodes. CANONICAL SIGNIFICANCE SOURCE (with the BMA profile). Read in full except the reference list.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6442908"
+    },
+    {
+      "id": "src_yacoub_majalla",
+      "kind": "press",
+      "title": "Al Majalla, 'Sir Magdi Yacoub: The Egyptian Surgeon at the Heart of Organ Transplantation', 20 March 2020 -- short press profile: his Cairo training, move to Britain in 1962, Harefield career to 2001, the 1983 heart-lung transplant, the size of the transplant programme, Chain of Hope and the Aswan Heart Centre. Summary profile with some date disagreements with other sources (knighthood year, Harefield start). Read in full.",
+      "url": "https://en.majalla.com/node/83091/sir-magdi-yacoub-the-egyptian-surgeon-at-the-heart-of-organ-transplantation"
+    },
+    {
+      "id": "src_yacoub_trust_podcast",
+      "kind": "institution",
+      "title": "Guy's and St Thomas' NHS Foundation Trust (Royal Brompton and Harefield hospitals), 'Transplant pioneer tells story behind a medical milestone', 6 December 2023 -- hospital news item on a podcast interview marking forty years since the first combined heart and lung transplant in Europe: the criticism of transplant work in the late 1970s and early 1980s, the view of Harefield as a 'village hospital', the government inspectors' verdict, and his insistence that the programme was a team effort. Largely his own account; hospital-published. Read in full.",
+      "url": "https://guysandstthomas.nhs.uk/news/transplant-pioneer-tells-story-behind-medical-milestone"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_yacoub_bma, src_yacoub_trust_podcast, src_yacoub_alivizatos | 1973-1984 | independent press profile, hospital news item, colleague profile] He performed a heart transplant in 1973 against the national moratorium and the patient died within hours; in 1975 he linked an infant's circulation to a baboon (both died); after the moratorium lifted he performed three transplants in 1980 and later a heart transplant on a ten-day-old infant that Barnard called a mistake (BMA, reporting from the biography). In 1983 he performed the combined heart and lung transplant having never done one, without animal-laboratory preparation (Alivizatos; the Trust item). Dual-edged: it opened new treatments but cost patients and drew open criticism. SELF-CALIBRATION (agent): lowered from 74/0.6 to 70/0.55 because the 1973-1975 episodes rest on one press retelling of the authorised biography and his own podcast, and the colleague profile covers only his 1982-84 years."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yacoub_bma, src_yacoub_alivizatos, src_yacoub_majalla | 1969-2009 | independent press profile, colleague profile, press profile] He set out to lift Harefield's output from about one open-heart operation a week to ten, built its transplant service to more than 2,500 heart and lung transplants by the end of his career, founded a science centre at Harefield in 2001 and later the Aswan Heart Centre, now a training centre for doctors across Africa (BMA; Alivizatos; Majalla). Three source types agree on the programmes; the Aswan and Chain of Hope detail comes from press and his own foundation's work rather than an outside evaluation."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yacoub_alivizatos, src_yacoub_bma | 1970s-1980s | colleague profile, independent press profile] Alivizatos describes him finishing at 3 am, sleeping a couple of hours and starting again, then operating at several private hospitals in the evenings, staying calm after two sleepless nights; the BMA profile says colleagues were baffled by his stamina and that he often worked through the night. The two sources are independent of each other, but both are admiring in tone and the first-hand account covers only two years."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yacoub_alivizatos, src_yacoub_bma | 1970s-1980s | colleague profile, independent press profile] Alivizatos credits him with a two-stage approach to correcting transposition of the great arteries (banding the pulmonary artery, then the switch), with trying heterotopic transplantation on the idea that a rested recipient heart might recover, and with the 'domino' heart-lung transplant concept; the BMA profile lists the UK's first arterial switch operations and the first 'live lobe' lung transplant. The specific technical claims come mainly from the colleague profile and are not independently checked here."
+    },
+    "deep_focus": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yacoub_alivizatos, src_yacoub_bma | 1980s | colleague profile, independent press profile] Alivizatos reports he could not tolerate noise in the operating room because it stopped him thinking, and stayed calm and fully concentrated throughout long operations; the BMA profile records his own description of preparing unfamiliar operations by thinking through every step beforehand, which the Trust item repeats for the 1983 transplant. Mixed observed and self-reported evidence from admiring sources."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yacoub_bma, src_yacoub_majalla | 1990s-2020s | independent press profile, press profile] The BMA profile reports free cardiac care for children in Egypt, centres built in Aswan, Ethiopia, Mozambique and Rwanda, and his insistence that his duty is to patients; Majalla lists Chain of Hope and programmes in several countries. The motive is inferred from sustained programmes and his own statements as reported, so confidence stays at 0.5."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/magdi-yacoub-raafat-2008.jpg",
+    "width": 723,
+    "height": 1200,
+    "source": "Wikimedia Commons, file 'M Yacoub.JPG' (photograph of Magdi Yacoub at an evening event, 18 October 2008)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Raafat, via Wikimedia Commons, CC BY-SA 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:M_Yacoub.JPG",
+    "creator": "Raafat (Wikimedia Commons contributor)",
+    "date": "2008-10-18",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:M_Yacoub.JPG"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마그디 야쿠브"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / ACCEPTED with caveat: 'M Yacoub.JPG' (872 x 1448; CC BY-SA 3.0; uploader Raafat, 'own work', taken 18 October 2008). Authorship checked beyond the uploader's claim: the file carries camera EXIF (Canon EOS 400D, original timestamp 2008-10-18 20:31) matching the stated date and the Commons camera category, a second frame by the same user from the following day ('Magdi Yacoub.JPG', 3309 x 2179) shows it is one of a set, and the same user uploaded many other original portraits of Egyptian public figures with the same camera category; no third-party copyright claim, deletion request or licence conflict was found on the file page or history. The face matches the other sources' descriptions and the file is named for him; the event is not documented on the Commons page. Remaining caveat: the photographer's identity is the Commons username only, and a personal-photographer assertion is the sole rights basis. Alternative 'Magdi Yacoub.JPG' (same user, 2008-10-19) is a wider group frame and was not used. Downscaled to 723 x 1200, never upscaled. PREFLIGHT: QID Q2919015 verified live (wbgetentities 2026-10-26): label 'Magdi Yacoub', description 'Egyptian surgeon', born 16 November 1935. No production (prod58.txt, no surname match) or candidate slug/QID collision. Region north_africa (Egypt-born, nationalities EG and GB): judgement call, flagged for the lead: his career base is the UK (Harefield, Imperial College) but repo precedent places Egyptian-born Ahmed Zewail (career in the US) in north_africa and Abdus Salam in south_asia by nationality, while Mo Ibrahim (London-based) was placed by his Africa work; Yacoub's Aswan Heart Centre and Egyptian programmes support north_africa, and western_europe would be the career-base alternative. Zero-politics passes: primary identity is cardiac surgeon; a patient's government post and friendships with public figures are not scored. LIVING SUBJECT: only public documented professional behaviour scored; family, health, private life and the Diana friendship excluded; no allegations. CANONICAL SIGNIFICANCE SOURCES: Alivizatos, 'Sir Magdi H. Yacoub, the Leonardo da Vinci of cardiac surgery' (Baylor Univ. Med. Cent. Proc. 2019) and Boyd, 'Never miss a beat' (The Doctor, BMA, 2024). READ (4 cited substantive sources, plus Wikidata for orientation; below the usual target because of the cost cap): BMA The Doctor profile, Alivizatos colleague profile, Al Majalla, and the 2023 hospital-trust podcast news item. A second trust item on the biography launch and a British Egyptian Society event page were read but not cited. Wikipedia not used. PERSPECTIVES: independent medical-press profile with named critics, first-hand colleague profile, general press summary, hospital institution (his own account). Counter-voices appear only as reported by BMA (Barnard, colleagues, a health minister); no source hostile to Yacoub or any outcomes audit was read. Self material (the podcast, quoted statements) is never sole support for a row. NOT OPENED: the authorised biography 'A Surgeon and a Maverick' itself, reviews (Guardian, Telegraph, New Arab pages were blocked or only quoted), BMJ/Lancet profiles (none found), Royal College of Surgeons material, Royal Society and Aswan Heart Centre/Magdi Yacoub Foundation pages. Dates differ across sources (consultant at Harefield 1969 in BMA vs 1973 in Alivizatos; knighthood 1991 in Majalla vs 1992 in BMA/Alivizatos; first heart-lung transplant November vs December 1983) and are not used in rows. Six rows, scores at or below 74, confidence at or below 0.6. EXCLUSIONS: family, health, private friendships, honours, charity finances, any allegation. SELF-CALIBRATION (agent) pass: reviewed risk_tolerance, creative_originality and impact_motivation; lowered risk_tolerance 74/0.6 to 70/0.55 (episodes rest on one press retelling plus his own podcast); creative_originality kept (specific technical claims from a colleague, scored below 0.6); impact_motivation kept (already inference at 0.5). MAJOR ACHIEVEMENT GATE first pass: top omission FAIL (arterial switch/congenital surgery missing), corrected by adding a dedicated card. HANDBACK58: {\"slug\":\"magdi-yacoub\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"risk_tolerance\",\"old_score\":74,\"old_confidence\":0.6,\"new_score\":70,\"new_confidence\":0.55,\"reason\":\"1973-1975 episodes rest on one press retelling of the authorised biography plus his own podcast; colleague profile covers only 1982-84\"}],\"reviewed_kept\":[\"creative_originality\",\"impact_motivation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":true,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"top omission: first-pass draft cards covered the transplant programme, the 1983 heart-lung transplant and global centres but omitted the arterial switch / congenital heart surgery that BMA lists as a defining contribution; added it as its own card and merged the 1983 transplant into the programme card\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6}"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nikolai-vavilov",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Nikolai Vavilov",
+    "aliases": [
+      "Nikolay Ivanovich Vavilov",
+      "N. I. Vavilov"
+    ],
+    "wikidataId": "Q214926",
+    "birthYear": 1887,
+    "deathYear": 1943,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "biologist",
+      "agronomist"
+    ],
+    "fieldIds": [
+      "biology",
+      "agriculture"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "innovation"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "founder",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_vavilov_wikidata",
+      "kind": "wikidata",
+      "title": "Nikolai Vavilov (Q214926) -- verified live via the Wikidata API (2026-10-26): English label 'Nikolai Vavilov', description 'Russian (Soviet) agronomist, botanist and geneticist (1887-1943)', born 13 November 1887 (Julian), died 26 January 1943. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q214926"
+    },
+    {
+      "id": "src_vavilov_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Nikolai Vavilov' -- reference biography: Soviet plant geneticist; studied under William Bateson in 1913-14; professor at Saratov and director of the Bureau of Applied Botany in Petrograd; as head of the Lenin Academy of Agricultural Sciences established 400 research institutes; expeditions from 1916 to 1933 to Iran, Afghanistan, Ethiopia, China and the Americas bringing back 50,000 wild plant varieties and 31,000 wheat specimens; his centre-of-origin theory (eventually 13 centres). CANONICAL SIGNIFICANCE SOURCE. Read in full.",
+      "url": "https://www.britannica.com/biography/Nikolai-Vavilov"
+    },
+    {
+      "id": "src_vavilov_janick",
+      "kind": "biography",
+      "title": "Jules Janick (Purdue University), 'Nikolai Ivanovich Vavilov: Plant Geographer, Geneticist, Martyr of Science', HortScience 50(6), June 2015 -- scholarly biography in a professional society journal: the 1920 law of homologous series, the 1926 centres of origin and the eight centres, 115 expeditions to 64 countries, a collection of about 250,000 accessions by 1940, the more than 400 institutes and stations, Harlan's later revision of his centres, and his dealings with Lysenko including his early tolerance of him. Read in full.",
+      "url": "https://www.hort.purdue.edu/NEWCROP/pdfs/772.full.pdf"
+    },
+    {
+      "id": "src_vavilov_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Nikolai Ivanovich Vavilov' (encyclopedia article drawing on standard biographies) -- the law of homologous series presented at the 1920 Saratov congress held amid famine, his expeditions and gene bank, how he first tried to compromise with Lysenko and later denounced Lysenkoism, and a balanced assessment: solid accomplishments, 'too much guesswork' in his predictions about genetics, and a failure to judge the political climate. Read in full.",
+      "url": "https://www.ebsco.com/research-starters/history/nikolai-ivanovich-vavilov"
+    },
+    {
+      "id": "src_vavilov_lrb",
+      "kind": "press",
+      "title": "Jessie Childs, review of Simon Parkin's 'The Forbidden Garden of Leningrad', London Review of Books, vol. 47 no. 2 (2025) -- independent review: Vavilov as the director who set out to assemble 'a treasury of all known crops and plants', his collecting trips, his staff's loyalty, and how his colleagues protected the collection during the siege after his arrest; notes that the starving staff had eaten the collection in 1921, before his arrival, and that the Russian-language account of the siege may be embellished. Read in full for the Vavilov passages.",
+      "url": "https://lrb.co.uk/the-paper/v47/n02/jessie-childs/resident-bean-expert"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vavilov_janick, src_vavilov_britannica, src_vavilov_lrb | 1916-1940 | scholarly biography, reference biography, independent review] From 1916 he made 115 expeditions to 64 countries to gather crop diversity, headed the Applied Botany institute that became the national centre for collecting world plant diversity, and by 1934 had set up more than 400 institutes and stations (Janick; Britannica gives 400 institutes); Childs describes him setting out to build a 'treasury of all known crops'. The scale rests mainly on one scholarly article that repeats Soviet-era figures, and the institutes were built with state backing."
+    },
+    "systems_abstraction": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vavilov_janick, src_vavilov_ebsco, src_vavilov_britannica | 1920-1935 | scholarly biography, encyclopedia article, reference biography] He organised thousands of cultivars into a law of parallel variation among related species that let breeders predict undiscovered forms, and mapped crop diversity into world centres of origin (eight in Janick, later more; Britannica says 13). EBSCO cautions that the law is a summary of observation rather than a law of physics and that his predictions about genetics contained 'too much guesswork'; Janick notes later critical revision of his centres by Harlan. Documented and influential, but the sources do not show how he built the frameworks."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vavilov_janick, src_vavilov_ebsco | 1910-1935 | scholarly biography, encyclopedia article] He trained in agronomy, soil science and plant physiology, studied genetics with Bateson, worked on plant immunity, brought linguistic analysis into his 1917 study of rye's origin, and combined field botany with laboratory approaches (Janick; EBSCO). Breadth within the plant sciences is well supported; the one cross-disciplinary example (linguistics) is a passing mention."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vavilov_janick, src_vavilov_ebsco, src_vavilov_lrb, src_vavilov_britannica | 1921-1940 | scholarly biography, encyclopedia article, independent review, reference biography] He headed the Applied Botany institute from 1921, was first president of the Lenin All-Union Academy of Agricultural Sciences (1930-35) and director of the Institute of Genetics, and EBSCO and Childs describe a persuasive, inspirational leader whose staff stayed loyal. SELF-CALIBRATION (agent): lowered from 72/0.58 to 70/0.54 because the 'inspired loyalty' language is retrospective praise, while the documented posts show drive for leading rather than the quality of his leadership."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vavilov_ebsco, src_vavilov_janick | 1920-1940 | encyclopedia article, scholarly biography] He held the 1920 Saratov congress in a region ravaged by famine and civil war with transport almost broken down (EBSCO), kept collecting through repeated expeditions on mules (Janick), and was still on a collecting trip when arrested in 1940. Scored only for documented professional effort; his arrest and death are not used as evidence of character."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_vavilov_ebsco, src_vavilov_janick | 1935-1940 | encyclopedia article, scholarly biography] EBSCO says he first tried to compromise with Lysenko, was pushed into an untenable position, and that his criticism grew from mild in 1936 to calling Lysenkoism ignorant and irrational in 1939; Janick adds that he had earlier supported Lysenko and that he 'fought back to no avail' and said in 1939 that his side would not retreat from its convictions. Dual-edged: it kept him to his scientific position but EBSCO judges he misread the political climate. Two secondary sources and no first-hand account."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vavilov_ebsco, src_vavilov_britannica, src_vavilov_janick | 1920-1935 | encyclopedia article, reference biography, scholarly biography] EBSCO describes a 'utopian vision' of transforming Russian agriculture through plant breeding and Janick credits him with pushing the country to the front of plant genetics; Britannica records the 400 institutes. The motive is inferred from the aims of his programme, not from his own stated reasons, so confidence stays below 0.5."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait could be resolved. (1) Wikidata P18 'Nikolai Vavilov NYWTS.jpg' (Library of Congress, New York World-Telegram and Sun Collection, 1933, unnamed staff photographer) carries only 'no copyright restriction known' wording with reproduction rights gifted to the Library; the file page itself notes that tag is not a copyright statement, and a 1933 photograph has no established age-based basis, so it is rejected. (2) 'Николай Вавилов.jpg', a 1930s photograph by Mikhail Prekhner from the Moscow museum collection, rests on a Russian-jurisdiction public-domain tag only; the photographer's term in Russia had not expired in 1996, so the US restoration rule makes the tag insufficient. (3) 'Vavilov family2.jpg' (1916) has an unknown author and is a scan from a 1968 book. (4) The 2009 Flickr CC BY 2.0 file 'Vavilov (3420450037).jpg' is a snapshot of a sculpted bust in the institute whose sculptor and rights are not identified, and the Moscow city archive files (1971, 1974) show a memorial-plaque ceremony and a monument, not a portrait. Next step: find a pre-1931 published photograph with a documented photographer and publication (for example a Cambridge or John Innes 1913-14 group, a 1920s journal plate with a named studio) or a collection item with a stated open licence, or a written release from the Vavilov Institute of Plant Industry.",
+    "kind": "likeness"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "니콜라이 바빌로프"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / HELD: no rights-clear portrait after one bounded retry; see portrait.reason. PREFLIGHT: QID Q214926 verified live (wbgetentities 2026-10-26): label 'Nikolai Vavilov', description 'Russian (Soviet) agronomist, botanist and geneticist (1887-1943)', born 13 November 1887 (Julian calendar; 25 November Gregorian), died 26 January 1943. No production (prod58.txt, no surname match) or candidate slug/QID collision. Region central_europe (Russian mapping in this repo, as for Pavlov and Mendeleev). Zero-politics passes: primary identity is plant scientist; his Central Executive Committee seat, relations with the Bolshevik hierarchy and the Lysenko-era arrest, trial and death in prison are historical context. Only documented professional behaviour is scored (expeditions, collecting, institute-building, scientific public stance); no personality is inferred from persecution. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Nikolai Vavilov' (https://www.britannica.com/biography/Nikolai-Vavilov). READ (4 substantive sources, plus Wikidata for orientation): Britannica (canonical), Janick's HortScience biography (Purdue), the EBSCO Research Starters article, and the London Review of Books review of Parkin's 'The Forbidden Garden of Leningrad'. Wikipedia was not used. PERSPECTIVES: reference biography, scholarly society-journal biography, encyclopedia article with a critical assessment (guesswork in his predictions, misjudged political climate, collections lost), independent press review giving the staff's view. Counter-voices: EBSCO's critique and Janick's note on Harlan's revision of the centres; no source hostile to Vavilov was found or read. NOT OPENED: Pringle 'The Murder of Nikolai Vavilov', Medvedev, Popovsky, Parkin's book itself, Vavilov's own writings, Harlan's critique of the centres, the Vavilov Institute pages; the sources disagree on the number of centres (eight in Janick, 8 later 12 in EBSCO, 13 in Britannica) and on the size of the collection (250,000 accessions per Janick/LRB), recorded in rationale rather than resolved. Four sources is below the usual target and reflects the cost cap; seven rows, scores at or below 74 and confidence at or below 0.6. EXCLUSIONS: arrest, interrogation, death and siege (context only), family, politics. SELF-CALIBRATION (agent) pass: reviewed proactive_agency, leadership_drive and conflict_tolerance; lowered leadership_drive 72/0.58 to 70/0.54 (retrospective praise for inspiring loyalty); proactive_agency kept (three source types agree on the expeditions and institutes); conflict_tolerance kept (already dual-edged and capped at 0.55). HANDBACK58: {\"slug\":\"nikolai-vavilov\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":7,\"self_calibrated_rows\":[{\"attribute\":\"leadership_drive\",\"old_score\":72,\"old_confidence\":0.58,\"new_score\":70,\"new_confidence\":0.54,\"reason\":\"inspired-loyalty language is retrospective praise; documented posts show drive, not leadership quality\"}],\"reviewed_kept\":[\"proactive_agency\",\"conflict_tolerance\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":7}"
+  }
+}

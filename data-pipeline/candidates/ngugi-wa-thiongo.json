@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ngugi-wa-thiongo",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ngũgĩ wa Thiong'o",
+    "aliases": [
+      "Ngugi wa Thiong'o",
+      "James Ngugi"
+    ],
+    "wikidataId": "Q302910",
+    "birthYear": 1938,
+    "deathYear": 2025,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "KE"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "scholar"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ngugi_wikidata",
+      "kind": "wikidata",
+      "title": "Ngũgĩ wa Thiong'o (Q302910) -- verified live via the Wikidata API (2026-10-26): English label \"Ngũgĩ wa Thiong'o\", description 'Kenyan writer (1938-2025)', Korean label '응구기 와 시옹오', born 1938-01-05, died 2025-05-28, citizenship Kenya, P18 image 'Ngũgĩ wa Thiong'o 2019 (48139052733).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q302910"
+    },
+    {
+      "id": "src_ngugi_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Ngugi wa Thiong'o' (biography entry), read in full. CANONICAL SIGNIFICANCE SOURCE: his education at Makerere and Leeds, Weep Not, Child (1964) as the first major novel in English by an East African, A Grain of Wheat (1967), Petals of Blood (1977), Devil on the Cross (1980) in Kikuyu, Wizard of the Crow (2004), the plays co-written with Micere Githae Mugo and Ngugi wa Mirii, the essay collections including Decolonising the Mind (1986) arguing for African-language literature, and the memoirs. Reference biography: authoritative on works and chronology; the detention and exile passages were read but are political context and not scored.",
+      "url": "https://www.britannica.com/biography/Ngugi-wa-Thiongo"
+    },
+    {
+      "id": "src_ngugi_ap_2025",
+      "kind": "press",
+      "title": "Hillel Italie, Associated Press, 'Ngũgĩ wa Thiong'o, Kenyan dissident and author who was giant of global literature, dies at 87' (PBS NewsHour, 28 May 2025), read in full: the obituary frames his novels, memoirs and the critique Decolonizing the Mind, his place as a perennial Nobel candidate, the 2009 Booker shortlist, the 2012 National Book Critics Circle finalist and the 2016 Pak Kyong-ni Literature Award, and a photo caption stating that Wizard of the Crow took more than six years to write. Wire-service obituary; admiring in tone.",
+      "url": "https://www.pbs.org/newshour/amp/arts/ngugi-wa-thiongo-kenyan-dissident-and-author-who-was-giant-of-global-literature-dies-at-87"
+    },
+    {
+      "id": "src_ngugi_leeds_2025",
+      "kind": "institution",
+      "title": "University of Leeds, Faculty of Arts, Humanities and Cultures, 'Commemorating Leeds alumnus Ngũgĩ wa Thiong'o' (30 May 2025, by Brendon Nicholls), read in full: he wrote A Grain of Wheat while a Leeds student, produced eight novels, three short story collections, four children's books, five memoirs, eleven non-fiction books and five plays, championed writing in African languages and multi-centred translation, increasingly foregrounded Gikuyu oral literature, story, proverbs and song, and held a distinguished professorship at the University of California, Irvine. University obituary by a scholar; admiring, and the university awarded him an honorary doctorate in 2004.",
+      "url": "https://ahc.leeds.ac.uk/media/news/article/2916/commemorating-leeds-alumnus-ng-g-wa-thiong-o"
+    },
+    {
+      "id": "src_ngugi_foundation_bio",
+      "kind": "institution",
+      "title": "Ngũgĩ wa Thiong'o Foundation, 'Bio' (advocacy organisation for African languages bearing his name), read in full: his schooling, the 1962 Black Hermit performance, the shift in form with A Grain of Wheat, his work at the University of Nairobi and the jointly authored 'On the Abolition of the English Department', his Gikuyu novels, his academic posts at Yale, New York University and the University of California Irvine, his editing of the journals Penpoint, Zuka, Ghala and Mutiiri, and his lectures. AFFILIATED SOURCE: written for the foundation he is associated with, so used for chronology and activities and not as sole support for any row; the account of threats against him was read and not used.",
+      "url": "https://www.ngugiwathiongofoundation.org/bio"
+    },
+    {
+      "id": "src_ngugi_gasser_2021",
+      "kind": "press",
+      "title": "Lucy Gasser, 'Post/colonial English: The language of African literature?' (poco.lit., 19 February 2021), read in full: a scholar's essay setting Ngũgĩ's Decolonising the Mind position against Chinua Achebe's pragmatic defence of English as a literary medium, the 1962 Makerere conference, the question of audience and publication reach, and the observation that English-language writing is more likely to reach a wide audience. INDEPENDENT SCHOLARLY COUNTER-VOICE: sympathetic to his arguments but presents the opposing Achebe position and the audience trade-off.",
+      "url": "https://pocolit.com/en/2021/02/19/post-colonial-english-the-language-of-african-literature/"
+    },
+    {
+      "id": "src_ngugi_nation_2018",
+      "kind": "press",
+      "title": "Rohit Inani, 'Language Is a War Zone: A Conversation with Ngũgĩ wa Thiong'o' (The Nation, 2018), read in full: his own account of writing for Gikuyu readers, why he held that English writing reaches people only by trickle-down, his remarks that he likes Naipaul's novels and respects Achebe's contribution while disagreeing that writing in English advances African languages. SELF MATERIAL (interview): used only as corroboration alongside non-self sources, never as sole support for any row.",
+      "url": "https://www.thenation.com/article/archive/language-is-a-war-zone-a-conversation-with-ngugi-wa-thiongo/tnamp/"
+    },
+    {
+      "id": "src_ngugi_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page for the 9 May 2019 photograph by Shawn Miller of the Library of Congress (Flickr account 'Library of Congress Life'), and the live Flickr photo page, checked for the portrait only.",
+      "url": "https://flickr.com/photos/162991176@N03/48139052733"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ngugi_britannica, src_ngugi_gasser_2021, src_ngugi_foundation_bio, src_ngugi_nation_2018 | 1960s-1986 | reference biography + scholarly essay + affiliated bio + interview] He argued in Decolonising the Mind that African literature should be written in African languages and acted on it by writing in Gikuyu, against the practice of most African writers including Achebe, whose opposing, pragmatic view Gasser sets out; the Foundation bio credits him with the co-authored proposal to abolish the English department at Nairobi. Held against prevailing literary practice and documented by independent sources. SELF-CALIBRATION (agent): lowered from 80 / 0.7 to 76 / 0.66 because the department-abolition manifesto rests on the affiliated Foundation bio and the language position is mostly known through his own advocacy and one scholarly essay. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 76 / 0.66 to 74 / 0.62 because the language choice is documented, but the supporting evidence is largely his own advocacy and affiliated or obituary text, and no hostile critic of his position was read."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ngugi_britannica, src_ngugi_ap_2025, src_ngugi_leeds_2025, src_ngugi_nation_2018 | 1980-2007 | reference biography + obituary + university + interview] He kept writing in Gikuyu after 1980 (Devil on the Cross, Matigari, Wizard of the Crow) and published English translations of them; AP notes Wizard of the Crow took more than six years to write, and Leeds counts a very large output across forms. His own interview adds that Devil on the Cross was drafted on prison toilet paper, used here only as corroboration. Sustained effort is documented; the more dramatic details are self-reported."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ngugi_britannica, src_ngugi_leeds_2025, src_ngugi_foundation_bio | 1967-2004 | reference biography + university obituary + affiliated bio] The Foundation bio describes A Grain of Wheat as replacing linear narrative with multiple narrative lines and viewpoints; Britannica describes Devil on the Cross as written to recall traditional ballad singers and Wizard of the Crow as joining fantasy and satire; Leeds says he contributed key innovations in African literary form by foregrounding Gikuyu oral literature, story, proverbs and song. Formal inventiveness is documented, but the strongest judgements come from admiring or affiliated sources. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 74 / 0.64 to 72 / 0.6 because the sources are an AP obituary, a university obituary and the affiliated foundation, with no hostile critic of his literary quality read."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ngugi_leeds_2025, src_ngugi_britannica, src_ngugi_foundation_bio | 1962-2012 | university obituary + reference biography + affiliated bio] He worked across novels, plays, short stories, children's books, memoirs and critical essays (Leeds counts eight novels, five plays, five memoirs and eleven non-fiction books), edited literary journals, studied film in Stockholm and taught comparative literature and performance studies. Range across literary forms and into scholarship is well documented; it is a breadth of literary and academic work, not of unrelated fields."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ngugi_britannica, src_ngugi_leeds_2025, src_ngugi_foundation_bio | 1974-1977 | reference biography + university obituary + affiliated bio] He co-wrote The Trial of Dedan Kimathi with Micere Githae Mugo and I Will Marry When I Want with Ngugi wa Mirii, co-authored the Nairobi department proposal with Taban Lo Liyong and Awuor Anyumba, and Leeds says the Gikuyu play was created together with the Kamiriithu community. Collaborative work is documented but thinly described, so the score stays modest."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ngugi_leeds_2025, src_ngugi_foundation_bio, src_ngugi_gasser_2021, src_ngugi_nation_2018 | 1986-2025 | university obituary + affiliated bio + scholarly essay + interview] He devoted a large part of his career to promoting writing and translation in African languages: Leeds says he championed African-language writing and multi-centred translation, the Foundation bio lists his editing of journals as a platform for other people's voices, and Gasser describes his view that writers have a duty to write in their mother tongues. The aim is documented in several places; the extent of its practical effect is not assessed here."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "응구기 와 시옹오"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ngugi-wa-thiongo-shawn-miller-2019.jpg",
+    "width": 1200,
+    "height": 800,
+    "source": "Photograph of Ngũgĩ wa Thiong'o reading from his recent work in the Coolidge Auditorium, 9 May 2019, by Shawn Miller for the Library of Congress, posted on the Flickr account 'Library of Congress Life', whose photo page states the Public Domain Dedication (CC0) licence; Wikimedia Commons file 'Ngũgĩ wa Thiong'o 2019 (48139052733).jpg', reviewed against Flickr on 1 September 2019. Original 3600 x 2400, downscaled only, to 1200 x 800.",
+    "license": "CC0 1.0 Universal Public Domain Dedication",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Shawn Miller / Library of Congress, 9 May 2019 (CC0).",
+    "attributionUrl": "https://flickr.com/photos/162991176@N03/48139052733",
+    "creator": "Shawn Miller, Library of Congress",
+    "date": "2019-05-09",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ng%C5%A9g%C4%A9_wa_Thiong%27o_2019_(48139052733).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / finding: confirmed strong. The live Flickr photo page (account 'Library of Congress Life', owner id 162991176@N03) carries licence id 9, Public Domain Dedication (CC0), at the photo level, the caption credits 'Photo by Shawn Miller/Library of Congress' (a staff photographer, so a federal-employee work on a second basis), and Commons shows a FlickreviewR confirmation of cc-zero on 1 September 2019; the caption's note that privacy and publicity rights may apply was retained here. Original 3600 x 2400 viewed; downscaled to 1200 x 800 only. PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-26) Q302910: en label \"Ngũgĩ wa Thiong'o\", description 'Kenyan writer (1938-2025)', ko label '응구기 와 시옹오', born 1938-01-05, died 2025-05-28. SLUG/QID CHECK: not in prod58.txt (surname tokens ngugi and thiong grepped; no legacy slug), no candidate file existed. REGION: sub_saharan_africa (Kenyan, base in Kenya then the United States; chinua-achebe precedent). ERA: 20th_century (as for Achebe, b. 1930). VOCABULARY: writer, scholar, literature, prolific, independent, creative_creator, independent_creator all have EN+KO labels (professor, novelist, essayist unlabeled and not used). ZERO POLITICS: his 1977-78 detention, exile, and the Moi-era threats are political context and are unscored; his primary identity is novelist, playwright and essayist; the language-of-writing question is treated as a literary and cultural choice. DEAD SUBJECT RULES: family, the 2004 assault and similar passages were read or seen but excluded. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Ngugi wa Thiong'o' (https://www.britannica.com/biography/Ngugi-wa-Thiongo). READ (6 substantive sources): Britannica, AP/PBS obituary, Leeds obituary, Ngũgĩ wa Thiong'o Foundation bio, Gasser essay (poco.lit.), The Nation interview. PERSPECTIVES: reference biography; wire-service obituary; university scholar obituary; affiliated foundation; independent scholarly essay presenting the Achebe counter-position; self interview. COUNTER-VOICES: Achebe's pragmatic defence of English and the audience/publication-reach trade-off (via Gasser). NOT OPENED: Guardian and New York Times obituaries (not retrievable by this agent), Decolonising the Mind itself, his memoirs, Wikipedia (orientation only). DISCREPANCY NOTED: place of death differs between sources (Atlanta in Leeds, Bedford in AP, Buford in Britannica), so not stated in any text. SELF-CALIBRATION: rows reviewed: independent_thinking (80), creative_originality (74), impact_motivation (72). Lowered: independent_thinking 80/0.7 -> 76/0.66, because the department-abolition manifesto rests on the affiliated Foundation bio and the language position is mostly known through his own advocacy and one scholarly essay. Others kept (each has at least two non-self sources). FLAG for lead: confidence kept at or below 0.66; no hostile critical voice on his literary quality was read, only the Achebe-side language debate. HANDBACK58: {\"slug\":\"ngugi-wa-thiongo\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"independent_thinking\",\"old_score\":80,\"old_confidence\":0.7,\"new_score\":76,\"new_confidence\":0.66,\"reason\":\"department-abolition manifesto rests on affiliated Foundation bio; language position mostly via his own advocacy plus one scholarly essay\"}],\"reviewed_kept\":[\"creative_originality\",\"impact_motivation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6} RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 76 / 0.66 to 74 / 0.62 because the language choice is documented, but the supporting evidence is largely his own advocacy and affiliated or obituary text, and no hostile critic of his position was read. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 74 / 0.64 to 72 / 0.6 because the sources are an AP obituary, a university obituary and the affiliated foundation, with no hostile critic of his literary quality read."
+  }
+}

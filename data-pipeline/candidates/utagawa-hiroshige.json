@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "utagawa-hiroshige",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Utagawa Hiroshige",
+    "aliases": [
+      "Hiroshige",
+      "Ando Hiroshige",
+      "Ichiryusai Hiroshige",
+      "Ando Tokutaro"
+    ],
+    "wikidataId": "Q200798",
+    "birthYear": 1797,
+    "deathYear": 1858,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hiroshige_wikidata",
+      "kind": "wikidata",
+      "title": "Utagawa Hiroshige (Q200798), verified live via the Wikidata API (2026-10-26): label 'Utagawa Hiroshige', description 'Japanese ukiyo-e artist (1797-1858)', born 1797, died 1858-10-12, citizenship Japan, Korean label present, P18 image 'Memorial Portrait of Hiroshige, by Kunisada.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q200798"
+    },
+    {
+      "id": "src_hiroshige_aam",
+      "kind": "institution",
+      "title": "Asian Art Museum (San Francisco), Education 'Artist Profile: Utagawa (Ando) Hiroshige (1797-1858)', read in full. CANONICAL SIGNIFICANCE SOURCE: born in Edo to a fire-brigade warden's family, orphaned at 13 and inheriting the post, his turn from Toyokuni to Toyohiro, retirement as fire warden to become a full-time artist (given there as 1822), his first landscapes (Famous Places in the Eastern Capital, 1825) adopting Western conventions, the Tokaido journey of 1832 (hedged as 'reportedly'), the Fifty-three Stations of the Tokaido, the Kiso Road series begun with Eisen, and the One Hundred Views of Edo (1856-1858). Museum teaching text; admiring, and its account of why a samurai became an artist is explicitly speculative.",
+      "url": "https://education.asianart.org/resources/artist-profile-utagawa-ando-hiroshige/"
+    },
+    {
+      "id": "src_hiroshige_spencer",
+      "kind": "institution",
+      "title": "Takaaki Kumagai, essay on 'Fudo Waterfall at Oji' from One Hundred Famous Views of Edo, Spencer Museum of Art, University of Kansas (accession 1999.0151), read in full: his fire-brigade background and the speculation about fire-tower viewpoints, landscape as a market choice after ukiyo-e traditions stagnated, the early-1830s turning point whose 'exact motives remain unclear', the 1832 official journey, scholars' contrast between Hokusai's experiment and Hiroshige's lyricism, the choice of minor sites in the Edo series after the 1855 earthquake, and his work on it until his last moments. Academic museum essay citing Poster, Smith and Buck (2001); it contains an internal slip about the year of the cholera epidemic (1859 instead of 1858).",
+      "url": "https://sma-search-api.ku.edu/document/1999.0151.001.pdf"
+    },
+    {
+      "id": "src_hiroshige_sothebys",
+      "kind": "press",
+      "title": "Sotheby's, '21 Facts About Utagawa Hiroshige' (sothebys.com article), read in the biographical and works sections: Edo birth to a low-ranking samurai fire-warden family, orphaned young, his rejection by Toyokuni and Toyohiro before being taken in, the roughly 8,000 works he is thought to have produced, the Tokaido series' success and more than 20 later Tokaido series, the vertical format of the Edo series completed by Hiroshige II, his bokashi colour technique, reported poverty and debts, his 1856 retirement as a Buddhist monk, and his influence on European painters. Auction-house marketing copy: enthusiastic, partly unsourced, and its account of his rejection by both masters differs from the Asian Art Museum's, so it is used only for corroboration.",
+      "url": "https://www.sothebys.com/en/articles/21-facts-about-utagawa-hiroshige"
+    },
+    {
+      "id": "src_hiroshige_aic1912",
+      "kind": "institution",
+      "title": "Art Institute of Chicago, 'Catalogue of a Loan Exhibition of Colour Prints by Ichiryusai Hiroshige, 1797-1858' (April 1912), introduction read in full (about 4 pages, via the Internet Archive): his training under Toyohiro after Toyokuni's refusal, the Toto Meisho series, the publisher Takeuchi's Tokaido commission and its instant success, the possible journey to Kyoto (date uncertain), the change of his artist name to Ichiryusai ('One Standing Alone'), edition after edition of the Tokaido prints, his continuing energy, changes made to the designs between editions, and the later vertical-format works. Early twentieth-century exhibition catalogue by curators; admiring and now dated, and it says the date of the journey is not known.",
+      "url": "https://archive.org/details/catalogueofloane00unse_2"
+    },
+    {
+      "id": "src_hiroshige_noguchi",
+      "kind": "biography",
+      "title": "Yone Noguchi, 'Hiroshige' (1921, Cornell University Library copy via the Internet Archive), read in the sections on his place in ukiyo-e, the Tokaido and Kiso series and his relation to Hokusai (about one third of the 48,000-character text; the plate lists were not read): states the Tokaido series drew on sketches made on the journey, reports Usui Kojima's view that the Kiso series challenged Hokusai, and says Hiroshige reportedly judged other pictures by whether they showed Hokusai's influence. Interpretive essay by a Japanese poet-critic, now dated; he doubts the authenticity of Hiroshige's popular farewell verse and calls the artist partly 'a discovery or creation of the westerners'.",
+      "url": "https://archive.org/details/cu31924023322013"
+    },
+    {
+      "id": "src_hiroshige_met",
+      "kind": "archive",
+      "title": "The Metropolitan Museum of Art Open Access record JP2832 (object 53719), 'Memorial Portrait of Ichiryusai Hiroshige (1797-1858)', woodblock print by Utagawa Kunisada, Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939, flagged as public domain in the Met's API, checked for the portrait only; not used for any scoring.",
+      "url": "https://www.metmuseum.org/art/collection/search/53719"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hiroshige_spencer, src_hiroshige_aam, src_hiroshige_aic1912 | 1825-1858 | museum essay + museum teaching text + exhibition catalogue] Kumagai describes his dynamic perspectives, exaggerated near-far contrasts and bird's-eye views in the Edo series, while keeping the pictures tied to real places; the Asian Art Museum says his first landscapes boldly adopted Western conventions to create a hybrid style; the Chicago catalogue says he sought to present familiar everyday scenes instead of classical idealisations. Scholars also place him in Hokusai's shadow and as a lyrical rather than experimental artist, so the originality is of treatment and subject more than of invention. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 74 / 0.55 to 72 / 0.52 because the Asian Art Museum and Sotheby's passages on the hybrid style are near-identical in wording and so are not independent."
+    },
+    "aesthetic_sensitivity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hiroshige_aam, src_hiroshige_spencer, src_hiroshige_aic1912 | 1825-1858 | museum text + museum essay + catalogue] The museum texts report a sustained interest in weather, time of day and season in his landscapes, close attention to seasonal details such as the changing colour of foliage in the Oji print, and, in the Chicago catalogue, designs revised between editions to improve them. These describe choices in his work rather than his own statements, and no first-hand or contemporary account of his working method was read, so the row is kept modest."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hiroshige_aic1912, src_hiroshige_spencer, src_hiroshige_sothebys | 1833-1858 | catalogue + museum essay + auction house] The Chicago catalogue says his energy never seems to have flagged and marvels at how many designs he produced; Kumagai says he kept working on the Edo series until his last moments (the series was finished by Hiroshige II); Sotheby's gives about 8,000 works and more than 20 Tokaido series. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.55 to 66 / 0.50 because the specific output figures come only from an auction-house article and the other sources describe volume without counting it."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hiroshige_aic1912, src_hiroshige_sothebys, src_hiroshige_aam | 1812-1858 | catalogue + auction house + museum text] He studied under Toyohiro from his teens and was given his artist name after a year (Sotheby's), the Chicago catalogue reads the changes between editions as his effort to perfect each design, and Sotheby's calls him a master of the bokashi gradation technique. The sources are admiring and secondary and give no direct statement of his aims."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hiroshige_spencer, src_hiroshige_aam, src_hiroshige_noguchi | 1831-1835 | museum essay + museum text + early critic] Kumagai says he moved seriously into landscape in the early 1830s when actor and beauty prints had stagnated and he needed a distinctive identity in a competitive market, but also that the exact motives remain unclear; the Asian Art Museum says he launched the Tokaido project on returning from the 1832 journey and that he took over the Kiso Road project begun with Eisen, which Noguchi, citing another critic, reads as a challenge to Hokusai. The Chicago catalogue instead credits the publisher with commissioning the Tokaido series. Motives are inferred by scholars, not documented."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "우타가와 히로시게"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/utagawa-hiroshige-kunisada-1858.jpg",
+    "width": 822,
+    "height": 1200,
+    "source": "Memorial portrait of Hiroshige, polychrome woodblock print by Utagawa Kunisada, The Metropolitan Museum of Art, New York, accession JP2832 (Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939). The Met's Open Access API flags the object as public domain and the Commons copy carries a CC0 declaration. A posthumous memorial print made after his death in October 1858, so shown as a later depiction and not as a likeness taken in his lifetime (the Met record's date field gives only the artists' life dates; the 1858 date is Commons's). Original image 2631 x 3841 pixels from the Met, downscaled to 822 x 1200 with no cropping and no upscaling.",
+    "license": "CC0 1.0 Universal (Met Open Access)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Utagawa Kunisada, memorial portrait of Hiroshige, 1858, The Metropolitan Museum of Art, JP2832, Open Access (CC0)",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/53719",
+    "creator": "Utagawa Kunisada",
+    "date": "1858",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Memorial_Portrait_of_Hiroshige,_by_Kunisada.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / confirmed: Commons page cites the Met (JP2832, credit line Henry L. Phillips Collection, Bequest 1939) with a CC0 permission template, and the Met's own Open Access API for object 53719 returns isPublicDomain true and the same primary image; the Met object web page itself was bot-blocked so the 'Open Access' statement was read through the API only. The Met's date field is the artists' life span; the 1858 date comes from Commons. The Wikidata P18 file is a posthumous memorial portrait, so kind is historical_depiction; do not describe it as a lifetime likeness. PREFLIGHT: QID VERIFIED LIVE (2026-10-26) Q200798 label 'Utagawa Hiroshige', description 'Japanese ukiyo-e artist (1797-1858)', born 1797, died 1858-10-12; matches the lead. No existing production or candidate entry for the slug or QID (katsushika-hokusai is a separate candidate). REGION east_asia (Japan). ZERO POLITICS: primary identity is a printmaker; his samurai fire-warden post is background only and is not scored. VOCABULARY: occupation artist, field art, tags craft_focused and prolific and archetype creative_creator have EN and KO labels (the same set as katsushika-hokusai uses). CANONICAL SIGNIFICANCE SOURCE: Asian Art Museum (San Francisco), 'Artist Profile: Utagawa (Ando) Hiroshige (1797-1858)' (https://education.asianart.org/resources/artist-profile-utagawa-ando-hiroshige/). READ: Asian Art Museum profile, Spencer Museum essay (Kumagai), Sotheby's article (biographical and works parts), Art Institute of Chicago 1912 catalogue introduction, Noguchi 1921 (about one third). PERSPECTIVES: museum teaching text, museum scholarly essay, auction-house popular article, early-twentieth-century curators, an early Japanese critic. COUNTER-VOICES: Noguchi's scepticism about the farewell verse and about Hiroshige as a Western construction, scholarly framing of him as lyrical rather than experimental and as competing in Hokusai's shadow, and the sources' disagreement over key facts. NOT OPENED (blocked by bot walls or 403/429): Met essays, Brooklyn Museum, British Museum, Smithsonian, Britannica, Free Library of Philadelphia, woodblockprints.org, Honolulu Museum, Poster-Smith-Buck 2001 catalogue, Smith's and Marks's scholarship. One search summary (not a page I opened, so not cited) reported that Andreas Marks, quoted in Free Library of Philadelphia catalogue entries, doubts the 1832 journey and thinks many Tokaido designs came from guidebooks; the sources I read disagree about the journey, so NO row relies on the trip being a fact, and the Tokaido sketching is treated as reported. KNOWN SOURCE CONFLICTS: date he left the fire-warden post (1822 per Asian Art Museum, 1832 per Sotheby's), Toyokuni/Toyohiro rejection story (Asian Art Museum versus Sotheby's), journey date (1832 versus possibly 1825 per Chicago); stated in the rows only where it does not change the claim. EXCLUSIONS: childhood bereavement, marriages, family succession, finances and debts, his 1856 retirement as a monk and his cholera death are not scored or used for inference; only behaviour in his work is. SPARSE PROFILE: five rows, none above 72, confidence 0.45-0.52; no personality inferred from the style of the prints alone. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (74/0.55 lowered to 72/0.52), discipline (70/0.55 lowered to 66/0.50), aesthetic_sensitivity (kept). HANDBACK58: {\"slug\":\"utagawa-hiroshige\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"creative_originality\",\"old_score\":74,\"old_confidence\":0.55,\"new_score\":72,\"new_confidence\":0.52,\"reason\":\"Asian Art Museum and Sotheby's passages on the hybrid style share near-identical wording so are not independent\"},{\"attribute\":\"discipline\",\"old_score\":70,\"old_confidence\":0.55,\"new_score\":66,\"new_confidence\":0.5,\"reason\":\"specific output figures come only from an auction-house article\"}],\"reviewed_kept\":[\"aesthetic_sensitivity\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}
