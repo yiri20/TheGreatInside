@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bernardo-houssay",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Bernardo Houssay",
+    "aliases": [
+      "Bernardo Alberto Houssay"
+    ],
+    "wikidataId": "Q237160",
+    "birthYear": 1887,
+    "deathYear": 1971,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "physician",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "founder"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_houssay_wikidata",
+      "kind": "wikidata",
+      "title": "Bernardo Houssay (Q237160) -- verified live via the Wikidata API (2026-10-26): English label 'Bernardo Houssay', description 'Argentine physician (1887-1971)', Korean label '베르나르도 우사이', born 1887-04-10, died 1971-09-21, citizenship Argentina, P18 image 'Bernado Houssay.JPG'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q237160"
+    },
+    {
+      "id": "src_houssay_nobel_bio",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Bernardo Houssay - Biographical' (written at the time of the 1947 award), read in full. CANONICAL SIGNIFICANCE SOURCE: his early studies and thesis on the pituitary, the physiology chair and the Institute of Physiology he built into an internationally recognised centre, the institute he organised with private funds, the Instituto de Biologia y Medicina Experimental, his most important discovery on the role of the anterior pituitary lobe in carbohydrate metabolism and the onset of diabetes, his work across physiology and pharmacology including circulation, immunity and venoms, over 500 papers and his work for science education in Argentina. Award-body biography: authoritative on chronology and admiring; the passages on the 1943 dismissal are political context and are not scored, and family details were read but excluded.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1947/houssay/biographical/"
+    },
+    {
+      "id": "src_houssay_dsb",
+      "kind": "biography",
+      "title": "Dictionary of Scientific Biography entry 'Houssay, Bernardo Alberto' (Gale, reproduced on Encyclopedia.com), read in full: his early work as pharmacist, student and professor, the 1911 doctoral thesis, conversion of the physiology department into a full institute after 1919, the finding that hypophysectomised dogs are hypersensitive to insulin, the 1930 demonstration of the diabetogenic effect of the anterior lobe, his many students, the founding of Argentine scientific associations and, in 1957, the Argentine National Council for Scientific and Technical Research, and the note that a complete biographical study was not yet available. Standard reference biography, admiring in tone.",
+      "url": "https://encyclopedia.com/people/medicine/medicine-biographies/bernardo-houssay"
+    },
+    {
+      "id": "src_houssay_nobel_lecture",
+      "kind": "award_body",
+      "title": "Bernardo Houssay, 'The Role of the Hypophysis in Carbohydrate Metabolism and in Diabetes' (Nobel Lecture, 12 December 1947), read for the experimental sequence only: hypophysectomised dogs and toads, the pancreas removal in hypophysectomised animals with Biasotti in 1930, and the diabetogenic effect of anterior-lobe injection. SELF MATERIAL (Nobel lecture): used only as corroboration of the experimental series described in independent sources, never as sole support for a row.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1947/houssay/lecture/"
+    },
+    {
+      "id": "src_houssay_travesia_2025",
+      "kind": "press",
+      "title": "Marina Rieznik and Jose Buschini, 'Medicina experimental y politica. Bernardo Houssay y los microscopistas electronicos becados por la Fundacion Rockefeller, Eduardo De Robertis y Mario Burgos' (Travesia, vol. 27, 2025), read in the abstract, introduction and conclusions (about 20 further pages not read in detail): historians' account of how Houssay used his prestige and contacts to connect his group with Rockefeller Foundation fellowships and funding, secured posts for his group after 1955 often amid disputes with other groups, and how the account that followed overlooked other Argentine pioneers such as Mario Malfatti. INDEPENDENT CRITICAL HISTORIOGRAPHY: sympathetic to his institutional skill but critical of its exclusions. Read in Spanish by the agent.",
+      "url": "https://travesia.ct.unt.edu.ar/article/download/684/631/1853"
+    },
+    {
+      "id": "src_houssay_alan_1971",
+      "kind": "press",
+      "title": "'Bernardo Alberto Houssay (1887-1971)', necrology in Archivos Latinoamericanos de Nutricion (1971), read in full (Spanish): describes him as a master of physiology in Latin America, notes that Leloir said in his Nobel lecture that he recognised only Houssay's influence on his training, that Euler worked with him in Buenos Aires, and the 1919 chair appointment backed by Pi Suner. Contemporary obituary in a journal on whose board he sat; admiring and partly personal.",
+      "url": "https://www.alanrevista.org/download/article/2941"
+    },
+    {
+      "id": "src_houssay_sap_2021",
+      "kind": "press",
+      "title": "Editorial 'La ciencia y el arte en nuestra medicina' (Archivos Argentinos de Pediatria 2021;119(4):218-219), read in full (Spanish, two pages): states that he began pituitary work in 1910, worked with Braun Menendez from 1932, saw Orias join his school, founded the institutionalised science of CONICET in 1958 and trained Leloir. Short editorial from an Argentine paediatric society journal; admiring and of modest depth, used only as corroboration.",
+      "url": "https://www.sap.org.ar/docs/publicaciones/archivosarg/2021/v119n4a01.pdf"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_houssay_dsb, src_houssay_nobel_bio, src_houssay_nobel_lecture | 1924-1945 | reference biography + award body + self lecture] After insulin was discovered he organised a systematic study of endocrine glands' influence on it; he found hypophysectomised dogs and toads hypersensitive to insulin, removed the pancreas as well in hypophysectomised animals (with Biasotti, 1930) and showed that anterior-lobe injection restored or increased diabetic severity (lecture, matched by the biography entry). A long programme of controlled organ-removal and replacement experiments is documented by two non-self sources plus his own account. SELF-CALIBRATION (agent): reviewed as a top-risk row and kept; the experiments are independently described in the biography entry."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_houssay_nobel_bio, src_houssay_dsb, src_houssay_nobel_lecture | 1907-1947 | award body + reference biography + self lecture] He took up the pituitary as a student in 1907, wrote his 1911 thesis on it and was still studying it forty years later when the Nobel biography calls it a lifelong study, and after being deprived of his university post in 1943 he continued research in an institute organised with private funds. The long single-topic commitment is documented; no counter-evidence of abandonment was found."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_houssay_nobel_bio, src_houssay_dsb, src_houssay_sap_2021 | 1919-1958 | award body + reference biography + editorial] The Nobel biography says he was active in advancing university and medical education and scientific research in Argentina; the biography entry credits him with founding Argentine scientific societies and the national research council, and the 2021 editorial describes it as the institutionalisation of science. The aim of building scientific capacity is documented but described mainly by admiring sources. SELF-CALIBRATION (agent): lowered from 74 / 0.62 to 70 / 0.58 because the evidence is almost entirely admiring institutional and obituary-style text with no independent source assessing the motive."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_houssay_dsb, src_houssay_nobel_bio, src_houssay_travesia_2025 | 1919-1958 | reference biography + award body + critical historians] He turned the physiology department into an institute of world standing, directed the Instituto de Biologia y Medicina Experimental and led the national research council; Rieznik and Buschini describe an indefatigable strategist who managed fellowships and funding for his group and consolidated it after 1955, often amid disputes with other groups, so that other Argentine pioneers were overlooked. Strong institutional leadership with a documented cost to others, hence dual-edged. The critical article was read in its introduction and conclusions only."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_houssay_nobel_bio, src_houssay_dsb | 1910-1947 | award body + reference biography] Beyond the pituitary and diabetes he worked on circulation and respiration, immunity, the nervous system, digestion and snake and spider venoms (a protective serum against spider toxin per the biography entry), and held posts in pharmacy, veterinary science and medicine. Range is documented but stays within physiology and medicine."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_houssay_nobel_lecture, src_houssay_alan_1971, src_houssay_dsb, src_houssay_travesia_2025 | 1924-1955 | self lecture + obituary + reference biography + critical historians] He names co-workers (Biasotti, Magenta, Mazzocco, Rietti) for the key experiments, worked with disciples, and Leloir credited only him for his formation (obituary); Rieznik and Buschini describe a closely tutored group he promoted internationally, which also produced disputes with other groups. Collaborative output is documented, but its exclusive side counts against a higher score."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_houssay_nobel_bio, src_houssay_dsb, src_houssay_travesia_2025 | 1943-1957 | award body + reference biography + critical historians] After losing his university post he kept research going in an institute organised with the Sauberan Foundation and other funds, rather than leaving despite foreign offers, and the historians document his skilled use of Rockefeller Foundation fellowships and grants for his group. Finding alternative funding is documented in three sources; the source of the 1943 dismissal is political context and not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "베르나르도 우사이"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait found after one bounded retry. (1) Wikidata P18 'Bernado Houssay.JPG' is only 199 x 305, unknown author, generic Public Domain tag: rejected. (2) National Library of Medicine photographs of Houssay at his laboratory in 1949 (NLM 101442347 and 101442348, 2904 x 2288): Commons names the photographer J. W. McGuire and uses a US federal-work tag, but the NLM item pages only say the Library 'believes this item to be in the public domain' and name no creator or employer, so employee status was not established. (3) Portrait dated 1912 held by the Universidad de Buenos Aires Faculty of Medicine digital repository (Commons 'Retrato Bernardo Alberto Houssay 094.jpg', 1130 x 1669): date and holder are documented but the author is only the faculty, the repository page states no terms and nothing shows the print was ever published. (4) Argentine photographs tagged on Commons with a jurisdiction-only Public Domain claim and unknown author, and the Nobel Foundation portrait (162 x 227): rejected. Next step: open the NLM catalogue record for item 101442347 or the Sebrell papers finding aid to see whether the photographer is credited as an NIH Photographic Research Section employee (which would give a federal-work basis, as another NLM print credits McGuire to that section), or obtain written terms from the UBA Faculty of Medicine library for the 1912 print.",
+    "kind": "likeness"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / finding: confirmed risky; HELD after one bounded retry (about 14 calls), see portrait.reason for the four routes checked and the exact next step. PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-26) Q237160: en label 'Bernardo Houssay', description 'Argentine physician (1887-1971)', ko label '베르나르도 우사이', born 1887-04-10, died 1971-09-21. SLUG/QID CHECK: not in prod58.txt (grepped houssay), no candidate file existed. REGION: latin_america (Argentine, worked in Buenos Aires). ERA: 20th_century. VOCABULARY: scientist, physician, medical_researcher, medicine, biology, nobel_laureate, founder, scientific_explorer, scholarly_specialist all have EN+KO labels (physiologist, professor unlabeled and not used). ZERO POLITICS: the 1943 and Peron-era dismissals, his stated political views and the 1955 reinstatement are political context and are unscored; the Travesia article describes his 'political' management of fellowships and group interests, which is scored only as institutional leadership, funding and mentoring, never as political activity. DEAD SUBJECT RULES: family, spouse and similar details read and excluded. CANONICAL SIGNIFICANCE SOURCE: NobelPrize.org 'Bernardo Houssay - Biographical' (https://www.nobelprize.org/prizes/medicine/1947/houssay/biographical/). READ (7 sources, 6 substantive): Nobel biography, Dictionary of Scientific Biography entry, Nobel lecture (self, experimental sequence only), Travesia 2025 (abstract, introduction and conclusions only), Archivos Latinoamericanos de Nutricion necrology, Archivos Argentinos de Pediatria editorial (light). PERSPECTIVES: award body; reference biography; contemporary obituary; modern critical historians; self lecture. COUNTER-VOICES: Rieznik and Buschini on exclusion of other pioneers (Malfatti) and disputes with other groups. NOT OPENED: Young and Foglia, Biographical Memoirs of Fellows of the Royal Society 1974 (not retrievable), Buch 2006 book, Churilov article (abstract page only), the body of the Travesia article, Wikipedia. FLAG for lead: the Nobel prize was shared (half with the Coris) and several experiments were jointly authored with Biasotti and others, so the editorial cards state the shared attribution; no independent source questions the pituitary discovery itself, only the institutional politics around his group. SELF-CALIBRATION: rows reviewed: experimentation (80), leadership_drive (76), impact_motivation (74). Lowered: impact_motivation 74/0.62 -> 70/0.58, because the evidence is almost entirely admiring institutional and obituary-style text with no independent source assessing the motive. experimentation kept (independent biography entry describes the same experiments); leadership_drive kept (reference biography plus a critical historians' account). HANDBACK58: {\"slug\":\"bernardo-houssay\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":7,\"self_calibrated_rows\":[{\"attribute\":\"impact_motivation\",\"old_score\":74,\"old_confidence\":0.62,\"new_score\":70,\"new_confidence\":0.58,\"reason\":\"evidence almost entirely admiring institutional and obituary text; no independent source assesses the motive\"}],\"reviewed_kept\":[\"experimentation\",\"leadership_drive\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":7}"
+  }
+}

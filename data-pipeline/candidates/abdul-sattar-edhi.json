@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "abdul-sattar-edhi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Abdul Sattar Edhi",
+    "aliases": [
+      "Abdul Sattar Eidhi"
+    ],
+    "wikidataId": "Q317465",
+    "birthYear": 1928,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "PK"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist"
+    ],
+    "fieldIds": [
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer",
+      "grassroots_organizer"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_edhi_wikidata",
+      "kind": "wikidata",
+      "title": "Abdul Sattar Edhi (Q317465), verified live via the Wikidata API (2026-10-27): label 'Abdul Sattar Edhi', description 'Pakistani philanthropist, social activist, ascetic and humanitarian', born 1928-02-28, died 2016-07-08. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q317465"
+    },
+    {
+      "id": "src_edhi_balzan",
+      "kind": "award_body",
+      "title": "International Balzan Prize Foundation, '2000 Balzan Prize for Humanity, Peace and Fraternity among Peoples: Abdul Sattar Edhi' (prizewinner page with laudatio), read in full. CANONICAL SIGNIFICANCE SOURCE: gives the dispensary opened in 1951, the maternity unit and nurse training, the 1957 flu epidemic, the 1974 Edhi Trust and Foundation, the plan of trauma centres every 100 km and rural centres every 20 km, the radio-linked ambulance fleet, air ambulances, the burial service for unclaimed bodies, his refusal of government support, and the 1986 Magsaysay Award. Prize citation, admiring; its sentence on a short spell as a member of parliament in 1964 is political context and not scored.",
+      "url": "https://www.balzan.org/en/prizewinners/abdul-sattar-edhi/"
+    },
+    {
+      "id": "src_edhi_dawn",
+      "kind": "press",
+      "title": "Hajrah Mumtaz, 'Obituary: Lifelong mission of mercy', Dawn (Karachi), 9 July 2016, read in full: the 1951 dispensary, the Foundation's hospitals, ambulances (over 6,000 dispatcher calls a day in Karachi), cradles for unwanted infants, his petition on identity cards for children of unknown parentage, his hands-on presence beside ambulance drivers and in soliciting donations, and honorary doctorates. Warm local obituary that contains his own recollections from interviews; reader comments were not used.",
+      "url": "https://www.dawn.com/news/amp/1269692"
+    },
+    {
+      "id": "src_edhi_csm",
+      "kind": "press",
+      "title": "Simone McCarthy, 'Pakistan mourns Angel of Mercy, philanthropist Abdul Sattar Edhi', Christian Science Monitor (with AP material), 9 July 2016, read in full: funding only from private donations and not from the government or from donors whose motives he doubted, his account of starting the first clinic (from a 2009 NPR interview), criticism from religious figures, his wife's remarks to the Guardian, and the contrast with another ambulance fleet. Secondary news report.",
+      "url": "https://features.csmonitor.com/World/Global-News/2016/0709/Pakistan-mourns-Angel-of-Mercy-philanthropist-Abdul-Sattar-Edhi"
+    },
+    {
+      "id": "src_edhi_lse",
+      "kind": "press",
+      "title": "Usama Khilji, 'Abdul Sattar Edhi: The philanthropist who filled in for the state in Pakistan', South Asia @ LSE blog, 15 July 2016, read in full: an academic-hosted obituary by a Pakistani activist covering the foundation's growth (1,500 ambulances in 1997, over 1,800 and 335 centres later), refusal of Indian and Pakistani government offers of money and treatment abroad, and criticism by clerics. Opinion piece (the blog says it does not represent the LSE); sympathetic.",
+      "url": "https://blogs.lse.ac.uk/southasia/2016/07/15/abdul-sattar-edhi-the-philanthropist-who-filled-in-for-the-state-in-pakistan"
+    },
+    {
+      "id": "src_edhi_eqtimes",
+      "kind": "press",
+      "title": "'One month on, Pakistan still mourns', Equal Times (a labour and rights news site), August 2016, read in full: criticism from religious figures that he was too liberal, the dispute over his cornea donation, I. A. Rehman of the Human Rights Commission of Pakistan on why hardline clerics opposed him, the family's worry about donations after his death, and a rights activist's comment that the state was claiming credit for services it had failed to provide. Journalistic with named critics; no financial audit of the foundation was found.",
+      "url": "https://www.equaltimes.org/one-month-on-pakistan-still-mourns"
+    },
+    {
+      "id": "src_edhi_npr",
+      "kind": "press",
+      "title": "Hannah Bloch, 'Abdul Sattar Edhi, Known As Pakistan's Mother Teresa, Dies At 88', NPR via GBH, 8 July 2016, read in full: he drove his own ambulance and transported the injured and dead during Karachi's violence, accepted only private donations, faced death threats, attacks on ambulances and volunteers, and the occupation of a facility by Islamists. Short news obituary.",
+      "url": "https://www.wgbh.org/news/2016-07-08/abdul-sattar-edhi-known-as-pakistans-mother-teresa-dies-at-88"
+    },
+    {
+      "id": "src_edhi_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file pages 'Abdul Sattar Edhi.jpg', 'Faisal Edhi and Abdul Sattar Edhi.jpg', 'Faisal and Abdul Sattar Edhi.jpg' and 'Edhi.jpg', and the Commons category for Edhi, checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/Category:Abdul_Sattar_Edhi"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_edhi_balzan, src_edhi_dawn, src_edhi_csm | 1951-1988 | prize citation + press] He opened a free dispensary in 1951 with his own savings, bought an old van for use as an ambulance after a 1950s donation, added a maternity unit and nurse training, and later extended centres across the country (Balzan). Dawn adds that he also went beyond direct service, filing a petition so that children of unknown parentage could obtain identity cards. The earliest steps rest on his own 2009 interview and the prize citation. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 74 / 0.58 to 70 / 0.55 because the origin story is largely self-reported and the citation is admiring."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_edhi_balzan, src_edhi_lse | 1974-1997 | prize citation + opinion piece] The Balzan laudatio describes a plan of trauma centres every 100 km and rural centres every 20 km along highways, a radio network linking all centres to the Mithadar headquarters, and air ambulances; LSE gives the growth to 1,500 ambulances by 1997. These are documented but come from an admiring prize citation, with no independent account of how the plan was drawn up, so the score is kept moderate."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_edhi_dawn, src_edhi_npr, src_edhi_balzan, src_edhi_csm | 1951-2016 | press + prize citation] Sources agree on more than sixty years of continuous work from the 1951 dispensary to his death in 2016; NPR reports he kept driving his own ambulance during years of gang violence and continued despite death threats and attacks on ambulances and volunteers; Dawn says he remained actively involved until the end despite kidney disease from 2013. Several independent news obituaries agree on the continuity."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_edhi_csm, src_edhi_lse, src_edhi_npr, src_edhi_balzan | 1950s-2016 | press + prize citation] Four sources agree that he refused government funding and donations from people whose motives he doubted, and LSE adds that he declined an Indian government offer of 10 million rupees in 2015 and an offer to arrange treatment abroad. The Equal Times piece shows the family continuing the policy after his death. Documented organisational policy; its causes are interpreted by sympathetic writers, so the score is not higher."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_edhi_npr, src_edhi_csm, src_edhi_eqtimes | 1990s-2016 | press] He carried on despite criticism from clerics who called him an infidel, attacks on ambulances, and an occupation of a facility (NPR, Christian Science Monitor); I. A. Rehman is quoted in Equal Times saying clerics opposed him because he attacked religiosity and the divisions it fostered, and he kept the infant cradles that critics said encouraged illegitimacy. The specific confrontations are reported secondhand, and no episode of his direct negotiation is documented in the sources read."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_edhi_dawn, src_edhi_csm, src_edhi_balzan, src_edhi_npr | 1951-2016 | press + prize citation] He lived in a small room adjoining the foundation office, owned two sets of clothes (Christian Science Monitor, citing the Washington Post), rode with ambulance drivers and solicited donations in person (Dawn), and washed the dead during the 1965 war and Karachi violence (Dawn, NPR); the prize citation says he lived simply and had no home outside the dispensary. Admiring sources agree, and his statements about motive ('humanity my religion') are his own and not scored."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_edhi_balzan, src_edhi_csm, src_edhi_dawn | 1951-1990s | prize citation + press] He begged on the street for the first dispensary, sold medicines below market price with a salaried doctor, invested an inheritance for monthly income, turned an old van into an ambulance, and ran a vast network on private donations with a small administrative staff (Balzan, Christian Science Monitor, Dawn). Independent evidence of how finances and management were actually handled was not found: no audit or critical study of the foundation was read."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "압둘 사타르 에디"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. Best candidate: 'Abdul Sattar Edhi.jpg' on Wikimedia Commons (uploader 'Hussain', January 2009, own-work claim, CC BY-SA 3.0 and GFDL, 1856 x 2784 per the lead). Blocker: the licence rests solely on an uploader's own-work assertion with no verifiable photographer, institution or event licence. Alternatives checked and rejected: two 2016 photographs credited to Yasmin Jaffri with source given as the Edhi Foundation but licensed by the uploader under CC BY-SA 4.0 and CC BY 4.0 and showing Faisal Edhi; and 'Edhi.jpg' (Asif Hassan, February 2016), whose source field says AFP and the Edhi Foundation but whose licence says self-published. Next step: find a photograph with a verifiable licence from a named institution (for example a Wikimedia event, a UN or government page, or a press agency with an open licence), or obtain written terms from the Edhi Foundation or the photographer. Kind, if resolved: likeness.",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Abdul_Sattar_Edhi.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-27T00:00:00Z",
+    "updatedAt": "2026-10-27T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / HELD: the lead's P18 file 'Abdul Sattar Edhi.jpg' is an uploader-only 'own work' claim by 'Hussain' (January 2009, CC BY-SA 3.0 and GFDL), the kind of unverifiable uploader assertion the portrait rules reject. Alternatives on Commons: two photographs by 'Yasmin Jaffri' (20 March 2016, Edhi Foundation as source, claimed under CC BY-SA 4.0 and CC BY 4.0) with Faisal Edhi in the frame and no foundation or institution licence statement; and 'Edhi.jpg' (Asif Hassan, 15 February 2016) whose source is 'AFP, Edhi Foundation' yet is marked as self-published CC BY-SA 4.0, a source/licence conflict. No government, UN or press-agency page with an open licence was found within the bounded retry (about six calls). PREFLIGHT: QID VERIFIED LIVE (2026-10-27): Q317465 label 'Abdul Sattar Edhi', description 'Pakistani philanthropist, social activist, ascetic and humanitarian', born 1928-02-28, died 2016-07-08 (some press give 1 January 1928); no collision in prod58 or candidates. REGION south_asia (Pakistan; career in Karachi). ERA 20th_century (precedent: mother-teresa). VOCABULARY: activist (labelled; the 'philanthropist' id has no label), field social_reform, tags founder, organizer and grassroots_organizer, archetypes organizational_leader and social_influencer all have EN and KO labels. ZERO POLITICS: his primary identity is founder and operator of a welfare and ambulance network (institution-building); his short term as a member of parliament in 1964 (Balzan), his socialist reading and the Lenin Peace Prize (LSE), and his criticism of the state and clerics are unscored context; refusing government money is scored only as organisational autonomy. CANONICAL SIGNIFICANCE SOURCE: International Balzan Prize Foundation, '2000 Balzan Prize' page for Edhi (https://www.balzan.org/en/prizewinners/abdul-sattar-edhi/). READ: Balzan (full), Dawn obituary (full), Christian Science Monitor/AP (full), LSE South Asia blog (full), Equal Times (full), NPR/GBH (full). NOT opened: the Edhi Foundation's own site (self-promotional; fetched but not used), Tehmina Durrani's authorised memoir A Mirror to the Blind (partly self-report; the Balzan speech page and a critical blog review were seen only in search summaries), the Guardian and BBC obituaries (URLs returned 404), Britannica. PERSPECTIVES: a prize foundation, a Pakistani national daily, an international news report, an academic-hosted opinion piece, a labour/rights news site with named critics. COUNTER-VOICES: religious critics (infidel charges, infant cradles, the cornea donation), quoted in NPR, CSM and Equal Times; no critical voice on foundation finances or management was found, which is a gap and the reason for the capped confidence. EXCLUSIONS: childhood, his mother's illness, his family and health were read but not scored or inferred. SELF-CALIBRATION (agent): top-risk rows reviewed: proactive_agency (74/0.58 lowered to 70/0.55), impact_motivation (72/0.56 kept, four agreeing sources and observed behaviour), planning_orientation (60/0.48 set conservatively at first pass, kept). FLAGS: 7 rows, none above 72; no independent management or financial critique read; portrait held. HANDBACK58: {\"slug\": \"abdul-sattar-edhi\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"proactive_agency\", \"old_score\": 74, \"old_confidence\": 0.58, \"new_score\": 70, \"new_confidence\": 0.55, \"reason\": \"the origin of the dispensary rests on his own 2009 interview as quoted by the press and on an admiring prize citation; later expansion is better documented\"}], \"reviewed_kept\": [\"impact_motivation\", \"planning_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  }
+}

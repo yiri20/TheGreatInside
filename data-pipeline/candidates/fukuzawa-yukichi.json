@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fukuzawa-yukichi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Fukuzawa Yukichi",
+    "aliases": [
+      "Yukichi Fukuzawa",
+      "福澤諭吉"
+    ],
+    "wikidataId": "Q355447",
+    "birthYear": 1835,
+    "deathYear": 1901,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "writer",
+      "editor"
+    ],
+    "fieldIds": [
+      "education",
+      "journalism"
+    ],
+    "impactDomains": [
+      "educational",
+      "literary",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_fukuzawa_wikidata",
+      "kind": "wikidata",
+      "title": "Fukuzawa Yukichi (Q355447), verified live via the Wikidata API (2026-10-26): label 'Fukuzawa Yukichi', description 'Modern Enlightenment thinker, educator, philosopher, scholar, author, writer, journalist, translator, entrepreneur, and founder of Keio University in Japan's Meiji era (1835-1901)', born 1835-01-10, died 1901-02-03, Korean label present, P18 image 'Fukuzawa Yukichi 1891.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q355447"
+    },
+    {
+      "id": "src_fukuzawa_keio",
+      "kind": "institution",
+      "title": "Keio University, 'Yukichi Fukuzawa: A Brief Look into the Life of Keio Founder' (read in full). CANONICAL SIGNIFICANCE SOURCE: his three trips to the West, the conclusion that Japan needed a new education system, the school that became Keio Gijuku, An Encouragement of Learning, the introduction of speech-making (enzetsu) and new Japanese terms, women's equality writings, the Jiji Shimpo newspaper (dated 1883 here, 1882 elsewhere), and his 1896 'Last Testament' speech. Admiring founder-institution account, so used with lower confidence for character claims.",
+      "url": "https://www.keio.ac.jp/en/about/philosophy/fukuzawa-en/"
+    },
+    {
+      "id": "src_fukuzawa_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Fukuzawa Yukichi' (lead summary and fact box read; the full article text sits behind the page's expandable sections and was not opened): author, educator and publisher; Keio University developed from the Dutch-language school he started in 1858; Seiyo jijo; the Jiji shimpo newspaper (1882) that trained liberal politicians and journalists; over 100 books on parliamentary government, popular education, language reform and women's rights.",
+      "url": "https://www.britannica.com/biography/Fukuzawa-Yukichi"
+    },
+    {
+      "id": "src_fukuzawa_nippon",
+      "kind": "press",
+      "title": "Nippon.com, 'Fukuzawa Yukichi: Advocate for Education and Independence' (Shapers of Japanese History series, translated from Japanese; read in full): career from rangaku student through shogunate missions to Seiyo jijo, An Encouragement of Learning and its sales, the Meirokusha society, his role as private citizen, his resistance to top-down modernisation under Okubo, the 1881 political crisis and the Jiji Shimpo editorials, and his late concern with individual independence. Independent scholar's essay for a Japanese public-media site; interpretive in places (the Franklin comparison is the author's own view).",
+      "url": "https://www.nippon.com/en/japan-topics/g00714/fukuzawa-yukichi-advocate-for-education-and-independence.html"
+    },
+    {
+      "id": "src_fukuzawa_nwe",
+      "kind": "biography",
+      "title": "New World Encyclopedia, 'Fukuzawa Yukichi' (read in full): early education in Dutch and English, the shogunate missions of 1860-1867, Seiyo jijo, the founding of Keio and the Jiji Shimpo, his repeated refusal of government posts, and a Criticism section covering the Datsu-A ron essay (1885) and his support for the First Sino-Japanese War. Compiled tertiary encyclopedia with a Wikipedia-derived base; used for the refusal of posts and the criticism, and its 'first independent university' claim is not repeated.",
+      "url": "https://newworldencyclopedia.org/entry/Fukuzawa_Yukichi"
+    },
+    {
+      "id": "src_fukuzawa_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Fukuzawa Yukichi 1891.jpg' (checked for the portrait only; not used for any scoring).",
+      "url": "https://commons.wikimedia.org/wiki/File:Fukuzawa_Yukichi_1891.jpg"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fukuzawa_keio, src_fukuzawa_nippon, src_fukuzawa_britannica | 1860-1901 | founder institution + scholar essay + reference] Keio says his travels convinced him that Japan needed a new education system to stay independent and that he then created his school, and records his 1896 statement that he wanted Keio to be 'the springhead of noble character' for the whole nation; Nippon.com and Britannica describe sustained work through a school, bestselling books and a newspaper aimed at spreading practical learning and civic independence. The aim is stated mostly by Keio itself, but the output is independently documented. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 74 / 0.58 to 70 / 0.55 because the stated purpose and the 1896 speech come from the founder's own institution, while independent sources document the work but not his motives."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_fukuzawa_keio, src_fukuzawa_nippon, src_fukuzawa_nwe | 1854-1882 | founder institution + scholar essay + encyclopedia] Keio says that on the 1867 mission to the United States, though sent as an envoy, his personal aim was to buy textbooks to take home, and that he then set up his own school; Nippon.com has him going to Nagasaki in 1854 and starting a Dutch-studies school in Edo in 1858 at about age 23; Britannica and Nippon.com date the Jiji Shimpo newspaper to 1882. These are self-started projects documented by several sources, though the details of the textbook errand come from Keio's own account."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fukuzawa_keio, src_fukuzawa_nwe, src_fukuzawa_nippon | 1854-1868 | founder institution + encyclopedia + scholar essay] Keio and New World Encyclopedia say he learned Dutch and, once Yokohama opened to Western traders in 1859, turned to English; Nippon.com places his rangaku studies in Nagasaki and Osaka before he reorientated toward English and the missions of 1860, 1862 and 1867. Documented change of working language and field in response to changed circumstances, but the sources are brief and partly founder-institutional."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fukuzawa_nwe, src_fukuzawa_nippon, src_fukuzawa_keio | 1868-1897 | encyclopedia + scholar essay + founder institution] New World Encyclopedia says he consistently declined government posts after the Restoration, insisting Japan needed an independent intellectual community, and Nippon.com says he operated mainly as a private citizen and resisted Okubo's state-led model in his 1877 writing on the division of power; Keio's account of the school as meritocratic and independent matches. Dual-edged because New World Encyclopedia also records later criticism of his Datsu-A ron essay and his support for the First Sino-Japanese War; those political positions are not scored here."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fukuzawa_keio, src_fukuzawa_nippon, src_fukuzawa_britannica | 1866-1901 | founder institution + scholar essay + reference] Nippon.com says Seiyo jijo and An Encouragement of Learning were bestsellers, Britannica says he wrote over 100 books and that Jiji Shimpo trained liberal politicians and journalists, and Keio says he and colleagues coined the word enzetsu for public speaking and promoted debate. Reach is documented by independent sources, but the sales and influence are stated in general terms without figures."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "후쿠자와 유키치"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/fukuzawa-yukichi-unknown-1891.jpg",
+    "width": 585,
+    "height": 756,
+    "source": "Photograph of Fukuzawa Yukichi taken around 1891, held by the Fukuzawa Research Center at Keio University; photographer not recorded. Public domain by age: the term for an 1891 photograph under Japan's 1899 Copyright Act expired long before 1996, so it was not restored in the United States. The same photograph is credited to the Fukuzawa Memorial Center for Modern Japanese Studies, Keio University, on Nippon.com. The Keio database page and any institutional terms could not be opened, so that is noted as unverified. Original Commons file 585 x 756 pixels, used as is with no cropping and no upscaling.",
+    "license": "Public domain (age of photograph)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photograph of Fukuzawa Yukichi, c. 1891, Fukuzawa Research Center, Keio University (photographer not recorded)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Fukuzawa_Yukichi_1891.jpg",
+    "creator": "Unknown photographer (Fukuzawa Research Center, Keio University, holder)",
+    "date": "c. 1891",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fukuzawa_Yukichi_1891.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-27T00:00:00Z",
+    "updatedAt": "2026-10-27T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / accepted with caveats: Commons file 'Fukuzawa Yukichi 1891.jpg' (585 x 756 pixels), a photograph dated c.1891 whose Commons source link points at the Keio University library photograph database and whose author field names the Fukuzawa Research Center (Keio) as holder; the photographer is not recorded. The rights basis is age: under Japan's 1899 Copyright Act a photograph's term ran from creation or publication and an 1891 photograph's term had expired long before 1996, so it was not restored in the US and is also well before 1931. The same photograph is credited 'Courtesy Fukuzawa Memorial Center for Modern Japanese Studies, Keio University' on Nippon.com, which gives the 1891 date independently of Commons; that is a credit line, not a stated restriction. CAVEAT: the Keio photograph database page itself could not be opened (connection failed) and no item-level institutional terms were found, so the Center's own terms are unverified; the lead may hold this if an institutional statement is required. File kept at its original 585 x 756 (no upscaling). PREFLIGHT: QID VERIFIED LIVE (2026-10-26) Q355447 label 'Fukuzawa Yukichi', born 1835-01-10, died 1901-02-03; matches the lead. No production slug or QID collision (grepped prod58 for fukuzawa, yukichi and Q355447) and no existing candidate file. REGION east_asia. ERA 19th_century (active 1858-1901). ZERO POLITICS: primary identity is educator, writer and newspaper founder; his political essays, the Datsu-A ron, his Korea reformist support and his Sino-Japanese War stance are not scored (only referred to as context in the independent_thinking rationale). VOCABULARY: occupations teacher, writer, editor; fields education, journalism; tags founder, communicator; archetypes organizational_leader, social_influencer all have EN and KO labels (grepped en.ts and ko.ts). CANONICAL SIGNIFICANCE SOURCE: Keio University, 'Yukichi Fukuzawa: A Brief Look into the Life of Keio Founder' (https://www.keio.ac.jp/en/about/philosophy/fukuzawa-en/). READ: Keio page, Nippon.com essay and New World Encyclopedia (full), Britannica lead summary only. PERSPECTIVES: founder institution, independent scholar essay, two general encyclopedias. COUNTER-VOICES: New World Encyclopedia's Criticism section (Datsu-A ron, Sino-Japanese War) and Nippon.com's account of his being squeezed out and of his late worries about dependence on the state. NOT OPENED: the Autobiography and Seiyo jijo themselves, Blacker, Craig and other monographs, the Asia-Pacific Journal Japan Focus article on Datsu-A ron (403 blocked), the Britannica full text, the UNESCO biography (404), Japanese-language sources, the Keio photo database. SPARSE PROFILE: five rows, none above 70, confidence 0.48-0.55; four substantive sources (below the preferred 6) because several scholarly pages were blocked, flagged for the lead. Founding years differ: Keio school 1858 (Britannica, Nippon.com) or 1868 (New World Encyclopedia); Jiji Shimpo 1882 (Britannica, Nippon.com) or 1883 (Keio). SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (74/0.58 lowered to 70/0.55), proactive_agency (kept), independent_thinking (kept). HANDBACK58: {\"slug\":\"fukuzawa-yukichi\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"impact_motivation\",\"old_score\":74,\"old_confidence\":0.58,\"new_score\":70,\"new_confidence\":0.55,\"reason\":\"stated purpose and 1896 speech come from the founder's own institution; independent sources document the work, not the motives\"}],\"reviewed_kept\":[\"proactive_agency\",\"independent_thinking\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}

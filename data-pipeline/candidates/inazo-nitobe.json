@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "inazo-nitobe",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Inazo Nitobe",
+    "aliases": [
+      "Nitobe Inazo",
+      "Inazō Nitobe",
+      "新渡戸稲造"
+    ],
+    "wikidataId": "Q12696",
+    "birthYear": 1862,
+    "deathYear": 1933,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "economist",
+      "writer"
+    ],
+    "fieldIds": [
+      "education",
+      "agriculture"
+    ],
+    "impactDomains": [
+      "educational",
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "communicator",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nitobe_wikidata",
+      "kind": "wikidata",
+      "title": "Nitobe Inazo (Q12696), verified live via the Wikidata API (2026-10-26): label 'Nitobe Inazo', description 'Japanese educator, agricultural economist and diplomat (1862-1933)', born 1862-09-01, died 1933-10-15, Korean label present, P18 image 'Monsieur Inazo Nitobe.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q12696"
+    },
+    {
+      "id": "src_nitobe_ndl",
+      "kind": "institution",
+      "title": "National Diet Library of Japan, 'NITOBE Inazo' (Portraits of Modern Japanese Historical Figures; short entry read in full). CANONICAL SIGNIFICANCE SOURCE: educator and social-science scholar; Sapporo Agricultural College, Tokyo Imperial University professor, first president of Tokyo Women's Christian University, education based on personalism at the First Higher School (1906-1913), League of Nations Under-Secretary-General (1919-1926), and author of Bushido: The Soul of Japan (1900). Brief national-library biography; the First Higher School end date differs from the Suzuki chapter.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/311"
+    },
+    {
+      "id": "src_nitobe_suzuki",
+      "kind": "biography",
+      "title": "Tadanobu Suzuki, 'Two Bridges in Nitobe's Bushido and Their Symbolism Today' (University of Victoria repository; about 16,000 characters of text extracted from the PDF and read, so some pages may be missing): his move from agricultural studies to English literature and economics, study at Johns Hopkins and in Germany, his career at Sapporo, Kyoto and Tokyo, headmaster of the First Higher School (1906-1911), founding president of Tokyo Women's Christian University (1918-1923), why and for whom he wrote Bushido in English, its 1900 and 1905 editions, and a Taiwan colonial advisory post. Scholarly commemorative essay, admiring in tone; Nitobe's own statements are quoted from his collected works.",
+      "url": "https://dspace.library.uvic.ca/bitstreams/842925bd-327c-474a-a796-5e17bf5823af/download"
+    },
+    {
+      "id": "src_nitobe_etzrodt",
+      "kind": "biography",
+      "title": "Christian Etzrodt, 'Nitobe Inazo's Bushido: Science or Fiction?', Electronic Journal of Contemporary Japanese Studies 18(3), 2018 (introduction and abstract read; the full text and appendix were not read): reports that Benesch and other researchers argue Bushido is an invented tradition, tests it against 29 samurai texts, and concludes that Nitobe gave a reasonably accurate description of most of the values. Independent scholarly counter-voice on the reliability of his best-known book.",
+      "url": "https://japanesestudies.org.uk/ejcjs/vol18/iss3/etzrodt.html"
+    },
+    {
+      "id": "src_nitobe_twcu",
+      "kind": "institution",
+      "title": "Tokyo Woman's Christian University, 'The Aims of the Founders of TWCU' (2018 centennial essay by Prof. Sano Masako, hosted by the United Church of Christ in Japan; read in full): the university's 1918 founding by six mission boards, Nitobe as first president with Yasui Tetsu as dean and A. K. Reischauer as managing director, and his first-graduation-ceremony speech on educational aims. Founder-institution account, admiring.",
+      "url": "https://uccj.org/?p=32675"
+    },
+    {
+      "id": "src_nitobe_ubc",
+      "kind": "institution",
+      "title": "UBC Botanical Garden, 'Inazo Nitobe and Bushido' (Nitobe Memorial Garden; read in full): memorial-garden biography stating his wish to be 'a bridge across the Pacific', his education in agriculture and languages in Tokyo, Sapporo, the United States and Germany, and the reception of Bushido in the West. Commemorative and admiring.",
+      "url": "https://botanicalgarden.ubc.ca/?p=1660"
+    },
+    {
+      "id": "src_nitobe_albertkahn",
+      "kind": "institution",
+      "title": "Musee departemental Albert-Kahn collection record 'Inazo Nitobe', inventory A35816, autochrome by Auguste Leon taken 21 December 1922 (checked for the portrait only; not used for any scoring).",
+      "url": "https://collections.albert-kahn.hauts-de-seine.fr/document/inazo-nitobe/617a7a44cf8b8968b3385dd0"
+    },
+    {
+      "id": "src_nitobe_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Monsieur Inazo Nitobe.jpg' (checked for the portrait only; not used for any scoring).",
+      "url": "https://commons.wikimedia.org/wiki/File:Monsieur_Inaz%C5%8D_Nitobe.jpg"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_nitobe_suzuki, src_nitobe_ndl, src_nitobe_ubc | 1881-1923 | scholarly essay + national library + memorial garden] Suzuki says he trained in agricultural science, sought entry to the University of Tokyo to study economics and English literature, studied at Johns Hopkins and took a doctorate in agricultural economics in Germany, then taught agricultural economics, law and colonial studies at Sapporo, Kyoto and Tokyo; NDL records him as a Doctor of Agriculture and of Jurisprudence and as an educator; UBC lists agriculture, languages and writing. The spread of fields is documented by several sources; the sources do not show how he combined them."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nitobe_suzuki, src_nitobe_ubc, src_nitobe_twcu | 1880s-1923 | scholarly essay + memorial garden + founder institution] Suzuki quotes his reported wish, as a young man, to 'introduce foreign thoughts to Japan and Japanese thoughts to the foreign countries', UBC says he dedicated his life to being 'a bridge across the Pacific', and the TWCU essay quotes his first-graduation speech on valuing character and 'cultivating persons rather than human resources'. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.55 to 66 / 0.5 because the stated aim comes from his own reported words relayed by one chapter and by two commemorative institutions; the work is documented but his motive is not independently shown."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nitobe_suzuki, src_nitobe_ndl | 1884-1891 | scholarly essay + national library] Suzuki describes him leaving the University of Tokyo for the United States in 1884, shifting at Johns Hopkins toward international relations and then returning to agricultural studies when the funding was tied to a German doctorate; NDL records his 1884 departure and 1891 return to Japan. These are documented changes of direction, but the sources give little about how he handled them. Illness or breakdown episodes mentioned by Suzuki are not used."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_nitobe_suzuki, src_nitobe_ubc, src_nitobe_etzrodt | 1899-1905 | scholarly essay + memorial garden + scholarly article] Suzuki says he wrote Bushido in English for foreign readers, explained Japanese values with parallel European examples, and that the book sold widely after its 1905 American edition; UBC says it was translated into dozens of languages and read by Theodore Roosevelt and John F. Kennedy. Dual-edged because Etzrodt reports that Benesch and others call the book an invented tradition, although Etzrodt's own test of 29 samurai texts finds it largely representative. The reach is documented; the accuracy is contested among scholars."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_nitobe_twcu, src_nitobe_suzuki | 1918-1923 | founder institution + scholarly essay] The TWCU essay says the university was founded by six mission boards and that Nitobe as president, Yasui Tetsu as dean and A. K. Reischauer as managing director laid its cornerstone; Suzuki dates his presidency 1918-1923. This shows he worked within a multi-party founding team, but the source is the university's own essay and gives no detail on how the work was divided."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "니토베 이나조"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/inazo-nitobe-leon-1922.jpg",
+    "width": 818,
+    "height": 1200,
+    "source": "Portrait of Inazo Nitobe, autochrome by Auguste Leon, taken 21 December 1922 at Boulogne, Musee departemental Albert-Kahn, inventory A35816. The museum's collection record for this item states public domain and freely reusable (CC-00); the photographer died in 1942 and Commons tags the file as public domain on the same basis. Commons original 1073 x 1575 pixels, downscaled to 818 x 1200 with no cropping and no upscaling.",
+    "license": "Public domain, freely reusable (CC-00) per the museum record",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Auguste Leon, Inazo Nitobe, autochrome, 21 December 1922, Musee departemental Albert-Kahn, A35816",
+    "attributionUrl": "https://collections.albert-kahn.hauts-de-seine.fr/document/inazo-nitobe/617a7a44cf8b8968b3385dd0",
+    "creator": "Auguste Leon",
+    "date": "1922-12-21",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Monsieur_Inaz%C5%8D_Nitobe.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-27T00:00:00Z",
+    "updatedAt": "2026-10-27T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / confirmed at item level: the Musee departemental Albert-Kahn collection record for this exact item (inventory A35816, autochrome by Auguste Leon, taken 21 December 1922 at Boulogne, caption naming Nitobe as Under-Secretary of the League of Nations) states Rights: public domain and Licence: freely reusable (CC-00) - public domain, which is item-level and not generic collection language; Commons agrees (operator died 1942, PD-old, same source). The Commons upload is 1073 x 1575 pixels; downscaled to 818 x 1200 with no cropping and no upscaling. A documented 1922 sitting, so kind is likeness. The museum's general terms of use link was not separately opened. PREFLIGHT: QID VERIFIED LIVE (2026-10-26) Q12696 label 'Nitobe Inazo', description 'Japanese educator, agricultural economist and diplomat (1862-1933)', born 1862-09-01, died 1933-10-15; matches the lead. No production slug or QID collision (grepped prod58 for nitobe, inazo and Q12696) and no existing candidate file. REGION east_asia. ERA 19th_century by birth year, following the Kitasato (1853-1931) precedent. ZERO POLITICS: primary identity is educator and writer; his League of Nations post, House of Peers seat, Institute of Pacific Relations chairmanship and Taiwan colonial advisory role are context only and are not scored; the rows use education, writing and institution-building behaviour. VOCABULARY: occupations teacher, economist, writer; fields education, agriculture; tags communicator, mentor; archetypes scholarly_specialist, organizational_leader all have EN and KO labels (grepped en.ts and ko.ts). CANONICAL SIGNIFICANCE SOURCE: National Diet Library of Japan, 'NITOBE Inazo' (https://www.ndl.go.jp/portrait/e/datas/311). READ: NDL entry, Suzuki chapter (text extracted from PDF, about 16,000 characters), TWCU centennial essay, UBC garden page, Etzrodt article (abstract and introduction only). PERSPECTIVES: national library, scholarly commemorative essay, founder institution, memorial garden, independent scholarly article on Bushido. COUNTER-VOICE: Etzrodt's account of the invented-tradition critique (Benesch) and his rebuttal. NOT OPENED: Bushido itself, full Etzrodt text, Benesch's book (catalogue and review snippets only), a biography of Nitobe, Japanese-language sources, Britannica (404) and New World Encyclopedia (520 error). Nitobe's Taiwan colonial work and League diplomacy are mentioned by Suzuki and NDL but not scored. Health episodes mentioned by Suzuki are not used. SPARSE PROFILE: five rows, none above 66, confidence 0.44-0.52; only the Suzuki chapter gives substantive behaviour and the others are admiring or brief, so this is flagged for the lead as a thin evidence base. First Higher School tenure is 1906-1913 per NDL and 1906-1911 per Suzuki. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (70/0.55 lowered to 66/0.5), persuasiveness (kept), cross_domain_range (kept). HANDBACK58: {\"slug\":\"inazo-nitobe\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"impact_motivation\",\"old_score\":70,\"old_confidence\":0.55,\"new_score\":66,\"new_confidence\":0.5,\"reason\":\"stated aim rests on his own reported words relayed by one chapter and two commemorative institutions; work documented but motive not independently shown\"}],\"reviewed_kept\":[\"persuasiveness\",\"cross_domain_range\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":true,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"top_omission: first draft carded Bushido and the two education posts only; his League of Nations Under-Secretary-General post (a defining part of why he is remembered, per NDL, Suzuki and UBC) was added to the third card as a factual clause and is not scored.\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}

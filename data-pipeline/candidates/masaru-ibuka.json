@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "masaru-ibuka",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Masaru Ibuka",
+    "aliases": [
+      "Ibuka Masaru"
+    ],
+    "wikidataId": "Q352496",
+    "birthYear": 1908,
+    "deathYear": 1997,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator",
+      "product_leader"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ibuka_wikidata",
+      "kind": "wikidata",
+      "title": "Masaru Ibuka (Q352496), verified live via the Wikidata API (2026-10-26): label 'Masaru Ibuka', description 'Japanese businessman (1908-1997)', born 1908-04-11, died 1997-12-19, Korean label present, P18 image 'Ibuka Masaru.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q352496"
+    },
+    {
+      "id": "src_ibuka_ethw",
+      "kind": "institution",
+      "title": "IEEE Engineering and Technology History Wiki, 'Masaru Ibuka', read in full. CANONICAL SIGNIFICANCE SOURCE: his Waseda thesis on a projection television system, early work in sound-on-film and home sound-movie equipment, founding of Tokyo Telecommunications Laboratory in 1945, the 1954 transistor licence from Western Electric and the first transistorised radio, later work on tape recorders, transistorised television, the Esaki diode and the Trinitron tube, and the 1972 IEEE Founders Medal 'for outstanding administrative leadership in applying solid-state devices in consumer electronics'. Professional-society biography originally written during his lifetime (it speaks of him in the present tense), probably from material supplied by him; admiring, and its 1950 presidency date differs from other sources.",
+      "url": "https://ethw.org/Masaru_Ibuka"
+    },
+    {
+      "id": "src_ibuka_shmj",
+      "kind": "institution",
+      "title": "Semiconductor History Museum of Japan, 'Masaru Ibuka' (Japanese Pioneers), read in full: Waseda graduate, 1937 invention prize at the Paris exhibition for 'Dancing Neon', co-founding of Tokyo Tsushin Kogyo in 1946, the TR-55 as Japan's first commercial transistor radio (1955), Sony's later products, his interest in child education and the Order of Culture (1992). Short museum-style profile by an industry society; admiring and brief.",
+      "url": "https://www.shmj.or.jp/english/pioneers/pnr06.html"
+    },
+    {
+      "id": "src_ibuka_gale",
+      "kind": "biography",
+      "title": "'Ibuka, Masaru', Encyclopedia of World Biography (Gale, via Encyclopedia.com), read in full: Waseda years and the neon prize, wartime research work, founding of Tokyo Tsushin Kogyo in May 1946, the failed rice cooker, Japan's first tape recorder (1950), the 1952 US trip and purchase of the transistor licence, the 1955 transistor radio, the Trinitron he was reported to be proudest of, Betamax's later loss to VHS, a late-life ESP laboratory, his books on early childhood education and his own quotes from a Fortune interview. Reference compilation from newspaper obituaries and Fortune, admiring in tone, with a stated 1971 presidency that conflicts with ETHW (chairman in 1971 per ETHW). His marriage and divorce and war-era family connections were read but not used.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ibuka-masaru"
+    },
+    {
+      "id": "src_ibuka_newsweek",
+      "kind": "press",
+      "title": "Newsweek, 'An Inside Look At Sony' (10 October 1999), review of John Nathan's 'Sony: The Private Life', read in full: describes Ibuka as the older engineer who could make something magical from string and sealing wax, who concentrated on finding a mass-producible product in the tape recorder, who 'never fully grasped digital technology', and whose friendship with Morita underlay Sony. Short journalistic review of a company biography written with Sony's cooperation; mostly positive, with that one critical remark.",
+      "url": "https://www.newsweek.com/inside-look-sony-168110"
+    },
+    {
+      "id": "src_ibuka_the",
+      "kind": "press",
+      "title": "Times Higher Education, 'Made in Japan, big in America' (19 November 1999), review of Nathan's 'Sony: The Private Life', read in full: notes that Nathan, a professor of Japanese culture, had exceptional access to Sony management but could not interview either founder because of their 1992-93 strokes, that the book lacks business-strategy analysis, and that it covers Betamax and the Columbia Pictures write-off as failures; it treats the founding as a well-known story with little new. Academic reviewer; useful counterweight because it limits what the book can say about the founders themselves.",
+      "url": "https://www.timeshighereducation.com/node/90609"
+    },
+    {
+      "id": "src_ibuka_scmp",
+      "kind": "press",
+      "title": "South China Morning Post, 'Japan's dynamos' (9 October 1999), short review of Nathan's book, read in full: says Morita's drive came partly from wanting to please 'his co-founder, the guileless tinkerer Masaru Ibuka'. A three-minute review that contributes one characterisation of Ibuka.",
+      "url": "https://www.scmp.com/article/296049/japans-dynamos"
+    },
+    {
+      "id": "src_ibuka_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file pages 'Ibuka Masaru.jpg', 'Ibuka Masaru (1964).jpg' and 'Chunichi1966-01-17-1.jpg' (the category's other photographs), checked for the portrait only; not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:Ibuka_Masaru.jpg"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ibuka_ethw, src_ibuka_gale, src_ibuka_shmj | 1952-1955 | professional society + reference + museum] ETHW says he 'visualized the vast future possibilities' of the transistor for consumer electronics and obtained the Western Electric licence (dated 1954 there); Gale says that on a 1952 US trip he saw the transistor, then marketed for hearing aids and military use, and paid $25,000 for Japanese manufacturing rights, quoting him on why hearing aids were a poor fit for Japan; SHMJ records the TR-55 as the first commercial Japanese transistor radio in 1955. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 78 / 0.62 to 74 / 0.58 because the key reasoning comes from his own Fortune quotes as relayed by Gale and the licence date differs between sources."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ibuka_ethw, src_ibuka_shmj, src_ibuka_gale | 1926-1950 | professional society + museum + reference] ETHW notes he was a child who liked experimenting, a short-wave radio ham from 1926 and wrote a Waseda thesis on an experimental projection television; SHMJ and Gale record an invention prize at the Paris exhibition (1937 per SHMJ, 1933 per Gale) and Gale describes his staff heating ferric oxide in a frying pan to make magnetic paste for Japan's first tape recorder. The sources agree on a hands-on experimental bent, but the early biographical items are admiring and the date of the prize conflicts."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ibuka_newsweek, src_ibuka_gale, src_ibuka_scmp | 1946-1990 | press + reference + press] Newsweek, summarising Nathan's book, says he and Morita worked together for 40 years, with Ibuka on products and Morita on selling abroad; Gale quotes his son that the pair were bound 'more like love than friendship'; SCMP says Morita's drive came partly from wanting to please Ibuka. Kirkus and the THE review, which were also read, describe the partnership as surviving disagreements. The evidence is a long working partnership as reported by reviewers of one book; neither founder was interviewed for it."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ibuka_ethw, src_ibuka_gale | 1946-1975 | professional society + reference] ETHW has him founding the first company in 1945, becoming managing director then president (1950) and later chairman, and records the IEEE citation for 'outstanding administrative leadership'; Gale says the ideas for many products were his own and the engineers worked under his direct supervision, and that he left behind an engineering staff that produced the Walkman and the compact disc. The leadership evidence comes mostly from institutional and obituary-style sources, and the roles of president and chairman are dated differently in them."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ibuka_gale, src_ibuka_ethw | 1946-1955 | reference + professional society] Gale says the company started slowly, its first product, an electric rice cooker, was a flop, and he and about 20 engineers kept developing ideas until the tape recorder (1950); ETHW adds that producing a commercial-quality transistor device took 'considerable hard work'. Documented sequence of setbacks and continued effort, but described in brief, admiring summaries."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ibuka_gale, src_ibuka_the | 1952-1975 | reference + press] Gale says Sony invested so heavily in the Trinitron that failure could have meant its demise, and he paid $25,000 for the transistor rights before the market existed; the THE review notes Betamax and the Columbia Pictures purchase as major Sony failures, though the book (as reviewed) ties the Columbia write-off to Morita rather than Ibuka and Betamax is only briefly covered. Dual-edged because the large bets paid off for the Trinitron but Betamax lost; his own part in each decision is not isolated in the sources."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ibuka_ethw, src_ibuka_newsweek, src_ibuka_scmp | 1926-1945 | professional society + press] ETHW describes him as an inquisitive child fond of experimenting and an early short-wave ham; Newsweek calls him an engineer who could make something magical from string, sealing wax and an old battery, and SCMP calls him a 'guileless tinkerer'. The childhood description comes from an institutional biography probably supplied by him, and the reviewers' phrases are characterisations rather than documented episodes."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ibuka_shmj, src_ibuka_gale | 1946-1992 | museum + reference] SHMJ says he and Morita founded the company 'with the aim of contributing to society through technology' and that he addressed child education issues from an early stage, receiving the Order of Culture in 1992; Gale says his later project was to create a new corps of creative engineers through early childhood education, writing two books before 1971 and ten more after retiring. The aim is stated in an institutional profile and the education project is a late-career activity, so the row is kept moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이부카 마사루"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "BLOCKER: the only Commons portraits of Ibuka ('Ibuka Masaru.jpg' and 'Ibuka Masaru (1964).jpg', both from the business magazine Zaikai, 30 January 1964, photographer unknown, and a 1966 Chunichi Shimbun clipping) are tagged PD-Japan-organization together with Not-PD-US-URAA, meaning Commons itself records that they are not public domain in the United States; the repo's precedent (Matsushita) rejects exactly this case, and Japan's pre-1956 photograph rule does not apply because all are dated after 1956. No pre-1956 or government or institution-held image with a stated basis was found in one bounded check of the Commons category. NEXT STEP: find a pre-1957 published photograph with a documented publication date and unknown or long-dead photographer, or a Sony, museum or government image released with a clear licence, then re-run the rights review.",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ibuka_Masaru.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / downgraded to HELD: the Commons file page lists source 財界研究社『財界』新年特大号 (1964), author the publisher with photographer unknown, date 1964-01-30, licence PD-Japan-organization plus Not-PD-US-URAA; a photograph published in 1964 was still protected in Japan in 1996 and is therefore restored in the US, so it is not usable. The other two category files carry the same URAA flag. PREFLIGHT: QID VERIFIED LIVE (2026-10-26) Q352496 label 'Masaru Ibuka', description 'Japanese businessman (1908-1997)', born 1908-04-11, died 1997-12-19; matches the lead. No existing production or candidate entry for the slug or QID (akio-morita exists as a separate candidate). REGION east_asia (Japan). ZERO POLITICS: primary identity is engineer and company founder; wartime defence research is not scored. VOCABULARY: occupations engineer, entrepreneur, executive; fields business and engineering; tags founder, innovator, product_leader; archetypes entrepreneurial_builder and technical_innovator all have EN and KO labels (the same set used for akio-morita and konosuke-matsushita). CANONICAL SIGNIFICANCE SOURCE: IEEE Engineering and Technology History Wiki, 'Masaru Ibuka' (https://ethw.org/Masaru_Ibuka). READ: ETHW, SHMJ profile, Gale/Encyclopedia.com biography, Newsweek, Times Higher Education and SCMP reviews of Nathan's Sony biography, Kirkus blurb (skimmed, not cited). PERSPECTIVES: engineering society, semiconductor museum, reference biography, three journalistic reviews of an outside biographer's book, with the founders' own accounts excluded. COUNTER-VOICES: Newsweek's remark that he never fully grasped digital technology, the failed rice cooker, Betamax's loss to VHS, and the THE reviewer's note that the book offers little analysis and could not use first-hand accounts from either founder. NOT OPENED: Nathan's book, Morita's memoir 'Made in Japan' and Sony's own corporate history (insider or self-report, not needed), the Nature 1998 obituary (paywall: only the first paragraph previewed, not cited), the NYT 20 December 1997 obituary (bot-blocked), Fortune 1992 interview (reached only through Gale's quotes), Japanese-language sources. KNOWN CONFLICTS: presidency dates (1950 per ETHW, 1951 per SHMJ, 1971 per Gale, which ETHW gives as the year he became chairman), the date of the Paris prize (1933 versus 1937), the date of the transistor licence (1952 trip versus 1954 licence). Gale's marriages, family and wartime connections, his ESP laboratory approval and his golf and scouting posts are not scored. SPARSE PROFILE: eight rows, none above 74, confidence 0.50-0.58; the engineering-versus-management split rests partly on a journalist's summary of Nathan's book. SELF-CALIBRATION (agent): top-risk rows reviewed: opportunity_sensing (78/0.62 lowered to 74/0.58), collaboration (kept), experimentation (kept). HANDBACK58: {\"slug\":\"masaru-ibuka\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":8,\"self_calibrated_rows\":[{\"attribute\":\"opportunity_sensing\",\"old_score\":78,\"old_confidence\":0.62,\"new_score\":74,\"new_confidence\":0.58,\"reason\":\"key reasoning comes from his own Fortune quotes relayed by Gale and the licence date differs between sources\"}],\"reviewed_kept\":[\"collaboration\",\"experimentation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":8}"
+  }
+}

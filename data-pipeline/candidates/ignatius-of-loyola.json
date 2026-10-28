@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ignatius-of-loyola",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ignatius of Loyola",
+    "aliases": [
+      "Saint Ignatius of Loyola",
+      "Inigo Lopez de Onaz y Loyola"
+    ],
+    "wikidataId": "Q44281",
+    "birthYear": 1491,
+    "deathYear": 1556,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "theologian"
+    ],
+    "fieldIds": [
+      "religion",
+      "education"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ign_wikidata",
+      "kind": "wikidata",
+      "title": "Ignatius of Loyola (Q44281), verified live via the Wikidata API (2026-10-27): label 'Ignatius of Loyola', description 'Spanish Catholic priest and theologian (1491-1556)', died 1556-07-31; four conflicting birth dates in 1491 are listed. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q44281"
+    },
+    {
+      "id": "src_ign_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'St. Ignatius of Loyola' (article by Edward A. Ryan, a Jesuit church historian), read as far as the Paris years and the 1534 vows (the rest of the page was not delivered). CANONICAL SIGNIFICANCE SOURCE: states he formed the Society of Jesus in 1534, that it received papal recognition in 1540, that The Spiritual Exercises are a classic of Western spirituality, and that the Jesuits became known for missionary, educational and charitable work. Insider-authored and admiring; quotes his dictated Autobiography for his early life.",
+      "url": "https://www.britannica.com/biography/Saint-Ignatius-of-Loyola"
+    },
+    {
+      "id": "src_ign_cathen",
+      "kind": "biography",
+      "title": "'St. Ignatius of Loyola', The Catholic Encyclopedia (1910), New Advent edition, read in full (about 5,000 words): his studies at Barcelona, Alcala, Salamanca and Paris, his trials before inquisitors and how he came to demand a verdict, the 1539 deliberations on forming an order, the Formula and the bull of 1540, the Spiritual Exercises, the Constitutions drafted 1547-1550, his direction of missions by letter, the dispute with Simon Rodriguez and the Roman and German Colleges. A confessional, hagiographic source written by insiders; used for documented actions only, not for its claims of divine inspiration.",
+      "url": "https://www.newadvent.org/cathen/07639c.htm"
+    },
+    {
+      "id": "src_ign_nce",
+      "kind": "biography",
+      "title": "'Ignatius of Loyola, St.', New Catholic Encyclopedia (via Encyclopedia.com), read in full: dated chronology of study, the 1534 vows, the bull Regimini militantis ecclesiae (27 September 1540), his election as first general in 1541, the Constitutions, the Roman College (1551), Roman charities for orphans and penitent women, more than 6,000 published letters, and a note on authentic portraits and the death mask. Another confessional insider reference; its defence of his supposedly militaristic regime is apologetic.",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/ignatius-loyola-st"
+    },
+    {
+      "id": "src_ign_whe",
+      "kind": "biography",
+      "title": "'Ignatius of Loyola', World History Encyclopedia, read in full: a non-confessional popular account of his courtly youth, his reading during convalescence (noting that his dictated Autobiography does not say he asked for religious books), the Montserrat and Manresa period, his pilgrimage, arrest as a spy and Inquisition questioning, studies, and the founding of the Society; cites Diarmaid MacCulloch on the name change. Popular, not scholarly; used mostly for corroboration.",
+      "url": "https://www.worldhistory.org/Ignatius_of_Loyola/"
+    },
+    {
+      "id": "src_ign_lvi",
+      "kind": "press",
+      "title": "Claire Bouvier, review of Enrique Garcia Hernan's 'Ignace de Loyola' (Seuil, 2016), 'Loyola's Childhood', La Vie des idees / Books and Ideas, 2 November 2017, read in full. Independent scholarly review of what it calls the first in-depth biography of Ignatius by a non-Jesuit: presents him as a strategist and mediator, discusses his links with alumbradismo (illuminism) and Dominican charges of heterodoxy, and notes that what was agreed at the 1534 Montmartre vow cannot be documented. Secondhand (a review, the book was not opened).",
+      "url": "https://laviedesidees.fr/Loyola-s-Childhood"
+    },
+    {
+      "id": "src_ign_nsm",
+      "kind": "institution",
+      "title": "Norton Simon Museum collection page for Peter Paul Rubens, 'Saint Ignatius of Loyola', M.1975.03.P, and the Wikimedia Commons file page 'St Ignatius of Loyola (1491-1556) Founder of the Jesuits.jpg', checked for the portrait only.",
+      "url": "https://www.nortonsimon.org/art/detail/M.1975.03.P/"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ign_brit, src_ign_cathen, src_ign_nce, src_ign_lvi | 1524-1552 | insider reference + review] After the Jerusalem plan failed in 1524 he spent about eleven years studying (Barcelona, Alcala, Salamanca, Paris) in order to be able to help others, deferring ordination; Britannica says he was convinced a trained man accomplishes more. The Constitutions were drafted from 1547 with his secretary Polanco, revised in 1552 and amended until his death (Catholic Encyclopedia, New Catholic Encyclopedia). Bouvier's review of Garcia Hernan calls him a strategist who conceived a global apostolate early. Limits: the Catholic Encyclopedia says he left Loyola with no definite plans and the 1534 vow's content cannot be documented, so deliberate long-range planning is a moderate reading and rests largely on insider accounts."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ign_cathen, src_ign_brit, src_ign_nce, src_ign_whe | 1521-1556 | insider reference + popular account] He completed a long course of study at an age when others had finished, through imprisonment at Alcala and Salamanca (Britannica, New Catholic Encyclopedia, World History Encyclopedia), kept pressing for papal approval of the order after Cardinal Guidiccioni's objection until the 1540 bull (Catholic Encyclopedia), and kept building the Roman and German Colleges by begging and borrowing until his death (Catholic Encyclopedia, insider wording). Most detail comes from confessional sources; the study and imprisonment episodes are also in the neutral World History Encyclopedia."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ign_cathen, src_ign_brit, src_ign_whe | 1524-1541 | insider reference + popular account] When the Franciscans told him to leave Jerusalem he submitted and changed his whole plan of life toward study (Catholic Encyclopedia, Britannica, World History Encyclopedia); at Paris his companions' fasting and dress were adapted to city life after the criticism the rougher regime drew at Alcala; when the Holy Land voyage was blocked in 1537 the group offered itself to the pope (Catholic Encyclopedia, New Catholic Encyclopedia). Documented changes of course; the explanation for them is partly the insider writers' framing."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ign_cathen, src_ign_nce, src_ign_lvi, src_ign_brit | 1526-1556 | insider reference + review] He was investigated and imprisoned at Alcala and Salamanca and learned to demand a formal verdict whenever his orthodoxy was questioned, once urging the judge to open an inquiry himself (Catholic Encyclopedia); the Society faced Dominican criticism of its novelties, which Bouvier reports as charges of heterodox tendencies (src_ign_lvi). In Portugal he backed his envoys against his old companion Simon Rodriguez, which ended in a formal inquiry and Rodriguez's banishment and, on the Catholic Encyclopedia's account, the expulsion of about half the province's members. The dual-edged impact reflects the cost to the Portuguese province."
+    },
+    "leadership_drive": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ign_cathen, src_ign_nce | 1539-1556 | insider reference] He drew up the Formula submitted to Paul III, was elected first general in 1541 'in spite of his reluctance', and from Rome directed missions by instructions and a very large correspondence (the New Catholic Encyclopedia counts over 6,000 published letters), and in 1551 he offered to resign and was refused. The evidence shows exercised leadership of an organisation rather than a documented drive to lead, and rests on insider accounts, so confidence is held down."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ign_brit, src_ign_nce, src_ign_cathen | 1524-1556 | insider reference] Britannica quotes his own account that he decided to study 'in order to help souls'; the New Catholic Encyclopedia lists his Roman projects for orphans, catechumens and penitent women, and the Catholic Encyclopedia says the Roman College and German College were nearest his heart. The motive is stated mostly in his own dictated words as quoted by admiring writers, with no hostile or neutral source that tests it, so it is kept moderate."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ign_cathen, src_ign_nce, src_ign_lvi | 1534-1551 | insider reference + review] He held the Paris companions together (the earlier groups of followers had dispersed), settled the 1539 question of forming an order by weeks of joint discussion that ended in a unanimous decision, drafted the Constitutions with Polanco and had the senior fathers examine them in 1551. Bouvier stresses his mediating qualities. The impact is dual-edged because earlier followers left him, the dispute with Rodriguez ended in expulsion, and he refused the direction of women's communities after the Isabel Roser episode."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이냐시오 데 로욜라"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. Best candidate: Peter Paul Rubens, Saint Ignatius of Loyola (Norton Simon Museum, M.1975.03.P), Commons file 'St Ignatius of Loyola (1491-1556) Founder of the Jesuits.jpg' (1956 x 3220, uploaded as 'own work', tagged public domain because Rubens died in 1640). Blockers: the museum's own page states 'Copyright: (c) Norton Simon Art Foundation' with reproduction permission and fees, the Commons file's date (1620-22) conflicts with a duplicate file's 1610-12, and the uploader assertion is not a documented basis. The Jacopino del Conte portrait (c. 1556) is on Commons only as a brightened and upscaled copy of a Fondazione Zeri catalogue image. Next step: find a Rubens, Coello or del Conte image from a museum or archive that states its own open terms, or a death-mask photograph with a documented source. Kind, if resolved: historical depiction (all candidate images are posthumous or later).",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:St_Ignatius_of_Loyola_(1491-1556)_Founder_of_the_Jesuits.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-27T00:00:00Z",
+    "updatedAt": "2026-10-27T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / HELD: the lead's P18 file is Rubens's Saint Ignatius of Loyola (Norton Simon Museum M.1975.03.P) photographed by a Commons uploader as 'own work'; the museum's page carries 'Copyright: (c) Norton Simon Art Foundation' and reproduction fees and permission wording, and the Commons file gives conflicting dates (1620-22 versus 1610-12 on a duplicate). A del Conte portrait (c. 1556, from the Zeri Foundation catalogue) exists on Commons only as a 'brightened and upscaled' copy. Neither meets the strict rule. Per the New Catholic Encyclopedia, authentic images are the death mask, portraits by Jacopino del Conte and Alonso Sanchez Coello and an anonymous portrait; none was found in a rights-clear digital form. PREFLIGHT: QID VERIFIED LIVE (2026-10-27): Q44281 label 'Ignatius of Loyola', description 'Spanish Catholic priest and theologian (1491-1556)', died 1556-07-31 (Wikidata lists four conflicting 1491 birth dates; year used); no collision in prod58 or candidates. REGION southern_europe (Spain). ERA early_modern (as the lead specified; same as teresa-of-avila). VOCABULARY: religious_leader, theologian, fields religion and education, tags founder and organizer, archetype organizational_leader all have EN and KO labels. ZERO POLITICS: selected as founder of the Jesuits and author of the Spiritual Exercises; his soldier career and a diplomatic mission (Britannica) are background and unscored; the Counter-Reformation context is not scored. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'St. Ignatius of Loyola' (https://www.britannica.com/biography/Saint-Ignatius-of-Loyola). READ: Britannica (partial), Catholic Encyclopedia (full), New Catholic Encyclopedia (full), World History Encyclopedia (full), La Vie des idees review of Garcia Hernan (full). NOT opened: the dictated Autobiography (ccel URL returned 404; quoted only as reported in Britannica and World History Encyclopedia), O'Malley's The First Jesuits, Garcia Hernan's book, Ribadeneyra's biography, the Spiritual Exercises text, Jesuit archives. PERSPECTIVES: three confessional/insider encyclopedias (Britannica's author is a Jesuit), one neutral popular encyclopedia, one independent scholarly review. SELF-REPORT vs INDEPENDENT: the Autobiography and Jesuit hagiography are self/insider material; independent scholarship is represented only by the Bouvier review, so the profile is capped (no row above 70, confidence at most 0.56). COUNTER-VOICES: Dominican charges of heterodoxy and Inquisition proceedings (Bouvier, Catholic Encyclopedia), the Rodriguez inquiry, and the unknown content of the Montmartre vow. EXCLUSIONS: conversion, visions, mystical experiences, health, penances and suicide temptation passages (read) are not scored; no personality inferred from the conversion story. SELF-CALIBRATION (agent): top-risk rows reviewed: leadership_drive (64/0.50), impact_motivation (68/0.52) and planning_orientation (66/0.50) were scored conservatively at first pass because every supporting source is insider, so nothing was lowered afterwards. FLAGS: 7 rows; no independent behavioural source beyond one review; portrait held. HANDBACK58: {\"slug\": \"ignatius-of-loyola\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 7, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"leadership_drive\", \"impact_motivation\", \"planning_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  }
+}

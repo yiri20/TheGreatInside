@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kitasato-shibasaburo",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kitasato Shibasaburo",
+    "aliases": [
+      "Shibasaburo Kitasato",
+      "Kitasato Shibasaburō",
+      "北里柴三郎"
+    ],
+    "wikidataId": "Q442225",
+    "birthYear": 1853,
+    "deathYear": 1931,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "medical_researcher",
+      "physician"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kitasato_wikidata",
+      "kind": "wikidata",
+      "title": "Kitasato Shibasaburō (Q442225) -- verified live via the Wikidata API (2026-10-26): English label 'Kitasato Shibasaburō', description 'Japanese bacteriologist, immunologist', Korean label '기타자토 시바사부로', born 1853-01-29, died 1931-06-13, citizenship Japan, P18 images 'Kitasato Shibasaburo.jpg' and 'Shibasaburō Kitasato 1910.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q442225"
+    },
+    {
+      "id": "src_kitasato_ndl_portrait",
+      "kind": "institution",
+      "title": "National Diet Library (Japan), 'Portraits of Modern Japanese Historical Figures: Kitasato Shibasaburo' (entry text) and the NDL feature 'People who worked to overcome infectious diseases', read in full (in Japanese). CANONICAL SIGNIFICANCE SOURCE: the entry describes him as a bacteriologist who studied under Koch from 1886, achieved the culture of the tetanus bacillus in 1889, directed the Institute for Infectious Diseases after returning in 1892 and founded a new institute in 1915 after the dispute over the government transfer of the old one; the feature says the serum therapy he established in Germany is highly regarded and carried forward in today's vaccines and antibody drugs, that Nagayo Sensai and Fukuzawa Yukichi supported him, and that Shiga Kiyoshi and Noguchi Hideyo worked at his institute. Institutional reference text written by library staff; read in Japanese by the agent.",
+      "url": "https://www.ndl.go.jp/portrait/datas/259"
+    },
+    {
+      "id": "src_kitasato_okui_2024",
+      "kind": "press",
+      "title": "Nobuo Okui, 'Shibasaburo Kitasato (1853-1931): Pioneer of Japanese Medicine and Global Immunology Innovator' (Cureus, 31 August 2024), read in full: Berlin work under Koch, the 1889 first pure culture of the tetanus bacillus with a hydrogen apparatus and a sealable dish he devised, the 1890 paper with Behring, the 1894 Hong Kong plague bacillus report and the note that it differed from Yersin's and that Yersin's findings gained wider acceptance, the 1892 institute funded with Fukuzawa's support, the 1914 Kitasato Institute, the Keio medical school dean post, his stated research principles, and his mentoring of Shiga, Hata and Noguchi. Admiring profile by a Japanese dental-school historian, with photographs supplied by the Kitasato Institute museum; the Behring-side accounts are complementary.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11365020/"
+    },
+    {
+      "id": "src_kitasato_victorianweb",
+      "kind": "biography",
+      "title": "The Victorian Web, 'Shibasaburo Kitasato' (bacteriology biography page), read in full: his Kumamoto and Tokyo training, the 1889 papers on culturing the anaerobic bacteria of black leg and tetanus, the 1890 co-authored paper with Behring (Behring on diphtheria, Kitasato on tetanus), the 1894 plague work in Hong Kong where Yersin independently found the same bacterium within days and the episode was first generally hailed as simultaneous discovery, the 1901 Nobel nomination for tetanus antitoxin and the plague bacillus, the 1914 institute dispute, and later posts and honours. Encyclopaedic secondary biography that cites Bibel and Chen and notes a later account favouring Yersin's priority; a minor date discrepancy with Okui (Japan Medical Association presidency) is why no such year is stated.",
+      "url": "https://victorianweb.org/victorian/science/biology/bacteriology/kitasato.html"
+    },
+    {
+      "id": "src_kitasato_nobel_behring",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Emil von Behring - Biographical' (Nobel Lectures, Physiology or Medicine 1901-1921), read in full for the joint work: 'In 1890 Behring and S. Kitasato published their discovery' that graduated doses of sterilised broth cultures of diphtheria or tetanus bacilli made animals produce toxin-neutralising substances (antitoxins). Award-body text that names Kitasato only once and credits the 1901 prize to Behring; consistent with the existing Behring record.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1901/behring/biographical/"
+    },
+    {
+      "id": "src_kitasato_kaufmann_2017",
+      "kind": "press",
+      "title": "Stefan H. E. Kaufmann, 'Remembering Emil von Behring: from Tetanus Treatment to Antibody Cooperation with Phagocytes' (mBio editorial, 2017), read in full for the Kitasato partnership: at Koch's institute Behring teamed up with Kitasato, who was experienced in culturing anaerobic tetanus bacilli, to run the experiments published in the paper on toxin-destroying activity in serum. Specialist historian-immunologist; independent of the Japanese tributes and the most critical of Behring.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5347343/"
+    },
+    {
+      "id": "src_kitasato_fan_2022",
+      "kind": "press",
+      "title": "Ka-wai Fan, 'The \"Two Camps\" Competition: the 1894 Hong Kong Plague in Two English Medical Journals' (Medicina Historica, 2022), read in full: Kitasato arrived in Hong Kong on 12 June 1894 and Yersin on 15 June, both claimed the plague bacillus and Kitasato claimed earlier, James Lowson wired Kitasato's result to The Lancet, The Lancet backed Kitasato while the British Medical Journal backed Yersin and Cantlie, the cited view of Bibel and Chen that Kitasato's description was similar to Yersin's with four major differences, and the cited view of Solomon that Lowson pushed Kitasato to publish too quickly with an imprecise description. Independent historian's analysis that deliberately does not rule on who was first; the source of the counter-voice for the plague priority dispute. Bibel and Chen (Bacteriological Reviews, 1976) was found but only its abstract page could be opened, so its conclusions are used only as relayed by Fan.",
+      "url": "https://mattioli1885journals.com/index.php/MedHistor/article/view/13170"
+    },
+    {
+      "id": "src_kitasato_portrait",
+      "kind": "archive",
+      "title": "National Diet Library (Japan), 'Portraits of Modern Japanese Historical Figures' entry for Kitasato Shibasaburo (image 0259_1) and the site's usage notice, checked for the portrait only.",
+      "url": "https://www.ndl.go.jp/portrait/about"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kitasato_okui_2024, src_kitasato_victorianweb, src_kitasato_kaufmann_2017, src_kitasato_nobel_behring | 1889-1891 | admiring profile + biography + specialist review + award body] He achieved the first pure culture of the tetanus bacillus in 1889 by growing it under hydrogen (Okui and Victorian Web), then showed with rabbits that sub-lethal doses and transferred serum from exposed animals gave immunity and cured infected animals (Victorian Web), and the Nobel biography and Kaufmann describe the 1890 experiments with Behring as built on his anaerobic-culture skill. The method work is stated by three independent sources; the credit for the joint 1890 conclusions is shared with Behring. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 78 / 0.68 to 74 / 0.62 because the 1890 work was joint with Behring and the plague-bacillus priority is disputed; the process evidence is largely admiring retrospective histories."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kitasato_okui_2024, src_kitasato_victorianweb | 1889 | admiring profile + biography] Okui says that when pure cultures of tetanus were believed impossible he devised a cultivation apparatus that used hydrogen to expel oxygen and a sealable shallow dish, and Victorian Web independently gives the hydrogen-atmosphere solid-media method. The method is documented in two places; the 'turtle-shell dish' detail rests on Okui alone, so confidence stays modest."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kitasato_okui_2024, src_kitasato_ndl_portrait | 1892-1917 | admiring profile + library reference] Okui reports he held that research should be integrated with clinical practice and aimed at topics with clear practical value, built an institute against infectious disease and a tuberculosis sanatorium in the 1890s, and later helped found the Keio medical school; the NDL feature links his institute to infectious-disease control. The principles are quoted through one admiring profile, so the row is a strong inference from the documented institution-building. SELF-CALIBRATION (agent): lowered from 72 / 0.62 to 66 / 0.55 because his stated philosophy comes through one admiring profile citing his own speeches and the library text is brief."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_kitasato_okui_2024, src_kitasato_victorianweb, src_kitasato_ndl_portrait | 1892-1917 | admiring profile + biography + library reference] He directed the Institute for Infectious Diseases from 1892, founded the Kitasato Institute in 1914 when the old institute was transferred to the Ministry of Education (and most of his team joined him, per Victorian Web), and became the first dean of the Keio medical school in 1917; Okui and NDL name researchers trained at his institute, including Shiga and Noguchi. Scientific and institutional leadership are documented across three sources; the policy conflict itself is not scored."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_kitasato_kaufmann_2017, src_kitasato_nobel_behring, src_kitasato_fan_2022, src_kitasato_okui_2024 | 1890-1894 | specialist review + award body + historian + profile] He teamed up with Behring on the 1890 paper (Kaufmann, Nobel biography) and in Hong Kong published through the local physician James Lowson, who wired his findings to The Lancet and, in Solomon's view relayed by Fan, pushed him to publish too fast with an imprecise description. The partnerships were productive but left credit disputed (the 1901 Nobel Prize went to Behring alone), hence mid-range and dual-edged."
+    },
+    "analytical_rigor": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_kitasato_fan_2022, src_kitasato_okui_2024, src_kitasato_victorianweb | 1889-1894 | historian + profile + biography] The Lancet in 1894 called his name a guarantee of accuracy in observation (quoted by Fan), and his 1889 culture and immunity work is described as a landmark method; against that, Fan relays Bibel and Chen that his plague-bacillus description differed from Yersin's in four major respects and Okui says Yersin's bacterium was the one eventually accepted as the plague agent. Strong methods in the laboratory, a disputed result in Hong Kong, so the score sits just above the middle with modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "기타자토 시바사부로"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kitasato-shibasaburo-ariga-studio.jpg",
+    "width": 816,
+    "height": 1063,
+    "source": "Studio portrait photograph of Kitasato Shibasaburo as an older man, bearing the stamp of Photo-Kunst-Atelier T. Ariga, Tokyo, reproduced in the National Diet Library's online exhibition 'Portraits of Modern Japanese Historical Figures' (image 0259_1, 816 x 1063). The Library's usage notice states that every portrait image in the exhibition is one whose copyright term has expired and that no application is needed to reuse it, including commercially. Date of the sitting is not stated; he died in 1931. Used at its original size, not upscaled.",
+    "license": "Public domain (copyright term expired; National Diet Library usage notice)",
+    "licenseUrl": "https://www.ndl.go.jp/portrait/about",
+    "attribution": "Photo-Kunst-Atelier T. Ariga, Tokyo, undated; reproduced by the National Diet Library, Japan, Portraits of Modern Japanese Historical Figures.",
+    "attributionUrl": "https://www.ndl.go.jp/portrait/datas/259",
+    "creator": "Photo-Kunst-Atelier T. Ariga, Tokyo",
+    "date": "undated (before 1931)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.ndl.go.jp/portrait/datas/259"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / finding: both Commons routes rejected as insufficient and a better institutional source found. 'Kitasato Shibasaburo.jpg' (632 x 966): Commons gives source an adthree.com page, author unknown, date blank, tag PD-Japan-oldphoto only. 'Shibasaburo Kitasato 1910.jpg' (1908 x 2793): author the Kitasato Institute, 'taken in 1910', source a Juntendo University page whose text states no photo date or terms. Wellcome V0026640 (2224 x 3352) carries a Public Domain Mark in the Wellcome catalogue but has no date or creator and was not used. CHOSEN: the National Diet Library (Japan) 'Portraits of Modern Japanese Historical Figures' entry for Kitasato (https://www.ndl.go.jp/portrait/datas/259, image 0259_1.jpg 816 x 1063): the Library's usage notice (https://www.ndl.go.jp/portrait/about) says all portrait images in the exhibition are ones whose copyright term has expired and may be reused without application, including commercially; the print carries the studio stamp 'Photo-Kunst-Atelier T. Ariga, Tokyo'. Caveats: the photograph's date and first publication are not stated (Kitasato died in 1931 and the sitter is elderly, so a pre-1931 studio print is the reasonable reading); the NDL notice is a Japanese-institution statement of expired term; because a still-protected photograph in Japan in 1996 would have been restored in the US, the lead's stated basis (a photograph published before 1956 in Japan) is the reasoning that supports non-restoration, but the exact publication date of this print was not located; the NDL exhibition lists the source book per image only through script that was not rendered, so the specific source book was not read. Not upscaled. PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-26) Q442225: en label 'Kitasato Shibasaburō', description 'Japanese bacteriologist, immunologist', ko label '기타자토 시바사부로', born 1853-01-29 (a second birth value 1852 also present), died 1931-06-13. SLUG/QID CHECK: not in prod58.txt (grepped kitasato), no candidate file existed; emil-von-behring (Q76425) is a separate existing record. REGION: east_asia (Japan). VOCABULARY: scientist, medical_researcher, physician, medicine, biology, founder, innovator, scientific_explorer all have EN+KO labels (bacteriologist and immunologist unlabeled and not used). ZERO POLITICS: the 1914 institute dispute with the government, the House of Peers seat and the baron title are not scored; the Japanese government sponsored his Hong Kong visit and this is background only. JOINT ATTRIBUTION: consistent with the existing emil-von-behring record, the 1890 paper is described as joint (Behring on diphtheria, Kitasato on tetanus); the Nobel biography credits the prize to Behring, and Okui notes Kitasato's role was widely acknowledged; no claim here that Kitasato was robbed, and no first/only claim about serum therapy is made. PLAGUE DISPUTE: described as a documented professional dispute (Kitasato and Yersin claimed the bacillus almost simultaneously; Okui says Yersin's findings gained wider acceptance), scored only inside the mixed analytical_rigor row, with Bibel and Chen used only as relayed by Fan because its full text could not be opened. CANONICAL SIGNIFICANCE SOURCE: National Diet Library 'Portraits of Modern Japanese Historical Figures: Kitasato Shibasaburo' (https://www.ndl.go.jp/portrait/datas/259) with Okui 2024 as the fuller account. READ (6 substantive sources): NDL entry and feature, Okui 2024, Victorian Web biography, Nobel biography of Behring (joint section), Kaufmann 2017 (Kitasato section), Fan 2022. PERSPECTIVES: Japanese national library; admiring Japanese medical-history profile; encyclopaedic English biography; award body; specialist immunologist-historian; independent historian of the plague dispute. COUNTER-VOICES: Yersin-side and Lancet/BMJ camps via Fan; Bibel and Chen's four differences (via Fan); Solomon on the rushed publication (via Fan). NOT OPENED: Bibel and Chen 1976 full text, Kitasato's own papers, Kitasato Institute and Keio histories, Japanese-language biographies, the Wellcome work page. DATE DISCREPANCIES: the NDL entry dates the founding of the new institute to 1915 while Okui and Victorian Web say 1914, and the Japan Medical Association presidency is 1916 (Okui) or 1923 (Victorian Web); no such year is used in a row except the 1914 institute founding, which follows two sources. FLAG for lead: the existing emil-von-behring record cites Okui as 'Nobuyuki Okui' but the Cureus article names the author 'Nobuo Okui' (corresponding author Nobuo Okui, Kanagawa Dental University); the Behring record's source title may need that one-word correction. SELF-CALIBRATION: rows reviewed: experimentation (78), impact_motivation (72), leadership_drive (68). Lowered: impact_motivation 72/0.62 -> 66/0.55, because his stated philosophy comes through one admiring profile citing his own speeches and the library text is brief. experimentation kept (method stated by Okui, Victorian Web and, for the joint work, Kaufmann and the Nobel biography); leadership_drive kept (three sources). HANDBACK58: {\"slug\":\"kitasato-shibasaburo\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"impact_motivation\",\"old_score\":72,\"old_confidence\":0.62,\"new_score\":66,\"new_confidence\":0.55,\"reason\":\"stated philosophy rests on one admiring profile citing his own speeches; library text brief\"}],\"reviewed_kept\":[\"experimentation\",\"leadership_drive\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6} RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 78 / 0.68 to 74 / 0.62 because the 1890 work was joint with Behring and the plague-bacillus priority is disputed; the process evidence is largely admiring retrospective histories."
+  }
+}

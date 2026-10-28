@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "orhan-pamuk",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Orhan Pamuk",
+    "aliases": [
+      "Ferit Orhan Pamuk"
+    ],
+    "wikidataId": "Q241248",
+    "birthYear": 1952,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "TR"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pamuk_wikidata",
+      "kind": "wikidata",
+      "title": "Orhan Pamuk (Q241248), verified live via the Wikidata API (2026-10-26): label 'Orhan Pamuk', description 'Turkish novelist, academic and Nobel laureate (born 1952)', born 1952-06-07, no death date, citizenship Turkey, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q241248"
+    },
+    {
+      "id": "src_pamuk_nobel_presentation",
+      "kind": "award_body",
+      "title": "Swedish Academy presentation speech for the 2006 Nobel Prize in Literature, with the Nobel Foundation press release of 12 October 2006, both read in full. CANONICAL SIGNIFICANCE SOURCE: the prize citation says he 'in the quest for the melancholic soul of his native city, has discovered new symbols for the clash and interlacing of cultures'; the speech discusses The Black Book, My Name is Red and Snow and compares his Istanbul to Dostoyevsky's St. Petersburg, Joyce's Dublin and Proust's Paris. Admiring and evaluative by nature (a prize-giving speech), but an independent institutional view of what the work is.",
+      "url": "https://www.nobelprize.org/prizes/literature/2006/ceremony-speech/"
+    },
+    {
+      "id": "src_pamuk_nobel_bio",
+      "kind": "award_body",
+      "title": "Orhan Pamuk, 'Biographical', Nobel Foundation (autobiographical statement written for the 2006 prize), read in full. SELF-REPORT: his account of leaving architecture for writing, giving up painting at 22, four years to find a Turkish publisher for his first novel, and the books' titles and aims. Used only as corroborating self-report, never as sole support; its passages on marriage, divorce, family and his daughter were read and are not used.",
+      "url": "https://www.nobelprize.org/prizes/literature/2006/pamuk/biographical/"
+    },
+    {
+      "id": "src_pamuk_parisreview",
+      "kind": "press",
+      "title": "'Orhan Pamuk, The Art of Fiction No. 187', The Paris Review, issue 175 (Fall/Winter 2005), read in part (the first portion of the interview and the editor's introduction are public; the rest is behind a subscription wall). SELF-REPORT (interview): ten-hour working days at a separate office overlooking the Bosphorus, his rejection of the social-realist model of the previous Turkish generation, and his remark that he was attacked more for interviews than for his books. The introduction records the 2005 charge under Article 301/1, which is context and not scored.",
+      "url": "https://www.theparisreview.org/interviews/5587/the-art-of-fiction-no-187-orhan-pamuk"
+    },
+    {
+      "id": "src_pamuk_aa",
+      "kind": "press",
+      "title": "Handan Kazanci, 'Museum of Innocence: Hub for lovers in heart of Istanbul', Anadolu Agency, 13 February 2020, read in full: Pamuk began collecting objects in the 1990s while developing the novel, the museum opened in 2012 in a 19th-century house, he designed each of its 83 glass-fronted cabinets, it won the 2014 European Museum of the Year Award, and some cabinets are still empty and numbered for objects not yet found; the article includes Pamuk's own statements, museum staff and a visitor. State-run news agency feature; partly self-report.",
+      "url": "https://www.aa.com.tr/en/life/museum-of-innocence-hub-for-lovers-in-heart-of-istanbul/1732813"
+    },
+    {
+      "id": "src_pamuk_srb",
+      "kind": "press",
+      "title": "James Ley, 'Erosion of the Will: A Strangeness in My Mind by Orhan Pamuk', Sydney Review of Books, 25 February 2016, read in full: a critical essay on his work that traces his East-West double vision, his early formal gamesmanship and later turn toward broad-canvas social realism in The Museum of Innocence and A Strangeness in My Mind, his stated wish to keep 'childlike innocence' as a novelist, the difficulty of balancing that with political material in Snow, and the judgement that the latest novel lacks the exuberance and detail of the Joycean city novel he once aspired to write. Independent critical review; the critic's reading of Pamuk's stance is interpretation.",
+      "url": "https://sydneyreviewofbooks.com/reviews/erosion-of-the-will-a-strangeness-in-my-mind-by-orhan-pamuk"
+    },
+    {
+      "id": "src_pamuk_mookse",
+      "kind": "press",
+      "title": "Lee Monks, review of 'A Strangeness in My Mind', The Mookse and the Gripes (literary blog), 21 April 2016, read in the opening section: describes Pamuk as a writer who obsesses over detail in order to contain a world, comparing him with classical realists. Single reviewer's impression of one novel; used only for the detail row.",
+      "url": "https://mookseandgripes.com/reviews/2016/04/21/orhan-pamuk-a-strangeness-in-my-mind/"
+    },
+    {
+      "id": "src_pamuk_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Orhan Pamuk 2009 Shankbone.jpg' (photographer David Shankbone, 18 November 2009, Creative Commons Attribution 3.0), with its file history and the earlier full-size version, checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Orhan_Pamuk_2009_Shankbone.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pamuk_nobel_presentation, src_pamuk_srb | 1990-2016 | award-body speech + critical essay] The Swedish Academy describes novels that replace a single central perspective with a 'labyrinth of stories and beliefs' and that give Istanbul new symbols; Ley, a critical reader, confirms a distinctive East-West double vision and formal play in the earlier books, while judging the latest novel less exuberant than the city novel he once aspired to write. Originality is well documented for the major novels; the admiring prize speech is balanced by a mixed independent review."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pamuk_srb, src_pamuk_aa, src_pamuk_nobel_presentation | 1990-2012 | critical essay + press feature + award-body speech] Ley traces a shift from the visible formal gamesmanship of the earlier novels toward broad-canvas social realism, and Anadolu Agency documents a museum built in parallel with the novel of the same name, with each cabinet designed by him as a companion to a part of the book. The changes of mode are documented; whether they were deliberate experiments or simply changes of direction rests on the critic's reading."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pamuk_aa, src_pamuk_nobel_presentation, src_pamuk_nobel_bio | 1990s-2012 | press feature + award-body speech + self-report] Besides novels he built a physical museum and designed its 83 cabinets (Anadolu Agency), set My Name is Red among Ottoman miniature painters (Swedish Academy), and says he painted until 22 and studied architecture before writing (self-report). The museum and the painters' theme are independently documented; the earlier painting and architecture rest on his own statement."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pamuk_mookse, src_pamuk_aa | 2008-2016 | literary blog review + press feature] Monks describes a writer who 'obsesses' over detail to contain a world, and Anadolu Agency reports that Pamuk collected objects over years and personally designed each of 83 cabinets, some still waiting for the right object. Two sources of different kinds agree, but the first is one reviewer's impression of one novel. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.50 to 62 / 0.46 because the prose-detail claim rests on a single blog reviewer and the museum evidence is curatorial rather than a measure of precision."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pamuk_srb, src_pamuk_parisreview, src_pamuk_nobel_presentation | 1990s-2016 | critical essay + self-report interview + award-body speech] In the Paris Review he says he rejected the social-realist model of the previous generation of Turkish authors, and Ley quotes his essay saying a foreign view helps him 'fend off narrow nationalism and pressures to conform' and reads his ambiguous stance as a way of keeping his writing from being constrained by any viewpoint. The stance is literary and is documented mostly in his own words; the critic's reading is interpretation, and the Swedish Academy describes his refusal to judge his characters. Political statements and the 2005 charge are not scored. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.50 to 62 / 0.46 because the main support is his own account of his stance and one critic's interpretation of it."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pamuk_aa, src_pamuk_nobel_bio, src_pamuk_parisreview | 1982-2012 | press feature + self-report] Anadolu Agency documents a multi-year project in which he began collecting objects in the 1990s and opened the museum in 2012, four years after the novel; he says (Nobel biography) it took four years to find a Turkish publisher for his first novel and (Paris Review) that he works about ten hours a day. The museum timeline is independent and strong; the publisher and daily-routine claims are self-report only, so confidence stays moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오르한 파무크"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/orhan-pamuk-shankbone-2009.jpg",
+    "width": 960,
+    "height": 1200,
+    "source": "Photograph of Orhan Pamuk by David Shankbone at a Barnes & Noble reading in New York on 18 November 2009, uploaded to Wikimedia Commons by the photographer himself under the Creative Commons Attribution 3.0 licence (file page: author David Shankbone, date 2009-11-18). The current Commons revision (1401 x 1955) is a 2019 retouched version by another editor, so the photographer's original 2011 upload (1658 x 2072) was used instead, downscaled to 960 x 1200; no upscaling. The file page carries a personality-rights notice and requires attribution; the photographer's blog source page could not be reached to double-check the licence statement.",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "David Shankbone, CC BY 3.0, via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Orhan_Pamuk_2009_Shankbone.jpg",
+    "creator": "David Shankbone",
+    "date": "2009",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Orhan_Pamuk_2009_Shankbone.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / confirmed with caveats: file page shows author David Shankbone, date 2009-11-18, CC BY 3.0, uploaded by Shankbone himself; the current revision is a 2019 retouch by another user, so the photographer's 2011 original was used (downscaled, not upscaled); the blog page named as source was not reachable, so the licence rests on the Commons file page and the uploader being the author; flagged for the lead. PREFLIGHT: QID VERIFIED LIVE (2026-10-26): Q241248 label 'Orhan Pamuk', description 'Turkish novelist, academic and Nobel laureate (born 1952)', born 1952-06-07, no death date; matches the lead. No production or candidate slug or QID collision (prod58.txt and data-pipeline/candidates searched). REGION west_asia (Turkey follows the repo precedent of mustafa-kemal-ataturk). VOCABULARY: writer, field literature, tags nobel_laureate and independent, archetypes creative_creator and independent_creator have EN and KO labels; 'novelist' has no label, so writer is used. ZERO POLITICS: primary identity is a novelist; the 2005 Article 301 charge, his political statements and any Armenian or Kurdish remarks are unscored context, and independent_thinking is based on his literary stance only. LIVING SUBJECT: public professional behaviour only; marriage, divorce, daughter and family were read in the Nobel biography and not used; no health or private inference. CANONICAL SIGNIFICANCE SOURCE: Swedish Academy presentation speech and Nobel press release for the 2006 prize (https://www.nobelprize.org/prizes/literature/2006/ceremony-speech/). READ: presentation speech and press release (full), Nobel biographical statement (full, self), Paris Review interview (public portion only, self), Anadolu Agency museum feature (full), Sydney Review of Books essay (full), Mookse blog review (opening). NOT opened: the novels themselves, Pamuk's Nobel lecture (self), the Paris Review interview beyond the paywall, Council of Europe museum award page, books by critics, Turkish-language criticism and coverage. PERSPECTIVES: award body, press feature, critical essay, literary blog, and two self-reports. COUNTER-VOICES: Ley's judgement that A Strangeness in My Mind lacks the exuberance and detail of a Joycean city novel and the difficulty of reconciling innocence with political material in Snow; Pamuk's own report of hostile Turkish press. EXCLUSIONS: trial and political remarks, family, divorce, daughter, health. SELF-CALIBRATION (agent): top-risk rows reviewed: detail_orientation (66/0.50 lowered to 62/0.46), independent_thinking (66/0.50 lowered to 62/0.46), creative_originality (kept: prize speech plus a mixed independent essay agree). FLAGS: 6 rows, none above 70; two of six rows depend partly on self-report; no sustained independent behavioural source on his working method was found within the cost cap. HANDBACK58: {\"slug\":\"orhan-pamuk\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"detail_orientation\",\"old_score\":66,\"old_confidence\":0.5,\"new_score\":62,\"new_confidence\":0.46,\"reason\":\"prose-detail claim rests on one blog reviewer and museum evidence is curatorial\"},{\"attribute\":\"independent_thinking\",\"old_score\":66,\"old_confidence\":0.5,\"new_score\":62,\"new_confidence\":0.46,\"reason\":\"main support is his own account of his stance plus one critic's interpretation\"}],\"reviewed_kept\":[\"creative_originality\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6}"
+  }
+}

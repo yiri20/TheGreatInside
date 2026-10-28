@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hugo-grotius",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hugo Grotius",
+    "aliases": [
+      "Hugo de Groot",
+      "Huigh de Groot"
+    ],
+    "wikidataId": "Q154959",
+    "birthYear": 1583,
+    "deathYear": 1645,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "NL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "jurist",
+      "scholar"
+    ],
+    "fieldIds": [
+      "law",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "prolific",
+      "polymath"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_grotius_wikidata",
+      "kind": "wikidata",
+      "title": "Hugo Grotius (Q154959) -- verified live via the Wikidata API (2026-10-26): English label 'Hugo Grotius', description 'Dutch jurist and scholar (1583-1645)', born 1583-04-10, died 1645-08-28, Korean label present, P18 image the Rijksmuseum portrait SK-A-581. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q154959"
+    },
+    {
+      "id": "src_grotius_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Hugo Grotius', written by Yasuaki Onuma (Professor Emeritus of International Law, University of Tokyo), updated September 2026, read in full: precocious childhood (Latin elegies at eight, Leiden at eleven, pupil of Scaliger), his editions of Martianus Capella and Aratus, the play Adamus Exul admired by Milton, the Annals of the Low Countries (published 1657), the 1604-1609 work for the Dutch East India Company that became Mare Liberum, his offices, the 1618 sentence and 1621 escape (context), De Jure Belli ac Pacis (1625) built on natural law independent of religion, with a layered structure of secular, religious and utility arguments, and its description as one of the greatest contributions to international law. CANONICAL SIGNIFICANCE SOURCE. Reference article by a specialist; admiring in tone, and it treats the political struggle as context only.",
+      "url": "https://www.britannica.com/biography/Hugo-Grotius"
+    },
+    {
+      "id": "src_grotius_sep",
+      "kind": "biography",
+      "title": "Jon Miller, 'Hugo Grotius', Stanford Encyclopedia of Philosophy (plato.stanford.edu, 2021 revision), the life, works and originality sections read in full: his early learning, his legal practice and offices, imprisonment and escape (context), the output of some five dozen book-length works, De iure praedae commissioned around 1603 by the Dutch East India Company with an acknowledged propagandistic aim and its Chapter Twelve published as Mare Liberum, answered critically by John Selden, the 1625 De iure belli ac pacis and its later editions that added references, the scholarly dispute over his originality (Irwin: 'no pioneer' in ethics; Schneewind and d'Entreves crediting method; Kingsbury and Roberts on systematic reassembling of practice), his lasting influence, and the apocryphal last words. Scholarly encyclopaedia entry that cites critical literature (Tuck, van Ittersum), though those works were not opened.",
+      "url": "https://plato.stanford.edu/entries/grotius/"
+    },
+    {
+      "id": "src_grotius_rijks",
+      "kind": "institution",
+      "title": "Rijksmuseum, object page and catalogue entry SK-A-581, 'Portrait of Hugo de Groot (1583-1645)', workshop of Michiel Jansz van Mierevelt, 1631, oil on panel 63 x 55 cm, inscribed 'Aetatis 48 / Ao 1631', read in full: the museum summarises his Mare liberum (1607) and De iure belli ac pacis and states that during a short return to the Republic he posed for Van Miereveld and that this is one of many copies of that portrait; the 'Copyright' field is empty. Used for the portrait basis and a brief orientation; not used for scoring.",
+      "url": "https://www.rijksmuseum.nl/en/collection/SK-A-581"
+    },
+    {
+      "id": "src_grotius_peacepalace",
+      "kind": "institution",
+      "title": "Peace Palace Library (The Hague), review note on Henk Nellen, 'Hugo Grotius: A Lifelong Struggle for Peace in Church and State, 1583-1645' (Rens Steenhard, 3 September 2020), read in full, and the library's Grotius collection history page on the IALL website (opening sections read): describes him as the most famous humanist scholar of the Dutch Golden Age with influential works on the laws of war and peace, Dutch history and church unification, notes that Mare liberum gave the Dutch East India Company a ready justification for a trading empire, that his letters form the basis of Nellen's biography (Nellen co-edited the last five volumes of the correspondence), and that the library holds the largest Grotius collection with about 150 editions of De iure belli ac pacis. Institutional library notes; Nellen's biography itself was not opened.",
+      "url": "https://peacepalacelibrary.nl/publication/nellen-hjm-hugo-grotius-lifelong-struggle-peace-church-and-state-1583-1645-2014"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_grotius_britannica, src_grotius_sep, src_grotius_peacepalace | 1598-1645 | reference article + scholarly encyclopaedia + library note] Britannica and the Stanford entry independently list his critical editions of Aratus and Martianus Capella, Latin verse and the play Adamus Exul, a history of the Dutch revolt, legal treatises, and theological works (De Veritate Religionis Christianae, which Britannica says was probably his most popular work in his lifetime); the Stanford entry counts some five dozen book-length works; the library note names the laws of war, Dutch history and church unification. Breadth across philology, law, history, drama and theology is well documented by independent summaries. Kept after the self-calibration review: two independent reference works agree. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 76 / 0.62 to 72 / 0.58 because the range is documented but only through encyclopaedic summaries; the Nellen biography was reached only as snippets and the key critics through Stanford alone."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_grotius_sep, src_grotius_britannica | 1598-1645 | scholarly encyclopaedia + reference article] The Stanford entry describes him producing what are essentially critical editions of two ancient works in his late teens while researching a history of the Netherlands, and says that he saw De iure belli ac pacis through several further editions in his lifetime, each time adding references; Britannica notes his study under Scaliger and his philological works. Long, scholarly investment in learning and refining his work is documented, though the summaries do not show his working method in detail."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_grotius_britannica, src_grotius_sep | 1625 | reference article + scholarly encyclopaedia] Britannica describes De Jure Belli ac Pacis as a general theory of law with a multilayered structure of natural-law, religious and utility arguments aimed at restraining war; the Stanford entry quotes Kingsbury and Roberts on its systematic reassembling of practice and authorities around principles rooted in natural law, and d'Entreves on a new method. The Stanford entry also reports that Irwin judges his ethics derivative ('no pioneer'), so the originality of the system is disputed. SELF-CALIBRATION (agent): first-pass 72 / 0.56 lowered to 68 / 0.52 because the evidence is two summaries of the book's design (not behaviour) and the Stanford entry records a scholarly dispute over its originality."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_grotius_britannica, src_grotius_sep | 1625 | reference article + scholarly encyclopaedia] Britannica quotes his argument that natural law would have validity even if there were no God and says he made it deliberately so that it applied to all people regardless of belief, while noting that he then reintroduced Christian elements; the Stanford entry credits his method (d'Entreves, Schneewind) but also reports that Irwin finds him mostly extracting from Aquinas and Suarez. A real willingness to ground law outside confessional authority, but the originality is contested, so a moderate score at modest confidence."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_grotius_sep, src_grotius_britannica | 1618-1645 | scholarly encyclopaedia + reference article] The Stanford entry says that during his imprisonment he had books and writing materials and composed much important work, that he began De iure belli ac pacis in Paris and published it in 1625, and that he kept pressing a project of Christian unity through the diplomatic years even though it was 'doomed'; Britannica adds that he wrote across fields throughout his life. Sustained scholarly output across upheavals is documented in two sources; the political circumstances themselves are context only and no trait is inferred from them."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_grotius_sep, src_grotius_britannica, src_grotius_peacepalace | 1603-1609 | scholarly encyclopaedia + reference article + library note] Asked by the Dutch East India Company to defend the seizure of a Portuguese ship, he wrote De iure praedae, whose Chapter Twelve, published as Mare Liberum, Britannica says was widely circulated and reprinted and the library note says gave the Company a ready justification for a trading empire; the Stanford entry calls the work partly propagandistic and notes that Selden published a critical reply. Effective legal advocacy is documented, but it was commissioned work whose purpose critics question, so dual-edged at moderate confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "휘호 그로티우스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hugo-grotius-mierevelt-workshop-1631.jpg",
+    "width": 1027,
+    "height": 1200,
+    "source": "Rijksmuseum, Amsterdam, object SK-A-581, 'Portrait of Hugo de Groot (1583-1645)', oil on panel, workshop of Michiel Jansz van Mierevelt, inscribed with his age 48 and the year 1631. The museum's own page says he posed for Van Miereveld during a short return to the Republic and that this panel is one of the many copies of that portrait, so it is a workshop copy of a portrait made from a sitting, not the original sitting itself and is recorded as a historical depiction. The painter died in 1641, so the panel is public domain by age; the Rijksmuseum page has an empty copyright field and Wikimedia Commons records the museum's statement that its images are public domain or CC0 (Commons file 'Portret van Hugo de Groot (1583-1645) Rijksmuseum SK-A-581.jpeg', original 4862 x 5680). The saved file was produced by downscaling a 1280 x 1495 Commons rendering of that original to 1027 x 1200; nothing was upscaled.",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
+    "attribution": "Workshop of Michiel Jansz van Mierevelt, 1631; Rijksmuseum, Amsterdam (public domain)",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/SK-A-581",
+    "creator": "Workshop of Michiel Jansz van Mierevelt",
+    "date": "1631",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portret_van_Hugo_de_Groot_(1583-1645)_Rijksmuseum_SK-A-581.jpeg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-27T00:00:00Z",
+    "updatedAt": "2026-10-27T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / confirmed strong: Rijksmuseum workshop panel of 1631, painter died 1641, museum states it is a copy of a portrait for which he sat; recorded as historical depiction (workshop copy). PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-26) for Q154959 returned en label 'Hugo Grotius', description 'Dutch jurist and scholar (1583-1645)', born 1583-04-10, died 1645-08-28, ko label, P18 the Rijksmuseum SK-A-581 file. SLUG/QID CHECK: no production or candidate collision (prod58 grep for grotius and Q154959 empty; no candidate file). REGION western_europe (NL; exile in France and Germany does not change the Dutch career base). VOCABULARY: occupations jurist and scholar, fields law and philosophy, impact domains social and historical, tags prolific and polymath, archetype scholarly_specialist, all existing labelled ids. ZERO POLITICS: his offices (advocate-general, pensionary), the 1618 coup and sentence, the 1621 escape, the Swedish ambassadorship and his role in the Remonstrant dispute are context only; rows rest on his scholarly breadth, his legal and philological craft, the design of De iure belli ac pacis and the Mare Liberum advocacy as a lawyer's work. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Hugo Grotius' by Yasuaki Onuma (https://www.britannica.com/biography/Hugo-Grotius). READ (5 cited non-Wikidata sources): Britannica (full); Stanford Encyclopedia of Philosophy (life, works, originality); Rijksmuseum catalogue page; Peace Palace Library note on Nellen's biography; Peace Palace collection history on IALL (opening). PERSPECTIVES: a specialist reference article; a philosophy encyclopaedia citing opposing scholars; the museum; the Peace Palace Library. COUNTER-VOICES: Irwin ('no pioneer' in ethics) and the dispute over originality, Selden's critical reply to Mare Liberum, the Stanford entry's note that De iure praedae was partly propagandistic and its remark that his diplomacy was uneven, all via the Stanford entry. NOT opened: Nellen's biography and its reviews (only search snippets; Grotiana article blocked), van Ittersum's Profit and Principle and Tuck's books, Grotius's own works and correspondence, Liberty Fund pages (404). EXCLUDED: family, health, death, religion and the Catholic-conversion speculation, and all political and diplomatic activity. CALIBRATION: only two substantive behavioural sources, both encyclopaedic, so top score 76 and top confidence 0.62; six rows, no padding. SELF-GATE: first-pass checks all PASS (see editorial draft). SELF-CALIBRATION (agent): reviewed systems_abstraction (lowered 72/0.56 to 68/0.52: summaries of design, disputed originality), cross_domain_range (kept: two independent summaries agree) and persuasiveness (kept: three sources, mixed edge already recorded). BROAD FLAG: the profile rests on encyclopaedic secondary summaries; Nellen's biography and his letters would give real behavioural evidence. HANDBACK58: {\"slug\":\"hugo-grotius\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"systems_abstraction\",\"old_score\":72,\"old_confidence\":0.56,\"new_score\":68,\"new_confidence\":0.52,\"reason\":\"evidence is two summaries of the book's design and its originality is disputed\"}],\"reviewed_kept\":[\"cross_domain_range\",\"persuasiveness\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 76 / 0.62 to 72 / 0.58 because the range is documented but only through encyclopaedic summaries; the Nellen biography was reached only as snippets and the key critics through Stanford alone."
+  }
+}

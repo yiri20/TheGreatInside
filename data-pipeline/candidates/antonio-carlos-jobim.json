@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "antonio-carlos-jobim",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Antonio Carlos Jobim",
+    "aliases": [
+      "Antônio Carlos Jobim",
+      "Tom Jobim"
+    ],
+    "wikidataId": "Q200131",
+    "birthYear": 1927,
+    "deathYear": 1994,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jobim_wikidata",
+      "kind": "wikidata",
+      "title": "Antonio Carlos Jobim (Q200131), verified live via the Wikidata API (2026-10-26): label 'Antônio Carlos Jobim', description 'Brazilian songwriter, composer, arranger, singer, and pianist/guitarist (1927-1994)', born 1927-01-25, died 1994-12-08, Korean label lists three spellings. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q200131"
+    },
+    {
+      "id": "src_jobim_britannica",
+      "kind": "biography",
+      "title": "'Antônio Carlos Jobim', Encyclopaedia Britannica biography, read in full. CANONICAL SIGNIFICANCE SOURCE: a Brazilian songwriter, composer and arranger who transformed samba rhythms into the intimate music of bossa nova; he left architecture for music, worked as arranger and as music director of Odeon Records, and recorded 'Chega de Saudade' (1958) with João Gilberto, widely recognized as the first bossa nova single; collaborations with Stan Getz and Frank Sinatra; more than 400 songs including 'The Girl from Ipanema' and 'Wave'; also classical works and film scores. Reference-work summary.",
+      "url": "https://www.britannica.com/biography/Antonio-Carlos-Jobim"
+    },
+    {
+      "id": "src_jobim_jazzcom",
+      "kind": "biography",
+      "title": "'Antonio Carlos Jobim', jazz.com Jazz Encyclopedia entry, read in full: his classical piano teachers, the Rio group that merged jazz harmony with choro and samba cancao, the 1956 songs for the play Orfeu da Conceicao and the film Black Orpheus, Getz's 1962 Jazz Samba and 1963 Getz/Gilberto, his Verve albums, the 1967 Sinatra album, the more adventurous 1967 album Stone Flower, and the decline of the bossa nova craze. Independent encyclopedia entry; admiring in tone and it also covers family matters, which were not used.",
+      "url": "https://jazz.com/encyclopedia/jobim-antonio-carlos"
+    },
+    {
+      "id": "src_jobim_jazzstandards",
+      "kind": "biography",
+      "title": "'Antonio Carlos Jobim', JazzStandards.com biography, read in full: musical influences (big bands, West Coast jazz, Debussy, Stravinsky, Chopin, Villa-Lobos), his first recording in 1954, the founding of bossa nova with Vinicius de Moraes and Joao Gilberto, his shift to film scoring when the fad waned, his mid-1980s return to touring and a late collaboration with Sting. Short independent biography.",
+      "url": "https://jazzstandards.com/biographies/biography_222.htm"
+    },
+    {
+      "id": "src_jobim_songhall",
+      "kind": "institution",
+      "title": "Songwriters Hall of Fame profile of Antonio Carlos Jobim (1991 inductee), read in full: bossa nova as a distillation of samba, his early big-band influences, the song 'The Girl from Ipanema' with lyricist Vinicius de Moraes, and his own statement crediting Joao Gilberto and Stan Getz with contributions to the music. Admiring institutional profile.",
+      "url": "https://www.songhall.org/profiles/antonio-carlos-jobim"
+    },
+    {
+      "id": "src_jobim_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file pages for the Arquivo Nacional (Brazil) photographs of Jobim from the Correio da Manha collection (1965 and 1972) and the Commons rights template used for them, wikitext read, checked for the portrait only; no portrait was adopted.",
+      "url": "https://commons.wikimedia.org/wiki/Category:Ant%C3%B4nio_Carlos_Jobim"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jobim_britannica, src_jobim_jazzcom, src_jobim_jazzstandards, src_jobim_songhall | 1950s-1960s | reference biography + encyclopedia entry + short biography + hall-of-fame profile] Britannica says he transformed samba rhythms into the intimate music of bossa nova, and jazz.com describes compositions combining classical impressionism, advanced jazz harmonies and Brazilian rhythms; the Hall of Fame profile credits him with creating his own signature sound. Four sources agree, but all are reference or admiring and none is adversarial; he also names Gilberto and Getz as contributors. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 78 / 0.64 to 74 / 0.60 because every source is admiring or reference-level retrospective and there is no independent critical voice."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jobim_jazzcom, src_jobim_britannica, src_jobim_songhall, src_jobim_jazzstandards | 1956-1994 | encyclopedia entry + reference biography + hall-of-fame profile + short biography] Four sources document work with Vinicius de Moraes and Luis Bonfa on Orfeu da Conceicao, the 1958 recording with Joao Gilberto, Getz/Gilberto in 1963, the 1967 album with Frank Sinatra, and a late project with Sting; in the Hall of Fame profile he credits Gilberto and Getz with their own contributions to bossa nova. The partnerships are well documented; none describes the working relationships themselves."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jobim_britannica, src_jobim_jazzcom, src_jobim_jazzstandards | 1940s-1950s | reference biography + encyclopedia entry + short biography] The sources describe a long classical training with several teachers (including a German piano teacher who introduced Villa-Lobos), study of composition and theory, early work as an arranger and transcriber, and absorption of Debussy, Stravinsky, Chopin and big-band jazz before bossa nova. The training is documented; the sources do not describe his own practice or standards."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_jobim_jazzcom, src_jobim_jazzstandards | 1967-1980s | encyclopedia entry + short biography] jazz.com says his 1967 album Stone Flower was darker and more adventurous than his earlier work, and both sources say that when the bossa nova fad faded he turned to scoring Brazilian films before returning to the international scene in the mid-1980s with his own touring group. The changes of direction are documented; whether they were chosen or forced by the market is not stated."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jobim_britannica, src_jobim_jazzcom, src_jobim_jazzstandards | 1950s-1990s | reference biography + encyclopedia entry + short biography] Sources record work as pianist, arranger, record-label music director, songwriter, composer of film scores and of classical works, and early study of architecture. Breadth within music is documented; the three sources do not evaluate the quality of the non-popular work."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "안토니우 카를루스 조빙"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait was found after one bounded retry. The Wikidata image (Arquivo Nacional, Correio da Manha collection, March 1965) names an unknown photographer and rests on a Commons template asserting Brazilian public-domain status with a US restoration clause; an unknown-photographer public-domain tag with a country-law basis is not accepted as a rights basis, and the same collection's 1972 photographs use the same template. The other Commons files in the category were either signage photographs, an own-work CC0 upload (2021) of an apparently older photograph of Jobim with others (doubtful authorship), or the same Arquivo Nacional set. Next step: find a Jobim photograph with a documented photographer and licence (for example a government or institutional archive page stating terms, or a photographer-uploaded Commons file with creator, date and licence), or obtain the Arquivo Nacional's own item-level rights statement."
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed: HOLD. Commons wikitext for the P18 file shows author Unknown (restoration by a Commons user), date 1965-03, institution Arquivo Nacional, template 'Arquivo Nacional PD-license' with the Brazil URAA clause; the 1972 Arquivo Nacional file uses the same template and also has an unknown photographer; the CC0 'own work' files uploaded in 2021 depict Jobim with others and look like older photographs, so authorship is doubtful. One bounded retry (category listing and five file pages, one template page) found no alternative. Exact blocker and next step are in portrait.reason. PREFLIGHT: QID VERIFIED LIVE (2026-10-26): Q200131 label 'Antônio Carlos Jobim', description 'Brazilian songwriter, composer, arranger, singer, and pianist/guitarist (1927-1994)', born 1927-01-25, died 1994-12-08; matches the lead. No production slug or QID collision (prod58.txt searched for the surname token and QID; no candidate file existed). REGION latin_america (Brazil). VOCABULARY: composer, musician, field music, tag innovator, archetype creative_creator exist with EN labels; pianist, songwriter, guitarist have no labels and were not used. KOREAN NAME: Wikidata's Korean label lists three spellings (조빙, 조빔, 조빈); the Korean Wikipedia article title is 안토니우 카를루스 조빙, and Korean orthography for Portuguese renders final -m as -ng and Antonio as 안토니우, so 안토니우 카를루스 조빙 is used; 조빔 is the common variant. ZERO POLITICS: primary identity is a composer; the Brasilia symphonic commission was seen only in search results and is not used. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica biography (https://www.britannica.com/biography/Antonio-Carlos-Jobim). READ: Britannica (full), jazz.com encyclopedia entry (full), JazzStandards.com biography (full), Songwriters Hall of Fame profile (full). Perspectives: reference biography, two independent encyclopedia/biography entries, hall-of-fame institution. NOT opened: NYT obituary (blocked), instituto Jobim archive (server error), KCRW article on Jobim's symphonic work (rate limited), Ruy Castro's book, Dicionario Cravo Albin (empty page). No adversarial or critical source was obtained, so confidence is kept low and no row exceeds 74. EXCLUSIONS: family, marriages, health and cause of death. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (78/0.64 lowered to 74/0.60), collaboration (kept: four sources agree on the partnerships), mastery_orientation (kept at modest level). FLAGS: 5 rows; all sources admiring or reference-level; no counter-voice. HANDBACK58: {\"slug\":\"antonio-carlos-jobim\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"creative_originality\",\"old_score\":78,\"old_confidence\":0.64,\"new_score\":74,\"new_confidence\":0.6,\"reason\":\"all sources admiring or reference-level; no independent critical voice\"}],\"reviewed_kept\":[\"collaboration\",\"mastery_orientation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}

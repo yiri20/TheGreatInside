@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-muir",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John Muir",
+    "aliases": [],
+    "wikidataId": "Q379580",
+    "birthYear": 1838,
+    "deathYear": 1914,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US",
+      "GB"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "naturalist",
+      "writer"
+    ],
+    "fieldIds": [
+      "environmental_science",
+      "literature"
+    ],
+    "impactDomains": [
+      "scientific",
+      "literary"
+    ],
+    "tagIds": [
+      "explorer",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_muir_wikidata",
+      "kind": "wikidata",
+      "title": "John Muir (Q379580) -- verified live via the Wikidata API (2026-10-26): English label 'John Muir', description 'Scottish-American naturalist (1838-1914)', born 1838-04-21, died 1914-12-24, Korean label present, P18 images 'John Muir 1912.jpg' and 'Muir portrait 1872.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q379580"
+    },
+    {
+      "id": "src_muir_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'John Muir' (britannica.com, updated October 2026), read in full: Scottish-born American naturalist, writer and advocate of forest conservation; emigration to Wisconsin in 1849; the 1867 industrial accident that turned him from mechanical inventions to nature; the 1,000-mile walk to the Gulf; Yosemite from 1868; the 1874-75 Overland Monthly articles attributing Yosemite's formation to glacial erosion, a theory it says he was the first to present and which is now generally accepted; his magazine writing and the 1890 Yosemite and Sequoia parks; the Sierra Club founded in 1892; his disagreement with Gifford Pinchot; his books (The Mountains of California, Our National Parks, The Yosemite and posthumous journals); and a closing passage on his harmful attitudes toward Black and Indigenous peoples. CANONICAL SIGNIFICANCE SOURCE. Reference work; it treats advocacy as central to his significance, which this profile scores only as context.",
+      "url": "https://www.britannica.com/biography/John-Muir"
+    },
+    {
+      "id": "src_muir_nps",
+      "kind": "institution",
+      "title": "U.S. National Park Service, 'John Muir', Yosemite National Park website (nps.gov/yose), read in full: the 1868 first visit, his work as ranch hand, shepherd and sawmill hand for James Hutchings, the tension that led him to quit in 1871, his first glacier article in the New York Tribune in 1871, his friendships with botanists, artists and editors (Asa Gray, Albert Kellogg and others), his 1876 forest-preservation article, the 1889 Tuolumne Meadows trip with Robert Underwood Johnson, the Hetch Hetchy fight and his death, with quotations from My First Summer in the Sierra and The Yosemite. Admiring government-agency account.",
+      "url": "https://www.nps.gov/yose/learn/historyculture/muir.htm"
+    },
+    {
+      "id": "src_muir_smithsonian",
+      "kind": "press",
+      "title": "Tony Perrottet, 'John Muir's Yosemite', Smithsonian magazine, June 2008 issue (smithsonianmag.com), read in full: Muir's first shelter in Yosemite and the cabin he built with Harry Randall over a diverted creek, the 1868-1874 years, his shepherding of 2,000 sheep to Tuolumne Meadows and later disdain for 'hoofed locusts', his ascent of Cathedral Peak with a notebook, studies of the valley's geology, plants and the water ouzel on Sunday excursions, climbing into a glacier and riding an avalanche, Theresa Yelverton's contemporary description of him in a novel, Joseph LeConte's encouragement of his glacial theory and first article, Emerson's visit, the park-boundary and Roosevelt episodes, the Hetch Hetchy defeat, and the criticism of Muir's remarks on Native Americans by a Maidu park ranger. Journalism with quotations from curators and rangers.",
+      "url": "https://www.smithsonianmag.com/history/john-muirs-yosemite-10737/"
+    },
+    {
+      "id": "src_muir_hnet",
+      "kind": "biography",
+      "title": "Robert M. Wilson, review of Donald Worster, A Passion for Nature: The Life of John Muir (Oxford University Press, 2008), H-HistGeog, H-Net Reviews, August 2009 (PDF read in full): describes Worster's biography as exhaustive, neither hagiography nor a response to critics; Muir as a manual labourer (farmer, millwright, shepherd) until his early forties; wandering excursions such as the 1867 walk; Worster's argument that Muir extended liberal ideals to the nonhuman world and held a pantheistic religion of nature; Muir's willingness to compromise on tourism at Hetch Hetchy; the criticism by environmental historians of Muir's wilderness ideal as elitist. Worster's book itself was not opened.",
+      "url": "https://www.h-net.org/reviews/showpdf.php?id=24568"
+    },
+    {
+      "id": "src_muir_apcg",
+      "kind": "press",
+      "title": "Jeffrey R. Trust, review of Jeffrey P. Schaffer, The Geomorphic Evolution of the Yosemite Valley and Sierra Nevada Landscapes, Yearbook of the Association of Pacific Coast Geographers 59 (1997), 153-157 (Project MUSE; first page excerpt read): an academic geographer's aside that Muir, a broadly educated naturalist rather than a geologist, proclaimed that glaciers rather than earthquakes formed Yosemite Valley, against the state geologist Josiah Whitney, and that the long controversy ended with Whitney recanting his earlier statements and Muir 'turning extremist' and overstating the effects and extent of Yosemite's glaciers. A brief independent note from a book review on another subject; only the opening was readable.",
+      "url": "https://muse.jhu.edu/article/525777/summary"
+    },
+    {
+      "id": "src_muir_styer",
+      "kind": "institution",
+      "title": "Dan Styer (Oberlin College physics department), 'Resources for Retracing John Muir's 1869 First Summer in the Sierra' (oberlin.edu, 17 March 2020), read in full: a short academic web page warning, after Steven J. Holmes, that Muir's 1869 journal is lost, that My First Summer in the Sierra (1911) rests on Muir's 1887 rewriting and modification of it, and that this explains how he can present a confident unified glaciation theory by July 11 in the account. Short academic note; Holmes's own work was not opened.",
+      "url": "https://www2.oberlin.edu/physics/dstyer/Muir/FirstSummerResources.html"
+    },
+    {
+      "id": "src_muir_loc",
+      "kind": "archive",
+      "title": "Library of Congress Prints and Photographs Division, record 2008679854, '[John Muir, seated, reading a book]', Underwood & Underwood, photographer, c1912 May 29, call number BIOG FILE - Muir, John, reproduction number LC-DIG-ppmsca-18943, notes 'J169749 U.S. Copyright Office', rights statement 'No known restrictions on publication' (JSON record read), and the Wikimedia Commons file page 'John Muir 1912.jpg' that reproduces it. Checked for the portrait's rights. Not used for any scoring.",
+      "url": "https://www.loc.gov/item/2008679854/"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_muir_smithsonian, src_muir_nps, src_muir_britannica, src_muir_hnet | 1867-1875 | magazine feature + park-service page + reference work + scholarly review] After the 1867 accident he walked a thousand miles through the American South keeping a journal and then spent years in the Sierra, where, per the magazine feature, he used his free Sundays for detailed studies of the valley's geology, plants and animals (including the water ouzel), made forays into the high country, and pressed Emerson, who visited, for botanical answers in turn; the park-service page says he briefly studied natural sciences and then treated the wilderness as his university. Wide-ranging and self-driven inquiry is well attested by four sources, but much of the detail comes from Muir's own letters and journals as retold by admiring writers. SELF-CALIBRATION (agent): first-pass 80 / 0.60 lowered to 76 / 0.56 because the specific field behaviours are known through his own journals relayed by park and magazine writers, with only one contemporary outside description (Yelverton's novel, itself relayed)."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_muir_britannica, src_muir_smithsonian, src_muir_apcg | 1871-1875 | reference work + magazine feature + academic review] Against the then widely held cataclysm explanation of Yosemite (the state geologist's view that the valley dropped in earthquakes), Muir argued from his own field observation that glaciers carved it; Britannica says he was the first to present the theory in the 1874-75 Overland Monthly articles and that it is now generally accepted, and the magazine feature says Joseph LeConte was impressed enough to encourage his first article. A geographers' review adds that Muir, not a trained geologist, later 'overstated the effects and extent' of the glaciers, so the independence was real but the conclusions were partly overextended. Kept as a strong, mixed-outcome row; the lone dissenting source is a brief aside."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_muir_smithsonian, src_muir_nps | 1867-1871 | magazine feature + park-service page] The magazine feature recounts, from Muir's own letters and writings, that he climbed Cathedral Peak carrying only a notebook and bread, was lowered by rope into a remote glacier, camped on ledges soaked by freezing waterfalls, and 'rode' an avalanche down a canyon; the park-service page quotes his preference for travelling alone in silence without baggage. The behaviour is striking but the accounts are his own, relayed by third parties, and describe physical risk-taking chiefly in recreation and research, so a strong inference at modest confidence and dual-edged. SELF-CALIBRATION (agent): first-pass 70 / 0.52 lowered to 66 / 0.48 because the dangerous episodes rest only on Muir's own descriptions as retold in one magazine feature."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_muir_nps, src_muir_smithsonian, src_muir_hnet | 1867-1871 | park-service page + magazine feature + scholarly review] He gave up factory and inventing work after the accident, walked and worked as a ranch hand, shepherd and sawmill hand mainly to be near the wilderness, built his own cabin so he could hear the creek and, when displaced, built a small study at the sawmill; the park-service page quotes the view that only going alone without baggage lets one reach the heart of the wilderness, and says he quit Hutchings's sawmill in 1871 after tension over who spoke for Yosemite. The preference for self-directed work and solitude is evident, but it is inferred from choices and his own sayings rather than from documented disagreement with employers beyond the Hutchings episode."
+    },
+    "aesthetic_sensitivity": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_muir_smithsonian, src_muir_nps, src_muir_britannica | 1869-1912 | magazine feature + park-service page + reference work] The magazine feature cites letters in which he spent hour after hour 'marveling at the beauty around him' and wrote of 'feasting in the Lord's mountain house'; the park-service page credits his poetic imagery and notes the quill he used; Britannica names his books as lasting works of nature literature. His attention to beauty is evident in both life and writing, but it is mostly shown through his own phrases, and the Oberlin note that the 1911 book rests on an 1887 rewrite means the language of the 1869 summer cannot be taken as unmediated."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_muir_nps, src_muir_smithsonian, src_muir_styer | 1869-1911 | park-service page + magazine feature + academic note] Without a degree he built field knowledge in geology, botany and glaciers, kept journal after journal, formed friendships with botanists and was encouraged by LeConte; the academic note says he returned in 1887 to his 1869 journal and rewrote it, adding the glacial theory he had developed since, before the book appeared in 1911. Sustained skill-building is clear, but the rewriting also shows a reconstruction of the record, and the evidence of formal rigour is thin, so the confidence is modest."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_muir_smithsonian, src_muir_britannica, src_muir_hnet, src_muir_nps | 1860s-1912 | magazine feature + reference work + scholarly review + park-service page] Documented work as an inventor (the magazine feature mentions an early-rising bed and a scythe-shaped clock), farm labourer, millwright, shepherd, glaciologist, botanist, magazine writer and, later, book author; the biography review stresses that he was a manual labourer until his early forties. The breadth across mechanical, field-science and literary work is well sourced, though his later fame concentrated on one landscape and one cause."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 뮤어"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-muir-underwood-1912.jpg",
+    "width": 504,
+    "height": 645,
+    "source": "Library of Congress Prints and Photographs Division, '[John Muir, seated, reading a book]', photographer Underwood & Underwood, dated c1912 May 29 on the record, with the note 'J169749 U.S. Copyright Office' (a 1912 U.S. copyright entry), call number BIOG FILE - Muir, John, reproduction number LC-DIG-ppmsca-18943. The Library's rights statement is 'No known restrictions on publication', but the basis relied on here is item-level: a professional studio photograph published and registered in the United States in 1912, so its U.S. protection has expired by age (works published before 1931). Muir was about 74 and the sitting was a documented photograph of him, so it is a likeness. Saved from the Wikimedia Commons file 'John Muir 1912.jpg' at its original 504 x 645 pixels with no resizing or upscaling; a larger Library of Congress scan could not be fetched.",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing#Material_in_the_public_domain",
+    "attribution": "Underwood & Underwood, c. 1912; Library of Congress (public domain)",
+    "attributionUrl": "https://www.loc.gov/item/2008679854/",
+    "creator": "Underwood & Underwood",
+    "date": "1912",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:John_Muir_1912.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / confirmed: Underwood & Underwood c1912 with a U.S. Copyright Office note, item-level creator and date, PD by age; resolution is low (504 x 645). PREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-26) for Q379580 returned en label 'John Muir', description 'Scottish-American naturalist (1838-1914)', born 1838-04-21, died 1914-12-24, ko label, P18 'John Muir 1912.jpg'. SLUG/QID CHECK: no production or candidate collision (prod58 grep for muir and Q379580 empty; no candidate file). REGION north_america (career base in the United States; Scottish birth recorded in nationalityCodes GB and US). VOCABULARY: occupations naturalist and writer, fields environmental_science and literature, impact domains scientific and literary, tags explorer and self_taught, archetype scientific_explorer are existing labelled ids (grepped en.ts and ko.ts). ZERO POLITICS: the identity question is flagged for the lead: Britannica presents Muir chiefly as a naturalist-writer-advocate whose advocacy led to national parks. Only his naturalist, field-research and writing behaviour is scored; the Sierra Club presidency, lobbying, the Hetch Hetchy fight, the Roosevelt camping trip and the Pinchot dispute are unscored context. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'John Muir' (https://www.britannica.com/biography/John-Muir). READ (7 cited non-Wikidata sources): Britannica (full); NPS Yosemite page (full); Smithsonian magazine feature (full); H-Net review of Worster (full); APCG review excerpt (first page only); Oberlin note (full); Library of Congress record. PERSPECTIVES: reference work; government agency; magazine journalism; a scholarly biography review; an academic geographers' review; a physicist's academic note on the journal. COUNTER-VOICES: Britannica and Smithsonian on his remarks about Black and Indigenous peoples (not scored: a view, not a work behaviour; excluded from scoring and noted here); the APCG aside that he overstated glacial effects; the Oberlin note that the 1911 book rests on an 1887 rewrite of a lost journal; the H-Net review of critiques that his wilderness ideal was elitist. NOT opened: Worster's biography, Holmes's 'The Young John Muir', Muir's own books and journals, the Sierra Club exhibit pages (blocked), the Oxford DNB entry (paywalled), the Smithsonian 2020 article on the Sierra Club and racism (URL not retrieved). EXCLUDED: marriage, family, health, death, religion, and all advocacy and political activity. CALIBRATION: most behavioural detail comes from Muir's own writings relayed by third parties, so top score is 76 and top confidence 0.56; seven rows. SELF-GATE: first-pass primary, top omission, identity PASS; see the editorial draft for the self-gate record. SELF-CALIBRATION (agent): reviewed curiosity (lowered 80/0.60 to 76/0.56: own journals relayed), risk_tolerance (lowered 70/0.52 to 66/0.48: single magazine retelling of own accounts), independent_thinking (kept: reference work and a dissenting review both read). BROAD FLAG: no independent contemporary behavioural account beyond relayed secondary material was opened; Worster, Holmes and Muir's own papers would deepen the profile. HANDBACK58: {\"slug\":\"john-muir\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":7,\"self_calibrated_rows\":[{\"attribute\":\"curiosity\",\"old_score\":80,\"old_confidence\":0.6,\"new_score\":76,\"new_confidence\":0.56,\"reason\":\"field behaviours known through his own journals relayed by park and magazine writers\"},{\"attribute\":\"risk_tolerance\",\"old_score\":70,\"old_confidence\":0.52,\"new_score\":66,\"new_confidence\":0.48,\"reason\":\"dangerous episodes rest on his own descriptions retold in one magazine feature\"}],\"reviewed_kept\":[\"independent_thinking\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":7}"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "abebe-bikila",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Abebe Bikila",
+    "aliases": [
+      "Shambel Abebe Bikila"
+    ],
+    "wikidataId": "Q52596",
+    "birthYear": 1932,
+    "isLiving": false,
+    "deathYear": 1973,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "ET"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bikila_wikidata",
+      "kind": "wikidata",
+      "title": "Abebe Bikila (Q52596) -- verified live via the Wikidata API (2026-10-26): English label 'Abebe Bikila', description 'Ethiopian double Olympic marathon champion', born 7 August 1932, died 25 October 1973, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q52596"
+    },
+    {
+      "id": "src_bikila_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Abebe Bikila' (last updated 21 October 2026) -- reference biography: barefoot 1960 Rome marathon win in 2:15:16.2 on the Appian Way cobblestones, the 1964 Tokyo win in shoes in 2:12:11.2 after an appendectomy 40 days earlier, first athlete to win two Olympic marathons and first Olympic gold for Ethiopia. CANONICAL SIGNIFICANCE SOURCE. Read in full; the 1968 withdrawal, the 1969 accident and his guard service are not used for trait scoring.",
+      "url": "https://www.britannica.com/biography/Abebe-Bikila"
+    },
+    {
+      "id": "src_bikila_olympedia",
+      "kind": "archive",
+      "title": "Olympedia, 'Abebe Bikila' (athlete biography and results) -- Olympic results archive: marathon career began months before Rome, 13 marathons run between 1960 and 1966 with 12 wins and a fifth place at Boston in 1963, gold in 1960 and 1964 with world-best times, and flagbearer roles. Independent statistical and biographical record. Read in full.",
+      "url": "https://www.olympedia.org/athletes/67392"
+    },
+    {
+      "id": "src_bikila_deseret",
+      "kind": "press",
+      "title": "Chris Miller (Deseret News), 'Deseret News archives: Abebe Bikila was a trendsetter among Olympic distance runners', 10 September 2024 -- archive retrospective: late addition to the 1960 Ethiopian team, no shoes to fit him in Rome, barefoot win by 25 seconds over Rhadi Ben Abdesselam, his quoted reason for running barefoot, the later New York Road Runners award in his name. Popular retrospective; accounts of the shoe problem differ across sources. Read in full.",
+      "url": "https://www.deseret.com/utah/2024/09/10/deseret-news-archives-abebe-bikila-a-trend-setter-among-olympic-distance-runners/"
+    },
+    {
+      "id": "src_bikila_italy",
+      "kind": "press",
+      "title": "Italy On This Day, 'Historic victory at Rome Olympics' (2016) -- short history article on the 1960 marathon: late call-up, Adidas having no pair that fitted him, a habit of rarely training in shoes, the course from the Capitoline Hill to the Arch of Constantine, the 25-second winning margin, and the number mix-up about his rival. Hobbyist history blog; used to cross-check the Rome race. Read in full.",
+      "url": "https://www.italyonthisday.com/2016/09/historic-victory-at-rome-olympics.html"
+    },
+    {
+      "id": "src_bikila_maverick",
+      "kind": "press",
+      "title": "Yanga Sibembe (Daily Maverick), 'Astonishing feet -- barefoot Abebe Bikila becomes Ethiopia's first gold medallist at the Games', 9 June 2024 -- magazine feature: Bikila's low profile before 1960, the late-evening Rome race, his coach's decision with him to run barefoot because shoes were too tight, the Tokyo defence in shoes, and Basil Heatley's recollection of him. Independent press feature quoting a rival's recollection. Read in full.",
+      "url": "https://www.dailymaverick.co.za/article/2024-06-09-astonishing-feet-abebe-bikila-ethiopias-first-games-gold-medallist/"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bikila_olympedia, src_bikila_britannica, src_bikila_deseret, src_bikila_maverick | 1960-1966 | results archive, reference biography, press retrospectives] He won 12 of 13 marathons between 1960 and 1966 and took both the 1960 and 1964 Olympic titles in record times (Olympedia, Britannica); in Rome he stayed with Rhadi Ben Abdesselam for most of the race and pulled away late to win by 25 seconds (Deseret, Daily Maverick), and rival Basil Heatley said no one could have lived with him in Tokyo (Daily Maverick). Results and head-to-head racing are independently documented; no source describes his own rivalry attitudes, so the trait is inferred from race behaviour."
+    },
+    "decisiveness": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bikila_britannica, src_bikila_deseret, src_bikila_maverick | 1960 | reference biography, press] He broke away from Ben Abdesselam late in the Rome marathon, after the Obelisk of Axum according to Daily Maverick and in the last kilometre or final 500 metres depending on the account (Britannica, Deseret). The break is documented but its timing is reported inconsistently and no source describes how he decided, so the evidence is thin. SELF-CALIBRATION (agent): lowered from 60/0.45 to 56/0.38 because sources disagree on when the break came and none shows the decision process."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bikila_britannica, src_bikila_deseret, src_bikila_italy, src_bikila_maverick | 1960-1964 | reference biography, press] He ran Rome barefoot when no shoe fitted and, according to Daily Maverick, ran Tokyo in shoes once he had found a comfortable pair, winning both (Britannica); he also moved into marathoning only months before Rome (Olympedia is the source for the late start). Sources differ on why he went barefoot (shoes that did not fit, none left, or he disliked the pair he tried) and report that he rarely trained in shoes, so the barefoot run is partly habit rather than adjustment. SELF-CALIBRATION (agent): lowered from 62/0.50 to 56/0.40 because the sources disagree and the barefoot run was largely his normal practice."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bikila_olympedia, src_bikila_britannica | 1960-1966 | results archive, reference biography] Olympedia records 13 marathons in about six years with 12 wins and one fifth place (Boston 1963), and he returned to defend his Olympic title four years after Rome; the pattern is sustained competing over several seasons. No inference is drawn from the 1964 appendectomy, the 1967 injury or the 1969 accident. The evidence is a results record, not a description of how he trained or kept going, so confidence stays low."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/abebe-bikila-anefo-1968.jpg",
+    "width": 789,
+    "height": 972,
+    "source": "Wikimedia Commons, 'Abebe Bikila 1968c.jpg' -- cropped from the Anefo press photograph 'Bikila poseert op straat' (Dutch National Archives, Fotocollectie Anefo, access number 2.24.01.05, item 921-7035), taken in Amsterdam on 22 September 1968 by Jack de Nijs for Anefo. The archive's own item page (Nationaal Archief) names Abebe Bikila as the person pictured and lists the rights holder as 'Nationaal Archief, CC0'; the Commons file carries a CC0 1.0 dedication and the Nationaal Archief partnership tag. Parent original 2440 x 3693 pixels; Commons crop 789 x 972 used at its own size with no upscaling.",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photo: Jack de Nijs for Anefo / Nationaal Archief, 1968, CC0 1.0. Cropped.",
+    "attributionUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/ab4e7e34-d0b4-102d-bcf8-003048976d84",
+    "creator": "Jack de Nijs for Anefo",
+    "date": "1968-09-22",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Abebe_Bikila_1968c.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아베베 비킬라"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / confirmed: the Nationaal Archief item page (proxy.handle.net/10648/ab4e7e34-d0b4-102d-bcf8-003048976d84) names Bikila and states rights holder 'Nationaal Archief, CC0'; Commons file is a crop of item 921-7035 by Jack de Nijs for Anefo, CC0; file opened and is of Bikila (uniformed man with Ethiopian Olympic badge). No conflicting institutional notice found. PREFLIGHT: QID Q52596 verified live (wbgetentities 2026-10-26): label 'Abebe Bikila', description 'Ethiopian double Olympic marathon champion', born 7 Aug 1932, died 25 Oct 1973, human. No production or candidate slug/QID collision. Region sub_saharan_africa (Ethiopia). Zero-politics passes: primary identity is marathon runner; his Imperial Guard service and detention after the 1960 coup attempt are unscored context. Vocabulary: athlete, sport, competitor, sustained_excellence, competitive_performer all labelled in EN and KO (same as other athlete candidates). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Abebe Bikila' (https://www.britannica.com/biography/Abebe-Bikila). READ (5 substantive sources plus Wikidata): Britannica, Olympedia, Deseret News retrospective, Italy On This Day, Daily Maverick. Wikipedia was not used. PERSPECTIVES: reference biography, Olympic results archive, newspaper retrospectives, magazine feature quoting a rival (Basil Heatley). Counter-voice/disagreement: accounts differ on why he ran barefoot and when he broke from Ben Abdesselam; Deseret says his team selection was a stroke of fortune. NOT OPENED: Tim Judah's biography, IOC and BBC Sport pages (the IOC page could not be fetched, BBC returned no text), Capital Ethiopia, Runner's Tribe. Exclusions: no inference from the 1964 appendectomy, 1967 injury, 1968 withdrawal, 1969 accident or paralysis, or from his quoted statement about why he ran barefoot (Daily Maverick notes the practical reason). Evidence is a results record plus race narration, so only four rows and confidence at most 0.50. SELF-CALIBRATION (agent) pass: reviewed competitiveness (kept, results independently documented), decisiveness (lowered 60/0.45 to 56/0.38), adaptability (lowered 62/0.50 to 56/0.40). FLAG for lead: sparse, results-based profile; 4 rows. HANDBACK58: {\"slug\": \"abebe-bikila\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"decisiveness\", \"old_score\": 60, \"old_confidence\": 0.45, \"new_score\": 56, \"new_confidence\": 0.38, \"reason\": \"sources disagree on when the Rome break came and none shows the decision process\"}, {\"attribute\": \"adaptability\", \"old_score\": 62, \"old_confidence\": 0.5, \"new_score\": 56, \"new_confidence\": 0.4, \"reason\": \"sources disagree on why he ran barefoot and report he rarely trained in shoes, so it was partly habit\"}], \"reviewed_kept\": [\"competitiveness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

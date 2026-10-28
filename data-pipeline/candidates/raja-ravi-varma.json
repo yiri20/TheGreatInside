@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "raja-ravi-varma",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Raja Ravi Varma",
+    "aliases": [
+      "Ravi Varma",
+      "Raja Ravi Verma"
+    ],
+    "wikidataId": "Q333453",
+    "birthYear": 1848,
+    "deathYear": 1906,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "self_taught",
+      "founder",
+      "innovator",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_rrv_wikidata",
+      "kind": "wikidata",
+      "title": "Raja Ravi Varma (Q333453), verified live via the Wikidata API (2026-10-26): label 'Raja Ravi Varma', description 'Indian painter from Kerala (1848-1906)', born 1848-04-29, died 1906-10-02, citizenship India, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q333453"
+    },
+    {
+      "id": "src_rrv_mapacademy",
+      "kind": "institution",
+      "title": "MAP Academy (Museum of Art & Photography, Bengaluru) Encyclopedia of Art entry on the Raja Ravi Varma Press, read in full as reprinted by ThePrint (22 February 2026). CANONICAL SIGNIFICANCE SOURCE: says the press (1894) was among the earliest in India to use large-scale printing technology and the first to mass-produce works of an established artist, credits it with making Ravi Varma a household name and with creating a pan-India iconography, and records T. Madhava Rao's 1884 suggestion, the 1892 machinery import with the German printers Fritz Schleicher and B. Gerhardt, the relocation to Ghatkopar and Lonavala, the 1901 sale of the majority interest for 25,000 rupees with rights to over a hundred paintings, the later decline in print quality, and the criticism that he corrupted the ideals of high art. Institutional and press-focused; says little about his painting practice.",
+      "url": "https://theprint.in/pageturner/excerpt/raja-ravi-varma-press-revolutionised-printing-modern-india/2860165/"
+    },
+    {
+      "id": "src_rrv_sheikh",
+      "kind": "institution",
+      "title": "Gulammohammed Sheikh, 'Ravi Varma in Baroda' (essay, Asia Art Archive in Hong Kong digital collection), read in full from a PDF scan: his 1881 visit as a state guest at Baroda, the commission of fourteen Puranic paintings and the tour to find a common costume, the Madhava Rao letter that led to oleographs, the theatrical staging of his scenes, his self-taught realism and visible technical weaknesses (foreshortening, perspective, landscapes), his invention of visual treatments for legends that lacked prototypes, and how admirers and detractors saw him. Scholarly and mixed in verdict; the author is a painter and teacher, so it is an artist's critical reading.",
+      "url": "https://cdn.aaa.org.hk/_source/gms-ms-ravivarma.pdf"
+    },
+    {
+      "id": "src_rrv_modernreview",
+      "kind": "press",
+      "title": "'Ravi Varma', The Modern Review (Calcutta), vol. 1, January-June 1907, pp. 84-88, obituary by the editor, read in full from the Internet Archive scan (Digital Library of India copy). A contemporary and admiring account: his early drawings, the painting of mythological and epic scenes, his study of costume (a visit to Northern India that the article says did not find an old Hindu costume), his foreign style, and the editor's view that he helped in 'nation-building'. It quotes a biographical sketch for details and does not itself cite sources for the medals; the same issue's front plate is the portrait used here.",
+      "url": "https://archive.org/details/dli.calcutta.09802"
+    },
+    {
+      "id": "src_rrv_tribune",
+      "kind": "press",
+      "title": "K. R. N. Swamy, 'A great painter, no doubt, but controversial too', The Sunday Tribune (Spectrum), 28 April 2002, read in full: his training by watching Theodore Jensen in 1863, the oleographic press established in the 1890s on the advice of Sir T. Madhava Rao, his working life as a court painter, and the critics' regret that his popularity led public taste; some critics call him a 'historic failure' for modern Indian painting. Journalistic critical retrospective; some dates (death 5 October 1906) differ from Wikidata.",
+      "url": "https://www.tribuneindia.com/2002/20020428/spectrum/main2.htm"
+    },
+    {
+      "id": "src_rrv_gac",
+      "kind": "institution",
+      "title": "'Wanderers Between Worlds: Story of the Ravi Varma Press', Raja Ravi Varma Heritage Foundation on Google Arts & Culture, read in full: the press as an 'absentee artist' enterprise, the partner Govardhan Das until 1898, the German technicians, the moves between Girgaum, Ghatkopar and Malavli, the 1901 lease and sale to Schleicher and Shriram Pant, and the statement that Varma probably ended his ownership without overall loss or much profit; based on the diary of his brother C. Raja Raja Varma. Heritage-foundation presentation (an interested institution); it dates Schleicher's ownership to 1903.",
+      "url": "https://artsandculture.google.com/story/wanderers-between-worlds-story-of-the-ravi-varma-press-the-raja-ravi-varma-heritage-foundation/zgUxuPn1UMesKQ?hl=en"
+    },
+    {
+      "id": "src_rrv_lhi",
+      "kind": "press",
+      "title": "'Ravi Varma: Art for All Times', Live History India (7 September 2017), read in full: the 1890 Baroda exhibition of fourteen paintings and the crowds it drew, the Madhava Rao letter, the 1894 press with Govardhandas Khatau Makanji, the rapid piracy by imitators, his unsuccessful request that G. K. Gokhale bring in an anti-plagiarism bill, and the statement that the press lost a lot of money. Popular-history magazine; relies on Venniyoor's biography and some of its claims are one-line summaries.",
+      "url": "https://www.livehistoryindia.com/story/snapshort-histories/ravi-varma-art-for-all-times"
+    },
+    {
+      "id": "src_rrv_parimoo",
+      "kind": "archive",
+      "title": "Ratan Parimoo, 'Pop art with religious motifs' (typescript newspaper article, Ratan Parimoo archive, Asia Art Archive in Hong Kong), read in full from a poor-quality scan (about 800 words): a critical view that his oleographs, issued by his press even after his death, spread a 'hybrid, vulgar' popular religious imagery borrowing from European academic painters; also notes that he was ranked as a Raja and denounced as un-Indian. Short critical opinion piece, undated in the scan; used only as a counter-voice.",
+      "url": "https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/40635.pdf"
+    },
+    {
+      "id": "src_rrv_portrait",
+      "kind": "archive",
+      "title": "Internet Archive scan of The Modern Review vol. 1 (January-June 1907), Digital Library of India copy, whose contents list the plate 'The late Mr. Ravi Varma' at page 84, and the Wikimedia Commons file page 'Ravi Varma.jpg' (source The Modern Review, 1907, 875 x 1158 pixels); checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Ravi_Varma.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rrv_sheikh, src_rrv_tribune, src_rrv_parimoo | 1870s-1900 | scholarly essay + press retrospective + critical note] Sheikh says he virtually invented the visual treatment of legends such as Harishchandra-Taramati, Shakuntala and Vishwamitra-Menaka that had hardly any traditional prototypes, and staged them as theatrical tableaux; but the same sources describe his technique and imagery as borrowed from European academic painting, and critics (Tribune, Parimoo) regret the effect. The originality is in subject treatment and synthesis, not in a wholly new idiom. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 68 / 0.55 to 64 / 0.52 because the strongest claim ('virtually invented') rests on one scholar and the other sources call the style derivative."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rrv_sheikh, src_rrv_tribune, src_rrv_modernreview | 1863-1900 | scholarly essay + press retrospective + contemporary obituary] Sheikh and the Tribune say he had only brief coaching from the visiting painter Theodore Jensen (watching him paint in 1863) and otherwise evolved his realist oil technique largely through his own effort; Sheikh also lists persistent weaknesses in foreshortening and perspective, so the mastery was real but incomplete. The 1907 obituary credits 'devotion and the infinite capacity for taking pains' but is an admiring editorial remark. Corroborated across three different kinds of source."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rrv_sheikh, src_rrv_modernreview, src_rrv_mapacademy | 1881-1894 | scholarly essay + contemporary obituary + institution] When Baroda commissioned fourteen Puranic paintings he toured the country to look for a common costume that would suit every class (Sheikh; the 1907 obituary quotes the biographical sketch that he visited Northern India for the purpose without success), and he imported steam-driven press machinery from Germany in 1892 (MAP Academy). Both were self-initiated efforts to solve a problem the commissions raised."
+    },
+    "opportunity_sensing": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rrv_mapacademy, src_rrv_lhi, src_rrv_sheikh, src_rrv_gac | 1884-1901 | institution + popular history + scholarly essay] After Madhava Rao's advice to have his paintings oleographed and the crowds at the 1890 Baroda exhibition, he founded his own press in 1894; MAP Academy and Sheikh say it made his imagery pan-Indian. The venture lost money and was sold in 1901, and the heritage foundation says he might have become far richer with stricter management, so the sensing of demand was sound but the execution was uneven; Madhava Rao's role means the idea was partly prompted by others."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rrv_modernreview, src_rrv_tribune, src_rrv_lhi, src_rrv_gac | 1860s-1901 | contemporary obituary + press retrospective + popular history + heritage foundation] The 1907 obituary says painting was then considered a degrading profession for a gentleman and the Tribune says elders frowned on his painting, yet he made it his career; later he put capital into a press that, by two sources, lost money and which he ran as an absentee artist. The stakes are documented but his own attitude toward risk is inferred, hence the modest confidence."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rrv_sheikh | 1880s-1890s | scholarly essay] Sheikh describes most of his pictures as meticulously planned tableaux with clearly defined positions of principal and subordinate figures, and portraits in which costume and jewellery glittered brighter than the sitters, but also notes inaccuracies in foreshortening, depth and landscape. One scholar is the main support, so the reading stays moderate."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_rrv_tribune, src_rrv_lhi, src_rrv_sheikh | 1884-1894 | press retrospective + popular history + scholarly essay] The Tribune says the press was set up so that even the poor could buy copies; LHI says he believed founding it would serve a national cause, and Madhava Rao's letter framed oleographs as a service to the country. These are reporters' and a patron's framings of his aim, and the press was also commercial. SELF-CALIBRATION (agent): reviewed as a top-risk row (motive inferred from retrospective summaries); lowered from 62 / 0.48 to 58 / 0.45 because no source quotes his own account of the purpose."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "라자 라비 바르마"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/raja-ravi-varma-unknown-1907.jpg",
+    "width": 875,
+    "height": 1158,
+    "source": "Photographic portrait of Raja Ravi Varma printed as a plate captioned 'The late Mr. Ravi Varma' (contents page 84) in The Modern Review, Calcutta, volume 1, January-June 1907, as shown on the Wikimedia Commons file page (source The Modern Review, 1907; photographer unknown) and checked against the Internet Archive scan of that volume, whose contents list the plate and whose text carries an obituary of him. Original file 875 x 1158 pixels; used as downloaded, no upscaling and no cropping, so the printed decorative border remains. Rights basis: published in India in 1907, so it was in the public domain in the United States as a work published before 1931 and any Indian term had expired long before 1996; the photographer is unknown and the plate was reproduced from a printed page. Shown as a likeness (a photograph of the sitter).",
+    "license": "Public domain (published in 1907, before 1931)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+    "attribution": "Unknown photographer, printed in The Modern Review (Calcutta), 1907",
+    "attributionUrl": "https://archive.org/details/dli.calcutta.09802",
+    "creator": "Unknown photographer (printed in The Modern Review)",
+    "date": "1907",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ravi_Varma.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / the lead's P18 Ravivarma1b.jpg (287x387, photographer Bhawani Ram, 1890s) has no documented publication date or venue (source is a university web page), so it was NOT used; instead a plate printed in The Modern Review (Calcutta), 1907, was found whose publication is verifiable in the Internet Archive scan (contents page lists 'The late Mr. Ravi Varma' at p. 84) and Commons tags PD-India and PD-US-expired; photographer unknown, full-size 875x1158; no institutional copyright notice found. PREFLIGHT: QID VERIFIED LIVE (2026-10-26): Q333453 label 'Raja Ravi Varma', description 'Indian painter from Kerala (1848-1906)', born 1848-04-29, died 1906-10-02; matches the lead. No production or candidate slug or QID collision (prod58.txt and data-pipeline/candidates searched). REGION south_asia (Kerala, Travancore). VOCABULARY: painter, field art, tags self_taught, founder, innovator, prolific and archetypes creative_creator, independent_creator have EN and KO labels (grep of en.ts and ko.ts); no occupation entrepreneur or printmaker used because the press is a secondary venture. ZERO POLITICS: primary identity is a painter; the nationalist reading of his work is the sources' framing and is not scored. CANONICAL SIGNIFICANCE SOURCE: MAP Academy Encyclopedia of Art, Raja Ravi Varma Press entry (via ThePrint, https://theprint.in/pageturner/excerpt/raja-ravi-varma-press-revolutionised-printing-modern-india/2860165/), supplemented by Sheikh's essay on his painting. READ IN FULL: MAP Academy entry, Sheikh essay, The Modern Review 1907 obituary, Tribune 2002 article, Google Arts & Culture press story, Live History India article, Parimoo note (poor scan). NOT opened: Venniyoor's biography, Neumayer and Schelberger's edition of C. Raja Raja Varma's diary, Pinney and Mitter scholarship, Geeta Kapur's chapter (a 1130-page PDF downloaded but not read), The Hindu 2005 article (404), Britannica (404), ArtNews 2026 auction report (read, market news only, not used). PERSPECTIVES: contemporary admiring obituary, scholarly artist-critic, journalist critical retrospective, museum encyclopedia, heritage foundation, popular history, critical newspaper note. COUNTER-VOICES: Tribune ('historic failure' view), Parimoo, and the detractors reported by Sheikh. DATE CAVEATS: press 1894 (MAP, LHI, Google) versus 'around 1890' (Parimoo); Girgaum (MAP) versus Ghatkopar (LHI) as first location; sale to Schleicher 1901 (MAP) versus ownership 1903 (Google); death 2 October 1906 (Wikidata) versus 5 October (Tribune). EXCLUSIONS: marriage, family, court honours, health and his later guardianship role are not scored; no inference from his death or from family bereavements. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (68/0.55 lowered to 64/0.52), impact_motivation (62/0.48 lowered to 58/0.45), mastery_orientation (kept: three independent source kinds agree). FLAGS: 7 rows, none above 68; no biography of his was opened and the key detail is carried by one scholarly essay plus secondary summaries. HANDBACK58: {\"slug\":\"raja-ravi-varma\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":7,\"self_calibrated_rows\":[{\"attribute\":\"creative_originality\",\"old_score\":68,\"old_confidence\":0.55,\"new_score\":64,\"new_confidence\":0.52,\"reason\":\"strongest claim rests on one scholar and other sources call the style derivative\"},{\"attribute\":\"impact_motivation\",\"old_score\":62,\"old_confidence\":0.48,\"new_score\":58,\"new_confidence\":0.45,\"reason\":\"no source quotes his own account of purpose; motive from reporters and a patron\"}],\"reviewed_kept\":[\"mastery_orientation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":7}"
+  }
+}

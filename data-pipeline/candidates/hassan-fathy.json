@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hassan-fathy",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hassan Fathy",
+    "aliases": [
+      "Hassan Fathi",
+      "Hasan Fathy"
+    ],
+    "wikidataId": "Q560101",
+    "birthYear": 1900,
+    "deathYear": 1989,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "EG"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect"
+    ],
+    "fieldIds": [
+      "architecture"
+    ],
+    "impactDomains": [
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "innovator",
+      "craft_focused",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_fathy_wikidata",
+      "kind": "wikidata",
+      "title": "Hassan Fathy (Q560101), verified live via the Wikidata API (2026-10-26): English label 'Hassan Fathi', description 'Egyptian architect (1900-1989)', born 1900-03-23 (a second 25 March value also appears), died 1989-11-30, occupation architect, citizenship Egypt. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q560101"
+    },
+    {
+      "id": "src_fathy_wikipedia",
+      "kind": "wikipedia",
+      "title": "Hassan Fathy, English Wikipedia (read as orientation only; several passages carry citation-needed tags). Not used as support for any row.",
+      "url": "https://en.wikipedia.org/wiki/Hassan_Fathy"
+    },
+    {
+      "id": "src_fathy_uia",
+      "kind": "award_body",
+      "title": "International Union of Architects, 'Hassan Fathy' UIA Gold Medal page, read in full including the start of the jury citation. CANONICAL SIGNIFICANCE SOURCE: states that he used traditional Egyptian forms and materials such as adobe and mud brick, designed nearly 160 projects, that New Gourna is his most renowned and controversial project, and that he proposed cheaper alternatives to steel, glass, timber and cement; the page itself gives 1985 for the medal while other sources give 1984.",
+      "url": "https://www.uia-architectes.org/?p=16490"
+    },
+    {
+      "id": "src_fathy_rightlivelihood",
+      "kind": "award_body",
+      "title": "Right Livelihood Foundation, 'Hassan Fathy' laureate page (1980 award 'For developing an Architecture for the Poor'), read in full: Architecture for the Poor (1973) brought his work international attention, he taught villagers to work with mud bricks and revived ancient decorative techniques, taught at Cairo University's Faculty of Fine Arts, and set up the International Institute for Appropriate Technology in Cairo in 1981.",
+      "url": "https://rightlivelihood.org/?p=2505"
+    },
+    {
+      "id": "src_fathy_jstor",
+      "kind": "press",
+      "title": "Ashley Gardini, 'Hassan Fathy and New Gourna', JSTOR Daily (8 August 2023), read in full: a journalist's synthesis of scholarship by James Steele, Panayiota Pyla and Nadia Alhasani covering the 1945 government commission, the mud-brick design, the critique that courtyards and domes did not suit the intended residents, Fathy abandoning the project in 1948 with under a quarter of 900 buildings built, and his return to it in the 1970s.",
+      "url": "https://daily.jstor.org/hassan-fathy-and-new-gourna"
+    },
+    {
+      "id": "src_fathy_taragan",
+      "kind": "biography",
+      "title": "Hana Taragan, 'Architecture in fact and fiction: the case of the New Gourna village in Upper Egypt', Muqarnas 16 (1999), the extract and footnotes shown on the architexturez.net record (the full article was not opened): says the villagers resisted resettlement and that official reports and Fathy's own book presented a one-sided account that did not reflect the conflicts between authorities and villagers.",
+      "url": "https://architexturez.net/node/222452"
+    },
+    {
+      "id": "src_fathy_ahmed",
+      "kind": "biography",
+      "title": "K. Galal Ahmed and L. El-Gizawy, 'The Dilemma of Sustainability in the Development Projects of Rural Communities in Egypt - the Case of New Gourna', International Journal of Sustainable Development and Planning 5(4), abstract and reference list read (full text not opened): judges that, whatever the good intentions, top-down official processes in both New Gourna attempts produced either superficial mimicry of vernacular architecture or an imposed alien environment.",
+      "url": "https://www.iieta.org/journals/ijsdp/paper/10.2495/SDP-V5-N4-407-429"
+    },
+    {
+      "id": "src_fathy_aljazeera",
+      "kind": "press",
+      "title": "'Hassan Fathy: Egypt's architect of the poor', Al Jazeera (23 March 2017), read in full: summarises his 1926 graduation, the 1945 Department of Antiquities commission for New Gourna, the families' refusal to move, Gourna: A Tale of Two Villages republished as Architecture for the Poor, and his 1980 Aga Khan award; an admiring popular profile.",
+      "url": "https://www.aljazeera.com/indepth/features/2017/03/hassan-fathy-google-inspired-works-170323084504344.html"
+    },
+    {
+      "id": "src_fathy_egyptindep",
+      "kind": "press",
+      "title": "Andrew Bossone, 'Officially endangered', Egypt Independent (22 October 2009), read in full: reports the World Heritage Fund watch-list listing of New Gourna, an estimated 40 percent of the village destroyed through mismanagement, and an antiquities official saying the people refused to move to it.",
+      "url": "https://www.egyptindependent.com/officially-endangered/"
+    },
+    {
+      "id": "src_fathy_afp",
+      "kind": "archive",
+      "title": "Hassan Fathy, 'Architecture for the Poor: An Experiment in Rural Egypt' (University of Chicago Press, 1973), full-text scan on the Internet Archive, searched and read in the passages on his failed vaulting attempts, the Nubian masons, the Gourna building campaign, the crafts apprenticeship plan and his chapter on the failure of the Gourna experiment. SELF-REPORT: used only with independent corroboration for the outcome and never as sole support.",
+      "url": "https://archive.org/details/ArchitectureForThePoor-English-HasanFathy"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_fathy_uia, src_fathy_rightlivelihood, src_fathy_jstor, src_fathy_afp | 1930s-1980 | award bodies + press synthesis + self-report] The UIA page says he favoured ancient techniques and materials and proposed cheaper alternatives to steel, glass, timber and cement; JSTOR Daily (summarising Steele and Pyla) says he rejected European ideas of modernism and argued Egypt could draw on its own regional histories; Right Livelihood credits him with showing the poor can build for themselves. His own book argues the same case. The independent sources are admiring or synthesising, and critics (see collaboration) dispute how well the vernacular he built matched local practice, so confidence is moderate."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_fathy_rightlivelihood, src_fathy_uia, src_fathy_ahmed, src_fathy_afp | 1945-1981 | award bodies + critical journal + self-report] The Right Livelihood citation and UIA page frame his career around low-cost housing for the poor, a village designed to improve residents' lives, and in 1981 an Institute for Appropriate Technology to apply his approach. Even the critical Ahmed and El-Gizawy abstract concedes the good intentions. His own book plans a crafts apprenticeship so villagers earn a living. Orientation toward the poor is well attested; its practical success is disputed."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fathy_afp, src_fathy_rightlivelihood, src_fathy_jstor | 1930s-1948 | self-report + award body + press synthesis] In his own account his early mud-brick vaults collapsed and repeated attempts failed; after his brother mentioned Nubian vaults built without supports, he wrote to Aswan for masons (named in the book) and they built the Royal Society of Agriculture farm. Right Livelihood and JSTOR Daily confirm the resulting mud-brick vaulted and domed building at New Gourna, which JSTOR calls an experiment still studied. The trial-and-error process itself rests on his own telling, hence strong inference and capped confidence."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_fathy_jstor, src_fathy_afp, src_fathy_rightlivelihood, src_fathy_uia | 1945-1989 | press synthesis + self-report + award bodies] JSTOR Daily records construction over about three years ending when he gave up in 1948 with under a quarter of the planned 900 buildings built, and that he returned to New Gourna in the 1970s. His book says the theory of mud brick was condemned as cranky after Gourna, yet he went on to further commissions and to build up his mason team; UIA counts nearly 160 projects and Right Livelihood the 1981 Institute. He did abandon the village in 1948, so the persistence is long-run advocacy rather than finishing the project."
+    },
+    "systems_abstraction": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fathy_jstor, src_fathy_uia, src_fathy_afp | 1945-1948 | press synthesis + award body + self-report] JSTOR Daily describes a plan with a central square, community buildings and residential quarters; UIA says his projects ranged to town plans; his own book shows him planning water supply, individual drainage for each household (to avoid neighbourhood quarrels over a shared tank), a crafts khan and apprenticeship together. This is a whole-settlement design approach, but the detail comes mostly from his own account."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fathy_afp, src_fathy_jstor, src_fathy_taragan | 1930s-1970s | self-report + press synthesis + scholarly extract] After his first vault attempts failed he took up Nubian technique, and he writes that he learned more from the Gourna struggle and deepened his understanding of rural housing. Against that, JSTOR Daily records that courtyards and domes proved ill-suited to the intended residents and Taragan says the usual accounts were one-sided; the sources read do not show him revising those design choices. Mixed and thinly evidenced."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fathy_rightlivelihood, src_fathy_afp, src_fathy_jstor, src_fathy_taragan, src_fathy_ahmed, src_fathy_egyptindep | 1945-1948 | award body + self-report + press + scholarly sources] Right Livelihood and his own book describe working with Nubian masons and local brick-making teams and teaching villagers to build, and JSTOR Daily quotes him on living among the villagers. But Taragan, the Ahmed and El-Gizawy abstract, JSTOR Daily and Egypt Independent record that the Gourna residents refused to move, that the design did not connect with their lives, and that official processes were top-down. The collaboration was real with craftspeople but did not win the intended residents."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "하산 파티"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. The only portraits of Fathy on Commons are the file 'Hassan Fathy in Cairo (cropped).jpg' (809 x 1079) and its parent 'Hassan Fathy, Lawrence Durrell and Dimitri Papadimos, in Cairo.jpg' (2600 x 2430). Both name only the Dimitri Papadimos personal archive (with his son Ioannis D. Papadimos) as author, give the date as 'before 1989', and carry a CC BY-SA 3.0 tag on the uploader's basis; the photographer is not identified and no documented permission or institutional release is stated. An unknown-photographer image with an uploader-only licence claim is not an acceptable rights basis. Next step: find a portrait with a named photographer or institution that states its own terms (for example the Aga Khan Award for Architecture or the Aga Khan Documentation Center at MIT with a documented licence), or obtain a written release from the Papadimos archive holder."
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed risky: Commons has only the Papadimos-archive photograph (and its larger parent with Lawrence Durrell), photographer unidentified, CC BY-SA 3.0 on an uploader claim, no permission statement; category and search showed no other portrait; HELD after one bounded retry. PREFLIGHT: QID VERIFIED LIVE (2026-10-26): Q560101 label 'Hassan Fathi', description 'Egyptian architect (1900-1989)', born 1900-03-23 (second value 1900-03-25), died 1989-11-30; matches the lead. Slug hassan-fathy unused; QID absent from prod58.txt and from existing candidates. REGION north_africa (Egypt). VOCABULARY: occupation architect, field architecture, tags innovator, craft_focused, advocate and archetype creative_creator exist in en.ts and ko.ts. ZERO POLITICS: primary identity is architect; the New Gourna resettlement politics and dealings with Egyptian authorities are context only and no row scores political behaviour. CANONICAL SIGNIFICANCE SOURCE: International Union of Architects, 'Hassan Fathy' UIA Gold Medal page (https://www.uia-architectes.org/?p=16490). READ: UIA page, Right Livelihood page, JSTOR Daily article, Al Jazeera profile, Egypt Independent article, Taragan (Muqarnas) extract and footnotes via architexturez, Ahmed and El-Gizawy abstract, and targeted passages of Fathy's own book (Internet Archive scan); Wikipedia and Wikidata orientation only. Perspectives: award bodies (admiring), press, scholarly critique (Taragan, Ahmed and El-Gizawy), self-report. COUNTER-VOICES: Taragan, Ahmed and El-Gizawy, JSTOR Daily's critique of courtyards and domes. NOT OPENED: James Steele's books (Internet Archive lending only), Pyla's articles and Timothy Mitchell's chapter (paywalled or lending), the full Taragan article, the Nobbs-Thiessen SFU thesis (repository offline), Serageldin's biography (Arabic scan unreadable by OCR), Aga Khan Award/Archnet pages (Archnet blocked automated access). A University of Toronto student slide deck on New Gourna was read but not cited. EXCLUDED: marriage, family and any private matters; New Gourna resettlement politics and dealings with Egyptian authorities are context only. Evidence is thinner than a typical profile: only one source gives process-level behaviour and it is his own book, so confidence is capped at 0.58 and the profile has 7 rows. SELF-CALIBRATION (agent): reviewed independent_thinking, impact_motivation and persistence; all kept because each is backed by at least two independent sources plus the critical sources, with confidence already <= 0.58; no row lowered. HANDBACK58: {\"slug\":\"hassan-fathy\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":7,\"self_calibrated_rows\":[],\"reviewed_kept\":[\"independent_thinking\",\"impact_motivation\",\"persistence\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":7}"
+  }
+}

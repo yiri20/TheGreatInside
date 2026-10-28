@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mo-ibrahim",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mo Ibrahim",
+    "aliases": [
+      "Mohamed Ibrahim",
+      "Mohammed Fathi Ahmed Ibrahim"
+    ],
+    "wikidataId": "Q1374752",
+    "birthYear": 1946,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "SD",
+      "GB"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "engineer",
+      "executive"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "technological"
+    ],
+    "tagIds": [
+      "founder",
+      "strategist"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mibr_wikidata",
+      "kind": "wikidata",
+      "title": "Mo Ibrahim (Q1374752) -- verified live via the Wikidata API (2026-10-26): English label 'Mo Ibrahim', description 'Sudanese-British businessman', born 3 May 1946, no date of death, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1374752"
+    },
+    {
+      "id": "src_mibr_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica (Britannica Money), 'Mo Ibrahim' -- reference biography: engineering training, Cellnet, founding of Mobile Systems International in 1989 and its 2000 sale to Marconi, founding of MSI Cellular Investments (later Celtel International) in 1998 on a no-bribes business plan, the 2005 sale to MTC Kuwait for US$3.4 billion, and the 2006 foundation. CANONICAL SIGNIFICANCE SOURCE. Read in full; its 'largest individual prize' wording is not repeated.",
+      "url": "https://www.britannica.com/money/Mo-Ibrahim"
+    },
+    {
+      "id": "src_mibr_ency",
+      "kind": "biography",
+      "title": "'Ibrahim, Mo', Encyclopedia.com (reprint of Contemporary Black Biography entry, Gale) -- independent biographical profile: the ITU internship that sparked his interest in mobile radio, MSI founded in 1989, Celtel as a leading operator in sub-Saharan Africa, the foundation, and published criticism of the Ibrahim Prize (counter-voice, unscored). Read in full.",
+      "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/ibrahim-mo"
+    },
+    {
+      "id": "src_mibr_cnbc",
+      "kind": "press",
+      "title": "CNBC, 'No bank would fund Mo Ibrahim's telco but then he became a billionaire', 25 April 2019 -- short interview-based article for 'The Brave Ones': difficulty raising funding for Celtel in 1998, banks refusing loans so the company was built with equity, building infrastructure himself, and the loan secured on all of Celtel's assets. Largely his own account relayed by a news outlet. Read in full.",
+      "url": "https://www.cnbc.com/2019/04/25/no-bank-would-fund-mo-ibrahims-telco-but-then-he-became-a-billionaire.html"
+    },
+    {
+      "id": "src_mibr_hbr",
+      "kind": "press",
+      "title": "Mo Ibrahim, \"Celtel's Founder on Building a Business on the World's Poorest Continent\", Harvard Business Review, October 2012 -- first-person account of Celtel: refusing licences not won in open bidding, the board sign-off rule for expenses over US$30,000, prepaid cards, building networks tower by tower, fundraising, and the 2005 sale. SELF-REPORT: used as his own account of what the company did, never as sole support. Read in full.",
+      "url": "https://hbr.org/2012/10/celtels-founder-on-building-a-business-on-the-worlds-poorest-continent"
+    },
+    {
+      "id": "src_mibr_christensen",
+      "kind": "press",
+      "title": "Christensen Institute blog, 'What phones in Africa taught the world about poverty' -- analytical essay on how Celtel's founder reframed Africa as a market: Celtel Uganda's 3,500 subscribers by the end of 1996 against MTN's prepaid offer, then the licence strategy in markets others avoided. Promotional-leaning secondary source (an innovation-theory think tank); used for the Uganda lesson only. Read in full.",
+      "url": "https://www.christenseninstitute.org/blog/what-phones-in-africa-taught-the-world-about-poverty/"
+    },
+    {
+      "id": "src_mibr_itweb",
+      "kind": "press",
+      "title": "Paul Vecchiatto (ITWeb), 'Kuwaitis snap up Celtel', 30 March 2005 -- contemporaneous South African trade-press report of the US$3.4 billion MTC purchase: Celtel's GSM licences in 13 countries, planned London and Johannesburg listing, and investor Actis's comments that growth exceeded expectations and that the offer was higher than a listing would have achieved. Independent trade press with investor quotes. Read in full.",
+      "url": "https://itweb.co.za/article/kuwaitis-snap-up-celtel/PmxVEMKyYKkvQY85"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mibr_hbr, src_mibr_britannica, src_mibr_cnbc, src_mibr_itweb | 1995-2005 | self-report, reference biography, interview, trade press] He saw sub-Saharan Africa, where a country of about 55 million had only 3,000 phones in 1998 (his figure), as an underserved mobile market while his consulting clients judged it too risky (HBR, CNBC); Britannica confirms the pan-African network plan and ITWeb quotes the lead outside investor saying Celtel's revenue grew more than 115 percent a year and exceeded expectations. The outcome is independently documented; the claim that he read the gap early rests on his own account and is hindsight-favourable, and the first Celtel Uganda venture had only 3,500 subscribers by the end of 1996 (Christensen). SELF-CALIBRATION (agent): lowered from 74/0.60 to 70/0.55 because the sensing claim is mostly his own retrospective account and the proof is the later outcome."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mibr_hbr, src_mibr_cnbc, src_mibr_britannica, src_mibr_itweb | 1998-2005 | self-report, interview, reference biography, trade press] He launched Celtel in 1998 after clients refused to back African operators, raised about US$415 million in five years (his figure), built the company with equity because banks would not lend, and later accepted a loan secured on all the company's assets on harsh terms (HBR, CNBC). Britannica and ITWeb independently confirm rapid expansion to a dozen-plus countries and investor surprise at the 2005 price. Documented commitment under unusually hard conditions; dual-edged because the terms and constant short-term fundraising were costly. Details of the financing are his own."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mibr_hbr, src_mibr_cnbc, src_mibr_christensen, src_mibr_britannica | 1995-2005 | self-report, interview, secondary essay, reference biography] He kept building after the first Celtel Uganda venture reached only 3,500 subscribers (Christensen), spent two years negotiating a cross-border link between the two Congos, used helicopters to place base stations, and fundraised round after round (HBR). Britannica independently records the expansion over several years. The hardship details come from his own HBR account. SELF-CALIBRATION (agent): lowered from 70/0.58 to 66/0.50 because the specific episodes are self-reported and only the overall expansion is independently documented."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mibr_hbr, src_mibr_cnbc, src_mibr_christensen | 1998-2005 | self-report, interview, secondary essay] Where roads, power and fixed lines were missing he supplied his own electricity and water, laid microwave and fibre links himself, and introduced prepaid scratch cards sold for a few dollars so poor customers could use the service and unpaid bills were avoided (HBR, CNBC); Christensen describes the prepaid shift as a lesson from MTN in Uganda. Specific and concrete, but largely from his own account with one promotional secondary source."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mibr_hbr, src_mibr_britannica | 1998-2005 | self-report, reference biography] Britannica says the business plan was built on never giving or accepting bribes; he writes that Celtel accepted only licences won in open bidding, declined opportunities in Guinea and Angola for related reasons, and required full-board approval for any expense over US$30,000 (HBR). Consistency in a self-imposed rule is documented by two sources, but the enforcement details are self-reported and no independent audit was read."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_mibr_christensen, src_mibr_hbr | 1995-1998 | secondary essay, self-report] After the first Celtel Uganda venture, priced for business customers, reached 3,500 subscribers, the later Celtel strategy moved to prepaid airtime and cheap access for poor customers (Christensen, HBR). The change in approach is documented, but the claim that he learned this from MTN's Uganda offer is the essay's interpretation, so this is a modest inference."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_mibr_hbr, src_mibr_itweb | 1998-2005 | self-report, trade press] He raised capital in repeated rounds (US$270 million in two rounds in 2005 per ITWeb) and recruited a board including former Vodafone, BT and OAU leaders to give credibility with regulators (HBR). The fundraising is independently reported; the board recruitment and its role are his own account. Kept below 65 because the persuasion itself is not directly described."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. Lead file 'Mo Ibrahim.jpg' (535 x 800, World Economic Forum, Flickr photo 3287881746, 17 Feb 2009): Commons tags CC BY-SA 2.0 with a 2008 VRT permission ticket and a 2009 bot licence check, but the LIVE Flickr photo page (checked 2026-10-26) now shows CC BY-NC-SA 2.0; the photo-level licence therefore conflicts with the Commons tag and is non-commercial. Alternatives checked: 'Mo Ibrahim keynote at the Nordic Africa Days in Uppsala September 2014.jpg' (CC BY 3.0, 2592 x 1548, author given as Alexander Uggla, uploaded by a user in 2018) rests on an uploader assertion with no VRT or institutional licence statement; the Foreign and Commonwealth Office file '(13757217284)' is OGL v1.0 via the FCO Flickr stream, but was not verified against the live Flickr page within the bounded retry and shows a third-party-content caveat. Next step: confirm with the World Economic Forum or Wikimedia VRT whether the 2008 permission covers CC BY-SA irrespective of the later Flickr NC setting, or check the live FCDO Flickr photo page for a photo-level OGL or CC BY licence, or obtain a written licence from the Nordic Africa Institute."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "모 이브라힘"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-26T00:00:00Z",
+    "updatedAt": "2026-10-26T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / HELD: live Flickr licence is CC BY-NC-SA 2.0, conflicting with the Commons CC BY-SA 2.0 tag (WEF NC conflict confirmed); alternatives are an uploader assertion (Uppsala CC BY 3.0) and an unverified FCDO OGL file. PREFLIGHT: QID Q1374752 verified live (wbgetentities 2026-10-26): label 'Mo Ibrahim', description 'Sudanese-British businessman', born 3 May 1946, no death date, human. No production or candidate slug/QID collision. Region sub_saharan_africa: Celtel operated across Africa and the foundation is Africa-focused, although MSI was London-based and he holds British citizenship; career base judged Africa (Celtel) / UK, flagged for lead. Zero-politics passes: primary identity is telecoms entrepreneur; the Mo Ibrahim Foundation, Ibrahim Index and Prize, and any political commentary are unscored context, and criticism of the Prize is not scored. Vocabulary: occupations entrepreneur, engineer, executive; fields business, technology; tags founder, strategist; archetype entrepreneurial_builder all labelled in EN and KO. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Mo Ibrahim' (https://www.britannica.com/money/Mo-Ibrahim). LIVING SUBJECT: only public documented business behaviour scored; family, wealth rankings, philanthropy pledges, and the MTN court application over the 2005 sale (an allegation read in ITWeb, not scored) are excluded. READ (6 substantive sources plus Wikidata): Britannica, Encyclopedia.com (Contemporary Black Biography), CNBC interview article, HBR first-person article (self), Christensen Institute essay (promotional secondary), ITWeb 2005 trade press. Wikipedia pages (Mo Ibrahim, Celtel) read for orientation only. PERSPECTIVES: reference biography, independent profile, news interview, trade press with investor quotes, his own HBR account. Counter-voice is thin: Encyclopedia.com records criticism of the Ibrahim Prize (unscored) and Christensen records Celtel Uganda's weak first result; no investigative or adversarial Celtel source was found (Economist, FT, New Statesman 2005 paywalled, not opened; Forbes page returned no article text). Because most behavioural detail comes from HBR/CNBC (his own words), confidences are capped at 0.55 and scores at 70. SELF-CALIBRATION (agent) pass: reviewed opportunity_sensing, persistence, resourcefulness; lowered opportunity_sensing 74/0.60 to 70/0.55 and persistence 70/0.58 to 66/0.50 (self-report); resourcefulness kept at 68/0.50. FLAG for lead: the whole profile is self-report-heavy; 7 rows. HANDBACK58: {\"slug\": \"mo-ibrahim\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"opportunity_sensing\", \"old_score\": 74, \"old_confidence\": 0.6, \"new_score\": 70, \"new_confidence\": 0.55, \"reason\": \"sensing claim mostly his own retrospective account; independent evidence only shows the later outcome\"}, {\"attribute\": \"persistence\", \"old_score\": 70, \"old_confidence\": 0.58, \"new_score\": 66, \"new_confidence\": 0.5, \"reason\": \"specific hardship episodes are from his own HBR account; only overall expansion independently documented\"}], \"reviewed_kept\": [\"resourcefulness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  }
+}

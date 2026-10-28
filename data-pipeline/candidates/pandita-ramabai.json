@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "pandita-ramabai",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Pandita Ramabai",
+    "aliases": [
+      "Pandita Ramabai Sarasvati",
+      "Ramabai Dongre Medhavi"
+    ],
+    "wikidataId": "Q94889",
+    "birthYear": 1858,
+    "deathYear": 1922,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "teacher",
+      "writer"
+    ],
+    "fieldIds": [
+      "education",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ram_wikidata",
+      "kind": "wikidata",
+      "title": "Pandita Ramabai (Q94889), verified live via the Wikidata API (2026-10-27): label 'Pandita Ramabai', description 'Indian feminist historian and social reformer (1858-1922)', born 1858-04-23, died 1922-04-05; Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q94889"
+    },
+    {
+      "id": "src_ram_whn",
+      "kind": "institution",
+      "title": "Women's History Network (UK), 'Women's History Month: Pandita Ramabai' (11 March 2011), read in full. CANONICAL SIGNIFICANCE SOURCE: from a professional society for women's historians; says she opened the Sharada Sadan in 1889, was awarded the titles pandita and sarasvati, founded the Arya Mahila Samaj, published Morals for Women and testified to the Hunter Commission in 1882, turned to famine victims in the late 1890s, and left a translation of the whole Bible into Marathi. Admiring and brief; quotes A. B. Shah's superlative, which is not repeated here. Its passages on her health and bereavements were read but not used.",
+      "url": "https://womenshistorynetwork.org/womens-history-month-pandita-ramabai/"
+    },
+    {
+      "id": "src_ram_thesis",
+      "kind": "biography",
+      "title": "Elisabetta Bernardi, 'Pandita Ramabai, the High-Caste Hindu woman who gave voice to Indian women's appeal' (master's thesis, Ca' Foscari University of Venice, 2019/20), downloaded and read in the chapters on her 1882 testimony, the Sharada Sadan, the 1890s controversy over alleged proselytising, the Mukti Mission and famine work, its curriculum and the Bible translation; the chapters on her early life, England and her conversion were skimmed. A student dissertation that relies heavily on Meera Kosambi's 2016 biography and on Geraldine Forbes; independent of the promotional sources and the main behavioural and critical source (Tilak and the Kesari, the Boston association's inquiry, Hamlin, the quality of the Marathi Bible). Secondhand for Kosambi, whose book was not opened.",
+      "url": "https://unitesi.unive.it/retrieve/d4047160-38bc-4cfb-a3d1-ef5e1ab701bd/829467-1151305.pdf"
+    },
+    {
+      "id": "src_ram_fii",
+      "kind": "press",
+      "title": "Nupur Preeti Alok, 'Life of Pandita Ramabai: Championing Women's Education and Social Reform', Feminism in India, 28 March 2017, read in full: a popular advocacy article summarising the Hunter Commission testimony, the American Ramabai Association (about 30,000 dollars raised by 1888), The High Caste Hindu Woman, Sharada Sadan, Mukti and its trades curriculum, and the backlash after her conversion. Sympathetic and sometimes loosely worded; used for corroboration only.",
+      "url": "https://feminisminindia.com/2017/03/28/pandita-ramabai-essay/"
+    },
+    {
+      "id": "src_ram_csmv",
+      "kind": "institution",
+      "title": "Community of St Mary the Virgin, Wantage, 'Let the Earth hear her voice! The life and work of Pandita Ramabai' (2023), read in full: a convent's account promoting Keith J. White's book, covering her 1883 journey to Britain, the Sisters' influence on Mukti and the strained relationship with her spiritual guide Sister Geraldine. Partisan (her Anglican hosts) and promotional.",
+      "url": "https://csmv.co.uk/2023/06/13/let-the-earth-hear-her-voice-the-life-and-work-of-pandita-ramabai/"
+    },
+    {
+      "id": "src_ram_mukti",
+      "kind": "institution",
+      "title": "Pandita Ramabai Mukti Mission, home page, read: the mission she founded states that it continues her work for women and children and credits her with Maharashtra's first kindergarten and a hospital and shelter. Self-promotional successor organisation; used only for the founding claim.",
+      "url": "https://www.prmm.org.in/"
+    },
+    {
+      "id": "src_ram_hchw",
+      "kind": "archive",
+      "title": "Pandita Ramabai Sarasvati, 'The High-Caste Hindu Woman' (Philadelphia: Jas. B. Rodgers Printing Co., 1887), Internet Archive scan from University of California Libraries; title pages, dedication and introduction by Rachel Bodley read, and the frontispiece plate checked for the portrait. Her own book and so self material; used for publication facts and the portrait only.",
+      "url": "https://archive.org/details/highcastehinduwo00ramaiala"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ram_whn, src_ram_thesis, src_ram_fii | 1882-1899 | institution + dissertation + press] In 1882, as a young widow, she founded the Arya Mahila Samaj, published Morals for Women and testified to the Hunter Commission (Women's History Network), then raised funds in the United States and opened the Sharada Sadan in Bombay within about a month of her return in 1889 (thesis). In the 1890s she moved to land at Kedgaon and, when famine struck, went to the affected districts to bring children and women to Mukti (thesis, citing her own reports). The initiatives were self-started; the sources are sympathetic."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ram_thesis, src_ram_fii, src_ram_whn | 1887-1902 | dissertation + press + institution] She built a ten-year funding base through the American Ramabai Association and lecture tours, wrote The High Caste Hindu Woman partly to fund the school (Feminism in India), bought farmland near Kedgaon to make the school self-supporting, and ran an orchard, dairy and printing press with vocational training in trades so the community fed and supported itself (thesis). Her fundraising network also became a dependency when donors raised doubts about her religious policy."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ram_thesis, src_ram_fii, src_ram_whn | 1882-1900 | dissertation + press + institution] Her 1882 testimony was translated, printed and circulated, and Hunter approved her proposal on women's medical education (thesis, after Kosambi); the Ramabai Association was formed in Boston in 1887 and the book sold 10,000 copies within a year (thesis, Feminism in India). Orthodox Maharashtrian opinion rejected her proposals and Tilak's Kesari attacked her, and donations fell after the controversy over her religious policy (thesis), so her persuasive reach was strong abroad and limited at home."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ram_thesis, src_ram_whn, src_ram_fii | 1890-1922 | dissertation + institution + press] After the 1890s accusations of proselytising, the resignation of the school's local advisory committee and guardians withdrawing pupils, she kept the institution running and moved it to Kedgaon (thesis). She then spent the last 18 years of her life translating the Bible into Marathi from the original languages, and the first edition was printed at Mukti two years after her death (thesis); Kosambi, as cited there, judged the result not fluent. Sustained effort is documented; its outcome was mixed."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ram_thesis, src_ram_fii | 1882-1902 | dissertation + press] She publicly criticised men's opposition to women's education before the Hunter Commission and campaigned against child marriage with the Age of Consent petition in 1890-91 despite orthodox opposition (thesis), and answered the Boston association's inquiry (around 1902) by stating that all 123 Sharada Sadan students had become Christians of their own accord (thesis). She also replied to the American helper Sarah Hamlin's criticism of her daughter's upbringing by insisting on raising her among her own people (thesis). The impact is dual-edged because the confrontations cost her support among reformers and donors."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ram_thesis, src_ram_whn, src_ram_mukti, src_ram_csmv | 1889-1922 | dissertation + institution] Her institutions covered widows, famine victims, elderly women, blind women (Braille taught by her daughter), and women rescued from prostitution at the Kripa Sadan (1899) (thesis), with a school curriculum that included physiology, botany and trades. The motive is shown by what she built over three decades; the explicit statements of purpose come mostly from her own reports and from promotional pages. SELF-CALIBRATION (agent): lowered from 72 / 0.55 to 68 / 0.52 because the supporting pages are promotional or secondhand."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ram_thesis, src_ram_whn, src_ram_csmv | 1880-1900 | dissertation + institution] She married outside her caste, set up a school that was nominally non-sectarian while becoming a Christian, and, as the thesis reports from Kosambi, criticised both Brahmanical orthodoxy and the hierarchies of the Church of England, resisting missionary patronage for the Sadan; the Wantage convent describes a strained relationship with her spiritual guide. Documented, but the description of her stance relies on one secondary synthesis and the reader should treat 'independent thinking' as a moderate fit."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "판디타 라마바이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/pandita-ramabai-gutekunst-1887.jpg",
+    "width": 874,
+    "height": 1200,
+    "source": "Frontispiece portrait with her signature in the first printing of 'The High-Caste Hindu Woman' (Philadelphia: Jas. B. Rodgers Printing Co., 1887), credited on the plate to F. Gutekunst, phototype. Published in the United States in 1887, so public domain on age grounds. Taken from the Internet Archive scan (University of California Libraries) and the Wikimedia Commons file, whose own date (1922) is wrong. Original 1125 x 1545 pixels, downscaled to 874 x 1200; no upscaling. The photograph's own date is not stated.",
+    "license": "Public domain (published in the United States in 1887)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US",
+    "attribution": "F. Gutekunst, phototype, in The High-Caste Hindu Woman (Philadelphia, 1887)",
+    "attributionUrl": "https://archive.org/details/highcastehinduwo00ramaiala",
+    "creator": "F. Gutekunst (phototype credit)",
+    "date": "1887",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Pandita_Ramabai_Sarasvati_1858-1922_front-page-portrait.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-27T00:00:00Z",
+    "updatedAt": "2026-10-27T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / FOUND: the lead's frontispiece is confirmed in the 1887 first printing of The High-Caste Hindu Woman (Philadelphia: Jas. B. Rodgers Printing Co.; Internet Archive scan from University of California Libraries, copyright status listed as not in copyright). The scan's plate is credited 'F. Gutekunst Phototype' (Philadelphia) with her signature. A work published in the US in 1887 is public domain in the US on age grounds (pre-1931). The Commons page states date 1922 and tag PD-US, which contradict the 1887 date; the Internet Archive page and the scan itself were used as the basis instead. Original 1125 x 1545 (Commons upload of 2018 by Materialscientist), downscaled to 874 x 1200, no upscaling. Photograph date is not stated on the plate; kind is likeness (a photograph of the sitter reproduced as a phototype). PREFLIGHT: QID VERIFIED LIVE (2026-10-27): Q94889 label 'Pandita Ramabai', description 'Indian feminist historian and social reformer (1858-1922)', born 1858-04-23, died 1922-04-05; no collision in prod58 or candidates. REGION south_asia (India). ERA 19th_century (precedent: jagadish-chandra-bose, rabindranath-tagore). VOCABULARY: scholar, teacher, writer; fields education, social_reform; tags founder, organizer; archetypes organizational_leader, social_influencer all have EN and KO labels (grep). ZERO POLITICS: her primary identity is educator, writer and institution builder; her Age of Consent petition and National Social Conference involvement are treated as educational reform and are only mentioned in the conflict row; religion and conversion are context and not scored as trait evidence. CANONICAL SIGNIFICANCE SOURCE: Women's History Network, 'Women's History Month: Pandita Ramabai' (https://womenshistorynetwork.org/womens-history-month-pandita-ramabai/). READ: WHN (full), Bernardi 2019/20 master's thesis (substantial parts), Feminism in India article (full), CSMV page (full), Mukti Mission home page, the 1887 book's front matter. NOT opened: Meera Kosambi's biography and essays, Uma Chakravarti, Geraldine Forbes (known only through the thesis), Britannica and the New York Times obituary (403 / blocked), the EPW article (404), the Mukti Mission archive, Ramabai's Testimony and her Bible translation. PERSPECTIVES: a professional society of women's historians, a student dissertation drawing on Kosambi, a popular advocacy article, a partisan convent source and the successor mission. COUNTER-VOICES (all via the thesis): B. G. Tilak and the Kesari, the Advisory Committee's resignation, the Boston association's investigation, Sarah Hamlin, Annie Besant's accusation, Kosambi's criticism of the Marathi Bible. EXCLUSIONS: her deafness, bereavements, widowhood and depression, and the religious conversion story, were read but not scored or inferred. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (72/0.55 lowered to 68/0.52); proactive_agency and persistence kept (each supported by independent sources and documented episodes). FLAGS: 7 rows, none above 72; key behavioural evidence rests on one student thesis summarising Kosambi, so the profile is intentionally conservative. HANDBACK58: {\"slug\": \"pandita-ramabai\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 72, \"old_confidence\": 0.55, \"new_score\": 68, \"new_confidence\": 0.52, \"reason\": \"support is the Mukti Mission and CSMV promotional pages plus one thesis summarising Kosambi; motive evidence is largely her own reported statements\"}], \"reviewed_kept\": [\"proactive_agency\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  }
+}
