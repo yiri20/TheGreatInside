@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "samuel-ajayi-crowther",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Samuel Ajayi Crowther",
+    "aliases": [
+      "Ajayi Crowther",
+      "Samuel Adjai Crowther"
+    ],
+    "wikidataId": "Q2662556",
+    "birthYear": 1809,
+    "deathYear": 1891,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "NG"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "scholar",
+      "writer"
+    ],
+    "fieldIds": [
+      "religion",
+      "linguistics",
+      "education"
+    ],
+    "impactDomains": [
+      "social",
+      "cultural",
+      "historical",
+      "literary"
+    ],
+    "tagIds": [
+      "communicator",
+      "explorer"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cro_wikidata",
+      "kind": "wikidata",
+      "title": "Ajayi Crowther (Q2662556), verified live via the Wikidata API (2026-10-30): label 'Ajayi Crowther', description 'Yoruba linguist and the first African Anglican bishop in Nigeria (1809-1891)'; birth statements 1806, 1807 and 1809, death 1891-12-31; no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2662556"
+    },
+    {
+      "id": "src_cro_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Samuel Ajayi Crowther', read in full for orientation (born c. 1809, died 31 December 1891; Yoruba grammar and vocabulary, Igbo and Nupe primers, consecration 1864). It does not mention the 1890 resignation. Orientation only; never counted as a source for any row.",
+      "url": "https://en.wikipedia.org/wiki/Samuel_Ajayi_Crowther"
+    },
+    {
+      "id": "src_cro_dacb",
+      "kind": "biography",
+      "title": "Mark R. Lipschutz and R. Kent Rasmussen, 'Crowther, Samuel Ajayi', Dictionary of African Christian Biography (reproduced from the Dictionary of African Historical Biography, University of California Press, 1986), read in full. CANONICAL SIGNIFICANCE SOURCE: scholarly reference entry that calls him the first African bishop of the Anglican church, explorer and missionary, notes his Niger expedition journals and Yoruba language study, and describes how he lost control of his diocese in the 1880s and was forced to resign in 1890. Independent of the CMS and cathedral sources; the one source here that is critical of his supervision. Its ordination year (1845) conflicts with Page and the Dictionary of National Biography (1843) and its bibliography has misspellings; the 1843 date is used.",
+      "url": "https://dacb.org/stories/nigeria/crowther1-samuel/"
+    },
+    {
+      "id": "src_cro_page",
+      "kind": "biography",
+      "title": "Jesse Page, 'Samuel Crowther: The Slave Boy who became Bishop of the Niger' (New York: Fleming H. Revell, 1888), Internet Archive scans from Princeton Theological Seminary Library and the University of Toronto, text read for the 1841 and 1857 Niger voyages, the Yoruba grammar and Bible translation, Abeokuta, the preface and the frontispiece. An insider, admiring and devotional biography written with Crowther's own help (the author read the proofs to him); the preface says he disapproved of praise. Used for dated episodes and for quotations from Crowther's journals only.",
+      "url": "https://archive.org/details/samuelcrowthersl00page"
+    },
+    {
+      "id": "src_cro_dnb",
+      "kind": "biography",
+      "title": "A. R. Buckland, 'Crowther, Samuel Adjai', Dictionary of National Biography, 1901 supplement (Wikisource transcription), read in full: a short Victorian entry giving his capture in 1821, Sierra Leone, the 1841 expedition, ordination in 1843, the Niger expeditions and consecration in 1864, and noting difficulties in the administration of the native church towards the end. Gives his death as 1892, which is wrong (1891 elsewhere). Brief; cited by pointer to CMS sources.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1901_supplement/Crowther,_Samuel_Adjai"
+    },
+    {
+      "id": "src_cro_stock",
+      "kind": "archive",
+      "title": "Eugene Stock, 'The History of the Church Missionary Society', vol. 3 (London, 1899), chapter 89 'West Africa and the Niger' (pp. 383-397), Internet Archive scan, read: the Society's own official history of the Niger Mission crisis of the late 1880s and 1890, the Madeira Conference, the 1891 Committee report, the Delta Pastorate's independence and an obituary appreciation of Crowther. A CMS insider account, sympathetic to Crowther yet says he exercised discipline too lightly; it does not narrate his resignation.",
+      "url": "https://archive.org/details/historyofchurchm0003stoc"
+    },
+    {
+      "id": "src_cro_rochester",
+      "kind": "institution",
+      "title": "Rochester Cathedral, 'Bishop Samuel Adjai Crowther (c. 1809-1881)' [sic], Black History Month 2022 talk from the notes of a descendant, read in full: a congregational retelling of capture, baptism, ordination, Badagry and Abeokuta, the 1864 consecration and the 1890 resignation, quoting Archbishop Welby on prejudiced missionaries. Admiring, family-sourced and carries a date slip in its title; used for corroboration only.",
+      "url": "https://www.rochestercathedral.org/research/crowther"
+    },
+    {
+      "id": "src_cro_acns",
+      "kind": "press",
+      "title": "Anglican Communion News Service, 'Canterbury remembers Crowther' (4 July 2014, reproducing the Church Times report), read in full: reports the thanksgiving service for the 150th anniversary of his consecration and states he was forced to resign in 1890 after accusations were made to the CMS about the missionaries working with him, even though the CMS committee exculpated him. Short news item.",
+      "url": "https://anglicannews.org/news/2014/07/canterbury-remembers-crowther.aspx"
+    },
+    {
+      "id": "src_cro_pft",
+      "kind": "press",
+      "title": "Place for Truth, 'Samuel Crowther - The First African Anglican Bishop', read in full: a popular church-history article covering his Yoruba Vocabulary, Henry Venn's plan for an indigenous church, his relations with local rulers, and the accusations by a younger missionary party led by Graham Wilmot Brooke. Evangelical popular source, unsigned in the version read; used for corroboration of dates and of the critical episode.",
+      "url": "https://placefortruth.org/?p=4202"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cro_page, src_cro_dacb, src_cro_rochester | 1842-1880s | biography + dictionary + institution] On the voyage home in 1842 he prepared a grammar and vocabulary of Yoruba (Page), kept translating Scripture into Yoruba during the stay at Badagry and later at Lagos and made an Igbo primer and vocabulary there (Page); the Dictionary of African Christian Biography credits scholarly contributions in his Niger journals and his Yoruba study published in the 1840s and 1850s, and the cathedral account says the Yoruba Bible was published in the 1880s. Sustained linguistic craft over four decades is documented; the quality of the translations is not assessed in the sources read. RUBRIC_CORRECTION (lead review, before eligibility): mastery_orientation lowered from 70 / 0.6 to 68 / 0.56 because the linguistic work is documented through insiders and a dictionary only."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cro_page, src_cro_stock, src_cro_dacb, src_cro_rochester | 1857-1890 | biography + CMS history + dictionary + institution] After the Dayspring was wrecked in 1857 he stayed on the Niger and made his way overland to Lagos by early 1859, and when news came that Kabbah was closed to the mission the account has the work continuing elsewhere (Page). The Society's own history credits the Delta's change to his 'indomitable perseverance' in the face of discouragements (Stock) and he kept working into his seventies despite sustained criticism (cathedral account). The dictionary notes the mission's overall success and also his later loss of control, so persistence is documented but its effect was mixed late in life. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.64 to 70 / 0.58 because the main detail is Page's devotional biography written with his cooperation and a dictionary entry; no adversarial CMS source was read."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cro_page, src_cro_pft | 1857-1860s | biography + press] At Gbebe in 1857 he sat in the Galadima's ante-hall after the custom of the local Mallams, taught with an Arabic Bible, Hausa translations and an Ibo primer, and gave the Galadima an Arabic Bible (Page, quoting his journal); the popular article adds that he built good relations with local rulers, Muslim rulers included, and that his notes on conversing with Muslims proved useful to other missionaries (Place for Truth). Both sources are admiring and the second is unsourced in the version read."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cro_page, src_cro_stock | 1846-1857 | biography + CMS history] While the party was held at Badagry in 1846 he sent a messenger with presents to the new chief at Abeokuta, which opened the road to the city (Page); the Society's history names him the founder of a new mission in 1857, the Niger Mission, which he went on to lead (Stock). These are initiatives inside a mission society's structure rather than independent ventures, and both sources are sympathetic."
+    },
+    "social_assertiveness": {
+      "score": 38,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cro_dacb, src_cro_stock, src_cro_pft | 1880-1890 | dictionary + CMS history + press] The dictionary describes him as soft-spoken and retiring, notes that he had no means to supervise untrained agents and made little effort to counter the charges against his staff; the CMS history says that if he erred it was in exercising discipline too lightly and that a CMS visitor's 1880 report found a lack of evangelistic zeal among some of his agents. The mild manner is also what the same history praises as simplicity and sincerity, so the effect was mixed. Evidence for the trait comes from two judgments rather than from a detailed incident."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cro_stock, src_cro_pft, src_cro_dacb, src_cro_page | 1850s-1880s | CMS history + press + dictionary + biography] Wherever he went he opened schools and set up translation work (Place for Truth); the dictionary credits him with promoting Christianity, missionary education and development in the Niger valley; the Society's history says he came to England ten times in seventy years and was in constant demand as a speaker, with cheerful readiness to serve; and in the 1850s he laid the condition of Abeokuta before Lord Palmerston (Page). The motive is shown by his work, but the statements about unselfishness come from his own Society and a devotional biographer. SELF-CALIBRATION (agent): lowered from 66 / 0.52 to 62 / 0.48 because the supporting statements on motive are from admiring or institutional sources and the cathedral account's family sourcing gives no independent check."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "새뮤얼 아자이 크라우더"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/samuel-ajayi-crowther-unknown-engraver-1888.jpg",
+    "width": 785,
+    "height": 1200,
+    "source": "Engraved frontispiece portrait of Crowther with his autograph dated 19 October 1888 in Jesse Page, 'Samuel Crowther: The Slave Boy who became Bishop of the Niger' (New York: Fleming H. Revell, 1888), Internet Archive scan from Princeton Theological Seminary Library (copyright status listed as not in copyright). Engraver not named on the page. Published in the United States in 1888, so public domain on age grounds. Cropped from the 1701 x 2750 page scan and downscaled to 785 x 1200 (page crop about 1360 x 2080); no upscaling. The Wikimedia Commons copy of the same plate is a 509 x 776 crop.",
+    "license": "Public domain (published in the United States in 1888)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US",
+    "attribution": "Unknown engraver, frontispiece in Jesse Page, Samuel Crowther (New York, 1888)",
+    "attributionUrl": "https://archive.org/details/samuelcrowthersl00page",
+    "creator": "Unknown engraver",
+    "date": "1888",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Samuel_Adjai_Crowther_1888.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / FOUND, but a different image from the lead's P18. The P18 file 'Bishop Samuel Ajayi Crowther 1867.png' (999 x 1764) is an unknown-author photograph whose Commons page cites the Lambeth Palace Library Lambeth Conference page, which in the archived copy read says nothing about this image or its date; unknown author plus a generic PD tag is not a sufficient item-level basis, so it was set aside. Used instead: the engraved frontispiece (autograph dated 19 October 1888) of Page's 1888 biography published in New York, whose Internet Archive record lists the copyright status as not in copyright; US publication before 1931 is the basis. Engraver unnamed; kind historical_depiction (a printed engraving, not a documented sitting). The Commons file page for the same plate (Samuel_Adjai_Crowther_1888.jpg) credits Page (c. 1892) and a PD-US tag with a missing author; the date and edition were checked on the scan itself. Dimensions: IA page scan 1701 x 2750, cropped and downscaled to 785 x 1200. PREFLIGHT: QID VERIFIED LIVE (2026-10-30): Q2662556 label 'Ajayi Crowther', description 'Yoruba linguist and the first African Anglican bishop in Nigeria (1809-1891)', death 1891-12-31; birth is given as 1806, 1807 and 1809; birthYear 1809 follows Wikipedia, the cathedral account and the dictionary entries (the lead's c. 1806 is one of the Wikidata statements); no collision in prod59 or data-pipeline/candidates. REGION sub_saharan_africa (career in Sierra Leone, the Yoruba country and the Niger), nationality NG. ERA 19th_century. VOCABULARY: religious_leader, scholar, writer; fields religion, linguistics, education; tags communicator, explorer; archetypes organizational_leader, scholarly_specialist all grepped with EN and KO labels (religious_leader exists as occupation.religious_leader; the lead's suggested bishop, linguist and translator ids have no labels). KOREAN NAME: no Wikidata Korean label; 새뮤얼 아자이 크라우더 is a transliteration chosen by the agent, not an established Korean-press form. ZERO POLITICS: primary identity is churchman, linguist and mission builder; his advocacy to Lord Palmerston about Abeokuta and the trading and colonial setting are context and are not scored; the 1890 resignation is a documented professional episode scored only through supervision and assertiveness. Religion and faith are context, not scored as personality. CANONICAL SIGNIFICANCE SOURCE: Dictionary of African Christian Biography entry (https://dacb.org/stories/nigeria/crowther1-samuel/). READ: DACB entry (full), Page 1888 (the 1841-1859 voyages, Badagry and Abeokuta, grammar, preface, frontispiece), DNB 1901 (full), Stock vol. 3 ch. 89 pp. 383-397 (selected passages on 1880-1891), Rochester Cathedral page (full), ACNS item (full), Place for Truth article (first part, to the Brooke party), Wikipedia (orientation). PERSPECTIVES: scholarly dictionary (critical of his supervision), CMS official history (insider, sympathetic yet critical on discipline), devotional biography written with his cooperation, a cathedral/family account, modern church press on the accusations. NOT opened: J. F. Ade Ajayi, Christian Missions in Nigeria 1841-1891 (lending-only); Andrew Walls; Britannica (the URL returned 404); the NPG and Lambeth Palace Library item records (403 / no item page); Crowther's own journals and Yoruba Vocabulary; CMS archive files in Birmingham. DISCREPANCIES noted: ordination 1843 (Page, DNB) versus 1845 (DACB); death 1891 (Stock, Wikipedia) versus 1892 (DNB); the cathedral page title gives 1881. EXCLUSIONS: enslavement and its trauma, bereavements, health and the stroke were read but not scored or used to infer personality; the descendant Herbert Macaulay and political nationalism not used. FLAGS: 6 rows, none above 72; the behavioural base is admiring (Page, Stock) with one critical dictionary; no first-hand or adversarial CMS source such as Ajayi or Ayandele was opened, so the profile is intentionally modest. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (66/0.52 lowered to 62/0.48); persistence and mastery_orientation kept (each backed by independent dictionary and Society sources and dated episodes). HANDBACK59: {\"slug\": \"samuel-ajayi-crowther\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 66, \"old_confidence\": 0.52, \"new_score\": 62, \"new_confidence\": 0.48, \"reason\": \"statements about motive come from admiring or institutional sources with no independent check\"}], \"reviewed_kept\": [\"persistence\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6} RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.64 to 70 / 0.58 because the main detail is Page's devotional biography written with his cooperation and a dictionary entry; no adversarial CMS source was read. RUBRIC_CORRECTION (lead review, before eligibility): mastery_orientation lowered from 70 / 0.6 to 68 / 0.56 because the linguistic work is documented through insiders and a dictionary only."
+  }
+}

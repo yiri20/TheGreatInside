@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jeong-yak-yong",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jeong Yak-yong",
+    "aliases": [
+      "Dasan",
+      "Tasan",
+      "Chong Yagyong",
+      "Jeong Yakyong"
+    ],
+    "wikidataId": "Q256246",
+    "birthYear": 1762,
+    "deathYear": 1836,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "KR"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "scholar",
+      "engineer",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "engineering"
+    ],
+    "impactDomains": [
+      "literary",
+      "engineering",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "prolific",
+      "systematic_thinker",
+      "polymath"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jyy_wikidata",
+      "kind": "wikidata",
+      "title": "Jeong Yak-yong (Q256246), verified live via the Wikidata API (2026-10-30): label 'Jeong Yak-yong', description 'Korean scholar and philosopher (1762 - 1836)', born 1762, died 1836, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q256246"
+    },
+    {
+      "id": "src_jyy_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Jeong Yak-yong', fetched for orientation (names, dates, main works). Orientation only; never counted as a source for any row.",
+      "url": "https://en.wikipedia.org/wiki/Jeong_Yak-yong"
+    },
+    {
+      "id": "src_jyy_aks_collected",
+      "kind": "institution",
+      "title": "Academy of Korean Studies, Encyclopedia of Korean Culture, entry on the Yeoyudang jeonseo (written 1995 by Yi Eul-ho; last revised 2025), read: describes the collected works of the practical-learning scholar Jeong Yak-yong, 154 volumes in 76 books, issued 1934-1938 in seven collections (poetry and prose, classics, rites, music, governance and law, geography, medicine), and lists his memorials to King Jeongjo as groundwork for the Gyeongse yupyo. CANONICAL SIGNIFICANCE SOURCE: national academy's reference entry. A single-author scholarly entry that presents him favourably.",
+      "url": "https://encykorea.aks.ac.kr/Article/E0036443"
+    },
+    {
+      "id": "src_jyy_aks_gangjin",
+      "kind": "institution",
+      "title": "Academy of Korean Studies, Encyclopedia of Korean Culture, entry 'Gangjin Jeong Yak-yong yujeok' (the Dasan Chodang site in Gangjin; written 1995, revised 2025), read: says he spent 11 of his 18 years of exile at the Dasan Chodang, where he wrote extensively on governance, and that the site was designated a historic site in 1963. Short; the building is a 1958 reconstruction.",
+      "url": "https://encykorea.aks.ac.kr/Article/E0050060"
+    },
+    {
+      "id": "src_jyy_lti",
+      "kind": "institution",
+      "title": "LTI Korea Digital Library of Korean Literature, 'Mongminsimseo' (Admonitions on Governing the People) entry, read: the institute's description says he wrote the book in exile at Gangjin and completed it in 1818 (48 chapters in 16 volumes), that it reflects his own experience as a secret inspector, post-station and county official, and its twelve sections. Public cultural-agency description; admiring in tone.",
+      "url": "https://library.ltikorea.or.kr/originalworks/101062"
+    },
+    {
+      "id": "src_jyy_song",
+      "kind": "press",
+      "title": "Song Seong-su (Pusan National University), 'Dasan Jeong Yak-yong was a master of convergence who loved technology', Daum News syndication of a newspaper column (30 October 2023), read in full: a historian-of-technology column on the pontoon bridge of 1789, the 1792 fortress design report, the geojunggi crane, the multipurpose Yuhyeonggeo cart and the proposed state institute for technology; it also says the crane and the pulley hoist probably contributed little to the Hwaseong works since only one geojunggi and two nokro are recorded. The main independent, partly critical source on the engineering.",
+      "url": "https://v.daum.net/v/20231030004709607?f=p"
+    },
+    {
+      "id": "src_jyy_ro",
+      "kind": "press",
+      "title": "Young-Chan Ro, review of 'The Analects of Dasan, Volume 1: A Korean Syncretic Reading' by Hongkyung Kim, Acta Koreana 20(2), December 2017, read (Project MUSE excerpt): calls him arguably the most prolific writer of late Joseon, describes the 18 years of exile in Gangjin, his syncretic method and the recent scholarly shift away from fitting him only into anti-Neo-Confucian or practical-learning labels. Scholarly review; only the visible part was read.",
+      "url": "https://muse.jhu.edu/article/756462"
+    },
+    {
+      "id": "src_jyy_choi",
+      "kind": "press",
+      "title": "Dobin Choi, review of 'The Analects of Dasan, Volume 1', Philosophy East and West 68(1), January 2018, pp. 1-4, read (Project MUSE excerpt): summarises his career, exile of 1801-1818, and the two pillars of his fame (reform writing culminating in the Mongmin simseo; his commentary on the Analects completed in 1813 as a philosophical critique of mainstream Neo-Confucianism). Scholarly review; only the excerpt was read.",
+      "url": "https://muse.jhu.edu/article/682221/summary"
+    },
+    {
+      "id": "src_jyy_kyeonggi",
+      "kind": "press",
+      "title": "Gyeonggi Ilbo, 'Namyangju Jeong Yak-yong historic site' (26 May 2020), read in full: a regional newspaper feature on his birthplace and memorial museum; says most of his roughly 500 volumes were written in exile and that he taught disciples there and had them take part in the writing. Popular regional feature that also repeats an unsourced claim about the crane saving funds, which is not used.",
+      "url": "https://www.kyeonggi.com/article/202005261127223"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jyy_aks_collected, src_jyy_aks_gangjin, src_jyy_kyeonggi, src_jyy_lti, src_jyy_ro | 1801-1818 | academy encyclopedia + cultural agency + press + review] Over the 18 years of exile he wrote on governance and classics, completing the Mongmin simseo in 1818 (LTI Korea); the regional press says most of his roughly 500 volumes date from then and that he taught and used disciples in the work (Gyeonggi Ilbo); the academy's entry records a collected works of 154 volumes in 76 books and the Acta Koreana reviewer calls him arguably the most prolific writer of late Joseon. Sustained output is documented across independent sources. The count of 500 is a press figure that was not traced to a catalogue, and the exile's cause is context, not evidence of temperament. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.6 to 70 / 0.56 because the exile output is documented but the volume figures conflict (press 500 volumes vs the academy's 154) and the sources are largely institutional."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jyy_ro, src_jyy_choi | 1813 | reviews] The reviews of Kim's translation describe his Analects commentary of 1813 as a critical reading of all significant commentaries of the past, in which he ranked the classical texts in a hierarchy (the Analects, the Five Classics, pre-Qin, Han and later texts) and separated grounds for his interpretation from arguments against other theories. The evidence is a reviewer's account of a translator's account of the book, not the commentary itself, which was not opened."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jyy_song | 1789-1800 | press column by a historian of technology] He took part in designing the pontoon bridge over the Han in 1789, wrote the 1792 report and designs for the Hwaseong fortress, and built the geojunggi using the imported Qiqi tushuo (Gigi doseol) while cutting the iron and copper needed and dropping inessential provisions, and designed the Yuhyeonggeo cart, of which eleven were used (Song). The same column judges that the geojunggi and nokro contributed little to the construction because only one and two units are recorded, so the practical effect of the best-known device was small."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jyy_lti, src_jyy_song, src_jyy_aks_collected | 1790s-1818 | cultural agency + press + academy encyclopedia] The Mongmin simseo was written as a practical manual for local officials, drawing on his own work as a secret inspector, post-station and county official (LTI Korea); in the Gyeongse yupyo he proposed a state office to import and spread technology and train craftsmen (Song); and the academy's entry lists a series of memorials and policy papers he wrote for the king. Scored for what he wrote and designed to make things work better for ordinary people, not for any political office he held. Sources are admiring of his purposes."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jyy_choi, src_jyy_ro | 1813 | reviews] One reviewer describes the Analects commentary as a philosophical criticism of mainstream Neo-Confucianism, and the other reports that younger scholars now caution against placing him only in the orbit of anti-Neo-Confucianism, seeing him instead as a syncretist who drew on past commentaries and, in the book's account, was eager to show himself a genuine Confucian. The independence is of method and conclusion within the tradition, not defiance of it. SELF-CALIBRATION (agent): lowered from 64 / 0.52 to 60 / 0.46 because the two reviews of one translation disagree on how far he broke with orthodoxy and both rest on a single book."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "정약용"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jeong-yak-yong-jeong-inho-1908.jpg",
+    "width": 300,
+    "height": 359,
+    "source": "Printed illustration of Jeong Yak-yong in 'Chodeung Daehan yeoksa' (Elementary Korean History, 1908), vol. 4, drawn by Jeong In-ho, as digitised by History Net of the National Institute of Korean History, which states free-use terms (including commercial use) for its national history textbooks collection. A stylised later depiction, not a portrait from life. Published in 1908, so public domain in the United States on age grounds. Original file 300 x 359 pixels, used as is; no upscaling.",
+    "license": "Public domain (published in 1908); host institution states free use",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US",
+    "attribution": "Jeong In-ho, illustration in Chodeung Daehan yeoksa (1908); digitised by History Net, National Institute of Korean History",
+    "attributionUrl": "http://contents.history.go.kr/front/etc/data.do",
+    "creator": "Jeong In-ho",
+    "date": "1908",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:%EC%B4%88%EB%93%B1%EB%8C%80%ED%95%9C%EC%97%AD%EC%82%AC_%EC%A0%9C4%ED%8E%B8_10.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / DOWNGRADED TO A WEAKER IMAGE BUT RIGHTS-CLEAR: the lead's P18 'Jeong Yak-yong.jpg' (960 x 1658 on Commons) has Date 'unknown', Author 'unknown' and as source only a page on gongu.copyright.or.kr (a Korea Copyright Commission public-domain repository page that returned 503 when fetched), with generic PD-old / PD-mark tags; unknown author, unknown date and no item-level basis is not acceptable, so it was set aside. Used instead: the 1908 textbook illustration (Chodeung Daehan yeoksa vol. 4, drawn by Jeong In-ho, Commons file 'chodeung daehan yeoksa 4 10'), taken from the History Net (National Institute of Korean History) image URL and confirmed identical to the Commons copy (57,380 bytes, 300 x 359). Basis: published 1908, so US public domain by age; the host institution's stated free-use policy covers this collection; the Commons page carries PD-US and a Public Domain Mark. Caveats: low resolution, and the drawing is a conventional depiction (a 1908 school-book image, 146 years after his birth), hence kind historical_depiction. PREFLIGHT: QID VERIFIED LIVE (2026-10-30): Q256246 label 'Jeong Yak-yong', description 'Korean scholar and philosopher (1762 - 1836)', born 1762, died 1836; no collision in prod59 or data-pipeline/candidates. REGION east_asia (Korea). ERA early_modern (Joseon, as the lead specified; most of his major work falls in 1800-1818). VOCABULARY: philosopher, scholar, engineer, writer; fields philosophy, engineering; tags prolific, systematic_thinker, polymath; archetypes scholarly_specialist, cross_disciplinary_generalist; all grepped with EN and KO labels. KOREAN NAME 정약용 is the Wikidata and standard form. ZERO POLITICS: primary identity is scholar-philosopher and writer; his official posts, the factional struggles, the 1801 persecution and the exile are context only. The Mongmin simseo and Gyeongse yupyo are scored as scholarship and design work, not as governing; the one row that touches administration (impact_motivation) is based on what he wrote and proposed, not on office held. If the lead considers governance treatises political, drop impact_motivation (flag). Religion (Catholic association) is context and not scored. CANONICAL SIGNIFICANCE SOURCE: Academy of Korean Studies Encyclopedia of Korean Culture, Yeoyudang jeonseo entry (https://encykorea.aks.ac.kr/Article/E0036443). READ: AKS Yeoyudang jeonseo entry (opening sections), AKS Gangjin site entry (full), LTI Korea Mongminsimseo entry (sections 1-4), Song Seong-su column (full), Gyeonggi Ilbo feature (full), the two Project MUSE review excerpts (Ro, Choi), Wikipedia and Wikidata (orientation). PERSPECTIVES: a national academy, a cultural agency, a historian of technology (partly critical), two scholarly reviewers of the Analects translation (one cautioning against the anti-Neo-Confucian label), regional press. NOT opened: Mark Setton's Chong Yagyong monograph, JaHyun Kim Haboush, Britannica (403), the Dasan Research materials, Korea.net, the SOAS e-prints page (connection failed), the Yeoyudang jeonseo itself, Hongkyung Kim's translation, the full text of both reviews beyond the excerpts. DISCREPANCIES: exile described as 18 years (1801-1818) and 11 years at the Dasan Chodang; 500-volume figure is press-only against the academy's 154 volumes in 76 books (a posthumous 1934-38 compilation, so the figures are not directly comparable). EXCLUSIONS: factional and family fates, execution of relatives, bereavement and the emotional tone of the exile poems were read but not scored or used to infer personality. FLAGS: 5 rows, none above 72; no source describes his daily conduct or collaboration in detail (the disciples' writing role comes from one regional feature), so there are no collaboration, discipline or conflict rows. SELF-CALIBRATION (agent): top-risk rows reviewed: independent_thinking (64/0.52 lowered to 60/0.46); impact_motivation kept (documented works, with the political-adjacency caveat above) and persistence kept (independent academy, agency and reviewer sources). HANDBACK59: {\"slug\": \"jeong-yak-yong\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"independent_thinking\", \"old_score\": 64, \"old_confidence\": 0.52, \"new_score\": 60, \"new_confidence\": 0.46, \"reason\": \"two reviews of one translation disagree on how far he broke with orthodoxy and both rest on a single book\"}], \"reviewed_kept\": [\"impact_motivation\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5} RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.6 to 70 / 0.56 because the exile output is documented but the volume figures conflict (press 500 volumes vs the academy's 154) and the sources are largely institutional."
+  }
+}

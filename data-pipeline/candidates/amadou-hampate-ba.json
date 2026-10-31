@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "amadou-hampate-ba",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Amadou Hampâté Bâ",
+    "aliases": [
+      "Amadou Hampate Ba",
+      "Hampâté Bâ",
+      "Hampate Ba",
+      "Amkoullel"
+    ],
+    "wikidataId": "Q452299",
+    "birthYear": 1900,
+    "deathYear": 1991,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "ML"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "historian"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "cross_disciplinary",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ba_wikidata",
+      "kind": "wikidata",
+      "title": "Amadou Hampate Ba (Q452299), verified live via the Wikidata API (2026-10-30): label 'Amadou Hampâté Bâ', description 'Malian writer, historian and ethnologist', died 1991-05-15, birth year recorded as both 1900 and 1899, citizenship Mali, no Korean label, no portrait image (P18). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q452299"
+    },
+    {
+      "id": "src_ba_columbia",
+      "kind": "institution",
+      "title": "Columbia University Arts Initiative, 'Tierno Bokar' project site, Mali background page with a chronology and a commentary by the historian Gregory Mann, read in full. CANONICAL SIGNIFICANCE SOURCE: gives the 1901 birth in Bandiagara, his schooling both in French schools and in Tierno Bokar's Sufi school, his clerk-and-interpreter work in the colonial administration, his election to the French research institute IFAN and the 1957 book with Marcel Cardaire on Tierno Bokar, his UNESCO Executive Board service (1962-1970), the 1970s novel Wangrin and the 1991 memoir Amkoullel; Mann says he worked to reconcile West African oral literature and tradition with the French literate public and saw himself as an interpreter between those worlds. University teaching site; admiring in tone, and its date for the novel (1976) differs from the 1973 given by two other sources read here.",
+      "url": "https://www.tiernobokar.columbia.edu/background_mali.html"
+    },
+    {
+      "id": "src_ba_duke",
+      "kind": "institution",
+      "title": "Amber Bal (Cornell University), review of the English translation of Amkoullel, the Fula Boy, Research Africa Reviews 6(2), August 2022 (Duke University), read in full (4 pages): calls him best known for The Fortunes of Wangrin and the 'library burns' quip and often read as a 'traditionalist'; argues the memoir is a playful, multi-narrator work in which translation between Fulfulde and French and between oral and written is central; notes the foreword's claim that his project was to record, translate and analyse rather than claim authorship, and that the memoir does not fully disentangle his own privileged position in colonial institutions while also criticising Africans' conduct under colonialism. Scholarly review; the reviewer also questions the translator's decolonial framing.",
+      "url": "https://sites.duke.edu/researchafrica/files/2022/09/6-RAR-2-6-Amkoullel-the-Fula-Boy.2022.pdf"
+    },
+    {
+      "id": "src_ba_montes",
+      "kind": "institution",
+      "title": "Vicente E. Montes Nogales (Universidad de Oviedo), 'Fulani initiation through initiation stories collected by Amadou Hampate Ba', Revista de Dialectologia y Tradiciones Populares 70(1), 2015, pp. 141-159, read in the introduction, the section on his informants and the conclusions (about 5 pages of 19; Spanish, my reading): lists the tradition-bearers who taught him (Tierno Bokar, the storyteller Koullel, Ardo Dembo, the Bambara chief Tiemokodian), describes the inventory of his Abidjan holdings made in 1969 by Sow (including three thousand leaves of Fulfulde poems), says leading scholars of African oral literature acknowledge his help, and reports from his own 1972 text that Europeans smiled at UNESCO Executive Council meetings when he asked that oral traditions count as historical sources. Peer-reviewed article; the 1969 inventory and the UNESCO anecdote reach it second-hand (Sow, Ba himself).",
+      "url": "https://dra.revistas.csic.es/index.php/dra/article/download/470/475/480"
+    },
+    {
+      "id": "src_ba_brenner",
+      "kind": "biography",
+      "title": "Louis Brenner, introduction to his 1984 University of California Press study of Cerno Bokar (the Sufi teacher Tierno Bokar), as republished on a Fulfulde-language resource site; read through a page summary (not every paragraph): treats Ba as the main channel for what is known of Bokar, records that Brenner calls him neither unbiased nor objective, that his historical style favours effect over fact and sometimes invents verbatim conversations, that the 1957 book was written in French by Marcel Cardaire from Ba's material (Ba says he never saw the final text), and that Brenner considers but does not accept charges of collaboration with the French or of a reformist agenda. Independent academic voice; the most critical source read, though its author says he respects Ba.",
+      "url": "https://webpulaaku.site/defte/brenner/introduction.html"
+    },
+    {
+      "id": "src_ba_whitman",
+      "kind": "biography",
+      "title": "Daniel Whitman, translator's foreword to Kaidara (Three Continents Press, 1988), republished on a Fulfulde-language resource site, read through a page summary: says Ba learned from the tale-teller Koullel, taught what he knew to a group of about seventy young people, held a UNESCO scholarship in Paris in 1951, was elected to the UNESCO Executive Council in 1962 (served to 1971), and was known there for working to preserve African oral tradition and for the 'old man dying is a library burning' phrase; describes his hospitality and mental agility. Admiring translator's foreword by a friend of the author; used only for biographical facts.",
+      "url": "https://webpulaaku.site/defte/ahb/kaidara-en/foreword.html"
+    },
+    {
+      "id": "src_ba_brut",
+      "kind": "press",
+      "title": "Brut (in partnership with UNESCO), 'Sauver l'heritage d'Amadou Hampate Ba, une course contre l'oubli' (18 March 2026), read in full: says he spoke the 'library that burns' line from the UNESCO podium in 1960 at the 11th General Conference, that he had begun classing his own archives in his lifetime, and that his manuscripts, once kept in poor conditions, are now being conserved and digitised by the Hampate Ba Foundation (founded in Abidjan in 2002) with UNESCO's support. Promotional partner content with quotations from his daughter and a UNESCO representative.",
+      "url": "https://www.brut.media/afrique/articles/sauver-lheritage-damadou-hampate-ba-une-course-contre-loubli"
+    },
+    {
+      "id": "src_ba_modernnovel",
+      "kind": "press",
+      "title": "The Modern Novel (themodernnovel.org), author biography and bibliography for Amadou Hampate Ba, read in full: sketch of his childhood in Bandiagara (the storyteller Koullel, Tierno Bokar, the French school, the interpreter Wangrin), eleven years as a low-ranking civil servant in Ouagadougou while continuing to study local traditions, work with Theodore Monod at IFAN, a 1951 UNESCO scholarship in Paris, and a dated list of works from L'empire peul du Macina (1955) to Amkoullel (1991). Single-author literary blog; popular and partly unsourced, used only for corroboration and the bibliography.",
+      "url": "https://www.themodernnovel.org/africa/other-africa/mali/ba/"
+    },
+    {
+      "id": "src_ba_nbn",
+      "kind": "press",
+      "title": "New Books Network, podcast page for Amkoullel: The Fula Boy (Duke University Press, 2021), 26 April 2022, summary read (the audio was not heard): says the 'library burns' line is Ba's, describes him as ethnographer, author, interpreter, religious teacher, poet, philosopher and ambassador, and says Amkoullel won the Grand Prix Litteraire d'Afrique Noire in 1991. Publisher-podcast blurb; used only for the prize.",
+      "url": "https://newbooksnetwork.com/amkoullel"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ba_columbia, src_ba_montes, src_ba_brut, src_ba_whitman | 1950s-1991 | university site + peer-reviewed article + partner press + translator's foreword] Over decades he collected, translated and published West African oral tradition (an inventory of his Abidjan holdings in 1969 lists history, religion, literature and ethnology texts and thousands of leaves of Fulfulde poems), argued in UNESCO forums that oral traditions be accepted as historical sources, and began classing his own archives, which are now being digitised. The statements of purpose are largely his own or come from admiring sources (Whitman, the Brut/UNESCO partner piece), and the diplomatic posts themselves are not scored. Kept moderate."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ba_duke, src_ba_columbia, src_ba_modernnovel, src_ba_montes | 1955-1991 | scholarly review + university site + literary blog + article] His output spans regional history (L'empire peul du Macina), religious biography (Tierno Bokar), initiatory tales, ethnological essays, a novel and memoirs; Gregory Mann describes him as reconciling oral and written worlds and acting as an interpreter between West African religious traditions and a French public, and the Duke reviewer treats translation between Fulfulde and French and between oral and written forms as central. The range is documented; how deep each field was is not assessed here."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ba_montes, src_ba_modernnovel, src_ba_columbia | childhood-1950s | peer-reviewed article + literary blog + university site] From childhood he listened to the storyteller Koullel (hence the nickname Amkoullel) and later sought out other tradition-bearers, and the literary blog reports he kept studying local traditions through eleven years as a junior civil servant in Ouagadougou. The informants are named by Montes from Ba's own memoirs, so the account of his search is largely self-reported and partly secondary."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ba_columbia, src_ba_brenner, src_ba_montes | 1957-1962 | university site + academic biography + article] He worked with Marcel Cardaire on the 1957 book on Tierno Bokar, with G. Dieterlen on Koumen (1961) and with J. Daget on the Macina history (1962), and with Theodore Monod at IFAN. Brenner reports that Cardaire wrote the French text from Ba's material and that Ba says he never saw the final version, so the pairing also blurred authorship and shaped how the teacher was presented; the row is dual-edged and modest."
+    },
+    "creative_originality": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ba_duke, src_ba_nbn, src_ba_modernnovel | 1973-1991 | scholarly review + publisher podcast + literary blog] The Duke reviewer calls his approach to autobiography playful, with plural narrators and several versions of the author, and the memoir won the Grand Prix Litteraire d'Afrique Noire in 1991; The Fortunes of Wangrin is his best-known novel. The same review stresses that his stated project was to record and translate rather than claim authorship, and the novel itself was read only through reviews, so originality is scored modestly."
+    },
+    "independent_thinking": {
+      "score": 55,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ba_montes, src_ba_whitman | 1960s-1972 | peer-reviewed article + translator's foreword] Montes reports from Ba's own 1972 text that Europeans smiled when he asked UNESCO's Executive Council to treat oral traditions as historical sources, which he pressed anyway; Whitman describes him as hard to categorise. The only evidence of the resistance is his own recollection, so the row is low. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 58 / 0.42 to 55 / 0.38 because its sole behavioural support is Ba's own recollection reported by one article and an admiring foreword."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아마두 함파테 바"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear photograph found. Wikidata has no image; the English Wikipedia photo is non-free (fair use, author unknown); Commons has no portrait of him; a 1962 UNESCO photo credited to Claude Bablin is shown on the Columbia project site but no item-level UNESCO page with a stated licence was located in the bounded retry. Next step: locate that photograph in the UNESCO photobank or Digital Library and verify its item-level licence (often CC BY-SA 3.0 IGO) before use."
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / CONFIRMED HOLD: Wikidata has no portrait image; the English Wikipedia infobox photo is a non-free fair-use upload (author unknown, source a website); the Commons category holds no portrait of him (only signage and library photos and an unrelated own-work upload); the Columbia site mentions a 1962 UNESCO photograph credited to Claude Bablin, but no item-level UNESCO page stating a licence could be found in the bounded retry (Commons search for Bablin and for the name, UNESCO archive search page). BLOCKER: no photograph with a documented creator, date and licence located. NEXT STEP: find the item in the UNESCO photobank or UNESCO Digital Library (many UNESCO photos carry a CC BY-SA 3.0 IGO notice) and verify it at item level before use. PREFLIGHT: QID VERIFIED LIVE (2026-10-30) Q452299 label 'Amadou Hampâté Bâ', description 'Malian writer, historian and ethnologist', died 1991-05-15, birth recorded as 1900 and 1899; no production or candidate collision (grepped prod59 and data-pipeline/candidates for the QID and slug). BIRTH YEAR UNCERTAIN: sources give 1899, 1900 or 1901 (Columbia 1901, The Modern Novel 1900, Wikidata 1900 and 1899); stored as 1900, the middle value, and the era is 20th_century either way. REGION sub_saharan_africa (Mali). ZERO POLITICS: primary identity is writer, historian and ethnologist of oral tradition; his ambassadorial and UNESCO Executive Board posts, and his role in colonial administration, are context only and not scored (the 'library burns' statement is treated as cultural-heritage advocacy, scored only as the motivation to preserve oral tradition). VOCABULARY: occupations writer and historian (ethnologist, anthropologist have no label), field literature (no history or anthropology field label), tags field_researcher, cross_disciplinary, communicator and archetype cross_disciplinary_generalist have EN and KO labels (grepped en.ts and ko.ts). KOREAN NAME: no Korean Wikipedia article and no Wikidata Korean label; the standard transliteration 아마두 함파테 바 is used and should be confirmed by the lead. CANONICAL SIGNIFICANCE SOURCE: Columbia University Arts Initiative, Tierno Bokar project site, Mali background page with Gregory Mann's commentary (https://www.tiernobokar.columbia.edu/background_mali.html). READ: Columbia page (full), Duke/Research Africa review by Amber Bal (full), Montes Nogales 2015 (introduction, informants section and conclusions), Brut/UNESCO 2026 (full), The Modern Novel (full), New Books Network summary; Brenner's introduction and Whitman's foreword were read through page summaries only. NOT OPENED: Britannica (403; an archive copy was not fetched because it would bypass the paywall), Brenner's 2010 article 'A Living Library' (its host blocked automated fetches), Songolo and Wise (not found open), Ba's memoirs and novels (so no first-person text was used except as quoted by secondary sources), the 1960 UNESCO speech itself (no primary record found; wording varies by source and one source dates a variant to 1962), the 1969 TV interview video. PERSPECTIVES: university teaching site with a historian's commentary, peer-reviewed literary-scholarship article, scholarly book review (with critique of the traditionalist label), academic biographer's critical assessment of Ba as a source, admiring translator's foreword, partner/popular press. COUNTER-VOICES: Brenner (non-neutral source, effect over fact, invented dialogue, co-authored text he never saw), Duke review (privileged position in colonial institutions). EXCLUSIONS: colonial service, UNESCO and ambassador roles, religious affiliation and the Hamallah controversy are context and unscored; no inference from family or personal life. SELF-CALIBRATION (agent): top-risk rows reviewed: independent_thinking (lowered 58/0.42 to 55/0.38: sole behavioural support is his own recollection), impact_motivation (kept: three source types agree on the preservation activity), creative_originality (kept: already modest, novel not read). FLAGS: 6 sparse rows, max score 68, max confidence 0.50; much of the behavioural account of his collecting comes from his own memoirs as relayed by Montes. HANDBACK59: {\"slug\": \"amadou-hampate-ba\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"independent_thinking\", \"old_score\": 58, \"old_confidence\": 0.42, \"new_score\": 55, \"new_confidence\": 0.38, \"reason\": \"sole behavioural support is Ba's own recollection reported by one article plus an admiring foreword\"}], \"reviewed_kept\": [\"impact_motivation\", \"creative_originality\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none (pre-emptively excluded diplomatic and colonial posts from cards; used 1973 for Wangrin; hedged the UNESCO line)\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6}"
+  }
+}

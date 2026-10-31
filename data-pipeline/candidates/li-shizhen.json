@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "li-shizhen",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Li Shizhen",
+    "aliases": [
+      "Li Shih-chen"
+    ],
+    "wikidataId": "Q698925",
+    "birthYear": 1518,
+    "deathYear": 1593,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.ming_dynasty"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "naturalist",
+      "writer"
+    ],
+    "fieldIds": [
+      "medicine",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific",
+      "literary"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_li_wikidata",
+      "kind": "wikidata",
+      "title": "Li Shizhen (Q698925), verified live via the Wikidata API (2026-10-30): label 'Li Shizhen', description 'Chinese polymath and scientist (1517-1593)', born 1517-07-03 (most other sources say 1518), died 1593, citizenship China, Korean label 이시진, portrait image 'Li Shizhen portrait.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q698925"
+    },
+    {
+      "id": "src_li_mowcap",
+      "kind": "institution",
+      "title": "Memory of the World Committee for Asia and the Pacific (UNESCO), register entry 'Ben Cao Gang Mu (Compendium of Materia Medica)', read in full. CANONICAL SIGNIFICANCE SOURCE: says Li Shizhen began the work at 31 and finished it 27 years later in 1578; that it identifies 1,892 medicinal drugs with 11,096 prescriptions, describes uses and observed effects of each, and corrects misconceptions in earlier writings; that the earliest surviving copy is a 1593 woodblock edition in 54 volumes with 1,109 illustrations held by the China Academy of Chinese Medical Sciences; and that it was inscribed on the Asia-Pacific register in 2010 and the international register in 2011. Registry text written to support inscription, so admiring; its 'first of its kind in the world' claim is not repeated here, and its age arithmetic (31 + 27) does not match the 1578 date.",
+      "url": "https://mowcaparchives.org/mwc/inct/detl/11"
+    },
+    {
+      "id": "src_li_itm",
+      "kind": "biography",
+      "title": "Subhuti Dharmananda, 'Li Shizhen: Scholar Worthy of Emulation' (Institute for Traditional Medicine, Portland, Oregon; page dated 2001), read in full (about 28,000 characters): a practitioner-scholar's biography drawing on Unschuld's Medicine in China, a Chinese history of medicine and a magazine article. Covers his father and grandfather, his failure at the national examination three times and his decision at 23 to follow medicine, his rise to the Chu court and a one-year post at the Imperial Medical Institute, how the disorder of the herbal literature led him to start the Compendium around age 30, his travel and consultation of experts, the 1578 completion and 1580 and 1587 revisions, his work being carried on by sons and grandsons, the book's slow publication and later editions and translations, and criticism relayed from Unschuld (size, errors introduced) and Wang Ang. Admiring, secondary, partly unsourced; some details (Darwin's use, the Linnaean comparison) are not independently confirmed and are not used.",
+      "url": "http://www.itmonline.org/arts/lishizhen.htm"
+    },
+    {
+      "id": "src_li_edb",
+      "kind": "institution",
+      "title": "Education Bureau (Hong Kong), 'Famous Scientists: Li Shizhen' English reading, Parts B to D, read in full: a short school biography saying he followed his father to pick herbs, passed the county examination at 14 and failed the national one three times, cured the son of the Prince of Chu at 38, served briefly at court and the Imperial Medical Institute, found serious mistakes and disorder in the medical books of his day, spent 27 years on the Compendium, travelled and interviewed people, consulted over 800 books and finished a first draft in 1578. Curriculum text for young readers: simplified and derivative, so used only for corroboration.",
+      "url": "https://www.edb.gov.hk/attachment/en/curriculum-development/kla/eng-edu/Famous_Scientists/LSZ/PartB.html"
+    },
+    {
+      "id": "src_li_fan",
+      "kind": "institution",
+      "title": "Ka wai Fan (City University of Hong Kong), review of Paul U. Unschuld, 'A Catalog of Benevolent Items: Li Shizhen's Compendium of Classical Chinese Knowledge' (University of California Press, 2024), Chinese Studies International 29 (2025), Project MUSE; read through a page summary: describes the Compendium as the largest and most comprehensive work of pharmacology in Chinese medical history, says Joseph Needham regarded it as a major scientific achievement of the Ming, notes European abridgements by the seventeenth century, and reads it as a window on Chinese culture and not only a medical text; also lists the reviewer's criticisms of Unschuld's translation. Independent scholarly review; says little about Li's behaviour.",
+      "url": "https://muse.jhu.edu/article/964929"
+    },
+    {
+      "id": "src_li_nappi",
+      "kind": "institution",
+      "title": "University of British Columbia, Science and Technology Studies programme, page on Carla Nappi's The Monkey and the Inkpot: Natural History and Its Transformations in Early Modern China (Harvard University Press, 2009), read in full (a short book blurb), cross-checked with the Princeton Alumni Weekly blurb: says Li was devoted to using natural history to guide the use of objects as drugs, that the book examines how facts were made and evidence weighed in a text where wildmen and dragons are recorded beside recipes for ginseng, and that it challenges the idea of a single unified Chinese herbal tradition by showing debate in early modern medical culture. Publisher-style blurb by a university department; the book itself was not opened.",
+      "url": "https://sts.arts.ubc.ca/?p=3648"
+    },
+    {
+      "id": "src_li_cm",
+      "kind": "institution",
+      "title": "'A concise classification of bencao (materia medica)', Chinese Medicine (open-access journal), 2018, read in its Compendium entry and conclusion (the rest skimmed): places the Compendium (Ben Cao Gang Mu, 1,892 substances) as the culmination of the bencao tradition and notes translation into European languages from 1735. Short overview article; used for context only.",
+      "url": "https://cmjournal.biomedcentral.com/articles/10.1186/s13020-018-0176-y"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_li_mowcap, src_li_itm, src_li_edb | c.1548-1593 | UNESCO regional register + practitioner biography + school reading] Three sources say the Compendium took 27 years, and Dharmananda dates the completion to 1578 with further revisions in 1580 and 1587, after he had failed the national examination three times. The details of the effort come from retrospective admiring or derivative accounts and no first-person text was read, so confidence stays at about one half."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_li_itm, src_li_edb | 1540s-1578 | practitioner biography + school reading] He accompanied his father to gather herbs and on medical calls, shut himself away for years to read the medical classics together with philosophy and history, and for the Compendium travelled and consulted experts who dealt daily with field plants, water animals, snakes, birds and minerals. The accounts are retrospective and the EDB text derives from the same tradition, so the two are not fully independent."
+    },
+    "analytical_rigor": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_li_itm, src_li_mowcap, src_li_nappi | 1548-1593 | practitioner biography + UNESCO register + academic blurb] He set out to sort conflicting and repeated entries and correct mistakes, dropped items from earlier compendia as worthless, and said alchemical heavy-metal remedies were toxic and did not prolong life, challenging Ge Hong's praise of them. Unschuld, as relayed by Dharmananda, says the book nonetheless passed on and introduced errors, and Nappi's blurb notes it records wildmen and dragons beside ginseng recipes, so rigour is real but uneven."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_li_itm, src_li_mowcap | 1578-1587 | practitioner biography + UNESCO register] The finished work lists 1,892 substances and over 11,000 prescriptions, gives a bibliography of 277 medical and 591 other texts and quotes 952 authors, with a standard set of headings for each entry and revisions in 1580 and 1587. The counts are repeated across accounts with small differences (such as 1,109 or 1,160 illustrations), and the completeness of the entries was not checked against the text itself."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_li_itm, src_li_edb | c.1548-1593 | practitioner biography + school reading] Having judged the herbal literature disordered and harmful to patients, he began a correcting compendium himself at about thirty. Dharmananda notes that earlier official materia medica projects were committee work and that Li undertook it on his own and hoped for imperial sanction afterwards; the book was left in the Ministry of Rites and printed only after his death. The motive is reported by later writers, not by his own words as read here."
+    },
+    "independent_thinking": {
+      "score": 54,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_li_itm, src_li_edb | 1530s-1540s | practitioner biography + school reading] After passing the county examination at 14 and failing the national one three times, he gave up the official-career path his father favoured at about 23 and became a physician; Dharmananda also records that he rejected the fashion for relying on pulse diagnosis alone. The two accounts are not independent and the reasons for his choices are the biographer's reading. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 56 / 0.42 to 54 / 0.38 because the career-choice episode rests on two derivative accounts and the explanation of his motives is inferred."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이시진"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "The only lead (Commons 'Li Shizhen portrait.jpg', 232 x 283 px) has an unknown author, no date, a website source and only a generic public-domain tag, so its age and rights cannot be shown; the Commons category otherwise has only modern statues and photographs, and the Wellcome catalogue has no portrait. Next step: find a dated Ming or Qing portrait or edition frontispiece in a museum or library collection with an item-level public-domain statement."
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / HELD: the Wikidata image 'Li Shizhen portrait.jpg' (232 x 283 px, uploaded 2009) has a Commons page with author unknown, no date, a Russian history website as its source and only a generic PD-Art tag; that is an unknown-creator image whose age cannot be shown, so it is rejected under the strict rule. The Commons category has only modern statues, busts and temple photos (derivative works or modern artworks, rejected). The Wellcome Collection catalogue (works and images API) returned books on him but no portrait image. The Library of Congress record for the Compendium is 403 to automated fetches. BLOCKER: no portrait with documented creator, age and item-level public-domain statement located. NEXT STEP: find a dated Ming or Qing portrait or print of Li Shizhen (for example in a museum open-access collection such as the Met, British Library or a Chinese national library digitisation) with an item-level public-domain statement, or the frontispiece of an old edition of the Compendium on a library site whose terms state PD. PREFLIGHT: QID VERIFIED LIVE (2026-10-30) Q698925 label 'Li Shizhen', description 'Chinese polymath and scientist (1517-1593)', born 1517-07-03, died 1593; no production or candidate collision (grepped prod59 and data-pipeline/candidates for the QID and slug). BIRTH YEAR: stored as 1518, the year given by every source read (Wikidata alone says 1517). REGION east_asia (China), ERA early_modern (Ming), polity Ming dynasty. ZERO POLITICS: primary identity is physician-naturalist and author; his short court posts are context and unscored. VOCABULARY: occupations physician, naturalist, writer; fields medicine, natural_science; tags field_researcher, detail_oriented; archetype scientific_explorer all have EN and KO labels (grepped en.ts and ko.ts); tag 'systematic_thinker' deliberately not used. KOREAN NAME: 이시진 (Wikidata Korean label, standard Korean reading of the Chinese name). CANONICAL SIGNIFICANCE SOURCE: Memory of the World Committee for Asia and the Pacific, register entry 'Ben Cao Gang Mu (Compendium of Materia Medica)' (https://mowcaparchives.org/mwc/inct/detl/11). READ: MOWCAP entry (full), Dharmananda biography (full), Hong Kong EDB reading (full), UBC blurb on Nappi (full), Chinese Medicine 2018 overview (relevant passages); Fan's 2025 review of Unschuld through a page summary only. Wikipedia pages on Li Shizhen and the Compendium were read as orientation only and are not cited as support. NOT OPENED: Britannica (blocked), Needham's Science and Civilisation (known only via Fan and Dharmananda), Nappi's book and Unschuld's translation (known only through blurbs and reviews), the Compendium's own preface (no usable translation found), Library of Congress record (403), the Singapore Medical Journal biography cited by Wikipedia (not found). SPARSE: no first-person or near-contemporary account was available; the one near-contemporary detail (Wang Shizhen's preface) reaches us only through Dharmananda, so every row is retrospective and capped at 0.52. PERSPECTIVES: UNESCO regional register, practitioner-scholar biography relaying Unschuld, Needham and Wang Ang, school curriculum text, scholarly review of a translation, academic blurb on Nappi's historiography. COUNTER-VOICES: Unschuld on size and introduced errors and Wang Ang on unwieldiness (both via Dharmananda); Nappi's challenge to a unified tradition (via blurb). EXCLUSIONS: his health and the rumour of ten years indoors, family details, and the moralising 'worthy of emulation' framing were not scored. SELF-CALIBRATION (agent): top-risk rows reviewed: independent_thinking (lowered 56/0.42 to 54/0.38: derivative accounts, inferred motive), persistence (kept: three sources agree on the 27 years and revisions, and the row is capped at 0.52), proactive_agency (kept: the detail that he worked alone rests on one source but is plain fact). FLAGS: 6 rows, max score 66, max confidence 0.52; profile is intentionally sparse. HANDBACK59: {\"slug\": \"li-shizhen\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"independent_thinking\", \"old_score\": 56, \"old_confidence\": 0.42, \"new_score\": 54, \"new_confidence\": 0.38, \"reason\": \"career-choice episode rests on two derivative accounts and the explanation of his motives is the biographer's inference\"}], \"reviewed_kept\": [\"persistence\", \"proactive_agency\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none (pre-emptively dropped unsupported superlatives and Darwin/Linnaeus claims; no publication year stated)\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6}"
+  }
+}

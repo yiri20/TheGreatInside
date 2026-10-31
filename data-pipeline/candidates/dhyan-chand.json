@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "dhyan-chand",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Dhyan Chand",
+    "aliases": [
+      "Major Dhyan Chand Singh",
+      "Dhyan Chand Singh",
+      "Dhyan Chand Bais"
+    ],
+    "wikidataId": "Q381138",
+    "birthYear": 1905,
+    "deathYear": 1979,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "sustained_excellence",
+      "competitor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dhyan_wikidata",
+      "kind": "wikidata",
+      "title": "Major Dhyan Chand Singh (Q381138), verified live via the Wikidata API (2026-10-28): label 'Major Dhyan Chand Singh', description 'Indian field hockey player (1905-1979)', born 29 August 1905, died 3 December 1979, Korean label present, image 'Dhyan Chand closeup.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q381138"
+    },
+    {
+      "id": "src_dhyan_olympedia",
+      "kind": "institution",
+      "title": "Olympedia, 'Dhyan Chand' athlete profile (read in full). CANONICAL SIGNIFICANCE SOURCE: three Olympic hockey golds with India in 1928, 1932 and 1936, centre-forward, called there the greatest hockey player ever; 8 goals against the United States in 1932, 3 against Germany in the 1936 final; still the star of the Indian team in 1947-48 but declined selection for 1948. Olympic statistical reference with an admiring tone.",
+      "url": "https://www.olympedia.org/athletes/19148"
+    },
+    {
+      "id": "src_dhyan_majumdar",
+      "kind": "press",
+      "title": "Boria Majumdar and Nalin Mehta, extract from 'Olympics: The India Story' published as 'The World's Best Centre-Forward' on Outlook India (read in full): Amsterdam 1928, with contemporary Statesman match reports quoted, saying he scored 14 of India's 29 goals and that in one match he set up others rather than improve his own goal average; also his own recollection that the England-withdrawal story was hearsay. Scholarly book extract.",
+      "url": "https://www.outlookindia.com/amp/story/sports/the-worlds-best-centre-forward-news-237958"
+    },
+    {
+      "id": "src_dhyan_theprint",
+      "kind": "press",
+      "title": "ThePrint profile, 'Dhyan Chand: the hockey wizard who refused Hitler's offer to join German Army' (read in full, 2019): career outline, the 1936 warm-up loss and squad changes, the Indian team playing without shoes in the final, a lost tooth, 61 goals in 22 matches on his last tour at 43, a fellow Olympian's recollection of his humility, and the Hitler offer reported as belief. Journalistic profile, partly based on his autobiography.",
+      "url": "https://theprint.in/theprint-profile/dhyan-chand-the-hockey-wizard-who-refused-hitlers-offer-to-join-german-army/283417/"
+    },
+    {
+      "id": "src_dhyan_dtnext",
+      "kind": "press",
+      "title": "DT Next, 'Dhyan Chand's Berlin Saga: Captaincy test in Nazi Germany, Hitler myth' (read in full, 2021): his first Olympic captaincy in 1936, worry after a loss before the Games, a Statesman report saying he was past his best, rubber-soled shoes in the Japan match, funding from princely rulers, and a closing statement that scholars call the Hitler army-offer story an urban myth. Critical journalism, partly drawing on his autobiography.",
+      "url": "https://www.dtnext.in/amp/story/news/sports/dhyan-chand-berlin-saga-captaincy-test-in-nazi-germany-hitler-myth"
+    },
+    {
+      "id": "src_dhyan_scroll",
+      "kind": "press",
+      "title": "Scroll.in, 'National Sports Day: Dhyan Chand on chasing Olympic glory, being snubbed and meeting Don Bradman' (read in full): excerpts from his autobiography 'Goal' on the 1928 departure, playing the final with a fever and the 'Do or Die' slogan. Self-report, used only as a minor supplement and never as sole support.",
+      "url": "https://thefield.scroll.in/848876/scroll_in"
+    },
+    {
+      "id": "src_dhyan_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file pages 'Dhyan Chand closeup.jpg' and 'SLNSW 81891 Indian captain Dhayan Chand taken in Sydney in August 1935' (checked for the portrait only; not used for any scoring).",
+      "url": "https://commons.wikimedia.org/wiki/Category:Dhyan_Chand"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dhyan_olympedia, src_dhyan_theprint, src_dhyan_scroll | 1926-1948 | Olympic reference + journalistic profile + self-report] Olympedia dates his first international tour to 1926 and his golds to 1928, 1932 and 1936, and says he was still the star of the Indian team in 1947-48; ThePrint says he scored 61 goals in 22 matches on the December 1947 East Africa tour aged 43 and lost a tooth in a rough 1936 final; his own account in Goal (via Scroll) says he played the 1928 final with a high fever. The span of top-level play is well documented, but the hardship details are largely self-reported or retold and no independent account of his training habits was read."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dhyan_theprint, src_dhyan_dtnext | 1936 | journalistic profiles] ThePrint says that after a 4-1 warm-up loss to Germany in 1936 he made a couple of changes to the squad and the team resumed winning, and that the players switched to playing without shoes in the final; DT Next instead says he chose rubber-soled shoes in the Japan match for speed and mobility. The two retellings of the footwear episode disagree on detail and may repeat one legend, so only the general willingness to change the team's set-up is supported. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.45 to 58 / 0.40 because the footwear episode is retold with conflicting details in two journalistic retellings of one legend."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dhyan_majumdar, src_dhyan_olympedia | 1928-1936 | scholarly extract quoting contemporary press + Olympic reference] A Statesman report from the 1928 Games, quoted by Majumdar and Mehta, says that against Belgium he tapped the ball to teammates rather than push his own goal tally, and the same extract says he scored 14 of India's 29 goals; Olympedia notes that he played alongside his younger brother Roop Singh in 1932 and 1936. The contemporary report is a single match description, so the row is modest and rests on one quoted article."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "디얀 찬드"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. Wikidata image 'Dhyan Chand closeup.jpg' (211 x 350) has no known photographer, and its Commons page cites only a 2008 English Wikipedia upload and a hockey-fan website with a generic India public-domain tag. The alternative checked, a 5 August 1935 Sam Hood photograph in the State Library of New South Wales collection (Commons file 'SLNSW 81891', 763 x 1050, Australian public domain, created before 1955), has a clear rights basis but the library's own record says the sitter was identified by a Flickr user in 2012, and other frames of that sitting are captioned only 'Indian hockey team', so the sitter's identity is not established. Next step: find a photograph with a documented identification of the sitter, for example a captioned Trove newspaper photograph of 1935 or an Olympic-era press photograph with a named photographer, or confirm the identification with the State Library. Kind, if resolved: likeness.",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/Category:Dhyan_Chand"
+  },
+  "provenance": {
+    "createdAt": "2026-10-28T00:00:00Z",
+    "updatedAt": "2026-10-28T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed risky and HELD: the P18 file 'Dhyan Chand closeup.jpg' (211x350) has an unknown photographer; its Commons page gives only the English Wikipedia uploader 2008 and a hockey-fan website page as 'permission' with a generic India public-domain tag, which is not a rights basis. The one alternative checked, Commons 'SLNSW 81891' (Sam Hood, State Library of NSW, 5 August 1935, 763 x 1050 pixels, Australian public domain, collection note 'out of copyright, created before 1955'), has a clear rights basis, BUT the library's own metadata says the sitter was 'Identified by a Flickr user, January 2012' and other frames of the same sitting are captioned only 'Indian hockey team', so the identity of the sitter is not established; rejected on identity. 1928 team photos are group shots with unknown authors. Bounded retry done, then HOLD. PREFLIGHT: QID VERIFIED LIVE (2026-10-28) Q381138 label 'Major Dhyan Chand Singh', description 'Indian field hockey player (1905-1979)', born 1905-08-29, died 1979-12-03, Korean label present. No production or candidate slug/QID collision (grepped prod59 and data-pipeline/candidates). REGION south_asia, ERA 20th_century, nationality IN. ZERO POLITICS: primary identity is hockey player; his army service is background and not scored; the refusal-to-salute and Hitler stories are not scored (the Hitler offer is described by DT Next and ThePrint as unverified or myth). VOCABULARY: occupation athlete, field sport, tags sustained_excellence and competitor, archetype competitive_performer, following the lionel-messi and emil-zatopek candidates; all have EN and KO labels. KO NAME: the Wikidata Korean label, which is the Korean Wikipedia title. CANONICAL SIGNIFICANCE SOURCE: Olympedia athlete page for Dhyan Chand (https://www.olympedia.org/athletes/19148). READ IN FULL: Olympedia; Boria Majumdar and Nalin Mehta extract from 'Olympics: The India Story' on Outlook (Amsterdam 1928, with quoted contemporary Statesman reports); ThePrint profile (2019); DT Next article on the 1936 Berlin captaincy and the Hitler 'myth' (2021); Scroll.in excerpts from his autobiography 'Goal' (self-report). PERSPECTIVES: Olympic reference, scholarly book extract quoting contemporary press, two journalistic profiles (one sceptical of the Hitler legend), self-report. COUNTER-VOICES: DT Next and ThePrint doubt the Hitler offer; DT Next records a Statesman report that he was 'past his best' after the first 1936 match and his own worry about losing; the 400-goal and 570-goal totals differ (the latter in his own book) and are not scored. NOT OPENED: Britannica (bot-blocked), the full text of Goal, the Majumdar-Mehta book itself, Hockey India pages. SPARSE PROFILE: three rows, none above 66, confidence 0.40-0.50; the sources are mostly outcome and legend, with thin documented working behaviour. SELF-CALIBRATION (agent): top-risk rows reviewed: adaptability (62/0.45 lowered to 58/0.40), persistence (kept), collaboration (kept). HANDBACK59: {\"slug\": \"dhyan-chand\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 3, \"self_calibrated_rows\": [{\"attribute\": \"adaptability\", \"old_score\": 62, \"old_confidence\": 0.45, \"new_score\": 58, \"new_confidence\": 0.4, \"reason\": \"the barefoot/rubber-sole change in the 1936 final is retold with conflicting details in two journalistic retellings of one legend\"}], \"reviewed_kept\": [\"persistence\", \"collaboration\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 3}"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "aziz-sancar",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Aziz Sancar",
+    "aliases": [
+      "Aziz Sancar, MD, PhD"
+    ],
+    "wikidataId": "Q15118973",
+    "birthYear": 1946,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "TR",
+      "US"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "chemist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "biology",
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "specialist",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sancar_wikidata",
+      "kind": "wikidata",
+      "title": "Aziz Sancar (Q15118973) -- verified live via the Wikidata API (2026-10-30): English label 'Aziz Sancar', description 'Turkish geneticist; Nobel Prize in Chemistry 2015', Korean label '아지즈 산자르', born 1946-09-08, no death date, citizenship Turkey, United States and a third value, P18 'Aziz Sancar 0060.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q15118973"
+    },
+    {
+      "id": "src_sancar_nobel_advanced",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'The Nobel Prize in Chemistry 2015 - Advanced information: Scientific Background, Mechanistic studies of DNA repair' (Royal Swedish Academy of Sciences, Nobel Committee for Chemistry; PDF, 15 pages), read in full for the Sancar sections. CANONICAL SIGNIFICANCE SOURCE: it credits Sancar with the Maxicell technique, the 1983 reconstitution of UvrA, UvrB and UvrC dual incision in nucleotide excision repair, the two chromophores and light-driven mechanism of photolyase, and states in its summary that Lindahl (base excision repair), Modrich (mismatch repair) and Sancar (nucleotide excision repair, plus the mechanism of photoreactivation) made the discoveries; it also notes that James Cleaver identified many human repair factors and that Richard Wood reconstituted human excision repair in parallel with Sancar. Prize committee text; independent of Sancar.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2015/advanced-information/"
+    },
+    {
+      "id": "src_sancar_nobel_bio",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Aziz Sancar - Biographical' (autobiography written by Sancar for the Nobel Foundation), read in full: the Nobel Foundation's own record of his training in Istanbul and rural medical practice, the PhD with Claud Rupert at the University of Texas at Dallas, the postdoctoral work with Dean Rupp at Yale, the UvrABC dual-incision finding, photolyase, transcription-coupled repair, human excision repair, checkpoints and cryptochrome. SELF-REPORT: first-person and partly nationalistic in tone; its political and patriotic passages are not scored; every behavioural claim taken from it is marked as self-reported and cross-checked against the committee and the PNAS profile where possible.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2015/sancar/biographical/"
+    },
+    {
+      "id": "src_sancar_pnas_profile",
+      "kind": "press",
+      "title": "Nick Zagorski, 'Profile of Aziz Sancar' (Proceedings of the National Academy of Sciences, 8 November 2005), read in full: the NAS profile written when Sancar was elected, covering the repeatedly failing phr mutant experiment, the cloning of the photolyase gene, the cold reception from three DNA-repair labs, his hiring at Yale nominally as a technician, and how a test of whether cryptochrome was a photoreceptor ended up showing it was an essential clock component. Independent science-writer profile, but its behavioural anecdotes are told largely in Sancar's own words, so they are treated as lightly corroborated self-report.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1283445/"
+    },
+    {
+      "id": "src_sancar_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Aziz Sancar' (Kara Rogers, fact-checked by Britannica editors, updated September 2026), read in full: Turkish-American biochemist known for mechanistic work on nucleotide excision repair; states the 2015 Nobel Prize in Chemistry was shared with Tomas Lindahl and Paul Modrich; lists the uvrABC excision nuclease, reconstitution of the human excision nuclease, the role of defective repair in xeroderma pigmentosum, DNA damage checkpoints, photolyase and the cryptochromes in the circadian clock. Reference biography; orientation and shared-credit confirmation.",
+      "url": "https://www.britannica.com/biography/Aziz-Sancar"
+    },
+    {
+      "id": "src_sancar_unc_2015",
+      "kind": "institution",
+      "title": "UNC School of Medicine, Biochemistry and Biophysics, 'Aziz Sancar receives 2015 Nobel Prize in Chemistry' (news release, October 2015), read in full: his work on nucleotide excision repair, the cisplatin finding, the 2015 whole-genome repair map by his team, the shared prize with Lindahl and Modrich, and tributes from the dean and the cancer-centre director. Employer news release; admiring and institutional.",
+      "url": "https://www.med.unc.edu/biochem/news/aziz-sancar-receives-2015-nobel-prize-in-chemistry/"
+    },
+    {
+      "id": "src_sancar_unc_2025",
+      "kind": "institution",
+      "title": "UNC School of Medicine / UNC Health Newsroom, 'The Enduring Legacy of Dr. Aziz Sancar' (October 2025), read in full: ten years after the prize he still teaches the graduate molecular biology course, reports training more than 35 students and 55 postdocs, a former postdoctoral trainee (Laura Lindsey-Boltz) describing his advice about when to abandon a project, his statement that photolyase work excited him more than the Nobel-winning work, and his credit to trainees Lindsey-Boltz and Selby. Employer news feature; admiring; the foundation and cultural-centre passages are not scored.",
+      "url": "https://news.unchealthcare.org/2025/10/the-enduring-legacy-of-dr-aziz-sancar/"
+    },
+    {
+      "id": "src_sancar_cen_2015",
+      "kind": "press",
+      "title": "David Kroll, 'This Year's Nobel Prize In Chemistry Sparks Questions About How Winners Are Selected' (Chemical & Engineering News, 11 November 2015). Only the opening paragraphs could be opened (the body is behind a login): they report that some in the research community regretted that pioneers of DNA repair were skipped over and complained that Nobel press materials implied the three laureates had 'discovered' DNA repair. The named critique of Philip Hanawalt's omission reached the agent only through a search-engine summary of the article and is not relied on in any row. Used only as the counter-voice on credit.",
+      "url": "https://cen.acs.org/articles/93/i45/Years-Nobel-Prize-Chemistry-Sparks.html"
+    },
+    {
+      "id": "src_sancar_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'File:Aziz Sancar 0060.jpg' (photograph by Holger Motzkau, 7 December 2015, Nobel Prize week press conference), checked for the portrait only.",
+      "url": "https://commons.wikimedia.org/wiki/File:Aziz_Sancar_0060.jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sancar_pnas_profile, src_sancar_nobel_bio, src_sancar_nobel_advanced, src_sancar_unc_2025 | 1974-2025 | independent profile of self-report + self-report + prize committee + employer feature] The PNAS profile and his Nobel autobiography describe an experiment to isolate a photolyase-deficient mutant that failed on the first, second and third try before succeeding about 11 months later, and a long series of rejections before he was hired at Yale, after which he continued; the committee text independently documents that he cloned the photolyase gene as a doctoral student, left the enzyme for six years and returned in 1984 to work out its mechanism, and UNC records him teaching and running a lab ten years after the prize. The specific struggles are self-reported (relayed by the PNAS writer), the long arc is independently documented. SELF-CALIBRATION (agent): lowered from 78 / 0.62 to 74 / 0.56 because the vivid failure-and-persistence episodes all trace to his own account and only the multi-decade photolyase continuity is independently documented."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sancar_nobel_advanced, src_sancar_britannica, src_sancar_nobel_bio | 1979-1991 | prize committee + biography + self-report] The Nobel committee describes his 1983 reconstitution of nucleotide excision repair from purified UvrA, UvrB and UvrC, showing incisions at precise positions on either side of the lesion and a 12-13 nucleotide excised fragment, and calls the Maxicell method 'elegant'; he reports that this overturned the earlier model of a single endonuclease and exonuclease, and the committee and Britannica credit the later reconstitution of the human excision nuclease (with Richard Wood's group reconstituting human repair in parallel, per the committee). Method and result are stated by the prize committee independently of him; the 'surprise' framing is his own. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 76 / 0.62 to 72 / 0.58 because the strongest support is the Nobel committee text and his own Nobel autobiography; the independent check is one profile."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sancar_nobel_advanced, src_sancar_nobel_bio, src_sancar_unc_2025 | 1974-2011 | prize committee + self-report + employer feature] The committee records the photolyase mechanism work of 1984-1989 (two chromophores, the flavin electron-transfer repair cycle), and he reports continuing the same enzyme for over 40 years with collaborators until the full repair reaction was traced in real time, telling UNC the photolyase work excited him more than the Nobel-winning work. The depth and duration are corroborated by the committee for the 1984-1989 phase; the later decades and his own ranking of his work are self-reported."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sancar_pnas_profile, src_sancar_nobel_bio, src_sancar_britannica, src_sancar_unc_2025 | 1995-2025 | independent profile + self-report + biography + employer feature] After finding that two human photolyase-like genes had no repair activity, his lab moved into circadian biology and neuroscience (he reports studying the clock literature intensively), and the PNAS profile, Britannica and UNC all describe the result that cryptochrome is an essential part of the mammalian clock; the same lab also pursued DNA damage checkpoints, cisplatin and genome-wide repair mapping. The move across fields is stated by three sources; the story of how he got there (a magazine article on the flight home) is his own."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sancar_nobel_bio, src_sancar_pnas_profile | 1993-1998 | self-report + independent profile of self-report] In 1993 his group published that humans lack photolyase; in 1995-1996, when photolyase-like genes appeared in sequence databases and proved to have no repair activity, he reinterpreted them as clock proteins and tested that idea, and he reports that the clock role turned out to be that of a transcriptional repressor rather than a photoreceptor; the PNAS profile confirms the aim of proving a photoreceptor role ended in showing an essential clock component. The reversals are documented only through his own account, so this is a strong inference with modest confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아지즈 산자르"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/aziz-sancar-motzkau-2015.jpg",
+    "width": 1141,
+    "height": 1200,
+    "source": "Photograph of Aziz Sancar at the Nobel Prize week press conference at the Royal Swedish Academy of Sciences, Stockholm, 7 December 2015, by Holger Motzkau (Wikimedia Sverige Nobel-week series); Commons file 'Aziz Sancar 0060.jpg', original 3132 x 3293, uploaded by the photographer as own work. Downscaled to 1141 x 1200 for the site; not upscaled.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Holger Motzkau, 2015, Wikimedia Commons, CC BY-SA 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Aziz_Sancar_0060.jpg",
+    "creator": "Holger Motzkau",
+    "date": "2015-12-07",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Aziz_Sancar_0060.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / finding: confirmed rights-clear. Commons wikitext for 'Aziz Sancar 0060.jpg': description 'Aziz Sancar at a press conference at the Royal Swedish Academy of Sciences', date 2015-12-07 10:31:35, source own work, author Holger Motzkau (user Prolineserver, photographer of the Wikimedia Sverige Nobel-week series; category Nobel Prize 2015), licence {{self|cc-by-sa-3.0}}, Copyrighted true; API original 3132 x 3293. The page shows a retouched version (editor Bengt Nyman) of an 'original' file; the photographer's own licence covers both. Identity is established by the event (the 2015 Nobel press conference) and the Nobel pin on the lapel; no licence conflict, no deletion or review tag seen. Downloaded, opened and downscaled to 1141 x 1200 (not upscaled); CC BY-SA attribution recorded. Residual caveat: the Commons own-work statement is an uploader assertion, but the uploader is the credited photographer of a documented press-event series. PREFLIGHT: QID VERIFIED LIVE (wbgetentities, 2026-10-30) Q15118973: en label 'Aziz Sancar', description 'Turkish geneticist; Nobel Prize in Chemistry 2015', ko label '아지즈 산자르', born 1946-09-08, no death date. SLUG/QID CHECK: Q15118973 not in prod59.txt, no data-pipeline/candidates/aziz-sancar.json existed. VOCABULARY: scientist, chemist, medical_researcher, chemistry, biology, medicine, nobel_laureate, specialist, mentor, scientific_explorer all have EN+KO labels in en.ts and ko.ts (biochemist is unlabeled and not used). REGION JUDGEMENT: west_asia. Repo precedents conflict: Zewail (Egyptian-American, US career) is north_africa, Khorana and Chandrasekhar are south_asia, but Hinton, Molina and Stroustrup are north_america. Sancar is Turkish-born, trained in Istanbul and practised medicine in Turkey until 25, has held Turkish and US citizenship and academy memberships in both, but his entire research career (since 1971) is in the US. west_asia follows the lead's pick and the Zewail/Khorana precedent; north_america would follow the Hinton precedent; FLAG for lead to confirm. ZERO POLITICS: his Nobel autobiography contains nationalist and anti-communist passages and a Turkish-American foundation and cultural centre exist; none is scored or carded. LIVING SUBJECT: only public professional behaviour; family, health and private life excluded. SHARED CREDIT: the 2015 Nobel Prize in Chemistry was shared equally in citation with Tomas Lindahl and Paul Modrich 'for mechanistic studies of DNA repair'; the committee assigns Sancar nucleotide excision repair and the photolyase mechanism; Hanawalt, Cleaver, Wood, Rupert and Witkin are credited as earlier or parallel contributors by the committee or by Sancar; no claim here that he discovered DNA repair. CANONICAL SIGNIFICANCE SOURCE: Nobel Committee for Chemistry, Advanced information 2015 (https://www.nobelprize.org/prizes/chemistry/2015/advanced-information/). READ (6 substantive sources): Nobel advanced information (PDF), Nobel autobiography (self), PNAS profile 2005, Britannica, UNC 2015 release, UNC 2025 feature; plus C&EN 2015 intro only. PERSPECTIVES: prize committee (independent), science-writer profile, reference biography, employer institution, trainee voice (Lindsey-Boltz via UNC), self-report. COUNTER-VOICE: C&EN 2015 critics on credit (opening paragraphs only; the named Hanawalt critique is from a search summary and is not used); Sancar himself credits Rupert, Rupp, Hanawalt and others. NOT OPENED: C&EN full text (login), Sancar's own papers (Maxicell, 1983 UvrABC, 1996-1999 cryptochrome papers), Science 1994 and 1998 Molecule of the Year pieces, the JBC reflections article, Takahashi-side accounts of the CRY2 mutant, any adversarial source on his lab management. Date/credit caveat: the cryptochrome naming and discovery credit is stated by UNC and Britannica for his lab; Takahashi and others contributed per his own account. SELF-CALIBRATION: rows reviewed: persistence (78 / 0.62), analytical_rigor (76 / 0.62), belief_updating (66 / 0.50). Lowered: persistence 78/0.62 -> 74/0.56, because the failure-and-persistence episodes trace to his own account and only the multi-decade photolyase continuity is independently documented. analytical_rigor kept (committee-stated method and result); belief_updating kept (already modest, strong_inference). HANDBACK59: {\"slug\":\"aziz-sancar\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"persistence\",\"old_score\":78,\"old_confidence\":0.62,\"new_score\":74,\"new_confidence\":0.56,\"reason\":\"failure-and-persistence episodes trace to his own account; only the multi-decade photolyase continuity is independently documented\"}],\"reviewed_kept\":[\"analytical_rigor\",\"belief_updating\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5} RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 76 / 0.62 to 72 / 0.58 because the strongest support is the Nobel committee text and his own Nobel autobiography; the independent check is one profile."
+  }
+}

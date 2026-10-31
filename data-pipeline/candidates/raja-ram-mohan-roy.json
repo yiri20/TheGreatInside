@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "raja-ram-mohan-roy",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Raja Ram Mohan Roy",
+    "aliases": [
+      "Ram Mohan Roy",
+      "Rammohun Roy",
+      "Rammohan Roy"
+    ],
+    "wikidataId": "Q335269",
+    "birthYear": 1772,
+    "deathYear": 1833,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "writer",
+      "editor",
+      "religious_leader"
+    ],
+    "fieldIds": [
+      "education",
+      "social_reform",
+      "religion"
+    ],
+    "impactDomains": [
+      "social",
+      "educational",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "advocate",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_rmr_wikidata",
+      "kind": "wikidata",
+      "title": "Ram Mohan Roy (Q335269), verified live via the Wikidata API (2026-10-30): label 'Ram Mohan Roy', description 'Indian religious, social, and educational reformer, and humanitarian', born 1772-05-22, died 1833-09-27; Korean label '람 모한 로이'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q335269"
+    },
+    {
+      "id": "src_rmr_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Ram Mohan Roy', fetched for orientation only (names, dates, main institutions). Never counted as a source for any row.",
+      "url": "https://en.wikipedia.org/wiki/Ram_Mohan_Roy"
+    },
+    {
+      "id": "src_rmr_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Ram Mohan Roy' (Britannica Editors, last updated October 2026), read in full. CANONICAL SIGNIFICANCE SOURCE: calls him a religious, social and educational reformer sometimes called the father of modern India, founder and editor of two of India's earliest weekly newspapers, founder of the Atmiya Sabha (1815), the Anglo-Hindu School (1822), the Vedanta College (1826) and the Brahmo Samaj (1828), and says his writings emboldened the 1829 prohibition of suttee. Concise tertiary entry that is admiring in places; its description of his 1829 mission to England is context only here.",
+      "url": "https://www.britannica.com/biography/Ram-Mohan-Roy"
+    },
+    {
+      "id": "src_rmr_uudb",
+      "kind": "biography",
+      "title": "Dictionary of Unitarian and Universalist Biography, 'Roy, Rammohun', read in full: a scholarly biographical entry covering his Persian and Bengali tracts, the Atmiya Sabha, the two conferences on sati (1818, 1820), the lawsuits and hostility from orthodox opponents, the Precepts of Jesus controversy with the missionary Joshua Marshman, his work with William Adam, the Anglo-Hindu School and Vedanta College, and the Brahmo Samaj, including Adam's sceptical view of his motives. Independent of the Brahmo Samaj and of Collet; written from a Unitarian standpoint.",
+      "url": "https://www.uudb.org/roy-rammohun/"
+    },
+    {
+      "id": "src_rmr_collet",
+      "kind": "biography",
+      "title": "Sophia Dobson Collet (completed by a friend; second edition ed. Hem Chandra Sarkar), 'The Life and Letters of Raja Rammohun Roy' (Calcutta, 1914), Internet Archive scan from University of California Libraries, read for the preface, the introduction on education (including Alexander Duff's 1853 evidence on the founding of the Hindu College), the chapter list, the passage on Roy's offer of the Brahmo Sabha hall to Duff, the description of his person and the Briggs portrait footnote, and the frontispiece plate. An insider, admiring biography (first edition 1900, compiled by a Unitarian admirer); used for dated episodes and quoted evidence only.",
+      "url": "https://archive.org/details/lifelettersofraj00collrich"
+    },
+    {
+      "id": "src_rmr_humanists",
+      "kind": "institution",
+      "title": "Humanists UK, Humanist Heritage, 'Rammohun Roy (1772-1833)', read in full: a short institutional profile describing his newspapers, his protest against press censorship, his campaign against sati and child marriage, the Brahmo Samaj, and his reception by British freethinkers and Unitarians. Admiring heritage page written to claim a link to organised humanism.",
+      "url": "https://heritage.humanists.uk/rammohun-roy-1772-1833/"
+    },
+    {
+      "id": "src_rmr_whc",
+      "kind": "archive",
+      "title": "World History Commons, 'Sati: Petition, Orthodox Hindus' (the petition of the orthodox Hindu community of Calcutta against the Suttee Regulation, 14 January 1830, with editorial annotation), read in the first part: the opposing view that sati was sanctioned by custom and scripture and that the regulation was an interference in religion. Used as the counter-voice to his campaign; a document of the opposing party, not a source about Roy's conduct.",
+      "url": "https://worldhistorycommons.org/sati-petition-orthodox-hindus"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rmr_britannica, src_rmr_uudb, src_rmr_collet | 1815-1828 | encyclopedia + scholarly biography + insider biography] After returning to Calcutta in 1815 he gathered the Atmiya Sabha for free discussion of religion (Britannica, Dictionary of Unitarian and Universalist Biography); Collet, quoting Alexander Duff's evidence, traces the Hindu College to a discussion at that society in 1815 with David Hare; he founded the Anglo-Hindu School in 1822, the Vedanta College in 1826 and the Brahmo Samaj in 1828, and was founder and editor of two early weekly newspapers (Britannica). Several of these began as his own initiatives and the dates are consistent across sources; Collet gives 1819 for the Hindu College and describes its founding meeting in May 1816. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 74 / 0.62 to 70 / 0.56 because the organizing episodes come from the same insider and admiring sources, with hostile accounts disputing the motives."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rmr_britannica, src_rmr_uudb, src_rmr_whc | 1818-1830 | encyclopedia + scholarly biography + opposing petition] He argued in print against sati in two published conferences (1818, 1820) using scripture, tradition and later women's rights, and Britannica says his writings emboldened the government's 1829 prohibition. The orthodox community of Calcutta petitioned against the regulation in 1830, the missionary Marshman denounced his Precepts of Jesus, and the Unitarian William Adam privately judged that Roy used both the Vedas and Unitarian Christianity as instruments, so his persuasion worked on some audiences and not on others. How far his writings caused the 1829 decision is a claim of the encyclopedia, not a documented chain of events."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rmr_uudb, src_rmr_collet | 1817-1823 | scholarly biography + insider biography] He debated idol worship publicly with the Madras Brahmin Subramanya Sastri, and when orthodox opponents attacked him the Atmiya Sabha was forced to disband and relatives sued over his property; after Marshman denounced the Precepts of Jesus he published an Appeal, a Second Appeal and a Final Appeal in reply (UUDB). Collet notes that he withdrew from the Hindu College committee because orthodox members objected to sitting with him, yet kept working for the college from outside. Willingness to face opposition is documented; the costs to his own projects were real."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rmr_britannica, src_rmr_uudb | 1804-1828 | encyclopedia + scholarly biography] In 1803-04 he wrote tracts in Persian and Bengali criticising what he saw as irrational and divisive features of existing religions, and argued for a monotheistic Hinduism guided by reason; he learned Hebrew and Greek to read the Bible and published the ethical teachings of Jesus without the miracles (1820), drawing attack from both Hindu opponents and a Baptist missionary. In 1827-28 he withdrew support from the Unitarian association and founded the Brahmo Samaj on Vedic authority instead, against his Unitarian collaborator Adam's wishes (UUDB). The evidence is for a recurrent pattern of choosing his own line against groups that might have claimed him; Adam's reading of his motives is a contemporary opinion. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 76 / 0.62 to 72 / 0.56 because rests on Collet's insider biography and admiring profiles, with one sceptical contemporary (Adam) and one hostile petition as counter-voices."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rmr_britannica, src_rmr_uudb, src_rmr_humanists, src_rmr_collet | 1818-1830 | encyclopedia + scholarly biography + heritage page + insider biography] He visited Calcutta's cremation grounds to dissuade widows, helped prepare a petition against sati and, in the second conference, argued from women's rights (UUDB); founded an English-medium school with a Western curriculum including science and protested a Sanskrit-only college (Britannica, UUDB); and, per Duff's evidence in Collet, offered his own Brahmo Sabha hall and introduced pupils to the Scottish missionary's new school. The motive is shown by these concrete acts; statements that the work was altruistic come from admiring sources. SELF-CALIBRATION (agent): lowered from 72 / 0.58 to 68 / 0.54 because the motive evidence rests on admiring biographies and heritage pages and the one critical contemporary (Adam) read his institutions as instruments."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rmr_britannica, src_rmr_uudb, src_rmr_humanists | 1790s-1824 | encyclopedia + scholarly biography + heritage page] He mastered Sanskrit, Persian, Arabic and English besides Bengali and Hindi and, later, learned Hebrew and Greek to read the Old and New Testaments; he translated the Upanishads into Bengali, Hindi and English with summaries and treatises, and the French Societe Asiatique made him an honorary member in 1824 (Britannica). The Dictionary of Unitarian and Universalist Biography adds Bengali commentaries on four Upanishads (1816-19). Documented, though the depth of his scholarship is judged by sources that admire it."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rmr_uudb, src_rmr_britannica, src_rmr_collet | 1818-1829 | scholarly biography + encyclopedia + insider biography] The campaign against sati runs from the first conference (1818) through the second (1820) and the 1829 prohibition, alongside the school and newspaper work (UUDB, Britannica), and Collet lists a long sequence of tracts, appeals and memorials across the 1820s. After the Atmiya Sabha had to be disbanded he started further societies and institutions rather than stopping (UUDB). The sources describe sustained effort, not any single test of endurance."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "람 모한 로이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/raja-ram-mohan-roy-briggs-1914.jpg",
+    "width": 999,
+    "height": 1200,
+    "source": "Colour plate of the full-length portrait of Roy by Henry Perronet Briggs (the painting hangs in the Bristol Museum according to Collet), reproduced as the frontispiece of Sophia Dobson Collet, 'The Life and Letters of Raja Rammohun Roy', second edition (Calcutta, 1914), Internet Archive scan from University of California Libraries (copyright status listed as not in copyright). Painter died in 1844 and the plate was published in 1914, so the image is public domain by age in the United States. The plate caption names only the sitter; the attribution to Briggs rests on Collet's text (a full-length portrait by Briggs in the Bristol Museum, which Dr Lant Carpenter, who knew Roy, judged the best portrait extant) and on a matching Commons file credited to Briggs. Cropped from the upper part of the plate (about 1290 x 1550 pixels in the 2132 x 3730 page scan) and downscaled to 999 x 1200; no upscaling. The date of the painting is not stated in the sources read.",
+    "license": "Public domain (painting by an artist who died in 1844; reproduction published in 1914)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US",
+    "attribution": "Henry Perronet Briggs, portrait of Rammohun Roy, plate in Collet, Life and Letters of Raja Rammohun Roy, 2nd edition (Calcutta, 1914)",
+    "attributionUrl": "https://archive.org/details/lifelettersofraj00collrich",
+    "creator": "Henry Perronet Briggs",
+    "date": "1914 plate of a painting made before 1833",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Painting_of_Raja_Ram_Mohan_Roy.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / DIFFERENT IMAGE USED: the lead's P18 is Rembrandt Peale's 1833 oil (Commons file 987 x 1201; credited to the Peabody Essex Museum, accession 137982, uploaded from the museum's explore-art page, which could not be fetched). Commons tags it PD by the painter's death in 1860, but the museum's own website terms (pem.org/terms-of-use, fetched) claim copyright in all website images and bar reproduction without a written licence outside personal use; the item page was unreachable, so the conflict could not be resolved and the museum reproduction restriction means the PEM image cannot be relied on. Second Peale version listed at the New-York Historical Society (accession 1858.88) could not be opened (403). Used instead: the Briggs full-length portrait as reproduced in the 1914 Calcutta edition of Collet (published in India in 1914, before 1931, so US public domain; painter H. P. Briggs RA died 1844; scan from University of California Libraries, not in copyright). Caveats: the plate itself carries only the sitter's name; the Briggs attribution rests on Collet's footnote and the Commons file 'Painting of Raja Ram Mohan Roy' (credited to Briggs, taken from the Modern Review 1933), which matches the plate in composition; the colour is a 1914 print reproduction. kind is likeness because a contemporary, Dr Carpenter, who knew Roy, judged this portrait in Collet's account; the sitting itself is not documented in the sources read. PREFLIGHT: QID VERIFIED LIVE (2026-10-30): Q335269 label 'Ram Mohan Roy', description 'Indian religious, social, and educational reformer, and humanitarian', born 1772-05-22, died 1833-09-27; no collision in prod59 or data-pipeline/candidates (roy-chapman-andrews and henry-royce are other people). REGION south_asia; nationality IN; ERA 19th_century (died 1833, active 1803-1833). VOCABULARY: scholar, writer, editor, religious_leader; fields education, social_reform, religion; tags founder, advocate, organizer; archetypes social_influencer, organizational_leader, all grepped with EN and KO labels. KOREAN NAME: Wikidata label 람 모한 로이 used (the lead's alternative 람모한 로이 without spaces not used). ZERO POLITICS: primary identity is educator, writer and religious and social reformer; scored for documented writing, institution building and public argument. The 1829 mission to England for the Mughal king, the Jury Bill and press-regulation petitions, lobbying of the Governor-General and Parliament are political context and are not scored; the sati campaign is scored only through his published tracts, debates and organising. Religion (Unitarian leanings, Brahmo theology) is context, not scored as personality. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Ram Mohan Roy' (https://www.britannica.com/biography/Ram-Mohan-Roy). READ: Britannica (full), Dictionary of Unitarian and Universalist Biography (full), Collet 1914 (preface, introduction, passages on Duff and the Hindu College, the physical description and Briggs footnote, chapter list, frontispiece), Humanist Heritage (full), World History Commons petition (opening), Wikipedia (orientation). PERSPECTIVES: a general encyclopedia, a Unitarian scholarly dictionary (with the sceptical contemporary view of William Adam and the missionary Marshman), an insider Brahmo-circle biography, a humanist heritage page, and the opposing orthodox petition of 1830. NOT opened: Sophia Collet's 1900 first edition, Bruce Carlisle Robertson, Rosalind O'Hanlon and Lata Mani (named by the lead; not accessible), the Dictionary of National Biography entry (the Wikisource URL tried returned 404), Banglapedia (404), the Butler University article (403), Roy's own tracts. DISCREPANCIES noted: Hindu College established 1819 yet founding meeting May 1816 (both in Collet); Collet's tomb inscription gives birth in 1774 against 1772 in Britannica and Wikidata. EXCLUSIONS: his marriages, family lawsuits, the death of his sister-in-law in a sati and personal motives drawn from it, and his death were read but not scored or used to infer personality. FLAGS: 7 rows, none above 76; most behavioural evidence comes from Unitarian or insider writers and the critical voices are contemporary, so the profile is moderate in confidence; no collaboration row because the two collaborations documented (Hare, Adam) are described only briefly. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (72/0.58 lowered to 68/0.54); independent_thinking and proactive_agency kept (each supported by independent encyclopedia and scholarly biography with dated episodes). HANDBACK59: {\"slug\": \"raja-ram-mohan-roy\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 72, \"old_confidence\": 0.58, \"new_score\": 68, \"new_confidence\": 0.54, \"reason\": \"motive evidence rests on admiring biographies and heritage pages and the one critical contemporary read his institutions as instruments\"}], \"reviewed_kept\": [\"independent_thinking\", \"proactive_agency\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7} RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 76 / 0.62 to 72 / 0.56 because rests on Collet's insider biography and admiring profiles, with one sceptical contemporary (Adam) and one hostile petition as counter-voices. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 74 / 0.62 to 70 / 0.56 because the organizing episodes come from the same insider and admiring sources, with hostile accounts disputing the motives. LEAD PORTRAIT KIND (Roster59 review): kind changed from likeness to historical_depiction because the sources read do not document the sitting or date of the Briggs portrait; the rights basis (painter died 1844, plate published in 1914) is unchanged."
+  }
+}

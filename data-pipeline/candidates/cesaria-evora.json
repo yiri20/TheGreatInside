@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "cesaria-evora",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Cesaria Evora",
+    "aliases": [
+      "Cesária Évora",
+      "Cesária Evora",
+      "Cesaria Évora",
+      "The Barefoot Diva"
+    ],
+    "wikidataId": "Q103759",
+    "birthYear": 1941,
+    "deathYear": 2011,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CV"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_evora_wikidata",
+      "kind": "wikidata",
+      "title": "Cesaria Evora (Q103759), verified live via the Wikidata API (2026-10-28): label 'Cesária Évora', description 'Cape Verdean singer-songwriter (1941-2011)', born 1941-08-27, died 2011-12-17, citizenship Cape Verde (Q1011), Korean label '세자리아 에보라', P18 images include 'Cesária Évora (2457851527).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q103759"
+    },
+    {
+      "id": "src_evora_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Cesaria Evora' (print version, revised December 2025), read in full. CANONICAL SIGNIFICANCE SOURCE: Cape Verdean singer known for her rich, haunting voice, who sang mornas and coladeras in Creole-Portuguese in the bars of Mindelo, stopped performing publicly in the mid-1970s, resumed in 1985, was brought to Paris by promoter Jose da Silva, gained attention with La Diva aux pieds nus (1988), won widespread popularity with Miss perfumado (1992) and an international tour, won a 2003 Grammy for Voz d'amor, and released a final 2010 album of duets with musicians from more than 15 countries. Short general-encyclopedia entry; it attributes her break to 'financial and personal issues' and the 1970s turmoil, which are not used here.",
+      "url": "https://www.britannica.com/biography/Cesaria-Evora"
+    },
+    {
+      "id": "src_evora_gale",
+      "kind": "biography",
+      "title": "Ed Decker, 'Evora, Cesaria 1941-', Contemporary Black Biography (Gale, via Encyclopedia.com), read in full (about 30,000 characters including references): her repertoire of songs by Cape Verdean songwriters, her own remarks on singing for ships and tourists and on recording in France because she found no help at home, the 1960s radio tapes, the break in public singing in the 1970s, the 1985 return, the Lusafrica recordings, the 1995 US tour and critics' reviews (Washington Post, New York Times, Village Voice quoted), and her accompanist Luis Morais. Compiled from 1990s press and record-company publicity material, so partly promotional; the pieces on her personal life, drinking and marriages are not used.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/music-popular-and-jazz-biographies/cesaria-evora"
+    },
+    {
+      "id": "src_evora_ips",
+      "kind": "press",
+      "title": "A. D. McKenzie, 'Cesaria Evora - Cape Verde's Barefoot Diva Wows Europe', Inter Press Service, 3 June 1997, read in full (about 9,000 characters): a Brussels concert and dressing-room interview, her description of herself as an interpreter who does not write her own lyrics, her uncle B. Leza as composer, her accompanist Luis Morais, the 1988 and 1992 records, the world tour, Brazilian musicians welcoming her and her choice to move her warm-up from liquor to coffee. News feature written during her career; sympathetic and partly drawn from her own words.",
+      "url": "https://www.ipsnews.net/?p=88007"
+    },
+    {
+      "id": "src_evora_npr",
+      "kind": "press",
+      "title": "Daoud Tyler-Ameen, 'Cesaria Evora, Grammy-Winning Cape Verdean Singer, Has Died', NPR (17 December 2011, copy on KASU), read in full: perhaps the most widely known performer of morna, singing professionally as a teenager as the only woman in a group touring the islands, not gaining international attention until the late 1980s, a Grammy for Voz d'Amor, and 2007 interview remarks on how she began and on her homeland. Short broadcaster obituary; notes the Grammy year as 2004 where the Grammy site and Britannica say the 2003 awards.",
+      "url": "https://www.kasu.org/2011-12-17/cesaria-evora-grammy-winning-cape-verdean-singer-has-died"
+    },
+    {
+      "id": "src_evora_ap",
+      "kind": "press",
+      "title": "Barry Hatton, 'Grammy-winning Barefoot Diva Cesaria Evora dies at 70', Associated Press (17 December 2011, copy on Global News), read in full: her start in Mindelo's waterfront bars, the 1988 album that launched her international career, the 1995 album Cesaria released in more than a dozen countries, the Grammy for Voz d'Amor, her description of morna to the AP in 2000, her return to Mindelo whenever she could and her retirement. Wire obituary; includes Le Monde's 1991 praise.",
+      "url": "https://globalnews.ca/news/190619/grammy-winning-barefoot-diva-cesaria-evora-dies-at-70/"
+    },
+    {
+      "id": "src_evora_afp",
+      "kind": "press",
+      "title": "Abdul Ahad, 'Cape Verde's barefoot diva Cesaria Evora dies', Agence France-Presse (17 December 2011, copy on Business Recorder), read in full: 10 studio albums and an anthology of radio recordings, her success from 1992 and a punishing schedule of world concerts, her 2004 Grammy, the 2008 stroke after a Melbourne concert and a 2009 album, the 2010 French decoration, her 2011 Paris concert and retirement, and tributes by Cape Verde's president and prime minister. Wire obituary by a different agency from the AP one; it also carries sensational personal detail (alcohol, poverty) that is not used here.",
+      "url": "https://www.brecorder.com/news/39185"
+    },
+    {
+      "id": "src_evora_grammy",
+      "kind": "award_body",
+      "title": "Recording Academy, 'Cesaria Evora Dies' (grammy.com news, 2011 item), read in full: GRAMMY-winning world music artist, morna described, 1988 debut international album La Diva Aux Pieds Nus recorded in Paris, three more albums in France through 1992, first large-scale US tour in 1995, and a Grammy for Best Contemporary World Music Album for Voz D'Amor. Very short award-body obituary used for the awards facts only.",
+      "url": "https://www.grammy.com/news/cesaria-evora-dies/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_evora_gale, src_evora_britannica, src_evora_afp, src_evora_ap | 1950s-2011 | biographical entries + wire obituaries] She sang professionally from her teens in Mindelo's bars and across the islands, returned to singing in 1985 after a break in public performance that Britannica and Gale both date to the 1970s, and from 1992 kept a heavy international concert schedule, with AFP describing a punishing schedule and a Melbourne concert in 2008 and a Paris concert in 2011 shortly before she retired. The documented stop of roughly a decade is why the impact is dual-edged. No account of her reasons beyond her own remark that she was making no money was used."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_evora_gale, src_evora_ap, src_evora_ips, src_evora_britannica | 1950s-2010 | biographical entries + wire obituary + news feature] She moved from singing in tavern bars and to ships in Mindelo to recording in Paris from 1988 (in her own words because no one in Cape Verde could help), then to concert halls and festivals worldwide, singing in Creole to audiences who did not understand the language, and finishing with a 2010 album of duets with musicians from more than 15 countries. These are changes of setting and audience documented by journalists, with no account of how she handled them, so the row is low-confidence."
+    },
+    "collaboration": {
+      "score": 48,
+      "confidence": 0.34,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_evora_gale, src_evora_ips, src_evora_britannica | 1960s-2010 | biographical entries + news feature] Her long-time accompanist Luis Morais, a repertoire built on songs by her uncle B. Leza and other Cape Verdean songwriters, and the 2010 duets album made with musicians from more than 15 countries are documented. She described herself to IPS as foremost an interpreter. None of these sources describes how she worked with the others, so this is a thin, indirect row. SELF-CALIBRATION (agent): reviewed as a top-risk row (weak behavioural specificity, indirect inference); lowered from 54 / 0.38 to 48 / 0.34 because the sources list the collaborators but say nothing of her own conduct in them."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "세자리아 에보라"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/cesaria-evora-tanaka-2008.jpg",
+    "width": 803,
+    "height": 1200,
+    "source": "Photograph of Cesaria Evora performing at the Virada Cultural in Sao Paulo on 26 April 2008, credited 'Foto: Silvio Tanaka' on the Flickr account 'As fotos da Virada!' (account name Expansao Cultural), which published it under a Creative Commons Attribution-ShareAlike 2.0 licence. The live Flickr photo page (checked 2026-10-30) shows the licence as CC BY-SA 2.0 on the photo itself, the account name and the photographer credit; the Wikimedia Commons file carries the same licence with an automated Flickr licence-review pass (2015). The camera data in the file (Nikon D80) is consistent with an event photographer. The licensor is the event's account, with the named photographer credited in the description; no statement from the photographer was found. Original 2592 x 3872 pixels, downscaled to 803 x 1200 with no cropping and no upscaling. Share-alike applies to adaptations of this image.",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Silvio Tanaka / As fotos da Virada!, 2008, CC BY-SA 2.0, via Flickr",
+    "attributionUrl": "https://www.flickr.com/photos/viradacultural2008/2457851527/",
+    "creator": "Silvio Tanaka (credited); published by As fotos da Virada!",
+    "date": "2008-04-26",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ces%C3%A1ria_%C3%89vora_(2457851527).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / confirmed found: the live Flickr page shows CC BY-SA 2.0 at photo level (no conflicting account-level licence seen), the photographer credit 'Foto: Silvio Tanaka', the account 'As fotos da Virada!' and the date 2008-04-26; Commons carries the same licence with an automated licence-review pass. Caveat recorded: the licence is stated by the event account, not by the credited photographer, and I found no statement from Tanaka; share-alike must be carried by any adaptation. The alternative Commons image (Bremond, own work, CC BY 3.0, 650 x 1096, 2009) was viewed and not used. PREFLIGHT: QID VERIFIED LIVE (2026-10-28) Q103759 label 'Cesária Évora', description 'Cape Verdean singer-songwriter (1941-2011)', born 1941-08-27, died 2011-12-17; matches the lead. Not in prod59.txt; no existing candidate for the slug or QID. REGION sub_saharan_africa (Cape Verde), following the repo precedent of amilcar-cabral (Guinea-Bissau/Cape Verde) in that region. ZERO POLITICS: primary identity is a singer; the 1970s independence turmoil and official honours are not scored. VOCABULARY: occupation singer, field music, tag late_recognition, archetype creative_creator have EN and KO labels (songwriter is unlabeled so not used). Korean name 세자리아 에보라 (Korean Wikipedia and Wikidata). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Cesaria Evora' (https://www.britannica.com/biography/Cesaria-Evora). READ IN FULL: Britannica, Gale Contemporary Black Biography (Encyclopedia.com), IPS 1997 feature, NPR obituary, AP obituary, AFP obituary, Grammy.com obituary. PERSPECTIVES: general encyclopedia, a 1990s biographical compilation quoting critics, a feature written on tour, and three 2011 wire or broadcaster obituaries from different agencies (AP, AFP, NPR), plus the Recording Academy. COUNTER-VOICES: none adversarial exist in what could be read; the sources disagree on the Grammy year (2003 versus 2004), on whether she was raised in an orphanage or by her mother and grandmother, on her father's instrument, and on the origin of the 'barefoot' nickname (Gale says some accounts credit a refusal to wear shoes in Paris, and she said it came from the album title), and a 'symbol of poor women' reading of her bare feet is presented only as something that has been said. No row relies on these. NOT OPENED: Guardian, BBC, New York Times, Independent and Telegraph obituaries (not found or blocked), World Music Central, Infopedia and AllMusic (bot walls), her Wikipedia page, her Le Monde interviews, any scholarly study of morna. EXCLUSIONS (brief rule: score only documented professional behaviour): her poverty, drinking and giving up alcohol, smoking, marriages, family, orphanage, health, strokes, surgeries, retirement reasons and death are not scored or used for inference; the gap in her public singing is recorded as a professional fact only. SPARSE PROFILE: three rows, none above 62, confidence 0.34-0.45; no padding. SOURCE COUNT: seven substantive sources plus Wikidata, but all are encyclopedia entries or news pieces, no scholarly or insider account of her working methods, hence the low confidence. SELF-CALIBRATION (agent): rows reviewed as top risk: collaboration (54/0.38 lowered to 48/0.34: the sources list collaborators but say nothing about her conduct), persistence (62/0.45 kept: documented across several sources and already dual-edged), adaptability (56/0.40 kept). HANDBACK59: {\"slug\":\"cesaria-evora\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":3,\"self_calibrated_rows\":[{\"attribute\":\"collaboration\",\"old_score\":54,\"old_confidence\":0.38,\"new_score\":48,\"new_confidence\":0.34,\"reason\":\"sources list collaborators but say nothing about her own conduct in collaborating\"}],\"reviewed_kept\":[\"persistence\",\"adaptability\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":3}"
+  }
+}
