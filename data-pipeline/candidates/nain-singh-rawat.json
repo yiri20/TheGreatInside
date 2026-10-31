@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nain-singh-rawat",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Nain Singh Rawat",
+    "aliases": [
+      "Nain Singh",
+      "Pundit Nain Singh",
+      "Nain Singh Rawat Pundit No. 1",
+      "Chief Pundit"
+    ],
+    "wikidataId": "Q1394526",
+    "birthYear": 1830,
+    "deathYear": 1882,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia",
+    "historicalPolityKey": "polity.british_raj"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "teacher"
+    ],
+    "fieldIds": [
+      "exploration",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nain_wikidata",
+      "kind": "wikidata",
+      "title": "Nain Singh Rawat (Q1394526), verified live via the Wikidata API (2026-10-31): label 'Nain Singh Rawat', description 'Pundit who explored the Himalayas for the British', born 1830-10-21, died 1882-02, no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1394526"
+    },
+    {
+      "id": "src_nain_pathak",
+      "kind": "biography",
+      "title": "Shekhar Pathak, 'Pundit Nain Singh Rawat: Explorer Extraordinaire', The Himalayan Journal 72 (2017) (read in full). CANONICAL SIGNIFICANCE SOURCE: by his biographer, drawing on Nain Singh's diaries; describes his path from trader and schoolmaster to Survey of India surveyor, the expeditions of 1865-66, 1867, 1873 and 1874-75, the Lhasa stays, his Hindi surveying primer, and the Royal Geographical Society's honours, quoting Henry Yule's 1877 remarks. Admiring in tone; family and private details in the article are not used.",
+      "url": "https://www.himalayanclub.org/hj/72/2/pundit-nain-singh-rawat-explorer-extraordinaire/"
+    },
+    {
+      "id": "src_nain_ward",
+      "kind": "press",
+      "title": "Michael Ward, 'The Survey of India and the Pundits: The Secret Exploration of the Himalaya and Central Asia', Alpine Journal 1998, pp. 59-79 (read the Nain Singh sections in full): a mountaineering-history account of Montgomerie's recruitment and training of the pundits and Nain Singh's missions of 1865-66, 1867 and 1874-75, including the survey distances, the disguises and the river measurements. Secondary account that appears to draw on Derek Waller's 'The Pundits' (not opened).",
+      "url": "https://www.alpinejournal.org.uk/Contents/Contents_1998_files/AJ%201998%2059-79%20Ward%20Pundits.pdf"
+    },
+    {
+      "id": "src_nain_himal",
+      "kind": "press",
+      "title": "Amish Raj Mulmi, review essay on Deepa Anappara's 'The Last of Earth' and the pundit explorers, Himal Southasian, 31 July 2026 (the open-access opening was read; the rest is behind a free sign-up and was not read): says Montgomerie recruited 'Asiatics' to travel without molestation outside the Empire, that at least 21 pundits made more than 50 expeditions between 1863 and 1899 for 15 to 50 rupees a month, and that the work belonged to imperial expansion, which is why Tibet and Nepal guarded their borders. Used as the critical and contextual voice.",
+      "url": "https://www.himalmag.com/deepa-anappara-himalaya-tibet-pundit-explorers/"
+    },
+    {
+      "id": "src_nain_prgs",
+      "kind": "archive",
+      "title": "Internet Archive catalogue record 'Presentation of Royal and other Awards (Nain Singh) from PRGSv21' (Proceedings of the Royal Geographical Society, vol. 21, 1877): only the catalogue record was read to confirm the 1877 awards item; the page scan has no machine-readable text and its content was not read, so the speech is taken only as quoted by Pathak.",
+      "url": "https://archive.org/details/dli.pahar.0863"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nain_pathak, src_nain_ward | 1865-1875 | biography drawing on his diaries + mountaineering-history account] Pathak and Ward both describe him turned back at Kyirong in 1865 and carrying on alone by another route after the merchant he was to accompany reneged, then making a second survey in 1867 and a third mission from Leh to Lhasa and Assam in 1874-75; Ward says he did nearly ten years of rigorous and dangerous work and a last survey of some 1,300 miles. The repeated missions and the 1865 recovery are documented in two accounts that likely share sources (Montgomerie's reports and his diaries), so confidence is held below 0.6."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_nain_himal, src_nain_pathak, src_nain_ward | 1865-1875 | critical essay + biography + mountaineering account] Himal says that to reach Lhasa he signed a declaration that if found in Lhasa within the year he would lose his life; Pathak says he travelled disguised in a forbidden country and left Lhasa quickly when recognised; Ward calls the pundits' work bold and dangerous. Dual-edged because the risk was taken on salaried survey duty for the Survey of India and the dangers were real. SELF-CALIBRATION (agent): reviewed as a top-risk row and lowered from 68 / 0.52 to 64 / 0.46 because the clearest danger evidence (the declaration, the disguises) comes from his own diaries and Montgomerie's reports as relayed by admiring or secondary writers, and the Himal essay was only partly read."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nain_ward, src_nain_pathak | 1865-1875 | mountaineering account + biography] Ward says that when his funds ran out in Lhasa he supported himself by teaching, that he travelled disguised as a Ladakhi merchant and later as a lama, that on leaving Lhasa in 1874 he doubled back to mislead pursuers, and that he estimated the Tsangpo's current by timing floating logs; Pathak independently describes the 1874 exit from Lhasa by a new route and the log-timing. The episodes are specific and appear in two accounts, but both rest on the same reports and diaries."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nain_ward, src_nain_pathak | 1863-1875 | mountaineering account + biography] Ward says pundits were trained to count 2,000 paces to the mile with a modified rosary and tested on a known route before being sent out, and that Nain Singh's reports covered route surveys, the course of the Tsangpo and climatic and topographical details; Pathak says he noted temperature, latitude, longitude and altitude at places he passed, kept diaries and wrote them up from scraps of notes, and that his diaries show commitment to collecting hard data. The measurement discipline was largely a product of Survey training, so the row is moderate."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nain_pathak, src_nain_ward | 1851-1875 | biography + mountaineering account] Pathak traces a move from trading to carrying for the Schlagintweit expedition, learning map-making and instrument use from them, to a schoolmaster's post and then to Survey of India training and field surveying, and later to teaching surveying; Ward says he became fluent in Tibetan and in Tibetan customs through trade. The changes of work are documented, but how he handled each is mostly told in admiring terms."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "나인 싱 라와트"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. Wikidata's 'NainSingh.gif' (236 x 306) and 'Nain-singh.jpg' on Commons have an unknown author, no date, sources that are a PBS page and a blog, and only a generic old-work public-domain tag. A photograph at the Bibliothèque nationale de France (Société de Géographie, SG PORTRAIT-230, catalogued 1850-1869, showing Nain Singh and Kishen Singh with a lama and a dog) is tagged public domain on Commons, but the BnF's Gallica record itself says 'restricted use (convention Société de géographie)' and the photographer is unknown, so the Commons tag conflicts with the institutional notice. Next step: obtain a reproduction with a stated licence from the Royal Geographical Society picture library, the Survey of India or the BnF (written terms for the Société de Géographie item), or find a pre-1931 book or journal plate with an identified caption and publication year (for example a plate in the Geographical Journal or the Proceedings of the Royal Geographical Society). Kind, if resolved: likeness."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed: HELD. The Wikidata image 'NainSingh.gif' (236 x 306) and its sibling 'Nain-singh.jpg' on Commons have author 'unknown', no date and a generic old-work public-domain tag; their sources are a PBS Frontline page and a blog, so there is no item-level creator, date or publication. A better lead was found: a photograph held by the Bibliothèque nationale de France, Société de Géographie, 'SG PORTRAIT-230' (Gallica ark btv1b84501743, catalogued as showing Nain Singh and Kishen Singh with a lama and a dog, dated 1850-1869 by the cataloguer, 2553 x 3566 on Commons), which Commons tags PD-France / PD-old-assumed. But the BnF's own Gallica record states 'restricted use (convention Société de géographie)', the photographer is unknown and the date is only a range, so this is exactly a Commons PD tag conflicting with the institutional notice and is rejected. Commons maps from Reclus's 'The Earth and Its Inhabitants' show routes only. The 1877 RGS presentation record on the Internet Archive has no readable text or plate. Bounded retry used; PORTRAIT HELD (see portrait.reason). PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q1394526 label 'Nain Singh Rawat', description 'Pundit who explored the Himalayas for the British', born 1830-10-21, died 1882-02 (Wikipedia notes the dates are tentative and the death date rests on Edmund Smyth's 1882 obituary; Pathak says Survey of India records give 1895, and the repository uses the Wikidata values). No Korean label on Wikidata; the Korean display name is a transliteration. No production or candidate slug/QID collision (grepped prod60.txt and data-pipeline/candidates). REGION south_asia; ERA 19th_century; nationality IN and historical polity British Raj, following the repository precedent for British India figures. ZERO POLITICS: the primary identity is surveyor and explorer on salaried Survey of India duty; the intelligence and imperial context is stated as context and nothing political is scored. VOCABULARY: occupations explorer, teacher; fields exploration, education; tags explorer, field_researcher; archetype scientific_explorer; impact domains scientific, historical; all grepped in en.ts and ko.ts. CANONICAL SIGNIFICANCE SOURCE: Shekhar Pathak, 'Pundit Nain Singh Rawat: Explorer Extraordinaire', Himalayan Journal 72 (https://www.himalayanclub.org/hj/72/2/pundit-nain-singh-rawat-explorer-extraordinaire/), together with Michael Ward's Alpine Journal account. READ IN FULL: Pathak; Ward's Nain Singh sections. READ IN PART: the Himal Southasian essay (open-access opening only). Catalogue record only: the 1877 RGS awards item on the Internet Archive. PERSPECTIVES: biographer working from his diaries, mountaineering-history writer, critical Southasian essayist, an archival catalogue record. COUNTER-VOICES: the Himal essay on pundits as instruments of imperial expansion paid 15-50 rupees a month; Pathak's own remark that the colonial rulers did not want to make him a hero and that he received his awards in absentia. SELF-REPORT AND INSTITUTIONAL SEPARATION: everything about the missions comes from Montgomerie's Survey reports and Nain Singh's diaries, which reach this profile only through Pathak, Ward and Himal; none of the original reports (Montgomerie 1868, 1869; Trotter 1876) was opened, and Waller's 'The Pundits' was not opened; the rows say so and confidence is capped. EXCLUSIONS: family, marriage and private-life details in Pathak's article are not used; his illness and death are not used. KO NAME: no Wikidata Korean label; 나인 싱 라와트 is a transliteration of Nain Singh Rawat, recorded as such. SELF-CALIBRATION (agent): top-risk rows reviewed: risk_tolerance (68/0.52 lowered to 64/0.46), persistence (kept), resourcefulness (kept). HANDBACK60: {\"slug\": \"nain-singh-rawat\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"risk_tolerance\", \"old_score\": 68, \"old_confidence\": 0.52, \"new_score\": 64, \"new_confidence\": 0.46, \"reason\": \"the clearest danger evidence (the declaration, the disguises) comes from his own diaries and Survey reports relayed by admiring or secondary writers, and the Himal essay was only partly read\"}], \"reviewed_kept\": [\"persistence\", \"resourcefulness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

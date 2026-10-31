@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kip-keino",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kip Keino",
+    "aliases": [
+      "Kipchoge Keino",
+      "Hezekiah Kipchoge Keino"
+    ],
+    "wikidataId": "Q28947",
+    "birthYear": 1940,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "KE"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence",
+      "administrator"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_keino_wikidata",
+      "kind": "wikidata",
+      "title": "Kip Keino (Q28947), verified live via the Wikidata API (2026-10-31): label 'Kip Keino', description 'Kenyan athlete', born 17 January 1940, no death date, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q28947"
+    },
+    {
+      "id": "src_keino_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Kipchoge Keino', fetched for orientation (dates, Olympedia id). Orientation only; never counted as support for any row.",
+      "url": "https://en.wikipedia.org/wiki/Kipchoge_Keino"
+    },
+    {
+      "id": "src_keino_olympedia",
+      "kind": "archive",
+      "title": "Olympedia, 'Kip Keino' athlete biography, read in full: states he was the first great Kenyan middle- or long-distance runner and inspired many fellow countrymen; lists his 1962-1973 career, world records (3,000 m 7:39.6 and 5,000 m 13:24.2 in 1965), 1968 and 1972 Olympic results (two golds, two silvers), his charitable foundation for orphans, his role as president of the Kenyan Olympic Committee, the 1996 World Sports Humanitarian Hall of Fame and 2012 IAAF Hall of Fame inductions and the first Olympic Laurel in 2016. CANONICAL SIGNIFICANCE SOURCE: the standard Olympic results archive and biography. Concise, favourable, written by the archive's editors.",
+      "url": "https://www.olympedia.org/athletes/72762"
+    },
+    {
+      "id": "src_keino_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Kip Keino', read in full: Kenyan distance runner with four Olympic medals; 1965 world records at 3,000 m and 5,000 m; the 1968 1,500 m in which he and teammate Ben Jipcho set a furious pace to negate Jim Ryun's finishing kick and won by 20 m; the 1972 steeplechase gold and 1,500 m silver; that he and his wife took in more than 100 orphaned children; later president of the National Olympic Committee of Kenya. Reference article; the health details in it were not used.",
+      "url": "https://www.britannica.com/biography/Kip-Keino"
+    },
+    {
+      "id": "src_keino_bristol",
+      "kind": "institution",
+      "title": "University of Bristol, honorary degree citation for Kipchoge Keino (Doctor of Laws, 17 July 2007; orator Bob Reeves), read in full: an institution's account of his career, the 1968 pacing tactic against Ryun, the 1972 steeplechase win in an event he had rarely run, retirement in 1973, the farm, primary school and orphanage in Eldoret, his Olympic Committee chairmanship and a Bristol-Kenya schools project; quotes him naming the orphanage as his proudest achievement. Ceremonial and admiring; the orator's information partly came from the subject, so it is not fully independent.",
+      "url": "https://www.bristol.ac.uk/alumni/our-alumni/honorary-degrees/honorary-graduates/2007/keino.html"
+    },
+    {
+      "id": "src_keino_si",
+      "kind": "press",
+      "title": "Sports Illustrated, 'They're All My Children' (21 December 1987), read in full via the Internet Archive copy: on-site magazine profile of the Keinos' Kazi Mingi farm near Eldoret, where 29 orphans then lived, more than 100 children had been housed over 23 years, the family ran a sporting-goods shop as main income, paid school fees, and said they did not beg for donations. Independent journalism on the observed work; the family's statements are first-hand and the tone is admiring. The 1987 date predates later developments.",
+      "url": "https://web.archive.org/web/20221204222755/https://vault.si.com/vault/1987/12/21/theyre-all-my-children-kip-keino"
+    },
+    {
+      "id": "src_keino_athleticsafrica",
+      "kind": "award_body",
+      "title": "AthleticsAfrica republication of the IAAF announcement 'Kenya's Keino set for IAAF Hall of Fame Induction' (2 July 2012), read in full: the federation's account of the 1968 1,500 m front-running win in an Olympic record 3:34.91, the 1972 decision to take on the steeplechase despite little experience over the barriers, the 1,500 m silver and its president's tribute to his work building schools, an orphanage and an elite training facility. Federation press release, favourable by nature.",
+      "url": "https://athletics.africa/a/articles/174/2012/07/02/kenyas_keino_set_iaaf_hall_fame_induction.html"
+    },
+    {
+      "id": "src_keino_classic",
+      "kind": "institution",
+      "title": "Absa Kip Keino Classic event site, 'Kip Keino: Trailblazing legend who opened the floodgates' (16 July 2020), read in full: a profile compiled for the athletics meeting named after him; it lists his leadership posts (president of the National Olympic Committee of Kenya 1999-2017, IOC member 2000-2010, IOC commissions, chef de mission at the 1994 Commonwealth Games and 1996 Olympics), coaching of Kenyan teams in 1976 and 1984, and his records and honours. Event-promotion profile bearing his name, so partly self-affiliated; used only for dated roles and results, and it differs from Britannica on details of the 1965 records, which were not used from it.",
+      "url": "https://kipkeinoclassic.co.ke/media/news/kip-keino-trailblazing-legend-who-opened-the-floodgates"
+    },
+    {
+      "id": "src_keino_standard",
+      "kind": "press",
+      "title": "Kimathi Kamau, 'Kip made his name in 1968 Mexico Games', The Standard (Kenya), 12 March 2017, read in full: Kenyan press retrospective of the 1968 Games (the 20 m margin over Ryun), the 1972 steeplechase win and the later children's home and schools. It repeats the popular account and contains errors that conflict with Britannica and Olympedia (record details), so it is used only for the corroborating outline.",
+      "url": "https://standardmedia.co.ke/amp/article/2001232370/kip-made-his-name-in-1968-mexico-games"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_keino_olympedia, src_keino_britannica, src_keino_si, src_keino_bristol | 1962-1987 and later | archive + encyclopedia + magazine + university citation] Olympedia traces an international career from the 1962 Commonwealth Games (11th) and a fifth place at the 1964 Olympics to world records in 1965, Commonwealth titles in 1966 and 1970 and two Olympic golds and two silvers by 1972. After retiring in 1973 he and his wife kept housing orphans: Sports Illustrated counted more than 100 children over 23 years in 1987, and the Bristol citation and Olympedia show the work continuing into schools and a foundation. Sustained effort is documented in two separate fields over decades. The sources are largely admiring, and no adversarial source was found, so confidence stays moderate. Health episodes at the 1968 Games were deliberately not used. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 70 / 0.62 to 68 / 0.58 because the training and comeback details come mostly from retrospective profiles and his own accounts."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_keino_si, src_keino_bristol, src_keino_athleticsafrica, src_keino_olympedia | 1964-2012 | magazine reportage + university citation + federation release + archive] Sports Illustrated reported in 1987 that the Keinos took in every child sent to them, paid for boarding school at about 300 dollars a child and funded it through a shop and farm, and said they did not like to beg; Bristol and Olympedia record a later primary school, a secondary school and a charitable foundation, and the IAAF release credits schools, an orphanage and an elite training facility. The Bristol orator quotes him naming the orphanage as his proudest achievement (a self-report passed on by an admiring writer). Behaviour is observed by an independent magazine writer in 1987 and corroborated decades later by institutions, so this is documented, but the later sources are admiring. RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 74 / 0.64 to 72 / 0.58 because the Children Home and Foundation evidence comes from affiliated event pages and one 1987 magazine profile; no independent source assesses his motive or the institutional outcomes."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_keino_britannica, src_keino_bristol, src_keino_athleticsafrica | 1968 | encyclopedia + university citation + federation release] Britannica, the Bristol citation and the IAAF release all describe the 1968 1,500 m as a deliberately fast, front-running race meant to blunt the American favourite Jim Ryun's finishing kick (Britannica adds that teammate Ben Jipcho helped set the pace), ending in a 20 m win and an Olympic record. A tactical plan tied to a known rival is documented, but it is one race, the three accounts retell one event, and none reports his own explanation."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_keino_athleticsafrica, src_keino_bristol, src_keino_olympedia | 1972 | federation release + university citation + archive] At the 1972 Games he entered the 3,000 m steeplechase, an event the IAAF release says he had little experience over the barriers in and Bristol says he had rarely run, and won the gold after a sprint finish with compatriot Ben Jipcho, while also winning the 1,500 m silver days later. Taking an untested event at a major Games is documented; the outcome was a win, so the evidence says little about how he handled risks that failed, hence dual_edged and moderate confidence."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_keino_classic, src_keino_olympedia, src_keino_bristol | 1982-2017 | event-site profile + archive + university citation] The profile bearing his name lists his posts as president of the National Olympic Committee of Kenya from 1999 to 2017, IOC commissions from 1982, chef de mission of Kenya's team at the 1994 Commonwealth Games and 1996 Olympics, and coaching of Kenyan teams in 1976 and 1984; Olympedia and Bristol confirm the Olympic Committee role. Long-held sports-administration posts are documented, but the detailed list comes from a self-affiliated source, the sources say nothing about how he led, and controversies reported around the Kenyan Olympic delegation in 2016 are allegation-level matters excluded from scoring under the living-subject rule. SELF-CALIBRATION (agent): lowered from 66 / 0.55 because the detailed record rests on a self-affiliated event profile and no independent source describes his conduct in office."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "킵 케이노"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / confirmed: Commons file '14-01-10-tbh-012-kipchoge-keino.jpg' is Ralf Roletschek's own work (identified photographer), taken 10 January 2014 at the Thomas Bach birthday reception in Tauberbischofsheim, licensed GFDL and CC BY 3.0, original 3524 x 4744, marked Quality image; no conflicting institutional notice. Downscaled to 891 x 1200, no cropping.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) for Q28947 returned en label 'Kip Keino', description 'Kenyan athlete', born 1940-01-17, no death date, ko label present. SLUG/QID CHECK: not in the production list (prod60.txt) and no existing candidate file. Region sub_saharan_africa (Kenya). Zero-politics passes: primary identity is athletics; his Olympic Committee presidency is sports administration and any political appointments or honours are unscored. LIVING SUBJECT: only public professional behaviour is scored; his health during the 1968 Games (reported in all sources), family and private life were not used for any trait, and the reported Rio 2016 Kenyan delegation investigation and charges (seen in search results only, never opened or used) are allegation-level and excluded.\nCANONICAL SIGNIFICANCE SOURCE: Olympedia, 'Kip Keino' https://www.olympedia.org/athletes/72762 (read in full).\nSOURCES READ (8 substantive): Olympedia, Britannica, University of Bristol honorary degree citation, Sports Illustrated 1987 profile (Internet Archive copy), IAAF Hall of Fame announcement via AthleticsAfrica, Kip Keino Classic profile, The Standard 2017; Wikipedia and Wikidata orientation only. PERSPECTIVES: results archive, encyclopedia, university, 1987 magazine reporter on site, athletics federation, Kenyan press. Non-self behavioural source: the Sports Illustrated reportage. COUNTER-VOICE: none found that was usable; the Kenyan press piece conflicts with Britannica/Olympedia on record details (not used), and the Rio-related reporting is allegation-level and excluded; this is why confidence stays <= 0.64. NOT OPENED: World Athletics profile page, olympics.com pages (timed out), Citizen Digital and Nation pieces (404 or not used), his own autobiography or interviews. Five rows only; no row above 74.\nSELECTIVE SELF-CALIBRATION: reviewed impact_motivation (highest score and admiring sources; kept, because the 1987 magazine reportage observed the behaviour and later institutions corroborate it) and leadership_drive (lowered 66/0.55 to 62/0.50: detailed record rests on a self-affiliated event profile). Initial rows 5; lowered 1.\nHANDBACK60: {\"slug\":\"kip-keino\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"leadership_drive\",\"old_score\":66,\"old_confidence\":0.55,\"new_score\":62,\"new_confidence\":0.5,\"reason\":\"detailed record rests on a self-affiliated event profile; no independent source describes his conduct in office\"}],\"reviewed_kept\":[\"impact_motivation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5} RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 74 / 0.64 to 72 / 0.58 because the Children Home and Foundation evidence comes from affiliated event pages and one 1987 magazine profile; no independent source assesses his motive or the institutional outcomes. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 70 / 0.62 to 68 / 0.58 because the training and comeback details come mostly from retrospective profiles and his own accounts."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kip-keino-roletschek-2014.jpg",
+    "width": 891,
+    "height": 1200,
+    "source": "Wikimedia Commons, '14-01-10-tbh-012-kipchoge-keino.jpg' -- Ralf Roletschek's own work, taken 10 January 2014 at a reception in Tauberbischofsheim; downscaled from 3524 x 4744 pixels to 891 x 1200 with no cropping",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Photo: Ralf Roletschek, 10 January 2014, CC BY 3.0, resized from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:14-01-10-tbh-012-kipchoge-keino.jpg",
+    "creator": "Ralf Roletschek",
+    "date": "2014-01-10",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:14-01-10-tbh-012-kipchoge-keino.jpg"
+  }
+}

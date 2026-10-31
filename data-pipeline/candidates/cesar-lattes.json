@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "cesar-lattes",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "César Lattes",
+    "aliases": [
+      "Cesar Lattes",
+      "Cesare Mansueto Giulio Lattes",
+      "C. M. G. Lattes"
+    ],
+    "wikidataId": "Q283146",
+    "birthYear": 1924,
+    "deathYear": 2005,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "scientist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lattes_wikidata",
+      "kind": "wikidata",
+      "title": "César Lattes (Q283146), verified live via the Wikidata API (2026-10-31): English label 'César Lattes', description 'Brazilian physicist, researcher and university teacher (1924-2005)', born 1924-07-11, died 2005-03-08, citizenship Brazil, no Korean label or Korean Wikipedia link, image 'César Lattes (1954).tif' (checked for the portrait only). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q283146"
+    },
+    {
+      "id": "src_lattes_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Césare Mansueto Giulio Lattes' (print version, revised March 2026; read in full). CANONICAL SIGNIFICANCE SOURCE: Brazilian physicist who, with Eugene Gardner at Berkeley in 1948, confirmed the existence of heavy and light mesons formed when carbon nuclei were bombarded with alpha particles; studied at the University of Sao Paulo with Giuseppe Occhialini and went with him to Bristol in 1946, where with Cecil Powell they showed the two meson types could be told apart by tracks on photographic plates exposed to cosmic rays in the Bolivian Andes; full professor at Sao Paulo in 1948; co-founded the Brazilian Center for Research in Physics in 1949 and was its scientific director until 1955; taught at Campinas from 1967. Short encyclopedia entry.",
+      "url": "https://www.britannica.com/biography/Cesare-Mansueto-Giulio-Lattes"
+    },
+    {
+      "id": "src_lattes_nobel",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Cecil Powell - Facts' (read; the lecture, biography and nominations pages were not opened): the 1950 Nobel Prize in Physics went to Powell alone, 'for his development of the photographic method of studying nuclear processes and his discoveries regarding mesons made with this method'; says that in 1947 he discovered that cosmic-ray particles could react with nuclei in the emulsion, creating short-lived particles that turned out to be pi-mesons. Names no co-discoverer. Award-body record of the prize, which is the basis for the attribution of the prize to Powell alone.",
+      "url": "https://www.nobelprize.org/prizes/physics/1950/powell/facts/"
+    },
+    {
+      "id": "src_lattes_fap_bigger",
+      "kind": "press",
+      "title": "Marcos Pivetta, 'The physicist who saw a bigger picture', Pesquisa FAPESP (English edition, issue 340, June 2024; read in full, family, health and anecdotal passages not used): centenary profile quoting several Brazilian historians of physics; says he proposed an improvement to nuclear emulsions, co-discovered the pion at Bristol in 1947, proposed the Bolivian mountain experiment to confirm the discovery, then at Berkeley in 1948 was the first to observe the pion made artificially in an accelerator; says Powell alone won the 1950 prize; says he helped found the Brazilian Center for Physics Research in 1949 and supported the creation of the national research council in 1951; says he began the Brazil-Japan Collaboration in 1962, studying cosmic rays for four decades mainly at a Bolivian laboratory, and moved to Campinas in 1967 after a disagreement over a chair at Sao Paulo; relates his 1980 public lecture challenging relativity, which a colleague says he later regretted. Science journalism with Brazilian historians, admiring but including critical remarks.",
+      "url": "https://revistapesquisa.fapesp.br/en/the-physicist-who-saw-a-bigger-picture/"
+    },
+    {
+      "id": "src_lattes_fap_major",
+      "kind": "press",
+      "title": "Marcos Pivetta, 'A major contribution', Pesquisa FAPESP (English edition, issue 340, June 2024; read in full): explains the pion in the context of Yukawa's 1934 prediction and the muon; says that on arriving in Bristol in 1946 Lattes asked Ilford to make plates with boron in the gelatin, that the Pic du Midi test of such plates (an idea attributed to him) showed two kinds of particles, that he proposed repeating it on Chacaltaya at about 5,500 metres, that a series of Nature articles confirmed the pi meson, and that at Berkeley's 184-inch cyclotron he saw meson tracks ten days after arriving, work attributed to him and Eugene Gardner; reports that the 1950 prize went to Powell alone, that Lattes was nominated seven times but not in 1950 per the Nobel archive, that Occhialini is also seen as overlooked, that a historian says the Nobel favours scientists from renowned institutions, that a rumoured Bohr letter has never been found, and that Lattes variously said he was glad not to win and that he was 'robbed twice'. Science journalism quoting historians and a former student.",
+      "url": "https://revistapesquisa.fapesp.br/en/a-major-contribution/"
+    },
+    {
+      "id": "src_lattes_bassalo",
+      "kind": "biography",
+      "title": "Jose Maria Filardo Bassalo, 'Editorial: Cesar Lattes', Caderno Brasileiro de Ensino de Fisica 22(1), April 2005 (Federal University of Santa Catarina, open access PDF; read in full): obituary-style editorial by a Brazilian physicist and historian of physics; says Lattes joined Powell's Bristol group in 1946 on Occhialini's recommendation, that nuclear emulsions with boron (his suggestion) and without were exposed at Pic du Midi and Chacaltaya where the pi meson was discovered, that he then went to Berkeley on a Rockefeller fellowship nominated by Wataghin and with Eugene Gardner and doctoral students produced pi mesons artificially in 1948-1949, that the discovery's repercussions led to the 1950 Nobel Prize for Powell, that back in Brazil he helped create the Brazilian Center for Physics Research, the national research council and a photographic-emulsion laboratory, organised the Brazil-Japan Collaboration in 1962 and led cosmic-ray work at Campinas; lists his honours. Obituary-style, admiring.",
+      "url": "https://periodicos.ufsc.br/index.php/fisica/article/download/6400/5926/19656"
+    },
+    {
+      "id": "src_lattes_cattani",
+      "kind": "biography",
+      "title": "M. S. D. Cattani and J. M. F. Bassalo, 'Cesar Lattes, a descoberta do meson pi e o Premio Nobel de Fisica de 1950' (University of Sao Paulo Institute of Physics memory portal, PDF; read in full): physicists' account in which Cattani, a former assistant of Lattes, reports Occhialini's 1982 oral recollection that the boron-treated emulsions followed Lattes's idea and a Bristol chemist's recipe, that the 1947 Nature papers were signed by Lattes with Powell, Occhialini and Muirhead and later by Powell, Lattes and Occhialini, that the particles' masses were calculated, that Lattes with Gardner produced pi+ and pi- mesons at Berkeley, that Lattes said the Nobel committee had considered Powell, Lattes and Gardner but Gardner's early death left only Powell, and Occhialini's own opinion about why Powell won alone. Oral-history style with explicit hearsay; its Nobel-committee claim is Lattes's own statement and is not confirmed by the prize record.",
+      "url": "https://portal.if.usp.br/memoria/sites/portal.if.usp.br.ifusp/files/Mauro_Cattani_TextoCesarLattes.pdf"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lattes_fap_major, src_lattes_bassalo, src_lattes_cattani, src_lattes_britannica | 1946-1948 | science journalism with historians + physicist obituary editorial + physicists' memoir + encyclopedia] After arriving at Bristol he had boron added to the emulsion gelatin to keep tracks longer, the boron plates were exposed at Pic du Midi (idea attributed to him), he proposed repeating the exposure at about 5,500 metres on Chacaltaya, and at Berkeley he saw meson tracks ten days after arrival, work attributed to him and Gardner; Britannica independently describes the Bolivian-mountain plates and the Berkeley confirmation. The experimental sequence is consistent across four sources, but credit for each step comes mostly from Brazilian admiring accounts and one oral recollection, and the work was a group effort with Powell and Occhialini."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lattes_fap_major, src_lattes_bassalo, src_lattes_cattani, src_lattes_nobel | 1946-1949 | science journalism + physicist editorial + physicists' memoir + award body] Sources attribute to him the idea of boron-treated emulsions and the idea that the new particles could be produced artificially in an accelerator, which he then tested at Berkeley. The Nobel citation, however, credits Powell with developing the photographic method. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.50 to 62 / 0.46 because credit for the boron idea comes from Brazilian admiring accounts and one oral recollection of Occhialini, while the award body credits the method to Powell."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lattes_fap_bigger, src_lattes_fap_major, src_lattes_bassalo | 1946-1948 | science journalism + physicist editorial] He went to Bristol in 1946 on Occhialini's invitation, proposed the high-altitude Bolivian expedition himself, and afterwards, wanting to make the new particles artificially, went to Berkeley's new accelerator on a Rockefeller fellowship nominated by his USP professor. He moved toward the laboratories where the question could be answered. Sources are admiring and the early-career initiative is described rather than examined."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lattes_fap_bigger, src_lattes_bassalo, src_lattes_britannica | 1962-1986 | science journalism + physicist editorial + encyclopedia] He started the Brazil-Japan Collaboration in 1962, which studied cosmic rays for four decades mainly at a Bolivian mountain laboratory, carried the collaboration to Campinas in 1967 and led cosmic-ray work there until retiring in 1986; FAPESP notes cosmic rays were the field in which he began and ended his career. Long commitment to one programme, but the sources do not describe how he handled setbacks."
+    },
+    "leadership_drive": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lattes_britannica, src_lattes_fap_bigger, src_lattes_bassalo | 1949-1967 | encyclopedia + science journalism + physicist editorial] He co-founded the Brazilian Center for Physics Research in 1949 and served as its scientific director until 1955 (Britannica), helped create the national research council (FAPESP, Bassalo), set up a photographic-emulsion laboratory at Sao Paulo and organised the Brazil-Japan Collaboration. The political and military actors named alongside him in founding the centre and the research council are context and are not scored. Institution-building is well documented; his management style is not described."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lattes_britannica, src_lattes_bassalo, src_lattes_fap_major | 1946-1962 | encyclopedia + physicist editorial + science journalism] He worked within Powell's Bristol group with Occhialini and Muirhead, with Gardner and doctoral students at Berkeley, and led an international Brazil-Japan collaboration that included Japanese physicists; FAPESP's historians say he prioritised partnerships with South Americans and countries outside Europe and the USA, a reading that is retrospective. Joint authorship and group work are documented; his way of working with others is not."
+    },
+    "independent_thinking": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lattes_fap_bigger | 1980 | science journalism, single source] A colleague recalls that he was often a critic of theorists, and quotes an unpublished interview in which he said what matters is what can be detected; in 1980 he held a public conference at the research centre he had founded to challenge relativity and invited the press, and a colleague says he later regretted it after seeing that his measurements might have been affected by the equipment. The episode shows willingness to challenge the consensus in public, with a result that a colleague describes as mistaken, so the impact is recorded as dual-edged. One source; the remarks about Einstein's mental state in the newspaper quote are not used."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "세사르 라테스"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait found after one bounded retry. The Wikidata image 'César Lattes (1954).tif' and the other Commons photographs in the category (a 1949 Correio da Manhã photograph and an undated one) come from the Correio da Manhã collection of the Brazilian National Archives uploaded in a GLAM partnership; each Commons page lists the photographer as unknown and relies on the project's generic 'Arquivo Nacional PD-license' template (a Brazilian-term or URAA argument, and for the 1949 file a tag meant for Brazilian government works), with no item-level statement of publication, authorship or terms. A Brazilian-law public-domain argument is not a US rights basis for an unpublished or unattributed photograph, and publication in the newspaper is not shown. The Wellcome Collection catalogue search returned no Lattes image. Next step: ask the National Archives (SIAN record BR_RJANRIO_PH_0_FOT_28617), the CBPF or the University of Bristol Physics archive for an item-level credited photograph with stated reuse terms. Because the sitter was born in 1924, an age-based public-domain image is not available, so a licensed or permission-based image is needed."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / finding: HOLD after one bounded retry; the P18 TIFF is an Arquivo Nacional / Correio da Manhã photograph of 1954 with photographer unknown and only a generic GLAM PD template, and the two other Commons photographs have the same basis (details in portrait.reason). QID VERIFIED LIVE (2026-10-31): Q283146, label 'César Lattes', description 'Brazilian physicist, researcher and university teacher (1924-2005)', P569 1924-07-11, P570 2005-03-08, citizenship Brazil. No Korean label or Korean Wikipedia article exists, so the Korean display name is a TRANSLITERATION recorded as such (세사르 라테스, from the Spanish-Portuguese reading 'Cesar'). SLUG/QID CHECK: not in the production list and no data-pipeline/candidates/cesar-lattes.json existed; no Lattes or Powell candidate existed. REGION latin_america (Brazilian national, career in Brazil with Bristol and Berkeley periods); ERA 20th_century. ZERO POLITICS: passes (an experimental physicist; the political and military figures named in the founding of the research centre and council are unscored context). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Césare Mansueto Giulio Lattes' (https://www.britannica.com/biography/Cesare-Mansueto-Giulio-Lattes). EVIDENCE READ (curl/urllib to files, read locally): Britannica print entry (full), two Pesquisa FAPESP articles of June 2024 (full), the Bassalo editorial (full), the Cattani and Bassalo memoir (full), and the NobelPrize.org Powell facts page. NOT OPENED: the Royal Society memoir of Powell, Powell's Nobel lecture and the Nobel nomination archive (so the nomination counts come only through FAPESP), the Nature 1947 papers, Cassio Leite Vieira's biography (known only as cited by FAPESP), Gisela Mattos's work, Symmetry magazine (blocked), CBPF pages. INDEPENDENT PERSPECTIVES: (1) Britannica encyclopedia entry; (2) the Nobel prize body (the attribution to Powell); (3) Pesquisa FAPESP journalism with several Brazilian historians of science (Freire, Videira, Silva Neto, Tavares); (4) a Brazilian physicist-historian's obituary editorial; (5) USP physicists' memoir including Occhialini's recollection (oral, hearsay). NON-SELF BEHAVIOURAL sources: all of them; his own recollections are quoted only inside secondary articles and are not sole support for any row. COUNTER-VOICES AND CAVEATS: the Nobel record credits Powell alone with the photographic method and the mesons; FAPESP's historian says the prize favours renowned institutions and Occhialini is also seen as overlooked; the claim that the committee considered Powell, Lattes and Gardner is Lattes's own statement via Cattani and is not confirmed; a rumoured Bohr letter 'has never come to light' (FAPESP); Lattes gave contradictory statements about the Nobel Prize; his 1980 challenge to relativity was later regretted. CREDIT ATTRIBUTION: the discovery of the pion is stated as a joint 1947 result of Lattes, Powell, Occhialini and Muirhead, and the Nobel Prize as Powell's alone; 'first to observe the pion made artificially' appears only in FAPESP and Cattani and Bassalo (Britannica says he and Gardner 'confirmed' mesons at Berkeley), so cards avoid 'first' for the artificial pion and 'discoverer' without 'co-'. EXCLUDED ON PURPOSE (hard rule): his hospitalisations and the illness that two FAPESP passages describe (a clinical-sounding label offered by a historian), any link between his health and his career or output, the Einstein remark that referred to Einstein's mental state, his family, his private life, his wealth, his dog, honours as trait evidence, and the near-fatal flight anecdote. ROWS CONSIDERED AND LEFT UNSCORED: curiosity, analytical_rigor and mastery_orientation (no behavioural source examined his method); conflict_tolerance and social_assertiveness (the 1980 lecture is already used once, in the independent_thinking row); belief_updating (the regret is relayed by one colleague, thin). SPARSE PROFILE: seven rows, maximum 74, maximum confidence 0.60. MAJOR ACHIEVEMENT SELF-GATE: first pass PASS on primary contribution (co-discovery of the pion and the artificial pions at Berkeley), top omission (the CBPF founding is carded), identity, significance-over-novelty and side-project; nothing corrected; the Nobel Prize is stated accurately as Powell's alone. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (66/0.50 lowered to 62/0.46: credit for the boron idea rests on admiring Brazilian accounts and one oral recollection while the award body credits the method to Powell), experimentation (kept: the Chacaltaya and Berkeley experiments are described consistently by four sources including Britannica), proactive_agency (kept). HANDBACK60: {\"slug\": \"cesar-lattes\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 66, \"old_confidence\": 0.5, \"new_score\": 62, \"new_confidence\": 0.46, \"reason\": \"credit for the boron-emulsion idea rests on admiring Brazilian accounts and one oral recollection while the Nobel citation credits the photographic method to Powell\"}], \"reviewed_kept\": [\"experimentation\", \"proactive_agency\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  }
+}

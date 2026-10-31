@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kabir",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kabir",
+    "aliases": ["Kabir Das", "Kabeer", "Sant Kabir", "Bhagat Kabir"],
+    "wikidataId": "Q312551",
+    "birthYear": 1440,
+    "deathYear": 1518,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": ["IN"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["poet"],
+    "fieldIds": ["literature", "religion"],
+    "impactDomains": ["literary", "cultural"],
+    "tagIds": ["mystic", "nonconformist"],
+    "archetypeIds": ["independent_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kb_wikidata",
+      "kind": "wikidata",
+      "title": "Kabir (Q312551), verified live via the Wikidata API (2026-10-31): label 'Kabir', description '15th-century Indian mystic poet and saint', birth dates 1440 (also 1398 listed), died 1518, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q312551"
+    },
+    {
+      "id": "src_kb_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Kabir', fetched for orientation (names, dates, the corpus). Orientation only; never counted as a source for any row.",
+      "url": "https://en.wikipedia.org/wiki/Kabir"
+    },
+    {
+      "id": "src_kb_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Kabir' (Indian mystic and poet), read in full: states that his birth is shrouded in legend (1440, or 1398 by one tradition), that only two life facts are certain from the most reliably attributed poetry (he lived mostly in Banaras and was a weaver), that he was equally critical of Hindu and Muslim religious authorities and not simply a harmoniser, that his couplets (dohas) and songs (padas) circulate widely, and that the Kabir Panth draws especially on Dalits. CANONICAL SIGNIFICANCE SOURCE. Unsigned encyclopedia article.",
+      "url": "https://www.britannica.com/biography/Kabir-Indian-mystic-and-poet"
+    },
+    {
+      "id": "src_kb_vaudeville",
+      "kind": "biography",
+      "title": "Charlotte Vaudeville, 'Kabir', Encyclopedia of Religion (1987, revised bibliography), read in full via Encyclopedia.com: says the only certain fact is that he was born a low-caste Muslim weaver near Banaras, treats the stories of Sikandar Lodi and Ramananda as legendary biography, says he probably never wrote anything and no fully authoritative version of his words exists, describes the three recensions (the Guru Granth of about 1604, the Kabir Granthavali, the Bijak), and sets out his rejection of scriptural authority and of yogic exercises. Single-author scholarly entry; admiring in tone about his style.",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/hinduism-biographies/kabir"
+    },
+    {
+      "id": "src_kb_lorenzen",
+      "kind": "press",
+      "title": "SUNY Press publisher page for David N. Lorenzen, 'Kabir Legends and Ananta-Das's Kabir Parachai' (1991), read: the book description and reviewers' comments say it is the first systematic collection and analysis of the legends about Kabir, studies the earliest collection of legends (Ananta-das's Kabir Parachai), re-evaluates the chronological links with Ramananda and a king, and proposes a solution to the debate about his dates. The book itself was not opened; this is a publisher description, used only to separate legend from scholarship.",
+      "url": "https://sunypress.edu/Books/K/Kabir-Legends-and-Ananta-das-s-Kabir-Parachai"
+    },
+    {
+      "id": "src_kb_underhill",
+      "kind": "archive",
+      "title": "Evelyn Underhill, Introduction to 'Songs of Kabir' (translated by Rabindranath Tagore, 1915), Project Gutenberg text, introduction read: an early English-language account that says his story is surrounded by contradictory legends on which no reliance can be placed, describes him as a weaver who lived the ordinary life of a craftsman and was frank in his dislike of institutional religion. Published 1915 and admiring; it mixes legend with the poems, so it is used only as an early reception source, not to support rows.",
+      "url": "https://www.gutenberg.org/ebooks/6519"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kb_britannica, src_kb_vaudeville | undated, 15th century | encyclopedia + scholarly entry] Britannica says that in the poetry most reliably attributed to him he was equally critical of Hindu and Muslim religious authorities and ritual, and that the common picture of him as a harmoniser is less accurate than seeing him as critical of both. Vaudeville says the verses reject scriptural authority and yogic exercises and attack both brahman pandits and Muslim mullahs and qazis. Both are modern scholars reading the verse corpus; the attribution of individual verses is uncertain (the words were imitated and interpolated before they were written down) and nothing about his conduct beyond the verses is used. The legend of his persecution and of his initiation is not scored."
+    },
+    "creative_originality": {
+      "score": 54,
+      "confidence": 0.34,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kb_vaudeville, src_kb_britannica | undated | scholarly entry + encyclopedia] Vaudeville calls his terse, forceful style unique and says his words spread over a large area from Bihar to Punjab and Rajasthan; Britannica notes that couplets attributed to him are still in common use among speakers of North Indian languages. The judgement of originality rests mainly on one admiring entry, and because the corpus was imitated and interpolated, what is his own cannot be separated verse by verse. SELF-CALIBRATION (agent): lowered from 56 / 0.38 because the originality claim rests on one admiring scholarly entry and the corpus cannot be attributed verse by verse."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "카비르"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. The lead's Wikidata P18 'Kabir (postage stamp).jpg' is an India Post stamp image (derivative artwork): rejected. Old paintings of Kabir exist on Commons (a Pahari brush drawing of about 1790 at the Victoria and Albert Museum, IS.227-1951; a Mughal painting of the early 18th century at the British Museum, 1920,0917,0.29; a Mughal painting of 1625 at the National Museum, New Delhi, 79.444; an Amber album page sold at auction) and the works themselves are clearly old, but each has an institutional or conflicting reproduction notice: the V&A record lists the image copyright as '© Victoria and Albert Museum, London', the National Museum, New Delhi record carries only a site-wide 'Copyright 2020 All Rights Reserved' footer and no item-level statement, the British Museum image is not offered for unrestricted reuse, and the others are auction-house images. A generic Commons public-domain-art tag does not override those notices. Next step: find a depiction of Kabir in an open-access collection (for example the Met, Cleveland, Walters or Wellcome) whose item page states public-domain or CC0 terms, or obtain the museum's written terms."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / CONFIRMED HOLD after one bounded retry: the P18 is a stamp image; old depictions found on Commons all carry a conflicting museum or auction notice (V&A '© Victoria and Albert Museum' on the image asset; National Museum New Delhi item page with only a generic footer; British Museum; auction-house photos); see portrait.reason. PREFLIGHT: QID VERIFIED LIVE (2026-10-31): Q312551 label 'Kabir', description '15th-century Indian mystic poet and saint', Wikidata birth values 1440 (and 1398, 1440-01-01), died 1518; no collision in prod60 or data-pipeline/candidates. DATES: 1440-1518 as in Britannica and Wikidata, but birth is uncertain (one tradition says 1398) and Lorenzen proposes a solution to the dating debate that was not read; treat both years as approximate. REGION south_asia. ERA early_modern (consistent with Guru Nanak, b. 1469, and Alisher Navoi, b. 1441, in the candidate set). VOCABULARY: occupation poet; fields literature, religion; tags mystic, nonconformist; archetype independent_creator; all grepped with EN and KO labels. KOREAN NAME 카비르 is the Wikidata label (a transliteration; recorded as such). ZERO POLITICS: none involved; the stories of persecution by Sikandar Lodi are legend and not used. LEGEND SEPARATION: only claims that Britannica and Vaudeville state as modern scholarship about the verse corpus are scored; the birth and parentage stories, the Ramananda initiation, the persecution and the death-and-flowers story are legend (Vaudeville and Britannica both say so) and are not scored, and no life-event turning point is claimed. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Kabir' (https://www.britannica.com/biography/Kabir-Indian-mystic-and-poet). READ: Britannica, Vaudeville entry, Lorenzen publisher page (description only), Underhill's 1915 introduction. PERSPECTIVES: encyclopedia, an Indologist's reference entry, a publisher description of a legend-studies monograph, an early admiring English introduction. NOT OPENED: Lorenzen's book, Vaudeville's 'Kabir' (Oxford, 1974), Linda Hess's work (the Bijak translation and the oral-tradition book; the publisher pages were blocked or empty), the Guru Granth Sahib text, the Kabir Granthavali. EXCLUSIONS: sect history (Kabir Panth), religious reception and caste identity are not used to infer traits. FLAGS: only 2 rows because every behavioural claim passes through the verse corpus, whose attribution is uncertain; no collaboration, discipline, persistence or risk row can be supported without leaning on legend; the lead may prefer to hold the candidate as too thin for scoring. SELF-CALIBRATION (agent): rows reviewed: creative_originality (56/0.38 lowered to 54/0.34); independent_thinking kept (two modern scholars agree). HANDBACK60: {\"slug\": \"kabir\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 2, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 56, \"old_confidence\": 0.38, \"new_score\": 54, \"new_confidence\": 0.34, \"reason\": \"originality claim rests on one admiring scholarly entry and the corpus cannot be attributed verse by verse\"}], \"reviewed_kept\": [\"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 2}"
+  }
+}

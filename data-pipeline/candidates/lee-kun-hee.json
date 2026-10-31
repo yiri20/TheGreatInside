@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "lee-kun-hee",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Lee Kun-hee",
+    "aliases": [
+      "Lee Kun-Hee",
+      "Kun-hee Lee",
+      "Yi Kon-hui"
+    ],
+    "wikidataId": "Q494412",
+    "birthYear": 1942,
+    "deathYear": 2020,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "KR"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "executive",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "industrial",
+      "entrepreneurial",
+      "technological"
+    ],
+    "tagIds": [
+      "strategist"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_leekh_wikidata",
+      "kind": "wikidata",
+      "title": "Lee Kun-hee (Q494412), verified live via the Wikidata API (2026-10-31): label 'Lee Kun-hee', description '4th and 6th Chairman of the Samsung Group (1942-2020)', born 1942-01-09, died 2020-10-25, Korean label present, image 'Lee Kun-Hee.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q494412"
+    },
+    {
+      "id": "src_leekh_britannica",
+      "kind": "biography",
+      "title": "Louis Kraar, 'Lee Kun-Hee', Encyclopaedia Britannica, read in full. CANONICAL SIGNIFICANCE SOURCE: chairman of the Samsung Group 1987-2008 and 2010-2020; after taking over he left management to a corporate staff, then in June 1993 launched a revolution from the top, calling Samsung 'second rate' and urging staff to change everything but their family; a 'new management' concept that insisted subordinates point out errors to bosses, put quality over quantity and promoted women to senior posts; overseas plants and acquisitions; Samsung Electronics the world's leading exporter of memory chips by 1996; the 1996 bribery conviction (suspended sentence, pardoned), the 2008 tax-evasion conviction and 2009 pardon. Reference biography by a Fortune and Time Asia correspondent.",
+      "url": "https://www.britannica.com/biography/Lee-Kun-Hee"
+    },
+    {
+      "id": "src_leekh_koreatimes",
+      "kind": "press",
+      "title": "Park Jae-hyuk, 'Lee transformed Samsung into world's tech giant', The Korea Times (25 October 2020), read in full: the 1974 purchase of Korea Semiconductor with his own assets, the 1983 semiconductor announcement, the 1993 Frankfurt declaration prompted by a video of employees cutting faulty washing-machine lids, the 1995 burning of defective phones, the 2003 order to stop CRT television production and the later overtaking of Sony. Obituary-style newspaper feature from a Korean daily; largely admiring and partly built on Samsung's own account.",
+      "url": "https://www.koreatimes.co.kr/lifestyle/people-events/20201025/lee-transformed-samsung-into-worlds-tech-giant"
+    },
+    {
+      "id": "src_leekh_ked",
+      "kind": "press",
+      "title": "Jeong-Soo Hwang, 'Late Samsung chairman Lee's New Management back in spotlight', KED Global (Korea Economic Daily, 18 October 2023), read in full: the 7 June 1993 Frankfurt meeting with senior executives and overseas branch heads, the shift from quantity to quality, the 68-day tour, and academic assessments (Roger Martin, Rita McGrath) at a Samsung-hosted symposium. Business-press report of a company-hosted event, so the academic praise is not independent of Samsung.",
+      "url": "https://www.kedglobal.com/newsView/ked202310180015"
+    },
+    {
+      "id": "src_leekh_verge",
+      "kind": "press",
+      "title": "Sam Byford, 'King of Samsung: a chairman's reign of cunning and corruption', The Verge (30 November 2012), read in full: a critical-to-mixed 25-year assessment covering the 1993 reform and rebranding, merit-based incentives added to the seniority system, the 1997 recordings and later slush-fund allegations, the 2008 conviction and 2009 pardon, the Apple patent loss and the doubt that the company had yet produced an iconic breakthrough product. Independent technology journalism and the counter-voice for this profile.",
+      "url": "https://www.theverge.com/2012/11/30/3709688/samsung-25-years-lee-kun-hee"
+    },
+    {
+      "id": "src_leekh_bbc2008",
+      "kind": "press",
+      "title": "BBC News, 'Samsung chief resigns from post' (22 April 2008), read in full: the resignation after tax-evasion and breach-of-trust charges, the denial of wrongdoing, prosecutors' reference to structural problems and the group's size in 2008. Contemporary news report, used only for the legal context that is not scored.",
+      "url": "http://news.bbc.co.uk/2/hi/asia-pacific/7359992.stm"
+    },
+    {
+      "id": "src_leekh_tharawat",
+      "kind": "press",
+      "title": "'The Samsung Epiphany - How the Family Business Achieved Global Dominance', Tharawat Magazine, read in full: the 1993 California store visit, the Frankfurt meeting with about 200 executives, the quality, design and price proposition quoted from brand scholar Kevin Lane Keller, the lecture series transcribed into a manual and the burning of about 150,000 phones. Family-business trade magazine with a narrative tone; used only as a cross-check on the Korea Times account.",
+      "url": "https://www.tharawat-magazine.com/grow/samsung-family-business-epiphany"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leekh_britannica, src_leekh_koreatimes, src_leekh_ked | 1987-1993 | reference biography, daily newspaper, business press] Britannica says that after 1987 he left management to a corporate staff and then, in June 1993, changed from a quiet figurehead to an assertive chief executive who launched a revolution from the top; KED and the Korea Times report that he convened senior executives and overseas branch heads in Frankfurt and toured eight cities in 68 days to carry the message. The initiative taking is well documented, but the Samsung chairmanship was inherited and the governance and succession issues are legal and family context that is not scored. RUBRIC_CORRECTION (lead review, before eligibility): leadership_drive lowered from 68 / 0.55 to 66 / 0.52 because the Frankfurt-declaration narrative reaches us largely through Korean business-press retellings and one obituary-style article, and the academic views reported were from a Samsung-hosted symposium."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leekh_koreatimes, src_leekh_britannica | 1974-2003 | daily newspaper, reference biography] The Korea Times says he bought Korea Semiconductor with his own assets in 1974 against his father's opposition and ordered CRT television production, 27 percent of sales, stopped in 2003; Britannica records the push into automobiles and the overseas plants and acquisitions of the 1990s. The same episode is not independently reported by a second outlet and the newspaper account is admiring, so the row is moderate. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.55 to 66 / 0.50 because the 1974 and 2003 episodes rest on one obituary-style article."
+    },
+    "decisiveness": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leekh_koreatimes, src_leekh_tharawat | 1993-2003 | daily newspaper, trade magazine] Both accounts report that he ordered defective phones destroyed in 1995 and the Korea Times that he ordered the end of CRT production in 2003; Britannica's description of the 1993 'second rate' declaration shows a blunt, top-down call. The two accounts are close retellings of company lore and not independent of each other, and no source tests the quality of the decisions at the time."
+    },
+    "opportunity_sensing": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leekh_verge, src_leekh_koreatimes, src_leekh_britannica | 1983-2006 | technology journalism, daily newspaper, reference biography] The Verge says he saw Japanese firms slow on digital technology and an opening for Korean companies; the Korea Times dates the 1983 semiconductor announcement and Britannica the 1996 lead in memory-chip exports. The Verge also notes that the company had not produced an iconic breakthrough product of its own by 2012 and that the Apple patent loss followed from copying, which limits how far foresight is claimed."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leekh_britannica, src_leekh_verge, src_leekh_tharawat | 1993-2010 | reference biography, technology journalism, trade magazine] Britannica describes a reform that required subordinates to point out errors to bosses, favoured quality over quantity and promoted women to senior posts; the Verge says merit-based incentives were introduced alongside the seniority system and foreign staff brought in, and the Tharawat piece describes design centres and a lecture series. The reforms are described from outside only in summary, and the Verge doubts they went far enough."
+    },
+    "perfectionism": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_leekh_koreatimes, src_leekh_tharawat | 1993-1995 | daily newspaper, trade magazine] The Korea Times says the Frankfurt meeting was prompted by his anger at a video of employees cutting faulty washing-machine lids to fit, and both it and Tharawat report the burning of defective phones in front of staff and a refund; Britannica reports the quality-over-quantity principle. The accounts are two retellings of one company story and the standard he applied is described rather than measured, so the row is low-confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이건희"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/lee-kun-hee-cheongwadae-2013.jpg",
+    "width": 543,
+    "height": 639,
+    "source": "Lee Kun-hee at a breakfast meeting of Korean business leaders with the President, Hay-Adams Hotel, Washington, D.C., 8 May 2013, photograph from the Republic of Korea (Cheong Wa Dae) Flickr account, cropped on Wikimedia Commons from a larger group photograph. The live Flickr page shows CC BY-SA 2.0, matching Commons, and the Commons upload was reviewed by a human reviewer in 2014. Original file 543 x 639 pixels, used unscaled.",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Republic of Korea (Cheong Wa Dae), 2013, CC BY-SA 2.0, via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Lee_Kun-Hee.jpg",
+    "creator": "Republic of Korea (Cheong Wa Dae)",
+    "date": "2013-05-08",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Lee_Kun-Hee.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / CONFIRMED: Commons 'Lee Kun-Hee.jpg' (543 x 639, extracted from 'Korea President Park Business Leaders 20130508 01.jpg') credits the Flickr account 'Republic of Korea' (Cheong Wa Dae photograph, 2013-05-08), CC BY-SA 2.0 with a human Flickr review (reviewer Fetx2002, 20 March 2014); the live Flickr page (flickr.com/photos/koreanet/8725497280) was fetched and still shows licence CC BY-SA 2.0 and owner 'Republic of Korea', so there is no photo-level versus account-level conflict. Image viewed: a clear head-and-shoulders likeness. kind likeness. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q494412 label 'Lee Kun-hee', description '4th and 6th Chairman of the Samsung Group (1942-2020)', born 1942-01-09, died 2020-10-25; not in prod60 list and no candidate slug exists. REGION east_asia; ERA contemporary. ZERO POLITICS: primary identity is a business executive; the 1996 and 2008 convictions, the pardons, the Olympic-committee role and the succession are legal and family context and are not scored as personality. VOCABULARY: occupations executive and entrepreneur, fields business and technology, impactDomains industrial, entrepreneurial and technological, tag strategist, archetype organizational_leader, all grepped in en.ts and ko.ts. KO NAME: Wikidata Korean label 이건희 (standard). CANONICAL SIGNIFICANCE SOURCE: Louis Kraar, 'Lee Kun-Hee', Encyclopaedia Britannica (https://www.britannica.com/biography/Lee-Kun-Hee). READ IN FULL: Britannica, Korea Times obituary feature, KED Global 2023 report, The Verge 2012 critical feature, BBC 2008 resignation report, Tharawat Magazine feature (six sources). PERSPECTIVES: reference biography, Korean daily, Korean business press, independent technology journalism critical of the corruption and innovation record, contemporary BBC news, trade magazine. COUNTER-VOICES: the Verge (convictions, 'cunning and corruption', doubt about breakthrough innovation, Apple loss) and the BBC (denial, structural problems). NOT OPENED (blocked or unavailable): NYT obituary (HTTP 403), Economist obituary (403), Forbes (403), IHT (403), Guardian and BBC 2020 obituary URLs (404), Encyclopedia.com (404), Samsung's own pages, academic case studies (the academic views are known only through KED's report of the company-hosted symposium, so they are not counted as independent). The source base is thinner on independent behavioural detail than other profiles and leans on one obituary for the 1974 and 2003 episodes; confidences are accordingly 0.42-0.55 and no score exceeds 68. EXCLUSIONS: convictions, pardons, family disputes, succession, the 1997 recordings and his 2014 incapacity are not scored; no personality is inferred from the legal record. SELF-CALIBRATION (agent): top-risk rows reviewed: risk_tolerance (70/0.55 lowered to 66/0.50), decisiveness (kept), leadership_drive (kept). HANDBACK60: {\"slug\": \"lee-kun-hee\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"risk_tolerance\", \"old_score\": 70, \"old_confidence\": 0.55, \"new_score\": 66, \"new_confidence\": 0.5, \"reason\": \"the 1974 and 2003 episodes rest on one obituary-style article\"}], \"reviewed_kept\": [\"decisiveness\", \"leadership_drive\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6} RUBRIC_CORRECTION (lead review, before eligibility): leadership_drive lowered from 68 / 0.55 to 66 / 0.52 because the Frankfurt-declaration narrative reaches us largely through Korean business-press retellings and one obituary-style article, and the academic views reported were from a Samsung-hosted symposium."
+  }
+}

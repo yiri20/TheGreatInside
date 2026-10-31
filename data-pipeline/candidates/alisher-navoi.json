@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alisher-navoi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alisher Navoi",
+    "aliases": [
+      "Ali-Shir Nava'i",
+      "Mir Ali-Shir Nava'i",
+      "Mir Alisher Navoiy",
+      "Nizam al-Din Mir Ali-Shir Nava'i"
+    ],
+    "wikidataId": "Q503340",
+    "birthYear": 1441,
+    "deathYear": 1501,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "central_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_navoi_wikidata",
+      "kind": "wikidata",
+      "title": "Ali-Shir Nava'i (Q503340), verified live via the Wikidata API (2026-10-31): label 'Ali-Shir Nava'i', description 'Turkic poet and politician (1441-1501)', Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q503340"
+    },
+    {
+      "id": "src_navoi_brit",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Ali Shir Navai' (read in full). CANONICAL SIGNIFICANCE SOURCE: Turkish poet and scholar, the greatest representative of Chagatai literature; held court offices under his school companion Sultan Husayn Bayqara; wrote four divans, the five-poem Khamseh, Lisan ul-tayr (1498), the literary dictionary Majalis-i nefais (1491) and a treatise on Turkish prosody; his mastery was such that Chagatai came to be called 'the language of Navai'. Reference-work summary with an admiring tone.",
+      "url": "https://www.britannica.com/biography/Ali-Shir-Navai"
+    },
+    {
+      "id": "src_navoi_berlin",
+      "kind": "institution",
+      "title": "Berlin State Library via CrossAsia, 'Nava'i Manuscripts in the Berlin State Library' (read in full): describes him as the most important poet of Chagatai literature with 30 works in Chagatai, who refined Chagatai into a literary language, never married and spent most of his life as a public administrator and adviser to Sultan Husayn Bayqara; also lists his main works and the holdings of his manuscripts. Library portal text; its claim that contemporaries wrote exclusively in Persian is contradicted by the Walmsley interview.",
+      "url": "https://themen.crossasia.org/navai-manuscripts/?lang=en"
+    },
+    {
+      "id": "src_navoi_ashmolean",
+      "kind": "institution",
+      "title": "Ashmolean Museum, Jameel Centre record for a Khamsa of Nava'i made in Herat in 1485 (lent by the Bodleian Library; read in full): calls him vizier and chief poet at the court of Sultan Husayn Bayqara, an outstanding patron of literature and the book arts; notes his Chagatay Quintet was inspired by Nizami's earlier Persian one. Museum catalogue record.",
+      "url": "https://jameelcentre.ashmolean.org/collection/921/object/15062"
+    },
+    {
+      "id": "src_navoi_walmsley",
+      "kind": "press",
+      "title": "Voices on Central Asia, 'Ali Shir Navayi and the Rich World of Turkic-Persian Poetry', interview with Nicholas Walmsley (2020; read in full). Scholar of Central Eurasian studies (Indiana University): says he wrote vastly more poetry in more forms than any Chagatai predecessor, worked to adapt Chagatai to the Persian forms and genres, and in the Muhakamat al-lughatayn praised only one predecessor, which he reads as a deliberate effort to present himself as the first great Chagatai poet; warns that earlier Chagatai poets are under-known and that Soviet editions and the 1947 film distorted his Islamic context and his rival Majd al-Din. Expert interview with an explicit counter-voice.",
+      "url": "https://voicesoncentralasia.org/?p=6516"
+    },
+    {
+      "id": "src_navoi_majalis",
+      "kind": "biography",
+      "title": "Muxitdinova, Saydullayeva, Xoshimova and Rasulova, 'Definitions of Poetry and Poetological Studies in Ali-Shir Nava'i's Majalis al-Nafais' (Turk Kulturu ve Haci Bektas Veli Arastirma Dergisi, no. 118, 2026; read in full from the open PDF). Peer-reviewed article: calls the work the first tazkira in Turkic literature, covering 459 poets and scholars, a model for the Ottoman tazkira tradition (Sehi Bey, 1538), and portrays the author as critic, mentor and a patron who gave material and spiritual support to poets. Scholarly article with a national-literature framing.",
+      "url": "https://dergipark.org.tr/tr/download/article-file/4511810"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_navoi_walmsley, src_navoi_majalis, src_navoi_brit | 1470s-1501 | scholar interview + peer-reviewed article + encyclopedia] Walmsley says he worked out how to adapt Chagatai to the technical demands of Persian poetic forms and wrote in a greater variety of genres than any predecessor; the 2026 article calls his Majalis al-Nafais the first tazkira in Turkic literature and a model for later Ottoman tazkiras; Britannica lists divans, a Khamseh, a Persian-model adaptation and a prosody treatise. The same interview warns that earlier Chagatai poets are under-known and that he presented himself as the first great one, so the originality lies in scale and adaptation, not in being first. Scholarly framing is partly national-literature. Mainly work-based inference."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_navoi_walmsley, src_navoi_berlin | 1499 | scholar interview + library portal] Walmsley reports that in the Muhakamat al-lughatayn he argued that Turki was a literary language equal to Persian, and the Berlin library portal says he preferred to write in Chagatai at a time when Persian dominated. The Muhakamat is his own advocacy, known here only through the interview and the portal, and the Berlin claim that contemporaries wrote only in Persian is contradicted by Walmsley, who names several earlier Chagatai poets. SELF-CALIBRATION (agent): lowered from 68 / 0.48 to 64 / 0.44 because the row rests on his own advocacy as relayed by an interview, and the library portal overstates how alone he was."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_navoi_brit, src_navoi_berlin, src_navoi_majalis | 1470s-1501 | encyclopedia + library portal + peer-reviewed article] Britannica says he devoted the latter part of his life to poetry and scholarship and wrote a treatise on Turkish prosody; the Berlin portal calls him someone who dedicated his life to learning and says he developed Chagatai into a literary language; the 2026 article describes him evaluating predecessors and contemporaries as a literary critic. The long-run focus on craft and scholarship is described by three admiring or national-literature sources, so the row stays modest."
+    },
+    "collaboration": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_navoi_walmsley, src_navoi_majalis, src_navoi_ashmolean | 1470s-1501 | scholar interview + peer-reviewed article + museum record] Walmsley lists painter Behzad, calligrapher Sultan Ali Mashhadi and historian Khwandamir among those he patronised, the 2026 article describes him as a mentor and patron giving material and spiritual support to poets, and the Ashmolean calls the court an outstanding patron of literature and the book arts with him as vizier and chief poet. Walmsley also warns that Soviet sources overstated his role as champion of the common people. Patronage and mentoring are documented only in general terms, with few concrete episodes."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알리셰르 나보이"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. The Wikidata image is a cropped detail of a 1486 Herat miniature (Commons file 'Amir Ali-Shir Nava'i before Sultan Husayn Bayqara in 1486 Herat.jpg', 1,234 x 2,438) extracted by a Commons uploader from a multi-figure scene whose published title is two wrestlers performing before the Sultan (Sa'di's Gulistan, Art and History Trust Collection, a private collection). The miniature itself is public domain by age, but the identification of the figure as Nava'i comes only from the uploader's crop label citing a book page, and no museum or scholarly caption that I could read names that figure; no item-level institution statement exists. The other Commons candidates are either not portraits of him (Ottoman polo scene from a Divan) or a modern Soviet stamp by a named artist (derivative, not accepted). A web search of museum collections found only manuscript court scenes from his divans, no labelled portrait. Next step: find a museum or scholarly caption (for example in Soudavar's Art of the Persian Courts, p. 105, or Tawfiq Da'adli's study of the late Herat school) that identifies the figure, or a labelled single-figure old depiction with an open-access museum record."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / downgraded to held: the 1486 Herat miniature is public domain by age, but the figure of Nava'i is identified only by a Commons uploader's crop label in a multi-figure scene (see portrait.reason); one bounded retry (Commons category, a second crop file, the Ottoman Divan polo scene, a museum search) found no captioned single-figure depiction. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q503340 label 'Ali-Shir Nava'i', description 'Turkic poet and politician (1441-1501)', born 1441-02-09, died 1501-01-03, Korean label '알리셰르 나보이'. No production or candidate slug/QID collision (grepped prod60 and data-pipeline/candidates). REGION central_asia (repo precedent: Babur, Al-Biruni); ERA early_modern (born 1441; repo precedents Durer 1471, Babur 1483 are early_modern, Joan of Arc 1412 is medieval; chosen as a 15th-century Renaissance-era figure); no historical polity key set because the repo has no Timurid polity entry. ZERO POLITICS: identity is poet and scholar; his offices under Sultan Husayn Bayqara (vizier, governor roles), his philanthropic building and any court politics are context and are not scored. VOCABULARY: occupations poet and writer, field literature, tag prolific, archetype creative_creator, all grepped in en.ts and ko.ts. KO NAME: Korean Wikidata label, recorded as used. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Ali Shir Navai' (https://www.britannica.com/biography/Ali-Shir-Navai). READ IN FULL: Britannica; Berlin State Library/CrossAsia manuscripts portal; Ashmolean record of the 1485 Khamsa; Voices on Central Asia interview with Nicholas Walmsley (2020); Muxitdinova et al. 2026 article on Majalis al-Nafais. PERSPECTIVES: reference work, two institutions, an expert interview that is explicitly critical of the Soviet and nationalist image, a peer-reviewed article with a national-literature framing. COUNTER-VOICES: Walmsley (earlier Chagatai poets exist; he promoted himself as first; Soviet distortions) contradicts the Berlin portal's 'only Persian' claim; that conflict is reflected in the lowered independent_thinking row. NOT OPENED: Encyclopaedia Iranica (URL guess failed), Maria Subtelny's Encyclopaedia of Islam article and her book Timurids in Transition, Devin DeWeese, Muhakamat al-lughatayn itself, Mirkhvand and Khwandamir. SELF-REPORT: his own poems, the Muhakamat and Majalis are self-report, known here only through secondary description, and never sole support; no self-report is cited as a direct source. SPARSE PROFILE: four rows, none above 66, confidence at most 0.48; 6 sources including one Wikidata orientation source, 5 substantive. SELF-CALIBRATION (agent): top-risk rows reviewed: independent_thinking (68/0.48 lowered to 64/0.44), creative_originality (kept), collaboration (kept). HANDBACK60: {\"slug\": \"alisher-navoi\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"independent_thinking\", \"old_score\": 68, \"old_confidence\": 0.48, \"new_score\": 64, \"new_confidence\": 0.44, \"reason\": \"rests on his own advocacy as relayed by one interview, and the library portal overstates how alone he was\"}], \"reviewed_kept\": [\"creative_originality\", \"collaboration\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

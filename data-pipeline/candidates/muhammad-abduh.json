@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "muhammad-abduh",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Muhammad Abduh",
+    "aliases": [
+      "Muhammad Abdu",
+      "Mohamed Abdou",
+      "Muḥammad ʿAbduh"
+    ],
+    "wikidataId": "Q311826",
+    "birthYear": 1849,
+    "deathYear": 1905,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "EG"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "theologian",
+      "jurist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "religion",
+      "education",
+      "law"
+    ],
+    "impactDomains": [
+      "educational",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_abduh_wikidata",
+      "kind": "wikidata",
+      "title": "Muhammad Abduh (Q311826), verified live via the Wikidata API (2026-10-31): label 'Muhammad Abduh', description 'Egyptian Islamic jurist, religious scholar and liberal reformer (1849-1905)', died 1905-07-11, citizenship Egypt, Korean label 무함마드 압두. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q311826"
+    },
+    {
+      "id": "src_abduh_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Muhammad Abduh' (biography page including its summary and question-and-answer sections; the full article body is subscriber-only and was not opened). CANONICAL SIGNIFICANCE SOURCE: an Egyptian religious scholar, jurist and liberal reformer who sought to revitalise Islamic teaching; studied at the Tanta mosque school and Al-Azhar (graduating 1877); joined al-Afghani in Paris in 1884 and later taught in Beirut; returned in 1888; as mufti of Egypt implemented reforms in Islamic law, administration and higher education against conservative resistance; works include Risalat al-tawhid and a Qur'an commentary.",
+      "url": "https://www.britannica.com/biography/Muhammad-Abduh"
+    },
+    {
+      "id": "src_abduh_hourani",
+      "kind": "archive",
+      "title": "Albert Hourani, 'Arabic Thought in the Liberal Age 1798-1939' (Oxford University Press, 1962), chapter VI 'Muhammad Abduh', read as the Internet Archive full-text scan (about 25 pages of the chapter: early life, Azhar years, career, thought, critiques). Scholarly intellectual history by a historian who is neither a disciple nor a hostile critic; it draws on Rida's biography but also on Cromer, Blunt and Broadley, reports the doubts of Cromer, Blunt and Azhar critics, and describes Abduh's 'eclecticism' and avoidance of hard questions (for example a statement on the created Qur'an quietly removed from later editions of the Risalat al-tawhid). Quotes his own fragment of autobiography stating his purposes (self-report, as relayed).",
+      "url": "https://archive.org/details/AlbertHouraniArabicThoughtInTheLiberalAge17981939"
+    },
+    {
+      "id": "src_abduh_jadaliyya",
+      "kind": "press",
+      "title": "'Muhammad Abduh: A Profile from the Archives', Jadaliyya (series with the newspaper As-Safir, translated by Mazen Hakeem; read in full, about 6,800 characters): chronology of his career from the Tanta mosque and Al-Azhar to the 1895 Azhar administrative council and the 1899 appointment as mufti with reform of religious courts and endowments; says he rejected the dominant rote method and 'transcribers', corresponded with Le Bon, Spencer, Tolstoy and Blunt, and warns that researchers urge caution against relying wholly on Rashid Rida's reading of Abduh. Short journalistic profile; not footnoted.",
+      "url": "https://www.jadaliyya.com/Details/31239/Muhammad-Abduh-A-Profile-from-the-Archives"
+    },
+    {
+      "id": "src_abduh_iqbal",
+      "kind": "biography",
+      "title": "Muzaffar Iqbal, 'Muhammad Abduh (1849-1905)', Center for Islam and Science biographical archive (read in full, about 19,000 characters). Partly follows the standard encyclopedia outline but adds a critical assessment: says his limited knowledge of science and modern philosophy led him to reconcile Qur'anic statements with scientific theories (jinn as microbes, evolution), describes his 1900-01 Qur'an lectures taken down and expanded by Rida with his approval, and quotes the Risalat al-tawhid. Evaluative and partly sceptical; used as the counter-voice.",
+      "url": "https://jisarchive.cis-ca.org/voices/a/abduh-mn.htm"
+    },
+    {
+      "id": "src_abduh_guerville",
+      "kind": "archive",
+      "title": "A. B. de Guerville, 'New Egypt' (William Heinemann, London, 1906 edition; Internet Archive full-text scan), the chapter 'The Political Testament of the Late Grand Moufti' and the surrounding passages (read: the author's own account of conversations with the Grand Moufti on religious and educational questions and a note Abduh sent him shortly before his death, with Abduh's statements on free education and the content of Egyptian schooling; a letter from his physician calling him 'the greatest man in modern Mussulman Egypt' is the correspondent's admiring testimony). A contemporary European journalist's witness, written within weeks of his death; admiring; the rows use only what the book reports Abduh as saying and doing about teaching. The book is also the publication source of the portrait.",
+      "url": "https://archive.org/details/newegypt00gueriala"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abduh_hourani, src_abduh_jadaliyya, src_abduh_brit, src_abduh_iqbal | 1860s-1905 | scholarly history + journalistic profile + reference + critical biography] Hourani reports that as a boy he ran away from the Tanta mosque school because he was bewildered by learning commentaries by rote, and quotes his own statement that his first purpose was to 'liberate thought from the shackles of taqlid' and to weigh the sources in the scales of reason; Jadaliyya says he rejected the dominant rote method and resented scholars he called transcribers; Britannica says he challenged the strictness of rituals and dogmas despite conservative resistance. The Hourani chapter also shows the limits: an eclectic blending of schools and a tendency to avoid hard questions, and Iqbal criticises his reconciliations of scripture with science, so the independence is clear in method but not uniformly rigorous. The stated purpose is his own, relayed by Hourani."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abduh_hourani, src_abduh_jadaliyya, src_abduh_brit | 1866-1877 | scholarly history + profile + reference] Hourani reports that he studied at the Ahmadi mosque and at Al-Azhar until 1877 (degree of alim), was drawn to logic, philosophy and mystical theology, and made two copies in his own hand of Ibn Sina's Isharat; he gives the books he taught in his house and at Dar al-Ulum (Miskawayh, Ibn Khaldun's Muqaddima, a translation of Guizot). Jadaliyya and Britannica give the Azhar and Tanta schooling. This shows sustained, wide study; the evidence is of study habits and syllabi rather than of the quality of mastery."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abduh_hourani, src_abduh_jadaliyya, src_abduh_iqbal | 1870s-1905 | scholarly history + profile + critical biography] Hourani says he learnt French in later life and read Rousseau, Spencer's Education, Tolstoy, Strauss and Renan alongside the Islamic theological tradition, visited Spencer at Brighton and wrote to Tolstoy; Jadaliyya lists his correspondence with Le Bon, Spencer, Tolstoy and Blunt. His writing ranged over theology, Qur'an commentary, law and educational reform. Iqbal argues that the breadth outran his command of the science he drew on, which tempers the score."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abduh_hourani, src_abduh_jadaliyya, src_abduh_brit | 1895-1905 | scholarly history + profile + reference] Hourani and Jadaliyya say that in 1895 he persuaded the khedive to set up an administrative council for Al-Azhar, remained its most prominent member for ten years and carried out some reforms in its organisation, helped found a Muslim Benevolent Society to run private schools, and as mufti worked on reform of the religious courts and the administration of endowments, and issued fatwas reinterpreting the law for contemporary needs. Britannica adds that he met resistance. The concrete outcomes of the Azhar reforms are described only in general terms in these sources. His government posts are context; only the educational and legal-religious initiatives are used."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_abduh_hourani, src_abduh_guerville, src_abduh_jadaliyya | 1880s-1905 | scholarly history + contemporary journalist + profile] Hourani writes that all the acts of his later life aimed to bridge the gulf between religious and modern learning and strengthen the moral basis of society, and quotes his own fragment of autobiography naming his purposes (freeing thought from taqlid, reforming the writing of Arabic); de Guerville reports him arguing for general schooling and criticising what Egyptian government schools taught. The motive is stated by Abduh himself and read back by his historian, and a journalist who admired him; there is little independent behavioural evidence beyond the career itself. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 64 / 0.48 to 60 / 0.44 because the motive claim rests on his own relayed statement and an admiring correspondent more than on observed behaviour."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "무함마드 압두"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/muhammad-abduh-unknown-1906.jpg",
+    "width": 764,
+    "height": 1174,
+    "source": "Photograph captioned 'The late Grand Moufti, Sheik Mohamed Abdou', reproduced in A. B. de Guerville, New Egypt (William Heinemann, London, 1906 edition; first published 1905 according to the Internet Archive record, with a Dutton edition in New York in 1906), facing page 159, with the credit 'Fasani' printed beside the plate in the Internet Archive text. Photographer not otherwise identified. The photograph was published in a book in 1905-1906, before 1931, so it is in the public domain in the United States on the basis of publication date; the Wikimedia Commons file 'The late Grand Moufti.png' carries the tag for works whose US copyright has expired and was uploaded from the Internet Archive scan. The Wikidata image 'Muhammad Abduh.jpg' was not used because its Commons page gives only an uploader's 'PD-old' with no publication source. Original file 764 x 1174 pixels, converted from PNG to JPEG with no resizing, cropping or upscaling.",
+    "license": "Public domain (published before 1931)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+    "attribution": "Photograph credited Fasani, in A. B. de Guerville, New Egypt, 1906, via Wikimedia Commons (public domain)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:The_late_Grand_Moufti.png",
+    "creator": "Fasani (photographer credit in the book; otherwise unidentified)",
+    "date": "1905-1906 (publication)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:The_late_Grand_Moufti.png"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / the Wikidata P18 'Muhammad Abduh.jpg' (414x590) was REJECTED: its Commons page shows only an uploader's 'PD-old' with no publication source. Another Commons file in the category, 'The late Grand Moufti.png' (764x1174, from the Internet Archive scan of de Guerville's New Egypt, 1906 edition, plate facing p. 159 captioned 'The late Grand Moufti. Sheik Mohamed Abdou', credit 'Fasani'), has a documented pre-1931 publication (first edition 1905, this edition 1906) and was used; the TIMEA copy of the same plate carries a CC BY-SA label that conflicts with the publication facts and was not used. No institutional notice conflicts. kind likeness (a lifetime photograph). PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q311826 label 'Muhammad Abduh', description 'Egyptian Islamic jurist, religious scholar and liberal reformer (1849-1905)', died 1905-07-11, Korean label 무함마드 압두; no production or candidate slug/QID collision (grepped prod60.txt and data-pipeline/candidates). REGION north_africa (Egypt). ERA modern. ZERO POLITICS: the 1882 Urabi-revolt involvement, exile, the Urwa al-Wuthqa periodical with al-Afghani, the Legislative Council seat and his government posts are POLITICAL context and are not scored; only documented religious-educational reform, teaching, study and writing are scored. VOCABULARY: occupations theologian, jurist, teacher; fields religion, education, law; tags nonconformist, mentor; archetype scholarly_specialist; impact domains educational, cultural, historical; all grepped in en.ts and ko.ts (no reformer or mufti occupation label exists). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Muhammad Abduh' (https://www.britannica.com/biography/Muhammad-Abduh), summary pages only. READ IN FULL: Hourani's chapter on Abduh (Internet Archive scan), the Jadaliyya profile, Iqbal's Center for Islam and Science biography, the relevant chapter of de Guerville's New Egypt (partial: the Grand Moufti passages), the Catalan Gran Enciclopedia entry (short; it gives 1889 for the muftiship, which conflicts with 1899 in Hourani, Jadaliyya and the brief, so 1899 is used) and parts of Assad Busool's article on Rashid Rida in the American Journal of Islamic Social Sciences (about Rida's reform and schools; used only as context, not cited). PERSPECTIVES: scholarly intellectual history, journalistic profile, reference, critical biography, contemporary European journalist (admiring). COUNTER-VOICES: Hourani's account of Cromer's and Blunt's doubts about his faith, the Azhar conservatives, his eclecticism and the quiet deletion in the Risalat al-tawhid; Iqbal's criticism of his reconciliation of Qur'an and science. SELF-REPORT SEPARATION: his autobiographical fragment, his letters and articles reach this profile only through Hourani, Iqbal and de Guerville; Rida's biography (Tarikh) is partisan and is known only as cited by Hourani, and Jadaliyya cautions against over-reliance on Rida's reading. NOT OPENED: Hourani's chapter beyond the first sections of his theology, Kerr's 'Islamic Reform' (known only via Hourani), Sedgwick, Rida's Tarikh and the Risalat al-tawhid itself, the Britannica full article (subscriber-only), the Encyclopaedia of Islam. EXCLUSIONS: all political activity (Urabi revolt, exile, secret society, Legislative Council), claims about his private faith, and health. SPARSE PROFILE: five rows, none above 68, confidence 0.44-0.52. KO NAME: 무함마드 압두, the Wikidata Korean label. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (64/0.48 lowered to 60/0.44), independent_thinking (kept: two independent scholarly sources agree on the anti-taqlid method), cross_domain_range (kept). HANDBACK60: {\"slug\": \"muhammad-abduh\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 64, \"old_confidence\": 0.48, \"new_score\": 60, \"new_confidence\": 0.44, \"reason\": \"the motive claim rests on his own relayed statement and an admiring correspondent more than on observed behaviour\"}], \"reviewed_kept\": [\"independent_thinking\", \"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

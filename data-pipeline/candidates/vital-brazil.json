@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "vital-brazil",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Vital Brazil",
+    "aliases": [
+      "Vital Brasil",
+      "Vital Brazil Mineiro da Campanha",
+      "Vital Brazil Mineiro de Campanha"
+    ],
+    "wikidataId": "Q1797510",
+    "birthYear": 1865,
+    "deathYear": 1950,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "physician",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_vbrazil_wikidata",
+      "kind": "wikidata",
+      "title": "Vital Brazil (Q1797510), verified live via the Wikidata API (2026-10-31): English label 'Vital Brazil', description 'Brazilian physician (1865-1950)', Korean label present, citizenship Brazil, image 'DR. VITAL BRAZIL LCCN2016866669 (cropped).jpg' (checked for the portrait only). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1797510"
+    },
+    {
+      "id": "src_vbrazil_coc",
+      "kind": "institution",
+      "title": "Biblioteca Virtual Oswaldo Cruz (Casa de Oswaldo Cruz, Fiocruz), 'Vital Brazil' biography page (read in full). CANONICAL SIGNIFICANCE SOURCE: graduated in medicine in Rio de Janeiro in 1891; researcher at the Bacteriological Institute of Sao Paulo from 1897, where he began researching snakebite; director from 1901 of the Sao Paulo State Serum Therapeutics Institute (now the Butantan Institute), where, in its words, he achieved his greatest feat as a scientist, proving the specificity of sera against snake venom; headed Butantan for nearly twenty years, then founded the Vital Brazil Institute in Niteroi in 1919. Short institutional biography from a Brazilian history-of-science and health archive.",
+      "url": "https://oswaldocruz.fiocruz.br/index.php/en/holdings/correspondence/scientific-correspondence/vital-brazil"
+    },
+    {
+      "id": "src_vbrazil_pmc",
+      "kind": "institution",
+      "title": "'The Butantan Institute: History and Future Perspectives', open-access article on PubMed Central (PMC4080994), written by the Institute's own directors (read through the history section): proposal by a commission of three physicians in 1900; foundation and direction assigned to Vital Brazil with the immediate task of producing plague serum; Institute officially established 23 February 1901; first plague-serum vials June 1901; Vital Brazil's administration 1901-1927 described as a period of large investment in staff, research and an antiserum factory; says that, from the correlation between bite-site inflammation and snake genus, he was the first to show that snake venom ordinarily displayed antigenic specificity; produced monovalent sera against Bothrops jararaca and Crotalus durissus terrificus after reading Calmette's anti-Naja report, and tested and showed that Calmette's anti-Naja serum did not neutralise Crotalus or Bothrops toxins. Insider institutional history, so admiring.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4080994/"
+    },
+    {
+      "id": "src_vbrazil_fap2011",
+      "kind": "press",
+      "title": "Neldson Marcolin, 'Poison against poison', Pesquisa FAPESP (English edition, issue 180, February 2011; read in full): says he showed ten years before 1911 that antivenom action is specific to the venom's genus, that Maurice Arthus's 1911 French experiment confirmed it, that he began by testing plant extracts at Botucatu, immunised dogs and goats with rattlesnake and jararaca venom from 1897, set up the farmer exchange of snakes for serum and syringes (account attributed to the director of Butantan's history-of-science laboratory), knew the earlier French work of Philalix, Bertrand and Calmette, disproved Calmette's idea that his Naja serum worked on all venoms, and carried on a scientific debate by mail with Calmette for years until specificity was internationally accepted. Science-magazine journalism quoting Butantan insiders, including a great-grandson.",
+      "url": "https://revistapesquisa.fapesp.br/en/poison-against-poison/"
+    },
+    {
+      "id": "src_vbrazil_fap2002",
+      "kind": "press",
+      "title": "Maria Ines Nassif, 'The Vital Brazil with a Z', Pesquisa FAPESP (English edition, issue 80, October 2002; read in full, family and private-life passages not used): reports the Vital Brazil Institute's 2002 edition of his complete scientific works edited by the historian Andre de Faria Pereira Neto; says that for new generations outside the family and followers his name means little and that an encyclopedia reduced him to an assistant of Emilio Ribas; summarises the 1901 tests of Calmette's serum and the cross-tests in guinea pigs; quotes a USP pharmacology professor (Nelson Vaz) that the discovery came together with immunological results worldwide, that Landsteiner reached a similar concept later on a small number of particles, and that its importance was regional and 'can not be minimized'; describes the November 1901 serum, the mapping of accidents by region, classification of snakes and venom-derived medicines; says his Niteroi company produced more research than money for its owner. Journalism with a mix of family, institute and external academic voices.",
+      "url": "https://revistapesquisa.fapesp.br/en/the-vital-brazil-with-a-z"
+    },
+    {
+      "id": "src_vbrazil_teixeira",
+      "kind": "biography",
+      "title": "Luiz Antonio Teixeira, Luiza Teixeira-Costa and Erika Hingst-Zaher, 'Vital Brazil: um pioneiro na pratica da ciencia cidada' (Vital Brazil: a pioneer in the practice of citizen science), a Sao Paulo state health-institutes journal (the PDF text does not state the issue; its references run to 2011) (PDF; roughly the first half read in full, including the Butantan origin story and the exchange system): history-of-science article by a Casa de Oswaldo Cruz historian with a Butantan museum researcher; says his work on different poisonings and their snakes gave him credentials to lead control of snakebite in Sao Paulo; by 1902 the Institute made three antivenoms (rattlesnake, jararaca and a mixed serum); from 1902 he produced charts linking falling snakebite deaths to serum distribution; advertised in newspapers, sent serum with an observation bulletin that physicians returned, competed with popular and pharmaceutical remedies, gave lectures in the interior, distributed lassos, boxes and syringes and arranged free rail transport of snakes. Scholarly article, partly insider, partly about publicity.",
+      "url": "https://periodicos.saude.sp.gov.br/cadernos/article/download/33904/32693/32980"
+    },
+    {
+      "id": "src_vbrazil_funed",
+      "kind": "biography",
+      "title": "Isabela Gomes da Silva and Giselle Agostini Cotta, 'Atribuicoes e realizacoes do primeiro Posto Antiofidico do Brasil: 1918-1936', Temporalidades 17(1), 2025, Federal University of Minas Gerais (PDF; abstract and the introduction read, the rest not): a study of annual reports of the Funed antivenom post that says the specificity of antivenom sera made specific serotherapy essential, that Vital Brazil demonstrated by experiment in 1901 that imported serum could not neutralise Brazilian venoms, that he concluded serum must come from a snake of the same genus, reported the first cure of a jararaca bite with specific serum, announced the polyvalent serum, and that the post ran on his snakes-for-serum exchange. Later independent regional-history study that treats his work as a foundation.",
+      "url": "https://periodicos.ufmg.br/index.php/temporalidades/article/view/58374/49088"
+    },
+    {
+      "id": "src_vbrazil_cs",
+      "kind": "biography",
+      "title": "Alexandre Amato, 'Dr. Vital Brasil Mineiro da Campanha', Cultura e Saude (2004; read in full): short popular medical-culture biography giving his 1891 graduation, laboratory training in Paris, 1898 antivenoms against Crotalus and Bothrops at the Bacteriological Institute, the 1901 Butantan foundation, the 1919 move to Niteroi, and his books O ofidismo no Brasil (1906) and A defesa contra o ofidismo (1911). Popular and admiring; its claim that he contracted yellow fever is not used.",
+      "url": "https://culturaesaude.med.br/en/dr-vital-brasil-mineiro-da-campanha-en/"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vbrazil_pmc, src_vbrazil_fap2011, src_vbrazil_fap2002, src_vbrazil_funed | 1897-1902 | Butantan directors' history + science journalism with an external academic + later regional-history study] The Butantan history says he tested Calmette's anti-Naja serum against Crotalus and Bothrops toxins and made monovalent sera against the two Brazilian venoms; Pesquisa FAPESP (2002) adds cross-tests in guinea pigs in which each serum failed against the other genus; the 2011 article says he began in 1897 by immunising dogs and goats; the Temporalidades study says he showed by experiment in 1901 that imported serum could not neutralise Brazilian venoms and reported the first cure of a jararaca bite with specific serum. The experimental design is described consistently, but the sources are mostly institutional retellings of his own 1901-1902 reports, which were not read, and the FAPESP piece itself notes that Landsteiner reached a similar concept and that the impact was regional."
+    },
+    "resourcefulness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vbrazil_teixeira, src_vbrazil_fap2011, src_vbrazil_funed | 1901-1904 | scholarly article + science journalism + later regional-history study] To obtain venom for serum he created an exchange in which farmers who sent snakes to the Institute received serum and syringes (FAPESP 2011), supported it by distributing capture lassos and transport boxes, labels and information forms, and secured free rail carriage of the boxes through agreements with the state (Teixeira and colleagues); the Funed study says a later post in Minas Gerais was built on his exchange system. A problem of raw material solved with a durable practical system, described in three sources, although the two Brazilian history articles share the Butantan archive and are partly insider."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vbrazil_fap2011, src_vbrazil_teixeira, src_vbrazil_cs | 1890s-1911 | science journalism + scholarly article + popular biography] He turned from clinical practice among farmhands at Botucatu to snakebite, built a service that put serum in farmers' hands, from 1902 charted falling snakebite deaths against serum distribution, sent clinicians an observation bulletin to return, and wrote O ofidismo no Brasil (1906) and A defesa contra o ofidismo (1911) for prevention. The aim of reducing deaths in the countryside is shown by what he built, not by stated motives; the popular biography is admiring and the mortality charts are reported by the article rather than examined."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vbrazil_teixeira | 1902-1911 | scholarly article, single main source] The article says he gave demonstrations and lectures in schools, advertised in the main newspapers, toured the interior to answer doubts of doctors and the public, and had to compete against popular and pharmaceutical snake remedies that carried official-looking labels. One main source, and persuasion is inferred from the campaign's reported reach, not from audience evidence."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vbrazil_coc, src_vbrazil_pmc, src_vbrazil_fap2002, src_vbrazil_cs | 1901-1919 | Fiocruz archive + Butantan directors' history + journalism + popular biography] He was named first director of the new serum institute (established 23 February 1901) and led it for nearly twenty years, a period the Butantan history describes as one of large investment in staff, laboratories and an antiserum factory; in 1919 he founded the Vital Brazil Institute in Niteroi, which the 2002 article says produced more research than money for him. Directing institutes is well documented; how he led people is not described in the sources, so the row is about institutional ambition and the scores stay moderate."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vbrazil_coc, src_vbrazil_fap2011, src_vbrazil_fap2002 | 1897-1919 and after | Fiocruz archive + science journalism] The Fiocruz biography dates his snakebite research from 1897 and his Butantan directorship to 1919, after which he founded a second institute; the 2011 and 2002 articles describe years of work on one problem, including a long mail debate with Calmette until specificity was accepted, and the classification of Brazilian snakes and research on venom medicines alongside serum production. Long sustained commitment to one problem, but the sources summarise careers and do not show how he handled setbacks."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vbrazil_fap2002, src_vbrazil_pmc, src_vbrazil_teixeira | 1897-1911 | science journalism + Butantan history + scholarly article] He worked across clinical medicine, immunology and serum production, mapped snakebite by region, classified Brazilian snakes, researched therapeutic uses of venom, and ran public outreach, according to the 2002 article and the Butantan history, with the exchange system adding a public-participation element in the Teixeira article. The breadth is clear in summary form; depth in each area was not independently assessed."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "비타우 브라지우"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait found after one bounded retry. (1) Wikidata image 'DR. VITAL BRAZIL LCCN2016866669 (cropped)': a Harris & Ewing glass negative dated 1915 in the Library of Congress, an inset 'copy' on a snake-farm photograph with an unverified caption; the Commons page rests on the Library's 'no known restrictions' statement and on a Harris & Ewing template, and nothing states that the image was published before 1931, so this is not a documented basis. (2) Commons 'VitalBrazil1911.jpg' (250 x 397) is a photograph of a man with a snake lasso said to be Vital Brazil and taken from his 1911 book; the book's printed plate caption (checked in the Internet Archive scan, leaf 20) reads only 'Com o laco que o Instituto distribue' and does not name the man, the scan carries a BHL/SciELO non-commercial licence field, and the Commons page gives no photographer, so identity and rights are not documented. (3) Commons 'VitalBrazil1892.jpg' cites a family collection with only a generic PD-old tag and no creator or date basis. (4) The Wellcome Collection catalogue returned no Vital Brazil image. Next step: ask the Casa de Oswaldo Cruz / Fiocruz photographic archive or the Butantan Institute historical archive for an item-level dated, credited photograph with stated reuse terms, or find a pre-1931 published portrait with a named photographer."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / finding: HOLD after one bounded retry; the Harris & Ewing image is dated 1915 on Commons but its LoC basis is only 'no known restrictions' and publication before 1931 is not shown, the 1911 book photograph does not name the sitter in the printed caption, and the 1892 family-archive image has no creator or date basis (details in portrait.reason). QID VERIFIED LIVE (2026-10-31): Q1797510, label 'Vital Brazil', description 'Brazilian physician (1865-1950)', P569 1865-04-22 (Fiocruz gives 28 April; only the year is used), P570 1950-05-08, citizenship Brazil, ko label (used for localization). SLUG/QID CHECK: not in the production list and no data-pipeline/candidates/vital-brazil.json existed; the repo already has oswaldo-cruz and carlos-chagas is a held candidate, neither reused. REGION latin_america; ERA 20th_century because every scored row rests on 1897-1919 behaviour (as with oswaldo-cruz). ZERO POLITICS: passes (a scientist and institute director). CANONICAL SIGNIFICANCE SOURCE: Biblioteca Virtual Oswaldo Cruz, 'Vital Brazil' (https://oswaldocruz.fiocruz.br/index.php/en/holdings/correspondence/scientific-correspondence/vital-brazil). EVIDENCE READ (curl to files, read locally): the Fiocruz biography page (full), the Butantan directors' history on PMC (history section), Pesquisa FAPESP 2011 and 2002 (full), the Cadernos de Historia da Ciencia article by Teixeira and colleagues (about the first half), the Temporalidades 2025 Funed study (abstract and introduction only), Cultura e Saude (full), and the Internet Archive scan of A defesa contra o ophidismo (1911) for the portrait plate only. NOT OPENED: Britannica (URL returned 'Page Not Found'), Wellcome biographies, Pereira Neto's complete-works edition and his scholarly books, Vital Brazil's own 1901-1902 reports, and any Houssay or other full biography. Wikipedia was not used. INDEPENDENT PERSPECTIVES: (1) Butantan directors writing the Institute's history (insider); (2) Casa de Oswaldo Cruz / Fiocruz archive and a COC historian with a Butantan co-author (history of science); (3) Pesquisa FAPESP journalism with quoted external academic voices (USP); (4) Funed/UFMG regional-history study (independent of Butantan); (5) a popular medical-culture biography. NON-SELF BEHAVIOURAL sources: all of them; none is his own writing and no row rests on his own reports alone. COUNTER-VOICES/CAVEATS: FAPESP 2002 quotes a USP professor that Landsteiner reached the concept of antigenic specificity a little later and that the discovery's importance was regional and cannot be minimized, and that his Niteroi business made more research than money; no adversarial or critical biography was read, so confidence stays <= 0.62. 'First to show' claims appear in the Butantan insider history and one scholarly summary only, so they are not carded as established priority. EXCLUDED ON PURPOSE: family, marriages and children, his financial situation, the claim of catching yellow fever (popular source only) and exposure to plague as a trait, health, the 1924-1927 return to Butantan beyond one clause, and any politics. SPARSE PROFILE: seven rows, maximum 74, maximum confidence 0.62. MAJOR ACHIEVEMENT SELF-GATE: first pass PASS on primary contribution (specificity of antivenom sera and its serums), top omission (founding Butantan and the exchange system are carded), identity and significance-over-novelty; side-project check PASS (Niteroi institute is a second-institution founding carded within the Butantan card, not a hobby); nothing corrected. SELF-CALIBRATION (agent): top-risk rows reviewed: experimentation (74/0.62, priority claims from insider histories; kept because four sources including a regional-history study and an external scholar's caveat agree on the method), resourcefulness (74/0.62, exchange system; kept: three sources, concrete documented mechanism), persuasiveness (64/0.50; kept, already modest); no rows lowered. HANDBACK60: {\"slug\": \"vital-brazil\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 7, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"experimentation\", \"resourcefulness\", \"persuasiveness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  }
+}

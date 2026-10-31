@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "shen-kuo",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Shen Kuo",
+    "aliases": [
+      "Shen Gua",
+      "Shen Kua",
+      "Shen Cunzhong",
+      "Meng-ch'i Weng",
+      "沈括"
+    ],
+    "wikidataId": "Q270085",
+    "birthYear": 1031,
+    "deathYear": 1095,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "astronomer",
+      "mathematician",
+      "scholar"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "polymath",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_shenkuo_wikidata",
+      "kind": "wikidata",
+      "title": "Shen Kuo (Q270085), verified live via the Wikidata API (2026-10-31): English label 'Shen Kuo', description 'Chinese scientist and statesman (1031-1095)', Korean label present, birth 1031 and death 1095 (year precision), image 'Beijing Ancient Observatory 20090715-19 (cropped).jpg' (a photograph of a modern observatory sculpture; checked for the portrait only and rejected). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q270085"
+    },
+    {
+      "id": "src_shenkuo_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Shen Kuo' (read in full). CANONICAL SIGNIFICANCE SOURCE: Chinese astronomer, mathematician and high official whose Mengxi bitan ('Brush Talks from Dream Brook') contains what the entry calls the first reference to the magnetic compass, the first description of movable type and a fairly accurate explanation of the origin of fossils, plus observations on mathematics, astronomy, atmospheric phenomena, cartography, optics and medicine; says he also wrote commentaries, atlases, diplomatic reports and monographs, and that the Mengxi bitan was written late in life after he was removed from office on a trumped-up charge and banished following a heavy defeat of troops under his titular command; retired to Dream Brook in 1088. Short encyclopedia entry.",
+      "url": "https://www.britannica.com/biography/Shen-Kuo"
+    },
+    {
+      "id": "src_shenkuo_dsb",
+      "kind": "biography",
+      "title": "Nathan Sivin, 'Shen Kua', Dictionary of Scientific Biography (1970-1990), as reproduced on Encyclopedia.com (the first roughly 35,000 characters read in full, then the sections on magnetism, astronomy, movable type, geology and the conclusion): long scholarly biography by a historian of Chinese science; describes his training for office, the 1072 directorship of the Astronomical Bureau where he dismissed six staff caught falsifying records and where obstruction doomed his five-year observation programme, his planetary 'willow leaf' model, arc-sagitta methods and instrument redesigns; his compass passage ('they are always displaced slightly east') and the caveat that geomancers may have anticipated him and that he apparently did not grasp the polarity of the stone; his account of the artisan Pi Sheng's movable type; his erosion and climate-change inferences; the atlas and the Brush Talks written after disgrace; Sivin's remark that a large part of the book concerns fate, divination and portents, which historians seeking a modern-scientist prototype have ignored, and his summary of Shen's open curiosity and mental independence. Independent scholarly source with explicit qualifications, citing Needham's translations.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/shen-kua"
+    },
+    {
+      "id": "src_shenkuo_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Shen Kua', MacTutor History of Mathematics archive, University of St Andrews (2003; read in full): biography built on Sivin and Needham; gives his training, drainage and land-reclamation work, the Astronomy Bureau of 1072 and the five-year observation plan, his mathematical problems (the go-board count, the stacked-pile formula), the willow-leaf planetary motion, the armillary sphere, water clock and gnomon he is said to have built, his maps, the later Dream Brook retirement and the Brush Talks; quotes Sivin on his 'profound technical curiosity' and on cutting past entrenched assumptions. University history-of-mathematics site, largely a summary of Sivin.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Shen_Kua/"
+    },
+    {
+      "id": "src_shenkuo_aaas",
+      "kind": "institution",
+      "title": "Steven A. Edwards, 'Shen Kuo, the first Renaissance man?', AAAS Scientia blog (15 March 2012; read in full): popular science-society post summarising the Dream Pool Essays: compass and declination, circumpolar-star observation, five years of planetary observations with Wei Pu, movable type of Bi Sheng, erosion and climate inferences, biological pest control, ink and petroleum. Uncritical and containing sweeping comparisons (Tycho Brahe, 'first' claims, a UFO anecdote) that no other source here supports; used only for the range of topics and not for any score.",
+      "url": "https://www.aaas.org/shen-kuo-first-renaissance-man"
+    },
+    {
+      "id": "src_shenkuo_mengxi",
+      "kind": "archive",
+      "title": "Shen Kuo, Mengxi bitan (Dream Pool Essays), Chinese text from Project Gutenberg (ebook 27292; only the passages on movable type and on the lodestone-rubbed needle were read, in the original Chinese): in the movable-type passage he says that in the Qingli era the commoner Bi Sheng made movable type of fired clay, and describes setting and printing and the use of two iron plates alternately, saying it is quick for tens or thousands of copies; in the compass passage he says needles rubbed with lodestone point south but 'often slightly to the east, not exactly south', that a silk thread and wax suspension works best, and that he has both north- and south-pointing needles at home. SELF-REPORT: his own words; used only for what he says he saw or recorded and never as sole support for a score.",
+      "url": "https://www.gutenberg.org/ebooks/27292"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_shenkuo_dsb, src_shenkuo_britannica, src_shenkuo_mactutor | 1050s-1095 | scholarly dictionary biography + encyclopedia + university history site] Sivin lists his writings on rituals, music and mathematical harmonics, administration, mathematical astronomy and instruments, tactics, painting, tea, medicine and poetry, and describes the Brush Talks as covering astronomy, mathematics, technology, medicine, philology and natural observation; Britannica and MacTutor add optics, cartography, geology and atmospheric phenomena, and MacTutor notes his work in mathematics, music, calendars and maps. Breadth is stated independently by three sources; Sivin cautions that the form is a miscellany of jottings and that depth varies, so confidence stays at the profile cap."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shenkuo_dsb, src_shenkuo_mactutor | 1054-1095 | scholarly dictionary biography + university history site] Sivin says his surviving explanations of the sphericity of the sun and moon, eclipse limits and lunar nodes were written in answer to a superior's informal questions while he studied astronomy in spare time, that he took up problems in mathematics with no practical application and that his 'open curiosity' and 'profound technical curiosity' are among the most conspicuous traits of his writing; MacTutor repeats the latter. This is a scholar's characterisation of a writer's work from a fragmentary record, partly relayed by one source and not independently tested, so the row stays modest."
+    },
+    "analytical_rigor": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shenkuo_dsb, src_shenkuo_mactutor | 1072-1075 | scholarly dictionary biography + university history site] As director of the Astronomical Bureau he planned a five-year programme of daily observations with renovated instruments and, per Sivin and MacTutor, dismissed six staff caught falsifying records; Sivin credits arc-sagitta methods that moved algebraic techniques towards trigonometry and notes that he insisted on daily observational records as the basis of the calendar. Sivin adds that obstruction at the Bureau doomed the observation programme and that his planetary suggestion would not have survived mathematical analysis of observations, so the rigor is documented in intent and method more than in results."
+    },
+    "experimentation": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shenkuo_dsb, src_shenkuo_mengxi | 1070s-1088 | scholarly dictionary biography + his own text (self-report)] Sivin says he took up needles rubbed with lodestone, discussed floating and other mountings, recommended suspension and recorded that needles are displaced slightly east of south, a recognition of declination that depended on his improved meridian and which Sivin says may have been anticipated by geomancers; Sivin also reports that he showed with paper figures on strings that strings tuned alike resonate. The Mengxi passage in Chinese gives the suspension by silk and wax and the eastward deviation in his own words. The compass observations are known mainly from his own jottings as relayed by one scholar, and Sivin says he apparently misunderstood the polarity of the stone, so the row is modest."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shenkuo_dsb, src_shenkuo_mactutor | 1070s-1088 | scholarly dictionary biography + university history site] Sivin says he tried to explain planetary retrogradation with a spatial 'willow leaf' model when traditional astronomers preferred purely numerical prediction, inferred from stony bamboo remains found in a dry region that the climate had once been moister, and, in Sivin's summary, showed 'mental independence' without the intolerance for disagreement of his patron; MacTutor quotes Sivin that he cut past entrenched assumptions. Sivin also notes that much of the same book deals with fate, divination and portents, and that the 'modern scientist' reading ignores this. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.50 to 58 / 0.44 because it rests on one scholar's trait judgement and a few self-reported jottings, in a book Sivin says is equally full of divination and portents."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "심괄"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear depiction found after one bounded retry. (1) The Wikidata image 'Beijing Ancient Observatory 20090715-19 (cropped)' is a CC BY-SA photograph of a modern statue at the Beijing Ancient Observatory, a derivative of a modern sculpture, so it was rejected as the brief requires. (2) Commons 'Portrait of Shen Cunzhong.jpg' (580 x 661, opened and viewed) is a woodblock-style page titled with his courtesy name and office, said by the uploader to be quoted from a 1919 Shen-clan genealogy of Changzhou via a Zhejiang Library website; the exact book, plate date and photographer or block-cutter are not documented on the Commons page (author unknown), the cited library page did not respond, and a Chinese-language web search found no record of the genealogy, so the 1919 publication date rests on the uploader. (3) Commons 'Shen Kua sketch.jpg' (281 x 326) says 'unknown 18th century artist' and 'public domain according to source site', but the cited MacTutor picture page now gives only a copyright link with no artist or date. (4) 'Shen Kua.JPG' is a modern drawing after a modern bust (rejected). Next step: find the Shen clan genealogy (Jinling or Changzhou Shen shi zongpu) in a library catalogue with an item-level date, or a museum open-access record of an early printed or painted portrait of Shen Kuo with stated terms; if the 1919 genealogy plate is confirmed it would be a historical depiction published before 1931."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / finding: HOLD after one bounded retry; the Wikidata image is a photograph of a modern sculpture (rejected); the best lead, a woodblock portrait said to come from a 1919 genealogy, rests on the uploader's date and an unreachable source page, and the other Commons images are a modern drawing and an undated 'unknown 18th century' sketch (details in portrait.reason). If a genealogy plate with a documented 1919 publication is confirmed the kind would be historical_depiction. QID VERIFIED LIVE (2026-10-31): Q270085, label 'Shen Kuo', description 'Chinese scientist and statesman (1031-1095)', P569 1031 and P570 1095 (year precision), ko label 심괄 (used for localization, as the brief gave). SLUG/QID CHECK: not in the production list, no data-pipeline/candidates/shen-kuo.json existed. REGION east_asia; ERA medieval; no nationalityCodes and no historicalPolityKey (none exists for the Northern Song), following du-fu without a polity key being available. VOCABULARY: occupations scientist, astronomer, mathematician, scholar; fields natural_science and mathematics (the 'astronomy' field has no label); tags polymath and innovator; archetype cross_disciplinary_generalist; impact domains scientific and historical, all with EN and KO labels. ZERO POLITICS: his official, financial, diplomatic and military roles (the Khitan embassy, the Tangut campaign, the New Policies, impeachment) are context only and unscored; the Astronomy Bureau, observation and instrument work are scored as science. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Shen Kuo' (https://www.britannica.com/biography/Shen-Kuo). EVIDENCE READ (curl/urllib to files, read locally): Britannica (full), Sivin's Dictionary of Scientific Biography entry via Encyclopedia.com (roughly the first 35,000 characters in full plus the magnetism, astronomy, printing, geology and conclusion sections), the MacTutor biography (full), the AAAS blog post (full, unreliable), and the Project Gutenberg Chinese text of the Mengxi bitan (two passages only). NOT OPENED: Needham's Science and Civilisation in China, Sivin's articles beyond the DSB entry, Hu Daojing's edition, Holzman's articles, Stanford or Wikipedia pages; Needham-based statements reach this file only through Sivin and MacTutor. INDEPENDENT PERSPECTIVES: (1) Sivin's scholarly dictionary biography; (2) Britannica's encyclopedic summary; (3) MacTutor's history-of-mathematics summary (largely derived from Sivin, so partly overlapping); (4) a popular science-society post (not scored). SELF-REPORT: the Mengxi bitan passages (his own composition) are kept separate from the scholarship, never used as sole support for a row, and were read only in part. NON-SELF BEHAVIOURAL source: Sivin (substantive). COUNTER-VOICES AND CAVEATS: Sivin says geomancers may have anticipated the declination remark, that Shen apparently did not understand the polarity of the stone, that a large part of the Brush Talks concerns fate, divination and portents, that obstruction at the Bureau doomed his observation programme and that his planetary model would not have survived a mathematical test; Britannica and AAAS state 'first' claims (compass, movable type, climate change) that Sivin treats more carefully, so no 'first' claim is carded. EXCLUDED ON PURPOSE: illness and weak constitution (a Sivin sentence), disgrace and house arrest as personality evidence, the impeachment, his career and negotiations as political or diplomatic behaviour, military actions and defeat, financial policy as politics, and the AAAS UFO and Tycho claims. SPARSE PROFILE: five rows, maximum 72, maximum confidence 0.52. MAJOR ACHIEVEMENT SELF-GATE: first pass PASS on primary contribution (the Mengxi bitan and his observations in compass, printing, astronomy and earth science), top omission (the Astronomy Bureau and the maps are carded), identity, significance-over-novelty (the AAAS curiosities such as the UFO passage are not carded) and side-project (his official career is not carded as an achievement); nothing corrected. SELF-CALIBRATION (agent): top-risk rows reviewed: independent_thinking (62/0.50 lowered to 58/0.44 because it rests on one scholar's trait judgement and a few self-reported jottings in a book full of divination and portents), curiosity (kept: Sivin and MacTutor agree and the row is already modest), experimentation (kept at 60/0.46, already low with the self-report caveat). HANDBACK60: {\"slug\": \"shen-kuo\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"independent_thinking\", \"old_score\": 62, \"old_confidence\": 0.5, \"new_score\": 58, \"new_confidence\": 0.44, \"reason\": \"it rests on one scholar's trait judgement and a few self-reported jottings, in a book Sivin says is equally full of divination and portents\"}], \"reviewed_kept\": [\"curiosity\", \"experimentation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

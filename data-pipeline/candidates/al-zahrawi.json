@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "al-zahrawi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Abu al-Qasim al-Zahrawi",
+    "aliases": [
+      "Albucasis",
+      "Abulcasis",
+      "Abu al-Qasim Khalaf ibn al-Abbas al-Zahrawi",
+      "Abul Kasim"
+    ],
+    "wikidataId": "Q311495",
+    "birthYear": 936,
+    "deathYear": 1013,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "scholar"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "detail_oriented",
+      "specialist"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_zahrawi_wikidata",
+      "kind": "wikidata",
+      "title": "Abu al-Qasim al-Zahrawi (Q311495), verified live via the Wikidata API (2026-10-31): label 'Abu al-Qasim al-Zahrawi', description 'Arab Andalusian physician, surgeon and chemist (936-1013)', birth given as 936 or 935, death given as 1010, 1013 or 1036, no Korean label, image 'Al-Zahrawi Portrait.jpg' (a modern drawing, rejected). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q311495"
+    },
+    {
+      "id": "src_zahrawi_eb",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Abu al-Qasim al-Zahrawi', read in full (about 400 words). CANONICAL SIGNIFICANCE SOURCE: a medieval surgeon of Andalusian Spain (born c. 936 near Cordoba, died c. 1013) whose 30-part medical text Al-Tasrif, combining Middle Eastern and Greco-Roman teaching, shaped European surgical procedure until the Renaissance; much of it rested on earlier authorities such as Paul of Aegina but with original observations; its last part, with drawings of more than 200 instruments, is described as the first illustrated independent work on surgery; largely ignored in the eastern Islamic world but, translated into Latin by Gerard of Cremona in the 12th century, the leading European surgical textbook for nearly 500 years. Tertiary reference article; it says he was physician to Abd al-Rahman III, whereas other sources say al-Hakam II.",
+      "url": "https://www.britannica.com/biography/Abu-al-Qasim"
+    },
+    {
+      "id": "src_zahrawi_calvo",
+      "kind": "biography",
+      "title": "Emilia Calvo (University of Barcelona), 'Abu al-Qasim al-Zahrawi', Aspetar Sports Medicine Journal, vol. 1 issue 1 (2012; series Legacy of Arabic Medicine), read in full (about 1,900 words): little is known of his life; the Tasrif is an illustrated 30-book encyclopaedia drawn from almost fifty years of practice that cites more than sixty sources; Book 30 on surgery has three parts (cauterisation, knife surgery, fractures and dislocations), a foreword regretting the low level of surgery and giving examples of patients who died through surgeons' incompetence, his stated refusal to operate in hydrocephalus and his refusal to amputate a man's hand, the abundance of drawn instruments, and the Latin translation by Gerard of Cremona and its later use. Scholarly review article by a historian of Arabic medicine; the behavioural items are his own statements in the Tasrif as relayed by the author.",
+      "url": "https://journal.aspetar.com/en/journals/volume-1-issue-1/abu-al-qasim-al-zahrawi-103"
+    },
+    {
+      "id": "src_zahrawi_yancey",
+      "kind": "biography",
+      "title": "Michael T. Yancey, 'Abul Qasim Khalaf ibn al-Abbas al-Zahrawi', Science and Its Times (Gale, via Encyclopedia.com), read in full (about 400 words): a Spanish Arab surgeon born near Cordoba in 936, personal physician to al-Hakam II, whose 30-volume, 1,500-page encyclopedia has three surgical books covering eye, ear and throat surgery, cauterisation, fistulas, bladder stones, bone setting, plus phlebotomy and obstetrics; he is said to have designed instruments, 200 of them illustrated in volume 30. Short student-level reference entry; the 'first to give illustrations' wording is the entry's and is not repeated as fact.",
+      "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/abul-qasim-khalaf-ibn-al-abbas-al-zahrawi"
+    },
+    {
+      "id": "src_zahrawi_chavoushi",
+      "kind": "biography",
+      "title": "Chavoushi et al., 'Surgery for Gynecomastia in the Islamic Golden Age: Al-Tasrif of Al-Zahrawi (936-1013 AD)', Evidence-Based Complementary and Alternative Medicine (open access, PubMed Central), read in the abstract, biography and Tasrif sections: notes that few details of his life survive (first mentioned by Ibn Hazm, first biography in al-Humaydi some six decades after his death), that he served the caliphs Abd al-Rahman III and al-Hakam II, that the Tasrif was completed about 1000, and, as a counter-voice, that the debated view that Islamic surgeons merely relayed Greco-Roman ideas is met by the observation that his gynecomastia procedure follows Paul of Aegina but with modifications that may indicate his own practice. Peer-reviewed historical article on one procedure, so it supports a narrow point.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3459224/"
+    },
+    {
+      "id": "src_zahrawi_nahil",
+      "kind": "press",
+      "title": "Dr Mohamad Anas Nahil, review of a book on Albucasis, Journal of the British Islamic Medical Association (jbima.com), read in full (about 1,100 words): summarises his surgical fields (orthopaedics, dentistry, gastrointestinal surgery, ENT), instruments, his advice that trainee surgeons first complete general medicine, the transmission through Gerard of Cremona and Guy de Chauliac's citations and the Venice printing of 1471. Short popularising book review by a research fellow; admiring in tone and not footnoted, so used only to cross-check the outline of his reception.",
+      "url": "https://www.jbima.com/wp-content/uploads/2020/08/7_-BookReview___ALBUCASIS.pdf"
+    },
+    {
+      "id": "src_zahrawi_columbia",
+      "kind": "biography",
+      "title": "'Abulcasis', The Columbia Encyclopedia, 6th edition (via Encyclopedia.com), read in full (four sentences): Arab physician, died about 1013, born near Cordoba; his chief work, the Tasrif, a detailed account of surgery and medicine in three parts (cautery, surgery, fractures and dislocations), was for many years the leading surgical textbook and was translated many times into Latin. Very short; used only to corroborate the outline.",
+      "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/abulcasis"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zahrawi_calvo, src_zahrawi_eb, src_zahrawi_nahil | c. 950-1000 | scholarly review + reference + review] Calvo describes the Tasrif as the product of almost fifty years of practice that draws on more than sixty named authorities and the author's own experience, with the surgical book covering cautery, knife surgery and bone-setting in detail; Nahil reports his advice that trainees complete general medicine before surgery. The evidence is the structure and content of one surviving work as described by modern scholars, plus a secondary review for the training advice, with nothing from contemporaries about how he worked."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zahrawi_eb, src_zahrawi_calvo, src_zahrawi_yancey | c. 1000 | reference + scholarly review] Britannica and Yancey describe drawings of about 200 surgical instruments in the final book; Calvo stresses the abundance of instruments drawn and described, an unusually full account of anatomy, and case notes, and says the 'case studies' record outcomes such as wounds that healed with an arrowhead left in place. The care is documented in the work as described; the exact counts differ between sources and are not used."
+    },
+    "risk_tolerance": {
+      "score": 36,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zahrawi_calvo | c. 1000 | scholarly review of his own text] Calvo reports that in the foreword to the surgical book he cites cases where patients died through surgeons' incompetence, sets out criteria for when surgery is feasible or useless and dangerous, says he always refused to operate in hydrocephalus, and refused to amputate a man's hand for fear the man would die. These are his own statements in the Tasrif relayed by a single scholar, with no independent witness, so the row reflects a documented written stance of caution, not a measured behaviour pattern."
+    },
+    "creative_originality": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zahrawi_eb, src_zahrawi_chavoushi, src_zahrawi_calvo | c. 1000 | reference + peer-reviewed article + review] Britannica says much of the text rested on earlier authorities, especially Paul of Aegina, while containing original observations and an illustrated instrument section; Chavoushi finds that his gynecomastia procedure follows Paul of Aegina but with modifications that may indicate his own practice; Calvo says the surgical book is based on Paul of Aegina and his own experience. The originality is therefore real but modest and partly inferred. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 60 / 0.45 to 56 / 0.42 because two of the three sources stress dependence on Paul of Aegina and the original element is inferred from a single procedure."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알자흐라위"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved after one bounded retry. The Wikidata image 'Al-Zahrawi Portrait.jpg' is a modern drawing (CC BY-SA 4.0, by Michel Bakni), a derivative modern artwork of unknown fidelity; rejected. In the Commons category for Abulcasis: (1) 'Albucasis blistering a patient in the hospital at Cordova' (Wellcome L0015000) is an oil painting by Ernest Board (1877-1934), dated only 'before 1934' and tagged CC BY 4.0, so the work's own date and any US term are unproven (a 1931-1934 date would not be public domain by age) and it shows a scene rather than a portrait; rejected. (2) The Wellcome Tacuinum Sanitatis miniature is mislabelled as Albucasis and is a CC BY-SA copy of a manuscript miniature with no stated identification; rejected. (3) 'Albucasis (c. 1906) - Veloso Salgado.png' (787 x 1093) is a crop of a 1906 mural-panel painting by the Portuguese painter Veloso Salgado (1864-1945) in the Sala dos Actos of the Lisbon medical school (NOVA Medical School), which is public domain by age, but the identification of the figure as Albucasis rests only on the Commons uploader's image annotation: the NOVA texts found (school history page and a 1995 Acta Medica Portuguesa article) confirm that Salgado's panels trace the history of medicine from Arabic medicine onward but do not name the figures; held for that reason. Next step: find a NOVA Medical School or catalogue statement naming the figures of the Arabic Medicine panel (then use it as a historical depiction), or a Latin edition frontispiece or plate of the Chirurgia published before 1931 with an item-level statement (Wellcome public domain mark or Internet Archive plate). Kind, if resolved: historical depiction."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed risky and HELD after one bounded retry: see portrait.reason (modern CC BY-SA drawing rejected; Ernest Board painting date unproven; the 1906 Veloso Salgado panel is public domain by age but the figure's identity is only an uploader annotation). PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q311495 label 'Abu al-Qasim al-Zahrawi', description 'Arab Andalusian physician, surgeon and chemist (936-1013)'; birth 936 (or 935), death 1013 (Wikidata also lists 1010, 1036; Britannica c. 936-c. 1013 used); no production (prod60.txt) or candidate slug/QID collision. REGION southern_europe: the repo precedent for Andalusian figures is Averroes (Cordoba, southern_europe, ES); no historical polity key is set because the repo has no Umayyad Cordoba caliphate key (existing keys cover Abbasid, Fatimid, Almohad). nationalityCodes left empty as for al-Razi and al-Khwarizmi (no modern state to assign). ERA medieval. ZERO POLITICS: primary identity physician and surgeon; court service is not scored. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Abu al-Qasim al-Zahrawi' (https://www.britannica.com/biography/Abu-al-Qasim). READ: Britannica, Calvo (Aspetar), Yancey (Science and Its Times), Chavoushi et al. (PMC), Nahil book review, Columbia entry (6 sources; Britannica and Columbia are short). PERSPECTIVES: reference encyclopedias; a Barcelona historian of Arabic medicine; a peer-reviewed historical article that tests the 'merely relayed Greek ideas' view (counter-voice); a popular book review. All evidence for behaviour is his own surviving work, as described by modern scholars: there is NO contemporary witness text and no non-self behavioural source beyond the later reception record (Gerard of Cremona, Guy de Chauliac as cited by Nahil), so rows are few and confidence is capped below 0.50. NOT OPENED: Spink and Lewis 'Albucasis on Surgery and Instruments' (not accessible), Campbell's Arabian Medicine, Encyclopaedia of Islam, the Arabic text itself; the Muslim Heritage and other popular pages were not used. CONFLICTS RECORDED: Britannica names Abd al-Rahman III as his caliph, Yancey and the book review say al-Hakam II, Chavoushi says both: the court role is not scored. Counts of instruments and chapters differ across sources and are not used; the 'first illustrated surgical work', 'first description of haemophilia' and plastic-surgery 'firsts' are not carded as fact. Korean name: Wikidata has no Korean label; '알자흐라위' is a TRANSCRIPTION of al-Zahrawi chosen by the agent, not an established Korean Wikipedia title. SELF-CALIBRATION pass: rows reviewed creative_originality (lowered 60/0.45 to 56/0.42), mastery_orientation (kept), risk_tolerance (kept). FLAGS: 4 rows, max score 64, max confidence 0.48; risk_tolerance rests on one scholar's reading of his own foreword. HANDBACK60: {\"slug\": \"al-zahrawi\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 60, \"old_confidence\": 0.45, \"new_score\": 56, \"new_confidence\": 0.42, \"reason\": \"two of three sources stress dependence on Paul of Aegina and the original element is inferred from a single procedure\"}], \"reviewed_kept\": [\"mastery_orientation\", \"risk_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

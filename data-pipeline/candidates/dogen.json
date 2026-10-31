@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "dogen",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Dogen",
+    "aliases": [
+      "Eihei Dogen",
+      "Dogen Kigen",
+      "Dogen Zenji",
+      "Dōgen",
+      "Kigen Dōgen"
+    ],
+    "wikidataId": "Q318064",
+    "birthYear": 1200,
+    "deathYear": 1253,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "philosopher",
+      "writer"
+    ],
+    "fieldIds": [
+      "religion",
+      "literature",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dogen_wikidata",
+      "kind": "wikidata",
+      "title": "Dogen (Q318064), verified live via the Wikidata API (2026-10-31): label 'Dōgen', description 'Japanese Zen Buddhist teacher (1200-1253)', born 1200-01-19, died 1253-09-29 (Britannica and New World Encyclopedia give 22 September, so the day is not carded), citizenship Japan, Korean label 도겐. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q318064"
+    },
+    {
+      "id": "src_dogen_bielefeldt",
+      "kind": "biography",
+      "title": "Carl Bielefeldt, 'Dogen', Encyclopedia of Religion (Gale, via Encyclopedia.com; read in full, about three paragraphs). CANONICAL SIGNIFICANCE SOURCE: an early Japanese Zen figure regarded as founder of the Japanese Soto school; trained in Tendai, then under Myozen (a disciple of Eisai); went to China in 1223, received dharma transmission from Rujing on Mount Tiantong; returned in 1227 and established Koshoji near the capital, one of the first Japanese institutions to introduce Song-style Chan monastic practice; in 1242 left for Echizen where he founded Eiheiji; wrote essays such as the Fukan zazengi, monastic rules later collected as Eihei shingi, the Hokyoki, verse, and the Eihei koroku; the Shobogenzo is a collection of vernacular essays of about ninety-five texts in several redactions, little studied for centuries, a primary source for Soto doctrine in the 17th-18th centuries and a classic in the 20th. Scholarly reference by a specialist; says nothing on his personal conduct.",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/dogen"
+    },
+    {
+      "id": "src_dogen_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Dogen' (biography page, summary and the start of the article, read; the later sections of the article are subscriber-only): born in Kyoto into the court nobility, orphaned at seven, ordained at 13, studied on Mount Hiei, studied Zen in China between 1223 and 1227 under Ju-ching, lived at various temples on his return, spent his last years at Eiheiji, wrote the Fukan zazengi (1227) and the Shobogenzo (1231-53, 95 chapters). Short reference summary; it follows the traditional biography on the early years.",
+      "url": "https://www.britannica.com/biography/Dogen"
+    },
+    {
+      "id": "src_dogen_heine",
+      "kind": "biography",
+      "title": "Steven Heine, 'The Eihei koroku: The Record of Dogen's Later Period at Eihei-ji Temple', in Steven Heine and Dale S. Wright (eds.), 'The Zen Canon' (Oxford University Press, 2004), chapter 8 (29 pages; read the overview and the sections on structure and style in full, and skimmed the passage-by-passage analysis). Scholarly study by the leading Dogen specialist: says the Shobogenzo was the main work of the ten years (1233-1243) at Koshoji and was almost entirely completed by the move to Echizen, that the Eihei koroku was compiled by disciples from sermons of the last decade (1244-1253) and is probably the first main example of its genre produced in Japan, and that Dogen cited a vast repertoire of Chinese Chan writings and critiqued or rewrote numerous Chinese sayings, including those of his own mentor. Admiring of the subject's originality, as the author is a specialist advocate for the field.",
+      "url": "https://terebess.hu/zen/dogen/Heine-EiheiKoroku.pdf"
+    },
+    {
+      "id": "src_dogen_kubovcakova",
+      "kind": "press",
+      "title": "Zuzana Kubovcakova, review of Steven Heine, 'Readings of Dogen's Treasury of the True Dharma Eye' (Columbia University Press, 2020), Journal of Buddhist Ethics 28 (2021), 12 pages (read in full): an independent academic review that describes the Shobogenzo as a compilation of informal sermons-turned-essays based on citations of Chinese masters, notes Dogen's deliberate creation of new expressions and innovative use of Japanese syntax (a language labelled 'Dogen-ese'), the difficulty and apparent contradictions of reading him, and cites Heine's statement that Dogen is the most extensively studied East Asian Buddhist leader in the West. Independent of the author of the book but largely restates Heine's account.",
+      "url": "https://blogs.dickinson.edu/buddhistethics/files/2021/01/Kubovc%cc%8ca%cc%81kova%cc%81_Review_of_Heine_Readings_of_the_Treasury.pdf"
+    },
+    {
+      "id": "src_dogen_nwe",
+      "kind": "biography",
+      "title": "New World Encyclopedia, 'Dogen' (life and works sections read, about 14,000 characters): says he studied under Eisai's school and Myozen for nine years, went to China at 24, studied with Ju-ching, returned after four years, established Eiheiji in 1244 and spent his remaining ten years teaching and writing, quotes Heine on his creative use of language, and names Keizan as his most notable successor. Edited encyclopedia article, derivative and not fully footnoted; dates differ from Bielefeldt (1244 against 1242 for the move) and it repeats the traditional enlightenment narrative, so it is used only as a cross-check.",
+      "url": "https://www.newworldencyclopedia.org/entry/Dogen"
+    },
+    {
+      "id": "src_dogen_shambhala",
+      "kind": "press",
+      "title": "Publisher's description of Steven Heine, 'Dogen: Japan's Original Zen Teacher' (Shambhala, 2021) (read in full, about 250 words): says there is much that remains enigmatic about his life and writings and lists 'ongoing controversies in the scholarly interpretations of Dogen's biography and teachings' and 'unresolved questions regarding his teaching career in Japan'. Marketing text; used only as the source for the caution that the traditional biography is contested.",
+      "url": "https://www.shambhala.com/authors/g-n/dogen.html"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dogen_bielefeldt, src_dogen_brit, src_dogen_heine | 1213-1227 | scholarly reference + reference + scholarly study] Bielefeldt says he trained in Tendai and then under Myozen, went to China in 1223 and received transmission from Rujing on Mount Tiantong; Britannica adds study on Mount Hiei and four years of Zen study in China; Heine says he cited from or alluded to a vast repertoire of Chinese Chan writings with which he was intimately familiar. These show long, serious training in one tradition and unusual command of its literature; the training narrative before China rests on the traditional biography, which Heine's publisher describes as contested in places, and no doctrine is scored."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dogen_bielefeldt, src_dogen_heine, src_dogen_kubovcakova | 1231-1253 | scholarly reference + scholarly study + independent review] Bielefeldt calls the Shobogenzo a collection of vernacular essays; Heine says Dogen took an original and innovative approach, critiquing or rewriting Chinese sayings and producing what is probably the first main Japanese example of the recorded-sayings genre; Kubovcakova's review notes his deliberate coining of new expressions and innovative use of Japanese syntax. The originality scored is in how he wrote and taught, not in doctrine; two of the three sources are specialists who admire the work, and the third largely restates Heine."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dogen_heine, src_dogen_brit, src_dogen_bielefeldt | 1233-1253 | scholarly study + reference + scholarly reference] Heine says the Shobogenzo was the main work of ten years at Koshoji and was almost entirely completed by the move to Echizen, while Dogen apparently kept editing some fascicles and added more, and that he then led Eiheiji for about ten years; Britannica dates the Shobogenzo to 1231-53; Bielefeldt says it was composed over many years and survives in several redactions, with its original form uncertain. This shows long, sustained work; the sources do not describe the effort behind it, so the score rests on the time span and the editing."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dogen_bielefeldt, src_dogen_nwe, src_dogen_heine | 1227-1253 | scholarly reference + encyclopedia + scholarly study] Bielefeldt lists essays on practice, treatises on monastic rules, a record of his study in China, Japanese verse and formal sermons in Chinese; New World Encyclopedia says he wrote waka and Chinese-style verse as well as prose; Heine says the Shobogenzo is in Japanese and the Eihei koroku in Chinese, in two different sermon styles. This is breadth of genre and language within one tradition, not breadth across fields, so the score is modest."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_dogen_heine, src_dogen_kubovcakova, src_dogen_shambhala | 1230s-1253 | scholarly study + independent review + publisher text] Heine says he critiqued or rewrote numerous Chinese sayings, including those of his own mentor, and the review notes his novel and unorthodox interpretation of the Chinese originals. The claim comes from one specialist and a review that restates him, and the publisher text says the interpretation of his teachings is still contested. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.46 to 58 / 0.42 because the independence claim rests on one specialist's characterisation of the texts and a review that repeats it, not on documented behaviour in a source independent of Heine."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "도겐"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait found after one bounded retry. The Wikidata image 'Dogen.jpg' (576 x 1050) is the 'Moon-viewing' portrait of Dogen held at Hokyoji in Fukui, dated about 1250 on Commons; the painting is very old, but the Commons page gives no item-level rights statement, and its two cited sources are a Fukui Prefectural Archives page that did not open (the site did not respond) and a copy on a university religion-in-Japan website, so the origin and terms of the photograph cannot be confirmed, and the temple's own terms are unchecked. The other Commons file, 'Soto Zen Master Dogen Zenji Portrait.png', is taken from a personal website with an unknown author and a generic tag. A search of the Art Institute of Chicago and Metropolitan Museum open-access collections found no portrait of him. Next step: obtain the Hokyoji portrait from the holder or from a Japanese cultural-property database or the Fukui archives with an explicit statement of terms, record its date and dimensions, and use it as a historical depiction (a later portrait, not a sitting); alternatively find a museum open-access image of an old Dogen portrait."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / downgraded: P18 'Dogen.jpg' is the Hokyoji moon-viewing portrait (about 1250) but its Commons page cites a Fukui Prefectural Archives page (unreachable) and a university website copy, with a generic PD-old tag and no item-level statement; the other Commons file is from a personal site with unknown author. Bounded retry (Commons search, Art Institute of Chicago and Metropolitan Museum searches) found nothing better. PORTRAIT HELD (see portrait.reason); kind would be historical_depiction. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q318064 label 'Dōgen', description 'Japanese Zen Buddhist teacher (1200-1253)', born 1200-01-19, died 1253-09-29, Korean label 도겐; no production or candidate slug/QID collision (grepped prod60.txt and data-pipeline/candidates). REGION east_asia, nationality JP; no existing polity key fits Kamakura-era Japan (heian_japan, ashikaga_shogunate and tokugawa_shogunate exist), so none is set. ERA medieval. ZERO POLITICS: primary identity is monk, teacher and author; his relations with patrons in Echizen and the visit to Kamakura in 1247 are context and not scored. VOCABULARY: occupations religious_leader, philosopher, writer; fields religion, literature, philosophy; tags founder, prolific; archetype scholarly_specialist; impact domains cultural, literary, historical; all grepped in en.ts and ko.ts. CANONICAL SIGNIFICANCE SOURCE: Carl Bielefeldt, 'Dogen', Encyclopedia of Religion (https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/dogen). READ: Bielefeldt's entry in full; Britannica's summary and opening; Heine's chapter on the Eihei koroku (overview and style sections in full, the rest skimmed); Kubovcakova's review of Heine's 'Readings' (in full); New World Encyclopedia; the Shambhala description of Heine's biography. PERSPECTIVES: scholarly reference, short reference, specialist study, independent academic review, edited encyclopedia, publisher text. COUNTER-VOICES: limited; the sources agree and are largely admiring or descriptive. The cautions are Bielefeldt (the Shobogenzo was little studied for centuries; its original form is uncertain), the publisher's reference to controversies about his biography and teaching career, and date conflicts between sources (the move to Echizen is 1242 in Bielefeldt, 1243 in the usual account, 1244 in Heine and New World Encyclopedia; the day of death differs from Wikidata). SELF-REPORT SEPARATION: the Shobogenzo, Fukan zazengi, Eihei shingi, Hokyoki and letters are his own writings; everything about them and his conduct reaches this profile through scholars, and the rows score only what the scholars describe about his writing practice; the early hagiography (Kenzeiki) was not opened and no legend or enlightenment narrative, doctrine or miracle story is scored. NOT OPENED: Kim's 'Eihei Dogen: Mystical Realist', Leighton's work, Bielefeldt's 'Dogen's Manuals of Zen Meditation', the Stanford Encyclopedia of Philosophy (no entry at the expected address), Heine's biography and the Kenzeiki itself, the Britannica remainder (subscriber-only), the Eiheiji and Sotoshu sites (they did not return usable text). EXCLUSIONS: doctrine (shikantaza, practice-realisation), enlightenment and legendary episodes, the quarrel with Tendai and the motives for leaving Kyoto, politics. SPARSE PROFILE: five rows, none above 64, confidence 0.42-0.48. KO NAME: 도겐, the Wikidata Korean label. SELF-CALIBRATION (agent): top-risk rows reviewed: independent_thinking (62/0.46 lowered to 58/0.42), creative_originality (kept: three sources, though two are admiring specialists), mastery_orientation (kept). HANDBACK60: {\"slug\": \"dogen\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"independent_thinking\", \"old_score\": 62, \"old_confidence\": 0.46, \"new_score\": 58, \"new_confidence\": 0.42, \"reason\": \"the independence claim rests on one specialist's characterisation of the texts and a review that repeats it, not on a source independent of Heine\"}], \"reviewed_kept\": [\"creative_originality\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

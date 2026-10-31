@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "salim-ali",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Salim Ali",
+    "aliases": [
+      "Sálim Ali",
+      "Salim Moizuddin Abdul Ali",
+      "Birdman of India"
+    ],
+    "wikidataId": "Q2904990",
+    "birthYear": 1896,
+    "deathYear": 1987,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "naturalist",
+      "biologist",
+      "scientist",
+      "writer"
+    ],
+    "fieldIds": [
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "literary"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "detail_oriented",
+      "prolific",
+      "mentor",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sali_wikidata",
+      "kind": "wikidata",
+      "title": "Salim Ali (Q2904990), verified live via the Wikidata API (2026-10-31): label 'Salim Ali', description 'Indian ornithologist (1896-1987)', born 1896-11-12, died 1987 (two death dates recorded), Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2904990"
+    },
+    {
+      "id": "src_sali_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Salim Ali', fetched for orientation (names, dates, works, and the pointers to a letter-based critique). Orientation only; never counted as a source for any row.",
+      "url": "https://en.wikipedia.org/wiki/Salim_Ali"
+    },
+    {
+      "id": "src_sali_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Salim Ali' (by Manjishtha Bhattacharyya), read in full: early life with his uncle, a B.Sc. in zoology at St. Xavier's College, ten years in Burma, the rejection by the Zoological Survey of India, the 1926 museum guide post, the 1929 training under Erwin Stresemann in Berlin, the 1930 proposal to survey the princely states pro bono beginning with Hyderabad, the 1931 baya weaver study, The Book of Indian Birds (1941), the ten-volume Handbook with S. Dillon Ripley (1968-74), his BNHS roles and honours. CANONICAL SIGNIFICANCE SOURCE. A favourable general encyclopedia entry.",
+      "url": "https://www.britannica.com/biography/Salim-Ali"
+    },
+    {
+      "id": "src_sali_insa",
+      "kind": "institution",
+      "title": "Indian National Science Academy, Biographical Memoirs of Fellows, 'Salim A. Ali (1896-1987)' (PDF, about 3 pages), read in full: describes his training under Stresemann, the targeted bird surveys of the 1930s-1970s (Berars, Western Ghats, Hyderabad, Kumaon Terai), the survey books, his teaching at the BNHS research institute, his unpaid and frugal working life and his non-conformism. A fellow's memoir by a BNHS colleague, admiring in tone; the memoir gives his birth date as 11 November, which conflicts with 12 November in other sources.",
+      "url": "https://insaindia.res.in/BM/BM20_9512.pdf"
+    },
+    {
+      "id": "src_sali_arn",
+      "kind": "press",
+      "title": "Asia Research News, 'Giants in History: Salim Moizuddin Abdul Ali: The hunter who became the Birdman of India', read in full (short): summarises his surveys, the baya weaver paper, the Handbook with Ripley and his honours. Short popular summary.",
+      "url": "https://www.asiaresearchnews.com/node/18983"
+    },
+    {
+      "id": "src_sali_sacon",
+      "kind": "institution",
+      "title": "Salim Ali Centre for Ornithology and Natural History (SACON), 'Dr. Salim Ali Profile', read in full: unemployment after Burma, the Berlin training, the idea of gratis regional surveys funded by the states and the BNHS, the BNHS rescue after Independence and the 'living bird' statement from his autobiography. Institutional tribute named after him; admiring and partly derivative of his autobiography.",
+      "url": "https://www.sacon.in/salim-ali-profile/"
+    },
+    {
+      "id": "src_sali_mongabay",
+      "kind": "press",
+      "title": "R. J. Ranjit Daniels (ecologist, Care Earth Trust), 'A lifetime of watching birds with a pencil, paper and patience', Mongabay India commentary (28 October 2025), read in full: his live-bird approach in a period of heavy collecting, the notebook-and-ledger method (quoted from his autobiography), the Book of Indian Birds editions, the Handbook (1953-1974), and an observation that he relied on Stuart Baker's faunal volumes. An independent ecologist's commentary, admiring; the method quote is his own words.",
+      "url": "https://india.mongabay.com/2025/10/a-lifetime-of-watching-birds-with-a-pencil-paper-and-patience-commentary"
+    },
+    {
+      "id": "src_sali_sanctuary",
+      "kind": "press",
+      "title": "Bittu Sahgal, 'Dr. Salim Moizuddin Abdul Ali (1896-1987)', Sanctuary Asia (June 2010), read in full: a personal tribute that notes his pro bono BNHS work, the loss of recorded interviews, his enthusiasm for hunting (shikar) until it was banned, and his rejection by the Zoological Survey of India for lacking a postgraduate degree. Tribute by a conservation editor; recollections, not verified records.",
+      "url": "https://www.sanctuarynaturefoundation.org/article/dr.-salim-moizuddin-abdul-ali---(1896-1987)"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sali_britannica, src_sali_sacon, src_sali_insa, src_sali_sanctuary | 1919-1930s | encyclopedia + institution + memoir + tribute] Rejected for the Zoological Survey post and left without a job when his museum post was abolished in 1930, he did not leave the field: he proposed and then carried out bird surveys of the princely states for roughly two decades, asking only for travel and camp costs (Britannica, SACON). The INSA memoir says he drew no salary for most of his career and worked longer hours than his staff, and the tribute says he worked pro bono for the BNHS. The sources are admiring and the long-hours claim is a colleague's recollection; the surveys themselves are well attested."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sali_britannica, src_sali_mongabay, src_sali_insa | 1906-1931 | encyclopedia + commentary + memoir] From the boyhood sparrow he moved to the 1931 baya weaver study of nesting behaviour and to surveys that targeted specific questions, such as the search for the white-fronted tree pie in the Berars or Jerdon's courser in Hyderabad and the Satpura hypothesis (INSA); the commentary says he asked behavioural and ecological questions about live birds (Daniels). The boyhood anecdote is from his own autobiography via the commentators and is not counted; the evidence is the adult research agenda."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sali_mongabay, src_sali_insa | 1930s-1970s | commentary + memoir] He kept running field notes in a pocket notebook and transcribed them the same day into a ledger with one account per species, dated and located (Daniels, quoting his autobiography); the INSA memoir calls the notes from his surveys some of the best examples of data collection for field ornithology. The method description is first-person and the praise is a colleague's, so confidence stays moderate; the notes themselves were not examined."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sali_mongabay, src_sali_insa | 1930-1974 | commentary + memoir] The same-day ledger routine (Daniels) and the decades-long sequence of regional surveys leading to the 1941 book and the ten-volume Handbook (1953-74 per the commentary; 1968-74 publication per Britannica) indicate regular, systematic working habits. The memoir adds that he handled public funds with frugality and accountability, which is a colleague's recollection."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sali_britannica, src_sali_sacon | 1930 | encyclopedia + institution] Returning from Berlin in 1930 to find his museum post abolished, he proposed to the BNHS a programme of surveys in the princely states, offering his services free if the Society and the states met camping and travel costs; the states agreed and he mapped avifauna there for the next twenty years (Britannica; SACON describes the same idea and its funding). The solution turned a lack of employment into a funded research programme; the two sources are not fully independent of his own account."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sali_mongabay, src_sali_insa | 1930s-1950s | commentary + memoir] A commentator says that when European ornithologists and heavy collecting dominated, he favoured study of the living bird, its ecology and behaviour (Daniels); the memoir calls him a non-conformist who walked a path divergent from the mainstream of Indian science. Dual-edged because the same commentary notes he relied heavily on Stuart Baker's faunal series, and the Wikipedia article (orientation only, not opened at source) points to a letter in which Ernst Mayr thought Ali did not see the need to collect series; that letter was not read and is not scored."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sali_britannica, src_sali_insa, src_sali_sacon | 1929-1930 | encyclopedia + memoir + institution] Lacking formal ornithological training in India, he wrote to experts in Britain and Germany and, on Stresemann's invitation, spent nine months in Berlin in 1929 learning bird taxonomy and field ornithology; the INSA memoir calls Berlin the turning point and Stresemann his guru for life. The behaviour is documented in several sources, though all are favourable."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "살림 알리"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait found. The Wikidata image 'Salim ali mns.jpg' (CC BY 2.5, 429 x 572) is credited to V. Santharam as a scan (December 2006) with no stated photographer or date of the original photograph; 'Salim Ali 1927.jpg' has an unknown photographer and a PD-old-70 tag with a 1996 reprint as source; the Smithsonian 1976 photo rests on 'no restrictions' only. Next step: find the photographer or institution (for example the Bombay Natural History Society) holding a dated portrait and obtain its stated terms, or an item-level public-domain image.",
+    "kind": "likeness"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / HELD AFTER REVIEW. The lead's P18 'Salim ali mns.jpg' (Commons, 429 x 572, CC BY 2.5) credits V. Santharam as author with Date 'Scanned December 2006', source 'V. Santharam - contact info', Permission cc-by-2.5 with a Wikimedia permission-ticket number; the credit is for the scan, the photographer and the date of the original photograph are not stated, so the uploader cannot be shown to hold the rights to the photo; this is an uploader assertion with unknown original provenance and is rejected. Second look (one bounded retry): 'Salim Ali 1927.jpg' (674 x 695, PD-old-70) is a group photo with students, 'photographer unknown', copied from a BNHS centenary issue of the Hornbill; unknown photographer plus an age tag and a 1996 reprint source is not a rights basis, rejected. The Smithsonian photo of the Ripleys with Ali (1976, 'No restrictions', unidentified photographer) is a post-1930 'no known restrictions' basis, rejected. The India Post 1996 stamp (GODL-India) is a stamp image of a government work, not reviewed further. Next step: identify the photographer or the BNHS holding of a dated portrait and obtain its stated terms, or an item-level public-domain image. PREFLIGHT: QID Q2904990 VERIFIED LIVE (2026-10-31): label 'Salim Ali', description 'Indian ornithologist (1896-1987)', born 12 Nov 1896, died 1987 (Wikidata lists two death dates, 20 June and 27 July; Britannica and INSA agree on 20 June, adopted for 1987 only); Korean label present. No collision with prod60.txt or data-pipeline/candidates. REGION south_asia. ERA 20th_century. VOCABULARY (all grepped EN and KO): occupations naturalist, biologist, scientist, writer; field biology; tags field_researcher, detail_oriented, prolific, mentor, nonconformist; archetype scientific_explorer, scholarly_specialist. 'ornithologist' has no label so biology is used as instructed. KOREAN NAME: Wikidata label. ZERO POLITICS: primary identity is the scientific ornithologist; his conservation advocacy (Bharatpur, Silent Valley), his Rajya Sabha nomination (1985) and his dealings with prime ministers are unscored context; no rows use them. Hunting enthusiasm in youth is context only and is not scored. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Salim Ali' (https://www.britannica.com/biography/Salim-Ali). READ (7 substantive): Britannica; INSA Biographical Memoir; Asia Research News; SACON profile; Mongabay commentary by R. J. R. Daniels; Sanctuary Asia tribute. PERSPECTIVES: encyclopedia, national academy memoir by a colleague, an institution named for him, an independent ecologist's commentary, a conservation-magazine tribute. All are favourable; the one critical strand (a letter from Ernst Mayr to Ripley about collecting series, and historians who call BNHS conservation undemocratic, and a later decline at Bharatpur after grazing was excluded) reached me only through the Wikipedia article's citations to Lewis (2003) and was NOT read at the source, so it is mentioned only in the independent_thinking rationale as an unread pointer and not scored. NOT OPENED: the Auk memoriam by Ripley (the SORA PDF link returned a repository page), the Forktail obituary, Gadgil's Current Science obituary (IISc ePrints returned a gateway error), the BNHS 'Stalwart' PDF (connection refused), Tara Gandhi's biography, Rahmani's 'Living with Birds', and the autobiography itself (used only as quoted by commentators). Exclusions: his hunting, his marriage and bereavement, politics, awards (not scored as traits). CALIBRATION: no source is adversarial and several are admiring or derived from his autobiography, so all rows are capped at confidence 0.64 and score 74. SELF-GATE (first pass): primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS; the sparrow anecdote is not carded. SELF-CALIBRATION: reviewed persistence, detail_orientation and independent_thinking (the three highest-risk rows); all kept, because each is already capped at moderate confidence with the caveats stated in the rationale and none rests on a single source. HANDBACK60: {\"slug\": \"salim-ali\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 7, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"persistence\", \"detail_orientation\", \"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  }
+}

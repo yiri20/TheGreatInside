@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "clarice-lispector",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Clarice Lispector",
+    "aliases": [
+      "Chaya Pinkhasovna Lispector",
+      "Chaya Lispector"
+    ],
+    "wikidataId": "Q235955",
+    "birthYear": 1920,
+    "deathYear": 1977,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature",
+      "journalism"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cl_wikidata",
+      "kind": "wikidata",
+      "title": "Clarice Lispector (Q235955), verified live via the Wikidata API (2026-10-31): label 'Clarice Lispector', description 'Ukrainian-Brazilian writer, poet, and journalist (1920-1977)', no Korean label (a transliteration is used), image 'Clarice Lispector (cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q235955"
+    },
+    {
+      "id": "src_cl_eb",
+      "kind": "biography",
+      "title": "The Editors of Encyclopaedia Britannica, 'Clarice Lispector', Britannica (revised 6 December 2025), read in full. CANONICAL SIGNIFICANCE SOURCE: a novelist and short-story writer, one of Brazil's most important literary figures and considered among the greatest women writers of the twentieth century; a first novel, Near to the Wild Heart, that won critical acclaim; later novels including The Apple in the Dark, The Passion According to G.H., Agua viva and The Hour of the Star; her finest prose in short-story collections such as Family Ties and The Foreign Legion; a prose style of simple vocabulary and elliptical sentences; the 2011-2012 New Directions translations and the 2015 Complete Stories. Encyclopedia entry; it dates the first novel to 1944 where other sources say 1943, and its family background is not used.",
+      "url": "https://www.britannica.com/biography/Clarice-Lispector"
+    },
+    {
+      "id": "src_cl_fapesp",
+      "kind": "press",
+      "title": "'The writer between the lines', Pesquisa FAPESP (English edition), 19 February 2021, read in full (about 2,800 words): Brazilian literature scholars Nadia Battella Gotlib, Yudith Rosenbaum, Joao Camillo Penna, Teresa Montero and others on her centenary; recognition in her lifetime and 180 translations by 2010 (Gotlib), her early work as one of the first women journalists, the critic Antonio Candido's contemporary praise of Near to the Wild Heart and the dissenting view of Alvaro Lins, the mixed-media paintings of 1975-1976 that she did not take seriously as visual art, the collected letters, and the centennial editions. Science-and-research magazine of a state funding agency quoting named scholars; the film and centennial commentary is context.",
+      "url": "https://revistapesquisa.fapesp.br/en/the-writer-between-the-lines/"
+    },
+    {
+      "id": "src_cl_lrb",
+      "kind": "press",
+      "title": "Lorna Scott Fox, 'Her Anti-Aircraft Guns' (review of Benjamin Moser's 'Why This World' and a reissue of 'The Apple in the Dark'), London Review of Books, 8 April 2010, read in full (about 2,600 words): the 1943 shock of Near to the Wild Heart to Brazil's literary world, The Chandelier (1946) as a difficult search for an originary language that baffled critics, her mystical interests, and the reviewer's pushback against Moser's reading of her as a single-tradition Jewish mystic and of every sacrificed woman as the mother. Independent critical review by a translator and critic; its biographical passages on family, health and marriage are not scored.",
+      "url": "https://www.lrb.co.uk/the-paper/v32/n07/lorna-scott-fox/her-anti-aircraft-guns"
+    },
+    {
+      "id": "src_cl_spectator",
+      "kind": "press",
+      "title": "Ian Thomson, ''The most important Jewish writer since Kafka'' (review of Benjamin Moser's 'Why This World'), The Spectator Australia, 11 January 2014, read in full (about 1,500 words): her 1943 debut disconcerting Brazil's literary establishment with its modernist cut, her wide borrowings from Joyce, Hesse, Jewish mysticism and Simenon, the advice column she wrote under the name Helen Palmer, her translating of Agatha Christie, and early champions such as Elizabeth Bishop. Popular review of a biography, so secondary; the biographical hardship and health passages are not scored and a friend's remark in it is not used.",
+      "url": "https://spectator.com.au/2014/01/why-this-world-by-benjamin-moser-review"
+    },
+    {
+      "id": "src_cl_ims",
+      "kind": "institution",
+      "title": "Bruno Cosentino, 'Writing for Newspapers', Clarice Lispector special site of the Instituto Moreira Salles (22 August 2018), read in full (about 1,400 words): her early work as a writer and reporter for the National Agency, signing stories in O Jornal after her first novel, the weekly column in the Jornal do Brasil for six years from 1967, her discomfort with the personal tone of the newspaper column, the pseudonyms Tereza Quadros, Helen Palmer and Ilka Soares for columns aimed at women, newspaper texts reused and revised in later books, and the 2018 edition of her complete chronicles. Essay by the institution that holds her archive, quoting her columns; admiring but based on the texts.",
+      "url": "https://site.claricelispector.ims.com.br/en/?p=4611"
+    },
+    {
+      "id": "src_cl_rumpus",
+      "kind": "press",
+      "title": "Chris Feliciano Arnold, review of 'The Passion According to G.H.', The Rumpus, 28 June 2012, read in full (about 1,700 words): a reader's account of the difficulty of her sentences, which 'amplify rather than clarify' mysteries, the claim that she had written nine novels, eight story collections and four children's works by her death, her place as an early prominent woman journalist, and the new translations led by Benjamin Moser. Online literary review; the biographical rumours and health details are not used and the counts are the reviewer's.",
+      "url": "https://therumpus.net/2012/06/the-passion-according-to-g-h-by-clarice-lispector/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cl_eb, src_cl_fapesp, src_cl_lrb, src_cl_spectator, src_cl_rumpus | 1943-1977 | encyclopedia + scholars + independent critical reviews] Britannica describes a prose of simple vocabulary and elliptical sentences with a vision that transcends time and place, the critic Antonio Candido wrote in 1943 of forcing the language into little-explored domains, and the LRB and Spectator reviews say the debut jarred a parochial literary world with its modernist cut. The critic Alvaro Lins disliked the fragmented narrative, the Rumpus reviewer finds the sentences hard, and the LRB reviewer pushes back on parts of the biography's reading, so originality is documented but contested in its effect. SELF-CALIBRATION (agent): reviewed as the top-risk row and kept; it has a contemporary critic, a dissenting contemporary critic and two independent retrospective reviews."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cl_eb, src_cl_fapesp, src_cl_ims, src_cl_spectator, src_cl_rumpus | 1940s-1976 | encyclopedia + scholars + archive essay + reviews] Besides novels and short stories she worked as a reporter and weekly columnist, wrote columns for women's readerships under pseudonyms, translated detective fiction, wrote children's books according to the Rumpus reviewer, and in 1975-1976 painted mixed-media works that scholars treat as free expression and not as a visual-art career. The range is documented, but most of it is journalism or hack-adjacent work around the central literary practice, so the claim is of range within writing rather than across disciplines. SELF-CALIBRATION (agent): reviewed as a top-risk row and kept; each item is documented by a named source and the claim is already worded narrowly."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cl_lrb, src_cl_ims, src_cl_fapesp | 1946-1973 | critical review + archive essay + scholars] The LRB reviewer describes The Chandelier (1946) as one of her most difficult books, in a search for an originary language that baffled her admirers; the IMS essay says she used her newspaper column as a space for work in progress, publishing embryonic passages that reappeared refined in later novels; and a scholar describes her mixed-media paintings as free experiments. The newspaper-as-workshop evidence rests on one institutional essay and the other items are judgements rather than documented process."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_cl_ims, src_cl_rumpus | 1967-1973 | archive essay + review] She kept a weekly newspaper column for six years under deadlines at a typewriter's pace, and the Rumpus reviewer counts nine novels and eight story collections by her death. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.48 to 58 / 0.42 because the six-year column rests on one institutional essay that stresses her discomfort with deadlines, the output counts are a reviewer's unsourced totals, and neither source describes her working routine."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait was confirmed after one bounded retry (about 10 checks). The Wikidata image 'Clarice Lispector (cropped).jpg' (276 x 392 pixels) is a crop of a photograph by Maureen Bisilliat, August 1969, from the Instituto Moreira Salles collection. It is labelled CC BY-SA 4.0 only through a Commons GLAM-partnership template written by the uploading group, and the photographer is a living artist; the IMS page that shows the photograph gives only the credit line 'Maureen Bisilliat, August 1969 / Acervo IMS' with no licence or rights statement, and no IMS statement confirming that it holds the right to license her photograph under CC could be found, so the licensor is unverified (an institution's template is not the photographer's grant). The full uncropped file is 1086 x 652 pixels. The Arquivo Nacional Correio da Manha photographs of 1968 and 1972 have an unknown photographer and rest on a Brazilian public-domain template and a URAA tag: a jurisdiction-only claim, so rejected. Next step: ask the IMS or Maureen Bisilliat for an explicit written licence for the 1969 photograph at a larger size, or use an Arquivo Nacional item whose photographer is named and whose US status is documented."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "클라리시 리스펙토르"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed risky and HELD (see portrait.reason): the Bisilliat photograph's CC BY-SA licence comes from an institutional Commons template with no photographer or IMS-page licence statement, and the Arquivo Nacional alternatives have unknown photographers and rest on jurisdiction-only tags. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q235955 label 'Clarice Lispector', description 'Ukrainian-Brazilian writer, poet, and journalist (1920-1977)', no Korean label; no production or candidate slug/QID collision (grepped prod60.txt and data-pipeline/candidates). REGION latin_america (raised and worked in Brazil, a Brazilian writer; born in Ukraine). ERA 20th_century. ZERO POLITICS: primary identity is novelist and short-story writer; the military-dictatorship context is not scored. NO INFERENCE FROM LIFE EVENTS: her family history, her mother's fate, her marriage, her son's illness, her depression, medication, the 1966 fire, her final illness and the stories about her appearance and mystery, reported by Britannica, the LRB, the Spectator and the Rumpus, are not used as trait evidence and personality is not inferred from the opacity of her style. VOCABULARY: occupation writer (novelist and journalist are unlabelled); fields literature, journalism; tags innovator, prolific; archetype creative_creator; impact domains literary, cultural. KO NAME: no Wikidata Korean label exists; the transliteration 클라리시 리스펙토르 is used and recorded as a transliteration, not an established lookup. CANONICAL SIGNIFICANCE SOURCE: Britannica, 'Clarice Lispector' (https://www.britannica.com/biography/Clarice-Lispector). READ: Britannica; Pesquisa FAPESP centenary article; LRB review of Moser (Scott Fox); Spectator Australia review of Moser (Thomson); IMS essay on her newspaper writing; Rumpus review of The Passion According to G.H. PERSPECTIVES: encyclopedia, named Brazilian literature scholars, independent critical reviewers, archive institution, online literary review. COUNTER-VOICES AND CAVEATS: the dissenting contemporary critic Alvaro Lins (via FAPESP), the LRB reviewer's disagreement with Moser's reading, the Rumpus reviewer on the difficulty of the prose, and Britannica's 1944 date versus 1943 elsewhere. Benjamin Moser's biography itself was not opened; it is known only through the LRB and Spectator reviews, so its claims are not used as evidence. NOT OPENED: Moser's biography, Gotlib's and Montero's biographies, the letters, and a Paris Review piece that a search did not surface. SELF-GATE (first pass): all PASS; the first card states the novelist and story-writer contribution and her prose innovation; journalism and painting are not carded as primary. SELF-CALIBRATION: reviewed creative_originality (kept), cross_domain_range (kept), discipline (lowered 62/0.48 to 58/0.42). Four rows; sparse by design because most readily available behavioural detail in the reviews is biographical and excluded. HANDBACK60: {\"slug\":\"clarice-lispector\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":4,\"self_calibrated_rows\":[{\"attribute\":\"discipline\",\"old_score\":62,\"old_confidence\":0.48,\"new_score\":58,\"new_confidence\":0.42,\"reason\":\"The six-year column rests on one institutional essay that stresses her discomfort with deadlines and the output counts are an unsourced reviewer total with no description of her working routine.\"}],\"reviewed_kept\":[\"creative_originality\",\"cross_domain_range\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":4}"
+  }
+}

@@ -662,6 +662,13 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "rita-levi-montalcini",
     "tim-cook",
     "titian",
+    "andres-bello",
+    "hafez",
+    "kip-keino",
+    "lee-kun-hee",
+    "muhammad-abduh",
+    "osamu-tezuka",
+    "salif-keita",
     "adi-shankara",
     "aziz-sancar",
     "cesaria-evora",
@@ -823,17 +830,17 @@ describe("Case 4 — existing real roster behavior is unchanged", () => {
     "wolfgang-pauli",
   ]);
 
-  it("still exactly 637 production people", () => {
-    expect(SEED_PEOPLE).toHaveLength(637);
-    expect(PEOPLE_INDEX).toHaveLength(637);
+  it("still exactly 644 production people", () => {
+    expect(SEED_PEOPLE).toHaveLength(644);
+    expect(PEOPLE_INDEX).toHaveLength(644);
   });
 
-  it("still exactly 636 default-directory-visible people, using the Directory's actual filter call", () => {
+  it("still exactly 643 default-directory-visible people, using the Directory's actual filter call", () => {
     const visible = filterPeople(SEED_PEOPLE, { matchEligibleOnly: false });
-    expect(visible).toHaveLength(636);
+    expect(visible).toHaveLength(643);
   });
 
-  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/40/41/42/43/44/45/46/47/48/49/50/51/52/53/54/55/56/57/58/59 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
+  it("isDirectoryVisible mirrors isMatchEligible for every existing person EXCEPT the deliberately-divergent roster24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/40/41/42/43/44/45/46/47/48/49/50/51/52/53/54/55/56/57/58/59/60 additions plus the legacy-remediated akira-kurosawa, bruce-lee, ludwig-van-beethoven, nikola-tesla, srinivasa-ramanujan, toni-morrison, hayao-miyazaki, richard-feynman, simone-biles, steve-jobs, genghis-khan, serena-williams, and oprah-winfrey", () => {
     for (const p of SEED_PEOPLE) {
       if (KNOWN_DIVERGENT_SLUGS.has(p.slug)) {
         expect(p.isDirectoryVisible, p.slug).toBe(true);

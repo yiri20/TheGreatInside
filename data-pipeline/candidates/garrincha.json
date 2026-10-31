@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "garrincha",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Garrincha",
+    "aliases": [
+      "Manuel Francisco dos Santos",
+      "Mané Garrincha"
+    ],
+    "wikidataId": "Q180642",
+    "birthYear": 1933,
+    "deathYear": 1983,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "competitor",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_garrincha_wikidata",
+      "kind": "wikidata",
+      "title": "Garrincha (Q180642), verified live via the Wikidata API (2026-10-31): label 'Garrincha', description 'Brazilian association football player (1933-1983)', born 28 October 1933, died 20 January 1983, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q180642"
+    },
+    {
+      "id": "src_garrincha_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Garrincha', read in full: Brazilian winger considered by many the best right winger in the history of the sport; a dribbler who starred with Pele and Didi in the 1958 and 1962 World Cup wins; best years at Botafogo (1957-62) with three league titles; 60 appearances for Brazil in three World Cups; two goals against England and two against Chile in 1962; calls him an undisciplined yet brilliant forward who often frustrated coaches. CANONICAL SIGNIFICANCE SOURCE: reference article, concise. The passages on his private life were not used.",
+      "url": "https://www.britannica.com/biography/Garrincha"
+    },
+    {
+      "id": "src_garrincha_dailystar",
+      "kind": "press",
+      "title": "The Daily Star (Bangladesh), 'Garrincha: The joy of the people' (16 May 2014), read in full: a retrospective feature on his Botafogo record (249 goals in 579 games), the 1958 and 1962 World Cup wins, Pele's injury in 1962, his two goals against England and two against Chile, his selection as player of the tournament and the Chilean newspaper headline 'What planet is Garrincha from?'. Popular journalism; the private-life paragraphs were not used.",
+      "url": "https://www.thedailystar.net/chile-1962-24395"
+    },
+    {
+      "id": "src_garrincha_readtheleague",
+      "kind": "press",
+      "title": "Vince Cooper, 'The Little Bird: The Garrincha Story', Read The League, 13 June 2024, read in full: a long feature on his football career: the Botafogo trial against Nilton Santos, the 1958 World Cup (left out of the first two matches, then the Soviet Union game), his habit of beating defenders on either side, quotes from Pele and Welsh defender Mel Hopkins, the 1962 quarter-final and semi-final, and his sending-off against Chile after retaliating. Fan-oriented long read that mixes anecdotes; the private-life and unverified anecdotes were not used.",
+      "url": "https://readtheleague.com/?p=8446"
+    },
+    {
+      "id": "src_garrincha_sesc",
+      "kind": "institution",
+      "title": "SESC Sao Paulo, 'Anjo extraordinario' (2 May 2016), read in full (in Portuguese): a cultural-institution article quoting scholars Francisco Bicudo (Anhembi Morumbi University, sports journalism) and Jose Miguel Wisnik (University of Sao Paulo) on his dribbling and on how journalists wrote about him, citing Ruy Castro's biography 'Estrela Solitaria' for his nickname and career; it says his unpredictable behaviour may have kept him out of the first two 1958 matches. Independent scholarly voices; the passages on his health, relationships and finances were not used.",
+      "url": "https://portal.sescsp.org.br/online/artigo/compartilhar/9946_ANJO+EXTRAORDINARIO"
+    },
+    {
+      "id": "src_garrincha_aljazeera",
+      "kind": "press",
+      "title": "Sam Pilger, 'Garrincha: Brazil's Joy of the People', Al Jazeera, 13 December 2022, read in full: a feature on his career: Botafogo, the 1958 and 1962 World Cups, quotes from Pele, Eduardo Galeano and Mel Hopkins (who says he could go either way and shot well with both feet), his stepping up after Pele's injury in 1962, and that he stayed in Brazil despite approaches from Juventus, Inter Milan and Real Madrid. Mainstream journalism; its Golden Boot claim conflicts with other sources and was not used.",
+      "url": "https://www.aljazeera.com/features/2022/12/13/football-portraits-manuel-francisco-dos-santos-aka-garrincha"
+    },
+    {
+      "id": "src_garrincha_footballhistory",
+      "kind": "press",
+      "title": "FootballHistory.org, 'Garrincha: biography of the Brazilian dribbler', read in full: a popular biography that records Nilton Santos urging Botafogo to sign him after a trial, his Botafogo titles, his 1958 benching for the first two games and his role as the focus of the 1962 attack once Pele was injured. Hobbyist website; used only for outline facts corroborated elsewhere.",
+      "url": "https://footballhistory.org/player/garrincha.html"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_garrincha_sesc, src_garrincha_readtheleague, src_garrincha_aljazeera, src_garrincha_britannica | 1953-1962 | scholars + opponent quotes + press + encyclopedia] Scholar Jose Miguel Wisnik, quoted by SESC, says he took the dribble to an unusual extreme, a feint that confuses the opponent's expectation; Read The League and Al Jazeera report that he beat defenders both inside and outside and shot well off both feet, with Welsh defender Mel Hopkins saying it was hard to know which way he would go, and Read The League says this made him a new kind of wide player; Britannica calls him an imaginative and skillful dribbler. Several independent observers, including an opponent and an academic, describe an unusual method in competition, but the sources are admiring retrospectives, and no one describes how he worked it out, so the evidence is documented playing style rather than a documented creative process."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_garrincha_britannica, src_garrincha_sesc, src_garrincha_readtheleague | 1955-1962 | encyclopedia + cultural institution + feature] Britannica calls him an undisciplined yet brilliant forward who often frustrated coaches; SESC says his rule-averse, unpredictable conduct may have kept him out of Brazil's first two 1958 matches; Read The League says his showboating was frowned on by selectors so he was picked only sporadically. These are characterisations of how he played within teams and how selectors reacted, with no named episode of refusing an instruction, and the explanations given are hedged. Only football conduct was used; his drinking and private life were deliberately excluded. SELF-CALIBRATION (agent): lowered from 64 / 0.45 because the evidence is a few secondary characterisations without a documented incident, and the trait claim is stronger than the documented behaviour."
+    },
+    "proactive_agency": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_garrincha_dailystar, src_garrincha_aljazeera, src_garrincha_britannica, src_garrincha_footballhistory | 1962 | press + encyclopedia] With Pele injured in Brazil's second 1962 game, Garrincha scored twice against England and twice against Chile, was named player of the tournament, and Al Jazeera and FootballHistory.org say he became the focus of the attack and led the team to the title; Read The League adds that in the quarter-final he took the game over, with teammates feeding him often. The outcome and the team's reliance on him are documented, but the sources do not say how far he sought the role himself rather than being handed it by circumstance and teammates. SELF-CALIBRATION (agent): lowered from 62 / 0.48 because the evidence shows a result and team reliance more than self-initiated behaviour."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "가린샤"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed risky and HELD: P18 'Manoel Francisco dos Santos-Garrincha.jpg' (538 x 710) is a retouched El Grafico no. 2233 scan (25 July 1962) with only {{PD-AR-Photo}} / {{PD-1996|Argentina}}, a jurisdiction-only claim with no named photographer and no URAA analysis. Bounded retry: 'Garrincha 1962.jpg' (pressens bild, PD-Chile, 425 x 305, tiny) rejected as jurisdiction-only; 'Garrincha e Jango.jpg' and 'Garrincha na copa de 1962.jpg' (Arquivo Nacional, unknown author, PD-Brazil-URAA template, source field only the archive's home page, no item-level record or publication date) not accepted without an item-level statement; Werner Haberkorn 1962 team portraits (Museu Paulista USP, PD-Brazil-URAA template) show the whole squad at low per-face resolution and the same template-only basis. A web search did not find the Arquivo Nacional catalogue record. See portrait.reason.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) for Q180642 returned en label 'Garrincha', description 'Brazilian association football player (1933-1983)', born 1933-10-28, died 1983-01-20, ko label present. SLUG/QID CHECK: not in production list, no candidate file. Region latin_america (Brazil). Zero-politics passes (football). Birth date: sources differ (23 vs 28 October 1933); Wikidata and Britannica give 28 October, only the year is stored.\nDECEASED SUBJECT RULES APPLIED: no personality inferred from his alcoholism, health, accidents, relationships or death; only documented professional behaviour (play, selection, tournaments) is scored. Excluded details: drinking, family, finances, the car accidents, his marriages and the 1958 'did not know he had won' anecdote (unverified).\nCANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Garrincha' https://www.britannica.com/biography/Garrincha (read in full).\nSOURCES READ (7 substantive incl. canonical): Britannica, The Daily Star 2014, Read The League 2024, SESC Sao Paulo 2016 (with two academics), Al Jazeera 2022, FootballHistory.org; Wikidata orientation only. PERSPECTIVES: encyclopedia, Brazilian cultural institution with scholars, opponent quotes (Mel Hopkins, via two features), press retrospectives. Non-self behavioural sources: all (no self material). COUNTER-VOICE: Britannica and SESC on indiscipline and the benching in 1958; Read The League on his sending-off. NOT OPENED: Ruy Castro's biography 'Estrela Solitaria' (known only through SESC quotations), the 1995 documentary, FIFA pages, SI 2018 piece (read but only anecdotes, not used), Gazeta SP and Trivela pages (opened, nothing used). Three rows; none above 74.\nSELECTIVE SELF-CALIBRATION: reviewed creative_originality (highest; kept, independent academic, opponent and press corroboration), autonomy_need (lowered 64/0.45 to 60/0.40) and proactive_agency (lowered 62/0.48 to 58/0.42). Initial rows 3; lowered 2.\nHANDBACK60: {\"slug\":\"garrincha\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":3,\"self_calibrated_rows\":[{\"attribute\":\"autonomy_need\",\"old_score\":64,\"old_confidence\":0.45,\"new_score\":60,\"new_confidence\":0.4,\"reason\":\"a few secondary characterisations without a documented incident; claim stronger than documented behaviour\"},{\"attribute\":\"proactive_agency\",\"old_score\":62,\"old_confidence\":0.48,\"new_score\":58,\"new_confidence\":0.42,\"reason\":\"evidence shows a result and team reliance more than self-initiated behaviour\"}],\"reviewed_kept\":[\"creative_originality\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":3}"
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. Wikidata's P18 is 'Manoel Francisco dos Santos-Garrincha.jpg' (538 x 710), a retouched scan of El Grafico no. 2233 (25 July 1962) tagged only PD-AR-Photo and PD-1996 (Argentina): a jurisdiction-only claim, no named photographer, and a post-1930 foreign photograph that can have been restored in the US. Alternatives checked in the one bounded retry: 'Garrincha 1962.jpg' (press agency Pressens bild, tagged PD-Chile, 425 x 305), the Arquivo Nacional images 'Garrincha e Jango.jpg' and 'Garrincha na copa de 1962.jpg' (unknown author, a Brazilian public-domain template whose source field is only the archive's home page), and Werner Haberkorn's 1962 Brazil team portraits at the Museu Paulista of the University of Sao Paulo (same type of template). None has an item-level institutional record of the author, publication date and terms. Next step: look up the Arquivo Nacional catalogue record (sian.an.gov.br, Correio da Manha fund) for the 'Garrincha na copa de 1962' item and confirm its publication date and that the archive states public-domain terms, or find a Nationaal Archief/Anefo or government-held photograph with a stated licence."
+  }
+}

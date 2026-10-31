@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ibn-arabi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ibn Arabi",
+    "aliases": [
+      "Muhyi al-Din Ibn Arabi",
+      "Ibn al-Arabi",
+      "Ibn 'Arabi",
+      "al-Shaykh al-Akbar",
+      "Muḥyī al-Dīn Ibn ʿArabī"
+    ],
+    "wikidataId": "Q46420",
+    "birthYear": 1165,
+    "deathYear": 1240,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.ayyubid_sultanate"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "theologian",
+      "scholar"
+    ],
+    "fieldIds": [
+      "religion",
+      "philosophy",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "historical",
+      "literary"
+    ],
+    "tagIds": [
+      "mystic",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_arabi_wikidata",
+      "kind": "wikidata",
+      "title": "Ibn Arabi (Q46420), verified live via the Wikidata API (2026-10-31): label 'Ibn Arabi', description 'Sufi scholar and Sunni philosopher (1165-1240)', born 1165-07-28, died 1240-11-16, Korean label 이븐 아라비. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q46420"
+    },
+    {
+      "id": "src_arabi_brit",
+      "kind": "biography",
+      "title": "Toshihiko Izutsu, 'Ibn al-Arabi', Encyclopaedia Britannica (full article read via the print view, plus the summary page). CANONICAL SIGNIFICANCE SOURCE: calls him a celebrated Muslim mystic-philosopher who gave the esoteric dimension of Islamic thought its first full-fledged philosophic expression; born in Murcia, educated in Seville where he stayed about 30 years studying the Islamic sciences with Sufi masters and travelling Spain and North Africa seeking them; left in 1201 for the East; began the Futuhat al-Makkiyya (560 chapters) at Mecca; met al-Qunawi in Anatolia; ended his pilgrimage in Damascus (1223), where he taught and wrote and composed the Fusus al-Hikam in 1229; notes his expressions drew the wrath of orthodoxy, some of whom prohibited the reading of his works. Scholarly reference by a specialist who is sympathetic to the tradition; it also relays a legendary meeting with Averroes and his visions, which are not used.",
+      "url": "https://www.britannica.com/biography/Ibn-al-Arabi"
+    },
+    {
+      "id": "src_arabi_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Ibn Arabi' (first published 2008, substantive revision December 2025), introduction, section 1 'Life and Works' and the part of 3.1 on wahdat al-wujud and its critics (read; the long technical sections on ontology and methodology were skimmed, not read in full). Academic overview: born in Murcia in 1165 to a minor official's family and given a standard literate education; studied the Islamic sciences with numerous teachers in al-Andalus and North Africa; left in 1201, travelled in Iraq and Anatolia and settled in Damascus; wrote many scores of books but scholars cannot establish a definitive list; the Fusus was the object of more than one hundred commentaries; notes that modern research long concentrated on the Fusus although the Futuhat is far larger; the Hanbalite polemicist Ibn Taymiyya was the first to attribute the doctrine of the unity of being to him and condemned it, starting a long controversy; the term 'Sufi' was not used by himself.",
+      "url": "https://plato.stanford.edu/entries/ibn-arabi/"
+    },
+    {
+      "id": "src_arabi_jaffray",
+      "kind": "biography",
+      "title": "Angela Jaffray, contributor biography of Muhyiddin Ibn 'Arabi, Words Without Borders (read in full, about 10,000 characters). A sympathetic biography by a translator of his work that relays his own writings: the thirty years in Andalusia, the seventy-one Sufi shaykhs (four of them women) listed in his two compendia of Andalusian saints, the 1193 journey to Tunis, constant travel between Spain and North Africa in 1195-1200, travel through Syria, Palestine, Anatolia, Egypt, Iraq and the Hijaz in 1204-1220, settlement in Damascus in 1221, a Futuhat of some two thousand tightly packed folio pages built over years of work and revision, and more than 300 works. Much of it reports his own accounts of visions, which are not used. Admiring and largely dependent on his own testimony.",
+      "url": "https://wordswithoutborders.org/contributors/view/muhyiddin-ibn-arabi/"
+    },
+    {
+      "id": "src_arabi_nwe",
+      "kind": "biography",
+      "title": "New World Encyclopedia, 'Ibn al-Arabi' (read in full, about 13,000 characters): at least 300 works, about 110 surviving in verifiable manuscripts and about eighteen in his own hand; competence across Qur'an and Hadith scholarship, theology, philology, letter symbolism, philosophy, alchemy and cosmology; and a section on Wahhabi criticisms, noting that some mainstream scholars labelled the Fusus blasphemy. Edited encyclopedia article, partly derivative and not fully footnoted; used for the manuscript counts and the critical reception, as a cross-check only.",
+      "url": "https://www.newworldencyclopedia.org/entry/Ibn_al-Arabi"
+    },
+    {
+      "id": "src_arabi_bou",
+      "kind": "institution",
+      "title": "Teaching sheet 'A Brief Introduction to Ibn Arabi', hosted by the international section of an Iranian university (int.bou.ac.ir; two pages, read in full): a short devotional-academic summary giving the Murcia and Seville years, about thirty years of travels, settlement in Damascus in 620 AH, 560 chapters for the Futuhat and a total of 511 books and articles 'mentioned by some', and calling him the most influential Islamic mystic. Very short, admiring and unreferenced; used only to show the claimed output differs by source (300 versus 511).",
+      "url": "https://int.bou.ac.ir/wp-content/uploads/2022/10/A-Brief-Introduction-to-Ibn-Arabi.pdf"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_arabi_brit, src_arabi_sep, src_arabi_jaffray | 1180s-1201 | scholarly reference + academic overview + sympathetic biography] Britannica says he studied the traditional Islamic sciences in Seville for about 30 years and travelled Spain and North Africa to find masters of the Sufi path; the Stanford overview says he studied the Islamic sciences with numerous teachers in al-Andalus and North Africa; Jaffray, relaying his own compendia, counts seventy-one shaykhs he lists as sources of spiritual direction. The pattern of seeking out teachers is consistent across the sources; none gives an independent account of the quality of his learning, and no visions or spiritual attainments are scored."
+    },
+    "persistence": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_arabi_brit, src_arabi_jaffray, src_arabi_nwe, src_arabi_sep | 1195-1240 | scholarly reference + sympathetic biography + encyclopedia + academic overview] Britannica says he began the 560-chapter Futuhat at Mecca in 1201 and completed it much later in Damascus, and that he kept teaching and writing there until his death; Jaffray says it was the product of years of labour and revision and puts his output at over 300 works; New World Encyclopedia says about 110 survive in verifiable manuscripts and about eighteen are in his own hand; the Stanford overview says no definitive list of his works can be established. The long, sustained authorship is documented; the figures differ and the revision claim rests on a sympathetic source. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 58 / 0.46 to 54 / 0.42 because the years-of-revision and output counts rest on one admiring source and an edited encyclopedia, while the best academic source says even the list of works is unsettled."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_arabi_sep, src_arabi_brit, src_arabi_nwe | 1200-1240 | academic overview + scholarly reference + encyclopedia] The Stanford overview says his works cover the whole range of the Islamic sciences, including Qur'an commentary and Hadith; Britannica calls the Futuhat a personal encyclopaedia extending over all the esoteric sciences in Islam; New World Encyclopedia adds philology, letter symbolism, alchemy and cosmology. Only the breadth of subjects written about is used; no doctrine is scored, and the encyclopedia detail is a cross-check."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이븐 아라비"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait found after one bounded retry. The Wikidata image 'Ibn Arabi.jpg' (218x280) is rejected: its Commons page says 'image of unknown source or nature', author unknown, source a poetry website, with only a generic PD-old tag. The only old depiction found in the Commons category is 'Ibn Arabi with students' (a 16th-century Persian miniature on horseback, said to be Bodleian Library MS. Ouseley Add. 24, f. 69a, Majalis al-ushshaq copied in 1552 by the scribe Farid al-Katib), but the Commons file is only 200 x 217 pixels, copied from a society website rather than from the Bodleian, with no item-level rights statement, and the identification of the figure as Ibn Arabi is the uploader's. The Bodleian and Fihrist catalogue pages are script-driven and did not open. Next step: open the Digital Bodleian item for MS. Ouseley Add. 24 folio 69a, confirm the sitter from the manuscript's own text and the Bodleian's rights statement, and download the museum-scale image; the manuscript is dated 1552 so a public-domain-by-age basis is likely once confirmed. No contemporary likeness of Ibn Arabi exists, so any image would be a historical depiction."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed: P18 'Ibn Arabi.jpg' rejected (unknown source, generic PD tag); the Bodleian 1552 miniature on Commons is a 200x217 copy from a society website with an uploader-only identification and no item-level rights text; Digital Bodleian could not be opened (script-driven). Bounded retry used; PORTRAIT HELD (see portrait.reason). PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q46420 label 'Ibn Arabi', description 'Sufi scholar and Sunni philosopher (1165-1240)', born 1165-07-28, died 1240-11-16, Korean label 이븐 아라비; no production or candidate slug/QID collision (grepped prod60.txt and data-pipeline/candidates). REGION west_asia, with historical polity key polity.ayyubid_sultanate (existing). Judgement recorded against repo precedents: Averroes (Cordoba-born, career in Cordoba and Marrakesh) is southern_europe, but Maimonides (Cordoba-born, career and death in Cairo) is north_africa, i.e. the career base decides; Ibn Arabi left the Muslim West in 1201, never returned, and spent the last two decades in Damascus and the preceding years in the Hijaz, Syria, Iraq and Anatolia, so west_asia is the career base (born Murcia is recorded in the notes and aliases, not in the region). ERA medieval. nationalityCodes left empty as for Maimonides and Ibn Battuta. ZERO POLITICS: primary identity is mystic, philosopher and author; his advisory contacts with rulers (e.g. a Seljuk sultan in Jaffray) are not scored. VOCABULARY: occupations philosopher, theologian, scholar; fields religion, philosophy, literature; tags mystic, prolific; archetype scholarly_specialist; impact domains cultural, historical, literary; all grepped in en.ts and ko.ts (no Sufi or mystic occupation label exists). CANONICAL SIGNIFICANCE SOURCE: Toshihiko Izutsu, 'Ibn al-Arabi', Encyclopaedia Britannica (https://www.britannica.com/biography/Ibn-al-Arabi). READ: the full Britannica article (print view); the Stanford Encyclopedia of Philosophy entry (introduction, life and works, the wahdat al-wujud section; other sections skimmed); Jaffray's biography; New World Encyclopedia; a two-page Iranian university teaching sheet. PERSPECTIVES: scholarly reference, academic overview, sympathetic translator's biography, edited encyclopedia, devotional-academic sheet. COUNTER-VOICES: Britannica on the wrath of orthodoxy; the Stanford overview on Ibn Taymiyya's condemnation and the seven later meanings of the unity-of-being term; New World Encyclopedia on Wahhabi criticisms and the charge of blasphemy. SELF-REPORT SEPARATION: the Futuhat, the Fusus, and his compendia of Andalusian saints are his own writings; every statement about them and about his teachers and travels reaches this profile through Britannica, the Stanford overview or Jaffray, and the rows say so; accounts of visions, dreams, the Averroes meeting and the Seal of Sainthood are NOT scored. Note a source conflict recorded rather than resolved: Britannica gives 1223 and Jaffray 1221 for settling in Damascus, and Britannica 27 against Jaffray 28 chapters for the Fusus; neither number is carded. NOT OPENED: Chittick's books, Addas 'Quest for the Red Sulphur' and Hirtenstein (only catalogue blurbs and a Shortform summary were found, no review text), the Futuhat and Fusus themselves, the Encyclopaedia of Islam. EXCLUSIONS: all mystical claims, visions, dreams and sainthood; doctrine (no row scores the unity of being). SPARSE PROFILE: three rows, none above 60, confidence 0.42-0.46. KO NAME: 이븐 아라비, the Wikidata Korean label. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (58/0.46 lowered to 54/0.42), cross_domain_range (kept), mastery_orientation (kept). HANDBACK60: {\"slug\": \"ibn-arabi\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 3, \"self_calibrated_rows\": [{\"attribute\": \"persistence\", \"old_score\": 58, \"old_confidence\": 0.46, \"new_score\": 54, \"new_confidence\": 0.42, \"reason\": \"the years-of-revision and output counts rest on one admiring source and an edited encyclopedia, while the best academic source says even the list of works is unsettled\"}], \"reviewed_kept\": [\"cross_domain_range\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 3}"
+  }
+}

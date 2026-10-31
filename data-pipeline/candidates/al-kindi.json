@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "al-kindi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Al-Kindi",
+    "aliases": [
+      "Abu Yusuf Yaqub ibn Ishaq al-Kindi",
+      "Alkindus",
+      "The philosopher of the Arabs"
+    ],
+    "wikidataId": "Q179759",
+    "birthYear": 801,
+    "deathYear": 873,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.abbasid_caliphate"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "mathematician",
+      "physician"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "mathematics",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "polymath",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kindi_wikidata",
+      "kind": "wikidata",
+      "title": "Al-Kindi (Q179759), verified live via the Wikidata API (2026-10-31): label 'Al-Kindi', description 'Muslim Arab philosopher, mathematician and physician (c.801-873)', birth given as 801 (also 800 and 796), death given as 870 or 873, Korean label '킨디', no image. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q179759"
+    },
+    {
+      "id": "src_kindi_eb",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'al-Kindi', read in full (about 200 words). CANONICAL SIGNIFICANCE SOURCE: the first outstanding Islamic philosopher, known as 'the philosopher of the Arabs', who flourished in Iraq under the Abbasid caliphs al-Mamun and al-Mutasim, concerned with the questions of the Alexandrian Aristotelian Neoplatonists and also with astrology, medicine, Indian arithmetic and other subjects; one of the instrumental figures, with Hunayn ibn Ishaq, in the early movement translating Greek philosophical and scientific works into Arabic; known to have written more than 270 mostly short works. Short tertiary article.",
+      "url": "https://www.britannica.com/biography/al-Kindi"
+    },
+    {
+      "id": "src_kindi_sep",
+      "kind": "biography",
+      "title": "Peter Adamson, 'Al-Kindi', Stanford Encyclopedia of Philosophy, read in the sections on life and works, Greek influences, science and legacy (about 10,000 words in all): born around 800, educated in Baghdad, philosophical career at its height under al-Mutasim whose son he tutored; oversaw one of the two main translation circles, mediating between patrons and the translators who did the work; his writings as 'a sustained public relations campaign' for Greek thought; the Fihrist's list of titles in which scientific and mathematical works outnumber philosophical ones; his treatise On the Quantity of Aristotle's Books, which shows he had not read some of the works it summarises; the mathematical bent of his method; reception in Latin Europe. Peer-reviewed scholarly encyclopedia entry by a leading specialist; it does not mention cryptanalysis.",
+      "url": "https://plato.stanford.edu/entries/al-kindi/"
+    },
+    {
+      "id": "src_kindi_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Abu Yusuf Yaqub ibn Ishaq al-Sabbah Al-Kindi', MacTutor History of Mathematics archive (University of St Andrews), read in full (about 1,500 words): education in Kufa and Baghdad, appointment to the House of Wisdom under al-Mamun, tutoring al-Mutasim's son, falling out of favour under later caliphs with the reasons uncertain, that he did not know Greek well enough to translate himself and polished translations made by others, his writings on arithmetic, geometry and optics, and his criticism of Anthemius for accepting a claim 'without proof', quoted from his own book. Scholarly popular history of mathematics biography; it flags that its sources are not all consistent and mixes in some tradition.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Kindi.html"
+    },
+    {
+      "id": "src_kindi_dsb",
+      "kind": "biography",
+      "title": "'Al-Kindi, Abu Yusuf Yaqub ibn Ishaq al-Sabbah', Complete Dictionary of Scientific Biography (Scribner's, 2008; read at the MacTutor mirror of the entry), read in the life and translation sections (about 5,000 words): that little reliable information on his life survives and the dates are inferred, the Greek translation campaign and the finding that his role was to correct, comment upon or summarise translations by Hunayn ibn Ishaq and others and to help fix philosophical terminology, the tutoring of al-Mutasim's son, his later fall from favour with the caliph al-Mutawakkil and relative isolation, and the classification of his surviving philosophical works. Scholarly reference entry, specialist and cautious.",
+      "url": "https://mathshistory.st-andrews.ac.uk/DSB/Al-Kindi.pdf"
+    },
+    {
+      "id": "src_kindi_columbia",
+      "kind": "biography",
+      "title": "'Kindi, al-', The Columbia Encyclopedia, 6th edition (via Encyclopedia.com), read in full (about 250 words): Arab philosopher thoroughly versed in Aristotle, who tried to show the harmony of Plato and Aristotle, called 'the philosopher of the Arabs', with over 250 treatises, only a few on medicine and astrology extant before 24 philosophical works came to light in the 1940s, who wrote against alchemy and some beliefs in miracles. Very short; it also says his library was confiscated by al-Mutawakkil, which is not scored.",
+      "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/kindi-al"
+    },
+    {
+      "id": "src_kindi_hoi",
+      "kind": "press",
+      "title": "Jeremy Norman, 'Al-Kindi Writes the First Treatise on Cryptanalysis', historyofinformation.com, read in full (three sentences): describes the discussion of frequency analysis in his treatise on deciphering cryptographic messages, written in Baghdad about 850, as the first recorded exposition of any kind of cryptanalysis, and notes the suggestion that study of the Quran showed Arabic's characteristic letter frequency. Short web chronology entry by a bibliographer; no footnotes, and the 'first' claim is the site's, so it is used only for the existence and date of the treatise.",
+      "url": "https://www.historyofinformation.com/detail.php?entryid=3605"
+    },
+    {
+      "id": "src_kindi_singh",
+      "kind": "press",
+      "title": "Simon Singh, 'Arab Code Breakers' (simonsingh.net, accompanying a television series), read in full (about 1,200 words): the substitution cipher and its weakness to frequency counting, the rediscovery by the historian Mohammed Mrayati of al-Kindi's manuscript on deciphering cryptographic messages in the Sulaimaniyyah archive in Istanbul, and a description of the method. Popular science writing; it calls him 'director of the House of Wisdom', which the scholarly entries do not say, so that title is not used.",
+      "url": "https://simonsingh.net/media/articles/maths-and-science/arab-code-breakers"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kindi_eb, src_kindi_sep, src_kindi_mactutor, src_kindi_columbia | c. 820-860 | reference + scholarly] Britannica lists philosophy, astrology, medicine, Indian arithmetic and other subjects; Adamson reports from the Fihrist that his scientific and mathematical titles outnumber the philosophical, and that the extant corpus includes optics, drug preparation, music and astrology; MacTutor adds arithmetic, geometry and music. The breadth is attested mainly by a tenth-century title list and a few survivors, so the numbers (250 to 290 works) differ between sources and are not used."
+    },
+    "analytical_rigor": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kindi_mactutor, src_kindi_sep | c. 830-860 | scholarly biography + encyclopedia] MacTutor quotes his own criticism of the Greek writer Anthemius for accepting a claim 'without proof' and reports that he supplied the missing construction; Adamson says mathematics was fundamental to his method and that he applied geometry to optics. The critical stance is documented in his own book as quoted in a secondary history, and Adamson also notes that he summarises Aristotelian works he had not read, so rigour is moderate."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kindi_sep, src_kindi_dsb, src_kindi_mactutor | c. 820-850 | scholarly encyclopedia + dictionary] Adamson says he oversaw one of the two main translation circles and acted as mediator between patrons and the translators, many of them Syriac-speaking Christians; the Dictionary of Scientific Biography finds that on works translated by Hunayn ibn Ishaq and others his role was to correct, comment on or summarise rather than translate, and to help fix terminology. This is documented organising and editing work in a translation movement; nothing is known of day-to-day working relationships."
+    },
+    "persuasiveness": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kindi_sep, src_kindi_dsb, src_kindi_columbia | c. 830-850 | scholarly encyclopedia + dictionary] Adamson characterises his writings as a sustained campaign to display the value of Greek thought to a Muslim audience, opening On First Philosophy with an exhortation to honour Greek wisdom, and says he used philosophy to defend and explain Islam in several works; the dictionary entry notes that the same treatise begins with a defence of philosophy. This is the scholar's interpretation of the purpose of his writings, and there is no evidence about how persuasive they were with readers in his own time."
+    },
+    "creative_originality": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kindi_sep, src_kindi_mactutor, src_kindi_dsb, src_kindi_hoi | c. 830-860 | scholarly encyclopedia + biography + web chronology] Adamson calls On the Intellect the first treatise in the Arabic tradition to give a taxonomy of the types of intellect; MacTutor says he built earlier ideas into an overall scheme of his own and the dictionary notes he argued the world is finite in time, differing from the Greek philosophers; a web chronology describes his treatise on deciphering messages (c. 850) as the first recorded exposition of cryptanalysis. His work is heavily indebted to Greek sources, and the cryptanalysis claim reaches me only through two popular sources. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.46 to 58 / 0.42 because the cryptanalysis element rests on popular web sources and the scholarly entries stress his dependence on Greek authorities and his mediating role."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "킨디"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved after one bounded retry. Wikidata has no image. In the Commons category for Al-Kindi: 'Al-Kindi.jpg' is a modern artwork by Muntadher Saleh (CC BY-SA 4.0 with an emailed permission ticket), a derivative modern work and an emailed permission; 'Al-Kindi Portrait.jpg' is a computer-processed imaginary drawing derived from a 1975 Egyptian postage stamp by Michel Bakni (CC BY-SA 4.0), a modern derivative; 'Al-kindi.jpeg' (143 x 197 pixels) is an unidentified photograph of a manuscript miniature with an unknown author and an unproven public-domain-by-age tag, with no holding institution; the 1962 Iraqi stamp images are stamp artwork; the BEIC files are photographs of Latin manuscript and print pages (a 17th-century manuscript leaf and a 1509 edition of an astrological work) that show no depiction of al-Kindi. All rejected. Next step: find a printed or manuscript depiction of al-Kindi (for example a Latin or Arabic translation frontispiece or a miniature) held by a library with an item-level public-domain statement (Wellcome public domain mark, a museum open-access record or an Internet Archive plate published before 1931). Kind, if resolved: historical depiction."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed: Wikidata has no image and every Commons file is a modern artwork, an emailed-permission file or an unidentified tiny manuscript photo; HELD after one bounded retry (see portrait.reason). PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q179759 label 'Al-Kindi', description 'Muslim Arab philosopher, mathematician and physician (c.801-873)'; Wikidata gives birth 801 (alternatives 800, 796) and death 873 (alternative 870); sources disagree (Britannica d. c. 870, Dictionary of Scientific Biography ca. 866, Adamson 'early 870s'), so 801-873 follows Wikidata and is flagged as uncertain; no production (prod60.txt) or candidate slug/QID collision. REGION west_asia (Baghdad, Iraq; precedent al-Farabi, al-Khwarizmi, al-Razi), polity.abbasid_caliphate (existing key), nationalityCodes empty as for those precedents; ERA medieval; field 'philosophy' is in the science category per the brief and natural_science is used for his scientific writing. ZERO POLITICS: primary identity is philosopher, mathematician and translation organiser; court appointments, the later fall from favour under al-Mutawakkil, the library confiscation and any Mutazilite sympathies are NOT scored. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'al-Kindi' (https://www.britannica.com/biography/al-Kindi). READ: Britannica, Stanford Encyclopedia (Adamson, main sections), MacTutor biography, Dictionary of Scientific Biography entry, Columbia entry, Norman web chronology, Singh article (7 sources read; 4 substantive scholarly: SEP, MacTutor, DSB, Britannica). The Stanford entry does not mention cryptanalysis, so the cryptanalysis card relies on two popular web sources and is hedged. PERSPECTIVES: scholarly encyclopedias; a mathematics-history biography that quotes his own text; a dictionary that tests his role in translation (counter to the popular picture of him as translator-in-chief). NON-SELF BEHAVIOURAL: Adamson and the DSB on his supervisory and editing role in the translation circle, drawing on ancient bibliographers; his own words appear once (the Anthemius criticism, via MacTutor) and are never sole support. NOT OPENED: Encyclopaedia Iranica (URL not found/404), Encyclopaedia of Islam, Ibn al-Nadim's Fihrist itself, Adamson's monograph and the edited Arabic treatises (paywalled or not retrieved). CONFLICTS RECORDED: Singh calls him director of the House of Wisdom, not stated by scholarly sources and not used; birthplace given as Kufa (MacTutor, DSB) and Basra (Britannica, SEP, Columbia): not used; life details are legend-prone and little is certain. Korean name: Wikidata ko label '킨디'. SELF-CALIBRATION pass: rows reviewed creative_originality (lowered 62/0.46 to 58/0.42), cross_domain_range (kept), analytical_rigor (kept). FLAGS: 5 rows, max score 66, max confidence 0.50. HANDBACK60: {\"slug\": \"al-kindi\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 62, \"old_confidence\": 0.46, \"new_score\": 58, \"new_confidence\": 0.42, \"reason\": \"cryptanalysis element rests on popular web sources and the scholarly entries stress dependence on Greek authorities and a mediating role\"}], \"reviewed_kept\": [\"cross_domain_range\", \"analytical_rigor\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

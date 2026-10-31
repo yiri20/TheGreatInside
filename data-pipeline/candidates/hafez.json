@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hafez",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hafez",
+    "aliases": ["Hafiz", "Hafez of Shiraz", "Shams-ud-Din Muhammad Hafez", "Khwaja Shams al-Din Muhammad Shirazi", "Hafez-e Shirazi"],
+    "wikidataId": "Q6240",
+    "birthYear": 1325,
+    "deathYear": 1390,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": ["IR"],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": ["poet"],
+    "fieldIds": ["literature"],
+    "impactDomains": ["literary", "cultural", "artistic"],
+    "tagIds": [],
+    "archetypeIds": ["creative_creator"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hafez_wikidata",
+      "kind": "wikidata",
+      "title": "Hafez (Q6240), verified live via the Wikidata API (2026-10-31): label 'Hafez', description 'Persian poet and mystic (1325-1389)', born 1326 and 1325 (year precision), died 1389, Korean label present, images 'Anselm Feuerbach Hafis vor der Schenke (cropped).jpg' and a statue photograph. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q6240"
+    },
+    {
+      "id": "src_hafez_britannica",
+      "kind": "biography",
+      "title": "The Editors, 'Hafez', Encyclopaedia Britannica, read in full. CANONICAL SIGNIFICANCE SOURCE: one of the finest lyric poets of Persia, born 1325/26 and died 1389/90 in Shiraz; classical religious education, lectures on the Quran and commentaries on religious classics; court poet under several rulers of Shiraz who fell out of favour about 1368-69 and regained his place only about twenty years later; his principal form the ghazal, used instead of the qasida in panegyrics with the panegyric element cut to a line or two; colloquial and musical language; the Divan and its partial English translations. Reference entry; the praise is retrospective.",
+      "url": "https://www.britannica.com/biography/Hafez"
+    },
+    {
+      "id": "src_hafez_iranica",
+      "kind": "biography",
+      "title": "Baha'-al-Din Khorramshahi, 'Hafez ii. Hafez's Life and Times', Encyclopaedia Iranica (2002), read in full. Scholarly entry: details of the life are 'extremely sketchy' and the tazkira sketches often unreliable or fictitious; the earliest surviving document is a preface to the Divan by a contemporary who may have been Muhammad Golandam, with scholars disagreeing on his identity and the text's accuracy; dates of birth (715/1315 or 717/1317) and death (792/1390, with 791/1389 in some sources) disputed; schooling in the Quranic sciences and Arabic; poems on patrons from the Inju and Muzaffarid courts; a warning against reading biography out of the poems. Primary scholarly source for this profile and the main limit on what can be scored.",
+      "url": "https://iranicaonline.org/articles/hafez-ii"
+    },
+    {
+      "id": "src_hafez_gale",
+      "kind": "biography",
+      "title": "'Hafiz', World Eras (Gale), via Encyclopedia.com, read in full: the Quran-memorizer nickname, said to have worked as a baker's apprentice and manuscript copyist, broad education in Arabic and Persian literature, lectures on Quranic interpretation at a college, royal disfavour dated 1366-1376 with some time away from Shiraz in Isfahan and Yazd, his refusal of distant rulers' invitations, a Divan said to have been finalised in 1368 but perhaps arranged by a follower after his death, about five hundred authentic poems amid many false attributions, and the use of ghazal conventions for other purposes; cites Wickens in the Encyclopedia of Islam and Hillmann. Reference article; some details are hedged with 'said to'.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/asian-literature-biographies/hafiz"
+    },
+    {
+      "id": "src_hafez_poetryfoundation",
+      "kind": "institution",
+      "title": "Poetry Foundation, 'Hafez', read in full (one paragraph): very little is known of his life, he left school to work at a bakery and as a copyist after his father's death, became a court poet under Abu Ishak, taught at a religious college and wrote ghazals of love, spirituality and protest whose lines became proverbs. Short institutional biography; its details overlap with the Gale entry and the 'bakery' account is of the traditional kind.",
+      "url": "https://www.poetryfoundation.org/poets/hafez"
+    },
+    {
+      "id": "src_hafez_whe",
+      "kind": "biography",
+      "title": "Joshua J. Mark, 'Hafez Shiraz', World History Encyclopedia, read in the life and court-poet sections: the Quran-memorizer name, memorisation of earlier Persian poets as influences, no definitive collection of his works and a divan compiled by others whom scholars cannot identify or date, and the traditional anecdotes of the baker's delivery boy and Shakh-e Nabat, which it reports with 'is said to'. Popular reference article; its legendary episodes are NOT used and serve as the example of what is excluded.",
+      "url": "https://www.worldhistory.org/Hafez_Shiraz/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hafez_britannica, src_hafez_gale | c.1350-1390 | reference entries] Britannica credits him with using the ghazal instead of the qasida for panegyric, reducing the panegyric to a line or two and giving the conventional love-and-wine motifs a new freshness; the Gale entry says he drew on the vocabulary of love-and-wine ghazals for other purposes, including praise of his patron, and that his subtlety and technical perfection led many readers to rank him first among Persian poets. These are descriptions of the poetry by later reference writers, not accounts of his behaviour, and the Iranica entry warns against reading a poet's character from the poems, so the row is limited to the documented formal innovation. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 68 / 0.45 to 64 / 0.42 because the innovation claims rest on retrospective praise in two reference entries and the Iranica source does not confirm them."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hafez_iranica, src_hafez_britannica, src_hafez_gale | c.1335-1370 | scholarly encyclopedia, reference entries] Iranica says he studied the traditional curriculum of Quranic sciences and Arabic, with the schooling reconstructed from a contemporary preface and references in the Divan; Britannica says he lectured on Quranic and other theological subjects and wrote commentaries on religious classics; Gale says he memorised the Quran, knew Arabic well and was widely read in Persian literature, adding that this is partly 'said to' and that the copyist occupation may have supplied his education. The schooling and teaching are documented in outline from late and partly reconstructed sources, so the row is modest."
+    },
+    "cross_domain_range": {
+      "score": 52,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hafez_britannica, src_hafez_gale, src_hafez_poetryfoundation | c.1350-1390 | reference entries, institutional biography] Britannica and Gale describe him as both a court poet and a lecturer on theology and the Quran who wrote commentaries, and the Poetry Foundation says he taught at a religious college while writing ghazals. The combination is described by three short entries that overlap, the extent of the teaching and the closeness to the court are uncertain in Gale, and nothing shows how he moved between the roles, so the confidence is low."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "하피즈"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hafez-feuerbach-1852.jpg",
+    "width": 1200,
+    "height": 1125,
+    "source": "Detail of 'Hafis vor der Schenke' (Hafez in front of the tavern), oil on canvas, Anselm Feuerbach, 1852, Kunsthalle Mannheim (acquired 1913). An imagined nineteenth-century painting made about 460 years after the poet's death, so it is a later depiction and not a likeness. The painter died in 1880, so the work is in the public domain by age worldwide, and a faithful photograph of a flat painting adds no new copyright. The file is a plain crop of the figure from the full 3000 x 2428 pixel image on Wikimedia Commons (originally from Zeno.org), downscaled to 1200 x 1125 with no upscaling.",
+    "license": "Public domain (artist died 1880)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Anselm_Feuerbach_Hafis_vor_der_Schenke.jpg",
+    "attribution": "Anselm Feuerbach, Hafis vor der Schenke, 1852, Kunsthalle Mannheim, public domain, via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Anselm_Feuerbach_Hafis_vor_der_Schenke.jpg",
+    "creator": "Anselm Feuerbach",
+    "date": "1852",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Anselm_Feuerbach_Hafis_vor_der_Schenke.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / CONFIRMED with caveats: Commons file page for 'Anselm Feuerbach Hafis vor der Schenke (cropped).jpg' lists artist Anselm Feuerbach (1829-1880), date 1852, oil on canvas 205 x 258 cm, institution Kunsthalle Mannheim (acquired 1913), source Zeno.org, tag PD-Art with PD-old-100-expired; the cropped Commons file is only 467 x 549, so I made my own plain crop of the figure from the full 3000 x 2428 Commons file and downscaled it to 1200 x 1125 (viewed: the poet with a cup, a small part of another figure's hair not included). The Kunsthalle Mannheim online collection page (sammlung-online.kuma.art/node/3926) could not be opened (no response), so no institutional notice was checked; the legal basis rests on the artist's death in 1880 and the work being a flat 2D painting, not on the museum. kind historical_depiction (imagined, 1852). The painting shows a nineteenth-century idea of the poet, not a likeness. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q6240 label 'Hafez', description 'Persian poet and mystic (1325-1389)', born 1326/1325, died 1389; not in prod60 list and no candidate slug exists (omar-khayyam and abbas-kiarostami are separate). REGION west_asia, following Omar Khayyam and Abbas Kiarostami (Iran). ERA medieval. DATES: the sources conflict (Iranica 715/1315 or 717/1317 to 792/1390, Britannica 1325/26 to 1389/90, Wikidata 1325/1326 to 1389), so 1325 and 1390 are used as the brief's c.1325-1390, with the dispute recorded here. ZERO POLITICS: primary identity is a poet; patrons and dynasties are context and not scored. VOCABULARY: occupation poet, field literature, impactDomains literary, cultural and artistic, archetype creative_creator, no tags (the 'mystic' tag was not used because sources treat the Sufi reading of his poems as contested), all grepped in en.ts and ko.ts; no historicalPolityKey (no Inju or Muzaffarid key exists). KO NAME: Wikidata Korean label 하피즈. CANONICAL SIGNIFICANCE SOURCE: The Editors, 'Hafez', Encyclopaedia Britannica (https://www.britannica.com/biography/Hafez). READ IN FULL: Britannica, Iranica (Khorramshahi), Gale/Encyclopedia.com, Poetry Foundation, World History Encyclopedia (six sources). PERSPECTIVES: reference encyclopedia, scholarly encyclopedia, institutional biography, popular encyclopedia. COUNTER-VOICES AND LIMITS: Iranica's warning that biography built from the poems and the tazkiras is anachronistic or fictitious; the unresolved identity of the preface author (Golandam) and so of the Divan's compilation; Gale's and the Poetry Foundation's hedged bakery story. NOT OPENED: Iranica's other Hafez sections, Dick Davis's translations and essays, Hillmann, Schimmel and Shamisa (known only through citations), the Kunsthalle Mannheim page. LEGEND VERSUS SCHOLARSHIP: the Shakh-e Nabat vision, the Timur anecdotes, the bakery delivery story and the 40-night vigil are not used; the Divan's wine and love imagery is not read as biography. VERY SPARSE PROFILE: three rows, none above 64, confidence 0.35-0.42, no row from his poems as self-report. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (68/0.45 lowered to 64/0.42), mastery_orientation (kept), cross_domain_range (kept). HANDBACK60: {\"slug\": \"hafez\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 3, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 68, \"old_confidence\": 0.45, \"new_score\": 64, \"new_confidence\": 0.42, \"reason\": \"the innovation claims rest on retrospective praise in two reference entries and the Iranica source does not confirm them\"}], \"reviewed_kept\": [\"mastery_orientation\", \"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 3}"
+  }
+}

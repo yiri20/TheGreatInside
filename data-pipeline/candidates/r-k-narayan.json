@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "r-k-narayan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "R. K. Narayan",
+    "aliases": [
+      "Rasipuram Krishnaswami Narayan",
+      "R.K. Narayan",
+      "Narayan"
+    ],
+    "wikidataId": "Q334252",
+    "birthYear": 1906,
+    "deathYear": 2001,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_narayan_wikidata",
+      "kind": "wikidata",
+      "title": "R. K. Narayan (Q334252), verified live via the Wikidata API (2026-10-31): label 'R. K. Narayan', description 'Indian English-language writer (1906-2001)', Korean label present, image 'RK Narayan in Mysore.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q334252"
+    },
+    {
+      "id": "src_narayan_brit",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'R.K. Narayan' (article opened; the print version shows only the introduction). CANONICAL SIGNIFICANCE SOURCE: one of the finest authors of Indian writing in English; themes of tradition against modernity, individual freedom and family life; genial humour, gentle irony and simplicity; with Mulk Raj Anand and Raja Rao laid the foundations of the novel as a genre in Indian literature, Narayan using simple, humorous prose for the lives of ordinary people. Reference-work summary with an admiring tone.",
+      "url": "https://www.britannica.com/biography/R-K-Narayan"
+    },
+    {
+      "id": "src_narayan_gale",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'Narayan, R. K.' (Gale literary reference entry, read in full): career outline from 1930 to 2001, at least three books each decade, the fictional town of Malgudi, the rejection slips and teaching stint, the 1935 publication of Swami and Friends after Graham Greene's recommendation, awards including the Sahitya Akademi Award for The Guide, and critics' mixed response to A Tiger for Malgudi. Compiled reference text that draws on the Rams' biography and Narayan's memoir.",
+      "url": "https://www.encyclopedia.com/arts/encyclopedias-almanacs-transcripts-and-maps/narayan-r-k"
+    },
+    {
+      "id": "src_narayan_the",
+      "kind": "press",
+      "title": "Times Higher Education, 'The peopling of Malgudi', review of Susan Ram and N. Ram's 'R. K. Narayan: The Early Years, 1906-45' by Andrew Robinson (1997; read in full): says the biography draws on family papers, Narayan's journal and his correspondence with Graham Greene, describes how Greene recommended Swami and Friends, and says Narayan was bold to avoid a steady job and stay loyal to English despite criticism from writers in Indian languages, while the family's support let him survive. Critical on the biography's plodding style and weak index. Independent review of a scholarly biography (the biography itself was not opened).",
+      "url": "https://www.timeshighereducation.com/node/89440"
+    },
+    {
+      "id": "src_narayan_keay",
+      "kind": "press",
+      "title": "Slightly Foxed literary review, John Keay, 'Slow Train to Malgudi' (Issue 22; read in full): essay on The Guide and Narayan's novels; says he was nominated for the Nobel more than once but never won, that he favoured benign detachment and gentle mockery over social outrage and so sat outside post-colonial expectations, that Greene read drafts of all his novels, and that he set up Indian Thought Publications to publish his own works in India. Personal literary essay with an admiring and mildly critical stance.",
+      "url": "https://foxedquarterly.com/john-keay-r-k-narayan-literary-review/"
+    },
+    {
+      "id": "src_narayan_tribune",
+      "kind": "press",
+      "title": "The Tribune (Chandigarh), 'Novelist R K Narayan dead' (14 May 2001; read in full): news obituary saying he put Indian fiction writing in English on the world map, describing his plain, humorous and elegant language, listing the Sahitya Akademi award of 1958 for The Guide, honours and translations. Contemporary wire obituary; mentions a 1989 Rajya Sabha nomination, which is political context and not scored.",
+      "url": "https://www.tribuneindia.com/2001/20010514/main5.htm"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_narayan_gale, src_narayan_the, src_narayan_keay | 1930-1990 | reference entry + review of a biography + literary essay] Gale describes years of rejection slips before his first printed article in 1930, a first novel that publishers turned down until Graham Greene's recommendation led to publication in 1935, poor sales of his next two novels, and at least three books written every decade from the 1930s to the early 1990s; the Times Higher Education review says it was bold of him to avoid a steady job and keep writing in the face of discouragement. The three sources largely draw on the Rams' biography and his memoir, so they are not independent of one another. SELF-CALIBRATION (agent): lowered from 70 / 0.52 to 66 / 0.48 because the independent-looking sources all rest on the same biography and memoir, and the reviewer himself says the family's support let him survive."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_narayan_brit, src_narayan_gale, src_narayan_keay | 1935-1990 | reference works + literary essay] Britannica says he laid the foundations of the novel in Indian literature with Anand and Rao and wrote of ordinary lives in simple, humorous prose; Gale credits the invented town of Malgudi as a microcosm for studying class and race; Keay praises the recurring cast of Malgudi figures and the pattern in which worldly success wears down a character. These are admiring summaries of the work, not accounts of his method or of comparison with other writers. SELF-CALIBRATION (agent): lowered from 66 / 0.48 to 62 / 0.44 because the claim of laying foundations is stronger than the documented behaviour and rests on reference-work praise."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_narayan_the, src_narayan_keay, src_narayan_gale | 1930s-1980s | review of a biography + literary essay + reference entry] The Times Higher Education review says he avoided taking a steady job despite family opposition and stayed loyal to English despite criticism from writers in Indian languages; Keay says he favoured gentle detachment over the post-colonial expectations of his time and set up Indian Thought Publications to publish his works at home; Gale records that he abandoned a school teaching job for writing. The independence is documented as career choices, but the reviewer notes family support made it possible."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_narayan_gale, src_narayan_keay | 1930s-1940s | reference entry + literary essay] Gale says that in the war years, with Graham Greene out of reach, he kept himself going through journalism, talks on Madras radio and editing the journal Indian Thought from 1941; Keay says he created Indian Thought Publications as his own home-market publisher. These are summary statements without detail of how the arrangements worked, so the row stays modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "R. K. 나라얀"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. The Wikidata image 'RK Narayan in Mysore.jpg' (249 x 337) is a c. 1935 photograph credited to R. K. Balaraman, taken from a Frontline web page; its Commons licence is an Indian public-domain template that rests on Indian law alone, with no documented first publication date, no death date for the named photographer, and no check against the United States restoration date, so it is a jurisdiction-only claim. Other Commons files checked and rejected: two mid-1920s family photographs of unknown authorship with the same Indian-only template, a 1957 New York World-Telegram and Sun news photograph of three men (150 x 120) whose Commons basis is an 'instrument of gift' argument for a Library of Congress item with no item-level rights statement, a 2009 Indian postage stamp, and an autograph. Next step: find a photograph with a documented rights basis, for example a named photographer with a dated death and licence, a government or institution page stating terms, or a Wikimedia event photograph of Narayan with a verifiable licence."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed: the c.1935 photograph 'RK Narayan in Mysore.jpg' by R. K. Balaraman relies on an Indian-law public-domain template only (see portrait.reason); one bounded retry of the Commons category found only unknown-author Indian-template photos, a tiny 1957 Library of Congress news photo with a gift-based argument, and a stamp, none with a concrete United States basis. PORTRAIT HELD. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q334252 label 'R. K. Narayan', description 'Indian English-language writer (1906-2001)', born 1906-10-10, died 2001-05-13, Korean label 'R. K. 나라얀'. No production or candidate slug/QID collision (grepped prod60 and data-pipeline/candidates; the only 'narayan' slug is n-r-narayana-murthy, a different person). REGION south_asia; ERA 20th_century. ZERO POLITICS: primary identity is novelist; his 1989 Rajya Sabha nomination and any political themes in Waiting for the Mahatma are context and not scored. VOCABULARY: occupation writer (novelist has no label), field literature, tag prolific, archetype creative_creator, all grepped in en.ts and ko.ts. KO NAME: Korean Wikidata label, recorded as used. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'R.K. Narayan' (https://www.britannica.com/biography/R-K-Narayan). READ IN FULL: Encyclopedia.com Gale entry; Times Higher Education review of the Rams' biography (Andrew Robinson, 1997); John Keay essay in Slightly Foxed; The Tribune obituary (2001); Britannica opened only as a print introduction. PERSPECTIVES: reference works, a review of the scholarly biography, a literary essay with a mildly critical view (no Nobel, outside post-colonial expectations), a news obituary. COUNTER-VOICES: Keay's remark on lack of social outrage and Robinson's critique of the biography; Gale notes mixed reviews of A Tiger for Malgudi. NOT OPENED: Susan Ram and N. Ram's biography itself, William Walsh's study, the Greene-Narayan correspondence, and his memoir My Days (reached only as described by Gale); the Tribune's figure of 34 novels conflicts with Gale's count of twelve novels and was not used. EXCLUDED: his wife's death, seances and grief, and any inference of personality from bereavement. SELF-REPORT: My Days and his journal appear only as relayed by secondary sources and are never sole support. SPARSE PROFILE: four rows, none above 66, confidence at most 0.48; 6 sources including one Wikidata orientation source, 5 substantive. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (70/0.52 lowered to 66/0.48), creative_originality (66/0.48 lowered to 62/0.44), autonomy_need (kept). HANDBACK60: {\"slug\": \"r-k-narayan\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"persistence\", \"old_score\": 70, \"old_confidence\": 0.52, \"new_score\": 66, \"new_confidence\": 0.48, \"reason\": \"the independent-looking sources all rest on the same biography and memoir, and the reviewer says family support let him survive\"}, {\"attribute\": \"creative_originality\", \"old_score\": 66, \"old_confidence\": 0.48, \"new_score\": 62, \"new_confidence\": 0.44, \"reason\": \"the foundations claim is stronger than documented behaviour and rests on reference-work praise\"}], \"reviewed_kept\": [\"autonomy_need\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}
